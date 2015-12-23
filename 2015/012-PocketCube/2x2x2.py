@@ -1,7 +1,7 @@
 import time
 
 # Builds a text file with all solutions (one hour)
-# Reads a text file (3.1 seconds)
+# Reads a text file (0.6 seconds)
 # Solves a 2x2x2 pocket cube ( 0.1 ms)
 
 # Colours: white-yellow orange-red blue-green
