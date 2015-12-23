@@ -1,0 +1,3 @@
+
+Implementation to compute the optimal strategy for the game Yatzy.
+The algorithm is described here: http://ansjob.github.io/kexjobb.pdf.
