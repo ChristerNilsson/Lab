@@ -1,0 +1,25 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>{{title}}</h1>
+
+<h2>Add a poll</h2>
+<form action="/polls/add" method='POST'>
+Question: <input type="text" name="question" value=""><br>
+Choice 1: <input type="text" name="choice1" value=""><br>
+Choice 2: <input type="text" name="choice2" value=""><br>
+Choice 3: <input type="text" name="choice3" value=""><br>
+Choice 4: <input type="text" name="choice4" value=""><br>
+Publish? <input type="checkbox" name="publish" value="checked"><br>
+<input type="submit" value="Add poll">
+</form>
+
+{% for l in links %}
+<span><a href="{{l.url}}">{{l.name}}</a></span>  |
+{% endfor %}
+
+
+</body>
+</html>

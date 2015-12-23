@@ -1,0 +1,25 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>{{title}}</h1>
+
+<h2>Edit your poll</h2>
+<form action="/polls/edit/{{poll.slug}}" method='POST'>
+Question: <input type="text" name="question" value="{{poll.question}}"><br>
+{% for c in poll.choices %}
+Choice {{c.id}}: <input type="text" name="choice{{c.id}}" value="{{c.text}}"><br>
+{% endfor %}
+Publish? <input type="checkbox" name="publish" checked="{% if poll.published %}checked{% endif %}"><br>
+<input type="hidden" name="slug" value="{{poll.slug}}">
+<input type="submit" value="Edit poll">
+</form>
+
+{% for l in links %}
+<span><a href="{{l.url}}">{{l.name}}</a></span>  |
+{% endfor %}
+
+
+</body>
+</html>

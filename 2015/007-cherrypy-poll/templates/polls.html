@@ -1,0 +1,20 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>{{title}}</h1>
+
+<h2>Polls</h2>
+<ul>
+{% for p in polls %}
+<li><a href="/polls/poll/{{p.slug}}">{{p.question}}</a></li>
+{% endfor %}
+</ul>
+
+{% for l in links %}
+<span><a href="{{l.url}}">{{l.name}}</a></span>  |
+{% endfor %}
+
+</body>
+</html>

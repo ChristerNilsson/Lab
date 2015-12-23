@@ -1,0 +1,22 @@
+polls_memcache_view = {
+	'which-choice': {'choices': 
+				[{
+					'id':1,
+					'text': 'Choice A',
+					'value':0,
+				},
+				{
+					'id':2,
+					'text': 'Choice B',
+					'value':0,
+				},
+				{
+					'id':3,
+					'text': 'Choice C',
+					'value':0,
+				}]
+			'question': 'Which choice?',
+			'slug':'which-choice',
+	},
+	'published_polls':['which-choice',]
+}

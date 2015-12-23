@@ -1,0 +1,32 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>{{title}}</h1>
+
+<h2>Poll: {{poll.question}}</h2>
+
+{% if success %}
+<p>Thanks for voting!</p>
+<h3>Results</h3>
+{% for c in poll.choices %}
+<p>{{c.text}}: {{c.value}}</p>
+{% endfor %}
+
+{% else %}
+<form action="/polls/poll/{{poll.slug}}" method='POST'>
+{% for c in poll.choices %}
+<input type="radio" name="choice" value="{{c.id}}">{{c.text}}<br>
+{% endfor %}
+<input type="submit" value="Vote">
+</form>
+{% endif %}
+
+{% for l in links %}
+<span><a href="{{l.url}}">{{l.name}}</a></span>  |
+{% endfor %}
+
+
+</body>
+</html>

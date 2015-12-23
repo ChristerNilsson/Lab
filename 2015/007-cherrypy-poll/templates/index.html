@@ -1,0 +1,15 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>{{title}}</h1>
+
+<p>Welcome to the polls app. Feel free to add a poll or answer some questions! :)</p>
+
+{% for l in links %}
+<span><a href="{{l.url}}">{{l.name}}</a></span>  |
+{% endfor %}
+
+</body>
+</html>
