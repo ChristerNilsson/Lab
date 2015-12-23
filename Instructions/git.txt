@@ -1,0 +1,7 @@
+Mitt Github-konto heter https://github.com/ChristerNilsson
+
+Så här committar man:
+  Git | Commit Directory...
+
+Så här pushar man:
+  Git | Repository | Push...  (ctrl-shift-K)
