@@ -1,0 +1,61 @@
+2015-03-03 1 #w Handla mat för 3 dagar
+2015-03-13 2 #w Handla mat för 4 dagar
+2015-02-15 3 m Ring Miranda
+2015-03-10 4 #2tue BRF Horisonten Utför uppgifter.
+2015-03-01 5 y Deklarera privat
+2015-02-17 6 w Avanza
+2015-08-01 7 y Deklarera företag
+2015-04-15 8 3m Bokföring skickas
+2015-05-12 9 3m Deklarera moms
+2015-03-25 10 m Lön + deklarera lön + prel skatt
+2015-03-03 11 w Hantera inkorgen
+2015-03-14 12 m Tvätta lakan och handdukar. Städa köket
+2015-03-01 13 1sun Söndagsmiddag
+2015-03-11 14 8w Frisör
+2015-03-25 16 w CoderDojo Kulturhuset 16:30-18:00 (åk 15:57)
+2015-03-21 17 w CoderDojo Avega 09:30-12:00 (åk 09:00)
+2015-04-01 18 #m Byt kalenderblad i köket
+2015-04-13 19 #2mon BRF Horisonten Styrelsemöte
+2015-05-01 20 y BRF Horisonten Stämma
+2015-04-15 21 y Vårlig fönstertvätt
+2015-03-12 22 m Rensa öron
+2015-02-25 23 w Extra tandborstning
+2015-03-03 24 #2w Klipp naglar
+2016-03-01 25 y SD årsmöte
+2015-02-28 26 d Spåra iPhone och iPad
+2016-03-19 27 y Rensa vaskar o avlopp
+2015-05-01 28 y Tandläkare ?
+2015-05-01 29 y Hälsoundersökning ?
+2016-01-01 30 #y Bilbesiktning
+2015-05-01 31 #y Tvätta alla fönster
+2015-05-05 32 3m Byta rakblad
+2015-05-05 33 3m Byta tandborste
+2016-03-14 35 #y Pi-dagen
+2016-02-04 36 y Friskis & Svettis årskort går ut.
+2015-03-11 37 5w Tvätta & städa vardagsrum
+2015-03-18 38 5w Tvätta & städa sovrum
+2015-02-18 39 5w Tvätta & städa 2 arbetsrum
+2015-02-25 40 5w Tvätta & städa trappa + hall
+2015-03-04 41 5w Tvätta & städa 2 toaletter
+2015-03-16 42 m Hämta skjortor kemtvätt.
+2015-03-16 43 6m Bada i badkar.
+2015-03-31 44 w Körskola Karolina
+2015-04-10 47 y Fotvård + Pedikyr
+2015-02-20 51 #w Kolla SEB-konton varje vecka
+2015-02-27 52 #3m Tvätta köksmattan
+2015-04-15 53 #3m Tvätta hallmattan
+2015-06-30 54 #y Skattekontoutdrag till Axioma
+2015-06-30 55 #y Engagemangsbesked SEB till Axioma
+2016-01-22 -1 #y Birthday Sandberg
+2016-03-03 -2 #y Birthday Karolina
+2015-03-19 -3 #y Birthday Dongjiao
+2015-03-25 -4 #y Birthday William
+2015-03-30 -5 #y Birthday Lennart Z
+2015-04-05 -6 #y Birthday Anneli
+2015-04-30 -7 #y Birthday Kasper
+2015-05-27 -8 #y Birthday Anette
+2015-06-13 -9 #y Birthday Miranda
+2015-08-05 -10 #y Birthday Numa
+2015-10-28 -11 #y Birthday Maria
+2015-12-19 -12 #y Birthday Christer
+2016-02-05 -13 #y Birthday Numa Halfyear

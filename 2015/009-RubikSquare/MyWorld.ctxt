@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment1.params=
+comment1.target=MyWorld()
+comment2.params=k1\ k2\ a\ b\ c
+comment2.target=void\ fix(int,\ int,\ int,\ int,\ int)
+comment3.params=a\ b
+comment3.target=void\ handle(int,\ int)
+comment4.params=s\ a\ b\ c
+comment4.target=java.lang.String\ mm3(java.lang.String,\ int,\ int,\ int)
+comment5.params=s\ i
+comment5.target=java.lang.String\ makemove3(java.lang.String,\ int)
+comment6.params=s\ a\ b\ c\ d
+comment6.target=java.lang.String\ mm(java.lang.String,\ int,\ int,\ int,\ int)
+comment7.params=s\ i
+comment7.target=java.lang.String\ makemove(java.lang.String,\ int)
+comment8.params=s
+comment8.target=java.lang.String\ shorten(java.lang.String)
+comment9.params=
+comment9.target=void\ solve()
+numComments=10
