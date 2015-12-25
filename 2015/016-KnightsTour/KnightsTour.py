@@ -1,4 +1,5 @@
 import copy
+import time
 
 # https://en.wikipedia.org/wiki/Knight%27s_tour#Warnsdorff.27s_algorithm
 
@@ -55,7 +56,9 @@ def knights_tour(start, boardsize=boardsize, _debug=False):
             input('\n%2i next: ' % move)
     return board
 
+starttime = time.clock()
 boardsize = 8
 start = 'a1'
 board = knights_tour(start, boardsize)
 print(boardstring(board, boardsize=boardsize))
+print time.clock() - starttime
