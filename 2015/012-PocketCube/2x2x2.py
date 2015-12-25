@@ -154,7 +154,7 @@ if False:
     create_file()
 else:
     arr = read_file()
-    solve('gorywbrwwboyrgoywrbgbgyo')
+    solve('rgryybbbwbwrrwggogyyowoo')
 print
 print time.clock() - start
 
