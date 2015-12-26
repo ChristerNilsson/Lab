@@ -1,0 +1,1 @@
+# Rosetta Code får stack overflow redan vid 16 x 14
