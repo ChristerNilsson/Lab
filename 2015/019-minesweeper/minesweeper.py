@@ -98,7 +98,7 @@ def parseinput(inputstring, gridsize, helpmessage):
     return {'cell': cell, 'flag': flag, 'message': message}
 
 def playgame():
-    gridsize = 25  # MAX = 26
+    gridsize = 26  # MAX = 26
     numberofmines = gridsize*gridsize/5
     currgrid = [[' ' for i in range(gridsize)] for i in range(gridsize)]
     grid = []
