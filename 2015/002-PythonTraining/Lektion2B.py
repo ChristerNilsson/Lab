@@ -36,13 +36,13 @@ assert a.upper() == 'HARALD'
 ##########################################################################
 
 
-def m(x): return x[::-1].replace('*','i')
+def m(x): return ''
 ass(m('nossl*n rets*rhc'), 'christer nilsson')
 
 
-def n(x): return '-'.join(sorted(x))
+def n(x): return ''
 ass(n('christer'), 'c-e-h-i-r-r-s-t')
 
 
-def o(x): return x+'|'+x[::-1]
+def o(x): return ''
 ass(o('ivar'), 'ivar|ravi')

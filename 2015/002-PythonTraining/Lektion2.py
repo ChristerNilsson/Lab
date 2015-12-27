@@ -39,29 +39,29 @@ assert a.upper() == 'HARALD'
 ##########################################################################
 
 
-def f(x): return x.capitalize()
+def f(x): return ''
 ass(f('pelle'), 'Pelle')
 
 
-def g(x): return x.upper()
+def g(x): return ''
 ass(g('pelle'), 'PELLE')
 
 
-def h(x): return x[2]
+def h(x): return ''
 ass(h('viktor'), 'k')
 
 
-def i(x): return x[2:4]
+def i(x): return ''
 ass(i('viktor'), 'kt')
 
 
-def j(x): return x[::-1]
+def j(x): return ''
 ass(j('rotkiv'), 'viktor')
 
 
-def k(x): return x.split('i')
+def k(x): return ''
 ass(k('christer nilsson'), ['chr','ster n','lsson'])
 
 
-def l(a,b,c): return a.replace(b,c)
+def l(a,b,c): return ''
 ass(l('christer nilsson','i','#'), 'chr#ster n#lsson')
