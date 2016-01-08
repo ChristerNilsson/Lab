@@ -29,13 +29,33 @@ class Water():
         if y in [0, self.b]:
             return 2-d
 
+    # def next_pos(self, x, y, d):
+    #     dx, dy = Water.directions[d]
+    #     while 0 <= x <= self.a and 0 <= y <= self.b:
+    #         #self.antal += 1
+    #         x += dx
+    #         y += dy
+    #     return [x-dx, y-dy]
+
     def next_pos(self, x, y, d):
-        dx, dy = Water.directions[d]
-        while 0 <= x <= self.a and 0 <= y <= self.b:
-            #self.antal += 1
-            x += dx
-            y += dy
-        return [x-dx, y-dy]
+        a,b = self.a,self.b
+        if d == 0:
+            if a > b:
+                if y > 0:
+                    return [x + y - b, b]
+                elif x <= b:
+                    return [0, x]  # A
+                return [x-b, y+b]
+            else:
+                if y == 0:  # A
+                    return [0, x]
+                elif y >= b - a:  # B
+                    return [x + y - b, b]
+                return [x-a, y+a]
+        elif d == 1:
+            return [a, y]
+        elif d == 2:
+            return [x,0]
 
     def solve(self, target):
         lst = [[0, 0, 1]]
@@ -92,11 +112,12 @@ assert water117.find_best(14) == [[0, 0, 1], [7, 0, 0], [0, 7, 1]]
 
 assert Water.gcd(6,15) == 3 and Water.gcd(15,6) == 3 and Water.gcd(3,5) == 1 and Water.gcd(5,3) == 1
 
-w = Water(1401,1297)
+w = Water(1401, 1297)
 best = 0
-for i in range(1,1401+1297):
-    start = time.clock()
+start = time.clock()
+for i in range(1, 1401+1297):
     solution = w.find_best(i)
-    if len(solution)>best:
+    if len(solution) > best:
         best = len(solution)
-    print i, len(solution), time.clock() - start, best
+    print i, len(solution), best
+print time.clock() - start
