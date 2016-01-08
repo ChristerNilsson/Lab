@@ -3,68 +3,100 @@
 # Problemet handlar om att med hjälp av två kärl, 5 och 3 liter mäta upp 4 liter
 # Det ska också generaliseras.
 # a och b får inte ha några gemensamma delare.
-# starta med det första kärlet fyllt.
+# starta med att fylla det första kärlet.
 
-directions   = [ [-1, 1],  [1, 0],   [0, -1] ]
-explanations = ['a to b', 'fill a', 'clear b']
+import time
 
-def next_dir(x, y, a, b, d):
-    if x in [0,a]:
-        return 1-d
-    if y in [0,b]:
-        return 2-d
+class Water():
 
-def next_pos(x, y, a, b, d):
-    dx, dy = directions[d]
-    while 0 <= x <= a and 0 <= y <= b:
-        x, y = x+dx, y+dy
-    return [x-dx, y-dy]
+    directions = [[-1,1], [1,0], [0,-1]]
+    explanations = ['a to b', 'fill a', 'clear b']
 
-def solve(a, b, target):
-    lst = [[0, 0, 1]]
-    x, y, d = a,0,0
-    while x+y != target:
-        lst.append([x, y, d])
-        x, y = next_pos(x, y, a, b, d)
-        d = next_dir(x, y, a, b, d)
-    return lst
+    def __init__(self, a, b):
+        self.a = a
+        self.b = b
+        if Water.gcd(a,b) != 1:
+            print 'impossible:',a,b
+        self.antal = 0
 
-def explain(lst):
-    return [explanations[i] for _, _, i in lst]
+    @staticmethod
+    def gcd(a, b):
+        return b if (a-b) == 0 else Water.gcd(abs(a-b), min(a, b))
 
-assert next_dir(5, 0, 5, 3, 1) == 0
-assert next_dir(0, 2, 5, 3, 0) == 1
-assert next_dir(2, 3, 5, 3, 0) == 2
+    def next_dir(self, x, y, d):
+        if x in [0, self.a]:
+            return 1-d
+        if y in [0, self.b]:
+            return 2-d
 
-assert next_pos(5, 0, 5, 3, 0) == [2, 3]
-assert next_pos(0, 2, 5, 3, 1) == [5, 2]
-assert next_pos(2, 3, 5, 3, 2) == [2, 0]
+    def next_pos(self, x, y, d):
+        dx, dy = Water.directions[d]
+        while 0 <= x <= self.a and 0 <= y <= self.b:
+            #self.antal += 1
+            x += dx
+            y += dy
+        return [x-dx, y-dy]
 
-assert explain([[5, 0, 0]]) == ['a to b']
-assert explain([[0, 0, 1]]) == ['fill a']
-assert explain([[2, 3, 2]]) == ['clear b']
+    def solve(self, target):
+        lst = [[0, 0, 1]]
+        x, y, d = self.a, 0, 0
+        while x+y != target:
+            lst.append([x, y, d])
+            x, y = self.next_pos(x, y, d)
+            d = self.next_dir(x, y, d)
+        return lst
 
-assert solve(3, 5, 1) == [[0, 0, 1], [3, 0, 0], [0, 3, 1], [3, 3, 0], [1, 5, 2]]
-assert solve(5, 3, 1) == [[0, 0, 1], [5, 0, 0], [2, 3, 2], [2, 0, 0], [0, 2, 1], [5, 2, 0], [4, 3, 2], [4, 0, 0], [1, 3, 2]]
+    def find_best(self, target):
+        self.a,self.b = self.b,self.a
+        ab = self.solve(target)
+        self.a,self.b = self.b,self.a
+        ba = self.solve(target)
+        return ab if len(ab) < len(ba) else ba
 
-assert solve(5, 3, 6) == [[0, 0, 1], [5, 0, 0], [2, 3, 2], [2, 0, 0], [0, 2, 1], [5, 2, 0], [4, 3, 2], [4, 0, 0], [1, 3, 2], [1, 0, 0], [0, 1, 1]]
-assert explain(solve(5, 3, 6)) == ['fill a', 'a to b', 'clear b', 'a to b', 'fill a', 'a to b', 'clear b', 'a to b', 'clear b', 'a to b', 'fill a']
+    @staticmethod
+    def explain(lst):
+        return [Water.explanations[i] for _, _, i in lst]
 
-assert len(solve(11, 7, 14)) == 31
+antal = 0
 
-# def gcd(m,n):
-#     return n if (m-n) == 0 else gcd(abs(m-n), min(m, n))
-# assert gcd(6,15) == 3 and gcd(15,6) == 3 and gcd(3,5) == 1 and gcd(5,3) == 1
+water = Water(5,3)
 
-# Leta upp längsta lösningen på tvåsiffriga problem
-# best_solution = []
-# for a in range(1,100):
-#     for b in range(a+1,100):
-#         if gcd(a,b) == 1:
-#             for target in range(1,a+b):
-#                 if target==a:
-#                     continue
-#                 solution = solve(b,a,target)
-#                 if len(solution) > len(best_solution):
-#                     best_solution = solution
-#                     print a,b,target,len(solution),solution
+assert water.next_dir(5, 0, 1) == 0
+assert water.next_dir(0, 2, 0) == 1
+assert water.next_dir(2, 3, 0) == 2
+
+assert water.next_pos(5, 0, 0) == [2, 3]
+assert water.next_pos(0, 2, 1) == [5, 2]
+assert water.next_pos(2, 3, 2) == [2, 0]
+
+assert water.explain([[5, 0, 0]]) == ['a to b']
+assert water.explain([[0, 0, 1]]) == ['fill a']
+assert water.explain([[2, 3, 2]]) == ['clear b']
+
+water35 = Water(3,5)
+water53 = Water(5,3)
+assert water35.solve(1) == [[0, 0, 1], [3, 0, 0], [0, 3, 1], [3, 3, 0], [1, 5, 2]]
+assert water53.solve(1) == [[0, 0, 1], [5, 0, 0], [2, 3, 2], [2, 0, 0], [0, 2, 1], [5, 2, 0], [4, 3, 2], [4, 0, 0], [1, 3, 2]]
+
+assert water35.solve(6) == [[0, 0, 1], [3, 0, 0], [0, 3, 1]]
+assert water53.solve(6) == [[0, 0, 1], [5, 0, 0], [2, 3, 2], [2, 0, 0], [0, 2, 1], [5, 2, 0], [4, 3, 2], [4, 0, 0], [1, 3, 2], [1, 0, 0], [0, 1, 1]]
+assert Water.explain(water53.solve(6)) == ['fill a', 'a to b', 'clear b', 'a to b', 'fill a', 'a to b', 'clear b', 'a to b', 'clear b', 'a to b', 'fill a']
+
+water711 = Water(7,11)
+water117 = Water(11,7)
+assert water711.solve(14) == [[0, 0, 1], [7, 0, 0], [0, 7, 1]]
+assert len(water117.solve(14)) == 31
+
+assert water53.find_best(1) == [[0, 0, 1], [3, 0, 0], [0, 3, 1], [3, 3, 0], [1, 5, 2]]
+assert water117.find_best(14) == [[0, 0, 1], [7, 0, 0], [0, 7, 1]]
+
+assert Water.gcd(6,15) == 3 and Water.gcd(15,6) == 3 and Water.gcd(3,5) == 1 and Water.gcd(5,3) == 1
+
+w = Water(1401,1297)
+best = 0
+for i in range(1,1401+1297):
+    start = time.clock()
+    solution = w.find_best(i)
+    if len(solution)>best:
+        best = len(solution)
+    print i, len(solution), time.clock() - start, best
