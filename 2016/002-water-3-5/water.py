@@ -17,7 +17,6 @@ class Water():
         self.b = b
         if Water.gcd(a,b) != 1:
             print 'impossible:',a,b
-        self.antal = 0
 
     @staticmethod
     def gcd(a, b):
@@ -32,30 +31,29 @@ class Water():
     # def next_pos(self, x, y, d):
     #     dx, dy = Water.directions[d]
     #     while 0 <= x <= self.a and 0 <= y <= self.b:
-    #         #self.antal += 1
     #         x += dx
     #         y += dy
     #     return [x-dx, y-dy]
 
-    def next_pos(self, x, y, d):
+    def next_pos(self, x, y, d):  # executes 4028/18.1 = 222 times faster than while-version
         a,b = self.a,self.b
         if d == 0:
             if a > b:
                 if y > 0:
-                    return [x + y - b, b]
+                    return x + y - b, b
                 elif x <= b:
-                    return [0, x]  # A
-                return [x-b, y+b]
+                    return 0, x  # A
+                return x-b, y+b
             else:
                 if y == 0:  # A
-                    return [0, x]
+                    return 0, x
                 elif y >= b - a:  # B
-                    return [x + y - b, b]
-                return [x-a, y+a]
+                    return x + y - b, b
+                return x-a, y+a
         elif d == 1:
-            return [a, y]
+            return a, y
         elif d == 2:
-            return [x,0]
+            return x, 0
 
     def solve(self, target):
         lst = [[0, 0, 1]]
@@ -85,9 +83,9 @@ assert water.next_dir(5, 0, 1) == 0
 assert water.next_dir(0, 2, 0) == 1
 assert water.next_dir(2, 3, 0) == 2
 
-assert water.next_pos(5, 0, 0) == [2, 3]
-assert water.next_pos(0, 2, 1) == [5, 2]
-assert water.next_pos(2, 3, 2) == [2, 0]
+assert water.next_pos(5, 0, 0) == (2, 3)
+assert water.next_pos(0, 2, 1) == (5, 2)
+assert water.next_pos(2, 3, 2) == (2, 0)
 
 assert water.explain([[5, 0, 0]]) == ['a to b']
 assert water.explain([[0, 0, 1]]) == ['fill a']
@@ -115,9 +113,10 @@ assert Water.gcd(6,15) == 3 and Water.gcd(15,6) == 3 and Water.gcd(3,5) == 1 and
 w = Water(1401, 1297)
 best = 0
 start = time.clock()
-for i in range(1, 1401+1297):
-    solution = w.find_best(i)
-    if len(solution) > best:
-        best = len(solution)
-    print i, len(solution), best
+assert len(w.find_best(1349)) == 2697  # 7 ms
+# for i in range(1, 1401+1297):
+#     solution = w.find_best(i)
+#     if len(solution) > best:
+#         best = len(solution)
+#     print i, len(solution), best, time.clock() - start
 print time.clock() - start
