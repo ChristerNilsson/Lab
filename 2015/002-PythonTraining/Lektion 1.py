@@ -103,9 +103,3 @@ ass(q(10, 5), 2)
 def r(x, y): return 0
 ass(r(2, 3), 8)
 ass(r(3, 2), 9)
-
-
-def s(x): return 0  # allmän form: a*x*x + b*x + c. Välj a,b och c.
-ass(s(2), 11)
-ass(s(3), 19)
-ass(s(4), 29)

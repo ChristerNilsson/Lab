@@ -75,8 +75,6 @@ class Water():
     def explain(lst):
         return [Water.explanations[i] for _, _, i in lst]
 
-antal = 0
-
 water = Water(5,3)
 
 assert water.next_dir(5, 0, 1) == 0
@@ -110,13 +108,8 @@ assert water117.find_best(14) == [[0, 0, 1], [7, 0, 0], [0, 7, 1]]
 
 assert Water.gcd(6,15) == 3 and Water.gcd(15,6) == 3 and Water.gcd(3,5) == 1 and Water.gcd(5,3) == 1
 
-w = Water(1401, 1297)
-best = 0
 start = time.clock()
-assert len(w.find_best(1349)) == 2697  # 7 ms
-# for i in range(1, 1401+1297):
-#     solution = w.find_best(i)
-#     if len(solution) > best:
-#         best = len(solution)
-#     print i, len(solution), best, time.clock() - start
+#assert len(Water(1401, 1297).find_best(1349)) == 2697  # 7 ms
+#assert len(Water(9999, 8887).find_best(9443)) == 18885  # 50 ms
+print len(Water(9999, 8887).find_best(3)) #== 18885  # 50 ms
 print time.clock() - start
