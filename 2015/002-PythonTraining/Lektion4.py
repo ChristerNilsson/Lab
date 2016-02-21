@@ -8,56 +8,59 @@ def ass(a, b):
 
 ##########################################################################
 
-# En ordlista är som en lista, fast man använder bokstäver istället för siffror som index.
+# En ordlista är som en lista, fast man använder namn istället för heltal som index.
 # Ordlistor kan innehålla allt möjligt. T ex tal, strängar, listor och andra ordlistor.
 
 
-a = {}
-a['name'] = 'Harald'
-assert a == {'name': 'Harald'}
-a['year'] = 2007
-assert a == {'name': 'Harald', 'year': 2007}
-assert len(a) == 2
-assert a.keys() == ['name', 'year']
-assert a.values() == ['Harald', 2007]
-a.clear()
-assert a == {}
-b = {'name': 'Jenny', 'kids': ['Viktor', 'Ivar', 'Harald']}
-assert b['kids'] == ['Viktor', 'Ivar', 'Harald']
-del b['kids']
-assert b == {'name': 'Jenny'}
+numa     = {'name': 'Numa',     'born': 2013, 'kids': []}
+kasper   = {'name': 'Kasper',   'born': 1982, 'kids': [numa]}
+miranda  = {'name': 'Miranda',  'born': 1984, 'kids': []}
+karolina = {'name': 'Karolina', 'born': 1995, 'kids': []}
+christer = {'name': 'Christer', 'born': 1954, 'kids': [kasper, miranda, karolina]}
+anneli   = {'name': 'Anneli',   'born': 1963, 'kids': []}
+henning  = {'name': 'Henning',  'born': 1919, 'kids': [christer, anneli]}
+
+all = [numa, kasper, miranda, karolina, christer, anneli, henning]
+
+assert len(all) == 7
+assert len(numa) == 3
+assert all[0] == {'name': 'Numa', 'born': 2013, 'kids': []}
+assert all[0]['name'] == 'Numa'
+assert numa['born'] == 2013
+assert len(henning['kids']) == 2
+assert numa.keys() == ['born', 'kids', 'name']
+assert numa.values() == [2013, [], 'Numa']
+assert [person['born'] for person in all] == [2013, 1982, 1984, 1995, 1954, 1963, 1919]
+assert min([person['born'] for person in all]) == 1919
 
 ##########################################################################
 
-a = {'name': 'Mona', 'kids': ['Alfa', 'Beta']}
-b = {'name': 'Jenny', 'kids': ['Viktor', 'Ivar', 'Harald']}
+
+def born(x): return 0
+ass(born(numa), 2013)
+ass(born(karolina), 1995)
 
 
-def f(x): return 0
-ass(f(a), 2)
-ass(f(b), 2)
+def antalBarn(x): return 0
+ass(antalBarn(christer), 3)
+ass(antalBarn(kasper), 1)
 
 
-def g(x): return ''
-ass(g(a), 'Mona')
-ass(g(b), 'Jenny')
+def barn(x): return []
+ass(barn(christer), ['Kasper', 'Miranda', 'Karolina'])
+ass(barn(kasper), ['Numa'])
 
 
-def h(x): return []
-ass(h(a), ['Alfa', 'Beta'])
-ass(h(b), ['Viktor','Ivar','Harald'])
+def nycklar(x): return []
+ass(nycklar(christer), ['born', 'kids', 'name'])
+ass(nycklar(kasper), ['born', 'kids', 'name'])
 
 
-def i(x): return 0
-ass(i(a), 2)
-ass(i(b), 3)
+def varden(x): return []
+ass(varden(numa), [2013, [], 'Numa'])
+ass(varden(kasper), [1982, [{'born': 2013, 'kids': [], 'name': 'Numa'}], 'Kasper'])
 
 
-def j(x): return []
-ass(j(a), ['kids', 'name'])
-ass(j(b), ['kids', 'name'])
-
-
-def k(x): return []
-ass(k(a), [['Alfa', 'Beta'], 'Mona'])
-ass(k(b), [['Viktor', 'Ivar', 'Harald'], 'Jenny'])
+def youngest(x):
+    return {}
+ass(youngest(all), {'name': 'Numa', 'born': 2013, 'kids': []})
