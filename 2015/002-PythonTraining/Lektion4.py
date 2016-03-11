@@ -3,7 +3,9 @@
 
 def ass(a, b):
     if a != b:
-        print "Assert misslyckades: ", " Fel: ", a, "Rätt: ", b
+        print "Assert misslyckades: "
+        print " Fel: ", a
+        print "Rätt: ", b
         assert a == b
 
 ##########################################################################
@@ -36,31 +38,35 @@ assert min([person['born'] for person in all]) == 1919
 ##########################################################################
 
 
-def born(x): return 0
+def born(person): return person['born']
 ass(born(numa), 2013)
 ass(born(karolina), 1995)
 
 
-def antalBarn(x): return 0
+def antalBarn(person): return len(person['kids'])
 ass(antalBarn(christer), 3)
 ass(antalBarn(kasper), 1)
 
 
-def barn(x): return []
-ass(barn(christer), ['Kasper', 'Miranda', 'Karolina'])
-ass(barn(kasper), ['Numa'])
+def barn(person): return person['kids']
+ass(barn(christer), [{'born': 1982, 'kids': [{'born': 2013, 'kids': [], 'name': 'Numa'}], 'name': 'Kasper'}, {'born': 1984, 'kids': [], 'name': 'Miranda'}, {'born': 1995, 'kids': [], 'name': 'Karolina'}])
+ass(barn(kasper), [{'born': 2013, 'kids': [], 'name': 'Numa'}])
 
 
-def nycklar(x): return []
+def nycklar(person): return person.keys()
 ass(nycklar(christer), ['born', 'kids', 'name'])
 ass(nycklar(kasper), ['born', 'kids', 'name'])
 
 
-def varden(x): return []
+def varden(person): return person.values()
 ass(varden(numa), [2013, [], 'Numa'])
 ass(varden(kasper), [1982, [{'born': 2013, 'kids': [], 'name': 'Numa'}], 'Kasper'])
 
 
+def barnbarn(person):
+    return [bb for b in barn(person) for bb in barn(b)]
+ass(barnbarn(christer), [{'born': 2013, 'kids': [], 'name': 'Numa'}])
+
 def youngest(x):
     return {}
-ass(youngest(all), {'name': 'Numa', 'born': 2013, 'kids': []})
+#ass(youngest(all), {'name': 'Numa', 'born': 2013, 'kids': []})

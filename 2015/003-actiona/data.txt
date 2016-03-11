@@ -1,48 +1,55 @@
-2016-01-04 1 #w Handla mat för 3 dagar
-2016-01-01 2 #w Handla mat för 4 dagar
+2016-03-07 1 #w Handla mat för 3 dagar
+2016-03-03 2 #w Handla mat för 4 dagar
 2016-01-15 3 m Ring Miranda
 2016-03-01 5 y Deklarera privat
-2015-12-30 6 w Avanza
 2016-08-01 7 y Deklarera företag
-2016-01-15 8 3m Bokföring skickas
-2016-02-12 9 3m Deklarera moms
-2016-01-25 10 m Lön + deklarera lön + prel skatt
+2016-04-15 8 3m Bokföring skickas
+2016-05-12 9 3m Deklarera moms
+2016-03-25 10 m Lön + deklarera lön + prel skatt
 2016-01-03 11 w Hantera inkorgen
 2016-01-14 12 m Tvätta lakan och handdukar. Städa köket
-2016-01-03 13 1sun Söndagsmiddag
-2016-01-11 14 8w Frisör
-2016-01-01 18 #m Byt kalenderblad i köket
+2016-03-06 13 1sun Söndagsmiddag
+2016-04-04 14 6w Frisör 100 SEK
+2016-03-14 15 w Friskis & Svettis
+2016-03-09 16 w Friskis & Svettis
+2016-03-11 17 w Friskis & Svettis
 2016-04-15 21 y Vårlig fönstertvätt
-2016-01-12 22 m Rensa öron
+2016-02-12 22 m Rensa öron
 2016-01-02 23 w Extra tandborstning
-2016-01-03 24 #2w Klipp naglar
-2016-03-01 25 y SD årsmöte
+2016-03-13 24 #2w Klipp naglar
+2016-03-20 25 y SD årsmöte
 2016-03-19 27 y Rensa vaskar o avlopp
 2016-05-01 28 y Tandläkare ?
 2016-05-01 29 y Hälsoundersökning ?
-2016-01-01 30 #y Bilbesiktning
+2017-01-01 30 #y Bilbesiktning
 2016-05-01 31 #y Tvätta alla fönster
-2016-02-05 32 3m Byta rakblad
-2016-02-05 33 3m Byta tandborste
+2016-05-05 32 3m Byta rakblad
+2016-05-05 33 3m Byta tandborste
 2016-03-30 34 5y Byt pass
 2016-03-14 35 #y Pi-dagen
-2016-02-04 36 y Friskis & Svettis årskort går ut.
+2017-02-04 36 y Friskis & Svettis årskort går ut.
 2016-01-11 37 5w Tvätta & städa vardagsrum
 2016-01-29 38 5w Tvätta & städa sovrum
 2016-01-18 39 5w Tvätta & städa 2 arbetsrum
-2016-01-25 40 5w Tvätta & städa trappa + hall
+2016-02-29 40 5w Tvätta & städa trappa + hall
 2016-01-28 41 5w Tvätta & städa 2 toaletter
-2015-12-29 42 m Hämta skjortor kemtvätt.
+2016-03-29 42 m Hämta skjortor kemtvätt.
 2016-03-16 43 6m Bada i badkar.
 2016-01-01 44 w Körskola Karolina
 2016-01-10 47 y Fotvård + Pedikyr
 2016-01-20 51 #w Kolla SEB-konton varje vecka
-2016-02-27 52 #3m Tvätta köksmattan
-2016-01-15 53 #3m Tvätta hallmattan
+2016-05-27 52 #3m Tvätta köksmattan
+2016-04-15 53 #3m Tvätta hallmattan
 2016-06-30 54 #y Skattekontoutdrag till Axioma
 2016-06-30 55 #y Engagemangsbesked SEB till Axioma
-2016-01-22 -1 #y Birthday Sandberg
-2016-03-03 -2 #y Birthday Karolina
+2016-05-31 56 y Källmarkskliniken, torra ögon
+2016-05-02 57 y Hälsoundersökning Sophia
+2016-03-10 58 y Avanza Globen 1600-2100
+2016-03-08 59 y Kasper Spika avhandling
+2016-03-29 60 y Kasper Disputation
+2016-03-10 61 y Bilbesiktning Trädskolev 11, 14.00 299:-
+2017-01-22 -1 #y Birthday Ljuba
+2017-03-03 -2 #y Birthday Karolina
 2016-03-19 -3 #y Birthday Dongjiao
 2016-03-25 -4 #y Birthday William
 2016-03-30 -5 #y Birthday Lennart Z
@@ -53,4 +60,4 @@
 2016-08-05 -10 #y Birthday Numa
 2016-10-28 -11 #y Birthday Maria
 2016-12-19 -12 #y Birthday Christer
-2016-02-05 -13 #y Birthday Numa Halfyear
+2017-02-05 -13 #y Birthday Numa Halfyear
