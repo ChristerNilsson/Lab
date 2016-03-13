@@ -22,11 +22,17 @@ class Water():
     def gcd(a, b):
         return b if (a-b) == 0 else Water.gcd(abs(a-b), min(a, b))
 
+    def turn_hor(self,d):
+        return 2-d
+
+    def turn_ver(self,d):
+        return 1-d
+
     def next_dir(self, x, y, d):
         if x in [0, self.a]:
-            return 1-d
+            return self.turn_ver(d)
         if y in [0, self.b]:
-            return 2-d
+            return self.turn_hor(d)
 
     # def next_pos(self, x, y, d):
     #     dx, dy = Water.directions[d]
@@ -77,6 +83,12 @@ class Water():
 
 water = Water(5,3)
 
+assert water.turn_hor(0) == 2
+assert water.turn_hor(2) == 0
+
+assert water.turn_ver(0) == 1
+assert water.turn_ver(1) == 0
+
 assert water.next_dir(5, 0, 1) == 0
 assert water.next_dir(0, 2, 0) == 1
 assert water.next_dir(2, 3, 0) == 2
@@ -109,7 +121,5 @@ assert water117.find_best(14) == [[0, 0, 1], [7, 0, 0], [0, 7, 1]]
 assert Water.gcd(6,15) == 3 and Water.gcd(15,6) == 3 and Water.gcd(3,5) == 1 and Water.gcd(5,3) == 1
 
 start = time.clock()
-#assert len(Water(1401, 1297).find_best(1349)) == 2697  # 7 ms
-#assert len(Water(9999, 8887).find_best(9443)) == 18885  # 50 ms
-print len(Water(9999, 8887).find_best(3)) #== 18885  # 50 ms
+assert len(Water(9999, 8887).find_best(3)) == 12601  # 50 ms
 print time.clock() - start

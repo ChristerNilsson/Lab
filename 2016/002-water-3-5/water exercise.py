@@ -12,29 +12,59 @@ def ass(a, b):
 class Water():
 
     def __init__(self, a, b):
-        self.a = a
-        self.b = b
+        0000000000
+        0000000000
+
+    def turn_hor(self,d):
+        return 00
+
+    def turn_ver(self,d):
+        return 00
 
     def next_dir(self, x, y, d):
-        return 0
+        if 0000000000000000:
+            return 0000000000000000
+        if 0000000000000000:
+            return 0000000000000000
 
     def next_pos(self, x, y, d):
-        return (0, 0)
+         00000000000000000000000
+         while 00000000000000000000000000000000000000:
+             0000000
+             0000000
+         return 00000000000
 
     def solve(self, target):
-        return []
+        000000000000000
+        000000000000000
+        while 00000000000000000:
+            0000000000000000
+            0000000000000000
+            0000000000000000
+        return 00000000
 
     def find_best(self, target):
-        return []
+        000000000000000
+        000000000000000
+        000000000000000
+        000000000000000
+        return 00 if 000000000000000000 else 00
 
     def explain(lst):
-        return []
+        return 00000000000000000000000000000000000000
+
 
 ####################################################
 
 water = Water(5,3)
 ass(water.a, 5)
 ass(water.b, 3)
+
+assert water.turn_hor(0) == 2
+assert water.turn_hor(2) == 0
+
+assert water.turn_ver(0) == 1
+assert water.turn_ver(1) == 0
 
 ass(water.next_dir(5, 0, 1), 0)
 ass(water.next_dir(0, 2, 0), 1)
