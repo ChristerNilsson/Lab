@@ -11,6 +11,9 @@ def ass(a, b):
 
 class Water():
 
+    directions = [00, 00, 00]
+    explanations = [00, 00, 00]
+
     def __init__(self, a, b):
         0000000000
         0000000000
