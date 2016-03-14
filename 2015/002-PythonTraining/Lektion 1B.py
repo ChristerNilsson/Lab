@@ -34,49 +34,49 @@ ass(a(3), 14)
 ##########################################################################
 
 
-def b(x): return 0
+def b(x): return 00
 ass(b(0), 1)
 ass(b(1), 3)
 
 
-def c(x, y): return 0
+def c(x, y): return 00
 ass(c(2, 3), 13)
 ass(c(3, 4), 25)
 
 
-def d(x): return 0
+def d(x): return 00
 ass(d(1), 2)
 ass(d(2), 16)
 ass(d(3), 512)
 
 
-def e(x): return 0
+def e(x): return 00
 ass(e(1), 1)
 ass(e(2), 3)
 ass(e(3), 6)
 ass(e(4), 10)
 
 
-def f(x, y, z): return 0
+def f(x, y, z): return 00
 ass(f(1, 2, 3), 123)
 ass(f(2, 3, 4), 234)
 
 
-def g(x, y, z): return 0
+def g(x, y, z): return 00
 ass(g(0, 0, 0), 0)
 ass(g(0, 0, 1), 1)
 ass(g(1, 0, 1), 5)
 ass(g(1, 1, 1), 7)
 
 
-def h(x): return 0  # Använd * + / % och ()
+def h(x): return 00  # Använd * + / % och ()
 ass(h(0), 0)
 ass(h(1), 1)
 ass(h(5), 101)
 ass(h(7), 111)
 
 
-def s(x): return 0  # allmän form: a*x*x + b*x + c. Välj a,b och c.
+def s(x): return 00  # allmän form: a*x*x + b*x + c. Välj a,b och c.
 ass(s(2), 11)
 ass(s(3), 19)
 ass(s(4), 29)

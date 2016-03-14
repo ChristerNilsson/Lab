@@ -8,11 +8,11 @@
 2016-03-25 10 m Lön + deklarera lön + prel skatt
 2016-01-03 11 w Hantera inkorgen
 2016-01-14 12 m Tvätta lakan och handdukar. Städa köket
-2016-03-06 13 1sun Söndagsmiddag
+2016-04-03 13 1sun Söndagsmiddag
 2016-04-04 14 6w Frisör 100 SEK
-2016-03-14 15 w Friskis & Svettis
-2016-03-09 16 w Friskis & Svettis
-2016-03-11 17 w Friskis & Svettis
+2016-03-21 15 w Friskis & Svettis
+2016-03-16 16 w Friskis & Svettis
+2016-03-18 17 w Friskis & Svettis
 2016-04-15 21 y Vårlig fönstertvätt
 2016-02-12 22 m Rensa öron
 2016-01-02 23 w Extra tandborstning
@@ -26,7 +26,7 @@
 2016-05-05 32 3m Byta rakblad
 2016-05-05 33 3m Byta tandborste
 2016-03-30 34 5y Byt pass
-2016-03-14 35 #y Pi-dagen
+2017-03-14 35 #y Pi-dagen
 2017-02-04 36 y Friskis & Svettis årskort går ut.
 2016-01-11 37 5w Tvätta & städa vardagsrum
 2016-01-29 38 5w Tvätta & städa sovrum
@@ -44,20 +44,21 @@
 2016-06-30 55 #y Engagemangsbesked SEB till Axioma
 2016-05-31 56 y Källmarkskliniken, torra ögon
 2016-05-02 57 y Hälsoundersökning Sophia
-2016-03-10 58 y Avanza Globen 1600-2100
-2016-03-08 59 y Kasper Spika avhandling
 2016-03-29 60 y Kasper Disputation
 2016-03-10 61 y Bilbesiktning Trädskolev 11, 14.00 299:-
+2016-04-09 62 y Ingrid Carlqvist 1300-1630
+2016-03-30 63 y Källmarks info 1700
+2016-03-22 64 4tue mathsjam Götg 11 1900 (-2tue)
 2017-01-22 -1 #y Birthday Ljuba
-2017-03-03 -2 #y Birthday Karolina
-2016-03-19 -3 #y Birthday Dongjiao
+2017-03-03 -2 #y Birthday Karolina 1995
+2016-03-19 -3 #y Birthday Dongjiao 1985
 2016-03-25 -4 #y Birthday William
 2016-03-30 -5 #y Birthday Lennart Z
-2016-04-05 -6 #y Birthday Anneli
-2016-04-30 -7 #y Birthday Kasper
+2016-04-05 -6 #y Birthday Anneli 1963
+2016-04-30 -7 #y Birthday Kasper 1982
 2016-05-27 -8 #y Birthday Anette
-2016-06-13 -9 #y Birthday Miranda
-2016-08-05 -10 #y Birthday Numa
-2016-10-28 -11 #y Birthday Maria
-2016-12-19 -12 #y Birthday Christer
+2016-06-13 -9 #y Birthday Miranda 1984
+2016-08-05 -10 #y Birthday Numa 2013
+2016-10-28 -11 #y Birthday Maria 1954
+2016-12-19 -12 #y Birthday Christer 1954
 2017-02-05 -13 #y Birthday Numa Halfyear

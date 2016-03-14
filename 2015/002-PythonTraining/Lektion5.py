@@ -16,11 +16,11 @@ def ass(a, b):
 class Person:
     def __init__(self, name, born, kids):
         self.name = name
-        self.born = born
-        self.kids = kids
+        00
+        00
 
     def age(self):
-        return 2016 - self.born
+        return 00
 
 numa     = Person('Numa', 2013, [])
 kasper   = Person('Kasper', 1982, [numa])
@@ -48,48 +48,48 @@ assert [p.name for p in sorted(all, key=lambda (person): person.age())] == ['Num
 ##########################################################################
 
 
-def born(person): return person.born
+def born(person): return 00
 ass(born(numa), 2013)
 ass(born(karolina), 1995)
 
 
-def antalBarn(person): return len(person.kids)
+def antalBarn(person): return 00
 ass(antalBarn(christer), 3)
 ass(antalBarn(kasper), 1)
 
 
 def namnlista(lst):
-    return [person.name for person in lst]
+    return 00
 ass(namnlista([kasper,miranda,karolina]), ['Kasper', 'Miranda', 'Karolina'])
 ass(namnlista([numa]), ['Numa'])
 
 
-def barn(person): return person.kids
+def barn(person): return 00
 ass(namnlista(barn(christer)), ['Kasper', 'Miranda', 'Karolina'])
 ass(namnlista(barn(kasper)), ['Numa'])
 
 
 def barnbarn(person):
-    return [bb for b in barn(person) for bb in barn(b)]
+    return 00
 ass(namnlista(barnbarn(christer)), ['Numa'])
 
 
 def youngest(lst):
-    return max([[person.born, person.name] for person in lst])
+    return 00
 ass(youngest(all), [2013, 'Numa'])
 
 
 def bornAfter(lst, year):
-    return [person.name for person in lst if person.born >= year]
+    return 00
 ass(bornAfter(all,1980), ['Numa', 'Kasper', 'Miranda', 'Karolina'])
 ass(bornAfter(all,2000), ['Numa'])
 
 
 def f(lst):
-    return sorted([person.age() for person in lst])
+    return 00
 ass(f(all), [3, 21, 32, 34, 53, 62, 97])
 
 
 def g(lst):
-    return [p.age() for p in sorted(lst, key=lambda (person): person.name)]
+    return 00
 ass(g(all), [53, 62, 97, 21, 34, 32, 3])

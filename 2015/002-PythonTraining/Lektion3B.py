@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 
-
 def ass(a, b):
     if a != b:
         print "Assert misslyckades: ", " Fel: ", a, "Rätt: ", b
@@ -55,21 +54,28 @@ b = a.pop(0)
 assert b == 11
 assert a == [9,10]
 
+assert [x*x for x in [2,1,3,5]] == [4,1,9,25]
+
 ##########################################################################
 
 
-def l(x): return 0
+def l(x): return 00
 ass(l([3,2,4]), 3)
 
 
 def m(x):
-    return []
+    00
+    return 00
 ass(m([3,2,4]), [2,4])
 
 
-def h(x): return []
+def h(x): return 00
 ass(h([3,2,4]), [3,2,4,4,2,3])
 
 
-def i(x): return []
+def i(x): return 00
 ass(i([3,2,4]), [4,4,3,3,2,2])
+
+
+def j(lst): return 00
+ass(j([1,10,100]), [3,21,201])

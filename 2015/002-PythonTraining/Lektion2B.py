@@ -36,13 +36,13 @@ assert a.upper() == 'HARALD'
 ##########################################################################
 
 
-def m(x): return ''
+def m(x): return 00
 ass(m('nossl*n rets*rhc'), 'christer nilsson')
 
 
-def n(x): return ''
+def n(x): return 00
 ass(n('christer'), 'c-e-h-i-r-r-s-t')
 
 
-def o(x): return ''
+def o(x): return 00
 ass(o('ivar'), 'ivar|ravi')

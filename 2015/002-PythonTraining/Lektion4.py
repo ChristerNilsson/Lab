@@ -38,35 +38,35 @@ assert min([person['born'] for person in all]) == 1919
 ##########################################################################
 
 
-def born(person): return person['born']
+def born(person): return 00
 ass(born(numa), 2013)
 ass(born(karolina), 1995)
 
 
-def antalBarn(person): return len(person['kids'])
+def antalBarn(person): return 00
 ass(antalBarn(christer), 3)
 ass(antalBarn(kasper), 1)
 
 
-def barn(person): return person['kids']
+def barn(person): return 00
 ass(barn(christer), [{'born': 1982, 'kids': [{'born': 2013, 'kids': [], 'name': 'Numa'}], 'name': 'Kasper'}, {'born': 1984, 'kids': [], 'name': 'Miranda'}, {'born': 1995, 'kids': [], 'name': 'Karolina'}])
 ass(barn(kasper), [{'born': 2013, 'kids': [], 'name': 'Numa'}])
 
 
-def nycklar(person): return person.keys()
+def nycklar(person): return 00
 ass(nycklar(christer), ['born', 'kids', 'name'])
 ass(nycklar(kasper), ['born', 'kids', 'name'])
 
 
-def varden(person): return person.values()
+def varden(person): return 00
 ass(varden(numa), [2013, [], 'Numa'])
 ass(varden(kasper), [1982, [{'born': 2013, 'kids': [], 'name': 'Numa'}], 'Kasper'])
 
 
 def barnbarn(person):
-    return [bb for b in barn(person) for bb in barn(b)]
+    return 00
 ass(barnbarn(christer), [{'born': 2013, 'kids': [], 'name': 'Numa'}])
 
 def youngest(x):
-    return {}
+    return 00
 #ass(youngest(all), {'name': 'Numa', 'born': 2013, 'kids': []})

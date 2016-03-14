@@ -63,11 +63,11 @@ water = Water(5,3)
 ass(water.a, 5)
 ass(water.b, 3)
 
-assert water.turn_hor(0) == 2
-assert water.turn_hor(2) == 0
+ass(water.turn_hor(0), 2)
+ass(water.turn_hor(2), 0)
 
-assert water.turn_ver(0) == 1
-assert water.turn_ver(1) == 0
+ass(water.turn_ver(0), 1)
+ass(water.turn_ver(1), 0)
 
 ass(water.next_dir(5, 0, 1), 0)
 ass(water.next_dir(0, 2, 0), 1)

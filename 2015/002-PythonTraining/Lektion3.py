@@ -58,28 +58,34 @@ assert a == [9,10]
 ##########################################################################
 
 
-def f(x): return []
+def f(x):
+    return 00
 ass(f([3,2,4]), [2,3,4])
 
 
-def g(x): return []
+def g(x):
+    return 00
 ass(g([3,2,4]), [4,2,3])
 
 
-def h(x): return 0
+def h(x):
+    return 00
 ass(h([3,2,4]), 4)
 
 
 def i(x):
-    return []
+    00
+    return 00
 ass(i([3,2,4]), [3,2])
 
 
 def j(x):
-    return []
+    00
+    return 00
 ass(j([3,2,4]), [1,3,2,4])
 
 
 def k(x):
-    return []
+    00
+    return 00
 ass(k([3,2,4]), [3,2,4,5])
