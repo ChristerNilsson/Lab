@@ -76,6 +76,13 @@ ass(h(5), 101)
 ass(h(7), 111)
 
 
+def k(x): return 00
+ass(k(2) + k(3), 15)
+ass(k(4) + k(5), 27)
+ass(k(k(2)), 18)
+ass(k(k(3)), 27)
+
+
 def s(x): return 00  # allmän form: a*x*x + b*x + c. Välj a,b och c.
 ass(s(2), 11)
 ass(s(3), 19)
