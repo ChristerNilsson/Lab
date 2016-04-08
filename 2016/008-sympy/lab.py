@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
 
-from sympy import *
-from datetime import *
+from sympy.simplify import simplify
+from sympy.solvers import solve
+from sympy.geometry import Line,Point,intersection
+from sympy.core import pi,symbols,Symbol,S,N
+from sympy.functions import sqrt
+
+from datetime import datetime
 
 ###################### Stora tal
 
