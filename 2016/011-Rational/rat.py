@@ -11,7 +11,10 @@ class Rat():
             return self.gcd(b, a % b)
 
     def __str__(self):
-        return str(self.a)+'/'+str(self.b)
+        if self.b == 1:
+            return str(self.a)
+        else:
+            return str(self.a)+'/'+str(self.b)
 
     def __eq__(self,other):
         return self.a == other.a and self.b == other.b
@@ -37,3 +40,4 @@ assert str(y+z) == '19/12'
 assert str(x+y+z) == '25/12'
 
 assert str(x*y*z) == '5/16'
+assert str(Rat(16,8)) == '2'

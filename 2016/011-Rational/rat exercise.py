@@ -37,3 +37,4 @@ assert str(y+z) == '19/12'
 assert str(x+y+z) == '25/12'
 
 assert str(x*y*z) == '5/16'
+assert str(Rat(16,8)) == '2'
