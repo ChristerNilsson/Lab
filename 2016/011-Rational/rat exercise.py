@@ -5,10 +5,10 @@ class Rat():
         self.b = 00
 
     def gcd(self,a, b):
-        if 00:
+        if b == 0:
             return 00
         else:
-            return 00
+            return self.gcd(00, 00 % 00)
 
     def __str__(self):
         return 00
