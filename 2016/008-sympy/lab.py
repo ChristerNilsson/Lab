@@ -63,37 +63,60 @@ assert solve(x**2-2, x) == [-sqrt(2), sqrt(2)]
 ####################### Nationellt prov åk 9 2012/2013 B
 # http://www.su.se/polopoly_fs/1.145320.1378276827!/menu/standard/file/Delprov%20D.pdf
 
-assert 2.35-0.5 == 1.85  # 1
-assert 8*0.3 == 2.4  # 2
-assert 6+4*3 == 18  # 3
-# 4
-assert 10**2 / 5**2 == 4  # 5
-assert str(25.6 * 0.45) == '11.52'  # 6
+# 1
+assert 2.35-0.5 == 1.85
+
+# 2
+assert 8*0.3 == 2.4
+
+# 3
+assert 6+4*3 == 18
+
+# 5
+assert 10**2 / 5**2 == 4
+
+# 6
+assert str(25.6 * 0.45) == '11.52'
+
+# 7
 a = Symbol('a')
-assert solve(S(6)/12 - a/4, a) == [2]  # 7
-assert str((S(1)/3) / 2) == '1/6'  # 8
-assert solve(x/2+1-5,x) == [8]  # 9
-# 10
+assert solve(S(6)/12 - a/4, a) == [2]
+
+# 8
+assert str((S(1)/3) / 2) == '1/6'
+
+# 9
+assert solve(x/2+1-5,x) == [8]
+
+# 11
 a = S(3)+S(2)/5
 b = pi
 c = 3
 d = S(10)/3
 e = sqrt(8)
-assert min(a,b,c,d,e) == e  # 11
+assert min(a,b,c,d,e) == e
+
+# 12
 a = Symbol('a')
-assert solve(a+a+180-70-180,a) == [35]  # 12
+assert solve(a+a+180-70-180,a) == [35]
+
+# 13
 x = Symbol('x')
 assert solve(S(1)/4 + x/8 - 1, x) == [6]  # 13a
 assert solve(S(1)/3 + 8/x - 1, x) == [12]  # 13b
-# 14
-assert simplify((S(3)*x+x)/x) == 4  # 15
 
+# 15
+assert ((S(3)*x+x)/x) == 4
+
+# 16
 a = S(8*10**7)
 b = S(2*10**4)
 c = S(8*10**2)
-assert a/b-c == 3200  # 16
+assert a/b-c == 3200
+
+# 17
 x = Symbol('x')
-assert solve(S(2)*(x+1)-5+2*x, x) == [S(3)/4]  # 17
+assert solve(S(2)*(x+1)-5+2*x, x) == [S(3)/4]
 
 ####################### Nationellt prov åk 9 2012/2013 C
 
@@ -107,16 +130,19 @@ def line(x):
 def cost(l,x):
     return intersection(l,line(x))[0].y
 
-assert cost(A,20) == 1000  # 18a
+# 18a
+assert cost(A,20) == 1000
 assert cost(B,20) ==  600
 assert cost(C,20) ==  800
 
-assert (cost(A,0) == 0) == False  # 18c
+# 18c
+assert (cost(A,0) == 0) == False
 assert (cost(B,0) == 0) == False
 assert (cost(C,0) == 0) == True
 
+# 18d
 x = Symbol('x')
-assert cost(A,x) == 1000  # 18d
+assert cost(A,x) == 1000
 assert cost(B,x) == 20*x + 200
 assert cost(C,x) == 40*x
 
@@ -125,27 +151,40 @@ assert cost(C,x) == 40*x
 def proc(x):
     return x/100.0
 
+# 19
 t1 = datetime(2016,4,8,17,25)
 t2 = datetime(2016,4,9,12,55)
-assert str(t2-t1) == '19:30:00'  # 19
-assert 50*10**6 * proc(7.5) == 3750000.0  # 20
-carat,gram = symbols('carat gram')
-assert 3106 * 0.2 == 621.2  # 21a
-assert 106 / 0.2 == 530  # 21b
+assert str(t2-t1) == '19:30:00'
 
-speed = (5500-1900)/12.0  # 22
-assert str(1900/speed) == '6.33333333333' # dagar
+# 20
+assert 50*10**6 * proc(7.5) == 3750000.0
 
-assert 1.55 / 0.005 == 310 # månader # 23
+# 21
+gram,carat = symbols('gram'),3106
+assert solve(carat*0.2-gram*1, gram)[0] == 621.2 # gram
+
+gram,carat = 106,symbols('carat')
+assert solve(carat*0.2-gram*1, carat)[0] == 530 # carat
+
+assert 3106 * 0.2 == 621.2  # gram 21a
+assert 106 / 0.2 == 530  # carat 21b
+
+# 22
+speed = (5500-1900)/12.0
+assert str(1900/speed) == '6.33333333333'  # dagar
+
+# 23
+assert 1.55 / 0.005 == 310  # månader
 assert 310 / 12 == 25  # år
-assert 310 % 12 == 10 # månader
+assert 310 % 12 == 10  # månader
 
-
+# 24
 h = 200 # m
-S = sqrt(13*h) # km
+S = sqrt(13*h)  # km
 assert str(N(S)) == '50.9901951359278'  # 24
 
-tathet =  10.5 / 17 # milj per 1000 km2
+# 25
+tathet = 10.5 / 17  # milj per 1000 km2
 assert str(450 * tathet) == '277.941176471' # milj  # 25c
 
 # 26
@@ -174,10 +213,10 @@ assert str(area) == '4.8125' # km2
 
 # 28
 volym = 6  # m3
-height = 0.002*10**-3 # m
+height = 0.002*10**-3  # m
 area = volym/height  # m2
-assert area / 10**6 == 3 # kvadratkilometer
+assert area / 10**6 == 3  # kvadratkilometer
 
 # 29
 assert 4000 / 1.6 == 2500  # 29a
-assert str(2500 * 1.6 ** 4)  == '16384.0'  # 29b
+assert str(2500 * 1.6 ** 4) == '16384.0'  # 29b
