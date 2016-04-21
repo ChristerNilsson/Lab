@@ -28,7 +28,7 @@ class Rocket(Triangel):
 
 
 class Simulation(App):
-    def __init__(self, win_width=2*640, win_height=2*480):
+    def __init__(self, win_width=2*640, win_height=2*400):
         App.__init__(self, win_width, win_height, "Rocket: Fungerar i stil med Asteroids. Thrust och Rotate. Kör på Monoliten och den flyttar sig och krymper.")
 
     def game(self, h):
