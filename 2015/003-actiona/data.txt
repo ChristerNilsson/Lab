@@ -10,10 +10,10 @@
 2016-01-14 12 m Tvätta lakan och handdukar. Städa köket
 2016-05-01 13 1sun Söndagsmiddag
 2016-04-04 14 6w Frisör 100 SEK
-2016-04-11 15 w Friskis & Svettis
-2016-04-06 16 w Friskis & Svettis
-2016-04-08 17 w Friskis & Svettis
-2016-04-08 18 2fri Onda Bordet KB 20.00
+2016-04-18 15 w Friskis & Svettis
+2016-04-13 16 w Friskis & Svettis
+2016-04-15 17 w Friskis & Svettis
+2016-05-13 18 2fri Onda Bordet KB 20.00
 2016-04-15 21 y Vårlig fönstertvätt
 2016-02-12 22 m Rensa öron
 2016-01-02 23 w Extra tandborstning
@@ -34,7 +34,7 @@
 2016-01-18 39 5w Tvätta & städa 2 arbetsrum
 2016-02-29 40 5w Tvätta & städa trappa + hall
 2016-01-28 41 5w Tvätta & städa 2 toaletter
-2016-03-29 42 m Hämta skjortor kemtvätt.
+2016-04-29 42 m Hämta skjortor kemtvätt.
 2016-09-16 43 6m Bada i badkar.
 2016-01-01 44 w Körskola Karolina
 2017-03-23 45 y Mekonomen 08.00 Belysning 816:-
@@ -46,20 +46,17 @@
 2016-04-15 53 #3m Tvätta hallmattan
 2016-06-30 54 #y Skattekontoutdrag till Axioma
 2016-06-30 55 #y Engagemangsbesked SEB till Axioma
-2016-05-31 56 y Källmarkskliniken, torra ögon
 2016-05-02 57 y Hälsoundersökning Sophia
-2017-03-29 60 y Kasper Disputation
-2016-04-05 61 y Bilbesiktning Trädskolev 11, 15.20 299:-
-2016-04-09 62 y Ingrid Carlqvist 1300-1630
-2017-03-30 63 y Källmarks info 1700
+2017-04-05 61 y Bilbesiktning Trädskolev 11, 15.20 299:-
+2017-04-09 62 y Ingrid Carlqvist 1300-1630
 2016-04-26 64 4tue mathsjam Götg 11 1900 (-2tue)
 2016-04-25 65 #y belysningsbyte i garaget
 2017-01-22 -1 #y Birthday Ljuba
 2017-03-03 -2 #y Birthday Karolina 1995
 2017-03-19 -3 #y Birthday Dongjiao 1985
 2017-03-25 -4 #y Birthday William
-2016-03-30 -5 #y Birthday Lennart Z
-2016-04-05 -6 #y Birthday Anneli 1963
+2017-03-30 -5 #y Birthday Lennart Z
+2017-04-05 -6 #y Birthday Anneli 1963
 2016-04-30 -7 #y Birthday Kasper 1982
 2016-05-27 -8 #y Birthday Anette
 2016-06-13 -9 #y Birthday Miranda 1984
