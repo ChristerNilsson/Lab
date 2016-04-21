@@ -157,6 +157,8 @@ class Ring(Polygon):  # statisk, dvs den rör sig inte. Används i 3D
 
 class Triangel(Polygon):  # Spetsig, likbent triangel
     def __init__(self, simulation, width, height, color):  # points runt origo
+        self.width = width
+        self.height = height
         p1 = Point3D(-width, -height, -0.001)
         p2 = Point3D(width, 0, -0.001)
         p3 = Point3D(-width, height, -0.001)
