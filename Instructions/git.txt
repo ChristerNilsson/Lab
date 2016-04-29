@@ -5,3 +5,6 @@ Så här committar man:
 
 Så här pushar man:
   Git | Repository | Push...  (ctrl-shift-K)
+
+Så här hämtar man:
+  VCS | Git | Pull...
