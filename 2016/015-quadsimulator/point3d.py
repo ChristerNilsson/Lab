@@ -4,8 +4,11 @@
 # Skärmen är 4 x 4 enheter stor.
 # Hörnen är (-2,-2) och (2,2)
 
+# todo gå över till points, för att slippa individuell hantering av x, y och z
+
 import math
 import pygame
+import euler
 from operator import itemgetter
 from gamepad import GamePad
 
@@ -58,6 +61,11 @@ class Point3D(object):
         x = self.x * cos_a - self.y * sin_a
         y = self.x * sin_a + self.y * cos_a
         return Point3D(x, y, self.z)
+
+    def move(self, other):
+        self.x -= other.x
+        self.y -= other.y
+        self.z -= other.z
 
     def project(self, win_width, win_height, fov, viewer_distance):  # Transforms this 3D point to 2D using a perspective projection.
         namnare = viewer_distance + self.z
@@ -192,7 +200,7 @@ class App(object):
         self.faces = []
         self.colors = []
 
-    def update_screen(self):  # ritar projicerat
+    def update_screen(self, camera):  # ritar projicerat från camera. camera har (x,y,z) samt (angleX,angleY,angleZ)
         self.vertices = []
         self.faces = []
         self.colors = []
@@ -203,11 +211,28 @@ class App(object):
         t = []
 
         for v in self.vertices:
+
+            #print v
+            #print camera
+            v.move(camera)
+            #print v
+
             # Rotate the point around X axis, then around Y axis, and finally around Z axis.
-            r = v.rotate_x(self.angleX).rotate_y(self.angleY).rotate_z(self.angleZ)
+            print camera.angleX, camera.angleY, camera.angleZ
+
+            # r = v.rotate_x(camera.angleX).rotate_y(-90+camera.angleY).rotate_z(90+camera.angleZ)
+            # r = v.rotate_x(camera.angleX).rotate_y(-90+camera.angleZ).rotate_z(90+camera.angleY)
+            # r = v.rotate_x(camera.angleY).rotate_y(-90+camera.angleX).rotate_z(90+camera.angleZ)
+            # r = v.rotate_x(camera.angleY).rotate_y(-90+camera.angleZ).rotate_z(90+camera.angleX)
+            # r = v.rotate_x(camera.angleZ).rotate_y(-90+camera.angleY).rotate_z(90+camera.angleX)
+            # r = v.rotate_x(camera.angleZ).rotate_y(-90+camera.angleX).rotate_z(90+camera.angleY)
+
+            lst = euler.ypr(camera.angleX, -90+camera.angleZ, 90+camera.angleY, v.x,v.y,v.z)
+            r = Point3D(lst[0], lst[1], lst[2])
 
             # Transform the point from 3D to 2D
-            p = r.project(self.screen.get_width(), self.screen.get_height(), fov=2048, viewer_distance=8)
+            #p = r.project(self.screen.get_width(), self.screen.get_height(), fov=4096, viewer_distance=2)
+            p = r.project(self.screen.get_width(), self.screen.get_height(), fov=2048, viewer_distance=2)
             #p = r.project(self.screen.get_width(), self.screen.get_height(), fov=1024, viewer_distance=4)
             #p = r.project(self.screen.get_width(), self.screen.get_height(), fov=512, viewer_distance=2)
 
@@ -235,13 +260,12 @@ class App(object):
             for i in range(len(f)):
                 obj = t[f[i]]
                 obj1 = t[f[(i+1) % m]]
-                if abs(obj.x) > LIMIT or abs(obj.y) > LIMIT or abs(obj.z) > 2: ok = False
-                if abs(obj1.x) > LIMIT or abs(obj1.y) > LIMIT or abs(obj1.z) > 2: ok = False
+                if abs(obj.x) > LIMIT or abs(obj.y) > LIMIT:  ok = False  # or abs(obj.z) > 2:
+                if abs(obj1.x) > LIMIT or abs(obj1.y) > LIMIT: ok = False  #  or abs(obj1.z) > 2
                 pointlist.append((obj.x, obj.y))
                 pointlist.append((obj1.x, obj1.y))
 
             if ok:
-                #print pointlist
                 pygame.draw.polygon(self.screen, self.colors[face_index], pointlist)
 
         pygame.display.flip()

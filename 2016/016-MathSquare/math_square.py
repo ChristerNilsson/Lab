@@ -53,10 +53,15 @@ assert mul_A(m2) == [[12,2],[8,3]]
 assert mul_A(m3) == [[20,54,336],[70,216,24]]
 
 # När du vill slumpa, använd t ex
-# lst = range(1,10)
-# random.shuffle(lst)
-# print lst
-# matris = group(lst,3)
-# print matris
-# print sum_A(matris)
-# print mul_A(matris)
+def exercise():
+    lst = range(1,10)
+    random.shuffle(lst)
+    solution = group(lst,3)
+    problem = sum_A(solution)
+    print problem
+    raw_input('Tryck Enter för lösning')
+    for i in range(3):
+        print solution[i], problem[0][i]
+    print problem[1]
+
+# exercise()

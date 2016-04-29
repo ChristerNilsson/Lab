@@ -11,16 +11,12 @@ class QuadCopter(Triangel):
         self.x, self.y, self.z = 0, 0, -0.5
         self.vx,self.vy,self.vz, = 0, 0, 0
 
-        self.yaw = 0     # actual yaw in degrees
-        self.pitch = 0   # actual pitch in degrees
-        self.roll = 0    # actual roll in degrees
-
     def update(self):
         gp = self.simulation.gamepad
         self.acc = (0.0981 + gp.thrust)/10000  # accelerationen g påverkar.
 
         self.angleX -= gp.roll
-        self.angleY += gp.pitch
+        self.angleY -= gp.pitch
         self.angleZ -= gp.yaw
 
         # Räkna ut accelerationskomponenterna för x,y och z,
@@ -49,6 +45,7 @@ class Simulation(App):
         self.drone = QuadCopter(self, RED)
         #self.angleX=45
 
+
     def create_chessboard(self):
         lst = []
         n = 8
@@ -57,18 +54,26 @@ class Simulation(App):
             for y in range(n):
                 rekt = Rektangel(self, size/2, size/2, [GREEN, DARKGREEN][(x+y) % 2])
                 rekt.update2D(-n*size/2 + x*size+size/2, -n*size/2 + y*size+size/2)
+                #if y0 <= -n*size/2 + y*size+size/2:
                 lst.append(rekt)
         return lst
 
     def create_rings(self):
-        ring1 = Ring(self, 0.6, WHITE); ring1.update3D(0, 0, -0.5, 0, 0, 0)
-        ring2 = Ring(self, 0.4, RED);   ring2.update3D(1.5, 0, -0.6, 0, 90, 0)
-        ring3 = Ring(self, 0.4, BLUE);  ring3.update3D(0, -1.5, -0.6, 90, 0, 0)
-        return [ring1,ring2,ring3]
+        res = []
+        r=Ring(self, 0.6, WHITE)
+        res.append(r)
+        r.update3D(0, 0, -0.5, 0, 0, 0)
+
+        r=Ring(self, 0.4, RED)
+        res.append(r)
+        r.update3D(1.5, 0, -0.6, 0, 90, 0)
+
+        r=Ring(self, 0.4, BLUE)
+        res.append(r)
+        r.update3D(0, -1.5, -0.6, 90, 0, 0)
+        return res
 
     def run(self):
-
-        dx = 0.2
 
         while True:
             for event in pygame.event.get():
@@ -88,17 +93,8 @@ class Simulation(App):
 
             self.drone.update()
 
-            self.objects = chessboard + rings + [self.drone]
+            self.objects = chessboard + rings # + [self.drone]
 
-            self.update_screen()
-
-            if self.angleX < 0 or self.angleX > 90: dx = -dx
-            self.angleX += dx
-
-            # if self.angleY < 0 or self.angleY > 90: dx = -dx
-            # self.angleY += dx
-
-            #if self.angleZ < 0 or self.angleZ > 90: dx = -dx
-            #self.angleZ += dx
+            self.update_screen(self.drone)
 
 Simulation().run()
