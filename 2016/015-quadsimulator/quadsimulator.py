@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import sys
-import euler
 from point3d import *
 
 class QuadCopter(Triangel):
