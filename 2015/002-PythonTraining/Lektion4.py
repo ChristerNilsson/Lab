@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+from operator import itemgetter
+
 
 def ass(a, b):
     if a != b:
@@ -37,31 +39,25 @@ assert min([person['born'] for person in all]) == 1919
 
 ##########################################################################
 
-
 def born(person): return person['born']
 ass(born(numa), 2013)
 ass(born(karolina), 1995)
-
 
 def antalBarn(person): return len(person['kids'])
 ass(antalBarn(christer), 3)
 ass(antalBarn(kasper), 1)
 
-
 def barn(person): return person['kids']
 ass(barn(christer), [kasper, miranda, karolina])
 ass(barn(kasper), [numa])
-
 
 def nycklar(person): return person.keys()
 ass(nycklar(christer), ['born', 'kids', 'name'])
 ass(nycklar(kasper), ['born', 'kids', 'name'])
 
-
 def varden(person): return person.values()
 ass(varden(numa), [2013, [], 'Numa'])
 ass(varden(kasper), [1982, [numa], 'Kasper'])
-
 
 def barnbarn(person):
     return [bb for b in barn(person) for bb in barn(b)]
@@ -72,3 +68,13 @@ ass(barnbarn(kasper), [])
 def youngest(lst):
     return max([[person['born'], person] for person in lst])[1]
 ass(youngest(all), numa)
+
+def youngest1(lst):
+    lst.sort(key=lambda x: x['born'])
+    return lst[-1]
+ass(youngest1(all), numa)
+
+def youngest2(lst):
+    lst.sort(key=itemgetter('born'))
+    return lst[-1]
+ass(youngest2(all), numa)
