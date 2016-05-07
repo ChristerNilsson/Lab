@@ -58,34 +58,37 @@ assert a == [9,10]
 ##########################################################################
 
 
-def f(x):
-    return 00
+def f(x): return sorted(x)
 ass(f([3,2,4]), [2,3,4])
+ass(f([9,7,8]), [7,8,9])
 
 
-def g(x):
-    return 00
+def g(x): return x[::-1]
 ass(g([3,2,4]), [4,2,3])
+ass(g([3,2,4,5]), [5,4,2,3])
 
 
-def h(x):
-    return 00
+def h(x): return x.pop()
 ass(h([3,2,4]), 4)
+ass(h([3,2,4,5]), 5)
 
 
 def i(x):
-    00
-    return 00
+    x.pop()
+    return x
 ass(i([3,2,4]), [3,2])
+ass(i([3,2,4,5]), [3,2,4])
 
 
 def j(x):
-    00
-    return 00
+    x.insert(0,1)
+    return x
 ass(j([3,2,4]), [1,3,2,4])
+ass(j([7,8]), [1,7,8])
 
 
 def k(x):
-    00
-    return 00
+    x.append(5)
+    return x
 ass(k([3,2,4]), [3,2,4,5])
+ass(k([3,2,4,6]), [3,2,4,6,5])

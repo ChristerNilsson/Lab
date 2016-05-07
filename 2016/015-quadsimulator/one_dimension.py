@@ -12,12 +12,12 @@ from point3d import *
 
 class Camera():
     def __init__(self):
-        self.x=0
-        self.y=0
-        self.z=0
+        self.x = 0
+        self.y = 0
+        self.z = 0
         self.angleX = 0
         self.angleY = -90
-        self.angleZ = 90
+        self.angleZ = 45
 
 class Elevator(Rektangel):
     def __init__(self,simulation,width,height,color):

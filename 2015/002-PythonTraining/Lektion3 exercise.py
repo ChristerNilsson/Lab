@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+
 def ass(a, b):
     if a != b:
         print "Assert misslyckades: ", " Fel: ", a, "Rätt: ", b
@@ -54,33 +55,40 @@ b = a.pop(0)
 assert b == 11
 assert a == [9,10]
 
-assert [x*x for x in [2,1,3,5]] == [4,1,9,25]
-
 ##########################################################################
 
 
-def l(x): return x.pop(0)
-ass(l([3,2,4]), 3)
-ass(l([7,8]), 7)
+def f(x): return 00
+ass(f([3,2,4]), [2,3,4])
+ass(f([9,7,8]), [7,8,9])
 
 
-def m(x):
-    x.pop(0)
-    return x
-ass(m([3,2,4]), [2,4])
-ass(m([7,8]), [8])
+def g(x): return 00
+ass(g([3,2,4]), [4,2,3])
+ass(g([3,2,4,5]), [5,4,2,3])
 
 
-def h(x): return x + x[::-1]
-ass(h([3,2,4]), [3,2,4,4,2,3])
-ass(h([7,8]), [7,8,8,7])
+def h(x): return 00
+ass(h([3,2,4]), 4)
+ass(h([3,2,4,5]), 5)
 
 
-def i(x): return sorted(x+x)[::-1]
-ass(i([3,2,4]), [4,4,3,3,2,2])
-ass(i([7,8]), [8,8,7,7])
+def i(x):
+    00
+    return 00
+ass(i([3,2,4]), [3,2])
+ass(i([3,2,4,5]), [3,2,4])
 
 
-def j(lst): return [2*x+1 for x in lst]
-ass(j([1,10,100]), [3,21,201])
-ass(j([7,8]), [15,17])
+def j(x):
+    00
+    return 00
+ass(j([3,2,4]), [1,3,2,4])
+ass(j([7,8]), [1,7,8])
+
+
+def k(x):
+    00
+    return 00
+ass(k([3,2,4]), [3,2,4,5])
+ass(k([3,2,4,6]), [3,2,4,6,5])

@@ -42,42 +42,42 @@ assert f(9) == 11      # Det gäller att f av nio är elva
 # Klicka på första länken i felmeddelandet så kommer du till problemraden!
 
 
-def e(x): return x   # byt nollorna mot något annat så att ass nedan stämmer.
+def e(x): return 00   # byt nollorna mot något annat så att ass nedan stämmer.
 ass(e(5), 5)
 ass(e(-3), -3)
 
 
-def g(x): return -x
+def g(x): return 00
 ass(g(5), -5)
 ass(g(-3), 3)
 
 
-def h(x): return x*x
+def h(x): return 00
 ass(h(3), 9)
 ass(h(4), 16)
 
 
-def i(x): return 2**x
+def i(x): return 00
 ass(i(3), 8)
 ass(i(4), 16)
 
 
-def j(x): return x % 2
+def j(x): return 00
 ass(j(3), 1)
 ass(j(4), 0)
 
 
-def k(x): return 2*x
+def k(x): return 00
 ass(k(7), 14)
 ass(k(8), 16)
 
 
-def m(x): return x/2
+def m(x): return 00
 ass(m(10), 5)
 ass(m(8),4)
 
 
-def n(x): return 2*x+1
+def n(x): return 00
 ass(n(1), 3)
 ass(n(2), 5)
 
@@ -85,21 +85,21 @@ ass(n(2), 5)
 # Observera: nu använder vi två parametrar: x och y.
 
 
-def o(x, y): return x+y
+def o(x, y): return 00
 ass(o(4, 5), 9)
 ass(o(2, 3), 5)
 
 
-def p(x, y): return x*y
+def p(x, y): return 00
 ass(p(4, 5), 20)
 ass(p(2, 3), 6)
 
 
-def q(x, y): return x/y
+def q(x, y): return 00
 ass(q(8, 4), 2)
 ass(q(10, 5), 2)
 
 
-def r(x, y): return x**y
+def r(x, y): return 00
 ass(r(2, 3), 8)
 ass(r(3, 2), 9)
