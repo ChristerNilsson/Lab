@@ -34,35 +34,35 @@ ass(a(3), 14)
 ##########################################################################
 
 
-def b(x): return 2*x+1
+def b(x): return 00
 ass(b(0), 1)
 ass(b(1), 3)
 
 
-def c(x, y): return 2*x*y+1
+def c(x, y): return 00
 ass(c(2, 3), 13)
 ass(c(3, 4), 25)
 
 
-def d(x): return 2**(x*x)
+def d(x): return 00
 ass(d(1), 2)
 ass(d(2), 16)
 ass(d(3), 512)
 
 
-def e(x): return x*(x+1)/2
+def e(x): return 00
 ass(e(1), 1)
 ass(e(2), 3)
 ass(e(3), 6)
 ass(e(4), 10)
 
 
-def f(x, y, z): return 100 * x + 10 * y + z
+def f(x, y, z): return 00
 ass(f(1, 2, 3), 123)
 ass(f(2, 3, 4), 234)
 
 
-def g(x, y, z): return 4 * x + 2 * y + z
+def g(x, y, z): return 00
 ass(g(0, 0, 0), 0)
 ass(g(0, 0, 1), 1)
 ass(g(1, 0, 1), 5)

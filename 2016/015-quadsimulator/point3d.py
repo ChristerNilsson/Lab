@@ -114,6 +114,9 @@ class Polygon(object):
         self.simulation.faces.append(tuple([i+j for j in range(len(self.lst))]))
         self.simulation.colors.append(self.color)
 
+    def update_screen2D(self,screen):
+        pointlist = [(p.x,p.y)for p in self.points]
+        pygame.draw.polygon(screen, self.color, pointlist)
 
 class Rektangel(Polygon):  # centrerad till origo. width och height motsvarar radien på en cirkel
     def __init__(self,simulation,width,height,color):
@@ -201,6 +204,7 @@ class App(object):
         self.colors = []
 
     def update_screen(self, camera):  # ritar projicerat från camera. camera har (x,y,z) samt (angleX,angleY,angleZ)
+
         self.vertices = []
         self.faces = []
         self.colors = []
@@ -218,7 +222,7 @@ class App(object):
             #print v
 
             # Rotate the point around X axis, then around Y axis, and finally around Z axis.
-            print camera.angleX, camera.angleY, camera.angleZ
+            #print camera.angleX, camera.angleY, camera.angleZ
 
             # r = v.rotate_x(camera.angleX).rotate_y(-90+camera.angleY).rotate_z(90+camera.angleZ)
             # r = v.rotate_x(camera.angleX).rotate_y(-90+camera.angleZ).rotate_z(90+camera.angleY)
@@ -232,8 +236,8 @@ class App(object):
 
             # Transform the point from 3D to 2D
             #p = r.project(self.screen.get_width(), self.screen.get_height(), fov=4096, viewer_distance=2)
-            p = r.project(self.screen.get_width(), self.screen.get_height(), fov=2048, viewer_distance=2)
-            #p = r.project(self.screen.get_width(), self.screen.get_height(), fov=1024, viewer_distance=4)
+            #p = r.project(self.screen.get_width(), self.screen.get_height(), fov=2048, viewer_distance=2)
+            p = r.project(self.screen.get_width(), self.screen.get_height(), fov=1024, viewer_distance=4)
             #p = r.project(self.screen.get_width(), self.screen.get_height(), fov=512, viewer_distance=2)
 
             # Put the point in the list of transformed vertices

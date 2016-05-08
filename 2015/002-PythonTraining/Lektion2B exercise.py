@@ -8,9 +8,6 @@ def ass(a, b):
 
 ##########################################################################
 
-# Strängar kan innehålla vilka tecken som helst.
-# Måste avgränsas med fnutt (') eller dubbelfnutt (").
-
 a = "harald"
 assert len(a) == 6
 assert a[0] == 'h'
@@ -39,30 +36,13 @@ assert a.upper() == 'HARALD'
 ##########################################################################
 
 
-def f(x): return x.capitalize()
-ass(f('pelle'), 'Pelle')
+def m(x): return 00
+ass(m('nossl*n rets*rhc'), 'christer nilsson')
 
 
-def g(x): return x.upper()
-ass(g('pelle'), 'PELLE')
+def n(x): return 00
+ass(n('christer'), 'c-e-h-i-r-r-s-t')
 
 
-def h(x): return x[2]
-ass(h('viktor'), 'k')
-ass(h('bertil'), 'r')
-
-
-def i(x): return x[2:4]
-ass(i('viktor'), 'kt')
-
-
-def j(x): return x[::-1]
-ass(j('rotkiv'), 'viktor')
-
-
-def k(x): return x.split('i')
-ass(k('christer nilsson'), ['chr','ster n','lsson'])
-
-
-def l(a,b,c): return a.replace(b,c)
-ass(l('christer nilsson','i','#'), 'chr#ster n#lsson')
+def o(x): return 00
+ass(o('ivar'), 'ivar|ravi')

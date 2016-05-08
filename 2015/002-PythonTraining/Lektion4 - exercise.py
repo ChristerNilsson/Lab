@@ -49,47 +49,33 @@ assert all == [miranda, numa, karolina, henning, anneli, kasper, christer]
 
 ##########################################################################
 
-def born(person): return person['born']
+def born(person): return 00
 ass(born(numa), 2013)
 ass(born(karolina), 1995)
 
-def antalBarn(person): return len(person['kids'])
+def antalBarn(person): return 00
 ass(antalBarn(christer), 3)
 ass(antalBarn(kasper), 1)
 
-def barn(person): return person['kids']
+def barn(person): return 00
 ass(barn(christer), [kasper, miranda, karolina])
 ass(barn(kasper), [numa])
 
-def nycklar(person): return person.keys()
+def nycklar(person): return 00
 ass(nycklar(christer), ['born', 'kids', 'name'])
 ass(nycklar(kasper), ['born', 'kids', 'name'])
 
-def varden(person): return person.values()
+def varden(person): return 00
 ass(varden(numa), [2013, [], 'Numa'])
 ass(varden(kasper), [1982, [numa], 'Kasper'])
 
-def barnbarn(person):
-    return [bb for b in barn(person) for bb in barn(b)]
+def barnbarn(person): return 00
 ass(barnbarn(christer), [numa])
 ass(barnbarn(kasper), [])
 ass(barnbarn(henning), [kasper, miranda, karolina])
 
-def barnbarnbarn(person):
-    return [bbb for bb in barnbarn(person) for bbb in barn(bb)]
+def barnbarnbarn(person): return 00
 ass(barnbarnbarn(henning), [numa])
 
-
-def youngest(lst):
-    return max([[person['born'], person] for person in lst])[1]
+def youngest(lst): return 00
 ass(youngest(all), numa)
-
-def youngest1(lst):
-    lst.sort(key=lambda x: x['born'])
-    return lst[-1]
-ass(youngest1(all), numa)
-
-def youngest2(lst):
-    lst.sort(key=itemgetter('born'))
-    return lst[-1]
-ass(youngest2(all), numa)

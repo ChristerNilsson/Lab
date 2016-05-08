@@ -10,6 +10,15 @@ import sys
 import time
 from point3d import *
 
+class Camera():
+    def __init__(self):
+        self.x = 0
+        self.y = 0
+        self.z = 0
+        self.angleX = 0
+        self.angleY = -90
+        self.angleZ = 45
+
 class Elevator(Rektangel):
     def __init__(self,simulation,width,height,color):
         self.speed = 0
@@ -26,6 +35,7 @@ class Elevator(Rektangel):
 class Simulation(App):
     def __init__(self,win_width=2 * 640,win_height=2 * 480):
         App.__init__(self,win_width,win_height,"Den röda hissen ska befinna sig inom det vita området. Starta med B")
+        App.camera = Camera()
 
     def game(self,h):
         self.target = Rektangel(self, 1.6, h, WHITE)
@@ -52,14 +62,14 @@ class Simulation(App):
                     return False
                 if time.clock() > start + 3:
                     self.elevator.color = GREEN
-                    self.update_screen()
+                    self.update_screen(App.camera)
                     return True
             else:
                 if self.target.contains(self.elevator):
                     start = time.clock()
                     inside = True
 
-            self.update_screen()
+            self.update_screen(App.camera)
 
     def run(self):
         h = 1.0
