@@ -72,6 +72,10 @@ ass(varden(kasper), [1982, [numa], 'Kasper'])
 def barnbarn(person): return 00
 ass(barnbarn(christer), [numa])
 ass(barnbarn(kasper), [])
+ass(barnbarn(henning), [kasper, miranda, karolina])
+
+def barnbarnbarn(person): return 00
+ass(barnbarnbarn(henning), [numa])
 
 def youngest(lst): return 00
 ass(youngest(all), numa)
