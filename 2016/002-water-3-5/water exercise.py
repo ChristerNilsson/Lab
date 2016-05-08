@@ -72,6 +72,7 @@ ass(water.turn_ver(1), 0)
 ass(water.next_dir(5, 0, 1), 0)
 ass(water.next_dir(0, 2, 0), 1)
 ass(water.next_dir(2, 3, 0), 2)
+ass(water.next_dir(2, 0, 2), 0)
 
 ass(water.next_pos(5, 0, 0), (2, 3))
 ass(water.next_pos(0, 2, 1), (5, 2))
