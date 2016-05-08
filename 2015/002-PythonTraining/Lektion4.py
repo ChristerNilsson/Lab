@@ -73,6 +73,11 @@ def barnbarn(person):
     return [bb for b in barn(person) for bb in barn(b)]
 ass(barnbarn(christer), [numa])
 ass(barnbarn(kasper), [])
+ass(barnbarn(henning), [kasper, miranda, karolina])
+
+def barnbarnbarn(person):
+    return [bbb for bb in barnbarn(person) for bbb in barn(bb)]
+ass(barnbarnbarn(henning), [numa])
 
 
 def youngest(lst):
