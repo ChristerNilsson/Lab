@@ -26,7 +26,7 @@ all = [numa, kasper, miranda, karolina, christer, anneli, henning]
 
 assert len(all) == 7
 assert len(numa) == 3
-assert all[0] == {'name': 'Numa', 'born': 2013, 'kids': []}
+assert all[0] == numa
 assert all[0]['name'] == 'Numa'
 assert numa['born'] == 2013
 assert len(henning['kids']) == 2
