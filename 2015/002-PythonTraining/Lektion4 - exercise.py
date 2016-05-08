@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from operator import itemgetter
 
 def ass(a, b):
     if a != b:
@@ -12,7 +13,6 @@ def ass(a, b):
 
 # En ordlista är som en lista, fast man använder namn istället för heltal som index.
 # Ordlistor kan innehålla allt möjligt. T ex tal, strängar, listor och andra ordlistor.
-
 
 numa     = {'name': 'Numa',     'born': 2013, 'kids': []}
 kasper   = {'name': 'Kasper',   'born': 1982, 'kids': [numa]}
@@ -35,38 +35,43 @@ assert numa.values() == [2013, [], 'Numa']
 assert [person['born'] for person in all] == [2013, 1982, 1984, 1995, 1954, 1963, 1919]
 assert min([person['born'] for person in all]) == 1919
 
-##########################################################################
+all.sort(key=itemgetter('name'))
+assert all == [anneli, christer, henning, karolina, kasper, miranda, numa]
 
+all.sort(key=itemgetter('born'))
+assert all == [henning, christer, anneli, kasper, miranda, karolina, numa]
+
+all.sort(key=lambda x: len(x['name']))
+assert all == [numa, anneli, kasper, henning, miranda, christer, karolina]
+
+all.sort(key=lambda x: x['name'][::-1])
+assert all == [miranda, numa, karolina, henning, anneli, kasper, christer]
+
+##########################################################################
 
 def born(person): return 00
 ass(born(numa), 2013)
 ass(born(karolina), 1995)
 
-
 def antalBarn(person): return 00
 ass(antalBarn(christer), 3)
 ass(antalBarn(kasper), 1)
-
 
 def barn(person): return 00
 ass(barn(christer), [kasper, miranda, karolina])
 ass(barn(kasper), [numa])
 
-
 def nycklar(person): return 00
 ass(nycklar(christer), ['born', 'kids', 'name'])
 ass(nycklar(kasper), ['born', 'kids', 'name'])
-
 
 def varden(person): return 00
 ass(varden(numa), [2013, [], 'Numa'])
 ass(varden(kasper), [1982, [numa], 'Kasper'])
 
-
 def barnbarn(person): return 00
 ass(barnbarn(christer), [numa])
 ass(barnbarn(kasper), [])
-
 
 def youngest(lst): return 00
 ass(youngest(all), numa)

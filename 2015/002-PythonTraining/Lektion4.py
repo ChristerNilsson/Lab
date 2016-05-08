@@ -2,7 +2,6 @@
 
 from operator import itemgetter
 
-
 def ass(a, b):
     if a != b:
         print "Assert misslyckades: "
@@ -14,7 +13,6 @@ def ass(a, b):
 
 # En ordlista är som en lista, fast man använder namn istället för heltal som index.
 # Ordlistor kan innehålla allt möjligt. T ex tal, strängar, listor och andra ordlistor.
-
 
 numa     = {'name': 'Numa',     'born': 2013, 'kids': []}
 kasper   = {'name': 'Kasper',   'born': 1982, 'kids': [numa]}
@@ -36,6 +34,18 @@ assert numa.keys() == ['born', 'kids', 'name']
 assert numa.values() == [2013, [], 'Numa']
 assert [person['born'] for person in all] == [2013, 1982, 1984, 1995, 1954, 1963, 1919]
 assert min([person['born'] for person in all]) == 1919
+
+all.sort(key=itemgetter('name'))
+assert all == [anneli, christer, henning, karolina, kasper, miranda, numa]
+
+all.sort(key=itemgetter('born'))
+assert all == [henning, christer, anneli, kasper, miranda, karolina, numa]
+
+all.sort(key=lambda x: len(x['name']))
+assert all == [numa, anneli, kasper, henning, miranda, christer, karolina]
+
+all.sort(key=lambda x: x['name'][::-1])
+assert all == [miranda, numa, karolina, henning, anneli, kasper, christer]
 
 ##########################################################################
 
