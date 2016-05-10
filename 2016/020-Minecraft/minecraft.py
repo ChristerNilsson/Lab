@@ -5,10 +5,28 @@
 # Pyglet had to be installed (pip install pyglet)
 # texture.png was corrupted
 # Startar i riktning norrut, dvs 90 grader matematiskt
+# Internt motsvarar y-axeln altituden
+# Externt motsvarar z-axeln altituden
+
+# Uppgifter:
+#   Spela ljud då man tagit den sista ballongen
+#   Ändra skuggan till grå
+#   Ändra tegelstenar till något snyggare
+#   Spela ljudet i bakgrunden
+#   Skapa rotate()
+#   Skapa exercise version
+#     10 st block längs y-axeln
+#     Går bara att åka längs denna
+#     Eleverna får lägga in hantering av x-axel, z-axel och rotation
+#     Eleverna skapar schackbrädet
+#     Skriv ut texter
+#     Eleverna skapar targets
+#     Lägg in ljud
 
 import math
 import random
 import time
+import winsound
 
 import pygame
 
@@ -107,8 +125,6 @@ class QuadCopter():
         self.gp = gp
         self.position = (0,0,0)  # x,y,z
         self.angle = 90  # grader
-        self.dx, self.dy, self.dz = 0,0,0
-        self.da = 0
 
     def rotate(self, px, py, angle):
         # Rotate a point counterclockwise by a given angle around (0,0).
@@ -120,26 +136,24 @@ class QuadCopter():
 
     def update(self, dt):
         gp = self.gp
-        if gp.B:
-            return
+        if gp.B: return
         x,y,z = self.position
 
-        self.dx = gp.roll/100
-        self.dy = gp.thrust/250
-        self.dz = gp.pitch/100
-        self.da = gp.yaw/5
+        dx = gp.roll/100
+        dy = gp.thrust/250
+        dz = gp.pitch/100
+        da = gp.yaw/5
 
-        self.angle += self.da
+        self.angle += da
         self.angle %= 360
-        self.dx,self.dz = self.rotate(self.dx,self.dz,self.angle)
+        dx,dz = self.rotate(dx,dz,self.angle)
 
-        if y < 0:
-            y = 0  # Planet kan inte befinna sig under markytan
+        if y < 0: y = 0  # Planet kan inte befinna sig under markytan
 
         if y > 0:
-            x += self.dx
-            z += self.dz
-        y += self.dy
+            x += dx
+            z += dz
+        y += dy
 
         self.position = (x,y,z)
 
@@ -156,9 +170,11 @@ class Model(object):
         self.queue = deque()
         self._initialize()
         self.quadcopter = QuadCopter(gp)
+        self.start = None
+        self.time = ''
 
     def _initialize(self):
-        n = 20 # 20 # 1/2 width and height of world
+        n = 20  # 20 # 1/2 width and height of world
         for x in xrange(-n, n + 1):
             for z in xrange(-n, n + 1):
                 if x in (-n, n) or z in (-n, n):
@@ -166,46 +182,21 @@ class Model(object):
                 else:
                     texture = GRASS if random.randint(1,2) == 1 else SAND
                     self.add_block((x, -1, z), texture, immediate=False)
-        self.add_ring_z((-n+3, 5, -n+3), 2)
-        self.add_ring_x((n-10, 6, n-5), 3)
-        self.add_ring_x((-n+10, 7, n-15), 3)
+        self.add_targets(10)
 
-    def add_ring_z(self,pos,size):
-        x,y,z = pos
-        for x0 in range(x-size,x+size+1):
-            for y0 in range(y-size,y+size+1):
-                if x0 in [x-size,x+size] or y0 in [y-size,y+size]:
-                    self.add_block((x0,y0,z), BRICK, immediate=False)
-        for y0 in range(0,y-size):
-            self.add_block((x,y0,z), STONE, immediate=False)
-
-    def add_ring_x(self,pos,size):
-        x,y,z = pos
-        for y0 in range(y-size,y+size+1):
-            for z0 in range(z-size,z+size+1):
-                if y0 in [y-size,y+size] or z0 in [z-size,z+size]:
-                    self.add_block((x,y0,z0), BRICK, immediate=False)
-        for y0 in range(0,y-size):
-            self.add_block((x,y0,z), STONE, immediate=False)
-
-    def hit_test(self, position, vector, max_distance=8):
-        m = 8
-        x, y, z = position
-        dx, dy, dz = vector
-        previous = None
-        for _ in xrange(max_distance * m):
-            key = normalize((x, y, z))
-            if key != previous and key in self.world:
-                return key, previous
-            previous = key
-            x, y, z = x + dx / m, y + dy / m, z + dz / m
-        return None, None
+    def add_targets(self,n):
+        self.targets = n
+        for i in range(n):
+            x = random.randint(-20,20)
+            y = random.randint(1,10)
+            z = random.randint(-20,20)
+            self.add_block((x,y,z), BRICK, immediate=False)
+            self.add_block((x,-1,z), BRICK, immediate=False)
 
     def exposed(self, position):
         x, y, z = position
         for dx, dy, dz in FACES:
-            if (x + dx, y + dy, z + dz) not in self.world:
-                return True
+            if (x + dx, y + dy, z + dz) not in self.world: return True
         return False
 
     def add_block(self, position, texture, immediate=True):
@@ -215,6 +206,14 @@ class Model(object):
         if immediate:
             if self.exposed(position):
                 self.show_block(position)
+            self.check_neighbors(position)
+
+    def remove_block(self, position, immediate=True):
+        del self.world[position]
+        self.sectors[sectorize(position)].remove(position)
+        if immediate:
+            if position in self.shown:
+                self.hide_block(position)
             self.check_neighbors(position)
 
     def check_neighbors(self, position):
@@ -314,12 +313,11 @@ class Window(pyglet.window.Window):
         # Joystick
         self.joystick = JoyStick()
         self.model = Model(self.joystick)
+        self.labels = []
 
-        self.label1 = pyglet.text.Label('', font_name='Arial', font_size=18, x=10, y=self.height - 10, anchor_x='left', anchor_y='top', color=(0, 0, 0, 255))
-        self.label2 = pyglet.text.Label('', font_name='Arial', font_size=18, x=10, y=self.height - 40, anchor_x='left', anchor_y='top', color=(0, 0, 0, 255))
-        self.label3 = pyglet.text.Label('', font_name='Arial', font_size=18, x=10, y=self.height - 70, anchor_x='left', anchor_y='top', color=(0, 0, 0, 255))
-        self.label4 = pyglet.text.Label('', font_name='Arial', font_size=18, x=10, y=self.height - 100, anchor_x='left', anchor_y='top', color=(0, 0, 0, 255))
-        self.label5 = pyglet.text.Label('', font_name='Arial', font_size=18, x=10, y=self.height - 130, anchor_x='left', anchor_y='top', color=(0, 0, 0, 255))
+        for y in [10,40,70,100,130]:
+            self.labels.append(pyglet.text.Label('', font_name='Arial', font_size=18, x=10, y=self.height - y, anchor_x='left', anchor_y='top', color=(0, 0, 0, 255)))
+
         pyglet.clock.schedule_interval(self.update, 1.0 / TICKS_PER_SEC)
 
     def update(self, dt):
@@ -336,37 +334,21 @@ class Window(pyglet.window.Window):
             self._update(dt / m)
 
     def _update(self, dt):
-        self.model.quadcopter.update(dt)
-
-    def collide(self, position, height):
-        pad = 0.25
-        p = list(position)
-        np = normalize(position)
-        for face in FACES:  # check all surrounding blocks
-            for i in xrange(3):  # check each dimension independently
-                if not face[i]:
-                    continue
-                d = (p[i] - np[i]) * face[i]
-                if d < pad:
-                    continue
-                for dy in xrange(height):  # check each height
-                    op = list(np)
-                    op[1] -= dy
-                    op[i] += face[i]
-                    if tuple(op) not in self.model.world:
-                        continue
-                    p[i] -= (d - pad) * face[i]
-                    if face == (0, -1, 0) or face == (0, 1, 0):
-                        self.dy = 0
-                    break
-        return tuple(p)
+        qc = self.model.quadcopter
+        qc.update(dt)
+        key = normalize(qc.position)
+        if key in self.model.world and key[1] > 0:
+            winsound.PlaySound('laser.wav', winsound.SND_FILENAME)
+            if self.model.targets == 10:
+                self.model.start = time.clock()
+            self.model.targets -= 1
+            self.model.remove_block(key)
+        if self.model.targets > 0 and self.model.start is not None:
+            self.model.time = 'time=%.3f' % (time.clock() - self.model.start)
 
     def on_resize(self, width, height):
-        self.label1.y = height - 10
-        self.label2.y = height - 40
-        self.label3.y = height - 70
-        self.label4.y = height - 100
-        self.label5.y = height - 130
+        for i in range(5):
+            self.labels[i].y = height - [10,40,70,100,130][i]
         if self.reticle:
             self.reticle.delete()
         x, y = self.width / 2, self.height / 2
@@ -379,7 +361,6 @@ class Window(pyglet.window.Window):
         glViewport(0, 0, width, height)
         glMatrixMode(GL_PROJECTION)
         glLoadIdentity()
-
         glOrtho(0, width, 0, height, -1, 1)
         glMatrixMode(GL_MODELVIEW)
         glLoadIdentity()
@@ -393,20 +374,16 @@ class Window(pyglet.window.Window):
         gluPerspective(65.0, width / float(height), 0.1, 600.0)  # 60.0
         glMatrixMode(GL_MODELVIEW)
         glLoadIdentity()
-
         qc = self.model.quadcopter
-
         x = qc.angle
         y = 0
         glRotatef(x, 0, 1, 0)
         glRotatef(-y, math.cos(math.radians(x)), 0, math.sin(math.radians(x)))
-
         x, y, z = qc.position
         glTranslatef(-x, -y, -z)
 
     def on_draw(self):
         self.joystick.update()
-
         self.clear()
         self.set_3d()
         glColor3d(1, 1, 1)
@@ -420,16 +397,12 @@ class Window(pyglet.window.Window):
         qc = self.model.quadcopter
         gp = qc.gp
         x, y, z = qc.position
-        self.label1.text = 'x=%.2f roll=%.2f' % (z, gp.roll)
-        self.label2.text = 'y=%.2f pitch=%.2f' % (x, -gp.pitch)
-        self.label3.text = 'z=%.2f thrust=%0.2f' % (y, gp.thrust)
-        self.label4.text = 'angle=%2d yaw=%0.2f' % ((-qc.angle-180) % 360, gp.yaw)
-        self.label5.text = 'fps=%02d' % (pyglet.clock.get_fps())
-        self.label1.draw()
-        self.label2.draw()
-        self.label3.draw()
-        self.label4.draw()
-        self.label5.draw()
+        self.labels[0].text = 'x=%.2f roll=%.2f' % (z, gp.roll)
+        self.labels[1].text = 'y=%.2f pitch=%.2f' % (x, -gp.pitch)
+        self.labels[2].text = 'z=%.2f thrust=%0.2f' % (y, gp.thrust)
+        self.labels[3].text = 'angle=%2d yaw=%0.2f' % ((-qc.angle-180) % 360, gp.yaw)
+        self.labels[4].text = 'fps=%02d targets=%d %s' % (pyglet.clock.get_fps(), self.model.targets, self.model.time)
+        for label in self.labels: label.draw()
 
     def draw_reticle(self):  # hårkors
         glColor3d(0, 0, 0)
