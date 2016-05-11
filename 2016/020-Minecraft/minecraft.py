@@ -76,7 +76,7 @@ def tex_coords(top, bottom, side):
 class JoyStick():
 
     def __init__(self):
-        pygame.init()
+#        pygame.init()
         pygame.joystick.init()
         self.gp = pygame.joystick.Joystick(0)
         self.gp.init()
@@ -404,6 +404,10 @@ class Window(pyglet.window.Window):
         self.labels[4].text = 'fps=%02d targets=%d %s' % (pyglet.clock.get_fps(), self.model.targets, self.model.time)
         for label in self.labels: label.draw()
 
+        from pyglet.gl.gl_info import GLInfo
+        info = GLInfo()
+        info.set_active_context()
+
     def draw_reticle(self):  # hårkors
         glColor3d(0, 0, 0)
         self.reticle.draw(GL_LINES)
@@ -417,6 +421,8 @@ def setup():
 def main():
     Window(width=1200, height=1000, caption='Quadcopter', resizable=False)
     setup()
+
     pyglet.app.run()
 
+pygame.init()
 main()
