@@ -22,6 +22,7 @@
 #     Skriv ut texter
 #     Eleverna skapar targets
 #     Lägg in ljud
+#     Slumpa samma targets varje gång
 
 import math
 import random
@@ -32,20 +33,16 @@ import pygame
 
 from collections import deque
 import pyglet
-from pyglet import *
 from pyglet import image
-from pyglet.gl import glColor3d,GL_LINES,glEnable,glFogfv,glHint,glFogi,glFogf,GL_FOG,GL_FOG_COLOR,GL_FOG_HINT
-from pyglet.gl import GLfloat,GL_DONT_CARE,GL_FOG_MODE,GL_LINEAR,GL_FOG_START,GL_FOG_END,glClearColor,GL_CULL_FACE
+from pyglet.gl import glColor3d,GL_LINES,glEnable
+from pyglet.gl import glClearColor,GL_CULL_FACE
 from pyglet.gl import glTexParameteri,GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_NEAREST,GL_TEXTURE_MAG_FILTER
-from pyglet.gl import glPolygonMode,GL_FRONT_AND_BACK,GL_LINE,GL_QUADS,GL_FILL
+from pyglet.gl import GL_QUADS
 from pyglet.gl import glDisable,glViewport,glMatrixMode,glLoadIdentity,glOrtho,GL_DEPTH_TEST,GL_PROJECTION,gluPerspective,glRotatef,glTranslatef,GL_MODELVIEW
 from pyglet.graphics import TextureGroup
 
 TICKS_PER_SEC = 60
 SECTOR_SIZE = 16
-GRAVITY = 20.0
-TERMINAL_VELOCITY = 50
-PLAYER_HEIGHT = 2
 
 def cube_vertices(x, y, z, n):
     return [
@@ -76,7 +73,7 @@ def tex_coords(top, bottom, side):
 class JoyStick():
 
     def __init__(self):
-        pygame.init()
+#        pygame.init()
         pygame.joystick.init()
         self.gp = pygame.joystick.Joystick(0)
         self.gp.init()
@@ -90,11 +87,10 @@ class JoyStick():
             res.append(self.gp.get_button(i))
         self.yaw, self.thrust, _, self.pitch, self.roll = res[0:5]
         self.thrust = -self.thrust
-        #self.yaw = -self.yaw
         self.A, self.B, self.X, self.Y = res[5:9]
 
 
-TEXTURE_PATH = 'texture.png'
+TEXTURE_PATH = 'texture_clean.png'
 
 GRASS = tex_coords((1, 0), (0, 1), (0, 0))
 SAND  = tex_coords((1, 1), (1, 1), (1, 1))
@@ -124,7 +120,7 @@ class QuadCopter():
     def __init__(self, gp):
         self.gp = gp
         self.position = (0,0,0)  # x,y,z
-        self.angle = 90  # grader
+        self.angle = 0  # grader
 
     def rotate(self, px, py, angle):
         # Rotate a point counterclockwise by a given angle around (0,0).
@@ -388,7 +384,6 @@ class Window(pyglet.window.Window):
         self.set_3d()
         glColor3d(1, 1, 1)
         self.model.batch.draw()
-        #self.draw_focused_block()
         self.set_2d()
         self.draw_label()
         self.draw_reticle()
@@ -403,6 +398,11 @@ class Window(pyglet.window.Window):
         self.labels[3].text = 'angle=%2d yaw=%0.2f' % ((-qc.angle-180) % 360, gp.yaw)
         self.labels[4].text = 'fps=%02d targets=%d %s' % (pyglet.clock.get_fps(), self.model.targets, self.model.time)
         for label in self.labels: label.draw()
+
+        from pyglet.gl.gl_info import GLInfo
+        info = GLInfo()
+        info.set_active_context()
+        z=99
 
     def draw_reticle(self):  # hårkors
         glColor3d(0, 0, 0)
@@ -419,4 +419,5 @@ def main():
     setup()
     pyglet.app.run()
 
+pygame.init()
 main()
