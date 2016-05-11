@@ -1,34 +1,51 @@
 # -*- coding: utf-8 -*-
 
 # https://github.com/fogleman/Minecraft
-# Python 2.7 (ej anaconda)
-# Pyglet had to be installed (pip install pyglet)
-# texture.png was corrupted
-# Startar i riktning norrut, dvs 90 grader matematiskt
-# Internt motsvarar y-axeln altituden
-# Externt motsvarar z-axeln altituden
+
+# Installera Python 2.7
+# Installera pyglet
+# Installera pygame
+
+# Startar i riktning norrut, dvs 0 grader geografiskt
+# x-axeln pekar österut
+# y-axeln pekar upp i himlen
+# z-axeln pekar söderut
 # En ruta motsvarar 10 meter
+# Fem block längs z-axeln, två block längs x-axeln
+# Initialt kan man röra sig längs z-axeln mha Pitch.
+
+# Gamepaden har två stycken joysticks:
+#        thrust:                  pitch:
+#          -1                      -1
+# yaw: -1      +1        roll: -1      +1
+#          +1                      +1
+#
+# Thrust hanterar gasen, i vårt fall höjden
+# Yaw roterar farkosten, stillastående i luften.
+# Pitch innebär att farkosten rör sig framåt eller bakåt
+# Roll innebär att farkosten rör sig i sidled.
+#
+# Kontrollerna hanteras annorlunda i ett flygplan.
 
 # Uppgifter:
-#   Spela ljud då man tagit den sista ballongen
-#   Ändra skuggan till grå
-#   Ändra tegelstenar till något snyggare
-#   Spela ljudet i bakgrunden
-#   Skapa rotate()
-#   Skapa exercise version
-#     10 st block längs y-axeln
-#     Går bara att åka längs denna
-#     Eleverna får lägga in hantering av x-axel, z-axel och rotation
-#     Eleverna skapar schackbrädet
-#     Skriv ut texter
-#     Eleverna skapar targets
-#     Lägg in ljud
-#     Slumpa samma targets varje gång
+
+#01# Skapa ett schackbräde, 40x40 boxar, slumpa GRASS och SAND, i xz-planet.
+#02# Se till att man även kan röra sig längs med x-axeln, dvs i sidled, med hjälp av Roll på Gamepaden.
+#03# Se till att man även kan röra sig längs med y-axeln, dvs i höjdled, med hjälp av Thrust på Gamepaden.
+#04# Skriv ut texter som visar x,y,z,angle
+   #                           pitch,roll,yaw,thrust
+   #                           fps
+#04.5# Använd rotate så att upplevelsen blir att man sitter i cockpit.
+#05# Skapa tio stycken ballonger, bestående av en box vardera.
+#06# Lägg in ljud då man träffar en ballong.
+#06.5# Starta en klocka då man tar första ballongen. Stoppa klockan då man tagit sista ballongen.
+#07# Slumpa ballongerna på samma ställe varje gång.
+#08# Spela ett annat ljud då man tagit den tionde och sista ballongen.
+#09# Låt ballongerna ha en grå skugga
+#10# Ändra ballongernas färger till något annat
 
 import math
-import random
 import time
-import winsound
 
 import pygame
 
@@ -47,10 +64,7 @@ SECTOR_SIZE = 16
 
 CPU = True  # Eftersom min laptop och min CPU uppför sig olika. Symptomet är att programmet hänger sig vid start.
 
-MAX_SPEED = 2.0  # boxes/s
-
-WIND_ANGLE = 270  # geographical degrees
-WIND_SPEED = 1.0  # boxes/s
+MAX_SPEED = 2.0  # boxar/sekund
 
 def ass_point(a,b):
     if round(a[0],6) != round(b[0],6) or round(a[1],6) != round(b[1],6):
@@ -90,6 +104,7 @@ class JoyStick():
         pygame.joystick.init()
         self.gp = pygame.joystick.Joystick(0)
         self.gp.init()
+        self.pitch = 0
 
     def update(self):
         res = []
@@ -99,9 +114,7 @@ class JoyStick():
         for i in range(self.gp.get_numbuttons()):
             res.append(self.gp.get_button(i))
         self.yaw, self.thrust, _, self.pitch, self.roll = res[0:5]
-        #self.thrust = -self.thrust
         self.A, self.B, self.X, self.Y = res[5:9]
-
 
 TEXTURE_PATH = 'texture_clean.png'
 
@@ -130,8 +143,7 @@ def sectorize(position):
     return x, 0, z
 
 def rotate(px, py, angle):
-    # Rotate a point counterclockwise by a given angle around (0,0).
-    # angle in degrees.
+    # Roterar en punkt (px,py) moturs runt origo, givet en vinkel i grader
     a = math.radians(angle)
     qx = math.cos(a) * px - math.sin(a) * py
     qy = math.sin(a) * px + math.cos(a) * py
@@ -148,34 +160,14 @@ class QuadCopter():
     def __init__(self, gp):
         self.gp = gp
         self.position = (0,0,0)  # x,y,z
-        self.angle = 0  # grader
+        self.angle = 0  # geografiska grader
 
-    def update(self, dt):
+    def update(self, dt):  #02#  #03#  #04.5#
         gp = self.gp
-        if gp.B: return
         x,y,z = self.position
-
-        dx_wind = dt * WIND_SPEED * math.cos(math.radians(90+WIND_ANGLE - self.angle))
-        dz_wind = dt * WIND_SPEED * math.sin(math.radians(90+WIND_ANGLE - self.angle))
-
         speed = dt * MAX_SPEED
-
-        dx = gp.roll * speed
-        dy = gp.thrust * speed * 0.5
         dz = gp.pitch * speed
-        da = gp.yaw/5
-
-        self.angle += da
-        self.angle %= 360
-        dx,dz = rotate(dx,dz,self.angle)
-
-        if y < 0: y = 0  # Planet kan inte befinna sig under markytan
-
-        if y > 0:
-            x += dx + dx_wind
-            z += dz + dz_wind
-        y += dy
-
+        z += dz
         self.position = (x,y,z)
 
 class Model(object):
@@ -191,31 +183,15 @@ class Model(object):
         self.queue = deque()
         self._initialize()
         self.quadcopter = QuadCopter(gp)
-        self.start = None
-        self.time = ''
 
-    def _initialize(self):
-        n = 20  # 20 # 1/2 width and height of world
-        for x in xrange(-n, n + 1):
-            for z in xrange(-n, n + 1):
-                if x in (-n, n) or z in (-n, n):
-                    self.add_block((x, -1, z), STONE, immediate=False)
-                else:
-                    texture = GRASS if random.randint(1,2) == 1 else SAND
-                    self.add_block((x, -1, z), texture, immediate=False)
+    def _initialize(self):  #01#  #05#  #07#  #09#
+        n = 2
+        for z in xrange(-n, n + 1):
+            texture = [SAND,GRASS][z%2]
+            self.add_block((0, -1, z), texture, immediate=False)
         self.add_block((0, -1, 1), STONE, immediate=False)
         self.add_block((0, -1, 0), STONE, immediate=False)
         self.add_block((1, -1, 0), STONE, immediate=False)
-        self.add_targets(10)
-
-    def add_targets(self,n):
-        self.targets = n
-        for i in range(n):
-            x = random.randint(-20,20)
-            y = random.randint(1,10)
-            z = random.randint(-20,20)
-            self.add_block((x,y,z), BRICK, immediate=False)
-            self.add_block((x,-1,z), BRICK, immediate=False)
 
     def exposed(self, position):
         x, y, z = position
@@ -339,7 +315,7 @@ class Window(pyglet.window.Window):
         self.model = Model(self.joystick)
         self.labels = []
 
-        for y in [10,40,70,100,130]:
+        for y in [10,40,70]:  #04#
             self.labels.append(pyglet.text.Label('', font_name='Arial', font_size=18, x=10, y=self.height - y, anchor_x='left', anchor_y='top', color=(0, 0, 0, 255)))
 
         pyglet.clock.schedule_interval(self.update, 1.0 / TICKS_PER_SEC)
@@ -357,22 +333,13 @@ class Window(pyglet.window.Window):
         for _ in xrange(m):
             self._update(dt / m)
 
-    def _update(self, dt):
+    def _update(self, dt):  #06#  #06.5#  #08#
         qc = self.model.quadcopter
         qc.update(dt)
-        key = normalize(qc.position)
-        if key in self.model.world and key[1] > 0:
-            winsound.PlaySound('laser.wav', winsound.SND_FILENAME)
-            if self.model.targets == 10:
-                self.model.start = time.clock()
-            self.model.targets -= 1
-            self.model.remove_block(key)
-        if self.model.targets > 0 and self.model.start is not None:
-            self.model.time = 'time=%.3f' % (time.clock() - self.model.start)
 
     def on_resize(self, width, height):
-        for i in range(5):
-            self.labels[i].y = height - [10,40,70,100,130][i]
+        for i in range(3):  #04#
+            self.labels[i].y = height - [10,40,70][i]
         if self.reticle:
             self.reticle.delete()
         x, y = self.width / 2, self.height / 2
@@ -395,7 +362,7 @@ class Window(pyglet.window.Window):
         glViewport(0, 0, width, height)
         glMatrixMode(GL_PROJECTION)
         glLoadIdentity()
-        gluPerspective(65.0, width / float(height), 0.1, 600.0)  # 60.0
+        gluPerspective(65.0, width / float(height), 0.1, 600.0)
         glMatrixMode(GL_MODELVIEW)
         glLoadIdentity()
         qc = self.model.quadcopter
@@ -416,13 +383,13 @@ class Window(pyglet.window.Window):
         self.draw_label()
         self.draw_reticle()
 
-    def draw_label(self):
+    def draw_label(self):  #04#
         qc = self.model.quadcopter
         gp = qc.gp
         x, y, z = qc.position
-        self.labels[0].text = 'x=%.2f y=%.2f z=%.2f angle=%2d' % (x, y, z, qc.angle % 360)
-        self.labels[1].text = 'roll=%.2f thrust=%0.2f pitch=%.2f yaw=%0.2f' % (gp.roll, gp.thrust, gp.pitch, gp.yaw)
-        self.labels[2].text = 'fps=%02d targets=%d %s' % (pyglet.clock.get_fps(), self.model.targets, self.model.time)
+        self.labels[0].text = 'z=%.2f' % (z)
+        self.labels[1].text = 'pitch=%.2f' % (gp.pitch)
+        self.labels[2].text = 'fps=%02d' % (pyglet.clock.get_fps())
         for label in self.labels: label.draw()
 
     def draw_reticle(self):  # hårkors
