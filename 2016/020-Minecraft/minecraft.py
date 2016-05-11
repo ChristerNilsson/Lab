@@ -1,30 +1,5 @@
 # -*- coding: utf-8 -*-
 
-# https://github.com/fogleman/Minecraft
-# Python 2.7 (ej anaconda)
-# Pyglet had to be installed (pip install pyglet)
-# texture.png was corrupted
-# Startar i riktning norrut, dvs 90 grader matematiskt
-# Internt motsvarar y-axeln altituden
-# Externt motsvarar z-axeln altituden
-# En ruta motsvarar 10 meter
-
-# Uppgifter:
-#   Spela ljud då man tagit den sista ballongen
-#   Ändra skuggan till grå
-#   Ändra tegelstenar till något snyggare
-#   Spela ljudet i bakgrunden
-#   Skapa rotate()
-#   Skapa exercise version
-#     10 st block längs y-axeln
-#     Går bara att åka längs denna
-#     Eleverna får lägga in hantering av x-axel, z-axel och rotation
-#     Eleverna skapar schackbrädet
-#     Skriv ut texter
-#     Eleverna skapar targets
-#     Lägg in ljud
-#     Slumpa samma targets varje gång
-
 import math
 import random
 import time
@@ -99,7 +74,6 @@ class JoyStick():
         for i in range(self.gp.get_numbuttons()):
             res.append(self.gp.get_button(i))
         self.yaw, self.thrust, _, self.pitch, self.roll = res[0:5]
-        #self.thrust = -self.thrust
         self.A, self.B, self.X, self.Y = res[5:9]
 
 
@@ -161,7 +135,7 @@ class QuadCopter():
         speed = dt * MAX_SPEED
 
         dx = gp.roll * speed
-        dy = gp.thrust * speed * 0.5
+        dy = -gp.thrust * speed * 0.5
         dz = gp.pitch * speed
         da = gp.yaw/5
 
@@ -189,10 +163,20 @@ class Model(object):
         self._shown = {}
         self.sectors = {}
         self.queue = deque()
+        self.targets=0
         self._initialize()
+        #self.sponge(0,0,0,9)
         self.quadcopter = QuadCopter(gp)
         self.start = None
         self.time = ''
+
+    # def sponge(self, a, b, c, n):
+    #     if n == 0: return self.add_block((a,b,c), STONE, immediate=False)
+    #     for x in [-1,0,1]:
+    #         for y in [-1,0,1]:
+    #             for z in [-1,0,1]:
+    #                 if abs(x)+abs(y)+abs(z) > 1:
+    #                     self.sponge(a+x*n, b+y*n, c+z*n, n/3)
 
     def _initialize(self):
         n = 20  # 20 # 1/2 width and height of world
