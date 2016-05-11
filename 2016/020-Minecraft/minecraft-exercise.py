@@ -14,6 +14,15 @@
 # Fem block längs z-axeln, två block längs x-axeln
 # Initialt kan man röra sig längs z-axeln mha Pitch.
 
+# Minecrafts koordinatsystem:
+#
+#            North 0
+#
+#  West 270               90 East (x-axel)
+#
+#            South 180
+#            (z-axel)
+
 # Gamepaden har två stycken joysticks:
 #        thrust:                  pitch:
 #          -1                      -1
