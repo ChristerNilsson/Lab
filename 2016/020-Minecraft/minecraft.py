@@ -7,6 +7,7 @@
 # Startar i riktning norrut, dvs 90 grader matematiskt
 # Internt motsvarar y-axeln altituden
 # Externt motsvarar z-axeln altituden
+# En ruta motsvarar 10 meter
 
 # Uppgifter:
 #   Spela ljud då man tagit den sista ballongen
@@ -44,6 +45,13 @@ from pyglet.graphics import TextureGroup
 TICKS_PER_SEC = 60
 SECTOR_SIZE = 16
 
+CPU = True  # Eftersom min laptop och min CPU uppför sig olika. Symptomet är att programmet hänger sig vid start.
+
+MAX_SPEED = 2.0  # boxes/s
+
+WIND_ANGLE = 45  # degrees
+WIND_SPEED = 0.5  # boxes/s
+
 def cube_vertices(x, y, z, n):
     return [
         x-n,y+n,z-n, x-n,y+n,z+n, x+n,y+n,z+n, x+n,y+n,z-n,  # top
@@ -73,7 +81,8 @@ def tex_coords(top, bottom, side):
 class JoyStick():
 
     def __init__(self):
-#        pygame.init()
+        if CPU:
+            pygame.init()
         pygame.joystick.init()
         self.gp = pygame.joystick.Joystick(0)
         self.gp.init()
@@ -135,9 +144,14 @@ class QuadCopter():
         if gp.B: return
         x,y,z = self.position
 
-        dx = gp.roll/100
-        dy = gp.thrust/250
-        dz = gp.pitch/100
+        dx_wind = dt * WIND_SPEED * math.cos(math.radians(WIND_ANGLE + self.angle))
+        dz_wind = dt * WIND_SPEED * math.sin(math.radians(WIND_ANGLE + self.angle))
+
+        speed = dt * MAX_SPEED
+
+        dx = gp.roll * speed
+        dy = gp.thrust * speed * 0.5
+        dz = gp.pitch * speed
         da = gp.yaw/5
 
         self.angle += da
@@ -147,8 +161,8 @@ class QuadCopter():
         if y < 0: y = 0  # Planet kan inte befinna sig under markytan
 
         if y > 0:
-            x += dx
-            z += dz
+            x += dx + dx_wind
+            z += dz + dz_wind
         y += dy
 
         self.position = (x,y,z)
@@ -419,5 +433,6 @@ def main():
     setup()
     pyglet.app.run()
 
-pygame.init()
+if not CPU:
+    pygame.init()
 main()
