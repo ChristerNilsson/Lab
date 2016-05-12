@@ -22,10 +22,15 @@ SECTOR_SIZE = 16
 
 CPU = True  # Eftersom min laptop och min CPU uppför sig olika. Symptomet är att programmet hänger sig vid start.
 
-MAX_SPEED = 2.0  # boxes/s
+MAX_SPEED = 5.0  # boxar/sekund
 
-WIND_ANGLE = 270  # geographical degrees
-WIND_SPEED = 1.0  # boxes/s
+WIND_ANGLE = 0  # geographiska grader
+WIND_SPEED = 0.0  # boxar/sekund
+
+#SPONGES = 0; SUBZERO_FLIGHT = False
+#SPONGES = 1; SUBZERO_FLIGHT = True
+SPONGES = 3; SUBZERO_FLIGHT = True
+#SPONGES = 9; SUBZERO_FLIGHT = True
 
 def ass_point(a,b):
     if round(a[0],6) != round(b[0],6) or round(a[1],6) != round(b[1],6):
@@ -104,8 +109,7 @@ def sectorize(position):
     return x, 0, z
 
 def rotate(px, py, angle):
-    # Rotate a point counterclockwise by a given angle around (0,0).
-    # angle in degrees.
+    # Roterar en punkt (px,py) moturs runt origo, givet en vinkel i grader
     a = math.radians(angle)
     qx = math.cos(a) * px - math.sin(a) * py
     qy = math.sin(a) * px + math.cos(a) * py
@@ -134,6 +138,11 @@ class QuadCopter():
 
         speed = dt * MAX_SPEED
 
+        if abs(gp.roll)< 0.1: gp.roll=0
+        if abs(gp.thrust)< 0.1: gp.thrust=0
+        if abs(gp.pitch)< 0.1: gp.pitch=0
+        if abs(gp.yaw)< 0.1: gp.yaw=0
+
         dx = gp.roll * speed
         dy = -gp.thrust * speed * 0.5
         dz = gp.pitch * speed
@@ -143,11 +152,15 @@ class QuadCopter():
         self.angle %= 360
         dx,dz = rotate(dx,dz,self.angle)
 
-        if y < 0: y = 0  # Planet kan inte befinna sig under markytan
-
-        if y > 0:
+        if SUBZERO_FLIGHT:
             x += dx + dx_wind
             z += dz + dz_wind
+        else:
+            if y < 0:
+                y = 0  # Planet kan inte befinna sig under markytan
+            if y > 0:
+                x += dx + dx_wind
+                z += dz + dz_wind
         y += dy
 
         self.position = (x,y,z)
@@ -163,20 +176,26 @@ class Model(object):
         self._shown = {}
         self.sectors = {}
         self.queue = deque()
-        self.targets=0
-        self._initialize()
-        #self.sponge(0,0,0,9)
+        self.targets = 0
+
+        if SPONGES == 0:
+            self._initialize()
+        else:
+            self.sponge(0,0,0,SPONGES)
+
         self.quadcopter = QuadCopter(gp)
         self.start = None
         self.time = ''
 
-    # def sponge(self, a, b, c, n):
-    #     if n == 0: return self.add_block((a,b,c), STONE, immediate=False)
-    #     for x in [-1,0,1]:
-    #         for y in [-1,0,1]:
-    #             for z in [-1,0,1]:
-    #                 if abs(x)+abs(y)+abs(z) > 1:
-    #                     self.sponge(a+x*n, b+y*n, c+z*n, n/3)
+    def sponge(self, a, b, c, n):
+        if n == 0:
+            self.targets += 1
+            return self.add_block((a,b,c), STONE, immediate=False)
+        for x in [-1,0,1]:
+            for y in [-1,0,1]:
+                for z in [-1,0,1]:
+                    if abs(x) + abs(y) + abs(z) > 1:
+                        self.sponge(a+x*n, b+y*n, c+z*n, n/3)
 
     def _initialize(self):
         n = 20  # 20 # 1/2 width and height of world
@@ -193,8 +212,8 @@ class Model(object):
         self.add_targets(10)
 
     def add_targets(self,n):
-        self.targets = n
         for i in range(n):
+            self.targets += 1
             x = random.randint(-20,20)
             y = random.randint(1,10)
             z = random.randint(-20,20)
@@ -345,9 +364,9 @@ class Window(pyglet.window.Window):
         qc = self.model.quadcopter
         qc.update(dt)
         key = normalize(qc.position)
-        if key in self.model.world and key[1] > 0:
+        if key in self.model.world: # and key[1] > 0:
             winsound.PlaySound('laser.wav', winsound.SND_FILENAME)
-            if self.model.targets == 10:
+            if self.model.start == None:
                 self.model.start = time.clock()
             self.model.targets -= 1
             self.model.remove_block(key)

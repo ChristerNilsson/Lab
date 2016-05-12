@@ -8,7 +8,7 @@ Startar i riktning norrut, dvs 0 grader geografiskt
 x-axeln pekar österut
 y-axeln pekar upp i himlen
 z-axeln pekar söderut
-En ruta motsvarar 10 meter
+En ruta motsvarar 1 meter
 Fem block längs z-axeln, två block längs x-axeln
 Initialt kan man röra sig längs z-axeln mha Pitch.
 
@@ -16,7 +16,8 @@ Minecrafts koordinatsystem:
 
             North 0
 
-  West 270      .        90 East (x-axel)
+  West 270      xx        90 East (x-axel)
+                x
 
             South 180
             (z-axel)
