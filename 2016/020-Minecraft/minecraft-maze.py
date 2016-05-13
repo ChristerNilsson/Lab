@@ -105,15 +105,15 @@ class QuadCopter():
         dx,dy,dz = 0,0,0
         da = 0
         k = keys.pop()
-        if k == key.A: # rotate left
+        if k == key.LEFT:
             da = -90
-        elif k == key.W: # up
+        elif k == key.UP:
             dy = 1
-        elif k == key.S: # down
+        elif k == key.DOWN:
             dy = -1
-        elif k == key.D: # rotate right
+        elif k == key.RIGHT:
             da = 90
-        elif k == key.SPACE: # forward
+        elif k == key.SPACE:
             dz = -1
 
         self.angle += da
@@ -315,16 +315,7 @@ class Window(pyglet.window.Window):
         self.reticle = pyglet.graphics.vertex_list(4, ('v2i', (x - n, y, x + n, y, x, y - n, x, y + n)))
 
     def on_key_release(self, symbol, modifiers):
-        if symbol == key.W:
-            self.keys.append(symbol)
-        elif symbol == key.S:
-            self.keys.append(symbol)
-        elif symbol == key.A:
-            self.keys.append(symbol)
-        elif symbol == key.D:
-            self.keys.append(symbol)
-        elif symbol == key.SPACE:
-            self.keys.append(symbol)
+        self.keys.append(symbol)
 
     def set_2d(self):
         width, height = self.get_size()
@@ -366,8 +357,6 @@ class Window(pyglet.window.Window):
         qc = self.model.quadcopter
         x, y, z = qc.position
         self.labels[0].text = 'x=%.6f y=%.2f z=%.2f angle=%2d' % (x, y, z, qc.angle % 360)
-        #self.labels[1].text = 'roll=%.2f thrust=%0.2f pitch=%.2f yaw=%0.2f' % (gp.roll, gp.thrust, gp.pitch, gp.yaw)
-        self.labels[2].text = 'fps=%02d targets=%d %s' % (pyglet.clock.get_fps(), self.model.targets, self.model.time)
         for label in self.labels: label.draw()
 
     def draw_reticle(self):  # hårkors
@@ -408,9 +397,9 @@ class Maze3D():
                 print
                 for z in range(-N,N+1):
                     if (x,y,z) in self.model.world:
-                        print '*',
+                        print 'O',
                     else:
-                        print '_',
+                        print ' ',
 
 def setup():
     glClearColor(0.5, 0.69, 1.0, 1)
