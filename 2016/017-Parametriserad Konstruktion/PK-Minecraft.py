@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+# todo lägger till fler färger. t ex blått, brunt.
+
 import math
 import time
 
@@ -158,7 +160,7 @@ class Model(object):
         self.sizes = {}
         self.colors= {}
         self.material = []
-        self.volumes = []
+        self.volumes = {}
 
         self.shown = {}
         self._shown = {}
@@ -167,7 +169,7 @@ class Model(object):
         self._initialize()
         self.camera = Camera(gp)
 
-    def add(self,x,y,z,color):
+    def add(self,x,y,z,color,desc):
         if type(x) is str:
             x0,x1 = self.conv(x,self.x)
         else:
@@ -180,7 +182,7 @@ class Model(object):
             z0,z1 = self.conv(z,self.z)
         else:
             z0,z1 = z
-        self.volumes.append([x0,x1,y0,y1,z0,z1])
+        self.volumes[desc] = [x0,x1,y0,y1,z0,z1]
         self.material.append(sorted([x1-x0,y1-y0,z1-z0]))
         x,dx = (x0+x1)/2000.0,(x1-x0)/2000.0
         y,dy = (y0+y1)/2000.0,(y1-y0)/2000.0
@@ -213,7 +215,7 @@ class Model(object):
         x2 = self.conv(arr[0],x)
         y2 = self.conv(arr[1],y)
         z2 = self.conv(arr[2],z)
-        self.add(x2, y2, z2, color)
+        self.add(x2, y2, z2, color, s)
 
     def _initialize(self):
         # Förklaring:
@@ -237,47 +239,45 @@ class Model(object):
         y = self.y = [0, 190,  235, 280, 295, 800]
         z = self.z = [0, 270,  315, 360, 330]
 
-        self.adds('33 21 21', YELLOW) # bakre ram
-        self.adds('33 12 21', YELLOW)
+        self.adds('11 -25 32', GRAY) # mitten stolpe ryggstöd
+        self.adds('11 11 12', GREEN) # mitten stolpe till främre ram
+        self.adds('11 11 21', GREEN) # mitten stolpe till bakre ram
+        self.adds('11 21 11', GREEN) # mitten liggande undre
+        self.adds('11 23 22', GREEN) # mitten liggande övre
 
-        self.adds('32 11 21', GREEN) # stolpar till bakre ram
-        self.adds('11 11 21', GREEN)
-        self.adds('23 11 21', GREEN)
+        self.adds('23 -25 32', GRAY) # höger stolpe ryggstöd
+        self.adds('23 11 12', GREEN) # höger stolpe till främre ram
+        self.adds('23 11 21', GREEN) # höger stolp till bakre ram
+        self.adds('23 21 11', GREEN) # höger liggande undre
+        self.adds('23 23 22', GREEN) # höger liggande övre
 
-        self.adds('33 21 12', YELLOW) # främre ram
-        self.adds('33 12 12', YELLOW)
+        self.adds('32 -25 32', GRAY) # vänster stolpe ryggstöd
+        self.adds('32 11 12', GREEN) # vänster stolpe till främre ram
+        self.adds('32 11 21', GREEN) # vänster stolpe till bakre ram
+        self.adds('32 21 11', GREEN) # vänster liggande undre
+        self.adds('32 23 22', GREEN) # vänster liggande övre
 
-        self.adds('32 11 12', GREEN) # stolpar till främre ram
-        self.adds('11 11 12', GREEN)
-        self.adds('23 11 12', GREEN)
-
-        self.adds('32 23 22', GREEN) # liggande övre
-        self.adds('11 23 22', GREEN) #
-        self.adds('23 23 22', GREEN) #
-
-        self.adds('32 21 11', GREEN) # liggande undre
-        self.adds('11 21 11', GREEN) #
-        self.adds('23 21 11', GREEN) #
-
-        self.adds('32 -25 32', GRAY) # ryggstöd, stolpar
-        self.adds('11 -25 32', GRAY)
-        self.adds('23 -25 32', GRAY)
+        self.adds('33 12 12', YELLOW) # övre främre ram
+        self.adds('33 12 21', YELLOW) # övre bakre ram
+        self.adds('33 21 12', YELLOW) # undre främre ram
+        self.adds('33 21 21', YELLOW) # undre bakre ram
 
         # foder
+        FODER = 95+10
 
         for i in range(5):
-            self.add('43', [105*i-235,105*i+95-235], '22', GRAY) # foder vänster sida
-            self.add('34', [105*i-235,105*i+95-235], '22', GRAY) # foder höger sida
-            self.add('44', [105*i-235,105*i+95-235], '24', RED) # foder framifrån
+            self.add('43', [FODER*i-y[2],FODER*i-y[2]+95], '22', GRAY,'foder vänster sida')
+            self.add('34', [FODER*i-y[2],FODER*i-y[2]+95], '22', GRAY,'foder höger sida')
+            self.add('44', [FODER*i-y[2],FODER*i-y[2]+95], '24', RED,'foder framifrån')
 
         for i in range(6):
-            self.add('44', '34', [i*110-315,i*110+95-315], RED) # foder ovanifrån
-
-        for i in range(6):
-            self.add('33', [-y[1],-y[1]+15], [i*110-315,i*110+95-315], RED) # foder kistbotten
+            self.add('44', '34', [FODER*i-290,FODER*i-290+95], RED,'foder sitsen')
 
         for i in range(5):
-            self.add('44', [y[4]+i*105,y[4]+i*105+95], [-z[2],-z[2]+15], RED) # foder ryggstöd
+            self.add('33', [-y[1],-y[1]+15], [FODER*i-z[1]+10,FODER*i-z[1]+10+95], RED,'foder kistbotten')
+
+        for i in range(5):
+            self.add('44', [FODER*i+y[4]-10,FODER*i+y[4]-10+95], [-z[2],-z[2]+15], RED,'foder ryggstöd')
 
         self.list_material()
         self.list_collisions()
@@ -297,17 +297,18 @@ class Model(object):
     def list_collisions(self):
         print "Conflicts:"
         for a in self.volumes:
-            x0,x1,y0,y1,z0,z1 = a
+            x0,x1,y0,y1,z0,z1 = self.volumes[a]
             for b in self.volumes:
-                x2,x3,y2,y3,z2,z3 = b
-                if a != b:
+                if a < b:
+                    x2,x3,y2,y3,z2,z3 = self.volumes[b]
                     if x1 <= x2: continue
                     if x0 >= x3: continue
                     if y1 <= y2: continue
                     if y0 >= y3: continue
                     if z1 <= z2: continue
                     if z0 >= z3: continue
-                    print '', a, b
+                    print '', a, '-', b
+        print
 
     def exposed(self, position):
         x, y, z = position
