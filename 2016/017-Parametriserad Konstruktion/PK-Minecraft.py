@@ -168,9 +168,18 @@ class Model(object):
         self.camera = Camera(gp)
 
     def add(self,x,y,z,color):
-        x0,x1 = x
-        y0,y1 = y
-        z0,z1 = z
+        if type(x) is str:
+            x0,x1 = self.conv(x,self.x)
+        else:
+            x0,x1 = x
+        if type(y) is str:
+            y0,y1 = self.conv(y,self.y)
+        else:
+            y0,y1 = y
+        if type(z) is str:
+            z0,z1 = self.conv(z,self.z)
+        else:
+            z0,z1 = z
         self.volumes.append([x0,x1,y0,y1,z0,z1])
         self.material.append(sorted([x1-x0,y1-y0,z1-z0]))
         x,dx = (x0+x1)/2000.0,(x1-x0)/2000.0
@@ -178,75 +187,97 @@ class Model(object):
         z,dz = (z0+z1)/2000.0,(z1-z0)/2000.0
         self.add_block((x,y,z), (dx,dy,dz), color, immediate=False)
 
+    def conv(self, s, lst):
+        n = int(s)
+        if n < 0:
+            n = -n
+            a = n / 10
+            b = n % 10
+            if a <= b:
+                return [-lst[a], lst[b]]
+            else:
+                return [-lst[a], lst[b]]
+        else:
+            a = n / 10
+            b = n % 10
+            if a < b:
+                return [lst[a], lst[b]]
+            elif a == b:
+                return [-lst[a], lst[b]]
+            else:
+                return [-lst[a], -lst[b]]
+
+    def adds(self,s,color):
+        x,y,z = self.x, self.y, self.z
+        arr = s.split(' ')
+        x2 = self.conv(arr[0],x)
+        y2 = self.conv(arr[1],y)
+        z2 = self.conv(arr[2],z)
+        self.add(x2, y2, z2, color)
+
     def _initialize(self):
-        x0,x1,x2,x3,xa = 0, 22.5, 390, 435, 450
-        y0,y1,y2,y3,y4,y5 = 0, 190, 235, 280, 295, 800
-        z0,z1,z2,za,z3    = 0, 270, 315, 330,360
+        # Förklaring:
 
-        z21 = [-z2,-z1]
-        z12 = [z1,z2]
-        z22 = [-z2,z2]
-        z11 = [-z1,z1]
-        z2a = [z2,za]
-        z32 = [-z3,-z2]
+        # '12 21 -22'
+        # 12 innebär x mellan x[1] och x[2]
+        # 21 innebär y mellan -y[2] och -y[1]
+        # -22 innebär z mellan -z[2] och z[2]
 
-        x33 = [-x3,x3]
-        x32 = [-x3,-x2]
-        x11 = [-x1,x1]
-        x23 = [x2,x3]
-        x3a = [x3,xa]
-        xaa = [-xa,xa]
-        _x3a = [-x3,xa]
-        xa3 = [-xa,-x3]
+        # '-12 -21 22'
+        # -12 innebär x mellan -x[1] och x[2]
+        # -21 innebär y mellan -y[2] och y[1]
+        # 22 innebär z mellan -z[2] och z[2] (samma som -22)
 
-        y21 = -y2,-y1
-        y12 = [y1,y2]
-        y11 = [-y1,y1]
-        y23 = [y2,y3]
-        y32 = [-y3,-y2]
-        y34 = [y3,y4]
-        y45 = [-y4,y5]
-        y25 = [-y2,y5]
+        # Detta innebär att '33 21 21' definierar ett blocks storlek och placering entydigt
+        # Origo placeras lämpligen så centralt i objektet som möjligt.
+        # Observera att minustecknet bara negerar det först värdet.
+        # Ska båda negeras måste indexen stå i fallande ordning.
 
-        self.add(x33, y21, z21, YELLOW) # bakre ram
-        self.add(x33, y12, z21, YELLOW)
-        self.add(x32, y11, z21, GREEN) # stolpar
-        self.add(x11, y11, z21, GREEN)
-        self.add(x23, y11, z21, GREEN)
+        x = self.x = [0, 22.5, 390, 435, 450]  # definierar [-4,-3,-2,-1,0,1,2,3,4] == [-450, -435, -390, -22.5, 0, 22.5, 390, 435, 450]
+        y = self.y = [0, 190,  235, 280, 295, 800]
+        z = self.z = [0, 270,  315, 360, 330]
 
-        self.add(x33, y21, z12, YELLOW) # främre ram
-        self.add(x33, y12, z12, YELLOW)
-        self.add(x32, y11, z12, GREEN) # stolpar
-        self.add(x11, y11, z12, GREEN)
-        self.add(x23, y11, z12, GREEN)
+        self.adds('33 21 21', YELLOW) # bakre ram
+        self.adds('33 12 21', YELLOW)
 
-        self.add(x32, y23, z22, GREEN) # liggande övre
-        self.add(x11, y23, z22, GREEN) #
-        self.add(x23, y23, z22, GREEN) #
+        self.adds('32 11 21', GREEN) # stolpar till bakre ram
+        self.adds('11 11 21', GREEN)
+        self.adds('23 11 21', GREEN)
 
-        self.add(x32, y21, z11, GREEN) # liggande undre
-        self.add(x11, y21, z11, GREEN) #
-        self.add(x23, y21, z11, GREEN) #
+        self.adds('33 21 12', YELLOW) # främre ram
+        self.adds('33 12 12', YELLOW)
 
-        self.add(x32, y25, z32, GRAY) # ryggstöd, stolpar
-        self.add(x11, y25, z32, GRAY)
-        self.add(x23, y25, z32, GRAY)
+        self.adds('32 11 12', GREEN) # stolpar till främre ram
+        self.adds('11 11 12', GREEN)
+        self.adds('23 11 12', GREEN)
+
+        self.adds('32 23 22', GREEN) # liggande övre
+        self.adds('11 23 22', GREEN) #
+        self.adds('23 23 22', GREEN) #
+
+        self.adds('32 21 11', GREEN) # liggande undre
+        self.adds('11 21 11', GREEN) #
+        self.adds('23 21 11', GREEN) #
+
+        self.adds('32 -25 32', GRAY) # ryggstöd, stolpar
+        self.adds('11 -25 32', GRAY)
+        self.adds('23 -25 32', GRAY)
 
         # foder
 
-        for y in range(5):
-            self.add(xa3, [105*y-235,105*y+95-235], z22, GRAY) # foder vänster sida
-            self.add(x3a, [105*y-235,105*y+95-235], z22, GRAY) # foder höger sida
-            self.add(xaa, [105*y-235,105*y+95-235], z2a, RED) # foder framifrån
+        for i in range(5):
+            self.add('43', [105*i-235,105*i+95-235], '22', GRAY) # foder vänster sida
+            self.add('34', [105*i-235,105*i+95-235], '22', GRAY) # foder höger sida
+            self.add('44', [105*i-235,105*i+95-235], '24', RED) # foder framifrån
 
-        for z in range(6):
-            self.add(xaa, y34, [z*110-315,z*110+95-315], RED) # foder ovanifrån
+        for i in range(6):
+            self.add('44', '34', [i*110-315,i*110+95-315], RED) # foder ovanifrån
 
-        for z in range(6):
-            self.add(x33, [-y1,-y1+15], [z*110-315,z*110+95-315], RED) # foder kistbotten
+        for i in range(6):
+            self.add('33', [-y[1],-y[1]+15], [i*110-315,i*110+95-315], RED) # foder kistbotten
 
-        for y in range(5):
-            self.add(xaa, [y4+y*105,y4+y*105+95], [-z2,-z2+15], RED) # foder ryggstöd
+        for i in range(5):
+            self.add('44', [y[4]+i*105,y[4]+i*105+95], [-z[2],-z[2]+15], RED) # foder ryggstöd
 
         self.list_material()
         self.list_collisions()
@@ -468,16 +499,6 @@ class Window(pyglet.window.Window):
         glColor3d(1, 1, 1)
         self.model.batch.draw()
         self.set_2d()
-        self.draw_label()
-
-    def draw_label(self):
-        qc = self.model.camera
-        gp = qc.gp
-        x, y, z = qc.position
-        self.labels[0].text = 'x=%.2f y=%.2f z=%.2f' % (x,y,z)
-        self.labels[1].text = 'pitch=%.2f' % (gp.pitch)
-        self.labels[2].text = 'fps=%02d' % (pyglet.clock.get_fps())
-        for label in self.labels: label.draw()
 
 def setup():
     glClearColor(0.5, 0.69, 1.0, 1)

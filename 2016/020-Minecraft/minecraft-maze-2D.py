@@ -5,8 +5,6 @@ import random
 import time
 import winsound
 
-import pygame
-
 from collections import deque
 import pyglet
 from pyglet import image
@@ -16,22 +14,15 @@ from pyglet.gl import glTexParameteri,GL_TEXTURE_2D,GL_TEXTURE_MIN_FILTER,GL_NEA
 from pyglet.gl import GL_QUADS
 from pyglet.gl import glDisable,glViewport,glMatrixMode,glLoadIdentity,glOrtho,GL_DEPTH_TEST,GL_PROJECTION,gluPerspective,glRotatef,glTranslatef,GL_MODELVIEW
 from pyglet.graphics import TextureGroup
+from pyglet.window import key
+import sys
 
-TICKS_PER_SEC = 60
+TICKS_PER_SEC = 10
 SECTOR_SIZE = 16
 
-CPU = True  # Eftersom min laptop och min CPU uppför sig olika. Symptomet är att programmet hänger sig vid start.
+# todo tidmätning
 
-MAX_SPEED = 5.0  # boxar/sekund
-
-WIND_ANGLE = 0  # geographiska grader
-WIND_SPEED = 0.0  # boxar/sekund
-
-GAME = 0; SUBZERO_FLIGHT = False # Ballons
-#GAME = 1; SUBZERO_FLIGHT = True # sponges 3x3x3
-#GAME = 3; SUBZERO_FLIGHT = True # sponges 9x9x9
-#GAME = 9; SUBZERO_FLIGHT = True # sponges 27x27x27
-#GAME = 30; SUBZERO_FLIGHT = True # Maze 3  # Problem med att man ser igenom
+N = 5
 
 def ass_point(a,b):
     if round(a[0],6) != round(b[0],6) or round(a[1],6) != round(b[1],6):
@@ -63,27 +54,8 @@ def tex_coords(top, bottom, side):
     result.extend(side * 4)
     return result
 
-class JoyStick():
 
-    def __init__(self):
-        if CPU:
-            pygame.init()
-        pygame.joystick.init()
-        self.gp = pygame.joystick.Joystick(0)
-        self.gp.init()
-
-    def update(self):
-        res = []
-        pygame.event.pump()
-        for i in range(self.gp.get_numaxes()):
-            res.append(self.gp.get_axis(i))
-        for i in range(self.gp.get_numbuttons()):
-            res.append(self.gp.get_button(i))
-        self.yaw, self.thrust, _, self.pitch, self.roll = res[0:5]
-        self.A, self.B, self.X, self.Y = res[5:9]
-
-
-TEXTURE_PATH = 'texture_clean.png'
+TEXTURE_PATH = 'texture.png'
 
 GRASS = tex_coords((1, 0), (0, 1), (0, 0))
 SAND  = tex_coords((1, 1), (1, 1), (1, 1))
@@ -124,52 +96,42 @@ ass_point(rotate(1,0,45), (0.707107,0.707107))
 ass_point(rotate(1,0,60), (0.5,math.sqrt(3)/2))
 
 class QuadCopter():
-    def __init__(self, gp, model):
+    def __init__(self, model):
         self.model = model
-        self.gp = gp
-        self.position = (0,0,0)  # x,y,z
+        self.position = (-N-10,5,-N+1)  # x,y,z
         self.angle = 0  # grader
 
-    def update(self, dt):
-        gp = self.gp
-        if gp.B: return
+    def update(self, keys):
         x,y,z = self.position
+        dx,dy,dz = 0,0,0
+        if keys != []:
+            k = keys.pop()
+            if k == key.W:  # up
+                dy = 1
+            elif k == key.S:  # down
+                dy = -1
+            elif k == key.UP:
+                dx = 1
+            elif k == key.DOWN:
+                dx = -1
+            elif k == key.LEFT:
+                dz = -1
+            elif k == key.RIGHT:
+                dz = 1
 
-        dx_wind = dt * WIND_SPEED * math.cos(math.radians(90+WIND_ANGLE - self.angle))
-        dz_wind = dt * WIND_SPEED * math.sin(math.radians(90+WIND_ANGLE - self.angle))
-
-        speed = dt * MAX_SPEED
-
-        if abs(gp.roll)< 0.1: gp.roll=0
-        if abs(gp.thrust)< 0.1: gp.thrust=0
-        if abs(gp.pitch)< 0.1: gp.pitch=0
-        if abs(gp.yaw)< 0.1: gp.yaw=0
-
-        dx = gp.roll * speed
-        dy = -gp.thrust * speed * 0.5
-        dz = gp.pitch * speed
-        da = gp.yaw/5
-
-        self.angle += da
-        self.angle %= 360
-        dx,dz = rotate(dx,dz,self.angle)
-
-        if SUBZERO_FLIGHT:
-            x += dx + dx_wind
-            z += dz + dz_wind
+        if dy==0 and (x+10+dx,1,z+dz) in self.model.world:
+            winsound.PlaySound('laser.wav', winsound.SND_FILENAME)
         else:
-            if y < 0:
-                y = 0  # Planet kan inte befinna sig under markytan
-            if y > 0:
-                x += dx + dx_wind
-                z += dz + dz_wind
-        y += dy
-
+            self.model.remove_block((x+10,1,z), immediate=True)
+            x += dx
+            z += dz
+            y += dy
+            self.model.add_block((x+10,1,z), BRICK, immediate=True)
         self.position = (x,y,z)
 
 class Model(object):
 
-    def __init__(self, gp):
+    def __init__(self):
         self.count = 0
         self.batch = pyglet.graphics.Batch()
         self.group = TextureGroup(image.load(TEXTURE_PATH).get_texture())
@@ -180,52 +142,13 @@ class Model(object):
         self.queue = deque()
         self.targets = 0
 
-        if GAME == 0:
-            self._initialize()
-        elif GAME == 30:
-            maze = Maze3D(self)
-        else:
-            self.sponge(0,0,0,GAME)
+        maze = Maze3D(self)
 
-        self.quadcopter = QuadCopter(gp, self)
-        #self.quadcopter.position = (-3,-2,-2)
-        #self.quadcopter.position = (-12,-2,-2)
-        #self.quadcopter.angle = 90
+        self.quadcopter = QuadCopter(self)
+        #self.quadcopter.position = (-N-3,5,0)
+        self.quadcopter.angle = 90
         self.start = None
         self.time = ''
-
-    def sponge(self, a, b, c, n):
-        if n == 0:
-            self.targets += 1
-            return self.add_block((a,b,c), STONE, immediate=False)
-        for x in [-1,0,1]:
-            for y in [-1,0,1]:
-                for z in [-1,0,1]:
-                    if abs(x) + abs(y) + abs(z) > 1:
-                        self.sponge(a+x*n, b+y*n, c+z*n, n/3)
-
-    def _initialize(self):
-        n = 20  # 20 # 1/2 width and height of world
-        for x in xrange(-n, n + 1):
-            for z in xrange(-n, n + 1):
-                if x in (-n, n) or z in (-n, n):
-                    self.add_block((x, -1, z), STONE, immediate=False)
-                else:
-                    texture = GRASS if random.randint(1,2) == 1 else SAND
-                    self.add_block((x, -1, z), texture, immediate=False)
-        self.add_block((0, -1, 1), STONE, immediate=False)
-        self.add_block((0, -1, 0), STONE, immediate=False)
-        self.add_block((1, -1, 0), STONE, immediate=False)
-        self.add_targets(10)
-
-    def add_targets(self,n):
-        for i in range(n):
-            self.targets += 1
-            x = random.randint(-20,20)
-            y = random.randint(1,10)
-            z = random.randint(-20,20)
-            self.add_block((x,y,z), BRICK, immediate=False)
-            self.add_block((x,-1,z), BRICK, immediate=False)
 
     def exposed(self, position):
         x, y, z = position
@@ -343,11 +266,9 @@ class Window(pyglet.window.Window):
         super(Window, self).__init__(*args, **kwargs)
         self.sector = None
         self.reticle = None
-        self.stack = []
+        self.keys = []
 
-        # Joystick
-        self.joystick = JoyStick()
-        self.model = Model(self.joystick)
+        self.model = Model()
         self.labels = []
 
         for y in [10,40,70,100,130]:
@@ -369,23 +290,17 @@ class Window(pyglet.window.Window):
             self._update(dt / m)
 
     def _update(self, dt):
+        if self.keys==[]:
+            return
         qc = self.model.quadcopter
-        position = qc.position
-        self.stack.append(position)
-        angle = qc.angle
-        qc.update(dt)
-        if GAME == 30:
-            while normalize(qc.position) in self.model.world:
-                qc.position = self.stack.pop()
-                qc.angle = angle
-        else:
-            key = normalize(qc.position)
-            if key in self.model.world: # and key[1] > 0:
-                winsound.PlaySound('laser.wav', winsound.SND_FILENAME)
-                if self.model.start == None:
-                    self.model.start = time.clock()
-                self.model.targets -= 1
-                self.model.remove_block(key)
+        qc.update(self.keys)
+        key = normalize(qc.position)
+        if key in self.model.world: # and key[1] > 0:
+            winsound.PlaySound('laser.wav', winsound.SND_FILENAME)
+            if self.model.start == None:
+                self.model.start = time.clock()
+            self.model.targets -= 1
+            #self.model.remove_block(key)
         if self.model.targets > 0 and self.model.start is not None:
             self.model.time = 'time=%.3f' % (time.clock() - self.model.start)
 
@@ -397,6 +312,9 @@ class Window(pyglet.window.Window):
         x, y = self.width / 2, self.height / 2
         n = 10
         self.reticle = pyglet.graphics.vertex_list(4, ('v2i', (x - n, y, x + n, y, x, y - n, x, y + n)))
+
+    def on_key_press(self, symbol, modifiers):
+        self.keys.append(symbol)
 
     def set_2d(self):
         width, height = self.get_size()
@@ -426,7 +344,6 @@ class Window(pyglet.window.Window):
         glTranslatef(-x, -y, -z)
 
     def on_draw(self):
-        self.joystick.update()
         self.clear()
         self.set_3d()
         glColor3d(1, 1, 1)
@@ -437,11 +354,8 @@ class Window(pyglet.window.Window):
 
     def draw_label(self):
         qc = self.model.quadcopter
-        gp = qc.gp
         x, y, z = qc.position
-        self.labels[0].text = 'x=%.6f y=%.2f z=%.2f angle=%2d' % (x, y, z, qc.angle % 360)
-        self.labels[1].text = 'roll=%.2f thrust=%0.2f pitch=%.2f yaw=%0.2f' % (gp.roll, gp.thrust, gp.pitch, gp.yaw)
-        self.labels[2].text = 'fps=%02d targets=%d %s' % (pyglet.clock.get_fps(), self.model.targets, self.model.time)
+        self.labels[0].text = 'x=%d z=%d' % (x+10, z)
         for label in self.labels: label.draw()
 
     def draw_reticle(self):  # hårkors
@@ -451,32 +365,39 @@ class Window(pyglet.window.Window):
 class Maze3D():
     def __init__(self,model):
         self.model = model
-        self.N = 3
-        N = self.N
         for x in range(-N,N+1):
-            for y in range(-N,N+1):
-                for z in range(-N,N+1):
-                    model.add_block((x, y, z), STONE, immediate=False)
-        self.build(0,0,0)
-        model.remove_block((-N,-N+1,-N+1))
-        model.remove_block((N,N-1,N-1))
+            for z in range(-N,N+1):
+                model.add_block((x, 1, z), GRASS, immediate=False)
+                model.add_block((x, 0, z), STONE, immediate=False)
+        self.build(0,1,0)
+        model.remove_block((-N,1,-N+1))
+        model.remove_block((N,1,N-1))
+        model.add_block((-N+0,1,-N+1), BRICK, immediate=False)
+        self.dump()
 
     def build(self,x,y,z):
-        N = self.N
         self.model.remove_block((x,y,z))
-        d = [[-1,0,0],[1,0,0],[0,-1,0],[0,1,0],[0,0,1],[0,0,-1]]
+        d = [[-1,0],[1,0],[0,1],[0,-1]]
         random.shuffle(d)
-        for dx,dy,dz in d:
+        for dx,dz in d:
             x2 = x+dx+dx
-            y2 = y+dy+dy
             z2 = z+dz+dz
             if x2 in [-N-1,N+1]: continue
-            if y2 in [-N-1,N+1]: continue
             if z2 in [-N-1,N+1]: continue
-            if (x2,y2,z2) not in self.model.world: continue
-            self.model.remove_block((x+dx,y+dy,z+dz))
-            self.build(x2,y2,z2)
+            if (x2,1,z2) not in self.model.world: continue
+            self.model.remove_block((x+dx,y,z+dz))
+            self.build(x2,y,z2)
 
+    def dump(self):
+        print "N =",N
+        for x in reversed(range(-N,N+1)):
+            s = ''
+            for z in range(-N,N+1):
+                if (x,1,z) in self.model.world and self.model.world[(x,1,z)] == GRASS:
+                    s += 'O'
+                else:
+                    s += ' '
+            print s
 def setup():
     glClearColor(0.5, 0.69, 1.0, 1)
     glEnable(GL_CULL_FACE)
@@ -484,10 +405,10 @@ def setup():
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST)
 
 def main():
-    Window(width=1200, height=1000, caption='Quadcopter', resizable=False)
+    Window(width=1200, height=1000, caption='Maze 2D', resizable=False)
     setup()
     pyglet.app.run()
 
-if not CPU:
-    pygame.init()
+sys.setrecursionlimit(2500)
+random.seed(42)
 main()
