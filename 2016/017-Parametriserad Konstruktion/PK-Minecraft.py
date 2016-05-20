@@ -266,18 +266,22 @@ class Model(object):
         FODER = 95+10
 
         for i in range(5):
-            self.add('43', [FODER*i-y[2],FODER*i-y[2]+95], '22', GRAY,'foder vänster sida')
-            self.add('34', [FODER*i-y[2],FODER*i-y[2]+95], '22', GRAY,'foder höger sida')
-            self.add('44', [FODER*i-y[2],FODER*i-y[2]+95], '24', RED,'foder framifrån')
+            bas = FODER*i-y[2]
+            self.add('43', [bas,bas+95], '22', GRAY,'foder vänster sida')
+            self.add('34', [bas,bas+95], '22', GRAY,'foder höger sida')
+            self.add('44', [bas,bas+95], '24', RED,'foder framifrån')
 
         for i in range(6):
-            self.add('44', '34', [FODER*i-290,FODER*i-290+95], RED,'foder sitsen')
+            bas = FODER*i-290
+            self.add('44', '34', [bas,bas+95], RED,'foder sitsen')
 
         for i in range(5):
-            self.add('33', [-y[1],-y[1]+15], [FODER*i-z[1]+10,FODER*i-z[1]+10+95], RED,'foder kistbotten')
+            bas = FODER*i-z[1]+10
+            self.add('33', [-y[1],-y[1]+15], [bas,bas+95], RED,'foder kistbotten')
 
         for i in range(5):
-            self.add('44', [FODER*i+y[4]-10,FODER*i+y[4]-10+95], [-z[2],-z[2]+15], RED,'foder ryggstöd')
+            bas = FODER*i+y[4]-10
+            self.add('44', [bas,bas+95], [-z[2],-z[2]+15], RED,'foder ryggstöd')
 
         self.list_material()
         self.list_collisions()
