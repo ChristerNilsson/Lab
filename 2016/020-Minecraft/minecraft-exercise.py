@@ -1,9 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import math
-import random
 import time
-import winsound
 
 import pygame
 
@@ -22,16 +20,7 @@ SECTOR_SIZE = 16
 
 CPU = True  # Eftersom min laptop och min CPU uppför sig olika. Symptomet är att programmet hänger sig vid start.
 
-MAX_SPEED = 5.0  # boxar/sekund
-
-WIND_ANGLE = 0  # geographiska grader
-WIND_SPEED = 0.0  # boxar/sekund
-
-GAME = 0; SUBZERO_FLIGHT = False # Ballons
-#GAME = 1; SUBZERO_FLIGHT = True # sponges 3x3x3
-#GAME = 3; SUBZERO_FLIGHT = True # sponges 9x9x9
-#GAME = 9; SUBZERO_FLIGHT = True # sponges 27x27x27
-#GAME = 30; SUBZERO_FLIGHT = True # Maze 3  # Problem med att man ser igenom
+MAX_SPEED = 2.0  # boxar/sekund
 
 def ass(a,b):
     if round(a,6) != round(b,6):
@@ -77,6 +66,7 @@ class JoyStick():
         pygame.joystick.init()
         self.gp = pygame.joystick.Joystick(0)
         self.gp.init()
+        self.pitch = 0
 
     def update(self):
         res = []
@@ -87,7 +77,6 @@ class JoyStick():
             res.append(self.gp.get_button(i))
         self.yaw, self.thrust, _, self.pitch, self.roll = res[0:5]
         self.A, self.B, self.X, self.Y = res[5:9]
-
 
 TEXTURE_PATH = 'texture_clean.png'
 
@@ -159,65 +148,35 @@ ass(cos(300), 0.5)
 ass(cos(315), 1/math.sqrt(2))
 ass(cos(330), math.sqrt(3)/2)
 
-def rotate(x, y, angle):
-    # Roterar en punkt (x,y) moturs runt origo, givet en vinkel i grader
-    # Du behöver använda addition, subtraktion, multiplikation samt sinus och cosinus.
-    # Du kan alternativt omforma angle till ett komplext tal och beräkna (x+yi)*(c+di)
-    a = math.radians(angle)
-    qx = x * math.cos(a) - y * math.sin(a)
-    qy = x * math.sin(a) + y * math.cos(a)
-    return qx, qy
-ass_point(rotate(0,0,0), (0,0))
-ass_point(rotate(0,0,90), (0,0))
-ass_point(rotate(1,0,90), (0,1))
-ass_point(rotate(2,0,90), (0,2))
-ass_point(rotate(1,0,180), (-1,0))
-ass_point(rotate(1,0,270), (0,-1))
-ass_point(rotate(1,0,45), (0.707107,0.707107))
-ass_point(rotate(1,0,60), (0.5,math.sqrt(3)/2))
+
+# def rotate(px, py, angle):
+#     # Roterar en punkt (px,py) moturs runt origo, givet en vinkel i grader
+#     # Du behöver använda addition, subtraktion, multiplikation samt sinus och cosinus.
+#     a = math.radians(angle)
+#     qx = 00
+#     qy = 00
+#     return qx, qy
+# ass_point(rotate(0,0,0), (0,0))
+# ass_point(rotate(0,0,90), (0,0))
+# ass_point(rotate(1,0,90), (0,1))
+# ass_point(rotate(2,0,90), (0,2))
+# ass_point(rotate(1,0,180), (-1,0))
+# ass_point(rotate(1,0,270), (0,-1))
+# ass_point(rotate(1,0,45), (0.707107,0.707107))
+# ass_point(rotate(1,0,60), (0.5,math.sqrt(3)/2))
 
 class QuadCopter():
-    def __init__(self, gp, model):
-        self.model = model
+    def __init__(self, gp):
         self.gp = gp
         self.position = (0,0,0)  # x,y,z
-        self.angle = 0  # grader
+        self.angle = 0  # geografiska grader
 
-    def update(self, dt):
+    def update(self, dt):  #02#  #03#  #04.5#
         gp = self.gp
-        if gp.B: return
         x,y,z = self.position
-
-        dx_wind = dt * WIND_SPEED * math.cos(math.radians(90+WIND_ANGLE - self.angle))
-        dz_wind = dt * WIND_SPEED * math.sin(math.radians(90+WIND_ANGLE - self.angle))
-
         speed = dt * MAX_SPEED
-
-        if abs(gp.roll) < 0.1: gp.roll=0
-        if abs(gp.thrust) < 0.1: gp.thrust=0
-        if abs(gp.pitch) < 0.1: gp.pitch=0
-        if abs(gp.yaw) < 0.1: gp.yaw=0
-
-        dx = gp.roll * speed
-        dy = -gp.thrust * speed * 0.5
         dz = gp.pitch * speed
-        da = gp.yaw/5
-
-        self.angle += da
-        self.angle %= 360
-        dx,dz = rotate(dx,dz,self.angle)
-
-        if SUBZERO_FLIGHT:
-            x += dx + dx_wind
-            z += dz + dz_wind
-        else:
-            if y < 0:
-                y = 0  # Planet kan inte befinna sig under markytan
-            if y > 0:
-                x += dx + dx_wind
-                z += dz + dz_wind
-        y += dy
-
+        z += dz
         self.position = (x,y,z)
 
 class Model(object):
@@ -231,54 +190,17 @@ class Model(object):
         self._shown = {}
         self.sectors = {}
         self.queue = deque()
-        self.targets = 0
+        self._initialize()
+        self.quadcopter = QuadCopter(gp)
 
-        if GAME == 0:
-            self._initialize()
-        elif GAME == 30:
-            maze = Maze3D(self)
-        else:
-            self.sponge(0,0,0,GAME)
-
-        self.quadcopter = QuadCopter(gp, self)
-        #self.quadcopter.position = (-3,-2,-2)
-        #self.quadcopter.position = (-12,-2,-2)
-        #self.quadcopter.angle = 90
-        self.start = None
-        self.time = ''
-
-    def sponge(self, a, b, c, n):
-        if n == 0:
-            self.targets += 1
-            return self.add_block((a,b,c), STONE, immediate=False)
-        for x in [-1,0,1]:
-            for y in [-1,0,1]:
-                for z in [-1,0,1]:
-                    if abs(x) + abs(y) + abs(z) > 1:
-                        self.sponge(a+x*n, b+y*n, c+z*n, n/3)
-
-    def _initialize(self):
-        n = 20  # 20 # 1/2 width and height of world
-        for x in xrange(-n, n + 1):
-            for z in xrange(-n, n + 1):
-                if x in (-n, n) or z in (-n, n):
-                    self.add_block((x, -1, z), STONE, immediate=False)
-                else:
-                    texture = GRASS if random.randint(1,2) == 1 else SAND
-                    self.add_block((x, -1, z), texture, immediate=False)
+    def _initialize(self):  #01#  #05#  #07#  #09#
+        n = 2
+        for z in xrange(-n, n + 1):
+            texture = [SAND,GRASS][z%2]
+            self.add_block((0, -1, z), texture, immediate=False)
         self.add_block((0, -1, 1), STONE, immediate=False)
         self.add_block((0, -1, 0), STONE, immediate=False)
         self.add_block((1, -1, 0), STONE, immediate=False)
-        self.add_targets(10)
-
-    def add_targets(self,n):
-        for i in range(n):
-            self.targets += 1
-            x = random.randint(-20,20)
-            y = random.randint(1,10)
-            z = random.randint(-20,20)
-            self.add_block((x,y,z), BRICK, immediate=False)
-            self.add_block((x,-1,z), BRICK, immediate=False)
 
     def exposed(self, position):
         x, y, z = position
@@ -396,14 +318,13 @@ class Window(pyglet.window.Window):
         super(Window, self).__init__(*args, **kwargs)
         self.sector = None
         self.reticle = None
-        self.stack = []
 
         # Joystick
         self.joystick = JoyStick()
         self.model = Model(self.joystick)
         self.labels = []
 
-        for y in [10,40,70,100,130]:
+        for y in [10,40,70]:  #04#
             self.labels.append(pyglet.text.Label('', font_name='Arial', font_size=18, x=10, y=self.height - y, anchor_x='left', anchor_y='top', color=(0, 0, 0, 255)))
 
         pyglet.clock.schedule_interval(self.update, 1.0 / TICKS_PER_SEC)
@@ -421,30 +342,13 @@ class Window(pyglet.window.Window):
         for _ in xrange(m):
             self._update(dt / m)
 
-    def _update(self, dt):
+    def _update(self, dt):  #06#  #06.5#  #08#
         qc = self.model.quadcopter
-        position = qc.position
-        self.stack.append(position)
-        angle = qc.angle
         qc.update(dt)
-        if GAME == 30:
-            while normalize(qc.position) in self.model.world:
-                qc.position = self.stack.pop()
-                qc.angle = angle
-        else:
-            key = normalize(qc.position)
-            if key in self.model.world: # and key[1] > 0:
-                winsound.PlaySound('laser.wav', winsound.SND_FILENAME)
-                if self.model.start == None:
-                    self.model.start = time.clock()
-                self.model.targets -= 1
-                self.model.remove_block(key)
-        if self.model.targets > 0 and self.model.start is not None:
-            self.model.time = 'time=%.3f' % (time.clock() - self.model.start)
 
     def on_resize(self, width, height):
-        for i in range(5):
-            self.labels[i].y = height - [10,40,70,100,130][i]
+        for i in range(3):  #04#
+            self.labels[i].y = height - [10,40,70][i]
         if self.reticle:
             self.reticle.delete()
         x, y = self.width / 2, self.height / 2
@@ -467,14 +371,14 @@ class Window(pyglet.window.Window):
         glViewport(0, 0, width, height)
         glMatrixMode(GL_PROJECTION)
         glLoadIdentity()
-        gluPerspective(65.0, width / float(height), 0.1, 600.0)  # 60.0
+        gluPerspective(65.0, width / float(height), 0.1, 600.0)
         glMatrixMode(GL_MODELVIEW)
         glLoadIdentity()
         qc = self.model.quadcopter
-        a = qc.angle
+        x = qc.angle
         y = 0
-        glRotatef(a, 0, 1, 0)
-        glRotatef(-y, math.cos(math.radians(a)), 0, math.sin(math.radians(a)))
+        glRotatef(x, 0, 1, 0)
+        glRotatef(-y, math.cos(math.radians(x)), 0, math.sin(math.radians(x)))
         x, y, z = qc.position
         glTranslatef(-x, -y, -z)
 
@@ -488,47 +392,18 @@ class Window(pyglet.window.Window):
         self.draw_label()
         self.draw_reticle()
 
-    def draw_label(self):
+    def draw_label(self):  #04#
         qc = self.model.quadcopter
         gp = qc.gp
         x, y, z = qc.position
-        self.labels[0].text = 'x=%.6f y=%.2f z=%.2f angle=%2d' % (x, y, z, qc.angle % 360)
-        self.labels[1].text = 'roll=%.2f thrust=%0.2f pitch=%.2f yaw=%0.2f' % (gp.roll, gp.thrust, gp.pitch, gp.yaw)
-        self.labels[2].text = 'fps=%02d targets=%d %s' % (pyglet.clock.get_fps(), self.model.targets, self.model.time)
+        self.labels[0].text = 'z=%.2f' % (z)
+        self.labels[1].text = 'pitch=%.2f' % (gp.pitch)
+        self.labels[2].text = 'fps=%02d' % (pyglet.clock.get_fps())
         for label in self.labels: label.draw()
 
     def draw_reticle(self):  # hårkors
         glColor3d(0, 0, 0)
         self.reticle.draw(GL_LINES)
-
-class Maze3D():
-    def __init__(self,model):
-        self.model = model
-        self.N = 3
-        N = self.N
-        for x in range(-N,N+1):
-            for y in range(-N,N+1):
-                for z in range(-N,N+1):
-                    model.add_block((x, y, z), STONE, immediate=False)
-        self.build(0,0,0)
-        model.remove_block((-N,-N+1,-N+1))
-        model.remove_block((N,N-1,N-1))
-
-    def build(self,x,y,z):
-        N = self.N
-        self.model.remove_block((x,y,z))
-        d = [[-1,0,0],[1,0,0],[0,-1,0],[0,1,0],[0,0,1],[0,0,-1]]
-        random.shuffle(d)
-        for dx,dy,dz in d:
-            x2 = x+dx+dx
-            y2 = y+dy+dy
-            z2 = z+dz+dz
-            if x2 in [-N-1,N+1]: continue
-            if y2 in [-N-1,N+1]: continue
-            if z2 in [-N-1,N+1]: continue
-            if (x2,y2,z2) not in self.model.world: continue
-            self.model.remove_block((x+dx,y+dy,z+dz))
-            self.build(x2,y2,z2)
 
 def setup():
     glClearColor(0.5, 0.69, 1.0, 1)
