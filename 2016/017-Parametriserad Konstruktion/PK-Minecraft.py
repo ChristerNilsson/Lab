@@ -149,75 +149,12 @@ class Camera():
 
         self.position = (x,y,z)
 
-class Model(object):
-
-    def __init__(self,gp):
-        self.count = 0
-        self.batch = pyglet.graphics.Batch()
-        self.group = TextureGroup(image.load(TEXTURE_PATH).get_texture())
-
-        self.world = {}
-        self.sizes = {}
-        self.colors= {}
-        self.material = []
+class Object():
+    def __init__(self,x0,y0,z0,model):
+        self.model = model
         self.volumes = {}
+        self.material = []
 
-        self.shown = {}
-        self._shown = {}
-        self.sectors = {}
-        self.queue = deque()
-        self._initialize()
-        self.camera = Camera(gp)
-
-    def add(self,x,y,z,color,desc):
-        if type(x) is str:
-            x0,x1 = self.conv(x,self.x)
-        else:
-            x0,x1 = x
-        if type(y) is str:
-            y0,y1 = self.conv(y,self.y)
-        else:
-            y0,y1 = y
-        if type(z) is str:
-            z0,z1 = self.conv(z,self.z)
-        else:
-            z0,z1 = z
-        self.volumes[desc] = [x0,x1,y0,y1,z0,z1]
-        self.material.append(sorted([x1-x0,y1-y0,z1-z0]))
-        x,dx = (x0+x1)/2000.0,(x1-x0)/2000.0
-        y,dy = (y0+y1)/2000.0,(y1-y0)/2000.0
-        z,dz = (z0+z1)/2000.0,(z1-z0)/2000.0
-        self.add_block((x,y,z), (dx,dy,dz), color, immediate=False)
-
-    def conv(self, s, lst):
-        n = int(s)
-        if n < 0:
-            n = -n
-            a = n / 10
-            b = n % 10
-            if a <= b:
-                return [-lst[a], lst[b]]
-            else:
-                return [-lst[a], lst[b]]
-        else:
-            a = n / 10
-            b = n % 10
-            if a < b:
-                return [lst[a], lst[b]]
-            elif a == b:
-                return [-lst[a], lst[b]]
-            else:
-                return [-lst[a], -lst[b]]
-
-    def adds(self,s,color):
-        x,y,z = self.x, self.y, self.z
-        arr = s.split(' ')
-        x2 = self.conv(arr[0],x)
-        y2 = self.conv(arr[1],y)
-        z2 = self.conv(arr[2],z)
-        self.add(x2, y2, z2, color, s)
-
-    def _initialize(self):
         # Förklaring:
 
         # '12 21 -22'
@@ -234,6 +171,8 @@ class Model(object):
         # Origo placeras lämpligen så centralt i objektet som möjligt.
         # Observera att minustecknet bara negerar det först värdet.
         # Ska båda negeras måste indexen stå i fallande ordning.
+
+        self.x0,self.y0,self.z0 = x0,y0,z0
 
         x = self.x = [0, 22.5, 390, 435, 450]  # definierar [-4,-3,-2,-1,0,1,2,3,4] == [-450, -435, -390, -22.5, 0, 22.5, 390, 435, 450]
         y = self.y = [0, 190,  235, 280, 295, 800]
@@ -283,8 +222,60 @@ class Model(object):
             bas = FODER*i+y[4]-10
             self.add('44', [bas,bas+95], [-z[2],-z[2]+15], RED,'foder ryggstöd')
 
-        self.list_material()
-        self.list_collisions()
+        if x0 == y0 == z0 == 0:
+            self.list_material()
+            self.list_collisions()
+
+    def add(self,x,y,z,color,desc):
+        if type(x) is str:
+            x0,x1 = self.conv(x,self.x)
+        else:
+            x0,x1 = x
+        if type(y) is str:
+            y0,y1 = self.conv(y,self.y)
+        else:
+            y0,y1 = y
+        if type(z) is str:
+            z0,z1 = self.conv(z,self.z)
+        else:
+            z0,z1 = z
+
+        if self.x0 == self.y0 == self.z0 == 0:
+            self.volumes[desc] = [x0,x1,y0,y1,z0,z1]
+            self.material.append(sorted([x1-x0,y1-y0,z1-z0]))
+
+        x,dx = (x0+x1)/2000.0,(x1-x0)/2000.0
+        y,dy = (y0+y1)/2000.0,(y1-y0)/2000.0
+        z,dz = (z0+z1)/2000.0,(z1-z0)/2000.0
+        self.model.add_block((self.x0+x,self.y0+y,self.z0+z), (dx,dy,dz), color, immediate=False)
+
+    def conv(self, s, lst):
+        n = int(s)
+        if n < 0:
+            n = -n
+            a = n / 10
+            b = n % 10
+            if a <= b:
+                return [-lst[a], lst[b]]
+            else:
+                return [-lst[a], lst[b]]
+        else:
+            a = n / 10
+            b = n % 10
+            if a < b:
+                return [lst[a], lst[b]]
+            elif a == b:
+                return [-lst[a], lst[b]]
+            else:
+                return [-lst[a], -lst[b]]
+
+    def adds(self,s,color):
+        x,y,z = self.x, self.y, self.z
+        arr = s.split(' ')
+        x2 = self.conv(arr[0],x)
+        y2 = self.conv(arr[1],y)
+        z2 = self.conv(arr[2],z)
+        self.add(x2, y2, z2, color, s)
 
     def list_material(self):
         print "Material List:"
@@ -313,6 +304,87 @@ class Model(object):
                     if z0 >= z3: continue
                     print '', a, '-', b
         print
+
+class Model(object):
+
+    def __init__(self,gp):
+        self.count = 0
+        self.batch = pyglet.graphics.Batch()
+        self.group = TextureGroup(image.load(TEXTURE_PATH).get_texture())
+
+        self.world = {}
+        self.sizes = {}
+        self.colors= {}
+        self.material = []
+        self.volumes = {}
+
+        self.shown = {}
+        self._shown = {}
+        self.sectors = {}
+        self.queue = deque()
+        self._initialize()
+        self.camera = Camera(gp)
+
+
+    def original(self):
+        x = self.x = [0, 22.5, 390, 435, 450]  # definierar [-4,-3,-2,-1,0,1,2,3,4] == [-450, -435, -390, -22.5, 0, 22.5, 390, 435, 450]
+        y = self.y = [0, 190,  235, 280, 295, 800]
+        z = self.z = [0, 270,  315, 360, 330]
+
+        self.adds('11 -25 32', GRAY) # mitten stolpe ryggstöd
+        self.adds('11 11 12', GREEN) # mitten stolpe till främre ram
+        self.adds('11 11 21', GREEN) # mitten stolpe till bakre ram
+        self.adds('11 21 11', GREEN) # mitten liggande undre
+        self.adds('11 23 22', GREEN) # mitten liggande övre
+
+        self.adds('23 -25 32', GRAY) # höger stolpe ryggstöd
+        self.adds('23 11 12', GREEN) # höger stolpe till främre ram
+        self.adds('23 11 21', GREEN) # höger stolp till bakre ram
+        self.adds('23 21 11', GREEN) # höger liggande undre
+        self.adds('23 23 22', GREEN) # höger liggande övre
+
+        self.adds('32 -25 32', GRAY) # vänster stolpe ryggstöd
+        self.adds('32 11 12', GREEN) # vänster stolpe till främre ram
+        self.adds('32 11 21', GREEN) # vänster stolpe till bakre ram
+        self.adds('32 21 11', GREEN) # vänster liggande undre
+        self.adds('32 23 22', GREEN) # vänster liggande övre
+
+        self.adds('33 12 12', YELLOW) # övre främre ram
+        self.adds('33 12 21', YELLOW) # övre bakre ram
+        self.adds('33 21 12', YELLOW) # undre främre ram
+        self.adds('33 21 21', YELLOW) # undre bakre ram
+
+        # foder
+        FODER = 95+10
+
+        for i in range(5):
+            bas = FODER*i-y[2]
+            self.add('43', [bas,bas+95], '22', GRAY,'foder vänster sida')
+            self.add('34', [bas,bas+95], '22', GRAY,'foder höger sida')
+            self.add('44', [bas,bas+95], '24', RED,'foder framifrån')
+
+        for i in range(6):
+            bas = FODER*i-290
+            self.add('44', '34', [bas,bas+95], RED,'foder sitsen')
+
+        for i in range(5):
+            bas = FODER*i-z[1]+10
+            self.add('33', [-y[1],-y[1]+15], [bas,bas+95], RED,'foder kistbotten')
+
+        for i in range(5):
+            bas = FODER*i+y[4]-10
+            self.add('44', [bas,bas+95], [-z[2],-z[2]+15], RED,'foder ryggstöd')
+
+
+
+    def _initialize(self):
+        self.objects = []
+
+        n = 10
+        for i in range(n):
+            for j in range(n):
+                for k in range(n):
+                    self.objects.append(Object(2*i,2*j,2*k,self))
 
     def exposed(self, position):
         x, y, z = position
@@ -504,6 +576,17 @@ class Window(pyglet.window.Window):
         glColor3d(1, 1, 1)
         self.model.batch.draw()
         self.set_2d()
+        self.draw_label()
+
+    def draw_label(self):
+        qc = self.model.camera
+        gp = qc.gp
+        x, y, z = qc.position
+        self.labels[0].text = 'x=%.6f y=%.2f z=%.2f angle=%2d' % (x, y, z, qc.angle % 360)
+        self.labels[1].text = 'roll=%.2f thrust=%0.2f pitch=%.2f yaw=%0.2f' % (gp.roll, gp.thrust, gp.pitch, gp.yaw)
+        self.labels[2].text = 'fps=%02d boxes=%d' % (pyglet.clock.get_fps(), len(self.model.world))
+        for label in self.labels: label.draw()
+
 
 def setup():
     glClearColor(0.5, 0.69, 1.0, 1)

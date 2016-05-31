@@ -33,9 +33,15 @@ GAME = 0; SUBZERO_FLIGHT = False # Ballons
 #GAME = 9; SUBZERO_FLIGHT = True # sponges 27x27x27
 #GAME = 30; SUBZERO_FLIGHT = True # Maze 3  # Problem med att man ser igenom
 
+def ass(a,b):
+    if round(a,6) != round(b,6):
+        print 'assert failure!'
+        assert False
+
 def ass_point(a,b):
     if round(a[0],6) != round(b[0],6) or round(a[1],6) != round(b[1],6):
         print 'assert failure!'
+        assert False
 
 def cube_vertices(x, y, z, n):
     return [
@@ -109,15 +115,62 @@ def sectorize(position):
     x, y, z = x / SECTOR_SIZE, y / SECTOR_SIZE, z / SECTOR_SIZE
     return x, 0, z
 
-def rotate(px, py, angle):
-    # Roterar en punkt (px,py) moturs runt origo, givet en vinkel i grader
+ass(math.radians(0),0)
+ass(math.radians(30),30 * math.pi / 180)
+ass(math.radians(45),45 * math.pi / 180)
+ass(math.radians(60),60 * math.pi / 180)
+ass(math.radians(90),90 * math.pi / 180)
+
+def sin(angle):
+    return round(math.sin(math.radians(angle)),6)
+ass(sin(0), 0)
+ass(sin(30), 0.5)
+ass(sin(45), 1/math.sqrt(2))
+ass(sin(60), math.sqrt(3)/2)
+ass(sin(90), 1)
+ass(sin(120), math.sqrt(3)/2)
+ass(sin(135), 1/math.sqrt(2))
+ass(sin(150), 0.5)
+ass(sin(180), 0)
+ass(sin(210), -0.5)
+ass(sin(225), -1/math.sqrt(2))
+ass(sin(240), -math.sqrt(3)/2)
+ass(sin(270), -1)
+ass(sin(300), -math.sqrt(3)/2)
+ass(sin(315), -1/math.sqrt(2))
+ass(sin(330), -0.5)
+
+def cos(angle):
+    return round(math.cos(math.radians(angle)),6)
+ass(cos(0), 1)
+ass(cos(30), math.sqrt(3)/2)
+ass(cos(45), 1/math.sqrt(2))
+ass(cos(60), 0.5)
+ass(cos(90), 0)
+ass(cos(120), -0.5)
+ass(cos(135), -1/math.sqrt(2))
+ass(cos(150), -math.sqrt(3)/2)
+ass(cos(180), -1)
+ass(cos(210), -math.sqrt(3)/2)
+ass(cos(225), -1/math.sqrt(2))
+ass(cos(240), -0.5)
+ass(cos(270), 0)
+ass(cos(300), 0.5)
+ass(cos(315), 1/math.sqrt(2))
+ass(cos(330), math.sqrt(3)/2)
+
+def rotate(x, y, angle):
+    # Roterar en punkt (x,y) moturs runt origo, givet en vinkel i grader
+    # Du behöver använda addition, subtraktion, multiplikation samt sinus och cosinus.
+    # Du kan alternativt omforma angle till ett komplext tal och beräkna (x+yi)*(c+di)
     a = math.radians(angle)
-    qx = math.cos(a) * px - math.sin(a) * py
-    qy = math.sin(a) * px + math.cos(a) * py
+    qx = x * math.cos(a) - y * math.sin(a)
+    qy = x * math.sin(a) + y * math.cos(a)
     return qx, qy
 ass_point(rotate(0,0,0), (0,0))
 ass_point(rotate(0,0,90), (0,0))
 ass_point(rotate(1,0,90), (0,1))
+ass_point(rotate(2,0,90), (0,2))
 ass_point(rotate(1,0,180), (-1,0))
 ass_point(rotate(1,0,270), (0,-1))
 ass_point(rotate(1,0,45), (0.707107,0.707107))
@@ -140,10 +193,10 @@ class QuadCopter():
 
         speed = dt * MAX_SPEED
 
-        if abs(gp.roll)< 0.1: gp.roll=0
-        if abs(gp.thrust)< 0.1: gp.thrust=0
-        if abs(gp.pitch)< 0.1: gp.pitch=0
-        if abs(gp.yaw)< 0.1: gp.yaw=0
+        if abs(gp.roll) < 0.1: gp.roll=0
+        if abs(gp.thrust) < 0.1: gp.thrust=0
+        if abs(gp.pitch) < 0.1: gp.pitch=0
+        if abs(gp.yaw) < 0.1: gp.yaw=0
 
         dx = gp.roll * speed
         dy = -gp.thrust * speed * 0.5
@@ -418,10 +471,10 @@ class Window(pyglet.window.Window):
         glMatrixMode(GL_MODELVIEW)
         glLoadIdentity()
         qc = self.model.quadcopter
-        x = qc.angle
+        a = qc.angle
         y = 0
-        glRotatef(x, 0, 1, 0)
-        glRotatef(-y, math.cos(math.radians(x)), 0, math.sin(math.radians(x)))
+        glRotatef(a, 0, 1, 0)
+        glRotatef(-y, math.cos(math.radians(a)), 0, math.sin(math.radians(a)))
         x, y, z = qc.position
         glTranslatef(-x, -y, -z)
 
