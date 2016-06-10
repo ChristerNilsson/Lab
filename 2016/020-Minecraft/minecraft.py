@@ -205,6 +205,7 @@ class QuadCopter():
 
         self.angle += da
         self.angle %= 360
+
         dx,dz = rotate(dx,dz,self.angle)
 
         if SUBZERO_FLIGHT:
