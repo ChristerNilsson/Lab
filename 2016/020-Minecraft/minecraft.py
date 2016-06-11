@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import math
+import cmath
 import random
 import time
 import winsound
@@ -159,14 +160,22 @@ ass(cos(300), 0.5)
 ass(cos(315), 1/math.sqrt(2))
 ass(cos(330), math.sqrt(3)/2)
 
+# def rotate(x, y, angle):
+#     # Roterar en punkt (x,y) moturs runt origo, givet en vinkel i grader
+#     # Du behöver använda addition, subtraktion, multiplikation samt sinus och cosinus.
+#     # Du kan alternativt omforma angle till ett komplext tal och beräkna (x+yi)*(c+di)
+#     a = math.radians(angle)
+#     qx = x * math.cos(a) - y * math.sin(a)
+#     qy = x * math.sin(a) + y * math.cos(a)
+#     return qx, qy
 def rotate(x, y, angle):
-    # Roterar en punkt (x,y) moturs runt origo, givet en vinkel i grader
-    # Du behöver använda addition, subtraktion, multiplikation samt sinus och cosinus.
-    # Du kan alternativt omforma angle till ett komplext tal och beräkna (x+yi)*(c+di)
+    # Roterar en punkt (x,y) moturs runt origo, givet en vinkel i grader.
+    # Använder komplexa tal.
     a = math.radians(angle)
-    qx = x * math.cos(a) - y * math.sin(a)
-    qy = x * math.sin(a) + y * math.cos(a)
-    return qx, qy
+    p = cmath.rect(1,a)
+    q = complex(x,y)
+    r = p*q
+    return r.real, r.imag
 ass_point(rotate(0,0,0), (0,0))
 ass_point(rotate(0,0,90), (0,0))
 ass_point(rotate(1,0,90), (0,1))
