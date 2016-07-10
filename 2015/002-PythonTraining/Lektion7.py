@@ -41,6 +41,11 @@ class JoyStick():
         self.yaw, self.thrust, _, self.pitch, self.roll = res[0:5]
         self.A, self.B, self.X, self.Y = res[5:9]
 
+        if abs(self.pitch) < 0.075:
+            self.pitch = 0
+        if abs(self.roll) < 0.075:
+            self.roll = 0
+
 
 class Window(pyglet.window.Window):
     def __init__(self, *args, **kwargs):

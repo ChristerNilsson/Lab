@@ -1,0 +1,26 @@
+Kommando till geometriprogrammet
+
+o Origo
+x x-axeln
+y y-axeln
+
+1 1 =>      p0 = Point x=1.00 y=1.00
+o 1 =>      c0 = Circle x=0.00 y=0.00 radius=1.00
+c0 p0 =>    p1 = Point x=2.00 y=1.00 (tangentpunkter)
+            p2 = Point x=1.00 y=2.00
+p0 p1 =>    l0 = Line
+p0 p1 p2 => t0 = Triangle
+l0 l1 =>    p3 = Point (skärningspunkt)
+l0 p0 =>    04 = Point (vinkelrät punkt)
+
+sym   Visa exakta värden, t ex sqrt(2)
+num   Visa numeriska värden, t ex 1.414
+more  Visa fler decimaler
+less  Visa färre decimaler
+undo  Ta bort senaste kommandot
+clear Rensa allt
+
+Dubbelklicka på index.html för att se grafik. Använd refresh.
+
+Metodik.
+Kombinera de olika objekten för att skapa nya.
