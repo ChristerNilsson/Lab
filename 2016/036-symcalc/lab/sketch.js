@@ -1,13 +1,16 @@
+WIDTH = 700
+HEIGHT = 700
+
 function f(x) {
-  return map(x,xmin,xmax,0,1000)
+  return map(x,xmin,xmax,0,WIDTH)
 }
 
 function g(y) {
-  return map(y,ymax,ymin,0,1000)
+  return map(y,ymax,ymin,0,HEIGHT)
 }
 
 function h(r) {
-  return map(r,0,xmax-xmin,0,1000)
+  return map(r,0,xmax-xmin,0,WIDTH)
 }
 
 function init_xmin_xmax_ymin_ymax() {
@@ -42,7 +45,7 @@ function init_xmin_xmax_ymin_ymax() {
 }
 
 function setup() {
-  createCanvas(1000,1000) 
+  createCanvas(WIDTH,HEIGHT) 
   textSize(16)
   mymouse = new p5.Vector(0,0)
   init_xmin_xmax_ymin_ymax()
@@ -186,8 +189,8 @@ function mydraw() {
 }
 
 function mouseWheel(event) {
-  var x = map(winMouseX,0,1000,xmin,xmax)
-  var y = map(winMouseY,1000,0,ymin,ymax)
+  var x = map(winMouseX,0,WIDTH,xmin,xmax)
+  var y = map(winMouseY,HEIGHT,0,ymin,ymax)
   var factor = 1-event.delta*0.001
   xmin = x - (x-xmin) * factor
   xmax = x - (x-xmax) * factor
@@ -208,8 +211,8 @@ function keyPressed(event) {
 }
 
 function mouseDragged(event) {
-  var dx = map(mymouse.x - winMouseX,0,1000,0,xmax0-xmin0)
-  var dy = map(mymouse.y - winMouseY,0,1000,0,ymax0-ymin0)
+  var dx = map(mymouse.x - winMouseX,0,WIDTH,0,xmax0-xmin0)
+  var dy = map(mymouse.y - winMouseY,0,HEIGHT,0,ymax0-ymin0)
   xmin = xmin0 + dx
   xmax = xmax0 + dx
   ymin = ymin0 - dy
