@@ -13,7 +13,7 @@ from math import cos,sin,pi
 # 5. Visa roll och pitch med en cirkel
 ################################################
 
-CPU = True
+CPU = False
 
 
 def pmap(x, (x1, x2), (y1, y2)):

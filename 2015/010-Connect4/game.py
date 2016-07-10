@@ -18,7 +18,8 @@ x = Human('Christer')
 #o = FindWinner('Olle')
 
 #x = MonteCarlo('Xerxes')
-o = MonteCarlo('MonteCarlo')
+#o = MonteCarlo('MonteCarlo')
+o = Player('MonteCarlo')
 
 board = board.Board()
 print board.display()
