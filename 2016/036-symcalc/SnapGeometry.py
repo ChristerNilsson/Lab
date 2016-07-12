@@ -3,8 +3,8 @@
 # Enkel lösning av geometriska problem.
 # Bygger på att man bara anger geometriska storheter, inga kommandon.
 # Då man anger två objekt, skapas alla tänkbara objekt.
-#   T ex två cirklar skapar upp till tolv punkter.
-#   Skärningspunkter, tangenterpunkter, närmaste, avlägsnaste, osv.
+#   T ex två trianglar skapar upp till sex punkter.
+#   Skärningspunkter, tangenterpunkter, vinkelräta linjer
 # Man närmar sig lösningen genom att kombinera/välja ut rätt objekt.
 
 # Undvik vinklar som är multiplar av 3 grader. Lägg därför till eller dra ifrån någon miljondels grad.
@@ -52,52 +52,47 @@ class Calculator:
 
     def reset(self):
         self.start = time.time()
-        self.numberCount = -1
-        self.pointCount = -1
-        self.circleCount = -1
-        self.lineCount = -1
-        self.angleCount = -1
-        self.triangleCount = -1
+        self.count = {'N':-1, 'P':-1, 'C':-1, 'L':-1, 'A':-1, 'T':-1}
 
         self.history = []
-        self.history.append(['o','P',Point2D(0,0)])
-        self.history.append(['x','L',Line(Point2D(0,0),Point2D(1,0))])
-        self.history.append(['y','L',Line(Point2D(0,0),Point2D(0,1))])
+        self.history.append(['O','P',Point2D(0,0)])
+        self.history.append(['X','L',Line(Point2D(0,0),Point2D(1,0))])
+        self.history.append(['Y','L',Line(Point2D(0,0),Point2D(0,1))])
         self.mode = 1 # 0='sym' 1='num'
         self.decs = 3
         self.dumpToFile()
 
-    def dumpObject(self,name,type,value):
+    def dumpObject(self,type,value):
         if type == 'P':
-            return name + " = Point " + self.showPoint(value)
+            return self.showPoint(value)
         elif type == 'N':
-            return name + " = Number " + str(value if self.mode == 0 else N(value,self.decs))
+            return str(value if self.mode == 0 else N(value,self.decs))
         elif type == 'A':
-            return name + " = Angle " + str(value if self.mode == 0 else N(value,self.decs))
+            return "Angle(" + str(value if self.mode == 0 else N(value,self.decs)) + ')'
         elif type == 'L':
             line = value
             segment = Segment(line.p1,line.p2)
             length = str(segment.length) if self.mode==0 else str(N(segment.length,self.decs))
-            return name + " = Line " + self.showPoint(line.p1) + ' ' + self.showPoint(line.p2) + ' length='+length
+            return "Line(" + self.showPoint(line.p1) + ',' + self.showPoint(line.p2) + ') length='+length
         elif type == 'C':
             c = value
             radius = c.radius if self.mode==0 else str(N(c.radius,self.decs))
-            return name + " = Circle " + self.showPoint(c.center) + ' radius=' + str(radius)
+            return "Circle(" + self.showPoint(c.center) + ',' + str(radius) + ')'
         elif type == 'T':
             a,b,c = value.vertices
-            return name + ' = Triangle ' + self.showPoint(a) + ' ' + self.showPoint(b) + ' ' + self.showPoint(c)
+            return 'Triangle(' + self.showPoint(a) + ',' + self.showPoint(b) + ',' + self.showPoint(c) + ')'
         else:
             return 'Error in dumpObject'
 
     def dump(self):
         for name,type,value in self.history:
-            print "# " + self.dumpObject(name,type,value)
+            print "# " + name + " = " + self.dumpObject(type,value)
 
     def dumpToFile(self):
         f = open("lab\data.js", "w")
         f.write("data = {\n")
         for name,type,value in self.history:
-            if name not in ['o','x','y']:
+            if name not in ['O','X','Y']:
                 if type=='P':   f.write("  " + name + ": {type:'P',x:" + str(N(value.x)) + ",y:" + str(N(value.y)) + "},\n")
                 elif type=='L': f.write("  " + name + ": {type:'L',x1:" + str(N(value.p1.x)) + ",y1:" + str(N(value.p1.y)) + ",x2:" + str(N(value.p2.x)) + ",y2:" + str(N(value.p2.y)) + "},\n")
                 elif type=='T':
@@ -109,51 +104,75 @@ class Calculator:
 
     def showPoint(self,p):
         if self.mode == 0:
-            return 'x=' + str(p.x) + ' y='+str(p.y)
+            return 'Point(' + str(p.x) + ','+str(p.y)+')'
         else:
-            return 'x=' + str(N(p.x,self.decs)) + ' y=' + str(N(p.y,self.decs))
+            return 'Point(' + str(N(p.x,self.decs)) + ',' + str(N(p.y,self.decs)) +')'
+
+    def normalizeLine(self,line):
+        lst = []
+        lst.append([line.p1.x,line.p1.y,line.p2.x,line.p2.y])
+        lst.append([line.p2.x,line.p2.y,line.p1.x,line.p1.y])
+        x1,y1,x2,y2 = sorted(lst)[0]
+        return Line(Point(x1,y1),Point(x2,y2))
+
+    def normalizeTriangle(self,tri):
+        lst = []
+        a,b,c = tri.vertices
+        lst.append([a.x,a.y,b.x,b.y,c.x,c.y])
+        a,c,b = tri.vertices
+        lst.append([a.x,a.y,b.x,b.y,c.x,c.y])
+        b,a,c = tri.vertices
+        lst.append([a.x,a.y,b.x,b.y,c.x,c.y])
+        b,c,a = tri.vertices
+        lst.append([a.x,a.y,b.x,b.y,c.x,c.y])
+        c,a,b = tri.vertices
+        lst.append([a.x,a.y,b.x,b.y,c.x,c.y])
+        c,b,a = tri.vertices
+        lst.append([a.x,a.y,b.x,b.y,c.x,c.y])
+        x1,y1,x2,y2,x3,y3 = sorted(lst)[0]
+        return Triangle(Point(x1,y1),Point(x2,y2),Point(x3,y3))
+
+    def storeObject(self,type,obj):
+        for name,t,value in self.history:
+            if t==type:
+                if self.dumpObject(type,obj)==self.dumpObject(type,value):
+                    print '  ' + name
+                    return name
+        self.count[type] += 1
+        name = type + str(self.count[type])
+        self.history.append([name,type,obj])
+        print '  ' + name + ' = ' + self.dumpObject(type,obj)
+        return name
 
     def storeNumber(self, n):
-        self.numberCount += 1
-        name = 'n' + str(self.numberCount)
-        self.history.append([name,'N',n])
-        print '  ' + self.dumpObject(name,'N',n)
-        return name
+        return self.storeObject('N',n)
+        # self.count['N'] += 1
+        # name = 'N' + str(self.count['N'])
+        # self.history.append([name,'N',n])
+        # print '  ' + name + " = " + self.dumpObject('N',n)
+        # return name
 
     def storePoint(self, p):
-        self.pointCount += 1
-        name = 'p' + str(self.pointCount)
-        self.history.append([name,'P',p])
-        print '  ' + self.dumpObject(name,'P',p)
-        return name
-
-    def storeAngle(self, a):
-        self.angleCount += 1
-        name = 'a' + str(self.angleCount)
-        self.history.append([name,'A',a])
-        print '  ' + self.dumpObject(name,'A',a)
-        return name
-
-    def storeCircle(self, c):
-        self.circleCount += 1
-        name = 'c' + str(self.circleCount)
-        self.history.append([name,'C',c])
-        print '  ' + self.dumpObject(name,'C',c)
-        return name
+        return self.storeObject('P',p)
 
     def storeLine(self, line):
-        self.lineCount += 1
-        name = 'l' + str(self.lineCount)
-        self.history.append([name,'L',line])
-        print '  ' + self.dumpObject(name,'L',line)
-        return name
+        line = self.normalizeLine(line)
+        return self.storeObject('L',line)
+
+    def storeAngle(self, a):
+        return self.storeObject('A',a)
+        # self.count['A'] += 1
+        # name = 'A' + str(self.count['A'])
+        # self.history.append([name,'A',a])
+        # print '  ' + name + ' = ' + self.dumpObject('A',a)
+        # return name
+
+    def storeCircle(self, c):
+        return self.storeObject('C',c)
 
     def storeTriangle(self, tri):
-        self.triangleCount += 1
-        name = 't' + str(self.triangleCount)
-        self.history.append([name,'T',tri])
-        print '  ' + self.dumpObject(name,'T',tri)
-        return name
+        tri = self.normalizeTriangle(tri)
+        return self.storeObject('T',tri)
 
     def findItem(self,name):
         for key,type,value in self.history:
@@ -171,24 +190,26 @@ class Calculator:
         if commands == '':
             self.dump()
             return ''
-        elif commands == 'sym':
+        elif commands == 'SYM':
             self.mode=0
             self.dump()
             return ''
-        elif commands == 'num':
+        elif commands == 'NUM':
             self.mode=1
             self.dump()
             return ''
-        elif commands == 'undo':
+        elif commands == 'UNDO':
             name,type,value = self.history.pop()
-            if type =='P': self.pointCount -= 1
-            elif type =='C': self.circleCount -= 1
+            self.count[type] -= 1
             return ''
-        elif commands == 'more':
+        elif commands == 'CLEAR':
+            self.reset()
+            return ''
+        elif commands == '+':
             self.decs += 1
             self.dump()
             return ''
-        elif commands == 'less':
+        elif commands == '-':
             self.decs -= 1
             self.dump()
             return ''
@@ -201,9 +222,11 @@ class Calculator:
             else: res.append(S(cmd))
 
         signature = "".join([item.__class__.__name__ for item in res])
-        signature = signature.replace('Zero','N').replace('Float','N').replace('Integer','N').replace('NegativeOne','N').replace('One','N')
+        signature = signature.replace('Zero','N').replace('Float','N').replace('Integer','N').replace('NegativeOne','N').replace('One','N').replace('Pow','N').replace('Mul','N')
         signature = signature.replace('Point2D','P').replace('Circle','C').replace('Line','L').replace('Triangle','T')
         signature = signature.replace('Angle','A')
+
+        # print signature
 
         if len(res) > 0: a = res[0]
         if len(res) > 1: b = res[1]
@@ -220,7 +243,6 @@ class Calculator:
         elif signature == 'NAN':
             vb = rad(b.args[0])
             result = self.storeTriangle(Triangle(sas=(a,vb,c)))
-            z=99
         elif signature == 'PP':
             result = self.storeLine(Line(a,b))
         elif signature == 'PA':
@@ -231,20 +253,30 @@ class Calculator:
             p2 = p2.translate(a.x,a.y)
             line = Line(p1,p2)
             result = self.storeLine(line) # N
-        elif signature in ['PN','NP']:
+        elif signature == 'PN':
             result = self.storeCircle(Circle(a,b))
-        elif signature in ['CP']:
-            result = ' '.join([self.storePoint(line.p2) for line in a.tangent_lines(b)])
-        elif signature in ['PC']:
-            result = ' '.join([self.storePoint(line.p2) for line in b.tangent_lines(a)])
-        elif signature in ['LP']:
-            result = self.storePoint(a.perpendicular_line(b).p2)
-        elif signature in ['PL']:
-            result = self.storePoint(b.perpendicular_line(a).p2)
+        elif signature == 'NP':
+            result = self.storeCircle(Circle(b,a))
+        elif signature == 'CP':
+            result = ' '.join([self.storeLine(line) for line in a.tangent_lines(b)])
+        elif signature == 'PC':
+            result = ' '.join([self.storeLine(line) for line in b.tangent_lines(a)])
+        elif signature == 'LP':
+            result = self.storeLine(a.perpendicular_line(b))
+        elif signature == 'PL':
+            result = self.storeLine(b.perpendicular_line(a))
         elif signature in ['LL','CL','LC','CC','TT','CT','TC','LT','TL']:
             result = ' '.join([self.storePoint(p) for p in intersection(a,b)])
+        elif signature == 'LLL':
+            p1 = intersection(a,b)[0]
+            p2 = intersection(b,c)[0]
+            p3 = intersection(c,a)[0]
+            result = self.storeTriangle(Triangle(p1,p2,p3))
         elif signature == 'PPP':
             result = self.storeTriangle(Triangle(a,b,c))
+        elif signature == 'L':
+            segment = Segment(a.p1,a.p2)
+            result = ' '.join([self.storeNumber(segment.length)])
         elif signature == 'T':
             r = [self.storeAngle(N(180/pi*angle)) for angle in a.angles.values()]
             result = ' '.join([self.storePoint(a.centroid), self.storeCircle(a.incircle), self.storeCircle(a.circumcircle), self.storeNumber(a.area)] + r)
@@ -255,7 +287,7 @@ class Calculator:
 
     def run(self):
         while True:
-            commands = raw_input(':').lower()
+            commands = raw_input(':').upper()
             self.calc(commands)
             self.dumpToFile()
 

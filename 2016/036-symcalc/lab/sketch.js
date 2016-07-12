@@ -79,7 +79,9 @@ function punkt(name,x,y) { // GREEN
 function linje(name,o) { // YELLOW
   var x1=f(o.x1), y1=g(o.y1)
   var x2=f(o.x2), y2=g(o.y2)
-  strokeWeight(2); stroke(255,255,0); line(x1,y1,x2,y2)
+  var dx = 10*(x2-x1)
+  var dy = 10*(y2-y1)
+  strokeWeight(2); stroke(255,255,0); line(x1-dx,y1-dy,x1+dx,y1+dy)
   noStroke(); fill(255,255,0); textAlign(RIGHT,BOTTOM); text(name, (x1+x2)/2, (y1+y2)/2)
 }
 
