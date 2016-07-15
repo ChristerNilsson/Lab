@@ -4,16 +4,34 @@ o Origo
 x x-axeln
 y y-axeln
 
-0 2 =>      P0 = Point(0.00,2.00)
-0 8 =>      P1 = Point(0.00,8.00)
-p0 2 =>     C0 = Circle(Point(0,2.00),2.00)
-p0 p1 =>    L0 = Line(Point(,),Point(,))
-c0 p1 =>    L1 = Line(Point(0,8.00),Point(-1.89,2.67)) length=5.66 # tangentlinje
-            L2 = Line(Point(0,8.00),Point(1.89,2.67)) length=5.66
+0 2 => P0 = Point(0.00,2.00)
+0 8 => P1 = Point(0.00,8.00)
+p0 2 => C0 = Circle(Point(0,2.00),2.00)
+p0 p1 => L0 = Line(Point(,),Point(,))
+c0 p1 => L1 = Line(Point(0,8.00),Point(-1.89,2.67)) L2 = Line(Point(0,8.00),Point(1.89,2.67))
 p0 p1 p2 => T0 = Triangle(Point(,),Point(,),Point(,))
-l0 l1 x =>  T1 = Triangle(Point(,),Point(,),Point(,))
-l0 l1 =>    P3 = Point(,) # skärningspunkt
-l0 p0 =>    L3 = Line(Point(,),Point(,)) # vinkelrät linje
+l0 l1 x => T1 = Triangle(Point(,),Point(,),Point(,))
+l0 l1 => P3 = Point(,)
+l0 p0 => L3 = Line(Point(,),Point(,))
+
+T0.a    Lista med vinklar visas
+T0.a0   Vinkel i grader
+T0.a1   Vinkel i grader
+T0.a2   Vinkel i grader
+T0.l    Lista med sidlängder visas
+T0.l0   Sidlängd
+T0.l1   Sidlängd
+T0.l2   Sidlängd
+T0.ic   Insidig cirkel
+T0.oc   Utsidig cirkel
+T0.m    Medelpunkt
+T0.area Area
+
+C0.x    x-koordinat
+C0.y    y-koordinat
+C0.r    radie
+
+L0.l   Längd
 
    N   P   L   C   T     # Numeric Point Line Circle Triangle
 N  P   C   -   -   -
@@ -25,10 +43,8 @@ T  -   -   P*  P*  P*
 Tillägg: LLL=>T PPP=>T
 Tillägg: PP=>P LL=>L CC=>C TT=>T
 
-sym   Visa exakta värden, t ex sqrt(2)
-num   Visa numeriska värden, t ex 1.414
-+     Visa fler decimaler
--     Visa färre decimaler
+0     Visa exakta värden, t ex sqrt(2)
+1-9   Visa numeriska värden med antal värdesiffror, t ex 4 => 1.414
 undo  Ta bort senaste kommandot
 clear Rensa allt
 

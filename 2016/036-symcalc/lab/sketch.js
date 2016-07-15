@@ -27,6 +27,12 @@ function init_xmin_xmax_ymin_ymax() {
       xmax=max(xmax,(value.x))
       ymin=min(ymin,(value.y))
       ymax=max(ymax,(value.y))
+    } else if (value.type=='C') {
+      var r = value.radius
+      xmin=min(xmin,(value.x-r))
+      xmax=max(xmax,(value.x+r))
+      ymin=min(ymin,(value.y-r))
+      ymax=max(ymax,(value.y+r))
     }
   }
   
@@ -48,7 +54,17 @@ function setup() {
   createCanvas(WIDTH,HEIGHT) 
   textSize(16)
   mymouse = new p5.Vector(0,0)
-  init_xmin_xmax_ymin_ymax()
+  lastTime = 0
+  loadJSON('data.json',loaded)
+}
+
+function loaded(dta) {
+  data = dta
+  console.log(data.length)
+  if (lastTime==0) {
+    init_xmin_xmax_ymin_ymax()
+  }
+  mydraw()
 }
 
 function cirkel(name,o) {  // RED
@@ -126,6 +142,7 @@ function coords(c,d) { // c är centrum, d är max-min
    var s = delta.toString()
    decimals = 0
    if (delta < 1) decimals = s.length-2
+   if (decimals>20) decimals=20
    var closest = (round(c/delta)*delta) //.toFixed(6)
    return [closest,delta]
 }
@@ -154,7 +171,7 @@ function calc_coord() {
 
 function coordinates() {
   var x=x0
-  while (x<xmax) {
+  while (x<=xmax+delta) {
     var flag = x < delta/2 && x > -delta/2
     coordx(x.toFixed(decimals), punkt('',x,ymin), punkt('',x,ymax),flag)
     x+=delta
@@ -168,7 +185,11 @@ function coordinates() {
 }
 
 function draw() {
-  mydraw()
+  var t = millis()
+  if (t > lastTime + 1000) {
+    loadJSON('data.json',loaded) 
+    lastTime=t
+  }
 }
 
 function mydraw() {
@@ -198,6 +219,7 @@ function mouseWheel(event) {
   xmax = x - (x-xmax) * factor
   ymin = y - (y-ymin) * factor
   ymax = y - (y-ymax) * factor
+  mydraw()
 }
 
 function mousePressed(event) {
@@ -219,4 +241,5 @@ function mouseDragged(event) {
   xmax = xmax0 + dx
   ymin = ymin0 - dy
   ymax = ymax0 - dy
+  mydraw()
 }

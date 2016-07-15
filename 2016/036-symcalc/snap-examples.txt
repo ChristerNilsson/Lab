@@ -1,34 +1,33 @@
 # Pentagonens sida skapas här. Den är 1.18
 # Gyllene snittet skapas nedan: 0.618 resp 1.62
 
-:o 1  C0 = Circle(Point(0,0),1)
-:1 0  P0 = Point(1,0)
-:p0 1  C1 = Circle(Point(1,0),1)
-:c0 c1  P1 = Point(0.5,0.866)  P2 = Point(0.5,-0.866)
-:p1 p2  L0 = Line(Point(0.5,-0.866),Point(0.5,0.866)) length=1.73
-:l0 x  P3 = Point(0.5,0)
-:c0 y  P4 = Point(0,-1)  P5 = Point(0,1)
-:p3 p5  L1 = Line(Point(0,1),Point(0.5,0)) length=1.12
-:l1  N0 = 1.12
-:p3 n0  C2 = Circle(Point(0.5,0),1.12)
-:c2 x  P6 = Point(-0.618,0)  P7 = Point(1.62,0)
-:p6 p5  L2 = Line(Point(-0.618,0),Point(0,1)) length=1.18
-:l2  N1 = 1.18
+o 1 => C0 = Circle(Point(0,0),1)
+1 0 => P0 = Point(1,0)
+p0 1 => C1 = Circle(Point(1,0),1)
+c0 c1 => P1 = Point(0.5,0.866)  P2 = Point(0.5,-0.866)
+p1 p2 => L0 = Line(Point(0.5,-0.866),Point(0.5,0.866))
+l0 x => P3 = Point(0.5,0)
+c0 y => P4 = Point(0,-1)  P5 = Point(0,1)
+p3 p5 => L1 = Line(Point(0,1),Point(0.5,0))
+p3 l1.l => C2 = Circle(Point(0.5,0),1.12)
+c2 x => P6 = Point(-0.618,0)  P7 = Point(1.62,0)
+p6 p5 => L2 = Line(Point(-0.618,0),Point(0,1))
+l2.l => N1 = 1.18
 
 # Pentagonen ritas:
 
-:4 0  P8 = Point(4,0)
-:p8 1  C3 = Circle(Point(4,0),1)
-:c3 x  P9 = Point(3,0)  P10 = Point(5,0)
-:p10 n1  C4 = Circle(Point(5,0),1.18)
-:c3 c4  P11 = Point(4.31,0.951)  P12 = Point(4.31,-0.951)
-:p11 n1  C5 = Circle(Point(4.31,0.951),1.18)
-:c3 c5  P13 = Point(3.19,0.588)
-:p13 n1  C6 = Circle(Point(3.19,0.588),1.18)
-:c3 c6  P14 = Point(3.19,-0.588)
-:p14 n1  C7 = Circle(Point(3.19,-0.588),1.18)
-:p12 n1  C8 = Circle(Point(4.31,-0.951),1.18)
-:c3 c8
+4 0 => P8 = Point(4,0)
+p8 1 => C3 = Circle(Point(4,0),1)
+c3 x => P9 = Point(3,0)  P10 = Point(5,0)
+p10 l2.l => C4 = Circle(Point(5,0),1.18)
+c3 c4 => P11 = Point(4.31,0.951)  P12 = Point(4.31,-0.951)
+p11 l2.l => C5 = Circle(Point(4.31,0.951),1.18)
+c3 c5 => P13 = Point(3.19,0.588)
+p13 l2.l => C6 = Circle(Point(3.19,0.588),1.18)
+c3 c6 => P14 = Point(3.19,-0.588)
+p14 l2.l => C7 = Circle(Point(3.19,-0.588),1.18)
+p12 l2.l => C8 = Circle(Point(4.31,-0.951),1.18)
+c3 c8
 
 # Symboliskt
 
