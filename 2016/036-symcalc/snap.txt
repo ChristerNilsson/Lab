@@ -1,37 +1,42 @@
 Kommando till geometriprogrammet
 
-o Origo
-x x-axeln
-y y-axeln
+O Origo
+X x-axeln
+Y y-axeln
 
-0 2 => P0 = Point(0.00,2.00)
-0 8 => P1 = Point(0.00,8.00)
-p0 2 => C0 = Circle(Point(0,2.00),2.00)
-p0 p1 => L0 = Line(Point(,),Point(,))
-c0 p1 => L1 = Line(Point(0,8.00),Point(-1.89,2.67)) L2 = Line(Point(0,8.00),Point(1.89,2.67))
-p0 p1 p2 => T0 = Triangle(Point(,),Point(,),Point(,))
-l0 l1 x => T1 = Triangle(Point(,),Point(,),Point(,))
-l0 l1 => P3 = Point(,)
-l0 p0 => L3 = Line(Point(,),Point(,))
+0 2 => p0 = Point(0.00,2.00)
+0 8 => p1 = Point(0.00,8.00)
+p0 2 => c0 = Circle(Point(0,2.00),2.00)
+p0 p1 => l0 = Line(Point(,),Point(,))
+c0 p1 => l1 = Line(Point(0,8.00),Point(-1.89,2.67)) L2 = Line(Point(0,8.00),Point(1.89,2.67))
+p0 p1 p2 => t0 = Triangle(Point(,),Point(,),Point(,))
+l0 l1 x => t1 = Triangle(Point(,),Point(,),Point(,))
+l0 l1 => p3 = Point(,)
+l0 p0 => l3 = Line(Point(,),Point(,))
 
-T0.a    Lista med vinklar visas
-T0.a0   Vinkel i grader
-T0.a1   Vinkel i grader
-T0.a2   Vinkel i grader
-T0.l    Lista med sidlängder visas
-T0.l0   Sidlängd
-T0.l1   Sidlängd
-T0.l2   Sidlängd
-T0.ic   Insidig cirkel
-T0.oc   Utsidig cirkel
-T0.m    Medelpunkt
-T0.area Area
+t0.angles         Lista med vinklar
+t0.sides          Lista med sidlängder
+t0.incircle       Insidig cirkel
+t0.circumcircle   Utsidig cirkel
+t0.centroid       Medelpunkt
+t0.area           Area
+t0.perimeter      Omkrets
 
-C0.x    x-koordinat
-C0.y    y-koordinat
-C0.r    radie
+c0.center.x       x-koordinat
+c0.center.y       y-koordinat
+c0.radius         radie
+c0.area           Area
+c0.perimeter      Omkrets
 
-L0.l   Längd
+p0.distance(p1)   Distans
+
+Tillägg:
+vinkel(p0,p1,p2)
+vinkel2(p0,p1,p2) Komplementvinkel
+pyth(katet,katet,hypotenusa) T ex pyth(x,4,5) => 3
+pyth2(katet,katet,hypotenusa) Den andra roten
+prop(a,b,c,d) T ex prop(x,2,4,8) => 1
+bandpunkter(c0,c1) Ger punkter som kan användas för att beräkna ett bands längd runt två cirklar.
 
    N   P   L   C   T     # Numeric Point Line Circle Triangle
 N  P   C   -   -   -

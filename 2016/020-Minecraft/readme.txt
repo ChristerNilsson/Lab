@@ -51,6 +51,7 @@ Uppgifter:
 #08# Spela ett annat ljud då man tagit den tionde och sista ballongen.
 #09# Låt ballongerna ha en grå skugga
 #10# Ändra ballongernas färger till något annat
+#11# Gör så att man möter en annan spelare och ska döda den
 
 Googlingar:
 stackoverflow python list
