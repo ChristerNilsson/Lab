@@ -22,20 +22,22 @@ def ass(a,b):
         assert a==b
     return a==b
 
+def grader(a):
+    return 180*a/pi
+
 def vinkel(p0,p1,p2): # ger vinkeln mellan två linjer i radianer. 0<= v <=180
     l0 = Line(p1,p0)
     l1 = Line(p1,p2)
     a = Line.angle_between(l0,l1)
-    print "  " + str(180*a/pi) + " grader"
     return a
 a,b,c = Point(-1,1),Point(0,1),Point(1,1)
 d,e,f = Point(-1,0),Point(0,0),Point(1,0)
-# assert vinkel(a,b,c) == pi
-# assert vinkel(b,c,f) == pi/2
-# assert vinkel(a,b,f) == 3*pi/4
-# assert vinkel(a,e,c) == pi/2
-# assert vinkel(a,d,a) == 0
-# assert vinkel(b,f,c) == pi/4
+assert vinkel(a,b,c) == pi
+assert vinkel(b,c,f) == pi/2
+assert vinkel(a,b,f) == 3*pi/4
+assert vinkel(a,e,c) == pi/2
+assert vinkel(a,d,a) == 0
+assert vinkel(b,f,c) == pi/4
 def vinkel2(p0,p1,p2): # Komplementvinkel
     l0 = Line(p1,p0)
     l1 = Line(p1,p2)
@@ -149,10 +151,11 @@ class Calculator:
         print "c0.radius => Radie"
         print "c0.area   => Area"
         print
-        print "pythagoras(x,4,5) => 3"
-        print "pythagoras(3,x,5) => 4"
-        print "pythagoras(3,4,x) => 5"
+        print "pyth(x,4,5) => 3"
+        print "pyth(3,x,5) => 4"
+        print "pyth(3,4,x) => 5"
         print "vinkel(p0,p1,p2) => vinkel mellan p0 och p2 i radianer"
+        print "grader(v) => konverterar radianer till grader"
         print "bandpunkter(c0,c1) => Två punkter i samband med cirklar och remband"
         print
         print "0        => Exakt visning, t ex sqrt(2)"
@@ -402,10 +405,13 @@ class Calculator:
     def batch(self,lines):
         lines = lines.split('\n')
         for line in lines:
+            if line.strip()=='': continue
+            print line
             commands = line.split('#')
             commands = commands[0].strip()
             if commands!='':
                 self.do(commands)
+            raw_input()
         #self.ready()
 
 def solve_problem():
@@ -417,6 +423,19 @@ def solve_problem():
 if __name__ == "__main__":
     calc = Calculator()
     # solve_problem()
-    calc.batch("""    # stoppa in kommandon här
+
+    calc.batch("""
+# Miglani 2: 3 cirklar med radien 5. Finn inre och yttre cirkels radie
+10 10 10 # t0
+t0.centroid # p0
+t0.vertices # p1 p2
+O 5
+p1 5
+p2 5
+p1.distance(p0) # n0 = 10*sqrt(3)/3
+n0-5 # n1 = inre cirkelns radie = -5 + 10*sqrt(3)/3
+p0 n1
+n0+5 # n2 = yttre cirkelns radie = 5 + 10*sqrt(3)/3
+p0 n2
     """)
     calc.run()

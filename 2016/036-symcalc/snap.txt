@@ -33,6 +33,7 @@ p0.distance(p1)   Distans
 Tillägg:
 vinkel(p0,p1,p2)
 vinkel2(p0,p1,p2) Komplementvinkel
+grader(v) konverterar radianer till grader
 pyth(katet,katet,hypotenusa) T ex pyth(x,4,5) => 3
 pyth2(katet,katet,hypotenusa) Den andra roten
 prop(a,b,c,d) T ex prop(x,2,4,8) => 1
