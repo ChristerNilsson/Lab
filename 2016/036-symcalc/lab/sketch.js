@@ -1,6 +1,13 @@
 WIDTH = 700
 HEIGHT = 700
 
+INTERVAL = 500
+
+xmin=0
+xmax=0
+ymin=0
+ymax=0
+
 function f(x) {
   return map(x,xmin,xmax,0,WIDTH)
 }
@@ -15,18 +22,25 @@ function h(r) {
 
 function init_xmin_xmax_ymin_ymax() {
   // calculate xmin, xmax, ymin, ymax
-  xmin=0
-  xmax=0
-  ymin=0
-  ymax=0
   
   for (var key in data) {
     var value = data[key]
-    if (value.type=='P') {
-      xmin=min(xmin,(value.x))
-      xmax=max(xmax,(value.x))
-      ymin=min(ymin,(value.y))
-      ymax=max(ymax,(value.y))
+    var t = key.charAt(0)
+    if (t=='p') {
+      var x = value[0]
+      var y = value[1]
+      xmin=min(xmin,x)
+      xmax=max(xmax,x)
+      ymin=min(ymin,y)
+      ymax=max(ymax,y)
+    } else if (t=='c') {
+      var x = value[0]
+      var y = value[1]
+      var r = value[2]
+      xmin=min(xmin,x-r)
+      xmax=max(xmax,x+r)
+      ymin=min(ymin,y-r)
+      ymax=max(ymax,y+r)
     }
   }
   
@@ -48,21 +62,34 @@ function setup() {
   createCanvas(WIDTH,HEIGHT) 
   textSize(16)
   mymouse = new p5.Vector(0,0)
-  init_xmin_xmax_ymin_ymax()
+  once = 0
+  setInterval(loadData,INTERVAL)
+}
+
+function loadData() {
+  loadJSON('data.json',loaded)
+}
+
+function loaded(dta) {
+  data = dta
+  if (once==0) {
+    init_xmin_xmax_ymin_ymax()
+    once=1
+  }
 }
 
 function cirkel(name,o) {  // RED
-  var x=f(o.x)
-  var y=g(o.y)
-  var r = h(o.radius)
+  var x = f(o[0])
+  var y = g(o[1])
+  var r = h(o[2])
   strokeWeight(2); stroke(255,0,0); noFill(); ellipse(x,y,2*r,2*r)
   noStroke(); fill(255,0,0); textAlign(LEFT,BOTTOM); text(name, x, y-abs(r))
 }
 
 function triangel(name,o) {  // WHITE
-  var x1=f(o.x1), y1=g(o.y1)
-  var x2=f(o.x2), y2=g(o.y2)
-  var x3=f(o.x3), y3=g(o.y3)
+  var x1=f(o[0]), y1=g(o[1])
+  var x2=f(o[2]), y2=g(o[3])
+  var x3=f(o[4]), y3=g(o[5])
   strokeWeight(2); stroke(255); noFill(); triangle(x1,y1,x2,y2,x3,y3)
   noStroke(); fill(255); textAlign(LEFT,BOTTOM); text(name, (x1+x2+x3)/3, (y1+y2+y3)/3)
 }
@@ -77,9 +104,11 @@ function punkt(name,x,y) { // GREEN
 }
 
 function linje(name,o) { // YELLOW
-  var x1=f(o.x1), y1=g(o.y1)
-  var x2=f(o.x2), y2=g(o.y2)
-  strokeWeight(2); stroke(255,255,0); line(x1,y1,x2,y2)
+  var x1=f(o[0]), y1=g(o[1])
+  var x2=f(o[2]), y2=g(o[3])
+  var dx = 10*(x2-x1)
+  var dy = 10*(y2-y1)
+  strokeWeight(2); stroke(255,255,0); line(x1-dx,y1-dy,x1+dx,y1+dy)
   noStroke(); fill(255,255,0); textAlign(RIGHT,BOTTOM); text(name, (x1+x2)/2, (y1+y2)/2)
 }
 
@@ -124,6 +153,7 @@ function coords(c,d) { // c är centrum, d är max-min
    var s = delta.toString()
    decimals = 0
    if (delta < 1) decimals = s.length-2
+   if (decimals>20) decimals=20
    var closest = (round(c/delta)*delta) //.toFixed(6)
    return [closest,delta]
 }
@@ -152,7 +182,7 @@ function calc_coord() {
 
 function coordinates() {
   var x=x0
-  while (x<xmax) {
+  while (x<=xmax+delta) {
     var flag = x < delta/2 && x > -delta/2
     coordx(x.toFixed(decimals), punkt('',x,ymin), punkt('',x,ymax),flag)
     x+=delta
@@ -166,7 +196,9 @@ function coordinates() {
 }
 
 function draw() {
-  mydraw()
+  if (xmin!=xmax) {
+    mydraw()
+  }
 }
 
 function mydraw() {
@@ -178,13 +210,15 @@ function mydraw() {
   strokeWeight(2)
   for (name in data) {
     var o = data[name]
-    if (o.type == 'L') linje(name,o)
-    if (o.type == 'T') triangel(name,o)
-    if (o.type == 'C') cirkel(name,o)
+    var t = name.charAt(0)
+    if (t == 'l') linje(name,o)
+    if (t == 't') triangel(name,o)
+    if (t == 'c') cirkel(name,o)
   }
   for (name in data) {
     var o = data[name]
-    if (o.type == 'P') punkt(name,o.x,o.y)
+    var t = name.charAt(0)
+    if (t == 'p') punkt(name,o[0],o[1])
   }
 }
 
@@ -196,6 +230,7 @@ function mouseWheel(event) {
   xmax = x - (x-xmax) * factor
   ymin = y - (y-ymin) * factor
   ymax = y - (y-ymax) * factor
+  mydraw()
 }
 
 function mousePressed(event) {
@@ -217,4 +252,5 @@ function mouseDragged(event) {
   xmax = xmax0 + dx
   ymin = ymin0 - dy
   ymax = ymax0 - dy
+  mydraw()
 }

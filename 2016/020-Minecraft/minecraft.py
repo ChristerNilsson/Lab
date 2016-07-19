@@ -96,6 +96,7 @@ GRASS = tex_coords((1, 0), (0, 1), (0, 0))
 SAND  = tex_coords((1, 1), (1, 1), (1, 1))
 BRICK = tex_coords((2, 0), (2, 0), (2, 0))
 STONE = tex_coords((2, 1), (2, 1), (2, 1))
+DEATH = tex_coords((2, 1), (0, 2), (0, 2))
 
 FACES = [
     ( 0, 1, 0),
@@ -272,7 +273,7 @@ class Model(object):
         for x in xrange(-n, n + 1):
             for z in xrange(-n, n + 1):
                 if x in (-n, n) or z in (-n, n):
-                    self.add_block((x, -1, z), STONE, immediate=False)
+                    self.add_block((x, -1, z), DEATH, immediate=False)
                 else:
                     texture = GRASS if random.randint(1,2) == 1 else SAND
                     self.add_block((x, -1, z), texture, immediate=False)
@@ -284,10 +285,10 @@ class Model(object):
     def add_targets(self,n):
         for i in range(n):
             self.targets += 1
-            x = random.randint(-20,20)
+            x = random.randint(-10,10)
             y = random.randint(1,10)
-            z = random.randint(-20,20)
-            self.add_block((x,y,z), BRICK, immediate=False)
+            z = random.randint(-10,10)
+            self.add_block((x,y,z), STONE, immediate=False)
             self.add_block((x,-1,z), BRICK, immediate=False)
 
     def exposed(self, position):

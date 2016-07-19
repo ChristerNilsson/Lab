@@ -1,0 +1,231 @@
+Bara att kopiera in i SnapGeometry mellan """ och """ samt exekvera.
+
+###############################################
+# Pentagonens sida skapas här. Den är 1.18
+# Gyllene snittet skapas nedan: 0.618 resp 1.62
+    O 1 # c0
+    1 0 # p0
+    p0 1 # c1
+    c0 c1 # p1 p2
+    p1 p2 # l0
+    l0 X # p3
+    c0 Y # p4 p5
+    p3 p3.distance(p5) # c2
+    c2 X # p6 p7
+    p6.distance(p5) # n0 = 1.18
+    # n0 = sqrt((-sqrt(5)/2 + 1/2)**2 + 1)
+
+    4 0 # p8
+    p8 1 # c3
+    c3 X # p9 p10
+    p10 n0 # c4
+    c3 c4 # => p11 p12
+    p11 n0 # c5
+    c3 c5 # p13
+    p12 n0 # c6
+    c3 c6 # p14
+    p14 n0 # c7
+    p13 n0 # c8
+    # 1.612s
+###############################################
+    # Beräkna bandlängden som åtgår för två cirklar med radier 10cm resp 15cm med centrumavstånd 30cm.
+    O 10 # c0
+    30 0 # p0
+    p0 15 # c1
+    bandpunkter(c1,c0) # p1 p2
+    c1 p1 # l0 l1
+    l1 c0 # p3
+    l1 c1 # p4
+    l0 c0 # p5
+    l0 c1 # p6
+    vinkel(p3,O,p5)
+    a0/(2*pi)*c0.circumference # n0
+    (2*pi-a0)/(2*pi)*c1.circumference # n1
+    n0+n1+p3.distance(p4)+p5.distance(p6) # n2 = 139
+    # Exakt: (-5*acos(-17/18) + 10*sqrt(35) + 30*pi)
+    # 0.671s
+###############################################
+    # Samma sak, fast korsade band
+    O 10 # c0
+    30 0 # p0
+    p0 15 # c1
+    bandpunkter(c1,c0) # p1 p2
+    c1 p2 # l0 l1
+    l1 c0 # p3
+    l1 c1 # p4
+    l0 c0 # p5
+    l0 c1 # p6
+    vinkel(p3,O,p5) # a0 (in radians)
+    a0/(2*pi)*c0.circumference # n0
+    (2*pi-a0)/(2*pi)*c1.circumference # n1
+    n0+n1+p3.distance(p4)+p5.distance(p6) # n2
+    # Svar: 122 cm -5*acos(7/18) + 10*sqrt(11) + 30*pi
+    # 0.672s
+###############################################
+    # Cirkelproblemet från Mickes Mathjams
+    0 2 # p0
+    0 8 # p1
+    p0 2 # c0
+    c0 p1 # l0 l1
+    X l0 # p2
+    p2 p0 # l2
+
+    # Skapande av första cirkeln i serien:
+    l2 c0 # p3 p4
+    l2 p3 # l3
+    l3 l0 # p5
+    l3 X # p6
+    p2 p5 p6 # t0
+    t0.incircle # c1
+    c1.radius # n0 = -4 + 2*sqrt(3)
+
+    # Skapande av andra cirkeln i serien:
+    l2 c1 # p7
+    l2 p7 # l4
+    l4 l0 # p8
+    l4 X # p9
+    p2 p8 p9 # t1
+    t1.incircle # c2
+    c2.radius # n1 = 0.144
+    # Exakt: 
+    # (-104*sqrt(12*sqrt(3) + 21) - 32*sqrt(3) + 56 +
+    # 180*sqrt(4*sqrt(3) + 7))/(-5*sqrt(4*sqrt(3) + 7) - 3 + 
+    # sqrt(3) + 3*sqrt(3)*sqrt(4*sqrt(3) + 7))
+    # 14.16s
+###############################################
+    # Tre cylindrar, radierna 8,12 och 16. Kortaste bandet?
+    8+12 12+16 8+16 # t0
+    t0.vertices[0] # p0
+    t0.vertices[1] # p1
+    t0.vertices[2] # p2
+    O 8 # c0
+    p1 12 # c1
+    p0 16 # c2
+
+    bandpunkter(c0,c1) #
+    bandpunkter(c1,c2) #
+    bandpunkter(c2,c0) #
+
+    p2 c1 # l0 l1
+    p4 c2 # l2 l3
+    p6 c2 # l4 l5
+
+    l0 c0 # p8
+    l0 c1 # p9
+    l3 c1 # p10
+    l3 c2 # p11
+    l5 c0 #
+    l5 c2 #
+
+    drop l0 l1 l2 l3 l4 l5 #
+    drop p2 p4 p6 t0 p3 p5 p7 #
+
+    p8.distance(p9) # n0
+    p10.distance(p11) # n1
+    p12.distance(p13) # n2
+
+    vinkel(p12,O,p8) # a0 = 1.23
+    vinkel(p9,p1,p10) # a1 = 2.20
+    vinkel(p11,p0,p13) # a2 = 2.85
+
+    a0/(2*pi)*c0.circumference # n3
+    a1/(2*pi)*c1.circumference # n4
+    a2/(2*pi)*c2.circumference # n5
+
+    simplify(n0+n1+n2+n3+n4+n5) # n6 = 152
+    # Exakt: 8*acos(1/3) + 8*sqrt(6) + 16*sqrt(2) + 12*acos(-24*sqrt(2)/49 + 5/49) + 16*sqrt(3) + 16*acos(-40*sqrt(6)/147 - 8*sqrt(2)/49 - 8*sqrt(3)/147 + 5/147)
+    # Resultatet stämmer i princip överens med SymCalc efter sympy.simplify.
+    # 8.479s
+###############################################
+    # Två cylindrar, radierna 8 och 12. Kortaste bandet?
+    0 12 # p0
+    0 12+12+8 # p1
+
+    p0 12 # c0
+    p1 8 # c1
+
+    bandpunkter(c0,c1) # p2 p3
+
+    p2 c0 # l0 l1
+
+    l0 c0 # p4
+    l0 c1 # p5
+    l1 c0 # p6
+    l1 c1 # p7
+
+    drop l0 l1 p2 p3
+
+    p4.distance(p5) # n0
+    p6.distance(p7) #
+
+    vinkel(p4,p0,p6)
+    vinkel(p5,p1,p7)
+
+    (2*pi-a0)/(2*pi)*c0.circumference # n1
+    a0/(2*pi)*c1.circumference # n2
+
+    n0+n0+n1+n2 # n3 = 104.0
+    # Exakt: n3 = -4*acos(-23/25) + 16*sqrt(6) + 24*pi
+    # 0.708s
+###############################################
+    # Två cylindrar, radierna 8 och 12. Kortaste bandet? Python-kod
+    p0 = Point(0,12)
+    p1 = Point(0,12+12+8)
+
+    c0 = Circle(p0,12)
+    c1 = Circle(p1,8)
+
+    p2,p3 = bandpunkter(c0,c1)
+
+    l0,l1 = c0.tangent_lines(p2)
+
+    p4 = intersection(l0,c0)[0]
+    p5 = intersection(l0,c1)[0]
+    p6 = intersection(l1,c0)[0]
+    p7 = intersection(l1,c1)[0]
+
+    n0 = p4.distance(p5)
+    n0 = p6.distance(p7)
+
+    a0 = vinkel(p4,p0,p6)
+    a1 = vinkel(p5,p1,p7)
+
+    n1 = (2*pi-a0)/(2*pi)*c0.circumference
+    n2 = a0/(2*pi)*c1.circumference
+
+    n3 = n0+n0+n1+n2 # n3 = 104.0
+    # 0.693s
+###############################################
+    # Ellips 3:544
+    # En rem roterar i en åtta kring två remskivor.
+    # De har radierna 16 och 24cm. Deras mittpunkter har avståndet 100cm
+
+    100 0 # p0
+
+    O 24 # c0
+    p0 16 # c1
+
+    bandpunkter(c0,c1) # p1 p2
+    drop p1
+    p2 c0
+
+    l0 c0 # p3
+    l0 c1 # p4
+    l1 c0 # p5
+    l1 c1 # p6
+
+    drop l0 l1
+
+    p3.distance(p4) # n0
+    p5.distance(p6) # n0
+
+    vinkel(p3,O,p5) # a0 (in radians)
+    vinkel(p6,p0,p4) # a0 (in radians)
+
+    (2*pi-a0)/(2*pi)*c0.circumference # n1
+    (2*pi-a0)/(2*pi)*c1.circumference # n2
+
+    n0+n0+n1+n2 # n3 = 342.0
+    # Exakt: n3 = -40*acos(-17/25) + 40*sqrt(21) + 80*pi
+    # 0.688s
+###############################################

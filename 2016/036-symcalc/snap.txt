@@ -1,22 +1,55 @@
 Kommando till geometriprogrammet
 
-o Origo
-x x-axeln
-y y-axeln
+O Origo
+X x-axeln
+Y y-axeln
 
-1 1 =>      p0 = Point x=1.00 y=1.00
-o 1 =>      c0 = Circle x=0.00 y=0.00 radius=1.00
-c0 p0 =>    p1 = Point x=2.00 y=1.00 (tangentpunkter)
-            p2 = Point x=1.00 y=2.00
-p0 p1 =>    l0 = Line
-p0 p1 p2 => t0 = Triangle
-l0 l1 =>    p3 = Point (skärningspunkt)
-l0 p0 =>    04 = Point (vinkelrät punkt)
+0 2 => p0 = Point(0.00,2.00)
+0 8 => p1 = Point(0.00,8.00)
+p0 2 => c0 = Circle(Point(0,2.00),2.00)
+p0 p1 => l0 = Line(Point(,),Point(,))
+c0 p1 => l1 = Line(Point(0,8.00),Point(-1.89,2.67)) L2 = Line(Point(0,8.00),Point(1.89,2.67))
+p0 p1 p2 => t0 = Triangle(Point(,),Point(,),Point(,))
+l0 l1 x => t1 = Triangle(Point(,),Point(,),Point(,))
+l0 l1 => p3 = Point(,)
+l0 p0 => l3 = Line(Point(,),Point(,))
 
-sym   Visa exakta värden, t ex sqrt(2)
-num   Visa numeriska värden, t ex 1.414
-more  Visa fler decimaler
-less  Visa färre decimaler
+t0.angles         Lista med vinklar
+t0.sides          Lista med sidlängder
+t0.incircle       Insidig cirkel
+t0.circumcircle   Utsidig cirkel
+t0.centroid       Medelpunkt
+t0.area           Area
+t0.perimeter      Omkrets
+
+c0.center.x       x-koordinat
+c0.center.y       y-koordinat
+c0.radius         radie
+c0.area           Area
+c0.perimeter      Omkrets
+
+p0.distance(p1)   Distans
+
+Tillägg:
+vinkel(p0,p1,p2)
+vinkel2(p0,p1,p2) Komplementvinkel
+pyth(katet,katet,hypotenusa) T ex pyth(x,4,5) => 3
+pyth2(katet,katet,hypotenusa) Den andra roten
+prop(a,b,c,d) T ex prop(x,2,4,8) => 1
+bandpunkter(c0,c1) Ger punkter som kan användas för att beräkna ett bands längd runt två cirklar.
+
+   N   P   L   C   T     # Numeric Point Line Circle Triangle
+N  P   C   -   -   -
+P  C   L   L   L*  -     # * innebär noll eller flera
+L  -   L   P*  P*  P*
+C  -   L*  P*  P*  P*
+T  -   -   P*  P*  P*
+
+Tillägg: LLL=>T PPP=>T
+Tillägg: PP=>P LL=>L CC=>C TT=>T
+
+0     Visa exakta värden, t ex sqrt(2)
+1-9   Visa numeriska värden med antal värdesiffror, t ex 4 => 1.414
 undo  Ta bort senaste kommandot
 clear Rensa allt
 

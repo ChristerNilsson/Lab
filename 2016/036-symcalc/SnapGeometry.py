@@ -3,48 +3,105 @@
 # Enkel lösning av geometriska problem.
 # Bygger på att man bara anger geometriska storheter, inga kommandon.
 # Då man anger två objekt, skapas alla tänkbara objekt.
-#   T ex två cirklar skapar upp till tolv punkter.
-#   Skärningspunkter, tangenterpunkter, närmaste, avlägsnaste, osv.
+#   T ex två trianglar skapar upp till sex punkter.
+#   Skärningspunkter, tangenterpunkter, vinkelräta linjer
 # Man närmar sig lösningen genom att kombinera/välja ut rätt objekt.
 
-# Undvik vinklar som är multiplar av 3 grader. Lägg därför till eller dra ifrån någon miljondels grad.
-# Orsaken är att dessa vinklar kan representeras exakt. Beräkningstiderna kan handla om tio minuter istf en sekund.
-# Alltså: 78 grader blir Angle(78.000001) (0.000001 läggs till automatiskt)
-
-# Primitiver:
-# x y   => Point a
-# a b   => Line ab
-# a r   => Circle c1
-# a b c => Triangle abc
-# abc   => Circle c2 c3
-# ab c2 => 0..6 points (intersection)
-# c1 b  => 2 points (tangent points)
-# ab c  => 1 point (perpendicular point)
-
-# Exempel:
-# 0 2 => a     (punkt)
-# 0 8 => b     (punkt)
-# a 2 => c1    (cirkel)
-# c1 b => c d  (tangerande punkter)
-# b c => bc    (linje)
-# xx bc => e   (skärningspunkt)
-# e a => ea    (linje)
-# ea c1 => f g (skärningspunkt)
-# ea f => h    (vinkelrät)
-# f h => fh    (linje)
-# fh bc => i   (skärningspunkt)
-# fh xx => j   (skärningspunkt)
-# e i j => eij (triangel)
-# eij => c2 c3 (inre och yttre cirkel)
-
-# todo Visa grafik direkt efter varje inmatning.
-# Man ska ej behöva trycka på Refresh.
-# Kräver automatisk inläsning av datafil. zoom/pan ska ej påverkas.
-
-from sympy.geometry import Line,Point,Point2D,intersection,Circle,Triangle,Segment,Ray,rad
-from sympy.core import S,N,pi
+from sympy import *
 import time
-import math
+
+N_WORDS = "int float Integer Float Pow Mul Add Pi Half Zero NegativeOne One Rational".split()
+EXACT = True
+
+# vinklar, pyth, prop och bandpunkter är hjälprutiner för att lösa vanligt förekommande delproblem.
+
+def ass(a,b):
+    if a!=b:
+        print a
+        print b
+        assert a==b
+    return a==b
+
+def vinkel(p0,p1,p2): # ger vinkeln mellan två linjer i radianer. 0<= v <=180
+    l0 = Line(p1,p0)
+    l1 = Line(p1,p2)
+    a = Line.angle_between(l0,l1)
+    print "  " + str(180*a/pi) + " grader"
+    return a
+a,b,c = Point(-1,1),Point(0,1),Point(1,1)
+d,e,f = Point(-1,0),Point(0,0),Point(1,0)
+# assert vinkel(a,b,c) == pi
+# assert vinkel(b,c,f) == pi/2
+# assert vinkel(a,b,f) == 3*pi/4
+# assert vinkel(a,e,c) == pi/2
+# assert vinkel(a,d,a) == 0
+# assert vinkel(b,f,c) == pi/4
+def vinkel2(p0,p1,p2): # Komplementvinkel
+    l0 = Line(p1,p0)
+    l1 = Line(p1,p2)
+    a = Line.angle_between(l0,l1)
+    print "  " + str(180*(pi-a)/pi) + " grader"
+    return pi-a
+
+def pyth(a,b,h): # tre sidor givna
+    x = Symbol('x')
+    return abs(solve(a*a+b*b-h*h,x)[0])
+x = Symbol('x')
+assert pyth(x,4,5)==3
+assert pyth(3,x,5)==4
+assert pyth(3,4,x)==5
+def pyth2(a,b,h): # tre sidor givna. Den andra roten
+    x = Symbol('x')
+    return abs(solve(a*a+b*b-h*h,x)[1])
+
+def prop(a,b,c,d): # a/b==c/d
+    x = Symbol('x')
+    return solve(S(a)/b-S(c)/d,x)[0]
+x = Symbol('x')
+assert prop(x,8,3,4) == 6
+assert prop(6,x,3,4) == 8
+assert prop(6,8,x,4) == 3
+assert prop(6,8,3,x) == 4
+
+def bandpunkter(a,b): # Mellan två cirklar. a är större
+    if a.radius == b.radius: return []
+    if a.radius < b.radius: a,b=b,a
+    mittlinje = Line(a.center,b.center)
+    d = a.center.distance(b.center)
+
+    res = []
+
+    r1 = d * a.radius / (b.radius-a.radius)
+    c1 = Circle(a.center,r1)
+    z = intersection(mittlinje,c1)
+    res.append(z[1])
+
+    if d >= a.radius + b.radius:
+        r2 = d * a.radius/b.radius / (1 + a.radius/b.radius)
+        c2 = Circle(a.center,r2)
+        res.append(intersection(mittlinje,c2)[1])
+    return res
+
+def dumpGeo(hash):
+    res = []
+    trans = {'Point2D':'p', 'Line':'l', 'Circle':'c', 'Triangle':'t'}
+    for name in hash:
+        obj = hash[name]
+        klassnamn = obj.__class__.__name__
+        if klassnamn in trans:
+            s = trans[klassnamn]
+            lst = []
+            if s == "p": lst = [obj.x,obj.y]
+            elif s == "l": lst = [obj.p1.x,obj.p1.y,obj.p2.x,obj.p2.y]
+            elif s == "c": lst = [obj.center.x,obj.center.y,obj.radius]
+            elif s == "t":
+                a,b,c = obj.vertices
+                lst = [a.x,a.y,b.x,b.y,c.x,c.y]
+            if lst != []: res.append([name,[N(item) for item in lst]])
+    f = open("lab\data.json", "w")
+    f.write("{\n" + ",\n".join(['  "'+name+'":'+str(lst) for name,lst in res]) + "\n}")
+    f.flush()
+    f.close()
 
 class Calculator:
     def __init__(self):
@@ -52,220 +109,314 @@ class Calculator:
 
     def reset(self):
         self.start = time.time()
-        self.numberCount = -1
-        self.pointCount = -1
-        self.circleCount = -1
-        self.lineCount = -1
-        self.angleCount = -1
-        self.triangleCount = -1
+        self.counters = {}
+        self.locals = {}
+        self.droplist = []
+        self.locals['O'] = Point2D(0,0)
+        self.locals['X'] = Line(Point2D(0,0),Point2D(1,0))
+        self.locals['Y'] = Line(Point2D(0,0),Point2D(0,1))
+        self.history = [['Original',['O','X','Y']]]
+        self.decs = 3  # 0 = sym, 1-oo = num
+        self.dumpGeometry()
 
-        self.history = []
-        self.history.append(['o','P',Point2D(0,0)])
-        self.history.append(['x','L',Line(Point2D(0,0),Point2D(1,0))])
-        self.history.append(['y','L',Line(Point2D(0,0),Point2D(0,1))])
-        self.mode = 1 # 0='sym' 1='num'
-        self.decs = 3
-        self.dumpToFile()
+    def help(self):
+        print "Exempel:"
+        print "O        => Origo"
+        print "X        => x-axeln"
+        print "Y        => y-axeln"
+        print "1 1      => Punkten p0"
+        print "p0 p1    => Linjen l0"
+        print "p0.distance(p1) => Distans"
+        print "p0 l0    => Vinkelrät linje l1"
+        print "p0 1     => Cirkel c0"
+        print "p0 p1 p2 => Triangel t0"
+        print "3 4 5    => Triangel t1"
+        print "c0 p0    => Tangentlinjer l2 och l3"
+        print "l0 l1    => Skärningspunkter 0,1 eller Linje"
+        print "l0 c0    => Skärningspunkter 0,1 eller 2"
+        print "l0 t0    => Skärningspunkter 0,1 eller 2"
+        print "c0 c1    => Skärningspunkter 0,1,2 eller Cirkel. En eller två bandpunkter kan tillkomma"
+        print "c0 t0    => Skärningspunkter 0,1,2,3,4,5 eller 6"
+        print "t0 t1    => Skärningspunkter 0,1,2,3,4,5,6 eller Triangel"
+        print "t0.centroid     => Centrum"
+        print "t0.vertices     => Hörn"
+        print "t0.angles       => Vinklar"
+        print "t0.sides        => Sidor"
+        print "t0.incircle     => Inskriven cirkel"
+        print "t0.circumcircle => Omskriven cirkel"
+        print "t0.area         => Area"
+        print "c0.center => Centrum"
+        print "c0.radius => Radie"
+        print "c0.area   => Area"
+        print
+        print "pythagoras(x,4,5) => 3"
+        print "pythagoras(3,x,5) => 4"
+        print "pythagoras(3,4,x) => 5"
+        print "vinkel(p0,p1,p2) => vinkel mellan p0 och p2 i radianer"
+        print "bandpunkter(c0,c1) => Två punkter i samband med cirklar och remband"
+        print
+        print "0        => Exakt visning, t ex sqrt(2)"
+        print "1-99     => Numerisk visning med angivet antal värdesiffror, t ex 1.41"
+        print "undo     => Ångra senaste kommandot"
+        print "clear    => Rensa allt"
+        print "Starta index.html med P5 för att se grafik."
+        print "För mer information, se http://docs.sympy.org"
 
-    def dumpObject(self,name,type,value):
-        if type == 'P':
-            return name + " = Point " + self.showPoint(value)
-        elif type == 'N':
-            return name + " = Number " + str(value if self.mode == 0 else N(value,self.decs))
-        elif type == 'A':
-            return name + " = Angle " + str(value if self.mode == 0 else N(value,self.decs))
-        elif type == 'L':
-            line = value
-            segment = Segment(line.p1,line.p2)
-            length = str(segment.length) if self.mode==0 else str(N(segment.length,self.decs))
-            return name + " = Line " + self.showPoint(line.p1) + ' ' + self.showPoint(line.p2) + ' length='+length
-        elif type == 'C':
-            c = value
-            radius = c.radius if self.mode==0 else str(N(c.radius,self.decs))
-            return name + " = Circle " + self.showPoint(c.center) + ' radius=' + str(radius)
-        elif type == 'T':
+    def pp(self,x):
+        return str(x) if self.decs == 0 else str(N(x,self.decs))
+
+    def showPoint(self,p):
+        return 'Point(' + self.pp(p.x) + ',' + self.pp(p.y) +')'
+
+    def dumpObject(self,value):
+        type = self.getSignature(value)
+        if type == 'p': return self.showPoint(value)
+        elif type == 'n': return self.pp(value)
+        elif type == 'a': return "Angle(" + self.pp(value) + ')'
+        elif type == 'l': return "Line(" + self.showPoint(value.p1) + ',' + self.showPoint(value.p2) + ')'
+        elif type == 'c': return "Circle(" + self.showPoint(value.center) + ',' + self.pp(value.radius) + ')'
+        elif type == 't':
             a,b,c = value.vertices
-            return name + ' = Triangle ' + self.showPoint(a) + ' ' + self.showPoint(b) + ' ' + self.showPoint(c)
+            return 'Triangle(' + self.showPoint(a) + ',' + self.showPoint(b) + ',' + self.showPoint(c) + ')'
+        elif type == 's': return 'Segment(' + self.showPoint(value.p1) + ',' + self.showPoint(value.p2) + ')'
+        elif type == 'assert': return str(value)
+        elif type == 'd':
+            pass
         else:
             return 'Error in dumpObject'
 
     def dump(self):
-        for name,type,value in self.history:
-            print "# " + self.dumpObject(name,type,value)
+        for cmd,names in self.history:
+            print "  #",cmd
+            for name in names:
+                print "  ",name,'=', self.dumpObject(self.locals[name])
 
-    def dumpToFile(self):
-        f = open("lab\data.js", "w")
-        f.write("data = {\n")
-        for name,type,value in self.history:
-            if name not in ['o','x','y']:
-                if type=='P':   f.write("  " + name + ": {type:'P',x:" + str(N(value.x)) + ",y:" + str(N(value.y)) + "},\n")
-                elif type=='L': f.write("  " + name + ": {type:'L',x1:" + str(N(value.p1.x)) + ",y1:" + str(N(value.p1.y)) + ",x2:" + str(N(value.p2.x)) + ",y2:" + str(N(value.p2.y)) + "},\n")
-                elif type=='T':
-                    a,b,c = value.vertices
-                    f.write("  " + name + ": {type:'T',x1:" + str(N(a.x)) + ",y1:" + str(N(a.y)) + ",x2:" + str(N(b.x)) + ",y2:" + str(N(b.y))  + ",x3:" + str(N(c.x)) + ",y3:" + str(N(c.y))+ "},\n")
-                elif type=='C': f.write("  " + name + ": {type:'C',x:" + str(N(value.center.x)) + ",y:" + str(N(value.center.y)) + ",radius:" + str(N(value.radius))+ "},\n")
-        f.write("}")
+    def dumpGeometry(self):
+        res = []
+        for cmd,names in self.history:
+            for name in names:
+                if name in self.droplist: continue
+                obj = self.locals[name]
+                s = self.getSignature(obj)
+                lst = []
+                if s == "p": lst = [obj.x,obj.y]
+                elif s == "l": lst = [obj.p1.x,obj.p1.y,obj.p2.x,obj.p2.y]
+                elif s == "c": lst = [obj.center.x,obj.center.y,obj.radius]
+                elif s == "t":
+                    a,b,c = obj.vertices
+                    lst = [a.x,a.y,b.x,b.y,c.x,c.y]
+                if lst != []: res.append([name,[N(item) for item in lst]])
+        f = open("lab\data.json", "w")
+        f.write("{\n" + ",\n".join(['  "'+name+'":'+str(lst) for name,lst in res]) + "\n}")
+        f.flush()
         f.close()
 
-    def showPoint(self,p):
-        if self.mode == 0:
-            return 'x=' + str(p.x) + ' y='+str(p.y)
-        else:
-            return 'x=' + str(N(p.x,self.decs)) + ' y=' + str(N(p.y,self.decs))
+    def getName(self,obj,type=''):
+        if type == '': type = self.getSignature(obj)
+        if type not in self.counters: self.counters[type] = -1
+        self.counters[type] += 1
+        return type + str(self.counters[type])
 
-    def storeNumber(self, n):
-        self.numberCount += 1
-        name = 'n' + str(self.numberCount)
-        self.history.append([name,'N',n])
-        print '  ' + self.dumpObject(name,'N',n)
-        return name
+    def getSignature(self,obj):
+        s = obj.__class__.__name__
+        if s in N_WORDS: return 'n'
+        elif s == "Triangle": return "t"
+        elif s == "Point2D": return "p"
+        elif s == "Circle": return "c"
+        elif s == "Line": return "l"
+        elif s == "Segment": return "s"
+        elif s == "dict": return "d"
+        elif s == "acos": return "a"
+        elif s == "bool": return "assert"
+        return s
 
-    def storePoint(self, p):
-        self.pointCount += 1
-        name = 'p' + str(self.pointCount)
-        self.history.append([name,'P',p])
-        print '  ' + self.dumpObject(name,'P',p)
-        return name
+    def normalizeLine(self,line):
+        lst = []
+        lst.append([line.p1.x,line.p1.y,line.p2.x,line.p2.y])
+        lst.append([line.p2.x,line.p2.y,line.p1.x,line.p1.y])
+        x1,y1,x2,y2 = sorted(lst)[0]
+        return Line(Point(x1,y1),Point(x2,y2))
 
-    def storeAngle(self, a):
-        self.angleCount += 1
-        name = 'a' + str(self.angleCount)
-        self.history.append([name,'A',a])
-        print '  ' + self.dumpObject(name,'A',a)
-        return name
+    def normalizeTriangle(self,tri):
+        lst = []
+        a,b,c = tri.vertices
+        lst.append([a.x,a.y,b.x,b.y,c.x,c.y])
+        a,c,b = tri.vertices
+        lst.append([a.x,a.y,b.x,b.y,c.x,c.y])
+        b,a,c = tri.vertices
+        lst.append([a.x,a.y,b.x,b.y,c.x,c.y])
+        b,c,a = tri.vertices
+        lst.append([a.x,a.y,b.x,b.y,c.x,c.y])
+        c,a,b = tri.vertices
+        lst.append([a.x,a.y,b.x,b.y,c.x,c.y])
+        c,b,a = tri.vertices
+        lst.append([a.x,a.y,b.x,b.y,c.x,c.y])
+        x1,y1,x2,y2,x3,y3 = sorted(lst)[0]
+        return Triangle(Point(x1,y1),Point(x2,y2),Point(x3,y3))
 
-    def storeCircle(self, c):
-        self.circleCount += 1
-        name = 'c' + str(self.circleCount)
-        self.history.append([name,'C',c])
-        print '  ' + self.dumpObject(name,'C',c)
-        return name
+    def exact(self,obj):
+        if EXACT: return obj
+        type = self.getSignature(obj)
+        if type == 'n': return N(obj)
+        if type == 'c': return Circle(Point(N(obj.center.x),N(obj.center.y)),N(obj.radius))
+        if type == 'p': return Point(N(obj.x),N(obj.y))
+        if type == 'l': return Line(Point(N(obj.p1.x),N(obj.p1.y)),Point(N(obj.p2.x),N(obj.p2.y)))
+        return obj
 
-    def storeLine(self, line):
-        self.lineCount += 1
-        name = 'l' + str(self.lineCount)
-        self.history.append([name,'L',line])
-        print '  ' + self.dumpObject(name,'L',line)
-        return name
-
-    def storeTriangle(self, tri):
-        self.triangleCount += 1
-        name = 't' + str(self.triangleCount)
-        self.history.append([name,'T',tri])
-        print '  ' + self.dumpObject(name,'T',tri)
-        return name
-
-    def findItem(self,name):
-        for key,type,value in self.history:
-            if name==key: return [key,type,value]
+    def exist(self,obj):
+        t = self.getSignature(obj)
+        for cmd,names in self.history:
+            for name in names:
+                v = self.locals[name]
+                type = self.getSignature(v)
+                if t == type:
+                    if self.dumpObject(obj)==self.dumpObject(v):
+                        return name
         return None
 
-    def more(self):
-        self.decs += 1
-
-    def less(self):
-        self.decs -= 1
-
-    def calc(self,commands):
-
-        if commands == '':
-            self.dump()
-            return ''
-        elif commands == 'sym':
-            self.mode=0
-            self.dump()
-            return ''
-        elif commands == 'num':
-            self.mode=1
-            self.dump()
-            return ''
-        elif commands == 'undo':
-            name,type,value = self.history.pop()
-            if type =='P': self.pointCount -= 1
-            elif type =='C': self.circleCount -= 1
-            return ''
-        elif commands == 'more':
-            self.decs += 1
-            self.dump()
-            return ''
-        elif commands == 'less':
-            self.decs -= 1
-            self.dump()
-            return ''
-
-        arr = commands.split()
+    def normalCommand(self,commands,arr):
         res = []
+        signature = ""
         for cmd in arr:
-            item = self.findItem(cmd)
-            if item: res.append(S(item[2]))
-            else: res.append(S(cmd))
+            obj = eval(cmd,None,self.locals)
+            res.append(obj)
+            signature += self.getSignature(obj)
 
-        signature = "".join([item.__class__.__name__ for item in res])
-        signature = signature.replace('Zero','N').replace('Float','N').replace('Integer','N').replace('NegativeOne','N').replace('One','N')
-        signature = signature.replace('Point2D','P').replace('Circle','C').replace('Line','L').replace('Triangle','T')
-        signature = signature.replace('Angle','A')
+        if len(res)>0: a = res[0]
+        if len(res)>1: b = res[1]
+        if len(res)>2: c = res[2]
 
-        if len(res) > 0: a = res[0]
-        if len(res) > 1: b = res[1]
-        if len(res) > 2: c = res[2]
+        if signature == 'nn': obj = Point(a,b)
+        elif signature == 'd': obj = a
+        elif signature == 'pp': obj = Line(a,b)
+        elif signature == 'pn': obj = Circle(a,b)
+        elif signature == 'np': obj = Circle(b,a)
+        elif signature == 'cp': obj = a.tangent_lines(b)
+        elif signature == 'pc': obj = b.tangent_lines(a)
+        elif signature == 'lp': obj = a.perpendicular_line(b)
+        elif signature == 'pl': obj = b.perpendicular_line(a)
+        elif signature in 'll cl lc tt ct tc lt tl'.split(): obj = intersection(a,b)
+        elif signature == 'cc': obj = intersection(a,b) # Normala skärningspunkter
 
-        if signature == 'NN':
-            result = self.storePoint(Point(a,b))
-        elif signature == 'NNN':
-            result = self.storeTriangle(Triangle(sss=(a,b,c)))
-        elif signature == 'ANA':
-            va = rad(a.args[0])
-            vc = rad(c.args[0])
-            result = self.storeTriangle(Triangle(asa=(va,b,vc)))
-        elif signature == 'NAN':
-            vb = rad(b.args[0])
-            result = self.storeTriangle(Triangle(sas=(a,vb,c)))
-            z=99
-        elif signature == 'PP':
-            result = self.storeLine(Line(a,b))
         elif signature == 'PA':
             v = rad(b.args[0]+0.0000)
             p1 = a
             p2 = Point2D(1,0)
             p2 = p2.rotate(v,Point2D(0,0))
             p2 = p2.translate(a.x,a.y)
-            line = Line(p1,p2)
-            result = self.storeLine(line) # N
-        elif signature in ['PN','NP']:
-            result = self.storeCircle(Circle(a,b))
-        elif signature in ['CP']:
-            result = ' '.join([self.storePoint(line.p2) for line in a.tangent_lines(b)])
-        elif signature in ['PC']:
-            result = ' '.join([self.storePoint(line.p2) for line in b.tangent_lines(a)])
-        elif signature in ['LP']:
-            result = self.storePoint(a.perpendicular_line(b).p2)
-        elif signature in ['PL']:
-            result = self.storePoint(b.perpendicular_line(a).p2)
-        elif signature in ['LL','CL','LC','CC','TT','CT','TC','LT','TL']:
-            result = ' '.join([self.storePoint(p) for p in intersection(a,b)])
-        elif signature == 'PPP':
-            result = self.storeTriangle(Triangle(a,b,c))
-        elif signature == 'T':
-            r = [self.storeAngle(N(180/pi*angle)) for angle in a.angles.values()]
-            result = ' '.join([self.storePoint(a.centroid), self.storeCircle(a.incircle), self.storeCircle(a.circumcircle), self.storeNumber(a.area)] + r)
+            obj = Line(p1,p2)
+
+        elif signature == 'ppp': obj = Triangle(a,b,c)
+        elif signature == 'lll':
+            p1 = intersection(a,b)[0]
+            p2 = intersection(b,c)[0]
+            p3 = intersection(c,a)[0]
+            obj = Triangle(p1,p2,p3)
+        elif signature == 'nnn': obj = Triangle(sss=(a,b,c))
+        elif signature == 'ana':
+            va = rad(a.args[0])
+            vc = rad(c.args[0])
+            obj = Triangle(asa=(va,b,vc))
+        elif signature == 'nan':
+            vb = rad(b.args[0])
+            obj = Triangle(sas=(a,vb,c))
+
+        result = []
+        res_names = []
+        if isinstance(obj,list) or isinstance(obj,tuple):
+            for o in obj:
+                if self.exist(o) == None:
+                    name = self.getName(o)
+                    res_names.append(name)
+                    self.locals[name] = self.exact(o)
+                    result.append(name)
+        elif isinstance(obj,dict):
+            for o in obj.values():
+                if self.exist(o) == None:
+                    name = self.getName(o,"a")
+                    res_names.append(name)
+                    self.locals[name] = o
+                    result.append(name)
         else:
-            print 'Unhandled command!'
-            result = []
-        return result
+            t = self.getSignature(obj)
+            if t == 'l': obj = self.normalizeLine(obj)
+            if t == 't': obj = self.normalizeTriangle(obj)
+            name = self.exist(obj)
+            if name == None:
+                name = self.getName(obj)
+                res_names.append(name)
+                self.locals[name] = self.exact(obj)
+                result.append(name)
+            else:
+                print '  ' + name
+
+        s = "  " + "\n  ".join([name + " = " + self.dumpObject(self.locals[name]) for name in result])
+        print s
+        self.history.append([commands,res_names])
+        #calc.ready()
+        #return s
+
+    def do(self,commands):
+        # print commands
+        arr = commands.split()
+        if commands == '':
+            self.dump()
+        elif commands == '?':
+            self.help()
+        elif commands.isdigit():
+            self.decs = int(commands)
+            self.dump()
+        elif commands == 'undo':
+            if len(self.history) <= 1:
+                print "  undo not possible."
+            else:
+                command,lst = self.history.pop()
+                for name in lst:
+                    obj = self.locals[name]
+                    t = self.getSignature(obj)
+                    self.counters[t] -= 1
+                print "  " + command + " undone."
+        elif commands == 'clear':
+            self.reset()
+        elif arr[0] == 'drop':
+            for name in arr[1:]:
+                self.droplist.append(name)
+            #self.dumpGeometry()
+        else:
+            self.normalCommand(commands,arr)
+        self.dumpGeometry()
+        #return ''
 
     def run(self):
+        print "Mata in ett ? eller ett kommando:"
         while True:
-            commands = raw_input(':').lower()
-            self.calc(commands)
-            self.dumpToFile()
-
-    def var(self,name):
-        name,type,value = self.findItem(name)
-        return self.dumpObject(name,type,value)
+            commands = raw_input()
+            try:
+                self.do(commands)
+            except Exception as e:
+                print "  Error: " + e.message
 
     def ready(self):
         print "  " + str(round(time.time()-self.start,3)) + "s"
 
+    def batch(self,lines):
+        lines = lines.split('\n')
+        for line in lines:
+            commands = line.split('#')
+            commands = commands[0].strip()
+            if commands!='':
+                self.do(commands)
+        #self.ready()
+
+def solve_problem():
+    start = time.time()
+    # stoppa in pythonkod här.
+    dumpGeo(locals())
+    print time.time()-start
+
 if __name__ == "__main__":
     calc = Calculator()
+    # solve_problem()
+    calc.batch("""    # stoppa in kommandon här
+    """)
     calc.run()
