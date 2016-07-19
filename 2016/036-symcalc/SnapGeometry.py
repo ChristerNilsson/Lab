@@ -56,6 +56,10 @@ def pyth2(a,b,h): # tre sidor givna. Den andra roten
     x = Symbol('x')
     return abs(solve(a*a+b*b-h*h,x)[1])
 
+x = Symbol('x')
+def lika(a,b): # a==b
+    x = Symbol('x')
+    return solve(a-b,x)[0]
 def prop(a,b,c,d): # a/b==c/d
     x = Symbol('x')
     return solve(S(a)/b-S(c)/d,x)[0]
@@ -425,17 +429,5 @@ if __name__ == "__main__":
     # solve_problem()
 
     calc.batch("""
-# Miglani 2: 3 cirklar med radien 5. Finn inre och yttre cirkels radie
-10 10 10 # t0
-t0.centroid # p0
-t0.vertices # p1 p2
-O 5
-p1 5
-p2 5
-p1.distance(p0) # n0 = 10*sqrt(3)/3
-n0-5 # n1 = inre cirkelns radie = -5 + 10*sqrt(3)/3
-p0 n1
-n0+5 # n2 = yttre cirkelns radie = 5 + 10*sqrt(3)/3
-p0 n2
     """)
     calc.run()
