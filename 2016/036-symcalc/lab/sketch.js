@@ -1,6 +1,13 @@
 WIDTH = 700
 HEIGHT = 700
 
+INTERVAL = 500
+
+xmin=0
+xmax=0
+ymin=0
+ymax=0
+
 function f(x) {
   return map(x,xmin,xmax,0,WIDTH)
 }
@@ -15,10 +22,6 @@ function h(r) {
 
 function init_xmin_xmax_ymin_ymax() {
   // calculate xmin, xmax, ymin, ymax
-  xmin=0
-  xmax=0
-  ymin=0
-  ymax=0
   
   for (var key in data) {
     var value = data[key]
@@ -59,17 +62,20 @@ function setup() {
   createCanvas(WIDTH,HEIGHT) 
   textSize(16)
   mymouse = new p5.Vector(0,0)
-  lastTime = 0
+  once = 0
+  setInterval(loadData,INTERVAL)
+}
+
+function loadData() {
   loadJSON('data.json',loaded)
 }
 
 function loaded(dta) {
   data = dta
-  console.log(data.length)
-  if (lastTime==0) {
+  if (once==0) {
     init_xmin_xmax_ymin_ymax()
+    once=1
   }
-  mydraw()
 }
 
 function cirkel(name,o) {  // RED
@@ -190,10 +196,8 @@ function coordinates() {
 }
 
 function draw() {
-  var t = millis()
-  if (t > lastTime + 1000) {
-    loadJSON('data.json',loaded) 
-    lastTime=t
+  if (xmin!=xmax) {
+    mydraw()
   }
 }
 

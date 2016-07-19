@@ -22,23 +22,25 @@ def ass(a,b):
         assert a==b
     return a==b
 
-def vinkel(p0,p1,p2):
+def vinkel(p0,p1,p2): # ger vinkeln mellan två linjer i radianer. 0<= v <=180
     l0 = Line(p1,p0)
     l1 = Line(p1,p2)
     a = Line.angle_between(l0,l1)
+    print "  " + str(180*a/pi) + " grader"
     return a
 a,b,c = Point(-1,1),Point(0,1),Point(1,1)
 d,e,f = Point(-1,0),Point(0,0),Point(1,0)
-assert vinkel(a,b,c) == pi
-assert vinkel(b,c,f) == pi/2
-assert vinkel(a,b,f) == 3*pi/4
-assert vinkel(a,e,c) == pi/2
-assert vinkel(a,d,a) == 0
-assert vinkel(b,f,c) == pi/4
+# assert vinkel(a,b,c) == pi
+# assert vinkel(b,c,f) == pi/2
+# assert vinkel(a,b,f) == 3*pi/4
+# assert vinkel(a,e,c) == pi/2
+# assert vinkel(a,d,a) == 0
+# assert vinkel(b,f,c) == pi/4
 def vinkel2(p0,p1,p2): # Komplementvinkel
     l0 = Line(p1,p0)
     l1 = Line(p1,p2)
     a = Line.angle_between(l0,l1)
+    print "  " + str(180*(pi-a)/pi) + " grader"
     return pi-a
 
 def pyth(a,b,h): # tre sidor givna
@@ -98,6 +100,7 @@ def dumpGeo(hash):
             if lst != []: res.append([name,[N(item) for item in lst]])
     f = open("lab\data.json", "w")
     f.write("{\n" + ",\n".join(['  "'+name+'":'+str(lst) for name,lst in res]) + "\n}")
+    f.flush()
     f.close()
 
 class Calculator:
@@ -205,6 +208,7 @@ class Calculator:
                 if lst != []: res.append([name,[N(item) for item in lst]])
         f = open("lab\data.json", "w")
         f.write("{\n" + ",\n".join(['  "'+name+'":'+str(lst) for name,lst in res]) + "\n}")
+        f.flush()
         f.close()
 
     def getName(self,obj,type=''):
@@ -270,39 +274,7 @@ class Calculator:
                         return name
         return None
 
-    def do(self,commands):
-        # print commands
-        arr = commands.split()
-        if commands == '':
-            self.dump()
-            return ''
-        elif commands == '?':
-            self.help()
-            return ''
-        elif commands.isdigit():
-            self.decs = int(commands)
-            self.dump()
-            return ''
-        elif commands == 'undo':
-            if len(self.history) <= 1:
-                print "  undo not possible."
-                return ''
-            command,lst = self.history.pop()
-            for name in lst:
-                obj = self.locals[name]
-                t = self.getSignature(obj)
-                self.counters[t] -= 1
-            print "  " + command + " undone."
-            return ''
-        elif commands == 'clear':
-            self.reset()
-            return ''
-        elif arr[0] == 'drop':
-            for name in arr[1:]:
-                self.droplist.append(name)
-            self.dumpGeometry()
-            return ''
-
+    def normalCommand(self,commands,arr):
         res = []
         signature = ""
         for cmd in arr:
@@ -370,20 +342,50 @@ class Calculator:
             if t == 'l': obj = self.normalizeLine(obj)
             if t == 't': obj = self.normalizeTriangle(obj)
             name = self.exist(obj)
-            if name != None:
+            if name == None:
+                name = self.getName(obj)
+                res_names.append(name)
+                self.locals[name] = self.exact(obj)
+                result.append(name)
+            else:
                 print '  ' + name
-                return []
 
-            name = self.getName(obj)
-            res_names.append(name)
-            self.locals[name] = self.exact(obj)
-            result.append(name)
         s = "  " + "\n  ".join([name + " = " + self.dumpObject(self.locals[name]) for name in result])
         print s
         self.history.append([commands,res_names])
-        self.dumpGeometry()
         #calc.ready()
-        return s
+        #return s
+
+    def do(self,commands):
+        # print commands
+        arr = commands.split()
+        if commands == '':
+            self.dump()
+        elif commands == '?':
+            self.help()
+        elif commands.isdigit():
+            self.decs = int(commands)
+            self.dump()
+        elif commands == 'undo':
+            if len(self.history) <= 1:
+                print "  undo not possible."
+            else:
+                command,lst = self.history.pop()
+                for name in lst:
+                    obj = self.locals[name]
+                    t = self.getSignature(obj)
+                    self.counters[t] -= 1
+                print "  " + command + " undone."
+        elif commands == 'clear':
+            self.reset()
+        elif arr[0] == 'drop':
+            for name in arr[1:]:
+                self.droplist.append(name)
+            #self.dumpGeometry()
+        else:
+            self.normalCommand(commands,arr)
+        self.dumpGeometry()
+        #return ''
 
     def run(self):
         print "Mata in ett ? eller ett kommando:"
