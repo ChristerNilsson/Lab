@@ -1,178 +1,200 @@
 Part 1: https://www.youtube.com/watch?v=kRILen8VONQ
 #################################################
-    # Miglani 1: 3 cirklar med radien 5, beräkna arean mellan dem
-    10 10 10 # t0
-    O 5 # c0
-    t0.area # n0
-    3*c0.area/6 # n1
-    -n0-n1 # -25*pi/2 + 25*sqrt(3)
+# Miglani 1: 3 cirklar med radien 5, beräkna arean mellan dem
+10 10 10 # t0
+t0.vertices # p0 p1
+O 5 # c0
+p0 5 # c1
+p1 5 # c2
+abs(t0.area) # n0
+(c0.area+c1.area+c2.area)/6 # n1
+n0-n1 # n2 = -25*pi/2 + 25*sqrt(3)
 #################################################
-    # Miglani 2: 3 cirklar med radien 5. Finn inre och yttre cirkels radie
-    10 10 10 # t0
-    t0.centroid # p0
-    t0.vertices[0] # O
-    p0.distance(O) # n0 = 10*sqrt(3)/3
-    n0-5 # n1 = inre cirkelns radie = -5 + 10*sqrt(3)/3
-    n0+5 # n2 = yttre cirkelns radie = 5 + 10*sqrt(3)/3
+# Miglani 2: 3 cirklar med radien 5. Finn inre och yttre cirkels radie
+10 10 10 # t0
+t0.centroid # p0
+t0.vertices # p1 p2
+O 5
+p1 5
+p2 5
+p1.distance(p0) # n0 = 10*sqrt(3)/3
+n0-5 # n1 = inre cirkelns radie = -5 + 10*sqrt(3)/3
+p0 n1
+n0+5 # n2 = yttre cirkelns radie = 5 + 10*sqrt(3)/3
+p0 n2
 #################################################
-    # Miglani 3: 3 cirklar med radien 5. Finn kortaste bandet.
-    O 5 # c0
-    ass(3*(5+5)+3*c0.circumference/3,30+10*pi)
+# Miglani 3: 3 cirklar med radien 5. Finn kortaste bandet.
+10 10 10 # t0
+t0.vertices # p0 p1
+O 5 # c0
+p0 5 # c1
+p1 5 # c2
+0 -5 # p2
+10 -5 # p3
+p0 p1 # l0
+l0 p1
+c2 l1
+grader(vinkel(p3,p1,p5)) # n0
+5+5 # n1
+c0.circumference*n0/360 # n2
+3*(n1+n2) # n3 = 30+10*pi
 #################################################
-    # Miglani 4: 3 cirklar med radien 5. Yttre triangels sida.
-    pyth(5,x,10) # n0 = 5*sqrt(3))
-    ass(n0+5+5+n0,10+10*sqrt(3))
+# Miglani 4: 3 cirklar med radien 5. Yttre triangels sida.
+10 10 10 # t0
+t0.vertices # p0 p1
+O 5 # c0
+p0 5 # c1
+p1 5 # c2
+lika(5/x,tan(pi/6)) # n0
+ass(n0+5+5+n0,10+10*sqrt(3))
 #################################################
-    # Miglani 5. Sex cirklar i triangel. Triangelns sida.
-    pyth(5,x,10) # n0 = 5*sqrt(3))
-    ass(n0+10+10+n0,20+10*sqrt(3))
+# Miglani 5. Sex cirklar i triangel. Triangelns sida.
+pyth(5,x,10) # n0 = 5*sqrt(3))
+ass(n0+10+10+n0,20+10*sqrt(3))
 #################################################
-    # Miglani 6. 4 cirklar. Sök inre och yttre cirkels radie
-    pyth(5,5,5+x) # n0 = -5+5*sqrt(2)
-    ass(n0+10,5+5*sqrt(2))
+# Miglani 6. 4 cirklar. Sök inre och yttre cirkels radie
+pyth(5,5,5+x) # n0 = -5+5*sqrt(2)
+ass(n0+10,5+5*sqrt(2))
 #################################################
-    # Miglani 7. Cirkel i kvadrat. Sök lilla kvadraten i hörnet
-    pyth(5,5,5+x) # n0 = -5 + 5*sqrt(2)
-    ass(pyth(x,x,n0),5*sqrt(-4*sqrt(2)+6)/2) # Borde vara 5-5/sqrt(2)
+# Miglani 7. Cirkel i kvadrat. Sök lilla kvadraten i hörnet
+pyth(5,5,5+x) # n0 = -5 + 5*sqrt(2)
+ass(pyth(x,x,n0),5*sqrt(-4*sqrt(2)+6)/2) # Borde vara 5-5/sqrt(2)
 #################################################
-    # Miglani 8:
-    pyth(x-10,x-4,x) # n0 = -4*sqrt(5) + 14
-    ass(2*n0,-8*sqrt(5)+28)
+# Miglani 8:
+pyth(x-10,x-4,x) # n0 = -4*sqrt(5) + 14
+ass(2*n0,-8*sqrt(5)+28)
 #################################################
-    # Miglani 9: cirkel med radie 5 i kvadrat. Hörnets cirkels radie?
-    pyth2(5,5,5+x+x*sqrt(2))
-    ass(n0,-10*sqrt(2)+15) # 0.86
+# Miglani 9: cirkel med radie 5 i kvadrat. Hörnets cirkels radie?
+pyth2(5,5,5+x+x*sqrt(2))
+ass(n0,-10*sqrt(2)+15) # 0.86
 #################################################
-    # Miglani 10: inskriven cirkel i kvadrant med radien 5.
-    solve(x+x*sqrt(2)-5,x) # n0 = -5 + 5*sqrt(2) # 2.07
+# Miglani 10: inskriven cirkel i kvadrant med radien 5.
+solve(x+x*sqrt(2)-5,x) # n0 = -5 + 5*sqrt(2) # 2.07
 #################################################
-    # Miglani 11: Fyra halvcirklar
-    4*4*pi/4 # n0 = kvartscirkelns area
-    1*1*pi/2 # n1 = en halvcirkels area
-    2*(1*1*pi/4-S(1)/2) # n2 = lövets area
-    n0-4*n1+n2 # n3 = -1 + 5*pi/2 (6.85)
+# Miglani 11: Fyra halvcirklar
+4*4*pi/4 # n0 = kvartscirkelns area
+1*1*pi/2 # n1 = en halvcirkels area
+2*(1*1*pi/4-S(1)/2) # n2 = lövets area
+n0-4*n1+n2 # n3 = -1 + 5*pi/2 (6.85)
 #################################################
-    # Miglani 11b: Två små halvcirklar i en halvcirkel
-    pyth(2,4-x,x+2) # n0 = 4/3
+# Miglani 11b: Två små halvcirklar i en halvcirkel
+pyth(2,4-x,x+2) # n0 = 4/3
 #################################################
-    # Miglani 12: triangel i cirkel. Sök lilla cirkelns radie
-    10 10 10 # t0
-    t0.centroid.distance(t0.vertices[0]) # n0 = stora cirkelns radie
-    pyth(x,5,10) # n1 = triangelns höjd
-    (2*n0-n1)/2 # n2 = 5*sqrt(3)/6
+# Miglani 12: triangel i cirkel. Sök lilla cirkelns radie
+10 10 10 # t0
+t0.centroid.distance(t0.vertices[0]) # n0 = stora cirkelns radie
+pyth(x,5,10) # n1 = triangelns höjd
+(2*n0-n1)/2 # n2 = 5*sqrt(3)/6
 #################################################
-    # Miglani 13: Tre trianglar i en triangel
-    1-S(2*3)/(3*5)-S(2*3)/(5*5)-S(2)/(3*5) # 17/75
+# Miglani 13: Tre trianglar i en triangel
+1-S(2*3)/(3*5)-S(2*3)/(5*5)-S(2)/(3*5) # 17/75
 #################################################
-    # Miglani 14: Triangel i kvadrat. Sök vinkeln
-    pyth(1,x,2) # n0 = E = sqrt(3)
-    pyth(1,2-n0,x) # n1
-    2-n0 1 n1 # t0
-    t0.vertices
-    t0.angles
-    a2*180/pi # acos(1/sqrt((-sqrt(3) + 2)**2 + 1)) # sympy borde svarat 15
+# Miglani 14: Triangel i kvadrat. Sök vinkeln
+pyth(1,x,2) # n0 = E = sqrt(3)
+pyth(1,2-n0,x) # n1
+2-n0 1 n1 # t0
+t0.vertices
+t0.angles
+a2*180/pi # acos(1/sqrt((-sqrt(3) + 2)**2 + 1)) # sympy borde svarat 15
 #################################################
-    # Miglani 15: Teoretisk lösning
+# Miglani 15: Teoretisk lösning
 #################################################
-    # Miglani 16: Två cirklar i en triangel
-    pyth(15,20,x) # n0 = basen = 25
-    prop(15*20/2,1,25*x/2,1) # n1 = 12 (lika areor)
-    pyth(12,x,15) # n2 = 9
-    -n2 0 # p0
-    0 n1 # p1
-    25-n2 0 # p2
-    p0 p1 O # t0
-    O p1 p2 # t1
-    t0.incircle.center # p3
-    t1.incircle.center # p4
-    p3.distance(p4) # 5*sqrt(2)
+# Miglani 16: Två cirklar i en triangel
+pyth(15,20,x) # n0 = basen = 25
+prop(15*20/2,1,25*x/2,1) # n1 = 12 (lika areor)
+pyth(12,x,15) # n2 = 9
+-n2 0 # p0
+0 n1 # p1
+25-n2 0 # p2
+p0 p1 O # t0
+O p1 p2 # t1
+t0.incircle.center # p3
+t1.incircle.center # p4
+p3.distance(p4) # 5*sqrt(2)
 #################################################
 Part 2: https://www.youtube.com/watch?v=6CRioSU1C5c
 #################################################
-    # Miglani 16b Cutting of cone 3D
+# Miglani 16b Cutting of cone 3D
 #################################################
-    # Miglani 17: Rotating 3D
+# Miglani 17: Rotating 3D
 #################################################
-    # Miglani 18: Cube in a sphere 3D
+# Miglani 18: Cube in a sphere 3D
 #################################################
-    # Miglani 19: Hemisphere 3D
+# Miglani 19: Hemisphere 3D
 #################################################
-    # Miglani 20: Find square in a triangle
-    21 17 10 # t0
-    t0.area # n0 = Arean = 84
-    t0.vertices
-    p0.y # n1 = höjden = 8
-    # Fyra delareor, x är den okända kvadratens sida
-    solve((21-x)*x/2+x*x+(n1-x)*x/2-n0,x) # n2 = -168/29
-    # Alternativ lösning:
-    prop(8-x,8,x,21) # n3 = 168/29
+# Miglani 20: Find square in a triangle
+21 17 10 # t0
+t0.area # n0 = Arean = 84
+t0.vertices
+p0.y # n1 = höjden = 8
+# Fyra delareor, x är den okända kvadratens sida
+solve((21-x)*x/2+x*x+(n1-x)*x/2-n0,x) # n2 = -168/29
+# Alternativ lösning:
+prop(8-x,8,x,21) # n3 = 168/29
 #################################################
-    # Miglani 21: triangel i cirkel i kvadrat i kvadrat.
-    pyth(5,5,x) # n0 = 5*sqrt(2)
-    n0/2 # n1 = cirkelns radie = 5*sqrt(2)/2
-    solve(x/sqrt(3)-5/sqrt(2),x) # n2 = 5*sqrt(6)/2
+# Miglani 21: triangel i cirkel i kvadrat i kvadrat.
+pyth(5,5,x) # n0 = 5*sqrt(2)
+n0/2 # n1 = cirkelns radie = 5*sqrt(2)/2
+solve(x/sqrt(3)-5/sqrt(2),x) # n2 = 5*sqrt(6)/2
 #################################################
-    # Miglani 22 Arean av en halv hexagon med sidan 10
-    # Arean av en triangel med sidan 10:
-    10 10 10
-    t0.area # n0 = 25*sqrt(3)
-    # 3 st behövs
-    3*n0 # 75*sqrt(3)
+# Miglani 22 Arean av en halv hexagon med sidan 10
+# Arean av en triangel med sidan 10:
+10 10 10
+t0.area # n0 = 25*sqrt(3)
+# 3 st behövs
+3*n0 # 75*sqrt(3)
 #################################################
-    # Miglani 22b
-    # Dela in i små trianglar
-    S(9)/24 # 3/8
+# Miglani 22b
+# Dela in i små trianglar
+S(9)/24 # 3/8
 #################################################
-    # Miglani 23 ERROR FOUND!
-    6*tan(pi/6) # n0 = 2 * sqrt(3)
-    pyth(6,n0,x) # n1 = 4 * sqrt(3)
-    prop(x+6,5*sqrt(3)+n1,n1,6) # n2 = AD = 12
-    prop(x,n0,n2+6,n1) # n3 = AC = 9
-    n3/n2 # 3/4
-    6 4*sqrt(3) 2*sqrt(3) # t0
-    18 9*sqrt(3) 9 # t1
+# Miglani 23 ERROR FOUND!
+6*tan(pi/6) # n0 = 2 * sqrt(3)
+pyth(6,n0,x) # n1 = 4 * sqrt(3)
+prop(x+6,5*sqrt(3)+n1,n1,6) # n2 = AD = 12
+prop(x,n0,n2+6,n1) # n3 = AC = 9
+n3/n2 # 3/4
+6 4*sqrt(3) 2*sqrt(3) # t0
+18 9*sqrt(3) 9 # t1
 #################################################
-    # Miglani 24
-    20+20+20+10*pi # 10*pi + 60
+# Miglani 24
+20+20+20+10*pi # 10*pi + 60
 #################################################
-    # Miglani 25 ERROR FOUND!
-    pyth(x,x/2,10) # n0 = 4*sqrt(5)
+# Miglani 25 ERROR FOUND!
+pyth(x,x/2,10) # n0 = 4*sqrt(5)
 #################################################
-    # Miglani 26 kvadrat i kvadrant
-    pyth(x,x,10) # n0 = 5*sqrt(2)
+# Miglani 26 kvadrat i kvadrant
+pyth(x,x,10) # n0 = 5*sqrt(2)
 #################################################
-    # Miglani 27 Cirkel i kvadrant
-    pyth(x,x,10-x) # n0 = -10 + 10*sqrt(2)
+# Miglani 27 Cirkel i kvadrant
+pyth(x,x,10-x) # n0 = -10 + 10*sqrt(2)
 #################################################
-    # Miglani 28 Min lösning ej korrekt:
-    N(S(20)/tan(S(180)/14/180*pi))
-    n0 20 # p0
-    n0 -20 # p1
-    O p0 # l0
-    O p1 # l1
-    p0.distance(p1) # n1
-    p1 n1 # c0
-    c0 l0 # p2
-    p2 n1 # c1
-    c1 l1 # p3
-    p3 n1 # c2
-    c2 l0 # p4
-    #p4 n1 # c3
-    #c3 l1 # p5
-    #p5 n1 # c4
-    #c4 l1 # p6
+# Miglani 28 Min lösning ej korrekt:
+N(S(20)/tan(S(180)/14/180*pi))
+n0 20 # p0
+n0 -20 # p1
+O p0 # l0
+O p1 # l1
+p0.distance(p1) # n1
+p1 n1 # c0
+c0 l0 # p2
+p2 n1 # c1
+c1 l1 # p3
+p3 n1 # c2
+c2 l0 # p4
+#p4 n1 # c3
+#c3 l1 # p5
+#p5 n1 # c4
+#c4 l1 # p6
 
-    l1 p0
-    l0 p1
-    l1 p2
-    l0 p3
-    l1 p4
+l1 p0
+l0 p1
+l1 p2
+l0 p3
+l1 p4
 #################################################
-    # Miglani 29 Parallella motstånd
-    S(1)/(S(1)/30+S(1)/45) # 18
+# Miglani 29 Parallella motstånd
+S(1)/(S(1)/30+S(1)/45) # 18
 #################################################
-    # Miglani 30 Teori
+# Miglani 30 Teori
 #################################################
-
-
-
