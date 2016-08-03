@@ -25,15 +25,15 @@ def mysolver(sequence):
         solution = solve(eqs,letters[:n]+[z])
         if checkAll(solution,sequence): return solution
 
-assert mysolver([1,1,1]) == {z: 1}
-assert mysolver([2,2,2]) == {z: 2}
-assert mysolver([1,2,3,4,5]) == {a: 1, z: 1}
-assert mysolver([2,4,6,8,10]) == {a: 1, z: 2}
-assert mysolver([1,2,4,8]) == {a: 2, z:0}
-assert mysolver([2,3,5,9]) == {a: 2, z: -1}
+assert mysolver([1,1]) == {z: 1}
+assert mysolver([2,2]) == {z: 2}
+assert mysolver([1,2,3]) == {a: 1, z: 1}
+assert mysolver([2,4,6]) == {a: 1, z: 2}
+assert mysolver([1,2,4]) == {a: 2, z:0}
+assert mysolver([2,3,5]) == {a: 2, z: -1}
 assert mysolver([1,10,100]) == {a: 10, z:0}
 assert mysolver([0,9,99]) == {a: 10, z: 9}
-assert mysolver([1,11,111,1111,11111]) == {a: 10, z:1}
-assert mysolver([1,1,2,3,5,8]) == {a: 1, b: 1, z:0}
-assert mysolver([3,5,9,17,33]) == {a: 2, z: -1}
-assert mysolver([1,5,17,45,105,237,537,1229,2825,6493,14905,34189,78409,179837]) == {a: 2, b: 0, c: -2, d: 3, z: 2}
+assert mysolver([1,11,111]) == {a: 10, z:1}
+assert mysolver([1,1,2,3,5]) == {a: 1, b: 1, z:0}
+assert mysolver([3,5,9]) == {a: 2, z: -1}
+assert mysolver([1,5,17,45,105,237,537,1229,2825]) == {a: 2, b: 0, c: -2, d: 3, z: 2}
