@@ -5,6 +5,8 @@
 // acc ownership avgörs av väster eller öster om x=500
 
 // TODO ==============================
+// Play ska visa möjliga drag direkt
+// Känn av connection color då drag utförs.
 // Spara json
 // vända på connections. två färger.
 // connection delete 
@@ -22,7 +24,7 @@
 //        Ingen stöld
 //        Stöld om sista pit innehåller två eller tre
 //        Stöld om sista pit är tom
-// Regel: Vad händer med stenarna då man inte kan flytta?
+// Regel: Vad händer med stenarna då man inte kan flytta? Vem får dem?
 
 PIT = 0
 CONN = 1
@@ -38,19 +40,19 @@ PIT_TYPE = 1
 PIT_RADIUS = 50
 ACC_RADIUS = 65
 
+var buttons = []
 var colSlider
 var sliders = []
-var buttons = [[]]
 var mode = PIT
-var pits = []  // bara Pits 
+var pits = []  // Two Accumulators and Pits
 var selected = -1
 var mymouseX = 0 
 var mymouseY = 0
-var hand = []
+var hand = []    // stones from starting pit
 var hist = []    // list of pit indexes
 var turn = 0     // 0 = Human, 1 = Computer
 var legals = []  // list of possible moves
-var colors = []
+var colors = []  // list of size colors
 
 kalaha = { 
     stones : [4,0],
@@ -97,6 +99,11 @@ jinjala = {
       {type:1, x:950, y:800, stones:[2,2], neighbours:[0],     colors:[0]},   // 15
       ],
   }
+  
+function logg(prompt, value)  {
+  console.log(prompt )
+  console.log(value.toString())
+}
 
 function Pit(x,y,stones,type) {
   this.x = x
@@ -123,11 +130,12 @@ function conn() { mode = CONN }
 function steal() { mode = STEAL }
 function del() { mode = DEL }
 function sel() { mode = SEL }
-function play() { mode = PLAY; hand[0] = 0 }
+function play() { mode = PLAY; hand=[] }
 
 function undo() {
+  var a
   if (hist.length > 2) {
-    var a = hist.pop()
+    a = hist.pop()
 //    var b = hist[hist.length - 1]
     pits[a].stones[0]--
     hand[0]++
@@ -175,7 +183,7 @@ function legalMove(from,to) {
 }
 
 function legalMoves() {
-  res = []
+  var res = []
   for (var i=0; i<pits.length; i++) {
     if (legalMove(i,i)) res.push(i)
     //var pit = pits[i]
@@ -200,9 +208,13 @@ function makeSlider(x,y,mini,maxi,val) {
   return slider
 }
 
+function last(lst) {
+  return lst[lst.length-1]
+}
+
 function setup() {
-  //data = kalaha
-  data = jinjala
+  //var data = kalaha
+  var data = jinjala
 
   colors.push(color(255,0,0))
   colors.push(color(0,255,0))
@@ -213,21 +225,29 @@ function setup() {
   
   createCanvas(1000, 1000)
   background(128)
-  textSize(15)
+  textSize(20)
 
-  y = 20
-  buttons.push(makeButton(50,y,'Pit',pit))
-  buttons.push(makeButton(100,y,'Conn',conn))
-  buttons.push(makeButton(150,y,'Steal',steal))
-  buttons.push(makeButton(200,y,'Del',del))
-  buttons.push(makeButton(250,y,'Sel',sel))
-  buttons.push(makeButton(300,y,'Play',play))
-  buttons.push(makeButton(350,y,'Undo',undo))
+  var x = 20
+  var y = 20
+  buttons.push(makeButton(x,y,'Pit',pit))
+  x+= last(buttons).width+10
+  buttons.push(makeButton(x,y,'Conn',conn))
+  x+= last(buttons).width+10
+  buttons.push(makeButton(x,y,'Steal',steal))
+  x+= last(buttons).width+10
+  buttons.push(makeButton(x,y,'Del',del))
+  x+= last(buttons).width+10
+  buttons.push(makeButton(x,y,'Sel',sel))
+  x+= last(buttons).width+10
+  buttons.push(makeButton(x,y,'Play',play))
+  x+= last(buttons).width+10
+  buttons.push(makeButton(x,y,'Undo',undo))
+  x+= last(buttons).width+10
   
   colSlider = makeSlider(400,y,1,2,data.stones.length)
   sliders = []
-  for (var i=0; i<2; i++) {
-    sliders.push(makeSlider(600+i*200,y,0,10,4))
+  for (var i=0; i<data.stones.length; i++) {
+    sliders.push(makeSlider(600+i*200,y,0,10,data.stones[i]))
   }
 
   colSlider.input(changeSliders)
@@ -239,7 +259,7 @@ function setup() {
   
   for (var i=0; i<data.pits.length; i++) {
     var dp = data.pits[i]
-    p = new Pit(dp.x, dp.y, dp.stones, dp.type)
+    var p = new Pit(dp.x, dp.y, dp.stones, dp.type)
     p.neighbours = dp.neighbours
     p.colors = dp.colors
     pits.push(p)
@@ -254,7 +274,7 @@ function changeSliders() {
 }
 
 function sliderList() {
-  res = []
+  var res = []
   for (var i = 0; i < sliders.length; i++) {
     res.push(sliders[i].value())
   }
@@ -262,8 +282,8 @@ function sliderList() {
 }
 
 function dist(x1,y1,x2,y2) {
-  dx = x1-x2
-  dy = y1-y2
+  var dx = x1-x2
+  var dy = y1-y2
   return Math.sqrt(dx*dx+dy*dy)
 }
 
@@ -273,7 +293,7 @@ function inRect(x,y,rx,ry,rw,rh) {
 
 function find(x,y) {
   for (var i=0; i<pits.length; i++) {
-    pit = pits[i]
+    var pit = pits[i]
     if (pit) {
       if (dist(pit.x,pit.y,x,y) < pit.radius/2) return i
     }
@@ -310,7 +330,7 @@ function mousePressed() {
     selected = find(mouseX,mouseY)
   } else if (mode == PLAY) {
     selected = find(mouseX,mouseY)
-    if (hand == [0,0]) { pickUp() } else lay()
+    if (hand.length==0) { pickUp() } else lay()
   }
 }
 
@@ -325,7 +345,8 @@ function drawpit(n) {
   }
   
   // rita själva piten
-  fill(0)
+  fill(100)
+  strokeWeight(2)
   ellipse(pit.x, pit.y, pit.radius, pit.radius)
   
   // visa antal stenar
@@ -333,23 +354,23 @@ function drawpit(n) {
   if (colSlider.value()==1) {
     fill(colors[0]); text(pit.stones[0], pit.x, pit.y)
   } else if (colSlider.value()==2) {
-    fill(colors[0]); text(pit.stones[0], pit.x, pit.y-8)
-    fill(colors[1]); text(pit.stones[1], pit.x, pit.y+8)
+    fill(colors[0]); text(pit.stones[0], pit.x, pit.y-11)
+    fill(colors[1]); text(pit.stones[1], pit.x, pit.y+11)
   }
 }
 
 // Rita riktning för connection
 function drawdirection(n) {
   stroke(n==selected ? 255 : 0)
-  pit = pits[n]
+  var pit = pits[n]
   for (var i=0; i<pit.neighbours.length; i++) {
     var nb = pit.neighbours[i]
-    p1 = pit 
-    p2 = pits[nb]
+    var p1 = pit 
+    var p2 = pits[nb]
     if (p2) {
-      d = dist (p1.x,p1.y,p2.x,p2.y)
-      x = map(pit.radius/2,0,d,p1.x,p2.x)
-      y = map(pit.radius/2,0,d,p1.y,p2.y)
+      var d = dist (p1.x,p1.y,p2.x,p2.y)
+      var x = map(p2.radius/2+8,0,d,p2.x,p1.x)
+      var y = map(p2.radius/2+8,0,d,p2.y,p1.y)
       stroke(0)
       ellipse(x,y,10,10)
     }
@@ -364,7 +385,7 @@ function drawconnection(n) {
     var p1 = pit 
     var p2 = pits[nb]
     if (p2) {
-      //console.log(pit.colors[i])
+      strokeWeight(5)
       stroke(colors[pit.colors[i]])  
       line(p1.x,p1.y,p2.x,p2.y)
     }
@@ -372,7 +393,16 @@ function drawconnection(n) {
 }
 
 function drawHand() {
-  noStroke(); fill(255,255,0); textAlign(CENTER,CENTER); text(hand, 20, 700)
+  if (hand.length==0) return
+  noStroke(); textAlign(CENTER,CENTER); 
+  var x = width/2
+  var y = height/2
+  if (colSlider.value()==1) {
+    fill(colors[0]); text(hand[0], x, y)
+  } else if (colSlider.value()==2) {
+    fill(colors[0]); text(hand[0], x, y-11)
+    fill(colors[1]); text(hand[1], x, y+11)
+  }
 }
 
 function drawTexts() {
@@ -384,6 +414,14 @@ function drawTexts() {
   }
 }
 
+function indicateMode() {
+  stroke(0)
+  strokeWeight(3)
+  fill(0)
+  var y = 45
+  line(buttons[mode].x,y,buttons[mode].x+buttons[mode].width,y)
+}
+
 function draw() {
   background(128)
   
@@ -391,8 +429,7 @@ function draw() {
   //fill(40,120,40); noStroke(); rect(200,2*height/5,width,height/5)
   line(0,500,1000,500)
   
-  // indicate mode with small black circle
-  stroke(0); fill(0); line(50*(mode+1),50,50*(mode+2),50)
+  indicateMode()
   
   legals = legalMoves()
 
