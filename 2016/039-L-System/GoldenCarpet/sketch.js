@@ -1,24 +1,28 @@
 // Fraktal matta baserad på fibonaccital
 
 //var arrlen = [10946,6765,4181,2584,1597,987,610,377,233,144,89,55,34,21,13,8,5,3,2,1,1]
-var arrlen = [144,89,55,34,21,13,8,5,3,2,1,1]
+var arrlen = [233,144,89,55,34,21,13,8,5,3,2,1,1]
 var xo=0
 var yo=0
 var points = {}
 var factor=1
 
 function mytranslate(dx,dy) {
-  xo = round(xo+dx)
-  yo = round(yo+dy)
+  xo += dx
+  yo += dy
   translate(dx,dy)
 }
 
 function setpoint(angle, size) {
-  x = round(xo + size*cos(angle*HALF_PI))
-  y = round(yo + size*sin(angle*HALF_PI))
+  x = xo 
+  y = yo 
+  if (angle==0) { x+=size } 
+  else if (angle==1) { y+=size }
+  else if (angle==2) { x-=size } 
+  else if (angle==3) { y-=size }
   key = x.toString() + "," + y.toString()
   if (!(key in points)) points[key] = [x,y,0]
-  points[key][2] |= Math.pow(2,angle)      //för binära flaggor
+  points[key][2] |= 1<<angle      
 }
 
 function generation(size) {
@@ -35,7 +39,6 @@ function generation(size) {
       rotate(HALF_PI)
     }
   }
-  console.log(Object.keys(points).length)
 }
 
 function setup() {
@@ -45,8 +48,5 @@ function setup() {
   stroke(0)
   mytranslate(width/2,height/2)
   points["640,640"] = [xo,yo,0]
-  for (var g=0; g<5; g++) {
-    console.log("Generation " + (g+1).toString() + ": ")
-    generation(arrlen[g])  // 13
-  }
+  for (var g=0; g<13; g++) generation(arrlen[g])  // 13
 }

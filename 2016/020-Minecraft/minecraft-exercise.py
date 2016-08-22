@@ -198,9 +198,9 @@ class Model(object):
         for z in xrange(-n, n + 1):
             texture = [SAND,GRASS][z%2]
             self.add_block((0, -1, z), texture, immediate=False)
-        self.add_block((0, -1, 1), STONE, immediate=False)
-        self.add_block((0, -1, 0), STONE, immediate=False)
-        self.add_block((1, -1, 0), STONE, immediate=False)
+       # self.add_block((0, -1, 1), STONE, immediate=False)
+    #self.add_block((0, -1, 0), STONE, immediate=False)
+     #   self.add_block((1, -1, 0), STONE, immediate=False)
 
     def exposed(self, position):
         x, y, z = position

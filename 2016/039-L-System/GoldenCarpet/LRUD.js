@@ -1,3 +1,7 @@
+// Fungerar ej.
+// Man måste ha med riktningsbitarna 1+2+4+8 i databasen.
+// Dessutom måste man köra varje generation för sig
+
 var arrlen = [89,55,34,21,13,8,5,3,2,1,1]
 var stack = [[500,500]] // of [x,y]
 var hist = "" // of L,R,U,D
@@ -61,6 +65,8 @@ function interpret() {
 function setup() {
   createCanvas(1000,1000)
   stroke(0,100)
+  console.log(generate(2))
+  console.log(generate(3))
   s = generate(5)
   interpret()
 }

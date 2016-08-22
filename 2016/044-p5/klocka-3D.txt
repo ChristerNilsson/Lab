@@ -1,0 +1,14 @@
+Klocka 3D
+
+Du behöver följande:
+
+torus(radius, tubeRadius)
+cylinder(radius,height)
+box(width,height,depth)
+
+Istället för rotate() använder du:
+  rotateX(radians)
+  rotateY(radians)
+  rotateZ(radians)
+  
+mouseX, mouseY

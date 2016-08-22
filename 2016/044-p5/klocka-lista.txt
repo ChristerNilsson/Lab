@@ -1,8 +1,8 @@
 // 044 klocka-lista
 // Ritar flera analoga klockor
 
-Skapa en stor lista som innehåller fem små listor.
-De små listorna innehåller x,y och storlek.
+Skapa en stor lista som innehÃ¥ller fem smÃ¥ listor.
+De smÃ¥ listorna innehÃ¥ller x,y och storlek.
 
 Exempel:
 
@@ -10,7 +10,7 @@ Exempel:
   klockor.push([1000,1000,5])
   klockor.push([400,400,0.8])
 
-Rita med följande kod:
+Rita med fÃ¶ljande kod:
 
   for (klocka of klockor) rita(klocka)
 
