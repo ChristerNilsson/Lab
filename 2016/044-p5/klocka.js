@@ -1,6 +1,5 @@
-// Ritar en analog klocka
 
-// - rita minut och timvisare som rör sig jämnt
+// Ritar en analog klocka
 
 function setup() { 
   createCanvas(600,600) 
@@ -12,7 +11,7 @@ function setup() {
 function urtavla() {
   noFill()
   ellipse(0,0,440,440)
-  for (var i of _.range(60)) {
+  for (var i=0; i<60; i++) {
     strokeWeight(i%5==0 ? 3 : 1)
     line(i%5==0 ? 210 : 200,0,220,0)
     rotate(6)

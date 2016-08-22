@@ -1,18 +1,16 @@
 // 044 klocka-object
 // Ritar analoga klockor, objektorienterat
 
-// - rita minut och timvisare som inte hoppar
-
 function setup() { 
   createCanvas(600,600) 
   angleMode(DEGREES)
   stroke(0)
-  klockor=[]
+  klockor = []
   klockor.push(new Klocka(1000,1000,5))
-  klockor.push(new Klocka(400,400,0.8))
-  klockor.push(new Klocka(100,100,0.3))
-  klockor.push(new Klocka(200,100,0.1))
-  klockor.push(new Klocka(400,100,0.05))
+  klockor.push(new Klocka(400,  400,0.8))
+  klockor.push(new Klocka(100,  100,0.3))
+  klockor.push(new Klocka(200,  100,0.1))
+  klockor.push(new Klocka(400,  100,0.05))
 }
 
 function Klocka (x,y,storlek) {

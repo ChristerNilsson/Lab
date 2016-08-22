@@ -5,7 +5,7 @@ function setup() {
 }
 
 function urtavla() {
-  torus(400,10,60)
+  torus(400,10)
   for (var i of _.range(60)) {
     push()
     if (i%5==0) {

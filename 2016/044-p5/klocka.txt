@@ -2,7 +2,7 @@ Klocka
 
 Skapa en analog klocka.
 
-Du behöver: (googla på "p5 reference")
+Du behÃ¶ver: (googla pÃ¥ "p5 reference")
  second() minute() hour()
  line(x1,y1,x2,y2)
  translate(x,y)
@@ -13,14 +13,14 @@ Du behöver: (googla på "p5 reference")
  map(x,x1,x2,y1,y2)
  push() pop()
 
-Välj utvecklingsmiljö:
+VÃ¤lj utvecklingsmiljÃ¶:
 - p5.js 
-- codepen.io (Här kan du dela med dig till alla)
+- codepen.io (HÃ¤r kan du dela med dig till alla)
 
-Färger:
-fill(color) anger färger som täcker ytor, t ex cirklar.
-stroke(color) anger omkretsens färg.
+FÃ¤rger:
+fill(color) anger fÃ¤rger som tÃ¤cker ytor, t ex cirklar.
+stroke(color) anger omkretsens fÃ¤rg.
 color kan vara 0 (svart) till 255 (vit) eller r,g,b = 0-255,0-255,0-255
-En fjärde parameter styr genomskinligheten
-Exempel: stroke(255,255,0,128) ger en gul omkrets som är halvt genomskinlig.
-Dessutom kan man välja colorMode RGB eller HSB
+En fjÃ¤rde parameter styr genomskinligheten
+Exempel: stroke(255,255,0,128) ger en gul omkrets som Ã¤r halvt genomskinlig.
+Dessutom kan man vÃ¤lja colorMode RGB eller HSB

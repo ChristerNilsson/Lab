@@ -2,6 +2,8 @@
 
 import math
 import time
+import random
+import winsound
 
 import pygame
 
@@ -149,21 +151,21 @@ ass(cos(315), 1/math.sqrt(2))
 ass(cos(330), math.sqrt(3)/2)
 
 
-# def rotate(px, py, angle):
-#     # Roterar en punkt (px,py) moturs runt origo, givet en vinkel i grader
-#     # Du behöver använda addition, subtraktion, multiplikation samt sinus och cosinus.
-#     a = math.radians(angle)
-#     qx = 00
-#     qy = 00
-#     return qx, qy
-# ass_point(rotate(0,0,0), (0,0))
-# ass_point(rotate(0,0,90), (0,0))
-# ass_point(rotate(1,0,90), (0,1))
-# ass_point(rotate(2,0,90), (0,2))
-# ass_point(rotate(1,0,180), (-1,0))
-# ass_point(rotate(1,0,270), (0,-1))
-# ass_point(rotate(1,0,45), (0.707107,0.707107))
-# ass_point(rotate(1,0,60), (0.5,math.sqrt(3)/2))
+def rotate(x, y, angle):
+    # Roterar en punkt (px,py) moturs runt origo, givet en vinkel i grader
+    # Du behöver använda addition, subtraktion, multiplikation samt sinus och cosinus.
+    a = math.radians(angle)
+    qx = x * math.cos(a) - y * math.sin(a)
+    qy = x * math.sin(a) + y * math.cos(a)
+    return qx, qy
+ass_point(rotate(0,0,0), (0,0))
+ass_point(rotate(0,0,90), (0,0))
+ass_point(rotate(1,0,90), (0,1))
+ass_point(rotate(2,0,90), (0,2))
+ass_point(rotate(1,0,180), (-1,0))
+ass_point(rotate(1,0,270), (0,-1))
+ass_point(rotate(1,0,45), (0.707107,0.707107))
+ass_point(rotate(1,0,60), (0.5,math.sqrt(3)/2))
 
 class QuadCopter():
     def __init__(self, gp):
@@ -175,9 +177,23 @@ class QuadCopter():
         gp = self.gp
         x,y,z = self.position
         speed = dt * MAX_SPEED
+
         dz = gp.pitch * speed
-        z += dz
+        dy = -gp.thrust * speed
+        dx = gp.roll * speed
+
+        dx,dz = rotate(dx,dz,self.angle)
+
+        y += dy
+        if y > 0.1:
+            z += dz
+            x += dx
+        self.angle += gp.yaw * 0.1
+
+        if y<0: y=0
+
         self.position = (x,y,z)
+
 
 class Model(object):
 
@@ -193,14 +209,26 @@ class Model(object):
         self._initialize()
         self.quadcopter = QuadCopter(gp)
 
+        self.start = 0
+        self.stopp = 0
+        self.count = 0
+
     def _initialize(self):  #01#  #05#  #07#  #09#
-        n = 2
+        n = 20
         for z in xrange(-n, n + 1):
-            texture = [SAND,GRASS][z%2]
-            self.add_block((0, -1, z), texture, immediate=False)
-       # self.add_block((0, -1, 1), STONE, immediate=False)
-    #self.add_block((0, -1, 0), STONE, immediate=False)
-     #   self.add_block((1, -1, 0), STONE, immediate=False)
+            for x in xrange(-n, n + 1):
+                texture = [SAND,GRASS][random.randint(0,1)]
+                self.add_block((x, -1, z), texture, immediate=False)
+        self.add_block((0, -1, 1), STONE, immediate=False)
+        self.add_block((0, -1, 0), STONE, immediate=False)
+        self.add_block((1, -1, 0), STONE, immediate=False)
+        for i in range(10):
+            x = random.randint(-n,n+1)
+            z = random.randint(-n,n+1)
+            y = random.randint(0,10)
+            self.add_block((x,y,z), BRICK, immediate=False)
+            self.add_block((x,-1,z), STONE, immediate=False)  # skugga
+
 
     def exposed(self, position):
         x, y, z = position
@@ -325,7 +353,9 @@ class Window(pyglet.window.Window):
         self.labels = []
 
         for y in [10,40,70]:  #04#
-            self.labels.append(pyglet.text.Label('', font_name='Arial', font_size=18, x=10, y=self.height - y, anchor_x='left', anchor_y='top', color=(0, 0, 0, 255)))
+            self.labels.append(pyglet.text.Label('', font_name='Arial', font_size=18, x=10,\
+                                                 y=self.height - y, anchor_x='left', anchor_y='top', \
+                                                 color=(0, 0, 0, 255)))
 
         pyglet.clock.schedule_interval(self.update, 1.0 / TICKS_PER_SEC)
 
@@ -341,6 +371,17 @@ class Window(pyglet.window.Window):
         dt = min(dt, 0.2)
         for _ in xrange(m):
             self._update(dt / m)
+
+        qc = self.model.quadcopter
+        key = normalize(qc.position)
+        if key in self.model.world:
+            self.model.remove_block(key)
+            winsound.PlaySound('laser.wav', winsound.SND_FILENAME)
+            self.model.count += 1
+            if self.model.count==1:
+                self.model.start = time.time()
+            if self.model.count==10:
+                self.model.stopp = time.time()
 
     def _update(self, dt):  #06#  #06.5#  #08#
         qc = self.model.quadcopter
@@ -396,9 +437,17 @@ class Window(pyglet.window.Window):
         qc = self.model.quadcopter
         gp = qc.gp
         x, y, z = qc.position
-        self.labels[0].text = 'z=%.2f' % (z)
-        self.labels[1].text = 'pitch=%.2f' % (gp.pitch)
-        self.labels[2].text = 'fps=%02d' % (pyglet.clock.get_fps())
+        self.labels[0].text = 'x=%.2f y=%.2f z=%.2f a=%.2f' % (x,y,z,qc.angle)
+        self.labels[1].text = 'thrust=%.2f yaw=%.2f pitch=%.2f roll=%.2f' % (gp.thrust, gp.yaw, gp.pitch, gp.roll)
+        if self.model.count==0:
+            self.labels[2].text = 'fps=%02d count=%02d' % (pyglet.clock.get_fps(), self.model.count)
+        elif self.model.count==10:
+            self.labels[2].text = 'fps=%02d count=%02d tid=%.3f' % (pyglet.clock.get_fps(), self.model.count, \
+                                                                    self.model.stopp-self.model.start)
+        else:
+            self.labels[2].text = 'fps=%02d count=%02d tid=%.3f' % (pyglet.clock.get_fps(), self.model.count, \
+                                                                    time.time()-self.model.start)
+
         for label in self.labels: label.draw()
 
     def draw_reticle(self):  # hårkors
@@ -416,6 +465,7 @@ def main():
     setup()
     pyglet.app.run()
 
+#random.seed(4711)
 if not CPU:
     pygame.init()
 main()

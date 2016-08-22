@@ -38,10 +38,10 @@ function rita(klocka) {
   push()
   translate(x,y)
   scale(storlek)
-  this.urtavla()
-  this.visare(second(),60,200,5)
-  this.visare(minute()+second()/60.0,60,200,10)
-  this.visare(hour()+minute()/60.0,12,150,10)
+  urtavla()
+  visare(second(),60,200,5)
+  visare(minute()+second()/60.0,60,200,10)
+  visare(hour()+minute()/60.0,12,150,10)
   pop()
 }
 
