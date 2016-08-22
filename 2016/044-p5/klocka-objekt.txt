@@ -1,0 +1,12 @@
+Klocka-objekt
+
+Ritar flera klockor i olika storlekar
+
+Du behöver:
+ scale(flyttal)
+ this.
+ 
+Skapa en funktion som skapar en Klocka
+Ange x,y och storlek som parametrar.
+Du behöver tre metoder: urtavla(), visare() samt rita()
+Lägg fem klockor i en lista och rita ut dem.
