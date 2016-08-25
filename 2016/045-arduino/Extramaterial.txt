@@ -1,0 +1,28 @@
+NIM-dator
+ 
+  5x7 matris
+  2 knappar
+
+  Man kan välja en av fem högar med 0-63 stickor.
+
+Shortcut
+
+  Två 7-segmentdisplayer eller en 5x7 (2 st 3x5 font, 00-99).
+  4 knappar.
+    +2
+    *2
+    /2
+    Show target
+
+Pong
+  https://www.youtube.com/watch?v=lvAlKH5SzYk
+
+Tetris
+  https://www.youtube.com/watch?v=6Kt2A1aB3o4
+
+Rubik Square
+  8x8 matrix 
+    1 1 1 01 0 01 0 01
+    2 2 2 11 0 11 0 11
+    3 3 3 12 0 12 0 12
+  12 push buttons (3*left 3*right 3*up 3*down)
