@@ -8,9 +8,9 @@ void setup() {
 
 void skicka(int on, int off) {
   digitalWrite(13, HIGH);  // turn the LED on (HIGH is the voltage level)
-  delay(on*unit);               // wait for on millis
+  delay(on*unit);          // wait for on millis
   digitalWrite(13, LOW);   // turn the LED off by making the voltage LOW
-  delay(off*unit);              // wait for off millis    
+  delay(off*unit);         // wait for off millis    
 }
 
 void sendLetter(String dd) {
