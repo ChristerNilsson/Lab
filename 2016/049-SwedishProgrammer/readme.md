@@ -1,8 +1,8 @@
 # Swedish Programmer Keyboard
 
-Alla US tangenter sitter som på originalet.
-ÅÄÖ hittas under Alt+ qwe 
-åäö hittas under Alt+ asd
+* Alla US tangenter sitter som på originalet.
+* ÅÄÖ hittas under Alt+ qwe 
+* åäö hittas under Alt+ asd
 
 Detta är inte optimalt. De borde sitta under qwe enbart och shiftas.
 Caps Lock måste också fungera som det ska.
