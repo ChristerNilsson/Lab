@@ -1,3 +1,3 @@
 # Polynom
 
-add mul value diff integ
+add mul value diff integ power compose
