@@ -1,3 +1,3 @@
-# Polynom
+# Gamepad
 
-add mul value diff integ
+How to use the gamepad from the browser
