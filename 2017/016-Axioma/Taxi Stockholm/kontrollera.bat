@@ -1,0 +1,2 @@
+@ruby kontrollera.rb
+@pause
