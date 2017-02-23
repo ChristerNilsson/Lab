@@ -4,10 +4,8 @@ symbolSize = 14
 
 setup = -> 
 	createCanvas window.innerWidth, window.innerHeight
-	x = 0
-	for i in range width / symbolSize
+	for x in range 0,width,symbolSize
 		streams.push new Stream x, random -2000, 0
-		x += symbolSize
 	textFont 'Consolas'
 	textSize symbolSize
 
