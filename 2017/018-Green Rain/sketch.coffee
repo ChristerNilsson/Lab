@@ -1,5 +1,5 @@
 streams = []
-fadeInterval = 1.6
+fade = 0.95
 symbolSize = 14
 
 setup = -> 
@@ -10,9 +10,8 @@ setup = ->
 	textSize symbolSize
 
 draw = ->
-	bg 0
-	for stream in streams
-		stream.render()
+	background 0
+	stream.render() for stream in streams
 
 class Stream
 	constructor : (@x,@y) ->
@@ -21,12 +20,11 @@ class Stream
 			@symbols += String.fromCharCode 0x30A0 + round random 96
 		@speed = random 5, 22
 	render : () ->
-		opacity = 1
+		opacity = 255
 		y = @y
 		for symbol,i in @symbols
-			opacity -= 1 / @symbols.length / fadeInterval
-			if i==0 then fc 0.55, 1, 0.67, opacity
-			else fc 0, 1, 0.27, opacity
+			opacity *= fade
+			if i==0 then fill 140, 255, 170, opacity else fill 0, 255, 70, opacity
 			text symbol, @x, y
 			y -= symbolSize
-			@y = if @y >= height+35*symbolSize then 0 else @y + @speed/10
+		@y = if @y >= height+35*symbolSize then 0 else @y + @speed
