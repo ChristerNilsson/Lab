@@ -7,7 +7,7 @@ engine = null
 world = null
 things = []
 cols = 22
-rows = 10
+rows = 12
 
 setup = ->
   createCanvas 1200, 800
@@ -28,8 +28,8 @@ setup = ->
   things.push new Boundary 0, height/2, 5, height
   things.push new Boundary width, height/2, 5, height
 
-  for i in range 2*cols+1
-    things.push new Boundary i * spacing/2, height - 100 / 2, 2, 100
+  for i in range 4*cols+1
+    things.push new Boundary i * spacing/4, height - 100 / 2, 2, 100
 
 newParticle = -> things.push new Particle width/2, 0, 5
 
