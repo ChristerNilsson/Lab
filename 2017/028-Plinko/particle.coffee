@@ -1,15 +1,8 @@
 class Particle
   constructor : (x, y, @r) ->
-    @hue = random 360
-    options = {
-      restitution: 0.5,
-      friction: 0,
-      density: 1
-    }
     x += random -1, 1
-    @body = Bodies.circle x, y, @r, options
-    @body.label = "particle"
-    World.add world, this.body
+    @body = Bodies.circle x, y, @r, {restitution: 0.5,friction: 0,density: 1}
+    World.add world, @body
 
   isOffScreen : () ->
     x = @body.position.x;
@@ -17,10 +10,5 @@ class Particle
     x < -50 || x > width + 50 || y > height
 
   show : () ->
-    fill @hue, 255, 255
-    noStroke()
     pos = @body.position
-    push()
-    translate pos.x, pos.y
-    ellipse 0, 0, @r * 2
-    pop()
+    ellipse pos.x, pos.y, @r * 2
