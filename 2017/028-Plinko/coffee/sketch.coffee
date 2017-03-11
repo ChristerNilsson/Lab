@@ -11,13 +11,11 @@ rows = 10
 
 setup = ->
   createCanvas 1200, 800
-  fill 255
-  noStroke()
   rectMode CENTER
   engine = Engine.create()
   world = engine.world
-  world.gravity.y = 0.1;
-  newParticle();
+  world.gravity.y = 0.1
+  newParticle()
   spacing = width / cols
   for j in range rows
     for i in range cols+1

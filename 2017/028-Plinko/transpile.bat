@@ -1,1 +1,1 @@
-coffee -M -b -o . -cw .
+coffee --join project.js -M -b -o . -cw coffee

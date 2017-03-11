@@ -1,25 +1,17 @@
-# Mall
+# Plinko
 
-* Kopiera denna mha Clone or Download
-* Välj Download .Zip 
-* Packa upp innehållet och spara i en egen katalog med namnet Mall
-* Kopiera katalogen Mall varje gång du startar ett nytt projekt.
+Efter Shiffman
 
-Förklaring
+transpile.bat:
 
-* Libraries innehåller bl a p5-filer.
-* index.html används när man vill köra programmet i Google Chrome.
-* sketch.coffee innehåller din kod. Redigera t ex med Sublime.
-* sketch.js skapas automatiskt av transpile.bat
-* transpile.bat måste du alltid starta. Den översätter .coffee till .js
+Har testat att kompilera allt till project.js.
 
-Arbetsgång
+Fördelar:
 
-* Ändra i sketch.coffee
-* Ctrl-S sparar filen.
-* Transpile kompilerar automatiskt. Ett ljud hörs om du skriver något otillåtet.
-* Refresha Chrome.
+- index.html behöver bara uppdateras om libraries utökas.
+- färre js-filer att hålla reda på.
 
-Att tänka på
+Nackdelar:
 
-* Om du skapar flera filer, glöm inte att uppdatera index.html.
+- Man ser inte vilken fil en viss kodrad hör hemma i, i debuggern.
+- --join switchen är deprecated.
