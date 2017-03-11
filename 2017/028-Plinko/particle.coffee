@@ -1,7 +1,7 @@
 class Particle
   constructor : (x, y, @r) ->
     x += random -1, 1
-    @body = Bodies.circle x, y, @r, {restitution: 0.5,friction: 0,density: 1}
+    @body = Bodies.circle x, y, @r, {restitution: 0.5, friction: 0, density: 1}
     World.add world, @body
 
   isOffScreen : () ->
