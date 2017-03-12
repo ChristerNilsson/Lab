@@ -1,0 +1,825 @@
+~/ SAMPERS MACRO: UtbudRegBil_v12.Mac
+~/
+~/ OBS - eftersom scenario p1 anv‰nds fˆr ber‰kning av fˆrst hˆgtrafik och 
+~/  d‰refter lÂgtrafik sÂ ‰r det "path-filer" fˆr lÂgtrafik som ‰r sparade
+~/  fˆr scenario p1
+~/ 
+~/ Willy Andersson 19/1-99
+~/ Reviderat av Peter Roming 990607
+~/ Rev 020417 Per Kjellman
+~/ rev andelar 020531 PK
+~/ rev 030618 LJ, assignment med generaliserad kostnad
+~/ rev 040623 LJ, ‰ndrade variabelv‰rden @ttid, ul3, up3
+~/ rev 040908 LJ, ‰rendeuppdelade variabelv‰rden @ttid1 och @ttid2
+~/ rev 040908 LJ, ber‰kning av v‰gavgiftmatris m h a kostnader @avg1 och @avg2
+~/ rev 060718 LJ, ‰ndrade avbrottskriterier assignment till 50, 0.1, 0
+~/ rev 071217 LJ, revidering av makro fˆr generell hantering av v‰gavgifter
+~/ rev 080104 LJ, tempor‰rlagring av restid pÂ l‰nk hanteras via 
+~/                extraattribut @rtid (istf ul3)
+~/ rev 080422 LJ, fˆr‰ndrad hantering av krans- och fj‰rromrÂden,
+~/                utbudsber‰kning i dessa relationer gˆrs med 
+~/                minimal resefterfrÂgan (v‰rde 0.000001) 
+~/
+~/ rev 091202 Willy Andersson, WSP Analys & Strategi
+~/                Byte av assignmentmetod frÂn mod 5.11 och 5.21
+~/                till mod 5.25 och 6.16
+~/                Fˆljande parametrar ‰r hÂrdkodade i 5.25 assignment och kan
+~/                ‰ndras av anv‰ndare efter behov.
+~/                 - minimum demand per O_D pair = 0.001
+~/                 - maximum memory for paths = 2000 MB
+~/                 - path costs equality tolerance           (def 0.0010)
+~/                 - refinment iterations                    (def=30)
+~/                 - refined proportion                      (def=0.000010)
+~/                 - compute gaps every ( x) iterations      (def=5)
+~/                 - max iteration number                    (def=50)
+~/                 - stopping criterion for best leative gap (def=0.01000)
+~/                 - stopping criterion for relative gap     (def=0.0001000)
+~/                 - stopping criterion for normalized gap   (def=0.001000)
+~/
+~/                OBS "maximum memory for paths" ‰ndras utifrÂn tillg‰ngligt RAM
+~/
+~/                OBS Avrundning av matriselement i p13 sker till min v‰rde 0.001
+~/                kan behˆva ‰ndras i raden "minimum demand per O_D pair" till ett
+~/                hˆgre minv‰rde om t.ex. kˆrningen krachar av ok‰nd anledning.
+~/                
+~/                En ny matris p13 fˆr att spara "avrundade resor" har tillkommit
+~/
+~/                Fˆr‰ndrad hantering av krans- och fj‰rromrÂden,
+~/                utbudsber‰kning i dessa relationer gˆrs nu med 
+~/                minimal resefterfrÂgan = 0.0001
+~/
+~/                extraattributen fˆr till‰ggstid och restid pÂ l‰nkar
+~/                sparas nu fˆr ber‰kningar i mod 6.16
+~/
+~/ rev 111013 LJ, V‰rdet pÂ "minimum demand per O_D pair" ‰ndrat till 0.01
+~/                
+~/ rev 111109 LJ, fˆr‰ndrad hantering av krans- och fj‰rromrÂden,
+~/                uppdelning av utomregionala omrÂden i tvÂ grupper 
+~/                sÂ att transittrafiken finns kvar genom regionen.
+~/                S‰rskilt tydligt fel blev det tidigare i Samm, d‰r all lÂngv‰ga
+~/                trafik mellan sˆdra och norra Sverige nollades ut.
+~/
+~/                Den externa filen Utomregomr_xxxx.lis ers‰tts med tvÂ motsvarande
+~/                filer Utomregomr_xxxx_1.lis och Utomregomr_xxxx_2.lis
+~/                
+~/
+~/ ----------------
+~/
+~/ ƒndrat av LJ 2013-01-22
+~/ anropade filer har flyttats till indatamappen
+~/
+~/ ----------------
+~/ 
+~/ ƒndrat av LJ 2014-11-13
+~/ Tilldelning av ul1 (frÂn @jukap)
+~/ 
+~/ ----------------
+~/                
+~/
+~/ STANDARDPARAMETRAR:
+~/
+~/ med startmatriser:
+~/ 2001 xxxx mf03 mf04 mf05 mf31 mf42 mf32 mf33 mf34+ms01+mf35 mf01 mf02 mf59
+~/
+~/ med resultatmatriser:
+~/ 2001 xxxx mf03 mf04 mf05 mf08 mf42 mf09 mf10 mf34+ms01+mf35 mf01 mf02 mf59
+~/
+~/
+~/ ANROPSPARAMETRAR:
+~/ Makrot har 13 anropsparametrar.
+~/ p1 = Scenarionummer fˆr n‰tutl‰ggning
+~/ p2 = Region (anv‰nds fˆr h‰mtning av inom- och utomregionala omrÂden i fil)
+~/       (filerna Inomregomr_xxxx.lis och Utomregomr_xxxx.lis mÂste ligga i 
+~/       macrokatalogen tillsammans med detta macro)
+~/       Region anges som palt, samm, skane, sydost eller vast
+~/ p3 = Matris fˆr att spara bilrestid i hˆgtrafik angivet som mf__ 
+~/                                             (standard hˆgtrafik: mf03)
+~/ p4 = Matris fˆr att spara bilrestid i lÂgtrafik angivet som mf__ 
+~/                                              (standard lÂgrafik: mf04)
+~/ p5 = Matris fˆr att spara bilavstÂnd angivet som mf__ (standard mf05)
+~/ p6 = Matris med regionala bilresor angivet som mf__ 
+~/ p7 = Matris med bilar + eventuella ˆvriga matriser som angivits i p8 - p10.
+~/      Samtliga matriser anges som mf__ (standard mf42)
+~/ p8 - p10 = Matriser som adderas till p7.  
+~/ p11 = Genererad v‰gavgiftmatris fˆr arbetsresor
+~/ p12 = Genererad v‰gavgiftmatris fˆr ˆvriga resor
+~/ p13 = Ny efterfrÂgematris som avrundad p7
+~/
+~/ ** Makrot skapar utbudmatriser (bilrestider) fˆr hˆg- och lÂgtrafik
+~/ ** AvstÂndsmatrisen ber‰knas under lÂgtrafikfˆrhÂllanden
+~/ ** Hˆgtrafikandelen antas vara 8% och lÂgtrafikandelen 4.8%
+~/ ** BÂde hˆg och lÂgtrafikvolymerna justeras med faktorn 1.42 fˆr att kompensera
+~/    fˆr skillnaden mellan modellber‰knade och uppm‰tta bilvolymer. Skilnaden ‰r
+~/    egentligen stˆrre (dubbelt sÂ stor) ‰n 42% men vi har valt att inte kompensera
+~/    fˆr detta fullt ut.
+~/
+~/ START:
+~o|32
+s=%1%
+~/......... Div inst‰llningar ....................
+~o=295
+off=15
+~x=%0%    
+reports=macro.rep
+~!if exist macro.rep del macro.rep
+~!if exist macro.log del macro.log
+~!if exist macro.sta del macro.sta
+~/
+~/......... Kontroll av antalet inparametrar ............................
+~?x=13
+~$>OK_ANTAL_PARAMETRAR
+~/om makrot inte hoppat till OK_ANTAL_PARAMETRAR har fel antal inparametrar givits
+~$>FEL_PARAM
+~/
+~/......... Label = OK_ANTAL_PARAMETRAR ................................
+~:OK_ANTAL_PARAMETRAR
+~/
+~/
+~/......... Skriver angivna fˆruts‰ttningar till loggfil ................
+~!echo off
+~!echo         -                                             >>macro.log
+~!echo         Start SAMPERS macro CarAssignReg.mac          >>macro.log
+~!echo         Anv‰ndare:  %u%                               >>macro.log
+~!echo         Datum:      %d%                               >>macro.log
+~p=2010
+~z=%p%
+~p=2009
+~/ nedanstÂende rader kontrollerar om minutrarna ‰r en- eller tvÂsiffriga 
+~?z<10
+~!echo         Tid:        %p%:0%z%                          >>macro.log
+~?z>9  
+~!echo         Tid:        %p%:%z%                           >>macro.log
+~!echo         Makrot har kˆrts med fˆljande fˆruts‰ttningar >>macro.log
+~!echo         p1  Scenario:         %1%                     >>macro.log
+~!echo         p2  Region  :         %2%                     >>macro.log
+~!echo         p3  Bilrestid hˆg:    %3%                     >>macro.log
+~!echo         p4  Bilrestid lÂg:    %4%                     >>macro.log
+~!echo         p5  BilavstÂnd:       %5%                     >>macro.log
+~!echo         p6  Bilresor:         %6%                     >>macro.log
+~!echo         p7  Sum bilresor      %7%                     >>macro.log
+~!echo         p8  Till‰ggsmatris 1: %8%                     >>macro.log
+~!echo         p9  Till‰ggsmatris 2: %9%                     >>macro.log
+~!echo         p10 Till‰ggsmatris 3: %10%                    >>macro.log
+~!echo         p11 Tullmatris 1:     %11%                    >>macro.log
+~!echo         p12 Tullmatris 2:     %12%                    >>macro.log
+~!echo         p13 p7 avrundat:      %13%                    >>macro.log
+~/
+~/......... Skapa extraattribut fˆr till‰ggstid pÂ l‰nkar ...............
+2.42                       /skapa extraattribut 
+2
+2
+@ttid1
+ ~?e
+ ~$>level1
+Till‰ggstid, ass med gen.kost arb.resor
+0
+ ~$>level2
+ ~:level1
+
+ ~:level2
+q
+2.42                       /skapa extraattribut 
+2
+2
+@ttid2
+ ~?e
+ ~$>level1
+Till‰ggstid, ass med gen.kost ˆvr.resor
+0
+ ~$>level2
+ ~:level1
+
+ ~:level2
+q
+~/
+~/ ---- HôGTRAFIK --------------------------------------------------------------------------
+~/
+~/......... Ber‰kna l‰ngdberoende till‰ggstid pÂ l‰nkar .................
+~/
+2.41
+1
+y
+@ttid1
+n
+(length*1.3+@avg1)/(136/60)
+ 
+*
+4
+q
+2.41
+1
+y
+@ttid2
+n
+(length*1.3+@avg2)/(136/60)
+ 
+*
+4
+q
+~/......... Summera till‰ggsmatriser till %7%, hˆgtrafik ...............
+3.21
+1
+y
+%7%
+y
+SumBil
+~t8=Sum hˆg %6% %8% %9% %10% %d%
+%t8.40%
+~?q=1
+y                                / init
+0
+%6%*.30+%6%'*.02+%8%*.12+%8%'*.02+%9%*.02+%9%'*.005+%10%*.0
+
+                                 / no constraint 
+n                                / no submatrix
+2                                / reports to file
+q
+~/......... Minimera resefterfrÂgan i krans- och fj‰rromrÂden ...........
+~/          Minsta v‰rde ‰r ‰ndrar frÂn 0.0000001 till 0.0001            emme3
+~/          vilket ‰r minsta tillÂtna v‰de i mod 5.25                    emme3
+3.21
+1
+y
+%7%
+n
+0.0001
+ 
+ 
+y
+~<..\..\..\..\..\Indata\Std\Inomregomr_%2%.lis
+ 
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_1.lis
+ 
+2
+q
+3.21
+1
+y
+%7%
+n
+0.0001
+ 
+ 
+y
+~<..\..\..\..\..\Indata\Std\Inomregomr_%2%.lis
+ 
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_2.lis
+ 
+2
+q
+3.21
+1
+y
+%7%
+n
+0.0001
+ 
+ 
+y
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_1.lis
+ 
+~<..\..\..\..\..\Indata\Std\Inomregomr_%2%.lis
+ 
+2
+q
+3.21
+1
+y
+%7%
+n
+0.0001
+ 
+ 
+y
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_2.lis
+ 
+~<..\..\..\..\..\Indata\Std\Inomregomr_%2%.lis
+ 
+2
+q
+3.21
+1
+y
+%7%
+n
+0.0001
+ 
+ 
+y
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_1.lis
+ 
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_1.lis
+ 
+2
+q
+3.21
+1
+y
+%7%
+n
+0.0001
+ 
+ 
+y
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_2.lis
+ 
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_2.lis
+ 
+2
+q
+~/ ---- tilldelning av ul1 --------
+~/
+~<e2411.sub macro.rep %1% ul1 @jukap all
+~/
+~/......... Hˆgtrafikassignment med %7%   ..................
+~:ASS
+5.25
+1                     /controlled rounding for small demand
+%7%                   /demand to be rounded
+0.01                 /minimum demand per O_D pair (def = 0.0001)
+1                     /only values smaller than the minimum demand are roundes
+%13%                  /matrix to hold rounded demand (new demand)
+~?q=1
+y
+Newdem
+New demand rounded (%7% hogtrf)
+~?q=1
+y
+0
+2                     /list dev printer
+2                     /assignment set-up and execution
+~?q=2                 /ev frÂga om mer gammal ass eller ny ass
+2                     /i sÂ fall ny
+1                     /no additional volumer
+c                     /mode klass 1
+@ttid1                /fixed link costs klass 1
+1                     /weight factor for fixed cost attribute klass 1
+%13%                  /demand for klass 1 as rounded %7%
+/
+~?q=3                 /type of initialization
+3                     /initialize paths and reset iteration counter
+2000                  /maximum memory for paths in MB
+0.0010                /path costs equality tolerance (def 0.0010)
+30                    /refinment iterations (def=30)
+0.000010              /refined proportion (def=0.000010)
+5                     /compute gaps every ( x) iterations (def=5)
+50                    /max iteration number (def=50)
+0.01000               /stopping criterion for best leative gap (def=0.01000)
+0.0001000             /stopping criterion for relative gap (def=0.0001000)
+0.001000              /stopping criterion for normalized gap (def=0.001000)
+~o=294
+2                     /list dev
+~o=295
+~/
+~/
+~/......... Skapa extraattribut fˆr restid pÂ l‰nkar ....................
+2.42                       /skapa extraattribut 
+2
+2
+@rtid
+ ~?e
+ ~$>level1
+Restid pÂ l‰nk
+0
+ ~$>level2
+ ~:level1
+
+ ~:level2
+q
+~/......... Spara restider fˆr l‰nkar och noder i @rtid resp up3 ........
+2.41
+1
+y
+@rtid
+n
+0
+ 
+*
+4
+1
+y
+up3
+~?e
+~$>FEL1
+0
+ 
+*
+*
+4
+~$>HOPP1
+~:FEL1
+
+~:HOPP1
+1
+y
+@rtid
+n
+timau
+ 
+*
+4
+1
+y
+up3
+~?e
+~$>FEL2
+ptimau
+ 
+*
+*
+4
+~$>HOPP2
+~:FEL2
+
+~:HOPP2
+q
+~/
+6.16 /......PATH ANALYSIS FOR PATH-BASED TRAFFIC ASSIGNMENT ... skapa restidsmatris i %3%
+4                                /user defined path analysis
+@rtid                            /link attribute for path analysis
+up3                              /turn attribute for path analysis
++                                /operator to compute path attributes
+                                 /lower, upper threshold for selected paths
+3                                /aggregation for O-D attribute (3 = average)
+1                                /paths considered in O-D attribute (1 = all path)
+%13%                             /demand to be analyzed for class  1
+%3%                              /matrix to hold O-D attribute for class  1
+~?q=1
+y
+BilTid
+Bilrestid hog med %13% %d%
+~?q=1
+y
+0
+                                 /matrix to hold selected demand for class  1
+                                 /extra attribute to save selected link volumes of class  1                                 
+                                 /extra attribute to save selected turn volumes of class  1
+2                                /list dev
+q                                 
+~/
+6.16 /......PATH ANALYSIS FOR PATH-BASED TRAFFIC ASSIGNMENT ... skapa v‰gavgmat hˆgtrf i %11%
+4                                /user defined path analysis
+@avg1                            /link attribute for path analysis
+                                 /turn attribute for path analysis
++                                /operator to compute path attributes
+                                 /lower, upper threshold for selected paths
+3                                /aggregation for O-D attribute (3 = average)
+1                                /paths considered in O-D attribute (1 = all path)
+%13%                             /demand to be analyzed for class  1
+%11%                             /matrix to hold O-D attribute for class  1
+~?q=1
+y
+Avg1
+V‰gavgifter arbetsresor %d%
+~?q=1
+y
+0
+                                 /matrix to hold selected demand for class  1
+                                 /extra attribute to save selected link volumes of class  1                                 
+                                 /extra attribute to save selected turn volumes of class  1
+2                                /list dev
+q                                 
+~/
+~/
+~/ ---- LèGTRAFIK --------------------------------------------------------------------------
+~/
+~/......... Summera till‰ggsmatriser till %7%, lÂgtrafik ...............
+3.21
+1
+y
+%7%
+y
+SumBil
+~t8=Sum lÂg %6% %8% %9% %10% %d%
+%t8.40%
+~?q=1
+y                                / init
+0
+(%6%*.36+%6%'*.44+%8%*.72+%8%'*.86+%9%*.86+%9%'*.86)/10+.0*%10%
+
+                                 / no constraint 
+n                                / no submatrix
+2                                / reports to file
+q
+~/......... Minimera resefterfrÂgan i krans- och fj‰rromrÂden ...........
+~/          Minsta v‰rde ‰r ‰ndrar frÂn 0.0000001 till 0.0001            emme3
+~/          vilket ‰r minsta tillÂtna v‰de i mod 5.25                    emme3
+3.21
+1
+y
+%7%
+n
+0.0001
+ 
+ 
+y
+~<..\..\..\..\..\Indata\Std\Inomregomr_%2%.lis
+ 
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_1.lis
+ 
+2
+q
+3.21
+1
+y
+%7%
+n
+0.0001
+ 
+ 
+y
+~<..\..\..\..\..\Indata\Std\Inomregomr_%2%.lis
+ 
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_2.lis
+ 
+2
+q
+3.21
+1
+y
+%7%
+n
+0.0001
+ 
+ 
+y
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_1.lis
+ 
+~<..\..\..\..\..\Indata\Std\Inomregomr_%2%.lis
+ 
+2
+q
+3.21
+1
+y
+%7%
+n
+0.0001
+ 
+ 
+y
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_2.lis
+ 
+~<..\..\..\..\..\Indata\Std\Inomregomr_%2%.lis
+ 
+2
+q
+3.21
+1
+y
+%7%
+n
+0.0001
+ 
+ 
+y
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_1.lis
+ 
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_1.lis
+ 
+2
+q
+3.21
+1
+y
+%7%
+n
+0.0001
+ 
+ 
+y
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_2.lis
+ 
+~<..\..\..\..\..\Indata\Std\Utomregomr_%2%_2.lis
+ 
+2
+q
+~/
+5.25                  
+1                     /controlled rounding for small demand
+%7%                   /demand to be rounded
+0.01                 /minimum demand per O_D pair (def = 0.0001)
+1                     /only values smaller than the minimum demand are roundes
+%13%                  /matrix to hold rounded demand (new demand)
+~?q=1
+y
+Newdem
+New demand rounded (%7% lagtrf)
+~?q=1
+y
+0
+2                     /list dev printer
+2                     /assignment set-up and execution
+~?q=2                 /ev frÂga om mer gammal ass eller ny ass
+2                     /i sÂ fall ny
+1                     /no additional volumer
+c                     /mode klass 1
+@ttid2                /fixed link costs klass 1
+1                     /weigtht factor for fixed cost attribute klass 1
+%13%                  /demand for klass 1 as rounded %7%
+/
+~?q=3                 /type of initialization
+3                     /initialize paths and reset iteration counter
+2000                  /maximum memory for paths in MB
+0.0010                /path costs equality tolerance (def 0.0010)
+30                    /refinment iterations (def=30)
+0.000010              /refined proportion (def=0.000010)
+5                     /compute gaps every ( x) iterations (def=5)
+50                    /max iteration number (def=50)
+0.01000               /stopping criterion for best leative gap (def=0.01000)
+0.0001000             /stopping criterion for relative gap (def=0.0001000)
+0.001000              /stopping criterion for normalized gap (def=0.001000)
+~o=294
+2                     /list dev
+~o=295
+~/
+~/......... Spara restider fˆr l‰nkar och noder i @rtid resp up3 ........
+2.41
+1
+y
+@rtid
+n
+0
+ 
+*
+4
+1
+y
+up3
+~?e
+~$>FEL3
+0
+ 
+*
+*
+4
+~$>HOPP3
+~:FEL3
+
+~:HOPP3
+1
+y
+@rtid
+n
+timau
+ 
+*
+4
+1
+y
+up3
+~?e
+~$>FEL4
+ptimau
+ 
+*
+*
+4
+~$>HOPP4
+~:FEL4
+
+~:HOPP4
+q
+~/
+6.16 /......PATH ANALYSIS FOR PATH-BASED TRAFFIC ASSIGNMENT ... skapa restidsmatris i %4%
+4                                /user defined path analysis
+@rtid                            /link attribute for path analysis
+up3                              /turn attribute for path analysis
++                                /operator to compute path attributes
+                                 /lower, upper threshold for selected paths
+3                                /aggregation for O-D attribute (3 = average)
+1                                /paths considered in O-D attribute (1 = all path)
+%13%                             /demand to be analyzed for class  1
+%4%                              /matrix to hold O-D attribute for class  1
+~?q=1
+y
+BilTid
+Bilrestid lag med %13% %d%
+~?q=1
+y
+0
+                                 /matrix to hold selected demand for class  1
+                                 /extra attribute to save selected link volumes of class  1                                 
+                                 /extra attribute to save selected turn volumes of class  1
+2                                /list dev
+q                                 
+~/
+6.16 /......PATH ANALYSIS FOR PATH-BASED TRAFFIC ASSIGNMENT ... skapa avstÂndsmatris i %5%
+4                                /user defined path analysis
+length                           /link attribute for path analysis
+                                 /turn attribute for path analysis
++                                /operator to compute path attributes
+                                 /lower, upper threshold for selected paths
+3                                /aggregation for O-D attribute (3 = average)
+1                                /paths considered in O-D attribute (1 = all path)
+%13%                             /demand to be analyzed for class  1
+%5%                              /matrix to hold O-D attribute for class  1
+~?q=1
+y
+BilAvs
+Bilavstand lag med %13% %d%
+~?q=1
+y
+0
+                                 /matrix to hold selected demand for class  1
+                                 /extra attribute to save selected link volumes of class  1                                 
+                                 /extra attribute to save selected turn volumes of class  1
+2                                /list dev
+q                                 
+~/
+6.16 /......PATH ANALYSIS FOR PATH-BASED TRAFFIC ASSIGNMENT ... skapa v‰gavgmat lagtrf i %12%
+4                                /user defined path analysis
+@avg2                            /link attribute for path analysis
+                                 /turn attribute for path analysis
++                                /operator to compute path attributes
+                                 /lower, upper threshold for selected paths
+3                                /aggregation for O-D attribute (3 = average)
+1                                /paths considered in O-D attribute (1 = all path)
+%13%                             /demand to be analyzed for class  1
+%12%                             /matrix to hold O-D attribute for class  1
+~?q=1
+y
+Avg2
+V‰gavgifter ˆvriga resor %d%
+~?q=1
+y
+0
+                                 /matrix to hold selected demand for class  1
+                                 /extra attribute to save selected link volumes of class  1                                 
+                                 /extra attribute to save selected turn volumes of class  1
+2                                /list dev
+q                                 
+~/
+~/ -----------------------------------------------------
+2.42                       /ta bort tempor‰ra extraattribut 
+3
+@rtid
+ ~?e
+ ~$>level1
+y
+ ~$>level2
+ ~:level1
+
+ ~:level2
+q
+2.42
+3
+@ttid1
+ ~?e
+ ~$>level1
+y
+ ~$>level2
+ ~:level1
+
+ ~:level2
+q
+2.42
+3
+@ttid2
+ ~?e
+ ~$>level1
+y
+ ~$>level2
+ ~:level1
+
+ ~:level2
+q
+~/ -----------------------------------------------------
+~$>END
+~/
+~/......... Felmeddelanden ..............................................
+~/
+~/......... label = FEL1 ................................................
+~:FEL_PARAM
+~!echo -                                                     >>macro.log
+~!echo *** Fatal Error ***                                   >>macro.log
+~!echo SAMPERS MACRO: UtbudRegBil_525.Mac                    >>macro.log
+~!echo Makrot m‰ste startas med 13 inparametrar.             >>macro.log
+~!echo -
+~!echo Exekveringen avbruten                                 >>macro.log
+~!echo Datum: %d%                                            >>macro.log
+~p=2010
+~z=%p%
+~p=2009
+~?z<10
+~!echo Tid:   %p%:0%z%                                       >>macro.log
+~?z>9  
+~!echo Tid:   %p%:%z%                                        >>macro.log
+~!echo error                                                 >>macro.sta
+~$>EXIT
+~/
+~/......... label = END .................................................
+~:END
+~!echo         Slut SAMPERS macro UtbudRegBil_525.Mac        >>macro.log
+~p=2010
+~z=%p%
+~p=2009
+~?z<10
+~!echo         Tid:   %p%:0%z%                               >>macro.log
+~?z>9  
+~!echo         Tid:   %p%:%z%                                >>macro.log
+~!echo continue                                              >>macro.sta
+~/......... label = EXIT ................................................
+~:EXIT
+q
+reports=?
