@@ -1,4 +1,4 @@
-~/ SAMPERS MACRO: UtbudRegBil_v15.Mac
+~/ SAMPERS MACRO: UtbudRegBil_v16.Mac
 ~/ 
 ~/ Willy Andersson 19/1-99
 ~/ Reviderat av Peter Roming 990607
@@ -78,14 +78,14 @@
 ~/ Ändrat av LE 2017-02-10 (v.14)
 ~/ Backup högtrafikscenario till scenario (3000+iter_nummer)
 ~/ Backup lågtrafikscenario till scenario (4000+iter_nummer)
-~/ Backup efterfrågematriser mf8,mf9,mf10 till mf(80+iter_num), mf(90+iter_num), mf(100+iter_num)
+~/ Backup efterfrågematriser mf8,mf9,mf10 till mf(80+iter_num), mf(120+iter_num), mf(160+iter_num)
 ~/ OBS! kolla att basdimensionerna tillåter backup!
 ~/
 ~/ Ändrat av LE 2017-02-13 (v.15)
-~/ Backup kostnadsmatriser mf43,mf44,mf45 till mf(430+iter_num), mf(440+iter_num), mf(450+iter_num)
+~/ Backup kostnadsmatriser mf43,mf44,mf45 till mf(300+iter_num), mf(340+iter_num), mf(380+iter_num)
 ~/ Backup lågtrafikscenario till scenario (4000+iter_nummer)
 ~/
-~/ 
+~/ Ändrat av LE 2017-02-14 (v.16) nummren på bäckup-matriserna
 ~/ ----------------
 ~/                
 ~/
@@ -813,16 +813,18 @@ q
 ~<kopiera_scen.mac %1% %x% Högtrafik_iter_%ms02%
 ~x+1000
 ~<kopiera_scen.mac %1% %x% Lågtrafik_iter_%ms02%
-~x=430
-~y=440
-~z=450
+~/ backup kostnadsmatriser
+~x=300
+~y=340
+~z=380
 ~x+%ms02%
 ~y+%ms02%
 ~z+%ms02%
 ~<Spara_utbud.Mac mf43 mf44 mf45 mf%x% mf%y% mf%z%
+~/ backup efterfrågematriser
 ~x=80
-~y=90
-~z=100
+~y=120
+~z=160
 ~x+%ms02%
 ~y+%ms02%
 ~z+%ms02%
