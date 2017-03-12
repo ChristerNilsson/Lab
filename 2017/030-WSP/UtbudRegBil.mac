@@ -137,7 +137,6 @@
 ~/
 ~/ START:
 ~o|32
-s=%1%
 ~/......... Div inställningar ....................
 ~/o=295
 off=15
@@ -199,6 +198,7 @@ reports=macro.rep
 ~<kopiera_scen.mac %1% %16% Backup Högtrafik
 ~?x>16
 ~<kopiera_scen.mac %14% %17% Backup Lågtrafik
+s=%1%
 ~/
 ~/......... Skapa extraattribut för tilläggstid på länkar ...............
 2.42                       /skapa extraattribut 
