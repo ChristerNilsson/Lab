@@ -1,4 +1,4 @@
-~/ SAMPERS MACRO: UtbudRegBil_v16.Mac
+~/ SAMPERS MACRO: UtbudRegBil_v17.Mac
 ~/ 
 ~/ Willy Andersson 19/1-99
 ~/ Reviderat av Peter Roming 990607
@@ -86,6 +86,8 @@
 ~/ Backup lågtrafikscenario till scenario (4000+iter_nummer)
 ~/
 ~/ Ändrat av LE 2017-02-14 (v.16) nummren på bäckup-matriserna
+~/
+~/ Ändrat av LE 2017-03-05 (v.17) backup på endast senaste 40 iterationer
 ~/ ----------------
 ~/                
 ~/
@@ -808,26 +810,29 @@ y
  ~:level2
 q
 ~/ backup högtrafikscenario p1
+~r2=%ms02%
+~/ r2 = iterationsnummer modulo 40
+~r2%40
 ~x=3000
-~x+%ms02%
+~x+%r2%
 ~<kopiera_scen.mac %1% %x% Högtrafik_iter_%ms02%
 ~x+1000
-~<kopiera_scen.mac %1% %x% Lågtrafik_iter_%ms02%
+~<kopiera_scen.mac %14% %x% Lågtrafik_iter_%ms02%
 ~/ backup kostnadsmatriser
 ~x=300
 ~y=340
 ~z=380
-~x+%ms02%
-~y+%ms02%
-~z+%ms02%
+~x+%r2%
+~y+%r2%
+~z+%r2%
 ~<Spara_utbud.Mac mf43 mf44 mf45 mf%x% mf%y% mf%z%
 ~/ backup efterfrågematriser
 ~x=80
 ~y=120
 ~z=160
-~x+%ms02%
-~y+%ms02%
-~z+%ms02%
+~x+%r2%
+~y+%r2%
+~z+%r2%
 ~<Spara_utbud.Mac mf08 mf09 mf10 mf%x% mf%y% mf%z%
 ~/ -----------------------------------------------------
 ~$>END
