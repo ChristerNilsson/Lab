@@ -1,4 +1,4 @@
-~/ SAMPERS MACRO: UtbudRegBil_v17.Mac
+~/ SAMPERS MACRO: UtbudRegBil_v18.Mac
 ~/ 
 ~/ Willy Andersson 19/1-99
 ~/ Reviderat av Peter Roming 990607
@@ -88,50 +88,52 @@
 ~/ Ändrat av LE 2017-02-14 (v.16) nummren på bäckup-matriserna
 ~/
 ~/ Ändrat av LE 2017-03-05 (v.17) backup på endast senaste 40 iterationer
+~/
+~/ Ändrat av LE 2017-03-12 (v.18) Backup endast föregående utläggning, ht (p16) och lt (p17)
+~/ Rättade kommentarer och assignmentparametrar
 ~/ ----------------
 ~/                
 ~/
 ~/ STANDARDPARAMETRAR:
 ~/
 ~/ med startmatriser:
-~/ 2001 xxxx mf03 mf04 mf05 mf31 mf42 mf32 mf33 mf34+ms01+mf35 mf01 mf02 mf59 2002 3
+~/ 2001 xxxx mf03 mf04 mf05 mf31 mf42 mf32 mf33 mf34+ms01+mf35 mf01 mf02 mf59 2002 3 3001 3002
 ~/
 ~/ med resultatmatriser:
-~/ 2001 xxxx mf03 mf04 mf05 mf08 mf42 mf09 mf10 mf34+ms01+mf35 mf01 mf02 mf59 2002 2
+~/ 2001 xxxx mf43 mf44 mf45 mf08 mf42 mf09 mf10 mf34+ms01+mf35 mf01 mf02 mf59 2002 2 3001 3002
 ~/
 ~/
 ~/ ANROPSPARAMETRAR:
-~/ Makrot har 15 anropsparametrar.
+~/ Makrot har 15-17 anropsparametrar.
 ~/ p1 = Scenarionummer för nätutläggning högtrafik
 ~/ p2 = Region (används för hämtning av inom- och utomregionala områden i fil)
 ~/       (filerna Inomregomr_xxxx.lis och Utomregomr_xxxx.lis måste ligga i 
 ~/       macrokatalogen tillsammans med detta macro)
 ~/       Region anges som palt, samm, skane, sydost eller vast
 ~/ p3 = Matris för att spara bilrestid i högtrafik angivet som mf__ 
-~/                                             (standard högtrafik: mf03)
+~/                                             (standard högtrafik: mf43)
 ~/ p4 = Matris för att spara bilrestid i lågtrafik angivet som mf__ 
-~/                                              (standard lågrafik: mf04)
-~/ p5 = Matris för att spara bilavstånd angivet som mf__ (standard mf05)
-~/ p6 = Matris med regionala bilresor angivet som mf__ 
-~/ p7 = Matris med bilar + eventuella övriga matriser som angivits i p8 - p10.
-~/      Samtliga matriser anges som mf__ (standard mf42)
-~/ p8 - p10 = Matriser som adderas till p7.  
-~/ p11 = Genererad vägavgiftmatris för arbetsresor
-~/ p12 = Genererad vägavgiftmatris för övriga resor
-~/ p13 = Ny efterfrågematris som avrundad p7
+~/                                              (standard lågrafik: mf44)
+~/ p5 = Matris för att spara bilavstånd angivet som mf__ (standard mf45)
+~/ p6 = Matris med regionala arbetsresor bil dygn angivet som mf__ 
+~/ p7 = Temporär plats för matris med bilar totalt under en timme (standard mf42)
+~/ p8 = Matris med regionala tjänsteresor bil dygn angivet som mf__
+~/ p9 = Matris med regionala övrigtresor bil dygn angivet som mf__
+~/ p10 = Uttryck i format mfHT+ms01+mfLT där mfHT är tilläggsmatris 
+~/       för högtrafiktimme och mfLT är tilläggsmatris för lågtrafiktimme
+~/ p11 = Genererad vägavgiftmatris högtrafik
+~/ p12 = Genererad vägavgiftmatris lågtrafik
+~/ p13 = Efterfrågematris för assignment som avrundad p7
 ~/ p14 = Scenarionummer för nätutläggning lågtrafik
 ~/ p15 = 2: sparade rutter ska användas ifall de är tillgängliga; 
 ~/       3: sparade rutter ska inte användas, även om de är tillgängliga
+~/ p16 = Scenarionummer för backup av högtrafik, p1 kopieras dit före assignment 
+~/       (kan uteslutas om även p17 uteslutas)
+~/ p17 = Scenarionummer för backup av lågtrafik, p14 kopieras dit före assignment
+~/       (kan uteslutas)
 ~/
 ~/ ** Makrot skapar utbudmatriser (bilrestider) för hög- och lågtrafik
 ~/ ** Avståndsmatrisen beräknas under lågtrafikförhållanden
-~/ ** Högtrafikandelen antas vara 8% och lågtrafikandelen 4.8%. 
-~/    - DENNA KOMMENTAR VERKAR INAKTUELL, BÖR I SÅ FALL TAS BORT (LE 17-02-09)
-~/ ** Både hög och lågtrafikvolymerna justeras med faktorn 1.42 för att kompensera
-~/    för skillnaden mellan modellberäknade och uppmätta bilvolymer. Skilnaden är
-~/    egentligen större (dubbelt så stor) än 42% men vi har valt att inte kompensera
-~/    för detta fullt ut. 
-~/    - DENNA KOMMENTAR VERKAR INAKTUELL, BÖR I SÅ FALL TAS BORT (LE 17-02-09)
 ~/
 ~/ START:
 ~o|32
@@ -147,6 +149,10 @@ reports=macro.rep
 ~/
 ~/......... Kontroll av antalet inparametrar ............................
 ~?x=15
+~$>OK_ANTAL_PARAMETRAR
+~?x=16
+~$>OK_ANTAL_PARAMETRAR
+~?x=17
 ~$>OK_ANTAL_PARAMETRAR
 ~/om makrot inte hoppat till OK_ANTAL_PARAMETRAR har fel antal inparametrar givits
 ~$>FEL_PARAM
@@ -175,16 +181,24 @@ reports=macro.rep
 ~!echo         p3  Bilrestid hög:    %3%                     >>macro.log
 ~!echo         p4  Bilrestid låg:    %4%                     >>macro.log
 ~!echo         p5  Bilavstånd:       %5%                     >>macro.log
-~!echo         p6  Bilresor:         %6%                     >>macro.log
-~!echo         p7  Sum bilresor      %7%                     >>macro.log
-~!echo         p8  Tilläggsmatris 1: %8%                     >>macro.log
-~!echo         p9  Tilläggsmatris 2: %9%                     >>macro.log
-~!echo         p10 Tilläggsmatris 3: %10%                    >>macro.log
-~!echo         p11 Tullmatris 1:     %11%                    >>macro.log
-~!echo         p12 Tullmatris 2:     %12%                    >>macro.log
+~!echo         p6  Arbetsturer dygn: %6%                     >>macro.log
+~!echo         p7  Bilresor timme:   %7%                     >>macro.log
+~!echo         p8  Tjänsteturer dygn:%8%                     >>macro.log
+~!echo         p9  Övrigtturer dygn: %9%                     >>macro.log
+~!echo         p10 Tilläggsmatriser: %10%                    >>macro.log
+~!echo         p11 Tullmatris ht:    %11%                    >>macro.log
+~!echo         p12 Tullmatris lt:    %12%                    >>macro.log
 ~!echo         p13 p7 avrundat:      %13%                    >>macro.log
 ~!echo         p14 Scenario låg:     %14%                    >>macro.log
 ~!echo         p15 Anv sparade rutter%15%                    >>macro.log
+~!echo         p14 Backup sc låg:    %16%                    >>macro.log
+~!echo         p14 Backup sc hög:    %17%                    >>macro.log
+~/
+~/ backup scenarier
+~?x>15
+~<kopiera_scen.mac %1% %16% Backup Högtrafik
+~?x>16
+~<kopiera_scen.mac %14% %17% Backup Lågtrafik
 ~/
 ~/......... Skapa extraattribut för tilläggstid på länkar ...............
 2.42                       /skapa extraattribut 
@@ -250,6 +264,7 @@ SumBil
 ~?q=1
 y                                / init
 0
+~/ Endast sista matrisen av mf34,ms01,mf35 multipliceras med 0
 %6%*.30+%6%'*.02+%8%*.12+%8%'*.02+%9%*.02+%9%'*.005+%10%*.0
 
                                  / no constraint 
@@ -381,14 +396,14 @@ c                     /mode klass 1
 ~?q=3                 /type of initialization
 %15%                  /2=start with existing paths and reset iteration counter, 3=initialize paths and reset iteration counter
 2000                  /maximum memory for paths in MB
-0.0010                /path costs equality tolerance (def 0.0010)
+0.0001                /path costs equality tolerance (def 0.0010)
 30                    /refinment iterations (def=30)
 0.000010              /refined proportion (def=0.000010)
 5                     /compute gaps every ( x) iterations (def=5)
-50                    /max iteration number (def=50)
-0.01000               /stopping criterion for best leative gap (def=0.01000)
-0.0001000             /stopping criterion for relative gap (def=0.0001000)
-0.001000              /stopping criterion for normalized gap (def=0.001000)
+100                   /max iteration number (def=50)
+0                     /stopping criterion for best leative gap (def=0.01000)
+0.0001                /stopping criterion for relative gap (def=0.0001000)
+0                     /stopping criterion for normalized gap (def=0.001000)
 ~/o=294
 2                     /list dev
 ~/o=295
@@ -520,6 +535,7 @@ SumBil
 ~?q=1
 y                                / init
 0
+~/ Endast första matrisen av mf34,ms01,mf35 multipliceras med 0
 (%6%*.36+%6%'*.44+%8%*.72+%8%'*.86+%9%*.86+%9%'*.86)/10+.0*%10%
 
                                  / no constraint 
@@ -646,14 +662,14 @@ c                     /mode klass 1
 ~?q=3                 /type of initialization
 %15%                  /2=start with existing paths and reset iteration counter, 3=initialize paths and reset iteration counter
 2000                  /maximum memory for paths in MB
-0.0010                /path costs equality tolerance (def 0.0010)
+0.0001                /path costs equality tolerance (def 0.0010)
 30                    /refinment iterations (def=30)
 0.000010              /refined proportion (def=0.000010)
 5                     /compute gaps every ( x) iterations (def=5)
-50                    /max iteration number (def=50)
-0.01000               /stopping criterion for best leative gap (def=0.01000)
-0.0001000             /stopping criterion for relative gap (def=0.0001000)
-0.001000              /stopping criterion for normalized gap (def=0.001000)
+100                   /max iteration number (def=50)
+0                     /stopping criterion for best leative gap (def=0.01000)
+0.0001                /stopping criterion for relative gap (def=0.0001000)
+0                     /stopping criterion for normalized gap (def=0.001000)
 ~/o=294
 2                     /list dev
 ~/o=295
@@ -809,31 +825,6 @@ y
 
  ~:level2
 q
-~/ backup högtrafikscenario p1
-~r2=%ms02%
-~/ r2 = iterationsnummer modulo 40
-~r2%40
-~x=3000
-~x+%r2%
-~<kopiera_scen.mac %1% %x% Högtrafik_iter_%ms02%
-~x+1000
-~<kopiera_scen.mac %14% %x% Lågtrafik_iter_%ms02%
-~/ backup kostnadsmatriser
-~x=300
-~y=340
-~z=380
-~x+%r2%
-~y+%r2%
-~z+%r2%
-~<Spara_utbud.Mac mf43 mf44 mf45 mf%x% mf%y% mf%z%
-~/ backup efterfrågematriser
-~x=80
-~y=120
-~z=160
-~x+%r2%
-~y+%r2%
-~z+%r2%
-~<Spara_utbud.Mac mf08 mf09 mf10 mf%x% mf%y% mf%z%
 ~/ -----------------------------------------------------
 ~$>END
 ~/
