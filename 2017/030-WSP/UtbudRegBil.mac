@@ -1,8 +1,4 @@
-~/ SAMPERS MACRO: UtbudRegBil_v12.Mac
-~/
-~/ OBS - eftersom scenario p1 anv‰nds fˆr ber‰kning av fˆrst hˆgtrafik och 
-~/  d‰refter lÂgtrafik sÂ ‰r det "path-filer" fˆr lÂgtrafik som ‰r sparade
-~/  fˆr scenario p1
+~/ SAMPERS MACRO: UtbudRegBil_v14.Mac
 ~/ 
 ~/ Willy Andersson 19/1-99
 ~/ Reviderat av Peter Roming 990607
@@ -74,20 +70,32 @@
 ~/ Tilldelning av ul1 (frÂn @jukap)
 ~/ 
 ~/ ----------------
+~/ 
+~/ ƒndrat av LE 2017-02-09 (v.13)
+~/ Assignment av lÂgtrafik i en separat scenario (p14)
+~/ Ny mˆjlighet att anv‰nda sparade rutter ifall de ‰r tillg‰ngliga (p15)
+~/
+~/ ƒndrat av LE 2017-02-10 (v.14)
+~/ Backup hˆgtrafikscenario till scenario (3000+iter_nummer)
+~/ Backup lÂgtrafikscenario till scenario (4000+iter_nummer)
+~/ Backup efterfrÂgematriser mf8,mf9,mf10 till mf(80+iter_num), mf(90+iter_num), mf(100+iter_num)
+~/ OBS! kolla att basdimensionerna tillÂter backup!
+~/ 
+~/ ----------------
 ~/                
 ~/
 ~/ STANDARDPARAMETRAR:
 ~/
 ~/ med startmatriser:
-~/ 2001 xxxx mf03 mf04 mf05 mf31 mf42 mf32 mf33 mf34+ms01+mf35 mf01 mf02 mf59
+~/ 2001 xxxx mf03 mf04 mf05 mf31 mf42 mf32 mf33 mf34+ms01+mf35 mf01 mf02 mf59 2002 3
 ~/
 ~/ med resultatmatriser:
-~/ 2001 xxxx mf03 mf04 mf05 mf08 mf42 mf09 mf10 mf34+ms01+mf35 mf01 mf02 mf59
+~/ 2001 xxxx mf03 mf04 mf05 mf08 mf42 mf09 mf10 mf34+ms01+mf35 mf01 mf02 mf59 2002 2
 ~/
 ~/
 ~/ ANROPSPARAMETRAR:
-~/ Makrot har 13 anropsparametrar.
-~/ p1 = Scenarionummer fˆr n‰tutl‰ggning
+~/ Makrot har 15 anropsparametrar.
+~/ p1 = Scenarionummer fˆr n‰tutl‰ggning hˆgtrafik
 ~/ p2 = Region (anv‰nds fˆr h‰mtning av inom- och utomregionala omrÂden i fil)
 ~/       (filerna Inomregomr_xxxx.lis och Utomregomr_xxxx.lis mÂste ligga i 
 ~/       macrokatalogen tillsammans med detta macro)
@@ -104,20 +112,25 @@
 ~/ p11 = Genererad v‰gavgiftmatris fˆr arbetsresor
 ~/ p12 = Genererad v‰gavgiftmatris fˆr ˆvriga resor
 ~/ p13 = Ny efterfrÂgematris som avrundad p7
+~/ p14 = Scenarionummer fˆr n‰tutl‰ggning lÂgtrafik
+~/ p15 = 2: sparade rutter ska anv‰ndas ifall de ‰r tillg‰ngliga; 
+~/       3: sparade rutter ska inte anv‰ndas, ‰ven om de ‰r tillg‰ngliga
 ~/
 ~/ ** Makrot skapar utbudmatriser (bilrestider) fˆr hˆg- och lÂgtrafik
 ~/ ** AvstÂndsmatrisen ber‰knas under lÂgtrafikfˆrhÂllanden
-~/ ** Hˆgtrafikandelen antas vara 8% och lÂgtrafikandelen 4.8%
+~/ ** Hˆgtrafikandelen antas vara 8% och lÂgtrafikandelen 4.8%. 
+~/    - DENNA KOMMENTAR VERKAR INAKTUELL, B÷R I S≈ FALL TAS BORT (LE 17-02-09)
 ~/ ** BÂde hˆg och lÂgtrafikvolymerna justeras med faktorn 1.42 fˆr att kompensera
 ~/    fˆr skillnaden mellan modellber‰knade och uppm‰tta bilvolymer. Skilnaden ‰r
 ~/    egentligen stˆrre (dubbelt sÂ stor) ‰n 42% men vi har valt att inte kompensera
-~/    fˆr detta fullt ut.
+~/    fˆr detta fullt ut. 
+~/    - DENNA KOMMENTAR VERKAR INAKTUELL, B÷R I S≈ FALL TAS BORT (LE 17-02-09)
 ~/
 ~/ START:
 ~o|32
 s=%1%
 ~/......... Div inst‰llningar ....................
-~o=295
+~/o=295
 off=15
 ~x=%0%    
 reports=macro.rep
@@ -126,7 +139,7 @@ reports=macro.rep
 ~!if exist macro.sta del macro.sta
 ~/
 ~/......... Kontroll av antalet inparametrar ............................
-~?x=13
+~?x=15
 ~$>OK_ANTAL_PARAMETRAR
 ~/om makrot inte hoppat till OK_ANTAL_PARAMETRAR har fel antal inparametrar givits
 ~$>FEL_PARAM
@@ -150,7 +163,7 @@ reports=macro.rep
 ~?z>9  
 ~!echo         Tid:        %p%:%z%                           >>macro.log
 ~!echo         Makrot har kˆrts med fˆljande fˆruts‰ttningar >>macro.log
-~!echo         p1  Scenario:         %1%                     >>macro.log
+~!echo         p1  Scenario hˆg:     %1%                     >>macro.log
 ~!echo         p2  Region  :         %2%                     >>macro.log
 ~!echo         p3  Bilrestid hˆg:    %3%                     >>macro.log
 ~!echo         p4  Bilrestid lÂg:    %4%                     >>macro.log
@@ -163,6 +176,8 @@ reports=macro.rep
 ~!echo         p11 Tullmatris 1:     %11%                    >>macro.log
 ~!echo         p12 Tullmatris 2:     %12%                    >>macro.log
 ~!echo         p13 p7 avrundat:      %13%                    >>macro.log
+~!echo         p14 Scenario lÂg:     %14%                    >>macro.log
+~!echo         p15 Anv sparade rutter%15%                    >>macro.log
 ~/
 ~/......... Skapa extraattribut fˆr till‰ggstid pÂ l‰nkar ...............
 2.42                       /skapa extraattribut 
@@ -357,7 +372,7 @@ c                     /mode klass 1
 %13%                  /demand for klass 1 as rounded %7%
 /
 ~?q=3                 /type of initialization
-3                     /initialize paths and reset iteration counter
+%15%                  /2=start with existing paths and reset iteration counter, 3=initialize paths and reset iteration counter
 2000                  /maximum memory for paths in MB
 0.0010                /path costs equality tolerance (def 0.0010)
 30                    /refinment iterations (def=30)
@@ -367,9 +382,9 @@ c                     /mode klass 1
 0.01000               /stopping criterion for best leative gap (def=0.01000)
 0.0001000             /stopping criterion for relative gap (def=0.0001000)
 0.001000              /stopping criterion for normalized gap (def=0.001000)
-~o=294
+~/o=294
 2                     /list dev
-~o=295
+~/o=295
 ~/
 ~/
 ~/......... Skapa extraattribut fˆr restid pÂ l‰nkar ....................
@@ -483,6 +498,9 @@ q
 ~/
 ~/ ---- LèGTRAFIK --------------------------------------------------------------------------
 ~/
+~/ Kopiera scenario p1 till p14
+~<kopiera_scen.mac %1% %14% LÂgtrafik
+s=%14%
 ~/......... Summera till‰ggsmatriser till %7%, lÂgtrafik ...............
 3.21
 1
@@ -619,7 +637,7 @@ c                     /mode klass 1
 %13%                  /demand for klass 1 as rounded %7%
 /
 ~?q=3                 /type of initialization
-3                     /initialize paths and reset iteration counter
+%15%                  /2=start with existing paths and reset iteration counter, 3=initialize paths and reset iteration counter
 2000                  /maximum memory for paths in MB
 0.0010                /path costs equality tolerance (def 0.0010)
 30                    /refinment iterations (def=30)
@@ -629,9 +647,9 @@ c                     /mode klass 1
 0.01000               /stopping criterion for best leative gap (def=0.01000)
 0.0001000             /stopping criterion for relative gap (def=0.0001000)
 0.001000              /stopping criterion for normalized gap (def=0.001000)
-~o=294
+~/o=294
 2                     /list dev
-~o=295
+~/o=295
 ~/
 ~/......... Spara restider fˆr l‰nkar och noder i @rtid resp up3 ........
 2.41
@@ -784,6 +802,19 @@ y
 
  ~:level2
 q
+~/ backup hˆgtrafikscenario p1
+~x=3000
+~x+%ms02%
+~<kopiera_scen.mac %1% %x% Hˆgtrafik_iter_%ms02%
+~x+1000
+~<kopiera_scen.mac %1% %x% LÂgtrafik_iter_%ms02%
+~x=80
+~y=90
+~z=100
+~x+%ms02%
+~y+%ms02%
+~z+%ms02%
+~<Spara_utbud.Mac mf08 mf09 mf10 mf%x% mf%y% mf%z%
 ~/ -----------------------------------------------------
 ~$>END
 ~/
