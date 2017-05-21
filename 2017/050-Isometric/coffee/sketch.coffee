@@ -5,27 +5,41 @@ class Isometric
 		@n=10
 		@dx=10
 		@dy=5
-		@blocks = []
+		@blocks = {}
 		@w = width
 		@w2 = @w/2
 		@w1 = (@w+@w2)/2
 		@r=1
 		@g=1
 		@b=1
+		@index = @createIndex()
 
 	setColor : (@r,@g,@b) ->
-	add : (i,j,k) -> @blocks.push [i,j,k,@r,@g,@b]
-	sort : -> @blocks = _.sortBy @blocks, ([i,j,k,r,g,b]) => -(i*i+j*j+(@n-k)*(@n-k))
-	draw : -> @drawBlock block for block in @blocks
+	add : (i,j,k) -> @blocks[@n*@n*i+@n*j+k] = [@r,@g,@b]
+	draw : -> @drawBlock index for index in @index
 
-	drawBlock : (block) ->
+	createIndex : ->
+		arr = []
+		for i in range @n
+			for j in range @n
+				for k in range @n
+					arr.push [i,j,k]
+		arr = _.sortBy arr, ([i,j,k]) => -(i*i+j*j+(@n-k)*(@n-k)) # rita längst bort först
+		(@n*@n*i+@n*j+k for [i,j,k] in arr)
+
+	drawBlock : (index) ->
 		f = (i,j,k) => [@w2+i*@dx-2*j*@dy, @w-j*@dy-i*@dx/2 - k*@dy*2]
 		q = (a,b,c,d) -> quad a[0],a[1], b[0],b[1], c[0],c[1], d[0],d[1]
-		[i,j,k,r,g,b] = block
+		block = @blocks[index]
+		if not block? then return
+		[r,g,b] = block
+		k = index % @n; index //= @n
+		j = index % @n; index //= @n
+		i = index
 		p0 = f i,  j,  k
 		p1 = f i+1,j,  k
 		p2 = f i,  j+1,k
-		p3 = f i+1,j+1,k
+		p3 = f i+1,j+1,k  # egentligen osynlig
 		p4 = f i  ,j,  k+1
 		p5 = f i+1,j,  k+1
 		p6 = f i  ,j+1,k+1
@@ -38,30 +52,30 @@ class Isometric
 		q p0,p4,p5,p1
 
 	grid : ->
-		for i in range width/20+1
-			x1 = lerp @w2,@w2+@dx,i
-			x2 = lerp   0, @dx,i
-			y1 = lerp @w,@w-@dy,i
-			y2 = lerp @w1,@w1-@dy,i
-			line x1,y1,x2,y2
-			x1 = lerp @w2,@w2-@dx,i
-			x2 = lerp @w,@w-@dx,i
-			y1 = lerp @w,@w-@dy,i
-			y2 = lerp @w1,@w1-@dy,i
-			line x1,y1,x2,y2
+		for i in range @n+1
+			line @w2+@dx*i, @w-@dy*i, @dx*i, @w1-@dy*i
+			line @w2-@dx*i,@w-@dy*i,@w-@dx*i,@w1-@dy*i
 
 	box : ->
 		@blocks = []
-		for i in range 10
-			for a in [0,9]
-				for b in [0,9]
-					@setColor 1,0,0
-					@add i,a,b
-					@setColor 1,1,0
-					@add a,i,b
-					@setColor 0,1,0
-					@add a,b,i
-		@sort()
+		for i in range @n
+			for j in range @n
+				for k in range @n
+					tot = 0
+					if i in [2,3,4,5,6,7] then tot++
+					if j in [2,3,4,5,6,7] then tot++
+					if k in [2,3,4,5,6,7] then tot++
+					if tot <= 1
+						@setColor i/9,j/9,k/9
+						@add i,j,k
+
+	sphere : ->
+		@blocks = []
+		@setColor 1,0,0
+		for i in range @n
+			for j in range @n
+				for k in range @n
+					if (i-4.5)*(i-4.5) + (j-4.5)*(j-4.5) + (k-4.5)*(k-4.5) < 23 then @add i,j,k
 
 setup = ->
 	createCanvas 200,200
@@ -69,9 +83,8 @@ setup = ->
 	xdraw()
 
 xdraw = ->
-	bg 1
-	#isometric.grid()
+	bg 0.25
+	isometric.grid()
 	sc()
 	isometric.box()
 	isometric.draw()
-
