@@ -12,14 +12,14 @@ class Matrix
 		switch @shape.length
 			when 1 then data
 			when 2 then (@cell(i,j) for j in range @shape[1] for i in range @shape[0])
-			when 3 then	(@cell(i,j,k) for k in range @shape[2] for j in range @shape[1] for i in range @shape[0])
+			when 3 then (@cell(i,j,k) for k in range @shape[2] for j in range @shape[1] for i in range @shape[0])
 
 	cell : (i,j,k) ->
 		switch arguments.length
 			when 0 then @data
 			when 1 then @data[i]
 			when 2 then @data[@shape[1] * i + j]
-			when 3 then	@data[@shape[1] * @shape[2] * i + @shape[2] * j + k]
+			when 3 then @data[@shape[1] * @shape[2] * i + @shape[2] * j + k]
 
 	add : (other) ->
 		data = @fixData other
