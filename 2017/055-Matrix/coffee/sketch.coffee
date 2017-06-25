@@ -41,12 +41,16 @@ class Matrix
 		matrix.reshape [@shape[1],@shape[0]]
 		matrix
 
+	# dot : (other) ->
+	# 	sum = (i,j) =>
+	# 		s = 0
+	# 		for k in range @shape[1]
+	# 			s += @cell(i,k) * other.cell(k,j)
+	# 		s
+	# 	new Matrix _.flatten((sum(i,j) for i in range @shape[0] for j in range other.shape[1])), [@shape[0], other.shape[1]]
+
 	dot : (other) ->
-		sum = (i,j) =>
-			s = 0
-			for k in range @shape[1]
-				s += @cell(i,k) * other.cell(k,j)
-			s
+		sum = (i,j) => (@cell(i,k) * other.cell(k,j) for k in range @shape[1]).reduce ((a, b) -> a + b), 0
 		new Matrix _.flatten((sum(i,j) for i in range @shape[0] for j in range other.shape[1])), [@shape[0], other.shape[1]]
 
 a = new Matrix [1,2,3,4,5,6],[2,3]
