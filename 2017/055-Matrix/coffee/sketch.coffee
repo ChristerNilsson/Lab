@@ -1,4 +1,5 @@
 # https://github.com/shiffman/Neural-Network-p5
+# https://docs.scipy.org/doc/numpy-dev/user/quickstart.html
 
 class Matrix
 	constructor : (@data, @shape=[@data.length]) ->
@@ -8,18 +9,16 @@ class Matrix
 	map : (f) -> @iterate (i) => f @data[i]
 	fixData : (other) -> if other instanceof Matrix then other.data else [other]
 
-	matrix : (data=@data) -> # generalize to more dimensions!
-		switch @shape.length
-			when 1 then data
-			when 2 then (@cell(i,j) for j in range @shape[1] for i in range @shape[0])
-			when 3 then (@cell(i,j,k) for k in range @shape[2] for j in range @shape[1] for i in range @shape[0])
+	matrix : (shape=@shape.slice(), data=@data) ->
+		if shape.length==1 then return data
+		arg = shape.pop()
+		@matrix shape, (data[i...i+arg] for i in range 0,@data.length,arg)
 
-	cell : (i,j,k) ->
-		switch arguments.length
-			when 0 then @data
-			when 1 then @data[i]
-			when 2 then @data[@shape[1] * i + j]
-			when 3 then @data[@shape[1] * @shape[2] * i + @shape[2] * j + k]
+	cell : ->
+		index = 0
+		for arg,i in arguments
+			index = index * @shape[i] + arg
+		@data[index]
 
 	add : (other) ->
 		data = @fixData other
@@ -50,6 +49,12 @@ class Matrix
 			s
 		new Matrix _.flatten((sum(i,j) for i in range @shape[0] for j in range other.shape[1])), [@shape[0], other.shape[1]]
 
+a = new Matrix [1,2,3,4,5,6],[2,3]
+assert a.matrix(), [[1,2,3],[4,5,6]]
+
+a = new Matrix [1,2,3,4],[2,2]
+assert a.matrix(), [[1,2],[3,4]]
+
 a = new Matrix [0,0,0,0]
 assert a.shape, [4]
 a.reshape [2,2]
@@ -71,12 +76,15 @@ assert a.cell(0,1), 2
 assert a.cell(1,0), 3
 assert a.cell(1,1), 4
 
-assert a.add(b).matrix(), [[6,8],[10,12]]
-assert a.add(new Matrix [2,3]).matrix(), [[3,5],[5,7]]
+c = a.add(b)
+assert c.matrix(), [[6,8],[10,12]]
+b = a.add(new Matrix [2,3])
+assert b.matrix(), [[3,5],[5,7]]
+
 assert a.add(10).matrix(), [[11,12],[13,14]]
 
-assert b.sub(a).matrix(), [[4,4],[4,4]]
-assert a.mul(b).matrix(), [[5,12],[21,32]]
+assert b.sub(a).matrix(), [[2,3],[2,3]]
+assert a.mul(b).matrix(), [[3,10],[15,28]]
 
 assert a.add(2).matrix(), [[3,4],[5,6]]
 assert a.sub(2).matrix(), [[-1,0],[1,2]]
@@ -86,7 +94,7 @@ assert a.data, [1,2,3,4]
 assert a.copy().matrix(), [[1,2],[3,4]]
 assert a.transpose().data, [1,3,2,4]
 
-assert a.dot(b).matrix(), [[19,43],[22,50]]
+assert a.dot(b).matrix(), [[13,29],[19,43]]
 
 c = a.map (x) -> x*x
 assert [[1,4],[9,16]], c.matrix()
