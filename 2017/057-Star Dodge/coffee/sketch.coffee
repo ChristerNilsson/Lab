@@ -2,13 +2,12 @@
 # https://runelm.io/c/u4y 400 LOC
 stardodge = null
 class StarDodge
-	constructor : (@level=0, @delta=50) -> @startNewGame 1
+	constructor : (@level=0, @d=50) -> @startNewGame 1
 	startNewGame : (dlevel) ->
 		if dlevel==1
 			@stars = []
-			for x in range @delta,width,@delta
-				for y in range @delta,height,@delta
-					@stars.push [x + int(random(-@delta/4,@delta/4)), y + int(random(-@delta/4,@delta/4))]
+			d = @d/2
+			@stars.push [@d*i+int(random -d,d), @d*j+int(random -d,d)] for i in range 1,width/@d for j in range 1,height/@d
 		@level += dlevel
 		[@x,@y] = [0,height/2]
 		bg 0.5
