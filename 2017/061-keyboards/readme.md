@@ -2,6 +2,9 @@
 
 I'm using two Filcos from [The Keyboard Company](http://www.keyboardco.com)
 
+* Filco Majestouch-2, Tenkeyless, NKR, Tactile Action, USA, [Yellow Key Keyboard](http://www.keyboardco.com/keyboard/filco-majestouch-2-tenkeyless-nkr-tactile-action-usa-yellow-key-keyboard.asp)
+* USA Filco Ninja Majestouch-2, Tenkeyless, NKR, Tactile Action, [Keyboard](http://www.keyboardco.com/keyboard/usa-filco-ninja-majestouch-2-tenkeyless-nkr-tactile-action-keyboard.asp)
+
 To improve the visibility I bought one black and one yellow, and switched some keytops: F,J and characters not belonging to the alphabet or digits.
 
 I also rearranged Delete, Insert and Home. Now Home is to the left of End and Delete is closer to Backspace.
