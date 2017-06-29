@@ -1,8 +1,8 @@
 test = ->
 
-	assert expand([3]), [[0],[1],[2]]
-	assert expand([1,2]), [[0,0],[0,1]]
-	assert expand([2,3]), [[0,0],[0,1],[0,2],[1,0],[1,1],[1,2]]
+	assert expand([3],3), [[0],[1],[2]]
+	assert expand([1,2],2), [[0,0],[0,1]]
+	assert expand([2,3],6), [[0,0],[0,1],[0,2],[1,0],[1,1],[1,2]]
 
 	# 1D
 
@@ -145,8 +145,8 @@ test = ->
 	assert g.matrix()[0], [[0,1,2,3],[4,5,6,7],[8,9,10,11]]
 	assert g.matrix()[0][0], [0,1,2,3]
 	assert g.matrix()[0][0][0], 0
-	assert g.cell(0,0,0), 0
-	assert g.cell(1,2,3), 23
+	assert g.cell([0,0,0]), 0
+	assert g.cell([1,2,3]), 23
 
 	h = new Matrix(range(15)).reshape [3,5]
 	assert h.matrix(), [[0,1,2,3,4],[5,6,7,8,9],[10,11,12,13,14]]
@@ -185,16 +185,16 @@ test = ->
 
 	a = new Matrix [1,2,3,4]
 	b = new Matrix [5,6,7,8]
-	assert a.cell(0), 1
-	assert a.cell(1), 2
-	assert a.cell(2), 3
-	assert a.cell(3), 4
+	assert a.cell([0]), 1
+	assert a.cell([1]), 2
+	assert a.cell([2]), 3
+	assert a.cell([3]), 4
 	a.reshape [2,2]
 	b.reshape [2,2]
-	assert a.cell(0,0), 1
-	assert a.cell(0,1), 2
-	assert a.cell(1,0), 3
-	assert a.cell(1,1), 4
+	assert a.cell([0,0]), 1
+	assert a.cell([0,1]), 2
+	assert a.cell([1,0]), 3
+	assert a.cell([1,1]), 4
 
 	# mixed
 
@@ -204,4 +204,4 @@ test = ->
 
 	print 'Ready!'
 
-# test()
+test()
