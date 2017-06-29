@@ -1,6 +1,6 @@
 ### Keyboards
 
-I'm using two Filcos from [The Keyboard Company(http://www.keyboardco.com)
+I'm using two Filcos from [The Keyboard Company](http://www.keyboardco.com)
 
 To improve the visibility I bought one black and one yellow, and switched some keytops: F,J and characters not belonging to the alphabet or digits.
 
@@ -11,9 +11,10 @@ Most European countries has a Programmers Keyboard. Sweden does not.
 Å, Ä and Ö can be found with Alt + W, A and O.
 
 The reason I changed was to make Comment Block work. Ctrl+/
+
 No, just kidding.
 
-The driver I'm using is EurKey, http://eurkey.steffen.bruentjen.eu/?lang=en
+The driver I'm using is [EurKey](http://eurkey.steffen.bruentjen.eu/?lang=en).
 It gives me access to all european characters.
 
 Editor: Sublime Text.
