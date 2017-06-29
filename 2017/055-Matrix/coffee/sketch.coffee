@@ -43,8 +43,8 @@ class Matrix # any D
 	index : (indices) ->
 		res = 0
 		for arg,i in indices
-			si = if i >= @shape.length then 1 else @shape[i]
-			res = res * si + if si==1 then 0 else arg
+			res *= @shape[i] || 1
+			res += if (@shape[i] || 1) == 1 then 0 else arg
 		res
 
 	transpose : -> # 2D only
