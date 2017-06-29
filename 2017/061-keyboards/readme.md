@@ -8,7 +8,6 @@ I also rearranged Delete, Insert and Home. Now Home is to the left of End and De
 
 Although I'm from Sweden I prefer the US keyboard layout.
 
-Quote from
 Most European countries has a Programmers Keyboard. Sweden does not.
 Å, Ä and Ö can be found with Alt + W, A and O.
 
@@ -19,9 +18,9 @@ No, just kidding.
 The driver I'm using is [EurKEY](http://eurkey.steffen.bruentjen.eu/?lang=en).
 It gives me access to all european characters.
 
-Quote:
+Quotation from Steffen Bruentjen:
 
-EurKEY is based on the american keyboard layout. That's because the american layout is much more convenient to type specific characters. These include :// in http://, [] and {} in source code, or slashes (/) and backslashes (\) in a Unix shell.
+"EurKEY is based on the american keyboard layout. That's because the american layout is much more convenient to type specific characters. These include :// in http://, [] and {} in source code, or slashes (/) and backslashes (\) in a Unix shell."
 
 Editor: Sublime Text.
 
