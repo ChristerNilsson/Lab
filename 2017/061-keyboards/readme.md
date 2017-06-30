@@ -7,16 +7,26 @@ I'm using two Filcos from [The Keyboard Company](http://www.keyboardco.com)
 
 To improve the visibility I bought one black and one yellow, and switched some keytops: F,J and characters not belonging to the alphabet or digits.
 
-I also rearranged Delete, Insert and Home. Now Home is to the left of End and Delete is closer to Backspace.
+---
+
+Using [SharpKeys](https://github.com/randyrants/sharpkeys) I rearranged the following keys:
+
+```Coffeescript
+Delete to Home
+Insert to Delete
+PageUp to Insert
+PageDn to End
+Home   to PageUp
+End    to PageDn
+
+I find this mapping more natural and similar to the arrow key layout:
+
+Delete PageUp Insert
+Home   PageDn End
+```
+---
 
 Although I'm from Sweden I prefer the US keyboard layout.
-
-Most European countries has a Programmers Keyboard. Sweden does not.
-Å, Ä and Ö can be found with Alt + W, A and O.
-
-The reason I changed was to make Comment Block work. Ctrl+/
-
-No, just kidding.
 
 The driver I'm using is [EurKEY](http://eurkey.steffen.bruentjen.eu/?lang=en).
 It gives me access to all european characters.
@@ -24,6 +34,15 @@ It gives me access to all european characters.
 Quotation from Steffen Bruentjen:
 
 "EurKEY is based on the american keyboard layout. That's because the american layout is much more convenient to type specific characters. These include :// in http://, [] and {} in source code, or slashes (/) and backslashes (\\) in a Unix shell."
+
+Most European countries has a Programmers Keyboard. Sweden does not.
+Å, Ä and Ö can be found with Alt + W, A and O.
+
+---
+The third program I use is [Microsoft Keyboard Layout Creator](https://msdn.microsoft.com/en-us/globalization/keyboardlayouts.aspx).
+I use it for Deadkey Removal. You don't want to use "A to produce Ä.
+I used the .klc file stored on github.
+---
 
 Editor: Sublime Text.
 
