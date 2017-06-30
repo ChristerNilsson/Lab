@@ -7,6 +7,21 @@ I'm using two Filcos from [The Keyboard Company](http://www.keyboardco.com)
 
 To improve the visibility I bought one black and one yellow, and switched some keytops: F,J and characters not belonging to the alphabet or digits.
 
+Although I'm from Sweden I prefer the US keyboard layout.
+
+The driver I'm using is [EurKEY](http://eurkey.steffen.bruentjen.eu/?lang=en).
+It gives me access to all european characters.
+
+Quotation from Steffen Bruentjen:
+
+"EurKEY is based on the american keyboard layout. That's because the american layout is much more convenient to type specific characters. These include :// in http://, [] and {} in source code, or slashes (/) and backslashes (\\) in a Unix shell."
+
+Most European countries has a Programmers Keyboard. Sweden does not.
+Å, Ä and Ö can be found with Alt + W, A and O.
+
+Make sure composition keys ^'"~ are disabled.
+Eventually Microsoft Keyboard Layout Creator can do this.
+
 ---
 
 Using [SharpKeys](https://github.com/randyrants/sharpkeys) I rearranged the following keys:
@@ -24,26 +39,6 @@ I find this mapping more natural and similar to the arrow key layout:
 Delete PageUp Insert
 Home   PageDn End
 ```
----
-
-Although I'm from Sweden I prefer the US keyboard layout.
-
-The driver I'm using is [EurKEY](http://eurkey.steffen.bruentjen.eu/?lang=en).
-It gives me access to all european characters.
-
-Quotation from Steffen Bruentjen:
-
-"EurKEY is based on the american keyboard layout. That's because the american layout is much more convenient to type specific characters. These include :// in http://, [] and {} in source code, or slashes (/) and backslashes (\\) in a Unix shell."
-
-Most European countries has a Programmers Keyboard. Sweden does not.
-Å, Ä and Ö can be found with Alt + W, A and O.
-
----
-
-The third program I use is [Microsoft Keyboard Layout Creator](https://msdn.microsoft.com/en-us/globalization/keyboardlayouts.aspx).
-I use it for Deadkey Removal. You don't want to use "A to produce Ä.
-I used this [.klc file](https://github.com/ChristerNilsson/Lab/blob/master/2017/061-keyboards/USINT_FnuttDubbelfnutt.klc)
-
 ---
 
 Editor: Sublime Text.
