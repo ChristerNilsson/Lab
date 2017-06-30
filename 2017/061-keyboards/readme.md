@@ -19,6 +19,19 @@ Quotation from Steffen Bruentjen:
 Most European countries has a Programmers Keyboard. Sweden does not.
 Å, Ä and Ö can be found with Alt + W, A and O.
 
+Select EurKEY like this:
+
+* Control Panel
+* National Setup
+* Keyboard
+* Change
+* Add
+* English USA
+* EurKEY
+* OK OK OK
+
+This is done for every user.
+
 Make sure composition keys ^'"~ are disabled.
 Eventually Microsoft Keyboard Layout Creator can do this.
 
@@ -39,6 +52,7 @@ I find this mapping more natural and similar to the arrow key layout:
 Delete PageUp Insert
 Home   PageDn End
 ```
+This is done once for all users.
 ---
 
 Editor: Sublime Text.
