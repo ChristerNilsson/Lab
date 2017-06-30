@@ -52,7 +52,9 @@ I find this mapping more natural and similar to the arrow key layout:
 Delete PageUp Insert
 Home   PageDn End
 ```
+
 This is done once for all users.
+
 ---
 
 Editor: Sublime Text.
