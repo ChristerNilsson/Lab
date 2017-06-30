@@ -23,7 +23,7 @@ It gives me access to all european characters.
 
 Quotation from Steffen Bruentjen:
 
-"EurKEY is based on the american keyboard layout. That's because the american layout is much more convenient to type specific characters. These include :// in http://, [] and {} in source code, or slashes (/) and backslashes (\) in a Unix shell."
+"EurKEY is based on the american keyboard layout. That's because the american layout is much more convenient to type specific characters. These include :// in http://, [] and {} in source code, or slashes (/) and backslashes (\\) in a Unix shell."
 
 Editor: Sublime Text.
 
