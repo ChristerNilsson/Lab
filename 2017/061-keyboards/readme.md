@@ -39,9 +39,11 @@ Most European countries has a Programmers Keyboard. Sweden does not.
 Å, Ä and Ö can be found with Alt + W, A and O.
 
 ---
+
 The third program I use is [Microsoft Keyboard Layout Creator](https://msdn.microsoft.com/en-us/globalization/keyboardlayouts.aspx).
 I use it for Deadkey Removal. You don't want to use "A to produce Ä.
-I used the .klc file stored on github.
+I used this [.klc file](https://github.com/ChristerNilsson/Lab/blob/master/2017/061-keyboards/USINT_FnuttDubbelfnutt.klc)
+
 ---
 
 Editor: Sublime Text.
