@@ -48,4 +48,5 @@ I used this [.klc file](https://github.com/ChristerNilsson/Lab/blob/master/2017/
 
 Editor: Sublime Text.
 
+![Sixpack](IMG_1702.JPG)
 ![Keyboards](IMG_0351.JPG)
