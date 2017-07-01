@@ -16,7 +16,7 @@ class StarDodge
 			circle x,y,@level
 		rect width-3,0.4*height,2,0.2*height
 	draw : ->
-		[@x,@y] = [@x+1, @y + if mouseIsPressed or keyIsDown 32 then 1 else -1]
+		[@x,@y] = [@x+1, @y + if mouseIsPressed or touches.length>0 or keyIsDown 32 then 1 else -1]
 		sc 1
 		point @x,@y
 		if @x > width and 0.4*height < @y < 0.6*height then return @startNewGame 1
