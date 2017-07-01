@@ -1,0 +1,6 @@
+# QRcode
+
+* Ladda ner t ex appen [Scan](https://www.scan.me) om du vill veta vad klockan är.
+* Tack till
+  * [Stewart Russell](http://scruss.com/blog/2013/01/25/qrclock-the-demo-reel)
+  * [qrcode.js](https://github.com/davidshimjs/qrcodejs)
