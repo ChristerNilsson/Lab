@@ -1,16 +1,20 @@
 X = 420
 Y = 420
 R = 400
-MAX_SPEED = 10
-MAX_ACC = 0.02
+MAX_SPEED = 4 # grader/s
+MAX_ACC   = 1 # grader/s2
+LENGTH    = 5 # grader
+DT     = 0.02 # ms
 
 trains = []
 stations = []
 
+pause = false
+
 class Station
 	constructor : (@angle,@duration) ->
 	draw : ->
-		start = radians @angle - 5
+		start = radians @angle - LENGTH
 		stopp = radians @angle
 		fc()
 		sc 0.5
@@ -18,46 +22,75 @@ class Station
 		arc X,Y,2*R,2*R,start,stopp
 
 class Train
-	constructor : (@angle, @r,@g,@b, @nextStation, @nextTrain, @maxSpeed=MAX_SPEED, @duration=10000) ->
-		@state = 'R' # =stopped R=running
+	constructor : (@angle, @r,@g,@b, @nextStation, @nextTrain, @maxSpeed=MAX_SPEED, @maxAcc=MAX_ACC, @duration=10000) ->
+		@state = 'Run' # Stop Run
 		@speed = 0
-		@acc = MAX_ACC
+		@acc = @maxAcc
 		@nextStart = millis()
 
-	update : ->
-		if @state == ' '
+	dump : (txt,value,x,y) ->
+		if @nr == -1
+			sc()
+			fc 1
+			text txt + ' ' + value,x,y
+
+	update : (nr) ->
+
+		checkStation = =>
+			if ds - 20 < s
+				if ds < 0.1 #perrongstopp
+					acc = 0
+					@speed = 0
+					@nextStart = millis() + @duration
+					@state = 'Stop'
+				else if ds > 5
+					acc = @maxAcc
+				else # minska hastigheten normalt
+					acc = -@maxAcc
+			else
+				acc = @maxAcc
+
+			acc
+
+		checkTrain = => if dt - 12 < s then -@maxAcc else @maxAcc
+
+		@nr = nr
+		t = @maxSpeed/@maxAcc # 4
+		s = @maxAcc * t*t / 2 # 8
+		dt = trains[@nextTrain].angle - @angle
+		ds = stations[@nextStation].angle - @angle
+
+		if dt<0 then dt += 360
+		if ds<0 then ds += 360
+
+		if @state=='Run'
+			a = checkStation()
+			b = checkTrain()
+			@acc = _.min [a,b]
+		else
+			@acc = 0
 			if millis() > @nextStart
 				@nextStation = (@nextStation + 1) % stations.length
-				@state = 'R'
-				@acc = MAX_ACC
-		else
-			if @speed > @maxSpeed then @acc=0
-			if @speed < 0 then @acc=0
+				@state = 'Run'
+				@acc = @maxAcc
 
-			@speed += @acc
-			@angle = (@angle + @speed/100) %% 360
+		if nr==0
+			@dump 't', nf(t,0,1),400,100
+			@dump 's', nf(s,0,1),400,125
+			@dump 'dt',round(dt),400,150
+			@dump 'ds',round(ds),400,175
+		if pause then return
 
-			newSpeed1 = @speed
-			newSpeed2 = @speed
-			newSpeed3 = @speed
-
-			d = abs(@angle - (stations[@nextStation].angle))
-			if d < 20 then newSpeed1 = map(d, 20,0, @maxSpeed,2) # inbromsning pga station
-
-			if d < 0.1 # stopp
-				@acc = 0
-				newSpeed2 = 0
-				@nextStart = millis() + @duration
-				@state = ' '
-
-			d = abs(@angle - (trains[@nextTrain].angle-20))
-			if d < 20 then newSpeed3 = map(d, 10,0, @maxSpeed,2) # inbromsning pga annat tåg
-
-			@speed = _.min([newSpeed1,newSpeed2,newSpeed3])
+		@speed += @acc * DT
+		if @speed > @maxSpeed
+			@acc=0
+			@speed = @maxSpeed
+		if @speed < 0 then @speed = 0
+		@angle = (@angle + @speed*DT) %% 360
 
 	draw : (nr) ->
-		@update()
-		start = radians @angle-5
+		@update nr
+		start = radians @angle - LENGTH
 		stopp = radians @angle
 		fc()
 		sc @r,@g,@b
@@ -66,25 +99,29 @@ class Train
 		fc @r,@g,@b
 		y = 300+30*nr
 		sc()
-		text round(@speed), 450,y
-		if @nextStart > millis() then text round((@nextStart - millis())/1000), 650,y
+		text @state, 200,y
+		text nf(@acc,0,1), 300,y
+		text round(@angle), 400,y
+		text nf(@speed,0,1), 500,y
+		if @nextStart > millis() then text round((@nextStart - millis())/1000), 600,y
 		text @nextStation, 700,y
 
 setup = ->
 	createCanvas 2*X+40,2*Y+40
 	textSize 20
 	textAlign RIGHT
+	frameRate 50
 
 	stations.push new Station 50,60
-	stations.push new Station 100,60
-	stations.push new Station 180,60
-	stations.push new Station 240,60
-	stations.push new Station 330,60
+	stations.push new Station 101,60
+	stations.push new Station 183,60
+	stations.push new Station 224,60
+	stations.push new Station 337,60
 
-	trains.push new Train   0, 1,0,0, 0,1, MAX_SPEED+2, 5000
+	trains.push new Train   0, 1,0,0, 0,1, MAX_SPEED*1.5, MAX_ACC*1.1, 5000
 	trains.push new Train  70, 1,1,0, 1,2
 	trains.push new Train 140, 0,1,0, 2,3
-	trains.push new Train 210, 0,1,1, 3,4
+	trains.push new Train 211, 0,1,1, 3,4
 	trains.push new Train 300, 1,0,1, 4,0
 
 draw = ->
@@ -98,9 +135,16 @@ draw = ->
 	fc 1
 	sc()
 	sw 0
-	text 'speed', 450,y
-	text 'sec',   650,y
+	text 'state', 200,y
+	text 'acc',   300,y
+	text 'angle', 400,y
+	text 'speed', 500,y
+	text 'sec',   600,y
 	text 'next',  700,y
 
 	station.draw() for station in stations
 	train.draw i for train,i in trains
+	#print frameRate()
+
+mousePressed = ->
+	pause = not pause
