@@ -16,12 +16,12 @@ corr = (a1,sp1,acc1,a2,sp2,security) ->
 	distance = security + sp1*sp1/2/MAX_ACC
 	d = a2-a1
 	if d < 0 then d += 360
-	if d <= distance then -sp1 else MAX_ACC
+	if d <= distance then sp2-sp1 else MAX_ACC
 
 class Station
-	constructor : (@angle,@duration) ->
+	constructor : (@angle,@duration,@speed=0,@acc=0) ->
 
-	correction : (angle,speed,acc) -> corr angle,speed,acc,@angle,@speed,0
+	correction : (angle,speed,acc) -> corr angle,speed,acc,@angle,@speed,@acc
 
 	draw : ->
 		start = radians @angle - LENGTH
@@ -111,11 +111,11 @@ setup = ->
 	stations.push new Station 224,60
 	stations.push new Station 337,60
 
-	trains.push new Train   0, 1,0,0, 0,1, MAX_SPEED*1.5, MAX_ACC*1.1, 5000
-	trains.push new Train  70, 1,1,0, 1,2
-	trains.push new Train 140, 0,1,0, 2,3
-	trains.push new Train 211, 0,1,1, 3,4
-	trains.push new Train 300, 1,0,1, 4,0
+	trains.push new Train 0, 1,0,0, 0,1, MAX_SPEED*1.5, MAX_ACC*1.1, 5000
+	trains.push new Train 75, 1,1,0, 1,2
+	trains.push new Train 135, 0,1,0, 2,3
+	trains.push new Train 220, 0,1,1, 3,4
+	trains.push new Train 260, 1,0,1, 4,0
 
 draw = ->
 	bg 1
