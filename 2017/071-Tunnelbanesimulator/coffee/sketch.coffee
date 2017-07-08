@@ -100,7 +100,7 @@ class Train
 		text @nextStation, 700,y
 
 setup = ->
-	createCanvas 2*X+40,2*Y+40
+	createCanvas windowWidth,windowHeight # 2*X+40,2*Y+40
 	textSize 20
 	textAlign RIGHT
 	frameRate 50
@@ -119,6 +119,7 @@ setup = ->
 
 draw = ->
 	bg 1
+	scale height/Y/2
 	sc 0
 	sw 4
 	fill 0
