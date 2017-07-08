@@ -1,6 +1,7 @@
 X = 420
 Y = 420
 R = 400
+
 MAX_SPEED = 4 # grader/s
 MAX_ACC   = 1 # grader/s2
 LENGTH    = 5 # grader
@@ -11,8 +12,17 @@ stations = []
 
 pause = false
 
+corr = (a1,sp1,acc1,a2,sp2,security) ->
+	distance = security + sp1*sp1/2/MAX_ACC
+	d = a2-a1
+	if d < 0 then d += 360
+	if d <= distance then -sp1 else MAX_ACC
+
 class Station
 	constructor : (@angle,@duration) ->
+
+	correction : (angle,speed,acc) -> corr angle,speed,acc,@angle,@speed,0
+
 	draw : ->
 		start = radians @angle - LENGTH
 		stopp = radians @angle
@@ -28,31 +38,9 @@ class Train
 		@acc = @maxAcc
 		@nextStart = millis()
 
-	dump : (txt,value,x,y) ->
-		if @nr == -1
-			sc()
-			fc 1
-			text txt + ' ' + value,x,y
+	correction : (angle,speed,acc) -> corr angle,speed,acc,@angle,@speed,2*LENGTH
 
 	update : (nr) ->
-
-		checkStation = =>
-			if ds - 20 < s
-				if ds < 0.1 #perrongstopp
-					acc = 0
-					@speed = 0
-					@nextStart = millis() + @duration
-					@state = 'Stop'
-				else if ds > 5
-					acc = @maxAcc
-				else # minska hastigheten normalt
-					acc = -@maxAcc
-			else
-				acc = @maxAcc
-
-			acc
-
-		checkTrain = => if dt - 12 < s then -@maxAcc else @maxAcc
 
 		@nr = nr
 		t = @maxSpeed/@maxAcc # 4
@@ -64,9 +52,19 @@ class Train
 		if ds<0 then ds += 360
 
 		if @state=='Run'
-			a = checkStation()
-			b = checkTrain()
-			@acc = _.min [a,b]
+
+			if ds < 0.1 #perrongstopp
+				@acc = 0
+				@speed = 0
+				@nextStart = millis() + @duration
+				@state = 'Stop'
+			else
+				@s = stations[@nextStation].correction @angle,@speed,@acc
+				@t = trains[@nextTrain].correction @angle,@speed,@acc
+				@s = constrain @s,-1,1
+				@t = constrain @t,-1,1
+				@acc = _.min [@s,@t]
+
 		else
 			@acc = 0
 			if millis() > @nextStart
@@ -74,11 +72,6 @@ class Train
 				@state = 'Run'
 				@acc = @maxAcc
 
-		if nr==0
-			@dump 't', nf(t,0,1),400,100
-			@dump 's', nf(s,0,1),400,125
-			@dump 'dt',round(dt),400,150
-			@dump 'ds',round(ds),400,175
 		if pause then return
 
 		@speed += @acc * DT
@@ -144,7 +137,5 @@ draw = ->
 
 	station.draw() for station in stations
 	train.draw i for train,i in trains
-	#print frameRate()
 
-mousePressed = ->
-	pause = not pause
+mousePressed = ->	pause = not pause
