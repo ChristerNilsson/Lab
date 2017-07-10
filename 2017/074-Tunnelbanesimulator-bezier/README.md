@@ -2,6 +2,8 @@
 
 En supersimpel simulator
 
+Nu med Bezier!
+
 * Cirkulär för att underlätta utritning
 * Simulerar i första hand stopp på perrong samt inbromsning för andra tåg
 * Inbromsningspunkt räknas ut enbart m h a egen hastighet
