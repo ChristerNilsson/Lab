@@ -1,5 +1,5 @@
-MAX_SPEED = 8 # pixlar/s
-MAX_ACC   = 2 # pixlar/s2
+MAX_SPEED = 4 # pixlar/s
+MAX_ACC   = 1 # pixlar/s2
 LENGTH    = 10 # pixlar
 WIDTH     = 2 # pixlar
 DT        = 0.02 # ms
@@ -15,16 +15,14 @@ factor = 1.0
 [X0,Y0]=[0,0]
 memory = [0,0]
 
-getPoint = (ss) ->
-	ss %%= totalDist
-	s = ss + 0
+getPoint = (s) ->
+	s %%= totalDist
 	for segment in segments
 		if s <= segment.dist then return segment.point s else s -= segment.dist
 
 drawLine = (s1,s2) ->
 	[x1,y1] = getPoint s1
 	[x2,y2] = getPoint s2
-	#print s1,s2,x1,y1,x2,y2
 	line x1,y1,x2,y2
 
 corr = (a1,sp1,acc1,a2,sp2,security) ->
@@ -65,7 +63,7 @@ class Train
 
 		if @state=='Run'
 
-			if ds < 0.1 #perrongstopp
+			if ds < 0.05 #perrongstopp
 				@acc = 0
 				@speed = 0
 				@nextStart = millis() + @duration
@@ -117,22 +115,22 @@ class ASegment # Straight
 	draw : -> line @x1,@y1,@x2,@y2
 
 class BSegment # Bezier
-	constructor : (@x1,@y1,@x2,@y2,@x3,@y3,@x4,@y4,@steps=10) ->
+	constructor : (@x1,@y1,@x2,@y2,@x3,@y3,@x4,@y4,@steps=16) ->
 		@dist  = 0
 		for i in range @steps+1
 			xa = bezierPoint @x1, @x2, @x3, @x4, i / @steps
 			ya = bezierPoint @y1, @y2, @y3, @y4, i / @steps
 			xb = bezierPoint @x1, @x2, @x3, @x4, (i+1) / @steps
 			yb = bezierPoint @y1, @y2, @y3, @y4, (i+1) / @steps
-			#print xa,ya,xb,yb
 			@dist += dist xa,ya, xb,yb
-		#print @dist
-	point : (d) -> [bezierPoint(@x1, @x2, @x3, @x4, d/@dist), bezierPoint(@y1, @y2, @y3, @y4, d/@dist)]
+	point : (d) -> [bezierPoint(@x1,@x2,@x3,@x4, d/@dist), bezierPoint(@y1,@y2,@y3,@y4, d/@dist)]
 	draw : -> bezier @x1,@y1,@x2,@y2,@x3,@y3,@x4,@y4
 
 setup = ->
 	cnv = createCanvas 800,800
 	cnv.mouseWheel changeScale
+
+	strokeCap SQUARE
 
 	textSize 20
 	textAlign RIGHT
@@ -157,20 +155,15 @@ setup = ->
 
 	for segment in segments
 		totalDist += segment.dist
-	#print totalDist
 
 	for i in range 48
-		stations.push new Station i/48,60
-	#stations.push new Station 0.40,60
-	#stations.push new Station 0.60,60
-	#stations.push new Station 0.80,60
-	#stations.push new Station 0.95,60
+		stations.push new Station (i+0.23)/48,60
 
-	trains.push new Train 0.10, 1,0,0, 0,1, MAX_SPEED*1.5, MAX_ACC*1.1, 5000
-	trains.push new Train 0.30, 1,1,0, 1,2
-	trains.push new Train 0.50, 0,1,0, 2,3
-	trains.push new Train 0.70, 0,1,1, 3,4
-	trains.push new Train 0.90, 0,0,1, 4,0
+	trains.push new Train 0.10, 1,0,0, 5,1, MAX_SPEED*1.5, MAX_ACC*1.1, 5000
+	trains.push new Train 0.30, 1,1,0, 15,2
+	trains.push new Train 0.50, 0,1,0, 25,3
+	trains.push new Train 0.70, 0,1,1, 34,4
+	trains.push new Train 0.90, 0,0,1, 44,0
 
 draw = ->
 	bg 0.5
@@ -193,7 +186,6 @@ draw = ->
 		sw 2
 		fc()
 		segment.draw()
-	#line 320,95,480,95
 
 	station.draw() for station in stations
 	train.draw i for train,i in trains
