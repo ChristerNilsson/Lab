@@ -48,7 +48,7 @@ class Train
 		@nextStart = millis()
 		@angle *= totalDist
 
-	correction : (angle,speed,acc) -> corr angle,speed,acc,@angle,@speed,3*LENGTH
+	correction : (angle,speed,acc) -> corr angle,speed,acc,@angle,@speed,LENGTH * 1.1 # 2
 
 	update : (nr) ->
 
@@ -159,7 +159,7 @@ setup = ->
 	for i in range 48
 		stations.push new Station (i+0.23)/48,60
 
-	trains.push new Train 0.10, 1,0,0, 5,1, MAX_SPEED*1.5, MAX_ACC*1.1, 5000
+	trains.push new Train 0.28, 1,0,0, 14,1, MAX_SPEED*1.5, MAX_ACC*1.1, 5000
 	trains.push new Train 0.30, 1,1,0, 15,2
 	trains.push new Train 0.50, 0,1,0, 25,3
 	trains.push new Train 0.70, 0,1,1, 34,4
