@@ -1,7 +1,7 @@
 MAX_SPEED = 4 # pixlar/s
 MAX_ACC   = 1 # pixlar/s2
 LENGTH    = 10 # pixlar
-WIDTH     = 2 # pixlar
+WIDTH     = 2 # pixlar # 3,5 osv ger icke sammanhängande bezier med line. 0.5,2,4 ok
 DT        = 0.02 # ms
 
 trains = []
@@ -38,7 +38,8 @@ class Station
 		fc()
 		sc 0.1
 		sw WIDTH
-		drawLine @angle,@angle-LENGTH
+		drawLine @angle,@angle-5.1
+		drawLine @angle-4.9,@angle-LENGTH
 
 class Train
 	constructor : (@angle, @r,@g,@b, @nextStation, @nextTrain, @maxSpeed=MAX_SPEED, @maxAcc=MAX_ACC, @duration=10000) ->
@@ -97,7 +98,8 @@ class Train
 		sc @r,@g,@b
 		sw WIDTH
 
-		drawLine @angle,@angle-LENGTH
+		drawLine @angle,@angle-4.8
+		drawLine @angle-5.2,@angle-LENGTH
 
 		fc @r,@g,@b
 		y = 40+20*nr
@@ -183,7 +185,7 @@ draw = ->
 
 	for segment in segments
 		sc 1
-		sw 2
+		sw WIDTH
 		fc()
 		segment.draw()
 
