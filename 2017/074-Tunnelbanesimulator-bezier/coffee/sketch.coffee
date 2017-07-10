@@ -198,32 +198,18 @@ draw = ->
 	station.draw() for station in stations
 	train.draw i for train,i in trains
 
+mousePressed = -> memory = [mouseX,mouseY]
 mouseDragged = ->
-	X0 += (mouseX-memory[0])# /factor
-	Y0 += (mouseY-memory[1])# /factor
+	X0 += (mouseX-memory[0])
+	Y0 += (mouseY-memory[1])
 	memory = [mouseX,mouseY]
-	print X0,Y0
-
-mousePressed = ->
-	memory = [mouseX,mouseY]
-	# print 'pressed',memory,X0,Y0
-	# print X0,Y0
-
-mouseMoved = ->
-	#print 'moved',X0,Y0,mouseX,mouseY,factor
 
 changeScale = (event) ->
 	if event.deltaY > 0
+		X0 = (X0+mouseX)/2
+		Y0 = (Y0+mouseY)/2
 		factor /= 2
-		X0 = X0 + mouseX * factor
-		Y0 = Y0 + mouseY * factor
 	else
-		X0 = X0 - mouseX * factor
-		Y0 = Y0 - mouseY * factor
+		X0 = 2*X0-mouseX
+		Y0 = 2*Y0-mouseY
 		factor *= 2
-		#X0 = X0 - mouseX * factor
-		#Y0 = Y0 - mouseY * factor
-
-	print X0,Y0
-
-#		Y0 = Y0 - factor * mouseY
