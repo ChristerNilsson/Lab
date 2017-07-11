@@ -1,10 +1,16 @@
-MAX_SPEED = 0.4 # pixlar/s
-MAX_ACC   = 0.025 # pixlar/s2
-LENGTH    = 5 # pixlar
+MSPEED = 25 # m/s
+MACC = 1.25 # m/s2
+LEN = 3*46.5 # m
+
+FACTOR = 24 # m/pixel 38400/1613
+
+MAX_SPEED = MSPEED/FACTOR # pixlar/s
+MAX_ACC   = MACC/FACTOR # pixlar/s2
+LENGTH    = LEN/FACTOR # pixlar
 WIDTH     = 0.5 # pixlar # 3,5 osv ger icke sammanhängande bezier med line. 0.5,2,4 ok
 DT        = 0.02 # ms
 
-names = 'Åkeshov Brommaplan Abrahamsberg StoraMossen Alvik Kristineberg Thorildsplan Fridhemsplan S:tEriksplan Odenplan Rådmansgatan Hötorget T-centralen GamlaStan Slussen Medborgarplatsen Skanstull Gullmarsplan Skärmabrink Hammarbyhöjden Björkhagen Kärrtorp Bagarmossen Skarpnäck'.split ' '
+names = 'Åkeshov Brommaplan Abrahamsberg StoraMossen Alvik Kristineberg Thorildsplan Fridhemsplan S:tEriksplan Odenplan Rådmansgatan Hötorget T-centralen GamlaStan Slussen Medborgarplatsen Skanstull Gullmarsplan Skärmarbrink Hammarbyhöjden Björkhagen Kärrtorp Bagarmossen Skarpnäck'.split ' '
 trains = []
 stations = []
 segments = []
@@ -39,9 +45,9 @@ class Station
 		fc()
 		sc 0.1
 		sw WIDTH
-		drawLine @angle,@angle-2.55
-		drawLine @angle-2.45,@angle-LENGTH
-		[x,y] = getPoint @angle-2.5
+		drawLine @angle,@angle-0.51 * LENGTH
+		drawLine @angle-0.49*LENGTH,@angle-LENGTH
+		[x,y] = getPoint @angle-0.5*LENGTH
 		sw 0
 		fc 0
 		textSize 5
@@ -79,8 +85,8 @@ class Train
 			else
 				@s = stations[@nextStation].correction @angle,@speed,@acc
 				@t = trains[@nextTrain].correction @angle,@speed,@acc
-				@s = constrain @s,-1,1
-				@t = constrain @t,-1,1
+				@s = constrain @s,-MAX_ACC,MAX_ACC
+				@t = constrain @t,-MAX_ACC,MAX_ACC
 				@acc = _.min [@s,@t]
 
 		else
@@ -105,8 +111,8 @@ class Train
 		sc @r,@g,@b
 		sw WIDTH
 
-		drawLine @angle,@angle-2.4
-		drawLine @angle-2.6,@angle-LENGTH
+		drawLine @angle,@angle-0.49*LENGTH
+		drawLine @angle-0.51*LENGTH, @angle-LENGTH
 
 	drawText : (nr) ->
 		fc @r,@g,@b
@@ -115,33 +121,32 @@ class Train
 		textSize 16
 		textAlign RIGHT,CENTER
 		text @state, 50,y
-		text round(100*@acc), 100,y
-		text round(@angle * 19600/totalDist), 150,y
-		text round(100*@speed), 200,y
+		text nf(FACTOR*@acc,0,2), 100,y
+		text round(FACTOR*@speed), 150,y
+		text round(@angle * 19600/totalDist), 200,y
 		if @nextStart > millis() then text round((@nextStart - millis())/1000), 250,y
 		textAlign LEFT,CENTER
 		if @nextStation<24
 			text names[@nextStation], 270,y
 		else
-			text names[23-@nextStation %% 24], 270,y
+			text names[47-@nextStation], 270,y
 
 class ASegment # Straight
-	constructor : (@p1,@p2) ->
-		@dist = dist @p1[0],@p1[1], @p2[0],@p2[1]
-	point : (d) -> [d/@dist*@p2[0]+(@dist-d)/@dist*@p1[0], d/@dist*@p2[1]+(@dist-d)/@dist*@p1[1]]
-	draw : -> line @p1[0],@p1[1], @p2[0],@p2[1]
+	constructor : (@a,@b,@c,@d) ->
+		@dist = dist @a,@b,@c,@d
+	point : (d) -> [d/@dist*@c+(@dist-d)/@dist*@a, d/@dist*@d+(@dist-d)/@dist*@b]
+	draw : -> line @a,@b,@c,@d
 
 class BSegment # Bezier
-	constructor : (@p1,@p2,@p3,@p4,@steps=16) ->
+	constructor : (@a,@b,@c,@d,@e,@f,@g,@h,@steps=16) ->
 		@dist  = 0
 		for i in range @steps+1
-			xa = bezierPoint @p1[0],@p2[0],@p3[0],@p4[0], i / @steps
-			ya = bezierPoint @p1[1],@p2[1],@p3[1],@p4[1], i / @steps
-			xb = bezierPoint @p1[0],@p2[0],@p3[0],@p4[0], (i+1) / @steps
-			yb = bezierPoint @p1[1],@p2[1],@p3[1],@p4[1], (i+1) / @steps
+			[xa,ya] = @bp i / @steps
+			[xb,yb] = @bp (i+1) / @steps
 			@dist += dist xa,ya, xb,yb
-	point : (d) -> [bezierPoint(@p1[0],@p2[0],@p3[0],@p4[0], d/@dist), bezierPoint(@p1[1],@p2[1],@p3[1],@p4[1], d/@dist)]
-	draw : -> bezier @p1[0],@p1[1],@p2[0],@p2[1],@p3[0],@p3[1],@p4[0],@p4[1]
+	point : (d) -> @bp d/@dist
+	bp : (t) -> [bezierPoint(@a,@c,@e,@g,t), bezierPoint(@b,@d,@f,@h,t)]
+	draw : -> bezier @a,@b,@c,@d,@e,@f,@g,@h
 
 setup = ->
 	cnv = createCanvas 1000,800
@@ -159,16 +164,17 @@ setup = ->
 	y1 = 15
 	y2 = 785
 	y3 = 800
-	segments.push new ASegment [x2,y1],[x2,y2]
-	segments.push new BSegment [x2,y2],[x2,y3],[x1,y3],[x1,y2]
-	segments.push new ASegment [x1,y2],[x1,y1]
-	segments.push new BSegment [x1,y1],[x1,y0],[x2,y0],[x2,y1]
+	segments.push new ASegment x2,y1, x2,y2
+	segments.push new BSegment x2,y2, x2,y3, x1,y3, x1,y2
+	segments.push new ASegment x1,y2, x1,y1
+	segments.push new BSegment x1,y1, x1,y0, x2,y0, x2,y1
 
 	sc 1
 	sw 1
 
 	for segment in segments
 		totalDist += segment.dist
+	print totalDist
 
 	for i in range 48
 		if i<24 then name = names[i] else name = ''
@@ -190,10 +196,10 @@ draw = ->
 	textSize 16
 	textAlign RIGHT,CENTER
 	text 'state',  50,y
-	text 'acc',   100,y
-	text 'pos',   150,y
-	text 'sp',    200,y
-	text 'sec',   250,y
+	text 'm/s2',   100,y
+	text 'm/s',   150,y
+	text 'm',    200,y
+	text 's',   250,y
 	text 'dest',  300,y
 	train.drawText i for train,i in trains
 
