@@ -1,13 +1,16 @@
 MSPEED = 25 # m/s
 MACC = 1.25 # m/s2
-LEN = 3*46.5 # m
+MLEN = 3*46.5 # m
+MWIDTH = 3  # m
+MTOTAL = 2 * 19600 # m
 
-FACTOR = 24 # m/pixel 38400/1611.5
+FACTOR = 24.3 # m/pixel MTOTAL/1611.5
+MM = 0.001/FACTOR # pixel/mm
 
 MAX_SPEED = MSPEED/FACTOR # pixlar/s
 MAX_ACC   = MACC/FACTOR # pixlar/s2
-LENGTH    = LEN/FACTOR # pixlar
-WIDTH     = 0.5 # pixlar # 3,5 osv ger icke sammanhängande bezier med line. 0.5,2,4 ok
+LENGTH    = MLEN/FACTOR # pixlar
+WIDTH     = MWIDTH/FACTOR # 0.5 # pixlar # 3,5 osv ger icke sammanhängande bezier med line. 0.5,2,4 ok
 DT        = 0.02 # ms
 
 names = 'Åkeshov Brommaplan Abrahamsberg StoraMossen Alvik Kristineberg Thorildsplan Fridhemsplan S:tEriksplan Odenplan Rådmansgatan Hötorget T-centralen GamlaStan Slussen Medborgarplatsen Skanstull Gullmarsplan Skärmarbrink Hammarbyhöjden Björkhagen Kärrtorp Bagarmossen Skarpnäck'.split ' '
@@ -18,8 +21,8 @@ segments = []
 totalDist = 0 # pixlar
 
 pause = false
-factor = 1.0
-[X0,Y0]=[0,0]
+factor = 37.4
+[X0,Y0]=[-483,1.778]
 memory = [0,0]
 
 getPoint = (s) ->
@@ -45,17 +48,16 @@ class Station
 		fc()
 		sc 0.1
 		sw WIDTH
-		drawLine @angle,@angle-0.51 * LENGTH
-		drawLine @angle-0.49*LENGTH,@angle-LENGTH
+		drawLine @angle,@angle-LENGTH
 		[x,y] = getPoint @angle-0.5*LENGTH
 		sw 0
 		fc 0
-		textSize 5
-		textAlign LEFT,CENTER
-		text @name,x+2,y
+		textSize 5/3
+		textAlign CENTER,CENTER
+		text @name,x-7.5,y
 
 class Train
-	constructor : (@angle, @r,@g,@b, @nextStation, @nextTrain, @maxSpeed=MAX_SPEED, @maxAcc=MAX_ACC, @duration=30000) ->
+	constructor : (@angle, @r,@g,@b, @nextStation, @nextTrain, @maxSpeed=MAX_SPEED, @maxAcc=MAX_ACC, @duration=60000) ->
 		@state = 'Run' # Stop Run
 		@speed = 0
 		@acc = @maxAcc
@@ -111,15 +113,10 @@ class Train
 		sc @r,@g,@b
 		sw WIDTH
 
-		a0 = @angle
-		a1 = @angle - 0.33 * LENGTH
-		a2 = @angle - 0.34 * LENGTH
-		a3 = @angle - 0.66 * LENGTH
-		a4 = @angle - 0.67 * LENGTH
-		a5 = @angle - 1.00 * LENGTH
-		drawLine a0,a1
-		drawLine a2,a3
-		drawLine a4,a5
+		for i in range 9
+			a0 = @angle - i*LENGTH/9 - 250*MM
+			a1 = @angle - (i+1)*LENGTH/9 + 250*MM
+			drawLine a0,a1
 
 	drawText : (nr) ->
 		fc @r,@g,@b
@@ -130,7 +127,7 @@ class Train
 		text @state, 50,y
 		text nf(FACTOR*@acc,0,2), 100,y
 		text round(FACTOR*@speed), 150,y
-		text round(@angle * 19600/totalDist), 200,y
+		text round(@angle/totalDist * MTOTAL), 200,y
 		if @nextStart > millis() then text round((@nextStart - millis())/1000), 250,y
 		textAlign LEFT,CENTER
 		if @nextStation<24
@@ -221,28 +218,17 @@ draw = ->
 	station.draw() for station in stations
 	train.draw i for train,i in trains
 
-# pan code:
 mousePressed = -> memory = [mouseX,mouseY]
 mouseDragged = ->
 	X0 += (mouseX - memory[0]) / factor
 	Y0 += (mouseY - memory[1]) / factor
 	memory = [mouseX,mouseY]
+	print X0,Y0,factor
 
 changeScale = (event) ->
-	S = 1.5
+	S = 1.1
 	X0 -= mouseX / factor
 	Y0 -= mouseY / factor
 	factor = if event.deltaY > 0 then factor/S else factor*S
 	X0 += mouseX / factor
 	Y0 += mouseY / factor
-
-# changeScale = (event) ->
-# 	S = 2 # Code only handles S==2
-# 	if event.deltaY > 0
-# 		X0 = (X0+mouseX)/S
-# 		Y0 = (Y0+mouseY)/S
-# 		factor /= S
-# 	else
-# 		X0 = S*X0-mouseX
-# 		Y0 = S*Y0-mouseY
-# 		factor *= S
