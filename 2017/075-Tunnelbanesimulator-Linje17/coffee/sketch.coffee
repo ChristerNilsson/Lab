@@ -30,9 +30,16 @@ getPoint = (s) ->
 	for segment in segments
 		if s <= segment.dist then return segment.point s else s -= segment.dist
 
+midPoint = (a,b) ->	[(a[0]+b[0])/2, (a[1]+b[1])/2]
+
 drawLine = (s1,s2) ->
 	[x1,y1] = getPoint s1
 	[x2,y2] = getPoint s2
+	line x1,y1,x2,y2
+
+drawLine2 = (a,b) ->
+	[x1,y1] = a
+	[x2,y2] = b
 	line x1,y1,x2,y2
 
 corr = (a1,sp1,acc1,a2,sp2,security) ->
@@ -113,10 +120,26 @@ class Train
 		sc @r,@g,@b
 		sw WIDTH
 
-		for i in range 9
-			a0 = @angle - i*LENGTH/9 - 250*MM
-			a1 = @angle - (i+1)*LENGTH/9 + 250*MM
-			drawLine a0,a1
+		for i in range 3
+			offset = @angle - i*LENGTH/3
+			a0 = getPoint offset - 0*LENGTH/9 - 1500*MM
+			a2 = getPoint offset - 1*LENGTH/9 + 250*MM
+			a3 = getPoint offset - 1*LENGTH/9 - 250*MM
+			a4 = getPoint offset - 2*LENGTH/9 + 250*MM
+			a5 = getPoint offset - 2*LENGTH/9 - 250*MM
+			a7 = getPoint offset - 3*LENGTH/9 + 1500*MM
+
+			a1 = midPoint a0,a2
+			a6 = midPoint a5,a7
+
+			strokeCap ROUND
+			drawLine2 a0,a1
+			drawLine2 a6,a7
+
+			strokeCap SQUARE
+			drawLine2 a1,a2
+			drawLine2 a3,a4
+			drawLine2 a5,a6
 
 	drawText : (nr) ->
 		fc @r,@g,@b
