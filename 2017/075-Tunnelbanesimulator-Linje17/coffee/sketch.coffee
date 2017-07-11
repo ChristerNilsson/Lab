@@ -230,10 +230,10 @@ mouseDragged = ->
 changeScale = (event) ->
 	S = 1.9 # Code only handles S==2
 	if event.deltaY > 0
-		#X0 = (X0+mouseX)/S
-		#Y0 = (Y0+mouseY)/S
-		X0 = X0 + mouseX / factor
-		Y0 = Y0 + mouseY / factor
+		X0 = (X0+mouseX)/S
+		Y0 = (Y0+mouseY)/S
+		#X0 = X0 + mouseX / factor
+		#Y0 = Y0 + mouseY / factor
 		factor /= S
 	else
 		X0 = S*X0-mouseX
