@@ -2,7 +2,7 @@ MSPEED = 25 # m/s
 MACC = 1.25 # m/s2
 LEN = 3*46.5 # m
 
-FACTOR = 24 # m/pixel 38400/1613
+FACTOR = 24 # m/pixel 38400/1611.5
 
 MAX_SPEED = MSPEED/FACTOR # pixlar/s
 MAX_ACC   = MACC/FACTOR # pixlar/s2
@@ -77,7 +77,7 @@ class Train
 
 		if @state=='Run'
 
-			if ds < 0.05 #perrongstopp
+			if ds < 0.001 #perrongstopp 1 mm
 				@acc = 0
 				@speed = 0
 				@nextStart = millis() + @duration
@@ -111,8 +111,15 @@ class Train
 		sc @r,@g,@b
 		sw WIDTH
 
-		drawLine @angle,@angle-0.49*LENGTH
-		drawLine @angle-0.51*LENGTH, @angle-LENGTH
+		a0 = @angle
+		a1 = @angle - 0.33 * LENGTH
+		a2 = @angle - 0.34 * LENGTH
+		a3 = @angle - 0.66 * LENGTH
+		a4 = @angle - 0.67 * LENGTH
+		a5 = @angle - 1.00 * LENGTH
+		drawLine a0,a1
+		drawLine a2,a3
+		drawLine a4,a5
 
 	drawText : (nr) ->
 		fc @r,@g,@b
@@ -132,13 +139,12 @@ class Train
 			text names[47-@nextStation], 270,y
 
 class ASegment # Straight
-	constructor : (@a,@b,@c,@d) ->
-		@dist = dist @a,@b,@c,@d
+	constructor : (@a,@b, @c,@d) -> @dist = dist @a,@b, @c,@d
 	point : (d) -> [d/@dist*@c+(@dist-d)/@dist*@a, d/@dist*@d+(@dist-d)/@dist*@b]
-	draw : -> line @a,@b,@c,@d
+	draw : -> line @a,@b, @c,@d
 
 class BSegment # Bezier
-	constructor : (@a,@b,@c,@d,@e,@f,@g,@h,@steps=16) ->
+	constructor : (@a,@b, @c,@d, @e,@f, @g,@h,@steps=16) ->
 		@dist  = 0
 		for i in range @steps+1
 			[xa,ya] = @bp i / @steps
@@ -146,7 +152,7 @@ class BSegment # Bezier
 			@dist += dist xa,ya, xb,yb
 	point : (d) -> @bp d/@dist
 	bp : (t) -> [bezierPoint(@a,@c,@e,@g,t), bezierPoint(@b,@d,@f,@h,t)]
-	draw : -> bezier @a,@b,@c,@d,@e,@f,@g,@h
+	draw : -> bezier @a,@b, @c,@d, @e,@f, @g,@h
 
 setup = ->
 	cnv = createCanvas 1000,800
@@ -158,11 +164,11 @@ setup = ->
 	textAlign RIGHT
 	frameRate 50
 
-	x1 = 480
+	x1 = 485
 	x2 = 500
 	y0 = 0
-	y1 = 15
-	y2 = 785
+	y1 = 10
+	y2 = 790
 	y3 = 800
 	segments.push new ASegment x2,y1, x2,y2
 	segments.push new BSegment x2,y2, x2,y3, x1,y3, x1,y2
@@ -178,13 +184,13 @@ setup = ->
 
 	for i in range 48
 		if i<24 then name = names[i] else name = ''
-		stations.push new Station 0.0006 + i/48,name,60
+		stations.push new Station 0.0042 + i/48,name,60
 
-	trains.push new Train 0.10, 1,0,0, 5,1 #, MAX_SPEED*1.5, MAX_ACC*1.1, 5000
+	trains.push new Train 0.10, 1,0,0, 5,1
 	trains.push new Train 0.30, 1,1,0, 15,2
-	trains.push new Train 0.50, 0,1,0, 25,3
+	trains.push new Train 0.50, 0,1,0, 24,3
 	trains.push new Train 0.70, 0,1,1, 34,4
-	trains.push new Train 0.90, 0,0,1, 44,0
+	trains.push new Train 0.98, 0,0,1, 47,0
 
 draw = ->
 	bg 0.5
@@ -195,12 +201,12 @@ draw = ->
 	y = 20
 	textSize 16
 	textAlign RIGHT,CENTER
-	text 'state',  50,y
-	text 'm/s2',   100,y
-	text 'm/s',   150,y
+	text 'state', 50,y
+	text 'm/s2', 100,y
+	text 'm/s',  150,y
 	text 'm',    200,y
-	text 's',   250,y
-	text 'dest',  300,y
+	text 's',    250,y
+	text 'dest', 300,y
 	train.drawText i for train,i in trains
 
 	translate X0,Y0
@@ -217,16 +223,17 @@ draw = ->
 
 mousePressed = -> memory = [mouseX,mouseY]
 mouseDragged = ->
-	X0 += (mouseX-memory[0])
-	Y0 += (mouseY-memory[1])
+	X0 += mouseX - memory[0]
+	Y0 += mouseY - memory[1]
 	memory = [mouseX,mouseY]
 
 changeScale = (event) ->
+	S = 2 # Koden klarar bara 2
 	if event.deltaY > 0
-		X0 = (X0+mouseX)/2
-		Y0 = (Y0+mouseY)/2
-		factor /= 2
+		X0 = (X0+mouseX)/S
+		Y0 = (Y0+mouseY)/S
+		factor /= S
 	else
-		X0 = 2*X0-mouseX
-		Y0 = 2*Y0-mouseY
-		factor *= 2
+		X0 = S*X0-mouseX
+		Y0 = S*Y0-mouseY
+		factor *= S
