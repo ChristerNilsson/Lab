@@ -183,11 +183,16 @@ setup = ->
 		if i<24 then name = names[i] else name = ''
 		stations.push new Station 0.0042 + i/48,name,60
 
-	trains.push new Train 0.10, 1,0,0, 5,1
-	trains.push new Train 0.30, 1,1,0, 15,2
-	trains.push new Train 0.50, 0,1,0, 24,3
-	trains.push new Train 0.70, 0,1,1, 34,4
-	trains.push new Train 0.98, 0,0,1, 47,0
+	trains.push new Train 0.00, 1,0,0, 0,1
+	trains.push new Train 0.10, 1,1,0, 5,2
+	trains.push new Train 0.20, 0,1,0, 10,3
+	trains.push new Train 0.30, 0,1,1, 15,4
+	trains.push new Train 0.40, 0,0,1, 19,5
+	trains.push new Train 0.50, 1,0,1, 24,6
+	trains.push new Train 0.60, 0.5,1,0, 29,7
+	trains.push new Train 0.70, 0.75,0.75,0.75, 34,8
+	trains.push new Train 0.80, 0.20,0.30,0.40, 39,9
+	trains.push new Train 0.90, 0.25,0.25,0.25, 43,0
 
 draw = ->
 	bg 0.5
