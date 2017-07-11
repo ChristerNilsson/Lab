@@ -209,8 +209,8 @@ draw = ->
 	text 'dest', 300,y
 	train.drawText i for train,i in trains
 
-	translate X0,Y0
 	scale factor
+	translate X0,Y0
 
 	for segment in segments
 		sc 1
@@ -221,21 +221,28 @@ draw = ->
 	station.draw() for station in stations
 	train.draw i for train,i in trains
 
+# pan code:
 mousePressed = -> memory = [mouseX,mouseY]
 mouseDragged = ->
-	X0 += mouseX - memory[0]
-	Y0 += mouseY - memory[1]
+	X0 += (mouseX - memory[0]) / factor
+	Y0 += (mouseY - memory[1]) / factor
 	memory = [mouseX,mouseY]
 
 changeScale = (event) ->
-	S = 1.9 # Code only handles S==2
-	if event.deltaY > 0
-		X0 = (X0+mouseX)/S
-		Y0 = (Y0+mouseY)/S
-		#X0 = X0 + mouseX / factor
-		#Y0 = Y0 + mouseY / factor
-		factor /= S
-	else
-		X0 = S*X0-mouseX
-		Y0 = S*Y0-mouseY
-		factor *= S
+	S = 1.5
+	X0 -= mouseX / factor
+	Y0 -= mouseY / factor
+	factor = if event.deltaY > 0 then factor/S else factor*S
+	X0 += mouseX / factor
+	Y0 += mouseY / factor
+
+# changeScale = (event) ->
+# 	S = 2 # Code only handles S==2
+# 	if event.deltaY > 0
+# 		X0 = (X0+mouseX)/S
+# 		Y0 = (Y0+mouseY)/S
+# 		factor /= S
+# 	else
+# 		X0 = S*X0-mouseX
+# 		Y0 = S*Y0-mouseY
+# 		factor *= S
