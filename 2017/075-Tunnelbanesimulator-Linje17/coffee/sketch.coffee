@@ -64,7 +64,7 @@ class Station
 		text @name,x-7.5,y
 
 class Train
-	constructor : (@angle, @r,@g,@b, @nextStation, @nextTrain, @maxSpeed=MAX_SPEED, @maxAcc=MAX_ACC, @duration=60000) ->
+	constructor : (@angle, @nextStation, @nextTrain, @r,@g,@b, @maxSpeed=MAX_SPEED, @maxAcc=MAX_ACC, @duration=60000) ->
 		@state = 'Run' # Stop Run
 		@speed = 0
 		@acc = @maxAcc
@@ -123,10 +123,10 @@ class Train
 		for i in range 3
 			offset = @angle - i*LENGTH/3
 			a0 = getPoint offset - 0*LENGTH/9 - 1500*MM
-			a2 = getPoint offset - 1*LENGTH/9 + 250*MM
-			a3 = getPoint offset - 1*LENGTH/9 - 250*MM
-			a4 = getPoint offset - 2*LENGTH/9 + 250*MM
-			a5 = getPoint offset - 2*LENGTH/9 - 250*MM
+			a2 = getPoint offset - 1*LENGTH/9 + 150*MM
+			a3 = getPoint offset - 1*LENGTH/9 - 150*MM
+			a4 = getPoint offset - 2*LENGTH/9 + 150*MM
+			a5 = getPoint offset - 2*LENGTH/9 - 150*MM
 			a7 = getPoint offset - 3*LENGTH/9 + 1500*MM
 
 			a1 = midPoint a0,a2
@@ -175,7 +175,7 @@ class BSegment # Bezier
 	draw : -> bezier @a,@b, @c,@d, @e,@f, @g,@h
 
 setup = ->
-	cnv = createCanvas 1000,800
+	cnv = createCanvas windowWidth,windowHeight
 	cnv.mouseWheel changeScale
 
 	strokeCap SQUARE
@@ -206,16 +206,14 @@ setup = ->
 		if i<24 then name = names[i] else name = ''
 		stations.push new Station 0.0042 + i/48,name,60
 
-	trains.push new Train 0.00, 1,0,0, 0,1
-	trains.push new Train 0.10, 1,1,0, 5,2
-	trains.push new Train 0.20, 0,1,0, 10,3
-	trains.push new Train 0.30, 0,1,1, 15,4
-	trains.push new Train 0.40, 0,0,1, 19,5
-	trains.push new Train 0.50, 1,0,1, 24,6
-	trains.push new Train 0.60, 0.5,1,0, 29,7
-	trains.push new Train 0.70, 0.75,0.75,0.75, 34,8
-	trains.push new Train 0.80, 0.20,0.30,0.40, 39,9
-	trains.push new Train 0.90, 0.25,0.25,0.25, 43,0
+	trains.push new Train 0.000,  0,1, 1,0,0
+	trains.push new Train 0.120,  6,2, 1,1,0
+	trains.push new Train 0.246, 12,3, 0,1,0
+	trains.push new Train 0.372, 18,4, 0,1,1
+	trains.push new Train 0.498, 24,5, 0,0,1
+	trains.push new Train 0.624, 30,6, 1,0,1
+	trains.push new Train 0.750, 36,7, 0.5,1,0
+	trains.push new Train 0.876, 42,0, 0.75,0.75,0.75
 
 draw = ->
 	bg 0.5
@@ -251,7 +249,6 @@ mouseDragged = ->
 	X0 += (mouseX - memory[0]) / factor
 	Y0 += (mouseY - memory[1]) / factor
 	memory = [mouseX,mouseY]
-	print X0,Y0,factor
 
 changeScale = (event) ->
 	S = 1.1
