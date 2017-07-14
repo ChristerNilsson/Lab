@@ -40,16 +40,17 @@ Eventually Microsoft Keyboard Layout Creator can do this.
 Using [SharpKeys](https://github.com/randyrants/sharpkeys) I rearranged the following keys:
 
 ```Coffeescript
-Delete to Home
-Insert to Delete
-PageUp to Insert
-PageDn to End
-Home   to PageUp
-End    to PageDn
+Delete   to Home
+Insert   to Delete
+PageUp   to None
+PageDn   to End
+Home     to PageUp
+End      to PageDn
+CapsLock to Tab
 
 I find this mapping more natural and similar to the arrow key layout:
 
-Delete PageUp Insert
+Delete PageUp
 Home   PageDn End
 ```
 
