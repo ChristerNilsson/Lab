@@ -24,8 +24,8 @@ draw = ->
 		rect 100*x,100*y,100,100
 		fc 0
 		text txt,100*x+50,100*y+50
-		fc 1,0,0
-		text state,150,150
+	fc 1,0,0
+	text state,150,150
 
 check = (player,index) ->
 	if state != '' then return
