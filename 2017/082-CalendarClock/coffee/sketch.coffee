@@ -57,7 +57,7 @@ setup = ->
 	textAlign CENTER,CENTER
 
 	params = getURLParams()
-	schema = unpack param.s
+	schema = unpack params.s
 	xdraw()
 
 minutes = (d,h,m) -> 60 * (d*24 + h) + m
