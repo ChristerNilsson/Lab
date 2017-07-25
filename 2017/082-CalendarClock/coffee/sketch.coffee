@@ -1,20 +1,20 @@
-# Yttre ringen hanterar måndag
-# Inre ringen hanterar fredag
+# Yttre ringen hanterar måndag=1
+# Inre ringen hanterar fredag=5
 # Varje ämne har en egen färg
 # Pågående lektion markeras med ett streck.
-# I mitten visas en klocka alternativt
-#  minuter kvar tills lektion börjar eller slutar.
-#  Där visas även ämne och sal.
+# I mitten visas minuter kvar tills lektion börjar eller slutar.
+# Där visas även ämne, sal, starttid samt sluttid
 
 # Day Subject hhmm hhmm Room ;
+# 1Ma08300930S323 => Day=1 Subject=Ma start=0830 stopp=0930 Room=S323
 #     012345678901234
-arg ='1Ma083009303323;1Sv094010403218;1Fy124013502142;'
-arg+='2En083009552324;2Ma121513251957;'
-arg+='3Fy103511252315;3Ma121513252323;3Id135014501957;'
-arg+='4En130014253232;4Sv143515553546;'
-arg+='5Ma083009303434;5Fy110512001957'
+arg ='1Ma08300930S323;1Sv09401040S218;1Fy12401350S142;'
+arg+='2En08300955S324;2Ma12151325P957;'
+arg+='3Fy10351125P315;3Ma12151325Q323;3Id13501450Q957;'
+arg+='4En13001425Q232;4Sv14351555S546;'
+arg+='5Ma08300930S434;5Fy11051200P957'
 
-# index.html/1Ma083009303323;1Sv094010403218;1Fy124013502142;2En083009552324;2Ma121513251957;3Fy103511252315;3Ma121513252323;3Id135014501957;4En130014253232;4Sv143515553546;5Ma083009303434;5Fy110512001957
+# http://christernilsson.github.io/Lab/2017/082-CalendarClock/index.html?s=1Ma083009303323;1Sv094010403218;1Fy124013502142;2En083009552324;2Ma121513251957;3Fy103511252315;3Ma121513252323;3Id135014501957;4En130014253232;4Sv143515553546;5Ma083009303434;5Fy110512001957
 
 X=200
 Y=200
@@ -30,12 +30,12 @@ unpack = (arg) ->
 
 		day = int item[0]
 		subject = item[1..2]
+		hhmm1 = item[3..6]
+		hhmm2 = item[7..10]
 		t1 = minutes day, parseInt(item[3..4]),parseInt(item[5..6])
 		t2 = minutes day, parseInt(item[7..8]),parseInt(item[9..10])
 		room = item[11..14]
-		res.push [subject,t1,t2,room]
-
-		#print subject,t1,t2,room
+		res.push [subject,t1,t2,room,hhmm1,hhmm2]
 
 		if subject not in _.keys colors
 			n = _.size colors
@@ -58,27 +58,24 @@ setup = ->
 	frameRate 1
 
 	params = getURLParams()
-	schema = unpack params.s
-	draw()
+	if _.size(params) == 0
+		schema = unpack arg
+	else
+		schema = unpack params.s
 
 minutes = (d,h,m) -> 60 * (d*24 + h) + m
 rad = (minutes) -> radians minutes/2 %% 360 - 90
 myarc = (start,stopp) ->
-	#print 'myarc',start,stopp
 	day = int start / 1440
 	arc X,Y,2*110-20*day,2*110-20*day,rad(start),rad(stopp)
 
 draw = ->
 	bg 0.5
 	state = 0
+	sw 1
 
 	tday = (new Date()).getDay()
-	t = minutes(tday,hour(),minute())
-	# print tday,t
-
-	#tday = 2
-	#t = minutes(2,21,4)
-	#print tday,t
+	t = minutes tday,hour(),minute()
 
 	r1 = 55
 	r2 = 105
@@ -90,14 +87,14 @@ draw = ->
 		circle X,Y,r
 
 	for item in schema
-		[subject,start,stopp,room] = item
+		[subject,start,stopp,room,hhmm1,hhmm2] = item
 
 		if stopp <= t then nextstate = 0
 		else if start >= t then nextstate = 2
 		else nextstate = 1
 
 		if state==0 and nextstate==2
-			info subject, room, t-start
+			info subject, room, t-start, hhmm1,hhmm2
 		state = nextstate
 
 		sw 9
@@ -110,7 +107,6 @@ draw = ->
 			sc r,g,b
 			myarc start,stopp
 		if state==1
-			print t,start,stopp,state
 			sc 0.6
 			myarc start,t
 			[r,g,b] = colors[subject]
@@ -121,7 +117,7 @@ draw = ->
 			[r,g,b] = colors[subject]
 			sc 1-r,1-g,1-b
 			myarc t,stopp
-			info subject, room, stopp-t
+			info subject, room, stopp-t, hhmm1,hhmm2
 
 pretty = (minutes) ->
 	if minutes<60 then return minutes
@@ -129,7 +125,7 @@ pretty = (minutes) ->
 	m = minutes%60
 	h + ':' + m
 
-info = (subject,room,tid) ->
+info = (subject,room,tid,hhmm1,hhmm2) ->
 	sc()
 	if tid<0
 		[r,g,b] = [0.75,0.75,0.75]
@@ -145,6 +141,8 @@ info = (subject,room,tid) ->
 	textSize 20
 	text subject,X,Y-30
 
-	textSize 20
 	fc 0
 	text room,X,Y+30
+	textSize 12
+	text hhmm1,X-30,Y-25
+	text hhmm2,X+30,Y-25
