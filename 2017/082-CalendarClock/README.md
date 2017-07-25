@@ -1,30 +1,15 @@
-# Mall
+# Calendar Clock
 
-* Libraries innehåller bl a p5-filer.
-* index.html används när man vill köra programmet i Google Chrome.
-* katalogen coffee innehåller din kod. Redigera med Sublime.
-* js-filer skapas automatiskt av startProject.bat
+* Yttre ringen hanterar måndag=1
+* Inre ringen hanterar fredag=5
+* Varje ämne har en egen färg
+* Pågående lektion markeras med ett streck.
+* I mitten visas minuter kvar tills lektion börjar eller slutar.
+* Där visas även ämne, sal, starttid samt sluttid
+* Modifiera länken nedan och lägg in ditt eget schema!
 
-## Detta gör du en enda gång
+* Day Subject Start Stopp Room ;
+* dsshhmmhhmmrrrr
+* 1Ma08300930S323 => Day=1 Subject=Ma Start=0830 Stopp=0930 Room=S323
 
-* Kopiera 000-Mall med Clone or Download
-* Välj Download .Zip 
-* Packa upp innehållet och spara i en egen katalog med namnet 000-Mall. Dvs inget -master
-* Flytta upp createProject.bat en nivå.
-
-## Detta gör du när du skapar ett nytt projekt
-
-* Använda createProject för att skapa en kopia av mallen.
-* Byt namn på NewProject. T ex till 001-projektnamn.
-
-## Detta gör du när du utvecklar
-
-* Gå in i katalogen och starta startProject
-  * index.html startas i Chrome
-  * sublime startas. 
-  	* Stäng eventuellt befintligt projekt med Remove Folder from Project
-  * transpilern startas
-* Ändra i sketch.coffee. Spara med ctrl-S
-* Transpilering sker automatiskt. Ett pip hörs vid syntaxfel.
-* Refresha Chrome.
-
+[Demo](http://christernilsson.github.io/Lab/2017/082-CalendarClock/index.html?s=1Ma083009303323;1Sv094010403218;1Fy124013502142;2En083009552324;2Ma121513251957;3Fy103511252315;3Ma121513252323;3Id135014501957;4En130014253232;4Sv143515553546;5Ma083009303434;5Fy110512001957)

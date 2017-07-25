@@ -123,7 +123,7 @@ pretty = (minutes) ->
 	if minutes<60 then return minutes
 	h = int minutes/60
 	m = minutes%60
-	h + ':' + m
+	if m<10 then h + ':0' + m else h + ':' + m
 
 info = (subject,room,tid,hhmm1,hhmm2) ->
 	sc()
