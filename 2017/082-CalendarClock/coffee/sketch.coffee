@@ -58,7 +58,7 @@ setup = ->
 
 	params = getURLParams()
 	schema = unpack params.s
-	xdraw()
+	draw()
 
 minutes = (d,h,m) -> 60 * (d*24 + h) + m
 rad = (minutes) -> radians minutes/2 %% 360 - 90
@@ -67,7 +67,7 @@ myarc = (start,stopp) ->
 	day = int start / 1440
 	arc X,Y,2*110-20*day,2*110-20*day,rad(start),rad(stopp)
 
-xdraw = ->
+draw = ->
 	bg 0.5
 	state = 0
 
