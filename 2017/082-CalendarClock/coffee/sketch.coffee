@@ -57,13 +57,7 @@ setup = ->
 	textAlign CENTER,CENTER
 
 	params = getURLParams()
-	print params.s
-	#url = new URL(query);
-	#c = url.searchParams.get("s");
-	#print s
-
-	schema = unpack arg
-	xdraw()
+	schema = unpack param.s
 	xdraw()
 
 minutes = (d,h,m) -> 60 * (d*24 + h) + m
