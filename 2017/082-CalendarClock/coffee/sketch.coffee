@@ -35,7 +35,7 @@ unpack = (arg) ->
 		room = item[11..14]
 		res.push [subject,t1,t2,room]
 
-		print subject,t1,t2,room
+		#print subject,t1,t2,room
 
 		if subject not in _.keys colors
 			n = _.size colors
@@ -55,6 +55,7 @@ setup = ->
 	fc()
 	strokeCap SQUARE
 	textAlign CENTER,CENTER
+	frameRate 1
 
 	params = getURLParams()
 	schema = unpack params.s
@@ -63,7 +64,7 @@ setup = ->
 minutes = (d,h,m) -> 60 * (d*24 + h) + m
 rad = (minutes) -> radians minutes/2 %% 360 - 90
 myarc = (start,stopp) ->
-	print 'myarc',start,stopp
+	#print 'myarc',start,stopp
 	day = int start / 1440
 	arc X,Y,2*110-20*day,2*110-20*day,rad(start),rad(stopp)
 
@@ -71,13 +72,13 @@ draw = ->
 	bg 0.5
 	state = 0
 
-	# tday = (new Date()).getDay()
-	# t = minutes(tday,hour(),minute())
+	tday = (new Date()).getDay()
+	t = minutes(tday,hour(),minute())
 	# print tday,t
 
-	tday = 2
-	t = minutes(2,21,4)
-	print tday,t
+	#tday = 2
+	#t = minutes(2,21,4)
+	#print tday,t
 
 	r1 = 55
 	r2 = 105
