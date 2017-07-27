@@ -19,19 +19,18 @@ draw = ->
 	fc()
 	bg 0.5
 	d = new Date()
-	h = d.getHours()
-	m = d.getMinutes()
-	s = d.getSeconds()
-	ms = d.getMilliseconds()
-	a = radians -90 + 30 * (h+m/60+s/3600)
-	b = radians -90 +  6 * (m+s/60)
-	c = radians -90 +  6 * (s+ms/1000)
+	s = d.getSeconds() + d.getMilliseconds()/1000
+	m = d.getMinutes() + s/60
+	h = d.getHours()   + m/60
+	a = radians 30 * h - 90
+	b = radians  6 * m - 90
+	c = radians  6 * s - 90
 	[x0,y0] = [R0*cos(a),R0*sin(a)]
 	[x1,y1] = [R1*cos(b),R1*sin(b)]
 	[x2,y2] = [R2*cos(c),R2*sin(c)]
 	bezier x0,y0, 0,0, 0,0, x1,y1
 	bezier x1,y1, 0,0, 0,0, x2,y2
-	circle 0,0, R3
+	circle 0,0,R3
 
 mousePressed = ->
 	state = 31 - state
