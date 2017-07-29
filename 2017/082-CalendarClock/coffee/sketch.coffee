@@ -6,8 +6,8 @@
 # Där visas även ämne, sal, starttid samt sluttid
 
 # Day Subject hhmm hhmm Room ;
-# 1Ma08300930S323 => Day=1 Subject=Ma start=0830 stopp=0930 Room=S323
-#     012345678901234
+# Mo08300930MaS323 => Day=Mo start=0830 stopp=0930 Subject=Ma Room=S323
+#     0123456789012345
 arg ='Mo08300930MaS323;Mo09401040SvS218;Mo12401350FyS142;'
 arg+='Tu08300955EnS324;Tu12151325MaP957;'
 arg+='We10351125FyP315;We12151325MaQ323;We13501450IdQ957;'
@@ -30,11 +30,11 @@ unpack = (arg) ->
 
 		day = item[0..1]
 		day = 1 + 'MoTuWeThFr'.indexOf(day) / 2
-		subject = item[2..3]
-		hhmm1 = item[4..7]
-		hhmm2 = item[8..11]
-		t1 = minutes day, parseInt(item[4..5]),parseInt(item[6..7])
-		t2 = minutes day, parseInt(item[8..9]),parseInt(item[10..11])
+		hhmm1 = item[2..5]
+		hhmm2 = item[6..9]
+		t1 = minutes day, parseInt(hhmm1[0..1]),parseInt(hhmm1[2..3])
+		t2 = minutes day, parseInt(hhmm2[0..1]),parseInt(hhmm2[2..3])
+		subject = item[10..11]
 		room = item[12..15]
 		res.push [subject,t1,t2,room,hhmm1,hhmm2]
 
