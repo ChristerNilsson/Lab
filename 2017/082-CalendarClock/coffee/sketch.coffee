@@ -8,13 +8,17 @@
 # Day Subject hhmm hhmm Room ;
 # 1Ma08300930S323 => Day=1 Subject=Ma start=0830 stopp=0930 Room=S323
 #     012345678901234
-arg ='1Ma08300930S323;1Sv09401040S218;1Fy12401350S142;'
-arg+='2En08300955S324;2Ma12151325P957;'
-arg+='3Fy10351125P315;3Ma12151325Q323;3Id13501450Q957;'
-arg+='4En13001425Q232;4Sv14351555S546;'
-arg+='5Ma08300930S434;5Fy11051200P957'
+arg ='Mo08300930MaS323;Mo09401040SvS218;Mo12401350FyS142;'
+arg+='Tu08300955EnS324;Tu12151325MaP957;'
+arg+='We10351125FyP315;We12151325MaQ323;We13501450IdQ957;'
+arg+='Th13001425EnQ232;Th14351555SvS546;'
+arg+='Fr08300930MaS434;Fr11051200FyP957'
 
-# http://christernilsson.github.io/Lab/2017/082-CalendarClock/index.html?s=1Ma083009303323;1Sv094010403218;1Fy124013502142;2En083009552324;2Ma121513251957;3Fy103511252315;3Ma121513252323;3Id135014501957;4En130014253232;4Sv143515553546;5Ma083009303434;5Fy110512001957
+
+
+# http://christernilsson.github.io/Lab/2017/082-CalendarClock/index.html?s=Mo08300930MaS323;Mo09401040SvS218;Mo12401350FyS142;Tu08300955EnS324;Tu12151325MaP957;We10351125FyP315;We12151325MaQ323;We13501450IdQ957;Th13001425EnQ232;Th14351555SvS546;Fr08300930MaS434;Fr11051200FyP957'
+
+
 
 schema = []
 colors = {}
@@ -24,13 +28,14 @@ unpack = (arg) ->
 	res = []
 	for item in arr
 
-		day = int item[0]
-		subject = item[1..2]
-		hhmm1 = item[3..6]
-		hhmm2 = item[7..10]
-		t1 = minutes day, parseInt(item[3..4]),parseInt(item[5..6])
-		t2 = minutes day, parseInt(item[7..8]),parseInt(item[9..10])
-		room = item[11..14]
+		day = item[0..1]
+		day = 'MoTuWeThFr'.indexOf(day) / 2
+		subject = item[2..3]
+		hhmm1 = item[4..7]
+		hhmm2 = item[8..11]
+		t1 = minutes day, parseInt(item[4..5]),parseInt(item[6..7])
+		t2 = minutes day, parseInt(item[8..9]),parseInt(item[10..11])
+		room = item[12..15]
 		res.push [subject,t1,t2,room,hhmm1,hhmm2]
 
 		if subject not in _.keys colors
