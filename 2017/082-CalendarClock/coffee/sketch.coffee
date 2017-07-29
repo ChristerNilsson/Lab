@@ -14,11 +14,7 @@ arg+='We10351125FyP315;We12151325MaQ323;We13501450IdQ957;'
 arg+='Th13001425EnQ232;Th14351555SvS546;'
 arg+='Fr08300930MaS434;Fr11051200FyP957'
 
-
-
 # http://christernilsson.github.io/Lab/2017/082-CalendarClock/index.html?s=Mo08300930MaS323;Mo09401040SvS218;Mo12401350FyS142;Tu08300955EnS324;Tu12151325MaP957;We10351125FyP315;We12151325MaQ323;We13501450IdQ957;Th13001425EnQ232;Th14351555SvS546;Fr08300930MaS434;Fr11051200FyP957'
-
-
 
 schema = []
 colors = {}
@@ -37,6 +33,7 @@ unpack = (arg) ->
 		subject = item[10..11]
 		room = item[12..15]
 		res.push [subject,t1,t2,room,hhmm1,hhmm2]
+		print [subject,t1,t2,room,hhmm1,hhmm2]
 
 		if subject not in _.keys colors
 			n = _.size colors
@@ -86,6 +83,7 @@ draw = ->
 
 	tday = (new Date()).getDay()
 	t = minutes tday,hour(),minute()
+	# t = minutes 1,8,15
 
 	r1 = 55
 	r2 = 105
