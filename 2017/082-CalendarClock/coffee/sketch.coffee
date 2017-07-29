@@ -29,7 +29,7 @@ unpack = (arg) ->
 	for item in arr
 
 		day = item[0..1]
-		day = 'MoTuWeThFr'.indexOf(day) / 2
+		day = 1 + 'MoTuWeThFr'.indexOf(day) / 2
 		subject = item[2..3]
 		hhmm1 = item[4..7]
 		hhmm2 = item[8..11]
