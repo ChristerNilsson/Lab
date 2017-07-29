@@ -23,7 +23,7 @@ unpack = (arg) ->
 	arr = arg.split ';'
 	res = []
 	for item in arr
-
+		if item.length==0 then continue
 		day = item[0..1]
 		day = 1 + 'MoTuWeThFr'.indexOf(day) / 2
 		hhmm1 = item[2..5]
