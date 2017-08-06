@@ -2,7 +2,6 @@
 
 SIDE = 300
 HALF = SIDE/2
-W = SIDE/20
 
 setup = -> createCanvas 3*SIDE,3*SIDE
 
@@ -15,7 +14,7 @@ draw = ->
 		translate -x,-y
 
 	bg 1
-	sw W
+	sw map mouseX,0,width,1,20
 
 	a = SIDE/(2+sqrt(2)) # Makes angles 90 degrees
 	b = SIDE-a

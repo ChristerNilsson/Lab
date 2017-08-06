@@ -1,3 +1,3 @@
 # Quiet One
 
-Change W and SIZE
+Use the mouse to change the width.
