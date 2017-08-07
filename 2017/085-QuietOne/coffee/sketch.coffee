@@ -1,4 +1,4 @@
-# http://scruss.com/blog/2017/08/05/a-quiet-one/
+#  http://scruss.com/blog/2017/08/05/a-quiet-one/
 
 SIDE = 300
 HALF = SIDE/2
