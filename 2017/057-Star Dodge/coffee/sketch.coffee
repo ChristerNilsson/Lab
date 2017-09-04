@@ -1,5 +1,3 @@
-# https://github.com/paf31/star-dodge-clone 200 LOC
-# https://runelm.io/c/u4y 400 LOC
 stardodge = null
 class StarDodge
 	constructor : (@level=0, @d=50) -> @startNewGame 1
