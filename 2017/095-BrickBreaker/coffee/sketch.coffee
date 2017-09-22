@@ -47,12 +47,7 @@ draw = ->
 	if youWin then winText.style 'display', 'block'
 	else winText.style 'display', 'none'
 
-keyReleased = -> paddle.moving = 0
-
-keyPressed = ->
-	if key in 'aA' then paddle.moving = -20
-	else if key in 'dD' then paddle.moving = 20
-	else if key in 'sS'
+	if keyIsDown(83) or keyIsDown(115)
 		if bricks.length == 0
 			for i in range 20
 				bricks.push new Brick()
