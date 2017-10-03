@@ -4,10 +4,9 @@ targets = []
 undoButton = null
 newButton = null
 
-n = 2
-# todo: autoupdate level
-# todo: hide the matrix. Allow for n investigative operations
-level = 2
+n = 3
+level = 3
+SHOW = true
 
 start = []
 matrix = []
@@ -64,6 +63,7 @@ makeProblem = ->
 		arrTargets.push buttons[i].value
 	for i in range n
 		buttons[i].value = start[i]
+	print hist.concat [arrTargets] # [(button.value for button in buttons)]
 	hist = []
 	undoButton.value = level - hist.length
 
@@ -83,9 +83,10 @@ draw = ->
 	button.draw() for button in buttons.concat [undoButton]
 	if undoButton.value == 0 and _.isEqual arrTargets, (button.value for button in buttons)
 		newButton.draw()
-	for i in range n
-		for j in range n
-			text matrix[i][j],R+2*R*j,R+2*R*i
+	if SHOW
+		for i in range n
+			for j in range n
+				text matrix[i][j],R+2*R*j,R+2*R*i
 	fc 0,1,0
 	for i in range n
 		text arrTargets[i],2*R*(n+1)+R,R+2*R*i
