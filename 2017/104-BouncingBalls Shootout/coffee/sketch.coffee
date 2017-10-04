@@ -1,3 +1,5 @@
+XOFF = 11
+
 level = 1
 balls = []
 bullets = []
@@ -9,6 +11,7 @@ setup = ->
 	createCanvas 800,800
 	textSize 600
 	textAlign CENTER,CENTER
+	rectMode CENTER
 	newLevel 1
 
 collisions = ->
@@ -32,6 +35,7 @@ newLevel = (lvl) ->
 	queue = 2 * level
 	counter = 0
 	shot = [0,0,0]
+	#bg 0.5
 
 draw = ->
 	counter += 1
@@ -39,19 +43,22 @@ draw = ->
 		queue -= 1
 		balls.push new Ball 1+queue%2, width/level**0.7/10
 
-	@bg 0.5
+	bg 0.5
 	for ball in balls.concat bullets
 		ball.draw()
 	fc 1,1,1,0.05
 	text level,width/2,height/2
 	collisions()
+
 	bullets = (bullet for bullet in bullets when bullet.age < 252)
 	balls = (ball for ball in balls when ball.age < 1000000)
-	t1 = (ball for ball in balls when ball.type == 1)
-	t2 = (ball for ball in balls when ball.type == 2)
+
+	rect XOFF,      height-5,5,5
+	rect width-XOFF,height-5,5,5
+
 	if shot[1] == level then newLevel level+1
 	if shot[2] == level then newLevel level-1
 
 keyPressed = ->
-	if keyCode == LEFT_ARROW  then bullets.push new Ball 0,2, 2+9,      height-2,  3.1,-12.6
-	if keyCode == RIGHT_ARROW then bullets.push new Ball 0,2, width-2-9,height-2, -3.1,-12.6
+	if keyCode == LEFT_ARROW  then bullets.push new Ball 0,2, XOFF,      height-2,  3.1,-12.6
+	if keyCode == RIGHT_ARROW then bullets.push new Ball 0,2, width-XOFF,height-2, -3.1,-12.6
