@@ -15,10 +15,7 @@ class Ball
 		if @type==2 then fc 1,0,0
 		circle @x,@y,@radius
 		if @x<@radius or @x > width-@radius then @vx=-@vx
-		if @y<@radius or @y > height-@radius
-			@vy = -@vy
-		else
-			@vy += 0.1
+		if @y > height-@radius then @vy = -@vy else @vy += 0.1
 		@x += @vx
 		@y += @vy
 

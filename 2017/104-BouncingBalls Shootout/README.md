@@ -1,4 +1,5 @@
-# BouncingBalls Shoootout
+# BouncingBalls Shootout
 
-* Skjut ner alla gula bollar innan du skjutit ner alla röda
-* Skjut med mellanslag
+* Shoot yellow balls.
+* Do not shoot red balls.
+* Shoot with LEFT and RIGHT arrows.
