@@ -7,7 +7,17 @@ EXPENSIVE = 2
 
 #optima = [[900,3,0],[800,1,1],[600,2,0]]
 #optima = [[330,3,0],[300,0,2],[260,1,1]]
-optima = [[2330,2,5], [2258,6,2], [2221,3,4], [2184,0,6], [2149,7,1], [2112,4,3], [2075,1,5], [2040,8,0], [2003,5,2] ]
+#optima = [[2330,2,5], [2258,6,2], [2221,3,4], [2184,0,6], [2149,7,1], [2112,4,3], [2075,1,5], [2040,8,0], [2003,5,2] ]
+
+def create_optima(avg):
+    global optima
+    optima = []
+    for x in range(10):
+        for y in range(10):
+            if a*x+b*y < avg:
+                optima.append([a*x+b*y,x,y])
+    optima = sorted(optima)
+    optima = list(reversed(optima))
 
 def optimize():
     global avd
@@ -40,6 +50,8 @@ def f(x,a,y,b,n):
     return avd[0][TOTAL]
 
 def init(x,a,y,b,n):
+    create_optima((x*a+y*b)/n)
+    #print optima
     global avd
     avd = []
     for i in range(n):
