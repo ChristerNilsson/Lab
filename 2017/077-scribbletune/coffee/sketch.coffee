@@ -8,6 +8,7 @@ midi = (name,clips...) ->
 	console.log clips.length
 	res = []
 	for c in clips
+		console.log c
 		res = res.concat c
 	scribble.midi res, name+'.mid'
 midiclip = (name,x) -> midi name, clip(x)
