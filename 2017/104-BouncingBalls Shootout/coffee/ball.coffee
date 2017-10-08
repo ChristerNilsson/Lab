@@ -3,7 +3,7 @@ class Ball
 		@type
 		@radius
 		@x = random @radius, width-@radius
-		@y = @radius
+		@y = @radius + random -10,10
 		@vx = 1 + random 3
 		@vy = 0) ->
 		@age = 0

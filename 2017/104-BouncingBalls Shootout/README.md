@@ -1,4 +1,4 @@
-# BouncingBalls Shootout
+# BouncingBallsShootout
 
 * Shoot yellow balls.
 * Do not shoot red balls.
