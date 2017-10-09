@@ -41,7 +41,7 @@ draw = ->
 	counter += 1
 	if counter % 50 == 1 and queue > 0
 		queue -= 1
-		balls.push new Ball 1+queue%2, width/level**0.7/10
+		balls.push new Ball 1+queue%2, width/8 * 0.9**level
 
 	bg 0.5
 	for ball in balls.concat bullets
