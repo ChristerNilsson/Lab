@@ -1,21 +1,18 @@
 class Ball
-	constructor : (
-		@type
-		@radius
+	constructor : (@g,@radius) ->
 		@x = random @radius, width-@radius
 		@y = @radius + random -10,10
 		@vx = 1 + random 3
-		@vy = 0) ->
+		@vy = 0
+		@ay = 0.1
 		@age = 0
 
 	draw : ->
 		@age += 1
-		if @type==0 then fc 0,0,0
-		if @type==1 then fc 1,1,0
-		if @type==2 then fc 1,0,0
+		fc 1,@g,0
 		circle @x,@y,@radius
 		if @x<@radius or @x > width-@radius then @vx=-@vx
-		if @y > height-@radius then @vy = -@vy else @vy += 0.1
+		if @y > height-@radius then @vy = -@vy else @vy += @ay
 		@x += @vx
 		@y += @vy
 
