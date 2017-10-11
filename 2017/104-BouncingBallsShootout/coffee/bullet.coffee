@@ -4,9 +4,11 @@ class Bullet
 		@age = 0
 
 	draw : ->
-		@age += 1
 		fc 0,0,0
 		circle @x,@y,@radius
+
+	update : ->
+		@age += 1
 		if @x < @radius or @x > width-@radius then @vx=-@vx
 		if @y > height-@radius then @vy = -@vy else @vy += @ay
 		@x += @vx
