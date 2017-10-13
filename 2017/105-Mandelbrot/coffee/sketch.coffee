@@ -1,12 +1,12 @@
-# z = z*z+c
+# z = z * z + c  
 # todo undo
 hist = []
 
 x0 = -0.5 # mittpunkten
 y0 = 0.0
 SIZE = 100
-zoom = 1/SIZE
-BITS = 4
+zoom = 1/SIZE 
+BITS = 4 
 N = 2**BITS
 N1 = N-1
 DEPTH = 2**(3*BITS)
