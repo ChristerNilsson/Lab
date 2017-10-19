@@ -1,48 +1,35 @@
-<html>
-  <head>
-    <script>
-      hist = []
-      add2 = function () { 
-        hist.push(a.innerHTML)
-        antal.innerHTML = hist
-        a.innerHTML = parseInt(a.innerHTML) + 2 
-      }
-      mul2 = function () {
-        hist.push(a.innerHTML)
-        antal.innerHTML = hist
-        a.innerHTML = parseInt(a.innerHTML) * 2 
-      }
-      div2 = function () { 
-        hist.push(a.innerHTML)
-        antal.innerHTML = hist
-        a.innerHTML = parseInt(a.innerHTML) / 2 
-      }
-      next = function () {
-        hist = []
-        a.innerHTML = Math.ceil(20 * Math.random())
-        b.innerHTML = Math.ceil(20 * Math.random())
-        antal.innerHTML = hist
-        //console.dir(hist)
-        //add.disabled=true
-      }
-      undo = function () {
-        if (hist.length>0) {
-          a.innerHTML = hist.pop()
-          antal.innerHTML = hist
-        }
-      }
-    </script>
-  </head>
+<p id=a>7</p>
+<p id=b>1</p>
+<button onclick='add2()'>+2</button>
+<button onclick='mul2()'>*2</button>
+<button onclick='div2()'>/2</button>
+<p></p>
+<button onclick='undo()'>Undo</button>
+<button onclick='next()'>Next</button>
+<p id=steg></p>
 
-  <body>
-    <div id=a>7</div>
-    <div id=b>1</div>
-    <button id=add onclick='add2()'>+2</button>
-    <button onclick='mul2()'>*2</button>
-    <button onclick='div2()'>/2</button>
-    <button onclick='undo()'>Undo</button>
-    <button onclick='next()'>Next</button>
-    <div id=antal></div>
-  </body>
-
-</html>
+<script>
+  hist = []
+  fetch = function () {
+    hist.push(a.innerHTML)
+    steg.innerHTML = hist
+    return parseInt(a.innerHTML)
+  }
+  add2 = function () { a.innerHTML = fetch() + 2 }
+  mul2 = function () { a.innerHTML = fetch() * 2 }
+  div2 = function () { a.innerHTML = fetch() / 2 }
+  next = function () {
+    hist = []
+    a.innerHTML = Math.ceil(20 * Math.random())
+    b.innerHTML = Math.ceil(20 * Math.random())
+    steg.innerHTML = hist
+    //console.dir(hist)
+    //add.disabled=true
+  }
+  undo = function () {
+    if (hist.length>0) {
+      a.innerHTML = hist.pop()
+      steg.innerHTML = hist
+    }
+  }
+</script>
