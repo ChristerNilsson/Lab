@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <script>
+      hist = []
+      add2 = function () { 
+        hist.push(a.innerHTML)
+        antal.innerHTML = hist
+        a.innerHTML = parseInt(a.innerHTML) + 2 
+      }
+      mul2 = function () {
+        hist.push(a.innerHTML)
+        antal.innerHTML = hist
+       a.innerHTML = parseInt(a.innerHTML) * 2 
+     }
+      div2 = function () { 
+        hist.push(a.innerHTML)
+        antal.innerHTML = hist
+        a.innerHTML = parseInt(a.innerHTML) / 2 
+      }
+      next = function () {
+        hist = []
+        a.innerHTML = Math.ceil(20 * Math.random())
+        b.innerHTML = Math.ceil(20 * Math.random())
+        //console.dir(hist)
+        //add.disabled=true
+      }
+      undo = function () {
+        if (hist.length>0) {
+          a.innerHTML = hist.pop()
+          antal.innerHTML = hist
+        }
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id=a>7</div>
+    <div id=b>1</div>
+    <button id=add onclick='add2()'>+2</button>
+    <button onclick='mul2()'>*2</button>
+    <button onclick='div2()'>/2</button>
+    <button onclick='undo()'>Undo</button>
+    <button onclick='next()'>Next</button>
+    <div id=antal></div>
+  </body>
+
+</html>
