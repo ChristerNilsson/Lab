@@ -1,5 +1,5 @@
 XOFF = 11
-N = 50
+N = 60
 
 ai = false
 level = 1
@@ -102,7 +102,6 @@ pressLeft  = (bullets) -> bullets.push new Bullet XOFF,      height-2,  1.2*3.02
 pressRight = (bullets) -> bullets.push new Bullet width-XOFF,height-2, -1.2*3.02, -1.2*12.6, 0.1*1.4
 
 keyPressed = ->
-	print keyCode
 	if keyCode == LEFT_ARROW  then pressLeft bullets
 	if keyCode == RIGHT_ARROW then pressRight bullets
 	if keyCode == 65 then ai = not ai
