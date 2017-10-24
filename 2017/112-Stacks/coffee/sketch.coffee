@@ -54,19 +54,20 @@ class Button
 		if player==0 and @nr==20 or player==1 and @nr==4 
 			sw 2
 			sc 1
-		circle @x, @y, 0.5 * RADIE
+		circle @x, @y, 0.45 * RADIE
 		sw 2
 
-		n = @bricks.length
 		#text @nr,@x,@y
 		sc 0
+		n = @bricks.length
 		for brick,i in @bricks
 			if @selected >= n-i then fc 0,1,0,0.5	else fc 1,brick,0,0.5
 			circle @x, @y-i*HEIGHT, 0.25 * RADIE 
 
 	moveBricks : -> # from selectedButton to @nr
-		if buttons[@nr].bricks.length > 0 and moves == 1 then	return # must attack in first move 
-		if buttons[@nr].bricks.length > 0 and moves == 2 then	moves = 1
+		if @nr not in [4,20] and buttons[@nr].bricks.length > 0 
+			if moves == 1 then return  
+			if moves == 2 then moves = 1
 
 		for i in range buttons[selectedButton].selected
 			brick = buttons[selectedButton].bricks.pop()
@@ -92,6 +93,12 @@ class Button
 
 	inside : (mx,my) -> dist(@x + XOFF, (@y + YOFF)/2, mx, my) < 0.5 * RADIE
 			
+	topBlock : (bricks) ->
+		count = 0
+		while bricks[bricks.length-1-count]==player
+			count += 1
+		count
+
 	mousePressed : (mx,my) ->
 		if not @inside mx,my then return 
 
@@ -101,14 +108,12 @@ class Button
 
 		if selectedButton>=0 and selectedButton != @nr
 			buttons[selectedButton].selected = 0
-		n = @bricks.length-1
-		brick = @bricks[n-@selected]
-		if brick == player 
-			@selected += 1
-			selectedButton = @nr
-		else
-			@selected = 0
-			selectedButton = -1
+
+		n = @topBlock @bricks
+		if n == 0 then return  
+		@selected = (@selected-1) %% (n+1)
+		selectedButton = if @selected > 0 then @nr else -1
+
 		xdraw()
 
 class PassButton extends Button
