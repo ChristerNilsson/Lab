@@ -4,20 +4,37 @@
 
 XOFF = 220
 YOFF = 380
-
 SIZE = 600
 RADIE = 130
 HEIGHT = 15
 BRICKS = 12
-buttons = []
 
+buttons = []
 player = 0
 moves = 1
-
 selectedButton = -1
 source = [BRICKS,BRICKS]
 target = [0,0]
 message = ''
+
+legalMoves = (btn) ->
+	if player == 0
+		if btn in [0,1,2] then return [4] 
+		if btn == 20 then return [22,23,24] 
+		return [btn-5,btn-6] 
+	else
+		if btn in [22,23,24] then return [20] 
+		if btn == 4 then return [0,1,2] 
+		return [btn+5,btn+6] 
+
+possibleMoves = ->
+	res = false 
+	for button in buttons
+		if _.last(button.bricks) == player 
+			if moves==2 then res = true
+			for move in legalMoves button.nr 
+				if buttons[move].bricks.length==0 then res = true
+	res
 
 class Button 
 	constructor : (@nr) ->
@@ -38,24 +55,14 @@ class Button
 			sw 2
 			sc 1
 		circle @x, @y, 0.5 * RADIE
-		sw 1
+		sw 2
 
 		n = @bricks.length
 		#text @nr,@x,@y
 		sc 0
 		for brick,i in @bricks
-			if @selected >= n-i then fc 0,1,0	else fc 1,brick,0
+			if @selected >= n-i then fc 0,1,0,0.5	else fc 1,brick,0,0.5
 			circle @x, @y-i*HEIGHT, 0.25 * RADIE 
-
-	legalMoves : ->
-		if player == 0
-			if selectedButton in [0,1,2] then return [4] 
-			if selectedButton == 20 then return [22,23,24] 
-			return [selectedButton-5,selectedButton-6] 
-		else
-			if selectedButton in [22,23,24] then return [20] 
-			if selectedButton == 4 then return [0,1,2] 
-			return [selectedButton+5,selectedButton+6] 
 
 	moveBricks : -> # from selectedButton to @nr
 		if buttons[@nr].bricks.length > 0 and moves == 1 then	return # must attack in first move 
@@ -82,14 +89,14 @@ class Button
 			player = 1 - player
 			moves = 2
 		xdraw()
+
+	inside : (mx,my) -> dist(@x + XOFF, (@y + YOFF)/2, mx, my) < 0.5 * RADIE
 			
 	mousePressed : (mx,my) ->
-		x = @x + XOFF 
-		y = (@y + YOFF)/2 
-		if dist(x,y,mx,my) > 0.5*RADIE then return
+		if not @inside mx,my then return 
 
 		if selectedButton>=0 and selectedButton != @nr # Markering av tillruta
-			if @nr in @legalMoves() then @moveBricks()
+			if @nr in legalMoves selectedButton then @moveBricks()
 			return
 
 		if selectedButton>=0 and selectedButton != @nr
@@ -106,11 +113,14 @@ class Button
 
 class PassButton extends Button
 	mousePressed : (mx,my) ->
-		x = @x + XOFF 
-		y = (@y + YOFF)/2 
-		if dist(x,y,mx,my) > 0.5*RADIE then return
+		if not @inside mx,my then return
+		if possibleMoves() then return 
+		if selectedButton != -1 
+			buttons[selectedButton].selected = 0
+			selectedButton = -1 
 		player = 1 - player
 		xdraw()
+
 	draw : ->
 		super
 		fc 0.5
