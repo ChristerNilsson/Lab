@@ -157,6 +157,11 @@ setup = ->
 	rectMode CENTER
 	xdraw()
 
+showBricks = (data,p,x,y) ->
+	for i in range data[p]
+		fc 1,p,0,0.5
+		circle x, y-i*HEIGHT, 0.25 * RADIE 
+
 xdraw = ->
 	bg 0.5
 	push()
@@ -164,6 +169,12 @@ xdraw = ->
 	translate XOFF,YOFF
 	for button in buttons
 		button.draw()
+
+	showBricks source,1,350,-150
+	showBricks target,0,430,-150
+	showBricks source,0,350,730
+	showBricks target,1,430,730
+
 	pop()
 	textSize 50
 	text message,width/2,height/2
