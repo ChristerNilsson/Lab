@@ -9,6 +9,8 @@ RADIE = 130
 HEIGHT = 15
 BRICKS = 12
 ALPHABET = 'abc Ydefg hijklnmnopR qrs'
+YELLOW = 4
+RED = 20
 
 buttons = []
 player = 0
@@ -21,12 +23,12 @@ hist = []
 
 legalMoves = (btn) ->
 	if player == 0
-		if btn in [0,1,2] then return [4] 
-		if btn == 20 then return [22,23,24] 
+		if btn in [0,1,2] then return [YELLOW] 
+		if btn == RED then return [22,23,24] 
 		return [btn-5,btn-6] 
 	else
-		if btn in [22,23,24] then return [20] 
-		if btn == 4 then return [0,1,2] 
+		if btn in [22,23,24] then return [RED] 
+		if btn == YELLOW then return [0,1,2] 
 		return [btn+5,btn+6] 
 
 possibleMoves = ->
@@ -53,7 +55,7 @@ class Button
 
 		sc 0
 		sw 1
-		if player==0 and @nr==20 or player==1 and @nr==4 
+		if player==0 and @nr==RED or player==1 and @nr==YELLOW
 			sw 2
 			sc 1
 		circle @x, @y, 0.45 * RADIE
@@ -83,14 +85,11 @@ class Button
 				if p==1
 					s = s + '| '
 				lastp=p
-				s = s + move + ' '
-			else
-				s = s + move + ' ' 
+			s = s + move + ' '
 		print s
 
-
 	moveBricks : -> # from selectedButton to @nr
-		if @nr not in [4,20] and buttons[@nr].bricks.length > 0 
+		if @nr not in [YELLOW,RED] and buttons[@nr].bricks.length > 0 
 			if moves == 1 then return  
 			if moves == 2 then moves = 1
 
@@ -100,7 +99,7 @@ class Button
 
 		for i in range buttons[selectedButton].selected
 			brick = buttons[selectedButton].bricks.pop()
-			if @nr in [4,20]
+			if @nr in [YELLOW,RED]
 				target[player] += 1
 				if target[player] == BRICKS
 					message = ['Red','Yellow'][player] + ' won!'
@@ -108,7 +107,7 @@ class Button
 			else
 				@bricks.push brick 
 
-		if source[player] > 0 and selectedButton in [4,20]
+		if source[player] > 0 and selectedButton in [YELLOW,RED]
 			buttons[selectedButton].bricks.push player
 			source[player] -= 1
 
@@ -168,14 +167,14 @@ setup = ->
 	for nr in range 25
 		buttons.push new Button nr
 
-	buttons[4].x = buttons[1].x
-	buttons[4].y = buttons[1].y - 2*RADIE
-	buttons[4].bricks = [1]
+	buttons[YELLOW].x = buttons[1].x
+	buttons[YELLOW].y = buttons[1].y - 2*RADIE
+	buttons[YELLOW].bricks = [1]
 	source[1] -= 1
 
-	buttons[20].x = buttons[23].x
-	buttons[20].y = buttons[23].y + 2*RADIE
-	buttons[20].bricks = [0]
+	buttons[RED].x = buttons[23].x
+	buttons[RED].y = buttons[23].y + 2*RADIE
+	buttons[RED].bricks = [0]
 	source[0] -= 1
 
 	button = new PassButton 'Pass'
