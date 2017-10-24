@@ -8,7 +8,7 @@ YOFF = 380
 SIZE = 600
 RADIE = 130
 HEIGHT = 15
-BRICKS = 3
+BRICKS = 12
 buttons = []
 
 player = 0
