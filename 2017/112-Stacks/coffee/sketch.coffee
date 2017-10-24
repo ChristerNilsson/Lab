@@ -8,6 +8,7 @@ SIZE = 600
 RADIE = 130
 HEIGHT = 15
 BRICKS = 12
+ALPHABET = 'abc Ydefg hijklnmnopR qrs'
 
 buttons = []
 player = 0
@@ -16,6 +17,7 @@ selectedButton = -1
 source = [BRICKS,BRICKS]
 target = [0,0]
 message = ''
+hist = []
 
 legalMoves = (btn) ->
 	if player == 0
@@ -57,17 +59,44 @@ class Button
 		circle @x, @y, 0.45 * RADIE
 		sw 2
 
-		#text @nr,@x,@y
+		if @nr == 'Pass' 
+			text @nr,@x,@y
+		else
+			text ALPHABET[@nr],@x,@y
+
 		sc 0
 		n = @bricks.length
 		for brick,i in @bricks
 			if @selected >= n-i then fc 0,1,0,0.5	else fc 1,brick,0,0.5
 			circle @x, @y-i*HEIGHT, 0.25 * RADIE 
 
+	printHistory : ->
+		lastp = 0
+		count = 1
+		s = count + ' '
+		for [p,move] in hist
+			if p!=lastp 
+				if p==0
+					print s
+					count += 1 
+					s = count + ' '
+				if p==1
+					s = s + '| '
+				lastp=p
+				s = s + move + ' '
+			else
+				s = s + move + ' ' 
+		print s
+
+
 	moveBricks : -> # from selectedButton to @nr
 		if @nr not in [4,20] and buttons[@nr].bricks.length > 0 
 			if moves == 1 then return  
 			if moves == 2 then moves = 1
+
+		count = buttons[selectedButton].selected
+		if count == 1 then count = '' 
+		hist.push [player,ALPHABET[selectedButton]+ALPHABET[@nr]+count]
 
 		for i in range buttons[selectedButton].selected
 			brick = buttons[selectedButton].bricks.pop()
@@ -75,6 +104,7 @@ class Button
 				target[player] += 1
 				if target[player] == BRICKS
 					message = ['Red','Yellow'][player] + ' won!'
+					@printHistory()
 			else
 				@bricks.push brick 
 
@@ -90,6 +120,7 @@ class Button
 			player = 1 - player
 			moves = 2
 		xdraw()
+		#@printHistory()
 
 	inside : (mx,my) -> dist(@x + XOFF, (@y + YOFF)/2, mx, my) < 0.5 * RADIE
 			
