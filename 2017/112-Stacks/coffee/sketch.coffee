@@ -51,19 +51,24 @@ class Button
 
 	draw : ->
 		if @nr in [3,9,15,21] then return 
-		fc 0.25
+		fc 1
 
 		sc 0
 		sw 1
 		if player==0 and @nr==RED or player==1 and @nr==YELLOW
-			sw 2
-			sc 1
+			sw 10
+			sc 1,player,0
 		circle @x, @y, 0.45 * RADIE
-		sw 2
+		sw 1
 
+		textAlign CENTER,CENTER
+		sc()
+		fc 0.75
 		if @nr == 'Pass' 
+			textSize 40
 			text @nr,@x,@y
 		else
+			textSize 60
 			text ALPHABET[@nr],@x,@y
 
 		sc 0
@@ -119,7 +124,6 @@ class Button
 			player = 1 - player
 			moves = 2
 		xdraw()
-		#@printHistory()
 
 	inside : (mx,my) -> dist(@x + XOFF, (@y + YOFF)/2, mx, my) < 0.5 * RADIE
 			
@@ -156,12 +160,6 @@ class PassButton extends Button
 		player = 1 - player
 		xdraw()
 
-	draw : ->
-		super
-		fc 0.5
-		textSize 32
-		text @nr,@x,@y
-
 setup = ->
 	createCanvas SIZE+100,SIZE
 	for nr in range 25
@@ -183,7 +181,7 @@ setup = ->
 	button.y = buttons[4].y 
 
 	textSize 32
-	textAlign CENTER,CENTER
+	textAlign LEFT,BOTTOM
 	rectMode CENTER
 	xdraw()
 
@@ -207,7 +205,8 @@ xdraw = ->
 
 	pop()
 	textSize 50
-	text message,width/2,height/2
+	fc 1,player,0
+	text message,20,height-20
 
 mousePressed = ->
 	for button in buttons
