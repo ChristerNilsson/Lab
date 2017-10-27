@@ -1,0 +1,5481 @@
+---
+name: Car_Dashboard
+intents:
+- intent: information_request
+  examples:
+  - text: what time will it be in 4.5 hours
+  - text: can you say me the time?
+  - text: whats the square root of 70
+  - text: what time is it right now
+  - text: what's the time
+  - text: can you tell time
+  - text: do you know the time
+  - text: tell me the date
+  - text: what's the date
+  - text: what is today's date
+  - text: what is the time?
+  - text: hey whats the current time today
+  - text: hi what is the time?
+  - text: what is the day today
+  description:
+- intent: turn_up
+  examples:
+  - text: turn the heating up now
+  - text: turn the lights up
+  - text: turn up low beam headlights
+  - text: Turn up music
+  - text: turn up radio's volume
+  - text: turn up the wipers
+  - text: turn up this music
+  - text: up again
+  - text: up temperature
+  - text: Switch AC to high level
+  - text: start fast
+  - text: speed up the wipers
+  - text: sorry, volume up
+  - text: slightly louder please
+  - text: set wipers to high
+  - text: set the temperature cooler
+  - text: Set the 20 degrees
+  - text: Set the 20 C degress
+  - text: set LP the AC
+  - text: put the AC more heat
+  - text: put ac on high
+  - text: pump up that volume
+  - text: power up ac
+  - text: pls volume up
+  - text: pls raise up the radio volume pls
+  - text: please turn up the ac
+  - text: please turn the up music
+  - text: please turn my up wipers
+  - text: play the louder
+  - text: place up
+  - text: my radio up
+  - text: Music louder
+  - text: Music all the way up
+  - text: more volume
+  - text: more power
+  - text: more loud
+  - text: More heater
+  - text: more heat
+  - text: more cooler ac
+  - text: more cooler.
+  - text: more cold
+  - text: more ac
+  - text: more
+  - text: make the radio louder
+  - text: Make music louder
+  - text: make it hotter
+  - text: make it colder
+  - text: make heater high
+  - text: magnify the sound
+  - text: louder volume
+  - text: Louder please
+  - text: Louder
+  - text: level up
+  - text: i want radio up
+  - text: I want more light
+  - text: intensify the volume
+  - text: increase the volume of music
+  - text: increase the lights for me
+  - text: increase the ac
+  - text: increase radio volume
+  - text: Increase my music volume
+  - text: increase ac and volume
+  - text: Heat up
+  - text: heater on high
+  - text: global headlights up
+  - text: enhance the music
+  - text: crank it up!
+  - text: change the AC to high
+  - text: can you turn the heat up
+  - text: can you turn my up heat
+  - text: can you make Radia louder
+  - text: can you make it louder
+  - text: can you increase the volume
+  - text: can you bump volume up?
+  - text: boost the ac
+  - text: amplify the music
+  - text: a little louder
+  - text: A little bit louder please
+  - text: a lil more pl
+  - text: AC to change mode HI
+  - text: AC on Hi mode
+  - text: AC crank it up!
+  - text: a bit louder
+  - text: wipers up
+  - text: windows up
+  - text: volume up the music
+  - text: volume up please
+  - text: Volume up
+  - text: voice up
+  - text: vlume up
+  - text: up the radio
+  - text: up vol
+  - text: step up the wipers
+  - text: tone up
+  - text: turn ac more higher
+  - text: turn lights on high
+  - text: Turn music up
+  - text: turn my music up
+  - text: Turn op the AC
+  - text: turns up volume
+  - text: turn that music up
+  - text: turn the ac
+  - text: turn the ac at mac
+  - text: turn the headligt
+  - text: turn the heat
+  description:
+- intent: compound_questions
+  examples:
+  - text: turn off on off the music
+  - text: turn on the wipers then turn them off
+  - text: can you please turn the light  either on of off ?
+  - text: can you please turn the light on off ?
+  - text: can you turn on the turn off the AC
+  - text: Increase speed and turn wiper on
+  - text: Increase the volume or turn off the AC
+  - text: off on my lights
+  - text: OK, can you lower the AC to turn off the sound?
+  - text: sorry turn off the lights and turn on the AC
+  - text: start stop wipers
+  - text: turn down the heat and play some jazz
+  - text: turn off the headlights and on the air con
+  - text: turn off the heater and turn on the AC
+  - text: turn off the music and then turn it up
+  - text: turn off wipers and turn on lights
+  - text: turn off wipers and turn on the lights
+  - text: turn on off the ac
+  - text: turn on the lights and speed up the wipers
+  - text: turn on the lights, then turn them off.
+  - text: turn on wipers and stop the car
+  - text: Turn the lights on off
+  - text: turn up the radio off
+  - text: Turn up the radio.Turn on my wipers.
+  - text: what can you do . turn off lights
+  - text: what can you do. turn off lights
+  - text: what is my speed
+  - text: Turn left
+  - text: heater up and volume down
+  - text: radio on and lights off
+  - text: turn on the lights and turn up the wipers
+  - text: turn up the music and slow down the wipers
+  - text: speed up the wipers then slow down the wipers
+  - text: increase the speed of the wipers and turn up the music
+  - text: lower the volume then speed up the wipers
+  - text: switch on the ac then turn up the music
+  description:
+- intent: greetings
+  examples:
+  - text: Hi, my name is Diego
+  - text: hi how are u
+  - text: hi
+  - text: hey there
+  - text: heya
+  - text: hey
+  - text: Hello Watson
+  - text: Hello, My name is John?
+  - text: hello, my name is esteban
+  - text: Hello, how are you
+  - text: Hello
+  - text: greetings
+  - text: good morning
+  - text: good how are you
+  - text: good evening
+  - text: hola como estas
+  - text: How are you doing
+  - text: howdy
+  - text: I would like you to say hello
+  - text: namaste
+  - text: say hello to me
+  - text: what doing
+  - text: what r u doing
+  - text: What's up
+  - text: What's up ?
+  - text: yo
+  - text: good day
+  - text: Good afternoon.
+  - text: sup
+  - text: fdsafsaHi watson
+  - text: aloha
+  - text: bonjour
+  - text: yello
+  - text: buenas dias
+  - text: g'day
+  - text: feeling bit low
+  - text: What's up?
+  - text: buenos dias
+  - text: good
+  - text: ciao
+  - text: yo my man
+  - text: Hola
+  - text: hiya
+  - text: Hi, Watson, my name is John
+  - text: Hi watson
+  - text: hi to whom had like
+  - text: hi there
+  - text: Hi, my name is Michel
+  description:
+- intent: positive_reaction
+  examples:
+  - text: This is good
+  - text: excellent, thanks
+  - text: great, thanks
+  - text: great! thanks!
+  - text: nice. thanks.
+  - text: ok, thanks
+  - text: OK thanks
+  - text: thankfully so
+  - text: Thanks verymuch
+  - text: Thanks Watson
+  - text: thanks you are  funy
+  - text: Thank you
+  - text: Thank you very much
+  - text: Thanks
+  - text: Thanks!
+  - text: Thanks.
+  - text: thanks a truck
+  - text: thanks dude
+  - text: thanks for
+  - text: thanks for your support
+  - text: thanks, man!
+  - text: Thanks man
+  - text: Thanks mate
+  - text: Thanks u
+  - text: you are funny
+  - text: This is awesome
+  - text: Alright. Thanks!
+  - text: great, thanks!
+  description:
+- intent: turn_on
+  examples:
+  - text: play light
+  - text: Play Led Zepplin
+  - text: yup music
+  - text: you can play rock
+  - text: yes,Turn on the lights
+  - text: yes turn on the lights
+  - text: Wow, can you play jazz?
+  - text: which genre can you play
+  - text: what type of music?
+  - text: what music do we have?
+  - text: what music can you play?
+  - text: what can I turn on?
+  - text: what about techno music
+  - text: what about soft music?
+  - text: What about music
+  - text: We should probably turn our lights on too
+  - text: watson, turn on the lights
+  - text: watson please turn my ac on
+  - text: watson play a song
+  - text: Watson plase turn on the lights
+  - text: want the lights switched on
+  - text: want the lights activated
+  - text: urn on the lights
+  - text: urn on my lights
+  - text: urn on lights
+  - text: tuTurn on the lights
+  - text: tur on the lights
+  - text: turon on the lights
+  - text: Turon on my lights
+  - text: turn the wipers off on
+  - text: Turn the lights on please..
+  - text: Turn the lights on please
+  - text: turn the lights on, please
+  - text: please lights on?
+  - text: TURN THE LIGHTS ON
+  - text: Turn the lights on.
+  - text: play coffee
+  - text: play clezmer
+  - text: play classic rock
+  - text: Please i would like to hear some music
+  - text: play your jazz!
+  - text: play with me
+  - text: play with hot rocks'
+  - text: play wipers
+  - text: play wiper
+  - text: play wipe
+  - text: play Waterloo
+  - text: play violin
+  - text: play video
+  - text: play U2
+  - text: play tv
+  - text: play tunes
+  - text: play trance
+  - text: play toto
+  - text: play top 40
+  - text: play the song Until you
+  - text: play the radio, please
+  - text: Play the funtastic song.
+  - text: Play the first one
+  - text: play the death
+  - text: Play the Beatles.
+  - text: Play the beatles
+  - text: play tecno
+  - text: play techno
+  - text: play taylor switch
+  - text: play swing
+  - text: play sum muzic
+  - text: plays the music
+  - text: play spotify
+  - text: play sound
+  - text: play soud
+  - text: play soome muusic
+  - text: Play songs by Metallica
+  - text: play songs
+  - text: play song musing
+  - text: Play Song, El pollito
+  - text: Play song
+  - text: play som rock
+  - text: play som nusic
+  - text: play som jazz
+  - text: play something, then
+  - text: play something that sucks
+  - text: Play somethings
+  - text: Play something over the speakers
+  - text: play something of roue choice
+  - text: Play something mellow
+  - text: Play something in car rdaio
+  - text: play something groovy
+  - text: Play something
+  - text: play som emusic
+  - text: play some lights
+  - text: play soem jazz
+  - text: play soccer
+  - text: Lisa music
+  - text: Lights turn on
+  - text: lights turn lights please then turn on the music
+  - text: lights on turn
+  - text: lights on please
+  - text: Lights on
+  - text: lights on!
+  - text: lights must be ON
+  - text: light rock music
+  - text: let us Lee my music
+  - text: lets play piano
+  - text: Let's listen to some tunes.
+  - text: let's hear some music
+  - text: let's have some classic
+  - text: les soul music
+  - text: late rock music
+  - text: jazz, play really loud
+  - text: jazz music please
+  - text: Jazz music
+  - text: jazz is fine lets play it
+  - text: japanese music
+  - text: I would like to turn on the radio.
+  - text: i would like to start the car
+  - text: I would like to listen to some fine mozart
+  - text: I would like to listening some music
+  - text: I would like to hear some music
+  - text: i wouÃ¶d ike music
+  - text: i will hear music
+  - text: I was to listen brought
+  - text: i want to turn on the radio
+  - text: I want to listen to jazz
+  - text: i want to have the latest news
+  - text: i want the wiper on
+  - text: i want some rock
+  - text: I want some Michael jackson.
+  - text: i wannna hear  music
+  - text: I wanna listen jazz
+  - text: I wanna listen blues
+  - text: it's raining turn on the shield
+  - text: it's raining, turn on
+  - text: It's raining, shouldn't you turn the wipers on?
+  - text: it's raining, can you turn on the windshield wipers
+  - text: It's raining again. turn on the light.
+  - text: it's hot in here
+  - text: torn on the lights
+  - text: to turn on the lights
+  - text: traditional music
+  - text: trun no the wipers
+  - text: Trun on lights
+  - text: trun on my lights
+  - text: trun on the lights
+  - text: TTurn on the lights
+  - text: tuen on te lights
+  - text: tuen on the lights
+  - text: tune music
+  - text: tun on lights
+  - text: Tun on my lights
+  - text: tuno on the lights
+  - text: tunr on lights
+  - text: it's cold in here
+  - text: it is raining. turn on the wipers
+  - text: it is raining. please turn the wipers on
+  - text: I think jazz music
+  - text: I prefer the latino music
+  - text: I need music
+  - text: indie music
+  - text: indian music
+  - text: Indian classical music
+  - text: if the headlights are off, can you turn them on?
+  - text: I'd like to listen to musci
+  - text: I'd like to hear rock music
+  - text: how to switch on my car
+  - text: How can i turn the wipers on?
+  - text: how about some rock music?
+  - text: how about some music?
+  - text: how about some music
+  - text: House music
+  - text: Hi Watson, can you please play a song?
+  - text: hi turn lights on
+  - text: hi tun on
+  - text: hip hop music
+  - text: hi i like to hear some music
+  - text: Hey Watson.. Turn on the lights
+  - text: hello Watson please turn the lights on
+  - text: hello, my music is rock
+  - text: head lights turn on
+  - text: Head lights ON
+  - text: hard rock music
+  - text: halt the music
+  - text: great shorts turn on lights
+  - text: good song music
+  - text: Give me some sound.
+  - text: get those lights on
+  - text: get music
+  - text: get latin music
+  - text: Folk music
+  - text: first of all turn on the lights
+  - text: fine turn on lights
+  - text: find some music
+  - text: find some jazz music
+  - text: Find me some music
+  - text: find me a good station
+  - text: English Music
+  - text: eletronic music
+  - text: electronic music
+  - text: electronic dance music
+  - text: do you have any rock music
+  - text: Cuban music
+  - text: crank up the music
+  - text: Country music.
+  - text: could you please turn on the old headlights as it is getting rather dark
+  - text: could you please light on please?
+  - text: could you play jazz?
+  - text: Could play Metallica
+  - text: classic music. please
+  - text: classic music please
+  - text: Classic Music
+  - text: Classic music.
+  - text: classical music please
+  - text: Classical music
+  - text: Chinese music
+  - text: chinese  music
+  - text: can you turn on wipers when it is raining?
+  - text: can you turn on the wipers
+  - text: can you please music
+  - text: can you play the wiper washer
+  - text: can you play rock-n-roll?
+  - text: can you play rock and jazz
+  - text: can you play rap
+  - text: can you play radio for me
+  - text: can you play queen
+  - text: can you play pop
+  - text: can you play one especific rock band?
+  - text: can you play my favorite song
+  - text: can you play mi favorite playlist?
+  - text: Play hip hop!
+  - text: play hip-hop
+  - text: play hip hop
+  - text: play hindi song
+  - text: play heavy metal
+  - text: play headlights jazz
+  - text: play hard rock please
+  - text: play guns and rosses
+  - text: play greenday
+  - text: Play Garbage
+  - text: play games
+  - text: Play game
+  - text: Play Future
+  - text: play funking jazz
+  - text: play funk
+  - text: play football?
+  - text: play football
+  - text: Player music
+  - text: play elvis
+  - text: play electro
+  - text: played the music swept one pilots
+  - text: play edm
+  - text: play easy listening
+  - text: play dvd
+  - text: play drake
+  - text: play dance
+  - text: play country
+  - text: play coldplay
+  - text: brazilian music
+  - text: blues music
+  - text: blue music please
+  - text: bethoveen classical music
+  - text: Basim music
+  - text: baroque music please
+  - text: are my lights on
+  - text: arabic music
+  - text: any jazz music?
+  - text: and they hid lights on
+  - text: and set on lights
+  - text: also turn on the lights
+  - text: Air on please.
+  - text: air on
+  - text: air condition on
+  - text: Air conditioner on
+  - text: activate the music
+  - text: activate the jams
+  - text: Ã‚Â´play music
+  - text: Ã¯Â¼Â©'d liket to listen to the radio
+  - text: 80's music
+  - text: lights
+  - text: Play r & b
+  - text: Play Rebecca's album
+  - text: play reggae
+  - text: Play rihanna
+  - text: play rock!
+  - text: PLay rock
+  - text: play rock and blues
+  - text: Play rock dude
+  - text: play rock musi
+  - text: play rock musich
+  - text: Play rock musik
+  - text: play rock musis
+  - text: play rock please
+  - text: play rock song
+  - text: play rolling stones
+  - text: play salsa
+  - text: play samba
+  - text: Play shakira
+  - text: play She will be loved
+  - text: Play Sinatra, please.
+  - text: play smoe musics
+  - text: play smooth jazz
+  - text: play smth
+  - text: play soad
+  - text: Please turn on the lights
+  - text: please turn  the lights on
+  - text: Please turn the lights on
+  - text: Please, turn the lights on
+  - text: pley som rok music
+  - text: pop music
+  - text: pop music please
+  - text: Poppurer music
+  - text: pouse music
+  - text: power on
+  - text: power on the heater
+  - text: power on the lights
+  - text: power up the ac
+  - text: put jazz music
+  - text: Put left indicator on
+  - text: put music
+  - text: Put something to play
+  - text: put the air con on
+  - text: Put the lights on
+  - text: random music
+  - text: Rap music
+  - text: really music
+  - text: recent music
+  - text: Rocking music
+  - text: Rock music.
+  - text: Rock Music
+  - text: Rock music is my favorite
+  - text: rock music please
+  - text: rurn on lights
+  - text: soft music
+  - text: so play it
+  - text: so please turn on the lights
+  - text: so, what if I want to make some noice
+  - text: start
+  - text: start air conditionare
+  - text: Start the radio
+  - text: start to drive
+  - text: start up
+  - text: stock music
+  - text: struck music
+  - text: sure play that
+  - text: swich on the lights
+  - text: swicht on the lights
+  - text: switched the lights on
+  - text: switch lights on
+  - text: switch on
+  - text: Switch on an air conditioner.
+  - text: switch on emergency lights
+  - text: Switch on lights
+  - text: switch on thec lights
+  - text: switch on the lights?
+  - text: switch on the lights.
+  - text: Switch on the lights
+  - text: switch on the lights please
+  - text: switch on the lights, please.
+  - text: switch on the the ac
+  - text: switch the lights on
+  - text: switch the lights on.
+  - text: swithc on lights
+  - text: swith on lights
+  - text: swith on the lights
+  - text: ta bom . play the boss hoss
+  - text: tell me about music
+  - text: ten on the lights
+  - text: tern on air conditioner
+  - text: that's good. please play some Jazz.
+  - text: the music
+  - text: then on my lights
+  - text: Then play jaZz
+  - text: Then please. Play jazz.
+  - text: then the lights on
+  - text: the turn the lights on
+  - text: they're on the lights
+  - text: torn on the air conditioner
+  - text: tunr on the lights
+  - text: turn de lights on
+  - text: turne on my lights
+  - text: turn head lights on
+  - text: turning lights on
+  - text: turning on lights
+  - text: turn lights and ac on
+  - text: turn lights on
+  - text: turnm on your lights
+  - text: turn my lights on for me
+  - text: turn my wipers on
+  - text: Turn no my light
+  - text: turn off headlights on
+  - text: turn on
+  - text: Turn on back lights
+  - text: turn on bright lights
+  - text: turn on cabin lights
+  - text: Turn on emergency lights
+  - text: turn on hazard lights
+  - text: Turn on head lights
+  - text: turn on kitchen lights
+  - text: tur n on lights
+  - text: turn on lights?
+  - text: turn on lights.
+  - text: TURN ON LIGHTS
+  - text: turn on lights and wipers
+  - text: turn on lights brighter
+  - text: turn on lights  plesae
+  - text: turn on lights pls
+  - text: Turn on mmy lights
+  - text: turn on mu lights
+  - text: Play Bon Jovi
+  - text: play Raul
+  - text: play rata blanca
+  - text: Play rap
+  - text: play ramazzotti
+  - text: Play rains of castamere
+  - text: play radio 4
+  - text: Play radio
+  - text: Play punk
+  - text: play psico killer
+  - text: play pop
+  - text: play pokemon go
+  - text: play please
+  - text: turn the info screen on
+  - text: Turn the head lights on
+  - text: turn th ehead lights on
+  - text: turn the headlights n
+  - text: turn the fan on
+  - text: turns eh lights on
+  - text: turno on the lights
+  - text: turno on lights
+  - text: Turn on your lights.
+  - text: turn. On your lights
+  - text: turn on wipers when it is raining
+  - text: turn on wipers. Full speed
+  - text: Turn on wipers and lights
+  - text: turn on th lights
+  - text: turn on the wipers how
+  - text: turn on the wipers and the lights
+  - text: Turn on the wipers and lights
+  - text: turn on the strobe lights
+  - text: turn on the lights too
+  - text: Turn on the lights please.
+  - text: Turn on the lights please?
+  - text: turn on the lights, please
+  - text: turn on the lights please
+  - text: turn on the lights place
+  - text: Turn on the lights --  it's too dark outside
+  - text: turn on the lights and wipers please
+  - text: Turn on the lights and ac
+  - text: Turn on the lights..
+  - text: Turn on the lights.
+  - text: Turn on the lights?
+  - text: Turn on the lights!
+  - text: Turn on the  lights
+  - text: Turn on the lights
+  - text: turn on the light
+  - text: turn on the interior lights
+  - text: turn on the heater please
+  - text: Turn ON the Head Lights
+  - text: Turn on the fan
+  - text: Turn on the car's engine, and drive off!
+  - text: turn on the bright lights
+  - text: turn on rear lights
+  - text: turn on my phone
+  - text: Turnon music
+  - text: turn on my lights
+  - text: play led zeppelin
+  - text: play lady gaga
+  - text: play kiss 95.5
+  - text: play kimigayo
+  - text: play karnatic
+  - text: play justin bieber
+  - text: Play John Lennon
+  - text: Play john cougar
+  - text: play joe satriani
+  - text: play joe cocker
+  - text: play jimy hendrix
+  - text: play jet
+  - text: play j cole
+  - text: Play Jazz song
+  - text: play jazz please
+  - text: play jazz headlights
+  - text: Play jazz again please
+  - text: PLay jazz
+  - text: Play jazz.
+  - text: play jasz
+  - text: play jass
+  - text: Play jackson
+  - text: play iut
+  - text: play it then
+  - text: Play it!
+  - text: play it
+  - text: playing music
+  - text: play imagine dragons
+  - text: play Imagine Dragon
+  - text: play hotel california
+  - text: play hockey
+  - text: Play artist Halsey
+  - text: play a nice song
+  - text: Play an episode of Knight Rider
+  - text: play a musi
+  - text: Play a movie
+  - text: play aloud
+  - text: play a jazz song
+  - text: play a guitarr
+  - text: Play a game
+  - text: play a dvd
+  - text: play a classic song
+  - text: Play AC/DC
+  - text: Play ACDC
+  - text: play ac dc
+  - text: play a CD
+  - text: play ac
+  - text: play abba
+  - text: Play 97.1 FM
+  - text: play 21
+  - text: play
+  - text: pla music
+  - text: pla a music watson
+  - text: pick music
+  - text: paly music
+  - text: open the music
+  - text: open source jazz music
+  - text: On the Lights
+  - text: on now
+  - text: on my lights
+  - text: On Lights
+  - text: on left light
+  - text: 'on'
+  - text: ok turn on the lights
+  - text: Ok. Turning on the lights.
+  - text: ok, tun the lights on
+  - text: okthen turn on the lights
+  - text: ok then play
+  - text: ok, rock music
+  - text: ok, please play rock.
+  - text: Ok, Play som emusic
+  - text: ok, play rock
+  - text: ok play rock
+  - text: Ok, play jazz
+  - text: ok play it
+  - text: ok. play Bad Religion for me
+  - text: ok play
+  - text: ok ok, just turn on the lights then
+  - text: ok now play beethoven
+  - text: ok, i'll listen to something then
+  - text: Ok, fine. Then turn the lights on
+  - text: ok can youplay some rock
+  - text: okay turn the lights on
+  - text: Okay. Turn on the lights.
+  - text: okay sing music
+  - text: okay maybe play contemporary jazz songs.
+  - text: oh just start the car and drive to manhatten
+  - text: now switch the lights on again!
+  - text: now do music
+  - text: No, turn on the lights
+  - text: no, play rock now
+  - text: nice music
+  - text: need the lights on
+  - text: Music would be great.
+  - text: music reagge
+  - text: music pls
+  - text: Music please.
+  - text: Music please
+  - text: music plays a means that
+  - text: music player
+  - text: Music onn
+  - text: music on~
+  - text: music ok?
+  - text: Music Jazz
+  - text: Music from Dire Straits
+  - text: music electronic
+  - text: music?
+  - text: music!
+  - text: minimal music
+  - text: metal music
+  - text: Medival music please
+  - text: Make music
+  - text: make lights on
+  - text: load other music
+  - text: live music
+  - text: litsen music
+  - text: listen to radio
+  - text: listen to music
+  - text: listen jazz
+  - text: play classical now
+  - text: Play classical
+  - text: Play classic
+  - text: play chopin
+  - text: Play chess
+  - text: play chainsmoker closer
+  - text: play cd
+  - text: play bosa nova
+  - text: play R&B
+  - text: play bollywood song
+  - text: play bohemian rhapsody
+  - text: play black metal
+  - text: Play Beethoven
+  - text: Play beatles
+  - text: play Bach
+  - text: Play a video
+  - text: play a tune with michael jackson
+  - text: play a song for me
+  - text: Play a song
+  - text: Play a Sade for me.
+  - text: Can you play metallica
+  - text: can you play Meatloaf?
+  - text: can you play jazz?
+  - text: can you play jazz
+  - text: can you play Imagine dragons?
+  - text: can you play blues
+  - text: can you play a song of my choice?
+  - text: can you play a song?
+  - text: can you play a song
+  - text: can you play a really long song?
+  - text: Can you play a happy song
+  - text: can you play ac dc
+  - text: can the lights  be turned on
+  - text: Can i turn on the lights
+  - text: Can I hear music?
+  - text: can I have the headlights
+  - text: can i have some cooling
+  - text: please, turn on the lights
+  - text: Please turn on the head lights.
+  - text: Please turn on the head lights
+  - text: please switch the night lights on
+  - text: please switch on the lights
+  - text: PLease put pop music
+  - text: please put jazz music
+  - text: please play youth by troye sivan
+  - text: please play the jazz you want to so bad
+  - text: please play something
+  - text: PLease play Rock
+  - text: please, play rock
+  - text: Please play radio
+  - text: please, play jazz
+  - text: please play jazz
+  - text: Please play faded
+  - text: please, play Elvis
+  - text: please play a song
+  - text: please play
+  - text: please place in music
+  - text: please music
+  - text: Play dat mixtape
+  - text: turn on the lights you
+  - text: play movies
+  - text: Play PIN radio
+  - text: Play Pink Floyd.
+  - text: Play Pink Floyd
+  - text: Play pegboard nerds
+  - text: play pandora
+  - text: play other genre
+  - text: play NPR
+  - text: Play No3.
+  - text: play nirvana
+  - text: Play Nicki Minaj.
+  - text: play next song
+  - text: Play newsheadline for me
+  - text: Play news channle.
+  - text: Play my tongue favorite song
+  - text: play my jams
+  - text: play my favourite song
+  - text: Play my favorite song
+  - text: play my favorit
+  - text: play my cd
+  - text: play muzik
+  - text: play musuic
+  - text: play muskc
+  - text: play musix
+  - text: play musioc
+  - text: play musik
+  - text: Play music or find restaurants?
+  - text: play musica
+  - text: play music'
+  - text: play musi
+  - text: play musci
+  - text: play musc
+  - text: Play mudic
+  - text: play mucsic
+  - text: Play mucisc
+  - text: play mucis
+  - text: play mozart
+  - text: play movie
+  - text: play mmusic
+  - text: Play misic
+  - text: Play Michael Jackson
+  - text: play michael bublet
+  - text: play metalica
+  - text: Play Metal
+  - text: play me some rock
+  - text: Play Megaphonix
+  - text: play marvin gaye
+  - text: play marc anthony
+  - text: play lynard skynard
+  - text: Play linkin park
+  - text: play limp bizkit
+  description:
+- intent: capabilities
+  examples:
+  - text: how far to
+  - text: What makes you different from Siri or Google
+  - text: what else
+  - text: what do you know
+  - text: What do you have
+  - text: what do you have?
+  - text: what did you learn
+  - text: What devices are you able to connect with?
+  - text: what cayou do?
+  - text: what care you capablities
+  - text: what capabilities you have
+  - text: what can you turn on things?
+  - text: what can you help me with
+  - text: what can you do for me
+  - text: what canyou do
+  - text: what can you do
+  - text: What can i say
+  - text: what can I do
+  - text: What ca I ask?
+  - text: What are your functions?
+  - text: what are your capabilities Watson
+  - text: what are your benefits
+  - text: what are you capable of
+  - text: What are you
+  - text: What a can asc iu?
+  - text: turn ac when rain ends?
+  - text: tell me what you can do
+  - text: Tell me what to do.
+  - text: tell me what things you can do
+  - text: stop it from raining
+  - text: so what did you learn?
+  - text: need help
+  - text: Make it stop raining.
+  - text: Make it rain
+  - text: lets go
+  - text: Howdy mny Tieres Do you have
+  - text: How are you going to help me
+  - text: how can you help me
+  - text: hi where am i
+  - text: Hi! what could you do ?
+  - text: Hi Watson, please tell about the latest news
+  - text: Hi, can you read me a book?
+  - text: hi can we go to canada?
+  - text: Hey!Stop!UseBreak
+  - text: help me
+  - text: help
+  - text: Hello Watson! Can you bring me home?
+  - text: Hello can i have some help
+  - text: do you know something about cognitive?
+  - text: Do you do anything else?
+  - text: do you do anything else
+  - text: don't drive any further
+  - text: Change weather
+  - text: Change the weather
+  - text: Can you tell me random facts?
+  - text: can you tell me my cars average sale price
+  - text: can you tell me about problem
+  - text: can you speak something with me?
+  - text: can you read me
+  - text: can you learn something new?
+  - text: can you help me to turn on the left light
+  - text: can you help me find a candidate?
+  - text: Can you hear me?
+  - text: can you harm me?
+  - text: Can you drive anywhere else?
+  - text: can you do xyz?
+  - text: can you do this?
+  - text: CAN YOU DO OTHER THING?
+  - text: can you do more than that?
+  - text: can you do it?
+  - text: can you do coding ?
+  - text: Can you do anything that helps me drive?
+  - text: can you direct me please?
+  - text: can you change lanes
+  - text: can u please do that
+  - text: can i training you?
+  - text: Can I teach you
+  - text: can I manipulate the
+  - text: but can I ask you
+  - text: adapt to current weather condition
+  - text: book a flight for NY on sunday
+  - text: deploy airbags
+  - text: go fast
+  - text: go slow
+  - text: how close is
+  - text: how far is
+  - text: how far is the moon
+  - text: how many licks does it take to get to the center of a tootsie roll
+  - text: I'd like to have dinner with you
+  - text: I enjoy petting cats
+  - text: I love dolphins
+  - text: i need a new wheelchair
+  - text: I need to shut it down
+  - text: it's too dark
+  - text: I want to eat tacos everyday
+  - text: i want to see how this demo works
+  - text: make me a sandwich
+  - text: ok watson, why should I use you
+  - text: where should I turn
+  - text: where is the poop deck on this ship
+  - text: Where are we
+  - text: What's the speed
+  - text: testing om
+  - text: test
+  - text: tell me some jokes
+  - text: tell me jokes
+  - text: tell me joke
+  - text: tell me a joke
+  - text: roll down windows
+  - text: repair my car
+  - text: please open the sunroof
+  - text: open door
+  - text: why should I use you
+  - text: you can say what is php
+  - text: you can not change yourself?
+  - text: what u know about car?
+  - text: what things can you turn on?
+  - text: what things can you do
+  - text: what should i ask
+  - text: what question
+  description:
+- intent: traffic_update
+  examples:
+  - text: How long will it take to get there
+  - text: please tell me when we will arrive to our destination
+  - text: My ETA was 5 minutes, 5 minutes ago. What happened?
+  - text: is there any accident
+  - text: is there an accident ahead
+  - text: is the highway busy
+  - text: in what time we should get there?
+  - text: hows traffic looking
+  - text: hows traffic
+  - text: how's traffic
+  - text: how's the traffic today
+  - text: How's the traffic
+  - text: How much time to get there ?
+  - text: How much more time till we get home?
+  - text: How many miles until my destination?
+  - text: how long will we ride?
+  - text: how long will it take to my destination?
+  - text: are there any accidents ahead
+  - text: how long will it take me
+  - text: HOW LONG WILL IT TAKE
+  - text: How long will it take?
+  - text: How long will it be until I reach my destination?
+  - text: how long we were going to Iraq
+  - text: how long until next stop?
+  - text: how long until I arrive
+  - text: how long to my home
+  - text: how long it would take me get home
+  - text: how long dose it take from here to 1
+  - text: How long does it take to the office?
+  - text: how long does it take me to New York
+  - text: How long does it take?
+  - text: how long does first take?
+  - text: How long distance is until destination?
+  - text: how long de gas station?
+  - text: how is traffic looking this evening
+  - text: how far until we stop?
+  - text: how far the restaurant
+  - text: how far si the next gas station?
+  - text: how far from my home?
+  - text: how far does it take from here to 1?
+  - text: how far
+  - text: Hi. How much time now?
+  - text: Hey, when we will arrive?
+  - text: great how far from the restaurant
+  - text: give me traffic updates
+  - text: find eta
+  - text: ETA
+  - text: estimated time of arrival
+  - text: Estimated time left
+  - text: do you know about traffic
+  - text: Are we there yet?
+  - text: Are there any jams
+  - text: Are we almost there?
+  - text: are we nearly there yet?
+  - text: Are we there?
+  - text: are we there yet
+  - text: Will you tell me when we get there?
+  - text: when will we reach the next city
+  - text: when will we be there?
+  - text: when will we be there
+  - text: when will we arrive to gas station
+  - text: when will we arrive
+  - text: When will I be there?
+  - text: when will I arrive to destination?
+  - text: when we will be there?
+  - text: when rain there is lot of trafic jams
+  - text: when do we arrive
+  - text: when do i get there?
+  - text: When are we home
+  - text: what time will we arrive
+  - text: what time do we arrive?
+  - text: whats the traffic like on 101
+  - text: what's the Estimated Time of Arrival
+  - text: whats my ETA
+  - text: what;s my eta?
+  - text: whats ahead
+  - text: what my ETA?
+  - text: what my eta ?
+  - text: what is traffic like?
+  - text: what is the traffic situation in sao paulo right now?
+  - text: what is the traffic ?
+  - text: what is the ETA?
+  - text: what is the ETA
+  - text: what is may eta
+  - text: What is ETA
+  - text: what eta
+  - text: what about traffic
+  - text: traffic conditions on 85
+  - text: traffic conditions
+  - text: so, what's our eta?
+  - text: so long that still not arrive the resturant
+  - text: raining! it'll definitely jam!
+  description:
+- intent: goodbyes
+  examples:
+  - text: soon
+  - text: swag out
+  - text: thanks byebye
+  - text: then bye
+  - text: toodles
+  - text: I'm leaving
+  - text: Hi, Watson. I want to stop car
+  - text: hey stop here
+  - text: Have a nice day
+  - text: gtg
+  - text: gotta run
+  - text: gotta go
+  - text: good night
+  - text: good day
+  - text: see ya later
+  - text: good bye
+  - text: goodbye
+  - text: going
+  - text: go
+  - text: farewell
+  - text: cya
+  - text: bye now
+  - text: bye bye
+  - text: bye
+  - text: au revoir
+  - text: adios
+  - text: adieu
+  - text: shutdown
+  - text: shut down
+  - text: see ya
+  - text: run
+  - text: over and out
+  - text: out of time
+  - text: ok bye
+  - text: no, bye!
+  - text: nice day
+  - text: my time is up
+  - text: logging off
+  - text: leave
+  - text: see ya soon
+  - text: see you
+  - text: should be going
+  - text: later
+  - text: i said goodbye
+  - text: laters
+  - text: should go
+  - text: signing off
+  - text: signing out
+  - text: so long
+  - text: finally reached home good nite and good bye for ever
+  description:
+- intent: turn_down
+  examples:
+  - text: Reduce the fan speed
+  - text: switch down the heating
+  - text: put ac on low
+  - text: Decrease volume
+  - text: decrease the volume
+  - text: AC low
+  - text: turn dow nthe wipers
+  - text: reduce the sound
+  - text: set the ac to low
+  - text: slow down the wiper please
+  - text: slow down the wipers
+  - text: Slow the wipers down
+  - text: heat low
+  - text: I need you to turn my music down
+  - text: lessen the ac
+  - text: low AC
+  - text: lower ac
+  - text: lower heat
+  - text: lower temperature
+  - text: lower the volume
+  - text: low volume
+  - text: make it quieter
+  - text: music down
+  - text: please turn the fan down
+  - text: power down the cooling
+  - text: turn this sound down
+  - text: turn the wipers on low
+  - text: turn the wipers down for me
+  - text: turn the heating down
+  - text: turn my volume down
+  - text: turn it down
+  - text: turn down the heating
+  - text: the music needs to be turned down
+  - text: switch the ac to low
+  description:
+- intent: weather
+  examples:
+  - text: is it dark outside
+  - text: When will it be sunny
+  - text: when will be the rain end ?
+  - text: when were you there when rain is starch
+  - text: when the rain stops?
+  - text: when the rain of end
+  - text: when the rail will end
+  - text: when rain ends
+  - text: when rain
+  - text: when all the rain and
+  - text: what would be the weather 50 km ahead?
+  - text: What weather do you like?
+  - text: what weather?
+  - text: What us weather in 08854
+  - text: what time will the weather change
+  - text: what's the weather out would be to destination
+  - text: whats the weather outside
+  - text: whats the weather like right now
+  - text: what's the weather
+  - text: Whats the temperature outside?
+  - text: What's the temperature outside?
+  - text: whats the outside air temperature?
+  - text: what is the weather like
+  - text: What is the weather going to be like
+  - text: what is the tempreture outside
+  - text: What is the temperature outside?
+  - text: What is the temperature outside
+  - text: what is the rain?
+  - text: what is the outside temperature?
+  - text: what abt weather today?
+  - text: what about weather today?
+  - text: What about weather?
+  - text: What about weather
+  - text: weather is cool.
+  - text: watson when this rain will over
+  - text: the weather is important to me
+  - text: The sun is out
+  - text: tell me the weather
+  - text: is it sunny out?
+  - text: is raining
+  - text: Is raining?
+  - text: is raining today
+  - text: it is a sunny day
+  - text: it is cloudy now
+  - text: How about this rain
+  - text: how cold
+  - text: how cold is it out
+  - text: how cold is it outside
+  - text: how hot
+  - text: how hot is it outside
+  - text: How is the climate?
+  - text: How is the typooon
+  - text: how is the weater?
+  - text: how long the rain?
+  - text: how long till it rains
+  - text: How long until the rain ends?
+  - text: how long will it rain
+  - text: how many degrees are outside?
+  - text: how's the wether
+  - text: how`s the wheather
+  - text: how warm is it
+  - text: is it a clear day ?
+  - text: is it a nice day today?
+  - text: is it a sunny day
+  - text: When will it be sunny?
+  - text: is it going to rain
+  - text: Is it going to rain?
+  - text: Is it going to rain all day?
+  - text: is it going to rain for the entire day?
+  - text: is it going to rain later today
+  - text: is it going to rain today?
+  - text: is it going to rain when we arrive?
+  - text: is it gonna be raining
+  - text: is it raining
+  - text: Is it rainning now?
+  - text: is it rainning right?
+  - text: when will the rain arrive
+  - text: It is going to rain
+  - text: it isn't raining anymore
+  - text: it is raining, what can you do ?
+  - text: It's a rainy day
+  - text: It's become sunny now
+  - text: It's cold here
+  - text: it's cold today
+  - text: it's getting cold
+  - text: it's hot
+  - text: its is raining
+  - text: it's raining ...
+  - text: its raining now ?
+  - text: Its Raining now
+  - text: It's rain today.
+  - text: it's sunny, maybe we don't need the lights
+  - text: it's sunny now
+  - text: I want to know the weather
+  - text: I want to see weather forecasts
+  - text: i want to  weather news.
+  - text: look up the weather
+  - text: look up the weather in tel aviv
+  - text: make it stop raining
+  - text: Oh, it's a sunny day
+  - text: oh, it started to rain
+  - text: oops... it's raining again
+  - text: raining now
+  - text: rain rain go away
+  - text: When will the rain stop
+  - text: when will the sun appear?
+  - text: when will the sun begin?
+  - text: when will the sun come out
+  - text: when will the sun set?
+  - text: when will this rain end
+  - text: when will this rain end?
+  - text: when wil the rain end?
+  - text: Whn will this rain stop?
+  - text: why is it raining ?
+  - text: Why is it raining
+  - text: Why is it raining?
+  - text: Why is it raining again
+  - text: Why is it raining today?
+  - text: why it is raining
+  - text: Why it is raining?
+  - text: will it be warm today?
+  - text: will it rain much longer?
+  - text: will rain end?
+  - text: Will rain stop?
+  - text: wow .. it is raining in front of my car
+  - text: is raining now
+  - text: Can we go someplace where it's not raining?
+  - text: can you tell me what's the weather will be in one hour if we keep goint
+      in this direction?
+  - text: Can you tell me what the weather looks like?
+  - text: Check the weater
+  - text: check the weather
+  - text: check the wether
+  - text: check the wheather
+  - text: check weather
+  - text: Does It raining all day?
+  - text: Does the weather get worse
+  - text: do I need a jacket
+  - text: do you know weather today
+  - text: do you think will rain?
+  - text: Good weather, ya?
+  - text: Harvard is it going to rain
+  - text: hey watson it's not raining
+  - text: Hi, please tell me something about weather
+  - text: hi, what is the temperature in milan
+  description:
+- intent: about_VA
+  examples:
+  - text: what's your favorite
+  - text: what types of food do you like
+  - text: what's your
+  - text: whats your favorite color
+  - text: cloud you recommend music?
+  - text: hey, whats your ame?
+  - text: how old are you
+  - text: what are you called
+  - text: what do i call you
+  - text: can you recommend ood jazz music?
+  - text: what is your favourite music
+  - text: when were you born
+  - text: your name
+  - text: any music reccomendation?
+  - text: what is your favourite food
+  - text: what is your favourite colour
+  - text: a/s/l
+  - text: what music do you like
+  - text: do you hate
+  - text: Do you like
+  - text: do you love
+  - text: how much do you weigh
+  - text: how tall are you
+  - text: i want jokes
+  - text: I want to date you
+  - text: know any jokes
+  - text: tell me your favorite color
+  - text: tell me your favorite foods
+  - text: what is your name
+  - text: what kind of food do you eat
+  - text: whats your favorite movie
+  - text: what's your name
+  - text: whats your name
+  description:
+- intent: locate_amenity
+  examples:
+  - text: Closest gas station
+  - text: closest mcdonald's
+  - text: closest one.
+  - text: Closest one
+  - text: closest one please
+  - text: Coffee
+  - text: coffee place
+  - text: coffee shop?
+  - text: cool, now I wanna go to a partu
+  - text: cool. restrooms nearby?
+  - text: could you find gas station?
+  - text: Did we reached restaurant
+  - text: im almost out of gas
+  - text: I'm craving a burger.
+  - text: i'm hungry
+  - text: im hungry I want to eat something
+  - text: I'm in the mood for having a hamburger
+  - text: I'm thinking about a nice, juicy steak
+  - text: I'm thinking about some beef jerky
+  - text: I need a bathroom
+  - text: I need a destination
+  - text: I need a garage
+  - text: I need a hospital
+  - text: i need a hotel
+  - text: i need another gas station
+  - text: take to naples, Italy
+  - text: tell me about gas stations
+  - text: tell me about restaurants
+  - text: tell me fancy restaurant
+  - text: tell me how can I go to my mother's house
+  - text: tell me restaurants in seattle
+  - text: the cheapest restaurant?
+  - text: the closest gas station
+  - text: The closest gas station.
+  - text: The closest one
+  - text: The closest ones
+  - text: The closest please
+  - text: the closest restaruant
+  - text: the second pasta restaurant
+  - text: to another place
+  - text: to eat Chinese food
+  - text: To gas station please!
+  - text: to lima
+  - text: to Nevada
+  - text: to nr 2
+  - text: To numbre 2
+  - text: to the cheapest
+  - text: to the shops
+  - text: Trace route to Sao Paulo
+  - text: Traduzir  qual o restaurante mais perto  which the restaurant closer
+  - text: TThe closest
+  - text: turn on the lights and find a restaurant
+  - text: "\x8BÛÛwhere is the nearest hotels?"
+  - text: want to go to car shop
+  - text: want to go to the rest room!
+  - text: washrooms nearby
+  - text: Watson I need gas station
+  - text: well the next restaurant
+  - text: well you certainly are at the restaurant
+  - text: We need gas
+  - text: were is the nearest bar
+  - text: What about a gas station?
+  - text: what are some chinese restaurant
+  - text: what are some places nearby
+  - text: what are the nearest restaurants
+  - text: What distance is the 5 gas station?
+  - text: What is an amenity?
+  - text: what is closeby
+  - text: what is gasoline?
+  - text: What is good to eat?
+  - text: what is near
+  - text: what is nearby
+  - text: what is near me
+  - text: what is that green area
+  - text: What is the closests motel
+  - text: what is the nearest movie theatre
+  - text: what is the next gas station?
+  - text: Whatis the way to Sachsenhausen?
+  - text: What is your advice where to eat fish
+  - text: what place is most popular?
+  - text: what restaurant?
+  - text: what restaurants
+  - text: What restrooms are nearby?
+  - text: whats a good restaurant around here?
+  - text: What's around here?
+  - text: what's closeby
+  - text: what's close to me
+  - text: what's near
+  - text: whats nearby?
+  - text: Whats nearby
+  - text: what's nearby Watson
+  - text: what's the cheapest gas station around?
+  - text: what's the nearest?
+  - text: What the nearest restrooms
+  - text: what type of restaurant you like?
+  - text: Where are nearest McDonalds?
+  - text: Where are nhe neast gas station
+  - text: where are restrooms
+  - text: where are the closest restrooms
+  - text: Where are the restrooms?
+  - text: where are we going to?
+  - text: where can i drink
+  - text: where can I eat a good steakc
+  - text: where can i eat pizza
+  - text: Where can I eat tacos?
+  - text: where can i have pizza
+  - text: Where can we go?
+  - text: where chinese restaulant?
+  - text: Where do I can get tacos?
+  - text: where in the nearests CVS?
+  - text: where is a fuel station
+  - text: where is a gas station
+  - text: where is a petrol station
+  - text: where is a petrol station ?
+  - text: where is ATM
+  - text: where is gus stations.
+  - text: Where is my favorite restaraunt?
+  - text: where is my home
+  - text: Where is my home?
+  - text: where is nearest petrol station
+  - text: where is Tacos
+  - text: where is the
+  - text: where is the bus stop
+  - text: Where is the moon
+  - text: where is the nearest filling station
+  - text: where is the nearest gasoline station ?
+  - text: where is the nearest gaz station
+  - text: where is the nearest gsa station?
+  - text: where is the nearest petrol station?
+  - text: Where is the nearest petrol station
+  - text: I need a resturant in nairobi
+  - text: I need a toilet
+  - text: i need directions to your moms house
+  - text: I need gas station
+  - text: I need restrooms
+  - text: i need some beer
+  - text: i need some coffee
+  - text: I need some lunch
+  - text: I need some money
+  - text: i need to buy flowers
+  - text: i need to do some shopping
+  - text: I need to eat
+  - text: i need to eat rice
+  - text: I need to eat some tacos
+  - text: i need to have a rest
+  - text: I need to pee
+  - text: i need to stop for
+  - text: Information on locations near me
+  - text: In want to go to the beach
+  - text: I prefer rock to Jazz
+  - text: I see, I'm not sure if gas stations are necessary. How about restaurants?
+  - text: Is there a convenience  store?
+  - text: is there a gas station ?
+  - text: is there a gas station?
+  - text: is there a gas station close
+  - text: is there a gas station close by ?
+  - text: is there a good chinese resturant nearby?
+  - text: is there any hotel nearby
+  - text: is there any pub nearby?
+  - text: Is there any resturant nearby?
+  - text: Is there any shopping mall nearby?
+  - text: is there factory outlet near here?
+  - text: Is there someplace I can eat around here?
+  - text: Italian food is a kind of food
+  - text: i think we need gas
+  - text: i wanna get food
+  - text: I wanna go to arestaurant
+  - text: I wanna go to hospital
+  - text: i wanna go to sea.
+  - text: i wanna to dance tonight
+  - text: i wanna to nightclub
+  - text: I want gas
+  - text: i want go restaurant
+  - text: i want near restaurants full of light
+  - text: I wan to drink with my friend
+  - text: i wan to go gas station
+  - text: I wan to go Gas station.
+  - text: I want pizza
+  - text: i want restaurant 2
+  - text: I want restaurants
+  - text: i want some pizza
+  - text: I want to drink beer
+  - text: i want to drive home
+  - text: I want to find gas station
+  - text: I want to go back to home
+  - text: I want to go to 2.
+  - text: I want to go to beach.
+  - text: I want to go to gas station.
+  - text: i want to go to home
+  - text: I want to go to school.
+  - text: I want to go to the gas station
+  - text: I want to go to U.S.A.
+  - text: i want to see a movie
+  - text: go to house
+  - text: I want to see a scenic place
+  - text: i want to stop
+  - text: I want to stop for some food
+  - text: I want to view a film
+  - text: I will go to th Alps
+  - text: I will go to the mountains
+  - text: i would go to the seafood
+  - text: I would like a coffee
+  - text: I would like go to a restaurante
+  - text: I would like to go to surfside.
+  - text: I would like to hear some pop
+  - text: I would like to learn how to drive from Brooklyn to New York City
+  - text: direction to pharmacy
+  - text: Direction to San Diego Airport
+  - text: direction to santa monica
+  - text: Doctors nearby
+  - text: do you know any chinese restaurants around
+  - text: do you know a restaurant in new york city
+  - text: do you know a restaurant in new york city?
+  - text: do you know if there's any restaurant around here?
+  - text: Do you know pizza?
+  - text: do you know where the next gas station?
+  - text: drive across the bridge
+  - text: drive by local attractions
+  - text: Drive home
+  - text: Drive home.
+  - text: drive in the field
+  - text: Drive me home
+  - text: Drive somewhere
+  - text: drive through
+  - text: Drive to a petrol station.
+  - text: drive to the restaurant
+  - text: Drop me to my office
+  - text: fetch me lunch locations
+  - text: fill the gas
+  - text: finally this restaurant
+  - text: Find a fast food
+  - text: find an amenity
+  - text: go to the supermarket
+  - text: go to the tacos
+  - text: go to the third gas station
+  - text: go to the zoo
+  - text: go to Toronto
+  - text: go to usa
+  - text: go to vienna
+  - text: go to Wakayama in JAPAN
+  - text: go to walmart
+  - text: go for a city now
+  - text: go to hotel
+  - text: go to hospital
+  - text: Go to home
+  - text: go to home.
+  - text: go to harden nsw
+  - text: Go to Hamilton
+  - text: Go to Germany
+  - text: go to gas station 2
+  - text: go to gas station 1.
+  - text: go to gas station 1
+  - text: go to gas station
+  - text: go to fouth
+  - text: Go to five
+  - text: go to first gas station
+  - text: Go to Esso
+  - text: go to disco
+  - text: go to cinema
+  - text: go to Campinas
+  - text: go to burguers
+  - text: yep, need a hotel for tonight
+  - text: yeah a nice coffee place
+  - text: Whta is the nearst gas station from now.
+  - text: Whre is the nearest resturant
+  - text: which the restaurant closer
+  - text: which one is closest?
+  - text: which is the nearest gas station
+  - text: Which is the closest salon?
+  - text: Which is closest?
+  - text: Where us restoraunt?
+  - text: Where to have lunch
+  - text: where there is the next hotel
+  - text: where the GS
+  - text: Lets go to NewYork
+  - text: lets go to france
+  - text: lets go to burger king
+  - text: let's go for rock
+  - text: let's go for jazz
+  - text: go to burgers
+  - text: go to amsterdam center
+  - text: go to amenity
+  - text: go to amelia
+  - text: go to airport
+  - text: go to a
+  - text: go to 7-11
+  - text: go to 5
+  - text: go to 4
+  - text: go to 2 gas station
+  - text: gold to Olema
+  - text: go get some tacos
+  - text: go for a swim
+  - text: go back to homz
+  - text: give me the address of italian restaurant
+  - text: give me some drink
+  - text: give me nearest burger joint
+  - text: give me directions
+  - text: Give me a pub street
+  - text: get. Some tacos
+  - text: get me home
+  - text: get me gas station
+  - text: get me directions
+  - text: Get me a sandwich
+  - text: Get me an uber
+  - text: gas stop
+  - text: Gas station nearby
+  - text: gas fuel
+  - text: gas
+  - text: french restaurants are my fav
+  - text: fool i said i need to eat an ice cream
+  - text: food nearest food
+  - text: fly to North Carolina
+  - text: find townsend hall
+  - text: Find to me the nearest gaz station
+  - text: find toilet
+  - text: Find the place with rich nature
+  - text: find the next MCdonalds
+  - text: Find the next gas station
+  - text: find the next gasstation
+  - text: find the nearst gas station
+  - text: find the last road
+  - text: find the italian restruant
+  - text: find the gas station
+  - text: find the closet gas station
+  - text: find the cheapest gas station
+  - text: Find tacos
+  - text: find s washroom
+  - text: find supermarket
+  - text: find subway
+  - text: find stations then
+  - text: find starbucks
+  - text: Find stadium
+  - text: find some gas station
+  - text: find snacks bar
+  - text: find servo
+  - text: find seafood
+  - text: Find school
+  - text: find rstaurants
+  - text: find resurant
+  - text: find resturants
+  - text: find resturant
+  - text: Find restuarants
+  - text: find restraunts
+  - text: find restourants
+  - text: find restorant
+  - text: find restoran, please
+  - text: find resteraunt
+  - text: find restaurents
+  - text: find rest area
+  - text: find rest
+  - text: find pizzeria
+  - text: Find Petrol pump
+  - text: find petrol
+  - text: find non veg restarant
+  - text: find next gas station
+  - text: Find my school
+  - text: find movie
+  - text: find motel
+  - text: find me the next gas station
+  - text: find me the neareset gas station
+  - text: Find me the hawker stall that sells fried carrot cake.
+  - text: find me gas station with cigerette counter
+  - text: find me a restroom
+  - text: find mcdonlds
+  - text: find mcdonalds
+  - text: find mcdonald
+  - text: find mall
+  - text: Find Library.
+  - text: find lclosest starbucks
+  - text: find hotel
+  - text: find hospital
+  - text: find home
+  - text: Find Hamburger shop
+  - text: Find hamburger
+  - text: find gus sation
+  - text: find gas station please.
+  - text: find gas station please
+  - text: find gas station close
+  - text: Find Gas Station
+  - text: find gasstation
+  - text: find fuel
+  - text: find fastest way
+  - text: find epteke
+  - text: Find chipotle
+  - text: find chinese restraunt
+  - text: find chinese
+  - text: Find chicken
+  - text: find calte
+  - text: find cafe
+  - text: Find burger shop
+  - text: find burgers
+  - text: find burger
+  - text: find BP
+  - text: Find best option
+  - text: i want to see a river
+  - text: go to ibm hortolandia
+  - text: go to LA
+  - text: Go to London
+  - text: Go to mauntain
+  - text: go to mcdonalds
+  - text: Go to moskow
+  - text: Go to movie
+  - text: go to natianal park
+  - text: Go to NewYork
+  - text: Go to number 2.
+  - text: Go to NY
+  - text: go to nyc
+  - text: go to orlando
+  - text: go to paris
+  - text: go to park
+  - text: go to piracicaba
+  - text: go to restaraun
+  - text: go to restaurannt
+  - text: Go to restrant
+  - text: go to restuarnts
+  - text: go to resturunt
+  - text: go to Safeway
+  - text: Go to San Diego
+  - text: go to san francisco
+  - text: go to school
+  - text: go to schp\i\iil
+  - text: go to sea
+  - text: go to service
+  - text: go to shop
+  - text: go to shp
+  - text: go to spermarket
+  - text: go to spot 1
+  - text: go to starbucks
+  - text: go to supermarket
+  - text: Go to Tacos
+  - text: go to the airport
+  - text: go to the be4ach?
+  - text: go to the beach
+  - text: Go to work
+  - text: go to zoo
+  - text: got to sleep
+  - text: guide me to the convenience store.
+  - text: hello gas
+  - text: help me to arrive to my place
+  - text: hey, I'm almost out of gas.
+  - text: Hi tell me please were I can find Amatriciana pasta around here
+  - text: 'Hi Watson, where is the restaurant:'
+  - text: hi where do i get dentist
+  - text: Hmm I said Korean restaurant. None of the food you addressed is Korean food.
+  - text: hmmm  the closest one
+  - text: hotel nearby
+  - text: hotel near by
+  - text: hotels nearby?
+  - text: how about pizza
+  - text: how about pizza?
+  - text: how can i get to Gbagada, Lagos
+  - text: how can i go for gas?
+  - text: howe much time will it take to reach restroom 1
+  - text: how far is the closest gas station
+  - text: how far is the closest gas station?
+  - text: how far is the n ex italian  restaurant
+  - text: how far is the next restroom
+  - text: how i get to a museum
+  - text: how long does it take to the restroom?
+  - text: Find an imvestor
+  - text: find another route
+  - text: find a restroom
+  - text: Find bar
+  - text: go to the beach?
+  - text: go to the cinema
+  - text: go to the closest
+  - text: go to the country
+  - text: go to the department store
+  - text: go to the garden
+  - text: Go to the gas station
+  - text: Go to the graveyeard
+  - text: Go to the grocery store
+  - text: Go to the hospital
+  - text: go to the hospitol
+  - text: go to the korea
+  - text: Go to the mountains
+  - text: go to the movie
+  - text: Go to the movies
+  - text: go to the park
+  - text: go to the post office
+  - text: go to the restorant
+  - text: go to the school
+  - text: go to the sea
+  - text: Go to the shops
+  - text: go to the store
+  - text: go to the studium
+  - text: How long is drive from Pittsburgh to new york
+  - text: HOW MANY RESTAURANTS ARE NEAR BY?
+  - text: how many times to the restaurant ?
+  - text: how to drive home?
+  - text: how to get home/
+  - text: How to get home?
+  - text: how to go to the post office?
+  - text: I am going to New York.
+  - text: I am hungry
+  - text: I am looking for gas station.
+  - text: I am looking for restarurants
+  - text: I'd like some coffee
+  - text: I'd like to eat something
+  - text: I'd like to get something to eat
+  - text: I'd like to go camping
+  - text: I'd like to go skiing
+  - text: I'd like to go somewhere I can swim
+  - text: I'd like to see a map
+  - text: I'd like to see a movie.
+  - text: I'd need a toilet
+  - text: I dont have gas
+  - text: i feel like getting a coffee
+  - text: I have hungry like a wolf
+  - text: I have to go to the bathroom
+  - text: i like pizza
+  - text: i like some coffee
+  - text: just the cheapest restaurant please
+  - text: let'd go to school
+  - text: let's get home
+  - text: let's get some grub
+  - text: lets go for drive
+  - text: navigate to school
+  - text: navigate to superstore
+  - text: navigate to the citibank
+  - text: navigate to the mall
+  - text: navigate to the nearest gas station
+  - text: navigate to work
+  - text: Navigation
+  - text: nearby gas station
+  - text: near by hospital
+  - text: nearby hospital
+  - text: nearby hotel
+  - text: Nearby hotels
+  - text: nearby hspitals
+  - text: nearby mc donalds
+  - text: nearby residents
+  - text: nearby restaurant
+  - text: near by restaurent
+  - text: near by resturant
+  - text: nearby rivers?
+  - text: near by seattle
+  - text: near by shopping
+  - text: nearby supermarket
+  - text: nearby Tacos
+  - text: nearest restaurtant  aroungd me
+  - text: near gasstation go
+  - text: near one
+  - text: near restrunt
+  - text: near school
+  - text: ned space to stay
+  - text: need a gas station
+  - text: need a map
+  - text: need a restaurent
+  - text: nevermind, i think i need some food instead
+  - text: never mind, locate an amenity
+  - text: no I mean the restaurant
+  - text: no i need to eat ice creams
+  - text: Okay let's go for burgers.
+  - text: okay let's go for jazz
+  - text: OK. Gas station. How far is the nearest gas station is located?
+  - text: Ok, get me spaghettis
+  - text: OK. go to No.3
+  - text: ok...lets go for a long drive
+  - text: OK, lets go to Tokyo!
+  - text: Ok ....please find a good resort for me
+  - text: ok restroom would be nice
+  - text: order a pizza
+  - text: or in the restaurant
+  - text: or the restaurant
+  - text: parks nearby...
+  - text: pizza
+  - text: pizza, please.
+  - text: Please drive me home
+  - text: Please drive me home.
+  - text: please  find hospital
+  - text: please find that gas station
+  - text: please find the gas station
+  - text: Please find the next gas station
+  - text: please fin nearby gas station
+  - text: please give me to my house
+  - text: please go to Tacobell
+  - text: please navigate go to restrant.
+  - text: please show me resturants
+  - text: please steer to the right
+  - text: please tell me nice restrant near here
+  - text: Please tell me the best places to visit in 11040
+  - text: Recommend somewhere to visit
+  - text: Let's go to NY
+  - text: lets go to rest room
+  - text: Lets go to the number 5
+  - text: lets go to the park
+  - text: lets go to the resturant
+  - text: lets go to the river
+  - text: Lets go to the store
+  - text: Lets head up to number 2
+  - text: lets not go to work, suggest somewhere nice
+  - text: let's stop at gas station
+  - text: let you to another city
+  - text: list of 5 next gas stations
+  - text: locate amenity
+  - text: locate ammenity
+  - text: locate burgers
+  - text: Locate gas station
+  - text: Locate McDonalds
+  - text: locate poznan
+  - text: locate starbucks
+  - text: locate the gas station within 1 KM
+  - text: look for a gas station
+  - text: looking for a gas station
+  - text: looking for a movie
+  - text: make a coffee
+  - text: mmm, i don't want music, i prefer you find me a good restaurant
+  - text: name the restaurant
+  - text: navigate me to the coffe shop
+  - text: Navigate me to the next city
+  - text: Navigate me to the next lake
+  - text: navigate to 4th
+  - text: navigate to dayabumi
+  - text: navigate to gas station
+  - text: navigate to kochi
+  - text: navigate to london
+  - text: navigate to macdonalds
+  - text: navigate to menara dayabumi
+  - text: navigate to Pomona
+  - text: where is the nearest police station here
+  - text: where is the nearest railway station
+  - text: Where is the nearest station?
+  - text: where is the next book store
+  - text: where is the next bus stop?
+  - text: where is the next pit stop ?
+  - text: where is the next stop
+  - text: where is there a good hotel
+  - text: where is there petrol?
+  - text: where restoran
+  - text: where's a good resturaunt
+  - text: Where's burgers?
+  - text: Where should i go to eat?
+  - text: where's houston
+  - text: where's starbucks?
+  - text: where's the nearest exit
+  - text: where's the nearest fast food place?
+  - text: where's the nearest petrol station
+  - text: where's the nearest station?
+  - text: restarurants near
+  - text: restaurant
+  - text: Restaurant around this area
+  - text: restaurants
+  - text: restaurants serving tacos
+  - text: restaurants tacos
+  - text: restroom
+  - text: restrooms show
+  - text: resturant nearby
+  - text: Search for a supermarket
+  - text: see if there are any chinese restaurants nearby
+  - text: shome me the closest american restarurant
+  - text: shome me the closest burger restarurant
+  - text: show directions
+  - text: show me burgers
+  - text: show me direction
+  - text: show me gas station
+  - text: show me gasstations
+  - text: show me houses in sun city west az.
+  - text: show me map
+  - text: show me maps
+  - text: show me mexican
+  - text: show me nearest gas station
+  - text: show me our route
+  - text: show me startbucks
+  - text: show me the 5th
+  - text: show me the best path
+  - text: show me the hotel
+  - text: show me the nearest gas station
+  - text: show me the nearest grocery
+  - text: Show me the nearest one
+  - text: show me the next bar
+  - text: show me the next restrooms
+  - text: Show me the road
+  - text: show me these resturants
+  - text: show my way to home
+  - text: show the way to the gas station
+  - text: show whats near by
+  - text: so can you lead me to the fastest way without the jams?
+  - text: some mexican food
+  - text: someting near for meal
+  - text: stop at restroom 1
+  - text: stop at the restroom
+  - text: Stop for food/coffee
+  - text: stop near a grocery store
+  - text: stop near some resturnant
+  - text: tacos nearby
+  - text: tacos restaurant
+  - text: Take a right
+  - text: take me homw
+  - text: take me to
+  - text: take me to nearest police station
+  - text: take me to New york
+  - text: Take me to your favorite reteraunt
+  - text: find a taco place
+  - text: find me some tacos
+  - text: look for any pizza nearby
+  - text: find pasta
+  - text: find food
+  - text: I love spicy food
+  - text: actually I would like to stop at one further away
+  - text: alright then. can you recommend a good place for a quick lunch?
+  - text: Amenities
+  - text: any gas stations?
+  - text: any good restaurant there nearby
+  - text: any place in the gas
+  - text: Any restaurant around here?
+  - text: any restaurant here?
+  - text: any restrooms nearby
+  - text: any ukrainian restaurants?
+  - text: Are there any around here
+  - text: are there any good restaurants near me?
+  - text: Are there any italian restaurants nearby
+  - text: are there any restaurants near by ?
+  - text: bring me a beer
+  - text: bring me to the beach
+  - text: bring me to the beach.
+  - text: bring me to the park
+  - text: burgers nearby
+  - text: buy me a dress
+  - text: buy some food
+  - text: Can I buy a humberger?
+  - text: can i go to the park?
+  - text: can I have some pizza?
+  - text: can we drive to New York ?
+  - text: can we go to Shell ?
+  - text: can we go to the park?
+  - text: can you drive downtown?
+  - text: Can you drive me to pick up tickets for the circus
+  - text: can you drive towards Resturant 2
+  - text: can you find a good place to eat
+  - text: can you find a wendy's on my way home
+  - text: can you find gas station?
+  - text: can you find me a restaurant
+  - text: can you find my city ?
+  - text: can you find the nearest for me
+  - text: Can you give me directions?
+  - text: can you give me the directions
+  - text: can you go to the third gas station instead?
+  - text: can you help me to get to sesame street
+  - text: can you locate a gas station
+  - text: can you show me the way please?
+  - text: Can you take me home?
+  - text: can you travel to italy?
+  - text: Closest
+  - text: closest brothel
+  - text: closest burgers
+  - text: closest cafe
+  description:
+- intent: phone
+  examples:
+  - text: use the phone
+  - text: text someone
+  - text: text mum i'll be late
+  - text: text mom
+  - text: Text me
+  - text: do you have a phone
+  - text: dial num 111
+  - text: dial Home
+  - text: Can you call Eliza?
+  - text: call on the telephone
+  - text: call dad
+  - text: What's your phone number
+  - text: answer the phone
+  - text: send an sms
+  - text: make a phone call
+  - text: phone box
+  - text: smartphone
+  - text: start my call
+  - text: I want to text my father
+  - text: I'd like to make a call
+  - text: I'd like to call my mom
+  - text: Hello could you call a taxi?
+  - text: I would like to call someone on the phone
+  description:
+- intent: navigation
+  examples:
+  - text: how do i get from here to there
+  - text: can you navigate to my home
+  - text: what is the best route to a gas station
+  - text: Hi Watson! Please enable the GPS.
+  - text: How long does it take to get the first gas station?
+  description:
+- intent: system_reliance
+  examples:
+  - text: hey, now it's raining, you said you didn't know anything about that. Are
+      you a liar?
+  - text: do you tell the truth
+  - text: do you lie
+  - text: can you guess what it is ?
+  - text: can i trust you
+  - text: are you trustworthy
+  description:
+- intent: decision_replies
+  examples:
+  - text: not a clue
+  - text: yes thanks
+  - text: yes please
+  - text: yes definitely
+  - text: 'yes'
+  - text: No thank you
+  - text: no thanks watson
+  - text: no thank
+  - text: 'no'
+  - text: maybe
+  description:
+- intent: turn_off
+  examples:
+  - text: can I turn off the wipers
+  - text: cancel
+  - text: will you turn my ac off please
+  - text: which off the lights
+  - text: turn the heater off
+  - text: turno off the lights
+  - text: Turn off the wipers when it stops raining
+  - text: turn off the wipers please
+  - text: turn off the lights for me
+  - text: Turn off the air conditioning
+  - text: turn off on off the music
+  - text: turn off one of the lights
+  - text: turn off my radio please
+  - text: Turn off my ac
+  - text: Turn off car lights
+  - text: turn off air conditioning
+  - text: turn off
+  - text: Turning off the lights
+  - text: turn air conditioning off
+  - text: Truning off the lights
+  - text: tunr off lights
+  - text: torn off lights
+  - text: to off my ac
+  - text: the wiper is no longer needed
+  - text: swtich off the lights
+  - text: swoitch off the lights
+  - text: swithch off lights
+  - text: switch the wipers off
+  - text: switch off the heater
+  - text: switch off my lights please
+  - text: switch it off
+  - text: stop wipers and lights
+  - text: stop voice
+  - text: Stop the radio
+  - text: stop the music now
+  - text: stop the music for a while
+  - text: Stop the music
+  - text: stop the lights
+  - text: stop the damn music
+  - text: stop the call
+  - text: stop the a/c
+  - text: stop the
+  - text: stop rock music
+  - text: stop radio
+  - text: stop pop music
+  - text: STop playing the music
+  - text: Stop playing music
+  - text: stop play
+  - text: stop my lights
+  - text: stop music please
+  - text: Stop Music
+  - text: stop music?
+  - text: stop lights
+  - text: stop [lay music
+  - text: stop it now.
+  - text: stop de radio
+  - text: stop believe music please
+  - text: stop
+  - text: sop music
+  - text: sitch off the rear lights
+  - text: shut up AC
+  - text: shutt off lights
+  - text: shut the wipers
+  - text: shut the lighs
+  - text: shut of the headlights
+  - text: shut off
+  - text: shut
+  - text: set off lights
+  - text: radio stop
+  - text: Put off the lights
+  - text: power off the radio
+  - text: please stop the call
+  - text: please stop music
+  - text: ok stop music.
+  - text: ok can you stop music?
+  - text: off the lights
+  - text: off radio rain ends
+  - text: off navigation
+  - text: off lights and wipers
+  - text: Off lights
+  - text: 'off'
+  - text: now you have to turn off both light wipers
+  - text: no more music
+  - text: no jazz please
+  - text: no jazz no
+  - text: need the ac switched off
+  - text: need my wipers switched off
+  - text: navigation off
+  - text: music stop
+  - text: lights off plz
+  - text: lights off now
+  - text: Lights off!
+  - text: Lights off
+  - text: lights be off
+  - text: Let the lights stay turned off
+  - text: I would like you to turn off the lights
+  - text: i want to turn off
+  - text: I want the ac off
+  - text: it is no longer raining, please stop the wiper
+  - text: I need my heater off
+  - text: I don't need the lights anymore
+  - text: i don't need lights anymore
+  - text: I don't actually need the heater
+  - text: how do you turn off wipers?
+  - text: hi off
+  - text: hi lights off
+  - text: get off the lights bastart
+  - text: dirt off the lights
+  - text: close the left ac vent
+  - text: close radio
+  - text: close music
+  - text: Close all windowss
+  - text: close ac
+  - text: close
+  - text: can you please turn the light on off ?
+  description:
+- intent: out_of_scope
+  examples:
+  - text: how to change the oil
+  - text: how do i refill the engine oil
+  - text: how do i resume cruise control
+  - text: how do i resume the cruise speed
+  - text: how do i resume the vehicle speed
+  - text: how do i save my favourite radio station
+  - text: how do i save the seat position
+  - text: how do i scroll the screen
+  - text: how do i select a desired track on the iPod
+  - text: how do i select the song on the iPod
+  - text: how do i set the adaptive cruise control speed
+  - text: how do i set the cruise speed
+  - text: how do i set the vehicle speed
+  - text: how do i switch on the cruise control
+  - text: how do i tune the radio
+  - text: how do i turn off ambient lights
+  - text: how do i turn off the alarm
+  - text: how do i turn off the cruise control
+  - text: how do i turn off the high beams
+  - text: how do i turn off the traction control
+  - text: how do i turn off voice guidance
+  - text: how do i turn on adaptive cruise control
+  - text: how do i turn on ambient lights
+  - text: how do i turn on cruise control
+  - text: how do i turn on front seat heating
+  - text: how do i turn on headlamps
+  - text: how do i turn on high beams
+  - text: how do i turn on the alarm
+  - text: how do i turn on the cruise control
+  - text: how do i turn on the fog lamps
+  - text: How do I turn on the high-beams
+  - text: how do i turn on the pre collision system
+  - text: how do i turn on the traction control
+  - text: how do i turn on traffic info
+  - text: how do i turn on windscreen washer
+  - text: how do i unlock the windows
+  - text: How do I use cruise control
+  - text: how do i use the blind spot monitor
+  - text: how do i use the electric power steering
+  - text: how do i use the iPod
+  - text: how do i use the pre collision system
+  - text: how do i use the traction control
+  - text: how do i wash the car
+  - text: How frequently should I change the oil
+  - text: how often should i change the oil
+  - text: how to adjust the vehicle to vehicle distance
+  - text: how to change engine oil
+  - text: how to change oil
+  - text: How do I program my radio stations
+  - text: How to connect bluetooth
+  - text: how to replace light bulbs
+  - text: how to switch on the fog lights
+  - text: how to turn on warning lights
+  - text: Is there a lane change assist feature
+  - text: Is there an automatic parallel park feature
+  - text: Is there a warning light for low washer fluid
+  - text: light bulbs replacement
+  - text: low coolant
+  - text: opening the windows
+  - text: operating the radio
+  - text: parking brake
+  - text: refilling the engine coolant
+  - text: show me how to change the light bulbs
+  - text: switch on fog light
+  - text: turn off traffic info
+  - text: what are the crash ratings
+  - text: what is the pre collision system
+  - text: what is the traction control
+  - text: what is the vehicle stability control
+  - text: what kind of fuel does the car require
+  - text: what kind of fuel should i use
+  - text: What PSI do I inflate the spare tire to
+  - text: what's the tires pressure
+  - text: what type of oil do i need
+  - text: where are fog lights
+  - text: where are the lights
+  - text: where can i start air conditioning
+  - text: Where is the fuse box
+  - text: Where is the fuse box located
+  - text: how can i change oil
+  - text: bluetooth
+  - text: Can I play music through bluetooth from my phone
+  - text: change bulb
+  - text: changing gears
+  - text: changing the light bulb
+  - text: checking the engine oil
+  - text: coolant level
+  - text: fuel tank flap
+  - text: Hi, how can I check my tire pressure?
+  - text: Hi, I cannot find the button for emergency lamp
+  - text: how can i connect the phone
+  - text: how can i find current level of oil
+  - text: how can i lock the car
+  - text: how can i replace light bulb
+  - text: how do i adjust exterior mirrors
+  - text: how do i adjust head restraint
+  - text: how do i adjust the cruise control speed
+  - text: how do i adjust the mirror
+  - text: how do i adjust the mirror inside
+  - text: how do i adjust the rear view mirror
+  - text: how do i adjust the vehicle distance
+  - text: how do i arm the alarm
+  - text: how do i browse the tracks on the iPod
+  - text: how do i cancel cruise control
+  - text: how do i change oil
+  - text: how do i change the headlight bulbs
+  - text: how do i change the lights bulb
+  - text: how do i change the oil
+  - text: how do i clean the vehicle
+  - text: how do i close the window
+  - text: how do i connect my phone
+  - text: how do i connect USB device
+  - text: how do i control a phone
+  - text: how do i disable the vehicle stability control
+  - text: how do i fill in the engine oil
+  - text: how do i find the fuel consumption
+  - text: how do i lock the window
+  - text: how do i lock the windows
+  - text: how do i lock the windows to prevent children from opening
+  - text: how do i open the doors
+  - text: how do i open the fuel filler flap
+  - text: how do i open the power windows
+  - text: how do i open the rear window
+  - text: how do i open the side window
+  - text: how do i open the tank fuel
+  - text: how do i open the window
+  - text: How do I pair my android phone to the radio
+  - text: How do I pair my iPhone to the radio
+  - text: how do i pause song in my iPod
+  - text: how do i play an iPod
+  - text: how do i play the track on the iPod
+  description:
+- intent: improving_system
+  examples:
+  - text: can you learn from me
+  - text: can i training you?
+  - text: can i teach you something new
+  - text: how do i teach you
+  - text: Hello! I'm doing good. I'm here to help you. Just say the word. And please
+      do not respond like this "Hello! I'm doing good. I'm here to help you. Just
+      say the word."
+  - text: Can I teach you
+  - text: can you learn new things
+  - text: can i improve your system
+  description:
+- intent: interface_interactions
+  examples:
+  - text: can you read me
+  - text: can you interact in other languages
+  - text: Can you hear me?
+  - text: Can i ask you something in spanish?
+  - text: I want to talk
+  - text: what languages do you know
+  - text: tell me, what languages do you speak
+  - text: slow down the speech
+  - text: hello can you hear me?
+  - text: do you speak languages other than english
+  - text: can you speak something with me?
+  - text: do you know non-english languages
+  description:
+- intent: selections
+  examples:
+  - text: what options are there?
+  - text: what options do you have?
+  - text: What options?
+  - text: what option do you have?
+  - text: what options do ypu have?
+  - text: what exactly do you have?
+  description:
+- intent: not_specified
+  examples:
+  - text: Whatever is farthest
+  - text: whatever
+  - text: play whatever you want
+  - text: play anything u like
+  - text: Pick any
+  - text: no preference
+  - text: I don't see anything
+  - text: I don't see any options
+  - text: I don't see any
+  - text: I doesn't matter to me.
+  - text: i didn't see any options
+  - text: I did not say turn in anything I entered
+  - text: I am not identifying any thing here
+  - text: doesn't matter
+  - text: do anything
+  - text: but it doesn't really
+  - text: any of them
+  - text: Any of them.
+  - text: any one
+  - text: anything
+  - text: anything is fine
+  - text: anything would do
+  - text: as a matter of
+  - text: whatever you feel like
+  - text: Whatever you like
+  - text: you can go with your favorite
+  - text: you decide
+  - text: your favorite
+  - text: any
+  - text: any goddam one!!!!
+  - text: any near
+  description:
+- intent: interface_issues
+  examples:
+  - text: you aren't talking anymore
+  - text: system error, unable to lonin
+  - text: where is the sound
+  - text: where is the picture
+  - text: i don't hear any sound
+  - text: i can't see anything
+  - text: i cant hear any sound
+  description:
+entities:
+- entity: response_types
+  values:
+  - value: negative
+    metadata:
+    synonyms:
+    - 'no'
+    - nope
+    - definitely not
+    - no way
+    - not at all
+  - value: uncertain
+    metadata:
+    synonyms:
+    - not sure
+    - don't know
+    - no idea
+    - unknown
+    - maybe
+  - value: positive
+    metadata:
+    synonyms:
+    - absolutely
+    - definitely
+    - 'yes'
+    - yeah
+    - yep
+    - yeppers
+  metadata:
+  description:
+  fuzzy_match: true
+- entity: phone
+  values:
+  - value: call
+    metadata:
+    synonyms:
+    - call
+    - " calls"
+    - voice message
+  - value: text
+    metadata:
+    synonyms:
+    - " message"
+    - " messages"
+    - short message service
+    - sms
+    - sms message
+    - text
+    - " texts"
+  metadata:
+  description:
+  fuzzy_match: true
+- entity: option
+  values:
+  - value: second
+    metadata:
+    synonyms:
+    - 2nd
+    - " second"
+    - second best
+    - second rated
+  - value: third
+    metadata:
+    synonyms:
+    - 3rd
+    - average
+    - cheap
+    - cheapest
+    - middle
+    - " third"
+  - value: fourth
+    metadata:
+    synonyms:
+    - 4th
+    - fourth
+    - penultimate
+    - second to last
+  - value: fifth
+    metadata:
+    synonyms:
+    - 5th
+    - farthest
+    - fifth
+    - last
+    - lowest rated
+    - worst
+  - value: first
+    metadata:
+    synonyms:
+    - 1st
+    - any
+    - best
+    - closest
+    - finest
+    - " first"
+    - hgihest rated
+    - nearest
+    - recommended
+    - top rated
+    - whatever
+    - near
+    - close by
+    - closeby
+    - nearby
+  metadata:
+  description:
+  fuzzy_match: true
+- entity: genre
+  values:
+  - value: rock
+    metadata:
+    synonyms:
+    - jam
+    - metal
+    - prog
+    - progressive
+    - punk
+    - punkrock
+    - rock
+    - surf
+  - value: jazz
+    metadata:
+    synonyms:
+    - bebop
+    - big band
+    - dixie
+    - jazz
+    - lounge
+    - swing
+  - value: classical
+    metadata:
+    synonyms:
+    - avant-garde
+    - baroque
+    - chamber
+    - chant
+    - choral
+    - classical
+    - impressionist
+    - medieval
+    - opera
+    - orchestra
+    - orchestral
+    - renaissance
+    - wedding
+    - string quartet
+  - value: pop
+    metadata:
+    synonyms:
+    - pop
+    - popular
+    - modern
+    - top 40
+    - top 10
+    - top 20
+    - chart topper
+  metadata:
+  description:
+  fuzzy_match: true
+- entity: capabilities_subject
+  values:
+  - value: time
+    metadata:
+    synonyms:
+    - hour
+    - minutes
+    - the time
+    - time
+    - what time
+    - seconds
+  - value: date
+    metadata:
+    synonyms:
+    - date
+    - day
+    - month
+    - the date
+    - what date
+    - year
+    - the year
+  metadata:
+  description:
+  fuzzy_match: true
+- entity: appliance
+  values:
+  - value: wipers
+    metadata:
+    synonyms:
+    - windscreen wiper
+    - windscreen wipers
+    - windshield wiper
+    - windshield wipers
+    - wiper
+  - value: volume
+    metadata:
+    synonyms:
+    - sound
+    - speaker
+    - speakers
+    - vol
+  - value: music
+    metadata:
+    synonyms:
+    - itune
+    - itunes
+    - music station
+    - music stations
+    - radio
+    - radio station
+    - song
+    - songs
+    - sound system
+    - sound systems
+    - station
+    - stereo
+    - stereo system
+    - tune
+    - tunes
+  - value: lights
+    metadata:
+    synonyms:
+    - bulb
+    - bulbs
+    - foglight
+    - fog light
+    - foglights
+    - fog lights
+    - headlight
+    - head light
+    - headlights
+    - head lights
+    - highbeam
+    - high beam
+    - highbeams
+    - high beams
+    - light
+    - tubelight
+    - tubelights
+  - value: heater
+    metadata:
+    synonyms:
+    - heat
+    - heating
+    - heat vent
+    - heat vents
+    - hotter
+  - value: fan
+    metadata:
+    synonyms:
+    - cooler
+    - fans
+  - value: AC
+    metadata:
+    synonyms:
+    - ac
+    - acs
+    - air conditioner
+    - air conditioners
+    - air conditioning
+    - colder
+    - cooling
+    - cooling system
+    - cooling systems
+  metadata:
+  description:
+  fuzzy_match: true
+- entity: sys-time
+  values: []
+  metadata:
+  description:
+- entity: sys-number
+  values: []
+  metadata:
+  description:
+- entity: cuisine_bad
+  values:
+  - value: vietnamese
+    metadata:
+    synonyms: []
+  - value: vegetarian
+    metadata:
+    synonyms: []
+  - value: vegan
+    metadata:
+    synonyms: []
+  - value: tuscan
+    metadata:
+    synonyms: []
+  - value: turkish
+    metadata:
+    synonyms: []
+  - value: thai
+    metadata:
+    synonyms: []
+  - value: tex mex
+    metadata:
+    synonyms: []
+  - value: texan
+    metadata:
+    synonyms: []
+  - value: spanish
+    metadata:
+    synonyms: []
+  - value: southwestern
+    metadata:
+    synonyms: []
+  - value: southern
+    metadata:
+    synonyms: []
+  - value: soul
+    metadata:
+    synonyms: []
+  - value: sichuan
+    metadata:
+    synonyms: []
+  - value: scottish
+    metadata:
+    synonyms: []
+  - value: scandinavian
+    metadata:
+    synonyms: []
+  - value: russian
+    metadata:
+    synonyms: []
+  - value: portuguese
+    metadata:
+    synonyms: []
+  - value: pescatarian
+    metadata:
+    synonyms: []
+  - value: peruvian
+    metadata:
+    synonyms: []
+  - value: persian
+    metadata:
+    synonyms: []
+  - value: paleo
+    metadata:
+    synonyms: []
+  - value: moroccan
+    metadata:
+    synonyms: []
+  - value: middle eastern
+    metadata:
+    synonyms: []
+  - value: mediterranean
+    metadata:
+    synonyms: []
+  - value: malaysian
+    metadata:
+    synonyms: []
+  - value: latin
+    metadata:
+    synonyms: []
+  - value: kosher
+    metadata:
+    synonyms: []
+  - value: korean
+    metadata:
+    synonyms: []
+  - value: japanese
+    metadata:
+    synonyms: []
+  - value: jamaican
+    metadata:
+    synonyms: []
+  - value: israeli
+    metadata:
+    synonyms: []
+  - value: irish
+    metadata:
+    synonyms: []
+  - value: indian
+    metadata:
+    synonyms: []
+  - value: hawaiian
+    metadata:
+    synonyms: []
+  - value: halal
+    metadata:
+    synonyms: []
+  - value: greek
+    metadata:
+    synonyms: []
+  - value: gluten free
+    metadata:
+    synonyms: []
+  - value: german
+    metadata:
+    synonyms: []
+  - value: galician
+    metadata:
+    synonyms: []
+  - value: french
+    metadata:
+    synonyms: []
+  - value: european
+    metadata:
+    synonyms: []
+  - value: english
+    metadata:
+    synonyms: []
+  - value: danish
+    metadata:
+    synonyms: []
+  - value: cuban
+    metadata:
+    synonyms: []
+  - value: creole
+    metadata:
+    synonyms: []
+  - value: comfort
+    metadata:
+    synonyms: []
+  - value: christmas
+    metadata:
+    synonyms: []
+  - value: chinese
+    metadata:
+    synonyms: []
+  - value: caribbean
+    metadata:
+    synonyms: []
+  - value: canadian
+    metadata:
+    synonyms: []
+  - value: californian
+    metadata:
+    synonyms: []
+  - value: cajun
+    metadata:
+    synonyms: []
+  - value: breakfast
+    metadata:
+    synonyms: []
+  - value: belgian
+    metadata:
+    synonyms: []
+  - value: basque
+    metadata:
+    synonyms: []
+  - value: austrian
+    metadata:
+    synonyms: []
+  - value: asian
+    metadata:
+    synonyms: []
+  - value: argentine
+    metadata:
+    synonyms: []
+  - value: american
+    metadata:
+    synonyms: []
+  - value: african
+    metadata:
+    synonyms: []
+  - value: lebanese
+    metadata:
+    synonyms: []
+  - value: sushi
+    metadata:
+    synonyms: []
+  - value: british
+    metadata:
+    synonyms:
+    - pies
+    - bangers and mash
+  metadata:
+  description:
+  fuzzy_match: true
+- entity: genre_bad
+  values:
+  - value: World
+    metadata:
+    synonyms:
+    - Afrobeat
+    - afropop
+    - cajun
+    - calypso
+    - caribbean
+    - celtic
+    - congo
+    - polka
+    - soca
+    - zydeco
+  - value: Vocal
+    metadata:
+    synonyms:
+    - acapella
+    - acappella
+    - A cappella
+    - barbershop
+    - doowop
+  - value: Soundtrack
+    metadata:
+    synonyms:
+    - cinema
+    - musical
+  - value: Reggae
+    metadata:
+    synonyms:
+    - dancehall
+    - dub
+    - roots
+    - ska
+  - value: R&B
+    metadata:
+    synonyms:
+    - Disco
+    - Funk
+    - Motown
+    - Soul
+  - value: New Age
+    metadata:
+    synonyms:
+    - Environmental
+    - healing
+    - meditation
+    - relaxation
+  - value: Latin
+    metadata:
+    synonyms:
+    - Baladas
+    - bossa nova
+    - brazilian
+    - cubmia
+    - flamenco
+    - portuguese
+    - reggaeton
+    - salsa
+    - Tango
+  - value: J-Pop
+    metadata:
+    synonyms:
+    - J-Rock
+  - value: Instrumental
+    metadata:
+    synonyms:
+    - marching band
+  - value: Holiday
+    metadata:
+    synonyms:
+    - Chanukah
+    - christmas
+    - easter
+    - halloween
+    - thanksgiving
+  - value: Hip Hop
+    metadata:
+    synonyms:
+    - Bounce
+    - dirty south
+    - rap
+  - value: Folk
+    metadata:
+    synonyms:
+    - Acoustic
+    - traditional
+  - value: Electronic
+    metadata:
+    synonyms:
+    - ambient
+    - crunk
+    - drum and bass
+    - drum & bass
+    - electro
+    - electronica
+    - industrial
+    - trip hop
+  - value: Dance
+    metadata:
+    synonyms:
+    - club
+    - deep house
+    - dubstep
+    - edm
+    - electro house
+    - electroswing
+    - exercise
+    - house
+    - jungle
+    - techno
+    - trance
+    - trap
+  - value: Country
+    metadata:
+    synonyms:
+    - americana
+    - bluegrass
+    - honky tonk
+    - outlaw
+    - urban cowboy
+  - value: Comedy
+    metadata:
+    synonyms:
+    - standup
+    - tv
+  - value: Childrens
+    metadata:
+    synonyms:
+    - disney
+    - lullabies
+    - singalong
+  - value: Blues
+    metadata:
+    synonyms:
+    - Ragtime
+    - sad
+  - value: Alternative
+    metadata:
+    synonyms:
+    - alt
+    - altrock
+    - grunge
+    - new wave
+  - value: Birthday
+    metadata:
+    synonyms:
+    - birthday
+    - birthdays
+  - value: Religious
+    metadata:
+    synonyms:
+    - gospel
+    - choir
+    - muslim
+    - buddhist
+    - christian
+  metadata:
+  description:
+  fuzzy_match: true
+- entity: cuisine
+  values:
+  - value: seafood
+    metadata:
+    synonyms:
+    - fish
+    - seafood
+    - shrimp
+    - prawns
+  - value: tacos
+    metadata:
+    synonyms:
+    - Mexican
+    - taco
+    - tacos
+    - burrito
+    - burritos
+  - value: pasta
+    metadata:
+    synonyms:
+    - Italian
+    - pasta
+    - pizza
+    - calzone
+    - pizzas
+    - ravioli
+    - canneloni
+    - spaghetti
+    - fettucine
+  - value: burgers
+    metadata:
+    synonyms:
+    - burger
+    - burgers
+    - cheeseburger
+    - cheeseburgers
+    - hamburger
+    - ham burger
+    - hamburgers
+    - ham burgers
+    - mcdonalds
+    - mcdonald's
+    - cheese burger
+    - cheese burgers
+  metadata:
+  description:
+  fuzzy_match: true
+- entity: sys-date
+  values: []
+  metadata:
+  description:
+- entity: amenity
+  values:
+  - value: place
+    metadata:
+    synonyms:
+    - class
+    - home
+    - office
+    - school
+    - work
+  - value: gas
+    metadata:
+    synonyms:
+    - fuel
+    - fuel station
+    - fuel stations
+    - gas station
+    - gas stations
+    - pump
+    - pumps
+  - value: restroom
+    metadata:
+    synonyms:
+    - " bathroom"
+    - " bathrooms"
+    - loo
+    - " restrooms"
+    - " toilet"
+    - " toilets"
+    - rest room
+    - rest rooms
+    - boys' room
+    - boy's room
+    - girl's room
+    - girls' room
+    - wc
+    - water closet
+    - shitter
+    - outhouse
+    - out house
+  - value: restaurant
+    metadata:
+    synonyms:
+    - eat
+    - " food"
+    - hungry
+    - " meal"
+    - " meals"
+    - " restaurants"
+    - cafe
+    - cafes
+    - diner
+    - diners
+  metadata:
+  description:
+  fuzzy_match: true
+language: en
+metadata:
+  api_version:
+    major_version: v1
+    minor_version: '2017-05-26'
+  runtime_version:
+description: Cognitive Car Dashboard workspace which allows multi-turn conversations
+  to perform tasks in the car.
+dialog_nodes:
+- title:
+  output:
+    text:
+      values:
+      - Ok, let's try something new instead.
+      selection_policy: sequential
+  parent: node_2_1505947796902
+  context:
+    previous_cuisine: ''
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: body
+    dialog_node: node_10_1467233806357
+  conditions: "@response_types:uncertain"
+  description:
+  dialog_node: node_5_1505948512154
+  previous_sibling: node_4_1505948488100
+- title:
+  output:
+    text:
+      values:
+      - Super! I've found 5 locations for you. Which one would you like to drive to?
+      selection_policy: sequential
+  parent: node_2_1505947796902
+  context:
+  metadata:
+  next_step:
+  conditions: "@response_types:positive"
+  description:
+  dialog_node: node_4_1505948488100
+  previous_sibling: node_3_1505948014798
+- title:
+  output:
+    text:
+      values: []
+      selection_policy: sequential
+  parent: node_2_1505947796902
+  context:
+    previous_cuisine: ''
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: body
+    dialog_node: node_10_1467233806357
+  conditions: "@response_types:negative"
+  description:
+  dialog_node: node_3_1505948014798
+  previous_sibling:
+- title:
+  output: {}
+  parent: node_4_1505948488100
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_14_1489448869178
+  conditions: 'true'
+  description:
+  dialog_node: node_2_1505964602326
+  previous_sibling:
+- type: response_condition
+  title:
+  output:
+  parent: node_4_1485218096234
+  context:
+  metadata:
+  next_step:
+  conditions:
+  description:
+  dialog_node: node_11_1486346568959
+  previous_sibling: node_10_1486346567905
+- type: response_condition
+  title:
+  output: {}
+  parent: node_4_1485218096234
+  context:
+    appl_action: 'on'
+  metadata:
+  next_step:
+  conditions:
+  description:
+  dialog_node: node_10_1486346567905
+  previous_sibling:
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I prefer not to text while I drive.
+      selection_policy: sequential
+  parent: Phone Actions
+  context:
+  metadata:
+  next_step:
+  conditions: "@phone:text"
+  description:
+  dialog_node: node_18_1484802647885
+  previous_sibling: node_17_1484802639401
+- type: response_condition
+  title:
+  output:
+    text: Sorry I can't make a phone call. I must be all out of minutes!
+  parent: Phone Actions
+  context:
+  metadata:
+  next_step:
+  conditions: "@phone:call"
+  description:
+  dialog_node: node_17_1484802639401
+  previous_sibling:
+- title: Genre On Off Check
+  output: {}
+  parent: node_5_1469049934217
+  context:
+  metadata:
+  next_step:
+  conditions: 'true'
+  description:
+  dialog_node: Genre On Off Check
+  previous_sibling:
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - Sure! Navigating to gas station @sys-number on the list.
+      selection_policy: sequential
+  parent: node_17_1467234455512
+  context:
+  metadata:
+  next_step:
+  conditions: "@sys-number"
+  description:
+  dialog_node: node_4_1488752569375
+  previous_sibling: node_3_1488752557849
+- type: response_condition
+  title:
+  output:
+    text: Sure! Navigating to the @option gas station.
+  parent: node_17_1467234455512
+  context:
+  metadata:
+  next_step:
+  conditions: "@option"
+  description:
+  dialog_node: node_3_1488752557849
+  previous_sibling:
+- type: event_handler
+  title: handler_18_1498102038274
+  output:
+    text: What time would you like to go to the restaurant?
+  parent: slot_16_1498102038274
+  context:
+  metadata:
+  next_step:
+  conditions:
+  event_name: focus
+  description:
+  dialog_node: handler_18_1498102038274
+  previous_sibling: handler_17_1498102038274
+- type: event_handler
+  title: handler_17_1498102038274
+  output:
+  parent: slot_16_1498102038274
+  context:
+    time: "@sys-time"
+  metadata:
+  next_step:
+  conditions: "@sys-time"
+  event_name: input
+  description:
+  dialog_node: handler_17_1498102038274
+  previous_sibling:
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - Sure! Navigating to restroom @sys-number on the list. We should be there soon.
+      selection_policy: sequential
+  parent: node_19_1467234523021
+  context:
+  metadata:
+  next_step:
+  conditions: " @sys-number"
+  description:
+  dialog_node: node_8_1488753488961
+  previous_sibling: node_7_1488753488483
+- type: response_condition
+  title:
+  output:
+    text: Ok. Navigating to the @option restroom. We should get there quickly.
+  parent: node_19_1467234523021
+  context:
+  metadata:
+  next_step:
+  conditions: " @option"
+  description:
+  dialog_node: node_7_1488753488483
+  previous_sibling:
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - That would be <? @sys-time.reformatDateTime('h:mm a') ?>.
+      selection_policy: sequential
+  parent: node_9_1488759175183
+  context:
+  metadata:
+  next_step:
+  conditions: "@sys-time && @capabilities_subject:time"
+  description:
+  dialog_node: node_15_1488765574076
+  previous_sibling: node_17_1488765742488
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - My system tells me the time is <? now().reformatDateTime('h:mm a') ?>.
+      selection_policy: sequential
+  parent: node_9_1488759175183
+  context:
+  metadata:
+  next_step:
+  conditions: " @capabilities_subject:time"
+  description:
+  dialog_node: node_13_1488759626437
+  previous_sibling: node_10_1488759201616
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - My system tells me that it is  <? now().reformatDateTime('h:mm a') ?>, on
+        <? now().reformatDateTime('EEE, d MMM yyyy') ?>.
+      selection_policy: sequential
+  parent: node_9_1488759175183
+  context:
+  metadata:
+  next_step:
+  conditions: "@capabilities_subject:time && @capabilities_subject:date"
+  description:
+  dialog_node: node_10_1488759201616
+  previous_sibling: node_11_1488759202805
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - My system tells me that the date is <? now().reformatDateTime('EEE, d MMM
+        yyyy') ?>.
+      selection_policy: sequential
+  parent: node_9_1488759175183
+  context:
+  metadata:
+  next_step:
+  conditions: "@capabilities_subject:date"
+  description:
+  dialog_node: node_11_1488759202805
+  previous_sibling: node_15_1488765574076
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - That would be  <? @sys-time.reformatDateTime('h:mm a') ?>, on <? @sys-date.reformatDateTime('EEE,
+        d MMM yyyy') ?>.
+      selection_policy: sequential
+  parent: node_9_1488759175183
+  context:
+  metadata:
+  next_step:
+  conditions: "(@capabilities_subject:date && @sys-date) && (@capabilities_subject:time
+    && @sys-time)"
+  description:
+  dialog_node: node_17_1488765742488
+  previous_sibling: node_16_1488765680256
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'm trained to turn things on or off in the car dashboard, play music and
+        find nearby amenities like restaurants, gas stations and restrooms.
+      selection_policy: sequential
+  parent: node_9_1488759175183
+  context:
+  metadata:
+  next_step:
+  conditions: " "
+  description:
+  dialog_node: node_12_1488759308944
+  previous_sibling: node_13_1488759626437
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - That would be <? @sys-date.reformatDateTime('EEE, d MMM yyyy') ?>.
+      selection_policy: sequential
+  parent: node_9_1488759175183
+  context:
+  metadata:
+  next_step:
+  conditions: " @sys-date && @capabilities_subject:date"
+  description:
+  dialog_node: node_16_1488765680256
+  previous_sibling:
+- title:
+  output: {}
+  parent: node_1_1467743415843
+  context:
+  metadata:
+  next_step:
+  conditions: 'true'
+  description:
+  dialog_node: node_1_1467910920863
+  previous_sibling:
+- type: event_handler
+  title: handler_15_1498102011450
+  output:
+    text: What day, or date, would you like to go to the restaurant?
+  parent: slot_13_1498102011450
+  context:
+  metadata:
+  next_step:
+  conditions:
+  event_name: focus
+  description:
+  dialog_node: handler_15_1498102011450
+  previous_sibling: handler_14_1498102011450
+- type: event_handler
+  title: handler_14_1498102011450
+  output: {}
+  parent: slot_13_1498102011450
+  context:
+    date: "@sys-date"
+  metadata:
+  next_step:
+  conditions: "@sys-date"
+  event_name: input
+  description:
+  dialog_node: handler_14_1498102011450
+  previous_sibling:
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I've turned up the @appliance for you.
+    action:
+      music_up: ''
+  parent: Appliance Increase Decrease Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:music && $appl_action == "increase" && $musiconoff == "on"'
+  description:
+  dialog_node: node_11_1484798219507
+  previous_sibling: node_10_1484797207324
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I've turned up the @appliance for you.
+    action:
+      volume_up: ''
+  parent: Appliance Increase Decrease Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:volume && $appl_action == "increase" && $volumeonoff ==
+    "on"'
+  description:
+  dialog_node: node_12_1486346698626
+  previous_sibling: node_16_1484798776647
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I've turned up the @appliance for you.
+    action:
+      wipers_up: ''
+  parent: Appliance Increase Decrease Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:wipers && $appl_action == "increase" && $wipersonoff ==
+    "on"'
+  description:
+  dialog_node: node_14_1484798665243
+  previous_sibling: node_13_1484798466709
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I've turned down the @appliance for you.
+    action:
+      volume_down: ''
+  parent: Appliance Increase Decrease Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:volume && $appl_action == "decrease" && $volumeonoff ==
+    "on"'
+  description:
+  dialog_node: node_13_1486346882654
+  previous_sibling: node_12_1486346698626
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I've turned down the @appliance for you.
+    action:
+      AC_down: ''
+  parent: Appliance Increase Decrease Check
+  context:
+  metadata:
+  next_step:
+  conditions: (@appliance:AC || @appliance:fan) && $appl_action == "decrease" && $AConoff
+    == "on"
+  description:
+  dialog_node: node_4_1484791860569
+  previous_sibling: node_2_1484787801871
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance are off. I'll turn them on for you.
+    action:
+      wipers_on: ''
+  parent: Appliance Increase Decrease Check
+  context:
+    wipersonoff: 'on'
+  metadata:
+  next_step:
+  conditions: '@appliance:wipers && $wipersonoff == "off"'
+  description:
+  dialog_node: node_16_1484798776647
+  previous_sibling: node_15_1484798725394
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance is off. I'll turn it on for you.
+    action:
+      heater_on: ''
+  parent: Appliance Increase Decrease Check
+  context:
+    heateronoff: 'on'
+  metadata:
+  next_step:
+  conditions: ' @appliance:heater && $heateronoff== "off"'
+  description:
+  dialog_node: node_7_1484792294070
+  previous_sibling: node_6_1484792250784
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I've turned down the @appliance for you.
+    action:
+      heater_down: ''
+  parent: Appliance Increase Decrease Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:heater && $appl_action == "decrease" && $heateronoff== "on"'
+  description:
+  dialog_node: node_6_1484792250784
+  previous_sibling: node_5_1484792124067
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance is off. I'll turn it on for you.
+    action:
+      volume_on: ''
+  parent: Appliance Increase Decrease Check
+  context:
+    volumeonoff: 'on'
+  metadata:
+  next_step:
+  conditions: ' @appliance:volume && $volumeonoff == "off"'
+  description:
+  dialog_node: node_14_1486346977763
+  previous_sibling: node_13_1486346882654
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I've turned up the @appliance for you.
+    action:
+      heater_up: ''
+  parent: Appliance Increase Decrease Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:heater && $appl_action == "increase" && $heateronoff== "on"'
+  description:
+  dialog_node: node_5_1484792124067
+  previous_sibling: node_3_1484788233985
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance is off. I'll turn it on for you.
+    action:
+      AC_on: ''
+  parent: Appliance Increase Decrease Check
+  context:
+    AConoff: 'on'
+  metadata:
+  next_step:
+  conditions: (@appliance:AC || @appliance:fan) && $AConoff == "off"
+  description:
+  dialog_node: node_3_1484788233985
+  previous_sibling: node_4_1484791860569
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I've turned down the @appliance for you.
+    action:
+      wipers_down: ''
+  parent: Appliance Increase Decrease Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:wipers && $appl_action == "decrease" && $wipersonoff ==
+    "on"'
+  description:
+  dialog_node: node_15_1484798725394
+  previous_sibling: node_14_1484798665243
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance is off. I'll turn it on for you.
+    action:
+      music_on: "@genre"
+  parent: Appliance Increase Decrease Check
+  context:
+    musiconoff: 'on'
+  metadata:
+  next_step:
+  conditions: '@appliance:music && $musiconoff == "off"'
+  description:
+  dialog_node: node_13_1484798466709
+  previous_sibling: node_12_1484798414002
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I've turned down the @appliance for you.
+      selection_policy: sequential
+  parent: Appliance Increase Decrease Check
+  context:
+  metadata:
+  next_step:
+  conditions: ' @appliance:lights && $appl_action == "decrease" && $lightonoff== "on"'
+  description:
+  dialog_node: node_9_1484797153278
+  previous_sibling: node_8_1484792633422
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance are off. I'll turn them on for you.
+    action:
+      lights_on: ''
+  parent: Appliance Increase Decrease Check
+  context:
+    lightonoff: 'on'
+  metadata:
+  next_step:
+  conditions: '@appliance:lights && $lightonoff== "off"'
+  description:
+  dialog_node: node_10_1484797207324
+  previous_sibling: node_9_1484797153278
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I've turned down the @appliance for you.
+    action:
+      music_down: ''
+  parent: Appliance Increase Decrease Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:music && $appl_action == "decrease" && $musiconoff == "on"'
+  description:
+  dialog_node: node_12_1484798414002
+  previous_sibling: node_11_1484798219507
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I've turned up the @appliance for you.
+      selection_policy: sequential
+  parent: Appliance Increase Decrease Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:lights && $appl_action == "increase" && $lightonoff== "on"'
+  description:
+  dialog_node: node_8_1484792633422
+  previous_sibling: node_7_1484792294070
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I've turned up the @appliance for you.
+    action:
+      AC_up: ''
+  parent: Appliance Increase Decrease Check
+  context:
+  metadata:
+  next_step:
+  conditions: (@appliance:AC || @appliance:fan) && $appl_action == "increase" && $AConoff
+    == "on"
+  description:
+  dialog_node: node_2_1484787801871
+  previous_sibling:
+- title:
+  output: {}
+  parent: node_13_1467234287024
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: Restaurant Date Time Collection
+  conditions: "@option || @sys-number"
+  description:
+  dialog_node: node_21_1488771735577
+  previous_sibling: node_14_1489448869178
+- title:
+  output:
+    text:
+      values:
+      - I found 5 locations. Which option would you like? You can say first, third,
+        nearest and so on.
+  parent: node_13_1467234287024
+  context:
+    reprompt: false
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: user_input
+    dialog_node: node_21_1488771735577
+  conditions: "$reprompt"
+  description:
+  dialog_node: node_16_1467234390805
+  previous_sibling: node_21_1488771735577
+- title:
+  output: {}
+  parent: node_13_1467234287024
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: body
+    dialog_node: node_16_1467234390805
+  conditions: "@sys-number > 5 || @sys-number < 1"
+  description:
+  dialog_node: node_14_1489448869178
+  previous_sibling:
+- title:
+  output:
+    text:
+      values:
+      - I see a few restaurants nearby which you can select from, serving tacos, burgers,
+        seafood and pasta. Which cuisine would you like?
+  parent: node_10_1467233806357
+  context:
+    reprompt: false
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: user_input
+    dialog_node: node_13_1467234287024
+  conditions: "$reprompt"
+  description:
+  dialog_node: node_14_1467234311677
+  previous_sibling: node_7_1469824258064
+- title:
+  output: {}
+  parent: node_10_1467233806357
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_9_1467233775768
+  conditions: 'true'
+  description:
+  dialog_node: node_4_1469812033731
+  previous_sibling: node_14_1467234311677
+- title:
+  output:
+    text: It doesn't look like there are any restaurants that serve @cuisine_bad around
+      you. Try saying things like burgers or tacos.
+  parent: node_10_1467233806357
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: user_input
+    dialog_node: node_13_1467234287024
+  conditions: "@cuisine_bad"
+  description:
+  dialog_node: node_9_1468364300050
+  previous_sibling: node_13_1467234287024
+- title:
+  output:
+    text:
+      values:
+      - I love tacos. I'm sure you'll love them too! Which restaurant do you want
+        to drive to?
+  parent: node_10_1467233806357
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: user_input
+    dialog_node: node_21_1488771735577
+  conditions: "#not_specified"
+  description:
+  dialog_node: node_7_1469824258064
+  previous_sibling: node_9_1468364300050
+- title:
+  output:
+    text:
+      values:
+      - Super! I've found 5 locations for you. Which one would you like to drive to?
+    action:
+      restaurant_locations: ''
+  parent: node_10_1467233806357
+  context:
+    reprompt: true
+    previous_cuisine: "@cuisine"
+  metadata:
+  next_step:
+  conditions: "@cuisine"
+  description:
+  dialog_node: node_13_1467234287024
+  previous_sibling:
+- title:
+  output:
+    text: Ok. Navigating to the closest gas station.
+  parent: node_9_1467233775768
+  context:
+  metadata:
+  next_step:
+  conditions: "#not_specified"
+  description:
+  dialog_node: node_6_1469824228742
+  previous_sibling: node_17_1467234455512
+- title:
+  output: {}
+  parent: node_9_1467233775768
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_10_1467233806357
+  conditions: 'true'
+  description:
+  dialog_node: node_3_1469811993652
+  previous_sibling: node_18_1467234505187
+- title:
+  output:
+    text:
+      values:
+      - I found 5 locations. Which gas station would you like? You can say first,
+        third, nearest and so on.
+  parent: node_9_1467233775768
+  context:
+    reprompt: false
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: user_input
+    dialog_node: node_17_1467234455512
+  conditions: "$reprompt"
+  description:
+  dialog_node: node_18_1467234505187
+  previous_sibling: node_6_1469824228742
+- title:
+  output: {}
+  parent: node_9_1467233775768
+  context:
+  metadata:
+  next_step:
+  conditions: "@option || @sys-number"
+  description:
+  dialog_node: node_17_1467234455512
+  previous_sibling: node_15_1489450441740
+- title:
+  output: {}
+  parent: node_9_1467233775768
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: body
+    dialog_node: node_18_1467234505187
+  conditions: "@sys-number > 5"
+  description:
+  dialog_node: node_15_1489450441740
+  previous_sibling:
+- title:
+  output: {}
+  parent: node_14_1488760851464
+  context:
+  metadata:
+  next_step:
+  conditions: 'true'
+  description:
+  dialog_node: node_9_1488759175183
+  previous_sibling:
+- title:
+  output:
+    text: Sorry I haven't yet learnt to perform operations with phones.
+  parent: node_1_1467304857249
+  context:
+  metadata:
+  next_step:
+  conditions: 'true'
+  description:
+  dialog_node: node_3_1467307837947
+  previous_sibling: Phone Actions
+- title: Phone Actions
+  output: {}
+  parent: node_1_1467304857249
+  context:
+  metadata:
+  next_step:
+  conditions: "@phone"
+  description:
+  dialog_node: Phone Actions
+  previous_sibling:
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I can only perform one operation at a time. What would you like me to do?
+      selection_policy: sequential
+  parent: node_1_1485920032937
+  context:
+  metadata:
+  next_step:
+  conditions: " "
+  description:
+  dialog_node: node_2_1485920042146
+  previous_sibling:
+- title: Appliance On Off Check
+  output: {}
+  parent: node_2_1467232480480
+  context:
+  metadata:
+  next_step:
+  conditions: 'true'
+  description:
+  dialog_node: Appliance On Off Check
+  previous_sibling: Music Appliance Check
+- title: Music Appliance Check
+  output:
+    text:
+      values:
+      - Sure thing! Which genre would you prefer? Jazz is my personal favorite.
+  parent: node_2_1467232480480
+  context:
+    reprompt: true
+  metadata:
+  next_step:
+  conditions: '@appliance:music && $appl_action == "on" && $musiconoff=="off"'
+  description:
+  dialog_node: Music Appliance Check
+  previous_sibling:
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - Sorry I haven't learned answers to questions like this.
+      selection_policy: sequential
+  parent: node_1_1467910920863
+  context:
+  metadata:
+  next_step:
+  conditions: intents[0].confidence<0.51
+  description:
+  dialog_node: node_9_1485225762958
+  previous_sibling: node_8_1485225738359
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - That question is out of scope for this application, take a look at the Conversation
+        Enhanced application to handle questions like these.
+    action:
+      call_discovery: ''
+  parent: node_1_1467910920863
+  context:
+  metadata:
+  next_step:
+  conditions: " intents[0].confidence>0.5"
+  description:
+  dialog_node: node_8_1485225738359
+  previous_sibling:
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'll turn off the @appliance for you.
+    action:
+      AC_off: ''
+  parent: Appliance On Off Check
+  context:
+    AConoff: 'off'
+  metadata:
+  next_step:
+  conditions: (@appliance:AC || @appliance:fan) && $appl_action == "off"
+  description:
+  dialog_node: node_6_1484708317988
+  previous_sibling: node_4_1484708135942
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'll turn on the @appliance for you.
+    action:
+      heater_on: ''
+  parent: Appliance On Off Check
+  context:
+    heateronoff: 'on'
+  metadata:
+  next_step:
+  conditions: ' @appliance:heater && $appl_action == "on"'
+  description:
+  dialog_node: node_8_1484710063318
+  previous_sibling: node_7_1484709946048
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance is already off.
+      selection_policy: sequential
+  parent: Appliance On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: (@appliance:AC || @appliance:fan) && $appl_action == "off" && $AConoff
+    == "off"
+  description:
+  dialog_node: node_4_1484708135942
+  previous_sibling: node_3_1484706643753
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'll turn on the @appliance for you.
+    action:
+      volume_on: ''
+  parent: Appliance On Off Check
+  context:
+    volumeonoff: 'on'
+  metadata:
+  next_step:
+  conditions: ' @appliance:volume && $appl_action == "on"'
+  description:
+  dialog_node: node_16_1484715681801
+  previous_sibling: node_15_1484715602213
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'll turn off the @appliance for you.
+    action:
+      lights_off: ''
+  parent: Appliance On Off Check
+  context:
+    lightonoff: 'off'
+  metadata:
+  next_step:
+  conditions: ' @appliance:lights && $appl_action == "off"'
+  description:
+  dialog_node: node_14_1484715527889
+  previous_sibling: node_13_1484715450226
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'll turn on the wipers for you.
+    action:
+      wipers_on: ''
+  parent: Appliance On Off Check
+  context:
+    wipersonoff: 'on'
+  metadata:
+  next_step:
+  conditions: '@appliance:wipers && $appl_action == "on"'
+  description:
+  dialog_node: node_20_1484715962409
+  previous_sibling: node_19_1484715884764
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'll turn on the @appliance for you.
+    action:
+      AC_on: ''
+  parent: Appliance On Off Check
+  context:
+    AConoff: 'on'
+  metadata:
+  next_step:
+  conditions: (@appliance:AC || @appliance:fan) && $appl_action == "on"
+  description:
+  dialog_node: node_3_1484706643753
+  previous_sibling: node_2_1484705828944
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance is already off.
+      selection_policy: sequential
+  parent: Appliance On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:heater && $appl_action == "off" && $heateronoff == "off"'
+  description:
+  dialog_node: node_9_1484710254632
+  previous_sibling: node_8_1484710063318
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'll turn off the @appliance for you.
+    action:
+      music_off: ''
+  parent: Appliance On Off Check
+  context:
+    musiconoff: 'off'
+  metadata:
+  next_step:
+  conditions: ' @appliance:music && $appl_action == "off"'
+  description:
+  dialog_node: node_9_1486340835963
+  previous_sibling: node_8_1486339983890
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'll turn on the @appliance for you.
+    action:
+      lights_on: ''
+  parent: Appliance On Off Check
+  context:
+    lightonoff: 'on'
+  metadata:
+  next_step:
+  conditions: '@appliance:lights && $appl_action == "on"'
+  description:
+  dialog_node: node_12_1484715413335
+  previous_sibling: node_11_1484715347629
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance is already off.
+      selection_policy: sequential
+  parent: Appliance On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:music && $appl_action == "off" && $musiconoff == "off"'
+  description:
+  dialog_node: node_8_1486339983890
+  previous_sibling: node_22_1484716101193
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'll turn on the @appliance for you.
+    action:
+      volume_off: ''
+  parent: Appliance On Off Check
+  context:
+    volumeonoff: 'off'
+  metadata:
+  next_step:
+  conditions: ' @appliance:volume && $appl_action == "off"'
+  description:
+  dialog_node: node_18_1484715801015
+  previous_sibling: node_17_1484715731747
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance is already on.
+      selection_policy: sequential
+  parent: Appliance On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: ' @appliance:music && $appl_action == "on" && $musiconoff == "on"'
+  description:
+  dialog_node: node_15_1486347582355
+  previous_sibling: node_9_1486340835963
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance is already off.
+      selection_policy: sequential
+  parent: Appliance On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:volume && $appl_action == "off" && $volumeonoff =="off"'
+  description:
+  dialog_node: node_17_1484715731747
+  previous_sibling: node_16_1484715681801
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the lights are already off.
+      selection_policy: sequential
+  parent: Appliance On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:lights && $appl_action == "off" && $lightonoff == "off"'
+  description:
+  dialog_node: node_13_1484715450226
+  previous_sibling: node_12_1484715413335
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'll turn off the @appliance for you.
+    action:
+      heater_off: ''
+  parent: Appliance On Off Check
+  context:
+    heateronoff: 'off'
+  metadata:
+  next_step:
+  conditions: ' @appliance:heater && $appl_action == "off"'
+  description:
+  dialog_node: node_10_1484710298037
+  previous_sibling: node_9_1484710254632
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the lights are already on.
+      selection_policy: sequential
+  parent: Appliance On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:lights && $appl_action == "on" && $lightonoff == "on"'
+  description:
+  dialog_node: node_11_1484715347629
+  previous_sibling: node_10_1484710298037
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance is already on.
+      selection_policy: sequential
+  parent: Appliance On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:volume && $appl_action == "on" && $volumeonoff =="on"'
+  description:
+  dialog_node: node_15_1484715602213
+  previous_sibling: node_14_1484715527889
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the wipers are already on.
+      selection_policy: sequential
+  parent: Appliance On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:wipers && $appl_action == "on" && $wipersonoff== "on"'
+  description:
+  dialog_node: node_19_1484715884764
+  previous_sibling: node_18_1484715801015
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'll turn off the wipers for you.
+    action:
+      wipers_off: ''
+  parent: Appliance On Off Check
+  context:
+    wipersonoff: 'off'
+  metadata:
+  next_step:
+  conditions: ' @appliance:wipers && $appl_action == "off"'
+  description:
+  dialog_node: node_22_1484716101193
+  previous_sibling: node_21_1484716001727
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance is already on.
+      selection_policy: sequential
+  parent: Appliance On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:heater && $appl_action == "on" && $heateronoff == "on"'
+  description:
+  dialog_node: node_7_1484709946048
+  previous_sibling: node_6_1484708317988
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the wipers are already off.
+      selection_policy: sequential
+  parent: Appliance On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: '@appliance:wipers && $appl_action == "off" && $wipersonoff == "off"'
+  description:
+  dialog_node: node_21_1484716001727
+  previous_sibling: node_20_1484715962409
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the @appliance is already on.
+      selection_policy: sequential
+  parent: Appliance On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: (@appliance:AC || @appliance:fan) && $appl_action == "on" && $AConoff
+    == "on"
+  description:
+  dialog_node: node_2_1484705828944
+  previous_sibling:
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - Great choice! Playing some @genre for you.
+    action:
+      music_on: "@genre"
+  parent: Genre On Off Check
+  context:
+    musiconoff: 'on'
+  metadata:
+  next_step:
+  conditions: $appl_action == "on"
+  description:
+  dialog_node: node_3_1484628332751
+  previous_sibling: node_2_1484628272507
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the music is already off.
+      selection_policy: sequential
+  parent: Genre On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: ' $appl_action == "off" && $musiconoff == "off"'
+  description:
+  dialog_node: node_4_1484628526152
+  previous_sibling: node_3_1484628332751
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'll turn off the @genre for you.
+    action:
+      music_off: ''
+  parent: Genre On Off Check
+  context:
+    musiconoff: 'off'
+  metadata:
+  next_step:
+  conditions: ' $appl_action == "off"'
+  description:
+  dialog_node: node_5_1484628592231
+  previous_sibling: node_4_1484628526152
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - It looks like the music is already on.
+      selection_policy: sequential
+  parent: Genre On Off Check
+  context:
+  metadata:
+  next_step:
+  conditions: $appl_action == "on" && $musiconoff == "on"
+  description:
+  dialog_node: node_2_1484628272507
+  previous_sibling:
+- title:
+  output: {}
+  parent: Entry Point For Up Down Commands
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_4_1485218096234
+  conditions: "@appliance"
+  description:
+  dialog_node: node_1_1469815492101
+  previous_sibling: node_11_1467233013716
+- title:
+  output:
+    text:
+      values:
+      - I understand you want me to turn up something. You can say increase the volume
+        or turn up the AC.
+  parent: Entry Point For Up Down Commands
+  context:
+    reprompt: false
+  metadata:
+  next_step:
+  conditions: 'true'
+  description:
+  dialog_node: node_12_1467233032148
+  previous_sibling: node_1_1469815492101
+- title:
+  output:
+    text: I can only perform one operation at a time. We can start with the first
+      one. What would you like me to do?
+  parent: Entry Point For Up Down Commands
+  context:
+  metadata:
+  next_step:
+  conditions: entities.size()>1
+  description:
+  dialog_node: node_11_1467233013716
+  previous_sibling:
+- title:
+  output: {}
+  parent: node_2_1487280430136
+  context:
+  metadata:
+  next_step:
+  conditions: 'true'
+  description:
+  dialog_node: node_1_1467919680248
+  previous_sibling:
+- title: Appliance Increase Decrease Check
+  output: {}
+  parent: node_1_1469815492101
+  context:
+  metadata:
+  next_step:
+  conditions: 'true'
+  description:
+  dialog_node: Appliance Increase Decrease Check
+  previous_sibling: node_4_1485218096234
+- title:
+  output: {}
+  parent: node_1_1469815492101
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_5_1469049934217
+  conditions: '@appliance:music && ! @genre && $musiconoff == "off"'
+  description:
+  dialog_node: node_4_1485218096234
+  previous_sibling:
+- title: Check For Existing Cuisine
+  output:
+    text:
+      values:
+      - Last time you had $previous_cuisine, would you like that again?
+      selection_policy: sequential
+  parent: node_8_1467233758272
+  context:
+  metadata:
+  next_step:
+  conditions: $previous_cuisine != "" && @amenity:restaurant
+  description:
+  dialog_node: node_2_1505947796902
+  previous_sibling: node_3_1489440594933
+- title:
+  output:
+    text:
+      values:
+      - Of course. Do you have a specific cuisine in mind?
+    action:
+      restaurant: ''
+  parent: node_8_1467233758272
+  context:
+    reprompt: true
+  metadata:
+  next_step:
+  conditions: "@amenity:restaurant"
+  description:
+  dialog_node: node_10_1467233806357
+  previous_sibling: node_2_1505947796902
+- title:
+  output:
+    text:
+      values:
+      - I've found the closest restroom stops. Which one would you like to drive to?
+    action:
+      restroom: ''
+  parent: node_8_1467233758272
+  context:
+    reprompt: true
+  metadata:
+  next_step:
+  conditions: "@amenity:restroom"
+  description:
+  dialog_node: node_11_1467233815579
+  previous_sibling: node_10_1467233806357
+- title:
+  output: {}
+  parent: node_8_1467233758272
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_13_1467234287024
+  conditions: "@amenity:restaurant && @cuisine"
+  description:
+  dialog_node: node_3_1489440594933
+  previous_sibling: node_9_1467233775768
+- title:
+  output:
+    text: Sorry I don't have a listing for that and cannot drive you there.
+  parent: node_8_1467233758272
+  context:
+  metadata:
+  next_step:
+  conditions: "@amenity:place"
+  description:
+  dialog_node: node_5_1469821256750
+  previous_sibling: node_11_1467233815579
+- title:
+  output:
+    text:
+      values:
+      - There are gas stations nearby. Which one would you like to drive to?
+    action:
+      gas: ''
+  parent: node_8_1467233758272
+  context:
+    reprompt: true
+  metadata:
+  next_step:
+  conditions: "@amenity:gas"
+  description:
+  dialog_node: node_9_1467233775768
+  previous_sibling:
+- title:
+  output:
+    text: Ok. Navigating to the closest restroom.
+  parent: node_11_1467233815579
+  context:
+  metadata:
+  next_step:
+  conditions: "#not_specified"
+  description:
+  dialog_node: node_8_1469824417089
+  previous_sibling: node_19_1467234523021
+- title:
+  output: {}
+  parent: node_11_1467233815579
+  context:
+  metadata:
+  next_step:
+  conditions: "@option || @sys-number"
+  description:
+  dialog_node: node_19_1467234523021
+  previous_sibling: node_16_1489450489709
+- title:
+  output:
+    text:
+      values:
+      - I found 5 locations. Which @amenity would you like? You can say first, third,
+        nearest and so on.
+  parent: node_11_1467233815579
+  context:
+    reprompt: false
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: user_input
+    dialog_node: node_19_1467234523021
+  conditions: "$reprompt"
+  description:
+  dialog_node: node_20_1467234565322
+  previous_sibling: node_8_1469824417089
+- title:
+  output: {}
+  parent: node_11_1467233815579
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_9_1467233775768
+  conditions: 'true'
+  description:
+  dialog_node: node_2_1469811953121
+  previous_sibling: node_20_1467234565322
+- title:
+  output: {}
+  parent: node_11_1467233815579
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: body
+    dialog_node: node_20_1467234565322
+  conditions: "@sys-number > 5"
+  description:
+  dialog_node: node_16_1489450489709
+  previous_sibling:
+- title:
+  output: {}
+  parent: node_3_1505965136418
+  context:
+    date:
+    time:
+  metadata:
+  next_step:
+  conditions: 'true'
+  description:
+  dialog_node: node_4_1505965673395
+  previous_sibling:
+- title:
+  output:
+    text: Unfortunately I don't have any @genre_bad music in my collection. Try genres
+      like jazz or rock.
+  parent: Entry Point For On Off Commands
+  context:
+  metadata:
+  next_step:
+  conditions: "@genre_bad"
+  description:
+  dialog_node: node_6_1469049958082
+  previous_sibling: node_5_1469049934217
+- title:
+  output:
+    text: I understand you want me to turn on something. You can say turn on the wipers
+      or switch on the lights.
+  parent: Entry Point For On Off Commands
+  context:
+  metadata:
+  next_step:
+  conditions: 'true'
+  description:
+  dialog_node: node_1_1467310860502
+  previous_sibling: node_2_1467232480480
+- title:
+  output:
+    text: I can only perform one operation at a time. We can start with the first
+      one. What would you like me to do?
+  parent: Entry Point For On Off Commands
+  context:
+  metadata:
+  next_step:
+  conditions: entities.size()>1
+  description:
+  dialog_node: node_4_1469816307739
+  previous_sibling: node_6_1469049958082
+- title:
+  output: {}
+  parent: Entry Point For On Off Commands
+  context:
+    reprompt: true
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: Music Appliance Check
+  conditions: "@appliance"
+  description:
+  dialog_node: node_2_1467232480480
+  previous_sibling: node_4_1469816307739
+- title:
+  output: {}
+  parent: Entry Point For On Off Commands
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: Genre On Off Check
+  conditions: "@genre"
+  description:
+  dialog_node: node_5_1469049934217
+  previous_sibling:
+- title:
+  output:
+    text: Sorry I don't recognize that genre. Want to try something? Jazz? Rock?
+  parent: Music Appliance Check
+  context:
+    reprompt: false
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: user_input
+    dialog_node: node_5_1486337321077
+  conditions: "$reprompt"
+  description:
+  dialog_node: node_2_1467994543354
+  previous_sibling: node_11_1468364542917
+- title:
+  output: {}
+  parent: Music Appliance Check
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: body
+    dialog_node: node_6_1469049958082
+  conditions: "@genre_bad"
+  description:
+  dialog_node: node_11_1468364542917
+  previous_sibling: node_5_1486337321077
+- title:
+  output: {}
+  parent: Music Appliance Check
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: body
+    dialog_node: Genre On Off Check
+  conditions: "@genre"
+  description:
+  dialog_node: node_5_1486337321077
+  previous_sibling:
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I'm not sure about that. You can say things like "Turn on my lights" or "Play
+        some music."
+      selection_policy: sequential
+  parent: node_1_1467919680248
+  context:
+  metadata:
+  next_step:
+  conditions: "$default_counter<3"
+  description:
+  dialog_node: node_12_1485227162156
+  previous_sibling: node_13_1485227255152
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - I am having trouble understanding you. Try asking your question in a different
+        way.
+  parent: node_1_1467919680248
+  context:
+    default_counter: 0
+  metadata:
+  next_step:
+  conditions: "$default_counter>2"
+  description:
+  dialog_node: node_13_1485227255152
+  previous_sibling:
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - Sure! Restaurant @sys-number on the list gets great reviews.
+  parent: node_21_1488771735577
+  context:
+  metadata:
+  next_step:
+  conditions: " @sys-number"
+  description:
+  dialog_node: node_6_1488752733255
+  previous_sibling: node_5_1488752732864
+- type: response_condition
+  title:
+  output:
+    text:
+      values:
+      - Sure thing! The @option restaurant gets great reviews.
+  parent: node_21_1488771735577
+  context:
+  metadata:
+  next_step:
+  conditions: " @option"
+  description:
+  dialog_node: node_5_1488752732864
+  previous_sibling: Restaurant Date Time Collection
+- type: frame
+  title: Restaurant Date Time Collection
+  output:
+    text:
+      values:
+      - Ok, let's go to the restaurant at <?$time.reformatDateTime('h:mm a') ?>, on
+        <? $date.reformatDateTime('EEE, d MMM yyyy') ?>.
+      selection_policy: sequential
+  parent: node_21_1488771735577
+  context:
+  metadata:
+    fallback: leave
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_3_1505965136418
+  conditions: 'true'
+  description:
+  dialog_node: Restaurant Date Time Collection
+  previous_sibling:
+- title:
+  output:
+    text: I understand you want me to find a location. I can find restaurants, gas
+      stations and restrooms nearby.
+  parent: node_7_1467233747449
+  context:
+  metadata:
+  next_step:
+  conditions: 'true'
+  description:
+  dialog_node: node_12_1467234209966
+  previous_sibling: node_8_1489443200128
+- title:
+  output: {}
+  parent: node_7_1467233747449
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: body
+    dialog_node: node_9_1468364300050
+  conditions: "@cuisine_bad"
+  description:
+  dialog_node: node_8_1489443200128
+  previous_sibling: node_7_1489442674518
+- title:
+  output: {}
+  parent: node_7_1467233747449
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: body
+    dialog_node: node_13_1467234287024
+  conditions: "@cuisine"
+  description:
+  dialog_node: node_7_1489442674518
+  previous_sibling: node_8_1467233758272
+- title:
+  output:
+    text:
+      values:
+      - ''
+      selection_policy: sequential
+  parent: node_7_1467233747449
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_9_1467233775768
+  conditions: "@amenity"
+  description:
+  dialog_node: node_8_1467233758272
+  previous_sibling:
+- type: slot
+  title: slot_16_1498102038274
+  output:
+  parent: Restaurant Date Time Collection
+  context:
+  metadata:
+  variable: "$time"
+  next_step:
+  conditions:
+  description:
+  dialog_node: slot_16_1498102038274
+  previous_sibling: slot_13_1498102011450
+- type: slot
+  title: slot_13_1498102011450
+  output: {}
+  parent: Restaurant Date Time Collection
+  context:
+  metadata:
+  variable: "$date"
+  next_step:
+  conditions:
+  description:
+  dialog_node: slot_13_1498102011450
+  previous_sibling: node_3_1505965136418
+- title:
+  output: {}
+  parent: Restaurant Date Time Collection
+  context:
+    previous_restaurant_date: "$date"
+    previous_restaurant_time: "$time"
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_4_1505965673395
+  conditions: 'true'
+  description:
+  dialog_node: node_3_1505965136418
+  previous_sibling:
+- title:
+  output:
+    text: ''
+  parent:
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_1_1467910920863
+  conditions: "#out_of_scope"
+  description:
+  dialog_node: node_1_1467743415843
+  previous_sibling: node_8_1468608349230
+- title:
+  output:
+    text: Okay! Speak to you soon.
+  parent:
+  context:
+  metadata:
+  next_step:
+  conditions: "#goodbyes"
+  description:
+  dialog_node: node_8_1468608349230
+  previous_sibling: node_7_1468608329601
+- title:
+  output: {}
+  parent:
+  context:
+  metadata:
+  next_step:
+  conditions: "#compound_questions"
+  description:
+  dialog_node: node_1_1485920032937
+  previous_sibling: node_1_1467743415843
+- title:
+  output:
+    text: I don't know much about traffic. I only know that it gets a little heavier
+      downtown, but your route isn't affected.
+  parent:
+  context:
+  metadata:
+  next_step:
+  conditions: "#traffic_update"
+  description:
+  dialog_node: node_6_1467233590477
+  previous_sibling: node_1_1467233388598
+- title:
+  output: {}
+  parent:
+  context:
+    default_counter: "<?$default_counter+1?>"
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_1_1467919680248
+  conditions: anything_else
+  description:
+  dialog_node: node_2_1487280430136
+  previous_sibling: node_14_1488760851464
+- title:
+  output:
+    text:
+      values:
+      - I'm trained to turn things on or off in the car dashboard, play music and
+        find nearby amenities like restaurants, gas stations and restrooms.
+      selection_policy: sequential
+  parent:
+  context:
+  metadata:
+  next_step:
+  conditions: "#capabilities"
+  description:
+  dialog_node: node_11_1468608786372
+  previous_sibling: node_1_1467304857249
+- title:
+  output:
+    text:
+      values:
+      - I'm sorry I haven't been able to help you.
+      selection_policy: sequential
+  parent:
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: body
+    dialog_node: node_11_1468608786372
+  conditions: "#negative_reaction"
+  description:
+  dialog_node: node_1_1487280368483
+  previous_sibling: node_1_1485920032937
+- title: Entry Point For Up Down Commands
+  output: {}
+  parent:
+  context:
+    appl_action: increase
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_11_1467233013716
+  conditions: "#turn_up"
+  description:
+  dialog_node: Entry Point For Up Down Commands
+  previous_sibling: node_1_1487022155950
+- title:
+  output: {}
+  parent:
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_9_1488759175183
+  conditions: "#information_request"
+  description:
+  dialog_node: node_14_1488760851464
+  previous_sibling: node_19_1488771326550
+- title: Entry Point For On Off Commands
+  output: {}
+  parent:
+  context:
+    appl_action: 'on'
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_5_1469049934217
+  conditions: "#turn_on"
+  description:
+  dialog_node: Entry Point For On Off Commands
+  previous_sibling: Start And Initialize Context
+- title:
+  output: {}
+  parent:
+  context:
+    appl_action: decrease
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_11_1467233013716
+  conditions: "#turn_down"
+  description:
+  dialog_node: node_1_1467233388598
+  previous_sibling: Entry Point For Up Down Commands
+- title:
+  output:
+    text: Hello! I'm doing good. I'm here to help you. Just say the word.
+  parent:
+  context:
+  metadata:
+  next_step:
+  conditions: "#greetings"
+  description:
+  dialog_node: node_7_1468608329601
+  previous_sibling: node_11_1468608786372
+- title:
+  output: {}
+  parent:
+  context:
+    appl_action: 'off'
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_5_1469049934217
+  conditions: "#turn_off"
+  description:
+  dialog_node: node_1_1487022155950
+  previous_sibling: Entry Point For On Off Commands
+- title:
+  output: {}
+  parent:
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: body
+    dialog_node: node_11_1468608786372
+  conditions: "#improving_system"
+  description:
+  dialog_node: node_19_1488771326550
+  previous_sibling: node_1_1487280858924
+- title:
+  output: {}
+  parent:
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: node_8_1467233758272
+  conditions: "#locate_amenity"
+  description:
+  dialog_node: node_7_1467233747449
+  previous_sibling: node_6_1467233590477
+- title:
+  output:
+    text: Unfortunately I don't know much about the weather. I'm still learning.
+  parent:
+  context:
+  metadata:
+  next_step:
+  conditions: "#weather"
+  description:
+  dialog_node: node_1_1467303308178
+  previous_sibling: node_7_1467233747449
+- title:
+  output:
+    text: ''
+  parent:
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: condition
+    dialog_node: Phone Actions
+  conditions: "#phone || @phone"
+  description:
+  dialog_node: node_1_1467304857249
+  previous_sibling: node_1_1467303308178
+- title:
+  output: {}
+  parent:
+  context:
+  metadata:
+  next_step:
+    behavior: jump_to
+    selector: body
+    dialog_node: node_11_1468608786372
+  conditions: "#about_VA"
+  description:
+  dialog_node: node_1_1487280858924
+  previous_sibling: node_1_1487280368483
+- title: Start And Initialize Context
+  output:
+    text:
+      values:
+      - 'Hi. It looks like a nice drive today. What would you like me to do?  '
+  parent:
+  context:
+    AConoff: 'off'
+    lightonoff: 'off'
+    musiconoff: 'off'
+    appl_action: ''
+    heateronoff: 'off'
+    volumeonoff: 'off'
+    wipersonoff: 'off'
+    default_counter: 0
+    previous_cuisine: ''
+    previous_restaurant_date: ''
+    previous_restaurant_time: ''
+  metadata:
+  next_step:
+  conditions: conversation_start
+  description:
+  dialog_node: Start And Initialize Context
+  previous_sibling:
+workspace_id: 2668bd68-9612-4424-bbf8-4ae5efaeda8f
+counterexamples:
+- text: aho
+- text: asdasdasda
+- text: asdasidjiwe
+- text: cats are my favorite animal
+- text: when will it be funny
+- text: which color is best for wedding
+learning_opt_out: false
+
+
