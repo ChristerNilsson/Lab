@@ -1,5 +1,5 @@
 balls = []
-level = 2
+level = 0
 bullets=[]
 shots=[0,0]
 class Ball
