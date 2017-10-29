@@ -1,10 +1,25 @@
 # 109-ShortcutSimple
 
-## Övningar
+## html
 
-* Skapa två div
-* Skapa tre knappar. Lägg in kod
-* Hindra division av udda tal
+* p id innerHTML 
+* button onclick
+* title
+* h1 h2 h3 h4 h5 h6
+* i b 
+* center
+* font size
+* bgcolor
+* a href
+* img src
+* style
+* table tr td
+* html
+* head
+* body
+* script 
+
+* Skapa två paragrafer
 * Skapa knappen next
 * Storlekar
 * Färger
@@ -14,16 +29,11 @@
 * enable/disable buttons
 * Publicera. Länk 
 
-## Nyckelord html
-
-* html head script body div button
-* id onclick
-
-## Nyckelord javascript
+## script
 
 * function
 * innerHTML
 * parseInt("2.3") == 2.3
 * Math.random() // slumptal: 0 <= x < 1
 * Math.ceil(2.3) == 3
-* push() pop() length
+* [] push() pop() length

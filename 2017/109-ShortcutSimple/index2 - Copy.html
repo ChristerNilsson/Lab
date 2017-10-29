@@ -1,0 +1,19 @@
+<input type="text" value="" id="myInput" />
+
+// Hindra kopiering av markerad text större än tio tecken
+
+<script>
+window.onload = function() {
+  var myInput = document.getElementById('myInput');
+  myInput.oncopy = function(e) {
+	  if (e.srcElement.selectionEnd - e.srcElement.selectionStart > 10) {
+		e.preventDefault();
+		console.log('nope');
+	  } else {
+		console.log('ok');
+	  }
+  }
+}
+</script>
+
+
