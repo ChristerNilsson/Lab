@@ -1,0 +1,51 @@
+<script>
+kalkylera = function (){
+a.innerHTML =parseInt( h.innerHTML)*parseInt(m.innerHTML)
+b.innerHTML =parseInt( t.innerHTML)*parseInt(m.innerHTML)
+c.innerHTML =parseInt( a.innerHTML)+parseInt(b.innerHTML)
+d.innerHTML =parseInt( h.innerHTML)*parseInt(l.innerHTML)
+e.innerHTML =parseInt( l.innerHTML)*parseInt(t.innerHTML)
+f.innerHTML =parseInt( d.innerHTML)+parseInt(e.innerHTML)
+g.innerHTML =parseInt( a.innerHTML)+parseInt(d.innerHTML)
+j.innerHTML =parseInt( b.innerHTML)+parseInt(e.innerHTML)
+i.innerHTML =parseInt( c.innerHTML)+parseInt(f.innerHTML)
+}
+ny = function(){
+h.innerHTML = 10 * Math.floor(1+10 * Math.random())
+t.innerHTML = 1 * Math.floor(1+10 * Math.random())
+m.innerHTML = 10 * Math.floor(10 * Math.random())
+l.innerHTML = 1 * Math.floor(10 * Math.random())
+}
+</script>
+<table style=" border: 1px solid black;">
+ 
+ 
+  <tr>
+    <td>*</td>
+    <td id=h>40</td>
+    <td id=t>7</td>
+  </tr>
+   <tr>
+    <td id=m>90</td>
+    <td id=a>a</td>
+    <td id=b>b</td>
+    <td id=c>c</td>
+  </tr>
+    <tr>
+    <td id=l>6</td>
+    <td id=d>d</td>
+    <td id=e>e</td>
+    <td id=f>f</td>
+  </tr>
+    <tr>
+    <td ></td>
+    <td id=g>g</td>
+    <td id=j>j</td>
+    <td id=i>i</td>
+  
+</tr>
+  
+
+</table>
+<button onclick='kalkylera()'>Kalkylera</button>
+<button onclick='ny()'>ny</button>
