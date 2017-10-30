@@ -1,10 +1,10 @@
 setup = ->
-	ny()
+	clr()
 
-mult = (a,b,c) -> a.innerHTML = parseInt(b.innerHTML) * parseInt(c.innerHTML)
-add  = (a,b,c) -> a.innerHTML = parseInt(b.innerHTML) + parseInt(c.innerHTML)
+mult = (a,b,c) -> a.innerHTML = parseFloat(b.value)     * parseFloat(c.value)
+add  = (a,b,c) -> a.innerHTML = parseFloat(b.innerHTML) + parseFloat(c.innerHTML)
 
-kalkylera = ->
+calc = ->
 
 	mult f,e,b
 	mult g,e,c
@@ -17,11 +17,6 @@ kalkylera = ->
 	add o,g,k
 	add p,n,o
 
-ny = ->
-	for x in [f,g,h,j,k,l,n,o,p]
-		x.innerHTML = ''
-
-	b.innerHTML = random range 10,100,10
-	c.innerHTML = random range 10
-	e.innerHTML = random range 10,100,10
-	i.innerHTML = random range 10
+clr = ->
+	x.innerHTML = '' for x in [f,g,h,j,k,l,n,o,p]	
+	x.value = '' for x in [b,c,e,i]
