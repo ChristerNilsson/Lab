@@ -11,24 +11,40 @@
     <script src="js/sketch.js"></script>
 
     <style> 
-      body {padding:0; margin:0; font-family:'Arial';} 
+      body {padding:5; margin:5; font-family:'Arial';} 
       canvas {vertical-align:top;} 
       table {font-size:300%;}
-      td {border: 1px solid black;}
+      td {border:1px solid black;}
       input {width:100px; text-align:right; font-size:100%;}
     </style>
 
   </head>
   <body>
-    <table id='myTable' style="border: 1px solid black;text-align:right; background-color:lightgrey">
-      <tr><td id=a>*</td><td><input id=b type="text"/></td><td><input id=c type="text"/></td><td id=d>+</td></tr>
-      <tr><td><input id=e type="text" /></td><td id=f></td><td id=g></td><td id=h></td></tr>
-      <tr><td><input id=i type="text" /></td><td id=j></td><td id=k></td><td id=l></td></tr>
-      <tr><td id=m>+</td><td id=n></td><td id=o></td><td id=p></td></tr>
+    <table style="text-align:right; background-color:lightgrey">
+      <tr>
+        <td id=a>*</td>
+        <td><input id=b type=text oninput="calc()" value=40 /></td>
+        <td><input id=c type=text oninput="calc()" value=7 /></td>
+        <td id=d></td>
+      </tr>
+      <tr>
+        <td><input id=e type=text oninput="calc()" value=90 /></td>
+        <td id=f></td>
+        <td id=g></td>
+        <td id=h></td>
+      </tr>
+      <tr>
+        <td><input id=i type=text oninput="calc()" value=6 /></td>
+        <td id=j></td>
+        <td id=k></td>
+        <td id=l></td>
+      </tr>
+      <tr>
+        <td id=m></td>
+        <td id=n></td>
+        <td id=o></td>
+        <td id=p></td>
+      </tr>
     </table>
-    <button onclick='clr()'>clear</button>
-    <button onclick='calc()'>calc</button>
   </body>
 </html>
-
-

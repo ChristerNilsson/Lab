@@ -1,10 +1,10 @@
 xp = 0.6
-yp = 0.9
+yp = 1.0 //0.9
 
-Run, coffee.cmd -M -b -o js -cw coffee
-WinWait, ahk_class ConsoleWindowClass
-WinActivate, ahk_class ConsoleWindowClass
-WinMove A,, A_ScreenWidth*xp, 0, A_ScreenWidth*(1-xp), A_ScreenHeight*(1-yp)
+//Run, coffee.cmd -M -b -o js -cw coffee
+//WinWait, ahk_class ConsoleWindowClass
+//WinActivate, ahk_class ConsoleWindowClass
+//WinMove A,, A_ScreenWidth*xp, 0, A_ScreenWidth*(1-xp), A_ScreenHeight*(1-yp)
 
 Run, subl -a .
 WinWait, ahk_class PX_WINDOW_CLASS
