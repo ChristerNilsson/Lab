@@ -1,5 +1,13 @@
-<p id=a>9</p>
-<p>1</p>
+<p id=a>7</p>
+<p id=b>1</p>
 <button onclick='a.innerHTML=parseInt(a.innerHTML)+2'>+2</button>
 <button onclick='a.innerHTML=parseInt(a.innerHTML)*2'>*2</button>
 <button onclick='a.innerHTML=parseInt(a.innerHTML)/2'>/2</button>
+<button onclick=''>Next</button>
+
+<script>
+  next = function () {
+    a.innerHTML = Math.ceil(20 * Math.random())
+    b.innerHTML = Math.ceil(20 * Math.random())
+  }	
+</script>
