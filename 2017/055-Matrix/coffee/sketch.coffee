@@ -30,8 +30,8 @@ class Matrix # any D
 		a = @shape
 		b = other.shape
 		antal = Math.max a.length,b.length
-		target = (Math.max a[i] || 1, b[i] || 1 for i in range antal)
-		n = target.reduce ((a, b) -> a * b), 1
+		target = (Math.max a[i]||1, b[i]||1 for i in range antal)
+		n = target.reduce ((a,b) -> a * b), 1
 		data = (f @cell(indices), other.cell(indices) for indices in expand target,n)
 		new Matrix(data).reshape target
 
@@ -43,13 +43,12 @@ class Matrix # any D
 	index : (indices) ->
 		res = 0
 		for arg,i in indices
-			res *= @shape[i] || 1
-			res += if (@shape[i] || 1) == 1 then 0 else arg
+			res *= @shape[i]||1
+			res += if (@shape[i]||1) == 1 then 0 else arg
 		res
 
 	transpose : -> # 2D only
-		data = []
-		data = data.concat (@cell [j,i] for j in range @shape[0]) for i in range @shape[1]
+		data = (data||[]).concat (@cell [j,i] for j in range @shape[0]) for i in range @shape[1]
 		new Matrix(data).reshape [@shape[1],@shape[0]]
 
 	dot : (other) -> # 2D only
