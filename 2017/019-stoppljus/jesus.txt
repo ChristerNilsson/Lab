@@ -1,0 +1,50 @@
+// Tema:  SIGNALER - TRAFIKLJUS
+// KOPPLA TRAFIKLJUS TILL UTGÅNGAR 2,3,4,5,6,7
+// MALL 2 : skicka SEX signaler i loop 
+
+// 1: R  RY  G   Y
+// 2: G   Y  R  RY
+// t: 4   1  4   1 sekunder
+
+const int RED1 = 2;
+const int YEL1 = 3;
+const int GRN1 = 4;
+
+const int RED2 = 5;
+const int YEL2 = 6;
+const int GRN2 = 7;
+
+void setup() {
+  pinMode(RED1,OUTPUT);
+  pinMode(YEL1,OUTPUT);
+  pinMode(GRN1,OUTPUT);
+  pinMode(RED2,OUTPUT);
+  pinMode(YEL2,OUTPUT);
+  pinMode(GRN2,OUTPUT);
+}
+
+void loop() {
+  digitalWrite(RED1, HIGH); 
+  digitalWrite(GRN2, HIGH);
+  delay (4000);
+  digitalWrite(GRN2, LOW);
+
+  digitalWrite(YEL1, HIGH);
+  digitalWrite(YEL2, HIGH);
+  delay (1000);
+  digitalWrite(RED1, LOW);
+  digitalWrite(YEL1, LOW);
+  digitalWrite(YEL2, LOW);
+
+  digitalWrite(RED2, HIGH);
+  digitalWrite(GRN1, HIGH);
+  delay (4000);
+  digitalWrite(GRN1, LOW);
+
+  digitalWrite(YEL1, HIGH);
+  digitalWrite(YEL2, HIGH);
+  delay (1000);
+  digitalWrite(YEL1, LOW);
+  digitalWrite(YEL2, LOW);
+  digitalWrite(RED2, LOW);
+}
