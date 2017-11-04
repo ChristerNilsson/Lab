@@ -46,7 +46,7 @@ draw = ->
 			n = N*j+i
 			fc if start <= n <= stopp then 0 else 0.9
 			textSize 16
-			text n,sida/2+sida*i,sida/2+sida*j
+			text 1+n,sida/2+sida*i,sida/2+sida*j
 			textSize 500
 			sc 0,1,0
 			fc()
