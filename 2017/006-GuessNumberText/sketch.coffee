@@ -3,6 +3,6 @@ gissning = -1
 meddelande = "Gissa ett tal!"
 while gissning != slump
 	gissning = parseInt prompt meddelande
-	if gissning < slump then meddelande = "HÃ¶gre!"
-	else if gissning > slump then meddelande = "LÃ¤gre!"
+	if gissning < slump then meddelande = "Högre!"
+	else if gissning > slump then meddelande = "Lägre!"
 alert "Korrekt!"
