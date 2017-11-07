@@ -1,30 +1,14 @@
-# Mall
+# nf
 
-* Libraries innehåller bl a p5-filer.
-* index.html används när man vill köra programmet i Google Chrome.
-* katalogen coffee innehåller din kod. Redigera med Sublime.
-* js-filer skapas automatiskt av startProject.bat
+* nf(), nfs() and nfp() does not work as perfect as Processing does.
 
-## Detta gör du en enda gång
+* Lauren McCarthy: nf() is just a formatting function for converting numbers into strings, so the number itself is left alone, and any digits beyond are truncated.
 
-* Kopiera 000-Mall med Clone or Download
-* Välj Download .Zip 
-* Packa upp innehållet och spara i en egen katalog med namnet 000-Mall. Dvs inget -master
-* Flytta upp createProject.bat en nivå.
+* LM: I'm not hearing a lot of energy around this or #2287 so I'd prefer to leave as is for now. thanks for the suggestion! 
 
-## Detta gör du när du skapar ett nytt projekt
+* Austin Fish: No, nfs is working perfectly… be it they have a rather inefficient implementation, but aside from that the only issue is your numbers. It’s a problem with floating point numbers in all computer languages
 
-* Använd createProject för att skapa en kopia av mallen.
-* Byt namn på NewProject. T ex till 001-projektnamn.
+* meiamsome: *shrug* that's just the way it works
 
-## Detta gör du när du utvecklar
-
-* Gå in i katalogen och starta startProject
-  * index.html startas i Chrome
-  * sublime startas. 
-  	* Stäng eventuellt befintligt projekt med Remove Folder from Project
-  * transpilern startas
-* Ändra i sketch.coffee. Spara med ctrl-S
-* Transpilering sker automatiskt. Ett pip hörs vid syntaxfel.
-* Refresha Chrome.
-
+* alca: If all you need is -0.5 to 0.4 with 1 decimal, then `x.toFixed(1)` is all you need
+	Unless you have another use, toFixed should be perfect

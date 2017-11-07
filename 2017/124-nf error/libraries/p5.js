@@ -27713,21 +27713,17 @@ p5.prototype.nf = function () {
     return arguments[0].map(function (x) {
       return doNf(x, a, b);
     });
-  }
-  else{
+  } else {
     var typeOfFirst = Object.prototype.toString.call(arguments[0]);
-    if(typeOfFirst === '[object Arguments]'){
-      if(arguments[0].length===3){
+    if (typeOfFirst === '[object Arguments]') {
+      if (arguments[0].length===3){
         return this.nf(arguments[0][0],arguments[0][1],arguments[0][2]);
-      }
-      else if(arguments[0].length===2){
+      } else if (arguments[0].length===2) {
         return this.nf(arguments[0][0],arguments[0][1]);
-      }
-      else{
+      } else {
         return this.nf(arguments[0][0]);
       }
-    }
-    else {
+    } else {
       return doNf.apply(this, arguments);
     }
   }
@@ -27735,6 +27731,7 @@ p5.prototype.nf = function () {
 
 function doNf() {
   var num = arguments[0];
+  num = num.toFixed(arguments[2]);  
   var neg = num < 0;
   var n = neg ? num.toString().substring(1) : num.toString();
   var decimalInd = n.indexOf('.');
@@ -27743,7 +27740,7 @@ function doNf() {
   var str = neg ? '-' : '';
   if (arguments.length === 3) {
     var decimal = '';
-    if(decimalInd !== -1 || arguments[2] - decPart.length > 0){
+    if (decimalInd !== -1 || arguments[2] - decPart.length > 0) {
       decimal = '.';
     }
     if (decPart.length > arguments[2]) {
@@ -27759,8 +27756,7 @@ function doNf() {
       str += '0';
     }
     return str;
-  }
-  else {
+  } else {
     for (var k = 0; k < Math.max(arguments[1] - intPart.length, 0); k++) {
       str += '0';
     }
@@ -27822,15 +27818,14 @@ function doNfc() {
   if (arguments[1] === 0) {
     rem = '';
   }
-  else if(arguments[1] !== undefined){
-    if(arguments[1] > rem.length){
+  else if (arguments[1] !== undefined) {
+    if (arguments[1] > rem.length) {
       rem+= dec === -1 ? '.' : '';
       var len = arguments[1] - rem.length + 1;
-      for(var i =0; i< len; i++){
+      for(var i =0; i< len; i++) {
         rem += '0';
       }
-    }
-    else{
+    } else {
       rem = rem.substring(0, arguments[1] + 1);
     }
   }
@@ -27884,8 +27879,7 @@ p5.prototype.nfp = function() {
 };
 
 function addNfp() {
-  return (
-    parseFloat(arguments[0]) > 0) ?
+  return (parseFloat(arguments[0]) > 0) ?
     '+'+arguments[0].toString() :
     arguments[0].toString();
 }
@@ -27937,8 +27931,7 @@ p5.prototype.nfs = function() {
 };
 
 function addNfs() {
-  return (
-    parseFloat(arguments[0]) > 0) ?
+  return (parseFloat(arguments[0]) > 0) ?
     ' '+arguments[0].toString() :
     arguments[0].toString();
 }
