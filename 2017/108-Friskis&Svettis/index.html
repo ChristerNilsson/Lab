@@ -8,6 +8,23 @@
     <script src="libraries/underscore.js"></script>
     <script src="libraries/nilsson.js"></script>
     <script src="js/sketch.js"></script>
+
+    <script type="text/javascript">
+			function toggleFullScreen() {
+			  var doc = window.document;
+			  var docEl = doc.documentElement;
+
+			  var requestFullScreen = docEl.requestFullscreen || docEl.mozRequestFullScreen || docEl.webkitRequestFullScreen || docEl.msRequestFullscreen;
+			  var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+
+			  if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+			    requestFullScreen.call(docEl);
+			  }
+			  else {
+			    cancelFullScreen.call(doc);
+			  }
+			}
+    </script>
   </head>
   <body>
     <table>
@@ -57,7 +74,7 @@
         <td></td>
         <td><button onclick="location.reload()">Clear</button></td>
         <td></td>
-        <td><button onclick="document.documentElement.webkitRequestFullScreen()">Full</button></td>
+        <td><button onclick="toggleFullScreen()">Full</button></td>
       </tr>
     </table>
     
