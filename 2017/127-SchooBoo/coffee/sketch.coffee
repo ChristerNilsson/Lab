@@ -7,10 +7,14 @@ markedAreas = {}
 markedAreas[1] = [[4,7,1],[32,35,2]]
 markedAreas[2] = [[14,17,3],[22,25,4]]
 
+device = null
+
 setup = ->
 	createCanvas 640,360
 	fetch()
 	frameRate 10
+	device = info()
+	print device
 
 fetch = ->
 	img = null
@@ -38,12 +42,32 @@ draw = ->
 	if img then image img, 0, 0
 	w = width/N
 	p = (pageNo-1) * w
-	sc 0,1,0
+	sc 0
 	y = height-2
 	line p,y,p+w,y
 
+mousePressed = ->
+	if device.is_touch_device == false 
+		if mouseX > width/2 then pageNo++ else pageNo--
+		pageNo = constrain pageNo,1,N
+		fetch()
+		false 
+
 touchEnded = ->
-	if mouseX > width/2 then pageNo++ else pageNo--
-	pageNo = constrain pageNo,1,N
-	fetch()
-	false 
+	if device.is_touch_device == true 
+		if mouseX > width/2 then pageNo++ else pageNo--
+		pageNo = constrain pageNo,1,N
+		fetch()
+		false 
+
+info = ->
+	ratio = window.devicePixelRatio || 1
+	ratio : ratio
+	is_touch_device : 'ontouchstart' in document.documentElement
+	sw : screen.width 
+	sh : screen.height
+	cw : document.documentElement.clientWidth
+	ch : document.documentElement.clientHeight
+	rw : screen.width * ratio
+	rh : screen.height * ratio
+	
