@@ -38,11 +38,11 @@ draw = ->
 	if img then image img, 0, 0
 	w = width/N
 	p = (pageNo-1) * w
-	sc 1,0,0
+	sc 0,1,0
 	y = height-2
 	line p,y,p+w,y
 
-mouseTouched = ->
+touchEnded = ->
 	if mouseX > width/2 then pageNo++ else pageNo--
 	pageNo = constrain pageNo,1,N
 	fetch()
