@@ -2,6 +2,7 @@ pageNo = 1
 img = null
 rects = null
 N = 35
+SIZE = 40
 
 markedAreas = {}
 markedAreas[1] = [[4,7,1],[32,35,2]]
@@ -10,7 +11,8 @@ markedAreas[2] = [[14,17,3],[22,25,4]]
 device = null
 
 setup = ->
-	createCanvas 640,360
+	#createCanvas 640,360
+	createCanvas 1280,720
 	fetch()
 	frameRate 10
 	device = info()
@@ -38,11 +40,11 @@ draw = ->
 				if color==2 then fc 0,1,0
 				if color==3 then fc 1,1,0
 				if color==4 then fc 0,1,1
-				if color > 0 then	rect x-6,y+4,w+10,29
+				if color > 0 then	rect x-6,y+8,w+10,SIZE-2
 	if img then image img, 0, 0
 	w = width/N
 	p = (pageNo-1) * w
-	sc 1,1,0
+	sc 0
 	y = height-2
 	line p,y,p+w,y
 
