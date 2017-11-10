@@ -51,14 +51,14 @@ mousePressed = ->
 		if mouseX > width/2 then pageNo++ else pageNo--
 		pageNo = constrain pageNo,1,N
 		fetch()
-		false 
+	false 
 
 touchEnded = ->
 	if device.is_touch_device == true 
 		if mouseX > width/2 then pageNo++ else pageNo--
 		pageNo = constrain pageNo,1,N
 		fetch()
-		false 
+	false 
 
 info = ->
 	ratio = window.devicePixelRatio || 1
