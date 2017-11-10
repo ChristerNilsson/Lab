@@ -42,7 +42,8 @@ draw = ->
 	y = height-2
 	line p,y,p+w,y
 
-mousePressed = ->
+mouseTouched = ->
 	if mouseX > width/2 then pageNo++ else pageNo--
 	pageNo = constrain pageNo,1,N
 	fetch()
+	false 
