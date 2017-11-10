@@ -1,67 +1,103 @@
 # -*- coding: utf-8 -*-
 
-from PIL import Image, ImageDraw, ImageFont
-import random
-import datetime
 import json
+import html5lib
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
+import time
 
-txt = """
-- Tom!
-Inget svar.
-- Tom!
-Inget svar.
-- Var håller pojken hus nu igen? Hör du - Tom!
-Den gamla damen petade ned sina glasögon och tittade över dem runt rummet. Därefter sköt hon upp dem och tittade under dem. Sällan eller aldrig tittade hon genom dem efter något så obetydligt som en pojke, ty de var ju hennes finglasögon och hennes själs stolthet. De var gjorda för att få henne att verka fin dam och inte för att tjänstgöra som glasögon - hon kunde lika gärna ha försökt titta genom ett par ugnsluckor. Nu såg hon sig rådvill omkring och sa, inte så särskilt högt, men ändå högt nog för att möblerna skulle höra det:
-"""
+#[WIDTH,HEIGHT,SIZE,LPP] = [600,800,32,18]
+#[WIDTH,HEIGHT,SIZE,LPP] = [360,640,30,18]
+#[WIDTH,HEIGHT,SIZE,LPP] = [640,360,30,12]
+#[WIDTH,HEIGHT,SIZE,LPP] = [1280,720,60,12]
+[WIDTH,HEIGHT,SIZE,LPP] = [1280,720,40,18]
 
-t = '{:%Y-%m-%d %H:%M:%S}'.format(datetime.datetime.now())
-txt = t + txt
-data = ''
-for i in range(1):
-	data += txt
-print(len(data),'tecken')
-data = data.split("\n")
+LEFT_MARGIN = 10
+SPACE = 10
+#COLOR = (255, 255, 0, 255)
+COLOR = (0, 0, 0, 255)
 
-SIZE = 32 # ver pixlar
-LINE_SPACE = 8 # ver pixlar
+class PageMaker:
 
-WIDTH = 1000 # hor pixlar
-LEFT_MARGIN = 10 # hor pixlar
-SPACE = 10 # hor pixlar
+	def makePage(self,htmlfile,width,height,fonts):
+		self.width = width # client width
+		self.height= height # client height
+		self.fonts = fonts # font family
+		self.lineNo = 0 # räknar alla rader i kapitlet
+		self.init()
 
-img = Image.new('RGBA', (WIDTH,600), (255, 255, 255,0))
+		with open(htmlfile+'.html', 'r', encoding="utf-8") as f:
+			html = f.read()
+			document = html5lib.parse(html)
 
-fonts = []
-fonts.append(ImageFont.truetype('times.ttf', SIZE))
-fonts.append(ImageFont.truetype('timesbd.ttf', SIZE))
-fonts.append(ImageFont.truetype('timesbi.ttf', SIZE))
-fonts.append(ImageFont.truetype('timesi.ttf', SIZE))
+		self.traverse(document)
+		if len(self.rects) > 0:
+			pageNo = int(self.lineNo / LPP)
+			self.lineNo = LPP * (pageNo+1)
+			self.produceFile()
+		self.makeChapter()
 
-ctx = ImageDraw.Draw(img)
+	def makeChapter(self):
+		chapterInfo = [SIZE, int(self.lineNo / LPP)]
+		with open('chapter.json', 'w') as outfile:
+			json.dump(chapterInfo, outfile)
 
-x = LEFT_MARGIN
-y = SIZE
-rects = []
-for words in data:
-	for word in words.split(' '):
+	def init(self):
+		self.img = Image.new('RGBA', (self.width, self.height), (255, 255, 255, 0))
+		self.ctx = ImageDraw.Draw(self.img)
+		self.x = LEFT_MARGIN  # hoppar
+		self.y = self.lineNo * SIZE  # räknar upp hela tiden
+		self.rects = []
 
-		index = random.choice([0, 0, 0, 0, 0, 0, 0, 1, 2, 3])
-		fnt = fonts[index]
-		if word != '':
-			(w, h) = ctx.textsize(word, fnt)
-			if x + w > WIDTH:
-				y += SIZE + LINE_SPACE
-				x = LEFT_MARGIN
-			ctx.text((x, y), word, font=fnt, fill=(0,0,0, 255))
-			rects.append([x, y, w, h,word])
-			x += w + SPACE
-	y += SIZE + LINE_SPACE
-	x = LEFT_MARGIN
+	def produceFile(self):
+		pageNo = int(self.lineNo/LPP)
+		print('page',pageNo)
+		#self.ctx.text((LEFT_MARGIN, HEIGHT-50), "Berget", font=self.fonts[0], fill=COLOR)
+		#self.ctx.text((WIDTH-30, HEIGHT-30-5), str(pageNo), font=self.fonts[0], fill=COLOR)
 
-with open('data.json', 'w') as outfile:
-	json.dump(rects, outfile)
+		self.img = self.img.filter(ImageFilter.DETAIL)
+		self.img = self.img.filter(ImageFilter.SHARPEN)
+		self.img.save(f'page{pageNo}.png')
+		with open(f'page{pageNo}.json', 'w') as outfile:
+			json.dump(self.rects, outfile)
+		self.init()
 
-# img = img.filter(ImageFilter.DETAIL)
-# img = img.filter(ImageFilter.SHARPEN)
-# print(time.time() - start,'tecken ritas')
-img.save('data.png')
+	def nextLine(self):
+		self.lineNo += 1
+		self.x = LEFT_MARGIN
+		self.y += SIZE
+		if self.lineNo % LPP == 0:
+			self.produceFile()
+
+	def appendWords(self,data,fontIndex):
+		if data == '\n': return
+		for word in data.split(' '):
+			if word != '':
+				(w, h) = self.ctx.textsize(word, self.fonts[fontIndex])
+				if self.x + w > self.width-4 and word != ",":
+					self.nextLine()
+
+				y = -5 + (self.lineNo % LPP) * SIZE
+				self.ctx.text((self.x, y), word, font=self.fonts[fontIndex], fill=COLOR)
+				self.rects.append([self.x, y, w, SIZE])
+				self.x += w + SPACE
+
+	def traverse(self,node):
+		tag = node.tag.split('}')[1]
+		if tag == 'tail': self.appendWords(node.text,0)
+		if tag == 'p':
+			self.nextLine()
+			self.x = LEFT_MARGIN * 5
+			self.appendWords(node.text,0)
+		if tag == 'i':
+			self.appendWords(node.text,1)
+			self.traverse(html5lib.parse("<tail>" + node.tail + "</tail>"))
+		if tag == 'b':
+			self.appendWords(node.text,2)
+			self.traverse(html5lib.parse("<tail>" + node.tail + "</tail>"))
+		for child in node.getchildren(): self.traverse(child)
+
+start = time.clock()
+fonts = [ImageFont.truetype(f'times{name}.ttf', SIZE) for name in ['','i','bd','bi']]
+pm = PageMaker()
+pm.makePage('berget',WIDTH,HEIGHT,fonts)
+print(time.clock()-start)
