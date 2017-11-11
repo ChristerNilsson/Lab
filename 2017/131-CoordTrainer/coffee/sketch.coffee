@@ -1,5 +1,6 @@
 x=y=-99
 level = 0
+diameter = 20
 
 setup = ->
 	createCanvas 201,201
@@ -12,17 +13,18 @@ grid = ->
 		line i,0,i,200
 		line 0,i,200,i
 
-newPoint = (delta) ->
+newPoint = (r) ->
+	radius = r
 	x = random 201
 	y = random 201
-	x = int(x/delta)*delta
-	y = int(y/delta)*delta
+	x = int(x/r)*r
+	y = int(y/r)*r
 
 newGame = (dlevel) ->
 	bg 0
 	textAlign CENTER,CENTER
 	textSize 150
-	if dlevel== 1 then fc 0,0.5,0
+	if dlevel>= 0 then fc 0,0.5,0
 	if dlevel==-1 then fc 1,0.5,0
 	level += dlevel
 	sc()
@@ -32,7 +34,7 @@ newGame = (dlevel) ->
 	sw 2
 	sc 1,1,0
 	fc()
-	circle x,y,10
+	circle x,y,diameter/2
 	sw 1
 	point x,y
 
@@ -47,16 +49,17 @@ newGame = (dlevel) ->
 	if level > 40 then newPoint 1
 
 	textSize 12
-	textAlign RIGHT,CENTER
+	textAlign CENTER,CENTER
 	fc 1,1,0
 	sc()
-	text 'x=',100,150
-	text x,120,150
-	text 'y=',100,170
-	text y,120,170
+	text 'x',90,150
+	text x,110,150
+	text 'y',90,170
+	text y,110,170
 
 mousePressed = -> 
 	if 5 > dist x,y,mouseX,mouseY
 		newGame 1
 	else if level>0
 		newGame -1
+	else newGame 0
