@@ -13,12 +13,12 @@ grid = ->
 		line i,0,i,200
 		line 0,i,200,i
 
-newPoint = (r) ->
-	radius = r
+newPoint = (d) ->
+	diameter = d
 	x = random 201
 	y = random 201
-	x = int(x/r)*r
-	y = int(y/r)*r
+	x = int(x/d)*d
+	y = int(y/d)*d
 
 newGame = (dlevel) ->
 	bg 0
@@ -31,7 +31,7 @@ newGame = (dlevel) ->
 	text level,100,100
 	grid()
 	
-	sw 2
+	sw 1
 	sc 1,1,0
 	fc()
 	circle x,y,diameter/2
@@ -44,21 +44,21 @@ newGame = (dlevel) ->
 
 	newPoint 20
 	if level > 10 then newPoint 10
-	if level > 20 then newPoint 5
-	if level > 30 then newPoint 2
-	if level > 40 then newPoint 1
+	if level > 20 then newPoint 8
+	if level > 30 then newPoint 6
+	if level > 40 then newPoint 4
 
 	textSize 12
 	textAlign CENTER,CENTER
 	fc 1,1,0
 	sc()
-	text 'x',90,150
-	text x,110,150
-	text 'y',90,170
-	text y,110,170
+	text 'x',170,10
+	text x,190,10
+	text 'y',10,190
+	text y,30,190
 
 mousePressed = -> 
-	if 5 > dist x,y,mouseX,mouseY
+	if diameter/2 > dist x,y,mouseX,mouseY
 		newGame 1
 	else if level>0
 		newGame -1
