@@ -1,9 +1,10 @@
 x=y=-99
 level = 0
 diameter = 20
+SCALE=4
 
 setup = ->
-	createCanvas 201,201
+	createCanvas 201*SCALE,201*SCALE
 	newGame 0
 
 grid = ->
@@ -22,6 +23,7 @@ newPoint = (d) ->
 
 newGame = (dlevel) ->
 	bg 0
+	scale SCALE
 	textAlign CENTER,CENTER
 	textSize 150
 	if dlevel>= 0 then fc 0,0.5,0
@@ -40,7 +42,7 @@ newGame = (dlevel) ->
 
 	sc 1,0,0
 	sw 2
-	point mouseX,mouseY
+	point mouseX/SCALE,mouseY/SCALE
 
 	newPoint 20
 	if level > 10 then newPoint 10
@@ -61,7 +63,7 @@ newGame = (dlevel) ->
 	text int(millis()/1000),190,190
 
 mousePressed = -> 
-	if diameter/2 > dist x,y,mouseX,mouseY
+	if diameter/2 > dist x*SCALE,y*SCALE,mouseX,mouseY
 		newGame 1
 	else if level>0
 		newGame -1
