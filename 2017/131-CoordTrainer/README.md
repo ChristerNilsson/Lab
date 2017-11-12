@@ -13,3 +13,5 @@
 # The red dot indicates where you clicked.
 
 # The level is indicated in red (fail) or green (success) 
+
+# Number of seconds is shown in lower right corner

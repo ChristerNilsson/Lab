@@ -57,6 +57,9 @@ newGame = (dlevel) ->
 	text 'y',10,190
 	text y,30,190
 
+	text 't',170,190
+	text int(millis()/1000),190,190
+
 mousePressed = -> 
 	if diameter/2 > dist x,y,mouseX,mouseY
 		newGame 1
