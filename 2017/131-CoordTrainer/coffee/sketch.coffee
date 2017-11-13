@@ -4,12 +4,12 @@ diameter = 20
 SCALE = 4
 
 setup = ->
-	createCanvas 201*SCALE,201*SCALE
+	createCanvas 201*SCALE-2,201*SCALE-2
 	newGame 0
 
 grid = ->
 	sc 1
-	sw 1
+	sw 0.5
 	for i in range 0,201,20
 		line i,0,i,200
 		line 0,i,200,i
@@ -31,19 +31,19 @@ newGame = (dlevel) ->
 	level += dlevel
 	if level<0 then level = 0
 	sc()
-	text level,101,101
+	text level,100.5,100.5
 	grid()
 	
 	sw 1
 	sc 1,1,0
 	fc()
 	circle x,y,diameter/2
-	sw 1
+	sw 2
 	point x,y
 
 	sc 1,0,0
 	sw 2
-	point mouseX/SCALE,mouseY/SCALE
+	point mouseX/SCALE, mouseY/SCALE
 
 	newPoint 20
 	if level >= 10 then newPoint 10
