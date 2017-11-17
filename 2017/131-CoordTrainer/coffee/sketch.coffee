@@ -26,10 +26,10 @@ newGame = (dlevel) ->
 	scale SCALE
 	textAlign CENTER,CENTER
 	textSize 150
-	if dlevel>= 0 then fc 0,0.5,0
-	if dlevel==-1 then fc 1,0.5,0
+	if dlevel >=  0 then fc 0,0.5,0
+	if dlevel == -1 then fc 1,0.5,0
 	level += dlevel
-	if level<0 then level = 0
+	if level < 0 then level = 0
 	sc()
 	text level,100.5,100.5
 	grid()
