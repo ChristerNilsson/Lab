@@ -1,9 +1,18 @@
 # -*- coding: utf-8 -*-
 
+# INSTABILT LÄGE!
+# Tanken var att skapa en bitmap med alla ord.
+# Lämpligen skickas in index.html med tal istf ord till klienten som där producerar slutliga bitmappen.
+# Avbrutet
+
+DIR = 'berget'
+#DIR = 'kallocain'
+
 import json
+import time
+
 import html5lib
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
-import time
 
 #[WIDTH,HEIGHT,SIZE,LPP] = [600,800,32,18]
 #[WIDTH,HEIGHT,SIZE,LPP] = [360,640,30,18]
@@ -13,19 +22,24 @@ import time
 
 LEFT_MARGIN = 10
 SPACE = 10
-#COLOR = (255, 255, 0, 255)
-COLOR = (0, 0, 0, 255)
+BG = (0, 0, 0, 0)
+WHITE = (255, 255, 255, 255)
 
 class PageMaker:
 
-	def makePage(self,htmlfile,width,height,fonts):
-		self.width = width # client width
-		self.height= height # client height
+	def step1(self,fonts):
+		# self.width = width # client width
+		# self.height= height # client height
 		self.fonts = fonts # font family
-		self.lineNo = 0 # räknar alla rader i kapitlet
+		self.lineNo = 0 # räknar alla rader i boken
+
+		self.words = [] # unika ord. parallell med widths.
+		self.widths = [] # ordets bredd i pixel
+		self.index = [] # ordets index i words och widths. Ett index for varje ord i kapitlet/boken
+
 		self.init()
 
-		with open(htmlfile+'.html', 'r', encoding="utf-8") as f:
+		with open(DIR + '/index.html', 'r', encoding="utf-8") as f:
 			html = f.read()
 			document = html5lib.parse(html)
 
@@ -36,13 +50,47 @@ class PageMaker:
 			self.produceFile()
 		self.makeChapter()
 
+		self.makeWords()
+
+	def keyWithMaxVal(self,d):
+		v = list(d.values())
+		k = list(d.keys())
+		maxWidth = max(v)
+		return [k[v.index(maxWidth)],maxWidth]
+
+	def indexWithMaxVal(self,widths,words):
+		maxWidth = max(widths)
+		ix = widths.index(maxWidth)
+		return [maxWidth, words[ix]]
+
+	def makeWords(self):
+		print(len(self.words),'of',len(self.index))
+		[maxWidth,word] = self.indexWithMaxVal(self.widths,self.words)
+		print(word,maxWidth)
+
+		with open(DIR + '/words.json', 'w') as outfile:
+			json.dump(self.words, outfile)
+
+		with open(DIR + '/widths.json', 'w') as outfile:
+			json.dump(self.widths, outfile)
+
+		with open(DIR + '/index.json', 'w') as outfile:
+			json.dump(self.index, outfile)
+
+		n = len(self.words)
+		img = Image.new('RGBA', (maxWidth, 40 * n), BG)
+		ctx = ImageDraw.Draw(img)
+		for i,word in enumerate(self.words):
+			ctx.text((0, i*40), word, font=self.fonts[0], fill=WHITE)
+		img.save(DIR + '/words.png')
+
 	def makeChapter(self):
 		chapterInfo = [SIZE, int(self.lineNo / LPP)]
-		with open('chapter.json', 'w') as outfile:
+		with open(DIR + '/chapter.json', 'w') as outfile:
 			json.dump(chapterInfo, outfile)
 
 	def init(self):
-		self.img = Image.new('RGBA', (self.width, self.height), (255, 255, 255, 0))
+		self.img = Image.new('RGBA', (self.width, self.height), BG)
 		self.ctx = ImageDraw.Draw(self.img)
 		self.x = LEFT_MARGIN  # hoppar
 		self.y = self.lineNo * SIZE  # räknar upp hela tiden
@@ -56,8 +104,8 @@ class PageMaker:
 
 		self.img = self.img.filter(ImageFilter.DETAIL)
 		self.img = self.img.filter(ImageFilter.SHARPEN)
-		self.img.save(f'page{pageNo}.png')
-		with open(f'page{pageNo}.json', 'w') as outfile:
+		self.img.save(DIR + f'/page{pageNo}.png')
+		with open(DIR + f'/page{pageNo}.json', 'w') as outfile:
 			json.dump(self.rects, outfile)
 		self.init()
 
@@ -70,14 +118,24 @@ class PageMaker:
 
 	def appendWords(self,data,fontIndex):
 		if data == '\n': return
+		print(data)
 		for word in data.split(' '):
 			if word != '':
-				(w, h) = self.ctx.textsize(word, self.fonts[fontIndex])
+				try:
+					index = self.words.index(word)
+					self.index.append(index)
+					w = self.widths[index]
+				except:
+					(w, h) = self.ctx.textsize(word, self.fonts[fontIndex])
+					self.words.append(word)
+					self.widths.append(w)
+					self.index.append(len(self.words)-1)
+
 				if self.x + w > self.width-4 and word != ",":
 					self.nextLine()
 
 				y = -5 + (self.lineNo % LPP) * SIZE
-				self.ctx.text((self.x, y), word, font=self.fonts[fontIndex], fill=COLOR)
+				self.ctx.text((self.x, y), word, font=self.fonts[fontIndex], fill=WHITE)
 				self.rects.append([self.x, y, w, SIZE])
 				self.x += w + SPACE
 
@@ -99,5 +157,22 @@ class PageMaker:
 start = time.clock()
 fonts = [ImageFont.truetype(f'times{name}.ttf', SIZE) for name in ['','i','bd','bi']]
 pm = PageMaker()
-pm.makePage('berget',WIDTH,HEIGHT,fonts)
+
+# Forsta steget kors offline, i klienten for att få snygga fonter. Pillow kan skrotas
+# Kors i forväg for alla fonter. parsa fram orden forsta gången
+# in: index.html font fontSize
+# ut: index.json words.png words.json widths.json
+pm.step1(fonts)
+
+# skapar rektanglar for alla sidor. parsar på servern.
+# INDEX.HTML WORDS.JSON verboten i klienten!
+# in: screenWidth screenHeight words.png index.html font fontSize
+# ut: rects.json [index,x,y,w,h] per sida
+pm.step2(WIDTH,HEIGHT)
+
+# skapar bitmap for en viss sida
+# in: pageIndex rects.json index.json words.png
+# ut: page.png
+pm.step3()
+
 print(time.clock()-start)
