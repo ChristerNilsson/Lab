@@ -1,3 +1,6 @@
+#DIR = 'berget'
+DIR = 'kallocain'
+
 pageNo = 1
 img = null
 rects = null
@@ -21,20 +24,20 @@ fetch = ->
 	img = null
 	rects = null
 	chapter = null
-	loadImage "images/page#{pageNo}.png", (_img) -> img = _img
+	loadImage DIR + "/page#{pageNo}.png", (_img) -> img = _img
 
 	xmlhttp = new XMLHttpRequest()    
 	xmlhttp.onreadystatechange = () ->
 		if this.readyState == 4 && this.status == 200
 			rects = JSON.parse this.responseText
-	xmlhttp.open "GET", "images/page#{pageNo}.json", true
+	xmlhttp.open "GET", DIR + "/page#{pageNo}.json", true
 	xmlhttp.send()
 
 	xmlhttp1 = new XMLHttpRequest()    
 	xmlhttp1.onreadystatechange = () ->
 		if this.readyState == 4 && this.status == 200
 			chapter = JSON.parse this.responseText
-	xmlhttp1.open "GET", "images/chapter.json", true
+	xmlhttp1.open "GET", DIR + "/chapter.json", true
 	xmlhttp1.send()
 
 draw = ->
