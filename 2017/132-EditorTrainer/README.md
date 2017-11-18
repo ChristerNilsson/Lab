@@ -6,28 +6,24 @@ Mus eller touchpad kan ej användas, enbart tangentbordet.
 
 Orsaken är att det går mycket snabbare med tangentbordet.
 
-Följande tangenter kan användas:
+Bland annat följande tangenter kan användas:
 
-Left  shiftLeft  ctrlLeft  ctrlShiftLeft
-Right shiftRight ctrlRight ctrlShiftRight
-Up    shiftUp              ctrlShiftUp
-Down  shiftDown            ctrlShiftDown
-
-Home  shiftHome  ctrlHome  ctrlShiftHome 
-End   shiftEnd   ctrlEnd   ctrlShiftEnd
-
-PgUp             ctrlPgUp
-PgDn             ctrlPgDn
-
-Del   shiftDel   ctrlDel
+```
+           shift  ctrl  ctrlShift  
+Left       shift  ctrl  ctrlShift
+Right      shift  ctrl  ctrlShift
+Up         shift        ctrlShift
+Down       shift        ctrlShift
+Home       shift  ctrl  ctrlShift 
+End        shift  ctrl  ctrlShift
+PgUp              ctrl
+PgDn              ctrl
+Del        shift  ctrl
 Backspace
-
-Tab 
-shiftTab
-
-Enter ctrlEnter
-
-ctrlA
-ctrlC
-ctrlX
-ctrlV
+Tab        shift
+Enter 		      	ctrl
+A                 ctrl
+C                 ctrl
+X                 ctrl
+V                 ctrl
+```
