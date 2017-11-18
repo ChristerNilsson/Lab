@@ -5,6 +5,7 @@ SCALE = 4
 
 setup = ->
 	createCanvas 201*SCALE-2,201*SCALE-2
+	cursor CROSS
 	newGame 0
 
 grid = ->
@@ -50,6 +51,8 @@ newGame = (dlevel) ->
 	if level >= 20 then newPoint 8
 	if level >= 30 then newPoint 6
 	if level >= 40 then newPoint 4
+	if level >= 50 then newPoint 3
+	if level >= 60 then newPoint 2
 
 	textSize 12
 	textAlign CENTER,CENTER
