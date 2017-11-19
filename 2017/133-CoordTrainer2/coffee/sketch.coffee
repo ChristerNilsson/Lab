@@ -1,5 +1,5 @@
 x=y=100
-tx=ty=0
+tx=ty=-99
 level = 0
 diameter = 20
 SCALE = 4
@@ -54,7 +54,7 @@ newGame = (dlevel) ->
 
 	sc 1,0,0
 	sw 2
-	point tx*SCALE, ty*SCALE
+	point tx, ty
 
 	textSize 12
 	textAlign CENTER,CENTER
