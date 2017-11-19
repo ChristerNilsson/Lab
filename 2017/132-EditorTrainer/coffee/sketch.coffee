@@ -11,7 +11,7 @@ PROBLEMS = [ # operations,line,ch,startläge,slutläge
 	[1,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = lrp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Backspace
 	[1,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = lep 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Del
 	[1,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # CtrlX
-	[2,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Home Backspace
+	[1,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # shift-Tab
 	[2,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Home Tab
 	[2,2,8,ENG, 'zfor i in range 10\n\tfor j in range 10\n\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # ctrlHome x
 	[2,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = le 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Del Del
@@ -34,8 +34,8 @@ PROBLEMS = [ # operations,line,ch,startläge,slutläge
 	[7,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Home Home shiftDown shiftDown ctrlC Down ctrlV
 ] 
 
-iProblem = 0
-
+iProblem = 0 # 0
+buffer = ''
 target = null # bör. Readonly
 editor = null # är. Påverkas av tangenttryckningar enbart
 
@@ -44,22 +44,21 @@ update = ->
 	operations.innerHTML = diff
 	problem.innerHTML = iProblem
 	problem.style.color = 'white'
+	operations.style.color = if target.getValue()==editor.getValue() and diff >= 0 then 'green' else 'red'
 
-	if diff > 0
-		operations.style.color = 'yellow'
-	else if diff == 0 and target.getValue()==editor.getValue() 
-		operations.style.color = 'green'
-	else
-		operations.style.color = 'red'
+# buffer används pga svårt att hantera komplexiteten
+# t ex ger ctrlX både FA och AFA
+dump = (ch) ->
+	buffer += ch
+	if buffer.length > 3 or buffer in 'AA FA AFA BA D'.split ' '
+		buffer=''
+		counter++
+	update()
 
-cursor_activity = (doc) -> 
-	counter++ 
-	update()
-key_handled = (obj,name,event) -> #update()
-my_cut = -> counter--
-my_copy = (obj) -> 
-	counter++ 
-	update()
+cursor_activity = -> dump 'A'
+key_handled = -> dump 'B'
+my_copy = -> dump 'D'
+input_read = -> dump 'F'
 
 block_event = (obj,event) -> 
 	editor.focus()
@@ -84,8 +83,9 @@ setup = ->
 
 	editor = CodeMirror.fromTextArea document.getElementById("editor"), defaultValues
 
+	editor.on "inputRead", input_read
+	editor.on "keyHandled", key_handled
 	editor.on "cursorActivity", cursor_activity
-	editor.on "cut", my_cut
 	editor.on "copy", my_copy
 
 	editor.on "mousedown", block_event
@@ -107,6 +107,7 @@ nextProblem = (d) ->
 	editor.setCursor line,ch
 
 	counter = 0
+	buffer = ''
 
 	update()
 

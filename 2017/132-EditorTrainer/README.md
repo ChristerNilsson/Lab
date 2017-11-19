@@ -3,9 +3,10 @@
 * Programmet hjälper användaren att upptäcka genvägar via tangentbordet.
 * Mus eller touchpad kan **ej** användas.
 * Orsaken är att det går **mycket** snabbare med tangentbordet.
-* **Gula** talet visar hur många kommandon som behövs.
+* **Rött** tal visar hur många kommandon som behövs.
 * **Grön** nolla = Success!
-* **Rött** tal = Fail!
+* **Rött** negativt tal = Fail!
+* **Grönt** positivt tal = Du har hittat en genväg, maila mig!
 
 ## Bland annat kan följande kommandon användas:
 

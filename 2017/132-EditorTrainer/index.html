@@ -25,16 +25,22 @@
     <table>
         <tr>
             <td><textarea id="target" ></textarea></td>
+            <td>
+                <table>
+                    <tr>
+                        <td><button id=prev onclick='nextProblem(-1)' style="font-size:48px">Previous</button></td>
+                        <td><div id=problem style="text-align:center">0</div></td>
+                        <td><button id=next onclick='nextProblem(1)'  style="font-size:48px">Next</button></td>
+                    </tr>
+                    <tr>
+                        <td><button id=reset onclick='nextProblem(0)' style="font-size:48px">Reset</button></td>
+                    </tr>
+                </table>
+            </td>
         </tr>
         <tr>
             <td><textarea id="editor" ></textarea></td>
-            <td>
-                <button id=prev onclick='nextProblem(-1)' style="font-size:24px">Prev</button>
-                <button id=next onclick='nextProblem(1)'  style="font-size:24px">Next</button>
-                <button id=reset onclick='nextProblem(0)' style="font-size:24px">Reset</button>                    
-                <div id=problem>0</div>
-                <div id=operations>1</div>
-            </td>
+            <td><div id=operations style="font-size:128px">1</div></td>
         </tr>
     </table>
   </body>
