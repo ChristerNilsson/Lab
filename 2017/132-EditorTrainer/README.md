@@ -44,3 +44,5 @@
 * ctrl-X            Klipp ut markerat eller hela raden
 * ctrl-V            Klistra in
 ```
+
+[Sublime Keyboard Shortcuts](http://docs.sublimetext.info/en/latest/reference/keyboard_shortcuts_win.html)
