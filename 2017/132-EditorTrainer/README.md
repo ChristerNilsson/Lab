@@ -15,19 +15,23 @@ Flytta Markör och Markera
 
 Ändringar av text
 
-* Backspace   Tag bort tecken till vänster
-* Del         Tag bort tecken till höger
-* shift-Del
-* ctrl-Del
-* Tab    			Indentera en Tab
-* shift-Tab		Tag bort en Tab
-* Enter 		  Radbrytning     	
-* ctrl-Enter
+* Backspace         Tag bort tecken till vänster
+* Del               Tag bort tecken till höger
+* shift-Del         Klipp ut markerat
+* ctrl-Del          Klipp ut resten av ordet
+* Tab               Indentera en Tab
+* shift-Tab         Tag bort en Tab
+* Enter             Radbryt och indentera     	
+* shift-Enter	      Radbryt
+* ctrl-Enter	      Skapa ny rad efter
+* ctrl-shift-Enter	Skapa ny rad före
+* ctrl-shift-Up     Flytta upp en rad
+* ctrl-shift-Down   Flytta ned en rad
 
 Klippbordet
 
-* ctrl-A  Markera allt
-* ctrl-C  Kopiera markerat eller hela raden 
-* ctrl-X  Klipp ut markerat eller hela raden
-* ctrl-V  Klistra in
+* ctrl-A            Markera allt
+* ctrl-C            Kopiera markerat eller hela raden 
+* ctrl-X            Klipp ut markerat eller hela raden
+* ctrl-V            Klistra in
 ```
