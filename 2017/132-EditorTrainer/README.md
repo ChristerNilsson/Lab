@@ -9,16 +9,18 @@
 
 ## Bland annat kan följande kommandon användas:
 
-```
-Flytta Markör och Markera
+### Flytta Markör och Markera
 
+```
 * shift markerar
 * ctrl förstärker
 * Left Right Up Down       
 * Home End PgUp PgDn
+```
 
-Ändringar av text
+### Ändringar av text
 
+```
 * Backspace         Tag bort tecken till vänster
 * Del               Tag bort tecken till höger
 * shift-Del         Klipp ut markerat
@@ -31,9 +33,11 @@ Flytta Markör och Markera
 * ctrl-shift-Enter  Skapa ny rad före
 * ctrl-shift-Up     Flytta upp en rad
 * ctrl-shift-Down   Flytta ned en rad
+```
 
-Klippbordet
+### Klippbordet
 
+```
 * ctrl-A            Markera allt
 * ctrl-C            Kopiera markerat eller hela raden 
 * ctrl-X            Klipp ut markerat eller hela raden
