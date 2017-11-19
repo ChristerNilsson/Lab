@@ -1,11 +1,11 @@
 # 132-EditorTrainer
 
 * Programmet hjälper användaren att upptäcka genvägar via tangentbordet.
-* Mus eller touchpad kan *ej* användas.
-* Orsaken är att det går *mycket* snabbare med tangentbordet.
-* Gula talet visar hur många kommandon som behövs.
-* Grön nolla = Success!
-* Rött tal = Fail!
+* Mus eller touchpad kan **ej** användas.
+* Orsaken är att det går **mycket** snabbare med tangentbordet.
+* **Gula** talet visar hur många kommandon som behövs.
+* **Grön** nolla = Success!
+* **Rött** tal = Fail!
 
 ## Bland annat kan följande kommandon användas:
 
