@@ -39,43 +39,18 @@ iProblem = 0
 target = null # bör. Readonly
 editor = null # är. Påverkas av tangenttryckningar enbart
 
-class Button
-	constructor : (@txt, @x,@y,@size,@f=null,@r=1,@g=1,@b=1) ->
-	draw : ->
-		textAlign CENTER,CENTER
-		fc @r,@g,@b
-		circle @x,@y,@size
-		fc 0
-		text @txt, @x,@y
-	execute : -> if @f and @size > dist mouseX,mouseY, @x,@y then @f()
-	setColor : (r,g,b) -> [@r,@g,@b] = [r,g,b]
-
-buttons = []
-buttons.push new Button 'Prev', 30,30,20,() -> nextProblem -1
-buttons.push new Button 'Next', 170,30,20,() -> nextProblem +1
-buttons.push new Button 'xxx', 100,100,20
-buttons.push new Button 'yyy',  100,30,20
-buttons.push new Button 'Undo', 100,150,20,() -> nextProblem 0
-
-mouseReleased = ->
-	for button in buttons
-		button.execute()
-	editor.focus()
-
 update = -> 
-	bg 0.5
 	diff = nCommands - counter
-	buttons[2].txt = diff
-	if diff > 0
-		buttons[2].setColor 1,1,0
-	else if diff == 0 and target.getValue()==editor.getValue() 
-		buttons[2].setColor 0,1,0
-	else
-		buttons[2].setColor 1,0,0
+	operations.innerHTML = diff
+	problem.innerHTML = iProblem
+	problem.style.color = 'white'
 
-	buttons[3].txt = iProblem
-	for button in buttons
-		button.draw()
+	if diff > 0
+		operations.style.color = 'yellow'
+	else if diff == 0 and target.getValue()==editor.getValue() 
+		operations.style.color = 'green'
+	else
+		operations.style.color = 'red'
 
 cursor_activity = (doc) -> 
 	counter++ 
@@ -91,9 +66,6 @@ block_event = (obj,event) ->
 	event.preventDefault()
 
 setup = ->
-	c = createCanvas 200,200
-	c.parent 'canvas'
-	bg 0
 
 	defaultValues =
 		lineNumbers: true
@@ -112,7 +84,6 @@ setup = ->
 
 	editor = CodeMirror.fromTextArea document.getElementById("editor"), defaultValues
 
-	#editor.on "keyHandled", key_handled
 	editor.on "cursorActivity", cursor_activity
 	editor.on "cut", my_cut
 	editor.on "copy", my_copy
@@ -135,11 +106,8 @@ nextProblem = (d) ->
 	editor.setValue start
 	editor.setCursor line,ch
 
-	divDbg.innerHTML = ""
 	counter = 0
 
 	update()
 
 	editor.focus()
-
-dbg = (msg) -> divDbg.innerHTML += msg + '<br>'

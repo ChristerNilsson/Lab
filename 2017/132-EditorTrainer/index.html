@@ -21,16 +21,21 @@
     <script src="js/sketch.js"></script>
 
   </head>
-  <body>
+  <body style="background-color:black; font-size:48px">
     <table>
         <tr>
             <td><textarea id="target" ></textarea></td>
         </tr>
         <tr>
             <td><textarea id="editor" ></textarea></td>
-            <td><div id=canvas></div></td>
+            <td>
+                <button id=prev onclick='nextProblem(-1)' style="font-size:24px">Prev</button>
+                <button id=next onclick='nextProblem(1)'  style="font-size:24px">Next</button>
+                <button id=reset onclick='nextProblem(0)' style="font-size:24px">Reset</button>                    
+                <div id=problem>0</div>
+                <div id=operations>1</div>
+            </td>
         </tr>
     </table>
-    <div id=divDbg></div>
   </body>
 </html>
