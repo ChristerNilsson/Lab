@@ -1,9 +1,13 @@
 # 132-EditorTrainer
 
-* Programmet hjälper användaren att hitta genvägar via tangentbordet.
-* Mus eller touchpad kan ej användas, enbart tangentbordet.
+* Programmet hjälper användaren att upptäcka genvägar via tangentbordet.
+* Mus eller touchpad kan ej användas.
 * Orsaken är att det går mycket snabbare med tangentbordet.
-* Bland annat kan följande tangenter användas:
+* Gula talet visar hur många operationer som behövs.
+* Grön nolla = Success!
+* Rött tal = Fail!
+
+## Bland annat kan följande tangenter användas:
 
 ```
 Flytta Markör och Markera
@@ -22,9 +26,9 @@ Flytta Markör och Markera
 * Tab               Indentera en Tab
 * shift-Tab         Tag bort en Tab
 * Enter             Radbryt och indentera     	
-* shift-Enter	      Radbryt
-* ctrl-Enter	      Skapa ny rad efter
-* ctrl-shift-Enter	Skapa ny rad före
+* shift-Enter       Radbryt
+* ctrl-Enter        Skapa ny rad efter
+* ctrl-shift-Enter  Skapa ny rad före
 * ctrl-shift-Up     Flytta upp en rad
 * ctrl-shift-Down   Flytta ned en rad
 
