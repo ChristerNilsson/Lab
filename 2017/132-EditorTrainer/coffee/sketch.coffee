@@ -3,35 +3,35 @@ nCommands = 0
 # Visa startläge och slutläge
 # Räkna antalet operationer
 # Avgör om succe eller ej
-ENG = 'Alpha\n\tBravo\n\tCharlie\n\tDelta\n\tEcho' 
-SWE = 'Adam\n\tBertil\n\tCesar\n\tDavid\n\tErik'
+
+ENG = 'for i in range 10\n\tfor j in range 10\n\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'
 
 PROBLEMS = [ # operations,line,ch,startläge,slutläge
-	[1,2,4,ENG, 'Alpha\n\tBravo\n\tChaxrlie\n\tDelta\n\tEcho'] # x
-	[1,2,4,ENG, 'Alpha\n\tBravo\n\tChrlie\n\tDelta\n\tEcho'] # Backspace
-	[1,2,4,ENG, 'Alpha\n\tBravo\n\tChalie\n\tDelta\n\tEcho'] # Del
-	[1,2,4,ENG, 'Alpha\n\tBravo\n\tDelta\n\tEcho'] # CtrlX
-	[2,2,4,ENG, 'Alpha\n\tBravo\nCharlie\n\tDelta\n\tEcho'] # Home Backspace
-	[2,2,4,ENG, 'Alpha\n\tBravo\n\t\tCharlie\n\tDelta\n\tEcho'] # Home Tab
-	[2,2,4,ENG, 'xAlpha\n\tBravo\n\tCharlie\n\tDelta\n\tEcho'] # ctrlHome x
-	[2,2,4,SWE, 'Adam\n\tBertil\n\tCes\n\tDavid\n\tErik'] # Del Del
-	[2,2,4,ENG, 'Alpha\n\tBravo\n\txCharlie\n\tDelta\n\tEcho'] # Home x
-	[2,2,4,ENG, 'Alpha\n\tBravo\n\tCharlie\n\tDelta\n\tEchox'] # ctrlEnd x
-	[2,2,4,ENG, 'Alpha\n\tBravo\n\tCharliex\n\tDelta\n\tEcho'] # End x
-	[2,2,4,SWE, ''] # ctrlA Del
-	[2,2,4,ENG, 'Alpha\nBravo\n\Charlie\nDelta\nEcho'] # ctrlA shiftTab
-	[2,2,4,ENG, '\tAlpha\n\t\tBravo\n\t\tCharlie\n\t\tDelta\n\t\tEcho'] # ctrlA Tab
-	[1,2,4,SWE, 'Adam\n\tCesar\n\tBertil\n\tDavid\n\tErik'] # ctrlShiftUp
-	[3,2,4,ENG, 'Alpha\n\tBravo\n\tCharlie\n\tDeltax\n\tEcho'] # Down ctrlRight x
-	[3,2,4,ENG, 'Alphax\n\tBravo\n\tCharlie\n\tDelta\n\tEcho'] # ctrlHome End x
-	[3,2,4,ENG, 'Alpha\n\tBravo\nx\tCharlie\n\tDelta\n\tEcho'] # Home Home x
-	[3,2,4,ENG, 'Alpha\n\tBravoCharlie\n\tDelta\n\tEcho'] # Home Backspace Backspace
-	[4,2,4,ENG, 'Alpha\n\tBravo\n\tCharlie\n\tCharlie\n\tDelta\n\tEcho'] # Home Home ctrlC ctrlV
-	[4,2,4,ENG, 'Alpha\n\tBravo\n\tChar\n\tDelta\n\tEcho'] # Right Del Del Del
-	[4,2,4,ENG, 'Alpha\n\tBravo\n\trlieCha\n\tDelta\n\tEcho'] # ctrlShiftRight ctrlX Home paste
-	[4,2,4,ENG, 'Alpha\n\tBravo\n\tChrlaie\n\tDelta\n\tEcho'] # Backspace Right Right a
-	[5,2,4,ENG, 'Alpha\n\tBravo\n\tCharlieCharlie\n\tDelta\n\tEcho'] # Home ctrlShiftRight ctrlC Right ctrlV
-	[8,2,4,ENG, 'Alpha\n\tBravo\n\tCharlie\n\tBravo\n\tCharlie\n\tDelta\n\tEcho'] # Up Home Home shiftDown shiftDown ctrlC Down ctrlV
+	[1,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = lezrp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # x
+	[1,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = lrp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Backspace
+	[1,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = lep 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Del
+	[1,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # CtrlX
+	[2,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Home Backspace
+	[2,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Home Tab
+	[2,2,8,ENG, 'zfor i in range 10\n\tfor j in range 10\n\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # ctrlHome x
+	[2,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = le 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Del Del
+	[2,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tzx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Home x
+	[2,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10z'] # ctrlEnd z
+	[2,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = lerp 10,30,iz\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # End z
+	[2,2,8,ENG, ''] # ctrlA Del
+	[2,2,8,ENG, 'for i in range 10\nfor j in range 10\n\tx = lerp 10,30,i\n\ty = lerp 10,30,j\n\trect x,y,10,10'] # ctrlA shiftTab
+	[2,2,8,ENG, '\tfor i in range 10\n\t\tfor j in range 10\n\t\t\tx = lerp 10,30,i\n\t\t\ty = lerp 10,30,j\n\t\t\trect x,y,10,10'] # ctrlA Tab
+	[1,2,8,ENG, 'for i in range 10\n\t\tx = lerp 10,30,i\n\tfor j in range 10\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # ctrlShiftUp
+	[1,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\ty = lerp 10,30,j\n\t\tx = lerp 10,30,i\n\t\trect x,y,10,10'] # ctrlShiftDown
+	[3,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,jz\n\t\trect x,y,10,10'] # Down End z
+	[3,2,8,ENG, 'for i in range 10z\n\tfor j in range 10\n\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # ctrlHome End z
+	[3,2,8,ENG, 'for i in range 10\n\tfor j in range 10\nz\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Home Home z
+	[4,2,8,ENG, 'for i in range 10\n\tfor j in range 10x = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Home Backspace Backspace
+	[4,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = lerp 10,30,i\n\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Home Home ctrlC ctrlV
+	[2,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = le\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # shiftEnd Del
+	[4,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = rple 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # ctrlShiftRight ctrlX Home paste
+	[6,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = lerplerplerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # ctrlLeft ctrlShiftRight ctrlC ctrlV ctrlV ctrlV
+	[7,2,8,ENG, 'for i in range 10\n\tfor j in range 10\n\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\tx = lerp 10,30,i\n\t\ty = lerp 10,30,j\n\t\trect x,y,10,10'] # Home Home shiftDown shiftDown ctrlC Down ctrlV
 ] 
 
 iProblem = 0
