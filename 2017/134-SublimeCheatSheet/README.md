@@ -17,3 +17,5 @@ Ersätt med
 * Home Tab
 * *saknas*
 * *saknas*
+
+[Originalet](http://www.andismith.com/downloads/sublime-windows.png)
