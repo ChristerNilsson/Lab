@@ -13,10 +13,11 @@
 ### Flytta Markör och Markera
 
 ```
-* shift markerar
-* ctrl förstärker
 * Left Right Up Down       
 * Home End PgUp PgDn
+* shift   markera
+* ctrl    förstärk
+* ctrl-D  markera ord
 ```
 
 ### Ändringar av text
@@ -26,6 +27,7 @@
 * Del               Tag bort tecken till höger
 * shift-Del         Klipp ut markerat
 * ctrl-Del          Klipp ut resten av ordet
+* ctrl-KK           Klipp ut resten av raden
 * Tab               Indentera en Tab
 * shift-Tab         Tag bort en Tab
 * Enter             Radbryt och indentera     	
@@ -34,6 +36,8 @@
 * ctrl-shift-Enter  Skapa ny rad före
 * ctrl-shift-Up     Flytta upp en rad
 * ctrl-shift-Down   Flytta ned en rad
+* ctrl-shift-D      Duplicera rad eller rader
+* ctrl-J            Slå ihop raden med raden under
 ```
 
 ### Klippbordet
