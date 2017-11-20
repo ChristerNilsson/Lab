@@ -12,7 +12,7 @@
 * Next: Gå till **nästa** exempel
 * Reset: Starta om nuvarande exempel
 
-## Bland annat kan följande kommandon användas:
+## Kommandon
 
 ### Flytta Markör och Markera
 
@@ -22,6 +22,7 @@ Home End PgUp PgDn
 shift   markera
 ctrl    förstärk
 ctrl-D  markera ord
+ctrl-L  markera en eller flera rader
 ```
 
 ### Ändringar av text
