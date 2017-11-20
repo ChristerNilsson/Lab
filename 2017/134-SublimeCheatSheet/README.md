@@ -15,5 +15,5 @@ Ersätt med
 
 * shift Tab
 * Home Tab
-* -
-* -
+* *saknas*
+* *saknas*
