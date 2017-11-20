@@ -46,16 +46,15 @@ setup = ->
 	textSize 32
 	fc 1
 	text 'Sublime Text 3',200,50
-	text 'Windows',width-200,50
-	text 'p5Dojo',200,height-50
-	text 'Cheat Sheet',width-200,height-50
+	text 'Cheat Sheet',width-200,50
+	text 'Windows',200,height-50
+	text 'p5Dojo',width-200,height-50
 	translate width/2,130
 
 	H=50
 	textSize 16
 	sc()
 	for [a,b,i,j] in rects
-		print a,b,i,j
 		sc 1,1,0
 		fc()
 		rect 200 * i, H*j,198,48,10
@@ -64,4 +63,3 @@ setup = ->
 		text a,200 * i, H*j-10
 		fc 1,1,0
 		text b,200 * i, H*j+10
-
