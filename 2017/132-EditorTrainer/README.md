@@ -16,11 +16,13 @@
 
 ### Flytta Markör och Markera
 
-```Left Right Up Down       
+```
+Left Right Up Down       
 Home End PgUp PgDn
 shift   markera
 ctrl    förstärk
-ctrl-D  markera ord```
+ctrl-D  markera ord
+```
 
 ### Ändringar av text
 
