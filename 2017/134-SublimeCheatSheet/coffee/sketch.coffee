@@ -42,9 +42,9 @@ setup = ->
 	rectMode CENTER
 	textAlign CENTER,CENTER
 
-	bg 0.5
+	bg 1
 	textSize 32
-	fc 1
+	fc 0
 	text 'Sublime Text 3',200,50
 	text 'Cheat Sheet',width-200,50
 	text 'Windows',200,height-50
@@ -55,11 +55,11 @@ setup = ->
 	textSize 16
 	sc()
 	for [a,b,i,j] in rects
-		sc 1,1,0
+		sc 0,0,0
 		fc()
 		rect 200 * i, H*j,198,48,10
 		sc()
 		fc 0
 		text a,200 * i, H*j-10
-		fc 1,1,0
+		fc 0,0,0
 		text b,200 * i, H*j+10

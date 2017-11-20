@@ -4,6 +4,8 @@ Snabbkommandon för Sublime Text 3
 
 Dessa gäller för Windows.
 
+(rep) innebär att man kan ge kommandot upprepat.
+
 Om man har svenskt tangentbord fungerar följande kommandon ej:
 
 * Outdent Line
