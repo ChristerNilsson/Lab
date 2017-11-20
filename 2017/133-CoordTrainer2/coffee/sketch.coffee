@@ -45,22 +45,17 @@ newGame = (dlevel) ->
 	if level >= 50 then newPoint 3
 	if level >= 60 then newPoint 2
 
-	sw 1
-	sc 1,1,0
-	fc()
+	sc()
+	fc 1,1,0,0.5
 	circle x,y,diameter/2
+	sc 1,1,0
 	sw 2
 	point x,y
-
-	sc 1,0,0
-	sw 2
-	point tx, ty
 
 	textSize 12
 	textAlign CENTER,CENTER
 	fc 1,1,0
 	sc()
-
 	text 't',170,170
 	seconds = int millis()/1000
 	text seconds,190,190
