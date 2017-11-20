@@ -28,19 +28,19 @@
             <td>
                 <table>
                     <tr>
-                        <td><button id=prev onclick='nextProblem(-1)' style="font-size:48px">Previous</button></td>
-                        <td><div id=problem style="text-align:center">0</div></td>
-                        <td><button id=next onclick='nextProblem(1)'  style="font-size:48px">Next</button></td>
+                        <td><button id=prev onclick='nextProblem(-1)' style="font-size:48px" title='Previous Exercise'>Previous</button></td>
+                        <td><div id=problem style="text-align:center" title='Exercise Number'>0</div></td>
+                        <td><button id=next onclick='nextProblem(1)' style="font-size:48px" title='Next Exercise'>Next</button></td>
                     </tr>
                     <tr>
-                        <td><button id=reset onclick='nextProblem(0)' style="font-size:48px">Reset</button></td>
+                        <td><button id=reset onclick='nextProblem(0)' style="font-size:48px" title='Reset Exercise'>Reset</button></td>
                     </tr>
                 </table>
             </td>
         </tr>
         <tr>
             <td><textarea id="editor" ></textarea></td>
-            <td><div id=operations style="font-size:128px">1</div></td>
+            <td><div id=operations style="font-size:128px" title='Number of Commands Left'>1</div></td>
         </tr>
     </table>
   </body>
