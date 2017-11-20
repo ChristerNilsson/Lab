@@ -46,7 +46,7 @@ PROBLEMS = [ # operations,line,ch,startläge,slutläge
 	[5,2,8,ABCDE, "#{A}#{B}#{C}#{D}#{C}#{D}#{E}"] # ctrl-L ctrl-L ctrl-C ctrl-V ctrl-V
 	[12,2,8,ABCDE, "#{A}\tx = lerp 10,30,i\n\trect x,0,10,10\n"] 
 	[23,2,8,ABCDE, "#{A}#{B}\t\trect 10+20*i,10+20*j,10,10\n"] 
-	[24,0,0,'', "oxoxoxox\nxoxoxoxo\noxoxoxox\nxoxoxoxo\noxoxoxox\nxoxoxoxo\noxoxoxox\nxoxoxoxo"] 
+	[21,0,0,'', "oxoxoxox\nxoxoxoxo\noxoxoxox\nxoxoxoxo\noxoxoxox\nxoxoxoxo\noxoxoxox\nxoxoxoxo"] 
 ] 
 
 update = -> 
