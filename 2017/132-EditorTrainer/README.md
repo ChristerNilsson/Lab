@@ -6,7 +6,7 @@
 * **Rött** tal visar hur många kommandon som behövs.
 * **Grön** nolla = Success!
 * **Rött** negativt tal = Fail!
-* **Grönt** positivt tal = Du har hittat en genväg, maila mig!
+* **Grönt** positivt tal = Du har hittat en ny genväg, maila mig!
 
 * Previous: Gå till **föregående** exempel
 * Next: Gå till **nästa** exempel
