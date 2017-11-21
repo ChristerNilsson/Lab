@@ -7,7 +7,6 @@ SCALE = 4
 setup = ->
 	c = createCanvas 201*SCALE-2,201*SCALE-2
 	c.parent 'canvas'
-	newPoint 20
 	newGame 0
 
 grid = ->
