@@ -1,6 +1,6 @@
 rects = []
 
-add = (a,b,c,d) -> rects.push [a,b,c,d]
+add = -> rects.push arguments
 
 setup = ->
 	createCanvas 1000,660
