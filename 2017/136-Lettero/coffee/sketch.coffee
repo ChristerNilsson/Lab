@@ -48,6 +48,12 @@ draw = ->
 	angle += 0.5
 
 mousePressed = ->
-	x = width/2  + radius1 * cos(radians angle)
-	y = height/2 + radius1 * sin(radians angle)
-	newGame if radius2 > dist mouseX,mouseY,x,y then 1 else -1
+	n = word.length
+	dword = (word+word).toLowerCase()
+	for ch,i in word
+		x = width/2  + radius1 * cos(radians angle + i/n * 360)
+		y = height/2 + radius1 * sin(radians angle + i/n * 360)
+		if radius2 > dist mouseX,mouseY,x,y 
+			w = dword.slice i,i+n
+			if w in words then return newGame 1
+	newGame -1
