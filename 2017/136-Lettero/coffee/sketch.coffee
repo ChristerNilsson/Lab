@@ -11,6 +11,7 @@ setup = ->
 	createCanvas 400,400
 	words = ordlista.split ' '
 	textAlign CENTER,CENTER
+	#listCircular()
 	newGame 1
 
 newGame = (dLevel) ->
@@ -57,3 +58,17 @@ mousePressed = ->
 			w = dword.slice i,i+n
 			if w in words then return newGame 1
 	newGame -1
+
+listCircular = () ->
+	print words.length
+	antal = 0 
+	for word in words
+		n = word.length
+		dword = (word+word).toLowerCase()
+		res = []
+		for ch,i in word
+			w = dword.slice i,i+n
+			if w in words then res.push w
+		if res.length == 2
+			antal++
+	print antal
