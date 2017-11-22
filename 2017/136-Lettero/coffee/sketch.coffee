@@ -3,8 +3,8 @@ word = ''
 lastWord = ''
 level = -1
 angle = 0
-radius1 = 100
-radius2 = 30
+radius1 = 150
+radius2 = 50
 direction = 1
 
 setup = ->
@@ -26,7 +26,7 @@ draw = ->
 	bg 0.5
 	textSize 16
 	text lastWord, width/2,height-32 
-	textSize 32
+	textSize 64
 	if direction == 1 then fc 0,1,0 else fc 1,0,0
 	text level,width/2,height/2 
 	fc 0
@@ -34,7 +34,7 @@ draw = ->
 	n = word.length
 	dAngle = 360/n
 	rd angle
-	textSize 20
+	textSize 40
 	for ch,i in word
 		push()
 		translate radius1,0
