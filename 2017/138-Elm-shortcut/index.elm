@@ -11,13 +11,12 @@ main =
     }
 
 type alias Model =
-  { dieFaces: (Int, Int)
-  , history : List Int}
+  { maze : (Int, Int)
+  , history : List Int
+  }
 
 init : (Model, Cmd Msg)
-init =
-  (Model (1, 1) []
-  , Cmd.none)
+init = (Model (1, 1) [], Cmd.none)
 
 type Msg
   = Add2
@@ -25,58 +24,64 @@ type Msg
   | Div2
   | Next
   | Undo
-  | NewFaces (Int, Int)
+  | NewMaze (Int, Int)
+
+operation : Model -> Int -> Model
+operation model value =
+  let (a, b) = model.maze
+  in
+    {model 
+      | maze = (value, b)
+      , history = a :: model.history
+    }
+
 
 update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
-  let (a, b) = model.dieFaces
+  let (a, b) = model.maze
   in
     case msg of
-      Add2 -> 
-          ({model 
-            | dieFaces = (a+2, b)
-            , history = a :: model.history
-            }, Cmd.none)
-      Mul2 -> 
-          ({model 
-            | dieFaces = (a*2, b)
-            , history = a :: model.history
-            }, Cmd.none)
+      Add2 -> (operation model (a+2), Cmd.none)
+      Mul2 -> (operation model (a*2), Cmd.none)
       Div2 -> 
-          ({model 
-            | dieFaces = (if a % 2 == 0 then a // 2 else a, b)
-            , history =  if a % 2 == 0 then a :: model.history else model.history
-            }, Cmd.none)
-      Next ->
-        (model, Random.generate NewFaces diePairGenerator)
+        if a % 2 == 0 then
+          (operation model (a//2), Cmd.none)
+        else
+          (model, Cmd.none)
+      Next -> (model, Random.generate NewMaze diePairGenerator)
       Undo -> 
           ({model 
-            | dieFaces = ((Maybe.withDefault a (List.head model.history)), b) 
+            | maze = ((Maybe.withDefault a (List.head model.history)), b) 
             , history = Maybe.withDefault [] (List.tail model.history)
           }, Cmd.none)
-      NewFaces newFaces ->
-        (Model newFaces [], Cmd.none)
+      NewMaze newMaze -> (Model newMaze [], Cmd.none)
 
---subscriptions : Model -> Sub Msg
+subscriptions : Model -> Sub Msg
 subscriptions model = Sub.none
 
 view : Model -> Html Msg
 view model =
-  let (a, b) = model.dieFaces
+  let (a, b) = model.maze
   in
     div []
-      [ h1 [] [ text (toString a) ]
-      , h1 [] [ text (toString b) ]
-      , button [ onClick Add2 ] [ text "+2"]
-      , button [ onClick Mul2 ] [ text "*2"]
-      , button [ onClick Div2 ] [ text "/2"]
-      , button [ onClick Undo ] [ text "Undo"]
-      , button [ onClick Next ] [ text "Next"]
-      , h1 [] [ text (toString model.history) ]
+      [ myH1 a 
+      , myH1 b
+      , myButton Add2 "+2"
+      , myButton Mul2 "*2"
+      , myButton Div2 "/2"
+      , myButton Undo "Undo"
+      , myButton Next "Next"
+      , myH1 model.history 
       ]
 
---dieGenerator : Random.Generator Int
+myH1 : a -> Html Msg
+myH1 txt = h1 [] [ text (toString txt) ]
+
+myButton : Msg -> String -> Html Msg
+myButton msg txt = button [ onClick msg ] [ text txt]
+
+dieGenerator : Random.Generator Int
 dieGenerator = Random.int 1 20
 
---diePairGenerator : Random.Generator (Int, Int)
+diePairGenerator : Random.Generator (Int, Int)
 diePairGenerator = Random.pair dieGenerator dieGenerator
