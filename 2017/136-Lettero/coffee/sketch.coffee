@@ -66,11 +66,11 @@ handleMousePressed = ->
 	newGame -1
 
 mousePressed = ->
-	if client.istouch_device then handleMousePressed()
+	if not client.istouch_device then handleMousePressed()
 	false
 
 touchStarted = ->
-	if not client.istouch_device then handleMousePressed()
+	if client.istouch_device then handleMousePressed()
 	false	
 
 info = ->
