@@ -27,10 +27,7 @@ Memory Overflow : reduce hidden and/or rows
 Exit Code 3 => Delete the model directory.
 
 Todo: Reinstall TensorFlow GPU-version
-Todo: Check if Tensorflow can handle multiple targets.
 Todo: Analyze Memory usage to avoid Out Of Memory.
-Todo: Remove bits in QRCode-file that does not change.
-Todo: load_csv should read trains, test and som validification samples
 Todo: write log file with settings, accuracy and time used.
 '''
 
@@ -46,11 +43,13 @@ import tensorflow as tf
 
 #####################
 FILENAME = "data\qrcode_24h.csv"
-DATA_COLS = 441 # 21x21
+DATA_COLS = 249 # 21x21 - 3x8x8 Three squares are not used for data in the QR code
 CLASSES = 10 # digits 0..9
 HEADER = False
+
 TARGET_COL = 446 # [hhmmss] == [441,442,443,444,445,446]
 HIDDEN = [100,100]
+ROWS = 3600 # for training
 STEPS = 1000
 #####################
 
@@ -59,7 +58,15 @@ def getList(lines):
 	target = []
 	for line in lines:
 		arr = line.rstrip().split(',')
-		data.append([int(arr[i]) for i in range(DATA_COLS)])  # float eller int
+		row = []
+		for i in range(441):
+			x = i%21
+			y = i//21
+			if            x<=7 and            y<=7: continue
+			if 13<=x and x<=20 and            y<=7: continue
+			if            x<=7 and 13<=y and y<=20: continue
+			row.append(int(arr[i]))
+		data.append(row)
 		target.append(int(arr[TARGET_COL]))
 	return [np.array(data, dtype=np.int32), np.array(target, dtype=np.int32)]
 
@@ -75,22 +82,25 @@ def load_csv (filename,t1,t2,t3):
 
 start = time.time()
 
-train,test,valid = load_csv(FILENAME,3600,1000,4)
+train,test,valid = load_csv(FILENAME,ROWS,1000,10)
 feature_columns = [tf.contrib.layers.real_valued_column("", dimension=DATA_COLS)]
 classifier = tf.contrib.learn.DNNClassifier(feature_columns=feature_columns,hidden_units=HIDDEN,n_classes=CLASSES,model_dir="/tmp/model")
+
+print('reading',time.time()-start)
+start = time.time()
 
 def get_train_inputs(): return tf.constant(train[0]), tf.constant(train[1])
 def get_test_inputs():  return tf.constant(test[0]),  tf.constant(test[1])
 
-print('classifier')
 classifier.fit(input_fn = get_train_inputs, steps=STEPS)
+print('classification',time.time() - start)
+start = time.time()
 
-print('evaluate')
 evaluation = classifier.evaluate(input_fn = get_test_inputs, steps=1)
 print("\nTest Accuracy:", evaluation["accuracy"])
-print(time.time() - start)
+print('evaluation',time.time() - start)
+start = time.time()
 
-predtime = time.time()
 print("Predicted:", list(classifier.predict(input_fn = lambda : valid[0])))
 print("Expected: ", list(valid[1]))
-print(time.time() - predtime)
+print('prediction',time.time() - start)

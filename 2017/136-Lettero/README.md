@@ -25,3 +25,10 @@ Det finns 11 tripplar:
 Totalt antal ord: 52269 
 
 Orden varierar mellan fyra och nio bokstäver
+
+Plattformar (p5.js 0.5.16):
+
+* Windows Ja
+* iOS Ja
+* Android Ja
+* OSX ?

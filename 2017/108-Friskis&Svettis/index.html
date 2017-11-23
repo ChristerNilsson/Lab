@@ -18,12 +18,16 @@
 			  var cancelFullScreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
 
 			  if(!doc.fullscreenElement && !doc.mozFullScreenElement && !doc.webkitFullscreenElement && !doc.msFullscreenElement) {
+
+			    //window.open("https://christernilsson.github.io/Lab","_self")
 			    requestFullScreen.call(docEl);
+
 			  }
 			  else {
 			    cancelFullScreen.call(doc);
 			  }
 			}
+
     </script>
   </head>
   <body>
@@ -74,7 +78,6 @@
         <td></td>
         <td><button onclick="location.reload()">Clear</button></td>
         <td></td>
-        <td><button onclick="toggleFullScreen()">Full</button></td>
       </tr>
     </table>
     

@@ -4,7 +4,7 @@ data = []
 setup = -> 
 	for i in range N
 		data.push [0,0,0,-1,0] # empty,rest,active,state,timestamp
-	document.documentElement.webkitRequestFullScreen()
+	#document.documentElement.webkitRequestFullScreen()
 	
 proc = (x) -> round 100*x
 
