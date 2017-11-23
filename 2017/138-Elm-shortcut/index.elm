@@ -1,3 +1,10 @@
+-- Synpunkter
+-- Random komplext
+-- Maybe komplext
+-- Svårt ersätta tupeln med två variabler
+-- Mycket kod
+-- Dock, stabil känsla att kompilering => inga runtime errors
+
 import Html exposing (..)
 import Html.Events exposing (..)
 import Random
@@ -34,7 +41,6 @@ operation model value =
       | maze = (value, b)
       , history = a :: model.history
     }
-
 
 update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
