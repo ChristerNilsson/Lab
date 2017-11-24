@@ -28,6 +28,7 @@ newGame = (dLevel) ->
 	word = _.sample words
 	word = word.toUpperCase()
 	angle = 360 * random()
+	false # to prevent double click on Android
 
 draw = ->
 	bg 0.5
@@ -63,6 +64,7 @@ handleMousePressed = ->
 		if radius2 > dist mouseX,mouseY,x,y 
 			w = dword.slice i,i+n
 			return newGame if w in words then 1 else -1
+	false # to prevent double click on Android
 
 mousePressed = ->	handleMousePressed()
 touchStarted = -> handleMousePressed()
