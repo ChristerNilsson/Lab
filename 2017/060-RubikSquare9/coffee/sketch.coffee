@@ -4,6 +4,8 @@
 #   Andra klick var det ska vara.
 # Tolv drag möjliga
 
+released = true 
+
 class RubikSquare9
 	reset : ->
 		@BUTTONS = [[14,14,3,3],[20,14,3,3],[26,14,3,3], [14,20,3,3],[20,20,3,3],[26,20,3,3], [14,26,3,3],[20,26,3,3],[26,26,3,3], [14,30,3,1],[20,30,3,1],[26,30,3,1]]
@@ -99,5 +101,12 @@ setup = ->
 	app.reset()
 
 draw = -> app.draw()
+
+mouseReleased = ->
+	released = true
+	false
+
 mousePressed = ->
+	if not released then return
+	released = false 
 	app.mousePressed mouseX,mouseY

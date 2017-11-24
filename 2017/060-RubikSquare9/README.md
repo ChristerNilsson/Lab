@@ -9,3 +9,10 @@
 * Undo is available
 * Digit shows number of moves needed to solve.
 * Level increases if minimum solution is found.
+
+Platforms:
+
+* Windows Yes
+* iOS Yes
+* Android Yes
+* OSX ?
