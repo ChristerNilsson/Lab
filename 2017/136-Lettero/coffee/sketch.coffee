@@ -7,12 +7,10 @@ direction = 1
 size = null
 radius1 = null
 radius2 = null
-client = null
 
 setup = ->
 	createCanvas windowWidth,windowHeight
 	size = min windowWidth,windowHeight
-	client = info()
 	radius2 = size/10
 	radius1 = size/2-radius2 
 	words = ordlista.split ' '
@@ -20,8 +18,10 @@ setup = ->
 	#listCircular()
 	newGame 1
 
+# straffa med 10% av level.
 newGame = (dLevel) ->
 	direction = dLevel
+	if dLevel < 0 then dLevel = dLevel * (int 1+level/10)
 	level += dLevel
 	if level < 0 then level = 0
 	lastWord = word
@@ -62,29 +62,10 @@ handleMousePressed = ->
 		y = height/2 + radius1 * sin radians angle + i/n * 360
 		if radius2 > dist mouseX,mouseY,x,y 
 			w = dword.slice i,i+n
-			if w in words then return newGame 1
-	newGame -1
+			return newGame if w in words then 1 else -1
 
-mousePressed = ->
-	#if not client.istouch_device then 
-	handleMousePressed()
-	false
-
-touchStarted = ->
-	#if client.istouch_device then 
-	handleMousePressed()
-	false	
-
-info = ->
-	ratio = window.devicePixelRatio || 1
-	ratio : ratio
-	is_touch_device : 'ontouchstart' in document.documentElement
-	sw : screen.width 
-	sh : screen.height
-	cw : document.documentElement.clientWidth
-	ch : document.documentElement.clientHeight
-	rw : screen.width * ratio
-	rh : screen.height * ratio
+mousePressed = ->	handleMousePressed()
+touchStarted = -> handleMousePressed()
 
 listCircular = () ->
 	print words.length

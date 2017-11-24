@@ -4,6 +4,9 @@
 
 Spelet går ut på att klicka på första bokstaven i ordet.
 
+* Svarar man rätt ökar level med 1
+* Svarar man fel sjunker level med 10%
+
 Det finns 875 dubletter: 
 * abort borta
 * ...
