@@ -2,6 +2,8 @@ stars = []
 level = x = y = 0
 dd = 50
 
+# DEPRECATED!
+
 setup = ->
 	createCanvas windowWidth,windowHeight
 	startNewGame 1
