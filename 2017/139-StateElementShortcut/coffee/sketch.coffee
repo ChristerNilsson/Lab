@@ -1,8 +1,7 @@
 class Element 
 	constructor : (@attrs, @children=[]) ->
 	render : (tag) ->
-		res = (' ' + key + '="' + attr + '"' for key,attr of @attrs)
-		res = res.join ''
+		res = (' ' + key + '="' + attr + '"' for key,attr of @attrs).join ''
 		"<#{tag}#{res}>#{(child.render() for child in @children).join('')}</#{tag}>\n"
 
 class Button extends Element  
@@ -66,6 +65,12 @@ class State
 		print name,value 
 		@[name] = value
 		document.getElementById(name).innerHTML = value
+		@disable 'bUndo',@hist.length==0 or @a==@b
+		@disable 'bAdd', @a==@b
+		@disable 'bMul', @a==@b
+		@disable 'bDiv', @a==@b or @a%2==1
+		@disable 'bNext', @a!=@b
+	disable : (name,value) ->	document.getElementById(name).disabled = value
 
 state = null
 
