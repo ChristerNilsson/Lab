@@ -5,13 +5,15 @@
 rs = null
 buttons = []
 START = [0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,1]
+sida = null 
+released = true
 
 class Button
 	constructor : (@x,@y,@action = -> ) ->
 	draw : (r,g,b) ->
 		fc r,g,b
-		rect @x,@y,100,100
-	inside : (mx,my) -> @x < mx < @x+100 and @y < my < @y+100
+		rect @x,@y,sida,sida
+	inside : (mx,my) -> @x-sida/2 < mx < @x+sida/2 and @y-sida/2 < my < @y+sida/2
 
 class RS18
 	constructor : ->
@@ -32,7 +34,7 @@ class RS18
 		for i in range 9
 			if @square[i]==0 then buttons[i].draw(1,0,0) else buttons[i].draw(1,1,0)
 		fc 0
-		text @level - @history.length,250,250
+		text @level - @history.length,width/2,height/2
 
 	mousePressed : (mx,my) ->
 		if @state > 0 then @startNewGame @state-1
@@ -81,11 +83,13 @@ class RS18
 		res
 
 setup = ->
-	createCanvas 500,500
+	createCanvas windowWidth,windowHeight
+	sida = min(width,height)/5
+	rectMode CENTER
 	buttons = []
 	for j in range 3
 		for i in range 3
-			buttons.push new Button 100*(j+1),100*(i+1)
+			buttons.push new Button width/2 + sida * (j-1), height/2 + sida*(i-1)
 	buttons[1].action = -> rs.move 0
 	buttons[3].action = -> rs.move 1
 	buttons[5].action = -> rs.move 2
@@ -94,4 +98,12 @@ setup = ->
 	rs = new RS18
 
 draw = -> rs.draw()
-mousePressed = -> rs.mousePressed mouseX,mouseY
+
+mouseReleased = ->
+	released = true
+	false
+
+mousePressed = ->
+	if not released then return
+	released = false 
+	rs.mousePressed mouseX,mouseY
