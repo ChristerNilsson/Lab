@@ -5,10 +5,18 @@
 # Tolv drag möjliga
 
 released = true 
+sida = null
 
 class RubikSquare9
 	reset : ->
-		@BUTTONS = [[14,14,3,3],[20,14,3,3],[26,14,3,3], [14,20,3,3],[20,20,3,3],[26,20,3,3], [14,26,3,3],[20,26,3,3],[26,26,3,3], [14,30,3,1],[20,30,3,1],[26,30,3,1]]
+		x0=width/2
+		y0=height/2
+		sid3 = sida/3
+		@BUTTONS = [
+			[x0-sida,y0-1*sida,sida,sida],[x0,y0-1*sida,sida,sida],[x0+sida,y0-1*sida,sida,sida], 
+			[x0-sida,y0+0*sida,sida,sida],[x0,y0+0*sida,sida,sida],[x0+sida,y0+0*sida,sida,sida], 
+			[x0-sida,y0+1*sida,sida,sida],[x0,y0+1*sida,sida,sida],[x0+sida,y0+1*sida,sida,sida], 
+			[x0-sida,y0+2*sida,sida,sid3],[x0,y0+2*sida,sida,sid3],[x0+sida,y0+2*sida,sida,sid3]]
 		@level = 1
 		@history = []
 		@memory = -1
@@ -39,7 +47,7 @@ class RubikSquare9
 	draw : ->
 		bg 0
 		textAlign CENTER,CENTER
-		textSize 20
+		textSize sida/2
 		rectMode CENTER,CENTER
 		for c,i in @board
 			sc 1
@@ -47,21 +55,21 @@ class RubikSquare9
 			if c==1 then fc 0,1,0
 			if c==2 then fc 0,0,1
 			[x,y,w,h] = @BUTTONS[i]
-			rect 10*x, 10*y,20*w,20*h
+			rect x,y,w,h
 		if @memory >= 0
 			[x,y,w,h] = @BUTTONS[@memory]
 			fc 0
 			sc()
-			circle 10*x,10*y,10
+			circle x,y,sida/5
 		[x,y,w,h] = @BUTTONS[10]
 		fc 1,1,0
 		sc()
-		text @level-@history.length,10*x,10*y
+		text @level-@history.length,x,y
 		if @history.length > 0
 			[x,y,w,h] = @BUTTONS[9]
-			text "undo",10*x,10*y
+			text "undo",x,y
 			[x,y,w,h] = @BUTTONS[11]
-			text "new",10*x,10*y
+			text "new",x,y
 
 	undo : ->
 		if @history.length == 0 then return
@@ -71,7 +79,7 @@ class RubikSquare9
 	mousePressed : (mx,my) ->
 		index = -1
 		for [x,y,w,h],i in @BUTTONS
-			if x-w <= mx/10 <= x+w and y-h <= my/10 <= y+h then index = i
+			if x-w/2 <= mx <= x+w/2 and y-h/2 <= my <= y+h/2 then index = i
 		if 0 <= index < 9
 			if @memory == -1
 				@memory = index
@@ -97,7 +105,8 @@ class RubikSquare9
 app = new RubikSquare9
 
 setup = ->
-	createCanvas 400,400
+	createCanvas windowWidth,windowHeight
+	sida = min(width,height)/5
 	app.reset()
 
 draw = -> app.draw()
