@@ -1,4 +1,4 @@
-# QRcode
+# 062-QRcode
 
 * Ladda ner t ex appen [Scan](https://www.scan.me) om du vill veta vad klockan är.
 * Tack till

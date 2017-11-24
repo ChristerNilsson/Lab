@@ -1,19 +1,5 @@
 qrcode = null
 
-setup = ->
-	createCanvas windowWidth/2,windowHeight/2
-	frameRate 1
-	options =
-		text: ""
-		width: height*0.9
-		height: height*0.9
-		colorDark : "#000000"
-		colorLight : "#ffffff"
-		correctLevel : QRCode.CorrectLevel.L
-	qrcode = new QRCode document.getElementById("qrcode"),options
-
-	# createFile() # 4 minuter
-
 draw = ->
 	qrcode.clear()
 	d = new Date()
@@ -22,6 +8,20 @@ draw = ->
 	s = ('0' + d.getSeconds()).slice -2
 	clearText = "#{h}:#{m}:#{s}"
 	qrcode.makeCode clearText
+
+setup = ->
+	frameRate 1
+	size = min windowWidth,windowHeight
+	options =
+		text: ""
+		width: size*0.9
+		height: size*0.9
+		colorDark : "#000000"
+		colorLight : "#ffffff"
+		correctLevel : QRCode.CorrectLevel.L
+	qrcode = new QRCode document.getElementById("qrcode"),options
+
+	# createFile() # 4 minuter
 
 createLine = (h,m,s) ->
 	hh = ('0' + h).slice -2
