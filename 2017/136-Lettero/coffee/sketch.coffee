@@ -18,10 +18,10 @@ setup = ->
 	#listCircular()
 	newGame 1
 
-# straffa med 10% av level.
 newGame = (dLevel) ->
 	direction = dLevel
-	if dLevel < 0 then dLevel = dLevel * (int 1+level/10)
+	extra = int level/10 # straffa med 10% av level.
+	if dLevel < 0 and extra != 0 then dLevel *= extra
 	level += dLevel
 	if level < 0 then level = 0
 	lastWord = word
