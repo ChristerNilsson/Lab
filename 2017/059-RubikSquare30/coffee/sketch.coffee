@@ -4,6 +4,8 @@
 
 rs = null
 buttons = []
+sida = null
+released = true 
 START = [0,0,0, 0,0,0, 0,0,0, 1,1,1, 1,1,1, 1,1,1, 2,2,2, 3,3,3, 4,4,4, 5,5,5]
 
 class Button
@@ -11,8 +13,8 @@ class Button
 	draw : (col) ->
 		[r,g,b] = [[1,0,0],[1,1,0],[0,1,0],[0,0,1],[1,0,1],[0,1,1]][col]
 		fc r,g,b
-		rect @x,@y,100,100
-	inside : (mx,my) -> @x < mx < @x+100 and @y < my < @y+100
+		rect @x,@y,sida,sida
+	inside : (mx,my) -> @x-sida/2 < mx < @x+sida/2 and @y-sida/2 < my < @y+sida/2
 
 class RS30
 	constructor : () ->
@@ -27,7 +29,7 @@ class RS30
 		for index,k in [6,7,8, 11,12,13, 16,17,18, 0,0,0, 0,0,0, 0,0,0, 1,2,3, 9,14,19, 23,22,21, 15,10,5]
 			if index!=0 then buttons[index].draw @square[k]
 		fc 0
-		text @level - @history.length,250,250
+		text @level - @history.length,width/2,height/2
 
 	startNewGame : (dlevel) ->
 		@state = 0
@@ -82,11 +84,13 @@ class RS30
 		res
 
 setup = ->
-	createCanvas 501,501
+	createCanvas windowWidth,windowHeight
+	rectMode CENTER
 	buttons = []
+	sida = min(width,height)/6
 	for j in range 5
 		for i in range 5
-			buttons.push new Button 100*j,100*i
+			buttons.push new Button width/2 + sida*(j-2), height/2 + sida*(i-2)
 	buttons[ 7].action = -> rs.move 0
 	buttons[11].action = -> rs.move 1
 	buttons[13].action = -> rs.move 2
@@ -95,4 +99,12 @@ setup = ->
 	rs = new RS30
 
 draw = -> rs.draw()
-mousePressed = -> rs.mousePressed mouseX,mouseY
+
+mouseReleased = ->
+	released = true
+	false
+
+mousePressed = ->
+	if not released then return
+	released = false 
+	rs.mousePressed mouseX,mouseY
