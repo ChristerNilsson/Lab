@@ -4,6 +4,9 @@
 
 Spelet går ut på att klicka på första bokstaven i ordet.
 
+Orden varierar mellan fyra och nio bokstäver
+och kan läsas medurs eller moturs
+
 * Svarar man rätt ökar level med 1
 * Svarar man fel sjunker level med 10%
 
@@ -27,7 +30,6 @@ Det finns 11 tripplar:
 
 Totalt antal ord: 52269 
 
-Orden varierar mellan fyra och nio bokstäver
 
 Plattformar (p5.js 0.5.16):
 
