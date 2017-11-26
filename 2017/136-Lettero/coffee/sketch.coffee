@@ -57,9 +57,7 @@ draw = ->
 		text ch,0,0
 		pop()
 		rd dAngle
-	#angle += 0.5
 	angle += (millis()-dt)/50
-	print (millis()-dt)/50
 	dt = millis()
 
 handleMousePressed = ->
