@@ -56,7 +56,7 @@ update = ->
 	operations.innerHTML = diff
 	problem.innerHTML = iProblem
 	problem.style.color = 'white'
-	operations.style.color = if target.getValue()==editor.getValue() and diff >= 0 then 'green' else 'red'
+	operations.style.color = if target.getValue()==editor.getValue() then 'green' else 'red'
 
 # buffer används pga svårt att hantera komplexiteten
 # t ex ger ctrlX både FA och AFA
