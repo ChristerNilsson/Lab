@@ -8,6 +8,7 @@ radius1 = null
 radius2 = null
 possibleWords = []
 solution = ""
+dt = 0 
 
 setup = ->
 	createCanvas windowWidth,windowHeight
@@ -56,7 +57,10 @@ draw = ->
 		text ch,0,0
 		pop()
 		rd dAngle
-	angle += 0.5
+	#angle += 0.5
+	angle += (millis()-dt)/50
+	print (millis()-dt)/50
+	dt = millis()
 
 handleMousePressed = ->
 	n = word.length
