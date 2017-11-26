@@ -11,7 +11,7 @@ solution = ""
 
 setup = ->
 	createCanvas windowWidth,windowHeight
-	size = min windowWidth,windowHeight
+	size = min width,height
 	radius2 = size/10
 	radius1 = size/2-radius2 
 	words = ordlista.split ' '
