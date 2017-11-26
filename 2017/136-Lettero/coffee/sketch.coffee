@@ -6,8 +6,8 @@ direction = 1
 size = null
 radius1 = null
 radius2 = null
-clickedWords = []
-correctWord = null
+possibleWords = []
+solution = ""
 
 setup = ->
 	createCanvas windowWidth,windowHeight
@@ -20,22 +20,23 @@ setup = ->
 	newGame 1
 
 newGame = (dLevel) ->
-	if clickedWords.length==0 then clickedWords.push correctWord
+	solution = possibleWords.join ' '
 	direction = dLevel
 	extra = int level/10 # straffa med 10% av level.
 	if dLevel < 0 and extra != 0 then dLevel *= extra
 	level += dLevel
 	if level < 0 then level = 0
-	correctWord = _.sample words
-	word = correctWord.toUpperCase()
+	word = _.sample words
+	possibleWords = findWords word
 	if 0.5 < random() then word = reverseString word
+	word = word.toUpperCase()
 	angle = 360 * random()
 	false # to prevent double click on Android
 
 draw = ->
 	bg 0.5
-	textSize size/10
-	text clickedWords.join(' '), width/2,height-size/10
+	textSize size/12
+	text solution, width/2,height-size/10
 	textSize size/4
 	if direction == 1 then fc 0,1,0 else fc 1,0,0
 	text level,width/2,height/2 
@@ -66,26 +67,33 @@ handleMousePressed = ->
 		if radius2 > dist mouseX,mouseY,x,y 
 			w = dword.slice i,i+n
 			rw = reverseString(dword).slice n-i-1,n-i+n-1
-			clickedWords = []
-			if w in words then clickedWords.push w 
-			if rw in words then clickedWords.push rw
-			return newGame if clickedWords.length==0 then -1 else 1
+			if w in possibleWords or rw in possibleWords
+				return newGame 1
+			else
+				return newGame -1
 	false # to prevent double click on Android
 
 reverseString = (str) -> str.split("").reverse().join ""
 mousePressed = ->	handleMousePressed()
 touchStarted = -> handleMousePressed()
 
+findWords = (word) ->
+	n = word.length
+	dword = (word+word).toLowerCase()
+	res = []
+	for ch,i in word
+		w = dword.slice i,i+n
+		rw = reverseString(dword).slice n-i-1,n-i+n-1
+		if w in words then res.push w
+		if rw in words then res.push rw
+	_.uniq res
+
 listCircular = () ->
 	print words.length
-	antal = 0 
+	antal = 0
 	for word in words
-		n = word.length
-		dword = (word+word).toLowerCase()
-		res = []
-		for ch,i in word
-			w = dword.slice i,i+n
-			if w in words then res.push w
-		if res.length == 2
+		res = findWords word
+		if res.length==2
+			print res.join ' '
 			antal++
 	print antal
