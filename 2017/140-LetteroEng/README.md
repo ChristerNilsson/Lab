@@ -8,4 +8,6 @@ The words can be read clockwise or counter-clockwise.
 * Correct answer => level goes upp one unit.
 * Wrong answer => level goes down ten percent.
 
+Click on 4 to 9 to select maximum word size.
+
 Number of words: 7557
