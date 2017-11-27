@@ -1,4 +1,5 @@
 words = null
+index = 0
 word = ''
 level = -1
 angle = 0
@@ -15,9 +16,8 @@ setup = ->
 	size = min width,height
 	radius2 = size/10
 	radius1 = size/2-radius2 
-	words = ordlista.split ' '
+	words = _.shuffle ordlista.split ' '
 	textAlign CENTER,CENTER
-	print words.length 
 	#listCircular()
 	newGame 1
 
@@ -28,7 +28,8 @@ newGame = (dLevel) ->
 	if dLevel < 0 and extra != 0 then dLevel *= extra
 	level += dLevel
 	if level < 0 then level = 0
-	word = _.sample words
+	word = words[index]
+	index++
 	possibleWords = findWords word
 	if 0.5 < random() then word = reverseString word
 	word = word.toUpperCase()

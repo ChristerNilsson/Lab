@@ -8,4 +8,4 @@ The words can be read clockwise or counter-clockwise.
 * Correct answer => level goes upp one unit.
 * Wrong answer => level goes down ten percent.
 
-Number of words: 200001
+Number of words: 7557
