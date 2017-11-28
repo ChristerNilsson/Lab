@@ -21,6 +21,7 @@ solution = ""
 dt = 0 
 maxWords = [4,5,6,7,8,9]
 maxWord = 0
+released = true 
 
 setup = ->
 	createCanvas windowWidth,windowHeight
@@ -126,7 +127,16 @@ handleMousePressed = ->
 	false # to prevent double click on Android
 
 reverseString = (str) -> str.split("").reverse().join ""
-mousePressed = ->	handleMousePressed()
+
+mouseReleased = -> # to make Android work 
+	released = true 
+	false
+
+mousePressed = ->
+	if !released then return # to make Android work 
+	released = false
+	handleMousePressed()
+
 touchStarted = -> handleMousePressed()
 
 findWords = (word) ->
