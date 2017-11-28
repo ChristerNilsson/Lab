@@ -4,9 +4,9 @@ render = (tag,attrs,children) ->
 
 button = (attrs,children) -> render 'button',attrs,children
 div = (attrs,children) -> render 'div',attrs,children
-table = (attrs,children) -> render 'table',attrs,children
-tr = (attrs,children) -> render 'tr',attrs,children
-td = (attrs,children) -> render 'td',attrs,children
+# table = (attrs,children) -> render 'table',attrs,children
+# tr = (attrs,children) -> render 'tr',attrs,children
+# td = (attrs,children) -> render 'td',attrs,children
 
 ###############################
 
@@ -24,21 +24,22 @@ class State
 				div {id:'hist'},[@hist]
 			]
 
-	add2 : -> @fix {'hist': @hist.concat([@a]), 'a': @a+2}
-	mul2 : -> @fix {'hist': @hist.concat([@a]), 'a': @a*2}
-	div2 : -> @fix {'hist': @hist.concat([@a]), 'a': @a/2}
-	undo : -> @fix {'a': @hist.pop(), 'hist':@hist}
-	next : -> @fix {'a': int(1 + 20 * random()),'b': int(1 + 20 * random()),'hist': []}
-	fix : (hash) -> @update key,value for key,value of hash
-	update : (name,value) ->
-		print name,value 
-		@[name] = value
-		document.getElementById(name).innerHTML = value
+	add2 : -> @fix {a: @a+2, hist: @hist.concat([@a])}
+	mul2 : -> @fix {a: @a*2, hist: @hist.concat([@a])}
+	div2 : -> @fix {a: @a/2, hist: @hist.concat([@a])}
+	undo : -> @fix {a: @hist.pop(), hist: @hist}
+	next : -> @fix {a: int(1 + 20 * random()), b: int(1 + 20 * random()), hist: []}
+	fix : (hash) -> 
+		@update key,value for key,value of hash
 		@disable 'bUndo',@hist.length==0 or @a==@b
 		@disable 'bAdd', @a==@b
 		@disable 'bMul', @a==@b
 		@disable 'bDiv', @a==@b or @a%2==1
 		@disable 'bNext', @a!=@b
+	update : (name,value) ->
+		print name,value 
+		@[name] = value
+		document.getElementById(name).innerHTML = value
 	disable : (name,value) ->	document.getElementById(name).disabled = value
 
 state = null
