@@ -2,8 +2,8 @@ render = (tag,attrs,children) ->
 	res = (' ' + key + '="' + attr + '"' for key,attr of attrs).join ''
 	"<#{tag}#{res}>#{(child for child in children).join('')}</#{tag}>\n"
 
-button = (attrs,children) -> render 'button',attrs,children
-div = (attrs,children) -> render 'div',attrs,children
+button = (attrs,children=[]) -> render 'button',attrs,children
+div = (attrs,children=[]) -> render 'div',attrs,children
 # table = (attrs,children) -> render 'table',attrs,children
 # tr = (attrs,children) -> render 'tr',attrs,children
 # td = (attrs,children) -> render 'td',attrs,children
@@ -12,7 +12,7 @@ div = (attrs,children) -> render 'div',attrs,children
 
 class State 
 	constructor : (@a,@b,@hist) ->
-		@update 'body',
+		@update 'body', 
 			div {style:"font-size:30px"},[
 				div {id:'a'},[@a]
 				div {id:'b'},[@b]
