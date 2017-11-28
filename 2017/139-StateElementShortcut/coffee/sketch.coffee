@@ -1,66 +1,35 @@
-class Element 
-	constructor : (@attrs, @children=[]) ->
-	render : (tag) ->
-		res = (' ' + key + '="' + attr + '"' for key,attr of @attrs).join ''
-		"<#{tag}#{res}>#{(child.render() for child in @children).join('')}</#{tag}>\n"
+render = (tag,attrs,children) ->
+	res = (' ' + key + '="' + attr + '"' for key,attr of attrs).join ''
+	"<#{tag}#{res}>#{(child for child in children).join('')}</#{tag}>\n"
 
-class Button extends Element  
-	render : -> super 'button'
-
-class Div extends Element 
-	render : -> super 'div'
-
-class Table extends Element 
-	render : -> super 'table'
-
-class Tr extends Element 
-	render : -> super 'tr'
-
-class Td extends Element 
-	render : -> super 'td'
-
-class Text
-	constructor : (@text) ->
-	render : -> @text
-
-class Data 
-	constructor : (@name) ->
-	render : -> state[@name]
+button = (attrs,children) -> render 'button',attrs,children
+div = (attrs,children) -> render 'div',attrs,children
+table = (attrs,children) -> render 'table',attrs,children
+tr = (attrs,children) -> render 'tr',attrs,children
+td = (attrs,children) -> render 'td',attrs,children
 
 ###############################
 
 class State 
 	constructor : (@a,@b,@hist) ->
-		view = 
-			new Div {style:"font-size:30px"},[
-				new Div {id:'a'},[new Text @a]
-				new Div {id:'b'},[new Text @b]
-				new Button {id:'bAdd',onclick:'state.add2()',style:"font-size:30px"},[new Text '+2']
-				new Button {id:'bMul',onclick:'state.mul2()',style:"font-size:30px"},[new Text '*2']
-				new Button {id:'bDiv',onclick:'state.div2()',style:"font-size:30px"},[new Text '/2']
-				new Button {id:'bUndo',onclick:'state.undo()',style:"font-size:30px"},[new Text 'undo']
-				new Button {id:'bNext',onclick:'state.next()',style:"font-size:30px"},[new Text 'next']
-				new Div {id:'hist'},[new Text @hist]
+		@update 'body',
+			div {style:"font-size:30px"},[
+				div {id:'a'},[@a]
+				div {id:'b'},[@b]
+				button {id:'bAdd',onclick:'state.add2()',style:"font-size:30px"},['+2']
+				button {id:'bMul',onclick:'state.mul2()',style:"font-size:30px"},['*2']
+				button {id:'bDiv',onclick:'state.div2()',style:"font-size:30px"},['/2']
+				button {id:'bUndo',onclick:'state.undo()',style:"font-size:30px"},['undo']
+				button {id:'bNext',onclick:'state.next()',style:"font-size:30px"},['next']
+				div {id:'hist'},[@hist]
 			]
-		@update 'body',view.render()
 
-	add2 : ->
-		@update 'hist', @hist.concat [@a] 
-		@update 'a', @a+2
-	mul2 : ->
-		@update 'hist', @hist.concat [@a] 
-		@update 'a', @a*2
-	div2 : ->
-		@update 'hist', @hist.concat [@a] 
-		@update 'a', @a/2
-	undo : ->
-		if @hist.length == 0 then return
-		@update 'a', @hist.pop()
-		@update 'hist', @hist
-	next : ->
-		@update 'a', int 1 + 20 * random() 
-		@update 'b', int 1 + 20 * random() 
-		@update 'hist', []
+	add2 : -> @fix {'hist': @hist.concat([@a]), 'a': @a+2}
+	mul2 : -> @fix {'hist': @hist.concat([@a]), 'a': @a*2}
+	div2 : -> @fix {'hist': @hist.concat([@a]), 'a': @a/2}
+	undo : -> @fix {'a': @hist.pop(), 'hist':@hist}
+	next : -> @fix {'a': int(1 + 20 * random()),'b': int(1 + 20 * random()),'hist': []}
+	fix : (hash) -> @update key,value for key,value of hash
 	update : (name,value) ->
 		print name,value 
 		@[name] = value
@@ -73,5 +42,4 @@ class State
 	disable : (name,value) ->	document.getElementById(name).disabled = value
 
 state = null
-
 setup = -> state = new State 7,1,[]
