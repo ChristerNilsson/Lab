@@ -88,8 +88,8 @@ setup = ->
 	RADIUS = height/20
 	WIDTH = width/6
 
-	buttonLeft  = new Action WIDTH*2.5,height-RADIUS,100,40,'Done', -> state.done()
-	buttonRight = new Action WIDTH*4.5,height-RADIUS,100,40,'Start', -> state.run()
+	buttonLeft  = new Action WIDTH*2.5,height-RADIUS,WIDTH,RADIUS,'Done', -> state.done()
+	buttonRight = new Action WIDTH*4.5,height-RADIUS,WIDTH,RADIUS,'Start', -> state.run()
 	buttons.push buttonLeft
 	buttons.push buttonRight
 
@@ -105,10 +105,10 @@ setup = ->
 
 draw = ->
 	bg 0.5
-	textSize 24
+	textSize RADIUS
 	for button in buttons
 		button.draw()
-	textSize 100
+	textSize 2*RADIUS
 	state.draw()	
 
 mouseReleased = ->
