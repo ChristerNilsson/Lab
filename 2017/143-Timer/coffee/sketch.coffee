@@ -113,6 +113,7 @@ draw = ->
 
 mouseReleased = ->
 	released = true
+	false
 
 mousePressed = ->
 	if not released then return
@@ -120,3 +121,4 @@ mousePressed = ->
 	for button in buttons
 		button.mousePressed mouseX,mouseY
 	print state.digits
+	false
