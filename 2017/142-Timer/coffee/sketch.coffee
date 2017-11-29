@@ -81,6 +81,7 @@ class State
 			@fix {brun:'run'}
 
 audio = new Audio 'music.mp3'
+audio.play()
 
 state = null
 setup = -> state = new State [0,0,0,0,0,0],false,0,[0,0,0,0,0,0]
