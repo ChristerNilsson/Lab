@@ -13,7 +13,7 @@ td = (a,c) -> render 'td',a,c
 class State 
 	constructor : ->
 		@time = [0,0,0,0,0,0]
-		@runState = 0
+		@runState = 0 # 0=start 1=pause 2=resume
 		@start = 0
 		@memory = [0,0,0,0,0,0]
 		print @update 'body', 
@@ -39,7 +39,7 @@ class State
 				]
 				div {}, [
 					button {id:'bdone',style:"font-size:30px; width:135px", onclick: "state.done()"}, ["Done"]
-					button {id:'brun', style:"font-size:30px; width:135px", onclick: "state.run()"},  ["Start"] # start pause resume
+					button {id:'brun', style:"font-size:30px; width:135px", onclick: "state.run()"},  ["Start"] 
 				]
 			]
 	f : (i,n) -> 

@@ -1,30 +1,16 @@
-# Mall
+# 142-Timer
 
-* Libraries innehåller bl a p5-filer.
-* index.html används när man vill köra programmet i Google Chrome.
-* katalogen coffee innehåller din kod. Redigera med Sublime.
-* js-filer skapas automatiskt av startProject.bat
+Improvements compared with iOS:
 
-## Detta gör du en enda gång
+* No wheels. Just click on a digit to make it increment.
+* Clear. Reset to 00:00:00
 
-* Kopiera 000-Mall med Clone or Download
-* Välj Download .Zip 
-* Packa upp innehållet och spara i en egen katalog med namnet 000-Mall. Dvs inget -master
-* Flytta upp createProject.bat en nivå.
+Otherwise, I have tried to maintain the same functionality.
 
-## Detta gör du när du skapar ett nytt projekt
+* Colors
+* Disable
 
-* Använd createProject för att skapa en kopia av mallen.
-* Byt namn på NewProject. T ex till 001-projektnamn.
+## Comparison
 
-## Detta gör du när du utvecklar
-
-* Gå in i katalogen och starta startProject
-  * index.html startas i Chrome
-  * sublime startas. 
-  	* Stäng eventuellt befintligt projekt med Remove Folder from Project
-  * transpilern startas
-* Ändra i sketch.coffee. Spara med ctrl-S
-* Transpilering sker automatiskt. Ett pip hörs vid syntaxfel.
-* Refresha Chrome.
-
+Selecting 23:59:59 takes 23+59+59 = 141 steps
+This program does it in 2+3+5+9+5+9 clicks = 33 clicks
