@@ -1,10 +1,14 @@
+RADIUS = null
+WIDTH = null
+released = true 
+
 class Button
 	constructor : (@i,@j,@text) ->
-		@x = 50 + 100*@i
-		@y = 25 + 50*@j
+		@x = WIDTH/2 + WIDTH*@i
+		@y = RADIUS + 2*RADIUS*@j
 	draw : ->
 		fc 1
-		circle @x,@y,25
+		circle @x,@y,RADIUS
 		fc 0
 		text @text,@x,@y
 	mousePressed : (mx,my) ->
@@ -62,8 +66,8 @@ class State
 			t = 10 * @digits[2*i] + @digits[2*i+1]
 			t = t.toString()
 			if t.length==1 then t = "0" + t
-			x = 100+200*i
-			y = 570
+			x = WIDTH/2 + 2*WIDTH*i
+			y = height-5*RADIUS
 			text t,x,y
 
 	fix : -> 
@@ -76,13 +80,19 @@ class State
 
 buttons = []
 state = new State
-buttonLeft  = new Action 200,660,100,40,'Done', -> state.done()
-buttonRight = new Action 400,660,100,40,'Start', -> state.run()
-buttons.push buttonLeft
-buttons.push buttonRight
+buttonLeft  = null
+buttonRight = null
 
 setup = ->
-	createCanvas 600,700
+	createCanvas windowWidth,windowHeight
+	RADIUS = height/20
+	WIDTH = width/6
+
+	buttonLeft  = new Action WIDTH*2.5,height-RADIUS,100,40,'Done', -> state.done()
+	buttonRight = new Action WIDTH*4.5,height-RADIUS,100,40,'Start', -> state.run()
+	buttons.push buttonLeft
+	buttons.push buttonRight
+
 	textAlign CENTER,CENTER
 	rectMode CENTER
 
@@ -98,10 +108,15 @@ draw = ->
 	textSize 24
 	for button in buttons
 		button.draw()
-	textSize 150
+	textSize 100
 	state.draw()	
 
+mouseReleased = ->
+	released = true
+
 mousePressed = ->
+	if not released then return
+	released = false 
 	for button in buttons
 		button.mousePressed mouseX,mouseY
 	print state.digits
