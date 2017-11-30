@@ -1,12 +1,3 @@
-a
-à
-A.
-Á.
-À.
-Â.
-Ä.
-Ã.
-Å.
 aardvark
 aardvarks
 abaissa
@@ -17299,7 +17290,6 @@ azurés
 azurs
 azyme
 azymes
-B.
 baba
 babae
 babaes
@@ -25919,12 +25909,6 @@ Byzantin
 byzantine
 byzantines
 byzantins
-C.
-Ç.
-c.-à-d.
-c.e.s.
-c.e.s.s
-ça
 cabale
 cabales
 cabalistique
@@ -48875,12 +48859,6 @@ cytologique
 cytologiques
 cytoplasme
 cytoplasmes
-CZ
-CZs
-D.
-Ð.
-D.C.
-dab
 dabs
 dactylo
 dactylographe
@@ -70458,11 +70436,6 @@ dyspeptique
 dyspeptiques
 dystrophie
 dystrophies
-E.
-É.
-È.
-Ê.
-Ë.
 eau
 eau-de-vie
 eaux
@@ -82642,7 +82615,6 @@ entures
 énumérons
 énurésie
 énurésies
-env.
 envahi
 envahie
 envahies
@@ -90812,9 +90784,6 @@ exultons
 exutoire
 exutoires
 ex-voto
-F.
-F.M.I.
-F.M.I.s
 fable
 fables
 fabricant
@@ -98726,8 +98695,6 @@ fuyez
 fuyiez
 fuyions
 fuyons
-G.
-GA
 gabardine
 gabardines
 gabarit
@@ -104542,7 +104509,6 @@ gyroscopique
 gyroscopiques
 gyrostat
 gyrostats
-H.
 habile
 habilement
 habiles
@@ -107982,13 +107948,6 @@ hystéries
 hystérique
 hystériquement
 hystériques
-Hz
-I.
-Í.
-Ì.
-Î.
-Ï.
-IA
 ïambique
 ïambiques
 IAs
@@ -117308,7 +117267,6 @@ ivrogne
 ivrognerie
 ivrogneries
 ivrognes
-J.
 jabot
 jabots
 jacaranda
@@ -118936,7 +118894,6 @@ juxtaposions
 juxtaposition
 juxtapositions
 juxtaposons
-K.
 kaki
 kaléidoscope
 kaléidoscopes
@@ -119212,9 +119169,6 @@ kyrielles
 KYs
 kyste
 kystes
-L.
-la
-là
 là-bas
 label
 labels
@@ -123190,8 +123144,6 @@ lyriques
 lyrisme
 lyrismes
 lys
-M.
-ma
 Maastricht
 Maastrichts
 m'abonnai
@@ -134782,8 +134734,6 @@ mytiliculture
 mytilicultures
 myxomatose
 myxomatoses
-N.
-Ñ.
 nabot
 nabote
 nabotes
@@ -136284,7 +136234,6 @@ NJ
 NJs
 NM
 NMs
-No.
 Nobel
 Nobels
 noble
@@ -137137,16 +137086,6 @@ nymphomanes
 nymphomanie
 nymphomanies
 NYs
-ô
-O.
-Ó.
-Ò.
-Ô.
-Ö.
-Õ.
-Ø.
-O.N.U.
-O.N.U.s
 Oakland
 Oaklands
 oasis
@@ -140661,7 +140600,6 @@ oyez
 oyons
 ozone
 ozones
-P.
 pacage
 pacages
 pacemaker
@@ -157915,7 +157853,6 @@ pythagoriciennes
 pythagoriciens
 python
 pythons
-Q.
 Qatar
 Qatars
 qté
@@ -158587,7 +158524,6 @@ quotient
 quotients
 quotité
 quotités
-R.
 rab
 rabâcha
 rabâchage
@@ -181744,10 +181680,6 @@ rythmique
 rythmiquement
 rythmiques
 rythmons
-S.
-S.A.
-S.A.s
-sa
 sabbat
 sabbatique
 sabbatiques
@@ -191247,8 +191179,6 @@ squelettiquement
 squelettiques
 Sri
 Sris
-St.
-St.s
 STABEX
 STABEXs
 stabilisa
@@ -196912,9 +196842,6 @@ systémiquement
 systémiques
 systole
 systoles
-T.
-T.V.
-T.V.s
 ta
 tabac
 tabacs
@@ -206282,15 +206209,6 @@ tyroliens
 Tyrols
 tzar
 tzars
-U.
-Ú.
-Ù.
-Û.
-Ü.
-U.N.
-U.N.s
-U.S.A
-U.S.A.
 ubiquité
 ubiquités
 ubuesque
@@ -207060,8 +206978,6 @@ uvule
 uvules
 uxoricide
 uxoricides
-V.
-va
 vacance
 vacances
 vacancier
@@ -211220,10 +211136,6 @@ vulnérablement
 vulnérables
 vulve
 vulves
-W.
-W.C.
-W.C.s
-W3
 Wagner
 Wagners
 wagon
@@ -211308,7 +211220,6 @@ World
 Worlds
 Wright
 Wrights
-X.
 Xénodevises
 xénon
 xénons
@@ -211327,9 +211238,6 @@ xylographie
 xylographies
 xylophone
 xylophones
-y
-Y.
-Ý.
 yacht
 yachting
 yachtings
@@ -211347,8 +211255,6 @@ yaourt
 yaourts
 yardage
 yardages
-yd.
-yd.s
 yearling
 yearlings
 Yellowstone
@@ -211383,7 +211289,6 @@ Yucatans
 yucca
 yuccas
 Yves
-Z.
 Zaïre
 Zaïres
 Zambèse
