@@ -22,7 +22,8 @@ checkbox = (p,c=[]) -> input (_.extend p, {type:'checkbox'}, if p.value then {ch
 todos = (props,children=[]) ->
 	[
 		h3 {},"Todo List (#{children.length})"
-		todo item for item in children when state.ok item
+		lst = (todo item for item in children when state.ok item)
+		h3 {},lst.length
 	]
 
 todo = (props,children=[]) ->
@@ -38,14 +39,16 @@ class State
 		@c=0 # userId
 
 	init : ->
+		start = millis()
 		struktur = [
 			checkbox {onchange:"state.filter(!state.a,state.b,state.c)", value:@a},'completed'
 			checkbox {onchange:"state.filter(state.a,!state.b,state.c)", value:@b},'not completed'
 			button {   onclick:"state.filter(state.a,state.b,state.c+1)"}, @c
 			todos {},@todos
 		]
-		print struktur
+		#print struktur
 		@update 'body', render struktur
+		print millis()-start
 
 	filter : (a,b,c) ->
 		@a = a
@@ -65,7 +68,7 @@ class State
 
 	fix : (hash) -> @update key,value for key,value of hash
 	update : (name,value) ->
-		print name,value 
+		#print name,value 
 		@[name] = value
 		obj = document.getElementById name
 		if obj then obj.innerHTML = value
