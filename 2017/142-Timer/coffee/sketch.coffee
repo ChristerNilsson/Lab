@@ -1,12 +1,21 @@
-render = (tag,attrs,children) ->
-	res = (' ' + key + '="' + attr+ '"' for key,attr of attrs).join ''
-	"<#{tag}#{res}>#{(child for child in children).join('')}</#{tag}>\n"
+render = (node) ->
+	if Array.isArray node then return (render child for child in node).join ''
+	if typeof node != 'object' then return node
+	_props = (' ' + key + '="' + attr + '"' for key,attr of node.props).join ''
+	"<#{node.tag}#{_props}>#{render node.children}</#{node.tag}>\n"
 
-button = (a,c) -> render 'button',a,c
-div = (a,c) -> render 'div',a,c
-table = (a,c) -> render 'table',a,c
-tr = (a,c) -> render 'tr',a,c
-td = (a,c) -> render 'td',a,c
+button = (p,c=[]) -> {props:p, children:c, tag: 'button'} 
+div    = (p,c=[]) -> {props:p, children:c, tag: 'div'}
+strong = (p,c=[]) -> {props:p, children:c, tag: 'strong'}
+li     = (p,c=[]) -> {props:p, children:c, tag: 'li'}
+h3     = (p,c=[]) -> {props:p, children:c, tag: 'h3'}
+input  = (p,c=[]) -> {props:p, children:c, tag: 'input'}
+table  = (p,c=[]) -> {props:p, children:c, tag: 'table'}
+tr     = (p,c=[]) -> {props:p, children:c, tag: 'tr'}
+td     = (p,c=[]) -> {props:p, children:c, tag: 'td'}
+
+checkbox = (p,c=[]) -> input (_.extend p, {type:'checkbox'}, if p.value then {checked:true} else {}),c
+# checkbox är svår att avläsa. toggla och håll reda på tillståndet själv.
 
 ###############################
 
@@ -16,32 +25,32 @@ class State
 		@runState = 0 # 0=start 1=pause 2=resume
 		@start = 0
 		@memory = [0,0,0,0,0,0]
-		print @update 'body', 
-			div {}, [
+		struktur =  
+			[
 				table {},[
 					tr {style:"font-size:20px;"},[
 						td {style:"width:90px"},[
-							div {},['Hours']
-							button {id:'d5', style:"font-size:30px; width:40px", onclick: "state.f(5,3)"}, [0] 
-							button {id:'d4', style:"font-size:30px; width:40px", onclick: "state.f(4,10)"}, [0] 
+							div {},'Hours'
+							button {id:'d5', style:"font-size:30px; width:40px", onclick: "state.f(5,3)"}, 0 
+							button {id:'d4', style:"font-size:30px; width:40px", onclick: "state.f(4,10)"}, 0 
 						]
 						td {style:"width:90px"},[
-							div {},['Minutes']
-							button {id:'d3', style:"font-size:30px; width:40px", onclick: "state.f(3,6)"}, [0] 
-							button {id:'d2', style:"font-size:30px; width:40px", onclick: "state.f(2,10)"}, [0] 
+							div {},'Minutes'
+							button {id:'d3', style:"font-size:30px; width:40px", onclick: "state.f(3,6)"}, 0 
+							button {id:'d2', style:"font-size:30px; width:40px", onclick: "state.f(2,10)"}, 0 
 						]
 						td {style:"width:90px"},[
-							div {},['Seconds']
-							button {id:'d1', style:"font-size:30px; width:40px", onclick: "state.f(1,6)"}, [0] 
-							button {id:'d0', style:"font-size:30px; width:40px", onclick: "state.f(0,10)"}, [0] 
+							div {},'Seconds'
+							button {id:'d1', style:"font-size:30px; width:40px", onclick: "state.f(1,6)"}, 0 
+							button {id:'d0', style:"font-size:30px; width:40px", onclick: "state.f(0,10)"}, 0 
 						]
 					]
 				]
-				div {}, [
-					button {id:'bdone',style:"font-size:30px; width:135px", onclick: "state.done()"}, ["Done"]
-					button {id:'brun', style:"font-size:30px; width:135px", onclick: "state.run()"},  ["Start"] 
-				]
+				button {id:'bdone',style:"font-size:30px; width:135px", onclick: "state.done()"}, "Done"
+				button {id:'brun', style:"font-size:30px; width:135px", onclick: "state.run()"},  "Start"
 			]
+		@update 'body', render struktur
+
 	f : (i,n) -> 
 		@time[i] = (@time[i]+1)%n
 		@memory[i] = (@memory[i]+1)%n
