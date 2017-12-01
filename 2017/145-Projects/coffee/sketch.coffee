@@ -31,11 +31,11 @@ addProject = (props,children=[]) ->
 	div {}, [
 		h3 {},"Add Project"
 		div {}, [
-			label {},"Title"
+			label {}, "Title"
 			input {id:'title', type:"text"}
 		]
 		div {},[
-			label {},"Category"
+			label {}, "Category"
 			sel {id:"category"}, [option {value:cat},cat for cat in props.categories]
 		]
 		button {onclick:"state.addProject()"}, 'Submit'
@@ -50,9 +50,9 @@ project = (proj,children=[]) ->
 	]
 
 projects = (props,children=[]) -> 
-	div {},[
+	div {}, [
 		addProject {categories: ['Web Design', 'Web Development', 'Mobile Development']}
-		h3 {},"Latest Projects"
+		h3 {}, "Latest Projects"
 		project p for p in children
 	]
 
