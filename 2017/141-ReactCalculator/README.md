@@ -1,6 +1,6 @@
-# 139-StateElementShortcut
+# 141-ReactCalculator
 
-Ett litet test inspirerad av Elm. Dock otypat.
+Ett litet test inspirerad av Elm och React. Dock otypat.
 
 Egenskaper:
 
