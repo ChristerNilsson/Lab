@@ -110,7 +110,7 @@ sketch = (p) ->
 	p.setup = -> 
 		p.createCanvas p.windowWidth-5, p.windowHeight/2-5
 		p.textAlign p.CENTER,p.CENTER
-		button = new Button p,0.5*p.width,0.2*p.height,0.3*p.height,"scan", handleExecute
+		button = new Button p,0.5*p.width,0.2*p.height,0.35*p.height,"scan", handleExecute
 
 	p.draw = ->
 		p.background myState.bg
@@ -123,13 +123,13 @@ sketch = (p) ->
 		for i in [0..3]
 			littera = 'A B C D'.split(' ')[i]
 			x = p.lerp 0.2*p.width,0.4*p.width,i
-			p.text littera,x,0.4*p.height
-			p.text myState[littera],x,0.5*p.height
-		p.text myState.from,0.4*p.width,0.7*p.height
-		p.text myState.to,  0.6*p.width,0.7*p.height
+			p.text littera,x,0.45*p.height
+			p.text myState[littera],x,0.6*p.height
+		p.text myState.from,0.4*p.width,0.75*p.height
+		p.text myState.to,  0.6*p.width,0.75*p.height
 		p.textSize 20
-		p.text myState.hist.join(' '),p.width/2,0.8*p.height
-		p.text myState.total,p.width/2,0.9*p.height
+		p.text myState.hist.join(' '),p.width/2,0.85*p.height
+		p.text myState.total,p.width/2,0.95*p.height
 
 	p.mouseReleased = -> # to make Android work 
 		released = true 
