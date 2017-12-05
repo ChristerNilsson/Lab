@@ -26,13 +26,13 @@ myState =
 
 handleError = (err)-> console.error err
 handleScan = (result) -> 
-	if result 
-		goal = myState.from == myState.to
-		console.log goal, result.indexOf('INIT')
-		if goal and result.indexOf('INIT') != 0 then return 
-		myState.result = result
-		myState.bg = '#FFFF00'
-		button.title = result.split(' ')[0]
+	if not result then return  
+	goal = myState.from == myState.to
+	console.log goal, result.indexOf('INIT')
+	if goal and result.indexOf('INIT') != 0 then return 
+	myState.result = result
+	myState.bg = '#FFFF00'
+	button.title = result.split(' ')[0]
 
 handleExecute = ->
 	arr = myState.result.split ' '
