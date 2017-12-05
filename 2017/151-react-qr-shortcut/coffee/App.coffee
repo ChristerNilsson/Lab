@@ -6,9 +6,7 @@ import React, { Component } from 'react'
 import QrReader from 'react-qr-reader'
 import _ from 'lodash'
 
-millis = ->
-	d = new Date()
-	d.getTime()
+millis = -> Date.now()
 
 export default class App extends Component 
 	constructor : (props) ->

@@ -11,3 +11,7 @@ WinWait, ahk_class PX_WINDOW_CLASS
 WinActivate, ahk_class PX_WINDOW_CLASS
 WinMove A,, 0,0, A_ScreenWidth*xp, A_ScreenHeight
 
+Run, npm.cmd start
+WinWait, ahk_class PX_WINDOW_CLASS
+WinActivate, ahk_class PX_WINDOW_CLASS
+WinMove A,, 0,0, A_ScreenWidth*xp, A_ScreenHeight
