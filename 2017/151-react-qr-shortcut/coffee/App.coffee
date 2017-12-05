@@ -9,18 +9,19 @@ import P5Wrapper from 'react-p5-wrapper'
 
 millis = -> Date.now()
 button = null
+released = true 
 myState = 
 	delay: 500
 	result: 'scan' # INIT 4 8
-	A : "+2"
-	B : "*2"
-	C : "/2"
-	D : "undo"
+	A    : "+2"
+	B    : "*2"
+	C    : "/2"
+	D    : "undo"
 	INIT : 'init'
 	from : 0
-	to : 0
+	to   : 0
 	hist : []   
-	bg : '#808080' 
+	bg   : '#808080' 
 	total : 0
 
 handleError = (err)-> console.error err
@@ -40,11 +41,7 @@ handleExecute = ->
 	if command =='+2' then newFrom = save myState.from+2
 	if command =='*2' then newFrom = save myState.from*2
 	if command =='/2' and myState.from % 2 == 0 then newFrom = save myState.from/2 
-	if command =='undo'
-		n = myState.hist.length
-		if n > 0
-			myState.from = myState.hist[n-1]
-			myState.hist = myState.hist[0..-2]
+	if command =='undo' and myState.hist.length > 0 then myState.from = myState.hist.pop()
 	if command =='init' 
 		commands = '+2 *2 /2 undo'.split ' '
 		commands = _.shuffle commands
@@ -65,10 +62,10 @@ handleExecute = ->
 	myState.bg = if newFrom == myState.to then '#00FF00' else '#FFFFFF'
 
 save = (value) ->
+	myState.hist.push myState.from
 	myState.from = value
-	myState.hist = myState.hist.concat [myState.from]
-	myState.operations = myState.operations + 1
-	myState.total = (millis()-myState.start)/1000 + 10 * myState.operations
+	myState.operations++
+	myState.total = ((millis()-myState.start)/1000 + 10 * myState.operations).toFixed(3)
 	value
 
 class Button 
@@ -113,14 +110,14 @@ sketch = (p) ->
 	p.setup = -> 
 		p.createCanvas p.windowWidth-5, p.windowHeight/2-5
 		p.textAlign p.CENTER,p.CENTER
-		p.textSize 20
-		button = new Button p,0.5*p.width,0.2*p.height,0.2*p.height,"scan", handleExecute
+		button = new Button p,0.5*p.width,0.2*p.height,0.3*p.height,"scan", handleExecute
 
 	p.draw = ->
 		p.background myState.bg
 		button.title = myState.result.split(' ')[0]
 
 		p.rectMode p.CENTER
+		p.textSize 40
 		button.draw p
 		p.fill 0
 		for i in [0..3]
@@ -130,7 +127,16 @@ sketch = (p) ->
 			p.text myState[littera],x,0.5*p.height
 		p.text myState.from,0.4*p.width,0.7*p.height
 		p.text myState.to,  0.6*p.width,0.7*p.height
+		p.textSize 20
 		p.text myState.hist.join(' '),p.width/2,0.8*p.height
 		p.text myState.total,p.width/2,0.9*p.height
 
-	p.mousePressed = -> button.mousePressed p.mouseX,p.mouseY
+	p.mouseReleased = -> # to make Android work 
+		released = true 
+		false
+
+	p.mousePressed = ->
+		if !released then return # to make Android work 
+		released = false
+		button.mousePressed p.mouseX,p.mouseY
+		false 
