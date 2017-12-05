@@ -13,10 +13,10 @@ released = true
 myState = 
 	delay: 500
 	result: 'scan' # INIT 4 8
-	A    : "+2"
-	B    : "*2"
-	C    : "/2"
-	D    : "undo"
+	A    : ""
+	B    : ""
+	C    : ""
+	D    : ""
 	INIT : 'init'
 	from : 0
 	to   : 0
@@ -27,13 +27,14 @@ myState =
 handleError = (err)-> console.error err
 handleScan = (result) -> 
 	if result 
-		console.log result
+		goal = myState.from == myState.to
+		console.log goal, result.indexOf('INIT')
+		if goal and result.indexOf('INIT') != 0 then return 
 		myState.result = result
 		myState.bg = '#FFFF00'
 		button.title = result.split(' ')[0]
 
 handleExecute = ->
-	console.log 'Execute'
 	arr = myState.result.split ' '
 	op = arr[0]
 	command = myState[op]
@@ -43,6 +44,7 @@ handleExecute = ->
 	if command =='/2' and myState.from % 2 == 0 then newFrom = save myState.from/2 
 	if command =='undo' and myState.hist.length > 0 then myState.from = myState.hist.pop()
 	if command =='init' 
+		console.log myState.result
 		commands = '+2 *2 /2 undo'.split ' '
 		commands = _.shuffle commands
 		myState =
@@ -50,6 +52,7 @@ handleExecute = ->
 			B : commands[1] 
 			C : commands[2] 
 			D : commands[3] 
+			INIT : 'init'
 			from : parseInt arr[1]
 			to : parseInt arr[2]
 			hist : []
