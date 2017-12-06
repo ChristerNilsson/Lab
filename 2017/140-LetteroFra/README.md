@@ -10,6 +10,6 @@ The words can be read clockwise or counter-clockwise.
 
 Click on 4 to 9 to select maximum word size.
 
-Number of words: 91453
+Number of words: 89000
 
 Source: https://raw.githubusercontent.com/words/an-array-of-french-words/master/corpus.txt

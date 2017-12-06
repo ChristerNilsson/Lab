@@ -5,6 +5,8 @@ with open('fra4-9.js','w',encoding='utf-8') as g:
 	res = []
 	for word in words:
 		w = word.strip()
-		if 4 <= len(w) <= 9:
-			res.append(w)
+		if '.' not in w:
+			if 4 <= len(w) <= 9:
+				if w.lower() == w:
+					res.append(w)
 	g.write(' '.join(res))
