@@ -19,20 +19,22 @@ radius5 = null # siffrans radie
 possibleWords = []
 solution = ""
 dt = 0 
-maxWords = [4,5,6,7,8,9]
+maxWords = [4,5,6,7,8,9,10,11,12,13,14,15]
 maxWord = 0
 released = true 
 
 setup = ->
 	createCanvas windowWidth,windowHeight
 	size = min width,height
-	radius2 = size/10
+	radius2 = size/12
 	radius1 = size/2-radius2 
 	radius3 = 0.6*radius1
 	radius4 = radius1 - radius2
 	radius5 = size/20
 	wordList = _.shuffle ordlista.split ' '
 	words = selectWords()
+	for word,i in words
+		words[i] = words[i].toLowerCase()
 	textAlign CENTER,CENTER
 	#listCircular()
 	print wordList.length
@@ -58,6 +60,7 @@ drawMaxWord = ->
 	push()
 	translate width/2,height/2
 	textSize 2 * radius5
+	rd 30
 	for ch,i in maxWords
 		push()
 		translate radius3,0
@@ -65,14 +68,17 @@ drawMaxWord = ->
 		if maxWord == i then fc 1 else fc 0
 		text ch,0,0
 		pop()
-		rd 60
+		rd 360/maxWords.length
 	pop()
 
 draw = ->
 	bg 0.5
 	drawMaxWord()
 	textSize size/12
+
 	text solution, width/2,height-size/10
+	#text solution + '|' + possibleWords.join(' '), width/2,height-size/10
+
 	textSize size/4
 	if direction == 1 then fc 0,1,0 else fc 1,0,0
 	text level,width/2,height/2 
@@ -105,8 +111,8 @@ handleMousePressed = ->
 		# digit
 		n = maxWords.length
 		for i in range n
-			x = width/2  + radius3 * cos radians i/n * 360
-			y = height/2 + radius3 * sin radians i/n * 360
+			x = width/2  + radius3 * cos radians 30 + i/n * 360
+			y = height/2 + radius3 * sin radians 30 + i/n * 360
 			if radius5 > dist mouseX,mouseY,x,y
 				maxWord = i
 				words = selectWords()
@@ -124,7 +130,6 @@ handleMousePressed = ->
 					return newGame 1
 				else
 					return newGame -1
-	false # to prevent double click on Android
 
 reverseString = (str) -> str.split("").reverse().join ""
 
@@ -136,6 +141,7 @@ mousePressed = ->
 	if !released then return # to make Android work 
 	released = false
 	handleMousePressed()
+	false # to prevent double click on Android
 
 touchStarted = -> handleMousePressed()
 
