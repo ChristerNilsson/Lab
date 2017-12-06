@@ -19,14 +19,14 @@ radius5 = null # siffrans radie
 possibleWords = []
 solution = ""
 dt = 0 
-maxWords = [4,5,6,7,8,9]
+maxWords = [4,5,6,7,8,9,10,11,12,13,14,15]
 maxWord = 0
 released = true 
 
 setup = ->
 	createCanvas windowWidth,windowHeight
 	size = min width,height
-	radius2 = size/10
+	radius2 = size/12
 	radius1 = size/2-radius2 
 	radius3 = 0.6*radius1
 	radius4 = radius1 - radius2
@@ -60,6 +60,7 @@ drawMaxWord = ->
 	push()
 	translate width/2,height/2
 	textSize 2 * radius5
+	rd 30
 	for ch,i in maxWords
 		push()
 		translate radius3,0
@@ -67,7 +68,7 @@ drawMaxWord = ->
 		if maxWord == i then fc 1 else fc 0
 		text ch,0,0
 		pop()
-		rd 60
+		rd 360/maxWords.length
 	pop()
 
 draw = ->
@@ -110,8 +111,8 @@ handleMousePressed = ->
 		# digit
 		n = maxWords.length
 		for i in range n
-			x = width/2  + radius3 * cos radians i/n * 360
-			y = height/2 + radius3 * sin radians i/n * 360
+			x = width/2  + radius3 * cos radians 30 + i/n * 360
+			y = height/2 + radius3 * sin radians 30 + i/n * 360
 			if radius5 > dist mouseX,mouseY,x,y
 				maxWord = i
 				words = selectWords()
