@@ -6,9 +6,6 @@ eslint-disable
 # Prova även print10. dvs \/
 
 import React, {Component } from 'react'
-import ReactDom from 'react-dom-factories' 
-{div, header, img, h1, p, code, input, button} = ReactDom
-
 
 export default class App extends Component 
 	constructor : ->
@@ -24,7 +21,8 @@ export default class App extends Component
 	handleChange : (e) -> @setState {txt : e.target.value, result:''}
 
 	render : ->
-		div {},
-			input onChange : @handleChange.bind(@), value:@state.txt
-			button onClick : @handleClick.bind(@), "choose"
-			p style : {fontFamily: 'courier'}, @state.result
+		<div>
+			<input onChange={@handleChange.bind(@)} value={@state.txt}/>
+			<button onClick={@handleClick.bind(@)}>choose</button>
+			<p style={{fontFamily: 'courier'}}>{@state.result}</p>
+		</div>
