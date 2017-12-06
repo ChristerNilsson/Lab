@@ -33,6 +33,8 @@ setup = ->
 	radius5 = size/20
 	wordList = _.shuffle ordlista.split ' '
 	words = selectWords()
+	for word,i in words
+		words[i] = words[i].toLowerCase()
 	textAlign CENTER,CENTER
 	#listCircular()
 	print wordList.length
@@ -72,7 +74,10 @@ draw = ->
 	bg 0.5
 	drawMaxWord()
 	textSize size/12
+
 	text solution, width/2,height-size/10
+	#text solution + '|' + possibleWords.join(' '), width/2,height-size/10
+
 	textSize size/4
 	if direction == 1 then fc 0,1,0 else fc 1,0,0
 	text level,width/2,height/2 
@@ -124,7 +129,6 @@ handleMousePressed = ->
 					return newGame 1
 				else
 					return newGame -1
-	false # to prevent double click on Android
 
 reverseString = (str) -> str.split("").reverse().join ""
 
@@ -136,6 +140,7 @@ mousePressed = ->
 	if !released then return # to make Android work 
 	released = false
 	handleMousePressed()
+	false # to prevent double click on Android
 
 touchStarted = -> handleMousePressed()
 
