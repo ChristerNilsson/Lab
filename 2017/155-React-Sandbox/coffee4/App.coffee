@@ -9,8 +9,8 @@ eslint-disable
 import React, { Component } from 'react'
 import _ from 'lodash'
 
-M = 30 # 90
-N = 30 # 44
+M = 90
+N = 44
 
 assert = console.assert
 print = console.log
@@ -23,7 +23,7 @@ assert true  == xor false,true
 assert true  == xor true,false
 assert false == xor true,true
 
-matrix = (m, n) -> Array.from {length: m}, () => new Array(n).fill 0
+matrix = (m, n) -> Array.from {length: m}, () => new Array(n).fill false
 
 class CheckBox extends Component 
 	render : -> <input type = "checkbox" checked = {@props.value} />
@@ -32,9 +32,6 @@ export default class App extends Component
 	constructor : ->
 		super()
 		mat = matrix M,N
-		for i in range M 
-			for j in range N 
-				mat[i][j] = false
 		@state = 
 			mat : mat
 			x : M/2
@@ -44,29 +41,22 @@ export default class App extends Component
 			r : 6
 
 	next : ->
-		x = @state.x
-		y = @state.y
-		r = @state.r
-		vx = @state.vx
-		vy = @state.vy
-		if not (r <= x <= M-r) then vx=-vx 
-		if not (r <= y <= N-r) then vy=-vy
+		{mat,x,y,r,vx,vy} = @state
+		if not (r <= x <= M-r) then vx = -vx 
+		if not (r <= y <= N-r) then vy = -vy
 		x += vx
 		y += vy
-		mat = @state.mat
 		for i in range M 
 			for j in range N 
 				mat[i][j] = dist(x-i,y-j) < r*r 
 		@setState {mat,x,y,vx,vy}
 
 	render : ->
-		<div> {
-			for j in range N 
-				<div> {
-				for i in range N 
-					<CheckBox value={@state.mat[i][j]}/>
+		<div> { range(N).map (j) =>  
+			<div> { range(M).map (i) => 
+				<CheckBox value={@state.mat[i][j]}/>
 				}
-				</div>
+			</div>
 			}
 			<button onClick = {() => @next()}>click</button>
 		</div>
