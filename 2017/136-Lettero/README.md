@@ -10,10 +10,18 @@ och kan läsas medurs eller moturs
 * Svarar man rätt ökar level med 1
 * Svarar man fel sjunker level med 10%, avrundat uppåt
 
-Klicka på talen 4-15 för att välja längsta möjliga ord
+Klick på övre hörn byter språk
 
-Level sparas lokalt för varje språk.
-Rensas om rensar internethistorik i Chrome med
-_Clear browsing data_ | _Cookies and other site data_
+Klicka på nedre hörn väljer längsta möjliga ord
 
-Totalt antal ord: 64.411
+Klick på level förklarar ett ord. (Svenska enbart)
+
+Level sparas lokalt:
+* per användare
+* per språk
+* per dator
+
+Rensas om man rensar internethistorik i Chrome med
+* _History_
+* _Clear browsing data_ 
+* _Cookies and other site data_
