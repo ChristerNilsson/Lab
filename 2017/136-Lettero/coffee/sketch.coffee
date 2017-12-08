@@ -1,6 +1,3 @@
-# Originalkod i 136-Lettero
-# Kopieras till 140-LetteroEng
-
 wordList = null
 words = null
 index = 0
@@ -19,26 +16,64 @@ radius5 = null # siffrans radie
 possibleWords = []
 solution = ""
 dt = 0 
-maxWords = [4,5,6,7,8,9,10,11,12,13,14,15]
-maxWord = 0
+maxWord = 4 # 4..15
+languages = 'dan eng fra ger isl ita nor rus spa swe'.split ' '
+language = 9
+
 released = true 
+buttons = []
+
+class Button
+	constructor : (@txt,@r1,@degrees,@r2,@f) ->
+		@x = @r1 * cos radians @degrees
+		@y = @r1 * sin radians @degrees
+
+	draw : ->
+		fc 1
+		circle @x,@y,@r2
+		fc 0
+		text @txt,@x,@y
+
+	mousePressed : (mx,my) -> if @r2 > dist(mx,my,width/2+@x,height/2+@y) then @f()
 
 setup = ->
+
+	language = languages.indexOf document.title.toLowerCase().split(' ')[1] 
+	url = new URL window.location.href
+	params = url.searchParams
+	maxWord = params.get "a"
+	maxWord = if maxWord then parseInt maxWord else 4   
+
 	createCanvas windowWidth,windowHeight
 	size = min width,height
 	radius2 = size/12
-	radius1 = size/2-radius2 
+	radius1 = 0.5*size-radius2 
 	radius3 = 0.6*radius1
 	radius4 = radius1 - radius2
-	radius5 = size/20
+	radius5 = 0.05*size
+	radius6 = 0.59*size 
 	wordList = _.shuffle ordlista.split ' '
 	words = selectWords()
 	for word,i in words
 		words[i] = words[i].toLowerCase()
 	textAlign CENTER,CENTER
-	#listCircular()
 	print wordList.length
+
+	buttons.push new Button '15',  radius6, 45,     radius2, () => maxWordSize 1 
+	buttons.push new Button '4',   radius6, 45+90,  radius2, () => maxWordSize -1
+	buttons.push new Button 'spa', radius6, 45+270, radius2, () => selLanguage 1
+	buttons.push new Button 'dan', radius6, 45+180, radius2, () => selLanguage -1
 	newGame 1
+
+maxWordSize = (d) ->
+	maxWord = 4 + (maxWord-4+d) %% (15-4+1) 
+	words = selectWords()
+
+selLanguage = (d) ->
+	n = languages.length
+	language = (language+d) %% n 
+	# go to another html file
+	window.location.href = "#{languages[language]}.html?a=#{maxWord}"
 
 newGame = (dLevel) ->
 	solution = possibleWords.join ' '
@@ -56,27 +91,31 @@ newGame = (dLevel) ->
 	angle = 360 * random()
 	false # to prevent double click on Android
 
-drawMaxWord = ->
-	push()
-	translate width/2,height/2
-	textSize 2 * radius5
-	rd 30
-	for ch,i in maxWords
-		push()
-		translate radius3,0
-		rd 90
-		if maxWord == i then fc 1 else fc 0
-		text ch,0,0
-		pop()
-		rd 360/maxWords.length
-	pop()
+wrap = (first,last,value) -> first + (value-first) %% (last-first+1)
 
 draw = ->
 	bg 0.5
-	drawMaxWord()
-	textSize size/12
 
-	text solution, width/2,height-size/10
+	push()
+	translate width/2,height/2
+
+	buttons[0].txt = wrap(4,15,maxWord+1)
+	buttons[1].txt = wrap(4,15,maxWord-1)
+	n = languages.length
+	buttons[2].txt = languages[(language+1)%%n]
+	buttons[3].txt = languages[(language-1)%%n]	
+
+	textSize 0.09 * size 
+	for button in buttons
+		button.draw()
+		
+	textSize 0.11 * size 
+	text "#{languages[language]}-#{maxWord}",0,-0.2*size 
+	textSize 0.06 * size 
+	text solution, 0, 0.18*size
+
+	pop()
+
 	#text solution + '|' + possibleWords.join(' '), width/2,height-size/10
 
 	textSize size/4
@@ -104,18 +143,13 @@ draw = ->
 selectWords = -> 
 	wordList = _.shuffle ordlista.split ' '
 	index = 0
-	w for w in wordList when w.length <= maxWords[maxWord]
+	w for w in wordList when w.length <= maxWord
 
 handleMousePressed = ->
-	if dist(mouseX,mouseY,width/2,height/2) < radius1-radius2 
-		# digit
-		n = maxWords.length
-		for i in range n
-			x = width/2  + radius3 * cos radians 30 + i/n * 360
-			y = height/2 + radius3 * sin radians 30 + i/n * 360
-			if radius5 > dist mouseX,mouseY,x,y
-				maxWord = i
-				words = selectWords()
+	if dist(mouseX,mouseY,width/2,height/2) > radius1+radius2 
+		print mouseX,mouseY
+		for button in buttons
+			button.mousePressed mouseX,mouseY
 	else
 		# letter	
 		n = word.length
@@ -155,13 +189,3 @@ findWords = (word) ->
 		if w in words then res.push w
 		if rw in words then res.push rw
 	_.uniq res
-
-# listCircular = () ->
-# 	print words.length
-# 	antal = 0
-# 	for word in words
-# 		res = findWords word
-# 		if res.length==2
-# 			print res.join ' '
-# 			antal++
-# 	print antal
