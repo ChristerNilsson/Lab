@@ -2,7 +2,7 @@ wordList = null
 words = null
 index = 0
 word = ''
-level = -1
+level = 0
 angle = 0
 direction = 1
 size = null
@@ -36,13 +36,32 @@ class Button
 
 	mousePressed : (mx,my) -> if @r2 > dist(mx,my,width/2+@x,height/2+@y) then @f()
 
+fetchFromLocalStorage = ->
+	lang = languages[language]
+	s = localStorage["lettero-#{lang}"]
+	#print 'fetch',s
+	if s 
+		arr = s.split ' '
+		maxWord = parseInt arr[0]
+		level = parseInt arr[1]
+	else
+		maxWord = 4
+		level = 0
+
+saveToLocalStorage = -> 
+	lang = languages[language]
+	localStorage["lettero-#{lang}"] = "#{maxWord} #{level}"
+	#print 'save',localStorage
+
 setup = ->
 
 	language = languages.indexOf document.title.toLowerCase().split(' ')[1] 
-	url = new URL window.location.href
-	params = url.searchParams
-	maxWord = params.get "a"
-	maxWord = if maxWord then parseInt maxWord else 4   
+	#url = new URL window.location.href
+	#params = url.searchParams
+	#maxWord = params.get "a"
+	#maxWord = if maxWord then parseInt maxWord else 4   
+
+	fetchFromLocalStorage()
 
 	createCanvas windowWidth,windowHeight
 	size = min width,height
@@ -63,17 +82,18 @@ setup = ->
 	buttons.push new Button '4',   radius6, 45+90,  radius2, () => maxWordSize -1
 	buttons.push new Button 'spa', radius6, 45+270, radius2, () => selLanguage 1
 	buttons.push new Button 'dan', radius6, 45+180, radius2, () => selLanguage -1
-	newGame 1
+	newGame 0
 
 maxWordSize = (d) ->
 	maxWord = 4 + (maxWord-4+d) %% (15-4+1) 
+	saveToLocalStorage()
 	words = selectWords()
 
 selLanguage = (d) ->
 	n = languages.length
 	language = (language+d) %% n 
 	# go to another html file
-	window.location.href = "#{languages[language]}.html?a=#{maxWord}"
+	window.location.href = "#{languages[language]}.html"
 
 newGame = (dLevel) ->
 	solution = possibleWords.join ' '
@@ -89,6 +109,9 @@ newGame = (dLevel) ->
 	if 0.5 < random() then word = reverseString word
 	word = word.toUpperCase()
 	angle = 360 * random()
+
+	saveToLocalStorage()
+
 	false # to prevent double click on Android
 
 wrap = (first,last,value) -> first + (value-first) %% (last-first+1)
@@ -145,9 +168,20 @@ selectWords = ->
 	index = 0
 	w for w in wordList when w.length <= maxWord
 
+showWordInfo = -> 
+	arr = solution.split ' '
+	if arr.length == 0 then return 
+	released = true 
+	url = ''
+	lan = languages[language] 
+	if lan == 'swe' then url = "https://svenska.se/tre/?sok=#{arr[0]}"
+	#if lan == 'eng' then url = "https://en.oxforddictionaries.com/definition/#{arr[0]}"
+	if url != '' then window.open url, '_blank' 
+
 handleMousePressed = ->
-	if dist(mouseX,mouseY,width/2,height/2) > radius1+radius2 
-		print mouseX,mouseY
+	if dist(mouseX,mouseY,width/2,height/2) < radius2 
+		showWordInfo()
+	else if dist(mouseX,mouseY,width/2,height/2) > radius1+radius2 
 		for button in buttons
 			button.mousePressed mouseX,mouseY
 	else
@@ -169,7 +203,7 @@ reverseString = (str) -> str.split("").reverse().join ""
 
 mouseReleased = -> # to make Android work 
 	released = true 
-	false
+	false # to prevent double click on Android
 
 mousePressed = ->
 	if !released then return # to make Android work 
@@ -177,7 +211,9 @@ mousePressed = ->
 	handleMousePressed()
 	false # to prevent double click on Android
 
-touchStarted = -> handleMousePressed()
+touchStarted = -> 
+	handleMousePressed()
+	false # to prevent double click on Android
 
 findWords = (word) ->
 	n = word.length
