@@ -10,3 +10,5 @@ För varje subprojekt:
 * 2 NIM
 * 3 Calculator RPN
 * 4 CheckBox Matrix
+* 5 ChessRow
+* 6 SVG
