@@ -1,5 +1,5 @@
 ###
-eslint-disable 
+eslint-disable import/first
 ###
 
 # Calculator RPN
@@ -7,7 +7,7 @@ eslint-disable
 import React, { Component } from 'react'
 
 class Button extends Component 
-	render : -> <button style={{width:50}} onClick = {() => @props.father.calculate @props.cmd}>{@props.cmd}</button>
+	render : -> <button style={{width:50}} onClick = {() => @props.calc @props.cmd}>{@props.cmd}</button>
 
 export default class App extends Component 
 
@@ -21,14 +21,14 @@ export default class App extends Component
 			<div>{@state.z}</div>
 			<div>{@state.y}</div>
 			<div>{@state.x}</div>
-			<div><Button father={@} cmd='clr' /> <Button father={@} cmd='chs' /> <Button father={@} cmd='%' /> <Button father={@} cmd='÷' /> </div>
-			<div><Button father={@} cmd='7' />   <Button father={@} cmd='8' />   <Button father={@} cmd='9' /> <Button father={@} cmd='x' /> </div>
-			<div><Button father={@} cmd='4' />   <Button father={@} cmd='5' />   <Button father={@} cmd='6' /> <Button father={@} cmd='-' /> </div>
-			<div><Button father={@} cmd='1' />   <Button father={@} cmd='2' />   <Button father={@} cmd='3' /> <Button father={@} cmd='+' /> </div>
-			<div><Button father={@} cmd='0' />   <Button father={@} cmd='.' />   <Button father={@} cmd='enter' /> </div>
+			<div><Button calc={@calc} cmd='clr' /> <Button calc={@calc} cmd='chs' />  <Button calc={@calc} cmd='%' /> <Button calc={@calc} cmd='÷' /> </div>
+			<div><Button calc={@calc} cmd='7' />   <Button calc={@calc} cmd='8' />  <Button calc={@calc} cmd='9' /> <Button calc={@calc} cmd='x' /> </div>
+			<div><Button calc={@calc} cmd='4' />   <Button calc={@calc} cmd='5' />  <Button calc={@calc} cmd='6' /> <Button calc={@calc} cmd='-' /> </div>
+			<div><Button calc={@calc} cmd='1' />   <Button calc={@calc} cmd='2' />  <Button calc={@calc} cmd='3' /> <Button calc={@calc} cmd='+' /> </div>
+			<div><Button calc={@calc} cmd='0' />   <Button calc={@calc} cmd='.' />  <Button calc={@calc} cmd='enter' /> </div>
 		</div>
 
-	calculate : (cmd) -> 
+	calc : (cmd) => 
 		if cmd == 'clr'   then @setState {x:'0', y:'0', z:'0', t:'0', entering:false}
 		if cmd == 'enter' then @setState {x:@state.x, y:@state.x, z:@state.y, t:@state.z, entering:false}
 		if cmd == 'chs'   then @setState {x : -@state.x, entering:false}
