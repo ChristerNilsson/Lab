@@ -1,10 +1,10 @@
-# 155
+# 155-React-Sandbox
 
-Detta projekt kan användas för att köra små react-projekt.
+Detta projekt kan användas för att köra många små react-projekt.
 
 För varje subprojekt:
-* Skapa en coffee[n]-katalog 
-* Skapa en ztartProject[n].ahk
+* Skapa en coffee/App[n].coffee fil 
+* Välj App[n].js i index.js:4
 
 * 1 Random
 * 2 NIM
