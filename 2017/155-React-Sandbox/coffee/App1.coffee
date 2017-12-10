@@ -12,17 +12,17 @@ export default class App extends Component
 		super()
 		@state = {txt: '123456', result: ''}
 
+	handleChange : (e) -> @setState {txt : e.target.value, result:''}
+
 	handleClick : ->
 		s = @state.txt
 		n = s.length
 		result = (s[Math.floor(n*Math.random())] for i in [0..49]).join ''
 		@setState {result : @state.result + result + "\n"}
 
-	handleChange : (e) -> @setState {txt : e.target.value, result:''}
-
 	render : ->
 		<div>
-			<input onChange={@handleChange.bind(@)} value={@state.txt}/>
-			<button onClick={@handleClick.bind(@)}>choose</button>
+			<input onChange={(e) => @setState {txt : e.target.value, result:''}} value={@state.txt}/>
+			<button onClick={() => @handleClick()}>choose</button>
 			<p style={{fontFamily: 'courier'}}>{@state.result}</p>
 		</div>
