@@ -8,7 +8,7 @@ Man springer runt och scannar QR-koder för att lösa en matematisk uppgift!
 * Scanna koderna A, B, C och D upprepat tills talen är lika.
 * Gul bakgrund innebär att scanningen lyckats
 * Grön bakgrund innebär att uppgiften är löst!
-* Fungerar på Windows samt iOS. Dvs iPhone och iPad.
+* Fungerar på Windows, Android samt iOS. Dvs iPhone och iPad.
 * Historiken syns näst längst ner.
 * Totaltiden syns längst ner. 
 * Varje operation kostar tio sekunder.
