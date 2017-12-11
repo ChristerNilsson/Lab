@@ -10,9 +10,11 @@ och kan läsas medurs eller moturs
 * Svarar man rätt ökar level med 1
 * Svarar man fel sjunker level med 10%, avrundat uppåt
 
-Klick på övre hörn byter språk
+Klick på övre hörn byter språk. Tar någon sekund.
+* Sker efter nästa klick
 
 Klicka på nedre hörn väljer längsta möjliga ord
+* Sker efter nästa klick
 
 Klick på level förklarar ett ord. (Svenska enbart)
 

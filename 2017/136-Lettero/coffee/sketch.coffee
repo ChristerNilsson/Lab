@@ -19,7 +19,7 @@ dt = 0
 maxWord = 4 # 4..15
 languages = 'dan eng fra ger isl ita nor rus spa swe'.split ' '
 language = 9
-
+currentLanguage = language
 released = true 
 buttons = []
 
@@ -56,6 +56,7 @@ saveToLocalStorage = ->
 setup = ->
 
 	language = languages.indexOf document.title.toLowerCase().split(' ')[1] 
+	currentLanguage = language
 	#url = new URL window.location.href
 	#params = url.searchParams
 	#maxWord = params.get "a"
@@ -92,10 +93,12 @@ maxWordSize = (d) ->
 selLanguage = (d) ->
 	n = languages.length
 	language = (language+d) %% n 
-	# go to another html file
-	window.location.href = "#{languages[language]}.html"
 
 newGame = (dLevel) ->
+	if language != currentLanguage 
+		# go to another html file
+		window.location.href = "#{languages[language]}.html"
+
 	solution = possibleWords.join ' '
 	direction = dLevel
 	extra = int level/10 # straffa med 10% av level.
@@ -179,8 +182,7 @@ showWordInfo = ->
 	if url != '' then window.open url, '_blank' 
 
 handleMousePressed = ->
-	if !released then return # to make Android work 
-	released = false
+	if released then released = false else return # to make Android work 
 	if dist(mouseX,mouseY,width/2,height/2) < radius2 
 		showWordInfo()
 	else if dist(mouseX,mouseY,width/2,height/2) > radius1+radius2 
@@ -207,18 +209,17 @@ mousePressed = ->
 	handleMousePressed()
 	false # to prevent double click on Android
 
-touchStarted = -> 
+touchStarted = ->
 	handleMousePressed()
 	false # to prevent double click on Android
 
-mouseReleased = -> # to make Android work 
+mouseReleased = ->
 	released = true 
 	false # to prevent double click on Android
 
-touchEnded = -> 
+touchEnded = ->
 	released = true 
 	false # to prevent double click on Android
-
 
 findWords = (word) ->
 	n = word.length
