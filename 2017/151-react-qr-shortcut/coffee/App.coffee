@@ -23,6 +23,7 @@ myState =
 	from : 0
 	to   : 0
 	hist : []   
+	level : 0
 	bg   : '#808080' 
 	total : 0
 
@@ -64,6 +65,7 @@ handleExecute = ->
 			total : 0
 			result : 'scan'
 			sida : 0
+			level : level
 	button.title = 'scan'
 	myState.bg = if newFrom == myState.to then '#00FF00' else '#FFFFFF'
 
@@ -140,8 +142,11 @@ sketch = (p) ->
 		button = new Button p,0.5*p.width,0.2*p.height,0.3*p.height,"scan", handleExecute
 
 	p.draw = ->
-		p.background myState.bg
-		button.title = myState.result.split(' ')[0]
+		s = myState
+		p.background s.bg
+		op = s.result.split(' ')[0]
+		if op != 'scan'
+			button.title = s[op]
 
 		p.rectMode p.CENTER
 		p.textSize 0.1*p.height
@@ -151,13 +156,19 @@ sketch = (p) ->
 			littera = 'A B C D'.split(' ')[i]
 			x = p.lerp 0.2*p.width,0.4*p.width,i
 			p.text littera,x,0.45*p.height
-			p.text myState[littera],x,0.6*p.height
-		p.textSize 0.15*p.height 
-		p.text myState.from,0.4*p.width,0.75*p.height
-		p.text myState.to,  0.6*p.width,0.75*p.height
+			p.text s[littera],x,0.6*p.height
+
+		p.textSize 0.25*p.height 
+		p.text s.from,0.2*p.width,0.2*p.height
+		p.text s.to,  0.8*p.width,0.2*p.height
+
 		p.textSize 0.08*p.height
-		p.text myState.hist.join(' '),p.width/2,0.85*p.height
-		p.text myState.total,p.width/2,0.95*p.height
+		p.textAlign p.RIGHT,p.CENTER
+		p.text s.hist.join(' '),0.95*p.width,0.75*p.height
+
+		p.textAlign p.CENTER,p.CENTER
+		p.text s.level-s.hist.length,0.2*p.width,0.9*p.height
+		p.text s.total,0.8*p.width,0.9*p.height
 
 	p.mouseReleased = -> # to make Android work 
 		released = true 
