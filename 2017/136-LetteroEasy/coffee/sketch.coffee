@@ -34,17 +34,15 @@ class Button
 	mousePressed : (mx,my) -> if @r2 > dist(mx,my,width/2+@x,height/2+@y) then @f()
 
 fetchFromLocalStorage = ->
-	s = localStorage["letteroEasy"]
+	s = localStorage["letteroEasy-#{group}"]
 	if s 
 		arr = s.split ' '
-		group = parseInt arr[0]
-		level = parseInt arr[1]
+		level = parseInt arr[0]
 	else
-		group = 0
 		level = 0
 
 saveToLocalStorage = -> 
-	localStorage["letteroEasy"] = "#{group} #{level}"
+	localStorage["letteroEasy-#{group}"] = "#{level}"
 
 setup = ->
 
@@ -66,10 +64,9 @@ setup = ->
 	for word,i in words
 		words[i] = words[i].toLowerCase()
 	textAlign CENTER,CENTER
-	print wordList.length
 
-	buttons.push new Button '+',  radius6, 45,     radius2, () => selGroup 1 
-	buttons.push new Button '-',   radius6, 45+90,  radius2, () => selGroup -1
+	buttons.push new Button '+', radius6, 45,    radius2, () => selGroup 1 
+	buttons.push new Button '-', radius6, 45+90, radius2, () => selGroup -1
 	newGame 0
 
 selGroup = (d) ->
@@ -85,8 +82,7 @@ newGame = (dLevel) ->
 	level += dLevel
 	if level < 0 then level = 0
 	word = words[index]
-	index++
-	index %= words.length
+	index = (index+1) % words.length
 	possibleWords = findWords word
 	if 0.5 < random() then word = reverseString word
 	word = word.toUpperCase()
@@ -137,8 +133,7 @@ draw = ->
 	angle += (millis()-dt)/50
 	dt = millis()
 
-selectWords = -> 
-	wordList = _.shuffle ordlista[group] 
+selectWords = -> _.shuffle ordlista[group]
 
 handleMousePressed = ->
 	if released then released = false else return # to make Android work 
