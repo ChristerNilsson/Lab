@@ -7,12 +7,14 @@ import QrReader from 'react-qr-reader'
 import _ from 'lodash'
 import P5Wrapper from 'react-p5-wrapper'
 
+print = console.log 
+
 millis = -> Date.now()
 button = null
 released = true 
 myState = 
 	delay: 500
-	result: 'scan' # INIT 4 8
+	result: 'scan' # INIT 1
 	A    : ""
 	B    : ""
 	C    : ""
@@ -28,13 +30,13 @@ handleError = (err)-> console.error err
 handleScan = (result) -> 
 	if not result then return  
 	goal = myState.from == myState.to
-	console.log goal, result.indexOf('INIT')
 	if goal and result.indexOf('INIT') != 0 then return 
 	myState.result = result
 	myState.bg = '#FFFF00'
 	button.title = result.split(' ')[0]
 
 handleExecute = ->
+	myState.result = myState.result.replace "  "," "
 	arr = myState.result.split ' '
 	op = arr[0]
 	command = myState[op]
@@ -44,17 +46,18 @@ handleExecute = ->
 	if command =='/2' and myState.from % 2 == 0 then newFrom = save myState.from/2 
 	if command =='undo' and myState.hist.length > 0 then myState.from = myState.hist.pop()
 	if command =='init' 
-		console.log myState.result
 		commands = '+2 *2 /2 undo'.split ' '
 		commands = _.shuffle commands
+		level = parseInt arr[1]
+		[from,to] = createProblem level
 		myState =
 			A : commands[0] 
 			B : commands[1] 
 			C : commands[2] 
 			D : commands[3] 
 			INIT : 'init'
-			from : parseInt arr[1]
-			to : parseInt arr[2]
+			from : from
+			to : to
 			hist : []
 			start : millis()
 			operations : 0
@@ -70,6 +73,27 @@ save = (value) ->
 	myState.operations++
 	myState.total = ((millis()-myState.start)/1000 + 10 * myState.operations).toFixed(3)
 	value
+
+createProblem = (level) ->
+	n = Math.floor Math.pow 2, 4+level/3 # nodes
+	a = Math.floor _.random 1,n/2
+	lst = [a]
+	tree = [a]
+	lst2 = []
+	save1 = (item) ->
+		if Math.floor(item) == item and item <= n
+			if item not in tree
+				lst2.push item
+				tree.push item
+	for j in _.range level
+		lst2 = []
+		for item in lst
+			save1 item+2 
+			save1 item*2
+			if item%2==0 then save1 item/2
+		lst = lst2
+	b = _.sample lst 
+	[a,b]
 
 class Button 
 	constructor : (@p,@x,@y,@r,@title,@f) ->
@@ -113,14 +137,14 @@ sketch = (p) ->
 	p.setup = -> 
 		p.createCanvas p.windowWidth-5, p.windowHeight/2-5
 		p.textAlign p.CENTER,p.CENTER
-		button = new Button p,0.5*p.width,0.2*p.height,0.35*p.height,"scan", handleExecute
+		button = new Button p,0.5*p.width,0.2*p.height,0.3*p.height,"scan", handleExecute
 
 	p.draw = ->
 		p.background myState.bg
 		button.title = myState.result.split(' ')[0]
 
 		p.rectMode p.CENTER
-		p.textSize 40
+		p.textSize 0.1*p.height
 		button.draw p
 		p.fill 0
 		for i in [0..3]
@@ -128,9 +152,10 @@ sketch = (p) ->
 			x = p.lerp 0.2*p.width,0.4*p.width,i
 			p.text littera,x,0.45*p.height
 			p.text myState[littera],x,0.6*p.height
+		p.textSize 0.15*p.height 
 		p.text myState.from,0.4*p.width,0.75*p.height
 		p.text myState.to,  0.6*p.width,0.75*p.height
-		p.textSize 20
+		p.textSize 0.1*p.height
 		p.text myState.hist.join(' '),p.width/2,0.85*p.height
 		p.text myState.total,p.width/2,0.95*p.height
 
