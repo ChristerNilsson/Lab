@@ -29,7 +29,7 @@ class Button
 		@y = @r1 * sin radians @degrees
 
 	draw : ->
-		fc 1
+		fc 0.45
 		circle @x,@y,@r2
 		fc 0
 		text @txt,@x,@y
@@ -179,6 +179,8 @@ showWordInfo = ->
 	if url != '' then window.open url, '_blank' 
 
 handleMousePressed = ->
+	if !released then return # to make Android work 
+	released = false
 	if dist(mouseX,mouseY,width/2,height/2) < radius2 
 		showWordInfo()
 	else if dist(mouseX,mouseY,width/2,height/2) > radius1+radius2 
@@ -201,19 +203,22 @@ handleMousePressed = ->
 
 reverseString = (str) -> str.split("").reverse().join ""
 
-mouseReleased = -> # to make Android work 
-	released = true 
-	false # to prevent double click on Android
-
 mousePressed = ->
-	if !released then return # to make Android work 
-	released = false
 	handleMousePressed()
 	false # to prevent double click on Android
 
 touchStarted = -> 
 	handleMousePressed()
 	false # to prevent double click on Android
+
+mouseReleased = -> # to make Android work 
+	released = true 
+	false # to prevent double click on Android
+
+touchEnded = -> 
+	released = true 
+	false # to prevent double click on Android
+
 
 findWords = (word) ->
 	n = word.length
