@@ -40,8 +40,10 @@ fetchFromLocalStorage = ->
 		level = parseInt arr[0]
 	else
 		level = 0
+	#print 'fetch',group,level
 
 saveToLocalStorage = -> 
+	#print 'save',group,level
 	localStorage["letteroEasy-#{group}"] = "#{level}"
 
 setup = ->
@@ -70,8 +72,9 @@ setup = ->
 	newGame 0
 
 selGroup = (d) ->
-	group = (group + d) %% ordlista.length
 	saveToLocalStorage()
+	group = (group + d) %% ordlista.length
+	fetchFromLocalStorage()
 	words = selectWords()
 
 newGame = (dLevel) ->
@@ -87,9 +90,7 @@ newGame = (dLevel) ->
 	if 0.5 < random() then word = reverseString word
 	word = word.toUpperCase()
 	angle = 360 * random()
-
 	saveToLocalStorage()
-
 	false # to prevent double click on Android
 
 wrap = (first,last,value) -> first + (value-first) %% (last-first+1)
