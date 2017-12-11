@@ -155,7 +155,7 @@ sketch = (p) ->
 		p.textSize 0.15*p.height 
 		p.text myState.from,0.4*p.width,0.75*p.height
 		p.text myState.to,  0.6*p.width,0.75*p.height
-		p.textSize 0.1*p.height
+		p.textSize 0.08*p.height
 		p.text myState.hist.join(' '),p.width/2,0.85*p.height
 		p.text myState.total,p.width/2,0.95*p.height
 
