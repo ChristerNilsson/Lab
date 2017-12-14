@@ -2,6 +2,7 @@ for language in 'swe eng fra dan ger isl ita nor rus spa'.split(' '):
 
 	with open('data/' + language + '.txt','r',encoding='utf-8') as f:
 		words = f.readlines()
+		words.sort()
 		print(language)
 
 	with open('data/' + language +'.js','w',encoding='utf-8') as g:

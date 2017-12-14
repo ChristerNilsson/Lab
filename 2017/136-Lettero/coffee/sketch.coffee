@@ -69,7 +69,6 @@ setup = ->
 	radius6 = 0.59*size 
 
 	wordList = ordlista.split ' '
-	wordList.sort() 
 	words = selectWords()
 
 	textAlign CENTER,CENTER
