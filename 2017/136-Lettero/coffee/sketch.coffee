@@ -1,5 +1,6 @@
-wordList = null
-words = null
+# ordlista: sorterad sträng 
+wordList = null # sorterad array, alla ord
+words = null # osorterad array med word.length <= maxWord
 index = 0
 word = ''
 level = 0
@@ -39,7 +40,6 @@ class Button
 fetchFromLocalStorage = ->
 	lang = languages[language]
 	s = localStorage["lettero-#{lang}"]
-	#print 'fetch',s
 	if s 
 		arr = s.split ' '
 		maxWord = parseInt arr[0]
@@ -51,16 +51,11 @@ fetchFromLocalStorage = ->
 saveToLocalStorage = -> 
 	lang = languages[language]
 	localStorage["lettero-#{lang}"] = "#{maxWord} #{level}"
-	#print 'save',localStorage
 
 setup = ->
 
 	language = languages.indexOf document.title.toLowerCase().split(' ')[1] 
 	currentLanguage = language
-	#url = new URL window.location.href
-	#params = url.searchParams
-	#maxWord = params.get "a"
-	#maxWord = if maxWord then parseInt maxWord else 4   
 
 	fetchFromLocalStorage()
 
@@ -72,13 +67,12 @@ setup = ->
 	radius4 = radius1 - radius2
 	radius5 = 0.05*size
 	radius6 = 0.59*size 
-	wordList = _.shuffle ordlista.split ' '
-	words = selectWords()
-	for word,i in words
-		words[i] = words[i].toLowerCase()
-	textAlign CENTER,CENTER
-	print wordList.length
 
+	wordList = ordlista.split ' '
+	wordList.sort() 
+	words = selectWords()
+
+	textAlign CENTER,CENTER
 	buttons.push new Button '15',  radius6, 45,     radius2, () => maxWordSize 1 
 	buttons.push new Button '4',   radius6, 45+90,  radius2, () => maxWordSize -1
 	buttons.push new Button 'spa', radius6, 45+270, radius2, () => selLanguage 1
@@ -167,9 +161,8 @@ draw = ->
 	dt = millis()
 
 selectWords = -> 
-	wordList = _.shuffle ordlista.split ' '
 	index = 0
-	w for w in wordList when w.length <= maxWord
+	_.shuffle (w for w in wordList when w.length <= maxWord)
 
 showWordInfo = -> 
 	arr = solution.split ' '
@@ -228,6 +221,18 @@ findWords = (word) ->
 	for ch,i in word
 		w = dword.slice i,i+n
 		rw = reverseString(dword).slice n-i-1,n-i+n-1
-		if w in words then res.push w
-		if rw in words then res.push rw
+		if wordList.binaryIndexOf(w) != -1 then res.push w
+		if wordList.binaryIndexOf(rw)!= -1 then res.push rw
 	_.uniq res
+
+Array.prototype.binaryIndexOf = (item) ->
+	'use strict'
+	minIndex = 0
+	maxIndex = @length - 1
+	while minIndex <= maxIndex
+		currIndex = (minIndex + maxIndex) / 2 | 0
+		currItem = @[currIndex]
+		if currItem < item then minIndex = currIndex + 1
+		else if currItem > item then maxIndex = currIndex - 1
+		else return currIndex
+	-1
