@@ -304,6 +304,9 @@ showWordInfo = function showWordInfo() {
     url = 'https://svenska.se/tre/?sok=' + arr[0];
   }
   //if lan == 'eng' then url = "https://en.oxforddictionaries.com/definition/#{arr[0]}"
+  if (lan === 'rus') {
+    url = 'http://poiskslov.com/word/' + arr[0];
+  }
   if (url !== '') {
     return window.open(url, '_blank');
   }
