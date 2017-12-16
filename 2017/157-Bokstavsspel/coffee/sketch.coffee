@@ -3,12 +3,6 @@ game = null
 class Game
 	constructor : -> 
 		@N = 11
-		@size=null
-		@SIZE = null
-		@player = null
-		@enemies = null
-		@interval = null
-		@speed = null
 		@score = 0
 		@highScore = 0
 		@size = min windowWidth,windowHeight
@@ -35,10 +29,10 @@ class Game
 			@interval -= 1
 			@speed *= 1.05
 			r = int random 4
-			while _.size(@enemies)<30
-				letter = _.sample 'abcdefghijklmnopqrstuvwxyzåäö' + '0123456789[]{}().,-+*/%#@=<>'.slice 0,@score
+			while _.size(@enemies) < 30
+				letter = _.sample "'"+ 'abcdefghijklmnopqrstuvwxyzåäö' + '0123456789[]{}().,-+*/%!@#=<>":'.slice 0,@score
 				if letter in _.keys @enemies 
-					if @enemies[letter].active == false then break
+					if not @enemies[letter].active then break
 				else
 					break
 			if r==0 then @enemies[letter] = new Enemy letter,@player.x,0,0,@speed*height/@size	

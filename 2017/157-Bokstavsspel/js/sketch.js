@@ -21,12 +21,6 @@ Game = function () {
     _classCallCheck(this, Game);
 
     this.N = 11;
-    this.size = null;
-    this.SIZE = null;
-    this.player = null;
-    this.enemies = null;
-    this.interval = null;
-    this.speed = null;
     this.score = 0;
     this.highScore = 0;
     this.size = min(windowWidth, windowHeight);
@@ -65,9 +59,9 @@ Game = function () {
         this.speed *= 1.05;
         r = int(random(4));
         while (_.size(this.enemies) < 30) {
-          letter = _.sample('abcdefghijklmnopqrstuvwxyzåäö' + '0123456789[]{}().,-+*/%#@=<>'.slice(0, this.score));
+          letter = _.sample("'" + 'abcdefghijklmnopqrstuvwxyzåäö' + '0123456789[]{}().,-+*/%!@#=<>":'.slice(0, this.score));
           if (indexOf.call(_.keys(this.enemies), letter) >= 0) {
-            if (this.enemies[letter].active === false) {
+            if (!this.enemies[letter].active) {
               break;
             }
           } else {
