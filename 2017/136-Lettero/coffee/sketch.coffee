@@ -171,7 +171,7 @@ showWordInfo = ->
 	lan = languages[language] 
 	if lan == 'swe' then url = "https://svenska.se/tre/?sok=#{arr[0]}"
 	#if lan == 'eng' then url = "https://en.oxforddictionaries.com/definition/#{arr[0]}"
-	if lan == 'rus' then url = "http://poiskslov.com/word/#{arr[0]}"
+	if lan == 'rus' then url = "https://ru.wiktionary.org/w/index.php?search=#{arr[0]}"
 	if url != '' then window.open url, '_blank' 
 
 handleMousePressed = ->
