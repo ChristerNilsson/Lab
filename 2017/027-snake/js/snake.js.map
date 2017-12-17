@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "snake.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\snake.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;AAAA,IAAA;IAAA;;;;AAAM,AAAN;AACE,AAAc;mFAAO,aAAa,AAAb,IAAgB,AAAhB,AAAP;kFAAiC,AAAjC;oFAA2C,AAA3C;mFAAoD,AAApD;;;;AAAC,AAAC,SAAA;AAA0B,AAAC,SAAA;AAAO,AAAC,SAAA;AAAS,AAAC,SAAA,OAA/C;AAEd,AAAM;;;;wBAAC,AAAD,KACJ;UAAA;AAAA,UAAI,KAAK,AAAC,KAAA,AAAI,KAAC,AAAX,GAAc,AAAC,KAAA,AAAI,KAAC,AAApB,GAAuB,AAAG,IAAC,AAA3B,GAA8B,AAAG,IAAC,AAAlC;AACJ,UAAG,MAAK,AAAR;AAAe,AAAC,aAAA,AAAD,AAAf;;aACA,MAAK,AAHD;AAKN,AAAQ;;;4BACN;UAAA,GAAA,GAAA,KAAA,KAAA,KAAA;iBAAA;;AAAA,WAAA,kCAAA;;AACE,YAAI,KAAK,AAAC,KAAA,AAAI,KAAC,AAAX,GAAc,AAAC,KAAA,AAAI,KAAC,AAApB,GAAuB,AAAG,IAAC,AAA3B,GAA8B,AAAG,IAAC,AAAlC;AACJ,YAAG,MAAK,AAAR;AACE,gBAAM,AAAN;AACA,AAAC,eAAA,AAAD,QAAS;uBACT,AAAC,KAAA,AAAD,OAAQ,AAHV;AAAA,eAAA;4BAAA;AAFF;AAAA;aADM;AAQR,AAAS;;;;AACP,AAAC,WAAA,AAAI,KAAC,AAAN,QAAc,AAAC,KAAA,AAAf;AACA,UAAG,AAAC,KAAA,AAAD,SAAU,AAAC,KAAA,AAAI,KAAC,AAAnB;AAA+B,AAAC,aAAA,AAAI,KAAC,AAAN,AAA/B;;aACA,AAAC,KAAA,AAAD,OAAQ,oBAAc,AAAC,KAAA,AAAI,KAAC,AAAN,IAAU,CAAC,AAAD,GAAG,AAAH,GAAK,CAAC,AAAN,GAAQ,AAAR,AAAW,GAAA,AAAC,KAAA,AAAD,MAAU,AAA7C,WAAiD,AAAC,KAAA,AAAI,KAAC,AAAN,IAAU,CAAC,AAAD,GAAG,AAAH,GAAK,AAAL,GAAO,CAAC,AAAR,AAAW,GAAA,AAAC,KAAA,AAAD,MAAU,AAAhF,AAHD;AAKT,AAAO;;;2BAAG;UAAA,GAAA,KAAA,KAAA,KAAA;kCAAA;;AAAA,WAAA,kCAAA;;qBAAA,QAAQ,AAAR,KAAa,MAAM,AAAN,AAAb;AAAA;aAAH;AArBT",
+  "sourcesContent": [
+    "class Snake\r\n  constructor : (@head=createVector(10,10), @dir=0, @total=1, @tail=[]) -> \r\n\r\n  eat : (pos) ->\r\n    d = dist @head.x, @head.y, pos.x, pos.y\r\n    if d == 0 then @total++\r\n    d == 0\r\n\r\n  death : ->\r\n    for pos in @tail\r\n      d = dist @head.x, @head.y, pos.x, pos.y\r\n      if d == 0 \r\n        print 'starting over'\r\n        @total = 1\r\n        @tail = []\r\n\r\n  update : ->\r\n    @tail.unshift @head\r\n    if @total <= @tail.length then @tail.pop()\r\n    @head = createVector (@head.x + [1,0,-1,0][@dir]) %% n, (@head.y + [0,1,0,-1][@dir]) %% n\r\n\r\n  show : -> kvadrat pos, color 255 for pos in @tail.concat @head"
+  ]
+}

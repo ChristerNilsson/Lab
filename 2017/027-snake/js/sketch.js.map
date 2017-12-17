@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,MAAA,MAAA,YAAA,SAAA,GAAA,cAAA,OAAA,MAAA;;AAAA,QAAQ;;AACR,OAAO;;AACP,IAAI;;AACJ,OAAO;;AAEP,UAAU,iBAAC,AAAD,KAAK,AAAL;AACR,OAAK,AAAL;SACA,KAAK,OAAK,AAAG,IAAC,AAAd,GAAiB,OAAK,AAAG,IAAC,AAA1B,GAA6B,AAA7B,MAAmC,AAAnC,AAFQ;;;AAIV,QAAQ;AACN,eAAa,AAAb,KAAkB,AAAlB;AACA,UAAQ,IAAI,AAAJ;AACR,YAAU,AAAV;SACA,AAJM;;;AAMR,eAAe;SAAG,OAAO,aAAa,MAAM,OAAO,AAAP,GAAS,AAAT,AAAN,AAAb,KAAiC,MAAM,OAAO,AAAP,GAAS,AAAT,AAAN,AAAjC,AAAV;;;AAEf,OAAQ;AACN,aAAW,AAAX;AAEA,MAAG,AAAK,MAAC,AAAN,IAAU,AAAV,AAAH;AAAuB,AAAvB;;AAEA,AAAK,QAAC,AAAN;AACA,AAAK,QAAC,AAAN;AACA,AAAK,QAAC,AAAN;SAEA,QAAQ,AAAR,MAAc,MAAM,AAAN,KAAU,AAAV,GAAY,AAAZ,AAAd,AATM;;;AAWR,aAAa;AACX,MAAG,YAAW,AAAd;AAA+B,AAAK,UAAC,AAAN,MAAY,CAAC,AAAD,GAAG,AAAH,GAAK,AAAL,GAAO,AAAP,AAAU,GAAA,AAAK,MAAC,AAAN,AAArD;;AACA,MAAG,YAAW,AAAd;WAA8B,AAAK,MAAC,AAAN,MAAY,CAAC,AAAD,GAAG,AAAH,GAAK,AAAL,GAAO,AAAP,AAAU,GAAA,AAAK,MAAC,AAAN,AAApD;AAFW",
+  "sourcesContent": [
+    "snake = null\r\nside = 20\r\nn = 30\r\nfood = null\r\n\r\nkvadrat = (pos,color) -> \r\n  fill color\r\n  rect side*pos.x, side*pos.y, side, side\r\n\r\nsetup = ->\r\n  createCanvas 600, 600\r\n  snake = new Snake()\r\n  frameRate 10\r\n  pickLocation()\r\n\r\npickLocation = -> food = createVector floor(random(0,n)), floor(random(0,n))\r\n\r\ndraw =  ->\r\n  background 51\r\n\r\n  if snake.eat food then pickLocation()\r\n  \r\n  snake.death()\r\n  snake.update()\r\n  snake.show()\r\n\r\n  kvadrat food, color 255,0,100\r\n\r\nkeyPressed = ->\r\n  if keyCode == RIGHT_ARROW then snake.dir = [1,2,3,0][snake.dir]\r\n  if keyCode == LEFT_ARROW then snake.dir = [3,0,1,2][snake.dir]"
+  ]
+}
