@@ -1,16 +1,16 @@
 data = 
-	'1' : [0,60,'Dagens sushi 7 bitar: 3 lax 1 räka 1 ägg 2 rullar']
-	'2' : [0,75,'Liten sushi 9 bitar: 4 lax 1 räka 1 ägg 3 rullar']
-	'6A' : [0,75,'Lax Avokado Rullar: 3 lax 3 avokado 3 rullar']
-	'6B' : [0,100,'Lax Avokado Rullar: 4 lax 4 avokado 4 rullar']
+	'1' : [0,60,"Dagens sushi 7 bitar 3lax räka ägg 2rullar"]
+	'2' : [0,75,'Liten sushi 9 bitar: 4lax räka ägg 3rullar']
+	'6A' : [0,75,'Lax Avokado Rullar: 3lax 3avokado 3rullar']
+	'6B' : [0,100,'Lax Avokado Rullar: 4lax 4avokado 4rullar']
 	'20A' : [0,110,'Lycka special 10 bitar: Lax']
 	'20B' : [0,120,'Lycka special 10 bitar: Spice tonfisk roll']
-	'20C' : [0,125,'Lycka special 10 bitar: Lax och avokado']
-	'60A' : [0,90, 'Bento Låda: 2 lax 1 räka 1 ägg 4 dumplings 2 vårrullar ris']
-	'60B' : [0,105,'Bento Låda: 2 lax 1 räka 1 ägg 4 dumplings 2 vårrullar 2 kycklingspett ris']
-	'60C' : [0,115,'Bento Låda: 2 lax 1 räka 1 ägg 4 dumplings 2 vårrullar yakiniku ris']
-	'60D' : [0,130,'Bento Låda: 2 lax 1 räka 1 ägg 2 vårrullar 2 kycklingspett yakiniku ris']
-	'60E' : [0,145,'Bento Låda: 2 lax 1 räka 1 ägg 4 dumplings 2 vårrullar 2 kycklingspett 3 friterad scampi ris']
+	'20C' : [0,125,'Lycka special 10 bitar: Lax avokado']
+	'60A' : [0,90, 'Bento: 2lax räka ägg 4dumpl 2vårrullar ris']
+	'60B' : [0,105,'Bento: 2lax räka ägg 4dumpl 2vårrullar 2kycklingspett ris']
+	'60C' : [0,115,'Bento: 2lax räka ägg 4dumpl 2vårrullar yakiniku ris']
+	'60D' : [0,130,'Bento: 2lax räka ägg 2vårrullar 2kycklingspett yakiniku ris']
+	'60E' : [0,145,'Bento: 2lax räka ägg 4dumpl 2vårrullar 2kycklingspett 3fritScampi ris']
 
 setup = ->
 	body = document.getElementById "body"
@@ -21,17 +21,19 @@ setup = ->
 			b1 = document.createElement "input"
 			b1.type = 'button'
 			b1.value = id + '. ' + t1 + ' ' + pris + 'kr'
+			b1.style = "white-space: normal; height: 40px; width:300px; text-align:left"
 
 			b2 = document.createElement "input"
 			b2.type = 'button'
 			b2.value = antal
+			b2.style = ""
 
 			body.appendChild document.createElement "br"
 			body.appendChild b2
 			body.appendChild b1
 
-			b2.onclick = () -> update b2,item,+1
-			b1.onclick = () -> if b2.value > 0 then update b2,item,-1
+			b1.onclick = () -> update b2,item,+1
+			b2.onclick = () -> if b2.value > 0 then update b2,item,-1
 
 	total = document.createElement "input"
 	total.type = 'button'
