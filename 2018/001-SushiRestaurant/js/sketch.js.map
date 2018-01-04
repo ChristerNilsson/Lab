@@ -6,8 +6,8 @@
     "coffee\\sketch.coffee"
   ],
   "names": [],
-  "mappings": ";;;AAAA,IAAA,MAAA,cAAA;;AAAA,QAAQ;SACP,aAAa,AAAb,KAAiB,AAAjB,AADO;;;AAGR,OAAO;SACN,GAAG,AAAH,GAAK,AAAL,GAAO,AAAP,AADM;;;AAGP,eAAe,wBAAA;;SAEd,AAAM,OAAC,AAAQ,SAAC,AAAhB,OAAuB,AAFT;;;AANf",
+  "mappings": ";;;AAAA,IAAA,MAAA,cAAA;;AAAA,QAAQ;SACP,aAAa,AAAb,KAAiB,AAAjB,AADO;;;AAGR,OAAO;SACN,GAAG,AAAH,GAAK,AAAL,GAAO,AAAP,AADM;;;AAGP,eAAe,wBAAA;;SAEd,AAAM,OAAC,AAAQ,SAAC,AAAhB,OAAuB,AAFT",
   "sourcesContent": [
-    "setup = ->\r\n\tcreateCanvas 400,400\r\n\r\ndraw = ->\r\n\tbg 1,0,0\r\n\r\nmousePressed = ->\r\n\t#window.location.href = \"sms://+46707496800;?&body=message%20more%20message\"\r\n\twindow.location.href = \"sms:+46707496800&body=message\"\r\n\t#window.open 'sms:+46707496800?body=SUBSCRIBE' # , '_self'\t\r\n"
+    "setup = ->\r\n\tcreateCanvas 400,400\r\n\r\ndraw = ->\r\n\tbg 1,0,1\r\n\r\nmousePressed = ->\r\n\t#window.location.href = \"sms:+46707496800&body=message\" # iOS ok!\r\n\twindow.location.href = \"sms:+46707496800?&body=message\" # \r\n"
   ]
 }
