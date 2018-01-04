@@ -12,6 +12,6 @@ draw = function draw() {
 };
 
 mousePressed = function mousePressed() {
-  return window.open('sms:+46707496800?body=SUBSCRIBE', '_self');
+  return window.open('sms:+46707496800?body=SUBSCRIBE'); // , '_self'
 };
 //# sourceMappingURL=sketch.js.map
