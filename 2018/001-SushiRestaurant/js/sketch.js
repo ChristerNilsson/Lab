@@ -8,11 +8,11 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  return bg(1, 0, 1);
+  return bg(1, 1, 0);
 };
 
 mousePressed = function mousePressed() {
   //window.location.href = "sms:+46707496800&body=message" # iOS ok!
-  return window.location.href = "sms:+46707496800?&body=message";
+  return window.location.href = "sms://+46707496800?&body=message";
 };
 //# sourceMappingURL=sketch.js.map
