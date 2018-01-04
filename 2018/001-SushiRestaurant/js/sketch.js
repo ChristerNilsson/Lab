@@ -8,7 +8,7 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  return bg(0.5);
+  return bg(1, 0, 0);
 };
 
 mousePressed = function mousePressed() {
