@@ -12,6 +12,6 @@ draw = function draw() {
 };
 
 mousePressed = function mousePressed() {
-  return window.location.href = "sms:+46707496800?body=Hello";
+  return window.location.href = "smsto:+46707496800?body=Hello";
 };
 //# sourceMappingURL=sketch.js.map

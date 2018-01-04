@@ -8,6 +8,6 @@
   "names": [],
   "mappings": ";;;AAAA,IAAA,MAAA,cAAA;;AAAA,QAAQ;SACP,aAAa,AAAb,KAAiB,AAAjB,AADO;;;AAGR,OAAO;SACN,GAAG,AAAH,AADM;;;AAGP,eAAe;SACd,AAAM,OAAC,AAAQ,SAAC,AAAhB,OAAuB,AADT",
   "sourcesContent": [
-    "setup = ->\r\n\tcreateCanvas 400,400\r\n\r\ndraw = ->\r\n\tbg 0.5\r\n\r\nmousePressed = ->\r\n\twindow.location.href = \"sms:+46707496800?body=Hello\""
+    "setup = ->\r\n\tcreateCanvas 400,400\r\n\r\ndraw = ->\r\n\tbg 0.5\r\n\r\nmousePressed = ->\r\n\twindow.location.href = \"smsto:+46707496800?body=Hello\""
   ]
 }
