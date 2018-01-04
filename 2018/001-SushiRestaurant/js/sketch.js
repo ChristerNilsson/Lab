@@ -8,12 +8,12 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  return bg(0, 1, 0);
+  return bg(0, 1, 1);
 };
 
 mousePressed = function mousePressed() {
   //window.location.href = "sms://+46707496800;?&body=message%20more%20message"
-  return window.location.href = "sms://+46707496800";
+  return window.location.href = "sms:+46707496800";
 };
 
 //window.open 'sms:+46707496800?body=SUBSCRIBE' # , '_self'
