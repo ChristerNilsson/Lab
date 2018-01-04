@@ -1,44 +1,45 @@
-data = 
-	'1' : [0,60,"Dagens sushi 7 bitar 3lax räka ägg 2rullar"]
-	'2' : [0,75,'Liten sushi 9 bitar: 4lax räka ägg 3rullar']
-	'6A' : [0,75,'Lax Avokado Rullar: 3lax 3avokado 3rullar']
-	'6B' : [0,100,'Lax Avokado Rullar: 4lax 4avokado 4rullar']
-	'20A' : [0,110,'Lycka special 10 bitar: Lax']
-	'20B' : [0,120,'Lycka special 10 bitar: Spice tonfisk roll']
-	'20C' : [0,125,'Lycka special 10 bitar: Lax avokado']
-	'60A' : [0,90, 'Bento: 2lax räka ägg 4dumpl 2vårrullar ris']
-	'60B' : [0,105,'Bento: 2lax räka ägg 4dumpl 2vårrullar 2kycklingspett ris']
-	'60C' : [0,115,'Bento: 2lax räka ägg 4dumpl 2vårrullar yakiniku ris']
-	'60D' : [0,130,'Bento: 2lax räka ägg 2vårrullar 2kycklingspett yakiniku ris']
-	'60E' : [0,145,'Bento: 2lax räka ägg 4dumpl 2vårrullar 2kycklingspett 3fritScampi ris']
-
 setup = ->
 	body = document.getElementById "body"
-	for id,item of data
+	table = document.createElement "table"
+	body.appendChild table
+	for item in data
 		do (item) ->
-			[antal,pris,t1] = item
+			[id,antal,pris,text] = item
 
 			b1 = document.createElement "input"
 			b1.type = 'button'
-			b1.value = id + '. ' + t1 + ' ' + pris + 'kr'
-			b1.style = "white-space: normal; height: 40px; width:300px; text-align:left"
+			b1.value = text
+			b1.style = "white-space:normal; height:40px; width:300px; text-align:left"
 
 			b2 = document.createElement "input"
 			b2.type = 'button'
-			b2.value = antal
-			b2.style = ""
-
-			body.appendChild document.createElement "br"
-			body.appendChild b2
-			body.appendChild b1
+			b2.value = if antal==0 then "" else antal
+			b2.id = id
+			b2.style = 'font-size:32px; height:40px; width:50px'
 
 			b1.onclick = () -> update b2,item,+1
 			b2.onclick = () -> if b2.value > 0 then update b2,item,-1
 
+			tr = document.createElement "tr"
+			td0 = document.createElement "td"
+			td1 = document.createElement "td"
+			td2 = document.createElement "td"
+			table.appendChild tr
+			tr.appendChild td0
+			tr.appendChild td1
+			tr.appendChild td2
+			div = document.createElement "div"
+			div.innerHTML = '<b>' + id + '</b><br>' + pris + ':-'
+			td0.appendChild div
+			td1.appendChild b1
+			td2.appendChild b2
+
 	total = document.createElement "input"
 	total.type = 'button'
 	total.id = 'total'
-	total.value = 0
+	total.value = "0:-"
+	total.onclick = () -> clr()
+
 	body.appendChild document.createElement "br"
 	body.appendChild document.createElement "br"
 	body.appendChild total
@@ -46,25 +47,37 @@ setup = ->
 	send = document.createElement "input"
 	send.type = 'button'
 	send.value = 'Send'
-	send.onclick = () -> print 'send',total.value
+	send.onclick = () -> 
+		total = document.getElementById "total"
+		if total.value == "0:-" then return
+		print 'send',total.value
+		clr()
 	body.appendChild document.createElement "br"
 	body.appendChild send
 
+clr = ->
+	for item in data
+		item[1] = 0
+		button = document.getElementById item[0]
+		button.value = ''
+	total.value = "0:-"
+
 update = (b,item,delta) ->
-	b.value = item[0] += delta
+	item[1] += delta
+	b.value = if item[1]==0 then "" else item[1]
 	s = ''
 	t = 0
-	for id,item of data
-		[antal,pris,t1,t2] = item
+	for [id,antal,pris,text] in data
 		if antal == 1 
 			s += id + ' '
 		else if antal > 1
-			s += antal + 'x' + id + ' '
+			s += id + 'x' + antal + ' '
 		t += antal * pris
 	total = document.getElementById "total"
-	total.value = s + t + 'kr'
+	total.value = s + t + ':-'
 
-#mousePressed = ->
+mousePressed = ->
+	total = document.getElementById "total"
 	#window.location.href = "sms:+46707496800&body=message" # iOS ok!
-	##window.location.href = "sms://+46707496800?&body=message" # iOS ok
+	window.location.href = "sms://+46707496800?&body=" + total.value # iOS ok
 	#window.location = "sms://+46707496800" # 
