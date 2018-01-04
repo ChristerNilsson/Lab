@@ -4,5 +4,9 @@ setup = ->
 draw = ->
 	bg 0.5
 
-mousePressed = ->
-	window.location.href = "smsto:+46707496800?body=Hello"
+# mousePressed = ->
+# 	try
+# 		window.location.href = "smsto:+46707496800?body=Hello"
+# 		alert 'ok'		
+# 	catch err
+# 		alert err.message

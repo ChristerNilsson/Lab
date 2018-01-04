@@ -6,8 +6,8 @@
     "coffee\\sketch.coffee"
   ],
   "names": [],
-  "mappings": ";;;AAAA,IAAA,MAAA,cAAA;;AAAA,QAAQ;SACP,aAAa,AAAb,KAAiB,AAAjB,AADO;;;AAGR,OAAO;SACN,GAAG,AAAH,AADM;;;AAGP,eAAe;SACd,AAAM,OAAC,AAAQ,SAAC,AAAhB,OAAuB,AADT",
+  "mappings": ";;;AAAA,IAAA,MAAA;;AAAA,QAAQ;SACP,aAAa,AAAb,KAAiB,AAAjB,AADO;;;AAGR,OAAO;SACN,GAAG,AAAH,AADM;;;AAHP",
   "sourcesContent": [
-    "setup = ->\r\n\tcreateCanvas 400,400\r\n\r\ndraw = ->\r\n\tbg 0.5\r\n\r\nmousePressed = ->\r\n\twindow.location.href = \"smsto:+46707496800?body=Hello\""
+    "setup = ->\r\n\tcreateCanvas 400,400\r\n\r\ndraw = ->\r\n\tbg 0.5\r\n\r\n# mousePressed = ->\r\n# \ttry\r\n# \t\twindow.location.href = \"smsto:+46707496800?body=Hello\"\r\n# \t\talert 'ok'\t\t\r\n# \tcatch err\r\n# \t\talert err.message"
   ]
 }
