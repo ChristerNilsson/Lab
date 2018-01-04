@@ -50,8 +50,11 @@ setup = ->
 	send.onclick = () -> 
 		total = document.getElementById "total"
 		if total.value == "0:-" then return
-		print 'send',total.value
+		#window.location.href = "sms:+46707496800&body=message" # iOS ok!
+		window.location.href = "sms://+46707496800?&body=" + total.value # iOS ok
+		#window.location = "sms://+46707496800" # 
 		clr()
+
 	body.appendChild document.createElement "br"
 	body.appendChild send
 
@@ -75,9 +78,3 @@ update = (b,item,delta) ->
 #		t += antal * pris
 	total = document.getElementById "total"
 	total.value = t + ':-'
-
-mousePressed = ->
-	total = document.getElementById "total"
-	#window.location.href = "sms:+46707496800&body=message" # iOS ok!
-	window.location.href = "sms://+46707496800?&body=" + total.value # iOS ok
-	#window.location = "sms://+46707496800" # 
