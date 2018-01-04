@@ -65,16 +65,16 @@ clr = ->
 update = (b,item,delta) ->
 	item[1] += delta
 	b.value = if item[1]==0 then "" else item[1]
-	s = ''
+#	s = ''
 	t = 0
-	for [id,antal,pris,text] in data
-		if antal == 1 
-			s += id + ' '
-		else if antal > 1
-			s += id + 'x' + antal + ' '
-		t += antal * pris
+#	for [id,antal,pris,text] in data
+#		if antal == 1 
+#			s += id + ' '
+#		else if antal > 1
+#			s += id + 'x' + antal + ' '
+#		t += antal * pris
 	total = document.getElementById "total"
-	total.value = s + t + ':-'
+	total.value = t + ':-'
 
 mousePressed = ->
 	total = document.getElementById "total"

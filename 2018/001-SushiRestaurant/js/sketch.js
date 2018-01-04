@@ -92,28 +92,19 @@ clr = function clr() {
 };
 
 update = function update(b, item, delta) {
-  var antal, i, id, len, pris, s, t, text, total;
+  var t, total;
   item[1] += delta;
   b.value = item[1] === 0 ? "" : item[1];
-  s = '';
+  //	s = ''
   t = 0;
-  for (i = 0, len = data.length; i < len; i++) {
-    var _data$i = _slicedToArray(data[i], 4);
-
-    id = _data$i[0];
-    antal = _data$i[1];
-    pris = _data$i[2];
-    text = _data$i[3];
-
-    if (antal === 1) {
-      s += id + ' ';
-    } else if (antal > 1) {
-      s += id + 'x' + antal + ' ';
-    }
-    t += antal * pris;
-  }
+  //	for [id,antal,pris,text] in data
+  //		if antal == 1 
+  //			s += id + ' '
+  //		else if antal > 1
+  //			s += id + 'x' + antal + ' '
+  //		t += antal * pris
   total = document.getElementById("total");
-  return total.value = s + t + ':-';
+  return total.value = t + ':-';
 };
 
 mousePressed = function mousePressed() {
