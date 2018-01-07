@@ -24,12 +24,12 @@ setup = function setup() {
     b1 = document.createElement("input");
     b1.type = 'button';
     b1.value = text;
-    b1.style = "font-size:20px; white-space:normal; height:80px; width:" + 0.8 * w + "px; text-align:left";
+    b1.style = "font-size:20px; white-space:normal; height:80px; width:" + 0.85 * w + "px; text-align:left";
     b2 = document.createElement("input");
     b2.type = 'button';
     b2.value = antal === 0 ? "" : antal;
     b2.id = id;
-    b2.style = "font-size:32px; height:80px; width:" + 0.1 * w + "px";
+    b2.style = "font-size:40px; height:80px; width:" + 0.1 * w + "px";
     b1.onclick = function () {
       return update(b2, item, +1);
     };
@@ -60,14 +60,14 @@ setup = function setup() {
   total.type = 'button';
   total.id = 'total';
   total.value = "0:-";
-  total.style = "font-size:20px; height:80px; width:" + 0.4 * w + "px";
+  total.style = "font-size:40px; height:80px; width:" + 0.45 * w + "px";
   total.onclick = function () {
     return clr();
   };
   send = document.createElement("input");
   send.type = 'button';
-  send.value = 'Send';
-  send.style = "font-size:20px; height:80px; width:" + 0.4 * w + "px";
+  send.value = 'Skicka';
+  send.style = "font-size:40px; height:80px; width:" + 0.45 * w + "px";
   send.onclick = function () {
     var antal, id, j, len1, pris, s, t, text;
     total = document.getElementById("total");
