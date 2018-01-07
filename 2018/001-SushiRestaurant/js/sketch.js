@@ -24,7 +24,7 @@ setup = function setup() {
     b1 = document.createElement("input");
     b1.type = 'button';
     b1.value = text;
-    b1.style = "font-size:20px; white-space:normal; height:80px; width:" + 0.85 * w + "px; text-align:left";
+    b1.style = "font-size:20px; white-space:normal; height:80px; width:" + 0.8 * w + "px; text-align:left";
     b2 = document.createElement("input");
     b2.type = 'button';
     b2.value = antal === 0 ? "" : antal;
