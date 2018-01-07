@@ -109,23 +109,14 @@ clr = function clr() {
 };
 
 update = function update(b, item, delta) {
-  var antal, i, id, len, pris, start, t, text, total;
+  var start;
   start = millis();
   item[1] += delta;
   b.value = item[1] === 0 ? "" : item[1];
-  t = 0;
-  for (i = 0, len = data.length; i < len; i++) {
-    var _data$i = _slicedToArray(data[i], 4);
-
-    id = _data$i[0];
-    antal = _data$i[1];
-    pris = _data$i[2];
-    text = _data$i[3];
-
-    t += antal * pris;
-  }
-  total = document.getElementById("total");
-  total.value = t + ':-';
+  // t = 0
+  // t += antal * pris for [id,antal,pris,text] in data	
+  // total = document.getElementById "total"
+  // total.value = t + ':-'
   return total.value = millis() - start;
 };
 //# sourceMappingURL=sketch.js.map

@@ -77,8 +77,8 @@ update = (b,item,delta) ->
 	start = millis()
 	item[1] += delta
 	b.value = if item[1]==0 then "" else item[1]
-	t = 0
-	t += antal * pris for [id,antal,pris,text] in data	
-	total = document.getElementById "total"
-	total.value = t + ':-'
+	# t = 0
+	# t += antal * pris for [id,antal,pris,text] in data	
+	# total = document.getElementById "total"
+	# total.value = t + ':-'
 	total.value = millis()-start
