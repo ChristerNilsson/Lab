@@ -69,11 +69,28 @@ setup = function setup() {
   send.type = 'button';
   send.value = 'Send';
   send.onclick = function () {
+    var antal, id, j, len1, pris, s, t, text;
     total = document.getElementById("total");
     if (total.value === "0:-") {
       return;
     }
-    window.location.href = encodeURI("mailto:janchrister.nilsson@gmail.com?&subject=Order to FU Restaurang&body=" + total.value);
+    t = 0;
+    s = '';
+    for (j = 0, len1 = data.length; j < len1; j++) {
+      var _data$j = _slicedToArray(data[j], 4);
+
+      id = _data$j[0];
+      antal = _data$j[1];
+      pris = _data$j[2];
+      text = _data$j[3];
+
+      if (antal > 0) {
+        s += antal + ' x ' + id + ". " + text + "\n";
+      }
+      t += antal * pris;
+    }
+    window.location.href = encodeURI("mailto:janchrister.nilsson@gmail.com?&subject=Order till FU Restaurang&body=" + s + "\nTotalt " + t + " kr.");
+    print(window.location.href);
     return clr();
   };
   body.appendChild(document.createElement("br"));
@@ -92,10 +109,10 @@ clr = function clr() {
 };
 
 update = function update(b, item, delta) {
-  var antal, i, id, len, pris, s, t, text, total;
+  var antal, i, id, len, pris, start, t, text, total;
+  start = millis();
   item[1] += delta;
   b.value = item[1] === 0 ? "" : item[1];
-  s = '';
   t = 0;
   for (i = 0, len = data.length; i < len; i++) {
     var _data$i = _slicedToArray(data[i], 4);
@@ -105,14 +122,10 @@ update = function update(b, item, delta) {
     pris = _data$i[2];
     text = _data$i[3];
 
-    if (antal === 1) {
-      s += id + ' ';
-    } else if (antal > 1) {
-      s += id + 'x' + antal + ' ';
-    }
     t += antal * pris;
   }
   total = document.getElementById("total");
-  return total.value = s + t + ':-';
+  total.value = t + ':-';
+  return total.value = millis() - start;
 };
 //# sourceMappingURL=sketch.js.map

@@ -51,7 +51,16 @@ setup = ->
 	send.onclick = () -> 
 		total = document.getElementById "total"
 		if total.value == "0:-" then return
-		window.location.href = encodeURI "mailto:janchrister.nilsson@gmail.com?&subject=Order to FU Restaurang&body=" + total.value 
+
+		t = 0
+		s = ''
+		for [id,antal,pris,text] in data
+			if antal > 0 
+				s += antal + ' x ' + id + ". " + text + "\n"
+			t += antal * pris
+
+		window.location.href = encodeURI "mailto:janchrister.nilsson@gmail.com?&subject=Order till FU Restaurang&body=" + s + "\nTotalt " + t + " kr." 
+		print window.location.href
 		clr()
 
 	body.appendChild document.createElement "br"
@@ -65,15 +74,11 @@ clr = ->
 	total.value = "0:-"
 
 update = (b,item,delta) ->
+	start = millis()
 	item[1] += delta
 	b.value = if item[1]==0 then "" else item[1]
-	s = ''
 	t = 0
-	for [id,antal,pris,text] in data
-		if antal == 1 
-			s += id + ' '
-		else if antal > 1
-			s += id + 'x' + antal + ' '
-		t += antal * pris
+	t += antal * pris for [id,antal,pris,text] in data	
 	total = document.getElementById "total"
-	total.value = s + t + ':-'
+	total.value = t + ':-'
+	total.value = millis()-start
