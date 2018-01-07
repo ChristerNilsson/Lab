@@ -7,7 +7,7 @@ data = [
 	['6A',0,75,'Lax Avokado Rullar: 3 lax 3 avokado 3 rullar']
 	['6B',0,100,'Lax Avokado Rullar: 4 lax 4 avokado 4 rullar']
 
-	['7',0,100,'Lax sushi 10 bitar: 10lax']
+	['7',0,100,'Lax sushi 10 bitar: 10 lax']
 	['8',0,120,'Lax teriyaki sushi 10 bitar: Grilled lax sushi med teriyaki sås']
 	['9',0,90,'Lax & avokado sushi 9 bitar: 5 lax 4 avokado']
 	['10',0,95,'Lax & räkor sushi 9 bitar: 5 lax 4 räkor']
