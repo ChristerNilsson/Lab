@@ -59,15 +59,14 @@ setup = function setup() {
   total.type = 'button';
   total.id = 'total';
   total.value = "0:-";
+  total.style = "height:40px; width:100px";
   total.onclick = function () {
     return clr();
   };
-  body.appendChild(document.createElement("br"));
-  body.appendChild(document.createElement("br"));
-  body.appendChild(total);
   send = document.createElement("input");
   send.type = 'button';
   send.value = 'Send';
+  send.style = "height:40px; width:100px";
   send.onclick = function () {
     var antal, id, j, len1, pris, s, t, text;
     total = document.getElementById("total");
@@ -94,7 +93,9 @@ setup = function setup() {
     return clr();
   };
   body.appendChild(document.createElement("br"));
-  return body.appendChild(send);
+  body.appendChild(document.createElement("br"));
+  body.appendChild(send);
+  return body.appendChild(total);
 };
 
 clr = function clr() {
@@ -109,14 +110,21 @@ clr = function clr() {
 };
 
 update = function update(b, item, delta) {
-  var start;
-  start = millis();
+  var antal, i, id, len, pris, t, text, total;
   item[1] += delta;
   b.value = item[1] === 0 ? "" : item[1];
-  // t = 0
-  // t += antal * pris for [id,antal,pris,text] in data	
-  // total = document.getElementById "total"
-  // total.value = t + ':-'
-  return total.value = millis() - start;
+  t = 0;
+  for (i = 0, len = data.length; i < len; i++) {
+    var _data$i = _slicedToArray(data[i], 4);
+
+    id = _data$i[0];
+    antal = _data$i[1];
+    pris = _data$i[2];
+    text = _data$i[3];
+
+    t += antal * pris;
+  }
+  total = document.getElementById("total");
+  return total.value = t + ':-';
 };
 //# sourceMappingURL=sketch.js.map
