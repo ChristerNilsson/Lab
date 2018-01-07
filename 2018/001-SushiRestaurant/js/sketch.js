@@ -73,9 +73,7 @@ setup = function setup() {
     if (total.value === "0:-") {
       return;
     }
-    //window.location.href = "sms:+46707496800&body=message" # iOS ok!
-    window.location.href = "sms://+46707496800?&body=" + total.value; // iOS ok
-    //window.location = "sms://+46707496800" # 
+    window.location.href = encodeURI("mailto:janchrister.nilsson@gmail.com?&subject=Order to FU Restaurang&body=" + total.value);
     return clr();
   };
   body.appendChild(document.createElement("br"));
@@ -94,18 +92,27 @@ clr = function clr() {
 };
 
 update = function update(b, item, delta) {
-  var t, total;
+  var antal, i, id, len, pris, s, t, text, total;
   item[1] += delta;
   b.value = item[1] === 0 ? "" : item[1];
-  //	s = ''
+  s = '';
   t = 0;
-  //	for [id,antal,pris,text] in data
-  //		if antal == 1 
-  //			s += id + ' '
-  //		else if antal > 1
-  //			s += id + 'x' + antal + ' '
-  //		t += antal * pris
+  for (i = 0, len = data.length; i < len; i++) {
+    var _data$i = _slicedToArray(data[i], 4);
+
+    id = _data$i[0];
+    antal = _data$i[1];
+    pris = _data$i[2];
+    text = _data$i[3];
+
+    if (antal === 1) {
+      s += id + ' ';
+    } else if (antal > 1) {
+      s += id + 'x' + antal + ' ';
+    }
+    t += antal * pris;
+  }
   total = document.getElementById("total");
-  return total.value = t + ':-';
+  return total.value = s + t + ':-';
 };
 //# sourceMappingURL=sketch.js.map

@@ -1,4 +1,5 @@
 setup = ->
+
 	body = document.getElementById "body"
 	table = document.createElement "table"
 	body.appendChild table
@@ -50,9 +51,7 @@ setup = ->
 	send.onclick = () -> 
 		total = document.getElementById "total"
 		if total.value == "0:-" then return
-		#window.location.href = "sms:+46707496800&body=message" # iOS ok!
-		window.location.href = "sms://+46707496800?&body=" + total.value # iOS ok
-		#window.location = "sms://+46707496800" # 
+		window.location.href = encodeURI "mailto:janchrister.nilsson@gmail.com?&subject=Order to FU Restaurang&body=" + total.value 
 		clr()
 
 	body.appendChild document.createElement "br"
@@ -68,13 +67,13 @@ clr = ->
 update = (b,item,delta) ->
 	item[1] += delta
 	b.value = if item[1]==0 then "" else item[1]
-#	s = ''
+	s = ''
 	t = 0
-#	for [id,antal,pris,text] in data
-#		if antal == 1 
-#			s += id + ' '
-#		else if antal > 1
-#			s += id + 'x' + antal + ' '
-#		t += antal * pris
+	for [id,antal,pris,text] in data
+		if antal == 1 
+			s += id + ' '
+		else if antal > 1
+			s += id + 'x' + antal + ' '
+		t += antal * pris
 	total = document.getElementById "total"
-	total.value = t + ':-'
+	total.value = s + t + ':-'
