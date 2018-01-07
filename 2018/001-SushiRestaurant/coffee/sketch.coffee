@@ -1,6 +1,9 @@
-setup = ->
+MAIL = "janchrister.nilsson@gmail.com"
+SHOP = "FU Restaurang" 
 
-	w = windowWidth
+window.onload = ->
+
+	w = window.innerWidth
 
 	body = document.getElementById "body"
 	table = document.createElement "table"
@@ -20,8 +23,8 @@ setup = ->
 			b2.id = id
 			b2.style = "font-size:40px; height:80px; width:100%"
 
-			b1.onclick = () -> update b2,item,+1
-			b2.onclick = () -> if b2.value > 0 then update b2,item,-1
+			b1.onclick = -> update b2,item,+1
+			b2.onclick = -> if b2.value > 0 then update b2,item,-1
 
 			tr = document.createElement "tr"
 			td0 = document.createElement "td"
@@ -45,27 +48,30 @@ setup = ->
 	total.id = 'total'
 	total.value = "0:-"
 	total.style = "font-size:40px; height:80px; width:50%"
-	total.onclick = () -> clr()
+	total.onclick = -> clr()
 
 	send = document.createElement "input"
 	send.type = 'button'
 	send.value = 'Skicka'
 	send.style = "font-size:40px; height:80px; width:50%"
-	send.onclick = () -> 
+	send.onclick = -> 
 		total = document.getElementById "total"
 		if total.value == "0:-" then return
 		t = 0
-		s = ''
+		s = '' # full text
+		u = '' # compact
 		for [id,antal,pris,text] in data
 			if antal > 0 
 				s += antal + ' x ' + id + ". " + text + "\n"
+				if antal == 1 
+					u += id + "\n"
+				else
+					u += antal + 'x' + id + "\n"
 			t += antal * pris
-		window.location.href = encodeURI "mailto:janchrister.nilsson@gmail.com?&subject=Order till FU Restaurang&body=" + s + "\nTotalt " + t + " kr." 
-		print window.location.href
+		if s.length > 500 then s = u 
+		window.location.href = encodeURI "mailto:#{MAIL}?&subject=Order till #{SHOP}&body=" + s + "\nTotalt " + t + " kr." 
 		clr()
 
-	#body.appendChild document.createElement "br"
-	#body.appendChild document.createElement "br"
 	body.appendChild send
 	body.appendChild total
 
