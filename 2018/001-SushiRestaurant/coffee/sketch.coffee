@@ -44,13 +44,13 @@ setup = ->
 	total.type = 'button'
 	total.id = 'total'
 	total.value = "0:-"
-	total.style = "font-size:40px; height:80px; width:45%"
+	total.style = "font-size:40px; height:80px; width:49%"
 	total.onclick = () -> clr()
 
 	send = document.createElement "input"
 	send.type = 'button'
 	send.value = 'Skicka'
-	send.style = "font-size:40px; height:80px; width:45%"
+	send.style = "font-size:40px; height:80px; width:49%"
 	send.onclick = () -> 
 		total = document.getElementById "total"
 		if total.value == "0:-" then return
