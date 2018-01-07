@@ -21,19 +21,19 @@ window.onload = function () {
     var _item = _slicedToArray(item, 4);
 
     id = _item[0];
-    antal = _item[1];
-    pris = _item[2];
-    text = _item[3];
+    pris = _item[1];
+    text = _item[2];
+    antal = _item[3];
 
     b1 = document.createElement("input");
     b1.type = 'button';
     b1.value = text;
-    b1.style = "font-size:20px; white-space:normal; height:80px; width:100%; text-align:left";
+    b1.style = "font-size:20px; white-space:normal; width:100%; text-align:left";
     b2 = document.createElement("input");
     b2.type = 'button';
     b2.value = antal === 0 ? "" : antal;
     b2.id = id;
-    b2.style = "font-size:40px; height:80px; width:100%";
+    b2.style = "font-size:20px; width:100%"; // height:80px; 
     b1.onclick = function () {
       return update(b2, item, +1);
     };
@@ -61,6 +61,7 @@ window.onload = function () {
   };
   for (i = 0, len = data.length; i < len; i++) {
     item = data[i];
+    item.push(0);
     fn(item);
   }
   total = document.createElement("input");
@@ -88,9 +89,9 @@ window.onload = function () {
       var _data$j = _slicedToArray(data[j], 4);
 
       id = _data$j[0];
-      antal = _data$j[1];
-      pris = _data$j[2];
-      text = _data$j[3];
+      pris = _data$j[1];
+      text = _data$j[2];
+      antal = _data$j[3];
 
       if (antal > 0) {
         s += antal + ' x ' + id + ". " + text + "\n";
@@ -116,7 +117,7 @@ clr = function clr() {
   var button, i, item, len;
   for (i = 0, len = data.length; i < len; i++) {
     item = data[i];
-    item[1] = 0;
+    item[3] = 0;
     button = document.getElementById(item[0]);
     button.value = '';
   }
@@ -125,16 +126,16 @@ clr = function clr() {
 
 update = function update(b, item, delta) {
   var antal, i, id, len, pris, t, text, total;
-  item[1] += delta;
-  b.value = item[1] === 0 ? "" : item[1];
+  item[3] += delta;
+  b.value = item[3] === 0 ? "" : item[3];
   t = 0;
   for (i = 0, len = data.length; i < len; i++) {
     var _data$i = _slicedToArray(data[i], 4);
 
     id = _data$i[0];
-    antal = _data$i[1];
-    pris = _data$i[2];
-    text = _data$i[3];
+    pris = _data$i[1];
+    text = _data$i[2];
+    antal = _data$i[3];
 
     t += antal * pris;
   }

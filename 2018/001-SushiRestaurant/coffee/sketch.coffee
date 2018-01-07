@@ -9,19 +9,20 @@ window.onload = ->
 	table = document.createElement "table"
 	body.appendChild table
 	for item in data
+		item.push 0
 		do (item) ->
-			[id,antal,pris,text] = item
+			[id,pris,text,antal] = item
 
 			b1 = document.createElement "input"
 			b1.type = 'button'
 			b1.value = text
-			b1.style = "font-size:20px; white-space:normal; height:80px; width:100%; text-align:left"
+			b1.style = "font-size:20px; white-space:normal; width:100%; text-align:left"
 
 			b2 = document.createElement "input"
 			b2.type = 'button'
 			b2.value = if antal==0 then "" else antal
 			b2.id = id
-			b2.style = "font-size:40px; height:80px; width:100%"
+			b2.style = "font-size:20px; width:100%" # height:80px; 
 
 			b1.onclick = -> update b2,item,+1
 			b2.onclick = -> if b2.value > 0 then update b2,item,-1
@@ -60,7 +61,7 @@ window.onload = ->
 		t = 0
 		s = '' # full text
 		u = '' # compact
-		for [id,antal,pris,text] in data
+		for [id,pris,text,antal] in data
 			if antal > 0 
 				s += antal + ' x ' + id + ". " + text + "\n"
 				if antal == 1 
@@ -77,15 +78,15 @@ window.onload = ->
 
 clr = ->
 	for item in data
-		item[1] = 0
+		item[3] = 0
 		button = document.getElementById item[0]
 		button.value = ''
 	total.value = "0:-"
 
 update = (b,item,delta) ->
-	item[1] += delta
-	b.value = if item[1]==0 then "" else item[1]
+	item[3] += delta
+	b.value = if item[3]==0 then "" else item[3]
 	t = 0
-	t += antal * pris for [id,antal,pris,text] in data	
+	t += antal * pris for [id,pris,text,antal] in data	
 	total = document.getElementById "total"
 	total.value = t + ':-'
