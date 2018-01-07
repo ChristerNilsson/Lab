@@ -1,5 +1,7 @@
 setup = ->
 
+	w = windowWidth
+
 	body = document.getElementById "body"
 	table = document.createElement "table"
 	body.appendChild table
@@ -10,13 +12,13 @@ setup = ->
 			b1 = document.createElement "input"
 			b1.type = 'button'
 			b1.value = text
-			b1.style = "white-space:normal; height:40px; width:300px; text-align:left"
+			b1.style = "white-space:normal; height:40px; width:#{0.8*w}px; text-align:left"
 
 			b2 = document.createElement "input"
 			b2.type = 'button'
 			b2.value = if antal==0 then "" else antal
 			b2.id = id
-			b2.style = 'font-size:32px; height:40px; width:50px'
+			b2.style = "font-size:32px; height:40px; width:#{0.1*w}px"
 
 			b1.onclick = () -> update b2,item,+1
 			b2.onclick = () -> if b2.value > 0 then update b2,item,-1
@@ -39,13 +41,13 @@ setup = ->
 	total.type = 'button'
 	total.id = 'total'
 	total.value = "0:-"
-	total.style = "height:40px; width:100px"
+	total.style = "height:40px; width:#{0.4*w}px"
 	total.onclick = () -> clr()
 
 	send = document.createElement "input"
 	send.type = 'button'
 	send.value = 'Send'
-	send.style = "height:40px; width:100px"
+	send.style = "height:40px; width:#{0.4*w}px"
 	send.onclick = () -> 
 		total = document.getElementById "total"
 		if total.value == "0:-" then return
