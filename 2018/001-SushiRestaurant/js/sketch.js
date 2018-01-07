@@ -63,14 +63,14 @@ setup = function setup() {
   total.type = 'button';
   total.id = 'total';
   total.value = "0:-";
-  total.style = "font-size:40px; height:80px; width:49%";
+  total.style = "font-size:40px; height:80px; width:50%";
   total.onclick = function () {
     return clr();
   };
   send = document.createElement("input");
   send.type = 'button';
   send.value = 'Skicka';
-  send.style = "font-size:40px; height:80px; width:49%";
+  send.style = "font-size:40px; height:80px; width:50%";
   send.onclick = function () {
     var antal, id, j, len1, pris, s, t, text;
     total = document.getElementById("total");
@@ -96,8 +96,8 @@ setup = function setup() {
     print(window.location.href);
     return clr();
   };
-  body.appendChild(document.createElement("br"));
-  body.appendChild(document.createElement("br"));
+  //body.appendChild document.createElement "br"
+  //body.appendChild document.createElement "br"
   body.appendChild(send);
   return body.appendChild(total);
 };
