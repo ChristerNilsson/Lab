@@ -3,7 +3,7 @@ data = [
 	['2',0,75,'Liten sushi 9 bitar: 4 lax räka ägg 3 rullar']
 	['3',0,90,'Mellan sushi 11 bitar: 4 lax räka tonfisk ägg 4 rullar']
 	['4',0,105,'Stor sushi 13 bitar: 4 lax 2 räka tonfisk avok ägg 4 rullar']
-	['5',0,125,'sushi moriawase 15 bitar: 5 lax 2 räka mussla tonfisk avok ägg 4 rullar']
+	['5',0,125,'Sushi Moriawase 15 bitar: 5 lax 2 räka mussla tonfisk avok ägg 4 rullar']
 	['6A',0,75,'Lax Avokado Rullar: 3 lax 3 avokado 3 rullar']
 	['6B',0,100,'Lax Avokado Rullar: 4 lax 4 avokado 4 rullar']
 
