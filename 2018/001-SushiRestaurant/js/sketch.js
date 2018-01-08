@@ -9,9 +9,9 @@ MAIL = "janchrister.nilsson@gmail.com";
 
 SHOP = "5 FU Restaurang";
 
-CRLF = "\n";
+CRLF = "\n\n";
 
-CRLF = "<br/>";
+//CRLF = "<br/>"
 
 // OBS: .cssText måste användas på iPhone 4s
 window.onload = function () {
@@ -111,7 +111,7 @@ window.onload = function () {
     if (s.length > 500) {
       s = u;
     }
-    output = encodeURI("mailto:" + MAIL + "?&subject=Order till " + SHOP + "&body=<div>" + s + CRLF + "Totalt " + t + " kr.</div>");
+    output = encodeURI("mailto:" + MAIL + "?&subject=Order till " + SHOP + "&body=" + s + CRLF + "Totalt " + t + " kr.");
     window.location.href = output;
     //console.log output
     return clr();
