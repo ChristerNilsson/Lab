@@ -1,5 +1,6 @@
 MAIL = "janchrister.nilsson@gmail.com"
-SHOP = "1 FU Restaurang" 
+SHOP = "2 FU Restaurang" 
+CRLF = "\r\n"
 
 # OBS: .cssText måste användas på iPhone 4s
 window.onload = ->
@@ -65,14 +66,16 @@ window.onload = ->
 		u = '' # compact
 		for [id,pris,text,antal] in data
 			if antal > 0 
-				s += antal + ' x ' + id + ". " + text + "\r\n"
+				s += antal + ' x ' + id + ". " + text + CRLF
 				if antal == 1 
-					u += id + "\r\n"
+					u += id + CRLF
 				else
-					u += antal + 'x' + id + "\r\n"
+					u += antal + 'x' + id + CRLF
 			t += antal * pris
 		if s.length > 500 then s = u 
-		window.location.href = encodeURI "mailto:#{MAIL}?&subject=Order till #{SHOP}&body=" + s + "\r\nTotalt " + t + " kr." 
+		output = encodeURI "mailto:#{MAIL}?&subject=Order till #{SHOP}&body=" + s + CRLF + "Totalt " + t + " kr." 
+		window.location.href = output
+		#console.log output
 		clr()
 
 	body.appendChild send
