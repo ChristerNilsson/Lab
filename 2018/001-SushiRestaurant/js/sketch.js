@@ -10,62 +10,53 @@ MAIL = "janchrister.nilsson@gmail.com";
 SHOP = "FU Restaurang";
 
 window.onload = function () {
-  var body, i, item, len, results, table, w;
+  var b1, body, w;
   w = window.innerWidth;
   body = document.getElementById("body");
-  table = document.createElement("table");
-  body.appendChild(table);
-  results = [];
-  for (i = 0, len = data.length; i < len; i++) {
-    item = data[i];
-    item.push(0);
-    results.push(function (item) {
-      var antal, b1, b2, div, id, pris, td0, td1, td2, text, tr;
-
-      var _item = _slicedToArray(item, 4);
-
-      id = _item[0];
-      pris = _item[1];
-      text = _item[2];
-      antal = _item[3];
-
-      b1 = document.createElement("input");
-      b1.type = 'button';
-      b1.value = "text"; // text
-      b1.style = "font-size:10px; white-space:normal; width:100%; text-align:left";
-      b2 = document.createElement("input");
-      b2.type = 'button';
-      b2.value = antal === 0 ? "" : antal;
-      b2.id = id;
-      b2.style = "font-size:10px; width:100%"; // height:80px; 
-      b1.onclick = function () {
-        return update(b2, item, +1);
-      };
-      b2.onclick = function () {
-        if (b2.value > 0) {
-          return update(b2, item, -1);
-        }
-      };
-      tr = document.createElement("tr");
-      td0 = document.createElement("td");
-      td1 = document.createElement("td");
-      td2 = document.createElement("td");
-      td0.style = "width:5%";
-      td1.style = "width:85%";
-      td2.style = "width:10%";
-      table.appendChild(tr);
-      tr.appendChild(td0);
-      tr.appendChild(td1);
-      tr.appendChild(td2);
-      div = document.createElement("div");
-      div.innerHTML = '<b>' + id + '</b><br>' + pris + ':-';
-      td0.appendChild(div);
-      td1.appendChild(b1);
-      return td2.appendChild(b2);
-    }(item));
-  }
-  return results;
+  b1 = document.createElement("input");
+  b1.type = 'button';
+  b1.value = "text"; // text
+  b1.style = "font-size:10px; white-space:normal; width:100%; text-align:left";
+  return body.appendChild(b1);
 };
+
+// table = document.createElement "table"
+// body.appendChild table
+// for item in data
+// 	item.push 0
+// 	do (item) ->
+// 		[id,pris,text,antal] = item
+
+// 		b1 = document.createElement "input"
+// 		b1.type = 'button'
+// 		b1.value = "text" # text
+// 		b1.style = "font-size:10px; white-space:normal; width:100%; text-align:left"
+
+// 		b2 = document.createElement "input"
+// 		b2.type = 'button'
+// 		b2.value = if antal==0 then "" else antal
+// 		b2.id = id
+// 		b2.style = "font-size:10px; width:100%" # height:80px; 
+
+// 		b1.onclick = -> update b2,item,+1
+// 		b2.onclick = -> if b2.value > 0 then update b2,item,-1
+
+// 		tr = document.createElement "tr"
+// 		td0 = document.createElement "td"
+// 		td1 = document.createElement "td"
+// 		td2 = document.createElement "td"
+// 		td0.style = "width:5%"
+// 		td1.style = "width:85%"
+// 		td2.style = "width:10%"
+// 		table.appendChild tr
+// 		tr.appendChild td0
+// 		tr.appendChild td1
+// 		tr.appendChild td2
+// 		div = document.createElement "div"
+// 		div.innerHTML = '<b>' + id + '</b><br>' + pris + ':-'
+// 		td0.appendChild div
+// 		td1.appendChild b1
+// 		td2.appendChild b2
 
 // total = document.createElement "input"
 // total.type = 'button'
