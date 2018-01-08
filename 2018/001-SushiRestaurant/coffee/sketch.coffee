@@ -1,5 +1,5 @@
 MAIL = "janchrister.nilsson@gmail.com"
-SHOP = "4 FU Restaurang" 
+SHOP = "5 FU Restaurang" 
 CRLF = "\n"
 CRLF = "<br/>"
 

@@ -7,7 +7,7 @@ var CRLF, MAIL, SHOP, clr, update;
 
 MAIL = "janchrister.nilsson@gmail.com";
 
-SHOP = "4 FU Restaurang";
+SHOP = "5 FU Restaurang";
 
 CRLF = "\n";
 
