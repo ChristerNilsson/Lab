@@ -95,11 +95,11 @@ window.onload = function () {
       antal = _data$j[3];
 
       if (antal > 0) {
-        s += antal + ' x ' + id + ". " + text + "\n";
+        s += antal + ' x ' + id + ". " + text + "\r\n";
         if (antal === 1) {
-          u += id + "\n";
+          u += id + "\r\n";
         } else {
-          u += antal + 'x' + id + "\n";
+          u += antal + 'x' + id + "\r\n";
         }
       }
       t += antal * pris;
@@ -107,7 +107,7 @@ window.onload = function () {
     if (s.length > 500) {
       s = u;
     }
-    window.location.href = encodeURI("mailto:" + MAIL + "?&subject=Order till " + SHOP + "&body=" + s + "\nTotalt " + t + " kr.");
+    window.location.href = encodeURI("mailto:" + MAIL + "?&subject=Order till " + SHOP + "&body=" + s + "\r\nTotalt " + t + " kr.");
     return clr();
   };
   body.appendChild(send);

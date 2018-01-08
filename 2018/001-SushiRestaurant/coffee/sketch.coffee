@@ -65,14 +65,14 @@ window.onload = ->
 		u = '' # compact
 		for [id,pris,text,antal] in data
 			if antal > 0 
-				s += antal + ' x ' + id + ". " + text + "\n"
+				s += antal + ' x ' + id + ". " + text + "\r\n"
 				if antal == 1 
-					u += id + "\n"
+					u += id + "\r\n"
 				else
-					u += antal + 'x' + id + "\n"
+					u += antal + 'x' + id + "\r\n"
 			t += antal * pris
 		if s.length > 500 then s = u 
-		window.location.href = encodeURI "mailto:#{MAIL}?&subject=Order till #{SHOP}&body=" + s + "\nTotalt " + t + " kr." 
+		window.location.href = encodeURI "mailto:#{MAIL}?&subject=Order till #{SHOP}&body=" + s + "\r\nTotalt " + t + " kr." 
 		clr()
 
 	body.appendChild send
