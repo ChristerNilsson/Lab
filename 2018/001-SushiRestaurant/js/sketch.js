@@ -7,9 +7,9 @@ var CRLF, MAIL, SHOP, clr, update;
 
 MAIL = "janchrister.nilsson@gmail.com";
 
-SHOP = "2 FU Restaurang";
+SHOP = "3 FU Restaurang";
 
-CRLF = "<br/>\r\n";
+CRLF = "\r\n";
 
 // OBS: .cssText måste användas på iPhone 4s
 window.onload = function () {

@@ -1,6 +1,6 @@
 MAIL = "janchrister.nilsson@gmail.com"
-SHOP = "2 FU Restaurang" 
-CRLF = "<br/>\r\n"
+SHOP = "3 FU Restaurang" 
+CRLF = "\r\n"
 
 # OBS: .cssText måste användas på iPhone 4s
 window.onload = ->
@@ -73,7 +73,8 @@ window.onload = ->
 					u += antal + 'x' + id + CRLF
 			t += antal * pris
 		if s.length > 500 then s = u 
-		output = encodeURI "mailto:#{MAIL}?&subject=Order till #{SHOP}&body=" + s + CRLF + "Totalt " + t + " kr." 
+
+		output = encodeURI "mailto:#{MAIL}?&subject=Order till #{SHOP}&body=" + s + CRLF + "Totalt " + t + " kr."
 		window.location.href = output
 		#console.log output
 		clr()
