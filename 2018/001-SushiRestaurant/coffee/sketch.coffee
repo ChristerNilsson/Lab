@@ -1,6 +1,9 @@
 MAIL = "janchrister.nilsson@gmail.com"
 SHOP = "FU Restaurang" 
 
+#     <meta name="viewport" content = "width=device-width, user-scalable=no">   
+#     <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>    
+
 window.onload = ->
 
 	w = window.innerWidth
@@ -9,7 +12,7 @@ window.onload = ->
 
 	b1 = document.createElement "input"
 	b1.type = 'button'
-	b1.value = "text" # text
+	b1.value = "text2" # text
 	b1.style = "font-size:10px; white-space:normal; width:100%; text-align:left"
 	body.appendChild b1
 
@@ -83,17 +86,17 @@ window.onload = ->
 	# body.appendChild send
 	# body.appendChild total
 
-clr = ->
-	for item in data
-		item[3] = 0
-		button = document.getElementById item[0]
-		button.value = ''
-	total.value = "0:-"
+# clr = ->
+# 	for item in data
+# 		item[3] = 0
+# 		button = document.getElementById item[0]
+# 		button.value = ''
+# 	total.value = "0:-"
 
-update = (b,item,delta) ->
-	item[3] += delta
-	b.value = if item[3]==0 then "" else item[3]
-	t = 0
-	t += antal * pris for [id,pris,text,antal] in data	
-	total = document.getElementById "total"
-	total.value = t + ':-'
+# update = (b,item,delta) ->
+# 	item[3] += delta
+# 	b.value = if item[3]==0 then "" else item[3]
+# 	t = 0
+# 	t += antal * pris for [id,pris,text,antal] in data	
+# 	total = document.getElementById "total"
+# 	total.value = t + ':-'
