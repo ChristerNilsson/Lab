@@ -1,6 +1,6 @@
 MAIL = "janchrister.nilsson@gmail.com"
-SHOP = "3 FU Restaurang" 
-CRLF = "\r\n"
+SHOP = "4 FU Restaurang" 
+CRLF = "\n"
 
 # OBS: .cssText måste användas på iPhone 4s
 window.onload = ->
