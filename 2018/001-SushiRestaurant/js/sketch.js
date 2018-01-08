@@ -9,7 +9,7 @@ MAIL = "janchrister.nilsson@gmail.com";
 
 SHOP = "2 FU Restaurang";
 
-CRLF = "\r\n";
+CRLF = "<br/>\r\n";
 
 // OBS: .cssText måste användas på iPhone 4s
 window.onload = function () {
