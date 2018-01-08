@@ -1,5 +1,5 @@
 MAIL = "janchrister.nilsson@gmail.com"
-SHOP = "FU Restaurang" 
+SHOP = "1 FU Restaurang" 
 
 # OBS: .cssText måste användas på iPhone 4s
 window.onload = ->
