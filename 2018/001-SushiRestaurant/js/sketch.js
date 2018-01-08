@@ -11,6 +11,8 @@ SHOP = "4 FU Restaurang";
 
 CRLF = "\n";
 
+CRLF = "<br/>";
+
 // OBS: .cssText måste användas på iPhone 4s
 window.onload = function () {
   var body, fn, i, item, len, send, table, total, w;
@@ -109,7 +111,7 @@ window.onload = function () {
     if (s.length > 500) {
       s = u;
     }
-    output = encodeURI("mailto:" + MAIL + "?&subject=Order till " + SHOP + "&body=" + s + CRLF + "Totalt " + t + " kr.");
+    output = encodeURI("mailto:" + MAIL + "?&subject=Order till " + SHOP + "&body=<div>" + s + CRLF + "Totalt " + t + " kr.</div>");
     window.location.href = output;
     //console.log output
     return clr();
