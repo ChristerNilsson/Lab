@@ -2,7 +2,6 @@ MAIL = "janchrister.nilsson@gmail.com"
 SHOP = "FU Restaurang" 
 
 #     <meta name="viewport" content = "width=device-width, user-scalable=no">   
-#     <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>    
 
 window.onload = ->
 
@@ -19,9 +18,10 @@ window.onload = ->
 
 			b1 = document.createElement "input"
 			b1.type = 'button'
-			b1.value = text
-			#b1.style = "font-size:10px; white-space:normal; width:100%; text-align:left"
-			b1.style = "font-size:80%;"
+			#b1.class = 'city'
+			b1.value = "3 " + text
+			b1.style.cssText = "font-size:100%; white-space:normal; width:100%; text-align:left"
+			#b1.style = "font-size:80%;"
 
 			b2 = document.createElement "input"
 			b2.type = 'button'
