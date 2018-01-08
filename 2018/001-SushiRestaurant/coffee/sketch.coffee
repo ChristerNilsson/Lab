@@ -15,14 +15,14 @@ window.onload = ->
 
 			b1 = document.createElement "input"
 			b1.type = 'button'
-			b1.value = text
-			b1.style = "font-size:20px; white-space:normal; width:100%; text-align:left"
+			b1.value = "text" # text
+			b1.style = "font-size:10px; white-space:normal; width:100%; text-align:left"
 
 			b2 = document.createElement "input"
 			b2.type = 'button'
 			b2.value = if antal==0 then "" else antal
 			b2.id = id
-			b2.style = "font-size:20px; width:100%" # height:80px; 
+			b2.style = "font-size:10px; width:100%" # height:80px; 
 
 			b1.onclick = -> update b2,item,+1
 			b2.onclick = -> if b2.value > 0 then update b2,item,-1
@@ -48,13 +48,13 @@ window.onload = ->
 	total.type = 'button'
 	total.id = 'total'
 	total.value = "0:-"
-	total.style = "font-size:40px; height:80px; width:50%"
+	total.style = "font-size:40px; width:50%"
 	total.onclick = -> clr()
 
 	send = document.createElement "input"
 	send.type = 'button'
 	send.value = 'Skicka'
-	send.style = "font-size:40px; height:80px; width:50%"
+	send.style = "font-size:40px; width:50%"
 	send.onclick = -> 
 		total = document.getElementById "total"
 		if total.value == "0:-" then return
