@@ -9,7 +9,7 @@ MAIL = "janchrister.nilsson@gmail.com";
 
 SHOP = "FU Restaurang";
 
-//     <meta name="viewport" content = "width=device-width, user-scalable=no">   
+// OBS: .cssText måste användas på iPhone 4s
 window.onload = function () {
   var body, fn, i, item, len, send, table, total, w;
   w = window.innerWidth;
@@ -28,15 +28,13 @@ window.onload = function () {
 
     b1 = document.createElement("input");
     b1.type = 'button';
-    //b1.class = 'city'
-    b1.value = "3 " + text;
+    b1.value = text;
     b1.style.cssText = "font-size:100%; white-space:normal; width:100%; text-align:left";
-    //b1.style = "font-size:80%;"
     b2 = document.createElement("input");
     b2.type = 'button';
     b2.value = antal === 0 ? "" : antal;
     b2.id = id;
-    //b2.style = "font-size:10px; width:100%" # height:80px; 
+    b2.style.cssText = "font-size:100%; width:100%"; // height:80px; 
     b1.onclick = function () {
       return update(b2, item, +1);
     };
@@ -49,9 +47,9 @@ window.onload = function () {
     td0 = document.createElement("td");
     td1 = document.createElement("td");
     td2 = document.createElement("td");
-    //td0.style = "width:5%"
-    //td1.style = "width:85%"
-    //td2.style = "width:10%"
+    td0.style.cssText = "width:5%";
+    td1.style.cssText = "width:85%";
+    td2.style.cssText = "width:10%";
     table.appendChild(tr);
     tr.appendChild(td0);
     tr.appendChild(td1);
@@ -71,14 +69,14 @@ window.onload = function () {
   total.type = 'button';
   total.id = 'total';
   total.value = "0:-";
-  //total.style = "font-size:40px; width:50%"
+  total.style.cssText = "font-size:200%; width:50%";
   total.onclick = function () {
     return clr();
   };
   send = document.createElement("input");
   send.type = 'button';
   send.value = 'Skicka';
-  //send.style = "font-size:40px; width:50%"
+  send.style.cssText = "font-size:200%; width:50%";
   send.onclick = function () {
     var antal, id, j, len1, pris, s, t, text, u;
     total = document.getElementById("total");
