@@ -44,37 +44,37 @@ window.onload = ->
 			td1.appendChild b1
 			td2.appendChild b2
 
-	total = document.createElement "input"
-	total.type = 'button'
-	total.id = 'total'
-	total.value = "0:-"
-	total.style = "font-size:40px; width:50%"
-	total.onclick = -> clr()
+	# total = document.createElement "input"
+	# total.type = 'button'
+	# total.id = 'total'
+	# total.value = "0:-"
+	# total.style = "font-size:40px; width:50%"
+	# total.onclick = -> clr()
 
-	send = document.createElement "input"
-	send.type = 'button'
-	send.value = 'Skicka'
-	send.style = "font-size:40px; width:50%"
-	send.onclick = -> 
-		total = document.getElementById "total"
-		if total.value == "0:-" then return
-		t = 0
-		s = '' # full text
-		u = '' # compact
-		for [id,pris,text,antal] in data
-			if antal > 0 
-				s += antal + ' x ' + id + ". " + text + "\n"
-				if antal == 1 
-					u += id + "\n"
-				else
-					u += antal + 'x' + id + "\n"
-			t += antal * pris
-		if s.length > 500 then s = u 
-		window.location.href = encodeURI "mailto:#{MAIL}?&subject=Order till #{SHOP}&body=" + s + "\nTotalt " + t + " kr." 
-		clr()
+	# send = document.createElement "input"
+	# send.type = 'button'
+	# send.value = 'Skicka'
+	# send.style = "font-size:40px; width:50%"
+	# send.onclick = -> 
+	# 	total = document.getElementById "total"
+	# 	if total.value == "0:-" then return
+	# 	t = 0
+	# 	s = '' # full text
+	# 	u = '' # compact
+	# 	for [id,pris,text,antal] in data
+	# 		if antal > 0 
+	# 			s += antal + ' x ' + id + ". " + text + "\n"
+	# 			if antal == 1 
+	# 				u += id + "\n"
+	# 			else
+	# 				u += antal + 'x' + id + "\n"
+	# 		t += antal * pris
+	# 	if s.length > 500 then s = u 
+	# 	window.location.href = encodeURI "mailto:#{MAIL}?&subject=Order till #{SHOP}&body=" + s + "\nTotalt " + t + " kr." 
+	# 	clr()
 
-	body.appendChild send
-	body.appendChild total
+	# body.appendChild send
+	# body.appendChild total
 
 clr = ->
 	for item in data
