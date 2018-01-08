@@ -15,8 +15,8 @@ window.onload = function () {
   body = document.getElementById("body");
   b1 = document.createElement("input");
   b1.type = 'button';
-  b1.value = "text3"; // text
-  //b1.style = "font-size:10px; white-space:normal; width:100%; text-align:left"
+  b1.value = "text4"; // text
+  b1.style = "font-size:10px; white-space:normal; width:100%; text-align:left";
   return body.appendChild(b1);
 };
 
