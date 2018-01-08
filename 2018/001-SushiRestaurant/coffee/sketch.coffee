@@ -4,17 +4,17 @@ SHOP = "FU Restaurang"
 #     <meta name="viewport" content = "width=device-width, user-scalable=no">   
 #     <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>    
 
-window.onload = ->
+# window.onload = ->
 
-	w = window.innerWidth
+# 	w = window.innerWidth
 
-	body = document.getElementById "body"
+# 	body = document.getElementById "body"
 
-	b1 = document.createElement "input"
-	b1.type = 'button'
-	b1.value = "text2" # text
-	b1.style = "font-size:10px; white-space:normal; width:100%; text-align:left"
-	body.appendChild b1
+# 	b1 = document.createElement "input"
+# 	b1.type = 'button'
+# 	b1.value = "text2" # text
+# 	b1.style = "font-size:10px; white-space:normal; width:100%; text-align:left"
+# 	body.appendChild b1
 
 	# table = document.createElement "table"
 	# body.appendChild table
