@@ -31,7 +31,7 @@ window.onload = function () {
     b1.type = 'button';
     b1.value = text;
     //b1.style = "font-size:10px; white-space:normal; width:100%; text-align:left"
-    b1.style = "font-size:10px;";
+    b1.style = "font-size:80%;";
     b2 = document.createElement("input");
     b2.type = 'button';
     b2.value = antal === 0 ? "" : antal;
