@@ -7,11 +7,13 @@ var CRLF, MAIL, SHOP, clr, update;
 
 MAIL = "janchrister.nilsson@gmail.com";
 
-SHOP = "6 FU Restaurang";
+SHOP = "FU Restaurang";
 
-CRLF = "\n\n";
+CRLF = "\n";
 
 //CRLF = "<br/>"
+
+// iOS visar inga radbrytningar.
 
 // OBS: .cssText måste användas på iPhone 4s
 window.onload = function () {
