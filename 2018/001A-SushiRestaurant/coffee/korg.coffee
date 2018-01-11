@@ -15,7 +15,7 @@ class Korg
 		if items['R']-delta >= 0 
 			items['R'] -= delta
 			items[key] += delta
-			rulle.value = if items['R']==0 then "" else items['R']
+			rulle.innerHTML = if items['R']==0 then "" else items['R']
 			b.value = if items[key]==0 then "" else items[key]
 
 	traverse : (items=@items,level=0, br=[]) ->
@@ -81,7 +81,7 @@ class Korg
 		b1.style.cssText = "font-size:100%; white-space:normal; width:100%; text-align:right"
 
 		v = if antal==0 then "" else antal
-		if _.size(items) == 9
+		if _.size(items) == 9 and key != 'R'
 			b2 = makeButton v,  GREEN,BLACK
 			b3 = makeButton '-',RED,BLACK
 		else

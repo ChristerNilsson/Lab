@@ -36,7 +36,7 @@ Korg = function () {
       if (items['R'] - delta >= 0) {
         items['R'] -= delta;
         items[key] += delta;
-        rulle.value = items['R'] === 0 ? "" : items['R'];
+        rulle.innerHTML = items['R'] === 0 ? "" : items['R'];
         return b.value = items[key] === 0 ? "" : items[key];
       }
     }
@@ -154,7 +154,7 @@ Korg = function () {
       b1.innerHTML = title;
       b1.style.cssText = "font-size:100%; white-space:normal; width:100%; text-align:right";
       v = antal === 0 ? "" : antal;
-      if (_.size(items) === 9) {
+      if (_.size(items) === 9 && key !== 'R') {
         b2 = makeButton(v, GREEN, BLACK);
         b3 = makeButton('-', RED, BLACK);
       } else {
