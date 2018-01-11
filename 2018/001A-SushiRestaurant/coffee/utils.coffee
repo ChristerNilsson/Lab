@@ -1,4 +1,11 @@
 # stänger eller öppnar
+
+BLACK  = "#000"
+WHITE  = "#FFF"
+GREEN  = "#0F0"
+RED    = "#F00"
+YELLOW = "#FF0"
+
 calcBranch = (a,b) ->
 	n = Math.min a.length,b.length
 	for i in range n
@@ -34,7 +41,13 @@ makeButton = (value,bg,sc) ->
 	res = document.createElement "input"
 	res.type = 'button'
 	res.value = value 
-	res.style.cssText = "font-size:100%; white-space:normal; width:100%;" #  text-align:left
+	res.style.cssText = "font-size:100%; white-space:normal; width:100%;" 
 	res.style.backgroundColor = bg 
 	res.style.color = sc
+	res
+
+makeDiv = (value) ->
+	res = document.createElement "div"
+	res.innerHTML = value
+	res.style.cssText = "font-size:100%; width:100%; text-align:center" 
 	res

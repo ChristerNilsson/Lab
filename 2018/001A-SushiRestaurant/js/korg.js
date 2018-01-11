@@ -40,9 +40,6 @@ Korg = function () {
         return b.value = items[key] === 0 ? "" : items[key];
       }
     }
-
-    //print @items
-
   }, {
     key: 'traverse',
     value: function traverse() {
@@ -87,11 +84,40 @@ Korg = function () {
       }
     }
   }, {
+    key: 'handleRow',
+    value: function handleRow(b1, b2, b3) {
+      var id = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : '';
+      var pris = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : '';
+
+      var td1, td2, td3, tr;
+      tr = document.createElement("tr");
+      //td0 = document.createElement "td"
+      td1 = document.createElement("td");
+      td2 = document.createElement("td");
+      td3 = document.createElement("td");
+      //td0.style.cssText = "width:5%"
+      td1.style.cssText = "width:100%";
+      td2.style.cssText = "width:5%";
+      td3.style.cssText = "width:5%";
+      this.table.appendChild(tr);
+      //tr.appendChild td0
+      tr.appendChild(td1);
+      tr.appendChild(td2);
+      tr.appendChild(td3);
+      //div = document.createElement "div"
+      //div.style.cssText = "font-size:70%"
+      //if id != '' then div.innerHTML = '<b>' + id + '</b><br>' + pris + ':-'
+      //td0.appendChild div
+      td1.appendChild(b1);
+      td2.appendChild(b2);
+      return td3.appendChild(b3);
+    }
+  }, {
     key: 'addTitle0',
     value: function addTitle0(item, id, pris, title, count, level, br, antal) {
       var _this = this;
 
-      var b1, b2, b3, div, scount, td0, td1, td2, td3, tr, v;
+      var b1, b2, b3, scount, v;
       if (count > 0) {
         scount = ' (' + count + ')';
       } else {
@@ -106,55 +132,38 @@ Korg = function () {
         return updateTables();
       };
       v = antal === 0 ? "" : antal;
-      b2 = makeButton(v, "#00FF00", "#000000");
+      b2 = makeButton(v, GREEN, BLACK);
       b2.onclick = function () {
         return _this.update0(b2, item, +1);
       };
-      b3 = makeButton("-", "#FF0000", "#000000");
+      b3 = makeButton("-", RED, BLACK);
       b3.onclick = function () {
         if (b2.value > 0) {
           return _this.update0(b2, item, -1);
         }
       };
-      tr = document.createElement("tr");
-      td0 = document.createElement("td");
-      td1 = document.createElement("td");
-      td2 = document.createElement("td");
-      td3 = document.createElement("td");
-      td0.style.cssText = "width:5%";
-      td1.style.cssText = "width:75%";
-      td2.style.cssText = "width:10%";
-      td3.style.cssText = "width:10%";
-      this.table.appendChild(tr);
-      tr.appendChild(td0);
-      tr.appendChild(td1);
-      tr.appendChild(td2);
-      tr.appendChild(td3);
-      div = document.createElement("div");
-      div.style.cssText = "font-size:70%";
-      if (id !== '') {
-        div.innerHTML = '<b>' + id + '</b><br>' + pris + ':-';
-      }
-      td0.appendChild(div);
-      td1.appendChild(b1);
-      td2.appendChild(b2);
-      return td3.appendChild(b3);
+      return this.handleRow(b1, b2, b3);
     }
   }, {
     key: 'addTitle1',
     value: function addTitle1(items, key, id, pris, title, count, level, br, antal) {
       var _this2 = this;
 
-      var b1, b2, b3, div, td0, td1, td2, td3, tr, v;
+      var b1, b2, b3, v;
       b1 = document.createElement("div");
-      b1.innerHTML = '........'.slice(0, 4 * level) + title;
-      b1.style.cssText = "font-size:100%; white-space:normal; width:100%; text-align:left";
+      b1.innerHTML = title;
+      b1.style.cssText = "font-size:100%; white-space:normal; width:100%; text-align:right";
       v = antal === 0 ? "" : antal;
-      b2 = makeButton(v, "#00FF00", "#000000");
+      if (_.size(items) === 9) {
+        b2 = makeButton(v, GREEN, BLACK);
+        b3 = makeButton('-', RED, BLACK);
+      } else {
+        b2 = makeDiv(v);
+        b3 = makeDiv('');
+      }
       if (key === 'R') {
         this.rulle = b2;
       }
-      b3 = makeButton('-', "#FF0000", "#000000");
       b2.onclick = function () {
         if (_.size(items) === 9) {
           return _this2.update1(_this2.rulle, b2, items, key, +1);
@@ -165,29 +174,7 @@ Korg = function () {
           return _this2.update1(_this2.rulle, b2, items, key, -1);
         }
       };
-      tr = document.createElement("tr");
-      td0 = document.createElement("td");
-      td1 = document.createElement("td");
-      td2 = document.createElement("td");
-      td3 = document.createElement("td");
-      td0.style.cssText = "width:5%";
-      td1.style.cssText = "width:75%";
-      td2.style.cssText = "width:10%";
-      td3.style.cssText = "width:10%";
-      this.table.appendChild(tr);
-      tr.appendChild(td0);
-      tr.appendChild(td1);
-      tr.appendChild(td2);
-      tr.appendChild(td3);
-      div = document.createElement("div");
-      div.style.cssText = "font-size:70%";
-      if (id !== '') {
-        div.innerHTML = '<b>' + id + '</b><br>' + pris + ':-';
-      }
-      td0.appendChild(div);
-      td1.appendChild(b1);
-      td2.appendChild(b2);
-      return td3.appendChild(b3);
+      return this.handleRow(b1, b2, b3, id, pris);
     }
   }, {
     key: 'rensa',

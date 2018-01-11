@@ -14,7 +14,7 @@ Menu = function () {
     _classCallCheck(this, Menu);
 
     this.table = null;
-    this.branch = [];
+    this.branch = [0];
     this.items = [];
   }
 
@@ -71,35 +71,12 @@ Menu = function () {
       }
     }
   }, {
-    key: 'addTitle',
-    value: function addTitle(item, id, pris, title, count, level, br, i) {
-      var _this = this;
+    key: 'handleRow',
+    value: function handleRow(b1) {
+      var id = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
+      var pris = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '';
 
-      var b1, div, scount, td0, td1, tr, v;
-      if (count > 0) {
-        scount = ' (' + count + ')';
-      } else {
-        scount = "";
-      }
-      v = '........'.slice(0, 4 * level) + title + scount;
-      if (this.branch[level] === i) {
-        b1 = makeButton(v, "#FFFFFF", "#000000");
-      } else {
-        b1 = makeButton(v, "#000000", "#FFFFFF");
-      }
-      b1.style.textAlign = 'left';
-      b1.branch = br;
-      b1.onclick = function () {
-        var newitem;
-        if (level === 0 || level === 1) {
-          _this.branch = calcBranch(_this.branch, b1.branch);
-        } else if (level === 2) {
-          newitem = _.clone(item);
-          newitem[4] = _.clone(item[4]);
-          korg.add(newitem);
-        }
-        return updateTables();
-      };
+      var div, td0, td1, tr;
       tr = document.createElement("tr");
       td0 = document.createElement("td");
       td1 = document.createElement("td");
@@ -115,6 +92,44 @@ Menu = function () {
       }
       td0.appendChild(div);
       return td1.appendChild(b1);
+    }
+  }, {
+    key: 'addTitle',
+    value: function addTitle(item, id, pris, title, count, level, br, i) {
+      var _this = this;
+
+      var b1, scount, v;
+      if (count > 0) {
+        scount = ' (' + count + ')';
+      } else {
+        scount = "";
+      }
+      //v = '........'.slice(0,4*level) + title + scount
+      v = title + scount;
+      if (level === 2) {
+        b1 = makeButton(v, YELLOW, BLACK);
+      } else if (this.branch[level] === i) {
+        b1 = makeButton(v, WHITE, BLACK);
+      } else {
+        b1 = makeButton(v, BLACK, WHITE);
+      }
+      b1.style.textAlign = 'left';
+      b1.branch = br;
+      b1.style.paddingLeft = 15 * level + 'px';
+      b1.onclick = function () {
+        var newitem;
+        if (level === 0 || level === 1) {
+          _this.branch = calcBranch(_this.branch, b1.branch);
+        }
+        if (level === 2) {
+          newitem = _.clone(item);
+          newitem[4] = _.clone(item[4]);
+          korg.add(newitem);
+          _this.branch = [0];
+        }
+        return updateTables();
+      };
+      return this.handleRow(b1, id, pris);
     }
   }]);
 
