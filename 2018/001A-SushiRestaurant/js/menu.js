@@ -26,7 +26,6 @@ Menu = function () {
       var br = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];
 
       var children, count, i, item, j, k, l, len, len1, len2, results, title, x;
-      //console.log 'meny.traverse',items,level,br
       if (false === goDeeper(this.branch, br)) {
         return;
       }
@@ -73,24 +72,12 @@ Menu = function () {
   }, {
     key: 'handleRow',
     value: function handleRow(b1) {
-      var id = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
-      var pris = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '';
-
-      var div, td0, td1, tr;
+      var td1, tr;
       tr = document.createElement("tr");
-      td0 = document.createElement("td");
       td1 = document.createElement("td");
-      td0.style.cssText = "width:5%";
-      td1.style.cssText = "width:85%";
+      td1.style.cssText = "width:100%";
       this.table.appendChild(tr);
-      tr.appendChild(td0);
       tr.appendChild(td1);
-      div = document.createElement("div");
-      div.style.cssText = "font-size:70%";
-      if (id !== '') {
-        div.innerHTML = '<b>' + id + '</b><br>' + pris + ':-';
-      }
-      td0.appendChild(div);
       return td1.appendChild(b1);
     }
   }, {
@@ -104,8 +91,10 @@ Menu = function () {
       } else {
         scount = "";
       }
-      //v = '........'.slice(0,4*level) + title + scount
       v = title + scount;
+      if (id !== '') {
+        v = id + '. ' + v + ' ' + pris + 'kr';
+      }
       if (level === 2) {
         b1 = makeButton(v, YELLOW, BLACK);
       } else if (this.branch[level] === i) {
@@ -115,7 +104,6 @@ Menu = function () {
       }
       b1.style.textAlign = 'left';
       b1.branch = br;
-      // b1.style.paddingLeft = 15*level + 'px' # funkar ej på iOS
       b1.style.position = 'relative';
       b1.style.left = 15 * level + 'px';
       b1.onclick = function () {
@@ -131,7 +119,7 @@ Menu = function () {
         }
         return updateTables();
       };
-      return this.handleRow(b1, id, pris);
+      return this.handleRow(b1);
     }
   }]);
 

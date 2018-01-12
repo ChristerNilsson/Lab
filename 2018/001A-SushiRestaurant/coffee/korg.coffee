@@ -9,93 +9,82 @@ class Korg
 
 	update0 : (b,item,delta) ->
 		item[1] += delta
-		b.value = if item[1]==0 then "" else item[1]
+		b.value = item[1] 
 
 	update1 : (b,items,source,delta,mapping) ->
 		target = mapping[source]
 		if items[target]-delta >= 0 
 			items[target] -= delta
 			items[source] += delta
-			@targets[target].innerHTML = if items[target]==0 then "" else items[target]
-			b.value = if items[source]==0 then "" else items[source]
+			@targets[target].innerHTML = items[target] 
+			b.value = items[source] 
 
 	traverse : (mapping=null,items=@items,level=0, br=[]) ->
 		if false == goDeeper @branch,br then return 
 		if level==0
 			for item,i in items
 				[id,antal,pris,title,children,mapping1] = item
-				@addTitle0 item,id,pris,title,-1,0,br.concat(i),antal
+				@addTitle0 item,id,pris,title,br.concat(i),antal
 				if children then @traverse mapping1,children,level+1,br.concat(i)
 		else if level==1
 			for key of items
-				subantal = items[key]
-				@addTitle1 items,key,'',0,sushi[key][1],-1,1,br.concat(i),subantal,mapping
+				@addTitle1 items,key,sushi[key][1],br.concat(i),mapping
 
-	handleRow : (b1,b2,b3,id='',pris='') ->
+	handleRow : (b1,b2,b3) ->
 		tr = document.createElement "tr"
-		#td0 = document.createElement "td"
 		td1 = document.createElement "td"
 		td2 = document.createElement "td"
 		td3 = document.createElement "td"
 
-		#td0.style.cssText = "width:5%"
 		td1.style.cssText = "width:100%"
 		td2.style.cssText = "width:5%"
 		td3.style.cssText = "width:5%"
 
 		@table.appendChild tr
-		#tr.appendChild td0
 		tr.appendChild td1
 		tr.appendChild td2
 		tr.appendChild td3
 
-		#div = document.createElement "div"
-		#div.style.cssText = "font-size:70%"
-		#if id != '' then div.innerHTML = '<b>' + id + '</b><br>' + pris + ':-'
-		#td0.appendChild div
 		td1.appendChild b1
 		td2.appendChild b2
 		td3.appendChild b3
 
-	addTitle0 : (item,id,pris,title,count,level,br,antal) ->
-		if count>0 then scount = " (#{count})" else scount =""
-		v = '........'.slice(0,4*level) + title + scount
-		b1 = makeButton v
+	addTitle0 : (item,id,pris,title,br,antal) ->
+		b1 = makeButton "#{id}. #{title} #{pris}kr" 
 		b1.style.textAlign = 'left'
 		b1.branch = br
 		b1.onclick = => 
 			@branch = calcBranch @branch, b1.branch
 			updateTables()
 
-		v = if antal==0 then "" else antal
-		b2 = makeButton v, GREEN,BLACK 
+		b2 = makeButton antal, GREEN,BLACK 
 		b2.onclick = => @update0 b2,item,+1
 
 		b3 = makeButton "-", RED,BLACK
-		b3.onclick = => if b2.value>0 then @update0 b2,item,-1
+		b3.onclick = => if b2.value > 0 then @update0 b2,item,-1
 
 		@handleRow b1,b2,b3
 
-	addTitle1 : (items,key,id,pris,title,count,level,br,antal,mapping) ->
+	addTitle1 : (items,key,title,br,mapping) ->
+		antal = items[key]
 		b1 = document.createElement "div"
 		b1.innerHTML = title  
 		b1.style.cssText = "font-size:100%; white-space:normal; width:100%; text-align:right"
 
-		v = if antal==0 then "" else antal
 		if mapping and key of mapping
-			b2 = makeButton v,  GREEN,BLACK
+			b2 = makeButton antal,  GREEN,BLACK
 			b3 = makeButton '-',RED,BLACK
 		else
-			b2 = makeDiv v
+			b2 = makeDiv antal
 			b3 = makeDiv ''
 			@targets[key] = b2
 
 		b2.onclick = => if mapping then @update1 b2,items,key,+1,mapping
 		b3.onclick = => if mapping and b2.value>0 then @update1 b2,items,key,-1,mapping
 
-		@handleRow b1,b2,b3,id,pris
+		@handleRow b1,b2,b3
 
-	rensa : -> @items = []
+	clear : -> @items = []
 
 	send : ->
 		t = 0 # kr

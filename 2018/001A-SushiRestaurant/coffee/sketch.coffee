@@ -7,19 +7,22 @@ body = null
 meny = null
 korg = null
 send = null
-rensa = null
+clear = null
 
 # Svart = Closed
 # Vitt = Open
 # Grön = incr
 # Röd = decr
+# Gul = valbar maträtt
 
 # iOS visar inga radbrytningar.
 # OBS: .cssText måste användas på iPhone 4s
 
 updateTables = ->
+	myNode = document.getElementById "help"
+	myNode.innerHTML = ''
+
 	meny.table.remove()
-	send.remove()
 	korg.table.remove()
 
 	meny.table = document.createElement "table"
@@ -27,7 +30,7 @@ updateTables = ->
 	meny.traverse()
 
 	body.appendChild send
-	body.appendChild rensa 
+	body.appendChild clear 
 
 	korg.table = document.createElement "table"
 	body.appendChild korg.table
@@ -40,33 +43,22 @@ calc = (hash) ->
 	res 
 
 window.onload = ->
-	w = window.innerWidth
 	body = document.getElementById "body"
-
 	meny = new Menu
 	meny.items = menuItems 
 	meny.table = document.createElement "table"
-	meny.traverse()
 
 	korg = new Korg
 	korg.table = document.createElement "table"
-	korg.traverse korg.items
 
-	send = document.createElement "input"
-	send.type = 'button'
-	send.value = 'Skicka'
+	send = makeButton "Send"
 	send.style.cssText = "font-size:200%; width:50%"
 	send.onclick = -> korg.send()
 
-	rensa = document.createElement "input"
-	rensa.type = 'button'
-	rensa.value = 'Rensa'
-	rensa.style.cssText = "font-size:200%; width:50%"
-	rensa.onclick = -> 
-		korg.rensa()
+	clear = makeButton "Clear"
+	clear.style.cssText = "font-size:200%; width:50%"
+	clear.onclick = -> 
+		korg.clear()
 		updateTables()
 
-	body.appendChild meny.table
-	body.appendChild send
-	body.appendChild rensa
-	body.appendChild korg.table
+	updateTables()

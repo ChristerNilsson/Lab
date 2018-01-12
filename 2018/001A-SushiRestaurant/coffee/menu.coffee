@@ -5,7 +5,6 @@ class Menu
 		@items = []
 
 	traverse : (items=@items, level=0, br=[]) ->
-		#console.log 'meny.traverse',items,level,br
 		if false == goDeeper @branch,br then return 
 		if level in [0,1]
 			for item,i in items
@@ -23,27 +22,18 @@ class Menu
 				for x in item
 					@addTitle x,x[0],x[2],x[3],calc(x[4]),level,br,i
 
-	handleRow : (b1,id='',pris='') ->
+	handleRow : (b1) ->
 		tr = document.createElement "tr"
-		td0 = document.createElement "td"
 		td1 = document.createElement "td"
-
-		td0.style.cssText = "width:5%"
-		td1.style.cssText = "width:85%"
+		td1.style.cssText = "width:100%"
 		@table.appendChild tr
-		tr.appendChild td0
 		tr.appendChild td1
-		div = document.createElement "div"
-		div.style.cssText = "font-size:70%"
-		if id != '' 
-			div.innerHTML = '<b>' + id + '</b><br>' + pris + ':-'
-		td0.appendChild div
 		td1.appendChild b1
 
 	addTitle : (item,id,pris,title,count,level,br,i) ->
 		if count>0 then scount = " (#{count})" else scount =""
-		#v = '........'.slice(0,4*level) + title + scount
-		v = title + scount
+		v = title + scount 
+		if id!='' then v = "#{id}. #{v} #{pris}kr" 
 		if level == 2 
 			b1 = makeButton v, YELLOW, BLACK
 		else if @branch[level] == i
@@ -53,7 +43,6 @@ class Menu
 		b1.style.textAlign = 'left'
 		b1.branch = br
 
-		# b1.style.paddingLeft = 15*level + 'px' # funkar ej på iOS
 		b1.style.position = 'relative' 
 		b1.style.left = 15*level + 'px' 
 
@@ -67,4 +56,4 @@ class Menu
 				@branch = [0]
 			updateTables()
 
-		@handleRow b1,id,pris
+		@handleRow b1

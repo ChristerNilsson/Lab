@@ -28,7 +28,7 @@ Korg = function () {
     key: "update0",
     value: function update0(b, item, delta) {
       item[1] += delta;
-      return b.value = item[1] === 0 ? "" : item[1];
+      return b.value = item[1];
     }
   }, {
     key: "update1",
@@ -38,8 +38,8 @@ Korg = function () {
       if (items[target] - delta >= 0) {
         items[target] -= delta;
         items[source] += delta;
-        this.targets[target].innerHTML = items[target] === 0 ? "" : items[target];
-        return b.value = items[source] === 0 ? "" : items[source];
+        this.targets[target].innerHTML = items[target];
+        return b.value = items[source];
       }
     }
   }, {
@@ -50,7 +50,7 @@ Korg = function () {
       var level = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
       var br = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : [];
 
-      var antal, children, i, id, item, j, key, len, mapping1, pris, results, results1, subantal, title;
+      var antal, children, i, id, item, j, key, len, mapping1, pris, results, results1, title;
       if (false === goDeeper(this.branch, br)) {
         return;
       }
@@ -69,7 +69,7 @@ Korg = function () {
           children = _item2[4];
           mapping1 = _item2[5];
 
-          this.addTitle0(item, id, pris, title, -1, 0, br.concat(i), antal);
+          this.addTitle0(item, id, pris, title, br.concat(i), antal);
           if (children) {
             results.push(this.traverse(mapping1, children, level + 1, br.concat(i)));
           } else {
@@ -80,8 +80,7 @@ Korg = function () {
       } else if (level === 1) {
         results1 = [];
         for (key in items) {
-          subantal = items[key];
-          results1.push(this.addTitle1(items, key, '', 0, sushi[key][1], -1, 1, br.concat(i), subantal, mapping));
+          results1.push(this.addTitle1(items, key, sushi[key][1], br.concat(i), mapping));
         }
         return results1;
       }
@@ -89,53 +88,36 @@ Korg = function () {
   }, {
     key: "handleRow",
     value: function handleRow(b1, b2, b3) {
-      var id = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : '';
-      var pris = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : '';
-
       var td1, td2, td3, tr;
       tr = document.createElement("tr");
-      //td0 = document.createElement "td"
       td1 = document.createElement("td");
       td2 = document.createElement("td");
       td3 = document.createElement("td");
-      //td0.style.cssText = "width:5%"
       td1.style.cssText = "width:100%";
       td2.style.cssText = "width:5%";
       td3.style.cssText = "width:5%";
       this.table.appendChild(tr);
-      //tr.appendChild td0
       tr.appendChild(td1);
       tr.appendChild(td2);
       tr.appendChild(td3);
-      //div = document.createElement "div"
-      //div.style.cssText = "font-size:70%"
-      //if id != '' then div.innerHTML = '<b>' + id + '</b><br>' + pris + ':-'
-      //td0.appendChild div
       td1.appendChild(b1);
       td2.appendChild(b2);
       return td3.appendChild(b3);
     }
   }, {
     key: "addTitle0",
-    value: function addTitle0(item, id, pris, title, count, level, br, antal) {
+    value: function addTitle0(item, id, pris, title, br, antal) {
       var _this = this;
 
-      var b1, b2, b3, scount, v;
-      if (count > 0) {
-        scount = " (" + count + ")";
-      } else {
-        scount = "";
-      }
-      v = '........'.slice(0, 4 * level) + title + scount;
-      b1 = makeButton(v);
+      var b1, b2, b3;
+      b1 = makeButton(id + ". " + title + " " + pris + "kr");
       b1.style.textAlign = 'left';
       b1.branch = br;
       b1.onclick = function () {
         _this.branch = calcBranch(_this.branch, b1.branch);
         return updateTables();
       };
-      v = antal === 0 ? "" : antal;
-      b2 = makeButton(v, GREEN, BLACK);
+      b2 = makeButton(antal, GREEN, BLACK);
       b2.onclick = function () {
         return _this.update0(b2, item, +1);
       };
@@ -149,19 +131,19 @@ Korg = function () {
     }
   }, {
     key: "addTitle1",
-    value: function addTitle1(items, key, id, pris, title, count, level, br, antal, mapping) {
+    value: function addTitle1(items, key, title, br, mapping) {
       var _this2 = this;
 
-      var b1, b2, b3, v;
+      var antal, b1, b2, b3;
+      antal = items[key];
       b1 = document.createElement("div");
       b1.innerHTML = title;
       b1.style.cssText = "font-size:100%; white-space:normal; width:100%; text-align:right";
-      v = antal === 0 ? "" : antal;
       if (mapping && key in mapping) {
-        b2 = makeButton(v, GREEN, BLACK);
+        b2 = makeButton(antal, GREEN, BLACK);
         b3 = makeButton('-', RED, BLACK);
       } else {
-        b2 = makeDiv(v);
+        b2 = makeDiv(antal);
         b3 = makeDiv('');
         this.targets[key] = b2;
       }
@@ -175,11 +157,11 @@ Korg = function () {
           return _this2.update1(b2, items, key, -1, mapping);
         }
       };
-      return this.handleRow(b1, b2, b3, id, pris);
+      return this.handleRow(b1, b2, b3);
     }
   }, {
-    key: "rensa",
-    value: function rensa() {
+    key: "clear",
+    value: function clear() {
       return this.items = [];
     }
   }, {
