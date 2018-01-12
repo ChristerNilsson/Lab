@@ -104,7 +104,7 @@ class Korg
 		for [id,antal,pris,title,children] in @items
 			if antal > 0
 				ss =''
-				if children and _.size(children)==9
+				if children 
 					for key of children
 						subantal = children[key]
 						if subantal == 1

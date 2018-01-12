@@ -163,21 +163,36 @@ menuItems = [['Meny', ['Sushi', [['1', 1, 60, 'Dagens', {
   M: 0,
   S: 0,
   T: 0
-}, mappingS], ['60A', 1, 90, 'Bento: ris 2 lax räka ägg 2 vårrullar 4 dumpling', {
+}, mappingS], ['60A', 1, 90, 'Bento: ris 4 sushi 2 vårrullar 4 dumpling', {
+  L: 2,
+  P: 1,
+  E: 1,
   DK: 2,
   DV: 2
-}, mappingD], ['60B', 1, 105, 'Bento: ris 2 lax räka ägg 2 vårrullar 4 dumpling 2 kycklingspett', {
+}, mappingD], ['60B', 1, 105, 'Bento: ris 4 sushi 2 vårrullar 4 dumpling 2 kycklingspett', {
+  L: 2,
+  P: 1,
+  E: 1,
   DK: 2,
   DV: 2,
   KJ: 1,
   KS: 1
-}, mappingDK], ['60C', 1, 115, 'Bento: ris 2 lax räka ägg 2 vårrullar 4 dumpling yakiniku', {
+}, mappingDK], ['60C', 1, 115, 'Bento: ris 4 sushi 2 vårrullar 4 dumpling yakiniku', {
+  L: 2,
+  P: 1,
+  E: 1,
   DK: 2,
   DV: 2
-}, mappingD], ['60D', 1, 130, 'Bento: ris 2 lax räka ägg 2 vårrullar 2 kycklingspett yakiniku', {
+}, mappingD], ['60D', 1, 130, 'Bento: ris 4 sushi 2 vårrullar 2 kycklingspett yakiniku', {
+  L: 2,
+  P: 1,
+  E: 1,
   KJ: 1,
   KS: 1
-}, mappingK], ['60E', 1, 145, 'Bento: ris 2 lax räka ägg 2 vårrullar 4 dumpling 2 kycklingspett 3 fritScampi', {
+}, mappingK], ['60E', 1, 145, 'Bento: ris 4 sushi 2 vårrullar 4 dumpling 2 kycklingspett 3 fritScampi', {
+  L: 2,
+  P: 1,
+  E: 1,
   DK: 2,
   DV: 2,
   KJ: 1,

@@ -201,7 +201,7 @@ Korg = function () {
 
         if (antal > 0) {
           ss = '';
-          if (children && _.size(children) === 9) {
+          if (children) {
             for (key in children) {
               subantal = children[key];
               if (subantal === 1) {
