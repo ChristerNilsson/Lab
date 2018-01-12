@@ -43,16 +43,16 @@ window.onload = function () {
   korg = new Korg();
   korg.table = document.getElementById("korg");
   send = document.getElementById("send");
-  send.innerHTML = 'Send Order to ' + SHOP;
   send.onclick = function () {
     return korg.send();
   };
   clear = document.getElementById("clear");
-  clear.onclick = function () {
+  return clear.onclick = function () {
     meny.clear();
     korg.clear();
     return updateTables();
   };
-  return updateTables(false);
 };
+
+//updateTables false
 //# sourceMappingURL=sketch.js.map

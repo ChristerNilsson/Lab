@@ -31,7 +31,6 @@ window.onload = ->
 	korg.table = document.getElementById "korg"
 
 	send = document.getElementById "send"
-	send.innerHTML = 'Send Order to ' + SHOP
 	send.onclick = -> korg.send()
 
 	clear = document.getElementById "clear"
@@ -40,4 +39,4 @@ window.onload = ->
 		korg.clear()
 		updateTables()
 
-	updateTables false
+	#updateTables false
