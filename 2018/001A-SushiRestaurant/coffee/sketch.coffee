@@ -2,8 +2,7 @@ MAIL = "janchrister.nilsson@gmail.com"
 SHOP = "FU Restaurang" 
 CRLF = "\n"
 
-body = null
-
+#body = null
 meny = null
 korg = null
 send = null
@@ -18,22 +17,11 @@ clear = null
 # iOS visar inga radbrytningar.
 # OBS: .cssText måste användas på iPhone 4s
 
-updateTables = ->
-	myNode = document.getElementById "help"
-	myNode.innerHTML = ''
-
-	meny.table.remove()
-	korg.table.remove()
-
-	meny.table = document.createElement "table"
-	body.appendChild meny.table
+updateTables = (removeHelp=true) ->
+	if removeHelp then document.getElementById("help").innerHTML = ''
+	meny.rensa()
 	meny.traverse()
-
-	body.appendChild send
-	body.appendChild clear 
-
-	korg.table = document.createElement "table"
-	body.appendChild korg.table
+	korg.rensa()
 	korg.traverse()
 
 calc = (hash) ->
@@ -43,22 +31,20 @@ calc = (hash) ->
 	res 
 
 window.onload = ->
-	body = document.getElementById "body"
+	#body = document.getElementById "body"
 	meny = new Menu
 	meny.items = menuItems 
-	meny.table = document.createElement "table"
+	meny.table = document.getElementById "meny"
 
 	korg = new Korg
-	korg.table = document.createElement "table"
+	korg.table = document.getElementById "korg"
 
-	send = makeButton "Send"
-	send.style.cssText = "font-size:200%; width:50%"
+	send = document.getElementById "send"
 	send.onclick = -> korg.send()
 
-	clear = makeButton "Clear"
-	clear.style.cssText = "font-size:200%; width:50%"
+	clear = document.getElementById "clear"
 	clear.onclick = -> 
 		korg.clear()
 		updateTables()
 
-	updateTables()
+	updateTables false

@@ -20,6 +20,11 @@ Korg = function () {
   }
 
   _createClass(Korg, [{
+    key: "rensa",
+    value: function rensa() {
+      return this.table.innerHTML = "";
+    }
+  }, {
     key: "add",
     value: function add(item) {
       return this.items.push(item);

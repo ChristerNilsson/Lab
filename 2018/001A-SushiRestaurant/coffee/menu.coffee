@@ -4,6 +4,8 @@ class Menu
 		@branch = [0] 
 		@items = []
 
+	rensa : -> @table.innerHTML = ""
+
 	traverse : (items=@items, level=0, br=[]) ->
 		if false == goDeeper @branch,br then return 
 		if level in [0,1]

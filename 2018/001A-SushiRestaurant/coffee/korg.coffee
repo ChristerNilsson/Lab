@@ -5,6 +5,8 @@ class Korg
 		@items = []
 		@targets = {}
 
+	rensa : -> @table.innerHTML = ""		
+
 	add : (item) -> @items.push item
 
 	update0 : (b,item,delta) ->

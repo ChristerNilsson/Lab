@@ -19,6 +19,11 @@ Menu = function () {
   }
 
   _createClass(Menu, [{
+    key: 'rensa',
+    value: function rensa() {
+      return this.table.innerHTML = "";
+    }
+  }, {
     key: 'traverse',
     value: function traverse() {
       var items = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.items;
