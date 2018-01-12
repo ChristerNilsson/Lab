@@ -30,29 +30,32 @@ class Menu
 		td1.appendChild b1
 
 	addTitle : (item,id,pris,title,count,level,br,i) ->
-		if count>0 then scount = " (#{count})" else scount =""
-		v = title + scount 
-		if id!='' then v = "#{id}. #{v} #{pris}kr" 
-		if level == 2 
-			b1 = makeButton v, YELLOW, BLACK
-		else if @branch[level] == i
-			b1 = makeButton v, WHITE, BLACK
-		else
-			b1 = makeButton v, BLACK, WHITE
-		b1.style.textAlign = 'left'
-		b1.branch = br
+		b1 = document.createElement "div"
+		b1.innerHTML = title
 
-		#b1.style.position = 'relative' 
-		#b1.style.left = 15*level + 'px' 
+		# if count>0 then scount = " (#{count})" else scount =""
+		# v = title + scount 
+		# if id!='' then v = "#{id}. #{v} #{pris}kr" 
+		# if level == 2 
+		# 	b1 = makeButton v, YELLOW, BLACK
+		# else if @branch[level] == i
+		# 	b1 = makeButton v, WHITE, BLACK
+		# else
+		# 	b1 = makeButton v, BLACK, WHITE
+		# b1.style.textAlign = 'left'
+		# b1.branch = br
 
-		b1.onclick = => 
-			if level in [0,1]
-				@branch = calcBranch @branch, b1.branch
-			if level == 2
-				newitem = _.clone item
-				newitem[4] = _.clone item[4]
-				korg.add newitem
-				@branch = [0]
-			updateTables()
+		# #b1.style.position = 'relative' 
+		# #b1.style.left = 15*level + 'px' 
+
+		# b1.onclick = => 
+		# 	if level in [0,1]
+		# 		@branch = calcBranch @branch, b1.branch
+		# 	if level == 2
+		# 		newitem = _.clone item
+		# 		newitem[4] = _.clone item[4]
+		# 		korg.add newitem
+		# 		@branch = [0]
+		# 	updateTables()
 
 		@handleRow b1
