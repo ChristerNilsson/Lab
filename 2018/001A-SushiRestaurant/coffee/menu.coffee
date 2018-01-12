@@ -4,6 +4,12 @@ class Menu
 	clear : -> @branch = [0]
 
 	traverse : (items=@items, level=0, br=[]) ->
+		for item,i in items
+			b1 = document.createElement "div"
+			b1.innerHTML = i
+			@handleRow b1
+		return
+
 		if false == goDeeper @branch,br then return 
 		if level in [0,1]
 			for item,i in items

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -22,28 +22,35 @@ Menu = function () {
   }
 
   _createClass(Menu, [{
-    key: 'rensa',
+    key: "rensa",
     value: function rensa() {
       return this.table.innerHTML = "";
     }
   }, {
-    key: 'clear',
+    key: "clear",
     value: function clear() {
       return this.branch = [0];
     }
   }, {
-    key: 'traverse',
+    key: "traverse",
     value: function traverse() {
       var items = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.items;
       var level = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
       var br = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];
 
-      var children, count, i, item, j, k, l, len, len1, len2, results, title, x;
+      var b1, children, count, i, item, j, k, l, len, len1, len2, len3, m, results, title, x;
+      for (i = j = 0, len = items.length; j < len; i = ++j) {
+        item = items[i];
+        b1 = document.createElement("div");
+        b1.innerHTML = i;
+        this.handleRow(b1);
+      }
+      return;
       if (false === goDeeper(this.branch, br)) {
         return;
       }
       if (level === 0 || level === 1) {
-        for (i = j = 0, len = items.length; j < len; i = ++j) {
+        for (i = k = 0, len1 = items.length; k < len1; i = ++k) {
           item = items[i];
           var _item = item;
 
@@ -56,8 +63,8 @@ Menu = function () {
             this.addTitle(null, '', 0, title, children.length, level, br.concat(i), i);
           } else {
             count = 0;
-            for (k = 0, len1 = children.length; k < len1; k++) {
-              x = children[k];
+            for (l = 0, len2 = children.length; l < len2; l++) {
+              x = children[l];
               count += x.length;
             }
             this.addTitle(null, '', 0, title, count, level, br.concat(i), i);
@@ -67,13 +74,13 @@ Menu = function () {
       }
       if (level === 2) {
         results = [];
-        for (l = 0, len2 = items.length; l < len2; l++) {
-          item = items[l];
+        for (m = 0, len3 = items.length; m < len3; m++) {
+          item = items[m];
           results.push(function () {
-            var len3, m, results1;
+            var len4, n, results1;
             results1 = [];
-            for (m = 0, len3 = item.length; m < len3; m++) {
-              x = item[m];
+            for (n = 0, len4 = item.length; n < len4; n++) {
+              x = item[n];
               results1.push(this.addTitle(x, x[0], x[2], x[3], sum(x[4]), level, br, i));
             }
             return results1;
@@ -83,7 +90,7 @@ Menu = function () {
       }
     }
   }, {
-    key: 'handleRow',
+    key: "handleRow",
     value: function handleRow(b1) {
       var td1, tr;
       tr = document.createElement("tr");
@@ -94,7 +101,7 @@ Menu = function () {
       return td1.appendChild(b1);
     }
   }, {
-    key: 'addTitle',
+    key: "addTitle",
     value: function addTitle(item, id, pris, title, count, level, br, i) {
       var b1;
       b1 = document.createElement("div");
