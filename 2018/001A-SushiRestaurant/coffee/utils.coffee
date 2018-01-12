@@ -1,10 +1,13 @@
-# stänger eller öppnar
-
 BLACK  = "#000"
 WHITE  = "#FFF"
 GREEN  = "#0F0"
 RED    = "#F00"
 YELLOW = "#FF0"
+
+sum = (hash) ->
+	if not hash then return 0 
+	_.reduce Object.values(hash), ((memo, num) -> memo + num), 0
+assert 3, sum {a:1, b:2}
 
 calcBranch = (a,b) ->
 	n = Math.min a.length,b.length

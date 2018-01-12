@@ -10,18 +10,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var Menu;
 
 Menu = function () {
-  function Menu() {
+  function Menu(items1) {
+    var table = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
+    var branch = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [0];
+
     _classCallCheck(this, Menu);
 
-    this.table = null;
-    this.branch = [0];
-    this.items = [];
+    this.items = items1;
+    this.table = table;
+    this.branch = branch;
   }
 
   _createClass(Menu, [{
     key: 'rensa',
     value: function rensa() {
       return this.table.innerHTML = "";
+    }
+  }, {
+    key: 'clear',
+    value: function clear() {
+      return this.branch = [0];
     }
   }, {
     key: 'traverse',
@@ -66,7 +74,7 @@ Menu = function () {
             results1 = [];
             for (m = 0, len3 = item.length; m < len3; m++) {
               x = item[m];
-              results1.push(this.addTitle(x, x[0], x[2], x[3], calc(x[4]), level, br, i));
+              results1.push(this.addTitle(x, x[0], x[2], x[3], sum(x[4]), level, br, i));
             }
             return results1;
           }.call(this));

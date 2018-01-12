@@ -1,10 +1,7 @@
 class Menu
-	constructor : ->
-		@table = null
-		@branch = [0] 
-		@items = []
-
+	constructor : (@items, @table=null, @branch=[0]) ->
 	rensa : -> @table.innerHTML = ""
+	clear : -> @branch = [0]
 
 	traverse : (items=@items, level=0, br=[]) ->
 		if false == goDeeper @branch,br then return 
@@ -22,7 +19,7 @@ class Menu
 		if level == 2
 			for item in items
 				for x in item
-					@addTitle x,x[0],x[2],x[3],calc(x[4]),level,br,i
+					@addTitle x,x[0],x[2],x[3],sum(x[4]),level,br,i
 
 	handleRow : (b1) ->
 		tr = document.createElement "tr"

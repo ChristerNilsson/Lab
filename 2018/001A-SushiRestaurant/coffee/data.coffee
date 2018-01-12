@@ -1,4 +1,4 @@
-sushi = 
+klartext = 
 	R: [10,"Rulle"]
 	A: [10,"Avokado"]
 	E: [10,"Ägg"]
@@ -13,10 +13,9 @@ sushi =
 	KS: [10,"Kycklingspett:Sojasås"]
 	KJ: [10,"Kycklingspett:Jordnötssås"]
 
-mappingS  = {A:'R', E:'R', F:'R', K:'R', L:'R', M:'R', P:'R', T:'R'} # Sushi
-mappingD  = {DV:'DK'} # Dumpling
-mappingK  = {KS:'KJ'} # Kycklingspett
-mappingDK = {DV:'DK', KS:'KJ'} # Dumpling + Kycklingspett
+mapping = {A:'R', E:'R', F:'R', K:'R', L:'R', M:'R', P:'R', T:'R', DV:'DK', KS:'KJ'} 
+passive = 'L P E DK KJ' # dessa blir readonly
+delta   = {KS:2} # antal bitar man stega med. default = 1
 
 menuItems = [
 	[
@@ -37,9 +36,9 @@ menuItems = [
 				['10',1,95,'Lax & räkor', { L:5, P:4 } ]
 				['11',1,90,'Mamma', { P:2, T:2, E:2, K:2, A:2 } ]
 				['12',1,85,'Vegetarisk', { R:4, A:2, T:2, E:2 } ]
-				['13',1,245,'Familje 10 rullar + 20 bitar', { R:20, A:0, E:0, F:0, K:0, L:0, M:0, P:0, T:0 }, mappingS ]
-				['14',1,105,'Liten sashimi 4 rullar + 8 bitar', { R:8, A:0, E:0, F:0, K:0, L:0, M:0, P:0, T:0 }, mappingS ]
-				['15',1,145,'Stor sashimi 6 rullar + 12 bitar', { R:12, A:0, E:0, F:0, K:0, L:0, M:0, P:0, T:0 }, mappingS ]
+				['13',1,245,'Familje 10 rullar + 20 bitar',     { R:20, A:0, E:0, F:0, K:0, L:0, M:0, P:0, T:0 }, mapping, 'R' ]
+				['14',1,105,'Liten sashimi 4 rullar + 8 bitar', { R:8,  A:0, E:0, F:0, K:0, L:0, M:0, P:0, T:0 }, mapping, 'R' ]
+				['15',1,145,'Stor sashimi 6 rullar + 12 bitar', { R:12, A:0, E:0, F:0, K:0, L:0, M:0, P:0, T:0 }, mapping, 'R' ]
 				['16',1,80,'California roll: krabbstick gurka avokado majonnäs sesamfrö']
 				['17',1,80,'Vegetarisk roll']
 				['18',1,95,'Yakiniku roll']
@@ -85,7 +84,8 @@ menuItems = [
 			'Skaldjur'
 			[
 				['38',1,90,'Lax Teriyaki: Grillad lax med teriyakisås']
-				['39',1,100,'Friterad Scampi med sötsur sås eller chilisås']
+				['39A',1,100,'Friterad Scampi med sötsur sås']
+				['39B',1,100,'Friterad Scampi med chilisås']
 				['40',1,100,'Räkor med röd curry och cocosmjölk (xx)']
 				['41',1,100,'Wokad scampi med blandade färska grönsaker']
 				['42',1,105,'Gong Bao Scampi (xxx)']
@@ -121,14 +121,14 @@ menuItems = [
 				['56A',1,110,'Bibimbap: Biff']
 				['56B',1,110,'Bibimbap: Räkor']
 				['56C',1,110,'Bibimbap: Vegetarisk']
-				['57',1,90,'Sushi Satay: 5 sushi 3 kycklingspett med jordnötssås', { R:5, A:0, E:0, F:0, K:0, L:0, M:0, S:0, T:0 }, mappingS] 
-				['58',1,90,'Sushi Yakiniku: 5 sushi yakiniku', { R:5, A:0, E:0, F:0, K:0, L:0, M:0, S:0, T:0 }, mappingS] 
-				['59',1,90,'Sushi Yakitori: 5 sushi 3 kycklingspett med sojasås', { R:5, A:0, E:0, F:0, K:0, L:0, M:0, S:0, T:0 }, mappingS] 
-				['60A',1,90, 'Bento: ris 4 sushi 2 vårrullar 4 dumpling', {L:2, P:1, E:1, DK:2, DV:2}, mappingD]
-				['60B',1,105,'Bento: ris 4 sushi 2 vårrullar 4 dumpling 2 kycklingspett',{L:2, P:1, E:1, DK:2, DV:2, KJ:1, KS:1}, mappingDK]
-				['60C',1,115,'Bento: ris 4 sushi 2 vårrullar 4 dumpling yakiniku',{L:2, P:1, E:1, DK:2, DV:2}, mappingD]
-				['60D',1,130,'Bento: ris 4 sushi 2 vårrullar 2 kycklingspett yakiniku',{L:2, P:1, E:1, KJ:1, KS:1}, mappingK]
-				['60E',1,145,'Bento: ris 4 sushi 2 vårrullar 4 dumpling 2 kycklingspett 3 fritScampi',{L:2, P:1, E:1, DK:2, DV:2, KJ:1, KS:1},mappingDK]
+				['57',1,90,'Sushi Satay: 5 sushi 3 kycklingspett med jordnötssås', { R:5, A:0, E:0, F:0, K:0, L:0, M:0, P:0, T:0 }, mapping, 'R'] 
+				['58',1,90,'Sushi Yakiniku: 5 sushi yakiniku', { R:5, A:0, E:0, F:0, K:0, L:0, M:0, P:0, T:0 }, mapping, 'R'] 
+				['59',1,90,'Sushi Yakitori: 5 sushi 3 kycklingspett med sojasås', { R:5, A:0, E:0, F:0, K:0, L:0, M:0, P:0, T:0 }, mapping, 'R'] 
+				['60A',1,90, 'Bento: ris 4 sushi 2 vårrullar 4 dumpling', {L:2, P:1, E:1, DK:2, DV:2}, mapping, passive]
+				['60B',1,105,'Bento: ris 4 sushi 2 vårrullar 4 dumpling 2 kycklingspett',{L:2, P:1, E:1, DK:2, DV:2, KJ:2, KS:0}, mapping,passive, delta]
+				['60C',1,115,'Bento: ris 4 sushi 2 vårrullar 4 dumpling yakiniku',{L:2, P:1, E:1, DK:2, DV:2}, mapping,passive]
+				['60D',1,130,'Bento: ris 4 sushi 2 vårrullar 2 kycklingspett yakiniku',{L:2, P:1, E:1, KJ:2, KS:0}, mapping,passive, delta]
+				['60E',1,145,'Bento: ris 4 sushi 2 vårrullar 4 dumpling 2 kycklingspett 3 fritScampi',{L:2, P:1, E:1, DK:2, DV:2, KJ:2, KS:0},mapping,passive,delta]
 			]
 		]
 		[

@@ -2,7 +2,6 @@ MAIL = "janchrister.nilsson@gmail.com"
 SHOP = "FU Restaurang" 
 CRLF = "\n"
 
-#body = null
 meny = null
 korg = null
 send = null
@@ -24,26 +23,20 @@ updateTables = (removeHelp=true) ->
 	korg.rensa()
 	korg.traverse()
 
-calc = (hash) ->
-	res = 0
-	for key of hash
-		res += hash[key]
-	res 
-
 window.onload = ->
-	#body = document.getElementById "body"
-	meny = new Menu
-	meny.items = menuItems 
+	meny = new Menu menuItems
 	meny.table = document.getElementById "meny"
 
 	korg = new Korg
 	korg.table = document.getElementById "korg"
 
 	send = document.getElementById "send"
+	send.innerHTML = 'Send Order to ' + SHOP
 	send.onclick = -> korg.send()
 
 	clear = document.getElementById "clear"
 	clear.onclick = -> 
+		meny.clear()
 		korg.clear()
 		updateTables()
 
