@@ -3,7 +3,7 @@ class Korg
 		@table = null
 		@branch = []
 		@items = []
-		@rulle = null
+		@targets = {}
 
 	add : (item) -> @items.push item
 
@@ -11,24 +11,25 @@ class Korg
 		item[1] += delta
 		b.value = if item[1]==0 then "" else item[1]
 
-	update1 : (rulle,b,items,key,delta) ->
-		if items['R']-delta >= 0 
-			items['R'] -= delta
-			items[key] += delta
-			rulle.innerHTML = if items['R']==0 then "" else items['R']
-			b.value = if items[key]==0 then "" else items[key]
+	update1 : (b,items,source,delta,mapping) ->
+		target = mapping[source]
+		if items[target]-delta >= 0 
+			items[target] -= delta
+			items[source] += delta
+			@targets[target].innerHTML = if items[target]==0 then "" else items[target]
+			b.value = if items[source]==0 then "" else items[source]
 
-	traverse : (items=@items,level=0, br=[]) ->
+	traverse : (mapping=null,items=@items,level=0, br=[]) ->
 		if false == goDeeper @branch,br then return 
 		if level==0
 			for item,i in items
-				[id,antal,pris,title,children,@limit] = item
+				[id,antal,pris,title,children,mapping1] = item
 				@addTitle0 item,id,pris,title,-1,0,br.concat(i),antal
-				if children then @traverse children,level+1,br.concat(i)
+				if children then @traverse mapping1,children,level+1,br.concat(i)
 		else if level==1
 			for key of items
 				subantal = items[key]
-				@addTitle1 items,key,'',0,sushi[key][1],-1,1,br.concat(i),subantal
+				@addTitle1 items,key,'',0,sushi[key][1],-1,1,br.concat(i),subantal,mapping
 
 	handleRow : (b1,b2,b3,id='',pris='') ->
 		tr = document.createElement "tr"
@@ -75,22 +76,22 @@ class Korg
 
 		@handleRow b1,b2,b3
 
-	addTitle1 : (items,key,id,pris,title,count,level,br,antal) ->
+	addTitle1 : (items,key,id,pris,title,count,level,br,antal,mapping) ->
 		b1 = document.createElement "div"
 		b1.innerHTML = title  
 		b1.style.cssText = "font-size:100%; white-space:normal; width:100%; text-align:right"
 
 		v = if antal==0 then "" else antal
-		if _.size(items) == 9 and key != 'R'
+		if mapping and key of mapping
 			b2 = makeButton v,  GREEN,BLACK
 			b3 = makeButton '-',RED,BLACK
 		else
 			b2 = makeDiv v
 			b3 = makeDiv ''
-		if key=='R' then @rulle = b2
+			@targets[key] = b2
 
-		b2.onclick = => if _.size(items) == 9 then @update1 @rulle,b2,items,key,+1
-		b3.onclick = => if _.size(items) == 9 and b2.value>0 then @update1 @rulle,b2,items,key,-1
+		b2.onclick = => if mapping then @update1 b2,items,key,+1,mapping
+		b3.onclick = => if mapping and b2.value>0 then @update1 b2,items,key,-1,mapping
 
 		@handleRow b1,b2,b3,id,pris
 

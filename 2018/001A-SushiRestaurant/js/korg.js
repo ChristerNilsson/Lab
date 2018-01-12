@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -16,38 +16,41 @@ Korg = function () {
     this.table = null;
     this.branch = [];
     this.items = [];
-    this.rulle = null;
+    this.targets = {};
   }
 
   _createClass(Korg, [{
-    key: 'add',
+    key: "add",
     value: function add(item) {
       return this.items.push(item);
     }
   }, {
-    key: 'update0',
+    key: "update0",
     value: function update0(b, item, delta) {
       item[1] += delta;
       return b.value = item[1] === 0 ? "" : item[1];
     }
   }, {
-    key: 'update1',
-    value: function update1(rulle, b, items, key, delta) {
-      if (items['R'] - delta >= 0) {
-        items['R'] -= delta;
-        items[key] += delta;
-        rulle.innerHTML = items['R'] === 0 ? "" : items['R'];
-        return b.value = items[key] === 0 ? "" : items[key];
+    key: "update1",
+    value: function update1(b, items, source, delta, mapping) {
+      var target;
+      target = mapping[source];
+      if (items[target] - delta >= 0) {
+        items[target] -= delta;
+        items[source] += delta;
+        this.targets[target].innerHTML = items[target] === 0 ? "" : items[target];
+        return b.value = items[source] === 0 ? "" : items[source];
       }
     }
   }, {
-    key: 'traverse',
+    key: "traverse",
     value: function traverse() {
-      var items = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.items;
-      var level = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
-      var br = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];
+      var mapping = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
+      var items = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : this.items;
+      var level = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
+      var br = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : [];
 
-      var antal, children, i, id, item, j, key, len, pris, results, results1, subantal, title;
+      var antal, children, i, id, item, j, key, len, mapping1, pris, results, results1, subantal, title;
       if (false === goDeeper(this.branch, br)) {
         return;
       }
@@ -64,11 +67,11 @@ Korg = function () {
           pris = _item2[2];
           title = _item2[3];
           children = _item2[4];
-          this.limit = _item2[5];
+          mapping1 = _item2[5];
 
           this.addTitle0(item, id, pris, title, -1, 0, br.concat(i), antal);
           if (children) {
-            results.push(this.traverse(children, level + 1, br.concat(i)));
+            results.push(this.traverse(mapping1, children, level + 1, br.concat(i)));
           } else {
             results.push(void 0);
           }
@@ -78,13 +81,13 @@ Korg = function () {
         results1 = [];
         for (key in items) {
           subantal = items[key];
-          results1.push(this.addTitle1(items, key, '', 0, sushi[key][1], -1, 1, br.concat(i), subantal));
+          results1.push(this.addTitle1(items, key, '', 0, sushi[key][1], -1, 1, br.concat(i), subantal, mapping));
         }
         return results1;
       }
     }
   }, {
-    key: 'handleRow',
+    key: "handleRow",
     value: function handleRow(b1, b2, b3) {
       var id = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : '';
       var pris = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : '';
@@ -113,13 +116,13 @@ Korg = function () {
       return td3.appendChild(b3);
     }
   }, {
-    key: 'addTitle0',
+    key: "addTitle0",
     value: function addTitle0(item, id, pris, title, count, level, br, antal) {
       var _this = this;
 
       var b1, b2, b3, scount, v;
       if (count > 0) {
-        scount = ' (' + count + ')';
+        scount = " (" + count + ")";
       } else {
         scount = "";
       }
@@ -145,8 +148,8 @@ Korg = function () {
       return this.handleRow(b1, b2, b3);
     }
   }, {
-    key: 'addTitle1',
-    value: function addTitle1(items, key, id, pris, title, count, level, br, antal) {
+    key: "addTitle1",
+    value: function addTitle1(items, key, id, pris, title, count, level, br, antal, mapping) {
       var _this2 = this;
 
       var b1, b2, b3, v;
@@ -154,35 +157,33 @@ Korg = function () {
       b1.innerHTML = title;
       b1.style.cssText = "font-size:100%; white-space:normal; width:100%; text-align:right";
       v = antal === 0 ? "" : antal;
-      if (_.size(items) === 9 && key !== 'R') {
+      if (mapping && key in mapping) {
         b2 = makeButton(v, GREEN, BLACK);
         b3 = makeButton('-', RED, BLACK);
       } else {
         b2 = makeDiv(v);
         b3 = makeDiv('');
-      }
-      if (key === 'R') {
-        this.rulle = b2;
+        this.targets[key] = b2;
       }
       b2.onclick = function () {
-        if (_.size(items) === 9) {
-          return _this2.update1(_this2.rulle, b2, items, key, +1);
+        if (mapping) {
+          return _this2.update1(b2, items, key, +1, mapping);
         }
       };
       b3.onclick = function () {
-        if (_.size(items) === 9 && b2.value > 0) {
-          return _this2.update1(_this2.rulle, b2, items, key, -1);
+        if (mapping && b2.value > 0) {
+          return _this2.update1(b2, items, key, -1, mapping);
         }
       };
       return this.handleRow(b1, b2, b3, id, pris);
     }
   }, {
-    key: 'rensa',
+    key: "rensa",
     value: function rensa() {
       return this.items = [];
     }
   }, {
-    key: 'send',
+    key: "send",
     value: function send() {
       var antal, children, id, j, key, len, output, pris, ref, s, ss, subantal, t, title, u;
       t = 0; // kr
@@ -225,9 +226,9 @@ Korg = function () {
       console.log(t);
       console.log(s);
       console.log(u);
-      output = encodeURI('mailto:' + MAIL + '?&subject=Order till ' + SHOP + '&body=' + s + CRLF + t + " kr");
+      output = encodeURI("mailto:" + MAIL + "?&subject=Order till " + SHOP + "&body=" + s + CRLF + t + " kr");
       if (output.length > 2000) {
-        output = encodeURI('mailto:' + MAIL + '?&subject=Order till ' + SHOP + '&body=' + u + CRLF + t + " kr");
+        output = encodeURI("mailto:" + MAIL + "?&subject=Order till " + SHOP + "&body=" + u + CRLF + t + " kr");
       }
       console.log(output.length);
       console.log(output);
