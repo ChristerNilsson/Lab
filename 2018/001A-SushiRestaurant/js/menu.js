@@ -117,8 +117,8 @@ Menu = function () {
       }
       b1.style.textAlign = 'left';
       b1.branch = br;
-      b1.style.position = 'relative';
-      b1.style.left = 15 * level + 'px';
+      //b1.style.position = 'relative' 
+      //b1.style.left = 15*level + 'px' 
       b1.onclick = function () {
         var newitem;
         if (level === 0 || level === 1) {

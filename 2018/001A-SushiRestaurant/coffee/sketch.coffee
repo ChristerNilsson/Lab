@@ -20,8 +20,8 @@ updateTables = (removeHelp=true) ->
 	if removeHelp then document.getElementById("help").innerHTML = ''
 	meny.rensa()
 	meny.traverse()
-	korg.rensa()
-	korg.traverse()
+	#korg.rensa()
+	#korg.traverse()
 
 window.onload = ->
 	meny = new Menu menuItems

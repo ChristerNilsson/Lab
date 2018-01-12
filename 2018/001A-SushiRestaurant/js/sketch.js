@@ -32,11 +32,11 @@ updateTables = function updateTables() {
     document.getElementById("help").innerHTML = '';
   }
   meny.rensa();
-  meny.traverse();
-  korg.rensa();
-  return korg.traverse();
+  return meny.traverse();
 };
 
+//korg.rensa()
+//korg.traverse()
 window.onload = function () {
   meny = new Menu(menuItems);
   meny.table = document.getElementById("meny");

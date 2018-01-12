@@ -42,8 +42,8 @@ class Menu
 		b1.style.textAlign = 'left'
 		b1.branch = br
 
-		b1.style.position = 'relative' 
-		b1.style.left = 15*level + 'px' 
+		#b1.style.position = 'relative' 
+		#b1.style.left = 15*level + 'px' 
 
 		b1.onclick = => 
 			if level in [0,1]
