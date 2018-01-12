@@ -32,11 +32,11 @@ updateTables = function updateTables() {
     document.getElementById("help").innerHTML = '';
   }
   meny.rensa();
-  return meny.traverse();
+  meny.traverse();
+  korg.rensa();
+  return korg.traverse();
 };
 
-//korg.rensa()
-//korg.traverse()
 window.onload = function () {
   meny = new Menu(menuItems);
   meny.table = document.getElementById("meny");
@@ -47,12 +47,11 @@ window.onload = function () {
     return korg.send();
   };
   clear = document.getElementById("clear");
-  return clear.onclick = function () {
+  clear.onclick = function () {
     meny.clear();
     korg.clear();
     return updateTables();
   };
+  return updateTables(false);
 };
-
-//updateTables false
 //# sourceMappingURL=sketch.js.map
