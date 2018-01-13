@@ -90,8 +90,8 @@ Menu = function () {
       if (!b2) {
         b2 = makeDiv('');
       }
-      addCell(tr, b2, '10%');
-      addCell(tr, b1, '100%');
+      addCell(tr, b1, 100);
+      addCell(tr, b2, 10);
       return this.table.appendChild(tr);
     }
   }, {
@@ -111,7 +111,7 @@ Menu = function () {
       }
       if (level === 2) {
         b1 = makeButton(v, YELLOW, BLACK);
-        b2 = makeDiv(pris);
+        b2 = makeDiv(pris + "kr");
         b2.style.textAlign = 'right';
       } else if (this.branch[level] === i) {
         b1 = makeButton(v, WHITE, BLACK);
@@ -122,8 +122,7 @@ Menu = function () {
       }
       b1.style.textAlign = 'left';
       b1.branch = br;
-      b1.style.position = 'relative';
-      b1.style.left = 5 * level + 'px';
+      b1.style.paddingLeft = 10 * level + "px";
       b1.onclick = function () {
         var newitem;
         if (level === 0 || level === 1) {

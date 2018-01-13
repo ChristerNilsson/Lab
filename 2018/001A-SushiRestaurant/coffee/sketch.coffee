@@ -20,6 +20,7 @@ updateTables = (removeHelp=true) ->
 	meny.traverse()
 	korg.rensa()
 	korg.traverse()
+	korg.updateTotal()
 
 window.onload = ->
 	meny = new Menu menuItems

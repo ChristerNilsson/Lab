@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -21,23 +21,38 @@ Korg = function () {
   }
 
   _createClass(Korg, [{
-    key: "rensa",
+    key: 'rensa',
     value: function rensa() {
       return this.table.innerHTML = "";
     }
   }, {
-    key: "add",
+    key: 'add',
     value: function add(item) {
       return this.items.push(item);
     }
   }, {
-    key: "update0",
-    value: function update0(b, item, delta) {
-      item[1] += delta;
-      return b.value = item[1];
+    key: 'updateTotal',
+    value: function updateTotal() {
+      var count, total;
+
+      var _total = this.total();
+
+      var _total2 = _slicedToArray(_total, 2);
+
+      count = _total2[0];
+      total = _total2[1];
+
+      return send.innerHTML = 'Send Order (' + count + ' meal' + (count === 1 ? '' : 's') + ', ' + total + 'kr)';
     }
   }, {
-    key: "update1",
+    key: 'update0',
+    value: function update0(b, item, delta) {
+      item[1] += delta;
+      b.value = item[1];
+      return this.updateTotal();
+    }
+  }, {
+    key: 'update1',
     value: function update1(b, items, source, dir, mapping, delta) {
       var deltaValue, target;
       deltaValue = dir;
@@ -53,7 +68,7 @@ Korg = function () {
       }
     }
   }, {
-    key: "traverse",
+    key: 'traverse',
     value: function traverse() {
       var items = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.items;
       var mapping = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
@@ -99,35 +114,28 @@ Korg = function () {
         return results1;
       }
     }
-
-    // addCell : (tr,value,width) ->
-    // 	td = document.createElement "td"
-    // 	td.style.cssText = "width:#{width}%"
-    // 	td.appendChild value
-    // 	tr.appendChild td
-
   }, {
-    key: "handleRow",
-    value: function handleRow(b05, b1, b2, b3) {
+    key: 'handleRow',
+    value: function handleRow(b1, b05, b2, b3) {
       var tr;
       tr = document.createElement("tr");
-      addCell(tr, b05, '5%');
-      addCell(tr, b1, '100%');
-      addCell(tr, b2, '5%');
-      addCell(tr, b3, '5%');
+      addCell(tr, b1, 100);
+      addCell(tr, b05, 5);
+      addCell(tr, b2, 5);
+      addCell(tr, b3, 5);
       return this.table.appendChild(tr);
     }
   }, {
-    key: "addTitle0",
+    key: 'addTitle0',
     value: function addTitle0(item, id, pris, title, br, antal, children) {
       var _this = this;
 
       var b05, b1, b2, b3;
       b05 = document.createElement("div");
-      b05.innerHTML = pris;
+      b05.innerHTML = pris + "kr";
       b05.style.textAlign = 'right';
       if (children) {
-        b1 = makeButton(id + ". " + title);
+        b1 = makeButton(id + '. ' + title);
         b1.style.textAlign = 'left';
         b1.branch = br;
         b1.onclick = function () {
@@ -136,7 +144,7 @@ Korg = function () {
         };
       } else {
         b1 = document.createElement("div");
-        b1.innerHTML = id + ". " + title;
+        b1.innerHTML = id + '. ' + title;
         b1.style.cssText = "font-size:100%; white-space:normal; width:100%;";
       }
       b2 = makeButton(antal, GREEN, BLACK);
@@ -149,17 +157,15 @@ Korg = function () {
           return _this.update0(b2, item, -1);
         }
       };
-      return this.handleRow(b05, b1, b2, b3);
+      return this.handleRow(b1, b05, b2, b3);
     }
   }, {
-    key: "addTitle1",
+    key: 'addTitle1',
     value: function addTitle1(items, key, title, br, mapping, passive, delta) {
       var _this2 = this;
 
       var antal, b05, b1, b2, b3;
-      if (passive) {
-        passive = passive.split(' ');
-      }
+      //if passive then passive = passive.split ' '
       antal = items[key];
       b05 = document.createElement("div");
       b1 = document.createElement("div");
@@ -178,6 +184,7 @@ Korg = function () {
         b2 = makeDiv(antal);
         b3 = makeDiv('');
       }
+      b2.style.textAlign = "center";
       b2.onclick = function () {
         return _this2.update1(b2, items, key, +1, mapping, delta);
       };
@@ -186,15 +193,44 @@ Korg = function () {
           return _this2.update1(b2, items, key, -1, mapping, delta);
         }
       };
-      return this.handleRow(b05, b1, b2, b3);
+      return this.handleRow(b1, b05, b2, b3);
     }
   }, {
-    key: "clear",
+    key: 'total',
+    value: function total() {
+      var antal, count, id, j, len, pris, ref, res;
+      res = 0;
+      count = 0;
+      ref = this.items;
+      for (j = 0, len = ref.length; j < len; j++) {
+        var _ref$j = _slicedToArray(ref[j], 3);
+
+        id = _ref$j[0];
+        antal = _ref$j[1];
+        pris = _ref$j[2];
+
+        res += antal * pris;
+        if (indexOf.call(nonMeals, id) < 0) {
+          count += antal;
+        }
+      }
+      return [count, res];
+    }
+  }, {
+    key: 'clear',
     value: function clear() {
-      return this.items = [];
+      var newitems;
+      newitems = this.items.filter(function (e) {
+        return e[1] !== 0;
+      });
+      if (newitems.length === this.items.length) {
+        return this.items = []; // alla tas bort
+      } else {
+        return this.items = newitems; // alla med antal==0 tas bort
+      }
     }
   }, {
-    key: "send",
+    key: 'send',
     value: function send() {
       var antal, children, id, j, key, len, output, pris, ref, s, sarr, ss, subantal, t, title, u;
       t = 0; // kr
@@ -202,13 +238,13 @@ Korg = function () {
       u = ''; // compact
       ref = this.items;
       for (j = 0, len = ref.length; j < len; j++) {
-        var _ref$j = _slicedToArray(ref[j], 5);
+        var _ref$j2 = _slicedToArray(ref[j], 5);
 
-        id = _ref$j[0];
-        antal = _ref$j[1];
-        pris = _ref$j[2];
-        title = _ref$j[3];
-        children = _ref$j[4];
+        id = _ref$j2[0];
+        antal = _ref$j2[1];
+        pris = _ref$j2[2];
+        title = _ref$j2[3];
+        children = _ref$j2[4];
 
         if (antal > 0) {
           sarr = [];
@@ -235,9 +271,9 @@ Korg = function () {
       if (t === 0) {
         return;
       }
-      output = encodeURI("mailto:" + MAIL + "?&subject=Order till " + SHOP + "&body=" + s + CRLF + t + " kr");
+      output = encodeURI('mailto:' + MAIL + '?&subject=Order till ' + SHOP + '&body=' + s + CRLF + t + " kr");
       if (output.length > 2000) {
-        output = encodeURI("mailto:" + MAIL + "?&subject=Order till " + SHOP + "&body=" + u + CRLF + t + " kr");
+        output = encodeURI('mailto:' + MAIL + '?&subject=Order till ' + SHOP + '&body=' + u + CRLF + t + " kr");
       }
       return window.open(output, '_blank');
     }

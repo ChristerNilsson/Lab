@@ -24,8 +24,8 @@ class Menu
 	handleRow : (b1,b2) ->
 		tr = document.createElement "tr"
 		if not b2 then b2 = makeDiv ''
-		addCell tr,b2,'10%'
-		addCell tr,b1,'100%'
+		addCell tr,b1,100
+		addCell tr,b2,10
 		@table.appendChild tr
 
 	addTitle : (item,id,pris,title,count,level,br,i) ->
@@ -34,7 +34,7 @@ class Menu
 		if id!='' then v = "#{id}. #{v}" 
 		if level == 2 
 			b1 = makeButton v, YELLOW, BLACK
-			b2 = makeDiv pris
+			b2 = makeDiv pris + "kr"
 			b2.style.textAlign = 'right'
 		else if @branch[level] == i
 			b1 = makeButton v, WHITE, BLACK
@@ -44,9 +44,7 @@ class Menu
 			b2 = makeDiv ''
 		b1.style.textAlign = 'left'
 		b1.branch = br
-
-		b1.style.position = 'relative' 
-		b1.style.left = 5*level + 'px' 
+		b1.style.paddingLeft = 10*level + "px"
 
 		b1.onclick = => 
 			if level in [0,1]

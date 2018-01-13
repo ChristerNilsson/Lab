@@ -118,7 +118,7 @@ makeDiv = function makeDiv(value) {
 addCell = function addCell(tr, value, width) {
   var td;
   td = document.createElement("td");
-  td.style.cssText = "width:" + width;
+  td.style.cssText = "width:" + width + "%";
   td.appendChild(value);
   return tr.appendChild(td);
 };

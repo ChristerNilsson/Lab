@@ -57,6 +57,6 @@ makeDiv = (value) ->
 
 addCell = (tr,value,width) ->
 	td = document.createElement "td"
-	td.style.cssText = "width:#{width}"
+	td.style.cssText = "width:#{width}%"
 	td.appendChild value
 	tr.appendChild td

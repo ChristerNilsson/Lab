@@ -30,7 +30,8 @@ updateTables = function updateTables() {
   meny.rensa();
   meny.traverse();
   korg.rensa();
-  return korg.traverse();
+  korg.traverse();
+  return korg.updateTotal();
 };
 
 window.onload = function () {

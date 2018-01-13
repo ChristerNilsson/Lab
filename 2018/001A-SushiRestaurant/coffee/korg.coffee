@@ -8,9 +8,14 @@ class Korg
 	rensa : -> @table.innerHTML = ""
 	add : (item) -> @items.push item
 
+	updateTotal : ->
+		[count,total] = @total()
+		send.innerHTML = "Send Order (#{count} meal#{if count==1 then '' else 's'}, #{total}kr)"	
+
 	update0 : (b,item,delta) ->
 		item[1] += delta
 		b.value = item[1] 
+		@updateTotal()
 
 	update1 : (b,items,source,dir,mapping,delta) ->
 		deltaValue = dir
@@ -33,23 +38,17 @@ class Korg
 			for key of items
 				@addTitle1 items,key,klartext[key][1],br.concat(i),mapping,passive,delta
 
-	# addCell : (tr,value,width) ->
-	# 	td = document.createElement "td"
-	# 	td.style.cssText = "width:#{width}%"
-	# 	td.appendChild value
-	# 	tr.appendChild td
-
-	handleRow : (b05,b1,b2,b3) ->
+	handleRow : (b1,b05,b2,b3) ->
 		tr = document.createElement "tr"
-		addCell tr,b05,'5%' 
-		addCell tr,b1,'100%'
-		addCell tr,b2,'5%'
-		addCell tr,b3,'5%'
+		addCell tr,b1,100
+		addCell tr,b05,5 
+		addCell tr,b2,5
+		addCell tr,b3,5
 		@table.appendChild tr
 
 	addTitle0 : (item,id,pris,title,br,antal,children) ->
 		b05 = document.createElement "div"
-		b05.innerHTML = pris  
+		b05.innerHTML = pris + "kr"  
 		b05.style.textAlign = 'right'
 
 		if children
@@ -71,10 +70,10 @@ class Korg
 		b3 = makeButton "-", RED,BLACK
 		b3.onclick = => if b2.value > 0 then @update0 b2,item,-1
 
-		@handleRow b05,b1,b2,b3
+		@handleRow b1,b05,b2,b3
 
 	addTitle1 : (items,key,title,br,mapping,passive,delta) ->
-		if passive then passive = passive.split ' '
+		#if passive then passive = passive.split ' '
 		antal = items[key]
 		b05 = document.createElement "div"
 		b1 = document.createElement "div"
@@ -87,18 +86,33 @@ class Korg
 				b3 = makeDiv ''
 				@targets[key] = b2
 			else
-				b2 = makeButton antal,  GREEN,BLACK
+				b2 = makeButton antal, GREEN,BLACK
 				b3 = makeButton '-',RED,BLACK
 		else
 			b2 = makeDiv antal
 			b3 = makeDiv ''
 
+		b2.style.textAlign = "center"
+
 		b2.onclick = => @update1 b2,items,key,+1,mapping,delta
 		b3.onclick = => if b2.value>0 then @update1 b2,items,key,-1,mapping,delta
 
-		@handleRow b05,b1,b2,b3
+		@handleRow b1,b05,b2,b3
 
-	clear : -> @items = []
+	total : ->
+		res = 0
+		count = 0
+		for [id,antal,pris] in @items
+			res += antal * pris
+			if id not in nonMeals then count += antal
+		[count,res] 
+
+	clear : -> 
+		newitems = @items.filter (e) -> e[1] != 0
+		if newitems.length == @items.length
+			@items = [] # alla tas bort
+		else
+			@items = newitems # alla med antal==0 tas bort
 
 	send : ->
 		t = 0 # kr
