@@ -4,6 +4,8 @@ GREEN  = "#0F0"
 RED    = "#F00"
 YELLOW = "#FF0"
 
+pretty = (antal, pris) -> "#{antal}x#{pris}kr"
+
 sum = (hash) ->
 	if not hash then return 0 
 	_.reduce Object.values(hash), ((memo, num) -> memo + num), 0

@@ -47,8 +47,11 @@ Korg = function () {
   }, {
     key: 'update0',
     value: function update0(b, item, delta) {
+      if (item[1] + delta < 0) {
+        return;
+      }
       item[1] += delta;
-      b.value = item[1];
+      b.value = pretty(item[1], item[2]);
       return this.updateTotal();
     }
   }, {
@@ -116,11 +119,10 @@ Korg = function () {
     }
   }, {
     key: 'handleRow',
-    value: function handleRow(b1, b05, b2, b3) {
+    value: function handleRow(b1, b2, b3) {
       var tr;
       tr = document.createElement("tr");
       addCell(tr, b1, 100);
-      addCell(tr, b05, 5);
       addCell(tr, b2, 5);
       addCell(tr, b3, 5);
       return this.table.appendChild(tr);
@@ -130,10 +132,7 @@ Korg = function () {
     value: function addTitle0(item, id, pris, title, br, antal, children) {
       var _this = this;
 
-      var b05, b1, b2, b3;
-      b05 = document.createElement("div");
-      b05.innerHTML = pris + "kr";
-      b05.style.textAlign = 'right';
+      var b1, b2, b3;
       if (children) {
         b1 = makeButton(id + '. ' + title);
         b1.style.textAlign = 'left';
@@ -147,27 +146,23 @@ Korg = function () {
         b1.innerHTML = id + '. ' + title;
         b1.style.cssText = "font-size:100%; white-space:normal; width:100%;";
       }
-      b2 = makeButton(antal, GREEN, BLACK);
+      b2 = makeButton(pretty(antal, pris), GREEN, BLACK);
       b2.onclick = function () {
         return _this.update0(b2, item, +1);
       };
-      b3 = makeButton("-", RED, BLACK);
+      b3 = makeButton("Del", RED, BLACK);
       b3.onclick = function () {
-        if (b2.value > 0) {
-          return _this.update0(b2, item, -1);
-        }
+        return _this.update0(b2, item, -1);
       };
-      return this.handleRow(b1, b05, b2, b3);
+      return this.handleRow(b1, b2, b3);
     }
   }, {
     key: 'addTitle1',
     value: function addTitle1(items, key, title, br, mapping, passive, delta) {
       var _this2 = this;
 
-      var antal, b05, b1, b2, b3;
-      //if passive then passive = passive.split ' '
+      var antal, b1, b2, b3;
       antal = items[key];
-      b05 = document.createElement("div");
       b1 = document.createElement("div");
       b1.innerHTML = title;
       b1.style.cssText = "font-size:100%; white-space:normal; width:100%; text-align:right";
@@ -178,7 +173,7 @@ Korg = function () {
           this.targets[key] = b2;
         } else {
           b2 = makeButton(antal, GREEN, BLACK);
-          b3 = makeButton('-', RED, BLACK);
+          b3 = makeButton('Del', RED, BLACK);
         }
       } else {
         b2 = makeDiv(antal);
@@ -193,7 +188,7 @@ Korg = function () {
           return _this2.update1(b2, items, key, -1, mapping, delta);
         }
       };
-      return this.handleRow(b1, b05, b2, b3);
+      return this.handleRow(b1, b2, b3);
     }
   }, {
     key: 'total',
