@@ -42,7 +42,7 @@ Korg = function () {
       count = _total2[0];
       total = _total2[1];
 
-      return send.innerHTML = 'Send Order (' + count + ' meal' + (count === 1 ? '' : 's') + ', ' + total + 'kr)';
+      return send.innerHTML = 'Order (' + count + ' meal' + (count === 1 ? '' : 's') + ', ' + total + 'kr)';
     }
   }, {
     key: 'update0',

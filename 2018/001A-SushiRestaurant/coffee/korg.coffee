@@ -10,7 +10,7 @@ class Korg
 
 	updateTotal : ->
 		[count,total] = @total()
-		send.innerHTML = "Send Order (#{count} meal#{if count==1 then '' else 's'}, #{total}kr)"	
+		send.innerHTML = "Order (#{count} meal#{if count==1 then '' else 's'}, #{total}kr)"	
 
 	update0 : (b,item,delta) ->
 		item[1] += delta
