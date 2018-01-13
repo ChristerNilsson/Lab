@@ -4,12 +4,6 @@ class Menu
 	clear : -> @branch = [0]
 
 	traverse : (items=@items, level=0, br=[]) ->
-		# for item,i in items
-		# 	b1 = document.createElement "div"
-		# 	b1.innerHTML = i
-		# 	@handleRow b1
-		# return
-
 		if false == goDeeper @branch,br then return 
 		if level in [0,1]
 			for item,i in items
@@ -27,32 +21,32 @@ class Menu
 				for x in item
 					@addTitle x,x[0],x[2],x[3],sum(x[4]),level,br,i
 
-	handleRow : (b1) ->
+	handleRow : (b1,b2) ->
 		tr = document.createElement "tr"
-		td1 = document.createElement "td"
-		td1.style.cssText = "width:100%"
+		if not b2 then b2 = makeDiv ''
+		addCell tr,b2,'10%'
+		addCell tr,b1,'100%'
 		@table.appendChild tr
-		tr.appendChild td1
-		td1.appendChild b1
 
 	addTitle : (item,id,pris,title,count,level,br,i) ->
-		#b1 = document.createElement "div"
-		#b1.innerHTML = title
-
-		if count>0 then scount = " (#{count})" else scount =""
+		if count>0 and level>1 then scount = " (#{count})" else scount =""
 		v = title + scount 
-		if id!='' then v = "#{id}. #{v} #{pris}kr" 
+		if id!='' then v = "#{id}. #{v}" 
 		if level == 2 
 			b1 = makeButton v, YELLOW, BLACK
+			b2 = makeDiv pris
+			b2.style.textAlign = 'right'
 		else if @branch[level] == i
 			b1 = makeButton v, WHITE, BLACK
+			b2 = makeDiv ''
 		else
 			b1 = makeButton v, BLACK, WHITE
+			b2 = makeDiv ''
 		b1.style.textAlign = 'left'
 		b1.branch = br
 
-		#b1.style.position = 'relative' 
-		#b1.style.left = 15*level + 'px' 
+		b1.style.position = 'relative' 
+		b1.style.left = 5*level + 'px' 
 
 		b1.onclick = => 
 			if level in [0,1]
@@ -64,4 +58,4 @@ class Menu
 				@branch = [0]
 			updateTables()
 
-		@handleRow b1
+		@handleRow b1,b2

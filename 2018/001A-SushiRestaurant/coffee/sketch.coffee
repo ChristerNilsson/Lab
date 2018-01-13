@@ -1,5 +1,3 @@
-MAIL = "janchrister.nilsson@gmail.com"
-SHOP = "FU Restaurang" 
 CRLF = "\n"
 
 meny = null

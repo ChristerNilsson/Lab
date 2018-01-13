@@ -52,5 +52,11 @@ makeButton = (value,bg,sc) ->
 makeDiv = (value) ->
 	res = document.createElement "div"
 	res.innerHTML = value
-	res.style.cssText = "font-size:100%; width:100%; text-align:center" 
+	res.style.cssText = "font-size:100%; width:100%; text-align:right" 
 	res
+
+addCell = (tr,value,width) ->
+	td = document.createElement "td"
+	td.style.cssText = "width:#{width}"
+	td.appendChild value
+	tr.appendChild td

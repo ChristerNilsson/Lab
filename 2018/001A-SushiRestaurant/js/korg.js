@@ -99,23 +99,22 @@ Korg = function () {
         return results1;
       }
     }
-  }, {
-    key: "addCell",
-    value: function addCell(tr, value, width) {
-      var td;
-      td = document.createElement("td");
-      td.style.cssText = "width:" + width + "%";
-      td.appendChild(value);
-      return tr.appendChild(td);
-    }
+
+    // addCell : (tr,value,width) ->
+    // 	td = document.createElement "td"
+    // 	td.style.cssText = "width:#{width}%"
+    // 	td.appendChild value
+    // 	tr.appendChild td
+
   }, {
     key: "handleRow",
-    value: function handleRow(b1, b2, b3) {
+    value: function handleRow(b05, b1, b2, b3) {
       var tr;
       tr = document.createElement("tr");
-      this.addCell(tr, b1, 100);
-      this.addCell(tr, b2, 5);
-      this.addCell(tr, b3, 5);
+      addCell(tr, b05, '5%');
+      addCell(tr, b1, '100%');
+      addCell(tr, b2, '5%');
+      addCell(tr, b3, '5%');
       return this.table.appendChild(tr);
     }
   }, {
@@ -123,9 +122,12 @@ Korg = function () {
     value: function addTitle0(item, id, pris, title, br, antal, children) {
       var _this = this;
 
-      var b1, b2, b3;
+      var b05, b1, b2, b3;
+      b05 = document.createElement("div");
+      b05.innerHTML = pris;
+      b05.style.textAlign = 'right';
       if (children) {
-        b1 = makeButton(id + ". " + title + " " + pris + "kr");
+        b1 = makeButton(id + ". " + title);
         b1.style.textAlign = 'left';
         b1.branch = br;
         b1.onclick = function () {
@@ -134,7 +136,7 @@ Korg = function () {
         };
       } else {
         b1 = document.createElement("div");
-        b1.innerHTML = id + ". " + title + " " + pris + "kr";
+        b1.innerHTML = id + ". " + title;
         b1.style.cssText = "font-size:100%; white-space:normal; width:100%;";
       }
       b2 = makeButton(antal, GREEN, BLACK);
@@ -147,18 +149,19 @@ Korg = function () {
           return _this.update0(b2, item, -1);
         }
       };
-      return this.handleRow(b1, b2, b3);
+      return this.handleRow(b05, b1, b2, b3);
     }
   }, {
     key: "addTitle1",
     value: function addTitle1(items, key, title, br, mapping, passive, delta) {
       var _this2 = this;
 
-      var antal, b1, b2, b3;
+      var antal, b05, b1, b2, b3;
       if (passive) {
         passive = passive.split(' ');
       }
       antal = items[key];
+      b05 = document.createElement("div");
       b1 = document.createElement("div");
       b1.innerHTML = title;
       b1.style.cssText = "font-size:100%; white-space:normal; width:100%; text-align:right";
@@ -183,7 +186,7 @@ Korg = function () {
           return _this2.update1(b2, items, key, -1, mapping, delta);
         }
       };
-      return this.handleRow(b1, b2, b3);
+      return this.handleRow(b05, b1, b2, b3);
     }
   }, {
     key: "clear",

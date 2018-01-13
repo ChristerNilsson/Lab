@@ -39,11 +39,6 @@ Menu = function () {
       var br = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];
 
       var children, count, i, item, j, k, l, len, len1, len2, results, title, x;
-      // for item,i in items
-      // 	b1 = document.createElement "div"
-      // 	b1.innerHTML = i
-      // 	@handleRow b1
-      // return
       if (false === goDeeper(this.branch, br)) {
         return;
       }
@@ -89,43 +84,46 @@ Menu = function () {
     }
   }, {
     key: 'handleRow',
-    value: function handleRow(b1) {
-      var td1, tr;
+    value: function handleRow(b1, b2) {
+      var tr;
       tr = document.createElement("tr");
-      td1 = document.createElement("td");
-      td1.style.cssText = "width:100%";
-      this.table.appendChild(tr);
-      tr.appendChild(td1);
-      return td1.appendChild(b1);
+      if (!b2) {
+        b2 = makeDiv('');
+      }
+      addCell(tr, b2, '10%');
+      addCell(tr, b1, '100%');
+      return this.table.appendChild(tr);
     }
   }, {
     key: 'addTitle',
     value: function addTitle(item, id, pris, title, count, level, br, i) {
       var _this = this;
 
-      var b1, scount, v;
-      //b1 = document.createElement "div"
-      //b1.innerHTML = title
-      if (count > 0) {
+      var b1, b2, scount, v;
+      if (count > 0 && level > 1) {
         scount = ' (' + count + ')';
       } else {
         scount = "";
       }
       v = title + scount;
       if (id !== '') {
-        v = id + '. ' + v + ' ' + pris + 'kr';
+        v = id + '. ' + v;
       }
       if (level === 2) {
         b1 = makeButton(v, YELLOW, BLACK);
+        b2 = makeDiv(pris);
+        b2.style.textAlign = 'right';
       } else if (this.branch[level] === i) {
         b1 = makeButton(v, WHITE, BLACK);
+        b2 = makeDiv('');
       } else {
         b1 = makeButton(v, BLACK, WHITE);
+        b2 = makeDiv('');
       }
       b1.style.textAlign = 'left';
       b1.branch = br;
-      //b1.style.position = 'relative' 
-      //b1.style.left = 15*level + 'px' 
+      b1.style.position = 'relative';
+      b1.style.left = 5 * level + 'px';
       b1.onclick = function () {
         var newitem;
         if (level === 0 || level === 1) {
@@ -139,7 +137,7 @@ Menu = function () {
         }
         return updateTables();
       };
-      return this.handleRow(b1);
+      return this.handleRow(b1, b2);
     }
   }]);
 

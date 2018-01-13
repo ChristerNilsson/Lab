@@ -1,4 +1,7 @@
-klartext = 
+SHOP = "FU Restaurang" 
+MAIL = "janchrister.nilsson@gmail.com"
+
+klartext = # förberett för pris som ej används just nu.
 	R: [10,"Rulle"]
 	A: [10,"Avokado"]
 	E: [10,"Ägg"]
@@ -13,10 +16,16 @@ klartext =
 	KS: [10,"Kycklingspett:Sojasås"]
 	KJ: [10,"Kycklingspett:Jordnötssås"]
 
+# Anger uppräkning:nedräkning. T ex A:R innebär att om Avokado++ så Rulle--
 mapping = {A:'R', E:'R', F:'R', K:'R', L:'R', M:'R', P:'R', T:'R', DV:'DK', KS:'KJ'} 
-passive = 'L P E DK KJ' # dessa blir readonly
-delta   = {KS:2} # antal bitar man stega med. default = 1
 
+# Saknas passive blir alla readonly. Finns passive så kontrolleras i denna lista.
+passive = 'L P E DK KJ' 
+
+# Antal bitar man kan stega med. Default = 1. T ex kan man inte ha två olika kycklingspett i en Bentolåda.
+delta   = {KS:2} 
+
+# [id antal pris title children mapping passive delta]
 menuItems = [
 	[
 		'Meny'
@@ -125,10 +134,10 @@ menuItems = [
 				['58',1,90,'Sushi Yakiniku: 5 sushi yakiniku', { R:5, A:0, E:0, F:0, K:0, L:0, M:0, P:0, T:0 }, mapping, 'R'] 
 				['59',1,90,'Sushi Yakitori: 5 sushi 3 kycklingspett med sojasås', { R:5, A:0, E:0, F:0, K:0, L:0, M:0, P:0, T:0 }, mapping, 'R'] 
 				['60A',1,90, 'Bento: ris 4 sushi 2 vårrullar 4 dumpling', {L:2, P:1, E:1, DK:2, DV:2}, mapping, passive]
-				['60B',1,105,'Bento: ris 4 sushi 2 vårrullar 4 dumpling 2 kycklingspett',{L:2, P:1, E:1, DK:2, DV:2, KJ:2, KS:0}, mapping,passive, delta]
-				['60C',1,115,'Bento: ris 4 sushi 2 vårrullar 4 dumpling yakiniku',{L:2, P:1, E:1, DK:2, DV:2}, mapping,passive]
-				['60D',1,130,'Bento: ris 4 sushi 2 vårrullar 2 kycklingspett yakiniku',{L:2, P:1, E:1, KJ:2, KS:0}, mapping,passive, delta]
-				['60E',1,145,'Bento: ris 4 sushi 2 vårrullar 4 dumpling 2 kycklingspett 3 fritScampi',{L:2, P:1, E:1, DK:2, DV:2, KJ:2, KS:0},mapping,passive,delta]
+				['60B',1,105,'Bento: ris 4 sushi 2 vårrullar 4 dumpling 2 kycklingspett',{L:2, P:1, E:1, DK:2, DV:2, KJ:2, KS:0}, mapping, passive, delta]
+				['60C',1,115,'Bento: ris 4 sushi 2 vårrullar 4 dumpling yakiniku',{L:2, P:1, E:1, DK:2, DV:2}, mapping, passive]
+				['60D',1,130,'Bento: ris 4 sushi 2 vårrullar 2 kycklingspett yakiniku',{L:2, P:1, E:1, KJ:2, KS:0}, mapping, passive, delta]
+				['60E',1,145,'Bento: ris 4 sushi 2 vårrullar 4 dumpling 2 kycklingspett 3 fritScampi',{L:2, P:1, E:1, DK:2, DV:2, KJ:2, KS:0},mapping, passive, delta]
 			]
 		]
 		[
@@ -142,4 +151,3 @@ menuItems = [
 		]
 	]
 ]
-
