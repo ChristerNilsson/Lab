@@ -38,11 +38,11 @@ Menu = function () {
       var level = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
       var br = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : [];
 
-      var children, count, i, item, j, k, l, len, len1, len2, results, title, x;
+      var children, i, item, j, k, l, len, len1, len2, results, title, x;
       if (false === goDeeper(this.branch, br)) {
         return;
       }
-      if (level === 0 || level === 1) {
+      if (level === 0) {
         for (i = j = 0, len = items.length; j < len; i = ++j) {
           item = items[i];
           var _item = item;
@@ -52,17 +52,24 @@ Menu = function () {
           title = _item2[0];
           children = _item2.slice(1);
 
-          if (level === 0) {
-            this.addTitle(null, '', 0, title, children.length, level, br.concat(i), i);
-          } else {
-            count = 0;
-            for (k = 0, len1 = children.length; k < len1; k++) {
-              x = children[k];
-              count += x.length;
-            }
-            this.addTitle(null, '', 0, title, count, level, br.concat(i), i);
-          }
+          this.addTitle(null, '', 0, title, children.length, level, br.concat(i), i);
           this.traverse(children, level + 1, br.concat(i));
+        }
+      }
+      if (level === 1) {
+        for (i = k = 0, len1 = items.length; k < len1; i = ++k) {
+          item = items[i];
+          if (this.branch.length === 1 || i === this.branch[1]) {
+            var _item3 = item;
+
+            var _item4 = _toArray(_item3);
+
+            title = _item4[0];
+            children = _item4.slice(1);
+
+            this.addTitle(null, '', 0, title, 0, level, br.concat(i), i);
+            this.traverse(children, level + 1, br.concat(i));
+          }
         }
       }
       if (level === 2) {

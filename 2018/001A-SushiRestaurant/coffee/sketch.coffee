@@ -14,8 +14,7 @@ clear = null
 # iOS visar inga radbrytningar.
 # OBS: .cssText måste användas på iPhone 4s
 
-updateTables = (removeHelp=true) ->
-	if removeHelp then document.getElementById("help").innerHTML = ''
+updateTables = ->
 	meny.rensa()
 	meny.traverse()
 	korg.rensa()
@@ -38,4 +37,4 @@ window.onload = ->
 		korg.clear()
 		updateTables()
 
-	updateTables false
+	updateTables()

@@ -5,17 +5,20 @@ class Menu
 
 	traverse : (items=@items, level=0, br=[]) ->
 		if false == goDeeper @branch,br then return 
-		if level in [0,1]
+
+		if level == 0 
 			for item,i in items
 				[title,children...] = item
-				if level==0
-					@addTitle null,'',0,title,children.length,level,br.concat(i),i
-				else
-					count = 0
-					for x in children
-						count += x.length
-					@addTitle null,'',0,title,count,level,br.concat(i),i
+				@addTitle null,'',0,title,children.length,level,br.concat(i),i
 				@traverse children, level+1, br.concat(i) 
+
+		if level == 1 
+			for item,i in items
+				if @branch.length == 1 or i==@branch[1]
+					[title,children...] = item
+					@addTitle null,'',0,title,0,level,br.concat(i),i
+					@traverse children, level+1, br.concat(i) 
+
 		if level == 2
 			for item in items
 				for x in item

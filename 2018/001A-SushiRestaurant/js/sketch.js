@@ -22,11 +22,6 @@ clear = null;
 // iOS visar inga radbrytningar.
 // OBS: .cssText måste användas på iPhone 4s
 updateTables = function updateTables() {
-  var removeHelp = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : true;
-
-  if (removeHelp) {
-    document.getElementById("help").innerHTML = '';
-  }
   meny.rensa();
   meny.traverse();
   korg.rensa();
@@ -49,6 +44,6 @@ window.onload = function () {
     korg.clear();
     return updateTables();
   };
-  return updateTables(false);
+  return updateTables();
 };
 //# sourceMappingURL=sketch.js.map
