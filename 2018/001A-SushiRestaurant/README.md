@@ -1,5 +1,7 @@
 # 001-SushiRestaurant
 
+goo.gl/pwMKVd
+
 Målsättning
 
 Skapa en statisk websida som kan användas för beställning av hämtmat via email.

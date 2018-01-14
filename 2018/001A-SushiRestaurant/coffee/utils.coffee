@@ -53,10 +53,10 @@ makeButton = (value,bg,sc) ->
 	res.style.color = sc
 	res
 
-makeDiv = (value) ->
+makeDiv = (value,align='right') ->
 	res = document.createElement "div"
 	res.innerHTML = value
-	res.style.cssText = "font-size:100%; width:100%; text-align:right" 
+	res.style.cssText = "font-size:100%; width:100%; text-align:#{align}" 
 	res
 
 addCell = (tr,value,width) ->

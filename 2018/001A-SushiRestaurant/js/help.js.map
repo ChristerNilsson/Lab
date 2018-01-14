@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "help.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\help.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;AAAA,IAAA,MAAA;;AAAA,UAAU;;AA0BJ,AAAN,OACC,AAAc;AACb;;MAAA;AAAA,AAAC,OAAA,AAAD,QAAS,AAAQ,SAAC,AAAT,eAAwB,AAAxB;AACT,AAAC,OAAA,AAAK,MAAC,AAAP,YAAmB;AACnB,MAAI,AAAQ,SAAC,AAAT,eAAwB,AAAxB;AACJ,AAAC,IAAC,AAAF,UAAY,YACX;QAAA;AAAA,eAAW,AAAQ,SAAC,AAAT,eAAwB,AAAxB;AACX,QAAG,AAAQ,SAAC,AAAK,MAAC,AAAf,YAA0B,AAA7B;AACC,AAAC,WAAA,AAAK,MAAC,AAAP,kBAAyB;AACzB,AAAC,WAAA,AAAK,MAAC,AAAP,QAAe;aACf,AAAQ,SAAC,AAAK,MAAC,AAAf,UAAyB,AAH1B;AAAA,WAAA;AAKC,AAAC,WAAA,AAAK,MAAC,AAAP,kBAAyB;AACzB,AAAC,WAAA,AAAK,MAAC,AAAP,QAAe;aACf,AAAQ,SAAC,AAAK,MAAC,AAAf,UAAyB,AAP1B;AAFW;AAJC;AADf",
+  "sourcesContent": [
+    "content = \"\"\"\t\t\r\n\t<tr>\r\n\t\t<td>\r\n\t\t\t<button id='helpButton' style=\"background-color:black; color:white; padding-left:0px; font-size:100%; width:100%; text-align:left\">Info</button>\r\n\t\t</td> \r\n\t</tr>  \r\n  <tr id=\"helpText\" style=\"display:none\">\r\n    <td>\r\n      <div>\r\n        <ul style=\"list-style-type:none\"> \r\n          <li><h3>Bagarmossen Sushi o Cafe</h3></li>\r\n          <li><a href=\"https://www.google.se/maps/place/Bagarmossen+Sushi+%26+Caf%C3%A9/@59.2648854,18.1521259,13z/data=!4m5!3m4!1s0x0:0xbb412f14a5d09ac2!8m2!3d59.2775081!4d18.1327736\" target=\"_blank\">Lagaplan 5, Bagarmossen</a></li>\r\n          <li>08-600 07 88</li>\r\n        </ul>\r\n        <ol>\r\n          <li>Select dishes from the menu</li>\r\n          <li>Set meal count with green button</li>\r\n          <li>Some dishes can be customized</li>\r\n          <li>Order by your mail</li>\r\n          <li>Fetch your food</li>\r\n        </ol>\r\n      </div>\r\n    </td>\r\n  </tr>\r\n\"\"\"\r\n\r\nclass Help\r\n\tconstructor : ->\r\n\t\t@table = document.getElementById \"help\"\r\n\t\t@table.innerHTML = content\r\n\t\tb = document.getElementById \"helpButton\"\r\n\t\tb.onclick = ->\r\n\t\t\thelpText = document.getElementById \"helpText\"\r\n\t\t\tif helpText.style.display == 'table-row'\r\n\t\t\t\t@style.backgroundColor = BLACK \r\n\t\t\t\t@style.color = WHITE\r\n\t\t\t\thelpText.style.display = 'none'\r\n\t\t\telse\r\n\t\t\t\t@style.backgroundColor = WHITE \r\n\t\t\t\t@style.color = BLACK\r\n\t\t\t\thelpText.style.display = 'table-row'\r\n"
+  ]
+}

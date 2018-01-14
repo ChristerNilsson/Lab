@@ -1,5 +1,6 @@
 CRLF = "\n"
 
+info = null
 meny = null
 korg = null
 send = null
@@ -22,6 +23,9 @@ updateTables = ->
 	korg.updateTotal()
 
 window.onload = ->
+
+	help = new Help
+	
 	meny = new Menu menuItems
 	meny.table = document.getElementById "meny"
 
@@ -38,3 +42,4 @@ window.onload = ->
 		updateTables()
 
 	updateTables()
+

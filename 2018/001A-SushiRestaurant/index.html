@@ -3,12 +3,13 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content = "width=device-width, user-scalable=no" >   
-    <title>Bagarmossen Sushi & Café</title>
+    <title>Bagarmossen Sushi o Café</title>
     <script src="libraries/underscore.js"></script>
     <script src="js/utils.js"></script>
     <script src="js/data.js"></script>
     <script src="js/korg.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/help.js"></script>
     <script src="js/sketch.js"></script>
     <style> 
       body {padding: 0; margin: 0;} 
@@ -18,28 +19,17 @@
 
   <body id=body style="font-family:arial">
 
-    <div id="help">
-      <ul style="list-style-type:none">
-        <li><h3>Bagarmossen Sushi & Café</h3></li>
-        <li><a href="https://www.google.se/maps/place/Bagarmossen+Sushi+%26+Caf%C3%A9/@59.2648854,18.1521259,13z/data=!4m5!3m4!1s0x0:0xbb412f14a5d09ac2!8m2!3d59.2775081!4d18.1327736" target="_blank">Lagaplan 5, Bagarmossen</a></li>
-        <li>08-600 07 88</li>
-      </ul>
-      <ol>
-        <li>Select dishes from the menu</li>
-        <li>Set meal count with green button</li>
-        <li>Some dishes can be customized</li>
-        <li>Order by your mail</li>
-        <li>Fetch your food</li>
-      </ol>
-    </div>
+    <table id='help' style="width:100%"></table>
 
     <table id='meny'></table>
+
     <table>
       <tr>
         <td style="width:100%"><button id='send' style="font-size:150%; width:100%">Order</button></td>
         <td style="width:100%"><button id='clear' style="font-size:150%; width:100%">Clear</button></td>
       </tr>
     </table>
+
     <table id='korg'></table>
   </body>
 </html>

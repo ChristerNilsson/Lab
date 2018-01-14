@@ -59,8 +59,8 @@ Menu = function () {
       if (level === 1) {
         for (i = k = 0, len1 = items.length; k < len1; i = ++k) {
           item = items[i];
-          if (this.branch.length === 1 || i === this.branch[1]) {
-            var _item3 = item;
+          if (true) {
+            var _item3 = item; //@branch.length == 1 or i==@branch[1]
 
             var _item4 = _toArray(_item3);
 

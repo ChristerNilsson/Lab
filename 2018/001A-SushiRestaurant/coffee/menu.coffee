@@ -14,7 +14,7 @@ class Menu
 
 		if level == 1 
 			for item,i in items
-				if @branch.length == 1 or i==@branch[1]
+				if true #@branch.length == 1 or i==@branch[1]
 					[title,children...] = item
 					@addTitle null,'',0,title,0,level,br.concat(i),i
 					@traverse children, level+1, br.concat(i) 

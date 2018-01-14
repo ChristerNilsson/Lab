@@ -90,10 +90,12 @@ makeButton = function makeButton(value, bg, sc) {
 };
 
 makeDiv = function makeDiv(value) {
+  var align = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'right';
+
   var res;
   res = document.createElement("div");
   res.innerHTML = value;
-  res.style.cssText = "font-size:100%; width:100%; text-align:right";
+  res.style.cssText = "font-size:100%; width:100%; text-align:" + align;
   return res;
 };
 
