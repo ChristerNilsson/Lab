@@ -58,10 +58,10 @@ locationUpdate = function locationUpdate(position) {
   distance.textContent = Math.round(distance_on_geoid(p1, p2)) + " m";
   if (track.length >= 2) {
     p0 = track[track.length - 2];
-    deltat.textContent = p1.timestamp - p0.timestamp + " ms";
-    deltas.textContent = Math.round(distance_on_geoid(p0, p1)) + " m";
+    deltat.textContent = "Delta t: " + (p1.timestamp - p0.timestamp) + " ms";
+    deltas.textContent = "Distance: " + Math.round(distance_on_geoid(p0, p1)) + " m";
     //speed.textContent = "?"
-    heading.textContent = Math.round(calcHeading(p0, p1)) + "\xB0";
+    heading.textContent = "Heading: " + Math.round(calcHeading(p0, p1)) + "\xB0";
   }
   return points.textContent = track.length + " punkter";
 };
@@ -82,8 +82,8 @@ window.addEventListener("deviceorientation", function (event) {
   if (typeof event.webkitCompassHeading !== "undefined") {
     heading = event.webkitCompassHeading; // iOS non-standard
   }
-  bearing.textContent = heading;
-  return delta.textContent = heading - bearing;
+  bearing.textContent = "Bearing: " + Math.round(heading) + "\xB0";
+  return delta.textContent = "Delta: " + Math.round(heading - bearing) + "\xB0";
 });
 
 // var orientation = getBrowserOrientation()
