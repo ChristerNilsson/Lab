@@ -118,27 +118,7 @@ menuItems = [['Meny', ['Sushi', [['1', 1, 60, 'Dagens', {
   M: 0,
   P: 0,
   T: 0
-}, mapping, ['R']], ['14', 1, 105, 'Liten sashimi 4 rullar + 8 bitar', {
-  R: 8,
-  A: 0,
-  E: 0,
-  F: 0,
-  K: 0,
-  L: 0,
-  M: 0,
-  P: 0,
-  T: 0
-}, mapping, ['R']], ['15', 1, 145, 'Stor sashimi 6 rullar + 12 bitar', {
-  R: 12,
-  A: 0,
-  E: 0,
-  F: 0,
-  K: 0,
-  L: 0,
-  M: 0,
-  P: 0,
-  T: 0
-}, mapping, ['R']], ['16', 1, 80, 'California roll: krabbstick gurka avokado majonnäs sesamfrö'], ['17', 1, 80, 'Vegetarisk roll'], ['18', 1, 95, 'Yakiniku roll'], ['19', 1, 80, 'Fotomaki roll: lax krabbstick gurka ägg avokado sesamfrö'], ['20A', 1, 110, 'Lycka special 10 bitar: Lax'], ['20B', 1, 120, 'Lycka special 10 bitar: Spice tonfisk roll'], ['20C', 1, 125, 'Lycka special 10 bitar: Lax avokado']]], ['Kyckling', [['21', 1, 75, 'Yakitori: 5 kycklingspett med sojasås'], ['22', 1, 75, 'Satay Gay: 5 kycklingspett med jordnötssås (x)'], ['23', 1, 75, 'Kycklingfilé med röd curry och cocosmjölk (xx)'], ['24', 1, 75, 'Wokad kycklingfilé med grönsaker och ostronsås'], ['25', 1, 80, 'Friterad kycklingfilé med sötsur sås'], ['26', 1, 85, 'Fu kyckling'], ['27', 1, 85, 'Wokad kycklingfilé med cashewnötter'], ['28', 1, 85, 'Wokad kycklingfilé Sze Chuan (xx)'], ['29', 1, 85, 'Mamma kyckling: Torrfriterad kycklingfilé med pekingsås (xx)'], ['30', 1, 85, 'Gong Bao Kyckling (xxx)']]], ['Anka', [['31', 1, 110, 'Krispig anka: friterad anka med pekingsås'], ['32', 1, 110, 'Anka: Sze Chuan (xx)']]], ['Biff', [['33', 1, 90, 'Yakiniku: Stekt entrecote skivor med sojasås'], ['34', 1, 90, 'Wokad biff med bambuskott'], ['35', 1, 90, 'Wokad biff med ingefära och purjolök'], ['36', 1, 90, 'Wokad biff med grönsaker och svartpepparsås (xx)'], ['37', 1, 95, 'Biff Sze Chuan (xx)']]], ['Skaldjur', [['38', 1, 90, 'Lax Teriyaki: Grillad lax med teriyakisås'], ['39A', 1, 100, 'Friterad Scampi med sötsur sås'], ['39B', 1, 100, 'Friterad Scampi med chilisås'], ['40', 1, 100, 'Räkor med röd curry och cocosmjölk (xx)'], ['41', 1, 100, 'Wokad scampi med blandade färska grönsaker'], ['42', 1, 105, 'Gong Bao Scampi (xxx)'], ['43', 1, 105, 'Scampi Sze Chuan (xx)']]], ['Fläsk', [['44', 1, 90, 'Yu Xiang Rou Si (xx)'], ['45', 1, 100, 'Friterat revbensspjäll på kantonesiskt vis']]], ['Vegetarisk', [['46', 1, 65, 'Vårrullar 8 bitar med ris'], ['47', 1, 75, 'Wokade grönsaker'], ['48', 1, 85, 'Wokade grönsaker med tofu'], ['49', 1, 85, 'Friterad tofu med grönsaker och vitlök i svart bönsås (xx)']]], ['Nudlar och Ris', [['50', 1, 80, 'Nudlar med grönsaker'], ['51', 1, 85, 'Nudlar med kyckling grönsaker'], ['52', 1, 90, 'Nudlar med biff grönsaker'], ['53', 1, 75, 'Stekt ris med grönsaker'], ['54', 1, 90, 'Nasi goreng: stekt ris med kyckling biff ägg curry (x)'], ['55A', 1, 90, 'Dumplings 10 kyckling ris'], ['55B', 1, 90, 'Dumplings 10 vegetarisk ris'], ['56A', 1, 110, 'Bibimbap: Biff'], ['56B', 1, 110, 'Bibimbap: Räkor'], ['56C', 1, 110, 'Bibimbap: Vegetarisk'], ['57', 1, 90, 'Sushi Satay: 5 sushi 3 kycklingspett med jordnötssås', {
+}, mapping, ['R']], ['14', 1, 105, 'Liten sashimi 12 bitar'], ['15', 1, 145, 'Stor sashimi 18 bitar'], ['16', 1, 80, 'California roll: krabbstick gurka avokado majonnäs sesamfrö'], ['17', 1, 80, 'Vegetarisk roll'], ['18', 1, 95, 'Yakiniku roll'], ['19', 1, 80, 'Fotomaki roll: lax krabbstick gurka ägg avokado sesamfrö'], ['20A', 1, 110, 'Lycka special 10 bitar: Lax'], ['20B', 1, 120, 'Lycka special 10 bitar: Spice tonfisk roll'], ['20C', 1, 125, 'Lycka special 10 bitar: Lax avokado']]], ['Kyckling', [['21', 1, 75, 'Yakitori: 5 kycklingspett med sojasås'], ['22', 1, 75, 'Satay Gay: 5 kycklingspett med jordnötssås (x)'], ['23', 1, 75, 'Kycklingfilé med röd curry och cocosmjölk (xx)'], ['24', 1, 75, 'Wokad kycklingfilé med grönsaker och ostronsås'], ['25', 1, 80, 'Friterad kycklingfilé med sötsur sås'], ['26', 1, 85, 'Fu kyckling'], ['27', 1, 85, 'Wokad kycklingfilé med cashewnötter'], ['28', 1, 85, 'Wokad kycklingfilé Sze Chuan (xx)'], ['29', 1, 85, 'Mamma kyckling: Torrfriterad kycklingfilé med pekingsås (xx)'], ['30', 1, 85, 'Gong Bao Kyckling (xxx)']]], ['Anka', [['31', 1, 110, 'Krispig anka: friterad anka med pekingsås'], ['32', 1, 110, 'Anka: Sze Chuan (xx)']]], ['Biff', [['33', 1, 90, 'Yakiniku: Stekt entrecote skivor med sojasås'], ['34', 1, 90, 'Wokad biff med bambuskott'], ['35', 1, 90, 'Wokad biff med ingefära och purjolök'], ['36', 1, 90, 'Wokad biff med grönsaker och svartpepparsås (xx)'], ['37', 1, 95, 'Biff Sze Chuan (xx)']]], ['Skaldjur', [['38', 1, 90, 'Lax Teriyaki: Grillad lax med teriyakisås'], ['39A', 1, 100, 'Friterad Scampi med sötsur sås'], ['39B', 1, 100, 'Friterad Scampi med chilisås'], ['40', 1, 100, 'Räkor med röd curry och cocosmjölk (xx)'], ['41', 1, 100, 'Wokad scampi med blandade färska grönsaker'], ['42', 1, 105, 'Gong Bao Scampi (xxx)'], ['43', 1, 105, 'Scampi Sze Chuan (xx)']]], ['Fläsk', [['44', 1, 90, 'Yu Xiang Rou Si (xx)'], ['45', 1, 100, 'Friterat revbensspjäll på kantonesiskt vis']]], ['Vegetarisk', [['46', 1, 65, 'Vårrullar 8 bitar med ris'], ['47', 1, 75, 'Wokade grönsaker'], ['48', 1, 85, 'Wokade grönsaker med tofu'], ['49', 1, 85, 'Friterad tofu med grönsaker och vitlök i svart bönsås (xx)']]], ['Nudlar och Ris', [['50', 1, 80, 'Nudlar med grönsaker'], ['51', 1, 85, 'Nudlar med kyckling grönsaker'], ['52', 1, 90, 'Nudlar med biff grönsaker'], ['53', 1, 75, 'Stekt ris med grönsaker'], ['54', 1, 90, 'Nasi goreng: stekt ris med kyckling biff ägg curry (x)'], ['55A', 1, 90, 'Dumplings 10 kyckling ris'], ['55B', 1, 90, 'Dumplings 10 vegetarisk ris'], ['56A', 1, 110, 'Bibimbap: Biff'], ['56B', 1, 110, 'Bibimbap: Räkor'], ['56C', 1, 110, 'Bibimbap: Vegetarisk'], ['57', 1, 90, 'Sushi Satay: 5 sushi 3 kycklingspett med jordnötssås', {
   R: 5,
   A: 0,
   E: 0,
