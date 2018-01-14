@@ -22,6 +22,7 @@ heading = document.getElementById "heading"
 
 # bäring enligt kompass
 bearing = document.getElementById "bearing"
+delta = document.getElementById "delta"
 
 # bäring och avstånd till målet
 positionHng = document.getElementById "position-hng"
@@ -69,8 +70,8 @@ window.addEventListener "deviceorientation", (event) ->
 	if typeof event.webkitCompassHeading != "undefined"
 		heading = event.webkitCompassHeading # iOS non-standard
 
-	console.log heading 
 	bearing.textContent = heading
+	delta.textContent = heading - bearing
 
 
 	# var orientation = getBrowserOrientation()
