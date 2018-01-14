@@ -22,6 +22,7 @@ deltat = document.getElementById "deltat"
 deltas = document.getElementById "deltas"
 speed = document.getElementById "speed"
 heading = document.getElementById "heading"
+points = document.getElementById "points"
 
 # decimalToSexagesimal = (decimal, type) ->
 # 	degrees = decimal | 0
@@ -59,6 +60,8 @@ locationUpdate = (position) ->
 		deltas.textContent = "#{Math.round distance_on_geoid p0.lat,p0.lng, p1.lat,p1.lng} meter"
 		speed.textContent = "?"
 		heading.textContent = "#{Math.round calcHeading p0.lat,p0.lng, p1.lat,p1.lng} grader"
+
+	points.textContent = track.length 
 
 locationUpdateFail = (error) ->
 	positionLat.textContent = "n/a"
