@@ -7,11 +7,13 @@ positionCurrent =
 	lng: null
 	hng: null
 	spd: null
+	timestamp: null
 
 positionLat = document.getElementById "position-lat"
 positionLng = document.getElementById "position-lng"
 positionHng = document.getElementById "position-hng"
 positionSpd = document.getElementById "position-spd"
+positionTimestamp = document.getElementById "timestamp"
 
 # decimalToSexagesimal = (decimal, type) ->
 # 	degrees = decimal | 0
@@ -27,22 +29,23 @@ positionSpd = document.getElementById "position-spd"
 # 	degrees + "° " + minutes + "' " + seconds + "\" " + direction
 
 locationUpdate = (position) ->
-	console.log position
 	positionCurrent.lat = position.coords.latitude
 	positionCurrent.lng = position.coords.longitude
 	positionCurrent.hng = position.coords.heading
 	positionCurrent.spd = position.coords.speed
+	positionCurrent.timestamp = position.timestamp
+
 	positionLat.textContent = positionCurrent.lat
 	positionLng.textContent = positionCurrent.lng
 	positionHng.textContent = positionCurrent.hng
 	positionSpd.textContent = positionCurrent.spd
+	positionTimestamp.textContent = positionCurrent.timestamp
 	#positionLat.textContent = decimalToSexagesimal positionCurrent.lat, "lat"
 	#positionLng.textContent = decimalToSexagesimal positionCurrent.lng, "lng"
 
 locationUpdateFail = (error) ->
 	positionLat.textContent = "n/a"
 	positionLng.textContent = "n/a"
-	console.log "location fail: ", error
 
 navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
 		enableHighAccuracy: false
