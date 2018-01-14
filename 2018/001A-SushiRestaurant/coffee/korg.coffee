@@ -54,7 +54,6 @@ class Korg
 			b1.onclick = => 
 				@branch = calcBranch @branch, b1.branch
 				updateTables()
-
 		else
 			b1 = document.createElement "div"
 			b1.innerHTML = "#{id}. #{title}"  
@@ -129,6 +128,7 @@ class Korg
 
 		if t == 0 then return 
 
+		# klarar ej & i restaurangnamnet.
 		output = encodeURI "mailto:#{MAIL}?&subject=Order till #{SHOP}&body=" + s + CRLF + t + " kr"
 		if output.length > 2000 
 			output = encodeURI "mailto:#{MAIL}?&subject=Order till #{SHOP}&body=" + u + CRLF + t + " kr"

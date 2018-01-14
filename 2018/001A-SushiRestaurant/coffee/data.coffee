@@ -1,4 +1,4 @@
-SHOP = "FU Restaurang" 
+SHOP = "Bagarmossen Sushi o Café" 
 MAIL = "janchrister.nilsson@gmail.com"
 
 klartext = # förberett för pris som ej används just nu.

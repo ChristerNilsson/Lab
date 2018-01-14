@@ -266,6 +266,8 @@ Korg = function () {
       if (t === 0) {
         return;
       }
+
+      // klarar ej & i restaurangnamnet.
       output = encodeURI('mailto:' + MAIL + '?&subject=Order till ' + SHOP + '&body=' + s + CRLF + t + " kr");
       if (output.length > 2000) {
         output = encodeURI('mailto:' + MAIL + '?&subject=Order till ' + SHOP + '&body=' + u + CRLF + t + " kr");
