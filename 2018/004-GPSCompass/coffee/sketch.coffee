@@ -1,19 +1,27 @@
-positionTarget =
-	lat: null
-	lng: null
+p2 = # Ulvsjön
+	lat: 59.277103
+	lng: 18.164897
 
-positionCurrent = 
+p1 = # Home
 	lat: null
 	lng: null
-	hng: null
-	spd: null
+	#hng: null # NESW = [0,90,180,270]
+	#spd: null # m/s
 	timestamp: null
+
+track = []
 
 positionLat = document.getElementById "position-lat"
 positionLng = document.getElementById "position-lng"
 positionHng = document.getElementById "position-hng"
 positionSpd = document.getElementById "position-spd"
 positionTimestamp = document.getElementById "timestamp"
+distance = document.getElementById "distance"
+
+deltat = document.getElementById "deltat"
+deltas = document.getElementById "deltas"
+speed = document.getElementById "speed"
+heading = document.getElementById "heading"
 
 # decimalToSexagesimal = (decimal, type) ->
 # 	degrees = decimal | 0
@@ -29,19 +37,28 @@ positionTimestamp = document.getElementById "timestamp"
 # 	degrees + "° " + minutes + "' " + seconds + "\" " + direction
 
 locationUpdate = (position) ->
-	positionCurrent.lat = position.coords.latitude
-	positionCurrent.lng = position.coords.longitude
-	positionCurrent.hng = position.coords.heading
-	positionCurrent.spd = position.coords.speed
-	positionCurrent.timestamp = position.timestamp
+	p1.lat = position.coords.latitude
+	p1.lng = position.coords.longitude
+	#p1.hng = position.coords.heading
+	#p1.spd = position.coords.speed
+	p1.timestamp = position.timestamp
 
-	positionLat.textContent = positionCurrent.lat
-	positionLng.textContent = positionCurrent.lng
-	positionHng.textContent = positionCurrent.hng
-	positionSpd.textContent = positionCurrent.spd
-	positionTimestamp.textContent = positionCurrent.timestamp
-	#positionLat.textContent = decimalToSexagesimal positionCurrent.lat, "lat"
-	#positionLng.textContent = decimalToSexagesimal positionCurrent.lng, "lng"
+	track.push p1
+
+	positionLat.textContent = p1.lat
+	positionLng.textContent = p1.lng
+	positionHng.textContent = "#{Math.round calcHeading p1.lat,p1.lng, p2.lat,p2.lng} grader"
+	positionSpd.textContent = p1.spd
+	positionTimestamp.textContent = p1.timestamp
+
+	distance.textContent = "#{Math.round distance_on_geoid p1.lat,p1.lng, p2.lat,p2.lng} meter"
+
+	if track.length >= 2 
+		p0 = track[track.length-2]
+		deltat.textContent = "#{p1.timestamp - p0.timestamp} millis"
+		deltas.textContent = "#{Math.round distance_on_geoid p0.lat,p0.lng, p1.lat,p1.lng} meter"
+		speed.textContent = "?"
+		heading.textContent = "#{Math.round calcHeading p0.lat,p0.lng, p1.lat,p1.lng} grader"
 
 locationUpdateFail = (error) ->
 	positionLat.textContent = "n/a"
