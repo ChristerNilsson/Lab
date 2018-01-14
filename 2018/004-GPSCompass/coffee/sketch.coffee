@@ -1,41 +1,33 @@
+#hng: null # NESW = [0,90,180,270]
+#spd: null # m/s
+
 p2 = # Ulvsjön
 	lat: 59.277103
 	lng: 18.164897
-
-p1 = # Home
-	lat: null
-	lng: null
-	#hng: null # NESW = [0,90,180,270]
-	#spd: null # m/s
-	timestamp: null
+	timestamp: 0
 
 track = []
 
+# devicets position och hastighet
 positionLat = document.getElementById "position-lat"
 positionLng = document.getElementById "position-lng"
-positionHng = document.getElementById "position-hng"
-positionSpd = document.getElementById "position-spd"
 positionTimestamp = document.getElementById "timestamp"
-distance = document.getElementById "distance"
+positionSpd = document.getElementById "position-spd"
 
+# beräkningar baserade på de senaste tvåpunkterna
 deltat = document.getElementById "deltat"
 deltas = document.getElementById "deltas"
-speed = document.getElementById "speed"
+#speed = document.getElementById "speed"
 heading = document.getElementById "heading"
+
+# bäring enligt kompass
+bearing = document.getElementById "bearing"
+
+# bäring och avstånd till målet
+positionHng = document.getElementById "position-hng"
+distance = document.getElementById "distance"
+
 points = document.getElementById "points"
-
-# decimalToSexagesimal = (decimal, type) ->
-# 	degrees = decimal | 0
-# 	fraction = Math.abs decimal - degrees
-# 	minutes = (fraction * 60) | 0;
-# 	seconds = (fraction * 3600 - minutes * 60) | 0
-
-# 	direction = ""
-# 	positive = degrees > 0
-# 	degrees = Math.abs degrees
-# 	if type == "lat" then direction = if positive then "N" else "S"
-# 	if type == "lng" then	direction = if positive then "E" else "W"
-# 	degrees + "° " + minutes + "' " + seconds + "\" " + direction
 
 locationUpdate = (position) ->
 	p1 = 
@@ -47,20 +39,20 @@ locationUpdate = (position) ->
 
 	positionLat.textContent = p1.lat
 	positionLng.textContent = p1.lng
-	positionHng.textContent = "#{Math.round calcHeading p1.lat,p1.lng, p2.lat,p2.lng} grader"
+	positionHng.textContent = "#{Math.round calcHeading p1,p2}°" 
 	positionSpd.textContent = p1.spd
 	positionTimestamp.textContent = p1.timestamp
 
-	distance.textContent = "#{Math.round distance_on_geoid p1.lat,p1.lng, p2.lat,p2.lng} meter"
+	distance.textContent = "#{Math.round distance_on_geoid p1,p2} m"
 
 	if track.length >= 2 
 		p0 = track[track.length-2]
-		deltat.textContent = "#{p1.timestamp - p0.timestamp} millis"
-		deltas.textContent = "#{Math.round distance_on_geoid p0.lat,p0.lng, p1.lat,p1.lng} meter"
-		speed.textContent = "?"
-		heading.textContent = "#{Math.round calcHeading p0.lat,p0.lng, p1.lat,p1.lng} grader"
+		deltat.textContent = "#{p1.timestamp - p0.timestamp} ms"
+		deltas.textContent = "#{Math.round distance_on_geoid p0,p1} m"
+		#speed.textContent = "?"
+		heading.textContent = "#{Math.round calcHeading p0,p1}°"
 
-	points.textContent = track.length 
+	points.textContent = "#{track.length} punkter"  
 
 locationUpdateFail = (error) ->
 	positionLat.textContent = "n/a"
@@ -70,3 +62,68 @@ navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
 		enableHighAccuracy: false
 		maximumAge: 30000
 		timeout: 27000
+
+window.addEventListener "deviceorientation", (event) ->
+	heading = event.alpha
+
+	if typeof event.webkitCompassHeading != "undefined"
+		heading = event.webkitCompassHeading # iOS non-standard
+
+	console.log heading 
+	bearing.textContent = heading
+
+
+	# var orientation = getBrowserOrientation()
+
+	# if (typeof heading !== "undefined" && heading !== null) { // && typeof orientation !== "undefined") {
+	# 	// we have a browser that reports device heading and orientation
+
+
+	# 	if (debug) {
+	# 		debugOrientation.textContent = orientation;
+	# 	}
+
+
+	# 	// what adjustment we have to add to rotation to allow for current device orientation
+	# 	var adjustment = 0;
+	# 	if (defaultOrientation === "landscape") {
+	# 		adjustment -= 90;
+	# 	}
+
+	# 	if (typeof orientation !== "undefined") {
+	# 		var currentOrientation = orientation.split("-");
+
+	# 		if (defaultOrientation !== currentOrientation[0]) {
+	# 			if (defaultOrientation === "landscape") {
+	# 				adjustment -= 270;
+	# 			} else {
+	# 				adjustment -= 90;
+	# 			}
+	# 		}
+
+	# 		if (currentOrientation[1] === "secondary") {
+	# 			adjustment -= 180;
+	# 		}
+	# 	}
+
+	# 	positionCurrent.hng = heading + adjustment;
+
+	# 	var phase = positionCurrent.hng < 0 ? 360 + positionCurrent.hng : positionCurrent.hng;
+	# 	positionHng.textContent = (360 - phase | 0) + "°";
+
+
+	# 	// apply rotation to compass rose
+	# 	if (typeof rose.style.transform !== "undefined") {
+	# 		rose.style.transform = "rotateZ(" + positionCurrent.hng + "deg)";
+	# 	} else if (typeof rose.style.webkitTransform !== "undefined") {
+	# 		rose.style.webkitTransform = "rotateZ(" + positionCurrent.hng + "deg)";
+	# 	}
+	# } else {
+	# 	// device can't show heading
+
+	# 	positionHng.textContent = "n/a";
+	# 	showHeadingWarning();
+	# }
+
+
+
