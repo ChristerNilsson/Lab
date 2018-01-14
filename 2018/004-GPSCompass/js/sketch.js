@@ -54,11 +54,11 @@ points = document.getElementById("points");
 // 	degrees + "° " + minutes + "' " + seconds + "\" " + direction
 locationUpdate = function locationUpdate(position) {
   var p0;
-  p1.lat = position.coords.latitude;
-  p1.lng = position.coords.longitude;
-  //p1.hng = position.coords.heading
-  //p1.spd = position.coords.speed
-  p1.timestamp = position.timestamp;
+  p1 = {
+    lat: position.coords.latitude,
+    lng: position.coords.longitude,
+    timestamp: position.timestamp
+  };
   track.push(p1);
   positionLat.textContent = p1.lat;
   positionLng.textContent = p1.lng;

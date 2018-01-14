@@ -39,9 +39,9 @@ points = document.getElementById "points"
 
 locationUpdate = (position) ->
 	p1 = 
-		lat = position.coords.latitude
-		lng = position.coords.longitude
-		timestamp = position.timestamp
+		lat : position.coords.latitude
+		lng : position.coords.longitude
+		timestamp : position.timestamp
 
 	track.push p1
 
