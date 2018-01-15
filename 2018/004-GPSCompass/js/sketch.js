@@ -81,12 +81,13 @@ navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
 });
 
 window.addEventListener("deviceorientation", function (event) {
-  heading = event.alpha;
+  var b;
+  b = event.alpha;
   if (typeof event.webkitCompassHeading !== "undefined") {
-    heading = event.webkitCompassHeading; // iOS non-standard
+    b = event.webkitCompassHeading; // iOS non-standard
   }
-  bearing.textContent = "Bearing: " + Math.round(heading) + "\xB0";
-  return delta.textContent = "Delta: " + Math.round(bearing - heading_12) + "\xB0";
+  bearing.textContent = "Bearing: " + Math.round(b) + "\xB0";
+  return delta.textContent = "Delta: " + Math.round(b - heading_12) + "\xB0";
 });
 
 // var orientation = getBrowserOrientation()

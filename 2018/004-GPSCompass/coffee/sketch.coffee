@@ -67,13 +67,13 @@ navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
 		timeout: 27000
 
 window.addEventListener "deviceorientation", (event) ->
-	heading = event.alpha
+	b = event.alpha
 
 	if typeof event.webkitCompassHeading != "undefined"
-		heading = event.webkitCompassHeading # iOS non-standard
+		b = event.webkitCompassHeading # iOS non-standard
 
-	bearing.textContent = "Bearing: #{Math.round heading}°"
-	delta.textContent = "Delta: #{Math.round bearing - heading_12}°"
+	bearing.textContent = "Bearing: #{Math.round b}°"
+	delta.textContent = "Delta: #{Math.round b - heading_12}°"
 
 
 	# var orientation = getBrowserOrientation()
