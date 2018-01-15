@@ -1,6 +1,3 @@
-#hng: null # NESW = [0,90,180,270]
-#spd: null # m/s
-
 places = []
 places.push {name:'Bron S Söderbysjön',lat:59.279155, lng:18.149318}
 places.push {name:'Golfklubben',       lat:59.284052, lng:18.145925}
@@ -30,8 +27,8 @@ locationUpdate = (position) ->
 	heading_12 = calcHeading p1,place
 	lastObservation = millis()
 
-	texts[0] = precisionRound p1.lat,6
-	texts[1] = precisionRound p1.lng,6
+	texts[0] = precisionRound place.lat,6
+	texts[1] = precisionRound place.lng,6
 	texts[3] = "#{track.length}"  
 	texts[6] = "#{Math.round p1.accuracy} m"
 	texts[8] = "#{Math.round heading_12}°"
@@ -115,12 +112,15 @@ draw = ->
 	text place.name,windowWidth/2,d/2
 
 mousePressed = ->
-	if mouseY > windowHeight/2
-		p = places[places.length-1]
+	if mouseY > windowHeight/2 and track.length>0
+		p = track[track.length-1]
 		places.push {name:places.length, lat:p.lat, lng:p.lng}
 		placeIndex = places.length-1
+
 	else if mouseX> windowWidth/2 then placeIndex++
 	else placeIndex--
 	placeIndex %%= places.length
 	place = places[placeIndex]
 	texts = ['','','','','','','','','','','','']
+	texts[0] = precisionRound place.lat,6
+	texts[1] = precisionRound place.lng,6
