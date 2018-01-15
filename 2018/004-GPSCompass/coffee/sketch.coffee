@@ -56,11 +56,17 @@ navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
 	maximumAge: 30000
 	timeout: 27000
 
+calcDelta = (delta) ->
+	if delta < -180 then delta += 360
+	if delta > +180 then delta -= 360
+	delta
+
 calcColor = (delta) ->
-	if delta < -180 then delta = delta + 360
-	if delta > +180 then delta = delta - 360
-	if delta < 0 then lerpColor(color(255,255,255), color(255,0,0),-delta/180).levels
-	else lerpColor(color(255,255,255), color(0,255,0),delta/180).levels
+	white = color 255,255,255
+	red   = color 255,0,0
+	green = color 0,255,0
+	if delta < 0 then lerpColor(white, red, -delta/180).levels
+	else lerpColor(white, green, delta/180).levels
 
 setup = ->
 	createCanvas windowWidth,windowHeight
@@ -75,7 +81,8 @@ setup = ->
 
 		texts[7] = "#{Math.round (millis() - lastObservation)/1000} s"
 		texts[9] = "#{Math.round bearing}°"
-		texts[11] = "#{Math.round bearing - heading_12}°"
+		delta = calcDelta heading_12-bearing
+		texts[11] = "#{Math.round delta}°"
 
 	assert [255,255,255,255], calcColor 0
 	assert [255,128,128,255], calcColor -90
@@ -85,7 +92,8 @@ setup = ->
 
 drawCompass = ->
 	radius = 0.25 * w 
-	fill calcColor heading_12 - bearing
+	delta = calcDelta heading_12-bearing
+	fill calcColor delta
 	sw 5
 	sc 1
 	circle 0.5*w,0.7*h,radius
