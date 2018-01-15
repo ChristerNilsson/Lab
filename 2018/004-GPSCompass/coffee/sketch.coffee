@@ -7,6 +7,7 @@ p2 = # Ulvsjön
 	timestamp: 0
 
 track = []
+heading_12 = null
 
 # devicets position och hastighet
 positionLat = document.getElementById "position-lat"
@@ -38,9 +39,10 @@ locationUpdate = (position) ->
 
 	track.push p1
 
+	heading_12 = calcHeading p1,p2
 	positionLat.textContent = p1.lat
 	positionLng.textContent = p1.lng
-	positionHng.textContent = "#{Math.round calcHeading p1,p2}°" 
+	positionHng.textContent = "#{Math.round heading_12}°"
 	positionSpd.textContent = p1.spd
 	positionTimestamp.textContent = p1.timestamp
 
@@ -71,7 +73,7 @@ window.addEventListener "deviceorientation", (event) ->
 		heading = event.webkitCompassHeading # iOS non-standard
 
 	bearing.textContent = "Bearing: #{Math.round heading}°"
-	delta.textContent = "Delta: #{Math.round heading - bearing}°"
+	delta.textContent = "Delta: #{Math.round bearing - heading_12}°"
 
 
 	# var orientation = getBrowserOrientation()
