@@ -76,25 +76,27 @@ setup = ->
 drawCompass = ->
 	w = windowWidth
 	h = windowHeight
+	radius = 0.8 * w / 2
 	setFillColor heading_12 - bearing
 	sw 5
-	circle w/2,h/2,0.9*w/2
+	circle w/2,h/2,radius
 	push()
 	translate w/2,h/2
 	sc 1
-	line 0,0,0,-0.9*w/2
+	line 0,0,0,-radius
 	try
 		rd heading_12 - bearing
 		sc 0 
-		line 0,0,0,-0.9*w/2
+		line 0,0,0,-radius
 	pop()
 
 draw = ->
-	bg 0.5
+	bg 0
 	drawCompass()
 	fc 0
 	d = windowHeight/6
-	sc()
+	sc 1
+	sw 1
 	textSize 0.08*windowHeight
 	for t,i in texts
 		x = i%2 * windowWidth
