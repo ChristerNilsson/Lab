@@ -8,12 +8,14 @@ var bearing,
     drawCompass,
     drawHouse,
     drawNeedle,
+    drawTexts,
     h,
     heading_12,
     lastObservation,
     locationUpdate,
     locationUpdateFail,
     mousePressed,
+    p1,
     place,
     placeIndex,
     places,
@@ -79,10 +81,12 @@ heading_12 = 0;
 
 lastObservation = 0;
 
+p1 = null;
+
 texts = ['', '', '', '', '', '', '', '', '', '', '', ''];
 
 locationUpdate = function locationUpdate(position) {
-  var ds, dt, p0, p1;
+  var ds, dt, p0;
   p1 = {
     lat: position.coords.latitude,
     lng: position.coords.longitude,
@@ -170,7 +174,7 @@ drawHouse = function drawHouse(radius) {
   var i, j, len, ref;
   fc(1);
   sc();
-  textSize(50);
+  //textSize 50
   textAlign(CENTER, CENTER);
   ref = range(4);
   for (j = 0, len = ref.length; j < len; j++) {
@@ -185,9 +189,10 @@ drawHouse = function drawHouse(radius) {
   push();
   sc(0);
   sw(1);
-  fc();
+  fc(0.5);
   rect(-15, -0.9 * radius, 30, 1.9 * radius);
-  sc(1, 0, 0);
+  //sc 1,0,0
+  //fc 1,0,0
   triangle(-25, -0.9 * radius, 0, -1.1 * radius, 25, -0.9 * radius);
   return pop();
 };
@@ -196,10 +201,10 @@ drawNeedle = function drawNeedle(radius) {
   try {
     rd(-bearing);
     sc(1);
-    sw(9);
-    line(0, 0, 0, radius);
+    sw(13);
+    line(0, 0, 0, 0.95 * radius);
     sc(1, 0, 0);
-    return line(0, 0, 0, -radius);
+    return line(0, 0, 0, -0.95 * radius);
   } catch (error1) {}
 };
 
@@ -217,18 +222,17 @@ drawCompass = function drawCompass() {
   rd(-heading_12);
   drawHouse(radius);
   pop();
-  textSize(50);
+  textSize(0.08 * h);
   fc(1);
   sc();
+  text(texts[10], 0, -1.6 * radius);
   text(Math.round(heading_12) + '\xB0', 0, -1.2 * radius);
   drawNeedle(radius);
   return pop();
 };
 
-draw = function draw() {
+drawTexts = function drawTexts() {
   var d, i, j, len, t, x, y;
-  bg(0);
-  drawCompass();
   fc(0.5);
   d = h / 12;
   sc(0.5);
@@ -247,6 +251,12 @@ draw = function draw() {
   }
   textAlign(CENTER);
   return text(place.name, w / 2, d);
+};
+
+draw = function draw() {
+  bg(0);
+  drawCompass();
+  return drawTexts();
 };
 
 mousePressed = function mousePressed() {
