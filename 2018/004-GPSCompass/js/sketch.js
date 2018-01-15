@@ -20,11 +20,11 @@ heading_12 = 0;
 texts = ['', '', '', '', '', '', '', '', '', '', '', ''];
 
 locationUpdate = function locationUpdate(position) {
-  var p0, p1;
+  var ds, dt, p0, p1;
   p1 = {
     lat: position.coords.latitude,
     lng: position.coords.longitude,
-    timestamp: position.timestamp
+    timestamp: position.timestamp / 1000
   };
   track.push(p1);
   heading_12 = calcHeading(p1, p2);
@@ -34,13 +34,15 @@ locationUpdate = function locationUpdate(position) {
   //texts[3] = 'nospeed' #p1.spd
   //texts[4] = p1.timestamp
   texts[10] = Math.round(distance_on_geoid(p1, p2)) + ' m';
-  texts[1] = '' + track.length;
+  texts[3] = '' + track.length;
   if (track.length >= 2) {
     p0 = track[track.length - 2];
-    texts[3] = p1.timestamp - p0.timestamp + ' ms';
-    texts[4] = Math.round(distance_on_geoid(p0, p1)) + ' m';
+    dt = p1.timestamp - p0.timestamp;
+    ds = distance_on_geoid(p0, p1);
+    texts[1] = precisionRound(dt, 3) + ' s';
+    texts[4] = Math.round(ds) + ' m';
     texts[9] = Math.round(calcHeading(p0, p1)) + '\xB0';
-    return texts[5] = ""; // speed
+    return texts[5] = precisionRound(ds / dt, 1) + ' m/s';
   }
 };
 
