@@ -33,7 +33,7 @@ locationUpdate = (position) ->
 	texts[1] = precisionRound place.lng,6
 	texts[3] = "#{track.length}"  
 	texts[6] = "#{Math.round p1.accuracy} m"
-	texts[8] = "#{Math.round heading_12}°"
+	#texts[8] = "#{Math.round heading_12}°"
 	#texts[3] = 'nospeed' #p1.spd
 	#texts[4] = p1.timestamp
 	texts[10] = "#{Math.round distance_on_geoid p1,place} m"
@@ -90,21 +90,55 @@ setup = ->
 	assert [128,255,128,255], calcColor 90
 	assert [0,255,0,255], calcColor 180
 
+drawHouse = (radius) ->
+	fc 1
+	sc()
+	textSize 50
+	textAlign CENTER,CENTER
+
+	for i in range 4
+		push()
+		translate 0,1.3*radius
+		rd 180
+		text "SWNE"[i],0,0
+		pop()
+		rd 90	
+	push()
+	sc 0
+	sw 1
+	fc()
+	rect -15,-0.9*radius,30,1.9*radius
+	triangle -25,-0.9*radius,0,-1.1*radius,25,-0.9*radius
+	pop()
+
+drawNeedle = (radius) ->
+	try
+		rd bearing
+		sc 1
+		sw 9 
+		line 0,0,0,radius
+		sc 1,0,0
+		line 0,0,0,-radius
+
 drawCompass = ->
 	radius = 0.25 * w 
 	delta = calcDelta heading_12-bearing
 	fill calcColor delta
 	sw 5
 	sc 1
-	circle 0.5*w,0.7*h,radius
 	push()
 	translate 0.5*w,0.7*h
-	sc 1
-	line 0,0,0,-radius
-	try
-		rd heading_12 - bearing
-		sc 0 
-		line 0,0,0,-radius
+	circle 0,0,1.1*radius
+	push()
+
+	rd -heading_12
+	drawHouse radius
+	pop()
+	textSize 50
+	fc 1
+	sc()
+	text "#{Math.round heading_12}°",0,-1.2*radius
+	drawNeedle radius
 	pop()
 
 draw = ->
