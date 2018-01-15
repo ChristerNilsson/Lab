@@ -121,10 +121,10 @@ navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
 
 calcColor = function calcColor(delta) {
   if (delta < -180) {
-    delta += 180;
+    delta = delta + 360;
   }
-  if (delta > 180) {
-    delta -= 180;
+  if (delta > +180) {
+    delta = delta - 360;
   }
   if (delta < 0) {
     return lerpColor(color(255, 255, 255), color(255, 0, 0), -delta / 180).levels;

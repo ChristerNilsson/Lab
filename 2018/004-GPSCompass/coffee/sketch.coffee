@@ -57,12 +57,10 @@ navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
 	timeout: 27000
 
 calcColor = (delta) ->
-	if delta<-180 then delta += 180
-	if delta>180 then delta -= 180
-	if delta < 0 
-		return lerpColor(color(255,255,255), color(255,0,0),-delta/180).levels
-	else
-		return lerpColor(color(255,255,255), color(0,255,0),delta/180).levels
+	if delta < -180 then delta = delta + 360
+	if delta > +180 then delta = delta - 360
+	if delta < 0 then lerpColor(color(255,255,255), color(255,0,0),-delta/180).levels
+	else lerpColor(color(255,255,255), color(0,255,0),delta/180).levels
 
 setup = ->
 	createCanvas windowWidth,windowHeight
