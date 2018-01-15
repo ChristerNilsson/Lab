@@ -108,12 +108,13 @@ drawHouse = (radius) ->
 	sw 1
 	fc()
 	rect -15,-0.9*radius,30,1.9*radius
+	sc 1,0,0
 	triangle -25,-0.9*radius,0,-1.1*radius,25,-0.9*radius
 	pop()
 
 drawNeedle = (radius) ->
 	try
-		rd bearing
+		rd -bearing
 		sc 1
 		sw 9 
 		line 0,0,0,radius
