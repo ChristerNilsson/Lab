@@ -76,8 +76,11 @@ drawCompass = function drawCompass() {
   sw(5);
   circle(w / 2, h / 2, 0.9 * w / 2);
   translate(w / 2, h / 2);
+  sc(1);
+  line(0, 0, 0, -0.9 * w / 2);
   try {
     rd(bearing - heading_12);
+    sc(0);
     return line(0, 0, 0, -0.9 * w / 2);
   } catch (error1) {}
 };
