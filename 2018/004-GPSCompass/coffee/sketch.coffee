@@ -34,7 +34,7 @@ locationUpdate = (position) ->
 	texts[1] = precisionRound place.lng,6
 	texts[3] = "#{track.length}"  
 	texts[6] = "#{Math.round p1.accuracy} m"
-	#texts[8] = "#{Math.round heading_12}°"
+	texts[8] = "#{Math.round heading_12}°"
 	#texts[3] = 'nospeed' #p1.spd
 	#texts[4] = p1.timestamp
 	texts[10] = "#{Math.round distance_on_geoid p1,place} m"
@@ -140,8 +140,8 @@ drawCompass = ->
 	textSize 0.08*h
 	fc 1
 	sc()
-	text texts[10],0,-1.6*radius
-	text "#{Math.round heading_12}°",0,-1.2*radius
+	text texts[10],0,-2*radius
+	text texts[8],0,-1.6*radius
 	drawNeedle radius
 	pop()
 
@@ -155,7 +155,7 @@ drawTexts = ->
 		x = i%2 * w
 		if i%2==0 then textAlign LEFT else textAlign RIGHT
 		y = d*Math.floor i/2
-		if i not in [10] then text t,x,2*d+y
+		if i not in [8,9,10,11] then text t,x,2*d+y
 	textAlign CENTER
 	text place.name,w/2,d
 

@@ -100,7 +100,7 @@ locationUpdate = function locationUpdate(position) {
   texts[1] = precisionRound(place.lng, 6);
   texts[3] = '' + track.length;
   texts[6] = Math.round(p1.accuracy) + ' m';
-  //texts[8] = "#{Math.round heading_12}°"
+  texts[8] = Math.round(heading_12) + '\xB0';
   //texts[3] = 'nospeed' #p1.spd
   //texts[4] = p1.timestamp
   texts[10] = Math.round(distance_on_geoid(p1, place)) + ' m';
@@ -225,8 +225,8 @@ drawCompass = function drawCompass() {
   textSize(0.08 * h);
   fc(1);
   sc();
-  text(texts[10], 0, -1.6 * radius);
-  text(Math.round(heading_12) + '\xB0', 0, -1.2 * radius);
+  text(texts[10], 0, -2 * radius);
+  text(texts[8], 0, -1.6 * radius);
   drawNeedle(radius);
   return pop();
 };
@@ -247,7 +247,7 @@ drawTexts = function drawTexts() {
       textAlign(RIGHT);
     }
     y = d * Math.floor(i / 2);
-    if (i !== 10) {
+    if (i !== 8 && i !== 9 && i !== 10 && i !== 11) {
       text(t, x, 2 * d + y);
     }
   }
