@@ -247,7 +247,9 @@ drawTexts = function drawTexts() {
       textAlign(RIGHT);
     }
     y = d * Math.floor(i / 2);
-    text(t, x, 2 * d + y);
+    if (i !== 10) {
+      text(t, x, 2 * d + y);
+    }
   }
   textAlign(CENTER);
   return text(place.name, w / 2, d);

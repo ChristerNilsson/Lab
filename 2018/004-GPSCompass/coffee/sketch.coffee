@@ -155,7 +155,7 @@ drawTexts = ->
 		x = i%2 * w
 		if i%2==0 then textAlign LEFT else textAlign RIGHT
 		y = d*Math.floor i/2
-		text t,x,2*d+y
+		if i not in [10] then text t,x,2*d+y
 	textAlign CENTER
 	text place.name,w/2,d
 
