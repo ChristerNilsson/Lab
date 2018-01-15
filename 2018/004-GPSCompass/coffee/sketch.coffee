@@ -80,13 +80,13 @@ setup = ->
 drawCompass = ->
 	w = windowWidth
 	h = windowHeight
-	radius = 0.8 * w / 2
+	radius = 0.4 * w / 2
 	setFillColor heading_12 - bearing
 	sw 5
 	sc 1
-	circle w/2,h/2,radius
+	circle 0.5*w,0.75*h,radius
 	push()
-	translate w/2,h/2
+	translate 0.5*w,0.75*h
 	sc 1
 	line 0,0,0,-radius
 	try
@@ -99,7 +99,7 @@ draw = ->
 	bg 0
 	drawCompass()
 	fc 0.5
-	d = windowHeight/6
+	d = windowHeight/12
 	sc 0.5
 	sw 1
 	textSize 0.08*windowHeight
@@ -107,9 +107,9 @@ draw = ->
 		x = i%2 * windowWidth
 		if i%2==0 then textAlign LEFT else textAlign RIGHT
 		y = d*Math.floor i/2
-		text t,x,d+y
+		text t,x,2*d+y
 	textAlign CENTER
-	text place.name,windowWidth/2,d/2
+	text place.name,windowWidth/2,d
 
 mousePressed = ->
 	if mouseY > windowHeight/2 and track.length>0
