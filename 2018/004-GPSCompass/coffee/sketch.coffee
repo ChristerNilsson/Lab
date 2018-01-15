@@ -7,29 +7,10 @@ p2 = # Ulvsjön
 	timestamp: 0
 
 track = []
+bearing = 0
 heading_12 = 0
 
-# devicets position och hastighet
-positionLat = document.getElementById "position-lat"
-positionLng = document.getElementById "position-lng"
-positionTimestamp = document.getElementById "timestamp"
-positionSpd = document.getElementById "position-spd"
-
-# beräkningar baserade på de senaste tvåpunkterna
-deltat = document.getElementById "deltat"
-deltas = document.getElementById "deltas"
-#speed = document.getElementById "speed"
-heading = document.getElementById "heading"
-
-# bäring enligt kompass
-bearing = document.getElementById "bearing"
-delta = document.getElementById "delta"
-
-# bäring och avstånd till målet
-positionHng = document.getElementById "position-hng"
-distance = document.getElementById "distance"
-
-points = document.getElementById "points"
+texts = [0,0,0,0,0,0,0,0,0,0,0,0,0]
 
 locationUpdate = (position) ->
 	p1 = 
@@ -40,26 +21,25 @@ locationUpdate = (position) ->
 	track.push p1
 
 	heading_12 = calcHeading p1,p2
-	positionLat.textContent = p1.lat
-	positionLng.textContent = p1.lng
-	positionHng.textContent = "#{Math.round heading_12}°"
-	positionSpd.textContent = 'nospeed' #p1.spd
-	positionTimestamp.textContent = p1.timestamp
 
-	distance.textContent = "#{Math.round distance_on_geoid p1,p2} m"
+	texts[0] = p1.lat
+	texts[1] = p1.lng
+	texts[8] = "#{Math.round heading_12}°"
+	#texts[3] = 'nospeed' #p1.spd
+	#texts[4] = p1.timestamp
+	texts[10] = "#{Math.round distance_on_geoid p1,p2} m"
+	texts[2] = "#{track.length} punkter"  
 
 	if track.length >= 2 
 		p0 = track[track.length-2]
-		deltat.textContent = "Delta t: #{p1.timestamp - p0.timestamp} ms"
-		deltas.textContent = "Distance: #{Math.round distance_on_geoid p0,p1} m"
-		#speed.textContent = "?"
-		heading.textContent = "Heading: #{Math.round calcHeading p0,p1}°"
-
-	points.textContent = "#{track.length} punkter"  
+		texts[3] = "Delta t: #{p1.timestamp - p0.timestamp} ms"
+		texts[4] = "Distance: #{Math.round distance_on_geoid p0,p1} m"
+		texts[9] = "Heading: #{Math.round calcHeading p0,p1}°"
+		texts[5] = "speed"
 
 locationUpdateFail = (error) ->
-	positionLat.textContent = "n/a"
-	positionLng.textContent = "n/a"
+	texts[0] = "n/a"
+	texts[1] = "n/a"
 
 navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
 	enableHighAccuracy: false
@@ -67,66 +47,33 @@ navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
 	timeout: 27000
 
 window.addEventListener "deviceorientation", (event) ->
-	b = event.alpha
+	bearing = event.alpha
 
 	if typeof event.webkitCompassHeading != "undefined"
-		b = event.webkitCompassHeading # iOS non-standard
+		bearing = event.webkitCompassHeading # iOS non-standard
 
-	bearing.textContent = "Bearing: #{Math.round b}°"
-	delta.textContent = "Delta: #{Math.round b - heading_12}°"
+	texts[9] = "#{Math.round bearing}°"
+	texts[11] = "#{Math.round bearing - heading_12}°"
 
+setup = ->
+	createCanvas windowWidth,windowHeight
 
-	# var orientation = getBrowserOrientation()
+drawCompass = ->
+	w = windowWidth
+	h = windowHeight
+	fc()
+	sw 5
+	circle w/2,h/2,0.9*w/2
+	rd bearing - heading_12 
+	line w/2,h/2,w/2,h/2-0.9*w/2
 
-	# if (typeof heading !== "undefined" && heading !== null) { // && typeof orientation !== "undefined") {
-	# 	// we have a browser that reports device heading and orientation
-
-
-	# 	if (debug) {
-	# 		debugOrientation.textContent = orientation;
-	# 	}
-
-
-	# 	// what adjustment we have to add to rotation to allow for current device orientation
-	# 	var adjustment = 0;
-	# 	if (defaultOrientation === "landscape") {
-	# 		adjustment -= 90;
-	# 	}
-
-	# 	if (typeof orientation !== "undefined") {
-	# 		var currentOrientation = orientation.split("-");
-
-	# 		if (defaultOrientation !== currentOrientation[0]) {
-	# 			if (defaultOrientation === "landscape") {
-	# 				adjustment -= 270;
-	# 			} else {
-	# 				adjustment -= 90;
-	# 			}
-	# 		}
-
-	# 		if (currentOrientation[1] === "secondary") {
-	# 			adjustment -= 180;
-	# 		}
-	# 	}
-
-	# 	positionCurrent.hng = heading + adjustment;
-
-	# 	var phase = positionCurrent.hng < 0 ? 360 + positionCurrent.hng : positionCurrent.hng;
-	# 	positionHng.textContent = (360 - phase | 0) + "°";
-
-
-	# 	// apply rotation to compass rose
-	# 	if (typeof rose.style.transform !== "undefined") {
-	# 		rose.style.transform = "rotateZ(" + positionCurrent.hng + "deg)";
-	# 	} else if (typeof rose.style.webkitTransform !== "undefined") {
-	# 		rose.style.webkitTransform = "rotateZ(" + positionCurrent.hng + "deg)";
-	# 	}
-	# } else {
-	# 	// device can't show heading
-
-	# 	positionHng.textContent = "n/a";
-	# 	showHeadingWarning();
-	# }
-
-
-
+draw = ->
+	bg 0.5
+	fc 0.75
+	d = windowHeight/6
+	textSize 50
+	for t,i in texts
+		x = (i%2) * windowWidth/2
+		y = d*Math.floor(i/2)
+		text t,50+x,0.6*d+y
+	drawCompass()
