@@ -7,7 +7,7 @@ assert = function(a, b, msg) {
   if (msg == null) {
     msg = 'Assert failure';
   }
-  return chai.assert.deepEqual(a, b, msg);
+  return chai.assert.deepEqual(b, a, msg);
 };
 
 fixColor = function(args) {

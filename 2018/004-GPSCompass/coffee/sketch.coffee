@@ -56,39 +56,43 @@ navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
 	maximumAge: 30000
 	timeout: 27000
 
-window.addEventListener "deviceorientation", (event) ->
-	bearing = event.alpha
-
-	if typeof event.webkitCompassHeading != "undefined"
-		bearing = event.webkitCompassHeading # iOS non-standard
-
-	texts[7] = "#{Math.round (millis() - lastObservation)/1000} s"
-	texts[9] = "#{Math.round bearing}°"
-	texts[11] = "#{Math.round bearing - heading_12}°"
-
-setFillColor = (delta) ->
+calcColor = (delta) ->
 	if delta<-180 then delta += 180
 	if delta>180 then delta -= 180
 	if delta < 0 
-		r = map delta,0,-180,1,0
-		fc 1,r,r
+		return lerpColor(color(255,255,255), color(255,0,0),-delta/180).levels
 	else
-		g = map delta,0,180,1,0
-		fc g,1,g
+		return lerpColor(color(255,255,255), color(0,255,0),delta/180).levels
 
 setup = ->
 	createCanvas windowWidth,windowHeight
 	w = windowWidth
 	h = windowHeight	
 
+	window.addEventListener "deviceorientation", (event) ->
+		bearing = event.alpha
+
+		if typeof event.webkitCompassHeading != "undefined"
+			bearing = event.webkitCompassHeading # iOS non-standard
+
+		texts[7] = "#{Math.round (millis() - lastObservation)/1000} s"
+		texts[9] = "#{Math.round bearing}°"
+		texts[11] = "#{Math.round bearing - heading_12}°"
+
+	assert [255,255,255,255], calcColor 0
+	assert [255,128,128,255], calcColor -90
+	assert [255,0,0,255], calcColor -180
+	assert [128,255,128,255], calcColor 90
+	assert [0,255,0,255], calcColor 180
+
 drawCompass = ->
-	radius = 0.4 * w / 2
-	setFillColor heading_12 - bearing
+	radius = 0.25 * w 
+	fill calcColor heading_12 - bearing
 	sw 5
 	sc 1
-	circle 0.5*w,0.75*h,radius
+	circle 0.5*w,0.7*h,radius
 	push()
-	translate 0.5*w,0.75*h
+	translate 0.5*w,0.7*h
 	sc 1
 	line 0,0,0,-radius
 	try
