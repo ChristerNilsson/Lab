@@ -209,12 +209,11 @@ draw = function draw() {
 };
 
 mousePressed = function mousePressed() {
-  var p, today;
+  var p;
   if (mouseY > h / 2 && track.length > 0) {
     p = track[track.length - 1];
-    today = new Date();
     places.push({
-      name: today.toLocaleString("sv-SE"),
+      name: prettyDate(new Date()),
       lat: p.lat,
       lng: p.lng
     });
