@@ -1,10 +1,15 @@
 #hng: null # NESW = [0,90,180,270]
 #spd: null # m/s
 
-p2 = # Ulvsjön
-	lat: 59.277103
-	lng: 18.164897
-	timestamp: 0
+places = []
+places.push {name:'Bron S Söderbysjön',lat:59.279155, lng:18.149318}
+places.push {name:'Golfklubben',       lat:59.284052, lng:18.145925}
+places.push {name:'Sushi Bagarmossen', lat:59.277560, lng:18.132739}
+places.push {name:'Hem',               lat:59.265205, lng:18.132735}
+places.push {name:'Hellasgården',      lat:59.289813, lng:18.160577}
+places.push {name:'Ulvsjön, Udden',    lat:59.277103, lng:18.164897}
+placeIndex = 0
+place = places[placeIndex]
 
 track = []
 bearing = 0
@@ -22,7 +27,7 @@ locationUpdate = (position) ->
 
 	track.push p1
 
-	heading_12 = calcHeading p1,p2
+	heading_12 = calcHeading p1,place
 	lastObservation = millis()
 
 	texts[0] = precisionRound p1.lat,6
@@ -32,7 +37,7 @@ locationUpdate = (position) ->
 	texts[8] = "#{Math.round heading_12}°"
 	#texts[3] = 'nospeed' #p1.spd
 	#texts[4] = p1.timestamp
-	texts[10] = "#{Math.round distance_on_geoid p1,p2} m"
+	texts[10] = "#{Math.round distance_on_geoid p1,place} m"
 
 	if track.length >= 2 
 		p0 = track[track.length-2]
@@ -105,4 +110,17 @@ draw = ->
 		x = i%2 * windowWidth
 		if i%2==0 then textAlign LEFT else textAlign RIGHT
 		y = d*Math.floor i/2
-		text t,x,0.6*d+y
+		text t,x,d+y
+	textAlign CENTER
+	text place.name,windowWidth/2,d/2
+
+mousePressed = ->
+	if mouseY > windowHeight/2
+		p = places[places.length-1]
+		places.push {name:places.length, lat:p.lat, lng:p.lng}
+		placeIndex = places.length-1
+	else if mouseX> windowWidth/2 then placeIndex++
+	else placeIndex--
+	placeIndex %%= places.length
+	place = places[placeIndex]
+	texts = ['','','','','','','','','','','','']
