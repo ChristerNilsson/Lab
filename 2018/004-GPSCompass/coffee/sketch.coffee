@@ -68,7 +68,7 @@ drawCompass = ->
 	sc 1
 	line 0,0,0,-0.9*w/2
 	try
-		rd bearing - heading_12
+		rd heading_12 - bearing
 		sc 0 
 		line 0,0,0,-0.9*w/2
 
