@@ -13,7 +13,7 @@ p2 = { // Ulvsjön
 
 track = [];
 
-heading_12 = null;
+heading_12 = 0;
 
 // devicets position och hastighet
 positionLat = document.getElementById("position-lat");
@@ -56,7 +56,7 @@ locationUpdate = function locationUpdate(position) {
   positionLat.textContent = p1.lat;
   positionLng.textContent = p1.lng;
   positionHng.textContent = Math.round(heading_12) + "\xB0";
-  positionSpd.textContent = p1.spd;
+  positionSpd.textContent = 'nospeed'; //p1.spd
   positionTimestamp.textContent = p1.timestamp;
   distance.textContent = Math.round(distance_on_geoid(p1, p2)) + " m";
   if (track.length >= 2) {

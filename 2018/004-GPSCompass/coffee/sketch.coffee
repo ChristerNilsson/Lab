@@ -7,7 +7,7 @@ p2 = # Ulvsjön
 	timestamp: 0
 
 track = []
-heading_12 = null
+heading_12 = 0
 
 # devicets position och hastighet
 positionLat = document.getElementById "position-lat"
@@ -43,7 +43,7 @@ locationUpdate = (position) ->
 	positionLat.textContent = p1.lat
 	positionLng.textContent = p1.lng
 	positionHng.textContent = "#{Math.round heading_12}°"
-	positionSpd.textContent = p1.spd
+	positionSpd.textContent = 'nospeed' #p1.spd
 	positionTimestamp.textContent = p1.timestamp
 
 	distance.textContent = "#{Math.round distance_on_geoid p1,p2} m"
@@ -62,9 +62,9 @@ locationUpdateFail = (error) ->
 	positionLng.textContent = "n/a"
 
 navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
-		enableHighAccuracy: false
-		maximumAge: 30000
-		timeout: 27000
+	enableHighAccuracy: false
+	maximumAge: 30000
+	timeout: 27000
 
 window.addEventListener "deviceorientation", (event) ->
 	b = event.alpha
