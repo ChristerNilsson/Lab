@@ -126,7 +126,11 @@ draw = ->
 mousePressed = ->
 	if mouseY > h/2 and track.length>0
 		p = track[track.length-1]
-		places.push {name:places.length, lat:p.lat, lng:p.lng}
+		today  = new Date();
+		places.push 
+			name:today.toLocaleString "sv-SE"
+			lat:p.lat
+			lng:p.lng
 		placeIndex = places.length-1
 
 	else if mouseX > w/2 then placeIndex++
