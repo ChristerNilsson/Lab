@@ -10,7 +10,7 @@ track = []
 bearing = 0
 heading_12 = 0
 
-texts = [0,0,0,0,0,0, 0,0,0,0,0,0]
+texts = ['','','','','','','','','','','','']
 
 locationUpdate = (position) ->
 	p1 = 
@@ -22,8 +22,8 @@ locationUpdate = (position) ->
 
 	heading_12 = calcHeading p1,p2
 
-	texts[0] = p1.lat
-	texts[1] = p1.lng
+	texts[0] = precisionRound p1.lat,6
+	texts[1] = precisionRound p1.lng,6
 	texts[8] = "#{Math.round heading_12}°"
 	#texts[3] = 'nospeed' #p1.spd
 	#texts[4] = p1.timestamp
@@ -65,8 +65,9 @@ drawCompass = ->
 	sw 5
 	circle w/2,h/2,0.9*w/2
 	translate w/2,h/2
-	rd bearing - heading_12 
-	line 0,0,0,-0.9*w/2
+	try
+		rd bearing - heading_12 
+		line 0,0,0,-0.9*w/2
 
 draw = ->
 	bg 0.5
