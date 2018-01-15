@@ -63,8 +63,8 @@ window.addEventListener "deviceorientation", (event) ->
 	texts[11] = "#{Math.round bearing - heading_12}°"
 
 setFillColor = (delta) ->
-	if delta<-180 then delta += 360
-	if delta>180 then delta -= 360
+	if delta<-180 then delta += 180
+	if delta>180 then delta -= 180
 	if delta < 0 
 		r = map delta,0,-180,1,0
 		fc 1,r,r

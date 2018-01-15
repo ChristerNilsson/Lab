@@ -75,10 +75,10 @@ window.addEventListener("deviceorientation", function (event) {
 setFillColor = function setFillColor(delta) {
   var g, r;
   if (delta < -180) {
-    delta += 360;
+    delta += 180;
   }
   if (delta > 180) {
-    delta -= 360;
+    delta -= 180;
   }
   if (delta < 0) {
     r = map(delta, 0, -180, 1, 0);
