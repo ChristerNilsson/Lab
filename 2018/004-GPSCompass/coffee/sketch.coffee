@@ -66,8 +66,9 @@ calcColor = (delta) ->
 	white = color 255,255,255
 	red   = color 255,0,0
 	green = color 0,255,0
-	if delta < 0 then lerpColor(white, red, -delta/180).levels
-	else lerpColor(white, green, delta/180).levels
+	if abs(delta) > 90 then color(0,0,0).levels
+	else if delta < 0 then lerpColor(white, red, -delta/90).levels
+	else lerpColor(white, green, delta/90).levels
 
 setup = ->
 	createCanvas windowWidth,windowHeight
@@ -86,10 +87,10 @@ setup = ->
 		texts[11] = "#{Math.round delta}°"
 
 	assert [255,255,255,255], calcColor 0
-	assert [255,128,128,255], calcColor -90
-	assert [255,0,0,255], calcColor -180
-	assert [128,255,128,255], calcColor 90
-	assert [0,255,0,255], calcColor 180
+	assert [255,0,0,255], calcColor -90
+	assert [0,0,0,255], calcColor -180
+	assert [0,255,0,255], calcColor 90
+	assert [0,0,0,255], calcColor 180
 
 drawHouse = (radius) ->
 	fc 1
