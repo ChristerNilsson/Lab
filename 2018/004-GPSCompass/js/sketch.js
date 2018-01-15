@@ -4,6 +4,7 @@
 var bearing,
     draw,
     drawCompass,
+    h,
     heading_12,
     lastObservation,
     locationUpdate,
@@ -16,6 +17,7 @@ var bearing,
     setup,
     texts,
     track,
+    w,
     modulo = function modulo(a, b) {
   return (+a % (b = +b) + b) % b;
 };
@@ -61,6 +63,10 @@ places.push({
 placeIndex = 0;
 
 place = places[placeIndex];
+
+w = null;
+
+h = null;
 
 track = [];
 
@@ -141,13 +147,13 @@ setFillColor = function setFillColor(delta) {
 };
 
 setup = function setup() {
-  return createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, windowHeight);
+  w = windowWidth;
+  return h = windowHeight;
 };
 
 drawCompass = function drawCompass() {
-  var h, radius, w;
-  w = windowWidth;
-  h = windowHeight;
+  var radius;
   radius = 0.4 * w / 2;
   setFillColor(heading_12 - bearing);
   sw(5);
@@ -170,13 +176,13 @@ draw = function draw() {
   bg(0);
   drawCompass();
   fc(0.5);
-  d = windowHeight / 12;
+  d = h / 12;
   sc(0.5);
   sw(1);
-  textSize(0.08 * windowHeight);
+  textSize(0.08 * h);
   for (i = j = 0, len = texts.length; j < len; i = ++j) {
     t = texts[i];
-    x = i % 2 * windowWidth;
+    x = i % 2 * w;
     if (i % 2 === 0) {
       textAlign(LEFT);
     } else {
@@ -186,12 +192,12 @@ draw = function draw() {
     text(t, x, 2 * d + y);
   }
   textAlign(CENTER);
-  return text(place.name, windowWidth / 2, d);
+  return text(place.name, w / 2, d);
 };
 
 mousePressed = function mousePressed() {
   var p;
-  if (mouseY > windowHeight / 2 && track.length > 0) {
+  if (mouseY > h / 2 && track.length > 0) {
     p = track[track.length - 1];
     places.push({
       name: places.length,
@@ -199,7 +205,7 @@ mousePressed = function mousePressed() {
       lng: p.lng
     });
     placeIndex = places.length - 1;
-  } else if (mouseX > windowWidth / 2) {
+  } else if (mouseX > w / 2) {
     placeIndex++;
   } else {
     placeIndex--;

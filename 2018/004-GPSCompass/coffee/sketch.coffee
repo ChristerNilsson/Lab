@@ -8,6 +8,8 @@ places.push {name:'Ulvsjön, Udden',    lat:59.277103, lng:18.164897}
 placeIndex = 0
 place = places[placeIndex]
 
+w = null
+h = null
 track = []
 bearing = 0
 heading_12 = 0
@@ -76,10 +78,10 @@ setFillColor = (delta) ->
 
 setup = ->
 	createCanvas windowWidth,windowHeight
+	w = windowWidth
+	h = windowHeight	
 
 drawCompass = ->
-	w = windowWidth
-	h = windowHeight
 	radius = 0.4 * w / 2
 	setFillColor heading_12 - bearing
 	sw 5
@@ -99,25 +101,25 @@ draw = ->
 	bg 0
 	drawCompass()
 	fc 0.5
-	d = windowHeight/12
+	d = h/12
 	sc 0.5
 	sw 1
-	textSize 0.08*windowHeight
+	textSize 0.08*h
 	for t,i in texts
-		x = i%2 * windowWidth
+		x = i%2 * w
 		if i%2==0 then textAlign LEFT else textAlign RIGHT
 		y = d*Math.floor i/2
 		text t,x,2*d+y
 	textAlign CENTER
-	text place.name,windowWidth/2,d
+	text place.name,w/2,d
 
 mousePressed = ->
-	if mouseY > windowHeight/2 and track.length>0
+	if mouseY > h/2 and track.length>0
 		p = track[track.length-1]
 		places.push {name:places.length, lat:p.lat, lng:p.lng}
 		placeIndex = places.length-1
 
-	else if mouseX> windowWidth/2 then placeIndex++
+	else if mouseX > w/2 then placeIndex++
 	else placeIndex--
 	placeIndex %%= places.length
 	place = places[placeIndex]
