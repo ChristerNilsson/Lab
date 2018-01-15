@@ -201,11 +201,17 @@ drawHouse = function drawHouse(radius) {
 drawNeedle = function drawNeedle(radius) {
   try {
     rd(-bearing);
+    sc(0);
+    sw(0.025 * h);
+    line(0, -0.95 * radius, 0, 0.95 * radius);
     sc(1);
     sw(0.02 * h);
     line(0, 0, 0, 0.95 * radius);
     sc(1, 0, 0);
-    return line(0, 0, 0, -0.95 * radius);
+    line(0, 0, 0, -0.95 * radius);
+    sw(0.025 * h);
+    sc(0);
+    return point(0, 0);
   } catch (error1) {}
 };
 
