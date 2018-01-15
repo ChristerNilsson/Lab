@@ -9,6 +9,7 @@ p2 = # Ulvsjön
 track = []
 bearing = 0
 heading_12 = 0
+lastObservation = 0
 
 texts = ['','','','','','','','','','','','']
 
@@ -16,35 +17,38 @@ locationUpdate = (position) ->
 	p1 = 
 		lat : position.coords.latitude
 		lng : position.coords.longitude
+		accuracy : position.coords.accuracy
 		timestamp : position.timestamp/1000
 
 	track.push p1
 
 	heading_12 = calcHeading p1,p2
+	lastObservation = millis()
 
 	texts[0] = precisionRound p1.lat,6
-	texts[2] = precisionRound p1.lng,6
+	texts[1] = precisionRound p1.lng,6
+	texts[3] = "#{track.length}"  
+	texts[6] = "#{Math.round p1.accuracy} m"
 	texts[8] = "#{Math.round heading_12}°"
 	#texts[3] = 'nospeed' #p1.spd
 	#texts[4] = p1.timestamp
 	texts[10] = "#{Math.round distance_on_geoid p1,p2} m"
-	texts[3] = "#{track.length}"  
 
 	if track.length >= 2 
 		p0 = track[track.length-2]
 		dt = p1.timestamp-p0.timestamp
 		ds = distance_on_geoid p0,p1
-		texts[1] = "#{precisionRound dt,3} s"
+		texts[2] = "#{precisionRound dt,3} s"
 		texts[4] = "#{Math.round ds} m"
-		texts[9] = "#{Math.round calcHeading p0,p1}°"
 		texts[5] = "#{precisionRound ds/dt,1} m/s"
+		texts[9] = "#{Math.round calcHeading p0,p1}°"
 
 locationUpdateFail = (error) ->
 	texts[0] = "n/a"
 	texts[1] = "n/a"
 
 navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
-	enableHighAccuracy: false
+	enableHighAccuracy: true
 	maximumAge: 30000
 	timeout: 27000
 
@@ -54,8 +58,17 @@ window.addEventListener "deviceorientation", (event) ->
 	if typeof event.webkitCompassHeading != "undefined"
 		bearing = event.webkitCompassHeading # iOS non-standard
 
+	texts[7] = "#{Math.round (millis() - lastObservation)/1000} s"
 	texts[9] = "#{Math.round bearing}°"
 	texts[11] = "#{Math.round bearing - heading_12}°"
+
+setFillColor = (delta) ->
+	if delta < 0 
+		r = map delta,0,180,1,0
+		fc 1,r,r
+	else
+		g = map delta,0,180,1,0
+		fc g,1,g
 
 setup = ->
 	createCanvas windowWidth,windowHeight
@@ -63,9 +76,10 @@ setup = ->
 drawCompass = ->
 	w = windowWidth
 	h = windowHeight
-	fc()
+	setFillColor heading_12 - bearing
 	sw 5
 	circle w/2,h/2,0.9*w/2
+	push()
 	translate w/2,h/2
 	sc 1
 	line 0,0,0,-0.9*w/2
@@ -73,15 +87,17 @@ drawCompass = ->
 		rd heading_12 - bearing
 		sc 0 
 		line 0,0,0,-0.9*w/2
+	pop()
 
 draw = ->
 	bg 0.5
-	fc 0.75
-	d = windowHeight/6
-	textSize 75
-	for t,i in texts
-		x = (i%2) * windowWidth
-		if i%2==0 then textAlign LEFT else textAlign RIGHT
-		y = d*Math.floor(i/2)
-		text t,x,0.6*d+y
 	drawCompass()
+	fc 0
+	d = windowHeight/6
+	sc()
+	textSize 0.08*windowHeight
+	for t,i in texts
+		x = i%2 * windowWidth
+		if i%2==0 then textAlign LEFT else textAlign RIGHT
+		y = d*Math.floor i/2
+		text t,x,0.6*d+y
