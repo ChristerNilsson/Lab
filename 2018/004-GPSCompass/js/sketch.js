@@ -17,7 +17,7 @@ bearing = 0;
 
 heading_12 = 0;
 
-texts = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
+texts = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
 locationUpdate = function locationUpdate(position) {
   var p0, p1;
@@ -75,8 +75,9 @@ drawCompass = function drawCompass() {
   fc();
   sw(5);
   circle(w / 2, h / 2, 0.9 * w / 2);
+  translate(w / 2, h / 2);
   rd(bearing - heading_12);
-  return line(w / 2, h / 2, w / 2, h / 2 - 0.9 * w / 2);
+  return line(0, 0, 0, -0.9 * w / 2);
 };
 
 draw = function draw() {

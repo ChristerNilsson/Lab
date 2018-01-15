@@ -10,7 +10,7 @@ track = []
 bearing = 0
 heading_12 = 0
 
-texts = [0,0,0,0,0,0,0,0,0,0,0,0,0]
+texts = [0,0,0,0,0,0, 0,0,0,0,0,0]
 
 locationUpdate = (position) ->
 	p1 = 
@@ -64,8 +64,9 @@ drawCompass = ->
 	fc()
 	sw 5
 	circle w/2,h/2,0.9*w/2
+	translate w/2,h/2
 	rd bearing - heading_12 
-	line w/2,h/2,w/2,h/2-0.9*w/2
+	line 0,0,0,-0.9*w/2
 
 draw = ->
 	bg 0.5
