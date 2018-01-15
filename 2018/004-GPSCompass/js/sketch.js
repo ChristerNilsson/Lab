@@ -29,18 +29,18 @@ locationUpdate = function locationUpdate(position) {
   track.push(p1);
   heading_12 = calcHeading(p1, p2);
   texts[0] = precisionRound(p1.lat, 6);
-  texts[1] = precisionRound(p1.lng, 6);
+  texts[2] = precisionRound(p1.lng, 6);
   texts[8] = Math.round(heading_12) + '\xB0';
   //texts[3] = 'nospeed' #p1.spd
   //texts[4] = p1.timestamp
   texts[10] = Math.round(distance_on_geoid(p1, p2)) + ' m';
-  texts[2] = track.length + ' punkter';
+  texts[1] = '' + track.length;
   if (track.length >= 2) {
     p0 = track[track.length - 2];
-    texts[3] = 'Delta t: ' + (p1.timestamp - p0.timestamp) + ' ms';
-    texts[4] = 'Distance: ' + Math.round(distance_on_geoid(p0, p1)) + ' m';
-    texts[9] = 'Heading: ' + Math.round(calcHeading(p0, p1)) + '\xB0';
-    return texts[5] = "speed";
+    texts[3] = p1.timestamp - p0.timestamp + ' ms';
+    texts[4] = Math.round(distance_on_geoid(p0, p1)) + ' m';
+    texts[9] = Math.round(calcHeading(p0, p1)) + '\xB0';
+    return texts[5] = ""; // speed
   }
 };
 
@@ -90,12 +90,17 @@ draw = function draw() {
   bg(0.5);
   fc(0.75);
   d = windowHeight / 6;
-  textSize(50);
+  textSize(75);
   for (i = j = 0, len = texts.length; j < len; i = ++j) {
     t = texts[i];
-    x = i % 2 * windowWidth / 2;
+    x = i % 2 * windowWidth;
+    if (i % 2 === 0) {
+      textAlign(LEFT);
+    } else {
+      textAlign(RIGHT);
+    }
     y = d * Math.floor(i / 2);
-    text(t, 50 + x, 0.6 * d + y);
+    text(t, x, 0.6 * d + y);
   }
   return drawCompass();
 };
