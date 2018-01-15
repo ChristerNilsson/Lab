@@ -173,10 +173,9 @@ setup = function setup() {
 };
 
 drawHouse = function drawHouse(radius) {
-  var dx, i, j, len, ref;
+  var dx, i, j, k, len, len1, ref, ref1;
   fc(1);
   sc();
-  //textSize 50
   textAlign(CENTER, CENTER);
   ref = range(4);
   for (j = 0, len = ref.length; j < len; j++) {
@@ -189,12 +188,23 @@ drawHouse = function drawHouse(radius) {
     rd(90);
   }
   push();
+  dx = 0.02 * w;
+  sc(0);
+  sw(1);
+  ref1 = range(-6, 7);
+  for (k = 0, len1 = ref1.length; k < len1; k++) {
+    i = ref1[k];
+    line(i * 2 * dx, -1.1 * radius, i * 2 * dx, 1.1 * radius);
+  }
+  sc(1);
+  sw(5);
+  fc();
+  circle(0, 0, 1.1 * radius);
   sc(0);
   sw(1);
   fc(0.5);
-  dx = 0.02 * w;
   rect(-dx, -0.9 * radius, 2 * dx, 1.9 * radius);
-  triangle(-1.5 * dx, -0.9 * radius, 0, -1.1 * radius, 1.5 * dx, -0.9 * radius);
+  triangle(-1.5 * dx, -0.9 * radius, 0, -1.05 * radius, 1.5 * dx, -0.9 * radius);
   return pop();
 };
 
