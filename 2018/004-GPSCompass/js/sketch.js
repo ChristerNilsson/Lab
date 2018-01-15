@@ -171,7 +171,7 @@ setup = function setup() {
 };
 
 drawHouse = function drawHouse(radius) {
-  var i, j, len, ref;
+  var dx, i, j, len, ref;
   fc(1);
   sc();
   //textSize 50
@@ -190,10 +190,9 @@ drawHouse = function drawHouse(radius) {
   sc(0);
   sw(1);
   fc(0.5);
-  rect(-15, -0.9 * radius, 30, 1.9 * radius);
-  //sc 1,0,0
-  //fc 1,0,0
-  triangle(-25, -0.9 * radius, 0, -1.1 * radius, 25, -0.9 * radius);
+  dx = 0.02 * w;
+  rect(-dx, -0.9 * radius, 2 * dx, 1.9 * radius);
+  triangle(-1.5 * dx, -0.9 * radius, 0, -1.1 * radius, 1.5 * dx, -0.9 * radius);
   return pop();
 };
 
@@ -201,7 +200,7 @@ drawNeedle = function drawNeedle(radius) {
   try {
     rd(-bearing);
     sc(1);
-    sw(13);
+    sw(0.02 * h);
     line(0, 0, 0, 0.95 * radius);
     sc(1, 0, 0);
     return line(0, 0, 0, -0.95 * radius);
