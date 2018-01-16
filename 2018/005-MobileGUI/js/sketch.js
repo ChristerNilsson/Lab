@@ -108,11 +108,10 @@ place = places[placeIndex];
 oldName = null;
 
 Page = function () {
-  function Page(title, actions, elements) {
+  function Page(actions, elements) {
     _classCallCheck(this, Page);
 
     // @actions visas på samma rad
-    this.title = title;
     this.actions = actions;
     this.elements = elements;
     this.actions = this.actions.split(' ');
@@ -123,14 +122,10 @@ Page = function () {
   _createClass(Page, [{
     key: 'display',
     value: function display() {
-      var action, div, elem, element, j, k, len, len1, ref, ref1, results, span;
+      var action, div, elem, element, j, k, len, len1, ref, ref1, results;
       elem = document.getElementById('myTitle');
       elem.innerHTML = "";
       div = document.createElement("span");
-      span = document.createElement("span");
-      span.style.fontSize = "150%";
-      span.innerHTML = this.title;
-      div.appendChild(span);
       ref = this.actions;
       for (j = 0, len = ref.length; j < len; j++) {
         action = ref[j];
@@ -295,10 +290,10 @@ setup = function setup() {
   c = createCanvas(windowWidth, windowHeight);
   c.parent('myContainer');
   hideCanvas();
-  pages.List = new Page('', 'add', 'list');
-  pages.Nav = new Page('', 'listbutton map add edit delete', 'canvas');
-  pages.Edit = new Page('', 'update cancel', 'formedit');
-  pages.Add = new Page('', 'save cancel', 'formadd');
+  pages.List = new Page('add', 'list');
+  pages.Nav = new Page('listbutton map add edit delete', 'canvas');
+  pages.Edit = new Page('update cancel', 'formedit');
+  pages.Add = new Page('save cancel', 'formadd');
   return pages.List.display();
 };
 

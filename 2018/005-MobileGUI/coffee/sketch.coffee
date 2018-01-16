@@ -23,7 +23,7 @@ oldName = null
 
 class Page
 
-	constructor : (@title, @actions, @elements) -> # @actions visas på samma rad
+	constructor : (@actions, @elements) -> # @actions visas på samma rad
 		@actions = @actions.split ' '
 		@elements = @elements.split ' '
 		@table = document.getElementById "table"
@@ -33,10 +33,6 @@ class Page
 		elem.innerHTML = ""
 
 		div = document.createElement "span"
-		span = document.createElement "span"
-		span.style.fontSize = "150%"
-		span.innerHTML = @title
-		div.appendChild span 
 		for action in @actions
 			div.appendChild @makeAction action,@actions.length
 		elem.appendChild div
@@ -119,10 +115,10 @@ setup = ->
 	c.parent 'myContainer'	
 	hideCanvas()
 
-	pages.List = new Page '', 'add', 'list'
-	pages.Nav  = new Page '',  'listbutton map add edit delete', 'canvas'
-	pages.Edit = new Page '', 'update cancel', 'formedit'
-	pages.Add  = new Page '',  'save cancel', 'formadd'
+	pages.List = new Page 'add', 'list'
+	pages.Nav  = new Page 'listbutton map add edit delete', 'canvas'
+	pages.Edit = new Page 'update cancel', 'formedit'
+	pages.Add  = new Page 'save cancel', 'formadd'
 
 	pages.List.display()
 
