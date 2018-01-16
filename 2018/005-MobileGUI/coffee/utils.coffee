@@ -20,6 +20,7 @@ makeInput = (title,value) ->
 
 makeButton = (title,f) ->
 	b = document.createElement 'input'
+	b.style.fontSize = "150%"
 	b.type = 'button'
 	b.value = title
 	b.onclick = f
