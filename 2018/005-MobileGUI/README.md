@@ -2,5 +2,5 @@
 
 Ett experiment för att skapa undersidor i en enda sida.
 
-Minsta enhet är Element. 
-En sida har en Title samt en lista med Element
+Metoden Init skapar sidan.
+Varje sida har ett antal Actions

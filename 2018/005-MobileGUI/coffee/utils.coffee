@@ -6,11 +6,6 @@ showCanvas = ->
 	elem = document.getElementById 'myContainer'
 	elem.style.display = 'block'
 
-# makeDiv = (title) ->
-# 	b = document.createElement 'div'
-# 	b.innerHTML = title
-# 	b
-
 makeInput = (title,value) ->
 	b = document.createElement 'input'
 	b.id = title
@@ -36,6 +31,5 @@ addCell = (tr,value) ->
 	tr.appendChild td
 
 getField = (name) ->
-	element = document.getElementById(name)
+	element = document.getElementById name
 	if element then element.value else null
-

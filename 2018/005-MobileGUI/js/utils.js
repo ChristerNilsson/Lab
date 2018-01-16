@@ -15,10 +15,6 @@ showCanvas = function showCanvas() {
   return elem.style.display = 'block';
 };
 
-// makeDiv = (title) ->
-// 	b = document.createElement 'div'
-// 	b.innerHTML = title
-// 	b
 makeInput = function makeInput(title, value) {
   var b;
   b = document.createElement('input');

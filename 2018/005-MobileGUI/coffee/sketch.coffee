@@ -16,111 +16,94 @@ places.push {name:'Söderbysjön S Bron',    lat:59.279155, lng:18.149318}
 places.push {name:'Ulvsjön, Udden',        lat:59.277103, lng:18.164897}
 
 pages = {}
-
-placeIndex = 0
-place = places[placeIndex]
+place = places[0]
 oldName = null
 
 class Page
 
-	constructor : (@elements, @actions) -> 
-		@elements = @elements.split ' '
-		@actions = @actions.split ' '
+	constructor : (@actionCount, @init) -> 
 		@table = document.getElementById "table"
+		@actions = []
+
+	addAction : (title, f) -> @actions.push makeButton title, @actionCount, f
 
 	display : ->
-		elem = document.getElementById 'myTitle'
+		# actions
+		elem = document.getElementById 'myActions'
 		elem.innerHTML = ""
-
-		div = document.createElement "span"
+		span = document.createElement "span"
 		for action in @actions
-			div.appendChild @makeAction action,@actions.length
-		elem.appendChild div
+			span.appendChild action
+		elem.appendChild span
 
+		# init page
 		hideCanvas()
-
-		# rensa body
 		@table.innerHTML = ""
-
-		for element in @elements
-			@makeElement element
+		@init()
 				
 	addRow : (b) ->
 		tr = document.createElement "tr"
 		addCell tr,b
 		@table.appendChild tr
 
-	makeAction : (action,n) ->
-		if action=='save' then return makeButton 'Save', n, -> # After Add
-			name = getField "name"
-			lat = getField "lat"
-			lng = getField "lng"
-			places.push {name:name, lat:lat, lng:lng}
-			places.sort (a,b) -> if a.name > b.name then 1 else -1
-			pages.List.display()
-
-		if action =='listbutton' then return makeButton 'List', n, -> pages.List.display()
-		if action =='map' then return makeButton 'Map', n, -> window.open "http://maps.google.com/maps?q=#{place.lat},#{place.lng}"
-
-		if action =='update' then return makeButton 'Update', n, -> # After Edit 
-			name = getField "name"
-			lat = getField "lat"
-			lng = getField "lng"
-
-			if oldName == name # finns namnet redan?
-				for p in places
-					if oldName == p.name
-						p.lat = lat
-						p.lng = lng
-			else
-				places = places.filter (e) => e.name != oldName
-				places.push {name:name,lat:lat,lng:lng}
-				places.sort (a,b) -> if a.name > b.name then 1 else -1
-			pages.List.display()
-
-		if action =='del' then return makeButton 'Del', n, -> 
-			places = places.filter (e) => e.name != place.name
-			pages.List.display()
-
-		if action =='cancel' then return makeButton 'Cancel', n, -> pages.Nav.display()
-		if action =='add'    then return makeButton 'Add',    n, -> pages.Add.display()
-		if action =='edit'   then return makeButton 'Edit',   n, -> pages.Edit.display()
-
-	makeElement : (element ) ->
-		if element == 'canvas' then showCanvas()
-
-		if element == 'list'
-			for p,i in places
-				do (i) =>
-					b = makeButton p.name, 1, => 
-						placeIndex = i
-						place = places[i]
-						pages.Nav.display()
-					b.style.textAlign = 'left' 
-					@addRow b
-
-	
-		if element == 'formedit' 
-			oldName = place.name
-			@addRow makeInput 'name',place.name
-			@addRow makeInput 'lat',place.lat
-			@addRow makeInput 'lng',place.lng
-
-		if element == 'formadd' 
-			@addRow makeInput 'name','2018-01-15 12:34:56'
-			@addRow makeInput 'lat','59.123456'
-			@addRow makeInput 'lng','18.123456'
-
 setup = ->
 	c = createCanvas windowWidth,windowHeight
 	c.parent 'myContainer'	
 	hideCanvas()
 
-	pages.List = new Page 'list', 'add' 
-	pages.Nav  = new Page 'canvas', 'listbutton map edit del'
-	pages.Edit = new Page 'formedit', 'update cancel'
-	pages.Add  = new Page 'formadd', 'save cancel'
+	pages.List = new Page 1, ->
+		for p,i in places
+			do (i) =>
+				b = makeButton p.name, @actionCount, => 
+					place = places[i]
+					pages.Nav.display()
+				b.style.textAlign = 'left' 
+				@addRow b		
+	pages.List.addAction 'Add', -> pages.Add.display()
 
+	pages.Nav = new Page 4, -> showCanvas()
+	pages.Nav.addAction 'List', -> pages.List.display()
+	pages.Nav.addAction 'Map', -> window.open "http://maps.google.com/maps?q=#{place.lat},#{place.lng}"
+	pages.Nav.addAction 'Edit', -> pages.Edit.display()
+	pages.Nav.addAction 'Del', -> 
+		places = places.filter (e) => e.name != place.name
+		pages.List.display()
+
+	pages.Edit = new Page 2, ->
+		oldName = place.name
+		@addRow makeInput 'name',place.name
+		@addRow makeInput 'lat',place.lat
+		@addRow makeInput 'lng',place.lng
+	pages.Edit.addAction 'Update', -> 
+		name = getField "name"
+		lat = getField "lat"
+		lng = getField "lng"
+		if oldName == name # finns namnet redan?
+			for p in places
+				if oldName == p.name
+					p.lat = lat
+					p.lng = lng
+		else
+			places = places.filter (e) => e.name != oldName
+			places.push {name:name,lat:lat,lng:lng}
+			places.sort (a,b) -> if a.name > b.name then 1 else -1
+		pages.List.display()
+	pages.Edit.addAction 'Cancel', -> pages.Nav.display()
+
+	pages.Add  = new Page 2, ->
+		@addRow makeInput 'name','2018-01-15 12:34:56'
+		@addRow makeInput 'lat','59.123456'
+		@addRow makeInput 'lng','18.123456'
+	pages.Add.addAction	'Save', -> 
+		name = getField "name"
+		lat = getField "lat"
+		lng = getField "lng"
+		places.push {name:name, lat:lat, lng:lng}
+		places.sort (a,b) -> if a.name > b.name then 1 else -1
+		pages.List.display()
+	pages.Add.addAction 'Cancel', -> pages.Nav.display()
+
+	# startsida:
 	pages.List.display()
 
 draw = ->
