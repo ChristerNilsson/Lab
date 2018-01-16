@@ -28,15 +28,14 @@ makeInput = function makeInput(title, value) {
   return b;
 };
 
-makeButton = function makeButton(title, n, f) {
+makeButton = function makeButton(title, n, align, f) {
   var b;
   b = document.createElement('input');
   b.style.width = Math.floor(100 / n) + '%';
   b.style.fontSize = "75%";
   b.style.webkitAppearance = "none";
-  b.style.textAlign = 'left';
+  b.style.textAlign = align;
   b.borderRadius = 0;
-  //b.style.padding = 0
   b.type = 'button';
   b.value = title;
   b.onclick = f;

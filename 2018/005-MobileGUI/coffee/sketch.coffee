@@ -60,10 +60,10 @@ class Page
 			places.sort (a,b) -> if a.name > b.name then 1 else -1
 			pages.List.display()
 
-		if action =='listbutton' then return makeButton 'List', n, -> pages.List.display()
-		if action =='map' then return makeButton 'Map', n, -> window.open "http://maps.google.com/maps?q=#{place.lat},#{place.lng}"
+		if action =='listbutton' then return makeButton 'List', n, 'center', -> pages.List.display()
+		if action =='map' then return makeButton 'Map', n, 'center', -> window.open "http://maps.google.com/maps?q=#{place.lat},#{place.lng}"
 
-		if action =='update' then return makeButton 'Update', n, -> # After Edit 
+		if action =='update' then return makeButton 'Update', n, 'center', -> # After Edit 
 			name = getField "name"
 			lat = getField "lat"
 			lng = getField "lng"
@@ -80,13 +80,13 @@ class Page
 				places.sort (a,b) -> if a.name > b.name then 1 else -1
 			pages.List.display()
 
-		if action =='del' then return makeButton 'Del', n, -> 
+		if action =='del' then return makeButton 'Del', n, 'center', -> 
 			places = places.filter (e) => e.name != place.name
 			pages.List.display()
 
-		if action =='cancel' then return makeButton 'Cancel', n, -> pages.Nav.display()
-		if action =='add'    then return makeButton 'Add',    n, -> pages.Add.display()
-		if action =='edit'   then return makeButton 'Edit',   n, -> pages.Edit.display()
+		if action =='cancel' then return makeButton 'Cancel', n, 'center', -> pages.Nav.display()
+		if action =='add'    then return makeButton 'Add',    n, 'center', -> pages.Add.display()
+		if action =='edit'   then return makeButton 'Edit',   n, 'center', -> pages.Edit.display()
 
 	makeElement : (element ) ->
 		if element == 'canvas' then showCanvas()
@@ -94,7 +94,7 @@ class Page
 		if element == 'list'
 			for p,i in places
 				do (i) =>
-					@addRow makeButton p.name, 1, => 
+					@addRow makeButton p.name, 1, 'left', => 
 						placeIndex = i
 						place = places[i]
 						pages.Nav.display()
