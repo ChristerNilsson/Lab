@@ -23,9 +23,9 @@ oldName = null
 
 class Page
 
-	constructor : (@actions, @elements) -> # @actions visas på samma rad
-		@actions = @actions.split ' '
+	constructor : (@elements, @actions) -> 
 		@elements = @elements.split ' '
+		@actions = @actions.split ' '
 		@table = document.getElementById "table"
 
 	display : ->
@@ -51,8 +51,7 @@ class Page
 		@table.appendChild tr
 
 	makeAction : (action,n) ->
-		# After Add
-		if action=='save' then return makeButton 'Save', n, -> 
+		if action=='save' then return makeButton 'Save', n, -> # After Add
 			name = getField "name"
 			lat = getField "lat"
 			lng = getField "lng"
@@ -68,8 +67,7 @@ class Page
 			lat = getField "lat"
 			lng = getField "lng"
 
-			# finns namnet redan?
-			if oldName == name
+			if oldName == name # finns namnet redan?
 				for p in places
 					if oldName == p.name
 						p.lat = lat
@@ -118,10 +116,10 @@ setup = ->
 	c.parent 'myContainer'	
 	hideCanvas()
 
-	pages.List = new Page 'add', 'list'
-	pages.Nav  = new Page 'listbutton map add edit del', 'canvas'
-	pages.Edit = new Page 'update cancel', 'formedit'
-	pages.Add  = new Page 'save cancel', 'formadd'
+	pages.List = new Page 'list', 'add' 
+	pages.Nav  = new Page 'canvas', 'listbutton map edit del'
+	pages.Edit = new Page 'formedit', 'update cancel'
+	pages.Add  = new Page 'formadd', 'save cancel'
 
 	pages.List.display()
 

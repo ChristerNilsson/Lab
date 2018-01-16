@@ -108,14 +108,13 @@ place = places[placeIndex];
 oldName = null;
 
 Page = function () {
-  function Page(actions, elements) {
+  function Page(elements, actions) {
     _classCallCheck(this, Page);
 
-    // @actions visas på samma rad
-    this.actions = actions;
     this.elements = elements;
-    this.actions = this.actions.split(' ');
+    this.actions = actions;
     this.elements = this.elements.split(' ');
+    this.actions = this.actions.split(' ');
     this.table = document.getElementById("table");
   }
 
@@ -154,9 +153,9 @@ Page = function () {
   }, {
     key: 'makeAction',
     value: function makeAction(action, n) {
-      // After Add
       if (action === 'save') {
         return makeButton('Save', n, function () {
+          // After Add
           var lat, lng, name;
           name = getField("name");
           lat = getField("lat");
@@ -193,8 +192,8 @@ Page = function () {
           name = getField("name");
           lat = getField("lat");
           lng = getField("lng");
-          // finns namnet redan?
           if (oldName === name) {
+            // finns namnet redan?
             for (j = 0, len = places.length; j < len; j++) {
               p = places[j];
               if (oldName === p.name) {
@@ -293,10 +292,10 @@ setup = function setup() {
   c = createCanvas(windowWidth, windowHeight);
   c.parent('myContainer');
   hideCanvas();
-  pages.List = new Page('add', 'list');
-  pages.Nav = new Page('listbutton map add edit del', 'canvas');
-  pages.Edit = new Page('update cancel', 'formedit');
-  pages.Add = new Page('save cancel', 'formadd');
+  pages.List = new Page('list', 'add');
+  pages.Nav = new Page('canvas', 'listbutton map edit del');
+  pages.Edit = new Page('formedit', 'update cancel');
+  pages.Add = new Page('formadd', 'save cancel');
   return pages.List.display();
 };
 
