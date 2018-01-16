@@ -20,7 +20,7 @@ makeInput = (title,value) ->
 
 makeButton = (title,n,f) ->
 	b = document.createElement 'input'
-	#b.style.width = "#{Math.floor(100/n)}%"
+	b.style.width = "#{Math.floor(100/n)}%"
 	b.type = 'button'
 	b.value = title
 	b.onclick = f
