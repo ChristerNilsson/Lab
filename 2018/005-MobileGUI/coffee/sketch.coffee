@@ -115,7 +115,7 @@ class Page
 			@addRow makeInput 'lng','18.123456'
 
 setup = ->
-	c = createCanvas windowWidth,windowHeight
+	c = createCanvas 200,200 #,windowWidth,windowHeight
 	c.parent 'myContainer'	
 	hideCanvas()
 

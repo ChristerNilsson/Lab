@@ -292,7 +292,7 @@ Page = function () {
 
 setup = function setup() {
   var c;
-  c = createCanvas(windowWidth, windowHeight);
+  c = createCanvas(200, 200); //,windowWidth,windowHeight
   c.parent('myContainer');
   hideCanvas();
   pages.List = new Page('', 'add', 'list');
