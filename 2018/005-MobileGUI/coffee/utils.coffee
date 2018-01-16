@@ -8,11 +8,14 @@ showCanvas = ->
 	elem = document.getElementById 'myContainer'
 	elem.style.display = 'block'
 
-makeInput = (title,value) ->
+makeInput = (title,value,readonly=false) ->
 	b = document.createElement 'input'
 	b.id = title
 	b.value = value
 	b.placeholder = title
+	if readonly then b.setAttribute "readonly", true
+	if title=='name' then b.autofocus = true
+	b.onclick = "this.setSelectionRange(0, this.value.length)"
 	b
 
 makeButton = (title,n,f) ->

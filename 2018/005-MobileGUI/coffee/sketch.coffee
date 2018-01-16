@@ -23,19 +23,20 @@ oldName = null
 
 class Page
 
-	constructor : (@actionCount, @init) -> 
+	constructor : (@init) -> 
 		@table = document.getElementById "table"
 		@actions = []
 
-	addAction : (title, f) -> @actions.push makeButton title, @actionCount, f
+	addAction : (title, f) -> @actions.push [title,f] 
 
 	display : ->
 		# actions
 		elem = document.getElementById 'myActions'
 		elem.innerHTML = ""
 		span = document.createElement "span"
-		for action in @actions
-			span.appendChild action
+		for [title,f] in @actions
+			span.appendChild makeButton title, @actions.length, f
+
 		elem.appendChild span
 
 		# init page
@@ -48,13 +49,10 @@ class Page
 		addCell tr,b
 		@table.appendChild tr
 
+storeData = -> localStorage["GPSCompass"] = JSON.stringify places	
 fetchData = ->
 	data = localStorage["GPSCompass"]
 	if data then places = JSON.parse data 
-	#console.log 'fetch',places 
-
-storeData = -> localStorage["GPSCompass"] = JSON.stringify places	
-	#console.log 'store',localStorage["GPSCompass"]
 
 setup = ->
 
@@ -64,30 +62,29 @@ setup = ->
 	c.parent 'myContainer'	
 	hideCanvas()
 
-	pages.List = new Page 1, ->
+	pages.List = new Page ->
 		for p,i in places
 			do (i) =>
-				b = makeButton p.name, @actionCount, => 
+				b = makeButton p.name, 1, => 
 					place = places[i]
 					pages.Nav.display()
 				b.style.textAlign = 'left' 
 				@addRow b		
 	pages.List.addAction 'Add', -> pages.Add.display()
 
-	pages.Nav = new Page 4, -> showCanvas()
+	pages.Nav = new Page -> showCanvas()
 	pages.Nav.addAction 'List', -> pages.List.display()
 	pages.Nav.addAction 'Map', -> window.open "http://maps.google.com/maps?q=#{place.lat},#{place.lng}"
 	pages.Nav.addAction 'Edit', -> pages.Edit.display()
-	pages.Nav.addAction 'Del', -> 
-		places = places.filter (e) => e.name != place.name
-		storeData()
-		pages.List.display()
+	pages.Nav.addAction 'Del', -> pages.Del.display()
 
-	pages.Edit = new Page 2, ->
+	pages.Edit = new Page ->
 		oldName = place.name
 		@addRow makeInput 'name',place.name
 		@addRow makeInput 'lat',place.lat
 		@addRow makeInput 'lng',place.lng
+		document.getElementById("name").focus()
+		document.getElementById("name").select()
 	pages.Edit.addAction 'Update', -> 
 		name = getField "name"
 		lat = parseFloat getField "lat"
@@ -106,20 +103,32 @@ setup = ->
 			pages.List.display()
 	pages.Edit.addAction 'Cancel', -> pages.List.display()
 
-	pages.Add  = new Page 2, ->
+	pages.Add = new Page ->
 		@addRow makeInput 'name','2018-01-15 12:34:56'
 		@addRow makeInput 'lat','59.123456'
 		@addRow makeInput 'lng','18.123456'
+		document.getElementById("name").focus()
+		document.getElementById("name").select()
 	pages.Add.addAction	'Save', -> 
 		name = getField "name"
-		lat = parseFloat(getField "lat")
-		lng = parseFloat(getField "lng")
+		lat = parseFloat getField "lat"
+		lng = parseFloat getField "lng"
 		if isNumeric(lat) and isNumeric(lng)
 			places.push {name:name, lat:lat, lng:lng}
 			places.sort (a,b) -> if a.name > b.name then 1 else -1
 			storeData()
 			pages.List.display()
 	pages.Add.addAction 'Cancel', -> pages.List.display()
+
+	pages.Del = new Page -> 
+		@addRow makeInput 'name',place.name,true
+		@addRow makeInput 'lat',place.lat,true
+		@addRow makeInput 'lng',place.lng,true
+	pages.Del.addAction 'Delete', -> 
+		places = places.filter (e) => e.name != place.name
+		storeData()
+		pages.List.display()
+	pages.Del.addAction 'Cancel', -> pages.Nav.display()
 
 	# startsida:
 	pages.List.display()

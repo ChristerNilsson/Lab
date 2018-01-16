@@ -20,11 +20,20 @@ showCanvas = function showCanvas() {
 };
 
 makeInput = function makeInput(title, value) {
+  var readonly = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
+
   var b;
   b = document.createElement('input');
   b.id = title;
   b.value = value;
   b.placeholder = title;
+  if (readonly) {
+    b.setAttribute("readonly", true);
+  }
+  if (title === 'name') {
+    b.autofocus = true;
+  }
+  b.onclick = "this.setSelectionRange(0, this.value.length)";
   return b;
 };
 

@@ -1,5 +1,7 @@
 'use strict';
 
+var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
+
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -107,10 +109,9 @@ place = null;
 oldName = null;
 
 Page = function () {
-  function Page(actionCount, init) {
+  function Page(init) {
     _classCallCheck(this, Page);
 
-    this.actionCount = actionCount;
     this.init = init;
     this.table = document.getElementById("table");
     this.actions = [];
@@ -119,20 +120,24 @@ Page = function () {
   _createClass(Page, [{
     key: 'addAction',
     value: function addAction(title, f) {
-      return this.actions.push(makeButton(title, this.actionCount, f));
+      return this.actions.push([title, f]);
     }
   }, {
     key: 'display',
     value: function display() {
-      var action, elem, j, len, ref, span;
+      var elem, f, j, len, ref, span, title;
       // actions
       elem = document.getElementById('myActions');
       elem.innerHTML = "";
       span = document.createElement("span");
       ref = this.actions;
       for (j = 0, len = ref.length; j < len; j++) {
-        action = ref[j];
-        span.appendChild(action);
+        var _ref$j = _slicedToArray(ref[j], 2);
+
+        title = _ref$j[0];
+        f = _ref$j[1];
+
+        span.appendChild(makeButton(title, this.actions.length, f));
       }
       elem.appendChild(span);
       // init page
@@ -153,6 +158,10 @@ Page = function () {
   return Page;
 }();
 
+storeData = function storeData() {
+  return localStorage["GPSCompass"] = JSON.stringify(places);
+};
+
 fetchData = function fetchData() {
   var data;
   data = localStorage["GPSCompass"];
@@ -161,19 +170,13 @@ fetchData = function fetchData() {
   }
 };
 
-//console.log 'fetch',places 
-storeData = function storeData() {
-  return localStorage["GPSCompass"] = JSON.stringify(places);
-};
-
-//console.log 'store',localStorage["GPSCompass"]
 setup = function setup() {
   var c;
   fetchData();
   c = createCanvas(windowWidth, windowHeight);
   c.parent('myContainer');
   hideCanvas();
-  pages.List = new Page(1, function () {
+  pages.List = new Page(function () {
     var _this = this;
 
     var i, j, len, p, results;
@@ -182,7 +185,7 @@ setup = function setup() {
       p = places[i];
       results.push(function (i) {
         var b;
-        b = makeButton(p.name, _this.actionCount, function () {
+        b = makeButton(p.name, 1, function () {
           place = places[i];
           return pages.Nav.display();
         });
@@ -195,7 +198,7 @@ setup = function setup() {
   pages.List.addAction('Add', function () {
     return pages.Add.display();
   });
-  pages.Nav = new Page(4, function () {
+  pages.Nav = new Page(function () {
     return showCanvas();
   });
   pages.Nav.addAction('List', function () {
@@ -208,17 +211,15 @@ setup = function setup() {
     return pages.Edit.display();
   });
   pages.Nav.addAction('Del', function () {
-    places = places.filter(function (e) {
-      return e.name !== place.name;
-    });
-    storeData();
-    return pages.List.display();
+    return pages.Del.display();
   });
-  pages.Edit = new Page(2, function () {
+  pages.Edit = new Page(function () {
     oldName = place.name;
     this.addRow(makeInput('name', place.name));
     this.addRow(makeInput('lat', place.lat));
-    return this.addRow(makeInput('lng', place.lng));
+    this.addRow(makeInput('lng', place.lng));
+    document.getElementById("name").focus();
+    return document.getElementById("name").select();
   });
   pages.Edit.addAction('Update', function () {
     var j, lat, len, lng, name, p;
@@ -259,10 +260,12 @@ setup = function setup() {
   pages.Edit.addAction('Cancel', function () {
     return pages.List.display();
   });
-  pages.Add = new Page(2, function () {
+  pages.Add = new Page(function () {
     this.addRow(makeInput('name', '2018-01-15 12:34:56'));
     this.addRow(makeInput('lat', '59.123456'));
-    return this.addRow(makeInput('lng', '18.123456'));
+    this.addRow(makeInput('lng', '18.123456'));
+    document.getElementById("name").focus();
+    return document.getElementById("name").select();
   });
   pages.Add.addAction('Save', function () {
     var lat, lng, name;
@@ -288,6 +291,21 @@ setup = function setup() {
   });
   pages.Add.addAction('Cancel', function () {
     return pages.List.display();
+  });
+  pages.Del = new Page(function () {
+    this.addRow(makeInput('name', place.name, true));
+    this.addRow(makeInput('lat', place.lat, true));
+    return this.addRow(makeInput('lng', place.lng, true));
+  });
+  pages.Del.addAction('Delete', function () {
+    places = places.filter(function (e) {
+      return e.name !== place.name;
+    });
+    storeData();
+    return pages.List.display();
+  });
+  pages.Del.addAction('Cancel', function () {
+    return pages.Nav.display();
   });
   // startsida:
   return pages.List.display();
