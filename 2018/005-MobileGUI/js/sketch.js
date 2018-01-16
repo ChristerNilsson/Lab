@@ -128,7 +128,7 @@ Page = function () {
       elem.innerHTML = "";
       div = document.createElement("span");
       span = document.createElement("span");
-      span.style = "font-size:150%";
+      span.style.fontSize = "150%";
       span.innerHTML = this.title;
       div.appendChild(span);
       ref = this.actions;
