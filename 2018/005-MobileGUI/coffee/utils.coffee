@@ -18,13 +18,12 @@ makeInput = (title,value) ->
 	b.placeholder = title
 	b
 
-makeButton = (title,n,align,f) ->
+makeButton = (title,n,f) ->
 	b = document.createElement 'input'
 	b.style.width = "#{Math.floor(100/n)}%"
 	b.style.fontSize = "75%"
 	b.style.webkitAppearance = "none"
-	b.style.textAlign = align 
-	b.borderRadius = 0
+	b.style.borderRadius = 0
 	b.type = 'button'
 	b.value = title
 	b.onclick = f

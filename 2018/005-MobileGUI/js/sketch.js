@@ -177,17 +177,17 @@ Page = function () {
         });
       }
       if (action === 'listbutton') {
-        return makeButton('List', n, 'center', function () {
+        return makeButton('List', n, function () {
           return pages.List.display();
         });
       }
       if (action === 'map') {
-        return makeButton('Map', n, 'center', function () {
+        return makeButton('Map', n, function () {
           return window.open('http://maps.google.com/maps?q=' + place.lat + ',' + place.lng);
         });
       }
       if (action === 'update') {
-        return makeButton('Update', n, 'center', function () {
+        return makeButton('Update', n, function () {
           // After Edit 
           var j, lat, len, lng, name, p;
           name = getField("name");
@@ -223,7 +223,7 @@ Page = function () {
         });
       }
       if (action === 'del') {
-        return makeButton('Del', n, 'center', function () {
+        return makeButton('Del', n, function () {
           places = places.filter(function (e) {
             return e.name !== place.name;
           });
@@ -231,17 +231,17 @@ Page = function () {
         });
       }
       if (action === 'cancel') {
-        return makeButton('Cancel', n, 'center', function () {
+        return makeButton('Cancel', n, function () {
           return pages.Nav.display();
         });
       }
       if (action === 'add') {
-        return makeButton('Add', n, 'center', function () {
+        return makeButton('Add', n, function () {
           return pages.Add.display();
         });
       }
       if (action === 'edit') {
-        return makeButton('Edit', n, 'center', function () {
+        return makeButton('Edit', n, function () {
           return pages.Edit.display();
         });
       }
@@ -257,11 +257,14 @@ Page = function () {
       }
       if (element === 'list') {
         fn = function fn(i) {
-          return _this.addRow(makeButton(p.name, 1, 'left', function () {
+          var b;
+          b = makeButton(p.name, 1, function () {
             placeIndex = i;
             place = places[i];
             return pages.Nav.display();
-          }));
+          });
+          b.style.textAlign = 'left';
+          return _this.addRow(b);
         };
         for (i = j = 0, len = places.length; j < len; i = ++j) {
           p = places[i];
