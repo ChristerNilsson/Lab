@@ -14,7 +14,7 @@ showCanvas = ->
 makeInput = (title,value) ->
 	b = document.createElement 'input'
 	b.id = title
-	b.value = value 
+	b.value = value
 	b.placeholder = title
 	b
 
@@ -22,6 +22,7 @@ makeButton = (title,n,f) ->
 	b = document.createElement 'input'
 	b.style.width = "#{Math.floor(100/n)}%"
 	b.style.fontSize = "100%"
+	b.style.webkitAppearance = "none"
 	b.type = 'button'
 	b.value = title
 	b.onclick = f
