@@ -1,10 +1,20 @@
 places = []
-places.push {name:'Bron S Söderbysjön',lat:59.279155, lng:18.149318}
-places.push {name:'Golfklubben',       lat:59.284052, lng:18.145925}
-places.push {name:'Sushi Bagarmossen', lat:59.277560, lng:18.132739}
-places.push {name:'Hem',               lat:59.265205, lng:18.132735}
-places.push {name:'Hellasgården',      lat:59.289813, lng:18.160577}
-places.push {name:'Ulvsjön, Udden',    lat:59.277103, lng:18.164897}
+places.push {name:'Bagarmossen Sushi',     lat:59.277560, lng:18.132739}
+places.push {name:'Bagarmossen T',         lat:59.276264, lng:18.131465}
+places.push {name:'Björkhagens Golfklubb', lat:59.284052, lng:18.145925}
+places.push {name:'Björkhagen T',          lat:59.291114, lng:18.115521}
+places.push {name:'Brotorpsbron',					 lat:59.270067, lng:18.150236}
+places.push {name:'Brotorpsstugan'         lat:59.270542, lng:18.148473}
+places.push {name:'Kärrtorp T',            lat:59.284505, lng:18.114477}
+places.push {name:'Hellasgården',          lat:59.289813, lng:18.160577}
+places.push {name:'Hem',                   lat:59.265205, lng:18.132735}
+places.push {name:'Parkeringsgran',        lat:59.274916, lng:18.161353}
+places.push {name:'Pers badställe',        lat:59.289571, lng:18.170767}
+places.push {name:'Skarpnäck T',           lat:59.266432, lng:18.133093}
+places.push {name:'Söderbysjön N Bron',    lat:59.285500, lng:18.150542}
+places.push {name:'Söderbysjön S Bron',    lat:59.279155, lng:18.149318}
+places.push {name:'Ulvsjön, Udden',        lat:59.277103, lng:18.164897}
+
 placeIndex = 0
 place = places[placeIndex]
 
@@ -62,13 +72,15 @@ calcDelta = (delta) ->
 	if delta > +180 then delta -= 360
 	delta
 
+# Visa avvikelsen med färgton. Vid 90 grader blir det svart
 calcColor = (delta) ->
 	white = color 255,255,255
 	red   = color 255,0,0
 	green = color 0,255,0
-	if abs(delta) > 90 then color(0,0,0).levels
-	else if delta < 0 then lerpColor(white, red, -delta/90).levels
-	else lerpColor(white, green, delta/90).levels
+	if abs(delta) > 90 then res = color 0,0,0
+	else if delta < 0 then res = lerpColor white, red, -delta/90
+	else res = lerpColor white, green, delta/90
+	res.levels
 
 setup = ->
 	createCanvas windowWidth,windowHeight
@@ -109,8 +121,8 @@ drawHouse = (radius) ->
 	dx = 0.02 * w
 	sc 0
 	sw 1
-	for i in range -6,7
-		line i*2*dx,-1.1*radius,i*2*dx,1.1*radius
+	for i in range -3,4
+		line i*4*dx,-1.1*radius,i*4*dx,1.1*radius
 
 	sc 1
 	sw 5
@@ -159,6 +171,7 @@ drawCompass = ->
 	textSize 0.08*h
 	fc 1
 	sc()
+	textAlign CENTER
 	text texts[10],0,-2*radius
 	text texts[8],0,-1.6*radius
 	drawNeedle radius
@@ -175,8 +188,8 @@ drawTexts = ->
 		if i%2==0 then textAlign LEFT else textAlign RIGHT
 		y = d*Math.floor i/2
 		if i not in [8,9,10,11] then text t,x,2*d+y
-	textAlign CENTER
-	text place.name,w/2,d
+	textAlign LEFT
+	text placeIndex + ' ' + place.name,0,d
 
 draw = ->
 	bg 0

@@ -30,21 +30,26 @@ var bearing,
 places = [];
 
 places.push({
-  name: 'Bron S Söderbysjön',
-  lat: 59.279155,
-  lng: 18.149318
+  name: 'Bagarmossen Sushi',
+  lat: 59.277560,
+  lng: 18.132739
 });
 
+// Bagarmossen T
 places.push({
-  name: 'Golfklubben',
+  name: 'Björkhagens Golfklubb',
   lat: 59.284052,
   lng: 18.145925
 });
 
+// Björkhagen T
+// Brotorpsbron
+// Brotorpsstugan
+// Kärrtorp T
 places.push({
-  name: 'Sushi Bagarmossen',
-  lat: 59.277560,
-  lng: 18.132739
+  name: 'Hellasgården',
+  lat: 59.289813,
+  lng: 18.160577
 });
 
 places.push({
@@ -54,9 +59,18 @@ places.push({
 });
 
 places.push({
-  name: 'Hellasgården',
-  lat: 59.289813,
-  lng: 18.160577
+  name: 'Parkeringsgran',
+  lat: 59.274916,
+  lng: 18.161353
+});
+
+// Pers badställe
+// Skarpnäck T
+// Söderbysjön N Bron
+places.push({
+  name: 'Söderbysjön S Bron',
+  lat: 59.279155,
+  lng: 18.149318
 });
 
 places.push({
@@ -136,18 +150,20 @@ calcDelta = function calcDelta(delta) {
   return delta;
 };
 
+// Visa avvikelsen med färgton. Vid 90 grader blir det svart
 calcColor = function calcColor(delta) {
-  var green, red, white;
+  var green, red, res, white;
   white = color(255, 255, 255);
   red = color(255, 0, 0);
   green = color(0, 255, 0);
   if (abs(delta) > 90) {
-    return color(0, 0, 0).levels;
+    res = color(0, 0, 0);
   } else if (delta < 0) {
-    return lerpColor(white, red, -delta / 90).levels;
+    res = lerpColor(white, red, -delta / 90);
   } else {
-    return lerpColor(white, green, delta / 90).levels;
+    res = lerpColor(white, green, delta / 90);
   }
+  return res.levels;
 };
 
 setup = function setup() {
@@ -191,10 +207,10 @@ drawHouse = function drawHouse(radius) {
   dx = 0.02 * w;
   sc(0);
   sw(1);
-  ref1 = range(-6, 7);
+  ref1 = range(-3, 4);
   for (k = 0, len1 = ref1.length; k < len1; k++) {
     i = ref1[k];
-    line(i * 2 * dx, -1.1 * radius, i * 2 * dx, 1.1 * radius);
+    line(i * 4 * dx, -1.1 * radius, i * 4 * dx, 1.1 * radius);
   }
   sc(1);
   sw(5);
@@ -242,6 +258,7 @@ drawCompass = function drawCompass() {
   textSize(0.08 * h);
   fc(1);
   sc();
+  textAlign(CENTER);
   text(texts[10], 0, -2 * radius);
   text(texts[8], 0, -1.6 * radius);
   drawNeedle(radius);
@@ -268,8 +285,8 @@ drawTexts = function drawTexts() {
       text(t, x, 2 * d + y);
     }
   }
-  textAlign(CENTER);
-  return text(place.name, w / 2, d);
+  textAlign(LEFT);
+  return text(placeIndex + ' ' + place.name, 0, d);
 };
 
 draw = function draw() {
