@@ -1,3 +1,5 @@
+isNumeric = (val) -> val == Number parseFloat val
+
 hideCanvas = ->
 	elem = document.getElementById 'myContainer'
 	elem.style.display = 'none'		

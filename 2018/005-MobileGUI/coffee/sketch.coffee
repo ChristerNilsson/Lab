@@ -1,3 +1,5 @@
+# https://stackoverflow.com/questions/2010892/storing-objects-in-html5-localstorage
+
 places = []
 places.push {name:'Bagarmossen Sushi',     lat:59.277560, lng:18.132739}
 places.push {name:'Bagarmossen T',         lat:59.276264, lng:18.131465}
@@ -16,7 +18,7 @@ places.push {name:'Söderbysjön S Bron',    lat:59.279155, lng:18.149318}
 places.push {name:'Ulvsjön, Udden',        lat:59.277103, lng:18.164897}
 
 pages = {}
-place = places[0]
+place = null
 oldName = null
 
 class Page
@@ -46,7 +48,18 @@ class Page
 		addCell tr,b
 		@table.appendChild tr
 
+fetchData = ->
+	data = localStorage["GPSCompass"]
+	if data then places = JSON.parse data 
+	#console.log 'fetch',places 
+
+storeData = -> localStorage["GPSCompass"] = JSON.stringify places	
+	#console.log 'store',localStorage["GPSCompass"]
+
 setup = ->
+
+	fetchData()
+
 	c = createCanvas windowWidth,windowHeight
 	c.parent 'myContainer'	
 	hideCanvas()
@@ -67,6 +80,7 @@ setup = ->
 	pages.Nav.addAction 'Edit', -> pages.Edit.display()
 	pages.Nav.addAction 'Del', -> 
 		places = places.filter (e) => e.name != place.name
+		storeData()
 		pages.List.display()
 
 	pages.Edit = new Page 2, ->
@@ -76,19 +90,21 @@ setup = ->
 		@addRow makeInput 'lng',place.lng
 	pages.Edit.addAction 'Update', -> 
 		name = getField "name"
-		lat = getField "lat"
-		lng = getField "lng"
-		if oldName == name # finns namnet redan?
-			for p in places
-				if oldName == p.name
-					p.lat = lat
-					p.lng = lng
-		else
-			places = places.filter (e) => e.name != oldName
-			places.push {name:name,lat:lat,lng:lng}
-			places.sort (a,b) -> if a.name > b.name then 1 else -1
-		pages.List.display()
-	pages.Edit.addAction 'Cancel', -> pages.Nav.display()
+		lat = parseFloat getField "lat"
+		lng = parseFloat getField "lng"
+		if isNumeric(lat) and isNumeric(lng)
+			if oldName == name # finns namnet redan?
+				for p in places
+					if oldName == p.name
+						p.lat = lat
+						p.lng = lng
+			else
+				places = places.filter (e) => e.name != oldName
+				places.push {name:name,lat:lat,lng:lng}
+				places.sort (a,b) -> if a.name > b.name then 1 else -1
+			storeData()
+			pages.List.display()
+	pages.Edit.addAction 'Cancel', -> pages.List.display()
 
 	pages.Add  = new Page 2, ->
 		@addRow makeInput 'name','2018-01-15 12:34:56'
@@ -96,16 +112,18 @@ setup = ->
 		@addRow makeInput 'lng','18.123456'
 	pages.Add.addAction	'Save', -> 
 		name = getField "name"
-		lat = getField "lat"
-		lng = getField "lng"
-		places.push {name:name, lat:lat, lng:lng}
-		places.sort (a,b) -> if a.name > b.name then 1 else -1
-		pages.List.display()
-	pages.Add.addAction 'Cancel', -> pages.Nav.display()
+		lat = parseFloat(getField "lat")
+		lng = parseFloat(getField "lng")
+		if isNumeric(lat) and isNumeric(lng)
+			places.push {name:name, lat:lat, lng:lng}
+			places.sort (a,b) -> if a.name > b.name then 1 else -1
+			storeData()
+			pages.List.display()
+	pages.Add.addAction 'Cancel', -> pages.List.display()
 
 	# startsida:
 	pages.List.display()
 
 draw = ->
 	bg 0.5
-	text place.name,100,100
+	if place then	text place.name,100,100
