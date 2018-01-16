@@ -34,6 +34,7 @@ class Page
 
 		div = document.createElement "span"
 		span = document.createElement "span"
+		span.style = "font-size:150%"
 		span.innerHTML = @title
 		div.appendChild span 
 		for action in @actions
