@@ -134,7 +134,7 @@ Page = function () {
       ref = this.actions;
       for (j = 0, len = ref.length; j < len; j++) {
         action = ref[j];
-        div.appendChild(this.makeAction(action));
+        div.appendChild(this.makeAction(action, this.actions.length));
       }
       elem.appendChild(div);
       hideCanvas();
@@ -158,10 +158,10 @@ Page = function () {
     }
   }, {
     key: 'makeAction',
-    value: function makeAction(action) {
+    value: function makeAction(action, n) {
       // After Add
       if (action === 'save') {
-        return makeButton('Save', function () {
+        return makeButton('Save', n, function () {
           var lat, lng, name;
           name = getField("name");
           lat = getField("lat");
@@ -182,17 +182,17 @@ Page = function () {
         });
       }
       if (action === 'listbutton') {
-        return makeButton('List', function () {
+        return makeButton('List', n, function () {
           return pages.List.display();
         });
       }
       if (action === 'map') {
-        return makeButton('Map', function () {
+        return makeButton('Map', n, function () {
           return window.open('http://maps.google.com/maps?q=' + place.lat + ',' + place.lng);
         });
       }
       if (action === 'update') {
-        return makeButton('Update', function () {
+        return makeButton('Update', n, function () {
           // After Edit 
           var j, lat, len, lng, name, p;
           name = getField("name");
@@ -228,7 +228,7 @@ Page = function () {
         });
       }
       if (action === 'delete') {
-        return makeButton('Delete', function () {
+        return makeButton('Delete', n, function () {
           places = places.filter(function (e) {
             return e.name !== place.name;
           });
@@ -236,17 +236,17 @@ Page = function () {
         });
       }
       if (action === 'cancel') {
-        return makeButton('Cancel', function () {
+        return makeButton('Cancel', n, function () {
           return pages.Nav.display();
         });
       }
       if (action === 'add') {
-        return makeButton('Add', function () {
+        return makeButton('Add', n, function () {
           return pages.Add.display();
         });
       }
       if (action === 'edit') {
-        return makeButton('Edit', function () {
+        return makeButton('Edit', n, function () {
           return pages.Edit.display();
         });
       }
@@ -262,7 +262,7 @@ Page = function () {
       }
       if (element === 'list') {
         fn = function fn(i) {
-          return _this.addRow(makeButton(p.name, function () {
+          return _this.addRow(makeButton(p.name, 1, function () {
             placeIndex = i;
             place = places[i];
             return pages.Nav.display();
@@ -295,10 +295,10 @@ setup = function setup() {
   c = createCanvas(windowWidth, windowHeight);
   c.parent('myContainer');
   hideCanvas();
-  pages.List = new Page('List ', 'add', 'list');
+  pages.List = new Page('', 'add', 'list');
   pages.Nav = new Page('', 'listbutton map add edit delete', 'canvas');
-  pages.Edit = new Page('Edit ', 'update cancel', 'formedit');
-  pages.Add = new Page('Add ', 'save cancel', 'formadd');
+  pages.Edit = new Page('', 'update cancel', 'formedit');
+  pages.Add = new Page('', 'save cancel', 'formadd');
   return pages.List.display();
 };
 

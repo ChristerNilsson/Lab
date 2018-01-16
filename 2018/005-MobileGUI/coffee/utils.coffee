@@ -18,9 +18,9 @@ makeInput = (title,value) ->
 	b.placeholder = title
 	b
 
-makeButton = (title,f) ->
+makeButton = (title,n,f) ->
 	b = document.createElement 'input'
-	b.style.width = "20%"
+	b.style.width = "#{Math.floor(100/n)}%"
 	b.type = 'button'
 	b.value = title
 	b.onclick = f

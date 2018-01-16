@@ -38,7 +38,7 @@ class Page
 		span.innerHTML = @title
 		div.appendChild span 
 		for action in @actions
-			div.appendChild @makeAction action
+			div.appendChild @makeAction action,@actions.length
 		elem.appendChild div
 
 		hideCanvas()
@@ -54,9 +54,9 @@ class Page
 		addCell tr,b
 		@table.appendChild tr
 
-	makeAction : (action) ->
+	makeAction : (action,n) ->
 		# After Add
-		if action=='save' then return makeButton 'Save', -> 
+		if action=='save' then return makeButton 'Save', n, -> 
 			name = getField "name"
 			lat = getField "lat"
 			lng = getField "lng"
@@ -64,10 +64,10 @@ class Page
 			places.sort (a,b) -> if a.name > b.name then 1 else -1
 			pages.List.display()
 
-		if action =='listbutton' then return makeButton 'List', -> pages.List.display()
-		if action =='map' then return makeButton 'Map', -> window.open "http://maps.google.com/maps?q=#{place.lat},#{place.lng}"
+		if action =='listbutton' then return makeButton 'List', n, -> pages.List.display()
+		if action =='map' then return makeButton 'Map', n, -> window.open "http://maps.google.com/maps?q=#{place.lat},#{place.lng}"
 
-		if action =='update' then return makeButton 'Update', -> # After Edit 
+		if action =='update' then return makeButton 'Update', n, -> # After Edit 
 			name = getField "name"
 			lat = getField "lat"
 			lng = getField "lng"
@@ -84,13 +84,13 @@ class Page
 				places.sort (a,b) -> if a.name > b.name then 1 else -1
 			pages.List.display()
 
-		if action =='delete' then return makeButton 'Delete', -> 
+		if action =='delete' then return makeButton 'Delete', n, -> 
 			places = places.filter (e) => e.name != place.name
 			pages.List.display()
 
-		if action =='cancel' then return makeButton 'Cancel', -> pages.Nav.display()
-		if action =='add'    then return makeButton 'Add',    -> pages.Add.display()
-		if action =='edit'   then return makeButton 'Edit',   -> pages.Edit.display()
+		if action =='cancel' then return makeButton 'Cancel', n, -> pages.Nav.display()
+		if action =='add'    then return makeButton 'Add',    n, -> pages.Add.display()
+		if action =='edit'   then return makeButton 'Edit',   n, -> pages.Edit.display()
 
 	makeElement : (element ) ->
 		if element == 'canvas' then showCanvas()
@@ -98,7 +98,7 @@ class Page
 		if element == 'list'
 			for p,i in places
 				do (i) =>
-					@addRow makeButton p.name, => 
+					@addRow makeButton p.name, 1, => 
 						placeIndex = i
 						place = places[i]
 						pages.Nav.display()
@@ -119,10 +119,10 @@ setup = ->
 	c.parent 'myContainer'	
 	hideCanvas()
 
-	pages.List = new Page 'List ', 'add', 'list'
+	pages.List = new Page '', 'add', 'list'
 	pages.Nav  = new Page '',  'listbutton map add edit delete', 'canvas'
-	pages.Edit = new Page 'Edit ', 'update cancel', 'formedit'
-	pages.Add  = new Page 'Add ',  'save cancel', 'formadd'
+	pages.Edit = new Page '', 'update cancel', 'formedit'
+	pages.Add  = new Page '',  'save cancel', 'formadd'
 
 	pages.List.display()
 
