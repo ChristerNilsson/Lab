@@ -30,15 +30,20 @@ class Page
 
 	display : ->
 		elem = document.getElementById 'myTitle'
-		elem.innerHTML = @title + if @title =='Nav' then ': ' + place.name else ""
+		elem.innerHTML = ""
+
+		div = document.createElement "span"
+		span = document.createElement "span"
+		span.innerHTML = @title + ' '
+		div.appendChild span 
+		for action in @actions
+			div.appendChild @makeAction action
+		elem.appendChild div
 
 		hideCanvas()
 
 		# rensa body
 		@table.innerHTML = ""
-
-		for action in @actions
-			@makeAction action
 
 		for element in @elements
 			@makeElement element
@@ -50,7 +55,7 @@ class Page
 
 	makeAction : (action) ->
 		# After Add
-		if action=='save' then @addRow makeButton 'Save', -> 
+		if action=='save' then return makeButton 'Save', -> 
 			name = getField "name"
 			lat = getField "lat"
 			lng = getField "lng"
@@ -58,10 +63,10 @@ class Page
 			places.sort (a,b) -> if a.name > b.name then 1 else -1
 			pages.List.display()
 
-		if action =='listbutton' then @addRow makeButton 'List', -> pages.List.display()
-		if action =='map' then @addRow makeButton 'Map', -> window.open "http://maps.google.com/maps?q=#{place.lat},#{place.lng}"
+		if action =='listbutton' then return makeButton 'List', -> pages.List.display()
+		if action =='map' then return makeButton 'Map', -> window.open "http://maps.google.com/maps?q=#{place.lat},#{place.lng}"
 
-		if action =='update' then @addRow makeButton 'Update', -> # After Edit 
+		if action =='update' then return makeButton 'Update', -> # After Edit 
 			name = getField "name"
 			lat = getField "lat"
 			lng = getField "lng"
@@ -78,13 +83,13 @@ class Page
 				places.sort (a,b) -> if a.name > b.name then 1 else -1
 			pages.List.display()
 
-		if action =='delete' then @addRow makeButton 'Delete', -> 
+		if action =='delete' then return makeButton 'Delete', -> 
 			places = places.filter (e) => e.name != place.name
 			pages.List.display()
 
-		if action =='cancel' then @addRow makeButton 'Cancel', -> pages.Nav.display()
-		if action =='add'    then @addRow makeButton 'Add',    -> pages.Add.display()
-		if action =='edit'   then @addRow makeButton 'Edit',   -> pages.Edit.display()
+		if action =='cancel' then return makeButton 'Cancel', -> pages.Nav.display()
+		if action =='add'    then return makeButton 'Add',    -> pages.Add.display()
+		if action =='edit'   then return makeButton 'Edit',   -> pages.Edit.display()
 
 	makeElement : (element ) ->
 		if element == 'canvas' then showCanvas()

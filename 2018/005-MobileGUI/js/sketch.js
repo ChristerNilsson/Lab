@@ -123,17 +123,22 @@ Page = function () {
   _createClass(Page, [{
     key: 'display',
     value: function display() {
-      var action, elem, element, j, k, len, len1, ref, ref1, results;
+      var action, div, elem, element, j, k, len, len1, ref, ref1, results, span;
       elem = document.getElementById('myTitle');
-      elem.innerHTML = this.title + (this.title === 'Nav' ? ': ' + place.name : "");
-      hideCanvas();
-      // rensa body
-      this.table.innerHTML = "";
+      elem.innerHTML = "";
+      div = document.createElement("span");
+      span = document.createElement("span");
+      span.innerHTML = this.title + ' ';
+      div.appendChild(span);
       ref = this.actions;
       for (j = 0, len = ref.length; j < len; j++) {
         action = ref[j];
-        this.makeAction(action);
+        div.appendChild(this.makeAction(action));
       }
+      elem.appendChild(div);
+      hideCanvas();
+      // rensa body
+      this.table.innerHTML = "";
       ref1 = this.elements;
       results = [];
       for (k = 0, len1 = ref1.length; k < len1; k++) {
@@ -155,7 +160,7 @@ Page = function () {
     value: function makeAction(action) {
       // After Add
       if (action === 'save') {
-        this.addRow(makeButton('Save', function () {
+        return makeButton('Save', function () {
           var lat, lng, name;
           name = getField("name");
           lat = getField("lat");
@@ -173,20 +178,20 @@ Page = function () {
             }
           });
           return pages.List.display();
-        }));
+        });
       }
       if (action === 'listbutton') {
-        this.addRow(makeButton('List', function () {
+        return makeButton('List', function () {
           return pages.List.display();
-        }));
+        });
       }
       if (action === 'map') {
-        this.addRow(makeButton('Map', function () {
+        return makeButton('Map', function () {
           return window.open('http://maps.google.com/maps?q=' + place.lat + ',' + place.lng);
-        }));
+        });
       }
       if (action === 'update') {
-        this.addRow(makeButton('Update', function () {
+        return makeButton('Update', function () {
           // After Edit 
           var j, lat, len, lng, name, p;
           name = getField("name");
@@ -219,30 +224,30 @@ Page = function () {
             });
           }
           return pages.List.display();
-        }));
+        });
       }
       if (action === 'delete') {
-        this.addRow(makeButton('Delete', function () {
+        return makeButton('Delete', function () {
           places = places.filter(function (e) {
             return e.name !== place.name;
           });
           return pages.List.display();
-        }));
+        });
       }
       if (action === 'cancel') {
-        this.addRow(makeButton('Cancel', function () {
+        return makeButton('Cancel', function () {
           return pages.Nav.display();
-        }));
+        });
       }
       if (action === 'add') {
-        this.addRow(makeButton('Add', function () {
+        return makeButton('Add', function () {
           return pages.Add.display();
-        }));
+        });
       }
       if (action === 'edit') {
-        return this.addRow(makeButton('Edit', function () {
+        return makeButton('Edit', function () {
           return pages.Edit.display();
-        }));
+        });
       }
     }
   }, {
