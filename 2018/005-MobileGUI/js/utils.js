@@ -32,7 +32,7 @@ makeButton = function makeButton(title, n, f) {
   var b;
   b = document.createElement('input');
   b.style.width = Math.floor(100 / n) + '%';
-  b.style.fontSize = "125%";
+  //b.style.fontSize = "125%"
   b.type = 'button';
   b.value = title;
   b.onclick = f;
