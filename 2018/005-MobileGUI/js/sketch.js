@@ -273,14 +273,12 @@ Page = function () {
         }
       }
       if (element === 'formedit') {
-        // Edit
         oldName = place.name;
         this.addRow(makeInput('name', place.name));
         this.addRow(makeInput('lat', place.lat));
         this.addRow(makeInput('lng', place.lng));
       }
       if (element === 'formadd') {
-        // Add
         this.addRow(makeInput('name', '2018-01-15 12:34:56'));
         this.addRow(makeInput('lat', '59.123456'));
         return this.addRow(makeInput('lng', '18.123456'));

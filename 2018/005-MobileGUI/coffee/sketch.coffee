@@ -102,13 +102,13 @@ class Page
 						place = places[i]
 						pages.Nav.display()
 	
-		if element == 'formedit' # Edit
+		if element == 'formedit' 
 			oldName = place.name
 			@addRow makeInput 'name',place.name
 			@addRow makeInput 'lat',place.lat
 			@addRow makeInput 'lng',place.lng
 
-		if element == 'formadd' # Add
+		if element == 'formadd' 
 			@addRow makeInput 'name','2018-01-15 12:34:56'
 			@addRow makeInput 'lat','59.123456'
 			@addRow makeInput 'lng','18.123456'

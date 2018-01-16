@@ -6,15 +6,16 @@ showCanvas = ->
 	elem = document.getElementById 'myContainer'
 	elem.style.display = 'block'
 
-makeDiv = (title) ->
-	b = document.createElement 'div'
-	b.innerHTML = title
-	b
+# makeDiv = (title) ->
+# 	b = document.createElement 'div'
+# 	b.innerHTML = title
+# 	b
 
 makeInput = (title,value) ->
 	b = document.createElement 'input'
 	b.id = title
 	b.value = value 
+	b.placeholder = title
 	b
 
 makeButton = (title,f) ->
