@@ -15,137 +15,110 @@ places.push {name:'Söderbysjön N Bron',    lat:59.285500, lng:18.150542}
 places.push {name:'Söderbysjön S Bron',    lat:59.279155, lng:18.149318}
 places.push {name:'Ulvsjön, Udden',        lat:59.277103, lng:18.164897}
 
-pages = []
+pages = {}
+
 placeIndex = 0
 place = places[placeIndex]
 oldName = null
-name = null
-latitude = null
-longitude = null
-
-makeCanvas = ->
-	elem = document.getElementById 'myContainer'
-	elem.style.display = 'block'
-
-makeDiv = (title) ->
-	b = document.createElement 'div'
-	b.innerHTML = title
-	b
-
-makeInput = (title,value) ->
-	b = document.createElement 'input'
-	b.id = title
-	b.value = value 
-	b
-
-makeButton = (title,f) ->
-	b = document.createElement 'input'
-	b.type = 'button'
-	b.value = title
-	b.onclick = f
-	b
-
-addCell = (tr,value) ->
-	td = document.createElement "td"
-	td.appendChild value
-	tr.appendChild td
-
-getField = (name) ->
-	element = document.getElementById(name)
-	if element then element.value else null
 
 class Page
 
-	constructor : (@title, @elements) ->
+	constructor : (@title, @actions, @elements) -> # @actions visas på samma rad
+		@actions = @actions.split ' '
+		@elements = @elements.split ' '
 		@table = document.getElementById "table"
 
 	display : ->
 		elem = document.getElementById 'myTitle'
 		elem.innerHTML = @title + if @title =='Nav' then ': ' + place.name else ""
 
-		elem = document.getElementById 'myContainer'
-		elem.style.display = 'none'		
+		hideCanvas()
 
 		# rensa body
 		@table.innerHTML = ""
 
+		for action in @actions
+			@makeAction action
+
 		for element in @elements
 			@makeElement element
 				
-	handleRow : (b) ->
+	addRow : (b) ->
 		tr = document.createElement "tr"
 		addCell tr,b
 		@table.appendChild tr
 
-	makeElement : (nr) ->
+	makeAction : (action) ->
 		# After Add
-		if nr==2 then @handleRow makeButton 'Save', -> 
+		if action=='save' then @addRow makeButton 'Save', -> 
 			name = getField "name"
-			latitude = getField "latitude"
-			longitude = getField "longitude"
-			places.push {name:name,lat:latitude,lng:longitude}
+			lat = getField "lat"
+			lng = getField "lng"
+			places.push {name:name, lat:lat, lng:lng}
 			places.sort (a,b) -> if a.name > b.name then 1 else -1
-			pages[0].display()
-	
-		if nr==3 # Edit
-			oldName = place.name
-			@handleRow makeInput 'name',place.name
-			@handleRow makeInput 'latitude',place.lat
-			@handleRow makeInput 'longitude',place.lng
+			pages.List.display()
 
-		if nr==4 # Add
-			@handleRow makeInput 'name','2018-01-15 12:34:56'
-			@handleRow makeInput 'latitude','59.123456'
-			@handleRow makeInput 'longitude','18.123456'
+		if action =='listbutton' then @addRow makeButton 'List', -> pages.List.display()
+		if action =='map' then @addRow makeButton 'Map', -> window.open "http://maps.google.com/maps?q=#{place.lat},#{place.lng}"
 
-		if nr==5 then @handleRow makeButton 'List', -> pages[0].display()
-		if nr==6 then @handleRow makeButton 'Map', -> window.open "http://maps.google.com/maps?q=#{place.lat},#{place.lng}"
-
-		if nr==7 then @handleRow makeButton 'Update', -> # After Edit 
+		if action =='update' then @addRow makeButton 'Update', -> # After Edit 
 			name = getField "name"
-			latitude = getField "latitude"
-			longitude = getField "longitude"
+			lat = getField "lat"
+			lng = getField "lng"
 
 			# finns namnet redan?
 			if oldName == name
 				for p in places
 					if oldName == p.name
-						p.lat = latitude
-						p.lng = longitude
+						p.lat = lat
+						p.lng = lng
 			else
 				places = places.filter (e) => e.name != oldName
-				places.push {name:name,lat:latitude,lng:longitude}
+				places.push {name:name,lat:lat,lng:lng}
 				places.sort (a,b) -> if a.name > b.name then 1 else -1
-			pages[0].display()
+			pages.List.display()
 
-		if nr==8 then @handleRow makeButton 'Delete', -> 
+		if action =='delete' then @addRow makeButton 'Delete', -> 
 			places = places.filter (e) => e.name != place.name
-			pages[0].display()
+			pages.List.display()
 
-		if nr==9 then @handleRow makeButton 'Cancel', -> pages[1].display()
-		if nr==10 then @handleRow makeButton 'Add', -> pages[3].display()
-		if nr==11 then @handleRow makeButton 'Edit', -> pages[2].display()
-		if nr==12 then makeCanvas()
+		if action =='cancel' then @addRow makeButton 'Cancel', -> pages.Nav.display()
+		if action =='add'    then @addRow makeButton 'Add',    -> pages.Add.display()
+		if action =='edit'   then @addRow makeButton 'Edit',   -> pages.Edit.display()
 
-		if nr==13
+	makeElement : (element ) ->
+		if element == 'canvas' then showCanvas()
+
+		if element == 'list'
 			for p,i in places
 				do (i) =>
-					@handleRow makeButton p.name, => 
+					@addRow makeButton p.name, => 
 						placeIndex = i
 						place = places[i]
-						pages[1].display()
+						pages.Nav.display()
+	
+		if element == 'formedit' # Edit
+			oldName = place.name
+			@addRow makeInput 'name',place.name
+			@addRow makeInput 'lat',place.lat
+			@addRow makeInput 'lng',place.lng
+
+		if element == 'formadd' # Add
+			@addRow makeInput 'name','2018-01-15 12:34:56'
+			@addRow makeInput 'lat','59.123456'
+			@addRow makeInput 'lng','18.123456'
 
 setup = ->
 	c = createCanvas 200,200
 	c.parent 'myContainer'	
-	elem = document.getElementById 'myContainer'
-	elem.style.display = 'none'
+	hideCanvas()
 
-	pages.push new Page 'List', [10,13] # Add Places
-	pages.push new Page 'Nav',  [12,5,6,10,11,8] # Canvas List Map Add Edit Delete
-	pages.push new Page 'Edit', [3,7,9] # 3fält Update Cancel
-	pages.push new Page 'Add',  [4,2,9] # 3fält Save Cancel
-	pages[0].display()
+	pages.List = new Page 'List', 'add', 'list'
+	pages.Nav  = new Page 'Nav',  'listbutton map add edit delete', 'canvas'
+	pages.Edit = new Page 'Edit', 'update cancel', 'formedit'
+	pages.Add  = new Page 'Add',  'save cancel', 'formadd'
+
+	pages.List.display()
 
 draw = ->
 	bg 0.5

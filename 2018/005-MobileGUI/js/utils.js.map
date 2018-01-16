@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "utils.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\utils.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,SAAA,UAAA,YAAA,YAAA,SAAA,WAAA;;AAAA,aAAa,sBACZ;MAAA;AAAA,SAAO,AAAQ,SAAC,AAAT,eAAwB,AAAxB;SACP,AAAI,KAAC,AAAK,MAAC,AAAX,UAAqB,AAFT;;;AAIb,aAAa,sBACZ;MAAA;AAAA,SAAO,AAAQ,SAAC,AAAT,eAAwB,AAAxB;SACP,AAAI,KAAC,AAAK,MAAC,AAAX,UAAqB,AAFT;;;AAIb,UAAU,iBAAC,AAAD,OACT;MAAA;AAAA,MAAI,AAAQ,SAAC,AAAT,cAAuB,AAAvB;AACJ,AAAC,IAAC,AAAF,YAAc;SACd,AAHS;;;AAKV,YAAY,mBAAC,AAAD,OAAO,AAAP,OACX;MAAA;AAAA,MAAI,AAAQ,SAAC,AAAT,cAAuB,AAAvB;AACJ,AAAC,IAAC,AAAF,KAAO;AACP,AAAC,IAAC,AAAF,QAAU;SACV,AAJW;;;AAMZ,aAAa,oBAAC,AAAD,OAAO,AAAP,GACZ;MAAA;AAAA,MAAI,AAAQ,SAAC,AAAT,cAAuB,AAAvB;AACJ,AAAC,IAAC,AAAF,OAAS;AACT,AAAC,IAAC,AAAF,QAAU;AACV,AAAC,IAAC,AAAF,UAAY;SACZ,AALY;;;AAOb,UAAU,iBAAC,AAAD,IAAI,AAAJ,OACT;MAAA;AAAA,OAAK,AAAQ,SAAC,AAAT,cAAuB,AAAvB;AACL,AAAE,KAAC,AAAH,YAAe,AAAf;SACA,AAAE,GAAC,AAAH,YAAe,AAAf,AAHS;;;AAKV,WAAW,kBAAC,AAAD,MACV;MAAA;AAAA,YAAU,AAAQ,SAAC,AAAT,eAAwB,AAAxB;AACV,MAAG,AAAH;WAAgB,AAAO,QAAC,AAAxB;AAAA,SAAA;WAAmC,AAAnC;AAFU",
+  "sourcesContent": [
+    "hideCanvas = ->\r\n\telem = document.getElementById 'myContainer'\r\n\telem.style.display = 'none'\t\t\r\n\r\nshowCanvas = ->\r\n\telem = document.getElementById 'myContainer'\r\n\telem.style.display = 'block'\r\n\r\nmakeDiv = (title) ->\r\n\tb = document.createElement 'div'\r\n\tb.innerHTML = title\r\n\tb\r\n\r\nmakeInput = (title,value) ->\r\n\tb = document.createElement 'input'\r\n\tb.id = title\r\n\tb.value = value \r\n\tb\r\n\r\nmakeButton = (title,f) ->\r\n\tb = document.createElement 'input'\r\n\tb.type = 'button'\r\n\tb.value = title\r\n\tb.onclick = f\r\n\tb\r\n\r\naddCell = (tr,value) ->\r\n\ttd = document.createElement \"td\"\r\n\ttd.appendChild value\r\n\ttr.appendChild td\r\n\r\ngetField = (name) ->\r\n\telement = document.getElementById(name)\r\n\tif element then element.value else null\r\n\r\n"
+  ]
+}
