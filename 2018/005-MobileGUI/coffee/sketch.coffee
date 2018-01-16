@@ -80,7 +80,7 @@ class Page
 				places.sort (a,b) -> if a.name > b.name then 1 else -1
 			pages.List.display()
 
-		if action =='delete' then return makeButton 'Delete', n, -> 
+		if action =='del' then return makeButton 'Del', n, -> 
 			places = places.filter (e) => e.name != place.name
 			pages.List.display()
 
@@ -116,7 +116,7 @@ setup = ->
 	hideCanvas()
 
 	pages.List = new Page 'add', 'list'
-	pages.Nav  = new Page 'listbutton map add edit delete', 'canvas'
+	pages.Nav  = new Page 'listbutton map add edit del', 'canvas'
 	pages.Edit = new Page 'update cancel', 'formedit'
 	pages.Add  = new Page 'save cancel', 'formadd'
 

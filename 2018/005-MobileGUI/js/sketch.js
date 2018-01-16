@@ -222,8 +222,8 @@ Page = function () {
           return pages.List.display();
         });
       }
-      if (action === 'delete') {
-        return makeButton('Delete', n, function () {
+      if (action === 'del') {
+        return makeButton('Del', n, function () {
           places = places.filter(function (e) {
             return e.name !== place.name;
           });
@@ -291,7 +291,7 @@ setup = function setup() {
   c.parent('myContainer');
   hideCanvas();
   pages.List = new Page('add', 'list');
-  pages.Nav = new Page('listbutton map add edit delete', 'canvas');
+  pages.Nav = new Page('listbutton map add edit del', 'canvas');
   pages.Edit = new Page('update cancel', 'formedit');
   pages.Add = new Page('save cancel', 'formadd');
   return pages.List.display();

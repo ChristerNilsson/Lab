@@ -35,6 +35,7 @@ makeButton = function makeButton(title, n, f) {
   b.style.fontSize = "75%";
   b.style.webkitAppearance = "none";
   b.style.textAlign = 'left';
+  b.style.padding = 0;
   b.type = 'button';
   b.value = title;
   b.onclick = f;
