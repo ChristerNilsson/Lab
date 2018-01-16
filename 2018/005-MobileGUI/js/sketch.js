@@ -128,7 +128,7 @@ Page = function () {
       elem.innerHTML = "";
       div = document.createElement("span");
       span = document.createElement("span");
-      span.innerHTML = this.title + ' ';
+      span.innerHTML = this.title;
       div.appendChild(span);
       ref = this.actions;
       for (j = 0, len = ref.length; j < len; j++) {
@@ -291,13 +291,13 @@ Page = function () {
 
 setup = function setup() {
   var c;
-  c = createCanvas(200, 200);
+  c = createCanvas(windowWidth, windowHeight);
   c.parent('myContainer');
   hideCanvas();
-  pages.List = new Page('List', 'add', 'list');
-  pages.Nav = new Page('Nav', 'listbutton map add edit delete', 'canvas');
-  pages.Edit = new Page('Edit', 'update cancel', 'formedit');
-  pages.Add = new Page('Add', 'save cancel', 'formadd');
+  pages.List = new Page('List ', 'add', 'list');
+  pages.Nav = new Page('', 'listbutton map add edit delete', 'canvas');
+  pages.Edit = new Page('Edit ', 'update cancel', 'formedit');
+  pages.Add = new Page('Add ', 'save cancel', 'formadd');
   return pages.List.display();
 };
 

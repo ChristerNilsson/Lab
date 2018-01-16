@@ -34,7 +34,7 @@ class Page
 
 		div = document.createElement "span"
 		span = document.createElement "span"
-		span.innerHTML = @title + ' '
+		span.innerHTML = @title
 		div.appendChild span 
 		for action in @actions
 			div.appendChild @makeAction action
@@ -114,14 +114,14 @@ class Page
 			@addRow makeInput 'lng','18.123456'
 
 setup = ->
-	c = createCanvas 200,200
+	c = createCanvas windowWidth,windowHeight
 	c.parent 'myContainer'	
 	hideCanvas()
 
-	pages.List = new Page 'List', 'add', 'list'
-	pages.Nav  = new Page 'Nav',  'listbutton map add edit delete', 'canvas'
-	pages.Edit = new Page 'Edit', 'update cancel', 'formedit'
-	pages.Add  = new Page 'Add',  'save cancel', 'formadd'
+	pages.List = new Page 'List ', 'add', 'list'
+	pages.Nav  = new Page '',  'listbutton map add edit delete', 'canvas'
+	pages.Edit = new Page 'Edit ', 'update cancel', 'formedit'
+	pages.Add  = new Page 'Add ',  'save cancel', 'formadd'
 
 	pages.List.display()
 
