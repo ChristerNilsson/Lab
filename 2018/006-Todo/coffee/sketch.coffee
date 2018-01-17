@@ -21,9 +21,14 @@ setup = ->
 	page.addAction 'ClearAll', -> 
 		todos = []
 		storeAndGoto todos,page
-		
+
 	page.addAction 'Clear', -> 
 		todos = todos.filter (e) -> not e.done
+		storeAndGoto todos,page
+
+	page.addAction 'AllDone', ->
+		for t in todos
+			t.done = true
 		storeAndGoto todos,page
 
 	page.display()

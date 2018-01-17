@@ -44,6 +44,14 @@ setup = function setup() {
     });
     return storeAndGoto(todos, page);
   });
+  page.addAction('AllDone', function () {
+    var i, len, t;
+    for (i = 0, len = todos.length; i < len; i++) {
+      t = todos[i];
+      t.done = true;
+    }
+    return storeAndGoto(todos, page);
+  });
   return page.display();
 };
 //# sourceMappingURL=sketch.js.map
