@@ -1,4 +1,38 @@
+class Page
+
+	constructor : (@init) -> 
+		@table = getElem "table"
+		@actions = []
+
+	addAction : (title, f) -> @actions.push [title,f] 
+
+	display : ->
+		# actions
+		elem = getElem 'myActions'
+		elem.innerHTML = ""
+		span = document.createElement "span"
+		for [title,f] in @actions
+			do (f) =>
+				span.appendChild makeButton title, @actions.length, f
+		elem.appendChild span
+
+		@table.innerHTML = ""
+		@init()
+				
+	addRow : (b) ->
+		tr = document.createElement "tr"
+		addCell tr,b
+		@table.appendChild tr
+
+storeData = (data) -> localStorage["006"] = JSON.stringify data
+fetchData = -> JSON.parse if localStorage["006"] then localStorage["006"] else '[]'
+
+storeAndGoto = (data,page) ->
+	storeData data
+	page.display()
+
 isNumeric = (val) -> val == Number parseFloat val
+getElem = (id) -> document.getElementById id
 
 hideCanvas = ->
 	elem = document.getElementById 'myContainer'
