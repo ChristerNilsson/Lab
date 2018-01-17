@@ -10,9 +10,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var Page, addCell, fetchData, getElem, getField, hideCanvas, isNumeric, makeButton, makeDiv, makeInput, showCanvas, storeAndGoto, storeData;
 
 Page = function () {
-  function Page(init) {
+  function Page(columns, init) {
     _classCallCheck(this, Page);
 
+    this.columns = columns;
     this.init = init;
     this.table = getElem("table");
     this.actions = [];
@@ -28,16 +29,25 @@ Page = function () {
     value: function display() {
       var _this = this;
 
-      var elem, f, fn, i, len, ref, span, title;
+      var div, elem, f, fn, i, j, len, ref, title;
       // actions
+      if (this.columns === 0) {
+        this.columns = this.actions.length;
+      }
       elem = getElem('myActions');
       elem.innerHTML = "";
-      span = document.createElement("span");
+      div = null;
       ref = this.actions;
       fn = function fn(f) {
-        return span.appendChild(makeButton(title, _this.actions.length, f));
+        if (i % _this.columns === 0) {
+          div = document.createElement("div");
+        }
+        div.appendChild(makeButton(title, _this.columns, f));
+        if (i % _this.columns === _this.columns - 1) {
+          return elem.appendChild(div);
+        }
       };
-      for (i = 0, len = ref.length; i < len; i++) {
+      for (i = j = 0, len = ref.length; j < len; i = ++j) {
         var _ref$i = _slicedToArray(ref[i], 2);
 
         title = _ref$i[0];
@@ -45,7 +55,7 @@ Page = function () {
 
         fn(f);
       }
-      elem.appendChild(span);
+      elem.appendChild(div);
       this.table.innerHTML = "";
       return this.init();
     }
@@ -126,6 +136,7 @@ makeButton = function makeButton(title, n, f) {
   b = document.createElement('input');
   b.style.width = Math.floor(100 / n) + "%";
   b.style.fontSize = "100%";
+  b.style.fontFamily = 'monospace';
   b.style.webkitAppearance = "none";
   b.style.borderRadius = 0;
   b.style.padding = 0;

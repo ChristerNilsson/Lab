@@ -1,6 +1,6 @@
 class Page
 
-	constructor : (@init) -> 
+	constructor : (@columns, @init) -> 
 		@table = getElem "table"
 		@actions = []
 
@@ -8,13 +8,16 @@ class Page
 
 	display : ->
 		# actions
+		if @columns==0 then @columns = @actions.length 
 		elem = getElem 'myActions'
 		elem.innerHTML = ""
-		span = document.createElement "span"
-		for [title,f] in @actions
+		div = null
+		for [title,f],i in @actions
 			do (f) =>
-				span.appendChild makeButton title, @actions.length, f
-		elem.appendChild span
+				if i%@columns==0 then div = document.createElement "div"
+				div.appendChild makeButton title, @columns, f
+				if i%@columns==@columns-1 then elem.appendChild div
+		elem.appendChild div
 
 		@table.innerHTML = ""
 		@init()
@@ -61,6 +64,7 @@ makeButton = (title,n,f) ->
 	b = document.createElement 'input'
 	b.style.width = "#{Math.floor(100/n)}%"
 	b.style.fontSize = "100%"
+	b.style.fontFamily = 'monospace'
 	b.style.webkitAppearance = "none"
 	b.style.borderRadius = 0
 	b.style.padding = 0

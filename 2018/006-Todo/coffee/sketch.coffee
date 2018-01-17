@@ -1,34 +1,43 @@
-# https://github.com/wesbos/JavaScript30/tree/master/15%20-%20LocalStorage
-
 todos = []
 page = null
+todoInput = null
+
+STATES = 'red yellow green'.split ' '
 
 setup = ->
 	todos = fetchData()
 
-	page = new Page ->
-		@addRow makeInput 'todo'
+	page = new Page 0, ->
+		@addRow todoInput = makeInput 'todo'
 		for t in todos
 			do (t) => 
-				@addRow makeButton "#{t.name} #{t.done}", 1, => 
-					t.done = not t.done
+				b = makeButton "#{t.name}", 1, => 
+					t.state++
+					t.state %= STATES.length
 					storeAndGoto todos,page
+				b.style.textAlign = 'left'
+				b.style.backgroundColor = STATES[t.state]
+				@addRow b
+		null
 
 	page.addAction 'Add', -> 
-		todos.push {name:getElem("todo").value, done:false}
+		todos.push {name:todoInput.value, state:0}
 		storeAndGoto todos,page
 
 	page.addAction 'ClearAll', -> 
 		todos = []
 		storeAndGoto todos,page
 
-	page.addAction 'Clear', -> 
-		todos = todos.filter (e) -> not e.done
+	page.addAction 'ClearDone', -> 
+		todos = todos.filter (t) -> t.state < 2
 		storeAndGoto todos,page
 
 	page.addAction 'AllDone', ->
-		for t in todos
-			t.done = true
+		todos.map (t) -> t.state = 2		
+		storeAndGoto todos,page
+
+	page.addAction 'NoneDone', ->
+		todos.map (t) -> t.state = 0
 		storeAndGoto todos,page
 
 	page.display()
