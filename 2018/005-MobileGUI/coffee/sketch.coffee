@@ -1,5 +1,7 @@
 # https://stackoverflow.com/questions/2010892/storing-objects-in-html5-localstorage
 
+LINK = "https://christernilsson.github.io/Lab/2018/004-GPSCompass/index.html"
+
 places = []
 places.push {name:'Bagarmossen Sushi',     lat:59.277560, lng:18.132739}
 places.push {name:'Bagarmossen T',         lat:59.276264, lng:18.131465}
@@ -58,6 +60,12 @@ setup = ->
 
 	fetchData()
 
+	parameters = getParameters()
+	if _.size(parameters) == 3 
+		console.log parameters
+		places.push parameters
+		storeData()
+
 	c = createCanvas windowWidth,windowHeight
 	c.parent 'myContainer'	
 	hideCanvas()
@@ -77,6 +85,7 @@ setup = ->
 	pages.Nav.addAction 'Map', -> window.open "http://maps.google.com/maps?q=#{place.lat},#{place.lng}"
 	pages.Nav.addAction 'Edit', -> pages.Edit.display()
 	pages.Nav.addAction 'Del', -> pages.Del.display()
+	pages.Nav.addAction 'Link', -> pages.Link.display()
 
 	pages.Edit = new Page ->
 		oldName = place.name
@@ -124,6 +133,20 @@ setup = ->
 		@addRow makeInput 'name',place.name,true
 		@addRow makeInput 'lat',place.lat,true
 		@addRow makeInput 'lng',place.lng,true
+	pages.Del.addAction 'Delete', -> 
+		places = places.filter (e) => e.name != place.name
+		storeData()
+		pages.List.display()
+	pages.Del.addAction 'Cancel', -> pages.Nav.display()
+
+	pages.Link = new Page -> 
+		@addRow makeInput 'link', encodeURI "#{LINK}?name=#{place.name}&lat=#{place.lat}&lng=#{place.lng}",true
+		@addRow makeDiv 'The Link is now on the Clipboard. Mail it to a friend.'
+		document.getElementById("link").focus()
+		document.getElementById("link").select()
+		document.execCommand 'copy'
+	pages.Link.addAction 'Ok', -> pages.Nav.display()
+
 	pages.Del.addAction 'Delete', -> 
 		places = places.filter (e) => e.name != place.name
 		storeData()

@@ -8,6 +8,11 @@ showCanvas = ->
 	elem = document.getElementById 'myContainer'
 	elem.style.display = 'block'
 
+makeDiv = (value) ->
+	b = document.createElement 'div'
+	b.innerHTML = value
+	b
+
 makeInput = (title,value,readonly=false) ->
 	b = document.createElement 'input'
 	b.id = title
