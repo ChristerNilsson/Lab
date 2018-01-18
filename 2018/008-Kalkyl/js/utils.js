@@ -117,17 +117,24 @@ showCanvas = function showCanvas() {
   return elem.style.display = 'block';
 };
 
-makeTextArea = function makeTextArea(cols, rows) {
+makeTextArea = function makeTextArea() {
   var b;
   b = document.createElement('textarea');
+  b.class = 'syncscroll';
   //b.cols = 50
   b.style.position = 'fixed';
   b.style.top = '30px';
-  b.style.width = 'calc(100vw - 0px)';
+  b.style.width = 'calc(50vw - 0px)';
   b.style.height = 'calc(100vh - 30px)';
   b.style.resize = 'none';
+  //b.style.whitespace = "nowrap"
+  b.style.overflow = "hidden";
+  //b.style.overflowX = "scroll"
+  //b.style.overflowY = "scroll"
+  b.nowrap = 'nowrap';
+  b.wrap = 'off';
   //b.rows=200
-  //b.wrap = 'soft'
+  //b.wrap = 'off'
   b.style.fontSize = "100%";
   return b;
 };

@@ -56,18 +56,19 @@ setup = function setup() {
   page = new Page(0, function () {
     var answer, enter;
     this.table.innerHTML = "";
-    enter = makeTextArea(40, 100);
+    enter = makeTextArea();
     enter.style.left = '0px';
     enter.focus();
     enter.value = memory;
-    answer = makeTextArea(40, 100);
+    answer = makeTextArea();
     answer.style.left = '50%';
     answer.setAttribute("readonly", true);
     answer.value = makeAnswer();
+    //syncscroll.reset()
     enter.onscroll = function (e) {
-      return answer.scrollTop = enter.scrollTop;
+      answer.scrollTop = enter.scrollTop;
+      return answer.scrollLeft = enter.scrollLeft;
     };
-    //answer.scrollLeft = enter.scrollLeft
     answer.onscroll = function (e) {
       return e.preventDefault();
     };
