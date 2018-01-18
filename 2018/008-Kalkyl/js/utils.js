@@ -120,7 +120,6 @@ showCanvas = function showCanvas() {
 makeTextArea = function makeTextArea() {
   var b;
   b = document.createElement('textarea');
-  b.class = 'syncscroll';
   //b.cols = 50
   b.style.position = 'fixed';
   b.style.top = '30px';
@@ -134,8 +133,7 @@ makeTextArea = function makeTextArea() {
   //b.style.overflowY = "scroll"
   b.nowrap = 'nowrap';
   b.wrap = 'off';
-  //b.rows=200
-  //b.wrap = 'off'
+  b.rows = 200;
   b.style.fontSize = "100%";
   return b;
 };

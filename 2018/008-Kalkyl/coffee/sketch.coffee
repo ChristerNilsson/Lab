@@ -63,7 +63,7 @@ setup = ->
 			answer.value = makeAnswer()
 			storeData memory
 
-	page.addAction 'Hide', -> 
+	page.addAction 'HideA', -> 
 		page.display()
 
 	page.addAction 'Clear', -> 

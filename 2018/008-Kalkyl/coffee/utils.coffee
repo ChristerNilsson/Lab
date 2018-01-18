@@ -52,7 +52,6 @@ showCanvas = ->
 
 makeTextArea = ->
 	b = document.createElement 'textarea'
-	b.class = 'syncscroll'
 	#b.cols = 50
 	b.style.position = 'fixed'
 	b.style.top = '30px'
@@ -68,8 +67,7 @@ makeTextArea = ->
 	b.nowrap='nowrap'
 	b.wrap='off'
 
-	#b.rows=200
-	#b.wrap = 'off'
+	b.rows=200
 	b.style.fontSize = "100%"
 	b
 

@@ -79,7 +79,7 @@ setup = function setup() {
       return storeData(memory);
     });
   });
-  page.addAction('Hide', function () {
+  page.addAction('HideA', function () {
     return page.display();
   });
   page.addAction('Clear', function () {
