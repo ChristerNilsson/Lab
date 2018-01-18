@@ -78,7 +78,7 @@ setup = function setup() {
       return storeData(memory);
     });
   });
-  page.addAction('HideB', function () {
+  page.addAction('Hide', function () {
     return page.display();
   });
   page.addAction('Clear', function () {
