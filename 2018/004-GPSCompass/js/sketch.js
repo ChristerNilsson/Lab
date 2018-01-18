@@ -153,8 +153,6 @@ locationUpdate = function locationUpdate(position) {
   track.push(p1);
   heading_12 = calcHeading(p1, place);
   lastObservation = millis();
-  texts[0] = '' + precisionRound((millis() - start) / 1000, 0) // sekunder sedan start
-  ;
   //texts[1] = 
   texts[3] = '' + track.length;
   texts[6] = Math.round(p1.accuracy) + ' m';
@@ -230,6 +228,8 @@ setup = function setup() {
     if (typeof event.webkitCompassHeading !== "undefined") {
       bearing = event.webkitCompassHeading; // iOS non-standard
     }
+    texts[0] = '' + precisionRound((millis() - start) / 1000, 0) // sekunder sedan start
+    ;
     texts[7] = Math.round((millis() - lastObservation) / 1000) + ' s';
     texts[9] = Math.round(bearing) + '\xB0';
     delta = calcDelta(heading_12 - bearing);

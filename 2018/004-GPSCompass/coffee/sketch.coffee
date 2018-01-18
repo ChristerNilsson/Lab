@@ -41,7 +41,6 @@ locationUpdate = (position) ->
 	heading_12 = calcHeading p1,place
 	lastObservation = millis()
 
-	texts[0] = "#{precisionRound (millis()-start)/1000,0}" # sekunder sedan start
 	#texts[1] = 
 	texts[3] = "#{track.length}"  
 	texts[6] = "#{Math.round p1.accuracy} m"
@@ -102,6 +101,7 @@ setup = ->
 		if typeof event.webkitCompassHeading != "undefined"
 			bearing = event.webkitCompassHeading # iOS non-standard
 
+		texts[0] = "#{precisionRound (millis()-start)/1000,0}" # sekunder sedan start
 		texts[7] = "#{Math.round (millis() - lastObservation)/1000} s"
 		texts[9] = "#{Math.round bearing}°"
 		delta = calcDelta heading_12-bearing
@@ -125,6 +125,7 @@ setup = ->
 	assert [255,255,0,255], calcColor 270
 	assert [255,255,0,255], calcColor 315
 	assert [255,255,0,255], calcColor 360
+	
 drawHouse = (radius) ->
 	fc 1
 	sc()
