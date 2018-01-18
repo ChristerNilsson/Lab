@@ -1,5 +1,24 @@
 # 008-Kalkyl
 
+Här kan man testa sina one-liners!
+Även lämplig som kalkylator.
+Man kan namnge sina uttryck.
+Dessutom kan man skapa funktioner.
+
+## Hide
+Döljer tangentbordet på smartphones
+
+## Clear
+Tömmer kalkylatorn
+
+## Samples
+Visar nedanstående exempel.
+
+## Reference
+Länk till relevant Javascriptdokumentation
+
+## Exempel
+
 Skriv t ex in 
 
 ```javascript
@@ -12,7 +31,7 @@ hastighet=sträcka/tid
 
 Klarar även String, Array, Object, funktioner
 
-Fler exempel:
+## Fler exempel
 
 ```javascript
 2+3
@@ -75,4 +94,12 @@ fib(x) = x<=0 ? 1 : fib(x-1)+fib(x-2)
 21 == fib(6)
 ```
 
-Observera att den matematiska syntaxen för funktioner inte är den samma som i Javascript/Coffeescript.
+## Observera
+
+Den matematiska syntaxen för funktioner är inte den samma som i Javascript/Coffeescript.
+
+## Todo
+
+Notera den stora marginalen längst ner.
+Beror på problem med Android.
+https://stackoverflow.com/questions/10610743/android-browsers-screen-width-screen-height-window-innerwidth-window-inner
