@@ -10,26 +10,32 @@ hastighet=sträcka/tid
 
 Ändra därefter sträcka till 20
 
-Klarar även strängar, listor, hash, funktioner
+Klarar även String, Array, Object, funktioner
 
 Fler exempel:
 
 ```javascript
 123
+
 sträcka = 150
 tid = 6
-25 == sträcka/tid
+tid
+sträcka/tid
+25 == sträcka/tid 
+30 == sträcka/tid
 
-kvadrat(x) = x*x
+kvadrat(x)=x*x
 25 == kvadrat(5)
 
-p(a,b) = 1/(1/a+1/b)
-p(2,3)
+serial(a,b) = a+b
+2 == serial(1,1)
+5 == serial(2,3)
 
-s(a,b) = a+b
-5 == s(2,3)
+parallel(a,b) = a*b/(a+b)
+0.5 == parallel(1,1)
+1.2 == parallel(2,3)
 
-fak(x) = x==0 ? 1 : x*fak(x-1)
+fak(x) = x==0 ? 1 : x * fak(x-1)
 3628800 == fak(10)
 
 fib(x) = x<=0 ? 1 : fib(x-1)+fib(x-2) 
@@ -39,4 +45,21 @@ fib(x) = x<=0 ? 1 : fib(x-1)+fib(x-2)
 8 == fib(4)
 13 == fib(5)
 21 == fib(6)
+
+a = "Volvo" // String
+5 == a.length
+'l' == a[2]
+
+5 == sqrt(25) // Math
+
+c = new Date() // Date
+2018 == c.getFullYear()
+
+numbers = [1,2,3] // Array
+2 == numbers[1]
+
+// Object
+person = {fnamn:'David', enamn:'Larsson'}
+'David' == person['fnamn']
+'Larsson' == person.enamn
 ```

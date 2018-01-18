@@ -5,7 +5,7 @@ var KEY, makeAnswer, memory, page, setup, transpile;
 
 KEY = '008B';
 
-memory = {};
+memory = null;
 
 page = null;
 
@@ -68,6 +68,17 @@ setup = function setup() {
       answer.value = makeAnswer();
       return storeData(memory);
     });
+  });
+  page.addAction('Reference', function () {
+    return window.open("https://www.w3schools.com/jsref/default.asp");
+  });
+  page.addAction('Clear', function () {
+    memory = "";
+    return storeAndGoto(memory, page);
+  });
+  page.addAction('Samples', function () {
+    memory = "123\n\nsträcka = 150\ntid = 6\ntid\nsträcka/tid\n25 == sträcka/tid \n30 == sträcka/tid\n\nkvadrat(x)=x*x\n25 == kvadrat(5)\n\nserial(a,b) = a+b\n2 == serial(1,1)\n5 == serial(2,3)\n\nparallel(a,b) = a*b/(a+b)\n0.5 == parallel(1,1)\n1.2 == parallel(2,3)\n\nfak(x) = x==0 ? 1 : x * fak(x-1)\n3628800 == fak(10)\n\nfib(x) = x<=0 ? 1 : fib(x-1)+fib(x-2) \n1 == fib(0)\n2 == fib(1)\n5 == fib(3)\n8 == fib(4)\n13 == fib(5)\n21 == fib(6)\n\na = \"Volvo\" // String\n5 == a.length\n'l' == a[2]\n\n5 == sqrt(25) // Math\n\nc = new Date() // Date\n2018 == c.getFullYear()\n\nnumbers = [1,2,3] // Array\n2 == numbers[1]\n\n// Object\nperson = {fnamn:'David', enamn:'Larsson'}\n'David' == person['fnamn']\n'Larsson' == person.enamn";
+    return storeAndGoto(memory, page);
   });
   return page.display();
 };
