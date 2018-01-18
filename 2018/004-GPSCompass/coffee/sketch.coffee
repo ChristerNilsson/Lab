@@ -41,7 +41,7 @@ locationUpdate = (position) ->
 	heading_12 = calcHeading p1,place
 	lastObservation = millis()
 
-	texts[0] = "#{precisionRound millis()/1000,0}" # sekunder sedan start
+	texts[0] = "#{precisionRound (millis()-start)/1000,0}" # sekunder sedan start
 	#texts[1] = 
 	texts[3] = "#{track.length}"  
 	texts[6] = "#{Math.round p1.accuracy} m"
@@ -210,7 +210,7 @@ drawTexts = ->
 		y = d*Math.floor i/2
 		if i not in [1,2,8,9,10,11] then text t,x,2*d+y
 	textAlign LEFT
-	text placeIndex + ' ' + place.name,0,d
+	text place.name,0,d
 
 draw = ->
 	bg 0

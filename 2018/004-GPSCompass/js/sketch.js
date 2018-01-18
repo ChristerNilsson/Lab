@@ -153,7 +153,7 @@ locationUpdate = function locationUpdate(position) {
   track.push(p1);
   heading_12 = calcHeading(p1, place);
   lastObservation = millis();
-  texts[0] = '' + precisionRound(millis() / 1000, 0) // sekunder sedan start
+  texts[0] = '' + precisionRound((millis() - start) / 1000, 0) // sekunder sedan start
   ;
   //texts[1] = 
   texts[3] = '' + track.length;
@@ -352,7 +352,7 @@ drawTexts = function drawTexts() {
     }
   }
   textAlign(LEFT);
-  return text(placeIndex + ' ' + place.name, 0, d);
+  return text(place.name, 0, d);
 };
 
 draw = function draw() {
