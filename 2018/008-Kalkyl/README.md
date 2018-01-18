@@ -2,9 +2,15 @@
 
 Skriv t ex in 
 
-a=12
-b=a*a
+sträcka=12
+tid=5
+hastighet=sträcka/tid
 
-Ändra därefter a till 20
-b beräknas nu automatiskt.
+Run
+
+Ändra därefter sträcka till 20
+
+Run
+
+Klarar även enradiga strängar, listor, hash
 

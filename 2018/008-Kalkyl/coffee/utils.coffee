@@ -32,7 +32,7 @@ class Page
 		@table.appendChild tr
 
 storeData = (data) -> localStorage[KEY] = JSON.stringify data
-fetchData = -> JSON.parse if localStorage[KEY] then localStorage[KEY] else '{}'
+fetchData = -> JSON.parse if localStorage[KEY] then localStorage[KEY] else '""'
 
 storeAndGoto = (data,page) ->
 	storeData data
@@ -48,6 +48,12 @@ hideCanvas = ->
 showCanvas = ->
 	elem = document.getElementById 'myContainer'
 	elem.style.display = 'block'
+
+makeTextArea = (cols,rows) ->
+	b = document.createElement 'textarea'
+	b.cols = cols
+	b.rows = rows
+	b
 
 makeSpan = (value) ->
 	b = document.createElement 'span'
