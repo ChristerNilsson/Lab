@@ -15,7 +15,7 @@ Klarar även String, Array, Object, funktioner
 Fler exempel:
 
 ```javascript
-123
+2+3
 
 sträcka = 150
 tid = 6
@@ -24,6 +24,28 @@ sträcka/tid
 25 == sträcka/tid 
 30 == sträcka/tid
 
+// String
+a = "Volvo" 
+5 == a.length
+'l' == a[2]
+
+// Math
+5 == sqrt(25) 
+
+// Date
+c = new Date() 
+2018 == c.getFullYear()
+
+// Array
+numbers = [1,2,3] 
+2 == numbers[1]
+
+// Object
+person = {fnamn:'David', enamn:'Larsson'}
+'David' == person['fnamn']
+'Larsson' == person.enamn
+
+// functions
 kvadrat(x)=x*x
 25 == kvadrat(5)
 
@@ -45,21 +67,4 @@ fib(x) = x<=0 ? 1 : fib(x-1)+fib(x-2)
 8 == fib(4)
 13 == fib(5)
 21 == fib(6)
-
-a = "Volvo" // String
-5 == a.length
-'l' == a[2]
-
-5 == sqrt(25) // Math
-
-c = new Date() // Date
-2018 == c.getFullYear()
-
-numbers = [1,2,3] // Array
-2 == numbers[1]
-
-// Object
-person = {fnamn:'David', enamn:'Larsson'}
-'David' == person['fnamn']
-'Larsson' == person.enamn
 ```
