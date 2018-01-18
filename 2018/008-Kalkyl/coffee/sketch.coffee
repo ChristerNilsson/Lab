@@ -9,20 +9,19 @@ setup = ->
 
 	page = new Page 0, ->
 		@table.innerHTML = "" 
+		@addRow enter = makeTextArea 40,10
+		enter.focus()
+		enter.value = memory
 		for line in memory.split "\n"
 			arr = line.split '='
 			if arr.length == 2
 				[key,expr] = arr
-				do (key,expr) =>
-					b = makeSpan key+'='+expr
-					try
-						value = eval 'window.'+key+'='+expr
-					catch
-						value = 'error'
-					@addRow b, makeSpan JSON.stringify value
-		@addRow enter = makeTextArea 40,5
-		enter.focus()
-		enter.value = memory
+				try
+					value = eval 'window.'+key+'='+expr
+				catch
+					value = 'error'
+				b = makeSpan key
+				@addRow b, makeSpan JSON.stringify value
 
 		enter.addEventListener "keyup", (event) ->
 			memory = enter.value

@@ -120,6 +120,7 @@ makeTextArea = function makeTextArea(cols, rows) {
   b = document.createElement('textarea');
   b.cols = cols;
   b.rows = rows;
+  b.style.fontSize = "100%";
   return b;
 };
 

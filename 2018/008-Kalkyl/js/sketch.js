@@ -14,10 +14,11 @@ page = null;
 setup = function setup() {
   memory = fetchData();
   page = new Page(0, function () {
-    var _this = this;
-
-    var arr, enter, expr, i, key, len, line, ref;
+    var arr, b, enter, expr, i, key, len, line, ref, value;
     this.table.innerHTML = "";
+    this.addRow(enter = makeTextArea(40, 10));
+    enter.focus();
+    enter.value = memory;
     ref = memory.split("\n");
     for (i = 0, len = ref.length; i < len; i++) {
       line = ref[i];
@@ -30,21 +31,15 @@ setup = function setup() {
         key = _arr2[0];
         expr = _arr2[1];
 
-        (function (key, expr) {
-          var b, value;
-          b = makeSpan(key + '=' + expr);
-          try {
-            value = eval('window.' + key + '=' + expr);
-          } catch (error) {
-            value = 'error';
-          }
-          return _this.addRow(b, makeSpan(JSON.stringify(value)));
-        })(key, expr);
+        try {
+          value = eval('window.' + key + '=' + expr);
+        } catch (error) {
+          value = 'error';
+        }
+        b = makeSpan(key);
+        this.addRow(b, makeSpan(JSON.stringify(value)));
       }
     }
-    this.addRow(enter = makeTextArea(40, 5));
-    enter.focus();
-    enter.value = memory;
     return enter.addEventListener("keyup", function (event) {
       memory = enter.value;
       return storeData(memory);
