@@ -92,6 +92,11 @@ fib(x) = x<=0 ? 1 : fib(x-1)+fib(x-2)
 8 == fib(4)
 13 == fib(5)
 21 == fib(6)
+// Extra rader pga Android
+// 2
+// 3
+// 4
+// 5
 ```
 
 ## Observera
