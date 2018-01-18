@@ -4,7 +4,7 @@ places.push {name:'Bagarmossen T',         lat:59.276264, lng:18.131465}
 places.push {name:'Björkhagens Golfklubb', lat:59.284052, lng:18.145925}
 places.push {name:'Björkhagen T',          lat:59.291114, lng:18.115521}
 places.push {name:'Brotorpsbron',					 lat:59.270067, lng:18.150236}
-places.push {name:'Brotorpsstugan'         lat:59.270542, lng:18.148473}
+places.push {name:'Brotorpsstugan',        lat:59.270542, lng:18.148473}
 places.push {name:'Kärrtorp T',            lat:59.284505, lng:18.114477}
 places.push {name:'Hellasgården',          lat:59.289813, lng:18.160577}
 places.push {name:'Hem',                   lat:59.265205, lng:18.132735}
@@ -72,14 +72,23 @@ calcDelta = (delta) ->
 	if delta > +180 then delta -= 360
 	delta
 
-# Visa avvikelsen med färgton. Vid 90 grader blir det svart
+# Visa vinkelavvikelse med färgton. 
+# -180 = black
+#  -90 = red
+#    0 = white
+#   90 = green 
+#  180 = black
 calcColor = (delta) ->
+	# -180 <= delta <= 180
 	white = color 255,255,255
-	red   = color 255,0,0
 	green = color 0,255,0
-	if abs(delta) > 90 then res = color 0,0,0
-	else if delta < 0 then res = lerpColor white, red, -delta/90
-	else res = lerpColor white, green, delta/90
+	black = color 0,0,0
+	red   = color 255,0,0
+	if      -180 <= delta <  -90 then res = lerpColor black, red,  (delta+180)/90
+	else if  -90 <= delta <    0 then res = lerpColor red,   white,(delta+90)/90
+	else if    0 <= delta <   90 then res = lerpColor white, green,(delta+0)/90
+	else if   90 <= delta <= 180 then res = lerpColor green, black,(delta-90)/90
+	else res = color 255,255,0,255 # error 
 	res.levels
 
 setup = ->
@@ -99,11 +108,23 @@ setup = ->
 		texts[11] = "#{Math.round delta}°"
 
 	assert [255,255,255,255], calcColor 0
-	assert [255,0,0,255], calcColor -90
-	assert [0,0,0,255], calcColor -180
+	assert [128,255,128,255], calcColor 45
 	assert [0,255,0,255], calcColor 90
+	assert [0,128,0,255], calcColor 135
 	assert [0,0,0,255], calcColor 180
-
+	assert [255,128,128,255], calcColor -45
+	assert [255,0,0,255], calcColor -90
+	assert [128,0,0,255], calcColor -135
+	assert [0,0,0,255], calcColor -180
+	
+	assert [255,255,0,255], calcColor -225
+	assert [255,255,0,255], calcColor -270
+	assert [255,255,0,255], calcColor -315
+	assert [255,255,0,255], calcColor -360
+	assert [255,255,0,255], calcColor 225
+	assert [255,255,0,255], calcColor 270
+	assert [255,255,0,255], calcColor 315
+	assert [255,255,0,255], calcColor 360
 drawHouse = (radius) ->
 	fc 1
 	sc()

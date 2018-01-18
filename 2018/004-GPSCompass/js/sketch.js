@@ -35,17 +35,42 @@ places.push({
   lng: 18.132739
 });
 
-// Bagarmossen T
+places.push({
+  name: 'Bagarmossen T',
+  lat: 59.276264,
+  lng: 18.131465
+});
+
 places.push({
   name: 'Björkhagens Golfklubb',
   lat: 59.284052,
   lng: 18.145925
 });
 
-// Björkhagen T
-// Brotorpsbron
-// Brotorpsstugan
-// Kärrtorp T
+places.push({
+  name: 'Björkhagen T',
+  lat: 59.291114,
+  lng: 18.115521
+});
+
+places.push({
+  name: 'Brotorpsbron',
+  lat: 59.270067,
+  lng: 18.150236
+});
+
+places.push({
+  name: 'Brotorpsstugan',
+  lat: 59.270542,
+  lng: 18.148473
+});
+
+places.push({
+  name: 'Kärrtorp T',
+  lat: 59.284505,
+  lng: 18.114477
+});
+
 places.push({
   name: 'Hellasgården',
   lat: 59.289813,
@@ -64,9 +89,24 @@ places.push({
   lng: 18.161353
 });
 
-// Pers badställe
-// Skarpnäck T
-// Söderbysjön N Bron
+places.push({
+  name: 'Pers badställe',
+  lat: 59.289571,
+  lng: 18.170767
+});
+
+places.push({
+  name: 'Skarpnäck T',
+  lat: 59.266432,
+  lng: 18.133093
+});
+
+places.push({
+  name: 'Söderbysjön N Bron',
+  lat: 59.285500,
+  lng: 18.150542
+});
+
 places.push({
   name: 'Söderbysjön S Bron',
   lat: 59.279155,
@@ -150,18 +190,29 @@ calcDelta = function calcDelta(delta) {
   return delta;
 };
 
-// Visa avvikelsen med färgton. Vid 90 grader blir det svart
+// Visa vinkelavvikelse med färgton. 
+// -180 = black
+//  -90 = red
+//    0 = white
+//   90 = green 
+//  180 = black
 calcColor = function calcColor(delta) {
-  var green, red, res, white;
+  var black, green, red, res, white;
+  // -180 <= delta <= 180
   white = color(255, 255, 255);
-  red = color(255, 0, 0);
   green = color(0, 255, 0);
-  if (abs(delta) > 90) {
-    res = color(0, 0, 0);
-  } else if (delta < 0) {
-    res = lerpColor(white, red, -delta / 90);
+  black = color(0, 0, 0);
+  red = color(255, 0, 0);
+  if (-180 <= delta && delta < -90) {
+    res = lerpColor(black, red, (delta + 180) / 90);
+  } else if (-90 <= delta && delta < 0) {
+    res = lerpColor(red, white, (delta + 90) / 90);
+  } else if (0 <= delta && delta < 90) {
+    res = lerpColor(white, green, (delta + 0) / 90);
+  } else if (90 <= delta && delta <= 180) {
+    res = lerpColor(green, black, (delta - 90) / 90);
   } else {
-    res = lerpColor(white, green, delta / 90);
+    res = color(255, 255, 0, 255); // error 
   }
   return res.levels;
 };
@@ -182,10 +233,22 @@ setup = function setup() {
     return texts[11] = Math.round(delta) + '\xB0';
   });
   assert([255, 255, 255, 255], calcColor(0));
-  assert([255, 0, 0, 255], calcColor(-90));
-  assert([0, 0, 0, 255], calcColor(-180));
+  assert([128, 255, 128, 255], calcColor(45));
   assert([0, 255, 0, 255], calcColor(90));
-  return assert([0, 0, 0, 255], calcColor(180));
+  assert([0, 128, 0, 255], calcColor(135));
+  assert([0, 0, 0, 255], calcColor(180));
+  assert([255, 128, 128, 255], calcColor(-45));
+  assert([255, 0, 0, 255], calcColor(-90));
+  assert([128, 0, 0, 255], calcColor(-135));
+  assert([0, 0, 0, 255], calcColor(-180));
+  assert([255, 255, 0, 255], calcColor(-225));
+  assert([255, 255, 0, 255], calcColor(-270));
+  assert([255, 255, 0, 255], calcColor(-315));
+  assert([255, 255, 0, 255], calcColor(-360));
+  assert([255, 255, 0, 255], calcColor(225));
+  assert([255, 255, 0, 255], calcColor(270));
+  assert([255, 255, 0, 255], calcColor(315));
+  return assert([255, 255, 0, 255], calcColor(360));
 };
 
 drawHouse = function drawHouse(radius) {
