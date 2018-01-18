@@ -27,8 +27,9 @@ class Page
 				
 	addRow : (a,b=null) ->
 		tr = document.createElement "tr"
-		addCell tr,a
-		if b then addCell tr,b
+		tr.width = '100%'
+		if b then addCell tr,a,b
+		else addCell tr,a
 		@table.appendChild tr
 
 storeData = (data) -> localStorage[KEY] = JSON.stringify data
@@ -51,8 +52,15 @@ showCanvas = ->
 
 makeTextArea = (cols,rows) ->
 	b = document.createElement 'textarea'
-	b.cols = cols
-	b.rows = rows
+	#b.cols = 50
+	b.style.position = 'fixed'
+	b.style.top = '30px'
+	b.style.width = 'calc(100vw - 0px)'      
+	b.style.height= 'calc(100vh - 30px)'
+	b.style.resize= 'none'
+
+	#b.rows=200
+	#b.wrap = 'soft'
 	b.style.fontSize = "100%"
 	b
 
@@ -93,9 +101,11 @@ makeButton = (title,n,f) ->
 	b.onclick = f
 	b
 
-addCell = (tr,value) ->
+addCell = (tr,a,b=null) ->
 	td = document.createElement "td"
-	td.appendChild value
+	td.width = '100%'
+	td.appendChild a
+	if b then td.appendChild b
 	tr.appendChild td
 
 getField = (name) ->

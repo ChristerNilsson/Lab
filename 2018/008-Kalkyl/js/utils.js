@@ -71,9 +71,11 @@ Page = function () {
 
       var tr;
       tr = document.createElement("tr");
-      addCell(tr, a);
+      tr.width = '100%';
       if (b) {
-        addCell(tr, b);
+        addCell(tr, a, b);
+      } else {
+        addCell(tr, a);
       }
       return this.table.appendChild(tr);
     }
@@ -118,8 +120,14 @@ showCanvas = function showCanvas() {
 makeTextArea = function makeTextArea(cols, rows) {
   var b;
   b = document.createElement('textarea');
-  b.cols = cols;
-  b.rows = rows;
+  //b.cols = 50
+  b.style.position = 'fixed';
+  b.style.top = '30px';
+  b.style.width = 'calc(100vw - 0px)';
+  b.style.height = 'calc(100vh - 30px)';
+  b.style.resize = 'none';
+  //b.rows=200
+  //b.wrap = 'soft'
   b.style.fontSize = "100%";
   return b;
 };
@@ -177,10 +185,16 @@ makeButton = function makeButton(title, n, f) {
   return b;
 };
 
-addCell = function addCell(tr, value) {
+addCell = function addCell(tr, a) {
+  var b = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
+
   var td;
   td = document.createElement("td");
-  td.appendChild(value);
+  td.width = '100%';
+  td.appendChild(a);
+  if (b) {
+    td.appendChild(b);
+  }
   return tr.appendChild(td);
 };
 

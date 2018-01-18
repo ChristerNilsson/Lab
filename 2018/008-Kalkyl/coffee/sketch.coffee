@@ -39,12 +39,20 @@ setup = ->
 		@table.innerHTML = "" 
 
 		enter = makeTextArea 40,100
+		enter.style.left = '0px'
+
 		enter.focus()
 		enter.value = memory
 
 		answer = makeTextArea 40,100
+		answer.style.left = '50%'
 		answer.setAttribute "readonly", true
 		answer.value = makeAnswer()
+
+		enter.onscroll = (e) ->
+			answer.scrollTop = enter.scrollTop
+			#answer.scrollLeft = enter.scrollLeft
+		answer.onscroll = (e) -> e.preventDefault()
 
 		@addRow enter,answer
 
@@ -52,6 +60,9 @@ setup = ->
 			memory = enter.value
 			answer.value = makeAnswer()
 			storeData memory
+
+	page.addAction 'Hide', -> 
+		page.display()
 
 	page.addAction 'Clear', -> 
 		memory = ""

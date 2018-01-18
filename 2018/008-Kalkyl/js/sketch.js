@@ -57,17 +57,29 @@ setup = function setup() {
     var answer, enter;
     this.table.innerHTML = "";
     enter = makeTextArea(40, 100);
+    enter.style.left = '0px';
     enter.focus();
     enter.value = memory;
     answer = makeTextArea(40, 100);
+    answer.style.left = '50%';
     answer.setAttribute("readonly", true);
     answer.value = makeAnswer();
+    enter.onscroll = function (e) {
+      return answer.scrollTop = enter.scrollTop;
+    };
+    //answer.scrollLeft = enter.scrollLeft
+    answer.onscroll = function (e) {
+      return e.preventDefault();
+    };
     this.addRow(enter, answer);
     return enter.addEventListener("keyup", function (event) {
       memory = enter.value;
       answer.value = makeAnswer();
       return storeData(memory);
     });
+  });
+  page.addAction('Hide', function () {
+    return page.display();
   });
   page.addAction('Clear', function () {
     memory = "";
