@@ -49,8 +49,6 @@ setup = ->
 		answer.setAttribute "readonly", true
 		answer.value = makeAnswer()
 
-		#syncscroll.reset()
-
 		enter.onscroll = (e) ->
 			answer.scrollTop = enter.scrollTop
 			answer.scrollLeft = enter.scrollLeft

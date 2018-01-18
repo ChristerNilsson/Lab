@@ -64,7 +64,6 @@ setup = function setup() {
     answer.style.left = '50%';
     answer.setAttribute("readonly", true);
     answer.value = makeAnswer();
-    //syncscroll.reset()
     enter.onscroll = function (e) {
       answer.scrollTop = enter.scrollTop;
       return answer.scrollLeft = enter.scrollLeft;
