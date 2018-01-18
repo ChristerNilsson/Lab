@@ -83,6 +83,12 @@ c = new Date()
 // Array
 numbers = [1,2,3] 
 2 == numbers[1]
+numbers.push(47)
+4 == numbers.length
+numbers 
+47 == numbers.pop()
+3 == numbers.length
+numbers
 
 // Object
 person = {fnamn:'David', enamn:'Larsson'}
