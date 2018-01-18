@@ -56,7 +56,7 @@ makeTextArea = ->
 	b.style.position = 'fixed'
 	b.style.top = '30px'
 	b.style.width = 'calc(50vw - 0px)'      
-	b.style.height= 'calc(100vh - 60px)'
+	b.style.height= 'calc(100vh - 100px)' # pga Arduino
 	b.style.resize= 'none'
 
 	#b.style.whitespace = "nowrap"
