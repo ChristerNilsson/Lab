@@ -42,7 +42,7 @@ locationUpdate = (position) ->
 	lastObservation = millis()
 
 	#texts[1] = 
-	texts[3] = "#{track.length}"  
+	texts[1] = "#{track.length}"  
 	texts[6] = "#{Math.round p1.accuracy} m"
 	texts[8] = "#{Math.round heading_12}°"
 	texts[10] = "#{Math.round distance_on_geoid p1,place} m"
@@ -101,7 +101,7 @@ setup = ->
 		if typeof event.webkitCompassHeading != "undefined"
 			bearing = event.webkitCompassHeading # iOS non-standard
 
-		texts[0] = "#{precisionRound (millis()-start)/1000,0}" # sekunder sedan start
+		texts[0] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
 		texts[7] = "#{Math.round (millis() - lastObservation)/1000} s"
 		texts[9] = "#{Math.round bearing}°"
 		delta = calcDelta heading_12-bearing
@@ -125,7 +125,7 @@ setup = ->
 	assert [255,255,0,255], calcColor 270
 	assert [255,255,0,255], calcColor 315
 	assert [255,255,0,255], calcColor 360
-	
+
 drawHouse = (radius) ->
 	fc 1
 	sc()
@@ -209,7 +209,7 @@ drawTexts = ->
 		x = i%2 * w
 		if i%2==0 then textAlign LEFT else textAlign RIGHT
 		y = d*Math.floor i/2
-		if i not in [1,2,8,9,10,11] then text t,x,2*d+y
+		if i not in [2,3,8,9,10,11] then text t,x,2*d+y
 	textAlign LEFT
 	text place.name,0,d
 

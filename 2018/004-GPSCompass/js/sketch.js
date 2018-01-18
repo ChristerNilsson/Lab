@@ -154,7 +154,7 @@ locationUpdate = function locationUpdate(position) {
   heading_12 = calcHeading(p1, place);
   lastObservation = millis();
   //texts[1] = 
-  texts[3] = '' + track.length;
+  texts[1] = '' + track.length;
   texts[6] = Math.round(p1.accuracy) + ' m';
   texts[8] = Math.round(heading_12) + '\xB0';
   texts[10] = Math.round(distance_on_geoid(p1, place)) + ' m';
@@ -228,8 +228,9 @@ setup = function setup() {
     if (typeof event.webkitCompassHeading !== "undefined") {
       bearing = event.webkitCompassHeading; // iOS non-standard
     }
-    texts[0] = '' + precisionRound((millis() - start) / 1000, 0) // sekunder sedan start
-    ;
+    texts[0] = precisionRound((millis() - start) / 1000, 0)
+    // sekunder sedan start
+    + ' s';
     texts[7] = Math.round((millis() - lastObservation) / 1000) + ' s';
     texts[9] = Math.round(bearing) + '\xB0';
     delta = calcDelta(heading_12 - bearing);
@@ -347,7 +348,7 @@ drawTexts = function drawTexts() {
       textAlign(RIGHT);
     }
     y = d * Math.floor(i / 2);
-    if (i !== 1 && i !== 2 && i !== 8 && i !== 9 && i !== 10 && i !== 11) {
+    if (i !== 2 && i !== 3 && i !== 8 && i !== 9 && i !== 10 && i !== 11) {
       text(t, x, 2 * d + y);
     }
   }
