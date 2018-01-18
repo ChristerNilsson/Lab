@@ -75,4 +75,4 @@ fib(x) = x<=0 ? 1 : fib(x-1)+fib(x-2)
 21 == fib(6)
 ```
 
-Observera att den matematiska syntaxen för funktioner INTE fungerar i Javascript eller Coffeescript.
+Observera att den matematiska syntaxen för funktioner inte är den samma som i Javascript/Coffeescript.

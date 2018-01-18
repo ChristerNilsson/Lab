@@ -129,6 +129,7 @@ makeTextArea = function makeTextArea() {
   b.style.resize = 'none';
   //b.style.whitespace = "nowrap"
   b.style.overflow = "hidden";
+  b.style.overflowScroll = "true";
   //b.style.overflowX = "scroll"
   //b.style.overflowY = "scroll"
   b.nowrap = 'nowrap';
