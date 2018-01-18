@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;AAAA,IAAA,KAAA,OAAA,QAAA,MAAA;;AAAA,MAAM;;AAEN,SAAS;;AACT,OAAO;;AACP,QAAQ;;AAER,QAAQ;AAEP,WAAS;AAET,aAAO,AAAI,KAAJ,AAAS,GAAG;AAClB;;QAAA,OAAA,MAAA,QAAA,KAAA;AAAA,aAAS;AACT,YAAQ,AACR;WAAM,UAAW,QAAjB,AAAuB;AACtB;AACA,eAAS;AACT,AAAC,WAAA,AAAK,MAAN,AAAO,YAAY;AACnB,WAAA,OAAA;sBACC;;AACC,kBAAQ,KAAK,YAAA,AAAU,MAAV,AAAc,MAAnB,AAAuB;AAC5B,WAAA,UAAA,AAAC,KAAD,AAAK,OAAL,AAAW,MACb;gBAAA;AAAA,2BAAe,MAAA,AAAI,MAAf,AAAmB,MAAnB,AAAwB,GAAE;qBAC7B,AAAK,MAAL,AAAM,QAAQ,MAAA,AAAI,MADW,AACP;AADnB,aAAA;mBAEJ,AAAC,MAAD,AAAC,OAAD,AAAQ,GAAG,SAHT,AAGF,AAAW,AAAS;AAHrB,AAAG,aAAH,AAAI,KAAJ,AAAQ,OAFT,AAEC,AAAc;AAFf,iBAAA;AAOC,mBAPD,AAOQ;AART;AAJD;;AAcA,AAAC,SAAD,AAAC,OAAO,QAAQ,UAAhB,AAAgB,AAAU;AAC1B,AAAK,UAAL,AAAM;WACH,UAAA,AAAC;mBACH,AAAM,iBAAN,AAAuB,SAAS,UAAA,AAAC;AAChC,AAAK,cAAL,AAAM;AACN,YAAG,AAAK,MAAL,AAAM,YAAT,AAAoB;AACnB,mCAAa,AAAK,MAAC,AAAK,MAAX,AAAY,MAAZ,AAAkB;;;;AAA/B,AAAC;AAAD,AAAK;;AACL,gBAAM,AAAG,IAAH,AAAI;AACV,iBAAO,AAAI,KAAJ,AAAK;AACZ,AAAO,iBAAP,AAAO,OAAO;iBACd,aAAA,AAAa,QALd,AAKC,AAAoB;AAPU;AAD9B,AACF,OAAA,AAAK;AADN,AAAG,KAAA,CAnBe,AAmBlB,AAAI;AAnBE,GAAA;AA6BP,AAAI,OAAJ,AAAK,UAAL,AAAe,SAAS;AACvB,aAAS;WACT,aAAA,AAAa,QAFU,AAEvB,AAAoB;AAFrB;SAIA,AAAI,KArCG,AAqCP,AAAK",
+  "sourcesContent": [
+    "KEY = '008B'\r\n\r\nmemory = {}\r\npage = null\r\nenter = null\r\n\r\nsetup = ->\r\n\r\n\tmemory = fetchData()\r\n\r\n\tpage = new Page 0, ->\r\n\t\tfailed = true\r\n\t\tcount = 0\r\n\t\twhile failed and count<10\r\n\t\t\tcount++\r\n\t\t\tfailed = false\r\n\t\t\t@table.innerHTML = \"\" \r\n\t\t\tfor key,expr of memory\r\n\t\t\t\ttry\r\n\t\t\t\t\tvalue = eval 'window.'+key+'='+expr\r\n\t\t\t\t\tdo (key,value,expr) =>\r\n\t\t\t\t\t\tb = makeButton key+'='+expr,0,->\r\n\t\t\t\t\t\t\tenter.value = key+'='+expr\r\n\t\t\t\t\t\t@addRow b, makeSpan value\r\n\t\t\t\tcatch\r\n\t\t\t\t\tfailed=true\r\n\r\n\t\t@addRow enter = makeInput 'enter'\r\n\t\tenter.focus()\r\n\t\tdo (enter) ->\r\n\t\t\tenter.addEventListener \"keyup\", (event) ->\r\n\t\t\t\tevent.preventDefault()\r\n\t\t\t\tif event.keyCode == 13\r\n\t\t\t\t\t[key,expr] = enter.value.split '='\r\n\t\t\t\t\tkey = key.trim()\r\n\t\t\t\t\texpr = expr.trim()\r\n\t\t\t\t\tmemory[key] = expr\r\n\t\t\t\t\tstoreAndGoto memory,page\r\n\r\n\tpage.addAction 'Clear', -> \r\n\t\tmemory = {} \r\n\t\tstoreAndGoto memory,page\r\n\r\n\tpage.display()\r\n"
+  ]
+}
