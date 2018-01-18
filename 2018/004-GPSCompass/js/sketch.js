@@ -20,6 +20,7 @@ var bearing,
     placeIndex,
     places,
     setup,
+    start,
     texts,
     track,
     w,
@@ -137,6 +138,8 @@ lastObservation = 0;
 
 p1 = null;
 
+start = null; // Starttid. Sätts vid byte av target
+
 texts = ['', '', '', '', '', '', '', '', '', '', '', ''];
 
 locationUpdate = function locationUpdate(position) {
@@ -150,13 +153,12 @@ locationUpdate = function locationUpdate(position) {
   track.push(p1);
   heading_12 = calcHeading(p1, place);
   lastObservation = millis();
-  texts[0] = precisionRound(place.lat, 6);
-  texts[1] = precisionRound(place.lng, 6);
+  texts[0] = '' + precisionRound(millis() / 1000, 0) // sekunder sedan start
+  ;
+  //texts[1] = 
   texts[3] = '' + track.length;
   texts[6] = Math.round(p1.accuracy) + ' m';
   texts[8] = Math.round(heading_12) + '\xB0';
-  //texts[3] = 'nospeed' #p1.spd
-  //texts[4] = p1.timestamp
   texts[10] = Math.round(distance_on_geoid(p1, place)) + ' m';
   if (track.length >= 2) {
     p0 = track[track.length - 2];
@@ -218,6 +220,7 @@ calcColor = function calcColor(delta) {
 };
 
 setup = function setup() {
+  start = millis();
   createCanvas(windowWidth, windowHeight);
   w = windowWidth;
   h = windowHeight;
@@ -344,7 +347,7 @@ drawTexts = function drawTexts() {
       textAlign(RIGHT);
     }
     y = d * Math.floor(i / 2);
-    if (i !== 8 && i !== 9 && i !== 10 && i !== 11) {
+    if (i !== 1 && i !== 2 && i !== 8 && i !== 9 && i !== 10 && i !== 11) {
       text(t, x, 2 * d + y);
     }
   }
@@ -373,10 +376,13 @@ mousePressed = function mousePressed() {
   } else {
     placeIndex--;
   }
+  start = millis();
+  track = [];
   placeIndex = modulo(placeIndex, places.length);
   place = places[placeIndex];
-  texts = ['', '', '', '', '', '', '', '', '', '', '', ''];
-  texts[0] = precisionRound(place.lat, 6);
-  return texts[1] = precisionRound(place.lng, 6);
+  return texts = ['', '', '', '', '', '', '', '', '', '', '', ''];
 };
+
+//texts[0] = precisionRound place.lat,6
+//texts[1] = precisionRound place.lng,6
 //# sourceMappingURL=sketch.js.map

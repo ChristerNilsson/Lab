@@ -25,6 +25,7 @@ bearing = 0
 heading_12 = 0
 lastObservation = 0
 p1 = null
+start = null # Starttid. Sätts vid byte av target
 
 texts = ['','','','','','','','','','','','']
 
@@ -40,13 +41,11 @@ locationUpdate = (position) ->
 	heading_12 = calcHeading p1,place
 	lastObservation = millis()
 
-	texts[0] = precisionRound place.lat,6
-	texts[1] = precisionRound place.lng,6
+	texts[0] = "#{precisionRound millis()/1000,0}" # sekunder sedan start
+	#texts[1] = 
 	texts[3] = "#{track.length}"  
 	texts[6] = "#{Math.round p1.accuracy} m"
 	texts[8] = "#{Math.round heading_12}°"
-	#texts[3] = 'nospeed' #p1.spd
-	#texts[4] = p1.timestamp
 	texts[10] = "#{Math.round distance_on_geoid p1,place} m"
 
 	if track.length >= 2 
@@ -92,6 +91,7 @@ calcColor = (delta) ->
 	res.levels
 
 setup = ->
+	start = millis()
 	createCanvas windowWidth,windowHeight
 	w = windowWidth
 	h = windowHeight	
@@ -208,7 +208,7 @@ drawTexts = ->
 		x = i%2 * w
 		if i%2==0 then textAlign LEFT else textAlign RIGHT
 		y = d*Math.floor i/2
-		if i not in [8,9,10,11] then text t,x,2*d+y
+		if i not in [1,2,8,9,10,11] then text t,x,2*d+y
 	textAlign LEFT
 	text placeIndex + ' ' + place.name,0,d
 
@@ -228,8 +228,10 @@ mousePressed = ->
 
 	else if mouseX > w/2 then placeIndex++
 	else placeIndex--
+	start = millis()
+	track = []
 	placeIndex %%= places.length
 	place = places[placeIndex]
 	texts = ['','','','','','','','','','','','']
-	texts[0] = precisionRound place.lat,6
-	texts[1] = precisionRound place.lng,6
+	#texts[0] = precisionRound place.lat,6
+	#texts[1] = precisionRound place.lng,6
