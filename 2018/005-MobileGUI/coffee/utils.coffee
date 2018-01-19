@@ -30,7 +30,8 @@ makeButton = (title,n,f) ->
 	print title,s
 	b = document.createElement 'input'
 	b.style.width = s
-	b.style.fontSize = "100%"
+	#b.style.fontSize = "100%"
+	b.style.fontSize = '100%'
 	b.style.webkitAppearance = "none"
 	b.style.borderRadius = 0
 	b.style.padding = 0
