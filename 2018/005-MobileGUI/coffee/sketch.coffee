@@ -39,7 +39,7 @@ lastObservation = 0
 p1 = null
 start = null # Starttid. Sätts vid byte av target
 
-texts = ['','','','','','','','','','','','']
+texts = ['tid','dist','pkter','speed','bäring','wait','WBD','','ETA']
 
 storeData = -> localStorage["GPSCompass"] = JSON.stringify places	
 fetchData = ->
@@ -75,7 +75,7 @@ locationUpdate = (position) ->
 	p1 = 
 		lat : position.coords.latitude
 		lng : position.coords.longitude
-		accuracy : position.coords.accuracy # meters
+		#accuracy : position.coords.accuracy # meters
 		timestamp : position.timestamp # milliseconds since 1970
 
 	track.push p1
@@ -83,24 +83,23 @@ locationUpdate = (position) ->
 	heading_12 = calcHeading p1,place
 	lastObservation = millis()
 
-	#texts[1] = 
-	texts[1] = "#{track.length}"  
-	texts[6] = "#{Math.round p1.accuracy} m"
-	texts[8] = "#{Math.round heading_12}°"
-	texts[10] = "#{Math.round distance_on_geoid p1,place} m"
+	texts[1] = "#{Math.round distance_on_geoid p1,place} m"
+	texts[2] = "#{track.length}"  
+	texts[3] = "speed"  
+	#texts[4] = "#{Math.round heading_12}°"
 
-	if track.length >= 2 
-		p0 = track[track.length-2]
-		dt = (p1.timestamp-p0.timestamp)/1000 # seconds
-		ds = distance_on_geoid p0,p1
-		texts[2] = "#{precisionRound dt,3} s"
-		texts[4] = "#{Math.round ds} m"
-		texts[5] = "#{precisionRound ds/dt,1} m/s"
-		texts[9] = "#{Math.round calcHeading p0,p1}°"
+	#if track.length >= 2 
+		#p0 = track[track.length-2]
+		#dt = (p1.timestamp-p0.timestamp)/1000 # seconds
+		#ds = distance_on_geoid p0,p1
+		#texts[2] = "#{precisionRound dt,3} s"
+		#texts[4] = "#{Math.round ds} m"
+		#texts[] = "#{precisionRound ds/dt,1} m/s"
+		#texts[9] = "#{Math.round calcHeading p0,p1}°"
 
 locationUpdateFail = (error) ->
-	texts[0] = "n/a"
-	texts[1] = "n/a"
+	#texts[0] = "n/a"
+	#texts[1] = "n/a"
 
 navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
 	enableHighAccuracy: true
@@ -115,41 +114,47 @@ setupCompass = ->
 			bearing = event.webkitCompassHeading # iOS non-standard
 
 		texts[0] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
-		texts[7] = "#{Math.round (millis() - lastObservation)/1000} s"
-		texts[9] = "#{Math.round bearing}°"
-		delta = calcDelta heading_12-bearing
-		texts[11] = "#{Math.round delta}°"
+		texts[4] = "#{Math.round bearing}°"
+		texts[5] = "#{Math.round (millis() - lastObservation)/1000} s"
+		#delta = calcDelta heading_12-bearing
+		#texts[11] = "#{Math.round delta}°"
 
 drawHouse = (radius) ->
-	fc 1
-	sc()
-	textAlign CENTER,CENTER
-
-	for i in range 4
-		push()
-		translate 0,1.3*radius
-		rd 180
-		text "SWNE"[i],0,0
-		pop()
-		rd 90	
 	push()
 
+	# sju linjer
 	dx = 0.02 * w
 	sc 0
 	sw 1
 	for i in range -3,4
 		line i*4*dx,-1.1*radius,i*4*dx,1.1*radius
 
+	# vit omkrets
 	sc 1
 	sw 5
 	fc()
 	circle 0,0,1.1*radius
 
+	# pilen
 	sc 0
 	sw 1
 	fc 0.5
-	rect -dx,-0.9*radius,2*dx,1.9*radius
-	triangle -1.5*dx,-0.9*radius,0,-1.05*radius,1.5*dx,-0.9*radius
+	rect -dx,-1.05*radius,2*dx,2.1*radius
+	#triangle -1.5*dx,-0.9*radius,0,-1.05*radius,1.5*dx,-0.9*radius
+
+	# fyra väderstreck
+	sc()
+	textAlign CENTER,CENTER
+	textSize 0.06*h
+	for i in range 4
+		push()
+		translate 0,0.95*radius
+		rd 180
+		if i==2 then fc 1,0,0 else fc 0
+		text "SWNE"[i],0,0
+		pop()
+		rd 90	
+
 	pop()
 
 drawNeedle = (radius) ->
@@ -177,19 +182,13 @@ drawCompass = ->
 	sw 5
 	sc 1
 	push()
-	translate 0.5*w,0.7*h
+	translate 0.5*w,0.5*h
 	circle 0,0,1.1*radius
 	push()
 
 	rd -heading_12
 	drawHouse radius
 	pop()
-	textSize 0.08*h
-	fc 1
-	sc()
-	textAlign CENTER
-	text texts[10],0,-2*radius
-	text texts[8],0,-1.6*radius
 	drawNeedle radius
 	pop()
 
@@ -198,14 +197,17 @@ drawTexts = ->
 	d = h/12
 	sc 0.5
 	sw 1
+	n = 3 # columns
 	textSize 0.08*h
 	for t,i in texts
-		x = i%2 * w
-		if i%2==0 then textAlign LEFT else textAlign RIGHT
-		y = d*Math.floor i/2
-		if i not in [2,3,8,9,10,11] then text t,x,2*d+y
+		x = i%n * w
+		if i%n==0 then textAlign LEFT 
+		if i%n==1 then textAlign CENTER 
+		if i%n==2 then textAlign RIGHT
+		y = d*Math.floor i/n
+		if i not in [] then text t,x,d+y
 	textAlign LEFT
-	text place.name,0,d
+	text place.name,0,11.5*d
 
 draw = ->
 	bg 0
@@ -231,8 +233,6 @@ setup = ->
 
 	start = millis()
 
-	#c = createCanvas windowWidth,windowHeight-42 # PC
-	#c = createCanvas windowWidth,windowHeight*0.95 # PC
 	c = createCanvas windowWidth,windowHeight*0.90 # 4s
 	w = width
 	h = height	
