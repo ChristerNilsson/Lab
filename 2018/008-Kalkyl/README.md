@@ -54,6 +54,7 @@ a = "Volvo"
 // Date
 c = new Date() 
 2018 == c.getFullYear()
+c.getHours()
 
 // Array
 numbers = [1,2,3] 
