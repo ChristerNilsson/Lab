@@ -52,7 +52,7 @@ isNumeric = function isNumeric(val) {
 makeButton = function makeButton(title, n, f) {
   var b;
   b = document.createElement('input');
-  b.style.width = Math.floor(100 / n) + "%";
+  b.style.width = "100%"; // "#{Math.floor(100/n)}%"
   b.style.fontSize = "100%";
   b.style.webkitAppearance = "none";
   b.style.borderRadius = 0;
