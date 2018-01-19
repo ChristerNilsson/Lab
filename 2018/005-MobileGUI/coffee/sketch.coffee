@@ -1,6 +1,11 @@
 # https://stackoverflow.com/questions/2010892/storing-objects-in-html5-localstorage
 LINK = "https://christernilsson.github.io/Lab/2018/004-GPSCompass/index.html"
 
+WHITE = null
+GREEN = null
+BLACK = null
+RED   = null
+
 pages = {}
 place = null
 oldName = null
@@ -50,14 +55,10 @@ fetchData = ->
 #  180 = black
 calcColor = (delta) ->
 	# -180 <= delta <= 180
-	white = color 255,255,255
-	green = color 0,255,0
-	black = color 0,0,0
-	red   = color 255,0,0
-	if      -180 <= delta <  -90 then res = lerpColor black, red,  (delta+180)/90
-	else if  -90 <= delta <    0 then res = lerpColor red,   white,(delta+90)/90
-	else if    0 <= delta <   90 then res = lerpColor white, green,(delta+0)/90
-	else if   90 <= delta <= 180 then res = lerpColor green, black,(delta-90)/90
+	if      -180 <= delta <  -90 then res = lerpColor BLACK, RED,  (delta+180)/90
+	else if  -90 <= delta <    0 then res = lerpColor RED,   WHITE,(delta+90)/90
+	else if    0 <= delta <   90 then res = lerpColor WHITE, GREEN,(delta+0)/90
+	else if   90 <= delta <= 180 then res = lerpColor GREEN, BLACK,(delta-90)/90
 	else res = color 255,255,0,255 # error 
 	res.levels
 
@@ -215,6 +216,11 @@ draw = ->
 	drawTexts()
 
 setup = ->
+
+	WHITE = color 255,255,255
+	GREEN = color 0,255,0
+	BLACK = color 0,0,0
+	RED   = color 255,0,0
 
 	test()
 
