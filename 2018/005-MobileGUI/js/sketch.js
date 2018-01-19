@@ -165,7 +165,7 @@ p1 = null;
 
 start = null; // Starttid. Sätts vid byte av target
 
-texts = ['tid', 'dist', 'pkter', 'speed', 'bäring', 'wait', 'WBD', '', 'ETA'];
+texts = ['dist', 'bäring', 'pkter', 'speed', '', 'wait', 'ETA', '', 'tid'];
 
 storeData = function storeData() {
   return localStorage["GPSCompass"] = JSON.stringify(places);
@@ -227,7 +227,7 @@ locationUpdate = function locationUpdate(position) {
   track.push(p1);
   heading_12 = calcHeading(p1, place);
   lastObservation = millis();
-  texts[1] = Math.round(distance_on_geoid(p1, place)) + ' m';
+  texts[0] = Math.round(distance_on_geoid(p1, place)) + ' m';
   texts[2] = '' + track.length;
   return texts[3] = "speed";
 };
@@ -258,10 +258,10 @@ setupCompass = function setupCompass() {
     if (typeof event.webkitCompassHeading !== "undefined") {
       bearing = event.webkitCompassHeading; // iOS non-standard
     }
-    texts[0] = precisionRound((millis() - start) / 1000, 0)
+    texts[8] = precisionRound((millis() - start) / 1000, 0)
     // sekunder sedan start
     + ' s';
-    texts[4] = Math.round(bearing) + '\xB0';
+    texts[1] = Math.round(bearing) + '\xB0';
     return texts[5] = Math.round((millis() - lastObservation) / 1000) + ' s';
   });
 };

@@ -39,7 +39,7 @@ lastObservation = 0
 p1 = null
 start = null # Starttid. Sätts vid byte av target
 
-texts = ['tid','dist','pkter','speed','bäring','wait','WBD','','ETA']
+texts = ['dist','bäring','pkter','speed','','wait','ETA','','tid']
 
 storeData = -> localStorage["GPSCompass"] = JSON.stringify places	
 fetchData = ->
@@ -83,7 +83,7 @@ locationUpdate = (position) ->
 	heading_12 = calcHeading p1,place
 	lastObservation = millis()
 
-	texts[1] = "#{Math.round distance_on_geoid p1,place} m"
+	texts[0] = "#{Math.round distance_on_geoid p1,place} m"
 	texts[2] = "#{track.length}"  
 	texts[3] = "speed"  
 	#texts[4] = "#{Math.round heading_12}°"
@@ -113,8 +113,8 @@ setupCompass = ->
 		if typeof event.webkitCompassHeading != "undefined"
 			bearing = event.webkitCompassHeading # iOS non-standard
 
-		texts[0] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
-		texts[4] = "#{Math.round bearing}°"
+		texts[8] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
+		texts[1] = "#{Math.round bearing}°"
 		texts[5] = "#{Math.round (millis() - lastObservation)/1000} s"
 		#delta = calcDelta heading_12-bearing
 		#texts[11] = "#{Math.round delta}°"
