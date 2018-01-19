@@ -48,7 +48,7 @@ makeInput = (title,value,readonly=false) ->
 	b.id = title
 	b.value = value
 	b.placeholder = title
-	b.style.fontSize = "150%"	
+	b.style.fontSize = "100%"	
 	if readonly then b.setAttribute "readonly", true
 	if title=='name' then b.autofocus = true
 	b.onclick = "this.setSelectionRange(0, this.value.length)"
