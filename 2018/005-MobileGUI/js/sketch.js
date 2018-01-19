@@ -362,8 +362,8 @@ setup = function setup() {
   }
   start = millis();
   c = createCanvas(windowWidth, windowHeight - 25);
-  w = width / 2;
-  h = height;
+  h = width;
+  w = height;
   c.parent('myContainer');
   hideCanvas();
   setupCompass();
