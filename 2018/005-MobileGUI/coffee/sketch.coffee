@@ -84,9 +84,9 @@ locationUpdate = (position) ->
 	lastObservation = millis()
 
 	texts[0] = "#{Math.round distance_on_geoid p1,place} m"
+	texts[1] = "#{Math.round heading_12}°"
 	texts[2] = "#{track.length}"  
 	texts[3] = "speed"  
-	#texts[4] = "#{Math.round heading_12}°"
 
 	#if track.length >= 2 
 		#p0 = track[track.length-2]
@@ -113,9 +113,7 @@ setupCompass = ->
 		if typeof event.webkitCompassHeading != "undefined"
 			bearing = event.webkitCompassHeading # iOS non-standard
 
-		texts[8] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
 		texts[1] = "#{Math.round bearing}°"
-		texts[5] = "#{Math.round (millis() - lastObservation)/1000} s"
 		#delta = calcDelta heading_12-bearing
 		#texts[11] = "#{Math.round delta}°"
 
@@ -176,7 +174,7 @@ drawNeedle = (radius) ->
 		point 0,0
 
 drawCompass = ->
-	radius = 0.25 * w 
+	radius = 0.32 * w 
 	delta = calcDelta heading_12-bearing
 	fill calcColor delta
 	sw 5
@@ -200,17 +198,19 @@ drawTexts = ->
 	n = 3 # columns
 	textSize 0.08*h
 	for t,i in texts
-		x = i%n * w
 		if i%n==0 then textAlign LEFT 
 		if i%n==1 then textAlign CENTER 
 		if i%n==2 then textAlign RIGHT
+		x = i%n * w/2
 		y = d*Math.floor i/n
-		if i not in [] then text t,x,d+y
+		text t,x,d+y
 	textAlign LEFT
 	text place.name,0,11.5*d
 
 draw = ->
 	bg 0
+	texts[5] = "#{Math.round (millis() - lastObservation)/1000} s"
+	texts[8] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
 	drawCompass()
 	drawTexts()
 
