@@ -79,6 +79,7 @@ makeInput = function makeInput(title, value) {
   b.id = title;
   b.value = value;
   b.placeholder = title;
+  b.style.fontSize = "150%";
   if (readonly) {
     b.setAttribute("readonly", true);
   }
