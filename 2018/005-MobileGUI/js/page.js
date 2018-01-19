@@ -23,24 +23,15 @@ Page = function () {
     value: function addAction(title, f) {
       return this.actions.push([title, f]);
     }
-
-    // display : ->
-    // 	# actions
-    // 	elem = document.getElementById 'myActions'
-    // 	elem.innerHTML = ""
-    // 	span = document.createElement "span"
-    // 	span.style.width = '100%'
-    // 	for [title,f] in @actions
-    // 		span.appendChild makeButton title, @actions.length, f
-    // 	elem.appendChild span
-
   }, {
     key: "display",
     value: function display() {
-      var elem, f, i, len, ref, span, title;
+      var b, elem, f, i, len, ref, span, title;
       // actions
       elem = document.getElementById('myActions');
       elem.innerHTML = "";
+      span = document.createElement("span");
+      span.style.width = '100%';
       ref = this.actions;
       for (i = 0, len = ref.length; i < len; i++) {
         var _ref$i = _slicedToArray(ref[i], 2);
@@ -48,10 +39,19 @@ Page = function () {
         title = _ref$i[0];
         f = _ref$i[1];
 
-        span = document.createElement("span");
-        span.appendChild(makeButton(title, 1, f));
-        elem.appendChild(span);
+        span.appendChild(b = makeButton(title, this.actions.length, f));
+        b.fontSize = '150%';
       }
+      elem.appendChild(span);
+      // display : ->
+      // 	# actions
+      // 	elem = document.getElementById 'myActions'
+      // 	elem.innerHTML = ""
+      // 	for [title,f] in @actions
+      // 		span = document.createElement "span"
+      // 		span.appendChild makeButton title, 1, f
+      // 		elem.appendChild span
+
       // init page
       hideCanvas();
       this.table.innerHTML = "";

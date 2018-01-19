@@ -6,24 +6,25 @@ class Page
 
 	addAction : (title, f) -> @actions.push [title,f] 
 
-	# display : ->
-	# 	# actions
-	# 	elem = document.getElementById 'myActions'
-	# 	elem.innerHTML = ""
-	# 	span = document.createElement "span"
-	# 	span.style.width = '100%'
-	# 	for [title,f] in @actions
-	# 		span.appendChild makeButton title, @actions.length, f
-	# 	elem.appendChild span
-
 	display : ->
 		# actions
 		elem = document.getElementById 'myActions'
 		elem.innerHTML = ""
+		span = document.createElement "span"
+		span.style.width = '100%'
 		for [title,f] in @actions
-			span = document.createElement "span"
-			span.appendChild makeButton title, 1, f
-			elem.appendChild span
+			span.appendChild b = makeButton title, @actions.length, f
+			b.fontSize = '150%'
+		elem.appendChild span
+
+	# display : ->
+	# 	# actions
+	# 	elem = document.getElementById 'myActions'
+	# 	elem.innerHTML = ""
+	# 	for [title,f] in @actions
+	# 		span = document.createElement "span"
+	# 		span.appendChild makeButton title, 1, f
+	# 		elem.appendChild span
 
 		# init page
 		hideCanvas()
