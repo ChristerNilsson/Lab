@@ -1,6 +1,5 @@
 panel = ['','','']
 page = null
-enter = null
 state = 0
 
 goto = (p) -> p.display()
@@ -33,7 +32,7 @@ op3 = ->
 
 setup = ->
 
-	page = new Page 4, -> @addRow enter = makeDiv panel[state]
+	page = new Page 4, -> @addRow makeDiv panel[state]
 
 	page.addAction '1', -> op '1'
 	page.addAction '2', -> op '2'
@@ -54,6 +53,5 @@ setup = ->
 	page.addAction '0', -> op '0'
 	page.addAction '=', -> op2() 
 	page.addAction '/', -> op1 '/'
-
 
 	goto page
