@@ -28,6 +28,7 @@ getField = (name) ->
 isNumeric = (val) -> val == Number parseFloat val
 
 makeButton = (title,n,f) ->
+	print 'makeButton',title,n
 	b = document.createElement 'input'
 	b.style.width = "#{Math.floor(100/n)}%"
 	b.style.fontSize = "100%"

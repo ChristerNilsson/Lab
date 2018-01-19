@@ -1,5 +1,4 @@
-test = ->
-	print "test"
+test_calcColor = ->
 	assert [255,255,255,255], calcColor 0
 	assert [128,255,128,255], calcColor 45
 	assert [0,255,0,255], calcColor 90
@@ -19,3 +18,7 @@ test = ->
 	assert [255,255,0,255], calcColor 315
 	assert [255,255,0,255], calcColor 360
 
+test = ->
+	print "test start"
+	test_calcColor()
+	print "test ready"

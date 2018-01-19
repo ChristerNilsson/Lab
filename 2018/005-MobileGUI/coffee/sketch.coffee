@@ -25,8 +25,8 @@ places.push {name:'Ulvsjön, Udden',        lat:59.277103, lng:18.164897}
 placeIndex = 0
 place = places[placeIndex]
 
-w = null
-h = null
+w = null # width
+h = null # height
 track = []
 bearing = 0
 heading_12 = 0
@@ -109,8 +109,6 @@ navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
 GPSCompass_setup = ->
 	start = millis()
 	#createCanvas windowWidth,windowHeight
-	w = windowWidth
-	h = windowHeight	
 
 	window.addEventListener "deviceorientation", (event) ->
 		bearing = event.alpha
@@ -211,6 +209,11 @@ drawTexts = ->
 	textAlign LEFT
 	text place.name,0,d
 
+draw = ->
+	bg 0
+	drawCompass()
+	drawTexts()
+
 setup = ->
 
 	test()
@@ -224,6 +227,9 @@ setup = ->
 		storeData()
 
 	c = createCanvas windowWidth,windowHeight-25
+	w = width
+	h = height	
+
 	c.parent 'myContainer'	
 	hideCanvas()
 
@@ -306,36 +312,6 @@ setup = ->
 		document.execCommand 'copy'
 	pages.Link.addAction 'Ok', -> pages.Nav.display()
 
-	# pages.Del.addAction 'Delete', -> 
-	# 	places = places.filter (e) => e.name != place.name
-	# 	storeData()
-	# 	pages.List.display()
-	# pages.Del.addAction 'Cancel', -> pages.Nav.display()
-
 	# startsida:
 	pages.List.display()
 
-draw = ->
-	bg 0
-	drawCompass()
-	drawTexts()
-
-# mousePressed = ->
-# 	print 'mousePressed',track
-# 	if mouseY > h/2 and track.length>0
-# 		p = track[track.length-1]
-# 		places.push 
-# 			name: prettyDate new Date()
-# 			lat: p.lat
-# 			lng: p.lng
-# 		placeIndex = places.length-1
-
-# 	else if mouseX > w/2 then placeIndex++
-# 	else placeIndex--
-# 	start = millis()
-# 	track = []
-# 	placeIndex %%= places.length
-# 	place = places[placeIndex]
-# 	texts = ['','','','','','','','','','','','']
-# 	#texts[0] = precisionRound place.lat,6
-# 	#texts[1] = precisionRound place.lng,6
