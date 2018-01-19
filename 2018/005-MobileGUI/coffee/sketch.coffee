@@ -232,8 +232,8 @@ setup = ->
 	start = millis()
 
 	c = createCanvas windowWidth,windowHeight-25
-	h = width
-	w = height	
+	w = width
+	h = height	
 
 	c.parent 'myContainer'	
 	hideCanvas()
