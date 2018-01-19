@@ -31,6 +31,7 @@ Page = function () {
       elem = document.getElementById('myActions');
       elem.innerHTML = "";
       span = document.createElement("span");
+      span.style.width = '100%';
       ref = this.actions;
       for (i = 0, len = ref.length; i < len; i++) {
         var _ref$i = _slicedToArray(ref[i], 2);

@@ -11,9 +11,9 @@ class Page
 		elem = document.getElementById 'myActions'
 		elem.innerHTML = ""
 		span = document.createElement "span"
+		span.style.width = '100%'
 		for [title,f] in @actions
 			span.appendChild makeButton title, @actions.length, f
-
 		elem.appendChild span
 
 		# init page
