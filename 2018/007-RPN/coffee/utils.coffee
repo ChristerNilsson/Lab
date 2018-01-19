@@ -2,17 +2,20 @@ class Page
 
 	constructor : (@columns, @init) -> 
 		@table = getElem "table"
-		@actions = []
+		@actions = {}
 
-	addAction : (title, f) -> @actions.push [title,f] 
+	addAction : (title, f) -> @actions[title] = f 
+
+	action : (title) ->	@actions[title]()
 
 	display : ->
 		# actions
-		if @columns==0 then @columns = @actions.length 
+		if @columns==0 then @columns = _.size @actions 
 		elem = getElem 'myActions'
 		elem.innerHTML = ""
 		div = null
-		for [title,f],i in @actions
+		for title,i in _.keys @actions
+			f = @actions[title]
 			do (f) =>
 				if i%@columns==0 then div = document.createElement "div"
 				div.appendChild makeButton title, @columns, f
@@ -30,10 +33,6 @@ class Page
 storeData = (data) -> localStorage["007"] = JSON.stringify data
 fetchData = -> JSON.parse if localStorage["007"] then localStorage["007"] else '[]'
 
-storeAndGoto = (data,page) ->
-	storeData data
-	page.display()
-
 isNumeric = (val) -> val == Number parseFloat val
 getElem = (id) -> document.getElementById id
 
@@ -50,14 +49,18 @@ makeDiv = (value) ->
 	b.innerHTML = value
 	b
 
-makeInput = (title,value='',readonly=false) ->
+makeInput = (options,f) ->
+	#title,value='',readonly=false
 	b = document.createElement 'input'
-	b.id = title
-	b.value = value
-	b.placeholder = title
-	if readonly then b.setAttribute "readonly", true
-	if title=='name' then b.autofocus = true
+	b.id = options.title
+	if options.value then b.value = options.value
+	b.placeholder = options.title
+	if options.readonly then b.setAttribute "readonly", true
+	if options.title=='name' then b.autofocus = true
 	b.onclick = "this.setSelectionRange(0, this.value.length)"
+	do (f) ->
+		b.addEventListener "keyup", (event) ->
+			if event.keyCode == 13 then f()
 	b
 
 makeButton = (title,n,f) ->
