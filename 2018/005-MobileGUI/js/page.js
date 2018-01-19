@@ -40,7 +40,7 @@ Page = function () {
         f = _ref$i[1];
 
         span.appendChild(b = makeButton(title, this.actions.length, f));
-        b.fontSize = '100%';
+        b.style.fontSize = '90%';
       }
       elem.appendChild(span);
       // display : ->

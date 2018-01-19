@@ -14,7 +14,7 @@ class Page
 		span.style.width = '100%'
 		for [title,f] in @actions
 			span.appendChild b = makeButton title, @actions.length, f
-			b.fontSize = '100%'
+			b.style.fontSize = '90%'
 		elem.appendChild span
 
 	# display : ->
