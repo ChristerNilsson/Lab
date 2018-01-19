@@ -23,6 +23,17 @@ Page = function () {
     value: function addAction(title, f) {
       return this.actions.push([title, f]);
     }
+
+    // display : ->
+    // 	# actions
+    // 	elem = document.getElementById 'myActions'
+    // 	elem.innerHTML = ""
+    // 	span = document.createElement "span"
+    // 	span.style.width = '100%'
+    // 	for [title,f] in @actions
+    // 		span.appendChild makeButton title, @actions.length, f
+    // 	elem.appendChild span
+
   }, {
     key: "display",
     value: function display() {
@@ -30,8 +41,6 @@ Page = function () {
       // actions
       elem = document.getElementById('myActions');
       elem.innerHTML = "";
-      span = document.createElement("span");
-      span.style.width = '100%';
       ref = this.actions;
       for (i = 0, len = ref.length; i < len; i++) {
         var _ref$i = _slicedToArray(ref[i], 2);
@@ -39,9 +48,10 @@ Page = function () {
         title = _ref$i[0];
         f = _ref$i[1];
 
-        span.appendChild(makeButton(title, this.actions.length, f));
+        span = document.createElement("span");
+        span.appendChild(makeButton(title, 1, f));
+        elem.appendChild(span);
       }
-      elem.appendChild(span);
       // init page
       hideCanvas();
       this.table.innerHTML = "";
