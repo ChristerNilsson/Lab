@@ -362,7 +362,7 @@ setup = function setup() {
   }
   start = millis();
   c = createCanvas(windowWidth, windowHeight - 25);
-  w = width;
+  w = width / 2;
   h = height;
   c.parent('myContainer');
   hideCanvas();

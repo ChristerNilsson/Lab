@@ -51,9 +51,9 @@ isNumeric = function isNumeric(val) {
 
 makeButton = function makeButton(title, n, f) {
   var b;
-  print(title, Math.floor(w / 2 / n) + "px");
+  print(title, Math.floor(w / n) + "px");
   b = document.createElement('input');
-  b.style.width = Math.floor(w / 2 / n) + "px";
+  b.style.width = Math.floor(w / n) + "px";
   b.style.fontSize = "100%";
   b.style.webkitAppearance = "none";
   b.style.borderRadius = 0;
