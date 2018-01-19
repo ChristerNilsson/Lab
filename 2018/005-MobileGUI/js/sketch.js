@@ -132,7 +132,7 @@ p1 = null;
 
 start = null; // Starttid. Sätts vid byte av target
 
-texts = ['dist', 'bäring', 'pkter', 'speed', '', 'wait', 'ETA', '', 'tid'];
+texts = ['dist', 'bäring', 'pkter', 'speed', '', 'wait', '18:35', '', 'tid'];
 
 storeData = function storeData() {
   return localStorage["GPSCompass"] = JSON.stringify(places);
@@ -188,7 +188,6 @@ locationUpdate = function locationUpdate(position) {
   p1 = {
     lat: position.coords.latitude,
     lng: position.coords.longitude,
-    //accuracy : position.coords.accuracy # meters
     timestamp: position.timestamp // milliseconds since 1970
   };
   track.push(p1);
@@ -200,18 +199,8 @@ locationUpdate = function locationUpdate(position) {
   return texts[3] = "speed";
 };
 
-//if track.length >= 2 
-//p0 = track[track.length-2]
-//dt = (p1.timestamp-p0.timestamp)/1000 # seconds
-//ds = distance_on_geoid p0,p1
-//texts[2] = "#{precisionRound dt,3} s"
-//texts[4] = "#{Math.round ds} m"
-//texts[] = "#{precisionRound ds/dt,1} m/s"
-//texts[9] = "#{Math.round calcHeading p0,p1}°"
 locationUpdateFail = function locationUpdateFail(error) {};
 
-//texts[0] = "n/a"
-//texts[1] = "n/a"
 navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
   enableHighAccuracy: true,
   maximumAge: 30000,
@@ -228,16 +217,14 @@ setupCompass = function setupCompass() {
   });
 };
 
-//delta = calcDelta heading_12-bearing
-//texts[11] = "#{Math.round delta}°"
 drawHouse = function drawHouse(radius) {
   var dx, i, j, k, len, len1, ref, ref1;
   push();
-  // sju linjer
+  // nio linjer
   dx = 0.02 * w;
   sc(0);
   sw(1);
-  ref = range(-3, 4);
+  ref = range(-4, 5);
   for (j = 0, len = ref.length; j < len; j++) {
     i = ref[j];
     line(i * 4 * dx, -1.1 * radius, i * 4 * dx, 1.1 * radius);
@@ -249,11 +236,8 @@ drawHouse = function drawHouse(radius) {
   circle(0, 0, 1.1 * radius);
   // pilen
   sc(0);
-  sw(1);
-  fc(0.5);
-  rect(-dx, -1.05 * radius, 2 * dx, 2.1 * radius);
-  //triangle -1.5*dx,-0.9*radius,0,-1.05*radius,1.5*dx,-0.9*radius
-
+  sw(0.05 * h);
+  line(0, -1.01 * radius, 0, 1.01 * radius);
   // fyra väderstreck
   sc();
   textAlign(CENTER, CENTER);
@@ -262,9 +246,11 @@ drawHouse = function drawHouse(radius) {
   for (k = 0, len1 = ref1.length; k < len1; k++) {
     i = ref1[k];
     push();
-    translate(0, 0.95 * radius);
+    translate(0, 0.96 * radius);
     rd(180);
-    if (i === 2) {
+    if (i === 0) {
+      fc(1);
+    } else if (i === 2) {
       fc(1, 0, 0);
     } else {
       fc(0);
@@ -280,14 +266,14 @@ drawNeedle = function drawNeedle(radius) {
   try {
     rd(-bearing);
     sc(0);
-    sw(0.025 * h);
+    sw(0.035 * h);
     line(0, -0.95 * radius, 0, 0.95 * radius);
     sc(1);
-    sw(0.02 * h);
+    sw(0.030 * h);
     line(0, 0, 0, 0.95 * radius);
     sc(1, 0, 0);
     line(0, 0, 0, -0.95 * radius);
-    sw(0.025 * h);
+    sw(0.035 * h);
     sc(0);
     return point(0, 0);
   } catch (error1) {}
@@ -295,7 +281,7 @@ drawNeedle = function drawNeedle(radius) {
 
 drawCompass = function drawCompass() {
   var delta, radius;
-  radius = 0.32 * w;
+  radius = 0.33 * w;
   delta = calcDelta(heading_12 - bearing);
   fill(calcColor(delta));
   sw(5);
@@ -335,7 +321,7 @@ drawTexts = function drawTexts() {
     text(t, x, d + y);
   }
   textAlign(LEFT);
-  return text(place.name, 0, 11.5 * d);
+  return text(place.name, 0, 11.7 * d);
 };
 
 draw = function draw() {

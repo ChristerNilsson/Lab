@@ -39,7 +39,7 @@ lastObservation = 0
 p1 = null
 start = null # Starttid. Sätts vid byte av target
 
-texts = ['dist','bäring','pkter','speed','','wait','ETA','','tid']
+texts = ['dist','bäring','pkter','speed','','wait','18:35','','tid']
 
 storeData = -> localStorage["GPSCompass"] = JSON.stringify places	
 fetchData = ->
@@ -75,7 +75,6 @@ locationUpdate = (position) ->
 	p1 = 
 		lat : position.coords.latitude
 		lng : position.coords.longitude
-		#accuracy : position.coords.accuracy # meters
 		timestamp : position.timestamp # milliseconds since 1970
 
 	track.push p1
@@ -88,18 +87,7 @@ locationUpdate = (position) ->
 	texts[2] = "#{track.length}"  
 	texts[3] = "speed"  
 
-	#if track.length >= 2 
-		#p0 = track[track.length-2]
-		#dt = (p1.timestamp-p0.timestamp)/1000 # seconds
-		#ds = distance_on_geoid p0,p1
-		#texts[2] = "#{precisionRound dt,3} s"
-		#texts[4] = "#{Math.round ds} m"
-		#texts[] = "#{precisionRound ds/dt,1} m/s"
-		#texts[9] = "#{Math.round calcHeading p0,p1}°"
-
 locationUpdateFail = (error) ->
-	#texts[0] = "n/a"
-	#texts[1] = "n/a"
 
 navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
 	enableHighAccuracy: true
@@ -109,22 +97,18 @@ navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
 setupCompass = ->
 	window.addEventListener "deviceorientation", (event) ->
 		bearing = event.alpha
-
 		if typeof event.webkitCompassHeading != "undefined"
 			bearing = event.webkitCompassHeading # iOS non-standard
-
 		texts[1] = "#{Math.round bearing}°"
-		#delta = calcDelta heading_12-bearing
-		#texts[11] = "#{Math.round delta}°"
 
 drawHouse = (radius) ->
 	push()
 
-	# sju linjer
+	# nio linjer
 	dx = 0.02 * w
 	sc 0
 	sw 1
-	for i in range -3,4
+	for i in range -4,5
 		line i*4*dx,-1.1*radius,i*4*dx,1.1*radius
 
 	# vit omkrets
@@ -135,10 +119,8 @@ drawHouse = (radius) ->
 
 	# pilen
 	sc 0
-	sw 1
-	fc 0.5
-	rect -dx,-1.05*radius,2*dx,2.1*radius
-	#triangle -1.5*dx,-0.9*radius,0,-1.05*radius,1.5*dx,-0.9*radius
+	sw 0.05*h
+	line 0,-1.01*radius,0,1.01*radius
 
 	# fyra väderstreck
 	sc()
@@ -146,9 +128,11 @@ drawHouse = (radius) ->
 	textSize 0.06*h
 	for i in range 4
 		push()
-		translate 0,0.95*radius
+		translate 0,0.96*radius
 		rd 180
-		if i==2 then fc 1,0,0 else fc 0
+		if i==0 then fc 1 
+		else if i==2 then fc 1,0,0 
+		else fc 0
 		text "SWNE"[i],0,0
 		pop()
 		rd 90	
@@ -160,21 +144,21 @@ drawNeedle = (radius) ->
 		rd -bearing
 
 		sc 0
-		sw 0.025*h
+		sw 0.035*h
 		line 0,-0.95*radius,0,0.95*radius
 
 		sc 1
-		sw 0.02*h
+		sw 0.030*h
 		line 0,0,0,0.95*radius
 		sc 1,0,0
 		line 0,0,0,-0.95*radius
 
-		sw 0.025*h
+		sw 0.035*h
 		sc 0
 		point 0,0
 
 drawCompass = ->
-	radius = 0.32 * w 
+	radius = 0.33 * w 
 	delta = calcDelta heading_12-bearing
 	fill calcColor delta
 	sw 5
@@ -205,7 +189,7 @@ drawTexts = ->
 		y = d*Math.floor i/n
 		text t,x,d+y
 	textAlign LEFT
-	text place.name,0,11.5*d
+	text place.name,0,11.7*d
 
 draw = ->
 	bg 0
