@@ -361,7 +361,7 @@ setup = function setup() {
     storeData();
   }
   start = millis();
-  c = createCanvas(windowWidth, windowHeight - 25);
+  c = createCanvas(windowWidth, windowHeight - 42);
   w = width;
   h = height;
   c.parent('myContainer');

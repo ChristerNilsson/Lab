@@ -231,7 +231,7 @@ setup = ->
 
 	start = millis()
 
-	c = createCanvas windowWidth,windowHeight-25
+	c = createCanvas windowWidth,windowHeight-42
 	w = width
 	h = height	
 
