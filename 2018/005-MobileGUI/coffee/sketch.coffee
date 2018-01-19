@@ -71,12 +71,12 @@ showCanvas = ->
 	elem.style.display = 'block'
 
 locationUpdate = (position) ->
-	#print 'locationUpdate', position
+	print 'locationUpdate', position
 	p1 = 
 		lat : position.coords.latitude
 		lng : position.coords.longitude
-		accuracy : position.coords.accuracy
-		timestamp : position.timestamp/1000
+		accuracy : position.coords.accuracy # meters
+		timestamp : position.timestamp # milliseconds since 1970
 
 	track.push p1
 
@@ -91,7 +91,7 @@ locationUpdate = (position) ->
 
 	if track.length >= 2 
 		p0 = track[track.length-2]
-		dt = p1.timestamp-p0.timestamp
+		dt = (p1.timestamp-p0.timestamp)/1000 # seconds
 		ds = distance_on_geoid p0,p1
 		texts[2] = "#{precisionRound dt,3} s"
 		texts[4] = "#{Math.round ds} m"
@@ -107,10 +107,7 @@ navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
 	maximumAge: 30000
 	timeout: 27000
 
-GPSCompass_setup = ->
-	start = millis()
-	#createCanvas windowWidth,windowHeight
-
+setupCompass = ->
 	window.addEventListener "deviceorientation", (event) ->
 		bearing = event.alpha
 
@@ -232,6 +229,8 @@ setup = ->
 		places.push parameters
 		storeData()
 
+	start = millis()
+
 	c = createCanvas windowWidth,windowHeight-25
 	w = width
 	h = height	
@@ -239,7 +238,7 @@ setup = ->
 	c.parent 'myContainer'	
 	hideCanvas()
 
-	GPSCompass_setup()
+	setupCompass()
 
 	pages.List = new Page ->
 		for p,i in places
@@ -284,9 +283,16 @@ setup = ->
 	pages.Edit.addAction 'Cancel', -> pages.List.display()
 
 	pages.Add = new Page ->
-		@addRow makeInput 'name', track[-1].name
-		@addRow makeInput 'lat',  track[-1].lat
-		@addRow makeInput 'lng',  track[-1].lng
+		if track.length > 0
+			last = _.last track
+			print last 
+			@addRow makeInput 'name', prettyDate new Date last.timestamp
+			@addRow makeInput 'lat',  last.lat
+			@addRow makeInput 'lng',  last.lng
+		else
+			@addRow makeInput 'name', 'Missing'
+			@addRow makeInput 'lat',  0
+			@addRow makeInput 'lng',  0
 		document.getElementById("name").focus()
 		document.getElementById("name").select()
 	pages.Add.addAction	'Save', -> 
