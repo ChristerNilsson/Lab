@@ -2,7 +2,7 @@
 
 # Syfte
 
-En enkel elektronisk kompass som givet ett geografiskt mål anger i vilken riktning man ska gå.
+En enkel elektronisk kompass som givet ett geografiskt mål anger i vilken riktning man ska röra sig.
 
 * Skärmen visar riktning och avstånd mot målet.
 * Kompasshus och kompassnål ska överensstämma.
@@ -37,9 +37,18 @@ En enkel elektronisk kompass som givet ett geografiskt mål anger i vilken riktn
 
 # Att tänka på.
 
-* Följ inte slaviskt riktningen som anges.
+* Följ inte slaviskt riktningen som anges. 
 * Ibland måste kringgående rörelser ske. Orsak kan vara sjöar, privata tomter, oländig terräng osv.
 * Störst nytta har man troligen i skogsterräng där stigar saknas på Google Maps. 
-* Spara koordinaterna när man parkerar sitt fordon.
-* Skicka länk med koordinater till en någon. Denna person behöver inte ha någon app installerad, utan ser kompass med riktning omedelbart. Dock krävs GPS-mottagning och kompassfunktionalitet.
 * Se till att ha med extra batterier eller USB-laddare till telefonen.
+
+# Spara koordinater
+
+* Var parkerade du ditt fordon?
+* Badplatsen 
+* Picknickstället med perfekt sol och vindskydd
+* Kantarellstället
+
+# Skicka koordinater
+
+* Skicka länkar med koordinater. Mottagaren behöver inte ha någon app installerad, utan ser kompass med riktning omedelbart. Dock krävs GPS-mottagning och kompassfunktionalitet.
