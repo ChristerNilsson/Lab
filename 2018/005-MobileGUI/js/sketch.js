@@ -363,7 +363,7 @@ setup = function setup() {
   start = millis();
   //c = createCanvas windowWidth,windowHeight-42 # PC
   //c = createCanvas windowWidth,windowHeight*0.95 # PC
-  c = createCanvas(windowWidth, windowHeight * 0.85); // 4s
+  c = createCanvas(windowWidth, windowHeight * 0.90); // 4s
   w = width;
   h = height;
   c.parent('myContainer');
