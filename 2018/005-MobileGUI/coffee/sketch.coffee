@@ -233,7 +233,7 @@ setup = ->
 
 	#c = createCanvas windowWidth,windowHeight-42 # PC
 	#c = createCanvas windowWidth,windowHeight*0.95 # PC
-	c = createCanvas windowWidth,windowHeight*0.9 # 4s
+	c = createCanvas windowWidth,windowHeight*0.85 # 4s
 	w = width
 	h = height	
 
