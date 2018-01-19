@@ -26,7 +26,6 @@ getField = (name) ->
 isNumeric = (val) -> val == Number parseFloat val
 
 makeButton = (title,n,f) ->
-	print 'makeButton',title,n
 	b = document.createElement 'input'
 	b.style.width = "#{Math.floor(100/n)}%"
 	b.style.fontSize = "100%"
@@ -43,15 +42,23 @@ makeDiv = (value) ->
 	b.innerHTML = value
 	b
 
+# makeHidden = (title,value) ->
+# 	b = document.createElement 'input'
+# 	b.id = title
+# 	b.type = 'hidden'
+# 	b.value = value
+# 	b
+
 makeInput = (title,value,readonly=false) ->
 	b = document.createElement 'input'
 	b.id = title
 	b.value = value
 	b.placeholder = title
 	b.style.fontSize = "100%"	
+	b.style.width = "100%"
 	if readonly then b.setAttribute "readonly", true
 	if title=='name' then b.autofocus = true
-	b.onclick = "this.setSelectionRange(0, this.value.length)"
+	#b.onclick = "this.setSelectionRange(0, this.value.length)"
 	b
 
 precisionRound = (number, precision) ->

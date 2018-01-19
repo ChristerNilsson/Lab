@@ -116,9 +116,9 @@ placeIndex = 0;
 
 place = places[placeIndex];
 
-w = null; // width
+w = null;
 
-h = null; // height
+h = null;
 
 track = [];
 
@@ -166,7 +166,7 @@ calcColor = function calcColor(delta) {
   } else if (90 <= delta && delta <= 180) {
     res = lerpColor(GREEN, BLACK, (delta - 90) / 90);
   } else {
-    res = color(255, 255, 0, 255); // error 
+    res = color(255, 255, 0, 255); // yellow, error 
   }
   return res.levels;
 };
@@ -456,9 +456,9 @@ setup = function setup() {
     return pages.List.display();
   });
   pages.Add = new Page(function () {
-    this.addRow(makeInput('name', '2018-01-15 12:34:56'));
-    this.addRow(makeInput('lat', '59.123456'));
-    this.addRow(makeInput('lng', '18.123456'));
+    this.addRow(makeInput('name', track[-1].name));
+    this.addRow(makeInput('lat', track[-1].lat));
+    this.addRow(makeInput('lng', track[-1].lng));
     document.getElementById("name").focus();
     return document.getElementById("name").select();
   });

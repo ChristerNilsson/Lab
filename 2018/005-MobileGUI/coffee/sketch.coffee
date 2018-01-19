@@ -30,8 +30,8 @@ places.push {name:'Ulvsjön, Udden',        lat:59.277103, lng:18.164897}
 placeIndex = 0
 place = places[placeIndex]
 
-w = null # width
-h = null # height
+w = null 
+h = null 
 track = []
 bearing = 0
 heading_12 = 0
@@ -59,7 +59,7 @@ calcColor = (delta) ->
 	else if  -90 <= delta <    0 then res = lerpColor RED,   WHITE,(delta+90)/90
 	else if    0 <= delta <   90 then res = lerpColor WHITE, GREEN,(delta+0)/90
 	else if   90 <= delta <= 180 then res = lerpColor GREEN, BLACK,(delta-90)/90
-	else res = color 255,255,0,255 # error 
+	else res = color 255,255,0,255 # yellow, error 
 	res.levels
 
 hideCanvas = ->
@@ -284,9 +284,9 @@ setup = ->
 	pages.Edit.addAction 'Cancel', -> pages.List.display()
 
 	pages.Add = new Page ->
-		@addRow makeInput 'name','2018-01-15 12:34:56'
-		@addRow makeInput 'lat','59.123456'
-		@addRow makeInput 'lng','18.123456'
+		@addRow makeInput 'name', track[-1].name
+		@addRow makeInput 'lat',  track[-1].lat
+		@addRow makeInput 'lng',  track[-1].lng
 		document.getElementById("name").focus()
 		document.getElementById("name").select()
 	pages.Add.addAction	'Save', -> 
