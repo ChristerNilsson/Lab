@@ -104,7 +104,6 @@ calcSpeed = (ta,tp,a,p) ->
 
 calcETA = (ta,tp,a,p,b) ->
 	ap = distance_on_geoid a,p # meter
-	ap = 1
 	pb = distance_on_geoid p,b # meter 
 	if ap>0 then (tp-ta) * (ap+pb)/ap/1000 else 0 # sekunder
 
