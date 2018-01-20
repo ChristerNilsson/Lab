@@ -83,7 +83,7 @@ calcETA = function calcETA(ta, tp, a, p, b) {
   ap = distance_on_geoid(a, p); // meter
   pb = distance_on_geoid(p, b); // meter 
   if (ap > 0) {
-    return dt * (ap + pb) / ap;
+    return dt / ap * (ap + pb);
   } else {
     return 0; // sekunder	
   }

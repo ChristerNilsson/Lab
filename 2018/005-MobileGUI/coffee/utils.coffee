@@ -57,7 +57,7 @@ calcETA = (ta,tp,a,p,b) ->
 	dt = (tp-ta)/1000 # sekunder	
 	ap = distance_on_geoid a,p # meter
 	pb = distance_on_geoid p,b # meter 
-	if ap>0 then dt*(ap+pb)/ap else 0 # sekunder	
+	if ap>0 then dt/ap*(ap+pb) else 0 # sekunder	
 tests.calcETA = ->
 	a  = {lat:59.000000, lng:18.100000}
 	b  = {lat:59.200000, lng:18.100000}

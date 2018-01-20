@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "compass.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\compass.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA;;AAAA,eAAe;gBACd,AAAO,iBAAP,AAAwB,qBAAqB,UAAA,AAAC,OAC7C;QAAA;AAAA,cAAU,AAAK,MAAC;AAChB,QAAG,OAAO,AAAK,MAAZ,AAAa,yBAAhB,AAAwC;aACvC,UAAU,AAAK,MADhB,AACiB;AAH2B;AAD/B,AACd,GAAA,AAAM;;;AADP",
+  "sourcesContent": [
+    "setupCompass = ->\r\n\twindow.addEventListener \"deviceorientation\", (event) ->\r\n\t\tbearing = event.alpha\r\n\t\tif typeof event.webkitCompassHeading != \"undefined\"\r\n\t\t\tbearing = event.webkitCompassHeading # iOS non-standard\r\n\t\t#texts[1] = \"#{Math.round bearing}°\"\r\n\r\n"
+  ]
+}
