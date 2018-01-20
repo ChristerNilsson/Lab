@@ -213,10 +213,10 @@ setup = ->
 	pages.Link = new Page -> 
 		@addRow makeDiv 'The Link is now on the Clipboard. Mail it to a friend.'
 		@addRow link = makeInput 'link', "" #, true
-		link.value += encodeURI "#{LINK}?name=#{place.name}&lat=#{place.lat}&lng=#{place.lng}\n" 
+		link.value += encodeURI "#{LINK}?name=#{place.name}&lat=#{place.lat}&lng=#{place.lng}" + "\n"
 		if track.length > 0
 			curr = _.last track
-			link.value += encodeURI "#{LINK}?name=#{curr.timestamp}&lat=#{curr.lat}&lng=#{curr.lng}\n"
+			link.value += encodeURI "#{LINK}?name=#{curr.timestamp}&lat=#{curr.lat}&lng=#{curr.lng}" + "\n"
 		link.focus()
 		link.select()
 		document.execCommand 'copy'
