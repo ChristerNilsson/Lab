@@ -42,6 +42,7 @@ heading_12 = 0
 lastObservation = 0
 p1 = null
 start = null # Starttid. Sätts vid byte av target
+startDate = null
 
 texts = ['dist','bäring','ETA','km/h','','wait','punkter','','tid','destination']
 
@@ -80,7 +81,7 @@ locationUpdate = (position) ->
 
 	texts[0] = prettyDist distance_on_geoid p1,place
 	texts[1] = "#{Math.round heading_12}°"
-	texts[6] = "#{track.length}" 
+	texts[6] = track.length 
 	if track.length > 1
 		speed     = calcSpeed     start, millis(), track[0], _.last(track), place
 		totalTime = calcTotalTime start, millis(), track[0], _.last(track), place
@@ -139,6 +140,7 @@ setup = ->
 	pages.Nav = new Page -> 
 		texts[9] = place.name
 		start = millis()
+		startDate = new Date()
 		track = []
 		lastObservation = millis()
 		showCanvas()
