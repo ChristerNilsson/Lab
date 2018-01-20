@@ -79,8 +79,8 @@ locationUpdate = (position) ->
 	texts[1] = "#{Math.round heading_12}°"
 	texts[2] = "#{track.length}" 
 	if track.length > 1
-		speed = calcSpeed start, millis(), track[0], place, _.last(track)
-		eta   = calcETA   start, millis(), track[0], place, _.last(track)
+		speed = calcSpeed start, millis(), track[0], _.last(track), place
+		eta   = calcETA   start, millis(), track[0], _.last(track), place
 		texts[3] = "#{precisionRound speed,1} m/s"  
 		texts[6] = "#{precisionRound eta,  0} s"
 
@@ -189,13 +189,6 @@ drawTexts = ->
 	text place.name,0,11.7*d
 
 setup = ->
-
-	# p1 = {lat:59.265205, lng:18.132735}
-	# p2 = {lat:59.265206, lng:18.132735}
-	# p3 = {lat:59.265205, lng:18.132736}
-	# print distance_on_geoid p1,p2
-	# print distance_on_geoid p1,p3
-	# print distance_on_geoid p2,p3
 
 	WHITE = color 255,255,255
 	GREEN = color 0,255,0
