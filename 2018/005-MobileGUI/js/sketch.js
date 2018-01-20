@@ -375,11 +375,19 @@ setup = function setup() {
     return pages.Nav.display();
   });
   pages.Link = new Page(function () {
-    this.addRow(makeInput('link', encodeURI(LINK + '?name=' + place.name + '&lat=' + place.lat + '&lng=' + place.lng, true)));
+    var curr, link;
     this.addRow(makeDiv('The Link is now on the Clipboard. Mail it to a friend.'));
-    document.getElementById("link").focus();
-    document.getElementById("link").select();
-    return document.execCommand('copy');
+    this.addRow(link = makeInput('link', "")); //, true
+    link.value += encodeURI(LINK + '?name=' + place.name + '&lat=' + place.lat + '&lng=' + place.lng + '\n');
+    if (track.length > 0) {
+      curr = _.last(track);
+      link.value += encodeURI(LINK + '?name=' + curr.timestamp + '&lat=' + curr.lat + '&lng=' + curr.lng + '\n');
+    }
+    link.focus();
+    link.select();
+    document.execCommand('copy');
+    link.value = '';
+    return link.style.display = 'none';
   });
   pages.Link.addAction('Ok', function () {
     return pages.Nav.display();

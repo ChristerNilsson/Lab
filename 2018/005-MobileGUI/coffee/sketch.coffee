@@ -211,11 +211,17 @@ setup = ->
 	pages.Del.addAction 'Cancel', -> pages.Nav.display()
 
 	pages.Link = new Page -> 
-		@addRow makeInput 'link', encodeURI "#{LINK}?name=#{place.name}&lat=#{place.lat}&lng=#{place.lng}",true
 		@addRow makeDiv 'The Link is now on the Clipboard. Mail it to a friend.'
-		document.getElementById("link").focus()
-		document.getElementById("link").select()
+		@addRow link = makeInput 'link', "" #, true
+		link.value += encodeURI "#{LINK}?name=#{place.name}&lat=#{place.lat}&lng=#{place.lng}\n" 
+		if track.length > 0
+			curr = _.last track
+			link.value += encodeURI "#{LINK}?name=#{curr.timestamp}&lat=#{curr.lat}&lng=#{curr.lng}\n"
+		link.focus()
+		link.select()
 		document.execCommand 'copy'
+		link.value = ''
+		link.style.display = 'none'
 	pages.Link.addAction 'Ok', -> pages.Nav.display()
 
 	# startsida:
