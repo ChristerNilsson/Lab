@@ -85,26 +85,26 @@ tests.calcHeading = ->
 	assert  45.74342946571903, calcHeading p,b 
 	assert 225.82921355457827, calcHeading b,p 
 
-# calcSpeed = (ta,tp,a,p,b) -> # anger den hastighet man har från startpunkten
-# 	dt = (tp-ta)/1000 # sekunder
-# 	ap = distance_on_geoid a,p # meter
-# 	if dt>0 then ap/dt else 0 # m/s
-# tests.calcSpeed = ->
-# 	a = {lat:59.000000, lng:18.100000}
-# 	b = {lat:59.100000, lng:18.100000}
-# 	p = {lat:59.050000, lng:18.000000}
-# 	assert 7.978798475908504, calcSpeed 0,1000000,a,p,b # 1000 sekunder
-
-calcSpeed = (ta,tp,a,p,b) -> # anger den hastighet man närmar sig målet med. Typ vmg utan vinklar
-	ab = distance_on_geoid a,b # meter
-	pb = distance_on_geoid p,b # meter
+calcSpeed = (ta,tp,a,p,b) -> # anger den hastighet man har från startpunkten
 	dt = (tp-ta)/1000 # sekunder
-	if dt>0 then (ab-pb)/dt else 0 # m/s
+	ap = distance_on_geoid a,p # meter
+	if dt>0 then ap/dt else 0 # m/s
 tests.calcSpeed = ->
 	a = {lat:59.000000, lng:18.100000}
 	b = {lat:59.100000, lng:18.100000}
 	p = {lat:59.050000, lng:18.000000}
-	assert 3.1466610127605774, calcSpeed 0,1000000,a,p,b # 1000 sekunder
+	assert 7.978798475908504, calcSpeed 0,1000000,a,p,b # 1000 sekunder
+
+# calcSpeed = (ta,tp,a,p,b) -> # anger den hastighet man närmar sig målet med. Typ vmg utan vinklar
+# 	ab = distance_on_geoid a,b # meter
+# 	pb = distance_on_geoid p,b # meter
+# 	dt = (tp-ta)/1000 # sekunder
+# 	if dt>0 then (ab-pb)/dt else 0 # m/s
+# tests.calcSpeed = ->
+# 	a = {lat:59.000000, lng:18.100000}
+# 	b = {lat:59.100000, lng:18.100000}
+# 	p = {lat:59.050000, lng:18.000000}
+# 	assert 3.1466610127605774, calcSpeed 0,1000000,a,p,b # 1000 sekunder
 
 # https://cdn.rawgit.com/chrisveness/geodesy/v1.1.2/latlon-spherical.js
 distance_on_geoid = (p1,p2) ->
