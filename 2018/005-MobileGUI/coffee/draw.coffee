@@ -55,7 +55,7 @@ drawNeedle = (radius) ->
 		point 0,0
 
 drawCompass = ->
-	radius = 0.4 * w 
+	radius = 0.35 * w 
 	delta = calcDelta heading_12-bearing
 	fill calcColor delta
 	sw 5
@@ -80,7 +80,7 @@ drawTexts = ->
 	helpTexts = ['Distance','Bearing','ETA','Speed','','Time','Points','','Delay','Destination']
 	if normal==1 then currTexts = helpTexts else currTexts = texts  
 
-	textSize 0.07*h
+	textSize 0.08*h
 	for t,i in currTexts
 		if i%n==0 then textAlign LEFT 
 		if i%n==1 then textAlign CENTER 

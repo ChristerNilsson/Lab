@@ -67,7 +67,7 @@ drawNeedle = function drawNeedle(radius) {
 
 drawCompass = function drawCompass() {
   var delta, radius;
-  radius = 0.4 * w;
+  radius = 0.35 * w;
   delta = calcDelta(heading_12 - bearing);
   fill(calcColor(delta));
   sw(5);
@@ -96,7 +96,7 @@ drawTexts = function drawTexts() {
   } else {
     currTexts = texts;
   }
-  textSize(0.07 * h);
+  textSize(0.08 * h);
   for (i = j = 0, len = currTexts.length; j < len; i = ++j) {
     t = currTexts[i];
     if (i % n === 0) {
