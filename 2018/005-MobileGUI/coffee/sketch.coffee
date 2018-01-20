@@ -1,5 +1,7 @@
 # https://stackoverflow.com/questions/2010892/storing-objects-in-html5-localstorage
-LINK = "https://christernilsson.github.io/Lab/2018/004-GPSCompass/index.html"
+# sex decimaler motsvarar 11 cm resp 5 cm precision i sista siffran.
+
+LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
 
 WHITE = null
 GREEN = null
@@ -45,22 +47,6 @@ storeData = -> localStorage["GPSCompass"] = JSON.stringify places
 fetchData = ->
 	data = localStorage["GPSCompass"]
 	if data then places = JSON.parse data 
-	#print 'fetchData',data
-
-# Visa vinkelavvikelse med färgton. 
-# -180 = black
-#  -90 = red
-#    0 = white
-#   90 = green 
-#  180 = black
-calcColor = (delta) ->
-	# -180 <= delta <= 180
-	if      -180 <= delta <  -90 then res = lerpColor BLACK, RED,  (delta+180)/90
-	else if  -90 <= delta <    0 then res = lerpColor RED,   WHITE,(delta+90)/90
-	else if    0 <= delta <   90 then res = lerpColor WHITE, GREEN,(delta+0)/90
-	else if   90 <= delta <= 180 then res = lerpColor GREEN, BLACK,(delta-90)/90
-	else res = color 255,255,0,255 # yellow, error 
-	res.levels
 
 hideCanvas = ->
 	elem = document.getElementById 'myContainer'
@@ -92,20 +78,11 @@ locationUpdate = (position) ->
 	texts[0] = "#{Math.round distance_on_geoid p1,place} m"
 	texts[1] = "#{Math.round heading_12}°"
 	texts[2] = "#{track.length}" 
-	speed = calcSpeed start,millis(),track[0],_.last(track)
-	eta = calcETA start,millis(),track[0],_.last(track),place
-	texts[3] = "#{precisionRound speed,1} m/s"  
-	texts[6] = "#{precisionRound eta,0} s"
-
-calcSpeed = (ta,tp,a,p) ->
-	ds = distance_on_geoid a,p # meter
-	dt = (tp-ta)/1000 # sekunder
-	if dt>0 then ds/dt else 0 # m/s
-
-calcETA = (ta,tp,a,p,b) ->
-	ap = distance_on_geoid a,p # meter
-	pb = distance_on_geoid p,b # meter 
-	if ap>0 then (tp-ta) * (ap+pb)/ap/1000 else 0 # sekunder
+	if track.length > 1
+		speed = calcSpeed start,millis(),track[0],_.last(track)
+		eta = calcETA start,millis(),track[0],_.last(track),place
+		texts[3] = "#{precisionRound speed,1} m/s"  
+		texts[6] = "#{precisionRound eta,0} s"
 
 locationUpdateFail = (error) ->
 
@@ -213,6 +190,13 @@ drawTexts = ->
 
 setup = ->
 
+	# p1 = {lat:59.265205, lng:18.132735}
+	# p2 = {lat:59.265206, lng:18.132735}
+	# p3 = {lat:59.265205, lng:18.132736}
+	# print distance_on_geoid p1,p2
+	# print distance_on_geoid p1,p3
+	# print distance_on_geoid p2,p3
+
 	WHITE = color 255,255,255
 	GREEN = color 0,255,0
 	BLACK = color 0,0,0
@@ -291,8 +275,8 @@ setup = ->
 			last = _.last track
 			print last 
 			@addRow makeInput 'name', prettyDate new Date last.timestamp
-			@addRow makeInput 'lat',  last.lat
-			@addRow makeInput 'lng',  last.lng
+			@addRow makeInput 'lat',  precisionRound last.lat,6
+			@addRow makeInput 'lng',  precisionRound last.lng,6
 		else
 			@addRow makeInput 'name', 'Missing'
 			@addRow makeInput 'lat',  0

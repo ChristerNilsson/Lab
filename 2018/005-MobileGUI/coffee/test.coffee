@@ -18,7 +18,3 @@ test_calcColor = ->
 	assert [255,255,0,255], calcColor 315
 	assert [255,255,0,255], calcColor 360
 
-test = ->
-	print "test start"
-	test_calcColor()
-	print "test ready"

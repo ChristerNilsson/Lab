@@ -43,15 +43,6 @@ Page = function () {
         b.style.fontSize = '90%';
       }
       elem.appendChild(span);
-      // display : ->
-      // 	# actions
-      // 	elem = document.getElementById 'myActions'
-      // 	elem.innerHTML = ""
-      // 	for [title,f] in @actions
-      // 		span = document.createElement "span"
-      // 		span.appendChild makeButton title, 1, f
-      // 		elem.appendChild span
-
       // init page
       hideCanvas();
       this.table.innerHTML = "";
