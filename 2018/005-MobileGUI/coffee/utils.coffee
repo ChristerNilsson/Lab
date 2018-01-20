@@ -53,22 +53,22 @@ tests.calcDelta = ->
 	assert -90, calcDelta 270
 	assert 0, calcDelta 360
 
-calcETA = (ta,tp,a,p,b) ->
+calcTotalTime = (ta,tp,a,p,b) -> # sekunder
 	dt = (tp-ta)/1000 # sekunder	
 	ap = distance_on_geoid a,p # meter
 	pb = distance_on_geoid p,b # meter 
 	if ap>0 then dt/ap*(ap+pb) else 0 # sekunder	
-tests.calcETA = ->
+tests.calcTotalTime = ->
 	a  = {lat:59.000000, lng:18.100000}
 	b  = {lat:59.200000, lng:18.100000}
 	p0 = {lat:59.000000, lng:18.000000}
 	p1 = {lat:59.100000, lng:18.000000}
 	p2 = {lat:59.200000, lng:18.000000}
 	p3 = {lat:59.100000, lng:18.100000}
-	assert 5009.176237166901,  calcETA 0,1000000,a,p0,b   
-	assert 1999.3916011809056, calcETA 0,1000000,a,p1,b 
-	assert 1247.9772474262074, calcETA 0,1000000,a,p2,b  
-	assert 1999.9999999998727, calcETA 0,1000000,a,p3,b  
+	assert 5009.176237166901,  calcTotalTime 0,1000000,a,p0,b   
+	assert 1999.3916011809056, calcTotalTime 0,1000000,a,p1,b 
+	assert 1247.9772474262074, calcTotalTime 0,1000000,a,p2,b  
+	assert 1999.9999999998727, calcTotalTime 0,1000000,a,p3,b  
 
 calcHeading = (p1,p2) ->
 	q1 = LatLon p1.lat,p1.lng
@@ -183,6 +183,31 @@ prettyDate = (date) ->
 tests.prettyDate = ->
 	assert "2018-01-20 02:34:56",prettyDate new Date 2018,0,20, 2,34,56
 	assert "2018-02-20 12:34:56",prettyDate new Date 2018,1,20,12,34,56
+
+prettyDist = (dist) -> # dist in meter
+	res = 0
+	if dist<1000 then res = precisionRound(dist,0)+' m'
+	else if dist < 10000 then res = precisionRound(dist/1000,2)+' km'
+	else if dist < 100000 then res = precisionRound(dist/1000,1)+' km'
+	else res = precisionRound(dist/1000,0)+' km'
+	res 
+tests.prettyDist = ->
+	assert "12 m",prettyDist 12
+	assert "123 m",prettyDist 123
+	assert "1.23 km",prettyDist 1234
+	assert "12.3 km",prettyDist 12345
+	assert "123 km",prettyDist 123456
+
+prettyETA = (start,totalTime) -> # seconds
+	if totalTime > 24*60*60 then return ''
+	date = new Date start 
+	date = new Date date.getTime() + totalTime*1000
+	hh = ("0" + date.getHours()).slice(-2)
+	mm = ("0" + date.getMinutes()).slice(-2)
+	"#{hh}:#{mm}"
+tests.prettyETA = ->
+	assert "12:16",prettyETA new Date(2018,0,20,12,0,0),1000
+	assert "13:00",prettyETA new Date(2018,0,20,12,44,0),1000
 
 test = ->
 	start = millis()

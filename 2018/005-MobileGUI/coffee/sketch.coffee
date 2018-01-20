@@ -43,7 +43,7 @@ lastObservation = 0
 p1 = null
 start = null # Starttid. Sätts vid byte av target
 
-texts = ['dist','bäring','ETA','m/s','','wait','punkter','','tid','destination']
+texts = ['dist','bäring','ETA','km/h','','wait','punkter','','tid','destination']
 
 storeData = -> localStorage["GPSCompass"] = JSON.stringify places	
 fetchData = ->
@@ -78,14 +78,14 @@ locationUpdate = (position) ->
 	heading_12 = calcHeading p1,place
 	lastObservation = millis()
 
-	texts[0] = "#{Math.round distance_on_geoid p1,place} m"
+	texts[0] = prettyDist distance_on_geoid p1,place
 	texts[1] = "#{Math.round heading_12}°"
 	texts[6] = "#{track.length}" 
 	if track.length > 1
-		speed = calcSpeed start, millis(), track[0], _.last(track), place
-		eta   = calcETA   start, millis(), track[0], _.last(track), place
-		texts[3] = "#{precisionRound speed,1} m/s"  
-		texts[2] = "#{precisionRound eta,  0} s"
+		speed     = calcSpeed     start, millis(), track[0], _.last(track), place
+		totalTime = calcTotalTime start, millis(), track[0], _.last(track), place
+		texts[3] = "#{precisionRound 3.6*speed,1} km/h"  
+		texts[2] = prettyETA startDate, totalTime
 
 locationUpdateFail = (error) ->
 

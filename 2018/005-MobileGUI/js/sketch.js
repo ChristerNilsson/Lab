@@ -135,7 +135,7 @@ p1 = null;
 
 start = null; // Starttid. Sätts vid byte av target
 
-texts = ['dist', 'bäring', 'ETA', 'm/s', '', 'wait', 'punkter', '', 'tid', 'destination'];
+texts = ['dist', 'bäring', 'ETA', 'km/h', '', 'wait', 'punkter', '', 'tid', 'destination'];
 
 storeData = function storeData() {
   return localStorage["GPSCompass"] = JSON.stringify(places);
@@ -172,7 +172,7 @@ setupCompass = function setupCompass() {
 };
 
 locationUpdate = function locationUpdate(position) {
-  var eta, speed;
+  var speed, totalTime;
   //print 'locationUpdate', position
   p1 = {
     lat: position.coords.latitude,
@@ -182,14 +182,14 @@ locationUpdate = function locationUpdate(position) {
   track.push(p1);
   heading_12 = calcHeading(p1, place);
   lastObservation = millis();
-  texts[0] = Math.round(distance_on_geoid(p1, place)) + ' m';
+  texts[0] = prettyDist(distance_on_geoid(p1, place));
   texts[1] = Math.round(heading_12) + '\xB0';
   texts[6] = '' + track.length;
   if (track.length > 1) {
     speed = calcSpeed(start, millis(), track[0], _.last(track), place);
-    eta = calcETA(start, millis(), track[0], _.last(track), place);
-    texts[3] = precisionRound(speed, 1) + ' m/s';
-    return texts[2] = precisionRound(eta, 0) + ' s';
+    totalTime = calcTotalTime(start, millis(), track[0], _.last(track), place);
+    texts[3] = precisionRound(3.6 * speed, 1) + ' km/h';
+    return texts[2] = prettyETA(startDate, totalTime);
   }
 };
 
