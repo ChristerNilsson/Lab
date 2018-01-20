@@ -217,12 +217,13 @@ setup = ->
 		if track.length > 0
 			curr = _.last track
 			link.value += "\n" + encodeURI "#{LINK}?name=#{curr.timestamp}&lat=#{curr.lat}&lng=#{curr.lng}"
+	pages.Link.addAction 'Ok', -> 
 		link.focus()
 		link.select()
 		document.execCommand 'copy'
 		#link.value = ''
 		#link.style.display = 'none'
-	pages.Link.addAction 'Ok', -> pages.Nav.display()
+		pages.Nav.display()
 
 	# startsida:
 	pages.List.display()

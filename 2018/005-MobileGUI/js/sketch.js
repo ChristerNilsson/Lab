@@ -381,15 +381,15 @@ setup = function setup() {
     link.value += "\n" + encodeURI(LINK + '?name=' + place.name + '&lat=' + place.lat + '&lng=' + place.lng);
     if (track.length > 0) {
       curr = _.last(track);
-      link.value += "\n" + encodeURI(LINK + '?name=' + curr.timestamp + '&lat=' + curr.lat + '&lng=' + curr.lng);
+      return link.value += "\n" + encodeURI(LINK + '?name=' + curr.timestamp + '&lat=' + curr.lat + '&lng=' + curr.lng);
     }
+  });
+  pages.Link.addAction('Ok', function () {
     link.focus();
     link.select();
-    return document.execCommand('copy');
-  });
-  //link.value = ''
-  //link.style.display = 'none'
-  pages.Link.addAction('Ok', function () {
+    document.execCommand('copy');
+    //link.value = ''
+    //link.style.display = 'none'
     return pages.Nav.display();
   });
   // startsida:
