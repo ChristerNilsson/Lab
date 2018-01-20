@@ -91,12 +91,12 @@ drawTexts = function drawTexts() {
   sw(1);
   n = 3; // columns
   helpTexts = ['Distance', 'Bearing', 'ETA', 'Speed', '', 'Time', 'Points', '', 'Delay', 'Destination'];
-  if (normal === 0) {
+  if (normal === 1) {
     currTexts = helpTexts;
   } else {
     currTexts = texts;
   }
-  textSize(0.08 * h);
+  textSize(0.07 * h);
   for (i = j = 0, len = currTexts.length; j < len; i = ++j) {
     t = currTexts[i];
     if (i % n === 0) {
