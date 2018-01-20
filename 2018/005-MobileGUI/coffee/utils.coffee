@@ -56,8 +56,7 @@ tests.calcDelta = ->
 calcETA = (ta,tp,a,p,b) ->
 	ap = distance_on_geoid a,p # meter
 	pb = distance_on_geoid p,b # meter 
-	dt = (tp-ta)/1000 # sekunder
-	if ap>0 then dt*(ap+pb)/ap else 0 # sekunder
+	if ap>0 then (tp-ta) * (ap+pb)/ap/1000 else 0 # sekunder	
 tests.calcETA = ->
 	a  = {lat:59.000000, lng:18.100000}
 	b  = {lat:59.200000, lng:18.100000}
@@ -65,10 +64,10 @@ tests.calcETA = ->
 	p1 = {lat:59.100000, lng:18.000000}
 	p2 = {lat:59.200000, lng:18.000000}
 	p3 = {lat:59.100000, lng:18.100000}
-	assert 5009.176237166901, calcETA 0,1000000,a,p0,b   # ok
-	assert 1999.3916011809056,  calcETA 0,1000000,a,p1,b # ok
-	assert 1247.9772474262074, calcETA 0,1000000,a,p2,b  # ok
-	assert 1999.9999999998727, calcETA 0,1000000,a,p3,b  # ok
+	assert 5009.1762371669,    calcETA 0,1000000,a,p0,b   
+	assert 1999.3916011809058, calcETA 0,1000000,a,p1,b 
+	assert 1247.9772474262074, calcETA 0,1000000,a,p2,b  
+	assert 1999.9999999998727, calcETA 0,1000000,a,p3,b  
 
 calcHeading = (p1,p2) ->
 	q1 = LatLon p1.lat,p1.lng
@@ -85,16 +84,26 @@ tests.calcHeading = ->
 	assert  45.74342946571903, calcHeading p,b 
 	assert 225.82921355457827, calcHeading b,p 
 
-calcSpeed = (ta,tp,a,p,b) -> # anger den hastighet man närmat sig målet med. Typ vmg utan vinklar
-	ab = distance_on_geoid a,b # meter
-	pb = distance_on_geoid p,b # meter
+calcSpeed = (ta,tp,a,p,b) -> # anger den hastighet man har från startpunkten
+	ap = distance_on_geoid a,p # meter
 	dt = (tp-ta)/1000 # sekunder
-	if dt>0 then (ab-pb)/dt else 0 # m/s
+	if dt>0 then ap/dt else 0 # m/s
 tests.calcSpeed = ->
 	a = {lat:59.000000, lng:18.100000}
 	b = {lat:59.100000, lng:18.100000}
 	p = {lat:59.050000, lng:18.000000}
-	assert 3.1466610127605774, calcSpeed 0,1000000,a,p,b # 1000 sekunder
+	assert 7.978798475908504, calcSpeed 0,1000000,a,p,b # 1000 sekunder
+
+# calcSpeed = (ta,tp,a,p,b) -> # anger den hastighet man närmat sig målet med. Typ vmg utan vinklar
+# 	ab = distance_on_geoid a,b # meter
+# 	pb = distance_on_geoid p,b # meter
+# 	dt = (tp-ta)/1000 # sekunder
+# 	if dt>0 then (ab-pb)/dt else 0 # m/s
+# tests.calcSpeed = ->
+# 	a = {lat:59.000000, lng:18.100000}
+# 	b = {lat:59.100000, lng:18.100000}
+# 	p = {lat:59.050000, lng:18.000000}
+# 	assert 3.1466610127605774, calcSpeed 0,1000000,a,p,b # 1000 sekunder
 
 # https://cdn.rawgit.com/chrisveness/geodesy/v1.1.2/latlon-spherical.js
 distance_on_geoid = (p1,p2) ->

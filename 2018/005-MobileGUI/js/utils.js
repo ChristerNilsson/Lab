@@ -78,14 +78,13 @@ tests.calcDelta = function () {
 };
 
 calcETA = function calcETA(ta, tp, a, p, b) {
-  var ap, dt, pb;
+  var ap, pb;
   ap = distance_on_geoid(a, p); // meter
   pb = distance_on_geoid(p, b); // meter 
-  dt = (tp - ta) / 1000; // sekunder
   if (ap > 0) {
-    return dt * (ap + pb) / ap;
+    return (tp - ta) * (ap + pb) / ap / 1000;
   } else {
-    return 0; // sekunder
+    return 0; // sekunder	
   }
 };
 
@@ -115,10 +114,10 @@ tests.calcETA = function () {
     lat: 59.100000,
     lng: 18.100000
   };
-  assert(5009.176237166901, calcETA(0, 1000000, a, p0, b)); // ok
-  assert(1999.3916011809056, calcETA(0, 1000000, a, p1, b)); // ok
-  assert(1247.9772474262074, calcETA(0, 1000000, a, p2, b)); // ok
-  return assert(1999.9999999998727, calcETA(0, 1000000, a, p3, b)); // ok
+  assert(5009.1762371669, calcETA(0, 1000000, a, p0, b));
+  assert(1999.3916011809058, calcETA(0, 1000000, a, p1, b));
+  assert(1247.9772474262074, calcETA(0, 1000000, a, p2, b));
+  return assert(1999.9999999998727, calcETA(0, 1000000, a, p3, b));
 };
 
 calcHeading = function calcHeading(p1, p2) {
@@ -151,13 +150,12 @@ tests.calcHeading = function () {
 };
 
 calcSpeed = function calcSpeed(ta, tp, a, p, b) {
-  // anger den hastighet man närmat sig målet med. Typ vmg utan vinklar
-  var ab, dt, pb;
-  ab = distance_on_geoid(a, b); // meter
-  pb = distance_on_geoid(p, b); // meter
+  // anger den hastighet man har från startpunkten
+  var ap, dt;
+  ap = distance_on_geoid(a, p); // meter
   dt = (tp - ta) / 1000; // sekunder
   if (dt > 0) {
-    return (ab - pb) / dt;
+    return ap / dt;
   } else {
     return 0; // m/s
   }
@@ -177,8 +175,19 @@ tests.calcSpeed = function () {
     lat: 59.050000,
     lng: 18.000000
   };
-  return assert(3.1466610127605774, calcSpeed(0, 1000000, a, p, b)); // 1000 sekunder
+  return assert(7.978798475908504, calcSpeed(0, 1000000, a, p, b)); // 1000 sekunder
 };
+
+// calcSpeed = (ta,tp,a,p,b) -> # anger den hastighet man närmat sig målet med. Typ vmg utan vinklar
+// 	ab = distance_on_geoid a,b # meter
+// 	pb = distance_on_geoid p,b # meter
+// 	dt = (tp-ta)/1000 # sekunder
+// 	if dt>0 then (ab-pb)/dt else 0 # m/s
+// tests.calcSpeed = ->
+// 	a = {lat:59.000000, lng:18.100000}
+// 	b = {lat:59.100000, lng:18.100000}
+// 	p = {lat:59.050000, lng:18.000000}
+// 	assert 3.1466610127605774, calcSpeed 0,1000000,a,p,b # 1000 sekunder
 
 // https://cdn.rawgit.com/chrisveness/geodesy/v1.1.2/latlon-spherical.js
 distance_on_geoid = function distance_on_geoid(p1, p2) {
