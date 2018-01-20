@@ -403,9 +403,10 @@ setup = function setup() {
   pages.Link.addAction('Ok', function () {
     var link;
     link = document.getElementById("link");
-    link.focus();
-    link.select();
-    document.execCommand('copy');
+    //link.focus()
+    //link.select()
+    iosCopyToClipboard(link);
+    //document.execCommand 'copy'
     //link.value = ''
     //link.style.display = 'none'
     return pages.Nav.display();
@@ -413,4 +414,26 @@ setup = function setup() {
   // startsida:
   return pages.List.display();
 };
+
+function iosCopyToClipboard(el) {
+  var oldContentEditable = el.contentEditable,
+      oldReadOnly = el.readOnly,
+      range = document.createRange();
+
+  el.contenteditable = true;
+  el.readonly = false;
+  range.selectNodeContents(el);
+
+  var s = window.getSelection();
+  s.removeAllRanges();
+  s.addRange(range);
+
+  el.setSelectionRange(0, 999999); // A big number, to cover anything that could be inside the element.
+
+  el.contentEditable = oldContentEditable;
+  el.readOnly = oldReadOnly;
+
+  document.execCommand('copy');
+}
+;
 //# sourceMappingURL=sketch.js.map
