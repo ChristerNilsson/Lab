@@ -54,9 +54,10 @@ tests.calcDelta = ->
 	assert 0, calcDelta 360
 
 calcETA = (ta,tp,a,p,b) ->
+	dt = (tp-ta)/1000 # sekunder	
 	ap = distance_on_geoid a,p # meter
 	pb = distance_on_geoid p,b # meter 
-	if ap>0 then (tp-ta) * (ap+pb)/ap/1000 else 0 # sekunder	
+	if ap>0 then dt*(ap+pb)/ap else 0 # sekunder	
 tests.calcETA = ->
 	a  = {lat:59.000000, lng:18.100000}
 	b  = {lat:59.200000, lng:18.100000}
@@ -64,8 +65,8 @@ tests.calcETA = ->
 	p1 = {lat:59.100000, lng:18.000000}
 	p2 = {lat:59.200000, lng:18.000000}
 	p3 = {lat:59.100000, lng:18.100000}
-	assert 5009.1762371669,    calcETA 0,1000000,a,p0,b   
-	assert 1999.3916011809058, calcETA 0,1000000,a,p1,b 
+	assert 5009.176237166901,  calcETA 0,1000000,a,p0,b   
+	assert 1999.3916011809056, calcETA 0,1000000,a,p1,b 
 	assert 1247.9772474262074, calcETA 0,1000000,a,p2,b  
 	assert 1999.9999999998727, calcETA 0,1000000,a,p3,b  
 
@@ -85,8 +86,8 @@ tests.calcHeading = ->
 	assert 225.82921355457827, calcHeading b,p 
 
 calcSpeed = (ta,tp,a,p,b) -> # anger den hastighet man har från startpunkten
-	ap = distance_on_geoid a,p # meter
 	dt = (tp-ta)/1000 # sekunder
+	ap = distance_on_geoid a,p # meter
 	if dt>0 then ap/dt else 0 # m/s
 tests.calcSpeed = ->
 	a = {lat:59.000000, lng:18.100000}
