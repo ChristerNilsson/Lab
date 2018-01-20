@@ -249,7 +249,12 @@ setup = ->
 				@addRow b		
 	pages.List.addAction 'Add', -> pages.Add.display()
 
-	pages.Nav = new Page -> showCanvas()
+	pages.Nav = new Page -> 
+		start = millis()
+		track = []
+		lastObservation = millis()
+		showCanvas()
+
 	pages.Nav.addAction 'List', -> pages.List.display()
 	pages.Nav.addAction 'Map', -> window.open "http://maps.google.com/maps?q=#{place.lat},#{place.lng}"
 	pages.Nav.addAction 'Edit', -> pages.Edit.display()

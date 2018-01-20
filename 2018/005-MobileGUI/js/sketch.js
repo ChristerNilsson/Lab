@@ -404,6 +404,9 @@ setup = function setup() {
     return pages.Add.display();
   });
   pages.Nav = new Page(function () {
+    start = millis();
+    track = [];
+    lastObservation = millis();
     return showCanvas();
   });
   pages.Nav.addAction('List', function () {
