@@ -92,8 +92,13 @@ locationUpdate = (position) ->
 	texts[0] = "#{Math.round distance_on_geoid p1,place} m"
 	texts[1] = "#{Math.round heading_12}°"
 	texts[2] = "#{track.length}"  
-	texts[3] = "speed"  
+	texts[3] = calcSpeed start,millis(),track[0],_.last(track)  
 	texts[6] = calcETA start,millis(),track[0],_.last(track),place
+
+calcSpeed = (ta,tp,a,p) ->
+	ds = distance_on_geoid a,p
+	dt = tp-ta
+	if dt>0 then ds/dt else ""
 
 calcETA = (ta,tp,a,p,b) ->
 	ap = distance_on_geoid a,p
