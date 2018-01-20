@@ -91,7 +91,7 @@ drawTexts = function drawTexts() {
   sw(1);
   n = 3; // columns
   helpTexts = ['Distance', 'Bearing', 'ETA', 'Speed', '', 'Time', 'Points', '', 'Delay', 'Destination'];
-  textSize(h * [0.10, 0.07][normal]);
+  textSize(h * [0.09, 0.07][normal]);
   currTexts = [texts, helpTexts][normal];
   for (i = j = 0, len = currTexts.length; j < len; i = ++j) {
     t = currTexts[i];
