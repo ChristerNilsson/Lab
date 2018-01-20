@@ -77,9 +77,12 @@ drawTexts = ->
 	sc 0.5
 	sw 1
 	n = 3 # columns
-	helpTexts = ['Distance','Bearing','ETA','Speed','','Time','Points','','Delay','Destination']
-	textSize h*[0.09,0.07][normal]
-	currTexts = [texts,helpTexts][normal] 
+	if millis()-start < 2000
+		textSize h*0.07
+		currTexts = ['Distance','Bearing','ETA','Speed','','Time','Points','','Delay','Destination']
+	else
+		textSize h*0.09
+		currTexts = texts
 
 	for t,i in currTexts
 		if i%n==0 then textAlign LEFT 

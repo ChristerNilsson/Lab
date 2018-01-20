@@ -12,7 +12,7 @@ pages = {}
 place = null
 oldName = null
 
-normal = 0 # 0 = values 1 = help texts
+#normal = 0 # 0 = values 1 = help texts
 
 places = []
 places.push {name:'Bagarmossen Sushi',     lat:59.277560, lng:18.132739}
@@ -97,7 +97,7 @@ navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
 
 ##########################
 
-mousePressed = -> normal = 1 - normal
+#mousePressed = -> normal = 1 - normal
 
 setup = ->
 

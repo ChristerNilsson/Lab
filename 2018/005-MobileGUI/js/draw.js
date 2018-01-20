@@ -84,15 +84,19 @@ drawCompass = function drawCompass() {
 };
 
 drawTexts = function drawTexts() {
-  var currTexts, d, helpTexts, i, j, len, n, t, x, y;
+  var currTexts, d, i, j, len, n, t, x, y;
   fc(0.5);
   d = h / 12;
   sc(0.5);
   sw(1);
   n = 3; // columns
-  helpTexts = ['Distance', 'Bearing', 'ETA', 'Speed', '', 'Time', 'Points', '', 'Delay', 'Destination'];
-  textSize(h * [0.09, 0.07][normal]);
-  currTexts = [texts, helpTexts][normal];
+  if (millis() - start < 2000) {
+    textSize(h * 0.07);
+    currTexts = ['Distance', 'Bearing', 'ETA', 'Speed', '', 'Time', 'Points', '', 'Delay', 'Destination'];
+  } else {
+    textSize(h * 0.09);
+    currTexts = texts;
+  }
   for (i = j = 0, len = currTexts.length; j < len; i = ++j) {
     t = currTexts[i];
     if (i % n === 0) {
