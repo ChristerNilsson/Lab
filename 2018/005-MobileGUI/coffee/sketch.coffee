@@ -95,7 +95,7 @@ locationUpdate = (position) ->
 	speed = calcSpeed start,millis(),track[0],_.last(track)
 	eta = calcETA start,millis(),track[0],_.last(track),place
 	texts[3] = "#{precisionRound speed,1} m/s"  
-	texts[6] = "#{precisionRound ta,0} s"
+	texts[6] = "#{precisionRound eta,0} s"
 
 calcSpeed = (ta,tp,a,p) ->
 	ds = distance_on_geoid a,p # meter
