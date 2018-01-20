@@ -39,7 +39,7 @@ lastObservation = 0
 p1 = null
 start = null # Starttid. Sätts vid byte av target
 
-texts = ['dist','bäring','pkter','speed','','wait','18:35','','tid']
+texts = ['dist','bäring','pkter','m/s','','wait','ETA','','tid']
 
 storeData = -> localStorage["GPSCompass"] = JSON.stringify places	
 fetchData = ->
@@ -104,6 +104,7 @@ calcSpeed = (ta,tp,a,p) ->
 
 calcETA = (ta,tp,a,p,b) ->
 	ap = distance_on_geoid a,p # meter
+	ap = 1
 	pb = distance_on_geoid p,b # meter 
 	if ap>0 then (tp-ta) * (ap+pb)/ap/1000 else 0 # sekunder
 
