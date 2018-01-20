@@ -183,6 +183,16 @@ showCanvas = function showCanvas() {
   return elem.style.display = 'block';
 };
 
+draw = function draw() {
+  bg(0);
+  texts[5] = Math.round((millis() - lastObservation) / 1000) + ' s';
+  texts[8] = precisionRound((millis() - start) / 1000, 0)
+  // sekunder sedan start
+  + ' s';
+  drawCompass();
+  return drawTexts();
+};
+
 locationUpdate = function locationUpdate(position) {
   print('locationUpdate', position);
   p1 = {
@@ -211,12 +221,12 @@ setupCompass = function setupCompass() {
   return window.addEventListener("deviceorientation", function (event) {
     bearing = event.alpha;
     if (typeof event.webkitCompassHeading !== "undefined") {
-      bearing = event.webkitCompassHeading; // iOS non-standard
+      return bearing = event.webkitCompassHeading; // iOS non-standard
     }
-    return texts[1] = Math.round(bearing) + '\xB0';
   });
 };
 
+//texts[1] = "#{Math.round bearing}°"
 drawHouse = function drawHouse(radius) {
   var dx, i, j, k, len, len1, ref, ref1;
   push();
@@ -267,12 +277,12 @@ drawNeedle = function drawNeedle(radius) {
     rd(-bearing);
     sc(0);
     sw(0.035 * h);
-    line(0, -0.95 * radius, 0, 0.95 * radius);
+    line(0, -0.98 * radius, 0, 0.98 * radius);
     sc(1);
     sw(0.030 * h);
-    line(0, 0, 0, 0.95 * radius);
+    line(0, 0, 0, 0.98 * radius);
     sc(1, 0, 0);
-    line(0, 0, 0, -0.95 * radius);
+    line(0, 0, 0, -0.98 * radius);
     sw(0.035 * h);
     sc(0);
     return point(0, 0);
@@ -322,16 +332,6 @@ drawTexts = function drawTexts() {
   }
   textAlign(LEFT);
   return text(place.name, 0, 11.7 * d);
-};
-
-draw = function draw() {
-  bg(0);
-  texts[5] = Math.round((millis() - lastObservation) / 1000) + ' s';
-  texts[8] = precisionRound((millis() - start) / 1000, 0)
-  // sekunder sedan start
-  + ' s';
-  drawCompass();
-  return drawTexts();
 };
 
 setup = function setup() {

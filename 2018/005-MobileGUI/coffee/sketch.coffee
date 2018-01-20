@@ -70,6 +70,13 @@ showCanvas = ->
 	elem = document.getElementById 'myContainer'
 	elem.style.display = 'block'
 
+draw = ->
+	bg 0
+	texts[5] = "#{Math.round (millis() - lastObservation)/1000} s"
+	texts[8] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
+	drawCompass()
+	drawTexts()
+
 locationUpdate = (position) ->
 	print 'locationUpdate', position
 	p1 = 
@@ -99,7 +106,7 @@ setupCompass = ->
 		bearing = event.alpha
 		if typeof event.webkitCompassHeading != "undefined"
 			bearing = event.webkitCompassHeading # iOS non-standard
-		texts[1] = "#{Math.round bearing}°"
+		#texts[1] = "#{Math.round bearing}°"
 
 drawHouse = (radius) ->
 	push()
@@ -145,13 +152,13 @@ drawNeedle = (radius) ->
 
 		sc 0
 		sw 0.035*h
-		line 0,-0.95*radius,0,0.95*radius
+		line 0,-0.98*radius,0,0.98*radius
 
 		sc 1
 		sw 0.030*h
-		line 0,0,0,0.95*radius
+		line 0,0,0,0.98*radius
 		sc 1,0,0
-		line 0,0,0,-0.95*radius
+		line 0,0,0,-0.98*radius
 
 		sw 0.035*h
 		sc 0
@@ -190,13 +197,6 @@ drawTexts = ->
 		text t,x,d+y
 	textAlign LEFT
 	text place.name,0,11.7*d
-
-draw = ->
-	bg 0
-	texts[5] = "#{Math.round (millis() - lastObservation)/1000} s"
-	texts[8] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
-	drawCompass()
-	drawTexts()
 
 setup = ->
 
