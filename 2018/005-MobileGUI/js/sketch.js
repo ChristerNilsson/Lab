@@ -244,10 +244,10 @@ drawHouse = function drawHouse(radius) {
   sw(5);
   fc();
   circle(0, 0, 1.1 * radius);
-  // pilen
+  // svarta pilen
   sc(0);
   sw(0.05 * h);
-  line(0, -1.01 * radius, 0, 1.01 * radius);
+  line(0, -1.00 * radius, 0, 1.00 * radius);
   // fyra väderstreck
   sc();
   textAlign(CENTER, CENTER);
