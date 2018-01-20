@@ -91,19 +91,21 @@ locationUpdate = (position) ->
 
 	texts[0] = "#{Math.round distance_on_geoid p1,place} m"
 	texts[1] = "#{Math.round heading_12}°"
-	texts[2] = "#{track.length}"  
-	texts[3] = calcSpeed start,millis(),track[0],_.last(track)  
-	texts[6] = calcETA start,millis(),track[0],_.last(track),place
+	texts[2] = "#{track.length}" 
+	speed = calcSpeed start,millis(),track[0],_.last(track)
+	eta = calcETA start,millis(),track[0],_.last(track),place
+	texts[3] = "#{precisionRound speed,1} m/s"  
+	texts[6] = "#{precisionRounde ta,0} s"
 
 calcSpeed = (ta,tp,a,p) ->
-	ds = distance_on_geoid a,p
-	dt = tp-ta
-	if dt>0 then ds/dt else ""
+	ds = distance_on_geoid a,p # meter
+	dt = (tp-ta)/1000 # sekunder
+	if dt>0 then ds/dt else 0 # m/s
 
 calcETA = (ta,tp,a,p,b) ->
-	ap = distance_on_geoid a,p
-	pb = distance_on_geoid p,b
-	if ap>0 then (tp-ta) * (ap+pb)/ap else ""
+	ap = distance_on_geoid a,p # meter
+	pb = distance_on_geoid p,b # meter 
+	if ap>0 then (tp-ta) * (ap+pb)/ap/1000 else 0 # sekunder
 
 locationUpdateFail = (error) ->
 

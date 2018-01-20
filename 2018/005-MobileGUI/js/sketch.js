@@ -194,6 +194,7 @@ draw = function draw() {
 };
 
 locationUpdate = function locationUpdate(position) {
+  var eta, speed;
   print('locationUpdate', position);
   p1 = {
     lat: position.coords.latitude,
@@ -206,29 +207,31 @@ locationUpdate = function locationUpdate(position) {
   texts[0] = Math.round(distance_on_geoid(p1, place)) + ' m';
   texts[1] = Math.round(heading_12) + '\xB0';
   texts[2] = '' + track.length;
-  texts[3] = calcSpeed(start, millis(), track[0], _.last(track));
-  return texts[6] = calcETA(start, millis(), track[0], _.last(track), place);
+  speed = calcSpeed(start, millis(), track[0], _.last(track));
+  eta = calcETA(start, millis(), track[0], _.last(track), place);
+  texts[3] = precisionRound(speed, 1) + ' m/s';
+  return texts[6] = precisionRounde(ta, 0) + ' s';
 };
 
 calcSpeed = function calcSpeed(ta, tp, a, p) {
   var ds, dt;
-  ds = distance_on_geoid(a, p);
-  dt = tp - ta;
+  ds = distance_on_geoid(a, p); // meter
+  dt = (tp - ta) / 1000; // sekunder
   if (dt > 0) {
     return ds / dt;
   } else {
-    return "";
+    return 0; // m/s
   }
 };
 
 calcETA = function calcETA(ta, tp, a, p, b) {
   var ap, pb;
-  ap = distance_on_geoid(a, p);
-  pb = distance_on_geoid(p, b);
+  ap = distance_on_geoid(a, p); // meter
+  pb = distance_on_geoid(p, b); // meter 
   if (ap > 0) {
-    return (tp - ta) * (ap + pb) / ap;
+    return (tp - ta) * (ap + pb) / ap / 1000;
   } else {
-    return "";
+    return 0; // sekunder
   }
 };
 
