@@ -184,8 +184,8 @@ locationUpdate = function locationUpdate(position) {
   texts[1] = Math.round(heading_12) + '\xB0';
   texts[2] = '' + track.length;
   if (track.length > 1) {
-    speed = calcSpeed(start, millis(), track[0], _.last(track));
-    eta = calcETA(start, millis(), track[0], _.last(track), place);
+    speed = calcSpeed(start, millis(), track[0], place, _.last(track));
+    eta = calcETA(start, millis(), track[0], place, _.last(track));
     texts[3] = precisionRound(speed, 1) + ' m/s';
     return texts[6] = precisionRound(eta, 0) + ' s';
   }
