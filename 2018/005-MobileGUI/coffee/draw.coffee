@@ -55,7 +55,7 @@ drawNeedle = (radius) ->
 		point 0,0
 
 drawCompass = ->
-	radius = 0.33 * w 
+	radius = 0.4 * w 
 	delta = calcDelta heading_12-bearing
 	fill calcColor delta
 	sw 5
@@ -77,21 +77,26 @@ drawTexts = ->
 	sc 0.5
 	sw 1
 	n = 3 # columns
+	helpTexts = ['Distance','Bearing','ETA','Speed','','Time','Points','','Delay','Destination']
+	if normal==0 then currTexts = helpTexts else currTexts = texts  
+
 	textSize 0.08*h
-	for t,i in texts
+	for t,i in currTexts
 		if i%n==0 then textAlign LEFT 
 		if i%n==1 then textAlign CENTER 
 		if i%n==2 then textAlign RIGHT
 		x = i%n * w/2
 		y = d*Math.floor i/n
+		if i >= 6 then y += 7.8*d
+		if i in [0,1,2] then fc 1 else fc 0.5
 		text t,x,d+y
 	textAlign LEFT
-	text place.name,0,11.7*d
 
 draw = ->
 	bg 0
-	texts[5] = "#{Math.round (millis() - lastObservation)/1000} s"
-	texts[8] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
+	dt = Math.round (millis() - lastObservation)/1000
+	texts[8] = if dt>=2 then "#{dt} s" else ""
+	texts[5] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
 	drawCompass()
 	drawTexts()
 

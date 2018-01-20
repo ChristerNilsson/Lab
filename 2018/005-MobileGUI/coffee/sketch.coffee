@@ -12,6 +12,8 @@ pages = {}
 place = null
 oldName = null
 
+normal = 0 # 0 = values 1 = help texts
+
 places = []
 places.push {name:'Bagarmossen Sushi',     lat:59.277560, lng:18.132739}
 places.push {name:'Bagarmossen T',         lat:59.276264, lng:18.131465}
@@ -41,7 +43,7 @@ lastObservation = 0
 p1 = null
 start = null # Starttid. Sätts vid byte av target
 
-texts = ['dist','bäring','pkter','m/s','','wait','ETA','','tid']
+texts = ['dist','bäring','ETA','m/s','','wait','punkter','','tid','destination']
 
 storeData = -> localStorage["GPSCompass"] = JSON.stringify places	
 fetchData = ->
@@ -55,6 +57,8 @@ hideCanvas = ->
 showCanvas = ->
 	elem = document.getElementById 'myContainer'
 	elem.style.display = 'block'
+
+mousePressed = -> normal = 1 - normal
 
 setup = ->
 
@@ -95,6 +99,7 @@ setup = ->
 	pages.List.addAction 'Add', -> pages.Add.display()
 
 	pages.Nav = new Page -> 
+		texts[9] = place.name
 		start = millis()
 		track = []
 		lastObservation = millis()

@@ -15,6 +15,8 @@ class Page
 		for [title,f] in @actions
 			span.appendChild b = makeButton title, @actions.length, f
 			b.style.fontSize = '90%'
+			b.style.color = "yellow"
+			b.style.backgroundColor = "black"
 		elem.appendChild span
 
 		# init page

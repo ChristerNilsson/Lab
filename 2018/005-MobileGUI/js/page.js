@@ -41,6 +41,8 @@ Page = function () {
 
         span.appendChild(b = makeButton(title, this.actions.length, f));
         b.style.fontSize = '90%';
+        b.style.color = "yellow";
+        b.style.backgroundColor = "black";
       }
       elem.appendChild(span);
       // init page
