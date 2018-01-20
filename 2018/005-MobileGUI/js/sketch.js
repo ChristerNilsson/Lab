@@ -374,17 +374,35 @@ setup = function setup() {
   pages.Del.addAction('Cancel', function () {
     return pages.Nav.display();
   });
+  // pages.Link = new Page -> 
+  // 	@addRow makeDiv 'The Link is now on the Clipboard. Mail it to a friend.'
+  // 	@addRow link = makeInput 'link', "" #, true
+  // 	link.value += "\n" + encodeURI "#{LINK}?name=#{place.name}&lat=#{place.lat}&lng=#{place.lng}" 
+  // 	if track.length > 0
+  // 		curr = _.last track
+  // 		link.value += "\n" + encodeURI "#{LINK}?name=#{curr.timestamp}&lat=#{curr.lat}&lng=#{curr.lng}"
+  // pages.Link.addAction 'Ok', -> 
+  // 	link.focus()
+  // 	link.select()
+  // 	document.execCommand 'copy'
+  // 	#link.value = ''
+  // 	#link.style.display = 'none'
+  // 	pages.Nav.display()
   pages.Link = new Page(function () {
     var curr, link;
     this.addRow(makeDiv('The Link is now on the Clipboard. Mail it to a friend.'));
-    this.addRow(link = makeInput('link', "")); //, true
+    this.addRow(link = makeTextArea('link'));
     link.value += "\n" + encodeURI(LINK + '?name=' + place.name + '&lat=' + place.lat + '&lng=' + place.lng);
     if (track.length > 0) {
       curr = _.last(track);
       return link.value += "\n" + encodeURI(LINK + '?name=' + curr.timestamp + '&lat=' + curr.lat + '&lng=' + curr.lng);
     }
   });
+  //link.focus()
+  //link.select()
   pages.Link.addAction('Ok', function () {
+    var link;
+    link = document.getElementById("link");
     link.focus();
     link.select();
     document.execCommand('copy');

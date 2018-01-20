@@ -164,6 +164,13 @@ makeInput = (title,value,readonly=false) ->
 	#b.onclick = "this.setSelectionRange(0, this.value.length)"
 	b
 
+makeTextArea = (title) ->
+	b = document.createElement 'textarea'
+	b.id = title
+	b.style.fontSize = "100%"	
+	b.style.width = "100%"
+	b
+
 precisionRound = (number, precision) ->
   factor = Math.pow 10, precision
   Math.round(number * factor) / factor
