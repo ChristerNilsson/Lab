@@ -78,9 +78,9 @@ drawTexts = ->
 	sw 1
 	n = 3 # columns
 	helpTexts = ['Distance','Bearing','ETA','Speed','','Time','Points','','Delay','Destination']
-	if normal==1 then currTexts = helpTexts else currTexts = texts  
+	textSize h*[0.10,0.07][normal]
+	currTexts = [texts,helpTexts][normal] 
 
-	textSize 0.08*h
 	for t,i in currTexts
 		if i%n==0 then textAlign LEFT 
 		if i%n==1 then textAlign CENTER 
