@@ -220,8 +220,8 @@ setup = ->
 		link.focus()
 		link.select()
 		document.execCommand 'copy'
-		link.value = ''
-		link.style.display = 'none'
+		#link.value = ''
+		#link.style.display = 'none'
 	pages.Link.addAction 'Ok', -> pages.Nav.display()
 
 	# startsida:

@@ -385,10 +385,10 @@ setup = function setup() {
     }
     link.focus();
     link.select();
-    document.execCommand('copy');
-    link.value = '';
-    return link.style.display = 'none';
+    return document.execCommand('copy');
   });
+  //link.value = ''
+  //link.style.display = 'none'
   pages.Link.addAction('Ok', function () {
     return pages.Nav.display();
   });
