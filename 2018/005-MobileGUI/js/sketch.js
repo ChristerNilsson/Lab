@@ -210,7 +210,7 @@ locationUpdate = function locationUpdate(position) {
   speed = calcSpeed(start, millis(), track[0], _.last(track));
   eta = calcETA(start, millis(), track[0], _.last(track), place);
   texts[3] = precisionRound(speed, 1) + ' m/s';
-  return texts[6] = precisionRounde(ta, 0) + ' s';
+  return texts[6] = precisionRound(ta, 0) + ' s';
 };
 
 calcSpeed = function calcSpeed(ta, tp, a, p) {
