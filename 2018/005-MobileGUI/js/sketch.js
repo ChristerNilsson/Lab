@@ -166,7 +166,7 @@ locationUpdate = function locationUpdate(position) {
     texts[3] = precisionRound(3.6 * speed, 1) + ' km/h';
     texts[2] = prettyETA(startDate, totalTime);
   }
-  return logg.push([p1.timestamp, p1.lat, p1.lng, heading_12, speed, totaltime]);
+  return logg.push([p1.timestamp, p1.lat, p1.lng, heading_12, speed, totaltime].join(' '));
 };
 
 locationUpdateFail = function locationUpdateFail(error) {};
