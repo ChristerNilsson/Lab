@@ -87,11 +87,11 @@ locationUpdate = (position) ->
 		texts[3] = "#{precisionRound 3.6*speed,1} km/h"  
 		texts[2] = prettyETA startDate, totalTime
 
-		ts = prettyDate new Date p1.timestamp
+		ts = prettyDate d = new Date p1.timestamp
 		lat = precisionRound p1.lat,6
 		lng = precisionRound p1.lng,6
 		heading = precisionRound heading_12,0
-		mark00 = if ts.getSeconds() == 0 then ' *' else ''
+		mark00 = if d.getSeconds() == 0 then ' *' else ''
 		
 		logg.push "#{ts} #{lat} #{lng} #{texts[0]} #{heading} #{texts[3]} #{texts[2]} #{mark00}"
 

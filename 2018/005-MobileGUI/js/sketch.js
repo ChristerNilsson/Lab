@@ -146,7 +146,7 @@ setupCompass = function setupCompass() {
 };
 
 locationUpdate = function locationUpdate(position) {
-  var heading, lat, lng, mark00, speed, totalTime, ts;
+  var d, heading, lat, lng, mark00, speed, totalTime, ts;
   //print 'locationUpdate', position
   p1 = {
     lat: position.coords.latitude,
@@ -164,11 +164,11 @@ locationUpdate = function locationUpdate(position) {
     totalTime = calcTotalTime(start, millis(), track[0], _.last(track), place());
     texts[3] = precisionRound(3.6 * speed, 1) + ' km/h';
     texts[2] = prettyETA(startDate, totalTime);
-    ts = prettyDate(new Date(p1.timestamp));
+    ts = prettyDate(d = new Date(p1.timestamp));
     lat = precisionRound(p1.lat, 6);
     lng = precisionRound(p1.lng, 6);
     heading = precisionRound(heading_12, 0);
-    mark00 = ts.getSeconds() === 0 ? ' *' : '';
+    mark00 = d.getSeconds() === 0 ? ' *' : '';
     return logg.push(ts + ' ' + lat + ' ' + lng + ' ' + texts[0] + ' ' + heading + ' ' + texts[3] + ' ' + texts[2] + ' ' + mark00);
   }
 };
