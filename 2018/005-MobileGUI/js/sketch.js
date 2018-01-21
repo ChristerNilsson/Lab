@@ -388,6 +388,21 @@ setup = function setup() {
   // 	#link.value = ''
   // 	#link.style.display = 'none'
   // 	pages.Nav.display()
+
+  // pages.Link = new Page -> 
+  // 	@addRow makeDiv 'The Link is now on the Clipboard. Mail it to a friend.'
+  // 	@addRow link = makeTextArea 'link'
+  // 	link.value += "\n" + encodeURI "#{LINK}?name=#{place.name}&lat=#{place.lat}&lng=#{place.lng}" 
+  // 	if track.length > 0
+  // 		curr = _.last track
+  // 		link.value += "\n" + encodeURI "#{LINK}?name=#{curr.timestamp}&lat=#{curr.lat}&lng=#{curr.lng}"
+  // pages.Link.addAction 'Ok', -> 
+  // 	link = document.getElementById("link")
+  // 	iosCopyToClipboard link
+  // 	pages.Nav.display()
+
+  // # startsida:
+  // pages.List.display()
   pages.Link = new Page(function () {
     var curr, link;
     this.addRow(makeDiv('The Link is now on the Clipboard. Mail it to a friend.'));
@@ -398,23 +413,22 @@ setup = function setup() {
       return link.value += "\n" + encodeURI(LINK + '?name=' + curr.timestamp + '&lat=' + curr.lat + '&lng=' + curr.lng);
     }
   });
-  //link.focus()
-  //link.select()
-  pages.Link.addAction('Ok', function () {
+  pages.Link.addAction('Copy', function () {
     var link;
     link = document.getElementById("link");
-    //link.focus()
-    //link.select()
-    iosCopyToClipboard(link);
-    //document.execCommand 'copy'
-    //link.value = ''
-    //link.style.display = 'none'
+    return iosCopyToClipboard(link);
+  });
+  //pages.Nav.display()
+  pages.Link.addAction('Ok', function () {
     return pages.Nav.display();
   });
   // startsida:
   return pages.List.display();
 };
 
+// fungerar på iPad: iOS 11.2.2
+// fungerar ej på 4s iOS 9.3.5
+// https://stackoverflow.com/questions/34045777/copy-to-clipboard-using-javascript-in-ios
 function iosCopyToClipboard(el) {
   var oldContentEditable = el.contentEditable,
       oldReadOnly = el.readOnly,
@@ -433,7 +447,7 @@ function iosCopyToClipboard(el) {
   el.contentEditable = oldContentEditable;
   el.readOnly = oldReadOnly;
 
-  document.execCommand('copy');
+  //    document.execCommand('copy');
 }
 ;
 //# sourceMappingURL=sketch.js.map
