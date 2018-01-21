@@ -93,28 +93,28 @@ calcTotalTime = function calcTotalTime(ta, tp, a, p, b) {
 tests.calcTotalTime = function () {
   var a, b, p0, p1, p2, p3;
   a = {
-    lat: 59.000000,
-    lng: 18.100000
+    lat: 59.0,
+    lng: 18.1
   };
   b = {
-    lat: 59.200000,
-    lng: 18.100000
+    lat: 59.2,
+    lng: 18.1
   };
   p0 = {
-    lat: 59.000000,
-    lng: 18.000000
+    lat: 59.0,
+    lng: 18.0
   };
   p1 = {
-    lat: 59.100000,
-    lng: 18.000000
+    lat: 59.1,
+    lng: 18.0
   };
   p2 = {
-    lat: 59.200000,
-    lng: 18.000000
+    lat: 59.2,
+    lng: 18.0
   };
   p3 = {
-    lat: 59.100000,
-    lng: 18.100000
+    lat: 59.1,
+    lng: 18.1
   };
   assert(5009.176237166901, calcTotalTime(0, 1000000, a, p0, b));
   assert(1999.3916011809056, calcTotalTime(0, 1000000, a, p1, b));
@@ -132,23 +132,23 @@ calcHeading = function calcHeading(p1, p2) {
 tests.calcHeading = function () {
   var a, b, p;
   a = {
-    lat: 59.000000,
-    lng: 18.100000
+    lat: 59.0,
+    lng: 18.1
   };
   b = {
-    lat: 59.100000,
-    lng: 18.100000
+    lat: 59.2,
+    lng: 18.1
   };
   p = {
-    lat: 59.050000,
-    lng: 18.000000
+    lat: 59.1,
+    lng: 18.0
   };
   assert(0, calcHeading(a, b));
   assert(180, calcHeading(b, a));
-  assert(314.2148752824801, calcHeading(a, p));
-  assert(134.12913607386804, calcHeading(p, a));
-  assert(45.74342946571903, calcHeading(p, b));
-  return assert(225.82921355457827, calcHeading(b, p));
+  assert(332.82657259371086, calcHeading(a, p));
+  assert(152.74081091232028, calcHeading(p, a));
+  assert(27.10548290098893, calcHeading(p, b));
+  return assert(207.19133421223214, calcHeading(b, p));
 };
 
 calcSpeed = function calcSpeed(ta, tp, a, p, b) {
@@ -166,18 +166,18 @@ calcSpeed = function calcSpeed(ta, tp, a, p, b) {
 tests.calcSpeed = function () {
   var a, b, p;
   a = {
-    lat: 59.000000,
-    lng: 18.100000
+    lat: 59.0,
+    lng: 18.1
   };
   b = {
-    lat: 59.100000,
-    lng: 18.100000
+    lat: 59.2,
+    lng: 18.1
   };
   p = {
-    lat: 59.050000,
-    lng: 18.000000
+    lat: 59.1,
+    lng: 18.0
   };
-  return assert(7.978798475908504, calcSpeed(0, 1000000, a, p, b)); // 1000 sekunder
+  return assert(12.503835548099977, calcSpeed(0, 1000000, a, p, b)); // 1000 sekunder
 };
 
 // calcSpeed = (ta,tp,a,p,b) -> # anger den hastighet man närmar sig målet med. Typ vmg utan vinklar
@@ -186,9 +186,9 @@ tests.calcSpeed = function () {
 // 	dt = (tp-ta)/1000 # sekunder
 // 	if dt>0 then (ab-pb)/dt else 0 # m/s
 // tests.calcSpeed = ->
-// 	a = {lat:59.000000, lng:18.100000}
-// 	b = {lat:59.100000, lng:18.100000}
-// 	p = {lat:59.050000, lng:18.000000}
+// 	a = {lat:59.000000, lng:18.1}
+// 	b = {lat:59.100000, lng:18.1}
+// 	p = {lat:59.050000, lng:18.0}
 // 	assert 3.1466610127605774, calcSpeed 0,1000000,a,p,b # 1000 sekunder
 
 // https://cdn.rawgit.com/chrisveness/geodesy/v1.1.2/latlon-spherical.js
@@ -202,19 +202,19 @@ distance_on_geoid = function distance_on_geoid(p1, p2) {
 tests.distance_on_geoid = function () {
   var a, b, p;
   a = {
-    lat: 59.000000,
-    lng: 18.100000
+    lat: 59.0,
+    lng: 18.1
   };
   b = {
-    lat: 59.100000,
-    lng: 18.100000
+    lat: 59.2,
+    lng: 18.1
   };
   p = {
-    lat: 59.050000,
-    lng: 18.000000
+    lat: 59.1,
+    lng: 18.0
   };
-  assert(11119.492664456597, distance_on_geoid(a, b));
-  return assert(7972.831651696019, distance_on_geoid(p, b));
+  assert(22238.98532891178, distance_on_geoid(a, b));
+  return assert(12496.228229318362, distance_on_geoid(p, b));
 };
 
 getField = function getField(name) {

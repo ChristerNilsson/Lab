@@ -24,101 +24,74 @@ place = null;
 oldName = null;
 
 //normal = 0 # 0 = values 1 = help texts
-places = [];
+places = {
+  'Bagarmossen Sushi': {
+    lat: 59.277560,
+    lng: 18.132739
+  },
+  'Bagarmossen T': {
+    lat: 59.276264,
+    lng: 18.131465
+  },
+  'Björkhagens Golfklubb': {
+    lat: 59.284052,
+    lng: 18.145925
+  },
+  'Björkhagen T': {
+    lat: 59.291114,
+    lng: 18.115521
+  },
+  'Brotorpsbron': {
+    lat: 59.270067,
+    lng: 18.150236
+  },
+  'Brotorpsstugan': {
+    lat: 59.270542,
+    lng: 18.148473
+  },
+  'Kärrtorp T': {
+    lat: 59.284505,
+    lng: 18.114477
+  },
+  'Hellasgården': {
+    lat: 59.289813,
+    lng: 18.160577
+  },
+  'Hem': {
+    lat: 59.265205,
+    lng: 18.132735
+  },
+  'Parkeringsgran': {
+    lat: 59.274916,
+    lng: 18.161353
+  },
+  'Pers badställe': {
+    lat: 59.289571,
+    lng: 18.170767
+  },
+  'Skarpnäck T': {
+    lat: 59.266432,
+    lng: 18.133093
+  },
+  'Söderbysjön N Bron': {
+    lat: 59.285500,
+    lng: 18.150542
+  },
+  'Söderbysjön S Bron': {
+    lat: 59.279155,
+    lng: 18.149318
+  },
+  'Ulvsjön, Udden': {
+    lat: 59.277103,
+    lng: 18.164897
+  }
+};
 
-places.push({
-  name: 'Bagarmossen Sushi',
-  lat: 59.277560,
-  lng: 18.132739
-});
+placeIndex = 'Hem';
 
-places.push({
-  name: 'Bagarmossen T',
-  lat: 59.276264,
-  lng: 18.131465
-});
-
-places.push({
-  name: 'Björkhagens Golfklubb',
-  lat: 59.284052,
-  lng: 18.145925
-});
-
-places.push({
-  name: 'Björkhagen T',
-  lat: 59.291114,
-  lng: 18.115521
-});
-
-places.push({
-  name: 'Brotorpsbron',
-  lat: 59.270067,
-  lng: 18.150236
-});
-
-places.push({
-  name: 'Brotorpsstugan',
-  lat: 59.270542,
-  lng: 18.148473
-});
-
-places.push({
-  name: 'Kärrtorp T',
-  lat: 59.284505,
-  lng: 18.114477
-});
-
-places.push({
-  name: 'Hellasgården',
-  lat: 59.289813,
-  lng: 18.160577
-});
-
-places.push({
-  name: 'Hem',
-  lat: 59.265205,
-  lng: 18.132735
-});
-
-places.push({
-  name: 'Parkeringsgran',
-  lat: 59.274916,
-  lng: 18.161353
-});
-
-places.push({
-  name: 'Pers badställe',
-  lat: 59.289571,
-  lng: 18.170767
-});
-
-places.push({
-  name: 'Skarpnäck T',
-  lat: 59.266432,
-  lng: 18.133093
-});
-
-places.push({
-  name: 'Söderbysjön N Bron',
-  lat: 59.285500,
-  lng: 18.150542
-});
-
-places.push({
-  name: 'Söderbysjön S Bron',
-  lat: 59.279155,
-  lng: 18.149318
-});
-
-places.push({
-  name: 'Ulvsjön, Udden',
-  lat: 59.277103,
-  lng: 18.164897
-});
-
-placeIndex = 0;
-
-place = places[placeIndex];
+place = function place() {
+  return places[placeIndex];
+};
 
 w = null;
 
@@ -147,6 +120,7 @@ storeData = function storeData() {
 fetchData = function fetchData() {
   var data;
   data = localStorage["GPSCompass"];
+  print(data);
   if (data) {
     return places = JSON.parse(data);
   }
@@ -183,14 +157,14 @@ locationUpdate = function locationUpdate(position) {
     timestamp: position.timestamp // milliseconds since 1970
   };
   track.push(p1);
-  heading_12 = calcHeading(p1, place);
+  heading_12 = calcHeading(p1, place());
   lastObservation = millis();
-  texts[0] = prettyDist(distance_on_geoid(p1, place));
+  texts[0] = prettyDist(distance_on_geoid(p1, place()));
   texts[1] = Math.round(heading_12) + '\xB0';
   texts[6] = track.length;
   if (track.length > 1) {
-    speed = calcSpeed(start, millis(), track[0], _.last(track), place);
-    totalTime = calcTotalTime(start, millis(), track[0], _.last(track), place);
+    speed = calcSpeed(start, millis(), track[0], _.last(track), place());
+    totalTime = calcTotalTime(start, millis(), track[0], _.last(track), place());
     texts[3] = precisionRound(3.6 * speed, 1) + ' km/h';
     return texts[2] = prettyETA(startDate, totalTime);
   }
@@ -208,21 +182,21 @@ navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
 
 //mousePressed = -> normal = 1 - normal
 setup = function setup() {
-  var c, key, parameter, parameters;
+  var c, key, parameters;
   WHITE = color(255, 255, 255);
   GREEN = color(0, 255, 0);
   BLACK = color(0, 0, 0);
   RED = color(255, 0, 0);
   test();
+  //storeData()
   fetchData();
   parameters = getParameters();
   if (_.size(parameters) === 3) {
-    console.log(parameters);
-    places.push(parameters);
-    for (key in parameters) {
-      parameter = parameters[key];
-      parameters[key] = decodeURI(parameter);
-    }
+    key = decodeURI(parameters.name);
+    places[key] = {
+      lat: parameters.lat,
+      lng: parameters.lng
+    };
     storeData();
   }
   start = millis();
@@ -235,19 +209,21 @@ setup = function setup() {
   pages.List = new Page(function () {
     var _this = this;
 
-    var i, j, len, p, results;
+    var i, keys, len, ref, results;
+    keys = _.keys(places);
+    ref = keys.sort();
     results = [];
-    for (i = j = 0, len = places.length; j < len; i = ++j) {
-      p = places[i];
-      results.push(function (i) {
+    for (i = 0, len = ref.length; i < len; i++) {
+      key = ref[i];
+      results.push(function (key) {
         var b;
-        b = makeButton(p.name, 1, function () {
-          place = places[i];
+        b = makeButton(key, 1, function () {
+          placeIndex = key;
           return pages.Nav.display();
         });
         b.style.textAlign = 'left';
         return _this.addRow(b);
-      }(i));
+      }(key));
     }
     return results;
   });
@@ -258,7 +234,7 @@ setup = function setup() {
     return pages.Links.display();
   });
   pages.Nav = new Page(function () {
-    texts[9] = place.name;
+    texts[9] = placeIndex;
     start = millis();
     startDate = new Date();
     track = [];
@@ -269,7 +245,7 @@ setup = function setup() {
     return pages.List.display();
   });
   pages.Nav.addAction('Map', function () {
-    return window.open('http://maps.google.com/maps?q=' + place.lat + ',' + place.lng);
+    return window.open('http://maps.google.com/maps?q=' + place().lat + ',' + place().lng);
   });
   pages.Nav.addAction('Edit', function () {
     return pages.Edit.display();
@@ -281,45 +257,27 @@ setup = function setup() {
     return pages.Link.display();
   });
   pages.Edit = new Page(function () {
-    oldName = place.name;
-    this.addRow(makeInput('name', place.name));
-    this.addRow(makeInput('lat', place.lat));
-    this.addRow(makeInput('lng', place.lng));
+    oldName = placeIndex;
+    this.addRow(makeInput('name', placeIndex));
+    this.addRow(makeInput('lat', place().lat));
+    this.addRow(makeInput('lng', place().lng));
     document.getElementById("name").focus();
     return document.getElementById("name").select();
   });
   pages.Edit.addAction('Update', function () {
-    var j, lat, len, lng, name, p;
+    var lat, lng, name;
     name = getField("name");
     lat = parseFloat(getField("lat"));
     lng = parseFloat(getField("lng"));
     if (isNumeric(lat) && isNumeric(lng)) {
-      if (oldName === name) {
-        // finns namnet redan?
-        for (j = 0, len = places.length; j < len; j++) {
-          p = places[j];
-          if (oldName === p.name) {
-            p.lat = lat;
-            p.lng = lng;
-          }
-        }
-      } else {
-        places = places.filter(function (e) {
-          return e.name !== oldName;
-        });
-        places.push({
-          name: name,
-          lat: lat,
-          lng: lng
-        });
-        places.sort(function (a, b) {
-          if (a.name > b.name) {
-            return 1;
-          } else {
-            return -1;
-          }
-        });
+      places[name] = {
+        lat: lat,
+        lng: lng
+      };
+      if (oldName !== name) {
+        delete places[oldName];
       }
+      placeIndex = name;
       storeData();
       return pages.List.display();
     }
@@ -349,18 +307,10 @@ setup = function setup() {
     lat = parseFloat(getField("lat"));
     lng = parseFloat(getField("lng"));
     if (isNumeric(lat) && isNumeric(lng)) {
-      places.push({
-        name: name,
+      places[name] = {
         lat: lat,
         lng: lng
-      });
-      places.sort(function (a, b) {
-        if (a.name > b.name) {
-          return 1;
-        } else {
-          return -1;
-        }
-      });
+      };
       storeData();
       return pages.List.display();
     }
@@ -369,14 +319,12 @@ setup = function setup() {
     return pages.List.display();
   });
   pages.Del = new Page(function () {
-    this.addRow(makeInput('name', place.name, true));
-    this.addRow(makeInput('lat', place.lat, true));
-    return this.addRow(makeInput('lng', place.lng, true));
+    this.addRow(makeInput('name', placeIndex, true));
+    this.addRow(makeInput('lat', place().lat, true));
+    return this.addRow(makeInput('lng', place().lng, true));
   });
   pages.Del.addAction('Delete', function () {
-    places = places.filter(function (e) {
-      return e.name !== place.name;
-    });
+    delete places[placeIndex];
     storeData();
     return pages.List.display();
   });
@@ -385,10 +333,10 @@ setup = function setup() {
   });
   pages.Link = new Page(function () {
     var curr, link, links;
-    this.addRow(makeDiv('Click Copy and Mail ' + place.name + ' and your current position to a friend.'));
+    this.addRow(makeDiv('Click Copy and Mail ' + placeIndex + ' and your current position to a friend.'));
     this.addRow(link = makeTextArea('link'));
     links = [];
-    links.push(encodeURI(LINK + '?name=' + place.name + '&lat=' + place.lat + '&lng=' + place.lng));
+    links.push(encodeURI(LINK + '?name=' + placeIndex + '&lat=' + place().lat + '&lng=' + place().lng));
     if (track.length > 0) {
       curr = _.last(track);
       links.push(encodeURI(LINK + '?name=' + 'Christer' + '&lat=' + curr.lat + '&lng=' + curr.lng + '&timestamp=' + curr.timestamp));
@@ -403,13 +351,13 @@ setup = function setup() {
     return pages.Nav.display();
   });
   pages.Links = new Page(function () {
-    var j, len, link, links, p;
+    var link, links, p;
     this.addRow(makeDiv("Click Copy and Mail all your points to a friend."));
     this.addRow(link = makeTextArea('link'));
     links = [];
-    for (j = 0, len = places.length; j < len; j++) {
-      p = places[j];
-      links.push(encodeURI(LINK + '?name=' + p.name + '&lat=' + p.lat + '&lng=' + p.lng));
+    for (key in places) {
+      p = places[key];
+      links.push(encodeURI(LINK + '?name=' + key + '&lat=' + p.lat + '&lng=' + p.lng));
     }
     return link.value = links.join("\n");
   });
