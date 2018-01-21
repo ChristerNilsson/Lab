@@ -289,8 +289,9 @@ makeTextArea = function makeTextArea(title) {
   var b;
   b = document.createElement('textarea');
   b.id = title;
-  b.style.fontSize = "100%";
+  b.style.fontSize = "50%";
   b.style.width = "100%";
+  b.rows = 10;
   return b;
 };
 

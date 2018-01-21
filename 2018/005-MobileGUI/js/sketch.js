@@ -5,7 +5,7 @@
 // sex decimaler motsvarar 11 cm resp 5 cm precision i sista siffran.
 
 //LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
-var BLACK, GREEN, LINK, RED, WHITE, bearing, fetchData, h, heading_12, hideCanvas, lastObservation, locationUpdate, locationUpdateFail, p1, pages, place, placeIndex, places, setup, setupCompass, showCanvas, start, startDate, storeData, texts, track, w;
+var BLACK, GREEN, LINK, RED, WHITE, bearing, fetchData, h, heading_12, hideCanvas, lastObservation, locationUpdate, locationUpdateFail, logg, p1, pages, place, placeIndex, places, setup, setupCompass, showCanvas, start, startDate, storeData, texts, track, w;
 
 LINK = "file:///C:/Lab/2018/005-MobileGUI/index.html";
 
@@ -18,6 +18,8 @@ BLACK = null;
 RED = null;
 
 pages = {};
+
+logg = [];
 
 places = {
   'Bagarmossen Sushi': {
@@ -162,8 +164,9 @@ locationUpdate = function locationUpdate(position) {
     speed = calcSpeed(start, millis(), track[0], _.last(track), place());
     totalTime = calcTotalTime(start, millis(), track[0], _.last(track), place());
     texts[3] = precisionRound(3.6 * speed, 1) + ' km/h';
-    return texts[2] = prettyETA(startDate, totalTime);
+    texts[2] = prettyETA(startDate, totalTime);
   }
+  return logg.push([p1.timestamp, p1.lat, p1.lng, heading_12, speed, totaltime]);
 };
 
 locationUpdateFail = function locationUpdateFail(error) {};
@@ -233,6 +236,7 @@ setup = function setup() {
     start = millis();
     startDate = new Date();
     track = [];
+    logg = [];
     lastObservation = millis();
     return showCanvas();
   });
@@ -334,7 +338,8 @@ setup = function setup() {
       curr = _.last(track);
       links.push(encodeURI(LINK + '?name=' + 'Christer' + '&lat=' + curr.lat + '&lng=' + curr.lng + '&timestamp=' + curr.timestamp));
     }
-    return link.value = links.join("\n");
+    link.value = links.join("\n");
+    return link.value += logg.join("\n");
   });
   pages.Link.addAction('Copy', function () {
     iosCopyToClipboard(document.getElementById("link"));

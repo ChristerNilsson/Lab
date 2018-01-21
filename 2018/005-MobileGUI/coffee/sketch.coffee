@@ -10,6 +10,7 @@ BLACK = null
 RED   = null
 
 pages = {}
+logg = []
 
 places = 
 	'Bagarmossen Sushi'      : {lat:59.277560, lng:18.132739}
@@ -87,6 +88,8 @@ locationUpdate = (position) ->
 		texts[3] = "#{precisionRound 3.6*speed,1} km/h"  
 		texts[2] = prettyETA startDate, totalTime
 
+	logg.push [p1.timestamp, p1.lat, p1.lng, heading_12, speed, totaltime]
+
 locationUpdateFail = (error) ->
 
 navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
@@ -143,6 +146,7 @@ setup = ->
 		start = millis()
 		startDate = new Date()
 		track = []
+		logg = []
 		lastObservation = millis()
 		showCanvas()
 	pages.Nav.addAction 'List', -> pages.List.display()
@@ -210,6 +214,7 @@ setup = ->
 			curr = _.last track
 			links.push encodeURI "#{LINK}?name=#{'Christer'}&lat=#{curr.lat}&lng=#{curr.lng}&timestamp=#{curr.timestamp}"
 		link.value = links.join "\n"
+		link.value += logg.join "\n"
 	pages.Link.addAction 'Copy', -> 
 		iosCopyToClipboard document.getElementById("link")
 		pages.Nav.display()
