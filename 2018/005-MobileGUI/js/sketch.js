@@ -146,7 +146,7 @@ setupCompass = function setupCompass() {
 };
 
 locationUpdate = function locationUpdate(position) {
-  var heading, lat, lng, spd, speed, totalTime, ts, tt;
+  var heading, lat, lng, speed, totalTime, ts;
   //print 'locationUpdate', position
   p1 = {
     lat: position.coords.latitude,
@@ -168,9 +168,7 @@ locationUpdate = function locationUpdate(position) {
     lat = precisionRound(p1.lat, 6);
     lng = precisionRound(p1.lng, 6);
     heading = precisionRound(heading_12, 0);
-    spd = precisionRound(speed, 1);
-    tt = precisionRound(totalTime, 0);
-    return logg.push(ts + ' ' + lat + ' ' + lng + ' ' + heading + ' ' + spd + ' ' + tt);
+    return logg.push(ts + ' ' + lat + ' ' + lng + ' ' + texts[0] + ' ' + heading + ' ' + texts[3] + ' ' + texts[2]);
   }
 };
 
@@ -333,7 +331,7 @@ setup = function setup() {
   });
   pages.Link = new Page(function () {
     var curr, link, links;
-    this.addRow(makeDiv('Click Copy and Mail ' + placeIndex + ' and your current position to a friend.'));
+    this.addRow(makeDiv('Click SelAll, Copy and Mail ' + placeIndex + ' and your current position to a friend.'));
     this.addRow(link = makeTextArea('link'));
     links = [];
     links.push(encodeURI(LINK + '?name=' + placeIndex + '&lat=' + place().lat + '&lng=' + place().lng));
@@ -343,10 +341,10 @@ setup = function setup() {
     }
     return link.value = links.join("\n") + logg.join("\n");
   });
-  pages.Link.addAction('Copy', function () {
-    iosCopyToClipboard(document.getElementById("link"));
-    return pages.Nav.display();
+  pages.Link.addAction('SelAll', function () {
+    return iosCopyToClipboard(document.getElementById("link"));
   });
+  // pages.Nav.display()
   pages.Link.addAction('Cancel', function () {
     return pages.Nav.display();
   });

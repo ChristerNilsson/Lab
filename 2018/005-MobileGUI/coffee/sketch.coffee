@@ -91,10 +91,8 @@ locationUpdate = (position) ->
 		lat = precisionRound p1.lat,6
 		lng = precisionRound p1.lng,6
 		heading = precisionRound heading_12,0
-		spd = precisionRound speed,1
-		tt = precisionRound totalTime,0
 		
-		logg.push "#{ts} #{lat} #{lng} #{heading} #{spd} #{tt}"
+		logg.push "#{ts} #{lat} #{lng} #{texts[0]} #{heading} #{texts[3]} #{texts[2]}"
 
 locationUpdateFail = (error) ->
 
@@ -210,7 +208,7 @@ setup = ->
 	pages.Del.addAction 'Cancel', -> pages.Nav.display()
 
 	pages.Link = new Page -> 
-		@addRow makeDiv "Click Copy and Mail #{placeIndex} and your current position to a friend."
+		@addRow makeDiv "Click SelAll, Copy and Mail #{placeIndex} and your current position to a friend."
 		@addRow link = makeTextArea 'link'
 		links = []
 		links.push encodeURI "#{LINK}?name=#{placeIndex}&lat=#{place().lat}&lng=#{place().lng}" 
@@ -218,9 +216,9 @@ setup = ->
 			curr = _.last track
 			links.push encodeURI "#{LINK}?name=#{'Christer'}&lat=#{curr.lat}&lng=#{curr.lng}&timestamp=#{curr.timestamp}"
 		link.value = links.join("\n") + logg.join("\n")
-	pages.Link.addAction 'Copy', -> 
+	pages.Link.addAction 'SelAll', -> 
 		iosCopyToClipboard document.getElementById("link")
-		pages.Nav.display()
+		# pages.Nav.display()
 	pages.Link.addAction 'Cancel', -> 
 		pages.Nav.display()
 
