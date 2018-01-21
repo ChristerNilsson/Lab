@@ -10,9 +10,6 @@ BLACK = null
 RED   = null
 
 pages = {}
-oldName = null
-
-#normal = 0 # 0 = values 1 = help texts
 
 places = 
 	'Bagarmossen Sushi'      : {lat:59.277560, lng:18.132739}
@@ -31,10 +28,8 @@ places =
 	'Söderbysjön S Bron'     : {lat:59.279155, lng:18.149318}
 	'Ulvsjön, Udden'         : {lat:59.277103, lng:18.164897}
 
-placeIndex = 'Hem'
-place = -> 
-	print placeIndex,places[placeIndex]
-	places[placeIndex]
+placeIndex = 'Bagarmossen Sushi'
+place = -> places[placeIndex]
 
 w = null 
 h = null 
@@ -82,7 +77,8 @@ locationUpdate = (position) ->
 	heading_12 = calcHeading p1,place()
 	lastObservation = millis()
 
-	texts[0] = prettyDist distance_on_geoid p1,place()
+	print p1,place()
+	print texts[0] = prettyDist distance_on_geoid p1,place()
 	texts[1] = "#{Math.round heading_12}°"
 	texts[6] = track.length 
 	if track.length > 1
@@ -137,7 +133,6 @@ setup = ->
 			do (key) =>
 				b = makeButton key, 1, => 
 					placeIndex = key
-					place()
 					pages.Nav.display()
 				b.style.textAlign = 'left' 
 				@addRow b		
@@ -160,7 +155,7 @@ setup = ->
 	pages.Nav.addAction 'Link', -> pages.Link.display()
 
 	pages.Edit = new Page ->
-		oldName = placeIndex
+		#@oldName = placeIndex
 		@addRow makeInput 'name',placeIndex
 		@addRow makeInput 'lat',place().lat
 		@addRow makeInput 'lng',place().lng
@@ -172,7 +167,7 @@ setup = ->
 		lng = parseFloat getField "lng"
 		if isNumeric(lat) and isNumeric(lng)
 			places[name] = {lat: lat, lng: lng}
-			if oldName != name then delete places[oldName]
+			if placeIndex != name then delete places[placeIndex]
 			placeIndex = name
 			storeData()
 			pages.List.display()
@@ -181,7 +176,6 @@ setup = ->
 	pages.Add = new Page ->
 		if track.length > 0
 			last = _.last track
-			print last 
 			@addRow makeInput 'name', prettyDate new Date last.timestamp
 			@addRow makeInput 'lat',  precisionRound last.lat,6
 			@addRow makeInput 'lng',  precisionRound last.lng,6

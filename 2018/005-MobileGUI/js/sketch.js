@@ -5,7 +5,7 @@
 // sex decimaler motsvarar 11 cm resp 5 cm precision i sista siffran.
 
 //LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
-var BLACK, GREEN, LINK, RED, WHITE, bearing, fetchData, h, heading_12, hideCanvas, lastObservation, locationUpdate, locationUpdateFail, oldName, p1, pages, place, placeIndex, places, setup, setupCompass, showCanvas, start, startDate, storeData, texts, track, w;
+var BLACK, GREEN, LINK, RED, WHITE, bearing, fetchData, h, heading_12, hideCanvas, lastObservation, locationUpdate, locationUpdateFail, p1, pages, place, placeIndex, places, setup, setupCompass, showCanvas, start, startDate, storeData, texts, track, w;
 
 LINK = "file:///C:/Lab/2018/005-MobileGUI/index.html";
 
@@ -19,9 +19,6 @@ RED = null;
 
 pages = {};
 
-oldName = null;
-
-//normal = 0 # 0 = values 1 = help texts
 places = {
   'Bagarmossen Sushi': {
     lat: 59.277560,
@@ -85,10 +82,9 @@ places = {
   }
 };
 
-placeIndex = 'Hem';
+placeIndex = 'Bagarmossen Sushi';
 
 place = function place() {
-  print(placeIndex, places[placeIndex]);
   return places[placeIndex];
 };
 
@@ -158,7 +154,8 @@ locationUpdate = function locationUpdate(position) {
   track.push(p1);
   heading_12 = calcHeading(p1, place());
   lastObservation = millis();
-  texts[0] = prettyDist(distance_on_geoid(p1, place()));
+  print(p1, place());
+  print(texts[0] = prettyDist(distance_on_geoid(p1, place())));
   texts[1] = Math.round(heading_12) + '\xB0';
   texts[6] = track.length;
   if (track.length > 1) {
@@ -218,7 +215,6 @@ setup = function setup() {
         var b;
         b = makeButton(key, 1, function () {
           placeIndex = key;
-          place();
           return pages.Nav.display();
         });
         b.style.textAlign = 'left';
@@ -258,7 +254,7 @@ setup = function setup() {
     return pages.Link.display();
   });
   pages.Edit = new Page(function () {
-    oldName = placeIndex;
+    //@oldName = placeIndex
     this.addRow(makeInput('name', placeIndex));
     this.addRow(makeInput('lat', place().lat));
     this.addRow(makeInput('lng', place().lng));
@@ -275,8 +271,8 @@ setup = function setup() {
         lat: lat,
         lng: lng
       };
-      if (oldName !== name) {
-        delete places[oldName];
+      if (placeIndex !== name) {
+        delete places[placeIndex];
       }
       placeIndex = name;
       storeData();
@@ -290,7 +286,6 @@ setup = function setup() {
     var last;
     if (track.length > 0) {
       last = _.last(track);
-      print(last);
       this.addRow(makeInput('name', prettyDate(new Date(last.timestamp))));
       this.addRow(makeInput('lat', precisionRound(last.lat, 6)));
       this.addRow(makeInput('lng', precisionRound(last.lng, 6)));
