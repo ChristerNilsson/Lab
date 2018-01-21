@@ -213,12 +213,11 @@ setup = function setup() {
       key = ref[i];
       results.push(function (key) {
         var b;
-        b = makeButton(key, 1, function () {
+        _this.addRow(b = makeButton(key, 1, function () {
           placeIndex = key;
           return pages.Nav.display();
-        });
-        b.style.textAlign = 'left';
-        return _this.addRow(b);
+        }));
+        return b.style.textAlign = 'left';
       }(key));
     }
     return results;
@@ -230,7 +229,6 @@ setup = function setup() {
     return pages.Links.display();
   });
   pages.Nav = new Page(function () {
-    print(placeIndex);
     texts[9] = placeIndex;
     start = millis();
     startDate = new Date();
@@ -254,7 +252,6 @@ setup = function setup() {
     return pages.Link.display();
   });
   pages.Edit = new Page(function () {
-    //@oldName = placeIndex
     this.addRow(makeInput('name', placeIndex));
     this.addRow(makeInput('lat', place().lat));
     this.addRow(makeInput('lng', place().lng));

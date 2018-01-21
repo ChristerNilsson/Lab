@@ -131,23 +131,20 @@ setup = ->
 		keys = _.keys places 
 		for key in keys.sort()
 			do (key) =>
-				b = makeButton key, 1, => 
+				@addRow b = makeButton key, 1, => 
 					placeIndex = key
 					pages.Nav.display()
 				b.style.textAlign = 'left' 
-				@addRow b		
 	pages.List.addAction 'Add', -> pages.Add.display()
 	pages.List.addAction 'Links', -> pages.Links.display()
 
 	pages.Nav = new Page -> 
-		print placeIndex 
 		texts[9] = placeIndex
 		start = millis()
 		startDate = new Date()
 		track = []
 		lastObservation = millis()
 		showCanvas()
-
 	pages.Nav.addAction 'List', -> pages.List.display()
 	pages.Nav.addAction 'Map', -> window.open "http://maps.google.com/maps?q=#{place().lat},#{place().lng}"
 	pages.Nav.addAction 'Edit', -> pages.Edit.display()
@@ -155,7 +152,6 @@ setup = ->
 	pages.Nav.addAction 'Link', -> pages.Link.display()
 
 	pages.Edit = new Page ->
-		#@oldName = placeIndex
 		@addRow makeInput 'name',placeIndex
 		@addRow makeInput 'lat',place().lat
 		@addRow makeInput 'lng',place().lng
