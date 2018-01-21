@@ -86,7 +86,7 @@ locationUpdate = (position) ->
 		totalTime = calcTotalTime start, millis(), track[0], _.last(track), place()
 		texts[3] = "#{precisionRound 3.6*speed,1} km/h"  
 		texts[2] = prettyETA startDate, totalTime
-		logg.push "#{p1.timestamp} #{p1.lat} #{p1.lng} #{heading_12} #{speed} " # #{totaltime}"
+		logg.push "#{p1.timestamp} #{p1.lat} #{p1.lng} #{heading_12} #{speed} #{totaltime}"
 
 locationUpdateFail = (error) ->
 
