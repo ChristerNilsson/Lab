@@ -104,9 +104,9 @@ lastObservation = 0;
 
 p1 = null;
 
-start = null; // Starttid. Sätts vid byte av target
+start = null; // Starttid. Sätts vid byte av target till millis()
 
-startDate = null;
+startDate = null; // . Sätts vid byte av target till new Date()
 
 texts = ['dist', 'bäring', 'ETA', 'km/h', '', 'wait', 'punkter', '', 'tid', 'destination'];
 
@@ -156,8 +156,7 @@ locationUpdate = function locationUpdate(position) {
   track.push(p1);
   heading_12 = calcHeading(p1, place());
   lastObservation = millis();
-  print(p1, place());
-  print(texts[0] = prettyDist(distance_on_geoid(p1, place())));
+  texts[0] = prettyDist(distance_on_geoid(p1, place()));
   texts[1] = Math.round(heading_12) + '\xB0';
   texts[6] = track.length;
   if (track.length > 1) {
@@ -166,7 +165,7 @@ locationUpdate = function locationUpdate(position) {
     texts[3] = precisionRound(3.6 * speed, 1) + ' km/h';
     texts[2] = prettyETA(startDate, totalTime);
   }
-  return logg.push([p1.timestamp, p1.lat, p1.lng, heading_12, speed, totaltime].join(' '));
+  return logg.push(p1.timestamp + ' ' + p1.lat + ' ' + p1.lng + ' ' + heading_12 + ' ' + speed + ' ' + totaltime);
 };
 
 locationUpdateFail = function locationUpdateFail(error) {};
@@ -178,8 +177,6 @@ navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
 });
 
 //#########################
-
-//mousePressed = -> normal = 1 - normal
 setup = function setup() {
   var c, key, parameters;
   WHITE = color(255, 255, 255);
@@ -338,8 +335,7 @@ setup = function setup() {
       curr = _.last(track);
       links.push(encodeURI(LINK + '?name=' + 'Christer' + '&lat=' + curr.lat + '&lng=' + curr.lng + '&timestamp=' + curr.timestamp));
     }
-    link.value = links.join("\n");
-    return link.value += logg.join("\n");
+    return link.value = links.join("\n") + logg.join("\n");
   });
   pages.Link.addAction('Copy', function () {
     iosCopyToClipboard(document.getElementById("link"));

@@ -39,8 +39,8 @@ bearing = 0
 heading_12 = 0
 lastObservation = 0
 p1 = null
-start = null # Starttid. Sätts vid byte av target
-startDate = null
+start = null # Starttid. Sätts vid byte av target till millis()
+startDate = null # . Sätts vid byte av target till new Date()
 
 texts = ['dist','bäring','ETA','km/h','','wait','punkter','','tid','destination']
 
@@ -78,8 +78,7 @@ locationUpdate = (position) ->
 	heading_12 = calcHeading p1,place()
 	lastObservation = millis()
 
-	print p1,place()
-	print texts[0] = prettyDist distance_on_geoid p1,place()
+	texts[0] = prettyDist distance_on_geoid p1,place()
 	texts[1] = "#{Math.round heading_12}°"
 	texts[6] = track.length 
 	if track.length > 1
@@ -87,8 +86,7 @@ locationUpdate = (position) ->
 		totalTime = calcTotalTime start, millis(), track[0], _.last(track), place()
 		texts[3] = "#{precisionRound 3.6*speed,1} km/h"  
 		texts[2] = prettyETA startDate, totalTime
-
-	logg.push [p1.timestamp, p1.lat, p1.lng, heading_12, speed, totaltime].join ' '
+	logg.push "#{p1.timestamp} #{p1.lat} #{p1.lng} #{heading_12} #{speed} #{totaltime}"
 
 locationUpdateFail = (error) ->
 
@@ -98,8 +96,6 @@ navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
 	timeout: 27000
 
 ##########################
-
-#mousePressed = -> normal = 1 - normal
 
 setup = ->
 
@@ -213,8 +209,7 @@ setup = ->
 		if track.length > 0
 			curr = _.last track
 			links.push encodeURI "#{LINK}?name=#{'Christer'}&lat=#{curr.lat}&lng=#{curr.lng}&timestamp=#{curr.timestamp}"
-		link.value = links.join "\n"
-		link.value += logg.join "\n"
+		link.value = links.join("\n") + logg.join("\n")
 	pages.Link.addAction 'Copy', -> 
 		iosCopyToClipboard document.getElementById("link")
 		pages.Nav.display()
