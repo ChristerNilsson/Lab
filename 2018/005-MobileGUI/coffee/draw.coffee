@@ -77,7 +77,7 @@ drawTexts = ->
 	sc 0.5
 	sw 1
 	n = 3 # columns
-	if millis()-start < 2000
+	if millis()-start < 1000
 		textSize h*0.07
 		currTexts = ['Distance','Bearing','ETA','Speed','','Time','Points','','Delay','Destination']
 	else

@@ -19,8 +19,6 @@ RED = null;
 
 pages = {};
 
-place = null;
-
 oldName = null;
 
 //normal = 0 # 0 = values 1 = help texts
@@ -90,6 +88,7 @@ places = {
 placeIndex = 'Hem';
 
 place = function place() {
+  print(placeIndex, places[placeIndex]);
   return places[placeIndex];
 };
 
@@ -219,6 +218,7 @@ setup = function setup() {
         var b;
         b = makeButton(key, 1, function () {
           placeIndex = key;
+          place();
           return pages.Nav.display();
         });
         b.style.textAlign = 'left';
@@ -234,6 +234,7 @@ setup = function setup() {
     return pages.Links.display();
   });
   pages.Nav = new Page(function () {
+    print(placeIndex);
     texts[9] = placeIndex;
     start = millis();
     startDate = new Date();

@@ -10,7 +10,6 @@ BLACK = null
 RED   = null
 
 pages = {}
-place = null
 oldName = null
 
 #normal = 0 # 0 = values 1 = help texts
@@ -33,7 +32,9 @@ places =
 	'Ulvsjön, Udden'         : {lat:59.277103, lng:18.164897}
 
 placeIndex = 'Hem'
-place = -> places[placeIndex]
+place = -> 
+	print placeIndex,places[placeIndex]
+	places[placeIndex]
 
 w = null 
 h = null 
@@ -136,6 +137,7 @@ setup = ->
 			do (key) =>
 				b = makeButton key, 1, => 
 					placeIndex = key
+					place()
 					pages.Nav.display()
 				b.style.textAlign = 'left' 
 				@addRow b		
@@ -143,6 +145,7 @@ setup = ->
 	pages.List.addAction 'Links', -> pages.Links.display()
 
 	pages.Nav = new Page -> 
+		print placeIndex 
 		texts[9] = placeIndex
 		start = millis()
 		startDate = new Date()
@@ -235,7 +238,6 @@ setup = ->
 		pages.List.display()
 	pages.Links.addAction 'Cancel', -> 
 		pages.List.display()
-
 
 	# startsida:
 	pages.List.display()
