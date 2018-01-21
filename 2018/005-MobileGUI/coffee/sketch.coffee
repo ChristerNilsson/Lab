@@ -1,7 +1,8 @@
 # https://stackoverflow.com/questions/2010892/storing-objects-in-html5-localstorage
 # sex decimaler motsvarar 11 cm resp 5 cm precision i sista siffran.
 
-LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
+#LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
+LINK = "file:///C:/Lab/2018/005-MobileGUI/index.html"
 
 WHITE = null
 GREEN = null
@@ -114,6 +115,8 @@ setup = ->
 	if _.size(parameters) == 3 
 		console.log parameters
 		places.push parameters
+		for key,parameter of parameters
+			parameters[key] = decodeURI parameter
 		storeData()
 
 	start = millis()
@@ -136,6 +139,7 @@ setup = ->
 				b.style.textAlign = 'left' 
 				@addRow b		
 	pages.List.addAction 'Add', -> pages.Add.display()
+	pages.List.addAction 'Links', -> pages.Links.display()
 
 	pages.Nav = new Page -> 
 		texts[9] = place.name
@@ -210,59 +214,41 @@ setup = ->
 		pages.List.display()
 	pages.Del.addAction 'Cancel', -> pages.Nav.display()
 
-	# pages.Link = new Page -> 
-	# 	@addRow makeDiv 'The Link is now on the Clipboard. Mail it to a friend.'
-	# 	@addRow link = makeInput 'link', "" #, true
-	# 	link.value += "\n" + encodeURI "#{LINK}?name=#{place.name}&lat=#{place.lat}&lng=#{place.lng}" 
-	# 	if track.length > 0
-	# 		curr = _.last track
-	# 		link.value += "\n" + encodeURI "#{LINK}?name=#{curr.timestamp}&lat=#{curr.lat}&lng=#{curr.lng}"
-	# pages.Link.addAction 'Ok', -> 
-	# 	link.focus()
-	# 	link.select()
-	# 	document.execCommand 'copy'
-	# 	#link.value = ''
-	# 	#link.style.display = 'none'
-	# 	pages.Nav.display()
-
-
-	# pages.Link = new Page -> 
-	# 	@addRow makeDiv 'The Link is now on the Clipboard. Mail it to a friend.'
-	# 	@addRow link = makeTextArea 'link'
-	# 	link.value += "\n" + encodeURI "#{LINK}?name=#{place.name}&lat=#{place.lat}&lng=#{place.lng}" 
-	# 	if track.length > 0
-	# 		curr = _.last track
-	# 		link.value += "\n" + encodeURI "#{LINK}?name=#{curr.timestamp}&lat=#{curr.lat}&lng=#{curr.lng}"
-	# pages.Link.addAction 'Ok', -> 
-	# 	link = document.getElementById("link")
-	# 	iosCopyToClipboard link
-	# 	pages.Nav.display()
-
-	# # startsida:
-	# pages.List.display()
-
-
-
 	pages.Link = new Page -> 
-		@addRow makeDiv 'The Link is now on the Clipboard. Mail it to a friend.'
+		@addRow makeDiv "Click Copy and Mail #{place.name} and your current position to a friend."
 		@addRow link = makeTextArea 'link'
-		link.value += "\n" + encodeURI "#{LINK}?name=#{place.name}&lat=#{place.lat}&lng=#{place.lng}" 
+		links = []
+		links.push encodeURI "#{LINK}?name=#{place.name}&lat=#{place.lat}&lng=#{place.lng}" 
 		if track.length > 0
 			curr = _.last track
-			link.value += "\n" + encodeURI "#{LINK}?name=#{curr.timestamp}&lat=#{curr.lat}&lng=#{curr.lng}"
+			links.push encodeURI "#{LINK}?name=#{'Christer'}&lat=#{curr.lat}&lng=#{curr.lng}&timestamp=#{curr.timestamp}"
+		link.value = links.join "\n"
 	pages.Link.addAction 'Copy', -> 
-		link = document.getElementById("link")
-		iosCopyToClipboard link
-		#pages.Nav.display()
-	pages.Link.addAction 'Ok', -> 
+		iosCopyToClipboard document.getElementById("link")
 		pages.Nav.display()
+	pages.Link.addAction 'Cancel', -> 
+		pages.Nav.display()
+
+	pages.Links = new Page -> 
+		@addRow makeDiv "Click Copy and Mail all your points to a friend."
+		@addRow link = makeTextArea 'link'
+		links = []
+		for p in places
+			links.push encodeURI "#{LINK}?name=#{p.name}&lat=#{p.lat}&lng=#{p.lng}" 
+		link.value = links.join "\n"
+	pages.Links.addAction 'Copy', -> 
+		iosCopyToClipboard document.getElementById("link")
+		pages.List.display()
+	pages.Links.addAction 'Cancel', -> 
+		pages.List.display()
+
 
 	# startsida:
 	pages.List.display()
 
 ```
 // fungerar på iPad: iOS 11.2.2
-// fungerar ej på 4s iOS 9.3.5
+// fungerar ej på 4s iOS 9.3.5. Workaround: Låt användaren utföra kopieringen.
 // https://stackoverflow.com/questions/34045777/copy-to-clipboard-using-javascript-in-ios
 function iosCopyToClipboard(el) {
     var oldContentEditable = el.contentEditable,
@@ -282,6 +268,6 @@ function iosCopyToClipboard(el) {
     el.contentEditable = oldContentEditable;
     el.readOnly = oldReadOnly;
 
-//    document.execCommand('copy');
+		// document.execCommand('copy');
 }
 ```
