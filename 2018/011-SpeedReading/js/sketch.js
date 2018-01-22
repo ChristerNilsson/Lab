@@ -26,12 +26,13 @@ setup = function setup() {
 
 draw = function draw() {
   if (iLetter >= limit && iWord < arr.length) {
-    bg(0.5);
+    bg(0);
+    fc(1, 1, 0);
     text(arr[iWord], 100, 100);
-    print(arr[iWord]);
     iLetter = 0;
     limit = 1 + arr[iWord].length;
     iWord++;
+    fc(0.5);
     text(fr + " tecken per sekund", 100, 180);
   } else {
     iLetter++;
