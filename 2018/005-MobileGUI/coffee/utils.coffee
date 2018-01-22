@@ -70,6 +70,18 @@ tests.calcTotalTime = ->
 	assert 1247.9772474262074, calcTotalTime 0,1000000,a,p2,b  
 	assert 1999.9999999998727, calcTotalTime 0,1000000,a,p3,b  
 
+calcDestinationPoint = (point,distance,bearing) -> # meter
+	p1 = new LatLon point.lat,point.lng
+	p2 = p1.destinationPoint distance, bearing
+	lat = precisionRound p2.lat,6
+	lng = precisionRound p2.lon,6
+	{lat:lat, lng:lng}
+tests.calcDestinationPoint = ->
+	assert {lat:59.000899, lng:18}, calcDestinationPoint {lat:59.0, lng:18.0},100,0
+	assert {lat:59, lng:18.001746}, calcDestinationPoint {lat:59.0, lng:18.0},100,90
+	assert {lat:58.999101, lng:18}, calcDestinationPoint {lat:59.0, lng:18.0},100,180
+	assert {lat:59, lng:17.998254}, calcDestinationPoint {lat:59.0, lng:18.0},100,270
+
 calcHeading = (p1,p2) ->
 	q1 = LatLon p1.lat,p1.lng
 	q2 = LatLon p2.lat,p2.lng
@@ -216,6 +228,17 @@ prettyETA = (start,totalTime) -> # seconds
 tests.prettyETA = ->
 	assert "12:16",prettyETA new Date(2018,0,20,12,0,0),1000
 	assert "13:00",prettyETA new Date(2018,0,20,12,44,0),1000
+
+prettyName = (name) ->
+	arr = name.split ' '
+	arr = (item[0].toUpperCase() + item.slice(1).toLowerCase() for item in arr when item.length>0)
+	arr.join ' '
+
+tests.prettyName = ->
+	assert "Christer", prettyName 'christer'
+	assert "Christer Nilsson", prettyName 'christer nilsson'
+	assert "Christer Nilsson", prettyName 'christer  nilsson'
+	assert "", prettyName ' '
 
 test = ->
 	start = millis()

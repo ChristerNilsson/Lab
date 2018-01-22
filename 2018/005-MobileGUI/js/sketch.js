@@ -227,8 +227,8 @@ setup = function setup() {
     }
     return results;
   });
-  pages.List.addAction('Add', function () {
-    return pages.Add.display();
+  pages.List.addAction('+abs', function () {
+    return pages.PlusAbs.display();
   });
   pages.List.addAction('Links', function () {
     return pages.Links.display();
@@ -257,6 +257,9 @@ setup = function setup() {
   pages.Nav.addAction('Link', function () {
     return pages.Link.display();
   });
+  pages.Nav.addAction('+rel', function () {
+    return pages.PlusRel.display();
+  });
   pages.Edit = new Page(function () {
     this.addRow(makeInput('name', placeIndex));
     this.addRow(makeInput('lat', place().lat));
@@ -266,7 +269,7 @@ setup = function setup() {
   });
   pages.Edit.addAction('Update', function () {
     var lat, lng, name;
-    name = getField("name");
+    name = prettyName(getField("name"));
     lat = parseFloat(getField("lat"));
     lng = parseFloat(getField("lng"));
     if (isNumeric(lat) && isNumeric(lng)) {
@@ -285,11 +288,11 @@ setup = function setup() {
   pages.Edit.addAction('Cancel', function () {
     return pages.List.display();
   });
-  pages.Add = new Page(function () {
+  pages.PlusAbs = new Page(function () {
     var last;
     if (track.length > 0) {
       last = _.last(track);
-      this.addRow(makeInput('name', prettyDate(new Date(last.timestamp))));
+      this.addRow(makeInput('name', '')); // prettyDate new Date last.timestamp
       this.addRow(makeInput('lat', precisionRound(last.lat, 6)));
       this.addRow(makeInput('lng', precisionRound(last.lng, 6)));
     } else {
@@ -300,21 +303,47 @@ setup = function setup() {
     document.getElementById("name").focus();
     return document.getElementById("name").select();
   });
-  pages.Add.addAction('Save', function () {
+  pages.PlusAbs.addAction('Save', function () {
     var lat, lng, name;
-    name = getField("name");
+    name = prettyName(getField("name"));
     lat = parseFloat(getField("lat"));
     lng = parseFloat(getField("lng"));
     if (isNumeric(lat) && isNumeric(lng)) {
       places[name] = {
         lat: lat,
-        lng: lng
+        lng: lng,
+        timestamp: prettyDate(new Date())
       };
       storeData();
       return pages.List.display();
     }
   });
-  pages.Add.addAction('Cancel', function () {
+  pages.PlusAbs.addAction('Cancel', function () {
+    return pages.List.display();
+  });
+  pages.PlusRel = new Page(function () {
+    this.addRow(makeInput('name', ''));
+    this.addRow(makeInput('distance (m)', ''));
+    this.addRow(makeInput('bearing', ''));
+    return document.getElementById("name").focus();
+  });
+  pages.PlusRel.addAction('Save', function () {
+    var bear, dist, name, newPoint;
+    name = prettyName(getField("name"));
+    dist = parseFloat(getField("distance (m)"));
+    bear = parseFloat(getField("bearing"));
+    if (isNumeric(dist) && isNumeric(bear)) {
+      newPoint = calcDestinationPoint(places[placeIndex], dist, bear);
+      places[name] = {
+        lat: newPoint.lat,
+        lng: newPoint.lng,
+        timestamp: prettyDate(new Date())
+      };
+      storeData();
+      return pages.List.display();
+    }
+  });
+  pages.PlusRel.addAction('Cancel', function () {
     return pages.List.display();
   });
   pages.Del = new Page(function () {

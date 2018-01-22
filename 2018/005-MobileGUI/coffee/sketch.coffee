@@ -141,7 +141,7 @@ setup = ->
 					placeIndex = key
 					pages.Nav.display()
 				b.style.textAlign = 'left' 
-	pages.List.addAction 'Add', -> pages.Add.display()
+	pages.List.addAction '+abs', -> pages.PlusAbs.display()
 	pages.List.addAction 'Links', -> pages.Links.display()
 
 	pages.Nav = new Page -> 
@@ -157,6 +157,7 @@ setup = ->
 	pages.Nav.addAction 'Edit', -> pages.Edit.display()
 	pages.Nav.addAction 'Del', -> pages.Del.display()
 	pages.Nav.addAction 'Link', -> pages.Link.display()
+	pages.Nav.addAction '+rel', -> pages.PlusRel.display()
 
 	pages.Edit = new Page ->
 		@addRow makeInput 'name',placeIndex
@@ -165,7 +166,7 @@ setup = ->
 		document.getElementById("name").focus()
 		document.getElementById("name").select()
 	pages.Edit.addAction 'Update', -> 
-		name = getField "name"
+		name = prettyName getField "name"
 		lat = parseFloat getField "lat"
 		lng = parseFloat getField "lng"
 		if isNumeric(lat) and isNumeric(lng)
@@ -176,10 +177,10 @@ setup = ->
 			pages.List.display()
 	pages.Edit.addAction 'Cancel', -> pages.List.display()
 
-	pages.Add = new Page ->
+	pages.PlusAbs = new Page ->
 		if track.length > 0
 			last = _.last track
-			@addRow makeInput 'name', prettyDate new Date last.timestamp
+			@addRow makeInput 'name', '' # prettyDate new Date last.timestamp
 			@addRow makeInput 'lat',  precisionRound last.lat,6
 			@addRow makeInput 'lng',  precisionRound last.lng,6
 		else
@@ -188,15 +189,31 @@ setup = ->
 			@addRow makeInput 'lng',  0
 		document.getElementById("name").focus()
 		document.getElementById("name").select()
-	pages.Add.addAction	'Save', -> 
-		name = getField "name"
+	pages.PlusAbs.addAction	'Save', -> 
+		name = prettyName getField "name"
 		lat = parseFloat getField "lat"
 		lng = parseFloat getField "lng"
 		if isNumeric(lat) and isNumeric(lng)
-			places[name] = {lat:lat, lng:lng}
+			places[name] = {lat:lat, lng:lng, timestamp: prettyDate new Date()}
 			storeData()
 			pages.List.display()
-	pages.Add.addAction 'Cancel', -> pages.List.display()
+	pages.PlusAbs.addAction 'Cancel', -> pages.List.display()
+
+	pages.PlusRel = new Page ->
+		@addRow makeInput 'name', ''
+		@addRow makeInput 'distance (m)',  ''
+		@addRow makeInput 'bearing',  ''
+		document.getElementById("name").focus()
+	pages.PlusRel.addAction	'Save', -> 
+		name = prettyName getField "name"
+		dist = parseFloat getField "distance (m)"
+		bear = parseFloat getField "bearing"
+		if isNumeric(dist) and isNumeric(bear)
+			newPoint = calcDestinationPoint places[placeIndex],dist,bear
+			places[name] = {lat: newPoint.lat, lng: newPoint.lng, timestamp: prettyDate new Date()} 
+			storeData()
+			pages.List.display()
+	pages.PlusRel.addAction 'Cancel', -> pages.List.display()
 
 	pages.Del = new Page -> 
 		@addRow makeInput 'name',placeIndex,true
