@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AACA,IAAA,MAAA;;AAAA,QAAQ,iBACP;MAAA;AAAA,eAAa,AAAb,aAAyB,AAAzB;AACA,0BAAwB;AACvB,QAAG,OAAM,AAAI,KAAC,AAAL,IAAS,AAAM,OAAC,AAAhB,AAAT;aACC,KAAK,OAAO,AAAP,QAAa,AAAb,MAAiB,AAAtB,QAA6B,QAAM,AAAnC,GAAqC,SAAO,AAA5C,AADD;AAAA,WAAA;aAGC,KAAK,OAAO,AAAP,QAAa,AAAb,MAAiB,AAAtB,QAA6B,QAAM,AAAnC,GAAqC,SAAO,AAA5C,AAHD;AADuB;;AAMxB,AAAM,SAAC,AAAP,sBAA6B;SAE7B,AAVO;;;AAYR,OAAO,gBAAA",
+  "sourcesContent": [
+    "\r\nsetup = -> \r\n\tcreateCanvas windowWidth,windowHeight\r\n\treadDeviceOrientation = ->\r\n\t\tif 90 == Math.abs window.orientation\r\n\t\t\ttext \"L \" + width+' '+height,width/2,height/2\r\n\t\telse \r\n\t\t\ttext \"P \" + width+' '+height,width/2,height/2\r\n\r\n\twindow.onorientationchange = readDeviceOrientation\r\n\r\n\treadDeviceOrientation()\r\n\r\ndraw = ->\r\n\r\n"
+  ]
+}
