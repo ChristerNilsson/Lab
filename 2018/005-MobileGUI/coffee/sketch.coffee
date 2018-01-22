@@ -153,7 +153,8 @@ setup = ->
 		lastObservation = millis()
 		showCanvas()
 	pages.Nav.addAction 'List', -> pages.List.display()
-	pages.Nav.addAction 'Map', -> window.open "http://maps.google.com/maps?q=#{place().lat},#{place().lng}"
+	#pages.Nav.addAction 'Map', -> window.open "http://maps.google.com/maps?q=#{place().lat},#{place().lng}"
+	pages.Nav.addAction 'Map', -> window.location.href = "http://maps.google.com/maps?q=#{place().lat},#{place().lng}"
 	pages.Nav.addAction 'Edit', -> pages.Edit.display()
 	pages.Nav.addAction 'Del', -> pages.Del.display()
 	pages.Nav.addAction 'Link', -> pages.Link.display()

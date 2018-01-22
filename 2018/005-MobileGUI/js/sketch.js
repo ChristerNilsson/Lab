@@ -245,8 +245,9 @@ setup = function setup() {
   pages.Nav.addAction('List', function () {
     return pages.List.display();
   });
+  //pages.Nav.addAction 'Map', -> window.open "http://maps.google.com/maps?q=#{place().lat},#{place().lng}"
   pages.Nav.addAction('Map', function () {
-    return window.open('http://maps.google.com/maps?q=' + place().lat + ',' + place().lng);
+    return window.location.href = 'http://maps.google.com/maps?q=' + place().lat + ',' + place().lng;
   });
   pages.Nav.addAction('Edit', function () {
     return pages.Edit.display();
