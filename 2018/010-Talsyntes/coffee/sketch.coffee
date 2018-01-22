@@ -1,12 +1,14 @@
 oldBearing = 0
 delta = 0
+delay = 1000 # ms
+start = null
 
 mousePressed = ->
-	utterance = new SpeechSynthesisUtterance delta
-	window.speechSynthesis.speak utterance
+	responsiveVoice.speak "Hello World"
 
 setup = ->
 	createCanvas 200,200
+	start = millis()
 	window.addEventListener "deviceorientation", (event) ->
 		bearing = event.alpha
 		if typeof event.webkitCompassHeading != "undefined"
@@ -14,10 +16,10 @@ setup = ->
 
 		delta = Math.round((oldBearing-bearing)/10)
 		delta *= 10
-		if delta != 0
+		if delta != 0 and millis()-start > 1000
+			start = millis()
 			oldBearing = bearing
-			utterance = new SpeechSynthesisUtterance delta
-			window.speechSynthesis.speak utterance
+			responsiveVoice.speak delta
 
 draw = ->
 	bg 1
