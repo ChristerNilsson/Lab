@@ -11,6 +11,8 @@ delay = 1000; // ms
 
 start = null;
 
+// Kompass finns ej på min laptop.
+// Apple tillåter bara text to speech som invokeras via aktivt val, t ex via knapp.
 mousePressed = function mousePressed() {
   return responsiveVoice.speak("Hello World");
 };

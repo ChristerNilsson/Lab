@@ -3,6 +3,9 @@ delta = 0
 delay = 1000 # ms
 start = null
 
+# Kompass finns ej på min laptop.
+# Apple tillåter bara text to speech som invokeras via aktivt val, t ex via knapp.
+
 mousePressed = ->
 	responsiveVoice.speak "Hello World"
 
