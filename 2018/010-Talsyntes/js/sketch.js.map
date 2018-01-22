@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,YAAA;;AAAA,aAAa;;AAEb,QAAQ;gBACP,AAAO,iBAAP,AAAwB,qBAAqB,UAAA,AAAC,OAC7C;QAAA,SAAA,OAAA;AAAA,cAAU,AAAK,MAAC;AAChB,QAAG,OAAO,AAAK,MAAZ,AAAa,yBAAhB,AAAwC;AACvC,gBAAU,AAAK,MADhB,AACiB;;AAEjB,YAAQ,AAAI,KAAJ,AAAK,MAAM,CAAC,aAAD,AAAY,WAAvB,AAAgC;AACxC,aAAS;AACT,QAAG,UAAH,AAAY;AACX,mBAAa;AACb,kBAAY,IAAA,AAAI,yBAAJ,AAA6B;aACzC,AAAM,OAAC,AAAe,gBAAtB,AAAuB,MAHxB,AAGC,AAA6B;AAVc;AADtC,AACP,GAAA,AAAM",
+  "sourcesContent": [
+    "oldBearing = 0\r\n\r\nsetup = ->\r\n\twindow.addEventListener \"deviceorientation\", (event) ->\r\n\t\tbearing = event.alpha\r\n\t\tif typeof event.webkitCompassHeading != \"undefined\"\r\n\t\t\tbearing = event.webkitCompassHeading # iOS non-standard\r\n\r\n\t\tdelta = Math.round (oldBearing-bearing)/10\r\n\t\tdelta *= 10\r\n\t\tif delta != 0\r\n\t\t\toldBearing = bearing\r\n\t\t\tutterance = new SpeechSynthesisUtterance delta\r\n\t\t\twindow.speechSynthesis.speak utterance\r\n"
+  ]
+}
