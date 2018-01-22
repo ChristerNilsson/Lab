@@ -110,9 +110,13 @@ draw = ->
 	texts[8] = if dt>=2 then "#{dt} s" else ""
 	texts[5] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
 	if window.orientation in [-90,90]  
+		w = width
+		h = height	
 		drawCompassL w,h
 		drawTextsL w,h
 	else
+		h = width
+		w = height	
 		drawCompassP w,h
 		drawTextsP w,h
 

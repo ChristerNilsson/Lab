@@ -191,9 +191,13 @@ draw = function draw() {
   // sekunder sedan start
   + ' s';
   if ((ref = window.orientation) === -90 || ref === 90) {
+    w = width;
+    h = height;
     drawCompassL(w, h);
     return drawTextsL(w, h);
   } else {
+    h = width;
+    w = height;
     drawCompassP(w, h);
     return drawTextsP(w, h);
   }
