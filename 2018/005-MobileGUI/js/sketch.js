@@ -168,7 +168,7 @@ locationUpdate = function locationUpdate(position) {
     lat = precisionRound(p1.lat, 6);
     lng = precisionRound(p1.lng, 6);
     heading = precisionRound(heading_12, 0);
-    mark00 = d.getSeconds() === 0 ? ' *' : '';
+    mark00 = d.getSeconds() === 0 ? '*' : '';
     return logg.push(ts + ' ' + lat + ' ' + lng + ' ' + texts[0] + ' ' + heading + ' ' + texts[3] + ' ' + texts[2] + ' ' + mark00);
   }
 };
