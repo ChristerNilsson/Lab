@@ -104,6 +104,23 @@ navigator.geolocation.watchPosition locationUpdate, locationUpdateFail,
 
 ##########################
 
+draw = ->
+	bg 0
+	dt = Math.round (millis() - lastObservation)/1000
+	texts[8] = if dt>=2 then "#{dt} s" else ""
+	texts[5] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
+	if window.orientation in [-90,90]  
+		drawCompassL w,h
+		drawTextsL w,h
+	else
+		drawCompassP w,h
+		drawTextsP w,h
+
+# doOnOrientationChange = ->
+# window.addEventListener('orientationchange', doOnOrientationChange);
+# Initial execution if needed
+# doOnOrientationChange();
+
 setup = ->
 
 	WHITE = color 255,255,255
@@ -262,22 +279,22 @@ setup = ->
 // fungerar ej på 4s iOS 9.3.5. Workaround: Låt användaren utföra kopieringen.
 // https://stackoverflow.com/questions/34045777/copy-to-clipboard-using-javascript-in-ios
 function iosCopyToClipboard(el) {
-    var oldContentEditable = el.contentEditable,
-        oldReadOnly = el.readOnly,
-        range = document.createRange();
+		var oldContentEditable = el.contentEditable,
+				oldReadOnly = el.readOnly,
+				range = document.createRange();
 
-    el.contenteditable = true;
-    el.readonly = false;
-    range.selectNodeContents(el);
+		el.contenteditable = true;
+		el.readonly = false;
+		range.selectNodeContents(el);
 
-    var s = window.getSelection();
-    s.removeAllRanges();
-    s.addRange(range);
+		var s = window.getSelection();
+		s.removeAllRanges();
+		s.addRange(range);
 
-    el.setSelectionRange(0, 999999); // A big number, to cover anything that could be inside the element.
+		el.setSelectionRange(0, 999999); // A big number, to cover anything that could be inside the element.
 
-    el.contentEditable = oldContentEditable;
-    el.readOnly = oldReadOnly;
+		el.contentEditable = oldContentEditable;
+		el.readOnly = oldReadOnly;
 
 		// document.execCommand('copy');
 }
