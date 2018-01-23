@@ -30,7 +30,8 @@ setup = function setup() {
 
 draw = function draw() {
   bg(0.5);
-  text(windowWidth + ' ' + windowHeight, width / 2, height / 4);
-  return text(mode + ' ' + width + ' ' + height, width / 2, height / 2);
+  text(windowWidth + ' ' + windowHeight, width / 2, 0.25 * height);
+  text(mode + ' ' + width + ' ' + height, width / 2, 0.50 * height);
+  return text(screen.width + ' ' + screen.height, width / 2, 0.75 * height);
 };
 //# sourceMappingURL=sketch.js.map
