@@ -2,16 +2,16 @@ canvas = null
 mode = 'P'
 
 setup = -> 
-	canvas = createCanvas windowWidth/2,windowHeight/2
+	canvas = createCanvas window.innerWidth/2,window.innerHeight/2
 	textAlign CENTER,CENTER
 	textSize 20
 	readDeviceOrientation = ->
 		if window.orientation in [-90,90]
-			resizeCanvas windowWidth/2,windowHeight/2
+			resizeCanvas window.innerWidth/2,window.innerHeight/2
 			canvas.position 0, 0
 			mode = 'L'
 		else 
-			resizeCanvas windowWidth/2,windowHeight/2
+			resizeCanvas window.innerWidth/2,window.innerHeight/2
 			canvas.position 0, 0
 			mode = 'P'
 
@@ -21,6 +21,6 @@ setup = ->
 
 draw = ->
 	bg 0.5
-	text windowWidth + ' ' + windowHeight,   width/2,0.25*height
+	text window.innerWidth + ' ' + window.innerHeight,   width/2,0.25*height
 	text mode + ' ' + width+' '+height,      width/2,0.50*height
-	text screen.width + ' ' + screen.height, width/2,0.75*height
+	#text screen.width + ' ' + screen.height, width/2,0.75*height

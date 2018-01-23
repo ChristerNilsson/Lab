@@ -9,17 +9,17 @@ mode = 'P';
 
 setup = function setup() {
   var readDeviceOrientation;
-  canvas = createCanvas(windowWidth / 2, windowHeight / 2);
+  canvas = createCanvas(window.innerWidth / 2, window.innerHeight / 2);
   textAlign(CENTER, CENTER);
   textSize(20);
   readDeviceOrientation = function readDeviceOrientation() {
     var ref;
     if ((ref = window.orientation) === -90 || ref === 90) {
-      resizeCanvas(windowWidth / 2, windowHeight / 2);
+      resizeCanvas(window.innerWidth / 2, window.innerHeight / 2);
       canvas.position(0, 0);
       return mode = 'L';
     } else {
-      resizeCanvas(windowWidth / 2, windowHeight / 2);
+      resizeCanvas(window.innerWidth / 2, window.innerHeight / 2);
       canvas.position(0, 0);
       return mode = 'P';
     }
@@ -30,8 +30,9 @@ setup = function setup() {
 
 draw = function draw() {
   bg(0.5);
-  text(windowWidth + ' ' + windowHeight, width / 2, 0.25 * height);
-  text(mode + ' ' + width + ' ' + height, width / 2, 0.50 * height);
-  return text(screen.width + ' ' + screen.height, width / 2, 0.75 * height);
+  text(window.innerWidth + ' ' + window.innerHeight, width / 2, 0.25 * height);
+  return text(mode + ' ' + width + ' ' + height, width / 2, 0.50 * height);
 };
+
+//text screen.width + ' ' + screen.height, width/2,0.75*height
 //# sourceMappingURL=sketch.js.map
