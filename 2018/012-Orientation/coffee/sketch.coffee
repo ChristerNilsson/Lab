@@ -6,7 +6,6 @@ setup = ->
 	textAlign CENTER,CENTER
 	textSize 20
 	readDeviceOrientation = ->
-		resizeCanvas windowWidth/2,windowHeight/2
 		if window.orientation in [-90,90]
 			resizeCanvas windowWidth/2,windowHeight/2
 			canvas.position 0, 0
