@@ -5,9 +5,9 @@ var setup;
 
 setup = function setup() {
   var locationUpdate, locationUpdateFail;
-  createCanvas(800, 800);
+  createCanvas(windowWidth, windowHeight);
   textAlign(CENTER, CENTER);
-  textSize(40);
+  textSize(20);
   locationUpdate = function locationUpdate(position) {
     bg(0.5);
     text(position.coords.latitude, 100, 20);
@@ -16,7 +16,7 @@ setup = function setup() {
   };
   locationUpdateFail = function locationUpdateFail(error) {
     bg(0.5);
-    return text(error.code + ' ' + error.message, 400, 400);
+    return text(error.code + ' ' + error.message, width / 2, height / 2);
   };
   return navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
     enableHighAccuracy: false, // true

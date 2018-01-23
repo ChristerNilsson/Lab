@@ -1,7 +1,7 @@
 setup = ->
-	createCanvas 800,800
+	createCanvas windowWidth,windowHeight
 	textAlign CENTER,CENTER
-	textSize 40
+	textSize 20
 
 	locationUpdate = (position) ->
 		bg 0.5
@@ -11,7 +11,7 @@ setup = ->
 
 	locationUpdateFail = (error) ->
 		bg 0.5
-		text error.code + ' ' + error.message,400,400
+		text error.code + ' ' + error.message,width/2,height/2
 
 	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
 		enableHighAccuracy: false # true
