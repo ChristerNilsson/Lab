@@ -38,7 +38,7 @@ setup = function setup() {
     h = window.innerWidth;
     w = window.innerHeight;
     if ((ref = window.orientation) === -90 || ref === 90) {
-      resizeCanvas(w * ratio, h * ratio / 2);
+      resizeCanvas(h * ratio / 2, w * ratio / 2);
       //canvas.position 0, 0
       return mode = 'L';
     } else {
