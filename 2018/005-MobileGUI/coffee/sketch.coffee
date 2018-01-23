@@ -68,7 +68,7 @@ setupCompass = ->
 		if typeof event.webkitCompassHeading != "undefined"
 			bearing = event.webkitCompassHeading # iOS 
 		else
-			bearing = -event.alpha # android
+			bearing = 90-event.alpha # android: Math to compass
 
 locationUpdate = (position) ->
 	logg.push 'locationUpdate ' + position.timestamp
