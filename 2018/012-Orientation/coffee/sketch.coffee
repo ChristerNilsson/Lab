@@ -1,6 +1,8 @@
 canvas = null
 mode = 'P'
 ratio = 1
+w=null
+h=null
 
 setup = -> 
 	#c = document.createElement 'canvas'
