@@ -10,15 +10,16 @@ orientation = null;
 setup = function setup() {
   var readDeviceOrientation;
   canvas = createCanvas(windowWidth, windowHeight);
-  canvas.position(0, 0);
   textAlign(CENTER, CENTER);
   textSize(20);
   readDeviceOrientation = function readDeviceOrientation() {
-    if (90 === Math.abs(window.orientation)) {
-      resizeCanvas(windowWidth / 2, windowHeight / 2);
+    if (90 === abs(window.orientation)) {
+      resizeCanvas(round(windowWidth / 2), round(windowHeight / 2));
+      canvas.position(0, 0);
       return orientation = 'L';
     } else {
-      resizeCanvas(windowWidth / 2, windowHeight / 2);
+      resizeCanvas(round(windowWidth / 2), round(windowHeight / 2));
+      canvas.position(0, 0);
       return orientation = 'P';
     }
   };
