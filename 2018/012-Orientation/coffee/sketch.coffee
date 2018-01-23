@@ -29,7 +29,7 @@ setup = ->
 		h = window.innerWidth
 		w = window.innerHeight
 		if window.orientation in [-90,90]
-			resizeCanvas w*ratio,h*ratio
+			resizeCanvas w*ratio,h*ratio/2
 			#canvas.position 0, 0
 			mode = 'L'
 		else 
@@ -38,7 +38,7 @@ setup = ->
 			mode = 'P'
 
 	window.onorientationchange = ->
-		window.setTimeout (-> readDeviceOrientation), 300
+		window.setTimeout readDeviceOrientation, 300
 
 	readDeviceOrientation()
 

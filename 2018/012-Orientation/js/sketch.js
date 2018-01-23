@@ -38,7 +38,7 @@ setup = function setup() {
     h = window.innerWidth;
     w = window.innerHeight;
     if ((ref = window.orientation) === -90 || ref === 90) {
-      resizeCanvas(w * ratio, h * ratio);
+      resizeCanvas(w * ratio, h * ratio / 2);
       //canvas.position 0, 0
       return mode = 'L';
     } else {
@@ -48,9 +48,7 @@ setup = function setup() {
     }
   };
   window.onorientationchange = function () {
-    return window.setTimeout(function () {
-      return readDeviceOrientation;
-    }, 300);
+    return window.setTimeout(readDeviceOrientation, 300);
   };
   return readDeviceOrientation();
 };
