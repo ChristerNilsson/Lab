@@ -38,8 +38,7 @@ setup = ->
 			textSize 20
 			mode = 'P'
 
-	window.onorientationchange = ->
-		window.setTimeout readDeviceOrientation, 300
+	window.onorientationchange = readDeviceOrientation
 
 	readDeviceOrientation()
 
