@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAG,AAAM,OAAC,AAAV;AACC,AAAM,SAAC,AAAP,iBAAwB,AAAxB,qBAA6C,UAAC,AAAD,WAC5C;QAAA,SAAA;AAAA,QAAG,AAAK,MAAC,AAAT;AAAmC,gBAAU,OAAO,AAAK,MAAC,AAA1D;AAAA,WAAA;AACK,gBAAU,OAAO,AAAK,MAAC,AAD5B;;AAEA,cAAU,AAAQ,SAAC,AAAT,eAAwB,AAAxB;WACV,AAAO,QAAC,AAAR,YAAoB,cAAc,AAJU;AAA7C,AADD",
+  "sourcesContent": [
+    "if window.DeviceOrientationEvent \r\n\twindow.addEventListener 'deviceorientation', (eventData) ->\r\n\t\tif event.webkitCompassHeading then heading = 'A ' + event.webkitCompassHeading\r\n\t\telse heading = 'B ' + event.alpha\r\n\t\telement = document.getElementById 'heading'\r\n\t\telement.innerHTML = 'Heading: ' + heading\r\n\r\n"
+  ]
+}
