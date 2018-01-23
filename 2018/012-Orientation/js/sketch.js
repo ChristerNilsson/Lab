@@ -32,7 +32,7 @@ setup = function setup() {
   readDeviceOrientation = function readDeviceOrientation() {
     var ref;
     if ((ref = window.orientation) === -90 || ref === 90) {
-      resizeCanvas(h * ratio, w * ratio);
+      resizeCanvas(w * ratio, h * ratio);
       canvas.position(0, 0);
       return mode = 'L';
     } else {
