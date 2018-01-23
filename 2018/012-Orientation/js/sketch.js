@@ -13,13 +13,15 @@ setup = function setup() {
   textAlign(CENTER, CENTER);
   textSize(20);
   readDeviceOrientation = function readDeviceOrientation() {
+    resizeCanvas(round(windowWidth / 2), round(windowHeight / 2));
     if (90 === abs(window.orientation)) {
-      resizeCanvas(round(windowWidth / 2), round(windowHeight / 2));
-      canvas.position(0, 0);
+      //resizeCanvas round(windowWidth/2),round(windowHeight/2) 
+      //canvas.position 0, 0
       return orientation = 'L';
     } else {
-      resizeCanvas(round(windowWidth / 2), round(windowHeight / 2));
-      canvas.position(0, 0);
+
+      //resizeCanvas round(windowWidth/2),round(windowHeight/2) 
+      //canvas.position 0, 0
       return orientation = 'P';
     }
   };
@@ -28,8 +30,9 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  bg(0.5);
-  text(windowWidth + ' ' + windowHeight, width / 2, height / 4);
-  return text(orientation + ' ' + width + ' ' + height, width / 2, height / 2);
+  return bg(0.5);
 };
+
+//text windowWidth + ' ' + windowHeight,    width/2,height/4
+//text orientation + ' ' + width+' '+height,width/2,height/2
 //# sourceMappingURL=sketch.js.map
