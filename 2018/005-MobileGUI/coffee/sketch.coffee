@@ -69,7 +69,7 @@ setupCompass = ->
 			bearing = event.webkitCompassHeading # iOS 
 		else
 			bearing = 270-event.alpha # android: Math to compass
-		texts[1] = "#{Math.round bearing}°"
+		texts[1] = "#{Math.round bearing}°°"
 
 locationUpdate = (position) ->
 	logg.push 'locationUpdate ' + position.timestamp

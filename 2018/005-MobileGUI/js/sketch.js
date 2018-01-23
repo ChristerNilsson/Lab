@@ -145,7 +145,7 @@ setupCompass = function setupCompass() {
     } else {
       bearing = 270 - event.alpha; // android: Math to compass
     }
-    return texts[1] = Math.round(bearing) + '\xB0';
+    return texts[1] = Math.round(bearing) + '\xB0\xB0';
   });
 };
 
