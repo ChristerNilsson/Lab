@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA;;AAAA,QAAQ,iBACP;MAAA,gBAAA;AAAA,eAAA,AAAa,KAAb,AAAiB;AACjB,YAAA,AAAU,QAAV,AAAiB;AACjB,WAAA,AAAS;AAET,mBAAiB,wBAAA,AAAC;AACjB,OAAA,AAAG;AACH,SAAK,AAAQ,SAAC,AAAM,OAApB,AAAqB,UAArB,AAA8B,KAA9B,AAAkC;AAClC,SAAK,AAAQ,SAAC,AAAM,OAApB,AAAqB,WAArB,AAA+B,KAA/B,AAAmC;WACnC,KAAK,AAAQ,SAAb,AAAc,WAAd,AAAwB,KAJR,AAIhB,AAA4B;;AAE7B,uBAAqB,4BAAA,AAAC;WACrB,KAAA,AAAK,OAAL,AAAW,KADS,AACpB,AAAe;;mBAEN,AAAW,YAArB,AAAsB,cAAtB,AAAoC,gBAApC,AAAoD;AACnD,wBAAA,AAAoB;AACpB,gBADA,AACY;AACZ,aAjBM,AAcP,AACC,AAES;AAFT,GADD,AAAS",
+  "sourcesContent": [
+    "setup = ->\r\n\tcreateCanvas 200,200\r\n\ttextAlign CENTER,CENTER\r\n\ttextSize 20\r\n\t\r\n\tlocationUpdate = (position) ->\r\n\t\tbg 0.5\r\n\t\ttext position.coords.latitude,100,20\r\n\t\ttext position.coords.longitude,100,40\r\n\t\ttext position.timestamp,100,60\r\n\r\n\tlocationUpdateFail = (error) ->\r\n\t\ttext error,100,100\r\n\r\n\tnavigator.geolocation.watchPosition locationUpdate, locationUpdateFail, \r\n\t\tenableHighAccuracy: false # true\r\n\t\tmaximumAge: 30000\r\n\t\ttimeout: 27000\r\n"
+  ]
+}
