@@ -139,13 +139,14 @@ showCanvas = function showCanvas() {
 
 //###############################
 setupCompass = function setupCompass() {
-  return window.addEventListener("deviceorientation", function (event) {
+  window.addEventListener("deviceorientation", function (event) {
     if (typeof event.webkitCompassHeading !== "undefined") {
       return bearing = event.webkitCompassHeading; // iOS 
     } else {
       return bearing = 90 - event.alpha; // android: Math to compass
     }
   });
+  return texts[1] = Math.round(bearing) + '\xB0';
 };
 
 locationUpdate = function locationUpdate(position) {
@@ -161,7 +162,7 @@ locationUpdate = function locationUpdate(position) {
   heading_12 = calcHeading(p1, place());
   lastObservation = millis();
   texts[0] = prettyDist(distance_on_geoid(p1, place()));
-  texts[1] = Math.round(heading_12) + '\xB0';
+  //texts[1] = "#{Math.round heading_12}°"
   texts[6] = track.length;
   if (track.length > 1) {
     speed = calcSpeed(start, millis(), track[0], _.last(track), place());

@@ -69,6 +69,7 @@ setupCompass = ->
 			bearing = event.webkitCompassHeading # iOS 
 		else
 			bearing = 90-event.alpha # android: Math to compass
+	texts[1] = "#{Math.round bearing}°"
 
 locationUpdate = (position) ->
 	logg.push 'locationUpdate ' + position.timestamp
@@ -84,7 +85,7 @@ locationUpdate = (position) ->
 	lastObservation = millis()
 
 	texts[0] = prettyDist distance_on_geoid p1,place()
-	texts[1] = "#{Math.round heading_12}°"
+	#texts[1] = "#{Math.round heading_12}°"
 	texts[6] = track.length 
 	if track.length > 1
 		speed     = calcSpeed     start, millis(), track[0], _.last(track), place()
