@@ -67,9 +67,10 @@ setupCompass = ->
 	window.addEventListener "deviceorientation", (event) ->
 		if typeof event.webkitCompassHeading != "undefined"
 			bearing = event.webkitCompassHeading # iOS 
+			texts[1] = "iOS #{Math.round bearing}°°"
 		else
-			bearing = 270-event.alpha # android: Math to compass
-		texts[1] = "#{Math.round bearing}°°"
+			bearing = event.alpha # android: Math to compass
+			texts[1] = "And #{Math.round bearing}°°"
 
 locationUpdate = (position) ->
 	logg.push 'locationUpdate ' + position.timestamp
