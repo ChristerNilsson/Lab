@@ -20,7 +20,7 @@ setup = function setup() {
     return text(error.code + ' ' + error.message, width / 2, height / 2);
   };
   return navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
-    enableHighAccuracy: true,
+    enableHighAccuracy: true, // fungerar på android
     maximumAge: 30000,
     timeout: 27000
   });
