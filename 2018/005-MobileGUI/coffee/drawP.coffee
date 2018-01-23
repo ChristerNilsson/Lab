@@ -79,12 +79,12 @@ drawTextsP = (w,h) ->
 	sc 0.5
 	sw 1
 	n = 3 # columns
-	if millis()-start < 1000
-		textSize h*0.07
-		currTexts = ['Distance','Bearing','ETA','Speed','','Time','Points','','Delay','Destination']
-	else
-		textSize h*0.09
-		currTexts = texts
+	# if millis()-start < 1000
+	# 	textSize h*0.07
+	# 	currTexts = ['Distance','Bearing','ETA','Speed','','Time','Points','','Delay','Destination']
+	# else
+	textSize h*0.09
+	currTexts = texts
 
 	for t,i in currTexts
 		if i%n==0 then textAlign LEFT 
