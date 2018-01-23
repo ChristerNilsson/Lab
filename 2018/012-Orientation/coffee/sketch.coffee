@@ -39,7 +39,7 @@ setup = ->
 			mode = 'P'
 
 	window.onorientationchange = ->
-		window.setTimeout (-> readDeviceOrientation), 300
+		window.setTimeout readDeviceOrientation, 300
 
 	readDeviceOrientation()
 

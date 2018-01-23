@@ -47,9 +47,7 @@ setup = function setup() {
     }
   };
   window.onorientationchange = function () {
-    return window.setTimeout(function () {
-      return readDeviceOrientation;
-    }, 300);
+    return window.setTimeout(readDeviceOrientation, 300);
   };
   return readDeviceOrientation();
 };
