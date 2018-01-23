@@ -26,13 +26,15 @@ setup = ->
 	textAlign CENTER,CENTER
 	textSize 20
 	readDeviceOrientation = ->
+		w = window.innerWidth
+		h = window.innerHeight
 		if window.orientation in [-90,90]
 			resizeCanvas h*ratio,w*ratio
-			canvas.position 0, 0
+			#canvas.position 0, 0
 			mode = 'L'
 		else 
 			resizeCanvas w*ratio,h*ratio
-			canvas.position 0, 0
+			#canvas.position 0, 0
 			mode = 'P'
 
 	window.onorientationchange = readDeviceOrientation #
