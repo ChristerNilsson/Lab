@@ -17,13 +17,11 @@ setup = function setup() {
     resizeCanvas(round(windowWidth / 2), round(windowHeight / 2));
     if ((ref = window.orientation) === -90 || ref === 90) {
       resizeCanvas(round(windowWidth / 2), round(windowHeight / 2));
-
-      //canvas.position 0, 0
+      canvas.position(0, 0);
       return mode = 'L';
     } else {
       resizeCanvas(round(windowWidth / 2), round(windowHeight / 2));
-
-      //canvas.position 0, 0
+      canvas.position(0, 0);
       return mode = 'P';
     }
   };

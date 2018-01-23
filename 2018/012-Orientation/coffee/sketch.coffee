@@ -9,11 +9,11 @@ setup = ->
 		resizeCanvas round(windowWidth/2),round(windowHeight/2) 
 		if window.orientation in [-90,90]
 			resizeCanvas round(windowWidth/2),round(windowHeight/2) 
-			#canvas.position 0, 0
+			canvas.position 0, 0
 			mode = 'L'
 		else 
 			resizeCanvas round(windowWidth/2),round(windowHeight/2) 
-			#canvas.position 0, 0
+			canvas.position 0, 0
 			mode = 'P'
 
 	# window.onorientationchange = readDeviceOrientation
