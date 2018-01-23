@@ -139,17 +139,20 @@ showCanvas = function showCanvas() {
 
 //###############################
 setupCompass = function setupCompass() {
-  return window.addEventListener("deviceorientation", function (event) {
-    if (typeof event.webkitCompassHeading !== "undefined") {
-      bearing = event.webkitCompassHeading; // iOS 
-      return texts[1] = 'iOS ' + Math.round(bearing) + '\xB0\xB0';
-    } else {
-      bearing = event.alpha; // android: Math to compass
-      return texts[1] = 'And ' + Math.round(bearing) + '\xB0\xB0';
-    }
+  // window.addEventListener "deviceorientation", (event) ->
+  // 	if typeof event.webkitCompassHeading != "undefined"
+  // 		bearing = event.webkitCompassHeading # iOS 
+  // 		texts[1] = "iOS #{Math.round bearing}°°"
+  // 	else
+  // 		bearing = event.alpha # android: Math to compass
+  // 		texts[1] = "And #{Math.round bearing}°°"
+  return Compass.watch(function (heading) {
+    bearing = heading;
+    return texts[1] = 'watch ' + Math.round(heading) + '\xB0\xB0';
   });
 };
 
+//$('.compass').css('transform', 'rotate(' + (-heading) + 'deg)');
 locationUpdate = function locationUpdate(position) {
   var d, heading, lat, lng, mark00, speed, totalTime, ts;
   logg.push('locationUpdate ' + position.timestamp);

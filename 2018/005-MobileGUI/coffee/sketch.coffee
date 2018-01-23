@@ -64,13 +64,17 @@ showCanvas = ->
 ################################
 
 setupCompass = ->
-	window.addEventListener "deviceorientation", (event) ->
-		if typeof event.webkitCompassHeading != "undefined"
-			bearing = event.webkitCompassHeading # iOS 
-			texts[1] = "iOS #{Math.round bearing}°°"
-		else
-			bearing = event.alpha # android: Math to compass
-			texts[1] = "And #{Math.round bearing}°°"
+	# window.addEventListener "deviceorientation", (event) ->
+	# 	if typeof event.webkitCompassHeading != "undefined"
+	# 		bearing = event.webkitCompassHeading # iOS 
+	# 		texts[1] = "iOS #{Math.round bearing}°°"
+	# 	else
+	# 		bearing = event.alpha # android: Math to compass
+	# 		texts[1] = "And #{Math.round bearing}°°"
+	Compass.watch (heading) ->
+		bearing = heading
+		texts[1] = "watch #{Math.round heading}°°"
+  #$('.compass').css('transform', 'rotate(' + (-heading) + 'deg)');
 
 locationUpdate = (position) ->
 	logg.push 'locationUpdate ' + position.timestamp
