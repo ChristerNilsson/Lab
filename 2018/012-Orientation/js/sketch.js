@@ -35,8 +35,8 @@ setup = function setup() {
   textSize(20);
   readDeviceOrientation = function readDeviceOrientation() {
     var ref;
-    w = window.innerWidth;
-    h = window.innerHeight;
+    h = window.innerWidth;
+    w = window.innerHeight;
     if ((ref = window.orientation) === -90 || ref === 90) {
       resizeCanvas(w * ratio, h * ratio);
       //canvas.position 0, 0
