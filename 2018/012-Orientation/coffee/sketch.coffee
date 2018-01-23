@@ -16,7 +16,7 @@ setup = ->
 			canvas.position 0, 0
 			mode = 'P'
 
-	# window.onorientationchange = readDeviceOrientation
+	window.onorientationchange = readDeviceOrientation #
 
 	readDeviceOrientation()
 

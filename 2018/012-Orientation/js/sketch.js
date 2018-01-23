@@ -25,7 +25,7 @@ setup = function setup() {
       return mode = 'P';
     }
   };
-  // window.onorientationchange = readDeviceOrientation
+  window.onorientationchange = readDeviceOrientation;
   return readDeviceOrientation();
 };
 
