@@ -33,11 +33,12 @@ setup = ->
 			#canvas.position 0, 0
 			mode = 'L'
 		else 
-			resizeCanvas w*ratio,h*ratio
+			resizeCanvas h*ratio,w*ratio
 			#canvas.position 0, 0
 			mode = 'P'
 
-	window.onorientationchange = readDeviceOrientation #
+	window.onorientationchange = ->
+		window.setTimeout (-> readDeviceOrientation), 300
 
 	readDeviceOrientation()
 

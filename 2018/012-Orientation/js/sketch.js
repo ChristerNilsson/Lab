@@ -42,12 +42,16 @@ setup = function setup() {
       //canvas.position 0, 0
       return mode = 'L';
     } else {
-      resizeCanvas(w * ratio, h * ratio);
+      resizeCanvas(h * ratio, w * ratio);
       //canvas.position 0, 0
       return mode = 'P';
     }
   };
-  window.onorientationchange = readDeviceOrientation;
+  window.onorientationchange = function () {
+    return window.setTimeout(function () {
+      return readDeviceOrientation;
+    }, 300);
+  };
   return readDeviceOrientation();
 };
 
