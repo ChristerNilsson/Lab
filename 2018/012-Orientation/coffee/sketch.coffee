@@ -24,6 +24,7 @@ setup = ->
 	readDeviceOrientation = ->
 		h = window.innerWidth
 		w = window.innerHeight
+
 		if window.orientation in [-90,90]
 			noCanvas()
 			createCanvas h/2,w/2
@@ -37,7 +38,8 @@ setup = ->
 			textSize 20
 			mode = 'P'
 
-	window.onorientationchange = readDeviceOrientation
+	window.onorientationchange = ->
+		window.setTimeout (-> readDeviceOrientation), 300
 
 	readDeviceOrientation()
 
