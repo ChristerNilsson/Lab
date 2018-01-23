@@ -1,8 +1,8 @@
 setup = ->
-	createCanvas 200,200
+	createCanvas 800,800
 	textAlign CENTER,CENTER
-	textSize 20
-	
+	textSize 40
+
 	locationUpdate = (position) ->
 		bg 0.5
 		text position.coords.latitude,100,20
@@ -10,7 +10,8 @@ setup = ->
 		text position.timestamp,100,60
 
 	locationUpdateFail = (error) ->
-		text error,100,100
+		bg 0.5
+		text error.code + ' ' + error.message,400,400
 
 	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
 		enableHighAccuracy: false # true
