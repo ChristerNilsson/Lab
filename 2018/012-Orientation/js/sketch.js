@@ -15,11 +15,11 @@ setup = function setup() {
   readDeviceOrientation = function readDeviceOrientation() {
     var ref;
     if ((ref = window.orientation) === -90 || ref === 90) {
-      resizeCanvas(window.innerHeight / 2, window.innerWidth / 2);
+      resizeCanvas(window.innerWidth / 2, window.innerHeight / 2);
       canvas.position(0, 0);
       return mode = 'L';
     } else {
-      resizeCanvas(window.innerWidth / 2, window.innerHeight / 2);
+      resizeCanvas(window.innerHeight / 2, window.innerWidth / 2);
       canvas.position(0, 0);
       return mode = 'P';
     }
