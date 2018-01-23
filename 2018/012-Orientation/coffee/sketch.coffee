@@ -22,8 +22,8 @@ setup = ->
 	#canvas.parent = c
 
 	readDeviceOrientation = ->
-		w = window.innerWidth
-		h = window.innerHeight
+		h = window.innerWidth
+		w = window.innerHeight
 		if window.orientation in [-90,90]
 			noCanvas()
 			createCanvas h/2,w/2

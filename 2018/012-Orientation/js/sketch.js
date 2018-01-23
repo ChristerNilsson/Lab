@@ -30,8 +30,8 @@ setup = function setup() {
   //canvas.parent = c
   readDeviceOrientation = function readDeviceOrientation() {
     var ref;
-    w = window.innerWidth;
-    h = window.innerHeight;
+    h = window.innerWidth;
+    w = window.innerHeight;
     if ((ref = window.orientation) === -90 || ref === 90) {
       noCanvas();
       createCanvas(h / 2, w / 2);
