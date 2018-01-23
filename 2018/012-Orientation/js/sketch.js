@@ -15,11 +15,11 @@ setup = function setup() {
   readDeviceOrientation = function readDeviceOrientation() {
     var ref;
     if ((ref = window.orientation) === -90 || ref === 90) {
-      resizeCanvas(window.innerWidth / 2, window.innerHeight / 2);
+      resizeCanvas(window.innerHeight / 2, window.innerWidth / 2);
       canvas.position(0, 0);
       return mode = 'L';
     } else {
-      resizeCanvas(window.innerHeight / 2, window.innerWidth / 2);
+      resizeCanvas(window.innerWidth / 2, window.innerHeight / 2);
       canvas.position(0, 0);
       return mode = 'P';
     }
@@ -30,6 +30,7 @@ setup = function setup() {
 
 draw = function draw() {
   bg(0.5);
+  text(window.devicePixelRatio, width / 2, 0.15 * height);
   text(window.innerWidth + ' ' + window.innerHeight, width / 2, 0.25 * height);
   text(mode + ' ' + width + ' ' + height, width / 2, 0.50 * height);
   return text(screen.width + ' ' + screen.height, width / 2, 0.75 * height);
