@@ -53,10 +53,12 @@ setup = function setup() {
 
 draw = function draw() {
   bg(0.5);
-  text(window.devicePixelRatio, width / 2, 0.15 * height);
-  text(window.innerWidth + ' ' + window.innerHeight, width / 2, 0.25 * height);
-  text(mode + ' ' + width + ' ' + height, width / 2, 0.50 * height);
-  text(screen.width + ' ' + screen.height, width / 2, 0.75 * height);
-  return text(window.orientation + ' ' + ratio, width / 2, 0.85 * height);
+  text(window.devicePixelRatio, width / 2, 0.10 * height);
+  text(window.innerWidth + ' ' + window.innerHeight, width / 2, 0.20 * height);
+  text(mode + ' ' + width + ' ' + height, width / 2, 0.30 * height);
+  text(screen.width + ' ' + screen.height, width / 2, 0.40 * height);
+  if (window.orientation) {
+    return text(window.orientation, width / 2, 0.50 * height);
+  }
 };
 //# sourceMappingURL=sketch.js.map
