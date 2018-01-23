@@ -179,7 +179,7 @@ locationUpdateFail = function locationUpdateFail(error) {
 };
 
 navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
-  enableHighAccuracy: true,
+  enableHighAccuracy: false, // true
   maximumAge: 30000,
   timeout: 27000
 });
