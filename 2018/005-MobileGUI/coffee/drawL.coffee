@@ -1,4 +1,6 @@
-drawHouse = (radius) ->
+# Landscape
+
+drawHouseL = (w,h,radius) ->
 	push()
 
 	# nio linjer
@@ -36,16 +38,16 @@ drawHouse = (radius) ->
 
 	pop()
 
-drawNeedle = (radius) ->
+drawNeedleL = (w,h,radius) ->
 	try
 		rd -bearing
 
 		sc 0
-		sw 0.035*h
+		sw 0.040*h
 		line 0,-0.98*radius,0,0.98*radius
 
 		sc 1
-		sw 0.030*h
+		sw 0.035*h
 		line 0,0,0,0.98*radius
 		sc 1,0,0
 		line 0,0,0,-0.98*radius
@@ -54,8 +56,10 @@ drawNeedle = (radius) ->
 		sc 0
 		point 0,0
 
-drawCompass = ->
-	radius = 0.35 * w 
+drawCompassL = (w,h) ->
+#	radius = 0.35 * w 
+	radius = 0.17 * w 
+
 	delta = calcDelta heading_12-bearing
 	fill calcColor delta
 	sw 5
@@ -66,12 +70,12 @@ drawCompass = ->
 	push()
 
 	rd -heading_12
-	drawHouse radius
+	drawHouseL w,h,radius
 	pop()
-	drawNeedle radius
+	drawNeedleL w,h,radius
 	pop()
 
-drawTexts = ->
+drawTextsL = (w,h) ->
 	fc 0.5
 	d = h/12
 	sc 0.5
@@ -94,12 +98,4 @@ drawTexts = ->
 		if i in [0,1,2] then fc 1 else fc 0.5
 		text t,x,d+y
 	textAlign LEFT
-
-draw = ->
-	bg 0
-	dt = Math.round (millis() - lastObservation)/1000
-	texts[8] = if dt>=2 then "#{dt} s" else ""
-	texts[5] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
-	drawCompass()
-	drawTexts()
 

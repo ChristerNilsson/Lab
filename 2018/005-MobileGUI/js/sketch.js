@@ -5,7 +5,7 @@
 // sex decimaler motsvarar 11 cm resp 5 cm precision i sista siffran.
 
 //LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
-var BLACK, GREEN, LINK, RED, WHITE, bearing, fetchData, h, heading_12, hideCanvas, lastObservation, locationUpdate, locationUpdateFail, logg, p1, pages, place, placeIndex, places, setup, setupCompass, showCanvas, start, startDate, storeData, texts, track, w;
+var BLACK, GREEN, LINK, RED, WHITE, bearing, draw, fetchData, h, heading_12, hideCanvas, lastObservation, locationUpdate, locationUpdateFail, logg, p1, pages, place, placeIndex, places, setup, setupCompass, showCanvas, start, startDate, storeData, texts, track, w;
 
 LINK = "file:///C:/Lab/2018/005-MobileGUI/index.html";
 
@@ -182,6 +182,31 @@ navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
 });
 
 //#########################
+draw = function draw() {
+  var dt, ref;
+  bg(0);
+  dt = Math.round((millis() - lastObservation) / 1000);
+  texts[8] = dt >= 2 ? dt + ' s' : "";
+  texts[5] = precisionRound((millis() - start) / 1000, 0)
+  // sekunder sedan start
+  + ' s';
+  if ((ref = window.orientation) === -90 || ref === 90) {
+    w = width;
+    h = height;
+    drawCompassL(w, h);
+    return drawTextsL(w, h);
+  } else {
+    h = width;
+    w = height;
+    drawCompassP(w, h);
+    return drawTextsP(w, h);
+  }
+};
+
+// doOnOrientationChange = ->
+// window.addEventListener('orientationchange', doOnOrientationChange);
+// Initial execution if needed
+// doOnOrientationChange();
 setup = function setup() {
   var c, key, parameters;
   WHITE = color(255, 255, 255);
