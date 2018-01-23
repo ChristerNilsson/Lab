@@ -10,14 +10,21 @@ mode = 'P';
 ratio = 1;
 
 setup = function setup() {
-  var backingStoreRatio, c, context, devicePixelRatio, readDeviceOrientation;
+  var backingStoreRatio, c, context, devicePixelRatio, h, readDeviceOrientation, w;
   c = document.createElement('canvas');
   context = c.getContext('2d');
   document.body.appendChild(c);
-  canvas = createCanvas(window.innerWidth / 2, window.innerHeight / 2);
   devicePixelRatio = window.devicePixelRatio || 1;
   backingStoreRatio = context.webkitBackingStorePixelRatio || context.mozBackingStorePixelRatio || context.msBackingStorePixelRatio || context.oBackingStorePixelRatio || context.backingStorePixelRatio || 1;
   ratio = devicePixelRatio / backingStoreRatio;
+  w = window.innerWidth;
+  h = window.innerHeight;
+  c.width = w * ratio;
+  c.height = h * ratio;
+  c.style.width = w + 'px';
+  c.style.height = h + 'px';
+  canvas = createCanvas(window.innerWidth / 2, window.innerHeight / 2);
+  canvas.parent = c;
   textAlign(CENTER, CENTER);
   textSize(20);
   readDeviceOrientation = function readDeviceOrientation() {
