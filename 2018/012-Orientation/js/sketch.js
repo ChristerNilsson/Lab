@@ -31,25 +31,29 @@ setup = function setup() {
   ratio = 1;
   canvas = createCanvas(w, h);
   //canvas.parent = c
-  textAlign(CENTER, CENTER);
-  textSize(20);
   readDeviceOrientation = function readDeviceOrientation() {
     var ref;
     h = window.innerWidth;
     w = window.innerHeight;
     if ((ref = window.orientation) === -90 || ref === 90) {
-      resizeCanvas(h * ratio / 2, w * ratio / 2);
+      noCanvas();
+      createCanvas(h * ratio / 2, w * ratio / 2);
+      textAlign(CENTER, CENTER);
+      textSize(20);
+      //resizeCanvas h*ratio/2,w*ratio/2
       //canvas.position 0, 0
       return mode = 'L';
     } else {
-      resizeCanvas(h * ratio, w * ratio);
+      noCanvas();
+      createCanvas(h * ratio / 2, w * ratio / 2);
+      textAlign(CENTER, CENTER);
+      textSize(20);
+      //resizeCanvas h*ratio,w*ratio
       //canvas.position 0, 0
       return mode = 'P';
     }
   };
-  window.onorientationchange = function () {
-    return window.setTimeout(readDeviceOrientation, 300);
-  };
+  window.onorientationchange = readDeviceOrientation;
   return readDeviceOrientation();
 };
 

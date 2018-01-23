@@ -23,22 +23,27 @@ setup = ->
 	canvas = createCanvas w,h
 	#canvas.parent = c
 
-	textAlign CENTER,CENTER
-	textSize 20
 	readDeviceOrientation = ->
 		h = window.innerWidth
 		w = window.innerHeight
 		if window.orientation in [-90,90]
-			resizeCanvas h*ratio/2,w*ratio/2
+			noCanvas()
+			createCanvas h*ratio/2,w*ratio/2
+			textAlign CENTER,CENTER
+			textSize 20
+			#resizeCanvas h*ratio/2,w*ratio/2
 			#canvas.position 0, 0
 			mode = 'L'
 		else 
-			resizeCanvas h*ratio,w*ratio
+			noCanvas()
+			createCanvas h*ratio/2,w*ratio/2
+			textAlign CENTER,CENTER
+			textSize 20
+			#resizeCanvas h*ratio,w*ratio
 			#canvas.position 0, 0
 			mode = 'P'
 
-	window.onorientationchange = ->
-		window.setTimeout readDeviceOrientation, 300
+	window.onorientationchange = readDeviceOrientation
 
 	readDeviceOrientation()
 
