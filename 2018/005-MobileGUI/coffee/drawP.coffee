@@ -57,7 +57,7 @@ drawNeedleP = (w,h,radius) ->
 		point 0,0
 
 drawCompassP = (w,h) ->
-	radius = 0.35 * w 
+	radius = 0.37 * w 
 	delta = calcDelta heading_12-bearing
 	fill calcColor delta
 	sw 5
@@ -83,7 +83,7 @@ drawTextsP = (w,h) ->
 		textSize h*0.07
 		currTexts = ['Distance','Bearing','ETA','Speed','','Time','Points','','Delay','Destination']
 	else
-		textSize h*0.09
+		textSize h*0.05
 		currTexts = texts
 
 	for t,i in currTexts
