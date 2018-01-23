@@ -3,32 +3,33 @@ mode = 'P'
 ratio = 1
 
 setup = -> 
-	c = document.createElement 'canvas'
-	context = c.getContext '2d'
-	document.body.appendChild c
-	devicePixelRatio = window.devicePixelRatio || 1
-	backingStoreRatio = context.webkitBackingStorePixelRatio || context.mozBackingStorePixelRatio || context.msBackingStorePixelRatio || context.oBackingStorePixelRatio || context.backingStorePixelRatio || 1
-	ratio = devicePixelRatio / backingStoreRatio
+	#c = document.createElement 'canvas'
+	#context = c.getContext '2d'
+	#document.body.appendChild c
+	#devicePixelRatio = window.devicePixelRatio || 1
+	#backingStoreRatio = context.webkitBackingStorePixelRatio || context.mozBackingStorePixelRatio || context.msBackingStorePixelRatio || context.oBackingStorePixelRatio || context.backingStorePixelRatio || 1
+	#ratio = devicePixelRatio / backingStoreRatio
 
 	w = window.innerWidth
 	h = window.innerHeight
-	c.width = w * ratio
-	c.height = h * ratio
-	c.style.width = w + 'px'
-	c.style.height = h + 'px'
+	#c.width = w * ratio
+	#c.height = h * ratio
+	#c.style.width = w + 'px'
+	#c.style.height = h + 'px'
+	ratio = 1
 
-	canvas = createCanvas window.innerWidth/2,window.innerHeight/2
-	canvas.parent = c
-	
+	canvas = createCanvas w,h
+	#canvas.parent = c
+
 	textAlign CENTER,CENTER
 	textSize 20
 	readDeviceOrientation = ->
 		if window.orientation in [-90,90]
-			resizeCanvas window.innerHeight/2*ratio,window.innerWidth/2*ratio
+			resizeCanvas h*ratio,w*ratio
 			canvas.position 0, 0
 			mode = 'L'
 		else 
-			resizeCanvas window.innerWidth/2*ratio,window.innerHeight/2*ratio
+			resizeCanvas w*ratio,h*ratio
 			canvas.position 0, 0
 			mode = 'P'
 
