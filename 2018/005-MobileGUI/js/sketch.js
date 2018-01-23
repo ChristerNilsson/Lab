@@ -147,6 +147,7 @@ setupCompass = function setupCompass() {
 
 locationUpdate = function locationUpdate(position) {
   var d, heading, lat, lng, mark00, speed, totalTime, ts;
+  logg.push('locationUpdate ' + position.timestamp);
   //print 'locationUpdate', position
   p1 = {
     lat: position.coords.latitude,
@@ -173,7 +174,9 @@ locationUpdate = function locationUpdate(position) {
   }
 };
 
-locationUpdateFail = function locationUpdateFail(error) {};
+locationUpdateFail = function locationUpdateFail(error) {
+  return logg.push(error);
+};
 
 navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
   enableHighAccuracy: true,
@@ -183,24 +186,23 @@ navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
 
 //#########################
 draw = function draw() {
-  var dt, ref;
+  var dt;
   bg(0);
   dt = Math.round((millis() - lastObservation) / 1000);
   texts[8] = dt >= 2 ? dt + ' s' : "";
   texts[5] = precisionRound((millis() - start) / 1000, 0)
   // sekunder sedan start
   + ' s';
-  if ((ref = window.orientation) === -90 || ref === 90) {
-    w = width;
-    h = height;
-    drawCompassL(w, h);
-    return drawTextsL(w, h);
-  } else {
-    h = width;
-    w = height;
-    drawCompassP(w, h);
-    return drawTextsP(w, h);
-  }
+  // if window.orientation in [-90,90]  
+  // 	w = width
+  // 	h = height	
+  // 	drawCompassL w,h
+  // 	drawTextsL w,h
+  // else
+  h = width;
+  w = height;
+  drawCompassP(w, h);
+  return drawTextsP(w, h);
 };
 
 // doOnOrientationChange = ->

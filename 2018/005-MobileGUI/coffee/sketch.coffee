@@ -67,6 +67,7 @@ setupCompass = ->
 			bearing = event.webkitCompassHeading # iOS non-standard
 
 locationUpdate = (position) ->
+	logg.push 'locationUpdate ' + position.timestamp
 	#print 'locationUpdate', position
 	p1 = 
 		lat : position.coords.latitude
@@ -96,6 +97,7 @@ locationUpdate = (position) ->
 		logg.push "#{ts} #{lat} #{lng} #{texts[0]} #{heading} #{texts[3]} #{texts[2]} #{mark00}"
 
 locationUpdateFail = (error) ->
+	logg.push error
 
 navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
 	enableHighAccuracy: true
@@ -109,16 +111,16 @@ draw = ->
 	dt = Math.round (millis() - lastObservation)/1000
 	texts[8] = if dt>=2 then "#{dt} s" else ""
 	texts[5] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
-	if window.orientation in [-90,90]  
-		w = width
-		h = height	
-		drawCompassL w,h
-		drawTextsL w,h
-	else
-		h = width
-		w = height	
-		drawCompassP w,h
-		drawTextsP w,h
+	# if window.orientation in [-90,90]  
+	# 	w = width
+	# 	h = height	
+	# 	drawCompassL w,h
+	# 	drawTextsL w,h
+	# else
+	h = width
+	w = height	
+	drawCompassP w,h
+	drawTextsP w,h
 
 # doOnOrientationChange = ->
 # window.addEventListener('orientationchange', doOnOrientationChange);
