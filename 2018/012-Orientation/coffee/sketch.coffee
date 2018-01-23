@@ -47,4 +47,4 @@ draw = ->
 	text window.innerWidth + ' ' + window.innerHeight,   width/2,0.25*height
 	text mode + ' ' + width+' '+height,      width/2,0.50*height
 	text screen.width + ' ' + screen.height, width/2,0.75*height
-	text ratio, width/2,0.85*height
+	text window.orientation + ' ' + ratio, width/2,0.85*height
