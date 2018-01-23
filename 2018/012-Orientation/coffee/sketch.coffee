@@ -29,7 +29,7 @@ setup = ->
 		w = window.innerWidth
 		h = window.innerHeight
 		if window.orientation in [-90,90]
-			resizeCanvas h*ratio,w*ratio
+			resizeCanvas w*ratio,h*ratio
 			#canvas.position 0, 0
 			mode = 'L'
 		else 
