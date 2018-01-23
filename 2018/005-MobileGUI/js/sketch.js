@@ -22,7 +22,7 @@ pages = {};
 logg = [];
 
 places = {
-  'Bagarmossen Sushi': {
+  'Bagarmossen Sushix': {
     lat: 59.277560,
     lng: 18.132739
   },
@@ -84,7 +84,7 @@ places = {
   }
 };
 
-placeIndex = 'Bagarmossen Sushi';
+placeIndex = 'Bagarmossen Sushix';
 
 place = function place() {
   return places[placeIndex];

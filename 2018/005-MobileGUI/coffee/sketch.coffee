@@ -13,7 +13,7 @@ pages = {}
 logg = []
 
 places = 
-	'Bagarmossen Sushi'      : {lat:59.277560, lng:18.132739}
+	'Bagarmossen Sushix'      : {lat:59.277560, lng:18.132739}
 	'Bagarmossen T'          : {lat:59.276264, lng:18.131465}
 	'Björkhagens Golfklubb'  : {lat:59.284052, lng:18.145925}
 	'Björkhagen T'           : {lat:59.291114, lng:18.115521}
@@ -29,7 +29,7 @@ places =
 	'Söderbysjön S Bron'     : {lat:59.279155, lng:18.149318}
 	'Ulvsjön, Udden'         : {lat:59.277103, lng:18.164897}
 
-placeIndex = 'Bagarmossen Sushi'
+placeIndex = 'Bagarmossen Sushix'
 place = -> places[placeIndex]
 
 w = null 
