@@ -65,9 +65,10 @@ showCanvas = ->
 
 setupCompass = ->
 	window.addEventListener "deviceorientation", (event) ->
-		bearing = event.alpha
 		if typeof event.webkitCompassHeading != "undefined"
-			bearing = event.webkitCompassHeading # iOS non-standard
+			bearing = event.webkitCompassHeading # iOS 
+		else
+			bearing = -event.alpha # android
 
 locationUpdate = (position) ->
 	logg.push 'locationUpdate ' + position.timestamp
