@@ -22,7 +22,7 @@ pages = {};
 logg = [];
 
 places = {
-  'Bagarmossen Sushix': {
+  'Bagarmossen Sushi': {
     lat: 59.277560,
     lng: 18.132739
   },
@@ -84,7 +84,7 @@ places = {
   }
 };
 
-placeIndex = 'Bagarmossen Sushix';
+placeIndex = 'Bagarmossen Sushi';
 
 place = function place() {
   return places[placeIndex];
@@ -181,7 +181,7 @@ locationUpdateFail = function locationUpdateFail(error) {
 };
 
 navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
-  enableHighAccuracy: false, // true
+  enableHighAccuracy: true,
   maximumAge: 30000,
   timeout: 27000
 });
@@ -201,8 +201,8 @@ draw = function draw() {
   // 	drawCompassL w,h
   // 	drawTextsL w,h
   // else
-  h = width;
-  w = height;
+  w = width;
+  h = height;
   drawCompassP(w, h);
   return drawTextsP(w, h);
 };
@@ -218,7 +218,7 @@ setup = function setup() {
   BLACK = color(0, 0, 0);
   RED = color(255, 0, 0);
   test();
-  storeData();
+  // storeData()
   fetchData();
   parameters = getParameters();
   if (_.size(parameters) === 3) {

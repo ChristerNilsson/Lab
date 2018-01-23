@@ -13,7 +13,7 @@ pages = {}
 logg = []
 
 places = 
-	'Bagarmossen Sushix'      : {lat:59.277560, lng:18.132739}
+	'Bagarmossen Sushi'      : {lat:59.277560, lng:18.132739}
 	'Bagarmossen T'          : {lat:59.276264, lng:18.131465}
 	'Björkhagens Golfklubb'  : {lat:59.284052, lng:18.145925}
 	'Björkhagen T'           : {lat:59.291114, lng:18.115521}
@@ -29,7 +29,7 @@ places =
 	'Söderbysjön S Bron'     : {lat:59.279155, lng:18.149318}
 	'Ulvsjön, Udden'         : {lat:59.277103, lng:18.164897}
 
-placeIndex = 'Bagarmossen Sushix'
+placeIndex = 'Bagarmossen Sushi'
 place = -> places[placeIndex]
 
 w = null 
@@ -103,7 +103,7 @@ locationUpdateFail = (error) ->
 	logg.push error
 
 navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
-	enableHighAccuracy: false # true
+	enableHighAccuracy: true
 	maximumAge: 30000
 	timeout: 27000
 
@@ -120,8 +120,8 @@ draw = ->
 	# 	drawCompassL w,h
 	# 	drawTextsL w,h
 	# else
-	h = width
-	w = height	
+	w = width
+	h = height	
 	drawCompassP w,h
 	drawTextsP w,h
 
@@ -139,7 +139,7 @@ setup = ->
 
 	test()
 
-	storeData()
+	# storeData()
 	fetchData()
 
 	parameters = getParameters()
@@ -150,7 +150,7 @@ setup = ->
 
 	start = millis()
 
-	c = createCanvas windowWidth,windowHeight*0.90 # 4s
+	c = createCanvas windowWidth,windowHeight *0.90 # 4s
 	w = width
 	h = height	
 
