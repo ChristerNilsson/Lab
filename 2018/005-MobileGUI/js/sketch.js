@@ -111,6 +111,8 @@ startDate = null; // . Sätts vid byte av target till new Date()
 texts = ['dist', 'bäring', 'ETA', 'km/h', '', 'wait', 'punkter', '', 'tid', 'destination'];
 
 storeData = function storeData() {
+
+  //print JSON.stringify places
   return localStorage["GPSCompass"] = JSON.stringify(places);
 };
 
@@ -216,7 +218,7 @@ setup = function setup() {
   BLACK = color(0, 0, 0);
   RED = color(255, 0, 0);
   test();
-  //storeData()
+  storeData();
   fetchData();
   parameters = getParameters();
   if (_.size(parameters) === 3) {

@@ -44,7 +44,10 @@ startDate = null # . Sätts vid byte av target till new Date()
 
 texts = ['dist','bäring','ETA','km/h','','wait','punkter','','tid','destination']
 
-storeData = -> localStorage["GPSCompass"] = JSON.stringify places	
+storeData = -> 
+	#print JSON.stringify places
+	localStorage["GPSCompass"] = JSON.stringify places	
+
 fetchData = ->
 	data = localStorage["GPSCompass"]
 	print data
@@ -136,7 +139,7 @@ setup = ->
 
 	test()
 
-	#storeData()
+	storeData()
 	fetchData()
 
 	parameters = getParameters()
