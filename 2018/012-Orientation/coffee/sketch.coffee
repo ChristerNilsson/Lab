@@ -21,5 +21,5 @@ setup = ->
 
 draw = ->
 	bg 0.5
-	text windowWidth + ' ' + windowHeight,    0.5*width,0.25*height
-	text orientation + ' ' + width+' '+height,0.5*width,0.5*height
+	text windowWidth + ' ' + windowHeight,    width/2,height/4
+	text orientation + ' ' + width+' '+height,width/2,height/2

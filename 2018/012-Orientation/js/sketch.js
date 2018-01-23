@@ -29,7 +29,7 @@ setup = function setup() {
 
 draw = function draw() {
   bg(0.5);
-  text(windowWidth + ' ' + windowHeight, 0.5 * width, 0.25 * height);
-  return text(orientation + ' ' + width + ' ' + height, 0.5 * width, 0.5 * height);
+  text(windowWidth + ' ' + windowHeight, width / 2, height / 4);
+  return text(orientation + ' ' + width + ' ' + height, width / 2, height / 2);
 };
 //# sourceMappingURL=sketch.js.map
