@@ -1,3 +1,5 @@
+# OBS: https: måste användas!
+
 setup = ->
 	createCanvas windowWidth,windowHeight
 	textAlign CENTER,CENTER
@@ -14,6 +16,6 @@ setup = ->
 		text error.code + ' ' + error.message,width/2,height/2
 
 	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
-		enableHighAccuracy: false # true
+		enableHighAccuracy: true
 		maximumAge: 30000
 		timeout: 27000
