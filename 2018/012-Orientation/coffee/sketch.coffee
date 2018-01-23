@@ -1,5 +1,5 @@
 canvas = null
-#mode = null
+mode = 'P'
 
 setup = -> 
 	canvas = createCanvas windowWidth,windowHeight
@@ -22,5 +22,5 @@ setup = ->
 
 draw = ->
 	bg 0.5
-	#text windowWidth + ' ' + windowHeight,    width/2,height/4
-	#text mode + ' ' + width+' '+height,width/2,height/2
+	text windowWidth + ' ' + windowHeight, width/2,height/4
+	text mode + ' ' + width+' '+height,    width/2,height/2
