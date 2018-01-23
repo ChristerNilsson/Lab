@@ -143,7 +143,7 @@ setupCompass = function setupCompass() {
     if (typeof event.webkitCompassHeading !== "undefined") {
       bearing = event.webkitCompassHeading; // iOS 
     } else {
-      bearing = 90 - event.alpha; // android: Math to compass
+      bearing = event.alpha; // android: Math to compass
     }
     return texts[1] = Math.round(bearing) + '\xB0';
   });
