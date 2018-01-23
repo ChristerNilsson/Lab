@@ -8,27 +8,25 @@ canvas = null;
 mode = 'P';
 
 setup = function setup() {
-  var readDeviceOrientation;
-  canvas = createCanvas(windowWidth, windowHeight);
+  canvas = createCanvas(windowWidth / 2, windowHeight / 2);
   textAlign(CENTER, CENTER);
-  textSize(20);
-  readDeviceOrientation = function readDeviceOrientation() {
-    resizeCanvas(round(windowWidth / 2), round(windowHeight / 2));
-    if (90 === abs(window.orientation)) {
-      //resizeCanvas round(windowWidth/2),round(windowHeight/2) 
-      //canvas.position 0, 0
-      return mode = 'L';
-    } else {
-
-      //resizeCanvas round(windowWidth/2),round(windowHeight/2) 
-      //canvas.position 0, 0
-      return mode = 'P';
-    }
-  };
-  window.onorientationchange = readDeviceOrientation;
-  return readDeviceOrientation();
+  return textSize(20);
 };
 
+// readDeviceOrientation = ->
+// 	resizeCanvas round(windowWidth/2),round(windowHeight/2) 
+// 	if 90 == abs window.orientation
+// 		#resizeCanvas round(windowWidth/2),round(windowHeight/2) 
+// 		#canvas.position 0, 0
+// 		mode = 'L'
+// 	else 
+// 		#resizeCanvas round(windowWidth/2),round(windowHeight/2) 
+// 		#canvas.position 0, 0
+// 		mode = 'P'
+
+// window.onorientationchange = readDeviceOrientation
+
+// readDeviceOrientation()
 draw = function draw() {
   bg(0.5);
   text(windowWidth + ' ' + windowHeight, width / 2, height / 4);
