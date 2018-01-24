@@ -2,7 +2,7 @@
 # sex decimaler motsvarar 11 cm resp 5 cm precision i sista siffran.
 
 #LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
-DECLINATION = 6 # degrees in Stockholm 2018
+DECLINATION = 26 # degrees in Stockholm 2018
 LINK = "file:///C:/Lab/2018/005-MobileGUI/index.html"
 
 WHITE = null
@@ -67,7 +67,7 @@ setupCompass = ->
 		else
 			bearing = -event.alpha # android:  
 			texts[3] = 'andr ' + precisionRound bearing, 0
-		#bearing -= DECLINATION
+		bearing -= DECLINATION
 
 locationUpdate = (position) ->
 	logg.push 'locationUpdate ' + position.timestamp
