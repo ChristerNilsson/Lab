@@ -68,7 +68,7 @@ drawCompassP = (w,h) ->
 	circle 0,0,1.1*radius
 	push()
 
-	rd -heading_12
+	rd 180-heading_12
 	drawHouseP w,h,radius
 	pop()
 	drawNeedleP w,h,radius
