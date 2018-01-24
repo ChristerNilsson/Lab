@@ -143,9 +143,9 @@ showCanvas = function showCanvas() {
 setupCompass = function setupCompass() {
   return window.addEventListener("deviceorientation", function (event) {
     if (typeof event.webkitCompassHeading !== "undefined") {
-      bearing = DECLINATION + event.webkitCompassHeading; // iOS 
+      bearing = DECLINATION - event.webkitCompassHeading; // iOS 
     } else {
-      bearing = DECLINATION + 270 - event.alpha; // android: Math to compass
+      bearing = DECLINATION(event.alpha); // android: 
     }
     return texts[1] = bearing;
   });
