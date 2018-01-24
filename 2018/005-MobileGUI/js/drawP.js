@@ -53,9 +53,11 @@ drawNeedleP = function drawNeedleP(w, h, radius) {
   try {
     rd(-bearing + 90);
     //rd bearing - 90
+
+    // nu arbetar vi matematiskt
     sc(0);
     sw(0.035 * h);
-    line(0, -0.98 * radius, 0, 0.98 * radius);
+    line(-0.98 * radius, 0, 0.98 * radius, 0);
     sc(1);
     sw(0.030 * h);
     line(0, 0, 0.98 * radius, 0);
