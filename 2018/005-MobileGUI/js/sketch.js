@@ -142,7 +142,7 @@ setupCompass = function setupCompass() {
       bearing = 90 - event.webkitCompassHeading; // iOS 
       texts[3] = 'ios ' + precisionRound(bearing, 0);
     } else {
-      bearing = event.alpha; // android:  
+      bearing = -event.alpha - 90; // android:  
       texts[3] = 'andr ' + precisionRound(bearing, 0);
     }
     return bearing += DECLINATION;
