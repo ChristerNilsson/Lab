@@ -58,10 +58,10 @@ drawNeedleP = function drawNeedleP(w, h, radius) {
     sc(0);
     sw(0.035 * h);
     line(-0.98 * radius, 0, 0.98 * radius, 0);
-    sc(1);
+    sc(1, 0, 0); // rött i pos x-riktning
     sw(0.030 * h);
     line(0, 0, 0.98 * radius, 0);
-    sc(1, 0, 0);
+    sc(1); // vitt
     line(0, 0, -0.98 * radius, 0);
     sw(0.035 * h);
     sc(0);
