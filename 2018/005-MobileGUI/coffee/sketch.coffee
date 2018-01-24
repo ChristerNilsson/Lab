@@ -2,7 +2,7 @@
 # sex decimaler motsvarar 11 cm resp 5 cm precision i sista siffran.
 
 #LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
-DECLINATION = 26 # degrees in Stockholm 2018
+DECLINATION = 90 # degrees in Stockholm 2018
 LINK = "file:///C:/Lab/2018/005-MobileGUI/index.html"
 
 WHITE = null
