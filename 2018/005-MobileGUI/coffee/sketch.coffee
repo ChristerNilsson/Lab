@@ -54,13 +54,8 @@ fetchData = ->
 	print data
 	if data then places = JSON.parse data 
 
-hideCanvas = ->
-	elem = document.getElementById 'myContainer'
-	elem.style.display = 'none'		
-
-showCanvas = ->
-	elem = document.getElementById 'myContainer'
-	elem.style.display = 'block'
+hideCanvas = -> document.getElementById('myContainer').style.display = 'none'		
+showCanvas = -> document.getElementById('myContainer').style.display = 'block'
 
 ################################
 
@@ -71,7 +66,7 @@ setupCompass = ->
 		else
 			bearing = event.alpha # android:  
 		bearing += DECLINATION
-		#texts[1] = precisionRound bearing, 0
+		texts[3] = precisionRound bearing, 0
 
 locationUpdate = (position) ->
 	logg.push 'locationUpdate ' + position.timestamp
@@ -92,7 +87,7 @@ locationUpdate = (position) ->
 	if track.length > 1
 		speed     = calcSpeed     start, millis(), track[0], _.last(track), place()
 		totalTime = calcTotalTime start, millis(), track[0], _.last(track), place()
-		texts[3] = "#{precisionRound 3.6*speed,1} km/h"  
+		#texts[3] = "#{precisionRound 3.6*speed,1} km/h"  
 		texts[2] = prettyETA startDate, totalTime
 
 		ts = prettyDate d = new Date p1.timestamp

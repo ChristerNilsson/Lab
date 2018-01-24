@@ -128,15 +128,11 @@ fetchData = function fetchData() {
 };
 
 hideCanvas = function hideCanvas() {
-  var elem;
-  elem = document.getElementById('myContainer');
-  return elem.style.display = 'none';
+  return document.getElementById('myContainer').style.display = 'none';
 };
 
 showCanvas = function showCanvas() {
-  var elem;
-  elem = document.getElementById('myContainer');
-  return elem.style.display = 'block';
+  return document.getElementById('myContainer').style.display = 'block';
 };
 
 //###############################
@@ -147,11 +143,11 @@ setupCompass = function setupCompass() {
     } else {
       bearing = event.alpha; // android:  
     }
-    return bearing += DECLINATION;
+    bearing += DECLINATION;
+    return texts[3] = precisionRound(bearing, 0);
   });
 };
 
-//texts[1] = precisionRound bearing, 0
 locationUpdate = function locationUpdate(position) {
   var d, heading, lat, lng, mark00, speed, totalTime, ts;
   logg.push('locationUpdate ' + position.timestamp);
@@ -170,7 +166,7 @@ locationUpdate = function locationUpdate(position) {
   if (track.length > 1) {
     speed = calcSpeed(start, millis(), track[0], _.last(track), place());
     totalTime = calcTotalTime(start, millis(), track[0], _.last(track), place());
-    texts[3] = precisionRound(3.6 * speed, 1) + ' km/h';
+    //texts[3] = "#{precisionRound 3.6*speed,1} km/h"  
     texts[2] = prettyETA(startDate, totalTime);
     ts = prettyDate(d = new Date(p1.timestamp));
     lat = precisionRound(p1.lat, 6);
