@@ -47,10 +47,10 @@ drawNeedleP = (w,h,radius) ->
 		sw 0.035*h
 		line 0,-0.98*radius,0,0.98*radius
 
-		sc 1
+		sc 1,0,0
 		sw 0.030*h
 		line 0,0,0,0.98*radius
-		sc 1,0,0
+		sc 1
 		line 0,0,0,-0.98*radius
 
 		sw 0.035*h
