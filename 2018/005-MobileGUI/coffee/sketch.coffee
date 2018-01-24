@@ -67,7 +67,7 @@ showCanvas = ->
 setupCompass = ->
 	window.addEventListener "deviceorientation", (event) ->
 		if typeof event.webkitCompassHeading != "undefined"
-			bearing = -event.webkitCompassHeading # iOS 
+			bearing = 90 - event.webkitCompassHeading # iOS 
 		else
 			bearing = event.alpha # android:  
 		bearing += DECLINATION
