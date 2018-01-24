@@ -69,7 +69,7 @@ setupCompass = ->
 			bearing = event.webkitCompassHeading # iOS 
 			#texts[1] = "iOS #{Math.round bearing}°°"
 		else
-			bearing = 90 - event.alpha # android: Math to compass
+			bearing = 180 + 90 - event.alpha # android: Math to compass
 			#texts[1] = "And #{Math.round bearing}°°"
 	# Compass.watch (heading) ->
 	# 	bearing = heading

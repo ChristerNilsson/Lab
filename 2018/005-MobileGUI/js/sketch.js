@@ -144,7 +144,7 @@ setupCompass = function setupCompass() {
       return bearing = event.webkitCompassHeading; // iOS 
     } else {
       //texts[1] = "iOS #{Math.round bearing}°°"
-      return bearing = 90 - event.alpha; // android: Math to compass
+      return bearing = 180 + 90 - event.alpha; // android: Math to compass
     }
   });
 };
