@@ -2,6 +2,7 @@
 # sex decimaler motsvarar 11 cm resp 5 cm precision i sista siffran.
 
 #LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
+DECLINATION = 6 # degrees in Stockholm 2018
 LINK = "file:///C:/Lab/2018/005-MobileGUI/index.html"
 
 WHITE = null
@@ -66,15 +67,9 @@ showCanvas = ->
 setupCompass = ->
 	window.addEventListener "deviceorientation", (event) ->
 		if typeof event.webkitCompassHeading != "undefined"
-			bearing = event.webkitCompassHeading # iOS 
-			#texts[1] = "iOS #{Math.round bearing}°°"
+			bearing = DECLINATION + event.webkitCompassHeading # iOS 
 		else
-			bearing = 180 + 90 - event.alpha # android: Math to compass
-			#texts[1] = "And #{Math.round bearing}°°"
-	# Compass.watch (heading) ->
-	# 	bearing = heading
-	# 	texts[1] = "watch #{Math.round heading}°°"
-  #$('.compass').css('transform', 'rotate(' + (-heading) + 'deg)');
+			bearing = DECLINATION + 270 - event.alpha # android: Math to compass
 
 locationUpdate = (position) ->
 	logg.push 'locationUpdate ' + position.timestamp

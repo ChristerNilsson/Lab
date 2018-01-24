@@ -5,7 +5,9 @@
 // sex decimaler motsvarar 11 cm resp 5 cm precision i sista siffran.
 
 //LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
-var BLACK, GREEN, LINK, RED, WHITE, bearing, draw, fetchData, h, heading_12, hideCanvas, lastObservation, locationUpdate, locationUpdateFail, logg, p1, pages, place, placeIndex, places, setup, setupCompass, showCanvas, start, startDate, storeData, texts, track, w;
+var BLACK, DECLINATION, GREEN, LINK, RED, WHITE, bearing, draw, fetchData, h, heading_12, hideCanvas, lastObservation, locationUpdate, locationUpdateFail, logg, p1, pages, place, placeIndex, places, setup, setupCompass, showCanvas, start, startDate, storeData, texts, track, w;
+
+DECLINATION = 6; // degrees in Stockholm 2018
 
 LINK = "file:///C:/Lab/2018/005-MobileGUI/index.html";
 
@@ -141,19 +143,13 @@ showCanvas = function showCanvas() {
 setupCompass = function setupCompass() {
   return window.addEventListener("deviceorientation", function (event) {
     if (typeof event.webkitCompassHeading !== "undefined") {
-      return bearing = event.webkitCompassHeading; // iOS 
+      return bearing = DECLINATION + event.webkitCompassHeading; // iOS 
     } else {
-      //texts[1] = "iOS #{Math.round bearing}°°"
-      return bearing = 180 + 90 - event.alpha; // android: Math to compass
+      return bearing = DECLINATION + 270 - event.alpha; // android: Math to compass
     }
   });
 };
 
-//texts[1] = "And #{Math.round bearing}°°"
-// Compass.watch (heading) ->
-// 	bearing = heading
-// 	texts[1] = "watch #{Math.round heading}°°"
-//$('.compass').css('transform', 'rotate(' + (-heading) + 'deg)');
 locationUpdate = function locationUpdate(position) {
   var d, heading, lat, lng, mark00, speed, totalTime, ts;
   logg.push('locationUpdate ' + position.timestamp);
