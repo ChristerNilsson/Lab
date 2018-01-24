@@ -7,7 +7,7 @@
 //LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
 var BLACK, DECLINATION, GREEN, LINK, RED, WHITE, bearing, draw, fetchData, h, heading_12, hideCanvas, lastObservation, locationUpdate, locationUpdateFail, logg, p1, pages, place, placeIndex, places, setup, setupCompass, showCanvas, start, startDate, storeData, texts, track, w;
 
-DECLINATION = 6; // degrees in Stockholm 2018
+DECLINATION = 0; // 6 degrees in Stockholm 2018
 
 LINK = "file:///C:/Lab/2018/005-MobileGUI/index.html";
 
