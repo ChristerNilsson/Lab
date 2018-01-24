@@ -7,7 +7,7 @@
 //LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
 var BLACK, DECLINATION, GREEN, LINK, RED, WHITE, bearing, draw, fetchData, h, heading_12, hideCanvas, lastObservation, locationUpdate, locationUpdateFail, logg, p1, pages, place, placeIndex, places, setup, setupCompass, showCanvas, start, startDate, storeData, texts, track, w;
 
-DECLINATION = 6; // degrees in Stockholm 2018
+DECLINATION = 0; // degrees in Stockholm 2018
 
 LINK = "file:///C:/Lab/2018/005-MobileGUI/index.html";
 
@@ -143,10 +143,11 @@ showCanvas = function showCanvas() {
 setupCompass = function setupCompass() {
   return window.addEventListener("deviceorientation", function (event) {
     if (typeof event.webkitCompassHeading !== "undefined") {
-      return bearing = DECLINATION + event.webkitCompassHeading; // iOS 
+      bearing = DECLINATION + event.webkitCompassHeading; // iOS 
     } else {
-      return bearing = DECLINATION + 270 - event.alpha; // android: Math to compass
+      bearing = DECLINATION + 270 - event.alpha; // android: Math to compass
     }
+    return texts[1] = bearing;
   });
 };
 
@@ -163,7 +164,7 @@ locationUpdate = function locationUpdate(position) {
   heading_12 = calcHeading(p1, place());
   lastObservation = millis();
   texts[0] = prettyDist(distance_on_geoid(p1, place()));
-  texts[1] = Math.round(heading_12) + '\xB0';
+  //texts[1] = "#{Math.round heading_12}°"
   texts[6] = track.length;
   if (track.length > 1) {
     speed = calcSpeed(start, millis(), track[0], _.last(track), place());

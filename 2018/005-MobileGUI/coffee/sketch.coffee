@@ -2,7 +2,7 @@
 # sex decimaler motsvarar 11 cm resp 5 cm precision i sista siffran.
 
 #LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
-DECLINATION = 6 # degrees in Stockholm 2018
+DECLINATION = 0 # degrees in Stockholm 2018
 LINK = "file:///C:/Lab/2018/005-MobileGUI/index.html"
 
 WHITE = null
@@ -70,7 +70,7 @@ setupCompass = ->
 			bearing = DECLINATION + event.webkitCompassHeading # iOS 
 		else
 			bearing = DECLINATION + 270 - event.alpha # android: Math to compass
-
+		texts[1] = bearing
 locationUpdate = (position) ->
 	logg.push 'locationUpdate ' + position.timestamp
 	#print 'locationUpdate', position
@@ -85,7 +85,7 @@ locationUpdate = (position) ->
 	lastObservation = millis()
 
 	texts[0] = prettyDist distance_on_geoid p1,place()
-	texts[1] = "#{Math.round heading_12}°"
+	#texts[1] = "#{Math.round heading_12}°"
 	texts[6] = track.length 
 	if track.length > 1
 		speed     = calcSpeed     start, millis(), track[0], _.last(track), place()
