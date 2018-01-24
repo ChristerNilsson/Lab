@@ -52,7 +52,7 @@ drawHouseP = function drawHouseP(w, h, radius) {
 drawNeedleP = function drawNeedleP(w, h, radius) {
   try {
     //rd -bearing
-    rd(bearing + 90);
+    rd(bearing - 90);
     sc(0);
     sw(0.035 * h);
     line(0, -0.98 * radius, 0, 0.98 * radius);
@@ -78,7 +78,7 @@ drawCompassP = function drawCompassP(w, h) {
   translate(0.5 * w, 0.5 * h);
   circle(0, 0, 1.1 * radius);
   push();
-  rd(180 - heading_12);
+  rd(-heading_12);
   drawHouseP(w, h, radius);
   pop();
   drawNeedleP(w, h, radius);

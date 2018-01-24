@@ -41,7 +41,7 @@ drawHouseP = (w,h,radius) ->
 drawNeedleP = (w,h,radius) ->
 	try
 		#rd -bearing
-		rd bearing + 90
+		rd bearing - 90
 
 		sc 0
 		sw 0.035*h
@@ -68,7 +68,7 @@ drawCompassP = (w,h) ->
 	circle 0,0,1.1*radius
 	push()
 
-	rd 180-heading_12
+	rd -heading_12
 	drawHouseP w,h,radius
 	pop()
 	drawNeedleP w,h,radius
