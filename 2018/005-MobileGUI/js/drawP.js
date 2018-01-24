@@ -51,16 +51,16 @@ drawHouseP = function drawHouseP(w, h, radius) {
 
 drawNeedleP = function drawNeedleP(w, h, radius) {
   try {
-    rd(-bearing + 180);
+    rd(-bearing + 90);
     //rd bearing - 90
     sc(0);
     sw(0.035 * h);
     line(0, -0.98 * radius, 0, 0.98 * radius);
     sc(1);
     sw(0.030 * h);
-    line(0, 0, 0, 0.98 * radius);
+    line(0, 0, 0.98 * radius, 0);
     sc(1, 0, 0);
-    line(0, 0, 0, -0.98 * radius);
+    line(0, 0, -0.98 * radius, 0);
     sw(0.035 * h);
     sc(0);
     return point(0, 0);
