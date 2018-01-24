@@ -70,7 +70,7 @@ drawNeedleP = function drawNeedleP(w, h, radius) {
 drawCompassP = function drawCompassP(w, h) {
   var delta, radius;
   radius = 0.37 * w;
-  delta = calcDelta(heading_12 - bearing);
+  delta = calcDelta(bearing - heading_12);
   fill(calcColor(delta));
   sw(5);
   sc(1);
