@@ -145,7 +145,7 @@ setupCompass = function setupCompass() {
     if (typeof event.webkitCompassHeading !== "undefined") {
       bearing = DECLINATION + event.webkitCompassHeading; // iOS 
     } else {
-      bearing = DECLINATION(270 - event.alpha); // android: 
+      bearing = DECLINATION + 270 - event.alpha; // android: 
     }
     return texts[1] = precisionRound(bearing, 0);
   });
