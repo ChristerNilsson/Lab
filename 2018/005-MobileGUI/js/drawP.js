@@ -56,10 +56,10 @@ drawNeedleP = function drawNeedleP(w, h, radius) {
     sc(0);
     sw(0.035 * h);
     line(0, -0.98 * radius, 0, 0.98 * radius);
-    sc(1, 0, 0);
+    sc(1);
     sw(0.030 * h);
     line(0, 0, 0, 0.98 * radius);
-    sc(1);
+    sc(1, 0, 0);
     line(0, 0, 0, -0.98 * radius);
     sw(0.035 * h);
     sc(0);
