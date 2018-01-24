@@ -40,7 +40,7 @@ drawHouseP = (w,h,radius) ->
 
 drawNeedleP = (w,h,radius) ->
 	try
-		rd -bearing + 90
+		rd -bearing #+ 90
 		#rd bearing - 90
 
 		# nu arbetar vi matematiskt
