@@ -67,7 +67,7 @@ setupCompass = ->
 		else
 			bearing = -event.alpha # android:  
 			texts[3] = 'andr ' + precisionRound bearing, 0
-		bearing -= DECLINATION
+		bearing += DECLINATION
 
 locationUpdate = (position) ->
 	logg.push 'locationUpdate ' + position.timestamp
