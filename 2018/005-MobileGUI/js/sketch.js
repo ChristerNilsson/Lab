@@ -140,10 +140,10 @@ setupCompass = function setupCompass() {
   return window.addEventListener("deviceorientation", function (event) {
     if (typeof event.webkitCompassHeading !== "undefined") {
       bearing = 90 - event.webkitCompassHeading; // iOS 
-      return texts[3] = 'ios' + precisionRound(bearing, 0);
+      return texts[3] = 'ios ' + precisionRound(bearing, 0);
     } else {
-      bearing = event.alpha; // android:  
-      return texts[3] = 'andr' + precisionRound(bearing, 0);
+      bearing = -event.alpha; // android:  
+      return texts[3] = 'andr ' + precisionRound(bearing, 0);
     }
   });
 };
