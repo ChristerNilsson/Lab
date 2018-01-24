@@ -143,7 +143,7 @@ setupCompass = function setupCompass() {
     } else {
       bearing = event.alpha; // android:  
     }
-    bearing += DECLINATION;
+    bearing -= DECLINATION;
     return texts[3] = precisionRound(bearing, 0);
   });
 };
