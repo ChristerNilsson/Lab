@@ -139,19 +139,20 @@ showCanvas = function showCanvas() {
 
 //###############################
 setupCompass = function setupCompass() {
-  // window.addEventListener "deviceorientation", (event) ->
-  // 	if typeof event.webkitCompassHeading != "undefined"
-  // 		bearing = event.webkitCompassHeading # iOS 
-  // 		texts[1] = "iOS #{Math.round bearing}°°"
-  // 	else
-  // 		bearing = event.alpha # android: Math to compass
-  // 		texts[1] = "And #{Math.round bearing}°°"
-  return Compass.watch(function (heading) {
-    bearing = heading;
-    return texts[1] = 'watch ' + Math.round(heading) + '\xB0\xB0';
+  return window.addEventListener("deviceorientation", function (event) {
+    if (typeof event.webkitCompassHeading !== "undefined") {
+      return bearing = event.webkitCompassHeading; // iOS 
+    } else {
+      //texts[1] = "iOS #{Math.round bearing}°°"
+      return bearing = event.alpha; // android: Math to compass
+    }
   });
 };
 
+//texts[1] = "And #{Math.round bearing}°°"
+// Compass.watch (heading) ->
+// 	bearing = heading
+// 	texts[1] = "watch #{Math.round heading}°°"
 //$('.compass').css('transform', 'rotate(' + (-heading) + 'deg)');
 locationUpdate = function locationUpdate(position) {
   var d, heading, lat, lng, mark00, speed, totalTime, ts;
@@ -166,7 +167,7 @@ locationUpdate = function locationUpdate(position) {
   heading_12 = calcHeading(p1, place());
   lastObservation = millis();
   texts[0] = prettyDist(distance_on_geoid(p1, place()));
-  //texts[1] = "#{Math.round heading_12}°"
+  texts[1] = Math.round(heading_12) + '\xB0';
   texts[6] = track.length;
   if (track.length > 1) {
     speed = calcSpeed(start, millis(), track[0], _.last(track), place());
