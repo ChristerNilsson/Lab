@@ -69,7 +69,7 @@ setupCompass = ->
 		if typeof event.webkitCompassHeading != "undefined"
 			bearing = DECLINATION - event.webkitCompassHeading # iOS 
 		else
-			bearing = DECLINATION event.alpha # android: 
+			bearing = DECLINATION + event.alpha # android: 
 		texts[1] = precisionRound bearing, 0
 
 locationUpdate = (position) ->
