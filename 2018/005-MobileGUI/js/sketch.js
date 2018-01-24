@@ -145,7 +145,7 @@ setupCompass = function setupCompass() {
       bearing = -event.alpha; // android:  
       texts[3] = 'andr ' + precisionRound(bearing, 0);
     }
-    return bearing += DECLINATION;
+    return bearing -= DECLINATION;
   });
 };
 
