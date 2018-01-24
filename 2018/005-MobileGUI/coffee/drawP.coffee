@@ -41,7 +41,7 @@ drawHouseP = (w,h,radius) ->
 drawNeedleP = (w,h,radius) ->
 	try
 		#rd -bearing
-		rd bearing - 90
+		rd bearing - 180
 
 		sc 0
 		sw 0.035*h
