@@ -10,7 +10,7 @@ Exempel:
 branch = []
 
 * L1
-* L2 # Klick öppnar ger nästa läge
+* L2 # Klick öppnar och ger nästa läge
 * L3
 
 branch = [1]
