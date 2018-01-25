@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "zdata.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\zdata.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA;;;;;;;AAAA,IAAA,UAAA;;AAQA;AACC,eAAA,AAAc;AACd,eADA,AACc;AACd,eAFA,AAEc;AACd,eAHA,AAGc;AACd,KAJA,AAII;AACJ,KALA,AAKI;AACJ,gBANA,AAMe;AACf,aAPA,AAOY;AACZ,iBARA,AAQgB;AAChB,iBATA,AASgB;AAChB,SAVA,AAUQ;AACR,eAXA,AAWc;AACd,oBAZA,AAYmB;AACnB,aAbA,AAaY;AACZ,aAdA,AAcY;AACZ,SAfA,AAeQ;AACR,SAhBA,AAgBQ;AACR,QAjBA,AAiBO;AACP,gBAlBA,AAkBe;AACf,aAnBA,AAmBY;AACZ,SApBA,AAoBQ;AACR,cArBA,AAqBa;AACb,YAtBA,AAsBW;AACX,QAvBA,AAuBO;AAvBP;;AAyBD;AACC;AACC,iBAAA,AAAc;AACd,iBADA,AACc;AACd,iBAFA,AAEc;AACd,iBAHA,AAGc;AACd,OAJA,AAII;AACJ,OALA,AAKI;AACJ,kBANA,AAMe;AACf,eAPA,AAOY;AACZ,mBARA,AAQgB;AAChB,mBAVD,AACC,AASgB;AAThB;AAWD;AACC,WAAA,AAAQ;AACR,iBADA,AACc;AACd,sBAFA,AAEmB;AACnB,eAHA,AAGY;AACZ,eAJA,AAIY;AACZ,WALA,AAKQ;AACR,WANA,AAMQ;AACR,UApBD,AAaC,AAOO;AAPP;AASD;AACC,kBAAA,AAAe;AACf,eADA,AACY;AACZ,WAFA,AAEQ;AACR,gBAHA,AAGa;AACb,cAJA,AAIW;AACX,UA5BD,AAuBC,AAKO;AALP;AAvBD",
+  "sourcesContent": [
+    "# v : version YY-MM-DD\r\n# k : keywords\r\n# l : lines of code\r\n# b : user code\r\n# a : original code\r\n# c : commands\r\n# e : links\r\n\r\nkeywords = \r\n\tBackground1 : 'A B C'\r\n\tBackground2 : 'D E'\r\n\tBackground3 : 'F'\r\n\tBackground4 : 'A B C'\r\n\tX : 'A B C'\r\n\tY : 'A B C'\r\n\tCornerPoints : 'A B C'\r\n\tMidPoints : 'A B C'\r\n\tCornerPoints7 : 'A B C'\r\n\tCornerPoints3 : 'A B C'\r\n\tDices : 'A B C'\r\n\tWhiteCircle : 'A B C'\r\n\tWhiteEmptyCircle : 'A B C'\r\n\tTwoDiscsA : 'A B C'\r\n\tTwoDiscsB : 'A B C'\r\n\tTextA : 'A B C'\r\n\tTextB : 'A B C'\r\n\tFive : 'A B C'\r\n\tGreenEllipse : 'A B C'\r\n\tGreenRect : 'A B C'\r\n\tCross : 'A B C'\r\n\tSquareHole : 'A B C'\r\n\tTriangle : 'A B C'\r\n\tQuad : 'A B C'\r\n\r\nmenuItems =\r\n\t\"L1: bg point sc sw\" :\r\n\t\tBackground1 : \"ID_Background1\"\r\n\t\tBackground2 : \"ID_Background2\"\r\n\t\tBackground3 : \"ID_Background3\"\r\n\t\tBackground4 : \"ID_Background4\"\r\n\t\tX : \"ID_X\"\r\n\t\tY : \"ID_Y\"\r\n\t\tCornerPoints : \"ID_CornerPoints\"\r\n\t\tMidPoints : \"ID_MidPoints\"\r\n\t\tCornerPoints7 : \"ID_CornerPoints7\"\r\n\t\tCornerPoints3 : \"ID_CornerPoints3\"\r\n\r\n\t\"L2: circle fc text\" :\r\n\t\tDices : \"ID_Dices\"\r\n\t\tWhiteCircle : \"ID_WhiteCircle\"\r\n\t\tWhiteEmptyCircle : \"ID_WhiteEmptyCircle\"\r\n\t\tTwoDiscsA : \"ID_TwoDiscsA\"\r\n\t\tTwoDiscsB : \"ID_TwoDiscsB\"\r\n\t\tTextA : \"ID_TextA\"\r\n\t\tTextB : \"ID_TextB\"\r\n\t\tFive : \"ID_Five\"\r\n\r\n\t\"L3: ellipse rect triangle quad\" :\r\n\t\tGreenEllipse : \"ID_GreenEllipse\"\r\n\t\tGreenRect : \"ID_GreenRect\"\r\n\t\tCross : \"ID_Cross\"\r\n\t\tSquareHole : \"ID_SquareHole\"\r\n\t\tTriangle : \"ID_Triangle\"\r\n\t\tQuad : \"ID_Quad\"\r\n\r\n"
+  ]
+}

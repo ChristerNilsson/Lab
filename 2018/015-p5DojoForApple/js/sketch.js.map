@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,MAAA,MAAA;;AAAA,OAAO;;AAEP,OAAO;;AAEP,eAAe;AACd,AAAI,OAAC,AAAL;SACA,AAAI,KAAC,AAAL,AAFc;;;AAIf,AAAM,OAAC,AAAP,SAAgB;AACf,SAAO,IAAI,AAAJ,KAAS,AAAT,WAAoB,AAAQ,SAAC,AAAT,eAAwB,AAAxB,AAApB;SACP,AAFe",
+  "sourcesContent": [
+    "CRLF = \"\\n\"\r\n\r\nmeny = null\r\n\r\nupdateTables = ->\r\n\tmeny.rensa()\r\n\tmeny.traverse()\r\n\r\nwindow.onload = ->\r\n\tmeny = new Menu menuItems, document.getElementById \"meny\"\r\n\tupdateTables()\r\n"
+  ]
+}
