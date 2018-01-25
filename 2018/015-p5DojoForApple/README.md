@@ -10,19 +10,19 @@ Exempel:
 branch = []
 
 * L1
-* L2 # Klick ger nästa läge
+* L2 # Klick öppnar ger nästa läge
 * L3
 
 branch = [1]
 
-* L2 # Klick ger föregående läge
-  * Dices # Klick ger nästa läge
+* L2 # Klick stänger och ger föregående läge
+  * Dices # Klick öppnar och ger nästa läge
   * WhiteCircle
 
 branch = [1,0]
 
-* L2  # Klick ger första läget
-  * Dices # Klick ger föregående läge
+* L2  # Klick stänger och ger första läget
+  * Dices # Klick stänger och ger föregående läge
     * A
     * B
     * C
