@@ -27,6 +27,6 @@ branch = [1,0]
     * B
     * C
 
-Med n+2 rader på skärmen kan man visa ett träde med n*n*n noder.
+Med n+2 rader på skärmen kan man visa ett träde med n x n x n noder.
 
-Om n=20 kan man visa ett träd med 20*20*20 = 8000 noder på 22 rader.
+Om n=20 kan man visa ett träd med 20 x 20 x 20 = 8000 noder på 22 rader.
