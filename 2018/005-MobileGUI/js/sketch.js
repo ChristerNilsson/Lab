@@ -7,7 +7,7 @@
 //LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
 var BLACK, DECLINATION, GREEN, LINK, RED, WHITE, bearing, draw, fetchData, h, heading_12, hideCanvas, lastObservation, locationUpdate, locationUpdateFail, logg, p1, pages, place, placeIndex, places, setup, setupCompass, showCanvas, start, startDate, storeData, texts, track, w;
 
-DECLINATION = 0; // 6 degrees in Stockholm 2018
+DECLINATION = 6; // 6 degrees in Stockholm 2018
 
 LINK = "file:///C:/Lab/2018/005-MobileGUI/index.html";
 
@@ -140,16 +140,15 @@ setupCompass = function setupCompass() {
   return window.addEventListener("deviceorientation", function (event) {
     if (typeof event.webkitCompassHeading !== "undefined") {
       bearing = 90 - event.webkitCompassHeading; // iOS 
-      texts[3] = 'ios ' + precisionRound(bearing, 0);
+      return texts[3] = 'ios ' + precisionRound(bearing, 0);
     } else {
       bearing = -event.alpha - 90; // android:  
-      texts[3] = 'andr ' + precisionRound(bearing, 0);
+      return texts[3] = 'andr ' + precisionRound(bearing, 0);
     }
-    //bearing += DECLINATION
-    return bearing += 32;
   });
 };
 
+//bearing += DECLINATION
 locationUpdate = function locationUpdate(position) {
   var d, heading, lat, lng, mark00, speed, totalTime, ts;
   logg.push('locationUpdate ' + position.timestamp);
