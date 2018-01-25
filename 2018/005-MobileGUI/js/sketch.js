@@ -146,7 +146,7 @@ setupCompass = function setupCompass() {
       texts[3] = 'andr ' + precisionRound(bearing, 0);
     }
     //bearing += DECLINATION
-    return bearing -= 25;
+    return bearing += 25;
   });
 };
 
