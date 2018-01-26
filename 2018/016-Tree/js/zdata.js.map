@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "zdata.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\zdata.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA;;AAAA;AACC,aAAA,AAAW;AACX;AACC,YAAA,AAAS;AACT;AACC;AACC,mBAAA,AAAY;AACZ,mBAFD,AACC,AACY;AADZ;AAED,gBAHA,AAGU;AACV,aAND,AAEC,AAIO;AAJP;AAKD;AACC,YAAA,AAAM;AACN,cADA,AACQ;AACR,iBAVD,AAQC,AAEW;AAFX;AAGD;AACC,iBAAA,AAAW;AACX,cAbD,AAYC,AACQ;AADR;AAED;AACC,mBAAA,AAAa;AACb,WAhBD,AAeC,AACK;AADL;AAED;AACC,cAAA,AAAQ;AACR,cAnBD,AAkBC,AACQ;AADR;AAED;AACC,cAAA,AAAQ;AACR,iBAtBD,AAqBC,AACW;AADX;AAED;AACC,aAAA,AAAO;AACP,iBA3BF,AAEC,AAwBC,AACW;AADX;AAxBD;AA0BD;AACC;AACC,kBAAA,AAAY;AACZ,kBADA,AACY;AACZ,mBAHD,AACC,AAEa;AAFb;AAGD;AACC,eAAA,AAAS;AACT,eAnCF,AA6BC,AAKC,AACS;AADT;AALD;AAOD;AACC;AACC,YADD,AACC,AAAM;AAAN;AACD;AACC,gBAxCF,AAqCC,AAGC,AAAU;AAAV;AAHD;AAID;AACC;AACC,eAAA,AAAS;AACT,cAFD,AACC,AACQ;AADR;AAED;AACC,aAAA,AAAO;AACP,aADA,AACO;AACP,YAhDF,AA0CC,AAIC,AAEM;AAFN;AAJD;AAOD;AACC;AACC,aADD,AACC,AAAO;AAAP;AACD;AACC,kBAAA,AAAY;AACZ,aAtDF,AAkDC,AAGC,AACO;AADP;AAHD;AAlDD",
+  "sourcesContent": [
+    "world =\r\n\tAntarktis: {}\r\n\tEuropa :\r\n\t\tIsland : {}\r\n\t\tSverige :\r\n\t\t\tStockholm : \r\n\t\t\t\tSödermalm : {}\r\n\t\t\t\tÖstermalm : {}\r\n\t\t\tGöteborg: {}\r\n\t\t\tMalmö: {}\r\n\t\tNorge :\r\n\t\t\tOslo: {}\r\n\t\t\tBergen: {}\r\n\t\t\tStavanger: {}\r\n\t\tDanmark :\r\n\t\t\tKöpenhamn: {}\r\n\t\t\tOdense: {}\r\n\t\tFinland :\r\n\t\t\tHelsingfors: {}\r\n\t\t\tÅbo: {}\r\n\t\tEngland :\r\n\t\t\tLondon: {}\r\n\t\t\tOxford: {}\r\n\t\tTyskland:\r\n\t\t\tBerlin: {}\r\n\t\t\tFrankfurt: {}\r\n\t\tFrankrike:\r\n\t\t\tParis: {}\r\n\t\t\tMarseille: {}\r\n\tNordamerika:\r\n\t\tUSA:\r\n\t\t\tWashington: {}\r\n\t\t\t'New York': {}\r\n\t\t\t'Palo Alto': {}\r\n\t\tKanada:\r\n\t\t\tToronto: {}\r\n\t\t\tAlberta: {}\r\n\tSydamerika:\r\n\t\tPeru:\r\n\t\t\tLima: {}\r\n\t\tBrasilien:\r\n\t\t\tBrasilia: {}\r\n\tAsien:\r\n\t\tKina:\r\n\t\t\tBeijing: {}\r\n\t\t\tHarbin: {}\r\n\t\tJapan:\r\n\t\t\tTokyo: {}\r\n\t\t\tOsaka: {}\r\n\t\t\tKobe: {}\r\n\tAfrika:\r\n\t\tMarocko:\r\n\t\t\tRabat: {}\r\n\t\tEgypten:\r\n\t\t\tAlexandria: {}\r\n\t\t\tKairo: {}"
+  ]
+}

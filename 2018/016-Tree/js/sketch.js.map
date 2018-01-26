@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,MAAA;;AAAA,OAAO;;AAEP,OAAO;;AAEP,AAAM,OAAC,AAAP,SAAgB;SAAG,OAAO,IAAI,AAAJ,KAAS,AAAT,AAAV",
+  "sourcesContent": [
+    "CRLF = \"\\n\"\r\n\r\nmeny = null\r\n\r\nwindow.onload = -> meny = new Menu world\r\n"
+  ]
+}
