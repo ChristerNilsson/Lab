@@ -129,6 +129,12 @@ fib(x) = x<=0 ? 1 : fib(x-1)+fib(x-2)
 8 == fib(4)
 13 == fib(5)
 21 == fib(6)
+
+dir = Object.getOwnPropertyNames
+a = dir(Math)
+f(p) = typeof Math[p] === 'function'
+a.filter(f)
+
 // 1
 // 2 Tre extra rader pga Androidproblem
 // 3
