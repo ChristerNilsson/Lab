@@ -31,16 +31,14 @@ Menu = function () {
   _createClass(Menu, [{
     key: 'traverse',
     value: function traverse(branch) {
-      var level = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+      var _this = this;
 
       var arr, b, children, fn, i, j, k, key, keys, len, len1, node, ref, results;
-      if (level === 0) {
-        this.table.innerHTML = "";
-      }
+      this.table.innerHTML = "";
       node = this.tree;
       fn = function fn(arr) {
         return b.onclick = function () {
-          return meny.traverse(arr, 0);
+          return _this.traverse(arr);
         };
       };
       for (i = j = 0, len = branch.length; j < len; i = ++j) {
@@ -70,7 +68,7 @@ Menu = function () {
         b = this.addTitle(key, branch.length);
         results.push(function (arr) {
           return b.onclick = function () {
-            return meny.traverse(arr, 0);
+            return _this.traverse(arr);
           };
         }(arr));
       }

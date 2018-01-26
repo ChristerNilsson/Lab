@@ -8,8 +8,8 @@ class Menu
 		#@traverse ['Europa']
 		#@traverse ['Europa','Sverige']
 
-	traverse : (branch,level=0) ->
-		if level==0 then @table.innerHTML = ""
+	traverse : (branch) ->
+		@table.innerHTML = ""
 		node = @tree
 		for key,i in branch
 			node = node[key]
@@ -18,7 +18,7 @@ class Menu
 			else 
 				arr = branch.concat key
 			b = @addTitle key,i
-			do (arr) -> b.onclick = => meny.traverse arr,0
+			do (arr) => b.onclick = => @traverse arr
 
 		keys = _.keys node
 		for key in keys.sort()
@@ -30,7 +30,7 @@ class Menu
 			else
 				arr = branch
 			b = @addTitle key,branch.length
-			do (arr) -> b.onclick = => meny.traverse arr,0
+			do (arr) => b.onclick = => @traverse arr
 
 	addTitle : (title,level) ->
 		b = makeButton title, BLACK,YELLOW

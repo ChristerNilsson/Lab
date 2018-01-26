@@ -6,8 +6,8 @@
     "coffee\\sketch.coffee"
   ],
   "names": [],
-  "mappings": ";;;AAAA,IAAA,MAAA;;AAAA,OAAO;;AAEP,OAAO;;AAEP,AAAM,OAAC,AAAP,SAAgB;SAAG,OAAO,IAAI,AAAJ,KAAS,AAAT,AAAV",
+  "mappings": ";;;AAAA,IAAA,MAAA,eAAA;;AAAA,OAAO;;AAEP,OAAO;;AAEP,AAAM,OAAC,AAAP,SAAgB,YAAA;;;SAEf,OAAO,IAAI,AAAJ,KAAS,AAAT,AAFQ;;;AAIhB,gBAAe,sBAAC,AAAD,OACd;MAAA,KAAA,GAAA,KAAA,KAAA;AAAA,MAAG,UAAS,AAAZ,GAAmB;WAAO,AAA1B;;AACA,QAAM,AACN;;AAAA,OAAA,kCAAA;;AACC,AAAI,QAAA,MAAI,AAAI,KAAC,AAAL,OAAY,AAAZ,AAAJ,AAAJ,OAA2B,cAAa,QAAM,AAAnB,AAD5B;;SAEA,AALc;;;AARf",
   "sourcesContent": [
-    "CRLF = \"\\n\"\r\n\r\nmeny = null\r\n\r\nwindow.onload = -> meny = new Menu world\r\n"
+    "CRLF = \"\\n\"\r\n\r\nmeny = null\r\n\r\nwindow.onload = -> \r\n\t#world = generateTree 3\r\n\tmeny = new Menu world\r\n\r\ngenerateTree = (level) ->\r\n\tif level == 0 then return {}\r\n\thsh = {}\r\n\tfor key in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'\r\n\t\thsh[key+Math.random(10)] = generateTree level-1\r\n\thsh\r\n\r\n#console.log generateTree 3"
   ]
 }
