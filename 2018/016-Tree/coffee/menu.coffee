@@ -25,8 +25,8 @@ class Menu
 				arr = branch.slice 0,i
 			else 
 				arr = branch.concat key
-			b = @addTitle key,i
-			do (arr) => b.onclick = => @traverse arr
+			do (arr) => 
+				@addTitle key,i, => @traverse arr
 
 		keys = _.keys node
 		for key in keys.sort()
@@ -37,17 +37,16 @@ class Menu
 				arr = branch.concat key
 			else
 				arr = branch
-			b = @addTitle key,branch.length
-			do (arr) => b.onclick = => @traverse arr
+			do (arr) => 
+				@addTitle key,branch.length, => @traverse arr
 
-	addTitle : (title,level) ->
-		b = @makeButton title, BLACK,YELLOW
+	addTitle : (title,level,onclick) ->
+		b = @makeButton title, BLACK,YELLOW, onclick
 		b.style.textAlign = 'left'
 		b.style.paddingLeft = 10*level + "px"
 		tr = document.createElement "tr"
 		@addCell tr,b,100
 		@table.appendChild tr
-		b
 
 	addCell : (tr,value,width) ->
 		td = document.createElement "td"
@@ -55,12 +54,12 @@ class Menu
 		td.appendChild value
 		tr.appendChild td
 
-	makeButton : (value,bg,sc) ->
+	makeButton : (value,bg,sc,onclick) ->
 		res = document.createElement "input"
 		res.type = 'button'
 		res.value = value 
 		res.style.cssText = "font-size:100%; white-space:normal; width:100%;" 
 		res.style.backgroundColor = bg 
 		res.style.color = sc
+		res.onclick = onclick
 		res
-

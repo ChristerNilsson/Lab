@@ -51,13 +51,13 @@ Menu = function () {
     value: function traverse(branch) {
       var _this = this;
 
-      var arr, b, children, fn, i, j, k, key, keys, len, len1, node, ref, results;
+      var arr, children, fn, i, j, k, key, keys, len, len1, node, ref, results;
       this.table.innerHTML = "";
       node = this.tree;
       fn = function fn(arr) {
-        return b.onclick = function () {
+        return _this.addTitle(key, i, function () {
           return _this.traverse(arr);
-        };
+        });
       };
       for (i = j = 0, len = branch.length; j < len; i = ++j) {
         key = branch[i];
@@ -67,7 +67,6 @@ Menu = function () {
         } else {
           arr = branch.concat(key);
         }
-        b = this.addTitle(key, i);
         fn(arr);
       }
       keys = _.keys(node);
@@ -83,26 +82,24 @@ Menu = function () {
         } else {
           arr = branch;
         }
-        b = this.addTitle(key, branch.length);
         results.push(function (arr) {
-          return b.onclick = function () {
+          return _this.addTitle(key, branch.length, function () {
             return _this.traverse(arr);
-          };
+          });
         }(arr));
       }
       return results;
     }
   }, {
     key: "addTitle",
-    value: function addTitle(title, level) {
+    value: function addTitle(title, level, onclick) {
       var b, tr;
-      b = this.makeButton(title, BLACK, YELLOW);
+      b = this.makeButton(title, BLACK, YELLOW, onclick);
       b.style.textAlign = 'left';
       b.style.paddingLeft = 10 * level + "px";
       tr = document.createElement("tr");
       this.addCell(tr, b, 100);
-      this.table.appendChild(tr);
-      return b;
+      return this.table.appendChild(tr);
     }
   }, {
     key: "addCell",
@@ -115,7 +112,7 @@ Menu = function () {
     }
   }, {
     key: "makeButton",
-    value: function makeButton(value, bg, sc) {
+    value: function makeButton(value, bg, sc, onclick) {
       var res;
       res = document.createElement("input");
       res.type = 'button';
@@ -123,6 +120,7 @@ Menu = function () {
       res.style.cssText = "font-size:100%; white-space:normal; width:100%;";
       res.style.backgroundColor = bg;
       res.style.color = sc;
+      res.onclick = onclick;
       return res;
     }
   }]);
