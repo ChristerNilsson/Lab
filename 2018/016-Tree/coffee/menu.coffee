@@ -1,5 +1,13 @@
 drop = (arr) -> arr.slice 0, arr.length-1
 
+BLACK  = "#000"
+WHITE  = "#FFF"
+GREEN  = "#0F0"
+RED    = "#F00"
+YELLOW = "#FF0"
+
+range = _.range
+
 class Menu
 	constructor : (@tree, id='meny') ->
 		@table = document.getElementById id
@@ -33,10 +41,26 @@ class Menu
 			do (arr) => b.onclick = => @traverse arr
 
 	addTitle : (title,level) ->
-		b = makeButton title, BLACK,YELLOW
+		b = @makeButton title, BLACK,YELLOW
 		b.style.textAlign = 'left'
 		b.style.paddingLeft = 10*level + "px"
 		tr = document.createElement "tr"
-		addCell tr,b,100
+		@addCell tr,b,100
 		@table.appendChild tr
 		b
+
+	addCell : (tr,value,width) ->
+		td = document.createElement "td"
+		td.style.cssText = "width:#{width}%"
+		td.appendChild value
+		tr.appendChild td
+
+	makeButton : (value,bg,sc) ->
+		res = document.createElement "input"
+		res.type = 'button'
+		res.value = value 
+		res.style.cssText = "font-size:100%; white-space:normal; width:100%;" 
+		res.style.backgroundColor = bg 
+		res.style.color = sc
+		res
+
