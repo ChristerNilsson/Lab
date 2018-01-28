@@ -1,37 +1,35 @@
-BLACK  = "#000"
-WHITE  = "#FFF"
-YELLOW = "#FF0"
-
 class Tree
 	constructor : (@tree, id='tree') ->
 		@div = document.getElementById id
 		@traverse []
 
 	traverse : (branch) ->
-		@div.innerHTML = ""
+		#console.clear()
+		#console.log branch
+		@div.innerHTML = ''
 		node = @tree
 		for key,i in branch
 			node = node[key]
-			if key in branch then	arr = branch.slice 0,i
-			else arr = branch.concat key
-			do (arr) => @button key, i, WHITE, BLACK, => @traverse arr
+			if key in branch then	branch1 = branch.slice 0,i
+			else branch1 = branch.concat key
+			@button key, i, 0, branch1
 
-		keys = Object.keys node
-		for key in keys.sort()
+		for key in Object.keys(node).sort()
 			children = node[key]
-			if key in branch then arr = branch.slice 0, branch.length-1
-			else if Object.keys(children).length > 0 then arr = branch.concat key
-			else arr = branch
-			do (arr) => @button key, branch.length, BLACK, YELLOW, => @traverse arr
+			if key in branch then branch1 = branch.slice 0, branch.length-1
+			else if Object.keys(children).length > 0 then branch1 = branch.concat key
+			else branch1 = branch
+			@button key, branch.length, 1, branch1
 
-	button : (value,level,bg,sc,onclick) ->
-		res = document.createElement "input"
+	button : (key,level,color,branch) ->
+		#console.log key,level,color,branch
+		res = document.createElement 'input'
 		res.type = 'button'
-		res.value = value 
-		res.style.width = "100%" 
-		res.style.backgroundColor = bg 
-		res.style.color = sc
+		res.value = key 
+		res.style.width = '100%' 
+		res.style.backgroundColor = '#FFF #000'.split(' ')[color]
+		res.style.color           = '#000 #FFF'.split(' ')[color]
 		res.style.textAlign = 'left'
-		res.style.paddingLeft = 10*level + "px"
-		res.onclick = onclick
+		res.style.paddingLeft = 10*level + 'px'
+		res.onclick = => @traverse branch
 		@div.appendChild res
