@@ -81,4 +81,4 @@ world = {
     }
   }
 };
-//# sourceMappingURL=zdata.js.map
+//# sourceMappingURL=data.js.map

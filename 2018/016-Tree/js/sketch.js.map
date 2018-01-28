@@ -6,8 +6,8 @@
     "coffee\\sketch.coffee"
   ],
   "names": [],
-  "mappings": ";;;AAAA,IAAA,MAAA,eAAA;;AAAA,OAAO;;AAEP,OAAO;;AAEP,AAAM,OAAC,AAAP,SAAgB,YAAA;;;SAEf,OAAO,IAAI,AAAJ,KAAS,AAAT,AAFQ;;;AAIhB,gBAAe,sBAAC,AAAD,OACd;MAAA,KAAA,GAAA,KAAA,KAAA;AAAA,MAAG,UAAS,AAAZ,GAAmB;WAAO,AAA1B;;AACA,QAAM,AACN;;AAAA,OAAA,kCAAA;;AACC,AAAI,QAAA,MAAI,AAAI,KAAC,AAAL,OAAY,AAAZ,AAAJ,AAAJ,OAA2B,cAAa,QAAM,AAAnB,AAD5B;;SAEA,AALc;;;AARf",
+  "mappings": ";;;AAAA,IAAA,MAAA,eAAA;;AAAA,OAAO;;AAEP,OAAO;;AAEP,AAAM,OAAN,AAAO,SAAS,YAAA;;;SAEf,OAAO,IAAA,AAAI,KAFI,AAER,AAAS;;;AAEjB,gBAAe,sBAAA,AAAC;AACf,MADqB,4EAAP,AAAa;;MAC3B,KAAA,GAAA,KAAA,KAAA;AAAA,MAAG,UAAH,AAAY,GAAO;WAAnB,AAA0B;;AAC1B,QAAM,AACN;;AAAA,OAAA,kCAAA;;AACC,AAAI,QAAA,QAAJ,AAAI,AAAM,OAAO,cAAa,QAAb,AAAmB,GAAE,QADvC,AACkB,AAA2B;;SAJ/B,AAKd",
   "sourcesContent": [
-    "CRLF = \"\\n\"\r\n\r\nmeny = null\r\n\r\nwindow.onload = -> \r\n\t#world = generateTree 3\r\n\tmeny = new Menu world\r\n\r\ngenerateTree = (level) ->\r\n\tif level == 0 then return {}\r\n\thsh = {}\r\n\tfor key in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'\r\n\t\thsh[key+Math.random(10)] = generateTree level-1\r\n\thsh\r\n\r\n#console.log generateTree 3"
+    "CRLF = \"\\n\"\r\n\r\ntree = null\r\n\r\nwindow.onload = -> \r\n\t#console.log world = generateTree 20\r\n\ttree = new Tree world\r\n\r\ngenerateTree = (level,title='') ->\r\n\tif level == 0 then return {}\r\n\thsh = {}\r\n\tfor key in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'\r\n\t\thsh[title+key] = generateTree level-1,title+key\r\n\thsh\r\n"
   ]
 }

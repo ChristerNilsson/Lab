@@ -1,16 +1,14 @@
 CRLF = "\n"
 
-meny = null
+tree = null
 
 window.onload = -> 
-	#world = generateTree 3
-	meny = new Menu world
+	#console.log world = generateTree 20
+	tree = new Tree world
 
-generateTree = (level) ->
+generateTree = (level,title='') ->
 	if level == 0 then return {}
 	hsh = {}
 	for key in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-		hsh[key+Math.random(10)] = generateTree level-1
+		hsh[title+key] = generateTree level-1,title+key
 	hsh
-
-#console.log generateTree 3
