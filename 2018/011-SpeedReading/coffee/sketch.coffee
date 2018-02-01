@@ -24,9 +24,8 @@ Miljövännen, Hälsofreaket och Djurrättsaktivisten
 """
 arr = null
 iWord = 0
-iLetter = 0
-limit = 0
-fr = 1
+speed = 10 # characters per second
+deadline = 0 # millis
 
 setup = ->
 	createCanvas 200,200
@@ -34,21 +33,18 @@ setup = ->
 	arr = data.split ' '
 	textAlign CENTER,CENTER
 	textSize 20
-	frameRate fr
 
 draw = ->
-	if iLetter >= limit and iWord < arr.length
+	if millis() >= deadline 
 		bg 0
 		fc 1,1,0
 		text arr[iWord],100,100
-		iLetter=0
-		limit = 1 + arr[iWord].length
+		deadline += 200 + 1000 * arr[iWord].length / speed
 		iWord++
 		fc 0.5
-		text "#{fr} tecken per sekund",100,180
-	else
-		iLetter++
-	fr = Math.ceil (1+mouseX)/10
-	frameRate fr
+		text "#{speed} tecken per sekund",100,180
 
-mousePressed = -> iWord = 0
+mousePressed = -> 
+	if mouseX > 100 then speed++ else speed--
+	speed = constrain speed,1,100
+	deadline = millis()
