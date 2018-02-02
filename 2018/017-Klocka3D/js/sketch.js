@@ -6,8 +6,7 @@ var draw, setup, urtavla, vinkel, visare;
 vinkel = 0;
 
 setup = function setup() {
-  createCanvas(600, 600, WEBGL);
-  return normalMaterial();
+  return createCanvas(600, 600, WEBGL);
 };
 
 urtavla = function urtavla() {
@@ -20,33 +19,37 @@ urtavla = function urtavla() {
     push();
     if (i % 5 === 0) {
       translate(0, 250 - 20);
-      cylinder(5, 20, 30);
     } else {
       translate(0, 250 - 10);
+    }
+    if (i % 5 === 0) {
+      cylinder(5, 20, 30);
+    } else {
       cylinder(3, 10, 30);
     }
     pop();
-    results.push(rotateZ(PI / 30));
+    results.push(rotateZ(radians(6)));
   }
   return results;
 };
 
 visare = function visare(tid, antal, längd, tjocklek, z) {
   push();
-  rotateZ(map(tid, 0, antal, 0, TWO_PI));
-  translate(0, längd * 0.8, z);
-  box(tjocklek, längd, 2);
+  rotateZ(radians(map(tid, 0, antal, 0, 360)));
+  translate(0, längd * 0.5, z);
+  box(tjocklek, längd, 4);
   return pop();
 };
 
 draw = function draw() {
+  normalMaterial();
   bg(0);
-  rotateY(vinkel);
-  vinkel -= 0.008;
+  rotateY(radians(vinkel));
+  vinkel -= 0.5;
   urtavla();
-  rotateX(PI);
-  visare(second(), 60, 180, 5, 10);
-  visare(minute() + second() / 60.0, 60, 160, 10, 0);
-  return visare(hour() + minute() / 60.0, 12, 140, 10, -10);
+  rotateX(radians(180));
+  visare(second(), 60, 210, 10, 10);
+  visare(minute() + second() / 60.0, 60, 190, 20, 0);
+  return visare(hour() + minute() / 60.0, 12, 150, 20, -10);
 };
 //# sourceMappingURL=sketch.js.map
