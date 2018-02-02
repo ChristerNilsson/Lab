@@ -1,4 +1,4 @@
-vinkel = 0
+vinkel = 0 # grader. Ett varv på 12 sekunder.
 
 setup = -> createCanvas 600,600,WEBGL
 
