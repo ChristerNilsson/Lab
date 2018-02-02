@@ -6,23 +6,23 @@ var draw, setup, urtavla, vinkel, visare;
 vinkel = 0;
 
 setup = function setup() {
-  createCanvas(800, 800, WEBGL);
+  createCanvas(600, 600, WEBGL);
   return normalMaterial();
 };
 
 urtavla = function urtavla() {
   var i, j, len, ref, results;
-  torus(300, 10, 48, 32);
+  torus(250, 10, 48, 32);
   ref = range(60);
   results = [];
   for (j = 0, len = ref.length; j < len; j++) {
     i = ref[j];
     push();
     if (i % 5 === 0) {
-      translate(0, 280);
+      translate(0, 250 - 20);
       cylinder(5, 20, 30);
     } else {
-      translate(0, 290);
+      translate(0, 250 - 10);
       cylinder(3, 10, 30);
     }
     pop();
@@ -42,11 +42,11 @@ visare = function visare(tid, antal, längd, tjocklek, z) {
 draw = function draw() {
   bg(0);
   rotateY(vinkel);
-  vinkel += 0.008;
+  vinkel -= 0.008;
   urtavla();
   rotateX(PI);
-  visare(second(), 60, 200, 5, -10);
-  visare(minute() + second() / 60.0, 60, 200, 10, 0);
-  return visare(hour() + minute() / 60.0, 12, 160, 10, 10);
+  visare(second(), 60, 180, 5, 10);
+  visare(minute() + second() / 60.0, 60, 160, 10, 0);
+  return visare(hour() + minute() / 60.0, 12, 140, 10, -10);
 };
 //# sourceMappingURL=sketch.js.map
