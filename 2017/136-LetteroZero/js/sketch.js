@@ -45,7 +45,7 @@ setup = function setup() {
   if (_.size(ordlista) === 0) {
     ordlista.words = 'ADAM,BERTIL';
   }
-  words = _.shuffle(ordlista.words.split(','));
+  words = _.shuffle(ordlista.words.toUpperCase().split(','));
   textAlign(CENTER, CENTER);
   return newGame();
 };

@@ -26,7 +26,7 @@ setup = ->
 	radius6 = 0.59*storlek 
 	ordlista = getParameters()
 	if _.size(ordlista)==0 then ordlista.words = 'ADAM,BERTIL'
-	words = _.shuffle ordlista.words.split ','
+	words = _.shuffle ordlista.words.toUpperCase().split ','
 	textAlign CENTER,CENTER
 	newGame()
 
