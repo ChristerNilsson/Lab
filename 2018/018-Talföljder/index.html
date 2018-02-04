@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>018-Talföljder</title>
+    <script src="libraries/p5.js" ></script>
+    <script src="libraries/p5.dom.js"></script>
+    <script src="libraries/underscore.js"></script>
+    <script src="libraries/chai.js"></script>
+    <script src="libraries/nilsson.js"></script>
+
+    <script src="js/sketch.js"></script>
+    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+
+  </head>
+  <body style='font-size:40px; font-family:monospace' >
+    <input id='talföljd' onkeyup = 'doit()' style='font-size:40px; font-family:monospace' placeholder='... f e d c b a' value='1 1 2 3 5'>
+    <input id='formel' onkeyup = 'doit()' style='font-size:40px ; font-family:monospace' placeholder='K A B ...' value='0 1 1'>
+    <div id='resultat'></div>
+  </body>
+</html>
