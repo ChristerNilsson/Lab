@@ -3,6 +3,7 @@
 
 #LINK = "https://christernilsson.github.io/Lab/2018/005-MobileGUI/index.html"
 DECLINATION = 6 # 6 degrees in Stockholm 2018
+DATA = "GPSCompass"
 LINK = "file:///C:/Lab/2018/005-MobileGUI/index.html"
 
 WHITE = null
@@ -47,10 +48,10 @@ texts = ['dist','bäring','ETA','km/h','','wait','punkter','','tid','destination
 
 storeData = -> 
 	#print JSON.stringify places
-	localStorage["GPSCompass"] = JSON.stringify places	
+	localStorage[DATA] = JSON.stringify places	
 
 fetchData = ->
-	data = localStorage["GPSCompass"]
+	data = localStorage[DATA]
 	print data
 	if data then places = JSON.parse data 
 
@@ -66,7 +67,8 @@ setupCompass = ->
 			texts[3] = 'ios ' + precisionRound bearing, 0
 		else
 			bearing = 270 - event.alpha # android:  
-			texts[3] = 'andrz ' + precisionRound bearing, 0
+			if bearing < 0 then bearing += 360
+			texts[3] = 'andra ' + precisionRound bearing, 0
 		#bearing += DECLINATION
 
 locationUpdate = (position) ->
