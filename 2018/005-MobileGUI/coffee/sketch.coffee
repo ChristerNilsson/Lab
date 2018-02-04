@@ -68,7 +68,7 @@ setupCompass = ->
 		else
 			bearing = 270 - event.alpha # android:  
 			if bearing < 0 then bearing += 360
-			texts[3] = 'andra ' + precisionRound bearing, 0
+			texts[3] = 'andrb ' + precisionRound bearing, 0
 		#bearing += DECLINATION
 
 locationUpdate = (position) ->

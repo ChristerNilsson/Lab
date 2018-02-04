@@ -148,7 +148,7 @@ setupCompass = function setupCompass() {
       if (bearing < 0) {
         bearing += 360;
       }
-      return texts[3] = 'andra ' + precisionRound(bearing, 0);
+      return texts[3] = 'andrb ' + precisionRound(bearing, 0);
     }
   });
 };
