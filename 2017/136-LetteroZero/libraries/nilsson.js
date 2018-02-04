@@ -82,7 +82,9 @@ getParameters = function(h) {
   }
   return _.object((function() {
     var k, len, ref, results;
-    ref = h.split('?')[1].split('&');
+    ref = h.split('?')[1]
+    if (!ref) return null 
+    ref = ref.split('&');
     results = [];
     for (k = 0, len = ref.length; k < len; k++) {
       f = ref[k];

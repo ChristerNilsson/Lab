@@ -42,8 +42,8 @@ setup = function setup() {
   radius5 = 0.05 * storlek;
   radius6 = 0.59 * storlek;
   ordlista = getParameters();
-  if (!ordlista.words) {
-    ordlista = 'ADAM,BERTIL';
+  if (_.size(ordlista) === 0) {
+    ordlista.words = 'ADAM,BERTIL';
   }
   words = _.shuffle(ordlista.words.split(','));
   textAlign(CENTER, CENTER);
