@@ -143,7 +143,7 @@ setupCompass = function setupCompass() {
       return texts[3] = 'ios ' + precisionRound(bearing, 0);
     } else {
       bearing = 180 - event.alpha; //-90 # android:  
-      return texts[3] = 'andr ' + precisionRound(bearing, 0);
+      return texts[3] = 'andrx ' + precisionRound(bearing, 0);
     }
   });
 };
