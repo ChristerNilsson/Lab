@@ -65,7 +65,7 @@ setupCompass = ->
 			bearing = 90 - event.webkitCompassHeading # iOS 
 			texts[3] = 'ios ' + precisionRound bearing, 0
 		else
-			bearing = -event.alpha - 90 # android:  
+			bearing = 270 - event.alpha # android:  
 			texts[3] = 'andrz ' + precisionRound bearing, 0
 		#bearing += DECLINATION
 
