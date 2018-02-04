@@ -80,6 +80,7 @@ getParameters = function(h) {
   if (h == null) {
     h = window.location.href;
   }
+  h = decodeURI(h)
   return _.object((function() {
     var k, len, ref, results;
     ref = h.split('?')[1]
