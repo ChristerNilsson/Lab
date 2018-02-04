@@ -1,22 +1,22 @@
 talföljd = null
-formel = null
+formel   = null
 resultat = null
 
 calc = (formel,talföljd) ->
 	res = 0
 	n = talföljd.length
 	for term,i in formel
-		print i, term, talföljd[n-i]
 		if i==0 then res += term
 		else res += term * talföljd[n-i]
 	res
 
-readList = (input) -> parseInt item for item in input.value.split ' '
+readList = (input) ->
+	if input.value == '' then return [] 
+	parseInt item for item in input.value.split ' '
 
 doit = ->
 	t = readList talföljd
 	f = readList formel
-
 	u = t.slice()
 	for i in range 10
 		u.push calc f,u

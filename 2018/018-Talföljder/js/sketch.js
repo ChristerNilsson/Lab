@@ -15,7 +15,6 @@ calc = function calc(formel, talföljd) {
   n = talföljd.length;
   for (i = j = 0, len = formel.length; j < len; i = ++j) {
     term = formel[i];
-    print(i, term, talföljd[n - i]);
     if (i === 0) {
       res += term;
     } else {
@@ -27,6 +26,9 @@ calc = function calc(formel, talföljd) {
 
 readList = function readList(input) {
   var item, j, len, ref, results;
+  if (input.value === '') {
+    return [];
+  }
   ref = input.value.split(' ');
   results = [];
   for (j = 0, len = ref.length; j < len; j++) {
