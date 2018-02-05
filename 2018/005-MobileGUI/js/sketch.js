@@ -179,12 +179,6 @@ locationUpdateFail = function locationUpdateFail(error) {
   return logg.push(error);
 };
 
-navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
-  enableHighAccuracy: true,
-  maximumAge: 30000,
-  timeout: 27000
-});
-
 //#########################
 draw = function draw() {
   var dt;
@@ -194,22 +188,12 @@ draw = function draw() {
   texts[5] = precisionRound((millis() - start) / 1000, 0)
   // sekunder sedan start
   + " s";
-  // if window.orientation in [-90,90]  
-  // 	w = width
-  // 	h = height	
-  // 	drawCompassL w,h
-  // 	drawTextsL w,h
-  // else
   w = width;
   h = height;
   drawCompassP(w, h);
   return drawTextsP(w, h);
 };
 
-// doOnOrientationChange = ->
-// window.addEventListener('orientationchange', doOnOrientationChange);
-// Initial execution if needed
-// doOnOrientationChange();
 setup = function setup() {
   var c, key, parameters;
   WHITE = color(255, 255, 255);
@@ -234,6 +218,11 @@ setup = function setup() {
   h = height;
   c.parent('myContainer');
   hideCanvas();
+  navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
+    enableHighAccuracy: true,
+    maximumAge: 30000,
+    timeout: 27000
+  });
   setupCompass();
   pages.List = new Page(function () {
     var _this = this;

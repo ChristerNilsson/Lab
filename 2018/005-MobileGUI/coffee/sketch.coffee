@@ -99,10 +99,6 @@ locationUpdate = (position) ->
 locationUpdateFail = (error) ->
 	logg.push error
 
-navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
-	enableHighAccuracy: true
-	maximumAge: 30000
-	timeout: 27000
 
 ##########################
 
@@ -111,21 +107,10 @@ draw = ->
 	dt = Math.round (millis() - lastObservation)/1000
 	texts[8] = if dt>=2 then "#{dt} s" else ""
 	texts[5] = "#{precisionRound (millis()-start)/1000,0} s" # sekunder sedan start
-	# if window.orientation in [-90,90]  
-	# 	w = width
-	# 	h = height	
-	# 	drawCompassL w,h
-	# 	drawTextsL w,h
-	# else
 	w = width
 	h = height	
 	drawCompassP w,h
 	drawTextsP w,h
-
-# doOnOrientationChange = ->
-# window.addEventListener('orientationchange', doOnOrientationChange);
-# Initial execution if needed
-# doOnOrientationChange();
 
 setup = ->
 
@@ -154,6 +139,10 @@ setup = ->
 	c.parent 'myContainer'	
 	hideCanvas()
 
+	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
+		enableHighAccuracy: true
+		maximumAge: 30000
+		timeout: 27000
 	setupCompass()
 
 	pages.List = new Page ->
