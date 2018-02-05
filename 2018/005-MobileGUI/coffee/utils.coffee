@@ -12,10 +12,10 @@ addCell = (tr,value) ->
 #   90 = green 
 #  180 = black
 calcColor = (delta) -> # -180 <= delta <= 180
-	if      -180 <= delta <  -90 then res = lerpColor BLACK, RED,  (delta+180)/90
-	else if  -90 <= delta <    0 then res = lerpColor RED,   WHITE,(delta+90)/90
-	else if    0 <= delta <   90 then res = lerpColor WHITE, GREEN,(delta+0)/90
-	else if   90 <= delta <= 180 then res = lerpColor GREEN, BLACK,(delta-90)/90
+	if      -180 <= delta <  -90 then res = lerpColor BLACK, GREEN,  (delta+180)/90
+	else if  -90 <= delta <    0 then res = lerpColor GREEN,   WHITE,(delta+90)/90
+	else if    0 <= delta <   90 then res = lerpColor WHITE, RED,(delta+0)/90
+	else if   90 <= delta <= 180 then res = lerpColor RED, BLACK,(delta-90)/90
 	else res = color 255,255,0,255 # yellow, error 
 	res.levels
 tests.calcColor = ->

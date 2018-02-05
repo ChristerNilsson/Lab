@@ -22,13 +22,13 @@ calcColor = function calcColor(delta) {
   // -180 <= delta <= 180
   var res;
   if (-180 <= delta && delta < -90) {
-    res = lerpColor(BLACK, RED, (delta + 180) / 90);
+    res = lerpColor(BLACK, GREEN, (delta + 180) / 90);
   } else if (-90 <= delta && delta < 0) {
-    res = lerpColor(RED, WHITE, (delta + 90) / 90);
+    res = lerpColor(GREEN, WHITE, (delta + 90) / 90);
   } else if (0 <= delta && delta < 90) {
-    res = lerpColor(WHITE, GREEN, (delta + 0) / 90);
+    res = lerpColor(WHITE, RED, (delta + 0) / 90);
   } else if (90 <= delta && delta <= 180) {
-    res = lerpColor(GREEN, BLACK, (delta - 90) / 90);
+    res = lerpColor(RED, BLACK, (delta - 90) / 90);
   } else {
     res = color(255, 255, 0, 255); // yellow, error 
   }
