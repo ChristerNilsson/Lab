@@ -9,7 +9,7 @@ setup = function setup() {
   createCanvas(windowWidth, windowHeight);
   window.addEventListener("deviceorientation", function (event) {
     if (event.alpha) {
-      return bearing = event.alpha;
+      return bearing = Math.round(event.alpha);
     }
   });
   textSize(100);

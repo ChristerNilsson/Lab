@@ -6,8 +6,8 @@
     "coffee\\sketch.coffee"
   ],
   "names": [],
-  "mappings": ";;;AAAA,IAAA,SAAA,MAAA;;AAAA,UAAU;;AAEV,QAAQ;AACP,eAAa,AAAb,aAAyB,AAAzB;AACA,AAAM,SAAC,AAAP,iBAAwB,AAAxB,qBAA6C,UAAC,AAAD;AAC5C,QAAG,AAAK,MAAC,AAAT;aAAoB,UAAU,AAAK,MAAC,AAApC;AAD4C;AAA7C;AAEA,WAAS,AAAT;SACA,UAAU,AAAV,QAAiB,AAAjB,AALO;;;AAOR,OAAO;AACN,KAAG,AAAH;SACA,KAAK,AAAL,SAAa,QAAM,AAAnB,GAAqB,SAAO,AAA5B,AAFM",
+  "mappings": ";;;AAAA,IAAA,SAAA,MAAA;;AAAA,UAAU;;AAEV,QAAQ;AACP,eAAa,AAAb,aAAyB,AAAzB;AACA,AAAM,SAAC,AAAP,iBAAwB,AAAxB,qBAA6C,UAAC,AAAD;AAC5C,QAAG,AAAK,MAAC,AAAT;aAAoB,UAAU,AAAI,KAAC,AAAL,MAAW,AAAK,MAAC,AAAjB,AAA9B;AAD4C;AAA7C;AAEA,WAAS,AAAT;SACA,UAAU,AAAV,QAAiB,AAAjB,AALO;;;AAOR,OAAO;AACN,KAAG,AAAH;SACA,KAAK,AAAL,SAAc,QAAM,AAApB,GAAuB,SAAO,AAA9B,AAFM",
   "sourcesContent": [
-    "bearing = 0\r\n\r\nsetup = ->\r\n\tcreateCanvas windowWidth,windowHeight\r\n\twindow.addEventListener \"deviceorientation\", (event) -> \r\n\t\tif event.alpha then\tbearing = event.alpha\r\n\ttextSize 100\r\n\ttextAlign CENTER,CENTER\r\n\r\ndraw = ->\r\n\tbg 1\r\n\ttext bearing,width/2,height/2\r\n"
+    "bearing = 0\r\n\r\nsetup = ->\r\n\tcreateCanvas windowWidth,windowHeight\r\n\twindow.addEventListener \"deviceorientation\", (event) -> \r\n\t\tif event.alpha then\tbearing = Math.round event.alpha\r\n\ttextSize 100\r\n\ttextAlign CENTER,CENTER\r\n\r\ndraw = ->\r\n\tbg 1\r\n\ttext bearing, width/2, height/2\r\n"
   ]
 }
