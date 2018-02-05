@@ -140,16 +140,8 @@ showCanvas = function showCanvas() {
 //###############################
 setupCompass = function setupCompass() {
   return window.addEventListener("deviceorientation", function (event) {
-    if (typeof event.webkitCompassHeading !== "undefined") {
-      bearing = 90 - event.webkitCompassHeading; // iOS 
-      return texts[3] = 'ios ' + precisionRound(bearing, 0);
-    } else {
-      bearing = 360 - event.alpha; // android:  
-      if (bearing < 0) {
-        bearing += 360;
-      }
-      return texts[3] = 'andrc ' + precisionRound(bearing, 0);
-    }
+    bearing = 360 - event.alpha;
+    return texts[3] = 'andre ' + precisionRound(bearing, 0);
   });
 };
 
