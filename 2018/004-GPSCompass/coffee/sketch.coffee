@@ -1,15 +1,5 @@
 bearing = 0
-p1 = null
-
-locationUpdate = (position) ->
-	p1 = 
-		lat : position.coords.latitude
-		lng : position.coords.longitude
-		timestamp : position.timestamp # milliseconds since 1970
-		heading : position.coords.heading
-		speed : position.coords.speed 
-
-locationUpdateFail = (error) ->
+heading = 0
 
 setup = ->
 	createCanvas windowWidth,windowHeight
@@ -18,16 +8,34 @@ setup = ->
 	textSize 100
 	textAlign CENTER,CENTER
 
-	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
-		enableHighAccuracy: true
-		maximumAge: 30000
-		timeout: 27000
+	# Obtain a new *world-oriented* Full Tilt JS DeviceOrientation Promise
+	promise = FULLTILT.getDeviceOrientation { 'type': 'world' }
+
+	# Wait for Promise result
+	promise.then( (deviceOrientation) -> # Device Orientation Events are supported
+
+		# Register a callback to run every time a new 
+		# deviceorientation event is fired by the browser.
+		deviceOrientation.listen ->
+
+			# Get the current *screen-adjusted* device orientation angles
+			currentOrientation = deviceOrientation.getScreenAdjustedEuler()
+
+			# Calculate the current compass heading that the user is 'looking at' (in degrees)
+			compassHeading = 360 - currentOrientation.alpha
+
+			# Do something with `compassHeading` here...
+			heading = compassHeading
+
+	).catch (errorMessage) ->  # Device Orientation Events are not supported
+
+		console.log errorMessage
+
+		# Implement some fallback controls here...	
 
 draw = ->
 	bg 1
-	if p1
-		if p1.heading then text p1.heading, width*0.5, height*0.1
-		if p1.speed then text p1.speed, width*0.5, height*0.2
+	text heading, width*0.5, height*0.2
 	text bearing, width*0.5, height*0.50
 	if window.orientation
 		text window.orientation, width*0.5, height*0.75
