@@ -5,12 +5,26 @@
 * [Free Climbing](https://www.youtube.com/watch?v=Fiu0LeLUjUU)
 * [Wikipedia](https://sv.wikipedia.org/wiki/NK-klockan)
 
+## Byggdelar
 
-* setup draw
-* createCanvas normalMaterial bg
-* box cylinder torus
-* for range if
-* translate rotateX rotateY rotateZ
-* push pop
+* setup
+* draw
+* createCanvas
+* normalMaterial
+* bg
+* box 
+* cylinder
+* torus
+* if
+* for
+* range
+* translate 
+* rotateX
+* rotateY
+* rotateZ
+* push
+* pop
 * map
-* hour() minute() second()
+* hour()
+* minute()
+* second()
