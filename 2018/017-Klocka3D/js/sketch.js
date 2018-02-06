@@ -33,7 +33,7 @@ urtavla = function urtavla() {
 
 visare = function visare(tid, antal, motvikt, längd, bredd, z) {
   return pushPop(function () {
-    rotateZ(radians(map(tid, 0, antal, 0, 360)));
+    rotateZ(radians(map(tid, 0, antal, 180, 540)));
     translate(0, 0.5 * längd - motvikt, z);
     return box(bredd, längd + motvikt, 4);
   });
@@ -43,9 +43,8 @@ draw = function draw() {
   normalMaterial();
   bg(0);
   rotateY(radians(rotation));
-  rotation -= 0.5;
+  rotation -= 0.5; // 360/(60*12)
   urtavla();
-  rotateX(radians(180));
   visare(second(), 60, 40, 240, 15, 6);
   visare(minute(), 60, 40, 220, 30, 0);
   return visare(hour() + minute() / 60.0, 12, 30, 160, 30, -6);
