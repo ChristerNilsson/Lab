@@ -118,3 +118,5 @@ addCell = (tr,a,b=null) ->
 getField = (name) ->
 	element = document.getElementById name
 	if element then element.value else null
+
+transpile = (code) ->	CoffeeScript.compile code, {bare: true}
