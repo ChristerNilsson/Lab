@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "transpile.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\transpile.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA;;AAAA,YAAY,mBAAA,AAAC;sBAAS,AAAa,QAAb,AAAqB;AAAO,UAAtC,AAAU,AAA2B,AAAO;AAAP,GAA3B,AAAY",
+  "sourcesContent": [
+    "transpile = (code) ->\tCoffeeScript.compile code, {bare: true}\r\n"
+  ]
+}
