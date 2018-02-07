@@ -30,14 +30,15 @@ setup = ->
 		@table.innerHTML = "" 
 
 		enter = makeTextArea()
-		enter.style.left = '0px'
+		enter.style.left = '51%'
 
 		enter.focus()
 		enter.value = memory
 
 		answer = makeTextArea() 
-		answer.style.left = '50%'
+		answer.style.left = '0px'
 		answer.setAttribute "readonly", true
+		answer.style.textAlign = 'right'
 		answer.value = makeAnswer()
 
 		enter.onscroll = (e) ->
@@ -48,9 +49,10 @@ setup = ->
 		@addRow enter,answer
 
 		enter.addEventListener "keyup", (event) ->
-			memory = enter.value
-			answer.value = makeAnswer()
-			storeData memory
+			if event.keyCode not in [33..40]
+				memory = enter.value
+				answer.value = makeAnswer()
+				storeData memory
 
 	page.addAction 'Hide', -> 
 		page.display()
