@@ -99,7 +99,7 @@ person = {fnamn:'David', enamn:'Larsson'}
 'David' == person['fnamn']
 'Larsson' == person.enamn
 
-# functions
+# functions (enbart one liners tillåtna!)
 kvadrat = (x) -> x*x
 25 == kvadrat 5
 
