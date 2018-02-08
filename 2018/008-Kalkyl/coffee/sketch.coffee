@@ -3,23 +3,41 @@ KEY = '008B'
 memory = null
 page = null
 
+assert = (a, b) ->
+	try
+		chai.assert.deepEqual a, b
+		''
+	catch
+		'*** ASSERT FAILED ***'
+
 makeAnswer = ->
+	answers = []
 	res = ''
 	cs = ''
+	js = ''
 	for line in memory.split "\n"
-		cs += line + "\n"
-		js = transpile cs
-		message = ''
-		value = undefined 
-		try
-			value = eval js
-		catch e 
-			message = 'ERROR: ' + e.message
-		if message=='' and value != undefined and not _.isFunction(value)
-			if line!='' and line[0]!='#' then res += JSON.stringify value
-		else 
-			res += message
-		res += "\n"
+		cs = line.trim() 
+		if cs=='' or cs[0]=='#'
+			js += transpile 'answers.push ""' + "\n"
+		else
+			try
+				js += transpile 'answers.push ' + cs + "\n"
+			catch e
+				js += transpile "answers.push 'ERROR: " + e.message + "'\n"
+			
+	try
+		eval js
+	catch e 
+		return 'ERROR: ' + e.message
+
+	res = ""
+	for answer in answers
+		if 'function' == typeof answer
+			res += 'function defined' + "\n" 
+		else if 'object' == typeof answer
+			res += JSON.stringify(answer) + "\n" 
+		else
+			res += answer + "\n"
 	res
 
 setup = ->
@@ -54,6 +72,9 @@ setup = ->
 		@addRow enter,answer
 
 		enter.addEventListener "keyup", (event) ->
+			answer.scrollTop = enter.scrollTop
+			answer.scrollLeft = enter.scrollLeft
+			
 			if event.keyCode not in [33..40]
 				memory = enter.value
 				answer.value = makeAnswer()
