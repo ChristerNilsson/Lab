@@ -50,12 +50,16 @@ setup = function setup() {
     this.table.innerHTML = "";
     enter = makeTextArea();
     enter.style.left = '51%';
+    enter.style.width = '48%';
+    //enter.style.overflow = 'hidden'
     enter.focus();
     enter.value = memory;
     answer = makeTextArea();
     answer.style.left = '0px';
     answer.setAttribute("readonly", true);
     answer.style.textAlign = 'right';
+    answer.style.overflow = 'hidden';
+    answer.wrap = 'off';
     answer.value = makeAnswer();
     enter.onscroll = function (e) {
       answer.scrollTop = enter.scrollTop;
