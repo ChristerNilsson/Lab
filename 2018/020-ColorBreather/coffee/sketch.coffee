@@ -1,11 +1,12 @@
 current = null
-colors = [null,null]
+index = 0
 COLORS = {}
+keys = null
 
 changeCorners = ->
 	current = 0 
-	colors.push _.sample _.keys COLORS
-	colors.shift()
+	index++
+	index %= 8
 
 setup = ->
 	COLORS.black = color 0,0,0
@@ -16,6 +17,7 @@ setup = ->
 	COLORS.magenta = color 255,0,255
 	COLORS.yellow = color 255,255,0
 	COLORS.white = color 255,255,255
+	keys = _.shuffle _.keys COLORS
 	createCanvas windowWidth, windowHeight
 	changeCorners()
 	changeCorners()
@@ -23,11 +25,13 @@ setup = ->
 	textAlign CENTER,CENTER
 
 draw = ->
-	background lerpColor COLORS[colors[0]], COLORS[colors[1]], current
+	key1 = keys[index]
+	key2 = keys[(index+1) % 8]
+	background lerpColor COLORS[key1], COLORS[key2], current
 	if current > 1 then	changeCorners() else current += 0.001
 	fc 0
-	text colors[0],width/2,0.3*height
+	text key1,width/2,0.3*height
 	translate width/2,0.7*height
 	rd 180
 	fc 1
-	text colors[0],0,0
+	text key1,0,0
