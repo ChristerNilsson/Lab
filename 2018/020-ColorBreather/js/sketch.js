@@ -25,7 +25,6 @@ setup = function setup() {
   COLORS.white = color(255, 255, 255);
   keys = _.shuffle(_.keys(COLORS));
   createCanvas(windowWidth, windowHeight);
-  textSize(0.4 * height);
   return textAlign(CENTER, CENTER);
 };
 
@@ -39,9 +38,13 @@ draw = function draw() {
   } else {
     current += 0.001;
   }
+  textSize(0.2 * height);
+  fc(0.5);
+  text(round(100 * current) + "%", 0.5 * width, 0.5 * height);
+  textSize(0.4 * height);
   fc(0);
-  text(key1, 0.5 * width, 0.3 * height);
-  translate(0.5 * width, 0.7 * height);
+  text(key1, 0.5 * width, 0.2 * height);
+  translate(0.5 * width, 0.8 * height);
   rd(180);
   fc(1);
   return text(key1, 0, 0);
