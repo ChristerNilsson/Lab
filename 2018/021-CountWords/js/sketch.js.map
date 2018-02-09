@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,MAAA,IAAA;;AAAA,KAAK,AAAuD,wDAAC,AAAxD,MAA8D,AAA9D;;AACL,KAAK,AAAwC,yCAAC,AAAzC,MAA+C,AAA/C;;AAEL,OAAO,cAAC,AAAD,OACN;MAAA,OAAA,GAAA,KAAA,GAAA,KAAA;AAAA,MAAI;AACJ,OAAA,oCAAA;;AACC,QAAG,QAAQ,AAAX;AAAkB,AAAE,QAAA,AAAF,AAAlB;AAAA,WAAA;AAAiC,AAAE,QAAA,AAAF,QAAQ,AAAzC;AADD;;AAEA,QAAM;AACN,OAAA,QAAA;;AACC,QAAG,UAAO,AAAV;AAAiB,AAAjB;AADD;;SAEA,AAPM;;;AASP,OAAO,AAAP,GAAU,KAAK,AAAL,AAAV;;AACA,OAAO,AAAP,GAAU,KAAK,AAAL,AAAV",
+  "sourcesContent": [
+    "s1 = 'hate love peace love peace hate love peace love peace'.split ' '\r\ns2 = 'Om Om Shankar Tripathi Tom Jerry Jerry'.split ' '\r\n\r\ncalc = (words) ->\r\n\tm = {}\r\n\tfor word in words\r\n\t\tif word of m then m[word]++ else m[word]=1\r\n\tres = 0\r\n\tfor word,count of m\r\n\t\tif count==2 then res++\r\n\tres\r\n\r\nassert 1, calc s1\r\nassert 2, calc s2\r\n"
+  ]
+}
