@@ -131,6 +131,13 @@ person = {fnamn:'David', enamn:'Larsson'}
 kvadrat = (x) -> x*x
 25 == kvadrat 5
 
+# feluppskattning vid användande av bäring och avstånd
+area = (b1,b2,r1,r2) -> (r2*r2 - r1*r1) * Math.PI * (b2-b1)/360  
+17.671458676442587 == area 90,91,200,205
+35.12475119638588  == area 90,91,400,405
+69.81317007977317  == area 90,92,195,205
+139.62634015954634 == area 90,92,395,405
+
 serial = (a,b) -> a+b
 2 == serial 1,1
 5 == serial 2,3
