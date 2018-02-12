@@ -30,8 +30,8 @@ class Page
 		addCell tr,b
 		@table.appendChild tr
 
-storeData = (data) -> localStorage["007"] = JSON.stringify data
-fetchData = -> JSON.parse if localStorage["007"] then localStorage["007"] else '[]'
+storeData = (key,data) -> localStorage[key] = JSON.stringify data
+fetchData = (key) -> JSON.parse if localStorage[key] then localStorage["007"] else '[]'
 
 isNumeric = (val) -> val == Number parseFloat val
 getElem = (id) -> document.getElementById id

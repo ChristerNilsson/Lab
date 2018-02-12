@@ -1,9 +1,10 @@
+KEY = "007"
 stack = []
 page = null
 enter = null
 
 goto = (p) -> 
-	storeData stack
+	storeData KEY,stack
 	p.display()
 
 op0 = (f) ->
@@ -21,7 +22,7 @@ op2 = (f) ->
 	goto page
 
 setup = ->
-	stack = fetchData()
+	stack = fetchData KEY
 
 	page = new Page 10, ->
 		for item in stack

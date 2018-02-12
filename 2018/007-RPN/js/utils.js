@@ -72,12 +72,12 @@ Page = function () {
   return Page;
 }();
 
-storeData = function storeData(data) {
-  return localStorage["007"] = JSON.stringify(data);
+storeData = function storeData(key, data) {
+  return localStorage[key] = JSON.stringify(data);
 };
 
-fetchData = function fetchData() {
-  return JSON.parse(localStorage["007"] ? localStorage["007"] : '[]');
+fetchData = function fetchData(key) {
+  return JSON.parse(localStorage[key] ? localStorage["007"] : '[]');
 };
 
 isNumeric = function isNumeric(val) {
