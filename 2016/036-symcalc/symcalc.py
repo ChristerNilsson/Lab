@@ -134,7 +134,7 @@ class RPN:
             obj = self.defs[key]
             klassnamn = obj.__class__.__name__
             if klassnamn=='Point2D':
-                print key + " = punkt("+"'"+key+"',"+str(N(obj.x,6))+","+str(N(obj.y,6))+")"
+                print(key + " = punkt("+"'"+key+"',"+str(N(obj.x,6))+","+str(N(obj.y,6))+")")
                 self.lookup[obj] = key
 
         # därefter hanteras övriga objekt
@@ -142,24 +142,24 @@ class RPN:
             obj = self.defs[key]
             klassnamn = obj.__class__.__name__
             if klassnamn=='Line':
-                print 'linje("' + key +'",'+ self.findpoint(obj.p1) + "," + self.findpoint(obj.p2) + ')'
+                print('linje("' + key +'",'+ self.findpoint(obj.p1) + "," + self.findpoint(obj.p2) + ')')
             elif klassnamn=='Circle':
-                print 'cirkel(' + self.findpoint(obj.center) + ',' + str(N(obj.radius,6))+')'
+                print('cirkel(' + self.findpoint(obj.center) + ',' + str(N(obj.radius,6))+')')
             elif klassnamn=='Triangle':
                 a,b,c = obj.vertices
-                print 'triangel(' + self.findpoint(a) + ',' + self.findpoint(b) + ',' + self.findpoint(c) + ')'
+                print('triangel(' + self.findpoint(a) + ',' + self.findpoint(b) + ',' + self.findpoint(c) + ')')
 
     def help(self):
         for index,op in enumerate([self.op0, self.op1, self.op2, self.op3, self.op4]):
-            print index, " ".join(sorted(op.keys()))
+            print(index, " ".join(sorted(op.keys())))
 
     def history(self):
         for commands,stack in self.hist:
-            print commands,":",stack
+            print(commands,":",stack)
 
     def defs(self):
         for key in sorted(self.defs):
-            print key,'=',self.pretty(self.defs[key])
+            print(key,'=',self.pretty(self.defs[key]))
 
     def rpn(self,s):
         start = time.time()
@@ -198,7 +198,7 @@ class RPN:
             elif command == 'swp': self.stack[-1],self.stack[-2] = self.stack[-2],self.stack[-1]
 
             elif command == 'defs':
-                for key in sorted(self.defs): print key,'=',self.pretty(self.defs[key])
+                for key in sorted(self.defs): print(key,'=',self.pretty(self.defs[key]))
             elif command[-1] == '=':
                 self.lastx = str(self.stack[-1])
                 self.defs[command.replace('=','')] = self.stack.pop()
@@ -206,7 +206,7 @@ class RPN:
                 self.stack.append(self.defs[command])
             else:
                 if S(command).__class__ == Symbol:
-                    print command + " not recognized!"
+                    print(command + " not recognized!")
                 else:
                     self.stack.append(S(command))
         if self.lastx == '':
@@ -248,8 +248,8 @@ class RPN:
         while True:
             if self.stack == []: prompt = self.lastx
             else: prompt = " ".join([self.pretty(item) for item in self.stack])
-            print prompt
-            self.rpn(raw_input(": "))
+            print(prompt)
+            self.rpn(input(": "))
 
 if __name__ == "__main__":
     calc = RPN()

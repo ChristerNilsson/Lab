@@ -95,7 +95,7 @@ sketch             Skapar javascriptkod för att visa geometri
 
 Observera att blanktecken är signifikanta.
 T ex kan x+1 matas in på två sätt:
-  x+1    Algebraiska notation
+  x+1    Algebraisk notation
   x 1 +  RPN = Reverse Polish Notation
 Båda resulterar i uttrycket x+1.
 

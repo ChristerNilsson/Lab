@@ -5,11 +5,11 @@ from SnapGeometry import Calculator
 calc = Calculator()
 
 def ass(a,b):
-    res = calc.calc(a)
+    res = calc.do(a)
     if res != b:
-        print res
-        print a
-        print b
+        print(res)
+        print(a)
+        print(b)
         assert res == b
 
 def ex1(): # Cirkelproblemet från Mickes Mathjam
@@ -43,7 +43,7 @@ def ex1(): # Cirkelproblemet från Mickes Mathjam
     # (-5*sqrt(4*sqrt(3) + 7) - 3 + sqrt(3) + 3*sqrt(3)*sqrt(4*sqrt(3) + 7))
 
     calc.dumpToFile()
-#ex1()
+ex1()
 
 def ex2(): # Två trianglar med sex skärningspunkter
     calc.reset()

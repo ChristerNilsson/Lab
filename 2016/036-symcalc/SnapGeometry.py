@@ -17,8 +17,8 @@ EXACT = True
 
 def ass(a,b):
     if a!=b:
-        print a
-        print b
+        print(a)
+        print(b)
         assert a==b
     return a==b
 
@@ -42,7 +42,7 @@ def vinkel2(p0,p1,p2): # Komplementvinkel
     l0 = Line(p1,p0)
     l1 = Line(p1,p2)
     a = Line.angle_between(l0,l1)
-    print "  " + str(180*(pi-a)/pi) + " grader"
+    print("  " + str(180*(pi-a)/pi) + " grader")
     return pi-a
 
 def pyth(a,b,h): # tre sidor givna
@@ -126,48 +126,48 @@ class Calculator:
         self.dumpGeometry()
 
     def help(self):
-        print "Exempel:"
-        print "O        => Origo"
-        print "X        => x-axeln"
-        print "Y        => y-axeln"
-        print "1 1      => Punkten p0"
-        print "p0 p1    => Linjen l0"
-        print "p0.distance(p1) => Distans"
-        print "p0 l0    => Vinkelrät linje l1"
-        print "p0 1     => Cirkel c0"
-        print "p0 p1 p2 => Triangel t0"
-        print "3 4 5    => Triangel t1"
-        print "c0 p0    => Tangentlinjer l2 och l3"
-        print "l0 l1    => Skärningspunkter 0,1 eller Linje"
-        print "l0 c0    => Skärningspunkter 0,1 eller 2"
-        print "l0 t0    => Skärningspunkter 0,1 eller 2"
-        print "c0 c1    => Skärningspunkter 0,1,2 eller Cirkel. En eller två bandpunkter kan tillkomma"
-        print "c0 t0    => Skärningspunkter 0,1,2,3,4,5 eller 6"
-        print "t0 t1    => Skärningspunkter 0,1,2,3,4,5,6 eller Triangel"
-        print "t0.centroid     => Centrum"
-        print "t0.vertices     => Hörn"
-        print "t0.angles       => Vinklar"
-        print "t0.sides        => Sidor"
-        print "t0.incircle     => Inskriven cirkel"
-        print "t0.circumcircle => Omskriven cirkel"
-        print "t0.area         => Area"
-        print "c0.center => Centrum"
-        print "c0.radius => Radie"
-        print "c0.area   => Area"
-        print
-        print "pyth(x,4,5) => 3"
-        print "pyth(3,x,5) => 4"
-        print "pyth(3,4,x) => 5"
-        print "vinkel(p0,p1,p2) => vinkel mellan p0 och p2 i radianer"
-        print "grader(v) => konverterar radianer till grader"
-        print "bandpunkter(c0,c1) => Två punkter i samband med cirklar och remband"
-        print
-        print "0        => Exakt visning, t ex sqrt(2)"
-        print "1-99     => Numerisk visning med angivet antal värdesiffror, t ex 1.41"
-        print "undo     => Ångra senaste kommandot"
-        print "clear    => Rensa allt"
-        print "Starta index.html med P5 för att se grafik."
-        print "För mer information, se http://docs.sympy.org"
+        print("Exempel:")
+        print( "O        => Origo")
+        print( "X        => x-axeln")
+        print( "Y        => y-axeln")
+        print( "1 1      => Punkten p0")
+        print( "p0 p1    => Linjen l0")
+        print( "p0.distance(p1) => Distans")
+        print( "p0 l0    => Vinkelrät linje l1")
+        print( "p0 1     => Cirkel c0")
+        print( "p0 p1 p2 => Triangel t0")
+        print( "3 4 5    => Triangel t1")
+        print( "c0 p0    => Tangentlinjer l2 och l3")
+        print( "l0 l1    => Skärningspunkter 0,1 eller Linje")
+        print( "l0 c0    => Skärningspunkter 0,1 eller 2")
+        print( "l0 t0    => Skärningspunkter 0,1 eller 2")
+        print( "c0 c1    => Skärningspunkter 0,1,2 eller Cirkel. En eller två bandpunkter kan tillkomma")
+        print( "c0 t0    => Skärningspunkter 0,1,2,3,4,5 eller 6")
+        print( "t0 t1    => Skärningspunkter 0,1,2,3,4,5,6 eller Triangel")
+        print( "t0.centroid     => Centrum")
+        print( "t0.vertices     => Hörn")
+        print( "t0.angles       => Vinklar")
+        print( "t0.sides        => Sidor")
+        print( "t0.incircle     => Inskriven cirkel")
+        print( "t0.circumcircle => Omskriven cirkel")
+        print( "t0.area         => Area")
+        print( "c0.center => Centrum")
+        print( "c0.radius => Radie")
+        print( "c0.area   => Area")
+        print()
+        print( "pyth(x,4,5) => 3")
+        print( "pyth(3,x,5) => 4")
+        print( "pyth(3,4,x) => 5")
+        print( "vinkel(p0,p1,p2) => vinkel mellan p0 och p2 i radianer")
+        print( "grader(v) => konverterar radianer till grader")
+        print( "bandpunkter(c0,c1) => Två punkter i samband med cirklar och remband")
+        print()
+        print( "0        => Exakt visning, t ex sqrt(2)")
+        print( "1-99     => Numerisk visning med angivet antal värdesiffror, t ex 1.41")
+        print( "undo     => Ångra senaste kommandot")
+        print( "clear    => Rensa allt")
+        print( "Starta index.html med P5 för att se grafik.")
+        print( "För mer information, se http://docs.sympy.org")
 
     def pp(self,x):
         return str(x) if self.decs == 0 else str(N(x,self.decs))
@@ -194,9 +194,9 @@ class Calculator:
 
     def dump(self):
         for cmd,names in self.history:
-            print "  #",cmd
+            print("  #",cmd)
             for name in names:
-                print "  ",name,'=', self.dumpObject(self.locals[name])
+                print("  ",name,'=', self.dumpObject(self.locals[name]))
 
     def dumpGeometry(self):
         res = []
@@ -231,6 +231,7 @@ class Calculator:
         elif s == "Point2D": return "p"
         elif s == "Circle": return "c"
         elif s == "Line": return "l"
+        elif s == "Line2D": return "l"
         elif s == "Segment": return "s"
         elif s == "dict": return "d"
         elif s == "acos": return "a"
@@ -355,16 +356,15 @@ class Calculator:
                 self.locals[name] = self.exact(obj)
                 result.append(name)
             else:
-                print '  ' + name
+                print('  ' + name)
 
         s = "  " + "\n  ".join([name + " = " + self.dumpObject(self.locals[name]) for name in result])
-        print s
+        print(s)
         self.history.append([commands,res_names])
         #calc.ready()
         #return s
 
     def do(self,commands):
-        # print commands
         arr = commands.split()
         if commands == '':
             self.dump()
@@ -375,14 +375,14 @@ class Calculator:
             self.dump()
         elif commands == 'undo':
             if len(self.history) <= 1:
-                print "  undo not possible."
+                print("  undo not possible.")
             else:
                 command,lst = self.history.pop()
                 for name in lst:
                     obj = self.locals[name]
                     t = self.getSignature(obj)
                     self.counters[t] -= 1
-                print "  " + command + " undone."
+                print("  " + command + " undone.")
         elif commands == 'clear':
             self.reset()
         elif arr[0] == 'drop':
@@ -395,34 +395,34 @@ class Calculator:
         #return ''
 
     def run(self):
-        print "Mata in ett ? eller ett kommando:"
+        print("Mata in ett ? eller ett kommando:")
         while True:
-            commands = raw_input()
+            commands = input()
             try:
                 self.do(commands)
             except Exception as e:
-                print "  Error: " + e.message
+                print("  Error: " + e.message)
 
     def ready(self):
-        print "  " + str(round(time.time()-self.start,3)) + "s"
+        print("  " + str(round(time.time()-self.start,3)) + "s")
 
     def batch(self,lines):
         lines = lines.split('\n')
         for line in lines:
             if line.strip()=='': continue
-            print line
+            print(line)
             commands = line.split('#')
             commands = commands[0].strip()
             if commands!='':
                 self.do(commands)
-            raw_input()
+            input()
         #self.ready()
 
 def solve_problem():
     start = time.time()
     # stoppa in pythonkod här.
     dumpGeo(locals())
-    print time.time()-start
+    print(time.time()-start)
 
 if __name__ == "__main__":
     calc = Calculator()
