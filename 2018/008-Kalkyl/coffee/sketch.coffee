@@ -2,6 +2,7 @@ KEY = '008B'
 
 memory = null
 page = null
+digits = 3
 
 assert = (a, b) ->
 	try
@@ -36,6 +37,8 @@ makeAnswer = ->
 			res += 'function defined' + "\n" 
 		else if 'object' == typeof answer
 			res += JSON.stringify(answer) + "\n" 
+		else if 'number' == typeof answer
+			res += answer + "\n"
 		else
 			res += answer + "\n"
 	res
@@ -80,8 +83,13 @@ setup = ->
 				answer.value = makeAnswer()
 				storeData memory
 
-	page.addAction 'Hide', -> 
-		page.display()
+	# page.addAction 'More', -> 
+	# 	digits++
+	# 	storeAndGoto memory,page
+
+	# page.addAction 'Less', -> 
+	# 	if digits>1 then digits--
+	# 	storeAndGoto memory,page
 
 	page.addAction 'Clear', -> 
 		memory = ""
@@ -161,5 +169,8 @@ fib = (x) -> if x<=0 then 1 else fib(x-1) + fib(x-2)
 		storeAndGoto memory,page
 
 	page.addAction 'Reference', -> window.open "https://www.w3schools.com/jsref/default.asp"
+
+	page.addAction 'Hide', -> 
+		page.display()
 
 	page.display()
