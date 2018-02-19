@@ -1,6 +1,9 @@
 rotation = 0 # grader. Ett varv på 12 sekunder.
+r = null
 
-setup = -> createCanvas 600,600,WEBGL
+setup = -> 
+	createCanvas windowWidth,windowHeight,WEBGL
+	r = 0.01 * 0.5 * min width,height
 
 pushPop = (f) ->
 	push()
@@ -8,11 +11,11 @@ pushPop = (f) ->
 	pop()
 
 urtavla = ->
-	torus 250,12,48,32
+	torus 70*r, 3*r,48,32
 	for i in range 12
 		pushPop ->
-			translate 0,240
-			box 20,30,20 
+			translate 0,64*r
+			box 6*r,9*r,6*r 
 		rotateZ radians 30
 
 visare = (tid,antal,motvikt,längd,bredd,z) ->
@@ -27,6 +30,6 @@ draw = ->
 	rotateY radians rotation
 	rotation -= 0.5 # 360/(60*12)
 	urtavla()
-	visare second(),             60, 40, 240, 15, 6
-	visare minute(),             60, 40, 220, 30, 0
-	visare hour()+minute()/60.0, 12, 30, 160, 30,-6
+	visare second(),             60, 8*r, 60*r, 3*r, r
+	visare minute(),             60, 8*r, 60*r, 6*r, 0
+	visare hour()+minute()/60.0, 12, 6*r, 48*r, 6*r,-r
