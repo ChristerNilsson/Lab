@@ -271,7 +271,7 @@ app = new Moire "a"
 """
 	c:
 		app : "reset()"
-	d: 'reset()|mousePressed(50,50)|mousePressed(150,150)'
+	d: 'reset()|mousePressed 50,50|mousePressed 150,150'
 	e:
 		Wikipedia : "https://en.wikipedia.org/wiki/Moir%C3%A9_pattern"
 
