@@ -12,6 +12,7 @@ ID_2048 = {
   c: {
     app: "reset()|right()|left()|up()|down()"
   },
+  d: "reset()|up()|left()|up()|up()",
   e: {
     "2048": "https://en.wikipedia.org/wiki/2048_(video_game)"
   }
@@ -26,6 +27,7 @@ ID_Tetramino = {
   c: {
     app: "reset()|right()|left()|prev()|next()"
   },
+  d: "reset()|next()|next()|right()|right()|right()|right()",
   e: {
     "Wikipedia": "https://en.wikipedia.org/wiki/Tetris",
     "Meth Meth Method": "https://www.youtube.com/watch?v=H2aW5V46khA"
@@ -41,6 +43,7 @@ ID_Tetris = {
   c: {
     app: "reset()"
   },
+  d: "reset()|mousePressed 180,105|mousePressed 160,130|mousePressed 160,130|mousePressed 180,105|mousePressed 180,105|mousePressed 180,105|mousePressed 160,130|mousePressed 160,130|mousePressed 160,130",
   e: {
     "Wikipedia": "https://en.wikipedia.org/wiki/Tetris",
     "Meth Meth Method": "https://www.youtube.com/watch?v=H2aW5V46khA"
@@ -80,6 +83,7 @@ ID_TowerOfHanoi = {
   c: {
     app: "reset()"
   },
+  d: "reset()|mousePressed 50,100|mousePressed 150,100|mousePressed 100,190|mousePressed 33,100|mousePressed 100,100|mousePressed 33,100|mousePressed 167,100|mousePressed 100,100|mousePressed 167,100",
   e: {
     Wikipedia: "https://en.wikipedia.org/wiki/Tower_of_Hanoi"
   }

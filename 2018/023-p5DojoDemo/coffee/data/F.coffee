@@ -89,6 +89,7 @@ app = new ForthHaiku "a"
 """
 	c:
 		app : "reset()|resolution 10,20|resolution 20,10|resolution 50,4|resolution 100,2|resolution 200,1|nextExample()|prevExample()"
+	d : "reset()|resolution 10,20|nextExample()|nextExample()|nextExample()|nextExample()|nextExample()|nextExample()|nextExample()|nextExample()"
 	e:
 		"ForthHaiku" : "http://forthsalon.appspot.com"
 
@@ -174,11 +175,13 @@ class ForthHaiku3D extends Application
 		@enter()
 	tick : ->
 		@t = @t + 1
-		@enter()
-	enter : ->
+		@enter @q
+	enter : (q='') ->
+		@q = q
 		digit = (bool) -> if bool then 1 else 0
 		@clear()
-		s = @readText().trim()
+		s = q
+		if q=='' then s = @readText().trim()
 		if s=='' then s='k t ' + @N + ' % =='
 		arr = s.split ' '
 		@words = arr.length
@@ -262,6 +265,7 @@ app = new ForthHaiku3D "a"
 """
 	c:
 		app : "reset 2,50,25|reset 10,10,5|reset 17,6,3|enter()|tick()"
+	d : "reset 10,10,5|enter 'i t 10 % =='|tick()|tick()|tick()|tick()|tick()|tick()|tick()|tick()|tick()|tick()"
 	e:
 		ForthHaiku : "http://forthsalon.appspot.com/haiku-editor"
 		Exempel : 'ForthHaiku3D.html'

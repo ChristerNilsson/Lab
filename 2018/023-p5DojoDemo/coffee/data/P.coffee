@@ -99,6 +99,7 @@ app = new Paint "a"
 """
 	c:
 		app : "reset()|undo()"
+	d : "reset()|mousePressed 13,97|mousePressed 20,20|mousePressed 97,13|mousePressed 100,100|undo()|undo()|undo()"
 
 ID_PentaLerp =
 	v:'2017-09-11'
@@ -212,6 +213,7 @@ app = new PickingBerries "a"
 			"""
 	c:
 		app : "reset()|left()|right()|up()|down()|snailSpeed()|slowSpeed()|highSpeed()|warpSpeed()|pick()"
+	d : "reset()|left()|slowSpeed()|right()|highSpeed()|up()|snailSpeed()|down()|warpSpeed()|pick()"
 
 ID_Polygon =
 	v:'2017-09-30'
@@ -265,4 +267,5 @@ app = new Polygon "a"
 """
 	c:
 		app : "reset()|antalSidor -1|antalSidor +1|antalSteg -1|antalSteg +1|"
+	d : "reset()|antalSidor -1|antalSidor +1|antalSteg -1|antalSteg +1|"
 

@@ -237,6 +237,7 @@ app = new MineSweeper "a"
 """
 	c:
 		app : "reset 20,10|reset 20,20|reset 20,30|reset 10,40"
+	d : "reset 20,20|mousePressed 100,100|mousePressed 150,150"
 	e:
 		CodingTrain : "https://www.youtube.com/watch?v=LFU5ZlrR21E"
 		Wikipedia : "https://en.wikipedia.org/wiki/Minesweeper_(video_game)"
@@ -270,6 +271,7 @@ app = new Moire "a"
 """
 	c:
 		app : "reset()"
+	d: 'reset()|mousePressed(50,50)|mousePressed(150,150)'
 	e:
 		Wikipedia : "https://en.wikipedia.org/wiki/Moir%C3%A9_pattern"
 
@@ -323,4 +325,5 @@ app = new MultiTimer "a"
 """
 	c:
 		app: "reset()"
+	d: "reset()|mousePressed 10,10|mousePressed 10,10"
 

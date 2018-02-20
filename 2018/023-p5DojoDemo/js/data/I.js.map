@@ -6,8 +6,8 @@
     "coffee\\data\\I.coffee"
   ],
   "names": [],
-  "mappings": ";;;AAAA,IAAA;;AAAA;AACC,KAAA,AAAE;AACF,KADA,AACE;AACF,KAFA,AAEE;AACF,KAHA,AAGE;AAQF,KAXA,AAWE;AAeF;AACC,SA3BD,AA2BC,AAAM;AAAN;AACD;AACC,UA7BD,AA6BC,AAAO;AAAP;AA7BD",
+  "mappings": ";;;AAAA,IAAA;;AAAA;AACC,KAAA,AAAE;AACF,KADA,AACE;AACF,KAFA,AAEE;AACF,KAHA,AAGE;AAQF,KAXA,AAWE;AAeF;AACC,SA3BD,AA2BC,AAAM;AAAN;AACD,KA5BA,AA4BI;AACJ;AACC,UA9BD,AA8BC,AAAO;AAAP;AA9BD",
   "sourcesContent": [
-    "ID_IndianSun =\n\tv:'2017-09-30'\n\tk:'range line sin cos angleMode for if constrain operators class'\n\tl:10\n\tb:\"\"\"\nclass IndianSun extends Application\n\treset : ->\n\t\tsuper\n\tdraw : ->\n\tmousePressed : (mx,my) ->\napp = new IndianSun\n\"\"\"\n\ta:\"\"\"\nclass IndianSun extends Application\n\treset : ->\n\t\tsuper\n\t\t@n = 5\n\tdraw : ->\n\t\tangleMode DEGREES\n\t\tpoints = ([100+100*cos(i * 360/@n), 100+100*sin(i * 360/@n)] for i in range @n)\n\t\tfor [x1,y1] in points\n\t\t\tfor [x2,y2] in points\n\t\t\t\tline x1,y1,x2,y2\n\tmousePressed : (mx,my) -> @n = constrain @n + (if my < 100 then 1 else -1), 3, 20\n\napp = new IndianSun \"a\"\n\"\"\"\n\tc:\n\t\tapp : \"reset()\"\n\te:\n\t\tKojo : \"http://www.kogics.net/codesketch?id=28\"\n\n"
+    "ID_IndianSun =\n\tv:'2017-09-30'\n\tk:'range line sin cos angleMode for if constrain operators class'\n\tl:10\n\tb:\"\"\"\nclass IndianSun extends Application\n\treset : ->\n\t\tsuper\n\tdraw : ->\n\tmousePressed : (mx,my) ->\napp = new IndianSun\n\"\"\"\n\ta:\"\"\"\nclass IndianSun extends Application\n\treset : ->\n\t\tsuper\n\t\t@n = 5\n\tdraw : ->\n\t\tangleMode DEGREES\n\t\tpoints = ([100+100*cos(i * 360/@n), 100+100*sin(i * 360/@n)] for i in range @n)\n\t\tfor [x1,y1] in points\n\t\t\tfor [x2,y2] in points\n\t\t\t\tline x1,y1,x2,y2\n\tmousePressed : (mx,my) -> @n = constrain @n + (if my < 100 then 1 else -1), 3, 20\n\napp = new IndianSun \"a\"\n\"\"\"\n\tc:\n\t\tapp : \"reset()\"\n\td : \"reset()|mousePressed 100,50|mousePressed 100,50|mousePressed 100,50|mousePressed 100,50\"\n\te:\n\t\tKojo : \"http://www.kogics.net/codesketch?id=28\"\n\n"
   ]
 }

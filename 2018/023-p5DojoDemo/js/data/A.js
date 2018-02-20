@@ -12,6 +12,7 @@ ID_Alphanumeric = {
   c: {
     app: "reset()|add()|del()|left()|right()"
   },
+  d: "reset()|right()|add()|mousePressed 100,100|left()|right()|del()",
   e: {
     binärt: "http://www.matteboken.se/lektioner/matte-1/tal/talsystem",
     hexadecimalt: "http://www.matteguiden.se/matte-1/grunder/binara-och-hexadecimala-tal",
@@ -27,7 +28,8 @@ ID_Angle = {
   a: "\nclass Angle extends Application\n	reset : ->\n		super\n		@seed = 0\n		@level = 2\n		@errors = 0\n		@R1 = 50\n		@R2 = 100\n		@newGame 0\n	newGame : (d) ->\n		if d==-1 then @errors++\n		@level = constrain @level+d, 1, 100\n		@angle = int 360/@level * @randint @level # hela grader\n		@marginal = 180/@level # grader\n	draw : ->\n		bg 0.5\n		sw 50\n		strokeCap SQUARE\n		angleMode DEGREES\n		start = 135 - @marginal\n		stopp = 135 + @marginal\n		fc()\n		sc 1,1,0\n		arc 100,100, 150,150, start,stopp\n		sw 1\n		for i in range 12\n			if i==0 then sc 1 else sc 0\n			v = i * 30\n			x1 = 100 + @R1 * cos v\n			y1 = 100 + @R1 * sin v\n			x2 = 100 + @R2 * cos v\n			y2 = 100 + @R2 * sin v\n			line x1,y1,x2,y2\n		sc 1,1,0\n		circle 100,100,@R1\n		circle 100,100,@R2\n		sc()\n		fc 1\n		textSize 16\n		textAlign CENTER,CENTER\n		fc 1,1,0\n		text @angle,100,100\n		fc 1,0,0\n		text @errors,100,75\n		fc 0,1,0\n		text @level,100,125\n	mousePressed : (mx,my) ->\n		d = dist 100,100,mx,my\n		angleMode DEGREES\n		if @R1 <= d <= @R2\n			v = atan2 my-100,mx-100\n			@seed += mx % 10\n			res = @angleDist(v,@angle) <= @marginal\n			@newGame if res then 1 else -1\n	angleDist : (u,v) -> _.min [abs(u-v), abs(360+u-v)]\n	randint : (n) -> int n * fraction 10000 * Math.sin @seed++\n\napp = new Angle \"a\"",
   c: {
     app: "reset()"
-  }
+  },
+  d: "reset()|mousePressed 150,100|mousePressed 60,30"
 };
 
 ID_Average = {

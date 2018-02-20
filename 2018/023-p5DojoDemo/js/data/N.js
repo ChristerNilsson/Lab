@@ -12,6 +12,7 @@ ID_Nand2TetrisALU = {
   c: {
     app: "reset()"
   },
+  d: "reset()|mousePressed 130,10|mousePressed 50,30|mousePressed 50,30|mousePressed 50,30",
   e: {
     Nand2Tetris: "http://www.nand2tetris.org/chapters/chapter%2002.pdf"
   }
@@ -22,10 +23,11 @@ ID_Nian = {
   k: 'bg fc sc [] "" reduce operators text for {} _.countBy if class',
   l: 35,
   b: "# Bilda ord med fyra till nio bokstäver. Använd variabeln ordlista.\n# Den mittersta bokstaven måste ingå. Prova med \"aaefkrrtu\"\n\nclass Nian extends Application\n	reset : ->\n		super\n	draw  : ->\n	enter : ->\n\napp = new Nian",
-  a: "class Nian extends Application\n	reset : ->\n		super\n		@found = \"\"\n	draw : ->\n		n = 15\n		bg 0\n		textAlign LEFT,TOP\n		textSize 12\n		fc 1,1,0\n		sc()\n		for word,i in @found.split \" \"\n			x = int i / n\n			y = i % n\n			text word,5+200/4*x,200*y/n\n	bits : (word) -> word.split(\"\").reduce ((acc,ch) -> acc|(2 ** \"abcdefghijklmnopqrstuvwxyzåäö\".indexOf ch)), 0\n	ok : (f1,f2) ->\n		for ch, f of f2\n			if f > f1[ch] then return false\n		true\n	enter : ->\n		words = ordlista.split \" \"\n		patterns = (@bits word for word in words)\n		@letters = @readText()\n		mandatory = @letters[4]\n		@found = []\n		p = @bits @letters\n		letters1 = @letters.split \"\"\n		freq1 = _.countBy letters1\n		for pattern,i in patterns\n			if (p & pattern) == pattern\n				letters2 = words[i].split \"\"\n				freq2 = _.countBy letters2\n				if @ok(freq1,freq2) and mandatory in letters2 then @found.push words[i]\n		@found = @found.join \" \"\n\napp = new Nian \"a\"",
+  a: "class Nian extends Application\n	reset : ->\n		super\n		@found = \"\"\n	draw : ->\n		n = 15\n		bg 0\n		textAlign LEFT,TOP\n		textSize 12\n		fc 1,1,0\n		sc()\n		for word,i in @found.split \" \"\n			x = int i / n\n			y = i % n\n			text word,5+200/4*x,200*y/n\n	bits : (word) -> word.split(\"\").reduce ((acc,ch) -> acc|(2 ** \"abcdefghijklmnopqrstuvwxyzåäö\".indexOf ch)), 0\n	ok : (f1,f2) ->\n		for ch, f of f2\n			if f > f1[ch] then return false\n		true\n	enter : (letters='') ->\n		words = ordlista.split \" \"\n		patterns = (@bits word for word in words)\n		if letters=='' then @letters = @readText() else @letters = letters\n		mandatory = @letters[4]\n		@found = []\n		p = @bits @letters\n		letters1 = @letters.split \"\"\n		freq1 = _.countBy letters1\n		for pattern,i in patterns\n			if (p & pattern) == pattern\n				letters2 = words[i].split \"\"\n				freq2 = _.countBy letters2\n				if @ok(freq1,freq2) and mandatory in letters2 then @found.push words[i]\n		@found = @found.join \" \"\n\napp = new Nian \"a\"",
   c: {
     app: "reset()|enter()"
   },
+  d: "reset()|enter 'aaefkrrtu'",
   e: {
     Nian: "http://svenska-apps.se/iphone-ipad/underhallning/svd-nian-babqpg.html",
     '_.countBy': "http://underscorejs.org/#countBy",
@@ -42,6 +44,7 @@ ID_Nim = {
   c: {
     app: "reset()|newGame()"
   },
+  d: "reset()|mousePressed 100,100|mousePressed 100,100|mousePressed 100,100|mousePressed 90,90|mousePressed 90,90",
   e: {
     Nim: "https://en.wikipedia.org/wiki/Nim",
     xor: "https://en.wikipedia.org/wiki/Bitwise_operation#XOR",

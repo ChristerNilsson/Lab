@@ -187,6 +187,7 @@ app = new ChessOne "a"
 """
 	c:
 		app : "reset()"
+	d : "reset()|mousePressed 100,100|mousePressed 180,60|mousePressed 150,150"
 	e:
 		Schack : "https://schackonline.com/skolan/nyborjare/pjaser/pjaser.php"
 
@@ -288,6 +289,7 @@ app = new ChessMany "a"
 """
 	c:
 		app : "reset()"
+	d : "reset()|mousePressed 100,100|mousePressed 200,40|mousePressed 0,200"
 
 ID_ChessRow =
 	v:'2017-04-29'
@@ -393,6 +395,7 @@ app = new ClickDetector "a"
 """
 	c:
 		app : "reset()"
+	d : "reset()|mousePressed 70,70|mousePressed 90,90|mousePressed 100,100"
 	e:
 		Triangle : "http://stackoverflow.com/questions/2049582/how-to-determine-if-a-point-is-in-a-2d-triangle"
 
@@ -500,6 +503,7 @@ app = new ColorCube "a"
 """
 	c:
 		app : "reset()|undo()"
+	d : "reset()|mousePressed 30,30|mousePressed 40,40|undo()"
 	e:
 		ColorCube : "https://www.google.se/search?q=color+cube&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjo3_Cm3Y7TAhUJb5oKHcFhCKQQsAQIJg&biw=1745&bih=963&dpr=1.1"
 
@@ -577,12 +581,15 @@ class ColorPair extends Application
 			@circles.push [@randint(200), @randint(200), c]
 			@circles.push [@randint(200), @randint(200), c]
 
-	enterName : -> @name = @readText()
+	enterName : (name='') -> 
+		@name = name
+		if name == '' then @name = @readText()
 
 app = new ColorPair "a"
 """
 	c:
 		app : "reset()|enterName()"
+	d : "reset()|enterName 'David'|mousePressed 190,50|mousePressed 20,140"
 	e:
 		ColorPair : "https://christernilsson.github.io/ColorPair"
 
@@ -686,6 +693,7 @@ app = new Complex "a"
 """
 	c:
 		app : "reset()"
+	d : "reset()|mousePressed 170,130|mousePressed 170,30|mousePressed 170,130|mousePressed 70,170|mousePressed 170,30"
 	e:
 		"Komplexa tal" : "http://www.matteboken.se/lektioner/matte-4/komplexa-tal/rakna-med-komplexa-tal"
 
@@ -741,6 +749,7 @@ app = new Connect4 "a"
 """
 	c:
 		app : "reset()|undo()"
+	d : "reset()|mousePressed 100,0|mousePressed 150,0|mousePressed 100,0|undo()|undo()|undo()"
 	e:
 		Wikipedia : "https://en.wikipedia.org/wiki/Connect_Four"
 
@@ -795,6 +804,7 @@ app = new Coordinator "a"
 """
 	c:
 		app : "reset()"
+	d : "reset()"
 
 ID_CornerPoints =
 	v:'2017-04-29'
@@ -920,6 +930,7 @@ app = new Counter "a"
 """
 	c:
 		app : "reset()|up()|down()"
+	d: "reset()|up()|up()|up()"
 
 ID_Cross =
 	v:'2017-10-31'

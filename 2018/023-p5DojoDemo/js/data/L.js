@@ -42,6 +42,7 @@ ID_LinearRegression = {
   c: {
     app: "reset()|pop()"
   },
+  d: "reset()|mousePressed 90,80|mousePressed 50,90|mousePressed 70,70|pop()",
   e: {
     k_and_m: "images/k_and_m.JPG",
     r: "images/r.PNG",

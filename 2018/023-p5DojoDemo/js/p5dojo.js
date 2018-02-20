@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -7,7 +7,55 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 
 // if the renew button is available, a new version of the b code is available.
 // Clicking renew prints the current b code on the console as a backup.
-var bg, block, buffer, buildKeywordLink, buildLink, cc, cct, changeLayout, circle, co, compare, decorate, editor_change, fc, fetch, fillSelect, fillTable, firstDiff, fixColor, fix_frames, gap, grid, ip, kwl, kwlinks, meny, mousePressed, msg, myCodeMirror, myprint, range, rd, reset, resizeTimer, run, run0, run1, saveSourceCode, saveToKeyStorage, sc, setMsg, setup, store, sw, tableAppend, tableClear, _unmark, updateTables;
+var bg,
+    block,
+    buffer,
+    buildKeywordLink,
+    buildLink,
+    cc,
+    cct,
+    changeLayout,
+    circle,
+    co,
+    compare,
+    decorate,
+    _demo,
+    editor_change,
+    fc,
+    fetch,
+    fillSelect,
+    fillTable,
+    firstDiff,
+    fixColor,
+    fix_frames,
+    gap,
+    grid,
+    ip,
+    items,
+    kwl,
+    kwlinks,
+    meny,
+    msg,
+    myCodeMirror,
+    myprint,
+    range,
+    rd,
+    reset,
+    resizeTimer,
+    run,
+    run0,
+    run1,
+    saveSourceCode,
+    saveToKeyStorage,
+    sc,
+    setup,
+    store,
+    sw,
+    tableAppend,
+    tableClear,
+    _unmark,
+    updateTables,
+    indexOf = [].indexOf;
 
 myCodeMirror = null;
 
@@ -25,24 +73,20 @@ buffer = [[], [], []];
 
 meny = null;
 
-setMsg = function setMsg(e, nr) {
-  var p, s;
-  if (e === '') {
-    msg.val("");
-    msg.hide();
-  } else {
-    s = e.toString();
-    p = s.indexOf(':');
-    if (p !== -1) {
-      s = s.substr(p + 1);
-    }
-    s = s.replace(/\t/g, '  ');
-    msg.val(s + ' (' + e.name + ')' + (nr === 1 ? " (in A)" : ""));
-    msg.show();
-  }
-  return msg.css('background-color', e === '' ? '#FFFFFF' : '#FF0000');
-};
+// setMsg = (e,nr) ->
+// 	if e == ''
+// 		msg.val ""
+// 		msg.hide()
+// 	else
+// 		s = e.toString()
+// 		p = s.indexOf ':'
+// 		s = s.substr p+1 if p!=-1
 
+// 		s = s.replace /\t/g,'  '
+
+// 		msg.val s + ' (' + e.name + ')' + if nr==1 then " (in A)" else ""
+// 		msg.show()
+// 	msg.css 'background-color', if e == '' then '#FFFFFF' else '#FF0000'
 grid = function grid() {
   var i, l, len, ref;
   push();
@@ -252,31 +296,19 @@ buildKeywordLink = function buildKeywordLink() {
   return save(3, 'contains filter countBy isEqual last max min pairs sortBy findIndex');
 };
 
-mousePressed = function mousePressed() {
-  var code, dict, objekt, p, ref, ref1, ref2, ref3;
-  if (meny.chapter === '' || meny.exercise === '') {
-    return;
-  }
-  p = null;
-  if (0 <= (ref = mouseX - 5) && ref <= 200 && 0 <= (ref1 = mouseY - 5) && ref1 <= 200) {
-    p = [mouseX - 5, mouseY - 5];
-  }
-  if (0 <= (ref2 = mouseX - 5) && ref2 <= 200 && 0 <= (ref3 = mouseY - 210) && ref3 <= 200) {
-    p = [mouseX - 5, mouseY - 210];
-  }
-  if (p) {
-    dict = data[meny.chapter][meny.exercise].c;
-    if (dict != null) {
-      objekt = _.keys(dict)[0];
-      code = objekt + ('.mousePressed(' + p[0] + ',' + p[1] + '); ') + objekt + ".draw(); " + objekt + ".store()";
-      if (run1(code) === true) {
-        run0(code);
-        return compare();
-      }
-    }
-  }
-};
-
+// mousePressed = ->
+// 	if meny.chapter=='' or meny.exercise=='' then return
+// 	p = null
+// 	if 0 <= mouseX-5 <= 200 and 0 <= mouseY-5 <= 200 then p = [mouseX-5,mouseY-5]
+// 	if 0 <= mouseX-5 <= 200 and 0 <= mouseY-210 <= 200 then p = [mouseX-5,mouseY-210]
+// 	if p
+// 		dict = data[meny.chapter][meny.exercise].c
+// 		if dict?
+// 			objekt = _.keys(dict)[0]
+// 			code = objekt + ".mousePressed(#{p[0]},#{p[1]}); " + objekt + ".draw(); " + objekt + ".store()"
+// 			if run1(code) == true
+// 				run0(code)
+// 				compare()
 decorate = function decorate(dict) {
   // {klocka: "draw|incr_hour"}
   var l, len, method, methods, objekt, res, s;
@@ -324,18 +356,77 @@ updateTables = function updateTables() {
   return meny.traverse();
 };
 
+items = [];
+
+_demo = function demo() {
+  var calls, chapter, cmd, code, delay, exercise, sleepTimer;
+
+  var _items$pop = items.pop();
+
+  var _items$pop2 = _slicedToArray(_items$pop, 3);
+
+  chapter = _items$pop2[0];
+  exercise = _items$pop2[1];
+  cmd = _items$pop2[2];
+
+  document.getElementById("chapter").innerHTML = chapter;
+  document.getElementById("exercise").innerHTML = exercise;
+  document.getElementById("command").innerHTML = cmd;
+  //print items.length,chapter,exercise,cmd
+  meny = {
+    exercise: exercise
+  };
+  calls = decorate(data[chapter][exercise].c);
+  if (cmd !== '') {
+    if (indexOf.call(calls, cmd) >= 0) {
+      code = calls[cmd];
+    } else {
+      code = "app." + cmd + "; app.draw(); app.store()";
+    }
+    run1(chapter, exercise, code);
+  } else {
+    run1(chapter, exercise, "");
+  }
+  sleepTimer = 0;
+  clearTimeout(sleepTimer);
+  delay = 2000;
+  //if items.length>25 then delay = 50 
+  //if cmd == '' then delay = 50 
+  return sleepTimer = setTimeout(_demo, delay);
+};
+
 setup = function setup() {
-  var c, timestamp;
-  meny = new Menu(data, document.getElementById("meny"));
-  updateTables();
+  var c, chapter, cmd, cmds, exercise, item1, item2, l, len, timestamp;
+  //meny = new Menu data, document.getElementById "meny"
+  //updateTables()
   timestamp = millis();
-  c = createCanvas(5 + 201 + 5, 3 * 201 + 20);
-  buildKeywordLink();
+  c = createCanvas(3 * 201 + 10, 3 * 201 + 10);
+  //buildKeywordLink()
   gap = 5 * width * 4;
   block = 201 * width * 4;
   pixelDensity(1);
   c.parent('canvas');
-  return msg = $('#msg');
+  bg(0);
+  items = [];
+  for (chapter in data) {
+    item1 = data[chapter];
+    if (chapter !== 'Information' && chapter !== 'Exhibition') {
+      for (exercise in item1) {
+        item2 = item1[exercise];
+        if (item2.d) {
+          cmds = item2.d.split('|');
+          for (l = 0, len = cmds.length; l < len; l++) {
+            cmd = cmds[l];
+            items.push([chapter, exercise, cmd]);
+          }
+        } else {
+          items.push([chapter, exercise, '']);
+        }
+      }
+    }
+  }
+  items.reverse();
+  return _demo();
 };
 
 window.onbeforeunload = function () {
@@ -349,11 +440,11 @@ window.onbeforeunload = function () {
     for (key2 in chapter) {
       exercise = chapter[key2];
       if (exercise.d) {
-        res.push('### ' + key1 + ' ### ' + key2 + '\n');
+        res.push("### " + key1 + " ### " + key2 + "\n");
         ref = exercise.d;
         for (i = l = 0, len = ref.length; l < len; i = ++l) {
           s = ref[i];
-          res.push('=== ' + i + '\n');
+          res.push("=== " + i + "\n");
           res.push(s + "\n");
         }
       }
@@ -366,31 +457,34 @@ window.onbeforeunload = function () {
   return true;
 };
 
-window.onload = function () {
-  var ta;
-  ta = document.getElementById("code");
-  myCodeMirror = CodeMirror.fromTextArea(document.getElementById("code"), {
-    lineNumbers: true,
-    mode: "coffeescript",
-    keyMap: "sublime",
-    theme: "dracula",
-    autoCloseBrackets: true,
-    lineWiseCopyCut: true,
-    tabSize: 2,
-    indentWithTabs: true,
-    matchBrackets: true
-  });
-  $(".CodeMirror").css('font-size', "16pt");
-  myCodeMirror.on("change", editor_change);
-  meny.chapter = "";
-  meny.exercise = "";
-  myCodeMirror.setValue('# Klicka först på L1:\n# Klicka därefter på Background1');
-  myCodeMirror.focus();
-  window.resizeTo(1000, 750);
-  changeLayout();
-  return meny.setState(0);
-};
+window.onload = function () {};
 
+// ta = document.getElementById "code"
+
+// myCodeMirror = CodeMirror.fromTextArea document.getElementById("code"), {
+// 	lineNumbers: true,
+// 	mode: "coffeescript",
+// 	keyMap: "sublime",
+// 	theme: "dracula",
+// 	autoCloseBrackets: true,
+// 	lineWiseCopyCut: true,
+// 	tabSize: 2,
+// 	indentWithTabs: true,
+// 	matchBrackets : true,
+// }
+
+// $(".CodeMirror").css 'font-size',"16pt"
+// myCodeMirror.on "change", editor_change
+
+// meny.chapter = ""
+// meny.exercise = ""
+
+// myCodeMirror.setValue '# Klicka först på L1:\n# Klicka därefter på Background1'
+
+// myCodeMirror.focus()
+// window.resizeTo 1000,750
+// changeLayout()
+// meny.setState 0
 saveToKeyStorage = function saveToKeyStorage(b) {
   var l, len, line, place, ref, s;
   s = "";
@@ -445,11 +539,11 @@ run0 = function run0(code) {
   return run(0, src + "\n" + code);
 };
 
-run1 = function run1(code) {
-  if (meny.exercise === "") {
+run1 = function run1(chapter, exercise, code) {
+  if (exercise === "") {
     return;
   }
-  return run(1, data[meny.chapter][meny.exercise].a + "\n" + code);
+  return run(1, data[chapter][exercise].a + "\n" + code);
 };
 
 reset = function reset() {
@@ -471,13 +565,14 @@ run = function run(_n, coffee) {
   reset();
   push();
   translate(5, 5);
+  scale(3);
   grid();
-  setMsg("", _n);
-  if (meny.exercise === "") {
-    pop();
-    return true;
-  }
   try {
+    //setMsg "", _n
+
+    //if meny.exercise == "" 
+    //	pop()
+    //	return true
     code = transpile(coffee);
     try {
       eval(code);
@@ -486,13 +581,13 @@ run = function run(_n, coffee) {
       return true;
     } catch (error) {
       e = error;
-      setMsg(e, _n);
+      //setMsg e, _n
       pop();
       return false;
     }
   } catch (error) {
     e = error;
-    setMsg(e, _n);
+    //setMsg e, _n
     pop();
     return false;
   }
@@ -515,7 +610,7 @@ fetch = function fetch(buffer, y0) {
 };
 
 fix_frames = function fix_frames() {
-  var i, j, k, l, len, len1, len2, len3, m, o, q, ref, ref1, ref2, ref3;
+  var i, j, k, l, len, len1, len2, len3, m, o, p, ref, ref1, ref2, ref3;
   loadPixels();
   ref = range(4);
   for (l = 0, len = ref.length; l < len; l++) {
@@ -531,8 +626,8 @@ fix_frames = function fix_frames() {
   for (o = 0, len2 = ref2.length; o < len2; o++) {
     j = ref2[o];
     ref3 = range(20);
-    for (q = 0, len3 = ref3.length; q < len3; q++) {
-      i = ref3[q];
+    for (p = 0, len3 = ref3.length; p < len3; p++) {
+      i = ref3[p];
       pixels[j * width * 4 + i] = 128 - 64;
       pixels[j * width * 4 + 206 * 4 + i] = 128 - 64;
     }

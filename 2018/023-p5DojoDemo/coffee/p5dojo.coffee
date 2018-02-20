@@ -15,20 +15,20 @@ buffer = [[],[],[]]
 
 meny = null
 
-setMsg = (e,nr) ->
-	if e == ''
-		msg.val ""
-		msg.hide()
-	else
-		s = e.toString()
-		p = s.indexOf ':'
-		s = s.substr p+1 if p!=-1
+# setMsg = (e,nr) ->
+# 	if e == ''
+# 		msg.val ""
+# 		msg.hide()
+# 	else
+# 		s = e.toString()
+# 		p = s.indexOf ':'
+# 		s = s.substr p+1 if p!=-1
 
-		s = s.replace /\t/g,'  '
+# 		s = s.replace /\t/g,'  '
 
-		msg.val s + ' (' + e.name + ')' + if nr==1 then " (in A)" else ""
-		msg.show()
-	msg.css 'background-color', if e == '' then '#FFFFFF' else '#FF0000'
+# 		msg.val s + ' (' + e.name + ')' + if nr==1 then " (in A)" else ""
+# 		msg.show()
+# 	msg.css 'background-color', if e == '' then '#FFFFFF' else '#FF0000'
 
 grid = ->
 	push()
@@ -158,19 +158,19 @@ buildKeywordLink = ->
 	save 2,'break return'
 	save 3,'contains filter countBy isEqual last max min pairs sortBy findIndex'
 
-mousePressed = ->
-	if meny.chapter=='' or meny.exercise=='' then return
-	p = null
-	if 0 <= mouseX-5 <= 200 and 0 <= mouseY-5 <= 200 then p = [mouseX-5,mouseY-5]
-	if 0 <= mouseX-5 <= 200 and 0 <= mouseY-210 <= 200 then p = [mouseX-5,mouseY-210]
-	if p
-		dict = data[meny.chapter][meny.exercise].c
-		if dict?
-			objekt = _.keys(dict)[0]
-			code = objekt + ".mousePressed(#{p[0]},#{p[1]}); " + objekt + ".draw(); " + objekt + ".store()"
-			if run1(code) == true
-				run0(code)
-				compare()
+# mousePressed = ->
+# 	if meny.chapter=='' or meny.exercise=='' then return
+# 	p = null
+# 	if 0 <= mouseX-5 <= 200 and 0 <= mouseY-5 <= 200 then p = [mouseX-5,mouseY-5]
+# 	if 0 <= mouseX-5 <= 200 and 0 <= mouseY-210 <= 200 then p = [mouseX-5,mouseY-210]
+# 	if p
+# 		dict = data[meny.chapter][meny.exercise].c
+# 		if dict?
+# 			objekt = _.keys(dict)[0]
+# 			code = objekt + ".mousePressed(#{p[0]},#{p[1]}); " + objekt + ".draw(); " + objekt + ".store()"
+# 			if run1(code) == true
+# 				run0(code)
+# 				compare()
 
 decorate = (dict) -> # {klocka: "draw|incr_hour"}
 	if dict==undefined then return {}
@@ -198,15 +198,39 @@ updateTables = ->
 	meny.rensa()
 	meny.traverse()
 
+items = []
+
+demo = () -> 
+	[chapter,exercise,cmd] = items.pop()
+	document.getElementById("chapter").innerHTML = chapter
+	document.getElementById("exercise").innerHTML = exercise
+	document.getElementById("command").innerHTML = cmd
+	#print items.length,chapter,exercise,cmd
+	meny = {exercise : exercise}
+	calls = decorate data[chapter][exercise].c
+	if cmd != ''
+		if cmd in calls then code = calls[cmd]
+		else code = "app.#{cmd}; app.draw(); app.store()"
+		run1 chapter, exercise, code
+	else
+		run1 chapter, exercise, ""
+	sleepTimer = 0
+	clearTimeout sleepTimer
+	delay = 2000
+	#if items.length>25 then delay = 50 
+	#if cmd == '' then delay = 50 
+
+	sleepTimer = setTimeout demo, delay
+
 setup = ->
 
-	meny = new Menu data, document.getElementById "meny"
-	updateTables()
+	#meny = new Menu data, document.getElementById "meny"
+	#updateTables()
 
 	timestamp = millis()
-	c = createCanvas 5+201+5, 3*201+20
+	c = createCanvas 3*201+10, 3*201+10
 
-	buildKeywordLink()
+	#buildKeywordLink()
 
 	gap = 5 * width * 4
 	block = 201 * width * 4
@@ -214,7 +238,20 @@ setup = ->
 	pixelDensity 1
 	c.parent 'canvas'
 
-	msg = $('#msg')
+	bg 0
+
+	items = []
+	for chapter,item1 of data
+		if chapter not in ['Information','Exhibition']
+			for exercise,item2 of item1
+				if item2.d
+					cmds = item2.d.split '|'
+					for cmd in cmds 
+						items.push [chapter,exercise,cmd]
+				else
+					items.push [chapter,exercise,'']
+	items.reverse()
+	demo()
 
 window.onbeforeunload = ->
 	return if document.URL.indexOf("record") == -1
@@ -232,32 +269,32 @@ window.onbeforeunload = ->
 
 window.onload = ->
 
-	ta = document.getElementById "code"
+	# ta = document.getElementById "code"
 
-	myCodeMirror = CodeMirror.fromTextArea document.getElementById("code"), {
-		lineNumbers: true,
-		mode: "coffeescript",
-		keyMap: "sublime",
-		theme: "dracula",
-		autoCloseBrackets: true,
-		lineWiseCopyCut: true,
-		tabSize: 2,
-		indentWithTabs: true,
-		matchBrackets : true,
-	}
+	# myCodeMirror = CodeMirror.fromTextArea document.getElementById("code"), {
+	# 	lineNumbers: true,
+	# 	mode: "coffeescript",
+	# 	keyMap: "sublime",
+	# 	theme: "dracula",
+	# 	autoCloseBrackets: true,
+	# 	lineWiseCopyCut: true,
+	# 	tabSize: 2,
+	# 	indentWithTabs: true,
+	# 	matchBrackets : true,
+	# }
 
-	$(".CodeMirror").css 'font-size',"16pt"
-	myCodeMirror.on "change", editor_change
+	# $(".CodeMirror").css 'font-size',"16pt"
+	# myCodeMirror.on "change", editor_change
 
-	meny.chapter = ""
-	meny.exercise = ""
+	# meny.chapter = ""
+	# meny.exercise = ""
 
-	myCodeMirror.setValue '# Klicka först på L1:\n# Klicka därefter på Background1'
+	# myCodeMirror.setValue '# Klicka först på L1:\n# Klicka därefter på Background1'
 
-	myCodeMirror.focus()
-	window.resizeTo 1000,750
-	changeLayout()
-	meny.setState 0
+	# myCodeMirror.focus()
+	# window.resizeTo 1000,750
+	# changeLayout()
+	# meny.setState 0
 
 saveToKeyStorage = (b) ->
 	s = ""
@@ -293,9 +330,9 @@ run0 = (code) ->
 	src = myCodeMirror.getValue()
 	run 0, src + "\n" + code
 
-run1 = (code) ->
-	if meny.exercise=="" then return
-	run 1, data[meny.chapter][meny.exercise].a + "\n" + code
+run1 = (chapter,exercise,code) ->
+	if exercise=="" then return
+	run 1, data[chapter][exercise].a + "\n" + code
 
 reset = ->
 	resetMatrix()
@@ -314,13 +351,14 @@ run = (_n, coffee) ->
 	reset()
 	push()
 	translate 5,5
+	scale 3
 	grid()
 
-	setMsg "", _n
+	#setMsg "", _n
 
-	if meny.exercise == "" 
-		pop()
-		return true
+	#if meny.exercise == "" 
+	#	pop()
+	#	return true
 
 	try
 		code = transpile coffee
@@ -331,11 +369,11 @@ run = (_n, coffee) ->
 			pop()
 			return true
 		catch e
-			setMsg e, _n
+			#setMsg e, _n
 			pop()
 			return false
 	catch e
-		setMsg e, _n
+		#setMsg e, _n
 		pop()
 		return false
 

@@ -12,6 +12,7 @@ ID_SevenSegment = {
   c: {
     app: "reset()"
   },
+  d: "reset()|mousePressed 50,50|mousePressed 50,50|mousePressed 50,50|mousePressed 50,50",
   e: {
     "7 segment": "https://www.google.se/search?q=7+segment&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjg_5n55OrSAhWpZpoKHQP8DxoQ_AUIBigB&biw=1310&bih=945"
   }
@@ -25,7 +26,8 @@ ID_Shortcut = {
   a: "class Shortcut extends Application\n	reset : ->\n		super\n		@W = 33\n		@H = 25\n		@seed = 0\n		@level = 1\n		@buttons = [[50,50,0],[150,50,0],[33,125,'/2'],[100,125,'+2'],[167,125,'*2'], [33,175,'undo'],[100,175,1],[167,175,'new']]\n		@createGame()\n	randint : (n) -> int n * fraction 10000 * Math.sin @seed++\n	draw : ->\n		@buttons[0][2] = @a\n		@buttons[1][2] = @b\n		@buttons[6][2] = @level - @history.length\n		bg 0.5\n		textAlign CENTER,CENTER\n		textSize 30\n		sc()\n		for [x,y,txt],i in @buttons\n			if i in [0,1,6] then fc 0 else fc 1,1,0\n			text txt,x,y\n	newGame : ->\n		if @level >= @history.length and @a == @b then d=1 else d=-1\n		@level = constrain @level+d,1,16\n		@createGame()\n	createGame : ->\n		@history = []\n		@a = 1 + @randint 20\n		q1 = [@a]\n		q2 = []\n		visited = {}\n		visited[@a] = true\n		expand = (n) ->\n			if visited[n] then return\n			visited[n] = true\n			q2.push n\n		for level in range @level\n			for nr in q1\n				expand nr+2\n				expand nr*2\n				expand nr/2 if nr%2==0\n			q1 = q2\n			q2 = []\n		@b = @selectTarget q1 #[@randint(q1.length)]\n	selectTarget : (lst) -> # within 1..1000, if possible\n		bs = (x for x in lst when 1 <= x <= 1000)\n		return bs[@randint(bs.length)] if bs.length > 0\n		_.min lst\n	undo : ->\n		if @history.length == 0 then return\n		@a = @history.pop()\n	mousePressed : (mx,my) ->\n		index = -1\n		for [x,y,txt],i in @buttons\n			if x-@W < mx < x+@W and  y-@H < my < y+@H\n				index = i\n		a = -1\n		if index == 2 and @a % 2 == 0 then a = @a / 2\n		if index == 3 then a = @a + 2\n		if index == 4 then a = @a * 2\n		if index == 5 then @undo()\n		if index == 7 then @newGame()\n		if a != -1\n			@history.push @a\n			@a = a\n\napp = new Shortcut \"a\"\n",
   c: {
     app: "reset()"
-  }
+  },
+  d: "reset()|mousePressed 160,120|mousePressed 180,180|mousePressed 100,120|mousePressed 160,120|mousePressed 180,180"
 };
 
 ID_Shortcut2 = {
@@ -36,7 +38,8 @@ ID_Shortcut2 = {
   a: "operNames = '+ - * / % %% ** // & | ^ ~ << >>'.split ' '\noperMin =   [1,1,2,2,2,2, 2, 2, 1,1,1,0,1, 1]\nopers = [\n	(a,b) -> a+b\n	(a,b) -> a-b\n	(a,b) -> a*b\n	(a,b) -> if a%b==0 then a/b else null\n	(a,b) -> a%b\n	(a,b) -> a%%b\n	(a,b) -> a**b\n	(a,b) -> a//b\n	(a,b) -> a&b\n	(a,b) -> a|b\n	(a,b) -> a^b\n	(a,b) -> ~a\n	(a,b) -> a<<b\n	(a,b) -> a>>b\n]\n\nclass Shortcut2 extends Application\n	reset : ->\n		super\n		@seed = 0\n		@level = 1\n		@page = 1\n		@state = 0\n		@b0 = []\n		@b0 = @b0.concat [[40,40,'+2'],[40,100,'*2'],[40,160,'/2']]\n		@b0 = @b0.concat [[140,40,'+'],[180,80,'n'],[140,120,'-'],[100,80,'p']]\n		@b0 = @b0.concat [[175,175,'ok']]\n		@keys = [0,2,2,2,3,2]\n		@b1 = [[50,50,0],[150,50,0],[33,125,''],[100,125,''],[167,125,''], [33,175,'setup'],[100,175,1],[167,175,'new']]\n		@createGame()\n	randint : (n) -> int n * fraction 10000 * Math.sin @seed++\n	operate : (a,op,b) -> opers[op](a,b)\n	name : (a,b) -> if operNames[@keys[a]]=='~' then '~' else operNames[@keys[a]] + @keys[b]\n	draw0 : ->\n		textAlign CENTER,CENTER\n		textSize 28\n		textFont 'monospace'\n		bg 0.5\n		sc()\n		sw 2\n		for i in range 3\n			@b0[i][2] = @name 2*i,2*i+1\n		for [x,y,txt],index in @b0\n			fc 0\n			sc 1\n			circle x,y,25\n			sc()\n			if @state==index then fc 1,0,0 else fc 1\n			text txt,x,y\n	draw1 : ->\n		textAlign CENTER,CENTER\n		textSize 20\n		textFont 'monospace'\n		@b1[0][2] = @a\n		@b1[1][2] = @b\n		@b1[2][2] = @name 0,1\n		@b1[3][2] = @name 2,3\n		@b1[4][2] = @name 4,5\n		@b1[6][2] = @level - @history.length\n		bg 0.5\n		sc()\n		for [x,y,txt],i in @b1\n			if i in [0,1] then fc 0 else fc 1,1,0\n			if i in [5,6,7] then textSize 24 else textSize 30\n			text txt,x,y\n	draw : -> if @page==0 then @draw0() else @draw1()\n	newGame : ->\n		if @level >= @history.length and @a == @b then d=1 else d=-1\n		@level = constrain @level+d,1,16\n		@createGame()\n	createGame : ->\n		@history = []\n		@a = 1 + @randint 20\n		q1 = [@a]\n		q2 = []\n		visited = {}\n		visited[@a] = true\n		expand = (n) ->\n			if n==null then return\n			if visited[n] then return\n			visited[n] = true\n			q2.push n\n		for level in range @level\n			for nr in q1\n				expand opers[@keys[0]] nr,@keys[1]\n				expand opers[@keys[2]] nr,@keys[3]\n				expand opers[@keys[4]] nr,@keys[5]\n			q1 = q2\n			q2 = []\n		@b = @selectTarget q1\n	selectTarget : (lst) ->\n		bs = (x for x in lst when -1000 <= x <= 1000)\n		return bs[@randint(bs.length)] if bs.length > 0\n		_.min lst\n	undo : ->\n		if @history.length == 0 then return\n		@a = @history.pop()\n	mousePressed0 : (mx,my) ->\n		for [x,y,txt],index in @b0\n			if dist(mx,my,x,y) < 25\n				if index < 3 then @state = index\n				if txt=='ok'\n					@page = 1\n					@level = 0\n					@newGame()\n				else if index == 3 then @keys[@state*2+1]++\n				else if index == 4 then @keys[@state*2]++\n				else if index == 5 then @keys[@state*2+1]--\n				else if index == 6 then @keys[@state*2]--\n				@keys[@state*2]   = constrain @keys[@state*2], 0, 13\n				@keys[@state*2+1] = constrain @keys[@state*2+1], operMin[@keys[@state*2]], 9\n				return\n	mousePressed1 : (mx,my) ->\n		index = -1\n		for [x,y,txt],i in @b1\n			if dist(mx,my,x,y) < 20 then index = i\n		a = null\n		if index == 2 then a = @operate @a,@keys[0],@keys[1]\n		if index == 3 then a = @operate @a,@keys[2],@keys[3]\n		if index == 4 then a = @operate @a,@keys[4],@keys[5]\n		if index == 5\n			@page=0\n			@state=0\n		if index == 6 then @undo()\n		if index == 7 then @newGame()\n		if a != null\n			@history.push @a\n			@a = a\n	mousePressed : (mx,my) -> if @page==0 then @mousePressed0 mx,my else @mousePressed1 mx,my\n\napp = new Shortcut2 \"a\"\n",
   c: {
     app: "reset()"
-  }
+  },
+  d: "reset()|mousePressed 33,175"
 };
 
 ID_ShrinkingCircles = {
@@ -56,6 +59,7 @@ ID_SingaporeMult = {
   c: {
     app: "reset()|first()|second()|more()|less()|bigger()|smaller()"
   },
+  d: "reset()|more()|less()|bigger()|smaller()",
   e: {
     '46x97': "https://youtu.be/3EIBMzDdCd0?t=4m45s"
   }
@@ -70,6 +74,7 @@ ID_SingaporeMultComplex = {
   c: {
     app: "reset()|first()|second()|bigger()|smaller()"
   },
+  d: "reset()|bigger()|smaller()",
   e: {
     complex: "https://www.youtube.com/watch?v=xtKEvZr3zJQ"
   }
@@ -84,6 +89,7 @@ ID_SingaporeMultPolynom = {
   c: {
     app: "reset()|first()|second()|bigger()|smaller()"
   },
+  d: "reset()|bigger()|smaller()",
   e: {
     polynom: "https://www.youtube.com/watch?v=fGy9UMSm-_M"
   }
@@ -106,6 +112,7 @@ ID_Snake = {
   c: {
     app: "reset()|setSize 20|setSize 10|setSize 5|setSize 2"
   },
+  d: "reset()|setSize 10|mousePressed 160,160|mousePressed 160,160|mousePressed 160,160|mousePressed 160,160|mousePressed 100,100|mousePressed 100,100",
   e: {
     Snake: "https://en.wikipedia.org/wiki/Snake_(video_game)"
   }
@@ -120,6 +127,7 @@ ID_Snake4 = {
   c: {
     app: "reset()|setSize 20|setSize 10|setSize 5|setSize 2"
   },
+  d: "reset()|setSize 20|mousePressed 150,100|mousePressed 100,50|mousePressed 50,100",
   e: {
     Play: "http://patorjk.com/games/snake",
     Source: "https://github.com/patorjk/JavaScript-Snake/blob/master/js/snake.js",
@@ -144,6 +152,7 @@ ID_Sokoban = {
   c: {
     app: "reset()|undo()"
   },
+  d: "reset()|mousePressed 100,145|mousePressed 100,145|mousePressed 120,165|mousePressed 120,165|mousePressed 80,165|mousePressed 80,165|mousePressed 100,185|mousePressed 100,185",
   e: {
     Sokoban: "http://www.linusakesson.net/games/autosokoban/?v=1&seed=355842047&level=1",
     Wikipedia: "https://en.wikipedia.org/wiki/Sokoban"
@@ -158,7 +167,8 @@ ID_SpaceShip = {
   a: "\nclass Shot\n	constructor : (@x,@y,@dir) ->\n	render : ->	point @x,@y\n	move : ->\n		@x += int 5 * cos @dir\n		@y += int 5 * sin @dir\n\nclass Ship extends Application\n	classes : -> [Shot]\n	reset : ->\n		super\n		@S = 10\n		@x = 100\n		@y = 100\n		@dir = 0\n		@shots = []\n\n	left    : -> @dir -= 5\n	right   : -> @dir += 5\n	forward : ->\n		angleMode DEGREES\n		@x += 5 * cos @dir\n		@y += 5 * sin @dir\n\n	shoot : ->\n		@shots.push new Shot int(@x), int(@y), @dir\n\n	draw : ->\n		push()\n		translate @x,@y\n		angleMode DEGREES\n		rotate @dir\n		sc 1,1,0\n		sw 2\n		triangle 2*@S,0, -@S,@S, -@S,-@S\n		sw 5\n		point 0,0\n		pop()\n		for shot in @shots\n			shot.move()\n			shot.render()\n\napp = new Ship \"a\"",
   c: {
     app: "reset()|left()|right()|forward()|shoot()"
-  }
+  },
+  d: "reset()|left()|right()|forward()|shoot()|right()|forward()|shoot()|right()|forward()|shoot()"
 };
 
 ID_Square = {
@@ -169,7 +179,8 @@ ID_Square = {
   a: "class Square extends Application\n	reset : ->\n		super\n		@x = 100\n		@y = 100\n		@size = 100\n		@w = 1\n		@dir = 0\n	draw : ->\n		bg 0\n		rectMode CENTER\n		angleMode DEGREES\n		sw @w\n		fc 0.5\n		translate @x,@y\n		rotate @dir\n		rect 0,0,@size,@size\n\n	horisontellt : (d) -> @x += d\n	vertikalt : (d) -> @y += d\n	storlek : (d) -> @size += d\n	tjocklek : (d) -> @w += d\n	rotera : (d) -> @dir += d\n\napp = new Square \"a\"",
   c: {
     app: "reset()|horisontellt -1|horisontellt +1|vertikalt -1|vertikalt +1|storlek -1|storlek +1|tjocklek -1|tjocklek +1|rotera -1|rotera +1"
-  }
+  },
+  d: "reset()|horisontellt -1|horisontellt +1|vertikalt -1|vertikalt +1|storlek -1|storlek +1|tjocklek -1|tjocklek +1|rotera -1|rotera +1"
 };
 
 ID_SquareHole = {
@@ -188,7 +199,8 @@ ID_Stopwatch = {
   a: "class Stopwatch extends Application\n	reset : ->\n		super\n		@start = int millis()\n		@times = []\n		@count = 0\n	draw : ->\n		bg 0\n		textFont \"monospace\"\n		textSize 32\n		textAlign RIGHT,BOTTOM\n		fc 1,0,0\n		sc()\n		for time,i in @times\n			text @count-i, 50, 202-40*i\n			text nf(time/1000,1,3),195, 202-40*i\n	mousePressed : (mx,my) ->\n		@count++\n		@times.unshift int millis()-@start\n		if @times.length > 5 then @times.pop()\n\napp = new Stopwatch \"a\"",
   c: {
     app: "reset()"
-  }
+  },
+  d: "reset()|mousePressed 100,100"
 };
 
 ID_Sunshine = {

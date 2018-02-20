@@ -35,6 +35,7 @@ app = new RandomDice "a"
 """
 	c:
 		app : "reset()"
+	d: 'reset()|mousePressed 100,100|mousePressed 100,100'
 
 ID_RecursiveCircle =
 	v:'2017-04-29'
@@ -67,6 +68,7 @@ app = new RecursiveCircle "a"
 """
 	c:
 		app : "reset()"
+	d : "reset()|mousePressed 100,50|mousePressed 100,50|mousePressed 100,50|mousePressed 100,50|mousePressed 100,50"
 
 ID_RedCone =
 	v:'2017-04-29'
@@ -159,6 +161,7 @@ app = new Reversi "a"
 """
 	c:
 		app : "reset()"
+	d : "reset()|mousePressed 120,100|mousePressed 120,120|mousePressed 100,120"
 	e:
 		Reversi : "https://en.wikipedia.org/wiki/Reversi"
 
@@ -401,6 +404,7 @@ app = new RubikCube "a"
 """
 	c:
 		app : "reset()|toggleNumbers()"
+	d : "reset()|toggleNumbers()|toggleNumbers()"
 	e:
 		"RubikCube" : "https://sv.wikipedia.org/wiki/Rubiks_kub"
 
@@ -513,6 +517,7 @@ app = new RubikSquare "a"
 """
 	c:
 		app : "reset()"
+	d : "reset()|mousePressed 30,30|mousePressed 100,30|mousePressed 190,190|mousePressed 100,30|mousePressed 100,100|mousePressed 100,100|mousePressed 30,100"
 
 ID_RushHour =
 	v:'2017-04-29'
@@ -609,7 +614,9 @@ class RushHour extends Application
 			if ch in "ABCD" then wh = {A:[2,1], B:[3,1], C:[1,2], D:[1,3]}[ch]
 			else @cars.push new Car ch,wh,@cars.length
 
-	enter_move : -> @enter_move1 @readText()
+	enter_move : (move='') ->
+		if move == '' then move = @readText()   
+		@enter_move1 move
 	enter_move1 : (s) ->
 		@moves = @moves[...@index]
 		@moves += s
@@ -638,6 +645,7 @@ app = new RushHour "a"
 """
 	c:
 		app : "reset()|enter_cars()|enter_move()|begin()|backward()|forward()|end()"
+	d : "reset()|enter_move 'G'|enter_move 'AAA'|enter_move 'fd'|enter_move 'cc'"
 	e:
 		RushHour : "https://en.wikipedia.org/wiki/Rush_Hour_(board_game)"
 

@@ -65,8 +65,9 @@ class Kalkylator extends Application
 			else if cmd of @words then @execute @words[cmd]
 			else @stack.unshift eval cmd
 
-	enter : ->
-		commands = @readText()
+	enter : (s='') ->
+		commands = s
+		if s=='' then commands = @readText()
 		if commands=="" then return
 		arr = commands.split ' '
 		if arr[0]==':' then @words[arr[1]] = arr[2..]
@@ -76,6 +77,7 @@ app = new Kalkylator "a"
 """
 	c:
 		app : "reset()|chs()|swap()|drop()|dup()|sqrt()|clr()|pi()|enter()"
+	d : "reset()|clr()|enter '3'|enter '4'|enter '*'|enter '13'|swap()|dup()|sqrt()|drop()|clr()|pi()"
 	e:
 		parseInt : "https://www.w3schools.com/jsref/jsref_parseint.asp"
 		stack : "https://sv.wikipedia.org/wiki/Stack_(datastruktur)"
@@ -156,6 +158,7 @@ app = new Klocka "a"
 """
 	c:
 		app : "reset()|hour -1|hour +1|minute -1|minute +1|second -1|second +1|now()"
+	d : "reset()|hour -1|hour +1|minute -1|minute +1|second -1|second +1|now()"
 
 ID_Korg =
 	v:'2017-04-29'
@@ -207,6 +210,7 @@ app = new Korg "a"
 """
 	c:
 		app : "reset()|more()|less()|thinner()|thicker()"
+	d : "reset()|more()|less()|thinner()|thicker()"
 
 ID_Korsord =
 	v:'2017-04-29'
@@ -255,4 +259,4 @@ app = new Korsord "a"
 """
 	c:
 		app : "reset()|enter()"
-
+	d : "reset()"

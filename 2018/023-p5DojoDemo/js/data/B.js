@@ -40,10 +40,11 @@ ID_BeeHaiku3D = {
   k: 'bg sc fc range for if quad line operators class []',
   l: 81,
   b: "# . rita/rita ej\n# 123456789 förflyttning\n# i pos i-axel\n# I neg i-axel\n# j pos j-axel\n# J neg J-axel\n# k pos k-axel\n# K neg k-axel\n# Exempel: .9j9I9J9\n\nclass BeeHaiku3D extends Application\n	reset : (n,dx,dy)->\n		super\n	draw : ->\n	enter : ->\n	mousePressed : ->\napp = new BeeHaiku3D",
-  a: "class BeeHaiku3D extends Application\n	reset : (n,dx,dy)->\n		super\n		@SHADE = [0.5,0.75,1]\n		@N = n\n		@DX = dx\n		@DY = dy\n		@showGrid = true\n		@clear()\n	clear : -> @blocks = Array(@N*@N*@N).fill 0\n	add : (i,j,k) -> @blocks[@N*@N*k+@N*j+i] = 1\n	draw : ->\n		bg 0.5\n		if @showGrid then @grid()\n		sc()\n		@drawBlock index for index in range @N*@N*@N\n	drawBlock : (index) ->\n		f = (i,j,k) => [100+(@N-i)*2*@DY-2*(@N-j)*@DY, 200-(@N-j)*@DY-(@N-i)*@DY - k*2*@DY]\n		q = (a,b,c,d) -> quad a[0],a[1], b[0],b[1], c[0],c[1], d[0],d[1]\n		ix=index\n		i = ix % @N; ix //= @N\n		j = ix % @N; ix //= @N\n		k = ix\n		block = @blocks[index]\n		if not block? or block==0 then return\n		[r,g,b] = [i/(@N-1),j/(@N-1),k/(@N-1)] # borde vara i,j,k\n		p0 = f i,  j,  k # egentligen osynlig\n		p1 = f i+1,j,  k\n		p2 = f i,  j+1,k\n		p3 = f i+1,j+1,k\n		p4 = f i  ,j,  k+1\n		p5 = f i+1,j,  k+1\n		p6 = f i  ,j+1,k+1\n		p7 = f i+1,j+1,k+1\n		[si,sj,sk] = @SHADE\n		fc r*sj,g*sj,b*sj\n		q p2,p6,p7,p3 # left\n		fc r*si,g*si,b*si\n		q p1,p3,p7,p5 # right\n		fc r*sk,g*sk,b*sk\n		q p4,p5,p7,p6 # roof\n	grid : ->\n		sc 0.75\n		[h2,h3,h4] = [200-2*@N*@DY, 200-@N*@DY, 200]\n		[w2,w3,w4] = [100-@N*@DX,   100,        100+@N*@DX]\n		for i in range @N+1\n			line w3+@DX*i, h4-@DY*i, w2+@DX*i, h3-@DY*i\n			line w2+@DX*i, h3+@DY*i, w3+@DX*i, h2+@DY*i\n	mousePressed : ->\n		@showGrid = not @showGrid\n		@enter()\n	enter : ->\n		@trace = ''\n		move = (di,dj,dk,steps) =>\n			for n in range steps\n				if pen then @add i,j,k\n				i += di\n				j += dj\n				k += dk\n			@trace += steps + ' [' + i + ' ' + j + ' ' + k + '] '\n		i = 0\n		j = 0\n		k = 0\n		dir = 'i'\n		pen = false\n		s = @readText().trim()\n		for c in s\n			if c in 'iIjJkK'\n				dir=c\n				@trace += c\n			else if c=='.' then	pen = not pen\n			else if c==' '\n			else\n				steps = parseInt c\n				if dir=='i' then move 1,0,0,steps\n				else if dir=='I' then move -1,0,0,steps\n				else if dir=='j' then move 0,1,0,steps\n				else if dir=='J' then move 0,-1,0,steps\n				else if dir=='k' then move 0,0,1,steps\n				else if dir=='K' then move 0,0,-1,steps\napp = new BeeHaiku3D \"a\"\n",
+  a: "class BeeHaiku3D extends Application\n	reset : (n,dx,dy)->\n		super\n		@SHADE = [0.5,0.75,1]\n		@N = n\n		@DX = dx\n		@DY = dy\n		@showGrid = true\n		@clear()\n	clear : -> @blocks = Array(@N*@N*@N).fill 0\n	add : (i,j,k) -> @blocks[@N*@N*k+@N*j+i] = 1\n	draw : ->\n		bg 0.5\n		if @showGrid then @grid()\n		sc()\n		@drawBlock index for index in range @N*@N*@N\n	drawBlock : (index) ->\n		f = (i,j,k) => [100+(@N-i)*2*@DY-2*(@N-j)*@DY, 200-(@N-j)*@DY-(@N-i)*@DY - k*2*@DY]\n		q = (a,b,c,d) -> quad a[0],a[1], b[0],b[1], c[0],c[1], d[0],d[1]\n		ix=index\n		i = ix % @N; ix //= @N\n		j = ix % @N; ix //= @N\n		k = ix\n		block = @blocks[index]\n		if not block? or block==0 then return\n		[r,g,b] = [i/(@N-1),j/(@N-1),k/(@N-1)] # borde vara i,j,k\n		p0 = f i,  j,  k # egentligen osynlig\n		p1 = f i+1,j,  k\n		p2 = f i,  j+1,k\n		p3 = f i+1,j+1,k\n		p4 = f i  ,j,  k+1\n		p5 = f i+1,j,  k+1\n		p6 = f i  ,j+1,k+1\n		p7 = f i+1,j+1,k+1\n		[si,sj,sk] = @SHADE\n		fc r*sj,g*sj,b*sj\n		q p2,p6,p7,p3 # left\n		fc r*si,g*si,b*si\n		q p1,p3,p7,p5 # right\n		fc r*sk,g*sk,b*sk\n		q p4,p5,p7,p6 # roof\n	grid : ->\n		sc 0.75\n		[h2,h3,h4] = [200-2*@N*@DY, 200-@N*@DY, 200]\n		[w2,w3,w4] = [100-@N*@DX,   100,        100+@N*@DX]\n		for i in range @N+1\n			line w3+@DX*i, h4-@DY*i, w2+@DX*i, h3-@DY*i\n			line w2+@DX*i, h3+@DY*i, w3+@DX*i, h2+@DY*i\n	mousePressed : ->\n		@showGrid = not @showGrid\n		@enter()\n	enter : (q='') ->\n		@trace = ''\n		move = (di,dj,dk,steps) =>\n			for n in range steps\n				if pen then @add i,j,k\n				i += di\n				j += dj\n				k += dk\n			@trace += steps + ' [' + i + ' ' + j + ' ' + k + '] '\n		i = 0\n		j = 0\n		k = 0\n		dir = 'i'\n		pen = false\n		s = q\n		if q=='' then s = @readText().trim()\n		for c in s\n			if c in 'iIjJkK'\n				dir=c\n				@trace += c\n			else if c=='.' then	pen = not pen\n			else if c==' '\n			else\n				steps = parseInt c\n				if dir=='i' then move 1,0,0,steps\n				else if dir=='I' then move -1,0,0,steps\n				else if dir=='j' then move 0,1,0,steps\n				else if dir=='J' then move 0,-1,0,steps\n				else if dir=='k' then move 0,0,1,steps\n				else if dir=='K' then move 0,0,-1,steps\napp = new BeeHaiku3D \"a\"\n",
   c: {
     app: "reset 2,50,25|reset 10,10,5|reset 17,6,3|enter()"
   },
+  d: "reset 10,10,5|enter '.9j9I9J9'",
   e: {
     ForthHaiku: "http://forthsalon.appspot.com/haiku-editor",
     Exempel: 'ForthHaiku3D.html',
@@ -60,6 +61,7 @@ ID_BlackBox2D = {
   c: {
     app: "reset()|up()|down()"
   },
+  d: "reset()|up()|down()",
   e: {
     Operatorer: "https://www.w3schools.com/jsref/jsref_operators.asp",
     BlackBox: "https://en.wikipedia.org/wiki/Black_box"
@@ -92,7 +94,8 @@ ID_BouncingBalls = {
   a: "class Ball\n	constructor : ->\n		@x = 100\n		@y = 100\n		@r = 10\n		@c = 1\n		@dx = 3\n		@dy = 4\n	update : (grav) ->\n		@x += @dx\n		@y += @dy\n		if not (@r < @x < 200-@r) then @dx = - @dx\n		if not (@r < @y < 200-@r) then @dy = - @dy\n		if grav and @y < 200-@r then @dy += 1\n	render : (sel) ->\n		fill cc @c\n		sw 2\n		if sel then stroke cct @c else sc()\n		circle @x,@y,@r\n\nclass BouncingBalls extends Application\n	classes : -> [Ball]\n	reset : ->\n		super\n		@balls = []\n		@sel = -1\n		@grav = false\n	draw : ->\n		for ball,i in @balls\n			ball.render i==@sel, @grav\n	update : ->\n		for ball in @balls\n			ball.update(@grav)\n\n	add : ->\n		@balls.push new Ball\n		@sel = @balls.length - 1\n\n	delete :->\n		@balls.splice @sel, 1\n		if @sel >= @balls.length then @sel = @balls.length - 1\n	selNext : -> @sel = (@sel + 1) %% @balls.length\n	selPrev : -> @sel = (@sel - 1) %% @balls.length\n	grow : ->    @balls[@sel].r++\n	shrink : ->  @balls[@sel].r--\n	nextCol : -> @balls[@sel].c = (@balls[@sel].c+1) %% 32\n	prevCol : -> @balls[@sel].c = (@balls[@sel].c-1) %% 32\n	gravity : -> @grav = not @grav\n\napp = new BouncingBalls \"a\"",
   c: {
     app: "reset()|update()|add()|delete()|selNext()|selPrev()|grow()|shrink()|nextCol()|prevCol()|gravity()"
-  }
+  },
+  d: "reset()|gravity()|add()|update()|add()|update()|selNext()|update()|selPrev()|update()|grow()|update()|nextCol()|update()|prevCol()|shrink()|delete()"
 };
 
 ID_Braid = {
@@ -116,6 +119,7 @@ ID_Braider = {
   c: {
     app: "braid 1|braid 2|braid 3|braid 4|forward()|back()"
   },
+  d: "braid 3|forward()|forward()|forward()|forward()|forward()|forward()|forward()|forward()|forward()|forward()",
   e: {
     braid: "https://cdn.tutsplus.com/vector/uploads/legacy/tuts/000-2011/398-hair-braid/6.jpg"
   }

@@ -5,6 +5,7 @@
 # a : original code
 # c : commands
 # e : links
+# d : demo
 
 data =
 	"L1: bg point sc sw" :

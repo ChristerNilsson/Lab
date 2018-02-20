@@ -85,6 +85,7 @@ app = new ALU "a"
 """
 	c:
 		app : "reset()"
+	d : "reset()|mousePressed 130,10|mousePressed 50,30|mousePressed 50,30|mousePressed 50,30"
 	e:
 		Nand2Tetris : "http://www.nand2tetris.org/chapters/chapter%2002.pdf"
 
@@ -125,10 +126,10 @@ class Nian extends Application
 		for ch, f of f2
 			if f > f1[ch] then return false
 		true
-	enter : ->
+	enter : (letters='') ->
 		words = ordlista.split " "
 		patterns = (@bits word for word in words)
-		@letters = @readText()
+		if letters=='' then @letters = @readText() else @letters = letters
 		mandatory = @letters[4]
 		@found = []
 		p = @bits @letters
@@ -145,6 +146,7 @@ app = new Nian "a"
 """
 	c:
 		app : "reset()|enter()"
+	d : "reset()|enter 'aaefkrrtu'"
 
 	e:
 		Nian : "http://svenska-apps.se/iphone-ipad/underhallning/svd-nian-babqpg.html"
@@ -245,6 +247,7 @@ app = new Nim "a"
 """
 	c:
 		app : "reset()|newGame()"
+	d : "reset()|mousePressed 100,100|mousePressed 100,100|mousePressed 100,100|mousePressed 90,90|mousePressed 90,90"
 	e:
 		Nim : "https://en.wikipedia.org/wiki/Nim"
 		xor : "https://en.wikipedia.org/wiki/Bitwise_operation#XOR"

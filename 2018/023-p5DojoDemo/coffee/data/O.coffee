@@ -37,6 +37,7 @@ app = new Ring "a"
 """
 	c:
 		app : "reset()|start -1|start +1|stopp -1|stopp +1|radius -1|radius +1|width -1|width +1"
+	d : "reset()|start -1|start +1|stopp -1|stopp +1|radius -1|radius +1|width -1|width +1"
 
 ID_OlympicRings =
 	v:'2017-04-29'

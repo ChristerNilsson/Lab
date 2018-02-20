@@ -8,6 +8,7 @@
 // a : original code
 // c : commands
 // e : links
+// d : demo
 var data;
 
 data = {

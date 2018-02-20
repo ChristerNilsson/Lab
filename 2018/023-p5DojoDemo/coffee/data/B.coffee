@@ -117,7 +117,7 @@ class BeeHaiku3D extends Application
 	mousePressed : ->
 		@showGrid = not @showGrid
 		@enter()
-	enter : ->
+	enter : (q='') ->
 		@trace = ''
 		move = (di,dj,dk,steps) =>
 			for n in range steps
@@ -131,7 +131,8 @@ class BeeHaiku3D extends Application
 		k = 0
 		dir = 'i'
 		pen = false
-		s = @readText().trim()
+		s = q
+		if q=='' then s = @readText().trim()
 		for c in s
 			if c in 'iIjJkK'
 				dir=c
@@ -151,6 +152,7 @@ app = new BeeHaiku3D "a"
 """
 	c:
 		app : "reset 2,50,25|reset 10,10,5|reset 17,6,3|enter()"
+	d : "reset 10,10,5|enter '.9j9I9J9'"
 	e:
 		ForthHaiku : "http://forthsalon.appspot.com/haiku-editor"
 		Exempel : 'ForthHaiku3D.html'
@@ -211,6 +213,7 @@ app = new BlackBox2D "a"
 """
 	c:
 		app : "reset()|up()|down()"
+	d : "reset()|up()|down()"
 	e:
 		Operatorer : "https://www.w3schools.com/jsref/jsref_operators.asp"
 		BlackBox : "https://en.wikipedia.org/wiki/Black_box"
@@ -348,6 +351,7 @@ app = new BouncingBalls "a"
 """
 	c:
 		app : "reset()|update()|add()|delete()|selNext()|selPrev()|grow()|shrink()|nextCol()|prevCol()|gravity()"
+	d : "reset()|gravity()|add()|update()|add()|update()|selNext()|update()|selPrev()|update()|grow()|update()|nextCol()|update()|prevCol()|shrink()|delete()"
 
 ID_Braid =
 	v:'2017-04-29'
@@ -483,6 +487,7 @@ app = new Braider "a"
 """
 	c:
 		app : "braid 1|braid 2|braid 3|braid 4|forward()|back()"
+	d : "braid 3|forward()|forward()|forward()|forward()|forward()|forward()|forward()|forward()|forward()|forward()"
 
 	e:
 		braid : "https://cdn.tutsplus.com/vector/uploads/legacy/tuts/000-2011/398-hair-braid/6.jpg"

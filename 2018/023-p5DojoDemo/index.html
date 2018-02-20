@@ -13,15 +13,6 @@
     <script src="libraries/coffee-script.js"></script>
     <script src="libraries/FileSaver.js"></script>
 
-    <script src="lib/codemirror/codemirror.js"></script>
-    <script src="lib/codemirror/keymap/sublime.js"></script>
-    <script src="lib/codemirror/addon/comment/comment.js"></script>
-    <script src="lib/codemirror/addon/edit/closebrackets.js"></script>
-    <script src="lib/codemirror/addon/edit/matchbrackets.js"></script>
-    <link rel="stylesheet" href="lib/codemirror/codemirror.css">
-    <link rel="stylesheet" href="lib/codemirror/theme/dracula.css">
-    <script src="lib/codemirror/mode/coffeescript/coffeescript.js"></script>
-
     <script src="js/application.js"></script>
 
     <script src="js/data/ZL.js"></script>
@@ -71,15 +62,10 @@
     </style>
 
   </head>
-  <body bgcolor="#808080">
-
-    <table id='meny' style="position:absolute; top:0px; left:0px; width:211px; border-spacing:0px"></table>
-
-    <textarea id="code" wrap="soft"></textarea>
-    <div id="canvas" style="position:absolute; top:5px; left:210px; width:211px; height:635px"></div>
-    <input type="text" id='input' onClick="this.select();" style="font-family:monospace; font-size:18px; position:absolute; top:640px; left:205px; width:403px">
-
-    <table id="tabell" style="font-family:monospace; font-size:20px; position:absolute; top:670px; left:209px;" border="0px"></table>
-    <textarea id="msg" rows=3 wrap="soft" readonly style="font-size:20px; color:#FFFFFF; position:absolute; top:640px; left:415px; width:700px;"></textarea>
+  <body bgcolor="#808080" style = "font-size:30px">
+    <div id="canvas"></div>
+    <div id=chapter>Chapter</div>
+    <div id=exercise>Exercise</div>
+    <div id=command>Command</div>
   </body>
 </html>

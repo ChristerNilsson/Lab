@@ -50,6 +50,7 @@ app = new AlphaNumeric "a"
 """
 	c:
 		app: "reset()|add()|del()|left()|right()"
+	d: "reset()|right()|add()|mousePressed 100,100|left()|right()|del()"
 	e:
 		binärt : "http://www.matteboken.se/lektioner/matte-1/tal/talsystem"
 		hexadecimalt : "http://www.matteguiden.se/matte-1/grunder/binara-och-hexadecimala-tal"
@@ -142,6 +143,7 @@ app = new Angle "a"
 """
 	c:
 		app : "reset()"
+	d : "reset()|mousePressed 150,100|mousePressed 60,30"
 
 ID_Average =
 	v:'2017-09-16'

@@ -54,7 +54,7 @@ class Hex extends Application
 				x = 100+i*(2*@A+1) + @A*j
 				y = 100+j*(2*@B+@C-1)
 				bc = @B+@C
-				sc 0,1,0
+				sc() # 0,1,0
 				fc 0,1,0
 				quad x,y-bc, x,y+bc, x-@A,y+@C, x-@A,y-@C
 				quad x,y-bc, x,y+bc, x+@A,y+@C, x+@A,y-@C
@@ -70,6 +70,7 @@ app = new Hex "a"
 """
 	c:
 		app : "reset()|newGame()|undo()"
+	d : "reset()|newGame()|mousePressed 100,100|mousePressed 100,80|mousePressed 80,80|mousePressed 30,50|mousePressed 140,50|undo()|undo()|undo()|undo()|undo()"
 	e:
 		Play : "http://www.lutanho.net/play/hex.html"
 		Wikipedia : "https://en.wikipedia.org/wiki/Hex_(board_game)"

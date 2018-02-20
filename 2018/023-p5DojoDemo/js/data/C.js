@@ -39,6 +39,7 @@ ID_ChessOne = {
   c: {
     app: "reset()"
   },
+  d: "reset()|mousePressed 100,100|mousePressed 180,60|mousePressed 150,150",
   e: {
     Schack: "https://schackonline.com/skolan/nyborjare/pjaser/pjaser.php"
   }
@@ -52,7 +53,8 @@ ID_ChessMany = {
   a: "class ChessMany extends Application\n	reset : ->\n		super\n		@moves =\n			King   : [false,[[-1,0],[1,0],[0,-1],[0,1],[-1,-1],[1,1],[1,-1],[-1,1]]]\n			Queen  : [true,[[-1,0],[1,0],[0,-1],[0,1],[-1,-1],[1,1],[1,-1],[-1,1]]]\n			Rook   : [true,[[-1,0],[1,0],[0,-1],[0,1]]]\n			Bishop : [true,[[-1,-1],[1,1],[1,-1],[-1,1]]]\n			Knight : [false,[[-1,-2],[-1,2],[1,-2],[1,2],[-2,-1],[-2,1],[2,-1],[2,1]]]\n		@currentPiece = 'King'\n		@currentCol = 4\n		@currentRow = 7\n\n	genDir : (multi,sq,dxdy) ->\n		[dx,dy] = dxdy\n		squares = []\n		maximum = if multi then 7 else 1\n		[col,row] = sq\n		for i in range maximum\n			col += dx\n			row += dy\n			if 0<=col<=7 and 0<=row<=7 then squares.push [col,row]\n		squares\n\n	oneGeneration : (piece,sq) ->\n		[multi,drag] = @moves[piece]\n		squares = []\n		squares = squares.concat @genDir multi,sq,dxdy for dxdy in drag\n		squares\n\n	recurse : (level,piece,front,reached) ->\n		if front.length==0 then return reached\n		candidates = []\n		candidates = candidates.concat @oneGeneration piece,sq for sq in front\n		newFront = []\n		for candidate in candidates\n			key = candidate.toString()\n			if key not in _.keys reached\n				reached[key] = level\n				newFront.push candidate\n		@recurse level+1, piece, newFront, reached\n\n	solve : (piece,sq) ->\n		reached = {}\n		reached[sq.toString()] = 0\n		@recurse 1,piece,[sq],reached\n\n	draw  : ->\n		bg 0.5\n\n		for i in range 8\n			for j in range 8\n				fc (i+j+1)%2\n				rect 20*i,20*j,20,20\n\n		sc()\n		textAlign RIGHT,CENTER\n		textSize 13\n		for piece,i in _.keys @moves\n			if piece == @currentPiece then fc 1,1,0 else fc 0\n			text piece,200,10+20*i\n\n		textAlign CENTER,CENTER\n		textSize 16\n		reached = @solve @currentPiece,[@currentCol,@currentRow]\n		fc 1,0,0\n		for key,level of reached\n			arr = key.split ','\n			col = int arr[0]\n			row = int arr[1]\n			text level, 10+20*col,12+20*row\n\n	mousePressed : (mx,my) ->\n		if my >= 160 then return\n		if mx < 160\n			@currentCol = int mx/20\n			@currentRow = int my/20\n		else if my < 100\n			@currentPiece = _.keys(@moves)[int my/20]\n\napp = new ChessMany \"a\"",
   c: {
     app: "reset()"
-  }
+  },
+  d: "reset()|mousePressed 100,100|mousePressed 200,40|mousePressed 0,200"
 };
 
 ID_ChessRow = {
@@ -72,6 +74,7 @@ ID_ClickDetector = {
   c: {
     app: "reset()"
   },
+  d: "reset()|mousePressed 70,70|mousePressed 90,90|mousePressed 100,100",
   e: {
     Triangle: "http://stackoverflow.com/questions/2049582/how-to-determine-if-a-point-is-in-a-2d-triangle"
   }
@@ -105,6 +108,7 @@ ID_ColorCube = {
   c: {
     app: "reset()|undo()"
   },
+  d: "reset()|mousePressed 30,30|mousePressed 40,40|undo()",
   e: {
     ColorCube: "https://www.google.se/search?q=color+cube&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjo3_Cm3Y7TAhUJb5oKHcFhCKQQsAQIJg&biw=1745&bih=963&dpr=1.1"
   }
@@ -115,10 +119,11 @@ ID_ColorPair = {
   k: 'fc circle [] .. dist _.isEqual colorMode HSB _.max _.pairs _.sortBy for class',
   l: 41,
   b: "class ColorPair extends Application\n	reset : ->\n		super\n		@seed = 0\n	draw : ->\n	mousePressed : (mx,my) ->\n	enterName : ->\n	randint : (n) -> int n * fraction 10000 * Math.sin @seed++\napp = new ColorPair",
-  a: "class ColorPair extends Application\n	reset : ->\n		super\n		@radius = 0\n		@seed = 0\n		@level = 0\n		@changeLevel 1\n		@name = \"\"\n		@highScore = {}\n\n	randint : (n) -> int n * fraction 10000 * Math.sin @seed++\n\n	draw : ->\n		bg 1\n		sw 2\n		sc 1,1,1,0.5\n		colorMode HSB\n		for [x,y,c] in @circles\n			fill color c,100,100,0.5\n			circle x,y,@radius\n\n	mousePressed : (mx,my) ->\n		hitlist = []\n		for [x,y,c],i in @circles\n			if dist(x,y,mx,my) < @radius then hitlist.push i\n		if hitlist.length == 1\n			i = hitlist[0]\n			circle = @circles[i]\n			if @memory == -1\n				@memory = circle[2]\n				@circles.splice i,1\n			else if _.isEqual(@memory, circle[2])\n				@memory = -1\n				@circles.splice i,1\n				if @circles.length == 0\n					@updateHighScore() if @name != \"\"\n					@changeLevel 1\n			else\n				@changeLevel -1\n		else\n			@changeLevel -1\n\n	updateHighScore : ->\n		@highScore[@name] = _.max [@level, @highScore[@name]]\n		@topList = _.pairs @highScore\n		@topList = _.sortBy @topList, ([name,level]) -> -level\n\n	changeLevel : (d) ->\n		@memory = -1\n		@level = constrain @level+d, 1, 20\n		@circles = []\n		@radius = 50\n		for i in range @level\n			@radius *= 0.95\n			c = int i * 360 / @level\n			@circles.push [@randint(200), @randint(200), c]\n			@circles.push [@randint(200), @randint(200), c]\n\n	enterName : -> @name = @readText()\n\napp = new ColorPair \"a\"",
+  a: "class ColorPair extends Application\n	reset : ->\n		super\n		@radius = 0\n		@seed = 0\n		@level = 0\n		@changeLevel 1\n		@name = \"\"\n		@highScore = {}\n\n	randint : (n) -> int n * fraction 10000 * Math.sin @seed++\n\n	draw : ->\n		bg 1\n		sw 2\n		sc 1,1,1,0.5\n		colorMode HSB\n		for [x,y,c] in @circles\n			fill color c,100,100,0.5\n			circle x,y,@radius\n\n	mousePressed : (mx,my) ->\n		hitlist = []\n		for [x,y,c],i in @circles\n			if dist(x,y,mx,my) < @radius then hitlist.push i\n		if hitlist.length == 1\n			i = hitlist[0]\n			circle = @circles[i]\n			if @memory == -1\n				@memory = circle[2]\n				@circles.splice i,1\n			else if _.isEqual(@memory, circle[2])\n				@memory = -1\n				@circles.splice i,1\n				if @circles.length == 0\n					@updateHighScore() if @name != \"\"\n					@changeLevel 1\n			else\n				@changeLevel -1\n		else\n			@changeLevel -1\n\n	updateHighScore : ->\n		@highScore[@name] = _.max [@level, @highScore[@name]]\n		@topList = _.pairs @highScore\n		@topList = _.sortBy @topList, ([name,level]) -> -level\n\n	changeLevel : (d) ->\n		@memory = -1\n		@level = constrain @level+d, 1, 20\n		@circles = []\n		@radius = 50\n		for i in range @level\n			@radius *= 0.95\n			c = int i * 360 / @level\n			@circles.push [@randint(200), @randint(200), c]\n			@circles.push [@randint(200), @randint(200), c]\n\n	enterName : (name='') -> \n		@name = name\n		if name == '' then @name = @readText()\n\napp = new ColorPair \"a\"",
   c: {
     app: "reset()|enterName()"
   },
+  d: "reset()|enterName 'David'|mousePressed 190,50|mousePressed 20,140",
   e: {
     ColorPair: "https://christernilsson.github.io/ColorPair"
   }
@@ -133,6 +138,7 @@ ID_Complex = {
   c: {
     app: "reset()"
   },
+  d: "reset()|mousePressed 170,130|mousePressed 170,30|mousePressed 170,130|mousePressed 70,170|mousePressed 170,30",
   e: {
     "Komplexa tal": "http://www.matteboken.se/lektioner/matte-4/komplexa-tal/rakna-med-komplexa-tal"
   }
@@ -147,6 +153,7 @@ ID_Connect4 = {
   c: {
     app: "reset()|undo()"
   },
+  d: "reset()|mousePressed 100,0|mousePressed 150,0|mousePressed 100,0|undo()|undo()|undo()",
   e: {
     Wikipedia: "https://en.wikipedia.org/wiki/Connect_Four"
   }
@@ -160,7 +167,8 @@ ID_Coordinator = {
   a: "\nclass Coordinator extends Application\n	reset : ->\n		super\n		@seed = 0\n		@level = 1\n		@errors = 0\n		@newGame 0\n	newGame : (d) ->\n		if d==-1 then @errors++\n		@level = constrain @level+d, 1, 100\n		@radius = int 100/@level\n		@x = @randint 200\n		@y = @randint 200\n	draw : ->\n		fc 1,1,0\n		sc()\n		textAlign CENTER,CENTER\n		textSize 50\n		text @x + \",\" + @y,100,50\n		fc 0,1,0\n		text @level,67,150\n		fc 1,0,0\n		text @errors,133,150\n		fc()\n		sc 1,1,0\n		circle 100,100,@radius\n	mousePressed : (mx,my) ->\n		@seed += mx % 10\n		@newGame if @radius >= dist mx,my,@x,@y then 1 else -1\n	randint : (n) -> int n * fraction 10000 * Math.sin @seed++\n\napp = new Coordinator \"a\"",
   c: {
     app: "reset()"
-  }
+  },
+  d: "reset()"
 };
 
 ID_CornerPoints = {
@@ -204,7 +212,8 @@ ID_Counter = {
   a: "class Counter extends Application\n	reset : ->\n		super\n		@counter = 0\n	up : -> @counter += 1\n	down : -> @counter -= 1\n	draw : ->\n		bg 0.5\n		fc 1,1,0\n		sc()\n		textAlign CENTER,CENTER\n		textSize 100\n		text @counter,100,100\n	mousePressed : (mx,my) -> @counter += if my < 100 then 1 else -1\n\napp = new Counter \"a\"",
   c: {
     app: "reset()|up()|down()"
-  }
+  },
+  d: "reset()|up()|up()|up()"
 };
 
 ID_Cross = {

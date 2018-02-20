@@ -75,6 +75,8 @@ app = new GameOfLife "a"
 """
 	c:
 		app : "reset 10|reset 20|reset 40|tick()"
+#	d : "reset 40|mousePressed 105,100|mousePressed 110,105|mousePressed 100,110|mousePressed 105,110|mousePressed 110,110|tick()|tick()|tick()|tick()|tick()|tick()|tick()|tick()"
+	d : "reset 40|tick()|tick()|tick()|tick()|tick()|tick()|tick()|tick()"
 	e:
 		Wikipedia : "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
 
@@ -155,6 +157,7 @@ app = new GoldenStar "a"
 """
 	c:
 		app : "reset()|n -1|n +1|outer -1|outer +1|inner -1|inner +1"
+	d : "reset()|n -1|n +1|n +1|outer -10|outer +10|inner -1|inner +1"
 
 ID_GreenEllipse =
 	v:'2017-04-29'
@@ -283,6 +286,7 @@ app = new Guess "a"
 			"""
 	c:
 		app : "reset()|newGame()"
+	d : "reset()|newGame()|mousePressed 75,75|mousePressed 100,125"
 
 ID_GuessANumberHex =
 	v:'2017-05-11'
@@ -337,6 +341,7 @@ app = new GuessANumberHex "a"
 			"""
 	c:
 		app : "reset()|newGame()"
+	d : "reset()|newGame()|mousePressed 100,100|mousePressed 100,150|mousePressed 50,50"
 
 ID_GUI =
 	v:'2017-09-29'
@@ -393,3 +398,4 @@ app = new GUI "a"
 """
 	c:
 		app : "reset()|up()|down()|left()|right()"
+	d : "reset()|up()|down()|left()|right()"

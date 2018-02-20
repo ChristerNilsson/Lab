@@ -54,6 +54,7 @@ ID_MineSweeper = {
   c: {
     app: "reset 20,10|reset 20,20|reset 20,30|reset 10,40"
   },
+  d: "reset 20,20|mousePressed 100,100|mousePressed 150,150",
   e: {
     CodingTrain: "https://www.youtube.com/watch?v=LFU5ZlrR21E",
     Wikipedia: "https://en.wikipedia.org/wiki/Minesweeper_(video_game)"
@@ -69,6 +70,7 @@ ID_Moire = {
   c: {
     app: "reset()"
   },
+  d: 'reset()|mousePressed(50,50)|mousePressed(150,150)',
   e: {
     Wikipedia: "https://en.wikipedia.org/wiki/Moir%C3%A9_pattern"
   }
@@ -82,6 +84,7 @@ ID_MultiTimer = {
   a: "class MultiTimer extends Application\n	reset : ->\n		super\n		@start = int millis()\n		@buttons = [[0,0,\"A\",0],[100,0,\"B\",0],[0,50,\"C\",0],[100,50,\"D\",0],[0,100,\"E\",0],[100,100,\"F\",0],[0,150,\"G\",0],[100,150,\"H\",0]]\n		@active = -1\n	draw : ->\n		bg 0\n		textFont \"monospace\"\n		textSize 24\n		sc()\n		for [x,y,txt,time],i in @buttons\n			if @active==i then fc 1,0,0 else fc 1,1,0\n			textAlign LEFT,TOP\n			text txt, x+10,y\n			textAlign RIGHT,TOP\n			secs = round time/1000\n			text nf(int(secs / 60),2) + ':' + nf(secs % 60,2), x+100,y\n	mousePressed : (mx,my) ->\n		for [x,y,txt,time],i in @buttons\n			if x <= mx <= x+100 and y <= my <= y+50 then active = i\n		if active == @active\n			@buttons[@active][3] += int millis() - @start\n			@active = -1\n		else if @active == -1\n			@active = active\n		else # byte\n			@buttons[@active][3] += int millis() - @start\n			@active = active\n		@start = int millis()\n\napp = new MultiTimer \"a\"",
   c: {
     app: "reset()"
-  }
+  },
+  d: "reset()|mousePressed 10,10|mousePressed 10,10"
 };
 //# sourceMappingURL=M.js.map

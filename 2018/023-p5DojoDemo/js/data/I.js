@@ -12,6 +12,7 @@ ID_IndianSun = {
   c: {
     app: "reset()"
   },
+  d: "reset()|mousePressed 100,50|mousePressed 100,50|mousePressed 100,50|mousePressed 100,50",
   e: {
     Kojo: "http://www.kogics.net/codesketch?id=28"
   }

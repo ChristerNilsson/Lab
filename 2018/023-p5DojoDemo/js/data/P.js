@@ -31,7 +31,8 @@ ID_Paint = {
   a: "class Paint extends Application\n	reset : ->\n		super\n		@picture = (Array(20).fill(0) for i in range 18)\n		@selected = 3\n		@history = []\n		@state = 0\n	draw : ->\n		sc()\n		for i in range 32\n			index = i+@state*32\n			fill cc index\n			x = i % 16 * 10\n			y = 10 * int i/16\n			rect x,y,10,10\n			if index == @selected\n				fill cct @selected\n				circle x+5,y+5,3\n		for i in range 20\n			for j in range 18\n				fill cc @picture[j][i]\n				rect 10*i,20+10*j,10,10\n	mousePressed : (mx,my) ->\n		i = int mx/10\n		j = int my/10\n		if j<=1\n			if i <= 15 then @selected = 32*@state + 16*j + i\n			else return @state = 1-@state\n		else\n			j -= 2\n			@history.push [j,i,@picture[j][i]]\n			@picture[j][i] = @selected\n	undo : ->\n		if @history.length==0 then return\n		[a,b,c] = @history.pop()\n		@picture[a][b] = c\n\napp = new Paint \"a\"",
   c: {
     app: "reset()|undo()"
-  }
+  },
+  d: "reset()|mousePressed 13,97|mousePressed 20,20|mousePressed 97,13|mousePressed 100,100|undo()|undo()|undo()"
 };
 
 ID_PentaLerp = {
@@ -50,7 +51,8 @@ ID_PickingBerries = {
   a: "class PickingBerries extends Application\n\n	reset : ->\n		super\n		@SPEEDS = [1,5,20,50]\n		@x = 100\n		@y = 100\n		@speed = 2 # 0..3\n		@clicks = 0\n		@xs = [100,189,124,196,13,187,12,153,32,131]\n		@ys = [107,175,138,188,37,78,168,31,20,188]\n		@moves = \"\"\n		@dxdy = [[1,0],[0,1],[-1,0],[0,-1]]\n\n	draw : ->\n		bg 0\n		rectMode CENTER\n		sc 1\n		sw 1\n		rect @x,@y,2*@SPEEDS[@speed],2*@SPEEDS[@speed]\n		for [dx,dy] in @dxdy\n			for i in range 4\n				point @x+dx*@SPEEDS[i], @y+dy*@SPEEDS[i]\n\n		fc 1,1,0\n		sc()\n		textSize 20\n		textAlign CENTER,CENTER\n		text @clicks,100,180\n\n		sc 1,0,0\n		sw 2\n		for [x,y] in _.zip @xs,@ys\n			line x-3,y-3,x+3,y+3\n			line x+3,y-3,x-3,y+3\n\n	move : (i) ->\n		[dx,dy] = @dxdy[i]\n		@x += dx * @SPEEDS[@speed]\n		@y += dy * @SPEEDS[@speed]\n		@clicks++\n		@moves += 'abcd'[i]\n\n	setSpeed : (index) ->\n		@speed = index\n		@moves += index\n\n	right   : -> @move 0\n	down    : -> @move 1\n	left    : -> @move 2\n	up      : -> @move 3\n\n	snailSpeed : -> @setSpeed 0\n	slowSpeed  : -> @setSpeed 1\n	highSpeed  : -> @setSpeed 2\n	warpSpeed  : -> @setSpeed 3\n\n	step : (d) ->\n		@clicks++\n		constrain @zoom+d,0,3\n	pick : ->\n		for [x,y],i in _.zip @xs,@ys\n			if dist(x,y,@x,@y) <= 2\n				@xs.splice i,1\n				@ys.splice i,1\n				break\n		@clicks++\n\napp = new PickingBerries \"a\"",
   c: {
     app: "reset()|left()|right()|up()|down()|snailSpeed()|slowSpeed()|highSpeed()|warpSpeed()|pick()"
-  }
+  },
+  d: "reset()|left()|slowSpeed()|right()|highSpeed()|up()|snailSpeed()|down()|warpSpeed()|pick()"
 };
 
 ID_Polygon = {
@@ -61,6 +63,7 @@ ID_Polygon = {
   a: "class Turtle\n	constructor : (@r=1,@g=0,@b=0, @x=100,@y=10,@dir=0) ->\n	fd : (d) ->\n		dx = d*cos @dir\n		dy = d*sin @dir\n		sc @r,@g,@b\n		line @x,@y,@x+dx,@y+dy\n		@x += dx\n		@y += dy\n	rt : (a) ->\n		@dir +=a\n\nclass Polygon extends Application\n	reset : ->\n		super\n		@n = 6\n		@steg = 60\n\n	draw : ->\n		t = new Turtle()\n		bg 0\n		angleMode DEGREES\n		for i in range @n\n			t.fd @steg\n			t.rt 360/@n\n\n	antalSidor : (d) -> @n += d\n	antalSteg : (d) -> @steg += d\n\napp = new Polygon \"a\"",
   c: {
     app: "reset()|antalSidor -1|antalSidor +1|antalSteg -1|antalSteg +1|"
-  }
+  },
+  d: "reset()|antalSidor -1|antalSidor +1|antalSteg -1|antalSteg +1|"
 };
 //# sourceMappingURL=P.js.map

@@ -20,6 +20,8 @@ ID_GameOfLife = {
   c: {
     app: "reset 10|reset 20|reset 40|tick()"
   },
+  //	d : "reset 40|mousePressed 105,100|mousePressed 110,105|mousePressed 100,110|mousePressed 105,110|mousePressed 110,110|tick()|tick()|tick()|tick()|tick()|tick()|tick()|tick()"
+  d: "reset 40|tick()|tick()|tick()|tick()|tick()|tick()|tick()|tick()",
   e: {
     Wikipedia: "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life"
   }
@@ -41,7 +43,8 @@ ID_GoldenStar = {
   a: "class GoldenStar extends Application\n	reset : ->\n		super\n		@_X = 100\n		@_Y = 100\n		@_n = 4\n		@_outer = 100\n		@_inner = 25\n	n : (d) -> @_n = constrain @_n+d,3,12\n	outer : (d) -> @_outer = constrain @_outer+d, 0, 100\n	inner : (d) -> @_inner = constrain @_inner+d, 0, 100\n	draw : ->\n		bg 0\n		angleMode DEGREES\n		translate @_X,@_Y\n		v = 360/@_n\n		rotate -90\n		x1 = @_inner * cos v/2\n		y1 = @_inner * sin v/2\n		for i in range @_n\n			fc 1,1,0\n			triangle 0,0, @_outer,0, x1,y1\n			fc 1,0.7,0\n			triangle 0,0, @_outer,0, x1,-y1\n			rotate v\n\napp = new GoldenStar \"a\"",
   c: {
     app: "reset()|n -1|n +1|outer -1|outer +1|inner -1|inner +1"
-  }
+  },
+  d: "reset()|n -1|n +1|n +1|outer -10|outer +10|inner -1|inner +1"
 };
 
 ID_GreenEllipse = {
@@ -100,7 +103,8 @@ ID_GuessANumber = {
   a: "class Guess extends Application\n	reset : ->\n		super\n		@N = 100\n		@seed = 0\n		@newGame()\n\n	randint : (n) -> int n * fraction 10000 * Math.sin @seed++\n\n	newGame : ->\n		@start = 0\n		@stopp = @N-1\n		@secret = @randint @N\n\n	draw : ->\n		bg 0.1\n		textAlign CENTER,CENTER\n		for i in range @N\n			if @start <= i <= @stopp then fc 1 else fc 0.5\n			sc()\n			x = i % 10\n			y = int i / 10\n			text i, 10 + 20 * x, 10 + 20 * y\n\n	mousePressed : (mx,my) ->\n		guess = int mx/20 + 10 * int my/20\n		if guess <= @secret then @start = guess+1\n		if guess >= @secret then @stopp = guess-1\n\napp = new Guess \"a\"",
   c: {
     app: "reset()|newGame()"
-  }
+  },
+  d: "reset()|newGame()|mousePressed 75,75|mousePressed 100,125"
 };
 
 ID_GuessANumberHex = {
@@ -111,7 +115,8 @@ ID_GuessANumberHex = {
   a: "class GuessANumberHex extends Application\n	reset : ->\n		super\n		@BASE = 16\n		@N = @BASE*@BASE\n		@S = 200 / @BASE\n		@seed = 1\n		@newGame()\n	randint : (n) -> int n * fraction 10000 * Math.sin @seed++\n	newGame : ->\n		@start = 0\n		@stopp = @N-1\n		@secret = @randint @N\n		@count = 0\n	draw : ->\n		bg 0\n		textAlign CENTER,CENTER\n		textSize 9\n		for i in range @N\n			if @start <= i <= @stopp then fc 1 else fc 0.5\n			sc()\n			x = i % @BASE\n			y = int i / @BASE\n			text hex(i,2), @S/2 + @S * x, @S/2 + @S * y\n		fc 1,1,1,0.5\n		textSize 100\n		text @count,100,100\n	mousePressed : (mx,my) ->\n		guess = int mx/@S + @BASE * int my/@S\n		@seed += mx % 2\n		@count++\n		if guess <= @secret then @start = guess+1\n		if guess >= @secret then @stopp = guess-1\n\napp = new GuessANumberHex \"a\"",
   c: {
     app: "reset()|newGame()"
-  }
+  },
+  d: "reset()|newGame()|mousePressed 100,100|mousePressed 100,150|mousePressed 50,50"
 };
 
 ID_GUI = {
@@ -122,6 +127,7 @@ ID_GUI = {
   a: "class GUI extends Application\n	reset : ->\n		super\n		@current = 0\n		@prompts = []\n		@labels = []\n		@values = []\n		@add 'Fan o--- -o-- --o- ---o'\n		@add 'Temp o----- -o---- --o--- ---o-- ----o- -----o'\n		@add 'Blink Off Left Right'\n		@add 'Music Beatles Jazz Rock Stones'\n		@add 'Radio P1 P2 P3 P4 P5'\n		@add 'Volume 0 1 2 3 4 5 6 7 8 9'\n		@add 'Wipers o--- -o-- --o- ---o'\n\n	add : (s) ->\n		arr = s.split ' '\n		@prompts.push arr.shift()\n		@labels.push arr\n		@values.push 0\n\n	draw : ->\n		bg 0.5\n		sc()\n		textSize 20\n		for prompt,i in @prompts\n			if @current == i then fc 1,1,0 else fc 0\n			text prompt,10,30+25*i\n			text @labels[i][@values[i]],120,30+25*i\n\n	up : -> @current = (@current - 1) %% @prompts.length\n	down : -> @current = (@current + 1) %% @prompts.length\n	left : -> @values[@current] = (@values[@current]-1) %% @labels[@current].length\n	right : -> @values[@current] = (@values[@current]+1) %% @labels[@current].length\n\napp = new GUI \"a\"",
   c: {
     app: "reset()|up()|down()|left()|right()"
-  }
+  },
+  d: "reset()|up()|down()|left()|right()"
 };
 //# sourceMappingURL=G.js.map

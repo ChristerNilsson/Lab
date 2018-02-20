@@ -84,9 +84,10 @@ class Quiz extends Application
 			text "Grattis!",100,100
 		else
 			text @questions[@state][0],100,100
-	enter : (answer) ->
-		answer = @readText()
-		print answer,@questions[@state][1]
+	enter : (ans='') ->
+		answer = ans
+		if ans=='' then answer = @readText()
+		#print answer,@questions[@state][1]
 		if answer == @questions[@state][1] then @state++
 	randint : (n) -> int n * fraction 10000 * Math.sin @seed++
 
@@ -94,3 +95,4 @@ app = new Quiz "a"
 """
 	c:
 		app : "reset()|enter()"
+	d : "reset()|enter '27'|enter '28'"

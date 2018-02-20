@@ -48,6 +48,7 @@ app = new Digit "a"
 """
 	c:
 		app : "reset()"
+	d: "reset()|mousePressed 50,50|mousePressed 50,50|mousePressed 50,50|mousePressed 50,50"
 	e:
 		"7 segment" : "https://www.google.se/search?q=7+segment&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjg_5n55OrSAhWpZpoKHQP8DxoQ_AUIBigB&biw=1310&bih=945"
 
@@ -136,6 +137,7 @@ app = new Shortcut "a"
 """
 	c:
 		app : "reset()"
+	d: "reset()|mousePressed 160,120|mousePressed 180,180|mousePressed 100,120|mousePressed 160,120|mousePressed 180,180"
 
 ID_Shortcut2 =
 	v:'2017-05-04'
@@ -290,6 +292,7 @@ app = new Shortcut2 "a"
 """
 	c:
 		app : "reset()"
+	d : "reset()|mousePressed 33,175"
 
 ID_ShrinkingCircles =
 	v:'2017-10-31'
@@ -373,6 +376,7 @@ app = new SingaporeMult "a"
 """
 	c:
 		app : "reset()|first()|second()|more()|less()|bigger()|smaller()"
+	d : "reset()|more()|less()|bigger()|smaller()"
 	e:
 		'46x97' : "https://youtu.be/3EIBMzDdCd0?t=4m45s"
 
@@ -466,6 +470,7 @@ app = new SingaporeMultComplex "a"
 """
 	c:
 		app : "reset()|first()|second()|bigger()|smaller()"
+	d : "reset()|bigger()|smaller()"
 	e:
 		complex : "https://www.youtube.com/watch?v=xtKEvZr3zJQ"
 
@@ -577,6 +582,7 @@ app = new SingaporeMultPolynom "a"
 """
 	c:
 		app : "reset()|first()|second()|bigger()|smaller()"
+	d : "reset()|bigger()|smaller()"
 	e:
 		polynom : "https://www.youtube.com/watch?v=fGy9UMSm-_M"
 
@@ -659,6 +665,7 @@ app = new Snake "a"
 """
 	c:
 		app : "reset()|setSize 20|setSize 10|setSize 5|setSize 2"
+	d : "reset()|setSize 10|mousePressed 160,160|mousePressed 160,160|mousePressed 160,160|mousePressed 160,160|mousePressed 100,100|mousePressed 100,100"
 	e:
 		Snake : "https://en.wikipedia.org/wiki/Snake_(video_game)"
 
@@ -725,6 +732,7 @@ app = new Snake4 "a"
 """
 	c:
 		app : "reset()|setSize 20|setSize 10|setSize 5|setSize 2"
+	d : "reset()|setSize 20|mousePressed 150,100|mousePressed 100,50|mousePressed 50,100"
 	e:
 		Play : "http://patorjk.com/games/snake"
 		Source : "https://github.com/patorjk/JavaScript-Snake/blob/master/js/snake.js"
@@ -867,6 +875,7 @@ app = new Sokoban "a"
 """
 	c:
 		app : "reset()|undo()"
+	d : "reset()|mousePressed 100,145|mousePressed 100,145|mousePressed 120,165|mousePressed 120,165|mousePressed 80,165|mousePressed 80,165|mousePressed 100,185|mousePressed 100,185"
 	e:
 		Sokoban : "http://www.linusakesson.net/games/autosokoban/?v=1&seed=355842047&level=1"
 		Wikipedia : "https://en.wikipedia.org/wiki/Sokoban"
@@ -941,6 +950,7 @@ app = new Ship "a"
 """
 	c:
 		app: "reset()|left()|right()|forward()|shoot()"
+	d: "reset()|left()|right()|forward()|shoot()|right()|forward()|shoot()|right()|forward()|shoot()"
 
 ID_Square =
 	v:'2017-09-30'
@@ -987,6 +997,7 @@ app = new Square "a"
 """
 	c:
 		app : "reset()|horisontellt -1|horisontellt +1|vertikalt -1|vertikalt +1|storlek -1|storlek +1|tjocklek -1|tjocklek +1|rotera -1|rotera +1"
+	d: "reset()|horisontellt -1|horisontellt +1|vertikalt -1|vertikalt +1|storlek -1|storlek +1|tjocklek -1|tjocklek +1|rotera -1|rotera +1"
 
 ID_SquareHole =
 	v : '2017-04-29'
@@ -1047,6 +1058,7 @@ app = new Stopwatch "a"
 """
 	c:
 		app: "reset()"
+	d: "reset()|mousePressed 100,100"
 
 ID_Sunshine =
 	v:'2017-04-29'
