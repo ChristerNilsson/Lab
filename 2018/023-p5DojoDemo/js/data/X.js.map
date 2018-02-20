@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "X.js",
+  "sourceRoot": "..\\..",
+  "sources": [
+    "coffee\\data\\X.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA;;AAAA;AACC,KAAA,AAAE;AACF,KADA,AACE;AACF,KAFA,AAEE;AACF,KAHA,AAGG;AAOH,KAVA,AAUG;AAMH;AACC,4BAAA,AAAyB;AACzB,4BADA,AACwB;AACxB,qBAnBD,AAiBC,AAEkB;AAFlB;AAjBD",
+  "sourcesContent": [
+    "ID_X =\r\n\tv:'2017-10-05'\r\n\tk:'sw point'\r\n\tl:4\r\n\tb: \"\"\"\r\n\t             # Klicka på länken Koordinatsystem nedan till vänster för hjälp\r\nsw 10          # strokeWeight, strecktjocklek i pixlar\r\npoint  20, 40  # ritar en punkt med koordinaten x=20, y=40\r\npoint 100,200  # ritar en punkt med koordinaten x=100,y=200\r\n\r\n\"\"\"\r\n\ta: \"\"\"\r\nsw 20\r\npoint 0,0\r\npoint 100,0\r\npoint 200,0\r\n\"\"\"\r\n\te :\r\n\t\t\"Coordinate Trainer 1\" : \"https://christernilsson.github.io/Lab/2017/131-CoordTrainer/index.html\"\r\n\t\t\"Coordinate Trainer 2\": \"https://christernilsson.github.io/Lab/2017/133-CoordTrainer2/index.html\"\r\n\t\tKoordinatsystem : \"http://www.matteboken.se/lektioner/matte-1/funktioner/koordinatsystem\"\r\n\r\n"
+  ]
+}

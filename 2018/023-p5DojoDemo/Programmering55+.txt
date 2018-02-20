@@ -1,0 +1,26 @@
+Kursplan Programmering 55+
+
+1 Introduktion. Genomgång av miljön. Koordinater. Punkter.
+
+2 Cirklar. Färger. Storlekar. Sekvens. Genomskinlighet. Text.
+
+3 Sammansatta figurer. Trianglar. Fyrhörningar.
+
+4 Iteration. Rektanglar. Linjär interpolation. Variabler.
+
+5 Iteration, fortsättning. Linjer. Tjocklek.
+
+6 Villkor. Modulo-operatorn. Bågar.
+
+7 Funktioner. Parametrar. Assert.
+
+8 Objekt. Substantiv, Adjektiv, Verb.
+
+9 Övningar
+
+10 Övningar
+
+Miljö: https://christernilsson.github.io/p5Dojo/
+Material: https://github.com/ChristerNilsson/p5Dojo/blob/master/README.md#p5dojo
+Språk: http://coffeescript.org/
+Grafikbibliotek: p5. https://p5js.org

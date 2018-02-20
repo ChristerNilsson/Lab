@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "W.js",
+  "sourceRoot": "..\\..",
+  "sources": [
+    "coffee\\data\\W.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,gBAAA;;AAAA;AACC,KAAA,AAAE;AACF,KADA,AACE;AACF,KAFA,AAEE;AACF,KAHA,AAGE;AACF,KAJA,AAIE;AAJF;;AASD;AACC,KAAA,AAAE;AACF,KADA,AACE;AACF,KAFA,AAEE;AACF,KAHA,AAGE;AACF,KAJA,AAIE;AAJF",
+  "sourcesContent": [
+    "ID_WhiteCircle =\n\tv:'2017-04-29'\n\tk:'circle fc'\n\tl:2\n\tb:\"\"\n\ta:\"\"\"\nfc 1\ncircle 60,80,30\n\"\"\"\n\nID_WhiteEmptyCircle =\n\tv:'2017-10-30'\n\tk:'circle fc sw'\n\tl:3\n\tb:\"\"\n\ta:\"\"\"\nfc()\nsw 2\ncircle 70,90,40\n\"\"\"\n\n"
+  ]
+}

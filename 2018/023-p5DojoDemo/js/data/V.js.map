@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "V.js",
+  "sourceRoot": "..\\..",
+  "sources": [
+    "coffee\\data\\V.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,iBAAA;;AAAA;AACC,KAAA,AAAE;AACF,KADA,AACE;AACF,KAFA,AAEE;AACF,KAHA,AAGG;AACH,KAJA,AAIG;AAJH;;AAUD;AACC,KAAA,AAAE;AACF,KADA,AACE;AACF,KAFA,AAEE;AACF,KAHA,AAGE;AASF,KAZA,AAYE;AAZF",
+  "sourcesContent": [
+    "ID_VerticalLine =\n\tv:'2017-04-29'\n\tk:'sc sw line'\n\tl:3\n\tb: \"\"\n\ta: \"\"\"\nsc 1,1,0\nsw 10\nline 110,30, 110,170\n\"\"\"\n\nID_VerticalSquares =\n\tv:'2017-10-05'\n\tk:'range rect for lerp'\n\tl:3\n\tb:\"\"\"\n# LÄXA: Hela uppgiften\n# Kopiera föregående exempel så här:\n# 1 Gå till HorizontalSquares\n# 2 Markera allt med ctrl-A\n# 3 Kopiera med ctrl-C\n# 4 Gå till VerticalSquares\n# 5 Klistra in med ctrl-V\n\"\"\"\n\ta:\"\"\"\nfor i in range 10\n\ty = 5+20*i\n\trect 5,y, 10,10\n\"\"\"\n\n"
+  ]
+}

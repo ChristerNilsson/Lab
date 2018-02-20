@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "D.js",
+  "sourceRoot": "..\\..",
+  "sources": [
+    "coffee\\data\\D.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,cAAA,cAAA,oBAAA,UAAA;;AAAA;AACC,KAAA,AAAE;AACF,KADA,AACE;AACF,KAFA,AAEE;AACF,KAHA,AAGG;AACH,KAJA,AAIG;AAYH;AACC,gBAjBD,AAiBC,AAAa;AAAb;AAjBD;;AAmBD;AACC,KAAA,AAAE;AACF,KADA,AACE;AACF,KAFA,AAEE;AACF,KAHA,AAGG;AACH,KAJA,AAIG;AAiBH;AACC,gBAtBD,AAsBC,AAAa;AAAb;AAtBD;;AAwBD;AACC,KAAA,AAAE;AACF,KADA,AACE;AACF,KAFA,AAEE;AACF,KAHA,AAGE;AACF,KAJA,AAIE;AAJF;;AAWD;AACC,KAAA,AAAE;AACF,KADA,AACE;AACF,KAFA,AAEE;AACF,KAHA,AAGI;AAGJ,KANA,AAMG;AANH;;AAqCD;AACC,KAAA,AAAE;AACF,KADA,AACE;AACF,KAFA,AAEE;AACF,KAHA,AAGE;AAKF,KARA,AAQE;AARF",
+  "sourcesContent": [
+    "ID_Diagonal1 =\n\tv:'2017-09-09'\n\tk:'bg sc sw point'\n\tl:8\n\tb: \"\"\n\ta: \"\"\"\nbg 0,1,0\nsw 20\nsc 0,0,0\npoint 0,0\n\nsc 0.5,0.5,0\npoint 100,100\n\nsc 1,1,0\npoint 200,200\n\"\"\"\n\te:\n\t\tMatteboken : 'https://www.matteboken.se/lektioner/skolar-5/statistik/medelvarde'\n\nID_Diagonal2 =\n\tv:'2017-04-29'\n\tk:'sc sw point'\n\tl:11\n\tb: \"\"\n\ta: \"\"\"\nsw 20\nsc 1,0,0\npoint 200,0\n\nsc 0.75,0.25,0\npoint 150,50\n\nsc 0.5,0.5,0\npoint 100,100\n\nsc 0.25,0.75,0\npoint 50,150\n\nsc 0,1,0\npoint 0,200\n\"\"\"\n\te:\n\t\tMatteboken : 'https://www.matteboken.se/lektioner/skolar-5/statistik/medelvarde'\n\nID_DiagonalSquares =\n\tv:'2017-04-29'\n\tk:'range rect for lerp'\n\tl:4\n\tb:\"\"\n\ta:\"\"\"\nfor i in range 10\n\tx = 5+20*i\n\ty = 5+20*i\n\trect x,y, 10,10\n\"\"\"\n\nID_Dices =\n\tv:'2017-09-09'\n\tk:'sc sw point'\n\tl:27\n\tb : \"\"\"\n# LÄXA: 3, 4, 5 och 6\n\"\"\"\n\ta: \"\"\"\n# sw 1 ger ej ghosteffekt, men syns knappt\nsw 2\npoint 10,10\nsc 1,0,0\npoint 185,5\npoint 195,15\nsc 0,1,0\npoint 85,65\npoint 90,70\npoint 95,75\nsc 1,1,0\npoint 165,105\npoint 165,115\npoint 175,105\npoint 175,115\nsc 1,0,1\npoint 45,125\npoint 45,135\npoint 50,130\npoint 55,125\npoint 55,135\nsc 0,1,1\npoint 105,165\npoint 105,170\npoint 105,175\npoint 115,165\npoint 115,170\npoint 115,175\n\"\"\"\n\nID_DoubleForLoop =\n\tv:'2017-10-05'\n\tk:'range rect for lerp'\n\tl:5\n\tb:\"\"\"\nfor i in range 0\n\tfor j in range 0\n\t\tx = lerp\n\"\"\"\n\ta:\"\"\"\nfor i in range 10\n\tfor j in range 10\n\t\tx = 5+20*i\n\t\ty = 5+20*j\n\t\trect x,y, 10,10\n\"\"\""
+  ]
+}

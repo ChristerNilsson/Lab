@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "Y.js",
+  "sourceRoot": "..\\..",
+  "sources": [
+    "coffee\\data\\Y.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA;;AAAA;AACC,KAAA,AAAE;AACF,KADA,AACE;AACF,KAFA,AAEE;AACF,KAHA,AAGG;AAQH,KAXA,AAWG;AAOH;AACC,qBAnBD,AAmBC,AAAkB;AAAlB;AAnBD",
+  "sourcesContent": [
+    "ID_Y =\n\tv:'2018-02-11'\n\tk:'sc sw point'\n\tl:5\n\tb: \"\"\"\n# LÄXA: Hela uppgiften. Gör alltid läxorna hemma.\n#       Fråga nästa lektion om du kör fast.\nsw 20\nsc 1,0,0   # strokeColor, streckfärg red,green,blue\npoint 100,100\n\n\"\"\"\n\ta: \"\"\"\nsw 10\nsc 1,0,0\npoint 0,0\npoint 0,100\npoint 0,200\n\"\"\"\n\te :\n\t\tKoordinatsystem : \"http://www.matteboken.se/lektioner/matte-1/funktioner/koordinatsystem\"\n\n"
+  ]
+}

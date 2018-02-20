@@ -1,0 +1,133 @@
+############################### n = 10
+A: 1
+B: 2 32 biti
+H: 4 819 bitijk and and
+I: 4 682 bitijk and and
+J: 4 975 bitijk and and
+K: 4 48 bitijk or or
+C: 5 i k + 9 <=
+L: 6 771 bitijk + + 2 >=
+M: 6 252 bitijk + + 2 >=
+D: 7 i j k + + 9 ==
+E: 7 i j k + + 13 ==
+F: 7 i j k + + 2 %
+G: 7 i j k + + 3 %
+S: 8 128 biti 16 bitj 2 bitk and and
+T: 8 128 biti 16 bitj 2 bitk or and
+U: 8 128 biti 16 bitj 2 bitk and or
+V: 8 128 biti 16 bitj 2 bitk or or
+Q: 14 72 bitijk or or 771 bitijk and and or 975 bitijk and and and
+N: 16 i 4.5 - abs j 4.5 - abs k 4.5 - abs + + 6 <
+O: 19 i 4.5 - dup * j 4.5 - dup * k 4.5 - dup * + + 28 <
+P: 19 i 4.5 - dup * j 4.5 - dup * k 4.5 - dup * + + 38 >
+R: 27 i 5 // j 5 // k 5 // xor xor dup i 5 % 10 bit and swap not j 5 % 10 bit and or
+Y: 66 129 bitij or 512 bitk and 516 bitij or 1 bitk and or 129 bitjk or 512 biti and 516 bitjk or 1 biti and or 129 bitik or 512 bitj and 516 bitik or 1 bitj and or or or 3 bitij and 3 bitik and or 3 bitjk and or 768 bitij and or 768 bitik and or 768 bitjk and or not and
+
+############################### n = 5
+# Jerusalem Cross
+: dist abs swap abs + ;
+i 2 - j 2 - dist 1 <=
+j 2 - k 2 - dist 1 <=
+i 2 - k 2 - dist 1 <=
+or or not
+
+############################### n = 9
+Z: 14 menger sponge
+: f bitijk + + 1 <= and ;
+1 146 f 56 f
+
+############################### n = 17
+W: 45 words
+i 10 // j 10 // k 10 // + + 2 % dup
+i 10 % 65 bit j 10 % 127 bit and and
+j 10 % 65 bit i 10 % 127 bit and rot not and
+or
+k 130175 bit and
+
+############################### n = 27 (segt)
+Z: 16 menger sponge
+: f bitijk + + 1 <= and ;
+1 261632 f 14708792 f 38347922 f
+
+###############################
+words 2  3  4  5  6  7 reps
+1     4  4  4  4  4  4
+2     3  2  1  0 -1 -2
+3     2  0 -2 -4 -6 -8
+4     1 -2 -5 -8
+5     0 -4 -8
+6    -1 -6    (make a definition if words * reps >=12)
+###############################
+
+# Siffror 0..3 i en 5x7 matris
+
+14 biti 65 bitj and
+17 biti 62 bitj and or
+k 0 == and t 4 % 0 == and
+
+4 biti 127 bitj and
+14 biti 64 bitj and or
+2 biti 2 bitj and or
+k 1 == and t 4 % 1 == and or
+
+14 biti 1 bitj and
+16 biti 6 bitj and or
+i j + 66 bit or
+64 bitj or
+k 2 == and t 4 % 2 == and or
+
+14 biti 65 bitj and
+16 biti 54 bitj and or
+i j + 2 bit or
+8 biti 8 bitj and or
+1 biti 32 bitj and or
+k 3 == and t 4 % 3 == and or
+
+127 bitj and
+31 biti and
+
+####################################
+
+# Siffror 0..9 i en 7-segment display ENKEL
+
+: xx bitj swap biti and swap t 10 % swap bit and or ;
+0
+1005 7 1 xx
+927 4 7 xx
+1019 4 28 xx
+877 7 16 xx
+325 1 28 xx
+881 1 7 xx
+892 7 4 xx
+
+####################################
+
+# Siffror 0..9 i en 7-segment display DUBBEL
+
+: xx bitj swap biti and swap t 10 % swap bit and or ;
+0
+1005 63 3 xx
+927 48 63 xx
+1019 48 1008 xx
+877 63 768 xx
+325 3 1008 xx
+881 3 63 xx
+892 63 48 xx
+k t 10 % == and
+
+####################################
+
+Y: 2j2.7i5k7I 7K5J7k 7j5i7J 7I5K7i 7k5j7K 7J5I7
+
+====== 2x2x2 ======
+1: 1 bitijk and and         (svart)
+2: 1 bitij and              (svart blå)
+2: i j + 5 bit k 0 == and   (svart gul)
+2: i j == j k == and        (svart vit)
+3: 1 bitijk or and          (svart grön blå)
+3: i j 2 * + k 4 * + 37 bit (svart grön magenta)
+3: i j k + + 1 ==           (röd grön blå)
+4: 1 biti                   (svart grön blå cyan)
+4: i j + 2 % not            (svart blå gul vit)
+4: i j k + + 10 bit         (röd grön blå vit)
+4: i j k + + 1 <=           (svart röd grön blå)

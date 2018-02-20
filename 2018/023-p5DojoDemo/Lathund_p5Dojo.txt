@@ -1,0 +1,61 @@
+Lathund till p5Dojo               christernilsson.github.io/p5Dojo
+
+r,g,b     # röd, grön, blå
+bg färg   # bakgrund
+fc färg   # fyllning
+sc färg   # streckfärg
+sw pixlar # strecktjocklek
+
+point x,y        
+line x1,y1,x2,y2 
+circle x,y,r     
+ellipse x,y,w,h 
+rect x,y,w,h 
+triangle x1,y1,x2,y2,x3,y3 
+quad x1,y1,x2,y2,x3,y3,x4,y4 
+arc x,y,w,h,start,stopp,PIE 
+
+lerp y1,y2,i      # interpolation
+map x,x1,x2,y1,y2 # interpolation
+
+rectMode 
+ellipseMode
+
+text "text",x,y
+textSize punkter
+textAlign horisontellt, vertikalt
+
+translate x,y # förflyttning
+rd grader     # rotation i grader
+scale x,y     # skalning
+push          # spara 
+pop           # återställ
+
+for i in range antal
+for i in range start,stopp
+for i in range start,stopp,steg
+
+if
+else
+
+square = (x) -> x*x
+
+setup
+draw
+createCanvas w,h
+
+x,y   # koordinater
+w     # bredd 
+h     # höjd 
+r     # radie
+
+0     # svart 
+0,0,1 # blå
+0,1,0 # grön
+0,1,1 # cyan
+1,0,0 # röd
+1,0,1 # magenta
+1,1,0 # gul
+1     # vit
+0.5   # grå
+

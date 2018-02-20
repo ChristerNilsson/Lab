@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "nilsson.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\nilsson.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AACA,IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;;;;AAAA,WAAW,kBAAA,AAAC,MACV;MAAA,GAAA,GAAA,GAAA,GAAA;AAAA,MAAI,AAAI,KAAC;AACT,MAAE;AACF,MAAE;AACF,MAAE;AACF,MAAE;AACF,MAAG,MAAH,AAAQ;AACN,QAAI,AAAK,KAAA;AACT,QAAI;AACJ,QAHF,AAGM;AAHN,aAIQ,MAAH,AAAQ;AACX,QAAI,AAAK,KAAA;AACT,QAAI,AAAK,KAAA;AACT,QAAI,AAAK,KAHN,AAGM;AAHN,GAAA,MAIA,IAAG,MAAH,AAAM;AACT,QAAI,AAAK,KAAA;AACT,QAAI,AAAK,KAAA;AACT,QAAI,AAAK,KAAA;AACT,QAAI,AAAK,KAJN,AAIM;AACX;SAAO,MAAM,MAAN,AAAY,GAAG,MAAf,AAAqB,GAAG,MAAxB,AAA8B,GAAG,MAnB/B,AAmBF,AAAuC;;;AAEhD,KAAK;AACH,OAAK,SAAL,AAAK,AAAS;SACd,KAAA,AAAK,GAAL,AAAQ,GAAR,AAAW,KAFR,AAEH,AAAgB;;;AAElB,KAAK,cACH;MAAA;AAAA,MAAI,AAAS,UAAC;AACd,MAAG,MAAH,AAAQ;WAAR,AACE;AADF,SAAA;WAGE,KAAK,SAHP,AAGE,AAAK,AAAS;AALb;;;AAOL,KAAK,YAAA,AAAC,GAAD,AAAI,GAAJ,AAAO,GACV;MAAA;AAAA,MAAI,AAAS,UAAC;AACd,MAAG,MAAH,AAAQ;WAAR,AACE;AADF,SAAA;WAGE,OAAO,SAHT,AAGE,AAAO,AAAS;AALf;;;AAOL,KAAK,YAAA,AAAC;SAAM,aAAP,AAAO,AAAa;;;AAEzB,SAAS,gBAAA,AAAC,GAAD,AAAG,GAAH,AAAK;SAAM,QAAA,AAAQ,GAAR,AAAU,GAAE,IAAZ,AAAc,GAAE,IAA3B,AAAW,AAAkB;;;AACtC,KAAK,YAAA,AAAC;SAAW,OAAO,QAAnB,AAAY,AAAO,AAAQ;;;AAChC,QAAQ,AAAO,QAAC;;AAChB,QAAQ,AAAC,EAAC;;AAEV,WAAW,kBAAA,AAAC;gBAAM,GAAP,AAAY",
+  "sourcesContent": [
+    "\r\nfixColor = (args) ->\r\n  n = args.length\r\n  r=0\r\n  g=0\r\n  b=0\r\n  a=1\r\n  if n == 1\r\n    r = args[0]\r\n    g = r\r\n    b = r\r\n  else if n == 3\r\n    r = args[0]\r\n    g = args[1]\r\n    b = args[2]\r\n  else if n==4\r\n    r = args[0]\r\n    g = args[1]\r\n    b = args[2]\r\n    a = args[3]    \r\n  return color 255 * r, 255 * g, 255 * b, 255 * a\r\n\r\nbg = ->\r\n  fill fixColor arguments\r\n  rect 0, 0, 200, 200\r\n\r\nfc = ->\r\n  n = arguments.length\r\n  if n == 0\r\n    noFill()\r\n  else\r\n    fill fixColor arguments\r\n\r\nsc = (r, g, b) ->\r\n  n = arguments.length\r\n  if n == 0\r\n    noStroke()\r\n  else\r\n    stroke fixColor arguments\r\n\r\nsw = (n) -> strokeWeight n\r\n\r\ncircle = (x,y,r) -> ellipse x,y,2*r,2*r\r\nrd = (vinkel) -> rotate radians vinkel\r\nprint = console.log\r\nrange = _.range\r\n\r\nfraction = (x) -> x %% 1\r\n"
+  ]
+}

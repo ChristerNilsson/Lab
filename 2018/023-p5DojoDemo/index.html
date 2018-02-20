@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>p5Dojo</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+    <script src="libraries/p5.js" ></script>
+    <script src="libraries/p5.dom.js"></script>
+    <script src="libraries/jquery-3.1.1.js"></script>
+    <script src="libraries/underscore.js"></script>
+    <script src="libraries/coffee-script.js"></script>
+    <script src="libraries/FileSaver.js"></script>
+
+    <script src="lib/codemirror/codemirror.js"></script>
+    <script src="lib/codemirror/keymap/sublime.js"></script>
+    <script src="lib/codemirror/addon/comment/comment.js"></script>
+    <script src="lib/codemirror/addon/edit/closebrackets.js"></script>
+    <script src="lib/codemirror/addon/edit/matchbrackets.js"></script>
+    <link rel="stylesheet" href="lib/codemirror/codemirror.css">
+    <link rel="stylesheet" href="lib/codemirror/theme/dracula.css">
+    <script src="lib/codemirror/mode/coffeescript/coffeescript.js"></script>
+
+    <script src="js/application.js"></script>
+
+    <script src="js/data/ZL.js"></script>
+    <script src="js/data/ZExhibition.js"></script>
+
+    <script src="js/data/A.js"></script>
+    <script src="js/data/B.js"></script>
+    <script src="js/data/C.js"></script>
+    <script src="js/data/D.js"></script>
+    <script src="js/data/E.js"></script>
+    <script src="js/data/F.js"></script>
+    <script src="js/data/G.js"></script>
+    <script src="js/data/H.js"></script>
+    <script src="js/data/I.js"></script>
+    <script src="js/data/K.js"></script>
+    <script src="js/data/L.js"></script>
+    <script src="js/data/M.js"></script>
+    <script src="js/data/N.js"></script>
+    <script src="js/data/O.js"></script>
+    <script src="js/data/P.js"></script>
+    <script src="js/data/Q.js"></script>
+    <script src="js/data/R.js"></script>
+    <script src="js/data/S.js"></script>
+    <script src="js/data/T.js"></script>
+    <script src="js/data/V.js"></script>
+    <script src="js/data/W.js"></script>
+    <script src="js/data/X.js"></script>
+    <script src="js/data/Y.js"></script>
+    <script src="js/data/zdata.js"></script>
+
+    <script src="js/nilsson.js"></script>
+    <script src="js/rubikSquareData.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/menu.js"></script>    
+    <script src="js/p5dojo.js"></script>
+    <script src="js/transpile.js"></script>
+    <script src="ord4-9.js"></script>
+
+    <style>
+      select {overflow-y: auto; font-family:monospace;}
+      body {padding: 0; margin: 0;}
+      canvas {vertical-align: top;}
+      table, th, td {padding: 0px;}
+      a:link {color: #000000; text-decoration: none; font-family: Arial, Helvetica, sans-serif;}
+      a:hover {color: #FFFF00;}
+      a:visited {color: #000000;}
+    </style>
+
+  </head>
+  <body bgcolor="#808080">
+
+    <table id='meny' style="position:absolute; top:0px; left:0px; width:211px; border-spacing:0px"></table>
+
+    <textarea id="code" wrap="soft"></textarea>
+    <div id="canvas" style="position:absolute; top:5px; left:210px; width:211px; height:635px"></div>
+    <input type="text" id='input' onClick="this.select();" style="font-family:monospace; font-size:18px; position:absolute; top:640px; left:205px; width:403px">
+
+    <table id="tabell" style="font-family:monospace; font-size:20px; position:absolute; top:670px; left:209px;" border="0px"></table>
+    <textarea id="msg" rows=3 wrap="soft" readonly style="font-size:20px; color:#FFFFFF; position:absolute; top:640px; left:415px; width:700px;"></textarea>
+  </body>
+</html>

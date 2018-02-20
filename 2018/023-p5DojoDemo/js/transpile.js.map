@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "transpile.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\transpile.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,QAAA,eAAA;;AAAA,SAAS,gBAAA,AAAC;MAAE,wEAAH,AAAK;;AAAS,MAAG,CAAI,AAAC,EAAD,AAAE,QAAF,AAAU,GAAjB,AAAO,AAAa;WAAQ,MAAM,AAAI,KAAJ,AAAK,UAAL,AAAe,KAAf,AAAoB,SAAS,AAAI,KAAJ,AAAK,UAApE,AAA4B,AAAmC,AAAe;AAA5F;;;AAET,gBAAe,sBAAA,AAAC;AACf,MAAG,AAAI,KAAJ,AAAK,QAAL,AAAa,UAAhB,AAAyB,GAAQ;WAAO,OAAO,cAAa,AAAI,KAAJ,AAAK,UAAjE,AAA+C,AAAa,AAAe;;AAC3E,MAAG,AAAI,KAAJ,AAAK,QAAL,AAAa,UAAhB,AAAyB,GAAQ;WAAO,OAAO,cAAa,AAAI,KAAJ,AAAK,UAAjE,AAA+C,AAAa,AAAe;;AAC3E,MAAG,AAAI,KAAJ,AAAK,QAAL,AAAa,WAAhB,AAA0B,GAAO;WAAO,OAAO,cAAa,AAAI,KAAJ,AAAK,UAAjE,AAA+C,AAAa,AAAe;;SAH7D,AAId;;;AACD,OAAO,cAAP,AAAO,AAAa,SAApB,AAA6B;;AAC7B,OAAO,cAAP,AAAO,AAAa,SAApB,AAA6B;;AAC7B,OAAO,cAAP,AAAO,AAAa,SAApB,AAA6B;;AAC7B,OAAO,cAAP,AAAO,AAAa,UAApB,AAA6B;;AAE7B,YAAY,mBAAA,AAAC,MACZ;MAAA,MAAA,OAAA;AAAA,UAAQ,AAAI,KAAJ,AAAK,MAAL,AAAW;AACnB;gBAAQ;;AAAA,SAAA,oCAAA;;mBAAA,cAAA,AAAa;AAAb;;;AACR,SAAO,AAAI,KAAJ,AAAK,KAAL,AAAU;sBACjB,AAAa,QAAb,AAAqB;AAAO,UAJjB,AAIX,AAA2B,AAAO;AAAP,GAA3B,AAAY",
+  "sourcesContent": [
+    "assert = (a,b=true) -> if not _.isEqual(a, b) then print JSON.stringify(a) + \" != \" + JSON.stringify(b)\n\nspacesToTabs = (line) ->\n\tif line.indexOf('  ') == 0  then return '\\t' + spacesToTabs line.substring 2\n\tif line.indexOf('\\t') == 0  then return '\\t' + spacesToTabs line.substring 1\n\tif line.indexOf(' \\t') == 0 then return '\\t' + spacesToTabs line.substring 2\n\tline\nassert spacesToTabs('    '), '\\t\\t'\nassert spacesToTabs('\\t  '), '\\t\\t'\nassert spacesToTabs('  \\t'), '\\t\\t'\nassert spacesToTabs(' \\t  '),'\\t\\t'\n\ntranspile = (code) ->\n\tlines = code.split '\\n'\n\ttemp = (spacesToTabs(line) for line in lines)\n\tcode = temp.join '\\n'\n\tCoffeeScript.compile code, {bare: true}\n"
+  ]
+}
