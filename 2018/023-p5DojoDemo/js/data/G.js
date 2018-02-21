@@ -104,7 +104,7 @@ ID_GuessANumber = {
   c: {
     app: "reset()|newGame()"
   },
-  d: "reset()|newGame()|mousePressed 75,75|mousePressed 100,125"
+  d: "reset()|mousePressed 75,75|mousePressed 100,125"
 };
 
 ID_GuessANumberHex = {
@@ -116,7 +116,7 @@ ID_GuessANumberHex = {
   c: {
     app: "reset()|newGame()"
   },
-  d: "reset()|newGame()|mousePressed 100,100|mousePressed 100,150|mousePressed 50,50"
+  d: "reset()|mousePressed 100,100|mousePressed 100,150|mousePressed 50,50"
 };
 
 ID_GUI = {
@@ -128,6 +128,6 @@ ID_GUI = {
   c: {
     app: "reset()|up()|down()|left()|right()"
   },
-  d: "reset()|up()|down()|left()|right()"
+  d: "reset()|down()|up()|left()|left()|left()|left()"
 };
 //# sourceMappingURL=G.js.map

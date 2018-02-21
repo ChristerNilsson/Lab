@@ -112,7 +112,7 @@ ID_Snake = {
   c: {
     app: "reset()|setSize 20|setSize 10|setSize 5|setSize 2"
   },
-  d: "reset()|setSize 10|mousePressed 160,160|mousePressed 160,160|mousePressed 160,160|mousePressed 160,160|mousePressed 100,100|mousePressed 100,100",
+  d: "reset()|mousePressed 160,160|mousePressed 160,160|mousePressed 160,160|mousePressed 160,160|mousePressed 100,100|mousePressed 100,100",
   e: {
     Snake: "https://en.wikipedia.org/wiki/Snake_(video_game)"
   }
@@ -152,7 +152,7 @@ ID_Sokoban = {
   c: {
     app: "reset()|undo()"
   },
-  d: "reset()|mousePressed 100,145|mousePressed 100,145|mousePressed 120,165|mousePressed 120,165|mousePressed 80,165|mousePressed 80,165|mousePressed 100,185|mousePressed 100,185",
+  d: "reset()|mousePressed 100,145|mousePressed 100,145|mousePressed 120,165|mousePressed 120,165|mousePressed 80,165|mousePressed 80,165|mousePressed 100,185|mousePressed 100,185|mousePressed 80,165 |mousePressed 80,165|mousePressed 100,185|mousePressed 100,185|mousePressed 100,185|mousePressed 120,165|mousePressed 120,165|mousePressed 120,165|mousePressed 100,145|mousePressed 80,165|mousePressed 80,165|mousePressed 100,185|mousePressed 80,165|mousePressed 100,145|mousePressed 100,145",
   e: {
     Sokoban: "http://www.linusakesson.net/games/autosokoban/?v=1&seed=355842047&level=1",
     Wikipedia: "https://en.wikipedia.org/wiki/Sokoban"
@@ -180,7 +180,7 @@ ID_Square = {
   c: {
     app: "reset()|horisontellt -1|horisontellt +1|vertikalt -1|vertikalt +1|storlek -1|storlek +1|tjocklek -1|tjocklek +1|rotera -1|rotera +1"
   },
-  d: "reset()|horisontellt -1|horisontellt +1|vertikalt -1|vertikalt +1|storlek -1|storlek +1|tjocklek -1|tjocklek +1|rotera -1|rotera +1"
+  d: "reset()|horisontellt -10|horisontellt +10|vertikalt -10|vertikalt +10|storlek -10|storlek +10|tjocklek +10|tjocklek -10|rotera -10|rotera +10"
 };
 
 ID_SquareHole = {

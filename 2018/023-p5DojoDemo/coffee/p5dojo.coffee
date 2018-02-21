@@ -205,7 +205,7 @@ demo = () ->
 	document.getElementById("chapter").innerHTML = chapter
 	document.getElementById("exercise").innerHTML = exercise
 	document.getElementById("command").innerHTML = cmd
-	#print items.length,chapter,exercise,cmd
+	print items.length,chapter,exercise,cmd
 	meny = {exercise : exercise}
 	calls = decorate data[chapter][exercise].c
 	if cmd != ''
@@ -216,8 +216,8 @@ demo = () ->
 		run1 chapter, exercise, ""
 	sleepTimer = 0
 	clearTimeout sleepTimer
-	delay = 2000
-	#if items.length>25 then delay = 50 
+	delay = 1000
+	#if items.length>500 then delay = 50 
 	#if cmd == '' then delay = 50 
 
 	sleepTimer = setTimeout demo, delay

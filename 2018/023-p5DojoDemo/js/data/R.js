@@ -138,7 +138,7 @@ ID_RushHour = {
   c: {
     app: "reset()|enter_cars()|enter_move()|begin()|backward()|forward()|end()"
   },
-  d: "reset()|enter_move 'G'|enter_move 'AAA'|enter_move 'fd'|enter_move 'cc'",
+  d: "reset()|enter_move 'b'|enter_move 'b'|enter_move 'b'|enter_move 'G'|enter_move 'A'|enter_move 'f'|enter_move 'd'|enter_move 'c'|enter_move 'c'|enter_move 'E'|enter_move 'E'|enter_move 'E'|enter_move 'G'|enter_move 'X'|enter_move 'X'|enter_move 'X'|enter_move 'X'|enter_move 'X'",
   e: {
     RushHour: "https://en.wikipedia.org/wiki/Rush_Hour_(board_game)"
   }

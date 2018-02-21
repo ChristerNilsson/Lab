@@ -95,7 +95,7 @@ ID_BouncingBalls = {
   c: {
     app: "reset()|update()|add()|delete()|selNext()|selPrev()|grow()|shrink()|nextCol()|prevCol()|gravity()"
   },
-  d: "reset()|gravity()|add()|update()|add()|update()|selNext()|update()|selPrev()|update()|grow()|update()|nextCol()|update()|prevCol()|shrink()|delete()"
+  d: "reset()|gravity()|add()|grow()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()"
 };
 
 ID_Braid = {

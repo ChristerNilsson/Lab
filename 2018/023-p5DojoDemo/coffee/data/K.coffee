@@ -210,7 +210,7 @@ app = new Korg "a"
 """
 	c:
 		app : "reset()|more()|less()|thinner()|thicker()"
-	d : "reset()|more()|less()|thinner()|thicker()"
+	d : "reset()|more()|more()|more()|thinner()|less()|thicker()"
 
 ID_Korsord =
 	v:'2017-04-29'
@@ -247,9 +247,10 @@ class Korsord extends Application
 		for letter,i in pattern
 			if letter != '.' and letter != word[i] then	return false
 		true
-	enter : ->
+	enter : (s='') ->
 		words = ordlista.split " "
-		@pattern = @readText()
+		@pattern = s
+		if s != '' then @pattern = @readText()
 		@found = []
 		for w in words
 			if w.length == @pattern.length and @match w,@pattern then @found.push w
@@ -259,4 +260,4 @@ app = new Korsord "a"
 """
 	c:
 		app : "reset()|enter()"
-	d : "reset()"
+	d : "reset()|enter 'b..l'|draw()"
