@@ -1,42 +1,39 @@
 from sympy import Point,Line,Circle,intersection,Triangle,N
-from svg import Svg
 
-C = Point(0,8)
-D = Point(0,2)
-xaxis = Line(Point(0,0),Point(1,0))
-CircleD = Circle(D,2)
-tangentE = CircleD.tangent_lines(C)[0]
-E = intersection(tangentE,CircleD)[0]
-A = intersection(tangentE, xaxis)[0]
-CircleD = Circle(D,2)
+p1 = Point(0,8)
+p0 = Point(0,2)
+X = Line(Point(0,0),Point(1,0))
+c0 = Circle(p0,2)
+l0 = c0.tangent_lines(p1)[0]
+p2 = intersection(l0, X)[0]
+l2 = Line(p2, p0)
+print('l2',l2)
 
-svg = Svg()
-svg.append(C,"C")
-#svg.append(D)
-svg.append(CircleD,"CircleD")
-svg.append(tangentE,"tangE")
-svg.append(E,"E")
-svg.append(A,"A")
+print("")
+p3 = intersection(c0, l2)[0]
+print('p3',p3)
+l3 = l2.perpendicular_line(p3)
+print('l3',l3)
+p5 = intersection(l3, l0)[0]
+print('p5',p5)
+p6 = intersection(l3, X)[0]
+print('p6',p6)
+t0 = Triangle(p5,p2,p6)
+print('t0',t0)
+c1 = t0.incircle
+print('c1',c1)
+print(N(c1.center.x), N(c1.center.y), N(c1.radius))
 
-def find_circle(circle,A,C,D,i):
-    AD = Line(A,D)
-    svg.append(AD,"AD",i)
-    K = intersection(circle, AD)[0]
-    svg.append(K,"K",i)
-    tangentK = Line(A,D).perpendicular_line(K)
-    svg.append(tangentK,"tangK",i)
-    P1 = intersection(tangentK, Line(A,C))[0]
-    svg.append(P1,"P1",i)
-    P2 = intersection(tangentK, xaxis)[0]
-    svg.append(P2,"P2",i)
-    T = Triangle(P1,A,P2)
-    svg.append(T,"T",i)
-    return T.incircle
+print("")
+p13 = intersection(c1, l2)[0] # Kraschar här. Detta har fungerat forut.
+print(p13)
+# l13 = l2.perpendicular_line(p13)
+# print(l13)
+# p15 = intersection(l13, l0)[0]
+# print(p15)
+# p16 = intersection(l13, X)[0]
+# print(p16)
+# t1 = Triangle(p15, p2, p16)
+# print(t1)
+# c11 = t1.incircle
 
-circle = CircleD
-
-for i in range(1):
-    circle = find_circle(circle,A,C,D,i)
-    svg.append(circle,"circle",i)
-
-svg.close()
