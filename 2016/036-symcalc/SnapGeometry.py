@@ -9,6 +9,7 @@
 
 from sympy import *
 import time
+import json
 
 N_WORDS = "int float Integer Float Pow Mul Add Pi Half Zero NegativeOne One Rational".split()
 EXACT = True
@@ -199,24 +200,61 @@ class Calculator:
                 print("  ",name,'=', self.dumpObject(self.locals[name]))
 
     def dumpGeometry(self):
-        res = []
+        res = {}
         for cmd,names in self.history:
             for name in names:
                 if name in self.droplist: continue
                 obj = self.locals[name]
                 s = self.getSignature(obj)
-                lst = []
-                if s == "p": lst = [obj.x,obj.y]
-                elif s == "l": lst = [obj.p1.x,obj.p1.y,obj.p2.x,obj.p2.y]
-                elif s == "c": lst = [obj.center.x,obj.center.y,obj.radius]
+                hash = {}
+                if s == "p":
+                    hash['x'] = N(obj.x)
+                    hash['y'] = N(obj.y)
+                elif s == "l":
+                    hash['x1'] = N(obj.p1.x)
+                    hash['y1'] = N(obj.p1.y)
+                    hash['x2'] = N(obj.p2.x)
+                    hash['y2'] = N(obj.p2.y)
+                elif s == "c":
+                    hash['x'] = N(obj.center.x)
+                    hash['y'] = N(obj.center.y)
+                    hash['radius'] = N(obj.radius)
                 elif s == "t":
                     a,b,c = obj.vertices
-                    lst = [a.x,a.y,b.x,b.y,c.x,c.y]
-                if lst != []: res.append([name,[N(item) for item in lst]])
-        f = open("lab\data.json", "w")
-        f.write("{\n" + ",\n".join(['  "'+name+'":'+str(lst) for name,lst in res]) + "\n}")
+                    hash['x1'] = N(a.x)
+                    hash['y1'] = N(a.y)
+                    hash['x2'] = N(b.x)
+                    hash['y2'] = N(b.y)
+                    hash['x3'] = N(c.x)
+                    hash['y3'] = N(c.y)
+                if hash != {}: res[name] = hash
+
+        #print(res)
+        f = open("lab\data.js", "w")
+        f.write("data = {\n" + ",\n".join(['  "'+name+'":'+str(res[name]) for name in res]) + "\n}")
+        #f.write(json.dumps(res))
         f.flush()
         f.close()
+
+    # def dumpGeometry(self):
+    #     res = []
+    #     for cmd,names in self.history:
+    #         for name in names:
+    #             if name in self.droplist: continue
+    #             obj = self.locals[name]
+    #             s = self.getSignature(obj)
+    #             lst = []
+    #             if s == "p": lst = [obj.x,obj.y]
+    #             elif s == "l": lst = [obj.p1.x,obj.p1.y,obj.p2.x,obj.p2.y]
+    #             elif s == "c": lst = [obj.center.x,obj.center.y,obj.radius]
+    #             elif s == "t":
+    #                 a,b,c = obj.vertices
+    #                 lst = [a.x,a.y,b.x,b.y,c.x,c.y]
+    #             if lst != []: res.append([name,[N(item) for item in lst]])
+    #     f = open("lab\data.json", "w")
+    #     f.write("{\n" + ",\n".join(['  "'+name+'":'+str(lst) for name,lst in res]) + "\n}")
+    #     f.flush()
+    #     f.close()
 
     def getName(self,obj,type=''):
         if type == '': type = self.getSignature(obj)
