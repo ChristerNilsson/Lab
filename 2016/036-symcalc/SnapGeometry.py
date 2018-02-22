@@ -9,7 +9,6 @@
 
 from sympy import *
 import time
-import json
 
 N_WORDS = "int float Integer Float Pow Mul Add Pi Half Zero NegativeOne One Rational".split()
 EXACT = True
@@ -229,32 +228,10 @@ class Calculator:
                     hash['y3'] = N(c.y)
                 if hash != {}: res[name] = hash
 
-        #print(res)
         f = open("lab\data.js", "w")
         f.write("data = {\n" + ",\n".join(['  "'+name+'":'+str(res[name]) for name in res]) + "\n}")
-        #f.write(json.dumps(res))
         f.flush()
         f.close()
-
-    # def dumpGeometry(self):
-    #     res = []
-    #     for cmd,names in self.history:
-    #         for name in names:
-    #             if name in self.droplist: continue
-    #             obj = self.locals[name]
-    #             s = self.getSignature(obj)
-    #             lst = []
-    #             if s == "p": lst = [obj.x,obj.y]
-    #             elif s == "l": lst = [obj.p1.x,obj.p1.y,obj.p2.x,obj.p2.y]
-    #             elif s == "c": lst = [obj.center.x,obj.center.y,obj.radius]
-    #             elif s == "t":
-    #                 a,b,c = obj.vertices
-    #                 lst = [a.x,a.y,b.x,b.y,c.x,c.y]
-    #             if lst != []: res.append([name,[N(item) for item in lst]])
-    #     f = open("lab\data.json", "w")
-    #     f.write("{\n" + ",\n".join(['  "'+name+'":'+str(lst) for name,lst in res]) + "\n}")
-    #     f.flush()
-    #     f.close()
 
     def getName(self,obj,type=''):
         if type == '': type = self.getSignature(obj)
@@ -275,6 +252,9 @@ class Calculator:
         elif s == "acos": return "a"
         elif s == "bool": return "assert"
         return s
+
+    def normalizeCircle(self,circle):
+        return Circle(circle.center,abs(circle.radius))
 
     def normalizeLine(self,line):
         lst = []
@@ -387,6 +367,7 @@ class Calculator:
             t = self.getSignature(obj)
             if t == 'l': obj = self.normalizeLine(obj)
             if t == 't': obj = self.normalizeTriangle(obj)
+            if t == 'c': obj = self.normalizeCircle(obj)
             name = self.exist(obj)
             if name == None:
                 name = self.getName(obj)
