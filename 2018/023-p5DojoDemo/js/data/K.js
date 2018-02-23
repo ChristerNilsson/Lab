@@ -45,7 +45,7 @@ ID_Korg = {
   c: {
     app: "reset()|more()|less()|thinner()|thicker()"
   },
-  d: "reset()|more()|more()|more()|thinner()|less()|thicker()"
+  d: "reset()|more()|more()|more()|more()|more()|more()|more()|more()|more()|more()|thinner()|thinner()|thinner()|thinner()"
 };
 
 ID_Korsord = {

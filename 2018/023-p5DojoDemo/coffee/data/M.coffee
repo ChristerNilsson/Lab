@@ -325,5 +325,5 @@ app = new MultiTimer "a"
 """
 	c:
 		app: "reset()"
-	d: "reset()|mousePressed 10,10|mousePressed 10,10"
+	d: "reset()|mousePressed 10,20|mousePressed 10,70|mousePressed 10,120|mousePressed 10,170|mousePressed 10,170"
 

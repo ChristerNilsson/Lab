@@ -206,10 +206,10 @@ items = []
 
 demo = () -> 
 	[chapter,exercise,cmd] = items.pop()
-	document.getElementById("chapter").innerHTML = chapter
-	document.getElementById("exercise").innerHTML = exercise
-	document.getElementById("command").innerHTML = cmd
-	document.getElementById("seconds").innerHTML = "frame: " + count++
+	document.getElementById("chapter").innerHTML  = "   Level: " + chapter
+	document.getElementById("exercise").innerHTML = "Exercise: " + exercise
+	document.getElementById("command").innerHTML  = " Command: " + cmd
+	document.getElementById("seconds").innerHTML  = "   Frame: " + count++
 	print items.length,chapter,exercise,cmd
 	meny = {exercise : exercise}
 	calls = decorate data[chapter][exercise].c

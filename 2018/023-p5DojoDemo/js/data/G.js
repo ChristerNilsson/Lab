@@ -128,6 +128,6 @@ ID_GUI = {
   c: {
     app: "reset()|up()|down()|left()|right()"
   },
-  d: "reset()|down()|right()|right()|right()|right()|down()|right()|down()"
+  d: "reset()|down()|right()|right()|right()|right()|down()|right()|down()|right()|down()|right()|down()|right()|down()|right()|down()"
 };
 //# sourceMappingURL=G.js.map

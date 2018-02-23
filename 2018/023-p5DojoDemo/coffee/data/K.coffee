@@ -210,7 +210,7 @@ app = new Korg "a"
 """
 	c:
 		app : "reset()|more()|less()|thinner()|thicker()"
-	d : "reset()|more()|more()|more()|thinner()|less()|thicker()"
+	d : "reset()|more()|more()|more()|more()|more()|more()|more()|more()|more()|more()|thinner()|thinner()|thinner()|thinner()"
 
 ID_Korsord =
 	v:'2017-04-29'

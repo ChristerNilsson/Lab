@@ -61,7 +61,7 @@ ID_BlackBox2D = {
   c: {
     app: "reset()|up()|down()"
   },
-  d: "reset()|up()|down()",
+  d: "reset()|down()|down()|down()|down()|down()|down()|down()|down()|down()|down()",
   e: {
     Operatorer: "https://www.w3schools.com/jsref/jsref_operators.asp",
     BlackBox: "https://en.wikipedia.org/wiki/Black_box"
@@ -95,7 +95,7 @@ ID_BouncingBalls = {
   c: {
     app: "reset()|update()|add()|delete()|selNext()|selPrev()|grow()|shrink()|nextCol()|prevCol()|gravity()"
   },
-  d: "reset()|gravity()|add()|grow()xxxxxxxxxxxxxxx".replace(/x/g, "|update()")
+  d: "reset()|gravity()|add()xxxxxxxxxxxxxxxxxxxx".replace(/x/g, "|update()")
 };
 
 ID_Braid = {

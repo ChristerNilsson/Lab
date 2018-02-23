@@ -27,7 +27,7 @@ ID_Nian = {
   c: {
     app: "reset()|enter()"
   },
-  d: "reset()|enter 'aaefkrrtu'",
+  d: "reset()|enter 'aaefkrrtu'|enter 'tagnäsrik'",
   e: {
     Nian: "http://svenska-apps.se/iphone-ipad/underhallning/svd-nian-babqpg.html",
     '_.countBy': "http://underscorejs.org/#countBy",

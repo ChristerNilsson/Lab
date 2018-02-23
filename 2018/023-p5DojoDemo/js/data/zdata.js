@@ -13,16 +13,22 @@ var data;
 
 data = {
   "L1: bg point sc sw": {
-    //Nim : ID_Nim
-    //GUI : ID_GUI
-    //ColorPair : ID_ColorPair
     //BouncingBalls : ID_BouncingBalls
+    //BlackBox2D : ID_BlackBox2D
+    //Braider : ID_Braider
+    //ColorCube : ID_ColorCube
+    //ColorPair : ID_ColorPair
+    //Coordinator : ID_Coordinator
+    //GUI : ID_GUI
+    //Hex : ID_Hex
+    //Korg : ID_Korg
+    //Korsord : ID_Korsord
+    //MultiTimer : ID_MultiTimer
+    //Nian : ID_Nian
+    //Nim : ID_Nim
     //Quiz : ID_Quiz
     //SpaceShip : ID_SpaceShip
-    //Coordinator : ID_Coordinator
-    //Braider : ID_Braider
-    //Hex : ID_Hex
-    //Korsord : ID_Korsord
+    //Stopwatch : ID_Stopwatch
     Background1: ID_Background1,
     Background2: ID_Background2,
     Background3: ID_Background3,

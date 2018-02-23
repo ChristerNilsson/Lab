@@ -375,10 +375,10 @@ _demo = function demo() {
   exercise = _items$pop2[1];
   cmd = _items$pop2[2];
 
-  document.getElementById("chapter").innerHTML = chapter;
-  document.getElementById("exercise").innerHTML = exercise;
-  document.getElementById("command").innerHTML = cmd;
-  document.getElementById("seconds").innerHTML = "frame: " + count++;
+  document.getElementById("chapter").innerHTML = "   Level: " + chapter;
+  document.getElementById("exercise").innerHTML = "Exercise: " + exercise;
+  document.getElementById("command").innerHTML = " Command: " + cmd;
+  document.getElementById("seconds").innerHTML = "   Frame: " + count++;
   print(items.length, chapter, exercise, cmd);
   meny = {
     exercise: exercise

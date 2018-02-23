@@ -108,7 +108,7 @@ ID_ColorCube = {
   c: {
     app: "reset()|undo()"
   },
-  d: "reset()|mousePressed 30,30|mousePressed 40,40|undo()",
+  d: "reset()|mousePressed 30,30|mousePressed 40,40|undo()|undo()|mousePressed 130,130|mousePressed 80,80|",
   e: {
     ColorCube: "https://www.google.se/search?q=color+cube&tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwjo3_Cm3Y7TAhUJb5oKHcFhCKQQsAQIJg&biw=1745&bih=963&dpr=1.1"
   }

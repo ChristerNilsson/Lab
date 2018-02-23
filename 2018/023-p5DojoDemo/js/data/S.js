@@ -200,7 +200,7 @@ ID_Stopwatch = {
   c: {
     app: "reset()"
   },
-  d: "reset()|mousePressed 100,100"
+  d: "reset()|mousePressed 100,100|mousePressed 100,100|mousePressed 100,100|mousePressed 100,100|mousePressed 100,100|mousePressed 100,100|mousePressed 100,100"
 };
 
 ID_Sunshine = {
