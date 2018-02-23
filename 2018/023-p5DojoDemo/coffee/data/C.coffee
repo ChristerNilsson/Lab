@@ -187,7 +187,7 @@ app = new ChessOne "a"
 """
 	c:
 		app : "reset()"
-	d : "reset()|mousePressed 100,100|mousePressed 180,60|mousePressed 150,150"
+	d : "reset()|mousePressed 100,100|mousePressed 180,10|mousePressed 180,30|mousePressed 180,50|mousePressed 180,70|mousePressed 180,90"
 	e:
 		Schack : "https://schackonline.com/skolan/nyborjare/pjaser/pjaser.php"
 
@@ -289,7 +289,7 @@ app = new ChessMany "a"
 """
 	c:
 		app : "reset()"
-	d : "reset()|mousePressed 100,100|mousePressed 200,40|mousePressed 0,200"
+	d : "reset()|mousePressed 100,100|mousePressed 180,10|mousePressed 180,30|mousePressed 180,50|mousePressed 180,70|mousePressed 180,90"
 
 ID_ChessRow =
 	v:'2017-04-29'
@@ -589,7 +589,7 @@ app = new ColorPair "a"
 """
 	c:
 		app : "reset()|enterName()"
-	d : "reset()|enterName 'David'|mousePressed 190,50|mousePressed 20,140"
+	d : "reset()|mousePressed 190,50|mousePressed 20,140|mousePressed 180,20|mousePressed 100,20|mousePressed 180,120|mousePressed 180,180"
 	e:
 		ColorPair : "https://christernilsson.github.io/ColorPair"
 
@@ -796,7 +796,7 @@ class Coordinator extends Application
 		sc 1,1,0
 		circle 100,100,@radius
 	mousePressed : (mx,my) ->
-		@seed += mx % 10
+		@seed++
 		@newGame if @radius >= dist mx,my,@x,@y then 1 else -1
 	randint : (n) -> int n * fraction 10000 * Math.sin @seed++
 
@@ -804,7 +804,7 @@ app = new Coordinator "a"
 """
 	c:
 		app : "reset()"
-	d : "reset()"
+	d : "reset()|mousePressed 0,141|mousePressed 40,195|mousePressed 169,173|mousePressed 36,157"
 
 ID_CornerPoints =
 	v:'2017-04-29'

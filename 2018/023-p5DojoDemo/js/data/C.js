@@ -39,7 +39,7 @@ ID_ChessOne = {
   c: {
     app: "reset()"
   },
-  d: "reset()|mousePressed 100,100|mousePressed 180,60|mousePressed 150,150",
+  d: "reset()|mousePressed 100,100|mousePressed 180,10|mousePressed 180,30|mousePressed 180,50|mousePressed 180,70|mousePressed 180,90",
   e: {
     Schack: "https://schackonline.com/skolan/nyborjare/pjaser/pjaser.php"
   }
@@ -54,7 +54,7 @@ ID_ChessMany = {
   c: {
     app: "reset()"
   },
-  d: "reset()|mousePressed 100,100|mousePressed 200,40|mousePressed 0,200"
+  d: "reset()|mousePressed 100,100|mousePressed 180,10|mousePressed 180,30|mousePressed 180,50|mousePressed 180,70|mousePressed 180,90"
 };
 
 ID_ChessRow = {
@@ -123,7 +123,7 @@ ID_ColorPair = {
   c: {
     app: "reset()|enterName()"
   },
-  d: "reset()|enterName 'David'|mousePressed 190,50|mousePressed 20,140",
+  d: "reset()|mousePressed 190,50|mousePressed 20,140|mousePressed 180,20|mousePressed 100,20|mousePressed 180,120|mousePressed 180,180",
   e: {
     ColorPair: "https://christernilsson.github.io/ColorPair"
   }
@@ -164,11 +164,11 @@ ID_Coordinator = {
   k: 'sc fc circle class dist if operators text',
   l: 30,
   b: "class Coordinator extends Application\n	reset : ->\n		super\n		@seed = 0\n	draw : ->\n	mousePressed : (mx,my) ->\n	randint : (n) -> int n * fraction 10000 * Math.sin @seed++\napp = new Coordinator",
-  a: "\nclass Coordinator extends Application\n	reset : ->\n		super\n		@seed = 0\n		@level = 1\n		@errors = 0\n		@newGame 0\n	newGame : (d) ->\n		if d==-1 then @errors++\n		@level = constrain @level+d, 1, 100\n		@radius = int 100/@level\n		@x = @randint 200\n		@y = @randint 200\n	draw : ->\n		fc 1,1,0\n		sc()\n		textAlign CENTER,CENTER\n		textSize 50\n		text @x + \",\" + @y,100,50\n		fc 0,1,0\n		text @level,67,150\n		fc 1,0,0\n		text @errors,133,150\n		fc()\n		sc 1,1,0\n		circle 100,100,@radius\n	mousePressed : (mx,my) ->\n		@seed += mx % 10\n		@newGame if @radius >= dist mx,my,@x,@y then 1 else -1\n	randint : (n) -> int n * fraction 10000 * Math.sin @seed++\n\napp = new Coordinator \"a\"",
+  a: "\nclass Coordinator extends Application\n	reset : ->\n		super\n		@seed = 0\n		@level = 1\n		@errors = 0\n		@newGame 0\n	newGame : (d) ->\n		if d==-1 then @errors++\n		@level = constrain @level+d, 1, 100\n		@radius = int 100/@level\n		@x = @randint 200\n		@y = @randint 200\n	draw : ->\n		fc 1,1,0\n		sc()\n		textAlign CENTER,CENTER\n		textSize 50\n		text @x + \",\" + @y,100,50\n		fc 0,1,0\n		text @level,67,150\n		fc 1,0,0\n		text @errors,133,150\n		fc()\n		sc 1,1,0\n		circle 100,100,@radius\n	mousePressed : (mx,my) ->\n		@seed++\n		@newGame if @radius >= dist mx,my,@x,@y then 1 else -1\n	randint : (n) -> int n * fraction 10000 * Math.sin @seed++\n\napp = new Coordinator \"a\"",
   c: {
     app: "reset()"
   },
-  d: "reset()"
+  d: "reset()|mousePressed 0,141|mousePressed 40,195|mousePressed 169,173|mousePressed 36,157"
 };
 
 ID_CornerPoints = {

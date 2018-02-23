@@ -908,8 +908,9 @@ class Shot
 	constructor : (@x,@y,@dir) ->
 	render : ->	point @x,@y
 	move : ->
-		@x += int 5 * cos @dir
-		@y += int 5 * sin @dir
+		angleMode DEGREES
+		@x += int 10 * cos @dir
+		@y += int 10 * sin @dir
 
 class Ship extends Application
 	classes : -> [Shot]
@@ -918,18 +919,21 @@ class Ship extends Application
 		@S = 10
 		@x = 100
 		@y = 100
-		@dir = 0
+		@dir = 0 # degrees
 		@shots = []
 
-	left    : -> @dir -= 5
-	right   : -> @dir += 5
+	left    : -> @dir -= 10
+	right   : -> @dir += 10
 	forward : ->
 		angleMode DEGREES
 		@x += 5 * cos @dir
 		@y += 5 * sin @dir
 
 	shoot : ->
-		@shots.push new Shot int(@x), int(@y), @dir
+		angleMode DEGREES
+		x = int @x + 20 * cos @dir
+		y = int @y + 20 * sin @dir
+		@shots.push new Shot x, y, @dir
 
 	draw : ->
 		push()
@@ -950,7 +954,7 @@ app = new Ship "a"
 """
 	c:
 		app: "reset()|left()|right()|forward()|shoot()"
-	d: "reset()|left()|right()|forward()|shoot()|right()|forward()|shoot()|right()|forward()|shoot()"
+	d: "reset()|left()|left()|shoot()|shoot()|shoot()|forward()|left()|left()|shoot()|forward()|left()|shoot()|shoot()|shoot()|forward()|forward()|forward()|forward()"
 
 ID_Square =
 	v:'2017-09-30'

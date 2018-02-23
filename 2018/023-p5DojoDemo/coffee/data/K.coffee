@@ -250,7 +250,7 @@ class Korsord extends Application
 	enter : (s='') ->
 		words = ordlista.split " "
 		@pattern = s
-		if s != '' then @pattern = @readText()
+		if s == '' then @pattern = @readText()
 		@found = []
 		for w in words
 			if w.length == @pattern.length and @match w,@pattern then @found.push w
@@ -260,4 +260,4 @@ app = new Korsord "a"
 """
 	c:
 		app : "reset()|enter()"
-	d : "reset()|enter 'b..l'|draw()"
+	d : "reset()|enter 'b..l'|enter '....x'"

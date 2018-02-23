@@ -91,11 +91,11 @@ ID_BouncingBalls = {
   k: 'fc sw sc circle operators [] if for class',
   l: 43,
   b: "class Ball\n	constructor : ->\n	update      : (grav) ->\n	render      : (sel) ->\n\nclass BouncingBalls extends Application\n	classes : -> [Ball]\n	reset   : ->\n		super\n	draw    : ->\n	update  : ->\n	add     : ->\n	delete  : ->\n	selNext : ->\n	selPrev : ->\n	grow    : ->\n	shrink  : ->\n	nextCol : ->\n	prevCol : ->\n	gravity : ->\napp = new BouncingBalls",
-  a: "class Ball\n	constructor : ->\n		@x = 100\n		@y = 100\n		@r = 10\n		@c = 1\n		@dx = 3\n		@dy = 4\n	update : (grav) ->\n		@x += @dx\n		@y += @dy\n		if not (@r < @x < 200-@r) then @dx = - @dx\n		if not (@r < @y < 200-@r) then @dy = - @dy\n		if grav and @y < 200-@r then @dy += 1\n	render : (sel) ->\n		fill cc @c\n		sw 2\n		if sel then stroke cct @c else sc()\n		circle @x,@y,@r\n\nclass BouncingBalls extends Application\n	classes : -> [Ball]\n	reset : ->\n		super\n		@balls = []\n		@sel = -1\n		@grav = false\n	draw : ->\n		for ball,i in @balls\n			ball.render i==@sel, @grav\n	update : ->\n		for ball in @balls\n			ball.update(@grav)\n\n	add : ->\n		@balls.push new Ball\n		@sel = @balls.length - 1\n\n	delete :->\n		@balls.splice @sel, 1\n		if @sel >= @balls.length then @sel = @balls.length - 1\n	selNext : -> @sel = (@sel + 1) %% @balls.length\n	selPrev : -> @sel = (@sel - 1) %% @balls.length\n	grow : ->    @balls[@sel].r++\n	shrink : ->  @balls[@sel].r--\n	nextCol : -> @balls[@sel].c = (@balls[@sel].c+1) %% 32\n	prevCol : -> @balls[@sel].c = (@balls[@sel].c-1) %% 32\n	gravity : -> @grav = not @grav\n\napp = new BouncingBalls \"a\"",
+  a: "class Ball\n	constructor : ->\n		@x = 100\n		@y = 10\n		@r = 10\n		@c = 1\n		@dx = 10\n		@dy = 5\n	update : (grav) ->\n		@x += @dx\n		@y += @dy\n		if not (@r < @x < 200-@r) then @dx = - @dx\n		if not (@r < @y < 200-@r) then @dy = - @dy\n		if grav and @y < 200-@r then @dy += 5\n	render : (sel) ->\n		fill cc @c\n		sw 2\n		if sel then stroke cct @c else sc()\n		circle @x,@y,@r\n\nclass BouncingBalls extends Application\n	classes : -> [Ball]\n	reset : ->\n		super\n		@balls = []\n		@sel = -1\n		@grav = false\n	draw : ->\n		for ball,i in @balls\n			ball.render i==@sel, @grav\n	update : ->\n		for ball in @balls\n			ball.update(@grav)\n\n	add : ->\n		@balls.push new Ball\n		@sel = @balls.length - 1\n\n	delete :->\n		@balls.splice @sel, 1\n		if @sel >= @balls.length then @sel = @balls.length - 1\n	selNext : -> @sel = (@sel + 1) %% @balls.length\n	selPrev : -> @sel = (@sel - 1) %% @balls.length\n	grow : ->    @balls[@sel].r++\n	shrink : ->  @balls[@sel].r--\n	nextCol : -> @balls[@sel].c = (@balls[@sel].c+1) %% 32\n	prevCol : -> @balls[@sel].c = (@balls[@sel].c-1) %% 32\n	gravity : -> @grav = not @grav\n\napp = new BouncingBalls \"a\"",
   c: {
     app: "reset()|update()|add()|delete()|selNext()|selPrev()|grow()|shrink()|nextCol()|prevCol()|gravity()"
   },
-  d: "reset()|gravity()|add()|grow()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()"
+  d: "reset()|gravity()|add()|grow()xxxxxxxxxxxxxxx".replace(/x/g, "|update()")
 };
 
 ID_Braid = {
@@ -119,7 +119,7 @@ ID_Braider = {
   c: {
     app: "braid 1|braid 2|braid 3|braid 4|forward()|back()"
   },
-  d: "braid 3|forward()|forward()|forward()|forward()|forward()|forward()|forward()|forward()|forward()|forward()",
+  d: "braid 3ggggggggggggggggg|braid 4gggggggggggggggggggggg".replace(/g/g, "|forward()"),
   e: {
     braid: "https://cdn.tutsplus.com/vector/uploads/legacy/tuts/000-2011/398-hair-braid/6.jpg"
   }

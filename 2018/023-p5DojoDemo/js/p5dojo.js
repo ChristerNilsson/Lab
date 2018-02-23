@@ -19,6 +19,7 @@ var INTERVAL,
     circle,
     co,
     compare,
+    count,
     decorate,
     _demo,
     editor_change,
@@ -75,6 +76,8 @@ block = 0;
 buffer = [[], [], []];
 
 meny = null;
+
+count = 0;
 
 // setMsg = (e,nr) ->
 // 	if e == ''
@@ -375,6 +378,7 @@ _demo = function demo() {
   document.getElementById("chapter").innerHTML = chapter;
   document.getElementById("exercise").innerHTML = exercise;
   document.getElementById("command").innerHTML = cmd;
+  document.getElementById("seconds").innerHTML = "frame: " + count++;
   print(items.length, chapter, exercise, cmd);
   meny = {
     exercise: exercise
@@ -384,9 +388,7 @@ _demo = function demo() {
     if (indexOf.call(calls, cmd) >= 0) {
       code = calls[cmd];
     } else {
-      code = "app." + cmd
-      // ; app.store()
-      + "; app.draw()";
+      code = "app." + cmd + "; app.draw(); app.store()";
     }
     run1(chapter, exercise, code);
   } else {

@@ -398,4 +398,4 @@ app = new GUI "a"
 """
 	c:
 		app : "reset()|up()|down()|left()|right()"
-	d : "reset()|down()|up()|left()|left()|left()|left()"
+	d : "reset()|down()|right()|right()|right()|right()|down()|right()|down()"

@@ -301,17 +301,17 @@ app = new BouncingBalls
 class Ball
 	constructor : ->
 		@x = 100
-		@y = 100
+		@y = 10
 		@r = 10
 		@c = 1
-		@dx = 3
-		@dy = 4
+		@dx = 10
+		@dy = 5
 	update : (grav) ->
 		@x += @dx
 		@y += @dy
 		if not (@r < @x < 200-@r) then @dx = - @dx
 		if not (@r < @y < 200-@r) then @dy = - @dy
-		if grav and @y < 200-@r then @dy += 1
+		if grav and @y < 200-@r then @dy += 5
 	render : (sel) ->
 		fill cc @c
 		sw 2
@@ -351,7 +351,7 @@ app = new BouncingBalls "a"
 """
 	c:
 		app : "reset()|update()|add()|delete()|selNext()|selPrev()|grow()|shrink()|nextCol()|prevCol()|gravity()"
-	d : "reset()|gravity()|add()|grow()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()|update()"
+	d : "reset()|gravity()|add()|grow()xxxxxxxxxxxxxxx".replace(/x/g,"|update()")
 
 ID_Braid =
 	v:'2017-04-29'
@@ -487,7 +487,7 @@ app = new Braider "a"
 """
 	c:
 		app : "braid 1|braid 2|braid 3|braid 4|forward()|back()"
-	d : "braid 3|forward()|forward()|forward()|forward()|forward()|forward()|forward()|forward()|forward()|forward()"
+	d : "braid 3ggggggggggggggggg|braid 4gggggggggggggggggggggg".replace(/g/g,"|forward()")
 
 	e:
 		braid : "https://cdn.tutsplus.com/vector/uploads/legacy/tuts/000-2011/398-hair-braid/6.jpg"

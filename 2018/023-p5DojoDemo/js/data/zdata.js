@@ -13,6 +13,16 @@ var data;
 
 data = {
   "L1: bg point sc sw": {
+    //Nim : ID_Nim
+    //GUI : ID_GUI
+    //ColorPair : ID_ColorPair
+    //BouncingBalls : ID_BouncingBalls
+    //Quiz : ID_Quiz
+    //SpaceShip : ID_SpaceShip
+    //Coordinator : ID_Coordinator
+    //Braider : ID_Braider
+    //Hex : ID_Hex
+    //Korsord : ID_Korsord
     Background1: ID_Background1,
     Background2: ID_Background2,
     Background3: ID_Background3,

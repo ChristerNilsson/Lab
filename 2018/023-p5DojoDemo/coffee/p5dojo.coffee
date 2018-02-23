@@ -17,6 +17,8 @@ buffer = [[],[],[]]
 
 meny = null
 
+count = 0 
+
 # setMsg = (e,nr) ->
 # 	if e == ''
 # 		msg.val ""
@@ -207,12 +209,13 @@ demo = () ->
 	document.getElementById("chapter").innerHTML = chapter
 	document.getElementById("exercise").innerHTML = exercise
 	document.getElementById("command").innerHTML = cmd
+	document.getElementById("seconds").innerHTML = "frame: " + count++
 	print items.length,chapter,exercise,cmd
 	meny = {exercise : exercise}
 	calls = decorate data[chapter][exercise].c
 	if cmd != ''
 		if cmd in calls then code = calls[cmd]
-		else code = "app.#{cmd}; app.draw()" # ; app.store()
+		else code = "app.#{cmd}; app.draw(); app.store()"
 		run1 chapter, exercise, code
 	else
 		run1 chapter, exercise, ""

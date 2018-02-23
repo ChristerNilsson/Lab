@@ -164,11 +164,11 @@ ID_SpaceShip = {
   k: 'sc sw angleMode rotate point triangle translate cos sin push pop class',
   l: 35,
   b: "class Shot\n	constructor : (@x,@y,@dir) ->\n	render      : ->\n	move        : ->\n\nclass Ship extends Application\n	classes : -> [Shot]\n	reset   : ->\n		super\n	draw    : ->\n	left    : ->\n	right   : ->\n	forward : ->\n	shoot   : ->\n\napp = new Ship",
-  a: "\nclass Shot\n	constructor : (@x,@y,@dir) ->\n	render : ->	point @x,@y\n	move : ->\n		@x += int 5 * cos @dir\n		@y += int 5 * sin @dir\n\nclass Ship extends Application\n	classes : -> [Shot]\n	reset : ->\n		super\n		@S = 10\n		@x = 100\n		@y = 100\n		@dir = 0\n		@shots = []\n\n	left    : -> @dir -= 5\n	right   : -> @dir += 5\n	forward : ->\n		angleMode DEGREES\n		@x += 5 * cos @dir\n		@y += 5 * sin @dir\n\n	shoot : ->\n		@shots.push new Shot int(@x), int(@y), @dir\n\n	draw : ->\n		push()\n		translate @x,@y\n		angleMode DEGREES\n		rotate @dir\n		sc 1,1,0\n		sw 2\n		triangle 2*@S,0, -@S,@S, -@S,-@S\n		sw 5\n		point 0,0\n		pop()\n		for shot in @shots\n			shot.move()\n			shot.render()\n\napp = new Ship \"a\"",
+  a: "\nclass Shot\n	constructor : (@x,@y,@dir) ->\n	render : ->	point @x,@y\n	move : ->\n		angleMode DEGREES\n		@x += int 10 * cos @dir\n		@y += int 10 * sin @dir\n\nclass Ship extends Application\n	classes : -> [Shot]\n	reset : ->\n		super\n		@S = 10\n		@x = 100\n		@y = 100\n		@dir = 0 # degrees\n		@shots = []\n\n	left    : -> @dir -= 10\n	right   : -> @dir += 10\n	forward : ->\n		angleMode DEGREES\n		@x += 5 * cos @dir\n		@y += 5 * sin @dir\n\n	shoot : ->\n		angleMode DEGREES\n		x = int @x + 20 * cos @dir\n		y = int @y + 20 * sin @dir\n		@shots.push new Shot x, y, @dir\n\n	draw : ->\n		push()\n		translate @x,@y\n		angleMode DEGREES\n		rotate @dir\n		sc 1,1,0\n		sw 2\n		triangle 2*@S,0, -@S,@S, -@S,-@S\n		sw 5\n		point 0,0\n		pop()\n		for shot in @shots\n			shot.move()\n			shot.render()\n\napp = new Ship \"a\"",
   c: {
     app: "reset()|left()|right()|forward()|shoot()"
   },
-  d: "reset()|left()|right()|forward()|shoot()|right()|forward()|shoot()|right()|forward()|shoot()"
+  d: "reset()|left()|left()|shoot()|shoot()|shoot()|forward()|left()|left()|shoot()|forward()|left()|shoot()|shoot()|shoot()|forward()|forward()|forward()|forward()"
 };
 
 ID_Square = {

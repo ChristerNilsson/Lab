@@ -20,6 +20,6 @@ ID_Quiz = {
   c: {
     app: "reset()|enter()"
   },
-  d: "reset()|enter '27'|enter '28'"
+  d: "reset()"
 };
 //# sourceMappingURL=Q.js.map

@@ -53,10 +53,10 @@ ID_Korsord = {
   k: 'bg fc sc readText operators text if for "" class []',
   l: 27,
   b: "# Mata in t ex b..l och få ut bill samt boll. Använd variabeln ordlista.\n\nclass Korsord extends Application\n	reset : ->\n		super\n	draw  : ->\n	enter : ->\napp = new Korsord",
-  a: "class Korsord extends Application\n	reset : ->\n		super\n		@found = \"\"\n		@pattern = ''\n	draw : ->\n		n = 15\n		bg 0\n		textAlign LEFT,TOP\n		textSize 12\n		fc 1,1,0\n		sc()\n		for word,i in @found.split \" \"\n			x = int i / n\n			y = i % n\n			text word,5+200/4*x,200*y/n\n	match : (word,pattern) ->\n		for letter,i in pattern\n			if letter != '.' and letter != word[i] then	return false\n		true\n	enter : (s='') ->\n		words = ordlista.split \" \"\n		@pattern = s\n		if s != '' then @pattern = @readText()\n		@found = []\n		for w in words\n			if w.length == @pattern.length and @match w,@pattern then @found.push w\n		@found = @found.join \" \"\n\napp = new Korsord \"a\"",
+  a: "class Korsord extends Application\n	reset : ->\n		super\n		@found = \"\"\n		@pattern = ''\n	draw : ->\n		n = 15\n		bg 0\n		textAlign LEFT,TOP\n		textSize 12\n		fc 1,1,0\n		sc()\n		for word,i in @found.split \" \"\n			x = int i / n\n			y = i % n\n			text word,5+200/4*x,200*y/n\n	match : (word,pattern) ->\n		for letter,i in pattern\n			if letter != '.' and letter != word[i] then	return false\n		true\n	enter : (s='') ->\n		words = ordlista.split \" \"\n		@pattern = s\n		if s == '' then @pattern = @readText()\n		@found = []\n		for w in words\n			if w.length == @pattern.length and @match w,@pattern then @found.push w\n		@found = @found.join \" \"\n\napp = new Korsord \"a\"",
   c: {
     app: "reset()|enter()"
   },
-  d: "reset()|enter 'b..l'|draw()"
+  d: "reset()|enter 'b..l'|enter '....x'"
 };
 //# sourceMappingURL=K.js.map

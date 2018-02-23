@@ -247,7 +247,7 @@ app = new Nim "a"
 """
 	c:
 		app : "reset()|newGame()"
-	d : "reset()|mousePressed 100,100|mousePressed 100,100|mousePressed 100,100|mousePressed 90,90|mousePressed 90,90"
+	d : "reset()cccccckbbkcckbbkcckakbk".replace(/a/g,"|mousePressed 50,100").replace(/b/g,"|mousePressed 100,100").replace(/c/g,"|mousePressed 150,100").replace(/k/g,"|mousePressed 50,150") 
 	e:
 		Nim : "https://en.wikipedia.org/wiki/Nim"
 		xor : "https://en.wikipedia.org/wiki/Bitwise_operation#XOR"

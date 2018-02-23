@@ -95,4 +95,4 @@ app = new Quiz "a"
 """
 	c:
 		app : "reset()|enter()"
-	d : "reset()|enter '27'|enter '28'"
+	d : "reset()"
