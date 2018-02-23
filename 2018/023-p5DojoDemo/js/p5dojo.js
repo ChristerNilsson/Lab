@@ -7,7 +7,8 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 
 // if the renew button is available, a new version of the b code is available.
 // Clicking renew prints the current b code on the console as a backup.
-var bg,
+var INTERVAL,
+    bg,
     block,
     buffer,
     buildKeywordLink,
@@ -56,6 +57,8 @@ var bg,
     _unmark,
     updateTables,
     indexOf = [].indexOf;
+
+INTERVAL = 1000;
 
 myCodeMirror = null;
 
@@ -381,7 +384,9 @@ _demo = function demo() {
     if (indexOf.call(calls, cmd) >= 0) {
       code = calls[cmd];
     } else {
-      code = "app." + cmd + "; app.draw(); app.store()";
+      code = "app." + cmd
+      // ; app.store()
+      + "; app.draw()";
     }
     run1(chapter, exercise, code);
   } else {
@@ -389,7 +394,7 @@ _demo = function demo() {
   }
   sleepTimer = 0;
   clearTimeout(sleepTimer);
-  delay = 1000;
+  delay = INTERVAL;
   //if items.length>500 then delay = 50 
   //if cmd == '' then delay = 50 
   return sleepTimer = setTimeout(_demo, delay);

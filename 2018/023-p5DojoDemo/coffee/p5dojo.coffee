@@ -3,6 +3,8 @@
 # if the renew button is available, a new version of the b code is available.
 # Clicking renew prints the current b code on the console as a backup.
 
+INTERVAL = 1000
+
 myCodeMirror = null
 msg = null
 
@@ -210,13 +212,13 @@ demo = () ->
 	calls = decorate data[chapter][exercise].c
 	if cmd != ''
 		if cmd in calls then code = calls[cmd]
-		else code = "app.#{cmd}; app.draw(); app.store()"
+		else code = "app.#{cmd}; app.draw()" # ; app.store()
 		run1 chapter, exercise, code
 	else
 		run1 chapter, exercise, ""
 	sleepTimer = 0
 	clearTimeout sleepTimer
-	delay = 1000
+	delay = INTERVAL
 	#if items.length>500 then delay = 50 
 	#if cmd == '' then delay = 50 
 
