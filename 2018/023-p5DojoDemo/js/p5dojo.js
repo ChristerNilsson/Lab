@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -11,18 +11,21 @@ var INTERVAL,
     bg,
     block,
     buffer,
-    buildKeywordLink,
     buildLink,
     cc,
     cct,
     changeLayout,
+    chapter,
     circle,
+    cmd,
     co,
     compare,
-    count,
+    currentItem,
     decorate,
-    _demo,
-    editor_change,
+    delay,
+    demoState,
+    draw,
+    exercise,
     fc,
     fetch,
     fillSelect,
@@ -34,6 +37,7 @@ var INTERVAL,
     grid,
     ip,
     items,
+    keyPressed,
     kwl,
     kwlinks,
     meny,
@@ -47,19 +51,33 @@ var INTERVAL,
     run,
     run0,
     run1,
-    saveSourceCode,
     saveToKeyStorage,
     sc,
     setup,
+    showText,
     store,
     sw,
     tableAppend,
     tableClear,
     _unmark,
     updateTables,
-    indexOf = [].indexOf;
+    modulo = function modulo(a, b) {
+  return (+a % (b = +b) + b) % b;
+};
 
 INTERVAL = 1000;
+
+currentItem = 0;
+
+chapter = '';
+
+exercise = '';
+
+cmd = '';
+
+delay = 59;
+
+demoState = 1;
 
 myCodeMirror = null;
 
@@ -77,22 +95,6 @@ buffer = [[], [], []];
 
 meny = null;
 
-count = 0;
-
-// setMsg = (e,nr) ->
-// 	if e == ''
-// 		msg.val ""
-// 		msg.hide()
-// 	else
-// 		s = e.toString()
-// 		p = s.indexOf ':'
-// 		s = s.substr p+1 if p!=-1
-
-// 		s = s.replace /\t/g,'  '
-
-// 		msg.val s + ' (' + e.name + ')' + if nr==1 then " (in A)" else ""
-// 		msg.show()
-// 	msg.css 'background-color', if e == '' then '#FFFFFF' else '#FF0000'
 grid = function grid() {
   var i, l, len, ref;
   push();
@@ -171,10 +173,6 @@ sc = function sc() {
   }
 };
 
-//b g c = (cc) -> bg cc%2, int(cc/2)%2, int(cc/4)
-//f c c = (cc) -> fc cc%2, int(cc/2)%2, int(cc/4)
-//s c c = (cc) -> sc cc%2, int(cc/2)%2, int(cc/4)
-//t c c = (cc) -> f c c [7,7,0,0,7,0,0,0][cc]
 cc = function cc(n) {
   // https://github.com/jonasjacek/colors with modifications
   var b, g, helper, lst, r, z;
@@ -275,46 +273,6 @@ buildLink = function buildLink(keyword) {
   }
 };
 
-buildKeywordLink = function buildKeywordLink() {
-  var save;
-  kwl = {};
-  kwlinks = [];
-  kwlinks.push('https://github.com/ChristerNilsson/p5Dojo/blob/master/README.md#{}');
-  kwlinks.push('https://p5js.org/reference/#/p5/{}');
-  kwlinks.push('https://www.w3schools.com/jsref/jsref_{}.asp');
-  kwlinks.push('https://github.com/ChristerNilsson/p5Dojo/blob/master/_.md#{}');
-  save = function save(index, words) {
-    var l, len, ref, results, word;
-    ref = words.split(' ');
-    results = [];
-    for (l = 0, len = ref.length; l < len; l++) {
-      word = ref[l];
-      results.push(kwl[word] = index);
-    }
-    return results;
-  };
-  save(0, '[] "" {} .. ... @ -> class text textSize textAlign textFont operators comparisons logical if bg fc sc sw');
-  save(0, 'range circle for while angleMode readText readInt readFloat');
-  save(0, 'PI sqrt atan2 abs cos sin log10 Date arc rect ellipse point line triangle quad arguments');
-  save(0, 'parseInt parseFloat dist nf constrain int round map lerp radians rotate reduce');
-  save(1, 'rectMode translate scale push pop random millis colorMode HSB strokeCap');
-  save(2, 'break return');
-  return save(3, 'contains filter countBy isEqual last max min pairs sortBy findIndex');
-};
-
-// mousePressed = ->
-// 	if meny.chapter=='' or meny.exercise=='' then return
-// 	p = null
-// 	if 0 <= mouseX-5 <= 200 and 0 <= mouseY-5 <= 200 then p = [mouseX-5,mouseY-5]
-// 	if 0 <= mouseX-5 <= 200 and 0 <= mouseY-210 <= 200 then p = [mouseX-5,mouseY-210]
-// 	if p
-// 		dict = data[meny.chapter][meny.exercise].c
-// 		if dict?
-// 			objekt = _.keys(dict)[0]
-// 			code = objekt + ".mousePressed(#{p[0]},#{p[1]}); " + objekt + ".draw(); " + objekt + ".store()"
-// 			if run1(code) == true
-// 				run0(code)
-// 				compare()
 decorate = function decorate(dict) {
   // {klocka: "draw|incr_hour"}
   var l, len, method, methods, objekt, res, s;
@@ -364,80 +322,105 @@ updateTables = function updateTables() {
 
 items = [];
 
-_demo = function demo() {
-  var calls, chapter, cmd, code, delay, exercise, sleepTimer;
+showText = function showText() {
+  var _items$currentItem = _slicedToArray(items[currentItem], 3);
 
-  var _items$pop = items.pop();
-
-  var _items$pop2 = _slicedToArray(_items$pop, 3);
-
-  chapter = _items$pop2[0];
-  exercise = _items$pop2[1];
-  cmd = _items$pop2[2];
+  chapter = _items$currentItem[0];
+  exercise = _items$currentItem[1];
+  cmd = _items$currentItem[2];
 
   document.getElementById("chapter").innerHTML = "   Level: " + chapter;
   document.getElementById("exercise").innerHTML = "Exercise: " + exercise;
   document.getElementById("command").innerHTML = " Command: " + cmd;
-  document.getElementById("seconds").innerHTML = "   Frame: " + count++;
-  print(items.length, chapter, exercise, cmd);
+  document.getElementById("seconds").innerHTML = "   Frame: " + currentItem + " " + ["(Paused)", ""][demoState];
+  return document.getElementById("info").innerHTML = "Use Left, Right and Space keys";
+};
+
+draw = function draw() {
+  var calls, code;
+
+  //print items.length,chapter,exercise,cmd
+  showText();
   meny = {
     exercise: exercise
   };
   calls = decorate(data[chapter][exercise].c);
-  if (cmd !== '') {
-    if (indexOf.call(calls, cmd) >= 0) {
-      code = calls[cmd];
-    } else {
-      code = "app." + cmd + "; app.draw(); app.store()";
+  if (delay === 60) {
+    code = 'app.' + cmd + '; app.draw(); app.store()';
+    if (demoState === 1) {
+      currentItem++;
     }
-    run1(chapter, exercise, code);
+    delay--;
   } else {
-    run1(chapter, exercise, "");
+    code = 'app.draw()';
+    delay--;
   }
-  sleepTimer = 0;
-  clearTimeout(sleepTimer);
-  delay = INTERVAL;
-  //if items.length>500 then delay = 50 
-  //if cmd == '' then delay = 50 
-  return sleepTimer = setTimeout(_demo, delay);
+  if (delay === 0) {
+    delay = 60;
+  }
+  if (demoState === 1) {
+    return run1(chapter, exercise, code);
+  }
+};
+
+keyPressed = function keyPressed() {
+  if (keyCode === 32) {
+    demoState = 1 - demoState;
+  }
+  if (keyCode === 37) {
+    currentItem--;
+  }
+  if (keyCode === 39) {
+    currentItem++;
+  }
+  return currentItem = modulo(currentItem, items.length);
 };
 
 setup = function setup() {
-  var c, chapter, cmd, cmds, exercise, item1, item2, l, len, timestamp;
-  //meny = new Menu data, document.getElementById "meny"
-  //updateTables()
+  var c, cmds, item1, item2, results, timestamp;
   timestamp = millis();
   c = createCanvas(3 * 201 + 10, 3 * 201 + 10);
-  //buildKeywordLink()
   gap = 5 * width * 4;
   block = 201 * width * 4;
   pixelDensity(1);
   c.parent('canvas');
   bg(0);
   items = [];
+  results = [];
   for (chapter in data) {
     item1 = data[chapter];
     if (chapter !== 'Information' && chapter !== 'Exhibition') {
-      for (exercise in item1) {
-        item2 = item1[exercise];
-        if (item2.d) {
-          cmds = item2.d.split('|');
-          for (l = 0, len = cmds.length; l < len; l++) {
-            cmd = cmds[l];
-            items.push([chapter, exercise, cmd]);
+      results.push(function () {
+        var results1;
+        results1 = [];
+        for (exercise in item1) {
+          item2 = item1[exercise];
+          if (item2.d) {
+            cmds = item2.d.split('|');
+            results1.push(function () {
+              var l, len, results2;
+              results2 = [];
+              for (l = 0, len = cmds.length; l < len; l++) {
+                cmd = cmds[l];
+                results2.push(items.push([chapter, exercise, cmd]));
+              }
+              return results2;
+            }());
+          } else {
+            results1.push(items.push([chapter, exercise, '']));
           }
-        } else {
-          items.push([chapter, exercise, '']);
         }
-      }
+        return results1;
+      }());
+    } else {
+      results.push(void 0);
     }
   }
-  items.reverse();
-  return _demo();
+  return results;
 };
 
 window.onbeforeunload = function () {
-  var blob, chapter, exercise, i, key1, key2, l, len, ref, res, s;
+  var blob, i, key1, key2, l, len, ref, res, s;
   if (document.URL.indexOf("record") === -1) {
     return;
   }
@@ -447,11 +430,11 @@ window.onbeforeunload = function () {
     for (key2 in chapter) {
       exercise = chapter[key2];
       if (exercise.d) {
-        res.push("### " + key1 + " ### " + key2 + "\n");
+        res.push('### ' + key1 + ' ### ' + key2 + '\n');
         ref = exercise.d;
         for (i = l = 0, len = ref.length; l < len; i = ++l) {
           s = ref[i];
-          res.push("=== " + i + "\n");
+          res.push('=== ' + i + '\n');
           res.push(s + "\n");
         }
       }
@@ -464,34 +447,6 @@ window.onbeforeunload = function () {
   return true;
 };
 
-window.onload = function () {};
-
-// ta = document.getElementById "code"
-
-// myCodeMirror = CodeMirror.fromTextArea document.getElementById("code"), {
-// 	lineNumbers: true,
-// 	mode: "coffeescript",
-// 	keyMap: "sublime",
-// 	theme: "dracula",
-// 	autoCloseBrackets: true,
-// 	lineWiseCopyCut: true,
-// 	tabSize: 2,
-// 	indentWithTabs: true,
-// 	matchBrackets : true,
-// }
-
-// $(".CodeMirror").css 'font-size',"16pt"
-// myCodeMirror.on "change", editor_change
-
-// meny.chapter = ""
-// meny.exercise = ""
-
-// myCodeMirror.setValue '# Klicka först på L1:\n# Klicka därefter på Background1'
-
-// myCodeMirror.focus()
-// window.resizeTo 1000,750
-// changeLayout()
-// meny.setState 0
 saveToKeyStorage = function saveToKeyStorage(b) {
   var l, len, line, place, ref, s;
   s = "";
@@ -507,34 +462,6 @@ saveToKeyStorage = function saveToKeyStorage(b) {
     place.d = [];
   }
   return place.d.push(s);
-};
-
-editor_change = function editor_change() {
-  var code, dce, res;
-  reset();
-  if (meny.exercise === '') {
-    return;
-  }
-  if (0 === _.size(meny.calls)) {
-    code = ""; // transpile, draw
-  } else {
-    code = meny.calls["draw()"];
-  }
-  dce = data[meny.chapter][meny.exercise];
-  if (dce && dce.a && _.size(dce.a.c) > 0) {
-    if (false === run1(code)) {
-      // bör normalt vara true
-      return;
-    }
-  }
-  res = run0(code);
-  //if res # spara källkod EFTER exekvering
-  saveSourceCode();
-  return compare();
-};
-
-saveSourceCode = function saveSourceCode() {
-  return localStorage[meny.exercise + "/d"] = myCodeMirror.getValue();
 };
 
 run0 = function run0(code) {
@@ -575,11 +502,6 @@ run = function run(_n, coffee) {
   scale(3);
   grid();
   try {
-    //setMsg "", _n
-
-    //if meny.exercise == "" 
-    //	pop()
-    //	return true
     code = transpile(coffee);
     try {
       eval(code);
@@ -588,13 +510,11 @@ run = function run(_n, coffee) {
       return true;
     } catch (error) {
       e = error;
-      //setMsg e, _n
       pop();
       return false;
     }
   } catch (error) {
     e = error;
-    //setMsg e, _n
     pop();
     return false;
   }

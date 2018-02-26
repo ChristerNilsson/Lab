@@ -4,6 +4,12 @@
 # Clicking renew prints the current b code on the console as a backup.
 
 INTERVAL = 1000
+currentItem = 0
+chapter = ''
+exercise = ''
+cmd = ''
+delay = 59
+demoState = 1
 
 myCodeMirror = null
 msg = null
@@ -16,23 +22,6 @@ block = 0
 buffer = [[],[],[]]
 
 meny = null
-
-count = 0 
-
-# setMsg = (e,nr) ->
-# 	if e == ''
-# 		msg.val ""
-# 		msg.hide()
-# 	else
-# 		s = e.toString()
-# 		p = s.indexOf ':'
-# 		s = s.substr p+1 if p!=-1
-
-# 		s = s.replace /\t/g,'  '
-
-# 		msg.val s + ' (' + e.name + ')' + if nr==1 then " (in A)" else ""
-# 		msg.show()
-# 	msg.css 'background-color', if e == '' then '#FFFFFF' else '#FF0000'
 
 grid = ->
 	push()
@@ -90,11 +79,6 @@ sc = ->
 	else
 		stroke fixColor arguments
 
-#b g c = (cc) -> bg cc%2, int(cc/2)%2, int(cc/4)
-#f c c = (cc) -> fc cc%2, int(cc/2)%2, int(cc/4)
-#s c c = (cc) -> sc cc%2, int(cc/2)%2, int(cc/4)
-#t c c = (cc) -> f c c [7,7,0,0,7,0,0,0][cc]
-
 cc = (n) -> # https://github.com/jonasjacek/colors with modifications
 	helper = (n,big) -> [n%2*big, int(n/2)%2*big, int(n/4)*big]
 	if n<8 then helper n,255
@@ -146,36 +130,6 @@ buildLink = (keyword) ->
 		keyword = keyword.replace('HSB','colorMode')
 		kwlinks[nr].replace('{}',keyword)
 
-buildKeywordLink = ->
-	kwl = {}
-	kwlinks = []
-	kwlinks.push 'https://github.com/ChristerNilsson/p5Dojo/blob/master/README.md#{}'
-	kwlinks.push 'https://p5js.org/reference/#/p5/{}'
-	kwlinks.push 'https://www.w3schools.com/jsref/jsref_{}.asp'
-	kwlinks.push 'https://github.com/ChristerNilsson/p5Dojo/blob/master/_.md#{}'
-	save = (index,words) -> kwl[word] = index for word in words.split ' '
-	save 0,'[] "" {} .. ... @ -> class text textSize textAlign textFont operators comparisons logical if bg fc sc sw'
-	save 0,'range circle for while angleMode readText readInt readFloat'
-	save 0,'PI sqrt atan2 abs cos sin log10 Date arc rect ellipse point line triangle quad arguments'
-	save 0,'parseInt parseFloat dist nf constrain int round map lerp radians rotate reduce'
-	save 1,'rectMode translate scale push pop random millis colorMode HSB strokeCap'
-	save 2,'break return'
-	save 3,'contains filter countBy isEqual last max min pairs sortBy findIndex'
-
-# mousePressed = ->
-# 	if meny.chapter=='' or meny.exercise=='' then return
-# 	p = null
-# 	if 0 <= mouseX-5 <= 200 and 0 <= mouseY-5 <= 200 then p = [mouseX-5,mouseY-5]
-# 	if 0 <= mouseX-5 <= 200 and 0 <= mouseY-210 <= 200 then p = [mouseX-5,mouseY-210]
-# 	if p
-# 		dict = data[meny.chapter][meny.exercise].c
-# 		if dict?
-# 			objekt = _.keys(dict)[0]
-# 			code = objekt + ".mousePressed(#{p[0]},#{p[1]}); " + objekt + ".draw(); " + objekt + ".store()"
-# 			if run1(code) == true
-# 				run0(code)
-# 				compare()
-
 decorate = (dict) -> # {klocka: "draw|incr_hour"}
 	if dict==undefined then return {}
 	if dict==null then return {}
@@ -204,38 +158,40 @@ updateTables = ->
 
 items = []
 
-demo = () -> 
-	[chapter,exercise,cmd] = items.pop()
+showText = ->
+	[chapter,exercise,cmd] = items[currentItem] #.pop()
 	document.getElementById("chapter").innerHTML  = "   Level: " + chapter
 	document.getElementById("exercise").innerHTML = "Exercise: " + exercise
 	document.getElementById("command").innerHTML  = " Command: " + cmd
-	document.getElementById("seconds").innerHTML  = "   Frame: " + count++
-	print items.length,chapter,exercise,cmd
+	document.getElementById("seconds").innerHTML  = "   Frame: " + currentItem + " " + ["(Paused)",""][demoState]
+	document.getElementById("info").innerHTML  = "Use Left, Right and Space keys"
+
+draw = -> 
+	#print items.length,chapter,exercise,cmd
+	showText()
 	meny = {exercise : exercise}
 	calls = decorate data[chapter][exercise].c
-	if cmd != ''
-		if cmd in calls then code = calls[cmd]
-		else code = "app.#{cmd}; app.draw(); app.store()"
-		run1 chapter, exercise, code
-	else
-		run1 chapter, exercise, ""
-	sleepTimer = 0
-	clearTimeout sleepTimer
-	delay = INTERVAL
-	#if items.length>500 then delay = 50 
-	#if cmd == '' then delay = 50 
 
-	sleepTimer = setTimeout demo, delay
+	if delay == 60
+		code = "app.#{cmd}; app.draw(); app.store()"
+		if demoState == 1 then currentItem++
+		delay--
+	else 
+		code = 'app.draw()'
+		delay--
+	if delay==0 then delay = 60
+	if demoState == 1 then run1 chapter, exercise, code
+
+keyPressed = ->
+	if keyCode == 32 then demoState = 1 - demoState
+	if keyCode == 37 then currentItem--
+	if keyCode == 39 then currentItem++
+	currentItem %%= items.length
 
 setup = ->
 
-	#meny = new Menu data, document.getElementById "meny"
-	#updateTables()
-
 	timestamp = millis()
 	c = createCanvas 3*201+10, 3*201+10
-
-	#buildKeywordLink()
 
 	gap = 5 * width * 4
 	block = 201 * width * 4
@@ -255,8 +211,6 @@ setup = ->
 						items.push [chapter,exercise,cmd]
 				else
 					items.push [chapter,exercise,'']
-	items.reverse()
-	demo()
 
 window.onbeforeunload = ->
 	return if document.URL.indexOf("record") == -1
@@ -272,35 +226,6 @@ window.onbeforeunload = ->
 	saveAs blob, "recording.txt"
 	true
 
-window.onload = ->
-
-	# ta = document.getElementById "code"
-
-	# myCodeMirror = CodeMirror.fromTextArea document.getElementById("code"), {
-	# 	lineNumbers: true,
-	# 	mode: "coffeescript",
-	# 	keyMap: "sublime",
-	# 	theme: "dracula",
-	# 	autoCloseBrackets: true,
-	# 	lineWiseCopyCut: true,
-	# 	tabSize: 2,
-	# 	indentWithTabs: true,
-	# 	matchBrackets : true,
-	# }
-
-	# $(".CodeMirror").css 'font-size',"16pt"
-	# myCodeMirror.on "change", editor_change
-
-	# meny.chapter = ""
-	# meny.exercise = ""
-
-	# myCodeMirror.setValue '# Klicka först på L1:\n# Klicka därefter på Background1'
-
-	# myCodeMirror.focus()
-	# window.resizeTo 1000,750
-	# changeLayout()
-	# meny.setState 0
-
 saveToKeyStorage = (b) ->
 	s = ""
 	for line in b.split '\n'
@@ -310,25 +235,6 @@ saveToKeyStorage = (b) ->
 	if !place.d
 		place.d = []
 	place.d.push s
-
-editor_change = ->
-	reset()
-	if meny.exercise=='' then return
-	if 0 == _.size meny.calls
-		code = ""
-	else # transpile, draw
-		code = meny.calls["draw()"]
-
-	dce = data[meny.chapter][meny.exercise]
-	if dce and dce.a and _.size(dce.a.c) > 0
-		if false == run1 code then return # bör normalt vara true
-	res = run0 code
-
-	#if res # spara källkod EFTER exekvering
-	saveSourceCode()
-	compare()
-
-saveSourceCode = ->	localStorage[meny.exercise + "/d"] = myCodeMirror.getValue()
 
 run0 = (code) ->
 	if meny.exercise=="" then return false
@@ -359,12 +265,6 @@ run = (_n, coffee) ->
 	scale 3
 	grid()
 
-	#setMsg "", _n
-
-	#if meny.exercise == "" 
-	#	pop()
-	#	return true
-
 	try
 		code = transpile coffee
 
@@ -374,11 +274,9 @@ run = (_n, coffee) ->
 			pop()
 			return true
 		catch e
-			#setMsg e, _n
 			pop()
 			return false
 	catch e
-		#setMsg e, _n
 		pop()
 		return false
 
