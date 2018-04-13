@@ -68,8 +68,9 @@ setup = ->
 	buttons.push new Button 'undo',500,400, -> 
 		if hist.length > 0 then total = hist.pop()
 	buttons.push new Button 'ok',500,500, -> 
-		if steps==hist.length and total==game.total then newGame 1
-		else newGame -1
+		if @enabled
+			if steps==hist.length and total==game.total then newGame 1
+			else newGame -1
 	newGame 0
 
 info = ->

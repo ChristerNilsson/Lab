@@ -147,10 +147,12 @@ setup = function setup() {
     }
   }));
   buttons.push(new Button('ok', 500, 500, function () {
-    if (steps === hist.length && total === game.total) {
-      return newGame(1);
-    } else {
-      return newGame(-1);
+    if (this.enabled) {
+      if (steps === hist.length && total === game.total) {
+        return newGame(1);
+      } else {
+        return newGame(-1);
+      }
     }
   }));
   return newGame(0);
