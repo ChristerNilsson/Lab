@@ -1,16 +1,14 @@
 # 028-ChineseRemainder
 
-Se till att alla visarna står på klockan tolv!
+Använd exakt det antal steg som föreslås.
 
-Klick på +1 tickar alla klockor ett tick medurs.
+Se till att alla visarna står på klockan tolv!
 
 Klick på klocka tickar alla klockor det antal tick denna klocka har. 
 
-Använda minimalt antal steg för att nå nästa level.
+Hitta minimalt total.
 
-Dessutom ska n vara minimalt.
-
-När du behärskar spelet: skriv algoritmen solve som beräknar minsta möjliga n!
+När du behärskar spelet: skriv algoritmen solve som beräknar minsta möjliga total!
 * assert 4, solve [4],[5]
 * assert 4, solve [0,1],[2,3]
 * assert 1, solve [1,1,1],[2,3,5]
