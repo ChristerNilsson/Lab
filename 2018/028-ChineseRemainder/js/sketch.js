@@ -118,9 +118,7 @@ newGame = function newGame(delta) {
     steps = 1;
   }
   game = createProblem(steps);
-  while (game.restSum === 0) {
-    game = createProblem(steps);
-  }
+  print(game);
   buttons[3].enabled = okidoki();
   state = 0;
   total = 0;

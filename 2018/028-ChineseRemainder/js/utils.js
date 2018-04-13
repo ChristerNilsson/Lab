@@ -52,8 +52,8 @@ createProblem = function createProblem(steps) {
         if (indexOf.call(nextcands, nextcand) < 0) {
           if (!(nextcand in tree)) {
             tree[nextcand] = cand;
+            nextcands.push(nextcand);
           }
-          nextcands.push(nextcand);
         }
       }
     }
@@ -71,11 +71,9 @@ createProblem = function createProblem(steps) {
     ticks: ticks,
     total: path[0],
     steps: path.length,
-    path: path,
-    restSum: rests.reduce(function (a, b) {
-      return a + b;
-    })
+    path: path
   };
+  //restSum : rests.reduce (a,b) -> a+b 
   return result;
 };
 

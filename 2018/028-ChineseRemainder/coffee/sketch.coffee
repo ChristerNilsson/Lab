@@ -45,8 +45,7 @@ newGame = (delta) ->
 	if steps < 1 then steps = 1
 
 	game = createProblem steps
-	while game.restSum == 0
-		game = createProblem steps
+	print game
 
 	buttons[3].enabled = okidoki()
 	state = 0

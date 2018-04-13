@@ -25,7 +25,7 @@ createProblem = (steps) ->
 				if nextcand not in nextcands
 					if nextcand not of tree 
 						tree[nextcand] = cand 
-					nextcands.push nextcand
+						nextcands.push nextcand
 		cands = nextcands 
 	path = []
 	total = _.sample cands
@@ -41,7 +41,7 @@ createProblem = (steps) ->
 		total : path[0]
 		steps : path.length
 		path : path
-		restSum : rests.reduce (a,b) -> a+b 
+		#restSum : rests.reduce (a,b) -> a+b 
 	result 
 
 # crt = (n,a) ->
