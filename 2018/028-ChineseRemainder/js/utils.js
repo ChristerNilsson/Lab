@@ -32,8 +32,11 @@ createRests = function createRests(ticks, path) {
 
 createProblem = function createProblem(steps) {
   var cand, cands, item, j, k, l, len, len1, len2, nextcand, nextcands, path, primes, ref, rests, result, step, ticks, total, tree;
-  primes = [2, 3, 5, 7, 11, 13];
+  primes = [2, 3, 5, 7, 11, 13, 17, 19];
   ticks = _.sample(primes, 1 + Math.floor(steps / 5));
+  ticks.sort(function (a, b) {
+    return a - b;
+  });
   ticks.unshift(1);
   tree = {};
   cands = [0];

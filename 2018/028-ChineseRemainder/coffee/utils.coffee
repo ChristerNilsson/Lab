@@ -10,8 +10,9 @@ createRests = (ticks,path) ->
 	rests 
 
 createProblem = (steps) ->
-	primes = [2,3,5,7,11,13]
-	ticks = _.sample primes, 1 + steps//5
+	primes = [2,3,5,7,11,13,17,19]
+	ticks = _.sample primes, 1 + steps // 5
+	ticks.sort (a,b) -> a-b
 	ticks.unshift 1
 
 	tree = {}
