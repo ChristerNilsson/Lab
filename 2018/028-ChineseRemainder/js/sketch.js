@@ -118,7 +118,6 @@ newGame = function newGame(delta) {
     steps = 1;
   }
   game = createProblem(steps);
-  print(game);
   buttons[3].enabled = okidoki();
   state = 0;
   total = 0;
@@ -136,7 +135,7 @@ newGame = function newGame(delta) {
 };
 
 setup = function setup() {
-  createCanvas(800, 800);
+  createCanvas(700, 900);
   textAlign(CENTER, CENTER);
   textSize(64);
   buttons.push(new Button('', 500, 100, function () {}));

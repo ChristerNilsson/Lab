@@ -43,10 +43,7 @@ okidoki = ->
 newGame = (delta) ->
 	steps += delta
 	if steps < 1 then steps = 1
-
 	game = createProblem steps
-	print game
-
 	buttons[3].enabled = okidoki()
 	state = 0
 
@@ -60,7 +57,7 @@ newGame = (delta) ->
 	xdraw()
 
 setup = -> 
-	createCanvas 800,800
+	createCanvas 700,900
 	textAlign CENTER,CENTER
 	textSize 64
 	buttons.push new Button '',500,100, ->

@@ -37,7 +37,6 @@ createProblem = function createProblem(steps) {
   ticks.sort(function (a, b) {
     return a - b;
   });
-  //ticks = [11,12,13]
   tree = {};
   cands = [0];
   ref = range(steps);
@@ -75,47 +74,4 @@ createProblem = function createProblem(steps) {
   };
   return result;
 };
-
-// crt = (n,a) ->
-// 	sum = 0
-// 	prod = n.reduce (a,c) -> a*c
-// 	for [ni,ai] in _.zip n,a
-// 		p = prod // ni
-// 		sum += ai * p * mulInv p,ni
-// 	sum % prod
-
-// mulInv = (a,b) ->
-// 	b0 = b
-// 	[x0,x1] = [0,1]
-// 	if b==1 then return 1
-// 	while a > 1
-// 		q = a // b
-// 		[a,b] = [b, a % b]
-// 		[x0,x1] = [x1-q*x0, x0]
-// 	if x1 < 0 then x1 += b0
-// 	x1
-
-// breadth first search for smallest total
-// search = (n,a,total) ->
-// 	tree = {}
-// 	cands = [0]
-// 	ready = false
-// 	while not ready 
-// 		nextcands = []
-// 		for cand in cands
-// 			for item in n
-// 				nextcand = cand+item
-// 				if nextcand not in nextcands
-// 					if nextcand not of tree 
-// 						tree[nextcand] = cand 
-// 					nextcands.push nextcand
-// 				if nextcand == total then ready = true  
-// 		cands = nextcands 
-// 	res = {1:0,7:0,13:0,17:0}
-// 	lasttotal = total
-// 	while total>0
-// 		total = tree[total]
-// 		res[lasttotal-total]++
-// 		lasttotal = total
-// 	res
 //# sourceMappingURL=utils.js.map
