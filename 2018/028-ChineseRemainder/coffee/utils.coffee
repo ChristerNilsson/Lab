@@ -11,9 +11,10 @@ createRests = (ticks,path) ->
 
 createProblem = (steps) ->
 	primes = [2,3,5,7,11,13,17,19]
-	ticks = _.sample primes, 1 + steps // 5
+	ticks = _.sample primes, 2 + steps // 5
 	ticks.sort (a,b) -> a-b
-	ticks.unshift 1
+
+	#ticks = [11,12,13]
 
 	tree = {}
 	cands = [0]
@@ -41,7 +42,6 @@ createProblem = (steps) ->
 		total : path[0]
 		steps : path.length
 		path : path
-		#restSum : rests.reduce (a,b) -> a+b 
 	result 
 
 # crt = (n,a) ->
