@@ -63,7 +63,7 @@ newGame = (delta) ->
 	xdraw()
 
 setup = -> 
-	createCanvas 500,890
+	createCanvas windowWidth,windowHeight
 	textAlign CENTER,CENTER
 	textSize 64
 	buttons.push new Button '',300,60,64, ->
