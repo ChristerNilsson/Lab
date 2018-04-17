@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -20,26 +20,28 @@ circles = [];
 game = null;
 
 Button = function () {
-  function Button(txt, x, y) {
-    var f = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : null;
+  function Button(txt, x, y, size) {
+    var f = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : null;
 
     _classCallCheck(this, Button);
 
     this.txt = txt;
     this.x = x;
     this.y = y;
+    this.size = size;
     this.f = f;
     this.enabled = false;
   }
 
   _createClass(Button, [{
-    key: 'draw',
+    key: "draw",
     value: function draw() {
       if (this.enabled) {
         fc(1);
       } else {
         fc(0);
       }
+      textSize(this.size);
       return text(this.txt, this.x, this.y);
     }
   }]);
@@ -61,31 +63,41 @@ Clock = function () {
   }
 
   _createClass(Clock, [{
-    key: 'draw',
+    key: "draw",
     value: function draw() {
-      var j, k, len, ref;
+      var j, k, len, ref, twelve;
       push();
       translate(this.x, this.y);
-      sw(1);
-      if (total % this.ticks === this.rests) {
+      sw(2);
+      twelve = total % this.ticks === this.rests;
+      if (twelve) {
         fc(0, 1, 0);
       } else {
         fc(1, 0, 0);
       }
-      sc(1);
-      circle(0, 0, 40);
-      fc(1);
+      if (twelve) {
+        sc(0);
+      } else {
+        sc(1);
+      }
+      circle(0, 0, 50);
+      if (twelve) {
+        fc(0);
+      } else {
+        fc(1);
+      }
+      sw(1);
       textSize(40);
       text(this.ticks, 0, 0);
       rotate(radians(-90 - this.rests * 360 / this.ticks));
       ref = range(this.ticks);
       for (k = 0, len = ref.length; k < len; k++) {
         j = ref[k];
+        sw(7);
+        point(50, 0);
         sw(5);
-        point(40, 0);
-        sw(2);
         if (j === total % this.ticks) {
-          line(0, 0, 40, 0);
+          line(25, 0, 40, 0);
         }
         rotate(radians(360 / this.ticks));
       }
@@ -118,6 +130,10 @@ newGame = function newGame(delta) {
     steps = 1;
   }
   game = createProblem(steps);
+  print(game.steps);
+  print("[" + game.ticks.toString() + "]");
+  print("[" + game.rests.toString() + "]");
+  print('');
   buttons[3].enabled = okidoki();
   state = 0;
   total = 0;
@@ -126,7 +142,7 @@ newGame = function newGame(delta) {
   ref = range(game.ticks.length);
   for (k = 0, len = ref.length; k < len; k++) {
     i = ref[k];
-    circles.push(new Clock(game.rests[i], game.ticks[i], 200, 100 + 100 * i, function () {
+    circles.push(new Clock(game.rests[i], game.ticks[i], 60, 60 + 110 * i, function () {
       hist.push(total);
       return total += this.ticks;
     }));
@@ -135,17 +151,17 @@ newGame = function newGame(delta) {
 };
 
 setup = function setup() {
-  createCanvas(700, 900);
+  createCanvas(500, 890);
   textAlign(CENTER, CENTER);
   textSize(64);
-  buttons.push(new Button('', 500, 100, function () {}));
-  buttons.push(new Button('', 500, 200, function () {}));
-  buttons.push(new Button('undo', 500, 400, function () {
+  buttons.push(new Button('', 300, 60, 64, function () {}));
+  buttons.push(new Button('', 300, 210, 64, function () {}));
+  buttons.push(new Button('undo', 300, 360, 64, function () {
     if (hist.length > 0) {
       return total = hist.pop();
     }
   }));
-  buttons.push(new Button('ok', 500, 500, function () {
+  buttons.push(new Button('ok', 300, 510, 64, function () {
     if (this.enabled) {
       if (steps === hist.length && total === game.total) {
         return newGame(1);
@@ -154,6 +170,10 @@ setup = function setup() {
       }
     }
   }));
+  buttons.push(new Button('Taiwanese Remainder:', 300, 650, 24, function () {}));
+  buttons.push(new Button('All clocks green', 300, 680, 24, function () {}));
+  buttons.push(new Button('Minimize total', 300, 710, 24, function () {}));
+  buttons.push(new Button('Use all steps', 300, 740, 24, function () {}));
   return newGame(0);
 };
 
@@ -188,7 +208,7 @@ mousePressed = function mousePressed() {
   ref = buttons.concat(circles);
   for (k = 0, len = ref.length; k < len; k++) {
     obj = ref[k];
-    if (50 > dist(mouseX, mouseY, obj.x, obj.y)) {
+    if (70 > dist(mouseX, mouseY, obj.x, obj.y)) {
       obj.f();
     }
   }

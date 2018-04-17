@@ -37,6 +37,7 @@ createProblem = function createProblem(steps) {
   ticks.sort(function (a, b) {
     return a - b;
   });
+  //ticks = [2,3,5,7,11,13,17,19]
   tree = {};
   cands = [0];
   ref = range(steps);
