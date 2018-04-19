@@ -1375,7 +1375,6 @@ anakoret/AHDY
 anakreontisk/OY
 anakronism/AHDYX
 anakronistisk/OY
-anal/OQ!
 analfabet/ATHDYv
 analfabetism/ADY
 analfena/EAGY
@@ -1386,7 +1385,6 @@ analog/OTY
 analogi/EAHYXU
 analogisera/MY
 analogvisande/Y
-analsex/B!
 analys/HDYXU
 analysator/AEHY
 analysera/NMAPDY
@@ -1394,7 +1392,6 @@ analyserbar/OY
 analysering/ADGYvf
 analytiker/EAJYX
 analytisk/OQY
-analöppning/ADG!
 anamma/NMAPDY
 anammansvärd/OY
 anammelse/EAYX
@@ -4571,7 +4568,6 @@ barnomsorgsavgift/AHD
 barnomsorgsplats/HD
 barnpiga/EAGY
 barnpornografibrott/ABD
-barnporr/ADX
 barnrik/OY
 barnrov/ABDY
 barnrätts/XZ
@@ -6248,7 +6244,6 @@ blasonera/MY
 blasonering/ADGY
 blast/ADY
 blasta/NMADY
-blatte/EAG!
 blazer/EAIY
 bleck/ABDY
 bleckblås/BY
@@ -8237,8 +8232,6 @@ bäver/EAIYX
 böcker/AJY
 böckling/ADGYX
 bödel/EAIYv
-bög/ADG!
-bögig/OPQ!
 Böhm/A
 böhmisk/OQY
 böj/DR
@@ -10255,9 +10248,6 @@ djärves
 djärvhet/ADY
 djärvs/N
 djävel/EAIY
-djävla/!
-djävlas/N
-djävlig/OPQY
 djävul/ADYv
 djävulsk/OQY
 djävulskap/AHDYv
@@ -14301,10 +14291,6 @@ fissionsenergi/EAHY
 fissur/AHDY
 fistel/EAIY
 fistulös/OY
-fitta/EAG!
-fittlukt/AHD!
-fittsaft/AHD!
-fittslem/CA!
 fix/ODG
 fixa/NAPD
 fixar/XZ
@@ -15063,9 +15049,6 @@ fnas/B
 fnasa/MDY
 fnasig/OQY
 fnasighet/ADY
-fnask/ABD!
-fnaska/NMADY
-fnaskig/OY
 fnasslig/OY
 fnatt/Y
 fniss/BDY
@@ -20596,7 +20579,6 @@ grupphus/BDYX
 gruppledare/EAJY
 gruppmedlem/ADIY
 grupprabatt/AHDY
-gruppsex/B!
 gruppspel/ABYv
 gruppspelsmatch/AHDY
 gruppsykologi/EAY
@@ -22120,9 +22102,6 @@ heltransistoriserad/NQY
 heltäckande/Y
 heltäckningsmatta/EAGY
 heltänd/OQY
-helvete/FECA!
-helvetes/XZ
-helvetisk/OQY
 helvit/OQY
 helvävd/OY
 helår/ABDYv
@@ -22944,11 +22923,7 @@ hopvuxen/MY
 hopvälld/OY
 hopväxt/OY
 hopyrd/OY
-hor/AB!
-hora/NEMADG!
-horbock/ADGY
 hord/AHDY
-horhus/BD!
 horisont/AHDY
 horisontal/O
 horisontalläge/FECAY
@@ -22980,7 +22955,6 @@ hortativ/OY
 hortensia/EAGY
 hortikulturell/OY
 hortonom/AHDY
-horunge/EAG!
 hosa/EAGY
 hosianna
 hospital/ABDY
@@ -23654,7 +23628,6 @@ hårdnad/AHDY
 hårdost/ADGY
 hårdpackad/NQY
 hårdplast/AHDY
-hårdporr/ADY
 hårdra/AY
 hårdraga/ADRY
 hårdragen/MY
@@ -27008,7 +26981,6 @@ judaisera/MY
 judaism/ADY
 judaistisk/OY
 judaskyss/DGY
-jude/EAG!
 judeförföljelse/EAIYX
 judeförintelse/EAY
 judehat/ABY
@@ -27352,12 +27324,7 @@ jättetydlig/OY
 jättinna/EAGY
 jäv/ABDYv
 jäva/M
-jävel/EAI!
-jävelskap/ABYv
 jävig/OPQY
-jävla/!
-jävlas/NY
-jävlig/OPQY
 jävsdiskussion/AHDY
 jävsinvändning/ADGY
 jävssituation/AHDY
@@ -29553,8 +29520,6 @@ knubbsäl/ADGY
 knuff/ADGY
 knuffa/NAPDY
 knuffning/ADGY
-knull/ABD!
-knulla/NMAP!
 knussel/CAY
 knussla/NMAY
 knusslare/EAJYz
@@ -31689,10 +31654,7 @@ kugghjulsnav/ABDY
 kuggrem/FAIY
 kuggväxel/EAIY
 kujonera/MY
-kuk/ADG!
 kukeliku
-kukhuvud/ABD!
-kuksugare/EAJ!
 kul/X
 kula/EAGY
 kulak/AHDY
@@ -43090,7 +43052,6 @@ orakad/NQY
 orakel/FCAY
 orakelmässig/OY
 oral/OYX
-oralsex/B!
 orangea/JY
 orangefärgad/NQY
 orangegul/OY
@@ -44780,9 +44741,6 @@ Peder/A
 pederast/AHDY
 pediatriker/EAJY
 pediatrisk/OY
-pedofil/AHDYX
-pedofili/EAY
-pedofilporr/ADY
 pedologisk/OY
 Pedro/A
 Pehr/A
@@ -44848,8 +44806,6 @@ penibel/MY
 penicillin/ABYX
 penicillinkur/AHDY
 penicillintablett/AHDY
-penis/DG!
-penisförlängare/!
 penn/XZ
 penna/EAGY
 pennalism/ADY
@@ -45385,7 +45341,6 @@ pitbullterrier/EAJY
 pitepalt/ADGY
 Piteå/AX
 piteåbo/EAIY
-pitt/ADG!
 pittoresk/OY
 pivotera/MY
 pixel/EAIY
@@ -46119,25 +46074,6 @@ pornograf/ATHDY
 pornografi/EADYXU
 Porokara/A
 porositet/AHDY
-porr/AD!
-porrbild/AHD!
-porrbio/EA!
-porrbiograf/AHD!
-porrbransch/ADY
-porrbutik/AHD!
-porrfilm/AHD!
-porrig/OPQ!
-porrindustri/EAHY
-porrklubb/ADGv
-porrkramare/EAJ!
-porrkramarn/A!
-porrsajt/AHDY
-porrstjärna/EAGY
-porrsurfa/NMADY
-porrsurfare/EAJY
-porrsurfing/ADY
-porrsurfning/ADY
-porrtidning/ADGY
 pors/DY
 Porsche/AX
 porslin/ABYv
@@ -50731,13 +50667,10 @@ röthärdig/OY
 rötmånad/AHDYv
 rötskada/EAPGY
 rötägg/ABDY
-röv/ADG!
 röva/NAPD
-rövar/XZ
 rövare/EAY
 rövarkula/EAGY
 rövarroman/AHDY
-rövhål/ABDY
 s/ORr
 Saab/AX
 SaaS/r
@@ -51383,8 +51316,6 @@ sars/Y
 sarv/ADGY
 SAR-värde/FECA
 SAS/r
-satan/A!
-Satan/A
 satanisk/OY
 satanism/ADY
 satanist/ATHDYX
@@ -51967,16 +51898,10 @@ setboll/ADGY
 Seven-Eleven
 sevärd/OY
 sevärdhet/AHDYv
-sex/B!
 sexa/EAG
-sexarbetare/EAJY
-sexarbete/FECAY
 sexatomig/OY
 sexbarns/XZ
 sexbild/AHDY
-sexbomb/AHDY
-sexbrott/ABDY
-sexbrottsling/ADGY
 sexcylindrig/OY
 sexdagars/XZ
 sexdebut/AHDY
@@ -55947,7 +55872,6 @@ snokare/EAY
 snoningsfri/OY
 snopen/KMY
 snopenhet/ADY
-snopp/ADG!
 snoppa/NAPY
 snoppning/ADGY
 snor/ABYX
@@ -60546,8 +60470,6 @@ telefoni/EAYX
 telefonist/AHDY
 telefonkö/AHY
 telefonlur/ADGY
-telefonporr/AD!
-telefonsex/B!
 telefonväkteri/ABY
 telefonör/AHDY
 teleförbindelse/EAI
