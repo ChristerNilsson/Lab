@@ -12,10 +12,9 @@ Hitta minimalt total.
 
 ### Fas 1
 
-* Första kolumnen innehåller klockorna. 7,11
-* Andra kolumnen innehåller initial vridning, 
-* räknat moturs från visaren till klockan tolv. 5,7
-* Addera tills alla klockorna visar samma värde. 40,40
+* Första kolumnen innehåller klockorna. (7,11)
+* Andra kolumnen innehåller initial vridning, räknat moturs från visaren till klockan tolv. (5,7)
+* Addera tills alla klockorna visar samma värde. (40,40)
 
 * 7  | 5 12  19 26 33 40
 * 11 |  7  18     29  40
