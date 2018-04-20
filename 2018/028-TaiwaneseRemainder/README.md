@@ -15,9 +15,8 @@ Hitta minimalt total.
 * Första kolumnen innehåller klockorna. (7,11)
 * Andra kolumnen innehåller initial vridning, räknat moturs från visaren till klockan tolv. (5,7)
 * Addera tills alla klockorna visar samma värde. (40,40)
-
-* 7  | 5 12  19 26 33 40
-* 11 |  7  18     29  40
+  * 7  | 5 12  19 26 33 40
+  * 11 |  7  18     29  40
 
 ### Fas 2
 
@@ -25,11 +24,9 @@ Hitta minimalt total.
 * Använd det antal mynt som ges av stegantalet. Låt oss välja 4 i detta exempel.
 * Bilda summan 40.
 * Initialt kan man använda t ex 40 delat med 11, vilket blir 3.64, avrundat 4.
-
-* 7 11 | 40
-* 0  4 | Fyra elvor = 44. Flytta ett mynt från 11 till 7.
-* 1  3 | En sjua + tre elvor = 40
-
+  * 7 11 | 40
+  * 0  4 | Fyra elvor = 44. Flytta ett mynt från 11 till 7.
+  * 1  3 | En sjua + tre elvor = 40
 * Lösningen består alltså i att klicka på 7 en gång och 11 tre gånger.
 * Ordningen spelar ingen roll.
 
