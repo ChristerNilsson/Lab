@@ -48,7 +48,7 @@ Vi använder oss av dessa båda funktioner:
 * Klistra in KnapsackSolve[{{7,1},{11,1}},{40,4}]
 * shift-Enter
 * Nu ska du se svaret {1, 3} 
-* En 7:a + tre 11:or = 40
+* En sjua + tre elvor = 40
 
 ## Programmerad lösning
 
@@ -86,4 +86,3 @@ Skriv därefter en funktion som packar en kappsäck exakt.
 * assert [0,2,0,8], knapsack [5,11,13,19],174 # 10
 * assert [1,0,1,9], knapsack [5,7,13,19],189 # 11
 * assert [0,1,4,7], knapsack [2,7,13,17],178 # 12 
-
