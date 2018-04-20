@@ -8,8 +8,54 @@ Klick på klocka tickar alla klockor de tick denna klocka har.
 
 Hitta minimalt total.
 
+## Manuell lösning
+
+### Fas 1
+
+* Första kolumnen innehåller klockorna. 7,11
+* Andra kolumnen innehåller initial vridning, 
+* räknat moturs från visaren till klockan tolv. 5,7
+* Addera tills alla klockorna visar samma värde. 40,40
+
+7  | 5 12  19 26 33 40
+11 |  7  18     29  40
+
+### Fas 2
+
+* Betrakta 7 och 11 som myntvalörer.
+* Använd det antal mynt som ges av stegantalet. 4.
+* Bilda summan 40.
+* Initialt kan man använda t ex 40 delat med 4.
+
+7 11 | 40
+0  4 | 44  Flytta ett mynt från 11 till 7.
+1  3 | 40
+
+Lösningen består alltså i att klicka på 7 en gång och 11 tre gånger.
+Ordningen spelar ingen roll.
+
+## Lösning med hjälp av Wolfram Language
+
+Vi använder oss av dessa båda funktioner:
+* [ChineseRemainder](https://reference.wolframcloud.com/cloudplatform/ref/ChineseRemainder.html)
+* [KnapsackSolve](https://reference.wolframcloud.com/cloudplatform/ref/KnapsackSolve.html)
+
+* Gå in på [Wolfram Language](wolfr.am/wpl-eiwl)
+* File | New Notebook
+* Klistra in ChineseRemainder[{5,7},{7,11}]
+* shift-Enter
+* Nu ska du se svaret 40
+
+* Klistra in KnapsackSolve[{{7,1},{11,1}},{40,4}]
+* shift-Enter
+* Nu ska du se svaret {1, 3} 
+* 1 * 7 + 3 * 11 = 40
+
+## Programmerad lösning
+
 När du behärskar spelet: skriv algoritmen solve som beräknar minsta möjliga total!
 
+* assert 40, solve [7,11],[5,7]
 * assert 23, solve [3,5,7],[2,3,2]
 * assert 0, solve [3,11],[0,0] # 0 step
 * assert 11, solve [3,11],[2,0] # 1 step (11 + 33k == 77)
@@ -27,6 +73,7 @@ När du behärskar spelet: skriv algoritmen solve som beräknar minsta möjliga 
 
 Skriv därefter en rutin som packar en kappsäck exakt.
 
+* assert [1,3], knapsack [7,11],40 # 4 steg 
 * assert [3,0,2], knapsack [3,5,7],23 # 
 * assert [0,1], knapsack [3,11],11 # 1 step
 * assert [2,0], knapsack [2,13],4 # 2	
