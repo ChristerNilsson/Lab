@@ -27,8 +27,8 @@ Hitta minimalt total.
 * Initialt kan man använda t ex 40 delat med 11, vilket blir 3.64, avrundat 4.
 
 * 7 11 | 40
-* 0  4 | 0*7 + 4*11 = 44. Flytta ett mynt från 11 till 7.
-* 1  3 | 1*7 + 3*11 = 40
+* 0  4 | Fyra elvor = 44. Flytta ett mynt från 11 till 7.
+* 1  3 | En sjua + tre elvor = 40
 
 * Lösningen består alltså i att klicka på 7 en gång och 11 tre gånger.
 * Ordningen spelar ingen roll.
@@ -48,11 +48,11 @@ Vi använder oss av dessa båda funktioner:
 * Klistra in KnapsackSolve[{{7,1},{11,1}},{40,4}]
 * shift-Enter
 * Nu ska du se svaret {1, 3} 
-* 1 * 7 + 3 * 11 = 40
+* En 7:a + tre 11:or = 40
 
 ## Programmerad lösning
 
-När du behärskar spelet: skriv algoritmen solve som beräknar minsta möjliga total!
+När du behärskar den manuella lösningen: skriv funktionen solve som beräknar minsta möjliga total!
 
 * assert 40, solve [7,11],[5,7]
 * assert 23, solve [3,5,7],[2,3,2]
@@ -70,7 +70,7 @@ När du behärskar spelet: skriv algoritmen solve som beräknar minsta möjliga 
 * assert 189, solve [5,7,13,19],[4,0,7,18] # 11
 * assert 178, solve [2,7,13,17],[0,3,9,8] # 12
 
-Skriv därefter en rutin som packar en kappsäck exakt.
+Skriv därefter en funktion som packar en kappsäck exakt.
 
 * assert [1,3], knapsack [7,11],40 # 4 steg 
 * assert [3,0,2], knapsack [3,5,7],23 # 
