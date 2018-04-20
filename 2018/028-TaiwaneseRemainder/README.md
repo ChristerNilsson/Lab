@@ -41,9 +41,14 @@ Vi använder oss av dessa båda funktioner:
 
 * Gå in på [Wolfram Language](https://wolfr.am/wpl-eiwl)
 * File | New Notebook
+
+### Fas 1
+
 * Klistra in ChineseRemainder[{5,7},{7,11}]
 * shift-Enter
 * Nu ska du se svaret 40
+
+### Fas 2
 
 * Klistra in KnapsackSolve[{{7,1},{11,1}},{40,4}]
 * shift-Enter
@@ -51,6 +56,8 @@ Vi använder oss av dessa båda funktioner:
 * En sjua + tre elvor = 40
 
 ## Programmerad lösning
+
+### Fas 1
 
 När du behärskar den manuella lösningen: skriv funktionen solve som beräknar minsta möjliga total!
 
@@ -69,6 +76,8 @@ När du behärskar den manuella lösningen: skriv funktionen solve som beräknar
 * assert 174, solve [5,11,13,19],[4,9,5,3] # 10
 * assert 189, solve [5,7,13,19],[4,0,7,18] # 11
 * assert 178, solve [2,7,13,17],[0,3,9,8] # 12
+
+### Fas 2
 
 Skriv därefter en funktion som packar en kappsäck exakt.
 
