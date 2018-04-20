@@ -23,16 +23,16 @@ Hitta minimalt total.
 ### Fas 2
 
 * Betrakta 7 och 11 som myntvalörer.
-* Använd det antal mynt som ges av stegantalet. 4.
+* Använd det antal mynt som ges av stegantalet. Låt oss välja 4 i detta exempel.
 * Bilda summan 40.
-* Initialt kan man använda t ex 40 delat med 4.
+* Initialt kan man använda t ex 40 delat med 11, vilket blir 3.64, avrundat 4.
 
 * 7 11 | 40
-* 0  4 | 44  Flytta ett mynt från 11 till 7.
-* 1  3 | 40
+* 0  4 | 0*7 + 4*11 = 44. Flytta ett mynt från 11 till 7.
+* 1  3 | 1*7 + 3*11 = 40
 
-Lösningen består alltså i att klicka på 7 en gång och 11 tre gånger.
-Ordningen spelar ingen roll.
+* Lösningen består alltså i att klicka på 7 en gång och 11 tre gånger.
+* Ordningen spelar ingen roll.
 
 ## Lösning med hjälp av Wolfram Language
 
@@ -40,7 +40,7 @@ Vi använder oss av dessa båda funktioner:
 * [ChineseRemainder](https://reference.wolframcloud.com/cloudplatform/ref/ChineseRemainder.html)
 * [KnapsackSolve](https://reference.wolframcloud.com/cloudplatform/ref/KnapsackSolve.html)
 
-* Gå in på [Wolfram Language](wolfr.am/wpl-eiwl)
+* Gå in på [Wolfram Language](https://wolfr.am/wpl-eiwl)
 * File | New Notebook
 * Klistra in ChineseRemainder[{5,7},{7,11}]
 * shift-Enter
