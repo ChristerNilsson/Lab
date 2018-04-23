@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA;;AAAA,IAAA,MAAA;;AAGA,QAAQ;SAAG,aAAa,AAAb,KAAiB,AAAjB,AAAH;;;AAER,OAAO;AACN,QAAM,AAAN;AACA,KAAG,AAAH;AACA;AACA,KAAG,AAAH,GAAK,AAAL,GAAO,AAAP;AACA,OAAK,AAAL,GAAO,AAAP,GAAS,AAAT,IAAY,AAAZ;AACA,KAAG,AAAH,GAAK,AAAL,GAAO,AAAP;AACA,OAAK,AAAL,GAAO,AAAP,GAAS,AAAT,GAAW,AAAX;SACA,KAAK,AAAL,GAAO,AAAP,GAAS,AAAT,IAAY,AAAZ,AARM",
+  "sourcesContent": [
+    "# 5 2 9 = 16\r\n# 4 2 4 = 10\r\n\r\nsetup = -> createCanvas 200,200\r\n\r\ndraw = ->\r\n\tscale 12\r\n\tbg 0.5\r\n\tsc()\r\n\tfc 0,0,1\r\n\trect 0,0,16,10\r\n\tfc 1,1,0\r\n\trect 5,0,2,10\r\n\trect 0,4,16,2\r\n"
+  ]
+}
