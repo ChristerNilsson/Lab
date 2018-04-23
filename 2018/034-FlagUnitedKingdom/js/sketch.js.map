@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA;;;;AAAA,IAAA,KAAA,UAAA,WAAA;;AAKA,QAAQ,iBACP;MAAA,GAAA,GAAA,GAAA,KAAA,MAAA,KAAA,MAAA,SAAA;AAAA,eAAa,AAAb,MAAkB,AAAlB;AACA,YAAU,AAAV;AACA,WAAS,MAAM,AAAN,IAAU,AAAV;AACT,YAAU,QAAM,AAAhB,GAAkB,SAAO,AAAzB;AACA,QAAM,AAAN;AACA;AACA,KAAG,AAAH,GAAK,AAAL,GAAO,AAAP;AAEA,YAAU,AAAV;AACA,YAAU,CAAC,AAAX,AAEA;;;AAAA,OAAA,kCAAA;;AACC,QAAI,AAAJ,GAAM,AAAN,GAAQ,AAAR,GAAU,AAAV,IAAa,AAAb;AACA,WAAO,AAAP,AAFD;AAIA;;AAAA;;AAAA,OAAA,qCAAA;;AACC,QAAI,AAAJ,GAAM,AAAN,GAAQ,AAAR,GAAU,AAAV,GAAY,AAAZ;iBACA,OAAO,AAAP,AAFD;AAAA;SAhBO;;;AAoBR,YAAY,mBAAC,AAAD;AACX,SAAO,AAAP;AACA;AACA,SAAO,AAAP;AACA;SACA,OAAO,CAAC,AAAR,AALW;;;AAOZ,WAAW;AACV,WAAS,AAAT;AACA,KAAG,AAAH;AACA,OAAK,AAAL,GAAO,CAAC,AAAR,GAAU,AAAV,IAAa,AAAb;AACA,KAAG,AAAH,GAAK,AAAL,GAAO,AAAP;SACA,KAAK,AAAL,GAAO,CAAC,AAAR,GAAU,AAAV,IAAa,AAAb,AALU;;;AAOX,MAAM,aAAC,AAAD,GAAG,AAAH,GAAK,AAAL,GAAO,AAAP,GAAS,AAAT;AACL,WAAS,AAAT;AACA,KAAG,AAAH,GAAK,AAAL,GAAO,AAAP;SACA,KAAK,AAAL,GAAO,AAAP,GAAS,AAAT,GAAW,AAAX,AAHK",
+  "sourcesContent": [
+    "# https://en.wikipedia.org/wiki/Union_Jack#/media/File:United_Kingdom_Flag_Specifications.svg\r\n\r\n# 25:2:6:2:25 = 60\r\n# 10:2:6:2:10 = 30\r\n\r\nsetup = -> \r\n\tcreateCanvas 1200,600\r\n\tangleMode DEGREES\r\n\tvinkel = atan2 30, 60\r\n\ttranslate width/2,height/2\r\n\tscale 20\r\n\tsc()\r\n\tbg 0,0,1\r\n\r\n\tdiagonal2 vinkel\r\n\tdiagonal2 -vinkel\r\n\r\n\tfor i in range 2 # white\r\n\t\tarm 1,1,1,10,60\r\n\t\trotate 90\r\n\r\n\tfor i in range 2 # red\r\n\t\tarm 1,0,0,6,60\r\n\t\trotate 90\r\n\r\ndiagonal2 = (vinkel) ->\r\n\trotate vinkel\r\n\tdiagonal() \r\n\trotate 180\r\n\tdiagonal() \r\n\trotate -vinkel\r\n\r\ndiagonal = ->\r\n\trectMode CORNER\r\n\tfc 1\r\n\trect 0,-3,40,6\r\n\tfc 1,0,0\r\n\trect 0,-2,40,2\r\n\r\narm = (r,g,b,w,h) ->\r\n\trectMode CENTER\r\n\tfc r,g,b\r\n\trect 0,0,w,h\r\n"
+  ]
+}
