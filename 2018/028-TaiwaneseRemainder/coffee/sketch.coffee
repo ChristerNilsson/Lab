@@ -46,9 +46,9 @@ newGame = (delta) ->
 	steps += delta
 	if steps < 1 then steps = 1
 	game = createProblem steps
-	print game.steps
-	print "["+game.ticks.toString()+"]"
-	print "["+game.rests.toString()+"]"
+	print game #.steps
+	#print "["+game.ticks.toString()+"]"
+	#print "["+game.rests.toString()+"]"
 	print ''
 	buttons[3].enabled = okidoki()
 	state = 0
@@ -67,25 +67,25 @@ setup = ->
 	textAlign CENTER,CENTER
 	textSize 64
 	buttons.push new Button '',300,60,64, ->
-	buttons.push new Button '',300,210,64, ->
-	buttons.push new Button 'undo',300,360,64, -> 
+	#buttons.push new Button '',300,210,64, ->
+	buttons.push new Button 'undo',300,210,64, -> 
 		if hist.length > 0 then total = hist.pop()
-	buttons.push new Button 'ok',300,510,64, -> 
+	buttons.push new Button 'ok',300,360,64, -> 
 		if @enabled
 			if steps==hist.length and total==game.total then newGame 1
 			else newGame -1
 	buttons.push new Button 'Taiwanese Remainder:',300,650,24, ->
 	buttons.push new Button 'All clocks green',300,680,24, ->
-	buttons.push new Button 'Minimize total',300,710,24, ->
-	buttons.push new Button 'Use all steps',300,740,24, ->
+	#buttons.push new Button 'Minimize total',300,710,24, ->
+	buttons.push new Button 'Use all steps',300,710,24, ->
 
 	newGame 0
 
 info = ->
 	buttons[0].txt = 'steps: ' + (steps - hist.length)
-	buttons[1].txt = 'total: ' + total
-	buttons[2].enabled = hist.length > 0
-	buttons[3].enabled = okidoki()
+	#buttons[1].txt = 'total: ' + total
+	buttons[1].enabled = hist.length > 0
+	buttons[2].enabled = okidoki()
 	button.draw() for button in buttons
 
 xdraw = ->

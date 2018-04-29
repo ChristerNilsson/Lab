@@ -14,23 +14,30 @@ createProblem = (steps) ->
 	ticks = _.sample primes, 2 + steps // 5
 	ticks.sort (a,b) -> a-b
 	#ticks = [2,3,5,7,11,13,17,19]
-	tree = {}
-	cands = [0]
-	for step in range steps 
-		nextcands = []
-		for cand in cands
-			for item in ticks
-				nextcand = cand+item
-				if nextcand not in nextcands
-					if nextcand not of tree 
-						tree[nextcand] = cand 
-						nextcands.push nextcand
-		cands = nextcands 
+
+	# tree = {}
+	# cands = [0]
+	# for step in range steps 
+	# 	nextcands = []
+	# 	for cand in cands
+	# 		for item in ticks
+	# 			nextcand = cand+item
+	# 			if nextcand not in nextcands
+	# 				if nextcand not of tree 
+	# 					tree[nextcand] = cand 
+	# 					nextcands.push nextcand
+	# 	cands = nextcands 
+	# path = []
+	# total = _.sample cands
+	# while total > 0
+	# 	path.push total
+	# 	total = tree[total]
+
 	path = []
-	total = _.sample cands
-	while total > 0
-		path.push total
-		total = tree[total]
+	total = 0
+	for i in range steps
+		total += _.sample ticks
+		path.unshift total
 
 	rests = createRests ticks,path
 

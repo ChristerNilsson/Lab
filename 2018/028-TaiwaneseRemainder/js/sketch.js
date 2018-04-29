@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -34,7 +34,7 @@ Button = function () {
   }
 
   _createClass(Button, [{
-    key: "draw",
+    key: 'draw',
     value: function draw() {
       if (this.enabled) {
         fc(1);
@@ -63,7 +63,7 @@ Clock = function () {
   }
 
   _createClass(Clock, [{
-    key: "draw",
+    key: 'draw',
     value: function draw() {
       var j, k, len, ref, twelve;
       push();
@@ -130,9 +130,9 @@ newGame = function newGame(delta) {
     steps = 1;
   }
   game = createProblem(steps);
-  print(game.steps);
-  print("[" + game.ticks.toString() + "]");
-  print("[" + game.rests.toString() + "]");
+  print(game); //.steps
+  //print "["+game.ticks.toString()+"]"
+  //print "["+game.rests.toString()+"]"
   print('');
   buttons[3].enabled = okidoki();
   state = 0;
@@ -155,13 +155,13 @@ setup = function setup() {
   textAlign(CENTER, CENTER);
   textSize(64);
   buttons.push(new Button('', 300, 60, 64, function () {}));
-  buttons.push(new Button('', 300, 210, 64, function () {}));
-  buttons.push(new Button('undo', 300, 360, 64, function () {
+  //buttons.push new Button '',300,210,64, ->
+  buttons.push(new Button('undo', 300, 210, 64, function () {
     if (hist.length > 0) {
       return total = hist.pop();
     }
   }));
-  buttons.push(new Button('ok', 300, 510, 64, function () {
+  buttons.push(new Button('ok', 300, 360, 64, function () {
     if (this.enabled) {
       if (steps === hist.length && total === game.total) {
         return newGame(1);
@@ -172,17 +172,17 @@ setup = function setup() {
   }));
   buttons.push(new Button('Taiwanese Remainder:', 300, 650, 24, function () {}));
   buttons.push(new Button('All clocks green', 300, 680, 24, function () {}));
-  buttons.push(new Button('Minimize total', 300, 710, 24, function () {}));
-  buttons.push(new Button('Use all steps', 300, 740, 24, function () {}));
+  //buttons.push new Button 'Minimize total',300,710,24, ->
+  buttons.push(new Button('Use all steps', 300, 710, 24, function () {}));
   return newGame(0);
 };
 
 info = function info() {
   var button, k, len, results;
   buttons[0].txt = 'steps: ' + (steps - hist.length);
-  buttons[1].txt = 'total: ' + total;
-  buttons[2].enabled = hist.length > 0;
-  buttons[3].enabled = okidoki();
+  //buttons[1].txt = 'total: ' + total
+  buttons[1].enabled = hist.length > 0;
+  buttons[2].enabled = okidoki();
   results = [];
   for (k = 0, len = buttons.length; k < len; k++) {
     button = buttons[k];

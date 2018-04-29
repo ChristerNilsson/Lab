@@ -27,12 +27,16 @@ def mul_inv(a, b):
 
 #assert 23 == chinese_remainder([3, 5, 7], [2, 3, 2])
 #assert 29 == chinese_remainder([2,3,5], [1,2,4])
-print chinese_remainder([3,13,17], [0,2,13])
-print chinese_remainder([2,11,13,19], [0,6,4,8])
-print chinese_remainder([3,5,13,19], [1,4,0,17])
-print chinese_remainder([2,5,11,13], [0,2,9,9])
+# print chinese_remainder([3,13,17], [0,2,13])
+# print chinese_remainder([2,11,13,19], [0,6,4,8])
+# print chinese_remainder([3,5,13,19], [1,4,0,17])
+# print chinese_remainder([2,5,11,13], [0,2,9,9])
+#
+# print chinese_remainder([3,13,17,19], [1,10,1,15])
 
-print chinese_remainder([3,13,17,19], [1,10,1,15])
+#print chinese_remainder([2,11,13,19], [1,4,8,11])
+#print chinese_remainder([3,11,13,17], [2,9,2,0])
+print chinese_remainder([2,3,7,11,19], [0,1,4,7,1])
 
 #assert 1000 == chinese_remainder([11, 12, 13], [10,4,12])
 
