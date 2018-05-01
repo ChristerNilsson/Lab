@@ -1,13 +1,19 @@
-steps = 1
-
 buttons = []
 clocks = []
-game = null
+game = {steps : 1}
 
 RED   = "#F00"
 GREEN = "#0F0"
 BLACK = "#000"
 WHITE = "#FFF"
+
+copyToClipboard = (s) -> 
+	el = document.createElement 'textarea'
+	el.value = s
+	document.body.appendChild el
+	el.select()
+	document.execCommand 'copy'
+	document.body.removeChild el
 
 setup = -> 
 	createCanvas 600,windowHeight
@@ -21,27 +27,25 @@ setup = ->
 			clock.count = 0 for clock in clocks				 
 	buttons.push new Button 'ok',400,250,64, -> 
 		if @enabled and 50 > dist mouseX,mouseY,@x,@y
-			if steps==game.totalSteps and game.totalPoints==game.total then newGame 1
-			if steps==game.totalSteps then newGame 1
+			if game.steps==game.totalSteps and game.totalPoints==game.total then newGame 1
+			if game.steps==game.totalSteps then newGame 1
 			else newGame -1
 	buttons.push new Button 'All clocks green',400,380,24
 	buttons.push new Button 'Use all steps',400,410,24
-	buttons.push new Button 'Link',400,440,24,->
-		if 50 > dist mouseX,mouseY,@x,@y
-			window.location.href = game.url
+	buttons.push new Button 'Share via clipboard',400,440,24,->
+		if 50 > dist mouseX,mouseY,@x,@y then copyToClipboard game.url
+
+	buttons[5].enabled = true
 
 	print window.location.href
 	if '?' in window.location.href 
 		params = getParameters()
-		print params
-		print _.size params
 		if 3 == _.size params
 			game =
 				steps : parseInt params.steps
 				ticks : (parseInt r for r in params.ticks.split ',')
 				rests : (parseInt r for r in params.rests.split ',') 
 				url : window.location.href
-			print game 
 			newGame1()
 			return
 	newGame 0
@@ -54,8 +58,7 @@ class Button
 		text @txt,@x,@y
 
 class Clock
-	constructor : (@rests, @ticks, @x, @y) -> 
-		@count = 0
+	constructor : (@rests, @ticks, @x, @y) -> @count = 0
 	draw : ->
 		push()
 		translate @x,@y
@@ -85,15 +88,15 @@ class Clock
 		pop()
 
 okidoki = ->
-	if game.totalSteps != steps then return false 
+	if game.totalSteps != game.steps then return false 
 	for i in range game.ticks.length
 		if game.totalPoints % game.ticks[i] != game.rests[i] then return false
 	true
 
 newGame = (delta) ->
-	steps += delta
-	if steps < 1 then steps = 1
-	game = createProblem steps
+	game.steps += delta
+	if game.steps < 1 then game.steps = 1
+	game = createProblem game.steps
 	newGame1()
 
 newGame1 = ->
@@ -119,21 +122,17 @@ newGame1 = ->
 		clocks.push clock
 	xdraw()
 
-
 info = ->
-	buttons[0].txt = 'steps: ' + (steps - game.totalSteps)
+	buttons[0].txt = 'steps: ' + (game.steps - game.totalSteps)
 	buttons[1].enabled = game.totalSteps > 0
 	buttons[2].enabled = okidoki()
-	for button in buttons
-		button.draw() 
+	button.draw() for button in buttons
 
 xdraw = ->
 	bg 0.5
 	info()
-	for c in clocks
-		c.draw() 
+	c.draw() for c in clocks
 
 mousePressed = ->
-	for obj in buttons.concat clocks
-		obj.f() 
+	obj.f() for obj in buttons.concat clocks
 	xdraw()

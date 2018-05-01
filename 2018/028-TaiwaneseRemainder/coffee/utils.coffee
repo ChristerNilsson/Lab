@@ -4,17 +4,11 @@ createProblem = (steps) ->
 	primes = [2,3,5,7,11,13,17,19]
 	ticks = _.sample primes, 2 + steps // 5
 	ticks.sort (a,b) -> a-b
-	total = 0
-	for i in range steps
-		total += _.sample ticks
+	total = (_.sample ticks for i in range steps).reduce (a,b)->a+b
 
 	rests = createRests ticks,total
-
 	h = window.location.href
-	if '?' in h 
-		pathname = h.split('?')[0]
-	else
-		pathname = h 
+	pathname = h.split('?')[0]
 
 	url = pathname
 	url += '?steps=' + steps 
@@ -22,9 +16,4 @@ createProblem = (steps) ->
 	url += '&rests=' + rests
 	print url
 
-	result = 
-		steps : steps
-		ticks : ticks
-		rests : rests 
-		url : url
-	result 
+	{steps,ticks,rests,url}

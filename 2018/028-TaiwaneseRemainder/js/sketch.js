@@ -13,6 +13,7 @@ var BLACK,
     WHITE,
     buttons,
     clocks,
+    copyToClipboard,
     game,
     info,
     mousePressed,
@@ -20,17 +21,16 @@ var BLACK,
     newGame1,
     okidoki,
     setup,
-    steps,
     xdraw,
     indexOf = [].indexOf;
-
-steps = 1;
 
 buttons = [];
 
 clocks = [];
 
-game = null;
+game = {
+  steps: 1
+};
 
 RED = "#F00";
 
@@ -39,6 +39,16 @@ GREEN = "#0F0";
 BLACK = "#000";
 
 WHITE = "#FFF";
+
+copyToClipboard = function copyToClipboard(s) {
+  var el;
+  el = document.createElement('textarea');
+  el.value = s;
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand('copy');
+  return document.body.removeChild(el);
+};
 
 setup = function setup() {
   var params, r;
@@ -61,10 +71,10 @@ setup = function setup() {
   }));
   buttons.push(new Button('ok', 400, 250, 64, function () {
     if (this.enabled && 50 > dist(mouseX, mouseY, this.x, this.y)) {
-      if (steps === game.totalSteps && game.totalPoints === game.total) {
+      if (game.steps === game.totalSteps && game.totalPoints === game.total) {
         newGame(1);
       }
-      if (steps === game.totalSteps) {
+      if (game.steps === game.totalSteps) {
         return newGame(1);
       } else {
         return newGame(-1);
@@ -73,16 +83,15 @@ setup = function setup() {
   }));
   buttons.push(new Button('All clocks green', 400, 380, 24));
   buttons.push(new Button('Use all steps', 400, 410, 24));
-  buttons.push(new Button('Link', 400, 440, 24, function () {
+  buttons.push(new Button('Share via clipboard', 400, 440, 24, function () {
     if (50 > dist(mouseX, mouseY, this.x, this.y)) {
-      return window.location.href = game.url;
+      return copyToClipboard(game.url);
     }
   }));
+  buttons[5].enabled = true;
   print(window.location.href);
   if (indexOf.call(window.location.href, '?') >= 0) {
     params = getParameters();
-    print(params);
-    print(_.size(params));
     if (3 === _.size(params)) {
       game = {
         steps: parseInt(params.steps),
@@ -108,7 +117,6 @@ setup = function setup() {
         }(),
         url: window.location.href
       };
-      print(game);
       newGame1();
       return;
     }
@@ -198,7 +206,7 @@ Clock = function () {
 
 okidoki = function okidoki() {
   var i, k, len, ref;
-  if (game.totalSteps !== steps) {
+  if (game.totalSteps !== game.steps) {
     return false;
   }
   ref = range(game.ticks.length);
@@ -212,11 +220,11 @@ okidoki = function okidoki() {
 };
 
 newGame = function newGame(delta) {
-  steps += delta;
-  if (steps < 1) {
-    steps = 1;
+  game.steps += delta;
+  if (game.steps < 1) {
+    game.steps = 1;
   }
-  game = createProblem(steps);
+  game = createProblem(game.steps);
   return newGame1();
 };
 
@@ -251,7 +259,7 @@ newGame1 = function newGame1() {
 
 info = function info() {
   var button, k, len, results;
-  buttons[0].txt = 'steps: ' + (steps - game.totalSteps);
+  buttons[0].txt = 'steps: ' + (game.steps - game.totalSteps);
   buttons[1].enabled = game.totalSteps > 0;
   buttons[2].enabled = okidoki();
   results = [];
