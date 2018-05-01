@@ -1,50 +1,30 @@
-createRests = (ticks,path) ->
-	rests = (0 for t in ticks)
-	lastp = 0
-	path.reverse()
-	for p in path		
-		for t,i in ticks
-			rests[i] = (rests[i]+p-lastp) % t
-		lastp = p
-	path.reverse()
-	rests 
+createRests = (ticks,total) -> (total % t for t in ticks)
 
 createProblem = (steps) ->
 	primes = [2,3,5,7,11,13,17,19]
 	ticks = _.sample primes, 2 + steps // 5
 	ticks.sort (a,b) -> a-b
-	#ticks = [2,3,5,7,11,13,17,19]
-
-	# tree = {}
-	# cands = [0]
-	# for step in range steps 
-	# 	nextcands = []
-	# 	for cand in cands
-	# 		for item in ticks
-	# 			nextcand = cand+item
-	# 			if nextcand not in nextcands
-	# 				if nextcand not of tree 
-	# 					tree[nextcand] = cand 
-	# 					nextcands.push nextcand
-	# 	cands = nextcands 
-	# path = []
-	# total = _.sample cands
-	# while total > 0
-	# 	path.push total
-	# 	total = tree[total]
-
-	path = []
 	total = 0
 	for i in range steps
 		total += _.sample ticks
-		path.unshift total
 
-	rests = createRests ticks,path
+	rests = createRests ticks,total
+
+	h = window.location.href
+	if '?' in h 
+		pathname = h.split('?')[0]
+	else
+		pathname = h 
+
+	url = pathname
+	url += '?steps=' + steps 
+	url += '&ticks=' + ticks
+	url += '&rests=' + rests
+	print url
 
 	result = 
-		rests : rests 
+		steps : steps
 		ticks : ticks
-		total : path[0]
-		steps : path.length
-		path : path
+		rests : rests 
+		url : url
 	result 

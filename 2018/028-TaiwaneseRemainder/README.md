@@ -2,17 +2,23 @@
 
 Använd exakt det antal steg som föreslås.
 
-Se till att alla visarna står på klockan tolv!
+Se till att alla visarna står rakt upp.
 
 Klick på klocka tickar alla klockor de tick denna klocka har. 
 
-Hitta minimalt total.
+Klick på andra kolumnen tar bort ett klick på denna klocka.
+
+Klick på reset återställer.
+
+Klick på ok skapar ett nytt problem.
+
+Klick på link visar en url som kan kopieras för detta problem. 
 
 ## Manuell lösning
 
 ### Fas 1
 
-* Första kolumnen innehåller klockorna. (7,11)
+* Första kolumnen innehåller klockorna. (t ex 7,11)
 * Andra kolumnen innehåller initial vridning, räknat moturs från visaren till klockan tolv. (5,7)
 * Addera tills alla klockorna visar samma värde. (40,40)
   * 7  | 5 12  19 26 33 40
