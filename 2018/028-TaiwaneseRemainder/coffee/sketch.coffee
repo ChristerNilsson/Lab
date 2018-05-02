@@ -125,10 +125,7 @@ newGame = (delta) ->
 	newGame1()
 
 newGame1 = ->
-	print game.steps
-	print "["+game.ticks.toString()+"]"
-	print "["+game.rests.toString()+"]"
-	print ''
+	print "#{game.steps} [#{game.ticks.toString()}] [#{game.rests.toString()}]"
 	reset()
 	clocks = []
 	for i in range game.ticks.length

@@ -268,10 +268,7 @@ newGame = function newGame(delta) {
 
 newGame1 = function newGame1() {
   var clock, i, k, len, ref, results;
-  print(game.steps);
-  print("[" + game.ticks.toString() + "]");
-  print("[" + game.rests.toString() + "]");
-  print('');
+  print(game.steps + " [" + game.ticks.toString() + "] [" + game.rests.toString() + "]");
   reset();
   clocks = [];
   ref = range(game.ticks.length);
