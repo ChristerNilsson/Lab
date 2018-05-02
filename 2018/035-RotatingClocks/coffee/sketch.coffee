@@ -1,18 +1,18 @@
 clocks = []
-rotation = 0
-N = 60
+N = 60 
 total = 0
 
 setup = ->
-	createCanvas 600,600
+	createCanvas 600,620
 	textAlign CENTER,CENTER 
 	angleMode DEGREES
 	textSize 50
-	clocks.push new Clock 100,100,2,0
-	clocks.push new Clock 100,200,3,1
-	clocks.push new Clock 100,300,5,3
-	clocks.push new Clock 100,400,7,5
-	clocks.push new Clock 100,500,11,5
+	clocks.push new Clock 100,60,2,0
+	clocks.push new Clock 100,160,3,1
+	clocks.push new Clock 100,260,5,3
+	clocks.push new Clock 100,360,7,5
+	clocks.push new Clock 100,460,11,5
+	clocks.push new Clock 100,560,19,7
 
 class Clock
 	constructor : (@x,@y,@ticks,@value) ->
@@ -26,7 +26,7 @@ class Clock
 		if @n < N then @n++
 		sw 1
 		circle 0,0,@radius
-		rotate (@oldValue + @n/N * @delta) / @ticks * 360 
+		rotate (@oldValue + @n / N * @delta) / @ticks * 360 
 		@drawTicks()
 		text @ticks,0,0
 		pop()
@@ -36,7 +36,7 @@ class Clock
 		@value += delta
 		@n = 0
 	mousePressed : ->
-		if dist(mouseX,mouseY,@x,@y) < @radius 
+		if @radius > dist mouseX,mouseY,@x,@y
 			for clock in clocks
 				clock.add @ticks 
 			total += @ticks
@@ -47,7 +47,7 @@ class Clock
 			sw 7
 			point @radius,0
 			sw 5
-			if (j+@value) % @ticks == 0 then line 25,0,@radius-10,0
+			if (j+@value) % @ticks == 0 then line 25,0,40,0
 			rotate 360/@ticks
 		pop()
 
@@ -56,7 +56,7 @@ draw = ->
 	text total,300,300
 	for clock in clocks
 		clock.draw()
-		if rotation > 0 then rotation--
+		# if rotation > 0 then rotation--
 
 mousePressed = ->
 	for clock in clocks

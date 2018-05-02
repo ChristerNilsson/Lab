@@ -16,15 +16,16 @@ N = 60;
 total = 0;
 
 setup = function setup() {
-  createCanvas(600, 600);
+  createCanvas(600, 620);
   textAlign(CENTER, CENTER);
   angleMode(DEGREES);
   textSize(50);
-  clocks.push(new Clock(100, 100, 2, 0));
-  clocks.push(new Clock(100, 200, 3, 1));
-  clocks.push(new Clock(100, 300, 5, 3));
-  clocks.push(new Clock(100, 400, 7, 5));
-  return clocks.push(new Clock(100, 500, 11, 5));
+  clocks.push(new Clock(100, 60, 2, 0));
+  clocks.push(new Clock(100, 160, 3, 1));
+  clocks.push(new Clock(100, 260, 5, 3));
+  clocks.push(new Clock(100, 360, 7, 5));
+  clocks.push(new Clock(100, 460, 11, 5));
+  return clocks.push(new Clock(100, 560, 19, 7));
 };
 
 Clock = function () {
@@ -68,7 +69,7 @@ Clock = function () {
     key: "mousePressed",
     value: function mousePressed() {
       var clock, i, len;
-      if (dist(mouseX, mouseY, this.x, this.y) < this.radius) {
+      if (this.radius > dist(mouseX, mouseY, this.x, this.y)) {
         for (i = 0, len = clocks.length; i < len; i++) {
           clock = clocks[i];
           clock.add(this.ticks);
