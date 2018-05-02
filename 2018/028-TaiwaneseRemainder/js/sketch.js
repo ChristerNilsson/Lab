@@ -9,20 +9,25 @@ var BLACK,
     Button,
     Clock,
     GREEN,
+    N,
     RED,
     WHITE,
     buttons,
     clocks,
-    copyToClipboard,
+    draw,
     game,
     info,
     mousePressed,
     newGame,
     newGame1,
+    ok,
     okidoki,
+    reset,
     setup,
-    xdraw,
-    indexOf = [].indexOf;
+    indexOf = [].indexOf,
+    modulo = function modulo(a, b) {
+  return (+a % (b = +b) + b) % b;
+};
 
 buttons = [];
 
@@ -32,6 +37,8 @@ game = {
   steps: 1
 };
 
+N = 60;
+
 RED = "#F00";
 
 GREEN = "#0F0";
@@ -40,14 +47,30 @@ BLACK = "#000";
 
 WHITE = "#FFF";
 
-copyToClipboard = function copyToClipboard(s) {
-  var el;
-  el = document.createElement('textarea');
-  el.value = s;
-  document.body.appendChild(el);
-  el.select();
-  document.execCommand('copy');
-  return document.body.removeChild(el);
+reset = function reset() {
+  var clock, k, len, results;
+  //if @enabled 
+  game.totalSteps = 0;
+  game.totalPoints = 0;
+  results = [];
+  for (k = 0, len = clocks.length; k < len; k++) {
+    clock = clocks[k];
+    results.push(clock.reset());
+  }
+  return results;
+};
+
+ok = function ok() {
+  if (this.enabled) {
+    if (game.steps === game.totalSteps && game.totalPoints === game.total) {
+      newGame(1);
+    }
+    if (game.steps === game.totalSteps) {
+      return newGame(1);
+    } else {
+      return newGame(-1);
+    }
+  }
 };
 
 setup = function setup() {
@@ -55,41 +78,17 @@ setup = function setup() {
   createCanvas(600, windowHeight);
   textAlign(CENTER, CENTER);
   textSize(64);
-  buttons.push(new Button('Steps:', 400, 50, 64));
-  buttons.push(new Button('reset', 400, 150, 64, function () {
-    var clock, k, len, results;
-    if (this.enabled && 50 > dist(mouseX, mouseY, this.x, this.y)) {
-      game.totalSteps = 0;
-      game.totalPoints = 0;
-      results = [];
-      for (k = 0, len = clocks.length; k < len; k++) {
-        clock = clocks[k];
-        results.push(clock.count = 0);
-      }
-      return results;
-    }
-  }));
-  buttons.push(new Button('ok', 400, 250, 64, function () {
-    if (this.enabled && 50 > dist(mouseX, mouseY, this.x, this.y)) {
-      if (game.steps === game.totalSteps && game.totalPoints === game.total) {
-        newGame(1);
-      }
-      if (game.steps === game.totalSteps) {
-        return newGame(1);
-      } else {
-        return newGame(-1);
-      }
-    }
-  }));
+  angleMode(DEGREES);
+  buttons.push(new Button('Steps:', 400, 60, 64));
+  buttons.push(new Button('reset', 400, 170, 64, reset));
+  buttons.push(new Button('ok', 400, 280, 64, ok));
   buttons.push(new Button('All clocks green', 400, 380, 24));
   buttons.push(new Button('Use all steps', 400, 410, 24));
   buttons.push(new Button('Share via clipboard', 400, 440, 24, function () {
-    if (50 > dist(mouseX, mouseY, this.x, this.y)) {
-      return copyToClipboard(game.url);
-    }
+    copyToClipboard(game.url);
+    return this.enabled = false;
   }));
   buttons[5].enabled = true;
-  print(window.location.href);
   if (indexOf.call(window.location.href, '?') >= 0) {
     params = getParameters();
     if (3 === _.size(params)) {
@@ -155,49 +154,88 @@ Button = function () {
 }();
 
 Clock = function () {
-  function Clock(rests, ticks, x, y) {
+  function Clock(rest, tick1, x, y) {
     _classCallCheck(this, Clock);
 
-    this.rests = rests;
-    this.ticks = ticks;
+    this.rest = rest;
+    this.tick = tick1;
     this.x = x;
     this.y = y;
-    this.count = 0;
+    this.reset();
   }
 
   _createClass(Clock, [{
+    key: "reset",
+    value: function reset() {
+      this.count = 0;
+      this.value = modulo(-this.rest, this.tick);
+      this.oldValue = this.value;
+      this.delta = 0;
+      return this.n = N;
+    }
+  }, {
     key: "draw",
     value: function draw() {
       var j, k, len, ref, twelve;
       push();
       translate(this.x, this.y);
       sw(2);
-      twelve = game.totalPoints % this.ticks === this.rests;
+      twelve = game.totalPoints % this.tick === this.rest;
       fill(twelve ? GREEN : RED);
       stroke(WHITE);
       circle(0, 0, 50);
       fill(twelve ? BLACK : WHITE);
       sw(1);
       textSize(40);
-      text(this.ticks, 0, 0);
+      text(this.tick, 0, 0);
       // subtract
       fill(this.count > 0 ? WHITE : BLACK);
       stroke(this.count > 0 ? WHITE : BLACK);
       text(this.count, 100, 0);
-      rotate(radians(-90 - this.rests * 360 / this.ticks));
+      if (this.n < N) {
+        this.n++;
+      }
+      rotate(-90 + this.n / N * this.delta * 360 / this.tick);
       stroke(WHITE);
-      ref = range(this.ticks);
+      ref = range(this.tick);
       for (k = 0, len = ref.length; k < len; k++) {
         j = ref[k];
         sw(7);
         point(50, 0);
         sw(5);
-        if (j === game.totalPoints % this.ticks) {
+        if (j === this.oldValue) {
           line(25, 0, 40, 0);
         }
-        rotate(radians(360 / this.ticks));
+        rotate(360 / this.tick);
       }
       return pop();
+    }
+  }, {
+    key: "add",
+    value: function add(delta) {
+      this.delta = delta;
+      this.oldValue = this.value;
+      this.value = modulo(this.value + delta, this.tick);
+      return this.n = 0;
+    }
+  }, {
+    key: "move",
+    value: function move(step) {
+      var clock, k, len, results, tick;
+      if (this.count + step < 0) {
+        return;
+      }
+      buttons[5].enabled = true;
+      tick = step * this.tick;
+      game.totalPoints += tick;
+      game.totalSteps += step;
+      this.count += step;
+      results = [];
+      for (k = 0, len = clocks.length; k < len; k++) {
+        clock = clocks[k];
+        results.push(clock.add(tick));
+      }
+      return results;
     }
   }]);
 
@@ -229,32 +267,27 @@ newGame = function newGame(delta) {
 };
 
 newGame1 = function newGame1() {
-  var clock, i, k, len, ref;
+  var clock, i, k, len, ref, results;
   print(game.steps);
   print("[" + game.ticks.toString() + "]");
   print("[" + game.rests.toString() + "]");
   print('');
-  game.totalSteps = 0;
-  game.totalPoints = 0;
+  reset();
   clocks = [];
   ref = range(game.ticks.length);
+  results = [];
   for (k = 0, len = ref.length; k < len; k++) {
     i = ref[k];
     clock = new Clock(game.rests[i], game.ticks[i], 60, 60 + 110 * i);
-    clock.f = function () {
-      if (50 > dist(mouseX, mouseY, this.x, this.y)) {
-        game.totalPoints += this.ticks;
-        game.totalSteps++;
-        return this.count++;
-      } else if (this.count > 0 && 50 > dist(mouseX, mouseY, this.x + 100, this.y)) {
-        game.totalPoints -= this.ticks;
-        game.totalSteps--;
-        return this.count--;
-      }
-    };
     clocks.push(clock);
+    clock.forward = function () {
+      return this.move(1);
+    };
+    results.push(clock.backward = function () {
+      return this.move(-1);
+    });
   }
-  return xdraw();
+  return results;
 };
 
 info = function info() {
@@ -270,25 +303,38 @@ info = function info() {
   return results;
 };
 
-xdraw = function xdraw() {
-  var c, k, len, results;
+draw = function draw() {
+  var clock, k, len, results;
   bg(0.5);
   info();
   results = [];
   for (k = 0, len = clocks.length; k < len; k++) {
-    c = clocks[k];
-    results.push(c.draw());
+    clock = clocks[k];
+    results.push(clock.draw());
   }
   return results;
 };
 
 mousePressed = function mousePressed() {
-  var k, len, obj, ref;
-  ref = buttons.concat(clocks);
-  for (k = 0, len = ref.length; k < len; k++) {
-    obj = ref[k];
-    obj.f();
+  var b, c, k, l, len, len1, results;
+  for (k = 0, len = buttons.length; k < len; k++) {
+    b = buttons[k];
+    if (50 > dist(mouseX, mouseY, b.x, b.y)) {
+      b.f();
+    }
   }
-  return xdraw();
+  results = [];
+  for (l = 0, len1 = clocks.length; l < len1; l++) {
+    c = clocks[l];
+    if (50 > dist(mouseX, mouseY, c.x, c.y)) {
+      c.forward();
+    }
+    if (50 > dist(mouseX, mouseY, c.x + 100, c.y)) {
+      results.push(c.backward());
+    } else {
+      results.push(void 0);
+    }
+  }
+  return results;
 };
 //# sourceMappingURL=sketch.js.map
