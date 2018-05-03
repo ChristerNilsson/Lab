@@ -9,7 +9,6 @@ BLACK = "#000"
 WHITE = "#FFF"
 
 reset = ->
-	#if @enabled 
 	game.totalSteps = 0 
 	game.totalPoints = 0
 	for clock in clocks
@@ -52,7 +51,7 @@ setup = ->
 class Button
 	constructor : (@txt,@x,@y,@size,@f=->) -> @enabled=false
 	draw : ->
-		if @enabled then fill WHITE else fill BLACK
+		fill if @enabled then WHITE else BLACK
 		textSize @size
 		text @txt,@x,@y
 
@@ -114,8 +113,8 @@ class Clock
 
 okidoki = ->
 	if game.totalSteps != game.steps then return false 
-	for i in range game.ticks.length
-		if game.totalPoints % game.ticks[i] != game.rests[i] then return false
+	for clock in clocks
+		if game.totalPoints % clock.tick != clock.rest then return false
 	true
 
 newGame = (delta) ->
@@ -125,7 +124,7 @@ newGame = (delta) ->
 	newGame1()
 
 newGame1 = ->
-	print "#{game.steps} [#{game.ticks.toString()}] [#{game.rests.toString()}]"
+	print "#{game.steps}, [#{game.ticks}], [#{game.rests}]"
 	reset()
 	clocks = []
 	for i in range game.ticks.length

@@ -49,7 +49,6 @@ WHITE = "#FFF";
 
 reset = function reset() {
   var clock, k, len, results;
-  //if @enabled 
   game.totalSteps = 0;
   game.totalPoints = 0;
   results = [];
@@ -140,11 +139,7 @@ Button = function () {
   _createClass(Button, [{
     key: "draw",
     value: function draw() {
-      if (this.enabled) {
-        fill(WHITE);
-      } else {
-        fill(BLACK);
-      }
+      fill(this.enabled ? WHITE : BLACK);
       textSize(this.size);
       return text(this.txt, this.x, this.y);
     }
@@ -243,14 +238,13 @@ Clock = function () {
 }();
 
 okidoki = function okidoki() {
-  var i, k, len, ref;
+  var clock, k, len;
   if (game.totalSteps !== game.steps) {
     return false;
   }
-  ref = range(game.ticks.length);
-  for (k = 0, len = ref.length; k < len; k++) {
-    i = ref[k];
-    if (game.totalPoints % game.ticks[i] !== game.rests[i]) {
+  for (k = 0, len = clocks.length; k < len; k++) {
+    clock = clocks[k];
+    if (game.totalPoints % clock.tick !== clock.rest) {
       return false;
     }
   }
@@ -268,7 +262,7 @@ newGame = function newGame(delta) {
 
 newGame1 = function newGame1() {
   var clock, i, k, len, ref, results;
-  print(game.steps + " [" + game.ticks.toString() + "] [" + game.rests.toString() + "]");
+  print(game.steps + ", [" + game.ticks + "], [" + game.rests + "]");
   reset();
   clocks = [];
   ref = range(game.ticks.length);

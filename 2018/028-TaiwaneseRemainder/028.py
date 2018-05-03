@@ -39,7 +39,7 @@ def mul_inv(a, b):
 #print chinese_remainder([2,3,7,11,19], [0,1,4,7,1])
 #print chinese_remainder([2,5,17,19], [1,1,15,18])
 #print chinese_remainder([3,5,11,19], [2,3,10,3])
-print chinese_remainder([2,5,7,13,19], [0,1,2,0,4])
+print chinese_remainder([2,3,5,13,17,19], [0,2,0,1,0,18])
 
 #assert 1000 == chinese_remainder([11, 12, 13], [10,4,12])
 
