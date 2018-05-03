@@ -21,18 +21,18 @@ ok = ->
 		else newGame -1
 
 setup = -> 
-	createCanvas 600,windowHeight
-	textAlign CENTER,CENTER
-	textSize 64
+	createCanvas 1200,560
 	angleMode DEGREES
-	buttons.push new Button 'Steps:',400,60,64 
-	buttons.push new Button 'reset',400,170,64, reset
-	buttons.push new Button 'ok',400,280,64, ok
-	buttons.push new Button 'All clocks green',400,380,24
-	buttons.push new Button 'Use all steps',400,410,24
-	buttons.push new Button 'Share via clipboard',400,440,24, -> 
+	textAlign CENTER,CENTER
+	buttons.push new Button 'Steps:',120,60,48 
+	buttons.push new Button 'reset',120,170,48, reset
+	buttons.push new Button 'ok',120,280,48, ok
+	buttons.push new Button 'All clocks green',120,380,24
+	buttons.push new Button 'Use all steps',120,410,24
+	buttons.push new Button 'Share via clipboard',120,500,24, -> 
 		copyToClipboard game.url
 		@enabled = false 
+	buttons.push new Button 'Taiwanese Remainder',120,20,20 
 
 	buttons[5].enabled = true
 
@@ -52,6 +52,7 @@ class Button
 	constructor : (@txt,@x,@y,@size,@f=->) -> @enabled=false
 	draw : ->
 		fill if @enabled then WHITE else BLACK
+		sc()
 		textSize @size
 		text @txt,@x,@y
 
@@ -68,30 +69,37 @@ class Clock
 	draw : ->
 		push()
 		translate @x,@y
-		sw 2
+		sw 4
 		twelve = game.totalPoints % @tick == @rest
 		fill if twelve then GREEN else RED
-		stroke WHITE
+		stroke BLACK
 		circle 0,0,50
 		fill if twelve then BLACK else WHITE
 		sw 1
+		sc()
+		textAlign CENTER,CENTER
 		textSize 40
 		text @tick,0,0
+		if @tick>30
+			textSize 20
+			text @rest,0,30
 
 		# subtract
-		fill   if @count > 0 then WHITE else BLACK
-		stroke if @count > 0 then WHITE else BLACK
-		text @count,100,0
+		if @count>0 
+			fill   if @count > 0 then WHITE else BLACK
+			sc()
+			textSize 40
+			text @count,80,0
 		
 		if @n < N then @n++		
 		rotate -90 + (@n / N * @delta) * 360 / @tick
 
 		stroke WHITE
 		for j in range @tick
-			sw 7
+			sw 2
 			point 50,0
-			sw 5
-			if j == @oldValue then line 25,0,40,0
+			sw 2
+			if j == @oldValue then line 25,0,46,0
 			rotate 360/@tick
 		pop()
 
@@ -120,6 +128,7 @@ okidoki = ->
 newGame = (delta) ->
 	game.steps += delta
 	if game.steps < 1 then game.steps = 1
+	N = int map game.steps,1,100,60,20
 	game = createProblem game.steps
 	newGame1()
 
@@ -127,8 +136,9 @@ newGame1 = ->
 	print "#{game.steps}, [#{game.ticks}], [#{game.rests}]"
 	reset()
 	clocks = []
+	C = 5
 	for i in range game.ticks.length
-		clock = new Clock game.rests[i], game.ticks[i], 60, 60+110*i
+		clock = new Clock game.rests[i], game.ticks[i], 300 + 200*(i//C), 60+110*(i%C)
 		clocks.push clock
 		clock.forward  = -> @move  1
 		clock.backward = -> @move -1

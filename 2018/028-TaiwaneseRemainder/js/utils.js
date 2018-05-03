@@ -14,9 +14,10 @@ createRests = function createRests(ticks, total) {
 };
 
 createProblem = function createProblem(steps) {
-  var h, i, pathname, primes, rests, ticks, total, url;
-  primes = [2, 3, 5, 7, 11, 13, 17, 19];
-  ticks = _.sample(primes, 2 + Math.floor(steps / 5));
+  var antal, h, i, pathname, primes, rests, ticks, total, url;
+  primes = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
+  antal = int(map(steps, 1, 125, 4, 25));
+  ticks = _.sample(primes.slice(0, +antal + 1 || 9e9), 2 + Math.floor(steps / 5));
   ticks.sort(function (a, b) {
     return a - b;
   });

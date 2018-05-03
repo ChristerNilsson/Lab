@@ -74,19 +74,19 @@ ok = function ok() {
 
 setup = function setup() {
   var params, r;
-  createCanvas(600, windowHeight);
-  textAlign(CENTER, CENTER);
-  textSize(64);
+  createCanvas(1200, 560);
   angleMode(DEGREES);
-  buttons.push(new Button('Steps:', 400, 60, 64));
-  buttons.push(new Button('reset', 400, 170, 64, reset));
-  buttons.push(new Button('ok', 400, 280, 64, ok));
-  buttons.push(new Button('All clocks green', 400, 380, 24));
-  buttons.push(new Button('Use all steps', 400, 410, 24));
-  buttons.push(new Button('Share via clipboard', 400, 440, 24, function () {
+  textAlign(CENTER, CENTER);
+  buttons.push(new Button('Steps:', 120, 60, 48));
+  buttons.push(new Button('reset', 120, 170, 48, reset));
+  buttons.push(new Button('ok', 120, 280, 48, ok));
+  buttons.push(new Button('All clocks green', 120, 380, 24));
+  buttons.push(new Button('Use all steps', 120, 410, 24));
+  buttons.push(new Button('Share via clipboard', 120, 500, 24, function () {
     copyToClipboard(game.url);
     return this.enabled = false;
   }));
+  buttons.push(new Button('Taiwanese Remainder', 120, 20, 20));
   buttons[5].enabled = true;
   if (indexOf.call(window.location.href, '?') >= 0) {
     params = getParameters();
@@ -140,6 +140,7 @@ Button = function () {
     key: "draw",
     value: function draw() {
       fill(this.enabled ? WHITE : BLACK);
+      sc();
       textSize(this.size);
       return text(this.txt, this.x, this.y);
     }
@@ -174,19 +175,28 @@ Clock = function () {
       var j, k, len, ref, twelve;
       push();
       translate(this.x, this.y);
-      sw(2);
+      sw(4);
       twelve = game.totalPoints % this.tick === this.rest;
       fill(twelve ? GREEN : RED);
-      stroke(WHITE);
+      stroke(BLACK);
       circle(0, 0, 50);
       fill(twelve ? BLACK : WHITE);
       sw(1);
+      sc();
+      textAlign(CENTER, CENTER);
       textSize(40);
       text(this.tick, 0, 0);
+      if (this.tick > 30) {
+        textSize(20);
+        text(this.rest, 0, 30);
+      }
       // subtract
-      fill(this.count > 0 ? WHITE : BLACK);
-      stroke(this.count > 0 ? WHITE : BLACK);
-      text(this.count, 100, 0);
+      if (this.count > 0) {
+        fill(this.count > 0 ? WHITE : BLACK);
+        sc();
+        textSize(40);
+        text(this.count, 80, 0);
+      }
       if (this.n < N) {
         this.n++;
       }
@@ -195,11 +205,11 @@ Clock = function () {
       ref = range(this.tick);
       for (k = 0, len = ref.length; k < len; k++) {
         j = ref[k];
-        sw(7);
+        sw(2);
         point(50, 0);
-        sw(5);
+        sw(2);
         if (j === this.oldValue) {
-          line(25, 0, 40, 0);
+          line(25, 0, 46, 0);
         }
         rotate(360 / this.tick);
       }
@@ -256,20 +266,22 @@ newGame = function newGame(delta) {
   if (game.steps < 1) {
     game.steps = 1;
   }
+  N = int(map(game.steps, 1, 100, 60, 20));
   game = createProblem(game.steps);
   return newGame1();
 };
 
 newGame1 = function newGame1() {
-  var clock, i, k, len, ref, results;
+  var C, clock, i, k, len, ref, results;
   print(game.steps + ", [" + game.ticks + "], [" + game.rests + "]");
   reset();
   clocks = [];
+  C = 5;
   ref = range(game.ticks.length);
   results = [];
   for (k = 0, len = ref.length; k < len; k++) {
     i = ref[k];
-    clock = new Clock(game.rests[i], game.ticks[i], 60, 60 + 110 * i);
+    clock = new Clock(game.rests[i], game.ticks[i], 300 + 200 * Math.floor(i / C), 60 + 110 * (i % C));
     clocks.push(clock);
     clock.forward = function () {
       return this.move(1);
