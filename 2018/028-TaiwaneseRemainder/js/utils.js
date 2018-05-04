@@ -42,42 +42,34 @@ createProblem = function createProblem(steps) {
 };
 
 solve = function solve(ticks, sum, n) {
-  var i, index, j, k, l, len, len1, len2, m, o, rad, ref, ref1, ref2, tabell, tj, tk;
-  tabell = new Array(sum + 1);
-  tabell.fill(null);
-  rad = new Array(ticks.length);
-  rad.fill(0);
-  tabell[n * ticks[0]] = rad;
+  var i, index, j, k, l, len, len1, len2, m, o, rad, ref, ref1, ref2, tabell;
+  tabell = new Array(sum + 1).fill(null);
+  tabell[n * ticks[0]] = new Array(ticks.length).fill(0);
   tabell[n * ticks[0]][0] = n;
   ref = range(n, sum);
   for (l = 0, len = ref.length; l < len; l++) {
     i = ref[l];
     rad = tabell[i];
     if (rad === null) {
-      continue;
+      continue; // går ej att expandera
     }
     ref1 = range(ticks.length);
     for (m = 0, len1 = ref1.length; m < len1; m++) {
       j = ref1[m];
       if (rad[j] === 0) {
-        continue;
+        continue; // finns inget att flytta
       }
-      tj = ticks[j];
-      ref2 = range(ticks.length);
+      ref2 = range(j + 1, ticks.length);
       for (o = 0, len2 = ref2.length; o < len2; o++) {
         k = ref2[o];
-        if (k <= j) {
-          continue;
-        }
-        tk = ticks[k];
-        index = i - tj + tk;
+        index = i - ticks[j] + ticks[k];
         if (index > sum) {
-          continue;
+          continue; // utanför tabellen
         }
         if (tabell[index] === null) {
           tabell[index] = rad.slice(0);
-          tabell[index][j] -= 1;
-          tabell[index][k] += 1;
+          tabell[index][j]--;
+          tabell[index][k]++;
         }
       }
     }

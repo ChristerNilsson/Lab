@@ -160,4 +160,3 @@ mousePressed = ->
 	for c in clocks
 		if 50 > dist mouseX,mouseY,c.x,    c.y then c.forward()
 		if 50 > dist mouseX,mouseY,c.x+100,c.y then c.backward()
-	print 'framerate',frameRate()

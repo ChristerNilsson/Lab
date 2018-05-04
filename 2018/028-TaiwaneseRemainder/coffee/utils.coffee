@@ -27,27 +27,21 @@ createProblem = (steps) ->
 	{steps,ticks,rests,url}
 
 solve = (ticks,sum,n) ->
-	tabell = new Array sum+1
-	tabell.fill null
-	rad = new Array ticks.length
-	rad.fill 0
-	tabell[n * ticks[0]] = rad
+	tabell = new Array(sum+1).fill null
+	tabell[n * ticks[0]] = new Array(ticks.length).fill 0
 	tabell[n * ticks[0]][0] = n
 	for i in range n,sum
 		rad = tabell[i]
-		if rad == null then continue
+		if rad == null then continue # går ej att expandera
 		for j in range ticks.length
-			if rad[j] == 0 then continue
-			tj = ticks[j]
-			for k in range ticks.length
-				if k <= j then continue
-				tk = ticks[k]
-				index = i - tj + tk
-				if index > sum then continue
+			if rad[j] == 0 then continue # finns inget att flytta
+			for k in range j+1,ticks.length
+				index = i - ticks[j] + ticks[k]
+				if index > sum then continue # utanför tabellen
 				if tabell[index] == null
 					tabell[index] = rad[..]
-					tabell[index][j] -= 1
-					tabell[index][k] += 1
+					tabell[index][j]--
+					tabell[index][k]++
 	tabell[sum]
 assert [5,1,0,0,0,4], solve [2,3,5,7,11,13],65,10
 

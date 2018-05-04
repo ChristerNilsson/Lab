@@ -319,22 +319,25 @@ draw = function draw() {
 };
 
 mousePressed = function mousePressed() {
-  var b, c, k, l, len, len1;
+  var b, c, k, l, len, len1, results;
   for (k = 0, len = buttons.length; k < len; k++) {
     b = buttons[k];
     if (50 > dist(mouseX, mouseY, b.x, b.y)) {
       b.f();
     }
   }
+  results = [];
   for (l = 0, len1 = clocks.length; l < len1; l++) {
     c = clocks[l];
     if (50 > dist(mouseX, mouseY, c.x, c.y)) {
       c.forward();
     }
     if (50 > dist(mouseX, mouseY, c.x + 100, c.y)) {
-      c.backward();
+      results.push(c.backward());
+    } else {
+      results.push(void 0);
     }
   }
-  return print('framerate', frameRate());
+  return results;
 };
 //# sourceMappingURL=sketch.js.map
