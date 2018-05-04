@@ -200,7 +200,7 @@ Clock = function () {
       if (this.n < N) {
         this.n++;
       }
-      rotate(-90 + this.n / N * this.delta * 360 / this.tick);
+      rotate(-90 + this.n * this.delta / N * 360 / this.tick);
       stroke(WHITE);
       ref = range(this.tick);
       for (k = 0, len = ref.length; k < len; k++) {
@@ -266,7 +266,7 @@ newGame = function newGame(delta) {
   if (game.steps < 1) {
     game.steps = 1;
   }
-  N = int(map(game.steps, 1, 100, 60, 20));
+  N = int(map(game.steps, 1, 100, 60, 10));
   game = createProblem(game.steps);
   return newGame1();
 };
@@ -319,25 +319,22 @@ draw = function draw() {
 };
 
 mousePressed = function mousePressed() {
-  var b, c, k, l, len, len1, results;
+  var b, c, k, l, len, len1;
   for (k = 0, len = buttons.length; k < len; k++) {
     b = buttons[k];
     if (50 > dist(mouseX, mouseY, b.x, b.y)) {
       b.f();
     }
   }
-  results = [];
   for (l = 0, len1 = clocks.length; l < len1; l++) {
     c = clocks[l];
     if (50 > dist(mouseX, mouseY, c.x, c.y)) {
       c.forward();
     }
     if (50 > dist(mouseX, mouseY, c.x + 100, c.y)) {
-      results.push(c.backward());
-    } else {
-      results.push(void 0);
+      c.backward();
     }
   }
-  return results;
+  return print('framerate', frameRate());
 };
 //# sourceMappingURL=sketch.js.map

@@ -92,7 +92,7 @@ class Clock
 			text @count,80,0
 		
 		if @n < N then @n++		
-		rotate -90 + (@n / N * @delta) * 360 / @tick
+		rotate -90 + (@n * @delta/N) * 360 / @tick
 
 		stroke WHITE
 		for j in range @tick
@@ -128,7 +128,7 @@ okidoki = ->
 newGame = (delta) ->
 	game.steps += delta
 	if game.steps < 1 then game.steps = 1
-	N = int map game.steps,1,100,60,20
+	N = int map game.steps,1,100,60,10
 	game = createProblem game.steps
 	newGame1()
 
@@ -160,3 +160,4 @@ mousePressed = ->
 	for c in clocks
 		if 50 > dist mouseX,mouseY,c.x,    c.y then c.forward()
 		if 50 > dist mouseX,mouseY,c.x+100,c.y then c.backward()
+	print 'framerate',frameRate()
