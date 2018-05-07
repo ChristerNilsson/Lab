@@ -14,6 +14,8 @@ Klick på ok skapar ett nytt problem.
 
 Klick på link visar en url som kan kopieras för detta problem. 
 
+Solution blir tillgänglig efter steps minuter.
+
 ## Manuell lösning
 
 ### Fas 1

@@ -1,3 +1,6 @@
+# Man sparar till localStorage bara de problem man själv löst.
+# Problem via url sparas ej.
+
 buttons = []
 clocks = []
 game = {steps : 1}
@@ -7,6 +10,11 @@ RED   = "#F00"
 GREEN = "#0F0"
 BLACK = "#000"
 WHITE = "#FFF"
+
+DELAY = 60 # seconds per step before Solution is available
+
+solutionTimer = null
+solution = ""
 
 reset = ->
 	game.totalSteps = 0 
@@ -27,12 +35,17 @@ setup = ->
 	buttons.push new Button 'Steps:',120,60,48 
 	buttons.push new Button 'reset',120,170,48, reset
 	buttons.push new Button 'ok',120,280,48, ok
-	buttons.push new Button 'All clocks green',120,380,24
-	buttons.push new Button 'Use all steps',120,410,24
-	buttons.push new Button 'Share via clipboard',120,500,24, -> 
+	buttons.push new Button 'All clocks green',120,360,24
+	buttons.push new Button 'Use all steps',120,390,24
+	buttons.push new Button 'Share via clipboard',120,510,24, -> 
 		copyToClipboard game.url
 		@enabled = false 
 	buttons.push new Button 'Taiwanese Remainder',120,20,20 
+	buttons.push new Button 'Solution',120,450,24, -> 
+		if @enabled 
+			solution = game.solution.join ' '
+			@enabled = false 
+			solutionTimer = millis()
 
 	buttons[5].enabled = true
 
@@ -46,7 +59,12 @@ setup = ->
 				url : window.location.href
 			newGame1()
 			return
-	newGame 0
+	else if localStorage['TaiwaneseRemainder']
+		game = JSON.parse localStorage['TaiwaneseRemainder']
+		newGame1()
+	else
+		game = {steps : 1}
+		newGame 0
 
 class Button
 	constructor : (@txt,@x,@y,@size,@f=->) -> @enabled=false
@@ -130,6 +148,8 @@ newGame = (delta) ->
 	if game.steps < 1 then game.steps = 1
 	N = int map game.steps,1,100,60,10
 	game = createProblem game.steps
+	if '?' not in window.location.href
+		localStorage['TaiwaneseRemainder'] = JSON.stringify game
 	newGame1()
 
 newGame1 = ->
@@ -142,6 +162,8 @@ newGame1 = ->
 		clocks.push clock
 		clock.forward  = -> @move  1
 		clock.backward = -> @move -1
+	solutionTimer = millis()
+	solution = ''
 
 info = ->
 	buttons[0].txt = 'steps: ' + (game.steps - game.totalSteps)
@@ -153,6 +175,9 @@ draw = ->
 	bg 0.5
 	info()
 	clock.draw() for clock in clocks
+	buttons[7].enabled = millis() > solutionTimer + DELAY * 1000 * game.steps 
+	fc 0
+	text solution,250,450
 
 mousePressed = ->
 	for b in buttons

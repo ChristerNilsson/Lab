@@ -24,7 +24,7 @@ createProblem = (steps) ->
 	url = pathname + '?steps=' + steps + '&ticks=' + ticks + '&rests=' + rests
 	print url
 
-	{steps,ticks,rests,url}
+	{steps,ticks,rests,url,solution}
 
 solve = (ticks,sum,n) ->
 	tabell = new Array(sum+1).fill null

@@ -38,7 +38,7 @@ createProblem = function createProblem(steps) {
   pathname = h.split('?')[0];
   url = pathname + '?steps=' + steps + '&ticks=' + ticks + '&rests=' + rests;
   print(url);
-  return { steps: steps, ticks: ticks, rests: rests, url: url };
+  return { steps: steps, ticks: ticks, rests: rests, url: url, solution: solution };
 };
 
 solve = function solve(ticks, sum, n) {
