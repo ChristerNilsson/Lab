@@ -124,7 +124,7 @@ makeCommands = function makeCommands() {
   addText(3, -12, 15, "Fördela de 8 stegen på de tre klockorna efter eget behag");
   addText(2, -16, 15, "Fördela de 8 stegen på de tre klockorna efter eget behag");
   addLine(4, 16, 16, 16, 2);
-  addText('3*3 + 3*11 + 2*13 = 68', 20, 15, "Beräkna en ny summa, 68. Den måste minskas med 6 för att bli 62");
+  addText('3*3 + 3*11 + 2*13 = 68  (3+3+2=8)', 20, 15, "Beräkna en ny summa, 68. Den måste minskas med 6 för att bli 62");
   addText('', 0, 0, "I matrisen kan vi erhålla -6, dvs 62-68, genom att addera 2 och -8");
   addText('2', -16, 10, "Här är 2");
   addText('-8', -8, 10, "Här är -8");
@@ -133,7 +133,7 @@ makeCommands = function makeCommands() {
   addText('Flytta ett steg från klocka 11 till klocka 13', 20, 16, "Observera att ibland blir -2, +3 osv nödvändigt");
   addText('-1', -12, 17, "-8 uppnås genom att minska antalet steg på klocka 11 ...");
   addText('+1', -8, 17, "... och öka antalet steg på klocka 3");
-  addText('Flytta ett steg från klocka 11 till klocka 3', 20, 17, "Observera att stegantalet ej kan vara negativt");
+  addText('Flytta ett steg från klocka 11 till klocka 3', 20, 17, "Observera att stegantalet för en klocka ej kan vara negativt");
   addLine(4, 18, 16, 18, 3);
   addText(4, -8, 18, "Beräkna det justerade antalet 3 +1 = 4");
   addText(1, -12, 18, "Beräkna det justerade antalet 3 -1 -1 = 1");
