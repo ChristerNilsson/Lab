@@ -1,12 +1,13 @@
 setup = -> 
-	createCanvas 600,500
+	createCanvas 800,600
 	textSize 20
+	textFont 'monospace'
+	strokeCap SQUARE
 	makeCommands()
 	xdraw()
 
 addText = -> commands.push arguments 
 addLine = -> commands.push arguments 
-addComment = -> commands.push arguments 
 
 ticks = [3,11,13]
 rests = [2,7,10]
@@ -15,102 +16,158 @@ commands = []
 
 index = 1
 
+gridLines = (x,y,w,h,xCount,yCount) ->
+	sc 0
+	sw 1	
+	for i in range xCount+1
+		line x+w*i,y, x+w*i,y+yCount*h
+	for j in range yCount+1
+		line x,y+h*j,x+xCount*w,y+h*j
+
 makeCommands = ->
-	addText  0,0,0,"Använd tangenterna LEFT och RIGHT"
+	addText  0,0,0,"Använd piltangenterna"
 
-	addText 0,0,0,"Vi vill ta reda på vilka klockor man ska klicka på"
-	addText 0,0,0,"Exempel: Klockor:[3,11,13] Rester:[2,7,10] Steg:8"
+	addText "Problem:",100,20,"Tag reda på vilka klockor man ska klicka på"
+	addText "Klockor: [3,11,13]",120,20
+	addText "Rester:  [2, 7,10]",120,50
+	addText "Steg: 8",120,80
+	addText "Lösning:",15,80+30
+
+	#addText 0,0,0,
 
 	for i in range 3
-		addText ticks[i],20,20+30*i,"Skriv upp klockorna"
+		addText ticks[i],40,30+125+30*i,"Skriv upp klockorna"
 
 	for i in range 3
-		addText rests[i],60,20+30*i,"Skriv upp resterna"
+		addText rests[i],80,30+125+30*i,"Skriv upp resterna"
 
-# addText 13,200,200,"Avbryt då de två största är lika"
-# addText 13,200,200,"Kontrollera att de mindre klockorna är ok"
+	addLine 90,30+100+4,90,30+100+94,3
 
-	addText 18,100,50,"Vrid klockan med näst störst värde. 11+7"
-	addText 23,100,80,"Vrid klockan med näst störst värde. 13+10"
-	addText 29,140,50,"Vrid klockan med näst störst värde. 11+18"
-	addText 36,140,80,"Vrid klockan med näst störst värde"
-	addText 40,180,50,"Vrid klockan med näst störst värde"
-	addText 49,180,80,"Vrid klockan med näst störst värde"
-	addText 51,220,50,"Vrid klockan med näst störst värde"
-	addText 62,220,80,"Vrid klockan med näst störst värde"
-	addText 62,260,50,"Vrid klockan med näst störst värde"
+	addText 18,120,30+100+55,"Vrid klockan med näst störst värde (11). 11 + 7 = 18"
+	addText 23,120,30+100+85,"Vrid klockan med näst störst värde (13). 13 + 10 = 23"
+	addText 29,160,30+100+55,"Vrid klockan med näst störst värde (11). 11 + 18 = 29"
+	addText 36,160,30+100+85,"Vrid klockan med näst störst värde"
+	addText 40,200,30+100+55,"Vrid klockan med näst störst värde"
+	addText 49,200,30+100+85,"Vrid klockan med näst störst värde"
+	addText 51,240,30+100+55,"Vrid klockan med näst störst värde"
+	addText 62,240,30+100+85,"Vrid klockan med näst störst värde"
+	addText 62,280,30+100+55,"Vrid klockan med näst störst värde"
 
-	addText 0,0,0,"De två största klockorna är nu lika. Kontrollera att alla klockor är ok"
-	addText 2,60,20,"(62-2=60) modulo 3 är noll"
-	addText 7,60,50,"(62-7=55) modulo 11 är noll"
-	addText 10,60,80,"(62-10=52) modulo 13 är noll"
-	addText 62,260,50,"Detta innebär att summan 62 är den vi söker"
+	addText 0,0,0,"De två största klockorna har nu samma värde. Summa=62"
+	addText 0,0,0,"Kontrollera att alla klockor uppfyller summa % klocka = rest"
+	addText 2,80,30+100+25,"62 % 3 är 2"
+	addText 7,80,30+100+55,"62 % 11 är 7"
+	addText 10,80,30+100+85,"62 % 13 är 10"
+	
+	addText 62,280,30+155,"Detta innebär att summan 62 är den vi söker"
 
 	addText 0,0,0,"Nu skapar vi en differensmatris som vi kommer att behöva senare"
 
 	# Differensmatrisen
-	addText 3,60,140,"Skriv upp klockornas kolumnrubriker"
-	addText 11,100,140,"Skriv upp klockornas kolumnrubriker"
-	addText 13,140,140,"Skriv upp klockornas kolumnrubriker"
+	addText 3,80,30+100+140,"Skriv upp klockornas kolumnrubriker"
+	addText 11,120,30+100+140,"Skriv upp klockornas kolumnrubriker"
+	addText 13,160,30+100+140,"Skriv upp klockornas kolumnrubriker"
+	addLine 4,30+100+148,164,30+100+148,3
 
-	addText 3,20,170,"Skriv upp klockornas radrubriker"
-	addText 11,20,200,"Skriv upp klockornas radrubriker"
-	addText 13,20,230,"Skriv upp klockornas radrubriker"
+	addText 3,40,30+100+170,"Skriv upp klockornas radrubriker"
+	addText 11,40,30+100+200,"Skriv upp klockornas radrubriker"
+	addText 13,40,30+100+230,"Skriv upp klockornas radrubriker"
+	addLine 45,30+100+119,45,30+100+238,3
 
 	for j in range 3
 		for i in range 3
-			x = 60+40*i
-			y = 170+30*j
+			x = 80+40*i
+			y = 30+100+170+30*j
 			addText ticks[i]-ticks[j],x,y,"Differensen blir #{ticks[i]} - #{ticks[j]}"
 
 	addText 0,0,0,"Nu ska de åtta stegen fördelas på de tre klockorna"
 
-	addText 3,60,270,"Skriv upp klockornas kolumnrubriker"
-	addText 11,100,270,"Skriv upp klockornas kolumnrubriker"
-	addText 13,140,270,"Skriv upp klockornas kolumnrubriker"
-	addText 'Uppnå 62 med 8 steg',200,270
+	addText 3,60,30+100+270,"Skriv upp klockornas kolumnrubriker"
+	addText 11,100,30+100+270,"Skriv upp klockornas kolumnrubriker"
+	addText 13,140,30+100+270,"Skriv upp klockornas kolumnrubriker"
 
-	addText 3,60,300,"Fördela inledningsvis stegen jämnt på klockorna"
-	addText 3,100,300,"Fördela stegen jämnt på klockorna"
-	addText 2,140,300,"Fördela stegen jämnt på klockorna"
+	addLine 25,30+100+280,145,30+100+280,3
 
-	addText '3*3', 200,300,"Beräkna summan"
-	addText '+ 3*11',240,300,"Beräkna summan"
-	addText '+ 2*13',300,300,"Beräkna summan"
-	addText '= 68',360,300,"Beräkna summan. Vi ligger alltså sex snäpp för högt."
-	addText '62-68=-6',440,300,"I matrisen kan vi erhålla -6 genom att använda 2 och -8"
+	addText 'Uppnå summan 62 med 8 steg',160,30+100+270
 
-	addText '2',60+40*2,170+30*1,"2"
-	addText '-8',60+40*0,170+30*1,"-8"
+	addText 3,60,30+100+300,"Fördela de 8 stegen på de 3 klockorna efter eget behag"
+	addText 3,100,30+100+300,"Fördela de 8 stegen på de tre klockorna efter eget behag"
+	addText 2,140,30+100+300,"Fördela de 8 stegen på de tre klockorna efter eget behag"
+	addLine 25,30+100+310,145,30+100+310,2
 
-	addText -1,100,330,"2 uppnås genom att flytta 11 till 13"
-	addText 1,140,330
-	addText 'Ger summan 68 + 2 = 70',200,330
+	addText '3*3 + 3*11 + 2*13 = 68',400,30+100+300,"Beräkna en ny summa, 68. Den måste minskas med 6 för att bli 62"
+	addText 0,0,0,"I matrisen kan vi erhålla -6 genom att lägga ihop 2 och -8"
 
-	addText -1,100,360,"-8 uppnås genom att flytta 11 till 3"
-	addText 1,60,360
-	addText 'Ger summan 70 - 8 = 62',200,360
+	addText '2',80+40*2,30+270+30*1,"Här är 2"
+	addText '-8',80+40*0,30+270+30*1,"Här är -8"
 
-	addText 4,60,390,"Beräkna det justerade antalet 3 +1 = 4"
-	addText 1,100,390,"Beräkna det justerade antalet 3 -1 -1 = 1"
-	addText 3,140,390,"Beräkna det justerade antalet 2 +1 = 3"
-	addText "4*3 + 1*11 + 3+13 = 12 + 11 + 39 = 62",200,390,"Kontroll av summa"
+	addText '-1',100,30+100+330,"2 uppnås genom att minska antalet steg på 11 ..."
+	addText '+1',140,30+100+330,"... och öka antalet steg på 13"
+	addText 'Ger summan 68 + 2 = 70',160,30+100+330
+
+	addText '-1',100,30+100+360,"-8 uppnås genom att minska antalet steg på 11 ..."
+	addText '+1',60,30+100+360,"... och öka antalet steg på 3"
+	addText 'Ger summan 70 - 8 = 62',160,30+100+360
+	addLine 25,30+100+370,145,30+100+370,3
+
+	addText 4,60,30+100+390,"Beräkna det justerade antalet 3 +1 = 4"
+	addText 1,100,30+100+390,"Beräkna det justerade antalet 3 -1 -1 = 1"
+	addText 3,140,30+100+390,"Beräkna det justerade antalet 2 +1 = 3"
+	addText "4*3 + 1*11 + 3*13 = 62",400,30+100+390,"Kontroll av summa"
+
+	addLine 25,30+100+403,145,30+100+403,1
 
 	addText 0,0,0,"Dvs, klicka 4, 1 samt 3 gånger på klockorna"
 
+	#index = 70 #commands.length
+
 xdraw = ->
 	bg 0.5
+	textAlign RIGHT
+
+	gridLines 10,30+100+4,40,30,10,3
+	gridLines 4,30+100+118,40,30,4,4 
+	gridLines 25,30+100+250,40,30,3,5
+
 	for i in range index
-		[txt,x,y] = commands[i]
-		if i==index-1 then fc 1,1,0 else fc 0 
-		text txt,x,y
+		if commands[i].length == 5 # line
+			[x1,y1,x2,y2,d] = commands[i]
+			sw d
+			if i==index-1 then sc 1,1,0 else sc 0 
+			line x1,y1,x2,y2
+		else 
+			textAlign if commands[i].length==4 then RIGHT else LEFT 
+			[txt,x,y] = commands[i]
+			if i==index-1 then fc 1,1,0 else fc 0 
+			sc()
+			text txt,x,y
 	command = commands[index-1]
-	if command.length >= 4
-		fc 0
-		text command[3],0,height-10
+	fc 0
+	sc()
+	if command.length == 4
+		textAlign LEFT
+		text command[3],10,height-10
+	textAlign RIGHT
+	text '#' + index,width-10,height-10
+
+move = (delta) ->
+		if delta == -1
+			lstr = [commands.length,47,29,6,1]
+			i = _.findIndex lstr, (x) => index > x
+			if i==-1 then return
+			index = lstr[i]
+		else
+			lst = [1,6,29,47,commands.length]
+			i = _.findIndex lst, (x) => index < x
+			if i==-1 then return
+			index = lst[i]
 
 keyPressed = ->
 	if keyCode == LEFT_ARROW then index--
 	if keyCode == RIGHT_ARROW then index++
-	index = constrain index,0,commands.length
+	if keyCode in [UP_ARROW,33] then move -1 
+	if keyCode in [DOWN_ARROW,34] then move 1
+	if keyCode == 36 then index = 1
+	if keyCode == 35 then index = commands.length 
+	index = constrain index,1,commands.length
 	xdraw()
