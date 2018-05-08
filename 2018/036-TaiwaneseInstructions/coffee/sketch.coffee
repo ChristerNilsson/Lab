@@ -12,20 +12,12 @@ setup = ->
 # negativt x innebär högerjustering. Characters, not pixels
 addText = -> commands.push arguments 
 addLine = -> commands.push arguments 
+addGrid = -> commands.push arguments 
 
 ticks = [3,11,13]
 rests = [2,7,10]
 commands = []
 index = 1
-
-# characters, not pixels
-gridLines = (x,y,w,h,xCount,yCount) ->
-	sc 0
-	sw 1	
-	for i in range xCount+1
-		line WIDTH*(0.5+x+w*i), HEIGHT*y, WIDTH*(0.5+x+w*i), HEIGHT*(y+yCount*h)
-	for j in range yCount+1
-		line WIDTH*(0.5+x), HEIGHT*(y+h*j), WIDTH*(0.5+x+xCount*w), HEIGHT*(y+h*j)
 
 makeCommands = ->
 	addText  '',0,0,"Använd piltangenterna"
@@ -36,6 +28,7 @@ makeCommands = ->
 	addText "Steg: 8",10,2
 	addText "(% innebär modulo, dvs resten vid heltalsdivision)",20,2
 	addText "Lösning:",0,3
+	addGrid 0,4,4,1,10,3
 
 	for i in range 3
 		addText ticks[i],-4,4+i,"Klocka #{ticks[i]}"
@@ -66,6 +59,7 @@ makeCommands = ->
 	addText '',0,0,"Nu skapar vi en differensmatris som vi kommer att behöva senare"
 
 	# Differensmatrisen
+	addGrid 0,8,4,1,4,4 
 	addText 3,-8,8,"till-klocka 3"
 	addText 11,-12,8,"till-klocka 11"
 	addText 13,-16,8,"till-klocka 13"
@@ -86,7 +80,7 @@ makeCommands = ->
 				addText ticks[i]-ticks[j],x,y,"Differensen blir #{ticks[i]} - #{ticks[j]} = #{ticks[i] - ticks[j]}"
 
 	addText '',0,0,"Nu ska de åtta stegen fördelas på de tre klockorna"
-
+	addGrid 4,14,4,1,3,5	
 	addText 3,-8,14,"Skriv upp klockornas kolumnrubriker"
 	addText 11,-12,14,"Skriv upp klockornas kolumnrubriker"
 	addText 13,-16,14,"Skriv upp klockornas kolumnrubriker"
@@ -125,26 +119,29 @@ makeCommands = ->
 
 	#index = 70 #commands.length
 
-xdraw = ->
-	bg 0.5
+drawLine = (command,i) ->
+	[x1,y1,x2,y2,d] = command
+	sw d
+	if i==index-1 then sc 1,1,0 else sc 0 
+	line WIDTH*(x1+0.5),HEIGHT*y1,WIDTH*(x2+0.5),HEIGHT*y2
 
-	gridLines 0,4,4,1,10,3
-	gridLines 0,8,4,1,4,4 
-	gridLines 4,14,4,1,3,5
+drawText = (command,i) ->
+	[txt,x,y] = command
+	if x < 0 then textAlign RIGHT,TOP else textAlign LEFT,TOP 
+	if i==index-1 then fc 1,1,0 else fc 0 
+	sc()
+	text txt,WIDTH*abs(x),HEIGHT*y
 
-	for i in range index
-		if commands[i].length == 5 # line
-			[x1,y1,x2,y2,d] = commands[i]
-			sw d
-			if i==index-1 then sc 1,1,0 else sc 0 
-			line WIDTH*(x1+0.5),HEIGHT*y1,WIDTH*(x2+0.5),HEIGHT*y2
-		else 
-			[txt,x,y] = commands[i]
-			if x < 0 then textAlign RIGHT,TOP else textAlign LEFT,TOP 
-			if i==index-1 then fc 1,1,0 else fc 0 
-			sc()
-			text txt,WIDTH*abs(x),HEIGHT*y
-	command = commands[index-1]
+drawGrid = (command,i) -> # characters, not pixels
+	[x,y,w,h,xCount,yCount] = command
+	sw 1	
+	if i==index-1 then sc 1,1,0 else sc 0 
+	for j in range xCount+1
+		line WIDTH*(0.5+x+w*j), HEIGHT*y, WIDTH*(0.5+x+w*j), HEIGHT*(y+yCount*h)
+	for j in range yCount+1
+		line WIDTH*(0.5+x), HEIGHT*(y+h*j), WIDTH*(0.5+x+xCount*w), HEIGHT*(y+h*j)
+
+drawComment = (command) ->
 	fc 0
 	sc()
 	if command.length == 4
@@ -152,6 +149,16 @@ xdraw = ->
 		text command[3],10,height-10
 	textAlign RIGHT,BOTTOM
 	text '#' + index,width-10,height-10
+
+xdraw = ->
+	bg 0.5
+
+	for i in range index
+		command = commands[i]
+		if command.length == 5 then drawLine command,i
+		else if command.length == 6 then drawGrid command,i
+		else drawText command,i
+	drawComment commands[index-1] 
 
 move = (delta) ->
 		if delta == -1
