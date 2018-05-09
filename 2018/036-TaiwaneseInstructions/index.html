@@ -3,15 +3,51 @@
   <head>
     <meta charset="UTF-8">
     <title>036-TaiwaneseInstructions</title>
-    <script src="libraries/p5.js" ></script>
-    <script src="libraries/p5.dom.js"></script>
-    <script src="libraries/underscore.js"></script>
-    <script src="libraries/chai.js"></script>
-    <script src="libraries/nilsson.js"></script>
+    <style>
+        table,ul,p {
+            border-collapse: collapse;
+            font-family:monospace;
+            font-size: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+        }
+    </style>
 
-    <script src="js/sketch.js"></script>
-    <style> body {padding: 0; margin: 0;} canvas {vertical-align: top;} </style>
+    <h1>Taiwanese Remainders</h1>
+    <p>Detta pussel går ut på att vrida ett antal klockor.</p>
+    <p>Det är ganska knepigt att lösa i huvudet.</p>
+    <p>Studera nedanstående exempel för att lära dig ett par metoder som löser alla tänkbara problem.</p> 
+    <h2>Detta pussel lär dig följande:</h2>
+    <ul>
+      <li><a href="https://sv.wikipedia.org/wiki/Modul%C3%A4r_aritmetik">Modulo</a>, dvs resten vid heltalsdivision</li>
+      <li>Vad en <a href="https://sv.wikipedia.org/wiki/Algoritm">algoritm</a> är</li>
+      <li>Hur du kan använda penna och papper för att lösa problem</li>
+      <li><a href="https://en.wikipedia.org/wiki/Chinese_remainder_theorem">Chinese Remainders</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Knapsack_problem">Knapsack Problem</a></li>
+    </ul>
 
+    <h2>Anvisningar</h2>
+    <ul>
+      <li>Använd exakt det antal steg som föreslås</li>
+      <li>Se till att alla visarna står rakt upp</li>
+      <li>Klick på klocka tickar alla klockor de tick denna klocka har</li>
+      <li>Klick på antalet tar bort ett klick på denna klocka</li>
+      <li>Klick på reset återställer</li>
+      <li>Klick på ok visar nästa problem</li>
+      <li>Klick på link sparar en länk på klippbordet som kan skickas till en kompis</li>
+      <li>Lösningen blir tillgänglig efter steg antal minuter</li>
+      <li>Din dator håller reda på vilket problem du höll på med senast</li>
+    </ul>
+
+    <p>
+    <table>
+      <tr><th>Länk</th><th>Klockor</th><th>Rester</th><th>Steg</th><th>Summa</th><th>Algoritm</th></tr>
+      <tr><td><a href="index1.html">Exempel 1</a></td><td>[3,11,13]</td><td>[2,7,10]</td><td>8</td><td>62</td><td>Skillnadsmatris</td></tr>
+      <tr><td><a href="index2.html">Exempel 2</a></td><td>[2,3,5,7]</td><td>[0,1,2,3]</td><td>9</td><td>52</td><td>Skillnadsmatris</td></tr>
+      <tr><td><a href="index3.html">Exempel 3</a></td><td>[2,3,5,7]</td><td>[0,1,2,3]</td><td>9</td><td>25</td><td>Summatabell</td></tr>
+    </table>
+    </p>
   </head>
   <body>
   </body>
