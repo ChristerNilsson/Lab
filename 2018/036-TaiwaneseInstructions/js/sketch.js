@@ -259,7 +259,6 @@ mouseWheel = function mouseWheel(event) {
   index += event.delta / 100;
   index = constrain(index, 1, objects.length);
   xdraw();
-  //uncomment to block page scrolling
-  return false;
+  return false; // blocks page scrolling
 };
 //# sourceMappingURL=sketch.js.map

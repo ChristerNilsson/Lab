@@ -4,7 +4,7 @@
 buttons = []
 clocks = []
 game = {steps : 1}
-N = 10
+N = 60
 
 RED   = "#F00"
 GREEN = "#0F0"

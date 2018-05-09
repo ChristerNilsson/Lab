@@ -19,7 +19,7 @@ indexes = null;
 
 makeCommands = function makeCommands() {
   var i, j, k, len, len1, ref, ref1;
-  g0 = new Grid(0, 0, 1, 1, 100, 30, false, 'Taiwanese Remainders 3: Använd piltangenterna eller mushjulet');
+  g0 = new Grid(0, 0, 1, 1, 100, 30, false, 'Taiwanese Remainder 3: Använd piltangenterna eller mushjulet');
   g0.add(new Text("Exempel 3:", 0, 0, "Tag reda på vilka klockor man ska klicka på"));
   g0.add(new Text("Klockor: [" + ticks + "]", 12, 0));
   g0.add(new Text("Rester:  [" + rests + "]", 12, 1));
