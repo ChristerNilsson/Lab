@@ -1,6 +1,6 @@
 # 036-TaiwaneseInstructions
 
-Visar med tre exempel hur man manuellt kan lösa Taiwanese Remainders.
+Visar med tre exempel hur man manuellt kan lösa Taiwanese Remainder.
 
 Exempel 1
 Klockor: [2,3,5,7] 

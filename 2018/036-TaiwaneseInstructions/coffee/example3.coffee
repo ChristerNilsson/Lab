@@ -8,7 +8,7 @@ g2=null
 indexes = null
 
 makeCommands = ->
-	g0 = new Grid 0, 0, 1,1,100,30,false,'Taiwanese Remainders 3: Använd piltangenterna eller mushjulet'
+	g0 = new Grid 0, 0, 1,1,100,30,false,'Taiwanese Remainder 3: Använd piltangenterna eller mushjulet'
 
 	g0.add new Text "Exempel 3:",0,0,"Tag reda på vilka klockor man ska klicka på"
 	g0.add new Text "Klockor: [#{ticks}]",12,0
