@@ -103,5 +103,4 @@ mouseWheel = (event) ->
 	index += event.delta/100
 	index = constrain index,1,objects.length
 	xdraw()
-	#uncomment to block page scrolling
-	false
+	false # blocks page scrolling
