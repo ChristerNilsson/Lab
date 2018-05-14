@@ -15,6 +15,13 @@ Klick på ok skapar ett nytt problem.
 Klick på link visar en url som kan kopieras för detta problem. 
 
 Solution blir tillgänglig efter steps minuter.
+Den anger hur många	klick som ska göras per klocka.
+
+Combinations anger antal möjliga kombinationer.
+* Exempel:
+* Klockor: 2 och 3
+* Steg: 2
+* Kombinationer: 2+2=4, 2+3=5 och 3+3=6, dvs tre kombinationer
 
 ## Manuell lösning
 
