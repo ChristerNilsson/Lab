@@ -26,7 +26,7 @@ createProblem = (level) ->
 	url = pathname + '?level=' + level + '&ticks=' + ticks + '&rests=' + rests
 	print url
 
-	{level,ticks,rests,url,solution}
+	{level,ticks,rests,url,total}
 
 solve = (ticks,sum,n) ->
 	tabell = new Array(sum+1).fill null
@@ -73,5 +73,6 @@ assert "1K", short 1499
 assert "2K", short 1500
 assert "20K", short 20000
 assert "200K", short 200000
-assert "2M", short 2000000
-
+assert "123M", short 123456789
+assert "457G", short 456789012345
+assert "789T", short 789012345678901

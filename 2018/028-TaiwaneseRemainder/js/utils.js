@@ -39,7 +39,7 @@ createProblem = function createProblem(level) {
   pathname = h.split('?')[0];
   url = pathname + '?level=' + level + '&ticks=' + ticks + '&rests=' + rests;
   print(url);
-  return { level: level, ticks: ticks, rests: rests, url: url, solution: solution };
+  return { level: level, ticks: ticks, rests: rests, url: url, total: total };
 };
 
 solve = function solve(ticks, sum, n) {
@@ -126,5 +126,9 @@ assert("20K", short(20000));
 
 assert("200K", short(200000));
 
-assert("2M", short(2000000));
+assert("123M", short(123456789));
+
+assert("457G", short(456789012345));
+
+assert("789T", short(789012345678901));
 //# sourceMappingURL=utils.js.map

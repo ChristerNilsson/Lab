@@ -1,4 +1,4 @@
-# Man sparar till localStorage bara de problem man själv löst.
+# Man sparar bara de problem man själv löst till localStorage.
 # Problem via url sparas ej.
 
 buttons = []
@@ -25,7 +25,7 @@ reset = ->
 ok = ->
 	if @enabled 
 		if game.steps==game.totalSteps and game.totalPoints==game.total then newGame 1
-		if game.steps==game.totalSteps then newGame 1
+		else if game.steps==game.totalSteps then newGame 1
 		else newGame -1
 
 setup = -> 
@@ -43,6 +43,7 @@ setup = ->
 	buttons.push new Button 'Taiwanese Remainder',120,20,20 
 	buttons.push new Button 'Solution',120,540,20, -> 
 		if @enabled 
+			solution = solve game.ticks, game.total, game.steps
 			solution = game.solution.join ' '
 			@enabled = false 
 			solutionTimer = millis()
@@ -51,7 +52,6 @@ setup = ->
 
 	buttons[5].enabled = true
 
-	tr = localStorage['TaiwaneseRemainder']
 	if '?' in window.location.href 
 		params = getParameters()
 		if 3 == _.size params
@@ -62,16 +62,18 @@ setup = ->
 				url : window.location.href
 			newGame1()
 			return
-	else if tr  
-		game = JSON.parse tr
-		if tr.level
-			newGame1()
+	else 
+		tr = localStorage['TaiwaneseRemainder']
+		if tr?  
+			game = JSON.parse tr
+			if game.level?
+				newGame1()
+			else
+				game = {level : 0}
+				newGame 0
 		else
 			game = {level : 0}
 			newGame 0
-	else
-		game = {level : 0}
-		newGame 0
 
 class Button
 	constructor : (@txt,@x,@y,@size,@f=->) -> @enabled=false
@@ -145,9 +147,6 @@ class Clock
 			clock.add tick		
 
 okidoki = -> true
-	#if game.totalSteps != game.steps then return false 
-	#for clock in clocks
-	#	if game.totalPoints % clock.tick != clock.rest then return false
 
 newGame = (delta) ->
 	game.level += delta
