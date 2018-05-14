@@ -1,0 +1,49 @@
+import time
+
+def fac(n):
+	if n <= 1:
+		return 1
+	else:
+		return n * fac(n - 1)
+
+def g(n, k): return fac(n + k - 1) / fac(k - 1) / fac(n)
+
+assert 1 == g(1, 1)
+assert 56 == g(5, 4)
+assert 8855 == g(19, 5)
+
+# print 'k 1 2 3 4 5'
+# for k in range(2, 26):
+# 	print k,
+# 	for n in range(k-1,k+4):
+# 		print g(n, k),
+# 	print
+
+# ticks = 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101,103,107,109,113,127,131,137,139,149,151,157,163,167,173
+
+hash = {}
+def combinations(primes,n,result=[],summa=0):
+	if n==0:
+		hash[summa] = result
+		return 1
+	count=0
+	for p in primes:
+		if result==[] or p >= result[-1]:
+			count += combinations(primes,n-1,result+[p], summa+p)
+	return count
+
+primes = [2,3,5,7,11,13,17,19,23,29,31,37,41]
+steps = 3
+start = time.time()
+hash = {}
+combs = combinations(primes[0:steps+1],steps)
+
+print 'Taiwanise Remainder'
+print
+print len(hash),'sums can be found from',primes[0:steps+1],'in',steps,'steps'
+print 'Total combinations:',combs
+print
+for k in hash:
+	print k,'=','+'.join(str(item) for item in (hash[k]))
+print
+print time.time()-start,' seconds'

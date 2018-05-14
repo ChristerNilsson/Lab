@@ -3,7 +3,7 @@
 
 buttons = []
 clocks = []
-game = {steps : 1}
+game = {}
 N = 60
 
 RED   = "#F00"
@@ -29,7 +29,7 @@ ok = ->
 		else newGame -1
 
 setup = -> 
-	createCanvas 1200,560
+	createCanvas 1200,590
 	angleMode DEGREES
 	textAlign CENTER,CENTER
 	buttons.push new Button 'Steps:',120,60,48 
@@ -37,15 +37,17 @@ setup = ->
 	buttons.push new Button 'ok',120,280,48, ok
 	buttons.push new Button 'All clocks green',120,360,24
 	buttons.push new Button 'Use all steps',120,390,24
-	buttons.push new Button 'Share via clipboard',120,510,24, -> 
+	buttons.push new Button 'Share via clipboard',120,450,24, -> 
 		copyToClipboard game.url
 		@enabled = false 
 	buttons.push new Button 'Taiwanese Remainder',120,20,20 
-	buttons.push new Button 'Solution',120,450,24, -> 
+	buttons.push new Button 'Solution',120,540,20, -> 
 		if @enabled 
 			solution = game.solution.join ' '
 			@enabled = false 
 			solutionTimer = millis()
+	buttons.push new Button 'Combinations',120,510,20 
+	buttons.push new Button 'Level',120,480,20 
 
 	buttons[5].enabled = true
 
@@ -53,7 +55,7 @@ setup = ->
 		params = getParameters()
 		if 3 == _.size params
 			game =
-				steps : parseInt params.steps
+				level : parseInt params.level
 				ticks : (parseInt r for r in params.ticks.split ',')
 				rests : (parseInt r for r in params.rests.split ',') 
 				url : window.location.href
@@ -63,7 +65,7 @@ setup = ->
 		game = JSON.parse localStorage['TaiwaneseRemainder']
 		newGame1()
 	else
-		game = {steps : 1}
+		game = {level : 0}
 		newGame 0
 
 class Button
@@ -137,22 +139,24 @@ class Clock
 		for clock in clocks
 			clock.add tick		
 
-okidoki = ->
-	if game.totalSteps != game.steps then return false 
-	for clock in clocks
-		if game.totalPoints % clock.tick != clock.rest then return false
-	true
+okidoki = -> true
+	#if game.totalSteps != game.steps then return false 
+	#for clock in clocks
+	#	if game.totalPoints % clock.tick != clock.rest then return false
 
 newGame = (delta) ->
-	game.steps += delta
-	if game.steps < 1 then game.steps = 1
-	N = int map game.steps,1,100,60,10
-	game = createProblem game.steps
+	game.level += delta
+	if game.level < 0 then game.level = 0
+	N = int map game.level,0,100,60,10
+
+	game = createProblem game.level
 	if '?' not in window.location.href
 		localStorage['TaiwaneseRemainder'] = JSON.stringify game
 	newGame1()
 
 newGame1 = ->
+	game.steps = game.level % 5 + game.level // 5 + 1
+	game.combinations = combinations game.steps,game.ticks.length
 	print "#{game.steps}, [#{game.ticks}], [#{game.rests}]"
 	reset()
 	clocks = []
@@ -169,6 +173,8 @@ info = ->
 	buttons[0].txt = 'steps: ' + (game.steps - game.totalSteps)
 	buttons[1].enabled = game.totalSteps > 0
 	buttons[2].enabled = okidoki()
+	buttons[8].txt = 'Combinations: ' + short combinations game.steps,game.ticks.length
+	buttons[9].txt = 'Level: ' + game.level
 	button.draw() for button in buttons
 
 draw = ->
@@ -177,7 +183,7 @@ draw = ->
 	clock.draw() for clock in clocks
 	buttons[7].enabled = millis() > solutionTimer + DELAY * 1000 * game.steps 
 	fc 0
-	text solution,250,450
+	text solution,width/2,buttons[7].y+30
 
 mousePressed = ->
 	for b in buttons

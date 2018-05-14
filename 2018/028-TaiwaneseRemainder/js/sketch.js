@@ -38,9 +38,7 @@ buttons = [];
 
 clocks = [];
 
-game = {
-  steps: 1
-};
+game = {};
 
 N = 60;
 
@@ -85,7 +83,7 @@ ok = function ok() {
 
 setup = function setup() {
   var params, r;
-  createCanvas(1200, 560);
+  createCanvas(1200, 590);
   angleMode(DEGREES);
   textAlign(CENTER, CENTER);
   buttons.push(new Button('Steps:', 120, 60, 48));
@@ -93,24 +91,26 @@ setup = function setup() {
   buttons.push(new Button('ok', 120, 280, 48, ok));
   buttons.push(new Button('All clocks green', 120, 360, 24));
   buttons.push(new Button('Use all steps', 120, 390, 24));
-  buttons.push(new Button('Share via clipboard', 120, 510, 24, function () {
+  buttons.push(new Button('Share via clipboard', 120, 450, 24, function () {
     copyToClipboard(game.url);
     return this.enabled = false;
   }));
   buttons.push(new Button('Taiwanese Remainder', 120, 20, 20));
-  buttons.push(new Button('Solution', 120, 450, 24, function () {
+  buttons.push(new Button('Solution', 120, 540, 20, function () {
     if (this.enabled) {
       solution = game.solution.join(' ');
       this.enabled = false;
       return solutionTimer = millis();
     }
   }));
+  buttons.push(new Button('Combinations', 120, 510, 20));
+  buttons.push(new Button('Level', 120, 480, 20));
   buttons[5].enabled = true;
   if (indexOf.call(window.location.href, '?') >= 0) {
     params = getParameters();
     if (3 === _.size(params)) {
       game = {
-        steps: parseInt(params.steps),
+        level: parseInt(params.level),
         ticks: function () {
           var k, len, ref, results;
           ref = params.ticks.split(',');
@@ -140,7 +140,7 @@ setup = function setup() {
     return newGame1();
   } else {
     game = {
-      steps: 1
+      level: 0
     };
     return newGame(0);
   }
@@ -272,26 +272,19 @@ Clock = function () {
 }();
 
 okidoki = function okidoki() {
-  var clock, k, len;
-  if (game.totalSteps !== game.steps) {
-    return false;
-  }
-  for (k = 0, len = clocks.length; k < len; k++) {
-    clock = clocks[k];
-    if (game.totalPoints % clock.tick !== clock.rest) {
-      return false;
-    }
-  }
   return true;
 };
 
+//if game.totalSteps != game.steps then return false 
+//for clock in clocks
+//	if game.totalPoints % clock.tick != clock.rest then return false
 newGame = function newGame(delta) {
-  game.steps += delta;
-  if (game.steps < 1) {
-    game.steps = 1;
+  game.level += delta;
+  if (game.level < 0) {
+    game.level = 0;
   }
-  N = int(map(game.steps, 1, 100, 60, 10));
-  game = createProblem(game.steps);
+  N = int(map(game.level, 0, 100, 60, 10));
+  game = createProblem(game.level);
   if (indexOf.call(window.location.href, '?') < 0) {
     localStorage['TaiwaneseRemainder'] = JSON.stringify(game);
   }
@@ -300,6 +293,8 @@ newGame = function newGame(delta) {
 
 newGame1 = function newGame1() {
   var C, clock, i, k, len, ref;
+  game.steps = game.level % 5 + Math.floor(game.level / 5) + 1;
+  game.combinations = combinations(game.steps, game.ticks.length);
   print(game.steps + ", [" + game.ticks + "], [" + game.rests + "]");
   reset();
   clocks = [];
@@ -325,6 +320,8 @@ info = function info() {
   buttons[0].txt = 'steps: ' + (game.steps - game.totalSteps);
   buttons[1].enabled = game.totalSteps > 0;
   buttons[2].enabled = okidoki();
+  buttons[8].txt = 'Combinations: ' + short(combinations(game.steps, game.ticks.length));
+  buttons[9].txt = 'Level: ' + game.level;
   results = [];
   for (k = 0, len = buttons.length; k < len; k++) {
     button = buttons[k];
@@ -343,7 +340,7 @@ draw = function draw() {
   }
   buttons[7].enabled = millis() > solutionTimer + DELAY * 1000 * game.steps;
   fc(0);
-  return text(solution, 250, 450);
+  return text(solution, width / 2, buttons[7].y + 30);
 };
 
 mousePressed = function mousePressed() {

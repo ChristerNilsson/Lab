@@ -1,11 +1,13 @@
-PRIMES = [2,3,5,7,11, 13,19,23,29,31, 37,41,43,47,53, 59,61,67,71,73, 79,83,89,97,101, 103,107,109,113,127] #,131,137,139,149,151,157,163,167,173]
+PRIMES = [2,3,5,7,11, 13,17,19,23,29, 31,37,41,43,47, 53,59,61,67,71, 73,79,83,89,97, 101,103,107,109,113] #,131,137,139,149,151,157,163,167,173]
 
 createRests = (ticks,total) -> (total % t for t in ticks)
 
-createProblem = (steps) ->
+createProblem = (level) ->
+	steps = level%5 + level//5 + 1
+	antalKlockor = 2 + level//5
+
 	antalPrimtal = int map steps,1,125,4,PRIMES.length
 	antalPrimtal = constrain antalPrimtal,4,PRIMES.length
-	antalKlockor = constrain 2 + steps // 5, 2, 125
 	ticks = _.sample PRIMES[..antalPrimtal], antalKlockor
 	ticks.sort (a,b) -> a-b
 
@@ -21,10 +23,10 @@ createProblem = (steps) ->
 	h = window.location.href
 	pathname = h.split('?')[0]
 
-	url = pathname + '?steps=' + steps + '&ticks=' + ticks + '&rests=' + rests
+	url = pathname + '?level=' + level + '&ticks=' + ticks + '&rests=' + rests
 	print url
 
-	{steps,ticks,rests,url,solution}
+	{level,ticks,rests,url,solution}
 
 solve = (ticks,sum,n) ->
 	tabell = new Array(sum+1).fill null
@@ -52,3 +54,22 @@ copyToClipboard = (s) ->
 	el.select()
 	document.execCommand 'copy'
 	document.body.removeChild el
+
+fac = (n) -> if n <= 1 then 1 else	n * fac n - 1
+combinations = (n, k) ->  fac(n + k - 1) / fac(k - 1) / fac(n)
+
+short = (n) ->
+	m = Math.floor Math.log10(n)/3
+	dekad = 1000 ** m 
+	value = Math.round n/dekad
+	value + " KMGT"[m]
+
+assert "999 ", short 999
+assert "1K", short 1000
+assert "1K", short 1001
+assert "1K", short 1499
+assert "2K", short 1500
+assert "20K", short 20000
+assert "200K", short 200000
+assert "2M", short 2000000
+
