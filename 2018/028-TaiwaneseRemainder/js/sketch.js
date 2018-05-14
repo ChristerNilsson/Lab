@@ -98,7 +98,7 @@ setup = function setup() {
   buttons.push(new Button('Solution', 120, 540, 20, function () {
     if (this.enabled) {
       solution = solve(game.ticks, game.total, game.steps);
-      solution = game.solution.join(' ');
+      solution = solution.join(' ');
       this.enabled = false;
       return solutionTimer = millis();
     }

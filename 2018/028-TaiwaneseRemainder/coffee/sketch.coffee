@@ -44,7 +44,7 @@ setup = ->
 	buttons.push new Button 'Solution',120,540,20, -> 
 		if @enabled 
 			solution = solve game.ticks, game.total, game.steps
-			solution = game.solution.join ' '
+			solution = solution.join ' '
 			@enabled = false 
 			solutionTimer = millis()
 	buttons.push new Button 'Combinations',120,510,20 
