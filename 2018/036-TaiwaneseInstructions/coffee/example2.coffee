@@ -25,9 +25,9 @@ makeCommands = ->
 	for i in range rests.length
 		g1.add new Text rests[i],-2,i,"Rest #{rests[i]}"
 	g1.verLine 2,3 
-	g1.add new Text 7,-3,2,"Vrid klockan med näst störst värde (7). 11 + 7 = 18"
-	g1.add new Text 10,-3,3,"Vrid klockan med näst störst värde (10). 13 + 10 = 23"
-	g1.add new Text 12,-4,2,"Vrid klockan med näst störst värde (18). 11 + 18 = 29"
+	g1.add new Text 7,-3,2,"Vrid näst största klockan (5). 5 + 2 = 7"
+	g1.add new Text 10,-3,3,"Vrid största klockan (7). 7 + 3 = 10"
+	g1.add new Text 12,-4,2,"Vrid klockan med näst störst värde (7). 5 + 7 = 12"
 	g1.add new Text 17,-4,3,"Vrid klockan med näst störst värde"
 	g1.add new Text 17,-5,2,"Vrid klockan med näst störst värde. Observera att 17 % 2 != 0"
 	g1.add new Text 24,-5,3,"Vrid klockan med näst störst värde"
@@ -108,7 +108,7 @@ makeCommands = ->
 
 	g3.add new Text '-1',-3,4,"2 uppnås genom att minska antalet steg med 1 för klocka 5 ..."
 	g3.add new Text '+1',-4,4,"... och öka antalet steg med 1 för klocka 7"
-	g3.add new Text 'Flytta ett steg från klocka 5 till klocka 7',5,4,"Observera att stegantalet för en klocka ej kan vara negativt"
+	g3.add new Text 'Flytta ett steg från klocka 5 till klocka 7',5,4
 	g3.horLine 5,3 
 
 	g3.add new Text 1,-1,5,"Beräkna det justerade antalet 3 -2 = 1"

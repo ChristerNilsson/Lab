@@ -36,8 +36,8 @@ makeCommands = function makeCommands() {
     g1.add(new Text(rests[i], -2, i, "Rest " + rests[i]));
   }
   g1.verLine(2, 3);
-  g1.add(new Text(18, -3, 1, "Vrid klockan med näst störst värde (7). 11 + 7 = 18"));
-  g1.add(new Text(23, -3, 2, "Vrid klockan med näst störst värde (10). 13 + 10 = 23"));
+  g1.add(new Text(18, -3, 1, "Vrid näst största klockan (11). 11 + 7 = 18"));
+  g1.add(new Text(23, -3, 2, "Vrid största klockan (13). 13 + 10 = 23"));
   g1.add(new Text(29, -4, 1, "Vrid klockan med näst störst värde (18). 11 + 18 = 29"));
   g1.add(new Text(36, -4, 2, "Vrid klockan med näst störst värde"));
   g1.add(new Text(40, -5, 1, "Vrid klockan med näst störst värde"));
