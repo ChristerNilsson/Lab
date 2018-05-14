@@ -185,7 +185,7 @@ draw = ->
 	bg 0.5
 	info()
 	clock.draw() for clock in clocks
-	buttons[7].enabled = millis() > solutionTimer + DELAY * 1000 * game.steps 
+	buttons[7].enabled = game.total? and millis() > solutionTimer + DELAY * 1000 * game.steps 
 	fc 0
 	text solution,width/2,buttons[7].y+30
 
