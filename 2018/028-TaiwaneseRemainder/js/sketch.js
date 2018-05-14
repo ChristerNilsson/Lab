@@ -82,7 +82,7 @@ ok = function ok() {
 };
 
 setup = function setup() {
-  var params, r;
+  var params, r, tr;
   createCanvas(1200, 590);
   angleMode(DEGREES);
   textAlign(CENTER, CENTER);
@@ -106,6 +106,7 @@ setup = function setup() {
   buttons.push(new Button('Combinations', 120, 510, 20));
   buttons.push(new Button('Level', 120, 480, 20));
   buttons[5].enabled = true;
+  tr = localStorage['TaiwaneseRemainder'];
   if (indexOf.call(window.location.href, '?') >= 0) {
     params = getParameters();
     if (3 === _.size(params)) {
@@ -135,9 +136,16 @@ setup = function setup() {
       };
       newGame1();
     }
-  } else if (localStorage['TaiwaneseRemainder']) {
-    game = JSON.parse(localStorage['TaiwaneseRemainder']);
-    return newGame1();
+  } else if (tr) {
+    game = JSON.parse(tr);
+    if (tr.level) {
+      return newGame1();
+    } else {
+      game = {
+        level: 0
+      };
+      return newGame(0);
+    }
   } else {
     game = {
       level: 0

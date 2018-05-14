@@ -51,6 +51,7 @@ setup = ->
 
 	buttons[5].enabled = true
 
+	tr = localStorage['TaiwaneseRemainder']
 	if '?' in window.location.href 
 		params = getParameters()
 		if 3 == _.size params
@@ -61,9 +62,13 @@ setup = ->
 				url : window.location.href
 			newGame1()
 			return
-	else if localStorage['TaiwaneseRemainder']
-		game = JSON.parse localStorage['TaiwaneseRemainder']
-		newGame1()
+	else if tr  
+		game = JSON.parse tr
+		if tr.level
+			newGame1()
+		else
+			game = {level : 0}
+			newGame 0
 	else
 		game = {level : 0}
 		newGame 0

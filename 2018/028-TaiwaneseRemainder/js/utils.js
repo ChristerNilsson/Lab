@@ -98,6 +98,8 @@ _fac = function fac(n) {
   }
 };
 
+assert(6, _fac(3));
+
 combinations = function combinations(n, k) {
   return _fac(n + k - 1) / _fac(k - 1) / _fac(n);
 };

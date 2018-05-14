@@ -56,6 +56,8 @@ copyToClipboard = (s) ->
 	document.body.removeChild el
 
 fac = (n) -> if n <= 1 then 1 else	n * fac n - 1
+assert 6,fac 3
+
 combinations = (n, k) ->  fac(n + k - 1) / fac(k - 1) / fac(n)
 
 short = (n) ->
