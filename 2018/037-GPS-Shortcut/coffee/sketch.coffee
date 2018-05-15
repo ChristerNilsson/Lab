@@ -1,6 +1,5 @@
-position = [59.265205, 18.132735] # home
+position = {x:0,y:0} # home
 
-#OMKRETS = 40075000 # meter
 R = 80
 
 buttons = []
@@ -13,17 +12,19 @@ count = 0
 start = null
 stopp = null
 wgs84 = null
+dx = null
+dy = null
 
 class Button
 	constructor : (@x,@y,@r,@txt) -> 
 	draw : ->
-		if @r > dist mouseX,mouseY,@x,@y then fc 1,1,0,0.5 else fc 1,1,1,0.5 
+		if @r > dist position.x,position.y,@x,@y then fc 1,1,0,0.5 else fc 1,1,1,0.5 
 		if stopp? then fc 0,1,0
 		if @r > 0 then circle @x,@y,@r
 		fc 0
 		text @txt,@x,@y
 	execute : ->
-		if @r > dist mouseX,mouseY,@x,@y
+		if @r > dist position.x,position.y,@x,@y
 			@event()
 			if a==b then stopp = millis()
 
@@ -34,8 +35,6 @@ class Button
 		buttons[4].txt = a
 
 locationUpdate = (p) ->
-	#logg.push 'locationUpdate ' + position.timestamp
-	#print 'locationUpdate', position
 	p1 = 
 		lat : p.coords.latitude
 		lng : p.coords.longitude
@@ -43,56 +42,25 @@ locationUpdate = (p) ->
 	position = wgs84ToXY p1.lat,p1.lng
 	track.push position
 	if track.length > 10 then track.shift()
-	#heading_12 = calcHeading p1,place()
-	#lastObservation = millis()
-
-
-	# texts[0] = prettyDist distance_on_geoid p1,place()
-	# texts[1] = "#{Math.round heading_12}°"
-	# texts[6] = track.length 
-	# if track.length > 1
-	# 	speed     = calcSpeed     start, millis(), track[0], _.last(track), place()
-	# 	totalTime = calcTotalTime start, millis(), track[0], _.last(track), place()
-	# 	#texts[3] = "#{precisionRound 3.6*speed,1} km/h"  
-	# 	texts[2] = prettyETA startDate, totalTime
-
-	# 	ts = prettyDate d = new Date p1.timestamp
-	# 	lat = precisionRound p1.lat,6
-	# 	lng = precisionRound p1.lng,6
-	# 	heading = precisionRound heading_12,0
-	# 	mark00 = if d.getSeconds() == 0 then '*' else ''
-		
-	# 	logg.push "#{ts} #{lat} #{lng} #{texts[0]} #{heading} #{texts[3]} #{texts[2]} #{mark00}"
 
 locationUpdateFail = (error) ->
-	#logg.push error	
 
 wgs84ToXY = (lat,lon) ->
-	dx = 0.01/1.136
-	dy = 0.01/2.224
-	x = int map lon, 18.132735-dx, 18.132735+dx, 0,1000
-	y = int map lat, 59.265205+dy, 59.265205-dy, 0,1000
-	[x,y]
+	x = int map lon, 18.132735-dx, 18.132735+dx, 0,800
+	y = int map lat, 59.265205+dy, 59.265205-dy, 0,800
+	{x,y}
 
 setup = ->
+	createCanvas 800,800
 
-	dx = 0.01/1.136
-	dy = 0.01/2.224
-
-	p0 = new LatLon 59.265205,    18.132735 # home
-	p1 = new LatLon 59.265205+dy, 18.132735-dx
-	p2 = new LatLon 59.265205+dy, 18.132735 
-	p3 = new LatLon 59.265205+dy, 18.132735+dx 
-	p4 = new LatLon 59.265205,    18.132735+dx
-	p5 = new LatLon 59.265205-dy, 18.132735+dx 
-	p6 = new LatLon 59.265205-dy, 18.132735
-	p7 = new LatLon 59.265205-dy, 18.132735-dx
-	p8 = new LatLon 59.265205,    18.132735-dx 
-
-	print p1.distanceTo p3
-	print p7.distanceTo p5
-	print p1.distanceTo p7
-	print p3.distanceTo p5
+	dx = 0.01/(1137/width)
+	dy = 0.01/(2224/height)
+	p1 = new LatLon 59.265205+dy,18.132735
+	p2 = new LatLon 59.265205-dy,18.132735
+	p3 = new LatLon 59.265205,18.132735-dx
+	p4 = new LatLon 59.265205,18.132735+dx
+	print p3.distanceTo p4
+	print p1.distanceTo p2
 
 	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
 		enableHighAccuracy: true
@@ -100,10 +68,6 @@ setup = ->
 		timeout: 27000
 
 	start = millis()
-	createCanvas 1000,1000
-	# wgs84 = new WGS84 59.265205, 18.132735, width, height
-	# assert [300,300], wgs84.w2c 59.265205, 18.132735
-	# assert [300,301], wgs84.w2c 0.0001+59.265205, 0.0001+18.132735
 
 	angleMode DEGREES
 	textAlign CENTER,CENTER
@@ -139,16 +103,12 @@ draw = ->
 	sc 0
 	sw 1
 	for p,i in track
-		[x,y] = p
-		circle x,y,2*(10-i)
+		circle p.x,p.y,1+1*(10-i)
 
 	fc 1,0,0
-	text position,200,200
-
+	text "#{position.x}, #{position.y}",200,200
 
 mousePressed = ->
 	if stopp? then return
 	for button in buttons
 		button.execute()
-
-
