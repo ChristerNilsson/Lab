@@ -61,21 +61,37 @@ locationUpdate = (p) ->
 locationUpdateFail = (error) ->
 
 wgs84ToXY = (p) ->
-	x = int map p.lng, LNG-dw/2, LNG+dw/2, 0, width
-	y = int map p.lat, LAT+dh/2, LAT-dh/2, 0, height
+	x = map p.lng, LNG-dw/2, LNG+dw/2, 0, width
+	y = map p.lat, LAT-dh/2, LAT+dh/2, 0, height
 	timestamp = p.timestamp
 	{x,y,timestamp}
 
 setup = ->
-	createCanvas windowWidth,windowHeight
+	createCanvas 800,800  # windowWidth,windowHeight
 	# dx = 0.01/(1136.6/width) # meter per grad Stockholm
 	# dy = 0.01/(2223.9/height) # meter per grad Stockholm
-	dh = height/113660 # grader vertikalt Stockholm
-	dw = width/222390 # grader horisontellt Stockholm
+	#dh = height/113660 # grader vertikalt Stockholm
+	#dw = width/222390 # grader horisontellt Stockholm
+	dh = height/222390 # grader vertikalt Stockholm
+	dw = width/113660 # grader horisontellt Stockholm
 	meterPerPixlar = 2 * (rmeter+Rmeter) / Math.min width,height
 	RADIUS = Rmeter / meterPerPixlar
 	radius = 0.3 * RADIUS
 	print RADIUS,radius
+	print dw,dh
+	print 'meterPerPixlar',meterPerPixlar
+
+	p0 = {lat: LAT, lng: LNG, timestamp:0}
+	p1 = {lat: LAT-dh/2, lng: LNG-dw/2, timestamp:0}
+	p2 = {lat: LAT-dh/2, lng: LNG+dw/2, timestamp:0}
+	p3 = {lat: LAT+dh/2, lng: LNG-dw/2, timestamp:0}
+	p4 = {lat: LAT+dh/2, lng: LNG+dw/2, timestamp:0}
+
+	print wgs84ToXY p0 
+	print wgs84ToXY p1 
+	print wgs84ToXY p2 
+	print wgs84ToXY p3
+	print wgs84ToXY p4 
 
 	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
 		enableHighAccuracy: true
@@ -109,6 +125,9 @@ setup = ->
 	buttons.push new Button width-120,height-radius,-radius,'count'
 	buttons[6].setColor 0,0,0
 	buttons[7].setColor 0,0,0
+
+	for i in range 3
+			print 'dist',dist 400,400,buttons[i].x,buttons[i].y
 
 draw = ->
 	bg 0.5

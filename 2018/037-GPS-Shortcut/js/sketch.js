@@ -136,23 +136,57 @@ locationUpdateFail = function locationUpdateFail(error) {};
 
 wgs84ToXY = function wgs84ToXY(p) {
   var timestamp, x, y;
-  x = int(map(p.lng, LNG - dw / 2, LNG + dw / 2, 0, width));
-  y = int(map(p.lat, LAT + dh / 2, LAT - dh / 2, 0, height));
+  x = map(p.lng, LNG - dw / 2, LNG + dw / 2, 0, width);
+  y = map(p.lat, LAT - dh / 2, LAT + dh / 2, 0, height);
   timestamp = p.timestamp;
   return { x: x, y: y, timestamp: timestamp };
 };
 
 setup = function setup() {
-  var i, j, labels, len, meterPerPixlar, n, txt, x, y;
-  createCanvas(windowWidth, windowHeight);
+  var i, j, k, labels, len, len1, meterPerPixlar, n, p0, p1, p2, p3, p4, ref, results, txt, x, y;
+  createCanvas(800, 800); // windowWidth,windowHeight
   // dx = 0.01/(1136.6/width) # meter per grad Stockholm
   // dy = 0.01/(2223.9/height) # meter per grad Stockholm
-  dh = height / 113660; // grader vertikalt Stockholm
-  dw = width / 222390; // grader horisontellt Stockholm
+  //dh = height/113660 # grader vertikalt Stockholm
+  //dw = width/222390 # grader horisontellt Stockholm
+  dh = height / 222390; // grader vertikalt Stockholm
+  dw = width / 113660; // grader horisontellt Stockholm
   meterPerPixlar = 2 * (rmeter + Rmeter) / Math.min(width, height);
   RADIUS = Rmeter / meterPerPixlar;
   radius = 0.3 * RADIUS;
   print(RADIUS, radius);
+  print(dw, dh);
+  print('meterPerPixlar', meterPerPixlar);
+  p0 = {
+    lat: LAT,
+    lng: LNG,
+    timestamp: 0
+  };
+  p1 = {
+    lat: LAT - dh / 2,
+    lng: LNG - dw / 2,
+    timestamp: 0
+  };
+  p2 = {
+    lat: LAT - dh / 2,
+    lng: LNG + dw / 2,
+    timestamp: 0
+  };
+  p3 = {
+    lat: LAT + dh / 2,
+    lng: LNG - dw / 2,
+    timestamp: 0
+  };
+  p4 = {
+    lat: LAT + dh / 2,
+    lng: LNG + dw / 2,
+    timestamp: 0
+  };
+  print(wgs84ToXY(p0));
+  print(wgs84ToXY(p1));
+  print(wgs84ToXY(p2));
+  print(wgs84ToXY(p3));
+  print(wgs84ToXY(p4));
   navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
     enableHighAccuracy: true,
     maximumAge: 30000,
@@ -195,7 +229,14 @@ setup = function setup() {
   buttons.push(new Button(120, height - radius, -radius, 'time'));
   buttons.push(new Button(width - 120, height - radius, -radius, 'count'));
   buttons[6].setColor(0, 0, 0);
-  return buttons[7].setColor(0, 0, 0);
+  buttons[7].setColor(0, 0, 0);
+  ref = range(3);
+  results = [];
+  for (k = 0, len1 = ref.length; k < len1; k++) {
+    i = ref[k];
+    results.push(print('dist', dist(400, 400, buttons[i].x, buttons[i].y)));
+  }
+  return results;
 };
 
 draw = function draw() {
