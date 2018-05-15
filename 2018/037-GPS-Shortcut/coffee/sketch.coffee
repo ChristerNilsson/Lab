@@ -135,12 +135,12 @@ draw = ->
 	if stopp? 
 		buttons[6].txt = round(stopp-start)/1000
 		buttons[7].txt = count
+	fc()
+	sc 0
+	sw 1
 	for p,i in track
 		[x,y] = p
-		fc (i+1)*0.1, 0, 0, 0.1
-		sc 0
-		sw 1
-		circle x,y,2*(i+1)
+		circle x,y,2*(10-i)
 
 	fc 1,0,0
 	text position,200,200
