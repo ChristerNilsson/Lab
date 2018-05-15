@@ -22,8 +22,8 @@ b = 9
 count = 0
 start = null
 stopp = null
-dx = null
-dy = null
+dw = null
+dh = null
 
 class Button
 	constructor : (@x,@y,@radius,@txt,@r=0.5,@g=0.5,@b=0.5) -> 
@@ -59,16 +59,18 @@ locationUpdate = (p) ->
 locationUpdateFail = (error) ->
 
 wgs84ToXY = (p) ->
-	x = int map p.lng, LNG-dx, LNG+dx, 0, width
-	y = int map p.lat, LAT+dy, LAT-dy, 0, height
+	x = int map p.lng, LNG-dw/2, LNG+dw/2, 0, width
+	y = int map p.lat, LAT+dh/2, LAT-dh/2, 0, height
 	timestamp = p.timestamp
 	{x,y,timestamp}
 
 setup = ->
 	createCanvas windowWidth,windowHeight
-	dx = 0.01/(1136.6/width) # meter per grad Stockholm
-	dy = 0.01/(2223.9/height) # meter per grad Stockholm
-	meterPerPixlar = 3 * Rmeter / Math.min width,height 
+	# dx = 0.01/(1136.6/width) # meter per grad Stockholm
+	# dy = 0.01/(2223.9/height) # meter per grad Stockholm
+	dh = height/113660 # grader vertikalt Stockholm
+	dw = width/222390 # grader horisontellt Stockholm
+	meterPerPixlar = 2 * (rmeter+Rmeter) / Math.min width,height 
 	RADIUS = Rmeter / meterPerPixlar  
 	radius = 0.2 * RADIUS 
 	print RADIUS,radius
@@ -84,9 +86,10 @@ setup = ->
 	textAlign CENTER,CENTER
 	textSize 1.3*radius
 	labels = "+2 *2 /2".split ' '
+	n = labels.length
 	for txt,i in labels
-		x = width/2  + RADIUS*cos i*360/labels.length-90
-		y = height/2 + RADIUS*sin i*360/labels.length-90
+		x = width/2  + RADIUS * cos i*360/n # -90
+		y = height/2 + RADIUS * sin i*360/n # -90
 		buttons.push new Button x,y,radius,txt
 	buttons.push new Button width/2,height/2,radius,'13'
 	buttons[0].event = -> @spara a+2 
