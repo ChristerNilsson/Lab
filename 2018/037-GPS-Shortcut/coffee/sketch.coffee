@@ -1,6 +1,17 @@
+released = true
+
 position = {x:0,y:0} # home
 
-R = 80
+# inparametrar
+Rmeter = 100 # stora radien i meter
+rmeter = 30 # lilla radien meter
+RADIUS = null # stora radien i pixlar
+radius = null # lilla radien i pixlar
+# level
+# seed
+
+LAT = 59.265205 # Skarpnäck
+LNG = 18.132735
 
 buttons = []
 hist = []
@@ -11,17 +22,18 @@ b = 9
 count = 0
 start = null
 stopp = null
-wgs84 = null
 dx = null
 dy = null
 
 class Button
-	constructor : (@x,@y,@r,@txt) -> 
+	constructor : (@x,@y,@radius,@txt,@r=0.5,@g=0.5,@b=0.5) -> 
 	draw : ->
-		if @r > dist position.x,position.y,@x,@y then fc 1,1,0,0.5 else fc 1,1,1,0.5 
+		if @radius > dist position.x,position.y,@x,@y then fc 1,1,0,0.5 else fc 1,1,1,0.5 
 		if stopp? then fc 0,1,0
-		if @r > 0 then circle @x,@y,@r
-		fc 0
+		sc 0
+		if @radius > 0 then circle @x,@y,@radius
+		fc @r,@g,@b
+		sc()
 		text @txt,@x,@y
 	execute : ->
 		if @r > dist position.x,position.y,@x,@y
@@ -33,34 +45,33 @@ class Button
 		hist.push a
 		a = value
 		buttons[4].txt = a
+	setColor : (r,g,b) -> [@r,@g,@b] = [r,g,b]
 
 locationUpdate = (p) ->
 	p1 = 
 		lat : p.coords.latitude
 		lng : p.coords.longitude
 		timestamp : p.timestamp # milliseconds since 1970
-	position = wgs84ToXY p1.lat,p1.lng
+	position = wgs84ToXY p1
 	track.push position
 	if track.length > 10 then track.shift()
 
 locationUpdateFail = (error) ->
 
-wgs84ToXY = (lat,lon) ->
-	x = int map lon, 18.132735-dx, 18.132735+dx, 0,800
-	y = int map lat, 59.265205+dy, 59.265205-dy, 0,800
-	{x,y}
+wgs84ToXY = (p) ->
+	x = int map p.lng, LNG-dx, LNG+dx, 0, width
+	y = int map p.lat, LAT+dy, LAT-dy, 0, height
+	timestamp = p.timestamp
+	{x,y,timestamp}
 
 setup = ->
-	createCanvas 800,800
-
-	dx = 0.01/(1137/width)
-	dy = 0.01/(2224/height)
-	p1 = new LatLon 59.265205+dy,18.132735
-	p2 = new LatLon 59.265205-dy,18.132735
-	p3 = new LatLon 59.265205,18.132735-dx
-	p4 = new LatLon 59.265205,18.132735+dx
-	print p3.distanceTo p4
-	print p1.distanceTo p2
+	createCanvas windowWidth,windowHeight
+	dx = 0.01/(1136.6/width) # meter per grad Stockholm
+	dy = 0.01/(2223.9/height) # meter per grad Stockholm
+	meterPerPixlar = 3 * Rmeter / Math.min width,height 
+	RADIUS = Rmeter / meterPerPixlar  
+	radius = 0.2 * RADIUS 
+	print RADIUS,radius
 
 	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
 		enableHighAccuracy: true
@@ -71,13 +82,13 @@ setup = ->
 
 	angleMode DEGREES
 	textAlign CENTER,CENTER
-	textSize 50
+	textSize 1.3*radius
 	labels = "+2 *2 /2".split ' '
 	for txt,i in labels
-		x = width/2 + 200*cos i*360/labels.length-90
-		y = height/2 + 200*sin i*360/labels.length-90
-		buttons.push new Button x,y,R,txt
-	buttons.push new Button width/2,height/2,R,'undo'
+		x = width/2  + RADIUS*cos i*360/labels.length-90
+		y = height/2 + RADIUS*sin i*360/labels.length-90
+		buttons.push new Button x,y,radius,txt
+	buttons.push new Button width/2,height/2,radius,'13'
 	buttons[0].event = -> @spara a+2 
 	buttons[1].event = -> @spara a*2
 	buttons[2].event = -> if a%2==0 then @spara a//2
@@ -85,15 +96,19 @@ setup = ->
 		if hist.length > 0 
 			a = hist.pop()
 			buttons[4].txt = a
-	buttons.push new Button 100,100,-R,a
-	buttons.push new Button 500,100,-R,b
-	buttons.push new Button 120,height-50,-R,''
-	buttons.push new Button width-120,height-50,-R,''
+	buttons.push new Button 100,100,-radius,a
+	buttons.push new Button width-100,100,-radius,b
+	buttons[4].setColor 0,0,0
+	buttons[5].setColor 0,0,0
+	buttons.push new Button 120,height-radius,-radius,'time'
+	buttons.push new Button width-120,height-radius,-radius,'count'
+	buttons[6].setColor 0,0,0
+	buttons[7].setColor 0,0,0
 
 draw = ->
 	bg 0.5
 	fc()
-	circle width/2,height/2,200
+	circle width/2,height/2,RADIUS
 	for button in buttons
 		button.draw()
 	if stopp? 
@@ -106,9 +121,15 @@ draw = ->
 		circle p.x,p.y,1+1*(10-i)
 
 	fc 1,0,0
-	text "#{position.x}, #{position.y}",200,200
+	text "#{position.x}, #{position.y}",0.5*width,0.35*height
+
+mouseReleased = -> # to make Android work 
+	released = true 
+	false
 
 mousePressed = ->
+	if !released then return # to make Android work 
+	released = false	
 	if stopp? then return
 	for button in buttons
 		button.execute()
