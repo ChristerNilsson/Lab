@@ -17,9 +17,10 @@ buttons = []
 hist = []
 track = []
 
-a = 7
+a = 8
 b = 9
 count = 0
+steps = 3
 start = null
 stopp = null
 dw = null
@@ -36,7 +37,7 @@ class Button
 		sc()
 		text @txt,@x,@y
 	execute : ->
-		if @r > dist position.x,position.y,@x,@y
+		if @radius > dist position.x,position.y,@x,@y
 			@event()
 			if a==b then stopp = millis()
 
@@ -44,6 +45,7 @@ class Button
 		count++
 		hist.push a
 		a = value
+		buttons[3].txt = steps - count
 		buttons[4].txt = a
 	setColor : (r,g,b) -> [@r,@g,@b] = [r,g,b]
 
@@ -70,9 +72,9 @@ setup = ->
 	# dy = 0.01/(2223.9/height) # meter per grad Stockholm
 	dh = height/113660 # grader vertikalt Stockholm
 	dw = width/222390 # grader horisontellt Stockholm
-	meterPerPixlar = 2 * (rmeter+Rmeter) / Math.min width,height 
-	RADIUS = Rmeter / meterPerPixlar  
-	radius = 0.2 * RADIUS 
+	meterPerPixlar = 2 * (rmeter+Rmeter) / Math.min width,height
+	RADIUS = Rmeter / meterPerPixlar
+	radius = 0.3 * RADIUS
 	print RADIUS,radius
 
 	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
@@ -84,19 +86,19 @@ setup = ->
 
 	angleMode DEGREES
 	textAlign CENTER,CENTER
-	textSize 1.3*radius
+	textSize 1*radius
 	labels = "+2 *2 /2".split ' '
 	n = labels.length
 	for txt,i in labels
 		x = width/2  + RADIUS * cos i*360/n # -90
 		y = height/2 + RADIUS * sin i*360/n # -90
 		buttons.push new Button x,y,radius,txt
-	buttons.push new Button width/2,height/2,radius,'13'
-	buttons[0].event = -> @spara a+2 
+	buttons.push new Button width/2,height/2,radius,steps
+	buttons[0].event = -> @spara a+2
 	buttons[1].event = -> @spara a*2
 	buttons[2].event = -> if a%2==0 then @spara a//2
-	buttons[3].event = ->	
-		if hist.length > 0 
+	buttons[3].event = ->
+		if hist.length > 0
 			a = hist.pop()
 			buttons[4].txt = a
 	buttons.push new Button 100,100,-radius,a
@@ -114,25 +116,25 @@ draw = ->
 	circle width/2,height/2,RADIUS
 	for button in buttons
 		button.draw()
-	if stopp? 
+	if stopp?
 		buttons[6].txt = round(stopp-start)/1000
 		buttons[7].txt = count
 	fc()
 	sc 0
 	sw 1
 	for p,i in track
-		circle p.x,p.y,1+1*(10-i)
+		circle p.x,p.y,1+2*(10-i)
 
 	fc 1,0,0
 	text "#{position.x}, #{position.y}",0.5*width,0.35*height
 
-mouseReleased = -> # to make Android work 
-	released = true 
+mouseReleased = -> # to make Android work
+	released = true
 	false
 
 mousePressed = ->
-	if !released then return # to make Android work 
-	released = false	
+	if !released then return # to make Android work
+	released = false
 	if stopp? then return
 	for button in buttons
 		button.execute()
