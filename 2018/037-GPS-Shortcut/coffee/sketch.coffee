@@ -137,8 +137,10 @@ draw = ->
 		buttons[7].txt = count
 	for p,i in track
 		[x,y] = p
-		fc (9-i)*0.1,0,0
-		circle x,y,3
+		fc (i+1)*0.1, 0, 0, 0.5
+		sc 0
+		sw 1
+		circle x,y,3*(i+1)
 
 	text position,200,200
 

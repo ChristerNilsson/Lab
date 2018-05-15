@@ -213,8 +213,10 @@ draw = function draw() {
     x = _p2[0];
     y = _p2[1];
 
-    fc((9 - i) * 0.1, 0, 0);
-    circle(x, y, 3);
+    fc((i + 1) * 0.1, 0, 0, 0.5);
+    sc(0);
+    sw(1);
+    circle(x, y, 3 * (i + 1));
   }
   return text(position, 200, 200);
 };
