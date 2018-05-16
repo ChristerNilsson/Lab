@@ -235,6 +235,7 @@ setup = function setup() {
   createProblem(level, seed);
   system = new System(lat, lon, width, height);
   SCALE = min(width, height) / RADIUS / 3;
+  print(SCALE);
   radius = 0.3 * RADIUS;
   navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
     enableHighAccuracy: true,
@@ -309,7 +310,7 @@ draw = function draw() {
   results = [];
   for (i = l = 0, len1 = track.length; l < len1; i = ++l) {
     p = track[i];
-    results.push(circle(p.x, p.y, 2 * (track.length - i)));
+    results.push(circle(p.x, p.y, 3 * (track.length - i) / SCALE));
   }
   return results;
 };
@@ -322,11 +323,9 @@ createProblem = function createProblem(level, seed) {
   tree = [a];
   lst2 = [];
   save = function save(item) {
-    if (item === Math.floor(item) && item <= n) {
-      if (indexOf.call(tree, item) < 0) {
-        lst2.push(item);
-        return tree.push(item);
-      }
+    if (item <= n && indexOf.call(tree, item) < 0) {
+      lst2.push(item);
+      return tree.push(item);
     }
   };
   ref = range(level);
@@ -337,11 +336,12 @@ createProblem = function createProblem(level, seed) {
       item = lst[l];
       save(item + 2);
       save(item * 2);
-      save(item / 2);
+      if (item % 2 === 0) {
+        save(item / 2);
+      }
     }
     lst = lst2;
   }
-  print(a, lst);
   i = myrandom(0, lst.length);
   return b = lst[i];
 };

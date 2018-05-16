@@ -111,6 +111,7 @@ setup = ->
 	system = new System lat,lon,width,height
 
 	SCALE = min(width,height)/RADIUS/3
+	print SCALE
 	radius = 0.3 * RADIUS
 
 	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
@@ -173,7 +174,7 @@ draw = ->
 	sc 1,1,0
 	sw 1
 	for p,i in track
-		circle p.x, p.y, 2*(track.length-i)
+		circle p.x, p.y, 3*(track.length-i)/SCALE
 
 createProblem = (level,seed) ->
 	n = int Math.pow 2, 4+level/3 # nodes
@@ -182,18 +183,16 @@ createProblem = (level,seed) ->
 	tree = [a]
 	lst2 = []
 	save = (item) ->
-		if item == Math.floor(item) and item <= n
-			if item not in tree
-				lst2.push item
-				tree.push item
+		if item <= n and item not in tree
+			lst2.push item
+			tree.push item
 	for j in range level
 		lst2 = []
 		for item in lst
-			save item+2 
-			save item*2
-			save item/2
+			save item + 2 
+			save item * 2
+			if item%2 == 0 then save item / 2
 		lst = lst2
-	print a,lst
 	i = myrandom 0,lst.length
 	b = lst[i]
 
