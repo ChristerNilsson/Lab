@@ -16,7 +16,7 @@ position = {
   y: 0 // home
 };
 
-SCALE = 3;
+SCALE = null;
 
 // inparametrar
 Rmeter = 100; // stora radien i meter
@@ -75,15 +75,12 @@ System = function () {
     this.lon1 = p4.lon;
   }
 
-  //print 'System',@lat1,@lat2,@lon1,@lon2
-
-
   _createClass(System, [{
     key: 'toXY',
     value: function toXY(lat, lon) {
       var x, y;
       x = round(map(lon, this.lon1, this.lon2, -this.w / 2, this.w / 2));
-      y = round(map(lat, this.lat1, this.lat2, -this.h / 2, this.h / 2));
+      y = round(map(lat, this.lat2, this.lat1, -this.h / 2, this.h / 2)); // turned
       return { x: x, y: y };
     }
   }, {
@@ -182,64 +179,13 @@ locationUpdateFail = function locationUpdateFail(error) {};
 
 setup = function setup() {
   var hs, i, j, labels, len, n, rs, txt, ws, x, y;
-  createCanvas(800, 800); // windowWidth,windowHeight
+  createCanvas(windowWidth, windowHeight);
   system = new System(LAT, LON, width, height);
-  assert({
-    x: 0,
-    y: 0
-  }, system.toXY(LAT, LON));
+  //assert {x: 0, y: -0}, system.toXY LAT,LON
   //assert {lat: 59.26160771357633, lon: 18.125696195929095}, system.toWGS84 0,0
-
-  // dx = 0.01/(1136.6/width) # meter per grad Stockholm
-  // dy = 0.01/(2223.9/height) # meter per grad Stockholm
-  //dh = height/113660 # grader vertikalt Stockholm
-  //dw = width/222390 # grader horisontellt Stockholm
-  //dh = height/389000 # grader vertikalt Stockholm
-  //dw = width/209500 # grader horisontellt Stockholm
-  //meterPerPixlar = 2 * (rmeter+Rmeter) / Math.min width,height
   RADIUS = Rmeter; /// meterPerPixlar
+  SCALE = min(width, height) / RADIUS / 3;
   radius = 0.3 * RADIUS;
-  //print 'RADIUS',RADIUS
-  //print 'radius',radius
-  //print 'meterPerPixlar',meterPerPixlar
-  //	print 'dw',dw
-  //	print 'dh',dh
-
-  // print 'xy',XY_WGS84 400,46
-  // print 'xy',XY_WGS84 754,400
-
-  // p0 = {lat: LAT, lng: LNG, timestamp:0}
-  // p1 = {lat: LAT-dh/2, lng: LNG-dw/2, timestamp:0}
-  // p2 = {lat: LAT-dh/2, lng: LNG+dw/2, timestamp:0}
-  // p3 = {lat: LAT+dh/2, lng: LNG-dw/2, timestamp:0}
-  // p4 = {lat: LAT+dh/2, lng: LNG+dw/2, timestamp:0}
-
-  // p5 = {lat: 59.266115, lng: 18.132735}
-
-  // p6 = {lat: LAT+dh/2, lng: LNG, timestamp:0}
-  // p7 = {lat: LAT-dh/2, lng: LNG, timestamp:0}
-  // p9 = {lat: LAT, lng: LNG+dw/2, timestamp:0}
-
-  // p10 = {lat: 59.265205, lng: 18.1344247}
-
-  // print WGS84_XY p0 
-  // print WGS84_XY p1 
-  // print WGS84_XY p2 
-  // print WGS84_XY p3
-  // print WGS84_XY p4
-
-  // print 'p5',WGS84_XY p5 
-  // print 'p6',WGS84_XY p6 
-  // print 'p7',WGS84_XY p7 
-  // print 'p9',WGS84_XY p9 
-  // print 'p10',WGS84_XY p10 
-
-  // ll1 = LatLon p1.lat,p1.lng 
-  // ll2 = LatLon p2.lat,p2.lng 
-  // ll3 = LatLon p3.lat,p3.lng 
-  // ll4 = LatLon p4.lat,p4.lng 
-  // print ll1.bearingTo ll4
-  // print ll2.bearingTo ll3
   navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
     enableHighAccuracy: true,
     maximumAge: 30000,
@@ -285,14 +231,12 @@ setup = function setup() {
   buttons.push(new Button(ws, -hs, -rs, b));
   buttons[4 + 1].setColor(0, 0, 0);
   buttons[5 + 1].setColor(0, 0, 0);
-  buttons.push(new Button(-ws, hs, -rs, 'time'));
-  buttons.push(new Button(ws, hs, -rs, 'count'));
+  buttons.push(new Button(-ws, hs, -rs, 't'));
+  buttons.push(new Button(ws, hs, -rs, '#'));
   buttons[6 + 1].setColor(0, 0, 0);
   return buttons[7 + 1].setColor(0, 0, 0);
 };
 
-//for i in range 4
-//		print 'dist', dist width/2,height/2,buttons[i].x,buttons[i].y
 draw = function draw() {
   var button, i, j, k, len, len1, p;
   translate(width / 2, height / 2);
