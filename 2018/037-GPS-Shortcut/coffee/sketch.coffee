@@ -1,3 +1,5 @@
+# file:///C:/Lab/2018/037-GPS-Shortcut/index.html?lat=59.265205&lon=18.132735&radius=50&level=3&seed=0.314
+
 released = true
 system = null
 
@@ -7,16 +9,15 @@ SCALE = null
 
 # inparametrar
 Rmeter = 50 # stora radien i meter
-#rmeter = 30 # lilla radien meter
 RADIUS = null # stora radien i pixlar
 radius = null # lilla radien i pixlar
-# level
-# seed
+level = null
+seed = null
 
 TRACKED = 5
 
-LAT = 59.265205 # Skarpnäck
-LON = 18.132735
+#LAT = 59.265205 # Skarpnäck
+#LON = 18.132735
 
 buttons = []
 hist = []
@@ -52,15 +53,14 @@ class System
 		{lat,lon}
 
 class Button
-	constructor : (@x,@y,@radius,@txt,@r=0.5,@g=0.5,@b=0.5) ->
+	constructor : (@x,@y,@radius,@txt,@r=0,@g=0,@b=0) ->
 
 	draw : ->
-		if @inside() then fc 1,1,0,0.5 else fc 1,1,1,0.5
+		if @inside() then fc 0.25 else fc 0.75
 		if stopp? then fc 0,1,0
 		sc()
 		if @radius > 0 then circle @x,@y,@radius
-		fc @r,@g,@b
-		#sc()
+		if a==b then fc 0,1,0 else fc @r,@g,@b
 		text @txt,@x,@y
 
 	execute : ->
@@ -71,12 +71,12 @@ class Button
 	inside : -> @radius > dist position.x,position.y,@x,@y
 	setColor : (r,g,b) -> [@r,@g,@b] = [r,g,b]
 
-	spara : (value) ->
-		count++
-		hist.push a
-		a = value
-		buttons[3+1].txt = steps - count
-		buttons[4+1].txt = a
+spara = (value) ->
+	count++
+	hist.push a
+	a = value
+	buttons[3+0].txt = steps - count
+	buttons[4+0].txt = a
 
 locationUpdate = (p) ->
 	lat = p.coords.latitude
@@ -89,11 +89,27 @@ locationUpdateFail = (error) ->
 
 setup = ->
 	createCanvas windowWidth,windowHeight
-	system = new System LAT,LON,width,height
-	#assert {x: 0, y: -0}, system.toXY LAT,LON
-	#assert {lat: 59.26160771357633, lon: 18.125696195929095}, system.toWGS84 0,0
 
-	RADIUS = Rmeter 
+	# args = getParameters()
+	# lat = parseFloat args.lat
+	# lon = parseFloat args.lon
+	# RADIUS = parseInt args.radius 
+	# level = parseInt args.level
+	# seed = parseFloat args.seed
+
+	lat = 59.265205 
+	lon = 18.132735
+	RADIUS = 500
+	level = 3
+	seed = 0.5
+
+	d = new Date()
+	seed += 31 * d.getMonth() + d.getDate()
+
+	createProblem level,seed
+
+	system = new System lat,lon,width,height
+
 	SCALE = min(width,height)/RADIUS/3
 	radius = 0.3 * RADIUS
 
@@ -107,37 +123,37 @@ setup = ->
 	angleMode DEGREES
 	textAlign CENTER,CENTER
 	textSize 1*radius
-	labels = "+2 *2 /2 +3".split ' '
+	labels = "+2 *2 /2".split ' '
 	n = labels.length
 
 	for txt,i in labels
 		x = RADIUS * cos i*360/n
 		y = RADIUS * sin i*360/n
 		buttons.push new Button x,y,radius,txt
-	buttons[0].event = -> @spara a+2
-	buttons[1].event = -> @spara a*2
-	buttons[2].event = -> if a%2==0 then @spara a//2
-	buttons[3].event = -> @spara a+3
+	buttons[0].event = -> spara a+2
+	buttons[1].event = -> spara a*2
+	buttons[2].event = -> if a%2==0 then spara a//2
+	#buttons[3].event = -> spara a+3
 
 	buttons.push new Button 0,0,radius,steps
-	buttons[3+1].event = ->
+	buttons[3+0].event = ->
 		if hist.length > 0
 			a = hist.pop()
 			buttons[4+1].txt = a
 
-	ws = 0.35*width/SCALE
+	ws = 0.3*width/SCALE
 	hs = 0.4*height/SCALE
 	rs = radius/SCALE
 
 	buttons.push new Button -ws,-hs,-rs,a
 	buttons.push new Button ws,-hs,-rs,b
-	buttons[4+1].setColor 1,0,0
-	buttons[5+1].setColor 0,1,0
+	buttons[4+0].setColor 1,0,0
+	buttons[5+0].setColor 0,1,0
 
 	buttons.push new Button -ws,hs,-rs,'0'
 	buttons.push new Button ws,hs,-rs,'0'
-	buttons[6+1].setColor 0,0,0
-	buttons[7+1].setColor 0,0,0
+	buttons[6+0].setColor 0,0,0
+	buttons[7+0].setColor 0,0,0
 
 draw = ->
 	translate width/2,height/2
@@ -147,10 +163,10 @@ draw = ->
 	sc 0
 	circle 0,0,RADIUS
 	if stopp?
-		buttons[6+1].txt = round(stopp-start)/1000
+		buttons[6+0].txt = round(stopp-start)/1000
 	else
-		buttons[6+1].txt = round (millis()-start)/1000
-	buttons[7+1].txt = count
+		buttons[6+0].txt = round (millis()-start)/1000
+	buttons[7+0].txt = count
 	for button in buttons
 		button.draw()
 	fc()
@@ -159,8 +175,32 @@ draw = ->
 	for p,i in track
 		circle p.x, p.y, 2*(track.length-i)
 
-	#fc 1,0,0
-	#text "#{position.x}, #{position.y}",0,-0.5*RADIUS
+createProblem = (level,seed) ->
+	n = int Math.pow 2, 4+level/3 # nodes
+	a = myrandom 1,n/2
+	lst = [a]
+	tree = [a]
+	lst2 = []
+	save = (item) ->
+		if item == Math.floor(item) and item <= n
+			if item not in tree
+				lst2.push item
+				tree.push item
+	for j in range level
+		lst2 = []
+		for item in lst
+			save item+2 
+			save item*2
+			save item/2
+		lst = lst2
+	print a,lst
+	i = myrandom 0,lst.length
+	b = lst[i]
+
+myrandom = (a,b) ->
+  x = 10000 * Math.sin seed
+  x = x - Math.floor(x)
+  int a+x*(b-a)
 
 mouseReleased = -> # to make Android work
 	released = true
