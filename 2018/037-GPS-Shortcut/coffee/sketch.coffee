@@ -13,6 +13,8 @@ radius = null # lilla radien i pixlar
 # level
 # seed
 
+TRACKED = 5
+
 LAT = 59.265205 # Skarpnäck
 LON = 18.132735
 
@@ -78,7 +80,7 @@ locationUpdate = (p) ->
 	#timestamp : p.timestamp # milliseconds since 1970
 	position = system.toXY lat,lon
 	track.push position
-	if track.length > 10 then track.shift()
+	if track.length > TRACKED then track.shift()
 
 locationUpdateFail = (error) ->
 
@@ -104,6 +106,7 @@ setup = ->
 	textSize 1*radius
 	labels = "+2 *2 /2 +3".split ' '
 	n = labels.length
+
 	for txt,i in labels
 		x = RADIUS * cos i*360/n 
 		y = RADIUS * sin i*360/n 
@@ -121,10 +124,12 @@ setup = ->
 	ws = 0.4*width/SCALE
 	hs = 0.4*height/SCALE		
 	rs = radius/SCALE
+
 	buttons.push new Button -ws,-hs,-rs,a
 	buttons.push new Button ws,-hs,-rs,b
 	buttons[4+1].setColor 0,0,0
 	buttons[5+1].setColor 0,0,0
+
 	buttons.push new Button -ws,hs,-rs,'t'
 	buttons.push new Button ws,hs,-rs,'#'
 	buttons[6+1].setColor 0,0,0
@@ -145,7 +150,7 @@ draw = ->
 	sc 0
 	sw 1
 	for p,i in track
-		circle p.x,p.y,1*(10-i)
+		circle p.x, p.y, 2*(track.length-i)
 
 	fc 1,0,0
 	text "#{position.x}, #{position.y}",0,-0.5*RADIUS
