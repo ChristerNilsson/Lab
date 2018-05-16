@@ -306,11 +306,11 @@ draw = function draw() {
   }
   fc();
   sc(1, 1, 0);
-  sw(1);
+  sw(1 / SCALE);
   results = [];
   for (i = l = 0, len1 = track.length; l < len1; i = ++l) {
     p = track[i];
-    results.push(circle(p.x, p.y, 3 * (track.length - i) / SCALE));
+    results.push(circle(p.x, p.y, 5 * (track.length - i) / SCALE));
   }
   return results;
 };

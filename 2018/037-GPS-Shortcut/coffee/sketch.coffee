@@ -172,9 +172,9 @@ draw = ->
 		button.draw()
 	fc()
 	sc 1,1,0
-	sw 1
+	sw 1/SCALE
 	for p,i in track
-		circle p.x, p.y, 3*(track.length-i)/SCALE
+		circle p.x, p.y, 5*(track.length-i)/SCALE
 
 createProblem = (level,seed) ->
 	n = int Math.pow 2, 4+level/3 # nodes
