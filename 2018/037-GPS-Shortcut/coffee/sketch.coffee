@@ -6,8 +6,8 @@ position = {x:0,y:0} # home
 SCALE = null
 
 # inparametrar
-Rmeter = 100 # stora radien i meter
-rmeter = 30 # lilla radien meter
+Rmeter = 50 # stora radien i meter
+#rmeter = 30 # lilla radien meter
 RADIUS = null # stora radien i pixlar
 radius = null # lilla radien i pixlar
 # level
@@ -52,19 +52,24 @@ class System
 		{lat,lon}
 
 class Button
-	constructor : (@x,@y,@radius,@txt,@r=0.5,@g=0.5,@b=0.5) -> 
+	constructor : (@x,@y,@radius,@txt,@r=0.5,@g=0.5,@b=0.5) ->
+
 	draw : ->
-		if @radius > dist position.x,position.y,@x,@y then fc 1,1,0,0.5 else fc 1,1,1,0.5 
+		if @inside() then fc 1,1,0,0.5 else fc 1,1,1,0.5
 		if stopp? then fc 0,1,0
-		sc 0
+		sc()
 		if @radius > 0 then circle @x,@y,@radius
 		fc @r,@g,@b
-		sc()
+		#sc()
 		text @txt,@x,@y
+
 	execute : ->
-		if @radius > dist position.x,position.y,@x,@y
+		if @inside()
 			@event()
 			if a==b then stopp = millis()
+
+	inside : -> @radius > dist position.x,position.y,@x,@y
+	setColor : (r,g,b) -> [@r,@g,@b] = [r,g,b]
 
 	spara : (value) ->
 		count++
@@ -72,12 +77,10 @@ class Button
 		a = value
 		buttons[3+1].txt = steps - count
 		buttons[4+1].txt = a
-	setColor : (r,g,b) -> [@r,@g,@b] = [r,g,b]
 
 locationUpdate = (p) ->
 	lat = p.coords.latitude
 	lon = p.coords.longitude
-	#timestamp : p.timestamp # milliseconds since 1970
 	position = system.toXY lat,lon
 	track.push position
 	if track.length > TRACKED then track.shift()
@@ -90,7 +93,7 @@ setup = ->
 	#assert {x: 0, y: -0}, system.toXY LAT,LON
 	#assert {lat: 59.26160771357633, lon: 18.125696195929095}, system.toWGS84 0,0
 
-	RADIUS = Rmeter #/ meterPerPixlar
+	RADIUS = Rmeter 
 	SCALE = min(width,height)/RADIUS/3
 	radius = 0.3 * RADIUS
 
@@ -108,8 +111,8 @@ setup = ->
 	n = labels.length
 
 	for txt,i in labels
-		x = RADIUS * cos i*360/n 
-		y = RADIUS * sin i*360/n 
+		x = RADIUS * cos i*360/n
+		y = RADIUS * sin i*360/n
 		buttons.push new Button x,y,radius,txt
 	buttons[0].event = -> @spara a+2
 	buttons[1].event = -> @spara a*2
@@ -121,17 +124,18 @@ setup = ->
 		if hist.length > 0
 			a = hist.pop()
 			buttons[4+1].txt = a
-	ws = 0.4*width/SCALE
-	hs = 0.4*height/SCALE		
+
+	ws = 0.35*width/SCALE
+	hs = 0.4*height/SCALE
 	rs = radius/SCALE
 
 	buttons.push new Button -ws,-hs,-rs,a
 	buttons.push new Button ws,-hs,-rs,b
-	buttons[4+1].setColor 0,0,0
-	buttons[5+1].setColor 0,0,0
+	buttons[4+1].setColor 1,0,0
+	buttons[5+1].setColor 0,1,0
 
-	buttons.push new Button -ws,hs,-rs,'t'
-	buttons.push new Button ws,hs,-rs,'#'
+	buttons.push new Button -ws,hs,-rs,'0'
+	buttons.push new Button ws,hs,-rs,'0'
 	buttons[6+1].setColor 0,0,0
 	buttons[7+1].setColor 0,0,0
 
@@ -140,20 +144,23 @@ draw = ->
 	scale SCALE
 	bg 0.5
 	fc()
+	sc 0
 	circle 0,0,RADIUS
-	for button in buttons
-		button.draw()
 	if stopp?
 		buttons[6+1].txt = round(stopp-start)/1000
-		buttons[7+1].txt = count
+	else
+		buttons[6+1].txt = round (millis()-start)/1000
+	buttons[7+1].txt = count
+	for button in buttons
+		button.draw()
 	fc()
-	sc 0
+	sc 1,1,0
 	sw 1
 	for p,i in track
 		circle p.x, p.y, 2*(track.length-i)
 
-	fc 1,0,0
-	text "#{position.x}, #{position.y}",0,-0.5*RADIUS
+	#fc 1,0,0
+	#text "#{position.x}, #{position.y}",0,-0.5*RADIUS
 
 mouseReleased = -> # to make Android work
 	released = true
