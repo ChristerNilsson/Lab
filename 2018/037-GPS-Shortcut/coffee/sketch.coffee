@@ -145,7 +145,7 @@ draw = ->
 	sc 0
 	sw 1
 	for p,i in track
-		circle p.x,p.y,3*(10-i)
+		circle p.x,p.y,1*(10-i)
 
 	fc 1,0,0
 	text "#{position.x}, #{position.y}",0,-0.5*RADIUS

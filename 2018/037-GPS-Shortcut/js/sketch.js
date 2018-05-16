@@ -257,7 +257,7 @@ draw = function draw() {
   sw(1);
   for (i = k = 0, len1 = track.length; k < len1; i = ++k) {
     p = track[i];
-    circle(p.x, p.y, 3 * (10 - i));
+    circle(p.x, p.y, 1 * (10 - i));
   }
   fc(1, 0, 0);
   return text(position.x + ', ' + position.y, 0, -0.5 * RADIUS);
