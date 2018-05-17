@@ -62,7 +62,7 @@ SCALE = null;
 killed = false;
 
 // inparametrar
-Rmeter = 50; // stora radien i meter
+Rmeter = 10; // stora radien i meter
 
 RADIUS = null; // stora radien i pixlar
 
