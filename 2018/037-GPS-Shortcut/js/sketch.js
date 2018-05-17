@@ -166,7 +166,7 @@ Button = function () {
       push();
       translate(this.x, this.y);
       if (this.inCircle()) {
-        if (this.inRedHalf()) {
+        if (this.rotates && this.inRedHalf()) {
           killed = true;
         }
         fc(0.25);

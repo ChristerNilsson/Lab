@@ -65,7 +65,7 @@ class Button
 		push()
 		translate @x,@y
 		if @inCircle()
-			if @inRedHalf() then killed = true
+			if @rotates and @inRedHalf() then killed = true
 			fc 0.25 
 		else 
 			fc 0.75
