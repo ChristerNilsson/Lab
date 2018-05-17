@@ -9,6 +9,8 @@ Matematikproblemet Shortcut med GPS.
 5 Undo ligger i mitten.
 6 Gå tillbaks och visa upp din skärm när du är klar.
 
+Troligen vill man ta bort skärmsläckaren under spelet.
+
 ## Förberedelse
 
 Skriv ut lämplig pdf.
@@ -16,7 +18,11 @@ Varje sida innehåller en uppgift.
 
 QR-koderna anger 
 
-* radiens storlek i meter
-* level, dvs hur många klick som krävs
+* nr = problemets nummer, t ex (#1)
+* radius = stora radien i meter, (50)
+* level = hur många klick som krävs (3)
+* seed = för att slumpa olika problem (0.5)
+* rotate = anger om karusellen ska rotera. (true)
+* zones = anger om röda no-go zoner ska användas. (true)
 
 Samma pdf skapar ett nytt problem dagligen.
