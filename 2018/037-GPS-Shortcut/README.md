@@ -1,30 +1,22 @@
-# Mall
+# Shortcut GPS
 
-* Libraries innehåller bl a p5-filer.
-* index.html används när man vill köra programmet i Google Chrome.
-* katalogen coffee innehåller din kod. Redigera med Sublime.
-* js-filer skapas automatiskt av startProject.bat
+Matematikproblemet Shortcut med GPS.
 
-## Detta gör du en enda gång
+1 Scanna QR-koden.
+2 Fundera ut en lösning för att komma från det röda talet till det gröna. T ex 1 -> 5 kan lösas med +2 +2, dvs 1 3 5.
+3 Gå till de operatorer du behöver.
+4 Klicka på operatorn då du befinner dig i cirkeln.
+5 Undo ligger i mitten.
+6 Gå tillbaks och visa upp din skärm när du är klar.
 
-* Kopiera 000-Mall med Clone or Download
-* Välj Download .Zip 
-* Packa upp innehållet och spara i en egen katalog med namnet 000-Mall. Dvs inget -master
-* Flytta upp createProject.bat en nivå.
+## Förberedelse
 
-## Detta gör du när du skapar ett nytt projekt
+Skriv ut lämplig pdf.
+Varje sida innehåller en uppgift.
 
-* Använd createProject för att skapa en kopia av mallen.
-* Byt namn på NewProject. T ex till 001-projektnamn.
+QR-koderna anger 
 
-## Detta gör du när du utvecklar
+* radiens storlek i meter
+* level, dvs hur många klick som krävs
 
-* Gå in i katalogen och starta startProject
-  * index.html startas i Chrome
-  * sublime startas. 
-  	* Stäng eventuellt befintligt projekt med Remove Folder from Project
-  * transpilern startas
-* Ändra i sketch.coffee. Spara med ctrl-S
-* Transpilering sker automatiskt. Ett pip hörs vid syntaxfel.
-* Refresha Chrome.
-
+Samma pdf skapar ett nytt problem dagligen.

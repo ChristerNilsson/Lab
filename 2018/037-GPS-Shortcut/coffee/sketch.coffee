@@ -1,11 +1,15 @@
-# file:///C:/Lab/2018/037-GPS-Shortcut/index.html?lat=59.265205&lon=18.132735&radius=50&level=3&seed=0.314
+# file:///C:/Lab/2018/037-GPS-Shortcut/index.html?radius=50&level=3&seed=0.5&nr=1
 
 released = true
 system = null
 
-position = {x:0,y:0} # home
+position = {x:0,y:0} 
+
+rotation = 0 # degrees
+rotation2 = 0 # degrees
 
 SCALE = null
+killed = false 
 
 # inparametrar
 Rmeter = 50 # stora radien i meter
@@ -13,6 +17,7 @@ RADIUS = null # stora radien i pixlar
 radius = null # lilla radien i pixlar
 level = null
 seed = null
+nr = null
 
 TRACKED = 5
 
@@ -54,22 +59,53 @@ class System
 
 class Button
 	constructor : (@x,@y,@radius,@txt,@r=0,@g=0,@b=0) ->
+		@rotates = false 
 
 	draw : ->
-		if @inside() then fc 0.25 else fc 0.75
+		push()
+		translate @x,@y
+		if @inCircle()
+			if @inRedHalf() then killed = true
+			fc 0.25 
+		else 
+			fc 0.75
 		if stopp? then fc 0,1,0
 		sc()
-		if @radius > 0 then circle @x,@y,@radius
+		if @radius > 0
+			if @rotates
+				rotate rotation2
+				d = 2 * @radius
+				fc 0.75
+				arc 0,0,d,d,0,180
+				fc 1,0,0
+				arc 0,0,d,d,180,0
+			else
+				circle 0,0,@radius
 		if a==b then fc 0,1,0 else fc @r,@g,@b
-		text @txt,@x,@y
+		text @txt,0,0
+		pop()
 
 	execute : ->
-		if @inside()
+		if @inCircle()
 			@event()
 			if a==b then stopp = millis()
 
-	inside : -> @radius > dist position.x,position.y,@x,@y
 	setColor : (r,g,b) -> [@r,@g,@b] = [r,g,b]
+
+	inCircle : ->
+		x = width/2
+		y = height/2
+		x += RADIUS * cos rotation
+		y += RADIUS * sin rotation
+		@radius > dist position.x,position.y,x,y
+
+	inRedHalf : ->
+		x = width/2
+		y = height/2
+		x += RADIUS * cos rotation
+		y += RADIUS * sin rotation
+		vinkel = atan2 position.y-y, position.x-x
+		rotation2 < vinkel < rotation2+180 and @radius > dist position.x,position.y,x,y
 
 spara = (value) ->
 	count++
@@ -81,9 +117,12 @@ spara = (value) ->
 locationUpdate = (p) ->
 	lat = p.coords.latitude
 	lon = p.coords.longitude
-	position = system.toXY lat,lon
-	track.push position
-	if track.length > TRACKED then track.shift()
+	if system == null
+		system = new System lat,lon,width,height
+	else
+		position = system.toXY lat,lon
+		track.push position
+		if track.length > TRACKED then track.shift()
 
 locationUpdateFail = (error) ->
 
@@ -91,15 +130,17 @@ setup = ->
 	createCanvas windowWidth,windowHeight
 
 	# args = getParameters()
-	# lat = parseFloat args.lat
-	# lon = parseFloat args.lon
+	# nr = args.nr
+	## lat = parseFloat args.lat
+	## lon = parseFloat args.lon
 	# RADIUS = parseInt args.radius 
 	# level = parseInt args.level
 	# seed = parseFloat args.seed
 
-	lat = 59.265205 
-	lon = 18.132735
-	RADIUS = 500
+	nr = '1'
+	#lat = 59.265205 
+	#lon = 18.132735
+	RADIUS = 25
 	level = 3
 	seed = 0.5
 
@@ -108,7 +149,7 @@ setup = ->
 
 	createProblem level,seed
 
-	system = new System lat,lon,width,height
+#	system = new System lat,lon,width,height
 
 	SCALE = min(width,height)/RADIUS/3
 	print SCALE
@@ -130,7 +171,9 @@ setup = ->
 	for txt,i in labels
 		x = RADIUS * cos i*360/n
 		y = RADIUS * sin i*360/n
-		buttons.push new Button x,y,radius,txt
+		button = new Button x,y,radius,txt
+		button.rotates = true
+		buttons.push button
 	buttons[0].event = -> spara a+2
 	buttons[1].event = -> spara a*2
 	buttons[2].event = -> if a%2==0 then spara a//2
@@ -142,7 +185,7 @@ setup = ->
 			a = hist.pop()
 			buttons[4+1].txt = a
 
-	ws = 0.3*width/SCALE
+	ws = 0.4*width/SCALE
 	hs = 0.4*height/SCALE
 	rs = radius/SCALE
 
@@ -151,12 +194,14 @@ setup = ->
 	buttons[4+0].setColor 1,0,0
 	buttons[5+0].setColor 0,1,0
 
-	buttons.push new Button -ws,hs,-rs,'0'
-	buttons.push new Button ws,hs,-rs,'0'
-	buttons[6+0].setColor 0,0,0
-	buttons[7+0].setColor 0,0,0
+	buttons.push new Button -ws,hs,-rs,'#'+nr
+	buttons.push new Button 0,hs,-rs,'0' # sekunder
+	buttons.push new Button ws,hs,-rs,'0' # count
 
 draw = ->
+	if killed 
+		bg 1,0,0
+		return 
 	translate width/2,height/2
 	scale SCALE
 	bg 0.5
@@ -164,17 +209,27 @@ draw = ->
 	sc 0
 	circle 0,0,RADIUS
 	if stopp?
-		buttons[6+0].txt = round(stopp-start)/1000
+		buttons[7+0].txt = round(stopp-start)/1000
 	else
-		buttons[6+0].txt = round (millis()-start)/1000
-	buttons[7+0].txt = count
-	for button in buttons
-		button.draw()
+		buttons[7+0].txt = round (millis()-start)/1000
+	buttons[8+0].txt = count
+
+	rotate rotation
+	for i in range 0,3
+		buttons[i].draw()
+
+	rotate -rotation
+	for i in range 3,9
+		buttons[i].draw()
+
 	fc()
 	sc 1,1,0
 	sw 1/SCALE
 	for p,i in track
 		circle p.x, p.y, 5*(track.length-i)/SCALE
+
+	rotation = (rotation + 0.01) % 360
+	rotation2 = (rotation2 + 0.05) % 360
 
 createProblem = (level,seed) ->
 	n = int Math.pow 2, 4+level/3 # nodes
