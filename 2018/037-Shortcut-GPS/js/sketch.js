@@ -435,7 +435,7 @@ draw = function draw() {
     rect(0, 0, width, height);
   }
   fc();
-  sc(0);
+  sc(1, 0, 0);
   sw(2);
   results = [];
   for (i = m = 0, len2 = track.length; m < len2; i = ++m) {

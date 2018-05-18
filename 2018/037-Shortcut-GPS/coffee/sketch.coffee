@@ -237,7 +237,7 @@ draw = ->
 		rect 0,0,width,height
 
 	fc()
-	sc 0
+	sc 1,0,0
 	sw 2
 	for p,i in track
 		circle p.x, p.y, 5*(track.length-i)
