@@ -41,8 +41,8 @@ class System # hanterar GPS konvertering
 		p4 = p0.destinationPoint @w/2, 270
 		@lon1 = p4.lon
 	toXY : (lat,lon) ->
-		x = round SCALE * map lon, @lon1, @lon2, -@w/2, @w/2
-		y = round SCALE * map lat, @lat2, @lat1, -@h/2, @h/2 # turned
+		x = SCALE * map lon, @lon1, @lon2, -@w/2, @w/2
+		y = SCALE * map lat, @lat2, @lat1, -@h/2, @h/2 # turned
 		{x,y}
 	toWGS84 : (x,y) ->
 		lon = map x/SCALE, -@w/2, @w/2, @lon1, @lon2
@@ -146,8 +146,8 @@ setup = ->
 		params.seed = if args.seed? then parseFloat args.seed
 		params.radius1 = if args.radius1? then parseInt args.radius1 
 		params.radius2 = if args.radius2? then parseInt args.radius2 
-		params.speed1 = if args.speed1? then parseInt args.speed1 
-		params.speed2 = if args.speed2? then parseInt args.speed2 
+		params.speed1 = if args.speed1? then parseFloat args.speed1 
+		params.speed2 = if args.speed2? then parseFloat args.speed2 
 		params.cost = if args.cost? then parseInt args.cost 
 		print params
 

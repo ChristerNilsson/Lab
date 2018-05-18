@@ -120,8 +120,8 @@ System = function () {
     key: 'toXY',
     value: function toXY(lat, lon) {
       var x, y;
-      x = round(SCALE * map(lon, this.lon1, this.lon2, -this.w / 2, this.w / 2));
-      y = round(SCALE * map(lat, this.lat2, this.lat1, -this.h / 2, this.h / 2)); // turned
+      x = SCALE * map(lon, this.lon1, this.lon2, -this.w / 2, this.w / 2);
+      y = SCALE * map(lat, this.lat2, this.lat1, -this.h / 2, this.h / 2); // turned
       return { x: x, y: y };
     }
   }, {
@@ -307,8 +307,8 @@ setup = function setup() {
     params.seed = args.seed != null ? parseFloat(args.seed) : void 0;
     params.radius1 = args.radius1 != null ? parseInt(args.radius1) : void 0;
     params.radius2 = args.radius2 != null ? parseInt(args.radius2) : void 0;
-    params.speed1 = args.speed1 != null ? parseInt(args.speed1) : void 0;
-    params.speed2 = args.speed2 != null ? parseInt(args.speed2) : void 0;
+    params.speed1 = args.speed1 != null ? parseFloat(args.speed1) : void 0;
+    params.speed2 = args.speed2 != null ? parseFloat(args.speed2) : void 0;
     params.cost = args.cost != null ? parseInt(args.cost) : void 0;
     print(params);
   }
