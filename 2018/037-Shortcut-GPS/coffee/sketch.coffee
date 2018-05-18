@@ -41,16 +41,16 @@ class System # hanterar GPS konvertering
 		p4 = p0.destinationPoint @w/2, 270
 		@lon1 = p4.lon
 	toXY : (lat,lon) ->
-		#x = SCALE * map lon, @lon1, @lon2, -@w/2, @w/2
-		#y = SCALE * map lat, @lat2, @lat1, -@h/2, @h/2 # turned
-		x = SCALE * map lon, @lon1, @lon2, 0, @w
-		y = SCALE * map lat, @lat2, @lat1, 0, @h # turned
+		x = SCALE * map lon, @lon1, @lon2, -@w/2, @w/2
+		y = SCALE * map lat, @lat2, @lat1, -@h/2, @h/2 # turned
+		#x = SCALE * map lon, @lon1, @lon2, 0, @w
+		#y = SCALE * map lat, @lat2, @lat1, 0, @h # turned
 		{x,y}
 	toWGS84 : (x,y) ->
-		#lon = map x/SCALE, -@w/2, @w/2, @lon1, @lon2
-		#lat = map y/SCALE, -@h/2, @h/2, @lat1, @lat2
-		lon = map x/SCALE, 0, @w, @lon1, @lon2
-		lat = map y/SCALE, 0, @h, @lat1, @lat2
+		lon = map x/SCALE, -@w/2, @w/2, @lon1, @lon2
+		lat = map y/SCALE, -@h/2, @h/2, @lat1, @lat2
+		#lon = map x/SCALE, 0, @w, @lon1, @lon2
+		#lat = map y/SCALE, 0, @h, @lat1, @lat2
 		{lat,lon}
 
 class Text
@@ -131,6 +131,8 @@ locationUpdate = (p) ->
 		system = new System lat,lon,width,height
 	else
 		position = system.toXY lat,lon
+		position.x += xo
+		position.y += yo
 		track.push position
 		if track.length > TRACKED then track.shift()
 
