@@ -24,9 +24,7 @@ var Button,
     buttons,
     count,
     createProblem,
-    dh,
     draw,
-    dw,
     hist,
     locationUpdate,
     locationUpdateFail,
@@ -36,13 +34,12 @@ var Button,
     params,
     position,
     released,
-    rotation,
+    rotation1,
     rotation2,
     setup,
     spara,
     start,
     state,
-    steps,
     stopp,
     system,
     track,
@@ -65,45 +62,38 @@ released = true;
 
 system = null;
 
-rotation = 0; // degrees
+rotation1 = 0; // degrees
 
 rotation2 = 0; // degrees
 
-xo = null; // origo i mitten av skärmen
+xo = null;
+yo = null // origo i mitten av skärmen
+;
 
-yo = null;
 
 SCALE = null;
 
-// inparametrar
 params = null;
 
-//radius = null # lilla radien i meter
-TRACKED = 5;
+TRACKED = 5; // circles shows the player's position
 
 buttons = [];
 
 hist = [];
 
-position = null; // gps position in meters. 
+position = null; // gps position
 
 track = []; // positions
 
-a = 8;
+a = null;
+b = null;
 
-b = 9;
 
 count = 0;
 
-steps = 3;
-
 start = null;
-
 stopp = null;
 
-dw = null;
-
-dh = null;
 
 System = function () {
   // hanterar GPS konvertering
@@ -178,31 +168,31 @@ Text = function () {
 }();
 
 Button = function () {
-  function Button(vinkel1, radius, radius2, txt1) {
+  function Button(vinkel1, radius1, radius2, txt1) {
     var r = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 0;
     var g = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 0;
     var b1 = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : 0;
 
     _classCallCheck(this, Button);
 
-    this.vinkel = vinkel1;
-    this.radius = radius;
+    this.vinkel1 = vinkel1;
+    this.radius1 = radius1;
     this.radius2 = radius2;
     this.txt = txt1;
     this.r = r;
     this.g = g;
     this.b = b1;
     this.active = false;
-    this.setVinkel(this.vinkel);
+    this.setVinkel1(this.vinkel1);
     this.setVinkel2(0);
   }
 
   _createClass(Button, [{
-    key: 'setVinkel',
-    value: function setVinkel(vinkel) {
-      this.vinkel = vinkel;
-      this.x = xo + this.radius * cos(this.vinkel);
-      return this.y = yo + this.radius * sin(this.vinkel);
+    key: 'setVinkel1',
+    value: function setVinkel1(v1) {
+      this.vinkel1 = v1;
+      this.x = xo + this.radius1 * cos(this.vinkel1);
+      return this.y = yo + this.radius1 * sin(this.vinkel1);
     }
   }, {
     key: 'setVinkel2',
@@ -216,7 +206,7 @@ Button = function () {
       sc();
       this.active = this.inCircle();
       if (this.radius2 > 0) {
-        if (this.radius > 0) {
+        if (this.radius1 > 0) {
           if (this.inZone() && state === RUNNING) {
             state = DEAD;
           }
@@ -233,7 +223,7 @@ Button = function () {
       fc(this.r, this.g, this.b);
       push();
       translate(this.x, this.y);
-      if (params.zones && this.radius > 0) {
+      if (params.speed2 > 0 && this.radius1 > 0) {
         rotate(rotation2);
       }
       text(this.txt, 0, 0);
@@ -281,13 +271,12 @@ spara = function spara(value) {
   count++;
   hist.push(a);
   a = value;
-  buttons[3].txt = steps - count;
+  buttons[3].txt = params.level - count;
   return buttons[4].txt = a;
 };
 
 locationUpdate = function locationUpdate(p) {
   var lat, lon;
-  return;
   lat = p.coords.latitude;
   lon = p.coords.longitude;
   if (system === null) {
@@ -313,24 +302,40 @@ setup = function setup() {
   params = {};
   if (indexOf.call(window.location.href, '?') >= 0) {
     args = getParameters();
-    params.nr = args.nr;
-    params.radius = parseInt(args.radius);
-    params.level = parseInt(args.level);
-    params.seed = parseFloat(args.seed);
-    params.rotate = args.rotate === 'true';
-    params.zones = args.zones === 'true';
+    params.nr = args.nr != null ? args.nr : void 0;
+    params.level = args.level != null ? parseInt(args.level) : void 0;
+    params.seed = args.seed != null ? parseFloat(args.seed) : void 0;
+    params.radius1 = args.radius1 != null ? parseInt(args.radius1) : void 0;
+    params.radius2 = args.radius2 != null ? parseInt(args.radius2) : void 0;
+    params.speed1 = args.speed1 != null ? parseInt(args.speed1) : void 0;
+    params.speed2 = args.speed2 != null ? parseInt(args.speed2) : void 0;
+    params.cost = args.cost != null ? parseInt(args.cost) : void 0;
   } else {
-    params.nr = '1';
-    params.radius = 50; // meter 10 20 50 100 200 500
-    params.level = 3;
-    params.seed = 0.5;
-    params.rotate = true;
-    params.zones = true;
+    if (params.nr == null) {
+      params.nr = '0';
+    }
+    if (params.level == null) {
+      params.level = 3;
+    }
+    if (params.seed == null) {
+      params.seed = 0.0;
+    }
+    if (params.radius1 == null) {
+      params.radius1 = 50;
+    }
+    if (params.radius2 == null) {
+      params.radius2 = 0.3 * params.radius1;
+    }
+    if (params.speed1 == null) {
+      params.speed1 = 1 / params.radius1;
+    }
+    if (params.speed2 == null) {
+      params.speed2 = 1 / params.radius2;
+    }
+    if (params.cost == null) {
+      params.cost = params.radius1;
+    }
   }
-  // calculated params
-  params.radius2 = 0.3 * params.radius;
-  params.speed = params.rotate ? 1 / params.radius : 0;
-  params.cost = params.radius;
   d = new Date();
   params.seed += 31 * d.getMonth() + d.getDate();
 
@@ -341,7 +346,7 @@ setup = function setup() {
   a = _createProblem2[0];
   b = _createProblem2[1];
 
-  SCALE = min(width, height) / params.radius / 3;
+  SCALE = min(width, height) / params.radius1 / 3;
   position = {
     x: xo,
     y: yo
@@ -360,7 +365,7 @@ setup = function setup() {
   n = labels.length;
   for (i = k = 0, len = labels.length; k < len; i = ++k) {
     txt = labels[i];
-    button = new Button(i * 360 / n, SCALE * params.radius, SCALE * params.radius2, txt);
+    button = new Button(i * 360 / n, SCALE * params.radius1, SCALE * params.radius2, txt);
     //button.rotates = true
     buttons.push(button);
   }
@@ -375,7 +380,7 @@ setup = function setup() {
       return spara(Math.floor(a / 2));
     }
   };
-  buttons.push(new Button(0, 0, SCALE * params.radius2, steps)); // undo
+  buttons.push(new Button(0, 0, SCALE * params.radius2, params.level)); // undo
   buttons[3].event = function () {
     if (hist.length > 0) {
       a = hist.pop();
@@ -389,23 +394,20 @@ setup = function setup() {
   buttons.push(new Text('#' + params.nr, xo - ws, yo + hs));
   buttons.push(new Text('0', xo, yo + hs)); // sekunder
   buttons.push(new Text('0', xo + ws, yo + hs)); // count
-  buttons.push(new Text(params.radius + 'm', xo, yo - hs)); // radius
+  buttons.push(new Text(params.radius1 + 'm', xo, yo - hs)); // radius1
   return state = RUNNING;
 };
 
 draw = function draw() {
-  var button, i, k, l, len, len1, len2, m, p, ref;
-  position = {
-    x: mouseX,
-    y: mouseY
-  };
-  track = [position];
+  var button, i, k, l, len, len1, len2, m, p, ref, results;
+  //position = {x:mouseX, y:mouseY}
+  //track = [position]
   bg(0.5);
   fc();
   sc(0);
   sw(1);
-  circle(xo, yo, SCALE * params.radius);
-  buttons[3].txt = steps - hist.length;
+  circle(xo, yo, SCALE * params.radius1);
+  buttons[3].txt = params.level - hist.length;
   if (state === READY) {
     buttons[7].txt = round(stopp - start) / 1000 + params.cost * count;
   }
@@ -417,20 +419,13 @@ draw = function draw() {
     button = buttons[k];
     button.draw();
   }
-  fc();
-  sc(1, 1, 0);
-  sw(1);
-  for (i = l = 0, len1 = track.length; l < len1; i = ++l) {
-    p = track[i];
-    circle(p.x, p.y, 5 * (track.length - i));
-  }
-  rotation = modulo(rotation + params.speed, 360);
-  rotation2 = modulo(rotation2 - params.speed / 0.3, 360);
+  rotation1 = modulo(rotation1 + params.speed1, 360);
+  rotation2 = modulo(rotation2 - params.speed2 / 0.3, 360);
   ref = range(3);
-  for (m = 0, len2 = ref.length; m < len2; m++) {
-    i = ref[m];
+  for (l = 0, len1 = ref.length; l < len1; l++) {
+    i = ref[l];
     button = buttons[i];
-    button.setVinkel(rotation + i * 120);
+    button.setVinkel1(rotation1 + i * 120);
     button.setVinkel2(rotation2);
   }
   if (state === READY) {
@@ -439,8 +434,17 @@ draw = function draw() {
   }
   if (state === DEAD) {
     fc(1, 0, 0, 0.5);
-    return rect(0, 0, width, height);
+    rect(0, 0, width, height);
   }
+  fc();
+  sc(0);
+  sw(2);
+  results = [];
+  for (i = m = 0, len2 = track.length; m < len2; i = ++m) {
+    p = track[i];
+    results.push(circle(p.x, p.y, 5 * (track.length - i)));
+  }
+  return results;
 };
 
 createProblem = function createProblem(level, seed) {

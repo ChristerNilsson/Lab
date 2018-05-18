@@ -11,33 +11,23 @@ state = RUNNING
 released = true
 system = null
 
-rotation = 0 # degrees
+rotation1 = 0 # degrees
 rotation2 = 0 # degrees
 
-xo=null # origo i mitten av skärmen
-yo=null
+[xo,yo] = [null,null] # origo i mitten av skärmen
 
 SCALE = null
-
-# inparametrar
 params = null
-#radius = null # lilla radien i meter
-
-TRACKED = 5
+TRACKED = 5 # circles shows the player's position
 
 buttons = []
 hist = []
-position = null # gps position in meters. 
+position = null # gps position
 track = [] # positions
 
-a = 8
-b = 9
+[a,b] = [null,null]
 count = 0
-steps = 3
-start = null
-stopp = null
-dw = null
-dh = null
+[start,stopp] = [null,null]
 
 class System # hanterar GPS konvertering
 	constructor : (@lat,@lon,@w,@h) ->
@@ -67,15 +57,15 @@ class Text
 	execute : ->
 
 class Button
-	constructor : (@vinkel,@radius,@radius2,@txt,@r=0,@g=0,@b=0) ->
+	constructor : (@vinkel1,@radius1,@radius2,@txt,@r=0,@g=0,@b=0) ->
 		@active = false
-		@setVinkel @vinkel
+		@setVinkel1 @vinkel1
 		@setVinkel2 0
 
-	setVinkel : (vinkel) ->
-		@vinkel = vinkel
-		@x = xo + @radius * cos @vinkel
-		@y = yo + @radius * sin @vinkel
+	setVinkel1 : (v1) ->
+		@vinkel1 = v1
+		@x = xo + @radius1 * cos @vinkel1
+		@y = yo + @radius1 * sin @vinkel1
 
 	setVinkel2 : (v2) -> @v2 = v2
 
@@ -83,7 +73,7 @@ class Button
 		sc()
 		@active = @inCircle()
 		if @radius2 > 0			
-			if @radius > 0
+			if @radius1 > 0
 				if @inZone() and state == RUNNING then state = DEAD
 				d = 2 * @radius2
 				fc 0.75,0.75,0.75,0.5
@@ -97,7 +87,7 @@ class Button
 
 		push()
 		translate @x,@y
-		if params.zones and @radius>0 then rotate rotation2
+		if params.speed2>0 and @radius1>0 then rotate rotation2
 		text @txt,0,0
 		pop()
 
@@ -127,11 +117,10 @@ spara = (value) ->
 	count++
 	hist.push a
 	a = value
-	buttons[3].txt = steps - count
+	buttons[3].txt = params.level - count
 	buttons[4].txt = a
 
 locationUpdate = (p) ->
-	return 
 	lat = p.coords.latitude
 	lon = p.coords.longitude
 	if system == null
@@ -152,30 +141,29 @@ setup = ->
 	params = {}
 	if '?' in window.location.href
 		args = getParameters()
-		params.nr = args.nr
-		params.radius = parseInt args.radius 
-		params.level = parseInt args.level
-		params.seed = parseFloat args.seed
-		params.rotate = args.rotate == 'true' 
-		params.zones = args.zones == 'true' 
+		params.nr = if args.nr? then args.nr
+		params.level = if args.level? then parseInt args.level
+		params.seed = if args.seed? then parseFloat args.seed
+		params.radius1 = if args.radius1? then parseInt args.radius1 
+		params.radius2 = if args.radius2? then parseInt args.radius2 
+		params.speed1 = if args.speed1? then parseInt args.speed1 
+		params.speed2 = if args.speed2? then parseInt args.speed2 
+		params.cost = if args.cost? then parseInt args.cost 
 	else
-		params.nr = '1'
-		params.radius = 50 # meter 10 20 50 100 200 500
-		params.level = 3
-		params.seed = 0.5
-		params.rotate = true
-		params.zones = true
-
-	# calculated params
-	params.radius2 = 0.3 * params.radius
-	params.speed = if params.rotate then 1/params.radius else 0
-	params.cost = params.radius 
+		if not params.nr? then params.nr = '0'
+		if not params.level? then params.level = 3 
+		if not params.seed? then params.seed = 0.0
+		if not params.radius1? then params.radius1 = 50
+		if not params.radius2? then params.radius2 = 0.3 * params.radius1
+		if not params.speed1? then params.speed1 = 1/params.radius1
+		if not params.speed2? then params.speed2 = 1/params.radius2
+		if not params.cost? then params.cost = params.radius1
 
 	d = new Date()
 	params.seed += 31 * d.getMonth() + d.getDate()
 	[a,b] = createProblem params.level,params.seed
 
-	SCALE = min(width,height)/params.radius/3
+	SCALE = min(width,height)/params.radius1/3
 
 	position = {x:xo, y:yo} 
 	track = [position]
@@ -194,14 +182,14 @@ setup = ->
 	n = labels.length
 
 	for txt,i in labels
-		button = new Button i*360/n,SCALE*params.radius,SCALE*params.radius2,txt
+		button = new Button i*360/n,SCALE*params.radius1,SCALE*params.radius2,txt
 		#button.rotates = true
 		buttons.push button
 	buttons[0].event = -> spara a+2
 	buttons[1].event = -> spara a*2
 	buttons[2].event = -> if a%2==0 then spara a//2
 
-	buttons.push new Button 0,0,SCALE*params.radius2,steps # undo
+	buttons.push new Button 0,0,SCALE*params.radius2,params.level # undo
 	buttons[3].event = ->
 		if hist.length > 0
 			a = hist.pop()
@@ -215,20 +203,20 @@ setup = ->
 	buttons.push new Text '#'+params.nr,xo-ws,yo+hs
 	buttons.push new Text '0',xo,yo+hs # sekunder
 	buttons.push new Text '0',xo+ws,yo+hs # count
-	buttons.push new Text params.radius + 'm',xo,yo-hs # radius
+	buttons.push new Text params.radius1 + 'm',xo,yo-hs # radius1
 
 	state = RUNNING
 
 draw = ->
-	position = {x:mouseX, y:mouseY}
-	track = [position]
+	#position = {x:mouseX, y:mouseY}
+	#track = [position]
 	bg 0.5
 	fc()
 	sc 0
 	sw 1
-	circle xo,yo,SCALE*params.radius
+	circle xo,yo,SCALE*params.radius1
 
-	buttons[3].txt = steps-hist.length 
+	buttons[3].txt = params.level - hist.length 
 	if state==READY   then buttons[7].txt = round(stopp-start)/1000 + params.cost*count
 	if state==RUNNING then buttons[7].txt = round (millis()-start)/1000 + params.cost*count
 	buttons[8].txt = count
@@ -236,18 +224,12 @@ draw = ->
 	for button in buttons
 		button.draw()
 
-	fc()
-	sc 1,1,0
-	sw 1
-	for p,i in track
-		circle p.x, p.y, 5*(track.length-i)
-
-	rotation = (rotation + params.speed) %% 360
-	rotation2 = (rotation2 - params.speed/0.3) %% 360
+	rotation1 = (rotation1 + params.speed1) %% 360
+	rotation2 = (rotation2 - params.speed2/0.3) %% 360
 
 	for i in range 3
 		button = buttons[i]
-		button.setVinkel rotation+i*120
+		button.setVinkel1 rotation1+i*120
 		button.setVinkel2 rotation2
 
 	if state == READY 
@@ -256,6 +238,12 @@ draw = ->
 	if state == DEAD
 		fc 1,0,0,0.5
 		rect 0,0,width,height
+
+	fc()
+	sc 0
+	sw 2
+	for p,i in track
+		circle p.x, p.y, 5*(track.length-i)
 
 createProblem = (level,seed) ->
 	n = int Math.pow 2, 4+level/3 # nodes
