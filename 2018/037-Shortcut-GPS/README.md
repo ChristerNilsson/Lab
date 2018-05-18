@@ -1,28 +1,41 @@
-# Shortcut GPS
+# Matematikproblemet Shortcut med GPS
 
-Matematikproblemet Shortcut med GPS.
+Spelet går ut på att ta sig från ett tal till ett annat.
+Till din hjälp har du tre operationer: +2, dubbelt samt hälften.
+Dessa operationer aktiverar du genom att förflytta dig i terrängen, t ex genom att springa eller gå.
 
-1 Scanna QR-koden.
-2 Fundera ut en lösning för att komma från det röda talet till det gröna. T ex 1 -> 5 kan lösas med +2 +2, dvs 1 3 5.
-3 Gå till de operatorer du behöver.
-4 Klicka på operatorn då du befinner dig i cirkeln.
-5 Undo ligger i mitten.
-6 Gå tillbaks och visa upp din skärm när du är klar.
+![Shortcut GPS](shortcut-GPS.JPG)
 
-Troligen vill man ta bort skärmsläckaren under spelet.
+Förklaring:
 
-## Förberedelse
+* Du står i mitten när du börjar.
+* Den minsta röda cirkeln är din senaste GPS-koordinat.
+* Dessa cirklar växer som ringarna på vattnet.
+* 11 anger hur många steg problemet minst kräver.
+* +2 *2 samt /2 utgör de tre operatorerna
+* Det röda talet 56 utgår du från.
+* Det gröna talet 102 ska du uppnå.
+* Det vita talet 20m anger stora cirkelns radie.
+* 11A identifierar problemet.
+* 28 visar hur många sekunder och operationer du utfört.
+* Varje operation kostar ett visst antal sekunder.
+* 0 visar att du inte utfört någon operation ännu.
 
-Skriv ut lämplig pdf.
-Varje sida innehåller en uppgift.
+Från och med level 6 snurrar "karusellen".
+Från och med level 11 snurrar även "kaffekopparna".
+De röda halvcirklarna är No Go zoner och innebär Game Over om man vidrör dem.
 
-QR-koderna anger 
+En lösning på detta problem är:
+56 28 14 16 8 10 12 24 48 50 100 102
+En annan är att utföra operationen +2 tjugotre gånger.
 
-* nr = problemets nummer, t ex (#1)
-* radius = stora radien i meter, (50)
-* level = hur många klick som krävs (3)
-* seed = för att slumpa olika problem (0.5)
-* rotate = anger om karusellen ska rotera. (true)
-* zones = anger om röda no-go zoner ska användas. (true)
+Klicka på följande länk 
+https://christernilsson.github.io/Lab/Shortcut-GPS.html
+eller scanna anvisad QR-kod.
 
-Samma pdf skapar ett nytt problem dagligen.
+Ta bort skärmsläckaren på din mobil under spelet.
+
+Länkarna ger samma problem varje dag.
+I morgon blir det andra problem.
+
+Spelet fungerar med Android och troligen även med iPhone.

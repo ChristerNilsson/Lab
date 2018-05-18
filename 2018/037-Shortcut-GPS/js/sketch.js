@@ -207,7 +207,7 @@ Button = function () {
       sc();
       this.active = this.inCircle();
       if (this.radius2 > 0) {
-        if (this.radius1 > 0) {
+        if (params.speed2 > 0 && this.radius1 > 0) {
           if (this.inZone() && state === RUNNING) {
             state = DEAD;
           }
@@ -334,14 +334,14 @@ setup = function setup() {
     params.speed1 = 0.5 / params.radius1;
   }
   if (params.speed2 == null) {
-    params.speed2 = 0.5 / params.radius2;
+    params.speed2 = 0.1 / params.radius2;
   }
   if (params.cost == null) {
     params.cost = params.radius1;
   }
   print(params);
   d = new Date();
-  params.seed += 31 * d.getMonth() + d.getDate();
+  params.seed += 31 * d.getMonth() + d.getDate() + 0.1 * params.level + 0.01 * params.radius1;
 
   var _createProblem = createProblem(params.level, params.seed);
 
@@ -359,12 +359,12 @@ setup = function setup() {
   start = millis();
   angleMode(DEGREES);
   textAlign(CENTER, CENTER);
-  textSize(100);
-  ws = 0.4 * width;
+  textSize(80);
+  ws = 0.35 * width;
   hs = 0.43 * height;
   buttons.push(new Text(a, xo - ws, yo - hs, 1, 0, 0)); // a
   buttons.push(new Text(b, xo + ws, yo - hs, 0, 1, 0)); // b
-  buttons.push(new Text('#' + params.nr, xo - ws, yo + hs));
+  buttons.push(new Text(params.nr, xo - ws, yo + hs));
   buttons.push(new Text('0', xo, yo + hs)); // sekunder
   buttons.push(new Text('0', xo + ws, yo + hs)); // count
   buttons.push(new Text(params.radius1 + 'm', xo, yo - hs)); // radius1
@@ -485,6 +485,7 @@ myrandom = function myrandom(a, b) {
   var x;
   x = 10000 * Math.sin(params.seed);
   x = x - Math.floor(x);
+  params.seed = x;
   return int(a + x * (b - a));
 };
 

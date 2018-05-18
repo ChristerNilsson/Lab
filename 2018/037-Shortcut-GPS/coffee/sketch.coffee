@@ -73,7 +73,7 @@ class Button
 		sc()
 		@active = @inCircle()
 		if @radius2 > 0			
-			if @radius1 > 0
+			if params.speed2 > 0 and @radius1 > 0
 				if @inZone() and state == RUNNING then state = DEAD
 				d = 2 * @radius2
 				fc 0.75,0.75,0.75,0.5
@@ -159,12 +159,12 @@ setup = ->
 	if not params.radius1? then params.radius1 = 50
 	if not params.radius2? then params.radius2 = 0.3 * params.radius1
 	if not params.speed1? then params.speed1 = 0.5/params.radius1
-	if not params.speed2? then params.speed2 = 0.5/params.radius2
+	if not params.speed2? then params.speed2 = 0.1/params.radius2
 	if not params.cost? then params.cost = params.radius1
 	print params 
 
 	d = new Date()
-	params.seed += 31 * d.getMonth() + d.getDate()
+	params.seed += 31 * d.getMonth() + d.getDate() + 0.1 * params.level + 0.01 * params.radius1
 	[a,b] = createProblem params.level,params.seed
 
 	SCALE = min(width,height)/params.radius1/3
@@ -176,14 +176,14 @@ setup = ->
 
 	angleMode DEGREES
 	textAlign CENTER,CENTER
-	textSize 100
+	textSize 80
 
-	ws = 0.4*width
+	ws = 0.35*width
 	hs = 0.43*height
 
 	buttons.push new Text a,xo-ws,yo-hs,1,0,0 # a
 	buttons.push new Text b,xo+ws,yo-hs,0,1,0 # b
-	buttons.push new Text '#'+params.nr,xo-ws,yo+hs
+	buttons.push new Text params.nr,xo-ws,yo+hs
 	buttons.push new Text '0',xo,yo+hs # sekunder
 	buttons.push new Text '0',xo+ws,yo+hs # count
 	buttons.push new Text params.radius1 + 'm',xo,yo-hs # radius1
@@ -271,6 +271,7 @@ createProblem = (level,seed) ->
 myrandom = (a,b) ->
   x = 10000 * Math.sin params.seed
   x = x - Math.floor x
+  params.seed = x 
   int a+x*(b-a)
 
 mouseReleased = -> # to make Android work
