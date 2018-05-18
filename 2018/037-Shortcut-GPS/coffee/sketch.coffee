@@ -101,7 +101,7 @@ class Button
 			circle @x,@y,@radius2
 
 	execute : ->
-		if @active
+		if @inCircle()
 			@event()
 			if a==b
 				state = READY 

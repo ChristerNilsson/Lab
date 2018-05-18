@@ -241,7 +241,7 @@ Button = function () {
   }, {
     key: 'execute',
     value: function execute() {
-      if (this.active) {
+      if (this.inCircle()) {
         this.event();
         if (a === b) {
           state = READY;
