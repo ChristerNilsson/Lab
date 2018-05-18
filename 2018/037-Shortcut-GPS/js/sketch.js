@@ -13,10 +13,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 // Bl a då det gällde att detektera krock med röda halvcirklar.
 var Button,
     DEAD,
+    GPS,
     READY,
     RUNNING,
     SCALE,
-    System,
     TRACKED,
     Text,
     a,
@@ -25,6 +25,7 @@ var Button,
     count,
     createProblem,
     draw,
+    gps,
     hist,
     locationUpdate,
     locationUpdateFail,
@@ -41,7 +42,6 @@ var Button,
     start,
     state,
     stopp,
-    system,
     track,
     xo,
     yo,
@@ -60,7 +60,7 @@ state = RUNNING;
 
 released = true;
 
-system = null;
+gps = null;
 
 rotation1 = 0; // degrees
 
@@ -95,10 +95,10 @@ start = null;
 stopp = null;
 
 
-System = function () {
+GPS = function () {
   // hanterar GPS konvertering
-  function System(lat1, lon1, w, h) {
-    _classCallCheck(this, System);
+  function GPS(lat1, lon1, w, h) {
+    _classCallCheck(this, GPS);
 
     var p0, p1, p2, p3, p4;
     this.lat = lat1;
@@ -116,32 +116,33 @@ System = function () {
     this.lon1 = p4.lon;
   }
 
-  _createClass(System, [{
+  _createClass(GPS, [{
     key: 'toXY',
     value: function toXY(lat, lon) {
       var x, y;
       x = xo + SCALE * map(lon, this.lon1, this.lon2, -this.w / 2, this.w / 2);
       y = yo + SCALE * map(lat, this.lat2, this.lat1, -this.h / 2, this.h / 2); // turned
-      //x = SCALE * map lon, @lon1, @lon2, 0, @w
-      //y = SCALE * map lat, @lat2, @lat1, 0, @h # turned
       return { x: x, y: y };
+    }
+  }, {
+    key: 'toWGS84',
+    value: function toWGS84(x, y) {
+      // not used
+      var lat, lon;
+      lon = map((x - xo) / SCALE, -this.w / 2, this.w / 2, this.lon1, this.lon2);
+      lat = map((y - yo) / SCALE, -this.h / 2, this.h / 2, this.lat1, this.lat2);
+      return { lat: lat, lon: lon };
     }
   }]);
 
-  return System;
+  return GPS;
 }();
 
-// toWGS84 : (x,y) ->
-// 	lon = map (x-xo)/SCALE, -@w/2, @w/2, @lon1, @lon2
-// 	lat = map (y-yo)/SCALE, -@h/2, @h/2, @lat1, @lat2
-// 	#lon = map x/SCALE, 0, @w, @lon1, @lon2
-// 	#lat = map y/SCALE, 0, @h, @lat1, @lat2
-// 	{lat,lon}
 Text = function () {
   function Text(txt1, x3, y3) {
-    var r = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 0;
-    var g = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 0;
-    var b1 = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 0;
+    var r = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 1;
+    var g = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 1;
+    var b1 = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 1;
 
     _classCallCheck(this, Text);
 
@@ -169,9 +170,9 @@ Text = function () {
 
 Button = function () {
   function Button(vinkel1, radius1, radius2, txt1) {
-    var r = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 0;
-    var g = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 0;
-    var b1 = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : 0;
+    var r = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 1;
+    var g = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 1;
+    var b1 = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : 1;
 
     _classCallCheck(this, Button);
 
@@ -279,12 +280,10 @@ locationUpdate = function locationUpdate(p) {
   var lat, lon;
   lat = p.coords.latitude;
   lon = p.coords.longitude;
-  if (system === null) {
-    system = new System(lat, lon, width, height);
+  if (gps === null) {
+    gps = new GPS(lat, lon, width, height);
   }
-  position = system.toXY(lat, lon);
-  //position.x += xo
-  //position.y += yo
+  position = gps.toXY(lat, lon);
   track.push(position);
   if (track.length > TRACKED) {
     return track.shift();
@@ -296,7 +295,6 @@ locationUpdateFail = function locationUpdateFail(error) {};
 setup = function setup() {
   var args, button, d, hs, i, k, labels, len, n, txt, ws;
   createCanvas(windowWidth, windowHeight);
-  //createCanvas 800,800
   xo = width / 2;
   yo = height / 2;
 
@@ -401,9 +399,9 @@ setup = function setup() {
 
 draw = function draw() {
   var button, factor, i, k, l, len, len1, len2, m, p, ref, results;
-  bg(0.5);
+  bg(0);
   fc();
-  sc(0);
+  sc(1);
   sw(1);
   circle(xo, yo, SCALE * params.radius1);
   buttons[3].txt = params.level - hist.length;

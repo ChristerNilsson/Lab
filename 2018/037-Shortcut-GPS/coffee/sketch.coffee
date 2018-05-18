@@ -9,7 +9,7 @@ DEAD = 2
 state = RUNNING
 
 released = true
-system = null
+gps = null
 
 rotation1 = 0 # degrees
 rotation2 = 0 # degrees
@@ -29,7 +29,7 @@ track = [] # positions
 count = 0
 [start,stopp] = [null,null]
 
-class System # hanterar GPS konvertering
+class GPS # hanterar GPS konvertering
 	constructor : (@lat,@lon,@w,@h) ->
 		p0 = LatLon @lat,@lon
 		p1 = p0.destinationPoint @h/2, 0
@@ -43,25 +43,21 @@ class System # hanterar GPS konvertering
 	toXY : (lat,lon) ->
 		x = xo + SCALE * map lon, @lon1, @lon2, -@w/2, @w/2
 		y = yo + SCALE * map lat, @lat2, @lat1, -@h/2, @h/2 # turned
-		#x = SCALE * map lon, @lon1, @lon2, 0, @w
-		#y = SCALE * map lat, @lat2, @lat1, 0, @h # turned
 		{x,y}
-	# toWGS84 : (x,y) ->
-	# 	lon = map (x-xo)/SCALE, -@w/2, @w/2, @lon1, @lon2
-	# 	lat = map (y-yo)/SCALE, -@h/2, @h/2, @lat1, @lat2
-	# 	#lon = map x/SCALE, 0, @w, @lon1, @lon2
-	# 	#lat = map y/SCALE, 0, @h, @lat1, @lat2
-	# 	{lat,lon}
+	toWGS84 : (x,y) -> # not used
+		lon = map (x-xo)/SCALE, -@w/2, @w/2, @lon1, @lon2
+		lat = map (y-yo)/SCALE, -@h/2, @h/2, @lat1, @lat2
+		{lat,lon}
 
 class Text
-	constructor : (@txt,@x,@y,@r=0,@g=0,@b=0) ->
+	constructor : (@txt,@x,@y,@r=1,@g=1,@b=1) ->
 	draw : ->
 		fc @r,@g,@b
 		text @txt,@x,@y
 	execute : ->
 
 class Button
-	constructor : (@vinkel1,@radius1,@radius2,@txt,@r=0,@g=0,@b=0) ->
+	constructor : (@vinkel1,@radius1,@radius2,@txt,@r=1,@g=1,@b=1) ->
 		@active = false
 		@setVinkel1 @vinkel1
 		@setVinkel2 0
@@ -127,10 +123,8 @@ spara = (value) ->
 locationUpdate = (p) ->
 	lat = p.coords.latitude
 	lon = p.coords.longitude
-	if system == null then system = new System lat,lon,width,height
-	position = system.toXY lat,lon
-	#position.x += xo
-	#position.y += yo
+	if gps == null then gps = new GPS lat,lon,width,height
+	position = gps.toXY lat,lon
 	track.push position
 	if track.length > TRACKED then track.shift()
 
@@ -138,7 +132,6 @@ locationUpdateFail = (error) ->
 
 setup = ->
 	createCanvas windowWidth,windowHeight
-	#createCanvas 800,800
 
 	[xo,yo] = [width/2,height/2]
 
@@ -213,9 +206,9 @@ setup = ->
 	state = RUNNING
 
 draw = ->
-	bg 0.5
+	bg 0
 	fc()
-	sc 0
+	sc 1
 	sw 1
 	circle xo,yo,SCALE*params.radius1
 
