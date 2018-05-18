@@ -178,7 +178,7 @@ setup = ->
 
 	angleMode DEGREES
 	textAlign CENTER,CENTER
-	textSize 50
+	textSize 100
 	labels = "+2 *2 /2".split ' '
 	n = labels.length
 
@@ -196,7 +196,7 @@ setup = ->
 			buttons[4].txt = a
 
 	ws = 0.4*width
-	hs = 0.46*height
+	hs = 0.43*height
 
 	buttons.push new Text a,xo-ws,yo-hs,1,0,0 # a
 	buttons.push new Text b,xo+ws,yo-hs,0,1,0 # b
@@ -227,9 +227,7 @@ draw = ->
 	for button in buttons
 		button.draw()
 
-	fr = frameRate()
-	fr = constrain fr,1,60
-	factor = 60/fr
+	factor = 60 / constrain frameRate(),1,60
 	rotation1 = (rotation1 + factor * params.speed1) %% 360
 	rotation2 = (rotation2 - factor * params.speed2/0.3) %% 360
 

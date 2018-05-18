@@ -357,7 +357,7 @@ setup = function setup() {
   start = millis();
   angleMode(DEGREES);
   textAlign(CENTER, CENTER);
-  textSize(50);
+  textSize(100);
   labels = "+2 *2 /2".split(' ');
   n = labels.length;
   for (i = k = 0, len = labels.length; k < len; i = ++k) {
@@ -384,7 +384,7 @@ setup = function setup() {
     }
   };
   ws = 0.4 * width;
-  hs = 0.46 * height;
+  hs = 0.43 * height;
   buttons.push(new Text(a, xo - ws, yo - hs, 1, 0, 0)); // a
   buttons.push(new Text(b, xo + ws, yo - hs, 0, 1, 0)); // b
   buttons.push(new Text('#' + params.nr, xo - ws, yo + hs));
@@ -400,7 +400,7 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  var button, factor, fr, i, k, l, len, len1, len2, m, p, ref, results;
+  var button, factor, i, k, l, len, len1, len2, m, p, ref, results;
   bg(0.5);
   fc();
   sc(0);
@@ -418,9 +418,7 @@ draw = function draw() {
     button = buttons[k];
     button.draw();
   }
-  fr = frameRate();
-  fr = constrain(fr, 1, 60);
-  factor = 60 / fr;
+  factor = 60 / constrain(frameRate(), 1, 60);
   rotation1 = modulo(rotation1 + factor * params.speed1, 360);
   rotation2 = modulo(rotation2 - factor * params.speed2 / 0.3, 360);
   ref = range(3);
