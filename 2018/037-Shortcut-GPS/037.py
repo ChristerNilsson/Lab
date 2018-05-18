@@ -15,8 +15,8 @@ for i in range(3):
 		for level in range(1,21):
 			seed = [0.1,0.2,0.3][i]
 			nr = str(level) + suffix
-			#url = "https://christernilsson.github.io/Lab/2018/037-Shortcut-GPS/index.html"
-			url = "file://C:/Lab/2018/037-Shortcut-GPS/index.html"
+			url = "https://christernilsson.github.io/Lab/2018/037-Shortcut-GPS/index.html"
+			#url = "file://C:/Lab/2018/037-Shortcut-GPS/index.html"
 			s1=""
 			s2=""
 			if level <= 5:  s1 = "&speed1=0"
