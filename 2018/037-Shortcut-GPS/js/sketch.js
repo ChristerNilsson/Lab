@@ -120,16 +120,20 @@ System = function () {
     key: 'toXY',
     value: function toXY(lat, lon) {
       var x, y;
-      x = SCALE * map(lon, this.lon1, this.lon2, -this.w / 2, this.w / 2);
-      y = SCALE * map(lat, this.lat2, this.lat1, -this.h / 2, this.h / 2); // turned
+      //x = SCALE * map lon, @lon1, @lon2, -@w/2, @w/2
+      //y = SCALE * map lat, @lat2, @lat1, -@h/2, @h/2 # turned
+      x = SCALE * map(lon, this.lon1, this.lon2, 0, this.w);
+      y = SCALE * map(lat, this.lat2, this.lat1, 0, this.h); // turned
       return { x: x, y: y };
     }
   }, {
     key: 'toWGS84',
     value: function toWGS84(x, y) {
       var lat, lon;
-      lon = map(x / SCALE, -this.w / 2, this.w / 2, this.lon1, this.lon2);
-      lat = map(y / SCALE, -this.h / 2, this.h / 2, this.lat1, this.lat2);
+      //lon = map x/SCALE, -@w/2, @w/2, @lon1, @lon2
+      //lat = map y/SCALE, -@h/2, @h/2, @lat1, @lat2
+      lon = map(x / SCALE, 0, this.w, this.lon1, this.lon2);
+      lat = map(y / SCALE, 0, this.h, this.lat1, this.lat2);
       return { lat: lat, lon: lon };
     }
   }]);
