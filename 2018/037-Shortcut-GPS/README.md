@@ -1,7 +1,9 @@
 # Matematikproblemet Shortcut med GPS
 
 Spelet går ut på att ta sig från ett tal till ett annat.
-Till din hjälp har du tre operationer: +2, dubbelt samt hälften.
+
+Till din hjälp har du tre operationer: +2, dubbelt samt hälften (om talet är jämnt).
+
 Dessa operationer aktiverar du genom att förflytta dig i terrängen, t ex genom att springa eller gå.
 
 ![Shortcut GPS](shortcut-GPS.JPG)
@@ -22,20 +24,20 @@ Förklaring:
 * 0 visar att du inte utfört någon operation ännu.
 
 Från och med level 6 snurrar "karusellen".
+
 Från och med level 11 snurrar även de tre "kaffekopparna".
 
 De röda halvcirklarna är No Go zoner och innebär Game Over om man vidrör dem.
 
-En lösning på detta problem är:
-56 28 14 16 8 10 12 24 48 50 100 102
+En lösning på detta problem är: 56 28 14 16 8 10 12 24 48 50 100 102 (elva steg)
 
 En annan är att utföra operationen +2 tjugotre gånger.
 
-Klicka på  
-https://christernilsson.github.io/Lab/Shortcut-GPS.html
-eller scanna anvisad QR-kod.
+Klicka på https://christernilsson.github.io/Lab/Shortcut-GPS.html eller scanna anvisad QR-kod.
 
 Ta bort skärmsläckaren på din mobil under spelet.
+
+En kompass underlättar men är inte nödvändig.
 
 Olika problem skapas olika dagar.
 
