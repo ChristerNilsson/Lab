@@ -221,6 +221,10 @@ Button = function () {
           circle(this.x, this.y, this.radius2);
         }
       }
+      sc(1);
+      fc();
+      circle(this.x, this.y, this.radius2);
+      sc();
       fc(this.r, this.g, this.b);
       push();
       translate(this.x, this.y);
@@ -272,8 +276,8 @@ spara = function spara(value) {
   count++;
   hist.push(a);
   a = value;
-  buttons[3].txt = params.level - count;
-  return buttons[4].txt = a;
+  buttons[9].txt = params.level - count;
+  return buttons[0].txt = a;
 };
 
 locationUpdate = function locationUpdate(p) {
@@ -321,7 +325,7 @@ setup = function setup() {
     params.seed = 0.0;
   }
   if (params.radius1 == null) {
-    params.radius1 = 20;
+    params.radius1 = 50;
   }
   if (params.radius2 == null) {
     params.radius2 = 0.3 * params.radius1;
@@ -356,31 +360,6 @@ setup = function setup() {
   angleMode(DEGREES);
   textAlign(CENTER, CENTER);
   textSize(100);
-  labels = "+2 *2 /2".split(' ');
-  n = labels.length;
-  for (i = k = 0, len = labels.length; k < len; i = ++k) {
-    txt = labels[i];
-    button = new Button(i * 360 / n, SCALE * params.radius1, SCALE * params.radius2, txt);
-    buttons.push(button);
-  }
-  buttons[0].event = function () {
-    return spara(a + 2);
-  };
-  buttons[1].event = function () {
-    return spara(a * 2);
-  };
-  buttons[2].event = function () {
-    if (a % 2 === 0) {
-      return spara(Math.floor(a / 2));
-    }
-  };
-  buttons.push(new Button(0, 0, SCALE * params.radius2, params.level)); // undo
-  buttons[3].event = function () {
-    if (hist.length > 0) {
-      a = hist.pop();
-      return buttons[4].txt = a;
-    }
-  };
   ws = 0.4 * width;
   hs = 0.43 * height;
   buttons.push(new Text(a, xo - ws, yo - hs, 1, 0, 0)); // a
@@ -389,6 +368,31 @@ setup = function setup() {
   buttons.push(new Text('0', xo, yo + hs)); // sekunder
   buttons.push(new Text('0', xo + ws, yo + hs)); // count
   buttons.push(new Text(params.radius1 + 'm', xo, yo - hs)); // radius1
+  labels = "+2 *2 /2".split(' ');
+  n = labels.length;
+  for (i = k = 0, len = labels.length; k < len; i = ++k) {
+    txt = labels[i];
+    button = new Button(i * 360 / n, SCALE * params.radius1, SCALE * params.radius2, txt);
+    buttons.push(button);
+  }
+  buttons[6].event = function () {
+    return spara(a + 2);
+  };
+  buttons[7].event = function () {
+    return spara(a * 2);
+  };
+  buttons[8].event = function () {
+    if (a % 2 === 0) {
+      return spara(Math.floor(a / 2));
+    }
+  };
+  buttons.push(new Button(0, 0, SCALE * params.radius2, params.level)); // undo
+  buttons[9].event = function () {
+    if (hist.length > 0) {
+      a = hist.pop();
+      return buttons[0].txt = a;
+    }
+  };
   navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
     enableHighAccuracy: true,
     maximumAge: 30000,
@@ -402,16 +406,16 @@ draw = function draw() {
   bg(0);
   fc();
   sc(1);
-  sw(1);
+  sw(2);
   circle(xo, yo, SCALE * params.radius1);
-  buttons[3].txt = params.level - hist.length;
+  buttons[9].txt = params.level - hist.length;
   if (state === READY) {
-    buttons[7].txt = round(stopp - start) / 1000 + params.cost * count;
+    buttons[3].txt = round(stopp - start) / 1000 + params.cost * count;
   }
   if (state === RUNNING) {
-    buttons[7].txt = round((millis() - start) / 1000 + params.cost * count);
+    buttons[3].txt = round((millis() - start) / 1000 + params.cost * count);
   }
-  buttons[8].txt = count;
+  buttons[4].txt = count;
   for (k = 0, len = buttons.length; k < len; k++) {
     button = buttons[k];
     button.draw();
@@ -419,7 +423,7 @@ draw = function draw() {
   factor = 60 / constrain(frameRate(), 1, 60);
   rotation1 = modulo(rotation1 + factor * params.speed1, 360);
   rotation2 = modulo(rotation2 - factor * params.speed2 / 0.3, 360);
-  ref = range(3);
+  ref = range(6, 9);
   for (l = 0, len1 = ref.length; l < len1; l++) {
     i = ref[l];
     button = buttons[i];

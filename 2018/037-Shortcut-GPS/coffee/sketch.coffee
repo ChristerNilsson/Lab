@@ -83,6 +83,11 @@ class Button
 			else
 				fc 0.75
 				circle @x,@y,@radius2
+		sc 1
+		fc()
+		circle @x,@y,@radius2
+
+		sc()
 		fc @r,@g,@b
 
 		push()
@@ -117,8 +122,8 @@ spara = (value) ->
 	count++
 	hist.push a
 	a = value
-	buttons[3].txt = params.level - count
-	buttons[4].txt = a
+	buttons[9].txt = params.level - count
+	buttons[0].txt = a
 
 locationUpdate = (p) ->
 	lat = p.coords.latitude
@@ -151,7 +156,7 @@ setup = ->
 	if not params.nr? then params.nr = '0'
 	if not params.level? then params.level = 3 
 	if not params.seed? then params.seed = 0.0
-	if not params.radius1? then params.radius1 = 20
+	if not params.radius1? then params.radius1 = 50
 	if not params.radius2? then params.radius2 = 0.3 * params.radius1
 	if not params.speed1? then params.speed1 = 0.5/params.radius1
 	if not params.speed2? then params.speed2 = 0.5/params.radius2
@@ -172,21 +177,6 @@ setup = ->
 	angleMode DEGREES
 	textAlign CENTER,CENTER
 	textSize 100
-	labels = "+2 *2 /2".split ' '
-	n = labels.length
-
-	for txt,i in labels
-		button = new Button i*360/n,SCALE*params.radius1,SCALE*params.radius2,txt
-		buttons.push button
-	buttons[0].event = -> spara a+2
-	buttons[1].event = -> spara a*2
-	buttons[2].event = -> if a%2==0 then spara a//2
-
-	buttons.push new Button 0,0,SCALE*params.radius2,params.level # undo
-	buttons[3].event = ->
-		if hist.length > 0
-			a = hist.pop()
-			buttons[4].txt = a
 
 	ws = 0.4*width
 	hs = 0.43*height
@@ -197,6 +187,21 @@ setup = ->
 	buttons.push new Text '0',xo,yo+hs # sekunder
 	buttons.push new Text '0',xo+ws,yo+hs # count
 	buttons.push new Text params.radius1 + 'm',xo,yo-hs # radius1
+
+	labels = "+2 *2 /2".split ' '
+	n = labels.length
+	for txt,i in labels
+		button = new Button i*360/n,SCALE*params.radius1,SCALE*params.radius2,txt
+		buttons.push button
+	buttons[6].event = -> spara a+2
+	buttons[7].event = -> spara a*2
+	buttons[8].event = -> if a%2==0 then spara a//2
+
+	buttons.push new Button 0,0,SCALE*params.radius2,params.level # undo
+	buttons[9].event = ->
+		if hist.length > 0
+			a = hist.pop()
+			buttons[0].txt = a
 
 	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
 		enableHighAccuracy: true
@@ -209,13 +214,13 @@ draw = ->
 	bg 0
 	fc()
 	sc 1
-	sw 1
+	sw 2
 	circle xo,yo,SCALE*params.radius1
 
-	buttons[3].txt = params.level - hist.length 
-	if state==READY   then buttons[7].txt = round(stopp-start)/1000 + params.cost*count
-	if state==RUNNING then buttons[7].txt = round (millis()-start)/1000 + params.cost*count
-	buttons[8].txt = count
+	buttons[9].txt = params.level - hist.length 
+	if state==READY   then buttons[3].txt = round(stopp-start)/1000 + params.cost*count
+	if state==RUNNING then buttons[3].txt = round (millis()-start)/1000 + params.cost*count
+	buttons[4].txt = count
 
 	for button in buttons
 		button.draw()
@@ -224,7 +229,7 @@ draw = ->
 	rotation1 = (rotation1 + factor * params.speed1) %% 360
 	rotation2 = (rotation2 - factor * params.speed2/0.3) %% 360
 
-	for i in range 3
+	for i in range 6,9
 		button = buttons[i]
 		button.setVinkel1 rotation1+i*120
 		button.setVinkel2 rotation2
@@ -265,7 +270,7 @@ createProblem = (level,seed) ->
 
 myrandom = (a,b) ->
   x = 10000 * Math.sin params.seed
-  x = x - Math.floor(x)
+  x = x - Math.floor x
   int a+x*(b-a)
 
 mouseReleased = -> # to make Android work
