@@ -46,12 +46,12 @@ class System # hanterar GPS konvertering
 		#x = SCALE * map lon, @lon1, @lon2, 0, @w
 		#y = SCALE * map lat, @lat2, @lat1, 0, @h # turned
 		{x,y}
-	toWGS84 : (x,y) ->
-		lon = map (x-xo)/SCALE, -@w/2, @w/2, @lon1, @lon2
-		lat = map (y-yo)/SCALE, -@h/2, @h/2, @lat1, @lat2
-		#lon = map x/SCALE, 0, @w, @lon1, @lon2
-		#lat = map y/SCALE, 0, @h, @lat1, @lat2
-		{lat,lon}
+	# toWGS84 : (x,y) ->
+	# 	lon = map (x-xo)/SCALE, -@w/2, @w/2, @lon1, @lon2
+	# 	lat = map (y-yo)/SCALE, -@h/2, @h/2, @lat1, @lat2
+	# 	#lon = map x/SCALE, 0, @w, @lon1, @lon2
+	# 	#lat = map y/SCALE, 0, @h, @lat1, @lat2
+	# 	{lat,lon}
 
 class Text
 	constructor : (@txt,@x,@y,@r=0,@g=0,@b=0) ->
@@ -127,14 +127,12 @@ spara = (value) ->
 locationUpdate = (p) ->
 	lat = p.coords.latitude
 	lon = p.coords.longitude
-	if system == null
-		system = new System lat,lon,width,height
-	else
-		position = system.toXY lat,lon
-		#position.x += xo
-		#position.y += yo
-		track.push position
-		if track.length > TRACKED then track.shift()
+	if system == null then system = new System lat,lon,width,height
+	position = system.toXY lat,lon
+	#position.x += xo
+	#position.y += yo
+	track.push position
+	if track.length > TRACKED then track.shift()
 
 locationUpdateFail = (error) ->
 
@@ -160,7 +158,7 @@ setup = ->
 	if not params.nr? then params.nr = '0'
 	if not params.level? then params.level = 3 
 	if not params.seed? then params.seed = 0.0
-	if not params.radius1? then params.radius1 = 50
+	if not params.radius1? then params.radius1 = 300
 	if not params.radius2? then params.radius2 = 0.3 * params.radius1
 	if not params.speed1? then params.speed1 = 0.5/params.radius1
 	if not params.speed2? then params.speed2 = 0.5/params.radius2
@@ -173,13 +171,8 @@ setup = ->
 
 	SCALE = min(width,height)/params.radius1/3
 
-	position = {x:xo, y:yo} 
+	position = {x:xo, y:yo}
 	track = [position]
-
-	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
-		enableHighAccuracy: true
-		maximumAge: 30000
-		timeout: 27000
 
 	start = millis()
 
@@ -191,7 +184,6 @@ setup = ->
 
 	for txt,i in labels
 		button = new Button i*360/n,SCALE*params.radius1,SCALE*params.radius2,txt
-		#button.rotates = true
 		buttons.push button
 	buttons[0].event = -> spara a+2
 	buttons[1].event = -> spara a*2
@@ -213,11 +205,14 @@ setup = ->
 	buttons.push new Text '0',xo+ws,yo+hs # count
 	buttons.push new Text params.radius1 + 'm',xo,yo-hs # radius1
 
+	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
+		enableHighAccuracy: true
+		maximumAge: 30000
+		timeout: 27000
+
 	state = RUNNING
 
 draw = ->
-	#position = {x:mouseX, y:mouseY}
-	#track = [position]
 	bg 0.5
 	fc()
 	sc 0

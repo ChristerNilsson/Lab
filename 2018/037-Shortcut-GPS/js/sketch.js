@@ -120,27 +120,23 @@ System = function () {
     key: 'toXY',
     value: function toXY(lat, lon) {
       var x, y;
-      x = SCALE * map(lon, this.lon1, this.lon2, -this.w / 2, this.w / 2);
-      y = SCALE * map(lat, this.lat2, this.lat1, -this.h / 2, this.h / 2); // turned
+      x = xo + SCALE * map(lon, this.lon1, this.lon2, -this.w / 2, this.w / 2);
+      y = yo + SCALE * map(lat, this.lat2, this.lat1, -this.h / 2, this.h / 2); // turned
       //x = SCALE * map lon, @lon1, @lon2, 0, @w
       //y = SCALE * map lat, @lat2, @lat1, 0, @h # turned
       return { x: x, y: y };
-    }
-  }, {
-    key: 'toWGS84',
-    value: function toWGS84(x, y) {
-      var lat, lon;
-      lon = map(x / SCALE, -this.w / 2, this.w / 2, this.lon1, this.lon2);
-      lat = map(y / SCALE, -this.h / 2, this.h / 2, this.lat1, this.lat2);
-      //lon = map x/SCALE, 0, @w, @lon1, @lon2
-      //lat = map y/SCALE, 0, @h, @lat1, @lat2
-      return { lat: lat, lon: lon };
     }
   }]);
 
   return System;
 }();
 
+// toWGS84 : (x,y) ->
+// 	lon = map (x-xo)/SCALE, -@w/2, @w/2, @lon1, @lon2
+// 	lat = map (y-yo)/SCALE, -@h/2, @h/2, @lat1, @lat2
+// 	#lon = map x/SCALE, 0, @w, @lon1, @lon2
+// 	#lat = map y/SCALE, 0, @h, @lat1, @lat2
+// 	{lat,lon}
 Text = function () {
   function Text(txt1, x3, y3) {
     var r = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 0;
@@ -284,13 +280,14 @@ locationUpdate = function locationUpdate(p) {
   lat = p.coords.latitude;
   lon = p.coords.longitude;
   if (system === null) {
-    return system = new System(lat, lon, width, height);
-  } else {
-    position = system.toXY(lat, lon);
-    track.push(position);
-    if (track.length > TRACKED) {
-      return track.shift();
-    }
+    system = new System(lat, lon, width, height);
+  }
+  position = system.toXY(lat, lon);
+  //position.x += xo
+  //position.y += yo
+  track.push(position);
+  if (track.length > TRACKED) {
+    return track.shift();
   }
 };
 
@@ -326,7 +323,7 @@ setup = function setup() {
     params.seed = 0.0;
   }
   if (params.radius1 == null) {
-    params.radius1 = 50;
+    params.radius1 = 300;
   }
   if (params.radius2 == null) {
     params.radius2 = 0.3 * params.radius1;
@@ -357,11 +354,6 @@ setup = function setup() {
     y: yo
   };
   track = [position];
-  navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
-    enableHighAccuracy: true,
-    maximumAge: 30000,
-    timeout: 27000
-  });
   start = millis();
   angleMode(DEGREES);
   textAlign(CENTER, CENTER);
@@ -371,7 +363,6 @@ setup = function setup() {
   for (i = k = 0, len = labels.length; k < len; i = ++k) {
     txt = labels[i];
     button = new Button(i * 360 / n, SCALE * params.radius1, SCALE * params.radius2, txt);
-    //button.rotates = true
     buttons.push(button);
   }
   buttons[0].event = function () {
@@ -400,13 +391,16 @@ setup = function setup() {
   buttons.push(new Text('0', xo, yo + hs)); // sekunder
   buttons.push(new Text('0', xo + ws, yo + hs)); // count
   buttons.push(new Text(params.radius1 + 'm', xo, yo - hs)); // radius1
+  navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
+    enableHighAccuracy: true,
+    maximumAge: 30000,
+    timeout: 27000
+  });
   return state = RUNNING;
 };
 
 draw = function draw() {
   var button, i, k, l, len, len1, len2, m, p, ref, results;
-  //position = {x:mouseX, y:mouseY}
-  //track = [position]
   bg(0.5);
   fc();
   sc(0);
