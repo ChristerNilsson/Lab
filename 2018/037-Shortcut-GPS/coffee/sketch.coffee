@@ -158,7 +158,7 @@ setup = ->
 	if not params.nr? then params.nr = '0'
 	if not params.level? then params.level = 3 
 	if not params.seed? then params.seed = 0.0
-	if not params.radius1? then params.radius1 = 300
+	if not params.radius1? then params.radius1 = 20
 	if not params.radius2? then params.radius2 = 0.3 * params.radius1
 	if not params.speed1? then params.speed1 = 0.5/params.radius1
 	if not params.speed2? then params.speed2 = 0.5/params.radius2
@@ -227,8 +227,11 @@ draw = ->
 	for button in buttons
 		button.draw()
 
-	rotation1 = (rotation1 + params.speed1) %% 360
-	rotation2 = (rotation2 - params.speed2/0.3) %% 360
+	factor = 60/frameRate()
+	if factor>1 then factor=1
+	print factor
+	rotation1 = (rotation1 + factor * params.speed1) %% 360
+	rotation2 = (rotation2 - factor * params.speed2/0.3) %% 360
 
 	for i in range 3
 		button = buttons[i]

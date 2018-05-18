@@ -323,7 +323,7 @@ setup = function setup() {
     params.seed = 0.0;
   }
   if (params.radius1 == null) {
-    params.radius1 = 300;
+    params.radius1 = 20;
   }
   if (params.radius2 == null) {
     params.radius2 = 0.3 * params.radius1;
@@ -400,7 +400,7 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  var button, i, k, l, len, len1, len2, m, p, ref, results;
+  var button, factor, i, k, l, len, len1, len2, m, p, ref, results;
   bg(0.5);
   fc();
   sc(0);
@@ -418,8 +418,13 @@ draw = function draw() {
     button = buttons[k];
     button.draw();
   }
-  rotation1 = modulo(rotation1 + params.speed1, 360);
-  rotation2 = modulo(rotation2 - params.speed2 / 0.3, 360);
+  factor = 60 / frameRate();
+  if (factor > 1) {
+    factor = 1;
+  }
+  print(factor);
+  rotation1 = modulo(rotation1 + factor * params.speed1, 360);
+  rotation2 = modulo(rotation2 - factor * params.speed2 / 0.3, 360);
   ref = range(3);
   for (l = 0, len1 = ref.length; l < len1; l++) {
     i = ref[l];
