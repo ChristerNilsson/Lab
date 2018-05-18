@@ -42,7 +42,7 @@ class System # hanterar GPS konvertering
 		@lon1 = p4.lon
 	toXY : (lat,lon) ->
 		x = xo + SCALE * map lon, @lon1, @lon2, -@w/2, @w/2
-		y = xo + SCALE * map lat, @lat2, @lat1, -@h/2, @h/2 # turned
+		y = yo + SCALE * map lat, @lat2, @lat1, -@h/2, @h/2 # turned
 		#x = SCALE * map lon, @lon1, @lon2, 0, @w
 		#y = SCALE * map lat, @lat2, @lat1, 0, @h # turned
 		{x,y}
