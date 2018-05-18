@@ -310,32 +310,33 @@ setup = function setup() {
     params.speed1 = args.speed1 != null ? parseInt(args.speed1) : void 0;
     params.speed2 = args.speed2 != null ? parseInt(args.speed2) : void 0;
     params.cost = args.cost != null ? parseInt(args.cost) : void 0;
-  } else {
-    if (params.nr == null) {
-      params.nr = '0';
-    }
-    if (params.level == null) {
-      params.level = 3;
-    }
-    if (params.seed == null) {
-      params.seed = 0.0;
-    }
-    if (params.radius1 == null) {
-      params.radius1 = 50;
-    }
-    if (params.radius2 == null) {
-      params.radius2 = 0.3 * params.radius1;
-    }
-    if (params.speed1 == null) {
-      params.speed1 = 1 / params.radius1;
-    }
-    if (params.speed2 == null) {
-      params.speed2 = 1 / params.radius2;
-    }
-    if (params.cost == null) {
-      params.cost = params.radius1;
-    }
+    print(params);
   }
+  if (params.nr == null) {
+    params.nr = '0';
+  }
+  if (params.level == null) {
+    params.level = 3;
+  }
+  if (params.seed == null) {
+    params.seed = 0.0;
+  }
+  if (params.radius1 == null) {
+    params.radius1 = 50;
+  }
+  if (params.radius2 == null) {
+    params.radius2 = 0.3 * params.radius1;
+  }
+  if (params.speed1 == null) {
+    params.speed1 = 0.5 / params.radius1;
+  }
+  if (params.speed2 == null) {
+    params.speed2 = 0.5 / params.radius2;
+  }
+  if (params.cost == null) {
+    params.cost = params.radius1;
+  }
+  print(params);
   d = new Date();
   params.seed += 31 * d.getMonth() + d.getDate();
 

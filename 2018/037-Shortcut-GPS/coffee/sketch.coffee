@@ -149,15 +149,17 @@ setup = ->
 		params.speed1 = if args.speed1? then parseInt args.speed1 
 		params.speed2 = if args.speed2? then parseInt args.speed2 
 		params.cost = if args.cost? then parseInt args.cost 
-	else
-		if not params.nr? then params.nr = '0'
-		if not params.level? then params.level = 3 
-		if not params.seed? then params.seed = 0.0
-		if not params.radius1? then params.radius1 = 50
-		if not params.radius2? then params.radius2 = 0.3 * params.radius1
-		if not params.speed1? then params.speed1 = 1/params.radius1
-		if not params.speed2? then params.speed2 = 1/params.radius2
-		if not params.cost? then params.cost = params.radius1
+		print params
+
+	if not params.nr? then params.nr = '0'
+	if not params.level? then params.level = 3 
+	if not params.seed? then params.seed = 0.0
+	if not params.radius1? then params.radius1 = 50
+	if not params.radius2? then params.radius2 = 0.3 * params.radius1
+	if not params.speed1? then params.speed1 = 0.5/params.radius1
+	if not params.speed2? then params.speed2 = 0.5/params.radius2
+	if not params.cost? then params.cost = params.radius1
+	print params 
 
 	d = new Date()
 	params.seed += 31 * d.getMonth() + d.getDate()
