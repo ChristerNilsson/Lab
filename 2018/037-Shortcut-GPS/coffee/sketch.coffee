@@ -227,9 +227,9 @@ draw = ->
 	for button in buttons
 		button.draw()
 
-	factor = 60/frameRate()
-	if factor>1 then factor=1
-	print factor
+	fr = frameRate()
+	fr = constrain fr,1,60
+	factor = 60/fr
 	rotation1 = (rotation1 + factor * params.speed1) %% 360
 	rotation2 = (rotation2 - factor * params.speed2/0.3) %% 360
 

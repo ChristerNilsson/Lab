@@ -400,7 +400,7 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  var button, factor, i, k, l, len, len1, len2, m, p, ref, results;
+  var button, factor, fr, i, k, l, len, len1, len2, m, p, ref, results;
   bg(0.5);
   fc();
   sc(0);
@@ -418,11 +418,9 @@ draw = function draw() {
     button = buttons[k];
     button.draw();
   }
-  factor = 60 / frameRate();
-  if (factor > 1) {
-    factor = 1;
-  }
-  print(factor);
+  fr = frameRate();
+  fr = constrain(fr, 1, 60);
+  factor = 60 / fr;
   rotation1 = modulo(rotation1 + factor * params.speed1, 360);
   rotation2 = modulo(rotation2 - factor * params.speed2 / 0.3, 360);
   ref = range(3);
