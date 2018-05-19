@@ -33,6 +33,7 @@ var Button,
     mouseReleased,
     myrandom,
     params,
+    personOverActive,
     position,
     released,
     rotation1,
@@ -439,14 +440,31 @@ draw = function draw() {
     rect(0, 0, width, height);
   }
   fc();
-  sc(1, 0, 0);
   sw(2);
   results = [];
   for (i = m = 0, len2 = track.length; m < len2; i = ++m) {
     p = track[i];
+    if (personOverActive()) {
+      sc(0);
+    } else {
+      sc(1, 1, 0);
+    }
     results.push(circle(p.x, p.y, 5 * (track.length - i)));
   }
   return results;
+};
+
+personOverActive = function personOverActive() {
+  var button, i, k, len, ref;
+  ref = [6, 7, 8, 9];
+  for (k = 0, len = ref.length; k < len; k++) {
+    i = ref[k];
+    button = buttons[i];
+    if (button.inCircle()) {
+      return true;
+    }
+  }
+  return false;
 };
 
 createProblem = function createProblem(level, seed) {

@@ -242,10 +242,16 @@ draw = ->
 		rect 0,0,width,height
 
 	fc()
-	sc 1,0,0
 	sw 2
 	for p,i in track
+		if personOverActive() then sc 0 else sc 1,1,0
 		circle p.x, p.y, 5*(track.length-i)
+
+personOverActive = ->
+	for i in [6,7,8,9]
+		button = buttons[i]
+		if button.inCircle() then return true
+	false  
 
 createProblem = (level,seed) ->
 	n = int Math.pow 2, 4+level/3 # nodes
