@@ -47,10 +47,7 @@ var Button,
     track,
     xo,
     yo,
-    indexOf = [].indexOf,
-    modulo = function modulo(a, b) {
-  return (+a % (b = +b) + b) % b;
-};
+    indexOf = [].indexOf;
 
 RUNNING = 0;
 
@@ -285,20 +282,15 @@ spara = function spara(value) {
 };
 
 locationUpdate = function locationUpdate(p) {
-  var lat, lon;
-  dump = p;
-  lat = p.coords.latitude;
-  lon = p.coords.longitude;
-  if (gps === null) {
-    gps = new GPS(lat, lon, width, height);
-  }
-  position = gps.toXY(lat, lon);
-  track.push(position);
-  if (track.length > TRACKED) {
-    return track.shift();
-  }
+  return dump = p.timestamp;
 };
 
+// lat = p.coords.latitude
+// lon = p.coords.longitude
+// if gps == null then gps = new GPS lat,lon,width,height
+// position = gps.toXY lat,lon
+// track.push position
+// if track.length > TRACKED then track.shift()
 locationUpdateFail = function locationUpdateFail(error) {};
 
 setup = function setup() {
@@ -407,61 +399,47 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  var button, factor, i, k, l, len, len1, len2, m, p, ref;
   bg(0);
   fc();
   sc(1);
   sw(2);
-  circle(xo, yo, SCALE * params.radius1);
-  buttons[9].txt = params.level - hist.length;
-  if (state === READY) {
-    buttons[3].txt = round(stopp - start) / 1000 + params.cost * count;
-  }
-  if (state === RUNNING) {
-    buttons[3].txt = round((millis() - start) / 1000 + params.cost * count);
-  }
-  buttons[4].txt = count;
-  for (k = 0, len = buttons.length; k < len; k++) {
-    button = buttons[k];
-    button.draw();
-  }
-  factor = 60 / constrain(frameRate(), 1, 60);
-  rotation1 = modulo(rotation1 + factor * params.speed1, 360);
-  rotation2 = modulo(rotation2 - factor * params.speed2 / 0.3, 360);
-  ref = range(6, 9);
-  for (l = 0, len1 = ref.length; l < len1; l++) {
-    i = ref[l];
-    button = buttons[i];
-    button.setVinkel1(rotation1 + i * 120);
-    button.setVinkel2(rotation2);
-  }
-  if (state === READY) {
-    fc(0, 1, 0, 0.5);
-    rect(0, 0, width, height);
-  }
-  if (state === DEAD) {
-    fc(1, 0, 0, 0.5);
-    rect(0, 0, width, height);
-  }
-  fc();
-  sw(2);
-  for (i = m = 0, len2 = track.length; m < len2; i = ++m) {
-    p = track[i];
-    if (personOverActive()) {
-      sc(0);
-    } else {
-      sc(1, 1, 0);
-    }
-    circle(p.x, p.y, 5 * (track.length - i));
-  }
+  // circle xo,yo,SCALE*params.radius1
+
+  // buttons[9].txt = params.level - hist.length 
+  // if state==READY   then buttons[3].txt = round(stopp-start)/1000 + params.cost*count
+  // if state==RUNNING then buttons[3].txt = round (millis()-start)/1000 + params.cost*count
+  // buttons[4].txt = count
+
+  // for button in buttons
+  // 	button.draw()
+
+  // factor = 60 / constrain frameRate(),1,60
+  // rotation1 = (rotation1 + factor * params.speed1) %% 360
+  // rotation2 = (rotation2 - factor * params.speed2/0.3) %% 360
+
+  // for i in range 6,9
+  // 	button = buttons[i]
+  // 	button.setVinkel1 rotation1+i*120
+  // 	button.setVinkel2 rotation2
+
+  // if state == READY 
+  // 	fc 0,1,0,0.5
+  // 	rect 0,0,width,height
+  // if state == DEAD
+  // 	fc 1,0,0,0.5
+  // 	rect 0,0,width,height
+
+  // fc()
+  // sw 2
+  // for p,i in track
+  // 	if personOverActive() then sc 0 else sc 1,1,0
+  // 	circle p.x, p.y, 5*(track.length-i)
   fc(1);
   push();
   textSize(20);
+  //if dump then text dump.coords.latitude,100,150
   if (dump) {
-    text(dump.coords.latitude, 100, 150);
-  }
-  if (dump) {
-    text(dump.timestamp, 100, 200);
+    text(dump, 100, 200);
   }
   return pop();
 };
