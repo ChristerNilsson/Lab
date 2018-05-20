@@ -25,14 +25,15 @@ var Button,
     count,
     createProblem,
     draw,
-    dump,
     gps,
     hist,
     locationUpdate,
     locationUpdateFail,
     mousePressed,
     mouseReleased,
+    msg,
     myrandom,
+    myround,
     params,
     personOverActive,
     position,
@@ -97,7 +98,7 @@ start = null;
 stopp = null;
 
 
-dump = null;
+msg = null;
 
 GPS = function () {
   // hanterar GPS konvertering
@@ -174,9 +175,9 @@ Text = function () {
 
 Button = function () {
   function Button(vinkel1, radius1, radius2, txt1) {
-    var r = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 1;
-    var g = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 1;
-    var b1 = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : 1;
+    var r = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 0;
+    var g = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 0;
+    var b1 = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : 0;
 
     _classCallCheck(this, Button);
 
@@ -221,7 +222,7 @@ Button = function () {
           fc(1, 0, 0, 0.5);
           arc(this.x, this.y, d, d, 180 + this.v2, this.v2);
         } else {
-          fc(0.75);
+          fc(1, 1, 1, 0.8);
           circle(this.x, this.y, this.radius2);
         }
       }
@@ -252,6 +253,11 @@ Button = function () {
           return stopp = millis();
         }
       }
+    }
+  }, {
+    key: 'distance',
+    value: function distance(x, y) {
+      return dist(x, y, this.x, this.y);
     }
   }, {
     key: 'inCircle',
@@ -286,7 +292,7 @@ spara = function spara(value) {
 
 locationUpdate = function locationUpdate(p) {
   var lat, lon;
-  //dump = p.timestamp
+  msg = null;
   lat = p.coords.latitude;
   lon = p.coords.longitude;
   if (gps === null) {
@@ -299,9 +305,12 @@ locationUpdate = function locationUpdate(p) {
   }
 };
 
-locationUpdateFail = function locationUpdateFail(error) {};
+locationUpdateFail = function locationUpdateFail(error) {
+  if (error.code === error.PERMISSION_DENIED) {
+    return msg = 'Check location permissions';
+  }
+};
 
-//dump = error.code
 setup = function setup() {
   var args, button, d, hs, i, k, labels, len, n, txt, ws;
   createCanvas(windowWidth, windowHeight);
@@ -404,6 +413,8 @@ setup = function setup() {
     maximumAge: 30000,
     timeout: 27000
   });
+  rotation1 = myrandom(0, 360);
+  rotation2 = myrandom(0, 360);
   return state = RUNNING;
 };
 
@@ -416,10 +427,10 @@ draw = function draw() {
   circle(xo, yo, SCALE * params.radius1);
   buttons[9].txt = params.level - hist.length;
   if (state === READY) {
-    buttons[3].txt = round(stopp - start) / 1000 + params.cost * count;
+    buttons[3].txt = myround((stopp - start) / 1000 + params.cost * count, 1);
   }
   if (state === RUNNING) {
-    buttons[3].txt = round((millis() - start) / 1000 + params.cost * count);
+    buttons[3].txt = myround((millis() - start) / 1000 + params.cost * count);
   }
   buttons[4].txt = count;
   for (k = 0, len = buttons.length; k < len; k++) {
@@ -455,11 +466,11 @@ draw = function draw() {
     }
     circle(p.x, p.y, 5 * (track.length - i));
   }
-  fc(1);
+  fc(1, 0, 0);
   push();
-  textSize(20);
-  if (dump) {
-    text(dump, 100, 200);
+  textSize(50);
+  if (msg) {
+    text(msg, width / 2, height / 2);
   }
   return pop();
 };
@@ -470,7 +481,7 @@ personOverActive = function personOverActive() {
   for (k = 0, len = ref.length; k < len; k++) {
     i = ref[k];
     button = buttons[i];
-    if (button.inCircle()) {
+    if (button.radius2 > button.distance(position.x, position.y)) {
       return true;
     }
   }
@@ -507,6 +518,15 @@ createProblem = function createProblem(level, seed) {
   i = myrandom(0, lst.length);
   b = lst[i];
   return [a, b];
+};
+
+myround = function myround(x) {
+  var decimals = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
+
+  x *= Math.pow(10, decimals);
+  x = round(x);
+  x /= Math.pow(10, decimals);
+  return x;
 };
 
 myrandom = function myrandom(a, b) {

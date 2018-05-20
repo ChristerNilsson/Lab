@@ -28,7 +28,7 @@ track = [] # positions
 [a,b] = [null,null]
 count = 0
 [start,stopp] = [null,null]
-dump = null
+msg = null
 
 class GPS # hanterar GPS konvertering
 	constructor : (@lat,@lon,@w,@h) ->
@@ -58,7 +58,7 @@ class Text
 	execute : ->
 
 class Button
-	constructor : (@vinkel1,@radius1,@radius2,@txt,@r=1,@g=1,@b=1) ->
+	constructor : (@vinkel1,@radius1,@radius2,@txt,@r=0,@g=0,@b=0) ->
 		@active = false
 		@setVinkel1 @vinkel1
 		@setVinkel2 0
@@ -82,7 +82,7 @@ class Button
 				fc 1,0,0,0.5
 				arc @x,@y,d,d,180+@v2,@v2
 			else
-				fc 0.75
+				fc 1,1,1,0.8
 				circle @x,@y,@radius2
 		sc 1
 		fc()
@@ -108,6 +108,8 @@ class Button
 				state = READY 
 				stopp = millis()
 
+	distance : (x,y) -> dist x,y,@x,@y
+
 	inCircle : -> @radius2 > dist position.x,position.y,@x,@y
 
 	inZone : -> # the red half circle 
@@ -127,7 +129,7 @@ spara = (value) ->
 	buttons[0].txt = a
 
 locationUpdate = (p) ->
-	#dump = p.timestamp
+	msg = null
 	lat = p.coords.latitude
 	lon = p.coords.longitude
 	if gps == null then gps = new GPS lat,lon,width,height
@@ -136,7 +138,8 @@ locationUpdate = (p) ->
 	if track.length > TRACKED then track.shift()
 
 locationUpdateFail = (error) ->
-	#dump = error.code
+	if error.code == error.PERMISSION_DENIED
+		msg = 'Check location permissions'
 
 setup = ->
 	createCanvas windowWidth,windowHeight
@@ -211,6 +214,9 @@ setup = ->
 		maximumAge: 30000
 		timeout: 27000
 
+	rotation1 = myrandom 0,360
+	rotation2 = myrandom 0,360
+
 	state = RUNNING
 
 draw = ->
@@ -221,8 +227,8 @@ draw = ->
 	circle xo,yo,SCALE*params.radius1
 
 	buttons[9].txt = params.level - hist.length 
-	if state==READY   then buttons[3].txt = round(stopp-start)/1000 + params.cost*count
-	if state==RUNNING then buttons[3].txt = round (millis()-start)/1000 + params.cost*count
+	if state==READY   then buttons[3].txt = myround (stopp-start)/1000    + params.cost*count, 1
+	if state==RUNNING then buttons[3].txt = myround (millis()-start)/1000 + params.cost*count
 	buttons[4].txt = count
 
 	for button in buttons
@@ -246,21 +252,20 @@ draw = ->
 
 	fc()
 	sw 2
-	for p,i in track
+	for p,i in track		
 		if personOverActive() then sc 0 else sc 1,1,0
 		circle p.x, p.y, 5*(track.length-i)
 
-	fc 1
+	fc 1,0,0
 	push()
-	textSize 20
-	if dump then text dump,100,200
-
+	textSize 50
+	if msg then text msg,width/2,height/2
 	pop()
 
 personOverActive = ->
 	for i in [6,7,8,9]
 		button = buttons[i]
-		if button.inCircle() then return true
+		if button.radius2 > button.distance position.x,position.y then return true
 	false  
 
 createProblem = (level,seed) ->
@@ -283,6 +288,12 @@ createProblem = (level,seed) ->
 	i = myrandom 0,lst.length
 	b = lst[i]
 	[a,b]
+
+myround = (x,decimals=0) ->
+	x *= 10**decimals
+	x = round x
+	x /= 10**decimals
+	x
 
 myrandom = (a,b) ->
   x = 10000 * Math.sin params.seed
