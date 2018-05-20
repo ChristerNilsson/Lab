@@ -292,7 +292,7 @@ locationUpdate = function locationUpdate(p) {
 // track.push position
 // if track.length > TRACKED then track.shift()
 locationUpdateFail = function locationUpdateFail(error) {
-  return dump = error.code + error.message;
+  return dump = error.code;
 };
 
 setup = function setup() {

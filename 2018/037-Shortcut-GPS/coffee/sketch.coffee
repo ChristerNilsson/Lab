@@ -136,7 +136,7 @@ locationUpdate = (p) ->
 	# if track.length > TRACKED then track.shift()
 
 locationUpdateFail = (error) ->
-	dump = error.code + error.message
+	dump = error.code
 
 setup = ->
 	createCanvas windowWidth,windowHeight
