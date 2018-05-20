@@ -291,7 +291,9 @@ locationUpdate = function locationUpdate(p) {
 // position = gps.toXY lat,lon
 // track.push position
 // if track.length > TRACKED then track.shift()
-locationUpdateFail = function locationUpdateFail(error) {};
+locationUpdateFail = function locationUpdateFail(error) {
+  return dump = error;
+};
 
 setup = function setup() {
   var args, button, d, hs, i, k, labels, len, n, txt, ws;
