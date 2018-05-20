@@ -28,6 +28,7 @@ track = [] # positions
 [a,b] = [null,null]
 count = 0
 [start,stopp] = [null,null]
+dump = null
 
 class GPS # hanterar GPS konvertering
 	constructor : (@lat,@lon,@w,@h) ->
@@ -126,6 +127,7 @@ spara = (value) ->
 	buttons[0].txt = a
 
 locationUpdate = (p) ->
+	dump = p
 	lat = p.coords.latitude
 	lon = p.coords.longitude
 	if gps == null then gps = new GPS lat,lon,width,height
@@ -246,6 +248,14 @@ draw = ->
 	for p,i in track
 		if personOverActive() then sc 0 else sc 1,1,0
 		circle p.x, p.y, 5*(track.length-i)
+
+	fc 1
+	push()
+	textSize 20
+	if dump then text dump.coords.latitude,100,150
+	if dump then text dump.timestamp,100,200
+
+	pop()
 
 personOverActive = ->
 	for i in [6,7,8,9]

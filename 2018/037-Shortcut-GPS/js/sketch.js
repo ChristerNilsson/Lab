@@ -25,6 +25,7 @@ var Button,
     count,
     createProblem,
     draw,
+    dump,
     gps,
     hist,
     locationUpdate,
@@ -95,6 +96,8 @@ count = 0;
 start = null;
 stopp = null;
 
+
+dump = null;
 
 GPS = function () {
   // hanterar GPS konvertering
@@ -283,6 +286,7 @@ spara = function spara(value) {
 
 locationUpdate = function locationUpdate(p) {
   var lat, lon;
+  dump = p;
   lat = p.coords.latitude;
   lon = p.coords.longitude;
   if (gps === null) {
@@ -403,7 +407,7 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  var button, factor, i, k, l, len, len1, len2, m, p, ref, results;
+  var button, factor, i, k, l, len, len1, len2, m, p, ref;
   bg(0);
   fc();
   sc(1);
@@ -441,7 +445,6 @@ draw = function draw() {
   }
   fc();
   sw(2);
-  results = [];
   for (i = m = 0, len2 = track.length; m < len2; i = ++m) {
     p = track[i];
     if (personOverActive()) {
@@ -449,9 +452,18 @@ draw = function draw() {
     } else {
       sc(1, 1, 0);
     }
-    results.push(circle(p.x, p.y, 5 * (track.length - i)));
+    circle(p.x, p.y, 5 * (track.length - i));
   }
-  return results;
+  fc(1);
+  push();
+  textSize(20);
+  if (dump) {
+    text(dump.coords.latitude, 100, 150);
+  }
+  if (dump) {
+    text(dump.timestamp, 100, 200);
+  }
+  return pop();
 };
 
 personOverActive = function personOverActive() {
