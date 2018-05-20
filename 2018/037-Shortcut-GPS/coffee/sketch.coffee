@@ -127,16 +127,16 @@ spara = (value) ->
 	buttons[0].txt = a
 
 locationUpdate = (p) ->
-	dump = p.timestamp
-	# lat = p.coords.latitude
-	# lon = p.coords.longitude
-	# if gps == null then gps = new GPS lat,lon,width,height
-	# position = gps.toXY lat,lon
-	# track.push position
-	# if track.length > TRACKED then track.shift()
+	#dump = p.timestamp
+	lat = p.coords.latitude
+	lon = p.coords.longitude
+	if gps == null then gps = new GPS lat,lon,width,height
+	position = gps.toXY lat,lon
+	track.push position
+	if track.length > TRACKED then track.shift()
 
 locationUpdateFail = (error) ->
-	dump = error.code
+	#dump = error.code
 
 setup = ->
 	createCanvas windowWidth,windowHeight
@@ -218,42 +218,41 @@ draw = ->
 	fc()
 	sc 1
 	sw 2
-	# circle xo,yo,SCALE*params.radius1
+	circle xo,yo,SCALE*params.radius1
 
-	# buttons[9].txt = params.level - hist.length 
-	# if state==READY   then buttons[3].txt = round(stopp-start)/1000 + params.cost*count
-	# if state==RUNNING then buttons[3].txt = round (millis()-start)/1000 + params.cost*count
-	# buttons[4].txt = count
+	buttons[9].txt = params.level - hist.length 
+	if state==READY   then buttons[3].txt = round(stopp-start)/1000 + params.cost*count
+	if state==RUNNING then buttons[3].txt = round (millis()-start)/1000 + params.cost*count
+	buttons[4].txt = count
 
-	# for button in buttons
-	# 	button.draw()
+	for button in buttons
+		button.draw()
 
-	# factor = 60 / constrain frameRate(),1,60
-	# rotation1 = (rotation1 + factor * params.speed1) %% 360
-	# rotation2 = (rotation2 - factor * params.speed2/0.3) %% 360
+	factor = 60 / constrain frameRate(),1,60
+	rotation1 = (rotation1 + factor * params.speed1) %% 360
+	rotation2 = (rotation2 - factor * params.speed2/0.3) %% 360
 
-	# for i in range 6,9
-	# 	button = buttons[i]
-	# 	button.setVinkel1 rotation1+i*120
-	# 	button.setVinkel2 rotation2
+	for i in range 6,9
+		button = buttons[i]
+		button.setVinkel1 rotation1+i*120
+		button.setVinkel2 rotation2
 
-	# if state == READY 
-	# 	fc 0,1,0,0.5
-	# 	rect 0,0,width,height
-	# if state == DEAD
-	# 	fc 1,0,0,0.5
-	# 	rect 0,0,width,height
+	if state == READY 
+		fc 0,1,0,0.5
+		rect 0,0,width,height
+	if state == DEAD
+		fc 1,0,0,0.5
+		rect 0,0,width,height
 
-	# fc()
-	# sw 2
-	# for p,i in track
-	# 	if personOverActive() then sc 0 else sc 1,1,0
-	# 	circle p.x, p.y, 5*(track.length-i)
+	fc()
+	sw 2
+	for p,i in track
+		if personOverActive() then sc 0 else sc 1,1,0
+		circle p.x, p.y, 5*(track.length-i)
 
 	fc 1
 	push()
 	textSize 20
-	#if dump then text dump.coords.latitude,100,150
 	if dump then text dump,100,200
 
 	pop()
