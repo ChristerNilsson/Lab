@@ -35,7 +35,6 @@ var Button,
     myrandom,
     myround,
     params,
-    personOverActive,
     position,
     released,
     rotation1,
@@ -217,9 +216,9 @@ Button = function () {
             state = DEAD;
           }
           d = 2 * this.radius2;
-          fc(0.75, 0.75, 0.75, 0.5);
+          fc(1, 1, 1, 0.8);
           arc(this.x, this.y, d, d, this.v2, 180 + this.v2);
-          fc(1, 0, 0, 0.5);
+          fc(1, 0, 0, 0.8);
           arc(this.x, this.y, d, d, 180 + this.v2, this.v2);
         } else {
           fc(1, 1, 1, 0.8);
@@ -419,7 +418,7 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  var button, factor, i, k, l, len, len1, len2, m, p, ref;
+  var button, factor, i, j, k, l, len, len1, len2, len3, m, o, p, ref, ref1;
   bg(0);
   fc();
   sc(1);
@@ -459,10 +458,14 @@ draw = function draw() {
   sw(2);
   for (i = m = 0, len2 = track.length; m < len2; i = ++m) {
     p = track[i];
-    if (personOverActive()) {
-      sc(0);
-    } else {
-      sc(1, 1, 0);
+    sc(1, 1, 0); // YELLOW
+    ref1 = [6, 7, 8, 9];
+    for (o = 0, len3 = ref1.length; o < len3; o++) {
+      j = ref1[o];
+      button = buttons[j];
+      if (button.radius2 > button.distance(p.x, p.y)) {
+        sc(0); // BLACK
+      }
     }
     circle(p.x, p.y, 5 * (track.length - i));
   }
@@ -473,19 +476,6 @@ draw = function draw() {
     text(msg, width / 2, height / 2);
   }
   return pop();
-};
-
-personOverActive = function personOverActive() {
-  var button, i, k, len, ref;
-  ref = [6, 7, 8, 9];
-  for (k = 0, len = ref.length; k < len; k++) {
-    i = ref[k];
-    button = buttons[i];
-    if (button.radius2 > button.distance(position.x, position.y)) {
-      return true;
-    }
-  }
-  return false;
 };
 
 createProblem = function createProblem(level, seed) {

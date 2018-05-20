@@ -77,9 +77,9 @@ class Button
 			if params.speed2 > 0 and @radius1 > 0
 				if @inZone() and state == RUNNING then state = DEAD
 				d = 2 * @radius2
-				fc 0.75,0.75,0.75,0.5
+				fc 1,1,1,0.8
 				arc @x,@y,d,d,@v2,180+@v2
-				fc 1,0,0,0.5
+				fc 1,0,0,0.8
 				arc @x,@y,d,d,180+@v2,@v2
 			else
 				fc 1,1,1,0.8
@@ -253,7 +253,10 @@ draw = ->
 	fc()
 	sw 2
 	for p,i in track		
-		if personOverActive() then sc 0 else sc 1,1,0
+		sc 1,1,0 # YELLOW
+		for j in [6,7,8,9]
+			button = buttons[j]
+			if button.radius2 > button.distance p.x,p.y then sc 0 # BLACK
 		circle p.x, p.y, 5*(track.length-i)
 
 	fc 1,0,0
@@ -261,12 +264,6 @@ draw = ->
 	textSize 50
 	if msg then text msg,width/2,height/2
 	pop()
-
-personOverActive = ->
-	for i in [6,7,8,9]
-		button = buttons[i]
-		if button.radius2 > button.distance position.x,position.y then return true
-	false  
 
 createProblem = (level,seed) ->
 	n = int Math.pow 2, 4+level/3 # nodes
