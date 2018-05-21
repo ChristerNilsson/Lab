@@ -8,7 +8,7 @@ Till din hjälp har du tre operationer: +2, *2 samt /2. Dvs addera två, dubbla 
 
 Dessa operationer aktiverar du genom att förflytta dig i terrängen, t ex genom att springa eller gå.
 
-![Shortcut GPS](shortcut-GPS.JPG)
+![Shortcut GPS](shortcut.png)
 
 ## Förklaring:
 
@@ -18,7 +18,7 @@ Dessa operationer aktiverar du genom att förflytta dig i terrängen, t ex genom
 * Den gråa 6:an, level, anger hur många steg problemet minst kräver.
 * Det gula talet 10m anger stora cirkelns radie.
 * 6A identifierar problemet.
-* 19 visar hur många sekunder och operationer du använt.
+* 7 visar hur många sekunder och operationer du använt.
 * Varje operation kostar ett visst antal sekunder.
 * 0 visar att du inte utfört någon operation ännu.
 
