@@ -144,15 +144,17 @@ GPS = function () {
 
 Text = function () {
   function Text(txt1, x3, y3) {
-    var r = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 1;
-    var g = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 1;
-    var b1 = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 1;
+    var textSize1 = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 80;
+    var r = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 1;
+    var g = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 1;
+    var b1 = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : 0;
 
     _classCallCheck(this, Text);
 
     this.txt = txt1;
     this.x = x3;
     this.y = y3;
+    this.textSize = textSize1;
     this.r = r;
     this.g = g;
     this.b = b1;
@@ -162,6 +164,7 @@ Text = function () {
     key: 'draw',
     value: function draw() {
       fc(this.r, this.g, this.b);
+      textSize(this.textSize);
       return text(this.txt, this.x, this.y);
     }
   }, {
@@ -376,8 +379,8 @@ setup = function setup() {
   textSize(80);
   ws = 0.35 * width;
   hs = 0.43 * height;
-  buttons.push(new Text(a, xo - ws, yo - hs, 1, 0, 0)); // a
-  buttons.push(new Text(b, xo + ws, yo - hs, 0, 1, 0)); // b
+  buttons.push(new Text(a, xo - ws, yo - hs, 120, 1, 0, 0)); // a
+  buttons.push(new Text(b, xo + ws, yo - hs, 120, 0, 1, 0)); // b
   buttons.push(new Text(params.nr, xo - ws, yo + hs));
   buttons.push(new Text('0', xo, yo + hs)); // sekunder
   buttons.push(new Text('0', xo + ws, yo + hs)); // count

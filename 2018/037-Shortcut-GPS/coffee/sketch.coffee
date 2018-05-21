@@ -51,9 +51,10 @@ class GPS # hanterar GPS konvertering
 		{lat,lon}
 
 class Text
-	constructor : (@txt,@x,@y,@r=1,@g=1,@b=1) ->
+	constructor : (@txt,@x,@y,@textSize=80,@r=1,@g=1,@b=0) ->
 	draw : ->
 		fc @r,@g,@b
+		textSize @textSize
 		text @txt,@x,@y
 	execute : ->
 
@@ -187,8 +188,8 @@ setup = ->
 	ws = 0.35*width
 	hs = 0.43*height
 
-	buttons.push new Text a,xo-ws,yo-hs,1,0,0 # a
-	buttons.push new Text b,xo+ws,yo-hs,0,1,0 # b
+	buttons.push new Text a,xo-ws,yo-hs,120,1,0,0 # a
+	buttons.push new Text b,xo+ws,yo-hs,120,0,1,0 # b
 	buttons.push new Text params.nr,xo-ws,yo+hs
 	buttons.push new Text '0',xo,yo+hs # sekunder
 	buttons.push new Text '0',xo+ws,yo+hs # count
