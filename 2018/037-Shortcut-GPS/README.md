@@ -8,6 +8,7 @@ Till din hjälp har du tre knappar:
 * +2 (addera två)
 * *2 (dubbla)
 * /2 (halvera)
+ * Gäller enbart jämna tal
 
 Dessa knappar når du genom att springa eller gå.
 
@@ -16,16 +17,15 @@ Dessa knappar når du genom att springa eller gå.
 ## Förklaring:
 
 * Du står i mitten när du börjar.
+ * Den gråa 6:an, level, anger hur många klick problemet minst kräver.
+ * Denna knapp fungerar även som Undo.
 * Den minsta svarta/gula cirkeln är din senaste GPS-koordinat.
-** Dessa cirklar växer som ringarna på vattnet.
-* Den gråa 6:an, level, anger hur många klick problemet minst kräver.
+ * Dessa cirklar växer som ringarna på vattnet.
 * Det gula talet 10m anger stora cirkelns radie.
 * 6A identifierar problemet.
 * 7 visar hur många sekunder och klick du använt.
-** Varje klick kostar ett visst antal sekunder.
+ * Varje klick kostar ett visst antal sekunder.
 * 0 visar att du inte utfört något klick ännu.
-* Du kan ångra dig genom att klicka på cirkeln i mitten.
-** Halvera fungerar ej med udda tal.
 
 Från och med level 2 snurrar "karusellen".
 
