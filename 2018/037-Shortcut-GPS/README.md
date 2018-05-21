@@ -37,10 +37,12 @@ Dessa knappar når du genom att springa eller gå.
     * Du klickar på + + + + + + + +
   * 9 11 22 44 46 23 25 (sex klick)
     * Du klickar på + * * + / + 
-* Klicka på https://goo.gl/1JNVnJ eller scanna anvisad QR-kod.
+* Klicka på https://goo.gl/1JNVnJ eller scanna QR-koden.
 * Spelet fungerar med Android och iPhone.
 * Se till att din webläsare har tillåtelse att använda din GPS. (Location)
 * En *kompass* underlättar men är inte nödvändig. 
   * Norr pekar uppåt.
 * 1A t o m 1J har alla samma svårighetsgrad, dvs kräver ett klick.
 * Alla problem byts ut vid midnatt.
+
+![QR-code](qrcode.jpg)
