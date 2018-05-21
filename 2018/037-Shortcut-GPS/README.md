@@ -39,7 +39,7 @@ En lösning på detta problem är: 9 11 22 44 46 23 25 (sex klick)
 En annan lösning är: 9 11 13 15 17 19 21 23 25 (åtta klick)
 ( Du klickar på + + + + + + + + )
 
-Klicka på https://christernilsson.github.io/Lab/2018/037-Shortcut-GPS/Shortcut-GPS.html eller scanna anvisad QR-kod.
+Klicka på https://goo.gl/1JNVnJ eller scanna anvisad QR-kod.
 
 Spelet fungerar med Android och iPhone.
 
