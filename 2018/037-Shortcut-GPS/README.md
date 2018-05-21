@@ -14,7 +14,7 @@ Dessa knappar når du genom att springa eller gå.
 
 ![Shortcut GPS](shortcut.png)
 
-## Förklaring:
+## Förklaringar:
 
 * Du står i mitten när du börjar.
   * Den gråa 6:an, level, anger hur många klick problemet minst kräver.
@@ -28,25 +28,18 @@ Dessa knappar når du genom att springa eller gå.
 * 7 visar hur många sekunder och klick du använt.
   * Varje klick kostar ett visst antal sekunder.
 * 0 visar att du inte utfört något klick ännu.
-
-Från och med level 2 snurrar *karusellen*.
-
-Från och med level 6 snurrar även de tre *kaffekopparna*.
-
-De röda halvcirklarna är förbjudna och innebär Game Over om man vidrör dem. Gå tillbaks till mitten och utför Refresh.
-
-En lösning på detta problem är: 9 11 22 44 46 23 25 (sex klick)
-( Du klickar på + * * + / + )
-
-En annan lösning är: 9 11 13 15 17 19 21 23 25 (åtta klick)
-( Du klickar på + + + + + + + + )
-
-Klicka på https://goo.gl/1JNVnJ eller scanna anvisad QR-kod.
-
-Spelet fungerar med Android och iPhone.
-
-Se till att din webläsare har tillåtelse att använda din GPS. (Location)
-
-En *kompass* underlättar men är inte nödvändig.
-
-Alla problem byts ut vid midnatt.
+* Från och med level 2 snurrar *karusellen*.
+* Från och med level 6 snurrar även de tre *kaffekopparna*.
+* De röda halvcirklarna är förbjudna och innebär Game Over om man vidrör dem.
+  * Gå tillbaks till mitten och utför Refresh.
+* Lösningar på detta problem:
+  * 9 11 22 44 46 23 25 (sex klick)
+    * Du klickar på + * * + / + 
+  * 9 11 13 15 17 19 21 23 25 (åtta klick)
+		* Du klickar på + + + + + + + +
+* Klicka på https://goo.gl/1JNVnJ eller scanna anvisad QR-kod.
+* Spelet fungerar med Android och iPhone.
+* Se till att din webläsare har tillåtelse att använda din GPS. (Location)
+* En *kompass* underlättar men är inte nödvändig. 
+  * Norr pekar uppåt.
+* Alla problem byts ut vid midnatt.
