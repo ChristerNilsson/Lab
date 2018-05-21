@@ -1,8 +1,10 @@
 # Shortcut GPS
 
-Spelet går ut på att ta sig från det röda talet till det gröna.
+![Karusell](karusell.jpg)
 
-Till din hjälp har du tre operationer: +2, dubbelt samt hälften, om talet är jämnt.
+Spelet går ut på att ta sig från det röda talet, 9, till det gröna, 25.
+
+Till din hjälp har du tre operationer: +2, *2 samt /2. Dvs addera två, dubbla samt hälften.
 
 Dessa operationer aktiverar du genom att förflytta dig i terrängen, t ex genom att springa eller gå.
 
@@ -11,15 +13,12 @@ Dessa operationer aktiverar du genom att förflytta dig i terrängen, t ex genom
 ## Förklaring:
 
 * Du står i mitten när du börjar.
-* Den minsta gula/svarta cirkeln är din senaste GPS-koordinat.
+* Den minsta svarta/gula cirkeln är din senaste GPS-koordinat.
 * Dessa cirklar växer som ringarna på vattnet.
-* 11, level, anger hur många steg problemet minst kräver.
-* +2, *2 samt /2 utgör de tre operationerna.
-* Du utgår från det röda talet.
-* Du ska uppnå det gröna talet.
-* Det vita talet 20m anger stora cirkelns radie.
-* 11A identifierar problemet.
-* 28 visar hur många sekunder och operationer du använt.
+* Den gråa 6:an, level, anger hur många steg problemet minst kräver.
+* Det gula talet 10m anger stora cirkelns radie.
+* 6A identifierar problemet.
+* 19 visar hur många sekunder och operationer du använt.
 * Varje operation kostar ett visst antal sekunder.
 * 0 visar att du inte utfört någon operation ännu.
 
@@ -29,11 +28,11 @@ Från och med level 6 snurrar även de tre "kaffekopparna".
 
 De röda halvcirklarna är No Go zoner och innebär Game Over om man vidrör dem.
 
-En lösning på detta problem är: 56 28 14 16 8 10 12 24 48 50 100 102 (elva steg)
-( Du klickar på / / + / + + * * + * + )
+En lösning på detta problem är: 9 11 22 44 46 23 25 (sex steg)
+( Du klickar på + * * + / + )
 
-En annan är att utföra operationen +2 tjugotre gånger.
-( + + + + + + + + + + + + + + + + + + + + + + + )
+En annan lösning är: 9 11 13 15 17 19 21 23 25 (åtta steg)
+( Du klickar på + + + + + + + + )
 
 Klicka på https://christernilsson.github.io/Lab/Shortcut-GPS.html eller scanna anvisad QR-kod.
 
