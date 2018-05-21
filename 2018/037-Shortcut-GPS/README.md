@@ -1,4 +1,4 @@
-# Matematikproblemet Shortcut med GPS
+# Shortcut GPS
 
 Spelet går ut på att ta sig från det röda talet till det gröna.
 
@@ -8,7 +8,7 @@ Dessa operationer aktiverar du genom att förflytta dig i terrängen, t ex genom
 
 ![Shortcut GPS](shortcut-GPS.JPG)
 
-Förklaring:
+## Förklaring:
 
 * Du står i mitten när du börjar.
 * Den minsta gula/svarta cirkeln är din senaste GPS-koordinat.
