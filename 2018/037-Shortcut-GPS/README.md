@@ -18,20 +18,22 @@ Dessa knappar når du genom att springa eller gå.
 
 * Du står i mitten när du börjar.
   * Den gråa 6:an, level, anger hur många klick problemet minst kräver.
-  * Denna knapp fungerar även som Undo.
-* Den minsta svarta/gula cirkeln är din senaste GPS-koordinat.
-  * Dessa cirklar växer som ringarna på vattnet.
-* Det gula talet 10m anger stora cirkelns radie.
+  * Denna knapp fungerar även som *Undo*.
+* Den minsta svarta/gula cirkeln är din senaste *GPS-koordinat*.
+  * Dessa cirklar växer som ringar på vattnet när de åldras.
+* 9 anger talet du utgår från. Grönt.
+* 10m anger stora cirkelns radie, tio meter.
+* 25 anger talet du ska försöka nå. Rött.
 * 6A identifierar problemet.
 * 7 visar hur många sekunder och klick du använt.
   * Varje klick kostar ett visst antal sekunder.
 * 0 visar att du inte utfört något klick ännu.
 
-Från och med level 2 snurrar "karusellen".
+Från och med level 2 snurrar *karusellen*.
 
-Från och med level 6 snurrar även de tre "kaffekopparna".
+Från och med level 6 snurrar även de tre *kaffekopparna*.
 
-De röda halvcirklarna är förbjudna och innebär Game Over om man vidrör dem. Gå tillbaks till mittcirkeln och utför Refresh.
+De röda halvcirklarna är förbjudna och innebär Game Over om man vidrör dem. Gå tillbaks till mitten och utför Refresh.
 
 En lösning på detta problem är: 9 11 22 44 46 23 25 (sex klick)
 ( Du klickar på + * * + / + )
@@ -45,6 +47,6 @@ Spelet fungerar med Android och iPhone.
 
 Se till att din webläsare har tillåtelse att använda din GPS. (Location)
 
-En kompass underlättar men är inte nödvändig.
+En *kompass* underlättar men är inte nödvändig.
 
 Alla problem byts ut vid midnatt.
