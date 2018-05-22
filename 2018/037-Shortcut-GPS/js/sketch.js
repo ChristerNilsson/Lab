@@ -376,8 +376,23 @@ saveStorage = function saveStorage() {
   return localStorage["ShortcutGPS"] = JSON.stringify(storage);
 };
 
+prettyDate = function prettyDate(d) {
+  // Hittade inget bra lokalt stöd för yyyy-mm-dd
+  var s;
+  s = d.toLocaleDateString('ko-KR', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  });
+  s = s.replace(". ", '-');
+  s = s.replace(". ", '-');
+  s = s.replace(".", ' ');
+  return s + d.toLocaleTimeString('en-GB');
+};
+
 setup = function setup() {
   var args, button, d, hs, i, k, labels, len, n, txt, ws;
+  //print prettyDate new Date()
   createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
   textAlign(CENTER, CENTER);
@@ -470,19 +485,6 @@ setup = function setup() {
     maximumAge: 30000,
     timeout: 27000
   });
-};
-
-prettyDate = function prettyDate(d) {
-  var options, s;
-  options = {
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit'
-  };
-  s = d.toLocaleDateString('ko-KR', options);
-  s = s.replace(/. /g, '-');
-  s = s.replace(".", ' ');
-  return print(s + d.toLocaleTimeString('en-GB'));
 };
 
 draw = function draw() {

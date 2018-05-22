@@ -171,7 +171,15 @@ saveStorage = ->
 	storage[key] = {a,b,count,start,stopp,hist,rotation1,rotation2,state} 
 	localStorage["ShortcutGPS"] = JSON.stringify storage
 
+prettyDate = (d) -> # Hittade inget bra lokalt stöd för yyyy-mm-dd
+	s = d.toLocaleDateString 'ko-KR',{year:'numeric', month: '2-digit', day: '2-digit'}
+	s = s.replace ". ", '-'
+	s = s.replace ". ", '-'
+	s = s.replace ".", ' '
+	s + d.toLocaleTimeString 'en-GB'
+
 setup = ->
+	#print prettyDate new Date()
 	createCanvas windowWidth,windowHeight
 	angleMode DEGREES
 	textAlign CENTER,CENTER
@@ -241,13 +249,6 @@ setup = ->
 		enableHighAccuracy: true
 		maximumAge: 30000
 		timeout: 27000
-
-prettyDate = (d) ->
-	options = {year:'numeric', month: '2-digit', day: '2-digit' };
-	s = d.toLocaleDateString('ko-KR',options) 
-	s = s.replace /. /g, '-'
-	s = s.replace ".", ' '
-	print s + d.toLocaleTimeString 'en-GB'
 
 draw = ->
 	bg 0
