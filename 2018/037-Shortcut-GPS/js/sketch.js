@@ -40,6 +40,7 @@ var Button,
     params,
     position,
     prettyDate,
+    printMessages,
     released,
     rotation1,
     rotation2,
@@ -343,7 +344,7 @@ initStorage = function initStorage() {
 };
 
 getStorage = function getStorage() {
-  var d1, d2, key;
+  var d, d1, d2, key;
   key = params.nr + params.radius1;
   if (localStorage[KEY] == null) {
     localStorage[KEY] = "{}";
@@ -366,9 +367,13 @@ getStorage = function getStorage() {
     if (d1.getMonth() !== d2.getMonth() || d1.getDate() !== d2.getDate()) {
       initStorage();
     }
-    if (true || state === READY) {
-      messages = [prettyDate(d1), hist.concat([b]).join(' ')];
+    if (state === READY) {
+      d = new Date(stopp);
+      messages = [prettyDate(d1) + ' - ' + prettyDate(d)].concat(hist).concat([b]);
       print(messages);
+    }
+    if (state === DEAD) {
+      state = RUNNING;
     }
   } else {
     initStorage();
@@ -399,7 +404,6 @@ prettyDate = function prettyDate(d) {
 
 setup = function setup() {
   var args, button, d, hs, i, k, labels, len, n, txt, ws;
-  //print prettyDate new Date()
   createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
   textAlign(CENTER, CENTER);
@@ -495,7 +499,7 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  var button, d, factor, i, j, k, l, len, len1, len2, len3, len4, m, message, o, p, q, ref, ref1;
+  var button, d1, d2, factor, i, j, k, l, len, len1, len2, len3, m, o, p, ref, ref1;
   bg(0);
   fc();
   sc(1);
@@ -526,8 +530,9 @@ draw = function draw() {
   if (state === READY) {
     fc(0, 1, 0, 0.5);
     rect(0, 0, width, height);
-    d = new Date(start);
-    messages = [prettyDate(d), hist.concat([b]).join(' ')];
+    d1 = new Date(start);
+    d2 = new Date(stopp);
+    messages = [prettyDate(d1) + ' - ' + prettyDate(d2)].concat(hist).concat([b]);
   }
   if (state === DEAD) {
     fc(1, 0, 0, 0.5);
@@ -549,17 +554,33 @@ draw = function draw() {
     }
     circle(p.x, p.y, 5 * (track.length - i));
   }
-  fc(1, 0, 0);
-  push();
-  textSize(50);
-  for (i = q = 0, len4 = messages.length; q < len4; i = ++q) {
-    message = messages[i];
-    text(message, width / 2, height / 4 + i * 50);
-  }
-  pop();
+  printMessages();
   if (frameCount % 60 === 0) {
     return saveStorage(); // saves rotation1 and rotation2
   }
+};
+
+printMessages = function printMessages() {
+  var i, k, len, message;
+  if (messages.length === 0) {
+    return;
+  }
+  fc(0, 0, 0, 0.5);
+  rect(100, 0, width, 50);
+  rect(0, 0, 100, height);
+  fc(1, 1, 0);
+  push();
+  textSize(50);
+  textAlign(LEFT, TOP);
+  for (i = k = 0, len = messages.length; k < len; i = ++k) {
+    message = messages[i];
+    if (i === 0) {
+      text(message, 100, 0);
+    } else {
+      text(message, 0, (i - 1) * 50);
+    }
+  }
+  return pop();
 };
 
 createProblem = function createProblem(level, seed) {

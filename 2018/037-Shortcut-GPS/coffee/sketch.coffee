@@ -163,9 +163,11 @@ getStorage = ->
 		d1 = new Date start
 		d2 = new Date()
 		if d1.getMonth() != d2.getMonth() or d1.getDate() != d2.getDate() then initStorage()
-		if true or state == READY
-			messages = [prettyDate(d1), (hist.concat [b]).join ' ']
-			print messages 
+		if state == READY
+			d = new Date stopp
+			messages = [prettyDate(d1) + ' - ' + prettyDate(d)].concat(hist).concat [b]
+			print messages
+		if state == DEAD then state = RUNNING
 	else
 		initStorage()
 	print storage[key]
@@ -183,7 +185,6 @@ prettyDate = (d) -> # Hittade inget bra lokalt stöd för yyyy-mm-dd hh:mm:ss
 	s + d.toLocaleTimeString 'en-GB'
 
 setup = ->
-	#print prettyDate new Date()
 	createCanvas windowWidth,windowHeight
 	angleMode DEGREES
 	textAlign CENTER,CENTER
@@ -281,8 +282,10 @@ draw = ->
 	if state == READY 
 		fc 0,1,0,0.5
 		rect 0,0,width,height
-		d = new Date start 
-		messages = [prettyDate(d), (hist.concat [b]).join ' ']
+		d1 = new Date start 
+		d2 = new Date stopp
+		messages = [prettyDate(d1) + ' - ' + prettyDate(d2)].concat(hist).concat [b]
+
 	if state == DEAD
 		fc 1,0,0,0.5
 		rect 0,0,width,height
@@ -297,14 +300,25 @@ draw = ->
 			if button.radius2 > button.distance p.x,p.y then sc 0 # BLACK
 		circle p.x, p.y, 5*(track.length-i)
 
-	fc 1,0,0
-	push()
-	textSize 50
-	for message,i in messages
-		text message,width/2,height/4 + i*50
-	pop()
+	printMessages()
 
 	if frameCount % 60 == 0 then saveStorage() # saves rotation1 and rotation2
+
+printMessages = ->
+	if messages.length == 0 then return 
+	fc 0,0,0,0.5
+	rect 100,0,width,50
+	rect 0,0,100,height
+	fc 1,1,0
+	push()
+	textSize 50
+	textAlign LEFT,TOP
+	for message,i in messages
+		if i==0
+			text message, 100, 0
+		else
+			text message, 0, (i-1)*50
+	pop()
 
 createProblem = (level,seed) ->
 	n = int Math.pow 2, 4+level/3 # nodes
