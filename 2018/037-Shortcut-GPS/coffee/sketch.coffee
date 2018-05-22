@@ -3,6 +3,7 @@
 # translate, rotate och scale visade sig olämpliga här.
 # Bl a då det gällde att detektera krock med röda halvcirklar.
 
+KEY = "ShortcutGPS"
 RUNNING = 0
 READY = 1
 DEAD = 2 
@@ -155,15 +156,16 @@ initStorage = ->
 
 getStorage = ->
 	key = params.nr + params.radius1
-	if not localStorage["ShortcutGPS"]? then localStorage["ShortcutGPS"] = "{}"
-	storage = JSON.parse localStorage["ShortcutGPS"]
+	if not localStorage[KEY]? then localStorage[KEY] = "{}"
+	storage = JSON.parse localStorage[KEY]
 	if key of storage
 		{a,b,count,start,stopp,hist,rotation1,rotation2,state} = storage[key]
 		d1 = new Date start
 		d2 = new Date()
 		if d1.getMonth() != d2.getMonth() or d1.getDate() != d2.getDate() then initStorage()
-		if state == READY
-			messages = [prettyDate(d1), (hist + [b]).join ' ']
+		if true or state == READY
+			messages = [prettyDate(d1), (hist.concat [b]).join ' ']
+			print messages 
 	else
 		initStorage()
 	print storage[key]
@@ -171,9 +173,9 @@ getStorage = ->
 saveStorage = ->
 	key = params.nr + params.radius1
 	storage[key] = {a,b,count,start,stopp,hist,rotation1,rotation2,state} 
-	localStorage["ShortcutGPS"] = JSON.stringify storage
+	localStorage[KEY] = JSON.stringify storage
 
-prettyDate = (d) -> # Hittade inget bra lokalt stöd för yyyy-mm-dd
+prettyDate = (d) -> # Hittade inget bra lokalt stöd för yyyy-mm-dd hh:mm:ss
 	s = d.toLocaleDateString 'ko-KR',{year:'numeric', month: '2-digit', day: '2-digit'}
 	s = s.replace ". ", '-'
 	s = s.replace ". ", '-'
@@ -280,7 +282,7 @@ draw = ->
 		fc 0,1,0,0.5
 		rect 0,0,width,height
 		d = new Date start 
-		messages = [prettyDate(d), (hist + [b]).join ' ']
+		messages = [prettyDate(d), (hist.concat [b]).join ' ']
 	if state == DEAD
 		fc 1,0,0,0.5
 		rect 0,0,width,height

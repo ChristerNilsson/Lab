@@ -14,6 +14,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var Button,
     DEAD,
     GPS,
+    KEY,
     READY,
     RUNNING,
     SCALE,
@@ -56,6 +57,8 @@ var Button,
     modulo = function modulo(a, b) {
   return (+a % (b = +b) + b) % b;
 };
+
+KEY = "ShortcutGPS";
 
 RUNNING = 0;
 
@@ -342,10 +345,10 @@ initStorage = function initStorage() {
 getStorage = function getStorage() {
   var d1, d2, key;
   key = params.nr + params.radius1;
-  if (localStorage["ShortcutGPS"] == null) {
-    localStorage["ShortcutGPS"] = "{}";
+  if (localStorage[KEY] == null) {
+    localStorage[KEY] = "{}";
   }
-  storage = JSON.parse(localStorage["ShortcutGPS"]);
+  storage = JSON.parse(localStorage[KEY]);
   if (key in storage) {
     var _storage$key = storage[key];
     a = _storage$key.a;
@@ -363,8 +366,9 @@ getStorage = function getStorage() {
     if (d1.getMonth() !== d2.getMonth() || d1.getDate() !== d2.getDate()) {
       initStorage();
     }
-    if (state === READY) {
-      messages = [prettyDate(d1), (hist + [b]).join(' ')];
+    if (true || state === READY) {
+      messages = [prettyDate(d1), hist.concat([b]).join(' ')];
+      print(messages);
     }
   } else {
     initStorage();
@@ -376,11 +380,11 @@ saveStorage = function saveStorage() {
   var key;
   key = params.nr + params.radius1;
   storage[key] = { a: a, b: b, count: count, start: start, stopp: stopp, hist: hist, rotation1: rotation1, rotation2: rotation2, state: state };
-  return localStorage["ShortcutGPS"] = JSON.stringify(storage);
+  return localStorage[KEY] = JSON.stringify(storage);
 };
 
 prettyDate = function prettyDate(d) {
-  // Hittade inget bra lokalt stöd för yyyy-mm-dd
+  // Hittade inget bra lokalt stöd för yyyy-mm-dd hh:mm:ss
   var s;
   s = d.toLocaleDateString('ko-KR', {
     year: 'numeric',
@@ -523,7 +527,7 @@ draw = function draw() {
     fc(0, 1, 0, 0.5);
     rect(0, 0, width, height);
     d = new Date(start);
-    messages = [prettyDate(d), (hist + [b]).join(' ')];
+    messages = [prettyDate(d), hist.concat([b]).join(' ')];
   }
   if (state === DEAD) {
     fc(1, 0, 0, 0.5);
