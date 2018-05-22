@@ -29,7 +29,7 @@ hist = []
 rotation1 = 0 # degrees
 rotation2 = 0 # degrees
 
-msg = []
+messages = []
 
 class GPS # hanterar GPS konvertering
 	constructor : (@lat,@lon,@w,@h) ->
@@ -107,7 +107,6 @@ class Button
 		if @inCircle()
 			@event()
 			if a==b
-				hist.push b
 				state = READY 
 				stopp = Date.now()
 			saveStorage()
@@ -133,7 +132,7 @@ spara = (value) ->
 	buttons[0].txt = a
 
 locationUpdate = (p) ->
-	#msg = []
+	#messages = []
 	lat = p.coords.latitude
 	lon = p.coords.longitude
 	if gps == null then gps = new GPS lat,lon,width,height
@@ -141,7 +140,7 @@ locationUpdate = (p) ->
 	track.push position
 	if track.length > TRACKED then track.shift()
 
-locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then msg = ['Check location permissions']
+locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then messages = ['Check location permissions']
 
 initStorage = ->
 	[a,b] = createProblem params.level,params.seed
@@ -173,7 +172,6 @@ saveStorage = ->
 	localStorage["ShortcutGPS"] = JSON.stringify storage
 
 setup = ->
-	print [1,2,3].join ' '
 	createCanvas windowWidth,windowHeight
 	angleMode DEGREES
 	textAlign CENTER,CENTER
@@ -244,6 +242,13 @@ setup = ->
 		maximumAge: 30000
 		timeout: 27000
 
+prettyDate = (d) ->
+	options = {year:'numeric', month: '2-digit', day: '2-digit' };
+	s = d.toLocaleDateString('ko-KR',options) 
+	s = s.replace /. /g, '-'
+	s = s.replace ".", ' '
+	print s + d.toLocaleTimeString 'en-GB'
+
 draw = ->
 	bg 0
 	fc()
@@ -272,7 +277,7 @@ draw = ->
 		fc 0,1,0,0.5
 		rect 0,0,width,height
 		d = new Date start 
-		msg = [d, hist.join ' ']
+		messages = [prettyDate(d), (hist + [b]).join ' ']
 	if state == DEAD
 		fc 1,0,0,0.5
 		rect 0,0,width,height
@@ -290,11 +295,11 @@ draw = ->
 	fc 1,0,0
 	push()
 	textSize 50
-	for message,i in msg
+	for message,i in messages
 		text message,width/2,height/4 + i*50
 	pop()
 
-	if frameCount % 60 == 0 then saveStorage()
+	if frameCount % 60 == 0 then saveStorage() # saves rotation1 and rotation2
 
 createProblem = (level,seed) ->
 	n = int Math.pow 2, 4+level/3 # nodes

@@ -31,13 +31,14 @@ var Button,
     initStorage,
     locationUpdate,
     locationUpdateFail,
+    messages,
     mousePressed,
     mouseReleased,
-    msg,
     myrandom,
     myround,
     params,
     position,
+    prettyDate,
     released,
     rotation1,
     rotation2,
@@ -103,7 +104,7 @@ rotation1 = 0; // degrees
 
 rotation2 = 0; // degrees
 
-msg = [];
+messages = [];
 
 GPS = function () {
   // hanterar GPS konvertering
@@ -257,7 +258,6 @@ Button = function () {
       if (this.inCircle()) {
         this.event();
         if (a === b) {
-          hist.push(b);
           state = READY;
           stopp = Date.now();
         }
@@ -302,7 +302,7 @@ spara = function spara(value) {
 
 locationUpdate = function locationUpdate(p) {
   var lat, lon;
-  //msg = []
+  //messages = []
   lat = p.coords.latitude;
   lon = p.coords.longitude;
   if (gps === null) {
@@ -317,7 +317,7 @@ locationUpdate = function locationUpdate(p) {
 
 locationUpdateFail = function locationUpdateFail(error) {
   if (error.code === error.PERMISSION_DENIED) {
-    return msg = ['Check location permissions'];
+    return messages = ['Check location permissions'];
   }
 };
 
@@ -378,7 +378,6 @@ saveStorage = function saveStorage() {
 
 setup = function setup() {
   var args, button, d, hs, i, k, labels, len, n, txt, ws;
-  print([1, 2, 3].join(' '));
   createCanvas(windowWidth, windowHeight);
   angleMode(DEGREES);
   textAlign(CENTER, CENTER);
@@ -473,6 +472,19 @@ setup = function setup() {
   });
 };
 
+prettyDate = function prettyDate(d) {
+  var options, s;
+  options = {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit'
+  };
+  s = d.toLocaleDateString('ko-KR', options);
+  s = s.replace(/. /g, '-');
+  s = s.replace(".", ' ');
+  return print(s + d.toLocaleTimeString('en-GB'));
+};
+
 draw = function draw() {
   var button, d, factor, i, j, k, l, len, len1, len2, len3, len4, m, message, o, p, q, ref, ref1;
   bg(0);
@@ -506,7 +518,7 @@ draw = function draw() {
     fc(0, 1, 0, 0.5);
     rect(0, 0, width, height);
     d = new Date(start);
-    msg = [d, hist.join(' ')];
+    messages = [prettyDate(d), (hist + [b]).join(' ')];
   }
   if (state === DEAD) {
     fc(1, 0, 0, 0.5);
@@ -531,13 +543,13 @@ draw = function draw() {
   fc(1, 0, 0);
   push();
   textSize(50);
-  for (i = q = 0, len4 = msg.length; q < len4; i = ++q) {
-    message = msg[i];
+  for (i = q = 0, len4 = messages.length; q < len4; i = ++q) {
+    message = messages[i];
     text(message, width / 2, height / 4 + i * 50);
   }
   pop();
   if (frameCount % 60 === 0) {
-    return saveStorage();
+    return saveStorage(); // saves rotation1 and rotation2
   }
 };
 
