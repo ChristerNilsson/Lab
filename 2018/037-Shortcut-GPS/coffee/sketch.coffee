@@ -162,6 +162,8 @@ getStorage = ->
 		d1 = new Date start
 		d2 = new Date()
 		if d1.getMonth() != d2.getMonth() or d1.getDate() != d2.getDate() then initStorage()
+		if state == READY
+			messages = [prettyDate(d1), (hist + [b]).join ' ']
 	else
 		initStorage()
 	print storage[key]

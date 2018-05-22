@@ -363,6 +363,9 @@ getStorage = function getStorage() {
     if (d1.getMonth() !== d2.getMonth() || d1.getDate() !== d2.getDate()) {
       initStorage();
     }
+    if (state === READY) {
+      messages = [prettyDate(d1), (hist + [b]).join(' ')];
+    }
   } else {
     initStorage();
   }
