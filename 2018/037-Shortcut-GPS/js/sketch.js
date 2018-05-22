@@ -103,7 +103,7 @@ rotation1 = 0; // degrees
 
 rotation2 = 0; // degrees
 
-msg = null;
+msg = [];
 
 GPS = function () {
   // hanterar GPS konvertering
@@ -257,6 +257,7 @@ Button = function () {
       if (this.inCircle()) {
         this.event();
         if (a === b) {
+          hist.push(b);
           state = READY;
           stopp = Date.now();
         }
@@ -301,7 +302,7 @@ spara = function spara(value) {
 
 locationUpdate = function locationUpdate(p) {
   var lat, lon;
-  msg = null;
+  //msg = []
   lat = p.coords.latitude;
   lon = p.coords.longitude;
   if (gps === null) {
@@ -316,7 +317,7 @@ locationUpdate = function locationUpdate(p) {
 
 locationUpdateFail = function locationUpdateFail(error) {
   if (error.code === error.PERMISSION_DENIED) {
-    return msg = 'Check location permissions';
+    return msg = ['Check location permissions'];
   }
 };
 
@@ -473,7 +474,7 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  var button, factor, i, j, k, l, len, len1, len2, len3, m, o, p, ref, ref1;
+  var button, factor, i, j, k, l, len, len1, len2, len3, len4, m, message, o, p, q, ref, ref1;
   bg(0);
   fc();
   sc(1);
@@ -504,7 +505,7 @@ draw = function draw() {
   if (state === READY) {
     fc(0, 1, 0, 0.5);
     rect(0, 0, width, height);
-    msg = hist.join(' ');
+    msg = [hist.join(' ')];
   }
   if (state === DEAD) {
     fc(1, 0, 0, 0.5);
@@ -529,8 +530,9 @@ draw = function draw() {
   fc(1, 0, 0);
   push();
   textSize(50);
-  if (msg) {
-    text(msg, width / 2, height / 2);
+  for (i = q = 0, len4 = msg.length; q < len4; i = ++q) {
+    message = msg[i];
+    text(message, width / 2, height / 4 + i * 50);
   }
   pop();
   if (frameCount % 60 === 0) {

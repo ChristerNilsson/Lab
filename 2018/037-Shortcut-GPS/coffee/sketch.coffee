@@ -29,7 +29,7 @@ hist = []
 rotation1 = 0 # degrees
 rotation2 = 0 # degrees
 
-msg = null
+msg = []
 
 class GPS # hanterar GPS konvertering
 	constructor : (@lat,@lon,@w,@h) ->
@@ -107,6 +107,7 @@ class Button
 		if @inCircle()
 			@event()
 			if a==b
+				hist.push b
 				state = READY 
 				stopp = Date.now()
 			saveStorage()
@@ -132,7 +133,7 @@ spara = (value) ->
 	buttons[0].txt = a
 
 locationUpdate = (p) ->
-	msg = null
+	#msg = []
 	lat = p.coords.latitude
 	lon = p.coords.longitude
 	if gps == null then gps = new GPS lat,lon,width,height
@@ -140,7 +141,7 @@ locationUpdate = (p) ->
 	track.push position
 	if track.length > TRACKED then track.shift()
 
-locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then msg = 'Check location permissions'
+locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then msg = ['Check location permissions']
 
 initStorage = ->
 	[a,b] = createProblem params.level,params.seed
@@ -270,7 +271,7 @@ draw = ->
 	if state == READY 
 		fc 0,1,0,0.5
 		rect 0,0,width,height
-		msg = hist.join ' '
+		msg = [hist.join ' ']
 	if state == DEAD
 		fc 1,0,0,0.5
 		rect 0,0,width,height
@@ -288,7 +289,8 @@ draw = ->
 	fc 1,0,0
 	push()
 	textSize 50
-	if msg then text msg,width/2,height/2
+	for message,i in msg
+		text message,width/2,height/4 + i*50
 	pop()
 
 	if frameCount % 60 == 0 then saveStorage()
