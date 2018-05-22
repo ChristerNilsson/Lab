@@ -271,7 +271,8 @@ draw = ->
 	if state == READY 
 		fc 0,1,0,0.5
 		rect 0,0,width,height
-		msg = [hist.join ' ']
+		d = new Date start 
+		msg = [d, hist.join ' ']
 	if state == DEAD
 		fc 1,0,0,0.5
 		rect 0,0,width,height

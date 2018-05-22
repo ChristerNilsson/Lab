@@ -474,7 +474,7 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  var button, factor, i, j, k, l, len, len1, len2, len3, len4, m, message, o, p, q, ref, ref1;
+  var button, d, factor, i, j, k, l, len, len1, len2, len3, len4, m, message, o, p, q, ref, ref1;
   bg(0);
   fc();
   sc(1);
@@ -505,7 +505,8 @@ draw = function draw() {
   if (state === READY) {
     fc(0, 1, 0, 0.5);
     rect(0, 0, width, height);
-    msg = [hist.join(' ')];
+    d = new Date(start);
+    msg = [d, hist.join(' ')];
   }
   if (state === DEAD) {
     fc(1, 0, 0, 0.5);
