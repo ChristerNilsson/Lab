@@ -23,33 +23,33 @@ Dessa knappar når du genom att springa eller gå.
 
 ## Grunderna
 
-* Du står i *mitten* när du börjar.
-  * Den gråa 6:an, *level*, anger hur många *klick* problemet minst kräver.
-  * Denna knapp fungerar även som *Undo*.
-* Den minsta svarta/gula cirkeln är din senaste *GPS-position*.
-  * Dessa cirklar växer som ringar på vattnet när de åldras.
-* 9 anger talet du utgår från. Rött.
-* 10m anger den stora cirkelns radie, tio meter.
-* 25 anger talet du ska gå till. Grönt.
-* 6A identifierar problemet.
-* 7 visar hur många sekunder och klick du använt.
-  * Varje klick kostar ett visst antal sekunder.
-* 0 visar att du inte utfört något klick ännu.
+* Du står i *mitten* när du börjar
+  * Den gråa 6:an, *level*, anger hur många *klick* problemet minst kräver
+  * Denna knapp fungerar även som *Undo*
+* Den minsta svarta/gula cirkeln är din senaste *GPS-position*
+  * Dessa cirklar växer som ringar på vattnet när de åldras
+* 9 anger talet du utgår från. Rött
+* 10m anger den stora cirkelns radie, tio meter
+* 25 anger talet du ska gå till. Grönt
+* 6A identifierar problemet
+* 7 visar hur många sekunder och klick du använt
+  * Varje klick kostar ett visst antal sekunder
+* 0 visar att du inte utfört något klick ännu
 
 ## Mer information
 
-* Från och med level 2 snurrar *karusellen*.
-* Från och med level 6 snurrar även de tre *kaffekopparna*.
-  * De röda *halvcirklarna* är förbjudna och innebär Game Over om man vidrör dem.
-    * Gå tillbaks till mitten och utför Refresh.
-* Alla problem byts ut vid midnatt.
+* Från och med level 2 snurrar *karusellen*
+* Från och med level 6 snurrar även de tre *kaffekopparna*
+  * De röda *halvcirklarna* är förbjudna och innebär Game Over om man vidrör dem
+    * Gå tillbaks till mitten och utför Refresh
+* Alla problem byts ut vid midnatt
 
 ## Vad krävs?
 
-* Spelet fungerar med Android och iPhone.
+* Spelet fungerar med Android och iPhone
   * Se till att din webläsare har tillåtelse att använda din GPS. (Location)
-* En *kompass* underlättar men är inte nödvändig. 
-  * Norr pekar uppåt.
+* En *kompass* underlättar men är inte nödvändig
+  * Norr pekar uppåt
 
 ![QR-code](qrcode.jpg)
 

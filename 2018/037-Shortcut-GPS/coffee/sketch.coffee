@@ -6,13 +6,9 @@
 RUNNING = 0
 READY = 1
 DEAD = 2 
-state = RUNNING
 
 released = true
 gps = null
-
-rotation1 = 0 # degrees
-rotation2 = 0 # degrees
 
 [xo,yo] = [null,null] # origo i mitten av skärmen
 
@@ -21,13 +17,18 @@ params = null
 TRACKED = 5 # circles shows the player's position
 
 buttons = []
-hist = []
 position = null # gps position
-track = [] # positions
+track = [] # five latest GPS positions
 
+storage = null # following variables are stored in localStorage:
+state = RUNNING
 [a,b] = [null,null]
 count = 0
 [start,stopp] = [null,null]
+hist = []
+rotation1 = 0 # degrees
+rotation2 = 0 # degrees
+
 msg = null
 
 class GPS # hanterar GPS konvertering
@@ -107,7 +108,8 @@ class Button
 			@event()
 			if a==b
 				state = READY 
-				stopp = millis()
+				stopp = Date.now()
+			saveStorage()
 
 	distance : (x,y) -> dist x,y,@x,@y
 
@@ -138,12 +140,43 @@ locationUpdate = (p) ->
 	track.push position
 	if track.length > TRACKED then track.shift()
 
-locationUpdateFail = (error) ->
-	if error.code == error.PERMISSION_DENIED
-		msg = 'Check location permissions'
+locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then msg = 'Check location permissions'
+
+initStorage = ->
+	[a,b] = createProblem params.level,params.seed
+	count = 0
+	start = Date.now()
+	stopp = null
+	hist = []
+	rotation1 = myrandom 0,360 # degrees
+	rotation2 = myrandom 0,360 # degrees
+	state = RUNNING
+	saveStorage()	
+
+getStorage = ->
+	key = params.nr + params.radius1
+	if not localStorage["ShortcutGPS"]? then localStorage["ShortcutGPS"] = "{}"
+	storage = JSON.parse localStorage["ShortcutGPS"]
+	if key of storage
+		{a,b,count,start,stopp,hist,rotation1,rotation2,state} = storage[key]
+		d1 = new Date start
+		d2 = new Date()
+		if d1.getMonth() != d2.getMonth() or d1.getDate() != d2.getDate() then initStorage()
+	else
+		initStorage()
+	print storage[key]
+
+saveStorage = ->
+	key = params.nr + params.radius1
+	storage[key] = {a,b,count,start,stopp,hist,rotation1,rotation2,state} 
+	localStorage["ShortcutGPS"] = JSON.stringify storage
 
 setup = ->
+	print [1,2,3].join ' '
 	createCanvas windowWidth,windowHeight
+	angleMode DEGREES
+	textAlign CENTER,CENTER
+	textSize 80
 
 	[xo,yo] = [width/2,height/2]
 
@@ -172,18 +205,13 @@ setup = ->
 
 	d = new Date()
 	params.seed += 31 * d.getMonth() + d.getDate() + 0.1 * params.level + 0.01 * params.radius1
-	[a,b] = createProblem params.level,params.seed
 
+	getStorage()
+	
 	SCALE = min(width,height)/params.radius1/3
 
 	position = {x:xo, y:yo}
 	track = [position]
-
-	start = millis()
-
-	angleMode DEGREES
-	textAlign CENTER,CENTER
-	textSize 80
 
 	ws = 0.35*width
 	hs = 0.43*height
@@ -215,11 +243,6 @@ setup = ->
 		maximumAge: 30000
 		timeout: 27000
 
-	rotation1 = myrandom 0,360
-	rotation2 = myrandom 0,360
-
-	state = RUNNING
-
 draw = ->
 	bg 0
 	fc()
@@ -229,7 +252,7 @@ draw = ->
 
 	buttons[9].txt = params.level - hist.length 
 	if state==READY   then buttons[3].txt = myround (stopp-start)/1000    + params.cost*count, 1
-	if state==RUNNING then buttons[3].txt = myround (millis()-start)/1000 + params.cost*count
+	if state==RUNNING then buttons[3].txt = myround (Date.now()-start)/1000 + params.cost*count
 	buttons[4].txt = count
 
 	for button in buttons
@@ -247,10 +270,12 @@ draw = ->
 	if state == READY 
 		fc 0,1,0,0.5
 		rect 0,0,width,height
+		msg = hist.join ' '
 	if state == DEAD
 		fc 1,0,0,0.5
 		rect 0,0,width,height
 
+	# show gps circles
 	fc()
 	sw 2
 	for p,i in track		
@@ -265,6 +290,8 @@ draw = ->
 	textSize 50
 	if msg then text msg,width/2,height/2
 	pop()
+
+	if frameCount % 60 == 0 then saveStorage()
 
 createProblem = (level,seed) ->
 	n = int Math.pow 2, 4+level/3 # nodes
@@ -287,11 +314,7 @@ createProblem = (level,seed) ->
 	b = lst[i]
 	[a,b]
 
-myround = (x,decimals=0) ->
-	x *= 10**decimals
-	x = round x
-	x /= 10**decimals
-	x
+myround = (x,decimals=0) ->	(round x * 10**decimals) / 10**decimals
 
 myrandom = (a,b) ->
   x = 10000 * Math.sin params.seed

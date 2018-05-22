@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -25,8 +25,10 @@ var Button,
     count,
     createProblem,
     draw,
+    getStorage,
     gps,
     hist,
+    initStorage,
     locationUpdate,
     locationUpdateFail,
     mousePressed,
@@ -39,11 +41,13 @@ var Button,
     released,
     rotation1,
     rotation2,
+    saveStorage,
     setup,
     spara,
     start,
     state,
     stopp,
+    storage,
     track,
     xo,
     yo,
@@ -58,15 +62,9 @@ READY = 1;
 
 DEAD = 2;
 
-state = RUNNING;
-
 released = true;
 
 gps = null;
-
-rotation1 = 0; // degrees
-
-rotation2 = 0; // degrees
 
 xo = null;
 yo = null // origo i mitten av skärmen
@@ -81,11 +79,13 @@ TRACKED = 5; // circles shows the player's position
 
 buttons = [];
 
-hist = [];
-
 position = null; // gps position
 
-track = []; // positions
+track = []; // five latest GPS positions
+
+storage = null; // following variables are stored in localStorage:
+
+state = RUNNING;
 
 a = null;
 b = null;
@@ -96,6 +96,12 @@ count = 0;
 start = null;
 stopp = null;
 
+
+hist = [];
+
+rotation1 = 0; // degrees
+
+rotation2 = 0; // degrees
 
 msg = null;
 
@@ -121,7 +127,7 @@ GPS = function () {
   }
 
   _createClass(GPS, [{
-    key: 'toXY',
+    key: "toXY",
     value: function toXY(lat, lon) {
       var x, y;
       x = xo + SCALE * map(lon, this.lon1, this.lon2, -this.w / 2, this.w / 2);
@@ -129,7 +135,7 @@ GPS = function () {
       return { x: x, y: y };
     }
   }, {
-    key: 'toWGS84',
+    key: "toWGS84",
     value: function toWGS84(x, y) {
       // not used
       var lat, lon;
@@ -161,14 +167,14 @@ Text = function () {
   }
 
   _createClass(Text, [{
-    key: 'draw',
+    key: "draw",
     value: function draw() {
       fc(this.r, this.g, this.b);
       textSize(this.textSize);
       return text(this.txt, this.x, this.y);
     }
   }, {
-    key: 'execute',
+    key: "execute",
     value: function execute() {}
   }]);
 
@@ -196,19 +202,19 @@ Button = function () {
   }
 
   _createClass(Button, [{
-    key: 'setVinkel1',
+    key: "setVinkel1",
     value: function setVinkel1(v1) {
       this.vinkel1 = v1;
       this.x = xo + this.radius1 * cos(this.vinkel1);
       return this.y = yo + this.radius1 * sin(this.vinkel1);
     }
   }, {
-    key: 'setVinkel2',
+    key: "setVinkel2",
     value: function setVinkel2(v2) {
       return this.v2 = v2;
     }
   }, {
-    key: 'draw',
+    key: "draw",
     value: function draw() {
       var d;
       sc();
@@ -246,28 +252,29 @@ Button = function () {
       }
     }
   }, {
-    key: 'execute',
+    key: "execute",
     value: function execute() {
       if (this.inCircle()) {
         this.event();
         if (a === b) {
           state = READY;
-          return stopp = millis();
+          stopp = Date.now();
         }
+        return saveStorage();
       }
     }
   }, {
-    key: 'distance',
+    key: "distance",
     value: function distance(x, y) {
       return dist(x, y, this.x, this.y);
     }
   }, {
-    key: 'inCircle',
+    key: "inCircle",
     value: function inCircle() {
       return this.radius2 > dist(position.x, position.y, this.x, this.y);
     }
   }, {
-    key: 'inZone',
+    key: "inZone",
     value: function inZone() {
       // the red half circle 
       var dist1, dist2, x1, x2, y1, y2;
@@ -313,9 +320,68 @@ locationUpdateFail = function locationUpdateFail(error) {
   }
 };
 
+initStorage = function initStorage() {
+  var _createProblem = createProblem(params.level, params.seed);
+
+  var _createProblem2 = _slicedToArray(_createProblem, 2);
+
+  a = _createProblem2[0];
+  b = _createProblem2[1];
+
+  count = 0;
+  start = Date.now();
+  stopp = null;
+  hist = [];
+  rotation1 = myrandom(0, 360); // degrees
+  rotation2 = myrandom(0, 360); // degrees
+  state = RUNNING;
+  return saveStorage();
+};
+
+getStorage = function getStorage() {
+  var d1, d2, key;
+  key = params.nr + params.radius1;
+  if (localStorage["ShortcutGPS"] == null) {
+    localStorage["ShortcutGPS"] = "{}";
+  }
+  storage = JSON.parse(localStorage["ShortcutGPS"]);
+  if (key in storage) {
+    var _storage$key = storage[key];
+    a = _storage$key.a;
+    b = _storage$key.b;
+    count = _storage$key.count;
+    start = _storage$key.start;
+    stopp = _storage$key.stopp;
+    hist = _storage$key.hist;
+    rotation1 = _storage$key.rotation1;
+    rotation2 = _storage$key.rotation2;
+    state = _storage$key.state;
+
+    d1 = new Date(start);
+    d2 = new Date();
+    if (d1.getMonth() !== d2.getMonth() || d1.getDate() !== d2.getDate()) {
+      initStorage();
+    }
+  } else {
+    initStorage();
+  }
+  return print(storage[key]);
+};
+
+saveStorage = function saveStorage() {
+  var key;
+  key = params.nr + params.radius1;
+  storage[key] = { a: a, b: b, count: count, start: start, stopp: stopp, hist: hist, rotation1: rotation1, rotation2: rotation2, state: state };
+  return localStorage["ShortcutGPS"] = JSON.stringify(storage);
+};
+
 setup = function setup() {
   var args, button, d, hs, i, k, labels, len, n, txt, ws;
+  print([1, 2, 3].join(' '));
   createCanvas(windowWidth, windowHeight);
+  angleMode(DEGREES);
+  textAlign(CENTER, CENTER);
+  textSize(80);
   xo = width / 2;
   yo = height / 2;
 
@@ -359,24 +425,13 @@ setup = function setup() {
   print(params);
   d = new Date();
   params.seed += 31 * d.getMonth() + d.getDate() + 0.1 * params.level + 0.01 * params.radius1;
-
-  var _createProblem = createProblem(params.level, params.seed);
-
-  var _createProblem2 = _slicedToArray(_createProblem, 2);
-
-  a = _createProblem2[0];
-  b = _createProblem2[1];
-
+  getStorage();
   SCALE = min(width, height) / params.radius1 / 3;
   position = {
     x: xo,
     y: yo
   };
   track = [position];
-  start = millis();
-  angleMode(DEGREES);
-  textAlign(CENTER, CENTER);
-  textSize(80);
   ws = 0.35 * width;
   hs = 0.43 * height;
   buttons.push(new Text(a, xo - ws, yo - hs, 120, 1, 0, 0)); // a
@@ -410,14 +465,11 @@ setup = function setup() {
       return buttons[0].txt = a;
     }
   };
-  navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
+  return navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
     enableHighAccuracy: true,
     maximumAge: 30000,
     timeout: 27000
   });
-  rotation1 = myrandom(0, 360);
-  rotation2 = myrandom(0, 360);
-  return state = RUNNING;
 };
 
 draw = function draw() {
@@ -432,7 +484,7 @@ draw = function draw() {
     buttons[3].txt = myround((stopp - start) / 1000 + params.cost * count, 1);
   }
   if (state === RUNNING) {
-    buttons[3].txt = myround((millis() - start) / 1000 + params.cost * count);
+    buttons[3].txt = myround((Date.now() - start) / 1000 + params.cost * count);
   }
   buttons[4].txt = count;
   for (k = 0, len = buttons.length; k < len; k++) {
@@ -452,11 +504,13 @@ draw = function draw() {
   if (state === READY) {
     fc(0, 1, 0, 0.5);
     rect(0, 0, width, height);
+    msg = hist.join(' ');
   }
   if (state === DEAD) {
     fc(1, 0, 0, 0.5);
     rect(0, 0, width, height);
   }
+  // show gps circles
   fc();
   sw(2);
   for (i = m = 0, len2 = track.length; m < len2; i = ++m) {
@@ -478,7 +532,10 @@ draw = function draw() {
   if (msg) {
     text(msg, width / 2, height / 2);
   }
-  return pop();
+  pop();
+  if (frameCount % 60 === 0) {
+    return saveStorage();
+  }
 };
 
 createProblem = function createProblem(level, seed) {
@@ -516,10 +573,7 @@ createProblem = function createProblem(level, seed) {
 myround = function myround(x) {
   var decimals = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
 
-  x *= Math.pow(10, decimals);
-  x = round(x);
-  x /= Math.pow(10, decimals);
-  return x;
+  return round(x * Math.pow(10, decimals)) / Math.pow(10, decimals);
 };
 
 myrandom = function myrandom(a, b) {

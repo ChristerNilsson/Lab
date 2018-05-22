@@ -1,12 +1,12 @@
 url = "index.html"
 seeds = "ABCDEFGHIJ"
 with open("Shortcut-GPS.html", "w") as f:
-	f.write("<h1>Shortcut GPS</h1>\n<table style='font-size:200%'>\n")
-	f.write("<a href='https://github.com/ChristerNilsson/Lab/blob/master/2018/037-Shortcut-GPS/README.md#shortcut-gps' style='font-size:200%'>Instruktioner</a><br><br>\n")
+	f.write("<h1>Shortcut GPS</h1>\n<table style='font-size:400%'>\n")
+	f.write("<a href='https://github.com/ChristerNilsson/Lab/blob/master/2018/037-Shortcut-GPS/README.md#shortcut-gps' style='font-size:300%'>Instruktioner</a><br><br>\n")
 	for radius1 in [10,20,50,100,200,500]:
 		f.write(f"<tr><td><a href='{radius1}.html'>{radius1} meter</a></td></tr>\n")
 		with open(f"{radius1}.html", "w") as g:
-			g.write(f"<h1>{radius1} meter</h1>\n<table style='font-size:200%'>\n")
+			g.write(f"<h1>{radius1} meter</h1>\n<table style='font-size:300%'>\n")
 			for level in range(1,11):
 				s1 = f"&speed1={round((level-1)*0.05/radius1,4)}"
 				if level <= 5:
