@@ -25,7 +25,7 @@
 //     return inside;
 // };
 // `
-var c, group, halfCircle, hc, i, inside, k, len, r, ref, rotation, x, y;
+var c, dist, group, halfCircle, i, inside, k, len, r, ref, x, y;
 
 inside = function inside(x, y, vs) {
   var i, intersect, j, k, len, lst, res, xi, xj, yi, yj;
@@ -48,83 +48,85 @@ inside = function inside(x, y, vs) {
 
 group = null;
 
-rotation = 0.1;
-
-hc = null;
-
 r = new Rune({
   container: "body",
   width: 600,
   height: 600
 });
 
+dist = function dist(x1, y1, x2, y2) {
+  var dx, dy;
+  dx = x1 - x2;
+  dy = y1 - y2;
+  return Math.sqrt(dx * dx + dy * dy);
+};
+
 halfCircle = function halfCircle(x, y, radius, cr, cg, cb, group) {
-  var i, k, len, p, ref, v;
+  var p;
   p = r.polygon(x, y, group);
   p.fill(cr, cg, cb);
-  ref = range(19);
-  for (k = 0, len = ref.length; k < len; k++) {
-    i = ref[k];
-    v = Rune.radians(i * 10);
-    p.lineTo(radius * Math.cos(v), radius * Math.sin(v));
-  }
+  p.lineTo(-50, 0);
+  p.lineTo(-50, radius);
+  p.lineTo(50, radius);
+  p.lineTo(50, 0);
   return p;
 };
 
-//doit = ->
 group = r.group(300, 300);
 
 c = r.circle(0, 0, 200, group);
 
 c.fill(0, 255, 0);
 
-ref = range(3);
+ref = range(4);
 for (k = 0, len = ref.length; k < len; k++) {
   i = ref[k];
-  x = 200 * Math.cos(Rune.radians(i * 120));
-  y = 200 * Math.sin(Rune.radians(i * 120));
-  hc = halfCircle(x, y, 100, 255, 255, 0, group);
-  halfCircle(x, y, -100, 255, 0, 0, group);
+  x = 200 * Math.cos(Rune.radians(90 * i));
+  y = 200 * Math.sin(Rune.radians(90 * i));
+  r.circle(x, y, 50, group);
 }
 
-print(hc);
-
-//for i in range -100,110,10
-//	print i,inside i,10,hc.state.vectors 
+//halfCircle x,y, 50,255,  0,0,group
+//halfCircle x,y,-50,255,255,0,group
 r.on('update', function () {
-  var child, l, len1, ref1, x0, y0;
-  x0 = group.state.x;
-  y0 = group.state.y;
-  group.rotate(rotation, x0, y0);
+  var rotation;
+  var _group$state = group.state;
+  x = _group$state.x;
+  y = _group$state.y;
+  rotation = _group$state.rotation;
+
+  return group.rotate(rotation + 0.1, x, y);
+});
+
+// for child,i in group.children
+// 	if i>0
+// 		{x,y,rotation} = child.state
+// 		child.rotate rotation-0.2,x,y
+r.el.addEventListener('mousedown', function (mouse) {
+  var child, d, l, len1, pos, ref1, results;
   ref1 = group.children;
+  results = [];
   for (i = l = 0, len1 = ref1.length; l < len1; i = ++l) {
     child = ref1[i];
     if (i > 0) {
-      //if i==1 then print child.state
+      pos = new Rune.Vector(300, 300);
       var _child$state = child.state;
       x = _child$state.x;
       y = _child$state.y;
-      if (i === 1) {
-        print(child.state);
+
+      pos = pos.add(new Rune.Vector(x, y).rotate(group.state.rotation));
+      d = dist(pos.x, pos.y, mouse.x, mouse.y);
+      if (d < 50) {
+        results.push(child.fill(0, 0, 0));
+      } else {
+        results.push(child.fill(255, 255, 255));
       }
-      child.rotate(rotation, x, y);
+    } else {
+      results.push(void 0);
     }
   }
-  //if inside 510-x0-x,310-y0-y,child.state.vectors 
-  //	child.fill 0,0,0
-  //else
-  //child.fill 255,255,255
-  return rotation += 0.1;
+  return results;
 });
 
-r.on('mousemove', function (mouse) {
-  return console.log('mousemove'); // happens not
-});
-
-r.on('draw', function () {
-  return console.log('draw'); // happens not
-});
-
-//doit()
 r.play();
 //# sourceMappingURL=sketch.js.map
