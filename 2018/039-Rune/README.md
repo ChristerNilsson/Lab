@@ -1,30 +1,19 @@
-# Mall
+# 039-Rune
 
-* Libraries innehåller bl a p5-filer.
-* index.html används när man vill köra programmet i Google Chrome.
-* katalogen coffee innehåller din kod. Redigera med Sublime.
-* js-filer skapas automatiskt av startProject.bat
+## Investigation of rune.js
 
-## Detta gör du en enda gång
+http://runemadsen.github.io/rune.js/documentation.html#runevector
 
-* Kopiera 000-Mall med Clone or Download
-* Välj Download .Zip 
-* Packa upp innehållet och spara i en egen katalog med namnet 000-Mall. Dvs inget -master
-* Flytta upp createProject.bat en nivå.
+Looks like a solid alternative to p5.js
 
-## Detta gör du när du skapar ett nytt projekt
+But, it had some issues:
 
-* Använd createProject för att skapa en kopia av mallen.
-* Byt namn på NewProject. T ex till 001-projektnamn.
-
-## Detta gör du när du utvecklar
-
-* Gå in i katalogen och starta startProject
-  * index.html startas i Chrome
-  * sublime startas. 
-  	* Stäng eventuellt befintligt projekt med Remove Folder from Project
-  * transpilern startas
-* Ändra i sketch.coffee. Spara med ctrl-S
-* Transpilering sker automatiskt. Ett pip hörs vid syntaxfel.
-* Refresha Chrome.
-
+* mouse events did not respond
+* no arc a la p5
+* stagepos did not consider rotations
+* no contains for
+  * rect
+  * circle
+  * ellipse
+  * triangle
+* rudimentary tests
