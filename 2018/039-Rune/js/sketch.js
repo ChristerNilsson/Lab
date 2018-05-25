@@ -6,7 +6,64 @@
 // contains does not work
 
 // `
-// function inside1(x,y, vs) {
+//   // Code from ContainsPoint function here:
+//   // http://polyk.ivank.net
+//   contains: function(x, y) {
+//     // get stage position
+//     var addPos = this.stagepos();
+
+//     // map array of vectors to flat array of xy numbers
+//     // This might be slow, so let's rewrite this at some point.
+
+//     var p = Utils.flatten(
+//       this.state.vectors.map(function(vector) {
+//         return [addPos.x + vector.x, addPos.y + vector.y];
+//       }, this)
+//     );
+
+//     var n = p.length >> 1;
+//     var ax,
+//       ay = p[2 * n - 3] - y,
+//       bx = p[2 * n - 2] - x,
+//       by = p[2 * n - 1] - y;
+
+//     var lup;
+//     for (var i = 0; i < n; i++) {
+//       ax = bx;
+//       ay = by;
+//       bx = p[2 * i] - x;
+//       by = p[2 * i + 1] - y;
+//       if (ay == by) continue;
+//       lup = by > ay;
+//     }
+
+//     var depth = 0;
+//     for (var i = 0; i < n; i++) {
+//       ax = bx;
+//       ay = by;
+//       bx = p[2 * i] - x;
+//       by = p[2 * i + 1] - y;
+//       if (ay < 0 && by < 0) continue; // both "up" or both "down"
+//       if (ay > 0 && by > 0) continue; // both "up" or both "down"
+//       if (ax < 0 && bx < 0) continue; // both points on the left
+
+//       if (ay == by && Math.min(ax, bx) <= 0) return true;
+//       if (ay == by) continue;
+
+//       var lx = ax + (bx - ax) * -ay / (by - ay);
+//       if (lx == 0) return true; // point on edge
+//       if (lx > 0) depth++;
+//       if (ay == 0 && lup && by > ay) depth--; // hit vertex, both up
+//       if (ay == 0 && !lup && by < ay) depth--; // hit vertex, both down
+//       lup = by > ay;
+//     }
+
+//     return (depth & 1) == 1;
+//   },
+// `
+
+// `
+// function inside(v, vs) {
 //     // ray-casting algorithm based on
 //     // http://www.ecse.rpi.edu/Homepages/wrf/Research/Short_Notes/pnpoly.html
 
@@ -17,8 +74,8 @@
 //         var xi = vs[i].x, yi = vs[i].y;
 //         var xj = vs[j].x, yj = vs[j].y;
 
-//         var intersect = ((yi > y) != (yj > y))
-//             && (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
+//         var intersect = ((yi > v.y) != (yj > v.y))
+//             && (v.x < (xj - xi) * (v.y - yi) / (yj - yi) + xi);
 //         if (intersect) inside = !inside;
 //     }
 
@@ -27,7 +84,7 @@
 // `
 var c, dist, group, halfCircle, i, inside, k, len, r, ref, x, y;
 
-inside = function inside(x, y, vs) {
+inside = function inside(v, vs) {
   var i, intersect, j, k, len, lst, res, xi, xj, yi, yj;
   res = false;
   lst = range(vs.length);
@@ -38,7 +95,7 @@ inside = function inside(x, y, vs) {
     yi = vs[i].y;
     xj = vs[j].x;
     yj = vs[j].y;
-    intersect = yi > y !== yj > y && x < (xj - xi) * (y - yi) / (yj - yi) + xi;
+    intersect = yi > v.y !== yj > v.y && v.x < (xj - xi) * (v.y - yi) / (yj - yi) + xi;
     if (intersect) {
       res = !res;
     }
@@ -61,14 +118,25 @@ dist = function dist(x1, y1, x2, y2) {
   return Math.sqrt(dx * dx + dy * dy);
 };
 
-halfCircle = function halfCircle(x, y, radius, cr, cg, cb, group) {
-  var p;
-  p = r.polygon(x, y, group);
+// halfCircle = (x,y,radius,cr,cg,cb,group) ->
+// 	p = r.polygon x,y,group
+// 	p.fill cr,cg,cb
+// 	p.lineTo -50,0
+// 	p.lineTo -50,radius
+// 	p.lineTo 50,radius
+// 	p.lineTo 50,0
+// 	p
+halfCircle = function halfCircle(x0, y0, radius, cr, cg, cb, group) {
+  var k, len, p, ref, v, x, y;
+  p = r.polygon(x0, y0, group);
   p.fill(cr, cg, cb);
-  p.lineTo(-50, 0);
-  p.lineTo(-50, radius);
-  p.lineTo(50, radius);
-  p.lineTo(50, 0);
+  ref = range(0, 190, 10);
+  for (k = 0, len = ref.length; k < len; k++) {
+    v = ref[k];
+    x = radius * Math.cos(Rune.radians(v));
+    y = radius * Math.sin(Rune.radians(v));
+    p.lineTo(x, y);
+  }
   return p;
 };
 
@@ -83,44 +151,53 @@ for (k = 0, len = ref.length; k < len; k++) {
   i = ref[k];
   x = 200 * Math.cos(Rune.radians(90 * i));
   y = 200 * Math.sin(Rune.radians(90 * i));
-  r.circle(x, y, 50, group);
+  halfCircle(x, y, -50, 255, 255, 0, group);
+  halfCircle(x, y, +50, 255, 0, 0, group);
 }
 
-//halfCircle x,y, 50,255,  0,0,group
-//halfCircle x,y,-50,255,255,0,group
 r.on('update', function () {
-  var rotation;
+  var child, l, len1, ref1, results, rotation;
   var _group$state = group.state;
   x = _group$state.x;
   y = _group$state.y;
   rotation = _group$state.rotation;
 
-  return group.rotate(rotation + 0.1, x, y);
-});
-
-// for child,i in group.children
-// 	if i>0
-// 		{x,y,rotation} = child.state
-// 		child.rotate rotation-0.2,x,y
-r.el.addEventListener('mousedown', function (mouse) {
-  var child, d, l, len1, pos, ref1, results;
+  group.rotate(rotation + 0.1, x, y);
   ref1 = group.children;
   results = [];
   for (i = l = 0, len1 = ref1.length; l < len1; i = ++l) {
     child = ref1[i];
     if (i > 0) {
-      pos = new Rune.Vector(300, 300);
       var _child$state = child.state;
       x = _child$state.x;
       y = _child$state.y;
+      rotation = _child$state.rotation;
 
-      pos = pos.add(new Rune.Vector(x, y).rotate(group.state.rotation));
-      d = dist(pos.x, pos.y, mouse.x, mouse.y);
-      if (d < 50) {
-        results.push(child.fill(0, 0, 0));
-      } else {
-        results.push(child.fill(255, 255, 255));
-      }
+      results.push(child.rotate(rotation + 0.1, x, y));
+    } else {
+      results.push(void 0);
+    }
+  }
+  return results;
+});
+
+r.el.addEventListener('mousemove', function (mouse) {
+  var child, l, len1, m, p1, p2, p3, p4, ref1, results;
+  m = new Rune.Vector(mouse.x, mouse.y);
+  p1 = new Rune.Vector(300, 300);
+  ref1 = group.children;
+  results = [];
+  for (i = l = 0, len1 = ref1.length; l < len1; i = ++l) {
+    child = ref1[i];
+    if (i > 0) {
+      var _child$state2 = child.state;
+      x = _child$state2.x;
+      y = _child$state2.y;
+
+      p2 = p1.add(new Rune.Vector(x, y).rotate(group.state.rotation));
+      p3 = m.sub(p2);
+      p4 = p3.rotate(-group.state.rotation - child.state.rotation);
+      results.push(child.fill(inside(p4, child.state.vectors) ? 0 : 255));
     } else {
       results.push(void 0);
     }
