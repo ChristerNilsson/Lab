@@ -37,20 +37,23 @@ r.on 'update', =>
 			{x,y,rotation} = child.state
 			child.rotate rotation-0.2,x,y
 
-stagepos = (child) -> 
+stagepos = (child) -> # returns resulting [pos, rotation]
 	lst = []
 	current = child
 	while current
 		lst.unshift current.state
 		current = current.parent
 	vec = new Rune.Vector 0,0	
+
 	rot = 0
+	rotres = 0
 	for {x,y,rotation} in lst
+		rotres += rotation
 		v1 = new Rune.Vector x, y
 		v2 = v1.rotate rot
 		rot = rotation
 		vec = vec.add v2
-	vec
+	[vec,rotres]
 
 inside = (v, vs) ->
 	res = false
@@ -66,12 +69,12 @@ inside = (v, vs) ->
 	res
 
 contains = (child, m) ->
-	p2 = stagepos child
+	[p2,rotation] = stagepos child
 	p3 = m.sub p2
-	p4 = p3.rotate -group.state.rotation-child.state.rotation
+	p4 = p3.rotate -rotation
 	inside p4, child.state.vectors
 
-r.el.addEventListener 'mousedown', (mouse) ->	
+r.el.addEventListener 'mousemove', (mouse) ->	
 	m = new Rune.Vector mouse.x,mouse.y
 	for child,i in group.children
 		if i > 0 
