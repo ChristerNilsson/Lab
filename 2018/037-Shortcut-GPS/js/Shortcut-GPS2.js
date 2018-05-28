@@ -58,7 +58,7 @@ setup = function setup() {
   textAlign(CENTER, CENTER);
   w = width / W;
   h = height / H;
-  textSize(h / 2);
+  textSize(0.4 * h);
   sc();
   ref = range(H);
   // level

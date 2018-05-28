@@ -45,7 +45,7 @@ setup = function setup() {
   textAlign(CENTER, CENTER);
   w = width / 1;
   h = height / 7;
-  textSize(h);
+  textSize(0.8 * h);
   sc();
   ref = "Instructions 10m 20m 50m 100m 200m 500m".split(' ');
   results = [];

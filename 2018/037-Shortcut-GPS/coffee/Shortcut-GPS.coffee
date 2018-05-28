@@ -11,8 +11,8 @@ setup = ->
 	createCanvas windowWidth,windowHeight
 	textAlign CENTER,CENTER
 	w = width/1
-	h = height/7
-	textSize h
+	h = height/7 
+	textSize 0.8*h
 	sc()
 	for txt,i in "Instructions 10m 20m 50m 100m 200m 500m".split ' '
 		button = new Button txt,width/2,h/2+i*h,txt

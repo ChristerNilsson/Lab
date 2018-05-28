@@ -20,7 +20,7 @@ setup = ->
 	textAlign CENTER,CENTER
 	w = width/W
 	h = height/H
-	textSize h/2
+	textSize 0.4*h
 	sc()
 	for j in range H # level
 		for i in range W 
