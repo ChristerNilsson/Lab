@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "Shortcut-GPS.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\Shortcut-GPS.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;AAAA,IAAA,QAAA,SAAA,MAAA,GAAA,cAAA,OAAA;;AAAA,UAAU;;AACV,IAAI;;AACJ,IAAI;;AAEJ,AAAM;AACL,AAAc,kBAAA,MAAA,GAAA,GAAA,QAAA;;;AAAC,AAAC,SAAA;AAAI,AAAC,SAAA;AAAE,AAAC,SAAA;AAAE,AAAC,SAAA;AAAO,AAAC,SAAA,QAArB;AACd,AAAO;;;;;aAAG,KAAK,AAAC,KAAN,AAAM,KAAI,AAAC,KAAX,AAAW,GAAE,AAAC,KAAjB,AAAG,AAAc;AACxB,AAAS;;;2BAAA,AAAC,IAAD,AAAI;aAAO,AAAC,KAAD,AAAC,IAAE,IAAH,AAAK,IAAL,AAAS,MAAT,AAAS,KAAK,AAAC,KAAD,AAAC,IAAE,IAAjB,AAAmB,AAAM,CAAzB,IAAyB,AAAC,KAAD,AAAC,IAAE,IAAH,AAAK,IAAL,AAAS,MAAT,AAAS,KAAK,AAAC,KAAD,AAAC,IAAE,IAArD,AAAoC,AAAmB;AAHjE;;;;;;AAKA,QAAQ,iBACP;MAAA,QAAA,GAAA,GAAA,KAAA,KAAA,SAAA;AAAA,eAAA,AAAa,aAAb,AAAyB;AACzB,YAAA,AAAU,QAAV,AAAiB;AACjB,MAAI,QAAM;AACV,MAAI,SAAO;AACX,WAAA,AAAS;AACT,AACA;wDAAA;;AAAA,OAAA,4CAAA;;AACC,aAAS,IAAA,AAAI,OAAJ,AAAW,KAAI,QAAf,AAAqB,GAAE,IAAA,AAAE,IAAE,IAA3B,AAA6B,GAA7B,AAA+B;AACxC,AAAO,YAAP,AAAQ,KAAR,AAAa;AACb,QAAG,MAAH,AAAQ;mBACP,AAAM,OAAN,AAAO,QAAQ;eAAG,AAAM,OAAN,AAAO,KAAV,AAAG,AAAY;AAD/B;AAAA,WAAA;mBAGC,AAAM,OAAN,AAAO,QAAQ;eAAG,AAAM,OAAN,AAAO,KAAK,6BAA6B,AAAC,KAA7C,AAAG,AAA0C;AAH7D;AAHD;AAAA;SAPO;;;AAeR,OAAO,gBACN;MAAA,QAAA,GAAA,KAAA;AAAA,KAAA,AAAG,AACH;;AAAA,OAAA,sCAAA;;iBACC,AAAM,OADP,AACC,AAAO;AADR;SAFM;;;AAKP,eAAe,sBAAA,AAAC,IAAD,AAAI,IAClB;MAAA,QAAA,GAAA,KAAA;;AAAA,OAAA,sCAAA;;AACC,QAAG,AAAM,OAAN,AAAO,OAAP,AAAc,QAAjB,AAAG,AAAqB;mBACvB,AAAM,OADP,AACC,AAAO;AADR,WAAA;wBAAA;AADD;AAAA;SADc",
+  "sourcesContent": [
+    "buttons = []\r\nw = null\r\nh = null\r\n\r\nclass Button\r\n\tconstructor : (@txt,@x,@y,@radius,@event) ->\r\n\tdraw : -> text @txt,@x,@y\r\n\tinside : (mx,my) -> @x-w/2 < mx < @x+w/2 and @y-h/2 < my < @y+h/2\r\n\r\nsetup = ->\r\n\tcreateCanvas windowWidth,windowHeight\r\n\ttextAlign CENTER,CENTER\r\n\tw = width/1\r\n\th = height/7\r\n\ttextSize h\r\n\tsc()\r\n\tfor txt,i in \"Instructions 10m 20m 50m 100m 200m 500m\".split ' '\r\n\t\tbutton = new Button txt,width/2,h/2+i*h,txt\r\n\t\tbuttons.push button\r\n\t\tif i == 0\r\n\t\t\tbutton.event = -> window.open 'https://github.com/ChristerNilsson/Lab/blob/master/2018/037-Shortcut-GPS/README.md#shortcut-gps' \r\n\t\telse\r\n\t\t\tbutton.event = ->\twindow.open 'Shortcut-GPS2.html?size=' + @radius\r\n\r\ndraw = ->\r\n\tbg 1\r\n\tfor button in buttons \r\n\t\tbutton.draw()\r\n\r\nmousePressed = (mx,my) ->\r\n\tfor button in buttons\r\n\t\tif button.inside mouseX,mouseY\r\n\t\t\tbutton.event()"
+  ]
+}
