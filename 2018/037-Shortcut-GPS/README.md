@@ -55,4 +55,4 @@ Dessa knappar når du genom att springa eller gå.
 
 Klicka på https://goo.gl/1JNVnJ eller scanna QR-koden.
 
-A t o m H har alla samma svårighetsgrad, dvs kräver like många klick.
+A t o m H har alla samma svårighetsgrad, dvs kräver lika många klick.
