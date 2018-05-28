@@ -9,7 +9,7 @@ var Button, H, W, buttons, draw, h, mousePressed, myround, setup, w;
 
 buttons = [];
 
-W = 8;
+W = 1 + 8;
 
 H = 10;
 
@@ -24,7 +24,9 @@ myround = function myround(x) {
 };
 
 Button = function () {
-  function Button(txt, x1, y, url1, event) {
+  function Button(txt, x1, y, url1) {
+    var event = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : function () {};
+
     _classCallCheck(this, Button);
 
     this.txt = txt;
@@ -50,7 +52,7 @@ Button = function () {
 }();
 
 setup = function setup() {
-  var i, j, k, len, level, nr, params, ref, results, seed, size, speed1, speed2, url;
+  var button, i, j, k, len, level, nr, params, ref, results, seed, size, speed1, speed2, url;
   createCanvas(windowWidth, windowHeight);
   params = getParameters();
   size = params.size;
@@ -58,7 +60,7 @@ setup = function setup() {
   textAlign(CENTER, CENTER);
   w = width / W;
   h = height / H;
-  textSize(0.4 * h);
+  textSize(0.5 * h);
   sc();
   ref = range(H);
   // level
@@ -72,7 +74,11 @@ setup = function setup() {
       for (l = 0, len1 = ref1.length; l < len1; l++) {
         i = ref1[l];
         level = j + 1;
-        nr = level + "ABCDEFGH"[i];
+        if (i === 0) {
+          nr = level;
+        } else {
+          nr = " ABCDEFGH"[i];
+        }
         seed = myround(0.1 * i, 1);
         speed1 = '' + myround((level - 1) * 0.05 / size, 4);
         if (level <= 5) {
@@ -80,10 +86,15 @@ setup = function setup() {
         } else {
           speed2 = '' + myround((level - 5) * 0.01 / (0.3 * size), 4);
         }
-        url = 'index.html?radius1=' + size + '&nr=' + nr + '&level=' + level + '&seed=' + seed + '&speed1=' + speed1 + '&speed2=' + speed2;
-        results1.push(buttons.push(new Button(nr, w / 2 + i * w, h / 2 + j * h, url, function () {
-          return window.open(this.url);
-        })));
+        url = 'index.html?radius1=' + size + '&nr=' + (level + nr) + '&level=' + level + '&seed=' + seed + '&speed1=' + speed1 + '&speed2=' + speed2;
+        buttons.push(button = new Button(nr, w / 2 + i * w, h / 2 + j * h, url));
+        if (i > 0) {
+          results1.push(button.event = function () {
+            return window.open(this.url);
+          });
+        } else {
+          results1.push(void 0);
+        }
       }
       return results1;
     }());
