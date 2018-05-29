@@ -2,7 +2,6 @@ stage = null
 cn = {}
 #########
 
-karusell = null
 shapes = {}
 
 class Vector
@@ -23,22 +22,27 @@ class Shape
 		@fillColor = "#fff"
 		@strokeColor = "#000"
 		@strokeWeight = 1
+		@txt = ''
 		if @parent? then @parent.add @
 
-	draw : -> 
+	draw : ->
 		translate @x,@y
 		rotate @rotation
 		for child in @children
 			push()
-			child.draw() 
+			child.draw()
 			pop()
 
 	add : (shape) -> @children.push shape
-	fill : (color) -> 
+
+	fill : (color) ->
 		@fillColor = color
 		@
-	stroke : (color) -> 
+	stroke : (color) ->
 		@strokeColor = color
+		@
+	text : (txt) ->
+		@txt = txt
 		@
 
 	contains : (m) -> # m is mouse position
@@ -46,7 +50,7 @@ class Shape
 		p = new Vector x,y
 		p = m.sub p
 		p = p.rotate -rotation
-		@inside p 
+		@inside p
 
 	stagepos : -> # returns resulting [x, y, rotation]
 		lst = []
@@ -65,10 +69,18 @@ class Shape
 			vec = vec.add v2
 		[vec.x,vec.y,rotres]
 
+	clicked : (f) -> @click = f
+
 	mouseMoved : (m) -> # m = mouse position
 		for child in @children
 			child.strokeWeight = if child.contains m then 3 else 1
 			child.mouseMoved m
+
+	mousePressed : (m) -> # m = mouse position
+		for child in @children
+			if child.click? 
+				if child.contains m then child.click()
+			child.mousePressed m
 
 	move : (dx,dy) -> [@x,@y] = [@x+dx,@y+dy]
 
@@ -108,15 +120,12 @@ class Circle extends Shape
 		fill @fillColor
 		strokeWeight @strokeWeight
 		circle 0,0,@radius
-	inside : (d) -> @radius >= sqrt d.x*d.x+d.y*d.y 
+		fill '#000'
+		textSize 30
+		textAlign CENTER,CENTER
+		text @txt,0,0
 
-# class Circle extends Polygon
-# 	constructor : (x,y,@radius,parent=stage) -> 
-# 		super x,y,parent
-# 		for v in range 0,361,10
-# 			x = @radius * cos v
-# 			y = @radius * sin v
-# 			@lineTo x,y
+	inside : (d) -> @radius >= sqrt d.x*d.x+d.y*d.y
 
 class Arc extends Polygon
 	constructor : (x,y,radius,start,stopp,parent=stage) ->
@@ -158,31 +167,33 @@ setup = ->
 	# test()
 
 	stage = new Shape()
-	karusell = cn.group 200,200
-	cn.circle(0,0,100,karusell).fill "#ff0"
-	cn.rect(0,-100,100,100,karusell).fill "#f00"
-	cn.rect(-100,0,100,100,karusell).fill "#0f0"
-	cn.circle(0,100,50,karusell).fill "#fff"
-	cn.arc(100,0, 50,0,180,karusell).fill "#f00"
-	cn.arc(100,0,-50,0,180,karusell).fill "#0f0"
+	cn.circle(300,300,200).fill "#ff0"
+	shapes.letters = cn.group 300,300
+	shapes.digits = cn.group 300,300
 
-	shapes.r1 = cn.rect 200,400,50,100
-	shapes.r2 = cn.rect 300,400,50,100
-	shapes.a1 = cn.arc  100,400,50,0,45
-	shapes.a2 = cn.arc  100,400,50,45,90
+	alfabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+	for letter,i in alfabet
+		x = 200 * cos i*360/alfabet.length
+		y = 200 * sin i*360/alfabet.length
+		cn.circle(x,y,20,shapes.letters).fill("#f00").text(letter).clicked -> print @txt
 
-	#karusell.rotation = 45
-	#print stage 
+	numbers = '0123456789'
+	for digit,i in numbers
+		x = 260 * cos i*360/numbers.length
+		y = 260 * sin i*360/numbers.length
+		cn.circle(x,y,40,shapes.digits).fill("#0f0").text(digit).clicked -> print @txt
 
 draw = ->
-	bg 1
-	stage.draw() 
-	karusell.rotation += 0.1
-	for child in karusell.children
-		child.rotation += 0.05
-	shapes.r2.rotation += 0.1
-	shapes.r2.move 0.1,0
-	shapes.a1.rotation += 0.1
-	shapes.a2.rotation += 0.1
+	bg 0.5
+	stage.draw()
 
-mouseMoved = ->	stage.mouseMoved new Vector mouseX,mouseY
+	shapes.letters.rotation += 0.1
+	for child in shapes.letters.children
+		child.rotation -= 0.1
+
+	shapes.digits.rotation -= 0.1
+	for child in shapes.digits.children
+		child.rotation += 0.1
+
+mouseMoved   = ->	stage.mouseMoved   new Vector mouseX,mouseY
+mousePressed = ->	stage.mousePressed new Vector mouseX,mouseY
