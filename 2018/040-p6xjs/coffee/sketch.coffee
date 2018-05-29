@@ -189,11 +189,11 @@ draw = ->
 
 	shapes.letters.rotation += 0.1
 	for child in shapes.letters.children
-		child.rotation -= 0.1
+		child.rotation -= 2.9
 
 	shapes.digits.rotation -= 0.1
 	for child in shapes.digits.children
-		child.rotation += 0.1
+		child.rotation += 3.1
 
 mouseMoved   = ->	stage.mouseMoved   new Vector mouseX,mouseY
 mousePressed = ->	stage.mousePressed new Vector mouseX,mouseY

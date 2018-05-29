@@ -463,14 +463,14 @@ draw = function draw() {
   ref = shapes.letters.children;
   for (k = 0, len = ref.length; k < len; k++) {
     child = ref[k];
-    child.rotation -= 0.1;
+    child.rotation -= 2.9;
   }
   shapes.digits.rotation -= 0.1;
   ref1 = shapes.digits.children;
   results = [];
   for (l = 0, len1 = ref1.length; l < len1; l++) {
     child = ref1[l];
-    results.push(child.rotation += 0.1);
+    results.push(child.rotation += 3.1);
   }
   return results;
 };
