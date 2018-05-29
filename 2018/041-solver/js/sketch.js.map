@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;AAAA,IAAA,OAAA;;AAAA,QAAQ,iBACP;MAAA,QAAA,QAAA;AAAA,UAAQ;AACR,AAAK,QAAL,AAAM,SAAN,AAAe,GAAf,AAAkB;AAClB,WAAS,cAAA,AAAc;AACvB,AAAM,SAAN,AAAO,SAAP,AAAgB,GAAhB,AAAkB;AAClB,WAAS,aAAA,AAAa;AACtB,AAAM,SAAN,AAAO,SAAS,AAAK,MAAL,AAAM,IAAI,AAAK,MAA/B,AAAgC,OAAhC,AAAuC;gBACvC,AAAO,aAAa;QACnB,GAAA;;AAAA,6BAAQ,AAAK,MAAL,AAAM,AAAO,QAAb,AAAc,MAAd,AAAoB;;;;AAA5B,AAAC;AAAD,AAAG;;AACH,QAAI,SAAA,AAAS;AACb,QAAI,SAAA,AAAS;WACb,AAAM,OAAN,AAAO,KAAK,MAAA,AAAM,GAJC,AAInB,AAAY,AAAQ;AAXd,AAOP,GAAA,AAAM;;;AAMP,QAAQ,eAAA,AAAC,GAAD,AAAG,GACV;MAAA,MAAA,GAAA,MAAA,IAAA,IAAA,KAAA,GAAA,MAAA;AAAA,SAAO;AACP,OAAK,CAAA,AAAC;AACN,OAAK;AAEL,SAAO,cAAA,AAAC,GAAD,AAAG;AACT,QAAG,KAAH,AAAQ,MAAU;AAAlB;;AACA,AAAE,OAAF,AAAG,KAAH,AAAQ;WACR,AAAK,KAAL,AAAK,KAHC,AAGI;AAEX;SAAM,EAAA,KAAN,AAAM,AAAS;AACd,SAAA,iCAAA;;AACC,WAAA,AAAK,MAAK,OAAV,AAAe;AACf,WAAA,AAAK,MAAK,OAAV,AAAe;AACf,UAAG,OAAA,AAAK,MAAR,AAAW;AAAO,aAAA,AAAK,MAAK,OAA5B,AAAkB,AAAe;AAHlC;AAIA;eAAU,CAAA,AAAC,IALZ,AAKW,AAAI;AAAd,AAAC;AAAD,AAAI;;AAEL,aAAW;AACX,MAAI,AACJ;SAAA,AAAM;AACL,AAAQ,aAAR,AAAS,KAAT,AAAc;AACd,QAAI,AAAK,KAAA;AACT,QAAG,MAAH,AAAM,GAAO;aAAO,AAAQ,SAAR,AAAS,OAAT,AAAgB,AAAE,GAAlB,AAAmB,AAAS,UAA5B,AAA6B,KAAjD,AAAoB,AAAkC;AAHvD;AAnBO",
+  "sourcesContent": [
+    "setup = ->\r\n\tinput = createInput()\r\n\tinput.position 0, 10\r\n\tanswer = createElement 'h2'\r\n\tanswer.position 0,20\r\n\tbutton = createButton 'solve'\r\n\tbutton.position input.x + input.width, 10\r\n\tbutton.mousePressed ->\r\n\t\t[a,b] = input.value().split ' '\r\n\t\ta = parseInt a\r\n\t\tb = parseInt b\r\n\t\tanswer.html solve a,b\r\n\r\nsolve = (a,b) ->\r\n\tback = {}\r\n\tla = [a]\r\n\tlb = []\r\n\r\n\tsave = (x,y) ->\r\n\t\tif y of back then return \r\n\t\tlb.push y\r\n\t\tback[y] = x\r\n\r\n\twhile b not of back \r\n\t\tfor item in la\r\n\t\t\tsave item,item+2\r\n\t\t\tsave item,item*2\r\n\t\t\tif item%2==0 then save item,item/2\r\n\t\t[la,lb] = [lb,la]\r\n\r\n\tsolution = []\r\n\tp = b\r\n\twhile true\r\n\t\tsolution.push p\r\n\t\tp = back[p]\r\n\t\tif p==a then return solution.concat(a).reverse().join ' '\r\n"
+  ]
+}
