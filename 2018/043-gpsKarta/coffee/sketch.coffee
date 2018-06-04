@@ -1,32 +1,18 @@
-spara = ([lat,lon],[x,y]) -> {lat, lon, x, y}
+FILENAME = 'karta.jpg'
 
+spara = ([lat,lon],[x,y]) -> {lat, lon, x, y}
 A = spara [59.300736, 18.125648],[554,433] 
 B = spara [59.300593, 18.163456],[5422,158] 
 C = spara [59.265339, 18.159501],[5384,9114] 
 D = spara [59.281411, 18.122435],[338,5298] # Sockenvägen/Ätravägen
 E = spara [59.266262, 18.144961],[3496,8980] # Garden Center
 
-# Testpunkter
-P1 = spara [59.275687,18.155340], [4697, 6518] # krknök
-P2 = spara [59.280348,18.155122],[4590,5310] # trevägsskylt
-P3 = B
-P4 = spara [59.279172,18.149319],[3877,5681] # Bron
-
-N = null
-O = null
-P = null
-Q = null
-
 WIDTH = 6912
 HEIGHT = 9216
-cx = 0 # center (image coordinates)
-cy = 0
+[cx,cy] = [0,0] # center (image coordinates)
 SCALE = 1
 
-swidth = 0
-sheight = 0
-
-released = true 
+released = true # android
 
 gps = null
 TRACKED = 5 # circles shows the player's position
@@ -36,13 +22,13 @@ track = [] # five latest GPS positions
 buttons = []
 
 img = null
-message = ''
-preload = -> img = loadImage 'karta.jpg'
 
-myround = (x) ->
-	x *= 1000000
+preload = -> img = loadImage FILENAME
+
+myround = (x,dec=6) ->
+	x *= 10**dec
 	x = round x
-	x/1000000
+	x/10**dec
 
 show = (prompt,p) -> print prompt,"http://maps.google.com/maps?q=#{p.lat},#{p.lon}"	
 
@@ -64,21 +50,38 @@ corner = (a,b,c,d,x,y)->
 	{lat,lon,x,y} 	
 
 makeCorners = ->
-	F = vercal A,D,0
-	G = vercal B,C,0
-	H = hortal A,B,WIDTH
-	I = hortal E,C,WIDTH
-	J = vercal B,C,HEIGHT
-	K = vercal A,D,HEIGHT
-	L = hortal E,C,0
-	M = hortal A,B,0
+	f = vercal A,D,0
+	k = vercal A,D,HEIGHT
+	g = vercal B,C,0
+	j = vercal B,C,HEIGHT
 
-	N = corner F,G,M,L,0,    0
-	O = corner F,G,H,I,WIDTH,0
-	P = corner K,J,H,I,WIDTH,HEIGHT
-	Q = corner K,J,M,L,0,    HEIGHT
+	m = hortal A,B,0
+	h = hortal A,B,WIDTH
+	l = hortal E,C,0
+	i = hortal E,C,WIDTH
 
-	gps = new GPS N,O,P,Q,WIDTH,HEIGHT
+	nw = corner f,g,m,l,0,    0
+	ne = corner f,g,h,i,WIDTH,0
+	se = corner k,j,h,i,WIDTH,HEIGHT
+	sw = corner k,j,m,l,0,    HEIGHT
+
+	gps = new GPS nw,ne,se,sw,WIDTH,HEIGHT
+
+	# Testpunkter
+	P1 = spara [59.275687,18.155340], [4697, 6518] # krknök
+	P2 = spara [59.280348,18.155122],[4590,5310] # trevägsskylt
+	P3 = B
+	P4 = spara [59.279172,18.149319],[3877,5681] # Bron
+
+	gps.check_gps2bmp P1, [6,7]
+	gps.check_gps2bmp P2, [24,38]
+	gps.check_gps2bmp P3, [0,1]
+	gps.check_gps2bmp P4, [-4,7]
+
+	gps.check_bmp2gps P1,[2.4,-1.2]
+	gps.check_bmp2gps P2,[14.9, -7.35]
+	gps.check_bmp2gps P3,[0.2,0]
+	gps.check_bmp2gps P4,[2.3,2.75]
 
 	# show 'A',A
 	# show 'B',B
@@ -98,31 +101,9 @@ makeCorners = ->
 	# show 'P',P
 	# show 'Q',Q
 
-calcx = (x,y,a,b) ->
-	lon = map x, a.x,b.x, a.lon,b.lon
-	lat = map x, a.x,b.x, a.lat,b.lat  
-	{lat,lon,x,y} 	
-
-calcy = (x,y,a,b) ->
-	lon = map y, a.y,b.y, a.lon,b.lon
-	lat = map y, a.y,b.y, a.lat,b.lat  
-	{lat,lon,x,y} 	
-
-bmp2gps = (mx,my) ->
-	q1 = calcx mx,0,N,O
-	q2 = calcx mx,HEIGHT,Q,P
-	q = calcy mx,my,q1,q2
-	[myround(q.lat,6),myround(q.lon,6)]
-
-check_bmp2gps = (p,error) ->
-	[lat,lon] = bmp2gps p.x,p.y 
-	assert error, [myround(100000*(lat-p.lat),6), myround(50000*(lon-p.lon),6)]
-
 locationUpdate = (p) ->
-	#messages = []
 	lat = p.coords.latitude
 	lon = p.coords.longitude
-	#print 'locationupdate',lat,lon
 	position = {lat,lon} 
 	track.push position
 	if track.length > TRACKED then track.shift()
@@ -145,47 +126,30 @@ setup = ->
 	buttons.push new Button 'left',x1,y, -> cx -= width/2/SCALE
 	buttons.push new Button 'C',x,y, ->
 		{lat,lon} = position
-		{x,y} = gps.gps2bmp lat,lon
-		cx = x #- width/SCALE/2 
-		cy = y #- height/SCALE/2 
+		[x,y] = gps.gps2bmp lat,lon
+		[cx,cy] = [x,y] 
 	buttons.push new Button 'right',x2,y, -> cx += width/2/SCALE
 	buttons.push new Button 'down',x,y2, -> cy += height/2/SCALE
 	buttons.push new Button '-',x1,y2, -> SCALE /= 1.2
 	buttons.push new Button '+',x2,y2, -> SCALE *= 1.2
 
-	[cx,cy]=[WIDTH/2,HEIGHT/2] # A
-	#[sx,sy]=[5000,0] # B
-	#[sx,sy]=[3500,8000] # C
-	#[sx,sy]=[0,4000] # D
-	#[sx,sy]=[3000,8000] # E
-	#[sx,sy]=[3500,6000] # krknök
-	#[sx,sy]=[3500,5000] # trevägsskylt
-
-	textSize 50
-
+	[cx,cy] = [WIDTH/2,HEIGHT/2] 
 	makeCorners()
-
-	# check_gps2bmp P1, [5,6]
-	# check_gps2bmp P2, [23,37]
-	# check_gps2bmp P3, [0,0]
-	# check_gps2bmp P4, [-5,7]
-
-	check_bmp2gps P1,[2.4,-1.2]
-	check_bmp2gps P2,[14.9, -7.35]
-	check_bmp2gps P3,[0.2,0]
-	check_bmp2gps P4,[2.3,2.75]
-
-	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
-		enableHighAccuracy: true
-		maximumAge: 30000
-		timeout: 27000
 
 	lat = 59.280348
 	lon = 18.155122
 	position = {lat,lon}
 	track.push position	
 
+	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
+		enableHighAccuracy: true
+		maximumAge: 30000
+		timeout: 27000
+
 drawGpsCircles = ->
+	fc()
+	sw 2
+	sc 1,1,0 # YELLOW
 	w = width
 	h = height
 	push()
@@ -193,17 +157,11 @@ drawGpsCircles = ->
 	scale SCALE
 	for p,i in track
 		{lat,lon} = p		
-		{x,y} = gps.gps2bmp lat,lon
+		[x,y] = gps.gps2bmp lat,lon
 		circle x-cx, y-cy, 5*(track.length-i)
 	pop()
 
-draw = ->
-	bg 0
-	image img, 0,0, width,height, cx-width/SCALE/2, cy-height/SCALE/2, width/SCALE, height/SCALE
-	fc()
-	sw 2
-	sc 1,1,0 # YELLOW
-	drawGpsCircles()
+drawButtons = ->
 	sw 1
 	sc 1,1,0,0.5
 	buttons[0].prompt = int cx
@@ -211,8 +169,11 @@ draw = ->
 	for button in buttons
 		button.draw()
 
-	fc 1
-	text message,100,100
+draw = ->
+	bg 0
+	image img, 0,0, width,height, cx-width/SCALE/2, cy-height/SCALE/2, width/SCALE, height/SCALE
+	drawGpsCircles()
+	drawButtons()
 
 mouseReleased = -> # to make Android work
 	released = true

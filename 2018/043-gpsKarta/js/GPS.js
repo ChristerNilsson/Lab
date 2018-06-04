@@ -11,37 +11,16 @@ var GPS;
 
 GPS = function () {
   // hanterar GPS konvertering
-  function GPS(N, O, P, Q, w, h) {
+  function GPS(nw, ne, se, sw, w, h) {
     _classCallCheck(this, GPS);
 
-    this.N = N;
-    this.O = O;
-    this.P = P;
-    this.Q = Q;
+    this.nw = nw;
+    this.ne = ne;
+    this.se = se;
+    this.sw = sw;
     this.w = w;
     this.h = h;
   }
-
-  //@xo = @w/2
-  //@yo = @h/2
-  // p0 = LatLon @lat,@lon
-  // p1 = p0.destinationPoint @h/2, 0
-  // @lat2 = p1.lat
-  // p2 = p0.destinationPoint @w/2, 90
-  // @lon2 = p2.lon
-  // p3 = p0.destinationPoint @h/2, 180
-  // @lat1 = p3.lat
-  // p4 = p0.destinationPoint @w/2, 270
-  // @lon1 = p4.lon
-  // toXY : (lat,lon) ->
-  // 	x = @xo + SCALE * map lon, @lon1, @lon2, -@w/2, @w/2
-  // 	y = @yo + SCALE * map lat, @lat2, @lat1, -@h/2, @h/2 # turned
-  // 	{x,y}
-  // toWGS84 : (x,y) -> # not used
-  // 	lon = map (x-xo)/SCALE, -@w/2, @w/2, @lon1, @lon2
-  // 	lat = map (y-yo)/SCALE, -@h/2, @h/2, @lat1, @lat2
-  // 	{lat,lon}
-
 
   _createClass(GPS, [{
     key: "calcLon",
@@ -67,17 +46,17 @@ GPS = function () {
     key: "gps2bmp",
     value: function gps2bmp(mlat, mlon) {
       var q1, q2, x, y;
-      q1 = this.calcLon(mlat, mlon, this.N, this.O);
-      q2 = this.calcLon(mlat, mlon, this.Q, this.P);
-      x = map(mlat, q1.lat, q2.lat, q1.x, q2.x);
-      y = map(mlat, q1.lat, q2.lat, q1.y, q2.y);
-      // q3 = calcLat mlat,mlon,N,Q
-      // q4 = calcLat mlat,mlon,O,P
-      // x2 = map mlon, q3.lon,q4.lon, q3.x, q4.x
-      // y2 = map mlon, q3.lon,q4.lon, q3.y, q4.y
-      return { x: x, y: y };
+      q1 = this.calcLon(mlat, mlon, this.nw, this.ne);
+      q2 = this.calcLon(mlat, mlon, this.sw, this.se);
+      x = round(map(mlat, q1.lat, q2.lat, q1.x, q2.x));
+      y = round(map(mlat, q1.lat, q2.lat, q1.y, q2.y));
+      return [x, y];
     }
 
+    // q3 = calcLat mlat,mlon,N,Q
+    // q4 = calcLat mlat,mlon,O,P
+    // x2 = map mlon, q3.lon,q4.lon, q3.x, q4.x
+    // y2 = map mlon, q3.lon,q4.lon, q3.y, q4.y
     //[int(x1),int(y1)]
 
   }, {
@@ -85,7 +64,7 @@ GPS = function () {
     value: function check_gps2bmp(p, error) {
       var x, y;
 
-      var _gps2bmp = gps2bmp(p.lat, p.lon);
+      var _gps2bmp = this.gps2bmp(p.lat, p.lon);
 
       var _gps2bmp2 = _slicedToArray(_gps2bmp, 2);
 
@@ -93,6 +72,45 @@ GPS = function () {
       y = _gps2bmp2[1];
 
       return assert(error, [x - p.x, y - p.y]);
+    }
+  }, {
+    key: "calcx",
+    value: function calcx(x, y, a, b) {
+      var lat, lon;
+      lon = map(x, a.x, b.x, a.lon, b.lon);
+      lat = map(x, a.x, b.x, a.lat, b.lat);
+      return { lat: lat, lon: lon, x: x, y: y };
+    }
+  }, {
+    key: "calcy",
+    value: function calcy(x, y, a, b) {
+      var lat, lon;
+      lon = map(y, a.y, b.y, a.lon, b.lon);
+      lat = map(y, a.y, b.y, a.lat, b.lat);
+      return { lat: lat, lon: lon, x: x, y: y };
+    }
+  }, {
+    key: "bmp2gps",
+    value: function bmp2gps(mx, my) {
+      var q, q1, q2;
+      q1 = this.calcx(mx, 0, this.nw, this.ne);
+      q2 = this.calcx(mx, HEIGHT, this.sw, this.se);
+      q = this.calcy(mx, my, q1, q2);
+      return [myround(q.lat, 6), myround(q.lon, 6)];
+    }
+  }, {
+    key: "check_bmp2gps",
+    value: function check_bmp2gps(p, error) {
+      var lat, lon;
+
+      var _bmp2gps = this.bmp2gps(p.x, p.y);
+
+      var _bmp2gps2 = _slicedToArray(_bmp2gps, 2);
+
+      lat = _bmp2gps2[0];
+      lon = _bmp2gps2[1];
+
+      return assert(error, [myround(100000 * (lat - p.lat), 6), myround(50000 * (lon - p.lon), 6)]);
     }
   }]);
 

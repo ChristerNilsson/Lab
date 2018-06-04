@@ -1,6 +1,5 @@
 class Button
-	constructor : (@prompt,@x,@y,@click = ->) ->
-		@radius = 100
+	constructor : (@prompt,@x,@y,@click = ->) -> @radius = 100
 	draw : ->
 		circle @x,@y,@radius
 		textAlign CENTER,CENTER
