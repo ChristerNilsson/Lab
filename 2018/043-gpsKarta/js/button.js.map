@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "button.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\button.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AACC,AAAc,kBAAA,QAAA,GAAA;oFAAwB,YAAA,CAAxB;;;;AAAC,AAAC,SAAA;AAAO,AAAC,SAAA;AAAE,AAAC,SAAA;AAAE,AAAC,SAAA;AAC7B,AAAC,SAAA,AAAD,SAAU,AADG;AAEd,AAAO;;;;;AACN,aAAO,AAAC,KAAA,AAAR,GAAU,AAAC,KAAA,AAAX,GAAa,AAAC,KAAA,AAAd;AACA,gBAAU,AAAV,QAAiB,AAAjB;AACA,eAAS,AAAT;aACA,KAAK,AAAC,KAAA,AAAN,QAAa,AAAC,KAAA,AAAd,GAAgB,AAAC,KAAA,AAAjB,AAJM;AAHR",
+  "sourcesContent": [
+    "class Button\r\n\tconstructor : (@prompt,@x,@y,@click = ->) ->\r\n\t\t@radius = 100\r\n\tdraw : ->\r\n\t\tcircle @x,@y,@radius\r\n\t\ttextAlign CENTER,CENTER\r\n\t\ttextSize 72\r\n\t\ttext @prompt,@x,@y"
+  ]
+}
