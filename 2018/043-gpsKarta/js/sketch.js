@@ -284,7 +284,8 @@ drawGpsCircles = function drawGpsCircles() {
   w = width;
   h = height;
   push();
-  translate(width / SCALE / 2, height / SCALE / 2);
+  translate(w / 2, h / 2);
+  scale(SCALE);
   for (i = j = 0, len = track.length; j < len; i = ++j) {
     p = track[i];
     var _p = p;
