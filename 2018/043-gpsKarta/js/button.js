@@ -23,6 +23,7 @@ Button = function () {
   _createClass(Button, [{
     key: "draw",
     value: function draw() {
+      sw(2);
       circle(this.x, this.y, this.radius);
       textAlign(CENTER, CENTER);
       textSize(72);

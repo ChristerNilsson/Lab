@@ -139,16 +139,16 @@ setup = ->
 	y2 = height-100
 
 	buttons.push new Button 'X',x1,y1
-	buttons.push new Button 'U',x,y1, -> cy-=height/2/SCALE
+	buttons.push new Button 'up',x,y1, -> cy -= height/2/SCALE
 	buttons.push new Button 'Y',x2,y1
-	buttons.push new Button 'L',x1,y, -> cx-=width/2/SCALE
+	buttons.push new Button 'left',x1,y, -> cx -= width/2/SCALE
 	buttons.push new Button 'C',x,y, ->
 		{lat,lon} = position
 		{x,y} = gps.gps2bmp lat,lon
-		cx = x-width/SCALE/2 
-		cy = y-height/SCALE/2 
-	buttons.push new Button 'R',x2,y, -> cx+=width/2/SCALE
-	buttons.push new Button 'D',x,y2, -> cy+=height/2/SCALE
+		cx = x - width/SCALE/2 
+		cy = y - height/SCALE/2 
+	buttons.push new Button 'right',x2,y, -> cx += width/2/SCALE
+	buttons.push new Button 'down',x,y2, -> cy += height/2/SCALE
 	buttons.push new Button '-',x1,y2, -> SCALE /= 1.2
 	buttons.push new Button '+',x2,y2, -> SCALE *= 1.2
 
@@ -189,11 +189,10 @@ drawGpsCircles = ->
 	h = height
 	fc()
 	sw 2
+	sc 1,1,0 # YELLOW
 	for p,i in track
 		{lat,lon} = p		
 		{x,y} = gps.gps2bmp lat,lon
-		sc 1,1,0 # YELLOW
-		sw 2
 		circle cx-width/SCALE/2 + x, cy-height/SCALE/2 + y, 5*(track.length-i)
 
 draw = ->
