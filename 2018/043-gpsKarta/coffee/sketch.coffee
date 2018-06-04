@@ -22,6 +22,8 @@ cy = 0
 swidth = 0
 sheight = 0
 
+released = true 
+
 WIDTH = 6912
 HEIGHT = 9216
 
@@ -207,6 +209,12 @@ draw = ->
 	fc 1
 	text message,100,100
 
-mousePressed = -> 
+mouseReleased = -> # to make Android work
+	released = true
+	false
+
+mousePressed = ->
+	if not released then return # to make Android work
+	released = false
 	for button in buttons
 		if button.radius > dist mouseX,mouseY,button.x,button.y then button.click()
