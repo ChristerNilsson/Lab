@@ -17,18 +17,18 @@ O = null
 P = null
 Q = null
 
-cx = 0 # center
+WIDTH = 6912
+HEIGHT = 9216
+cx = 0 # center (image coordinates)
 cy = 0
+SCALE = 1
+
 swidth = 0
 sheight = 0
 
 released = true 
 
-WIDTH = 6912
-HEIGHT = 9216
-
 gps = null
-SCALE = 1
 TRACKED = 5 # circles shows the player's position
 position = null # gps position
 track = [] # five latest GPS positions
@@ -37,7 +37,7 @@ buttons = []
 
 img = null
 message = ''
-preload = -> img = 	loadImage 'karta.jpg'
+preload = -> img = loadImage 'karta.jpg'
 
 myround = (x) ->
 	x *= 1000000
@@ -79,7 +79,6 @@ makeCorners = ->
 	Q = corner K,J,M,L,0,    HEIGHT
 
 	gps = new GPS N,O,P,Q,WIDTH,HEIGHT
-	print gps
 
 	# show 'A',A
 	# show 'B',B
@@ -147,8 +146,8 @@ setup = ->
 	buttons.push new Button 'C',x,y, ->
 		{lat,lon} = position
 		{x,y} = gps.gps2bmp lat,lon
-		cx = x - width/SCALE/2 
-		cy = y - height/SCALE/2 
+		cx = x #- width/SCALE/2 
+		cy = y #- height/SCALE/2 
 	buttons.push new Button 'right',x2,y, -> cx += width/2/SCALE
 	buttons.push new Button 'down',x,y2, -> cy += height/2/SCALE
 	buttons.push new Button '-',x1,y2, -> SCALE /= 1.2
@@ -189,18 +188,23 @@ setup = ->
 drawGpsCircles = ->
 	w = width
 	h = height
-	fc()
-	sw 2
-	sc 1,1,0 # YELLOW
+	push()
+	translate width/SCALE/2, height/SCALE/2
 	for p,i in track
 		{lat,lon} = p		
 		{x,y} = gps.gps2bmp lat,lon
-		circle cx-width/SCALE/2 + x, cy-height/SCALE/2 + y, 5*(track.length-i)
+		circle x-cx, y-cy, 5*(track.length-i)
+	pop()
 
 draw = ->
 	bg 0
 	image img, 0,0, width,height, cx-width/SCALE/2, cy-height/SCALE/2, width/SCALE, height/SCALE
+	fc()
+	sw 2
+	sc 1,1,0 # YELLOW
 	drawGpsCircles()
+	sw 1
+	sc 1,1,0,0.5
 	buttons[0].prompt = int cx
 	buttons[2].prompt = int cy
 	for button in buttons

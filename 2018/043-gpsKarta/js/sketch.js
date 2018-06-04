@@ -49,9 +49,15 @@ P = null;
 
 Q = null;
 
-cx = 0; // center
+WIDTH = 6912;
+
+HEIGHT = 9216;
+
+cx = 0; // center (image coordinates)
 
 cy = 0;
+
+SCALE = 1;
 
 swidth = 0;
 
@@ -59,13 +65,7 @@ sheight = 0;
 
 released = true;
 
-WIDTH = 6912;
-
-HEIGHT = 9216;
-
 gps = null;
-
-SCALE = 1;
 
 TRACKED = 5; // circles shows the player's position
 
@@ -130,8 +130,7 @@ makeCorners = function makeCorners() {
   O = corner(F, G, H, I, WIDTH, 0);
   P = corner(K, J, H, I, WIDTH, HEIGHT);
   Q = corner(K, J, M, L, 0, HEIGHT);
-  gps = new GPS(N, O, P, Q, WIDTH, HEIGHT);
-  return print(gps);
+  return gps = new GPS(N, O, P, Q, WIDTH, HEIGHT);
 };
 
 // show 'A',A
@@ -234,8 +233,8 @@ setup = function setup() {
     x = _gps$gps2bmp.x;
     y = _gps$gps2bmp.y;
 
-    cx = x - width / SCALE / 2;
-    return cy = y - height / SCALE / 2;
+    cx = x; //- width/SCALE/2 
+    return cy = y; //- height/SCALE/2 
   }));
   buttons.push(new Button('right', x2, y, function () {
     return cx += width / 2 / SCALE;
@@ -281,13 +280,11 @@ setup = function setup() {
 };
 
 drawGpsCircles = function drawGpsCircles() {
-  var h, i, j, lat, len, lon, p, results, w, x, y;
+  var h, i, j, lat, len, lon, p, w, x, y;
   w = width;
   h = height;
-  fc();
-  sw(2);
-  sc(1, 1, 0); // YELLOW
-  results = [];
+  push();
+  translate(width / SCALE / 2, height / SCALE / 2);
   for (i = j = 0, len = track.length; j < len; i = ++j) {
     p = track[i];
     var _p = p;
@@ -299,16 +296,21 @@ drawGpsCircles = function drawGpsCircles() {
     x = _gps$gps2bmp2.x;
     y = _gps$gps2bmp2.y;
 
-    results.push(circle(cx - width / SCALE / 2 + x, cy - height / SCALE / 2 + y, 5 * (track.length - i)));
+    circle(x - cx, y - cy, 5 * (track.length - i));
   }
-  return results;
+  return pop();
 };
 
 draw = function draw() {
   var button, j, len;
   bg(0);
   image(img, 0, 0, width, height, cx - width / SCALE / 2, cy - height / SCALE / 2, width / SCALE, height / SCALE);
+  fc();
+  sw(2);
+  sc(1, 1, 0); // YELLOW
   drawGpsCircles();
+  sw(1);
+  sc(1, 1, 0, 0.5);
   buttons[0].prompt = int(cx);
   buttons[2].prompt = int(cy);
   for (j = 0, len = buttons.length; j < len; j++) {
