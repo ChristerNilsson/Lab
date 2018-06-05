@@ -48,9 +48,9 @@ gps = null;
 
 TRACKED = 5; // circles shows the player's position
 
-position = null; // gps position
+position = null; // gps position (pixels)
 
-track = []; // five latest GPS positions
+track = []; // five latest GPS positions (pixels)
 
 buttons = [];
 
@@ -149,7 +149,7 @@ locationUpdate = function locationUpdate(p) {
   var lat, lon;
   lat = p.coords.latitude;
   lon = p.coords.longitude;
-  position = { lat: lat, lon: lon };
+  position = gps.gps2bmp(lat, lon);
   track.push(position);
   if (track.length > TRACKED) {
     return track.shift();
@@ -164,7 +164,7 @@ locationUpdateFail = function locationUpdateFail(error) {
 };
 
 setup = function setup() {
-  var lat, lon, x, x1, x2, y, y1, y2;
+  var x, x1, x2, y, y1, y2;
   createCanvas(windowWidth, windowHeight);
   x = width / 2;
   y = height / 2;
@@ -181,21 +181,9 @@ setup = function setup() {
     return cx -= width / 2 / SCALE;
   }));
   buttons.push(new Button('C', x, y, function () {
-    var _ref5;
+    var _position, _position2;
 
-    var lat, lon;
-    var _position = position;
-    lat = _position.lat;
-    lon = _position.lon;
-
-    var _gps$gps2bmp = gps.gps2bmp(lat, lon);
-
-    var _gps$gps2bmp2 = _slicedToArray(_gps$gps2bmp, 2);
-
-    x = _gps$gps2bmp2[0];
-    y = _gps$gps2bmp2[1];
-
-    return _ref5 = [x, y], cx = _ref5[0], cy = _ref5[1], _ref5;
+    return _position = position, _position2 = _slicedToArray(_position, 2), cx = _position2[0], cy = _position2[1], _position;
   }));
   buttons.push(new Button('right', x2, y, function () {
     return cx += width / 2 / SCALE;
@@ -213,10 +201,6 @@ setup = function setup() {
   cy = HEIGHT / 2;
 
   makeCorners();
-  lat = 59.280348;
-  lon = 18.155122;
-  position = { lat: lat, lon: lon };
-  track.push(position);
   return navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
     enableHighAccuracy: true,
     maximumAge: 30000,
@@ -225,27 +209,18 @@ setup = function setup() {
 };
 
 drawTrack = function drawTrack() {
-  var h, i, lat, len, lon, n, p, w, x, y;
+  var i, len, n, x, y;
   fc();
   sw(2);
   sc(1, 1, 0); // YELLOW
-  w = width;
-  h = height;
   push();
-  translate(w / 2, h / 2);
+  translate(width / 2, height / 2);
   scale(SCALE);
   for (i = n = 0, len = track.length; n < len; i = ++n) {
-    p = track[i];
-    var _p = p;
-    lat = _p.lat;
-    lon = _p.lon;
+    var _track$i = _slicedToArray(track[i], 2);
 
-    var _gps$gps2bmp3 = gps.gps2bmp(lat, lon);
-
-    var _gps$gps2bmp4 = _slicedToArray(_gps$gps2bmp3, 2);
-
-    x = _gps$gps2bmp4[0];
-    y = _gps$gps2bmp4[1];
+    x = _track$i[0];
+    y = _track$i[1];
 
     circle(x - cx, y - cy, 5 * (track.length - i));
   }
@@ -256,8 +231,8 @@ drawButtons = function drawButtons() {
   var button, len, n, results;
   sw(1);
   sc(1, 1, 0, 0.5);
-  buttons[0].prompt = int(cx);
-  buttons[2].prompt = int(cy);
+  buttons[0].prompt = round(cx);
+  buttons[2].prompt = round(cy);
   results = [];
   for (n = 0, len = buttons.length; n < len; n++) {
     button = buttons[n];

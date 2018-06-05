@@ -16,8 +16,8 @@ released = true # android
 
 gps = null
 TRACKED = 5 # circles shows the player's position
-position = null # gps position
-track = [] # five latest GPS positions
+position = null # gps position (pixels)
+track = [] # five latest GPS positions (pixels)
 
 buttons = []
 
@@ -104,7 +104,7 @@ makeCorners = ->
 locationUpdate = (p) ->
 	lat = p.coords.latitude
 	lon = p.coords.longitude
-	position = {lat,lon} 
+	position = gps.gps2bmp lat,lon
 	track.push position
 	if track.length > TRACKED then track.shift()
 
@@ -124,10 +124,7 @@ setup = ->
 	buttons.push new Button 'up',x,y1, -> cy -= height/2/SCALE
 	buttons.push new Button 'Y',x2,y1
 	buttons.push new Button 'left',x1,y, -> cx -= width/2/SCALE
-	buttons.push new Button 'C',x,y, ->
-		{lat,lon} = position
-		[x,y] = gps.gps2bmp lat,lon
-		[cx,cy] = [x,y] 
+	buttons.push new Button 'C',x,y, ->	[cx,cy] = position
 	buttons.push new Button 'right',x2,y, -> cx += width/2/SCALE
 	buttons.push new Button 'down',x,y2, -> cy += height/2/SCALE
 	buttons.push new Button '-',x1,y2, -> SCALE /= 1.2
@@ -135,11 +132,6 @@ setup = ->
 
 	[cx,cy] = [WIDTH/2,HEIGHT/2] 
 	makeCorners()
-
-	lat = 59.280348
-	lon = 18.155122
-	position = {lat,lon}
-	track.push position	
 
 	navigator.geolocation.watchPosition locationUpdate, locationUpdateFail, 
 		enableHighAccuracy: true
@@ -150,22 +142,18 @@ drawTrack = ->
 	fc()
 	sw 2
 	sc 1,1,0 # YELLOW
-	w = width
-	h = height
 	push()
-	translate w/2, h/2
+	translate width/2, height/2
 	scale SCALE
-	for p,i in track
-		{lat,lon} = p		
-		[x,y] = gps.gps2bmp lat,lon
+	for [x,y],i in track
 		circle x-cx, y-cy, 5*(track.length-i)
 	pop()
 
 drawButtons = ->
 	sw 1
 	sc 1,1,0,0.5
-	buttons[0].prompt = int cx
-	buttons[2].prompt = int cy
+	buttons[0].prompt = round cx
+	buttons[2].prompt = round cy
 	for button in buttons
 		button.draw()
 
