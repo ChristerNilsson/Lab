@@ -6,8 +6,8 @@
     "coffee\\button.coffee"
   ],
   "names": [],
-  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AACC,AAAc,kBAAA,QAAA,GAAA;oFAAwB,YAAA,CAAxB;;;;AAAC,AAAC,SAAA;AAAO,AAAC,SAAA;AAAE,AAAC,SAAA;AAAE,AAAC,SAAA;AAAe,AAAC,SAAA,AAAD,SAAU,AAAzC;AACd,AAAO;;;;;AACN,aAAO,AAAC,KAAA,AAAR,GAAU,AAAC,KAAA,AAAX,GAAa,AAAC,KAAA,AAAd;AACA,gBAAU,AAAV,QAAiB,AAAjB;AACA,eAAS,AAAT;aACA,KAAK,AAAC,KAAA,AAAN,QAAa,AAAC,KAAA,AAAd,GAAgB,AAAC,KAAA,AAAjB,AAJM;AAFR",
+  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AACC,AAAc,kBAAA,QAAA,GAAA;oFAAwB,YAAA,CAAxB;;;;AAAC,AAAC,SAAA;AAAO,AAAC,SAAA;AAAE,AAAC,SAAA;AAAE,AAAC,SAAA;AAAe,AAAC,SAAA,AAAD,SAAU,AAAzC;AACd,AAAW;;;;6BAAC,AAAD,IAAI,AAAJ;aAAW,AAAC,KAAA,AAAD,SAAU,KAAK,AAAL,IAAQ,AAAR,IAAW,AAAC,KAAA,AAAZ,GAAc,AAAC,KAAA,AAAf,AAArB;AACX,AAAO;;;;AACN,aAAO,AAAC,KAAA,AAAR,GAAU,AAAC,KAAA,AAAX,GAAa,AAAC,KAAA,AAAd;AACA,gBAAU,AAAV,QAAiB,AAAjB;AACA,eAAS,AAAT;aACA,KAAK,AAAC,KAAA,AAAN,QAAa,AAAC,KAAA,AAAd,GAAgB,AAAC,KAAA,AAAjB,AAJM;AAHR",
   "sourcesContent": [
-    "class Button\r\n\tconstructor : (@prompt,@x,@y,@click = ->) -> @radius = 100\r\n\tdraw : ->\r\n\t\tcircle @x,@y,@radius\r\n\t\ttextAlign CENTER,CENTER\r\n\t\ttextSize 72\r\n\t\ttext @prompt,@x,@y"
+    "class Button\r\n\tconstructor : (@prompt,@x,@y,@click = ->) -> @radius = 100\r\n\tcontains : (mx,my) -> @radius > dist mx,my,@x,@y\r\n\tdraw : ->\r\n\t\tcircle @x,@y,@radius\r\n\t\ttextAlign CENTER,CENTER\r\n\t\ttextSize 72\r\n\t\ttext @prompt,@x,@y"
   ]
 }

@@ -21,6 +21,11 @@ Button = function () {
   }
 
   _createClass(Button, [{
+    key: "contains",
+    value: function contains(mx, my) {
+      return this.radius > dist(mx, my, this.x, this.y);
+    }
+  }, {
     key: "draw",
     value: function draw() {
       circle(this.x, this.y, this.radius);

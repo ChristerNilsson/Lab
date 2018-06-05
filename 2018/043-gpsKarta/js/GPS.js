@@ -23,8 +23,8 @@ GPS = function () {
   }
 
   _createClass(GPS, [{
-    key: "calcLon",
-    value: function calcLon(mlat, mlon, a, b) {
+    key: "map_lon",
+    value: function map_lon(mlat, mlon, a, b) {
       var lat, lon, x, y;
       x = map(mlon, a.lon, b.lon, a.x, b.x);
       y = map(mlon, a.lon, b.lon, a.y, b.y);
@@ -33,8 +33,8 @@ GPS = function () {
       return { lat: lat, lon: lon, x: x, y: y };
     }
   }, {
-    key: "calcLat",
-    value: function calcLat(mlat, mlon, a, b) {
+    key: "map_lat",
+    value: function map_lat(mlat, mlon, a, b) {
       var lat, lon, x, y;
       x = map(mlat, a.lat, b.lat, a.x, b.x);
       y = map(mlat, a.lat, b.lat, a.y, b.y);
@@ -46,8 +46,8 @@ GPS = function () {
     key: "gps2bmp",
     value: function gps2bmp(mlat, mlon) {
       var q1, q2, x, y;
-      q1 = this.calcLon(mlat, mlon, this.nw, this.ne);
-      q2 = this.calcLon(mlat, mlon, this.sw, this.se);
+      q1 = this.map_lon(mlat, mlon, this.nw, this.ne);
+      q2 = this.map_lon(mlat, mlon, this.sw, this.se);
       x = round(map(mlat, q1.lat, q2.lat, q1.x, q2.x));
       y = round(map(mlat, q1.lat, q2.lat, q1.y, q2.y));
       return [x, y];
@@ -60,8 +60,8 @@ GPS = function () {
     //[int(x1),int(y1)]
 
   }, {
-    key: "check_gps2bmp",
-    value: function check_gps2bmp(p, error) {
+    key: "assert_gps2bmp",
+    value: function assert_gps2bmp(p, error) {
       var x, y;
 
       var _gps2bmp = this.gps2bmp(p.lat, p.lon);
@@ -74,16 +74,16 @@ GPS = function () {
       return assert(error, [x - p.x, y - p.y]);
     }
   }, {
-    key: "calcx",
-    value: function calcx(x, y, a, b) {
+    key: "map_x",
+    value: function map_x(x, y, a, b) {
       var lat, lon;
       lon = map(x, a.x, b.x, a.lon, b.lon);
       lat = map(x, a.x, b.x, a.lat, b.lat);
       return { lat: lat, lon: lon, x: x, y: y };
     }
   }, {
-    key: "calcy",
-    value: function calcy(x, y, a, b) {
+    key: "map_y",
+    value: function map_y(x, y, a, b) {
       var lat, lon;
       lon = map(y, a.y, b.y, a.lon, b.lon);
       lat = map(y, a.y, b.y, a.lat, b.lat);
@@ -93,14 +93,14 @@ GPS = function () {
     key: "bmp2gps",
     value: function bmp2gps(mx, my) {
       var q, q1, q2;
-      q1 = this.calcx(mx, 0, this.nw, this.ne);
-      q2 = this.calcx(mx, HEIGHT, this.sw, this.se);
-      q = this.calcy(mx, my, q1, q2);
+      q1 = this.map_x(mx, 0, this.nw, this.ne);
+      q2 = this.map_x(mx, HEIGHT, this.sw, this.se);
+      q = this.map_y(mx, my, q1, q2);
       return [myround(q.lat, 6), myround(q.lon, 6)];
     }
   }, {
-    key: "check_bmp2gps",
-    value: function check_bmp2gps(p, error) {
+    key: "assert_bmp2gps",
+    value: function assert_bmp2gps(p, error) {
       var lat, lon;
 
       var _bmp2gps = this.bmp2gps(p.x, p.y);
