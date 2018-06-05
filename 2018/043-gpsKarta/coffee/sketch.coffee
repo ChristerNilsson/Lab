@@ -69,9 +69,9 @@ makeCorners = ->
 
 	# Testpunkter
 	P1 = spara [59.275687,18.155340], [4697, 6518] # krknök
-	P2 = spara [59.280348,18.155122],[4590,5310] # trevägsskylt
+	P2 = spara [59.280348,18.155122], [4590,5310] # trevägsskylt
 	P3 = B
-	P4 = spara [59.279172,18.149319],[3877,5681] # Bron
+	P4 = spara [59.279172,18.149319], [3877,5681] # Bron
 
 	gps.check_gps2bmp P1, [6,7]
 	gps.check_gps2bmp P2, [24,38]
@@ -146,7 +146,7 @@ setup = ->
 		maximumAge: 30000
 		timeout: 27000
 
-drawGpsCircles = ->
+drawTrack = ->
 	fc()
 	sw 2
 	sc 1,1,0 # YELLOW
@@ -172,7 +172,7 @@ drawButtons = ->
 draw = ->
 	bg 0
 	image img, 0,0, width,height, cx-width/SCALE/2, cy-height/SCALE/2, width/SCALE, height/SCALE
-	drawGpsCircles()
+	drawTrack()
 	drawButtons()
 
 mouseReleased = -> # to make Android work

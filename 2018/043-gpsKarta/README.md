@@ -1,30 +1,22 @@
-# Mall
+# 043-gpsKarta
 
-* Libraries innehåller bl a p5-filer.
-* index.html används när man vill köra programmet i Google Chrome.
-* katalogen coffee innehåller din kod. Redigera med Sublime.
-* js-filer skapas automatiskt av startProject.bat
+Just nu innehåller den ett foto av Naturpasset 2018
 
-## Detta gör du en enda gång
+Funktionalitet:
 
-* Kopiera 000-Mall med Clone or Download
-* Välj Download .Zip 
-* Packa upp innehållet och spara i en egen katalog med namnet 000-Mall. Dvs inget -master
-* Flytta upp createProject.bat en nivå.
+Man ser karta, kontroller samt egen position hela tiden.
 
-## Detta gör du när du skapar ett nytt projekt
+Left,Right,Up,Down : Flyttar fönstret
+-, +: Zoom
+C: Centrerar aktuell position
 
-* Använd createProject för att skapa en kopia av mallen.
-* Byt namn på NewProject. T ex till 001-projektnamn.
+Praktisk noggrannhet tycks ligga kring 15-20 meter.
 
-## Detta gör du när du utvecklar
+Transformationer mellan wgs84 och bitmappskoordinater sker via åtta anrop till map. Borde kunna förbättras. 
+GlobalMercator kan möjligen användas för denna projektion.
 
-* Gå in i katalogen och starta startProject
-  * index.html startas i Chrome
-  * sublime startas. 
-  	* Stäng eventuellt befintligt projekt med Remove Folder from Project
-  * transpilern startas
-* Ändra i sketch.coffee. Spara med ctrl-S
-* Transpilering sker automatiskt. Ett pip hörs vid syntaxfel.
-* Refresha Chrome.
-
+ToDo:
+	Begränsa zoom
+	Drag och pinch istf knappar
+	Knapp för att spara position. Den visas med egen färg.
+	Track borde spara bitmappskoordinater istf LatLon.
