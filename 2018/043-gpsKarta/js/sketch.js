@@ -247,7 +247,6 @@ drawButtons = function drawButtons() {
 
 drawCompass = function drawCompass() {
   push();
-  bearing = 270;
   strokeCap(SQUARE);
   translate(width / 2, height / 2);
   rotate(radians(bearing));

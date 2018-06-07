@@ -155,7 +155,6 @@ drawButtons = ->
 
 drawCompass = ->
 	push()
-	bearing = 270
 	strokeCap SQUARE
 	translate width/2, height/2
 	rotate radians bearing
