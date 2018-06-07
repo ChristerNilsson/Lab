@@ -92,7 +92,7 @@ locationUpdate = (p) ->
 
 locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then messages = ['Check location permissions']
 
-setupCompass = -> window.addEventListener "deviceorientation", (event) ->	bearing = round event.alpha 
+setupCompass = -> window.addEventListener "deviceorientation", (event) ->	bearing = round 360 - event.alpha 
 
 setup = ->
 	createCanvas windowWidth,windowHeight

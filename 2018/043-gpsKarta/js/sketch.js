@@ -139,7 +139,7 @@ locationUpdateFail = function locationUpdateFail(error) {
 
 setupCompass = function setupCompass() {
   return window.addEventListener("deviceorientation", function (event) {
-    return bearing = round(event.alpha);
+    return bearing = round(360 - event.alpha);
   });
 };
 
