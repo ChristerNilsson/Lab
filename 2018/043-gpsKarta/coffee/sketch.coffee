@@ -21,6 +21,7 @@ track = [] # five latest GPS positions (pixels)
 buttons = []
 points = [] # remembers e.g. car/bike position
 img = null
+bearing = 360
 
 preload = -> img = loadImage FILENAME
 
@@ -91,6 +92,8 @@ locationUpdate = (p) ->
 
 locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then messages = ['Check location permissions']
 
+setupCompass = -> window.addEventListener "deviceorientation", (event) ->	bearing = round event.alpha 
+
 setup = ->
 	createCanvas windowWidth,windowHeight
 
@@ -101,13 +104,13 @@ setup = ->
 	y1 = 100
 	y2 = height-100
 
-	buttons.push new Button 'save',x1,y1, -> points.push position
-	buttons.push new Button 'up',x,y1, -> cy -= 0.5*height/SCALE
-	buttons.push new Button 'drop',x2,y1, -> if points.length > 0 then points.pop()
-	buttons.push new Button 'left',x1,y, -> cx -= 0.5*width/SCALE
+	buttons.push new Button 'S',x1,y1, -> points.push position
+	buttons.push new Button 'U',x,y1, -> cy -= 0.5*height/SCALE
+	buttons.push new Button '0',x2,y1, -> if points.length > 0 then points.pop()
+	buttons.push new Button 'L',x1,y, -> cx -= 0.5*width/SCALE
 	buttons.push new Button 'C',x,y, ->	[cx,cy] = position
-	buttons.push new Button 'right',x2,y, -> cx += 0.5*width/SCALE
-	buttons.push new Button 'down',x,y2, -> cy += 0.5*height/SCALE
+	buttons.push new Button 'R',x2,y, -> cx += 0.5*width/SCALE
+	buttons.push new Button 'D',x,y2, -> cy += 0.5*height/SCALE
 	buttons.push new Button '-',x1,y2, -> SCALE /= 1.5
 	buttons.push new Button '+',x2,y2, -> SCALE *= 1.5
 
@@ -143,9 +146,8 @@ drawPoints = ->
 	pop()
 
 drawButtons = ->
-	sw 1
-	sc 1,1,0,0.5
 	buttons[2].prompt = points.length
+	buttons[4].prompt = bearing
 	for button in buttons
 		button.draw()
 

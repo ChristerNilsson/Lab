@@ -28,9 +28,14 @@ Button = function () {
   }, {
     key: "draw",
     value: function draw() {
+      sw(3);
+      sc(1, 1, 0, 0.5);
+      fc();
       circle(this.x, this.y, this.radius);
       textAlign(CENTER, CENTER);
-      textSize(72);
+      textSize(100);
+      fc(1, 1, 0, 0.5);
+      sc(0);
       return text(this.prompt, this.x, this.y);
     }
   }]);

@@ -10,14 +10,14 @@ Man ser karta, kontroller samt egen position hela tiden.
 Kontrollernas diameter är cirka 75 meter.
 
 * C : Centrerar aktuell position
-* Left: Flyttar vänster
-* Right: Flyttar höger
-* Up: Flyttar upp
-* Down : Flyttar ner
+* L : Flyttar vänster
+* R : Flyttar höger
+* U : Flyttar upp
+* D : Flyttar ner
 * Minus : Zoomar ut
 * Plus : Zoomar in
-* Save: Sparar aktuell position. Visas med rött.
-* 0: Droppar senast sparad position. Visar antalet sparade.
+* S : Sparar aktuell position. Visas med rött.
+* 0 : Droppar senast sparad position. Visar antalet sparade.
 
 Praktisk noggrannhet tycks ligga kring 15-20 meter.
 
