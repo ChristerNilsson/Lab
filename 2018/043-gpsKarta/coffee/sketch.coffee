@@ -92,7 +92,7 @@ locationUpdate = (p) ->
 
 locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then messages = ['Check location permissions']
 
-setupCompass = -> window.addEventListener "deviceorientation", (event) ->	bearing = round 360 - event.alpha 
+setupCompass = -> window.addEventListener "deviceorientation", (event) ->	bearing = round event.alpha 
 
 setup = ->
 	createCanvas windowWidth,windowHeight
@@ -149,7 +149,7 @@ drawPoints = ->
 
 drawButtons = ->
 	buttons[2].prompt = points.length
-	buttons[4].prompt = bearing
+	buttons[4].prompt = 360 - bearing
 	for button in buttons
 		button.draw()
 
