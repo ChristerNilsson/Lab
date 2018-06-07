@@ -153,12 +153,26 @@ drawButtons = ->
 	for button in buttons
 		button.draw()
 
+drawCompass = ->
+	push()
+	bearing = 270
+	strokeCap SQUARE
+	translate width/2, height/2
+	rotate radians bearing
+	sw 10
+	sc 1,0,0
+	line 0,-100,0,-150
+	sc 1
+	line 0,100,0,150
+	pop()
+
 draw = ->
 	bg 0
 	fc()
 	image img, 0,0, width,height, cx-width/SCALE/2, cy-height/SCALE/2, width/SCALE, height/SCALE
 	drawTrack()
 	drawPoints()
+	drawCompass()
 	drawButtons()
 
 mouseReleased = -> # to make Android work
