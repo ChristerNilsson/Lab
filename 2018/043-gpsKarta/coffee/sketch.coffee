@@ -124,6 +124,8 @@ setup = ->
 		maximumAge: 30000
 		timeout: 27000
 
+	setupCompass()
+
 drawTrack = ->
 	push()
 	fc()

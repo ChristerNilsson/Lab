@@ -188,11 +188,12 @@ setup = function setup() {
 
   makeCorners();
   position = [WIDTH / 2, HEIGHT / 2];
-  return navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
+  navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {
     enableHighAccuracy: true,
     maximumAge: 30000,
     timeout: 27000
   });
+  return setupCompass();
 };
 
 drawTrack = function drawTrack() {
