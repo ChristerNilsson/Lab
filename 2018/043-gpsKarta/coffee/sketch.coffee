@@ -193,26 +193,31 @@ draw = ->
 	for message,i in messages
 		text message,width/2,50*(i+1)
 
-
-# mouseTouched = -> 
-# 	# if not released then return false # to make Android work
-# 	# released = false            # to make Android work
-# 	# for button in buttons
-# 	# 	if button.contains mouseX,mouseY then button.click()
-# 	false       # to make Android work
-
-mouseReleased = ->            # to make Android work
+touchEnded = ->            # to make Android work
 	released = true             # to make Android work
-	messages.push 'mouseReleased'
-	false                       # to make Android work
+	messages.push 'touchEnded'
+	false       # to make Android work
 
-mousePressed = ->
+touchStarted = -> 
 	if not released then return false # to make Android work
 	released = false            # to make Android work
 	for button in buttons
 		if button.contains mouseX,mouseY then button.click()
-	messages.push "mousePressed #{points.length}"
-	false                       # to make Android work
+	messages.push "touchStarted #{points.length}"
+	false       # to make Android work
+
+# mouseReleased = ->            # to make Android work
+# 	released = true             # to make Android work
+# 	messages.push 'mouseReleased'
+# 	false                       # to make Android work
+
+# mousePressed = ->
+# 	if not released then return false # to make Android work
+# 	released = false            # to make Android work
+# 	for button in buttons
+# 		if button.contains mouseX,mouseY then button.click()
+# 	messages.push "mousePressed #{points.length}"
+# 	false                       # to make Android work
 
 # mouseReleased = ->
 # 	released = true

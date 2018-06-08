@@ -47078,7 +47078,7 @@ p5.Element.prototype.class = function(c) {
  *
  */
 p5.Element.prototype.mousePressed = function (fxn) {
-  adjustListener('mousedown', fxn, this);
+  //christer adjustListener('mousedown', fxn, this);
   adjustListener('touchstart', fxn, this);
   return this;
 };
@@ -47601,7 +47601,7 @@ p5.Element.prototype.mouseOut = function (fxn) {
  */
 p5.Element.prototype.touchStarted = function (fxn) {
   adjustListener('touchstart', fxn, this);
-  adjustListener('mousedown', fxn, this);
+// christer  adjustListener('mousedown', fxn, this);
   return this;
 };
 
