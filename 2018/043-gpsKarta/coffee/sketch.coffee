@@ -112,7 +112,7 @@ setup = ->
 	y1 = 100
 	y2 = height-100
 
-	buttons.push new Button 'S2',x1,y1, -> 
+	buttons.push new Button 'S3',x1,y1, -> 
 		points.push position
 		storeData()
 
@@ -189,20 +189,20 @@ draw = ->
 	drawCompass()
 	drawButtons()
 
-# mouseTouched = -> 
-# 	if not released then return false # to make Android work
-# 	released = false            # to make Android work
-# 	for button in buttons
-# 		if button.contains mouseX,mouseY then button.click()
-# 	false       # to make Android work
+mouseTouched = -> 
+	if not released then return false # to make Android work
+	released = false            # to make Android work
+	for button in buttons
+		if button.contains mouseX,mouseY then button.click()
+	false       # to make Android work
 
 mouseReleased = ->            # to make Android work
 	released = true             # to make Android work
 	false                       # to make Android work
 
-mousePressed = ->
-	if not released then return false # to make Android work
-	released = false            # to make Android work
-	for button in buttons
-		if button.contains mouseX,mouseY then button.click()
-	false                       # to make Android work
+# mousePressed = ->
+# 	if not released then return false # to make Android work
+# 	released = false            # to make Android work
+# 	for button in buttons
+# 		if button.contains mouseX,mouseY then button.click()
+# 	false                       # to make Android work
