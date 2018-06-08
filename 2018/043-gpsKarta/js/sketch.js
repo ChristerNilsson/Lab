@@ -213,20 +213,24 @@ setup = function setup() {
   });
   setupCompass();
   xdraw();
-  addEventListener('touchend', function (mouse) {
+  addEventListener('touchend', function (evt) {
     released = true; // to make Android work
     messages.push('touchend');
     return false; // to make Android work
   });
-  return addEventListener('touchstart', function (mouse) {
-    var button, j, len;
+  return addEventListener('touchstart', function (evt) {
+    var button, j, len, touch, touches;
+    print(mouse);
     if (!released) {
       return false; // to make Android work
     }
     released = false; // to make Android work
+    touches = evt.changedTouches;
+    touch = touches[touches.length - 1];
+    messages.push(touches.length + ',' + touch.pageX + ',' + touch.pageY);
     for (j = 0, len = buttons.length; j < len; j++) {
       button = buttons[j];
-      if (button.contains(mouse.x, mouse.y)) {
+      if (button.contains(touch.pageX, touch.pageY)) {
         button.click();
       }
     }

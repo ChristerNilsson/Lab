@@ -159,16 +159,20 @@ setup = ->
 	setupCompass()
 	xdraw()
 
-	addEventListener 'touchend', (mouse) ->	
+	addEventListener 'touchend', (evt) ->	
 		released = true             # to make Android work
 		messages.push 'touchend'
 		false       # to make Android work
 
-	addEventListener 'touchstart', (mouse) ->	
+	addEventListener 'touchstart', (evt) ->	
+		print mouse
 		if not released then return false # to make Android work
 		released = false            # to make Android work
+		touches = evt.changedTouches	
+		touch = touches[touches.length-1]
+		messages.push "#{touches.length},#{touch.pageX},#{touch.pageY}"
 		for button in buttons
-			if button.contains mouse.x,mouse.y then button.click()
+			if button.contains touch.pageX,touch.pageY then button.click()
 		messages.push "touchstart #{points.length}"
 		xdraw()
 		false       # to make Android work
