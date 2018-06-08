@@ -189,7 +189,13 @@ draw = ->
 	drawCompass()
 	drawButtons()
 
-mouseTouched = -> false       # to make Android work
+mouseTouched = -> 
+	if not released then return false # to make Android work
+	released = false            # to make Android work
+	for button in buttons
+		if button.contains mouseX,mouseY then button.click()
+	false       # to make Android work
+
 mouseReleased = ->            # to make Android work
 	released = true             # to make Android work
 	false                       # to make Android work

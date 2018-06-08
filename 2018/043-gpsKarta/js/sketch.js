@@ -284,6 +284,17 @@ draw = function draw() {
 };
 
 mouseTouched = function mouseTouched() {
+  var button, j, len;
+  if (!released) {
+    return false; // to make Android work
+  }
+  released = false; // to make Android work
+  for (j = 0, len = buttons.length; j < len; j++) {
+    button = buttons[j];
+    if (button.contains(mouseX, mouseY)) {
+      button.click();
+    }
+  }
   return false; // to make Android work
 };
 
