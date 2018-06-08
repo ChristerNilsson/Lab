@@ -23,6 +23,7 @@ buttons = []
 points = [] # remembers e.g. car/bike position
 img = null 
 bearing = 360
+messages = []
 
 preload = -> img = loadImage FILENAME
 
@@ -189,20 +190,34 @@ draw = ->
 	drawCompass()
 	drawButtons()
 
-mouseTouched = -> 
-	# if not released then return false # to make Android work
-	# released = false            # to make Android work
-	# for button in buttons
-	# 	if button.contains mouseX,mouseY then button.click()
-	false       # to make Android work
+# mouseTouched = -> 
+# 	# if not released then return false # to make Android work
+# 	# released = false            # to make Android work
+# 	# for button in buttons
+# 	# 	if button.contains mouseX,mouseY then button.click()
+# 	false       # to make Android work
 
 mouseReleased = ->            # to make Android work
 	released = true             # to make Android work
+	#messages.push 'mouseReleased'
 	false                       # to make Android work
 
 mousePressed = ->
 	if not released then return false # to make Android work
 	released = false            # to make Android work
+	#messages.push "mousePressed #{points.length}"
 	for button in buttons
 		if button.contains mouseX,mouseY then button.click()
 	false                       # to make Android work
+
+# mouseReleased = ->
+# 	released = true
+# 	messages.push 'mouseReleased'
+# 	false
+
+# mousePressed = ->
+# 	if not released then return false
+# 	released = false 
+# 	counter += 1
+# 	messages.push "mousePressed #{counter}"
+# 	false
