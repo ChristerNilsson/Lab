@@ -275,13 +275,21 @@ drawCompass = function drawCompass() {
 };
 
 draw = function draw() {
+  var i, j, len, message, results;
   bg(0);
   fc();
   image(img, 0, 0, width, height, cx - width / SCALE / 2, cy - height / SCALE / 2, width / SCALE, height / SCALE);
   drawTrack();
   drawPoints();
   drawCompass();
-  return drawButtons();
+  drawButtons();
+  textSize(50);
+  results = [];
+  for (i = j = 0, len = messages.length; j < len; i = ++j) {
+    message = messages[i];
+    results.push(text(message, width / 2, 50 * (i + 1)));
+  }
+  return results;
 };
 
 // mouseTouched = -> 
@@ -293,7 +301,7 @@ draw = function draw() {
 mouseReleased = function mouseReleased() {
   // to make Android work
   released = true; // to make Android work
-  //messages.push 'mouseReleased'
+  messages.push('mouseReleased');
   return false; // to make Android work
 };
 
@@ -303,13 +311,13 @@ mousePressed = function mousePressed() {
     return false; // to make Android work
   }
   released = false; // to make Android work
-  //messages.push "mousePressed #{points.length}"
   for (j = 0, len = buttons.length; j < len; j++) {
     button = buttons[j];
     if (button.contains(mouseX, mouseY)) {
       button.click();
     }
   }
+  messages.push('mousePressed ' + points.length);
   return false; // to make Android work
 };
 

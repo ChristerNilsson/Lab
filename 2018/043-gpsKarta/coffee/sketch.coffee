@@ -189,6 +189,10 @@ draw = ->
 	drawPoints()
 	drawCompass()
 	drawButtons()
+	textSize 50
+	for message,i in messages
+		text message,width/2,50*(i+1)
+
 
 # mouseTouched = -> 
 # 	# if not released then return false # to make Android work
@@ -199,15 +203,15 @@ draw = ->
 
 mouseReleased = ->            # to make Android work
 	released = true             # to make Android work
-	#messages.push 'mouseReleased'
+	messages.push 'mouseReleased'
 	false                       # to make Android work
 
 mousePressed = ->
 	if not released then return false # to make Android work
 	released = false            # to make Android work
-	#messages.push "mousePressed #{points.length}"
 	for button in buttons
 		if button.contains mouseX,mouseY then button.click()
+	messages.push "mousePressed #{points.length}"
 	false                       # to make Android work
 
 # mouseReleased = ->
