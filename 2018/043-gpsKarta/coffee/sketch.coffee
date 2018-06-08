@@ -91,10 +91,14 @@ locationUpdate = (p) ->
 	position = gps.gps2bmp lat,lon
 	track.push position
 	if track.length > TRACKED then track.shift()
+	xdraw()
 
 locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then messages = ['Check location permissions']
 
-setupCompass = -> window.addEventListener "deviceorientation", (event) ->	bearing = round event.alpha 
+setupCompass = ->
+	window.addEventListener "deviceorientation", (event) ->
+		bearing = round event.alpha 
+		xdraw()
 
 storeData = -> localStorage[DATA] = JSON.stringify points	
 fetchData = -> if localStorage[DATA] then points = JSON.parse localStorage[DATA]
@@ -113,23 +117,35 @@ setup = ->
 	y1 = 100
 	y2 = height-100
 
-	buttons.push new Button 'S7',x1,y1, -> 
+	buttons.push new Button 'S8',x1,y1, -> 
 		points.push position
 		storeData()
 
-	buttons.push new Button 'U',x,y1, -> cy -= 0.5*height/SCALE
+	buttons.push new Button 'U',x,y1, ->
+		cy -= 0.5*height/SCALE
 
 	buttons.push new Button '0',x2,y1, -> 
 		if points.length > 0 
 			points.pop()
 			storeData()
 
-	buttons.push new Button 'L',x1,y, -> cx -= 0.5*width/SCALE
-	buttons.push new Button 'C',x,y, ->	[cx,cy] = position
-	buttons.push new Button 'R',x2,y, -> cx += 0.5*width/SCALE
-	buttons.push new Button 'D',x,y2, -> cy += 0.5*height/SCALE
-	buttons.push new Button '-',x1,y2, -> SCALE /= 1.5
-	buttons.push new Button '+',x2,y2, -> SCALE *= 1.5
+	buttons.push new Button 'L',x1,y, -> 
+		cx -= 0.5*width/SCALE
+
+	buttons.push new Button 'C',x,y, ->	
+		[cx,cy] = position
+
+	buttons.push new Button 'R',x2,y, ->
+		cx += 0.5*width/SCALE
+
+	buttons.push new Button 'D',x,y2, -> 
+		cy += 0.5*height/SCALE
+
+	buttons.push new Button '-',x1,y2, ->
+		SCALE /= 1.5
+
+	buttons.push new Button '+',x2,y2, ->
+		SCALE *= 1.5
 
 	makeCorners()
 
@@ -141,6 +157,7 @@ setup = ->
 		timeout: 27000
 
 	setupCompass()
+	xdraw()
 
 drawTrack = ->
 	push()
@@ -181,7 +198,7 @@ drawCompass = ->
 	line 0,100,0,150
 	pop()
 
-draw = ->
+xdraw = ->
 	bg 0
 	fc()
 	image img, 0,0, width,height, cx-width/SCALE/2, cy-height/SCALE/2, width/SCALE, height/SCALE
@@ -204,6 +221,7 @@ touchStarted = ->
 	for button in buttons
 		if button.contains mouseX,mouseY then button.click()
 	messages.push "touchStarted #{points.length}"
+	xdraw()
 	false       # to make Android work
 
 # mouseReleased = ->            # to make Android work
