@@ -121,31 +121,18 @@ setup = ->
 		points.push position
 		storeData()
 
-	buttons.push new Button 'U',x,y1, ->
-		cy -= 0.5*height/SCALE
-
+	buttons.push new Button 'U',x,y1, -> cy -= 0.5*height/SCALE
 	buttons.push new Button '0',x2,y1, -> 
 		if points.length > 0 
 			points.pop()
 			storeData()
 
-	buttons.push new Button 'L',x1,y, -> 
-		cx -= 0.5*width/SCALE
-
-	buttons.push new Button 'C',x,y, ->	
-		[cx,cy] = position
-
-	buttons.push new Button 'R',x2,y, ->
-		cx += 0.5*width/SCALE
-
-	buttons.push new Button 'D',x,y2, -> 
-		cy += 0.5*height/SCALE
-
-	buttons.push new Button '-',x1,y2, ->
-		SCALE /= 1.5
-
-	buttons.push new Button '+',x2,y2, ->
-		SCALE *= 1.5
+	buttons.push new Button 'L',x1,y, -> cx -= 0.5*width/SCALE
+	buttons.push new Button 'C',x,y, ->	[cx,cy] = position
+	buttons.push new Button 'R',x2,y, -> cx += 0.5*width/SCALE
+	buttons.push new Button 'D',x,y2, -> cy += 0.5*height/SCALE
+	buttons.push new Button '-',x1,y2, -> SCALE /= 1.5
+	buttons.push new Button '+',x2,y2, ->	SCALE *= 1.5
 
 	makeCorners()
 
@@ -159,22 +146,19 @@ setup = ->
 	setupCompass()
 	xdraw()
 
-	addEventListener 'touchend', (evt) ->	
-		released = true             # to make Android work
-		#messages.push 'touchend'
-		false       # to make Android work
-
+	# undviker dubbelstuds:
+	#addEventListener 'touchend', (evt) ->	
+	#	released = true             # to make Android work
+	#	false       # to make Android work
 	addEventListener 'touchstart', (evt) ->	
-		if not released then return false # to make Android work
-		released = false            # to make Android work
-		#messages.push "touchstart #{points.length}"
+		#if not released then return false # to make Android work
+		#released = false            # to make Android work
 		touches = evt.changedTouches	
 		touch = touches[touches.length-1]
-		#messages.push "#{touches.length},#{touch.pageX},#{touch.pageY}"
 		for button in buttons
 			if button.contains touch.pageX,touch.pageY then button.click()
 		xdraw()
-		false       # to make Android work
+		#false       # to make Android work
 
 drawTrack = ->
 	push()
