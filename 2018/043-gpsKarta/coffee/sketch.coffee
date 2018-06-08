@@ -112,7 +112,7 @@ setup = ->
 	y1 = 100
 	y2 = height-100
 
-	buttons.push new Button 'S',x1,y1, -> 
+	buttons.push new Button 'S1',x1,y1, -> 
 		points.push position
 		storeData()
 
