@@ -6,8 +6,8 @@
     "coffee\\sketch.coffee"
   ],
   "names": [],
-  "mappings": ";;;AAAA,IAAA,SAAA,MAAA,UAAA,cAAA,eAAA,cAAA;;AAAA,UAAU;;AACV,WAAW;;AAEX,QAAQ;SACP,aAAa,AAAb,aAA0B,AAA1B,AADO;;;AAGR,OAAO,gBACN;MAAA,GAAA,GAAA,KAAA,SAAA;AAAA,KAAG,AAAH;AACA,WAAS,AAAT,AACA;;AAAA,OAAA,iDAAA;;iBACC,KAAK,AAAL,SAAa,AAAb,KAAiB,AAAG,MAAC,IAAE,AAAH,AAApB,AADD;AAAA;SAHM;;;AAOP,eAAe;SAAG,AAAQ,SAAC,AAAT,KAAc,AAAd,AAAH;;;AACf,gBAAgB;SAAG,AAAQ,SAAC,AAAT,KAAc,AAAd,AAAH;;;AAEhB,eAAe;AACd,aAAW;SACX,AAAQ,SAAC,AAAT,AAAc,uBAAgB,AAAhB,AAAd,AAFc",
+  "mappings": ";;;AAAA,IAAA,SAAA,MAAA,UAAA,cAAA,eAAA,UAAA;;AAAA,UAAU;;AACV,WAAW;;AACX,WAAW;;AAEX,QAAQ;SACP,aAAa,AAAb,aAA0B,AAA1B,AADO;;;AAGR,OAAO,gBACN;MAAA,GAAA,GAAA,KAAA,SAAA;AAAA,KAAG,AAAH;AACA,WAAS,AAAT,AACA;;AAAA,OAAA,iDAAA;;iBACC,KAAK,AAAL,SAAa,AAAb,KAAiB,AAAG,MAAC,IAAE,AAAH,AAApB,AADD;AAAA;SAHM;AAPP;;;AAeA,gBAAgB;AACf,aAAW;AACX,AAAQ,WAAC,AAAT,KAAc,AAAd;SACA,AAHe;;;AAKhB,eAAe;AACd,MAAG,CAAI,AAAP,UAAqB;WAAO,AAA5B;;AACA,aAAW;AACX,aAAW;AACX,AAAQ,WAAC,AAAT,AAAc,uBAAgB,AAAhB,AAAd;SACA,AALc",
   "sourcesContent": [
-    "counter = 0\r\nmessages = []\r\n\r\nsetup = ->\r\n\tcreateCanvas windowWidth, windowHeight\r\n\r\ndraw = ->\r\n\tbg 1\r\n\ttextSize 50\r\n\tfor message,i in messages\r\n\t\ttext message,100,50*(i+1)\r\n\r\n\r\nmouseTouched = -> messages.push 'mouseTouched'\r\nmouseReleased = -> messages.push 'mouseReleased'\r\n\r\nmousePressed = ->\r\n\tcounter += 1\r\n\tmessages.push \"mousePressed #{counter}\"\r\n"
+    "counter = 0\r\nmessages = []\r\nreleased = true\r\n\r\nsetup = ->\r\n\tcreateCanvas windowWidth, windowHeight\r\n\r\ndraw = ->\r\n\tbg 1\r\n\ttextSize 50\r\n\tfor message,i in messages\r\n\t\ttext message,100,50*(i+1)\r\n\r\n\r\n#mouseTouched = -> messages.push 'mouseTouched'\r\nmouseReleased = ->\r\n\treleased = true\r\n\tmessages.push 'mouseReleased'\r\n\tfalse\r\n\r\nmousePressed = ->\r\n\tif not released then return false\r\n\treleased = false \r\n\tcounter += 1\r\n\tmessages.push \"mousePressed #{counter}\"\r\n\tfalse\r\n"
   ]
 }
