@@ -117,7 +117,7 @@ setup = ->
 	y1 = 100
 	y2 = height-100
 
-	buttons.push new Button 'S8',x1,y1, -> 
+	buttons.push new Button 'S9',x1,y1, -> 
 		points.push position
 		storeData()
 
@@ -158,6 +158,20 @@ setup = ->
 
 	setupCompass()
 	xdraw()
+
+	addEventListener 'touchend', (mouse) ->	
+		released = true             # to make Android work
+		messages.push 'touchend'
+		false       # to make Android work
+
+	addEventListener 'touchstart', (mouse) ->	
+		if not released then return false # to make Android work
+		released = false            # to make Android work
+		for button in buttons
+			if button.contains mouse.x,mouse.y then button.click()
+		messages.push "touchstart #{points.length}"
+		xdraw()
+		false       # to make Android work
 
 drawTrack = ->
 	push()
@@ -210,19 +224,19 @@ xdraw = ->
 	for message,i in messages
 		text message,width/2,50*(i+1)
 
-touchEnded = ->            # to make Android work
-	released = true             # to make Android work
-	messages.push 'touchEnded'
-	false       # to make Android work
+# touchEnded = ->            # to make Android work
+# 	released = true             # to make Android work
+# 	messages.push 'touchEnded'
+# 	false       # to make Android work
 
-touchStarted = -> 
-	if not released then return false # to make Android work
-	released = false            # to make Android work
-	for button in buttons
-		if button.contains mouseX,mouseY then button.click()
-	messages.push "touchStarted #{points.length}"
-	xdraw()
-	false       # to make Android work
+# touchStarted = -> 
+# 	if not released then return false # to make Android work
+# 	released = false            # to make Android work
+# 	for button in buttons
+# 		if button.contains mouseX,mouseY then button.click()
+# 	messages.push "touchStarted #{points.length}"
+# 	xdraw()
+# 	false       # to make Android work
 
 # mouseReleased = ->            # to make Android work
 # 	released = true             # to make Android work
