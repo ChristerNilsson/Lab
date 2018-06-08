@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,SAAA,MAAA,UAAA,cAAA,eAAA,cAAA;;AAAA,UAAU;;AACV,WAAW;;AAEX,QAAQ;SACP,aAAa,AAAb,aAA0B,AAA1B,AADO;;;AAGR,OAAO,gBACN;MAAA,GAAA,GAAA,KAAA,SAAA;AAAA,KAAG,AAAH;AACA,WAAS,AAAT,AACA;;AAAA,OAAA,iDAAA;;iBACC,KAAK,AAAL,SAAa,AAAb,KAAiB,AAAG,MAAC,IAAE,AAAH,AAApB,AADD;AAAA;SAHM;;;AAOP,eAAe;SAAG,AAAQ,SAAC,AAAT,KAAc,AAAd,AAAH;;;AACf,gBAAgB;SAAG,AAAQ,SAAC,AAAT,KAAc,AAAd,AAAH;;;AAEhB,eAAe;AACd,aAAW;SACX,AAAQ,SAAC,AAAT,AAAc,uBAAgB,AAAhB,AAAd,AAFc",
+  "sourcesContent": [
+    "counter = 0\r\nmessages = []\r\n\r\nsetup = ->\r\n\tcreateCanvas windowWidth, windowHeight\r\n\r\ndraw = ->\r\n\tbg 1\r\n\ttextSize 50\r\n\tfor message,i in messages\r\n\t\ttext message,100,50*(i+1)\r\n\r\n\r\nmouseTouched = -> messages.push 'mouseTouched'\r\nmouseReleased = -> messages.push 'mouseReleased'\r\n\r\nmousePressed = ->\r\n\tcounter += 1\r\n\tmessages.push \"mousePressed #{counter}\"\r\n"
+  ]
+}
