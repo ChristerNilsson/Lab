@@ -171,7 +171,7 @@ setup = function setup() {
   x2 = width - 100;
   y1 = 100;
   y2 = height - 100;
-  buttons.push(new Button('SB', x1, y1, function () {
+  buttons.push(new Button('S', x1, y1, function () {
     points.push(position);
     return storeData();
   }));
@@ -215,7 +215,7 @@ setup = function setup() {
   xdraw();
   addEventListener('touchend', function (evt) {
     released = true; // to make Android work
-    messages.push('touchend');
+    //messages.push 'touchend'
     return false; // to make Android work
   });
   return addEventListener('touchstart', function (evt) {
@@ -224,10 +224,10 @@ setup = function setup() {
       return false; // to make Android work
     }
     released = false; // to make Android work
-    messages.push('touchstart ' + points.length);
+    //messages.push "touchstart #{points.length}"
     touches = evt.changedTouches;
     touch = touches[touches.length - 1];
-    messages.push(touches.length + ',' + touch.pageX + ',' + touch.pageY);
+    //messages.push "#{touches.length},#{touch.pageX},#{touch.pageY}"
     for (j = 0, len = buttons.length; j < len; j++) {
       button = buttons[j];
       if (button.contains(touch.pageX, touch.pageY)) {

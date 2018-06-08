@@ -117,7 +117,7 @@ setup = ->
 	y1 = 100
 	y2 = height-100
 
-	buttons.push new Button 'SB',x1,y1, -> 
+	buttons.push new Button 'S',x1,y1, -> 
 		points.push position
 		storeData()
 
@@ -161,16 +161,16 @@ setup = ->
 
 	addEventListener 'touchend', (evt) ->	
 		released = true             # to make Android work
-		messages.push 'touchend'
+		#messages.push 'touchend'
 		false       # to make Android work
 
 	addEventListener 'touchstart', (evt) ->	
 		if not released then return false # to make Android work
 		released = false            # to make Android work
-		messages.push "touchstart #{points.length}"
+		#messages.push "touchstart #{points.length}"
 		touches = evt.changedTouches	
 		touch = touches[touches.length-1]
-		messages.push "#{touches.length},#{touch.pageX},#{touch.pageY}"
+		#messages.push "#{touches.length},#{touch.pageX},#{touch.pageY}"
 		for button in buttons
 			if button.contains touch.pageX,touch.pageY then button.click()
 		xdraw()
