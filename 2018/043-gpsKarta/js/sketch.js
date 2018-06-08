@@ -171,7 +171,7 @@ setup = function setup() {
   x2 = width - 100;
   y1 = 100;
   y2 = height - 100;
-  buttons.push(new Button('SA', x1, y1, function () {
+  buttons.push(new Button('SB', x1, y1, function () {
     points.push(position);
     return storeData();
   }));
@@ -220,11 +220,11 @@ setup = function setup() {
   });
   return addEventListener('touchstart', function (evt) {
     var button, j, len, touch, touches;
-    print(mouse);
     if (!released) {
       return false; // to make Android work
     }
     released = false; // to make Android work
+    messages.push('touchstart ' + points.length);
     touches = evt.changedTouches;
     touch = touches[touches.length - 1];
     messages.push(touches.length + ',' + touch.pageX + ',' + touch.pageY);
@@ -234,7 +234,6 @@ setup = function setup() {
         button.click();
       }
     }
-    messages.push('touchstart ' + points.length);
     xdraw();
     return false; // to make Android work
   });

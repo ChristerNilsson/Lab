@@ -117,7 +117,7 @@ setup = ->
 	y1 = 100
 	y2 = height-100
 
-	buttons.push new Button 'SA',x1,y1, -> 
+	buttons.push new Button 'SB',x1,y1, -> 
 		points.push position
 		storeData()
 
@@ -165,15 +165,14 @@ setup = ->
 		false       # to make Android work
 
 	addEventListener 'touchstart', (evt) ->	
-		print mouse
 		if not released then return false # to make Android work
 		released = false            # to make Android work
+		messages.push "touchstart #{points.length}"
 		touches = evt.changedTouches	
 		touch = touches[touches.length-1]
 		messages.push "#{touches.length},#{touch.pageX},#{touch.pageY}"
 		for button in buttons
 			if button.contains touch.pageX,touch.pageY then button.click()
-		messages.push "touchstart #{points.length}"
 		xdraw()
 		false       # to make Android work
 
