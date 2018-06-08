@@ -150,16 +150,17 @@ storeData = function storeData() {
 };
 
 fetchData = function fetchData() {
-  var data;
-  data = localStorage[DATA];
-  if (data) {
-    return points = JSON.parse(data);
+  if (localStorage[DATA]) {
+    return points = JSON.parse(localStorage[DATA]);
   }
 };
 
 setup = function setup() {
   var x, x1, x2, y, y1, y2;
   createCanvas(windowWidth, windowHeight);
+  cx = WIDTH / 2;
+  cy = HEIGHT / 2;
+
   fetchData();
   x = width / 2;
   y = height / 2;
@@ -200,9 +201,6 @@ setup = function setup() {
   buttons.push(new Button('+', x2, y2, function () {
     return SCALE *= 1.5;
   }));
-  cx = WIDTH / 2;
-  cy = HEIGHT / 2;
-
   makeCorners();
   position = [WIDTH / 2, HEIGHT / 2];
   navigator.geolocation.watchPosition(locationUpdate, locationUpdateFail, {

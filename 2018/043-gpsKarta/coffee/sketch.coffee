@@ -21,7 +21,7 @@ position = null # gps position (pixels)
 track = [] # five latest GPS positions (pixels)
 buttons = []
 points = [] # remembers e.g. car/bike position
-img = null
+img = null 
 bearing = 360
 
 preload = -> img = loadImage FILENAME
@@ -96,13 +96,12 @@ locationUpdateFail = (error) ->	if error.code == error.PERMISSION_DENIED then me
 setupCompass = -> window.addEventListener "deviceorientation", (event) ->	bearing = round event.alpha 
 
 storeData = -> localStorage[DATA] = JSON.stringify points	
-
-fetchData = ->
-	data = localStorage[DATA]
-	if data then points = JSON.parse data 
+fetchData = -> if localStorage[DATA] then points = JSON.parse localStorage[DATA]
 
 setup = ->
 	createCanvas windowWidth,windowHeight
+
+	[cx,cy] = [WIDTH/2,HEIGHT/2] 
 
 	fetchData()
 
@@ -116,11 +115,14 @@ setup = ->
 	buttons.push new Button 'S',x1,y1, -> 
 		points.push position
 		storeData()
+
 	buttons.push new Button 'U',x,y1, -> cy -= 0.5*height/SCALE
+
 	buttons.push new Button '0',x2,y1, -> 
 		if points.length > 0 
 			points.pop()
 			storeData()
+
 	buttons.push new Button 'L',x1,y, -> cx -= 0.5*width/SCALE
 	buttons.push new Button 'C',x,y, ->	[cx,cy] = position
 	buttons.push new Button 'R',x2,y, -> cx += 0.5*width/SCALE
@@ -128,7 +130,6 @@ setup = ->
 	buttons.push new Button '-',x1,y2, -> SCALE /= 1.5
 	buttons.push new Button '+',x2,y2, -> SCALE *= 1.5
 
-	[cx,cy] = [WIDTH/2,HEIGHT/2] 
 	makeCorners()
 
 	position = [WIDTH/2,HEIGHT/2]
