@@ -171,7 +171,7 @@ setup = function setup() {
   x2 = width - 100;
   y1 = 100;
   y2 = height - 100;
-  buttons.push(new Button('S9', x1, y1, function () {
+  buttons.push(new Button('SA', x1, y1, function () {
     points.push(position);
     return storeData();
   }));
