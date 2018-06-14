@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;AAAA,IAAA,MAAA,GAAA,QAAA,MAAA,GAAA,OAAA;;AAAA,UAAU;;AACV,IAAI;;AACJ,IAFA,AAEI;;AACJ,OAAO;;AAEP,AAAM;AACL,AAAc,kBAAA,IAAA;gFAAA,AAAU;gFAAV,AAAe;gFAAf,AAAoB;kFAApB,AAA2B;;;;AAA1B,AAAC,SAAA;AAAE,AAAC,SAAA;AAAE,AAAC,SAAA;AAAI,AAAC,SAAA;AAAI,AAAC,SAAA;AAAI,AAAC,SAAA,MAAvB;AACd,AAAK;;;;;AACJ;;UAAA,IAAA;AAAA,SAAG,AAAC,KAAJ,AAAI,GAAE,AAAC,KAAP,AAAO,GAAE,AAAC,KAAV,AAAU;AACV,WAAK,IAAI,AAAC,KAAL,AAAK;AACV,WAAK,IAAI,AAAC,KAAL,AAAK;AACV,WAAK,AAAC,KAAN,AAAM,GAAE,AAAC,KAAT,AAAS,GAAE,AAAC,KAAD,AAAC,IAAZ,AAAc,IAAG,AAAC,KAAD,AAAC,IAAlB,AAAoB;AACpB,oBAAU,CAAC,AAAC,KAAD,AAAC,IAAF,AAAI,IAAG,AAAC,KAAD,AAAC,IALd,AAKM,AAAU,KAAnB,AAAC,KAAF,AAAE,aAAE,AAAC,KAAL,AAAK;AAPP;;;;;;AASA,QAAQ,iBACP;MAAA,IAAA,IAAA,GAAA,KAAA,KAAA,GAAA,GAAA;AAAA,eAAA,AAAa,KAAb,AAAiB;AACjB,YAAA,AAAU;AACV,KAAA,AAAG;AACH,KAAA,AAAG;AAEH,MAAI,MAAI,AAER;;AAAA,OAAA,kCAAA;;AACC,QAAI,MAAM,IAAI,IAAJ,AAAQ;AAClB,QAAI,MAAM,IAAI,IAAJ,AAAQ;AAClB,QAAG,MAAH,AAAM;AAAO,AAAC,QAAD,GAAU,AAAC;AAAX,AAAI,AAAM,WAAvB,AAAuB,AAAG;;AAC1B,QAAG,MAAH,AAAM;AAAO,kBAAU,CAAC,KAAD,AAAI,GAAE,KAA7B,AAAuB,AAAS;AAAnB,AAAC;AAAD,AAAI;;AACjB,AAAO,YAAP,AAAQ,KAAK,IAAA,AAAI,OAAJ,AAAW,GAAX,AAAa,GAAb,AAAe,GAAf,AAAiB,GAAjB,AAAmB,GAAE,AAAE,KAAC,IAAA,AAAE,MAAI,OAA3C,AAAa,AAAuB,AAAY;AAChD,QAAI,MAAM,IAAI,AAAI,KAAC,IAAT,AAAQ,AAAG;AACrB,QAAI,MAAM,IAAI,AAAI,KAAC,IAAT,AAAQ,AAAG;AACrB,AAAO,YAAP,AAAQ,KAAK,IAAA,AAAI,OAAJ,AAAW,GAAX,AAAa,GAAb,AAAe,GAAf,AAAiB,GAAjB,AAAmB,GAAE,AAAE,KAAC,IAAA,AAAE,IAAE,OAR1C,AAQC,AAAa,AAAuB,AAAU;;SAC/C,OAAO,KAAK,KAAA,AAAG,KAAG,KAjBX,AAiBA,AAAc;;;AAEtB,OAAO,gBACN;MAAA,GAAA,KAAA,SAAA;AAAA;AACA,MAAG,IAAH,AAAO;AACN,cAAU,QAAV,AAAgB,GAAE,SAAlB,AAAyB,AACzB;;AAAA,SAAA,sCAAA;;mBACC,AAAC,EADF,AACC,AAAE;AADH;WAFD;AAFM",
+  "sourcesContent": [
+    "turtles = []\r\ni = 0\r\nN = 3 # 3,4,5,6\r\nDIST = 0\r\n\r\nclass Turtle\r\n\tconstructor : (@x,@y,@r=1,@g=1,@b=1,@dir=0) ->\r\n\tfd : ->\r\n\t\tsc @r,@g,@b\r\n\t\tdx = cos @dir\r\n\t\tdy = sin @dir\r\n\t\tline @x,@y,@x+dx,@y+dy\r\n\t\t[@x,@y] = [@x+dx,@y+dy]\r\n\r\nsetup = ->\r\n\tcreateCanvas 700,700\r\n\tangleMode DEGREES\r\n\tsw 20\r\n\tbg 0\r\n\r\n\tv = 360/N\r\n\r\n\tfor i in range N\r\n\t\tx = 300 * cos v * i\r\n\t\ty = 300 * sin v * i\r\n\t\tif i==0 then [dx,dy] = [x,y]\r\n\t\tif i==1 then [dx,dy] = [dx-x,dy-y]\r\n\t\tturtles.push new Turtle x,y,1,0,0,v*(i+0.5+0.25*N)\r\n\t\tx = 300 * cos v * (i+0.5)\r\n\t\ty = 300 * sin v * (i+0.5)\r\n\t\tturtles.push new Turtle x,y,0,1,0,v*(i+1+0.25*N)\r\n\tDIST = sqrt dx*dx+dy*dy\r\n\r\ndraw = ->\r\n\ti++\r\n\tif i < DIST\r\n\t\ttranslate width/2,height/2\r\n\t\tfor t in turtles\r\n\t\t\tt.fd()"
+  ]
+}
