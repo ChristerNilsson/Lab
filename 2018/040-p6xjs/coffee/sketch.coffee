@@ -3,6 +3,7 @@ cn = {}
 #########
 
 shapes = {}
+message = ""
 
 class Vector
 	constructor : (@x=0,@y=0) ->
@@ -175,13 +176,13 @@ setup = ->
 	for letter,i in alfabet
 		x = 200 * cos i*360/alfabet.length
 		y = 200 * sin i*360/alfabet.length
-		cn.circle(x,y,20,shapes.letters).fill("#f00").text(letter).clicked -> print @txt
+		cn.circle(x,y,40,shapes.letters).fill("#f00").text(letter).clicked -> message += @txt
 
 	numbers = '0123456789'
 	for digit,i in numbers
 		x = 260 * cos i*360/numbers.length
 		y = 260 * sin i*360/numbers.length
-		cn.circle(x,y,40,shapes.digits).fill("#0f0").text(digit).clicked -> print @txt
+		cn.circle(x,y,40,shapes.digits).fill("#0f0").text(digit).clicked -> message = @txt
 
 draw = ->
 	bg 0.5
@@ -194,6 +195,10 @@ draw = ->
 	shapes.digits.rotation -= 0.1
 	for child in shapes.digits.children
 		child.rotation += 3.1
+
+	textSize 100
+	textAlign CENTER,CENTER
+	text message,300,300
 
 mouseMoved   = ->	stage.mouseMoved   new Vector mouseX,mouseY
 mousePressed = ->	stage.mousePressed new Vector mouseX,mouseY

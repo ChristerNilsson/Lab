@@ -36,7 +36,7 @@ testCircle = function testCircle() {
 
 testRect = function testRect() {
   var r;
-  r = cn.rect(100, 200, 10, 20);
+  r = p6.rect(100, 200, 10, 20);
   assert(-5, r.points[0].x);
   assert(-10, r.points[0].y);
   assert(5, r.points[1].x);
@@ -54,7 +54,7 @@ testRect = function testRect() {
   assert(true, r.contains(new Vector(100 - 4, 200 - 4)));
   assert(true, r.contains(new Vector(100 - 4, 200 + 4)));
   assert(true, r.contains(new Vector(100 + 4, 200 - 4)));
-  r = cn.rect(100, 200, 10, 10);
+  r = p6.rect(100, 200, 10, 10);
   r.rotation = 45;
   print(r);
   assert(true, r.contains(new Vector(100 + 3, 200 + 3)));
