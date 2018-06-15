@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch1.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch1.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;AAAA,IAAA,MAAA,GAAA,MAAA,GAAA,OAAA;;AAAA,UAAU;;AACV,IAAI;;AACJ,IAAI;;AACJ,OAAO;;AAEP,QAAQ,iBACP;MAAA,IAAA,IAAA,GAAA,KAAA,KAAA,GAAA,GAAA;AAAA,eAAA,AAAa,KAAb,AAAiB;AACjB,YAAA,AAAU;AACV,KAAA,AAAG;AACH,KAAA,AAAG;AACH,MAAI,MAAI,AACR;;AAAA,OAAA,kCAAA;;AACC,QAAI,MAAM,IAAI,IAAJ,AAAQ;AAClB,QAAI,MAAM,IAAI,IAAJ,AAAQ;AAClB,QAAG,MAAH,AAAM;AAAO,AAAC,QAAD,GAAU,AAAC;AAAX,AAAI,AAAM,WAAvB,AAAuB,AAAG;;AAC1B,QAAG,MAAH,AAAM;AAAO,iBAAU,CAAC,KAAD,AAAI,GAAE,KAA7B,AAAuB,AAAS;AAAnB,AAAC;AAAD,AAAI;;AACjB,AAAO,YAAP,AAAQ,KAAK,CAAA,AAAC,GAAD,AAAG,GAAE,AAAE,KAAC,IAAA,AAAE,MAAI,OAA3B,AAAa,AAAO,AAAY;AAChC,QAAI,MAAM,IAAI,AAAI,KAAC,IAAT,AAAQ,AAAG;AACrB,QAAI,MAAM,IAAI,AAAI,KAAC,IAAT,AAAQ,AAAG;AACrB,AAAO,YAAP,AAAQ,KAAK,CAAA,AAAC,GAAD,AAAG,GAAE,AAAE,KAAC,IAAA,AAAE,IAAE,OAR1B,AAQC,AAAa,AAAO,AAAU;;SAC/B,OAAO,KAAK,KAAA,AAAG,KAAG,KAfX,AAeA,AAAc;;;AAEtB,OAAO,gBACN;MAAA,KAAA,GAAA,GAAA,KAAA,SAAA,GAAA;AAAA;AACA,MAAG,IAAH,AAAO;AACN,cAAU,QAAV,AAAgB,GAAE,SAAlB,AAAyB,AACzB;;AAAA,SAAA,gDAAA;AAAI;;AAAA,AAAC;AAAD,AAAG;AAAH,AAAK;;AACR,UAAG,IAAA,AAAE,MAAL,AAAQ;AAAO,WAAA,AAAG,GAAH,AAAK,GAApB,AAAe,AAAO;AAAtB,aAAA;AAA6B,WAAA,AAAG,GAAH,AAAK,GAAlC,AAA6B,AAAO;;mBACpC,MAAM,IAAE,IAAE,IAAV,AAAU,AAAI,MAAK,IAAE,IAAE,IAFxB,AAEC,AAAuB,AAAI;AAF5B;WAFD;AAFM",
+  "sourcesContent": [
+    "turtles = []\r\ni = 0\r\nN = 3\r\nDIST = 0\r\n\r\nsetup = ->\r\n\tcreateCanvas 700,700\r\n\tangleMode DEGREES\r\n\tsw 20\r\n\tbg 0\r\n\tv = 360/N\r\n\tfor i in range N\r\n\t\tx = 300 * cos v * i\r\n\t\ty = 300 * sin v * i\r\n\t\tif i==0 then [dx,dy] = [x,y]\r\n\t\tif i==1 then [dx,dy] = [dx-x,dy-y]\r\n\t\tturtles.push [x,y,v*(i+0.5+0.25*N)]\r\n\t\tx = 300 * cos v * (i+0.5)\r\n\t\ty = 300 * sin v * (i+0.5)\r\n\t\tturtles.push [x,y,v*(i+1+0.25*N)]\r\n\tDIST = sqrt dx*dx+dy*dy\r\n\r\ndraw = ->\r\n\ti++\r\n\tif i < DIST\r\n\t\ttranslate width/2,height/2\r\n\t\tfor [x,y,dir],j in turtles\r\n\t\t\tif j%2==0 then sc 1,0,0 else sc 0,1,0\r\n\t\t\tpoint x+i*cos(dir),y+i*sin(dir)"
+  ]
+}
