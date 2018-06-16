@@ -62,6 +62,7 @@ class Shape
 		while current
 			lst.unshift [current.x,current.y,current.rotation]
 			current = current.parent
+		if @txt=='m' then print lst
 		vec = new Vector()
 		rot = 0
 		rotres = 0

@@ -157,6 +157,9 @@ Shape = function () {
         lst.unshift([current.x, current.y, current.rotation]);
         current = current.parent;
       }
+      if (this.txt === 'm') {
+        print(lst);
+      }
       vec = new Vector();
       rot = 0;
       rotres = 0;

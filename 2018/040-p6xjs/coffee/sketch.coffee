@@ -1,3 +1,5 @@
+btnLeft = null
+btnRight = null
 sun   = null
 earth = null
 moon  = null
@@ -22,23 +24,27 @@ setup = ->
 	btnRight.pressed = -> sun.move 10,0
 
 	sun = p6.circle 300,300,80
+	sun.title 's'
 	sun.fill "#ff0"
 	sun.moved = moved
-	sun.pressed = -> message = 'Sun'
+	sun.pressed = -> message = @txt
 
 	earth = p6.ellipse 200,0,80,60,sun
+	earth.title 'e'
 	earth.fill "#00f"
 	earth.moved = moved
-	earth.pressed = -> message = 'Earth'
+	earth.pressed = -> message = @txt
 
 	moon = p6.circle 80,0,15,earth
+	moon.title 'm'
 	moon.fill "#fff"
 	moon.moved = moved
-	moon.pressed = -> message = 'Moon'
+	moon.pressed = -> message = @txt
 
 draw = ->
 	bg 0.5
 	stage.draw()
+	btnRight.rotation += 0.2
 	sun.rotation   += 0.05
 	earth.rotation += 0.2
 	text message,width/2,100
