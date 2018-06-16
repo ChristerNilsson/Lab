@@ -14,7 +14,7 @@ class Vector
 		new Vector x, y
 
 class Shape
-	constructor : (@x=0,@y=0,@parent=null,@rotation=0)->
+	constructor : (@x=0,@y=0,@parent=null,@rotation=0,@scaleFactor=1)->
 		@children = []
 		@fillColor = "#fff"
 		@strokeColor = "#000"
@@ -23,19 +23,20 @@ class Shape
 		if @parent? then @parent.add @
 
 	draw : ->
+		scale @scaleFactor
 		translate @x,@y
 		rotate @rotation
 		fill @fillColor
 		strokeWeight @strokeWeight
 		for child in @children
 			push()
-			child.draw() 
+			child.draw()
 			pop()
 
 	drawTitle : ->
 		fill '#000'
 		textAlign CENTER,CENTER
-		text @txt,0,0				
+		text @txt,0,0
 
 	add : (shape) -> @children.push shape
 
@@ -50,29 +51,33 @@ class Shape
 		@
 
 	contains : (m) -> # m is mouse position
-		[x,y,rotation] = @stagepos()
+		[x,y,rotation,sf] = @stagepos()
 		p = new Vector x,y
 		p = m.sub p
 		p = p.rotate -rotation
+		p.x /= sf
+		p.y /= sf
 		@inside p
 
 	stagepos : -> # returns resulting [x, y, rotation]
 		lst = []
 		current = @
 		while current
-			lst.unshift [current.x,current.y,current.rotation]
+			lst.unshift [current.x, current.y, current.rotation, current.scaleFactor]
 			current = current.parent
 
 		position = new Vector 0,0
 		lastRotation = 0
-		for [x,y,rotation] in lst
-			v1 = new Vector x, y
+		sf = 1
+		for [x,y,rotation,scaleFactor] in lst
+			sf *= scaleFactor
+			v1 = new Vector sf*x, sf*y
 			v2 = v1.rotate lastRotation
 			position = position.add v2
 			lastRotation += rotation
-		[position.x, position.y, lastRotation %% 360]
+		[position.x, position.y, lastRotation %% 360, sf]
 
-	mouseMoved : -> 
+	mouseMoved : ->
 		m = new Vector mouseX,mouseY
 		for child in @children
 			if child.moved? then child.moved m
@@ -133,7 +138,7 @@ class Ellipse extends Shape
 		strokeWeight @strokeWeight
 		ellipse 0,0,@w,@h
 		@drawTitle()
-	inside : (d) -> 
+	inside : (d) ->
 		xr = @w/2
 		yr = @h/2
 		dx = d.x/xr

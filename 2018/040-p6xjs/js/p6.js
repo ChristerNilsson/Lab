@@ -78,6 +78,7 @@ Shape = function () {
     var y5 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
     var parent1 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
     var rotation1 = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 0;
+    var scaleFactor1 = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 1;
 
     _classCallCheck(this, Shape);
 
@@ -85,6 +86,7 @@ Shape = function () {
     this.y = y5;
     this.parent = parent1;
     this.rotation = rotation1;
+    this.scaleFactor = scaleFactor1;
     this.children = [];
     this.fillColor = "#fff";
     this.strokeColor = "#000";
@@ -99,6 +101,7 @@ Shape = function () {
     key: "draw",
     value: function draw() {
       var child, k, len, ref, results;
+      scale(this.scaleFactor);
       translate(this.x, this.y);
       rotate(this.rotation);
       fill(this.fillColor);
@@ -147,47 +150,53 @@ Shape = function () {
     key: "contains",
     value: function contains(m) {
       // m is mouse position
-      var p, rotation, x, y;
+      var p, rotation, sf, x, y;
 
       var _stagepos = this.stagepos();
 
-      var _stagepos2 = _slicedToArray(_stagepos, 3);
+      var _stagepos2 = _slicedToArray(_stagepos, 4);
 
       x = _stagepos2[0];
       y = _stagepos2[1];
       rotation = _stagepos2[2];
+      sf = _stagepos2[3];
 
       p = new Vector(x, y);
       p = m.sub(p);
       p = p.rotate(-rotation);
+      p.x /= sf;
+      p.y /= sf;
       return this.inside(p);
     }
   }, {
     key: "stagepos",
     value: function stagepos() {
       // returns resulting [x, y, rotation]
-      var current, k, lastRotation, len, lst, position, rotation, v1, v2, x, y;
+      var current, k, lastRotation, len, lst, position, rotation, scaleFactor, sf, v1, v2, x, y;
       lst = [];
       current = this;
       while (current) {
-        lst.unshift([current.x, current.y, current.rotation]);
+        lst.unshift([current.x, current.y, current.rotation, current.scaleFactor]);
         current = current.parent;
       }
       position = new Vector(0, 0);
       lastRotation = 0;
+      sf = 1;
       for (k = 0, len = lst.length; k < len; k++) {
-        var _lst$k = _slicedToArray(lst[k], 3);
+        var _lst$k = _slicedToArray(lst[k], 4);
 
         x = _lst$k[0];
         y = _lst$k[1];
         rotation = _lst$k[2];
+        scaleFactor = _lst$k[3];
 
-        v1 = new Vector(x, y);
+        sf *= scaleFactor;
+        v1 = new Vector(sf * x, sf * y);
         v2 = v1.rotate(lastRotation);
         position = position.add(v2);
         lastRotation += rotation;
       }
-      return [position.x, position.y, modulo(lastRotation, 360)];
+      return [position.x, position.y, modulo(lastRotation, 360), sf];
     }
   }, {
     key: "mouseMoved",

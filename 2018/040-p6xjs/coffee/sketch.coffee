@@ -9,7 +9,7 @@ setup = ->
 	createCanvas 600,600
 	angleMode DEGREES
 
-	textSize 20
+	textSize 12
 	textAlign CENTER,CENTER
 
 	moved = (m) -> @strokeWeight = if @contains m then 3 else 1
@@ -24,7 +24,7 @@ setup = ->
 	btnRight.moved = moved
 	btnRight.pressed = -> sun.move 10,0
 
-	sun = p6.circle 300,300,80
+	sun = p6.circle 300,300,40
 	sun.rotation = 45
 	sun.title 's'
 	sun.fill "#ff0"
@@ -34,12 +34,14 @@ setup = ->
 	earth = p6.regular 200,0,40,4,sun
 	earth.rotation = 60
 	earth.title 'e'
+	earth.scaleFactor = 1
 	earth.fill "#00f"
 	earth.moved = moved
 	earth.pressed = -> message = @txt
 
-	moon = p6.regular 80,0,15,5,earth
+	moon = p6.regular 40,0,10,5,earth
 	moon.title 'm'
+	moon.scaleFactor = 2
 	moon.fill "#fff"
 	moon.moved = moved
 	moon.pressed = -> message = @txt
@@ -50,7 +52,7 @@ draw = ->
 	btnLeft.rotation += 0.1
 	btnRight.rotation += 0.2
 	sun.rotation   += 0.05
-	earth.rotation += 0.2
+	earth.rotation += 0.1
 	moon.rotation += 0.3
 	text message,width/2,100
 
