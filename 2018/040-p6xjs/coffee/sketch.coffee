@@ -1,50 +1,47 @@
+sun   = null
+earth = null
+moon  = null
 message = ""
-
-moved = (m) -> @strokeWeight = if @contains m then 3 else 1
 
 setup = ->
 	createCanvas 600,600
 	angleMode DEGREES
-	
-	p6.circle(300,300,200).fill "#ff0"
-	shapes.letters = p6.group 300,300
-	shapes.digits = p6.group 300,300
+	textSize 20
+	textAlign CENTER,CENTER
 
-	alfabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-	for letter,i in alfabet
-		x = 200 * cos i*360/alfabet.length
-		y = 200 * sin i*360/alfabet.length
-		c = p6.circle x,y,30,shapes.letters
-		c.fill "#f00"
-		c.text letter
-		c.moved = moved
-		c.pressed = -> message += @txt
+	moved = (m) -> @strokeWeight = if @contains m then 3 else 1
 
-	numbers = '0123456789'
-	for digit,i in numbers
-		x = 260 * cos i*360/numbers.length
-		y = 260 * sin i*360/numbers.length
-		c = p6.circle x,y,30,shapes.digits
-		c.fill "#0f0"
-		c.text digit
-		c.moved = moved
-		c.pressed = -> message = @txt
+	btnLeft = p6.circle 100,100,50
+	btnLeft.title "Left"
+	btnLeft.moved = moved
+	btnLeft.pressed = -> sun.move -10,0
+
+	btnRight = p6.regular 500,100,50,6
+	btnRight.title "Right"
+	btnRight.moved = moved
+	btnRight.pressed = -> sun.move 10,0
+
+	sun = p6.circle 300,300,80
+	sun.fill "#ff0"
+	sun.moved = moved
+	sun.pressed = -> message = 'Sun'
+
+	earth = p6.ellipse 200,0,80,60,sun
+	earth.fill "#00f"
+	earth.moved = moved
+	earth.pressed = -> message = 'Earth'
+
+	moon = p6.circle 80,0,15,earth
+	moon.fill "#fff"
+	moon.moved = moved
+	moon.pressed = -> message = 'Moon'
 
 draw = ->
 	bg 0.5
 	stage.draw()
-
-	shapes.letters.rotation += 0.1
-	for child in shapes.letters.children
-		child.rotation -= 2.9
-
-	shapes.digits.rotation -= 0.1
-	for child in shapes.digits.children
-		child.rotation += 3.1
-
-	textSize 100
-	textAlign CENTER,CENTER
-	text message,300,300
+	sun.rotation   += 0.05
+	earth.rotation += 0.2
+	text message,width/2,100
 
 mouseMoved   = ->	stage.mouseMoved() 
 mousePressed = ->	stage.mousePressed()

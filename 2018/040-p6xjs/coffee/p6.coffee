@@ -25,10 +25,17 @@ class Shape
 	draw : ->
 		translate @x,@y
 		rotate @rotation
+		fill @fillColor
+		strokeWeight @strokeWeight
 		for child in @children
 			push()
-			child.draw()
+			child.draw() 
 			pop()
+
+	drawTitle : ->
+		fill '#000'
+		textAlign CENTER,CENTER
+		text @txt,0,0				
 
 	add : (shape) -> @children.push shape
 
@@ -38,7 +45,7 @@ class Shape
 	stroke : (color) ->
 		@strokeColor = color
 		@
-	text : (txt) ->
+	title : (txt) ->
 		@txt = txt
 		@
 
@@ -66,13 +73,13 @@ class Shape
 			vec = vec.add v2
 		[vec.x,vec.y,rotres]
 
-	mouseMoved : -> # m = mouse position
+	mouseMoved : -> 
 		m = new Vector mouseX,mouseY
 		for child in @children
 			if child.moved? then child.moved m
 			child.mouseMoved()
 
-	mousePressed : -> # m = mouse position
+	mousePressed : ->
 		m = new Vector mouseX,mouseY
 		for child in @children
 			if child.contains m
@@ -81,21 +88,20 @@ class Shape
 
 	move : (dx,dy) -> [@x,@y] = [@x+dx,@y+dy]
 
+class Group extends Shape
+	constructor : (x,y,parent=stage) -> super x,y,parent
+	contains : ->
+
 class Polygon extends Shape
-	constructor : (x,y,parent=stage) ->
-		super x,y,parent
-		@points = []
-
+	constructor : (x,y,parent=stage,@points = []) -> super x,y,parent
 	lineTo : (x,y) -> @points.push new Vector x,y
-
 	draw : ->
 		super()
-		fill @fillColor
-		strokeWeight @strokeWeight
 		beginShape()
 		for p in @points
 			vertex p.x,p.y
 		endShape CLOSE
+		@drawTitle()
 
 	inside : (p) -> # only checks if p is locally within polygon
 		res = false
@@ -117,12 +123,23 @@ class Circle extends Shape
 		fill @fillColor
 		strokeWeight @strokeWeight
 		circle 0,0,@radius
-		fill '#000'
-		textSize 30
-		textAlign CENTER,CENTER
-		text @txt,0,0
-
+		@drawTitle()
 	inside : (d) -> @radius >= sqrt d.x*d.x+d.y*d.y
+
+class Ellipse extends Shape
+	constructor : (x,y,@w,@h,parent=stage) -> super x,y,parent
+	draw : ->
+		super()
+		fill @fillColor
+		strokeWeight @strokeWeight
+		ellipse 0,0,@w,@h
+		@drawTitle()
+	inside : (d) -> 
+		xr = @w/2
+		yr = @h/2
+		dx = d.x/xr
+		dy = d.y/yr
+		dx*dx + dy*dy < 1
 
 class Arc extends Polygon
 	constructor : (x,y,radius,start,stopp,parent=stage) ->
@@ -140,19 +157,43 @@ class Rect extends Polygon
 		super x,y,parent
 		w = w/2
 		h = h/2
-		@lineTo -w,-h,+w,-h
-		@lineTo +w,-h,+w,+h
-		@lineTo +w,+h,-w,+h
-		@lineTo -w,+h,-w,-h
+		@lineTo -w,-h
+		@lineTo +w,-h
+		@lineTo +w,+h
+		@lineTo -w,+h
 
-class Group extends Shape
-	constructor : (x,y,parent=stage) -> super x,y,parent
-	contains : ->
+class Triangle extends Polygon
+	constructor : (x,y,x1,y1,x2,y2,x3,y3,parent=stage) ->
+		super x,y,parent
+		@lineTo x1,y1
+		@lineTo x2,y2
+		@lineTo x3,y3
 
-p6.shape  = (...args) -> new Shape ...args
-p6.group  = (...args) -> new Group ...args
-p6.circle = (...args) -> new Circle ...args
-p6.arc    = (...args) -> new Arc ...args
-p6.rect   = (...args) -> new Rect ...args
+class Quad extends Polygon
+	constructor : (x,y,x1,y1,x2,y2,x3,y3,x4,y4,parent=stage) ->
+		super x,y,parent
+		@lineTo x1,y1
+		@lineTo x2,y2
+		@lineTo x3,y3
+		@lineTo x4,y4
+
+class Regular extends Polygon
+	constructor : (x,y,r,n,parent=stage) ->
+		super x,y,parent
+		for i in range n
+			dx = r*cos i*360/n
+			dy = r*sin i*360/n
+			@lineTo dx,dy
+
+p6.shape    = (...args) -> new Shape ...args
+p6.group    = (...args) -> new Group ...args
+p6.polygon  = (...args) -> new Polygon ...args
+p6.circle   = (...args) -> new Circle ...args
+p6.ellipse  = (...args) -> new Ellipse ...args
+p6.arc      = (...args) -> new Arc ...args
+p6.rect     = (...args) -> new Rect ...args
+p6.triangle = (...args) -> new Triangle ...args
+p6.quad     = (...args) -> new Quad ...args
+p6.regular  = (...args) -> new Regular ...args
 
 stage = new Shape()
