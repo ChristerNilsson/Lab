@@ -19,13 +19,12 @@ setup = function setup() {
   var moved;
   createCanvas(600, 600);
   angleMode(DEGREES);
-  // test()
   textSize(20);
   textAlign(CENTER, CENTER);
   moved = function moved(m) {
     return this.strokeWeight = this.contains(m) ? 3 : 1;
   };
-  btnLeft = p6.circle(100, 100, 50);
+  btnLeft = p6.ellipse(100, 100, 100, 80);
   btnLeft.title("Left");
   btnLeft.moved = moved;
   btnLeft.pressed = function () {
@@ -45,7 +44,7 @@ setup = function setup() {
   sun.pressed = function () {
     return message = this.txt;
   };
-  earth = p6.ellipse(200, 0, 80, 40, sun);
+  earth = p6.regular(200, 0, 40, 4, sun);
   earth.rotation = 60;
   earth.title('e');
   earth.fill("#00f");
@@ -53,7 +52,7 @@ setup = function setup() {
   earth.pressed = function () {
     return message = this.txt;
   };
-  moon = p6.circle(80, 0, 15, earth);
+  moon = p6.regular(80, 0, 15, 5, earth);
   moon.title('m');
   moon.fill("#fff");
   moon.moved = moved;
@@ -65,9 +64,11 @@ setup = function setup() {
 draw = function draw() {
   bg(0.5);
   stage.draw();
+  btnLeft.rotation += 0.1;
   btnRight.rotation += 0.2;
   sun.rotation += 0.05;
   earth.rotation += 0.2;
+  moon.rotation += 0.3;
   return text(message, width / 2, 100);
 };
 

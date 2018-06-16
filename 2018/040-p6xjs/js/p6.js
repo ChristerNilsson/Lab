@@ -166,16 +166,13 @@ Shape = function () {
     key: "stagepos",
     value: function stagepos() {
       // returns resulting [x, y, rotation]
-      var current, finalRotation, k, lastRotation, len, lst, position, rotation, v1, v2, x, y;
+      var current, k, lastRotation, len, lst, position, rotation, v1, v2, x, y;
       lst = [];
       current = this;
-      finalRotation = 0;
       while (current) {
-        finalRotation += current.rotation;
         lst.unshift([current.x, current.y, current.rotation]);
         current = current.parent;
       }
-      finalRotation = modulo(finalRotation, 360);
       position = new Vector(0, 0);
       lastRotation = 0;
       for (k = 0, len = lst.length; k < len; k++) {
@@ -190,7 +187,7 @@ Shape = function () {
         position = position.add(v2);
         lastRotation += rotation;
       }
-      return [position.x, position.y, finalRotation];
+      return [position.x, position.y, modulo(lastRotation, 360)];
     }
   }, {
     key: "mouseMoved",

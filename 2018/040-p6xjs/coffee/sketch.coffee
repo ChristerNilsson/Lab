@@ -9,14 +9,12 @@ setup = ->
 	createCanvas 600,600
 	angleMode DEGREES
 
-	# test()
-
 	textSize 20
 	textAlign CENTER,CENTER
 
 	moved = (m) -> @strokeWeight = if @contains m then 3 else 1
 
-	btnLeft = p6.circle 100,100,50
+	btnLeft = p6.ellipse 100,100,100,80
 	btnLeft.title "Left"
 	btnLeft.moved = moved
 	btnLeft.pressed = -> sun.move -10,0
@@ -33,14 +31,14 @@ setup = ->
 	sun.moved = moved
 	sun.pressed = -> message = @txt
 
-	earth = p6.ellipse 200,0,80,40,sun
+	earth = p6.regular 200,0,40,4,sun
 	earth.rotation = 60
 	earth.title 'e'
 	earth.fill "#00f"
 	earth.moved = moved
 	earth.pressed = -> message = @txt
 
-	moon = p6.circle 80,0,15,earth
+	moon = p6.regular 80,0,15,5,earth
 	moon.title 'm'
 	moon.fill "#fff"
 	moon.moved = moved
@@ -49,9 +47,11 @@ setup = ->
 draw = ->
 	bg 0.5
 	stage.draw()
+	btnLeft.rotation += 0.1
 	btnRight.rotation += 0.2
 	sun.rotation   += 0.05
 	earth.rotation += 0.2
+	moon.rotation += 0.3
 	text message,width/2,100
 
 mouseMoved   = ->	stage.mouseMoved() 
