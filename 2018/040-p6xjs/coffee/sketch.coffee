@@ -8,6 +8,9 @@ message = ""
 setup = ->
 	createCanvas 600,600
 	angleMode DEGREES
+
+	# test()
+
 	textSize 20
 	textAlign CENTER,CENTER
 
@@ -24,12 +27,14 @@ setup = ->
 	btnRight.pressed = -> sun.move 10,0
 
 	sun = p6.circle 300,300,80
+	sun.rotation = 45
 	sun.title 's'
 	sun.fill "#ff0"
 	sun.moved = moved
 	sun.pressed = -> message = @txt
 
-	earth = p6.ellipse 200,0,80,60,sun
+	earth = p6.ellipse 200,0,80,40,sun
+	earth.rotation = 60
 	earth.title 'e'
 	earth.fill "#00f"
 	earth.moved = moved

@@ -74,7 +74,8 @@ testRect = function testRect() {
 // assert false,r.contains d1.sub d2
 test = function test() {
   testVector();
-  testCircle();
-  return testRect();
+  return testCircle();
 };
+
+//testRect()
 //# sourceMappingURL=testSketch.js.map

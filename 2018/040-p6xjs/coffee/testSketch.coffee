@@ -65,4 +65,4 @@ testRect = ->
 test = ->
 	testVector()
 	testCircle()
-	testRect()
+	#testRect()

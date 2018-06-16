@@ -19,6 +19,7 @@ setup = function setup() {
   var moved;
   createCanvas(600, 600);
   angleMode(DEGREES);
+  // test()
   textSize(20);
   textAlign(CENTER, CENTER);
   moved = function moved(m) {
@@ -37,13 +38,15 @@ setup = function setup() {
     return sun.move(10, 0);
   };
   sun = p6.circle(300, 300, 80);
+  sun.rotation = 45;
   sun.title('s');
   sun.fill("#ff0");
   sun.moved = moved;
   sun.pressed = function () {
     return message = this.txt;
   };
-  earth = p6.ellipse(200, 0, 80, 60, sun);
+  earth = p6.ellipse(200, 0, 80, 40, sun);
+  earth.rotation = 60;
   earth.title('e');
   earth.fill("#00f");
   earth.moved = moved;

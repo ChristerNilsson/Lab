@@ -59,20 +59,21 @@ class Shape
 	stagepos : -> # returns resulting [x, y, rotation]
 		lst = []
 		current = @
+		finalRotation = 0
 		while current
+			finalRotation += current.rotation
 			lst.unshift [current.x,current.y,current.rotation]
 			current = current.parent
-		if @txt=='m' then print lst
-		vec = new Vector()
-		rot = 0
-		rotres = 0
+		finalRotation %%= 360
+
+		position = new Vector 0,0
+		lastRotation = 0
 		for [x,y,rotation] in lst
-			rotres += rotation
 			v1 = new Vector x, y
-			v2 = v1.rotate rot
-			rot = rotation
-			vec = vec.add v2
-		[vec.x,vec.y,rotres]
+			v2 = v1.rotate lastRotation
+			position = position.add v2
+			lastRotation += rotation
+		[position.x, position.y, finalRotation]
 
 	mouseMoved : -> 
 		m = new Vector mouseX,mouseY
