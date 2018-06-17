@@ -11,8 +11,6 @@ setup = function setup() {
   createCanvas(windowWidth, windowHeight);
   n = round(height * 0.49);
   angleMode(DEGREES);
-  fc(0);
-  sc(0);
   return sw(1 / n);
 };
 

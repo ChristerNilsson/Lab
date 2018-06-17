@@ -5,8 +5,6 @@ setup = ->
 	createCanvas windowWidth, windowHeight
 	n = round height * 0.49
 	angleMode DEGREES
-	fc 0
-	sc 0
 	sw 1/n
 
 draw = ->
