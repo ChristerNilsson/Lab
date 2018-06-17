@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA;;AAAA,IAAA,MAAA,GAAA,OAAA;;AAGA,QAAQ;;AAER,IAAI;;AAEJ,QAAQ;AACP,eAAa,AAAb,KAAkB,AAAlB;AACA,KAAG,AAAH;AACA,KAAG,AAAH;SACA,GAAG,AAAH,AAJO;;;AAMR,OAAO,gBACN;MAAA,QAAA,QAAA,GAAA,GAAA,KAAA,KAAA,GAAA,IAAA,IAAA,IAAA;AAAA,KAAG,AAAH;AACA,OAAK,AAAL,OAAY,AAAZ,GAAe,AAAf;AACA,YAAU,QAAM,AAAhB,GAAmB,SAAO,AAA1B,AAEA;;AAAA,OAAA,kCAAA;;AACC,aAAS,IAAI,AAAJ,GAAO,AAAP,GAAU,AAAV,KAAe,AAAf,GAAkB,AAAlB;AACT,SAAK,IAAI,IAAI,AAAJ;AACT,SAAK,IAAI,IAAI,AAAJ;AACT,QAAI,QAAM;AACV,aAAS,IAAI,IAAE,AAAN,GAAS,AAAT,GAAY,IAAE,AAAd,KAAmB,AAAnB,GAAsB,IAAE,AAAF,IAAI,AAA1B;AACT,SAAK,IAAI,IAAI,AAAJ;AACT,SAAK,IAAI,IAAI,AAAJ;AACT,SAAK,AAAL,IAAS,AAAT,IAAa,AAAb,IAAiB,AAAjB,AARD;;SAUA,QAAQ,IAAI,QAAM,AAAV,GAAa,AAAb,AAfF",
+  "sourcesContent": [
+    "# https://www.youtube.com/watch?v=qhbuKbxJsk8\r\n# https://www.youtube.com/watch?v=WDYiBnij2wY\r\n\r\ntimes = 1\r\n\r\nn = 400\r\n\r\nsetup = -> \r\n\tcreateCanvas 900, 900\r\n\tfc 0\r\n\tsc 0\r\n\tsw 1\r\n\r\ndraw = ->\r\n\tbg 1\r\n\ttext times, 5, 25\r\n\ttranslate width/2, height/2\r\n\t\r\n\tfor i in range 200\r\n\t\tangle1 = map i, 0, 200, 0, TWO_PI\r\n\t\tx1 = n * cos angle1\r\n\t\ty1 = n * sin angle1\r\n\t\tt = times/100\r\n\t\tangle2 = map t*i, 0, t*200, 0, t*2*PI\r\n\t\tx2 = n * cos angle2\r\n\t\ty2 = n * sin angle2\r\n\t\tline x1, y1, x2, y2\r\n\t\r\n\ttimes = min times+1, 20000\r\n\t"
+  ]
+}
