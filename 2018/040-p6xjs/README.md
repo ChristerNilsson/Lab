@@ -1,4 +1,4 @@
-# 040-p6xjs
+# p6xjs
 
 This small "framework" is inspired by rune.js.
 Implemented on top of p5.js.
