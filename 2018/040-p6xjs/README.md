@@ -5,6 +5,8 @@ Implemented on top of p5.js.
 
 Graphical objects are created, kept and used for identifying which objects are clicked upon with the mouse.
 
+Supports rotate, translate and scale.
+
 ## Classes:
 * Vector
 * Shape
