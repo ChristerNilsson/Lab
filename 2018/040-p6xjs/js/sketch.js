@@ -24,43 +24,48 @@ setup = function setup() {
   moved = function moved(m) {
     return this.strokeWeight = this.contains(m) ? 3 : 1;
   };
-  btnLeft = p6.ellipse(100, 100, 100, 80);
-  btnLeft.title("Left");
-  btnLeft.moved = moved;
-  btnLeft.pressed = function () {
-    return sun.move(-10, 0);
-  };
-  btnRight = p6.regular(500, 100, 50, 6);
-  btnRight.title("Right");
-  btnRight.moved = moved;
-  btnRight.pressed = function () {
-    return sun.move(10, 0);
-  };
-  sun = p6.circle(300, 300, 40);
-  sun.rotation = 45;
-  sun.title('s');
-  sun.fill("#ff0");
-  sun.moved = moved;
-  sun.pressed = function () {
-    return message = this.txt;
-  };
-  earth = p6.regular(200, 0, 40, 4, sun);
-  earth.rotation = 60;
-  earth.title('e');
-  earth.scaleFactor = 1;
-  earth.fill("#00f");
-  earth.moved = moved;
-  earth.pressed = function () {
-    return message = this.txt;
-  };
-  moon = p6.regular(40, 0, 10, 5, earth);
-  moon.title('m');
-  moon.scaleFactor = 2;
-  moon.fill("#fff");
-  moon.moved = moved;
-  return moon.pressed = function () {
-    return message = this.txt;
-  };
+  btnLeft = p6.ellipse(100, 100, 100, 80, stage, {
+    title: "Left",
+    moved: moved,
+    pressed: function pressed() {
+      return sun.move(-10, 0);
+    }
+  });
+  btnRight = p6.regular(500, 100, 50, 6, stage, {
+    title: "Right",
+    moved: moved,
+    pressed: function pressed() {
+      return sun.move(10, 0);
+    }
+  });
+  sun = p6.arc(300, 300, 40, -45, 270 - 45, stage, {
+    rotation: 45,
+    title: 'Sun',
+    fillColor: "#ff0",
+    moved: moved,
+    pressed: function pressed() {
+      return message = this.title;
+    }
+  });
+  earth = p6.regular(200, 0, 40, 4, sun, {
+    rotation: 60,
+    title: 'Earth',
+    scaleFactor: 1,
+    fillColor: "#00f",
+    moved: moved,
+    pressed: function pressed() {
+      return message = this.title;
+    }
+  });
+  return moon = p6.regular(40, 0, 10, 5, earth, {
+    title: 'm',
+    scaleFactor: 2,
+    fillColor: "#fff",
+    moved: moved,
+    pressed: function pressed() {
+      return message = this.title;
+    }
+  });
 };
 
 draw = function draw() {
@@ -68,7 +73,7 @@ draw = function draw() {
   stage.draw();
   btnLeft.rotation += 0.1;
   btnRight.rotation += 0.2;
-  sun.rotation += 0.05;
+  sun.rotation += 0.1;
   earth.rotation += 0.1;
   moon.rotation += 0.3;
   return text(message, width / 2, 100);

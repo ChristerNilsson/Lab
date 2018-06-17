@@ -73,28 +73,26 @@ Vector = function () {
 }();
 
 Shape = function () {
-  function Shape() {
-    var x5 = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
-    var y5 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
-    var parent1 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
-    var rotation1 = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 0;
-    var scaleFactor1 = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 1;
+  function Shape(x5, y5, parent1) {
+    var options = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
 
     _classCallCheck(this, Shape);
 
     this.x = x5;
     this.y = y5;
     this.parent = parent1;
-    this.rotation = rotation1;
-    this.scaleFactor = scaleFactor1;
     this.children = [];
-    this.fillColor = "#fff";
-    this.strokeColor = "#000";
-    this.strokeWeight = 1;
-    this.txt = '';
     if (this.parent != null) {
       this.parent.add(this);
     }
+    this.rotation = options.rotation != null ? options.rotation : 0;
+    this.strokeColor = options.strokeColor != null ? options.strokeColor : "#000";
+    this.strokeWeight = options.strokeWeight != null ? options.strokeWeight : 1;
+    this.title = options.title != null ? options.title : '';
+    this.scaleFactor = options.scaleFactor != null ? options.scaleFactor : 1;
+    this.moved = options.moved != null ? options.moved : function () {};
+    this.pressed = options.pressed != null ? options.pressed : function () {};
+    this.fillColor = options.fillColor != null ? options.fillColor : "#fff";
   }
 
   _createClass(Shape, [{
@@ -121,30 +119,12 @@ Shape = function () {
     value: function drawTitle() {
       fill('#000');
       textAlign(CENTER, CENTER);
-      return text(this.txt, 0, 0);
+      return text(this.title, 0, 0);
     }
   }, {
     key: "add",
     value: function add(shape) {
       return this.children.push(shape);
-    }
-  }, {
-    key: "fill",
-    value: function fill(color) {
-      this.fillColor = color;
-      return this;
-    }
-  }, {
-    key: "stroke",
-    value: function stroke(color) {
-      this.strokeColor = color;
-      return this;
-    }
-  }, {
-    key: "title",
-    value: function title(txt) {
-      this.txt = txt;
-      return this;
     }
   }, {
     key: "contains",
@@ -171,7 +151,7 @@ Shape = function () {
   }, {
     key: "stagepos",
     value: function stagepos() {
-      // returns resulting [x, y, rotation]
+      // returns resulting [x, y, rotation, scaleFactor]
       var current, k, lastRotation, len, lst, position, rotation, scaleFactor, sf, v1, v2, x, y;
       lst = [];
       current = this;
@@ -179,6 +159,7 @@ Shape = function () {
         lst.unshift([current.x, current.y, current.rotation, current.scaleFactor]);
         current = current.parent;
       }
+      print('lst', lst);
       position = new Vector(0, 0);
       lastRotation = 0;
       sf = 1;
@@ -224,6 +205,7 @@ Shape = function () {
       for (k = 0, len = ref.length; k < len; k++) {
         child = ref[k];
         if (child.contains(m)) {
+          print(child.pressed);
           if (child.pressed != null) {
             child.pressed();
           }
@@ -247,12 +229,12 @@ Shape = function () {
 Group = function (_Shape) {
   _inherits(Group, _Shape);
 
-  function Group(x, y) {
-    var parent = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : stage;
+  function Group(x, y, parent) {
+    var options = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
 
     _classCallCheck(this, Group);
 
-    return _possibleConstructorReturn(this, (Group.__proto__ || Object.getPrototypeOf(Group)).call(this, x, y, parent));
+    return _possibleConstructorReturn(this, (Group.__proto__ || Object.getPrototypeOf(Group)).call(this, x, y, parent, options));
   }
 
   _createClass(Group, [{
@@ -266,15 +248,14 @@ Group = function (_Shape) {
 Polygon = function (_Shape2) {
   _inherits(Polygon, _Shape2);
 
-  function Polygon(x, y) {
-    var parent = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : stage;
-    var points = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : [];
+  function Polygon(x, y, parent) {
+    var options = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {};
 
     _classCallCheck(this, Polygon);
 
-    var _this2 = _possibleConstructorReturn(this, (Polygon.__proto__ || Object.getPrototypeOf(Polygon)).call(this, x, y, parent));
+    var _this2 = _possibleConstructorReturn(this, (Polygon.__proto__ || Object.getPrototypeOf(Polygon)).call(this, x, y, parent, options));
 
-    _this2.points = points;
+    _this2.points = [];
     return _this2;
   }
 
@@ -326,12 +307,12 @@ Polygon = function (_Shape2) {
 Circle = function (_Shape3) {
   _inherits(Circle, _Shape3);
 
-  function Circle(x, y, radius1) {
-    var parent = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : stage;
+  function Circle(x, y, radius1, parent) {
+    var options = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : {};
 
     _classCallCheck(this, Circle);
 
-    var _this3 = _possibleConstructorReturn(this, (Circle.__proto__ || Object.getPrototypeOf(Circle)).call(this, x, y, parent));
+    var _this3 = _possibleConstructorReturn(this, (Circle.__proto__ || Object.getPrototypeOf(Circle)).call(this, x, y, parent, options));
 
     _this3.radius = radius1;
     return _this3;
@@ -359,12 +340,12 @@ Circle = function (_Shape3) {
 Ellipse = function (_Shape4) {
   _inherits(Ellipse, _Shape4);
 
-  function Ellipse(x, y, w1, h1) {
-    var parent = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : stage;
+  function Ellipse(x, y, w1, h1, parent) {
+    var options = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : {};
 
     _classCallCheck(this, Ellipse);
 
-    var _this4 = _possibleConstructorReturn(this, (Ellipse.__proto__ || Object.getPrototypeOf(Ellipse)).call(this, x, y, parent));
+    var _this4 = _possibleConstructorReturn(this, (Ellipse.__proto__ || Object.getPrototypeOf(Ellipse)).call(this, x, y, parent, options));
 
     _this4.w = w1;
     _this4.h = h1;
@@ -398,14 +379,14 @@ Ellipse = function (_Shape4) {
 Arc = function (_Polygon) {
   _inherits(Arc, _Polygon);
 
-  function Arc(x, y, radius, start, stopp) {
-    var parent = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : stage;
+  function Arc(x, y, radius, start, stopp, parent) {
+    var options = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : {};
 
     _classCallCheck(this, Arc);
 
     var k, len, lst, v;
 
-    var _this5 = _possibleConstructorReturn(this, (Arc.__proto__ || Object.getPrototypeOf(Arc)).call(this, x, y, parent));
+    var _this5 = _possibleConstructorReturn(this, (Arc.__proto__ || Object.getPrototypeOf(Arc)).call(this, x, y, parent, options));
 
     _this5.lineTo(0, 0);
     lst = range(start, stopp, 10);
@@ -425,12 +406,12 @@ Arc = function (_Polygon) {
 Rect = function (_Polygon2) {
   _inherits(Rect, _Polygon2);
 
-  function Rect(x, y, w, h) {
-    var parent = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : stage;
+  function Rect(x, y, w, h, parent) {
+    var options = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : {};
 
     _classCallCheck(this, Rect);
 
-    var _this6 = _possibleConstructorReturn(this, (Rect.__proto__ || Object.getPrototypeOf(Rect)).call(this, x, y, parent));
+    var _this6 = _possibleConstructorReturn(this, (Rect.__proto__ || Object.getPrototypeOf(Rect)).call(this, x, y, parent, options));
 
     w = w / 2;
     h = h / 2;
@@ -447,12 +428,12 @@ Rect = function (_Polygon2) {
 Triangle = function (_Polygon3) {
   _inherits(Triangle, _Polygon3);
 
-  function Triangle(x, y, x1, y1, x2, y2, x3, y3) {
-    var parent = arguments.length > 8 && arguments[8] !== undefined ? arguments[8] : stage;
+  function Triangle(x, y, x1, y1, x2, y2, x3, y3, parent) {
+    var options = arguments.length > 9 && arguments[9] !== undefined ? arguments[9] : {};
 
     _classCallCheck(this, Triangle);
 
-    var _this7 = _possibleConstructorReturn(this, (Triangle.__proto__ || Object.getPrototypeOf(Triangle)).call(this, x, y, parent));
+    var _this7 = _possibleConstructorReturn(this, (Triangle.__proto__ || Object.getPrototypeOf(Triangle)).call(this, x, y, parent, options));
 
     _this7.lineTo(x1, y1);
     _this7.lineTo(x2, y2);
@@ -466,12 +447,12 @@ Triangle = function (_Polygon3) {
 Quad = function (_Polygon4) {
   _inherits(Quad, _Polygon4);
 
-  function Quad(x, y, x1, y1, x2, y2, x3, y3, x4, y4) {
-    var parent = arguments.length > 10 && arguments[10] !== undefined ? arguments[10] : stage;
+  function Quad(x, y, x1, y1, x2, y2, x3, y3, x4, y4, parent) {
+    var options = arguments.length > 11 && arguments[11] !== undefined ? arguments[11] : {};
 
     _classCallCheck(this, Quad);
 
-    var _this8 = _possibleConstructorReturn(this, (Quad.__proto__ || Object.getPrototypeOf(Quad)).call(this, x, y, parent));
+    var _this8 = _possibleConstructorReturn(this, (Quad.__proto__ || Object.getPrototypeOf(Quad)).call(this, x, y, parent, options));
 
     _this8.lineTo(x1, y1);
     _this8.lineTo(x2, y2);
@@ -486,14 +467,14 @@ Quad = function (_Polygon4) {
 Regular = function (_Polygon5) {
   _inherits(Regular, _Polygon5);
 
-  function Regular(x, y, r, n) {
-    var parent = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : stage;
+  function Regular(x, y, r, n, parent) {
+    var options = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : {};
 
     _classCallCheck(this, Regular);
 
     var dx, dy, i, k, len, ref;
 
-    var _this9 = _possibleConstructorReturn(this, (Regular.__proto__ || Object.getPrototypeOf(Regular)).call(this, x, y, parent));
+    var _this9 = _possibleConstructorReturn(this, (Regular.__proto__ || Object.getPrototypeOf(Regular)).call(this, x, y, parent, options));
 
     ref = range(n);
     for (k = 0, len = ref.length; k < len; k++) {
@@ -588,5 +569,5 @@ p6.regular = function () {
   return new (Function.prototype.bind.apply(Regular, [null].concat(args)))();
 };
 
-stage = new Shape();
+stage = new Shape(0, 0, null);
 //# sourceMappingURL=p6.js.map

@@ -18,5 +18,8 @@ Graphical objects are created, kept and used for identifying which objects are c
   * Quad
   * Regular
 
-## Example usage:
+## Example
+[Example](https://christernilsson.github.io/Lab/2018/040-p6xjs/index.html)
 
+## Source Code
+[Source Code](https://github.com/ChristerNilsson/Lab/tree/master/2018/040-p6xjs)

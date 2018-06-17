@@ -14,13 +14,17 @@ class Vector
 		new Vector x, y
 
 class Shape
-	constructor : (@x=0,@y=0,@parent=null,@rotation=0,@scaleFactor=1)->
+	constructor : (@x,@y,@parent,options={}) ->
 		@children = []
-		@fillColor = "#fff"
-		@strokeColor = "#000"
-		@strokeWeight = 1
-		@txt = ''
 		if @parent? then @parent.add @
+		@rotation = if options.rotation? then options.rotation else 0
+		@strokeColor = if options.strokeColor? then options.strokeColor else "#000"
+		@strokeWeight = if options.strokeWeight? then options.strokeWeight else 1
+		@title = if options.title? then options.title else ''
+		@scaleFactor = if options.scaleFactor? then options.scaleFactor else 1
+		@moved = if options.moved? then options.moved else ->
+		@pressed = if options.pressed? then options.pressed else ->
+		@fillColor = if options.fillColor? then options.fillColor else "#fff"
 
 	draw : ->
 		scale @scaleFactor
@@ -36,19 +40,9 @@ class Shape
 	drawTitle : ->
 		fill '#000'
 		textAlign CENTER,CENTER
-		text @txt,0,0
+		text @title,0,0
 
 	add : (shape) -> @children.push shape
-
-	fill : (color) ->
-		@fillColor = color
-		@
-	stroke : (color) ->
-		@strokeColor = color
-		@
-	title : (txt) ->
-		@txt = txt
-		@
 
 	contains : (m) -> # m is mouse position
 		[x,y,rotation,sf] = @stagepos()
@@ -59,13 +53,13 @@ class Shape
 		p.y /= sf
 		@inside p
 
-	stagepos : -> # returns resulting [x, y, rotation]
+	stagepos : -> # returns resulting [x, y, rotation, scaleFactor]
 		lst = []
 		current = @
 		while current
 			lst.unshift [current.x, current.y, current.rotation, current.scaleFactor]
 			current = current.parent
-
+		print 'lst',lst 
 		position = new Vector 0,0
 		lastRotation = 0
 		sf = 1
@@ -87,17 +81,20 @@ class Shape
 		m = new Vector mouseX,mouseY
 		for child in @children
 			if child.contains m
+				print child.pressed
 				if child.pressed? then child.pressed()
 			child.mousePressed()
 
 	move : (dx,dy) -> [@x,@y] = [@x+dx,@y+dy]
 
 class Group extends Shape
-	constructor : (x,y,parent=stage) -> super x,y,parent
+	constructor : (x,y,parent,options={}) -> super x,y,parent,options
 	contains : ->
 
 class Polygon extends Shape
-	constructor : (x,y,parent=stage,@points = []) -> super x,y,parent
+	constructor : (x,y,parent,options={}) -> 
+		super x,y,parent,options
+		@points = []
 	lineTo : (x,y) -> @points.push new Vector x,y
 	draw : ->
 		super()
@@ -121,7 +118,7 @@ class Polygon extends Shape
 		res
 
 class Circle extends Shape
-	constructor : (x,y,@radius,parent=stage) -> super x,y,parent
+	constructor : (x,y,@radius,parent,options={}) -> super x,y,parent,options
 	draw : ->
 		super()
 		fill @fillColor
@@ -131,7 +128,7 @@ class Circle extends Shape
 	inside : (d) -> @radius >= sqrt d.x*d.x+d.y*d.y
 
 class Ellipse extends Shape
-	constructor : (x,y,@w,@h,parent=stage) -> super x,y,parent
+	constructor : (x,y,@w,@h,parent,options={}) -> super x,y,parent,options
 	draw : ->
 		super()
 		fill @fillColor
@@ -146,8 +143,8 @@ class Ellipse extends Shape
 		dx*dx + dy*dy < 1
 
 class Arc extends Polygon
-	constructor : (x,y,radius,start,stopp,parent=stage) ->
-		super x,y,parent
+	constructor : (x,y,radius,start,stopp,parent,options={}) ->
+		super x,y,parent,options
 		@lineTo 0,0
 		lst = range start,stopp,10
 		lst.push stopp
@@ -157,8 +154,8 @@ class Arc extends Polygon
 			@lineTo x,y
 
 class Rect extends Polygon
-	constructor : (x,y,w,h,parent=stage) ->
-		super x,y,parent
+	constructor : (x,y,w,h,parent,options={}) ->
+		super x,y,parent,options
 		w = w/2
 		h = h/2
 		@lineTo -w,-h
@@ -167,23 +164,23 @@ class Rect extends Polygon
 		@lineTo -w,+h
 
 class Triangle extends Polygon
-	constructor : (x,y,x1,y1,x2,y2,x3,y3,parent=stage) ->
-		super x,y,parent
+	constructor : (x,y,x1,y1,x2,y2,x3,y3,parent,options={}) ->
+		super x,y,parent,options
 		@lineTo x1,y1
 		@lineTo x2,y2
 		@lineTo x3,y3
 
 class Quad extends Polygon
-	constructor : (x,y,x1,y1,x2,y2,x3,y3,x4,y4,parent=stage) ->
-		super x,y,parent
+	constructor : (x,y,x1,y1,x2,y2,x3,y3,x4,y4,parent,options={}) ->
+		super x,y,parent,options
 		@lineTo x1,y1
 		@lineTo x2,y2
 		@lineTo x3,y3
 		@lineTo x4,y4
 
 class Regular extends Polygon
-	constructor : (x,y,r,n,parent=stage) ->
-		super x,y,parent
+	constructor : (x,y,r,n,parent,options={}) ->
+		super x,y,parent,options
 		for i in range n
 			dx = r*cos i*360/n
 			dy = r*sin i*360/n
@@ -200,4 +197,4 @@ p6.triangle = (...args) -> new Triangle ...args
 p6.quad     = (...args) -> new Quad ...args
 p6.regular  = (...args) -> new Regular ...args
 
-stage = new Shape()
+stage = new Shape 0,0,null
