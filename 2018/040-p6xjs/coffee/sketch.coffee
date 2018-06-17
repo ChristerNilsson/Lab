@@ -51,7 +51,7 @@ draw = ->
 	stage.draw()
 	btnLeft.rotation += 0.1
 	btnRight.rotation += 0.2
-	sun.rotation   += 0.1
+	sun.rotation   += 0.05
 	earth.rotation += 0.1
 	moon.rotation += 0.3
 	text message,width/2,100
