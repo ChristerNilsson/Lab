@@ -1,6 +1,3 @@
-# https://www.youtube.com/watch?v=qhbuKbxJsk8
-# https://www.youtube.com/watch?v=WDYiBnij2wY
-
 times = 1
 
 n = 400
@@ -20,8 +17,8 @@ draw = ->
 		angle1 = map i, 0, 200, 0, TWO_PI
 		x1 = n * cos angle1
 		y1 = n * sin angle1
-		t = times/100
-		angle2 = map t*i, 0, t*200, 0, t*2*PI
+		t = times/2000
+		angle2 = t * angle1 #map t*i, 0, t*200, 0, t*TWO_PI
 		x2 = n * cos angle2
 		y2 = n * sin angle2
 		line x1, y1, x2, y2
