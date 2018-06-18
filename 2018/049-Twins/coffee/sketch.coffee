@@ -1,14 +1,9 @@
-
-# Lägg till två stjärnor
-# Hantera felaktiga drag
-# Kunna ångra första valet.
-# Hantera hängning
-
 SIZE = 12
-TILE = 40
+TILE = 60
 FREE = -1
-N = 5
+N = 10 # 2 3 4 5 6 7 8 9 10
 b = null
+COLORS = '#f00 #0f0 #00f #ff0 #000 #fff #f0f #0ff #444 #bbb #123'.split ' '
 
 selected = []
 message = ''
@@ -16,14 +11,13 @@ message = ''
 setup = ->
 	createCanvas 800,800
 	rectMode CENTER
-	textSize 32
+	textSize 0.8 * TILE
 	makeGame()
 
 makeGame = ->
 	candidates = []
-	for i in range 20
-		for j in range 5
-			candidates.push j
+	for i in range 100
+		candidates.push i % N
 	candidates = _.shuffle candidates
 
 	b = new Array SIZE
@@ -48,7 +42,7 @@ draw = ->
 			rect TILE*i,TILE*j,TILE,TILE
 			cell = b[i][j]
 			if cell >= 0 
-				fill ["#000","#f00","#0f0","#00f","#ff0"][cell]
+				fill COLORS[cell]
 				sc()
 				text b[i][j],TILE*i,TILE*j
 	text selected,10,SIZE*TILE
@@ -57,18 +51,23 @@ draw = ->
 		sc()
 		circle TILE*i,TILE*j,TILE/2-3
 
+within = (i,j) -> 0 <= i < SIZE and 0 <= j < SIZE
+
 mousePressed = ->
 	[i,j] = [(mouseX-TILE/2)//TILE,(mouseY-TILE/2)//TILE]
-	if not (0 <= i <= 11 and 0 <= j <= 11) then return 
+	if not within i,j then return 
 	if selected.length == 0 
 		if b[i][j] != FREE then selected.push [i,j]
 	else
 		[i1,j1] = selected[0]
 		if i==i1 and j==j1 then return selected.pop()
-		if b[i][j] + b[i1][j1] == 4 and (legal(i,j,i1,j1) or legal(i1,j1,i,j)) 
-			b[i][j] = b[i1][j1] = FREE
-			selected.pop()
+		if b[i][j] + b[i1][j1] == N-1 
+			if legal(i,j,i1,j1) or bridge(i,j,i1,j1)
+				b[i][j] = b[i1][j1] = FREE
+				selected.pop()
 
+# A*. This algorithm blocks itself sometimes.
+# That's why bridge is also used.
 legal = (i0,j0,i1,j1) ->
 	start = [0,i0,j0,-1]
 	cands = []
@@ -87,9 +86,51 @@ legal = (i0,j0,i1,j1) ->
 				if index != index0 and index0 != -1 then turns++
 				next = [turns,x,y,index]
 				if x==i1 and y==j1 then return 2 >= turns
-				if 0 <= x <= 11 and 0 <= y <= 11 
+				if within x,y
 					if b[x][y]==FREE
 						if key not of reached or reached[key][0] > next[0]
 							reached[key] = next
 							cands.push next
 	false
+
+getlst = (x0,y0,dx,dy) ->
+	resx = []
+	resy = []
+	[x,y] = [x0+dx,y0+dy]
+	while within x,y
+		if b[x][y] != FREE then return [resx,resy]
+		resx.push x
+		resy.push y
+		[x,y] = [x+dx,y+dy]
+	[resx,resy]
+
+getrows = (x0,x1) ->
+	res = []
+	for y in range SIZE
+		found = false 
+		for x in range x0,x1 
+			if b[x][y] != FREE then found = true 
+		if not found then res.push y
+	res
+
+getcols = (y0,y1) ->
+	res = []
+	for x in range SIZE
+		found = false 
+		for y in range y0,y1 
+			if b[x][y] != FREE then found = true 
+		if not found then res.push x
+	res
+
+bridge = (x0,y0,x1,y1) ->
+	lst1 = getlst(x0,y0,0,-1)[1].concat getlst(x0,y0,0,1)[1]
+	lst2 = getlst(x1,y1,0,-1)[1].concat getlst(x1,y1,0,1)[1]
+	lst3 = getrows _.min([x0,x1])+1,_.max([x0,x1])
+	lst4 = _.intersection lst1, lst2, lst3 
+
+	lst1 = getlst(x0,y0,-1,0)[0].concat getlst(x0,y0,1,0)[0]
+	lst2 = getlst(x1,y1,-1,0)[0].concat getlst(x1,y1,1,0)[0]
+	lst3 = getcols _.min([y0,y1])+1,_.max([y0,y1])
+	lst5 = _.intersection lst1, lst2, lst3 
+
+	lst4.length > 0 or lst5.length > 0

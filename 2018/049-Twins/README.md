@@ -2,7 +2,13 @@
 
 [Twins](http://www.novelgames.com/en/twins/)
 
-Todo:
+Make pairs with equal sum. E.g. 9
+The Manhattan path must make at most two turns.
+Manhattan paths make 90 degrees turns.
 
-A* does not find best paths sometimes
-Try bridge approach instead.
+a 0 0 .
+. . . . 
+. 3 c .
+. b 6 .
+
+ac is ok, bc is not as it takes three turns.
