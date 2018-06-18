@@ -2,15 +2,18 @@
 
 [Twins](http://www.novelgames.com/en/twins/)
 
-Make pairs with equal sum. E.g. 9
-The Manhattan path must make at most two turns.
-Manhattan paths make 90 degrees turns.
+* Make pairs with equal sum. E.g. 20
+* The Manhattan path must make at most two turns.
+* Manhattan paths make 90 degrees turns.
 
 ```
-a 0 0 .
+a b . .
 . . . . 
-. 3 c .
-. b 6 .
+. d e .
+. f g .
 ```
 
-ac is ok, bc is not as it takes three turns.
+* ab = 0 turns (ok)
+* ad = 1 turn  (ok)
+* ae = 2 turns (ok)
+* ag = 3 turns (not ok)
