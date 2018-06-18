@@ -1,9 +1,9 @@
 SIZE = 12
 TILE = 60
 FREE = -1
-N = 10 # 2 3 4 5 6 7 8 9 10
+N = 21 # 2..60
 b = null
-COLORS = '#f00 #0f0 #00f #ff0 #000 #fff #f0f #0ff #444 #bbb #123'.split ' '
+COLORS = null
 
 selected = []
 message = ''
@@ -12,12 +12,29 @@ setup = ->
 	createCanvas 800,800
 	rectMode CENTER
 	textSize 0.8 * TILE
+	makeColors()
 	makeGame()
+
+brightness = (s) ->
+	res = 0
+	for ch in s
+		res += "0123456789abcdef#".indexOf ch
+	res
+
+makeColors = ->
+	COLORS = []
+	for i in "05af"
+		for j in "05af"
+			for k in "05af"
+				COLORS.push "#"+i+j+k
+	COLORS = _.without COLORS, "#000", "#005", "#00a", "#00f"
+	COLORS.sort (a,b) -> brightness(b) - brightness(a)
 
 makeGame = ->
 	candidates = []
-	for i in range 100
+	for i in range 50
 		candidates.push i % N
+		candidates.push N-1 - i % N
 	candidates = _.shuffle candidates
 
 	b = new Array SIZE
@@ -37,8 +54,8 @@ draw = ->
 	sc 0
 	for i in range SIZE
 		for j in range SIZE
-			fc 0.5
-			sc 0
+			fc 0
+			sc 1
 			rect TILE*i,TILE*j,TILE,TILE
 			cell = b[i][j]
 			if cell >= 0 
