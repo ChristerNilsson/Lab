@@ -1,7 +1,7 @@
 SIZE = 12
 TILE = 60
 FREE = -1
-N = 21 # 2..60
+N = 61 # 2..61
 b = null
 COLORS = null
 
@@ -27,7 +27,7 @@ makeColors = ->
 		for j in "05af"
 			for k in "05af"
 				COLORS.push "#"+i+j+k
-	COLORS = _.without COLORS, "#000", "#005", "#00a", "#00f"
+	COLORS = _.without COLORS, "#000", "#005", "#00a"#, "#00f"
 	COLORS.sort (a,b) -> brightness(b) - brightness(a)
 
 makeGame = ->
@@ -41,10 +41,8 @@ makeGame = ->
 	for i in range SIZE
 		b[i] = new Array SIZE
 		for j in range SIZE
-			if i in [0,SIZE-1] or j in [0,SIZE-1]
-				b[i][j] = FREE
-			else
-				b[i][j] = candidates.pop()
+			if i in [0,SIZE-1] or j in [0,SIZE-1] then b[i][j] = FREE
+			else b[i][j] = candidates.pop()
 
 draw = ->
 	bg 1 
@@ -62,11 +60,13 @@ draw = ->
 				fill COLORS[cell]
 				sc()
 				text b[i][j],TILE*i,TILE*j
-	text selected,10,SIZE*TILE
+	#text selected,10,SIZE*TILE
 	for [i,j] in selected
 		fc 1,1,0,0.5
 		sc()
 		circle TILE*i,TILE*j,TILE/2-3
+	fc 0
+	text N-1,SIZE/2*TILE-TILE/2,height-80
 
 within = (i,j) -> 0 <= i < SIZE and 0 <= j < SIZE
 
@@ -79,7 +79,7 @@ mousePressed = ->
 		[i1,j1] = selected[0]
 		if i==i1 and j==j1 then return selected.pop()
 		if b[i][j] + b[i1][j1] == N-1 
-			if legal(i,j,i1,j1) or bridge(i,j,i1,j1)
+			if legal(i1,j1,i,j) or legal(i,j,i1,j1) or bridge(i,j,i1,j1)
 				b[i][j] = b[i1][j1] = FREE
 				selected.pop()
 
@@ -97,7 +97,7 @@ legal = (i0,j0,i1,j1) ->
 		cands = []
 		for [turns0,x0,y0,index0] in front
 			for [dx,dy],index in [[-1,0],[1,0],[0,-1],[0,1]]
-				[x,y] = [x0+dx,y0+dy]
+				[x,y] = [(x0+dx)%%SIZE,(y0+dy)%%SIZE]
 				key = [x,y]
 				turns = turns0
 				if index != index0 and index0 != -1 then turns++
@@ -113,12 +113,12 @@ legal = (i0,j0,i1,j1) ->
 getlst = (x0,y0,dx,dy) ->
 	resx = []
 	resy = []
-	[x,y] = [x0+dx,y0+dy]
+	[x,y] = [(x0+dx)%%SIZE,(y0+dy)%%SIZE]
 	while within x,y
 		if b[x][y] != FREE then return [resx,resy]
 		resx.push x
 		resy.push y
-		[x,y] = [x+dx,y+dy]
+		[x,y] = [(x+dx)%%SIZE,(y+dy)%%SIZE]
 	[resx,resy]
 
 getrows = (x0,x1) ->
