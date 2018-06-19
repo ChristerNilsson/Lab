@@ -2,10 +2,10 @@
 
 [Twins](http://www.novelgames.com/en/twins/)
 
-* Make pairs with equal sum. E.g. 60
+* Make pairs with equal sum. E.g. 4
 * The Manhattan path must make at most two turns.
 * Manhattan paths make 90 degrees turns.
-* Wraps around horizontal and vertical edges.
+* Wrapping wraps around horizontal and vertical edges.
 
 ```
 a b . .

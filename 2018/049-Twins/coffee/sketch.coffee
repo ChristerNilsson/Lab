@@ -1,21 +1,41 @@
 SIZE = 12
 TILE = 60
 FREE = -1
-N = 61 # 2..61
+N = 5
 b = null
 COLORS = null
 
 selected = []
 message = ''
+buttons = []
+wrap = false
 
-setup = ->
-	createCanvas 800,800
-	rectMode CENTER
-	textSize 0.8 * TILE
-	makeColors()
+class Button
+	constructor : (@x,@y,@txt,@click) -> @r=50
+	inside : (x,y) -> @r > dist @x,@y,x,y
+	draw : ->
+		fc 0.5
+		sc()
+		circle @x,@y,@r
+		fc 0
+		textSize 30
+		text @txt,@x,@y
+
+newGame = (n) ->
+	N = constrain n,2,100
 	makeGame()
 
-brightness = (s) ->
+setup = ->
+	createCanvas 30+TILE*SIZE+30,100+TILE*SIZE+TILE
+	rectMode CENTER
+	makeColors()
+	makeGame()
+	buttons.push new Button 80,65,'-', -> newGame N-1
+	buttons.push new Button 180,65,N, ->
+	buttons.push new Button 280,65,'+', -> newGame N+1
+	buttons.push new Button width-80,65,'', -> wrap = not wrap
+
+mybrightness = (s) ->
 	res = 0
 	for ch in s
 		res += "0123456789abcdef#".indexOf ch
@@ -27,8 +47,8 @@ makeColors = ->
 		for j in "05af"
 			for k in "05af"
 				COLORS.push "#"+i+j+k
-	COLORS = _.without COLORS, "#000", "#005", "#00a"#, "#00f"
-	COLORS.sort (a,b) -> brightness(b) - brightness(a)
+	COLORS = _.without COLORS, "#000", "#005", "#00a"
+	COLORS.sort (a,b) -> mybrightness(b) - mybrightness(a)
 
 makeGame = ->
 	candidates = []
@@ -45,8 +65,15 @@ makeGame = ->
 			else b[i][j] = candidates.pop()
 
 draw = ->
-	bg 1 
-	translate TILE,TILE
+	bg 0.25
+	buttons[1].txt = N-1
+	buttons[3].txt = if wrap then 'wrap' else 'nowrap'
+
+	for button in buttons
+		button.draw()
+
+	textSize 0.8 * TILE	
+	translate TILE,TILE+100
 	textAlign CENTER,CENTER
 	fc 1
 	sc 0
@@ -57,21 +84,20 @@ draw = ->
 			rect TILE*i,TILE*j,TILE,TILE
 			cell = b[i][j]
 			if cell >= 0 
-				fill COLORS[cell]
+				fill COLORS[cell%%COLORS.length]
 				sc()
 				text b[i][j],TILE*i,TILE*j
-	#text selected,10,SIZE*TILE
 	for [i,j] in selected
 		fc 1,1,0,0.5
 		sc()
 		circle TILE*i,TILE*j,TILE/2-3
-	fc 0
-	text N-1,SIZE/2*TILE-TILE/2,height-80
 
 within = (i,j) -> 0 <= i < SIZE and 0 <= j < SIZE
 
 mousePressed = ->
-	[i,j] = [(mouseX-TILE/2)//TILE,(mouseY-TILE/2)//TILE]
+	for button in buttons
+		if button.inside mouseX,mouseY then button.click()
+	[i,j] = [(mouseX-TILE/2)//TILE,(mouseY-100-TILE/2)//TILE]
 	if not within i,j then return 
 	if selected.length == 0 
 		if b[i][j] != FREE then selected.push [i,j]
@@ -82,6 +108,8 @@ mousePressed = ->
 			if legal(i1,j1,i,j) or legal(i,j,i1,j1) or bridge(i,j,i1,j1)
 				b[i][j] = b[i1][j1] = FREE
 				selected.pop()
+
+makeMove = (x,y) -> if wrap then [x%%SIZE,x%%SIZE] else [x,y]
 
 # A*. This algorithm blocks itself sometimes.
 # That's why bridge is also used.
@@ -97,7 +125,7 @@ legal = (i0,j0,i1,j1) ->
 		cands = []
 		for [turns0,x0,y0,index0] in front
 			for [dx,dy],index in [[-1,0],[1,0],[0,-1],[0,1]]
-				[x,y] = [(x0+dx)%%SIZE,(y0+dy)%%SIZE]
+				[x,y] = makeMove x0+dx,y0+dy
 				key = [x,y]
 				turns = turns0
 				if index != index0 and index0 != -1 then turns++
@@ -113,12 +141,12 @@ legal = (i0,j0,i1,j1) ->
 getlst = (x0,y0,dx,dy) ->
 	resx = []
 	resy = []
-	[x,y] = [(x0+dx)%%SIZE,(y0+dy)%%SIZE]
+	[x,y] = makeMove x0+dx,y0+dy 
 	while within x,y
 		if b[x][y] != FREE then return [resx,resy]
 		resx.push x
 		resy.push y
-		[x,y] = [(x+dx)%%SIZE,(y+dy)%%SIZE]
+		[x,y] = makeMove x+dx,y+dy 
 	[resx,resy]
 
 getrows = (x0,x1) ->
