@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;AAAA,IAAA,QAAA,GAAA,SAAA,MAAA,SAAA;;AAAA,IAAI;;AACJ,UAAU;;AAEJ,AAAN;AACC,AAAc;gFAAI,OAAO,AAAP,GAAS,QAAM,AAAf,AAAJ;gFAAyB,OAAO,AAAP,GAAS,SAAO,AAAhB,AAAzB;gFAA+C,AAA/C;;;;AAAC,AAAC,SAAA;AAAoB,AAAC,SAAA;AAAqB,AAAC,SAAA,IAA7C;AACd,AAAO;;;;;aAAG,OAAO,AAAC,KAAA,AAAR,GAAU,AAAC,KAAA,AAAX,GAAa,AAAC,KAAA,AAAd,AAAH;AACP,AAAU;;;4BAAC,AAAD;aAAO,AAAC,EAAC,AAAF,IAAM,AAAC,KAAA,AAAP,IAAW,KAAK,AAAC,EAAC,AAAP,GAAS,AAAC,EAAC,AAAX,GAAa,AAAC,KAAA,AAAd,GAAgB,AAAC,KAAA,AAAjB,AAAlB;AAHX;;;;;;AAKA,UAAU,iBAAC,AAAD,GACT;MAAA,GAAA,GAAA;AAAA,OAAA,sCAAA;;AACC,QAAG,AAAC,EAAC,AAAF,QAAU,AAAV,AAAH,IAAoB;aAAO,AAA3B;AADD;;SAEA,AAHS;;;AAKV,QAAQ,iBACP;MAAA,GAAA;AAAA,eAAa,AAAb,KAAiB,AAAjB;AACA,KAAG,AAAH,GAAK,AAAL,GAAO,AAAP,AACA;;SAAM,AAAO,QAAC,AAAR,SAAiB,AAAvB;AACC,QAAI,IAAI,AAAJ;AACJ,QAAG,CAAI,QAAQ,AAAR,AAAP;mBAAsB,AAAO,QAAC,AAAR,KAAa,AAAb,AAAtB;AAAA,WAAA;wBAAA;AAFD;AAAA;SAHO;;;AAOR,OAAO,gBACN;MAAA,GAAA,GAAA,KAAA;AAAA,KAAG,AAAH,AACA;;AAAA,OAAA,sCAAA;;iBACC,AAAC,EAAC,AAAF,AADD;AAAA;SAFM",
+  "sourcesContent": [
+    "R = 30\r\ncircles = []\r\n\r\nclass Circle\r\n\tconstructor : (@x=random(R,width-R),@y=random(R,height-R),@r=R) ->\r\n\tdraw : -> circle @x,@y,@r\r\n\toverlap : (o) -> o.r + @r > dist o.x,o.y,@x,@y\r\n\r\noverlap = (d) ->\r\n\tfor c in circles\r\n\t\tif d.overlap c then return true\r\n\tfalse \r\n\r\nsetup = ->\r\n\tcreateCanvas 400,400\r\n\tfc 1,0,0\r\n\twhile circles.length < 25\r\n\t\td = new Circle()\r\n\t\tif not overlap d then circles.push d\r\n\r\ndraw = ->\r\n\tbg 0.5\r\n\tfor c in circles\r\n\t\tc.draw()"
+  ]
+}
