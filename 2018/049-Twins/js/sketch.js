@@ -14,12 +14,8 @@ var Button,
     SIZE,
     TILE,
     b,
-    bridge,
     buttons,
     draw,
-    getcols,
-    getlst,
-    getrows,
     legal,
     makeColors,
     makeGame,
@@ -57,11 +53,11 @@ buttons = [];
 wrap = false;
 
 Button = function () {
-  function Button(x2, y2, txt, click) {
+  function Button(x1, y1, txt, click) {
     _classCallCheck(this, Button);
 
-    this.x = x2;
-    this.y = y2;
+    this.x = x1;
+    this.y = y1;
     this.txt = txt;
     this.click = click;
     this.r = 50;
@@ -176,7 +172,7 @@ makeGame = function makeGame() {
 };
 
 draw = function draw() {
-  var button, cell, i, j, l, len, len1, len2, len3, m, o, p, ref, ref1, results;
+  var button, cell, i, j, l, len, len1, len2, len3, m, o, q, ref, ref1, results;
   bg(0.25);
   buttons[1].txt = N - 1;
   buttons[3].txt = wrap ? 'wrap' : 'nowrap';
@@ -207,11 +203,11 @@ draw = function draw() {
     }
   }
   results = [];
-  for (p = 0, len3 = selected.length; p < len3; p++) {
-    var _selected$p = _slicedToArray(selected[p], 2);
+  for (q = 0, len3 = selected.length; q < len3; q++) {
+    var _selected$q = _slicedToArray(selected[q], 2);
 
-    i = _selected$p[0];
-    j = _selected$p[1];
+    i = _selected$q[0];
+    j = _selected$q[1];
 
     fc(1, 1, 0, 0.5);
     sc();
@@ -253,7 +249,8 @@ mousePressed = function mousePressed() {
       return selected.pop();
     }
     if (b[i][j] + b[i1][j1] === N - 1) {
-      if (legal(i1, j1, i, j) || legal(i, j, i1, j1) || bridge(i, j, i1, j1)) {
+      if (legal(i1, j1, i, j) || legal(i, j, i1, j1)) {
+        // or bridge(i,j,i1,j1)
         b[i][j] = b[i1][j1] = FREE;
         return selected.pop();
       }
@@ -263,17 +260,17 @@ mousePressed = function mousePressed() {
 
 makeMove = function makeMove(x, y) {
   if (wrap) {
-    return [modulo(x, SIZE), modulo(x, SIZE)];
+    return [modulo(x, SIZE), modulo(y, SIZE)];
   } else {
     return [x, y];
   }
 };
 
-// A*. This algorithm blocks itself sometimes.
-// That's why bridge is also used.
+// A*
 legal = function legal(i0, j0, i1, j1) {
-  var cands, dx, dy, front, index, index0, key, l, len, len1, m, next, reached, ref, start, turns, turns0, x, x0, y, y0;
-  start = [0, i0, j0, -1];
+  var cands, dx, dy, front, index, index0, key, l, len, len1, m, next, p, reached, ref, start, turns, turns0, x, x0, y, y0;
+  start = [0, i0, j0, -1 // turns,x,y,move
+  ];
   cands = [];
   cands.push(start);
   reached = {};
@@ -294,10 +291,13 @@ legal = function legal(i0, j0, i1, j1) {
 
       ref = [[-1, 0], [1, 0], [0, -1], [0, 1]];
       for (index = m = 0, len1 = ref.length; m < len1; index = ++m) {
-        var _ref$index = _slicedToArray(ref[index], 2);
+        p = ref[index];
+        var _p = p;
 
-        dx = _ref$index[0];
-        dy = _ref$index[1];
+        var _p2 = _slicedToArray(_p, 2);
+
+        dx = _p2[0];
+        dy = _p2[1];
 
         var _makeMove = makeMove(x0 + dx, y0 + dy);
 
@@ -306,7 +306,7 @@ legal = function legal(i0, j0, i1, j1) {
         x = _makeMove2[0];
         y = _makeMove2[1];
 
-        key = [x, y];
+        key = x + ',' + y;
         turns = turns0;
         if (index !== index0 && index0 !== -1) {
           turns++;
@@ -318,8 +318,10 @@ legal = function legal(i0, j0, i1, j1) {
         if (within(x, y)) {
           if (b[x][y] === FREE) {
             if (!(key in reached) || reached[key][0] > next[0]) {
-              reached[key] = next;
-              cands.push(next);
+              if (next[0] < 3) {
+                reached[key] = next;
+                cands.push(next);
+              }
             }
           }
         }
@@ -329,87 +331,45 @@ legal = function legal(i0, j0, i1, j1) {
   return false;
 };
 
-getlst = function getlst(x0, y0, dx, dy) {
-  var resx, resy, x, y;
-  resx = [];
-  resy = [];
+// getlst = (x0,y0,dx,dy) ->
+// 	resx = []
+// 	resy = []
+// 	[x,y] = makeMove x0+dx,y0+dy 
+// 	while within x,y
+// 		if b[x][y] != FREE then return [resx,resy]
+// 		resx.push x
+// 		resy.push y
+// 		[x,y] = makeMove x+dx,y+dy 
+// 	[resx,resy]
 
-  var _makeMove3 = makeMove(x0 + dx, y0 + dy);
+// getrows = (x0,x1) ->
+// 	res = []
+// 	for y in range SIZE
+// 		found = false 
+// 		for x in range x0,x1 
+// 			if b[x][y] != FREE then found = true 
+// 		if not found then res.push y
+// 	res
 
-  var _makeMove4 = _slicedToArray(_makeMove3, 2);
+// getcols = (y0,y1) ->
+// 	res = []
+// 	for x in range SIZE
+// 		found = false 
+// 		for y in range y0,y1 
+// 			if b[x][y] != FREE then found = true 
+// 		if not found then res.push x
+// 	res
 
-  x = _makeMove4[0];
-  y = _makeMove4[1];
+// bridge = (x0,y0,x1,y1) ->
+// 	lst1 = getlst(x0,y0,0,-1)[1].concat getlst(x0,y0,0,1)[1]
+// 	lst2 = getlst(x1,y1,0,-1)[1].concat getlst(x1,y1,0,1)[1]
+// 	lst3 = getrows _.min([x0,x1])+1,_.max([x0,x1])
+// 	lst4 = _.intersection lst1, lst2, lst3 
 
-  while (within(x, y)) {
-    if (b[x][y] !== FREE) {
-      return [resx, resy];
-    }
-    resx.push(x);
-    resy.push(y);
+// 	lst1 = getlst(x0,y0,-1,0)[0].concat getlst(x0,y0,1,0)[0]
+// 	lst2 = getlst(x1,y1,-1,0)[0].concat getlst(x1,y1,1,0)[0]
+// 	lst3 = getcols _.min([y0,y1])+1,_.max([y0,y1])
+// 	lst5 = _.intersection lst1, lst2, lst3 
 
-    var _makeMove5 = makeMove(x + dx, y + dy);
-
-    var _makeMove6 = _slicedToArray(_makeMove5, 2);
-
-    x = _makeMove6[0];
-    y = _makeMove6[1];
-  }
-  return [resx, resy];
-};
-
-getrows = function getrows(x0, x1) {
-  var found, l, len, len1, m, ref, ref1, res, x, y;
-  res = [];
-  ref = range(SIZE);
-  for (l = 0, len = ref.length; l < len; l++) {
-    y = ref[l];
-    found = false;
-    ref1 = range(x0, x1);
-    for (m = 0, len1 = ref1.length; m < len1; m++) {
-      x = ref1[m];
-      if (b[x][y] !== FREE) {
-        found = true;
-      }
-    }
-    if (!found) {
-      res.push(y);
-    }
-  }
-  return res;
-};
-
-getcols = function getcols(y0, y1) {
-  var found, l, len, len1, m, ref, ref1, res, x, y;
-  res = [];
-  ref = range(SIZE);
-  for (l = 0, len = ref.length; l < len; l++) {
-    x = ref[l];
-    found = false;
-    ref1 = range(y0, y1);
-    for (m = 0, len1 = ref1.length; m < len1; m++) {
-      y = ref1[m];
-      if (b[x][y] !== FREE) {
-        found = true;
-      }
-    }
-    if (!found) {
-      res.push(x);
-    }
-  }
-  return res;
-};
-
-bridge = function bridge(x0, y0, x1, y1) {
-  var lst1, lst2, lst3, lst4, lst5;
-  lst1 = getlst(x0, y0, 0, -1)[1].concat(getlst(x0, y0, 0, 1)[1]);
-  lst2 = getlst(x1, y1, 0, -1)[1].concat(getlst(x1, y1, 0, 1)[1]);
-  lst3 = getrows(_.min([x0, x1]) + 1, _.max([x0, x1]));
-  lst4 = _.intersection(lst1, lst2, lst3);
-  lst1 = getlst(x0, y0, -1, 0)[0].concat(getlst(x0, y0, 1, 0)[0]);
-  lst2 = getlst(x1, y1, -1, 0)[0].concat(getlst(x1, y1, 1, 0)[0]);
-  lst3 = getcols(_.min([y0, y1]) + 1, _.max([y0, y1]));
-  lst5 = _.intersection(lst1, lst2, lst3);
-  return lst4.length > 0 || lst5.length > 0;
-};
+// 	lst4.length > 0 or lst5.length > 0
 //# sourceMappingURL=sketch.js.map

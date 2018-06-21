@@ -105,16 +105,15 @@ mousePressed = ->
 		[i1,j1] = selected[0]
 		if i==i1 and j==j1 then return selected.pop()
 		if b[i][j] + b[i1][j1] == N-1 
-			if legal(i1,j1,i,j) or legal(i,j,i1,j1) or bridge(i,j,i1,j1)
+			if legal(i1,j1,i,j) or legal(i,j,i1,j1) # or bridge(i,j,i1,j1)
 				b[i][j] = b[i1][j1] = FREE
 				selected.pop()
 
-makeMove = (x,y) -> if wrap then [x%%SIZE,x%%SIZE] else [x,y]
+makeMove = (x,y) -> if wrap then [x %% SIZE, y %% SIZE] else [x,y]
 
-# A*. This algorithm blocks itself sometimes.
-# That's why bridge is also used.
+# A*
 legal = (i0,j0,i1,j1) ->
-	start = [0,i0,j0,-1]
+	start = [0,i0,j0,-1] # turns,x,y,move
 	cands = []
 	cands.push start
 	reached = {}
@@ -124,9 +123,10 @@ legal = (i0,j0,i1,j1) ->
 		front.sort (a,b) -> a[0]-b[0]
 		cands = []
 		for [turns0,x0,y0,index0] in front
-			for [dx,dy],index in [[-1,0],[1,0],[0,-1],[0,1]]
+			for p,index in [[-1,0],[1,0],[0,-1],[0,1]]
+				[dx,dy] = p
 				[x,y] = makeMove x0+dx,y0+dy
-				key = [x,y]
+				key = "#{x},#{y}"
 				turns = turns0
 				if index != index0 and index0 != -1 then turns++
 				next = [turns,x,y,index]
@@ -134,48 +134,49 @@ legal = (i0,j0,i1,j1) ->
 				if within x,y
 					if b[x][y]==FREE
 						if key not of reached or reached[key][0] > next[0]
-							reached[key] = next
-							cands.push next
+							if next[0] < 3
+								reached[key] = next
+								cands.push next
 	false
 
-getlst = (x0,y0,dx,dy) ->
-	resx = []
-	resy = []
-	[x,y] = makeMove x0+dx,y0+dy 
-	while within x,y
-		if b[x][y] != FREE then return [resx,resy]
-		resx.push x
-		resy.push y
-		[x,y] = makeMove x+dx,y+dy 
-	[resx,resy]
+# getlst = (x0,y0,dx,dy) ->
+# 	resx = []
+# 	resy = []
+# 	[x,y] = makeMove x0+dx,y0+dy 
+# 	while within x,y
+# 		if b[x][y] != FREE then return [resx,resy]
+# 		resx.push x
+# 		resy.push y
+# 		[x,y] = makeMove x+dx,y+dy 
+# 	[resx,resy]
 
-getrows = (x0,x1) ->
-	res = []
-	for y in range SIZE
-		found = false 
-		for x in range x0,x1 
-			if b[x][y] != FREE then found = true 
-		if not found then res.push y
-	res
+# getrows = (x0,x1) ->
+# 	res = []
+# 	for y in range SIZE
+# 		found = false 
+# 		for x in range x0,x1 
+# 			if b[x][y] != FREE then found = true 
+# 		if not found then res.push y
+# 	res
 
-getcols = (y0,y1) ->
-	res = []
-	for x in range SIZE
-		found = false 
-		for y in range y0,y1 
-			if b[x][y] != FREE then found = true 
-		if not found then res.push x
-	res
+# getcols = (y0,y1) ->
+# 	res = []
+# 	for x in range SIZE
+# 		found = false 
+# 		for y in range y0,y1 
+# 			if b[x][y] != FREE then found = true 
+# 		if not found then res.push x
+# 	res
 
-bridge = (x0,y0,x1,y1) ->
-	lst1 = getlst(x0,y0,0,-1)[1].concat getlst(x0,y0,0,1)[1]
-	lst2 = getlst(x1,y1,0,-1)[1].concat getlst(x1,y1,0,1)[1]
-	lst3 = getrows _.min([x0,x1])+1,_.max([x0,x1])
-	lst4 = _.intersection lst1, lst2, lst3 
+# bridge = (x0,y0,x1,y1) ->
+# 	lst1 = getlst(x0,y0,0,-1)[1].concat getlst(x0,y0,0,1)[1]
+# 	lst2 = getlst(x1,y1,0,-1)[1].concat getlst(x1,y1,0,1)[1]
+# 	lst3 = getrows _.min([x0,x1])+1,_.max([x0,x1])
+# 	lst4 = _.intersection lst1, lst2, lst3 
 
-	lst1 = getlst(x0,y0,-1,0)[0].concat getlst(x0,y0,1,0)[0]
-	lst2 = getlst(x1,y1,-1,0)[0].concat getlst(x1,y1,1,0)[0]
-	lst3 = getcols _.min([y0,y1])+1,_.max([y0,y1])
-	lst5 = _.intersection lst1, lst2, lst3 
+# 	lst1 = getlst(x0,y0,-1,0)[0].concat getlst(x0,y0,1,0)[0]
+# 	lst2 = getlst(x1,y1,-1,0)[0].concat getlst(x1,y1,1,0)[0]
+# 	lst3 = getcols _.min([y0,y1])+1,_.max([y0,y1])
+# 	lst5 = _.intersection lst1, lst2, lst3 
 
-	lst4.length > 0 or lst5.length > 0
+# 	lst4.length > 0 or lst5.length > 0
