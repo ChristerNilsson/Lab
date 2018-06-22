@@ -25,6 +25,7 @@ var Button,
     mybrightness,
     newGame,
     selected,
+    setBoard,
     setup,
     within,
     wrap,
@@ -92,7 +93,6 @@ setup = function setup() {
   createCanvas(30 + TILE * SIZE + 30, 100 + TILE * SIZE + TILE);
   rectMode(CENTER);
   makeColors();
-  makeGame();
   buttons.push(new Button(80, 65, '-', function () {
     return newGame(N - 1);
   }));
@@ -100,11 +100,15 @@ setup = function setup() {
   buttons.push(new Button(280, 65, '+', function () {
     return newGame(N + 1);
   }));
-  return buttons.push(new Button(width - 80, 65, '', function () {
+  buttons.push(new Button(width - 80, 65, '', function () {
     return wrap = !wrap;
   }));
+  return makeGame();
 };
 
+//assert true,  setBoard 41,true,2,5,9,8,["","",""," 25"," 22 35 21       7"," 11 10 15","          5","  19 18   29","   33      30"]
+//assert false, setBoard 41,true,2,5,3,8,["","",""," 25"," 22 35 21       7"," 11 10 15","          5","  19 18   29","   33      30"]
+//assert false,  setBoard 21,false,2,8,6,8,["","    17","","","        11","  7","     4   7","  5    7  15 10","  17   5 3 18 16 2 12","       8 13 15 9","  10  3    13 13"]
 mybrightness = function mybrightness(s) {
   var ch, l, len, res;
   res = 0;
@@ -250,7 +254,7 @@ mousePressed = function mousePressed() {
     }
     if (b[i][j] + b[i1][j1] === N - 1) {
       if (legal(i1, j1, i, j) || legal(i, j, i1, j1)) {
-        // or bridge(i,j,i1,j1)
+        // legal misses some targets
         b[i][j] = b[i1][j1] = FREE;
         return selected.pop();
       }
@@ -275,7 +279,9 @@ legal = function legal(i0, j0, i1, j1) {
   cands.push(start);
   reached = {};
   reached[[i0, j0]] = start;
+  //print "#####"
   while (cands.length > 0) {
+    //print front
     front = cands;
     front.sort(function (a, b) {
       return a[0] - b[0];
@@ -290,6 +296,7 @@ legal = function legal(i0, j0, i1, j1) {
       index0 = _front$l[3];
 
       ref = [[-1, 0], [1, 0], [0, -1], [0, 1]];
+      //print '------',x0,y0
       for (index = m = 0, len1 = ref.length; m < len1; index = ++m) {
         p = ref[index];
         var _p = p;
@@ -312,8 +319,10 @@ legal = function legal(i0, j0, i1, j1) {
           turns++;
         }
         next = [turns, x, y, index];
-        if (x === i1 && y === j1) {
-          return 2 >= turns;
+        //print next
+        if (x === i1 && y === j1 && turns <= 2) {
+          reached[key] = next;
+          return true;
         }
         if (within(x, y)) {
           if (b[x][y] === FREE) {
@@ -329,6 +338,27 @@ legal = function legal(i0, j0, i1, j1) {
     }
   }
   return false;
+};
+
+setBoard = function setBoard(n, w, i0, j0, i1, j1, arr) {
+  var cell, i, j, l, len, len1, len2, m, o, ref, ref1, row;
+  N = n;
+  wrap = w;
+  ref = range(SIZE);
+  for (l = 0, len = ref.length; l < len; l++) {
+    j = ref[l];
+    b[j] = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1];
+  }
+  for (j = m = 0, len1 = arr.length; m < len1; j = ++m) {
+    row = arr[j];
+    ref1 = row.split(' ');
+    for (i = o = 0, len2 = ref1.length; o < len2; i = ++o) {
+      cell = ref1[i];
+      b[i][j] = cell === '' ? -1 : parseInt(cell);
+    }
+  }
+  //print b
+  return legal(i0, j0, i1, j1);
 };
 
 // getlst = (x0,y0,dx,dy) ->

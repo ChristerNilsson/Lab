@@ -29,11 +29,14 @@ setup = ->
 	createCanvas 30+TILE*SIZE+30,100+TILE*SIZE+TILE
 	rectMode CENTER
 	makeColors()
-	makeGame()
 	buttons.push new Button 80,65,'-', -> newGame N-1
 	buttons.push new Button 180,65,N, ->
 	buttons.push new Button 280,65,'+', -> newGame N+1
 	buttons.push new Button width-80,65,'', -> wrap = not wrap
+	makeGame()
+	#assert true,  setBoard 41,true,2,5,9,8,["","",""," 25"," 22 35 21       7"," 11 10 15","          5","  19 18   29","   33      30"]
+	#assert false, setBoard 41,true,2,5,3,8,["","",""," 25"," 22 35 21       7"," 11 10 15","          5","  19 18   29","   33      30"]
+	#assert false,  setBoard 21,false,2,8,6,8,["","    17","","","        11","  7","     4   7","  5    7  15 10","  17   5 3 18 16 2 12","       8 13 15 9","  10  3    13 13"]
 
 mybrightness = (s) ->
 	res = 0
@@ -105,7 +108,7 @@ mousePressed = ->
 		[i1,j1] = selected[0]
 		if i==i1 and j==j1 then return selected.pop()
 		if b[i][j] + b[i1][j1] == N-1 
-			if legal(i1,j1,i,j) or legal(i,j,i1,j1) # or bridge(i,j,i1,j1)
+			if legal(i1,j1,i,j) or legal(i,j,i1,j1) # legal misses some targets
 				b[i][j] = b[i1][j1] = FREE
 				selected.pop()
 
@@ -118,11 +121,14 @@ legal = (i0,j0,i1,j1) ->
 	cands.push start
 	reached = {}
 	reached[[i0,j0]] = start
+	#print "#####"
 	while cands.length > 0
+		#print front
 		front = cands
 		front.sort (a,b) -> a[0]-b[0]
 		cands = []
 		for [turns0,x0,y0,index0] in front
+			#print '------',x0,y0
 			for p,index in [[-1,0],[1,0],[0,-1],[0,1]]
 				[dx,dy] = p
 				[x,y] = makeMove x0+dx,y0+dy
@@ -130,7 +136,10 @@ legal = (i0,j0,i1,j1) ->
 				turns = turns0
 				if index != index0 and index0 != -1 then turns++
 				next = [turns,x,y,index]
-				if x==i1 and y==j1 then return 2 >= turns
+				#print next
+				if x==i1 and y==j1 and turns<=2
+					reached[key] = next
+					return true
 				if within x,y
 					if b[x][y]==FREE
 						if key not of reached or reached[key][0] > next[0]
@@ -138,6 +147,18 @@ legal = (i0,j0,i1,j1) ->
 								reached[key] = next
 								cands.push next
 	false
+
+setBoard = (n,w,i0,j0,i1,j1,arr) ->
+	N = n
+	wrap = w
+	for j in range SIZE
+		b[j] = [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+	for row,j in arr
+		for cell,i in row.split ' '
+			b[i][j] = if cell=='' then -1 else parseInt cell
+	#print b
+	legal i0,j0,i1,j1
+
 
 # getlst = (x0,y0,dx,dy) ->
 # 	resx = []
