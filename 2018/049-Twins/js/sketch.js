@@ -16,19 +16,24 @@ var Button,
     b,
     buttons,
     draw,
+    drawPath,
     legal,
     makeColors,
     makeGame,
     makeMove,
+    makePath,
     message,
     mousePressed,
     mybrightness,
     newGame,
+    path,
+    pathTimestamp,
     selected,
     setBoard,
     setup,
     within,
     wrap,
+    wrapCount,
     modulo = function modulo(a, b) {
   return (+a % (b = +b) + b) % b;
 };
@@ -53,12 +58,18 @@ buttons = [];
 
 wrap = false;
 
+wrapCount = 0;
+
+path = [];
+
+pathTimestamp = null;
+
 Button = function () {
-  function Button(x1, y1, txt, click) {
+  function Button(x3, y3, txt, click) {
     _classCallCheck(this, Button);
 
-    this.x = x1;
-    this.y = y1;
+    this.x = x3;
+    this.y = y3;
     this.txt = txt;
     this.click = click;
     this.r = 50;
@@ -86,6 +97,7 @@ Button = function () {
 
 newGame = function newGame(n) {
   N = constrain(n, 2, 100);
+  wrapCount = 0;
   return makeGame();
 };
 
@@ -96,7 +108,9 @@ setup = function setup() {
   buttons.push(new Button(80, 65, '-', function () {
     return newGame(N - 1);
   }));
-  buttons.push(new Button(180, 65, N, function () {}));
+  buttons.push(new Button(180, 65, N, function () {
+    return newGame(N);
+  }));
   buttons.push(new Button(280, 65, '+', function () {
     return newGame(N + 1);
   }));
@@ -109,6 +123,7 @@ setup = function setup() {
 //assert true,  setBoard 41,true,2,5,9,8,["","",""," 25"," 22 35 21       7"," 11 10 15","          5","  19 18   29","   33      30"]
 //assert false, setBoard 41,true,2,5,3,8,["","",""," 25"," 22 35 21       7"," 11 10 15","          5","  19 18   29","   33      30"]
 //assert false,  setBoard 21,false,2,8,6,8,["","    17","","","        11","  7","     4   7","  5    7  15 10","  17   5 3 18 16 2 12","       8 13 15 9","  10  3    13 13"]
+//assert true,  setBoard 21,false,2,2,7,2,["","        20  5"," 18 1  17   19 16","  4 9 10  14 15 3","     9"]
 mybrightness = function mybrightness(s) {
   var ch, l, len, res;
   res = 0;
@@ -176,10 +191,11 @@ makeGame = function makeGame() {
 };
 
 draw = function draw() {
-  var button, cell, i, j, l, len, len1, len2, len3, m, o, q, ref, ref1, results;
+  var button, cell, i, j, l, len, len1, len2, len3, m, o, p, ref, ref1;
   bg(0.25);
+  sw(1);
   buttons[1].txt = N - 1;
-  buttons[3].txt = wrap ? 'wrap' : 'nowrap';
+  buttons[3].txt = wrap ? 'wrap' : wrapCount;
   for (l = 0, len = buttons.length; l < len; l++) {
     button = buttons[l];
     button.draw();
@@ -206,18 +222,17 @@ draw = function draw() {
       }
     }
   }
-  results = [];
-  for (q = 0, len3 = selected.length; q < len3; q++) {
-    var _selected$q = _slicedToArray(selected[q], 2);
+  for (p = 0, len3 = selected.length; p < len3; p++) {
+    var _selected$p = _slicedToArray(selected[p], 2);
 
-    i = _selected$q[0];
-    j = _selected$q[1];
+    i = _selected$p[0];
+    j = _selected$p[1];
 
     fc(1, 1, 0, 0.5);
     sc();
-    results.push(circle(TILE * i, TILE * j, TILE / 2 - 3));
+    circle(TILE * i, TILE * j, TILE / 2 - 3);
   }
-  return results;
+  return drawPath();
 };
 
 within = function within(i, j) {
@@ -253,9 +268,14 @@ mousePressed = function mousePressed() {
       return selected.pop();
     }
     if (b[i][j] + b[i1][j1] === N - 1) {
-      if (legal(i1, j1, i, j) || legal(i, j, i1, j1)) {
-        // legal misses some targets
+      path = legal(i1, j1, i, j);
+      if (path.length > 0) {
+        // or legal(i,j,i1,j1) # legal misses some targets
         b[i][j] = b[i1][j1] = FREE;
+        if (wrap) {
+          wrapCount++;
+        }
+        wrap = false;
         return selected.pop();
       }
     }
@@ -270,9 +290,94 @@ makeMove = function makeMove(x, y) {
   }
 };
 
+makePath = function makePath(reached, i, j) {
+  var count, di, dj, i0, index0, j0, key, res, turns0;
+  res = [];
+  print(reached, i, j);
+  count = 0;
+  while (count < 50) {
+    count++;
+    key = i + ',' + j;
+
+    var _reached$key = _slicedToArray(reached[key], 4);
+
+    turns0 = _reached$key[0];
+    i0 = _reached$key[1];
+    j0 = _reached$key[2];
+    index0 = _reached$key[3];
+
+    print([turns0, i0, j0, index0]);
+    if (index0 === -1) {
+      res.push(reached[key]);
+      pathTimestamp = millis();
+      print(res);
+      return res;
+    }
+
+    var _index = _slicedToArray([[1, 0], [-1, 0], [0, 1], [0, -1]][index0], 2);
+
+    di = _index[0];
+    dj = _index[1];
+
+    var _makeMove = makeMove(i0 + di, j0 + dj);
+
+    var _makeMove2 = _slicedToArray(_makeMove, 2);
+
+    i = _makeMove2[0];
+    j = _makeMove2[1];
+
+    res.push(reached[key]);
+  }
+  return res;
+};
+
+drawPath = function drawPath() {
+  var i1, i2, j1, j2, l, len, x1, x2, y1, y2, z;
+  if (path.length === 0) {
+    return;
+  }
+  sw(3);
+
+  var _path$ = _slicedToArray(path[0], 4);
+
+  z = _path$[0];
+  i1 = _path$[1];
+  j1 = _path$[2];
+  z = _path$[3];
+
+  x1 = TILE * i1;
+  y1 = TILE * j1;
+  for (l = 0, len = path.length; l < len; l++) {
+    var _path$l = _slicedToArray(path[l], 4);
+
+    z = _path$l[0];
+    i2 = _path$l[1];
+    j2 = _path$l[2];
+    z = _path$l[3];
+
+    x2 = TILE * i2;
+    y2 = TILE * j2;
+    if (TILE === dist(x1, y1, x2, y2)) {
+      line(x1, y1, x2, y2);
+    }
+    //		else
+    // if y1==y2
+    // 	line 1,y1,x2,y2
+    // 	line x1,y1,10,y2
+    // else
+    // 	line x1,1,x2,y2
+    // 	line x1,y1,x2,10
+    x1 = x2;
+    y1 = y2;
+  }
+  if (millis() > 200 + pathTimestamp) {
+    return path = [];
+  }
+};
+
 // A*
 legal = function legal(i0, j0, i1, j1) {
-  var cands, dx, dy, front, index, index0, key, l, len, len1, m, next, p, reached, ref, start, turns, turns0, x, x0, y, y0;
+  var cands, dx, dy, front, index, index0, key, l, len, len1, m, next, reached, ref, start, turns, turns0, x, x0, y, y0;
   start = [0, i0, j0, -1 // turns,x,y,move
   ];
   cands = [];
@@ -298,20 +403,17 @@ legal = function legal(i0, j0, i1, j1) {
       ref = [[-1, 0], [1, 0], [0, -1], [0, 1]];
       //print '------',x0,y0
       for (index = m = 0, len1 = ref.length; m < len1; index = ++m) {
-        p = ref[index];
-        var _p = p;
+        var _ref$index = _slicedToArray(ref[index], 2);
 
-        var _p2 = _slicedToArray(_p, 2);
+        dx = _ref$index[0];
+        dy = _ref$index[1];
 
-        dx = _p2[0];
-        dy = _p2[1];
+        var _makeMove3 = makeMove(x0 + dx, y0 + dy);
 
-        var _makeMove = makeMove(x0 + dx, y0 + dy);
+        var _makeMove4 = _slicedToArray(_makeMove3, 2);
 
-        var _makeMove2 = _slicedToArray(_makeMove, 2);
-
-        x = _makeMove2[0];
-        y = _makeMove2[1];
+        x = _makeMove4[0];
+        y = _makeMove4[1];
 
         key = x + ',' + y;
         turns = turns0;
@@ -322,11 +424,11 @@ legal = function legal(i0, j0, i1, j1) {
         //print next
         if (x === i1 && y === j1 && turns <= 2) {
           reached[key] = next;
-          return true;
+          return makePath(reached, i1, j1);
         }
         if (within(x, y)) {
           if (b[x][y] === FREE) {
-            if (!(key in reached) || reached[key][0] > next[0]) {
+            if (!(key in reached) || reached[key][0] >= next[0]) {
               if (next[0] < 3) {
                 reached[key] = next;
                 cands.push(next);
@@ -337,7 +439,7 @@ legal = function legal(i0, j0, i1, j1) {
       }
     }
   }
-  return false;
+  return [];
 };
 
 setBoard = function setBoard(n, w, i0, j0, i1, j1, arr) {
