@@ -65,11 +65,11 @@ path = [];
 pathTimestamp = null;
 
 Button = function () {
-  function Button(x3, y3, txt, click) {
+  function Button(x1, y1, txt, click) {
     _classCallCheck(this, Button);
 
-    this.x = x3;
-    this.y = y3;
+    this.x = x1;
+    this.y = y1;
     this.txt = txt;
     this.click = click;
     this.r = 50;
@@ -291,103 +291,84 @@ makeMove = function makeMove(x, y) {
 };
 
 makePath = function makePath(reached, i, j) {
-  var count, di, dj, i0, index0, j0, key, res, turns0;
+  var di, dj, i0, index, indexes0, j0, key, l, len, res, turns0;
   res = [];
-  print(reached, i, j);
-  count = 0;
-  while (count < 50) {
-    count++;
-    key = i + ',' + j;
+  key = i + ',' + j;
 
-    var _reached$key = _slicedToArray(reached[key], 4);
+  var _reached$key = _slicedToArray(reached[key], 4);
 
-    turns0 = _reached$key[0];
-    i0 = _reached$key[1];
-    j0 = _reached$key[2];
-    index0 = _reached$key[3];
+  turns0 = _reached$key[0];
+  i0 = _reached$key[1];
+  j0 = _reached$key[2];
+  indexes0 = _reached$key[3];
+  i = i0;
+  j = j0;
 
-    print([turns0, i0, j0, index0]);
-    if (index0 === -1) {
-      res.push(reached[key]);
-      pathTimestamp = millis();
-      print(res);
-      return res;
-    }
+  res.push([i, j]);
+  pathTimestamp = millis();
+  indexes0.reverse();
+  for (l = 0, len = indexes0.length; l < len; l++) {
+    index = indexes0[l];
 
-    var _index = _slicedToArray([[1, 0], [-1, 0], [0, 1], [0, -1]][index0], 2);
+    var _index = _slicedToArray([[1, 0], [-1, 0], [0, 1], [0, -1]][index], 2);
 
     di = _index[0];
     dj = _index[1];
 
-    var _makeMove = makeMove(i0 + di, j0 + dj);
+    var _makeMove = makeMove(i + di, j + dj);
 
     var _makeMove2 = _slicedToArray(_makeMove, 2);
 
     i = _makeMove2[0];
     j = _makeMove2[1];
 
-    res.push(reached[key]);
+    res.push([i, j]);
   }
   return res;
 };
 
 drawPath = function drawPath() {
-  var i1, i2, j1, j2, l, len, x1, x2, y1, y2, z;
+  var i1, i2, j1, j2, l, len;
   if (path.length === 0) {
     return;
   }
   sw(3);
 
-  var _path$ = _slicedToArray(path[0], 4);
+  var _path$ = _slicedToArray(path[0], 2);
 
-  z = _path$[0];
-  i1 = _path$[1];
-  j1 = _path$[2];
-  z = _path$[3];
+  i1 = _path$[0];
+  j1 = _path$[1];
 
-  x1 = TILE * i1;
-  y1 = TILE * j1;
   for (l = 0, len = path.length; l < len; l++) {
-    var _path$l = _slicedToArray(path[l], 4);
+    var _path$l = _slicedToArray(path[l], 2);
 
-    z = _path$l[0];
-    i2 = _path$l[1];
-    j2 = _path$l[2];
-    z = _path$l[3];
+    i2 = _path$l[0];
+    j2 = _path$l[1];
 
-    x2 = TILE * i2;
-    y2 = TILE * j2;
-    if (TILE === dist(x1, y1, x2, y2)) {
-      line(x1, y1, x2, y2);
+    if (1 === dist(i1, j1, i2, j2)) {
+      line(TILE * i1, TILE * j1, TILE * i2, TILE * j2);
     }
-    //		else
-    // if y1==y2
-    // 	line 1,y1,x2,y2
-    // 	line x1,y1,10,y2
-    // else
-    // 	line x1,1,x2,y2
-    // 	line x1,y1,x2,10
-    x1 = x2;
-    y1 = y2;
+    i1 = i2;
+    j1 = j2;
   }
-  if (millis() > 200 + pathTimestamp) {
+  if (millis() > 1000 + pathTimestamp) {
     return path = [];
   }
 };
 
 // A*
 legal = function legal(i0, j0, i1, j1) {
-  var cands, dx, dy, front, index, index0, key, l, len, len1, m, next, reached, ref, start, turns, turns0, x, x0, y, y0;
-  start = [0, i0, j0, -1 // turns,x,y,move
-  ];
+  var cands, dx, dy, front, index, indexes0, key, l, len, len1, m, next, reached, ref, start, turns, turns0, x, x0, y, y0;
+  start = [0, i0, j0, // turns,x,y,move
+  []];
   cands = [];
   cands.push(start);
   reached = {};
   reached[[i0, j0]] = start;
   //print "#####"
   while (cands.length > 0) {
-    //print front
     front = cands;
+    //print front
     front.sort(function (a, b) {
       return a[0] - b[0];
     });
@@ -398,7 +379,7 @@ legal = function legal(i0, j0, i1, j1) {
       turns0 = _front$l[0];
       x0 = _front$l[1];
       y0 = _front$l[2];
-      index0 = _front$l[3];
+      indexes0 = _front$l[3];
 
       ref = [[-1, 0], [1, 0], [0, -1], [0, 1]];
       //print '------',x0,y0
@@ -417,13 +398,14 @@ legal = function legal(i0, j0, i1, j1) {
 
         key = x + ',' + y;
         turns = turns0;
-        if (index !== index0 && index0 !== -1) {
+        if (indexes0.length > 0 && index !== _.last(indexes0)) {
           turns++;
         }
-        next = [turns, x, y, index];
+        next = [turns, x, y, indexes0.concat([index])];
         //print next
         if (x === i1 && y === j1 && turns <= 2) {
           reached[key] = next;
+          //print 'reached',reached
           return makePath(reached, i1, j1);
         }
         if (within(x, y)) {
@@ -442,6 +424,7 @@ legal = function legal(i0, j0, i1, j1) {
   return [];
 };
 
+//print []
 setBoard = function setBoard(n, w, i0, j0, i1, j1, arr) {
   var cell, i, j, l, len, len1, len2, m, o, ref, ref1, row;
   N = n;
@@ -462,46 +445,4 @@ setBoard = function setBoard(n, w, i0, j0, i1, j1, arr) {
   //print b
   return legal(i0, j0, i1, j1);
 };
-
-// getlst = (x0,y0,dx,dy) ->
-// 	resx = []
-// 	resy = []
-// 	[x,y] = makeMove x0+dx,y0+dy 
-// 	while within x,y
-// 		if b[x][y] != FREE then return [resx,resy]
-// 		resx.push x
-// 		resy.push y
-// 		[x,y] = makeMove x+dx,y+dy 
-// 	[resx,resy]
-
-// getrows = (x0,x1) ->
-// 	res = []
-// 	for y in range SIZE
-// 		found = false 
-// 		for x in range x0,x1 
-// 			if b[x][y] != FREE then found = true 
-// 		if not found then res.push y
-// 	res
-
-// getcols = (y0,y1) ->
-// 	res = []
-// 	for x in range SIZE
-// 		found = false 
-// 		for y in range y0,y1 
-// 			if b[x][y] != FREE then found = true 
-// 		if not found then res.push x
-// 	res
-
-// bridge = (x0,y0,x1,y1) ->
-// 	lst1 = getlst(x0,y0,0,-1)[1].concat getlst(x0,y0,0,1)[1]
-// 	lst2 = getlst(x1,y1,0,-1)[1].concat getlst(x1,y1,0,1)[1]
-// 	lst3 = getrows _.min([x0,x1])+1,_.max([x0,x1])
-// 	lst4 = _.intersection lst1, lst2, lst3 
-
-// 	lst1 = getlst(x0,y0,-1,0)[0].concat getlst(x0,y0,1,0)[0]
-// 	lst2 = getlst(x1,y1,-1,0)[0].concat getlst(x1,y1,1,0)[0]
-// 	lst3 = getcols _.min([y0,y1])+1,_.max([y0,y1])
-// 	lst5 = _.intersection lst1, lst2, lst3 
-
-// 	lst4.length > 0 or lst5.length > 0
 //# sourceMappingURL=sketch.js.map

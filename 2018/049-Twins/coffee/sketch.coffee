@@ -126,69 +126,52 @@ makeMove = (x,y) -> if wrap then [x %% SIZE, y %% SIZE] else [x,y]
 
 makePath = (reached,i,j) ->
 	res = []
-	print reached,i,j
-	count = 0
-	while count < 50
-		count++
-		key = "#{i},#{j}"
-		[turns0,i0,j0,index0] = reached[key]
-		print [turns0,i0,j0,index0]
-		if index0 == -1
-			res.push reached[key]
-			pathTimestamp = millis()
-			print res
-			return res
-		[di,dj] = [[1,0],[-1,0],[0,1],[0,-1]][index0]
-		[i,j] = makeMove i0+di,j0+dj
-		res.push reached[key]
+	key = "#{i},#{j}"
+	[turns0,i0,j0,indexes0] = reached[key]
+	[i,j] = [i0,j0]
+	res.push [i,j]
+	pathTimestamp = millis()
+	indexes0.reverse()
+	for index in indexes0
+		[di,dj] = [[1,0],[-1,0],[0,1],[0,-1]][index]
+		[i,j] = makeMove i+di,j+dj
+		res.push [i,j]
 	res
 
 drawPath = ->
 	if path.length == 0 then return 
 	sw 3
-	[z,i1,j1,z] = path[0]
-	x1 = TILE * i1
-	y1 = TILE * j1
-	for [z,i2,j2,z] in path
-		x2 = TILE * i2
-		y2 = TILE * j2
-		if TILE == dist x1,y1,x2,y2
-			line x1,y1,x2,y2
-#		else
-			# if y1==y2
-			# 	line 1,y1,x2,y2
-			# 	line x1,y1,10,y2
-			# else
-			# 	line x1,1,x2,y2
-			# 	line x1,y1,x2,10
-
-		[x1,y1] = [x2,y2]
-	if millis() > 200 + pathTimestamp then path = []
+	[i1,j1] = path[0]
+	for [i2,j2] in path
+		if 1 == dist i1,j1,i2,j2 then line TILE*i1,TILE*j1,TILE*i2,TILE*j2
+		[i1,j1] = [i2,j2]
+	if millis() > 1000 + pathTimestamp then path = []
 
 # A*
 legal = (i0,j0,i1,j1) ->
-	start = [0,i0,j0,-1] # turns,x,y,move
+	start = [0,i0,j0,[]] # turns,x,y,move
 	cands = []
 	cands.push start
 	reached = {}
 	reached[[i0,j0]] = start
 	#print "#####"
 	while cands.length > 0
-		#print front
 		front = cands
+		#print front
 		front.sort (a,b) -> a[0]-b[0]
 		cands = []
-		for [turns0,x0,y0,index0] in front
+		for [turns0,x0,y0,indexes0] in front
 			#print '------',x0,y0
 			for [dx,dy],index in [[-1,0],[1,0],[0,-1],[0,1]]
 				[x,y] = makeMove x0+dx,y0+dy
 				key = "#{x},#{y}"
 				turns = turns0
-				if index != index0 and index0 != -1 then turns++
-				next = [turns,x,y,index]
+				if indexes0.length > 0 and index != _.last(indexes0) then turns++
+				next = [turns,x,y,indexes0.concat [index]]
 				#print next
 				if x==i1 and y==j1 and turns<=2
 					reached[key] = next
+					#print 'reached',reached
 					return makePath reached,i1,j1
 				if within x,y
 					if b[x][y]==FREE
@@ -196,6 +179,7 @@ legal = (i0,j0,i1,j1) ->
 							if next[0] < 3
 								reached[key] = next
 								cands.push next
+	#print []
 	[]
 
 setBoard = (n,w,i0,j0,i1,j1,arr) ->
@@ -208,46 +192,3 @@ setBoard = (n,w,i0,j0,i1,j1,arr) ->
 			b[i][j] = if cell=='' then -1 else parseInt cell
 	#print b
 	legal i0,j0,i1,j1
-
-
-# getlst = (x0,y0,dx,dy) ->
-# 	resx = []
-# 	resy = []
-# 	[x,y] = makeMove x0+dx,y0+dy 
-# 	while within x,y
-# 		if b[x][y] != FREE then return [resx,resy]
-# 		resx.push x
-# 		resy.push y
-# 		[x,y] = makeMove x+dx,y+dy 
-# 	[resx,resy]
-
-# getrows = (x0,x1) ->
-# 	res = []
-# 	for y in range SIZE
-# 		found = false 
-# 		for x in range x0,x1 
-# 			if b[x][y] != FREE then found = true 
-# 		if not found then res.push y
-# 	res
-
-# getcols = (y0,y1) ->
-# 	res = []
-# 	for x in range SIZE
-# 		found = false 
-# 		for y in range y0,y1 
-# 			if b[x][y] != FREE then found = true 
-# 		if not found then res.push x
-# 	res
-
-# bridge = (x0,y0,x1,y1) ->
-# 	lst1 = getlst(x0,y0,0,-1)[1].concat getlst(x0,y0,0,1)[1]
-# 	lst2 = getlst(x1,y1,0,-1)[1].concat getlst(x1,y1,0,1)[1]
-# 	lst3 = getrows _.min([x0,x1])+1,_.max([x0,x1])
-# 	lst4 = _.intersection lst1, lst2, lst3 
-
-# 	lst1 = getlst(x0,y0,-1,0)[0].concat getlst(x0,y0,1,0)[0]
-# 	lst2 = getlst(x1,y1,-1,0)[0].concat getlst(x1,y1,1,0)[0]
-# 	lst3 = getcols _.min([y0,y1])+1,_.max([y0,y1])
-# 	lst5 = _.intersection lst1, lst2, lst3 
-
-# 	lst4.length > 0 or lst5.length > 0
