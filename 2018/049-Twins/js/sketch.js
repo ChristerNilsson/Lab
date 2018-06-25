@@ -10,30 +10,34 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var Button,
     COLORS,
     FREE,
-    N,
+    Hearts,
+    KEY,
     SIZE,
     TILE,
     b,
     buttons,
     draw,
     drawPath,
+    hearts,
     legal,
+    level,
+    loadStorage,
     makeColors,
     makeGame,
     makeMove,
     makePath,
+    maxLevel,
     message,
     mousePressed,
     mybrightness,
     newGame,
+    numbers,
     path,
     pathTimestamp,
+    saveStorage,
     selected,
-    setBoard,
     setup,
     within,
-    wrap,
-    wrapCount,
     modulo = function modulo(a, b) {
   return (+a % (b = +b) + b) % b;
 };
@@ -44,11 +48,17 @@ TILE = 60;
 
 FREE = -1;
 
-N = 5;
+COLORS = null;
+
+KEY = '049-Twins';
+
+level = null;
+
+maxLevel = null;
+
+numbers = null;
 
 b = null;
-
-COLORS = null;
 
 selected = [];
 
@@ -56,13 +66,49 @@ message = '';
 
 buttons = [];
 
-wrap = false;
-
-wrapCount = 0;
-
 path = [];
 
 pathTimestamp = null;
+
+hearts = null;
+
+Hearts = function () {
+  function Hearts(x1, y1) {
+    var count = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 9;
+    var maximum = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 9;
+
+    _classCallCheck(this, Hearts);
+
+    this.x = x1;
+    this.y = y1;
+    this.count = count;
+    this.maximum = maximum;
+  }
+
+  _createClass(Hearts, [{
+    key: 'draw',
+    value: function draw() {
+      var i, l, len, ref, results, x;
+      ref = range(this.maximum);
+      results = [];
+      for (l = 0, len = ref.length; l < len; l++) {
+        i = ref[l];
+        x = this.x + 25 * i;
+        if (i < this.count) {
+          fc(1, 0, 0);
+        } else {
+          fc(0.5);
+        }
+        triangle(x - 11, this.y, x + 11, this.y, x, this.y + 15);
+        circle(x - 5, this.y, 5);
+        results.push(circle(x + 5, this.y, 5));
+      }
+      return results;
+    }
+  }]);
+
+  return Hearts;
+}();
 
 Button = function () {
   function Button(x1, y1, txt, click) {
@@ -96,33 +142,45 @@ Button = function () {
 }();
 
 newGame = function newGame(n) {
-  N = constrain(n, 2, 100);
-  wrapCount = 0;
+  level = constrain(n, 2, maxLevel);
   return makeGame();
+};
+
+saveStorage = function saveStorage() {
+  return localStorage[KEY] = maxLevel;
+};
+
+loadStorage = function loadStorage() {
+  if (KEY in localStorage) {
+    maxLevel = parseInt(localStorage[KEY]);
+    return print(maxLevel);
+  } else {
+    return maxLevel = 2;
+  }
 };
 
 setup = function setup() {
   createCanvas(30 + TILE * SIZE + 30, 100 + TILE * SIZE + TILE);
   rectMode(CENTER);
   makeColors();
+  loadStorage();
+  level = maxLevel;
   buttons.push(new Button(80, 65, '-', function () {
-    return newGame(N - 1);
+    return newGame(level - 1);
   }));
-  buttons.push(new Button(180, 65, N, function () {
-    return newGame(N);
+  buttons.push(new Button(180, 65, level, function () {
+    return newGame(level);
   }));
   buttons.push(new Button(280, 65, '+', function () {
-    return newGame(N + 1);
+    return newGame(level + 1);
   }));
-  buttons.push(new Button(width - 80, 65, '', function () {
-    return wrap = !wrap;
-  }));
+  hearts = new Hearts(width - 240, 110);
   return makeGame();
 };
 
 //assert true,  setBoard 41,true,2,5,9,8,["","",""," 25"," 22 35 21       7"," 11 10 15","          5","  19 18   29","   33      30"]
 //assert false, setBoard 41,true,2,5,3,8,["","",""," 25"," 22 35 21       7"," 11 10 15","          5","  19 18   29","   33      30"]
-//assert false,  setBoard 21,false,2,8,6,8,["","    17","","","        11","  7","     4   7","  5    7  15 10","  17   5 3 18 16 2 12","       8 13 15 9","  10  3    13 13"]
+//assert false, setBoard 21,false,2,8,6,8,["","    17","","","        11","  7","     4   7","  5    7  15 10","  17   5 3 18 16 2 12","       8 13 15 9","  10  3    13 13"]
 //assert true,  setBoard 21,false,2,2,7,2,["","        20  5"," 18 1  17   19 16","  4 9 10  14 15 3","     9"]
 mybrightness = function mybrightness(s) {
   var ch, l, len, res;
@@ -159,11 +217,13 @@ makeColors = function makeColors() {
 makeGame = function makeGame() {
   var candidates, i, j, l, len, len1, m, ref, ref1, results;
   candidates = [];
+  hearts.count = 9;
+  numbers = 100;
   ref = range(50);
   for (l = 0, len = ref.length; l < len; l++) {
     i = ref[l];
-    candidates.push(i % N);
-    candidates.push(N - 1 - i % N);
+    candidates.push(i % level);
+    candidates.push(level - 1 - i % level);
   }
   candidates = _.shuffle(candidates);
   b = new Array(SIZE);
@@ -194,12 +254,12 @@ draw = function draw() {
   var button, cell, i, j, l, len, len1, len2, len3, m, o, p, ref, ref1;
   bg(0.25);
   sw(1);
-  buttons[1].txt = N - 1;
-  buttons[3].txt = wrap ? 'wrap' : wrapCount;
+  buttons[1].txt = level - 1;
   for (l = 0, len = buttons.length; l < len; l++) {
     button = buttons[l];
     button.draw();
   }
+  hearts.draw();
   textSize(0.8 * TILE);
   translate(TILE, TILE + 100);
   textAlign(CENTER, CENTER);
@@ -267,22 +327,46 @@ mousePressed = function mousePressed() {
     if (i === i1 && j === j1) {
       return selected.pop();
     }
-    if (b[i][j] + b[i1][j1] === N - 1) {
-      path = legal(i1, j1, i, j);
-      if (path.length > 0) {
-        // or legal(i,j,i1,j1) # legal misses some targets
-        b[i][j] = b[i1][j1] = FREE;
-        if (wrap) {
-          wrapCount++;
+    if (b[i][j] + b[i1][j1] === level - 1) {
+      path = legal(false, i1, j1, i, j);
+      if (path.length === 0) {
+        path = legal(true, i1, j1, i, j);
+        if (path.length === 0) {
+          hearts.count -= 2; // Punish two
+        } else {
+          hearts.count -= 1; // Punish one
         }
-        wrap = false;
-        return selected.pop();
+      }
+      b[i][j] = b[i1][j1] = FREE;
+      numbers -= 2;
+      selected.pop();
+      if (numbers === 0) {
+        if (level === maxLevel) {
+          if (hearts.count >= 0) {
+            maxLevel += 1;
+            level += 1;
+          } else {
+            maxLevel -= 1;
+            level -= 1;
+          }
+        }
+        saveStorage();
+        return newGame(level);
+      } else {
+        if (level === maxLevel) {
+          if (hearts.count < 0) {
+            maxLevel -= 1;
+            level -= 1;
+            saveStorage();
+            return newGame(level);
+          }
+        }
       }
     }
   }
 };
 
-makeMove = function makeMove(x, y) {
+makeMove = function makeMove(wrap, x, y) {
   if (wrap) {
     return [modulo(x, SIZE), modulo(y, SIZE)];
   } else {
@@ -290,7 +374,7 @@ makeMove = function makeMove(x, y) {
   }
 };
 
-makePath = function makePath(reached, i, j) {
+makePath = function makePath(wrap, reached, i, j) {
   var di, dj, i0, index, indexes0, j0, key, l, len, res, turns0;
   res = [];
   key = i + ',' + j;
@@ -315,7 +399,7 @@ makePath = function makePath(reached, i, j) {
     di = _index[0];
     dj = _index[1];
 
-    var _makeMove = makeMove(i + di, j + dj);
+    var _makeMove = makeMove(wrap, i + di, j + dj);
 
     var _makeMove2 = _slicedToArray(_makeMove, 2);
 
@@ -334,7 +418,6 @@ drawPath = function drawPath() {
   }
   sw(3);
   sc(1, 1, 0);
-  //fc 0.5
 
   var _path$ = _slicedToArray(path[0], 2);
 
@@ -348,8 +431,6 @@ drawPath = function drawPath() {
     j2 = _path$l[1];
 
     if (1 === dist(i1, j1, i2, j2)) {
-      //rect TILE*i1,TILE*j1,TILE,TILE 
-      //rect TILE*i2,TILE*j2,TILE,TILE
       line(TILE * i1, TILE * j1, TILE * i2, TILE * j2);
     }
     i1 = i2;
@@ -361,7 +442,7 @@ drawPath = function drawPath() {
 };
 
 // A*
-legal = function legal(i0, j0, i1, j1) {
+legal = function legal(wrap, i0, j0, i1, j1) {
   var cands, dx, dy, front, index, indexes0, key, l, len, len1, m, next, reached, ref, start, turns, turns0, x, x0, y, y0;
   start = [0, i0, j0, // turns,x,y,move
   []];
@@ -369,10 +450,8 @@ legal = function legal(i0, j0, i1, j1) {
   cands.push(start);
   reached = {};
   reached[[i0, j0]] = start;
-  //print "#####"
   while (cands.length > 0) {
     front = cands;
-    //print front
     front.sort(function (a, b) {
       return a[0] - b[0];
     });
@@ -386,14 +465,13 @@ legal = function legal(i0, j0, i1, j1) {
       indexes0 = _front$l[3];
 
       ref = [[-1, 0], [1, 0], [0, -1], [0, 1]];
-      //print '------',x0,y0
       for (index = m = 0, len1 = ref.length; m < len1; index = ++m) {
         var _ref$index = _slicedToArray(ref[index], 2);
 
         dx = _ref$index[0];
         dy = _ref$index[1];
 
-        var _makeMove3 = makeMove(x0 + dx, y0 + dy);
+        var _makeMove3 = makeMove(wrap, x0 + dx, y0 + dy);
 
         var _makeMove4 = _slicedToArray(_makeMove3, 2);
 
@@ -406,11 +484,9 @@ legal = function legal(i0, j0, i1, j1) {
           turns++;
         }
         next = [turns, x, y, indexes0.concat([index])];
-        //print next
         if (x === i1 && y === j1 && turns <= 2) {
           reached[key] = next;
-          //print 'reached',reached
-          return makePath(reached, i1, j1);
+          return makePath(wrap, reached, i1, j1);
         }
         if (within(x, y)) {
           if (b[x][y] === FREE) {
@@ -428,25 +504,12 @@ legal = function legal(i0, j0, i1, j1) {
   return [];
 };
 
-//print []
-setBoard = function setBoard(n, w, i0, j0, i1, j1, arr) {
-  var cell, i, j, l, len, len1, len2, m, o, ref, ref1, row;
-  N = n;
-  wrap = w;
-  ref = range(SIZE);
-  for (l = 0, len = ref.length; l < len; l++) {
-    j = ref[l];
-    b[j] = [-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1];
-  }
-  for (j = m = 0, len1 = arr.length; m < len1; j = ++m) {
-    row = arr[j];
-    ref1 = row.split(' ');
-    for (i = o = 0, len2 = ref1.length; o < len2; i = ++o) {
-      cell = ref1[i];
-      b[i][j] = cell === '' ? -1 : parseInt(cell);
-    }
-  }
-  //print b
-  return legal(i0, j0, i1, j1);
-};
+// setBoard = (n,w,i0,j0,i1,j1,arr) ->
+// 	level = n
+// 	for j in range SIZE
+// 		b[j] = [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
+// 	for row,j in arr
+// 		for cell,i in row.split ' '
+// 			b[i][j] = if cell=='' then -1 else parseInt cell
+// 	legal i0,j0,i1,j1
 //# sourceMappingURL=sketch.js.map
