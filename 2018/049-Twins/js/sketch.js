@@ -333,6 +333,8 @@ drawPath = function drawPath() {
     return;
   }
   sw(3);
+  sc(1, 1, 0);
+  //fc 0.5
 
   var _path$ = _slicedToArray(path[0], 2);
 
@@ -346,6 +348,8 @@ drawPath = function drawPath() {
     j2 = _path$l[1];
 
     if (1 === dist(i1, j1, i2, j2)) {
+      //rect TILE*i1,TILE*j1,TILE,TILE 
+      //rect TILE*i2,TILE*j2,TILE,TILE
       line(TILE * i1, TILE * j1, TILE * i2, TILE * j2);
     }
     i1 = i2;

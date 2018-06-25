@@ -141,9 +141,14 @@ makePath = (reached,i,j) ->
 drawPath = ->
 	if path.length == 0 then return 
 	sw 3
+	sc 1,1,0
+	#fc 0.5
 	[i1,j1] = path[0]
 	for [i2,j2] in path
-		if 1 == dist i1,j1,i2,j2 then line TILE*i1,TILE*j1,TILE*i2,TILE*j2
+		if 1 == dist i1,j1,i2,j2
+			#rect TILE*i1,TILE*j1,TILE,TILE 
+			#rect TILE*i2,TILE*j2,TILE,TILE
+			line TILE*i1,TILE*j1,TILE*i2,TILE*j2
 		[i1,j1] = [i2,j2]
 	if millis() > 1000 + pathTimestamp then path = []
 
