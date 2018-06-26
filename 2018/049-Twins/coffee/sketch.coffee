@@ -4,6 +4,7 @@ FREE = -1
 COLORS = null
 KEY = '049-Twins'
 
+size = null
 level = null
 maxLevel=null
 numbers = null
@@ -14,33 +15,48 @@ message = ''
 buttons = []
 path = []
 pathTimestamp = null
+deathTimestamp = null
 hearts = null
+milliseconds0 = null
+milliseconds1 = null
+state = 'halted' # 'running' 'halted'
+delta = 0
+found = null
 
 class Hearts
 	constructor : (@x,@y,@count=9,@maximum=9) -> 
 	draw : ->
 		for i in range @maximum
-			x = @x + 25*i
+			x = @x + 60*i
 			if i < @count
 				fc 1,0,0
+				sc 1,0,0
 			else
 				fc 0.5
-			triangle x-11,@y, x+11,@y, x,@y+15 
-			circle x-5,@y,5
-			circle x+5,@y,5
+				sc 0.5
+			sw 10
+			line x-15,@y+2, x,@y+20
+			line x,   @y, x,@y+20
+			line x+15,@y+2, x,@y+20
+			sw 1
+			circle x-10,@y,10
+			circle x+10,@y,10
 
 class Button
-	constructor : (@x,@y,@txt,@click) -> @r=50
+	constructor : (@x,@y,@txt,@click) -> @r=24
 	inside : (x,y) -> @r > dist @x,@y,x,y
 	draw : ->
 		fc 0.5
-		sc()
+		if level == maxLevel then sc 1 else sc()
+		sw 2
 		circle @x,@y,@r
 		fc 0
 		textSize 30
+		sc()
 		text @txt,@x,@y
 
 newGame = (n) ->
+	if n in [1,maxLevel+1] then return 
 	level = constrain n,2,maxLevel
 	makeGame()
 
@@ -48,25 +64,21 @@ saveStorage = -> localStorage[KEY] = maxLevel
 loadStorage = ->
 	if KEY of localStorage 
 		maxLevel = parseInt localStorage[KEY]
-		print maxLevel
 	else
 		maxLevel = 2
 
 setup = ->
-	createCanvas 30+TILE*SIZE+30,100+TILE*SIZE+TILE
+	createCanvas 30+TILE*SIZE+30,50+TILE*SIZE+TILE
 	rectMode CENTER
 	makeColors()
 	loadStorage()
 	level = maxLevel
-	buttons.push new Button 80,65,'-', -> newGame level-1
-	buttons.push new Button 180,65,level, -> newGame level
-	buttons.push new Button 280,65,'+', -> newGame level+1
-	hearts = new Hearts width-240,110
+	buttons.push new Button 60,40,'-', -> newGame level-1
+	buttons.push new Button 120,40,level, -> newGame level
+	buttons.push new Button 180,40,'+', -> newGame level+1
+	hearts = new Hearts 240,35
 	makeGame()
-	#assert true,  setBoard 41,true,2,5,9,8,["","",""," 25"," 22 35 21       7"," 11 10 15","          5","  19 18   29","   33      30"]
-	#assert false, setBoard 41,true,2,5,3,8,["","",""," 25"," 22 35 21       7"," 11 10 15","          5","  19 18   29","   33      30"]
-	#assert false, setBoard 21,false,2,8,6,8,["","    17","","","        11","  7","     4   7","  5    7  15 10","  17   5 3 18 16 2 12","       8 13 15 9","  10  3    13 13"]
-	#assert true,  setBoard 21,false,2,2,7,2,["","        20  5"," 18 1  17   19 16","  4 9 10  14 15 3","     9"]
+	showMoves()
 
 mybrightness = (s) ->
 	res = 0
@@ -85,19 +97,40 @@ makeColors = ->
 
 makeGame = ->
 	candidates = []
-	hearts.count = 9
-	numbers = 100
-	for i in range 50
+
+	maxLevel += delta
+	level += delta
+	delta = 0
+	saveStorage()
+
+	size = 5+level//4 
+	if size>12 then size=12
+	hearts.count = size-3
+	hearts.maximum = size-3
+
+	numbers = (size-2)*(size-2)
+	if numbers%2==1 then numbers -= 1
+
+	for i in range numbers/2
 		candidates.push i % level
 		candidates.push level-1 - i % level
 	candidates = _.shuffle candidates
 
-	b = new Array SIZE
-	for i in range SIZE
-		b[i] = new Array SIZE
-		for j in range SIZE
-			if i in [0,SIZE-1] or j in [0,SIZE-1] then b[i][j] = FREE
-			else b[i][j] = candidates.pop()
+	b = new Array size
+	for i in range size
+		b[i] = new Array size
+		for j in range size
+			if i in [0,size-1] or j in [0,size-1] then b[i][j] = FREE
+			else 
+				if size % 2 == 0
+					b[i][j] = candidates.pop()
+				else
+					if i == size//2 and j == size//2
+						b[i][j] = FREE
+					else
+						b[i][j] = candidates.pop()
+	milliseconds0 = millis()
+	state = 'running'
 
 draw = ->
 	bg 0.25
@@ -109,32 +142,64 @@ draw = ->
 	hearts.draw()
 
 	textSize 0.8 * TILE
-	translate TILE,TILE+100
+	translate TILE,TILE+50
 	textAlign CENTER,CENTER
 	fc 1
 	sc 0
-	for i in range SIZE
-		for j in range SIZE
+	for i in range size
+		for j in range size
 			fc 0
 			sc 1
 			rect TILE*i,TILE*j,TILE,TILE
 			cell = b[i][j]
 			if cell >= 0 
 				fill COLORS[cell%%COLORS.length]
-				sc()
+				sc 0
 				text b[i][j],TILE*i,TILE*j
 	for [i,j] in selected
 		fc 1,1,0,0.5
 		sc()
 		circle TILE*i,TILE*j,TILE/2-3
 	drawPath()
+	if state=='halted'
+		fc 1,1,0,0.5
+		x = size//2*TILE
+		y = size//2*TILE
+		w = size*TILE
+		h = size*TILE
+		rect x,y,w,h
+		ms = round(milliseconds1-milliseconds0)/1000
+		if ms > 0
+			y = size*TILE
+			fc 1
+			sc()
+			textSize 20
+			text ms,x,y
+	if millis() < deathTimestamp
+		sc 1,0,0
+		sw 5
+		fc()
+		x = size//2*TILE-TILE/2
+		y = size//2*TILE-TILE/2
+		w = size*TILE
+		h = size*TILE
+		rect x,y,w,h
 
-within = (i,j) -> 0 <= i < SIZE and 0 <= j < SIZE
+	[i0,j0,i1,j1,z,z] = found		
+	fc()
+	circle TILE*i0,TILE*j0,TILE/2-3
+	circle TILE*i1,TILE*j1,TILE/2-3
+
+
+within = (i,j) -> 0 <= i < size and 0 <= j < size
 
 mousePressed = ->
+	if state=='halted' 
+		newGame level
+		return
 	for button in buttons
 		if button.inside mouseX,mouseY then button.click()
-	[i,j] = [(mouseX-TILE/2)//TILE,(mouseY-100-TILE/2)//TILE]
+	[i,j] = [(mouseX-TILE/2)//TILE,(mouseY-50-TILE/2)//TILE]
 	if not within i,j then return
 	if selected.length == 0
 		if b[i][j] != FREE then selected.push [i,j]
@@ -149,28 +214,23 @@ mousePressed = ->
 					hearts.count -= 2 # Punish two
 				else
 					hearts.count -= 1 # Punish one
+				deathTimestamp = 200 + millis()
 			b[i][j] = b[i1][j1] = FREE
 			numbers -= 2
 			selected.pop()
 			if numbers==0
+				milliseconds1 = millis()
+				state = 'halted'
 				if level == maxLevel 
-					if hearts.count >= 0 
-						maxLevel+=1
-						level+=1
-					else
-						maxLevel-=1
-						level-=1
-				saveStorage()
-				newGame level
+					if hearts.count >= 0 then delta = 1 else delta = -1
 			else
 				if level == maxLevel 
 					if hearts.count < 0 
-						maxLevel-=1
-						level-=1
-						saveStorage()
-						newGame level
+						state = 'halted'
+						delta = -1
+	showMoves()
 
-makeMove = (wrap,x,y) -> if wrap then [x %% SIZE, y %% SIZE] else [x,y]
+makeMove = (wrap,x,y) -> if wrap then [x %% size, y %% size] else [x,y]
 
 makePath = (wrap,reached,i,j) ->
 	res = []
@@ -195,7 +255,7 @@ drawPath = ->
 		if 1 == dist i1,j1,i2,j2
 			line TILE*i1,TILE*j1,TILE*i2,TILE*j2
 		[i1,j1] = [i2,j2]
-	if millis() > 1000 + pathTimestamp then path = []
+	if millis() > 500 + pathTimestamp then path = []
 
 # A*
 legal = (wrap,i0,j0,i1,j1) ->
@@ -226,11 +286,24 @@ legal = (wrap,i0,j0,i1,j1) ->
 								cands.push next
 	[]
 
-# setBoard = (n,w,i0,j0,i1,j1,arr) ->
-# 	level = n
-# 	for j in range SIZE
-# 		b[j] = [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
-# 	for row,j in arr
-# 		for cell,i in row.split ' '
-# 			b[i][j] = if cell=='' then -1 else parseInt cell
-# 	legal i0,j0,i1,j1
+showMoves = ->
+	res = showMoves1 false
+	if res.length==0
+		res = showMoves1 true
+	if res.length>0
+		found = res[0]
+
+showMoves1 = (wrap) ->
+	res = []
+	for i0 in range 1,size-1
+		for j0 in range 1,size-1
+			if b[i0][j0] != FREE 
+				for i1 in range 1,size-1
+					for j1 in range 1,size-1
+						if b[i1][j1] != FREE 
+							if b[i0][j0] + b[i1][j1] == level-1
+								if b[i0][j0] <= b[i1][j1] and (i0!=i1 or j0!=j1)
+									path = legal wrap,i0,j0,i1,j1 
+									if path.length>0
+										res.push [i0,j0,i1,j1,b[i0][j0],b[i1][j1]]
+	res

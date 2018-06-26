@@ -16,8 +16,11 @@ var Button,
     TILE,
     b,
     buttons,
+    deathTimestamp,
+    delta,
     draw,
     drawPath,
+    found,
     hearts,
     legal,
     level,
@@ -28,6 +31,8 @@ var Button,
     makePath,
     maxLevel,
     message,
+    milliseconds0,
+    milliseconds1,
     mousePressed,
     mybrightness,
     newGame,
@@ -37,6 +42,10 @@ var Button,
     saveStorage,
     selected,
     setup,
+    showMoves,
+    showMoves1,
+    size,
+    state,
     within,
     modulo = function modulo(a, b) {
   return (+a % (b = +b) + b) % b;
@@ -51,6 +60,8 @@ FREE = -1;
 COLORS = null;
 
 KEY = '049-Twins';
+
+size = null;
 
 level = null;
 
@@ -70,7 +81,19 @@ path = [];
 
 pathTimestamp = null;
 
+deathTimestamp = null;
+
 hearts = null;
+
+milliseconds0 = null;
+
+milliseconds1 = null;
+
+state = 'halted'; // 'running' 'halted'
+
+delta = 0;
+
+found = null;
 
 Hearts = function () {
   function Hearts(x1, y1) {
@@ -93,15 +116,21 @@ Hearts = function () {
       results = [];
       for (l = 0, len = ref.length; l < len; l++) {
         i = ref[l];
-        x = this.x + 25 * i;
+        x = this.x + 60 * i;
         if (i < this.count) {
           fc(1, 0, 0);
+          sc(1, 0, 0);
         } else {
           fc(0.5);
+          sc(0.5);
         }
-        triangle(x - 11, this.y, x + 11, this.y, x, this.y + 15);
-        circle(x - 5, this.y, 5);
-        results.push(circle(x + 5, this.y, 5));
+        sw(10);
+        line(x - 15, this.y + 2, x, this.y + 20);
+        line(x, this.y, x, this.y + 20);
+        line(x + 15, this.y + 2, x, this.y + 20);
+        sw(1);
+        circle(x - 10, this.y, 10);
+        results.push(circle(x + 10, this.y, 10));
       }
       return results;
     }
@@ -118,7 +147,7 @@ Button = function () {
     this.y = y1;
     this.txt = txt;
     this.click = click;
-    this.r = 50;
+    this.r = 24;
   }
 
   _createClass(Button, [{
@@ -130,10 +159,16 @@ Button = function () {
     key: 'draw',
     value: function draw() {
       fc(0.5);
-      sc();
+      if (level === maxLevel) {
+        sc(1);
+      } else {
+        sc();
+      }
+      sw(2);
       circle(this.x, this.y, this.r);
       fc(0);
       textSize(30);
+      sc();
       return text(this.txt, this.x, this.y);
     }
   }]);
@@ -142,6 +177,9 @@ Button = function () {
 }();
 
 newGame = function newGame(n) {
+  if (n === 1 || n === maxLevel + 1) {
+    return;
+  }
   level = constrain(n, 2, maxLevel);
   return makeGame();
 };
@@ -152,36 +190,32 @@ saveStorage = function saveStorage() {
 
 loadStorage = function loadStorage() {
   if (KEY in localStorage) {
-    maxLevel = parseInt(localStorage[KEY]);
-    return print(maxLevel);
+    return maxLevel = parseInt(localStorage[KEY]);
   } else {
     return maxLevel = 2;
   }
 };
 
 setup = function setup() {
-  createCanvas(30 + TILE * SIZE + 30, 100 + TILE * SIZE + TILE);
+  createCanvas(30 + TILE * SIZE + 30, 50 + TILE * SIZE + TILE);
   rectMode(CENTER);
   makeColors();
   loadStorage();
   level = maxLevel;
-  buttons.push(new Button(80, 65, '-', function () {
+  buttons.push(new Button(60, 40, '-', function () {
     return newGame(level - 1);
   }));
-  buttons.push(new Button(180, 65, level, function () {
+  buttons.push(new Button(120, 40, level, function () {
     return newGame(level);
   }));
-  buttons.push(new Button(280, 65, '+', function () {
+  buttons.push(new Button(180, 40, '+', function () {
     return newGame(level + 1);
   }));
-  hearts = new Hearts(width - 240, 110);
-  return makeGame();
+  hearts = new Hearts(240, 35);
+  makeGame();
+  return showMoves();
 };
 
-//assert true,  setBoard 41,true,2,5,9,8,["","",""," 25"," 22 35 21       7"," 11 10 15","          5","  19 18   29","   33      30"]
-//assert false, setBoard 41,true,2,5,3,8,["","",""," 25"," 22 35 21       7"," 11 10 15","          5","  19 18   29","   33      30"]
-//assert false, setBoard 21,false,2,8,6,8,["","    17","","","        11","  7","     4   7","  5    7  15 10","  17   5 3 18 16 2 12","       8 13 15 9","  10  3    13 13"]
-//assert true,  setBoard 21,false,2,2,7,2,["","        20  5"," 18 1  17   19 16","  4 9 10  14 15 3","     9"]
 mybrightness = function mybrightness(s) {
   var ch, l, len, res;
   res = 0;
@@ -215,43 +249,58 @@ makeColors = function makeColors() {
 };
 
 makeGame = function makeGame() {
-  var candidates, i, j, l, len, len1, m, ref, ref1, results;
+  var candidates, i, j, l, len, len1, len2, m, o, ref, ref1, ref2;
   candidates = [];
-  hearts.count = 9;
-  numbers = 100;
-  ref = range(50);
+  maxLevel += delta;
+  level += delta;
+  delta = 0;
+  saveStorage();
+  size = 5 + Math.floor(level / 4);
+  if (size > 12) {
+    size = 12;
+  }
+  hearts.count = size - 3;
+  hearts.maximum = size - 3;
+  numbers = (size - 2) * (size - 2);
+  if (numbers % 2 === 1) {
+    numbers -= 1;
+  }
+  ref = range(numbers / 2);
   for (l = 0, len = ref.length; l < len; l++) {
     i = ref[l];
     candidates.push(i % level);
     candidates.push(level - 1 - i % level);
   }
   candidates = _.shuffle(candidates);
-  b = new Array(SIZE);
-  ref1 = range(SIZE);
-  results = [];
+  b = new Array(size);
+  ref1 = range(size);
   for (m = 0, len1 = ref1.length; m < len1; m++) {
     i = ref1[m];
-    b[i] = new Array(SIZE);
-    results.push(function () {
-      var len2, o, ref2, results1;
-      ref2 = range(SIZE);
-      results1 = [];
-      for (o = 0, len2 = ref2.length; o < len2; o++) {
-        j = ref2[o];
-        if (i === 0 || i === SIZE - 1 || j === 0 || j === SIZE - 1) {
-          results1.push(b[i][j] = FREE);
+    b[i] = new Array(size);
+    ref2 = range(size);
+    for (o = 0, len2 = ref2.length; o < len2; o++) {
+      j = ref2[o];
+      if (i === 0 || i === size - 1 || j === 0 || j === size - 1) {
+        b[i][j] = FREE;
+      } else {
+        if (size % 2 === 0) {
+          b[i][j] = candidates.pop();
         } else {
-          results1.push(b[i][j] = candidates.pop());
+          if (i === Math.floor(size / 2) && j === Math.floor(size / 2)) {
+            b[i][j] = FREE;
+          } else {
+            b[i][j] = candidates.pop();
+          }
         }
       }
-      return results1;
-    }());
+    }
   }
-  return results;
+  milliseconds0 = millis();
+  return state = 'running';
 };
 
 draw = function draw() {
-  var button, cell, i, j, l, len, len1, len2, len3, m, o, p, ref, ref1;
+  var button, cell, h, i, i0, i1, j, j0, j1, l, len, len1, len2, len3, m, ms, o, p, ref, ref1, w, x, y, z;
   bg(0.25);
   sw(1);
   buttons[1].txt = level - 1;
@@ -261,14 +310,14 @@ draw = function draw() {
   }
   hearts.draw();
   textSize(0.8 * TILE);
-  translate(TILE, TILE + 100);
+  translate(TILE, TILE + 50);
   textAlign(CENTER, CENTER);
   fc(1);
   sc(0);
-  ref = range(SIZE);
+  ref = range(size);
   for (m = 0, len1 = ref.length; m < len1; m++) {
     i = ref[m];
-    ref1 = range(SIZE);
+    ref1 = range(size);
     for (o = 0, len2 = ref1.length; o < len2; o++) {
       j = ref1[o];
       fc(0);
@@ -277,7 +326,7 @@ draw = function draw() {
       cell = b[i][j];
       if (cell >= 0) {
         fill(COLORS[modulo(cell, COLORS.length)]);
-        sc();
+        sc(0);
         text(b[i][j], TILE * i, TILE * j);
       }
     }
@@ -292,22 +341,66 @@ draw = function draw() {
     sc();
     circle(TILE * i, TILE * j, TILE / 2 - 3);
   }
-  return drawPath();
+  drawPath();
+  if (state === 'halted') {
+    fc(1, 1, 0, 0.5);
+    x = Math.floor(size / 2) * TILE;
+    y = Math.floor(size / 2) * TILE;
+    w = size * TILE;
+    h = size * TILE;
+    rect(x, y, w, h);
+    ms = round(milliseconds1 - milliseconds0) / 1000;
+    if (ms > 0) {
+      y = size * TILE;
+      fc(1);
+      sc();
+      textSize(20);
+      text(ms, x, y);
+    }
+  }
+  if (millis() < deathTimestamp) {
+    sc(1, 0, 0);
+    sw(5);
+    fc();
+    x = Math.floor(size / 2) * TILE - TILE / 2;
+    y = Math.floor(size / 2) * TILE - TILE / 2;
+    w = size * TILE;
+    h = size * TILE;
+    rect(x, y, w, h);
+  }
+  var _found = found;
+
+  var _found2 = _slicedToArray(_found, 6);
+
+  i0 = _found2[0];
+  j0 = _found2[1];
+  i1 = _found2[2];
+  j1 = _found2[3];
+  z = _found2[4];
+  z = _found2[5];
+
+  fc();
+  circle(TILE * i0, TILE * j0, TILE / 2 - 3);
+  return circle(TILE * i1, TILE * j1, TILE / 2 - 3);
 };
 
 within = function within(i, j) {
-  return 0 <= i && i < SIZE && 0 <= j && j < SIZE;
+  return 0 <= i && i < size && 0 <= j && j < size;
 };
 
 mousePressed = function mousePressed() {
   var button, i, i1, j, j1, l, len;
+  if (state === 'halted') {
+    newGame(level);
+    return;
+  }
   for (l = 0, len = buttons.length; l < len; l++) {
     button = buttons[l];
     if (button.inside(mouseX, mouseY)) {
       button.click();
     }
   }
-  var _ref = [Math.floor((mouseX - TILE / 2) / TILE), Math.floor((mouseY - 100 - TILE / 2) / TILE)];
+  var _ref = [Math.floor((mouseX - TILE / 2) / TILE), Math.floor((mouseY - 50 - TILE / 2) / TILE)];
   i = _ref[0];
   j = _ref[1];
 
@@ -316,7 +409,7 @@ mousePressed = function mousePressed() {
   }
   if (selected.length === 0) {
     if (b[i][j] !== FREE) {
-      return selected.push([i, j]);
+      selected.push([i, j]);
     }
   } else {
     var _selected$ = _slicedToArray(selected[0], 2);
@@ -336,39 +429,37 @@ mousePressed = function mousePressed() {
         } else {
           hearts.count -= 1; // Punish one
         }
+        deathTimestamp = 200 + millis();
       }
       b[i][j] = b[i1][j1] = FREE;
       numbers -= 2;
       selected.pop();
       if (numbers === 0) {
+        milliseconds1 = millis();
+        state = 'halted';
         if (level === maxLevel) {
           if (hearts.count >= 0) {
-            maxLevel += 1;
-            level += 1;
+            delta = 1;
           } else {
-            maxLevel -= 1;
-            level -= 1;
+            delta = -1;
           }
         }
-        saveStorage();
-        return newGame(level);
       } else {
         if (level === maxLevel) {
           if (hearts.count < 0) {
-            maxLevel -= 1;
-            level -= 1;
-            saveStorage();
-            return newGame(level);
+            state = 'halted';
+            delta = -1;
           }
         }
       }
     }
   }
+  return showMoves();
 };
 
 makeMove = function makeMove(wrap, x, y) {
   if (wrap) {
-    return [modulo(x, SIZE), modulo(y, SIZE)];
+    return [modulo(x, size), modulo(y, size)];
   } else {
     return [x, y];
   }
@@ -436,7 +527,7 @@ drawPath = function drawPath() {
     i1 = i2;
     j1 = j2;
   }
-  if (millis() > 1000 + pathTimestamp) {
+  if (millis() > 500 + pathTimestamp) {
     return path = [];
   }
 };
@@ -504,12 +595,48 @@ legal = function legal(wrap, i0, j0, i1, j1) {
   return [];
 };
 
-// setBoard = (n,w,i0,j0,i1,j1,arr) ->
-// 	level = n
-// 	for j in range SIZE
-// 		b[j] = [-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1]
-// 	for row,j in arr
-// 		for cell,i in row.split ' '
-// 			b[i][j] = if cell=='' then -1 else parseInt cell
-// 	legal i0,j0,i1,j1
+showMoves = function showMoves() {
+  var res;
+  res = showMoves1(false);
+  if (res.length === 0) {
+    res = showMoves1(true);
+  }
+  if (res.length > 0) {
+    return found = res[0];
+  }
+};
+
+showMoves1 = function showMoves1(wrap) {
+  var i0, i1, j0, j1, l, len, len1, len2, len3, m, o, p, ref, ref1, ref2, ref3, res;
+  res = [];
+  ref = range(1, size - 1);
+  for (l = 0, len = ref.length; l < len; l++) {
+    i0 = ref[l];
+    ref1 = range(1, size - 1);
+    for (m = 0, len1 = ref1.length; m < len1; m++) {
+      j0 = ref1[m];
+      if (b[i0][j0] !== FREE) {
+        ref2 = range(1, size - 1);
+        for (o = 0, len2 = ref2.length; o < len2; o++) {
+          i1 = ref2[o];
+          ref3 = range(1, size - 1);
+          for (p = 0, len3 = ref3.length; p < len3; p++) {
+            j1 = ref3[p];
+            if (b[i1][j1] !== FREE) {
+              if (b[i0][j0] + b[i1][j1] === level - 1) {
+                if (b[i0][j0] <= b[i1][j1] && (i0 !== i1 || j0 !== j1)) {
+                  path = legal(wrap, i0, j0, i1, j1);
+                  if (path.length > 0) {
+                    res.push([i0, j0, i1, j1, b[i0][j0], b[i1][j1]]);
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  return res;
+};
 //# sourceMappingURL=sketch.js.map

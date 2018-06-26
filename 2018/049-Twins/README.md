@@ -2,11 +2,11 @@
 
 [Twins](http://www.novelgames.com/en/twins/)
 
-* Make pairs with equal sum. E.g. 4
-* The Manhattan path must make at most two turns.
-* Manhattan paths make 90 degrees turns.
-* Wrapping wraps around horizontal and vertical edges.
-
+* Make pairs with equal sum. 0+1 = 1
+* The path must make at most two 90 degrees turns
+* Wrapping wraps around horizontal and vertical edges
+* Wrapping costs one life
+* Pairing without a path costs two lifes
 ```
 a b . .
 . . . . 
@@ -14,7 +14,7 @@ a b . .
 . f g .
 ```
 
-* ab = 0 turns (ok)
-* ad = 1 turn  (ok)
-* ae = 2 turns (ok)
-* ag = 3 turns (not ok)
+* ab = 0 turns 
+* ad = 1 turn  
+* ae = 2 turns 
+* ag = 3 turns 
