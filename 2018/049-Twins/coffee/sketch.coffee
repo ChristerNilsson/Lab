@@ -211,9 +211,9 @@ mousePressed = ->
 			if path.length == 0
 				path = legal true,i1,j1,i,j
 				if path.length == 0
-					hearts.count -= 2 # Punish two
+					hearts.count -= 2 # Punish two, anything goes
 				else
-					hearts.count -= 1 # Punish one
+					hearts.count -= 1 # Punish one, wrap
 				deathTimestamp = 200 + millis()
 			b[i][j] = b[i1][j1] = FREE
 			numbers -= 2
@@ -292,6 +292,7 @@ showMoves = ->
 		res = showMoves1 true
 	if res.length>0
 		found = res[0]
+	print res
 
 showMoves1 = (wrap) ->
 	res = []

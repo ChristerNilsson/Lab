@@ -425,9 +425,9 @@ mousePressed = function mousePressed() {
       if (path.length === 0) {
         path = legal(true, i1, j1, i, j);
         if (path.length === 0) {
-          hearts.count -= 2; // Punish two
+          hearts.count -= 2; // Punish two, anything goes
         } else {
-          hearts.count -= 1; // Punish one
+          hearts.count -= 1; // Punish one, wrap
         }
         deathTimestamp = 200 + millis();
       }
@@ -602,8 +602,9 @@ showMoves = function showMoves() {
     res = showMoves1(true);
   }
   if (res.length > 0) {
-    return found = res[0];
+    found = res[0];
   }
+  return print(res);
 };
 
 showMoves1 = function showMoves1(wrap) {
