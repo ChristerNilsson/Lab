@@ -92,14 +92,14 @@ delta = 0;
 found = null;
 
 Hearts = function () {
-  function Hearts(x1, y1) {
+  function Hearts(x1, y3) {
     var count = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 9;
     var maximum = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 9;
 
     _classCallCheck(this, Hearts);
 
     this.x = x1;
-    this.y = y1;
+    this.y = y3;
     this.count = count;
     this.maximum = maximum;
   }
@@ -114,21 +114,30 @@ Hearts = function () {
         i = ref[k];
         x = this.x + 60 * i;
         if (i < this.count) {
-          fc(1, 0, 0);
-          sc(1, 0, 0);
+          results.push(this.drawHeart(x, this.y, 10, 1, 0, 0));
         } else {
-          fc(0.5);
-          sc(0.5);
+          results.push(this.drawHeart(x, this.y, 10, 0.5, 0.5, 0.5));
         }
-        sw(10);
-        line(x - 15, this.y + 2, x, this.y + 20);
-        line(x, this.y, x, this.y + 20);
-        line(x + 15, this.y + 2, x, this.y + 20);
-        sw(1);
-        circle(x - 10, this.y, 10);
-        results.push(circle(x + 10, this.y, 10));
       }
       return results;
+    }
+  }, {
+    key: 'drawHeart',
+    value: function drawHeart(x, y, n, r, g, b) {
+      var dx, y1, y2;
+      fc(r, g, b);
+      sc(r, g, b);
+      sw(n);
+      dx = 1.2 * n;
+      y -= 0.8 * n;
+      y1 = y + 0.6 * n;
+      y2 = y + 2.2 * n;
+      line(x - dx, y1, x, y2);
+      line(x + dx, y1, x, y2);
+      line(x, y + 0.5 * n, x, y + 2 * n);
+      sc();
+      circle(x - n, y, n);
+      return circle(x + n, y, n);
     }
   }]);
 
@@ -136,11 +145,11 @@ Hearts = function () {
 }();
 
 Button = function () {
-  function Button(x1, y1, txt, click) {
+  function Button(x1, y3, txt, click) {
     _classCallCheck(this, Button);
 
     this.x = x1;
-    this.y = y1;
+    this.y = y3;
     this.txt = txt;
     this.click = click;
     this.r = 24;
@@ -319,14 +328,9 @@ draw = function draw() {
     }
   }
   if (millis() < deathTimestamp) {
-    sc(1, 0, 0);
-    sw(5);
-    fc();
     x = Math.floor(size / 2) * TILE - TILE / 2;
     y = Math.floor(size / 2) * TILE - TILE / 2;
-    w = size * TILE;
-    h = size * TILE;
-    return rect(x, y, w, h);
+    return hearts.drawHeart(x, y, 150, 1, 0, 0);
   }
 };
 
