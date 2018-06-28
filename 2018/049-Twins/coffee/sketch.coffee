@@ -1,7 +1,7 @@
 SIZE = 12
 TILE = 60
 FREE = -1
-COLORS = null
+COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #800 #080'.split ' '
 KEY = '049-Twins'
 
 size = null
@@ -61,16 +61,11 @@ newGame = (n) ->
 	makeGame()
 
 saveStorage = -> localStorage[KEY] = maxLevel
-loadStorage = ->
-	if KEY of localStorage 
-		maxLevel = parseInt localStorage[KEY]
-	else
-		maxLevel = 2
+loadStorage = -> maxLevel = if KEY of localStorage then parseInt localStorage[KEY]	else maxLevel = 2
 
 setup = ->
 	createCanvas 30+TILE*SIZE+30,50+TILE*SIZE+TILE
 	rectMode CENTER
-	makeColors()
 	loadStorage()
 	level = maxLevel
 	buttons.push new Button 60,40,'-', -> newGame level-1
@@ -78,22 +73,6 @@ setup = ->
 	buttons.push new Button 180,40,'+', -> newGame level+1
 	hearts = new Hearts 240,35
 	makeGame()
-	showMoves()
-
-mybrightness = (s) ->
-	res = 0
-	for ch in s
-		res += "0123456789abcdef#".indexOf ch
-	res
-
-makeColors = ->
-	COLORS = []
-	for i in "05af"
-		for j in "05af"
-			for k in "05af"
-				COLORS.push "#"+i+j+k
-	COLORS = _.without COLORS, "#000", "#005", "#00a"
-	COLORS.sort (a,b) -> mybrightness(b) - mybrightness(a)
 
 makeGame = ->
 	candidates = []
@@ -150,11 +129,13 @@ draw = ->
 		for j in range size
 			fc 0
 			sc 1
+			sw 1
 			rect TILE*i,TILE*j,TILE,TILE
 			cell = b[i][j]
 			if cell >= 0 
-				fill COLORS[cell%%COLORS.length]
-				sc 0
+				sw 3
+				fill   COLORS[cell%%COLORS.length]
+				stroke COLORS[cell//COLORS.length]
 				text b[i][j],TILE*i,TILE*j
 	for [i,j] in selected
 		fc 1,1,0,0.5
@@ -163,14 +144,14 @@ draw = ->
 	drawPath()
 	if state=='halted'
 		fc 1,1,0,0.5
-		x = size//2*TILE
-		y = size//2*TILE
+		x = size//2*TILE-TILE/2
+		y = size//2*TILE-TILE/2
 		w = size*TILE
 		h = size*TILE
 		rect x,y,w,h
 		ms = round(milliseconds1-milliseconds0)/1000
 		if ms > 0
-			y = size*TILE
+			y = size*TILE-10
 			fc 1
 			sc()
 			textSize 20
@@ -184,12 +165,6 @@ draw = ->
 		w = size*TILE
 		h = size*TILE
 		rect x,y,w,h
-
-	[i0,j0,i1,j1,z,z] = found		
-	fc()
-	circle TILE*i0,TILE*j0,TILE/2-3
-	circle TILE*i1,TILE*j1,TILE/2-3
-
 
 within = (i,j) -> 0 <= i < size and 0 <= j < size
 
@@ -214,7 +189,7 @@ mousePressed = ->
 					hearts.count -= 2 # Punish two, anything goes
 				else
 					hearts.count -= 1 # Punish one, wrap
-				deathTimestamp = 200 + millis()
+				deathTimestamp = 500 + millis()
 			b[i][j] = b[i1][j1] = FREE
 			numbers -= 2
 			selected.pop()
@@ -228,7 +203,6 @@ mousePressed = ->
 					if hearts.count < 0 
 						state = 'halted'
 						delta = -1
-	showMoves()
 
 makeMove = (wrap,x,y) -> if wrap then [x %% size, y %% size] else [x,y]
 
@@ -285,26 +259,3 @@ legal = (wrap,i0,j0,i1,j1) ->
 								reached[key] = next
 								cands.push next
 	[]
-
-showMoves = ->
-	res = showMoves1 false
-	if res.length==0
-		res = showMoves1 true
-	if res.length>0
-		found = res[0]
-	print res
-
-showMoves1 = (wrap) ->
-	res = []
-	for i0 in range 1,size-1
-		for j0 in range 1,size-1
-			if b[i0][j0] != FREE 
-				for i1 in range 1,size-1
-					for j1 in range 1,size-1
-						if b[i1][j1] != FREE 
-							if b[i0][j0] + b[i1][j1] == level-1
-								if b[i0][j0] <= b[i1][j1] and (i0!=i1 or j0!=j1)
-									path = legal wrap,i0,j0,i1,j1 
-									if path.length>0
-										res.push [i0,j0,i1,j1,b[i0][j0],b[i1][j1]]
-	res

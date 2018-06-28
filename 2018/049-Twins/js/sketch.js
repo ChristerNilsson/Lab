@@ -25,7 +25,6 @@ var Button,
     legal,
     level,
     loadStorage,
-    makeColors,
     makeGame,
     makeMove,
     makePath,
@@ -34,7 +33,6 @@ var Button,
     milliseconds0,
     milliseconds1,
     mousePressed,
-    mybrightness,
     newGame,
     numbers,
     path,
@@ -42,8 +40,6 @@ var Button,
     saveStorage,
     selected,
     setup,
-    showMoves,
-    showMoves1,
     size,
     state,
     within,
@@ -57,7 +53,7 @@ TILE = 60;
 
 FREE = -1;
 
-COLORS = null;
+COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #800 #080'.split(' ');
 
 KEY = '049-Twins';
 
@@ -111,11 +107,11 @@ Hearts = function () {
   _createClass(Hearts, [{
     key: 'draw',
     value: function draw() {
-      var i, l, len, ref, results, x;
+      var i, k, len, ref, results, x;
       ref = range(this.maximum);
       results = [];
-      for (l = 0, len = ref.length; l < len; l++) {
-        i = ref[l];
+      for (k = 0, len = ref.length; k < len; k++) {
+        i = ref[k];
         x = this.x + 60 * i;
         if (i < this.count) {
           fc(1, 0, 0);
@@ -189,17 +185,12 @@ saveStorage = function saveStorage() {
 };
 
 loadStorage = function loadStorage() {
-  if (KEY in localStorage) {
-    return maxLevel = parseInt(localStorage[KEY]);
-  } else {
-    return maxLevel = 2;
-  }
+  return maxLevel = KEY in localStorage ? parseInt(localStorage[KEY]) : maxLevel = 2;
 };
 
 setup = function setup() {
   createCanvas(30 + TILE * SIZE + 30, 50 + TILE * SIZE + TILE);
   rectMode(CENTER);
-  makeColors();
   loadStorage();
   level = maxLevel;
   buttons.push(new Button(60, 40, '-', function () {
@@ -212,44 +203,11 @@ setup = function setup() {
     return newGame(level + 1);
   }));
   hearts = new Hearts(240, 35);
-  makeGame();
-  return showMoves();
-};
-
-mybrightness = function mybrightness(s) {
-  var ch, l, len, res;
-  res = 0;
-  for (l = 0, len = s.length; l < len; l++) {
-    ch = s[l];
-    res += "0123456789abcdef#".indexOf(ch);
-  }
-  return res;
-};
-
-makeColors = function makeColors() {
-  var i, j, k, l, len, len1, len2, m, o, ref, ref1, ref2;
-  COLORS = [];
-  ref = "05af";
-  for (l = 0, len = ref.length; l < len; l++) {
-    i = ref[l];
-    ref1 = "05af";
-    for (m = 0, len1 = ref1.length; m < len1; m++) {
-      j = ref1[m];
-      ref2 = "05af";
-      for (o = 0, len2 = ref2.length; o < len2; o++) {
-        k = ref2[o];
-        COLORS.push("#" + i + j + k);
-      }
-    }
-  }
-  COLORS = _.without(COLORS, "#000", "#005", "#00a");
-  return COLORS.sort(function (a, b) {
-    return mybrightness(b) - mybrightness(a);
-  });
+  return makeGame();
 };
 
 makeGame = function makeGame() {
-  var candidates, i, j, l, len, len1, len2, m, o, ref, ref1, ref2;
+  var candidates, i, j, k, l, len, len1, len2, m, ref, ref1, ref2;
   candidates = [];
   maxLevel += delta;
   level += delta;
@@ -266,20 +224,20 @@ makeGame = function makeGame() {
     numbers -= 1;
   }
   ref = range(numbers / 2);
-  for (l = 0, len = ref.length; l < len; l++) {
-    i = ref[l];
+  for (k = 0, len = ref.length; k < len; k++) {
+    i = ref[k];
     candidates.push(i % level);
     candidates.push(level - 1 - i % level);
   }
   candidates = _.shuffle(candidates);
   b = new Array(size);
   ref1 = range(size);
-  for (m = 0, len1 = ref1.length; m < len1; m++) {
-    i = ref1[m];
+  for (l = 0, len1 = ref1.length; l < len1; l++) {
+    i = ref1[l];
     b[i] = new Array(size);
     ref2 = range(size);
-    for (o = 0, len2 = ref2.length; o < len2; o++) {
-      j = ref2[o];
+    for (m = 0, len2 = ref2.length; m < len2; m++) {
+      j = ref2[m];
       if (i === 0 || i === size - 1 || j === 0 || j === size - 1) {
         b[i][j] = FREE;
       } else {
@@ -300,12 +258,12 @@ makeGame = function makeGame() {
 };
 
 draw = function draw() {
-  var button, cell, h, i, i0, i1, j, j0, j1, l, len, len1, len2, len3, m, ms, o, p, ref, ref1, w, x, y, z;
+  var button, cell, h, i, j, k, l, len, len1, len2, len3, m, ms, o, ref, ref1, w, x, y;
   bg(0.25);
   sw(1);
   buttons[1].txt = level - 1;
-  for (l = 0, len = buttons.length; l < len; l++) {
-    button = buttons[l];
+  for (k = 0, len = buttons.length; k < len; k++) {
+    button = buttons[k];
     button.draw();
   }
   hearts.draw();
@@ -315,27 +273,29 @@ draw = function draw() {
   fc(1);
   sc(0);
   ref = range(size);
-  for (m = 0, len1 = ref.length; m < len1; m++) {
-    i = ref[m];
+  for (l = 0, len1 = ref.length; l < len1; l++) {
+    i = ref[l];
     ref1 = range(size);
-    for (o = 0, len2 = ref1.length; o < len2; o++) {
-      j = ref1[o];
+    for (m = 0, len2 = ref1.length; m < len2; m++) {
+      j = ref1[m];
       fc(0);
       sc(1);
+      sw(1);
       rect(TILE * i, TILE * j, TILE, TILE);
       cell = b[i][j];
       if (cell >= 0) {
+        sw(3);
         fill(COLORS[modulo(cell, COLORS.length)]);
-        sc(0);
+        stroke(COLORS[Math.floor(cell / COLORS.length)]);
         text(b[i][j], TILE * i, TILE * j);
       }
     }
   }
-  for (p = 0, len3 = selected.length; p < len3; p++) {
-    var _selected$p = _slicedToArray(selected[p], 2);
+  for (o = 0, len3 = selected.length; o < len3; o++) {
+    var _selected$o = _slicedToArray(selected[o], 2);
 
-    i = _selected$p[0];
-    j = _selected$p[1];
+    i = _selected$o[0];
+    j = _selected$o[1];
 
     fc(1, 1, 0, 0.5);
     sc();
@@ -344,14 +304,14 @@ draw = function draw() {
   drawPath();
   if (state === 'halted') {
     fc(1, 1, 0, 0.5);
-    x = Math.floor(size / 2) * TILE;
-    y = Math.floor(size / 2) * TILE;
+    x = Math.floor(size / 2) * TILE - TILE / 2;
+    y = Math.floor(size / 2) * TILE - TILE / 2;
     w = size * TILE;
     h = size * TILE;
     rect(x, y, w, h);
     ms = round(milliseconds1 - milliseconds0) / 1000;
     if (ms > 0) {
-      y = size * TILE;
+      y = size * TILE - 10;
       fc(1);
       sc();
       textSize(20);
@@ -366,22 +326,8 @@ draw = function draw() {
     y = Math.floor(size / 2) * TILE - TILE / 2;
     w = size * TILE;
     h = size * TILE;
-    rect(x, y, w, h);
+    return rect(x, y, w, h);
   }
-  var _found = found;
-
-  var _found2 = _slicedToArray(_found, 6);
-
-  i0 = _found2[0];
-  j0 = _found2[1];
-  i1 = _found2[2];
-  j1 = _found2[3];
-  z = _found2[4];
-  z = _found2[5];
-
-  fc();
-  circle(TILE * i0, TILE * j0, TILE / 2 - 3);
-  return circle(TILE * i1, TILE * j1, TILE / 2 - 3);
 };
 
 within = function within(i, j) {
@@ -389,13 +335,13 @@ within = function within(i, j) {
 };
 
 mousePressed = function mousePressed() {
-  var button, i, i1, j, j1, l, len;
+  var button, i, i1, j, j1, k, len;
   if (state === 'halted') {
     newGame(level);
     return;
   }
-  for (l = 0, len = buttons.length; l < len; l++) {
-    button = buttons[l];
+  for (k = 0, len = buttons.length; k < len; k++) {
+    button = buttons[k];
     if (button.inside(mouseX, mouseY)) {
       button.click();
     }
@@ -409,7 +355,7 @@ mousePressed = function mousePressed() {
   }
   if (selected.length === 0) {
     if (b[i][j] !== FREE) {
-      selected.push([i, j]);
+      return selected.push([i, j]);
     }
   } else {
     var _selected$ = _slicedToArray(selected[0], 2);
@@ -429,7 +375,7 @@ mousePressed = function mousePressed() {
         } else {
           hearts.count -= 1; // Punish one, wrap
         }
-        deathTimestamp = 200 + millis();
+        deathTimestamp = 500 + millis();
       }
       b[i][j] = b[i1][j1] = FREE;
       numbers -= 2;
@@ -439,22 +385,21 @@ mousePressed = function mousePressed() {
         state = 'halted';
         if (level === maxLevel) {
           if (hearts.count >= 0) {
-            delta = 1;
+            return delta = 1;
           } else {
-            delta = -1;
+            return delta = -1;
           }
         }
       } else {
         if (level === maxLevel) {
           if (hearts.count < 0) {
             state = 'halted';
-            delta = -1;
+            return delta = -1;
           }
         }
       }
     }
   }
-  return showMoves();
 };
 
 makeMove = function makeMove(wrap, x, y) {
@@ -466,7 +411,7 @@ makeMove = function makeMove(wrap, x, y) {
 };
 
 makePath = function makePath(wrap, reached, i, j) {
-  var di, dj, i0, index, indexes0, j0, key, l, len, res, turns0;
+  var di, dj, i0, index, indexes0, j0, k, key, len, res, turns0;
   res = [];
   key = i + ',' + j;
 
@@ -482,8 +427,8 @@ makePath = function makePath(wrap, reached, i, j) {
   res.push([i, j]);
   pathTimestamp = millis();
   indexes0.reverse();
-  for (l = 0, len = indexes0.length; l < len; l++) {
-    index = indexes0[l];
+  for (k = 0, len = indexes0.length; k < len; k++) {
+    index = indexes0[k];
 
     var _index = _slicedToArray([[1, 0], [-1, 0], [0, 1], [0, -1]][index], 2);
 
@@ -503,7 +448,7 @@ makePath = function makePath(wrap, reached, i, j) {
 };
 
 drawPath = function drawPath() {
-  var i1, i2, j1, j2, l, len;
+  var i1, i2, j1, j2, k, len;
   if (path.length === 0) {
     return;
   }
@@ -515,11 +460,11 @@ drawPath = function drawPath() {
   i1 = _path$[0];
   j1 = _path$[1];
 
-  for (l = 0, len = path.length; l < len; l++) {
-    var _path$l = _slicedToArray(path[l], 2);
+  for (k = 0, len = path.length; k < len; k++) {
+    var _path$k = _slicedToArray(path[k], 2);
 
-    i2 = _path$l[0];
-    j2 = _path$l[1];
+    i2 = _path$k[0];
+    j2 = _path$k[1];
 
     if (1 === dist(i1, j1, i2, j2)) {
       line(TILE * i1, TILE * j1, TILE * i2, TILE * j2);
@@ -534,7 +479,7 @@ drawPath = function drawPath() {
 
 // A*
 legal = function legal(wrap, i0, j0, i1, j1) {
-  var cands, dx, dy, front, index, indexes0, key, l, len, len1, m, next, reached, ref, start, turns, turns0, x, x0, y, y0;
+  var cands, dx, dy, front, index, indexes0, k, key, l, len, len1, next, reached, ref, start, turns, turns0, x, x0, y, y0;
   start = [0, i0, j0, // turns,x,y,move
   []];
   cands = [];
@@ -547,16 +492,16 @@ legal = function legal(wrap, i0, j0, i1, j1) {
       return a[0] - b[0];
     });
     cands = [];
-    for (l = 0, len = front.length; l < len; l++) {
-      var _front$l = _slicedToArray(front[l], 4);
+    for (k = 0, len = front.length; k < len; k++) {
+      var _front$k = _slicedToArray(front[k], 4);
 
-      turns0 = _front$l[0];
-      x0 = _front$l[1];
-      y0 = _front$l[2];
-      indexes0 = _front$l[3];
+      turns0 = _front$k[0];
+      x0 = _front$k[1];
+      y0 = _front$k[2];
+      indexes0 = _front$k[3];
 
       ref = [[-1, 0], [1, 0], [0, -1], [0, 1]];
-      for (index = m = 0, len1 = ref.length; m < len1; index = ++m) {
+      for (index = l = 0, len1 = ref.length; l < len1; index = ++l) {
         var _ref$index = _slicedToArray(ref[index], 2);
 
         dx = _ref$index[0];
@@ -593,51 +538,5 @@ legal = function legal(wrap, i0, j0, i1, j1) {
     }
   }
   return [];
-};
-
-showMoves = function showMoves() {
-  var res;
-  res = showMoves1(false);
-  if (res.length === 0) {
-    res = showMoves1(true);
-  }
-  if (res.length > 0) {
-    found = res[0];
-  }
-  return print(res);
-};
-
-showMoves1 = function showMoves1(wrap) {
-  var i0, i1, j0, j1, l, len, len1, len2, len3, m, o, p, ref, ref1, ref2, ref3, res;
-  res = [];
-  ref = range(1, size - 1);
-  for (l = 0, len = ref.length; l < len; l++) {
-    i0 = ref[l];
-    ref1 = range(1, size - 1);
-    for (m = 0, len1 = ref1.length; m < len1; m++) {
-      j0 = ref1[m];
-      if (b[i0][j0] !== FREE) {
-        ref2 = range(1, size - 1);
-        for (o = 0, len2 = ref2.length; o < len2; o++) {
-          i1 = ref2[o];
-          ref3 = range(1, size - 1);
-          for (p = 0, len3 = ref3.length; p < len3; p++) {
-            j1 = ref3[p];
-            if (b[i1][j1] !== FREE) {
-              if (b[i0][j0] + b[i1][j1] === level - 1) {
-                if (b[i0][j0] <= b[i1][j1] && (i0 !== i1 || j0 !== j1)) {
-                  path = legal(wrap, i0, j0, i1, j1);
-                  if (path.length > 0) {
-                    res.push([i0, j0, i1, j1, b[i0][j0], b[i1][j1]]);
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-  return res;
 };
 //# sourceMappingURL=sketch.js.map
