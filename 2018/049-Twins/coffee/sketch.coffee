@@ -164,9 +164,10 @@ draw = ->
 			textSize 20
 			text ms,x,y
 	if millis() < deathTimestamp
-		x = size//2*TILE-TILE/2
-		y = size//2*TILE-TILE/2
-		hearts.drawHeart x,y,150,1,0,0
+		x = size//2*TILE
+		y = size//2*TILE
+		if size % 2 == 0 then [x,y] = [x-TILE/2, y-TILE/2]
+		hearts.drawHeart x,y,size*TILE/5,1,0,0
 
 within = (i,j) -> 0 <= i < size and 0 <= j < size
 
@@ -191,7 +192,7 @@ mousePressed = ->
 					hearts.count -= 2 # Punish two, anything goes
 				else
 					hearts.count -= 1 # Punish one, wrap
-				deathTimestamp = 500 + millis()
+				deathTimestamp = 200 + millis()
 			b[i][j] = b[i1][j1] = FREE
 			numbers -= 2
 			selected.pop()

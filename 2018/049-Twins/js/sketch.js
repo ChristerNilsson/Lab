@@ -328,9 +328,14 @@ draw = function draw() {
     }
   }
   if (millis() < deathTimestamp) {
-    x = Math.floor(size / 2) * TILE - TILE / 2;
-    y = Math.floor(size / 2) * TILE - TILE / 2;
-    return hearts.drawHeart(x, y, 150, 1, 0, 0);
+    x = Math.floor(size / 2) * TILE;
+    y = Math.floor(size / 2) * TILE;
+    if (size % 2 === 0) {
+      var _ref = [x - TILE / 2, y - TILE / 2];
+      x = _ref[0];
+      y = _ref[1];
+    }
+    return hearts.drawHeart(x, y, size * TILE / 5, 1, 0, 0);
   }
 };
 
@@ -350,9 +355,9 @@ mousePressed = function mousePressed() {
       button.click();
     }
   }
-  var _ref = [Math.floor((mouseX - TILE / 2) / TILE), Math.floor((mouseY - 50 - TILE / 2) / TILE)];
-  i = _ref[0];
-  j = _ref[1];
+  var _ref2 = [Math.floor((mouseX - TILE / 2) / TILE), Math.floor((mouseY - 50 - TILE / 2) / TILE)];
+  i = _ref2[0];
+  j = _ref2[1];
 
   if (!within(i, j)) {
     return;
@@ -379,7 +384,7 @@ mousePressed = function mousePressed() {
         } else {
           hearts.count -= 1; // Punish one, wrap
         }
-        deathTimestamp = 500 + millis();
+        deathTimestamp = 200 + millis();
       }
       b[i][j] = b[i1][j1] = FREE;
       numbers -= 2;
