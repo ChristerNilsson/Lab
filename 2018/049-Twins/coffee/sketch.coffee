@@ -76,31 +76,48 @@ setup = ->
 	loadStorage()
 	level = maxLevel
 	buttons.push new Button 60,40,'-', -> newGame level-1
-	buttons.push new Button 120,40,level, -> newGame level
+	buttons.push new Button 120,40,level, ->
 	buttons.push new Button 180,40,'+', -> newGame level+1
 	hearts = new Hearts 240,35
-	makeGame()
+
+	if -1 != window.location.href.indexOf 'level'
+		urlGame()
+	else
+		makeGame()
+
+urlGame = ->
+	params = getParameters()
+	level = parseInt params.level
+	b = JSON.parse params.b
+	size = 5+level//4 
+	if size>12 then size=12
+	hearts.count = size - 3
+	hearts.maximum = size - 3
+	numbers = (size-2)*(size-2)
+	if numbers%2==1 then numbers -= 1
+	milliseconds0 = millis()
+	state = 'running'	
 
 makeGame = ->
-	candidates = []
-
-	maxLevel += delta
 	level += delta
 	delta = 0
 	saveStorage()
 
 	size = 5+level//4 
 	if size>12 then size=12
-	hearts.count = size-3
-	hearts.maximum = size-3
+	hearts.count = size - 3
+	hearts.maximum = size - 3
 
 	numbers = (size-2)*(size-2)
 	if numbers%2==1 then numbers -= 1
 
+	candidates = []
 	for i in range numbers/2
 		candidates.push i % level
 		candidates.push level-1 - i % level
 	candidates = _.shuffle candidates
+
+	maxLevel += delta
 
 	b = new Array size
 	for i in range size
@@ -117,6 +134,14 @@ makeGame = ->
 						b[i][j] = candidates.pop()
 	milliseconds0 = millis()
 	state = 'running'
+	print makeLink()
+
+makeLink = -> 
+	url = 'https://christernilsson.github.io/Lab/2018/049-Twins/index.html'
+	#url = 'file:///C:/Lab/2018/049-Twins/index.html'
+	url += '?b=' + JSON.stringify b
+	url += '&level=' + level
+	url
 
 draw = ->
 	bg 0.25

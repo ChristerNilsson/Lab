@@ -26,6 +26,7 @@ var Button,
     level,
     loadStorage,
     makeGame,
+    makeLink,
     makeMove,
     makePath,
     maxLevel,
@@ -42,6 +43,7 @@ var Button,
     setup,
     size,
     state,
+    urlGame,
     within,
     modulo = function modulo(a, b) {
   return (+a % (b = +b) + b) % b;
@@ -205,20 +207,39 @@ setup = function setup() {
   buttons.push(new Button(60, 40, '-', function () {
     return newGame(level - 1);
   }));
-  buttons.push(new Button(120, 40, level, function () {
-    return newGame(level);
-  }));
+  buttons.push(new Button(120, 40, level, function () {}));
   buttons.push(new Button(180, 40, '+', function () {
     return newGame(level + 1);
   }));
   hearts = new Hearts(240, 35);
-  return makeGame();
+  if (-1 !== window.location.href.indexOf('level')) {
+    return urlGame();
+  } else {
+    return makeGame();
+  }
+};
+
+urlGame = function urlGame() {
+  var params;
+  params = getParameters();
+  level = parseInt(params.level);
+  b = JSON.parse(params.b);
+  size = 5 + Math.floor(level / 4);
+  if (size > 12) {
+    size = 12;
+  }
+  hearts.count = size - 3;
+  hearts.maximum = size - 3;
+  numbers = (size - 2) * (size - 2);
+  if (numbers % 2 === 1) {
+    numbers -= 1;
+  }
+  milliseconds0 = millis();
+  return state = 'running';
 };
 
 makeGame = function makeGame() {
   var candidates, i, j, k, l, len, len1, len2, m, ref, ref1, ref2;
-  candidates = [];
-  maxLevel += delta;
   level += delta;
   delta = 0;
   saveStorage();
@@ -232,6 +253,7 @@ makeGame = function makeGame() {
   if (numbers % 2 === 1) {
     numbers -= 1;
   }
+  candidates = [];
   ref = range(numbers / 2);
   for (k = 0, len = ref.length; k < len; k++) {
     i = ref[k];
@@ -239,6 +261,7 @@ makeGame = function makeGame() {
     candidates.push(level - 1 - i % level);
   }
   candidates = _.shuffle(candidates);
+  maxLevel += delta;
   b = new Array(size);
   ref1 = range(size);
   for (l = 0, len1 = ref1.length; l < len1; l++) {
@@ -263,7 +286,17 @@ makeGame = function makeGame() {
     }
   }
   milliseconds0 = millis();
-  return state = 'running';
+  state = 'running';
+  return print(makeLink());
+};
+
+makeLink = function makeLink() {
+  var url;
+  url = 'https://christernilsson.github.io/Lab/2018/049-Twins/index.html';
+  //url = 'file:///C:/Lab/2018/049-Twins/index.html'
+  url += '?b=' + JSON.stringify(b);
+  url += '&level=' + level;
+  return url;
 };
 
 draw = function draw() {
