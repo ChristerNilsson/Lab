@@ -16,6 +16,7 @@ var Button,
     TILE,
     b,
     buttons,
+    copyToClipboard,
     deathTimestamp,
     delta,
     draw,
@@ -151,12 +152,12 @@ Hearts = function () {
 }();
 
 Button = function () {
-  function Button(x1, y3, txt, click) {
+  function Button(x1, y3, txt1, click) {
     _classCallCheck(this, Button);
 
     this.x = x1;
     this.y = y3;
-    this.txt = txt;
+    this.txt = txt1;
     this.click = click;
     this.r = 24;
   }
@@ -204,7 +205,9 @@ loadStorage = function loadStorage() {
 };
 
 setup = function setup() {
-  createCanvas(30 + TILE * SIZE + 30, 50 + TILE * SIZE + TILE);
+  var canvas;
+  canvas = createCanvas(30 + TILE * SIZE + 30, 50 + TILE * SIZE + TILE);
+  canvas.position(0, 0); // hides text field used for clipboard copy.
   rectMode(CENTER);
   loadStorage();
   level = maxLevel;
@@ -245,7 +248,7 @@ urlGame = function urlGame() {
 };
 
 makeGame = function makeGame() {
-  var candidates, i, j, k, l, len, len1, len2, m, ref, ref1, ref2;
+  var candidates, i, j, k, l, len, len1, len2, link, m, ref, ref1, ref2;
   level += delta;
   maxLevel += delta;
   delta = 0;
@@ -293,7 +296,9 @@ makeGame = function makeGame() {
   }
   milliseconds0 = millis();
   state = 'running';
-  return print(makeLink());
+  link = makeLink();
+  copyToClipboard(link);
+  return print(link);
 };
 
 makeLink = function makeLink() {
@@ -355,8 +360,8 @@ draw = function draw() {
   drawPath();
   if (state === 'halted') {
     fc(1, 1, 0, 0.5);
-    x = Math.floor(size / 2) * TILE - TILE / 2;
-    y = Math.floor(size / 2) * TILE - TILE / 2;
+    x = (size - 1) * TILE / 2;
+    y = (size - 1) * TILE / 2;
     w = size * TILE;
     h = size * TILE;
     rect(x, y, w, h);
@@ -450,12 +455,11 @@ mousePressed = function mousePressed() {
       if (numbers === 0) {
         milliseconds1 = millis();
         state = 'halted';
-        if (level === maxLevel) {
-          if (hearts.count >= 0) {
-            return delta = 1;
-          } else {
-            return delta = -1;
-          }
+        //if level == maxLevel 
+        if (hearts.count >= 0) {
+          return delta = 1;
+        } else {
+          return delta = -1;
         }
       } else {
         if (level === maxLevel) {
@@ -605,5 +609,13 @@ legal = function legal(wrap, i0, j0, i1, j1) {
     }
   }
   return [];
+};
+
+copyToClipboard = function copyToClipboard(txt) {
+  var copyText;
+  copyText = document.getElementById("myClipboard");
+  copyText.value = txt;
+  copyText.select();
+  return document.execCommand("copy");
 };
 //# sourceMappingURL=sketch.js.map

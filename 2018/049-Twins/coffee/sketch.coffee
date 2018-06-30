@@ -72,7 +72,9 @@ saveStorage = -> localStorage[KEY] = maxLevel
 loadStorage = -> maxLevel = if KEY of localStorage then parseInt localStorage[KEY]	else maxLevel = 2
 
 setup = ->
-	createCanvas 30+TILE*SIZE+30,50+TILE*SIZE+TILE
+	canvas = createCanvas 30+TILE*SIZE+30,50+TILE*SIZE+TILE
+	canvas.position 0,0 # hides text field used for clipboard copy.
+
 	rectMode CENTER
 	loadStorage()
 	level = maxLevel
@@ -134,7 +136,9 @@ makeGame = ->
 						b[i][j] = candidates.pop()
 	milliseconds0 = millis()
 	state = 'running'
-	print makeLink()
+	link = makeLink()
+	copyToClipboard link
+	print link 
 
 makeLink = -> 
 	url = 'https://christernilsson.github.io/Lab/2018/049-Twins/index.html'
@@ -177,8 +181,8 @@ draw = ->
 	drawPath()
 	if state=='halted'
 		fc 1,1,0,0.5
-		x = size//2*TILE-TILE/2
-		y = size//2*TILE-TILE/2
+		x = (size-1)*TILE/2
+		y = (size-1)*TILE/2
 		w = size*TILE
 		h = size*TILE
 		rect x,y,w,h
@@ -237,8 +241,8 @@ mousePressed = ->
 			if numbers==0
 				milliseconds1 = millis()
 				state = 'halted'
-				if level == maxLevel 
-					if hearts.count >= 0 then delta = 1 else delta = -1
+				#if level == maxLevel 
+				if hearts.count >= 0 then delta = 1 else delta = -1
 			else
 				if level == maxLevel 
 					if hearts.count < 0 
@@ -300,3 +304,9 @@ legal = (wrap,i0,j0,i1,j1) ->
 								reached[key] = next
 								cands.push next
 	[]
+
+copyToClipboard = (txt) ->
+	copyText = document.getElementById "myClipboard"
+	copyText.value = txt 
+	copyText.select()
+	document.execCommand "copy"
