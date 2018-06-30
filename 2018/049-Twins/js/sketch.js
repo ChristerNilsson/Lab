@@ -19,11 +19,13 @@ var Button,
     deathTimestamp,
     delta,
     draw,
+    drawLittera,
     drawPath,
     found,
     hearts,
     legal,
     level,
+    littera,
     loadStorage,
     makeGame,
     makeLink,
@@ -92,6 +94,8 @@ state = 'halted'; // 'running' 'halted'
 delta = 0;
 
 found = null;
+
+littera = 0; // 0=off 1=on
 
 Hearts = function () {
   function Hearts(x1, y3) {
@@ -207,7 +211,9 @@ setup = function setup() {
   buttons.push(new Button(60, 40, '-', function () {
     return newGame(level - 1);
   }));
-  buttons.push(new Button(120, 40, level, function () {}));
+  buttons.push(new Button(120, 40, level, function () {
+    return littera = (littera + 1) % 2;
+  }));
   buttons.push(new Button(180, 40, '+', function () {
     return newGame(level + 1);
   }));
@@ -241,6 +247,7 @@ urlGame = function urlGame() {
 makeGame = function makeGame() {
   var candidates, i, j, k, l, len, len1, len2, m, ref, ref1, ref2;
   level += delta;
+  maxLevel += delta;
   delta = 0;
   saveStorage();
   size = 5 + Math.floor(level / 4);
@@ -261,7 +268,6 @@ makeGame = function makeGame() {
     candidates.push(level - 1 - i % level);
   }
   candidates = _.shuffle(candidates);
-  maxLevel += delta;
   b = new Array(size);
   ref1 = range(size);
   for (l = 0, len1 = ref1.length; l < len1; l++) {
@@ -331,6 +337,9 @@ draw = function draw() {
         stroke(COLORS[Math.floor(cell / COLORS.length)]);
         text(b[i][j], TILE * i, TILE * j);
       }
+      if (i === 0 || i === size - 1 || j === 0 || j === size - 1) {
+        drawLittera(i, j);
+      }
     }
   }
   for (o = 0, len3 = selected.length; o < len3; o++) {
@@ -370,6 +379,22 @@ draw = function draw() {
     }
     return hearts.drawHeart(x, y, size * TILE / 5, 1, 0, 0);
   }
+};
+
+drawLittera = function drawLittera(i, j) {
+  if (littera === 0) {
+    return;
+  }
+  push();
+  textSize(32);
+  fc(0.5);
+  sc();
+  if ((j === 0 || j === size - 1) && i < size - 1) {
+    text(' abcdefghik '[i], TILE * i, TILE * j);
+  } else if ((i === 0 || i === size - 1) && 0 < j && j < size - 1) {
+    text(size - 1 - j, TILE * i, TILE * j);
+  }
+  return pop();
 };
 
 within = function within(i, j) {
