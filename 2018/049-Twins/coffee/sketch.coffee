@@ -1,6 +1,10 @@
+# Internt används talen 1..100. Externt visas de som 0..99
+# Då ett tal plockats bort negeras det. Dessa visas gråa och förminskade.
+# Ramens celler innehåller 0.
+
 SIZE = 12
 TILE = 60
-FREE = -1
+FREE = 0
 COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #800 #080'.split ' '
 KEY = '049-Twins'
 
@@ -69,7 +73,7 @@ newGame = (n) ->
 	makeGame()
 
 saveStorage = -> localStorage[KEY] = maxLevel
-loadStorage = -> maxLevel = if KEY of localStorage then parseInt localStorage[KEY]	else maxLevel = 2
+loadStorage = -> maxLevel = 5 # if KEY of localStorage then parseInt localStorage[KEY] else maxLevel = 2
 
 setup = ->
 	canvas = createCanvas 30+TILE*SIZE+30,50+TILE*SIZE+TILE
@@ -117,8 +121,8 @@ makeGame = ->
 
 	candidates = []
 	for i in range numbers/2
-		candidates.push i % level
-		candidates.push level-1 - i % level
+		candidates.push 1 + i % level
+		candidates.push 1 + level-1 - i % level
 	candidates = _.shuffle candidates
 
 	b = new Array size
@@ -141,8 +145,9 @@ makeGame = ->
 	print link 
 
 makeLink = -> 
-	url = 'https://christernilsson.github.io/Lab/2018/049-Twins/index.html'
-	#url = 'file:///C:/Lab/2018/049-Twins/index.html'
+	url = window.location.href + '?'
+	index = url.indexOf '?'
+	url = url.substring 0,index
 	url += '?b=' + JSON.stringify b
 	url += '&level=' + level
 	url
@@ -156,7 +161,6 @@ draw = ->
 		button.draw()
 	hearts.draw()
 
-	textSize 0.8 * TILE
 	translate TILE,TILE+50
 	textAlign CENTER,CENTER
 	fc 1
@@ -168,11 +172,20 @@ draw = ->
 			sw 1
 			rect TILE*i,TILE*j,TILE,TILE
 			cell = b[i][j]
-			if cell >= 0 
+			if cell > 0
+				cell -= 1 
 				sw 3
 				fill   COLORS[cell%%COLORS.length]
 				stroke COLORS[cell//COLORS.length]
-				text b[i][j],TILE*i,TILE*j
+				textSize 0.8 * TILE
+				text cell,TILE*i,TILE*j
+			else if cell == FREE
+			else
+				sw 3
+				fill 128
+				noStroke() 
+				textSize 32
+				text -b[i][j]-1, TILE*i,TILE*j				
 			if i in [0,size-1] or j in [0,size-1] then drawLittera i,j
 	for [i,j] in selected
 		fc 1,1,0,0.5
@@ -222,11 +235,11 @@ mousePressed = ->
 	[i,j] = [(mouseX-TILE/2)//TILE,(mouseY-50-TILE/2)//TILE]
 	if not within i,j then return
 	if selected.length == 0
-		if b[i][j] != FREE then selected.push [i,j]
+		if b[i][j] > 0 then selected.push [i,j]
 	else
 		[i1,j1] = selected[0]
 		if i==i1 and j==j1 then return selected.pop()
-		if b[i][j] + b[i1][j1] != level-1
+		if b[i][j]-1 + b[i1][j1]-1 != level-1
 			hearts.count -= 1 # Punish one, wrong sum
 			deathTimestamp = 200 + millis()
 			selected.pop()
@@ -239,7 +252,8 @@ mousePressed = ->
 				else
 					hearts.count -= 1 # Punish one, wrap
 				deathTimestamp = 200 + millis()
-			b[i][j] = b[i1][j1] = FREE
+			b[i][j] = -b[i][j] #- 1
+			b[i1][j1] = -b[i1][j1] #- 1
 			numbers -= 2
 			selected.pop()
 			if numbers==0
@@ -252,7 +266,6 @@ mousePressed = ->
 					if hearts.count < 0 
 						state = 'halted'
 						delta = -1
-
 
 makeMove = (wrap,x,y) -> if wrap then [x %% size, y %% size] else [x,y]
 
@@ -303,7 +316,7 @@ legal = (wrap,i0,j0,i1,j1) ->
 					reached[key] = next
 					return makePath wrap,reached,i1,j1
 				if within x,y
-					if b[x][y]==FREE
+					if b[x][y] <= 0
 						if key not of reached or reached[key][0] >= next[0]
 							if next[0] < 3
 								reached[key] = next
