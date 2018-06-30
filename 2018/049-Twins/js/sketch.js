@@ -438,7 +438,11 @@ mousePressed = function mousePressed() {
     if (i === i1 && j === j1) {
       return selected.pop();
     }
-    if (b[i][j] + b[i1][j1] === level - 1) {
+    if (b[i][j] + b[i1][j1] !== level - 1) {
+      hearts.count -= 1; // Punish one, wrong sum
+      deathTimestamp = 200 + millis();
+      return selected.pop();
+    } else {
       path = legal(false, i1, j1, i, j);
       if (path.length === 0) {
         path = legal(true, i1, j1, i, j);

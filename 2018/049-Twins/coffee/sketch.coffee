@@ -226,7 +226,11 @@ mousePressed = ->
 	else
 		[i1,j1] = selected[0]
 		if i==i1 and j==j1 then return selected.pop()
-		if b[i][j] + b[i1][j1] == level-1
+		if b[i][j] + b[i1][j1] != level-1
+			hearts.count -= 1 # Punish one, wrong sum
+			deathTimestamp = 200 + millis()
+			selected.pop()
+		else
 			path = legal false,i1,j1,i,j
 			if path.length == 0
 				path = legal true,i1,j1,i,j
@@ -248,6 +252,7 @@ mousePressed = ->
 					if hearts.count < 0 
 						state = 'halted'
 						delta = -1
+
 
 makeMove = (wrap,x,y) -> if wrap then [x %% size, y %% size] else [x,y]
 
