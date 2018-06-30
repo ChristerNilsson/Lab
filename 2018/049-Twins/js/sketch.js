@@ -204,7 +204,7 @@ saveStorage = function saveStorage() {
 };
 
 loadStorage = function loadStorage() {
-  return maxLevel = 5; // if KEY of localStorage then parseInt localStorage[KEY] else maxLevel = 2
+  return maxLevel = KEY in localStorage ? parseInt(localStorage[KEY]) : maxLevel = 2;
 };
 
 setup = function setup() {

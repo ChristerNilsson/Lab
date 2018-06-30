@@ -73,7 +73,7 @@ newGame = (n) ->
 	makeGame()
 
 saveStorage = -> localStorage[KEY] = maxLevel
-loadStorage = -> maxLevel = 5 # if KEY of localStorage then parseInt localStorage[KEY] else maxLevel = 2
+loadStorage = -> maxLevel = if KEY of localStorage then parseInt localStorage[KEY] else maxLevel = 2
 
 setup = ->
 	canvas = createCanvas 30+TILE*SIZE+30,50+TILE*SIZE+TILE
