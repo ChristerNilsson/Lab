@@ -26,7 +26,8 @@ milliseconds1 = null
 state = 'halted' # 'running' 'halted'
 delta = 0
 found = null
-littera = 0 # 0=off 1=on
+showLittera = false 
+showShadow = true
 
 class Hearts
 	constructor : (@x,@y,@count=9,@maximum=9) -> 
@@ -83,7 +84,7 @@ setup = ->
 	loadStorage()
 	level = maxLevel
 	buttons.push new Button 60,40,'-', -> newGame level-1
-	buttons.push new Button 120,40,level, -> littera = (littera+1) % 2
+	buttons.push new Button 120,40,level, -> # showLittera = not showLittera
 	buttons.push new Button 180,40,'+', -> newGame level+1
 	hearts = new Hearts 240,35
 
@@ -166,11 +167,12 @@ drawNumber = (cell,i,j) ->
 	text cell,TILE*i,TILE*j
 
 drawShadow = (i,j) ->
-	sw 3
-	fill 32
-	stroke 48 
-	text -b[i][j]-1, TILE*i,TILE*j				
-	
+	if showShadow
+		sw 3
+		fill 48
+		stroke 48 
+		text -b[i][j]-1, TILE*i,TILE*j				
+
 draw = ->
 	bg 0.25
 	sw 1
@@ -219,16 +221,16 @@ draw = ->
 		hearts.drawHeart x,y,size*TILE/5,1,0,0
 
 drawLittera = (i,j) ->
-	if littera==0 then return 
-	push()
-	textSize 32
-	fc 0.25
-	sc 0.25
-	if j in [0,size-1] and i < size-1
-		text ' abcdefghik '[i],TILE*i,TILE*j
-	else if i in [0,size-1] and 0<j<size-1
-		text size-1-j,TILE*i,TILE*j
-	pop()
+	if showLittera
+		push()
+		textSize 32
+		fc 0.25
+		sc 0.25
+		if j in [0,size-1] and i < size-1
+			text ' abcdefghik '[i],TILE*i,TILE*j
+		else if i in [0,size-1] and 0<j<size-1
+			text size-1-j,TILE*i,TILE*j
+		pop()
 
 within = (i,j) -> 0 <= i < size and 0 <= j < size
 
@@ -240,6 +242,15 @@ mousePressed = ->
 		if button.inside mouseX,mouseY then button.click()
 	[i,j] = [(mouseX-TILE/2)//TILE,(mouseY-50-TILE/2)//TILE]
 	if not within i,j then return
+
+	if i in [0,size-1] or j in [0,size-1] 
+		showLittera = not showLittera
+		return
+
+	if b[i][j] < 0
+		showShadow = not showShadow 
+		return
+
 	if selected.length == 0
 		if b[i][j] > 0 then selected.push [i,j]
 	else

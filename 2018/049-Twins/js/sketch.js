@@ -32,7 +32,6 @@ var Button,
     hearts,
     legal,
     level,
-    littera,
     loadStorage,
     makeGame,
     makeLink,
@@ -50,6 +49,8 @@ var Button,
     saveStorage,
     selected,
     setup,
+    showLittera,
+    showShadow,
     size,
     state,
     urlGame,
@@ -102,7 +103,9 @@ delta = 0;
 
 found = null;
 
-littera = 0; // 0=off 1=on
+showLittera = false;
+
+showShadow = true;
 
 Hearts = function () {
   function Hearts(x1, y3) {
@@ -220,9 +223,7 @@ setup = function setup() {
   buttons.push(new Button(60, 40, '-', function () {
     return newGame(level - 1);
   }));
-  buttons.push(new Button(120, 40, level, function () {
-    return littera = (littera + 1) % 2;
-  }));
+  buttons.push(new Button(120, 40, level, function () {})); // showLittera = not showLittera
   buttons.push(new Button(180, 40, '+', function () {
     return newGame(level + 1);
   }));
@@ -333,10 +334,12 @@ drawNumber = function drawNumber(cell, i, j) {
 };
 
 drawShadow = function drawShadow(i, j) {
-  sw(3);
-  fill(32);
-  stroke(48);
-  return text(-b[i][j] - 1, TILE * i, TILE * j);
+  if (showShadow) {
+    sw(3);
+    fill(48);
+    stroke(48);
+    return text(-b[i][j] - 1, TILE * i, TILE * j);
+  }
 };
 
 draw = function draw() {
@@ -412,19 +415,18 @@ draw = function draw() {
 };
 
 drawLittera = function drawLittera(i, j) {
-  if (littera === 0) {
-    return;
+  if (showLittera) {
+    push();
+    textSize(32);
+    fc(0.25);
+    sc(0.25);
+    if ((j === 0 || j === size - 1) && i < size - 1) {
+      text(' abcdefghik '[i], TILE * i, TILE * j);
+    } else if ((i === 0 || i === size - 1) && 0 < j && j < size - 1) {
+      text(size - 1 - j, TILE * i, TILE * j);
+    }
+    return pop();
   }
-  push();
-  textSize(32);
-  fc(0.25);
-  sc(0.25);
-  if ((j === 0 || j === size - 1) && i < size - 1) {
-    text(' abcdefghik '[i], TILE * i, TILE * j);
-  } else if ((i === 0 || i === size - 1) && 0 < j && j < size - 1) {
-    text(size - 1 - j, TILE * i, TILE * j);
-  }
-  return pop();
 };
 
 within = function within(i, j) {
@@ -448,6 +450,14 @@ mousePressed = function mousePressed() {
   j = _ref2[1];
 
   if (!within(i, j)) {
+    return;
+  }
+  if (i === 0 || i === size - 1 || j === 0 || j === size - 1) {
+    showLittera = !showLittera;
+    return;
+  }
+  if (b[i][j] < 0) {
+    showShadow = !showShadow;
     return;
   }
   if (selected.length === 0) {
