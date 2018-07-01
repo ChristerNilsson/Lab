@@ -152,6 +152,25 @@ makeLink = ->
 	url += '&level=' + level
 	url
 
+drawRect = (i,j) ->
+	fc 0
+	sc 0.25
+	sw 1
+	rect TILE*i,TILE*j,TILE,TILE
+
+drawNumber = (cell,i,j) ->
+	cell -= 1 
+	sw 3
+	fill   COLORS[cell%%COLORS.length]
+	stroke COLORS[cell//COLORS.length]
+	text cell,TILE*i,TILE*j
+
+drawShadow = (i,j) ->
+	sw 3
+	fill 32
+	stroke 48 
+	text -b[i][j]-1, TILE*i,TILE*j				
+	
 draw = ->
 	bg 0.25
 	sw 1
@@ -165,27 +184,14 @@ draw = ->
 	textAlign CENTER,CENTER
 	fc 1
 	sc 0
+	textSize 0.8 * TILE
 	for i in range size
 		for j in range size
-			fc 0
-			sc 1
-			sw 1
-			rect TILE*i,TILE*j,TILE,TILE
+			drawRect i,j
 			cell = b[i][j]
-			if cell > 0
-				cell -= 1 
-				sw 3
-				fill   COLORS[cell%%COLORS.length]
-				stroke COLORS[cell//COLORS.length]
-				textSize 0.8 * TILE
-				text cell,TILE*i,TILE*j
+			if cell > 0 then drawNumber cell,i,j
 			else if cell == FREE
-			else
-				sw 3
-				fill 128
-				noStroke() 
-				textSize 32
-				text -b[i][j]-1, TILE*i,TILE*j				
+			else drawShadow i,j
 			if i in [0,size-1] or j in [0,size-1] then drawLittera i,j
 	for [i,j] in selected
 		fc 1,1,0,0.5
@@ -216,8 +222,8 @@ drawLittera = (i,j) ->
 	if littera==0 then return 
 	push()
 	textSize 32
-	fc 0.5
-	sc()
+	fc 0.25
+	sc 0.25
 	if j in [0,size-1] and i < size-1
 		text ' abcdefghik '[i],TILE*i,TILE*j
 	else if i in [0,size-1] and 0<j<size-1

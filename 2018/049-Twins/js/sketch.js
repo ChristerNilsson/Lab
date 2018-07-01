@@ -24,7 +24,10 @@ var Button,
     delta,
     draw,
     drawLittera,
+    drawNumber,
     drawPath,
+    drawRect,
+    drawShadow,
     found,
     hearts,
     legal,
@@ -314,6 +317,28 @@ makeLink = function makeLink() {
   return url;
 };
 
+drawRect = function drawRect(i, j) {
+  fc(0);
+  sc(0.25);
+  sw(1);
+  return rect(TILE * i, TILE * j, TILE, TILE);
+};
+
+drawNumber = function drawNumber(cell, i, j) {
+  cell -= 1;
+  sw(3);
+  fill(COLORS[modulo(cell, COLORS.length)]);
+  stroke(COLORS[Math.floor(cell / COLORS.length)]);
+  return text(cell, TILE * i, TILE * j);
+};
+
+drawShadow = function drawShadow(i, j) {
+  sw(3);
+  fill(32);
+  stroke(48);
+  return text(-b[i][j] - 1, TILE * i, TILE * j);
+};
+
 draw = function draw() {
   var button, cell, h, i, j, k, l, len, len1, len2, len3, m, ms, o, ref, ref1, w, x, y;
   bg(0.25);
@@ -328,30 +353,19 @@ draw = function draw() {
   textAlign(CENTER, CENTER);
   fc(1);
   sc(0);
+  textSize(0.8 * TILE);
   ref = range(size);
   for (l = 0, len1 = ref.length; l < len1; l++) {
     i = ref[l];
     ref1 = range(size);
     for (m = 0, len2 = ref1.length; m < len2; m++) {
       j = ref1[m];
-      fc(0);
-      sc(1);
-      sw(1);
-      rect(TILE * i, TILE * j, TILE, TILE);
+      drawRect(i, j);
       cell = b[i][j];
       if (cell > 0) {
-        cell -= 1;
-        sw(3);
-        fill(COLORS[modulo(cell, COLORS.length)]);
-        stroke(COLORS[Math.floor(cell / COLORS.length)]);
-        textSize(0.8 * TILE);
-        text(cell, TILE * i, TILE * j);
+        drawNumber(cell, i, j);
       } else if (cell === FREE) {} else {
-        sw(3);
-        fill(128);
-        noStroke();
-        textSize(32);
-        text(-b[i][j] - 1, TILE * i, TILE * j);
+        drawShadow(i, j);
       }
       if (i === 0 || i === size - 1 || j === 0 || j === size - 1) {
         drawLittera(i, j);
@@ -403,8 +417,8 @@ drawLittera = function drawLittera(i, j) {
   }
   push();
   textSize(32);
-  fc(0.5);
-  sc();
+  fc(0.25);
+  sc(0.25);
   if ((j === 0 || j === size - 1) && i < size - 1) {
     text(' abcdefghik '[i], TILE * i, TILE * j);
   } else if ((i === 0 || i === size - 1) && 0 < j && j < size - 1) {
