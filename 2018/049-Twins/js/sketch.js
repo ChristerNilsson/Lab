@@ -23,6 +23,7 @@ var Button,
     deathTimestamp,
     delta,
     draw,
+    drawHints,
     drawLittera,
     drawNumber,
     drawPath,
@@ -30,6 +31,9 @@ var Button,
     drawShadow,
     found,
     hearts,
+    hints,
+    lastHints,
+    latestPair,
     legal,
     level,
     loadStorage,
@@ -50,6 +54,8 @@ var Button,
     selected,
     setup,
     showLittera,
+    showMoves,
+    showMoves1,
     showShadow,
     size,
     state,
@@ -57,7 +63,8 @@ var Button,
     within,
     modulo = function modulo(a, b) {
   return (+a % (b = +b) + b) % b;
-};
+},
+    indexOf = [].indexOf;
 
 SIZE = 12;
 
@@ -65,7 +72,7 @@ TILE = 60;
 
 FREE = 0;
 
-COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #800 #080'.split(' ');
+COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #800 #080 #d00'.split(' ');
 
 KEY = '049-Twins';
 
@@ -106,6 +113,12 @@ found = null;
 showLittera = false;
 
 showShadow = true;
+
+hints = [];
+
+lastHints = [];
+
+latestPair = [];
 
 Hearts = function () {
   function Hearts(x1, y3) {
@@ -229,10 +242,11 @@ setup = function setup() {
   }));
   hearts = new Hearts(240, 35);
   if (-1 !== window.location.href.indexOf('level')) {
-    return urlGame();
+    urlGame();
   } else {
-    return makeGame();
+    makeGame();
   }
+  return showMoves();
 };
 
 urlGame = function urlGame() {
@@ -334,11 +348,14 @@ drawNumber = function drawNumber(cell, i, j) {
 };
 
 drawShadow = function drawShadow(i, j) {
+  var ref;
   if (showShadow) {
     sw(3);
     fill(48);
     stroke(48);
-    return text(-b[i][j] - 1, TILE * i, TILE * j);
+    if (ref = -b[i][j] - 1, indexOf.call(latestPair, ref) >= 0) {
+      return text(-b[i][j] - 1, TILE * i, TILE * j);
+    }
   }
 };
 
@@ -410,8 +427,25 @@ draw = function draw() {
       x = _ref[0];
       y = _ref[1];
     }
-    return hearts.drawHeart(x, y, size * TILE / 5, 1, 0, 0);
+    hearts.drawHeart(x, y, size * TILE / 5, 1, 0, 0);
   }
+  return drawHints();
+};
+
+drawHints = function drawHints() {
+  var msg0, msg1;
+  textSize(24);
+  if (lastHints.length === 0) {
+    msg0 = '' + hints[0];
+    msg1 = '' + hints[1];
+  } else {
+    msg0 = hints[0] + ' (' + (hints[0] - lastHints[0]) + ')';
+    msg1 = hints[1] + ' (' + (hints[1] - lastHints[1]) + ')';
+  }
+  fc(0, 1, 0);
+  text(msg0, 0, height - 127);
+  fc(1, 0, 0);
+  return text(msg1, width - 100, height - 127);
 };
 
 drawLittera = function drawLittera(i, j) {
@@ -462,7 +496,7 @@ mousePressed = function mousePressed() {
   }
   if (selected.length === 0) {
     if (b[i][j] > 0) {
-      return selected.push([i, j]);
+      selected.push([i, j]);
     }
   } else {
     var _selected$ = _slicedToArray(selected[0], 2);
@@ -476,7 +510,7 @@ mousePressed = function mousePressed() {
     if (b[i][j] - 1 + b[i1][j1] - 1 !== level - 1) {
       hearts.count -= 1; // Punish one, wrong sum
       deathTimestamp = 200 + millis();
-      return selected.pop();
+      selected.pop();
     } else {
       path = legal(false, i1, j1, i, j);
       if (path.length === 0) {
@@ -488,6 +522,8 @@ mousePressed = function mousePressed() {
         }
         deathTimestamp = 200 + millis();
       }
+      latestPair = [b[i][j] - 1, b[i1][j1] - 1];
+      //print latestPair
       b[i][j] = -b[i][j];
       b[i1][j1] = -b[i1][j1];
       numbers -= 2;
@@ -497,20 +533,21 @@ mousePressed = function mousePressed() {
         state = 'halted';
         //if level == maxLevel 
         if (hearts.count >= 0) {
-          return delta = 1;
+          delta = 1;
         } else {
-          return delta = -1;
+          delta = -1;
         }
       } else {
         if (level === maxLevel) {
           if (hearts.count < 0) {
             state = 'halted';
-            return delta = -1;
+            delta = -1;
           }
         }
       }
     }
   }
+  return showMoves();
 };
 
 makeMove = function makeMove(wrap, x, y) {
@@ -657,5 +694,46 @@ copyToClipboard = function copyToClipboard(txt) {
   copyText.value = txt;
   copyText.select();
   return document.execCommand("copy");
+};
+
+showMoves = function showMoves() {
+  lastHints = hints;
+  return hints = [showMoves1(false), showMoves1(true)];
+};
+
+showMoves1 = function showMoves1(wrap) {
+  var i0, i1, j0, j1, k, l, len, len1, len2, len3, m, o, ref, ref1, ref2, ref3, ref4, res;
+  res = [];
+  ref = range(1, size - 1);
+  for (k = 0, len = ref.length; k < len; k++) {
+    i0 = ref[k];
+    ref1 = range(1, size - 1);
+    for (l = 0, len1 = ref1.length; l < len1; l++) {
+      j0 = ref1[l];
+      if (b[i0][j0] > 0) {
+        ref2 = range(1, size - 1);
+        for (m = 0, len2 = ref2.length; m < len2; m++) {
+          i1 = ref2[m];
+          ref3 = range(1, size - 1);
+          for (o = 0, len3 = ref3.length; o < len3; o++) {
+            j1 = ref3[o];
+            if (b[i1][j1] > 0) {
+              if (b[i0][j0] - 1 + b[i1][j1] - 1 === level - 1) {
+                if (b[i0][j0] <= b[i1][j1] && (i0 !== i1 || j0 !== j1)) {
+                  path = legal(wrap, i0, j0, i1, j1);
+                  if (path.length > 0) {
+                    if (ref4 = [b[i0][j0] - 1, b[i1][j1] - 1], indexOf.call(res, ref4) < 0) {
+                      res.push([b[i0][j0] - 1, b[i1][j1] - 1]);
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  return res.length;
 };
 //# sourceMappingURL=sketch.js.map

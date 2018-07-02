@@ -5,7 +5,7 @@
 SIZE = 12
 TILE = 60
 FREE = 0
-COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #800 #080'.split ' '
+COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #800 #080 #d00'.split ' '
 KEY = '049-Twins'
 
 size = null
@@ -28,6 +28,9 @@ delta = 0
 found = null
 showLittera = false 
 showShadow = true
+hints = []
+lastHints = []
+latestPair = []
 
 class Hearts
 	constructor : (@x,@y,@count=9,@maximum=9) -> 
@@ -92,6 +95,7 @@ setup = ->
 		urlGame()
 	else
 		makeGame()
+	showMoves()
 
 urlGame = ->
 	params = getParameters()
@@ -171,7 +175,8 @@ drawShadow = (i,j) ->
 		sw 3
 		fill 48
 		stroke 48 
-		text -b[i][j]-1, TILE*i,TILE*j				
+		if -b[i][j]-1 in latestPair
+			text -b[i][j]-1, TILE*i,TILE*j				
 
 draw = ->
 	bg 0.25
@@ -219,6 +224,21 @@ draw = ->
 		y = size//2*TILE
 		if size % 2 == 0 then [x,y] = [x-TILE/2, y-TILE/2]
 		hearts.drawHeart x,y,size*TILE/5,1,0,0
+
+	drawHints()
+
+drawHints = ->
+	textSize 24
+	if lastHints.length == 0
+		msg0 = "#{hints[0]}"
+		msg1 = "#{hints[1]}"
+	else
+		msg0 = "#{hints[0]} (#{hints[0]-lastHints[0]})"
+		msg1 = "#{hints[1]} (#{hints[1]-lastHints[1]})"
+	fc 0,1,0
+	text msg0,0,height-127
+	fc 1,0,0
+	text msg1,width-100,height-127
 
 drawLittera = (i,j) ->
 	if showLittera
@@ -269,8 +289,10 @@ mousePressed = ->
 				else
 					hearts.count -= 1 # Punish one, wrap
 				deathTimestamp = 200 + millis()
-			b[i][j] = -b[i][j] #- 1
-			b[i1][j1] = -b[i1][j1] #- 1
+			latestPair = [b[i][j]-1,b[i1][j1]-1]
+			#print latestPair
+			b[i][j] = -b[i][j] 
+			b[i1][j1] = -b[i1][j1] 
 			numbers -= 2
 			selected.pop()
 			if numbers==0
@@ -283,6 +305,7 @@ mousePressed = ->
 					if hearts.count < 0 
 						state = 'halted'
 						delta = -1
+	showMoves()
 
 makeMove = (wrap,x,y) -> if wrap then [x %% size, y %% size] else [x,y]
 
@@ -345,3 +368,22 @@ copyToClipboard = (txt) ->
 	copyText.value = txt 
 	copyText.select()
 	document.execCommand "copy"
+
+showMoves = -> 
+	lastHints = hints
+	hints = [showMoves1(false), showMoves1(true)]
+showMoves1 = (wrap) ->
+	res = []
+	for i0 in range 1,size-1
+		for j0 in range 1,size-1
+			if b[i0][j0] > 0 
+				for i1 in range 1,size-1
+					for j1 in range 1,size-1
+						if b[i1][j1] > 0 
+							if b[i0][j0]-1 + b[i1][j1]-1 == level-1
+								if b[i0][j0] <= b[i1][j1] and (i0!=i1 or j0!=j1)
+									path = legal wrap,i0,j0,i1,j1 
+									if path.length > 0
+										if [b[i0][j0]-1,b[i1][j1]-1] not in res 
+											res.push [b[i0][j0]-1,b[i1][j1]-1]
+	res.length
