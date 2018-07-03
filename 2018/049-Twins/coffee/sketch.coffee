@@ -75,6 +75,7 @@ newGame = (n) ->
 	if n in [1,maxLevel+1] then return 
 	level = constrain n,2,maxLevel
 	makeGame()
+	showMoves()
 
 saveStorage = -> localStorage[KEY] = maxLevel
 loadStorage = -> maxLevel = if KEY of localStorage then parseInt localStorage[KEY] else maxLevel = 2
@@ -111,6 +112,10 @@ urlGame = ->
 	state = 'running'	
 
 makeGame = ->
+	hints = []
+	lastHints = []
+	latestPair = []
+
 	level += delta
 	maxLevel += delta
 	delta = 0
@@ -175,8 +180,9 @@ drawShadow = (i,j) ->
 		sw 3
 		fill 48
 		stroke 48 
-		if -b[i][j]-1 in latestPair
-			text -b[i][j]-1, TILE*i,TILE*j				
+		for [x,y] in latestPair
+			if i==x and j==y 
+				text -b[i][j]-1, TILE*i,TILE*j				
 
 draw = ->
 	bg 0.25
@@ -229,12 +235,12 @@ draw = ->
 
 drawHints = ->
 	textSize 24
-	if lastHints.length == 0
+	if lastHints.length == 0 
 		msg0 = "#{hints[0]}"
 		msg1 = "#{hints[1]}"
 	else
-		msg0 = "#{hints[0]} (#{hints[0]-lastHints[0]})"
-		msg1 = "#{hints[1]} (#{hints[1]-lastHints[1]})"
+		msg0 = "#{hints[0]} (#{1 + hints[0]-lastHints[0]})"
+		msg1 = "#{hints[1]} (#{1 + hints[1]-lastHints[1]})"
 	fc 0,1,0
 	text msg0,0,height-127
 	fc 1,0,0
@@ -289,7 +295,7 @@ mousePressed = ->
 				else
 					hearts.count -= 1 # Punish one, wrap
 				deathTimestamp = 200 + millis()
-			latestPair = [b[i][j]-1,b[i1][j1]-1]
+			latestPair = [[i,j],[i1,j1]]
 			#print latestPair
 			b[i][j] = -b[i][j] 
 			b[i1][j1] = -b[i1][j1] 
@@ -386,4 +392,5 @@ showMoves1 = (wrap) ->
 									if path.length > 0
 										if [b[i0][j0]-1,b[i1][j1]-1] not in res 
 											res.push [b[i0][j0]-1,b[i1][j1]-1]
+	# print res
 	res.length

@@ -215,7 +215,8 @@ newGame = function newGame(n) {
     return;
   }
   level = constrain(n, 2, maxLevel);
-  return makeGame();
+  makeGame();
+  return showMoves();
 };
 
 saveStorage = function saveStorage() {
@@ -270,6 +271,9 @@ urlGame = function urlGame() {
 
 makeGame = function makeGame() {
   var candidates, i, j, k, l, len, len1, len2, link, m, ref, ref1, ref2;
+  hints = [];
+  lastHints = [];
+  latestPair = [];
   level += delta;
   maxLevel += delta;
   delta = 0;
@@ -348,14 +352,25 @@ drawNumber = function drawNumber(cell, i, j) {
 };
 
 drawShadow = function drawShadow(i, j) {
-  var ref;
+  var k, len, results, x, y;
   if (showShadow) {
     sw(3);
     fill(48);
     stroke(48);
-    if (ref = -b[i][j] - 1, indexOf.call(latestPair, ref) >= 0) {
-      return text(-b[i][j] - 1, TILE * i, TILE * j);
+    results = [];
+    for (k = 0, len = latestPair.length; k < len; k++) {
+      var _latestPair$k = _slicedToArray(latestPair[k], 2);
+
+      x = _latestPair$k[0];
+      y = _latestPair$k[1];
+
+      if (i === x && j === y) {
+        results.push(text(-b[i][j] - 1, TILE * i, TILE * j));
+      } else {
+        results.push(void 0);
+      }
     }
+    return results;
   }
 };
 
@@ -439,8 +454,8 @@ drawHints = function drawHints() {
     msg0 = '' + hints[0];
     msg1 = '' + hints[1];
   } else {
-    msg0 = hints[0] + ' (' + (hints[0] - lastHints[0]) + ')';
-    msg1 = hints[1] + ' (' + (hints[1] - lastHints[1]) + ')';
+    msg0 = hints[0] + ' (' + (1 + hints[0] - lastHints[0]) + ')';
+    msg1 = hints[1] + ' (' + (1 + hints[1] - lastHints[1]) + ')';
   }
   fc(0, 1, 0);
   text(msg0, 0, height - 127);
@@ -522,7 +537,7 @@ mousePressed = function mousePressed() {
         }
         deathTimestamp = 200 + millis();
       }
-      latestPair = [b[i][j] - 1, b[i1][j1] - 1];
+      latestPair = [[i, j], [i1, j1]];
       //print latestPair
       b[i][j] = -b[i][j];
       b[i1][j1] = -b[i1][j1];
@@ -734,6 +749,7 @@ showMoves1 = function showMoves1(wrap) {
       }
     }
   }
+  // print res
   return res.length;
 };
 //# sourceMappingURL=sketch.js.map
