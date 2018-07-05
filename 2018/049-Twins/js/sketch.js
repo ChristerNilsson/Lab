@@ -517,13 +517,8 @@ draw = function draw() {
     }
   }
   if (millis() < deathTimestamp) {
-    x = Math.floor(Size / 2) * TILE;
-    y = Math.floor(Size / 2) * TILE;
-    if (Size % 2 === 0) {
-      var _ref = [x - TILE / 2, y - TILE / 2];
-      x = _ref[0];
-      y = _ref[1];
-    }
+    x = width / 2;
+    y = height / 2;
     hearts.drawHeart(x, y, Size * TILE / 5, 1, 0, 0);
   }
   drawHints();
@@ -545,7 +540,7 @@ drawProgress = function drawProgress() {
   fc(1);
   sc();
   textSize(30);
-  return text(numbers, width / 4 - TILE, height - 0.5 * TILE);
+  return text(numbers, 2.5 * TILE, height - 0.5 * TILE);
 };
 
 drawLittera = function drawLittera(i, j) {
@@ -587,9 +582,9 @@ mousePressed = function mousePressed() {
   }
   x = mouseX - (width - TILE * Size) / 2;
   y = mouseY - (height - TILE * Size) / 2;
-  var _ref2 = [Math.floor(x / TILE), Math.floor(y / TILE)];
-  i = _ref2[0];
-  j = _ref2[1];
+  var _ref = [Math.floor(x / TILE), Math.floor(y / TILE)];
+  i = _ref[0];
+  j = _ref[1];
 
   if (!within(i, j)) {
     return;
@@ -834,41 +829,20 @@ pretty = function pretty(name, a) {
 
 rensaWrap = function rensaWrap(a, b) {
   // överlappande rutor ska bort
-  var i0, i1, j0, j1, k, l, len, len1, ok, res, x0, x1, y0, y1;
+  var k, l, len, len1, obja, objb, ok, res;
+  // should be deep _.difference b,a
   res = [];
   for (k = 0, len = b.length; k < len; k++) {
-    var _b$k = _slicedToArray(b[k], 2);
-
-    var _b$k$ = _slicedToArray(_b$k[0], 2);
-
-    x0 = _b$k$[0];
-    y0 = _b$k$[1];
-
-    var _b$k$2 = _slicedToArray(_b$k[1], 2);
-
-    x1 = _b$k$2[0];
-    y1 = _b$k$2[1];
-
+    objb = b[k];
     ok = true;
     for (l = 0, len1 = a.length; l < len1; l++) {
-      var _a$l = _slicedToArray(a[l], 2);
-
-      var _a$l$ = _slicedToArray(_a$l[0], 2);
-
-      i0 = _a$l$[0];
-      j0 = _a$l$[1];
-
-      var _a$l$2 = _slicedToArray(_a$l[1], 2);
-
-      i1 = _a$l$2[0];
-      j1 = _a$l$2[1];
-
-      if (x0 === i0 && y0 === j0 && x1 === i1 && y1 === j1) {
+      obja = a[l];
+      if (_.isEqual(obja, objb)) {
         ok = false;
       }
     }
     if (ok) {
-      res.push([[x0, y0], [x1, y1]]);
+      res.push(objb);
     }
   }
   return res;

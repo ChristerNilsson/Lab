@@ -265,9 +265,8 @@ draw = ->
 			textSize 30
 			text ms,0.85*width,height-30
 	if millis() < deathTimestamp
-		x = Size//2*TILE
-		y = Size//2*TILE
-		if Size % 2 == 0 then [x,y] = [x-TILE/2, y-TILE/2]
+		x = width/2 
+		y = height/2 
 		hearts.drawHeart x,y,Size*TILE/5,1,0,0
 
 	drawHints()
@@ -283,7 +282,7 @@ drawProgress = ->
 	fc 1
 	sc()
 	textSize 30
-	text numbers,width/4-TILE,height-0.5*TILE
+	text numbers,2.5*TILE,height-0.5*TILE
 
 drawLittera = (i,j) ->
 	if showLittera
@@ -426,12 +425,13 @@ pretty = (name,a) ->
 		print "#{" abcdefghik "[x0]}#{11-y0} #{" abcdefghik "[x1]}#{11-y1}"
 
 rensaWrap = (a,b) -> # överlappande rutor ska bort
+	# should be deep _.difference b,a
 	res = []
-	for [[x0,y0],[x1,y1]] in b 
+	for objb in b 
 		ok = true
-		for [[i0,j0],[i1,j1]] in a 
-			if x0==i0 and y0==j0 and x1==i1 and y1==j1 then ok = false
-		if ok then res.push [[x0,y0],[x1,y1]]
+		for obja in a 
+			if _.isEqual obja,objb then ok = false
+		if ok then res.push objb
 	res
 
 showMoves = -> 
