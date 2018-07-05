@@ -2,6 +2,7 @@
 
 [Twins](http://www.novelgames.com/en/twins/)
 
+## Rules
 * Make pairs with the same Sum
 * The Sum is found at the bottom of the screen
 * Level = Sum
@@ -10,6 +11,7 @@
 * Wrapping costs one life
 * Pairing without a path costs two lives
 
+## Information
 * Green star = Free pair available
 * White number = Numbers left
 * Less Than = First Level
@@ -20,6 +22,8 @@
 * Time in seconds
 * Red star = Wrapping pair available
 * Clicking on frame toggles it
+
+## Example 
 ```
 . . . . . . . 
 . 7 0 x x x .
