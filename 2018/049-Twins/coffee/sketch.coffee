@@ -5,7 +5,7 @@
 SIZE = 12
 TILE = 60
 FREE = 0
-COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #800 #080 #d00'.split ' '
+COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #800 #080 #d00 #0d0'.split ' '
 KEY = '049-Twins'
 
 size = null
@@ -26,14 +26,15 @@ milliseconds1 = null
 state = 'halted' # 'running' 'halted'
 delta = 0
 found = null
-showLittera = false 
+showLittera = true 
 showShadow = true
-hints = []
-lastHints = []
+showHint = false
+hints0 = []
+hints1 = []
 latestPair = []
 
 class Hearts
-	constructor : (@x,@y,@count=9,@maximum=9) -> 
+	constructor : (@x,@y,@count=12,@maximum=12) -> 
 
 	draw : ->
 		for i in range @maximum
@@ -72,25 +73,25 @@ class Button
 		text @txt,@x,@y
 
 newGame = (n) ->
-	if n in [1,maxLevel+1] then return 
+	if n in [0,maxLevel+1] then return 
 	level = constrain n,2,maxLevel
 	makeGame()
 	showMoves()
 
-saveStorage = -> localStorage[KEY] = maxLevel
+saveStorage = -> localStorage[KEY] = 10 # maxLevel
 loadStorage = -> maxLevel = if KEY of localStorage then parseInt localStorage[KEY] else maxLevel = 2
 
 setup = ->
-	canvas = createCanvas 30+TILE*SIZE+30,50+TILE*SIZE+TILE
+	canvas = createCanvas 30+TILE*SIZE+30,50+TILE*SIZE+TILE+TILE/2
 	canvas.position 0,0 # hides text field used for clipboard copy.
 
 	rectMode CENTER
 	loadStorage()
 	level = maxLevel
-	buttons.push new Button 60,40,'-', -> newGame level-1
-	buttons.push new Button 120,40,level, -> # showLittera = not showLittera
-	buttons.push new Button 180,40,'+', -> newGame level+1
-	hearts = new Hearts 240,35
+	buttons.push new Button 180+150,height-TILE/2,'-', -> newGame level-1
+	buttons.push new Button 180+210,height-TILE/2,level, -> 
+	buttons.push new Button 180+270,height-TILE/2,'+', -> newGame level+1
+	hearts = new Hearts 60,35
 
 	if -1 != window.location.href.indexOf 'level'
 		urlGame()
@@ -102,18 +103,19 @@ urlGame = ->
 	params = getParameters()
 	level = parseInt params.level
 	b = JSON.parse params.b
-	size = 5+level//4 
+	size = 4+level//4 
 	if size>12 then size=12
-	hearts.count = size - 3
-	hearts.maximum = size - 3
+	hearts.count   = constrain 1+level//8,0,12
+	hearts.maximum = constrain 1+level//8,0,12 
 	numbers = (size-2)*(size-2)
 	if numbers%2==1 then numbers -= 1
 	milliseconds0 = millis()
 	state = 'running'	
 
 makeGame = ->
-	hints = []
-	lastHints = []
+	hints0 = []
+	hints1 = []
+
 	latestPair = []
 
 	level += delta
@@ -121,10 +123,10 @@ makeGame = ->
 	delta = 0
 	saveStorage()
 
-	size = 5+level//4 
+	size = 4+level//4 
 	if size>12 then size=12
-	hearts.count = size - 3
-	hearts.maximum = size - 3
+	hearts.count   = constrain 1+level//8,0,12 
+	hearts.maximum = constrain 1+level//8,0,12 
 
 	numbers = (size-2)*(size-2)
 	if numbers%2==1 then numbers -= 1
@@ -175,6 +177,22 @@ drawNumber = (cell,i,j) ->
 	stroke COLORS[cell//COLORS.length]
 	text cell,TILE*i,TILE*j
 
+drawHint0 = (cell,i,j) ->
+	if showHint 
+		sw 1
+		fc 0,1,0
+		sc()
+		textSize 20
+		text cell,TILE*i-20,TILE*j+20
+
+drawHint1 = (cell,i,j) ->
+	if showHint 
+		sw 1
+		fc 1,0,0
+		sc()
+		textSize 20
+		text cell,TILE*i+20,TILE*j+20
+
 drawShadow = (i,j) ->
 	if showShadow
 		sw 3
@@ -193,7 +211,7 @@ draw = ->
 		button.draw()
 	hearts.draw()
 
-	translate TILE,TILE+50
+	translate TILE + TILE * (6-size/2), 1.7*TILE + TILE * (6-size/2) 
 	textAlign CENTER,CENTER
 	fc 1
 	sc 0
@@ -212,9 +230,11 @@ draw = ->
 		circle TILE*i,TILE*j,TILE/2-3
 	drawPath()
 	if state=='halted'
+		push()
+		translate -(TILE + TILE * (6-size/2)), -(1.7*TILE + TILE * (6-size/2)) 
 		fc 1,1,0,0.5
-		x = (size-1)*TILE/2
-		y = (size-1)*TILE/2
+		x = width/2 
+		y = height/2 
 		w = size*TILE
 		h = size*TILE
 		rect x,y,w,h
@@ -224,7 +244,8 @@ draw = ->
 			fc 1
 			sc()
 			textSize 20
-			text ms,x,y
+			text ms,0.75*width,height-30
+		pop()
 	if millis() < deathTimestamp
 		x = size//2*TILE
 		y = size//2*TILE
@@ -233,18 +254,27 @@ draw = ->
 
 	drawHints()
 
+	for [[i0,j0],[i1,j1]],index in hints0
+		drawHint0 "abcdefghijklmnopqrstuvwxyz"[index],i0,j0
+		drawHint0 "abcdefghijklmnopqrstuvwxyz"[index],i1,j1
+
+	for [[i0,j0],[i1,j1]],index in hints1
+		drawHint1 "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[index],i0,j0
+		drawHint1 "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[index],i1,j1
+
+	drawPercent()
+
+drawPercent = ->
+	fc 1
+	sc()
+	textSize 0.8 * TILE
+	text numbers,width/4-TILE,height-138
+
 drawHints = ->
-	textSize 24
-	if lastHints.length == 0 
-		msg0 = "#{hints[0]}"
-		msg1 = "#{hints[1]}"
-	else
-		msg0 = "#{hints[0]} (#{1 + hints[0]-lastHints[0]})"
-		msg1 = "#{hints[1]} (#{1 + hints[1]-lastHints[1]})"
 	fc 0,1,0
-	text msg0,0,height-127
+	if hints0.length>0 then text "*",0,height-138
 	fc 1,0,0
-	text msg1,width-100,height-127
+	if hints1.length>0 then text "*",width-100,height-138
 
 drawLittera = (i,j) ->
 	if showLittera
@@ -260,13 +290,18 @@ drawLittera = (i,j) ->
 
 within = (i,j) -> 0 <= i < size and 0 <= j < size
 
+keyPressed = -> if key == 'H' then showHint = not showHint
+
 mousePressed = ->
 	if state=='halted' 
 		newGame level
 		return
 	for button in buttons
 		if button.inside mouseX,mouseY then button.click()
-	[i,j] = [(mouseX-TILE/2)//TILE,(mouseY-50-TILE/2)//TILE]
+
+	x = mouseX - (0.5*TILE + TILE * (6-size/2)) 
+	y = mouseY - (1.2*TILE + TILE * (6-size/2)) 
+	[i,j] = [x//TILE,y//TILE]
 	if not within i,j then return
 
 	if i in [0,size-1] or j in [0,size-1] 
@@ -296,7 +331,6 @@ mousePressed = ->
 					hearts.count -= 1 # Punish one, wrap
 				deathTimestamp = 200 + millis()
 			latestPair = [[i,j],[i1,j1]]
-			#print latestPair
 			b[i][j] = -b[i][j] 
 			b[i1][j1] = -b[i1][j1] 
 			numbers -= 2
@@ -304,7 +338,6 @@ mousePressed = ->
 			if numbers==0
 				milliseconds1 = millis()
 				state = 'halted'
-				#if level == maxLevel 
 				if hearts.count >= 0 then delta = 1 else delta = -1
 			else
 				if level == maxLevel 
@@ -360,7 +393,9 @@ legal = (wrap,i0,j0,i1,j1) ->
 				next = [turns,x,y,indexes0.concat [index]]
 				if x==i1 and y==j1 and turns<=2
 					reached[key] = next
-					return makePath wrap,reached,i1,j1
+					res = makePath wrap,reached,i1,j1
+					#print res 
+					return res
 				if within x,y
 					if b[x][y] <= 0
 						if key not of reached or reached[key][0] >= next[0]
@@ -375,9 +410,28 @@ copyToClipboard = (txt) ->
 	copyText.select()
 	document.execCommand "copy"
 
+pretty = (name,a) ->
+	print name 
+	for pair in a
+		[p1,p2] = pair
+		[x0,y0] = p1
+		[x1,y1] = p2
+		print "#{" abcdefghik "[x0]}#{11-y0} #{" abcdefghik "[x1]}#{11-y1}"
+
+rensaWrap = (a,b) -> # överlappande rutor ska bort
+	res = []
+	for [[x0,y0],[x1,y1]] in b 
+		ok = true
+		for [[i0,j0],[i1,j1]] in a 
+			if x0==i0 and y0==j0 and x1==i1 and y1==j1 then ok = false
+		if ok then res.push [[x0,y0],[x1,y1]]
+	res
+
 showMoves = -> 
-	lastHints = hints
-	hints = [showMoves1(false), showMoves1(true)]
+	hints0 = showMoves1 false
+	hints1 = showMoves1 true
+	hints1 = rensaWrap hints0,hints1
+
 showMoves1 = (wrap) ->
 	res = []
 	for i0 in range 1,size-1
@@ -388,9 +442,13 @@ showMoves1 = (wrap) ->
 						if b[i1][j1] > 0 
 							if b[i0][j0]-1 + b[i1][j1]-1 == level-1
 								if b[i0][j0] <= b[i1][j1] and (i0!=i1 or j0!=j1)
-									path = legal wrap,i0,j0,i1,j1 
-									if path.length > 0
-										if [b[i0][j0]-1,b[i1][j1]-1] not in res 
-											res.push [b[i0][j0]-1,b[i1][j1]-1]
-	# print res
-	res.length
+									p = legal wrap,i0,j0,i1,j1 
+									if p.length > 0
+										ok = true
+										for [[x0,y0],[x1,y1]] in res
+											if x0==i0 and y0==j0 then ok = false
+											if x1==i1 and y1==j1 then ok = false
+											if x0==i1 and y0==j1 then ok = false
+											if x1==i0 and y1==j0 then ok = false
+										if ok then res.push [[i0,j0],[i1,j1]]
+	res # innehåller koordinaterna för paren.

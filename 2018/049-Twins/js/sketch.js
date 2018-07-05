@@ -23,16 +23,20 @@ var Button,
     deathTimestamp,
     delta,
     draw,
+    drawHint0,
+    drawHint1,
     drawHints,
     drawLittera,
     drawNumber,
     drawPath,
+    drawPercent,
     drawRect,
     drawShadow,
     found,
     hearts,
-    hints,
-    lastHints,
+    hints0,
+    hints1,
+    keyPressed,
     latestPair,
     legal,
     level,
@@ -50,9 +54,12 @@ var Button,
     numbers,
     path,
     pathTimestamp,
+    pretty,
+    rensaWrap,
     saveStorage,
     selected,
     setup,
+    showHint,
     showLittera,
     showMoves,
     showMoves1,
@@ -63,8 +70,7 @@ var Button,
     within,
     modulo = function modulo(a, b) {
   return (+a % (b = +b) + b) % b;
-},
-    indexOf = [].indexOf;
+};
 
 SIZE = 12;
 
@@ -72,7 +78,7 @@ TILE = 60;
 
 FREE = 0;
 
-COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #800 #080 #d00'.split(' ');
+COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #800 #080 #d00 #0d0'.split(' ');
 
 KEY = '049-Twins';
 
@@ -110,24 +116,26 @@ delta = 0;
 
 found = null;
 
-showLittera = false;
+showLittera = true;
 
 showShadow = true;
 
-hints = [];
+showHint = false;
 
-lastHints = [];
+hints0 = [];
+
+hints1 = [];
 
 latestPair = [];
 
 Hearts = function () {
-  function Hearts(x1, y3) {
-    var count = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 9;
-    var maximum = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 9;
+  function Hearts(x2, y3) {
+    var count = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 12;
+    var maximum = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 12;
 
     _classCallCheck(this, Hearts);
 
-    this.x = x1;
+    this.x = x2;
     this.y = y3;
     this.count = count;
     this.maximum = maximum;
@@ -174,10 +182,10 @@ Hearts = function () {
 }();
 
 Button = function () {
-  function Button(x1, y3, txt1, click) {
+  function Button(x2, y3, txt1, click) {
     _classCallCheck(this, Button);
 
-    this.x = x1;
+    this.x = x2;
     this.y = y3;
     this.txt = txt1;
     this.click = click;
@@ -211,7 +219,7 @@ Button = function () {
 }();
 
 newGame = function newGame(n) {
-  if (n === 1 || n === maxLevel + 1) {
+  if (n === 0 || n === maxLevel + 1) {
     return;
   }
   level = constrain(n, 2, maxLevel);
@@ -220,7 +228,7 @@ newGame = function newGame(n) {
 };
 
 saveStorage = function saveStorage() {
-  return localStorage[KEY] = maxLevel;
+  return localStorage[KEY] = 10; // maxLevel
 };
 
 loadStorage = function loadStorage() {
@@ -229,19 +237,19 @@ loadStorage = function loadStorage() {
 
 setup = function setup() {
   var canvas;
-  canvas = createCanvas(30 + TILE * SIZE + 30, 50 + TILE * SIZE + TILE);
+  canvas = createCanvas(30 + TILE * SIZE + 30, 50 + TILE * SIZE + TILE + TILE / 2);
   canvas.position(0, 0); // hides text field used for clipboard copy.
   rectMode(CENTER);
   loadStorage();
   level = maxLevel;
-  buttons.push(new Button(60, 40, '-', function () {
+  buttons.push(new Button(180 + 150, height - TILE / 2, '-', function () {
     return newGame(level - 1);
   }));
-  buttons.push(new Button(120, 40, level, function () {})); // showLittera = not showLittera
-  buttons.push(new Button(180, 40, '+', function () {
+  buttons.push(new Button(180 + 210, height - TILE / 2, level, function () {}));
+  buttons.push(new Button(180 + 270, height - TILE / 2, '+', function () {
     return newGame(level + 1);
   }));
-  hearts = new Hearts(240, 35);
+  hearts = new Hearts(60, 35);
   if (-1 !== window.location.href.indexOf('level')) {
     urlGame();
   } else {
@@ -255,12 +263,12 @@ urlGame = function urlGame() {
   params = getParameters();
   level = parseInt(params.level);
   b = JSON.parse(params.b);
-  size = 5 + Math.floor(level / 4);
+  size = 4 + Math.floor(level / 4);
   if (size > 12) {
     size = 12;
   }
-  hearts.count = size - 3;
-  hearts.maximum = size - 3;
+  hearts.count = constrain(1 + Math.floor(level / 8), 0, 12);
+  hearts.maximum = constrain(1 + Math.floor(level / 8), 0, 12);
   numbers = (size - 2) * (size - 2);
   if (numbers % 2 === 1) {
     numbers -= 1;
@@ -271,19 +279,19 @@ urlGame = function urlGame() {
 
 makeGame = function makeGame() {
   var candidates, i, j, k, l, len, len1, len2, link, m, ref, ref1, ref2;
-  hints = [];
-  lastHints = [];
+  hints0 = [];
+  hints1 = [];
   latestPair = [];
   level += delta;
   maxLevel += delta;
   delta = 0;
   saveStorage();
-  size = 5 + Math.floor(level / 4);
+  size = 4 + Math.floor(level / 4);
   if (size > 12) {
     size = 12;
   }
-  hearts.count = size - 3;
-  hearts.maximum = size - 3;
+  hearts.count = constrain(1 + Math.floor(level / 8), 0, 12);
+  hearts.maximum = constrain(1 + Math.floor(level / 8), 0, 12);
   numbers = (size - 2) * (size - 2);
   if (numbers % 2 === 1) {
     numbers -= 1;
@@ -351,6 +359,26 @@ drawNumber = function drawNumber(cell, i, j) {
   return text(cell, TILE * i, TILE * j);
 };
 
+drawHint0 = function drawHint0(cell, i, j) {
+  if (showHint) {
+    sw(1);
+    fc(0, 1, 0);
+    sc();
+    textSize(20);
+    return text(cell, TILE * i - 20, TILE * j + 20);
+  }
+};
+
+drawHint1 = function drawHint1(cell, i, j) {
+  if (showHint) {
+    sw(1);
+    fc(1, 0, 0);
+    sc();
+    textSize(20);
+    return text(cell, TILE * i + 20, TILE * j + 20);
+  }
+};
+
 drawShadow = function drawShadow(i, j) {
   var k, len, results, x, y;
   if (showShadow) {
@@ -375,7 +403,7 @@ drawShadow = function drawShadow(i, j) {
 };
 
 draw = function draw() {
-  var button, cell, h, i, j, k, l, len, len1, len2, len3, m, ms, o, ref, ref1, w, x, y;
+  var button, cell, h, i, i0, i1, index, j, j0, j1, k, l, len, len1, len2, len3, len4, len5, m, ms, o, q, ref, ref1, s, w, x, y;
   bg(0.25);
   sw(1);
   buttons[1].txt = level - 1;
@@ -384,7 +412,7 @@ draw = function draw() {
     button.draw();
   }
   hearts.draw();
-  translate(TILE, TILE + 50);
+  translate(TILE + TILE * (6 - size / 2), 1.7 * TILE + TILE * (6 - size / 2));
   textAlign(CENTER, CENTER);
   fc(1);
   sc(0);
@@ -419,9 +447,11 @@ draw = function draw() {
   }
   drawPath();
   if (state === 'halted') {
+    push();
+    translate(-(TILE + TILE * (6 - size / 2)), -(1.7 * TILE + TILE * (6 - size / 2)));
     fc(1, 1, 0, 0.5);
-    x = (size - 1) * TILE / 2;
-    y = (size - 1) * TILE / 2;
+    x = width / 2;
+    y = height / 2;
     w = size * TILE;
     h = size * TILE;
     rect(x, y, w, h);
@@ -431,8 +461,9 @@ draw = function draw() {
       fc(1);
       sc();
       textSize(20);
-      text(ms, x, y);
+      text(ms, 0.75 * width, height - 30);
     }
+    pop();
   }
   if (millis() < deathTimestamp) {
     x = Math.floor(size / 2) * TILE;
@@ -444,23 +475,58 @@ draw = function draw() {
     }
     hearts.drawHeart(x, y, size * TILE / 5, 1, 0, 0);
   }
-  return drawHints();
+  drawHints();
+  for (index = q = 0, len4 = hints0.length; q < len4; index = ++q) {
+    var _hints0$index = _slicedToArray(hints0[index], 2);
+
+    var _hints0$index$ = _slicedToArray(_hints0$index[0], 2);
+
+    i0 = _hints0$index$[0];
+    j0 = _hints0$index$[1];
+
+    var _hints0$index$2 = _slicedToArray(_hints0$index[1], 2);
+
+    i1 = _hints0$index$2[0];
+    j1 = _hints0$index$2[1];
+
+    drawHint0("abcdefghijklmnopqrstuvwxyz"[index], i0, j0);
+    drawHint0("abcdefghijklmnopqrstuvwxyz"[index], i1, j1);
+  }
+  for (index = s = 0, len5 = hints1.length; s < len5; index = ++s) {
+    var _hints1$index = _slicedToArray(hints1[index], 2);
+
+    var _hints1$index$ = _slicedToArray(_hints1$index[0], 2);
+
+    i0 = _hints1$index$[0];
+    j0 = _hints1$index$[1];
+
+    var _hints1$index$2 = _slicedToArray(_hints1$index[1], 2);
+
+    i1 = _hints1$index$2[0];
+    j1 = _hints1$index$2[1];
+
+    drawHint1("ABCDEFGHIJKLMNOPQRSTUVWXYZ"[index], i0, j0);
+    drawHint1("ABCDEFGHIJKLMNOPQRSTUVWXYZ"[index], i1, j1);
+  }
+  return drawPercent();
+};
+
+drawPercent = function drawPercent() {
+  fc(1);
+  sc();
+  textSize(0.8 * TILE);
+  return text(numbers, width / 4 - TILE, height - 138);
 };
 
 drawHints = function drawHints() {
-  var msg0, msg1;
-  textSize(24);
-  if (lastHints.length === 0) {
-    msg0 = '' + hints[0];
-    msg1 = '' + hints[1];
-  } else {
-    msg0 = hints[0] + ' (' + (1 + hints[0] - lastHints[0]) + ')';
-    msg1 = hints[1] + ' (' + (1 + hints[1] - lastHints[1]) + ')';
-  }
   fc(0, 1, 0);
-  text(msg0, 0, height - 127);
+  if (hints0.length > 0) {
+    text("*", 0, height - 138);
+  }
   fc(1, 0, 0);
-  return text(msg1, width - 100, height - 127);
+  if (hints1.length > 0) {
+    return text("*", width - 100, height - 138);
+  }
 };
 
 drawLittera = function drawLittera(i, j) {
@@ -482,8 +548,14 @@ within = function within(i, j) {
   return 0 <= i && i < size && 0 <= j && j < size;
 };
 
+keyPressed = function keyPressed() {
+  if (key === 'H') {
+    return showHint = !showHint;
+  }
+};
+
 mousePressed = function mousePressed() {
-  var button, i, i1, j, j1, k, len;
+  var button, i, i1, j, j1, k, len, x, y;
   if (state === 'halted') {
     newGame(level);
     return;
@@ -494,7 +566,9 @@ mousePressed = function mousePressed() {
       button.click();
     }
   }
-  var _ref2 = [Math.floor((mouseX - TILE / 2) / TILE), Math.floor((mouseY - 50 - TILE / 2) / TILE)];
+  x = mouseX - (0.5 * TILE + TILE * (6 - size / 2));
+  y = mouseY - (1.2 * TILE + TILE * (6 - size / 2));
+  var _ref2 = [Math.floor(x / TILE), Math.floor(y / TILE)];
   i = _ref2[0];
   j = _ref2[1];
 
@@ -538,7 +612,6 @@ mousePressed = function mousePressed() {
         deathTimestamp = 200 + millis();
       }
       latestPair = [[i, j], [i1, j1]];
-      //print latestPair
       b[i][j] = -b[i][j];
       b[i1][j1] = -b[i1][j1];
       numbers -= 2;
@@ -546,7 +619,6 @@ mousePressed = function mousePressed() {
       if (numbers === 0) {
         milliseconds1 = millis();
         state = 'halted';
-        //if level == maxLevel 
         if (hearts.count >= 0) {
           delta = 1;
         } else {
@@ -642,7 +714,7 @@ drawPath = function drawPath() {
 
 // A*
 legal = function legal(wrap, i0, j0, i1, j1) {
-  var cands, dx, dy, front, index, indexes0, k, key, l, len, len1, next, reached, ref, start, turns, turns0, x, x0, y, y0;
+  var cands, dx, dy, front, index, indexes0, k, key, l, len, len1, next, reached, ref, res, start, turns, turns0, x, x0, y, y0;
   start = [0, i0, j0, // turns,x,y,move
   []];
   cands = [];
@@ -685,7 +757,9 @@ legal = function legal(wrap, i0, j0, i1, j1) {
         next = [turns, x, y, indexes0.concat([index])];
         if (x === i1 && y === j1 && turns <= 2) {
           reached[key] = next;
-          return makePath(wrap, reached, i1, j1);
+          res = makePath(wrap, reached, i1, j1);
+          //print res 
+          return res;
         }
         if (within(x, y)) {
           if (b[x][y] <= 0) {
@@ -711,13 +785,86 @@ copyToClipboard = function copyToClipboard(txt) {
   return document.execCommand("copy");
 };
 
+pretty = function pretty(name, a) {
+  var k, len, p1, p2, pair, results, x0, x1, y0, y1;
+  print(name);
+  results = [];
+  for (k = 0, len = a.length; k < len; k++) {
+    pair = a[k];
+    var _pair = pair;
+
+    var _pair2 = _slicedToArray(_pair, 2);
+
+    p1 = _pair2[0];
+    p2 = _pair2[1];
+    var _p = p1;
+
+    var _p2 = _slicedToArray(_p, 2);
+
+    x0 = _p2[0];
+    y0 = _p2[1];
+    var _p3 = p2;
+
+    var _p4 = _slicedToArray(_p3, 2);
+
+    x1 = _p4[0];
+    y1 = _p4[1];
+
+    results.push(print('' + " abcdefghik "[x0] + (11 - y0) + ' ' + " abcdefghik "[x1] + (11 - y1)));
+  }
+  return results;
+};
+
+rensaWrap = function rensaWrap(a, b) {
+  // överlappande rutor ska bort
+  var i0, i1, j0, j1, k, l, len, len1, ok, res, x0, x1, y0, y1;
+  res = [];
+  for (k = 0, len = b.length; k < len; k++) {
+    var _b$k = _slicedToArray(b[k], 2);
+
+    var _b$k$ = _slicedToArray(_b$k[0], 2);
+
+    x0 = _b$k$[0];
+    y0 = _b$k$[1];
+
+    var _b$k$2 = _slicedToArray(_b$k[1], 2);
+
+    x1 = _b$k$2[0];
+    y1 = _b$k$2[1];
+
+    ok = true;
+    for (l = 0, len1 = a.length; l < len1; l++) {
+      var _a$l = _slicedToArray(a[l], 2);
+
+      var _a$l$ = _slicedToArray(_a$l[0], 2);
+
+      i0 = _a$l$[0];
+      j0 = _a$l$[1];
+
+      var _a$l$2 = _slicedToArray(_a$l[1], 2);
+
+      i1 = _a$l$2[0];
+      j1 = _a$l$2[1];
+
+      if (x0 === i0 && y0 === j0 && x1 === i1 && y1 === j1) {
+        ok = false;
+      }
+    }
+    if (ok) {
+      res.push([[x0, y0], [x1, y1]]);
+    }
+  }
+  return res;
+};
+
 showMoves = function showMoves() {
-  lastHints = hints;
-  return hints = [showMoves1(false), showMoves1(true)];
+  hints0 = showMoves1(false);
+  hints1 = showMoves1(true);
+  return hints1 = rensaWrap(hints0, hints1);
 };
 
 showMoves1 = function showMoves1(wrap) {
-  var i0, i1, j0, j1, k, l, len, len1, len2, len3, m, o, ref, ref1, ref2, ref3, ref4, res;
+  var i0, i1, j0, j1, k, l, len, len1, len2, len3, len4, m, o, ok, p, q, ref, ref1, ref2, ref3, res, x0, x1, y0, y1;
   res = [];
   ref = range(1, size - 1);
   for (k = 0, len = ref.length; k < len; k++) {
@@ -735,10 +882,37 @@ showMoves1 = function showMoves1(wrap) {
             if (b[i1][j1] > 0) {
               if (b[i0][j0] - 1 + b[i1][j1] - 1 === level - 1) {
                 if (b[i0][j0] <= b[i1][j1] && (i0 !== i1 || j0 !== j1)) {
-                  path = legal(wrap, i0, j0, i1, j1);
-                  if (path.length > 0) {
-                    if (ref4 = [b[i0][j0] - 1, b[i1][j1] - 1], indexOf.call(res, ref4) < 0) {
-                      res.push([b[i0][j0] - 1, b[i1][j1] - 1]);
+                  p = legal(wrap, i0, j0, i1, j1);
+                  if (p.length > 0) {
+                    ok = true;
+                    for (q = 0, len4 = res.length; q < len4; q++) {
+                      var _res$q = _slicedToArray(res[q], 2);
+
+                      var _res$q$ = _slicedToArray(_res$q[0], 2);
+
+                      x0 = _res$q$[0];
+                      y0 = _res$q$[1];
+
+                      var _res$q$2 = _slicedToArray(_res$q[1], 2);
+
+                      x1 = _res$q$2[0];
+                      y1 = _res$q$2[1];
+
+                      if (x0 === i0 && y0 === j0) {
+                        ok = false;
+                      }
+                      if (x1 === i1 && y1 === j1) {
+                        ok = false;
+                      }
+                      if (x0 === i1 && y0 === j1) {
+                        ok = false;
+                      }
+                      if (x1 === i0 && y1 === j0) {
+                        ok = false;
+                      }
+                    }
+                    if (ok) {
+                      res.push([[i0, j0], [i1, j1]]);
                     }
                   }
                 }
@@ -749,7 +923,6 @@ showMoves1 = function showMoves1(wrap) {
       }
     }
   }
-  // print res
-  return res.length;
+  return res; // innehåller koordinaterna för paren.
 };
 //# sourceMappingURL=sketch.js.map
