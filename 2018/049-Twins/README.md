@@ -12,12 +12,13 @@
 
 * Green star = Free pair available
 * White number = Numbers left
-* < = Go to lowest Level.
-* '-' = Decrease Level
+* Less Than = First Level
+* Minus = Previous Level
 * Level
-* '+' = Increase Level
-* > = Go to highest Level
-* Red star = Wrapping pair available at the cost of one life
+* Plus = Next Level
+* Greater Than = Last Level
+* Time in seconds
+* Red star = Wrapping pair available
 * Clicking on frame toggles it
 ```
 . . . . . . . 
