@@ -228,7 +228,7 @@ newGame = function newGame(n) {
 };
 
 saveStorage = function saveStorage() {
-  return localStorage[KEY] = 10; // maxLevel
+  return localStorage[KEY] = maxLevel;
 };
 
 loadStorage = function loadStorage() {
@@ -242,12 +242,18 @@ setup = function setup() {
   rectMode(CENTER);
   loadStorage();
   level = maxLevel;
+  buttons.push(new Button(180 + 90, height - TILE / 2, '<', function () {
+    return newGame(1);
+  }));
   buttons.push(new Button(180 + 150, height - TILE / 2, '-', function () {
     return newGame(level - 1);
   }));
   buttons.push(new Button(180 + 210, height - TILE / 2, level, function () {}));
   buttons.push(new Button(180 + 270, height - TILE / 2, '+', function () {
     return newGame(level + 1);
+  }));
+  buttons.push(new Button(180 + 330, height - TILE / 2, '>', function () {
+    return newGame(maxLevel);
   }));
   hearts = new Hearts(60, 35);
   if (-1 !== window.location.href.indexOf('level')) {
@@ -406,17 +412,18 @@ draw = function draw() {
   var button, cell, h, i, i0, i1, index, j, j0, j1, k, l, len, len1, len2, len3, len4, len5, m, ms, o, q, ref, ref1, s, w, x, y;
   bg(0.25);
   sw(1);
-  buttons[1].txt = level - 1;
+  buttons[2].txt = level - 1;
   for (k = 0, len = buttons.length; k < len; k++) {
     button = buttons[k];
     button.draw();
   }
   hearts.draw();
-  translate(TILE + TILE * (6 - size / 2), 1.7 * TILE + TILE * (6 - size / 2));
   textAlign(CENTER, CENTER);
+  textSize(0.8 * TILE);
+  push();
+  translate(TILE + TILE * (6 - size / 2), 1.7 * TILE + TILE * (6 - size / 2));
   fc(1);
   sc(0);
-  textSize(0.8 * TILE);
   ref = range(size);
   for (l = 0, len1 = ref.length; l < len1; l++) {
     i = ref[l];
@@ -446,36 +453,6 @@ draw = function draw() {
     circle(TILE * i, TILE * j, TILE / 2 - 3);
   }
   drawPath();
-  if (state === 'halted') {
-    push();
-    translate(-(TILE + TILE * (6 - size / 2)), -(1.7 * TILE + TILE * (6 - size / 2)));
-    fc(1, 1, 0, 0.5);
-    x = width / 2;
-    y = height / 2;
-    w = size * TILE;
-    h = size * TILE;
-    rect(x, y, w, h);
-    ms = round(milliseconds1 - milliseconds0) / 1000;
-    if (ms > 0) {
-      y = size * TILE - 10;
-      fc(1);
-      sc();
-      textSize(20);
-      text(ms, 0.75 * width, height - 30);
-    }
-    pop();
-  }
-  if (millis() < deathTimestamp) {
-    x = Math.floor(size / 2) * TILE;
-    y = Math.floor(size / 2) * TILE;
-    if (size % 2 === 0) {
-      var _ref = [x - TILE / 2, y - TILE / 2];
-      x = _ref[0];
-      y = _ref[1];
-    }
-    hearts.drawHeart(x, y, size * TILE / 5, 1, 0, 0);
-  }
-  drawHints();
   for (index = q = 0, len4 = hints0.length; q < len4; index = ++q) {
     var _hints0$index = _slicedToArray(hints0[index], 2);
 
@@ -508,25 +485,56 @@ draw = function draw() {
     drawHint1("ABCDEFGHIJKLMNOPQRSTUVWXYZ"[index], i0, j0);
     drawHint1("ABCDEFGHIJKLMNOPQRSTUVWXYZ"[index], i1, j1);
   }
+  pop();
+  //push()
+  //translate -(TILE + TILE * (6-size/2)), -(1.7*TILE + TILE * (6-size/2)) 
+  if (state === 'halted') {
+    fc(1, 1, 0, 0.5);
+    x = width / 2;
+    y = height / 2;
+    w = size * TILE;
+    h = size * TILE;
+    rect(x, y, w, h);
+    ms = round(milliseconds1 - milliseconds0) / 1000;
+    if (ms > 0) {
+      y = size * TILE - 10;
+      fc(1);
+      sc();
+      textSize(20);
+      text(ms, 0.75 * width, height - 30);
+    }
+  }
+  if (millis() < deathTimestamp) {
+    x = Math.floor(size / 2) * TILE;
+    y = Math.floor(size / 2) * TILE;
+    if (size % 2 === 0) {
+      var _ref = [x - TILE / 2, y - TILE / 2];
+      x = _ref[0];
+      y = _ref[1];
+    }
+    hearts.drawHeart(x, y, size * TILE / 5, 1, 0, 0);
+  }
+  drawHints();
   return drawPercent();
+};
+
+//pop()
+drawHints = function drawHints() {
+  fc(0, 1, 0);
+  if (hints0.length > 0) {
+    text("*", TILE, height - 0.3 * TILE);
+  }
+  fc(1, 0, 0);
+  if (hints1.length > 0) {
+    return text("*", width - TILE, height - 0.3 * TILE);
+  }
 };
 
 drawPercent = function drawPercent() {
   fc(1);
   sc();
   textSize(0.8 * TILE);
-  return text(numbers, width / 4 - TILE, height - 138);
-};
-
-drawHints = function drawHints() {
-  fc(0, 1, 0);
-  if (hints0.length > 0) {
-    text("*", 0, height - 138);
-  }
-  fc(1, 0, 0);
-  if (hints1.length > 0) {
-    return text("*", width - 100, height - 138);
-  }
+  return text(numbers, width / 4 - TILE, height - 0.5 * TILE);
 };
 
 drawLittera = function drawLittera(i, j) {

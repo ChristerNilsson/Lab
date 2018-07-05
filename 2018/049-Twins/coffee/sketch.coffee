@@ -78,7 +78,7 @@ newGame = (n) ->
 	makeGame()
 	showMoves()
 
-saveStorage = -> localStorage[KEY] = 10 # maxLevel
+saveStorage = -> localStorage[KEY] = maxLevel
 loadStorage = -> maxLevel = if KEY of localStorage then parseInt localStorage[KEY] else maxLevel = 2
 
 setup = ->
@@ -88,9 +88,11 @@ setup = ->
 	rectMode CENTER
 	loadStorage()
 	level = maxLevel
+	buttons.push new Button 180+90,height-TILE/2,'<', -> newGame 1
 	buttons.push new Button 180+150,height-TILE/2,'-', -> newGame level-1
 	buttons.push new Button 180+210,height-TILE/2,level, -> 
 	buttons.push new Button 180+270,height-TILE/2,'+', -> newGame level+1
+	buttons.push new Button 180+330,height-TILE/2,'>', -> newGame maxLevel
 	hearts = new Hearts 60,35
 
 	if -1 != window.location.href.indexOf 'level'
@@ -205,17 +207,19 @@ drawShadow = (i,j) ->
 draw = ->
 	bg 0.25
 	sw 1
-	buttons[1].txt = level-1
+	buttons[2].txt = level-1
 
 	for button in buttons
 		button.draw()
 	hearts.draw()
 
-	translate TILE + TILE * (6-size/2), 1.7*TILE + TILE * (6-size/2) 
 	textAlign CENTER,CENTER
+	textSize 0.8 * TILE
+
+	push()
+	translate TILE + TILE * (6-size/2), 1.7*TILE + TILE * (6-size/2) 
 	fc 1
 	sc 0
-	textSize 0.8 * TILE
 	for i in range size
 		for j in range size
 			drawRect i,j
@@ -229,9 +233,21 @@ draw = ->
 		sc()
 		circle TILE*i,TILE*j,TILE/2-3
 	drawPath()
+
+	for [[i0,j0],[i1,j1]],index in hints0
+		drawHint0 "abcdefghijklmnopqrstuvwxyz"[index],i0,j0
+		drawHint0 "abcdefghijklmnopqrstuvwxyz"[index],i1,j1
+
+	for [[i0,j0],[i1,j1]],index in hints1
+		drawHint1 "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[index],i0,j0
+		drawHint1 "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[index],i1,j1
+
+	pop()
+
+	#push()
+	#translate -(TILE + TILE * (6-size/2)), -(1.7*TILE + TILE * (6-size/2)) 
+
 	if state=='halted'
-		push()
-		translate -(TILE + TILE * (6-size/2)), -(1.7*TILE + TILE * (6-size/2)) 
 		fc 1,1,0,0.5
 		x = width/2 
 		y = height/2 
@@ -245,7 +261,6 @@ draw = ->
 			sc()
 			textSize 20
 			text ms,0.75*width,height-30
-		pop()
 	if millis() < deathTimestamp
 		x = size//2*TILE
 		y = size//2*TILE
@@ -253,28 +268,20 @@ draw = ->
 		hearts.drawHeart x,y,size*TILE/5,1,0,0
 
 	drawHints()
-
-	for [[i0,j0],[i1,j1]],index in hints0
-		drawHint0 "abcdefghijklmnopqrstuvwxyz"[index],i0,j0
-		drawHint0 "abcdefghijklmnopqrstuvwxyz"[index],i1,j1
-
-	for [[i0,j0],[i1,j1]],index in hints1
-		drawHint1 "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[index],i0,j0
-		drawHint1 "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[index],i1,j1
-
 	drawPercent()
+	#pop()
+
+drawHints = ->
+	fc 0,1,0
+	if hints0.length>0 then text "*",TILE,height-0.3*TILE
+	fc 1,0,0
+	if hints1.length>0 then text "*",width-TILE,height-0.3*TILE
 
 drawPercent = ->
 	fc 1
 	sc()
 	textSize 0.8 * TILE
-	text numbers,width/4-TILE,height-138
-
-drawHints = ->
-	fc 0,1,0
-	if hints0.length>0 then text "*",0,height-138
-	fc 1,0,0
-	if hints1.length>0 then text "*",width-100,height-138
+	text numbers,width/4-TILE,height-0.5*TILE
 
 drawLittera = (i,j) ->
 	if showLittera
