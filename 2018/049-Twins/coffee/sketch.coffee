@@ -5,7 +5,7 @@
 SIZE = 12
 TILE = 60
 FREE = 0
-COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #800 #080 #d00 #0d0'.split ' '
+COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #880 #f88 #088 #8f8'.split ' '
 KEY = '049-Twins'
 
 size = null
@@ -82,7 +82,7 @@ saveStorage = -> localStorage[KEY] = maxLevel
 loadStorage = -> maxLevel = if KEY of localStorage then parseInt localStorage[KEY] else maxLevel = 2
 
 setup = ->
-	canvas = createCanvas 30+TILE*SIZE+30,50+TILE*SIZE+TILE+TILE/2
+	canvas = createCanvas TILE*(SIZE+1),TILE*(SIZE+2)
 	canvas.position 0,0 # hides text field used for clipboard copy.
 
 	rectMode CENTER
@@ -173,10 +173,14 @@ drawRect = (i,j) ->
 	rect TILE*i,TILE*j,TILE,TILE
 
 drawNumber = (cell,i,j) ->
+	print cell
 	cell -= 1 
 	sw 3
-	fill   COLORS[cell%%COLORS.length]
-	stroke COLORS[cell//COLORS.length]
+	c1 = COLORS[cell%%COLORS.length]
+	c2 = COLORS[cell//COLORS.length]
+	if c1==c2 then c1='#000'
+	fill   c1
+	stroke c2
 	text cell,TILE*i,TILE*j
 
 drawHint0 = (cell,i,j) ->
@@ -217,16 +221,18 @@ draw = ->
 	textSize 0.8 * TILE
 
 	push()
-	translate TILE + TILE * (6-size/2), 1.7*TILE + TILE * (6-size/2) 
+	translate (width-TILE*size)/2+TILE/2, (height-TILE*size)/2+TILE/2 
 	fc 1
 	sc 0
 	for i in range size
 		for j in range size
 			drawRect i,j
 			cell = b[i][j]
-			if cell > 0 then drawNumber cell,i,j
-			else if cell == FREE
-			else drawShadow i,j
+			if state == 'halted' 		
+				if cell != FREE then drawNumber abs(cell),i,j
+			else
+				if cell > 0 then drawNumber cell,i,j
+				else if cell != FREE then drawShadow i,j
 			if i in [0,size-1] or j in [0,size-1] then drawLittera i,j
 	for [i,j] in selected
 		fc 1,1,0,0.5
@@ -244,9 +250,6 @@ draw = ->
 
 	pop()
 
-	#push()
-	#translate -(TILE + TILE * (6-size/2)), -(1.7*TILE + TILE * (6-size/2)) 
-
 	if state=='halted'
 		fc 1,1,0,0.5
 		x = width/2 
@@ -254,13 +257,13 @@ draw = ->
 		w = size*TILE
 		h = size*TILE
 		rect x,y,w,h
-		ms = round(milliseconds1-milliseconds0)/1000
+		ms = round((milliseconds1-milliseconds0)/100)/10
 		if ms > 0
 			y = size*TILE-10
 			fc 1
 			sc()
-			textSize 20
-			text ms,0.75*width,height-30
+			textSize 30
+			text ms,0.85*width,height-30
 	if millis() < deathTimestamp
 		x = size//2*TILE
 		y = size//2*TILE
@@ -268,8 +271,7 @@ draw = ->
 		hearts.drawHeart x,y,size*TILE/5,1,0,0
 
 	drawHints()
-	drawPercent()
-	#pop()
+	drawProgress()
 
 drawHints = ->
 	fc 0,1,0
@@ -277,10 +279,10 @@ drawHints = ->
 	fc 1,0,0
 	if hints1.length>0 then text "*",width-TILE,height-0.3*TILE
 
-drawPercent = ->
+drawProgress = ->
 	fc 1
 	sc()
-	textSize 0.8 * TILE
+	textSize 30
 	text numbers,width/4-TILE,height-0.5*TILE
 
 drawLittera = (i,j) ->
@@ -306,8 +308,8 @@ mousePressed = ->
 	for button in buttons
 		if button.inside mouseX,mouseY then button.click()
 
-	x = mouseX - (0.5*TILE + TILE * (6-size/2)) 
-	y = mouseY - (1.2*TILE + TILE * (6-size/2)) 
+	x = mouseX - (width-TILE*size)/2 
+	y = mouseY - (height-TILE*size)/2 
 	[i,j] = [x//TILE,y//TILE]
 	if not within i,j then return
 

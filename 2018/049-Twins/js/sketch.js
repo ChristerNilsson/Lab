@@ -29,7 +29,7 @@ var Button,
     drawLittera,
     drawNumber,
     drawPath,
-    drawPercent,
+    drawProgress,
     drawRect,
     drawShadow,
     found,
@@ -78,7 +78,7 @@ TILE = 60;
 
 FREE = 0;
 
-COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #800 #080 #d00 #0d0'.split(' ');
+COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #880 #f88 #088 #8f8'.split(' ');
 
 KEY = '049-Twins';
 
@@ -237,7 +237,7 @@ loadStorage = function loadStorage() {
 
 setup = function setup() {
   var canvas;
-  canvas = createCanvas(30 + TILE * SIZE + 30, 50 + TILE * SIZE + TILE + TILE / 2);
+  canvas = createCanvas(TILE * (SIZE + 1), TILE * (SIZE + 2));
   canvas.position(0, 0); // hides text field used for clipboard copy.
   rectMode(CENTER);
   loadStorage();
@@ -358,10 +358,17 @@ drawRect = function drawRect(i, j) {
 };
 
 drawNumber = function drawNumber(cell, i, j) {
+  var c1, c2;
+  print(cell);
   cell -= 1;
   sw(3);
-  fill(COLORS[modulo(cell, COLORS.length)]);
-  stroke(COLORS[Math.floor(cell / COLORS.length)]);
+  c1 = COLORS[modulo(cell, COLORS.length)];
+  c2 = COLORS[Math.floor(cell / COLORS.length)];
+  if (c1 === c2) {
+    c1 = '#000';
+  }
+  fill(c1);
+  stroke(c2);
   return text(cell, TILE * i, TILE * j);
 };
 
@@ -421,7 +428,7 @@ draw = function draw() {
   textAlign(CENTER, CENTER);
   textSize(0.8 * TILE);
   push();
-  translate(TILE + TILE * (6 - size / 2), 1.7 * TILE + TILE * (6 - size / 2));
+  translate((width - TILE * size) / 2 + TILE / 2, (height - TILE * size) / 2 + TILE / 2);
   fc(1);
   sc(0);
   ref = range(size);
@@ -432,10 +439,16 @@ draw = function draw() {
       j = ref1[m];
       drawRect(i, j);
       cell = b[i][j];
-      if (cell > 0) {
-        drawNumber(cell, i, j);
-      } else if (cell === FREE) {} else {
-        drawShadow(i, j);
+      if (state === 'halted') {
+        if (cell !== FREE) {
+          drawNumber(abs(cell), i, j);
+        }
+      } else {
+        if (cell > 0) {
+          drawNumber(cell, i, j);
+        } else if (cell !== FREE) {
+          drawShadow(i, j);
+        }
       }
       if (i === 0 || i === size - 1 || j === 0 || j === size - 1) {
         drawLittera(i, j);
@@ -486,8 +499,6 @@ draw = function draw() {
     drawHint1("ABCDEFGHIJKLMNOPQRSTUVWXYZ"[index], i1, j1);
   }
   pop();
-  //push()
-  //translate -(TILE + TILE * (6-size/2)), -(1.7*TILE + TILE * (6-size/2)) 
   if (state === 'halted') {
     fc(1, 1, 0, 0.5);
     x = width / 2;
@@ -495,13 +506,13 @@ draw = function draw() {
     w = size * TILE;
     h = size * TILE;
     rect(x, y, w, h);
-    ms = round(milliseconds1 - milliseconds0) / 1000;
+    ms = round((milliseconds1 - milliseconds0) / 100) / 10;
     if (ms > 0) {
       y = size * TILE - 10;
       fc(1);
       sc();
-      textSize(20);
-      text(ms, 0.75 * width, height - 30);
+      textSize(30);
+      text(ms, 0.85 * width, height - 30);
     }
   }
   if (millis() < deathTimestamp) {
@@ -515,10 +526,9 @@ draw = function draw() {
     hearts.drawHeart(x, y, size * TILE / 5, 1, 0, 0);
   }
   drawHints();
-  return drawPercent();
+  return drawProgress();
 };
 
-//pop()
 drawHints = function drawHints() {
   fc(0, 1, 0);
   if (hints0.length > 0) {
@@ -530,10 +540,10 @@ drawHints = function drawHints() {
   }
 };
 
-drawPercent = function drawPercent() {
+drawProgress = function drawProgress() {
   fc(1);
   sc();
-  textSize(0.8 * TILE);
+  textSize(30);
   return text(numbers, width / 4 - TILE, height - 0.5 * TILE);
 };
 
@@ -574,8 +584,8 @@ mousePressed = function mousePressed() {
       button.click();
     }
   }
-  x = mouseX - (0.5 * TILE + TILE * (6 - size / 2));
-  y = mouseY - (1.2 * TILE + TILE * (6 - size / 2));
+  x = mouseX - (width - TILE * size) / 2;
+  y = mouseY - (height - TILE * size) / 2;
   var _ref2 = [Math.floor(x / TILE), Math.floor(y / TILE)];
   i = _ref2[0];
   j = _ref2[1];
