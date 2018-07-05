@@ -291,7 +291,7 @@ makeGame = function makeGame() {
   if (level === maxLevel) {
     maxLevel = constrain(maxLevel + delta, 2, 100);
   }
-  level += delta;
+  level = constrain(level + delta, 2, 100);
   delta = 0;
   saveStorage();
   Size = 4 + Math.floor(level / 4);
