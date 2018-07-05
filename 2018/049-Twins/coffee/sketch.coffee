@@ -8,7 +8,7 @@ FREE = 0
 COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #880 #f88 #088 #8f8'.split ' '
 KEY = '049-Twins'
 
-size = null
+Size = null
 level = null
 maxLevel=null
 numbers = null
@@ -105,11 +105,11 @@ urlGame = ->
 	params = getParameters()
 	level = parseInt params.level
 	b = JSON.parse params.b
-	size = 4+level//4 
-	if size>12 then size=12
+	Size = 4+level//4 
+	if Size>12 then Size=12
 	hearts.count   = constrain 1+level//8,0,12
 	hearts.maximum = constrain 1+level//8,0,12 
-	numbers = (size-2)*(size-2)
+	numbers = (Size-2)*(Size-2)
 	if numbers%2==1 then numbers -= 1
 	milliseconds0 = millis()
 	state = 'running'	
@@ -120,17 +120,18 @@ makeGame = ->
 
 	latestPair = []
 
+	if level == maxLevel
+		maxLevel = constrain maxLevel+delta,2,100
 	level += delta
-	maxLevel += delta
 	delta = 0
 	saveStorage()
 
-	size = 4+level//4 
-	if size>12 then size=12
+	Size = 4+level//4 
+	if Size>12 then Size=12
 	hearts.count   = constrain 1+level//8,0,12 
 	hearts.maximum = constrain 1+level//8,0,12 
 
-	numbers = (size-2)*(size-2)
+	numbers = (Size-2)*(Size-2)
 	if numbers%2==1 then numbers -= 1
 
 	candidates = []
@@ -139,16 +140,16 @@ makeGame = ->
 		candidates.push 1 + level-1 - i % level
 	candidates = _.shuffle candidates
 
-	b = new Array size
-	for i in range size
-		b[i] = new Array size
-		for j in range size
-			if i in [0,size-1] or j in [0,size-1] then b[i][j] = FREE
+	b = new Array Size
+	for i in range Size
+		b[i] = new Array Size
+		for j in range Size
+			if i in [0,Size-1] or j in [0,Size-1] then b[i][j] = FREE
 			else 
-				if size % 2 == 0
+				if Size % 2 == 0
 					b[i][j] = candidates.pop()
 				else
-					if i == size//2 and j == size//2
+					if i == Size//2 and j == Size//2
 						b[i][j] = FREE
 					else
 						b[i][j] = candidates.pop()
@@ -173,7 +174,6 @@ drawRect = (i,j) ->
 	rect TILE*i,TILE*j,TILE,TILE
 
 drawNumber = (cell,i,j) ->
-	print cell
 	cell -= 1 
 	sw 3
 	c1 = COLORS[cell%%COLORS.length]
@@ -221,11 +221,11 @@ draw = ->
 	textSize 0.8 * TILE
 
 	push()
-	translate (width-TILE*size)/2+TILE/2, (height-TILE*size)/2+TILE/2 
+	translate (width-TILE*Size)/2+TILE/2, (height-TILE*Size)/2+TILE/2 
 	fc 1
 	sc 0
-	for i in range size
-		for j in range size
+	for i in range Size
+		for j in range Size
 			drawRect i,j
 			cell = b[i][j]
 			if state == 'halted' 		
@@ -233,7 +233,7 @@ draw = ->
 			else
 				if cell > 0 then drawNumber cell,i,j
 				else if cell != FREE then drawShadow i,j
-			if i in [0,size-1] or j in [0,size-1] then drawLittera i,j
+			if i in [0,Size-1] or j in [0,Size-1] then drawLittera i,j
 	for [i,j] in selected
 		fc 1,1,0,0.5
 		sc()
@@ -254,21 +254,21 @@ draw = ->
 		fc 1,1,0,0.5
 		x = width/2 
 		y = height/2 
-		w = size*TILE
-		h = size*TILE
+		w = Size*TILE
+		h = Size*TILE
 		rect x,y,w,h
 		ms = round((milliseconds1-milliseconds0)/100)/10
 		if ms > 0
-			y = size*TILE-10
+			y = Size*TILE-10
 			fc 1
 			sc()
 			textSize 30
 			text ms,0.85*width,height-30
 	if millis() < deathTimestamp
-		x = size//2*TILE
-		y = size//2*TILE
-		if size % 2 == 0 then [x,y] = [x-TILE/2, y-TILE/2]
-		hearts.drawHeart x,y,size*TILE/5,1,0,0
+		x = Size//2*TILE
+		y = Size//2*TILE
+		if Size % 2 == 0 then [x,y] = [x-TILE/2, y-TILE/2]
+		hearts.drawHeart x,y,Size*TILE/5,1,0,0
 
 	drawHints()
 	drawProgress()
@@ -291,13 +291,13 @@ drawLittera = (i,j) ->
 		textSize 32
 		fc 0.25
 		sc 0.25
-		if j in [0,size-1] and i < size-1
+		if j in [0,Size-1] and i < Size-1
 			text ' abcdefghik '[i],TILE*i,TILE*j
-		else if i in [0,size-1] and 0<j<size-1
-			text size-1-j,TILE*i,TILE*j
+		else if i in [0,Size-1] and 0<j<Size-1
+			text Size-1-j,TILE*i,TILE*j
 		pop()
 
-within = (i,j) -> 0 <= i < size and 0 <= j < size
+within = (i,j) -> 0 <= i < Size and 0 <= j < Size
 
 keyPressed = -> if key == 'H' then showHint = not showHint
 
@@ -308,12 +308,12 @@ mousePressed = ->
 	for button in buttons
 		if button.inside mouseX,mouseY then button.click()
 
-	x = mouseX - (width-TILE*size)/2 
-	y = mouseY - (height-TILE*size)/2 
+	x = mouseX - (width-TILE*Size)/2 
+	y = mouseY - (height-TILE*Size)/2 
 	[i,j] = [x//TILE,y//TILE]
 	if not within i,j then return
 
-	if i in [0,size-1] or j in [0,size-1] 
+	if i in [0,Size-1] or j in [0,Size-1] 
 		showLittera = not showLittera
 		return
 
@@ -355,7 +355,7 @@ mousePressed = ->
 						delta = -1
 	showMoves()
 
-makeMove = (wrap,x,y) -> if wrap then [x %% size, y %% size] else [x,y]
+makeMove = (wrap,x,y) -> if wrap then [x %% Size, y %% Size] else [x,y]
 
 makePath = (wrap,reached,i,j) ->
 	res = []
@@ -402,9 +402,7 @@ legal = (wrap,i0,j0,i1,j1) ->
 				next = [turns,x,y,indexes0.concat [index]]
 				if x==i1 and y==j1 and turns<=2
 					reached[key] = next
-					res = makePath wrap,reached,i1,j1
-					#print res 
-					return res
+					return makePath wrap,reached,i1,j1
 				if within x,y
 					if b[x][y] <= 0
 						if key not of reached or reached[key][0] >= next[0]
@@ -443,11 +441,11 @@ showMoves = ->
 
 showMoves1 = (wrap) ->
 	res = []
-	for i0 in range 1,size-1
-		for j0 in range 1,size-1
+	for i0 in range 1,Size-1
+		for j0 in range 1,Size-1
 			if b[i0][j0] > 0 
-				for i1 in range 1,size-1
-					for j1 in range 1,size-1
+				for i1 in range 1,Size-1
+					for j1 in range 1,Size-1
 						if b[i1][j1] > 0 
 							if b[i0][j0]-1 + b[i1][j1]-1 == level-1
 								if b[i0][j0] <= b[i1][j1] and (i0!=i1 or j0!=j1)

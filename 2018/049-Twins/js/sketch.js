@@ -16,6 +16,7 @@ var Button,
     Hearts,
     KEY,
     SIZE,
+    Size,
     TILE,
     b,
     buttons,
@@ -64,7 +65,6 @@ var Button,
     showMoves,
     showMoves1,
     showShadow,
-    size,
     state,
     urlGame,
     within,
@@ -82,7 +82,7 @@ COLORS = '#fff #f00 #0f0 #ff0 #f0f #0ff #880 #f88 #088 #8f8'.split(' ');
 
 KEY = '049-Twins';
 
-size = null;
+Size = null;
 
 level = null;
 
@@ -269,13 +269,13 @@ urlGame = function urlGame() {
   params = getParameters();
   level = parseInt(params.level);
   b = JSON.parse(params.b);
-  size = 4 + Math.floor(level / 4);
-  if (size > 12) {
-    size = 12;
+  Size = 4 + Math.floor(level / 4);
+  if (Size > 12) {
+    Size = 12;
   }
   hearts.count = constrain(1 + Math.floor(level / 8), 0, 12);
   hearts.maximum = constrain(1 + Math.floor(level / 8), 0, 12);
-  numbers = (size - 2) * (size - 2);
+  numbers = (Size - 2) * (Size - 2);
   if (numbers % 2 === 1) {
     numbers -= 1;
   }
@@ -288,17 +288,19 @@ makeGame = function makeGame() {
   hints0 = [];
   hints1 = [];
   latestPair = [];
+  if (level === maxLevel) {
+    maxLevel = constrain(maxLevel + delta, 2, 100);
+  }
   level += delta;
-  maxLevel += delta;
   delta = 0;
   saveStorage();
-  size = 4 + Math.floor(level / 4);
-  if (size > 12) {
-    size = 12;
+  Size = 4 + Math.floor(level / 4);
+  if (Size > 12) {
+    Size = 12;
   }
   hearts.count = constrain(1 + Math.floor(level / 8), 0, 12);
   hearts.maximum = constrain(1 + Math.floor(level / 8), 0, 12);
-  numbers = (size - 2) * (size - 2);
+  numbers = (Size - 2) * (Size - 2);
   if (numbers % 2 === 1) {
     numbers -= 1;
   }
@@ -310,21 +312,21 @@ makeGame = function makeGame() {
     candidates.push(1 + level - 1 - i % level);
   }
   candidates = _.shuffle(candidates);
-  b = new Array(size);
-  ref1 = range(size);
+  b = new Array(Size);
+  ref1 = range(Size);
   for (l = 0, len1 = ref1.length; l < len1; l++) {
     i = ref1[l];
-    b[i] = new Array(size);
-    ref2 = range(size);
+    b[i] = new Array(Size);
+    ref2 = range(Size);
     for (m = 0, len2 = ref2.length; m < len2; m++) {
       j = ref2[m];
-      if (i === 0 || i === size - 1 || j === 0 || j === size - 1) {
+      if (i === 0 || i === Size - 1 || j === 0 || j === Size - 1) {
         b[i][j] = FREE;
       } else {
-        if (size % 2 === 0) {
+        if (Size % 2 === 0) {
           b[i][j] = candidates.pop();
         } else {
-          if (i === Math.floor(size / 2) && j === Math.floor(size / 2)) {
+          if (i === Math.floor(Size / 2) && j === Math.floor(Size / 2)) {
             b[i][j] = FREE;
           } else {
             b[i][j] = candidates.pop();
@@ -359,7 +361,6 @@ drawRect = function drawRect(i, j) {
 
 drawNumber = function drawNumber(cell, i, j) {
   var c1, c2;
-  print(cell);
   cell -= 1;
   sw(3);
   c1 = COLORS[modulo(cell, COLORS.length)];
@@ -428,13 +429,13 @@ draw = function draw() {
   textAlign(CENTER, CENTER);
   textSize(0.8 * TILE);
   push();
-  translate((width - TILE * size) / 2 + TILE / 2, (height - TILE * size) / 2 + TILE / 2);
+  translate((width - TILE * Size) / 2 + TILE / 2, (height - TILE * Size) / 2 + TILE / 2);
   fc(1);
   sc(0);
-  ref = range(size);
+  ref = range(Size);
   for (l = 0, len1 = ref.length; l < len1; l++) {
     i = ref[l];
-    ref1 = range(size);
+    ref1 = range(Size);
     for (m = 0, len2 = ref1.length; m < len2; m++) {
       j = ref1[m];
       drawRect(i, j);
@@ -450,7 +451,7 @@ draw = function draw() {
           drawShadow(i, j);
         }
       }
-      if (i === 0 || i === size - 1 || j === 0 || j === size - 1) {
+      if (i === 0 || i === Size - 1 || j === 0 || j === Size - 1) {
         drawLittera(i, j);
       }
     }
@@ -503,12 +504,12 @@ draw = function draw() {
     fc(1, 1, 0, 0.5);
     x = width / 2;
     y = height / 2;
-    w = size * TILE;
-    h = size * TILE;
+    w = Size * TILE;
+    h = Size * TILE;
     rect(x, y, w, h);
     ms = round((milliseconds1 - milliseconds0) / 100) / 10;
     if (ms > 0) {
-      y = size * TILE - 10;
+      y = Size * TILE - 10;
       fc(1);
       sc();
       textSize(30);
@@ -516,14 +517,14 @@ draw = function draw() {
     }
   }
   if (millis() < deathTimestamp) {
-    x = Math.floor(size / 2) * TILE;
-    y = Math.floor(size / 2) * TILE;
-    if (size % 2 === 0) {
+    x = Math.floor(Size / 2) * TILE;
+    y = Math.floor(Size / 2) * TILE;
+    if (Size % 2 === 0) {
       var _ref = [x - TILE / 2, y - TILE / 2];
       x = _ref[0];
       y = _ref[1];
     }
-    hearts.drawHeart(x, y, size * TILE / 5, 1, 0, 0);
+    hearts.drawHeart(x, y, Size * TILE / 5, 1, 0, 0);
   }
   drawHints();
   return drawProgress();
@@ -553,17 +554,17 @@ drawLittera = function drawLittera(i, j) {
     textSize(32);
     fc(0.25);
     sc(0.25);
-    if ((j === 0 || j === size - 1) && i < size - 1) {
+    if ((j === 0 || j === Size - 1) && i < Size - 1) {
       text(' abcdefghik '[i], TILE * i, TILE * j);
-    } else if ((i === 0 || i === size - 1) && 0 < j && j < size - 1) {
-      text(size - 1 - j, TILE * i, TILE * j);
+    } else if ((i === 0 || i === Size - 1) && 0 < j && j < Size - 1) {
+      text(Size - 1 - j, TILE * i, TILE * j);
     }
     return pop();
   }
 };
 
 within = function within(i, j) {
-  return 0 <= i && i < size && 0 <= j && j < size;
+  return 0 <= i && i < Size && 0 <= j && j < Size;
 };
 
 keyPressed = function keyPressed() {
@@ -584,8 +585,8 @@ mousePressed = function mousePressed() {
       button.click();
     }
   }
-  x = mouseX - (width - TILE * size) / 2;
-  y = mouseY - (height - TILE * size) / 2;
+  x = mouseX - (width - TILE * Size) / 2;
+  y = mouseY - (height - TILE * Size) / 2;
   var _ref2 = [Math.floor(x / TILE), Math.floor(y / TILE)];
   i = _ref2[0];
   j = _ref2[1];
@@ -593,7 +594,7 @@ mousePressed = function mousePressed() {
   if (!within(i, j)) {
     return;
   }
-  if (i === 0 || i === size - 1 || j === 0 || j === size - 1) {
+  if (i === 0 || i === Size - 1 || j === 0 || j === Size - 1) {
     showLittera = !showLittera;
     return;
   }
@@ -657,7 +658,7 @@ mousePressed = function mousePressed() {
 
 makeMove = function makeMove(wrap, x, y) {
   if (wrap) {
-    return [modulo(x, size), modulo(y, size)];
+    return [modulo(x, Size), modulo(y, Size)];
   } else {
     return [x, y];
   }
@@ -732,7 +733,7 @@ drawPath = function drawPath() {
 
 // A*
 legal = function legal(wrap, i0, j0, i1, j1) {
-  var cands, dx, dy, front, index, indexes0, k, key, l, len, len1, next, reached, ref, res, start, turns, turns0, x, x0, y, y0;
+  var cands, dx, dy, front, index, indexes0, k, key, l, len, len1, next, reached, ref, start, turns, turns0, x, x0, y, y0;
   start = [0, i0, j0, // turns,x,y,move
   []];
   cands = [];
@@ -775,9 +776,7 @@ legal = function legal(wrap, i0, j0, i1, j1) {
         next = [turns, x, y, indexes0.concat([index])];
         if (x === i1 && y === j1 && turns <= 2) {
           reached[key] = next;
-          res = makePath(wrap, reached, i1, j1);
-          //print res 
-          return res;
+          return makePath(wrap, reached, i1, j1);
         }
         if (within(x, y)) {
           if (b[x][y] <= 0) {
@@ -884,17 +883,17 @@ showMoves = function showMoves() {
 showMoves1 = function showMoves1(wrap) {
   var i0, i1, j0, j1, k, l, len, len1, len2, len3, len4, m, o, ok, p, q, ref, ref1, ref2, ref3, res, x0, x1, y0, y1;
   res = [];
-  ref = range(1, size - 1);
+  ref = range(1, Size - 1);
   for (k = 0, len = ref.length; k < len; k++) {
     i0 = ref[k];
-    ref1 = range(1, size - 1);
+    ref1 = range(1, Size - 1);
     for (l = 0, len1 = ref1.length; l < len1; l++) {
       j0 = ref1[l];
       if (b[i0][j0] > 0) {
-        ref2 = range(1, size - 1);
+        ref2 = range(1, Size - 1);
         for (m = 0, len2 = ref2.length; m < len2; m++) {
           i1 = ref2[m];
-          ref3 = range(1, size - 1);
+          ref3 = range(1, Size - 1);
           for (o = 0, len3 = ref3.length; o < len3; o++) {
             j1 = ref3[o];
             if (b[i1][j1] > 0) {
