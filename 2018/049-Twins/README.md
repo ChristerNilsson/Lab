@@ -13,9 +13,9 @@
 * Green star = Free pair available
 * White number = Numbers left
 * < = Go to lowest Level.
-* - = Decrease Level
+* '-' = Decrease Level
 * Level
-* + = Increase Level
+* '+' = Increase Level
 * > = Go to highest Level
 * Red star = Wrapping pair available at the cost of one life
 * Clicking on frame toggles it
