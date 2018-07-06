@@ -95,7 +95,7 @@ setup = ->
 	buttons.push new Button 180+210,height-TILE/2,level, -> 
 	buttons.push new Button 180+270,height-TILE/2,'+', -> newGame level+1
 	buttons.push new Button 180+330,height-TILE/2,'>', -> newGame maxLevel
-	buttons.push new Button 720,height-TILE/2,'?', -> window.open 'https://github.com/ChristerNilsson/Lab/blob/master/2018/049-Twins/README.md#049-twins'
+	buttons.push new Button 720,height-TILE/2,'?', -> window.open 'https://github.com/ChristerNilsson/Lab/blob/master/2018/049-Twins/README.md#twins'
 
 	hearts = new Hearts 60,35
 

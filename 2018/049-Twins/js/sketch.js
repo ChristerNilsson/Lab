@@ -260,7 +260,7 @@ setup = function setup() {
     return newGame(maxLevel);
   }));
   buttons.push(new Button(720, height - TILE / 2, '?', function () {
-    return window.open('https://github.com/ChristerNilsson/Lab/blob/master/2018/049-Twins/README.md#049-twins');
+    return window.open('https://github.com/ChristerNilsson/Lab/blob/master/2018/049-Twins/README.md#twins');
   }));
   hearts = new Hearts(60, 35);
   if (-1 !== window.location.href.indexOf('level')) {
