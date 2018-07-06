@@ -273,10 +273,8 @@ draw = ->
 	drawProgress()
 
 drawHints = ->
-	fc 0,1,0
-	if hints0.length>0 then text "*",TILE,height-0.3*TILE
-	fc 1,0,0
-	if hints1.length>0 then text "*",width-TILE,height-0.3*TILE
+	if hints0.length > 0 then fc 0,1,0 else fc 1,0,0
+	text '*', TILE, height - 0.3 * TILE
 
 drawProgress = ->
 	fc 1
@@ -416,28 +414,9 @@ copyToClipboard = (txt) ->
 	copyText.select()
 	document.execCommand "copy"
 
-pretty = (name,a) ->
-	print name 
-	for pair in a
-		[p1,p2] = pair
-		[x0,y0] = p1
-		[x1,y1] = p2
-		print "#{" abcdefghik "[x0]}#{11-y0} #{" abcdefghik "[x1]}#{11-y1}"
-
-rensaWrap = (a,b) -> # överlappande rutor ska bort
-	# should be deep _.difference b,a
-	res = []
-	for objb in b 
-		ok = true
-		for obja in a 
-			if _.isEqual obja,objb then ok = false
-		if ok then res.push objb
-	res
-
 showMoves = -> 
 	hints0 = showMoves1 false
-	hints1 = showMoves1 true
-	hints1 = rensaWrap hints0,hints1
+	hints1 = if hints0.length > 0 then [] else showMoves1 true
 
 showMoves1 = (wrap) ->
 	res = []
@@ -452,10 +431,10 @@ showMoves1 = (wrap) ->
 									p = legal wrap,i0,j0,i1,j1 
 									if p.length > 0
 										ok = true
-										for [[x0,y0],[x1,y1]] in res
-											if x0==i0 and y0==j0 then ok = false
-											if x1==i1 and y1==j1 then ok = false
-											if x0==i1 and y0==j1 then ok = false
-											if x1==i0 and y1==j0 then ok = false
+										p0 = [i0,j0]
+										p1 = [i1,j1]
+										for [q0,q1] in res
+											if _.isEqual(p0,q0) and _.isEqual(p1,q1) then ok = false
+											if _.isEqual(p0,q1) and _.isEqual(p1,q0) then ok = false
 										if ok then res.push [[i0,j0],[i1,j1]]
 	res # innehåller koordinaterna för paren.

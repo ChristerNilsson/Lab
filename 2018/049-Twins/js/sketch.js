@@ -55,8 +55,6 @@ var Button,
     numbers,
     path,
     pathTimestamp,
-    pretty,
-    rensaWrap,
     saveStorage,
     selected,
     setup,
@@ -129,13 +127,13 @@ hints1 = [];
 latestPair = [];
 
 Hearts = function () {
-  function Hearts(x2, y3) {
+  function Hearts(x1, y3) {
     var count = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 12;
     var maximum = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 12;
 
     _classCallCheck(this, Hearts);
 
-    this.x = x2;
+    this.x = x1;
     this.y = y3;
     this.count = count;
     this.maximum = maximum;
@@ -182,10 +180,10 @@ Hearts = function () {
 }();
 
 Button = function () {
-  function Button(x2, y3, txt1, click) {
+  function Button(x1, y3, txt1, click) {
     _classCallCheck(this, Button);
 
-    this.x = x2;
+    this.x = x1;
     this.y = y3;
     this.txt = txt1;
     this.click = click;
@@ -526,14 +524,12 @@ draw = function draw() {
 };
 
 drawHints = function drawHints() {
-  fc(0, 1, 0);
   if (hints0.length > 0) {
-    text("*", TILE, height - 0.3 * TILE);
+    fc(0, 1, 0);
+  } else {
+    fc(1, 0, 0);
   }
-  fc(1, 0, 0);
-  if (hints1.length > 0) {
-    return text("*", width - TILE, height - 0.3 * TILE);
-  }
+  return text('*', TILE, height - 0.3 * TILE);
 };
 
 drawProgress = function drawProgress() {
@@ -797,65 +793,13 @@ copyToClipboard = function copyToClipboard(txt) {
   return document.execCommand("copy");
 };
 
-pretty = function pretty(name, a) {
-  var k, len, p1, p2, pair, results, x0, x1, y0, y1;
-  print(name);
-  results = [];
-  for (k = 0, len = a.length; k < len; k++) {
-    pair = a[k];
-    var _pair = pair;
-
-    var _pair2 = _slicedToArray(_pair, 2);
-
-    p1 = _pair2[0];
-    p2 = _pair2[1];
-    var _p = p1;
-
-    var _p2 = _slicedToArray(_p, 2);
-
-    x0 = _p2[0];
-    y0 = _p2[1];
-    var _p3 = p2;
-
-    var _p4 = _slicedToArray(_p3, 2);
-
-    x1 = _p4[0];
-    y1 = _p4[1];
-
-    results.push(print('' + " abcdefghik "[x0] + (11 - y0) + ' ' + " abcdefghik "[x1] + (11 - y1)));
-  }
-  return results;
-};
-
-rensaWrap = function rensaWrap(a, b) {
-  // överlappande rutor ska bort
-  var k, l, len, len1, obja, objb, ok, res;
-  // should be deep _.difference b,a
-  res = [];
-  for (k = 0, len = b.length; k < len; k++) {
-    objb = b[k];
-    ok = true;
-    for (l = 0, len1 = a.length; l < len1; l++) {
-      obja = a[l];
-      if (_.isEqual(obja, objb)) {
-        ok = false;
-      }
-    }
-    if (ok) {
-      res.push(objb);
-    }
-  }
-  return res;
-};
-
 showMoves = function showMoves() {
   hints0 = showMoves1(false);
-  hints1 = showMoves1(true);
-  return hints1 = rensaWrap(hints0, hints1);
+  return hints1 = hints0.length > 0 ? [] : showMoves1(true);
 };
 
 showMoves1 = function showMoves1(wrap) {
-  var i0, i1, j0, j1, k, l, len, len1, len2, len3, len4, m, o, ok, p, q, ref, ref1, ref2, ref3, res, x0, x1, y0, y1;
+  var i0, i1, j0, j1, k, l, len, len1, len2, len3, len4, m, o, ok, p, p0, p1, q, q0, q1, ref, ref1, ref2, ref3, res;
   res = [];
   ref = range(1, Size - 1);
   for (k = 0, len = ref.length; k < len; k++) {
@@ -876,29 +820,18 @@ showMoves1 = function showMoves1(wrap) {
                   p = legal(wrap, i0, j0, i1, j1);
                   if (p.length > 0) {
                     ok = true;
+                    p0 = [i0, j0];
+                    p1 = [i1, j1];
                     for (q = 0, len4 = res.length; q < len4; q++) {
                       var _res$q = _slicedToArray(res[q], 2);
 
-                      var _res$q$ = _slicedToArray(_res$q[0], 2);
+                      q0 = _res$q[0];
+                      q1 = _res$q[1];
 
-                      x0 = _res$q$[0];
-                      y0 = _res$q$[1];
-
-                      var _res$q$2 = _slicedToArray(_res$q[1], 2);
-
-                      x1 = _res$q$2[0];
-                      y1 = _res$q$2[1];
-
-                      if (x0 === i0 && y0 === j0) {
+                      if (_.isEqual(p0, q0) && _.isEqual(p1, q1)) {
                         ok = false;
                       }
-                      if (x1 === i1 && y1 === j1) {
-                        ok = false;
-                      }
-                      if (x0 === i1 && y0 === j1) {
-                        ok = false;
-                      }
-                      if (x1 === i0 && y1 === j0) {
+                      if (_.isEqual(p0, q1) && _.isEqual(p1, q0)) {
                         ok = false;
                       }
                     }
