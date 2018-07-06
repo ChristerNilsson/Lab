@@ -259,6 +259,9 @@ setup = function setup() {
   buttons.push(new Button(180 + 330, height - TILE / 2, '>', function () {
     return newGame(maxLevel);
   }));
+  buttons.push(new Button(720, height - TILE / 2, '?', function () {
+    return window.open('https://github.com/ChristerNilsson/Lab/blob/master/2018/049-Twins/README.md#049-twins');
+  }));
   hearts = new Hearts(60, 35);
   if (-1 !== window.location.href.indexOf('level')) {
     urlGame();
@@ -508,7 +511,7 @@ draw = function draw() {
       fc(1);
       sc();
       textSize(30);
-      text(ms, 0.85 * width, height - 30);
+      text(ms, width - 2.5 * TILE, height - 30);
     }
   }
   if (millis() < deathTimestamp) {
