@@ -372,7 +372,7 @@ drawNumber = function drawNumber(cell, i, j) {
   }
   fill(c1);
   stroke(c2);
-  return text(cell, TILE * i, TILE * j);
+  return text(cell, TILE * i, TILE * j + 10);
 };
 
 drawHint = function drawHint(cell, i, j, r, g, b) {
@@ -537,10 +537,12 @@ draw = function draw() {
 drawHints = function drawHints() {
   if (hints0.length > 0) {
     fc(0, 1, 0);
-  } else {
-    fc(1, 0, 0);
+    text('*', TILE, height - 0.3 * TILE);
   }
-  return text('*', TILE, height - 0.3 * TILE);
+  if (hints1.length > 0) {
+    fc(1, 0, 0);
+    return text('*', TILE, height - 0.3 * TILE);
+  }
 };
 
 drawProgress = function drawProgress() {

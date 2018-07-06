@@ -182,7 +182,7 @@ drawNumber = (cell,i,j) ->
 	if c1==c2 then c1='#000'
 	fill   c1
 	stroke c2
-	text cell,TILE*i,TILE*j
+	text cell,TILE*i,TILE*j+10
 
 drawHint = (cell,i,j,r,g,b) ->
 	if showHint 
@@ -242,7 +242,7 @@ draw = ->
 	drawPath()
 
 	counter = {}
-	
+
 	for [[i0,j0],[i1,j1]],index in hints0
 		drawHint0 "abcdefghijklmnopqrstuvwxyz"[index],i0,j0
 		drawHint0 "abcdefghijklmnopqrstuvwxyz"[index],i1,j1
@@ -276,8 +276,12 @@ draw = ->
 	drawProgress()
 
 drawHints = ->
-	if hints0.length > 0 then fc 0,1,0 else fc 1,0,0
-	text '*', TILE, height - 0.3 * TILE
+	if hints0.length > 0 
+		fc 0,1,0 
+		text '*', TILE, height - 0.3 * TILE
+	if hints1.length > 0 
+		fc 1,0,0
+		text '*', TILE, height - 0.3 * TILE
 
 drawProgress = ->
 	fc 1
