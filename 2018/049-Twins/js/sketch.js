@@ -21,9 +21,11 @@ var Button,
     b,
     buttons,
     copyToClipboard,
+    counter,
     deathTimestamp,
     delta,
     draw,
+    drawHint,
     drawHint0,
     drawHint1,
     drawHints,
@@ -125,6 +127,8 @@ hints0 = [];
 hints1 = [];
 
 latestPair = [];
+
+counter = {};
 
 Hearts = function () {
   function Hearts(x1, y3) {
@@ -371,24 +375,30 @@ drawNumber = function drawNumber(cell, i, j) {
   return text(cell, TILE * i, TILE * j);
 };
 
-drawHint0 = function drawHint0(cell, i, j) {
+drawHint = function drawHint(cell, i, j, r, g, b) {
+  var dx, dy, key;
   if (showHint) {
     sw(1);
-    fc(0, 1, 0);
+    fc(r, g, b);
     sc();
     textSize(20);
-    return text(cell, TILE * i - 20, TILE * j + 20);
+    key = i + '-' + j;
+    if (!(key in counter)) {
+      counter[key] = 0;
+    }
+    dx = [-20, 0, 20][modulo(counter[key], 3)];
+    dy = [-20, 0, 20][Math.floor(counter[key] / 3)];
+    text(cell, TILE * i + dx, TILE * j + dy);
+    return counter[key]++;
   }
 };
 
+drawHint0 = function drawHint0(cell, i, j) {
+  return drawHint(cell, i, j, 0, 1, 0);
+};
+
 drawHint1 = function drawHint1(cell, i, j) {
-  if (showHint) {
-    sw(1);
-    fc(1, 0, 0);
-    sc();
-    textSize(20);
-    return text(cell, TILE * i + 20, TILE * j + 20);
-  }
+  return drawHint(cell, i, j, 1, 0, 0);
 };
 
 drawShadow = function drawShadow(i, j) {
@@ -465,6 +475,7 @@ draw = function draw() {
     circle(TILE * i, TILE * j, TILE / 2 - 3);
   }
   drawPath();
+  counter = {};
   for (index = q = 0, len4 = hints0.length; q < len4; index = ++q) {
     var _hints0$index = _slicedToArray(hints0[index], 2);
 

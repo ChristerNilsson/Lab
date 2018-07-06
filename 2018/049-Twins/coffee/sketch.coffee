@@ -32,6 +32,7 @@ showHint = false
 hints0 = []
 hints1 = []
 latestPair = []
+counter = {}
 
 class Hearts
 	constructor : (@x,@y,@count=12,@maximum=12) -> 
@@ -183,21 +184,21 @@ drawNumber = (cell,i,j) ->
 	stroke c2
 	text cell,TILE*i,TILE*j
 
-drawHint0 = (cell,i,j) ->
+drawHint = (cell,i,j,r,g,b) ->
 	if showHint 
 		sw 1
-		fc 0,1,0
+		fc r,g,b
 		sc()
 		textSize 20
-		text cell,TILE*i-20,TILE*j+20
+		key = "#{i}-#{j}"
+		if key not of counter then counter[key] = 0
+		dx = [-20,0,20][counter[key] %% 3]
+		dy = [-20,0,20][counter[key] // 3]
+		text cell,TILE*i+dx,TILE*j+dy
+		counter[key]++
 
-drawHint1 = (cell,i,j) ->
-	if showHint 
-		sw 1
-		fc 1,0,0
-		sc()
-		textSize 20
-		text cell,TILE*i+20,TILE*j+20
+drawHint0 = (cell,i,j) ->	drawHint cell,i,j,0,1,0
+drawHint1 = (cell,i,j) ->	drawHint cell,i,j,1,0,0
 
 drawShadow = (i,j) ->
 	if showShadow
@@ -240,6 +241,8 @@ draw = ->
 		circle TILE*i,TILE*j,TILE/2-3
 	drawPath()
 
+	counter = {}
+	
 	for [[i0,j0],[i1,j1]],index in hints0
 		drawHint0 "abcdefghijklmnopqrstuvwxyz"[index],i0,j0
 		drawHint0 "abcdefghijklmnopqrstuvwxyz"[index],i1,j1
