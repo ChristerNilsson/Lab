@@ -10,7 +10,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 // Internt används talen 1..100. Externt visas de som 0..99
 // Då ett tal plockats bort negeras det. Dessa visas gråa och förminskade.
 // Ramens celler innehåller 0.
-var Button,
+var ALFABET,
+    Button,
     COLORS,
     FREE,
     Hearts,
@@ -26,8 +27,7 @@ var Button,
     delta,
     draw,
     drawHint,
-    drawHint0,
-    drawHint1,
+    drawHintHelp,
     drawHints,
     drawLittera,
     drawNumber,
@@ -71,6 +71,8 @@ var Button,
     modulo = function modulo(a, b) {
   return (+a % (b = +b) + b) % b;
 };
+
+ALFABET = "abcdefghijklmnopqrstuvwxyz";
 
 SIZE = 12;
 
@@ -372,33 +374,47 @@ drawNumber = function drawNumber(cell, i, j) {
   }
   fill(c1);
   stroke(c2);
-  return text(cell, TILE * i, TILE * j + 10);
+  return text(cell, TILE * i, TILE * j + (showHint ? 10 : 0));
 };
 
-drawHint = function drawHint(cell, i, j, r, g, b) {
-  var dx, dy, key;
+drawHint = function drawHint(hints, r, g, b) {
+  var i0, i1, index, j0, j1, k, len, results;
   if (showHint) {
     sw(1);
     fc(r, g, b);
     sc();
     textSize(20);
-    key = i + '-' + j;
-    if (!(key in counter)) {
-      counter[key] = 0;
+    results = [];
+    for (index = k = 0, len = hints.length; k < len; index = ++k) {
+      var _hints$index = _slicedToArray(hints[index], 2);
+
+      var _hints$index$ = _slicedToArray(_hints$index[0], 2);
+
+      i0 = _hints$index$[0];
+      j0 = _hints$index$[1];
+
+      var _hints$index$2 = _slicedToArray(_hints$index[1], 2);
+
+      i1 = _hints$index$2[0];
+      j1 = _hints$index$2[1];
+
+      drawHintHelp(ALFABET[index], i0, j0);
+      results.push(drawHintHelp(ALFABET[index], i1, j1));
     }
-    dx = [-20, 0, 20][modulo(counter[key], 3)];
-    dy = [-20, 0, 20][Math.floor(counter[key] / 3)];
-    text(cell, TILE * i + dx, TILE * j + dy);
-    return counter[key]++;
+    return results;
   }
 };
 
-drawHint0 = function drawHint0(cell, i, j) {
-  return drawHint(cell, i, j, 0, 1, 0);
-};
-
-drawHint1 = function drawHint1(cell, i, j) {
-  return drawHint(cell, i, j, 1, 0, 0);
+drawHintHelp = function drawHintHelp(cell, i, j) {
+  var dx, dy, key;
+  key = i + '-' + j;
+  if (!(key in counter)) {
+    counter[key] = 0;
+  }
+  dx = [-20, 0, 20][modulo(counter[key], 3)];
+  dy = [-20, 0, 20][Math.floor(counter[key] / 3)];
+  text(cell, TILE * i + dx, TILE * j + dy);
+  return counter[key]++;
 };
 
 drawShadow = function drawShadow(i, j) {
@@ -425,7 +441,7 @@ drawShadow = function drawShadow(i, j) {
 };
 
 draw = function draw() {
-  var button, cell, h, i, i0, i1, index, j, j0, j1, k, l, len, len1, len2, len3, len4, len5, m, ms, o, q, ref, ref1, s, w, x, y;
+  var button, cell, h, i, j, k, l, len, len1, len2, len3, m, ms, o, ref, ref1, w, x, y;
   bg(0.25);
   sw(1);
   buttons[2].txt = level - 1;
@@ -476,38 +492,8 @@ draw = function draw() {
   }
   drawPath();
   counter = {};
-  for (index = q = 0, len4 = hints0.length; q < len4; index = ++q) {
-    var _hints0$index = _slicedToArray(hints0[index], 2);
-
-    var _hints0$index$ = _slicedToArray(_hints0$index[0], 2);
-
-    i0 = _hints0$index$[0];
-    j0 = _hints0$index$[1];
-
-    var _hints0$index$2 = _slicedToArray(_hints0$index[1], 2);
-
-    i1 = _hints0$index$2[0];
-    j1 = _hints0$index$2[1];
-
-    drawHint0("abcdefghijklmnopqrstuvwxyz"[index], i0, j0);
-    drawHint0("abcdefghijklmnopqrstuvwxyz"[index], i1, j1);
-  }
-  for (index = s = 0, len5 = hints1.length; s < len5; index = ++s) {
-    var _hints1$index = _slicedToArray(hints1[index], 2);
-
-    var _hints1$index$ = _slicedToArray(_hints1$index[0], 2);
-
-    i0 = _hints1$index$[0];
-    j0 = _hints1$index$[1];
-
-    var _hints1$index$2 = _slicedToArray(_hints1$index[1], 2);
-
-    i1 = _hints1$index$2[0];
-    j1 = _hints1$index$2[1];
-
-    drawHint1("ABCDEFGHIJKLMNOPQRSTUVWXYZ"[index], i0, j0);
-    drawHint1("ABCDEFGHIJKLMNOPQRSTUVWXYZ"[index], i1, j1);
-  }
+  drawHint(hints0, 0, 1, 0);
+  drawHint(hints1, 1, 0, 0);
   pop();
   if (state === 'halted') {
     fc(1, 1, 0, 0.5);
