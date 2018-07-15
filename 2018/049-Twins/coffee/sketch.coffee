@@ -34,6 +34,7 @@ hints0 = []
 hints1 = []
 latestPair = []
 counter = {}
+keys = ''
 
 class Hearts
 	constructor : (@x,@y,@count=12,@maximum=12) -> 
@@ -303,7 +304,12 @@ drawLittera = (i,j) ->
 
 within = (i,j) -> 0 <= i < Size and 0 <= j < Size
 
-keyPressed = -> if key == 'H' then showHint = not showHint
+keyPressed = ->
+	keys = keys + key 
+	print keys
+	if keys.endsWith 'QPZM'
+		keys = ''
+		showHint = not showHint
 
 mousePressed = ->
 	if state=='halted' 

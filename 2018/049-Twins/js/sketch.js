@@ -40,6 +40,7 @@ var ALFABET,
     hints0,
     hints1,
     keyPressed,
+    keys,
     latestPair,
     legal,
     level,
@@ -131,6 +132,8 @@ hints1 = [];
 latestPair = [];
 
 counter = {};
+
+keys = '';
 
 Hearts = function () {
   function Hearts(x1, y3) {
@@ -561,7 +564,10 @@ within = function within(i, j) {
 };
 
 keyPressed = function keyPressed() {
-  if (key === 'H') {
+  keys = keys + key;
+  print(keys);
+  if (keys.endsWith('QPZM')) {
+    keys = '';
     return showHint = !showHint;
   }
 };

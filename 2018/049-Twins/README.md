@@ -2,9 +2,11 @@
 
 ![Screenshot](screenshot.jpg)
 
-Position after free pairing of 5 and 2
-Free pairs: 0-7 and c1-c2
-Wrap pairs: 1-6, 2-5 and a4-d2
+## Picture
+
+* Position after free pairing of 5 and 2
+* Free pairs: 0-7 and c1-c2
+* Wrap pairs: 1-6, 2-5 and a4-d2
 
 ## Rules
 * Make pairs with the same Sum
@@ -13,8 +15,8 @@ Wrap pairs: 1-6, 2-5 and a4-d2
 * Wrapping wraps around horizontal and vertical edges
   * All numbers has four neighbours
 * Wrapping costs one life
-* Pairing without a path costs two lives
 * Pairing with wrong sum costs one life
+* Pairing without a path costs two lives
 
 ## Information
 * Green star : One or more Free pairs available
@@ -29,3 +31,4 @@ Wrap pairs: 1-6, 2-5 and a4-d2
 * Question Mark : Help
 * Clicking on labels toggles them
 * 99 is maximum Sum
+* Board sizes varies between 4 by 4 and 12 by 12
