@@ -6,8 +6,12 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 // fungerar för nämnare <= 10
 var Size,
     b,
+    bredd,
+    clearCell,
     display,
     f,
+    fetchCell,
+    findSum,
     g,
     _gcd,
     level,
@@ -16,8 +20,9 @@ var Size,
     mousePressed,
     msg,
     msg2,
-    newGame,
     pattern,
+    printHelp,
+    selected,
     setup,
     sums,
     within,
@@ -26,13 +31,15 @@ var Size,
 
 b = null;
 
-level = null;
+level = 0;
 
 Size = null;
 
-msg = [0, 0];
+selected = null; // innehåller [i,j]
 
-msg2 = [0, 0];
+msg = null; // innehåller [i,j]
+
+msg2 = null; // innehåller [n,d]
 
 mode = 4;
 
@@ -107,17 +114,13 @@ pattern = function pattern(s) {
 };
 
 makeGame = function makeGame() {
-  var c1, c2, candidates, d, d1, d2, e, i, j, k, l, len, len1, len2, len3, len4, milliseconds0, n, n1, n2, numbers, o, r, ref, ref1, ref2, state, u;
-  level = 1;
-  Size = 4 + Math.floor(level / 4);
-  if (Size > 12) {
-    Size = 12;
-  }
-  Size = 4;
-  numbers = (Size - 2) * (Size - 2);
-  if (numbers % 2 === 1) {
-    numbers -= 1;
-  }
+  var delta = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+
+  var c1, c2, candidates, d, d1, d2, e, i, j, k, l, len, len1, len2, len3, len4, n, n1, n2, o, r, ref, ref1, ref2, results, u;
+  level += delta;
+  level = constrain(level, 0, 7);
+  mode = [0, 0, 1, 1, 2, 2, 3, 4][level];
+  Size = 3 + level;
   candidates = [];
   b = new Array(Size);
   ref = range(Size);
@@ -128,7 +131,7 @@ makeGame = function makeGame() {
     for (l = 0, len1 = ref1.length; l < len1; l++) {
       j = ref1[l];
       if (i === j) {
-        b[i][j] = [];
+        b[i][j] = null;
       } else {
         b[i][j] = [i + 1, j + 1];
         candidates.push([i + 1, j + 1]);
@@ -159,15 +162,15 @@ makeGame = function makeGame() {
         e = _gcd(n, d);
         n = Math.floor(n / e);
         d = Math.floor(d / e);
-        //print n1,d1,n2,d2,n,d
-        print(n + '/' + d //f(13,n,d,10), f(50,n,d,2)
-        );
       }
     }
   }
+  //print n1,d1,n2,d2,n,d
+  //print "#{n}/#{d}" #f(13,n,d,10), f(50,n,d,2)
   candidates = _.shuffle(candidates);
   sums = [];
   ref2 = range(Math.floor(candidates.length / 2));
+  results = [];
   for (u = 0, len4 = ref2.length; u < len4; u++) {
     i = ref2[u];
 
@@ -190,24 +193,82 @@ makeGame = function makeGame() {
     e = _gcd(n, d);
     n = Math.floor(n / e);
     d = Math.floor(d / e);
-    sums.push([n, d]);
+    results.push(sums.push([n, d]));
   }
-  //print n1,d1,n2,d2,n,d
-  //print f 13,n,d,10
-  //print f 50,n,d,2
-  milliseconds0 = millis();
-  return state = 'running';
+  return results;
 };
 
-newGame = function newGame() {
-  return msg2 = sums.pop();
+//print n1,d1,n2,d2,n,d
+//print f 13,n,d,10
+//print f 50,n,d,2
+
+//milliseconds0 = millis()
+//state = 'running'
+findSum = function findSum() {
+  var d, d1, d2, e, i, index1, index2, j, k, l, len, len1, len2, len3, lst, n, n1, n2, o, r, ref, ref1, ref2, ref3;
+  lst = [];
+  ref = range(Size);
+  for (k = 0, len = ref.length; k < len; k++) {
+    i = ref[k];
+    ref1 = range(Size);
+    for (l = 0, len1 = ref1.length; l < len1; l++) {
+      j = ref1[l];
+      if (b[i][j]) {
+        lst.push([i, j]);
+      }
+    }
+  }
+  if (lst.length === 0) {
+    makeGame(1);
+    ref2 = range(Size);
+    for (o = 0, len2 = ref2.length; o < len2; o++) {
+      i = ref2[o];
+      ref3 = range(Size);
+      for (r = 0, len3 = ref3.length; r < len3; r++) {
+        j = ref3[r];
+        if (b[i][j]) {
+          lst.push([i, j]);
+        }
+      }
+    }
+  }
+  index1 = [-1, -1];
+  index2 = [-1, -1];
+  while (index1[0] === index2[0] && index1[1] === index2[1]) {
+    index1 = _.sample(lst);
+    index2 = _.sample(lst);
+  }
+
+  var _fetchCell = fetchCell(index1);
+
+  var _fetchCell2 = _slicedToArray(_fetchCell, 2);
+
+  n1 = _fetchCell2[0];
+  d1 = _fetchCell2[1];
+
+  var _fetchCell3 = fetchCell(index2);
+
+  var _fetchCell4 = _slicedToArray(_fetchCell3, 2);
+
+  n2 = _fetchCell4[0];
+  d2 = _fetchCell4[1];
+
+  d = d1 * d2;
+  n = n1 * d2 + n2 * d1;
+  e = _gcd(n, d);
+  n = Math.floor(n / e);
+  d = Math.floor(d / e);
+  return [n, d];
 };
 
-//msg2 = [57,35]
 display = function display(m, n, d, x, y) {
   var s, t, x0;
   if (m === 0) {
-    text(n + '/' + d, x, y);
+    if (d === 1) {
+      text('' + n, x, y);
+    } else {
+      text(n + '/' + d, x, y);
+    }
   }
   if (m === 1) {
     text('DEC ' + n / d, x, y);
@@ -250,8 +311,9 @@ setup = function setup() {
   rectMode(CENTER);
   textAlign(CENTER, CENTER);
   makeGame();
-  newGame();
-  return xdraw();
+  msg2 = findSum();
+  xdraw();
+  return printHelp();
 };
 
 xdraw = function xdraw() {
@@ -271,7 +333,7 @@ xdraw = function xdraw() {
       j = ref1[l];
       sw(1);
       rect(40 * i, 40 * j, 40, 40);
-      if (i !== j) {
+      if (b[j][i]) {
         var _b$j$i = _slicedToArray(b[j][i], 2);
 
         n = _b$j$i[0];
@@ -294,43 +356,131 @@ xdraw = function xdraw() {
   pop();
   textSize(64);
   textAlign(LEFT, TOP);
-  sw(3);
-  var _msg = msg;
+  sw(1);
+  if (selected) {
+    var _selected = selected;
+
+    var _selected2 = _slicedToArray(_selected, 2);
+
+    j = _selected2[0];
+    i = _selected2[1];
+
+    push();
+    fc(1, 1, 0, 0.5);
+    circle(100 + 40 * i, 100 + 40 * j, 19);
+    pop();
+  }
+  if (msg) {
+    var _fetchCell5 = fetchCell(msg);
+
+    var _fetchCell6 = _slicedToArray(_fetchCell5, 2);
+
+    n = _fetchCell6[0];
+    d = _fetchCell6[1];
+
+    if (n !== d) {
+      display(mode, n, d, 20, 18);
+    }
+  }
+  var _msg = msg2;
 
   var _msg2 = _slicedToArray(_msg, 2);
 
   n = _msg2[0];
   d = _msg2[1];
 
-  if (n !== d) {
-    display(mode, n, d, 20, 18);
-  }
-  var _msg3 = msg2;
-
-  var _msg4 = _slicedToArray(_msg3, 2);
-
-  n = _msg4[0];
-  d = _msg4[1];
-
-  display(0, n, d, 20, 480);
-  display(1, n, d, 20, 540);
-  display(2, n, d, 20, 600);
-  display(3, n, d, 20, 660);
-  return display(4, n, d, 20, 720);
+  return display(mode, n, d, 20, 480);
 };
 
+// display 1,n,d,20,540
+// display 2,n,d,20,600
+// display 3,n,d,20,660
+// display 4,n,d,20,720
 within = function within(i, j) {
   return 0 <= i && i < Size && 0 <= j && j < Size && i !== j;
 };
 
+fetchCell = function fetchCell(pair) {
+  return b[pair[0]][pair[1]];
+};
+
+clearCell = function clearCell(pair) {
+  return b[pair[0]][pair[1]] = null;
+};
+
 mousePressed = function mousePressed() {
-  var i, j;
-  j = Math.floor((mouseX - 100 + 20) / 40);
-  i = Math.floor((mouseY - 100 + 20) / 40);
-  msg = [0, 0];
-  if (within(i, j)) {
-    msg = b[i][j];
+  var d, d1, d2, e, i, j, n, n1, n2;
+  j = Math.floor((mouseX - 80) / 40);
+  i = Math.floor((mouseY - 80) / 40);
+  msg = within(i, j) ? [i, j] : null;
+  if (!selected) {
+    // first selection
+    selected = msg;
+  } else if (msg) {
+    var _fetchCell7 = fetchCell(selected); // second selection
+
+
+    var _fetchCell8 = _slicedToArray(_fetchCell7, 2);
+
+    n1 = _fetchCell8[0];
+    d1 = _fetchCell8[1];
+
+    var _fetchCell9 = fetchCell(msg);
+
+    var _fetchCell10 = _slicedToArray(_fetchCell9, 2);
+
+    n2 = _fetchCell10[0];
+    d2 = _fetchCell10[1];
+
+    d = d1 * d2;
+    n = n1 * d2 + n2 * d1;
+    e = _gcd(n, d);
+    n = Math.floor(n / e);
+    d = Math.floor(d / e);
+    if (n === msg2[0] && d === msg2[1]) {
+      clearCell(selected);
+      clearCell(msg);
+      msg2 = findSum();
+    }
+    selected = null;
+    msg = null;
   }
   return xdraw();
+};
+
+bredd = function bredd(nr, digits) {
+  var s;
+  s = nr.toString();
+  return '      '.slice(0, digits - s.length) + s;
+};
+
+printHelp = function printHelp() {
+  var digits, i, j, k, l, len, len1, len2, m, n, o, ref, ref1, ref2, res, s;
+  m = 2;
+  res = '';
+  ref = range(3, 11);
+  for (k = 0, len = ref.length; k < len; k++) {
+    n = ref[k];
+    digits = [0, 0, 0, 2, 2, 3, 3, 4, 4, 5, 5][n];
+    m *= n / _gcd(m, n);
+    res += 'n = ' + n + ' ############ ' + m + '-delar\n';
+    ref1 = range(1, n + 1);
+    for (l = 0, len1 = ref1.length; l < len1; l++) {
+      i = ref1[l];
+      s = '';
+      ref2 = range(1, n + 1);
+      for (o = 0, len2 = ref2.length; o < len2; o++) {
+        j = ref2[o];
+        if (i === j) {
+          s += "      ".slice(0, digits) + 'x';
+        } else {
+          s += ' ' + bredd(m * i / j, digits);
+        }
+      }
+      res += s + "\n";
+    }
+    res += "\n";
+  }
+  return print(res);
 };
 //# sourceMappingURL=sketch.js.map
