@@ -223,8 +223,12 @@ printHelp = ->
 		digits = [0,0,0,2,2,3,3,4,4,5,5][n]
 		m *= n / gcd m,n
 		res += "n = #{n} ############ #{m}-delar\n"
+		s = bredd '', digits
+		for j in range 1,n+1
+			s += ' ' + bredd j, digits
+		res += s+"\n"
 		for i in range 1,n+1
-			s = ''
+			s = bredd i,digits
 			for j in range 1,n+1
 				if i==j then s += "      ".slice(0,digits) + 'x'
 				else s += ' ' + bredd m*i/j, digits

@@ -455,7 +455,7 @@ bredd = function bredd(nr, digits) {
 };
 
 printHelp = function printHelp() {
-  var digits, i, j, k, l, len, len1, len2, m, n, o, ref, ref1, ref2, res, s;
+  var digits, i, j, k, l, len, len1, len2, len3, m, n, o, r, ref, ref1, ref2, ref3, res, s;
   m = 2;
   res = '';
   ref = range(3, 11);
@@ -464,13 +464,20 @@ printHelp = function printHelp() {
     digits = [0, 0, 0, 2, 2, 3, 3, 4, 4, 5, 5][n];
     m *= n / _gcd(m, n);
     res += 'n = ' + n + ' ############ ' + m + '-delar\n';
+    s = bredd('', digits);
     ref1 = range(1, n + 1);
     for (l = 0, len1 = ref1.length; l < len1; l++) {
-      i = ref1[l];
-      s = '';
-      ref2 = range(1, n + 1);
-      for (o = 0, len2 = ref2.length; o < len2; o++) {
-        j = ref2[o];
+      j = ref1[l];
+      s += ' ' + bredd(j, digits);
+    }
+    res += s + "\n";
+    ref2 = range(1, n + 1);
+    for (o = 0, len2 = ref2.length; o < len2; o++) {
+      i = ref2[o];
+      s = bredd(i, digits);
+      ref3 = range(1, n + 1);
+      for (r = 0, len3 = ref3.length; r < len3; r++) {
+        j = ref3[r];
         if (i === j) {
           s += "      ".slice(0, digits) + 'x';
         } else {
