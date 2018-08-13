@@ -6,9 +6,11 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 // Vectorized Playing Cards 2.0 - http://sourceforge.net/projects/vector-cards/
 // Copyright 2015 - Chris Aguilar - conjurenation@gmail.com
 // Licensed under LGPL 3 - www.gnu.org/copyleft/lesser.html
-var H, W, board, display, hist, img, keyPressed, legalMove, makeMove, marked, mousePressed, preload, setup, showCard;
+var H, OFFSETX, W, board, display, hist, img, keyPressed, legalMove, makeMove, marked, mousePressed, preload, setup, showCard;
 
-W = 263.25;
+OFFSETX = 468;
+
+W = 263;
 
 H = 352;
 
@@ -27,7 +29,6 @@ marked = null;
 setup = function setup() {
   var cards, i, j, l, len, len1, len2, len3, len4, len5, len6, m, o, p, q, r, ref, ref1, ref2, ref3, ref4, ref5, ref6, rr, s;
   createCanvas(800, 600);
-
   // createCanvas 4000,2600
   // image img, 0,0 #, w,h, 460+W*i,1080+H*j,W,H
   // return
@@ -93,7 +94,7 @@ showCard = function showCard(heap, k, x, y) {
   j = _board$heap$k[0];
   i = _board$heap$k[1];
 
-  image(img, x, y, w, h, 449 + W * i, 1080 + H * j, W, H);
+  image(img, x, y, w, h, OFFSETX + W * i, 1080 + H * j, 243, H);
   if (marked != null) {
     if (k === board[heap].length - 1) {
       if (marked === heap) {

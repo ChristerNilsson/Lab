@@ -2,7 +2,8 @@
 # Copyright 2015 - Chris Aguilar - conjurenation@gmail.com
 # Licensed under LGPL 3 - www.gnu.org/copyleft/lesser.html
 
-W = 263.25
+OFFSETX = 468
+W = 263
 H = 352
 img = null
 board=null
@@ -13,7 +14,7 @@ marked = null
 
 setup = ->
 	createCanvas 800,600
-	
+
 	# createCanvas 4000,2600
 	# image img, 0,0 #, w,h, 460+W*i,1080+H*j,W,H
 	# return
@@ -52,7 +53,7 @@ showCard = (heap,k,x,y) ->
 	y = y * h
 
 	[j,i] = board[heap][k]
-	image img, x,y, w,h, 449+W*i,1080+H*j,W,H
+	image img, x,y, w,h, OFFSETX+W*i,1080+H*j,243,H
 	if marked?
 		if k==board[heap].length-1
 			if marked == heap 
