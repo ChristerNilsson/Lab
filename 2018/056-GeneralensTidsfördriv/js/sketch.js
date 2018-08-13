@@ -6,13 +6,17 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 // Vectorized Playing Cards 2.0 - http://sourceforge.net/projects/vector-cards/
 // Copyright 2015 - Chris Aguilar - conjurenation@gmail.com
 // Licensed under LGPL 3 - www.gnu.org/copyleft/lesser.html
-var H, OFFSETX, W, board, display, hist, img, keyPressed, legalMove, makeMove, marked, mousePressed, preload, setup, showCard;
+var H, OFFSETX, W, board, display, h, hist, img, keyPressed, legalMove, makeMove, marked, mousePressed, preload, setup, showCard, w;
 
 OFFSETX = 468;
 
-W = 263;
+W = 263.25;
 
 H = 352;
+
+w = W / 3;
+
+h = H / 3;
 
 img = null;
 
@@ -72,20 +76,20 @@ setup = function setup() {
   return display();
 };
 
-showCard = function showCard(heap, k, x, y) {
-  var dx, h, i, j, n, w, x0;
-  n = board[heap].length;
+showCard = function showCard(heap, k, x, y, n) {
+  var dx = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : 0;
+
+  var i, j, x0;
   if (n === 0) {
     return;
   }
-  w = W / 3;
-  dx = w;
   x0 = width / 2 - w / 2;
-  if (n > 7) {
-    dx = (width / 2 - w / 2 - w) / (n - 1) * 2;
-    x0 += x < 0 ? -w + dx : w - dx;
+  if (x < 0) {
+    x0 += -w + dx;
   }
-  h = H / 3;
+  if (x > 0) {
+    x0 += w - dx;
+  }
   x = x0 + x * dx / 2;
   y = y * h;
 
@@ -94,9 +98,9 @@ showCard = function showCard(heap, k, x, y) {
   j = _board$heap$k[0];
   i = _board$heap$k[1];
 
-  image(img, x, y, w, h, OFFSETX + W * i, 1080 + H * j, 243, H);
+  image(img, x, y, w, h, OFFSETX + W * i, 1092 + H * j, 243, H);
   if (marked != null) {
-    if (k === board[heap].length - 1) {
+    if (k === n - 1) {
       if (marked === heap) {
         fc(0, 1, 0, 0.5);
         return circle(x + w / 2, y + h / 2, 20);
@@ -106,38 +110,43 @@ showCard = function showCard(heap, k, x, y) {
 };
 
 display = function display() {
-  var heap, l, len, len1, len2, len3, len4, len5, m, n, o, p, q, r, ref, ref1, ref2, ref3, ref4, ref5, results, x, xx, y, z;
+  var dx, heap, l, len, len1, len2, len3, len4, len5, m, n, o, p, q, r, ref, ref1, ref2, ref3, ref4, ref5, results, x, xx, y, z;
   bg(0.5);
   ref = [0, 1, 2, 3];
-  for (l = 0, len = ref.length; l < len; l++) {
-    heap = ref[l];
+  for (y = l = 0, len = ref.length; l < len; y = ++l) {
+    heap = ref[y];
     n = board[heap].length;
-    showCard(heap, n - 1, 0, heap);
+    showCard(heap, n - 1, 0, y, n);
   }
   ref1 = [4, 5, 6, 7];
   for (y = m = 0, len1 = ref1.length; m < len1; y = ++m) {
     heap = ref1[y];
+    n = board[heap].length;
+    dx = n <= 7 ? w : (width / 2 - w / 2 - w) / (n - 1) * 2;
     ref2 = board[heap];
     for (x = o = 0, len2 = ref2.length; o < len2; x = ++o) {
       z = ref2[x];
-      showCard(heap, x, -2 - x, y);
+      showCard(heap, x, -2 - x, y, n, dx);
     }
   }
   ref3 = [8, 9, 10, 11];
   for (y = p = 0, len3 = ref3.length; p < len3; y = ++p) {
     heap = ref3[y];
+    n = board[heap].length;
+    dx = n <= 7 ? w : (width / 2 - w / 2 - w) / (n - 1) * 2;
     ref4 = board[heap];
     for (x = q = 0, len4 = ref4.length; q < len4; x = ++q) {
       z = ref4[x];
-      showCard(heap, x, 2 + x, y);
+      showCard(heap, x, 2 + x, y, n, dx);
     }
   }
   ref5 = [12, 13, 14, 15, 16, 17, 18, 19, 20];
   results = [];
   for (x = r = 0, len5 = ref5.length; r < len5; x = ++r) {
     heap = ref5[x];
+    n = board[heap].length;
     xx = [-8, -6, -4, -2, 0, 2, 4, 6, 8][x];
-    results.push(showCard(heap, 0, xx, 4));
+    results.push(showCard(heap, 0, xx, 4, n, w));
   }
   return results;
 };

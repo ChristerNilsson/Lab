@@ -3,8 +3,10 @@
 # Licensed under LGPL 3 - www.gnu.org/copyleft/lesser.html
 
 OFFSETX = 468
-W = 263
+W = 263.25
 H = 352
+w = W/3
+h = H/3
 img = null
 board=null
 hist = []
@@ -38,45 +40,44 @@ setup = ->
 
 	display()
 
-showCard = (heap,k,x,y) ->
-	n = board[heap].length
+showCard = (heap,k,x,y,n,dx=0) ->
 	if n==0 then return 
-
-	w = W/3
-	dx = w
 	x0 = width/2 - w/2
-	if n>7
-		dx = (width/2-w/2-w)/(n-1)*2
-		x0 += if x<0 then -w+dx	else w-dx
-	h = H/3
+	if x < 0 then x0 += -w+dx
+	if x > 0 then x0 += w-dx
 	x = x0 + x*dx/2
 	y = y * h
-
 	[j,i] = board[heap][k]
-	image img, x,y, w,h, OFFSETX+W*i,1080+H*j,243,H
+	image img, x,y, w,h, OFFSETX+W*i,1092+H*j,243,H
 	if marked?
-		if k==board[heap].length-1
+		if k==n-1
 			if marked == heap 
 				fc 0,1,0,0.5
 				circle x+w/2,y+h/2,20
 
 display = ->
 	bg 0.5
-	for heap in [0,1,2,3]
+
+	for heap,y in [0,1,2,3]
 		n = board[heap].length
-		showCard heap,n-1, 0, heap
+		showCard heap,n-1, 0, y, n
 
 	for heap,y in [4,5,6,7]
-		for z,x in board[heap] 
-			showCard heap,x, -2-x, y
+		n = board[heap].length
+		dx = if n<=7 then w else (width/2-w/2-w)/(n-1)*2
+		for z,x in board[heap]
+			showCard heap,x, -2-x, y,n,dx
 
 	for heap,y in [8,9,10,11]
+		n = board[heap].length
+		dx = if n<=7 then w else (width/2-w/2-w)/(n-1)*2
 		for z,x in board[heap] 
-			showCard heap,x, 2+x, y
+			showCard heap,x, 2+x, y,n,dx
 
 	for heap,x in [12,13,14,15,16,17,18,19,20]
+		n = board[heap].length
 		xx = [-8,-6,-4,-2,0,2,4,6,8][x]
-		showCard heap,0, xx,4
+		showCard heap,0, xx,4, n,w
 
 legalMove = (a,b) ->
 	if b in [12,13,14,15,17,18,19,20] then return false 
