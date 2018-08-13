@@ -1,0 +1,57 @@
+[[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,2,2],[1,3,3],[1,1,1],[3,1,1],[3,2,2]],[[0,4,4],[0,12,12],[3,5,5],[1,8,8],[3,9,9]],[[2,11,11],[3,12,12],[0,6,6],[2,5,5],[1,7,7]],[[0,8,8],[3,11,11],[2,6,6],[2,9,9],[1,12,12]],[[0,9,9],[0,10,10],[2,10,10],[2,4,4],[2,7,7]],[[1,2,2],[3,4,4],[3,6,6],[0,5,5],[1,11,11]],[[0,1,1],[0,7,7],[1,10,10],[1,5,5],[3,8,8]],[[0,3,3],[1,4,4],[3,3,3],[2,2,2],[3,10,10]],[[0,11,11]],[[3,7,7]],[[2,1,1]],[[2,8,8]],[],[[1,6,6]],[[2,3,3]],[[2,12,12]],[[1,9,9]]]
+
+Kungarna först, Inget fängelse
+
+HjK HjA
+HjQ HjK
+SpK SpA
+RuT RuJ
+Hj8 Hj9
+Sp9 SpT
+Sp8 Sp9
+Sp6 Sp5
+Kl7 Kl6
+RuK RuA
+SpQ SpK
+RuJ Ru9
+Sp4 Sp3
+Sp5 hål
+Sp6 Sp4
+SpJ SpQ
+SpT hål
+Sp8 SpJ
+Sp7 Sp8
+Sp3 Sp7
+Sp2 Sp3
+RuQ RuK
+Ru9 RuQ
+Ru8 Ru9
+Ru4 Ru3
+Hj7 Hj8
+Hj6 Hj7
+Hj5 Hj6
+HjJ HjQ
+HjT HjJ
+Hj9 hål
+Hj5 HjT
+Kl6 Kl8
+Ru7 Ru8
+Ru6 Ru7
+Ru5 Ru6
+Ru2 Ru5
+Ru2 Ru3
+KlK KlA
+KlQ KlK
+KlJ KlQ
+KlT KlJ
+Kl9 KlT
+Kl8 hål
+Kl6 Kl9
+Kl5 Kl6
+Kl4 Kl5
+Hj2 hål
+Hj4 Hj5
+Hj3 Hj4
+Hj2 Hj3
+Kl3 Kl4
+Kl2 Kl3
