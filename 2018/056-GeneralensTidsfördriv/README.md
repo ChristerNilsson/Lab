@@ -17,8 +17,6 @@ De skapade patienserna är alltid lösbara.
 * Man måste bygga uppåt på essen.
 * Man kan ej använda något fängelse.
 
-![Generalens Tidsfördriv 1](bild1.jpg "Logo Title Text 1")
-![Generalens Tidsfördriv 2](bild2.jpg "Logo Title Text 2")
-![Generalens Tidsfördriv](bild3.jpg "Logo Title Text 3")
-
-
+![](bild1.jpg "Generalens Tidsfördriv 1")
+![](bild2.jpg "Generalens Tidsfördriv 2")
+![](bild3.jpg "Generalens Tidsfördriv")
