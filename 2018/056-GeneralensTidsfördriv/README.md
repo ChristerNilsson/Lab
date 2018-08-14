@@ -1,5 +1,7 @@
 # Generalens Tidsfördriv
 
+![](bild3.jpg "Generalens Tidsfördriv")
+
 * Denna patiens går ut på att bygga uppåt på essen. Dvs Ess till Kung
 * På de åtta sekvenserna får man bygga både uppåt och neråt.
 * Blir en sekvens tom får man placera valfritt kort där.
@@ -17,6 +19,3 @@ De skapade patienserna är alltid lösbara.
 * Man måste bygga uppåt på essen.
 * Man kan ej använda något fängelse.
 
-![](bild1.jpg "Generalens Tidsfördriv 1")
-![](bild2.jpg "Generalens Tidsfördriv 2")
-![](bild3.jpg "Generalens Tidsfördriv")
