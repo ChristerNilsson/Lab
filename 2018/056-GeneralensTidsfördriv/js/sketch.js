@@ -12,7 +12,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 //  6  6  6  6  6  2 10 10 10 10 10
 //  7  7  7  7  7  3 11 11 11 11 11
 //    12 13 14 15 16 17 18 19 20
-var H, OFFSETX, RANK, SUIT, W, aceCards, board, calcAntal, cands, cards, countAceCards, display, done, dsts, expand, fakeBoard, findAllMoves, h, hash, hist, img, keyPressed, legalMove, makeBoard, makeKey, makeMove, marked, mousePressed, preload, prettyCard, prettyMove, printSolution, range, setup, showHeap, solve, srcs, w;
+var H, OFFSETX, RANK, SUIT, W, aceCards, board, calcAntal, cands, cards, countAceCards, display, done, dsts, expand, fakeBoard, findAllMoves, h, hash, hist, img, keyPressed, legalMove, makeBoard, makeKey, makeMove, marked, mousePressed, newGame, originalBoard, preload, prettyCard, prettyMove, printSolution, range, setup, showHeap, solve, srcs, w;
 
 SUIT = "kl hj sp ru".split(' ');
 
@@ -46,6 +46,8 @@ aceCards = 4;
 
 done = null;
 
+originalBoard = null;
+
 preload = function preload() {
   return img = loadImage('cards/Color_52_Faces_v.2.0.png');
 };
@@ -55,7 +57,7 @@ range = _.range;
 makeBoard = function makeBoard() {
   var wild = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
 
-  var heap, i, j, l, len, len1, len2, len3, len4, len5, len6, m, o, p, q, r, rank, ref, ref1, ref2, ref3, ref4, ref5, ref6, rr, suit, t;
+  var heap, i, j, l, len, len1, len2, len3, len4, len5, len6, m, o, p, q, r, rank, ref, ref1, ref2, ref3, ref4, ref5, ref6, results, rr, suit, t;
   cards = [];
   ref = range(1, 13);
   for (l = 0, len = ref.length; l < len; l++) {
@@ -89,11 +91,12 @@ makeBoard = function makeBoard() {
     }
   }
   ref6 = [12, 13, 14, 15, 17, 18, 19, 20];
+  results = [];
   for (t = 0, len6 = ref6.length; t < len6; t++) {
     heap = ref6[t];
-    board[heap].push(cards.pop());
+    results.push(board[heap].push(cards.pop()));
   }
-  return print(JSON.stringify(board));
+  return results;
 };
 
 fakeBoard = function fakeBoard() {
@@ -103,18 +106,14 @@ fakeBoard = function fakeBoard() {
   //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[3,12,12],[3,9,9],[2,5,5],[3,2,2],[1,10,10]],[[0,1,1],[0,10,10],[2,4,4],[1,3,3],[3,7,7]],[[0,3,3],[0,11,11],[2,7,7],[3,8,8],[1,2,2]],[[0,5,5],[2,6,6],[0,6,6],[3,3,3],[1,5,5]],[[0,4,4],[3,5,5],[0,2,2],[3,10,10],[2,2,2]],[[2,10,10],[0,12,12],[2,1,1],[2,11,11],[0,9,9]],[[3,4,4],[1,7,7],[1,6,6],[2,12,12],[1,8,8]],[[1,1,1],[1,12,12],[1,11,11],[1,4,4],[2,3,3]],[[0,8,8]],[[3,11,11]],[[2,9,9]],[[0,7,7]],[],[[3,1,1]],[[2,8,8]],[[3,6,6]],[[1,9,9]]] # 264 ms
   //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[1,1,1],[0,12,12],[3,3,3],[2,7,7],[3,11,11]],[[2,11,11],[2,8,8],[3,6,6],[0,1,1],[0,6,6]],[[1,8,8],[1,6,6],[0,3,3],[1,3,3],[0,7,7]],[[0,11,11],[1,10,10],[3,12,12],[1,11,11],[1,2,2]],[[0,4,4],[3,2,2],[2,2,2],[3,7,7],[0,5,5]],[[2,5,5],[2,9,9],[3,8,8],[3,9,9],[2,4,4]],[[2,10,10],[0,9,9],[1,12,12],[3,4,4],[3,10,10]],[[2,12,12],[3,5,5],[1,4,4],[2,1,1],[0,2,2]],[[1,5,5]],[[0,10,10]],[[0,8,8]],[[1,9,9]],[],[[3,1,1]],[[1,7,7]],[[2,6,6]],[[2,3,3]]] # 397 ms
   board = [[[2, 0, 0]], [[1, 0, 0]], [[3, 0, 0]], [[0, 0, 0]], [[0, 2, 2], [2, 4, 4], [2, 10, 10], [2, 5, 5], [1, 1, 1], [3, 12, 12], [2, 12, 12], [3, 11, 11], [1, 8, 8], [1, 6, 6]], [[3, 9, 9], [2, 11, 11], [0, 12, 12], [0, 3, 3], [3, 10, 10]], [[3, 3, 3], [0, 9, 9]], [[2, 7, 7], [1, 4, 4], [3, 2, 2], [1, 9, 9], [0, 6, 6], [1, 5, 5], [0, 1, 1]], [[1, 3, 3], [1, 2, 2], [2, 2, 2], [2, 6, 6], [1, 11, 11]], [[3, 7, 7], [2, 8, 8], [1, 7, 7], [3, 1, 1], [0, 8, 8]], [[2, 3, 3], [3, 5, 5], [3, 6, 6]], [[1, 12, 12], [3, 4, 4], [0, 5, 5]], [[0, 7, 7]], [[3, 8, 8]], [[1, 10, 10]], [[0, 11, 11]], [], [[0, 4, 4]], [[0, 10, 10]], [[2, 1, 1]], [[2, 9, 9]]];
-  board = [[[2, 0, 0]], [[1, 0, 0]], [[3, 0, 0]], [[0, 0, 0]], [[2, 7, 7], [0, 8, 8], [0, 2, 2], [0, 5, 5]], [[2, 9, 9], [1, 5, 5], [0, 3, 3], [2, 11, 11], [1, 10, 10]], [[2, 2, 2], [1, 8, 8]], [[1, 11, 11], [2, 6, 6], [2, 10, 10], [2, 5, 5], [3, 3, 3], [1, 1, 1]], [[3, 2, 2], [3, 12, 12], [2, 3, 3], [1, 7, 7], [3, 4, 4], [3, 11, 11]], [[3, 8, 8], [0, 10, 10], [3, 7, 7], [0, 12, 12], [1, 3, 3], [0, 9, 9], [1, 12, 12]], [[0, 7, 7], [2, 12, 12], [0, 6, 6], [3, 9, 9]], [[1, 2, 2], [0, 4, 4], [1, 6, 6], [2, 4, 4], [1, 4, 4], [1, 9, 9]], [[3, 6, 6]], [[2, 8, 8]], [[2, 1, 1]], [[3, 10, 10]], [], [[0, 11, 11]], [[0, 1, 1]], [[3, 1, 1]], [[3, 5, 5 // 118 ms
+  return board = [[[2, 0, 0]], [[1, 0, 0]], [[3, 0, 0]], [[0, 0, 0]], [[2, 7, 7], [0, 8, 8], [0, 2, 2], [0, 5, 5]], [[2, 9, 9], [1, 5, 5], [0, 3, 3], [2, 11, 11], [1, 10, 10]], [[2, 2, 2], [1, 8, 8]], [[1, 11, 11], [2, 6, 6], [2, 10, 10], [2, 5, 5], [3, 3, 3], [1, 1, 1]], [[3, 2, 2], [3, 12, 12], [2, 3, 3], [1, 7, 7], [3, 4, 4], [3, 11, 11]], [[3, 8, 8], [0, 10, 10], [3, 7, 7], [0, 12, 12], [1, 3, 3], [0, 9, 9], [1, 12, 12]], [[0, 7, 7], [2, 12, 12], [0, 6, 6], [3, 9, 9]], [[1, 2, 2], [0, 4, 4], [1, 6, 6], [2, 4, 4], [1, 4, 4], [1, 9, 9]], [[3, 6, 6]], [[2, 8, 8]], [[2, 1, 1]], [[3, 10, 10]], [], [[0, 11, 11]], [[0, 1, 1]], [[3, 1, 1]], [[3, 5, 5 // 118 ms
   ]]];
-  return board = [[[2, 0, 0]], [[1, 0, 0]], [[3, 0, 0]], [[0, 0, 0]], [[3, 3, 3], [2, 3, 3], [0, 6, 6], [3, 5, 5], [0, 9, 9], [2, 10, 10], [1, 10, 10]], [[0, 10, 10], [0, 7, 7], [3, 8, 8], [2, 11, 11]], [[0, 12, 12], [3, 7, 7], [2, 1, 1], [2, 8, 8], [1, 7, 7]], [[1, 4, 4], [2, 5, 5], [2, 6, 6], [1, 2, 2], [0, 1, 1], [2, 2, 2], [3, 11, 11], [2, 7, 7]], [[3, 6, 6], [3, 9, 9], [0, 4, 4], [3, 4, 4], [1, 8, 8]], [[0, 3, 3], [3, 12, 12], [1, 11, 11]], [[2, 4, 4], [0, 2, 2], [3, 10, 10], [0, 8, 8]], [[1, 5, 5], [2, 9, 9], [1, 6, 6], [1, 1, 1]], [[0, 5, 5]], [[0, 11, 11]], [[2, 12, 12]], [[1, 3, 3]], [], [[1, 12, 12]], [[1, 9, 9]], [[3, 1, 1]], [[3, 2, 2]]];
 };
 
+//board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[3,3,3],[2,3,3],[0,6,6],[3,5,5],[0,9,9],[2,10,10],[1,10,10]],[[0,10,10],[0,7,7],[3,8,8],[2,11,11]],[[0,12,12],[3,7,7],[2,1,1],[2,8,8],[1,7,7]],[[1,4,4],[2,5,5],[2,6,6],[1,2,2],[0,1,1],[2,2,2],[3,11,11],[2,7,7]],[[3,6,6],[3,9,9],[0,4,4],[3,4,4],[1,8,8]],[[0,3,3],[3,12,12],[1,11,11]],[[2,4,4],[0,2,2],[3,10,10],[0,8,8]],[[1,5,5],[2,9,9],[1,6,6],[1,1,1]],[[0,5,5]],[[0,11,11]],[[2,12,12]],[[1,3,3]],[],[[1,12,12]],[[1,9,9]],[[3,1,1]],[[3,2,2]]]
 setup = function setup() {
   createCanvas(800, 600);
-  fakeBoard(true);
-  display(board);
-  cands = [board];
-  done = board;
-  return hash = {};
+  return newGame('C');
 };
 
 showHeap = function showHeap(board, heap, x, y, dx) {
@@ -187,7 +186,12 @@ calcAntal = function calcAntal(lst) {
 
 display = function display(board) {
   var dx, heap, l, len, len1, len2, len3, m, n, o, p, ref, ref1, ref2, ref3, results, x, xx, y;
-  background(0, 0, 128);
+  background(128);
+  textAlign(CENTER, CENTER);
+  fill(255, 255, 0);
+  text('R = Restart', width / 2, height - 80);
+  text('C = Classic', width / 2, height - 60);
+  text('W = Wild', width / 2, height - 40);
   ref = [0, 1, 2, 3];
   for (y = l = 0, len = ref.length; l < len; y = ++l) {
     heap = ref[y];
@@ -378,7 +382,7 @@ expand = function expand(b) {
       res.push(b1);
       if (aceCards < countAceCards(b1)) {
         aceCards = countAceCards(b1);
-        print('Done!', aceCards);
+        //print 'Done!',aceCards
         done = b1;
       }
     }
@@ -402,16 +406,40 @@ solve = function solve() {
   }
 };
 
-keyPressed = function keyPressed() {
+newGame = function newGame(key) {
   var start;
-  if (key === ' ') {
+  while (true) {
+    makeBoard(key === 'W');
+    originalBoard = _.cloneDeep(board);
+    cands = [board];
+    done = board;
+    hash = {};
+    aceCards = 4;
     start = millis();
     while (52 > countAceCards(done)) {
       solve();
       cands = [done];
+      if (done === null) {
+        break;
+      }
     }
-    print(millis() - start, countAceCards(done));
-    return printSolution(hash, done);
+    if (done != null) {
+      print(JSON.stringify(board));
+      printSolution(hash, done);
+      print(millis() - start);
+      display(board);
+      return;
+    }
+  }
+};
+
+keyPressed = function keyPressed() {
+  if (key === 'R') {
+    board = _.cloneDeep(originalBoard);
+    display(board);
+  }
+  if (key === 'C' || key === 'W') {
+    return newGame(key);
   }
 };
 
