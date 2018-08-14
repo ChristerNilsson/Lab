@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
 
@@ -6,7 +6,17 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 // Vectorized Playing Cards 2.0 - http://sourceforge.net/projects/vector-cards/
 // Copyright 2015 - Chris Aguilar - conjurenation@gmail.com
 // Licensed under LGPL 3 - www.gnu.org/copyleft/lesser.html
-var H, OFFSETX, W, board, calcAntal, cands, cards, countHoles, display, done, dsts, expand, fakeBoard, findAllMoves, h, hash, hist, holes, img, keyPressed, legalMove, makeBoard, makeKey, makeMove, marked, mousePressed, preload, range, setup, showHeap, solve, srcs, w;
+
+//  4  4  4  4  4  0  8  8  8  8  8
+//  5  5  5  5  5  1  9  9  9  9  9
+//  6  6  6  6  6  2 10 10 10 10 10
+//  7  7  7  7  7  3 11 11 11 11 11
+//    12 13 14 15 16 17 18 19 20
+var H, OFFSETX, RANK, SUIT, W, aceCards, board, calcAntal, cands, cards, countAceCards, display, done, dsts, expand, fakeBoard, findAllMoves, h, hash, hist, img, keyPressed, legalMove, makeBoard, makeKey, makeMove, marked, mousePressed, preload, prettyCard, prettyMove, printSolution, range, setup, showHeap, solve, srcs, w;
+
+SUIT = "kl hj sp ru".split(' ');
+
+RANK = "Ess 2 3 4 5 6 7 8 9 T Kn D K".split(' ');
 
 OFFSETX = 468;
 
@@ -32,7 +42,7 @@ cands = null;
 
 hash = null;
 
-holes = 0;
+aceCards = 4;
 
 done = null;
 
@@ -43,59 +53,9 @@ preload = function preload() {
 range = _.range;
 
 makeBoard = function makeBoard() {
-  var heap, i, j, l, len, len1, len2, len3, len4, m, o, p, q, ref, ref1, ref2, ref3, ref4, rr, suit;
-  board = [];
-  ref = range(21);
-  for (l = 0, len = ref.length; l < len; l++) {
-    i = ref[l];
-    board.push([]);
-  }
-  ref1 = [2, 1, 3, 0];
-  for (heap = m = 0, len1 = ref1.length; m < len1; heap = ++m) {
-    suit = ref1[heap];
-    board[heap].push([suit, 0, 0]);
-  }
-  ref2 = range(4, 12);
-  for (o = 0, len2 = ref2.length; o < len2; o++) {
-    i = ref2[o];
-    ref3 = range(5);
-    for (p = 0, len3 = ref3.length; p < len3; p++) {
-      j = ref3[p];
-      rr = int(random(4, 12));
-      board[i].push(cards.pop());
-    }
-  }
-  ref4 = [12, 13, 14, 15, 17, 18, 19, 20];
-  for (q = 0, len4 = ref4.length; q < len4; q++) {
-    heap = ref4[q];
-    board[heap].push(cards.pop());
-  }
-  return print(JSON.stringify(board));
-};
+  var wild = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
 
-fakeBoard = function fakeBoard() {
-  return board = [[[2, 0, 0]], [[1, 0, 0]], [[3, 0, 0]], [[0, 0, 0]], [[0, 2, 2], [1, 3, 3], [1, 1, 1], [3, 1, 1], [3, 2, 2]], [[0, 4, 4], [0, 12, 12], [3, 5, 5], [1, 8, 8], [3, 9, 9]], [[2, 11, 11], [3, 12, 12], [0, 6, 6], [2, 5, 5], [1, 7, 7]], [[0, 8, 8], [3, 11, 11], [2, 6, 6], [2, 9, 9], [1, 12, 12]], [[0, 9, 9], [0, 10, 10], [2, 10, 10], [2, 4, 4], [2, 7, 7]], [[1, 2, 2], [3, 4, 4], [3, 6, 6], [0, 5, 5], [1, 11, 11]], [[0, 1, 1], [0, 7, 7], [1, 10, 10], [1, 5, 5], [3, 8, 8]], [[0, 3, 3], [1, 4, 4], [3, 3, 3], [2, 2, 2], [3, 10, 10]], [[0, 11, 11]], [[3, 7, 7]], [[2, 1, 1]], [[2, 8, 8]], [], [[1, 6, 6]], [[2, 3, 3]], [[2, 12, 12]], [[1, 9, 9]]];
-};
-
-// board = []
-// for i in range 21 
-// 	board.push []
-
-// for heap in range 4
-// 	board[heap].push [heap,0,0]
-// board[4].push [0,5,5]
-// board[5].push [1,5,3]
-// board[5].push [2,5,3]
-// board[7].push [3,5,3]
-// board[8].push [0,6,6]
-// board[9].push [1,6,9]
-// board[10].push [2,6,9]
-// board[11].push [3,6,9]
-// for heap in [12,13,14,15,17,18,19,20]
-// 	board[heap].push cards.pop()
-setup = function setup() {
-  var l, len, len1, m, rank, ref, ref1, suit;
-  createCanvas(800, 600);
+  var heap, i, j, l, len, len1, len2, len3, len4, len5, len6, m, o, p, q, r, rank, ref, ref1, ref2, ref3, ref4, ref5, ref6, rr, suit, t;
   cards = [];
   ref = range(1, 13);
   for (l = 0, len = ref.length; l < len; l++) {
@@ -107,7 +67,50 @@ setup = function setup() {
     }
   }
   cards = _.shuffle(cards);
-  fakeBoard();
+  board = [];
+  ref2 = range(21);
+  for (o = 0, len2 = ref2.length; o < len2; o++) {
+    i = ref2[o];
+    board.push([]);
+  }
+  ref3 = [2, 1, 3, 0];
+  for (heap = p = 0, len3 = ref3.length; p < len3; heap = ++p) {
+    suit = ref3[heap];
+    board[heap].push([suit, 0, 0]);
+  }
+  ref4 = range(4, 12);
+  for (q = 0, len4 = ref4.length; q < len4; q++) {
+    i = ref4[q];
+    ref5 = range(5);
+    for (r = 0, len5 = ref5.length; r < len5; r++) {
+      j = ref5[r];
+      rr = wild ? int(random(4, 12)) : i;
+      board[rr].push(cards.pop());
+    }
+  }
+  ref6 = [12, 13, 14, 15, 17, 18, 19, 20];
+  for (t = 0, len6 = ref6.length; t < len6; t++) {
+    heap = ref6[t];
+    board[heap].push(cards.pop());
+  }
+  return print(JSON.stringify(board));
+};
+
+fakeBoard = function fakeBoard() {
+  //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,2,2],[1,3,3],[1,1,1],[3,1,1],[3,2,2]],[[0,4,4],[0,12,12],[3,5,5],[1,8,8],[3,9,9]],[[2,11,11],[3,12,12],[0,6,6],[2,5,5],[1,7,7]],[[0,8,8],[3,11,11],[2,6,6],[2,9,9],[1,12,12]],[[0,9,9],[0,10,10],[2,10,10],[2,4,4],[2,7,7]],[[1,2,2],[3,4,4],[3,6,6],[0,5,5],[1,11,11]],[[0,1,1],[0,7,7],[1,10,10],[1,5,5],[3,8,8]],[[0,3,3],[1,4,4],[3,3,3],[2,2,2],[3,10,10]],[[0,11,11]],[[3,7,7]],[[2,1,1]],[[2,8,8]],[],[[1,6,6]],[[2,3,3]],[[2,12,12]],[[1,9,9]]] # nix!
+  //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,10,10],[2,11,11],[0,6,6],[3,9,9],[1,8,8]],[[3,10,10],[2,10,10],[0,12,12],[0,4,4],[3,1,1]],[[3,12,12],[1,3,3],[1,4,4],[1,9,9],[0,2,2]],[[3,4,4],[3,5,5],[2,5,5],[2,9,9],[2,3,3]],[[3,6,6],[1,7,7],[0,5,5],[2,7,7],[3,8,8]],[[2,4,4],[0,9,9],[1,2,2],[3,11,11],[1,6,6]],[[2,8,8],[2,1,1],[2,2,2],[1,10,10],[3,3,3]],[[1,1,1],[1,11,11],[1,12,12],[3,7,7],[2,12,12]],[[0,11,11]],[[3,2,2]],[[1,5,5]],[[0,8,8]],[],[[2,6,6]],[[0,3,3]],[[0,1,1]],[[0,7,7]]] # 851 ms
+  //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[2,3,3],[2,12,12],[2,11,11],[3,10,10],[1,7,7]],[[1,11,11],[0,5,5],[2,9,9],[3,12,12],[1,5,5]],[[0,12,12],[3,8,8],[1,9,9],[0,6,6],[1,6,6]],[[3,1,1],[2,7,7],[0,8,8],[0,7,7],[1,3,3]],[[1,8,8],[0,9,9],[2,10,10],[3,9,9],[1,4,4]],[[1,12,12],[3,2,2],[3,3,3],[3,4,4],[1,2,2]],[[3,6,6],[2,1,1],[0,2,2],[2,8,8],[0,3,3]],[[1,1,1],[3,7,7],[2,6,6],[3,11,11],[0,1,1]],[[2,5,5]],[[2,2,2]],[[1,10,10]],[[2,4,4]],[],[[3,5,5]],[[0,10,10]],[[0,11,11]],[[0,4,4]]] # 963 ms
+  //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[3,12,12],[3,9,9],[2,5,5],[3,2,2],[1,10,10]],[[0,1,1],[0,10,10],[2,4,4],[1,3,3],[3,7,7]],[[0,3,3],[0,11,11],[2,7,7],[3,8,8],[1,2,2]],[[0,5,5],[2,6,6],[0,6,6],[3,3,3],[1,5,5]],[[0,4,4],[3,5,5],[0,2,2],[3,10,10],[2,2,2]],[[2,10,10],[0,12,12],[2,1,1],[2,11,11],[0,9,9]],[[3,4,4],[1,7,7],[1,6,6],[2,12,12],[1,8,8]],[[1,1,1],[1,12,12],[1,11,11],[1,4,4],[2,3,3]],[[0,8,8]],[[3,11,11]],[[2,9,9]],[[0,7,7]],[],[[3,1,1]],[[2,8,8]],[[3,6,6]],[[1,9,9]]] # 264 ms
+  //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[1,1,1],[0,12,12],[3,3,3],[2,7,7],[3,11,11]],[[2,11,11],[2,8,8],[3,6,6],[0,1,1],[0,6,6]],[[1,8,8],[1,6,6],[0,3,3],[1,3,3],[0,7,7]],[[0,11,11],[1,10,10],[3,12,12],[1,11,11],[1,2,2]],[[0,4,4],[3,2,2],[2,2,2],[3,7,7],[0,5,5]],[[2,5,5],[2,9,9],[3,8,8],[3,9,9],[2,4,4]],[[2,10,10],[0,9,9],[1,12,12],[3,4,4],[3,10,10]],[[2,12,12],[3,5,5],[1,4,4],[2,1,1],[0,2,2]],[[1,5,5]],[[0,10,10]],[[0,8,8]],[[1,9,9]],[],[[3,1,1]],[[1,7,7]],[[2,6,6]],[[2,3,3]]] # 397 ms
+  board = [[[2, 0, 0]], [[1, 0, 0]], [[3, 0, 0]], [[0, 0, 0]], [[0, 2, 2], [2, 4, 4], [2, 10, 10], [2, 5, 5], [1, 1, 1], [3, 12, 12], [2, 12, 12], [3, 11, 11], [1, 8, 8], [1, 6, 6]], [[3, 9, 9], [2, 11, 11], [0, 12, 12], [0, 3, 3], [3, 10, 10]], [[3, 3, 3], [0, 9, 9]], [[2, 7, 7], [1, 4, 4], [3, 2, 2], [1, 9, 9], [0, 6, 6], [1, 5, 5], [0, 1, 1]], [[1, 3, 3], [1, 2, 2], [2, 2, 2], [2, 6, 6], [1, 11, 11]], [[3, 7, 7], [2, 8, 8], [1, 7, 7], [3, 1, 1], [0, 8, 8]], [[2, 3, 3], [3, 5, 5], [3, 6, 6]], [[1, 12, 12], [3, 4, 4], [0, 5, 5]], [[0, 7, 7]], [[3, 8, 8]], [[1, 10, 10]], [[0, 11, 11]], [], [[0, 4, 4]], [[0, 10, 10]], [[2, 1, 1]], [[2, 9, 9]]];
+  board = [[[2, 0, 0]], [[1, 0, 0]], [[3, 0, 0]], [[0, 0, 0]], [[2, 7, 7], [0, 8, 8], [0, 2, 2], [0, 5, 5]], [[2, 9, 9], [1, 5, 5], [0, 3, 3], [2, 11, 11], [1, 10, 10]], [[2, 2, 2], [1, 8, 8]], [[1, 11, 11], [2, 6, 6], [2, 10, 10], [2, 5, 5], [3, 3, 3], [1, 1, 1]], [[3, 2, 2], [3, 12, 12], [2, 3, 3], [1, 7, 7], [3, 4, 4], [3, 11, 11]], [[3, 8, 8], [0, 10, 10], [3, 7, 7], [0, 12, 12], [1, 3, 3], [0, 9, 9], [1, 12, 12]], [[0, 7, 7], [2, 12, 12], [0, 6, 6], [3, 9, 9]], [[1, 2, 2], [0, 4, 4], [1, 6, 6], [2, 4, 4], [1, 4, 4], [1, 9, 9]], [[3, 6, 6]], [[2, 8, 8]], [[2, 1, 1]], [[3, 10, 10]], [], [[0, 11, 11]], [[0, 1, 1]], [[3, 1, 1]], [[3, 5, 5 // 118 ms
+  ]]];
+  return board = [[[2, 0, 0]], [[1, 0, 0]], [[3, 0, 0]], [[0, 0, 0]], [[3, 3, 3], [2, 3, 3], [0, 6, 6], [3, 5, 5], [0, 9, 9], [2, 10, 10], [1, 10, 10]], [[0, 10, 10], [0, 7, 7], [3, 8, 8], [2, 11, 11]], [[0, 12, 12], [3, 7, 7], [2, 1, 1], [2, 8, 8], [1, 7, 7]], [[1, 4, 4], [2, 5, 5], [2, 6, 6], [1, 2, 2], [0, 1, 1], [2, 2, 2], [3, 11, 11], [2, 7, 7]], [[3, 6, 6], [3, 9, 9], [0, 4, 4], [3, 4, 4], [1, 8, 8]], [[0, 3, 3], [3, 12, 12], [1, 11, 11]], [[2, 4, 4], [0, 2, 2], [3, 10, 10], [0, 8, 8]], [[1, 5, 5], [2, 9, 9], [1, 6, 6], [1, 1, 1]], [[0, 5, 5]], [[0, 11, 11]], [[2, 12, 12]], [[1, 3, 3]], [], [[1, 12, 12]], [[1, 9, 9]], [[3, 1, 1]], [[3, 2, 2]]];
+};
+
+setup = function setup() {
+  createCanvas(800, 600);
+  makeBoard(true);
   display(board);
   cands = [board];
   done = board;
@@ -167,6 +170,7 @@ showHeap = function showHeap(board, heap, x, y, dx) {
 };
 
 calcAntal = function calcAntal(lst) {
+  // Klarar ej Ess Kung Dam ... just nu
   var l, len, rank1, rank2, res, suit;
   res = 0;
   for (l = 0, len = lst.length; l < len; l++) {
@@ -183,7 +187,7 @@ calcAntal = function calcAntal(lst) {
 
 display = function display(board) {
   var dx, heap, l, len, len1, len2, len3, m, n, o, p, ref, ref1, ref2, ref3, results, x, xx, y;
-  background(128);
+  background(0, 0, 128);
   ref = [0, 1, 2, 3];
   for (y = l = 0, len = ref.length; l < len; y = ++l) {
     heap = ref[y];
@@ -253,8 +257,8 @@ legalMove = function legalMove(board, a, b) {
   b1 = _$last4[1];
   b2 = _$last4[2];
 
-  if (sa === sb && ((ref = abs(a1 - b1)) === 1 || ref === 12)) {
-    return true;
+  if (sa === sb && (ref = abs(a1 - b1)) === 1) {
+    return true; // 1,12
   }
   return false;
 };
@@ -301,7 +305,7 @@ mousePressed = function mousePressed() {
 };
 
 //###### AI-section ########
-srcs = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 17, 19, 20];
+srcs = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20];
 
 dsts = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
 
@@ -345,15 +349,13 @@ makeKey = function makeKey(b) {
   return res;
 };
 
-countHoles = function countHoles(b) {
+countAceCards = function countAceCards(b) {
   var heap, l, len, ref, res;
   res = 0;
-  ref = range(4, 12);
+  ref = [0, 1, 2, 3];
   for (l = 0, len = ref.length; l < len; l++) {
     heap = ref[l];
-    if (b[heap].length === 0) {
-      res++;
-    }
+    res += calcAntal(b[heap]);
   }
   return res;
 };
@@ -372,12 +374,11 @@ expand = function expand(b) {
     makeMove(b1, src, dst);
     key = makeKey(b1);
     if (!(key in hash)) {
-      hash[key] = true;
+      hash[key] = [src, dst, b];
       res.push(b1);
-      if (holes + 1 === countHoles(b1)) {
-        holes++;
-        display(b1);
-        print('Done!', holes);
+      if (aceCards < countAceCards(b1)) {
+        aceCards = countAceCards(b1);
+        print('Done!', aceCards);
         done = b1;
       }
     }
@@ -387,28 +388,86 @@ expand = function expand(b) {
 
 solve = function solve() {
   var cand, l, len, res;
-  res = [];
   done = null;
-  for (l = 0, len = cands.length; l < len; l++) {
-    cand = cands[l];
-    res = res.concat(expand(cand));
-    if (done != null) {
+  while (done === null) {
+    if (cands.length === 0) {
       return;
     }
+    res = [];
+    for (l = 0, len = cands.length; l < len; l++) {
+      cand = cands[l];
+      res = res.concat(expand(cand));
+    }
+    cands = res;
   }
-  return cands = res;
 };
 
 keyPressed = function keyPressed() {
-  if (key === 'R') {
-    // reset 
-    display(done);
-    cands = [done];
-    hash = {};
-  }
+  var start;
   if (key === ' ') {
-    solve();
-    return print(cands.length, _.size(hash));
+    start = millis();
+    while (52 > countAceCards(done)) {
+      solve();
+      cands = [done];
+    }
+    print(millis() - start, countAceCards(done));
+    return printSolution(hash, done);
   }
+};
+
+prettyCard = function prettyCard(_ref) {
+  var _ref2 = _slicedToArray(_ref, 3),
+      suit = _ref2[0],
+      rank1 = _ref2[1],
+      rank2 = _ref2[2];
+
+  var antal = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2;
+
+  if (antal === 1) {
+    return "" + RANK[rank1];
+  } else if (rank1 === rank2) {
+    return SUIT[suit] + " " + RANK[rank1];
+  } else {
+    return SUIT[suit] + " " + RANK[rank1] + ".." + RANK[rank2];
+  }
+};
+
+prettyMove = function prettyMove(src, dst, b) {
+  var c1, c2;
+  c1 = _.last(b[src]);
+  if (b[dst].length > 0) {
+    c2 = _.last(b[dst]);
+    return prettyCard(c1) + " till " + prettyCard(c2, 1);
+  } else {
+    return prettyCard(c1) + " till h\xE5l";
+  }
+};
+
+printSolution = function printSolution(hash, b) {
+  var dst, key, l, len, s, solution, src;
+  key = makeKey(b);
+  solution = [];
+  while (key in hash) {
+    var _hash$key = _slicedToArray(hash[key], 3);
+
+    src = _hash$key[0];
+    dst = _hash$key[1];
+    b = _hash$key[2];
+
+    solution.push(hash[key]);
+    key = makeKey(b);
+  }
+  solution.reverse();
+  s = '';
+  for (l = 0, len = solution.length; l < len; l++) {
+    var _solution$l = _slicedToArray(solution[l], 3);
+
+    src = _solution$l[0];
+    dst = _solution$l[1];
+    b = _solution$l[2];
+
+    s += "\n" + prettyMove(src, dst, b);
+  }
+  return print(s);
 };
 //# sourceMappingURL=sketch.js.map
