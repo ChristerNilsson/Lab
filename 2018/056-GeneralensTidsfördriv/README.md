@@ -1,30 +1,24 @@
-# Mall
+# Generalens Tidsfördriv
 
-* Libraries innehåller bl a p5-filer.
-* index.html används när man vill köra programmet i Google Chrome.
-* katalogen coffee innehåller din kod. Redigera med Sublime.
-* js-filer skapas automatiskt av startProject.bat
+* Denna patiens går ut på att bygga uppåt på essen. Dvs Ess till Kung
+* På de åtta sekvenserna får man bygga både uppåt och neråt.
+* Blir en sekvens tom får man placera valfritt kort där.
+* Man måste alltid följa de fyra färgerna. Dvs spader på spader osv.
+* De undre åtta korten får man enbart plocka upp.
 
-## Detta gör du en enda gång
+* W = Wild innebär att ny patiens skapas med olika långa sekvenser.
+* N = Normal innebär att sekvenserna skapas med exakt fem kort.
+* R = Restart. Omstart av patiensen.
 
-* Kopiera 000-Mall med Clone or Download
-* Välj Download .Zip 
-* Packa upp innehållet och spara i en egen katalog med namnet 000-Mall. Dvs inget -master
-* Flytta upp createProject.bat en nivå.
+De skapade patienserna är alltid lösbara.
 
-## Detta gör du när du skapar ett nytt projekt
+# Avvikelser från originalpatiensen
 
-* Använd createProject för att skapa en kopia av mallen.
-* Byt namn på NewProject. T ex till 001-projektnamn.
+* Man måste bygga uppåt på essen.
+* Man kan ej använda något fängelse.
 
-## Detta gör du när du utvecklar
+![Generalens Tidsfördriv 1](bild1.jpg "Logo Title Text 1")
+![Generalens Tidsfördriv 2](bild2.jpg "Logo Title Text 2")
+![Generalens Tidsfördriv](bild3.jpg "Logo Title Text 3")
 
-* Gå in i katalogen och starta startProject
-  * index.html startas i Chrome
-  * sublime startas. 
-  	* Stäng eventuellt befintligt projekt med Remove Folder from Project
-  * transpilern startas
-* Ändra i sketch.coffee. Spara med ctrl-S
-* Transpilering sker automatiskt. Ett pip hörs vid syntaxfel.
-* Refresha Chrome.
 

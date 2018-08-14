@@ -110,7 +110,7 @@ fakeBoard = function fakeBoard() {
 
 setup = function setup() {
   createCanvas(800, 600);
-  makeBoard(true);
+  fakeBoard(true);
   display(board);
   cands = [board];
   done = board;
