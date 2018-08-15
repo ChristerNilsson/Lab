@@ -12,7 +12,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 //  6  6  6  6  6  2 10 10 10 10 10
 //  7  7  7  7  7  3 11 11 11 11 11
 //    12 13 14 15 16 17 18 19 20
-var H, OFFSETX, RANK, SUIT, W, aceCards, board, calcAntal, cands, cards, countAceCards, display, done, dsts, expand, fakeBoard, findAllMoves, h, hash, hist, img, keyPressed, legalMove, makeBoard, makeKey, makeMove, marked, mousePressed, newGame, originalBoard, preload, prettyCard, prettyMove, printSolution, range, setup, showHeap, solve, srcs, w;
+var H, OFFSETX, RANK, SUIT, W, aceCards, board, calcAntal, cands, cards, countAceCards, display, done, dsts, expand, fakeBoard, findAllMoves, h, hash, hist, img, keyPressed, legalMove, makeBoard, makeKey, makeMove, marked, mousePressed, newGame, originalBoard, preload, prettyCard, prettyMove, printSolution, range, setup, showHeap, solve, srcs, undoMove, w;
 
 SUIT = "kl hj sp ru".split(' ');
 
@@ -117,7 +117,7 @@ setup = function setup() {
 };
 
 showHeap = function showHeap(board, heap, x, y, dx) {
-  var card, dr, k, l, len, len1, m, n, rank, rank1, rank2, ref, ref1, suit, x0;
+  var card, dr, k, l, len, len1, m, n, rank, ref, ref1, suit, unvisible, visible, x0;
   n = calcAntal(board[heap]);
   if (n === 0) {
     return;
@@ -139,11 +139,11 @@ showHeap = function showHeap(board, heap, x, y, dx) {
     var _card2 = _slicedToArray(_card, 3);
 
     suit = _card2[0];
-    rank2 = _card2[1];
-    rank1 = _card2[2];
+    unvisible = _card2[1];
+    visible = _card2[2];
 
-    dr = rank1 < rank2 ? 1 : -1;
-    ref1 = range(rank1, rank2 + dr, dr);
+    dr = unvisible < visible ? 1 : -1;
+    ref1 = range(unvisible, visible + dr, dr);
     for (m = 0, len1 = ref1.length; m < len1; m++) {
       rank = ref1[m];
       image(img, x, y + 13, w, h, OFFSETX + W * rank, 1092 + H * suit, 243, H);
@@ -170,16 +170,16 @@ showHeap = function showHeap(board, heap, x, y, dx) {
 
 calcAntal = function calcAntal(lst) {
   // Klarar ej Ess Kung Dam ... just nu
-  var l, len, rank1, rank2, res, suit;
+  var l, len, res, suit, unvisible, visible;
   res = 0;
   for (l = 0, len = lst.length; l < len; l++) {
     var _lst$l = _slicedToArray(lst[l], 3);
 
     suit = _lst$l[0];
-    rank1 = _lst$l[1];
-    rank2 = _lst$l[2];
+    unvisible = _lst$l[1];
+    visible = _lst$l[2];
 
-    res += 1 + abs(rank1 - rank2);
+    res += 1 + abs(unvisible - visible);
   }
   return res;
 };
@@ -189,6 +189,7 @@ display = function display(board) {
   background(128);
   textAlign(CENTER, CENTER);
   fill(255, 255, 0);
+  text('U = Undo', width / 2, height - 100);
   text('R = Restart', width / 2, height - 80);
   text('C = Classic', width / 2, height - 60);
   text('W = Wild', width / 2, height - 40);
@@ -261,23 +262,60 @@ legalMove = function legalMove(board, a, b) {
   b1 = _$last4[1];
   b2 = _$last4[2];
 
-  if (sa === sb && (ref = abs(a1 - b1)) === 1) {
+  if (sa === sb && (ref = abs(a2 - b2)) === 1) {
     return true; // 1,12
   }
   return false;
 };
 
-makeMove = function makeMove(board, a, b) {
-  // from a to b
-  var acard, rank1, rank2, suit;
-  suit = _.last(board[a])[0];
-  acard = board[a].pop();
-  rank1 = acard[2];
-  rank2 = acard[1];
-  if (board[b].length > 0) {
-    rank2 = board[b].pop()[2];
+makeMove = function makeMove(board, a, b, record) {
+  // from heap a to heap b
+  var suit, unvisible, visible;
+
+  // reverse order
+  var _board$a$pop = board[a].pop();
+
+  var _board$a$pop2 = _slicedToArray(_board$a$pop, 3);
+
+  suit = _board$a$pop2[0];
+  visible = _board$a$pop2[1];
+  unvisible = _board$a$pop2[2];
+  if (record) {
+    hist.push([a, b, 1 + abs(unvisible - visible)]);
   }
-  return board[b].push([suit, rank1, rank2]);
+  if (board[b].length > 0) {
+    unvisible = board[b].pop()[1];
+  }
+  return board[b].push([suit, unvisible, visible]);
+};
+
+undoMove = function undoMove(_ref) {
+  var _ref2 = _slicedToArray(_ref, 3),
+      a = _ref2[0],
+      b = _ref2[1],
+      antal = _ref2[2];
+
+  var suit, unvisible, visible;
+
+  var _board$b$pop = board[b].pop();
+
+  var _board$b$pop2 = _slicedToArray(_board$b$pop, 3);
+
+  suit = _board$b$pop2[0];
+  unvisible = _board$b$pop2[1];
+  visible = _board$b$pop2[2];
+
+  if (unvisible < visible) {
+    board[a].push([suit, visible, visible - antal + 1]);
+    if (visible !== unvisible + antal - 1) {
+      return board[b].push([suit, unvisible, visible - antal]);
+    }
+  } else {
+    board[a].push([suit, visible, visible + antal - 1]);
+    if (unvisible !== visible + antal - 1) {
+      return board[b].push([suit, unvisible, visible + antal]);
+    }
+  }
 };
 
 mousePressed = function mousePressed() {
@@ -298,7 +336,7 @@ mousePressed = function mousePressed() {
   if (marked != null) {
     if (marked1 !== marked) {
       if (legalMove(board, marked, marked1)) {
-        makeMove(board, marked, marked1);
+        makeMove(board, marked, marked1, true);
       }
     }
     marked = null;
@@ -382,7 +420,6 @@ expand = function expand(b) {
       res.push(b1);
       if (aceCards < countAceCards(b1)) {
         aceCards = countAceCards(b1);
-        //print 'Done!',aceCards
         done = b1;
       }
     }
@@ -434,6 +471,10 @@ newGame = function newGame(key) {
 };
 
 keyPressed = function keyPressed() {
+  if (key === 'U' && hist.length > 0) {
+    undoMove(hist.pop());
+    display(board);
+  }
   if (key === 'R') {
     board = _.cloneDeep(originalBoard);
     display(board);
@@ -443,11 +484,11 @@ keyPressed = function keyPressed() {
   }
 };
 
-prettyCard = function prettyCard(_ref) {
-  var _ref2 = _slicedToArray(_ref, 3),
-      suit = _ref2[0],
-      rank1 = _ref2[1],
-      rank2 = _ref2[2];
+prettyCard = function prettyCard(_ref3) {
+  var _ref4 = _slicedToArray(_ref3, 3),
+      suit = _ref4[0],
+      rank1 = _ref4[1],
+      rank2 = _ref4[2];
 
   var antal = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2;
 

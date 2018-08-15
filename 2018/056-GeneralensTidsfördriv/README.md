@@ -8,6 +8,7 @@
 * Man måste alltid följa de fyra färgerna. Dvs spader på spader osv.
 * De undre åtta korten får man enbart plocka upp.
 
+* U = Undo. Ångrar senaste drag.
 * R = Restart. Omstart av patiensen.
 * C = Classic innebär att sekvenserna skapas med exakt fem kort. Tar någon sekund.
 * W = Wild innebär att ny patiens skapas med olika långa sekvenser. Kan ta flera sekunder.

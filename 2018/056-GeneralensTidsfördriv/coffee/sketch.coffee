@@ -73,9 +73,9 @@ showHeap = (board,heap,x,y,dx) ->
 	x = x0 + x*dx/2
 	y = y * h
 	for card,k in board[heap]
-		[suit,rank2,rank1] = card
-		dr = if rank1 < rank2 then 1 else -1
-		for rank in range rank1,rank2+dr,dr
+		[suit,unvisible,visible] = card
+		dr = if unvisible < visible then 1 else -1
+		for rank in range unvisible,visible+dr,dr
 			image img, x,y+13, w,h, OFFSETX+W*rank,1092+H*suit,243,H
 			x += dx
 
@@ -90,8 +90,8 @@ showHeap = (board,heap,x,y,dx) ->
 
 calcAntal = (lst) -> # Klarar ej Ess Kung Dam ... just nu
 	res=0
-	for [suit,rank1,rank2] in lst
-		res += 1 + abs(rank1-rank2)
+	for [suit,unvisible,visible] in lst
+		res += 1 + abs(unvisible-visible)
 	res
 
 display = (board) ->
@@ -100,9 +100,10 @@ display = (board) ->
 	textAlign CENTER,CENTER
 
 	fill 255,255,0
+	text 'U = Undo',   width/2,height-100
 	text 'R = Restart',width/2,height-80
 	text 'C = Classic',width/2,height-60
-	text 'W = Wild',width/2,height-40
+	text 'W = Wild',   width/2,height-40
 
 	for heap,y in [0,1,2,3]
 		showHeap board, heap, 0, y, 0
@@ -133,16 +134,23 @@ legalMove = (board,a,b) ->
 	if board[b].length==0 then return true
 	[sa,a1,a2] = _.last board[a]
 	[sb,b1,b2] = _.last board[b]
-	if sa==sb and abs(a1-b1) in [1] then return true # 1,12
+	if sa==sb and abs(a2-b2) in [1] then return true # 1,12
 	false
 
-makeMove = (board,a,b) -> # from a to b
-	suit = _.last(board[a])[0]
-	acard = board[a].pop()
-	rank1 = acard[2]
-	rank2 = acard[1]
-	if board[b].length > 0 then	rank2 = board[b].pop()[2]
-	board[b].push [suit,rank1,rank2]
+makeMove = (board,a,b,record) -> # from heap a to heap b
+	[suit,visible,unvisible] = board[a].pop() # reverse order
+	if record then hist.push [a, b, 1 + abs unvisible-visible]
+	if board[b].length > 0 then unvisible = board[b].pop()[1]
+	board[b].push [suit,unvisible,visible] 
+
+undoMove = ([a,b,antal]) ->
+	[suit, unvisible, visible] = board[b].pop()
+	if unvisible < visible
+		board[a].push [suit,visible,  visible-antal+1]
+		if visible!=unvisible+antal-1 then board[b].push [suit,unvisible,visible-antal]
+	else
+		board[a].push [suit,visible,  visible+antal-1]
+		if unvisible!=visible+antal-1 then board[b].push [suit,unvisible,visible+antal]
 
 mousePressed = ->
 	mx = mouseX//(W/3)
@@ -157,7 +165,7 @@ mousePressed = ->
 	if marked?
 		if marked1 != marked 
 			if legalMove board,marked,marked1  
-				makeMove board,marked,marked1
+				makeMove board,marked,marked1,true
 		marked = null
 	else
 		marked = marked1
@@ -205,7 +213,6 @@ expand = (b) ->
 			res.push b1
 			if aceCards < countAceCards b1
 				aceCards = countAceCards b1
-				#print 'Done!',aceCards
 				done = b1
 	res
 
@@ -240,6 +247,10 @@ newGame = (key) ->
 			return 
 
 keyPressed = -> 
+	if key == 'U' and hist.length > 0
+		undoMove hist.pop()
+		display board
+
 	if key == 'R'
 		board = _.cloneDeep originalBoard
 		display board
