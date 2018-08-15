@@ -12,7 +12,55 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 //  6  6  6  6  6  2 10 10 10 10 10
 //  7  7  7  7  7  3 11 11 11 11 11
 //    12 13 14 15    17 18 19 20
-var H, OFFSETX, RANK, SUIT, W, aceCards, board, calcAntal, cands, cards, compress, countAceCards, display, done, dsts, expand, fakeBoard, findAllMoves, h, hash, hist, img, keyPressed, legalMove, makeBoard, makeKey, makeMove, marked, mousePressed, newGame, originalBoard, preload, prettyCard, prettyMove, printSolution, range, restart, setup, showHeap, solve, srcs, undo, undoMove, w;
+var H,
+    OFFSETX,
+    RANK,
+    SUIT,
+    W,
+    aceCards,
+    autoShake,
+    board,
+    calcAntal,
+    cands,
+    cards,
+    compress,
+    countAceCards,
+    display,
+    done,
+    dsts,
+    expand,
+    fakeBoard,
+    findAllMoves,
+    h,
+    hash,
+    hist,
+    img,
+    keyPressed,
+    legalMove,
+    makeAutoShake,
+    makeBoard,
+    makeKey,
+    makeMove,
+    marked,
+    mousePressed,
+    newGame,
+    originalBoard,
+    preload,
+    prettyCard,
+    prettyMove,
+    printSolution,
+    range,
+    restart,
+    setup,
+    showHeap,
+    solve,
+    srcs,
+    start,
+    timing,
+    undo,
+    undoMove,
+    w,
+    indexOf = [].indexOf;
 
 SUIT = "kl hj sp ru".split(' ');
 
@@ -47,6 +95,12 @@ aceCards = 4;
 done = null;
 
 originalBoard = null;
+
+start = null;
+
+timing = null;
+
+autoShake = [];
 
 preload = function preload() {
   return img = loadImage('cards/Color_52_Faces_v.2.0.png');
@@ -137,8 +191,7 @@ makeBoard = function makeBoard() {
     heap = ref6[t];
     board[heap].push(cards.pop());
   }
-  compress(board);
-  return print(board);
+  return compress(board);
 };
 
 fakeBoard = function fakeBoard() {
@@ -154,14 +207,26 @@ fakeBoard = function fakeBoard() {
   return board = [[[2, 0, 0]], [[1, 0, 0]], [[3, 0, 0]], [[0, 0, 0]], [[0, 7, 7], [1, 10, 10], [0, 1, 1], [0, 2, 2], [2, 7, 7]], [[2, 1, 1], [2, 8, 8], [1, 3, 3], [1, 7, 7], [3, 11, 11]], [[2, 2, 2], [3, 6, 6], [3, 8, 8], [2, 4, 4], [0, 3, 3]], [[3, 1, 1], [0, 5, 5], [3, 2, 2], [2, 3, 3], [1, 2, 2]], [[3, 4, 4], [2, 10, 10], [1, 11, 11], [0, 11, 11], [2, 5, 5]], [[3, 9, 9], [0, 6, 6], [2, 11, 11], [0, 10, 10], [3, 12, 12]], [[1, 9, 9], [1, 12, 12], [0, 4, 4], [1, 6, 6], [2, 6, 6]], [[1, 1, 1], [2, 12, 12], [1, 5, 5], [3, 7, 7], [1, 8, 8]], [[3, 10, 10]], [[0, 9, 9]], [[3, 3, 3]], [[0, 12, 12]], [], [[2, 9, 9]], [[0, 8, 8]], [[1, 4, 4]], [[3, 5, 5]]];
 };
 
+makeAutoShake = function makeAutoShake() {
+  var i, l, len, ref, results;
+  autoShake = [];
+  ref = range(52);
+  results = [];
+  for (l = 0, len = ref.length; l < len; l++) {
+    i = ref[l];
+    results.push(autoShake.push([int(random(-2, 2)), int(random(-2, 2))]));
+  }
+  return results;
+};
+
 setup = function setup() {
   createCanvas(800, 600);
-  //makeBoard()
-  return newGame('C');
+  makeAutoShake();
+  return newGame('0');
 };
 
 showHeap = function showHeap(board, heap, x, y, dx) {
-  var card, dr, k, l, len, len1, m, n, rank, ref, ref1, suit, unvisible, visible, x0;
+  var card, dr, k, l, len, len1, m, n, rank, ref, ref1, suit, unvisible, visible, x0, y0;
   n = calcAntal(board[heap]);
   if (n === 0) {
     return;
@@ -190,23 +255,29 @@ showHeap = function showHeap(board, heap, x, y, dx) {
     ref1 = range(unvisible, visible + dr, dr);
     for (m = 0, len1 = ref1.length; m < len1; m++) {
       rank = ref1[m];
-      image(img, x, y + 13, w, h, OFFSETX + W * rank, 1092 + H * suit, 243, H);
+
+      var _autoShake = _slicedToArray(autoShake[13 * suit + rank], 2);
+
+      x0 = _autoShake[0];
+      y0 = _autoShake[1];
+
+      image(img, x0 + x, y0 + y + 13, w, h, OFFSETX + W * rank, 1092 + H * suit, 243, H);
       x += dx;
     }
   }
   if (marked != null && marked === heap) {
     fill(0, 128, 0, 128);
     if (y === 4 * h) {
-      return ellipse(x - w / 2, y + h / 2, 40);
+      return ellipse(-4 + x - w / 2, 6 + y + h / 2, 60);
     } else {
       if (dx < 0) {
-        ellipse(x + w, y + h / 2, 40);
+        ellipse(-4 + x + w, 6 + y + h / 2, 60);
       }
       if (dx > 0) {
-        ellipse(x, y + h / 2, 40);
+        ellipse(-4 + x, 6 + y + h / 2, 60);
       }
       if (dx === 0) {
-        return ellipse(x + w / 2, y + h / 2, 40);
+        return ellipse(-4 + x + w / 2, 6 + y + h / 2, 60);
       }
     }
   }
@@ -230,12 +301,18 @@ calcAntal = function calcAntal(lst) {
 display = function display(board) {
   var dx, heap, l, len, len1, len2, len3, m, n, o, p, ref, ref1, ref2, ref3, results, x, xx, y;
   background(128);
-  textAlign(CENTER, CENTER);
-  fill(255, 255, 0);
-  text('U = Undo', width / 2, height - 100);
-  text('R = Restart', width / 2, height - 80);
-  text('C = Classic', width / 2, height - 60);
-  text('W = Wild', width / 2, height - 40);
+  //textAlign CENTER,CENTER
+  textSize(10);
+  x = width / 2 - 25;
+  y = height - 100;
+  fill(200);
+  text('U = Undo', x, y);
+  text('R = Restart', x, y + 15);
+  text('C = Classic', x, y + 30);
+  text('W = Wild', x, y + 45);
+  if (timing !== null) {
+    text(timing + " seconds", x, y + 75);
+  }
   ref = [0, 1, 2, 3];
   for (y = l = 0, len = ref.length; l < len; y = ++l) {
     heap = ref[y];
@@ -377,6 +454,9 @@ mousePressed = function mousePressed() {
   } else {
     marked = marked1;
   }
+  if (52 === countAceCards(board)) {
+    timing = Math.floor((millis() - start) / 1000);
+  }
   return display(board);
 };
 
@@ -478,7 +558,7 @@ solve = function solve() {
 };
 
 newGame = function newGame(key) {
-  var start;
+  timing = null;
   while (true) {
     makeBoard(key === 'W');
     originalBoard = _.cloneDeep(board);
@@ -499,6 +579,7 @@ newGame = function newGame(key) {
       printSolution(hash, done);
       print(millis() - start);
       display(board);
+      start = millis();
       return;
     }
   }
@@ -522,7 +603,7 @@ keyPressed = function keyPressed() {
   if (key === 'R') {
     restart();
   }
-  if (key === 'C' || key === 'W') {
+  if (indexOf.call('CW', key) >= 0) {
     return newGame(key);
   }
 };

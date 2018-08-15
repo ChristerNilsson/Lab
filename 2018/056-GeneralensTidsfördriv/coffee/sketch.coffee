@@ -25,6 +25,9 @@ hash = null
 aceCards = 4
 done = null
 originalBoard = null
+start = null
+timing = null
+autoShake = []
 
 preload = -> img = loadImage 'cards/Color_52_Faces_v.2.0.png'
 
@@ -67,7 +70,6 @@ makeBoard = (wild=false)->
 		board[heap].push cards.pop()
 
 	compress board
-	print board
 
 fakeBoard = ->
 	#board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,2,2],[1,3,3],[1,1,1],[3,1,1],[3,2,2]],[[0,4,4],[0,12,12],[3,5,5],[1,8,8],[3,9,9]],[[2,11,11],[3,12,12],[0,6,6],[2,5,5],[1,7,7]],[[0,8,8],[3,11,11],[2,6,6],[2,9,9],[1,12,12]],[[0,9,9],[0,10,10],[2,10,10],[2,4,4],[2,7,7]],[[1,2,2],[3,4,4],[3,6,6],[0,5,5],[1,11,11]],[[0,1,1],[0,7,7],[1,10,10],[1,5,5],[3,8,8]],[[0,3,3],[1,4,4],[3,3,3],[2,2,2],[3,10,10]],[[0,11,11]],[[3,7,7]],[[2,1,1]],[[2,8,8]],[],[[1,6,6]],[[2,3,3]],[[2,12,12]],[[1,9,9]]] # nix!
@@ -80,10 +82,15 @@ fakeBoard = ->
 	#board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[3,3,3],[2,3,3],[0,6,6],[3,5,5],[0,9,9],[2,10,10],[1,10,10]],[[0,10,10],[0,7,7],[3,8,8],[2,11,11]],[[0,12,12],[3,7,7],[2,1,1],[2,8,8],[1,7,7]],[[1,4,4],[2,5,5],[2,6,6],[1,2,2],[0,1,1],[2,2,2],[3,11,11],[2,7,7]],[[3,6,6],[3,9,9],[0,4,4],[3,4,4],[1,8,8]],[[0,3,3],[3,12,12],[1,11,11]],[[2,4,4],[0,2,2],[3,10,10],[0,8,8]],[[1,5,5],[2,9,9],[1,6,6],[1,1,1]],[[0,5,5]],[[0,11,11]],[[2,12,12]],[[1,3,3]],[],[[1,12,12]],[[1,9,9]],[[3,1,1]],[[3,2,2]]]
 	board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,7,7],[1,10,10],[0,1,1],[0,2,2],[2,7,7]],[[2,1,1],[2,8,8],[1,3,3],[1,7,7],[3,11,11]],[[2,2,2],[3,6,6],[3,8,8],[2,4,4],[0,3,3]],[[3,1,1],[0,5,5],[3,2,2],[2,3,3],[1,2,2]],[[3,4,4],[2,10,10],[1,11,11],[0,11,11],[2,5,5]],[[3,9,9],[0,6,6],[2,11,11],[0,10,10],[3,12,12]],[[1,9,9],[1,12,12],[0,4,4],[1,6,6],[2,6,6]],[[1,1,1],[2,12,12],[1,5,5],[3,7,7],[1,8,8]],[[3,10,10]],[[0,9,9]],[[3,3,3]],[[0,12,12]],[],[[2,9,9]],[[0,8,8]],[[1,4,4]],[[3,5,5]]]
 
+makeAutoShake = ->
+	autoShake = []
+	for i in range 52
+		autoShake.push [int(random(-2,2)),int(random(-2,2))]
+
 setup = ->
 	createCanvas 800,600
-	#makeBoard()
-	newGame 'C'
+	makeAutoShake()
+	newGame '0'
 
 showHeap = (board,heap,x,y,dx) ->
 	n = calcAntal board[heap]
@@ -97,17 +104,18 @@ showHeap = (board,heap,x,y,dx) ->
 		[suit,unvisible,visible] = card
 		dr = if unvisible < visible then 1 else -1
 		for rank in range unvisible,visible+dr,dr
-			image img, x,y+13, w,h, OFFSETX+W*rank,1092+H*suit,243,H
+			[x0,y0] = autoShake[13*suit+rank]
+			image img, x0+x,y0+y+13, w,h, OFFSETX+W*rank,1092+H*suit,243,H
 			x += dx
 
 	if marked? and marked == heap 
 		fill 0,128,0,128
 		if y==4*h 
-			ellipse x-w/2,y+h/2,40 
+			ellipse -4+x-w/2,6+y+h/2,60 
 		else
-			if dx<0  then ellipse x+w,  y+h/2,40
-			if dx>0  then ellipse x,    y+h/2,40
-			if dx==0 then ellipse x+w/2,y+h/2,40
+			if dx<0  then ellipse -4+x+w,  6+y+h/2,60
+			if dx>0  then ellipse -4+x,    6+y+h/2,60
+			if dx==0 then ellipse -4+x+w/2,6+y+h/2,60
 
 calcAntal = (lst) ->
 	res=0
@@ -118,13 +126,19 @@ calcAntal = (lst) ->
 display = (board) ->
 	background 128
 
-	textAlign CENTER,CENTER
+	#textAlign CENTER,CENTER
+	textSize 10
 
-	fill 255,255,0
-	text 'U = Undo',   width/2,height-100
-	text 'R = Restart',width/2,height-80
-	text 'C = Classic',width/2,height-60
-	text 'W = Wild',   width/2,height-40
+	x = width/2-25
+	y = height-100
+
+	fill 200
+	text 'U = Undo',          x,y
+	text 'R = Restart',       x,y+15
+	text 'C = Classic',       x,y+30
+	text 'W = Wild',          x,y+45
+	if timing != null
+		text "#{timing} seconds", x,y+75
 
 	for heap,y in [0,1,2,3]
 		showHeap board, heap, 0, y, 0
@@ -185,6 +199,7 @@ mousePressed = ->
 		marked = null
 	else
 		marked = marked1
+	if 52 == countAceCards board then timing = (millis() - start) // 1000
 	display board
 
 ####### AI-section ########
@@ -242,9 +257,11 @@ solve = ->
 		cands = res
 
 newGame = (key) ->
+	timing = null
 	while true 
-		makeBoard key=='W'
+		makeBoard key == 'W'
 		originalBoard = _.cloneDeep board
+
 		cands = [board]
 		done = board 
 		hash = {}
@@ -260,6 +277,7 @@ newGame = (key) ->
 			printSolution hash,done
 			print millis()-start
 			display board
+			start = millis()
 			return 
 
 undo = ->
@@ -274,7 +292,7 @@ restart = ->
 keyPressed = -> 
 	if key == 'U' and hist.length > 0 then undo()
 	if key == 'R' then restart()
-	if key in ['C','W'] then newGame key 
+	if key in 'CW' then newGame key 
 
 prettyCard = ([suit,unvisible,visible],antal=2) ->
 	if antal==1
