@@ -12,7 +12,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 //  6  6  6  6  6  2 10 10 10 10 10
 //  7  7  7  7  7  3 11 11 11 11 11
 //    12 13 14 15    17 18 19 20
-var H, OFFSETX, RANK, SUIT, W, aceCards, board, calcAntal, cands, cards, countAceCards, display, done, dsts, expand, fakeBoard, findAllMoves, h, hash, hist, img, keyPressed, legalMove, makeBoard, makeKey, makeMove, marked, mousePressed, newGame, originalBoard, preload, prettyCard, prettyMove, printSolution, range, setup, showHeap, solve, srcs, undoMove, w;
+var H, OFFSETX, RANK, SUIT, W, aceCards, board, calcAntal, cands, cards, compress, countAceCards, display, done, dsts, expand, fakeBoard, findAllMoves, h, hash, hist, img, keyPressed, legalMove, makeBoard, makeKey, makeMove, marked, mousePressed, newGame, originalBoard, preload, prettyCard, prettyMove, printSolution, range, restart, setup, showHeap, solve, srcs, undo, undoMove, w;
 
 SUIT = "kl hj sp ru".split(' ');
 
@@ -54,10 +54,52 @@ preload = function preload() {
 
 range = _.range;
 
+compress = function compress(board) {
+  var h1, h2, heap, i, l, len, len1, m, ref, ref1, res, results, suit1, suit2, temp, v1, v2;
+  ref = [4, 5, 6, 7, 8, 9, 10, 11];
+  results = [];
+  for (l = 0, len = ref.length; l < len; l++) {
+    heap = ref[l];
+    if (board[heap].length > 1) {
+      temp = board[heap][0];
+      res = [];
+      ref1 = range(1, board[heap].length);
+      for (m = 0, len1 = ref1.length; m < len1; m++) {
+        i = ref1[m];
+        var _temp = temp;
+
+        var _temp2 = _slicedToArray(_temp, 3);
+
+        suit1 = _temp2[0];
+        h1 = _temp2[1];
+        v1 = _temp2[2];
+
+        var _board$heap$i = _slicedToArray(board[heap][i], 3);
+
+        suit2 = _board$heap$i[0];
+        h2 = _board$heap$i[1];
+        v2 = _board$heap$i[2];
+
+        if (suit1 === suit2 && 1 === abs(v1 - h2)) {
+          temp = [suit1, h1, v2];
+        } else {
+          res.push(temp);
+          temp = [suit2, h2, v2];
+        }
+      }
+      res.push(temp);
+      results.push(board[heap] = res);
+    } else {
+      results.push(void 0);
+    }
+  }
+  return results;
+};
+
 makeBoard = function makeBoard() {
   var wild = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
 
-  var heap, i, j, l, len, len1, len2, len3, len4, len5, len6, m, o, p, q, r, rank, ref, ref1, ref2, ref3, ref4, ref5, ref6, results, rr, suit, t;
+  var heap, i, j, l, len, len1, len2, len3, len4, len5, len6, m, o, p, q, r, rank, ref, ref1, ref2, ref3, ref4, ref5, ref6, rr, suit, t;
   cards = [];
   ref = range(1, 13);
   for (l = 0, len = ref.length; l < len; l++) {
@@ -91,12 +133,12 @@ makeBoard = function makeBoard() {
     }
   }
   ref6 = [12, 13, 14, 15, 17, 18, 19, 20];
-  results = [];
   for (t = 0, len6 = ref6.length; t < len6; t++) {
     heap = ref6[t];
-    results.push(board[heap].push(cards.pop()));
+    board[heap].push(cards.pop());
   }
-  return results;
+  compress(board);
+  return print(board);
 };
 
 fakeBoard = function fakeBoard() {
@@ -114,6 +156,7 @@ fakeBoard = function fakeBoard() {
 
 setup = function setup() {
   createCanvas(800, 600);
+  //makeBoard()
   return newGame('C');
 };
 
@@ -154,23 +197,22 @@ showHeap = function showHeap(board, heap, x, y, dx) {
   if (marked != null && marked === heap) {
     fill(0, 128, 0, 128);
     if (y === 4 * h) {
-      return ellipse(x - w / 2, y + h / 2, 20);
+      return ellipse(x - w / 2, y + h / 2, 40);
     } else {
       if (dx < 0) {
-        ellipse(x + w, y + h / 2, 20);
+        ellipse(x + w, y + h / 2, 40);
       }
       if (dx > 0) {
-        ellipse(x, y + h / 2, 20);
+        ellipse(x, y + h / 2, 40);
       }
       if (dx === 0) {
-        return ellipse(x + w / 2, y + h / 2, 20);
+        return ellipse(x + w / 2, y + h / 2, 40);
       }
     }
   }
 };
 
 calcAntal = function calcAntal(lst) {
-  // Klarar ej Ess Kung Dam ... just nu
   var l, len, res, suit, unvisible, visible;
   res = 0;
   for (l = 0, len = lst.length; l < len; l++) {
@@ -231,12 +273,6 @@ legalMove = function legalMove(board, a, b) {
   if (b === 12 || b === 13 || b === 14 || b === 15 || b === 17 || b === 18 || b === 19 || b === 20) {
     return false;
   }
-
-  //b1 = board[12].length + board[13].length + board[14].length + board[15].length 
-  //b2 = board[17].length + board[18].length + board[19].length + board[20].length 
-  //if a==16 then return b1==0 or b2==0
-  //if b==16 then return board[16].length==0 and a in [4,5,6,7,8,9,10,11]
-  //print a,b,board[a].length,_.last board[a],board[b].length,_.last board[b]
   if (board[a].length === 0) {
     return false;
   }
@@ -468,14 +504,23 @@ newGame = function newGame(key) {
   }
 };
 
+undo = function undo() {
+  undoMove(hist.pop());
+  return display(board);
+};
+
+restart = function restart() {
+  hist = [];
+  board = _.cloneDeep(originalBoard);
+  return display(board);
+};
+
 keyPressed = function keyPressed() {
   if (key === 'U' && hist.length > 0) {
-    undoMove(hist.pop());
-    display(board);
+    undo();
   }
   if (key === 'R') {
-    board = _.cloneDeep(originalBoard);
-    display(board);
+    restart();
   }
   if (key === 'C' || key === 'W') {
     return newGame(key);

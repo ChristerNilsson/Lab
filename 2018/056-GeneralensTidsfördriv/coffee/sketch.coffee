@@ -30,6 +30,22 @@ preload = -> img = loadImage 'cards/Color_52_Faces_v.2.0.png'
 
 range = _.range
 
+compress = (board) ->
+	for heap in [4,5,6,7,8,9,10,11]
+		if board[heap].length > 1
+			temp = board[heap][0]
+			res = []
+			for i in range 1,board[heap].length
+				[suit1,h1,v1] = temp
+				[suit2,h2,v2] = board[heap][i]
+				if suit1==suit2 and 1 == abs v1-h2
+					temp = [suit1,h1,v2]
+				else
+					res.push temp 
+					temp = [suit2,h2,v2]
+			res.push temp
+			board[heap] = res
+
 makeBoard = (wild=false)->
 	cards = []
 	for rank in range 1,13
@@ -50,6 +66,9 @@ makeBoard = (wild=false)->
 	for heap in [12,13,14,15,17,18,19,20]
 		board[heap].push cards.pop()
 
+	compress board
+	print board
+
 fakeBoard = ->
 	#board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,2,2],[1,3,3],[1,1,1],[3,1,1],[3,2,2]],[[0,4,4],[0,12,12],[3,5,5],[1,8,8],[3,9,9]],[[2,11,11],[3,12,12],[0,6,6],[2,5,5],[1,7,7]],[[0,8,8],[3,11,11],[2,6,6],[2,9,9],[1,12,12]],[[0,9,9],[0,10,10],[2,10,10],[2,4,4],[2,7,7]],[[1,2,2],[3,4,4],[3,6,6],[0,5,5],[1,11,11]],[[0,1,1],[0,7,7],[1,10,10],[1,5,5],[3,8,8]],[[0,3,3],[1,4,4],[3,3,3],[2,2,2],[3,10,10]],[[0,11,11]],[[3,7,7]],[[2,1,1]],[[2,8,8]],[],[[1,6,6]],[[2,3,3]],[[2,12,12]],[[1,9,9]]] # nix!
 	#board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,10,10],[2,11,11],[0,6,6],[3,9,9],[1,8,8]],[[3,10,10],[2,10,10],[0,12,12],[0,4,4],[3,1,1]],[[3,12,12],[1,3,3],[1,4,4],[1,9,9],[0,2,2]],[[3,4,4],[3,5,5],[2,5,5],[2,9,9],[2,3,3]],[[3,6,6],[1,7,7],[0,5,5],[2,7,7],[3,8,8]],[[2,4,4],[0,9,9],[1,2,2],[3,11,11],[1,6,6]],[[2,8,8],[2,1,1],[2,2,2],[1,10,10],[3,3,3]],[[1,1,1],[1,11,11],[1,12,12],[3,7,7],[2,12,12]],[[0,11,11]],[[3,2,2]],[[1,5,5]],[[0,8,8]],[],[[2,6,6]],[[0,3,3]],[[0,1,1]],[[0,7,7]]] # 851 ms
@@ -63,6 +82,7 @@ fakeBoard = ->
 
 setup = ->
 	createCanvas 800,600
+	#makeBoard()
 	newGame 'C'
 
 showHeap = (board,heap,x,y,dx) ->
@@ -83,13 +103,13 @@ showHeap = (board,heap,x,y,dx) ->
 	if marked? and marked == heap 
 		fill 0,128,0,128
 		if y==4*h 
-			ellipse x-w/2,y+h/2,20 
+			ellipse x-w/2,y+h/2,40 
 		else
-			if dx<0  then ellipse x+w,  y+h/2,20
-			if dx>0  then ellipse x,    y+h/2,20
-			if dx==0 then ellipse x+w/2,y+h/2,20
+			if dx<0  then ellipse x+w,  y+h/2,40
+			if dx>0  then ellipse x,    y+h/2,40
+			if dx==0 then ellipse x+w/2,y+h/2,40
 
-calcAntal = (lst) -> # Klarar ej Ess Kung Dam ... just nu
+calcAntal = (lst) ->
 	res=0
 	for [suit,unvisible,visible] in lst
 		res += 1 + abs(unvisible-visible)
@@ -126,11 +146,6 @@ display = (board) ->
 legalMove = (board,a,b) ->
 	if a in [0,1,2,3] then return false 
 	if b in [12,13,14,15,17,18,19,20] then return false 
-	#b1 = board[12].length + board[13].length + board[14].length + board[15].length 
-	#b2 = board[17].length + board[18].length + board[19].length + board[20].length 
-	#if a==16 then return b1==0 or b2==0
-	#if b==16 then return board[16].length==0 and a in [4,5,6,7,8,9,10,11]
-	#print a,b,board[a].length,_.last board[a],board[b].length,_.last board[b]
 	if board[a].length==0 then return false
 	if board[b].length==0 then return true
 	[sa,a1,a2] = _.last board[a]
@@ -247,17 +262,19 @@ newGame = (key) ->
 			display board
 			return 
 
+undo = ->
+	undoMove hist.pop()
+	display board
+
+restart = ->
+	hist = []
+	board = _.cloneDeep originalBoard
+	display board
+
 keyPressed = -> 
-	if key == 'U' and hist.length > 0
-		undoMove hist.pop()
-		display board
-
-	if key == 'R'
-		board = _.cloneDeep originalBoard
-		display board
-
-	if key in ['C','W']
-		newGame key 
+	if key == 'U' and hist.length > 0 then undo()
+	if key == 'R' then restart()
+	if key in ['C','W'] then newGame key 
 
 prettyCard = ([suit,unvisible,visible],antal=2) ->
 	if antal==1
