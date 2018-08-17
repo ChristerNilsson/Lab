@@ -20,6 +20,7 @@ var H,
     W,
     aceCards,
     autoShake,
+    backs,
     board,
     calcAntal,
     cands,
@@ -29,12 +30,12 @@ var H,
     display,
     dsts,
     expand,
+    faces,
     fakeBoard,
     findAllMoves,
     h,
     hash,
     hist,
-    img,
     keyPressed,
     legalMove,
     makeAutoShake,
@@ -77,7 +78,9 @@ h = H / 3;
 
 LIMIT = 2000; // Maximum steps considered before giving up.
 
-img = null;
+faces = null;
+
+backs = null;
 
 board = null;
 
@@ -102,7 +105,8 @@ autoShake = [];
 shake = true;
 
 preload = function preload() {
-  return img = loadImage('cards/Color_52_Faces_v.2.0.png');
+  faces = loadImage('cards/Color_52_Faces_v.2.0.png');
+  return backs = loadImage('cards/Playing_Card_Backs.png');
 };
 
 range = _.range;
@@ -224,12 +228,12 @@ makeAutoShake = function makeAutoShake() {
 setup = function setup() {
   createCanvas(800, 600);
   makeAutoShake();
-  newGame('C');
+  newGame('W');
   return display(board);
 };
 
 showHeap = function showHeap(board, heap, x, y, dx) {
-  var card, dr, k, l, len, n, rank, ref, results, suit, unvisible, visible, x0, y0;
+  var card, dr, k, l, len, len1, m, n, rank, ref, ref1, suit, unvisible, visible, x0, y0;
   n = calcAntal(board[heap]);
   if (n === 0) {
     return;
@@ -244,7 +248,6 @@ showHeap = function showHeap(board, heap, x, y, dx) {
   x = x0 + x * dx / 2;
   y = y * h;
   ref = board[heap];
-  results = [];
   for (k = l = 0, len = ref.length; l < len; k = ++l) {
     card = ref[k];
     var _card = card;
@@ -256,27 +259,31 @@ showHeap = function showHeap(board, heap, x, y, dx) {
     visible = _card2[2];
 
     dr = unvisible < visible ? 1 : -1;
-    results.push(function () {
-      var len1, m, ref1, results1;
-      ref1 = range(unvisible, visible + dr, dr);
-      results1 = [];
-      for (m = 0, len1 = ref1.length; m < len1; m++) {
-        rank = ref1[m];
+    ref1 = range(unvisible, visible + dr, dr);
+    for (m = 0, len1 = ref1.length; m < len1; m++) {
+      rank = ref1[m];
 
-        var _ref = shake ? autoShake[13 * suit + rank] : [0, 0];
+      var _ref = shake ? autoShake[13 * suit + rank] : [0, 0];
 
-        var _ref2 = _slicedToArray(_ref, 2);
+      var _ref2 = _slicedToArray(_ref, 2);
 
-        x0 = _ref2[0];
-        y0 = _ref2[1];
+      x0 = _ref2[0];
+      y0 = _ref2[1];
 
-        image(img, x0 + x, y0 + y + 13, w, h, OFFSETX + W * rank, 1092 + H * suit, 243, H);
-        results1.push(x += dx);
-      }
-      return results1;
-    }());
+      image(faces, x0 + x, y0 + y + 13, w, h, OFFSETX + W * rank, 1092 + H * suit, 243, H);
+      x += dx;
+    }
   }
-  return results;
+  if ((heap === 0 || heap === 1 || heap === 2 || heap === 3) && card[2] === 12) {
+    var _ref3 = shake ? autoShake[13 * suit + rank] : [0, 0];
+
+    var _ref4 = _slicedToArray(_ref3, 2);
+
+    x0 = _ref4[0];
+    y0 = _ref4[1];
+
+    return image(backs, x0 + x, y0 + y + 13, w, h, OFFSETX + 860, 1092 + 622, 243, H);
+  }
 };
 
 calcAntal = function calcAntal(lst) {
@@ -397,11 +404,11 @@ makeMove = function makeMove(board, a, b, record) {
   return board[b].push([suit, unvisible, visible]);
 };
 
-undoMove = function undoMove(_ref3) {
-  var _ref4 = _slicedToArray(_ref3, 3),
-      a = _ref4[0],
-      b = _ref4[1],
-      antal = _ref4[2];
+undoMove = function undoMove(_ref5) {
+  var _ref6 = _slicedToArray(_ref5, 3),
+      a = _ref6[0],
+      b = _ref6[1],
+      antal = _ref6[2];
 
   var suit, unvisible, visible;
 
@@ -429,6 +436,12 @@ undoMove = function undoMove(_ref3) {
 mousePressed = function mousePressed() {
   // one click
   var found, heap, holes, l, len, len1, m, marked, mx, my, ref;
+  if (!(0 < mouseX && mouseX < width)) {
+    return;
+  }
+  if (!(0 < mouseY && mouseY < width)) {
+    return;
+  }
   mx = Math.floor(mouseX / (W / 3));
   my = Math.floor(mouseY / (H / 3));
   if (my >= 4) {
@@ -528,13 +541,11 @@ countAceCards = function countAceCards(b) {
   return res;
 };
 
-expand = function expand(_ref5) {
-  var _ref6 = _slicedToArray(_ref5, 5),
-      aceCards = _ref6[0],
-      level = _ref6[1],
-      b = _ref6[2],
-      src0 = _ref6[3],
-      dst0 = _ref6[4];
+expand = function expand(_ref7) {
+  var _ref8 = _slicedToArray(_ref7, 3),
+      aceCards = _ref8[0],
+      level = _ref8[1],
+      b = _ref8[2];
 
   var b1, dst, key, l, len, moves, res, src;
   res = [];
@@ -558,21 +569,25 @@ expand = function expand(_ref5) {
 };
 
 newGame = function newGame(key) {
-  var cand, level, nr;
+  var cand, increment, level, nr;
   start = millis();
   timing = null;
   while (true) {
     makeBoard(key === 'W');
     originalBoard = _.cloneDeep(board);
-    cands = [[4, 0, board // antal kort på ässen, antal drag, board
-    ]];
+    cands = [];
+    cands.push([4, 0, board // antal kort på ässen, antal drag, board
+    ]);
     hash = {};
     nr = 0;
+    cand = null;
+    aceCards = 4;
     while (nr < LIMIT && cands.length > 0 && aceCards < 52) {
       nr++;
       cand = cands.pop();
       aceCards = cand[0];
-      cands = cands.concat(expand(cand));
+      increment = expand(cand);
+      cands = cands.concat(increment);
       cands.sort(function (a, b) {
         if (a[0] === b[0]) {
           return a[1] - b[1];
@@ -620,23 +635,28 @@ keyPressed = function keyPressed() {
   return display(board);
 };
 
-prettyCard = function prettyCard(_ref7) {
-  var _ref8 = _slicedToArray(_ref7, 3),
-      suit = _ref8[0],
-      unvisible = _ref8[1],
-      visible = _ref8[2];
+prettyCard = function prettyCard(_ref9) {
+  var _ref10 = _slicedToArray(_ref9, 3),
+      suit = _ref10[0],
+      unvisible = _ref10[1],
+      visible = _ref10[2];
 
   var antal = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2;
 
   if (antal === 1) {
     return "" + RANK[visible];
-  } else if (unvisible === visible) {
-    return SUIT[suit] + " " + RANK[visible];
   } else {
-    return SUIT[suit] + " " + RANK[unvisible] + ".." + RANK[visible];
+    return SUIT[suit] + " " + RANK[visible];
   }
 };
 
+// prettyCard = ([suit,unvisible,visible],antal=2) ->
+// 	if antal==1
+// 		"#{RANK[visible]}"
+// 	else if unvisible == visible
+// 		"#{SUIT[suit]} #{RANK[visible]}"
+// 	else
+// 		"#{SUIT[suit]} #{RANK[unvisible]}..#{RANK[visible]}"
 prettyMove = function prettyMove(src, dst, b) {
   var c1, c2;
   c1 = _.last(b[src]);

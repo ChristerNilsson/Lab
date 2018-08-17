@@ -17,7 +17,9 @@ w = W/3
 h = H/3
 LIMIT = 2000 # Maximum steps considered before giving up.
 
-img = null
+faces = null
+backs = null
+
 board = null
 cards = null
 hist = []
@@ -30,7 +32,9 @@ timing = null
 autoShake = []
 shake = true
 
-preload = -> img = loadImage 'cards/Color_52_Faces_v.2.0.png'
+preload = -> 
+	faces = loadImage 'cards/Color_52_Faces_v.2.0.png'
+	backs = loadImage 'cards/Playing_Card_Backs.png'
 
 range = _.range
 
@@ -94,7 +98,7 @@ makeAutoShake = ->
 setup = ->
 	createCanvas 800,600
 	makeAutoShake()
-	newGame 'C'
+	newGame 'W'
 	display board 
 
 showHeap = (board,heap,x,y,dx) ->
@@ -110,8 +114,12 @@ showHeap = (board,heap,x,y,dx) ->
 		dr = if unvisible < visible then 1 else -1
 		for rank in range unvisible,visible+dr,dr
 			[x0,y0] = if shake then autoShake[13*suit+rank] else [0,0]
-			image img, x0+x,y0+y+13, w,h, OFFSETX+W*rank,1092+H*suit,243,H
+			image faces, x0+x,y0+y+13, w,h, OFFSETX+W*rank,1092+H*suit,243,H
 			x += dx
+
+	if heap in [0,1,2,3] and card[2]==12
+		[x0,y0] = if shake then autoShake[13*suit+rank] else [0,0]
+		image backs, x0+x,y0+y+13, w,h, OFFSETX+860,1092+622,243,H
 
 calcAntal = (lst) ->
 	res=0
@@ -180,6 +188,9 @@ undoMove = ([a,b,antal]) ->
 		if unvisible!=visible+antal-1 then board[b].push [suit,unvisible,visible+antal]
 
 mousePressed = -> # one click
+	if not (0 < mouseX < width) then return
+	if not (0 < mouseY < width) then return
+
 	mx = mouseX//(W/3)
 	my = mouseY//(H/3)
 	if my >= 4
@@ -236,7 +247,7 @@ countAceCards = (b) ->
 		res += calcAntal b[heap]
 	res
 
-expand = ([aceCards,level,b,src0,dst0]) ->
+expand = ([aceCards,level,b]) ->
 	res = []
 	moves = findAllMoves b
 	for [src,dst] in moves
@@ -255,15 +266,19 @@ newGame = (key) ->
 		makeBoard key == 'W'
 		originalBoard = _.cloneDeep board
 
-		cands = [[4,0,board]] # antal kort på ässen, antal drag, board
+		cands = []
+		cands.push [4,0,board] # antal kort på ässen, antal drag, board
 		hash = {}
 		nr = 0
+		cand = null
+		aceCards = 4
 
 		while nr < LIMIT and cands.length > 0 and aceCards < 52
 			nr++ 
 			cand = cands.pop()
 			aceCards = cand[0]
-			cands = cands.concat expand cand
+			increment = expand cand
+			cands = cands.concat increment
 			cands.sort (a,b) -> if a[0] == b[0] then a[1]-b[1] else a[0]-b[0]
 
 		level = cand[1]
@@ -291,12 +306,16 @@ keyPressed = ->
 	display board
 		
 prettyCard = ([suit,unvisible,visible],antal=2) ->
-	if antal==1
-		"#{RANK[visible]}"
-	else if unvisible == visible
-		"#{SUIT[suit]} #{RANK[visible]}"
-	else
-		"#{SUIT[suit]} #{RANK[unvisible]}..#{RANK[visible]}"
+	if antal==1 then "#{RANK[visible]}"
+	else "#{SUIT[suit]} #{RANK[visible]}"
+
+# prettyCard = ([suit,unvisible,visible],antal=2) ->
+# 	if antal==1
+# 		"#{RANK[visible]}"
+# 	else if unvisible == visible
+# 		"#{SUIT[suit]} #{RANK[visible]}"
+# 	else
+# 		"#{SUIT[suit]} #{RANK[unvisible]}..#{RANK[visible]}"
 
 prettyMove = (src,dst,b) ->
 	c1 = _.last b[src]
