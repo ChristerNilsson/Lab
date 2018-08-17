@@ -262,7 +262,7 @@ newGame = (key) ->
 		hash = {}
 		nr = 0
 
-		while cands.length > 0 and aceCards < 52
+		while nr < 2000 and cands.length > 0 and aceCards < 52
 			nr++ 
 			cand = cands.pop()
 			[aceCards,level,b,src,dst] = cand
@@ -271,7 +271,7 @@ newGame = (key) ->
 			cands.sort (a,b) -> if a[0] == b[0] then a[1]-b[1] else a[0]-b[0]
 
 		print nr,aceCards,-level #,cands.length #, src,dst,prettyMove src,dst,b
-		if cands.length > 0
+		if aceCards == 52 # nr < 2000 and cands.length > 0
 			print JSON.stringify(originalBoard)
 			board = cand[2]
 			printSolution hash,board

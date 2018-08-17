@@ -566,7 +566,7 @@ newGame = function newGame(key) {
     done = board;
     hash = {};
     nr = 0;
-    while (cands.length > 0 && aceCards < 52) {
+    while (nr < 2000 && cands.length > 0 && aceCards < 52) {
       nr++;
       cand = cands.pop();
       var _cand = cand;
@@ -596,7 +596,8 @@ newGame = function newGame(key) {
       });
     }
     print(nr, aceCards, -level); //,cands.length #, src,dst,prettyMove src,dst,b
-    if (cands.length > 0) {
+    if (aceCards === 52) {
+      // nr < 2000 and cands.length > 0
       print(JSON.stringify(originalBoard));
       board = cand[2];
       printSolution(hash, board);
