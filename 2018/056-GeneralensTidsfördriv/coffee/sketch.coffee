@@ -21,7 +21,6 @@ img = null
 board = null
 cards = null
 hist = []
-marked = null
 cands = null
 hash = null
 aceCards = 4
@@ -114,15 +113,6 @@ showHeap = (board,heap,x,y,dx) ->
 			image img, x0+x,y0+y+13, w,h, OFFSETX+W*rank,1092+H*suit,243,H
 			x += dx
 
-	if marked? and marked == heap 
-		fill 0,128,0,128
-		if y==4*h 
-			ellipse -4+x-w/2,6+y+h/2,60 
-		else
-			if dx<0  then ellipse -4+x+w,  6+y+h/2,60
-			if dx>0  then ellipse -4+x,    6+y+h/2,60
-			if dx==0 then ellipse -4+x+w/2,6+y+h/2,60
-
 calcAntal = (lst) ->
 	res=0
 	for [suit,unvisible,visible] in lst
@@ -189,23 +179,30 @@ undoMove = ([a,b,antal]) ->
 		board[a].push [suit,visible,  visible+antal-1]
 		if unvisible!=visible+antal-1 then board[b].push [suit,unvisible,visible+antal]
 
-mousePressed = ->
+mousePressed = -> # one click
 	mx = mouseX//(W/3)
 	my = mouseY//(H/3)
 	if my >= 4
-		marked1 = 12 + mx
+		marked = 12 + mx
 	else
-		if mx==4 then marked1 = my
-		else if mx<4 then marked1 = 4+my
-		else marked1 = 8+my
+		if mx==4 then marked = my
+		else if mx<4 then marked = 4+my
+		else marked = 8+my
 
-	if marked?
-		if marked1 != marked 
-			if legalMove board,marked,marked1  
-				makeMove board,marked,marked1,true
-		marked = null
-	else
-		marked = marked1
+	holes = []
+	found = false
+	for heap in [0,1,2,3, 4,5,6,7, 8,9,10,11]	
+		if board[heap].length==0 then holes.push heap
+		if heap not in holes and legalMove board,marked,heap  
+			makeMove board,marked,heap,true
+			found = true
+			break 
+	if not found
+		for heap in holes	
+			if legalMove board,marked,heap  
+				makeMove board,marked,heap,true
+				break 
+
 	if 52 == countAceCards board then timing = (millis() - start) // 1000
 	display board
 
@@ -223,14 +220,6 @@ findAllMoves = (b) ->
 	res
 
 makeKey = (b) -> # kanske 4-11 bör sorteras först
-	# b1 = _.cloneDeep b
-	# a = b1.slice 0,4
-	# c = b1.slice 4,12
-	# d = b1.slice 12,21
-	# c.sort()
-	# b = a.concat(c).concat(d)
-	#print b
-
 	res = ''
 	for heap,index in b
 		for [suit,r1,r2] in heap

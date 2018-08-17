@@ -41,7 +41,6 @@ var H,
     makeBoard,
     makeKey,
     makeMove,
-    marked,
     mousePressed,
     newGame,
     originalBoard,
@@ -85,8 +84,6 @@ board = null;
 cards = null;
 
 hist = [];
-
-marked = null;
 
 cands = null;
 
@@ -232,7 +229,7 @@ setup = function setup() {
 };
 
 showHeap = function showHeap(board, heap, x, y, dx) {
-  var card, dr, k, l, len, len1, m, n, rank, ref, ref1, suit, unvisible, visible, x0, y0;
+  var card, dr, k, l, len, n, rank, ref, results, suit, unvisible, visible, x0, y0;
   n = calcAntal(board[heap]);
   if (n === 0) {
     return;
@@ -247,6 +244,7 @@ showHeap = function showHeap(board, heap, x, y, dx) {
   x = x0 + x * dx / 2;
   y = y * h;
   ref = board[heap];
+  results = [];
   for (k = l = 0, len = ref.length; l < len; k = ++l) {
     card = ref[k];
     var _card = card;
@@ -258,37 +256,27 @@ showHeap = function showHeap(board, heap, x, y, dx) {
     visible = _card2[2];
 
     dr = unvisible < visible ? 1 : -1;
-    ref1 = range(unvisible, visible + dr, dr);
-    for (m = 0, len1 = ref1.length; m < len1; m++) {
-      rank = ref1[m];
+    results.push(function () {
+      var len1, m, ref1, results1;
+      ref1 = range(unvisible, visible + dr, dr);
+      results1 = [];
+      for (m = 0, len1 = ref1.length; m < len1; m++) {
+        rank = ref1[m];
 
-      var _ref = shake ? autoShake[13 * suit + rank] : [0, 0];
+        var _ref = shake ? autoShake[13 * suit + rank] : [0, 0];
 
-      var _ref2 = _slicedToArray(_ref, 2);
+        var _ref2 = _slicedToArray(_ref, 2);
 
-      x0 = _ref2[0];
-      y0 = _ref2[1];
+        x0 = _ref2[0];
+        y0 = _ref2[1];
 
-      image(img, x0 + x, y0 + y + 13, w, h, OFFSETX + W * rank, 1092 + H * suit, 243, H);
-      x += dx;
-    }
+        image(img, x0 + x, y0 + y + 13, w, h, OFFSETX + W * rank, 1092 + H * suit, 243, H);
+        results1.push(x += dx);
+      }
+      return results1;
+    }());
   }
-  if (marked != null && marked === heap) {
-    fill(0, 128, 0, 128);
-    if (y === 4 * h) {
-      return ellipse(-4 + x - w / 2, 6 + y + h / 2, 60);
-    } else {
-      if (dx < 0) {
-        ellipse(-4 + x + w, 6 + y + h / 2, 60);
-      }
-      if (dx > 0) {
-        ellipse(-4 + x, 6 + y + h / 2, 60);
-      }
-      if (dx === 0) {
-        return ellipse(-4 + x + w / 2, 6 + y + h / 2, 60);
-      }
-    }
-  }
+  return results;
 };
 
 calcAntal = function calcAntal(lst) {
@@ -439,29 +427,43 @@ undoMove = function undoMove(_ref3) {
 };
 
 mousePressed = function mousePressed() {
-  var marked1, mx, my;
+  // one click
+  var found, heap, holes, l, len, len1, m, marked, mx, my, ref;
   mx = Math.floor(mouseX / (W / 3));
   my = Math.floor(mouseY / (H / 3));
   if (my >= 4) {
-    marked1 = 12 + mx;
+    marked = 12 + mx;
   } else {
     if (mx === 4) {
-      marked1 = my;
+      marked = my;
     } else if (mx < 4) {
-      marked1 = 4 + my;
+      marked = 4 + my;
     } else {
-      marked1 = 8 + my;
+      marked = 8 + my;
     }
   }
-  if (marked != null) {
-    if (marked1 !== marked) {
-      if (legalMove(board, marked, marked1)) {
-        makeMove(board, marked, marked1, true);
+  holes = [];
+  found = false;
+  ref = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+  for (l = 0, len = ref.length; l < len; l++) {
+    heap = ref[l];
+    if (board[heap].length === 0) {
+      holes.push(heap);
+    }
+    if (indexOf.call(holes, heap) < 0 && legalMove(board, marked, heap)) {
+      makeMove(board, marked, heap, true);
+      found = true;
+      break;
+    }
+  }
+  if (!found) {
+    for (m = 0, len1 = holes.length; m < len1; m++) {
+      heap = holes[m];
+      if (legalMove(board, marked, heap)) {
+        makeMove(board, marked, heap, true);
+        break;
       }
     }
-    marked = null;
-  } else {
-    marked = marked1;
   }
   if (52 === countAceCards(board)) {
     timing = Math.floor((millis() - start) / 1000);
@@ -494,13 +496,6 @@ findAllMoves = function findAllMoves(b) {
 makeKey = function makeKey(b) {
   // kanske 4-11 bör sorteras först
   var heap, index, l, len, len1, m, r1, r2, res, suit;
-  // b1 = _.cloneDeep b
-  // a = b1.slice 0,4
-  // c = b1.slice 4,12
-  // d = b1.slice 12,21
-  // c.sort()
-  // b = a.concat(c).concat(d)
-  //print b
   res = '';
   for (index = l = 0, len = b.length; l < len; index = ++l) {
     heap = b[index];
