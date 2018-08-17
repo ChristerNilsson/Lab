@@ -83,6 +83,7 @@ fakeBoard = ->
 	#board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[3,3,3],[2,3,3],[0,6,6],[3,5,5],[0,9,9],[2,10,10],[1,10,10]],[[0,10,10],[0,7,7],[3,8,8],[2,11,11]],[[0,12,12],[3,7,7],[2,1,1],[2,8,8],[1,7,7]],[[1,4,4],[2,5,5],[2,6,6],[1,2,2],[0,1,1],[2,2,2],[3,11,11],[2,7,7]],[[3,6,6],[3,9,9],[0,4,4],[3,4,4],[1,8,8]],[[0,3,3],[3,12,12],[1,11,11]],[[2,4,4],[0,2,2],[3,10,10],[0,8,8]],[[1,5,5],[2,9,9],[1,6,6],[1,1,1]],[[0,5,5]],[[0,11,11]],[[2,12,12]],[[1,3,3]],[],[[1,12,12]],[[1,9,9]],[[3,1,1]],[[3,2,2]]]
 	board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,7,7],[1,10,10],[0,1,1],[0,2,2],[2,7,7]],[[2,1,1],[2,8,8],[1,3,3],[1,7,7],[3,11,11]],[[2,2,2],[3,6,6],[3,8,8],[2,4,4],[0,3,3]],[[3,1,1],[0,5,5],[3,2,2],[2,3,3],[1,2,2]],[[3,4,4],[2,10,10],[1,11,11],[0,11,11],[2,5,5]],[[3,9,9],[0,6,6],[2,11,11],[0,10,10],[3,12,12]],[[1,9,9],[1,12,12],[0,4,4],[1,6,6],[2,6,6]],[[1,1,1],[2,12,12],[1,5,5],[3,7,7],[1,8,8]],[[3,10,10]],[[0,9,9]],[[3,3,3]],[[0,12,12]],[],[[2,9,9]],[[0,8,8]],[[1,4,4]],[[3,5,5]]]
 	board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[3,9,9],[0,4,4],[3,5,5],[0,7,7],[1,5,5]],[[1,10,10],[3,7,7],[0,6,6],[3,11,11],[3,8,8]],[[2,2,2],[3,1,1],[1,1,1],[1,9,9],[0,9,9]],[[1,2,2],[2,7,7],[1,6,6],[3,6,6],[3,3,3]],[[1,7,7],[2,3,3],[0,1,1],[2,1,1],[0,3,3]],[[2,8,8],[1,11,11],[2,6,6],[0,10,10],[3,4,4]],[[2,5,5],[2,12,12],[3,10,10],[0,2,2],[1,8,8]],[[2,11,11],[2,9,9],[0,12,12],[3,12,12],[1,4,4]],[[1,12,12]],[[0,5,5]],[[2,10,10]],[[3,2,2]],[],[[1,3,3]],[[2,4,4]],[[0,11,11]],[[0,8,8]]]
+	board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[2,10,10],[2,12,12],[1,8,8],[1,12,12],[3,3,3]],[[1,2,2],[0,5,5]],[[3,12,12],[2,4,4],[3,8,8],[1,5,5],[0,8,8]],[[1,11,11],[0,1,1],[0,4,4]],[[1,7,7],[1,3,3],[0,10,10],[3,4,4],[2,1,1],[3,11,11]],[[2,9,9],[2,5,5],[1,6,6],[2,2,2],[1,1,1],[0,3,3]],[[2,6,6],[2,3,3],[3,1,2],[0,2,2],[1,9,9],[3,7,7],[3,10,10],[0,11,11],[2,7,7]],[[2,8,8],[3,6,6],[1,10,10]],[[0,6,6]],[[3,5,5]],[[3,9,9]],[[0,12,12]],[],[[2,11,11]],[[0,9,9]],[[1,4,4]],[[0,7,7]]]
 
 makeAutoShake = ->
 	autoShake = []
@@ -92,7 +93,7 @@ makeAutoShake = ->
 setup = ->
 	createCanvas 800,600
 	makeAutoShake()
-	newGame '0'
+	newGame 'C'
 
 showHeap = (board,heap,x,y,dx) ->
 	n = calcAntal board[heap]
@@ -218,7 +219,7 @@ findAllMoves = (b) ->
 				if legalMove b,src,dst then res.push [src,dst]
 	res
 
-makeKey = (b) ->
+makeKey = (b) -> 
 	res = ''
 	for heap,index in b
 		for [suit,r1,r2] in heap
@@ -235,7 +236,7 @@ countAceCards = (b) ->
 		res += calcAntal b[heap]
 	res
 
-expand = (b) ->
+expand = ([aceCards,level,b,src0,dst0]) ->
 	res = []
 	moves = findAllMoves b
 	for [src,dst] in moves
@@ -244,41 +245,37 @@ expand = (b) ->
 		key = makeKey b1
 		if key not of hash
 			hash[key] = [src,dst,b]
-			res.push b1
-			if aceCards < countAceCards b1
-				aceCards = countAceCards b1
-				done = b1
+			res.push [countAceCards(b1), level-1, b1, src, dst]
 	res
 
-solve = ->
-	done = null
-	while done == null 
-		if cands.length == 0 then return
-		res = []
-		for cand in cands 
-			res = res.concat expand cand
-		cands = res
-
 newGame = (key) ->
+	start = millis()
 	timing = null
 	while true 
 		makeBoard key == 'W'
+		#print board
 		originalBoard = _.cloneDeep board
 
-		cands = [board]
+		cands = [[4,0,board,-1,-1]] # antal kort på ässen, antal drag, board
 		done = board 
 		hash = {}
-		aceCards = 4
+		nr = 0
 
-		start = millis()
-		while 52 > countAceCards done
-			solve()
-			cands = [done]
-			if done==null then break
-		if done?
-			print JSON.stringify(board)
-			printSolution hash,done
-			print millis()-start
+		while cands.length > 0 and aceCards < 52
+			nr++ 
+			cand = cands.pop()
+			[aceCards,level,b,src,dst] = cand
+			if src > -1 then [src,dst,b] = hash[makeKey cand[2]]
+			cands = cands.concat expand cand
+			cands.sort (a,b) -> if a[0] == b[0] then a[1]-b[1] else a[0]-b[0]
+
+		print nr,aceCards,-level #,cands.length #, src,dst,prettyMove src,dst,b
+		if cands.length > 0
+			print JSON.stringify(originalBoard)
+			board = cand[2]
+			printSolution hash,board
+			board = _.cloneDeep originalBoard
+			print "#{int millis()-start} ms"
 			display board
 			start = millis()
 			return 
@@ -325,6 +322,6 @@ printSolution = (hash, b) ->
 		key = makeKey b
 	solution.reverse()
 	s = ''
-	for [src,dst,b] in solution
-		s += "\n" + prettyMove src,dst,b
+	for [src,dst,b],index in solution
+		s += "\n#{index}: #{prettyMove src,dst,b}"
 	print s
