@@ -6,7 +6,12 @@
 #  5  5  5  5  5  1  9  9  9  9  9
 #  6  6  6  6  6  2 10 10 10 10 10
 #  7  7  7  7  7  3 11 11 11 11 11
-#    12 13 14 15    17 18 19 20
+#    12 13 14 15    16 17 18 19
+
+ACES = [0,1,2,3]
+HEAPS = [4,5,6,7,8,9,10,11]
+PANEL4 =       [14,15,16,17]
+PANEL8 = [12,13,14,15,16,17,18,19]
 
 SUIT = "club heart spade diamond".split ' '
 RANK = "A 2 3 4 5 6 7 8 9 T J Q K".split ' '
@@ -22,7 +27,7 @@ backs = null
 
 board = null
 cards = null
-hist = []
+hist = null
 cands = null
 hash = null
 aceCards = 4
@@ -42,7 +47,7 @@ preload = ->
 range = _.range
 
 compress = (board) ->
-	for heap in [4,5,6,7,8,9,10,11]
+	for heap in HEAPS
 		if board[heap].length > 1
 			temp = board[heap][0]
 			res = []
@@ -57,10 +62,10 @@ compress = (board) ->
 			res.push temp
 			board[heap] = res
 
-makeBoard = (maxRank,cardsPerSequence,panelCards,wild=false)->
+makeBoard = (maxRank,wild=false)->
 	N = maxRank
 	cardsPerSequence = N//2-1
-	panelCards = maxRank*4 - 8 * cardsPerSequence 
+	#panelCards = maxRank*4 - 8 * cardsPerSequence 
 
 	cards = []
 	for rank in range 1,maxRank
@@ -79,8 +84,8 @@ makeBoard = (maxRank,cardsPerSequence,panelCards,wild=false)->
 			rr = if wild then int random 4,12 else i
 			board[rr].push cards.pop()
 
-	if N%2==0 then lst = [14,15,16,17]
-	if N%2==1 then lst = [12,13,14,15,16,17,18,19]
+	if N%2==0 then lst = PANEL4
+	if N%2==1 then lst = PANEL8
 
 	for heap in lst
 		board[heap].push cards.pop()
@@ -128,7 +133,7 @@ showHeap = (board,heap,x,y,dx) ->
 			image faces, x0+x,y0+y+13, w,h, OFFSETX+W*rank,1092+H*suit,243,H
 			x += dx
 
-	if heap in [0,1,2,3] and card[2]==N-1
+	if heap in ACES and card[2]==N-1
 		[x0,y0] = if shake then autoShake[13*suit+rank] else [0,0]
 		image backs, x0+x,y0+y+13, w,h, OFFSETX+860,1092+622,243,H
 
@@ -154,29 +159,33 @@ display = (board) ->
 	text '89T = Medium',      x,y+45
 	text 'JQK = Hard',        x,y+60
 	text 'W = Wild',          x,y+75
-	if timing != null
-		text "#{timing} seconds", x,y+105
+	if timing != null then text "#{timing} seconds", x,y+105
+	textSize 20
+	text '     56789TJQK'[N], x,y+91
 	textAlign LEFT,CENTER
-	text 'Generalens Tidsfördriv', 0,y+120
+	textSize 10
+	text 'Generalens Tidsfördriv', 0,height-5
 
-	for heap,y in [0,1,2,3]
+	for heap,y in ACES
 		showHeap board, heap, 0, y, 0
 
-	for heap,y in [4,5,6,7,8,9,10,11]
+	for heap,y in [4,5,6,7]
 		n = calcAntal board[heap]
 		dx = if n<=7 then w/2 else (width/2-w/2-w)/(n-1)
-		if heap % 2 == 0
-			showHeap board, heap, -2, y//2, -dx
-		else
-			showHeap board, heap, 2, y//2, dx
+		showHeap board, heap, -2, y, -dx
+
+	for heap,y in [8,9,10,11]
+		n = calcAntal board[heap]
+		dx = if n<=7 then w/2 else (width/2-w/2-w)/(n-1)
+		showHeap board, heap, 2, y, dx
 			
-	for heap,x in [12,13,14,15,16,17,18,19]
+	for heap,x in PANEL8
 		xx = [-8,-6,-4,-2,2,4,6,8][x]
 		showHeap board, heap, xx,4, w
 
 legalMove = (board,a,b) ->
-	if a in [0,1,2,3] then return false 
-	if b in [12,13,14,15,16,17,18,19] then return false 
+	if a in ACES then return false 
+	if b in PANEL8 then return false 
 	if board[a].length==0 then return false
 	if board[b].length==0 then return true
 	[sa,a1,a2] = _.last board[a]
@@ -212,14 +221,14 @@ mousePressed = -> # one click
 		if mx>=5 then marked = 11 + mx
 	else
 		if mx==4 then marked = my
-		else if mx<4 then marked = [4,6,8,10][my]
-		else marked = [5,7,9,11][my]
+		else if mx<4 then marked = [4,5,6,7][my]
+		else marked = [8,9,10,11][my]
 	if marked==null then return 
 
 	holes = []
 	found = false
 
-	for heap in [0,1,2,3, 4,5,6,7,8,9,10,11] 	
+	for heap in ACES.concat HEAPS # [0,1,2,3, 4,5,6,7,8,9,10,11] 	
 		if board[heap].length==0 then holes.push heap
 		if heap not in holes and legalMove board,marked,heap  
 			makeMove board,marked,heap,true
@@ -237,8 +246,8 @@ mousePressed = -> # one click
 ####### AI-section ########
 
 findAllMoves = (b) ->
-	srcs = [4,5,6,7,8,9,10,11, 12,13,14,15,16,17,18,19]
-	dsts = [0,1,2,3, 4,5,6,7,8,9,10,11]
+	srcs = HEAPS.concat PANEL8 #[4,5,6,7,8,9,10,11, 12,13,14,15,16,17,18,19]
+	dsts = ACES.concat HEAPS #[0,1,2,3, 4,5,6,7,8,9,10,11]
 	res = []
 	for src in srcs
 		for dst in dsts
@@ -259,7 +268,7 @@ makeKey = (b) -> # kanske 4-11 bör sorteras först
 
 countAceCards = (b) ->
 	res	= 0
-	for heap in [0,1,2,3]
+	for heap in ACES
 		res += calcAntal b[heap]
 	res
 
@@ -278,9 +287,10 @@ expand = ([aceCards,level,b]) ->
 newGame = (key) ->
 	start = millis()
 	timing = null
+	hist = []
 	while true 
-		if key in '56789TJQK' then makeBoard '     56789TJQK'.indexOf(key),4,4
-		if key in 'W' then makeBoard 13,5,8,true
+		if key in '56789TJQK' then makeBoard 5+'56789TJQK'.indexOf key
+		if key in 'W' then makeBoard 13,true
 
 		originalBoard = _.cloneDeep board
 
@@ -331,7 +341,7 @@ prettyMove = (src,dst,b) ->
 		c2 = _.last b[dst]
 		"#{prettyCard c1} to #{prettyCard c2,1}"
 	else
-		if dst in [4,5,6,7,8,9,10,11] then "#{prettyCard c1} to hole"
+		if dst in HEAPS then "#{prettyCard c1} to hole"
 		else "#{prettyCard c1} to panel"
 
 printSolution = (hash, b) ->

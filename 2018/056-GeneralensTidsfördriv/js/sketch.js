@@ -11,11 +11,15 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 //  5  5  5  5  5  1  9  9  9  9  9
 //  6  6  6  6  6  2 10 10 10 10 10
 //  7  7  7  7  7  3 11 11 11 11 11
-//    12 13 14 15    17 18 19 20
-var H,
+//    12 13 14 15    16 17 18 19
+var ACES,
+    H,
+    HEAPS,
     LIMIT,
     N,
     OFFSETX,
+    PANEL4,
+    PANEL8,
     RANK,
     SUIT,
     W,
@@ -62,6 +66,14 @@ var H,
     w,
     indexOf = [].indexOf;
 
+ACES = [0, 1, 2, 3];
+
+HEAPS = [4, 5, 6, 7, 8, 9, 10, 11];
+
+PANEL4 = [14, 15, 16, 17];
+
+PANEL8 = [12, 13, 14, 15, 16, 17, 18, 19];
+
 SUIT = "club heart spade diamond".split(' ');
 
 RANK = "A 2 3 4 5 6 7 8 9 T J Q K".split(' ');
@@ -86,7 +98,7 @@ board = null;
 
 cards = null;
 
-hist = [];
+hist = null;
 
 cands = null;
 
@@ -118,17 +130,16 @@ preload = function preload() {
 range = _.range;
 
 compress = function compress(board) {
-  var h1, h2, heap, i, l, len, len1, m, ref, ref1, res, results, suit1, suit2, temp, v1, v2;
-  ref = [4, 5, 6, 7, 8, 9, 10, 11];
+  var h1, h2, heap, i, l, len, len1, m, ref, res, results, suit1, suit2, temp, v1, v2;
   results = [];
-  for (l = 0, len = ref.length; l < len; l++) {
-    heap = ref[l];
+  for (l = 0, len = HEAPS.length; l < len; l++) {
+    heap = HEAPS[l];
     if (board[heap].length > 1) {
       temp = board[heap][0];
       res = [];
-      ref1 = range(1, board[heap].length);
-      for (m = 0, len1 = ref1.length; m < len1; m++) {
-        i = ref1[m];
+      ref = range(1, board[heap].length);
+      for (m = 0, len1 = ref.length; m < len1; m++) {
+        i = ref[m];
         var _temp = temp;
 
         var _temp2 = _slicedToArray(_temp, 3);
@@ -159,13 +170,13 @@ compress = function compress(board) {
   return results;
 };
 
-makeBoard = function makeBoard(maxRank, cardsPerSequence, panelCards) {
-  var wild = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
+makeBoard = function makeBoard(maxRank) {
+  var wild = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
 
-  var heap, i, j, l, len, len1, len2, len3, len4, len5, len6, lst, m, o, p, q, r, rank, ref, ref1, ref2, ref3, ref4, ref5, rr, suit, t;
+  var cardsPerSequence, heap, i, j, l, len, len1, len2, len3, len4, len5, len6, lst, m, o, p, q, r, rank, ref, ref1, ref2, ref3, ref4, ref5, rr, suit, t;
   N = maxRank;
   cardsPerSequence = Math.floor(N / 2) - 1;
-  panelCards = maxRank * 4 - 8 * cardsPerSequence;
+  //panelCards = maxRank*4 - 8 * cardsPerSequence 
   cards = [];
   ref = range(1, maxRank);
   for (l = 0, len = ref.length; l < len; l++) {
@@ -199,10 +210,10 @@ makeBoard = function makeBoard(maxRank, cardsPerSequence, panelCards) {
     }
   }
   if (N % 2 === 0) {
-    lst = [14, 15, 16, 17];
+    lst = PANEL4;
   }
   if (N % 2 === 1) {
-    lst = [12, 13, 14, 15, 16, 17, 18, 19];
+    lst = PANEL8;
   }
   for (t = 0, len6 = lst.length; t < len6; t++) {
     heap = lst[t];
@@ -288,7 +299,7 @@ showHeap = function showHeap(board, heap, x, y, dx) {
       x += dx;
     }
   }
-  if ((heap === 0 || heap === 1 || heap === 2 || heap === 3) && card[2] === N - 1) {
+  if (indexOf.call(ACES, heap) >= 0 && card[2] === N - 1) {
     var _ref3 = shake ? autoShake[13 * suit + rank] : [0, 0];
 
     var _ref4 = _slicedToArray(_ref3, 2);
@@ -316,7 +327,7 @@ calcAntal = function calcAntal(lst) {
 };
 
 display = function display(board) {
-  var dx, heap, l, len, len1, len2, m, n, o, ref, ref1, ref2, results, x, xx, y;
+  var dx, heap, l, len, len1, len2, len3, m, n, o, p, ref, ref1, results, x, xx, y;
   background(0, 0, 255);
   textAlign(CENTER, CENTER);
   textSize(10);
@@ -332,28 +343,32 @@ display = function display(board) {
   if (timing !== null) {
     text(timing + " seconds", x, y + 105);
   }
+  textSize(20);
+  text('     56789TJQK'[N], x, y + 91);
   textAlign(LEFT, CENTER);
-  text('Generalens Tidsfördriv', 0, y + 120);
-  ref = [0, 1, 2, 3];
-  for (y = l = 0, len = ref.length; l < len; y = ++l) {
-    heap = ref[y];
+  textSize(10);
+  text('Generalens Tidsfördriv', 0, height - 5);
+  for (y = l = 0, len = ACES.length; l < len; y = ++l) {
+    heap = ACES[y];
     showHeap(board, heap, 0, y, 0);
   }
-  ref1 = [4, 5, 6, 7, 8, 9, 10, 11];
-  for (y = m = 0, len1 = ref1.length; m < len1; y = ++m) {
+  ref = [4, 5, 6, 7];
+  for (y = m = 0, len1 = ref.length; m < len1; y = ++m) {
+    heap = ref[y];
+    n = calcAntal(board[heap]);
+    dx = n <= 7 ? w / 2 : (width / 2 - w / 2 - w) / (n - 1);
+    showHeap(board, heap, -2, y, -dx);
+  }
+  ref1 = [8, 9, 10, 11];
+  for (y = o = 0, len2 = ref1.length; o < len2; y = ++o) {
     heap = ref1[y];
     n = calcAntal(board[heap]);
     dx = n <= 7 ? w / 2 : (width / 2 - w / 2 - w) / (n - 1);
-    if (heap % 2 === 0) {
-      showHeap(board, heap, -2, Math.floor(y / 2), -dx);
-    } else {
-      showHeap(board, heap, 2, Math.floor(y / 2), dx);
-    }
+    showHeap(board, heap, 2, y, dx);
   }
-  ref2 = [12, 13, 14, 15, 16, 17, 18, 19];
   results = [];
-  for (x = o = 0, len2 = ref2.length; o < len2; x = ++o) {
-    heap = ref2[x];
+  for (x = p = 0, len3 = PANEL8.length; p < len3; x = ++p) {
+    heap = PANEL8[x];
     xx = [-8, -6, -4, -2, 2, 4, 6, 8][x];
     results.push(showHeap(board, heap, xx, 4, w));
   }
@@ -362,10 +377,10 @@ display = function display(board) {
 
 legalMove = function legalMove(board, a, b) {
   var a1, a2, b1, b2, sa, sb;
-  if (a === 0 || a === 1 || a === 2 || a === 3) {
+  if (indexOf.call(ACES, a) >= 0) {
     return false;
   }
-  if (b === 12 || b === 13 || b === 14 || b === 15 || b === 16 || b === 17 || b === 18 || b === 19) {
+  if (indexOf.call(PANEL8, b) >= 0) {
     return false;
   }
   if (board[a].length === 0) {
@@ -471,9 +486,9 @@ mousePressed = function mousePressed() {
     if (mx === 4) {
       marked = my;
     } else if (mx < 4) {
-      marked = [4, 6, 8, 10][my];
+      marked = [4, 5, 6, 7][my];
     } else {
-      marked = [5, 7, 9, 11][my];
+      marked = [8, 9, 10, 11][my];
     }
   }
   if (marked === null) {
@@ -481,7 +496,8 @@ mousePressed = function mousePressed() {
   }
   holes = [];
   found = false;
-  ref = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+  ref = ACES.concat(HEAPS);
+  // [0,1,2,3, 4,5,6,7,8,9,10,11] 	
   for (l = 0, len = ref.length; l < len; l++) {
     heap = ref[l];
     if (board[heap].length === 0) {
@@ -511,8 +527,8 @@ mousePressed = function mousePressed() {
 //###### AI-section ########
 findAllMoves = function findAllMoves(b) {
   var dst, l, len, len1, m, res, src;
-  srcs = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
-  dsts = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+  srcs = HEAPS.concat(PANEL8); //[4,5,6,7,8,9,10,11, 12,13,14,15,16,17,18,19]
+  dsts = ACES.concat(HEAPS); //[0,1,2,3, 4,5,6,7,8,9,10,11]
   res = [];
   for (l = 0, len = srcs.length; l < len; l++) {
     src = srcs[l];
@@ -553,11 +569,10 @@ makeKey = function makeKey(b) {
 };
 
 countAceCards = function countAceCards(b) {
-  var heap, l, len, ref, res;
+  var heap, l, len, res;
   res = 0;
-  ref = [0, 1, 2, 3];
-  for (l = 0, len = ref.length; l < len; l++) {
-    heap = ref[l];
+  for (l = 0, len = ACES.length; l < len; l++) {
+    heap = ACES[l];
     res += calcAntal(b[heap]);
   }
   return res;
@@ -593,12 +608,13 @@ newGame = function newGame(key) {
   var cand, increment, level, nr;
   start = millis();
   timing = null;
+  hist = [];
   while (true) {
     if (indexOf.call('56789TJQK', key) >= 0) {
-      makeBoard('     56789TJQK'.indexOf(key), 4, 4);
+      makeBoard(5 + '56789TJQK'.indexOf(key));
     }
     if (indexOf.call('W', key) >= 0) {
-      makeBoard(13, 5, 8, true);
+      makeBoard(13, true);
     }
     originalBoard = _.cloneDeep(board);
     cands = [];
@@ -679,7 +695,7 @@ prettyMove = function prettyMove(src, dst, b) {
     c2 = _.last(b[dst]);
     return prettyCard(c1) + " to " + prettyCard(c2, 1);
   } else {
-    if (dst === 4 || dst === 5 || dst === 6 || dst === 7 || dst === 8 || dst === 9 || dst === 10 || dst === 11) {
+    if (indexOf.call(HEAPS, dst) >= 0) {
       return prettyCard(c1) + " to hole";
     } else {
       return prettyCard(c1) + " to panel";
