@@ -98,7 +98,7 @@ makeAutoShake = ->
 setup = ->
 	createCanvas 800,600
 	makeAutoShake()
-	newGame 'W'
+	newGame 'C'
 	display board 
 
 showHeap = (board,heap,x,y,dx) ->
@@ -179,6 +179,7 @@ makeMove = (board,a,b,record) -> # from heap a to heap b
 	board[b].push [suit,unvisible,visible] 
 
 undoMove = ([a,b,antal]) ->
+	print 'undo', prettyMove b,a,board
 	[suit, unvisible, visible] = board[b].pop()
 	if unvisible < visible
 		board[a].push [suit,visible,  visible-antal+1]
@@ -189,7 +190,7 @@ undoMove = ([a,b,antal]) ->
 
 mousePressed = -> # one click
 	if not (0 < mouseX < width) then return
-	if not (0 < mouseY < width) then return
+	if not (0 < mouseY < height) then return
 
 	mx = mouseX//(W/3)
 	my = mouseY//(H/3)
@@ -205,12 +206,14 @@ mousePressed = -> # one click
 	for heap in [0,1,2,3, 4,5,6,7, 8,9,10,11]	
 		if board[heap].length==0 then holes.push heap
 		if heap not in holes and legalMove board,marked,heap  
+			print prettyMove marked,heap,board
 			makeMove board,marked,heap,true
 			found = true
 			break 
 	if not found
 		for heap in holes	
 			if legalMove board,marked,heap  
+				print prettyMove marked,heap,board
 				makeMove board,marked,heap,true
 				break 
 
@@ -292,14 +295,12 @@ newGame = (key) ->
 			start = millis()
 			return 
 
-undo = -> undoMove hist.pop()
-
 restart = ->
 	hist = []
 	board = _.cloneDeep originalBoard
 
 keyPressed = -> 
-	if key == 'U' and hist.length > 0 then undo()
+	if key == 'U' and hist.length > 0 then undoMove hist.pop()
 	if key == 'R' then restart()
 	if key in 'CW' then newGame key 
 	if key == 'A' then shake = not shake
@@ -323,7 +324,8 @@ prettyMove = (src,dst,b) ->
 		c2 = _.last b[dst]
 		"#{prettyCard c1} to #{prettyCard c2,1}"
 	else
-		"#{prettyCard c1} to hole"
+		if dst in [4,5,6,7,8,9,10,11] then "#{prettyCard c1} to hole"
+		else "#{prettyCard c1} to panel"
 
 printSolution = (hash, b) ->
 	key = makeKey b

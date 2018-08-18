@@ -57,7 +57,6 @@ var H,
     srcs,
     start,
     timing,
-    undo,
     undoMove,
     w,
     indexOf = [].indexOf;
@@ -228,7 +227,7 @@ makeAutoShake = function makeAutoShake() {
 setup = function setup() {
   createCanvas(800, 600);
   makeAutoShake();
-  newGame('W');
+  newGame('C');
   return display(board);
 };
 
@@ -411,6 +410,7 @@ undoMove = function undoMove(_ref5) {
       antal = _ref6[2];
 
   var suit, unvisible, visible;
+  print('undo', prettyMove(b, a, board));
 
   var _board$b$pop = board[b].pop();
 
@@ -439,7 +439,7 @@ mousePressed = function mousePressed() {
   if (!(0 < mouseX && mouseX < width)) {
     return;
   }
-  if (!(0 < mouseY && mouseY < width)) {
+  if (!(0 < mouseY && mouseY < height)) {
     return;
   }
   mx = Math.floor(mouseX / (W / 3));
@@ -464,6 +464,7 @@ mousePressed = function mousePressed() {
       holes.push(heap);
     }
     if (indexOf.call(holes, heap) < 0 && legalMove(board, marked, heap)) {
+      print(prettyMove(marked, heap, board));
       makeMove(board, marked, heap, true);
       found = true;
       break;
@@ -473,6 +474,7 @@ mousePressed = function mousePressed() {
     for (m = 0, len1 = holes.length; m < len1; m++) {
       heap = holes[m];
       if (legalMove(board, marked, heap)) {
+        print(prettyMove(marked, heap, board));
         makeMove(board, marked, heap, true);
         break;
       }
@@ -610,10 +612,6 @@ newGame = function newGame(key) {
   }
 };
 
-undo = function undo() {
-  return undoMove(hist.pop());
-};
-
 restart = function restart() {
   hist = [];
   return board = _.cloneDeep(originalBoard);
@@ -621,7 +619,7 @@ restart = function restart() {
 
 keyPressed = function keyPressed() {
   if (key === 'U' && hist.length > 0) {
-    undo();
+    undoMove(hist.pop());
   }
   if (key === 'R') {
     restart();
@@ -664,7 +662,11 @@ prettyMove = function prettyMove(src, dst, b) {
     c2 = _.last(b[dst]);
     return prettyCard(c1) + " to " + prettyCard(c2, 1);
   } else {
-    return prettyCard(c1) + " to hole";
+    if (dst === 4 || dst === 5 || dst === 6 || dst === 7 || dst === 8 || dst === 9 || dst === 10 || dst === 11) {
+      return prettyCard(c1) + " to hole";
+    } else {
+      return prettyCard(c1) + " to panel";
+    }
   }
 };
 
