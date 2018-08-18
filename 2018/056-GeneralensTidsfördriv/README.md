@@ -11,16 +11,17 @@
 
 * U = Undo. Ångrar senaste drag.
 * R = Restart. Omstart av patiensen.
-* 5 = Ess till Fem. Lättast.
-* 6 = Ess till Sex
-* 7 = Ess till Sju
-* 8 = Ess till Åtta
-* 9 = Ess till Nia
-* T = Ess till Tio
-* J = Ess till Knekt
-* Q = Ess till Dam
-* K = Ess till Kung. Svårast.
-* C = Classic. Som K fast med fem kort långa sekvenser.
+* Levels:
+  * 5 = Ess till 5. Lättast.
+  * 6 = Ess till 6
+	* 7 = Ess till 7
+	* 8 = Ess till 8
+	* 9 = Ess till 9
+	* T = Ess till Tio
+	* J = Ess till Knekt
+	* Q = Ess till Dam
+	* K = Ess till Kung. Svårast.
+	* C = Classic. Som K fast med fem kort långa sekvenser.
 * (A = Autoshake. Flyttar korten slumpmässigt någon pixel. Kosmetika)
 
 De skapade patienserna är alltid lösbara.
