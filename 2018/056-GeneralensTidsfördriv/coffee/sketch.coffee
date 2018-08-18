@@ -192,7 +192,7 @@ makeMove = (board,a,b,record) -> # from heap a to heap b
 	board[b].push [suit,unvisible,visible] 
 
 undoMove = ([a,b,antal]) ->
-	print 'undo', prettyMove b,a,board
+	#print 'undo', prettyMove b,a,board
 	[suit, unvisible, visible] = board[b].pop()
 	if unvisible < visible
 		board[a].push [suit,visible,  visible-antal+1]
@@ -296,11 +296,16 @@ expand = ([aceCards,level,b]) ->
 newGame = (key) ->
 	start = millis()
 	timing = null
+	#tries = 0
 	while true 
 		if key=='1' then makeBoard 1,4,4
 		if key=='2' then makeBoard 2,5,4
 		if key=='3' then makeBoard 3,5,6
 		if key in '4W' then makeBoard 4,5,8,key == 'W'
+
+		#background 128
+		#text tries, width/2, height/2
+		#tries++
 
 		setLists()
 		originalBoard = _.cloneDeep board

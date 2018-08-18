@@ -433,7 +433,7 @@ undoMove = function undoMove(_ref5) {
       antal = _ref6[2];
 
   var suit, unvisible, visible;
-  print('undo', prettyMove(b, a, board));
+  //print 'undo', prettyMove b,a,board
 
   var _board$b$pop = board[b].pop();
 
@@ -629,6 +629,7 @@ newGame = function newGame(key) {
   var cand, increment, level, nr;
   start = millis();
   timing = null;
+  //tries = 0
   while (true) {
     if (key === '1') {
       makeBoard(1, 4, 4);
@@ -642,6 +643,9 @@ newGame = function newGame(key) {
     if (indexOf.call('4W', key) >= 0) {
       makeBoard(4, 5, 8, key === 'W');
     }
+    //background 128
+    //text tries, width/2, height/2
+    //tries++
     setLists();
     originalBoard = _.cloneDeep(board);
     cands = [];
