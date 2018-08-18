@@ -10,12 +10,17 @@
 
 * U = Undo. Ångrar senaste drag.
 * R = Restart. Omstart av patiensen.
-* 1 = One Suit. Bara Klöver.
-* 2 = Two Suits.
-* 3 = Three Suits.
-* 4 = 4 Suits. Innebär att sekvenserna skapas med exakt fem kort. Kan ta flera sekunder.
-* W = Wild innebär att sekvensernas längd slumpas. I övrigt samma som 4 Suits. Kan ta flera sekunder.
-* (A = Autoshake. Flyttar korten slumpmässigt någon pixel.)
+* 5 = Ess till Fem. Lättast.
+* 6 = Ess till Sex
+* 7 = Ess till Sju
+* 8 = Ess till Åtta
+* 9 = Ess till Nia
+* T = Ess till Tio
+* J = Ess till Knekt
+* Q = Ess till Dam
+* K = Ess till Kung. Svårast.
+* W = Wild. Som K fast sekvensernas längd slumpas.
+* (A = Autoshake. Flyttar korten slumpmässigt någon pixel. Kosmetika)
 
 De skapade patienserna är alltid lösbara.
 

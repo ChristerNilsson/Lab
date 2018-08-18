@@ -156,9 +156,9 @@ display = (board) ->
 	fill 200
 	text 'U = Undo',          x,y
 	text 'R = Restart',       x,y+15
-	text '567 = Easy',        x,y+30
-	text '89T = Medium',      x,y+45
-	text 'JQK = Hard',        x,y+60
+	text '5 6 7 = Easy',      x,y+30
+	text '8 9 T = Medium',    x,y+45
+	text 'J Q K = Hard',      x,y+60
 	text 'W = Wild',          x,y+75
 	if timing != null then text "#{timing} seconds", x,y+105
 	textSize 20
