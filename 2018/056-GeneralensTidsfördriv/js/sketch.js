@@ -302,7 +302,7 @@ calcAntal = function calcAntal(lst) {
 
 display = function display(board) {
   var dx, heap, l, len, len1, len2, len3, m, n, o, p, ref, ref1, ref2, ref3, results, x, xx, y;
-  background(128);
+  background(0, 255, 0);
   textAlign(CENTER, CENTER);
   textSize(10);
   x = width / 2;
@@ -522,9 +522,9 @@ makeKey = function makeKey(b) {
       r2 = _heap$m[2];
 
       if (r1 === r2) {
-        res += 'shrk'[suit] + str(r1);
+        res += 'shrk'[suit] + RANK[r1];
       } else {
-        res += 'shrk'[suit] + str(r1) + str(r2);
+        res += 'shrk'[suit] + RANK[r1] + RANK[r2];
       }
     }
     res += ' ';
@@ -559,12 +559,13 @@ expand = function expand(_ref7) {
     dst = _moves$l[1];
 
     b1 = _.cloneDeep(b);
+    //print prettyMove src,dst,b
     makeMove(b1, src, dst);
     key = makeKey(b1);
     if (!(key in hash)) {
+      //print 'gulp', _.size(hash), prettyMove src,dst,b
       hash[key] = [src, dst, b];
-      res.push([countAceCards(b1), level - 1, b1 //, src, dst]
-      ]);
+      res.push([countAceCards(b1), level + 1, b1]);
     }
   }
   return res;
@@ -592,14 +593,14 @@ newGame = function newGame(key) {
       cands = cands.concat(increment);
       cands.sort(function (a, b) {
         if (a[0] === b[0]) {
-          return a[1] - b[1];
+          return b[1] - a[1];
         } else {
           return a[0] - b[0];
         }
       });
     }
     level = cand[1];
-    print(nr, aceCards, -level);
+    print(nr, aceCards, level);
     if (aceCards === 52) {
       print(JSON.stringify(originalBoard));
       board = cand[2];

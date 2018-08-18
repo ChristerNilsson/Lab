@@ -128,7 +128,7 @@ calcAntal = (lst) ->
 	res
 
 display = (board) ->
-	background 128
+	background 0,255,0
 
 	textAlign CENTER,CENTER
 	textSize 10
@@ -238,9 +238,9 @@ makeKey = (b) -> # kanske 4-11 bör sorteras först
 	for heap,index in b
 		for [suit,r1,r2] in heap
 			if r1==r2
-				res += 'shrk'[suit] + str(r1)
+				res += 'shrk'[suit] + RANK[r1]
 			else
-				res += 'shrk'[suit] + str(r1) + str(r2)
+				res += 'shrk'[suit] + RANK[r1] + RANK[r2]
 		res += ' '
 	res 
 
@@ -255,11 +255,13 @@ expand = ([aceCards,level,b]) ->
 	moves = findAllMoves b
 	for [src,dst] in moves
 		b1 = _.cloneDeep b
+		#print prettyMove src,dst,b
 		makeMove b1,src,dst
 		key = makeKey b1
 		if key not of hash
+			#print 'gulp', _.size(hash), prettyMove src,dst,b
 			hash[key] = [src,dst,b]
-			res.push [countAceCards(b1), level-1, b1] #, src, dst]
+			res.push [countAceCards(b1), level+1, b1] 
 	res
 
 newGame = (key) ->
@@ -282,10 +284,10 @@ newGame = (key) ->
 			aceCards = cand[0]
 			increment = expand cand
 			cands = cands.concat increment
-			cands.sort (a,b) -> if a[0] == b[0] then a[1]-b[1] else a[0]-b[0]
+			cands.sort (a,b) -> if a[0] == b[0] then b[1]-a[1] else a[0]-b[0]
 
 		level = cand[1]
-		print nr,aceCards,-level 
+		print nr,aceCards,level
 		if aceCards == 52 
 			print JSON.stringify(originalBoard)
 			board = cand[2]
