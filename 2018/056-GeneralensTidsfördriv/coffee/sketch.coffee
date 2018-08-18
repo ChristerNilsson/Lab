@@ -261,9 +261,9 @@ makeKey = (b) -> # kanske 4-11 bör sorteras först
 	for heap,index in b
 		for [suit,r1,r2] in heap
 			if r1==r2
-				res += 'shrk'[suit] + RANK[r1]
+				res += 'chsd'[suit] + RANK[r1]
 			else
-				res += 'shrk'[suit] + RANK[r1] + RANK[r2]
+				res += 'chsd'[suit] + RANK[r1] + RANK[r2]
 		res += ' '
 	res 
 

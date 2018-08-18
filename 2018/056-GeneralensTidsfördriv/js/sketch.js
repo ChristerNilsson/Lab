@@ -559,9 +559,9 @@ makeKey = function makeKey(b) {
       r2 = _heap$m[2];
 
       if (r1 === r2) {
-        res += 'shrk'[suit] + RANK[r1];
+        res += 'chsd'[suit] + RANK[r1];
       } else {
-        res += 'shrk'[suit] + RANK[r1] + RANK[r2];
+        res += 'chsd'[suit] + RANK[r1] + RANK[r2];
       }
     }
     res += ' ';
