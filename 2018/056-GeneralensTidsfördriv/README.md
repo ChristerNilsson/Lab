@@ -2,6 +2,7 @@
 
 ![](bild3.jpg "Generalens Tidsfördriv")
 
+* Livet är kort!
 * Denna patiens går ut på att bygga uppåt på Essen. Dvs Tvåor läggs på Essen osv upp till Kung.
 * På de övre sekvenserna får man bygga både uppåt och neråt.
 * Blir en sekvens tom får man placera valfritt kort där.
@@ -19,7 +20,7 @@
 * J = Ess till Knekt
 * Q = Ess till Dam
 * K = Ess till Kung. Svårast.
-* W = Wild. Som K fast sekvensernas längd slumpas.
+* C = Classic. Som K fast med fem kort långa sekvenser.
 * (A = Autoshake. Flyttar korten slumpmässigt någon pixel. Kosmetika)
 
 De skapade patienserna är alltid lösbara.

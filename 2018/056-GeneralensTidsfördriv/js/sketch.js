@@ -16,6 +16,7 @@ var ACES,
     H,
     HEAPS,
     LIMIT,
+    LONG,
     N,
     OFFSETX,
     PANEL4,
@@ -30,6 +31,7 @@ var ACES,
     calcAntal,
     cands,
     cards,
+    classic,
     compress,
     countAceCards,
     display,
@@ -78,6 +80,8 @@ SUIT = "club heart spade diamond".split(' ');
 
 RANK = "A 2 3 4 5 6 7 8 9 T J Q K".split(' ');
 
+LONG = " Ace 2 3 4 5 6 7 8 9 Ten Jack Queen King".split(' ');
+
 OFFSETX = 468;
 
 W = 263.25;
@@ -117,6 +121,8 @@ autoShake = [];
 shake = true;
 
 N = null; // Max rank
+
+classic = false;
 
 srcs = null;
 
@@ -171,12 +177,11 @@ compress = function compress(board) {
 };
 
 makeBoard = function makeBoard(maxRank) {
-  var wild = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+  var wild = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
 
   var cardsPerSequence, heap, i, j, l, len, len1, len2, len3, len4, len5, len6, lst, m, o, p, q, r, rank, ref, ref1, ref2, ref3, ref4, ref5, rr, suit, t;
   N = maxRank;
   cardsPerSequence = Math.floor(N / 2) - 1;
-  //panelCards = maxRank*4 - 8 * cardsPerSequence 
   cards = [];
   ref = range(1, maxRank);
   for (l = 0, len = ref.length; l < len; l++) {
@@ -205,7 +210,7 @@ makeBoard = function makeBoard(maxRank) {
     ref5 = range(cardsPerSequence);
     for (r = 0, len5 = ref5.length; r < len5; r++) {
       j = ref5[r];
-      rr = wild ? int(random(4, 12)) : i;
+      rr = !wild ? int(random(4, 12)) : i;
       board[rr].push(cards.pop());
     }
   }
@@ -329,7 +334,7 @@ calcAntal = function calcAntal(lst) {
 
 display = function display(board) {
   var dx, heap, l, len, len1, len2, len3, m, n, o, p, ref, ref1, results, x, xx, y;
-  background(0, 0, 255);
+  background(0, 128, 0);
   textAlign(CENTER, CENTER);
   textSize(10);
   x = width / 2 - 5;
@@ -340,12 +345,12 @@ display = function display(board) {
   text('5 6 7 = Easy', x, y + 30);
   text('8 9 T = Medium', x, y + 45);
   text('J Q K = Hard', x, y + 60);
-  text('W = Wild', x, y + 75);
+  text('C = Classic', x, y + 75);
   if (timing !== null) {
     text(timing + " seconds", x, y + 105);
   }
   textSize(20);
-  text('     56789TJQK'[N], x, y + 91);
+  text(classic ? 'Classic' : LONG[N], x, y + 91);
   textAlign(LEFT, CENTER);
   textSize(10);
   text('Generalens Tidsfördriv', 0, height - 5);
@@ -610,12 +615,13 @@ newGame = function newGame(key) {
   start = millis();
   timing = null;
   hist = [];
+  classic = key === 'C';
   while (true) {
     if (indexOf.call('56789TJQK', key) >= 0) {
-      makeBoard(5 + '56789TJQK'.indexOf(key));
+      makeBoard(5 + '56789TJQK'.indexOf(key), classic);
     }
-    if (indexOf.call('W', key) >= 0) {
-      makeBoard(13, true);
+    if (indexOf.call('C', key) >= 0) {
+      makeBoard(13, classic);
     }
     originalBoard = _.cloneDeep(board);
     cands = [];
@@ -665,7 +671,7 @@ keyPressed = function keyPressed() {
   if (key === 'R') {
     restart();
   }
-  if (indexOf.call('56789TJQKW', key) >= 0) {
+  if (indexOf.call('56789TJQKC', key) >= 0) {
     newGame(key);
   }
   if (key === 'A') {

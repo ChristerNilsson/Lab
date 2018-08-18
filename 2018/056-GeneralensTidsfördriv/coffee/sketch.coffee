@@ -15,6 +15,7 @@ PANEL8 = [12,13,14,15,16,17,18,19]
 
 SUIT = "club heart spade diamond".split ' '
 RANK = "A 2 3 4 5 6 7 8 9 T J Q K".split ' '
+LONG = " Ace 2 3 4 5 6 7 8 9 Ten Jack Queen King".split ' '
 OFFSETX = 468
 W = 263.25
 H = 352
@@ -37,6 +38,7 @@ timing = null
 autoShake = []
 shake = true
 N = null # Max rank
+classic = false
 srcs = null
 dsts = null
 
@@ -62,10 +64,9 @@ compress = (board) ->
 			res.push temp
 			board[heap] = res
 
-makeBoard = (maxRank,wild=false)->
+makeBoard = (maxRank,wild=true)->
 	N = maxRank
 	cardsPerSequence = N//2-1
-	#panelCards = maxRank*4 - 8 * cardsPerSequence 
 
 	cards = []
 	for rank in range 1,maxRank
@@ -81,7 +82,7 @@ makeBoard = (maxRank,wild=false)->
 		board[heap].push [suit,0,0]
 	for i in range 4,12
 		for j in range cardsPerSequence 
-			rr = if wild then int random 4,12 else i
+			rr = if not wild then int random 4,12 else i
 			board[rr].push cards.pop()
 
 	if N%2==0 then lst = PANEL4
@@ -145,7 +146,7 @@ calcAntal = (lst) ->
 	res
 
 display = (board) ->
-	background 0,0,255
+	background 0,128,0
 
 	textAlign CENTER,CENTER
 	textSize 10
@@ -159,10 +160,10 @@ display = (board) ->
 	text '5 6 7 = Easy',      x,y+30
 	text '8 9 T = Medium',    x,y+45
 	text 'J Q K = Hard',      x,y+60
-	text 'W = Wild',          x,y+75
+	text 'C = Classic',       x,y+75
 	if timing != null then text "#{timing} seconds", x,y+105
 	textSize 20
-	text '     56789TJQK'[N], x,y+91
+	text (if classic then 'Classic' else LONG[N]), x,y+91
 	textAlign LEFT,CENTER
 	textSize 10
 	text 'Generalens Tidsfördriv', 0,height-5
@@ -289,9 +290,10 @@ newGame = (key) ->
 	start = millis()
 	timing = null
 	hist = []
+	classic = key=='C'
 	while true 
-		if key in '56789TJQK' then makeBoard 5+'56789TJQK'.indexOf key
-		if key in 'W' then makeBoard 13,true
+		if key in '56789TJQK' then makeBoard 5+'56789TJQK'.indexOf(key),classic
+		if key in 'C' then makeBoard 13,classic
 
 		originalBoard = _.cloneDeep board
 
@@ -328,7 +330,7 @@ restart = ->
 keyPressed = -> 
 	if key == 'U' and hist.length > 0 then undoMove hist.pop()
 	if key == 'R' then restart()
-	if key in '56789TJQKW' then newGame key 
+	if key in '56789TJQKC' then newGame key 
 	if key == 'A' then shake = not shake
 	display board
 		
