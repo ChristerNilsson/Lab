@@ -14,6 +14,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 //    12 13 14 15    17 18 19 20
 var H,
     LIMIT,
+    N,
     OFFSETX,
     RANK,
     SUIT,
@@ -51,6 +52,7 @@ var H,
     printSolution,
     range,
     restart,
+    setLists,
     setup,
     shake,
     showHeap,
@@ -103,6 +105,12 @@ autoShake = [];
 
 shake = true;
 
+N = null;
+
+srcs = null;
+
+dsts = null;
+
 preload = function preload() {
   faces = loadImage('cards/Color_52_Faces_v.2.0.png');
   return backs = loadImage('cards/Playing_Card_Backs.png');
@@ -152,15 +160,16 @@ compress = function compress(board) {
   return results;
 };
 
-makeBoard = function makeBoard() {
-  var wild = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
+makeBoard = function makeBoard(suits, cardsPerSequence, panelCards) {
+  var wild = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
 
-  var heap, i, j, l, len, len1, len2, len3, len4, len5, len6, m, o, p, q, r, rank, ref, ref1, ref2, ref3, ref4, ref5, ref6, rr, suit, t;
+  var heap, i, j, l, len, len1, len2, len3, len4, len5, len6, lst, m, o, p, q, r, rank, ref, ref1, ref2, ref3, ref4, ref5, rr, suit, t;
+  N = suits;
   cards = [];
   ref = range(1, 13);
   for (l = 0, len = ref.length; l < len; l++) {
     rank = ref[l];
-    ref1 = range(4);
+    ref1 = range(suits);
     for (m = 0, len1 = ref1.length; m < len1; m++) {
       suit = ref1[m];
       cards.push([suit, rank, rank]);
@@ -168,29 +177,42 @@ makeBoard = function makeBoard() {
   }
   cards = _.shuffle(cards);
   board = [];
-  ref2 = range(21);
+  ref2 = range(20);
   for (o = 0, len2 = ref2.length; o < len2; o++) {
     i = ref2[o];
     board.push([]);
   }
-  ref3 = [2, 1, 3, 0];
+  ref3 = range(4);
   for (heap = p = 0, len3 = ref3.length; p < len3; heap = ++p) {
     suit = ref3[heap];
-    board[heap].push([suit, 0, 0]);
+    if (heap < suits) {
+      board[heap].push([suit, 0, 0]);
+    }
   }
-  ref4 = range(4, 12);
+  ref4 = range(4, 4 + 2 * suits);
   for (q = 0, len4 = ref4.length; q < len4; q++) {
     i = ref4[q];
-    ref5 = range(5);
+    ref5 = range(cardsPerSequence);
     for (r = 0, len5 = ref5.length; r < len5; r++) {
       j = ref5[r];
-      rr = wild ? int(random(4, 12)) : i;
+      rr = wild ? int(random(4, 4 + 2 * suits)) : i;
       board[rr].push(cards.pop());
     }
   }
-  ref6 = [12, 13, 14, 15, 17, 18, 19, 20];
-  for (t = 0, len6 = ref6.length; t < len6; t++) {
-    heap = ref6[t];
+  if (N === 1) {
+    lst = [14, 15, 16, 17];
+  }
+  if (N === 2) {
+    lst = [14, 15, 16, 17];
+  }
+  if (N === 3) {
+    lst = [13, 14, 15, 16, 17, 18];
+  }
+  if (N === 4) {
+    lst = [12, 13, 14, 15, 16, 17, 18, 19];
+  }
+  for (t = 0, len6 = lst.length; t < len6; t++) {
+    heap = lst[t];
     board[heap].push(cards.pop());
   }
   return compress(board);
@@ -227,7 +249,7 @@ makeAutoShake = function makeAutoShake() {
 setup = function setup() {
   createCanvas(800, 600);
   makeAutoShake();
-  newGame('C');
+  newGame('1');
   return display(board);
 };
 
@@ -301,45 +323,46 @@ calcAntal = function calcAntal(lst) {
 };
 
 display = function display(board) {
-  var dx, heap, l, len, len1, len2, len3, m, n, o, p, ref, ref1, ref2, ref3, results, x, xx, y;
-  background(0, 255, 0);
+  var dx, heap, l, len, len1, len2, m, n, o, ref, ref1, ref2, results, x, xx, y;
+  background(0, 0, 255);
   textAlign(CENTER, CENTER);
   textSize(10);
-  x = width / 2;
-  y = height - 100;
+  x = width / 2 - 5;
+  y = height - 110;
   fill(200);
   text('U = Undo', x, y);
   text('R = Restart', x, y + 15);
-  text('C = Classic', x, y + 30);
-  text('W = Wild', x, y + 45);
+  text('1 = One Suit', x, y + 30);
+  text('2 = Two Suits', x, y + 45);
+  text('3 = Three Suits', x, y + 60);
+  text('4 = Four Suits', x, y + 75);
+  text('W = Wild', x, y + 90);
   if (timing !== null) {
-    text(timing + " seconds", x, y + 75);
+    text(timing + " seconds", x, y + 105);
   }
-  text('Generalens Tidsfördriv', x, y + 95);
+  textAlign(LEFT, CENTER);
+  text('Generalens Tidsfördriv', 0, y + 120);
   ref = [0, 1, 2, 3];
   for (y = l = 0, len = ref.length; l < len; y = ++l) {
     heap = ref[y];
     showHeap(board, heap, 0, y, 0);
   }
-  ref1 = [4, 5, 6, 7];
+  ref1 = [4, 5, 6, 7, 8, 9, 10, 11];
   for (y = m = 0, len1 = ref1.length; m < len1; y = ++m) {
     heap = ref1[y];
     n = calcAntal(board[heap]);
     dx = n <= 7 ? w / 2 : (width / 2 - w / 2 - w) / (n - 1);
-    showHeap(board, heap, -2, y, -dx);
+    if (heap % 2 === 0) {
+      showHeap(board, heap, -2, Math.floor(y / 2), -dx);
+    } else {
+      showHeap(board, heap, 2, Math.floor(y / 2), dx);
+    }
   }
-  ref2 = [8, 9, 10, 11];
-  for (y = o = 0, len2 = ref2.length; o < len2; y = ++o) {
-    heap = ref2[y];
-    n = calcAntal(board[heap]);
-    dx = n <= 7 ? w / 2 : (width / 2 - w / 2 - w) / (n - 1);
-    showHeap(board, heap, 2, y, dx);
-  }
-  ref3 = [12, 13, 14, 15, 16, 17, 18, 19, 20];
+  ref2 = [12, 13, 14, 15, 16, 17, 18, 19];
   results = [];
-  for (x = p = 0, len3 = ref3.length; p < len3; x = ++p) {
-    heap = ref3[x];
-    xx = [-8, -6, -4, -2, 0, 2, 4, 6, 8][x];
+  for (x = o = 0, len2 = ref2.length; o < len2; x = ++o) {
+    heap = ref2[x];
+    xx = [-8, -6, -4, -2, 2, 4, 6, 8][x];
     results.push(showHeap(board, heap, xx, 4, w));
   }
   return results;
@@ -350,7 +373,7 @@ legalMove = function legalMove(board, a, b) {
   if (a === 0 || a === 1 || a === 2 || a === 3) {
     return false;
   }
-  if (b === 12 || b === 13 || b === 14 || b === 15 || b === 17 || b === 18 || b === 19 || b === 20) {
+  if (b === 12 || b === 13 || b === 14 || b === 15 || b === 16 || b === 17 || b === 18 || b === 19) {
     return false;
   }
   if (board[a].length === 0) {
@@ -435,36 +458,55 @@ undoMove = function undoMove(_ref5) {
 
 mousePressed = function mousePressed() {
   // one click
-  var found, heap, holes, l, len, len1, m, marked, mx, my, ref;
+  var found, heap, heaps, holes, l, len, len1, m, marked, mx, my;
   if (!(0 < mouseX && mouseX < width)) {
     return;
   }
   if (!(0 < mouseY && mouseY < height)) {
     return;
   }
+  marked = null;
   mx = Math.floor(mouseX / (W / 3));
   my = Math.floor(mouseY / (H / 3));
   if (my >= 4) {
-    marked = 12 + mx;
+    if (mx <= 3) {
+      marked = 12 + mx;
+    }
+    if (mx >= 5) {
+      marked = 11 + mx;
+    }
   } else {
     if (mx === 4) {
       marked = my;
     } else if (mx < 4) {
-      marked = 4 + my;
+      marked = [4, 6, 8, 10][my];
     } else {
-      marked = 8 + my;
+      marked = [5, 7, 9, 11][my];
     }
+  }
+  if (marked === null) {
+    return;
   }
   holes = [];
   found = false;
-  ref = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
-  for (l = 0, len = ref.length; l < len; l++) {
-    heap = ref[l];
+  if (N === 1) {
+    heaps = [0, 4, 5];
+  }
+  if (N === 2) {
+    heaps = [0, 1, 4, 5, 6, 7];
+  }
+  if (N === 3) {
+    heaps = [0, 1, 2, 4, 5, 6, 7, 8, 9];
+  }
+  if (N === 4) {
+    heaps = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+  }
+  for (l = 0, len = heaps.length; l < len; l++) {
+    heap = heaps[l];
     if (board[heap].length === 0) {
       holes.push(heap);
     }
     if (indexOf.call(holes, heap) < 0 && legalMove(board, marked, heap)) {
-      print(prettyMove(marked, heap, board));
       makeMove(board, marked, heap, true);
       found = true;
       break;
@@ -474,22 +516,36 @@ mousePressed = function mousePressed() {
     for (m = 0, len1 = holes.length; m < len1; m++) {
       heap = holes[m];
       if (legalMove(board, marked, heap)) {
-        print(prettyMove(marked, heap, board));
         makeMove(board, marked, heap, true);
         break;
       }
     }
   }
-  if (52 === countAceCards(board)) {
+  if (N * 13 === countAceCards(board)) {
     timing = Math.floor((millis() - start) / 1000);
   }
   return display(board);
 };
 
 //###### AI-section ########
-srcs = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20];
-
-dsts = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+setLists = function setLists() {
+  if (N === 1) {
+    srcs = [4, 5, 12, 13, 14, 15, 16, 17, 18, 19];
+    dsts = [0, 4, 5];
+  }
+  if (N === 2) {
+    srcs = [4, 5, 6, 7, 12, 13, 14, 15, 16, 17, 18, 19];
+    dsts = [0, 1, 4, 5, 6, 7];
+  }
+  if (N === 3) {
+    srcs = [4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19];
+    dsts = [0, 1, 2, 4, 5, 6, 7, 8, 9];
+  }
+  if (N === 4) {
+    srcs = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+    return dsts = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+  }
+};
 
 findAllMoves = function findAllMoves(b) {
   var dst, l, len, len1, m, res, src;
@@ -559,11 +615,9 @@ expand = function expand(_ref7) {
     dst = _moves$l[1];
 
     b1 = _.cloneDeep(b);
-    //print prettyMove src,dst,b
     makeMove(b1, src, dst);
     key = makeKey(b1);
     if (!(key in hash)) {
-      //print 'gulp', _.size(hash), prettyMove src,dst,b
       hash[key] = [src, dst, b];
       res.push([countAceCards(b1), level + 1, b1]);
     }
@@ -576,16 +630,28 @@ newGame = function newGame(key) {
   start = millis();
   timing = null;
   while (true) {
-    makeBoard(key === 'W');
+    if (key === '1') {
+      makeBoard(1, 4, 4);
+    }
+    if (key === '2') {
+      makeBoard(2, 5, 4);
+    }
+    if (key === '3') {
+      makeBoard(3, 5, 6);
+    }
+    if (indexOf.call('4W', key) >= 0) {
+      makeBoard(4, 5, 8, key === 'W');
+    }
+    setLists();
     originalBoard = _.cloneDeep(board);
     cands = [];
-    cands.push([4, 0, board // antal kort på ässen, antal drag, board
+    cands.push([N, 0, board // antal kort på ässen, antal drag, board
     ]);
     hash = {};
     nr = 0;
     cand = null;
-    aceCards = 4;
-    while (nr < LIMIT && cands.length > 0 && aceCards < 52) {
+    aceCards = N;
+    while (nr < LIMIT && cands.length > 0 && aceCards < N * 13) {
       nr++;
       cand = cands.pop();
       aceCards = cand[0];
@@ -601,7 +667,7 @@ newGame = function newGame(key) {
     }
     level = cand[1];
     print(nr, aceCards, level);
-    if (aceCards === 52) {
+    if (aceCards === N * 13) {
       print(JSON.stringify(originalBoard));
       board = cand[2];
       printSolution(hash, board);
@@ -625,7 +691,7 @@ keyPressed = function keyPressed() {
   if (key === 'R') {
     restart();
   }
-  if (indexOf.call('CW', key) >= 0) {
+  if (indexOf.call('1234W', key) >= 0) {
     newGame(key);
   }
   if (key === 'A') {
@@ -649,13 +715,6 @@ prettyCard = function prettyCard(_ref9) {
   }
 };
 
-// prettyCard = ([suit,unvisible,visible],antal=2) ->
-// 	if antal==1
-// 		"#{RANK[visible]}"
-// 	else if unvisible == visible
-// 		"#{SUIT[suit]} #{RANK[visible]}"
-// 	else
-// 		"#{SUIT[suit]} #{RANK[unvisible]}..#{RANK[visible]}"
 prettyMove = function prettyMove(src, dst, b) {
   var c1, c2;
   c1 = _.last(b[src]);

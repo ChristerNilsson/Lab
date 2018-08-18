@@ -31,6 +31,9 @@ start = null
 timing = null
 autoShake = []
 shake = true
+N = null
+srcs = null
+dsts = null
 
 preload = -> 
 	faces = loadImage 'cards/Color_52_Faces_v.2.0.png'
@@ -54,24 +57,32 @@ compress = (board) ->
 			res.push temp
 			board[heap] = res
 
-makeBoard = (wild=false)->
+makeBoard = (suits,cardsPerSequence,panelCards,wild=false)->
+	N = suits
 	cards = []
 	for rank in range 1,13
-		for suit in range 4
+		for suit in range suits
 			cards.push [suit,rank,rank]
 	cards = _.shuffle cards
 
 	board = []
-	for i in range 21 
+	for i in range 20
 		board.push []
 
-	for suit,heap in [2,1,3,0]
-		board[heap].push [suit,0,0]
-	for i in range 4,12
-		for j in range 5 
-			rr = if wild then int random 4,12 else i
+	for suit,heap in range 4 
+		if heap < suits
+			board[heap].push [suit,0,0]
+	for i in range 4,4+2*suits
+		for j in range cardsPerSequence 
+			rr = if wild then int random 4,4+2*suits else i
 			board[rr].push cards.pop()
-	for heap in [12,13,14,15,17,18,19,20]
+
+	if N==1 then lst =       [14,15,16,17]
+	if N==2 then lst =       [14,15,16,17]
+	if N==3 then lst =    [13,14,15,16,17,18]
+	if N==4 then lst = [12,13,14,15,16,17,18,19]
+
+	for heap in lst
 		board[heap].push cards.pop()
 
 	compress board
@@ -98,7 +109,7 @@ makeAutoShake = ->
 setup = ->
 	createCanvas 800,600
 	makeAutoShake()
-	newGame 'C'
+	newGame '1'
 	display board 
 
 showHeap = (board,heap,x,y,dx) ->
@@ -128,43 +139,45 @@ calcAntal = (lst) ->
 	res
 
 display = (board) ->
-	background 0,255,0
+	background 0,0,255
 
 	textAlign CENTER,CENTER
 	textSize 10
 
-	x = width/2
-	y = height-100
+	x = width/2-5
+	y = height-110
 
 	fill 200
 	text 'U = Undo',          x,y
 	text 'R = Restart',       x,y+15
-	text 'C = Classic',       x,y+30
-	text 'W = Wild',          x,y+45
+	text '1 = One Suit',      x,y+30
+	text '2 = Two Suits',     x,y+45
+	text '3 = Three Suits',   x,y+60
+	text '4 = Four Suits',    x,y+75
+	text 'W = Wild',          x,y+90
 	if timing != null
-		text "#{timing} seconds", x,y+75
-	text 'Generalens Tidsfördriv', x,y+95
+		text "#{timing} seconds", x,y+105
+	textAlign LEFT,CENTER
+	text 'Generalens Tidsfördriv', 0,y+120
 
 	for heap,y in [0,1,2,3]
 		showHeap board, heap, 0, y, 0
 
-	for heap,y in [4,5,6,7]
+	for heap,y in [4,5,6,7,8,9,10,11]
 		n = calcAntal board[heap]
 		dx = if n<=7 then w/2 else (width/2-w/2-w)/(n-1)
-		showHeap board, heap, -2, y, -dx
-
-	for heap,y in [8,9,10,11]
-		n = calcAntal board[heap]
-		dx = if n<=7 then w/2 else (width/2-w/2-w)/(n-1)
-		showHeap board, heap, 2, y, dx
-
-	for heap,x in [12,13,14,15,16,17,18,19,20]
-		xx = [-8,-6,-4,-2,0,2,4,6,8][x]
+		if heap % 2 == 0
+			showHeap board, heap, -2, y//2, -dx
+		else
+			showHeap board, heap, 2, y//2, dx
+			
+	for heap,x in [12,13,14,15,16,17,18,19]
+		xx = [-8,-6,-4,-2,2,4,6,8][x]
 		showHeap board, heap, xx,4, w
 
 legalMove = (board,a,b) ->
 	if a in [0,1,2,3] then return false 
-	if b in [12,13,14,15,17,18,19,20] then return false 
+	if b in [12,13,14,15,16,17,18,19] then return false 
 	if board[a].length==0 then return false
 	if board[b].length==0 then return true
 	[sa,a1,a2] = _.last board[a]
@@ -192,38 +205,56 @@ mousePressed = -> # one click
 	if not (0 < mouseX < width) then return
 	if not (0 < mouseY < height) then return
 
+	marked = null
 	mx = mouseX//(W/3)
 	my = mouseY//(H/3)
 	if my >= 4
-		marked = 12 + mx
+		if mx<=3 then marked = 12 + mx
+		if mx>=5 then marked = 11 + mx
 	else
 		if mx==4 then marked = my
-		else if mx<4 then marked = 4+my
-		else marked = 8+my
+		else if mx<4 then marked = [4,6,8,10][my]
+		else marked = [5,7,9,11][my]
+	if marked==null then return 
 
 	holes = []
 	found = false
-	for heap in [0,1,2,3, 4,5,6,7, 8,9,10,11]	
+
+	if N==1 then heaps = [0,       4,5] 
+	if N==2 then heaps = [0,1,     4,5,6,7] 
+	if N==3 then heaps = [0,1,2,   4,5,6,7,8,9] 
+	if N==4 then heaps = [0,1,2,3, 4,5,6,7,8,9,10,11] 
+
+	for heap in heaps	
 		if board[heap].length==0 then holes.push heap
 		if heap not in holes and legalMove board,marked,heap  
-			print prettyMove marked,heap,board
 			makeMove board,marked,heap,true
 			found = true
 			break 
 	if not found
 		for heap in holes	
 			if legalMove board,marked,heap  
-				print prettyMove marked,heap,board
 				makeMove board,marked,heap,true
 				break 
 
-	if 52 == countAceCards board then timing = (millis() - start) // 1000
+	if N*13 == countAceCards board then timing = (millis() - start) // 1000
 	display board
 
 ####### AI-section ########
 
-srcs = [4,5,6,7, 8,9,10,11, 12,13,14,15, 17,18,19,20]
-dsts = [0,1,2,3, 4,5,6,7, 8,9,10,11]
+setLists = ->
+	if N == 1
+		srcs = [4,5, 12,13,14,15,16,17,18,19]
+		dsts = [0, 4,5]
+	if N == 2
+		srcs = [4,5,6,7, 12,13,14,15,16,17,18,19]
+		dsts = [0,1, 4,5,6,7]
+	if N == 3
+		srcs = [4,5,6,7,8,9, 12,13,14,15,16,17,18,19]
+		dsts = [0,1,2, 4,5,6,7,8,9]
+	if N == 4
+		srcs = [4,5,6,7,8,9,10,11, 12,13,14,15,16,17,18,19]
+		dsts = [0,1,2,3, 4,5,6,7,8,9,10,11]
 
 findAllMoves = (b) ->
 	res = []
@@ -255,11 +286,9 @@ expand = ([aceCards,level,b]) ->
 	moves = findAllMoves b
 	for [src,dst] in moves
 		b1 = _.cloneDeep b
-		#print prettyMove src,dst,b
 		makeMove b1,src,dst
 		key = makeKey b1
 		if key not of hash
-			#print 'gulp', _.size(hash), prettyMove src,dst,b
 			hash[key] = [src,dst,b]
 			res.push [countAceCards(b1), level+1, b1] 
 	res
@@ -268,17 +297,22 @@ newGame = (key) ->
 	start = millis()
 	timing = null
 	while true 
-		makeBoard key == 'W'
+		if key=='1' then makeBoard 1,4,4
+		if key=='2' then makeBoard 2,5,4
+		if key=='3' then makeBoard 3,5,6
+		if key in '4W' then makeBoard 4,5,8,key == 'W'
+
+		setLists()
 		originalBoard = _.cloneDeep board
 
 		cands = []
-		cands.push [4,0,board] # antal kort på ässen, antal drag, board
+		cands.push [N,0,board] # antal kort på ässen, antal drag, board
 		hash = {}
 		nr = 0
 		cand = null
-		aceCards = 4
+		aceCards = N
 
-		while nr < LIMIT and cands.length > 0 and aceCards < 52
+		while nr < LIMIT and cands.length > 0 and aceCards < N*13
 			nr++ 
 			cand = cands.pop()
 			aceCards = cand[0]
@@ -288,7 +322,7 @@ newGame = (key) ->
 
 		level = cand[1]
 		print nr,aceCards,level
-		if aceCards == 52 
+		if aceCards == N*13 
 			print JSON.stringify(originalBoard)
 			board = cand[2]
 			printSolution hash,board
@@ -304,21 +338,13 @@ restart = ->
 keyPressed = -> 
 	if key == 'U' and hist.length > 0 then undoMove hist.pop()
 	if key == 'R' then restart()
-	if key in 'CW' then newGame key 
+	if key in '1234W' then newGame key 
 	if key == 'A' then shake = not shake
 	display board
 		
 prettyCard = ([suit,unvisible,visible],antal=2) ->
 	if antal==1 then "#{RANK[visible]}"
 	else "#{SUIT[suit]} #{RANK[visible]}"
-
-# prettyCard = ([suit,unvisible,visible],antal=2) ->
-# 	if antal==1
-# 		"#{RANK[visible]}"
-# 	else if unvisible == visible
-# 		"#{SUIT[suit]} #{RANK[visible]}"
-# 	else
-# 		"#{SUIT[suit]} #{RANK[unvisible]}..#{RANK[visible]}"
 
 prettyMove = (src,dst,b) ->
 	c1 = _.last b[src]
