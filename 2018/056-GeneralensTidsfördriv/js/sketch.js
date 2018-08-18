@@ -52,7 +52,6 @@ var H,
     printSolution,
     range,
     restart,
-    setLists,
     setup,
     shake,
     showHeap,
@@ -105,7 +104,7 @@ autoShake = [];
 
 shake = true;
 
-N = null;
+N = null; // Max rank
 
 srcs = null;
 
@@ -160,16 +159,18 @@ compress = function compress(board) {
   return results;
 };
 
-makeBoard = function makeBoard(suits, cardsPerSequence, panelCards) {
+makeBoard = function makeBoard(maxRank, cardsPerSequence, panelCards) {
   var wild = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
 
   var heap, i, j, l, len, len1, len2, len3, len4, len5, len6, lst, m, o, p, q, r, rank, ref, ref1, ref2, ref3, ref4, ref5, rr, suit, t;
-  N = suits;
+  N = maxRank;
+  cardsPerSequence = Math.floor(N / 2) - 1;
+  panelCards = maxRank * 4 - 8 * cardsPerSequence;
   cards = [];
-  ref = range(1, 13);
+  ref = range(1, maxRank);
   for (l = 0, len = ref.length; l < len; l++) {
     rank = ref[l];
-    ref1 = range(suits);
+    ref1 = range(4);
     for (m = 0, len1 = ref1.length; m < len1; m++) {
       suit = ref1[m];
       cards.push([suit, rank, rank]);
@@ -185,30 +186,22 @@ makeBoard = function makeBoard(suits, cardsPerSequence, panelCards) {
   ref3 = range(4);
   for (heap = p = 0, len3 = ref3.length; p < len3; heap = ++p) {
     suit = ref3[heap];
-    if (heap < suits) {
-      board[heap].push([suit, 0, 0]);
-    }
+    board[heap].push([suit, 0, 0]);
   }
-  ref4 = range(4, 4 + 2 * suits);
+  ref4 = range(4, 12);
   for (q = 0, len4 = ref4.length; q < len4; q++) {
     i = ref4[q];
     ref5 = range(cardsPerSequence);
     for (r = 0, len5 = ref5.length; r < len5; r++) {
       j = ref5[r];
-      rr = wild ? int(random(4, 4 + 2 * suits)) : i;
+      rr = wild ? int(random(4, 12)) : i;
       board[rr].push(cards.pop());
     }
   }
-  if (N === 1) {
+  if (N % 2 === 0) {
     lst = [14, 15, 16, 17];
   }
-  if (N === 2) {
-    lst = [14, 15, 16, 17];
-  }
-  if (N === 3) {
-    lst = [13, 14, 15, 16, 17, 18];
-  }
-  if (N === 4) {
+  if (N % 2 === 1) {
     lst = [12, 13, 14, 15, 16, 17, 18, 19];
   }
   for (t = 0, len6 = lst.length; t < len6; t++) {
@@ -249,7 +242,7 @@ makeAutoShake = function makeAutoShake() {
 setup = function setup() {
   createCanvas(800, 600);
   makeAutoShake();
-  newGame('1');
+  newGame('5');
   return display(board);
 };
 
@@ -295,7 +288,7 @@ showHeap = function showHeap(board, heap, x, y, dx) {
       x += dx;
     }
   }
-  if ((heap === 0 || heap === 1 || heap === 2 || heap === 3) && card[2] === 12) {
+  if ((heap === 0 || heap === 1 || heap === 2 || heap === 3) && card[2] === N - 1) {
     var _ref3 = shake ? autoShake[13 * suit + rank] : [0, 0];
 
     var _ref4 = _slicedToArray(_ref3, 2);
@@ -332,11 +325,10 @@ display = function display(board) {
   fill(200);
   text('U = Undo', x, y);
   text('R = Restart', x, y + 15);
-  text('1 = One Suit', x, y + 30);
-  text('2 = Two Suits', x, y + 45);
-  text('3 = Three Suits', x, y + 60);
-  text('4 = Four Suits', x, y + 75);
-  text('W = Wild', x, y + 90);
+  text('567 = Easy', x, y + 30);
+  text('89T = Medium', x, y + 45);
+  text('JQK = Hard', x, y + 60);
+  text('W = Wild', x, y + 75);
   if (timing !== null) {
     text(timing + " seconds", x, y + 105);
   }
@@ -458,7 +450,7 @@ undoMove = function undoMove(_ref5) {
 
 mousePressed = function mousePressed() {
   // one click
-  var found, heap, heaps, holes, l, len, len1, m, marked, mx, my;
+  var found, heap, holes, l, len, len1, m, marked, mx, my, ref;
   if (!(0 < mouseX && mouseX < width)) {
     return;
   }
@@ -489,20 +481,9 @@ mousePressed = function mousePressed() {
   }
   holes = [];
   found = false;
-  if (N === 1) {
-    heaps = [0, 4, 5];
-  }
-  if (N === 2) {
-    heaps = [0, 1, 4, 5, 6, 7];
-  }
-  if (N === 3) {
-    heaps = [0, 1, 2, 4, 5, 6, 7, 8, 9];
-  }
-  if (N === 4) {
-    heaps = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
-  }
-  for (l = 0, len = heaps.length; l < len; l++) {
-    heap = heaps[l];
+  ref = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+  for (l = 0, len = ref.length; l < len; l++) {
+    heap = ref[l];
     if (board[heap].length === 0) {
       holes.push(heap);
     }
@@ -521,34 +502,17 @@ mousePressed = function mousePressed() {
       }
     }
   }
-  if (N * 13 === countAceCards(board)) {
+  if (4 * N === countAceCards(board)) {
     timing = Math.floor((millis() - start) / 1000);
   }
   return display(board);
 };
 
 //###### AI-section ########
-setLists = function setLists() {
-  if (N === 1) {
-    srcs = [4, 5, 12, 13, 14, 15, 16, 17, 18, 19];
-    dsts = [0, 4, 5];
-  }
-  if (N === 2) {
-    srcs = [4, 5, 6, 7, 12, 13, 14, 15, 16, 17, 18, 19];
-    dsts = [0, 1, 4, 5, 6, 7];
-  }
-  if (N === 3) {
-    srcs = [4, 5, 6, 7, 8, 9, 12, 13, 14, 15, 16, 17, 18, 19];
-    dsts = [0, 1, 2, 4, 5, 6, 7, 8, 9];
-  }
-  if (N === 4) {
-    srcs = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
-    return dsts = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
-  }
-};
-
 findAllMoves = function findAllMoves(b) {
   var dst, l, len, len1, m, res, src;
+  srcs = [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+  dsts = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
   res = [];
   for (l = 0, len = srcs.length; l < len; l++) {
     src = srcs[l];
@@ -629,33 +593,22 @@ newGame = function newGame(key) {
   var cand, increment, level, nr;
   start = millis();
   timing = null;
-  //tries = 0
   while (true) {
-    if (key === '1') {
-      makeBoard(1, 4, 4);
+    if (indexOf.call('56789TJQK', key) >= 0) {
+      makeBoard('     56789TJQK'.indexOf(key), 4, 4);
     }
-    if (key === '2') {
-      makeBoard(2, 5, 4);
+    if (indexOf.call('W', key) >= 0) {
+      makeBoard(13, 5, 8, true);
     }
-    if (key === '3') {
-      makeBoard(3, 5, 6);
-    }
-    if (indexOf.call('4W', key) >= 0) {
-      makeBoard(4, 5, 8, key === 'W');
-    }
-    //background 128
-    //text tries, width/2, height/2
-    //tries++
-    setLists();
     originalBoard = _.cloneDeep(board);
     cands = [];
-    cands.push([N, 0, board // antal kort på ässen, antal drag, board
+    cands.push([4, 0, board // antal kort på ässen, antal drag, board
     ]);
     hash = {};
     nr = 0;
     cand = null;
-    aceCards = N;
-    while (nr < LIMIT && cands.length > 0 && aceCards < N * 13) {
+    aceCards = 4;
+    while (nr < LIMIT && cands.length > 0 && aceCards < N * 4) {
       nr++;
       cand = cands.pop();
       aceCards = cand[0];
@@ -671,7 +624,7 @@ newGame = function newGame(key) {
     }
     level = cand[1];
     print(nr, aceCards, level);
-    if (aceCards === N * 13) {
+    if (aceCards === N * 4) {
       print(JSON.stringify(originalBoard));
       board = cand[2];
       printSolution(hash, board);
@@ -695,7 +648,7 @@ keyPressed = function keyPressed() {
   if (key === 'R') {
     restart();
   }
-  if (indexOf.call('1234W', key) >= 0) {
+  if (indexOf.call('56789TJQKW', key) >= 0) {
     newGame(key);
   }
   if (key === 'A') {
