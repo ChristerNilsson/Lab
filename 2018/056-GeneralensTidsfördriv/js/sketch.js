@@ -333,8 +333,8 @@ display = function display(board) {
   if (timing !== null) {
     text(timing + " seconds", x, y + 105);
   }
-  textSize(20);
-  text(classic ? 'Classic' : LONG[N], x, y + 91);
+  textSize(24);
+  text(classic ? 'Classic' : LONG[N], x, y + 84);
   textAlign(LEFT, CENTER);
   textSize(10);
   text('Generalens Tidsfördriv', 0, height - 5);

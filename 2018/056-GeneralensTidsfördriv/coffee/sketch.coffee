@@ -151,15 +151,15 @@ display = (board) ->
 	fill 200
 	text 'U = Undo',          x,y
 	text 'R = Restart',       x,y+10
-	text '3 4 5 6 = Easy',      x,y+20
-	text '7 8 9 T = Medium',    x,y+30
+	text '3 4 5 6 = Easy',    x,y+20
+	text '7 8 9 T = Medium',  x,y+30
 	text 'J Q K = Hard',      x,y+40
 	text 'C = Classic',       x,y+50
 	text 'Space = Next',      x,y+60
 
 	if timing != null then text "#{timing} seconds", x,y+105
-	textSize 20
-	text (if classic then 'Classic' else LONG[N]), x,y+91
+	textSize 24
+	text (if classic then 'Classic' else LONG[N]), x,y+84
 	textAlign LEFT,CENTER
 	textSize 10
 	text 'Generalens Tidsfördriv', 0,height-5
@@ -176,7 +176,7 @@ display = (board) ->
 		n = calcAntal board[heap]
 		dx = if n<=7 then w/2 else (width/2-w/2-w)/(n-1)
 		showHeap board, heap, 2, y, dx
-			
+
 	for heap,x in PANEL
 		xx = [-8,-6,-4,-2,2,4,6,8][x]
 		showHeap board, heap, xx,4, w
