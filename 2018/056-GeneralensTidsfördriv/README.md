@@ -24,6 +24,9 @@
 	* Q = Ess till Dam
 	* K = Ess till Kung. Svårast.
 	* C = Classic. Som K fast med fem kort långa sekvenser.
+	* Space = Next
+	  * Flyttar upp en nivå om patiensen gått ut.
+	  * Flyttar ner en nivå om patiensen ej gått ut.
 * (A = Autoshake. Flyttar korten slumpmässigt någon pixel. Kosmetika)
 
 De skapade patienserna är alltid lösbara.
