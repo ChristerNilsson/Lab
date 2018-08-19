@@ -11,7 +11,7 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 //  5  5  5  5  5  1  9  9  9  9  9
 //  6  6  6  6  6  2 10 10 10 10 10
 //  7  7  7  7  7  3 11 11 11 11 11
-//    12 13 14 15    16 17 18 19
+//    12 13 14 15    16 17 18 19      PANEL
 var ACES,
     H,
     HEAPS,
@@ -19,8 +19,7 @@ var ACES,
     LONG,
     N,
     OFFSETX,
-    PANEL4,
-    PANEL8,
+    PANEL,
     RANK,
     SUIT,
     W,
@@ -51,6 +50,7 @@ var ACES,
     makeMove,
     mousePressed,
     newGame,
+    nextLevel,
     originalBoard,
     preload,
     prettyCard,
@@ -72,9 +72,7 @@ ACES = [0, 1, 2, 3];
 
 HEAPS = [4, 5, 6, 7, 8, 9, 10, 11];
 
-PANEL4 = [14, 15, 16, 17];
-
-PANEL8 = [12, 13, 14, 15, 16, 17, 18, 19];
+PANEL = [12, 13, 14, 15, 16, 17, 18, 19];
 
 SUIT = "club heart spade diamond".split(' ');
 
@@ -136,16 +134,16 @@ preload = function preload() {
 range = _.range;
 
 compress = function compress(board) {
-  var h1, h2, heap, i, l, len, len1, m, ref, res, results, suit1, suit2, temp, v1, v2;
+  var h1, h2, heap, i, j, l, len, len1, ref, res, results, suit1, suit2, temp, v1, v2;
   results = [];
-  for (l = 0, len = HEAPS.length; l < len; l++) {
-    heap = HEAPS[l];
+  for (j = 0, len = HEAPS.length; j < len; j++) {
+    heap = HEAPS[j];
     if (board[heap].length > 1) {
       temp = board[heap][0];
       res = [];
       ref = range(1, board[heap].length);
-      for (m = 0, len1 = ref.length; m < len1; m++) {
-        i = ref[m];
+      for (l = 0, len1 = ref.length; l < len1; l++) {
+        i = ref[l];
         var _temp = temp;
 
         var _temp2 = _slicedToArray(_temp, 3);
@@ -176,53 +174,38 @@ compress = function compress(board) {
   return results;
 };
 
-makeBoard = function makeBoard(maxRank) {
-  var wild = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : true;
-
-  var cardsPerSequence, heap, i, j, l, len, len1, len2, len3, len4, len5, len6, lst, m, o, p, q, r, rank, ref, ref1, ref2, ref3, ref4, ref5, rr, suit, t;
+makeBoard = function makeBoard(maxRank, classic) {
+  var card, heap, i, j, l, len, len1, len2, len3, len4, len5, m, o, p, q, rank, ref, ref1, ref2, ref3, suit;
   N = maxRank;
-  cardsPerSequence = Math.floor(N / 2) - 1;
   cards = [];
   ref = range(1, maxRank);
-  for (l = 0, len = ref.length; l < len; l++) {
-    rank = ref[l];
+  for (j = 0, len = ref.length; j < len; j++) {
+    rank = ref[j];
     ref1 = range(4);
-    for (m = 0, len1 = ref1.length; m < len1; m++) {
-      suit = ref1[m];
+    for (l = 0, len1 = ref1.length; l < len1; l++) {
+      suit = ref1[l];
       cards.push([suit, rank, rank]);
     }
   }
   cards = _.shuffle(cards);
   board = [];
   ref2 = range(20);
-  for (o = 0, len2 = ref2.length; o < len2; o++) {
-    i = ref2[o];
+  for (m = 0, len2 = ref2.length; m < len2; m++) {
+    i = ref2[m];
     board.push([]);
   }
   ref3 = range(4);
-  for (heap = p = 0, len3 = ref3.length; p < len3; heap = ++p) {
+  for (heap = o = 0, len3 = ref3.length; o < len3; heap = ++o) {
     suit = ref3[heap];
     board[heap].push([suit, 0, 0]);
   }
-  ref4 = range(4, 12);
-  for (q = 0, len4 = ref4.length; q < len4; q++) {
-    i = ref4[q];
-    ref5 = range(cardsPerSequence);
-    for (r = 0, len5 = ref5.length; r < len5; r++) {
-      j = ref5[r];
-      rr = !wild ? int(random(4, 12)) : i;
-      board[rr].push(cards.pop());
-    }
-  }
-  if (N % 2 === 0) {
-    lst = PANEL4;
-  }
-  if (N % 2 === 1) {
-    lst = PANEL8;
-  }
-  for (t = 0, len6 = lst.length; t < len6; t++) {
-    heap = lst[t];
+  for (p = 0, len4 = PANEL.length; p < len4; p++) {
+    heap = PANEL[p];
     board[heap].push(cards.pop());
+  }
+  for (i = q = 0, len5 = cards.length; q < len5; i = ++q) {
+    card = cards[i];
+    board[classic ? 4 + i % 8 : int(random(4, 12))].push(card);
   }
   return compress(board);
 };
@@ -245,12 +228,12 @@ fakeBoard = function fakeBoard() {
 };
 
 makeAutoShake = function makeAutoShake() {
-  var i, l, len, ref, results;
+  var i, j, len, ref, results;
   autoShake = [];
   ref = range(52);
   results = [];
-  for (l = 0, len = ref.length; l < len; l++) {
-    i = ref[l];
+  for (j = 0, len = ref.length; j < len; j++) {
+    i = ref[j];
     results.push(autoShake.push([int(random(-2, 2)), int(random(-2, 2))]));
   }
   return results;
@@ -259,12 +242,12 @@ makeAutoShake = function makeAutoShake() {
 setup = function setup() {
   createCanvas(800, 600);
   makeAutoShake();
-  newGame('5');
+  newGame('3');
   return display(board);
 };
 
 showHeap = function showHeap(board, heap, x, y, dx) {
-  var card, dr, k, l, len, len1, m, n, rank, ref, ref1, suit, unvisible, visible, x0, y0;
+  var card, dr, j, k, l, len, len1, n, rank, ref, ref1, suit, unvisible, visible, x0, y0;
   n = calcAntal(board[heap]);
   if (n === 0) {
     return;
@@ -279,7 +262,7 @@ showHeap = function showHeap(board, heap, x, y, dx) {
   x = x0 + x * dx / 2;
   y = y * h;
   ref = board[heap];
-  for (k = l = 0, len = ref.length; l < len; k = ++l) {
+  for (k = j = 0, len = ref.length; j < len; k = ++j) {
     card = ref[k];
     var _card = card;
 
@@ -291,8 +274,8 @@ showHeap = function showHeap(board, heap, x, y, dx) {
 
     dr = unvisible < visible ? 1 : -1;
     ref1 = range(unvisible, visible + dr, dr);
-    for (m = 0, len1 = ref1.length; m < len1; m++) {
-      rank = ref1[m];
+    for (l = 0, len1 = ref1.length; l < len1; l++) {
+      rank = ref1[l];
 
       var _ref = shake ? autoShake[13 * suit + rank] : [0, 0];
 
@@ -318,14 +301,14 @@ showHeap = function showHeap(board, heap, x, y, dx) {
 };
 
 calcAntal = function calcAntal(lst) {
-  var l, len, res, suit, unvisible, visible;
+  var j, len, res, suit, unvisible, visible;
   res = 0;
-  for (l = 0, len = lst.length; l < len; l++) {
-    var _lst$l = _slicedToArray(lst[l], 3);
+  for (j = 0, len = lst.length; j < len; j++) {
+    var _lst$j = _slicedToArray(lst[j], 3);
 
-    suit = _lst$l[0];
-    unvisible = _lst$l[1];
-    visible = _lst$l[2];
+    suit = _lst$j[0];
+    unvisible = _lst$j[1];
+    visible = _lst$j[2];
 
     res += 1 + abs(unvisible - visible);
   }
@@ -333,7 +316,7 @@ calcAntal = function calcAntal(lst) {
 };
 
 display = function display(board) {
-  var dx, heap, l, len, len1, len2, len3, m, n, o, p, ref, ref1, results, x, xx, y;
+  var dx, heap, j, l, len, len1, len2, len3, m, n, o, ref, ref1, results, x, xx, y;
   background(0, 128, 0);
   textAlign(CENTER, CENTER);
   textSize(10);
@@ -341,11 +324,12 @@ display = function display(board) {
   y = height - 110;
   fill(200);
   text('U = Undo', x, y);
-  text('R = Restart', x, y + 15);
-  text('5 6 7 = Easy', x, y + 30);
-  text('8 9 T = Medium', x, y + 45);
-  text('J Q K = Hard', x, y + 60);
-  text('C = Classic', x, y + 75);
+  text('R = Restart', x, y + 10);
+  text('3 4 5 6 = Easy', x, y + 20);
+  text('7 8 9 T = Medium', x, y + 30);
+  text('J Q K = Hard', x, y + 40);
+  text('C = Classic', x, y + 50);
+  text('Space = Next', x, y + 60);
   if (timing !== null) {
     text(timing + " seconds", x, y + 105);
   }
@@ -354,27 +338,27 @@ display = function display(board) {
   textAlign(LEFT, CENTER);
   textSize(10);
   text('Generalens Tidsfördriv', 0, height - 5);
-  for (y = l = 0, len = ACES.length; l < len; y = ++l) {
+  for (y = j = 0, len = ACES.length; j < len; y = ++j) {
     heap = ACES[y];
     showHeap(board, heap, 0, y, 0);
   }
   ref = [4, 5, 6, 7];
-  for (y = m = 0, len1 = ref.length; m < len1; y = ++m) {
+  for (y = l = 0, len1 = ref.length; l < len1; y = ++l) {
     heap = ref[y];
     n = calcAntal(board[heap]);
     dx = n <= 7 ? w / 2 : (width / 2 - w / 2 - w) / (n - 1);
     showHeap(board, heap, -2, y, -dx);
   }
   ref1 = [8, 9, 10, 11];
-  for (y = o = 0, len2 = ref1.length; o < len2; y = ++o) {
+  for (y = m = 0, len2 = ref1.length; m < len2; y = ++m) {
     heap = ref1[y];
     n = calcAntal(board[heap]);
     dx = n <= 7 ? w / 2 : (width / 2 - w / 2 - w) / (n - 1);
     showHeap(board, heap, 2, y, dx);
   }
   results = [];
-  for (x = p = 0, len3 = PANEL8.length; p < len3; x = ++p) {
-    heap = PANEL8[x];
+  for (x = o = 0, len3 = PANEL.length; o < len3; x = ++o) {
+    heap = PANEL[x];
     xx = [-8, -6, -4, -2, 2, 4, 6, 8][x];
     results.push(showHeap(board, heap, xx, 4, w));
   }
@@ -386,7 +370,7 @@ legalMove = function legalMove(board, a, b) {
   if (indexOf.call(ACES, a) >= 0) {
     return false;
   }
-  if (indexOf.call(PANEL8, b) >= 0) {
+  if (indexOf.call(PANEL, b) >= 0) {
     return false;
   }
   if (board[a].length === 0) {
@@ -446,7 +430,6 @@ undoMove = function undoMove(_ref5) {
       antal = _ref6[2];
 
   var suit, unvisible, visible;
-  //print 'undo', prettyMove b,a,board
 
   var _board$b$pop = board[b].pop();
 
@@ -470,8 +453,7 @@ undoMove = function undoMove(_ref5) {
 };
 
 mousePressed = function mousePressed() {
-  // one click
-  var found, heap, holes, l, len, len1, m, marked, mx, my, ref;
+  var found, heap, holes, j, l, len, len1, marked, mx, my, ref;
   if (!(0 < mouseX && mouseX < width)) {
     return;
   }
@@ -503,9 +485,8 @@ mousePressed = function mousePressed() {
   holes = [];
   found = false;
   ref = ACES.concat(HEAPS);
-  // [0,1,2,3, 4,5,6,7,8,9,10,11] 	
-  for (l = 0, len = ref.length; l < len; l++) {
-    heap = ref[l];
+  for (j = 0, len = ref.length; j < len; j++) {
+    heap = ref[j];
     if (board[heap].length === 0) {
       holes.push(heap);
     }
@@ -516,8 +497,8 @@ mousePressed = function mousePressed() {
     }
   }
   if (!found) {
-    for (m = 0, len1 = holes.length; m < len1; m++) {
-      heap = holes[m];
+    for (l = 0, len1 = holes.length; l < len1; l++) {
+      heap = holes[l];
       if (legalMove(board, marked, heap)) {
         makeMove(board, marked, heap, true);
         break;
@@ -532,14 +513,14 @@ mousePressed = function mousePressed() {
 
 //###### AI-section ########
 findAllMoves = function findAllMoves(b) {
-  var dst, l, len, len1, m, res, src;
-  srcs = HEAPS.concat(PANEL8); //[4,5,6,7,8,9,10,11, 12,13,14,15,16,17,18,19]
-  dsts = ACES.concat(HEAPS); //[0,1,2,3, 4,5,6,7,8,9,10,11]
+  var dst, j, l, len, len1, res, src;
+  srcs = HEAPS.concat(PANEL);
+  dsts = ACES.concat(HEAPS);
   res = [];
-  for (l = 0, len = srcs.length; l < len; l++) {
-    src = srcs[l];
-    for (m = 0, len1 = dsts.length; m < len1; m++) {
-      dst = dsts[m];
+  for (j = 0, len = srcs.length; j < len; j++) {
+    src = srcs[j];
+    for (l = 0, len1 = dsts.length; l < len1; l++) {
+      dst = dsts[l];
       if (src !== dst) {
         if (legalMove(b, src, dst)) {
           res.push([src, dst]);
@@ -552,16 +533,16 @@ findAllMoves = function findAllMoves(b) {
 
 makeKey = function makeKey(b) {
   // kanske 4-11 bör sorteras först
-  var heap, index, l, len, len1, m, r1, r2, res, suit;
+  var heap, index, j, l, len, len1, r1, r2, res, suit;
   res = '';
-  for (index = l = 0, len = b.length; l < len; index = ++l) {
+  for (index = j = 0, len = b.length; j < len; index = ++j) {
     heap = b[index];
-    for (m = 0, len1 = heap.length; m < len1; m++) {
-      var _heap$m = _slicedToArray(heap[m], 3);
+    for (l = 0, len1 = heap.length; l < len1; l++) {
+      var _heap$l = _slicedToArray(heap[l], 3);
 
-      suit = _heap$m[0];
-      r1 = _heap$m[1];
-      r2 = _heap$m[2];
+      suit = _heap$l[0];
+      r1 = _heap$l[1];
+      r2 = _heap$l[2];
 
       if (r1 === r2) {
         res += 'chsd'[suit] + RANK[r1];
@@ -575,10 +556,10 @@ makeKey = function makeKey(b) {
 };
 
 countAceCards = function countAceCards(b) {
-  var heap, l, len, res;
+  var heap, j, len, res;
   res = 0;
-  for (l = 0, len = ACES.length; l < len; l++) {
-    heap = ACES[l];
+  for (j = 0, len = ACES.length; j < len; j++) {
+    heap = ACES[j];
     res += calcAntal(b[heap]);
   }
   return res;
@@ -590,14 +571,14 @@ expand = function expand(_ref7) {
       level = _ref8[1],
       b = _ref8[2];
 
-  var b1, dst, key, l, len, moves, res, src;
+  var b1, dst, j, key, len, moves, res, src;
   res = [];
   moves = findAllMoves(b);
-  for (l = 0, len = moves.length; l < len; l++) {
-    var _moves$l = _slicedToArray(moves[l], 2);
+  for (j = 0, len = moves.length; j < len; j++) {
+    var _moves$j = _slicedToArray(moves[j], 2);
 
-    src = _moves$l[0];
-    dst = _moves$l[1];
+    src = _moves$j[0];
+    dst = _moves$j[1];
 
     b1 = _.cloneDeep(b);
     makeMove(b1, src, dst);
@@ -617,8 +598,8 @@ newGame = function newGame(key) {
   hist = [];
   classic = key === 'C';
   while (true) {
-    if (indexOf.call('56789TJQK', key) >= 0) {
-      makeBoard(5 + '56789TJQK'.indexOf(key), classic);
+    if (indexOf.call('3456789TJQK', key) >= 0) {
+      makeBoard(3 + '3456789TJQK'.indexOf(key), classic);
     }
     if (indexOf.call('C', key) >= 0) {
       makeBoard(13, classic);
@@ -664,6 +645,17 @@ restart = function restart() {
   return board = _.cloneDeep(originalBoard);
 };
 
+nextLevel = function nextLevel() {
+  if (4 * N === countAceCards(board)) {
+    N++;
+  } else {
+    N--;
+  }
+  N = constrain(N, 3, 13);
+  classic = false;
+  return newGame('   3456789TJQK'[N]);
+};
+
 keyPressed = function keyPressed() {
   if (key === 'U' && hist.length > 0) {
     undoMove(hist.pop());
@@ -671,11 +663,14 @@ keyPressed = function keyPressed() {
   if (key === 'R') {
     restart();
   }
-  if (indexOf.call('56789TJQKC', key) >= 0) {
+  if (indexOf.call('3456789TJQKC', key) >= 0) {
     newGame(key);
   }
   if (key === 'A') {
     shake = !shake;
+  }
+  if (key === ' ') {
+    nextLevel();
   }
   return display(board);
 };
@@ -711,7 +706,7 @@ prettyMove = function prettyMove(src, dst, b) {
 };
 
 printSolution = function printSolution(hash, b) {
-  var dst, index, key, l, len, s, solution, src;
+  var dst, index, j, key, len, s, solution, src;
   key = makeKey(b);
   solution = [];
   while (key in hash) {
@@ -726,7 +721,7 @@ printSolution = function printSolution(hash, b) {
   }
   solution.reverse();
   s = '';
-  for (index = l = 0, len = solution.length; l < len; index = ++l) {
+  for (index = j = 0, len = solution.length; j < len; index = ++j) {
     var _solution$index = _slicedToArray(solution[index], 3);
 
     src = _solution$index[0];

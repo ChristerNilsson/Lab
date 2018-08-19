@@ -4,15 +4,17 @@
 
 * Livet är kort!
 * Denna patiens går ut på att bygga uppåt på Essen. Dvs Tvåor läggs på Essen osv upp till Kung.
-* På de övre sekvenserna får man bygga både uppåt och neråt.
+* På de övre åtta sekvenserna får man bygga både uppåt och neråt.
 * Blir en sekvens tom får man placera valfritt kort där.
-* De nedre fria korten får man inte bygga på. Man får enbart plocka dessa.
-* Färg bibehålles alltid.
+* De nedre åtta fria korten får man inte bygga på. Man får enbart plocka dessa.
+* Färg bibehålles alltid. Det finns fyra färger.
 
 * U = Undo. Ångrar senaste drag.
 * R = Restart. Omstart av patiensen.
-* Levels:
-  * 5 = Ess till 5. Lättast.
+* Nivåer:
+  * 3 = Ess till 3. Lättast.
+  * 4 = Ess till 4
+  * 5 = Ess till 5
   * 6 = Ess till 6
 	* 7 = Ess till 7
 	* 8 = Ess till 8

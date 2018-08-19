@@ -6,12 +6,11 @@
 #  5  5  5  5  5  1  9  9  9  9  9
 #  6  6  6  6  6  2 10 10 10 10 10
 #  7  7  7  7  7  3 11 11 11 11 11
-#    12 13 14 15    16 17 18 19
+#    12 13 14 15    16 17 18 19      PANEL
 
 ACES = [0,1,2,3]
 HEAPS = [4,5,6,7,8,9,10,11]
-PANEL4 =       [14,15,16,17]
-PANEL8 = [12,13,14,15,16,17,18,19]
+PANEL = [12,13,14,15,16,17,18,19]
 
 SUIT = "club heart spade diamond".split ' '
 RANK = "A 2 3 4 5 6 7 8 9 T J Q K".split ' '
@@ -64,9 +63,8 @@ compress = (board) ->
 			res.push temp
 			board[heap] = res
 
-makeBoard = (maxRank,wild=true)->
+makeBoard = (maxRank,classic)->
 	N = maxRank
-	cardsPerSequence = N//2-1
 
 	cards = []
 	for rank in range 1,maxRank
@@ -80,16 +78,12 @@ makeBoard = (maxRank,wild=true)->
 
 	for suit,heap in range 4 
 		board[heap].push [suit,0,0]
-	for i in range 4,12
-		for j in range cardsPerSequence 
-			rr = if not wild then int random 4,12 else i
-			board[rr].push cards.pop()
 
-	if N%2==0 then lst = PANEL4
-	if N%2==1 then lst = PANEL8
-
-	for heap in lst
+	for heap in PANEL
 		board[heap].push cards.pop()
+
+	for card,i in cards
+		board[if classic then 4+i%8 else int random 4,12].push card
 
 	compress board
 
@@ -116,7 +110,7 @@ makeAutoShake = ->
 setup = ->
 	createCanvas 800,600
 	makeAutoShake()
-	newGame '5'
+	newGame '3'
 	display board 
 
 showHeap = (board,heap,x,y,dx) ->
@@ -156,11 +150,13 @@ display = (board) ->
 
 	fill 200
 	text 'U = Undo',          x,y
-	text 'R = Restart',       x,y+15
-	text '5 6 7 = Easy',      x,y+30
-	text '8 9 T = Medium',    x,y+45
-	text 'J Q K = Hard',      x,y+60
-	text 'C = Classic',       x,y+75
+	text 'R = Restart',       x,y+10
+	text '3 4 5 6 = Easy',      x,y+20
+	text '7 8 9 T = Medium',    x,y+30
+	text 'J Q K = Hard',      x,y+40
+	text 'C = Classic',       x,y+50
+	text 'Space = Next',      x,y+60
+
 	if timing != null then text "#{timing} seconds", x,y+105
 	textSize 20
 	text (if classic then 'Classic' else LONG[N]), x,y+91
@@ -181,13 +177,13 @@ display = (board) ->
 		dx = if n<=7 then w/2 else (width/2-w/2-w)/(n-1)
 		showHeap board, heap, 2, y, dx
 			
-	for heap,x in PANEL8
+	for heap,x in PANEL
 		xx = [-8,-6,-4,-2,2,4,6,8][x]
 		showHeap board, heap, xx,4, w
 
 legalMove = (board,a,b) ->
 	if a in ACES then return false 
-	if b in PANEL8 then return false 
+	if b in PANEL then return false 
 	if board[a].length==0 then return false
 	if board[b].length==0 then return true
 	[sa,a1,a2] = _.last board[a]
@@ -202,7 +198,6 @@ makeMove = (board,a,b,record) -> # from heap a to heap b
 	board[b].push [suit,unvisible,visible] 
 
 undoMove = ([a,b,antal]) ->
-	#print 'undo', prettyMove b,a,board
 	[suit, unvisible, visible] = board[b].pop()
 	if unvisible < visible
 		board[a].push [suit,visible,  visible-antal+1]
@@ -211,7 +206,7 @@ undoMove = ([a,b,antal]) ->
 		board[a].push [suit,visible,  visible+antal-1]
 		if unvisible!=visible+antal-1 then board[b].push [suit,unvisible,visible+antal]
 
-mousePressed = -> # one click
+mousePressed = -> 
 	if not (0 < mouseX < width) then return
 	if not (0 < mouseY < height) then return
 
@@ -230,7 +225,7 @@ mousePressed = -> # one click
 	holes = []
 	found = false
 
-	for heap in ACES.concat HEAPS # [0,1,2,3, 4,5,6,7,8,9,10,11] 	
+	for heap in ACES.concat HEAPS 	
 		if board[heap].length==0 then holes.push heap
 		if heap not in holes and legalMove board,marked,heap  
 			makeMove board,marked,heap,true
@@ -248,8 +243,8 @@ mousePressed = -> # one click
 ####### AI-section ########
 
 findAllMoves = (b) ->
-	srcs = HEAPS.concat PANEL8 #[4,5,6,7,8,9,10,11, 12,13,14,15,16,17,18,19]
-	dsts = ACES.concat HEAPS #[0,1,2,3, 4,5,6,7,8,9,10,11]
+	srcs = HEAPS.concat PANEL 
+	dsts = ACES.concat HEAPS 
 	res = []
 	for src in srcs
 		for dst in dsts
@@ -292,7 +287,7 @@ newGame = (key) ->
 	hist = []
 	classic = key=='C'
 	while true 
-		if key in '56789TJQK' then makeBoard 5+'56789TJQK'.indexOf(key),classic
+		if key in '3456789TJQK' then makeBoard 3+'3456789TJQK'.indexOf(key),classic
 		if key in 'C' then makeBoard 13,classic
 
 		originalBoard = _.cloneDeep board
@@ -327,11 +322,21 @@ restart = ->
 	hist = []
 	board = _.cloneDeep originalBoard
 
+nextLevel = ->
+	if 4*N == countAceCards board
+		N++
+	else
+		N--
+	N = constrain N,3,13
+	classic = false
+	newGame '   3456789TJQK'[N]
+
 keyPressed = -> 
 	if key == 'U' and hist.length > 0 then undoMove hist.pop()
 	if key == 'R' then restart()
-	if key in '56789TJQKC' then newGame key 
+	if key in '3456789TJQKC' then newGame key 
 	if key == 'A' then shake = not shake
+	if key == ' ' then nextLevel()
 	display board
 		
 prettyCard = ([suit,unvisible,visible],antal=2) ->
