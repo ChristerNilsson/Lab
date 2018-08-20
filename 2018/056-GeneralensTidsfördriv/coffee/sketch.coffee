@@ -46,6 +46,7 @@ preload = ->
 	backs = loadImage 'cards/Playing_Card_Backs.png'
 
 range = _.range
+assert = (a, b, msg='Assert failure') -> chai.assert.deepEqual a, b, msg
 
 compress = (board) ->
 	for heap in HEAPS
@@ -53,23 +54,46 @@ compress = (board) ->
 			temp = board[heap][0]
 			res = []
 			for i in range 1,board[heap].length
-				[suit1,h1,v1] = temp
-				[suit2,h2,v2] = board[heap][i]
+				[suit1,h1,v1] = unpack temp
+				[suit2,h2,v2] = unpack board[heap][i]
 				if suit1==suit2 and 1 == abs v1-h2
-					temp = [suit1,h1,v2]
+					temp = pack suit1,h1,v2
 				else
 					res.push temp 
-					temp = [suit2,h2,v2]
+					temp = pack suit2,h2,v2
 			res.push temp
 			board[heap] = res
+
+# suit är nollbaserad
+# rank1 är nollbaserad
+# rank2 är nollbaserad
+# I talet räknas rank1 och rank2 upp
+pack = (suit,rank1,rank2=rank1) ->
+	if rank1 == rank2 then rank2 = -1 
+	suit + 10 * (rank1+1) + 1000 * (rank2+1) # rank=1..13 suit=0..3 
+assert 10, pack 0,0 # club A
+assert 13, pack 3,0 # diamond A
+assert 23, pack 3,1,1 # diamond 2
+assert 12111, pack 1,10,11 # heart J,Q
+assert 111, pack 1,10,10 # heart J,J
+
+unpack = (n) -> 
+	suit = n%10
+	rank1 = (n//10)%100 
+	rank2 = n//1000 
+	if rank2 == 0 then rank2 = rank1
+	[suit,rank1-1,rank2-1]
+assert [0,0,0], unpack 10
+assert [3,0,0], unpack 13
+assert [1,10,11], unpack 12111
 
 makeBoard = (maxRank,classic)->
 	N = maxRank
 
 	cards = []
-	for rank in range 1,maxRank
-		for suit in range 4
-			cards.push [suit,rank,rank]
+	for suit in range 4
+		for rank in range 1,maxRank # 2..K
+			cards.push pack suit,rank 
 	cards = _.shuffle cards
 
 	board = []
@@ -77,7 +101,7 @@ makeBoard = (maxRank,classic)->
 		board.push []
 
 	for suit,heap in range 4 
-		board[heap].push [suit,0,0]
+		board[heap].push pack suit,0 # Ess
 
 	for heap in PANEL
 		board[heap].push cards.pop()
@@ -86,21 +110,10 @@ makeBoard = (maxRank,classic)->
 		board[if classic then 4+i%8 else int random 4,12].push card
 
 	compress board
+	#print board 
 
 fakeBoard = ->
-	#board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,2,2],[1,3,3],[1,1,1],[3,1,1],[3,2,2]],[[0,4,4],[0,12,12],[3,5,5],[1,8,8],[3,9,9]],[[2,11,11],[3,12,12],[0,6,6],[2,5,5],[1,7,7]],[[0,8,8],[3,11,11],[2,6,6],[2,9,9],[1,12,12]],[[0,9,9],[0,10,10],[2,10,10],[2,4,4],[2,7,7]],[[1,2,2],[3,4,4],[3,6,6],[0,5,5],[1,11,11]],[[0,1,1],[0,7,7],[1,10,10],[1,5,5],[3,8,8]],[[0,3,3],[1,4,4],[3,3,3],[2,2,2],[3,10,10]],[[0,11,11]],[[3,7,7]],[[2,1,1]],[[2,8,8]],[],[[1,6,6]],[[2,3,3]],[[2,12,12]],[[1,9,9]]] # nix!
-	#board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,10,10],[2,11,11],[0,6,6],[3,9,9],[1,8,8]],[[3,10,10],[2,10,10],[0,12,12],[0,4,4],[3,1,1]],[[3,12,12],[1,3,3],[1,4,4],[1,9,9],[0,2,2]],[[3,4,4],[3,5,5],[2,5,5],[2,9,9],[2,3,3]],[[3,6,6],[1,7,7],[0,5,5],[2,7,7],[3,8,8]],[[2,4,4],[0,9,9],[1,2,2],[3,11,11],[1,6,6]],[[2,8,8],[2,1,1],[2,2,2],[1,10,10],[3,3,3]],[[1,1,1],[1,11,11],[1,12,12],[3,7,7],[2,12,12]],[[0,11,11]],[[3,2,2]],[[1,5,5]],[[0,8,8]],[],[[2,6,6]],[[0,3,3]],[[0,1,1]],[[0,7,7]]] # 851 ms
-	#board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[2,3,3],[2,12,12],[2,11,11],[3,10,10],[1,7,7]],[[1,11,11],[0,5,5],[2,9,9],[3,12,12],[1,5,5]],[[0,12,12],[3,8,8],[1,9,9],[0,6,6],[1,6,6]],[[3,1,1],[2,7,7],[0,8,8],[0,7,7],[1,3,3]],[[1,8,8],[0,9,9],[2,10,10],[3,9,9],[1,4,4]],[[1,12,12],[3,2,2],[3,3,3],[3,4,4],[1,2,2]],[[3,6,6],[2,1,1],[0,2,2],[2,8,8],[0,3,3]],[[1,1,1],[3,7,7],[2,6,6],[3,11,11],[0,1,1]],[[2,5,5]],[[2,2,2]],[[1,10,10]],[[2,4,4]],[],[[3,5,5]],[[0,10,10]],[[0,11,11]],[[0,4,4]]] # 963 ms
-	#board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[3,12,12],[3,9,9],[2,5,5],[3,2,2],[1,10,10]],[[0,1,1],[0,10,10],[2,4,4],[1,3,3],[3,7,7]],[[0,3,3],[0,11,11],[2,7,7],[3,8,8],[1,2,2]],[[0,5,5],[2,6,6],[0,6,6],[3,3,3],[1,5,5]],[[0,4,4],[3,5,5],[0,2,2],[3,10,10],[2,2,2]],[[2,10,10],[0,12,12],[2,1,1],[2,11,11],[0,9,9]],[[3,4,4],[1,7,7],[1,6,6],[2,12,12],[1,8,8]],[[1,1,1],[1,12,12],[1,11,11],[1,4,4],[2,3,3]],[[0,8,8]],[[3,11,11]],[[2,9,9]],[[0,7,7]],[],[[3,1,1]],[[2,8,8]],[[3,6,6]],[[1,9,9]]] # 264 ms
-	#board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[1,1,1],[0,12,12],[3,3,3],[2,7,7],[3,11,11]],[[2,11,11],[2,8,8],[3,6,6],[0,1,1],[0,6,6]],[[1,8,8],[1,6,6],[0,3,3],[1,3,3],[0,7,7]],[[0,11,11],[1,10,10],[3,12,12],[1,11,11],[1,2,2]],[[0,4,4],[3,2,2],[2,2,2],[3,7,7],[0,5,5]],[[2,5,5],[2,9,9],[3,8,8],[3,9,9],[2,4,4]],[[2,10,10],[0,9,9],[1,12,12],[3,4,4],[3,10,10]],[[2,12,12],[3,5,5],[1,4,4],[2,1,1],[0,2,2]],[[1,5,5]],[[0,10,10]],[[0,8,8]],[[1,9,9]],[],[[3,1,1]],[[1,7,7]],[[2,6,6]],[[2,3,3]]] # 397 ms
-	board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,2,2],[2,4,4],[2,10,10],[2,5,5],[1,1,1],[3,12,12],[2,12,12],[3,11,11],[1,8,8],[1,6,6]],[[3,9,9],[2,11,11],[0,12,12],[0,3,3],[3,10,10]],[[3,3,3],[0,9,9]],[[2,7,7],[1,4,4],[3,2,2],[1,9,9],[0,6,6],[1,5,5],[0,1,1]],[[1,3,3],[1,2,2],[2,2,2],[2,6,6],[1,11,11]],[[3,7,7],[2,8,8],[1,7,7],[3,1,1],[0,8,8]],[[2,3,3],[3,5,5],[3,6,6]],[[1,12,12],[3,4,4],[0,5,5]],[[0,7,7]],[[3,8,8]],[[1,10,10]],[[0,11,11]],[],[[0,4,4]],[[0,10,10]],[[2,1,1]],[[2,9,9]]]
-	board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[2,7,7],[0,8,8],[0,2,2],[0,5,5]],[[2,9,9],[1,5,5],[0,3,3],[2,11,11],[1,10,10]],[[2,2,2],[1,8,8]],[[1,11,11],[2,6,6],[2,10,10],[2,5,5],[3,3,3],[1,1,1]],[[3,2,2],[3,12,12],[2,3,3],[1,7,7],[3,4,4],[3,11,11]],[[3,8,8],[0,10,10],[3,7,7],[0,12,12],[1,3,3],[0,9,9],[1,12,12]],[[0,7,7],[2,12,12],[0,6,6],[3,9,9]],[[1,2,2],[0,4,4],[1,6,6],[2,4,4],[1,4,4],[1,9,9]],[[3,6,6]],[[2,8,8]],[[2,1,1]],[[3,10,10]],[],[[0,11,11]],[[0,1,1]],[[3,1,1]],[[3,5,5]]] # 118 ms
-	#board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[3,3,3],[2,3,3],[0,6,6],[3,5,5],[0,9,9],[2,10,10],[1,10,10]],[[0,10,10],[0,7,7],[3,8,8],[2,11,11]],[[0,12,12],[3,7,7],[2,1,1],[2,8,8],[1,7,7]],[[1,4,4],[2,5,5],[2,6,6],[1,2,2],[0,1,1],[2,2,2],[3,11,11],[2,7,7]],[[3,6,6],[3,9,9],[0,4,4],[3,4,4],[1,8,8]],[[0,3,3],[3,12,12],[1,11,11]],[[2,4,4],[0,2,2],[3,10,10],[0,8,8]],[[1,5,5],[2,9,9],[1,6,6],[1,1,1]],[[0,5,5]],[[0,11,11]],[[2,12,12]],[[1,3,3]],[],[[1,12,12]],[[1,9,9]],[[3,1,1]],[[3,2,2]]]
-	board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,7,7],[1,10,10],[0,1,1],[0,2,2],[2,7,7]],[[2,1,1],[2,8,8],[1,3,3],[1,7,7],[3,11,11]],[[2,2,2],[3,6,6],[3,8,8],[2,4,4],[0,3,3]],[[3,1,1],[0,5,5],[3,2,2],[2,3,3],[1,2,2]],[[3,4,4],[2,10,10],[1,11,11],[0,11,11],[2,5,5]],[[3,9,9],[0,6,6],[2,11,11],[0,10,10],[3,12,12]],[[1,9,9],[1,12,12],[0,4,4],[1,6,6],[2,6,6]],[[1,1,1],[2,12,12],[1,5,5],[3,7,7],[1,8,8]],[[3,10,10]],[[0,9,9]],[[3,3,3]],[[0,12,12]],[],[[2,9,9]],[[0,8,8]],[[1,4,4]],[[3,5,5]]]
-	board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[3,9,9],[0,4,4],[3,5,5],[0,7,7],[1,5,5]],[[1,10,10],[3,7,7],[0,6,6],[3,11,11],[3,8,8]],[[2,2,2],[3,1,1],[1,1,1],[1,9,9],[0,9,9]],[[1,2,2],[2,7,7],[1,6,6],[3,6,6],[3,3,3]],[[1,7,7],[2,3,3],[0,1,1],[2,1,1],[0,3,3]],[[2,8,8],[1,11,11],[2,6,6],[0,10,10],[3,4,4]],[[2,5,5],[2,12,12],[3,10,10],[0,2,2],[1,8,8]],[[2,11,11],[2,9,9],[0,12,12],[3,12,12],[1,4,4]],[[1,12,12]],[[0,5,5]],[[2,10,10]],[[3,2,2]],[],[[1,3,3]],[[2,4,4]],[[0,11,11]],[[0,8,8]]]
-	#board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[2,10,10],[2,12,12],[1,8,8],[1,12,12],[3,3,3]],[[1,2,2],[0,5,5]],[[3,12,12],[2,4,4],[3,8,8],[1,5,5],[0,8,8]],[[1,11,11],[0,1,1],[0,4,4]],[[1,7,7],[1,3,3],[0,10,10],[3,4,4],[2,1,1],[3,11,11]],[[2,9,9],[2,5,5],[1,6,6],[2,2,2],[1,1,1],[0,3,3]],[[2,6,6],[2,3,3],[3,1,2],[0,2,2],[1,9,9],[3,7,7],[3,10,10],[0,11,11],[2,7,7]],[[2,8,8],[3,6,6],[1,10,10]],[[0,6,6]],[[3,5,5]],[[3,9,9]],[[0,12,12]],[],[[2,11,11]],[[0,9,9]],[[1,4,4]],[[0,7,7]]]
-	#board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[2,11,11],[1,6,6],[1,8,8],[2,4,4],[1,4,4],[3,9,9],[0,10,10],[2,9,9]],[[0,5,5],[0,11,11],[0,6,6]],[[0,2,2],[2,5,5],[2,1,1],[0,3,3]],[[2,8,8],[2,3,3],[1,9,9],[3,10,10],[0,4,4],[0,1,1],[0,12,12],[2,6,6],[1,12,12]],[[3,5,4],[3,11,11],[1,3,3],[3,6,6],[1,10,10],[3,8,8]],[[0,8,8]],[[1,1,1],[1,11,11]],[[1,7,7],[2,2,2],[1,2,2],[3,3,3],[3,1,2]],[[1,5,5]],[[0,7,7]],[[2,10,10]],[[3,7,7]],[],[[2,12,12]],[[0,9,9]],[[3,12,12]],[[2,7,7]]] # 68000
-	board = [[[0,0,0]],[[1,0,0]],[[2,0,0]],[[3,0,0]],[[0,10,10],[2,8,8],[0,1,1],[3,10,10],[2,6,6]],[[0,4,4],[3,8,9],[1,8,8],[0,9,9]],[[3,3,3],[1,2,2],[3,11,11],[2,10,10],[2,2,2]],[[1,9,9],[1,3,3],[1,6,6],[2,9,9],[3,7,7]],[[1,7,7],[1,5,5],[3,2,1],[2,7,7]],[[3,6,6],[1,11,11],[0,11,11],[1,1,1],[2,11,11]],[[2,1,1],[0,5,7],[3,4,4]],[[2,3,3],[0,2,2],[1,4,4],[3,5,5],[2,5,5]],[],[],[[1,10,10]],[[0,3,3]],[[0,8,8]],[[2,4,4]],[],[]]
+	board = [[10],[11],[12],[13],[],[],[],[],[],[],[],[],[21],[33],[23],[31],[30],[22],[32],[20]]
 
 makeAutoShake = ->
 	autoShake = []
@@ -122,22 +135,18 @@ showHeap = (board,heap,x,y,dx) ->
 	x = x0 + x*dx/2
 	y = y * h
 	for card,k in board[heap]
-		[suit,unvisible,visible] = card
+		[suit,unvisible,visible] = unpack card
 		dr = if unvisible < visible then 1 else -1
 		for rank in range unvisible,visible+dr,dr
 			[x0,y0] = if shake then autoShake[13*suit+rank] else [0,0]
 			image faces, x0+x,y0+y+13, w,h, OFFSETX+W*rank,1092+H*suit,243,H
 			x += dx
 
-	if heap in ACES and card[2]==N-1
+	card = _.last board[heap]
+	[suit,unvisible,visible] = unpack card
+	if heap in ACES and visible == N-1
 		[x0,y0] = if shake then autoShake[13*suit+rank] else [0,0]
 		image backs, x0+x,y0+y+13, w,h, OFFSETX+860,1092+622,243,H
-
-calcAntal = (lst) ->
-	res=0
-	for [suit,unvisible,visible] in lst
-		res += 1 + abs(unvisible-visible)
-	res
 
 display = (board) ->
 	background 0,128,0
@@ -186,25 +195,26 @@ legalMove = (board,a,b) ->
 	if b in PANEL then return false 
 	if board[a].length==0 then return false
 	if board[b].length==0 then return true
-	[sa,a1,a2] = _.last board[a]
-	[sb,b1,b2] = _.last board[b]
+	[sa,a1,a2] = unpack _.last board[a]
+	[sb,b1,b2] = unpack _.last board[b]
 	if sa==sb and abs(a2-b2) == 1 then return true 
 	false
 
 makeMove = (board,a,b,record) -> # from heap a to heap b
-	[suit,visible,unvisible] = board[a].pop() # reverse order
+	[suit,visible,unvisible] = unpack board[a].pop() # reverse order
 	if record then hist.push [a, b, 1 + abs unvisible-visible]
-	if board[b].length > 0 then unvisible = board[b].pop()[1]
-	board[b].push [suit,unvisible,visible] 
+	if board[b].length > 0
+		[xx,unvisible,yy] = unpack board[b].pop()
+	board[b].push pack suit,unvisible,visible 
 
 undoMove = ([a,b,antal]) ->
-	[suit, unvisible, visible] = board[b].pop()
+	[suit, unvisible, visible] = unpack board[b].pop()
 	if unvisible < visible
-		board[a].push [suit,visible,  visible-antal+1]
-		if visible!=unvisible+antal-1 then board[b].push [suit,unvisible,visible-antal]
+		board[a].push pack suit,visible, visible-antal+1
+		if visible!=unvisible+antal-1 then board[b].push pack suit,unvisible,visible-antal
 	else
-		board[a].push [suit,visible,  visible+antal-1]
-		if unvisible!=visible+antal-1 then board[b].push [suit,unvisible,visible+antal]
+		board[a].push pack suit,visible, visible+antal-1
+		if unvisible!=visible+antal-1 then board[b].push pack suit,unvisible,visible+antal
 
 mousePressed = -> 
 	if not (0 < mouseX < width) then return
@@ -238,30 +248,59 @@ mousePressed = ->
 				break 
 
 	if 4*N == countAceCards board then timing = (millis() - start) // 1000
+	#srcCards = calcSrcCards board
 	display board
 
 ####### AI-section ########
+
+#calcSrcCards 
 
 findAllMoves = (b) ->
 	srcs = HEAPS.concat PANEL 
 	dsts = ACES.concat HEAPS 
 	res = []
 	for src in srcs
+		used = false 
 		for dst in dsts
 			if src!=dst
-				if legalMove b,src,dst then res.push [src,dst]
+				if legalMove b,src,dst
+					if b[dst].length == 0 
+						if used then continue
+						used = true
+					res.push [src,dst]
 	res
 
-makeKey = (b) -> # kanske 4-11 bör sorteras först
+makeKey = (b) -> 
+	# kanske 4-11 bör sorteras först
+	# följande kod medför hängning senare:
+	# a = b.slice 0,4
+	# c = b.slice 4,12
+	# d = b.slice 12,20
+	# c.sort()
+	# b = a.concat(c).concat(d)
+
 	res = ''
 	for heap,index in b
-		for [suit,r1,r2] in heap
+		if heap.length==0
+			res += '.'
+		for card in heap
+			[suit,r1,r2] = unpack card
 			if r1==r2
 				res += 'chsd'[suit] + RANK[r1]
 			else
 				res += 'chsd'[suit] + RANK[r1] + RANK[r2]
-		res += ' '
+		res += '|'
+	#print res 
 	res 
+
+calcAntal = (lst) ->
+	res=0
+	for card in lst
+		[suit,unvisible,visible] = unpack card
+		#print 'antal',card,suit,unvisible,visible
+		res += 1 + abs(unvisible-visible)
+	#print res
+	res
 
 countAceCards = (b) ->
 	res	= 0
@@ -277,7 +316,9 @@ expand = ([aceCards,level,b]) ->
 		makeMove b1,src,dst
 		key = makeKey b1
 		if key not of hash
+			#print level,key
 			hash[key] = [src,dst,b]
+			#print [countAceCards(b1), level+1, b1]
 			res.push [countAceCards(b1), level+1, b1] 
 	res
 
@@ -310,6 +351,9 @@ newGame = (key) ->
 		level = cand[1]
 		print nr,aceCards,level
 		if aceCards == N*4
+			print 'heapsize',_.size(hash)
+			#for key of hash
+			#	print key,hash[key]
 			print JSON.stringify(originalBoard)
 			board = cand[2]
 			printSolution hash,board
@@ -339,9 +383,12 @@ keyPressed = ->
 	if key == ' ' then nextLevel()
 	display board
 		
-prettyCard = ([suit,unvisible,visible],antal=2) ->
+prettyCard = (card,antal=2) ->
+	[suit,unvisible,visible] = unpack card 
 	if antal==1 then "#{RANK[visible]}"
 	else "#{SUIT[suit]} #{RANK[visible]}"
+assert "diamond 3", prettyCard pack(3,2)
+assert "3", prettyCard pack(3,2),1
 
 prettyMove = (src,dst,b) ->
 	c1 = _.last b[src]

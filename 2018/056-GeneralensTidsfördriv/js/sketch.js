@@ -24,6 +24,7 @@ var ACES,
     SUIT,
     W,
     aceCards,
+    assert,
     autoShake,
     backs,
     board,
@@ -52,6 +53,7 @@ var ACES,
     newGame,
     nextLevel,
     originalBoard,
+    pack,
     preload,
     prettyCard,
     prettyMove,
@@ -65,6 +67,7 @@ var ACES,
     start,
     timing,
     undoMove,
+    unpack,
     w,
     indexOf = [].indexOf;
 
@@ -133,6 +136,12 @@ preload = function preload() {
 
 range = _.range;
 
+assert = function assert(a, b) {
+  var msg = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'Assert failure';
+
+  return chai.assert.deepEqual(a, b, msg);
+};
+
 compress = function compress(board) {
   var h1, h2, heap, i, j, l, len, len1, ref, res, results, suit1, suit2, temp, v1, v2;
   results = [];
@@ -144,25 +153,28 @@ compress = function compress(board) {
       ref = range(1, board[heap].length);
       for (l = 0, len1 = ref.length; l < len1; l++) {
         i = ref[l];
-        var _temp = temp;
 
-        var _temp2 = _slicedToArray(_temp, 3);
+        var _unpack = unpack(temp);
 
-        suit1 = _temp2[0];
-        h1 = _temp2[1];
-        v1 = _temp2[2];
+        var _unpack2 = _slicedToArray(_unpack, 3);
 
-        var _board$heap$i = _slicedToArray(board[heap][i], 3);
+        suit1 = _unpack2[0];
+        h1 = _unpack2[1];
+        v1 = _unpack2[2];
 
-        suit2 = _board$heap$i[0];
-        h2 = _board$heap$i[1];
-        v2 = _board$heap$i[2];
+        var _unpack3 = unpack(board[heap][i]);
+
+        var _unpack4 = _slicedToArray(_unpack3, 3);
+
+        suit2 = _unpack4[0];
+        h2 = _unpack4[1];
+        v2 = _unpack4[2];
 
         if (suit1 === suit2 && 1 === abs(v1 - h2)) {
-          temp = [suit1, h1, v2];
+          temp = pack(suit1, h1, v2);
         } else {
           res.push(temp);
-          temp = [suit2, h2, v2];
+          temp = pack(suit2, h2, v2);
         }
       }
       res.push(temp);
@@ -174,17 +186,58 @@ compress = function compress(board) {
   return results;
 };
 
+// suit är nollbaserad
+// rank1 är nollbaserad
+// rank2 är nollbaserad
+// I talet räknas rank1 och rank2 upp
+pack = function pack(suit, rank1) {
+  var rank2 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : rank1;
+
+  if (rank1 === rank2) {
+    rank2 = -1;
+  }
+  return suit + 10 * (rank1 + 1) + 1000 * (rank2 + 1); // rank=1..13 suit=0..3 
+};
+
+assert(10, pack(0, 0)); // club A
+
+assert(13, pack(3, 0)); // diamond A
+
+assert(23, pack(3, 1, 1)); // diamond 2
+
+assert(12111, pack(1, 10, 11)); // heart J,Q
+
+assert(111, pack(1, 10, 10)); // heart J,J
+
+unpack = function unpack(n) {
+  var rank1, rank2, suit;
+  suit = n % 10;
+  rank1 = Math.floor(n / 10) % 100;
+  rank2 = Math.floor(n / 1000);
+  if (rank2 === 0) {
+    rank2 = rank1;
+  }
+  return [suit, rank1 - 1, rank2 - 1];
+};
+
+assert([0, 0, 0], unpack(10));
+
+assert([3, 0, 0], unpack(13));
+
+assert([1, 10, 11], unpack(12111));
+
 makeBoard = function makeBoard(maxRank, classic) {
   var card, heap, i, j, l, len, len1, len2, len3, len4, len5, m, o, p, q, rank, ref, ref1, ref2, ref3, suit;
   N = maxRank;
   cards = [];
-  ref = range(1, maxRank);
+  ref = range(4);
   for (j = 0, len = ref.length; j < len; j++) {
-    rank = ref[j];
-    ref1 = range(4);
+    suit = ref[j];
+    ref1 = range(1, maxRank);
+    // 2..K
     for (l = 0, len1 = ref1.length; l < len1; l++) {
-      suit = ref1[l];
-      cards.push([suit, rank, rank]);
+      rank = ref1[l];
+      cards.push(pack(suit, rank));
     }
   }
   cards = _.shuffle(cards);
@@ -197,7 +250,7 @@ makeBoard = function makeBoard(maxRank, classic) {
   ref3 = range(4);
   for (heap = o = 0, len3 = ref3.length; o < len3; heap = ++o) {
     suit = ref3[heap];
-    board[heap].push([suit, 0, 0]);
+    board[heap].push(pack(suit, 0)); // Ess
   }
   for (p = 0, len4 = PANEL.length; p < len4; p++) {
     heap = PANEL[p];
@@ -210,21 +263,9 @@ makeBoard = function makeBoard(maxRank, classic) {
   return compress(board);
 };
 
+//print board 
 fakeBoard = function fakeBoard() {
-  //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,2,2],[1,3,3],[1,1,1],[3,1,1],[3,2,2]],[[0,4,4],[0,12,12],[3,5,5],[1,8,8],[3,9,9]],[[2,11,11],[3,12,12],[0,6,6],[2,5,5],[1,7,7]],[[0,8,8],[3,11,11],[2,6,6],[2,9,9],[1,12,12]],[[0,9,9],[0,10,10],[2,10,10],[2,4,4],[2,7,7]],[[1,2,2],[3,4,4],[3,6,6],[0,5,5],[1,11,11]],[[0,1,1],[0,7,7],[1,10,10],[1,5,5],[3,8,8]],[[0,3,3],[1,4,4],[3,3,3],[2,2,2],[3,10,10]],[[0,11,11]],[[3,7,7]],[[2,1,1]],[[2,8,8]],[],[[1,6,6]],[[2,3,3]],[[2,12,12]],[[1,9,9]]] # nix!
-  //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[0,10,10],[2,11,11],[0,6,6],[3,9,9],[1,8,8]],[[3,10,10],[2,10,10],[0,12,12],[0,4,4],[3,1,1]],[[3,12,12],[1,3,3],[1,4,4],[1,9,9],[0,2,2]],[[3,4,4],[3,5,5],[2,5,5],[2,9,9],[2,3,3]],[[3,6,6],[1,7,7],[0,5,5],[2,7,7],[3,8,8]],[[2,4,4],[0,9,9],[1,2,2],[3,11,11],[1,6,6]],[[2,8,8],[2,1,1],[2,2,2],[1,10,10],[3,3,3]],[[1,1,1],[1,11,11],[1,12,12],[3,7,7],[2,12,12]],[[0,11,11]],[[3,2,2]],[[1,5,5]],[[0,8,8]],[],[[2,6,6]],[[0,3,3]],[[0,1,1]],[[0,7,7]]] # 851 ms
-  //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[2,3,3],[2,12,12],[2,11,11],[3,10,10],[1,7,7]],[[1,11,11],[0,5,5],[2,9,9],[3,12,12],[1,5,5]],[[0,12,12],[3,8,8],[1,9,9],[0,6,6],[1,6,6]],[[3,1,1],[2,7,7],[0,8,8],[0,7,7],[1,3,3]],[[1,8,8],[0,9,9],[2,10,10],[3,9,9],[1,4,4]],[[1,12,12],[3,2,2],[3,3,3],[3,4,4],[1,2,2]],[[3,6,6],[2,1,1],[0,2,2],[2,8,8],[0,3,3]],[[1,1,1],[3,7,7],[2,6,6],[3,11,11],[0,1,1]],[[2,5,5]],[[2,2,2]],[[1,10,10]],[[2,4,4]],[],[[3,5,5]],[[0,10,10]],[[0,11,11]],[[0,4,4]]] # 963 ms
-  //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[3,12,12],[3,9,9],[2,5,5],[3,2,2],[1,10,10]],[[0,1,1],[0,10,10],[2,4,4],[1,3,3],[3,7,7]],[[0,3,3],[0,11,11],[2,7,7],[3,8,8],[1,2,2]],[[0,5,5],[2,6,6],[0,6,6],[3,3,3],[1,5,5]],[[0,4,4],[3,5,5],[0,2,2],[3,10,10],[2,2,2]],[[2,10,10],[0,12,12],[2,1,1],[2,11,11],[0,9,9]],[[3,4,4],[1,7,7],[1,6,6],[2,12,12],[1,8,8]],[[1,1,1],[1,12,12],[1,11,11],[1,4,4],[2,3,3]],[[0,8,8]],[[3,11,11]],[[2,9,9]],[[0,7,7]],[],[[3,1,1]],[[2,8,8]],[[3,6,6]],[[1,9,9]]] # 264 ms
-  //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[1,1,1],[0,12,12],[3,3,3],[2,7,7],[3,11,11]],[[2,11,11],[2,8,8],[3,6,6],[0,1,1],[0,6,6]],[[1,8,8],[1,6,6],[0,3,3],[1,3,3],[0,7,7]],[[0,11,11],[1,10,10],[3,12,12],[1,11,11],[1,2,2]],[[0,4,4],[3,2,2],[2,2,2],[3,7,7],[0,5,5]],[[2,5,5],[2,9,9],[3,8,8],[3,9,9],[2,4,4]],[[2,10,10],[0,9,9],[1,12,12],[3,4,4],[3,10,10]],[[2,12,12],[3,5,5],[1,4,4],[2,1,1],[0,2,2]],[[1,5,5]],[[0,10,10]],[[0,8,8]],[[1,9,9]],[],[[3,1,1]],[[1,7,7]],[[2,6,6]],[[2,3,3]]] # 397 ms
-  board = [[[2, 0, 0]], [[1, 0, 0]], [[3, 0, 0]], [[0, 0, 0]], [[0, 2, 2], [2, 4, 4], [2, 10, 10], [2, 5, 5], [1, 1, 1], [3, 12, 12], [2, 12, 12], [3, 11, 11], [1, 8, 8], [1, 6, 6]], [[3, 9, 9], [2, 11, 11], [0, 12, 12], [0, 3, 3], [3, 10, 10]], [[3, 3, 3], [0, 9, 9]], [[2, 7, 7], [1, 4, 4], [3, 2, 2], [1, 9, 9], [0, 6, 6], [1, 5, 5], [0, 1, 1]], [[1, 3, 3], [1, 2, 2], [2, 2, 2], [2, 6, 6], [1, 11, 11]], [[3, 7, 7], [2, 8, 8], [1, 7, 7], [3, 1, 1], [0, 8, 8]], [[2, 3, 3], [3, 5, 5], [3, 6, 6]], [[1, 12, 12], [3, 4, 4], [0, 5, 5]], [[0, 7, 7]], [[3, 8, 8]], [[1, 10, 10]], [[0, 11, 11]], [], [[0, 4, 4]], [[0, 10, 10]], [[2, 1, 1]], [[2, 9, 9]]];
-  board = [[[2, 0, 0]], [[1, 0, 0]], [[3, 0, 0]], [[0, 0, 0]], [[2, 7, 7], [0, 8, 8], [0, 2, 2], [0, 5, 5]], [[2, 9, 9], [1, 5, 5], [0, 3, 3], [2, 11, 11], [1, 10, 10]], [[2, 2, 2], [1, 8, 8]], [[1, 11, 11], [2, 6, 6], [2, 10, 10], [2, 5, 5], [3, 3, 3], [1, 1, 1]], [[3, 2, 2], [3, 12, 12], [2, 3, 3], [1, 7, 7], [3, 4, 4], [3, 11, 11]], [[3, 8, 8], [0, 10, 10], [3, 7, 7], [0, 12, 12], [1, 3, 3], [0, 9, 9], [1, 12, 12]], [[0, 7, 7], [2, 12, 12], [0, 6, 6], [3, 9, 9]], [[1, 2, 2], [0, 4, 4], [1, 6, 6], [2, 4, 4], [1, 4, 4], [1, 9, 9]], [[3, 6, 6]], [[2, 8, 8]], [[2, 1, 1]], [[3, 10, 10]], [], [[0, 11, 11]], [[0, 1, 1]], [[3, 1, 1]], [[3, 5, 5 // 118 ms
-  ]]];
-  //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[3,3,3],[2,3,3],[0,6,6],[3,5,5],[0,9,9],[2,10,10],[1,10,10]],[[0,10,10],[0,7,7],[3,8,8],[2,11,11]],[[0,12,12],[3,7,7],[2,1,1],[2,8,8],[1,7,7]],[[1,4,4],[2,5,5],[2,6,6],[1,2,2],[0,1,1],[2,2,2],[3,11,11],[2,7,7]],[[3,6,6],[3,9,9],[0,4,4],[3,4,4],[1,8,8]],[[0,3,3],[3,12,12],[1,11,11]],[[2,4,4],[0,2,2],[3,10,10],[0,8,8]],[[1,5,5],[2,9,9],[1,6,6],[1,1,1]],[[0,5,5]],[[0,11,11]],[[2,12,12]],[[1,3,3]],[],[[1,12,12]],[[1,9,9]],[[3,1,1]],[[3,2,2]]]
-  board = [[[2, 0, 0]], [[1, 0, 0]], [[3, 0, 0]], [[0, 0, 0]], [[0, 7, 7], [1, 10, 10], [0, 1, 1], [0, 2, 2], [2, 7, 7]], [[2, 1, 1], [2, 8, 8], [1, 3, 3], [1, 7, 7], [3, 11, 11]], [[2, 2, 2], [3, 6, 6], [3, 8, 8], [2, 4, 4], [0, 3, 3]], [[3, 1, 1], [0, 5, 5], [3, 2, 2], [2, 3, 3], [1, 2, 2]], [[3, 4, 4], [2, 10, 10], [1, 11, 11], [0, 11, 11], [2, 5, 5]], [[3, 9, 9], [0, 6, 6], [2, 11, 11], [0, 10, 10], [3, 12, 12]], [[1, 9, 9], [1, 12, 12], [0, 4, 4], [1, 6, 6], [2, 6, 6]], [[1, 1, 1], [2, 12, 12], [1, 5, 5], [3, 7, 7], [1, 8, 8]], [[3, 10, 10]], [[0, 9, 9]], [[3, 3, 3]], [[0, 12, 12]], [], [[2, 9, 9]], [[0, 8, 8]], [[1, 4, 4]], [[3, 5, 5]]];
-  board = [[[2, 0, 0]], [[1, 0, 0]], [[3, 0, 0]], [[0, 0, 0]], [[3, 9, 9], [0, 4, 4], [3, 5, 5], [0, 7, 7], [1, 5, 5]], [[1, 10, 10], [3, 7, 7], [0, 6, 6], [3, 11, 11], [3, 8, 8]], [[2, 2, 2], [3, 1, 1], [1, 1, 1], [1, 9, 9], [0, 9, 9]], [[1, 2, 2], [2, 7, 7], [1, 6, 6], [3, 6, 6], [3, 3, 3]], [[1, 7, 7], [2, 3, 3], [0, 1, 1], [2, 1, 1], [0, 3, 3]], [[2, 8, 8], [1, 11, 11], [2, 6, 6], [0, 10, 10], [3, 4, 4]], [[2, 5, 5], [2, 12, 12], [3, 10, 10], [0, 2, 2], [1, 8, 8]], [[2, 11, 11], [2, 9, 9], [0, 12, 12], [3, 12, 12], [1, 4, 4]], [[1, 12, 12]], [[0, 5, 5]], [[2, 10, 10]], [[3, 2, 2]], [], [[1, 3, 3]], [[2, 4, 4]], [[0, 11, 11]], [[0, 8, 8]]];
-  //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[2,10,10],[2,12,12],[1,8,8],[1,12,12],[3,3,3]],[[1,2,2],[0,5,5]],[[3,12,12],[2,4,4],[3,8,8],[1,5,5],[0,8,8]],[[1,11,11],[0,1,1],[0,4,4]],[[1,7,7],[1,3,3],[0,10,10],[3,4,4],[2,1,1],[3,11,11]],[[2,9,9],[2,5,5],[1,6,6],[2,2,2],[1,1,1],[0,3,3]],[[2,6,6],[2,3,3],[3,1,2],[0,2,2],[1,9,9],[3,7,7],[3,10,10],[0,11,11],[2,7,7]],[[2,8,8],[3,6,6],[1,10,10]],[[0,6,6]],[[3,5,5]],[[3,9,9]],[[0,12,12]],[],[[2,11,11]],[[0,9,9]],[[1,4,4]],[[0,7,7]]]
-  //board = [[[2,0,0]],[[1,0,0]],[[3,0,0]],[[0,0,0]],[[2,11,11],[1,6,6],[1,8,8],[2,4,4],[1,4,4],[3,9,9],[0,10,10],[2,9,9]],[[0,5,5],[0,11,11],[0,6,6]],[[0,2,2],[2,5,5],[2,1,1],[0,3,3]],[[2,8,8],[2,3,3],[1,9,9],[3,10,10],[0,4,4],[0,1,1],[0,12,12],[2,6,6],[1,12,12]],[[3,5,4],[3,11,11],[1,3,3],[3,6,6],[1,10,10],[3,8,8]],[[0,8,8]],[[1,1,1],[1,11,11]],[[1,7,7],[2,2,2],[1,2,2],[3,3,3],[3,1,2]],[[1,5,5]],[[0,7,7]],[[2,10,10]],[[3,7,7]],[],[[2,12,12]],[[0,9,9]],[[3,12,12]],[[2,7,7]]] # 68000
-  return board = [[[0, 0, 0]], [[1, 0, 0]], [[2, 0, 0]], [[3, 0, 0]], [[0, 10, 10], [2, 8, 8], [0, 1, 1], [3, 10, 10], [2, 6, 6]], [[0, 4, 4], [3, 8, 9], [1, 8, 8], [0, 9, 9]], [[3, 3, 3], [1, 2, 2], [3, 11, 11], [2, 10, 10], [2, 2, 2]], [[1, 9, 9], [1, 3, 3], [1, 6, 6], [2, 9, 9], [3, 7, 7]], [[1, 7, 7], [1, 5, 5], [3, 2, 1], [2, 7, 7]], [[3, 6, 6], [1, 11, 11], [0, 11, 11], [1, 1, 1], [2, 11, 11]], [[2, 1, 1], [0, 5, 7], [3, 4, 4]], [[2, 3, 3], [0, 2, 2], [1, 4, 4], [3, 5, 5], [2, 5, 5]], [], [], [[1, 10, 10]], [[0, 3, 3]], [[0, 8, 8]], [[2, 4, 4]], [], []];
+  return board = [[10], [11], [12], [13], [], [], [], [], [], [], [], [], [21], [33], [23], [31], [30], [22], [32], [20]];
 };
 
 makeAutoShake = function makeAutoShake() {
@@ -264,13 +305,14 @@ showHeap = function showHeap(board, heap, x, y, dx) {
   ref = board[heap];
   for (k = j = 0, len = ref.length; j < len; k = ++j) {
     card = ref[k];
-    var _card = card;
 
-    var _card2 = _slicedToArray(_card, 3);
+    var _unpack5 = unpack(card);
 
-    suit = _card2[0];
-    unvisible = _card2[1];
-    visible = _card2[2];
+    var _unpack6 = _slicedToArray(_unpack5, 3);
+
+    suit = _unpack6[0];
+    unvisible = _unpack6[1];
+    visible = _unpack6[2];
 
     dr = unvisible < visible ? 1 : -1;
     ref1 = range(unvisible, visible + dr, dr);
@@ -288,7 +330,17 @@ showHeap = function showHeap(board, heap, x, y, dx) {
       x += dx;
     }
   }
-  if (indexOf.call(ACES, heap) >= 0 && card[2] === N - 1) {
+  card = _.last(board[heap]);
+
+  var _unpack7 = unpack(card);
+
+  var _unpack8 = _slicedToArray(_unpack7, 3);
+
+  suit = _unpack8[0];
+  unvisible = _unpack8[1];
+  visible = _unpack8[2];
+
+  if (indexOf.call(ACES, heap) >= 0 && visible === N - 1) {
     var _ref3 = shake ? autoShake[13 * suit + rank] : [0, 0];
 
     var _ref4 = _slicedToArray(_ref3, 2);
@@ -298,21 +350,6 @@ showHeap = function showHeap(board, heap, x, y, dx) {
 
     return image(backs, x0 + x, y0 + y + 13, w, h, OFFSETX + 860, 1092 + 622, 243, H);
   }
-};
-
-calcAntal = function calcAntal(lst) {
-  var j, len, res, suit, unvisible, visible;
-  res = 0;
-  for (j = 0, len = lst.length; j < len; j++) {
-    var _lst$j = _slicedToArray(lst[j], 3);
-
-    suit = _lst$j[0];
-    unvisible = _lst$j[1];
-    visible = _lst$j[2];
-
-    res += 1 + abs(unvisible - visible);
-  }
-  return res;
 };
 
 display = function display(board) {
@@ -380,21 +417,21 @@ legalMove = function legalMove(board, a, b) {
     return true;
   }
 
-  var _$last = _.last(board[a]);
+  var _unpack9 = unpack(_.last(board[a]));
 
-  var _$last2 = _slicedToArray(_$last, 3);
+  var _unpack10 = _slicedToArray(_unpack9, 3);
 
-  sa = _$last2[0];
-  a1 = _$last2[1];
-  a2 = _$last2[2];
+  sa = _unpack10[0];
+  a1 = _unpack10[1];
+  a2 = _unpack10[2];
 
-  var _$last3 = _.last(board[b]);
+  var _unpack11 = unpack(_.last(board[b]));
 
-  var _$last4 = _slicedToArray(_$last3, 3);
+  var _unpack12 = _slicedToArray(_unpack11, 3);
 
-  sb = _$last4[0];
-  b1 = _$last4[1];
-  b2 = _$last4[2];
+  sb = _unpack12[0];
+  b1 = _unpack12[1];
+  b2 = _unpack12[2];
 
   if (sa === sb && abs(a2 - b2) === 1) {
     return true;
@@ -404,23 +441,29 @@ legalMove = function legalMove(board, a, b) {
 
 makeMove = function makeMove(board, a, b, record) {
   // from heap a to heap b
-  var suit, unvisible, visible;
+  var suit, unvisible, visible, xx, yy;
 
   // reverse order
-  var _board$a$pop = board[a].pop();
+  var _unpack13 = unpack(board[a].pop());
 
-  var _board$a$pop2 = _slicedToArray(_board$a$pop, 3);
+  var _unpack14 = _slicedToArray(_unpack13, 3);
 
-  suit = _board$a$pop2[0];
-  visible = _board$a$pop2[1];
-  unvisible = _board$a$pop2[2];
+  suit = _unpack14[0];
+  visible = _unpack14[1];
+  unvisible = _unpack14[2];
   if (record) {
     hist.push([a, b, 1 + abs(unvisible - visible)]);
   }
   if (board[b].length > 0) {
-    unvisible = board[b].pop()[1];
+    var _unpack15 = unpack(board[b].pop());
+
+    var _unpack16 = _slicedToArray(_unpack15, 3);
+
+    xx = _unpack16[0];
+    unvisible = _unpack16[1];
+    yy = _unpack16[2];
   }
-  return board[b].push([suit, unvisible, visible]);
+  return board[b].push(pack(suit, unvisible, visible));
 };
 
 undoMove = function undoMove(_ref5) {
@@ -431,23 +474,23 @@ undoMove = function undoMove(_ref5) {
 
   var suit, unvisible, visible;
 
-  var _board$b$pop = board[b].pop();
+  var _unpack17 = unpack(board[b].pop());
 
-  var _board$b$pop2 = _slicedToArray(_board$b$pop, 3);
+  var _unpack18 = _slicedToArray(_unpack17, 3);
 
-  suit = _board$b$pop2[0];
-  unvisible = _board$b$pop2[1];
-  visible = _board$b$pop2[2];
+  suit = _unpack18[0];
+  unvisible = _unpack18[1];
+  visible = _unpack18[2];
 
   if (unvisible < visible) {
-    board[a].push([suit, visible, visible - antal + 1]);
+    board[a].push(pack(suit, visible, visible - antal + 1));
     if (visible !== unvisible + antal - 1) {
-      return board[b].push([suit, unvisible, visible - antal]);
+      return board[b].push(pack(suit, unvisible, visible - antal));
     }
   } else {
-    board[a].push([suit, visible, visible + antal - 1]);
+    board[a].push(pack(suit, visible, visible + antal - 1));
     if (unvisible !== visible + antal - 1) {
-      return board[b].push([suit, unvisible, visible + antal]);
+      return board[b].push(pack(suit, unvisible, visible + antal));
     }
   }
 };
@@ -508,21 +551,31 @@ mousePressed = function mousePressed() {
   if (4 * N === countAceCards(board)) {
     timing = Math.floor((millis() - start) / 1000);
   }
+  //srcCards = calcSrcCards board
   return display(board);
 };
 
 //###### AI-section ########
+
+//calcSrcCards 
 findAllMoves = function findAllMoves(b) {
-  var dst, j, l, len, len1, res, src;
+  var dst, j, l, len, len1, res, src, used;
   srcs = HEAPS.concat(PANEL);
   dsts = ACES.concat(HEAPS);
   res = [];
   for (j = 0, len = srcs.length; j < len; j++) {
     src = srcs[j];
+    used = false;
     for (l = 0, len1 = dsts.length; l < len1; l++) {
       dst = dsts[l];
       if (src !== dst) {
         if (legalMove(b, src, dst)) {
+          if (b[dst].length === 0) {
+            if (used) {
+              continue;
+            }
+            used = true;
+          }
           res.push([src, dst]);
         }
       }
@@ -532,17 +585,31 @@ findAllMoves = function findAllMoves(b) {
 };
 
 makeKey = function makeKey(b) {
+  var card, heap, index, j, l, len, len1, r1, r2, res, suit;
+
   // kanske 4-11 bör sorteras först
-  var heap, index, j, l, len, len1, r1, r2, res, suit;
+  // följande kod medför hängning senare:
+  // a = b.slice 0,4
+  // c = b.slice 4,12
+  // d = b.slice 12,20
+  // c.sort()
+  // b = a.concat(c).concat(d)
   res = '';
   for (index = j = 0, len = b.length; j < len; index = ++j) {
     heap = b[index];
+    if (heap.length === 0) {
+      res += '.';
+    }
     for (l = 0, len1 = heap.length; l < len1; l++) {
-      var _heap$l = _slicedToArray(heap[l], 3);
+      card = heap[l];
 
-      suit = _heap$l[0];
-      r1 = _heap$l[1];
-      r2 = _heap$l[2];
+      var _unpack19 = unpack(card);
+
+      var _unpack20 = _slicedToArray(_unpack19, 3);
+
+      suit = _unpack20[0];
+      r1 = _unpack20[1];
+      r2 = _unpack20[2];
 
       if (r1 === r2) {
         res += 'chsd'[suit] + RANK[r1];
@@ -550,8 +617,29 @@ makeKey = function makeKey(b) {
         res += 'chsd'[suit] + RANK[r1] + RANK[r2];
       }
     }
-    res += ' ';
+    res += '|';
   }
+  //print res 
+  return res;
+};
+
+calcAntal = function calcAntal(lst) {
+  var card, j, len, res, suit, unvisible, visible;
+  res = 0;
+  for (j = 0, len = lst.length; j < len; j++) {
+    card = lst[j];
+
+    //print 'antal',card,suit,unvisible,visible
+    var _unpack21 = unpack(card);
+
+    var _unpack22 = _slicedToArray(_unpack21, 3);
+
+    suit = _unpack22[0];
+    unvisible = _unpack22[1];
+    visible = _unpack22[2];
+    res += 1 + abs(unvisible - visible);
+  }
+  //print res
   return res;
 };
 
@@ -584,7 +672,9 @@ expand = function expand(_ref7) {
     makeMove(b1, src, dst);
     key = makeKey(b1);
     if (!(key in hash)) {
+      //print level,key
       hash[key] = [src, dst, b];
+      //print [countAceCards(b1), level+1, b1]
       res.push([countAceCards(b1), level + 1, b1]);
     }
   }
@@ -629,6 +719,9 @@ newGame = function newGame(key) {
     level = cand[1];
     print(nr, aceCards, level);
     if (aceCards === N * 4) {
+      print('heapsize', _.size(hash));
+      //for key of hash
+      //	print key,hash[key]
       print(JSON.stringify(originalBoard));
       board = cand[2];
       printSolution(hash, board);
@@ -675,13 +768,18 @@ keyPressed = function keyPressed() {
   return display(board);
 };
 
-prettyCard = function prettyCard(_ref9) {
-  var _ref10 = _slicedToArray(_ref9, 3),
-      suit = _ref10[0],
-      unvisible = _ref10[1],
-      visible = _ref10[2];
-
+prettyCard = function prettyCard(card) {
   var antal = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2;
+
+  var suit, unvisible, visible;
+
+  var _unpack23 = unpack(card);
+
+  var _unpack24 = _slicedToArray(_unpack23, 3);
+
+  suit = _unpack24[0];
+  unvisible = _unpack24[1];
+  visible = _unpack24[2];
 
   if (antal === 1) {
     return "" + RANK[visible];
@@ -689,6 +787,10 @@ prettyCard = function prettyCard(_ref9) {
     return SUIT[suit] + " " + RANK[visible];
   }
 };
+
+assert("diamond 3", prettyCard(pack(3, 2)));
+
+assert("3", prettyCard(pack(3, 2), 1));
 
 prettyMove = function prettyMove(src, dst, b) {
   var c1, c2;
