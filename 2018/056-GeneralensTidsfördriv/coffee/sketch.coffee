@@ -171,16 +171,21 @@ display = (board) ->
 	textAlign CENTER,CENTER
 	textSize 10
 
-	x = width/2-5
+	x = width/2-5+2
 	y = height-110
 
 	fill 200
 	text 'U = Undo',          x,y
 	text 'R = Restart',       x,y+10
-	text '3 4 5 6 = Easy',    x,y+20
-	text '7 8 9 = Medium',    x,y+30
-	text 'T J Q K = Hard',    x,y+40
-	text 'C = Classic',       x,y+50
+
+	# text '3 4 5 6 = Easy',    x,y+20
+	# text '7 8 9 = Medium',    x,y+30
+	# text 'T J Q K = Hard',    x,y+40
+
+	text '3 4 5 6 7 8 9 T J Q K',    x,y+20
+	text 'Easy    Level    Hard',    x,y+30
+
+	text 'C = Classic',       x,y+40
 	text 'Space = Next',      x,y+60
 	text "H = Hint (#{hintsLeft} left)", x,y+70
 
