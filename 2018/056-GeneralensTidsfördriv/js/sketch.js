@@ -52,6 +52,7 @@ var ACES,
     makeBoard,
     makeKey,
     makeMove,
+    maxHints,
     mousePressed,
     msg,
     newGame,
@@ -133,6 +134,8 @@ srcs = null;
 dsts = null;
 
 hintsLeft = null;
+
+maxHints = null;
 
 preload = function preload() {
   faces = loadImage('cards/Color_52_Faces_v.2.0.png');
@@ -425,8 +428,8 @@ display = function display(board) {
   text('U = Undo', x, y);
   text('R = Restart', x, y + 10);
   text('3 4 5 6 = Easy', x, y + 20);
-  text('7 8 9 T = Medium', x, y + 30);
-  text('J Q K = Hard', x, y + 40);
+  text('7 8 9 = Medium', x, y + 30);
+  text('T J Q K = Hard', x, y + 40);
   text('C = Classic', x, y + 50);
   text('Space = Next', x, y + 60);
   text("H = Hint (" + hintsLeft + " left)", x, y + 70);
@@ -610,12 +613,12 @@ mousePressed = function mousePressed() {
     }
   }
   if (4 * N === countAceCards(board)) {
-    if (hintsLeft === 3) {
+    if (hintsLeft === maxHints) {
       msg = Math.floor((millis() - start) / 1000) + " seconds";
-    } else if (hintsLeft === 2) {
+    } else if (hintsLeft === maxHints - 1) {
       msg = "1 hint used";
     } else {
-      msg = 3 - hintsLeft + " hints used";
+      msg = maxHints - hintsLeft + " hints used";
     }
   }
   return display(board);
@@ -801,7 +804,6 @@ hintOne = function hintOne() {
 newGame = function newGame(key) {
   var cand, increment, level, nr;
   start = millis();
-  hintsLeft = 3;
   msg = '';
   hist = [];
   classic = key === 'C';
@@ -812,6 +814,8 @@ newGame = function newGame(key) {
     if (indexOf.call('C', key) >= 0) {
       makeBoard(13, classic);
     }
+    maxHints = N;
+    hintsLeft = maxHints;
     originalBoard = _.cloneDeep(board);
     aceCards = countAceCards(board);
     cands = [];

@@ -41,6 +41,7 @@ classic = false
 srcs = null
 dsts = null
 hintsLeft = null
+maxHints = null
 
 preload = -> 
 	faces = loadImage 'cards/Color_52_Faces_v.2.0.png'
@@ -177,8 +178,8 @@ display = (board) ->
 	text 'U = Undo',          x,y
 	text 'R = Restart',       x,y+10
 	text '3 4 5 6 = Easy',    x,y+20
-	text '7 8 9 T = Medium',  x,y+30
-	text 'J Q K = Hard',      x,y+40
+	text '7 8 9 = Medium',    x,y+30
+	text 'T J Q K = Hard',    x,y+40
 	text 'C = Classic',       x,y+50
 	text 'Space = Next',      x,y+60
 	text "H = Hint (#{hintsLeft} left)", x,y+70
@@ -265,12 +266,12 @@ mousePressed = ->
 				break 
 
 	if 4*N == countAceCards board 
-		if hintsLeft==3
+		if hintsLeft == maxHints
 			msg = "#{(millis() - start) // 1000} seconds"
-		else if hintsLeft==2
+		else if hintsLeft == maxHints-1
 			msg = "1 hint used"
 		else
-			msg = "#{3-hintsLeft} hints used"
+			msg = "#{maxHints - hintsLeft} hints used"
 
 	display board
 
@@ -374,14 +375,14 @@ hintOne = ->
 
 newGame = (key) ->
 	start = millis()
-	hintsLeft = 3
 	msg = ''
 	hist = []
 	classic = key=='C'
 	while true 
 		if key in '3456789TJQK' then makeBoard 3+'3456789TJQK'.indexOf(key),classic
 		if key in 'C' then makeBoard 13,classic
-
+		maxHints = N
+		hintsLeft = maxHints
 		originalBoard = _.cloneDeep board
 
 		aceCards = countAceCards board		
