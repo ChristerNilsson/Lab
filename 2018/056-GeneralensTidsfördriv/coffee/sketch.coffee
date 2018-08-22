@@ -375,7 +375,7 @@ hintOne = ->
 newGame = (key) ->
 	start = millis()
 	hintsLeft = 3
-	timing = null
+	msg = ''
 	hist = []
 	classic = key=='C'
 	while true 

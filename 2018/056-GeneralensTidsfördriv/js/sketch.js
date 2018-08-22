@@ -799,10 +799,10 @@ hintOne = function hintOne() {
 };
 
 newGame = function newGame(key) {
-  var cand, increment, level, nr, timing;
+  var cand, increment, level, nr;
   start = millis();
   hintsLeft = 3;
-  timing = null;
+  msg = '';
   hist = [];
   classic = key === 'C';
   while (true) {
