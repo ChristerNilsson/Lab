@@ -43,6 +43,8 @@ var ACES,
     h,
     hash,
     hint,
+    hintOne,
+    hintsLeft,
     hist,
     keyPressed,
     legalMove,
@@ -51,6 +53,7 @@ var ACES,
     makeKey,
     makeMove,
     mousePressed,
+    msg,
     newGame,
     nextLevel,
     originalBoard,
@@ -66,7 +69,6 @@ var ACES,
     showHeap,
     srcs,
     start,
-    timing,
     undoMove,
     unpack,
     w,
@@ -116,7 +118,7 @@ originalBoard = null;
 
 start = null;
 
-timing = null;
+msg = '';
 
 autoShake = [];
 
@@ -130,7 +132,8 @@ srcs = null;
 
 dsts = null;
 
-//srcCards = null
+hintsLeft = null;
+
 preload = function preload() {
   faces = loadImage('cards/Color_52_Faces_v.2.0.png');
   return backs = loadImage('cards/Playing_Card_Backs.png');
@@ -265,9 +268,8 @@ makeBoard = function makeBoard(maxRank, classic) {
   return compress(board);
 };
 
-//print board 
 fakeBoard = function fakeBoard() {
-  N = 5;
+  N = 13;
   classic = false;
   if (N === 3) {
     board = [[10], [11], [12], [13], [], [], [], [], [], [], [], [], [21], [33], [23], [31], [30], [22], [32], [20] // 3
@@ -295,6 +297,9 @@ fakeBoard = function fakeBoard() {
     board = [[10], [11], [12], [13], [23, 63], [], [20, 72, 50, 21, 51], [31, 73, 22], [53, 41, 61], [33], [], [6070], [62], [42], [71], [30], [43], [40], [32], [52] // 7
     ];
   }
+  if (N === 7) {
+    board = [[10], [11], [12], [13], [53, 33], [30, 72], [40, 42], [23, 73], [60, 22, 63], [], [71, 43, 5041], [61], [50], [52], [21], [62], [70], [20], [31], [32]];
+  }
   if (N === 8) {
     board = [[10], [11], [12], [13], [62, 20, 50, 43, 31, 70], [51, 60, 2033, 72], [52, 22, 81], [83], [73], [30, 63], [41, 40], [], [80], [42], [53], [71], [32], [21], [82], [61] // 8
     ];
@@ -320,11 +325,8 @@ fakeBoard = function fakeBoard() {
     ];
   }
   if (N === 13) {
-    board = [[10], [11], [12], [13], [50, 101, 112, 43, 42], [62, 133, 72, 102, 53], [71, 63, 111, 30, 80], [20, 100, 32, 81, 103], [51, 22, 61, 92, 91], [110, 52, 82, 21, 60], [122, 121, 41, 83, 123], [120, 73, 40, 90, 113], [93], [70], [33], [31], [131], [132], [23], [130] // C
+    return board = [[10], [11], [12], [13], [50, 101, 112, 43, 42], [62, 133, 72, 102, 53], [71, 63, 111, 30, 80], [20, 100, 32, 81, 103], [51, 22, 61, 92, 91], [110, 52, 82, 21, 60], [122, 121, 41, 83, 123], [120, 73, 40, 90, 113], [93], [70], [33], [31], [131], [132], [23], [130] // C
     ];
-  }
-  if (N === 7) {
-    return board = [[10], [11], [12], [13], [53, 33], [30, 72], [40, 42], [23, 73], [60, 22, 63], [], [71, 43, 5041], [61], [50], [52], [21], [62], [70], [20], [31], [32]];
   }
 };
 
@@ -390,14 +392,6 @@ showHeap = function showHeap(board, heap, x, y, dx) {
       x += dx;
     }
   }
-  // # indicator
-  // if heap in srcCards 
-  // 	push()
-  // 	noFill()
-  // 	stroke 255,255,0
-  // 	strokeWeight 2
-  // 	rect x0+x-dx-1,y0+y+12,w-4,h-11
-  // 	pop()
   card = _.last(board[heap]);
 
   var _unpack7 = unpack(card);
@@ -423,7 +417,6 @@ showHeap = function showHeap(board, heap, x, y, dx) {
 display = function display(board) {
   var dx, heap, j, l, len, len1, len2, len3, m, n, o, ref, ref1, results, x, xx, y;
   background(0, 128, 0);
-  //srcCards = calcSrcCards board
   textAlign(CENTER, CENTER);
   textSize(10);
   x = width / 2 - 5;
@@ -436,12 +429,10 @@ display = function display(board) {
   text('J Q K = Hard', x, y + 40);
   text('C = Classic', x, y + 50);
   text('Space = Next', x, y + 60);
-  text('H = Hint', x, y + 70);
-  if (timing !== null) {
-    text(timing + " seconds", x, y + 105);
-  }
+  text("H = Hint (" + hintsLeft + " left)", x, y + 70);
+  text(msg, x, y + 105);
   textSize(24);
-  text(classic ? 'Classic' : LONG[N], x, y + 84);
+  text(classic ? 'Classic' : LONG[N], x, y + 89);
   textAlign(LEFT, CENTER);
   textSize(10);
   text('Generalens Tidsfördriv', 0, height - 5);
@@ -474,7 +465,6 @@ display = function display(board) {
 
 legalMove = function legalMove(board, a, b) {
   var a1, a2, b1, b2, sa, sb;
-  //print 'legalMove',a,b
   if (indexOf.call(ACES, a) >= 0) {
     return false;
   }
@@ -620,28 +610,20 @@ mousePressed = function mousePressed() {
     }
   }
   if (4 * N === countAceCards(board)) {
-    timing = Math.floor((millis() - start) / 1000);
+    if (hintsLeft === 3) {
+      msg = Math.floor((millis() - start) / 1000) + " seconds";
+    } else if (hintsLeft === 2) {
+      msg = "1 hint used";
+    } else {
+      msg = 3 - hintsLeft + " hints used";
+    }
   }
   return display(board);
 };
 
 //###### AI-section ########
-
-// calcSrcCards = (b) ->
-// 	# holes in destinations are NOT included
-// 	srcs = HEAPS.concat PANEL 
-// 	dsts = ACES.concat HEAPS 
-// 	res = []
-// 	for src in srcs
-// 		for dst in dsts
-// 			if src != dst
-// 				if legalMove b,src,dst
-// 					if b[dst].length > 0
-// 						res.push src
-// 	res
 findAllMoves = function findAllMoves(b) {
   var dst, j, l, len, len1, res, src;
-  //print 'findAllMoves',makeKey b 
   srcs = HEAPS.concat(PANEL);
   dsts = ACES.concat(HEAPS);
   res = [];
@@ -656,20 +638,11 @@ findAllMoves = function findAllMoves(b) {
       }
     }
   }
-  //print res 
   return res;
 };
 
 makeKey = function makeKey(b) {
   var card, heap, index, j, l, len, len1, r1, r2, res, suit;
-
-  // kanske 4-11 bör sorteras först
-  // följande kod medför hängning senare:
-  // a = b.slice 0,4
-  // c = b.slice 4,12
-  // d = b.slice 12,20
-  // c.sort()
-  // b = a.concat(c).concat(d)
   res = '';
   for (index = j = 0, len = b.length; j < len; index = ++j) {
     heap = b[index];
@@ -695,7 +668,6 @@ makeKey = function makeKey(b) {
     }
     res += '|';
   }
-  //print res 
   return res;
 };
 
@@ -705,7 +677,6 @@ calcAntal = function calcAntal(lst) {
   for (j = 0, len = lst.length; j < len; j++) {
     card = lst[j];
 
-    //print 'antal',card,suit,unvisible,visible
     var _unpack21 = unpack(card);
 
     var _unpack22 = _slicedToArray(_unpack21, 3);
@@ -713,9 +684,9 @@ calcAntal = function calcAntal(lst) {
     suit = _unpack22[0];
     unvisible = _unpack22[1];
     visible = _unpack22[2];
+
     res += 1 + abs(unvisible - visible);
   }
-  //print res
   return res;
 };
 
@@ -752,10 +723,7 @@ expand = function expand(_ref7) {
     makeMove(b1, src, dst);
     key = makeKey(b1);
     if (!(key in hash)) {
-      //hash[key] = [src,dst,b]
-      //print 'move',move
       newPath = path.concat([move]);
-      //print 'newPath',newPath
       hash[key] = [newPath, b];
       res.push([countAceCards(b1), level + 1, b1, path.concat([move])]);
     }
@@ -763,10 +731,27 @@ expand = function expand(_ref7) {
   return res;
 };
 
-// Försök hitta ett drag som leder till målet. Kan misslyckas.
 hint = function hint() {
-  var cand, dst, increment, nr, origBoard, path, src;
-  print('hint');
+  var antal, res;
+  if (hintsLeft === 0) {
+    return;
+  }
+  hintsLeft--;
+  antal = 0;
+  while (true) {
+    res = hintOne();
+    if (res || hist.length === 0) {
+      print("Undos: " + antal + " res " + res);
+      return;
+    }
+    undoMove(hist.pop());
+    antal++;
+  }
+};
+
+hintOne = function hintOne() {
+  var cand, dst, hintTime, increment, nr, origBoard, path, src;
+  hintTime = millis();
   aceCards = countAceCards(board);
   if (aceCards === N * 4) {
     return;
@@ -804,16 +789,19 @@ hint = function hint() {
     src = _path$[0];
     dst = _path$[1];
 
-    return makeMove(board, src, dst, true);
+    makeMove(board, src, dst, true);
+    print("hint: " + int(millis() - hintTime) + " ms");
+    return true;
   } else {
-    print('failure');
-    return board = origBoard;
+    board = origBoard;
+    return false;
   }
 };
 
 newGame = function newGame(key) {
-  var cand, increment, level, nr;
+  var cand, increment, level, nr, timing;
   start = millis();
+  hintsLeft = 3;
   timing = null;
   hist = [];
   classic = key === 'C';
@@ -832,13 +820,11 @@ newGame = function newGame(key) {
     hash = {};
     nr = 0;
     cand = null;
-    print(LIMIT, N, nr, cands.length, aceCards);
-    print(nr < LIMIT && cands.length > 0 && aceCards < N * 4);
+    //print LIMIT,N,nr,cands.length,aceCards
     while (nr < LIMIT && cands.length > 0 && aceCards < N * 4) {
       nr++;
       cand = cands.pop();
       aceCards = cand[0];
-      //print nr,cands.length,cand
       increment = expand(cand);
       cands = cands.concat(increment);
       cands.sort(function (a, b) {
@@ -849,16 +835,13 @@ newGame = function newGame(key) {
         }
       });
     }
-    //for k of hash
-    //	print hash[k]
     level = cand[1];
     print(nr, aceCards, level);
     if (aceCards === N * 4) {
-      print('heapsize', _.size(hash));
+      //print 'heapsize',_.size(hash)
       print(JSON.stringify(originalBoard));
       board = cand[2];
       printSolution(hash, board);
-      //print cand[3]
       board = _.cloneDeep(originalBoard);
       print(int(millis() - start) + " ms");
       start = millis();
@@ -960,7 +943,6 @@ printSolution = function printSolution(hash, b) {
   solution.reverse();
   s = '';
   for (index = j = 0, len = solution.length; j < len; index = ++j) {
-    //print 'path',path
     var _solution$index = _slicedToArray(solution[index], 2);
 
     path = _solution$index[0];
@@ -977,26 +959,4 @@ printSolution = function printSolution(hash, b) {
   }
   return print(s);
 };
-
-// Sök upp det första draget som leder mot målet.
-// findSolution = (hash, b) ->
-// 	print 'findsolution',makeKey b
-// 	for key of hash
-// 		print key,makeKey hash[key][2]
-
-// 	key = makeKey b
-// 	solution = null
-// 	antal = 0
-// 	while key of hash #and antal < 30
-// 		antal++
-// 		#print antal,key
-// 		[src,dst,b] = hash[key]
-// 		solution = key
-// 		key = makeKey b
-
-// 		# print 'find',key
-// 		# solution = key
-// 		# [src,dst,b] = hash[key]
-// 		# key = makeKey b
-// 	solution
 //# sourceMappingURL=sketch.js.map

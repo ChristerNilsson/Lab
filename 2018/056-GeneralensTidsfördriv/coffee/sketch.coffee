@@ -33,14 +33,14 @@ hash = null
 aceCards = 4
 originalBoard = null
 start = null
-timing = null
+msg = ''
 autoShake = []
 shake = true
 N = null # Max rank
 classic = false
 srcs = null
 dsts = null
-#srcCards = null
+hintsLeft = null
 
 preload = -> 
 	faces = loadImage 'cards/Color_52_Faces_v.2.0.png'
@@ -111,10 +111,9 @@ makeBoard = (maxRank,classic)->
 		board[if classic then 4+i%8 else int random 4,12].push card
 
 	compress board
-	#print board 
 
 fakeBoard = ->
-	N = 5
+	N = 13
 	classic = false 
 	if N==3 then board = [[10],[11],[12],[13],[],[],[],[],[],[],[],[],[21],[33],[23],[31],[30],[22],[32],[20]] # 3
 	if N==4 then board = [[10],[11],[12],[13],[32],[],[21],[],[],[],[41],[42],[33],[23],[31],[20],[43],[22],[30],[40]] # 4
@@ -123,6 +122,7 @@ fakeBoard = ->
 	if N==5 then board = [[10],[11],[12],[13],[],[3041],[20],[33],[42],[],[53],[4030],[52],[50],[32],[22],[51],[43],[21],[23]]
 	if N==6 then board = [[10],[11],[12],[13],[32,51,5060],[62],[31],[],[22],[53],[42,3023],[52],[43],[30],[20],[61],[21],[41],[63],[40]] # 6 
 	if N==7 then board = [[10],[11],[12],[13],[23,63],[],[20,72,50,21,51],[31,73,22],[53,41,61],[33],[],[6070],[62],[42],[71],[30],[43],[40],[32],[52]] # 7
+	if N==7 then board = [[10],[11],[12],[13],[53,33],[30,72],[40,42],[23,73],[60,22,63],[],[71,43,5041],[61],[50],[52],[21],[62],[70],[20],[31],[32]]
 	if N==8 then board = [[10],[11],[12],[13],[62,20,50,43,31,70],[51,60,2033,72],[52,22,81],[83],[73],[30,63],[41,40],[],[80],[42],[53],[71],[32],[21],[82],[61]] # 8
 	if N==9 then board = [[10],[11],[12],[13],[53,80,71,91],[50,93,70],[42,81],[41,7063,61],[32,82,21],[20,40],[30,52,72],[62,92,90],[51],[83],[43],[33],[60],[23],[22],[31]] # 9
 	if N==10 then board = [[10],[11],[12],[13],[93,90,41,20,83,23],[53,62,103],[100,43,61],[],[22,81,51,80,33],[102,73,31],[21,32,91,72],[50,52,82,40],[92],[70],[30],[60],[42],[63],[71],[101]] # T
@@ -130,8 +130,6 @@ fakeBoard = ->
 	if N==12 then board = [[10],[11],[12],[13],[20,73],[60,100,33,92,71,51],[91,61,103,90,50],[80,93,121,23,52],[102,30,111,63,21,53,81],[122,83,112],[43,62,40],[42,70,123,41,22],[113],[31],[110],[120],[72],[101],[32],[82]] # Q
 	if N==13 then board = [[10],[11],[12],[13],[22,53,100,40,33],[5061,102,131],[5062,93,73,42,60,72,83],[41,111,81,133,63,50,120],[70,71],[92,20,121,130],[11123,31,9080,23],[101,82,91,43],[32],[132],[112],[122],[21],[103],[110],[30]] # K
 	if N==13 then board = [[10],[11],[12],[13],[50,101,112,43,42],[62,133,72,102,53],[71,63,111,30,80],[20,100,32,81,103],[51,22,61,92,91],[110,52,82,21,60],[122,121,41,83,123],[120,73,40,90,113],[93],[70],[33],[31],[131],[132],[23],[130]] # C
-
-	if N==7 then 	board = [[10],[11],[12],[13],[53,33],[30,72],[40,42],[23,73],[60,22,63],[],[71,43,5041],[61],[50],[52],[21],[62],[70],[20],[31],[32]]
 
 makeAutoShake = ->
 	autoShake = []
@@ -160,15 +158,6 @@ showHeap = (board,heap,x,y,dx) ->
 			image faces, x0+x,y0+y+13, w,h, OFFSETX+W*rank,1092+H*suit,243,H
 			x += dx
 
-	# # indicator
-	# if heap in srcCards 
-	# 	push()
-	# 	noFill()
-	# 	stroke 255,255,0
-	# 	strokeWeight 2
-	# 	rect x0+x-dx-1,y0+y+12,w-4,h-11
-	# 	pop()
-
 	card = _.last board[heap]
 	[suit,unvisible,visible] = unpack card
 	if heap in ACES and visible == N-1
@@ -177,8 +166,6 @@ showHeap = (board,heap,x,y,dx) ->
 
 display = (board) ->
 	background 0,128,0
-
-	#srcCards = calcSrcCards board
 
 	textAlign CENTER,CENTER
 	textSize 10
@@ -194,11 +181,11 @@ display = (board) ->
 	text 'J Q K = Hard',      x,y+40
 	text 'C = Classic',       x,y+50
 	text 'Space = Next',      x,y+60
-	text 'H = Hint',    	 		x,y+70
+	text "H = Hint (#{hintsLeft} left)", x,y+70
 
-	if timing != null then text "#{timing} seconds", x,y+105
+	text msg, x,y+105
 	textSize 24
-	text (if classic then 'Classic' else LONG[N]), x,y+84
+	text (if classic then 'Classic' else LONG[N]), x,y+89
 	textAlign LEFT,CENTER
 	textSize 10
 	text 'Generalens Tidsfördriv', 0,height-5
@@ -221,7 +208,6 @@ display = (board) ->
 		showHeap board, heap, xx,4, w
 
 legalMove = (board,a,b) ->
-	#print 'legalMove',a,b
 	if a in ACES then return false 
 	if b in PANEL then return false 
 	if board[a].length==0 then return false
@@ -278,26 +264,19 @@ mousePressed = ->
 				makeMove board,marked,heap,true
 				break 
 
-	if 4*N == countAceCards board then timing = (millis() - start) // 1000
+	if 4*N == countAceCards board 
+		if hintsLeft==3
+			msg = "#{(millis() - start) // 1000} seconds"
+		else if hintsLeft==2
+			msg = "1 hint used"
+		else
+			msg = "#{3-hintsLeft} hints used"
+
 	display board
 
 ####### AI-section ########
 
-# calcSrcCards = (b) ->
-# 	# holes in destinations are NOT included
-# 	srcs = HEAPS.concat PANEL 
-# 	dsts = ACES.concat HEAPS 
-# 	res = []
-# 	for src in srcs
-# 		for dst in dsts
-# 			if src != dst
-# 				if legalMove b,src,dst
-# 					if b[dst].length > 0
-# 						res.push src
-# 	res
-
 findAllMoves = (b) ->
-	#print 'findAllMoves',makeKey b 
 	srcs = HEAPS.concat PANEL 
 	dsts = ACES.concat HEAPS 
 	res = []
@@ -306,18 +285,9 @@ findAllMoves = (b) ->
 			if src != dst
 				if legalMove b,src,dst
 					res.push [src,dst]
-	#print res 
 	res
 
 makeKey = (b) -> 
-	# kanske 4-11 bör sorteras först
-	# följande kod medför hängning senare:
-	# a = b.slice 0,4
-	# c = b.slice 4,12
-	# d = b.slice 12,20
-	# c.sort()
-	# b = a.concat(c).concat(d)
-
 	res = ''
 	for heap,index in b
 		if heap.length==0
@@ -329,16 +299,13 @@ makeKey = (b) ->
 			else
 				res += 'chsd'[suit] + RANK[r1] + RANK[r2]
 		res += '|'
-	#print res 
 	res 
 
 calcAntal = (lst) ->
 	res=0
 	for card in lst
 		[suit,unvisible,visible] = unpack card
-		#print 'antal',card,suit,unvisible,visible
 		res += 1 + abs(unvisible-visible)
-	#print res
 	res
 
 countAceCards = (b) ->
@@ -356,17 +323,25 @@ expand = ([aceCards,level,b,path]) ->
 		makeMove b1,src,dst
 		key = makeKey b1
 		if key not of hash
-			#hash[key] = [src,dst,b]
-			#print 'move',move
 			newPath = path.concat([move])
-			#print 'newPath',newPath
 			hash[key] = [newPath, b]
 			res.push [countAceCards(b1), level+1, b1, path.concat([move])] 
 	res
 
-# Försök hitta ett drag som leder till målet. Kan misslyckas.
-hint = -> 
-	print 'hint'
+hint = ->
+	if hintsLeft == 0 then return
+	hintsLeft--
+	antal = 0
+	while true 
+		res = hintOne()
+		if res or hist.length==0 
+			print "Undos: #{antal} res #{res}"
+			return
+		undoMove hist.pop()
+		antal++
+
+hintOne = -> 
+	hintTime = millis()
 	aceCards = countAceCards board
 	if aceCards == N*4 then return 
 	cands = []
@@ -391,12 +366,15 @@ hint = ->
 		board = origBoard
 		[src,dst] = path[0]
 		makeMove board,src,dst,true
+		print "hint: #{int millis()-hintTime} ms"
+		return true 
 	else
-		print 'failure'
 		board = origBoard
+		return false 
 
 newGame = (key) ->
 	start = millis()
+	hintsLeft = 3
 	timing = null
 	hist = []
 	classic = key=='C'
@@ -413,28 +391,22 @@ newGame = (key) ->
 		nr = 0
 		cand = null
 
-		print LIMIT,N,nr,cands.length,aceCards
-		print nr < LIMIT and cands.length > 0 and aceCards < N*4
+		#print LIMIT,N,nr,cands.length,aceCards
 		while nr < LIMIT and cands.length > 0 and aceCards < N*4
 			nr++ 
 			cand = cands.pop()
 			aceCards = cand[0]
-			#print nr,cands.length,cand
 			increment = expand cand
 			cands = cands.concat increment
 			cands.sort (a,b) -> if a[0] == b[0] then b[1]-a[1] else a[0]-b[0]
 
-		#for k of hash
-		#	print hash[k]
-
 		level = cand[1]
 		print nr,aceCards,level
 		if aceCards == N*4
-			print 'heapsize',_.size(hash)
+			#print 'heapsize',_.size(hash)
 			print JSON.stringify(originalBoard)
 			board = cand[2]
 			printSolution hash,board
-			#print cand[3]
 			board = _.cloneDeep originalBoard
 			print "#{int millis()-start} ms"
 			start = millis()
@@ -488,29 +460,6 @@ printSolution = (hash, b) ->
 	solution.reverse()
 	s = ''
 	for [path,b],index in solution
-		#print 'path',path
 		[src,dst] = _.last path 
 		s += "\n#{index}: #{prettyMove src,dst,b}"
 	print s
-
-# Sök upp det första draget som leder mot målet.
-# findSolution = (hash, b) ->
-# 	print 'findsolution',makeKey b
-# 	for key of hash
-# 		print key,makeKey hash[key][2]
-
-# 	key = makeKey b
-# 	solution = null
-# 	antal = 0
-# 	while key of hash #and antal < 30
-# 		antal++
-# 		#print antal,key
-# 		[src,dst,b] = hash[key]
-# 		solution = key
-# 		key = makeKey b
-
-# 		# print 'find',key
-# 		# solution = key
-# 		# [src,dst,b] = hash[key]
-# 		# key = makeKey b
-# 	solution

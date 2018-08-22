@@ -27,6 +27,7 @@
 	* Space = Next
 		* Flyttar upp en nivå om patiensen gått ut.
 		* Flyttar ner en nivå om patiensen ej gått ut.
+	* H = Hint
 * (A = Autoshake. Flyttar korten slumpmässigt någon pixel. Kosmetika)
 
 De skapade patienserna är alltid lösbara.
