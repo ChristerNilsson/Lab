@@ -40,7 +40,6 @@ var ACES,
     faces,
     fakeBoard,
     findAllMoves,
-    findSolution,
     h,
     hash,
     hint,
@@ -642,7 +641,7 @@ mousePressed = function mousePressed() {
 // 	res
 findAllMoves = function findAllMoves(b) {
   var dst, j, l, len, len1, res, src;
-  print('findAllMoves', makeKey(b));
+  //print 'findAllMoves',makeKey b 
   srcs = HEAPS.concat(PANEL);
   dsts = ACES.concat(HEAPS);
   res = [];
@@ -657,7 +656,7 @@ findAllMoves = function findAllMoves(b) {
       }
     }
   }
-  print(res);
+  //print res 
   return res;
 };
 
@@ -731,29 +730,34 @@ countAceCards = function countAceCards(b) {
 };
 
 expand = function expand(_ref7) {
-  var _ref8 = _slicedToArray(_ref7, 3),
+  var _ref8 = _slicedToArray(_ref7, 4),
       aceCards = _ref8[0],
       level = _ref8[1],
-      b = _ref8[2];
+      b = _ref8[2],
+      path = _ref8[3];
 
-  var b1, dst, j, key, len, moves, res, src;
+  var b1, dst, j, key, len, move, moves, newPath, res, src;
   res = [];
   moves = findAllMoves(b);
-  //print 'expand'
   for (j = 0, len = moves.length; j < len; j++) {
-    var _moves$j = _slicedToArray(moves[j], 2);
+    move = moves[j];
+    var _move = move;
 
-    src = _moves$j[0];
-    dst = _moves$j[1];
+    var _move2 = _slicedToArray(_move, 2);
+
+    src = _move2[0];
+    dst = _move2[1];
 
     b1 = _.cloneDeep(b);
     makeMove(b1, src, dst);
     key = makeKey(b1);
     if (!(key in hash)) {
-      //print level,key
-      hash[key] = [src, dst, b];
-      //print [countAceCards(b1), level+1, b1]
-      res.push([countAceCards(b1), level + 1, b1]);
+      //hash[key] = [src,dst,b]
+      //print 'move',move
+      newPath = path.concat([move]);
+      //print 'newPath',newPath
+      hash[key] = [newPath, b];
+      res.push([countAceCards(b1), level + 1, b1, path.concat([move])]);
     }
   }
   return res;
@@ -761,20 +765,19 @@ expand = function expand(_ref7) {
 
 // Försök hitta ett drag som leder till målet. Kan misslyckas.
 hint = function hint() {
-  var b1, cand, dst, increment, key, nr, origBoard, src;
+  var cand, dst, increment, nr, origBoard, path, src;
   print('hint');
   aceCards = countAceCards(board);
   if (aceCards === N * 4) {
     return;
   }
   cands = [];
-  cands.push([aceCards, hist.length, board // antal kort på ässen, antal drag, board
-  ]);
+  cands.push([aceCards, hist.length, board, // antal kort på ässen, antal drag, board
+  []]);
   hash = {};
   nr = 0;
   cand = null;
   origBoard = _.cloneDeep(board);
-  //print 'origBoard1', makeKey origBoard
   while (nr < LIMIT && cands.length > 0 && aceCards < N * 4) {
     nr++;
     cand = cands.pop();
@@ -793,25 +796,16 @@ hint = function hint() {
   }
   if (aceCards === N * 4) {
     board = cand[2];
-    //for k of hash
-    //	print k
-    key = findSolution(hash, board);
-    print('solution', key);
-    //print hash[key]
-
-    //print makeKey b1
-    var _hash$key = _slicedToArray(hash[key], 3);
-
-    src = _hash$key[0];
-    dst = _hash$key[1];
-    b1 = _hash$key[2];
+    path = cand[3];
     board = origBoard;
-    print('A2', makeKey(board));
-    print(src, dst, board);
-    makeMove(board, src, dst, true);
-    return print('A3', makeKey(board));
+
+    var _path$ = _slicedToArray(path[0], 2);
+
+    src = _path$[0];
+    dst = _path$[1];
+
+    return makeMove(board, src, dst, true);
   } else {
-    //print board
     print('failure');
     return board = origBoard;
   }
@@ -825,16 +819,16 @@ newGame = function newGame(key) {
   classic = key === 'C';
   while (true) {
     if (indexOf.call('3456789TJQK', key) >= 0) {
-      fakeBoard(3 + '3456789TJQK'.indexOf(key), classic);
+      makeBoard(3 + '3456789TJQK'.indexOf(key), classic);
     }
     if (indexOf.call('C', key) >= 0) {
-      fakeBoard(13, classic);
+      makeBoard(13, classic);
     }
     originalBoard = _.cloneDeep(board);
     aceCards = countAceCards(board);
     cands = [];
-    cands.push([aceCards, 0, board // antal kort på ässen, antal drag, board
-    ]);
+    cands.push([aceCards, 0, board, // antal kort på ässen, antal drag, board
+    []]);
     hash = {};
     nr = 0;
     cand = null;
@@ -844,7 +838,7 @@ newGame = function newGame(key) {
       nr++;
       cand = cands.pop();
       aceCards = cand[0];
-      print(nr, cands.length, cand);
+      //print nr,cands.length,cand
       increment = expand(cand);
       cands = cands.concat(increment);
       cands.sort(function (a, b) {
@@ -855,6 +849,8 @@ newGame = function newGame(key) {
         }
       });
     }
+    //for k of hash
+    //	print hash[k]
     level = cand[1];
     print(nr, aceCards, level);
     if (aceCards === N * 4) {
@@ -862,6 +858,7 @@ newGame = function newGame(key) {
       print(JSON.stringify(originalBoard));
       board = cand[2];
       printSolution(hash, board);
+      //print cand[3]
       board = _.cloneDeep(originalBoard);
       print(int(millis() - start) + " ms");
       start = millis();
@@ -948,15 +945,14 @@ prettyMove = function prettyMove(src, dst, b) {
 };
 
 printSolution = function printSolution(hash, b) {
-  var dst, index, j, key, len, s, solution, src;
+  var dst, index, j, key, len, path, s, solution, src;
   key = makeKey(b);
   solution = [];
   while (key in hash) {
-    var _hash$key2 = _slicedToArray(hash[key], 3);
+    var _hash$key = _slicedToArray(hash[key], 2);
 
-    src = _hash$key2[0];
-    dst = _hash$key2[1];
-    b = _hash$key2[2];
+    path = _hash$key[0];
+    b = _hash$key[1];
 
     solution.push(hash[key]);
     key = makeKey(b);
@@ -964,11 +960,18 @@ printSolution = function printSolution(hash, b) {
   solution.reverse();
   s = '';
   for (index = j = 0, len = solution.length; j < len; index = ++j) {
-    var _solution$index = _slicedToArray(solution[index], 3);
+    //print 'path',path
+    var _solution$index = _slicedToArray(solution[index], 2);
 
-    src = _solution$index[0];
-    dst = _solution$index[1];
-    b = _solution$index[2];
+    path = _solution$index[0];
+    b = _solution$index[1];
+
+    var _$last = _.last(path);
+
+    var _$last2 = _slicedToArray(_$last, 2);
+
+    src = _$last2[0];
+    dst = _$last2[1];
 
     s += "\n" + index + ": " + prettyMove(src, dst, b);
   }
@@ -976,33 +979,24 @@ printSolution = function printSolution(hash, b) {
 };
 
 // Sök upp det första draget som leder mot målet.
-findSolution = function findSolution(hash, b) {
-  var antal, dst, key, solution, src;
-  print('findsolution', makeKey(b));
-  for (key in hash) {
-    print(key, makeKey(hash[key][2]));
-  }
-  key = makeKey(b);
-  solution = null;
-  antal = 0;
-  while (key in hash) {
-    //and antal < 30
-    antal++;
-    //print antal,key
+// findSolution = (hash, b) ->
+// 	print 'findsolution',makeKey b
+// 	for key of hash
+// 		print key,makeKey hash[key][2]
 
-    var _hash$key3 = _slicedToArray(hash[key], 3);
+// 	key = makeKey b
+// 	solution = null
+// 	antal = 0
+// 	while key of hash #and antal < 30
+// 		antal++
+// 		#print antal,key
+// 		[src,dst,b] = hash[key]
+// 		solution = key
+// 		key = makeKey b
 
-    src = _hash$key3[0];
-    dst = _hash$key3[1];
-    b = _hash$key3[2];
-
-    solution = key;
-    key = makeKey(b);
-  }
-  // print 'find',key
-  // solution = key
-  // [src,dst,b] = hash[key]
-  // key = makeKey b
-  return solution;
-};
+// 		# print 'find',key
+// 		# solution = key
+// 		# [src,dst,b] = hash[key]
+// 		# key = makeKey b
+// 	solution
 //# sourceMappingURL=sketch.js.map

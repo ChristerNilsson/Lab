@@ -297,7 +297,7 @@ mousePressed = ->
 # 	res
 
 findAllMoves = (b) ->
-	print 'findAllMoves',makeKey b 
+	#print 'findAllMoves',makeKey b 
 	srcs = HEAPS.concat PANEL 
 	dsts = ACES.concat HEAPS 
 	res = []
@@ -306,7 +306,7 @@ findAllMoves = (b) ->
 			if src != dst
 				if legalMove b,src,dst
 					res.push [src,dst]
-	print res 
+	#print res 
 	res
 
 makeKey = (b) -> 
@@ -347,19 +347,21 @@ countAceCards = (b) ->
 		res += calcAntal b[heap]
 	res
 
-expand = ([aceCards,level,b]) ->
+expand = ([aceCards,level,b,path]) ->
 	res = []
 	moves = findAllMoves b
-	#print 'expand'
-	for [src,dst] in moves
+	for move in moves
+		[src,dst] = move
 		b1 = _.cloneDeep b
 		makeMove b1,src,dst
 		key = makeKey b1
 		if key not of hash
-			#print level,key
-			hash[key] = [src,dst,b]
-			#print [countAceCards(b1), level+1, b1]
-			res.push [countAceCards(b1), level+1, b1] 
+			#hash[key] = [src,dst,b]
+			#print 'move',move
+			newPath = path.concat([move])
+			#print 'newPath',newPath
+			hash[key] = [newPath, b]
+			res.push [countAceCards(b1), level+1, b1, path.concat([move])] 
 	res
 
 # Försök hitta ett drag som leder till målet. Kan misslyckas.
@@ -368,12 +370,11 @@ hint = ->
 	aceCards = countAceCards board
 	if aceCards == N*4 then return 
 	cands = []
-	cands.push [aceCards,hist.length,board] # antal kort på ässen, antal drag, board
+	cands.push [aceCards,hist.length,board,[]] # antal kort på ässen, antal drag, board
 	hash = {}
 	nr = 0
 	cand = null
 	origBoard = _.cloneDeep board
-	#print 'origBoard1', makeKey origBoard
 
 	while nr < LIMIT and cands.length > 0 and aceCards < N*4
 		nr++ 
@@ -386,19 +387,10 @@ hint = ->
 
 	if aceCards == N*4
 		board = cand[2]
-		#for k of hash
-		#	print k
-		key = findSolution hash,board
-		print 'solution',key
-		#print hash[key]
-		[src,dst,b1] = hash[key]
-		#print makeKey b1
+		path = cand[3]
 		board = origBoard
-		print 'A2',makeKey board
-		print src,dst,board
+		[src,dst] = path[0]
 		makeMove board,src,dst,true
-		print 'A3',makeKey board
-		#print board
 	else
 		print 'failure'
 		board = origBoard
@@ -409,14 +401,14 @@ newGame = (key) ->
 	hist = []
 	classic = key=='C'
 	while true 
-		if key in '3456789TJQK' then fakeBoard 3+'3456789TJQK'.indexOf(key),classic
-		if key in 'C' then fakeBoard 13,classic
+		if key in '3456789TJQK' then makeBoard 3+'3456789TJQK'.indexOf(key),classic
+		if key in 'C' then makeBoard 13,classic
 
 		originalBoard = _.cloneDeep board
 
 		aceCards = countAceCards board		
 		cands = []
-		cands.push [aceCards,0,board] # antal kort på ässen, antal drag, board
+		cands.push [aceCards,0,board,[]] # antal kort på ässen, antal drag, board
 		hash = {}
 		nr = 0
 		cand = null
@@ -427,10 +419,13 @@ newGame = (key) ->
 			nr++ 
 			cand = cands.pop()
 			aceCards = cand[0]
-			print nr,cands.length,cand
+			#print nr,cands.length,cand
 			increment = expand cand
 			cands = cands.concat increment
 			cands.sort (a,b) -> if a[0] == b[0] then b[1]-a[1] else a[0]-b[0]
+
+		#for k of hash
+		#	print hash[k]
 
 		level = cand[1]
 		print nr,aceCards,level
@@ -439,6 +434,7 @@ newGame = (key) ->
 			print JSON.stringify(originalBoard)
 			board = cand[2]
 			printSolution hash,board
+			#print cand[3]
 			board = _.cloneDeep originalBoard
 			print "#{int millis()-start} ms"
 			start = millis()
@@ -486,33 +482,35 @@ printSolution = (hash, b) ->
 	key = makeKey b
 	solution = []
 	while key of hash
-		[src,dst,b] = hash[key]
+		[path,b] = hash[key]
 		solution.push hash[key]
 		key = makeKey b
 	solution.reverse()
 	s = ''
-	for [src,dst,b],index in solution
+	for [path,b],index in solution
+		#print 'path',path
+		[src,dst] = _.last path 
 		s += "\n#{index}: #{prettyMove src,dst,b}"
 	print s
 
 # Sök upp det första draget som leder mot målet.
-findSolution = (hash, b) ->
-	print 'findsolution',makeKey b
-	for key of hash
-		print key,makeKey hash[key][2]
+# findSolution = (hash, b) ->
+# 	print 'findsolution',makeKey b
+# 	for key of hash
+# 		print key,makeKey hash[key][2]
 
-	key = makeKey b
-	solution = null
-	antal = 0
-	while key of hash #and antal < 30
-		antal++
-		#print antal,key
-		[src,dst,b] = hash[key]
-		solution = key
-		key = makeKey b
+# 	key = makeKey b
+# 	solution = null
+# 	antal = 0
+# 	while key of hash #and antal < 30
+# 		antal++
+# 		#print antal,key
+# 		[src,dst,b] = hash[key]
+# 		solution = key
+# 		key = makeKey b
 
-		# print 'find',key
-		# solution = key
-		# [src,dst,b] = hash[key]
-		# key = makeKey b
-	solution
+# 		# print 'find',key
+# 		# solution = key
+# 		# [src,dst,b] = hash[key]
+# 		# key = makeKey b
+# 	solution
