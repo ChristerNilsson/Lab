@@ -532,6 +532,7 @@ makeMove = function makeMove(board, a, b, record) {
   return board[b].push(pack(suit, unvisible, visible));
 };
 
+// returns text move
 undoMove = function undoMove(_ref5) {
   var _ref6 = _slicedToArray(_ref5, 3),
       a = _ref6[0],
@@ -551,12 +552,14 @@ undoMove = function undoMove(_ref5) {
   if (unvisible < visible) {
     board[a].push(pack(suit, visible, visible - antal + 1));
     if (visible !== unvisible + antal - 1) {
-      return board[b].push(pack(suit, unvisible, visible - antal));
+      board[b].push(pack(suit, unvisible, visible - antal));
+      return prettyMove(a, b, board);
     }
   } else {
     board[a].push(pack(suit, visible, visible + antal - 1));
     if (unvisible !== visible + antal - 1) {
-      return board[b].push(pack(suit, unvisible, visible + antal));
+      board[b].push(pack(suit, unvisible, visible + antal));
+      return prettyMove(a, b, board);
     }
   }
 };
@@ -737,25 +740,29 @@ expand = function expand(_ref7) {
 };
 
 hint = function hint() {
-  var antal, res;
+  var card, j, len, res, u, undone;
   if (hintsLeft === 0) {
     return;
   }
   hintsLeft--;
-  antal = 0;
+  undone = [];
   while (true) {
     res = hintOne();
-    if (res || hist.length === 0) {
-      print("Undos: " + antal + " res " + res);
+    if (res != null || hist.length === 0) {
+      for (j = 0, len = undone.length; j < len; j++) {
+        u = undone[j];
+        print("Undo: " + u);
+      }
+      print("Move " + res);
       return;
     }
-    undoMove(hist.pop());
-    antal++;
+    card = hist.pop();
+    undone.push(undoMove(card));
   }
 };
 
 hintOne = function hintOne() {
-  var cand, dst, hintTime, increment, nr, origBoard, path, src;
+  var cand, dst, hintTime, increment, nr, origBoard, path, s, src;
   hintTime = millis();
   aceCards = countAceCards(board);
   if (aceCards === N * 4) {
@@ -794,12 +801,13 @@ hintOne = function hintOne() {
     src = _path$[0];
     dst = _path$[1];
 
+    s = prettyMove(src, dst, board);
     makeMove(board, src, dst, true);
     print("hint: " + int(millis() - hintTime) + " ms");
-    return true;
+    return s;
   } else {
     board = origBoard;
-    return false;
+    return null;
   }
 };
 

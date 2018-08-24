@@ -230,14 +230,19 @@ makeMove = (board,a,b,record) -> # from heap a to heap b
 		[xx,unvisible,yy] = unpack board[b].pop()
 	board[b].push pack suit,unvisible,visible 
 
+# returns text move
 undoMove = ([a,b,antal]) ->
 	[suit, unvisible, visible] = unpack board[b].pop()
 	if unvisible < visible
 		board[a].push pack suit,visible, visible-antal+1
-		if visible!=unvisible+antal-1 then board[b].push pack suit,unvisible,visible-antal
+		if visible!=unvisible+antal-1
+			board[b].push pack suit,unvisible,visible-antal
+			return prettyMove a,b,board
 	else
 		board[a].push pack suit,visible, visible+antal-1
-		if unvisible!=visible+antal-1 then board[b].push pack suit,unvisible,visible+antal
+		if unvisible!=visible+antal-1	
+			board[b].push pack suit,unvisible,visible+antal
+			return prettyMove a,b,board
 
 mousePressed = -> 
 	if not (0 < mouseX < width) then return
@@ -337,14 +342,16 @@ expand = ([aceCards,level,b,path]) ->
 hint = ->
 	if hintsLeft == 0 then return
 	hintsLeft--
-	antal = 0
+	undone = []
 	while true 
 		res = hintOne()
-		if res or hist.length==0 
-			print "Undos: #{antal} res #{res}"
+		if res? or hist.length==0 
+			for u in undone
+				print "Undo: #{u}"
+			print "Move #{res}"
 			return
-		undoMove hist.pop()
-		antal++
+		card = hist.pop()
+		undone.push undoMove card
 
 hintOne = -> 
 	hintTime = millis()
@@ -371,12 +378,13 @@ hintOne = ->
 		path = cand[3]
 		board = origBoard
 		[src,dst] = path[0]
+		s = prettyMove src,dst,board
 		makeMove board,src,dst,true
 		print "hint: #{int millis()-hintTime} ms"
-		return true 
+		return s
 	else
 		board = origBoard
-		return false 
+		return null
 
 newGame = (key) ->
 	start = millis()
