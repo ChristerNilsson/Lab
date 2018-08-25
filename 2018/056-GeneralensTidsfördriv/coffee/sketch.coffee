@@ -15,7 +15,7 @@ PANEL = [12,13,14,15,16,17,18,19]
 Suit = 'chsd'
 Rank = "A23456789TJQK"
 SUIT = "club heart spade diamond".split ' '
-RANK = "A 2 3 4 5 6 7 8 9 T J Q K".split ' '
+RANK = "A23456789TJQK" #.split ' '
 LONG = " Ace 2 3 4 5 6 7 8 9 Ten Jack Queen King".split ' '
 OFFSETX = 468
 W = 263.25
@@ -52,27 +52,14 @@ preload = ->
 print = console.log
 range = _.range
 assert = (a, b, msg='Assert failure') -> chai.assert.deepEqual a, b, msg
-passert = (a,b) -> print b
-
-# suit är nollbaserad
-# under är nollbaserad. Understa kortet
-# over är nollbaserad. översta kortet
-# I talet räknas under och over upp
-# pack = (suit,under,over) ->
-# 	10000 * suit + 100 * (under+1) + (over+1) # rank=1..13 suit=0..3 
-# assert   101, pack 0,0,0 # club A
-# assert 30101, pack 3,0,0 # diamond A
-# assert 30202, pack 3,1,1 # diamond 2
-# assert 11112, pack 1,10,11 # heart J,Q
-# assert 11111, pack 1,10,10 # heart J,J
-#print 'pack ok'
 
 pack = (suit,under,over) -> Suit[suit] + Rank[under] + if under==over then '' else Rank[over]
-assert 'cA', pack 0,0,0 # club A
-assert 'dA', pack 3,0,0 # diamond A
-assert 'd2', pack 3,1,1 # diamond 2
-assert 'hJQ', pack 1,10,11 # heart J,Q
-assert 'hJ', pack 1,10,10 # heart J,J
+assert 'cA', pack 0,0,0 
+assert 'dA', pack 3,0,0 
+assert 'd2', pack 3,1,1 
+assert 'hJQ', pack 1,10,11 
+assert 'hJ', pack 1,10,10 
+print 'pack ok'
 
 unpack = (n) -> 
 	suit = Suit.indexOf n[0]
@@ -83,17 +70,7 @@ assert [0,0,0], unpack 'cA'
 assert [3,0,0], unpack 'dA'
 assert [1,10,11], unpack 'hJQ'
 assert [1,10,10], unpack 'hJ'
-
-# unpack = (n) -> 
-# 	suit = n//10000
-# 	under = (n//100)%100 
-# 	over = n%100 
-# 	[suit,under-1,over-1]
-# assert [0,0,0], unpack 101
-# assert [3,0,0], unpack 30101
-# assert [1,10,11], unpack 11112
-# assert [1,10,10], unpack 11111
-#print 'unpack ok'
+print 'unpack ok'
 
 compress = (board) ->
 	for heap in HEAPS
@@ -106,8 +83,6 @@ compressOne = (cards) ->
 		for i in range 1,cards.length
 			[suit1,under1,over1] = unpack temp     # understa
 			[suit2,under2,over2] = unpack cards[i] # översta
-			#print suit1,under1,over1,temp
-			#print suit2,under2,over2,cards[i]
 			if suit1 == suit2 and under2-over1 in [-1,1]
 				temp = pack suit1,under1,over2
 			else
@@ -125,15 +100,7 @@ assert ['cA4'],compressOne ['cA2','c34']
 assert ['cA3'],compressOne ['cA','c2','c3'] 
 assert ['cA6'],compressOne ['cA2','c34','c56'] 
 assert ['cA2','h34','c56'],compressOne ['cA2','h34','c56'] 
-
-# assert [101],compressOne [101] 
-# assert [102],compressOne [101,202] 
-# assert [203],compressOne [202,303] 
-# assert [104],compressOne [102,304] 
-# assert [103],compressOne [101,202,303] 
-# assert [106],compressOne [102,304,506] 
-# assert [102,10304,506],compressOne [102,10304,506] 
-#print 'compressOne ok'
+print 'compressOne ok'
 
 dumpBoard = (board) -> heap.join ' ' for heap in board
 		
@@ -160,12 +127,12 @@ makeBoard = (maxRank,classic)->
 		board[if classic then 4+i%8 else int random 4,12].push card
 
 	compress board
-	#print board
 
 fakeBoard = ->
 	N = 13
 	classic = false 
 	if N==13 then board = ["cA","hA","sA","dA","cQ d2 d5 cJ c8 d8","h5 sJ c4 dK h8 sT","h6 d4 c56 cT s8","d9 s4 h3 d3","s2 c7 s9","h4 h7 hK s65","hQ sK dJ sQ c2 d7 c9","hT c3 h2","d6","dQ","s3","dT","cK","s7","h9","hJ"]
+	if N==13 then board = ["cA","hA","sA","dA","dK hQ h6 d7 h7","s6 d6 cJ dQ dT","s8 s45 d3 sT","c7 sK hK c8 d8","c3 s9 c9 s3 h9","h4 c6 sJ h3 d2","cT c4 s7 d5 h5","hJ d9 dJ h8 h2","cQ","s2","c2","d4","c5","sQ","cK","hT"] # 146 s
 
 makeAutoShake = ->
 	autoShake = []
@@ -173,7 +140,6 @@ makeAutoShake = ->
 		autoShake.push [int(random(-2,2)),int(random(-2,2))]
 
 setup = ->
-	#print 'A'
 	createCanvas 800,600
 	makeAutoShake()
 	newGame '3'
@@ -268,14 +234,11 @@ makeMove = (board,src,dst,record) ->
 
 # returns text move
 undoMove = ([src,dst,antal]) -> 
-	# print 'undoMove',src,dst,antal
 	res = prettyUndoMove src,dst,board,antal
 	[board[src],board[dst]] = undoMoveOne board[src],board[dst],antal
 	res
 
 undoMoveOne = (a,b,antal) ->
-	# print 'before src',JSON.stringify a
-	# print 'before dst',JSON.stringify b
 	[suit, under, over] = unpack b.pop()
 	if under < over 
 		a.push pack suit,over,over-antal+1
@@ -285,8 +248,6 @@ undoMoveOne = (a,b,antal) ->
 		a.push pack suit,over,over+antal-1
 		if under-over != antal-1
 			b.push pack suit,under,over+antal #
-	# print 'after src',JSON.stringify a
-	# print 'after dst',JSON.stringify b
 	[a,b]
 assert [['d9T'],['dJ']], undoMoveOne [],['dJ9'],2
 assert [['d9'],['dJT']], undoMoveOne [],['dJ9'],1
@@ -340,8 +301,6 @@ mousePressed = ->
 			msg = "#{maxHints - hintsLeft} hints used"
 
 	display board
-	#print JSON.stringify board 
-	#print JSON.stringify hist
 
 ####### AI-section ########
 
@@ -410,8 +369,6 @@ hint = ->
 	while true 
 		res = hintOne()
 		if res? or hist.length==0
-			#print JSON.stringify board
-			#print JSON.stringify undone 
 			for u in undone
 				print "Undo: #{u}"
 			print "Move: #{res}"
@@ -461,7 +418,6 @@ newGame = (key) ->
 		if key in '3456789TJQK' then makeBoard 3+'3456789TJQK'.indexOf(key),classic
 		if key in 'C' then makeBoard 13,classic
 		maxHints = N
-		#print maxHints
 		hintsLeft = maxHints
 		originalBoard = _.cloneDeep board
 
@@ -484,8 +440,6 @@ newGame = (key) ->
 		level = cand[1]
 		print nr,aceCards,level
 		if aceCards == N*4
-			#print 'heapsize',_.size(hash)
-			#print JSON.stringify(originalBoard)
 			print JSON.stringify dumpBoard originalBoard 
 			board = cand[2]
 			printSolution hash,board
@@ -540,7 +494,7 @@ assert "heart J", prettyCard pack 1,10,10
 assert "spade Q", prettyCard pack 2,11,11
 assert "diamond K", prettyCard pack 3,12,12
 assert "3", prettyCard pack(3,2,2),1
-#print 'prettyCard ok'
+print 'prettyCard ok'
 
 prettyMove = (src,dst,b) ->
 	c1 = _.last b[src]

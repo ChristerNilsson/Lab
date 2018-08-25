@@ -64,7 +64,6 @@ var ACES,
     nextLevel,
     originalBoard,
     pack,
-    passert,
     preload,
     prettyCard,
     prettyCard2,
@@ -97,7 +96,7 @@ Rank = "A23456789TJQK";
 
 SUIT = "club heart spade diamond".split(' ');
 
-RANK = "A 2 3 4 5 6 7 8 9 T J Q K".split(' ');
+RANK = "A23456789TJQK"; //.split ' '
 
 LONG = " Ace 2 3 4 5 6 7 8 9 Ten Jack Queen King".split(' ');
 
@@ -166,35 +165,21 @@ assert = function assert(a, b) {
   return chai.assert.deepEqual(a, b, msg);
 };
 
-passert = function passert(a, b) {
-  return print(b);
-};
-
-// suit är nollbaserad
-// under är nollbaserad. Understa kortet
-// over är nollbaserad. översta kortet
-// I talet räknas under och over upp
-// pack = (suit,under,over) ->
-// 	10000 * suit + 100 * (under+1) + (over+1) # rank=1..13 suit=0..3 
-// assert   101, pack 0,0,0 # club A
-// assert 30101, pack 3,0,0 # diamond A
-// assert 30202, pack 3,1,1 # diamond 2
-// assert 11112, pack 1,10,11 # heart J,Q
-// assert 11111, pack 1,10,10 # heart J,J
-//print 'pack ok'
 pack = function pack(suit, under, over) {
   return Suit[suit] + Rank[under] + (under === over ? '' : Rank[over]);
 };
 
-assert('cA', pack(0, 0, 0)); // club A
+assert('cA', pack(0, 0, 0));
 
-assert('dA', pack(3, 0, 0)); // diamond A
+assert('dA', pack(3, 0, 0));
 
-assert('d2', pack(3, 1, 1)); // diamond 2
+assert('d2', pack(3, 1, 1));
 
-assert('hJQ', pack(1, 10, 11)); // heart J,Q
+assert('hJQ', pack(1, 10, 11));
 
-assert('hJ', pack(1, 10, 10)); // heart J,J
+assert('hJ', pack(1, 10, 10));
+
+print('pack ok');
 
 unpack = function unpack(n) {
   var over, suit, under;
@@ -216,16 +201,8 @@ assert([1, 10, 11], unpack('hJQ'));
 
 assert([1, 10, 10], unpack('hJ'));
 
-// unpack = (n) -> 
-// 	suit = n//10000
-// 	under = (n//100)%100 
-// 	over = n%100 
-// 	[suit,under-1,over-1]
-// assert [0,0,0], unpack 101
-// assert [3,0,0], unpack 30101
-// assert [1,10,11], unpack 11112
-// assert [1,10,10], unpack 11111
-//print 'unpack ok'
+print('unpack ok');
+
 compress = function compress(board) {
   var heap, j, len, results;
   results = [];
@@ -254,8 +231,6 @@ compressOne = function compressOne(cards) {
       under1 = _unpack2[1];
       over1 = _unpack2[2];
 
-      //print suit1,under1,over1,temp
-      //print suit2,under2,over2,cards[i]
       var _unpack3 = unpack(cards[i]);
 
       var _unpack4 = _slicedToArray(_unpack3, 3);
@@ -263,6 +238,7 @@ compressOne = function compressOne(cards) {
       suit2 = _unpack4[0];
       under2 = _unpack4[1];
       over2 = _unpack4[2];
+
       if (suit1 === suit2 && ((ref1 = under2 - over1) === -1 || ref1 === 1)) {
         temp = pack(suit1, under1, over2);
       } else {
@@ -293,14 +269,8 @@ assert(['cA6'], compressOne(['cA2', 'c34', 'c56']));
 
 assert(['cA2', 'h34', 'c56'], compressOne(['cA2', 'h34', 'c56']));
 
-// assert [101],compressOne [101] 
-// assert [102],compressOne [101,202] 
-// assert [203],compressOne [202,303] 
-// assert [104],compressOne [102,304] 
-// assert [103],compressOne [101,202,303] 
-// assert [106],compressOne [102,304,506] 
-// assert [102,10304,506],compressOne [102,10304,506] 
-//print 'compressOne ok'
+print('compressOne ok');
+
 dumpBoard = function dumpBoard(board) {
   var heap, j, len, results;
   results = [];
@@ -348,12 +318,15 @@ makeBoard = function makeBoard(maxRank, classic) {
   return compress(board);
 };
 
-//print board
 fakeBoard = function fakeBoard() {
   N = 13;
   classic = false;
   if (N === 13) {
-    return board = ["cA", "hA", "sA", "dA", "cQ d2 d5 cJ c8 d8", "h5 sJ c4 dK h8 sT", "h6 d4 c56 cT s8", "d9 s4 h3 d3", "s2 c7 s9", "h4 h7 hK s65", "hQ sK dJ sQ c2 d7 c9", "hT c3 h2", "d6", "dQ", "s3", "dT", "cK", "s7", "h9", "hJ"];
+    board = ["cA", "hA", "sA", "dA", "cQ d2 d5 cJ c8 d8", "h5 sJ c4 dK h8 sT", "h6 d4 c56 cT s8", "d9 s4 h3 d3", "s2 c7 s9", "h4 h7 hK s65", "hQ sK dJ sQ c2 d7 c9", "hT c3 h2", "d6", "dQ", "s3", "dT", "cK", "s7", "h9", "hJ"];
+  }
+  if (N === 13) {
+    return board = ["cA", "hA", "sA", "dA", "dK hQ h6 d7 h7", "s6 d6 cJ dQ dT", "s8 s45 d3 sT", "c7 sK hK c8 d8", "c3 s9 c9 s3 h9", "h4 c6 sJ h3 d2", "cT c4 s7 d5 h5", "hJ d9 dJ h8 h2", "cQ", "s2", "c2", "d4", "c5", "sQ", "cK", "hT" // 146 s
+    ];
   }
 };
 
@@ -370,7 +343,6 @@ makeAutoShake = function makeAutoShake() {
 };
 
 setup = function setup() {
-  //print 'A'
   createCanvas(800, 600);
   makeAutoShake();
   newGame('3');
@@ -567,8 +539,6 @@ undoMove = function undoMove(_ref5) {
       antal = _ref6[2];
 
   var res;
-
-  // print 'undoMove',src,dst,antal
   res = prettyUndoMove(src, dst, board, antal);
 
   var _undoMoveOne = undoMoveOne(board[src], board[dst], antal);
@@ -583,8 +553,6 @@ undoMove = function undoMove(_ref5) {
 
 undoMoveOne = function undoMoveOne(a, b, antal) {
   var over, suit, under;
-  // print 'before src',JSON.stringify a
-  // print 'before dst',JSON.stringify b
 
   var _unpack17 = unpack(b.pop());
 
@@ -605,8 +573,6 @@ undoMoveOne = function undoMoveOne(a, b, antal) {
       b.push(pack(suit, under, over + antal));
     }
   }
-  // print 'after src',JSON.stringify a
-  // print 'after dst',JSON.stringify b
   return [a, b];
 };
 
@@ -694,9 +660,6 @@ mousePressed = function mousePressed() {
   }
   return display(board);
 };
-
-//print JSON.stringify board 
-//print JSON.stringify hist
 
 //###### AI-section ########
 findAllMoves = function findAllMoves(b) {
@@ -828,8 +791,6 @@ hint = function hint() {
   while (true) {
     res = hintOne();
     if (res != null || hist.length === 0) {
-      //print JSON.stringify board
-      //print JSON.stringify undone 
       for (j = 0, len = undone.length; j < len; j++) {
         u = undone[j];
         print("Undo: " + u);
@@ -906,7 +867,6 @@ newGame = function newGame(key) {
       makeBoard(13, classic);
     }
     maxHints = N;
-    //print maxHints
     hintsLeft = maxHints;
     originalBoard = _.cloneDeep(board);
     aceCards = countAceCards(board);
@@ -934,8 +894,6 @@ newGame = function newGame(key) {
     level = cand[1];
     print(nr, aceCards, level);
     if (aceCards === N * 4) {
-      //print 'heapsize',_.size(hash)
-      //print JSON.stringify(originalBoard)
       print(JSON.stringify(dumpBoard(originalBoard)));
       board = cand[2];
       printSolution(hash, board);
@@ -1044,7 +1002,8 @@ assert("diamond K", prettyCard(pack(3, 12, 12)));
 
 assert("3", prettyCard(pack(3, 2, 2), 1));
 
-//print 'prettyCard ok'
+print('prettyCard ok');
+
 prettyMove = function prettyMove(src, dst, b) {
   var c1, c2;
   c1 = _.last(b[src]);
