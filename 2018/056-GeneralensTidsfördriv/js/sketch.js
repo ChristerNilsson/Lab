@@ -21,7 +21,9 @@ var ACES,
     OFFSETX,
     PANEL,
     RANK,
+    Rank,
     SUIT,
+    Suit,
     W,
     aceCards,
     assert,
@@ -38,6 +40,7 @@ var ACES,
     countPanelCards,
     display,
     dsts,
+    dumpBoard,
     expand,
     faces,
     fakeBoard,
@@ -87,6 +90,10 @@ ACES = [0, 1, 2, 3];
 HEAPS = [4, 5, 6, 7, 8, 9, 10, 11];
 
 PANEL = [12, 13, 14, 15, 16, 17, 18, 19];
+
+Suit = 'chsd';
+
+Rank = "A23456789TJQK";
 
 SUIT = "club heart spade diamond".split(' ');
 
@@ -167,37 +174,57 @@ passert = function passert(a, b) {
 // under är nollbaserad. Understa kortet
 // over är nollbaserad. översta kortet
 // I talet räknas under och over upp
+// pack = (suit,under,over) ->
+// 	10000 * suit + 100 * (under+1) + (over+1) # rank=1..13 suit=0..3 
+// assert   101, pack 0,0,0 # club A
+// assert 30101, pack 3,0,0 # diamond A
+// assert 30202, pack 3,1,1 # diamond 2
+// assert 11112, pack 1,10,11 # heart J,Q
+// assert 11111, pack 1,10,10 # heart J,J
+//print 'pack ok'
 pack = function pack(suit, under, over) {
-  return 10000 * suit + 100 * (under + 1) + (over + 1); // rank=1..13 suit=0..3 
+  return Suit[suit] + Rank[under] + (under === over ? '' : Rank[over]);
 };
 
-assert(101, pack(0, 0, 0)); // club A
+assert('cA', pack(0, 0, 0)); // club A
 
-assert(30101, pack(3, 0, 0)); // diamond A
+assert('dA', pack(3, 0, 0)); // diamond A
 
-assert(30202, pack(3, 1, 1)); // diamond 2
+assert('d2', pack(3, 1, 1)); // diamond 2
 
-assert(11112, pack(1, 10, 11)); // heart J,Q
+assert('hJQ', pack(1, 10, 11)); // heart J,Q
 
-assert(11111, pack(1, 10, 10)); // heart J,J
+assert('hJ', pack(1, 10, 10)); // heart J,J
 
-//print 'pack ok'
 unpack = function unpack(n) {
   var over, suit, under;
-  suit = Math.floor(n / 10000);
-  under = Math.floor(n / 100) % 100;
-  over = n % 100;
-  return [suit, under - 1, over - 1];
+  suit = Suit.indexOf(n[0]);
+  under = Rank.indexOf(n[1]);
+  if (n.length === 3) {
+    over = Rank.indexOf(n[2]);
+  } else {
+    over = under;
+  }
+  return [suit, under, over];
 };
 
-assert([0, 0, 0], unpack(101));
+assert([0, 0, 0], unpack('cA'));
 
-assert([3, 0, 0], unpack(30101));
+assert([3, 0, 0], unpack('dA'));
 
-assert([1, 10, 11], unpack(11112));
+assert([1, 10, 11], unpack('hJQ'));
 
-assert([1, 10, 10], unpack(11111));
+assert([1, 10, 10], unpack('hJ'));
 
+// unpack = (n) -> 
+// 	suit = n//10000
+// 	under = (n//100)%100 
+// 	over = n%100 
+// 	[suit,under-1,over-1]
+// assert [0,0,0], unpack 101
+// assert [3,0,0], unpack 30101
+// assert [1,10,11], unpack 11112
+// assert [1,10,10], unpack 11111
 //print 'unpack ok'
 compress = function compress(board) {
   var heap, j, len, results;
@@ -252,21 +279,38 @@ compressOne = function compressOne(cards) {
 
 assert([], compressOne([]));
 
-assert([101], compressOne([101]));
+assert(['cA'], compressOne(['cA']));
 
-assert([102], compressOne([101, 202]));
+assert(['cA2'], compressOne(['cA', 'c2']));
 
-assert([203], compressOne([202, 303]));
+assert(['c23'], compressOne(['c2', 'c3']));
 
-assert([104], compressOne([102, 304]));
+assert(['cA4'], compressOne(['cA2', 'c34']));
 
-assert([103], compressOne([101, 202, 303]));
+assert(['cA3'], compressOne(['cA', 'c2', 'c3']));
 
-assert([106], compressOne([102, 304, 506]));
+assert(['cA6'], compressOne(['cA2', 'c34', 'c56']));
 
-assert([102, 10304, 506], compressOne([102, 10304, 506]));
+assert(['cA2', 'h34', 'c56'], compressOne(['cA2', 'h34', 'c56']));
 
+// assert [101],compressOne [101] 
+// assert [102],compressOne [101,202] 
+// assert [203],compressOne [202,303] 
+// assert [104],compressOne [102,304] 
+// assert [103],compressOne [101,202,303] 
+// assert [106],compressOne [102,304,506] 
+// assert [102,10304,506],compressOne [102,10304,506] 
 //print 'compressOne ok'
+dumpBoard = function dumpBoard(board) {
+  var heap, j, len, results;
+  results = [];
+  for (j = 0, len = board.length; j < len; j++) {
+    heap = board[j];
+    results.push(heap.join(' '));
+  }
+  return results;
+};
+
 makeBoard = function makeBoard(maxRank, classic) {
   var card, heap, i, j, l, len, len1, len2, len3, len4, len5, m, o, p, q, rank, ref, ref1, ref2, ref3, suit;
   N = maxRank;
@@ -309,10 +353,7 @@ fakeBoard = function fakeBoard() {
   N = 13;
   classic = false;
   if (N === 13) {
-    board = [[101], [10101], [20101], [30101], [10404, 30808, 1313, 1010, 20808], [506, 30909, 10303, 30303], [10707, 303, 20202, 20505, 20707], [11212, 1111, 20303, 21010, 31010], [202, 10808, 707, 20404, 30505], [10909, 10505, 20909, 10606, 10202], [11010, 21111, 808, 20606, 31111], [11111, 21313, 30404, 404, 30707], [21212], [31313], [30606], [1212], [31212], [30202], [909], [11313]];
-  }
-  if (N === 13) {
-    return board = [[101], [10103], [20101], [30103], [10404, 30808, 1313, 1009], [506], [10707, 303, 20202, 20505, 20708], [11212, 1111, 20303, 21010], [202, 10808, 707, 20404], [10909, 10505, 20909, 10606], [11010, 21111, 808, 20606, 31109], [11111, 21313, 30404, 404, 30705], [21212], [31313], [], [1212], [31212], [], [], [11313]];
+    return board = ["cA", "hA", "sA", "dA", "cQ d2 d5 cJ c8 d8", "h5 sJ c4 dK h8 sT", "h6 d4 c56 cT s8", "d9 s4 h3 d3", "s2 c7 s9", "h4 h7 hK s65", "hQ sK dJ sQ c2 d7 c9", "hT c3 h2", "d6", "dQ", "s3", "dT", "cK", "s7", "h9", "hJ"];
   }
 };
 
@@ -569,9 +610,9 @@ undoMoveOne = function undoMoveOne(a, b, antal) {
   return [a, b];
 };
 
-assert([[30910], [31111]], undoMoveOne([], [31109], 2));
+assert([['d9T'], ['dJ']], undoMoveOne([], ['dJ9'], 2));
 
-assert([[30909], [31110]], undoMoveOne([], [31109], 1));
+assert([['d9'], ['dJT']], undoMoveOne([], ['dJ9'], 1));
 
 prettyUndoMove = function prettyUndoMove(src, dst, b, antal) {
   var c1, c2;
@@ -894,7 +935,8 @@ newGame = function newGame(key) {
     print(nr, aceCards, level);
     if (aceCards === N * 4) {
       //print 'heapsize',_.size(hash)
-      print(JSON.stringify(originalBoard));
+      //print JSON.stringify(originalBoard)
+      print(JSON.stringify(dumpBoard(originalBoard)));
       board = cand[2];
       printSolution(hash, board);
       board = _.cloneDeep(originalBoard);
