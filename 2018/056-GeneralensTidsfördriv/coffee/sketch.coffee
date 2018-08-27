@@ -58,13 +58,51 @@ maxHints = null
 counter = 0
 scaleFactor = null
 
-preload = -> 
-	faces = loadImage 'cards/Color_52_Faces_v.2.0.png'
-	backs = loadImage 'cards/Playing_Card_Backs.png'
+dialogues = []
 
 print = console.log
 range = _.range
 assert = (a, b, msg='Assert failure') -> chai.assert.deepEqual a, b, msg
+
+class Dialogue 
+	constructor : (@x,@y,@textSize=20) -> 
+		@buttons = []
+		dialogues.push @
+	add : (button) -> 
+		button.dlg = @
+		@buttons.push button	
+	show : ->
+		fill 255,255,0,128
+		push()
+		translate @x,@y
+		textSize @textSize
+		for button in @buttons
+			button.show @
+		pop()
+	execute : (mx,my) ->
+		for button in @buttons
+			if button.inside mx,my,@
+				button.execute()
+				return true
+		false 
+
+class Button 
+	constructor : (@txt, @x, @y, @r, @event = -> print @txt) ->
+	show : ->
+		ellipse @x,@y,2*@r,2*@r
+		push()
+		fill 0
+		stroke 0
+		textAlign CENTER,CENTER
+		textSize @dlg.textSize
+		text @txt, @x,@y
+		pop()
+	inside : (mx,my) -> @r > dist mx, my, @dlg.x + @x, @dlg.y + @y
+	execute : -> @event()
+
+preload = -> 
+	faces = loadImage 'cards/Color_52_Faces_v.2.0.png'
+	backs = loadImage 'cards/Playing_Card_Backs.png'
 
 pack = (suit,under,over) -> Suit[suit] + Rank[under] + if under==over then '' else Rank[over]
 assert 'cA', pack 0,0,0 
@@ -165,7 +203,51 @@ setup = ->
 
 	makeAutoShake()
 	newGame '3'
+
+	x = 636 
+	y = 709-110
+	dialogue = new Dialogue x,y
+	dialogue.add new Button 'Undo',-0.2*h,0, 0.2*h, -> if hist.length > 0 then undoMove hist.pop()
+	dialogue.add new Button 'Hint', 0.2*h,0, 0.2*h, -> hint()
+	dialogue.add new Button 'Menu',0,0.5*h,0.25*h, -> menu()
+
 	display board 
+
+keyPressed = -> 
+	if key == 'A' then shake = not shake
+	if key == 'X' 
+		N = 13
+		board = [[101],[10103],[20101],[30103],[10404,30808,1313,1009],[506],[10707,303,20202,20505,20708],[11212,1111,20303,21010],[202,10808,707,20404],[10909,10505,20909,10606],[11010,21111,808,20606,31109],[11111,21313,30404,404,30705],[21212],[31313],[],[1212],[31212],[],[],[11313]]
+		hist = [[4,6,1],[7,10,1],[9,1,1],[17,3,1],[18,4,1],[14,8,1],[5,3,1],[8,11,2],[5,1,1],[5,10,1]]
+	display board
+
+menu = ->
+	dialogue = new Dialogue 50,50,40
+	for level,i in "3456789TJQKC"
+		f = -> 
+			key = level		
+			y = if i<6 then 0 else 200
+			dialogue.add new Button key,90+200*(i%6),100+y,90, -> 
+				newGame key
+				dialogues.pop()
+		f()
+
+	xoff = 100
+	yoff = 500
+	bstep = 2*w+32
+
+	dialogue.add new Button 'Restart',xoff+0*bstep,yoff,w, -> 
+		restart()
+		dialogues.pop()
+
+	dialogue.add new Button 'Next',xoff+1*bstep,yoff,w, ->
+		nextLevel()
+		dialogues.pop()
+
+	#dialogue.add new Button 'Hint',xoff+2*bstep,yoff,w, -> hint()
+	dialogue.add new Button 'Link',xoff+3*bstep,yoff,w
+	dialogue.add new Button 'Back',xoff+4*bstep,yoff,w, -> 
+		dialogues.pop()
 
 showHeap = (board,heap,x,y,dx) -> # dx kan vara både pos och neg
 	n = calcAntal board[heap]
@@ -201,33 +283,22 @@ display = (board) ->
 	textAlign CENTER,CENTER
 	textSize 10
 
-#	x = width/2-5+2
-#	y = height-110
-
 	x = 1280/2-5+2
 	y = 709-110
 
 	fill 200
-	text 'U = Undo',          x,y
-	text 'R = Restart',       x,y+10
 
-	text '3 4 5 6 7 8 9 T J Q K',    x,y+20
-	text 'Easy    Level    Hard',    x,y+30
+	# text "H = Hint (#{maxHints-hintsLeft} of #{maxHints})", x,y+70
 
-	text 'C = Classic',       x,y+40
-	text 'Space = Next',      x,y+60
-	text "H = Hint (#{maxHints-hintsLeft} of #{maxHints})", x,y+70
+	# if msg == ''
+	# 	text "#{hist.length} #{if hist.length==1 then "move" else "moves"}", x,y+105
+	# else
+	# 	text msg, x,y+105
 
-	if msg == ''
-		text "#{hist.length} #{if hist.length==1 then "move" else "moves"}", x,y+105
-	else
-		text msg, x,y+105
-
-	textSize 24
-	text (if classic then 'Classic' else LONG[N]), x,y+89
+	# textSize 24
+	# text (if classic then 'Classic' else LONG[N]), x,y+89
 	textAlign LEFT,CENTER
 	textSize 10
-#	text 'Generalens Tidsfördriv', 0,height-5
 	text 'Generalens Tidsfördriv', 0,709-5
 
 	for heap,y in ACES
@@ -246,6 +317,10 @@ display = (board) ->
 	for heap,x in PANEL
 		xx = [-8,-6,-4,-2,2,4,6,8][x]
 		showHeap board, heap, xx,4, w
+
+	showDialogue()
+
+showDialogue = -> (_.last dialogues).show()
 
 legalMove = (board,src,dst) ->
 	if src in ACES then return false 
@@ -298,49 +373,55 @@ prettyUndoMove = (src,dst,b,antal) ->
 		if src in PANEL then "#{prettyCard2 c2,antal} to panel"
 
 mousePressed = -> 
+
 	counter++
 	if not (0 < mouseX < width) then return
 	if not (0 < mouseY < height) then return
 
-	offset = (1280-9*w)/2
-	marked = null
-	mx = (mouseX/scaleFactor-offset)//w
-	my = mouseY/scaleFactor//h
-	if my >= 4
-		if mx<=3 then marked = 12 + mx
-		if mx>=5 then marked = 11 + mx
-	else
-		if mx==4 then marked = my
-		else if mx<4 then marked = [4,5,6,7][my]
-		else marked = [8,9,10,11][my]
-	print marked 
-	if marked==null then return
-
-	holes = []
-	found = false
-
-	alternativeDsts = [] # för att kunna välja mellan flera via Undo
-	for heap in ACES.concat HEAPS
-		if board[heap].length==0 then holes.push heap
-		if heap not in holes and legalMove board,marked,heap  
-			alternativeDsts.push heap
-	if alternativeDsts.length > 0
-		heap = alternativeDsts[counter % alternativeDsts.length]  
-		makeMove board,marked,heap,true
-		found = true
-	if not found
-		for heap in holes	
-			if legalMove board,marked,heap
-				makeMove board,marked,heap,true
-				break 
-
-	if 4*N == countAceCards board 
-		if hintsLeft == maxHints
-			msg = "#{(millis() - start) // 1000} seconds"
-		else if hintsLeft == maxHints-1
-			msg = "1 hint used"
+	dialogue = _.last dialogues
+	mx = mouseX/scaleFactor
+	my = mouseY/scaleFactor
+	if not dialogue.execute mx,my 
+	
+		offset = (1280-9*w)/2
+		marked = null
+		mx = (mouseX/scaleFactor-offset)//w
+		my = mouseY/scaleFactor//h
+		if my >= 4
+			if mx<=3 then marked = 12 + mx
+			if mx>=5 then marked = 11 + mx
 		else
-			msg = "#{maxHints - hintsLeft} hints used"
+			if mx==4 then marked = my
+			else if mx<4 then marked = [4,5,6,7][my]
+			else marked = [8,9,10,11][my]
+		#print 'marked',marked 
+
+		if marked != null
+			holes = []
+			found = false
+
+			alternativeDsts = [] # för att kunna välja mellan flera via Undo
+			for heap in ACES.concat HEAPS
+				if board[heap].length==0 then holes.push heap
+				if heap not in holes and legalMove board,marked,heap  
+					alternativeDsts.push heap
+			if alternativeDsts.length > 0
+				heap = alternativeDsts[counter % alternativeDsts.length]  
+				makeMove board,marked,heap,true
+				found = true
+			if not found
+				for heap in holes	
+					if legalMove board,marked,heap
+						makeMove board,marked,heap,true
+						break 
+
+			if 4*N == countAceCards board 
+				if hintsLeft == maxHints
+					msg = "#{(millis() - start) // 1000} seconds"
+				else if hintsLeft == maxHints-1
+					msg = "1 hint used"
+				else
+					msg = "#{maxHints - hintsLeft} hints used"
 
 	display board
 
@@ -459,7 +540,7 @@ newGame = (key) ->
 	while true 
 		if key in '3456789TJQK' then makeBoard 3+'3456789TJQK'.indexOf(key),classic
 		if key in 'C' then makeBoard 13,classic
-		maxHints = N
+		maxHints = 999 - N
 		hintsLeft = maxHints
 		originalBoard = _.cloneDeep board
 
@@ -504,19 +585,6 @@ nextLevel = ->
 	classic = false
 	newGame '   3456789TJQK'[N]
 
-keyPressed = -> 
-	if key == 'U' and hist.length > 0 then undoMove hist.pop()
-	if key == 'R' then restart()
-	if key in '3456789TJQKC' then newGame key 
-	if key == 'A' then shake = not shake
-	if key == ' ' then nextLevel()
-	if key == 'H' then hint()
-	if key == 'X' 
-		N = 13
-		board = [[101],[10103],[20101],[30103],[10404,30808,1313,1009],[506],[10707,303,20202,20505,20708],[11212,1111,20303,21010],[202,10808,707,20404],[10909,10505,20909,10606],[11010,21111,808,20606,31109],[11111,21313,30404,404,30705],[21212],[31313],[],[1212],[31212],[],[],[11313]]
-		hist = [[4,6,1],[7,10,1],[9,1,1],[17,3,1],[18,4,1],[14,8,1],[5,3,1],[8,11,2],[5,1,1],[5,10,1]]
-	display board
-		
 prettyCard2 = (card,antal) ->
 	[suit,under,over] = unpack card 
 	if antal==1 
