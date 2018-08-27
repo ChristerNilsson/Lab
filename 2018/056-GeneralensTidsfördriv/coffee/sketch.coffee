@@ -8,6 +8,17 @@
 #  7  7  7  7  7  3 11 11 11 11 11
 #    12 13 14 15    16 17 18 19      PANEL
 
+# I vissa situationer vill man styra one click.
+# Exempel:
+# Vid klick på 6 vill man ha 7,6 istf 5,6
+# 5     3,4,6      7
+# Tidigare
+# 5,6   3,4        7
+# samt klick på 6 ger
+#                  7,6,5
+# men man vill kanske ha
+# 5     3,4        7,6
+
 ACES = [0,1,2,3]
 HEAPS = [4,5,6,7,8,9,10,11]
 PANEL = [12,13,14,15,16,17,18,19]
@@ -20,9 +31,9 @@ LONG = " Ace 2 3 4 5 6 7 8 9 Ten Jack Queen King".split ' '
 OFFSETX = 468
 W = 263.25
 H = 352
-w = W/3
-h = H/3
-LIMIT = 2000 # Maximum steps considered before giving up.
+w = null
+h = null
+LIMIT = 1000 # Maximum steps considered before giving up.
 
 faces = null
 backs = null
@@ -44,6 +55,8 @@ srcs = null
 dsts = null
 hintsLeft = null
 maxHints = null
+counter = 0
+scaleFactor = null
 
 preload = -> 
 	faces = loadImage 'cards/Color_52_Faces_v.2.0.png'
@@ -59,7 +72,7 @@ assert 'dA', pack 3,0,0
 assert 'd2', pack 3,1,1 
 assert 'hJQ', pack 1,10,11 
 assert 'hJ', pack 1,10,10 
-print 'pack ok'
+#print 'pack ok'
 
 unpack = (n) -> 
 	suit = Suit.indexOf n[0]
@@ -70,7 +83,7 @@ assert [0,0,0], unpack 'cA'
 assert [3,0,0], unpack 'dA'
 assert [1,10,11], unpack 'hJQ'
 assert [1,10,10], unpack 'hJ'
-print 'unpack ok'
+#print 'unpack ok'
 
 compress = (board) ->
 	for heap in HEAPS
@@ -100,9 +113,9 @@ assert ['cA4'],compressOne ['cA2','c34']
 assert ['cA3'],compressOne ['cA','c2','c3'] 
 assert ['cA6'],compressOne ['cA2','c34','c56'] 
 assert ['cA2','h34','c56'],compressOne ['cA2','h34','c56'] 
-print 'compressOne ok'
+#print 'compressOne ok'
 
-dumpBoard = (board) -> heap.join ' ' for heap in board
+dumpBoard = (board) -> (heap.join ' ' for heap in board).join '|'
 		
 makeBoard = (maxRank,classic)->
 	N = maxRank
@@ -128,11 +141,13 @@ makeBoard = (maxRank,classic)->
 
 	compress board
 
+readBoard = (b) -> heap.split ' ' for heap in b.split '|'
+
 fakeBoard = ->
 	N = 13
 	classic = false 
-	if N==13 then board = ["cA","hA","sA","dA","cQ d2 d5 cJ c8 d8","h5 sJ c4 dK h8 sT","h6 d4 c56 cT s8","d9 s4 h3 d3","s2 c7 s9","h4 h7 hK s65","hQ sK dJ sQ c2 d7 c9","hT c3 h2","d6","dQ","s3","dT","cK","s7","h9","hJ"]
-	if N==13 then board = ["cA","hA","sA","dA","dK hQ h6 d7 h7","s6 d6 cJ dQ dT","s8 s45 d3 sT","c7 sK hK c8 d8","c3 s9 c9 s3 h9","h4 c6 sJ h3 d2","cT c4 s7 d5 h5","hJ d9 dJ h8 h2","cQ","s2","c2","d4","c5","sQ","cK","hT"] # 146 s
+	if N==13 then board = "cA|hA|sA|dA|h6 s8 h3 s2 d5|dJ s3 c9 d7|sK h7 dQ s5 h5 d34|cQ sJ dT d6|c7 cK hT d2 s4 c8|sQ s7 cJ s9T h9|h8 c56 c4 hJ d8|cT c3|c2|h2|h4|s6|d9|hQ|hK|dK"
+	board = readBoard board
 
 makeAutoShake = ->
 	autoShake = []
@@ -140,7 +155,14 @@ makeAutoShake = ->
 		autoShake.push [int(random(-2,2)),int(random(-2,2))]
 
 setup = ->
-	createCanvas 800,600
+	# Lås upplösning till 1280x709 (borde dock vara 1920x1200)
+	# Skala därefter om.
+	print windowWidth,windowHeight
+	createCanvas windowWidth-0.5,windowHeight - 0.5
+	print scaleFactor = min height/709,width/1280
+	w = W/2.5 
+	h = H/2.5
+
 	makeAutoShake()
 	newGame '3'
 	display board 
@@ -148,7 +170,10 @@ setup = ->
 showHeap = (board,heap,x,y,dx) -> # dx kan vara både pos och neg
 	n = calcAntal board[heap]
 	if n==0 then return 
-	x0 = width/2 - w/2
+
+#	x0 = width/2 - w/2
+	x0 = 1280/2 - w/2
+
 	if x < 0 then x0 += -w+dx
 	if x > 0 then x0 += w-dx
 	x = x0 + x*dx/2
@@ -171,11 +196,16 @@ showHeap = (board,heap,x,y,dx) -> # dx kan vara både pos och neg
 display = (board) ->
 	background 0,128,0
 
+	scale scaleFactor
+
 	textAlign CENTER,CENTER
 	textSize 10
 
-	x = width/2-5+2
-	y = height-110
+#	x = width/2-5+2
+#	y = height-110
+
+	x = 1280/2-5+2
+	y = 709-110
 
 	fill 200
 	text 'U = Undo',          x,y
@@ -186,14 +216,19 @@ display = (board) ->
 
 	text 'C = Classic',       x,y+40
 	text 'Space = Next',      x,y+60
-	text "H = Hint (#{hintsLeft} left)", x,y+70
+	text "H = Hint (#{maxHints-hintsLeft} of #{maxHints})", x,y+70
 
-	text msg, x,y+105
+	if msg == ''
+		text "#{hist.length} #{if hist.length==1 then "move" else "moves"}", x,y+105
+	else
+		text msg, x,y+105
+
 	textSize 24
 	text (if classic then 'Classic' else LONG[N]), x,y+89
 	textAlign LEFT,CENTER
 	textSize 10
-	text 'Generalens Tidsfördriv', 0,height-5
+#	text 'Generalens Tidsfördriv', 0,height-5
+	text 'Generalens Tidsfördriv', 0,709-5
 
 	for heap,y in ACES
 		showHeap board, heap, 0, y, 0
@@ -234,6 +269,7 @@ makeMove = (board,src,dst,record) ->
 
 # returns text move
 undoMove = ([src,dst,antal]) -> 
+	msg = ''
 	res = prettyUndoMove src,dst,board,antal
 	[board[src],board[dst]] = undoMoveOne board[src],board[dst],antal
 	res
@@ -262,12 +298,14 @@ prettyUndoMove = (src,dst,b,antal) ->
 		if src in PANEL then "#{prettyCard2 c2,antal} to panel"
 
 mousePressed = -> 
+	counter++
 	if not (0 < mouseX < width) then return
 	if not (0 < mouseY < height) then return
 
+	offset = (1280-9*w)/2
 	marked = null
-	mx = mouseX//(W/3)
-	my = mouseY//(H/3)
+	mx = (mouseX/scaleFactor-offset)//w
+	my = mouseY/scaleFactor//h
 	if my >= 4
 		if mx<=3 then marked = 12 + mx
 		if mx>=5 then marked = 11 + mx
@@ -275,20 +313,24 @@ mousePressed = ->
 		if mx==4 then marked = my
 		else if mx<4 then marked = [4,5,6,7][my]
 		else marked = [8,9,10,11][my]
-	if marked==null then return 
+	print marked 
+	if marked==null then return
 
 	holes = []
 	found = false
 
-	for heap in ACES.concat HEAPS 	
+	alternativeDsts = [] # för att kunna välja mellan flera via Undo
+	for heap in ACES.concat HEAPS
 		if board[heap].length==0 then holes.push heap
 		if heap not in holes and legalMove board,marked,heap  
-			makeMove board,marked,heap,true
-			found = true
-			break 
+			alternativeDsts.push heap
+	if alternativeDsts.length > 0
+		heap = alternativeDsts[counter % alternativeDsts.length]  
+		makeMove board,marked,heap,true
+		found = true
 	if not found
 		for heap in holes	
-			if legalMove board,marked,heap  
+			if legalMove board,marked,heap
 				makeMove board,marked,heap,true
 				break 
 
@@ -451,6 +493,7 @@ newGame = (key) ->
 restart = ->
 	hist = []
 	board = _.cloneDeep originalBoard
+	msg = ''
 
 nextLevel = ->
 	if 4*N == countAceCards board
@@ -494,7 +537,7 @@ assert "heart J", prettyCard pack 1,10,10
 assert "spade Q", prettyCard pack 2,11,11
 assert "diamond K", prettyCard pack 3,12,12
 assert "3", prettyCard pack(3,2,2),1
-print 'prettyCard ok'
+#print 'prettyCard ok'
 
 prettyMove = (src,dst,b) ->
 	c1 = _.last b[src]

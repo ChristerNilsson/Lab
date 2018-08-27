@@ -12,6 +12,17 @@ var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = [
 //  6  6  6  6  6  2 10 10 10 10 10
 //  7  7  7  7  7  3 11 11 11 11 11
 //    12 13 14 15    16 17 18 19      PANEL
+
+// I vissa situationer vill man styra one click.
+// Exempel:
+// Vid klick på 6 vill man ha 7,6 istf 5,6
+// 5     3,4,6      7
+// Tidigare
+// 5,6   3,4        7
+// samt klick på 6 ger
+//                  7,6,5
+// men man vill kanske ha
+// 5     3,4        7,6
 var ACES,
     H,
     HEAPS,
@@ -38,6 +49,7 @@ var ACES,
     compressOne,
     countAceCards,
     countPanelCards,
+    counter,
     display,
     dsts,
     dumpBoard,
@@ -72,7 +84,9 @@ var ACES,
     print,
     printSolution,
     range,
+    readBoard,
     restart,
+    scaleFactor,
     setup,
     shake,
     showHeap,
@@ -106,11 +120,11 @@ W = 263.25;
 
 H = 352;
 
-w = W / 3;
+w = null;
 
-h = H / 3;
+h = null;
 
-LIMIT = 2000; // Maximum steps considered before giving up.
+LIMIT = 1000; // Maximum steps considered before giving up.
 
 faces = null;
 
@@ -150,6 +164,10 @@ hintsLeft = null;
 
 maxHints = null;
 
+counter = 0;
+
+scaleFactor = null;
+
 preload = function preload() {
   faces = loadImage('cards/Color_52_Faces_v.2.0.png');
   return backs = loadImage('cards/Playing_Card_Backs.png');
@@ -179,8 +197,7 @@ assert('hJQ', pack(1, 10, 11));
 
 assert('hJ', pack(1, 10, 10));
 
-print('pack ok');
-
+//print 'pack ok'
 unpack = function unpack(n) {
   var over, suit, under;
   suit = Suit.indexOf(n[0]);
@@ -201,8 +218,7 @@ assert([1, 10, 11], unpack('hJQ'));
 
 assert([1, 10, 10], unpack('hJ'));
 
-print('unpack ok');
-
+//print 'unpack ok'
 compress = function compress(board) {
   var heap, j, len, results;
   results = [];
@@ -269,16 +285,18 @@ assert(['cA6'], compressOne(['cA2', 'c34', 'c56']));
 
 assert(['cA2', 'h34', 'c56'], compressOne(['cA2', 'h34', 'c56']));
 
-print('compressOne ok');
-
+//print 'compressOne ok'
 dumpBoard = function dumpBoard(board) {
-  var heap, j, len, results;
-  results = [];
-  for (j = 0, len = board.length; j < len; j++) {
-    heap = board[j];
-    results.push(heap.join(' '));
-  }
-  return results;
+  var heap;
+  return function () {
+    var j, len, results;
+    results = [];
+    for (j = 0, len = board.length; j < len; j++) {
+      heap = board[j];
+      results.push(heap.join(' '));
+    }
+    return results;
+  }().join('|');
 };
 
 makeBoard = function makeBoard(maxRank, classic) {
@@ -318,16 +336,24 @@ makeBoard = function makeBoard(maxRank, classic) {
   return compress(board);
 };
 
+readBoard = function readBoard(b) {
+  var heap, j, len, ref, results;
+  ref = b.split('|');
+  results = [];
+  for (j = 0, len = ref.length; j < len; j++) {
+    heap = ref[j];
+    results.push(heap.split(' '));
+  }
+  return results;
+};
+
 fakeBoard = function fakeBoard() {
   N = 13;
   classic = false;
   if (N === 13) {
-    board = ["cA", "hA", "sA", "dA", "cQ d2 d5 cJ c8 d8", "h5 sJ c4 dK h8 sT", "h6 d4 c56 cT s8", "d9 s4 h3 d3", "s2 c7 s9", "h4 h7 hK s65", "hQ sK dJ sQ c2 d7 c9", "hT c3 h2", "d6", "dQ", "s3", "dT", "cK", "s7", "h9", "hJ"];
+    board = "cA|hA|sA|dA|h6 s8 h3 s2 d5|dJ s3 c9 d7|sK h7 dQ s5 h5 d34|cQ sJ dT d6|c7 cK hT d2 s4 c8|sQ s7 cJ s9T h9|h8 c56 c4 hJ d8|cT c3|c2|h2|h4|s6|d9|hQ|hK|dK";
   }
-  if (N === 13) {
-    return board = ["cA", "hA", "sA", "dA", "dK hQ h6 d7 h7", "s6 d6 cJ dQ dT", "s8 s45 d3 sT", "c7 sK hK c8 d8", "c3 s9 c9 s3 h9", "h4 c6 sJ h3 d2", "cT c4 s7 d5 h5", "hJ d9 dJ h8 h2", "cQ", "s2", "c2", "d4", "c5", "sQ", "cK", "hT" // 146 s
-    ];
-  }
+  return board = readBoard(board);
 };
 
 makeAutoShake = function makeAutoShake() {
@@ -343,7 +369,13 @@ makeAutoShake = function makeAutoShake() {
 };
 
 setup = function setup() {
-  createCanvas(800, 600);
+  // Lås upplösning till 1280x709 (borde dock vara 1920x1200)
+  // Skala därefter om.
+  print(windowWidth, windowHeight);
+  createCanvas(windowWidth - 0.5, windowHeight - 0.5);
+  print(scaleFactor = min(height / 709, width / 1280));
+  w = W / 2.5;
+  h = H / 2.5;
   makeAutoShake();
   newGame('3');
   return display(board);
@@ -356,7 +388,9 @@ showHeap = function showHeap(board, heap, x, y, dx) {
   if (n === 0) {
     return;
   }
-  x0 = width / 2 - w / 2;
+
+  //	x0 = width/2 - w/2
+  x0 = 1280 / 2 - w / 2;
   if (x < 0) {
     x0 += -w + dx;
   }
@@ -419,10 +453,13 @@ showHeap = function showHeap(board, heap, x, y, dx) {
 display = function display(board) {
   var dx, heap, j, l, len, len1, len2, len3, m, n, o, ref, ref1, results, x, xx, y;
   background(0, 128, 0);
+  scale(scaleFactor);
   textAlign(CENTER, CENTER);
   textSize(10);
-  x = width / 2 - 5 + 2;
-  y = height - 110;
+  //	x = width/2-5+2
+  //	y = height-110
+  x = 1280 / 2 - 5 + 2;
+  y = 709 - 110;
   fill(200);
   text('U = Undo', x, y);
   text('R = Restart', x, y + 10);
@@ -430,13 +467,18 @@ display = function display(board) {
   text('Easy    Level    Hard', x, y + 30);
   text('C = Classic', x, y + 40);
   text('Space = Next', x, y + 60);
-  text("H = Hint (" + hintsLeft + " left)", x, y + 70);
-  text(msg, x, y + 105);
+  text("H = Hint (" + (maxHints - hintsLeft) + " of " + maxHints + ")", x, y + 70);
+  if (msg === '') {
+    text(hist.length + " " + (hist.length === 1 ? "move" : "moves"), x, y + 105);
+  } else {
+    text(msg, x, y + 105);
+  }
   textSize(24);
   text(classic ? 'Classic' : LONG[N], x, y + 89);
   textAlign(LEFT, CENTER);
   textSize(10);
-  text('Generalens Tidsfördriv', 0, height - 5);
+  //	text 'Generalens Tidsfördriv', 0,height-5
+  text('Generalens Tidsfördriv', 0, 709 - 5);
   for (y = j = 0, len = ACES.length; j < len; y = ++j) {
     heap = ACES[y];
     showHeap(board, heap, 0, y, 0);
@@ -539,6 +581,7 @@ undoMove = function undoMove(_ref5) {
       antal = _ref6[2];
 
   var res;
+  msg = '';
   res = prettyUndoMove(src, dst, board, antal);
 
   var _undoMoveOne = undoMoveOne(board[src], board[dst], antal);
@@ -597,16 +640,18 @@ prettyUndoMove = function prettyUndoMove(src, dst, b, antal) {
 };
 
 mousePressed = function mousePressed() {
-  var found, heap, holes, j, l, len, len1, marked, mx, my, ref;
+  var alternativeDsts, found, heap, holes, j, l, len, len1, marked, mx, my, offset, ref;
+  counter++;
   if (!(0 < mouseX && mouseX < width)) {
     return;
   }
   if (!(0 < mouseY && mouseY < height)) {
     return;
   }
+  offset = (1280 - 9 * w) / 2;
   marked = null;
-  mx = Math.floor(mouseX / (W / 3));
-  my = Math.floor(mouseY / (H / 3));
+  mx = Math.floor((mouseX / scaleFactor - offset) / w);
+  my = Math.floor(mouseY / scaleFactor / h);
   if (my >= 4) {
     if (mx <= 3) {
       marked = 12 + mx;
@@ -623,11 +668,13 @@ mousePressed = function mousePressed() {
       marked = [8, 9, 10, 11][my];
     }
   }
+  print(marked);
   if (marked === null) {
     return;
   }
   holes = [];
   found = false;
+  alternativeDsts = []; // för att kunna välja mellan flera via Undo
   ref = ACES.concat(HEAPS);
   for (j = 0, len = ref.length; j < len; j++) {
     heap = ref[j];
@@ -635,10 +682,13 @@ mousePressed = function mousePressed() {
       holes.push(heap);
     }
     if (indexOf.call(holes, heap) < 0 && legalMove(board, marked, heap)) {
-      makeMove(board, marked, heap, true);
-      found = true;
-      break;
+      alternativeDsts.push(heap);
     }
+  }
+  if (alternativeDsts.length > 0) {
+    heap = alternativeDsts[counter % alternativeDsts.length];
+    makeMove(board, marked, heap, true);
+    found = true;
   }
   if (!found) {
     for (l = 0, len1 = holes.length; l < len1; l++) {
@@ -907,7 +957,8 @@ newGame = function newGame(key) {
 
 restart = function restart() {
   hist = [];
-  return board = _.cloneDeep(originalBoard);
+  board = _.cloneDeep(originalBoard);
+  return msg = '';
 };
 
 nextLevel = function nextLevel() {
@@ -1002,8 +1053,7 @@ assert("diamond K", prettyCard(pack(3, 12, 12)));
 
 assert("3", prettyCard(pack(3, 2, 2), 1));
 
-print('prettyCard ok');
-
+//print 'prettyCard ok'
 prettyMove = function prettyMove(src, dst, b) {
   var c1, c2;
   c1 = _.last(b[src]);
