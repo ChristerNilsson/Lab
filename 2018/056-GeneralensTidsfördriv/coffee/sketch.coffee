@@ -26,11 +26,14 @@ PANEL = [12,13,14,15,16,17,18,19]
 Suit = 'chsd'
 Rank = "A23456789TJQK"
 SUIT = "club heart spade diamond".split ' '
-RANK = "A23456789TJQK" #.split ' '
-LONG = " Ace 2 3 4 5 6 7 8 9 Ten Jack Queen King".split ' '
+RANK = "A23456789TJQK" 
+LONG = " Ace Two Three Four Five Six Seven Eight Nine Ten Jack Queen King Classic".split ' '
+
+# Konstanter för cards.png
 OFFSETX = 468
 W = 263.25
 H = 352
+
 w = null
 h = null
 LIMIT = 1000 # Maximum steps considered before giving up.
@@ -47,14 +50,12 @@ aceCards = 4
 originalBoard = null
 start = null
 msg = ''
-autoShake = []
-shake = true
 N = null # Max rank
 classic = false
 srcs = null
 dsts = null
-hintsLeft = null
-maxHints = null
+hintsUsed = null
+#maxHints = null
 counter = 0
 scaleFactor = null
 
@@ -88,6 +89,7 @@ class Dialogue
 
 class Button 
 	constructor : (@txt, @x, @y, @r, @event = -> print @txt) ->
+	info : (@txt,@event) ->
 	show : ->
 		ellipse @x,@y,2*@r,2*@r
 		push()
@@ -187,34 +189,27 @@ fakeBoard = ->
 	if N==13 then board = "cA|hA|sA|dA|h6 s8 h3 s2 d5|dJ s3 c9 d7|sK h7 dQ s5 h5 d34|cQ sJ dT d6|c7 cK hT d2 s4 c8|sQ s7 cJ s9T h9|h8 c56 c4 hJ d8|cT c3|c2|h2|h4|s6|d9|hQ|hK|dK"
 	board = readBoard board
 
-makeAutoShake = ->
-	autoShake = []
-	for i in range 52
-		autoShake.push [int(random(-2,2)),int(random(-2,2))]
-
 setup = ->
 	# Lås upplösning till 1280x709 (borde dock vara 1920x1200)
 	# Skala därefter om.
 	print windowWidth,windowHeight
 	createCanvas windowWidth-0.5,windowHeight - 0.5
 	print scaleFactor = min height/709,width/1280
-	w = W/2.5 
-	h = H/2.5
+	w = W/2.2
+	h = H/2.2
 
-	makeAutoShake()
 	newGame '3'
 
-	x = 636 
+	x = width/2 
 	y = 709-110
 	dialogue = new Dialogue x,y
-	dialogue.add new Button 'Undo',-0.2*h,0, 0.2*h, -> if hist.length > 0 then undoMove hist.pop()
-	dialogue.add new Button 'Hint', 0.2*h,0, 0.2*h, -> hint()
-	dialogue.add new Button 'Menu',0,0.5*h,0.25*h, -> menu()
+	dialogue.add new Button 'Undo',-578,0.3*h, 0.25*h, -> if hist.length > 0 then undoMove hist.pop()
+	dialogue.add new Button 'Menu',   0,0.3*h, 0.25*h, -> menu()
+	dialogue.add new Button 'Hint', 578,0.3*h, 0.25*h, -> hint()
 
 	display board 
 
 keyPressed = -> 
-	if key == 'A' then shake = not shake
 	if key == 'X' 
 		N = 13
 		board = [[101],[10103],[20101],[30103],[10404,30808,1313,1009],[506],[10707,303,20202,20505,20708],[11212,1111,20303,21010],[202,10808,707,20404],[10909,10505,20909,10606],[11010,21111,808,20606,31109],[11111,21313,30404,404,30705],[21212],[31313],[],[1212],[31212],[],[],[11313]]
@@ -222,13 +217,29 @@ keyPressed = ->
 	display board
 
 menu = ->
-	dialogue = new Dialogue 50,50,40
-	for level,i in "3456789TJQKC"
+	dialogue = new Dialogue 0,0,32
+
+	angleMode DEGREES
+
+	x = width/2
+	y = height/2
+
+	r1 = 290
+	r2 = 60
+	for i in range 15
+		v = i*360/15
+		dialogue.add new Button '', x+r1*cos(v), y+r1*sin(v), r2, -> 
+
+	dialogue.add new Button 'Back',x,y,r2, -> dialogues.pop()
+
+	for level,i in LONG.slice 3
+		print level,i
 		f = -> 
-			key = level		
-			y = if i<6 then 0 else 200
-			dialogue.add new Button key,90+200*(i%6),100+y,90, -> 
-				newGame key
+			button = dialogue.buttons[i]	
+			index = i+2
+			button.txt = level 
+			button.event = -> 
+				newGame "A23456789TJQKC"[index]
 				dialogues.pop()
 		f()
 
@@ -236,87 +247,77 @@ menu = ->
 	yoff = 500
 	bstep = 2*w+32
 
-	dialogue.add new Button 'Restart',xoff+0*bstep,yoff,w, -> 
+	dialogue.buttons[12].info 'Restart', -> 
 		restart()
 		dialogues.pop()
 
-	dialogue.add new Button 'Next',xoff+1*bstep,yoff,w, ->
+	dialogue.buttons[13].info 'Next', ->
 		nextLevel()
 		dialogues.pop()
 
-	#dialogue.add new Button 'Hint',xoff+2*bstep,yoff,w, -> hint()
-	dialogue.add new Button 'Link',xoff+3*bstep,yoff,w
-	dialogue.add new Button 'Back',xoff+4*bstep,yoff,w, -> 
-		dialogues.pop()
-
+	dialogue.buttons[14].info 'Link'
+	
 showHeap = (board,heap,x,y,dx) -> # dx kan vara både pos och neg
 	n = calcAntal board[heap]
 	if n==0 then return 
 
-#	x0 = width/2 - w/2
 	x0 = 1280/2 - w/2
 
 	if x < 0 then x0 += -w+dx
 	if x > 0 then x0 += w-dx
 	x = x0 + x*dx/2
-	y = y * h
+	y = y * 0.9*h - 10
 	for card,k in board[heap]
 		[suit,under,over] = unpack card
 		dr = if under < over then 1 else -1
 		for rank in range under,over+dr,dr
-			[x0,y0] = if shake then autoShake[13*suit+rank] else [0,0]
-			image faces, x0+x,y0+y+13, w,h, OFFSETX+W*rank,1092+H*suit,243,H
+			image faces, x,y+13, w,h, OFFSETX+W*rank,1092+H*suit,243,H
 			x += dx
 
 	# visa eventuellt baksidan
 	card = _.last board[heap]
 	[suit,under,over] = unpack card
 	if heap in ACES and over == N-1
-		[x0,y0] = if shake then autoShake[13*suit+rank] else [0,0]
-		image backs, x0+x,y0+y+13, w,h, OFFSETX+860,1092+622,243,H
+		image backs, x,y+13, w,h, OFFSETX+860,1092+622,243,H
 
 display = (board) ->
 	background 0,128,0
 
 	scale scaleFactor
 
-	textAlign CENTER,CENTER
-	textSize 10
-
-	x = 1280/2-5+2
-	y = 709-110
-
 	fill 200
 
-	# text "H = Hint (#{maxHints-hintsLeft} of #{maxHints})", x,y+70
+	textSize 20
 
-	# if msg == ''
-	# 	text "#{hist.length} #{if hist.length==1 then "move" else "moves"}", x,y+105
-	# else
-	# 	text msg, x,y+105
+	x = width/2
+	y = height
 
-	# textSize 24
-	# text (if classic then 'Classic' else LONG[N]), x,y+89
-	textAlign LEFT,CENTER
-	textSize 10
-	text 'Generalens Tidsfördriv', 0,709-5
+	textAlign CENTER,CENTER
+	text hist.length,  w/2,709-h+40
+	text 'Generalens', w/2,709-5
+
+	text (if classic then 'Classic' else LONG[N]), x,709-h+40
+	text '73s', x,709-h+160
+
+	text hintsUsed, width-w/2,709-h+40
+	text 'Tidsfördriv', width-w/2,709-h+160
 
 	for heap,y in ACES
 		showHeap board, heap, 0, y, 0
 
 	for heap,y in [4,5,6,7]
 		n = calcAntal board[heap]
-		dx = if n<=7 then w/2 else (width/2-w/2-w)/(n-1)
+		dx = if n<=7 then w/2 else min w/2,(width/2-w/2-w)/(n-1)
 		showHeap board, heap, -2, y, -dx
 
 	for heap,y in [8,9,10,11]
 		n = calcAntal board[heap]
-		dx = if n<=7 then w/2 else (width/2-w/2-w)/(n-1)
+		dx = if n<=7 then w/2 else min w/2,(width/2-w/2-w)/(n-1)
 		showHeap board, heap, 2, y, dx
 
 	for heap,x in PANEL
 		xx = [-8,-6,-4,-2,2,4,6,8][x]
-		showHeap board, heap, xx,4, w
+		showHeap board, heap, xx,4, w-7
 
 	showDialogue()
 
@@ -416,12 +417,7 @@ mousePressed = ->
 						break 
 
 			if 4*N == countAceCards board 
-				if hintsLeft == maxHints
-					msg = "#{(millis() - start) // 1000} seconds"
-				else if hintsLeft == maxHints-1
-					msg = "1 hint used"
-				else
-					msg = "#{maxHints - hintsLeft} hints used"
+				msg = "#{(millis() - start) // 1000} seconds"
 
 	display board
 
@@ -485,19 +481,25 @@ expand = ([aceCards,level,b,path]) ->
 			res.push [countAceCards(b1), level+1, b1, path.concat([move])] 
 	res
 
+# hint = ->
+# 	if hintsLeft == 0 then return
+# 	hintsLeft--
+# 	undone = []
+# 	while true 
+# 		res = hintOne()
+# 		if res? or hist.length==0
+# 			for u in undone
+# 				print "Undo: #{u}"
+# 			print "Move: #{res}"
+# 			return
+# 		card = hist.pop()
+# 		undone.push undoMove card
+
 hint = ->
-	if hintsLeft == 0 then return
-	hintsLeft--
-	undone = []
-	while true 
-		res = hintOne()
-		if res? or hist.length==0
-			for u in undone
-				print "Undo: #{u}"
-			print "Move: #{res}"
-			return
-		card = hist.pop()
-		undone.push undoMove card
+	hintsUsed++
+	res = hintOne()
+	if res? or hist.length==0 then return 
+	undoMove hist.pop()
 
 hintOne = -> 
 	hintTime = millis()
@@ -540,8 +542,7 @@ newGame = (key) ->
 	while true 
 		if key in '3456789TJQK' then makeBoard 3+'3456789TJQK'.indexOf(key),classic
 		if key in 'C' then makeBoard 13,classic
-		maxHints = 999 - N
-		hintsLeft = maxHints
+		hintsUsed = 0
 		originalBoard = _.cloneDeep board
 
 		aceCards = countAceCards board		

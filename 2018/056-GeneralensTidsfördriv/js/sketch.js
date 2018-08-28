@@ -44,7 +44,6 @@ var ACES,
     W,
     aceCards,
     assert,
-    autoShake,
     backs,
     board,
     calcAntal,
@@ -68,15 +67,13 @@ var ACES,
     hash,
     hint,
     hintOne,
-    hintsLeft,
+    hintsUsed,
     hist,
     keyPressed,
     legalMove,
-    makeAutoShake,
     makeBoard,
     makeKey,
     makeMove,
-    maxHints,
     menu,
     mousePressed,
     msg,
@@ -96,7 +93,6 @@ var ACES,
     restart,
     scaleFactor,
     setup,
-    shake,
     showDialogue,
     showHeap,
     srcs,
@@ -119,10 +115,11 @@ Rank = "A23456789TJQK";
 
 SUIT = "club heart spade diamond".split(' ');
 
-RANK = "A23456789TJQK"; //.split ' '
+RANK = "A23456789TJQK";
 
-LONG = " Ace 2 3 4 5 6 7 8 9 Ten Jack Queen King".split(' ');
+LONG = " Ace Two Three Four Five Six Seven Eight Nine Ten Jack Queen King Classic".split(' ');
 
+// Konstanter för cards.png
 OFFSETX = 468;
 
 W = 263.25;
@@ -157,10 +154,6 @@ start = null;
 
 msg = '';
 
-autoShake = [];
-
-shake = true;
-
 N = null; // Max rank
 
 classic = false;
@@ -169,10 +162,9 @@ srcs = null;
 
 dsts = null;
 
-hintsLeft = null;
+hintsUsed = null;
 
-maxHints = null;
-
+//maxHints = null
 counter = 0;
 
 scaleFactor = null;
@@ -258,6 +250,12 @@ Button = function () {
   }
 
   _createClass(Button, [{
+    key: "info",
+    value: function info(txt, event) {
+      this.txt = txt;
+      this.event = event;
+    }
+  }, {
     key: "show",
     value: function show() {
       ellipse(this.x, this.y, 2 * this.r, 2 * this.r);
@@ -462,18 +460,6 @@ fakeBoard = function fakeBoard() {
   return board = readBoard(board);
 };
 
-makeAutoShake = function makeAutoShake() {
-  var i, j, len, ref, results;
-  autoShake = [];
-  ref = range(52);
-  results = [];
-  for (j = 0, len = ref.length; j < len; j++) {
-    i = ref[j];
-    results.push(autoShake.push([int(random(-2, 2)), int(random(-2, 2))]));
-  }
-  return results;
-};
-
 setup = function setup() {
   var dialogue, x, y;
   // Lås upplösning till 1280x709 (borde dock vara 1920x1200)
@@ -481,31 +467,27 @@ setup = function setup() {
   print(windowWidth, windowHeight);
   createCanvas(windowWidth - 0.5, windowHeight - 0.5);
   print(scaleFactor = min(height / 709, width / 1280));
-  w = W / 2.5;
-  h = H / 2.5;
-  makeAutoShake();
+  w = W / 2.2;
+  h = H / 2.2;
   newGame('3');
-  x = 636;
+  x = width / 2;
   y = 709 - 110;
   dialogue = new Dialogue(x, y);
-  dialogue.add(new Button('Undo', -0.2 * h, 0, 0.2 * h, function () {
+  dialogue.add(new Button('Undo', -578, 0.3 * h, 0.25 * h, function () {
     if (hist.length > 0) {
       return undoMove(hist.pop());
     }
   }));
-  dialogue.add(new Button('Hint', 0.2 * h, 0, 0.2 * h, function () {
-    return hint();
-  }));
-  dialogue.add(new Button('Menu', 0, 0.5 * h, 0.25 * h, function () {
+  dialogue.add(new Button('Menu', 0, 0.3 * h, 0.25 * h, function () {
     return menu();
+  }));
+  dialogue.add(new Button('Hint', 578, 0.3 * h, 0.25 * h, function () {
+    return hint();
   }));
   return display(board);
 };
 
 keyPressed = function keyPressed() {
-  if (key === 'A') {
-    shake = !shake;
-  }
   if (key === 'X') {
     N = 13;
     board = [[101], [10103], [20101], [30103], [10404, 30808, 1313, 1009], [506], [10707, 303, 20202, 20505, 20708], [11212, 1111, 20303, 21010], [202, 10808, 707, 20404], [10909, 10505, 20909, 10606], [11010, 21111, 808, 20606, 31109], [11111, 21313, 30404, 404, 30705], [21212], [31313], [], [1212], [31212], [], [], [11313]];
@@ -515,49 +497,59 @@ keyPressed = function keyPressed() {
 };
 
 menu = function menu() {
-  var bstep, dialogue, f, i, j, len, level, ref, xoff, yoff;
-  dialogue = new Dialogue(50, 50, 40);
-  ref = "3456789TJQKC";
-  for (i = j = 0, len = ref.length; j < len; i = ++j) {
-    level = ref[i];
+  var bstep, dialogue, f, i, j, l, len, len1, level, r1, r2, ref, ref1, v, x, xoff, y, yoff;
+  dialogue = new Dialogue(0, 0, 32);
+  angleMode(DEGREES);
+  x = width / 2;
+  y = height / 2;
+  r1 = 290;
+  r2 = 60;
+  ref = range(15);
+  for (j = 0, len = ref.length; j < len; j++) {
+    i = ref[j];
+    v = i * 360 / 15;
+    dialogue.add(new Button('', x + r1 * cos(v), y + r1 * sin(v), r2, function () {}));
+  }
+  dialogue.add(new Button('Back', x, y, r2, function () {
+    return dialogues.pop();
+  }));
+  ref1 = LONG.slice(3);
+  for (i = l = 0, len1 = ref1.length; l < len1; i = ++l) {
+    level = ref1[i];
+    print(level, i);
     f = function f() {
-      var key, y;
-      key = level;
-      y = i < 6 ? 0 : 200;
-      return dialogue.add(new Button(key, 90 + 200 * (i % 6), 100 + y, 90, function () {
-        newGame(key);
+      var button, index;
+      button = dialogue.buttons[i];
+      index = i + 2;
+      button.txt = level;
+      return button.event = function () {
+        newGame("A23456789TJQKC"[index]);
         return dialogues.pop();
-      }));
+      };
     };
     f();
   }
   xoff = 100;
   yoff = 500;
   bstep = 2 * w + 32;
-  dialogue.add(new Button('Restart', xoff + 0 * bstep, yoff, w, function () {
+  dialogue.buttons[12].info('Restart', function () {
     restart();
     return dialogues.pop();
-  }));
-  dialogue.add(new Button('Next', xoff + 1 * bstep, yoff, w, function () {
+  });
+  dialogue.buttons[13].info('Next', function () {
     nextLevel();
     return dialogues.pop();
-  }));
-  //dialogue.add new Button 'Hint',xoff+2*bstep,yoff,w, -> hint()
-  dialogue.add(new Button('Link', xoff + 3 * bstep, yoff, w));
-  return dialogue.add(new Button('Back', xoff + 4 * bstep, yoff, w, function () {
-    return dialogues.pop();
-  }));
+  });
+  return dialogue.buttons[14].info('Link');
 };
 
 showHeap = function showHeap(board, heap, x, y, dx) {
   // dx kan vara både pos och neg
-  var card, dr, j, k, l, len, len1, n, over, rank, ref, ref1, suit, under, x0, y0;
+  var card, dr, j, k, l, len, len1, n, over, rank, ref, ref1, suit, under, x0;
   n = calcAntal(board[heap]);
   if (n === 0) {
     return;
   }
-
-  //	x0 = width/2 - w/2
   x0 = 1280 / 2 - w / 2;
   if (x < 0) {
     x0 += -w + dx;
@@ -566,7 +558,7 @@ showHeap = function showHeap(board, heap, x, y, dx) {
     x0 += w - dx;
   }
   x = x0 + x * dx / 2;
-  y = y * h;
+  y = y * 0.9 * h - 10;
   ref = board[heap];
   for (k = j = 0, len = ref.length; j < len; k = ++j) {
     card = ref[k];
@@ -583,15 +575,7 @@ showHeap = function showHeap(board, heap, x, y, dx) {
     ref1 = range(under, over + dr, dr);
     for (l = 0, len1 = ref1.length; l < len1; l++) {
       rank = ref1[l];
-
-      var _ref = shake ? autoShake[13 * suit + rank] : [0, 0];
-
-      var _ref2 = _slicedToArray(_ref, 2);
-
-      x0 = _ref2[0];
-      y0 = _ref2[1];
-
-      image(faces, x0 + x, y0 + y + 13, w, h, OFFSETX + W * rank, 1092 + H * suit, 243, H);
+      image(faces, x, y + 13, w, h, OFFSETX + W * rank, 1092 + H * suit, 243, H);
       x += dx;
     }
   }
@@ -607,14 +591,7 @@ showHeap = function showHeap(board, heap, x, y, dx) {
   over = _unpack8[2];
 
   if (indexOf.call(ACES, heap) >= 0 && over === N - 1) {
-    var _ref3 = shake ? autoShake[13 * suit + rank] : [0, 0];
-
-    var _ref4 = _slicedToArray(_ref3, 2);
-
-    x0 = _ref4[0];
-    y0 = _ref4[1];
-
-    return image(backs, x0 + x, y0 + y + 13, w, h, OFFSETX + 860, 1092 + 622, 243, H);
+    return image(backs, x, y + 13, w, h, OFFSETX + 860, 1092 + 622, 243, H);
   }
 };
 
@@ -622,23 +599,17 @@ display = function display(board) {
   var dx, heap, j, l, len, len1, len2, len3, m, n, o, ref, ref1, x, xx, y;
   background(0, 128, 0);
   scale(scaleFactor);
-  textAlign(CENTER, CENTER);
-  textSize(10);
-  x = 1280 / 2 - 5 + 2;
-  y = 709 - 110;
   fill(200);
-  // text "H = Hint (#{maxHints-hintsLeft} of #{maxHints})", x,y+70
-
-  // if msg == ''
-  // 	text "#{hist.length} #{if hist.length==1 then "move" else "moves"}", x,y+105
-  // else
-  // 	text msg, x,y+105
-
-  // textSize 24
-  // text (if classic then 'Classic' else LONG[N]), x,y+89
-  textAlign(LEFT, CENTER);
-  textSize(10);
-  text('Generalens Tidsfördriv', 0, 709 - 5);
+  textSize(20);
+  x = width / 2;
+  y = height;
+  textAlign(CENTER, CENTER);
+  text(hist.length, w / 2, 709 - h + 40);
+  text('Generalens', w / 2, 709 - 5);
+  text(classic ? 'Classic' : LONG[N], x, 709 - h + 40);
+  text('73s', x, 709 - h + 160);
+  text(hintsUsed, width - w / 2, 709 - h + 40);
+  text('Tidsfördriv', width - w / 2, 709 - h + 160);
   for (y = j = 0, len = ACES.length; j < len; y = ++j) {
     heap = ACES[y];
     showHeap(board, heap, 0, y, 0);
@@ -647,20 +618,20 @@ display = function display(board) {
   for (y = l = 0, len1 = ref.length; l < len1; y = ++l) {
     heap = ref[y];
     n = calcAntal(board[heap]);
-    dx = n <= 7 ? w / 2 : (width / 2 - w / 2 - w) / (n - 1);
+    dx = n <= 7 ? w / 2 : min(w / 2, (width / 2 - w / 2 - w) / (n - 1));
     showHeap(board, heap, -2, y, -dx);
   }
   ref1 = [8, 9, 10, 11];
   for (y = m = 0, len2 = ref1.length; m < len2; y = ++m) {
     heap = ref1[y];
     n = calcAntal(board[heap]);
-    dx = n <= 7 ? w / 2 : (width / 2 - w / 2 - w) / (n - 1);
+    dx = n <= 7 ? w / 2 : min(w / 2, (width / 2 - w / 2 - w) / (n - 1));
     showHeap(board, heap, 2, y, dx);
   }
   for (x = o = 0, len3 = PANEL.length; o < len3; x = ++o) {
     heap = PANEL[x];
     xx = [-8, -6, -4, -2, 2, 4, 6, 8][x];
-    showHeap(board, heap, xx, 4, w);
+    showHeap(board, heap, xx, 4, w - 7);
   }
   return showDialogue();
 };
@@ -737,11 +708,11 @@ makeMove = function makeMove(board, src, dst, record) {
 };
 
 // returns text move
-undoMove = function undoMove(_ref5) {
-  var _ref6 = _slicedToArray(_ref5, 3),
-      src = _ref6[0],
-      dst = _ref6[1],
-      antal = _ref6[2];
+undoMove = function undoMove(_ref) {
+  var _ref2 = _slicedToArray(_ref, 3),
+      src = _ref2[0],
+      dst = _ref2[1],
+      antal = _ref2[2];
 
   var res;
   msg = '';
@@ -865,13 +836,7 @@ mousePressed = function mousePressed() {
         }
       }
       if (4 * N === countAceCards(board)) {
-        if (hintsLeft === maxHints) {
-          msg = Math.floor((millis() - start) / 1000) + " seconds";
-        } else if (hintsLeft === maxHints - 1) {
-          msg = "1 hint used";
-        } else {
-          msg = maxHints - hintsLeft + " hints used";
-        }
+        msg = Math.floor((millis() - start) / 1000) + " seconds";
       }
     }
   }
@@ -967,12 +932,12 @@ countPanelCards = function countPanelCards(b) {
   return res;
 };
 
-expand = function expand(_ref7) {
-  var _ref8 = _slicedToArray(_ref7, 4),
-      aceCards = _ref8[0],
-      level = _ref8[1],
-      b = _ref8[2],
-      path = _ref8[3];
+expand = function expand(_ref3) {
+  var _ref4 = _slicedToArray(_ref3, 4),
+      aceCards = _ref4[0],
+      level = _ref4[1],
+      b = _ref4[2],
+      path = _ref4[3];
 
   var b1, dst, j, key, len, move, moves, newPath, res, src;
   res = [];
@@ -998,26 +963,27 @@ expand = function expand(_ref7) {
   return res;
 };
 
+// hint = ->
+// 	if hintsLeft == 0 then return
+// 	hintsLeft--
+// 	undone = []
+// 	while true 
+// 		res = hintOne()
+// 		if res? or hist.length==0
+// 			for u in undone
+// 				print "Undo: #{u}"
+// 			print "Move: #{res}"
+// 			return
+// 		card = hist.pop()
+// 		undone.push undoMove card
 hint = function hint() {
-  var card, j, len, res, u, undone;
-  if (hintsLeft === 0) {
+  var res;
+  hintsUsed++;
+  res = hintOne();
+  if (res != null || hist.length === 0) {
     return;
   }
-  hintsLeft--;
-  undone = [];
-  while (true) {
-    res = hintOne();
-    if (res != null || hist.length === 0) {
-      for (j = 0, len = undone.length; j < len; j++) {
-        u = undone[j];
-        print("Undo: " + u);
-      }
-      print("Move: " + res);
-      return;
-    }
-    card = hist.pop();
-    undone.push(undoMove(card));
-  }
+  return undoMove(hist.pop());
 };
 
 hintOne = function hintOne() {
@@ -1083,8 +1049,7 @@ newGame = function newGame(key) {
     if (indexOf.call('C', key) >= 0) {
       makeBoard(13, classic);
     }
-    maxHints = 999 - N;
-    hintsLeft = maxHints;
+    hintsUsed = 0;
     originalBoard = _.cloneDeep(board);
     aceCards = countAceCards(board);
     cands = [];
