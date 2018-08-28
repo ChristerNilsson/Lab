@@ -583,7 +583,9 @@ showHeap = function showHeap(board, heap, x, y, dx) {
     ref1 = range(under, over + dr, dr);
     for (l = 0, len1 = ref1.length; l < len1; l++) {
       rank = ref1[l];
-      image(faces, 4 + x - w / 2, 7 + y, w, h, OFFSETX + W * rank, 1092 + H * suit, 243, H);
+      noFill();
+      stroke(0);
+      image(faces, x - w / 2, y, w, h * 1.1, OFFSETX + W * rank, 1092 + H * suit, 225, H);
       x += dx;
     }
   }
@@ -599,12 +601,12 @@ showHeap = function showHeap(board, heap, x, y, dx) {
   over = _unpack8[2];
 
   if (indexOf.call(ACES, heap) >= 0 && over === N - 1) {
-    return image(backs, 4 + x - w / 2, 7 + y, w, h, OFFSETX + 860, 1092 + 622, 243, H);
+    return image(backs, x - w / 2, y, w, h * 1.1, OFFSETX + 860, 1092 + 622, 225, H);
   }
 };
 
 display = function display(board) {
-  var dx, heap, j, l, len, len1, len2, len3, m, n, o, ref, ref1, x, x0, x1, x2, xx, y, y0, y1;
+  var dx, heap, j, l, len, len1, len2, m, n, ref, x, x0, x1, x2, xx, y, y0, y1;
   background(0, 128, 0);
   fill(200);
   textSize(0.14 * h);
@@ -627,24 +629,21 @@ display = function display(board) {
     heap = ACES[y];
     showHeap(board, heap, 0, y, 0);
   }
-  ref = [4, 5, 6, 7];
+  ref = [4, 5, 6, 7, 8, 9, 10, 11];
   for (y = l = 0, len1 = ref.length; l < len1; y = ++l) {
     heap = ref[y];
     n = calcAntal(board[heap]);
-    dx = n <= 7 ? w / 2 : min(w / 2, (width / 2 - w / 2 - w) / (n - 1));
-    showHeap(board, heap, -2, y, -dx);
+    dx = min(w / 2, 4 * w / (n - 1));
+    if (y < 4) {
+      showHeap(board, heap, -2, y, -dx);
+    } else {
+      showHeap(board, heap, 2, y - 4, dx);
+    }
   }
-  ref1 = [8, 9, 10, 11];
-  for (y = m = 0, len2 = ref1.length; m < len2; y = ++m) {
-    heap = ref1[y];
-    n = calcAntal(board[heap]);
-    dx = n <= 7 ? w / 2 : min(w / 2, (width / 2 - w / 2 - w) / (n - 1));
-    showHeap(board, heap, 2, y, dx);
-  }
-  for (x = o = 0, len3 = PANEL.length; o < len3; x = ++o) {
+  for (x = m = 0, len2 = PANEL.length; m < len2; x = ++m) {
     heap = PANEL[x];
     xx = [-8, -6, -4, -2, 2, 4, 6, 8][x];
-    showHeap(board, heap, xx, 4, w); //-7
+    showHeap(board, heap, xx, 4, w);
   }
   noStroke();
   return showDialogue();

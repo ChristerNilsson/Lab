@@ -269,14 +269,16 @@ showHeap = (board,heap,x,y,dx) -> # dx kan vara både pos och neg
 		[suit,under,over] = unpack card
 		dr = if under < over then 1 else -1
 		for rank in range under,over+dr,dr
-			image faces, 4+x-w/2, 7+y, w,h, OFFSETX+W*rank,1092+H*suit,243,H
+			noFill()
+			stroke 0
+			image faces, x-w/2, y, w,h*1.1, OFFSETX+W*rank,1092+H*suit,225,H
 			x += dx
 
 	# visa eventuellt baksidan
 	card = _.last board[heap]
 	[suit,under,over] = unpack card
 	if heap in ACES and over == N-1
-		image backs, 4+x-w/2, 7+y, w,h, OFFSETX+860,1092+622,243,H
+		image backs, x-w/2, y, w,h*1.1, OFFSETX+860,1092+622,225,H
 
 display = (board) ->
 	background 0,128,0
@@ -302,19 +304,17 @@ display = (board) ->
 	for heap,y in ACES
 		showHeap board, heap, 0, y, 0
 
-	for heap,y in [4,5,6,7]
+	for heap,y in [4,5,6,7,8,9,10,11]
 		n = calcAntal board[heap]
-		dx = if n<=7 then w/2 else min w/2,(width/2-w/2-w)/(n-1)
-		showHeap board, heap, -2, y, -dx
-
-	for heap,y in [8,9,10,11]
-		n = calcAntal board[heap]
-		dx = if n<=7 then w/2 else min w/2,(width/2-w/2-w)/(n-1)
-		showHeap board, heap, 2, y, dx
+		dx = min w/2,4*w/(n-1)
+		if y<4
+			showHeap board, heap, -2, y, -dx
+		else
+			showHeap board, heap, 2, y-4, dx
 
 	for heap,x in PANEL
 		xx = [-8,-6,-4,-2,2,4,6,8][x]
-		showHeap board, heap, xx,4, w#-7
+		showHeap board, heap, xx,4, w
 
 	noStroke()
 	showDialogue()

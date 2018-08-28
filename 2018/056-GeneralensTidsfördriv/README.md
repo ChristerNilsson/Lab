@@ -1,7 +1,5 @@
 # Generalens Tidsfördriv
 
-![](bild3.jpg "Generalens Tidsfördriv")
-
 * Livet är kort!
 * Det lär vara ett antal generaler som lägger denna patiens i fredstid för att hålla sina hjärnor i trim.
 * Denna patiens går ut på att bygga uppåt på Essen. Dvs Tvåor läggs på Essen osv upp till Kung.
@@ -27,12 +25,17 @@
 	  * Queen = Ess till Dam
 	  * King = Ess till Kung. Svår.
 	  * Classic. Som King fast med lika långa sekvenser. Svårast.
-	* Link. Sparar en länk till aktuell patiens till klippbordet.
-	* Next
-		* Flyttar upp en nivå om patiensen gått ut.
-		* Flyttar ner en nivå om patiensen ej gått ut.
+  * Link. Sparar en länk till aktuell patiens till klippbordet.
+  * Next
+    * Flyttar upp en nivå om patiensen gått ut.
+    * Flyttar ner en nivå om patiensen ej gått ut.
 
 De skapade patienserna är alltid lösbara.
+
+# Tips
+
+* Maximera fönstret med F11
+* Refresha med ctrl-R
 
 # Avvikelser från originalpatiensen
 
@@ -43,6 +46,6 @@ De skapade patienserna är alltid lösbara.
 
 Att lägga patiens. Bokförlaget Forum 1957.
 
-![](bild1.jpg "Generalens Tidsfördriv")
+![](bild1.jpg "Start")
 ![](bild2.jpg "Menu")
 ![](bild3.jpg "Level")
