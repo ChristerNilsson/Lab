@@ -9,7 +9,8 @@
 * Färg bibehålles alltid. Det finns fyra färger.
 
 * Undo. Ångrar senaste drag. Talet visar antalet drag som utförts.
-* Hint. Ger en ledtråd. Utför även Undo om situationen är olösbar. Talet visar antalet Hints som utförts.
+* Hint. Ger en ledtråd. Utför även en eller flera Undo om situationen är olösbar. Talet visar antalet Hints som utförts.
+  * Prova även att göra en Restart innan du klickar på Hint. Då slipper du eventuella Undo.
 * Menu: Talet visar använd betänketid i sekunder.
   * Restart. Omstart av patiensen.
   * Level:
@@ -25,12 +26,14 @@
 	  * Queen = Ess till Dam
 	  * King = Ess till Kung. Svår.
 	  * Classic. Som King fast med lika långa sekvenser. Svårast.
-  * Link. Sparar en länk till aktuell patiens till klippbordet.
+  * Link. Sparar en länk till aktuell patiens till klippbordet. Ej klar.
   * Next
-    * Flyttar upp en nivå om patiensen gått ut.
-    * Flyttar ner en nivå om patiensen ej gått ut.
+    * Flyttar upp en Level om patiensen gått ut.
+    * Flyttar ner en Level om patiensen ej gått ut.
 
 De skapade patienserna är alltid lösbara.
+
+[Prova!](https://christernilsson.github.io/Lab/2018/056-GeneralensTidsf%C3%B6rdriv/index.html)
 
 # Tips
 

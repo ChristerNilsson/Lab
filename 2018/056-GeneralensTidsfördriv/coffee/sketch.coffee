@@ -57,56 +57,9 @@ dsts = null
 hintsUsed = null
 counter = 0
 
-dialogues = []
-
 print = console.log
 range = _.range
 assert = (a, b, msg='Assert failure') -> chai.assert.deepEqual a, b, msg
-
-class Dialogue 
-	constructor : (@x,@y,@textSize) -> 
-		@buttons = []
-		dialogues.push @
-	add : (button) -> 
-		button.dlg = @
-		@buttons.push button	
-	clock : (n,r1,r2,turn=0) ->
-		for i in range n
-			v = i*360/n-turn
-			@add new Button '', r1*cos(v), r1*sin(v), r2, -> 
-		@add new Button 'Back',0,0,r2, -> dialogues.pop()
-
-	show : ->
-		fill 255,128
-		push()
-		translate @x,@y
-		textSize @textSize
-		for button in @buttons
-			button.show @
-		pop()
-	execute : (mx,my) ->
-		for button in @buttons
-			if button.inside mx,my,@
-				button.execute()
-				return true
-		false 
-
-class Button 
-	constructor : (@txt, @x, @y, @r, @event = -> print @txt) ->
-	info : (@txt,@event) ->
-	show : ->
-		fill 255,255,0,128
-		stroke 0
-		ellipse @x,@y,2*@r,2*@r
-		push()
-		fill 0
-		noStroke()
-		textAlign CENTER,CENTER
-		textSize @dlg.textSize
-		text @txt, @x,@y
-		pop()
-	inside : (mx,my) -> @r > dist mx, my, @dlg.x + @x, @dlg.y + @y
-	execute : -> @event()
 
 preload = -> 
 	faces = loadImage 'cards/Color_52_Faces_v.2.0.png'
@@ -196,6 +149,7 @@ fakeBoard = ->
 	board = readBoard board
 
 setup = ->
+	print 'X'
 	createCanvas innerWidth, innerHeight-0.5
 	w = width/11 
 	h = height/5 
@@ -203,10 +157,7 @@ setup = ->
 
 	newGame '3'
 
-	dialogue = new Dialogue width/2,height/2,0.15*h
-	dialogue.add new Button 'Undo',-5*w, 2.0*h, 0.25*h, -> if hist.length > 0 then undoMove hist.pop()
-	dialogue.add new Button 'Menu',   0, 2.0*h, 0.25*h, -> menu()
-	dialogue.add new Button 'Hint', 5*w, 2.0*h, 0.25*h, -> hint()
+	menu1()
 
 	display board 
 
@@ -217,7 +168,13 @@ keyPressed = ->
 		hist = [[4,6,1],[7,10,1],[9,1,1],[17,3,1],[18,4,1],[14,8,1],[5,3,1],[8,11,2],[5,1,1],[5,10,1]]
 	display board
 
-menu = ->
+menu1 = ->
+	dialogue = new Dialogue width/2,height/2,0.15*h
+	dialogue.add new Button 'Undo',-5*w, 2.0*h, 0.25*h, -> if hist.length > 0 then undoMove hist.pop()
+	dialogue.add new Button 'Menu',   0, 2.0*h, 0.25*h, -> menu2()
+	dialogue.add new Button 'Hint', 5*w, 2.0*h, 0.25*h, -> hint()
+
+menu2 = ->
 	dialogue = new Dialogue width/2,height/2,0.15*h
 
 	r1 = 0.25 * height 
@@ -234,9 +191,9 @@ menu = ->
 
 	dialogue.buttons[2].info 'Link'
 
-	dialogue.buttons[3].info 'Level', -> menuLevel()
+	dialogue.buttons[3].info 'Level', -> menu3()
 	
-menuLevel = ->
+menu3 = ->
 	dialogue = new Dialogue width/2,height/2,0.15*h
 
 	r1 = 0.35 * height 
@@ -304,7 +261,7 @@ display = (board) ->
 	for heap,y in ACES
 		showHeap board, heap, 0, y, 0
 
-	for heap,y in [4,5,6,7,8,9,10,11]
+	for heap,y in HEAPS
 		n = calcAntal board[heap]
 		dx = min w/2,4*w/(n-1)
 		if y<4
