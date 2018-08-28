@@ -91,7 +91,6 @@ var ACES,
     range,
     readBoard,
     restart,
-    scaleFactor,
     setup,
     showDialogue,
     showHeap,
@@ -164,10 +163,7 @@ dsts = null;
 
 hintsUsed = null;
 
-//maxHints = null
 counter = 0;
-
-scaleFactor = null;
 
 dialogues = [];
 
@@ -182,13 +178,11 @@ assert = function assert(a, b) {
 };
 
 Dialogue = function () {
-  function Dialogue(x1, y1) {
-    var textSize1 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 20;
-
+  function Dialogue(x3, y2, textSize1) {
     _classCallCheck(this, Dialogue);
 
-    this.x = x1;
-    this.y = y1;
+    this.x = x3;
+    this.y = y2;
     this.textSize = textSize1;
     this.buttons = [];
     dialogues.push(this);
@@ -204,7 +198,7 @@ Dialogue = function () {
     key: "show",
     value: function show() {
       var button, j, len, ref;
-      fill(255, 255, 0, 128);
+      fill(0);
       push();
       translate(this.x, this.y);
       textSize(this.textSize);
@@ -235,7 +229,7 @@ Dialogue = function () {
 }();
 
 Button = function () {
-  function Button(txt, x1, y1, r) {
+  function Button(txt, x3, y2, r) {
     var event = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : function () {
       return print(this.txt);
     };
@@ -243,8 +237,8 @@ Button = function () {
     _classCallCheck(this, Button);
 
     this.txt = txt;
-    this.x = x1;
-    this.y = y1;
+    this.x = x3;
+    this.y = y2;
     this.r = r;
     this.event = event;
   }
@@ -260,8 +254,8 @@ Button = function () {
     value: function show() {
       ellipse(this.x, this.y, 2 * this.r, 2 * this.r);
       push();
-      fill(0);
-      stroke(0);
+      fill(255, 255, 0);
+      noStroke();
       textAlign(CENTER, CENTER);
       textSize(this.dlg.textSize);
       text(this.txt, this.x, this.y);
@@ -461,27 +455,21 @@ fakeBoard = function fakeBoard() {
 };
 
 setup = function setup() {
-  var dialogue, x, y;
-  // Lås upplösning till 1280x709 (borde dock vara 1920x1200)
-  // Skala därefter om.
-  print(windowWidth, windowHeight);
-  createCanvas(windowWidth - 0.5, windowHeight - 0.5);
-  print(scaleFactor = min(height / 709, width / 1280));
-  w = W / 2.2;
-  h = H / 2.2;
+  var dialogue;
+  createCanvas(innerWidth, innerHeight - 0.5);
+  w = width / 11;
+  h = height / 5;
   newGame('3');
-  x = width / 2;
-  y = 709 - 110;
-  dialogue = new Dialogue(x, y);
-  dialogue.add(new Button('Undo', -578, 0.3 * h, 0.25 * h, function () {
+  dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
+  dialogue.add(new Button('Undo', -5 * w, 2.0 * h, 0.25 * h, function () {
     if (hist.length > 0) {
       return undoMove(hist.pop());
     }
   }));
-  dialogue.add(new Button('Menu', 0, 0.3 * h, 0.25 * h, function () {
+  dialogue.add(new Button('Menu', 0, 2.0 * h, 0.25 * h, function () {
     return menu();
   }));
-  dialogue.add(new Button('Hint', 578, 0.3 * h, 0.25 * h, function () {
+  dialogue.add(new Button('Hint', 5 * w, 2.0 * h, 0.25 * h, function () {
     return hint();
   }));
   return display(board);
@@ -498,16 +486,16 @@ keyPressed = function keyPressed() {
 
 menu = function menu() {
   var bstep, dialogue, f, i, j, l, len, len1, level, r1, r2, ref, ref1, v, x, xoff, y, yoff;
-  dialogue = new Dialogue(0, 0, 32);
+  dialogue = new Dialogue(0, 0, 0.15 * h);
   angleMode(DEGREES);
   x = width / 2;
   y = height / 2;
-  r1 = 290;
-  r2 = 60;
+  r1 = 0.41 * height; // 290
+  r2 = 0.085 * height;
   ref = range(15);
   for (j = 0, len = ref.length; j < len; j++) {
     i = ref[j];
-    v = i * 360 / 15;
+    v = i * 360 / 15 - 90;
     dialogue.add(new Button('', x + r1 * cos(v), y + r1 * sin(v), r2, function () {}));
   }
   dialogue.add(new Button('Back', x, y, r2, function () {
@@ -550,7 +538,7 @@ showHeap = function showHeap(board, heap, x, y, dx) {
   if (n === 0) {
     return;
   }
-  x0 = 1280 / 2 - w / 2;
+  x0 = width / 2;
   if (x < 0) {
     x0 += -w + dx;
   }
@@ -558,7 +546,7 @@ showHeap = function showHeap(board, heap, x, y, dx) {
     x0 += w - dx;
   }
   x = x0 + x * dx / 2;
-  y = y * 0.9 * h - 10;
+  y = y * h;
   ref = board[heap];
   for (k = j = 0, len = ref.length; j < len; k = ++j) {
     card = ref[k];
@@ -575,7 +563,7 @@ showHeap = function showHeap(board, heap, x, y, dx) {
     ref1 = range(under, over + dr, dr);
     for (l = 0, len1 = ref1.length; l < len1; l++) {
       rank = ref1[l];
-      image(faces, x, y + 13, w, h, OFFSETX + W * rank, 1092 + H * suit, 243, H);
+      image(faces, 4 + x - w / 2, 7 + y, w, h, OFFSETX + W * rank, 1092 + H * suit, 243, H);
       x += dx;
     }
   }
@@ -591,25 +579,28 @@ showHeap = function showHeap(board, heap, x, y, dx) {
   over = _unpack8[2];
 
   if (indexOf.call(ACES, heap) >= 0 && over === N - 1) {
-    return image(backs, x, y + 13, w, h, OFFSETX + 860, 1092 + 622, 243, H);
+    return image(backs, 4 + x - w / 2, 7 + y, w, h, OFFSETX + 860, 1092 + 622, 243, H);
   }
 };
 
 display = function display(board) {
-  var dx, heap, j, l, len, len1, len2, len3, m, n, o, ref, ref1, x, xx, y;
+  var dx, heap, j, l, len, len1, len2, len3, m, n, o, ref, ref1, x, x0, x1, x2, xx, y, y0, y1;
   background(0, 128, 0);
-  scale(scaleFactor);
   fill(200);
-  textSize(20);
-  x = width / 2;
-  y = height;
-  textAlign(CENTER, CENTER);
-  text(hist.length, w / 2, 709 - h + 40);
-  text('Generalens', w / 2, 709 - 5);
-  text(classic ? 'Classic' : LONG[N], x, 709 - h + 40);
-  text('73s', x, 709 - h + 160);
-  text(hintsUsed, width - w / 2, 709 - h + 40);
-  text('Tidsfördriv', width - w / 2, 709 - h + 160);
+  textSize(0.14 * h);
+  x0 = w / 2;
+  x1 = width / 2;
+  x2 = width - w / 2;
+  y0 = 4 * h;
+  y1 = 5 * h;
+  textAlign(CENTER, TOP);
+  text(hist.length, x0, y0);
+  text(classic ? 'Classic' : LONG[N], x1, y0);
+  text(hintsUsed, x2, y0);
+  textAlign(CENTER, BOTTOM);
+  text('Generalens', x0, y1);
+  text('73s', x1, y1);
+  text('Tidsfördriv', x2, y1);
   for (y = j = 0, len = ACES.length; j < len; y = ++j) {
     heap = ACES[y];
     showHeap(board, heap, 0, y, 0);
@@ -631,8 +622,9 @@ display = function display(board) {
   for (x = o = 0, len3 = PANEL.length; o < len3; x = ++o) {
     heap = PANEL[x];
     xx = [-8, -6, -4, -2, 2, 4, 6, 8][x];
-    showHeap(board, heap, xx, 4, w - 7);
+    showHeap(board, heap, xx, 4, w); //-7
   }
+  noStroke();
   return showDialogue();
 };
 
@@ -783,13 +775,11 @@ mousePressed = function mousePressed() {
     return;
   }
   dialogue = _.last(dialogues);
-  mx = mouseX / scaleFactor;
-  my = mouseY / scaleFactor;
-  if (!dialogue.execute(mx, my)) {
-    offset = (1280 - 9 * w) / 2;
+  if (!dialogue.execute(mouseX, mouseY)) {
+    offset = Math.floor((width - 9 * w) / 2);
     marked = null;
-    mx = Math.floor((mouseX / scaleFactor - offset) / w);
-    my = Math.floor(mouseY / scaleFactor / h);
+    mx = Math.floor((mouseX - offset) / w);
+    my = Math.floor(mouseY / h);
     if (my >= 4) {
       if (mx <= 3) {
         marked = 12 + mx;
@@ -963,19 +953,6 @@ expand = function expand(_ref3) {
   return res;
 };
 
-// hint = ->
-// 	if hintsLeft == 0 then return
-// 	hintsLeft--
-// 	undone = []
-// 	while true 
-// 		res = hintOne()
-// 		if res? or hist.length==0
-// 			for u in undone
-// 				print "Undo: #{u}"
-// 			print "Move: #{res}"
-// 			return
-// 		card = hist.pop()
-// 		undone.push undoMove card
 hint = function hint() {
   var res;
   hintsUsed++;

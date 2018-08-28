@@ -55,9 +55,7 @@ classic = false
 srcs = null
 dsts = null
 hintsUsed = null
-#maxHints = null
 counter = 0
-scaleFactor = null
 
 dialogues = []
 
@@ -66,14 +64,14 @@ range = _.range
 assert = (a, b, msg='Assert failure') -> chai.assert.deepEqual a, b, msg
 
 class Dialogue 
-	constructor : (@x,@y,@textSize=20) -> 
+	constructor : (@x,@y,@textSize) -> 
 		@buttons = []
 		dialogues.push @
 	add : (button) -> 
 		button.dlg = @
 		@buttons.push button	
 	show : ->
-		fill 255,255,0,128
+		fill 0
 		push()
 		translate @x,@y
 		textSize @textSize
@@ -93,8 +91,8 @@ class Button
 	show : ->
 		ellipse @x,@y,2*@r,2*@r
 		push()
-		fill 0
-		stroke 0
+		fill 255,255,0
+		noStroke()
 		textAlign CENTER,CENTER
 		textSize @dlg.textSize
 		text @txt, @x,@y
@@ -190,22 +188,16 @@ fakeBoard = ->
 	board = readBoard board
 
 setup = ->
-	# Lås upplösning till 1280x709 (borde dock vara 1920x1200)
-	# Skala därefter om.
-	print windowWidth,windowHeight
-	createCanvas windowWidth-0.5,windowHeight - 0.5
-	print scaleFactor = min height/709,width/1280
-	w = W/2.2
-	h = H/2.2
+	createCanvas innerWidth, innerHeight-0.5
+	w = width/11 
+	h = height/5 
 
 	newGame '3'
 
-	x = width/2 
-	y = 709-110
-	dialogue = new Dialogue x,y
-	dialogue.add new Button 'Undo',-578,0.3*h, 0.25*h, -> if hist.length > 0 then undoMove hist.pop()
-	dialogue.add new Button 'Menu',   0,0.3*h, 0.25*h, -> menu()
-	dialogue.add new Button 'Hint', 578,0.3*h, 0.25*h, -> hint()
+	dialogue = new Dialogue width/2,height/2,0.15*h
+	dialogue.add new Button 'Undo',-5*w, 2.0*h, 0.25*h, -> if hist.length > 0 then undoMove hist.pop()
+	dialogue.add new Button 'Menu',   0, 2.0*h, 0.25*h, -> menu()
+	dialogue.add new Button 'Hint', 5*w, 2.0*h, 0.25*h, -> hint()
 
 	display board 
 
@@ -217,17 +209,17 @@ keyPressed = ->
 	display board
 
 menu = ->
-	dialogue = new Dialogue 0,0,32
+	dialogue = new Dialogue 0,0,0.15*h
 
 	angleMode DEGREES
 
 	x = width/2
 	y = height/2
 
-	r1 = 290
-	r2 = 60
+	r1 = 0.41 * height # 290
+	r2 = 0.085 * height
 	for i in range 15
-		v = i*360/15
+		v = i*360/15-90
 		dialogue.add new Button '', x+r1*cos(v), y+r1*sin(v), r2, -> 
 
 	dialogue.add new Button 'Back',x,y,r2, -> dialogues.pop()
@@ -261,46 +253,45 @@ showHeap = (board,heap,x,y,dx) -> # dx kan vara både pos och neg
 	n = calcAntal board[heap]
 	if n==0 then return 
 
-	x0 = 1280/2 - w/2
+	x0 = width/2 
 
 	if x < 0 then x0 += -w+dx
 	if x > 0 then x0 += w-dx
 	x = x0 + x*dx/2
-	y = y * 0.9*h - 10
+	y = y * h 
 	for card,k in board[heap]
 		[suit,under,over] = unpack card
 		dr = if under < over then 1 else -1
 		for rank in range under,over+dr,dr
-			image faces, x,y+13, w,h, OFFSETX+W*rank,1092+H*suit,243,H
+			image faces, 4+x-w/2, 7+y, w,h, OFFSETX+W*rank,1092+H*suit,243,H
 			x += dx
 
 	# visa eventuellt baksidan
 	card = _.last board[heap]
 	[suit,under,over] = unpack card
 	if heap in ACES and over == N-1
-		image backs, x,y+13, w,h, OFFSETX+860,1092+622,243,H
+		image backs, 4+x-w/2, 7+y, w,h, OFFSETX+860,1092+622,243,H
 
 display = (board) ->
 	background 0,128,0
 
-	scale scaleFactor
-
 	fill 200
+	textSize 0.14*h
 
-	textSize 20
+	x0 = w/2
+	x1 = width/2
+	x2 = width-w/2
+	y0 = 4*h  
+	y1 = 5*h 
 
-	x = width/2
-	y = height
-
-	textAlign CENTER,CENTER
-	text hist.length,  w/2,709-h+40
-	text 'Generalens', w/2,709-5
-
-	text (if classic then 'Classic' else LONG[N]), x,709-h+40
-	text '73s', x,709-h+160
-
-	text hintsUsed, width-w/2,709-h+40
-	text 'Tidsfördriv', width-w/2,709-h+160
+	textAlign CENTER,TOP
+	text hist.length,  x0,y0
+	text (if classic then 'Classic' else LONG[N]), x1,y0
+	text hintsUsed, x2,y0
+	textAlign CENTER,BOTTOM
+	text 'Generalens', x0,y1
+	text '73s', x1,y1
+	text 'Tidsfördriv', x2,y1
 
 	for heap,y in ACES
 		showHeap board, heap, 0, y, 0
@@ -317,8 +308,9 @@ display = (board) ->
 
 	for heap,x in PANEL
 		xx = [-8,-6,-4,-2,2,4,6,8][x]
-		showHeap board, heap, xx,4, w-7
+		showHeap board, heap, xx,4, w#-7
 
+	noStroke()
 	showDialogue()
 
 showDialogue = -> (_.last dialogues).show()
@@ -380,14 +372,12 @@ mousePressed = ->
 	if not (0 < mouseY < height) then return
 
 	dialogue = _.last dialogues
-	mx = mouseX/scaleFactor
-	my = mouseY/scaleFactor
-	if not dialogue.execute mx,my 
+	if not dialogue.execute mouseX,mouseY 
 	
-		offset = (1280-9*w)/2
+		offset = (width-9*w)//2
 		marked = null
-		mx = (mouseX/scaleFactor-offset)//w
-		my = mouseY/scaleFactor//h
+		mx = (mouseX-offset)//w
+		my = mouseY//h
 		if my >= 4
 			if mx<=3 then marked = 12 + mx
 			if mx>=5 then marked = 11 + mx
@@ -480,20 +470,6 @@ expand = ([aceCards,level,b,path]) ->
 			hash[key] = [newPath, b]
 			res.push [countAceCards(b1), level+1, b1, path.concat([move])] 
 	res
-
-# hint = ->
-# 	if hintsLeft == 0 then return
-# 	hintsLeft--
-# 	undone = []
-# 	while true 
-# 		res = hintOne()
-# 		if res? or hist.length==0
-# 			for u in undone
-# 				print "Undo: #{u}"
-# 			print "Move: #{res}"
-# 			return
-# 		card = hist.pop()
-# 		undone.push undoMove card
 
 hint = ->
 	hintsUsed++
