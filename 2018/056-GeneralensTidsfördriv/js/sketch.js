@@ -75,6 +75,7 @@ var ACES,
     makeKey,
     makeMove,
     menu,
+    menuLevel,
     mousePressed,
     msg,
     newGame,
@@ -195,10 +196,26 @@ Dialogue = function () {
       return this.buttons.push(button);
     }
   }, {
+    key: "clock",
+    value: function clock(n, r1, r2) {
+      var turn = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 0;
+
+      var i, j, len, ref, v;
+      ref = range(n);
+      for (j = 0, len = ref.length; j < len; j++) {
+        i = ref[j];
+        v = i * 360 / n - turn;
+        this.add(new Button('', r1 * cos(v), r1 * sin(v), r2, function () {}));
+      }
+      return this.add(new Button('Back', 0, 0, r2, function () {
+        return dialogues.pop();
+      }));
+    }
+  }, {
     key: "show",
     value: function show() {
       var button, j, len, ref;
-      fill(0);
+      fill(255, 128);
       push();
       translate(this.x, this.y);
       textSize(this.textSize);
@@ -252,9 +269,11 @@ Button = function () {
   }, {
     key: "show",
     value: function show() {
+      fill(255, 255, 0, 128);
+      stroke(0);
       ellipse(this.x, this.y, 2 * this.r, 2 * this.r);
       push();
-      fill(255, 255, 0);
+      fill(0);
       noStroke();
       textAlign(CENTER, CENTER);
       textSize(this.dlg.textSize);
@@ -459,6 +478,7 @@ setup = function setup() {
   createCanvas(innerWidth, innerHeight - 0.5);
   w = width / 11;
   h = height / 5;
+  angleMode(DEGREES);
   newGame('3');
   dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
   dialogue.add(new Button('Undo', -5 * w, 2.0 * h, 0.25 * h, function () {
@@ -485,25 +505,35 @@ keyPressed = function keyPressed() {
 };
 
 menu = function menu() {
-  var bstep, dialogue, f, i, j, l, len, len1, level, r1, r2, ref, ref1, v, x, xoff, y, yoff;
-  dialogue = new Dialogue(0, 0, 0.15 * h);
-  angleMode(DEGREES);
-  x = width / 2;
-  y = height / 2;
-  r1 = 0.41 * height; // 290
+  var dialogue, r1, r2;
+  dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
+  r1 = 0.25 * height;
   r2 = 0.085 * height;
-  ref = range(15);
-  for (j = 0, len = ref.length; j < len; j++) {
-    i = ref[j];
-    v = i * 360 / 15 - 90;
-    dialogue.add(new Button('', x + r1 * cos(v), y + r1 * sin(v), r2, function () {}));
-  }
-  dialogue.add(new Button('Back', x, y, r2, function () {
+  dialogue.clock(4, r1, r2, 45);
+  dialogue.buttons[0].info('Restart', function () {
+    restart();
     return dialogues.pop();
-  }));
-  ref1 = LONG.slice(3);
-  for (i = l = 0, len1 = ref1.length; l < len1; i = ++l) {
-    level = ref1[i];
+  });
+  dialogue.buttons[1].info('Next', function () {
+    nextLevel();
+    return dialogues.pop();
+  });
+  dialogue.buttons[2].info('Link');
+  return dialogue.buttons[3].info('Level', function () {
+    return menuLevel();
+  });
+};
+
+menuLevel = function menuLevel() {
+  var dialogue, f, i, j, len, level, r1, r2, ref, results;
+  dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
+  r1 = 0.35 * height;
+  r2 = 0.085 * height;
+  dialogue.clock(12, r1, r2);
+  ref = LONG.slice(3);
+  results = [];
+  for (i = j = 0, len = ref.length; j < len; i = ++j) {
+    level = ref[i];
     print(level, i);
     f = function f() {
       var button, index;
@@ -512,23 +542,13 @@ menu = function menu() {
       button.txt = level;
       return button.event = function () {
         newGame("A23456789TJQKC"[index]);
+        dialogues.pop();
         return dialogues.pop();
       };
     };
-    f();
+    results.push(f());
   }
-  xoff = 100;
-  yoff = 500;
-  bstep = 2 * w + 32;
-  dialogue.buttons[12].info('Restart', function () {
-    restart();
-    return dialogues.pop();
-  });
-  dialogue.buttons[13].info('Next', function () {
-    nextLevel();
-    return dialogues.pop();
-  });
-  return dialogue.buttons[14].info('Link');
+  return results;
 };
 
 showHeap = function showHeap(board, heap, x, y, dx) {
@@ -599,7 +619,9 @@ display = function display(board) {
   text(hintsUsed, x2, y0);
   textAlign(CENTER, BOTTOM);
   text('Generalens', x0, y1);
-  text('73s', x1, y1);
+  if (hintsUsed === 0) {
+    text(msg, x1, y1);
+  }
   text('Tidsfördriv', x2, y1);
   for (y = j = 0, len = ACES.length; j < len; y = ++j) {
     heap = ACES[y];
@@ -826,7 +848,7 @@ mousePressed = function mousePressed() {
         }
       }
       if (4 * N === countAceCards(board)) {
-        msg = Math.floor((millis() - start) / 1000) + " seconds";
+        msg = Math.floor((millis() - start) / 1000) + " s";
       }
     }
   }
@@ -955,6 +977,9 @@ expand = function expand(_ref3) {
 
 hint = function hint() {
   var res;
+  if (4 * N === countAceCards(board)) {
+    return;
+  }
   hintsUsed++;
   res = hintOne();
   if (res != null || hist.length === 0) {

@@ -10,26 +10,27 @@
 * De nedre åtta fria korten får man inte bygga på. Man får enbart plocka dessa.
 * Färg bibehålles alltid. Det finns fyra färger.
 
-* U = Undo. Ångrar senaste drag.
-* R = Restart. Omstart av patiensen.
-* Nivåer:
-	* 3 = Ess till 3. Lättast.
-	* 4 = Ess till 4
-	* 5 = Ess till 5
-	* 6 = Ess till 6
-	* 7 = Ess till 7
-	* 8 = Ess till 8
-	* 9 = Ess till 9
-	* T = Ess till Tio
-	* J = Ess till Knekt
-	* Q = Ess till Dam
-	* K = Ess till Kung. Svår.
-	* C = Classic. Som K fast med 5 kort långa sekvenser. Svårast.
-	* Space = Next
+* Undo. Ångrar senaste drag. Talet visar antalet drag som utförts.
+* Hint. Ger en ledtråd. Utför även Undo om situationen är olösbar. Talet visar antalet Hints som utförts.
+* Menu: Talet visar använd betänketid i sekunder.
+  * Restart. Omstart av patiensen.
+  * Level:
+	  * Three = Ess till 3. Lätt.
+	  * Four = Ess till 4
+	  * Five = Ess till 5
+	  * Six = Ess till 6
+	  * Seven = Ess till 7
+	  * Eight = Ess till 8
+	  * Nine = Ess till 9
+	  * Ten = Ess till Tio
+	  * Jack = Ess till Knekt
+	  * Queen = Ess till Dam
+	  * King = Ess till Kung. Svår.
+	  * Classic. Som King fast med lika långa sekvenser. Svårast.
+	* Link. Sparar en länk till aktuell patiens till klippbordet.
+	* Next
 		* Flyttar upp en nivå om patiensen gått ut.
 		* Flyttar ner en nivå om patiensen ej gått ut.
-	* H = Hint. Ger en ledtråd. Kan kräva ett antal Undo.
-* (A = Autoshake. Flyttar korten slumpmässigt någon pixel. Kosmetika)
 
 De skapade patienserna är alltid lösbara.
 
@@ -41,3 +42,7 @@ De skapade patienserna är alltid lösbara.
 # Litteratur
 
 Att lägga patiens. Bokförlaget Forum 1957.
+
+![](bild1.jpg "Generalens Tidsfördriv")
+![](bild2.jpg "Menu")
+![](bild3.jpg "Level")

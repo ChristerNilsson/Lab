@@ -70,8 +70,14 @@ class Dialogue
 	add : (button) -> 
 		button.dlg = @
 		@buttons.push button	
+	clock : (n,r1,r2,turn=0) ->
+		for i in range n
+			v = i*360/n-turn
+			@add new Button '', r1*cos(v), r1*sin(v), r2, -> 
+		@add new Button 'Back',0,0,r2, -> dialogues.pop()
+
 	show : ->
-		fill 0
+		fill 255,128
 		push()
 		translate @x,@y
 		textSize @textSize
@@ -89,9 +95,11 @@ class Button
 	constructor : (@txt, @x, @y, @r, @event = -> print @txt) ->
 	info : (@txt,@event) ->
 	show : ->
+		fill 255,255,0,128
+		stroke 0
 		ellipse @x,@y,2*@r,2*@r
 		push()
-		fill 255,255,0
+		fill 0
 		noStroke()
 		textAlign CENTER,CENTER
 		textSize @dlg.textSize
@@ -191,6 +199,7 @@ setup = ->
 	createCanvas innerWidth, innerHeight-0.5
 	w = width/11 
 	h = height/5 
+	angleMode DEGREES
 
 	newGame '3'
 
@@ -209,20 +218,30 @@ keyPressed = ->
 	display board
 
 menu = ->
-	dialogue = new Dialogue 0,0,0.15*h
+	dialogue = new Dialogue width/2,height/2,0.15*h
 
-	angleMode DEGREES
-
-	x = width/2
-	y = height/2
-
-	r1 = 0.41 * height # 290
+	r1 = 0.25 * height 
 	r2 = 0.085 * height
-	for i in range 15
-		v = i*360/15-90
-		dialogue.add new Button '', x+r1*cos(v), y+r1*sin(v), r2, -> 
+	dialogue.clock 4,r1,r2,45
 
-	dialogue.add new Button 'Back',x,y,r2, -> dialogues.pop()
+	dialogue.buttons[0].info 'Restart', -> 
+		restart()
+		dialogues.pop()
+
+	dialogue.buttons[1].info 'Next', ->
+		nextLevel()
+		dialogues.pop()
+
+	dialogue.buttons[2].info 'Link'
+
+	dialogue.buttons[3].info 'Level', -> menuLevel()
+	
+menuLevel = ->
+	dialogue = new Dialogue width/2,height/2,0.15*h
+
+	r1 = 0.35 * height 
+	r2 = 0.085 * height
+	dialogue.clock 12,r1,r2
 
 	for level,i in LONG.slice 3
 		print level,i
@@ -233,22 +252,9 @@ menu = ->
 			button.event = -> 
 				newGame "A23456789TJQKC"[index]
 				dialogues.pop()
+				dialogues.pop()
 		f()
 
-	xoff = 100
-	yoff = 500
-	bstep = 2*w+32
-
-	dialogue.buttons[12].info 'Restart', -> 
-		restart()
-		dialogues.pop()
-
-	dialogue.buttons[13].info 'Next', ->
-		nextLevel()
-		dialogues.pop()
-
-	dialogue.buttons[14].info 'Link'
-	
 showHeap = (board,heap,x,y,dx) -> # dx kan vara både pos och neg
 	n = calcAntal board[heap]
 	if n==0 then return 
@@ -290,7 +296,7 @@ display = (board) ->
 	text hintsUsed, x2,y0
 	textAlign CENTER,BOTTOM
 	text 'Generalens', x0,y1
-	text '73s', x1,y1
+	if hintsUsed == 0 then text msg, x1,y1
 	text 'Tidsfördriv', x2,y1
 
 	for heap,y in ACES
@@ -407,7 +413,7 @@ mousePressed = ->
 						break 
 
 			if 4*N == countAceCards board 
-				msg = "#{(millis() - start) // 1000} seconds"
+				msg = "#{(millis() - start) // 1000} s"
 
 	display board
 
@@ -472,6 +478,7 @@ expand = ([aceCards,level,b,path]) ->
 	res
 
 hint = ->
+	if 4*N == countAceCards board then return 
 	hintsUsed++
 	res = hintOne()
 	if res? or hist.length==0 then return 
