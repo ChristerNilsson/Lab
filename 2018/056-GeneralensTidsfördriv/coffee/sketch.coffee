@@ -65,7 +65,7 @@ preload = ->
 	faces = loadImage 'cards/Color_52_Faces_v.2.0.png'
 	backs = loadImage 'cards/Playing_Card_Backs.png'
 
-pack = (suit,under,over) -> Suit[suit] + Rank[under] + if under==over then '' else Rank[over]
+pack = (suit,under,over) -> Suit[suit] + RANK[under] + if under==over then '' else RANK[over]
 assert 'cA', pack 0,0,0 
 assert 'dA', pack 3,0,0 
 assert 'd2', pack 3,1,1 
@@ -75,8 +75,8 @@ assert 'hJ', pack 1,10,10
 
 unpack = (n) -> 
 	suit = Suit.indexOf n[0]
-	under = Rank.indexOf n[1] 
-	if n.length==3 then over = Rank.indexOf n[2] else over = under
+	under = RANK.indexOf n[1] 
+	if n.length==3 then over = RANK.indexOf n[2] else over = under
 	[suit,under,over]
 assert [0,0,0], unpack 'cA'
 assert [3,0,0], unpack 'dA'
@@ -149,7 +149,7 @@ fakeBoard = ->
 	board = readBoard board
 
 setup = ->
-	print 'X'
+	print 'Y'
 	createCanvas innerWidth, innerHeight-0.5
 	w = width/11 
 	h = height/5 
@@ -201,8 +201,7 @@ menu3 = ->
 	dialogue.clock 12,r1,r2
 
 	for level,i in LONG.slice 3
-		print level,i
-		f = -> 
+		do -> 
 			button = dialogue.buttons[i]	
 			index = i+2
 			button.txt = level 
@@ -210,7 +209,6 @@ menu3 = ->
 				newGame "A23456789TJQKC"[index]
 				dialogues.pop()
 				dialogues.pop()
-		f()
 
 showHeap = (board,heap,x,y,dx) -> # dx kan vara både pos och neg
 	n = calcAntal board[heap]
@@ -348,26 +346,32 @@ mousePressed = ->
 			if mx==4 then marked = my
 			else if mx<4 then marked = [4,5,6,7][my]
 			else marked = [8,9,10,11][my]
-		#print 'marked',marked 
 
 		if marked != null
 			holes = []
 			found = false
 
-			alternativeDsts = [] # för att kunna välja mellan flera via Undo
-			for heap in ACES.concat HEAPS
-				if board[heap].length==0 then holes.push heap
-				if heap not in holes and legalMove board,marked,heap  
-					alternativeDsts.push heap
-			if alternativeDsts.length > 0
-				heap = alternativeDsts[counter % alternativeDsts.length]  
-				makeMove board,marked,heap,true
-				found = true
-			if not found
-				for heap in holes	
-					if legalMove board,marked,heap
-						makeMove board,marked,heap,true
-						break 
+			for heap in ACES
+				if legalMove board,marked,heap  
+					makeMove board,marked,heap,true
+					found = true 
+					break
+
+			if not found 
+				alternativeDsts = [] # för att kunna välja mellan flera via Undo
+				for heap in HEAPS
+					if board[heap].length==0 then holes.push heap
+					if heap not in holes and legalMove board,marked,heap  
+						alternativeDsts.push heap
+				if alternativeDsts.length > 0
+					heap = alternativeDsts[counter % alternativeDsts.length]  
+					makeMove board,marked,heap,true
+					found = true
+				if not found
+					for heap in holes	
+						if legalMove board,marked,heap
+							makeMove board,marked,heap,true
+							break 
 
 			if 4*N == countAceCards board 
 				msg = "#{(millis() - start) // 1000} s"
@@ -386,20 +390,6 @@ findAllMoves = (b) ->
 				if legalMove b,src,dst
 					res.push [src,dst]
 	res
-
-makeKey = (b) -> 
-	res = ''
-	for heap,index in b
-		if heap.length==0
-			res += '.'
-		for card in heap
-			[suit,under,over] = unpack card
-			if under==over
-				res += 'chsd'[suit] + RANK[over]
-			else
-				res += 'chsd'[suit] + RANK[under] + RANK[over]
-		res += '|'
-	res 
 
 calcAntal = (lst) ->
 	res = 0
@@ -427,9 +417,9 @@ expand = ([aceCards,level,b,path]) ->
 		[src,dst] = move
 		b1 = _.cloneDeep b
 		makeMove b1,src,dst
-		key = makeKey b1
+		key = dumpBoard b1
 		if key not of hash
-			newPath = path.concat([move])
+			newPath = path.concat [move]
 			hash[key] = [newPath, b]
 			res.push [countAceCards(b1), level+1, b1, path.concat([move])] 
 	res
@@ -502,7 +492,7 @@ newGame = (key) ->
 			cands.sort (a,b) -> if a[0] == b[0] then b[1]-a[1] else a[0]-b[0]
 
 		level = cand[1]
-		print nr,aceCards,level
+		print nr,aceCards,level,_.size hash
 		if aceCards == N*4
 			print JSON.stringify dumpBoard originalBoard 
 			board = cand[2]
@@ -558,12 +548,12 @@ prettyMove = (src,dst,b) ->
 		else "#{prettyCard c1} to panel"
 
 printSolution = (hash, b) ->
-	key = makeKey b
+	key = dumpBoard b
 	solution = []
 	while key of hash
 		[path,b] = hash[key]
 		solution.push hash[key]
-		key = makeKey b
+		key = dumpBoard b
 	solution.reverse()
 	s = ''
 	for [path,b],index in solution

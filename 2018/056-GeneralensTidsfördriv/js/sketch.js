@@ -65,7 +65,6 @@ var ACES,
     keyPressed,
     legalMove,
     makeBoard,
-    makeKey,
     makeMove,
     menu1,
     menu2,
@@ -176,7 +175,7 @@ preload = function preload() {
 };
 
 pack = function pack(suit, under, over) {
-  return Suit[suit] + Rank[under] + (under === over ? '' : Rank[over]);
+  return Suit[suit] + RANK[under] + (under === over ? '' : RANK[over]);
 };
 
 assert('cA', pack(0, 0, 0));
@@ -193,9 +192,9 @@ assert('hJ', pack(1, 10, 10));
 unpack = function unpack(n) {
   var over, suit, under;
   suit = Suit.indexOf(n[0]);
-  under = Rank.indexOf(n[1]);
+  under = RANK.indexOf(n[1]);
   if (n.length === 3) {
-    over = Rank.indexOf(n[2]);
+    over = RANK.indexOf(n[2]);
   } else {
     over = under;
   }
@@ -349,7 +348,7 @@ fakeBoard = function fakeBoard() {
 };
 
 setup = function setup() {
-  print('X');
+  print('Y');
   createCanvas(innerWidth, innerHeight - 0.5);
   w = width / 11;
   h = height / 5;
@@ -405,7 +404,7 @@ menu2 = function menu2() {
 };
 
 menu3 = function menu3() {
-  var dialogue, f, i, j, len, level, r1, r2, ref, results;
+  var dialogue, i, j, len, level, r1, r2, ref, results;
   dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
   r1 = 0.35 * height;
   r2 = 0.085 * height;
@@ -414,8 +413,7 @@ menu3 = function menu3() {
   results = [];
   for (i = j = 0, len = ref.length; j < len; i = ++j) {
     level = ref[i];
-    print(level, i);
-    f = function f() {
+    results.push(function () {
       var button, index;
       button = dialogue.buttons[i];
       index = i + 2;
@@ -425,8 +423,7 @@ menu3 = function menu3() {
         dialogues.pop();
         return dialogues.pop();
       };
-    };
-    results.push(f());
+    }());
   }
   return results;
 };
@@ -666,7 +663,7 @@ prettyUndoMove = function prettyUndoMove(src, dst, b, antal) {
 };
 
 mousePressed = function mousePressed() {
-  var alternativeDsts, dialogue, found, heap, holes, j, l, len, len1, marked, mx, my, offset, ref;
+  var alternativeDsts, dialogue, found, heap, holes, j, l, len, len1, len2, m, marked, mx, my, offset;
   counter++;
   if (!(0 < mouseX && mouseX < width)) {
     return;
@@ -696,32 +693,40 @@ mousePressed = function mousePressed() {
         marked = [8, 9, 10, 11][my];
       }
     }
-    //print 'marked',marked 
     if (marked !== null) {
       holes = [];
       found = false;
-      alternativeDsts = []; // för att kunna välja mellan flera via Undo
-      ref = ACES.concat(HEAPS);
-      for (j = 0, len = ref.length; j < len; j++) {
-        heap = ref[j];
-        if (board[heap].length === 0) {
-          holes.push(heap);
+      for (j = 0, len = ACES.length; j < len; j++) {
+        heap = ACES[j];
+        if (legalMove(board, marked, heap)) {
+          makeMove(board, marked, heap, true);
+          found = true;
+          break;
         }
-        if (indexOf.call(holes, heap) < 0 && legalMove(board, marked, heap)) {
-          alternativeDsts.push(heap);
-        }
-      }
-      if (alternativeDsts.length > 0) {
-        heap = alternativeDsts[counter % alternativeDsts.length];
-        makeMove(board, marked, heap, true);
-        found = true;
       }
       if (!found) {
-        for (l = 0, len1 = holes.length; l < len1; l++) {
-          heap = holes[l];
-          if (legalMove(board, marked, heap)) {
-            makeMove(board, marked, heap, true);
-            break;
+        alternativeDsts = []; // för att kunna välja mellan flera via Undo
+        for (l = 0, len1 = HEAPS.length; l < len1; l++) {
+          heap = HEAPS[l];
+          if (board[heap].length === 0) {
+            holes.push(heap);
+          }
+          if (indexOf.call(holes, heap) < 0 && legalMove(board, marked, heap)) {
+            alternativeDsts.push(heap);
+          }
+        }
+        if (alternativeDsts.length > 0) {
+          heap = alternativeDsts[counter % alternativeDsts.length];
+          makeMove(board, marked, heap, true);
+          found = true;
+        }
+        if (!found) {
+          for (m = 0, len2 = holes.length; m < len2; m++) {
+            heap = holes[m];
+            if (legalMove(board, marked, heap)) {
+              makeMove(board, marked, heap, true);
+              break;
+            }
           }
         }
       }
@@ -753,49 +758,19 @@ findAllMoves = function findAllMoves(b) {
   return res;
 };
 
-makeKey = function makeKey(b) {
-  var card, heap, index, j, l, len, len1, over, res, suit, under;
-  res = '';
-  for (index = j = 0, len = b.length; j < len; index = ++j) {
-    heap = b[index];
-    if (heap.length === 0) {
-      res += '.';
-    }
-    for (l = 0, len1 = heap.length; l < len1; l++) {
-      card = heap[l];
-
-      var _unpack19 = unpack(card);
-
-      var _unpack20 = _slicedToArray(_unpack19, 3);
-
-      suit = _unpack20[0];
-      under = _unpack20[1];
-      over = _unpack20[2];
-
-      if (under === over) {
-        res += 'chsd'[suit] + RANK[over];
-      } else {
-        res += 'chsd'[suit] + RANK[under] + RANK[over];
-      }
-    }
-    res += '|';
-  }
-  return res;
-};
-
 calcAntal = function calcAntal(lst) {
   var card, j, len, over, res, suit, under;
   res = 0;
   for (j = 0, len = lst.length; j < len; j++) {
     card = lst[j];
 
-    var _unpack21 = unpack(card);
+    var _unpack19 = unpack(card);
 
-    var _unpack22 = _slicedToArray(_unpack21, 3);
+    var _unpack20 = _slicedToArray(_unpack19, 3);
 
-    suit = _unpack22[0];
-    under = _unpack22[1];
-    over = _unpack22[2];
+    suit = _unpack20[0];
+    under = _unpack20[1];
+    over = _unpack20[2];
 
     res += 1 + abs(under - over);
   }
@@ -843,7 +818,7 @@ expand = function expand(_ref3) {
 
     b1 = _.cloneDeep(b);
     makeMove(b1, src, dst);
-    key = makeKey(b1);
+    key = dumpBoard(b1);
     if (!(key in hash)) {
       newPath = path.concat([move]);
       hash[key] = [newPath, b];
@@ -954,7 +929,7 @@ newGame = function newGame(key) {
       });
     }
     level = cand[1];
-    print(nr, aceCards, level);
+    print(nr, aceCards, level, _.size(hash));
     if (aceCards === N * 4) {
       print(JSON.stringify(dumpBoard(originalBoard)));
       board = cand[2];
@@ -987,13 +962,13 @@ nextLevel = function nextLevel() {
 prettyCard2 = function prettyCard2(card, antal) {
   var over, suit, under;
 
-  var _unpack23 = unpack(card);
+  var _unpack21 = unpack(card);
 
-  var _unpack24 = _slicedToArray(_unpack23, 3);
+  var _unpack22 = _slicedToArray(_unpack21, 3);
 
-  suit = _unpack24[0];
-  under = _unpack24[1];
-  over = _unpack24[2];
+  suit = _unpack22[0];
+  under = _unpack22[1];
+  over = _unpack22[2];
 
   if (antal === 1) {
     return SUIT[suit] + " " + RANK[over];
@@ -1011,13 +986,13 @@ prettyCard = function prettyCard(card) {
 
   var over, suit, under;
 
-  var _unpack25 = unpack(card);
+  var _unpack23 = unpack(card);
 
-  var _unpack26 = _slicedToArray(_unpack25, 3);
+  var _unpack24 = _slicedToArray(_unpack23, 3);
 
-  suit = _unpack26[0];
-  under = _unpack26[1];
-  over = _unpack26[2];
+  suit = _unpack24[0];
+  under = _unpack24[1];
+  over = _unpack24[2];
 
   if (antal === 1) {
     return "" + RANK[over];
@@ -1056,7 +1031,7 @@ prettyMove = function prettyMove(src, dst, b) {
 
 printSolution = function printSolution(hash, b) {
   var dst, index, j, key, len, path, s, solution, src;
-  key = makeKey(b);
+  key = dumpBoard(b);
   solution = [];
   while (key in hash) {
     var _hash$key = _slicedToArray(hash[key], 2);
@@ -1065,7 +1040,7 @@ printSolution = function printSolution(hash, b) {
     b = _hash$key[1];
 
     solution.push(hash[key]);
-    key = makeKey(b);
+    key = dumpBoard(b);
   }
   solution.reverse();
   s = '';
