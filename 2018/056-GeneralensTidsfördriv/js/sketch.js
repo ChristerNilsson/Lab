@@ -81,7 +81,8 @@ var ACES,
     prettyMove,
     prettyUndoMove,
     print,
-    printSolution,
+    printAutomaticSolution,
+    printManualSolution,
     range,
     readBoard,
     restart,
@@ -437,7 +438,7 @@ showHeap = function showHeap(board, heap, x, y, dx) {
   }
   x0 = width / 2;
   if (x < 0) {
-    x0 += -w + dx;
+    x0 -= w - dx;
   }
   if (x > 0) {
     x0 += w - dx;
@@ -486,7 +487,7 @@ display = function display(board) {
   var dx, heap, j, l, len, len1, len2, m, n, x, x0, x1, x2, xx, y, y0, y1;
   background(0, 128, 0);
   fill(200);
-  textSize(0.14 * h);
+  textSize(0.13 * h);
   x0 = w / 2;
   x1 = width / 2;
   x2 = width - w / 2;
@@ -509,11 +510,11 @@ display = function display(board) {
   for (y = l = 0, len1 = HEAPS.length; l < len1; y = ++l) {
     heap = HEAPS[y];
     n = calcAntal(board[heap]);
-    dx = min(w / 2, 4 * w / (n - 1));
+    dx = min(w / 2, (4 - 0.05) * w / (n - 1));
     if (y < 4) {
-      showHeap(board, heap, -2, y, -dx);
+      showHeap(board, heap, -2 + 0.1, y, -dx);
     } else {
-      showHeap(board, heap, 2, y - 4, dx);
+      showHeap(board, heap, 2 + 0.1, y - 4, dx);
     }
   }
   for (x = m = 0, len2 = PANEL.length; m < len2; x = ++m) {
@@ -732,6 +733,7 @@ mousePressed = function mousePressed() {
       }
       if (4 * N === countAceCards(board)) {
         msg = Math.floor((millis() - start) / 1000) + " s";
+        printManualSolution();
       }
     }
   }
@@ -933,7 +935,7 @@ newGame = function newGame(key) {
     if (aceCards === N * 4) {
       print(JSON.stringify(dumpBoard(originalBoard)));
       board = cand[2];
-      printSolution(hash, board);
+      printAutomaticSolution(hash, board);
       board = _.cloneDeep(originalBoard);
       print(int(millis() - start) + " ms");
       start = millis();
@@ -1029,7 +1031,7 @@ prettyMove = function prettyMove(src, dst, b) {
   }
 };
 
-printSolution = function printSolution(hash, b) {
+printAutomaticSolution = function printAutomaticSolution(hash, b) {
   var dst, index, j, key, len, path, s, solution, src;
   key = dumpBoard(b);
   solution = [];
@@ -1043,7 +1045,7 @@ printSolution = function printSolution(hash, b) {
     key = dumpBoard(b);
   }
   solution.reverse();
-  s = '';
+  s = 'Automatic Solution:';
   for (index = j = 0, len = solution.length; j < len; index = ++j) {
     var _solution$index = _slicedToArray(solution[index], 2);
 
@@ -1058,6 +1060,23 @@ printSolution = function printSolution(hash, b) {
     dst = _$last2[1];
 
     s += "\n" + index + ": " + prettyMove(src, dst, b);
+  }
+  return print(s);
+};
+
+printManualSolution = function printManualSolution() {
+  var antal, b, dst, index, j, len, s, src;
+  b = _.cloneDeep(originalBoard);
+  s = 'Manual Solution:';
+  for (index = j = 0, len = hist.length; j < len; index = ++j) {
+    var _hist$index = _slicedToArray(hist[index], 3);
+
+    src = _hist$index[0];
+    dst = _hist$index[1];
+    antal = _hist$index[2];
+
+    s += "\n" + index + ": " + prettyMove(src, dst, b);
+    makeMove(b, src, dst, false);
   }
   return print(s);
 };

@@ -216,7 +216,7 @@ showHeap = (board,heap,x,y,dx) -> # dx kan vara både pos och neg
 
 	x0 = width/2 
 
-	if x < 0 then x0 += -w+dx
+	if x < 0 then x0 -= w-dx
 	if x > 0 then x0 += w-dx
 	x = x0 + x*dx/2
 	y = y * h 
@@ -239,7 +239,7 @@ display = (board) ->
 	background 0,128,0
 
 	fill 200
-	textSize 0.14*h
+	textSize 0.13*h
 
 	x0 = w/2
 	x1 = width/2
@@ -248,7 +248,7 @@ display = (board) ->
 	y1 = 5*h 
 
 	textAlign CENTER,TOP
-	text hist.length,  x0,y0
+	text hist.length,x0,y0
 	text (if classic then 'Classic' else LONG[N]), x1,y0
 	text hintsUsed, x2,y0
 	textAlign CENTER,BOTTOM
@@ -261,11 +261,11 @@ display = (board) ->
 
 	for heap,y in HEAPS
 		n = calcAntal board[heap]
-		dx = min w/2,4*w/(n-1)
+		dx = min w/2,(4-0.05)*w/(n-1)
 		if y<4
-			showHeap board, heap, -2, y, -dx
+			showHeap board, heap, -2+0.1, y, -dx
 		else
-			showHeap board, heap, 2, y-4, dx
+			showHeap board, heap, 2+0.1, y-4, dx
 
 	for heap,x in PANEL
 		xx = [-8,-6,-4,-2,2,4,6,8][x]
@@ -375,6 +375,7 @@ mousePressed = ->
 
 			if 4*N == countAceCards board 
 				msg = "#{(millis() - start) // 1000} s"
+				printManualSolution()
 
 	display board
 
@@ -496,7 +497,7 @@ newGame = (key) ->
 		if aceCards == N*4
 			print JSON.stringify dumpBoard originalBoard 
 			board = cand[2]
-			printSolution hash,board
+			printAutomaticSolution hash,board
 			board = _.cloneDeep originalBoard
 			print "#{int millis()-start} ms"
 			start = millis()
@@ -547,7 +548,7 @@ prettyMove = (src,dst,b) ->
 		if dst in HEAPS then "#{prettyCard c1} to hole"
 		else "#{prettyCard c1} to panel"
 
-printSolution = (hash, b) ->
+printAutomaticSolution = (hash, b) ->
 	key = dumpBoard b
 	solution = []
 	while key of hash
@@ -555,8 +556,16 @@ printSolution = (hash, b) ->
 		solution.push hash[key]
 		key = dumpBoard b
 	solution.reverse()
-	s = ''
+	s = 'Automatic Solution:'
 	for [path,b],index in solution
 		[src,dst] = _.last path 
 		s += "\n#{index}: #{prettyMove src,dst,b}"
+	print s
+
+printManualSolution = ->
+	b = _.cloneDeep originalBoard
+	s = 'Manual Solution:'
+	for [src,dst,antal],index in hist
+		s += "\n#{index}: #{prettyMove src,dst,b}"
+		makeMove b,src,dst,false
 	print s
