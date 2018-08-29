@@ -484,24 +484,27 @@ showHeap = function showHeap(board, heap, x, y, dx) {
 };
 
 display = function display(board) {
-  var dx, heap, j, l, len, len1, len2, m, n, x, x0, x1, x2, xx, y, y0, y1;
+  var dx, heap, j, l, len, len1, len2, m, n, ts1, ts2, x, x0, x1, x2, xx, y, y0, y1;
   background(0, 128, 0);
   fill(200);
-  textSize(0.13 * h);
+  ts1 = 0.13 * h;
+  ts2 = 0.20 * h;
   x0 = w / 2;
   x1 = width / 2;
   x2 = width - w / 2;
   y0 = 4 * h;
   y1 = 5 * h;
+  textSize(ts2);
   textAlign(CENTER, TOP);
   text(hist.length, x0, y0);
   text(classic ? 'Classic' : LONG[N], x1, y0);
   text(hintsUsed, x2, y0);
   textAlign(CENTER, BOTTOM);
-  text('Generalens', x0, y1);
   if (hintsUsed === 0) {
     text(msg, x1, y1);
   }
+  textSize(ts1);
+  text('Generalens', x0, y1);
   text('Tidsfördriv', x2, y1);
   for (y = j = 0, len = ACES.length; j < len; y = ++j) {
     heap = ACES[y];

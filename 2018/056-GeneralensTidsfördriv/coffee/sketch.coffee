@@ -239,7 +239,8 @@ display = (board) ->
 	background 0,128,0
 
 	fill 200
-	textSize 0.13*h
+	ts1 = 0.13*h
+	ts2 = 0.20*h
 
 	x0 = w/2
 	x1 = width/2
@@ -247,13 +248,15 @@ display = (board) ->
 	y0 = 4*h  
 	y1 = 5*h 
 
+	textSize ts2
 	textAlign CENTER,TOP
 	text hist.length,x0,y0
 	text (if classic then 'Classic' else LONG[N]), x1,y0
 	text hintsUsed, x2,y0
 	textAlign CENTER,BOTTOM
-	text 'Generalens', x0,y1
 	if hintsUsed == 0 then text msg, x1,y1
+	textSize ts1
+	text 'Generalens', x0,y1
 	text 'Tidsfördriv', x2,y1
 
 	for heap,y in ACES
