@@ -63,6 +63,7 @@ var ACES,
     hintsUsed,
     hist,
     keyPressed,
+    lastMarked,
     legalMove,
     makeBoard,
     makeMove,
@@ -158,6 +159,8 @@ dsts = null;
 hintsUsed = null;
 
 counter = 0;
+
+lastMarked = 0;
 
 print = console.log;
 
@@ -364,7 +367,7 @@ fakeBoard = function fakeBoard() {
 };
 
 setup = function setup() {
-  print('Z');
+  print('X');
   createCanvas(innerWidth, innerHeight - 0.5);
   w = width / 9;
   h = height / 4;
@@ -657,7 +660,8 @@ prettyUndoMove = function prettyUndoMove(src, dst, b, antal) {
 };
 
 mousePressed = function mousePressed() {
-  var alternativeDsts, dialogue, found, heap, holes, j, l, len, len1, len2, m, marked, mx, my;
+  var alternativeDsts, dialogue, found, heap, holes, j, l, len, len1, marked, mx, my;
+  print('');
   if (!(0 < mouseX && mouseX < width)) {
     return;
   }
@@ -666,65 +670,58 @@ mousePressed = function mousePressed() {
   }
   dialogue = _.last(dialogues);
   if (dialogues.length === 0 || !dialogue.execute(mouseX, mouseY)) {
-    print('find card');
-    counter++;
-    marked = null;
     mx = Math.floor(mouseX / w);
     my = Math.floor(mouseY / h);
     if (mx === 8) {
-      marked = my;
       menu1();
       showDialogue();
       return;
-    } else {
-      marked = mx + (my >= 3 ? 12 : 4);
     }
-    if (marked !== null) {
-      holes = [];
-      found = false;
-      for (j = 0, len = ACES.length; j < len; j++) {
-        heap = ACES[j];
-        if (legalMove(board, marked, heap)) {
-          makeMove(board, marked, heap, true);
-          found = true;
-          break;
-        }
+    marked = mx + (my >= 3 ? 12 : 4);
+    if (lastMarked === marked) {
+      counter++;
+    } else {
+      counter = 0;
+    }
+    holes = [];
+    found = false;
+    for (j = 0, len = ACES.length; j < len; j++) {
+      heap = ACES[j];
+      if (legalMove(board, marked, heap)) {
+        makeMove(board, marked, heap, true);
+        found = true;
+        break;
       }
-      if (!found) {
-        alternativeDsts = []; // för att kunna välja mellan flera via Undo
-        for (l = 0, len1 = HEAPS.length; l < len1; l++) {
-          heap = HEAPS[l];
-          if (board[heap].length === 0) {
+    }
+    if (!found) {
+      // Går ej att flytta till något ess. 
+      alternativeDsts = []; // för att kunna välja mellan flera via Undo
+      for (l = 0, len1 = HEAPS.length; l < len1; l++) {
+        heap = HEAPS[l];
+        if (board[heap].length === 0) {
+          if (indexOf.call(PANEL, marked) >= 0 || calcAntal(board[marked]) > 1) {
             holes.push(heap);
           }
-          // if heap not in holes and legalMove board,marked,heap  
+        } else {
           if (legalMove(board, marked, heap)) {
             alternativeDsts.push(heap);
           }
         }
-        if (alternativeDsts.length > 0) {
-          heap = alternativeDsts[counter % alternativeDsts.length];
-          makeMove(board, marked, heap, true);
-          found = true;
-        }
-        if (!found) {
-          for (m = 0, len2 = holes.length; m < len2; m++) {
-            heap = holes[m];
-            if (legalMove(board, marked, heap)) {
-              makeMove(board, marked, heap, true);
-              break;
-            }
-          }
-        }
       }
+      if (holes.length > 0) {
+        alternativeDsts.push(holes[0]);
+      }
+      if (alternativeDsts.length > 0) {
+        heap = alternativeDsts[counter % alternativeDsts.length];
+        makeMove(board, marked, heap, true);
+      }
+      lastMarked = marked;
       if (4 * N === countAceCards(board)) {
         msg = Math.floor((millis() - start) / 1000) + " s";
         printManualSolution();
       }
     }
   }
-  //print JSON.stringify dumpBoard board 
-  //print JSON.stringify hist
   return display(board);
 };
 

@@ -56,6 +56,7 @@ srcs = null
 dsts = null
 hintsUsed = null
 counter = 0
+lastMarked = 0
 
 print = console.log
 range = _.range
@@ -155,7 +156,7 @@ fakeBoard = ->
 	print board
 
 setup = ->
-	print 'Z'
+	print 'X'
 	createCanvas innerWidth, innerHeight-0.5
 	w = width/9 
 	h = height/4 
@@ -317,60 +318,56 @@ prettyUndoMove = (src,dst,b,antal) ->
 
 mousePressed = -> 
 
+	print ''
+
 	if not (0 < mouseX < width) then return
 	if not (0 < mouseY < height) then return
 
 	dialogue = _.last dialogues
 	if dialogues.length==0 or not dialogue.execute mouseX,mouseY 
 
-		print 'find card'
-	
-		counter++
-		marked = null
 		mx = mouseX//w
 		my = mouseY//h
 
 		if mx == 8
-			marked = my
 			menu1()
 			showDialogue()
 			return
-		else			
-			marked = mx + if my >= 3 then 12 else 4
 
-		if marked != null
-			holes = []
-			found = false
+		marked = mx + if my >= 3 then 12 else 4
 
-			for heap in ACES
-				if legalMove board,marked,heap  
-					makeMove board,marked,heap,true
-					found = true 
-					break
+		if lastMarked==marked then counter++ else counter = 0
 
-			if not found 
-				alternativeDsts = [] # för att kunna välja mellan flera via Undo
-				for heap in HEAPS
-					if board[heap].length==0 then holes.push heap
-					# if heap not in holes and legalMove board,marked,heap  
-					if legalMove board,marked,heap  
+		holes = []
+		found = false
+
+		for heap in ACES
+			if legalMove board,marked,heap  
+				makeMove board,marked,heap,true
+				found = true 
+				break
+
+		if not found # Går ej att flytta till något ess. 
+			alternativeDsts = [] # för att kunna välja mellan flera via Undo
+			for heap in HEAPS
+				if board[heap].length == 0
+					if marked in PANEL or calcAntal(board[marked]) > 1
+						holes.push heap
+				else 
+					if legalMove board,marked,heap
 						alternativeDsts.push heap
-				if alternativeDsts.length > 0
-					heap = alternativeDsts[counter % alternativeDsts.length]  
-					makeMove board,marked,heap,true
-					found = true
-				if not found
-					for heap in holes	
-						if legalMove board,marked,heap
-							makeMove board,marked,heap,true
-							break 
+			if holes.length > 0 then alternativeDsts.push holes[0]		
+
+			if alternativeDsts.length > 0
+				heap = alternativeDsts[counter % alternativeDsts.length]  
+				makeMove board,marked,heap,true
+
+			lastMarked = marked 
 
 			if 4*N == countAceCards board 
 				msg = "#{(millis() - start) // 1000} s"
 				printManualSolution()
 
-	#print JSON.stringify dumpBoard board 
-	#print JSON.stringify hist
 	display board
 
 ####### AI-section ########
