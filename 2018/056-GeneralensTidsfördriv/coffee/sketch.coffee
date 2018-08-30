@@ -160,11 +160,7 @@ setup = ->
 	w = width/9 
 	h = height/4 
 	angleMode DEGREES
-
 	newGame '3' 
-
-	menu1()
-
 	display board 
 
 keyPressed = -> 
@@ -177,31 +173,33 @@ keyPressed = ->
 	display board
 
 menu1 = ->
-	dialogue = new Dialogue width/2,height/2,0.12*h
-	dialogue.add new Button 'Undo', 4*w, -h, 0.2*h, -> if hist.length > 0 then undoMove hist.pop()
-	dialogue.add new Button 'Menu', 4*w,  0, 0.2*h, -> menu2()
-	dialogue.add new Button 'Hint', 4*w,  h, 0.2*h, -> hint()
-
-menu2 = ->
 	dialogue = new Dialogue width/2,height/2,0.15*h
 
 	r1 = 0.25 * height 
 	r2 = 0.085 * height
-	dialogue.clock 4,r1,r2,45
+	dialogue.clock 6,r1,r2,120
 
-	dialogue.buttons[0].info 'Restart', -> 
+	dialogue.buttons[0].info ['Undo',hist.length], -> 
+		if hist.length > 0 then undoMove hist.pop()
+		dialogues.pop()
+
+	dialogue.buttons[1].info ['Hint',hintsUsed], -> 
+		hint()
+		dialogues.pop()
+
+	dialogue.buttons[2].info 'Restart', -> 
 		restart()
 		dialogues.pop()
 
-	dialogue.buttons[1].info 'Next', ->
+	dialogue.buttons[3].info 'Next', ->
 		nextLevel()
 		dialogues.pop()
 
-	dialogue.buttons[2].info 'Link'
+	dialogue.buttons[4].info 'Link'
 
-	dialogue.buttons[3].info 'Level', -> menu3()
-	
-menu3 = ->
+	dialogue.buttons[5].info 'Level', -> menu2()
+
+menu2 = ->
 	dialogue = new Dialogue width/2,height/2,0.15*h
 
 	r1 = 0.35 * height 
@@ -263,11 +261,9 @@ display = (board) ->
 		showHeap board, heap, x, 3, 0
 
 	noStroke()
-	dialogues[0].buttons[0].txt = ['Undo',hist.length]
-	dialogues[0].buttons[2].txt = ['Hint',hintsUsed]
 	showDialogue()
 
-showDialogue = -> (_.last dialogues).show()
+showDialogue = -> if dialogues.length>0 then (_.last dialogues).show()
 
 legalMove = (board,src,dst) ->
 	if src in ACES then return false 
@@ -325,7 +321,9 @@ mousePressed = ->
 	if not (0 < mouseY < height) then return
 
 	dialogue = _.last dialogues
-	if not dialogue.execute mouseX,mouseY 
+	if dialogues.length==0 or not dialogue.execute mouseX,mouseY 
+
+		print 'find card'
 	
 		counter++
 		marked = null
@@ -334,6 +332,9 @@ mousePressed = ->
 
 		if mx == 8
 			marked = my
+			menu1()
+			showDialogue()
+			return
 		else			
 			marked = mx + if my >= 3 then 12 else 4
 
@@ -368,8 +369,8 @@ mousePressed = ->
 				msg = "#{(millis() - start) // 1000} s"
 				printManualSolution()
 
-	print JSON.stringify dumpBoard board 
-	print JSON.stringify hist
+	#print JSON.stringify dumpBoard board 
+	#print JSON.stringify hist
 	display board
 
 ####### AI-section ########

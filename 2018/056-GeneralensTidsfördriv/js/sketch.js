@@ -68,7 +68,6 @@ var ACES,
     makeMove,
     menu1,
     menu2,
-    menu3,
     mousePressed,
     msg,
     newGame,
@@ -371,7 +370,6 @@ setup = function setup() {
   h = height / 4;
   angleMode(DEGREES);
   newGame('3');
-  menu1();
   return display(board);
 };
 
@@ -387,42 +385,36 @@ keyPressed = function keyPressed() {
 };
 
 menu1 = function menu1() {
-  var dialogue;
-  dialogue = new Dialogue(width / 2, height / 2, 0.12 * h);
-  dialogue.add(new Button('Undo', 4 * w, -h, 0.2 * h, function () {
-    if (hist.length > 0) {
-      return undoMove(hist.pop());
-    }
-  }));
-  dialogue.add(new Button('Menu', 4 * w, 0, 0.2 * h, function () {
-    return menu2();
-  }));
-  return dialogue.add(new Button('Hint', 4 * w, h, 0.2 * h, function () {
-    return hint();
-  }));
-};
-
-menu2 = function menu2() {
   var dialogue, r1, r2;
   dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
   r1 = 0.25 * height;
   r2 = 0.085 * height;
-  dialogue.clock(4, r1, r2, 45);
-  dialogue.buttons[0].info('Restart', function () {
+  dialogue.clock(6, r1, r2, 120);
+  dialogue.buttons[0].info(['Undo', hist.length], function () {
+    if (hist.length > 0) {
+      undoMove(hist.pop());
+    }
+    return dialogues.pop();
+  });
+  dialogue.buttons[1].info(['Hint', hintsUsed], function () {
+    hint();
+    return dialogues.pop();
+  });
+  dialogue.buttons[2].info('Restart', function () {
     restart();
     return dialogues.pop();
   });
-  dialogue.buttons[1].info('Next', function () {
+  dialogue.buttons[3].info('Next', function () {
     nextLevel();
     return dialogues.pop();
   });
-  dialogue.buttons[2].info('Link');
-  return dialogue.buttons[3].info('Level', function () {
-    return menu3();
+  dialogue.buttons[4].info('Link');
+  return dialogue.buttons[5].info('Level', function () {
+    return menu2();
   });
 };
 
-menu3 = function menu3() {
+menu2 = function menu2() {
   var dialogue, i, j, len, level, r1, r2, ref, results;
   dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
   r1 = 0.35 * height;
@@ -522,13 +514,13 @@ display = function display(board) {
     showHeap(board, heap, x, 3, 0);
   }
   noStroke();
-  dialogues[0].buttons[0].txt = ['Undo', hist.length];
-  dialogues[0].buttons[2].txt = ['Hint', hintsUsed];
   return showDialogue();
 };
 
 showDialogue = function showDialogue() {
-  return _.last(dialogues).show();
+  if (dialogues.length > 0) {
+    return _.last(dialogues).show();
+  }
 };
 
 legalMove = function legalMove(board, src, dst) {
@@ -673,13 +665,17 @@ mousePressed = function mousePressed() {
     return;
   }
   dialogue = _.last(dialogues);
-  if (!dialogue.execute(mouseX, mouseY)) {
+  if (dialogues.length === 0 || !dialogue.execute(mouseX, mouseY)) {
+    print('find card');
     counter++;
     marked = null;
     mx = Math.floor(mouseX / w);
     my = Math.floor(mouseY / h);
     if (mx === 8) {
       marked = my;
+      menu1();
+      showDialogue();
+      return;
     } else {
       marked = mx + (my >= 3 ? 12 : 4);
     }
@@ -727,8 +723,8 @@ mousePressed = function mousePressed() {
       }
     }
   }
-  print(JSON.stringify(dumpBoard(board)));
-  print(JSON.stringify(hist));
+  //print JSON.stringify dumpBoard board 
+  //print JSON.stringify hist
   return display(board);
 };
 

@@ -46,7 +46,6 @@ Dialogue = function () {
     key: 'show',
     value: function show() {
       var button, j, len, ref;
-      fill(255, 128);
       push();
       translate(this.x, this.y);
       textSize(this.textSize);
@@ -100,19 +99,19 @@ Button = function () {
   }, {
     key: 'show',
     value: function show() {
-      fill(256 - 16);
+      fill(255, 255, 0, 128);
       stroke(0);
       ellipse(this.x, this.y, 2 * this.r, 2 * this.r);
       push();
-      fill(128);
+      fill(0);
       noStroke();
       textAlign(CENTER, CENTER);
       textSize(this.dlg.textSize);
       if ('string' === typeof this.txt) {
         text(this.txt, this.x, this.y);
       } else {
-        text(this.txt[0], this.x, this.y - 0.4 * this.r);
-        text(this.txt[1], this.x, this.y + 0.4 * this.r);
+        text(this.txt[0], this.x, this.y - 0.3 * this.r);
+        text(this.txt[1], this.x, this.y + 0.3 * this.r);
       }
       return pop();
     }
