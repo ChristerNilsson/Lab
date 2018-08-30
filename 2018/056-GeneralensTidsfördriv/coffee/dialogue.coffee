@@ -31,15 +31,20 @@ class Button
 	constructor : (@txt, @x, @y, @r, @event = -> print @txt) ->
 	info : (@txt,@event) ->
 	show : ->
-		fill 255,255,0,128
+		fill 256-16
 		stroke 0
 		ellipse @x,@y,2*@r,2*@r
 		push()
-		fill 0
+		fill 128
 		noStroke()
 		textAlign CENTER,CENTER
 		textSize @dlg.textSize
-		text @txt, @x,@y
+		if 'string' == typeof @txt 
+			text @txt, @x,@y
+		else 
+			text @txt[0], @x,@y-0.4*@r
+			text @txt[1], @x,@y+0.4*@r
+
 		pop()
 	inside : (mx,my) -> @r > dist mx, my, @dlg.x + @x, @dlg.y + @y
 	execute : -> @event()

@@ -100,15 +100,20 @@ Button = function () {
   }, {
     key: 'show',
     value: function show() {
-      fill(255, 255, 0, 128);
+      fill(256 - 16);
       stroke(0);
       ellipse(this.x, this.y, 2 * this.r, 2 * this.r);
       push();
-      fill(0);
+      fill(128);
       noStroke();
       textAlign(CENTER, CENTER);
       textSize(this.dlg.textSize);
-      text(this.txt, this.x, this.y);
+      if ('string' === typeof this.txt) {
+        text(this.txt, this.x, this.y);
+      } else {
+        text(this.txt[0], this.x, this.y - 0.4 * this.r);
+        text(this.txt[1], this.x, this.y + 0.4 * this.r);
+      }
       return pop();
     }
   }, {
