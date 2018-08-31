@@ -8,28 +8,35 @@
 * De nedre åtta fria korten får man inte bygga på. Man får enbart plocka dessa.
 * Färg bibehålles alltid. Det finns fyra färger.
 
+# Menyer
+Menyerna kan nås genom att klicka på något av essen.
+
 * Undo. Ångrar senaste drag. Talet visar antalet drag som utförts.
 * Hint. Ger en ledtråd. Utför även en eller flera Undo om situationen är olösbar. Talet visar antalet Hints som utförts.
   * Prova även att göra en Restart innan du klickar på Hint. Då slipper du eventuella Undo.
-* Menu: Talet visar använd betänketid i sekunder.
-  * Restart. Omstart av patiensen.
-  * Level:
-	  * Three = Ess till 3. Lätt.
-	  * Four = Ess till 4
-	  * Five = Ess till 5
-	  * Six = Ess till 6
-	  * Seven = Ess till 7
-	  * Eight = Ess till 8
-	  * Nine = Ess till 9
-	  * Ten = Ess till Tio
-	  * Jack = Ess till Knekt
-	  * Queen = Ess till Dam
-	  * King = Ess till Kung. Svår.
-	  * Classic. Som King fast med lika långa sekvenser. Svårast.
-  * Link. Sparar en länk till aktuell patiens till klippbordet. Ej klar.
-  * Next
-    * Flyttar upp en Level om patiensen gått ut.
-    * Flyttar ner en Level om patiensen ej gått ut.
+* Classic: Sekvenser med samma längd
+  * Three = Ess till 3. Lätt
+  * Five = Ess till 5
+  * Seven = Ess till 7
+  * Nine = Ess till 9
+  * Jack = Ess till Knekt
+  * King = Ess till Kung. Svår
+* Wild: Sekvenser med slumpmässiga längder. Något lättare än Classic
+  * Four = Ess till 4. Lätt
+  * Five = Ess till 5
+  * Six = Ess till 6
+  * Seven = Ess till 7
+  * Eight = Ess till 8
+  * Nine = Ess till 9
+  * Ten = Ess till Tio
+  * Jack = Ess till Knekt
+  * Queen = Ess till Dam
+  * King = Ess till Kung. Svår
+* Restart. Ångrar alla drag
+* Next
+  * Flyttar upp en Level om patiensen gått ut
+  * Flyttar ner en Level om patiensen ej gått ut
+* Link. Sparar en länk till aktuell patiens till klippbordet. Ej klar
 
 De skapade patienserna är alltid lösbara.
 
@@ -49,6 +56,7 @@ De skapade patienserna är alltid lösbara.
 
 Att lägga patiens. Bokförlaget Forum 1957.
 
-![](bild1.jpg "Start")
-![](bild2.jpg "Menu")
-![](bild3.jpg "Level")
+![](bild0.jpg "Start")
+![](bild1.jpg "Menu")
+![](bild2.jpg "Classic")
+![](bild3.jpg "Wild")

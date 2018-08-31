@@ -11,14 +11,11 @@ dialogues = [];
 
 Dialogue = function () {
   function Dialogue(x, y, textSize1) {
-    var helpText = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : '';
-
     _classCallCheck(this, Dialogue);
 
     this.x = x;
     this.y = y;
     this.textSize = textSize1;
-    this.helpText = helpText;
     this.buttons = [];
     dialogues.push(this);
   }
@@ -49,16 +46,6 @@ Dialogue = function () {
     key: 'show',
     value: function show() {
       var button, j, len, ref;
-      // if @helpText != ''
-      // 	noStroke()
-      // 	textAlign LEFT,TOP
-      // 	textSize h/10
-      // 	for txt,i in @helpText.split '|'
-      // 		txt = txt.split ':'
-      // 		fill 0
-      // 		text txt[0],0.05*h,(i+1)*h/10-0.05*h
-      // 		fill 255,255,0
-      // 		text txt[1],0.5*h,(i+1)*h/10-0.05*h
       push();
       translate(this.x, this.y);
       textSize(this.textSize);
@@ -112,6 +99,9 @@ Button = function () {
   }, {
     key: 'show',
     value: function show() {
+      if (this.txt === '') {
+        return;
+      }
       fill(255, 255, 0, 128);
       stroke(0);
       ellipse(this.x, this.y, 2 * this.r, 2 * this.r);
@@ -131,6 +121,9 @@ Button = function () {
   }, {
     key: 'inside',
     value: function inside(mx, my) {
+      if (this.txt === '') {
+        return;
+      }
       return this.r > dist(mx, my, this.dlg.x + this.x, this.dlg.y + this.y);
     }
   }, {

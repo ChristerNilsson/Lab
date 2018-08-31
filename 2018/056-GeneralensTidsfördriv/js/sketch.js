@@ -68,8 +68,7 @@ var ACES,
     makeBoard,
     makeMove,
     menu1,
-    menu2A,
-    menu2B,
+    menu2,
     mousePressed,
     msg,
     newGame,
@@ -368,7 +367,7 @@ fakeBoard = function fakeBoard() {
 };
 
 setup = function setup() {
-  print('X');
+  print('Y');
   createCanvas(innerWidth, innerHeight - 0.5);
   w = width / 9;
   h = height / 4;
@@ -390,18 +389,10 @@ keyPressed = function keyPressed() {
 
 menu1 = function menu1() {
   var dialogue, r1, r2;
-  // helpText = ''
-  // helpText += 'Undo: Undoes the last move'
-  // helpText += '|Hint: Shows a move leading to success'
-  // helpText += '|Classic: Equal Sequence length'
-  // helpText += '|Wild: Random Sequence length'
-  // helpText += '|Restart: Undoes all moves'
-  // helpText += '|Next: Shows the next Challenge'
-  // helpText += '|Link: Stores a link to this Challenge on the Clipboard'
-  dialogue = new Dialogue(width / 2, height / 2, 0.15 * h); //,helpText
+  dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
   r1 = 0.25 * height;
   r2 = 0.085 * height;
-  dialogue.clock('Menu', 7, r1, r2, 360 / 14 + 90);
+  dialogue.clock(' ', 7, r1, r2, 360 / 14 + 90);
   dialogue.buttons[0].info(['Undo', hist.length], function () {
     if (hist.length > 0) {
       undoMove(hist.pop());
@@ -413,7 +404,7 @@ menu1 = function menu1() {
     return dialogues.pop();
   });
   dialogue.buttons[6].info('Classic', function () {
-    return menu2A();
+    return menu2('Classic', 'Three Five Seven Nine Jack King', '3579JK');
   });
   dialogue.buttons[3].info('Next', function () {
     nextLevel();
@@ -425,57 +416,27 @@ menu1 = function menu1() {
     return dialogues.pop();
   });
   return dialogue.buttons[2].info('Wild', function () {
-    return menu2B();
+    return menu2('Wild', ' Four Five Six Seven Eight Nine Ten Jack Queen King ', '3456789TJQK');
   });
 };
 
-menu2A = function menu2A() {
-  // Classic
-  var dialogue, i, j, len, level, r1, r2, ref, results;
+menu2 = function menu2(title, items, letters) {
+  var dialogue, i, j, len, level, r1, r2, results;
   dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
+  items = items.split(' ');
   r1 = 0.35 * height;
   r2 = 0.085 * height;
-  dialogue.clock('Classic', 6, r1, r2);
-  ref = LONG.slice(3);
+  dialogue.clock(title, items.length, r1, r2);
   results = [];
-  for (i = j = 0, len = ref.length; j < len; i = ++j) {
-    level = ref[i];
-    if (i % 2 === 1) {
-      continue;
-    }
-    results.push(function () {
-      var button, index;
-      button = dialogue.buttons[Math.floor(i / 2)];
-      index = i + 2;
-      button.txt = level;
-      return button.event = function () {
-        newGame("A23456789TJQK"[index], true);
-        dialogues.pop();
-        return dialogues.pop();
-      };
-    }());
-  }
-  return results;
-};
-
-menu2B = function menu2B() {
-  // Wild
-  var dialogue, i, j, len, level, r1, r2, ref, results;
-  dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
-  r1 = 0.35 * height;
-  r2 = 0.085 * height;
-  dialogue.clock('Wild', 11, r1, r2);
-  ref = LONG.slice(3);
-  results = [];
-  for (i = j = 0, len = ref.length; j < len; i = ++j) {
-    level = ref[i];
+  for (i = j = 0, len = items.length; j < len; i = ++j) {
+    level = items[i];
     results.push(function () {
       var button, index;
       button = dialogue.buttons[i];
-      index = i + 2;
+      index = i;
       button.txt = level;
       return button.event = function () {
-        newGame("A23456789TJQK"[index], false);
+        newGame(letters[index], title === 'Classic');
         dialogues.pop();
         return dialogues.pop();
       };

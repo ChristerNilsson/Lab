@@ -1,7 +1,7 @@
 dialogues = []
 
 class Dialogue 
-	constructor : (@x,@y,@textSize,@helpText='') -> 
+	constructor : (@x,@y,@textSize) -> 
 		@buttons = []
 		dialogues.push @
 	add : (button) -> 
@@ -13,16 +13,6 @@ class Dialogue
 			@add new Button '', r1*cos(v), r1*sin(v), r2, -> 
 		@add new Button title,0,0,r2, -> dialogues.pop()
 	show : ->
-		# if @helpText != ''
-		# 	noStroke()
-		# 	textAlign LEFT,TOP
-		# 	textSize h/10
-		# 	for txt,i in @helpText.split '|'
-		# 		txt = txt.split ':'
-		# 		fill 0
-		# 		text txt[0],0.05*h,(i+1)*h/10-0.05*h
-		# 		fill 255,255,0
-		# 		text txt[1],0.5*h,(i+1)*h/10-0.05*h
 		push()
 		translate @x,@y
 		textSize @textSize
@@ -40,6 +30,7 @@ class Button
 	constructor : (@txt, @x, @y, @r, @event = -> print @txt) ->
 	info : (@txt,@event) ->
 	show : ->
+		if @txt == '' then return
 		fill 255,255,0,128
 		stroke 0
 		ellipse @x,@y,2*@r,2*@r
@@ -55,5 +46,7 @@ class Button
 			text @txt[1], @x,@y+0.3*@r
 		pop()
 
-	inside : (mx,my) -> @r > dist mx, my, @dlg.x + @x, @dlg.y + @y
+	inside : (mx,my) -> 
+		if @txt == '' then return
+		@r > dist mx, my, @dlg.x + @x, @dlg.y + @y
 	execute : -> @event()

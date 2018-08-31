@@ -156,7 +156,7 @@ fakeBoard = ->
 	print board
 
 setup = ->
-	print 'X'
+	print 'Y'
 	createCanvas innerWidth, innerHeight-0.5
 	w = width/9 
 	h = height/4 
@@ -174,19 +174,11 @@ keyPressed = ->
 	display board
 
 menu1 = ->
-	# helpText = ''
-	# helpText += 'Undo: Undoes the last move'
-	# helpText += '|Hint: Shows a move leading to success'
-	# helpText += '|Classic: Equal Sequence length'
-	# helpText += '|Wild: Random Sequence length'
-	# helpText += '|Restart: Undoes all moves'
-	# helpText += '|Next: Shows the next Challenge'
-	# helpText += '|Link: Stores a link to this Challenge on the Clipboard'
-	dialogue = new Dialogue width/2,height/2,0.15*h #,helpText
+	dialogue = new Dialogue width/2,height/2,0.15*h 
 
 	r1 = 0.25 * height 
 	r2 = 0.085 * height
-	dialogue.clock 'Menu',7,r1,r2,360/14+90
+	dialogue.clock ' ',7,r1,r2,360/14+90
 
 	dialogue.buttons[0].info ['Undo',hist.length], -> 
 		if hist.length > 0 then undoMove hist.pop()
@@ -196,7 +188,7 @@ menu1 = ->
 		hint()
 		dialogues.pop()
 
-	dialogue.buttons[6].info 'Classic', -> menu2A()
+	dialogue.buttons[6].info 'Classic', -> menu2 'Classic','Three Five Seven Nine Jack King','3579JK'
 
 	dialogue.buttons[3].info 'Next', ->
 		nextLevel()
@@ -208,40 +200,22 @@ menu1 = ->
 		restart()
 		dialogues.pop()
 
-	dialogue.buttons[2].info 'Wild', -> menu2B()
+	dialogue.buttons[2].info 'Wild', -> menu2 'Wild',' Four Five Six Seven Eight Nine Ten Jack Queen King ','3456789TJQK'
 
-menu2A = -> # Classic
+menu2 = (title,items,letters) -> 
 	dialogue = new Dialogue width/2,height/2,0.15*h
-
+	items = items.split ' '
 	r1 = 0.35 * height 
 	r2 = 0.085 * height
-	dialogue.clock 'Classic',6,r1,r2
+	dialogue.clock title,items.length,r1,r2
 
-	for level,i in LONG.slice 3
-		if i%2==1 then continue
-		do -> 
-			button = dialogue.buttons[i//2]	
-			index = i+2
-			button.txt = level 
-			button.event = -> 
-				newGame "A23456789TJQK"[index],true
-				dialogues.pop()
-				dialogues.pop()
-
-menu2B = -> # Wild
-	dialogue = new Dialogue width/2,height/2,0.15*h
-
-	r1 = 0.35 * height 
-	r2 = 0.085 * height
-	dialogue.clock 'Wild',11,r1,r2
-
-	for level,i in LONG.slice 3
+	for level,i in items
 		do -> 
 			button = dialogue.buttons[i]	
-			index = i+2
+			index = i
 			button.txt = level 
-			button.event = ->
-				newGame "A23456789TJQK"[index],false
+			button.event = -> 
+				newGame letters[index], title=='Classic'
 				dialogues.pop()
 				dialogues.pop()
 
