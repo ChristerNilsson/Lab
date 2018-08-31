@@ -68,7 +68,8 @@ var ACES,
     makeBoard,
     makeMove,
     menu1,
-    menu2,
+    menu2A,
+    menu2B,
     mousePressed,
     msg,
     newGame,
@@ -111,7 +112,7 @@ SUIT = "club heart spade diamond".split(' ');
 
 RANK = "A23456789TJQK";
 
-LONG = " Ace Two Three Four Five Six Seven Eight Nine Ten Jack Queen King Classic".split(' ');
+LONG = " Ace Two Three Four Five Six Seven Eight Nine Ten Jack Queen King".split(' ');
 
 // Konstanter för cards.png
 OFFSETX = 468;
@@ -372,7 +373,7 @@ setup = function setup() {
   w = width / 9;
   h = height / 4;
   angleMode(DEGREES);
-  newGame('3');
+  newGame('3', true);
   return display(board);
 };
 
@@ -389,10 +390,18 @@ keyPressed = function keyPressed() {
 
 menu1 = function menu1() {
   var dialogue, r1, r2;
-  dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
+  // helpText = ''
+  // helpText += 'Undo: Undoes the last move'
+  // helpText += '|Hint: Shows a move leading to success'
+  // helpText += '|Classic: Equal Sequence length'
+  // helpText += '|Wild: Random Sequence length'
+  // helpText += '|Restart: Undoes all moves'
+  // helpText += '|Next: Shows the next Challenge'
+  // helpText += '|Link: Stores a link to this Challenge on the Clipboard'
+  dialogue = new Dialogue(width / 2, height / 2, 0.15 * h); //,helpText
   r1 = 0.25 * height;
   r2 = 0.085 * height;
-  dialogue.clock(6, r1, r2, 120);
+  dialogue.clock('Menu', 7, r1, r2, 360 / 14 + 90);
   dialogue.buttons[0].info(['Undo', hist.length], function () {
     if (hist.length > 0) {
       undoMove(hist.pop());
@@ -403,26 +412,59 @@ menu1 = function menu1() {
     hint();
     return dialogues.pop();
   });
-  dialogue.buttons[2].info('Restart', function () {
-    restart();
-    return dialogues.pop();
+  dialogue.buttons[6].info('Classic', function () {
+    return menu2A();
   });
   dialogue.buttons[3].info('Next', function () {
     nextLevel();
     return dialogues.pop();
   });
   dialogue.buttons[4].info('Link');
-  return dialogue.buttons[5].info('Level', function () {
-    return menu2();
+  dialogue.buttons[5].info('Restart', function () {
+    restart();
+    return dialogues.pop();
+  });
+  return dialogue.buttons[2].info('Wild', function () {
+    return menu2B();
   });
 };
 
-menu2 = function menu2() {
+menu2A = function menu2A() {
+  // Classic
   var dialogue, i, j, len, level, r1, r2, ref, results;
   dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
   r1 = 0.35 * height;
   r2 = 0.085 * height;
-  dialogue.clock(12, r1, r2);
+  dialogue.clock('Classic', 6, r1, r2);
+  ref = LONG.slice(3);
+  results = [];
+  for (i = j = 0, len = ref.length; j < len; i = ++j) {
+    level = ref[i];
+    if (i % 2 === 1) {
+      continue;
+    }
+    results.push(function () {
+      var button, index;
+      button = dialogue.buttons[Math.floor(i / 2)];
+      index = i + 2;
+      button.txt = level;
+      return button.event = function () {
+        newGame("A23456789TJQK"[index], true);
+        dialogues.pop();
+        return dialogues.pop();
+      };
+    }());
+  }
+  return results;
+};
+
+menu2B = function menu2B() {
+  // Wild
+  var dialogue, i, j, len, level, r1, r2, ref, results;
+  dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
+  r1 = 0.35 * height;
+  r2 = 0.085 * height;
+  dialogue.clock('Wild', 11, r1, r2);
   ref = LONG.slice(3);
   results = [];
   for (i = j = 0, len = ref.length; j < len; i = ++j) {
@@ -433,7 +475,7 @@ menu2 = function menu2() {
       index = i + 2;
       button.txt = level;
       return button.event = function () {
-        newGame("A23456789TJQKC"[index]);
+        newGame("A23456789TJQK"[index], false);
         dialogues.pop();
         return dialogues.pop();
       };
@@ -495,13 +537,14 @@ display = function display(board) {
   textAlign(LEFT, BOTTOM);
   fill(0, 128 - 16, 0);
   textSize(0.2 * h);
-  text('Generalens Tidsfördriv', 0, 3 * h);
-  textAlign(RIGHT, BOTTOM);
-  text(classic ? 'Classic' : LONG[N], 8 * w, 3 * h);
-  textAlign(CENTER, TOP);
+  text('Generalens Tidsfördriv', 0.05 * w, 3 * h);
+  textAlign(CENTER, BOTTOM);
   if (hintsUsed === 0) {
-    text(msg, width / 2, height / 2);
+    text(msg, width / 2, 3 * h);
   }
+  textAlign(RIGHT, BOTTOM);
+  text((classic ? 'Classic' : 'Wild') + " " + LONG[N], 7.95 * w, 3 * h);
+  textAlign(CENTER, TOP);
   for (y = j = 0, len = ACES.length; j < len; y = ++j) {
     heap = ACES[y];
     showHeap(board, heap, 8, y, 0);
@@ -509,7 +552,7 @@ display = function display(board) {
   for (x = l = 0, len1 = HEAPS.length; l < len1; x = ++l) {
     heap = HEAPS[x];
     n = calcAntal(board[heap]);
-    dy = min(h / 4, (2 - 0.05) * h / (n - 1));
+    dy = min(h / 4, (2 - 0.0) * h / (n - 1));
     showHeap(board, heap, x, 0, dy);
   }
   for (x = m = 0, len2 = PANEL.length; m < len2; x = ++m) {
@@ -661,7 +704,6 @@ prettyUndoMove = function prettyUndoMove(src, dst, b, antal) {
 
 mousePressed = function mousePressed() {
   var alternativeDsts, dialogue, found, heap, holes, j, l, len, len1, marked, mx, my;
-  print('');
   if (!(0 < mouseX && mouseX < width)) {
     return;
   }
@@ -673,8 +715,13 @@ mousePressed = function mousePressed() {
     mx = Math.floor(mouseX / w);
     my = Math.floor(mouseY / h);
     if (mx === 8) {
-      menu1();
-      showDialogue();
+      print(dialogues.length);
+      if (dialogues.length === 0) {
+        menu1();
+      } else {
+        dialogues.pop();
+      }
+      display(board);
       return;
     }
     marked = mx + (my >= 3 ? 12 : 4);
@@ -716,10 +763,10 @@ mousePressed = function mousePressed() {
         makeMove(board, marked, heap, true);
       }
       lastMarked = marked;
-      if (4 * N === countAceCards(board)) {
-        msg = Math.floor((millis() - start) / 1000) + " s";
-        printManualSolution();
-      }
+    }
+    if (msg === '' && 4 * N === countAceCards(board)) {
+      msg = Math.floor((millis() - start) / 1000) + " s";
+      printManualSolution();
     }
   }
   return display(board);
@@ -881,12 +928,12 @@ hintOne = function hintOne() {
   }
 };
 
-newGame = function newGame(key) {
+newGame = function newGame(key, classic1) {
   var cand, increment, level, nr;
   start = millis();
   msg = '';
   hist = [];
-  classic = key === 'C';
+  classic = classic1;
   while (true) {
     if (indexOf.call('3456789TJQK', key) >= 0) {
       makeBoard(3 + '3456789TJQK'.indexOf(key), classic);
@@ -938,14 +985,20 @@ restart = function restart() {
 };
 
 nextLevel = function nextLevel() {
-  if (4 * N === countAceCards(board)) {
-    N++;
+  var dn;
+  if (classic) {
+    dn = 2;
   } else {
-    N--;
+    dn = 1;
   }
+  if (4 * N === countAceCards(board)) {
+    N += dn;
+  } else {
+    N -= dn;
+  }
+  N = N % 14;
   N = constrain(N, 3, 13);
-  classic = false;
-  return newGame('   3456789TJQK'[N]);
+  return newGame('   3456789TJQK'[N], classic);
 };
 
 prettyCard2 = function prettyCard2(card, antal) {

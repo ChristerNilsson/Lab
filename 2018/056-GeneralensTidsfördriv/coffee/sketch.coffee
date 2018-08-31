@@ -27,7 +27,7 @@ Suit = 'chsd'
 Rank = "A23456789TJQK"
 SUIT = "club heart spade diamond".split ' '
 RANK = "A23456789TJQK" 
-LONG = " Ace Two Three Four Five Six Seven Eight Nine Ten Jack Queen King Classic".split ' '
+LONG = " Ace Two Three Four Five Six Seven Eight Nine Ten Jack Queen King".split ' '
 
 # Konstanter för cards.png
 OFFSETX = 468
@@ -161,7 +161,7 @@ setup = ->
 	w = width/9 
 	h = height/4 
 	angleMode DEGREES
-	newGame '3' 
+	newGame '3',true
 	display board 
 
 keyPressed = -> 
@@ -174,11 +174,19 @@ keyPressed = ->
 	display board
 
 menu1 = ->
-	dialogue = new Dialogue width/2,height/2,0.15*h
+	# helpText = ''
+	# helpText += 'Undo: Undoes the last move'
+	# helpText += '|Hint: Shows a move leading to success'
+	# helpText += '|Classic: Equal Sequence length'
+	# helpText += '|Wild: Random Sequence length'
+	# helpText += '|Restart: Undoes all moves'
+	# helpText += '|Next: Shows the next Challenge'
+	# helpText += '|Link: Stores a link to this Challenge on the Clipboard'
+	dialogue = new Dialogue width/2,height/2,0.15*h #,helpText
 
 	r1 = 0.25 * height 
 	r2 = 0.085 * height
-	dialogue.clock 6,r1,r2,120
+	dialogue.clock 'Menu',7,r1,r2,360/14+90
 
 	dialogue.buttons[0].info ['Undo',hist.length], -> 
 		if hist.length > 0 then undoMove hist.pop()
@@ -188,9 +196,7 @@ menu1 = ->
 		hint()
 		dialogues.pop()
 
-	dialogue.buttons[2].info 'Restart', -> 
-		restart()
-		dialogues.pop()
+	dialogue.buttons[6].info 'Classic', -> menu2A()
 
 	dialogue.buttons[3].info 'Next', ->
 		nextLevel()
@@ -198,22 +204,44 @@ menu1 = ->
 
 	dialogue.buttons[4].info 'Link'
 
-	dialogue.buttons[5].info 'Level', -> menu2()
+	dialogue.buttons[5].info 'Restart', -> 
+		restart()
+		dialogues.pop()
 
-menu2 = ->
+	dialogue.buttons[2].info 'Wild', -> menu2B()
+
+menu2A = -> # Classic
 	dialogue = new Dialogue width/2,height/2,0.15*h
 
 	r1 = 0.35 * height 
 	r2 = 0.085 * height
-	dialogue.clock 12,r1,r2
+	dialogue.clock 'Classic',6,r1,r2
+
+	for level,i in LONG.slice 3
+		if i%2==1 then continue
+		do -> 
+			button = dialogue.buttons[i//2]	
+			index = i+2
+			button.txt = level 
+			button.event = -> 
+				newGame "A23456789TJQK"[index],true
+				dialogues.pop()
+				dialogues.pop()
+
+menu2B = -> # Wild
+	dialogue = new Dialogue width/2,height/2,0.15*h
+
+	r1 = 0.35 * height 
+	r2 = 0.085 * height
+	dialogue.clock 'Wild',11,r1,r2
 
 	for level,i in LONG.slice 3
 		do -> 
 			button = dialogue.buttons[i]	
 			index = i+2
 			button.txt = level 
-			button.event = -> 
-				newGame "A23456789TJQKC"[index]
+			button.event = ->
+				newGame "A23456789TJQK"[index],false
 				dialogues.pop()
 				dialogues.pop()
 
@@ -243,21 +271,21 @@ display = (board) ->
 	textAlign LEFT,BOTTOM
 	fill 0,128-16,0
 	textSize 0.2*h
-	text 'Generalens Tidsfördriv', 0,3*h
+	text 'Generalens Tidsfördriv', 0.05*w,3*h
+
+	textAlign CENTER,BOTTOM
+	if hintsUsed == 0 then text msg, width/2,3*h
+
 	textAlign RIGHT,BOTTOM
-	text (if classic then 'Classic' else LONG[N]), 8*w,3*h
+	text "#{if classic then 'Classic' else 'Wild'} #{LONG[N]}", 7.95*w,3*h
 
 	textAlign CENTER,TOP
-	if hintsUsed == 0 then text msg, width/2,height/2
-
 	for heap,y in ACES
 		showHeap board, heap, 8, y, 0
-
 	for heap,x in HEAPS
 		n = calcAntal board[heap]
-		dy = min h/4,(2-0.05)*h/(n-1)
+		dy = min h/4,(2-0.0)*h/(n-1)
 		showHeap board, heap, x, 0, dy
-
 	for heap,x in PANEL
 		showHeap board, heap, x, 3, 0
 
@@ -318,8 +346,6 @@ prettyUndoMove = (src,dst,b,antal) ->
 
 mousePressed = -> 
 
-	print ''
-
 	if not (0 < mouseX < width) then return
 	if not (0 < mouseY < height) then return
 
@@ -329,9 +355,10 @@ mousePressed = ->
 		mx = mouseX//w
 		my = mouseY//h
 
-		if mx == 8
-			menu1()
-			showDialogue()
+		if mx == 8 
+			print dialogues.length
+			if dialogues.length == 0 then menu1() else dialogues.pop()
+			display board
 			return
 
 		marked = mx + if my >= 3 then 12 else 4
@@ -364,9 +391,9 @@ mousePressed = ->
 
 			lastMarked = marked 
 
-			if 4*N == countAceCards board 
-				msg = "#{(millis() - start) // 1000} s"
-				printManualSolution()
+		if msg == '' and 4*N == countAceCards board 
+			msg = "#{(millis() - start) // 1000} s"
+			printManualSolution()
 
 	display board
 
@@ -459,11 +486,11 @@ hintOne = ->
 		board = origBoard
 		return false
 
-newGame = (key) ->
+newGame = (key,classic1) ->
 	start = millis()
 	msg = ''
 	hist = []
-	classic = key=='C'
+	classic = classic1
 	while true 
 		if key in '3456789TJQK' then makeBoard 3+'3456789TJQK'.indexOf(key),classic
 		if key in 'C' then makeBoard 13,classic
@@ -502,13 +529,14 @@ restart = ->
 	msg = ''
 
 nextLevel = ->
+	if classic then dn = 2 else dn = 1
 	if 4*N == countAceCards board
-		N++
+		N += dn
 	else
-		N--
+		N -= dn
+	N = N % 14
 	N = constrain N,3,13
-	classic = false
-	newGame '   3456789TJQK'[N]
+	newGame '   3456789TJQK'[N],classic
 
 prettyCard2 = (card,antal) ->
 	[suit,under,over] = unpack card 
