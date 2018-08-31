@@ -115,6 +115,25 @@ assert ['cA6'],compressOne ['cA2','c34','c56']
 assert ['cA2','h34','c56'],compressOne ['cA2','h34','c56'] 
 #print 'compressOne ok'
 
+calcAntal = (lst) ->
+	res = 0
+	for card in lst
+		[suit,under,over] = unpack card
+		res += 1 + Math.abs under-over
+	res
+
+countAceCards = (b) ->
+	res	= 0
+	for heap in ACES
+		res += calcAntal b[heap]
+	res
+
+countPanelCards = (b) ->
+	res	= 0
+	for heap in PANEL
+		res += b[heap].length
+	res
+
 dumpBoard = (board) -> (heap.join ' ' for heap in board).join '|'
 
 makeBoard = (maxRank,classic)->
@@ -144,8 +163,9 @@ makeBoard = (maxRank,classic)->
 readBoard = (b) -> (if heap=='' then [] else heap.split ' ') for heap in b.split '|'
 
 fakeBoard = ->
-	N = 13
+	N = 6
 	classic = false 
+	if N==6 then board = "cA|hA|sA|dA|h5|c3|s65|c2 d5||s3|d2 h6 d4|d3 h4|h2|c5|c4|h3|c6|s4|s2|d6"
 	if N==13 then board = "cA|hA|sA|dA|h6 s8 h3 s2 d5|dJ s3 c9 d7|sK h7 dQ s5 h5 d34|cQ sJ dT d6|c7 cK hT d2 s4 c8|sQ s7 cJ s9T h9|h8 c56 c4 hJ d8|cT c3|c2|h2|h4|s6|d9|hQ|hK|dK"
 	if N==13 then board = "cA|hA|sA|dA|c5 c7 h2 d7 c9 s6 c3 d8 s9|h8 dQ cQK dK h7 s2 dT|c4 sJQ d5||hQ h54 c8 h3 d3|cJT s4 c6 s8 hJT|d2 d4 s5|h9 sK s3|d6|d9|sT|h6|s7|hK|dJ|c2"
 	if N==13 then board = "cA2|hA|sA|dA|c5 c7 h2 d7 c9 s6 c3 d8 s9|h8 dQ cQK dK h7 s2 dT|c4 sJQ d5||hQ h54 c8 h3 d3|cJT s4 c6 s8 hJT|d2 d4 s5|h9 sK s3|d6|d9|sT|h6|s7|hK|dJ|"
@@ -275,7 +295,7 @@ legalMove = (board,src,dst) ->
 	if board[dst].length==0 then return true
 	[suit1,under1,over1] = unpack _.last board[src]
 	[suit2,under2,over2] = unpack _.last board[dst]
-	if suit1==suit2 and abs(over1-over2) == 1 then return true 
+	if suit1 == suit2 and 1 == Math.abs over1-over2 then return true 
 	false
 
 makeMove = (board,src,dst,record) -> 
@@ -318,6 +338,80 @@ prettyUndoMove = (src,dst,b,antal) ->
 		if src in HEAPS then "#{prettyCard2 c2,antal} to hole"
 		if src in PANEL then "#{prettyCard2 c2,antal} to panel"
 
+# returns destination
+oneClick = (lastMarked,marked,counter,board,sharp=false) ->
+	if lastMarked == marked then counter++ else counter = 0
+
+	holes = []
+	found = false
+
+	for heap in ACES
+		if legalMove board,marked,heap  
+			if sharp then makeMove board,marked,heap,true
+			found = true 
+			return heap
+
+	if not found # Går ej att flytta till något ess. 
+		alternativeDsts = [] # för att kunna välja mellan flera via Undo
+		for heap in HEAPS
+			if board[heap].length == 0
+				if marked in PANEL or calcAntal(board[marked]) > 1
+					holes.push heap
+			else 
+				if legalMove board,marked,heap
+					alternativeDsts.push heap
+		if holes.length > 0 then alternativeDsts.push holes[0]		
+
+		if alternativeDsts.length > 0
+			heap = alternativeDsts[counter % alternativeDsts.length]  
+			if sharp then makeMove board,marked,heap,true
+			return heap
+
+		lastMarked = marked 
+
+# assert1.jpg
+b1 = readBoard "cA|hA|sA|dA|h5|c3|s65|c2 d5||s3|d2 h6 d4|d3 h4|h2|c5|c4|h3|c6|s4|s2|d6"
+assert 11, oneClick 0,4,0,b1 # hj5 to hj4
+assert 5, oneClick 0,5,0,b1 # kl3 no move
+assert 8, oneClick 0,6,0,b1 # sp5 to hole
+
+assert 10, oneClick 0,7,0,b1 # ru5 to ru4
+assert 8, oneClick 7,7,0,b1 # ru5 to hole
+
+assert 8, oneClick 0,8,0,b1 # hole click
+assert 9, oneClick 0,9,0,b1 # sp3 no move
+
+assert 7, oneClick 0,10,0,b1 # ru4 to ru5
+assert 8, oneClick 10,10,0,b1 # ru4 to hole
+assert 7, oneClick 10,10,1,b1 # ru4 to ru5
+
+assert 4, oneClick 0,11,0,b1 # hj4 to hj5
+assert 8, oneClick 11,11,0,b1 # hj4 to hole
+
+assert 1, oneClick 0,12,0,b1 # hj2 to A
+assert 8, oneClick 0,13,0,b1 # kl5 to hole
+
+assert 5, oneClick 0,14,0,b1 # kl4 to kl3
+assert 8, oneClick 14,14,0,b1 # kl4 to hole
+
+assert 11, oneClick 0,15,0,b1 # hj3 to hj4
+assert 8, oneClick 15,15,0,b1 # hj3 to hole
+
+assert 8, oneClick 0,16,0,b1 # kl6 to hole
+
+assert 6, oneClick 0,17,0,b1 # sp4 to sp5
+assert 9, oneClick 17,17,0,b1 # sp4 to sp3
+assert 8, oneClick 17,17,1,b1 # sp4 to hole
+
+assert 2, oneClick 0,18,0,b1 # sp2 to A
+
+assert 7, oneClick 0,19,0,b1 # ru6 to ru5
+assert 8, oneClick 19,19,0,b1 # ru6 to hole
+
+# assert2.jpg
+b2 = readBoard "cA|hA|sA|dA|d5 h2 d3 h3|c7|c34|d4 h76|||s3 d6 c6|d7 c5 d2|c2|s4|s6|h5|s5|s7|s2|h4"
+assert 8, oneClick 0,7,0,b2 # hj6 to hole
+
 mousePressed = -> 
 
 	if not (0 < mouseX < width) then return
@@ -330,40 +424,12 @@ mousePressed = ->
 		my = mouseY//h
 
 		if mx == 8 
-			print dialogues.length
 			if dialogues.length == 0 then menu1() else dialogues.pop()
 			display board
 			return
 
 		marked = mx + if my >= 3 then 12 else 4
-
-		if lastMarked==marked then counter++ else counter = 0
-
-		holes = []
-		found = false
-
-		for heap in ACES
-			if legalMove board,marked,heap  
-				makeMove board,marked,heap,true
-				found = true 
-				break
-
-		if not found # Går ej att flytta till något ess. 
-			alternativeDsts = [] # för att kunna välja mellan flera via Undo
-			for heap in HEAPS
-				if board[heap].length == 0
-					if marked in PANEL or calcAntal(board[marked]) > 1
-						holes.push heap
-				else 
-					if legalMove board,marked,heap
-						alternativeDsts.push heap
-			if holes.length > 0 then alternativeDsts.push holes[0]		
-
-			if alternativeDsts.length > 0
-				heap = alternativeDsts[counter % alternativeDsts.length]  
-				makeMove board,marked,heap,true
-
-			lastMarked = marked 
+		heap = oneClick lastMarked,marked,counter,board,true
 
 		if msg == '' and 4*N == countAceCards board 
 			msg = "#{(millis() - start) // 1000} s"
@@ -382,25 +448,6 @@ findAllMoves = (b) ->
 			if src != dst
 				if legalMove b,src,dst
 					res.push [src,dst]
-	res
-
-calcAntal = (lst) ->
-	res = 0
-	for card in lst
-		[suit,under,over] = unpack card
-		res += 1 + abs under-over
-	res
-
-countAceCards = (b) ->
-	res	= 0
-	for heap in ACES
-		res += calcAntal b[heap]
-	res
-
-countPanelCards = (b) ->
-	res	= 0
-	for heap in PANEL
-		res += b[heap].length
 	res
 
 expand = ([aceCards,level,b,path]) ->
@@ -456,7 +503,7 @@ hintOne = ->
 		return true
 	else
 		print 'hint failed. Should never happen!'
-		print N,nr,cands.length,aceCards,_.size hash
+		#print N,nr,cands.length,aceCards,_.size hash
 		board = origBoard
 		return false
 
@@ -561,7 +608,6 @@ printManualSolution = ->
 	b = _.cloneDeep originalBoard
 	s = 'Manual Solution:'
 	for [src,dst,antal],index in hist
-		print "pMS",src,dst,antal
 		s += "\n#{index}: #{prettyMove src,dst,b}"
 		makeMove b,src,dst,false
 	print s

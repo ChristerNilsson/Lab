@@ -38,6 +38,8 @@ var ACES,
     W,
     aceCards,
     assert,
+    b1,
+    b2,
     backs,
     board,
     calcAntal,
@@ -73,6 +75,7 @@ var ACES,
     msg,
     newGame,
     nextLevel,
+    oneClick,
     originalBoard,
     pack,
     preload,
@@ -280,6 +283,45 @@ assert(['cA6'], compressOne(['cA2', 'c34', 'c56']));
 assert(['cA2', 'h34', 'c56'], compressOne(['cA2', 'h34', 'c56']));
 
 //print 'compressOne ok'
+calcAntal = function calcAntal(lst) {
+  var card, j, len, over, res, suit, under;
+  res = 0;
+  for (j = 0, len = lst.length; j < len; j++) {
+    card = lst[j];
+
+    var _unpack5 = unpack(card);
+
+    var _unpack6 = _slicedToArray(_unpack5, 3);
+
+    suit = _unpack6[0];
+    under = _unpack6[1];
+    over = _unpack6[2];
+
+    res += 1 + Math.abs(under - over);
+  }
+  return res;
+};
+
+countAceCards = function countAceCards(b) {
+  var heap, j, len, res;
+  res = 0;
+  for (j = 0, len = ACES.length; j < len; j++) {
+    heap = ACES[j];
+    res += calcAntal(b[heap]);
+  }
+  return res;
+};
+
+countPanelCards = function countPanelCards(b) {
+  var heap, j, len, res;
+  res = 0;
+  for (j = 0, len = PANEL.length; j < len; j++) {
+    heap = PANEL[j];
+    res += b[heap].length;
+  }
+  return res;
+};
+
 dumpBoard = function dumpBoard(board) {
   var heap;
   return function () {
@@ -342,8 +384,11 @@ readBoard = function readBoard(b) {
 };
 
 fakeBoard = function fakeBoard() {
-  N = 13;
+  N = 6;
   classic = false;
+  if (N === 6) {
+    board = "cA|hA|sA|dA|h5|c3|s65|c2 d5||s3|d2 h6 d4|d3 h4|h2|c5|c4|h3|c6|s4|s2|d6";
+  }
   if (N === 13) {
     board = "cA|hA|sA|dA|h6 s8 h3 s2 d5|dJ s3 c9 d7|sK h7 dQ s5 h5 d34|cQ sJ dT d6|c7 cK hT d2 s4 c8|sQ s7 cJ s9T h9|h8 c56 c4 hJ d8|cT c3|c2|h2|h4|s6|d9|hQ|hK|dK";
   }
@@ -458,13 +503,13 @@ showHeap = function showHeap(board, heap, x, y, dy) {
   for (k = j = 0, len = ref.length; j < len; k = ++j) {
     card = ref[k];
 
-    var _unpack5 = unpack(card);
+    var _unpack7 = unpack(card);
 
-    var _unpack6 = _slicedToArray(_unpack5, 3);
+    var _unpack8 = _slicedToArray(_unpack7, 3);
 
-    suit = _unpack6[0];
-    under = _unpack6[1];
-    over = _unpack6[2];
+    suit = _unpack8[0];
+    under = _unpack8[1];
+    over = _unpack8[2];
 
     dr = under < over ? 1 : -1;
     ref1 = range(under, over + dr, dr);
@@ -479,13 +524,13 @@ showHeap = function showHeap(board, heap, x, y, dy) {
   // visa eventuellt baksidan
   card = _.last(board[heap]);
 
-  var _unpack7 = unpack(card);
+  var _unpack9 = unpack(card);
 
-  var _unpack8 = _slicedToArray(_unpack7, 3);
+  var _unpack10 = _slicedToArray(_unpack9, 3);
 
-  suit = _unpack8[0];
-  under = _unpack8[1];
-  over = _unpack8[2];
+  suit = _unpack10[0];
+  under = _unpack10[1];
+  over = _unpack10[2];
 
   if (indexOf.call(ACES, heap) >= 0 && over === N - 1) {
     return image(backs, x, y, w, h * 1.1, OFFSETX + 860, 1092 + 622, 225, H - 1);
@@ -545,23 +590,23 @@ legalMove = function legalMove(board, src, dst) {
     return true;
   }
 
-  var _unpack9 = unpack(_.last(board[src]));
-
-  var _unpack10 = _slicedToArray(_unpack9, 3);
-
-  suit1 = _unpack10[0];
-  under1 = _unpack10[1];
-  over1 = _unpack10[2];
-
-  var _unpack11 = unpack(_.last(board[dst]));
+  var _unpack11 = unpack(_.last(board[src]));
 
   var _unpack12 = _slicedToArray(_unpack11, 3);
 
-  suit2 = _unpack12[0];
-  under2 = _unpack12[1];
-  over2 = _unpack12[2];
+  suit1 = _unpack12[0];
+  under1 = _unpack12[1];
+  over1 = _unpack12[2];
 
-  if (suit1 === suit2 && abs(over1 - over2) === 1) {
+  var _unpack13 = unpack(_.last(board[dst]));
+
+  var _unpack14 = _slicedToArray(_unpack13, 3);
+
+  suit2 = _unpack14[0];
+  under2 = _unpack14[1];
+  over2 = _unpack14[2];
+
+  if (suit1 === suit2 && 1 === Math.abs(over1 - over2)) {
     return true;
   }
   return false;
@@ -570,13 +615,13 @@ legalMove = function legalMove(board, src, dst) {
 makeMove = function makeMove(board, src, dst, record) {
   var over, over1, over2, suit, suit2, under, under1, under2;
 
-  var _unpack13 = unpack(board[src].pop());
+  var _unpack15 = unpack(board[src].pop());
 
-  var _unpack14 = _slicedToArray(_unpack13, 3);
+  var _unpack16 = _slicedToArray(_unpack15, 3);
 
-  suit = _unpack14[0];
-  under1 = _unpack14[1];
-  over1 = _unpack14[2];
+  suit = _unpack16[0];
+  under1 = _unpack16[1];
+  over1 = _unpack16[2];
 
   over = under1;
   under = over1;
@@ -584,13 +629,13 @@ makeMove = function makeMove(board, src, dst, record) {
     hist.push([src, dst, 1 + abs(under1 - over1)]);
   }
   if (board[dst].length > 0) {
-    var _unpack15 = unpack(board[dst].pop());
+    var _unpack17 = unpack(board[dst].pop());
 
-    var _unpack16 = _slicedToArray(_unpack15, 3);
+    var _unpack18 = _slicedToArray(_unpack17, 3);
 
-    suit2 = _unpack16[0];
-    under2 = _unpack16[1];
-    over2 = _unpack16[2];
+    suit2 = _unpack18[0];
+    under2 = _unpack18[1];
+    over2 = _unpack18[2];
 
     under = under2;
   }
@@ -621,13 +666,13 @@ undoMove = function undoMove(_ref) {
 undoMoveOne = function undoMoveOne(a, b, antal) {
   var over, suit, under;
 
-  var _unpack17 = unpack(b.pop());
+  var _unpack19 = unpack(b.pop());
 
-  var _unpack18 = _slicedToArray(_unpack17, 3);
+  var _unpack20 = _slicedToArray(_unpack19, 3);
 
-  suit = _unpack18[0];
-  under = _unpack18[1];
-  over = _unpack18[2];
+  suit = _unpack20[0];
+  under = _unpack20[1];
+  over = _unpack20[2];
 
   if (under < over) {
     a.push(pack(suit, over, over - antal + 1));
@@ -663,8 +708,118 @@ prettyUndoMove = function prettyUndoMove(src, dst, b, antal) {
   }
 };
 
+// returns destination
+oneClick = function oneClick(lastMarked, marked, counter, board) {
+  var sharp = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;
+
+  var alternativeDsts, found, heap, holes, j, l, len, len1;
+  if (lastMarked === marked) {
+    counter++;
+  } else {
+    counter = 0;
+  }
+  holes = [];
+  found = false;
+  for (j = 0, len = ACES.length; j < len; j++) {
+    heap = ACES[j];
+    if (legalMove(board, marked, heap)) {
+      if (sharp) {
+        makeMove(board, marked, heap, true);
+      }
+      found = true;
+      return heap;
+    }
+  }
+  if (!found) {
+    // Går ej att flytta till något ess. 
+    alternativeDsts = []; // för att kunna välja mellan flera via Undo
+    for (l = 0, len1 = HEAPS.length; l < len1; l++) {
+      heap = HEAPS[l];
+      if (board[heap].length === 0) {
+        if (indexOf.call(PANEL, marked) >= 0 || calcAntal(board[marked]) > 1) {
+          holes.push(heap);
+        }
+      } else {
+        if (legalMove(board, marked, heap)) {
+          alternativeDsts.push(heap);
+        }
+      }
+    }
+    if (holes.length > 0) {
+      alternativeDsts.push(holes[0]);
+    }
+    if (alternativeDsts.length > 0) {
+      heap = alternativeDsts[counter % alternativeDsts.length];
+      if (sharp) {
+        makeMove(board, marked, heap, true);
+      }
+      return heap;
+    }
+    return lastMarked = marked;
+  }
+};
+
+// assert1.jpg
+b1 = readBoard("cA|hA|sA|dA|h5|c3|s65|c2 d5||s3|d2 h6 d4|d3 h4|h2|c5|c4|h3|c6|s4|s2|d6");
+
+assert(11, oneClick(0, 4, 0, b1)); // hj5 to hj4
+
+assert(5, oneClick(0, 5, 0, b1)); // kl3 no move
+
+assert(8, oneClick(0, 6, 0, b1)); // sp5 to hole
+
+assert(10, oneClick(0, 7, 0, b1)); // ru5 to ru4
+
+assert(8, oneClick(7, 7, 0, b1)); // ru5 to hole
+
+assert(8, oneClick(0, 8, 0, b1)); // hole click
+
+assert(9, oneClick(0, 9, 0, b1)); // sp3 no move
+
+assert(7, oneClick(0, 10, 0, b1)); // ru4 to ru5
+
+assert(8, oneClick(10, 10, 0, b1)); // ru4 to hole
+
+assert(7, oneClick(10, 10, 1, b1)); // ru4 to ru5
+
+assert(4, oneClick(0, 11, 0, b1)); // hj4 to hj5
+
+assert(8, oneClick(11, 11, 0, b1)); // hj4 to hole
+
+assert(1, oneClick(0, 12, 0, b1)); // hj2 to A
+
+assert(8, oneClick(0, 13, 0, b1)); // kl5 to hole
+
+assert(5, oneClick(0, 14, 0, b1)); // kl4 to kl3
+
+assert(8, oneClick(14, 14, 0, b1)); // kl4 to hole
+
+assert(11, oneClick(0, 15, 0, b1)); // hj3 to hj4
+
+assert(8, oneClick(15, 15, 0, b1)); // hj3 to hole
+
+assert(8, oneClick(0, 16, 0, b1)); // kl6 to hole
+
+assert(6, oneClick(0, 17, 0, b1)); // sp4 to sp5
+
+assert(9, oneClick(17, 17, 0, b1)); // sp4 to sp3
+
+assert(8, oneClick(17, 17, 1, b1)); // sp4 to hole
+
+assert(2, oneClick(0, 18, 0, b1)); // sp2 to A
+
+assert(7, oneClick(0, 19, 0, b1)); // ru6 to ru5
+
+assert(8, oneClick(19, 19, 0, b1)); // ru6 to hole
+
+
+// assert2.jpg
+b2 = readBoard("cA|hA|sA|dA|d5 h2 d3 h3|c7|c34|d4 h76|||s3 d6 c6|d7 c5 d2|c2|s4|s6|h5|s5|s7|s2|h4");
+
+assert(8, oneClick(0, 7, 0, b2)); // hj6 to hole
+
 mousePressed = function mousePressed() {
-  var alternativeDsts, dialogue, found, heap, holes, j, l, len, len1, marked, mx, my;
+  var dialogue, heap, marked, mx, my;
   if (!(0 < mouseX && mouseX < width)) {
     return;
   }
@@ -676,7 +831,6 @@ mousePressed = function mousePressed() {
     mx = Math.floor(mouseX / w);
     my = Math.floor(mouseY / h);
     if (mx === 8) {
-      print(dialogues.length);
       if (dialogues.length === 0) {
         menu1();
       } else {
@@ -686,45 +840,7 @@ mousePressed = function mousePressed() {
       return;
     }
     marked = mx + (my >= 3 ? 12 : 4);
-    if (lastMarked === marked) {
-      counter++;
-    } else {
-      counter = 0;
-    }
-    holes = [];
-    found = false;
-    for (j = 0, len = ACES.length; j < len; j++) {
-      heap = ACES[j];
-      if (legalMove(board, marked, heap)) {
-        makeMove(board, marked, heap, true);
-        found = true;
-        break;
-      }
-    }
-    if (!found) {
-      // Går ej att flytta till något ess. 
-      alternativeDsts = []; // för att kunna välja mellan flera via Undo
-      for (l = 0, len1 = HEAPS.length; l < len1; l++) {
-        heap = HEAPS[l];
-        if (board[heap].length === 0) {
-          if (indexOf.call(PANEL, marked) >= 0 || calcAntal(board[marked]) > 1) {
-            holes.push(heap);
-          }
-        } else {
-          if (legalMove(board, marked, heap)) {
-            alternativeDsts.push(heap);
-          }
-        }
-      }
-      if (holes.length > 0) {
-        alternativeDsts.push(holes[0]);
-      }
-      if (alternativeDsts.length > 0) {
-        heap = alternativeDsts[counter % alternativeDsts.length];
-        makeMove(board, marked, heap, true);
-      }
-      lastMarked = marked;
-    }
+    heap = oneClick(lastMarked, marked, counter, board, true);
     if (msg === '' && 4 * N === countAceCards(board)) {
       msg = Math.floor((millis() - start) / 1000) + " s";
       printManualSolution();
@@ -753,45 +869,6 @@ findAllMoves = function findAllMoves(b) {
   return res;
 };
 
-calcAntal = function calcAntal(lst) {
-  var card, j, len, over, res, suit, under;
-  res = 0;
-  for (j = 0, len = lst.length; j < len; j++) {
-    card = lst[j];
-
-    var _unpack19 = unpack(card);
-
-    var _unpack20 = _slicedToArray(_unpack19, 3);
-
-    suit = _unpack20[0];
-    under = _unpack20[1];
-    over = _unpack20[2];
-
-    res += 1 + abs(under - over);
-  }
-  return res;
-};
-
-countAceCards = function countAceCards(b) {
-  var heap, j, len, res;
-  res = 0;
-  for (j = 0, len = ACES.length; j < len; j++) {
-    heap = ACES[j];
-    res += calcAntal(b[heap]);
-  }
-  return res;
-};
-
-countPanelCards = function countPanelCards(b) {
-  var heap, j, len, res;
-  res = 0;
-  for (j = 0, len = PANEL.length; j < len; j++) {
-    heap = PANEL[j];
-    res += b[heap].length;
-  }
-  return res;
-};
-
 expand = function expand(_ref3) {
   var _ref4 = _slicedToArray(_ref3, 4),
       aceCards = _ref4[0],
@@ -799,7 +876,7 @@ expand = function expand(_ref3) {
       b = _ref4[2],
       path = _ref4[3];
 
-  var b1, dst, j, key, len, move, moves, newPath, res, src;
+  var dst, j, key, len, move, moves, newPath, res, src;
   res = [];
   moves = findAllMoves(b);
   for (j = 0, len = moves.length; j < len; j++) {
@@ -883,7 +960,7 @@ hintOne = function hintOne() {
     return true;
   } else {
     print('hint failed. Should never happen!');
-    print(N, nr, cands.length, aceCards, _.size(hash));
+    //print N,nr,cands.length,aceCards,_.size hash
     board = origBoard;
     return false;
   }
@@ -1076,7 +1153,6 @@ printManualSolution = function printManualSolution() {
     dst = _hist$index[1];
     antal = _hist$index[2];
 
-    print("pMS", src, dst, antal);
     s += "\n" + index + ": " + prettyMove(src, dst, b);
     makeMove(b, src, dst, false);
   }
