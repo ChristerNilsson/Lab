@@ -122,9 +122,10 @@ Button = function () {
     key: 'inside',
     value: function inside(mx, my) {
       if (this.txt === '') {
-        return;
+        return false;
+      } else {
+        return this.r > dist(mx, my, this.dlg.x + this.x, this.dlg.y + this.y);
       }
-      return this.r > dist(mx, my, this.dlg.x + this.x, this.dlg.y + this.y);
     }
   }, {
     key: 'execute',

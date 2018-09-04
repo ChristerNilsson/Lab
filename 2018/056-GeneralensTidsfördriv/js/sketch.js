@@ -59,11 +59,13 @@ var ACES,
     fakeBoard,
     findAllMoves,
     h,
+    handle,
     hash,
     hint,
     hintOne,
     hintsUsed,
     hist,
+    hitGreen,
     indicators,
     keyPressed,
     legalMove,
@@ -171,7 +173,7 @@ oneClickData = {
   counter: 0
 };
 
-indicators = {}; // färgmarkering av senaste undo eller hint. [x,y,color]
+indicators = {}; // färgmarkering av senaste undo eller hint. [color,hollow]
 
 level = 0;
 
@@ -190,11 +192,30 @@ assert = function assert(a, b) {
 };
 
 showIndicator = function showIndicator(heap, x, y) {
-  var color;
+  var color, hollow, x0, y0;
+  x0 = x + w / 2;
+  y0 = y + 0.49 * h;
   if (heap in indicators) {
-    color = indicators[heap];
-    fill(color);
-    return ellipse(x + w / 2, y + 0.5 * h, 0.3 * w);
+    var _indicators$heap = _slicedToArray(indicators[heap], 2);
+
+    color = _indicators$heap[0];
+    hollow = _indicators$heap[1];
+
+    push();
+    if (hollow) {
+      stroke(0);
+      strokeWeight(0.13 * h);
+      arc(x0, y0, 0.4 * w, 0.4 * w, 0, 360);
+      stroke(color);
+      strokeWeight(0.13 * h - 2);
+      arc(x0, y0, 0.4 * w, 0.4 * w, 0, 360);
+    } else {
+      stroke(0);
+      strokeWeight(1);
+      fill(color);
+      ellipse(x0, y0, 0.55 * w);
+    }
+    return pop();
   }
 };
 
@@ -439,7 +460,7 @@ fakeBoard = function fakeBoard() {
 };
 
 setup = function setup() {
-  print('Z');
+  print('X');
   createCanvas(innerWidth, innerHeight - 0.5);
   w = width / 9;
   h = height / 4;
@@ -461,10 +482,10 @@ keyPressed = function keyPressed() {
 
 menu1 = function menu1() {
   var dialogue, r1, r2;
-  dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
+  dialogue = new Dialogue(4 * w, 1.5 * h, 0.15 * h);
   r1 = 0.25 * height;
   r2 = 0.085 * height;
-  dialogue.clock(' ', 6, r1, r2, 120); //360/14+90
+  dialogue.clock(' ', 7, r1, r2, 90 + 360 / 14);
   dialogue.buttons[0].info(['Undo', hist.length], function () {
     var dst, src;
     if (hist.length > 0) {
@@ -476,8 +497,8 @@ menu1 = function menu1() {
       dst = _$last2[1];
 
       indicators = {};
-      indicators[src] = "#0f08";
-      indicators[dst] = "#f008";
+      indicators[src] = ["#ff0", true];
+      indicators[dst] = ["#ff0", false];
       undoMove(hist.pop());
     }
     return dialogues.pop();
@@ -486,52 +507,34 @@ menu1 = function menu1() {
     hint();
     return dialogues.pop();
   });
+  dialogue.buttons[2].info('Link');
+  dialogue.buttons[3].info('Harder', function () {
+    level = constrain(level + 1, 0, maxLevel);
+    newGame(level);
+    return dialogues.pop();
+  });
+  dialogue.buttons[4].info('Go', function () {
+    newGame(level);
+    return dialogues.pop();
+  });
   dialogue.buttons[5].info('Easier', function () {
     level = constrain(level - 1, 0, maxLevel);
     newGame(level);
     return dialogues.pop();
   });
-  //menu2 'Level','C3 W4 W5 C5 W6 W7 C7 W8 W9 C9 WT WJ CJ WQ WK CK '
-
-  // dialogue.buttons[3].info 'Next', ->
-  // 	nextLevel()
-  // 	dialogues.pop()
-  dialogue.buttons[4].info('Link');
-  dialogue.buttons[3].info('Restart', function () {
+  return dialogue.buttons[6].info('Restart', function () {
     restart();
-    return dialogues.pop();
-  });
-  return dialogue.buttons[2].info('Harder', function () {
-    level = constrain(level + 1, 0, maxLevel);
-    newGame(level);
     return dialogues.pop();
   });
 };
 
-// menu2 = (title,items) -> 
-// 	dialogue = new Dialogue width/2,height/2,0.15*h
-// 	items = items.split ' '
-// 	r1 = 0.4 * height 
-// 	r2 = 0.07 * height
-// 	dialogue.clock title,items.length,r1,r2
-
-// 	for lvl,i in items
-// 		do -> 
-// 			button = dialogue.buttons[i]	
-// 			index = i
-// 			button.txt = lvl 
-// 			button.event = -> 
-// 				newGame index 
-// 				dialogues.pop()
-// 				dialogues.pop()
 showHeap = function showHeap(board, heap, x, y, dy) {
   // dy kan vara både pos och neg
   var card, dr, j, k, l, len, len1, n, over, rank, ref, ref1, suit, under;
   n = calcAntal(board[heap]);
-  //if n==0 then return 
-  y = y * h + y * dy;
   x = x * w;
   if (n > 0) {
+    y = y * h + y * dy;
     ref = board[heap];
     for (k = j = 0, len = ref.length; j < len; k = ++j) {
       card = ref[k];
@@ -550,7 +553,6 @@ showHeap = function showHeap(board, heap, x, y, dy) {
         rank = ref1[l];
         noFill();
         stroke(0);
-        //y += dy
         image(faces, x, y, w, h * 1.1, OFFSETX + W * rank, 1092 + H * suit, 225, H - 1);
         y += dy;
       }
@@ -570,7 +572,7 @@ showHeap = function showHeap(board, heap, x, y, dy) {
       image(backs, x, y, w, h * 1.1, OFFSETX + 860, 1092 + 622, 225, H - 1);
     }
   }
-  return showIndicator(heap, x, y);
+  return showIndicator(heap, x, indexOf.call(HEAPS, heap) >= 0 ? y - dy : y);
 };
 
 display = function display(board) {
@@ -581,9 +583,7 @@ display = function display(board) {
   textSize(0.2 * h);
   text('Generalens Tidsfördriv', 0.05 * w, 3 * h);
   textAlign(CENTER, BOTTOM);
-  if (hintsUsed === 0) {
-    text(msg, width / 2, 3 * h);
-  }
+  text(msg, width / 2, 3 * h);
   textAlign(RIGHT, BOTTOM);
   text("Level: " + level, 7.95 * w, 3 * h);
   textAlign(CENTER, TOP);
@@ -594,7 +594,7 @@ display = function display(board) {
   for (x = l = 0, len1 = HEAPS.length; l < len1; x = ++l) {
     heap = HEAPS[x];
     n = calcAntal(board[heap]);
-    dy = min(h / 4, (2 - 0.0) * h / (n - 1));
+    dy = n === 0 ? 0 : min(h / 4, 2 * h / (n - 1));
     showHeap(board, heap, x, 0, dy);
   }
   for (x = m = 0, len2 = PANEL.length; m < len2; x = ++m) {
@@ -941,20 +941,33 @@ assert(8, oneClick({
 b2 = readBoard("cA|hA|sA|dA|d5 h2 d3 h3|c7|c34|d4 h76|||s3 d6 c6|d7 c5 d2|c2|s4|s6|h5|s5|s7|s2|h4");
 
 //assert 8, oneClick {lastMarked:0, marked:9, counter:0},b2 #hj6 to hole
+hitGreen = function hitGreen(mx, my, mouseX, mouseY) {
+  var n, seqs;
+  if (my === 3) {
+    return false;
+  }
+  seqs = board[mx + 4];
+  n = seqs.length;
+  if (n === 0) {
+    return true;
+  }
+  return mouseY > h * (1 + 1 / 4 * (n - 1));
+};
+
 mousePressed = function mousePressed() {
-  var dialogue, heap, marked, mx, my;
+  var dialogue, mx, my;
   if (!(0 < mouseX && mouseX < width)) {
     return;
   }
   if (!(0 < mouseY && mouseY < height)) {
     return;
   }
+  mx = Math.floor(mouseX / w);
+  my = Math.floor(mouseY / h);
   dialogue = _.last(dialogues);
   if (dialogues.length === 0 || !dialogue.execute(mouseX, mouseY)) {
     indicators = {};
-    mx = Math.floor(mouseX / w);
-    my = Math.floor(mouseY / h);
-    if (mx === 8) {
+    if (mx === 8 || hitGreen(mx, my, mouseX, mouseY)) {
       if (dialogues.length === 0) {
         menu1();
       } else {
@@ -963,16 +976,26 @@ mousePressed = function mousePressed() {
       display(board);
       return;
     }
-    marked = [mx + (my >= 3 ? 12 : 4), my];
-    heap = oneClick(oneClickData, marked, board, true);
-    if (msg === '' && 4 * N === countAceCards(board)) {
-      nextLevel();
-      msg = Math.floor((millis() - start) / 1000) + " s";
-      printManualSolution();
-    }
+    handle(mx, my);
   }
   print(hist.length + " of " + maxMoves + " moves");
   return display(board);
+};
+
+handle = function handle(mx, my) {
+  var heap, marked;
+  marked = [mx + (my >= 3 ? 12 : 4), my];
+  heap = oneClick(oneClickData, marked, board, true);
+  if (msg === '' && 4 * N === countAceCards(board)) {
+    if (hist.length > maxMoves) {
+      msg = "Too many moves: " + (hist.length - maxMoves);
+    } else if (hintsUsed === 0) {
+      msg = Math.floor((millis() - start) / 1000) + " s";
+    } else {
+      msg = "Hints used: " + hintsUsed;
+    }
+    return printManualSolution();
+  }
 };
 
 //###### AI-section ########
@@ -1045,8 +1068,8 @@ hint = function hint() {
   src = _$last4[0];
   dst = _$last4[1];
 
-  indicators[src] = '#f008';
-  return indicators[dst] = '#0f08';
+  indicators[src] = ['#f00', true];
+  return indicators[dst] = ['#f00', false];
 };
 
 //undoMove hist.pop()
@@ -1093,8 +1116,8 @@ hintOne = function hintOne() {
     src = _path$[0];
     dst = _path$[1];
     indicators = {};
-    indicators[src] = '#0f08';
-    indicators[dst] = '#f008';
+    indicators[src] = ['#0f0', true];
+    indicators[dst] = ['#0f0', false];
     print("hint: " + int(millis() - hintTime) + " ms");
     return true;
   } else {
@@ -1116,6 +1139,8 @@ newGame = function newGame(lvl) {
     makeBoard(level);
     hintsUsed = 0;
     originalBoard = _.cloneDeep(board);
+    //print A_Star originalBoard
+    //return 
     aceCards = countAceCards(board);
     cands = [];
     cands.push([aceCards, 0, board, // antal kort på ässen, antal drag, board
@@ -1289,4 +1314,62 @@ printManualSolution = function printManualSolution() {
   }
   return print(s);
 };
+
+//################## A* ################
+
+// reconstruct_path = (cameFrom, current) -> # key
+// 	res = [current]
+// 	while current of cameFrom
+// 		current = cameFrom[current]
+// 		res.push current
+// 	return res
+
+// heuristic_cost_estimate = (position) -> 52 - countAceCards(position)
+// dist_between = (a,b) -> countAceCards(b) - countAceCards(a)
+// neighbors = (b) ->
+// 	res = []
+// 	for [src,dst] in findAllMoves b
+// 		b1 = _.cloneDeep b
+// 		makeMove b1,src,dst
+// 		res.push b1
+// 	res
+
+// A_Star = (start) -> # board
+// 	closedSet = []
+// 	key = dumpBoard start
+// 	openSet = [key]
+// 	cameFrom = {}
+
+// 	gScore = {} # map with default value of Infinity
+// 	gScore[key] = countAceCards start
+
+// 	fScore = {} #map with default value of Infinity
+// 	fScore[key] = heuristic_cost_estimate start
+
+// 	#while 0 < _.size openSet 
+// 	for i in range 1000
+// 		print ''
+// 		currentKey = openSet.pop() # the node in openSet having the lowest fScore[] value
+// 		print 'A',currentKey,openSet.length,fScore[currentKey]
+// 		current = readBoard currentKey
+// 		if 52 == countAceCards current then return reconstruct_path cameFrom, currentKey
+// 		closedSet.push currentKey
+
+// 		for neighbor in neighbors current
+// 			neighborKey = dumpBoard neighbor 
+// 			if neighborKey in closedSet then continue # Ignore the neighbor which is already evaluated.
+
+// 			tentative_gScore = gScore[currentKey] + dist_between current, neighbor
+
+// 			if neighbor not in openSet	# Discover a new node
+// 				openSet.push neighborKey
+// 			else if tentative_gScore >= gScore[neighbor] then continue # This is not a better path.
+
+// 			# This path is the best until now. Record it!
+// 			cameFrom[neighborKey] = currentKey
+// 			gScore[neighborKey] = tentative_gScore
+// 			fScore[neighborKey] = gScore[neighborKey] + heuristic_cost_estimate neighbor
+// 			print 'B',neighborKey,gScore[neighborKey],fScore[neighborKey]
+
+// 		openSet.sort (a,b) -> fScore[a] - fScore[b]
 //# sourceMappingURL=sketch.js.map

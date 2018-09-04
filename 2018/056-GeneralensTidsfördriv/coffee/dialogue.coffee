@@ -46,7 +46,5 @@ class Button
 			text @txt[1], @x,@y+0.3*@r
 		pop()
 
-	inside : (mx,my) -> 
-		if @txt == '' then return
-		@r > dist mx, my, @dlg.x + @x, @dlg.y + @y
+	inside : (mx,my) -> if @txt == '' then false else @r > dist mx, my, @dlg.x + @x, @dlg.y + @y 
 	execute : -> @event()

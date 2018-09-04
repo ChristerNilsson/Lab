@@ -58,7 +58,7 @@ srcs = null
 dsts = null
 hintsUsed = null
 oneClickData = {lastMarked:-1, counter:0}
-indicators = {} # färgmarkering av senaste undo eller hint. [x,y,color]
+indicators = {} # färgmarkering av senaste undo eller hint. [color,hollow]
 
 level = 0
 maxLevel = 15
@@ -69,10 +69,24 @@ range = _.range
 assert = (a, b, msg='Assert failure') -> chai.assert.deepEqual a, b, msg
 
 showIndicator = (heap,x,y)->
+	x0 = x + w/2
+	y0 = y + 0.49*h
 	if heap of indicators
-		color = indicators[heap]
-		fill color
-		ellipse x+w/2,y+0.5*h,0.3*w
+		[color,hollow] = indicators[heap]
+		push()
+		if hollow
+			stroke 0
+			strokeWeight 0.13*h
+			arc x0,y0,0.4*w,0.4*w,0,360
+			stroke color
+			strokeWeight 0.13*h-2
+			arc x0,y0,0.4*w,0.4*w,0,360
+		else
+			stroke 0
+			strokeWeight 1
+			fill color
+			ellipse x0,y0,0.55*w
+		pop()
 
 preload = -> 
 	faces = loadImage 'cards/Color_52_Faces_v.2.0.png'
@@ -191,7 +205,7 @@ fakeBoard = ->
 	print board
 
 setup = ->
-	print 'Z'
+	print 'X'
 	createCanvas innerWidth, innerHeight-0.5
 	w = width/9 
 	h = height/4 
@@ -210,18 +224,18 @@ keyPressed = ->
 	display board
 
 menu1 = ->
-	dialogue = new Dialogue width/2,height/2,0.15*h 
+	dialogue = new Dialogue 4*w,1.5*h,0.15*h 
 
 	r1 = 0.25 * height 
 	r2 = 0.085 * height
-	dialogue.clock ' ',6,r1,r2,120 #360/14+90
+	dialogue.clock ' ',7,r1,r2,90+360/14 
 
 	dialogue.buttons[0].info ['Undo',hist.length], -> 
 		if hist.length > 0 
 			[src,dst] = _.last hist
 			indicators = {}
-			indicators[src]="#0f08"
-			indicators[dst]="#f008"
+			indicators[src]=["#ff0",true]
+			indicators[dst]=["#ff0",false]
 			undoMove hist.pop()
 		dialogues.pop()
 
@@ -229,58 +243,37 @@ menu1 = ->
 		hint()
 		dialogues.pop()
 
+	dialogue.buttons[2].info 'Link'
+
+	dialogue.buttons[3].info 'Harder', -> 
+		level = constrain level+1,0,maxLevel
+		newGame level
+		dialogues.pop()
+
+	dialogue.buttons[4].info 'Go', ->
+		newGame level
+		dialogues.pop()
+
 	dialogue.buttons[5].info 'Easier', -> 
 		level = constrain level-1,0,maxLevel
 		newGame level
 		dialogues.pop()
 
-	#menu2 'Level','C3 W4 W5 C5 W6 W7 C7 W8 W9 C9 WT WJ CJ WQ WK CK '
-
-	# dialogue.buttons[3].info 'Next', ->
-	# 	nextLevel()
-	# 	dialogues.pop()
-
-	dialogue.buttons[4].info 'Link'
-
-	dialogue.buttons[3].info 'Restart', -> 
+	dialogue.buttons[6].info 'Restart', -> 
 		restart()
 		dialogues.pop()
 
-	dialogue.buttons[2].info 'Harder', -> 
-		level = constrain level+1,0,maxLevel
-		newGame level
-		dialogues.pop()
-
-# menu2 = (title,items) -> 
-# 	dialogue = new Dialogue width/2,height/2,0.15*h
-# 	items = items.split ' '
-# 	r1 = 0.4 * height 
-# 	r2 = 0.07 * height
-# 	dialogue.clock title,items.length,r1,r2
-
-# 	for lvl,i in items
-# 		do -> 
-# 			button = dialogue.buttons[i]	
-# 			index = i
-# 			button.txt = lvl 
-# 			button.event = -> 
-# 				newGame index 
-# 				dialogues.pop()
-# 				dialogues.pop()
-
 showHeap = (board,heap,x,y,dy) -> # dy kan vara både pos och neg
 	n = calcAntal board[heap]
-	#if n==0 then return 
-	y = y * h + y * dy
 	x = x * w 
 	if n > 0
+		y = y * h + y * dy
 		for card,k in board[heap]
 			[suit,under,over] = unpack card
 			dr = if under < over then 1 else -1
 			for rank in range under,over+dr,dr
 				noFill()
 				stroke 0
-				#y += dy
 				image faces, x, y, w,h*1.1, OFFSETX+W*rank,1092+H*suit,225,H-1
 				y += dy
 
@@ -290,7 +283,7 @@ showHeap = (board,heap,x,y,dy) -> # dy kan vara både pos och neg
 		if heap in ACES and over == N-1
 			image backs, x, y, w,h*1.1, OFFSETX+860,1092+622,225,H-1
 
-	showIndicator heap,x,y
+	showIndicator heap,x,if heap in HEAPS then y-dy else y
 
 display = (board) ->
 	background 0,128,0
@@ -301,7 +294,7 @@ display = (board) ->
 	text 'Generalens Tidsfördriv', 0.05*w,3*h
 
 	textAlign CENTER,BOTTOM
-	if hintsUsed == 0 then text msg, width/2,3*h
+	text msg, width/2,3*h
 
 	textAlign RIGHT,BOTTOM
 	text "Level: #{level}", 7.95*w,3*h
@@ -311,7 +304,7 @@ display = (board) ->
 		showHeap board, heap, 8, y, 0
 	for heap,x in HEAPS
 		n = calcAntal board[heap]
-		dy = min h/4,(2-0.0)*h/(n-1)
+		dy = if n == 0 then 0 else min h/4,2*h/(n-1)
 		showHeap board, heap, x, 0, dy
 	for heap,x in PANEL
 		showHeap board, heap, x, 3, 0
@@ -450,34 +443,48 @@ assert 8, oneClick {lastMarked:[19,0], counter:0},[19,0],b1 # ru6 to hole
 b2 = readBoard "cA|hA|sA|dA|d5 h2 d3 h3|c7|c34|d4 h76|||s3 d6 c6|d7 c5 d2|c2|s4|s6|h5|s5|s7|s2|h4"
 #assert 8, oneClick {lastMarked:0, marked:9, counter:0},b2 #hj6 to hole
 
+hitGreen = (mx,my,mouseX,mouseY) ->
+	if my==3 then return false
+	seqs = board[mx+4]
+	n = seqs.length
+	if n==0 then return true
+	mouseY > h*(1+1/4*(n-1))
+
 mousePressed = -> 
 
 	if not (0 < mouseX < width) then return
 	if not (0 < mouseY < height) then return
+
+	mx = mouseX//w
+	my = mouseY//h
 
 	dialogue = _.last dialogues
 	if dialogues.length==0 or not dialogue.execute mouseX,mouseY 
 
 		indicators = {}
 
-		mx = mouseX//w
-		my = mouseY//h
-
-		if mx == 8 
+		if mx == 8 or hitGreen mx,my,mouseX,mouseY 
 			if dialogues.length == 0 then menu1() else dialogues.pop()
 			display board
 			return
 
-		marked = [(mx + if my >= 3 then 12 else 4),my]
-		heap = oneClick oneClickData,marked,board,true
-
-		if msg == '' and 4*N == countAceCards board 
-			nextLevel()
-			msg = "#{(millis() - start) // 1000} s"
-			printManualSolution()
+		handle mx,my
 
 	print "#{hist.length} of #{maxMoves} moves"
 	display board
+
+handle = (mx,my) ->
+	marked = [(mx + if my >= 3 then 12 else 4),my]
+	heap = oneClick oneClickData,marked,board,true
+
+	if msg == '' and 4*N == countAceCards board
+		if hist.length > maxMoves 
+			msg = "Too many moves: #{hist.length - maxMoves}"
+		else if hintsUsed == 0
+			msg = "#{(millis() - start) // 1000} s"
+		else
+			msg = "Hints used: #{hintsUsed}"
+		printManualSolution()
 
 ####### AI-section ########
 
@@ -513,8 +520,8 @@ hint = ->
 	if res or hist.length==0 then return 
 	indicators = {}
 	[src,dst] = _.last hist 
-	indicators[src] = '#f008'
-	indicators[dst] = '#0f08'	
+	indicators[src] = ['#f00',true]
+	indicators[dst] = ['#f00',false]	
 	#undoMove hist.pop()
 
 hintOne = -> 
@@ -546,8 +553,8 @@ hintOne = ->
 		[src,dst] = path[0]
 		#makeMove board,src,dst,true
 		indicators = {}
-		indicators[src] = '#0f08'
-		indicators[dst] = '#f008'
+		indicators[src] = ['#0f0',true]
+		indicators[dst] = ['#0f0',false]
 
 		print "hint: #{int millis()-hintTime} ms"
 		return true
@@ -566,6 +573,9 @@ newGame = (lvl) -> # 0..15
 		makeBoard level 
 		hintsUsed = 0
 		originalBoard = _.cloneDeep board
+
+		#print A_Star originalBoard
+		#return 
 
 		aceCards = countAceCards board		
 		cands = []
@@ -656,3 +666,61 @@ printManualSolution = ->
 		s += "\n#{index}: #{prettyMove src,dst,b}"
 		makeMove b,src,dst,false
 	print s
+
+################### A* ################
+
+# reconstruct_path = (cameFrom, current) -> # key
+# 	res = [current]
+# 	while current of cameFrom
+# 		current = cameFrom[current]
+# 		res.push current
+# 	return res
+
+# heuristic_cost_estimate = (position) -> 52 - countAceCards(position)
+# dist_between = (a,b) -> countAceCards(b) - countAceCards(a)
+# neighbors = (b) ->
+# 	res = []
+# 	for [src,dst] in findAllMoves b
+# 		b1 = _.cloneDeep b
+# 		makeMove b1,src,dst
+# 		res.push b1
+# 	res
+
+# A_Star = (start) -> # board
+# 	closedSet = []
+# 	key = dumpBoard start
+# 	openSet = [key]
+# 	cameFrom = {}
+
+# 	gScore = {} # map with default value of Infinity
+# 	gScore[key] = countAceCards start
+
+# 	fScore = {} #map with default value of Infinity
+# 	fScore[key] = heuristic_cost_estimate start
+
+# 	#while 0 < _.size openSet 
+# 	for i in range 1000
+# 		print ''
+# 		currentKey = openSet.pop() # the node in openSet having the lowest fScore[] value
+# 		print 'A',currentKey,openSet.length,fScore[currentKey]
+# 		current = readBoard currentKey
+# 		if 52 == countAceCards current then return reconstruct_path cameFrom, currentKey
+# 		closedSet.push currentKey
+
+# 		for neighbor in neighbors current
+# 			neighborKey = dumpBoard neighbor 
+# 			if neighborKey in closedSet then continue # Ignore the neighbor which is already evaluated.
+
+# 			tentative_gScore = gScore[currentKey] + dist_between current, neighbor
+
+# 			if neighbor not in openSet	# Discover a new node
+# 				openSet.push neighborKey
+# 			else if tentative_gScore >= gScore[neighbor] then continue # This is not a better path.
+
+# 			# This path is the best until now. Record it!
+# 			cameFrom[neighborKey] = currentKey
+# 			gScore[neighborKey] = tentative_gScore
+# 			fScore[neighborKey] = gScore[neighborKey] + heuristic_cost_estimate neighbor
+# 			print 'B',neighborKey,gScore[neighborKey],fScore[neighborKey]
+
+# 		openSet.sort (a,b) -> fScore[a] - fScore[b]
