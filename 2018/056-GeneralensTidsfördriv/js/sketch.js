@@ -47,7 +47,6 @@ var ACES,
     calcAntal,
     cands,
     cards,
-    classic,
     compress,
     compressOne,
     countAceCards,
@@ -67,10 +66,12 @@ var ACES,
     hist,
     keyPressed,
     legalMove,
+    level,
     makeBoard,
     makeMove,
+    maxLevel,
+    maxMoves,
     menu1,
-    menu2,
     mousePressed,
     msg,
     newGame,
@@ -156,8 +157,7 @@ msg = '';
 
 N = null; // Max rank
 
-classic = false;
-
+//classic = false
 srcs = null;
 
 dsts = null;
@@ -168,6 +168,12 @@ oneClickData = {
   lastMarked: -1,
   counter: 0
 };
+
+level = 0;
+
+maxLevel = 15;
+
+maxMoves = null;
 
 print = console.log;
 
@@ -339,37 +345,16 @@ dumpBoard = function dumpBoard(board) {
   }().join('|');
 };
 
-// makeBoard = (maxRank,classic)->
-// 	N = maxRank
-
-// 	cards = []
-// 	for suit in range 4
-// 		for rank in range 1,maxRank # 2..K
-// 			cards.push pack suit,rank,rank 
-// 	cards = _.shuffle cards
-
-// 	board = []
-// 	for i in range 20
-// 		board.push []
-
-// 	for suit,heap in range 4 
-// 		board[heap].push pack suit,0,0 # Ess
-
-// 	for heap in PANEL
-// 		board[heap].push cards.pop()
-
-// 	for card,i in cards
-// 		board[if classic then 4+i%8 else int random 4,12].push card
-
-// 	compress board
-makeBoard = function makeBoard(maxRank, classic) {
-  var card, heap, i, j, l, len, len1, len2, len3, len4, len5, m, o, p, q, rank, ref, ref1, ref2, ref3, suit, zz;
-  N = maxRank;
+makeBoard = function makeBoard(lvl) {
+  var card, classic, heap, i, j, l, len, len1, len2, len3, len4, len5, m, o, p, q, rank, ref, ref1, ref2, ref3, suit, zz;
+  N = [3, 4, 5, 5, 6, 7, 7, 8, 9, 9, 10, 11, 11, 12, 13, 13][lvl];
+  classic = lvl % 3 === 0;
+  //N = maxRank
   cards = [];
   ref = range(4);
   for (j = 0, len = ref.length; j < len; j++) {
     suit = ref[j];
-    ref1 = range(1, maxRank);
+    ref1 = range(1, N);
     // 2..K
     for (l = 0, len1 = ref1.length; l < len1; l++) {
       rank = ref1[l];
@@ -412,6 +397,7 @@ readBoard = function readBoard(b) {
 };
 
 fakeBoard = function fakeBoard() {
+  var classic;
   N = 6;
   classic = false;
   if (N === 6) {
@@ -445,7 +431,7 @@ setup = function setup() {
   w = width / 9;
   h = height / 4;
   angleMode(DEGREES);
-  newGame('3', true);
+  newGame(0);
   return display(board);
 };
 
@@ -465,7 +451,7 @@ menu1 = function menu1() {
   dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
   r1 = 0.25 * height;
   r2 = 0.085 * height;
-  dialogue.clock(' ', 7, r1, r2, 360 / 14 + 90);
+  dialogue.clock(' ', 6, r1, r2, 120); //360/14+90
   dialogue.buttons[0].info(['Undo', hist.length], function () {
     if (hist.length > 0) {
       undoMove(hist.pop());
@@ -476,48 +462,44 @@ menu1 = function menu1() {
     hint();
     return dialogues.pop();
   });
-  dialogue.buttons[6].info('Classic', function () {
-    return menu2('Classic', 'Three Five Seven Nine Jack King', '3579JK');
-  });
-  dialogue.buttons[3].info('Next', function () {
-    nextLevel();
+  dialogue.buttons[5].info('Easier', function () {
+    level = constrain(level - 1, 0, maxLevel);
+    newGame(level);
     return dialogues.pop();
   });
+  //menu2 'Level','C3 W4 W5 C5 W6 W7 C7 W8 W9 C9 WT WJ CJ WQ WK CK '
+
+  // dialogue.buttons[3].info 'Next', ->
+  // 	nextLevel()
+  // 	dialogues.pop()
   dialogue.buttons[4].info('Link');
-  dialogue.buttons[5].info('Restart', function () {
+  dialogue.buttons[3].info('Restart', function () {
     restart();
     return dialogues.pop();
   });
-  return dialogue.buttons[2].info('Wild', function () {
-    return menu2('Wild', ' Four Five Six Seven Eight Nine Ten Jack Queen King ', '3456789TJQK');
+  return dialogue.buttons[2].info('Harder', function () {
+    level = constrain(level + 1, 0, maxLevel);
+    newGame(level);
+    return dialogues.pop();
   });
 };
 
-menu2 = function menu2(title, items, letters) {
-  var dialogue, i, j, len, level, r1, r2, results;
-  dialogue = new Dialogue(width / 2, height / 2, 0.15 * h);
-  items = items.split(' ');
-  r1 = 0.35 * height;
-  r2 = 0.085 * height;
-  dialogue.clock(title, items.length, r1, r2);
-  results = [];
-  for (i = j = 0, len = items.length; j < len; i = ++j) {
-    level = items[i];
-    results.push(function () {
-      var button, index;
-      button = dialogue.buttons[i];
-      index = i;
-      button.txt = level;
-      return button.event = function () {
-        newGame(letters[index], title === 'Classic');
-        dialogues.pop();
-        return dialogues.pop();
-      };
-    }());
-  }
-  return results;
-};
+// menu2 = (title,items) -> 
+// 	dialogue = new Dialogue width/2,height/2,0.15*h
+// 	items = items.split ' '
+// 	r1 = 0.4 * height 
+// 	r2 = 0.07 * height
+// 	dialogue.clock title,items.length,r1,r2
 
+// 	for lvl,i in items
+// 		do -> 
+// 			button = dialogue.buttons[i]	
+// 			index = i
+// 			button.txt = lvl 
+// 			button.event = -> 
+// 				newGame index 
+// 				dialogues.pop()
+// 				dialogues.pop()
 showHeap = function showHeap(board, heap, x, y, dy) {
   // dx kan vara både pos och neg
   var card, dr, j, k, l, len, len1, n, over, rank, ref, ref1, suit, under;
@@ -577,7 +559,7 @@ display = function display(board) {
     text(msg, width / 2, 3 * h);
   }
   textAlign(RIGHT, BOTTOM);
-  text((classic ? 'Classic' : 'Wild') + " " + LONG[N], 7.95 * w, 3 * h);
+  text((level % 3 === 0 ? 'Classic' : 'Wild') + " " + LONG[N], 7.95 * w, 3 * h);
   textAlign(CENTER, TOP);
   for (y = j = 0, len = ACES.length; j < len; y = ++j) {
     heap = ACES[y];
@@ -957,10 +939,12 @@ mousePressed = function mousePressed() {
     marked = [mx + (my >= 3 ? 12 : 4), my];
     heap = oneClick(oneClickData, marked, board, true);
     if (msg === '' && 4 * N === countAceCards(board)) {
+      nextLevel();
       msg = Math.floor((millis() - start) / 1000) + " s";
       printManualSolution();
     }
   }
+  print(hist.length + " of " + maxMoves + " moves");
   return display(board);
 };
 
@@ -1081,19 +1065,15 @@ hintOne = function hintOne() {
   }
 };
 
-newGame = function newGame(key, classic1) {
-  var cand, increment, level, nr;
+newGame = function newGame(lvl) {
+  // 0..15
+  var cand, increment, nr;
+  level = lvl;
   start = millis();
   msg = '';
   hist = [];
-  classic = classic1;
   while (true) {
-    if (indexOf.call('3456789TJQK', key) >= 0) {
-      makeBoard(3 + '3456789TJQK'.indexOf(key), classic);
-    }
-    if (indexOf.call('C', key) >= 0) {
-      makeBoard(13, classic);
-    }
+    makeBoard(level);
     hintsUsed = 0;
     originalBoard = _.cloneDeep(board);
     aceCards = countAceCards(board);
@@ -1117,8 +1097,6 @@ newGame = function newGame(key, classic1) {
         }
       });
     }
-    level = cand[1];
-    print(nr, aceCards, level, _.size(hash));
     if (aceCards === N * 4) {
       print(JSON.stringify(dumpBoard(originalBoard)));
       board = cand[2];
@@ -1126,6 +1104,8 @@ newGame = function newGame(key, classic1) {
       board = _.cloneDeep(originalBoard);
       print(int(millis() - start) + " ms");
       start = millis();
+      maxMoves = int(cand[1] * 1.1); // +10%
+      print('maxMoves', maxMoves);
       return;
     }
   }
@@ -1138,20 +1118,16 @@ restart = function restart() {
 };
 
 nextLevel = function nextLevel() {
-  var dn;
-  if (classic) {
-    dn = 2;
+  if (hist.length <= maxMoves && level <= maxLevel && hintsUsed === 0 && 4 * N === countAceCards(board)) {
+    level++;
   } else {
-    dn = 1;
+    level--;
   }
-  if (4 * N === countAceCards(board)) {
-    N += dn;
-  } else {
-    N -= dn;
+  level = constrain(level, 0, 15);
+  if (level > maxLevel) {
+    maxLevel = level;
   }
-  N = N % 14;
-  N = constrain(N, 3, 13);
-  return newGame('   3456789TJQK'[N], classic);
+  return newGame(level);
 };
 
 prettyCard2 = function prettyCard2(card, antal) {

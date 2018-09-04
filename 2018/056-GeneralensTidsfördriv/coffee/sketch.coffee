@@ -53,11 +53,15 @@ originalBoard = null
 start = null
 msg = ''
 N = null # Max rank
-classic = false
+#classic = false
 srcs = null
 dsts = null
 hintsUsed = null
 oneClickData = {lastMarked:-1, counter:0}
+
+level = 0
+maxLevel = 15
+maxMoves = null
 
 print = console.log
 range = _.range
@@ -137,36 +141,14 @@ countPanelCards = (b) ->
 
 dumpBoard = (board) -> (heap.join ' ' for heap in board).join '|'
 
-# makeBoard = (maxRank,classic)->
-# 	N = maxRank
-
-# 	cards = []
-# 	for suit in range 4
-# 		for rank in range 1,maxRank # 2..K
-# 			cards.push pack suit,rank,rank 
-# 	cards = _.shuffle cards
-
-# 	board = []
-# 	for i in range 20
-# 		board.push []
-
-# 	for suit,heap in range 4 
-# 		board[heap].push pack suit,0,0 # Ess
-
-# 	for heap in PANEL
-# 		board[heap].push cards.pop()
-
-# 	for card,i in cards
-# 		board[if classic then 4+i%8 else int random 4,12].push card
-
-# 	compress board
-
-makeBoard = (maxRank,classic)->
-	N = maxRank
+makeBoard = (lvl)->
+	N = [3,4,5,5,6,7,7,8,9,9,10,11,11,12,13,13][lvl]
+	classic = lvl % 3 == 0
+	#N = maxRank
 
 	cards = []
 	for suit in range 4
-		for rank in range 1,maxRank # 2..K
+		for rank in range 1,N # 2..K
 			cards.push pack suit,rank,rank 
 	cards = _.shuffle cards
 
@@ -208,7 +190,7 @@ setup = ->
 	h = height/4 
 	angleMode DEGREES
 
-	newGame '3',true
+	newGame 0
 	display board 
 
 keyPressed = -> 
@@ -225,7 +207,7 @@ menu1 = ->
 
 	r1 = 0.25 * height 
 	r2 = 0.085 * height
-	dialogue.clock ' ',7,r1,r2,360/14+90
+	dialogue.clock ' ',6,r1,r2,120 #360/14+90
 
 	dialogue.buttons[0].info ['Undo',hist.length], -> 
 		if hist.length > 0 then undoMove hist.pop()
@@ -235,36 +217,44 @@ menu1 = ->
 		hint()
 		dialogues.pop()
 
-	dialogue.buttons[6].info 'Classic', -> menu2 'Classic','Three Five Seven Nine Jack King','3579JK'
-
-	dialogue.buttons[3].info 'Next', ->
-		nextLevel()
+	dialogue.buttons[5].info 'Easier', -> 
+		level = constrain level-1,0,maxLevel
+		newGame level
 		dialogues.pop()
+
+	#menu2 'Level','C3 W4 W5 C5 W6 W7 C7 W8 W9 C9 WT WJ CJ WQ WK CK '
+
+	# dialogue.buttons[3].info 'Next', ->
+	# 	nextLevel()
+	# 	dialogues.pop()
 
 	dialogue.buttons[4].info 'Link'
 
-	dialogue.buttons[5].info 'Restart', -> 
+	dialogue.buttons[3].info 'Restart', -> 
 		restart()
 		dialogues.pop()
 
-	dialogue.buttons[2].info 'Wild', -> menu2 'Wild',' Four Five Six Seven Eight Nine Ten Jack Queen King ','3456789TJQK'
+	dialogue.buttons[2].info 'Harder', -> 
+		level = constrain level+1,0,maxLevel
+		newGame level
+		dialogues.pop()
 
-menu2 = (title,items,letters) -> 
-	dialogue = new Dialogue width/2,height/2,0.15*h
-	items = items.split ' '
-	r1 = 0.35 * height 
-	r2 = 0.085 * height
-	dialogue.clock title,items.length,r1,r2
+# menu2 = (title,items) -> 
+# 	dialogue = new Dialogue width/2,height/2,0.15*h
+# 	items = items.split ' '
+# 	r1 = 0.4 * height 
+# 	r2 = 0.07 * height
+# 	dialogue.clock title,items.length,r1,r2
 
-	for level,i in items
-		do -> 
-			button = dialogue.buttons[i]	
-			index = i
-			button.txt = level 
-			button.event = -> 
-				newGame letters[index], title=='Classic'
-				dialogues.pop()
-				dialogues.pop()
+# 	for lvl,i in items
+# 		do -> 
+# 			button = dialogue.buttons[i]	
+# 			index = i
+# 			button.txt = lvl 
+# 			button.event = -> 
+# 				newGame index 
+# 				dialogues.pop()
+# 				dialogues.pop()
 
 showHeap = (board,heap,x,y,dy) -> # dx kan vara både pos och neg
 	n = calcAntal board[heap]
@@ -298,7 +288,7 @@ display = (board) ->
 	if hintsUsed == 0 then text msg, width/2,3*h
 
 	textAlign RIGHT,BOTTOM
-	text "#{if classic then 'Classic' else 'Wild'} #{LONG[N]}", 7.95*w,3*h
+	text "#{if level%3==0 then 'Classic' else 'Wild'} #{LONG[N]}", 7.95*w,3*h
 
 	textAlign CENTER,TOP
 	for heap,y in ACES
@@ -464,9 +454,11 @@ mousePressed = ->
 		heap = oneClick oneClickData,marked,board,true
 
 		if msg == '' and 4*N == countAceCards board 
+			nextLevel()
 			msg = "#{(millis() - start) // 1000} s"
 			printManualSolution()
 
+	print "#{hist.length} of #{maxMoves} moves"
 	display board
 
 ####### AI-section ########
@@ -539,14 +531,13 @@ hintOne = ->
 		board = origBoard
 		return false
 
-newGame = (key,classic1) ->
+newGame = (lvl) -> # 0..15
+	level = lvl
 	start = millis()
 	msg = ''
 	hist = []
-	classic = classic1
 	while true 
-		if key in '3456789TJQK' then makeBoard 3+'3456789TJQK'.indexOf(key),classic
-		if key in 'C' then makeBoard 13,classic
+		makeBoard level 
 		hintsUsed = 0
 		originalBoard = _.cloneDeep board
 
@@ -565,8 +556,6 @@ newGame = (key,classic1) ->
 			cands = cands.concat increment
 			cands.sort (a,b) -> if a[0] == b[0] then b[1]-a[1] else a[0]-b[0]
 
-		level = cand[1]
-		print nr,aceCards,level,_.size hash
 		if aceCards == N*4
 			print JSON.stringify dumpBoard originalBoard 
 			board = cand[2]
@@ -574,6 +563,8 @@ newGame = (key,classic1) ->
 			board = _.cloneDeep originalBoard
 			print "#{int millis()-start} ms"
 			start = millis()
+			maxMoves = int cand[1] * 1.1 # +10%
+			print 'maxMoves',maxMoves
 			return 
 
 restart = ->
@@ -582,14 +573,10 @@ restart = ->
 	msg = ''
 
 nextLevel = ->
-	if classic then dn = 2 else dn = 1
-	if 4*N == countAceCards board
-		N += dn
-	else
-		N -= dn
-	N = N % 14
-	N = constrain N,3,13
-	newGame '   3456789TJQK'[N],classic
+	if hist.length <= maxMoves and level <= maxLevel and hintsUsed == 0 and 4*N == countAceCards board then level++ else level--
+	level = constrain level,0,15
+	if level>maxLevel then maxLevel=level
+	newGame level
 
 prettyCard2 = (card,antal) ->
 	[suit,under,over] = unpack card 
