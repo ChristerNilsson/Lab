@@ -64,6 +64,7 @@ var ACES,
     hintOne,
     hintsUsed,
     hist,
+    indicators,
     keyPressed,
     legalMove,
     level,
@@ -94,6 +95,7 @@ var ACES,
     setup,
     showDialogue,
     showHeap,
+    showIndicator,
     srcs,
     start,
     undoMove,
@@ -169,6 +171,8 @@ oneClickData = {
   counter: 0
 };
 
+indicators = {}; // färgmarkering av senaste undo eller hint. [x,y,color]
+
 level = 0;
 
 maxLevel = 15;
@@ -183,6 +187,15 @@ assert = function assert(a, b) {
   var msg = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'Assert failure';
 
   return chai.assert.deepEqual(a, b, msg);
+};
+
+showIndicator = function showIndicator(heap, x, y) {
+  var color;
+  if (heap in indicators) {
+    color = indicators[heap];
+    fill(color);
+    return ellipse(x + w / 2, y + 0.5 * h, 0.3 * w);
+  }
 };
 
 preload = function preload() {
@@ -453,7 +466,18 @@ menu1 = function menu1() {
   r2 = 0.085 * height;
   dialogue.clock(' ', 6, r1, r2, 120); //360/14+90
   dialogue.buttons[0].info(['Undo', hist.length], function () {
+    var dst, src;
     if (hist.length > 0) {
+      var _$last = _.last(hist);
+
+      var _$last2 = _slicedToArray(_$last, 2);
+
+      src = _$last2[0];
+      dst = _$last2[1];
+
+      indicators = {};
+      indicators[src] = "#0f08";
+      indicators[dst] = "#f008";
       undoMove(hist.pop());
     }
     return dialogues.pop();
@@ -501,50 +525,52 @@ menu1 = function menu1() {
 // 				dialogues.pop()
 // 				dialogues.pop()
 showHeap = function showHeap(board, heap, x, y, dy) {
-  // dx kan vara både pos och neg
+  // dy kan vara både pos och neg
   var card, dr, j, k, l, len, len1, n, over, rank, ref, ref1, suit, under;
   n = calcAntal(board[heap]);
-  if (n === 0) {
-    return;
-  }
+  //if n==0 then return 
   y = y * h + y * dy;
   x = x * w;
-  ref = board[heap];
-  for (k = j = 0, len = ref.length; j < len; k = ++j) {
-    card = ref[k];
+  if (n > 0) {
+    ref = board[heap];
+    for (k = j = 0, len = ref.length; j < len; k = ++j) {
+      card = ref[k];
 
-    var _unpack7 = unpack(card);
+      var _unpack7 = unpack(card);
 
-    var _unpack8 = _slicedToArray(_unpack7, 3);
+      var _unpack8 = _slicedToArray(_unpack7, 3);
 
-    suit = _unpack8[0];
-    under = _unpack8[1];
-    over = _unpack8[2];
+      suit = _unpack8[0];
+      under = _unpack8[1];
+      over = _unpack8[2];
 
-    dr = under < over ? 1 : -1;
-    ref1 = range(under, over + dr, dr);
-    for (l = 0, len1 = ref1.length; l < len1; l++) {
-      rank = ref1[l];
-      noFill();
-      stroke(0);
-      image(faces, x, y, w, h * 1.1, OFFSETX + W * rank, 1092 + H * suit, 225, H - 1);
-      y += dy;
+      dr = under < over ? 1 : -1;
+      ref1 = range(under, over + dr, dr);
+      for (l = 0, len1 = ref1.length; l < len1; l++) {
+        rank = ref1[l];
+        noFill();
+        stroke(0);
+        //y += dy
+        image(faces, x, y, w, h * 1.1, OFFSETX + W * rank, 1092 + H * suit, 225, H - 1);
+        y += dy;
+      }
+    }
+    // visa eventuellt baksidan
+    card = _.last(board[heap]);
+
+    var _unpack9 = unpack(card);
+
+    var _unpack10 = _slicedToArray(_unpack9, 3);
+
+    suit = _unpack10[0];
+    under = _unpack10[1];
+    over = _unpack10[2];
+
+    if (indexOf.call(ACES, heap) >= 0 && over === N - 1) {
+      image(backs, x, y, w, h * 1.1, OFFSETX + 860, 1092 + 622, 225, H - 1);
     }
   }
-  // visa eventuellt baksidan
-  card = _.last(board[heap]);
-
-  var _unpack9 = unpack(card);
-
-  var _unpack10 = _slicedToArray(_unpack9, 3);
-
-  suit = _unpack10[0];
-  under = _unpack10[1];
-  over = _unpack10[2];
-
-  if (indexOf.call(ACES, heap) >= 0 && over === N - 1) {
-    return image(backs, x, y, w, h * 1.1, OFFSETX + 860, 1092 + 622, 225, H - 1);
-  }
+  return showIndicator(heap, x, y);
 };
 
 display = function display(board) {
@@ -559,7 +585,7 @@ display = function display(board) {
     text(msg, width / 2, 3 * h);
   }
   textAlign(RIGHT, BOTTOM);
-  text((level % 3 === 0 ? 'Classic' : 'Wild') + " " + LONG[N], 7.95 * w, 3 * h);
+  text("Level: " + level, 7.95 * w, 3 * h);
   textAlign(CENTER, TOP);
   for (y = j = 0, len = ACES.length; j < len; y = ++j) {
     heap = ACES[y];
@@ -925,6 +951,7 @@ mousePressed = function mousePressed() {
   }
   dialogue = _.last(dialogues);
   if (dialogues.length === 0 || !dialogue.execute(mouseX, mouseY)) {
+    indicators = {};
     mx = Math.floor(mouseX / w);
     my = Math.floor(mouseY / h);
     if (mx === 8) {
@@ -1000,7 +1027,7 @@ expand = function expand(_ref3) {
 };
 
 hint = function hint() {
-  var res;
+  var dst, res, src;
   if (4 * N === countAceCards(board)) {
     return;
   }
@@ -1009,9 +1036,20 @@ hint = function hint() {
   if (res || hist.length === 0) {
     return;
   }
-  return undoMove(hist.pop());
+  indicators = {};
+
+  var _$last3 = _.last(hist);
+
+  var _$last4 = _slicedToArray(_$last3, 2);
+
+  src = _$last4[0];
+  dst = _$last4[1];
+
+  indicators[src] = '#f008';
+  return indicators[dst] = '#0f08';
 };
 
+//undoMove hist.pop()
 hintOne = function hintOne() {
   var cand, dst, hintTime, increment, nr, origBoard, path, src;
   hintTime = millis();
@@ -1049,12 +1087,14 @@ hintOne = function hintOne() {
     path = cand[3];
     board = origBoard;
 
+    //makeMove board,src,dst,true
     var _path$ = _slicedToArray(path[0], 2);
 
     src = _path$[0];
     dst = _path$[1];
-
-    makeMove(board, src, dst, true);
+    indicators = {};
+    indicators[src] = '#0f08';
+    indicators[dst] = '#f008';
     print("hint: " + int(millis() - hintTime) + " ms");
     return true;
   } else {
@@ -1221,12 +1261,12 @@ printAutomaticSolution = function printAutomaticSolution(hash, b) {
     path = _solution$index[0];
     b = _solution$index[1];
 
-    var _$last = _.last(path);
+    var _$last5 = _.last(path);
 
-    var _$last2 = _slicedToArray(_$last, 2);
+    var _$last6 = _slicedToArray(_$last5, 2);
 
-    src = _$last2[0];
-    dst = _$last2[1];
+    src = _$last6[0];
+    dst = _$last6[1];
 
     s += "\n" + index + ": " + prettyMove(src, dst, b) + " (" + src + " to " + dst + ")";
   }

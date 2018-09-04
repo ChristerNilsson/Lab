@@ -58,6 +58,7 @@ srcs = null
 dsts = null
 hintsUsed = null
 oneClickData = {lastMarked:-1, counter:0}
+indicators = {} # färgmarkering av senaste undo eller hint. [x,y,color]
 
 level = 0
 maxLevel = 15
@@ -66,6 +67,12 @@ maxMoves = null
 print = console.log
 range = _.range
 assert = (a, b, msg='Assert failure') -> chai.assert.deepEqual a, b, msg
+
+showIndicator = (heap,x,y)->
+	if heap of indicators
+		color = indicators[heap]
+		fill color
+		ellipse x+w/2,y+0.5*h,0.3*w
 
 preload = -> 
 	faces = loadImage 'cards/Color_52_Faces_v.2.0.png'
@@ -210,7 +217,12 @@ menu1 = ->
 	dialogue.clock ' ',6,r1,r2,120 #360/14+90
 
 	dialogue.buttons[0].info ['Undo',hist.length], -> 
-		if hist.length > 0 then undoMove hist.pop()
+		if hist.length > 0 
+			[src,dst] = _.last hist
+			indicators = {}
+			indicators[src]="#0f08"
+			indicators[dst]="#f008"
+			undoMove hist.pop()
 		dialogues.pop()
 
 	dialogue.buttons[1].info ['Hint',hintsUsed], -> 
@@ -256,25 +268,29 @@ menu1 = ->
 # 				dialogues.pop()
 # 				dialogues.pop()
 
-showHeap = (board,heap,x,y,dy) -> # dx kan vara både pos och neg
+showHeap = (board,heap,x,y,dy) -> # dy kan vara både pos och neg
 	n = calcAntal board[heap]
-	if n==0 then return 
+	#if n==0 then return 
 	y = y * h + y * dy
 	x = x * w 
-	for card,k in board[heap]
-		[suit,under,over] = unpack card
-		dr = if under < over then 1 else -1
-		for rank in range under,over+dr,dr
-			noFill()
-			stroke 0
-			image faces, x, y, w,h*1.1, OFFSETX+W*rank,1092+H*suit,225,H-1
-			y += dy
+	if n > 0
+		for card,k in board[heap]
+			[suit,under,over] = unpack card
+			dr = if under < over then 1 else -1
+			for rank in range under,over+dr,dr
+				noFill()
+				stroke 0
+				#y += dy
+				image faces, x, y, w,h*1.1, OFFSETX+W*rank,1092+H*suit,225,H-1
+				y += dy
 
-	# visa eventuellt baksidan
-	card = _.last board[heap]
-	[suit,under,over] = unpack card
-	if heap in ACES and over == N-1
-		image backs, x, y, w,h*1.1, OFFSETX+860,1092+622,225,H-1
+		# visa eventuellt baksidan
+		card = _.last board[heap]
+		[suit,under,over] = unpack card
+		if heap in ACES and over == N-1
+			image backs, x, y, w,h*1.1, OFFSETX+860,1092+622,225,H-1
+
+	showIndicator heap,x,y
 
 display = (board) ->
 	background 0,128,0
@@ -288,7 +304,7 @@ display = (board) ->
 	if hintsUsed == 0 then text msg, width/2,3*h
 
 	textAlign RIGHT,BOTTOM
-	text "#{if level%3==0 then 'Classic' else 'Wild'} #{LONG[N]}", 7.95*w,3*h
+	text "Level: #{level}", 7.95*w,3*h
 
 	textAlign CENTER,TOP
 	for heap,y in ACES
@@ -442,6 +458,8 @@ mousePressed = ->
 	dialogue = _.last dialogues
 	if dialogues.length==0 or not dialogue.execute mouseX,mouseY 
 
+		indicators = {}
+
 		mx = mouseX//w
 		my = mouseY//h
 
@@ -493,7 +511,11 @@ hint = ->
 	hintsUsed++
 	res = hintOne()
 	if res or hist.length==0 then return 
-	undoMove hist.pop()
+	indicators = {}
+	[src,dst] = _.last hist 
+	indicators[src] = '#f008'
+	indicators[dst] = '#0f08'	
+	#undoMove hist.pop()
 
 hintOne = -> 
 	hintTime = millis()
@@ -522,7 +544,11 @@ hintOne = ->
 		path = cand[3]
 		board = origBoard
 		[src,dst] = path[0]
-		makeMove board,src,dst,true
+		#makeMove board,src,dst,true
+		indicators = {}
+		indicators[src] = '#0f08'
+		indicators[dst] = '#f008'
+
 		print "hint: #{int millis()-hintTime} ms"
 		return true
 	else
