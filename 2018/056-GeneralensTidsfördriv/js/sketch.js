@@ -177,7 +177,7 @@ indicators = {}; // färgmarkering av senaste undo eller hint. [color,hollow]
 
 level = 0;
 
-maxLevel = 15;
+maxLevel = 0;
 
 maxMoves = null;
 
@@ -465,7 +465,21 @@ setup = function setup() {
   w = width / 9;
   h = height / 4;
   angleMode(DEGREES);
-  newGame(0);
+  if (localStorage.Generalen != null) {
+    var _JSON$parse = JSON.parse(localStorage.Generalen);
+
+    maxLevel = _JSON$parse.maxLevel;
+    level = _JSON$parse.level;
+  } else {
+    var _maxLevel$level = {
+      maxLevel: 0,
+      level: 0
+    };
+    maxLevel = _maxLevel$level.maxLevel;
+    level = _maxLevel$level.level;
+  }
+  print(maxLevel, level);
+  newGame(level);
   return display(board);
 };
 
@@ -947,10 +961,13 @@ hitGreen = function hitGreen(mx, my, mouseX, mouseY) {
     return false;
   }
   seqs = board[mx + 4];
-  n = seqs.length;
+  print(seqs);
+  n = calcAntal(seqs);
   if (n === 0) {
     return true;
   }
+  // dy = min h/4,2*h/(n-1)
+  print(mouseY, mx, mx + 4, h, n, h * (1 + 1 / 4 * (n - 1)), mouseY > h * (1 + 1 / 4 * (n - 1)));
   return mouseY > h * (1 + 1 / 4 * (n - 1));
 };
 
@@ -966,8 +983,10 @@ mousePressed = function mousePressed() {
   my = Math.floor(mouseY / h);
   dialogue = _.last(dialogues);
   if (dialogues.length === 0 || !dialogue.execute(mouseX, mouseY)) {
+    print('A');
     indicators = {};
     if (mx === 8 || hitGreen(mx, my, mouseX, mouseY)) {
+      print('B');
       if (dialogues.length === 0) {
         menu1();
       } else {
@@ -978,19 +997,35 @@ mousePressed = function mousePressed() {
     }
     handle(mx, my);
   }
-  print(hist.length + " of " + maxMoves + " moves");
+  print('C', hist.length + " of " + maxMoves + " moves");
   return display(board);
 };
 
 handle = function handle(mx, my) {
-  var heap, marked;
+  var diff, heap, marked, s;
   marked = [mx + (my >= 3 ? 12 : 4), my];
   heap = oneClick(oneClickData, marked, board, true);
   if (msg === '' && 4 * N === countAceCards(board)) {
-    if (hist.length > maxMoves) {
+    if (hist.length > maxMoves * 1.1) {
       msg = "Too many moves: " + (hist.length - maxMoves);
     } else if (hintsUsed === 0) {
-      msg = Math.floor((millis() - start) / 1000) + " s";
+      diff = hist.length - maxMoves;
+      if (diff === 0) {
+        s = "exact";
+      }
+      if (diff < 0) {
+        s = -diff + " moves less";
+      }
+      if (diff > 0) {
+        s = diff + " moves more";
+      }
+      msg = Math.floor((millis() - start) / 1000) + " s (" + s + ")";
+      if (level === maxLevel) {
+        maxLevel++;
+      }
+      maxLevel = constrain(maxLevel, 0, 15);
+      localStorage.Generalen = JSON.stringify({ maxLevel: maxLevel, level: level });
+      print(localStorage.Generalen);
     } else {
       msg = "Hints used: " + hintsUsed;
     }
@@ -1139,8 +1174,6 @@ newGame = function newGame(lvl) {
     makeBoard(level);
     hintsUsed = 0;
     originalBoard = _.cloneDeep(board);
-    //print A_Star originalBoard
-    //return 
     aceCards = countAceCards(board);
     cands = [];
     cands.push([aceCards, 0, board, // antal kort på ässen, antal drag, board
@@ -1169,7 +1202,7 @@ newGame = function newGame(lvl) {
       board = _.cloneDeep(originalBoard);
       print(int(millis() - start) + " ms");
       start = millis();
-      maxMoves = int(cand[1] * 1.1); // +10%
+      maxMoves = int(cand[1]);
       print('maxMoves', maxMoves);
       return;
     }
@@ -1314,62 +1347,4 @@ printManualSolution = function printManualSolution() {
   }
   return print(s);
 };
-
-//################## A* ################
-
-// reconstruct_path = (cameFrom, current) -> # key
-// 	res = [current]
-// 	while current of cameFrom
-// 		current = cameFrom[current]
-// 		res.push current
-// 	return res
-
-// heuristic_cost_estimate = (position) -> 52 - countAceCards(position)
-// dist_between = (a,b) -> countAceCards(b) - countAceCards(a)
-// neighbors = (b) ->
-// 	res = []
-// 	for [src,dst] in findAllMoves b
-// 		b1 = _.cloneDeep b
-// 		makeMove b1,src,dst
-// 		res.push b1
-// 	res
-
-// A_Star = (start) -> # board
-// 	closedSet = []
-// 	key = dumpBoard start
-// 	openSet = [key]
-// 	cameFrom = {}
-
-// 	gScore = {} # map with default value of Infinity
-// 	gScore[key] = countAceCards start
-
-// 	fScore = {} #map with default value of Infinity
-// 	fScore[key] = heuristic_cost_estimate start
-
-// 	#while 0 < _.size openSet 
-// 	for i in range 1000
-// 		print ''
-// 		currentKey = openSet.pop() # the node in openSet having the lowest fScore[] value
-// 		print 'A',currentKey,openSet.length,fScore[currentKey]
-// 		current = readBoard currentKey
-// 		if 52 == countAceCards current then return reconstruct_path cameFrom, currentKey
-// 		closedSet.push currentKey
-
-// 		for neighbor in neighbors current
-// 			neighborKey = dumpBoard neighbor 
-// 			if neighborKey in closedSet then continue # Ignore the neighbor which is already evaluated.
-
-// 			tentative_gScore = gScore[currentKey] + dist_between current, neighbor
-
-// 			if neighbor not in openSet	# Discover a new node
-// 				openSet.push neighborKey
-// 			else if tentative_gScore >= gScore[neighbor] then continue # This is not a better path.
-
-// 			# This path is the best until now. Record it!
-// 			cameFrom[neighborKey] = currentKey
-// 			gScore[neighborKey] = tentative_gScore
-// 			fScore[neighborKey] = gScore[neighborKey] + heuristic_cost_estimate neighbor
-// 			print 'B',neighborKey,gScore[neighborKey],fScore[neighborKey]
-
-// 		openSet.sort (a,b) -> fScore[a] - fScore[b]
 //# sourceMappingURL=sketch.js.map

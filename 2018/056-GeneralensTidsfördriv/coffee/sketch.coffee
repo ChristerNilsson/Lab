@@ -61,7 +61,7 @@ oneClickData = {lastMarked:-1, counter:0}
 indicators = {} # färgmarkering av senaste undo eller hint. [color,hollow]
 
 level = 0
-maxLevel = 15
+maxLevel = 0
 maxMoves = null
 
 print = console.log
@@ -211,7 +211,14 @@ setup = ->
 	h = height/4 
 	angleMode DEGREES
 
-	newGame 0
+	if localStorage.Generalen? 
+		{maxLevel,level} = JSON.parse localStorage.Generalen
+	else
+		{maxLevel,level} = {maxLevel:0, level:0} 
+
+	print maxLevel,level
+
+	newGame level
 	display board 
 
 keyPressed = -> 
@@ -446,8 +453,12 @@ b2 = readBoard "cA|hA|sA|dA|d5 h2 d3 h3|c7|c34|d4 h76|||s3 d6 c6|d7 c5 d2|c2|s4|
 hitGreen = (mx,my,mouseX,mouseY) ->
 	if my==3 then return false
 	seqs = board[mx+4]
-	n = seqs.length
+	print seqs
+	n = calcAntal seqs
 	if n==0 then return true
+
+	# dy = min h/4,2*h/(n-1)
+	print mouseY, mx, mx+4, h, n, h*(1+1/4*(n-1)), mouseY > h*(1+1/4*(n-1))
 	mouseY > h*(1+1/4*(n-1))
 
 mousePressed = -> 
@@ -460,17 +471,18 @@ mousePressed = ->
 
 	dialogue = _.last dialogues
 	if dialogues.length==0 or not dialogue.execute mouseX,mouseY 
-
+		print 'A'
 		indicators = {}
 
 		if mx == 8 or hitGreen mx,my,mouseX,mouseY 
+			print 'B'
 			if dialogues.length == 0 then menu1() else dialogues.pop()
 			display board
 			return
 
 		handle mx,my
 
-	print "#{hist.length} of #{maxMoves} moves"
+	print 'C',"#{hist.length} of #{maxMoves} moves"
 	display board
 
 handle = (mx,my) ->
@@ -478,10 +490,18 @@ handle = (mx,my) ->
 	heap = oneClick oneClickData,marked,board,true
 
 	if msg == '' and 4*N == countAceCards board
-		if hist.length > maxMoves 
+		if hist.length > maxMoves * 1.1
 			msg = "Too many moves: #{hist.length - maxMoves}"
 		else if hintsUsed == 0
-			msg = "#{(millis() - start) // 1000} s"
+			diff = hist.length - maxMoves
+			if diff ==0 then s = "exact"
+			if diff < 0 then s = "#{-diff} moves less"
+			if diff > 0 then s = "#{diff} moves more"
+			msg = "#{(millis() - start) // 1000} s (#{s})"
+			if level == maxLevel then maxLevel++ 
+			maxLevel = constrain maxLevel,0,15
+			localStorage.Generalen = JSON.stringify {maxLevel,level}
+			print localStorage.Generalen
 		else
 			msg = "Hints used: #{hintsUsed}"
 		printManualSolution()
@@ -574,9 +594,6 @@ newGame = (lvl) -> # 0..15
 		hintsUsed = 0
 		originalBoard = _.cloneDeep board
 
-		#print A_Star originalBoard
-		#return 
-
 		aceCards = countAceCards board		
 		cands = []
 		cands.push [aceCards,0,board,[]] # antal kort på ässen, antal drag, board
@@ -599,7 +616,7 @@ newGame = (lvl) -> # 0..15
 			board = _.cloneDeep originalBoard
 			print "#{int millis()-start} ms"
 			start = millis()
-			maxMoves = int cand[1] * 1.1 # +10%
+			maxMoves = int cand[1] # * 1.1 # +10%
 			print 'maxMoves',maxMoves
 			return 
 
@@ -666,61 +683,3 @@ printManualSolution = ->
 		s += "\n#{index}: #{prettyMove src,dst,b}"
 		makeMove b,src,dst,false
 	print s
-
-################### A* ################
-
-# reconstruct_path = (cameFrom, current) -> # key
-# 	res = [current]
-# 	while current of cameFrom
-# 		current = cameFrom[current]
-# 		res.push current
-# 	return res
-
-# heuristic_cost_estimate = (position) -> 52 - countAceCards(position)
-# dist_between = (a,b) -> countAceCards(b) - countAceCards(a)
-# neighbors = (b) ->
-# 	res = []
-# 	for [src,dst] in findAllMoves b
-# 		b1 = _.cloneDeep b
-# 		makeMove b1,src,dst
-# 		res.push b1
-# 	res
-
-# A_Star = (start) -> # board
-# 	closedSet = []
-# 	key = dumpBoard start
-# 	openSet = [key]
-# 	cameFrom = {}
-
-# 	gScore = {} # map with default value of Infinity
-# 	gScore[key] = countAceCards start
-
-# 	fScore = {} #map with default value of Infinity
-# 	fScore[key] = heuristic_cost_estimate start
-
-# 	#while 0 < _.size openSet 
-# 	for i in range 1000
-# 		print ''
-# 		currentKey = openSet.pop() # the node in openSet having the lowest fScore[] value
-# 		print 'A',currentKey,openSet.length,fScore[currentKey]
-# 		current = readBoard currentKey
-# 		if 52 == countAceCards current then return reconstruct_path cameFrom, currentKey
-# 		closedSet.push currentKey
-
-# 		for neighbor in neighbors current
-# 			neighborKey = dumpBoard neighbor 
-# 			if neighborKey in closedSet then continue # Ignore the neighbor which is already evaluated.
-
-# 			tentative_gScore = gScore[currentKey] + dist_between current, neighbor
-
-# 			if neighbor not in openSet	# Discover a new node
-# 				openSet.push neighborKey
-# 			else if tentative_gScore >= gScore[neighbor] then continue # This is not a better path.
-
-# 			# This path is the best until now. Record it!
-# 			cameFrom[neighborKey] = currentKey
-# 			gScore[neighborKey] = tentative_gScore
-# 			fScore[neighborKey] = gScore[neighborKey] + heuristic_cost_estimate neighbor
-# 			print 'B',neighborKey,gScore[neighborKey],fScore[neighborKey]
-
-# 		openSet.sort (a,b) -> fScore[a] - fScore[b]
