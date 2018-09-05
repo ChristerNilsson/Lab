@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "twine.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\twine.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;IAAA;;AAAA,SAAS;;AACT,QAAQ;;AAER,SAAS;;AACT,OAAO,AAJP;;AAMA,IAAI,WAAC,AAAD;SAAS,AAAI,KAAC,AAAL,KAAU,EAAC,AAAD,AAAV,AAAT;;;AACJ,SAAS,gBAAC,AAAD;MAAM,0EAAI,AAAV;;SAAiB,AAAI,KAAC,AAAL,KAAU,EAAC,AAAD,YAAM,AAAN,AAAV,AAAjB;;;AACT,UAAU,iBAAC,AAAD;SAAS,AAAO,OAAA,AAAP,AAAT;;;AACV,OAAO,cAAC,AAAD;SAAS,QAAQ,AAAR,AAAT;;;AACP,OAAO,cAAC,AAAD,GAAG,AAAH;SAAS,IAAI,IAAI,OAAO,IAAE,AAAT,AAAR,AAAT;;;AAEP,QAAQ;AACP,eAAa,AAAb,KAAiB,AAAjB;AACA,WAAS,AAAT;SACA,AAAM,OAAC,AAAP,AAHO;;;AAKR,OAAO,gBACN;MAAA,GAAA,MAAA,GAAA,KAAA,SAAA;AAAA,KAAG,AAAH,AACA;;AAAA,OAAA,6CAAA;;AACC,QAAG,UAAU,AAAb;;AACC,UAAI,AAAI,KAAC;AACT,UAAG,MAAK,AAAR;AAAgB,YAAI,AAAI,KAAC,AAAzB;;AACA,SAAG,AAAH,GAAK,AAAL,GAAO,AAAP;mBACA,KAAK,AAAL,GAAO,AAAP,IAAU,KAAG,KAAG,AAAhB,AAJD;AAAA,WAAA;AAMC,SAAG,AAAH;mBACA,KAAK,AAAI,KAAC,AAAV,KAAc,AAAd,IAAiB,KAAG,KAAG,AAAvB,AAPD;AADD;AAAA;SAFM;;;AAYP,eAAe,wBACd;MAAA,GAAA,MAAA,GAAA;AAAA,OAAA,6CAAA;;AACC,QAAG,aAAU,AAAC,EAAC,AAAF,KAAO,AAAP,AAAV,OAAA,WAAH;AACC,AAAG,UAAA,KAAG,AAAH,IAAO,AAAP,UAAO,AAAP,SAAgB,KAAG,KAAG,AAAtB,AAAH;AACC,eAAO;AACP,AAAO,eAAA,AAAI,KAAC,AAAL,AAAP,AAFD;AADD;AADD;;SAKA,MAAM,AAAI,KAAC,AAAL,UAAe,AAAf,AAAN,AANc",
+  "sourcesContent": [
+    "person = {}\r\nenemy = {}\r\n\r\nevents = {}\r\ndata = [] # texts and buttons\r\n\r\nt = (txt) -> data.push {txt}\r\nbutton = (name,txt='') -> data.push {name,txt} \r\ndisplay = (txt) -> events[txt]()\r\ngoto = (loc) -> display loc\r\nrand = (a,b) -> int a + random b-a\r\n\r\nsetup = ->\r\n\tcreateCanvas 600,600\r\n\ttextSize 16\r\n\tevents.Start()\r\n\r\ndraw = ->\r\n\tbg 0.75\r\n\tfor item,i in data\r\n\t\tif 'name' of item # button\r\n\t\t\ts = item.txt\r\n\t\t\tif s == '' then s = item.name\r\n\t\t\tfc 0,0,1\r\n\t\t\ttext s,20,20+20*i\r\n\t\telse # text\r\n\t\t\tfc 0\r\n\t\t\ttext item.txt,20,20+20*i\r\n\r\nmousePressed = ->\r\n\tfor item,i in data \r\n\t\tif 'name' in _.keys item \r\n\t\t\tif 20*i < mouseY < 20+20*i\r\n\t\t\t\tdata = []\r\n\t\t\t\tevents[item.name]()\r\n\tprint JSON.stringify person\r\n"
+  ]
+}
