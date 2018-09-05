@@ -15,9 +15,9 @@ Menyn nås genom att klicka på den gröna bakgrunden eller något av essen.
 * Restart. Ångrar alla drag
 * Easier. Går till en lättare nivå
 * Harder. Går till en svårare nivå
-* Hint. Ger en ledtråd. Se röd/grön indikator. Talet visar antalet Hints som utförts.
+* Hint. Ger en ledtråd. Se röd/grön indikator. Talet visar antalet Hints som utförts
   * Prova även att göra en Restart innan du klickar på Hint. Då slipper du eventuella Undo.
-* Link. Sparar en länk till aktuell patiens till klippbordet. Ej klar
+* Link. Sparar en länk till aktuell patiens till klippbordet
 
 # Nivåer 
 Classic innebär att sekvenserna är lika långa.

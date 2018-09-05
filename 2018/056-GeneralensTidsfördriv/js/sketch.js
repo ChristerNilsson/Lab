@@ -49,8 +49,10 @@ var ACES,
     cards,
     compress,
     compressOne,
+    copyToClipboard,
     countAceCards,
     countPanelCards,
+    currentSeed,
     display,
     dsts,
     dumpBoard,
@@ -58,6 +60,7 @@ var ACES,
     faces,
     fakeBoard,
     findAllMoves,
+    getParameters,
     h,
     handle,
     hash,
@@ -71,12 +74,15 @@ var ACES,
     legalMove,
     level,
     makeBoard,
+    makeLink,
     makeMove,
     maxLevel,
     maxMoves,
     menu1,
     mousePressed,
     msg,
+    myRandom,
+    myShuffle,
     newGame,
     nextLevel,
     oneClick,
@@ -94,6 +100,7 @@ var ACES,
     range,
     readBoard,
     restart,
+    seed,
     setup,
     showDialogue,
     showHeap,
@@ -175,6 +182,10 @@ oneClickData = {
 
 indicators = {}; // färgmarkering av senaste undo eller hint. [color,hollow]
 
+seed = 1; // seed for random numbers
+
+currentSeed = null;
+
 level = 0;
 
 maxLevel = 0;
@@ -189,6 +200,71 @@ assert = function assert(a, b) {
   var msg = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'Assert failure';
 
   return chai.assert.deepEqual(a, b, msg);
+};
+
+getParameters = function getParameters() {
+  var h = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : window.location.href;
+
+  var arr, f, s;
+  h = decodeURI(h);
+  arr = h.split('?');
+  if (arr.length !== 2) {
+    return {};
+  }
+  s = arr[1];
+  if (s === '') {
+    return {};
+  }
+  return _.fromPairs(function () {
+    var l, len, ref, results;
+    ref = s.split('&');
+    results = [];
+    for (l = 0, len = ref.length; l < len; l++) {
+      f = ref[l];
+      results.push(f.split('='));
+    }
+    return results;
+  }());
+};
+
+myRandom = function myRandom(a, b) {
+  var r, x;
+  x = 10000 * Math.sin(seed++);
+  r = x - Math.floor(x);
+  return a + Math.floor((b - a) * r);
+};
+
+myShuffle = function myShuffle(array) {
+  var i, j, l, len, n, ref, results, value;
+  n = array.length;
+  ref = range(n);
+  results = [];
+  for (l = 0, len = ref.length; l < len; l++) {
+    i = ref[l];
+    j = myRandom(i, n);
+    value = array[i];
+    array[i] = array[j];
+    results.push(array[j] = value);
+  }
+  return results;
+};
+
+copyToClipboard = function copyToClipboard(txt) {
+  var copyText;
+  copyText = document.getElementById("myClipboard");
+  copyText.value = txt;
+  copyText.select();
+  return document.execCommand("copy");
+};
+
+makeLink = function makeLink() {
+  var index, url;
+  url = window.location.href + '?';
+  index = url.indexOf('?');
+  url = url.substring(0, index);
+  url += '?seed=' + currentSeed;
+  url += '&level=' + level;
+  return url;
 };
 
 showIndicator = function showIndicator(heap, x, y) {
@@ -261,23 +337,23 @@ assert([1, 10, 10], unpack('hJ'));
 
 //print 'unpack ok'
 compress = function compress(board) {
-  var heap, j, len, results;
+  var heap, l, len, results;
   results = [];
-  for (j = 0, len = HEAPS.length; j < len; j++) {
-    heap = HEAPS[j];
+  for (l = 0, len = HEAPS.length; l < len; l++) {
+    heap = HEAPS[l];
     results.push(board[heap] = compressOne(board[heap]));
   }
   return results;
 };
 
 compressOne = function compressOne(cards) {
-  var i, j, len, over1, over2, ref, ref1, res, suit1, suit2, temp, under1, under2;
+  var i, l, len, over1, over2, ref, ref1, res, suit1, suit2, temp, under1, under2;
   if (cards.length > 1) {
     res = [];
     temp = cards[0];
     ref = range(1, cards.length);
-    for (j = 0, len = ref.length; j < len; j++) {
-      i = ref[j];
+    for (l = 0, len = ref.length; l < len; l++) {
+      i = ref[l];
 
       // understa
       var _unpack = unpack(temp);
@@ -328,10 +404,10 @@ assert(['cA2', 'h34', 'c56'], compressOne(['cA2', 'h34', 'c56']));
 
 //print 'compressOne ok'
 calcAntal = function calcAntal(lst) {
-  var card, j, len, over, res, suit, under;
+  var card, l, len, over, res, suit, under;
   res = 0;
-  for (j = 0, len = lst.length; j < len; j++) {
-    card = lst[j];
+  for (l = 0, len = lst.length; l < len; l++) {
+    card = lst[l];
 
     var _unpack5 = unpack(card);
 
@@ -347,20 +423,20 @@ calcAntal = function calcAntal(lst) {
 };
 
 countAceCards = function countAceCards(b) {
-  var heap, j, len, res;
+  var heap, l, len, res;
   res = 0;
-  for (j = 0, len = ACES.length; j < len; j++) {
-    heap = ACES[j];
+  for (l = 0, len = ACES.length; l < len; l++) {
+    heap = ACES[l];
     res += calcAntal(b[heap]);
   }
   return res;
 };
 
 countPanelCards = function countPanelCards(b) {
-  var heap, j, len, res;
+  var heap, l, len, res;
   res = 0;
-  for (j = 0, len = PANEL.length; j < len; j++) {
-    heap = PANEL[j];
+  for (l = 0, len = PANEL.length; l < len; l++) {
+    heap = PANEL[l];
     res += b[heap].length;
   }
   return res;
@@ -369,10 +445,10 @@ countPanelCards = function countPanelCards(b) {
 dumpBoard = function dumpBoard(board) {
   var heap;
   return function () {
-    var j, len, results;
+    var l, len, results;
     results = [];
-    for (j = 0, len = board.length; j < len; j++) {
-      heap = board[j];
+    for (l = 0, len = board.length; l < len; l++) {
+      heap = board[l];
       results.push(heap.join(' '));
     }
     return results;
@@ -380,51 +456,52 @@ dumpBoard = function dumpBoard(board) {
 };
 
 makeBoard = function makeBoard(lvl) {
-  var card, classic, heap, i, j, l, len, len1, len2, len3, len4, len5, m, o, p, q, rank, ref, ref1, ref2, ref3, suit, zz;
+  var card, classic, heap, i, l, len, len1, len2, len3, len4, len5, m, o, p, q, rank, ref, ref1, ref2, ref3, suit, t, zz;
   N = [3, 4, 5, 5, 6, 7, 7, 8, 9, 9, 10, 11, 11, 12, 13, 13][lvl];
   classic = lvl % 3 === 0;
   //N = maxRank
   cards = [];
   ref = range(4);
-  for (j = 0, len = ref.length; j < len; j++) {
-    suit = ref[j];
+  for (l = 0, len = ref.length; l < len; l++) {
+    suit = ref[l];
     ref1 = range(1, N);
     // 2..K
-    for (l = 0, len1 = ref1.length; l < len1; l++) {
-      rank = ref1[l];
+    for (m = 0, len1 = ref1.length; m < len1; m++) {
+      rank = ref1[m];
       cards.push(pack(suit, rank, rank));
     }
   }
-  cards = _.shuffle(cards);
+  currentSeed = seed;
+  myShuffle(cards);
   board = [];
   ref2 = range(20);
-  for (m = 0, len2 = ref2.length; m < len2; m++) {
-    i = ref2[m];
+  for (o = 0, len2 = ref2.length; o < len2; o++) {
+    i = ref2[o];
     board.push([]);
   }
   ref3 = range(4);
-  for (heap = o = 0, len3 = ref3.length; o < len3; heap = ++o) {
+  for (heap = p = 0, len3 = ref3.length; p < len3; heap = ++p) {
     suit = ref3[heap];
     board[heap].push(pack(suit, 0, 0)); // Ess
   }
-  for (p = 0, len4 = PANEL.length; p < len4; p++) {
-    heap = PANEL[p];
+  for (q = 0, len4 = PANEL.length; q < len4; q++) {
+    heap = PANEL[q];
     board[heap].push(cards.pop());
   }
-  for (i = q = 0, len5 = cards.length; q < len5; i = ++q) {
+  for (i = t = 0, len5 = cards.length; t < len5; i = ++t) {
     card = cards[i];
-    zz = classic ? 4 + i % SEQS : int(random(4, 4 + SEQS));
+    zz = classic ? 4 + i % SEQS : myRandom(4, 4 + SEQS);
     board[zz].push(card);
   }
   return compress(board);
 };
 
 readBoard = function readBoard(b) {
-  var heap, j, len, ref, results;
+  var heap, l, len, ref, results;
   ref = b.split('|');
   results = [];
-  for (j = 0, len = ref.length; j < len; j++) {
-    heap = ref[j];
+  for (l = 0, len = ref.length; l < len; l++) {
+    heap = ref[l];
     results.push(heap === '' ? [] : heap.split(' '));
   }
   return results;
@@ -460,8 +537,10 @@ fakeBoard = function fakeBoard() {
 };
 
 setup = function setup() {
-  print('X');
-  createCanvas(innerWidth, innerHeight - 0.5);
+  var canvas, params;
+  print('Y');
+  canvas = createCanvas(innerWidth, innerHeight - 0.5);
+  canvas.position(0, 0); // hides text field used for clipboard copy.
   w = width / 9;
   h = height / 4;
   angleMode(DEGREES);
@@ -478,7 +557,16 @@ setup = function setup() {
     maxLevel = _maxLevel$level.maxLevel;
     level = _maxLevel$level.level;
   }
-  print(maxLevel, level);
+  params = getParameters();
+  if ('seed' in params) {
+    seed = parseInt(params.seed);
+  } else {
+    seed = int(random(10000));
+  }
+  if ('level' in params) {
+    level = parseInt(params.level);
+  }
+  level = constrain(level, 0, maxLevel);
   newGame(level);
   return display(board);
 };
@@ -521,7 +609,13 @@ menu1 = function menu1() {
     hint();
     return dialogues.pop();
   });
-  dialogue.buttons[2].info('Link');
+  dialogue.buttons[2].info('Link', function () {
+    var link;
+    link = makeLink();
+    copyToClipboard(link);
+    msg = 'Link copied to clipboard';
+    return dialogues.pop();
+  });
   dialogue.buttons[3].info('Harder', function () {
     level = constrain(level + 1, 0, maxLevel);
     newGame(level);
@@ -544,13 +638,13 @@ menu1 = function menu1() {
 
 showHeap = function showHeap(board, heap, x, y, dy) {
   // dy kan vara både pos och neg
-  var card, dr, j, k, l, len, len1, n, over, rank, ref, ref1, suit, under;
+  var card, dr, k, l, len, len1, m, n, over, rank, ref, ref1, suit, under;
   n = calcAntal(board[heap]);
   x = x * w;
   if (n > 0) {
     y = y * h + y * dy;
     ref = board[heap];
-    for (k = j = 0, len = ref.length; j < len; k = ++j) {
+    for (k = l = 0, len = ref.length; l < len; k = ++l) {
       card = ref[k];
 
       var _unpack7 = unpack(card);
@@ -563,8 +657,8 @@ showHeap = function showHeap(board, heap, x, y, dy) {
 
       dr = under < over ? 1 : -1;
       ref1 = range(under, over + dr, dr);
-      for (l = 0, len1 = ref1.length; l < len1; l++) {
-        rank = ref1[l];
+      for (m = 0, len1 = ref1.length; m < len1; m++) {
+        rank = ref1[m];
         noFill();
         stroke(0);
         image(faces, x, y, w, h * 1.1, OFFSETX + W * rank, 1092 + H * suit, 225, H - 1);
@@ -590,7 +684,7 @@ showHeap = function showHeap(board, heap, x, y, dy) {
 };
 
 display = function display(board) {
-  var dy, heap, j, l, len, len1, len2, m, n, x, y;
+  var dy, heap, l, len, len1, len2, m, n, o, x, y;
   background(0, 128, 0);
   textAlign(LEFT, BOTTOM);
   fill(64);
@@ -601,17 +695,17 @@ display = function display(board) {
   textAlign(RIGHT, BOTTOM);
   text("Level: " + level, 7.95 * w, 3 * h);
   textAlign(CENTER, TOP);
-  for (y = j = 0, len = ACES.length; j < len; y = ++j) {
+  for (y = l = 0, len = ACES.length; l < len; y = ++l) {
     heap = ACES[y];
     showHeap(board, heap, 8, y, 0);
   }
-  for (x = l = 0, len1 = HEAPS.length; l < len1; x = ++l) {
+  for (x = m = 0, len1 = HEAPS.length; m < len1; x = ++m) {
     heap = HEAPS[x];
     n = calcAntal(board[heap]);
     dy = n === 0 ? 0 : min(h / 4, 2 * h / (n - 1));
     showHeap(board, heap, x, 0, dy);
   }
-  for (x = m = 0, len2 = PANEL.length; m < len2; x = ++m) {
+  for (x = o = 0, len2 = PANEL.length; o < len2; x = ++o) {
     heap = PANEL[x];
     showHeap(board, heap, x, 3, 0);
   }
@@ -762,7 +856,7 @@ prettyUndoMove = function prettyUndoMove(src, dst, b, antal) {
 oneClick = function oneClick(data, marked, board) {
   var sharp = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
 
-  var alternativeDsts, found, heap, holes, j, l, len, len1, ref;
+  var alternativeDsts, found, heap, holes, l, len, len1, m, ref;
   if (_.isEqual(data.lastMarked, marked)) {
     data.counter++;
   } else {
@@ -770,8 +864,8 @@ oneClick = function oneClick(data, marked, board) {
   }
   holes = [];
   found = false;
-  for (j = 0, len = ACES.length; j < len; j++) {
-    heap = ACES[j];
+  for (l = 0, len = ACES.length; l < len; l++) {
+    heap = ACES[l];
     if (legalMove(board, marked[0], heap)) {
       if (sharp) {
         makeMove(board, marked[0], heap, true);
@@ -783,8 +877,8 @@ oneClick = function oneClick(data, marked, board) {
   if (!found) {
     // Går ej att flytta till något ess. 
     alternativeDsts = []; // för att kunna välja mellan flera via Undo
-    for (l = 0, len1 = HEAPS.length; l < len1; l++) {
-      heap = HEAPS[l];
+    for (m = 0, len1 = HEAPS.length; m < len1; m++) {
+      heap = HEAPS[m];
       if (board[heap].length === 0) {
         if ((ref = marked[0], indexOf.call(PANEL, ref) >= 0) || calcAntal(board[marked[0]]) > 1) {
           holes.push(heap);
@@ -961,13 +1055,10 @@ hitGreen = function hitGreen(mx, my, mouseX, mouseY) {
     return false;
   }
   seqs = board[mx + 4];
-  print(seqs);
   n = calcAntal(seqs);
   if (n === 0) {
     return true;
   }
-  // dy = min h/4,2*h/(n-1)
-  print(mouseY, mx, mx + 4, h, n, h * (1 + 1 / 4 * (n - 1)), mouseY > h * (1 + 1 / 4 * (n - 1)));
   return mouseY > h * (1 + 1 / 4 * (n - 1));
 };
 
@@ -983,10 +1074,8 @@ mousePressed = function mousePressed() {
   my = Math.floor(mouseY / h);
   dialogue = _.last(dialogues);
   if (dialogues.length === 0 || !dialogue.execute(mouseX, mouseY)) {
-    print('A');
     indicators = {};
     if (mx === 8 || hitGreen(mx, my, mouseX, mouseY)) {
-      print('B');
       if (dialogues.length === 0) {
         menu1();
       } else {
@@ -997,7 +1086,6 @@ mousePressed = function mousePressed() {
     }
     handle(mx, my);
   }
-  print('C', hist.length + " of " + maxMoves + " moves");
   return display(board);
 };
 
@@ -1025,7 +1113,6 @@ handle = function handle(mx, my) {
       }
       maxLevel = constrain(maxLevel, 0, 15);
       localStorage.Generalen = JSON.stringify({ maxLevel: maxLevel, level: level });
-      print(localStorage.Generalen);
     } else {
       msg = "Hints used: " + hintsUsed;
     }
@@ -1035,16 +1122,23 @@ handle = function handle(mx, my) {
 
 //###### AI-section ########
 findAllMoves = function findAllMoves(b) {
-  var dst, j, l, len, len1, res, src;
+  var dst, holeUsed, l, len, len1, m, res, src;
   srcs = HEAPS.concat(PANEL);
   dsts = ACES.concat(HEAPS);
   res = [];
-  for (j = 0, len = srcs.length; j < len; j++) {
-    src = srcs[j];
-    for (l = 0, len1 = dsts.length; l < len1; l++) {
-      dst = dsts[l];
+  for (l = 0, len = srcs.length; l < len; l++) {
+    src = srcs[l];
+    holeUsed = false;
+    for (m = 0, len1 = dsts.length; m < len1; m++) {
+      dst = dsts[m];
       if (src !== dst) {
         if (legalMove(b, src, dst)) {
+          if (b[dst].length === 0) {
+            if (holeUsed) {
+              continue;
+            }
+            holeUsed = true;
+          }
           res.push([src, dst]);
         }
       }
@@ -1060,11 +1154,11 @@ expand = function expand(_ref3) {
       b = _ref4[2],
       path = _ref4[3];
 
-  var dst, j, key, len, move, moves, newPath, res, src;
+  var dst, key, l, len, move, moves, newPath, res, src;
   res = [];
   moves = findAllMoves(b);
-  for (j = 0, len = moves.length; j < len; j++) {
-    move = moves[j];
+  for (l = 0, len = moves.length; l < len; l++) {
+    move = moves[l];
     var _move = move;
 
     var _move2 = _slicedToArray(_move, 2);
@@ -1195,15 +1289,16 @@ newGame = function newGame(lvl) {
         }
       });
     }
+    print(nr, cands.length);
     if (aceCards === N * 4) {
       print(JSON.stringify(dumpBoard(originalBoard)));
       board = cand[2];
+      print(makeLink());
       printAutomaticSolution(hash, board);
       board = _.cloneDeep(originalBoard);
       print(int(millis() - start) + " ms");
       start = millis();
       maxMoves = int(cand[1]);
-      print('maxMoves', maxMoves);
       return;
     }
   }
@@ -1299,7 +1394,7 @@ prettyMove = function prettyMove(src, dst, b) {
 };
 
 printAutomaticSolution = function printAutomaticSolution(hash, b) {
-  var dst, index, j, key, len, path, s, solution, src;
+  var dst, index, key, l, len, path, s, solution, src;
   key = dumpBoard(b);
   solution = [];
   while (key in hash) {
@@ -1313,7 +1408,7 @@ printAutomaticSolution = function printAutomaticSolution(hash, b) {
   }
   solution.reverse();
   s = 'Automatic Solution:';
-  for (index = j = 0, len = solution.length; j < len; index = ++j) {
+  for (index = l = 0, len = solution.length; l < len; index = ++l) {
     var _solution$index = _slicedToArray(solution[index], 2);
 
     path = _solution$index[0];
@@ -1332,10 +1427,10 @@ printAutomaticSolution = function printAutomaticSolution(hash, b) {
 };
 
 printManualSolution = function printManualSolution() {
-  var antal, b, dst, index, j, len, s, src;
+  var antal, b, dst, index, l, len, s, src;
   b = _.cloneDeep(originalBoard);
   s = 'Manual Solution:';
-  for (index = j = 0, len = hist.length; j < len; index = ++j) {
+  for (index = l = 0, len = hist.length; l < len; index = ++l) {
     var _hist$index = _slicedToArray(hist[index], 3);
 
     src = _hist$index[0];

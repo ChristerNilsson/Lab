@@ -59,6 +59,8 @@ dsts = null
 hintsUsed = null
 oneClickData = {lastMarked:-1, counter:0}
 indicators = {} # färgmarkering av senaste undo eller hint. [color,hollow]
+seed = 1 # seed for random numbers
+currentSeed = null
 
 level = 0
 maxLevel = 0
@@ -67,6 +69,41 @@ maxMoves = null
 print = console.log
 range = _.range
 assert = (a, b, msg='Assert failure') -> chai.assert.deepEqual a, b, msg
+
+getParameters = (h = window.location.href) -> 
+	h = decodeURI h
+	arr = h.split '?'
+	if arr.length != 2 then return {}
+	s = arr[1]
+	if s=='' then return {}
+	_.fromPairs (f.split '=' for f in s.split('&'))
+
+myRandom = (a,b) -> 
+	x = 10000 * Math.sin seed++
+	r = x - Math.floor x
+	a + Math.floor (b-a) * r
+
+myShuffle = (array) ->
+	n = array.length 
+	for i in range n
+		j = myRandom i, n
+		value = array[i]
+		array[i] = array[j]
+		array[j] = value
+
+copyToClipboard = (txt) ->
+	copyText = document.getElementById "myClipboard"
+	copyText.value = txt 
+	copyText.select()
+	document.execCommand "copy"
+
+makeLink = -> 
+	url = window.location.href + '?'
+	index = url.indexOf '?'
+	url = url.substring 0,index
+	url += '?seed=' + currentSeed
+	url += '&level=' + level
+	url
 
 showIndicator = (heap,x,y)->
 	x0 = x + w/2
@@ -171,7 +208,9 @@ makeBoard = (lvl)->
 	for suit in range 4
 		for rank in range 1,N # 2..K
 			cards.push pack suit,rank,rank 
-	cards = _.shuffle cards
+
+	currentSeed = seed
+	myShuffle cards
 
 	board = []
 	for i in range 20
@@ -184,7 +223,7 @@ makeBoard = (lvl)->
 		board[heap].push cards.pop()
 
 	for card,i in cards
-		zz = if classic then 4+i%SEQS else int random 4,4+SEQS
+		zz = if classic then 4+i%SEQS else myRandom 4,4+SEQS
 		board[zz].push card
 
 	compress board
@@ -205,8 +244,10 @@ fakeBoard = ->
 	print board
 
 setup = ->
-	print 'X'
-	createCanvas innerWidth, innerHeight-0.5
+	print 'Y'
+	canvas = createCanvas innerWidth, innerHeight-0.5
+	canvas.position 0,0 # hides text field used for clipboard copy.
+
 	w = width/9 
 	h = height/4 
 	angleMode DEGREES
@@ -216,7 +257,10 @@ setup = ->
 	else
 		{maxLevel,level} = {maxLevel:0, level:0} 
 
-	print maxLevel,level
+	params = getParameters()
+	if 'seed' of params then seed = parseInt params.seed else seed = int random 10000
+	if 'level' of params then level = parseInt params.level
+	level = constrain level,0,maxLevel
 
 	newGame level
 	display board 
@@ -250,7 +294,11 @@ menu1 = ->
 		hint()
 		dialogues.pop()
 
-	dialogue.buttons[2].info 'Link'
+	dialogue.buttons[2].info 'Link', ->
+		link = makeLink()
+		copyToClipboard link		
+		msg = 'Link copied to clipboard'
+		dialogues.pop()
 
 	dialogue.buttons[3].info 'Harder', -> 
 		level = constrain level+1,0,maxLevel
@@ -453,12 +501,8 @@ b2 = readBoard "cA|hA|sA|dA|d5 h2 d3 h3|c7|c34|d4 h76|||s3 d6 c6|d7 c5 d2|c2|s4|
 hitGreen = (mx,my,mouseX,mouseY) ->
 	if my==3 then return false
 	seqs = board[mx+4]
-	print seqs
 	n = calcAntal seqs
 	if n==0 then return true
-
-	# dy = min h/4,2*h/(n-1)
-	print mouseY, mx, mx+4, h, n, h*(1+1/4*(n-1)), mouseY > h*(1+1/4*(n-1))
 	mouseY > h*(1+1/4*(n-1))
 
 mousePressed = -> 
@@ -471,18 +515,15 @@ mousePressed = ->
 
 	dialogue = _.last dialogues
 	if dialogues.length==0 or not dialogue.execute mouseX,mouseY 
-		print 'A'
 		indicators = {}
 
 		if mx == 8 or hitGreen mx,my,mouseX,mouseY 
-			print 'B'
 			if dialogues.length == 0 then menu1() else dialogues.pop()
 			display board
 			return
 
 		handle mx,my
 
-	print 'C',"#{hist.length} of #{maxMoves} moves"
 	display board
 
 handle = (mx,my) ->
@@ -501,7 +542,6 @@ handle = (mx,my) ->
 			if level == maxLevel then maxLevel++ 
 			maxLevel = constrain maxLevel,0,15
 			localStorage.Generalen = JSON.stringify {maxLevel,level}
-			print localStorage.Generalen
 		else
 			msg = "Hints used: #{hintsUsed}"
 		printManualSolution()
@@ -513,9 +553,13 @@ findAllMoves = (b) ->
 	dsts = ACES.concat HEAPS 
 	res = []
 	for src in srcs
+		holeUsed = false
 		for dst in dsts
 			if src != dst
 				if legalMove b,src,dst
+					if b[dst].length==0
+						if holeUsed then continue
+						holeUsed=true
 					res.push [src,dst]
 	res
 
@@ -599,7 +643,7 @@ newGame = (lvl) -> # 0..15
 		cands.push [aceCards,0,board,[]] # antal kort på ässen, antal drag, board
 		hash = {}
 		nr = 0
-		cand = null
+		cand = null		
 
 		while nr < LIMIT and cands.length > 0 and aceCards < N*4
 			nr++ 
@@ -609,15 +653,16 @@ newGame = (lvl) -> # 0..15
 			cands = cands.concat increment
 			cands.sort (a,b) -> if a[0] == b[0] then b[1]-a[1] else a[0]-b[0]
 
+		print nr,cands.length
 		if aceCards == N*4
 			print JSON.stringify dumpBoard originalBoard 
 			board = cand[2]
+			print makeLink()
 			printAutomaticSolution hash,board
 			board = _.cloneDeep originalBoard
 			print "#{int millis()-start} ms"
 			start = millis()
-			maxMoves = int cand[1] # * 1.1 # +10%
-			print 'maxMoves',maxMoves
+			maxMoves = int cand[1] 
 			return 
 
 restart = ->
