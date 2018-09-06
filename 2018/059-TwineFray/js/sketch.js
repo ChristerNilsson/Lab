@@ -8,8 +8,8 @@ POTION = 10;
 SWORD = 50;
 
 events.Start = function () {
-  t("Valhalla V: Odin's Revenge");
-  t("by Mr. Riley");
+  Black("Valhalla V: Odin's Revenge");
+  Black("by Mr. Riley");
   button("Town", "CLICK HERE TO START");
   person.health = 100;
   person.sword = 0;
@@ -19,8 +19,8 @@ events.Start = function () {
 };
 
 events.Town = function () {
-  t("You are standing in the middle of town.");
-  t("Where do you want to go?");
+  Black("You are standing in the middle of town.");
+  Black("Where do you want to go?");
   button("Market");
   button("Castle");
   button("Graveyard");
@@ -31,12 +31,12 @@ events.Market = function () {
   if (person.coins >= POTION) {
     button("Potion", "Buy A Healing Potion For " + POTION + " Coins");
   } else {
-    t("Healing potions cost " + POTION + ", but you only have " + person.coins);
+    Black("Healing potions cost " + POTION + ", but you only have " + person.coins);
   }
   if (person.coins >= SWORD) {
     button("Sword", "Buy A Sword For " + SWORD + " Coins");
   } else {
-    t("Swords cost " + SWORD + ", but you only have " + person.coins);
+    Black("Swords cost " + SWORD + ", but you only have " + person.coins);
   }
   return button("Town", "Return to Town");
 };
@@ -44,20 +44,20 @@ events.Market = function () {
 events.Potion = function () {
   person.health += POTION;
   person.coins -= POTION;
-  t("+10 health!");
-  t("You now have " + person.health + " health!");
-  t("-10 coins.");
-  t("You now have " + person.coins + " coins");
+  Yellow("+10 health!");
+  Black("You now have " + person.health + " health!");
+  Red("-10 coins.");
+  Black("You now have " + person.coins + " coins");
   return display("Market");
 };
 
 events.Sword = function () {
   person.sword++;
   person.coins -= SWORD;
-  t("+1 sword!");
-  t("You now have a Level " + person.sword + " sword!");
-  t("-" + SWORD + " coins.");
-  t("You now have " + person.coins + " coins.");
+  Green("+1 sword!");
+  Black("You now have a Level " + person.sword + " sword!");
+  Red("-" + SWORD + " coins.");
+  Black("You now have " + person.coins + " coins.");
   return display("Market");
 };
 
@@ -74,21 +74,21 @@ events.Farm = function () {
 };
 
 place = function place(name) {
-  if (1 === rand(1, 5)) {
+  if (1 === rand(1, 2)) {
     person.location = name;
     return display('fightEnemy');
   } else {
-    t("The " + name + " looks empty... for now. Check later.");
+    Black("The " + name + " looks empty... for now. Check later.");
     return button("Town", "Go back to Town");
   }
 };
 
 events.fightEnemy = function () {
-  t("You are at the " + person.location);
+  //Black "You are at the #{person.location}"
   enemy.name = _.sample(["Giant Spider", "Zombie", "Ghost", "Pizza Rat"]);
-  t("A " + enemy.name + " crawls out of the shadows!");
-  enemy.health = rand(20, 40) + person.points * .1;
-  enemy.punch = rand(1, 10);
+  Black("A " + enemy.name + " crawls out of the shadows!");
+  enemy.health = 0.1 * person.points + rand(20, 40);
+  enemy.punch = rand(1, 9);
   enemy.kick = 10 - enemy.punch;
   return display('enemyHitsYou');
 };
@@ -97,22 +97,22 @@ events.enemyHitsYou = function () {
   var randomCoins;
   if (enemy.health > 0) {
     enemy.hit = rand(1, 3) + rand(1, 3);
-    t("The " + enemy.name + " ATTACKS YOU! " + -enemy.hit);
+    Red("The " + enemy.name + " ATTACKS YOU! " + -enemy.hit);
     person.health -= enemy.hit;
     person.points += enemy.hit;
-    t("You have " + person.health + " health");
+    Yellow("You have " + person.health + " health");
     if (person.health > 0) {
       return display('useWeapon');
     } else {
       return display('youDied');
     }
   } else {
-    t("You have defeated the " + enemy.name + ". +10 pts!");
+    Black("You have defeated the " + enemy.name + ". +10 pts!");
     person.points += 10;
     randomCoins = rand(25, 50);
     person.coins += randomCoins;
-    t("+" + randomCoins + " coins! You now have " + person.coins + " coins");
-    t("You have " + person.health + " health");
+    Black("+" + randomCoins + " coins! You now have " + person.coins + " coins");
+    Yellow("You have " + person.health + " health");
     return button("Continue");
   }
 };
@@ -144,11 +144,11 @@ helper = function helper(value, txt) {
   var hit;
   hit = value + rand(1, 6);
   if (1 === rand(1, 8)) {
-    t("You tried to " + txt + " it but you missed!");
+    Black("You tried to " + txt + " it but you missed!");
   } else {
     enemy.health -= hit;
     person.points += hit;
-    t("You " + txt + " the " + enemy.name + "! " + -hit);
+    Black("You " + txt + " the " + enemy.name + "! " + -hit);
   }
   return display('enemyHitsYou');
 };
@@ -157,19 +157,19 @@ events.useSword = function () {
   var hit;
   hit = 10 + rand(1, 6) + rand(1, 6);
   if (rand(1, 10) === 1) {
-    t("You tried to SLASH it with your sword but you missed!");
+    Black("You tried to SLASH it with your sword but you missed!");
   } else {
     enemy.health -= hit;
     person.points += hit;
-    t("You SLASH the " + enemy.name + " with your sword! " + hit);
+    Black("You SLASH the " + enemy.name + " with your sword! " + hit);
   }
   return display('enemyHitsYou');
 };
 
 events.youDied = function () {
-  t("You died!");
-  t("GAME OVER");
+  Red("You died!");
+  Black("GAME OVER");
   person.points += person.coins;
-  return t("Final Score: " + person.points);
+  return Black("Final Score: " + person.points);
 };
 //# sourceMappingURL=sketch.js.map

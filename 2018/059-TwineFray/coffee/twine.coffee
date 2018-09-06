@@ -4,7 +4,11 @@ enemy = {}
 events = {}
 data = [] # texts and buttons
 
-t = (txt) -> data.push {txt}
+Black  = (txt) -> t txt,0,0,0
+Green  = (txt) -> t txt,0,1,0
+Red    = (txt) -> t txt,1,0,0
+Yellow = (txt) -> t txt,1,1,0
+t = (txt,r,g,b) -> data.push {txt,r,g,b}
 button = (name,txt='') -> data.push {name,txt} 
 display = (txt) -> events[txt]()
 goto = (loc) -> display loc
@@ -24,8 +28,9 @@ draw = ->
 			fc 0,0,1
 			text s,20,20+20*i
 		else # text
-			fc 0
-			text item.txt,20,20+20*i
+			{txt,r,g,b} = item
+			fc r,g,b
+			text txt,20,20+20*i
 
 mousePressed = ->
 	for item,i in data 
