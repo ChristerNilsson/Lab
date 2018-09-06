@@ -594,7 +594,12 @@ hintOne = ->
 	if aceCards == N*4 then return true
 	cands = []
 	cands.push [aceCards,hist.length,board,[]] # antal kort på ässen, antal drag, board
+
 	hash = {}
+	key = dumpBoard board
+	path = []
+	hash[key] = [path, board]
+
 	nr = 0
 	cand = null
 	origBoard = _.cloneDeep board
@@ -641,7 +646,12 @@ newGame = (lvl) -> # 0..15
 		aceCards = countAceCards board		
 		cands = []
 		cands.push [aceCards,0,board,[]] # antal kort på ässen, antal drag, board
+		
 		hash = {}
+		key = dumpBoard b
+		path = []
+		hash[key] = [path, b]
+
 		nr = 0
 		cand = null		
 

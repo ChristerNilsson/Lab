@@ -1203,7 +1203,7 @@ hint = function hint() {
 
 //undoMove hist.pop()
 hintOne = function hintOne() {
-  var cand, dst, hintTime, increment, nr, origBoard, path, src;
+  var cand, dst, hintTime, increment, key, nr, origBoard, path, src;
   hintTime = millis();
   aceCards = countAceCards(board);
   if (aceCards === N * 4) {
@@ -1213,6 +1213,9 @@ hintOne = function hintOne() {
   cands.push([aceCards, hist.length, board, // antal kort på ässen, antal drag, board
   []]);
   hash = {};
+  key = dumpBoard(board);
+  path = [];
+  hash[key] = [path, board];
   nr = 0;
   cand = null;
   origBoard = _.cloneDeep(board);
@@ -1259,7 +1262,7 @@ hintOne = function hintOne() {
 
 newGame = function newGame(lvl) {
   // 0..15
-  var cand, increment, nr;
+  var cand, increment, key, nr, path;
   level = lvl;
   start = millis();
   msg = '';
@@ -1273,6 +1276,9 @@ newGame = function newGame(lvl) {
     cands.push([aceCards, 0, board, // antal kort på ässen, antal drag, board
     []]);
     hash = {};
+    key = dumpBoard(b);
+    path = [];
+    hash[key] = [path, b];
     nr = 0;
     cand = null;
     while (nr < LIMIT && cands.length > 0 && aceCards < N * 4) {
