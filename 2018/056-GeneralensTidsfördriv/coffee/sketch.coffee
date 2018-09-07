@@ -648,9 +648,9 @@ newGame = (lvl) -> # 0..15
 		cands.push [aceCards,0,board,[]] # antal kort på ässen, antal drag, board
 		
 		hash = {}
-		key = dumpBoard b
-		path = []
-		hash[key] = [path, b]
+		#key = dumpBoard board
+		#path = []
+		#hash[key] = [path, board]
 
 		nr = 0
 		cand = null		

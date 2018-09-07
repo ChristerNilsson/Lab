@@ -1262,7 +1262,7 @@ hintOne = function hintOne() {
 
 newGame = function newGame(lvl) {
   // 0..15
-  var cand, increment, key, nr, path;
+  var cand, increment, nr;
   level = lvl;
   start = millis();
   msg = '';
@@ -1276,9 +1276,9 @@ newGame = function newGame(lvl) {
     cands.push([aceCards, 0, board, // antal kort på ässen, antal drag, board
     []]);
     hash = {};
-    key = dumpBoard(b);
-    path = [];
-    hash[key] = [path, b];
+    //key = dumpBoard board
+    //path = []
+    //hash[key] = [path, board]
     nr = 0;
     cand = null;
     while (nr < LIMIT && cands.length > 0 && aceCards < N * 4) {
