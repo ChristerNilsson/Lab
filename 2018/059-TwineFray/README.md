@@ -1,6 +1,7 @@
 # Twine
 
 * Från http://www.ohiofi.com/blog/twine-battle/
+* Testa att spela orignalet: http://www.ohiofi.com/battlegame.html
 
 * Liknar en wiki
 * Kan användas för D&D-liknande spel
@@ -11,6 +12,30 @@
 * Länkar
 * Knappar
 * Logik
+
+## Kommandon
+
+* randint
+* int
+* string split
+* [] array push unshift
+* class
+* extends
+* constructor
+* new
+* super
+* rect 
+* text
+* sample
+* if then else
+* for in
+* textAlign
+* textSize 
+* createCanvas
+* rectMode
+* mousePressed
+* + - * / 
+* jämförelser
 
 ## Idéer
 
