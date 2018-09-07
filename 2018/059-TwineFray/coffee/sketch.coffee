@@ -1,144 +1,146 @@
-POTION = 10
-SWORD = 50
-
-person = {}
-#enemy = {}
-places = {}
+nodes = {}
+person = null
+page = 'Town'
+buttons = []
 messages = []
 
-class Place
-	constructor : (@name) -> @enemy = {}
+randint = (a,b) -> int a + random(b-a)
+p = (s) -> messages.push s
+
+class Button 
+	constructor : (@command,@x,@y,@w,@h) ->
+	inside : (mx,my) -> @x < mx+@w/2 < @x+@w and @y < my+@h/2 < @y+@h 
+	show : -> 		
+		rect @x,@y,@w,@h
+		text @command,@x,@y
+
+class Node
+	constructor : (@name,@commands) ->
+	buy : (name,p1,p2) ->
+	enter : ->
+	execute : (command) ->
+		page = command
+		nodes[page].enter()
+
+class Person
+	constructor : (@health=100, @sword=0, @coins=100, @points=0, @ax=0) ->
+
+class Enemy
+	constructor : ->
+		@name = _.sample ["Giant Spider","Zombie","Ghost","Pizza Rat"]
+		@punch = randint 1,9
+		@kick = 10 - @punch
+		@health = randint(20,40) + person.points * 0.1
+
+	attack : ->
+		if @health > 0
+			hit = randint(1,3) + randint(1,3)
+			p "The #{@name} attacks You!"
+			person.health -= hit
+			person.points += hit
+		else
+			p 'You have defeated the {@name}!'
+			person.points += 10
+			person.coins += randint 25,50
+
+class Market extends Node
+	buy : (name,p1,p2) ->
+		if person.coins >= p1
+			person.coins -= p1
+			person[name] += p2
+		else
+			p "You cant afford a #{name}"
+	execute : (command) ->
+		if command == 'Medicine' then @buy 'health', 10, 10
+		else if command == 'Sword' then @buy 'sword', 50, 1
+		else if command == 'Ax' then @buy 'ax', 100, 1
+		else super command
+
+class Place extends Node
+	execute : (command) ->
+		if command == 'Punch' then @punch()
+		else if command == 'Kick' then @kick()
+		else if command == 'Slash' then	@slash()
+		else if command == 'Ax' then @ax()
+		else super command
 
 	enter : ->
-		person.location = @name
-		inventory()
-		@createEnemy()
-		button 'Punch', -> 
-			print 'Punch',messages.length
-			if 0 == _.size @enemy 
-				messages.push "You have no enemy here!"
-				return 
-			if 1 == rand 1,8 
-				messages.push "You tried to Punch it but you missed!"
-			else
-				hit = value + rand 1,6
-				@enemy.health -= hit
-				person.points += hit
-				messages.push "You Punch the #{@enemy.name}! #{-hit}"
-
-		# if 1 == rand 1,3
-		# 	@enemy = {}
-		# 	Black "The #{@name} looks empty... for now. Check later."
-		# else
-		# 	@createEnemy()
-		# 	@personAttacks()
-		link "Town","Go back to Town"
-
-	attack : ->		
-		if @enemy.health <= 0
-			@enemyDies()
-			#enemy = {}
+		if 0 == randint 0, 1
+			@enemy = new Enemy()
+			p "There is an #{@enemy.name} here"
 		else
-			@enemyAttacks()
-			if person.health <= 0 
-				@personDies()
-			else
-				@personAttacks()
+			@enemy = null
+			p 'There is nothing here'
 
-	createEnemy: ->
-		@enemy = {}
-		@enemy.name = either ["Giant Spider","Zombie","Ghost","Pizza Rat"]
-		@enemy.health = 0.1 * person.points + rand 20,40 
-		@enemy.punch = rand 1,9
-		@enemy.kick = 10 - @enemy.punch	
-		messages.push "A #{@enemy.name} crawls out of the shadows!"
+	punch : -> if @enemy? then @attack 'punch',8,@enemy.punch + randint(1, 6)
+	kick  : -> if @enemy? then @attack 'kick', 6, @enemy.kick + randint(1, 6)
 
-	enemyAttacks : ->
-		@enemy.hit = rand(1,3) + rand(1,3)
-		person.health -= @enemy.hit
-		person.points -= @enemy.hit
-		#messages.push -> Red "The #{@enemy.name} attacks you! You lose #{@enemy.hit} points"
+	slash : ->
+		if person.sword > 0
+			@attack 'slash',10, 10 + person.sword * (randint(1, 6) + randint(1, 6))
+		else
+			p 'You have no sword'
 
-	enemyDies : ->
-		person.points += 10
-		reward = rand 25,50
-		person.coins += reward
-		# messages.push -> 
-		# 	Black "You have defeated the #{@enemy.name}. +10 points!"
-		# 	Green "+#{reward} coins!" 
-		# 	@enemy = {}
-		link "Continue"
+	ax : ->
+		if person.ax > 0
+			@attack 'ax',5, 10 + person.ax * (randint(4, 6) + randint(4, 6) + randint(4, 6))
+		else
+			p 'You have no ax'
 
-	personDies : ->
-		# messages.push ->
-		# 	Red "You died!"
-		# 	Black "Game over!"
-		# 	Black "Final Score: #{person.points + person.coins}"
-		link "Continue"
+	attack : (weapon,n,hit) ->
+		if @enemy == null
+			p 'There is nothing to attack!'
+			return
+		@enemy.attack()
+		if 1 == randint 1,n
+			p "Your #{weapon} missed the #{@enemy.name}!"
+		else
+			@enemy.health -= hit
+			person.points += hit
+			p "You hit with your #{weapon}!"
+			if @enemy.health <= 0
+				p "The #{@enemy.name} dies"
+				@enemy = null
 
-	attack1 : (txt,value) ->
-		button txt, -> 
-			if 1 == rand 1,8 
-				messages.push  "You tried to #{txt} it but you missed!"
-			else
-				hit = value + rand 1,6
-				@enemy.health -= hit
-				person.points += hit
-				messages.push  "You #{txt} the #{@enemy.name}! #{-hit}"
+display = ->
+	bg 0.75
 
-	personAttacks : ->
-		@attack1 'Punch', @enemy.punch + rand 1,6
-		@attack1 'Kick',  @enemy.kick + rand 1,6
-		if person.sword > 0 then @attack1 'Slash', 10 + rand(1,6) + rand(1,6)
-		if person.ax > 0 then @attack1 'Ax', 10 + rand(1,6) + rand(1,6)
+	messages.unshift ''
+	messages.unshift "Inventory #{JSON.stringify person}"
+	messages.unshift "You are in the #{nodes[page].name}"
 
+	for message,i in messages
+		text message,20,(i+4)*20
 
-events.Start = ->
-	person.health = 10 #0
-	person.sword = 0
-	person.ax = 0
-	person.coins = 100
-	person.points = 0
+	node = nodes[page]
+	commands = node.commands
 
-	places['Castle'] = new Place 'Castle'
-	places['Graveyard'] = new Place 'Graveyard'
-	places['Farm'] = new Place 'Farm'
+	buttons = []
+	push()
+	textAlign CENTER,CENTER
+	for command,i in commands.split ' '
+		button =  new Button command, 100+i*100,30,100,30
+		button.show()
+		buttons.push button
+	pop()
 
-	inventory()
-	link "Town"
+setup = ->
+	createCanvas 600,600
+	rectMode CENTER
+	textSize 20
+	person = new Person()
+	nodes.Town = new Node 'Town','Market Castle Graveyard Farm'
+	nodes.Market = new Market 'Market','Medicine Sword Ax Town'
+	nodes.Castle = new Place 'Castle','Punch Kick Slash Ax Town'
+	nodes.Graveyard = new Place 'Graveyard','Punch Kick Slash Ax Town'
+	nodes.Farm = new Place 'Farm','Punch Kick Slash Ax Town'
+	display()
 
-events.Town = ->
-	inventory()
-	Black "Where do you want to go?"
-	link "Market"
-	link "Castle"
-	link "Graveyard"
-	link "Farm"
-
-buy = (name,price,count=price) ->
-	person[name] += count
-	person.coins -= price
-
-inventory = ->
-	Black "You are at #{page}"
-	Black "You have #{person.coins} coins"
-	Black "You have #{person.health} health"
-	Black "You have #{person.sword} sword"
-	Black ""
-	# for message in messages
-	# 	message()
-	# messages = [] 
-
-events.Market = ->
-	inventory()
-	if person.coins >= POTION then button "Buy A Healing Potion For #{POTION} Coins", -> buy 'health',POTION
-	if person.coins >= SWORD then button "Buy A Sword For #{SWORD} Coins", -> buy 'sword',SWORD,1
-	link "Town","Return to Town"
-
-events.Castle = -> places.Castle.enter()
-events.Graveyard = -> places.Graveyard.enter()
-events.Farm = -> places.Farm.enter()
-
-#place = (name) ->
-
-events.Continue = -> goto person.location
+mousePressed = ->
+	messages = []
+	for button in buttons
+		if button.inside mouseX,mouseY
+			print 'You clicked on '+ button.command
+			node = nodes[page]
+			node.execute button.command
+	display()
