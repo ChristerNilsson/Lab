@@ -13,7 +13,9 @@ Menyn nås genom att klicka på den gröna bakgrunden eller något av essen.
 
 * Undo. Ångrar senaste drag. Talet visar antalet drag som utförts. Draget indikeras med gult mynt och gul ring
 * Restart. Ångrar alla drag
+* Total Restart. Innebär att startar om från Level 0. Alla Nivåer måste ånyo lösas
 * Easier. Går till en lättare nivå
+* Go. Startar om på samma nivå
 * Harder. Går till en svårare nivå
 * Hint. Ger en ledtråd. Se röd/grön indikator. Talet visar antalet Hints som utförts
   * Prova även att göra en Restart innan du klickar på Hint. Då slipper du eventuella Undo.

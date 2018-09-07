@@ -587,7 +587,7 @@ menu1 = function menu1() {
   dialogue = new Dialogue(4 * w, 1.5 * h, 0.15 * h);
   r1 = 0.25 * height;
   r2 = 0.085 * height;
-  dialogue.clock(' ', 7, r1, r2, 90 + 360 / 14);
+  dialogue.clock(' ', 8, r1, r2, 90 + 360 / 16);
   dialogue.buttons[0].info(['Undo', hist.length], function () {
     var dst, src;
     if (hist.length > 0) {
@@ -630,8 +630,14 @@ menu1 = function menu1() {
     newGame(level);
     return dialogues.pop();
   });
-  return dialogue.buttons[6].info('Restart', function () {
+  dialogue.buttons[6].info('Restart', function () {
     restart();
+    return dialogues.pop();
+  });
+  return dialogue.buttons[7].info(['Total', 'Restart'], function () {
+    delete localStorage.Generalen;
+    maxLevel = 0;
+    newGame(0);
     return dialogues.pop();
   });
 };
@@ -1276,9 +1282,9 @@ newGame = function newGame(lvl) {
     cands.push([aceCards, 0, board, // antal kort på ässen, antal drag, board
     []]);
     hash = {};
-    //key = dumpBoard board
-    //path = []
-    //hash[key] = [path, board]
+    // key = dumpBoard board
+    // path = []
+    // hash[key] = [path, null]
     nr = 0;
     cand = null;
     while (nr < LIMIT && cands.length > 0 && aceCards < N * 4) {

@@ -279,7 +279,7 @@ menu1 = ->
 
 	r1 = 0.25 * height 
 	r2 = 0.085 * height
-	dialogue.clock ' ',7,r1,r2,90+360/14 
+	dialogue.clock ' ',8,r1,r2,90+360/16
 
 	dialogue.buttons[0].info ['Undo',hist.length], -> 
 		if hist.length > 0 
@@ -316,6 +316,12 @@ menu1 = ->
 
 	dialogue.buttons[6].info 'Restart', -> 
 		restart()
+		dialogues.pop()
+
+	dialogue.buttons[7].info ['Total','Restart'], -> 
+		delete localStorage.Generalen
+		maxLevel = 0 
+		newGame 0
 		dialogues.pop()
 
 showHeap = (board,heap,x,y,dy) -> # dy kan vara både pos och neg
@@ -648,9 +654,9 @@ newGame = (lvl) -> # 0..15
 		cands.push [aceCards,0,board,[]] # antal kort på ässen, antal drag, board
 		
 		hash = {}
-		#key = dumpBoard board
-		#path = []
-		#hash[key] = [path, board]
+		# key = dumpBoard board
+		# path = []
+		# hash[key] = [path, null]
 
 		nr = 0
 		cand = null		
