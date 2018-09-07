@@ -56,6 +56,23 @@ class Market extends Node
 		else if command == 'Ax' then @buy 'ax', 100, 1
 		else super command
 
+class Shortcut extends Node
+	show : ->	p "#{@a} to #{@b}"
+	enter : -> if @a? then @show() else @execute 'New'
+	execute : (command) ->
+		show = true
+		if command == 'New' 
+			@a = randint 1,20
+			@b = randint 1,20
+		else if command == '+2' then @a += 2
+		else if command == '*2' then @a *= 2
+		else if command == '/2'
+			if @a%2==0 then @a /= 2
+		else 
+			super command
+			show = false 
+		if show then @show()
+
 class Place extends Node
 	execute : (command) ->
 		if command == 'Punch' then @punch()
@@ -125,11 +142,13 @@ display = ->
 	pop()
 
 setup = ->
-	createCanvas 600,600
+	createCanvas 800,600
 	rectMode CENTER
 	textSize 20
 	person = new Person()
-	nodes.Town = new Node 'Town','Market Castle Graveyard Farm'
+	nodes.Town = new Node 'Town','Market Castle Graveyard Farm Shortcut1 Shortcut2'
+	nodes.Shortcut1 = new Shortcut 'Shortcut1','New +2 *2 /2 Town'
+	nodes.Shortcut2 = new Shortcut 'Shortcut2','New +2 *2 /2 Town'
 	nodes.Market = new Market 'Market','Medicine Sword Ax Town'
 	nodes.Castle = new Place 'Castle','Punch Kick Slash Ax Town'
 	nodes.Graveyard = new Place 'Graveyard','Punch Kick Slash Ax Town'
