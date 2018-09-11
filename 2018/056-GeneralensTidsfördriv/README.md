@@ -12,14 +12,16 @@
 Menyn nås genom att klicka på den gröna bakgrunden eller något av essen.
 
 * Undo. Ångrar senaste drag. Talet visar antalet drag som utförts. Draget indikeras med gult mynt och gul ring
-* Restart. Ångrar alla drag
-* Total Restart. Innebär att startar om från Level 0. Alla Nivåer måste ånyo lösas
-* Easier. Går till en lättare nivå
-* Go. Startar om på samma nivå
-* Harder. Går till en svårare nivå
 * Hint. Ger en ledtråd. Se röd/grön indikator. Talet visar antalet Hints som utförts
   * Prova även att göra en Restart innan du klickar på Hint. Då slipper du eventuella Undo.
 * Link. Sparar en länk till aktuell patiens till klippbordet
+* Restart
+  * Normal Restart
+  * Total Restart. Innebär att starta om från Level 0. Alla Nivåer måste ånyo lösas
+  * Start Competition
+* Easier. Går till en lättare nivå
+* Go. Startar om på samma nivå
+* Harder. Går till en svårare nivå
 
 # Nivåer 
 Classic innebär att sekvenserna är lika långa.
@@ -44,7 +46,7 @@ Svårare nivåer kan nås genom att utföra så få drag som möjligt och utan a
 
 # Hints
 
-* Klicka man på Hint får man ett förslag för att komma vidare mot lösningen
+* Klickar man på Hint får man ett förslag för att komma vidare mot lösningen
 * Inledningsvis kan Hint ge en eller flera Undo som indikeras med rött
 * Man måste själv utföra de föreslagna dragen
 * Använder man Hints kan man inte avancera till nästa nivå
@@ -59,7 +61,20 @@ Svårare nivåer kan nås genom att utföra så få drag som möjligt och utan a
 
 # Lösbarhet
 
-De skapade patienserna är alltid lösbara. Det finns alltså aldrig någon anledning att ge upp.
+De skapade patienserna är alltid lösbara. Det är med andra ord alltid för tidigt att ge upp.
+
+# Competition
+Två eller flera personer.
+
+## Tid
+Börja med att bestämma en viss tid, t ex fem minuter eller en halv timma. Den som har hunnit längst har vunnit.
+Ligger man lika fortsätter man tills någon når nästa nivå.
+
+## Nivå
+Bestäm antal nivåer som ska lösas, t ex 4, 8 eller 16. 
+
+## Allmänt
+Om man är man smartare än datorn får man tillgodoräkna sig de dragen och använda dem på högre nivåer.
 
 [Prova!](https://christernilsson.github.io/Lab/2018/056-GeneralensTidsf%C3%B6rdriv/index.html)
 
@@ -68,14 +83,15 @@ De skapade patienserna är alltid lösbara. Det finns alltså aldrig någon anle
 * Maximera fönstret med F11
 * Refresha med ctrl-R
 
-# Avvikelser från originalpatiensen
-
-* Man måste bygga uppåt på essen.
-* Man kan ej använda något fängelse.
-
 # Litteratur
 
 Att lägga patiens. Bokförlaget Forum 1957.
+Motsvarar Level 15.
+
+## Avvikelser från originalpatiensen
+
+* Man måste bygga uppåt på essen.
+* Man kan ej använda något fängelse.
 
 ![](bild0.jpg "Start")
 ![](bild1.jpg "Menu")
