@@ -364,7 +364,8 @@ menu1 = ->
 		msg = 'Link copied to clipboard'
 		dialogues.pop()
 
-	s = if general.blackBox.success then 'Harder' else '' 
+	print not general.competition or general.blackBox.success
+	s = if not general.competition or general.blackBox.success then 'Harder' else '' 
 	dialogue.buttons[3].info s, -> 
 		general.level = constrain general.level+1,0,general.maxLevel
 		newGame general.level
@@ -677,7 +678,7 @@ expand = ([aceCards,level,b,path]) ->
 
 hint = ->
 	if 4*N == countAceCards board then return 
-	hintsUsed++
+	general.hintsUsed++
 	res = hintOne()
 	if res or general.hist.length==0 then return 
 	indicators = {}

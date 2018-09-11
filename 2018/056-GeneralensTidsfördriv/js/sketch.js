@@ -715,7 +715,8 @@ menu1 = function menu1() {
     msg = 'Link copied to clipboard';
     return dialogues.pop();
   });
-  s = general.blackBox.success ? 'Harder' : '';
+  print(!general.competition || general.blackBox.success);
+  s = !general.competition || general.blackBox.success ? 'Harder' : '';
   dialogue.buttons[3].info(s, function () {
     general.level = constrain(general.level + 1, 0, general.maxLevel);
     newGame(general.level);
@@ -1319,7 +1320,7 @@ hint = function hint() {
   if (4 * N === countAceCards(board)) {
     return;
   }
-  hintsUsed++;
+  general.hintsUsed++;
   res = hintOne();
   if (res || general.hist.length === 0) {
     return;
