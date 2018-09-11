@@ -39,11 +39,12 @@ class Button
 		noStroke()
 		textAlign CENTER,CENTER
 		textSize @dlg.textSize
-		if 'string' == typeof @txt 
-			text @txt, @x,@y
+		arr = @txt.split ' '
+		if arr.length == 1 
+			text arr[0], @x,@y
 		else 
-			text @txt[0], @x,@y-0.3*@r
-			text @txt[1], @x,@y+0.3*@r
+			text arr[0], @x,@y-0.3*@r
+			text arr[1], @x,@y+0.3*@r
 		pop()
 
 	inside : (mx,my) -> if @txt == '' then false else @r > dist mx, my, @dlg.x + @x, @dlg.y + @y 

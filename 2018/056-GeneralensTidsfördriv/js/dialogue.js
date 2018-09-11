@@ -99,6 +99,7 @@ Button = function () {
   }, {
     key: 'show',
     value: function show() {
+      var arr;
       if (this.txt === '') {
         return;
       }
@@ -110,11 +111,12 @@ Button = function () {
       noStroke();
       textAlign(CENTER, CENTER);
       textSize(this.dlg.textSize);
-      if ('string' === typeof this.txt) {
-        text(this.txt, this.x, this.y);
+      arr = this.txt.split(' ');
+      if (arr.length === 1) {
+        text(arr[0], this.x, this.y);
       } else {
-        text(this.txt[0], this.x, this.y - 0.3 * this.r);
-        text(this.txt[1], this.x, this.y + 0.3 * this.r);
+        text(arr[0], this.x, this.y - 0.3 * this.r);
+        text(arr[1], this.x, this.y + 0.3 * this.r);
       }
       return pop();
     }

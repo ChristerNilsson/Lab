@@ -47,6 +47,7 @@ var ACES,
     calcAntal,
     cands,
     cards,
+    competition,
     compress,
     compressOne,
     copyToClipboard,
@@ -70,6 +71,7 @@ var ACES,
     hist,
     hitGreen,
     indicators,
+    infoLines,
     keyPressed,
     legalMove,
     level,
@@ -79,8 +81,8 @@ var ACES,
     maxLevel,
     maxMoves,
     menu1,
+    menu2,
     mousePressed,
-    msg,
     myRandom,
     myShuffle,
     newGame,
@@ -97,6 +99,7 @@ var ACES,
     print,
     printAutomaticSolution,
     printManualSolution,
+    races,
     range,
     readBoard,
     restart,
@@ -105,8 +108,13 @@ var ACES,
     showDialogue,
     showHeap,
     showIndicator,
+    showInfo,
     srcs,
     start,
+    startCompetition,
+    success,
+    text3,
+    timeUsed,
     undoMove,
     undoMoveOne,
     unpack,
@@ -162,9 +170,11 @@ aceCards = 4;
 
 originalBoard = null;
 
+races = []; // [start,stopp,computerMoves,humanMoves]
+
 start = null;
 
-msg = '';
+startCompetition = null;
 
 N = null; // Max rank
 
@@ -173,7 +183,11 @@ srcs = null;
 
 dsts = null;
 
+competition = false;
+
 hintsUsed = null;
+
+timeUsed = 0;
 
 oneClickData = {
   lastMarked: -1,
@@ -185,6 +199,8 @@ indicators = {}; // färgmarkering av senaste undo eller hint. [color,hollow]
 seed = 1; // seed for random numbers
 
 currentSeed = null;
+
+infoLines = [];
 
 level = 0;
 
@@ -538,7 +554,7 @@ fakeBoard = function fakeBoard() {
 
 setup = function setup() {
   var canvas, params;
-  print('Y');
+  print('X');
   canvas = createCanvas(innerWidth, innerHeight - 0.5);
   canvas.position(0, 0); // hides text field used for clipboard copy.
   w = width / 9;
@@ -567,6 +583,14 @@ setup = function setup() {
     level = parseInt(params.level);
   }
   level = constrain(level, 0, maxLevel);
+  startCompetition = millis();
+  infoLines = [];
+  infoLines.push(['', '', 'Total']);
+  infoLines.push(['Levels', '', 0]);
+  infoLines.push(["Computer Moves", 0, 0]);
+  infoLines.push(["Human Moves", 0, 0]);
+  //infoLines.push ["Hints used",0,0]
+  infoLines.push(["Time", 0, 0]);
   newGame(level);
   return display(board);
 };
@@ -583,12 +607,12 @@ keyPressed = function keyPressed() {
 };
 
 menu1 = function menu1() {
-  var dialogue, r1, r2;
+  var dialogue, r1, r2, s;
   dialogue = new Dialogue(4 * w, 1.5 * h, 0.15 * h);
   r1 = 0.25 * height;
   r2 = 0.085 * height;
-  dialogue.clock(' ', 8, r1, r2, 90 + 360 / 16);
-  dialogue.buttons[0].info(['Undo', hist.length], function () {
+  dialogue.clock(' ', 7, r1, r2, 90 + 360 / 14);
+  dialogue.buttons[0].info('Undo', function () {
     var dst, src;
     if (hist.length > 0) {
       var _$last = _.last(hist);
@@ -605,39 +629,65 @@ menu1 = function menu1() {
     }
     return dialogues.pop();
   });
-  dialogue.buttons[1].info(['Hint', hintsUsed], function () {
+  dialogue.buttons[1].info(competition ? '' : 'Hint', function () {
     hint();
     return dialogues.pop();
   });
-  dialogue.buttons[2].info('Link', function () {
-    var link;
+  dialogue.buttons[2].info(competition ? '' : 'Link', function () {
+    var link, msg;
     link = makeLink();
     copyToClipboard(link);
     msg = 'Link copied to clipboard';
     return dialogues.pop();
   });
-  dialogue.buttons[3].info('Harder', function () {
+  s = success() ? 'Harder' : '';
+  dialogue.buttons[3].info(s, function () {
     level = constrain(level + 1, 0, maxLevel);
     newGame(level);
+    timeUsed = 0;
     return dialogues.pop();
   });
-  dialogue.buttons[4].info('Go', function () {
+  dialogue.buttons[4].info(competition ? '' : 'Go', function () {
     newGame(level);
     return dialogues.pop();
   });
-  dialogue.buttons[5].info('Easier', function () {
+  dialogue.buttons[5].info(competition ? '' : 'Easier', function () {
     level = constrain(level - 1, 0, maxLevel);
     newGame(level);
     return dialogues.pop();
   });
-  dialogue.buttons[6].info('Restart', function () {
+  return dialogue.buttons[6].info('Restart', function () {
+    return menu2();
+  });
+};
+
+menu2 = function menu2() {
+  var dialogue, r1, r2, s;
+  dialogue = new Dialogue(4 * w, 1.5 * h, 0.15 * h);
+  r1 = 0.25 * height;
+  r2 = 0.11 * height;
+  dialogue.clock(' ', 3, r1, r2, 90 + 360 / 6);
+  dialogue.buttons[0].info('Normal Restart', function () {
     restart();
+    dialogues.pop();
     return dialogues.pop();
   });
-  return dialogue.buttons[7].info(['Total', 'Restart'], function () {
+  dialogue.buttons[1].info(competition ? '' : 'Total Restart', function () {
     delete localStorage.Generalen;
+    races = [];
     maxLevel = 0;
     newGame(0);
+    dialogues.pop();
+    return dialogues.pop();
+  });
+  s = competition ? 'Exit Competition' : 'Start Competition';
+  return dialogue.buttons[2].info(s, function () {
+    competition = !competition;
+    delete localStorage.Generalen;
+    races = [];
+    maxLevel = 0;
+    newGame(0);
+    dialogues.pop();
     return dialogues.pop();
   });
 };
@@ -692,14 +742,7 @@ showHeap = function showHeap(board, heap, x, y, dy) {
 display = function display(board) {
   var dy, heap, l, len, len1, len2, m, n, o, x, y;
   background(0, 128, 0);
-  textAlign(LEFT, BOTTOM);
-  fill(64);
-  textSize(0.2 * h);
-  text('Generalens Tidsfördriv', 0.05 * w, 3 * h);
-  textAlign(CENTER, BOTTOM);
-  text(msg, width / 2, 3 * h);
-  textAlign(RIGHT, BOTTOM);
-  text("Level: " + level, 7.95 * w, 3 * h);
+  showInfo();
   textAlign(CENTER, TOP);
   for (y = l = 0, len = ACES.length; l < len; y = ++l) {
     heap = ACES[y];
@@ -717,6 +760,65 @@ display = function display(board) {
   }
   noStroke();
   return showDialogue();
+};
+
+text3 = function text3(a, b, c, y) {};
+
+showInfo = function showInfo() {
+  var a, b, c, computer, human, i, l, len, len1, m, race, time, totalComputer, totalHuman, totalTime, y;
+  fill(64);
+  textSize(0.2 * h);
+  totalTime = 0;
+  totalComputer = 0;
+  totalHuman = 0;
+  race = _.last(races);
+  race[2] = hist.length;
+  for (l = 0, len = races.length; l < len; l++) {
+    var _races$l = _slicedToArray(races[l], 3);
+
+    time = _races$l[0];
+    computer = _races$l[1];
+    human = _races$l[2];
+
+    totalTime += time;
+    totalComputer += computer;
+    totalHuman += human;
+  }
+  infoLines[1][2] = races.length - (success() ? 0 : 1);
+  infoLines[2][1] = race[1];
+  infoLines[3][1] = race[2];
+  infoLines[4][1] = race[0];
+  infoLines[2][2] = totalComputer;
+  infoLines[3][2] = totalHuman;
+  infoLines[4][2] = totalTime;
+  for (i = m = 0, len1 = infoLines.length; m < len1; i = ++m) {
+    var _infoLines$i = _slicedToArray(infoLines[i], 3);
+
+    a = _infoLines$i[0];
+    b = _infoLines$i[1];
+    c = _infoLines$i[2];
+
+    if (i === 1 && !competition) {
+      continue;
+    }
+    y = h * (2.2 + 0.2 * i);
+    textAlign(LEFT, BOTTOM);
+    text(a, 0.05 * w, y);
+    textAlign(RIGHT, BOTTOM);
+    text(b, 3 * w, y);
+    if (competition) {
+      text(c, 4 * w, y);
+    }
+  }
+  if (!competition) {
+    text("Hints: " + hintsUsed, 7.95 * w, 2.8 * h);
+  }
+  text("Level: " + level, 7.95 * w, 3 * h);
+  textAlign(CENTER, CENTER);
+  textSize(0.4 * h);
+  stroke(0, 64, 0);
+  noFill();
+  return text('Generalens Tidsfördriv', 4 * w, 1.5 * h);
 };
 
 showDialogue = function showDialogue() {
@@ -799,7 +901,7 @@ undoMove = function undoMove(_ref) {
       dst = _ref2[1],
       antal = _ref2[2];
 
-  var res;
+  var msg, res;
   msg = '';
   res = prettyUndoMove(src, dst, board, antal);
 
@@ -1095,30 +1197,54 @@ mousePressed = function mousePressed() {
   return display(board);
 };
 
+success = function success() {
+  var computer, human, l, len, time, totalComputer, totalHuman;
+  if (!competition) {
+    return true;
+  }
+  if (4 * N !== countAceCards(board)) {
+    return false;
+  }
+  totalComputer = 0;
+  totalHuman = 0;
+  for (l = 0, len = races.length; l < len; l++) {
+    var _races$l2 = _slicedToArray(races[l], 3);
+
+    time = _races$l2[0];
+    computer = _races$l2[1];
+    human = _races$l2[2];
+
+    totalComputer += computer;
+    totalHuman += human;
+  }
+  return totalHuman <= totalComputer;
+};
+
 handle = function handle(mx, my) {
-  var diff, heap, marked, s;
+  var heap, marked, msg, race;
   marked = [mx + (my >= 3 ? 12 : 4), my];
   heap = oneClick(oneClickData, marked, board, true);
-  if (msg === '' && 4 * N === countAceCards(board)) {
+  if (timeUsed === 0 && 4 * N === countAceCards(board)) {
     if (hist.length > maxMoves * 1.1) {
       msg = "Too many moves: " + (hist.length - maxMoves);
     } else if (hintsUsed === 0) {
-      diff = hist.length - maxMoves;
-      if (diff === 0) {
-        s = "exact";
-      }
-      if (diff < 0) {
-        s = -diff + " moves less";
-      }
-      if (diff > 0) {
-        s = diff + " moves more";
-      }
-      msg = Math.floor((millis() - start) / 1000) + " s (" + s + ")";
-      if (level === maxLevel) {
-        maxLevel++;
+      timeUsed = Math.floor((millis() - start) / 1000);
+      if (competition) {
+        if (success()) {
+          if (level === maxLevel) {
+            maxLevel++;
+          }
+        }
+      } else {
+        if (level === maxLevel) {
+          maxLevel++;
+        }
       }
       maxLevel = constrain(maxLevel, 0, 15);
       localStorage.Generalen = JSON.stringify({ maxLevel: maxLevel, level: level });
+      race = _.last(races);
+      race[0] = timeUsed;
+      race[2] = hist.length;
     } else {
       msg = "Hints used: " + hintsUsed;
     }
@@ -1268,7 +1394,7 @@ hintOne = function hintOne() {
 
 newGame = function newGame(lvl) {
   // 0..15
-  var cand, increment, nr;
+  var cand, increment, msg, nr;
   level = lvl;
   start = millis();
   msg = '';
@@ -1311,12 +1437,14 @@ newGame = function newGame(lvl) {
       print(int(millis() - start) + " ms");
       start = millis();
       maxMoves = int(cand[1]);
+      races.push([0, maxMoves, 0]);
       return;
     }
   }
 };
 
 restart = function restart() {
+  var msg;
   hist = [];
   board = _.cloneDeep(originalBoard);
   return msg = '';
