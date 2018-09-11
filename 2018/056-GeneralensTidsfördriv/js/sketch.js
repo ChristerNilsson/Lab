@@ -28,6 +28,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 // men man vill kanske ha
 // 5     3,4        7,6
 var ACES,
+    BlackBox,
     General,
     H,
     HEAPS,
@@ -261,6 +262,44 @@ makeLink = function makeLink() {
   return url;
 };
 
+BlackBox = function () {
+  // Avgör om man lyckats eller ej. Man får tillgodogöra sig tidigare drag.
+  function BlackBox() {
+    _classCallCheck(this, BlackBox);
+
+    this.clr();
+  }
+
+  _createClass(BlackBox, [{
+    key: "probe",
+    value: function probe(time, computer, human) {
+      if (this.total[2] + human > this.total[1] + computer) {
+        this.success = false;
+        return this.success;
+      }
+      this.count++;
+      this.total = [this.total[0] + time, this.total[1] + computer, this.total[2] + human];
+      this.success = true;
+      return this.success;
+    }
+  }, {
+    key: "clr",
+    value: function clr() {
+      this.total = [0, 0, 0 // [time,computer,human]
+      ];
+      this.count = 0;
+      return this.success = false;
+    }
+  }, {
+    key: "show",
+    value: function show() {
+      return print('BlackBox', this.count, this.total);
+    }
+  }]);
+
+  return BlackBox;
+}();
+
 General = function () {
   function General() {
     _classCallCheck(this, General);
@@ -271,26 +310,31 @@ General = function () {
     this.level = 0;
     this.maxLevel = 0;
     this.maxMoves = null;
-    this.races = []; // [time,computer,human]
     this.hist = null;
     this.hintsUsed = null;
+    this.blackBox = new BlackBox();
   }
 
   _createClass(General, [{
+    key: "clr",
+    value: function clr() {
+      this.blackBox.clr();
+      this.level = 0;
+      return this.maxLevel = 0;
+    }
+  }, {
     key: "handle",
     value: function handle(mx, my) {
-      var heap, marked, msg;
+      var heap, marked, msg, timeUsed;
       marked = [mx + (my >= 3 ? 12 : 4), my];
       heap = oneClick(oneClickData, marked, board, true);
       if (this.timeUsed === 0 && 4 * N === countAceCards(board)) {
         if (this.competition) {
-          if (this.success(true)) {
-            this.timeUsed = Math.floor((millis() - this.start) / 1000);
-            if (this.level === this.maxLevel) {
-              this.maxLevel++;
-              this.races.push([this.timeUsed, this.maxMoves, this.hist.length]);
-              print('handle', this.races);
-            }
+          timeUsed = Math.floor((millis() - this.start) / 1000);
+          if (this.blackBox.probe(timeUsed, this.maxMoves, this.hist.length)) {
+            this.timeUsed = timeUsed;
+            this.blackBox.show();
+            this.maxLevel++;
           }
         } else {
           if (this.hist.length > this.maxMoves * 1.1) {
@@ -306,52 +350,12 @@ General = function () {
         return localStorage.Generalen = JSON.stringify({ maxLevel: this.maxLevel, level: this.level });
       }
     }
-
-    //printManualSolution()
-
-  }, {
-    key: "success",
-    value: function success() {
-      var init = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : true;
-
-      var computer, human, l, len, ref, res, time, totalComputer, totalHuman;
-      print('success0', init);
-      if (!this.competition) {
-        return true;
-      }
-      print('success1');
-      if (4 * N !== countAceCards(board)) {
-        return false;
-      }
-      print('success2');
-      totalComputer = init ? this.maxMoves : 0;
-      totalHuman = init ? this.hist.length : 0;
-      print('success4', totalHuman, totalComputer);
-      ref = this.races;
-      for (l = 0, len = ref.length; l < len; l++) {
-        var _ref$l = _slicedToArray(ref[l], 3);
-
-        time = _ref$l[0];
-        computer = _ref$l[1];
-        human = _ref$l[2];
-
-        totalComputer += computer;
-        totalHuman += human;
-      }
-      res = totalHuman <= totalComputer;
-      print('success5', totalHuman, totalComputer, res);
-      return res;
-    }
   }]);
 
   return General;
 }();
 
-// nextLevel : ->
-// 	if @hist.length <= @maxMoves and @level <= @maxLevel and @hintsUsed == 0 and 4*N == countAceCards board then @level++ else @level--
-// 	@level = constrain @level,0,15
-// 	if @level > @maxLevel then @maxLevel = @level
-// 	newGame @level
+//printManualSolution()
 showIndicator = function showIndicator(heap, x, y) {
   var color, hollow, x0, y0;
   x0 = x + w / 2;
@@ -623,7 +627,7 @@ fakeBoard = function fakeBoard() {
 
 setup = function setup() {
   var canvas, level, maxLevel, params;
-  print('X');
+  print('Y');
   canvas = createCanvas(innerWidth, innerHeight - 0.5);
   canvas.position(0, 0); // hides text field used for clipboard copy.
   general = new General();
@@ -711,7 +715,7 @@ menu1 = function menu1() {
     msg = 'Link copied to clipboard';
     return dialogues.pop();
   });
-  s = general.success(true) ? 'Harder' : '';
+  s = general.blackBox.success ? 'Harder' : '';
   dialogue.buttons[3].info(s, function () {
     general.level = constrain(general.level + 1, 0, general.maxLevel);
     newGame(general.level);
@@ -745,8 +749,7 @@ menu2 = function menu2() {
   });
   dialogue.buttons[1].info(general.competition ? '' : 'Total Restart', function () {
     delete localStorage.Generalen;
-    general.races = [];
-    general.maxLevel = 0;
+    general.clr();
     newGame(0);
     dialogues.pop();
     return dialogues.pop();
@@ -836,32 +839,18 @@ display = function display(board) {
 text3 = function text3(a, b, c, y) {};
 
 showInfo = function showInfo() {
-  var a, b, c, computer, human, i, l, len, len1, m, ref, time, totalComputer, totalHuman, totalTime, y;
+  var a, b, c, i, l, len, total, y;
   fill(64);
   textSize(0.2 * h);
-  totalTime = 0;
-  totalComputer = 0; //maxMoves
-  totalHuman = 0; //hist.length
-  ref = general.races;
-  for (l = 0, len = ref.length; l < len; l++) {
-    var _ref$l2 = _slicedToArray(ref[l], 3);
-
-    time = _ref$l2[0];
-    computer = _ref$l2[1];
-    human = _ref$l2[2];
-
-    totalTime += time;
-    totalComputer += computer;
-    totalHuman += human;
-  }
-  infoLines[1][2] = general.races.length;
+  infoLines[1][2] = general.blackBox.count;
   infoLines[2][1] = general.maxMoves;
   infoLines[3][1] = general.hist.length;
   infoLines[4][1] = general.timeUsed;
-  infoLines[2][2] = totalComputer;
-  infoLines[3][2] = totalHuman;
-  infoLines[4][2] = totalTime;
-  for (i = m = 0, len1 = infoLines.length; m < len1; i = ++m) {
+  total = general.blackBox.total;
+  infoLines[2][2] = total[1];
+  infoLines[3][2] = total[2];
+  infoLines[4][2] = total[0];
+  for (i = l = 0, len = infoLines.length; l < len; i = ++l) {
     var _infoLines$i = _slicedToArray(infoLines[i], 3);
 
     a = _infoLines$i[0];

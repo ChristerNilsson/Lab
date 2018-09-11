@@ -103,6 +103,22 @@ makeLink = ->
 	url += '&level=' + general.level
 	url
 
+class BlackBox # Avgör om man lyckats eller ej. Man får tillgodogöra sig tidigare drag.
+	constructor : -> @clr()
+	probe : (time,computer,human) ->
+		if @total[2] + human > @total[1] + computer 
+			@success = false
+			return @success 
+		@count++
+		@total = [@total[0]+time, @total[1]+computer, @total[2]+human]
+		@success = true 
+		@success
+	clr : ->
+		@total = [0,0,0] # [time,computer,human]
+		@count = 0
+		@success = false 
+	show : -> print 'BlackBox',@count,@total
+
 class General
 	constructor : ->
 		@competition = false 
@@ -111,9 +127,14 @@ class General
 		@level = 0
 		@maxLevel = 0
 		@maxMoves = null
-		@races = [] # [time,computer,human]
 		@hist = null
 		@hintsUsed = null
+		@blackBox = new BlackBox()
+
+	clr : ->
+		@blackBox.clr()
+		@level = 0
+		@maxLevel = 0 
 
 	handle : (mx,my) ->
 		marked = [(mx + if my >= 3 then 12 else 4),my]
@@ -121,12 +142,11 @@ class General
 
 		if @timeUsed == 0 and 4*N == countAceCards board
 			if @competition 
-				if @success true 
-					@timeUsed = (millis() - @start) // 1000
-					if @level == @maxLevel
-						@maxLevel++ 
-						@races.push [@timeUsed,@maxMoves,@hist.length]
-						print 'handle',@races
+				timeUsed = (millis() - @start) // 1000
+				if @blackBox.probe timeUsed,@maxMoves,@hist.length 
+					@timeUsed = timeUsed
+					@blackBox.show()
+					@maxLevel++ 
 			else
 				if @hist.length > @maxMoves * 1.1
 					msg = "Too many moves: #{@hist.length - @maxMoves}"
@@ -136,28 +156,6 @@ class General
 			@maxLevel = constrain @maxLevel,0,15
 			localStorage.Generalen = JSON.stringify {@maxLevel,@level}
 			#printManualSolution()
-
-	success : (init=true) ->
-		print 'success0',init
-		if not @competition then return true
-		print 'success1'
-		if 4*N != countAceCards board then return false
-		print 'success2'
-		totalComputer = if init then @maxMoves else 0
-		totalHuman = if init then @hist.length else 0
-		print 'success4',totalHuman, totalComputer
-		for [time,computer,human] in @races
-			totalComputer += computer
-			totalHuman += human
-		res = totalHuman <= totalComputer
-		print 'success5',totalHuman, totalComputer,res
-		res
-
-	# nextLevel : ->
-	# 	if @hist.length <= @maxMoves and @level <= @maxLevel and @hintsUsed == 0 and 4*N == countAceCards board then @level++ else @level--
-	# 	@level = constrain @level,0,15
-	# 	if @level > @maxLevel then @maxLevel = @level
-	# 	newGame @level
 
 showIndicator = (heap,x,y)->
 	x0 = x + w/2
@@ -298,7 +296,7 @@ fakeBoard = ->
 	print board
 
 setup = ->
-	print 'X'
+	print 'Y'
 	canvas = createCanvas innerWidth, innerHeight-0.5
 	canvas.position 0,0 # hides text field used for clipboard copy.
 
@@ -366,7 +364,7 @@ menu1 = ->
 		msg = 'Link copied to clipboard'
 		dialogues.pop()
 
-	s = if general.success true then 'Harder' else '' 
+	s = if general.blackBox.success then 'Harder' else '' 
 	dialogue.buttons[3].info s, -> 
 		general.level = constrain general.level+1,0,general.maxLevel
 		newGame general.level
@@ -399,8 +397,7 @@ menu2 = ->
 
 	dialogue.buttons[1].info (if general.competition then '' else 'Total Restart'), -> 
 		delete localStorage.Generalen
-		general.races = []
-		general.maxLevel = 0 
+		general.clr()
 		newGame 0
 		dialogues.pop()
 		dialogues.pop()
@@ -461,22 +458,14 @@ showInfo = ->
 	fill 64
 	textSize 0.2*h
 
-	totalTime = 0
-	totalComputer = 0 #maxMoves
-	totalHuman = 0 #hist.length
-	for [time,computer,human] in general.races
-		totalTime += time
-		totalComputer += computer
-		totalHuman += human
-
-	infoLines[1][2] = general.races.length  
+	infoLines[1][2] = general.blackBox.count
 	infoLines[2][1] = general.maxMoves 
 	infoLines[3][1] = general.hist.length 
 	infoLines[4][1] = general.timeUsed 
-
-	infoLines[2][2] = totalComputer
-	infoLines[3][2] = totalHuman
-	infoLines[4][2] = totalTime 
+	total = general.blackBox.total
+	infoLines[2][2] = total[1]
+	infoLines[3][2] = total[2]
+	infoLines[4][2] = total[0] 
 
 	for [a,b,c],i in infoLines
 		if i==1 and not general.competition then continue
