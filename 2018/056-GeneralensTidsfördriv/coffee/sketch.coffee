@@ -45,25 +45,16 @@ backs = null
 
 board = null
 cards = null
-hist = null
 cands = null
 hash = null
 aceCards = 4
 originalBoard = null
 
-races = [] # [start,stopp,computerMoves,humanMoves]
-
-start = null
 startCompetition = null
 N = null # Max rank
 #classic = false
 srcs = null
 dsts = null
-
-competition = false 
-
-hintsUsed = null
-timeUsed = 0
 
 oneClickData = {lastMarked:-1, counter:0}
 indicators = {} # färgmarkering av senaste undo eller hint. [color,hollow]
@@ -71,10 +62,7 @@ seed = 1 # seed for random numbers
 currentSeed = null
 
 infoLines = []
-
-level = 0
-maxLevel = 0
-maxMoves = null
+general = null
 
 print = console.log
 range = _.range
@@ -112,8 +100,64 @@ makeLink = ->
 	index = url.indexOf '?'
 	url = url.substring 0,index
 	url += '?seed=' + currentSeed
-	url += '&level=' + level
+	url += '&level=' + general.level
 	url
+
+class General
+	constructor : ->
+		@competition = false 
+		@timeUsed = 0
+		@start = null
+		@level = 0
+		@maxLevel = 0
+		@maxMoves = null
+		@races = [] # [time,computer,human]
+		@hist = null
+		@hintsUsed = null
+
+	handle : (mx,my) ->
+		marked = [(mx + if my >= 3 then 12 else 4),my]
+		heap = oneClick oneClickData,marked,board,true
+
+		if @timeUsed == 0 and 4*N == countAceCards board
+			if @competition 
+				if @success true 
+					@timeUsed = (millis() - @start) // 1000
+					if @level == @maxLevel
+						@maxLevel++ 
+						@races.push [@timeUsed,@maxMoves,@hist.length]
+						print 'handle',@races
+			else
+				if @hist.length > @maxMoves * 1.1
+					msg = "Too many moves: #{@hist.length - @maxMoves}"
+				else if @hintsUsed == 0
+					@timeUsed = (millis() - @start) // 1000
+					if @level == @maxLevel then @maxLevel++ 
+			@maxLevel = constrain @maxLevel,0,15
+			localStorage.Generalen = JSON.stringify {@maxLevel,@level}
+			#printManualSolution()
+
+	success : (init=true) ->
+		print 'success0',init
+		if not @competition then return true
+		print 'success1'
+		if 4*N != countAceCards board then return false
+		print 'success2'
+		totalComputer = if init then @maxMoves else 0
+		totalHuman = if init then @hist.length else 0
+		print 'success4',totalHuman, totalComputer
+		for [time,computer,human] in @races
+			totalComputer += computer
+			totalHuman += human
+		res = totalHuman <= totalComputer
+		print 'success5',totalHuman, totalComputer,res
+		res
+
+	# nextLevel : ->
+	# 	if @hist.length <= @maxMoves and @level <= @maxLevel and @hintsUsed == 0 and 4*N == countAceCards board then @level++ else @level--
+	# 	@level = constrain @level,0,15
+	# 	if @level > @maxLevel then @maxLevel = @level
+	# 	newGame @level
 
 showIndicator = (heap,x,y)->
 	x0 = x + w/2
@@ -258,6 +302,8 @@ setup = ->
 	canvas = createCanvas innerWidth, innerHeight-0.5
 	canvas.position 0,0 # hides text field used for clipboard copy.
 
+	general = new General()
+
 	w = width/9 
 	h = height/4 
 	angleMode DEGREES
@@ -266,11 +312,13 @@ setup = ->
 		{maxLevel,level} = JSON.parse localStorage.Generalen
 	else
 		{maxLevel,level} = {maxLevel:0, level:0} 
+	general.maxLevel = maxLevel
+	general.level = level
 
 	params = getParameters()
 	if 'seed' of params then seed = parseInt params.seed else seed = int random 10000
-	if 'level' of params then level = parseInt params.level
-	level = constrain level,0,maxLevel
+	if 'level' of params then general.level = parseInt params.level
+	general.level = constrain general.level,0,general.maxLevel
 
 	startCompetition = millis()
 	infoLines = []
@@ -278,17 +326,16 @@ setup = ->
 	infoLines.push ['Levels','',0]
 	infoLines.push ["Computer Moves",0,0]
 	infoLines.push ["Human Moves",0,0]
-	#infoLines.push ["Hints used",0,0]
 	infoLines.push ["Time",0,0]	
 
-	newGame level
+	newGame general.level
 	display board 
 
 keyPressed = -> 
 	if key == 'X' 
 		N = 7
 		board = "cA7|hA4|sA3|dA2||h6|s5 d6||h5 d5||s4 s6|d34||d7|s7|h7||||"
-		hist = [[12,0,1],[5,1,1],[8,3,1],[9,1,1],[11,1,1],[16,2,1],[17,0,1],[10,0,1],[9,0,1],[18,2,1],[19,0,1],[7,0,1]]		
+		general.hist = [[12,0,1],[5,1,1],[8,3,1],[9,1,1],[11,1,1],[16,2,1],[17,0,1],[10,0,1],[9,0,1],[18,2,1],[19,0,1],[7,0,1]]		
 		board = readBoard board
 		print board 
 	display board
@@ -301,38 +348,38 @@ menu1 = ->
 	dialogue.clock ' ',7,r1,r2,90+360/14
 
 	dialogue.buttons[0].info 'Undo', -> 
-		if hist.length > 0 
-			[src,dst] = _.last hist
+		if general.hist.length > 0 
+			[src,dst] = _.last general.hist
 			indicators = {}
 			indicators[src]=["#ff0",true]
 			indicators[dst]=["#ff0",false]
-			undoMove hist.pop()
+			undoMove general.hist.pop()
 		dialogues.pop()
 
-	dialogue.buttons[1].info (if competition then '' else 'Hint'), -> 
+	dialogue.buttons[1].info (if general.competition then '' else 'Hint'), -> 
 		hint()
 		dialogues.pop()
 
-	dialogue.buttons[2].info (if competition then '' else 'Link'), ->
+	dialogue.buttons[2].info (if general.competition then '' else 'Link'), ->
 		link = makeLink()
 		copyToClipboard link		
 		msg = 'Link copied to clipboard'
 		dialogues.pop()
 
-	s = if success() then 'Harder' else '' 
+	s = if general.success true then 'Harder' else '' 
 	dialogue.buttons[3].info s, -> 
-		level = constrain level+1,0,maxLevel
-		newGame level
-		timeUsed = 0
+		general.level = constrain general.level+1,0,general.maxLevel
+		newGame general.level
+		general.timeUsed = 0
 		dialogues.pop()
 
-	dialogue.buttons[4].info (if competition then '' else 'Go'), ->
-		newGame level
+	dialogue.buttons[4].info (if general.competition then '' else 'Go'), ->
+		newGame general.level
 		dialogues.pop()
 
-	dialogue.buttons[5].info (if competition then '' else 'Easier'), -> 
-		level = constrain level-1,0,maxLevel
-		newGame level
+	dialogue.buttons[5].info (if general.competition then '' else 'Easier'), -> 
+		general.level = constrain general.level-1,0,general.maxLevel
+		newGame general.level
 		dialogues.pop()
 
 	dialogue.buttons[6].info 'Restart', -> 
@@ -350,20 +397,20 @@ menu2 = ->
 		dialogues.pop()
 		dialogues.pop()
 
-	dialogue.buttons[1].info (if competition then '' else 'Total Restart'), -> 
+	dialogue.buttons[1].info (if general.competition then '' else 'Total Restart'), -> 
 		delete localStorage.Generalen
-		races = []
-		maxLevel = 0 
+		general.races = []
+		general.maxLevel = 0 
 		newGame 0
 		dialogues.pop()
 		dialogues.pop()
 
-	s = if competition then 'Exit Competition' else 'Start Competition'
+	s = if general.competition then 'Exit Competition' else 'Start Competition'
 	dialogue.buttons[2].info s, -> 
-		competition = not competition
+		general.competition = not general.competition
 		delete localStorage.Generalen
-		races = []
-		maxLevel = 0 
+		general.races = []
+		general.maxLevel = 0 
 		newGame 0
 		dialogues.pop()
 		dialogues.pop()
@@ -415,35 +462,33 @@ showInfo = ->
 	textSize 0.2*h
 
 	totalTime = 0
-	totalComputer = 0
-	totalHuman = 0
-	race = _.last races
-	race[2] = hist.length
-	for [time,computer,human] in races
+	totalComputer = 0 #maxMoves
+	totalHuman = 0 #hist.length
+	for [time,computer,human] in general.races
 		totalTime += time
 		totalComputer += computer
 		totalHuman += human
 
-	infoLines[1][2] = races.length - if success() then 0 else 1
-	infoLines[2][1] = race[1]
-	infoLines[3][1] = race[2]
-	infoLines[4][1] = race[0] 
+	infoLines[1][2] = general.races.length  
+	infoLines[2][1] = general.maxMoves 
+	infoLines[3][1] = general.hist.length 
+	infoLines[4][1] = general.timeUsed 
 
 	infoLines[2][2] = totalComputer
 	infoLines[3][2] = totalHuman
 	infoLines[4][2] = totalTime 
 
 	for [a,b,c],i in infoLines
-		if i==1 and not competition then continue
+		if i==1 and not general.competition then continue
 		y = h*(2.2 + 0.2*i)
 		textAlign LEFT,BOTTOM
 		text a, 0.05*w,y
 		textAlign RIGHT,BOTTOM
 		text b, 3*w,y
-		if competition then text c, 4*w,y
+		if general.competition then text c, 4*w,y
 
-	if not competition then text "Hints: #{hintsUsed}",7.95*w,2.8*h
-	text "Level: #{level}",7.95*w,3*h
+	if not general.competition then text "Hints: #{general.hintsUsed}",7.95*w,2.8*h
+	text "Level: #{general.level}",7.95*w,3*h
 	textAlign CENTER,CENTER
 	textSize 0.4*h
 	stroke 0,64,0
@@ -466,7 +511,7 @@ makeMove = (board,src,dst,record) ->
 	[suit,under1,over1] = unpack board[src].pop() 
 	over = under1 
 	under = over1 
-	if record then hist.push [src, dst, 1 + abs under1-over1]
+	if record then general.hist.push [src, dst, 1 + abs under1-over1]
 	if board[dst].length > 0
 		[suit2,under2,over2] = unpack board[dst].pop()
 		under = under2 
@@ -605,42 +650,10 @@ mousePressed = ->
 			display board
 			return
 
-		handle mx,my
+		general.handle mx,my
 
 	display board
 
-success = ->
-	if not competition then return true
-	if 4*N != countAceCards board then return false
-	totalComputer = 0
-	totalHuman = 0
-	for [time,computer,human] in races
-		totalComputer += computer
-		totalHuman += human
-	totalHuman <= totalComputer 
-
-handle = (mx,my) ->
-	marked = [(mx + if my >= 3 then 12 else 4),my]
-	heap = oneClick oneClickData,marked,board,true
-
-	if timeUsed == 0 and 4*N == countAceCards board
-		if hist.length > maxMoves * 1.1
-			msg = "Too many moves: #{hist.length - maxMoves}"
-		else if hintsUsed == 0
-			timeUsed = (millis() - start) // 1000
-			if competition
-				if success()
-					if level == maxLevel then maxLevel++ 
-			else
-				if level == maxLevel then maxLevel++ 
-			maxLevel = constrain maxLevel,0,15
-			localStorage.Generalen = JSON.stringify {maxLevel,level}
-			race = _.last races
-			race[0] = timeUsed
-			race[2] = hist.length
-		else
-			msg = "Hints used: #{hintsUsed}"
-		printManualSolution()
 
 ####### AI-section ########
 
@@ -677,9 +690,9 @@ hint = ->
 	if 4*N == countAceCards board then return 
 	hintsUsed++
 	res = hintOne()
-	if res or hist.length==0 then return 
+	if res or general.hist.length==0 then return 
 	indicators = {}
-	[src,dst] = _.last hist 
+	[src,dst] = _.last general.hist 
 	indicators[src] = ['#f00',true]
 	indicators[dst] = ['#f00',false]	
 	#undoMove hist.pop()
@@ -689,7 +702,7 @@ hintOne = ->
 	aceCards = countAceCards board
 	if aceCards == N*4 then return true
 	cands = []
-	cands.push [aceCards,hist.length,board,[]] # antal kort på ässen, antal drag, board
+	cands.push [aceCards,general.hist.length,board,[]] # antal kort på ässen, antal drag, board
 
 	hash = {}
 	key = dumpBoard board
@@ -730,24 +743,19 @@ hintOne = ->
 		return false
 
 newGame = (lvl) -> # 0..15
-	level = lvl
-	start = millis()
+	general.level = lvl
+	general.start = millis()
 	msg = ''
-	hist = []
+	general.hist = []
 	while true 
-		makeBoard level 
-		hintsUsed = 0
+		makeBoard general.level 
+		general.hintsUsed = 0
 		originalBoard = _.cloneDeep board
 
 		aceCards = countAceCards board		
 		cands = []
 		cands.push [aceCards,0,board,[]] # antal kort på ässen, antal drag, board
-		
 		hash = {}
-		# key = dumpBoard board
-		# path = []
-		# hash[key] = [path, null]
-
 		nr = 0
 		cand = null		
 
@@ -766,22 +774,15 @@ newGame = (lvl) -> # 0..15
 			print makeLink()
 			printAutomaticSolution hash,board
 			board = _.cloneDeep originalBoard
-			print "#{int millis()-start} ms"
-			start = millis()
-			maxMoves = int cand[1] 
-			races.push [0,maxMoves,0]
+			print "#{int millis()-general.start} ms"
+			general.start = millis()
+			general.maxMoves = int cand[1] 
 			return 
 
 restart = ->
-	hist = []
+	general.hist = []
 	board = _.cloneDeep originalBoard
 	msg = ''
-
-nextLevel = ->
-	if hist.length <= maxMoves and level <= maxLevel and hintsUsed == 0 and 4*N == countAceCards board then level++ else level--
-	level = constrain level,0,15
-	if level>maxLevel then maxLevel=level
-	newGame level
 
 prettyCard2 = (card,antal) ->
 	[suit,under,over] = unpack card 
@@ -831,7 +832,7 @@ printAutomaticSolution = (hash, b) ->
 printManualSolution = ->
 	b = _.cloneDeep originalBoard
 	s = 'Manual Solution:'
-	for [src,dst,antal],index in hist
+	for [src,dst,antal],index in general.hist
 		s += "\n#{index}: #{prettyMove src,dst,b}"
 		makeMove b,src,dst,false
 	print s
