@@ -49,7 +49,7 @@ class Market extends Node
 			person.coins -= p1
 			person[name] += p2
 		else
-			p "You cant afford a #{name}"
+			p "Du har inte råd med #{name}"
 	execute : (command) ->
 		if command == 'Medicine' then @buy 'health', 10, 10
 		else if command == 'Sword' then @buy 'sword', 50, 1
@@ -61,16 +61,16 @@ class Shortcut extends Node
 	enter : -> if @a? then @show() else @execute 'New'
 	execute : (command) ->
 		show = true
-		if command == 'New' 
+		if command == 'New'
 			@a = randint 1,20
 			@b = randint 1,20
 		else if command == '+2' then @a += 2
 		else if command == '*2' then @a *= 2
 		else if command == '/2'
 			if @a%2==0 then @a /= 2
-		else 
+		else
 			super command
-			show = false 
+			show = false
 		if show then @show()
 
 class Place extends Node

@@ -146,7 +146,7 @@ Market = function (_Node) {
         person.coins -= p1;
         return person[name] += p2;
       } else {
-        return p("You cant afford a " + name);
+        return p("Du har inte r\xE5d med " + name);
       }
     }
   }, {

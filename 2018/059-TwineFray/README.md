@@ -34,7 +34,6 @@
 * createCanvas
 * rectMode
 * mousePressed
-* + - * / 
 * jämförelser
 
 ## Idéer
@@ -69,3 +68,13 @@
 * Inför en person som ger ledtrådar mot betalning
 * Visa bara knappar där det händer något 
 * ...
+
+# Länkar
+
+* Halt and Catch Fire 
+  * https://www.amc.com/shows/halt-and-catch-fire/exclusives/colossal-cave-adventure 
+* Swenson: Colossal Cave Adventure 1977 PDP-10 (Fortran, Python and Javascript) VERY SLOW!
+  * youtube: https://www.youtube.com/watch?v=RojaWIoBfOo
+  * demo : https://swenson.github.io/adventurejs/
+  * text: https://jerz.setonhill.edu/if/crowther/advdat.77-03-11
+  * fortran: https://jerz.setonhill.edu/if/crowther/advf4.77-03-11 (700 LOC)
