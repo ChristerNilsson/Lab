@@ -627,8 +627,8 @@ fakeBoard = function fakeBoard() {
 
 setup = function setup() {
   var canvas, level, maxLevel, params;
-  print('Y');
-  canvas = createCanvas(innerWidth, innerHeight - 0.5);
+  print('Z');
+  canvas = createCanvas(innerWidth - 0.5, innerHeight - 0.5);
   canvas.position(0, 0); // hides text field used for clipboard copy.
   general = new General();
   w = width / 9;
@@ -870,10 +870,14 @@ showInfo = function showInfo() {
       text(c, 4 * w, y);
     }
   }
+  text("Level: " + general.level, 7.95 * w, 2.4 * h);
   if (!general.competition) {
-    text("Hints: " + general.hintsUsed, 7.95 * w, 2.8 * h);
+    text("Hints: " + general.hintsUsed, 7.95 * w, 2.6 * h);
   }
-  text("Level: " + general.level, 7.95 * w, 3 * h);
+  text("Seed: " + currentSeed, 7.95 * w, 2.8 * h);
+  if (general.competition) {
+    text("Ace Cards: " + countAceCards(board), 7.95 * w, 3.0 * h);
+  }
   textAlign(CENTER, CENTER);
   textSize(0.4 * h);
   stroke(0, 64, 0);
@@ -1240,19 +1244,23 @@ mousePressed = function mousePressed() {
   }
   mx = Math.floor(mouseX / w);
   my = Math.floor(mouseY / h);
-  dialogue = _.last(dialogues);
-  if (dialogues.length === 0 || !dialogue.execute(mouseX, mouseY)) {
+  if (0 < _.size(indicators)) {
     indicators = {};
-    if (mx === 8 || hitGreen(mx, my, mouseX, mouseY)) {
-      if (dialogues.length === 0) {
-        menu1();
-      } else {
-        dialogues.pop();
+  } else {
+    dialogue = _.last(dialogues);
+    if (dialogues.length === 0 || !dialogue.execute(mouseX, mouseY)) {
+      indicators = {};
+      if (mx === 8 || hitGreen(mx, my, mouseX, mouseY)) {
+        if (dialogues.length === 0) {
+          menu1();
+        } else {
+          dialogues.pop();
+        }
+        display(board);
+        return;
       }
-      display(board);
-      return;
+      general.handle(mx, my);
     }
-    general.handle(mx, my);
   }
   return display(board);
 };

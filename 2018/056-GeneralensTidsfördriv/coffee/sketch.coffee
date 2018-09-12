@@ -296,8 +296,8 @@ fakeBoard = ->
 	print board
 
 setup = ->
-	print 'Y'
-	canvas = createCanvas innerWidth, innerHeight-0.5
+	print 'Z'
+	canvas = createCanvas innerWidth-0.5, innerHeight-0.5
 	canvas.position 0,0 # hides text field used for clipboard copy.
 
 	general = new General()
@@ -477,8 +477,11 @@ showInfo = ->
 		text b, 3*w,y
 		if general.competition then text c, 4*w,y
 
-	if not general.competition then text "Hints: #{general.hintsUsed}",7.95*w,2.8*h
-	text "Level: #{general.level}",7.95*w,3*h
+	text "Level: #{general.level}",7.95*w,2.4*h
+	if not general.competition then text "Hints: #{general.hintsUsed}",7.95*w,2.6*h
+	text "Seed: #{currentSeed}",7.95*w,2.8*h
+	if general.competition then text "Ace Cards: #{countAceCards board}",7.95*w,3.0*h
+
 	textAlign CENTER,CENTER
 	textSize 0.4*h
 	stroke 0,64,0
@@ -631,19 +634,21 @@ mousePressed = ->
 	mx = mouseX//w
 	my = mouseY//h
 
-	dialogue = _.last dialogues
-	if dialogues.length==0 or not dialogue.execute mouseX,mouseY 
+	if 0 < _.size indicators
 		indicators = {}
+	else		
+		dialogue = _.last dialogues
+		if dialogues.length==0 or not dialogue.execute mouseX,mouseY 
+			indicators = {}
 
-		if mx == 8 or hitGreen mx,my,mouseX,mouseY 
-			if dialogues.length == 0 then menu1() else dialogues.pop()
-			display board
-			return
+			if mx == 8 or hitGreen mx,my,mouseX,mouseY 
+				if dialogues.length == 0 then menu1() else dialogues.pop()
+				display board
+				return
 
-		general.handle mx,my
+			general.handle mx,my
 
 	display board
-
 
 ####### AI-section ########
 
