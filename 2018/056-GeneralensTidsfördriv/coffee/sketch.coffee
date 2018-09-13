@@ -56,10 +56,12 @@ N = null # Max rank
 srcs = null
 dsts = null
 
-oneClickData = {lastMarked:-1, counter:0}
+#oneClickData = {lastMarked:-1, counter:0}
 indicators = {} # färgmarkering av senaste undo eller hint. [color,hollow]
 seed = 1 # seed for random numbers
 currentSeed = null
+
+alternativeDsts = []
 
 infoLines = []
 general = null
@@ -138,7 +140,7 @@ class General
 
 	handle : (mx,my) ->
 		marked = [(mx + if my >= 3 then 12 else 4),my]
-		heap = oneClick oneClickData,marked,board,true
+		heap = oneClick marked,board,true
 
 		if @timeUsed == 0 and 4*N == countAceCards board
 			if @competition 
@@ -296,7 +298,7 @@ fakeBoard = ->
 	print board
 
 setup = ->
-	print 'W'
+	print 'X'
 	canvas = createCanvas innerWidth-0.5, innerHeight-0.5
 	canvas.position 0,0 # hides text field used for clipboard copy.
 
@@ -335,6 +337,7 @@ setup = ->
 	infoLines.push ["Human Moves",0,0]
 	infoLines.push ["Time",0,0]	
 
+	print newGame 
 	newGame general.level
 	display board 
 
@@ -367,11 +370,14 @@ menu1 = ->
 		hint()
 		dialogues.pop()
 
-	dialogue.buttons[2].info 'Link', ->
-		link = makeLink()
-		copyToClipboard link		
-		msg = 'Link copied to clipboard'
-		dialogues.pop()
+	s = if alternativeDsts.length <= 1 then '' else 'Cycle Move'
+	dialogue.buttons[2].info s, ->
+		alternativeDsts.push alternativeDsts.shift()
+		[src,dst,antal] = general.hist.pop()
+		undoMove [src,dst,antal]
+		heap = alternativeDsts[0] 
+		makeMove board,src,heap,true
+		# dialogues.pop()
 
 	print not general.competition or general.blackBox.success
 	s = if not general.competition or general.blackBox.success then 'Harder' else '' 
@@ -398,7 +404,7 @@ menu2 = ->
 
 	r1 = 0.25 * height 
 	r2 = 0.11 * height
-	dialogue.clock ' ',3,r1,r2,90+360/6
+	dialogue.clock ' ',4,r1,r2,90+360/8
 
 	dialogue.buttons[0].info 'Restart', -> 
 		restart()
@@ -420,6 +426,12 @@ menu2 = ->
 		general.maxLevel = 0 
 		newGame 0
 		dialogues.pop()
+		dialogues.pop()
+
+	dialogue.buttons[3].info 'Link', ->
+		link = makeLink()
+		copyToClipboard link		
+		msg = 'Link copied to clipboard'
 		dialogues.pop()
 
 showHeap = (board,heap,x,y,dy) -> # dy kan vara både pos och neg
@@ -551,8 +563,8 @@ prettyUndoMove = (src,dst,b,antal) ->
 		if src in PANEL then "#{prettyCard2 c2,antal} to panel"
 
 # returns destination
-oneClick = (data,marked,board,sharp=false) ->
-	if _.isEqual data.lastMarked, marked then data.counter++ else data.counter = 0
+oneClick = (marked,board,sharp=false) ->
+	#if _.isEqual data.lastMarked, marked then data.counter++ else data.counter = 0
 
 	holes = []
 	found = false
@@ -564,7 +576,7 @@ oneClick = (data,marked,board,sharp=false) ->
 			return heap
 
 	if not found # Går ej att flytta till något ess. 
-		alternativeDsts = [] # för att kunna välja mellan flera via Undo
+		alternativeDsts = [] # för att kunna välja mellan flera via Cycle Moves
 		for heap in HEAPS
 			if board[heap].length == 0
 				if marked[0] in PANEL or calcAntal(board[marked[0]]) > 1
@@ -575,55 +587,55 @@ oneClick = (data,marked,board,sharp=false) ->
 		if holes.length > 0 then alternativeDsts.push holes[0]		
 
 		if alternativeDsts.length > 0
-			heap = alternativeDsts[data.counter % alternativeDsts.length]  
+			heap = alternativeDsts[0] #data.counter % alternativeDsts.length]  
 			if sharp then makeMove board,marked[0],heap,true
-			data.lastMarked = marked 
+			#data.lastMarked = marked 
 			return heap
 
 	return marked[0] # no Move can happen
 
 # assert1.jpg
-b1 = readBoard "cA|hA|sA|dA|h5|c3|s65|c2 d5||s3|d2 h6 d4|d3 h4|h2|c5|c4|h3|c6|s4|s2|d6"
-assert 11, oneClick {lastMarked:0, counter:0},[4,0],b1 # hj5 to hj4
-assert 5,  oneClick {lastMarked:0, counter:0},[5,0],b1 # kl3 no move
-assert 8,  oneClick {lastMarked:0, counter:0},[6,1],b1 # sp5 to hole
+# b1 = readBoard "cA|hA|sA|dA|h5|c3|s65|c2 d5||s3|d2 h6 d4|d3 h4|h2|c5|c4|h3|c6|s4|s2|d6"
+# assert 11, oneClick {lastMarked:0, counter:0},[4,0],b1 # hj5 to hj4
+# assert 5,  oneClick {lastMarked:0, counter:0},[5,0],b1 # kl3 no move
+# assert 8,  oneClick {lastMarked:0, counter:0},[6,1],b1 # sp5 to hole
 
-assert 10, oneClick {lastMarked:0, counter:0},[7,1],b1 # ru5 to ru4
-assert 8,  oneClick {lastMarked:[7,1], counter:0},[7,1],b1 # ru5 to hole
+# assert 10, oneClick {lastMarked:0, counter:0},[7,1],b1 # ru5 to ru4
+# assert 8,  oneClick {lastMarked:[7,1], counter:0},[7,1],b1 # ru5 to hole
 
-assert 8, oneClick {lastMarked:0, counter:0},[8,-1],b1 # hole click
-assert 9, oneClick {lastMarked:0, counter:0},[9,0],b1 # sp3 no move
+# assert 8, oneClick {lastMarked:0, counter:0},[8,-1],b1 # hole click
+# assert 9, oneClick {lastMarked:0, counter:0},[9,0],b1 # sp3 no move
 
-assert 7, oneClick {lastMarked:0, counter:0},[10,2],b1 # ru4 to ru5
-assert 8, oneClick {lastMarked:[10,2], counter:0},[10,2],b1 # ru4 to hole
-assert 7, oneClick {lastMarked:[10,2], counter:1},[10,2],b1 # ru4 to ru5
+# assert 7, oneClick {lastMarked:0, counter:0},[10,2],b1 # ru4 to ru5
+# assert 8, oneClick {lastMarked:[10,2], counter:0},[10,2],b1 # ru4 to hole
+# assert 7, oneClick {lastMarked:[10,2], counter:1},[10,2],b1 # ru4 to ru5
 
-b1a = readBoard "cA|hA|sA|dA|h5|c3|s65|c2 d54||s3|d2 h6|d3 h4|h2|c5|c4|h3|c6|s4|s2|d6"
-assert 4, oneClick {lastMarked:[10,2], counter:0},[10,1],b1a # hj6 to hj5
-assert 8, oneClick {lastMarked:[10,1], counter:0},[10,1],b1a # hj6 to hole
+# b1a = readBoard "cA|hA|sA|dA|h5|c3|s65|c2 d54||s3|d2 h6|d3 h4|h2|c5|c4|h3|c6|s4|s2|d6"
+# assert 4, oneClick {lastMarked:[10,2], counter:0},[10,1],b1a # hj6 to hj5
+# assert 8, oneClick {lastMarked:[10,1], counter:0},[10,1],b1a # hj6 to hole
 
-assert 4, oneClick {lastMarked:0, counter:0},[11,1],b1 # hj4 to hj5
-assert 8, oneClick {lastMarked:[11,1], counter:0},[11,1],b1 # hj4 to hole xxx
+# assert 4, oneClick {lastMarked:0, counter:0},[11,1],b1 # hj4 to hj5
+# assert 8, oneClick {lastMarked:[11,1], counter:0},[11,1],b1 # hj4 to hole xxx
 
-assert 1, oneClick {lastMarked:0, counter:0},[12,0],b1 # hj2 to A
-assert 8, oneClick {lastMarked:0, counter:0},[13,0],b1 # kl5 to hole
+# assert 1, oneClick {lastMarked:0, counter:0},[12,0],b1 # hj2 to A
+# assert 8, oneClick {lastMarked:0, counter:0},[13,0],b1 # kl5 to hole
 
-assert 5, oneClick {lastMarked:0, counter:0},[14,0],b1 # kl4 to kl3
-assert 8, oneClick {lastMarked:[14,0], counter:0},[14,0],b1 # kl4 to hole
+# assert 5, oneClick {lastMarked:0, counter:0},[14,0],b1 # kl4 to kl3
+# assert 8, oneClick {lastMarked:[14,0], counter:0},[14,0],b1 # kl4 to hole
 
-assert 11, oneClick {lastMarked:0, counter:0},[15,0],b1 # hj3 to hj4
-assert 8, oneClick {lastMarked:[15,0], counter:0},[15,0],b1 # hj3 to hole
+# assert 11, oneClick {lastMarked:0, counter:0},[15,0],b1 # hj3 to hj4
+# assert 8, oneClick {lastMarked:[15,0], counter:0},[15,0],b1 # hj3 to hole
 
-assert 8, oneClick {lastMarked:0, counter:0},[16,0],b1 # kl6 to hole
+# assert 8, oneClick {lastMarked:0, counter:0},[16,0],b1 # kl6 to hole
 
-assert 6, oneClick {lastMarked:0, counter:0},[17,0],b1 # sp4 to sp5
-assert 9, oneClick {lastMarked:[17,0], counter:0},[17,0],b1 # sp4 to sp3
-assert 8, oneClick {lastMarked:[17,0], counter:1},[17,0],b1 # sp4 to hole
+# assert 6, oneClick {lastMarked:0, counter:0},[17,0],b1 # sp4 to sp5
+# assert 9, oneClick {lastMarked:[17,0], counter:0},[17,0],b1 # sp4 to sp3
+# assert 8, oneClick {lastMarked:[17,0], counter:1},[17,0],b1 # sp4 to hole
 
-assert 2, oneClick {lastMarked:0, counter:0},[18,0],b1 # sp2 to A
+# assert 2, oneClick {lastMarked:0, counter:0},[18,0],b1 # sp2 to A
 
-assert 7, oneClick {lastMarked:0, counter:0},[19,0],b1 # ru6 to ru5
-assert 8, oneClick {lastMarked:[19,0], counter:0},[19,0],b1 # ru6 to hole
+# assert 7, oneClick {lastMarked:0, counter:0},[19,0],b1 # ru6 to ru5
+# assert 8, oneClick {lastMarked:[19,0], counter:0},[19,0],b1 # ru6 to hole
 
 # assert2.jpg
 b2 = readBoard "cA|hA|sA|dA|d5 h2 d3 h3|c7|c34|d4 h76|||s3 d6 c6|d7 c5 d2|c2|s4|s6|h5|s5|s7|s2|h4"
