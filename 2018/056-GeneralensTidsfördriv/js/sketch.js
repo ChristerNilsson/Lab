@@ -899,7 +899,7 @@ showInfo = function showInfo() {
   if (!general.competition) {
     text("Hints: " + general.hintsUsed, 7.95 * w, 2.8 * h);
   }
-  text("Seed: " + currentSeed, 7.95 * w, 3.0 * h);
+  //text "Seed: #{currentSeed}",7.95*w,3.0*h
   textAlign(CENTER, CENTER);
   textSize(1.0 * h);
   stroke(0, 64, 0);

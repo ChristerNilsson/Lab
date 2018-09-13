@@ -501,7 +501,7 @@ showInfo = ->
 	text "Level: #{general.level}",7.95*w,2.4*h
 	text "Cards: #{4*N - countAceCards(board)}",7.95*w,2.6*h
 	if not general.competition then text "Hints: #{general.hintsUsed}",7.95*w,2.8*h
-	text "Seed: #{currentSeed}",7.95*w,3.0*h
+	#text "Seed: #{currentSeed}",7.95*w,3.0*h
 
 	textAlign CENTER,CENTER
 	textSize 1.0*h
