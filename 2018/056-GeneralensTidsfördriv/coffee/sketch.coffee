@@ -99,9 +99,9 @@ makeLink = ->
 	url = window.location.href + '?'
 	index = url.indexOf '?'
 	url = url.substring 0,index
-	url += '?seed=' + currentSeed
-	url += '&level=' + general.level
-	url
+	n = 16 * currentSeed + general.level
+	if general.competition then n = -n
+	url + '?cards=' + n
 
 class BlackBox # Avgör om man lyckats eller ej. Man får tillgodogöra sig tidigare drag.
 	constructor : -> @clr()
@@ -296,7 +296,7 @@ fakeBoard = ->
 	print board
 
 setup = ->
-	print 'Z'
+	print 'W'
 	canvas = createCanvas innerWidth-0.5, innerHeight-0.5
 	canvas.position 0,0 # hides text field used for clipboard copy.
 
@@ -314,8 +314,17 @@ setup = ->
 	general.level = level
 
 	params = getParameters()
-	if 'seed' of params then seed = parseInt params.seed else seed = int random 10000
-	if 'level' of params then general.level = parseInt params.level
+	if 'cards' of params
+		n = parseInt params.cards
+		print n
+		general.competition = n < 0
+		n = abs n
+		general.level = n %% 16
+		seed = n // 16
+		print general.level
+		print seed
+	else
+		seed = int random 65536
 	general.level = constrain general.level,0,general.maxLevel
 
 	startCompetition = millis()

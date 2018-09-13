@@ -114,6 +114,9 @@ var ACES,
     undoMoveOne,
     unpack,
     w,
+    modulo = function modulo(a, b) {
+  return (+a % (b = +b) + b) % b;
+},
     indexOf = [].indexOf;
 
 SEQS = 8; // 6: kan fungera, 4: tar mkt lång tid att skapa problem
@@ -253,13 +256,15 @@ copyToClipboard = function copyToClipboard(txt) {
 };
 
 makeLink = function makeLink() {
-  var index, url;
+  var index, n, url;
   url = window.location.href + '?';
   index = url.indexOf('?');
   url = url.substring(0, index);
-  url += '?seed=' + currentSeed;
-  url += '&level=' + general.level;
-  return url;
+  n = 16 * currentSeed + general.level;
+  if (general.competition) {
+    n = -n;
+  }
+  return url + '?cards=' + n;
 };
 
 BlackBox = function () {
@@ -626,8 +631,8 @@ fakeBoard = function fakeBoard() {
 };
 
 setup = function setup() {
-  var canvas, level, maxLevel, params;
-  print('Z');
+  var canvas, level, maxLevel, n, params;
+  print('W');
   canvas = createCanvas(innerWidth - 0.5, innerHeight - 0.5);
   canvas.position(0, 0); // hides text field used for clipboard copy.
   general = new General();
@@ -650,13 +655,17 @@ setup = function setup() {
   general.maxLevel = maxLevel;
   general.level = level;
   params = getParameters();
-  if ('seed' in params) {
-    seed = parseInt(params.seed);
+  if ('cards' in params) {
+    n = parseInt(params.cards);
+    print(n);
+    general.competition = n < 0;
+    n = abs(n);
+    general.level = modulo(n, 16);
+    seed = Math.floor(n / 16);
+    print(general.level);
+    print(seed);
   } else {
-    seed = int(random(10000));
-  }
-  if ('level' in params) {
-    general.level = parseInt(params.level);
+    seed = int(random(65536));
   }
   general.level = constrain(general.level, 0, general.maxLevel);
   startCompetition = millis();
