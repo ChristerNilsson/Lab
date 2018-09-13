@@ -564,11 +564,11 @@ prettyUndoMove = (src,dst,b,antal) ->
 
 # returns destination
 oneClick = (marked,board,sharp=false) ->
-	#if _.isEqual data.lastMarked, marked then data.counter++ else data.counter = 0
 
 	holes = []
 	found = false
 
+	alternativeDsts = [] # för att kunna välja mellan flera via Cycle Moves
 	for heap in ACES
 		if legalMove board,marked[0],heap  
 			if sharp then makeMove board,marked[0],heap,true
@@ -576,7 +576,6 @@ oneClick = (marked,board,sharp=false) ->
 			return heap
 
 	if not found # Går ej att flytta till något ess. 
-		alternativeDsts = [] # för att kunna välja mellan flera via Cycle Moves
 		for heap in HEAPS
 			if board[heap].length == 0
 				if marked[0] in PANEL or calcAntal(board[marked[0]]) > 1
@@ -587,9 +586,8 @@ oneClick = (marked,board,sharp=false) ->
 		if holes.length > 0 then alternativeDsts.push holes[0]		
 
 		if alternativeDsts.length > 0
-			heap = alternativeDsts[0] #data.counter % alternativeDsts.length]  
+			heap = alternativeDsts[0]
 			if sharp then makeMove board,marked[0],heap,true
-			#data.lastMarked = marked 
 			return heap
 
 	return marked[0] # no Move can happen

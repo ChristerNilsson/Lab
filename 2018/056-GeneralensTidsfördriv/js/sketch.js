@@ -1052,9 +1052,9 @@ oneClick = function oneClick(marked, board) {
   var sharp = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
 
   var found, heap, holes, l, len, len1, m, ref;
-  //if _.isEqual data.lastMarked, marked then data.counter++ else data.counter = 0
   holes = [];
   found = false;
+  alternativeDsts = []; // för att kunna välja mellan flera via Cycle Moves
   for (l = 0, len = ACES.length; l < len; l++) {
     heap = ACES[l];
     if (legalMove(board, marked[0], heap)) {
@@ -1067,7 +1067,6 @@ oneClick = function oneClick(marked, board) {
   }
   if (!found) {
     // Går ej att flytta till något ess. 
-    alternativeDsts = []; // för att kunna välja mellan flera via Cycle Moves
     for (m = 0, len1 = HEAPS.length; m < len1; m++) {
       heap = HEAPS[m];
       if (board[heap].length === 0) {
@@ -1088,7 +1087,6 @@ oneClick = function oneClick(marked, board) {
       if (sharp) {
         makeMove(board, marked[0], heap, true);
       }
-      //data.lastMarked = marked 
       return heap;
     }
   }
