@@ -708,7 +708,7 @@ menu1 = function menu1() {
     hint();
     return dialogues.pop();
   });
-  dialogue.buttons[2].info(general.competition ? '' : 'Link', function () {
+  dialogue.buttons[2].info('Link', function () {
     var link, msg;
     link = makeLink();
     copyToClipboard(link);
@@ -718,7 +718,7 @@ menu1 = function menu1() {
   print(!general.competition || general.blackBox.success);
   s = !general.competition || general.blackBox.success ? 'Harder' : '';
   dialogue.buttons[3].info(s, function () {
-    general.level = constrain(general.level + 1, 0, general.maxLevel);
+    general.level = constrain((general.level + 1) % 16, 0, general.maxLevel);
     newGame(general.level);
     general.timeUsed = 0;
     return dialogues.pop();
@@ -732,7 +732,7 @@ menu1 = function menu1() {
     newGame(general.level);
     return dialogues.pop();
   });
-  return dialogue.buttons[6].info('Restart', function () {
+  return dialogue.buttons[6].info('More...', function () {
     return menu2();
   });
 };
@@ -743,7 +743,7 @@ menu2 = function menu2() {
   r1 = 0.25 * height;
   r2 = 0.11 * height;
   dialogue.clock(' ', 3, r1, r2, 90 + 360 / 6);
-  dialogue.buttons[0].info('Normal Restart', function () {
+  dialogue.buttons[0].info('Restart', function () {
     restart();
     dialogues.pop();
     return dialogues.pop();
@@ -871,18 +871,17 @@ showInfo = function showInfo() {
     }
   }
   text("Level: " + general.level, 7.95 * w, 2.4 * h);
+  text("Cards: " + (4 * N - countAceCards(board)), 7.95 * w, 2.6 * h);
   if (!general.competition) {
-    text("Hints: " + general.hintsUsed, 7.95 * w, 2.6 * h);
+    text("Hints: " + general.hintsUsed, 7.95 * w, 2.8 * h);
   }
-  text("Seed: " + currentSeed, 7.95 * w, 2.8 * h);
-  if (general.competition) {
-    text("Ace Cards: " + countAceCards(board), 7.95 * w, 3.0 * h);
-  }
+  text("Seed: " + currentSeed, 7.95 * w, 3.0 * h);
   textAlign(CENTER, CENTER);
-  textSize(0.4 * h);
+  textSize(1.0 * h);
   stroke(0, 64, 0);
   noFill();
-  return text('Generalens Tidsfördriv', 4 * w, 1.5 * h);
+  text('Generalens', 4 * w, 0.5 * h);
+  return text('Tidsfördriv', 4 * w, 1.5 * h);
 };
 
 showDialogue = function showDialogue() {

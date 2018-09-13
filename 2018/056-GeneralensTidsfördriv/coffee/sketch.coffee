@@ -358,7 +358,7 @@ menu1 = ->
 		hint()
 		dialogues.pop()
 
-	dialogue.buttons[2].info (if general.competition then '' else 'Link'), ->
+	dialogue.buttons[2].info 'Link', ->
 		link = makeLink()
 		copyToClipboard link		
 		msg = 'Link copied to clipboard'
@@ -367,7 +367,7 @@ menu1 = ->
 	print not general.competition or general.blackBox.success
 	s = if not general.competition or general.blackBox.success then 'Harder' else '' 
 	dialogue.buttons[3].info s, -> 
-		general.level = constrain general.level+1,0,general.maxLevel
+		general.level = constrain (general.level+1) % 16, 0, general.maxLevel
 		newGame general.level
 		general.timeUsed = 0
 		dialogues.pop()
@@ -381,7 +381,7 @@ menu1 = ->
 		newGame general.level
 		dialogues.pop()
 
-	dialogue.buttons[6].info 'Restart', -> 
+	dialogue.buttons[6].info 'More...', -> 
 		menu2()
 
 menu2 = ->
@@ -391,7 +391,7 @@ menu2 = ->
 	r2 = 0.11 * height
 	dialogue.clock ' ',3,r1,r2,90+360/6
 
-	dialogue.buttons[0].info 'Normal Restart', -> 
+	dialogue.buttons[0].info 'Restart', -> 
 		restart()
 		dialogues.pop()
 		dialogues.pop()
@@ -478,15 +478,16 @@ showInfo = ->
 		if general.competition then text c, 4*w,y
 
 	text "Level: #{general.level}",7.95*w,2.4*h
-	if not general.competition then text "Hints: #{general.hintsUsed}",7.95*w,2.6*h
-	text "Seed: #{currentSeed}",7.95*w,2.8*h
-	if general.competition then text "Ace Cards: #{countAceCards board}",7.95*w,3.0*h
+	text "Cards: #{4*N - countAceCards(board)}",7.95*w,2.6*h
+	if not general.competition then text "Hints: #{general.hintsUsed}",7.95*w,2.8*h
+	text "Seed: #{currentSeed}",7.95*w,3.0*h
 
 	textAlign CENTER,CENTER
-	textSize 0.4*h
+	textSize 1.0*h
 	stroke 0,64,0
 	noFill()
-	text 'Generalens Tidsfördriv', 4*w,1.5*h
+	text 'Generalens',  4*w,0.5*h
+	text 'Tidsfördriv', 4*w,1.5*h
 
 showDialogue = -> if dialogues.length > 0 then (_.last dialogues).show()
 
