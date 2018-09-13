@@ -654,19 +654,19 @@ mousePressed = ->
 	mx = mouseX//w
 	my = mouseY//h
 
-	if 0 < _.size indicators
-		indicators = {}
-	else		
-		dialogue = _.last dialogues
-		if dialogues.length==0 or not dialogue.execute mouseX,mouseY 
-			indicators = {}
+	#if 0 < _.size indicators then 
+	indicators = {}
+	#else		
+	dialogue = _.last dialogues
+	if dialogues.length == 0 or not dialogue.execute mouseX,mouseY 
+		#indicators = {}
 
-			if mx == 8 or hitGreen mx,my,mouseX,mouseY 
-				if dialogues.length == 0 then menu1() else dialogues.pop()
-				display board
-				return
+		if mx == 8 or hitGreen mx,my,mouseX,mouseY 
+			if dialogues.length == 0 then menu1() else dialogues.pop()
+			display board
+			return
 
-			general.handle mx,my
+		general.handle mx,my
 
 	display board
 

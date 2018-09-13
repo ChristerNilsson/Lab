@@ -1163,23 +1163,23 @@ mousePressed = function mousePressed() {
   }
   mx = Math.floor(mouseX / w);
   my = Math.floor(mouseY / h);
-  if (0 < _.size(indicators)) {
-    indicators = {};
-  } else {
-    dialogue = _.last(dialogues);
-    if (dialogues.length === 0 || !dialogue.execute(mouseX, mouseY)) {
-      indicators = {};
-      if (mx === 8 || hitGreen(mx, my, mouseX, mouseY)) {
-        if (dialogues.length === 0) {
-          menu1();
-        } else {
-          dialogues.pop();
-        }
-        display(board);
-        return;
+  //if 0 < _.size indicators then 
+  indicators = {};
+  //else		
+  dialogue = _.last(dialogues);
+  if (dialogues.length === 0 || !dialogue.execute(mouseX, mouseY)) {
+
+    //indicators = {}
+    if (mx === 8 || hitGreen(mx, my, mouseX, mouseY)) {
+      if (dialogues.length === 0) {
+        menu1();
+      } else {
+        dialogues.pop();
       }
-      general.handle(mx, my);
+      display(board);
+      return;
     }
+    general.handle(mx, my);
   }
   return display(board);
 };
