@@ -14,15 +14,13 @@ Menyn nås genom att klicka på den gröna bakgrunden eller något av essen.
 * [Undo] Ångrar senaste drag. Talet visar antalet drag som utförts. Draget indikeras med gult mynt och gul ring
 * [Hint] Ger en ledtråd. Se röd/grön indikator. Talet visar antalet Hints som utförts
   * Prova även att göra en Restart innan du klickar på Hint. Då slipper du eventuella Undo.
-* [Cycle Move] Ibland hamnar korten på en annan plats än du tänkt dig. Med detta kommando kan du välja mellan alternativa platser. Klicka på mittcirkeln då du är nöjd.
+* [Cycle Move] Ibland placeras korten på en annan plats än du tänkt dig. Med detta kommando kan du välja mellan alternativa platser. Klicka på mittcirkeln då du är nöjd.
 * [More...]
-  * [Restart]
-  * [Total Restart] Innebär att starta om från Level 0. Alla Nivåer måste ånyo lösas
+  * [Restart] Återställ korten för denna Nivå.
+  * [Total Restart] Innebär att starta om från Nivå 0. Alla Nivåer måste ånyo lösas
 	* [Link] Sparar en länk till aktuell patiens till klippbordet
   * [Start/Exit Competition]
-* [Easier] Går till en lättare nivå
-* [Go] Startar om på samma nivå
-* [Harder] Går till en svårare nivå
+* [Next] Går till nästa nivå
 
 # Nivåer 
 Classic innebär att sekvenserna är lika långa.
@@ -52,7 +50,7 @@ Svårare nivåer kan nås genom att utföra så få drag som möjligt och utan a
 * Man måste själv utföra de föreslagna dragen
 * Använder man Hint kan man inte avancera till nästa nivå
 
-# Indikatorer 
+# Indikatorer
 
 * [From] visar var draget börjar
 * [To] visar var draget slutar

@@ -11,22 +11,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 // Copyright 2015 - Chris Aguilar - conjurenation@gmail.com
 // Licensed under LGPL 3 - www.gnu.org/copyleft/lesser.html
 
-//  4  4  4  4  4  0  8  8  8  8  8
-//  5  5  5  5  5  1  9  9  9  9  9
-//  6  6  6  6  6  2 10 10 10 10 10
-//  7  7  7  7  7  3 11 11 11 11 11
-//    12 13 14 15    16 17 18 19      PANEL
-
-// I vissa situationer vill man styra one click.
-// Exempel:
-// Vid klick på 6 vill man ha 7,6 istf 5,6
-// 5     3,4,6      7
-// Tidigare
-// 5,6   3,4        7
-// samt klick på 6 ger
-//                  7,6,5
-// men man vill kanske ha
-// 5     3,4        7,6
+//  4  5  6  7  8  9 10 11  0 
+//  4  5  6  7  8  9 10 11  1
+//  4  5  6  7  8  9 10 11  2 
+//  4  5  6  7  8  9 10 11  3
+//  4  5  6  7  8  9 10 11
+// 12 13 14 15 16 17 18 19  PANEL
 var ACES,
     BlackBox,
     General,
@@ -39,7 +29,6 @@ var ACES,
     PANEL,
     RANK,
     Rank,
-    SEQS,
     SUIT,
     Suit,
     W,
@@ -117,13 +106,11 @@ var ACES,
 },
     indexOf = [].indexOf;
 
-SEQS = 8; // 6: kan fungera, 4: tar mkt lång tid att skapa problem
-
 ACES = [0, 1, 2, 3];
 
-HEAPS = [4, 5, 6, 7, 8, 9, 10, 11].slice(0, SEQS);
+HEAPS = [4, 5, 6, 7, 8, 9, 10, 11];
 
-PANEL = [12, 13, 14, 15, 16, 17, 18, 19].slice(0, SEQS);
+PANEL = [12, 13, 14, 15, 16, 17, 18, 19];
 
 Suit = 'chsd';
 
@@ -274,6 +261,7 @@ BlackBox = function () {
   _createClass(BlackBox, [{
     key: "probe",
     value: function probe(time, computer, human) {
+      print('probe', this.total[2], human, this.total[1], computer, this.total[2] + human > this.total[1] + computer);
       if (this.total[2] + human > this.total[1] + computer) {
         this.success = false;
         return this.success;
@@ -306,14 +294,12 @@ General = function () {
     _classCallCheck(this, General);
 
     this.competition = false;
-    this.timeUsed = 0;
     this.start = null;
-    this.level = 0;
-    this.maxLevel = 0;
     this.maxMoves = null;
     this.hist = null;
     this.hintsUsed = null;
     this.blackBox = new BlackBox();
+    this.clr();
   }
 
   _createClass(General, [{
@@ -321,7 +307,8 @@ General = function () {
     value: function clr() {
       this.blackBox.clr();
       this.level = 0;
-      return this.maxLevel = 0;
+      this.maxLevel = 0;
+      return this.timeUsed = 0;
     }
   }, {
     key: "handle",
@@ -518,7 +505,7 @@ dumpBoard = function dumpBoard(board) {
 };
 
 makeBoard = function makeBoard(lvl) {
-  var card, classic, heap, i, l, len, len1, len2, len3, len4, len5, m, o, p, q, rank, ref, ref1, ref2, ref3, suit, t, zz;
+  var card, classic, heap, i, l, len, len1, len2, len3, len4, len5, m, o, p, q, rank, ref, ref1, ref2, ref3, suit, t;
   N = [3, 4, 5, 5, 6, 7, 7, 8, 9, 9, 10, 11, 11, 12, 13, 13][lvl];
   classic = lvl % 3 === 0;
   //N = maxRank
@@ -552,8 +539,8 @@ makeBoard = function makeBoard(lvl) {
   }
   for (i = t = 0, len5 = cards.length; t < len5; i = ++t) {
     card = cards[i];
-    zz = classic ? 4 + i % SEQS : myRandom(4, 4 + SEQS);
-    board[zz].push(card);
+    heap = classic ? 4 + i % 8 : myRandom(4, 12);
+    board[heap].push(card);
   }
   return compress(board);
 };
@@ -600,7 +587,7 @@ fakeBoard = function fakeBoard() {
 
 setup = function setup() {
   var canvas, level, maxLevel, n, params;
-  print('Y');
+  print('Z');
   canvas = createCanvas(innerWidth - 0.5, innerHeight - 0.5);
   canvas.position(0, 0); // hides text field used for clipboard copy.
   general = new General();
@@ -670,7 +657,6 @@ getCenter = function getCenter(heap) {
   if (indexOf.call(HEAPS, heap) >= 0) {
     n = calcAntal(board[heap]);
     dy = n === 0 ? 0 : min(h / 4, 2 * h / (n - 1));
-    //print 'getCenter',heap,n,dy
     return [int((heap - 4) * w), int((n - 1) * dy)];
   }
 };
@@ -708,8 +694,7 @@ menu1 = function menu1() {
   dialogue = new Dialogue(1, int(4 * w), int(1.5 * h), int(0.15 * h));
   r1 = 0.25 * height;
   r2 = 0.085 * height;
-  dialogue.clock(' ', 7, r1, r2, 90 + 360 / 14);
-  //s = if general.hist.length == 0 then '' else 'Undo'	
+  dialogue.clock(' ', 5, r1, r2, 90 + 360 / 10);
   dialogue.buttons[0].info('Undo', general.hist.length > 0, function () {
     var antal, dst, src;
     if (general.hist.length > 0) {
@@ -722,7 +707,6 @@ menu1 = function menu1() {
       antal = _$last2[2];
 
       dialogues.pop();
-      //			menu0 src,dst,'#ff0'
       undoMove(general.hist.pop());
       return menu0(src, dst, '#ff0');
     } else {
@@ -733,8 +717,6 @@ menu1 = function menu1() {
     dialogues.pop();
     return hint(); // Lägger till menu0
   });
-
-  //s = if alternativeDsts.length <= 1 then '' else 'Cycle Move'
   dialogue.buttons[2].info('Cycle Move', alternativeDsts.length > 1, function () {
     var antal, dst, heap, src;
     alternativeDsts.push(alternativeDsts.shift());
@@ -752,25 +734,21 @@ menu1 = function menu1() {
     return makeMove(board, src, heap, true);
   });
   // dialogues.pop() # do not pop!
-
-  //print not general.competition or general.blackBox.success
-  //s = if not general.competition or general.blackBox.success then 'Harder' else '' 
-  dialogue.buttons[3].info('Harder', !general.competition || general.blackBox.success, function () {
+  dialogue.buttons[3].info('Next', !general.competition || general.blackBox.success, function () {
     general.level = constrain((general.level + 1) % 16, 0, general.maxLevel);
     newGame(general.level);
     general.timeUsed = 0;
     return dialogues.pop();
   });
-  dialogue.buttons[4].info('Go', !general.competition, function () {
-    newGame(general.level);
-    return dialogues.pop();
-  });
-  dialogue.buttons[5].info('Easier', !general.competition, function () {
-    general.level = constrain(general.level - 1, 0, general.maxLevel);
-    newGame(general.level);
-    return dialogues.pop();
-  });
-  return dialogue.buttons[6].info('More...', true, function () {
+  // dialogue.buttons[4].info 'Go', not general.competition, ->
+  // 	newGame general.level
+  // 	dialogues.pop()
+
+  // dialogue.buttons[5].info 'Easier', not general.competition, -> 
+  // 	general.level = constrain general.level-1,0,general.maxLevel
+  // 	newGame general.level
+  // 	dialogues.pop()
+  return dialogue.buttons[4].info('More...', true, function () {
     return menu2();
   });
 };
@@ -783,25 +761,21 @@ menu2 = function menu2() {
   dialogue.clock(' ', 4, r1, r2, 90 + 360 / 8);
   dialogue.buttons[0].info('Restart', true, function () {
     restart();
-    dialogues.pop();
-    return dialogues.pop();
+    return dialogues.clear();
   });
   dialogue.buttons[1].info('Total Restart', !general.competition, function () {
     delete localStorage.Generalen;
     general.clr();
     newGame(0);
-    dialogues.pop();
-    return dialogues.pop();
+    return dialogues.clear();
   });
   s = general.competition ? 'Exit Competition' : 'Start Competition';
   dialogue.buttons[2].info(s, true, function () {
     general.competition = !general.competition;
     delete localStorage.Generalen;
-    general.races = [];
-    general.maxLevel = 0;
+    general.clr();
     newGame(0);
-    dialogues.pop();
-    return dialogues.pop();
+    return dialogues.clear();
   });
   return dialogue.buttons[3].info('Link', true, function () {
     var link;
@@ -809,8 +783,7 @@ menu2 = function menu2() {
     copyToClipboard(link);
 
     //msg = 'Link copied to clipboard'
-    dialogues.pop();
-    return dialogues.pop();
+    return dialogues.clear();
   });
 };
 
@@ -860,7 +833,6 @@ showHeap = function showHeap(board, heap, x, y, dy) {
   }
 };
 
-//showIndicator heap,x,if heap in HEAPS then y-dy else y
 display = function display(board) {
   var dy, heap, l, len, len1, len2, m, n, o, x, y;
   background(0, 128, 0);
@@ -933,7 +905,6 @@ showInfo = function showInfo() {
 
 showDialogue = function showDialogue() {
   if (dialogues.length > 0) {
-    //print 'showDialogue',dialogues
     return _.last(dialogues).show();
   }
 };
@@ -1187,11 +1158,8 @@ mousePressed = function mousePressed() {
   }
   mx = Math.floor(mouseX / w);
   my = Math.floor(mouseY / h);
-  //print 'dialogues',dialogues
   if (dialogues.length === 1 && dialogues[0].number === 0) {
-
-    //print '0 popped'
-    dialogues.pop();
+    dialogues.pop(); // dölj indikatorer
   }
   dialogue = _.last(dialogues);
   if (dialogues.length === 0 || !dialogue.execute(mouseX, mouseY)) {

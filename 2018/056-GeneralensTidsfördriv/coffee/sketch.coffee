@@ -2,28 +2,16 @@
 # Copyright 2015 - Chris Aguilar - conjurenation@gmail.com
 # Licensed under LGPL 3 - www.gnu.org/copyleft/lesser.html
 
-#  4  4  4  4  4  0  8  8  8  8  8
-#  5  5  5  5  5  1  9  9  9  9  9
-#  6  6  6  6  6  2 10 10 10 10 10
-#  7  7  7  7  7  3 11 11 11 11 11
-#    12 13 14 15    16 17 18 19      PANEL
+#  4  5  6  7  8  9 10 11  0 
+#  4  5  6  7  8  9 10 11  1
+#  4  5  6  7  8  9 10 11  2 
+#  4  5  6  7  8  9 10 11  3
+#  4  5  6  7  8  9 10 11
+# 12 13 14 15 16 17 18 19  PANEL
 
-# I vissa situationer vill man styra one click.
-# Exempel:
-# Vid klick på 6 vill man ha 7,6 istf 5,6
-# 5     3,4,6      7
-# Tidigare
-# 5,6   3,4        7
-# samt klick på 6 ger
-#                  7,6,5
-# men man vill kanske ha
-# 5     3,4        7,6
-
-SEQS = 8 # 6: kan fungera, 4: tar mkt lång tid att skapa problem
-
-ACES = [0,1,2,3]
-HEAPS = [4,5,6,7,8,9,10,11].slice 0,SEQS
-PANEL = [12,13,14,15,16,17,18,19].slice 0,SEQS
+ACES  = [0,1,2,3]
+HEAPS = [4,5,6,7,8,9,10,11]
+PANEL = [12,13,14,15,16,17,18,19]
 
 Suit = 'chsd'
 Rank = "A23456789TJQK"
@@ -106,6 +94,7 @@ makeLink = ->
 class BlackBox # Avgör om man lyckats eller ej. Man får tillgodogöra sig tidigare drag.
 	constructor : -> @clr()
 	probe : (time,computer,human) ->
+		print 'probe',@total[2], human, @total[1], computer, @total[2] + human > @total[1] + computer
 		if @total[2] + human > @total[1] + computer 
 			@success = false
 			return @success 
@@ -122,19 +111,18 @@ class BlackBox # Avgör om man lyckats eller ej. Man får tillgodogöra sig tidi
 class General
 	constructor : ->
 		@competition = false 
-		@timeUsed = 0
 		@start = null
-		@level = 0
-		@maxLevel = 0
 		@maxMoves = null
 		@hist = null
 		@hintsUsed = null
 		@blackBox = new BlackBox()
+		@clr()
 
 	clr : ->
 		@blackBox.clr()
 		@level = 0
 		@maxLevel = 0 
+		@timeUsed = 0
 
 	handle : (mx,my) ->
 		marked = [(mx + if my >= 3 then 12 else 4),my]
@@ -255,8 +243,8 @@ makeBoard = (lvl)->
 		board[heap].push cards.pop()
 
 	for card,i in cards
-		zz = if classic then 4+i%SEQS else myRandom 4,4+SEQS
-		board[zz].push card
+		heap = if classic then 4+i%8 else myRandom 4,12
+		board[heap].push card
 
 	compress board
 
@@ -276,7 +264,7 @@ fakeBoard = ->
 	print board
 
 setup = ->
-	print 'Y'
+	print 'Z'
 	canvas = createCanvas innerWidth-0.5, innerHeight-0.5
 	canvas.position 0,0 # hides text field used for clipboard copy.
 
@@ -334,7 +322,6 @@ getCenter = (heap) ->
 	if heap in HEAPS 
 		n = calcAntal board[heap]
 		dy = if n == 0 then 0 else min h/4,2*h/(n-1)
-		#print 'getCenter',heap,n,dy
 		return [int((heap-4)*w), int((n-1)*dy)]
 
 menu0 = (src,dst,col) ->
@@ -350,16 +337,12 @@ menu1 = ->
 
 	r1 = 0.25 * height 
 	r2 = 0.085 * height
-	dialogue.clock ' ',7,r1,r2,90+360/14
+	dialogue.clock ' ',5,r1,r2,90+360/10
 
-	#s = if general.hist.length == 0 then '' else 'Undo'	
 	dialogue.buttons[0].info 'Undo', general.hist.length > 0, -> 
 		if general.hist.length > 0 
 			[src,dst,antal] = _.last general.hist
-
 			dialogues.pop()
-#			menu0 src,dst,'#ff0'
-			
 			undoMove general.hist.pop()
 			menu0 src,dst,'#ff0'
 		else
@@ -369,7 +352,6 @@ menu1 = ->
 		dialogues.pop()
 		hint() # Lägger till menu0
 
-	#s = if alternativeDsts.length <= 1 then '' else 'Cycle Move'
 	dialogue.buttons[2].info 'Cycle Move', alternativeDsts.length > 1, ->
 		alternativeDsts.push alternativeDsts.shift()
 		[src,dst,antal] = general.hist.pop()
@@ -378,24 +360,22 @@ menu1 = ->
 		makeMove board,src,heap,true
 		# dialogues.pop() # do not pop!
 
-	#print not general.competition or general.blackBox.success
-	#s = if not general.competition or general.blackBox.success then 'Harder' else '' 
-	dialogue.buttons[3].info 'Harder', not general.competition or general.blackBox.success, -> 
+	dialogue.buttons[3].info 'Next', (not general.competition or general.blackBox.success), -> 
 		general.level = constrain (general.level+1) % 16, 0, general.maxLevel
 		newGame general.level
 		general.timeUsed = 0
 		dialogues.pop()
 
-	dialogue.buttons[4].info 'Go', not general.competition, ->
-		newGame general.level
-		dialogues.pop()
+	# dialogue.buttons[4].info 'Go', not general.competition, ->
+	# 	newGame general.level
+	# 	dialogues.pop()
 
-	dialogue.buttons[5].info 'Easier', not general.competition, -> 
-		general.level = constrain general.level-1,0,general.maxLevel
-		newGame general.level
-		dialogues.pop()
+	# dialogue.buttons[5].info 'Easier', not general.competition, -> 
+	# 	general.level = constrain general.level-1,0,general.maxLevel
+	# 	newGame general.level
+	# 	dialogues.pop()
 
-	dialogue.buttons[6].info 'More...', true, -> 
+	dialogue.buttons[4].info 'More...', true, -> 
 		menu2()
 
 menu2 = ->
@@ -407,32 +387,27 @@ menu2 = ->
 
 	dialogue.buttons[0].info 'Restart', true, -> 
 		restart()
-		dialogues.pop()
-		dialogues.pop()
+		dialogues.clear()
 
 	dialogue.buttons[1].info 'Total Restart', not general.competition, -> 
 		delete localStorage.Generalen
 		general.clr()
 		newGame 0
-		dialogues.pop()
-		dialogues.pop()
+		dialogues.clear()
 
 	s = if general.competition then 'Exit Competition' else 'Start Competition'
 	dialogue.buttons[2].info s, true, -> 
 		general.competition = not general.competition
 		delete localStorage.Generalen
-		general.races = []
-		general.maxLevel = 0 
+		general.clr()
 		newGame 0
-		dialogues.pop()
-		dialogues.pop()
+		dialogues.clear()
 
 	dialogue.buttons[3].info 'Link', true, ->
 		link = makeLink()
 		copyToClipboard link		
 		#msg = 'Link copied to clipboard'
-		dialogues.pop()
-		dialogues.pop()
+		dialogues.clear()
 
 showHeap = (board,heap,x,y,dy) -> # dy kan vara både pos och neg
 	n = calcAntal board[heap]
@@ -453,8 +428,6 @@ showHeap = (board,heap,x,y,dy) -> # dy kan vara både pos och neg
 		[suit,under,over] = unpack card
 		if heap in ACES and over == N-1
 			image backs, x, y, w,h*1.1, OFFSETX+860,1092+622,225,H-1
-
-	#showIndicator heap,x,if heap in HEAPS then y-dy else y
 
 display = (board) ->
 	background 0,128,0
@@ -510,10 +483,7 @@ showInfo = ->
 	text 'Generalens',  4*w,0.5*h
 	text 'Tidsfördriv', 4*w,1.5*h
 
-showDialogue = -> 
-	if dialogues.length > 0
-		#print 'showDialogue',dialogues
-		(_.last dialogues).show()
+showDialogue = -> if dialogues.length > 0 then (_.last dialogues).show()
 
 legalMove = (board,src,dst) ->
 	if src in ACES then return false 
@@ -657,10 +627,7 @@ mousePressed = ->
 	mx = mouseX//w
 	my = mouseY//h
 
-	#print 'dialogues',dialogues
-	if dialogues.length == 1 and dialogues[0].number == 0 
-		#print '0 popped'
-		dialogues.pop()
+	if dialogues.length == 1 and dialogues[0].number == 0 then dialogues.pop() # dölj indikatorer
 
 	dialogue = _.last dialogues
 	if dialogues.length == 0 or not dialogue.execute mouseX,mouseY 
