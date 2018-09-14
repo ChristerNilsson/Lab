@@ -87,9 +87,7 @@ makeLink = ->
 	url = window.location.href + '?'
 	index = url.indexOf '?'
 	url = url.substring 0,index
-	n = 16 * currentSeed + general.level
-	if general.competition then n = -n
-	url + '?cards=' + n
+	url + '?cards=' + currentSeed
 
 class BlackBox # Avgör om man lyckats eller ej. Man får tillgodogöra sig tidigare drag.
 	constructor : -> @clr()
@@ -110,7 +108,6 @@ class BlackBox # Avgör om man lyckats eller ej. Man får tillgodogöra sig tidi
 
 class General
 	constructor : ->
-		@competition = false 
 		@start = null
 		@maxMoves = null
 		@hist = null
@@ -129,18 +126,17 @@ class General
 		heap = oneClick marked,board,true
 
 		if @timeUsed == 0 and 4*N == countAceCards board
-			if @competition 
-				timeUsed = (millis() - @start) // 1000
-				if @blackBox.probe timeUsed,@maxMoves,@hist.length 
-					@timeUsed = timeUsed
-					@blackBox.show()
-					@maxLevel++ 
-			else
-				if @hist.length > @maxMoves * 1.1
-					msg = "Too many moves: #{@hist.length - @maxMoves}"
-				else if @hintsUsed == 0
-					@timeUsed = (millis() - @start) // 1000
-					if @level == @maxLevel then @maxLevel++ 
+			timeUsed = (millis() - @start) // 1000
+			if @blackBox.probe timeUsed,@maxMoves,@hist.length 
+				@timeUsed = timeUsed
+				@blackBox.show()
+				@maxLevel++ 
+			# else
+			# 	if @hist.length > @maxMoves * 1.1
+			# 		msg = "Too many moves: #{@hist.length - @maxMoves}"
+			# 	else if @hintsUsed == 0
+			# 		@timeUsed = (millis() - @start) // 1000
+			# 		if @level == @maxLevel then @maxLevel++ 
 			@maxLevel = constrain @maxLevel,0,15
 			localStorage.Generalen = JSON.stringify {@maxLevel,@level}
 			printManualSolution()
@@ -283,14 +279,8 @@ setup = ->
 
 	params = getParameters()
 	if 'cards' of params
-		n = parseInt params.cards
-		print n
-		general.competition = n < 0
-		n = abs n
-		general.level = n %% 16
-		seed = n // 16
-		print general.level
-		print seed
+		seed = parseInt params.cards
+		general.level = 0 
 	else
 		seed = int random 65536
 	general.level = constrain general.level,0,general.maxLevel
@@ -348,7 +338,7 @@ menu1 = ->
 		else
 			dialogues.pop()
 
-	dialogue.buttons[1].info 'Hint', not general.competition, -> 
+	dialogue.buttons[1].info 'Hint', true, -> 
 		dialogues.pop()
 		hint() # Lägger till menu0
 
@@ -360,20 +350,11 @@ menu1 = ->
 		makeMove board,src,heap,true
 		# dialogues.pop() # do not pop!
 
-	dialogue.buttons[3].info 'Next', (not general.competition or general.blackBox.success), -> 
+	dialogue.buttons[3].info 'Next', general.blackBox.success, -> 
 		general.level = constrain (general.level+1) % 16, 0, general.maxLevel
 		newGame general.level
 		general.timeUsed = 0
 		dialogues.pop()
-
-	# dialogue.buttons[4].info 'Go', not general.competition, ->
-	# 	newGame general.level
-	# 	dialogues.pop()
-
-	# dialogue.buttons[5].info 'Easier', not general.competition, -> 
-	# 	general.level = constrain general.level-1,0,general.maxLevel
-	# 	newGame general.level
-	# 	dialogues.pop()
 
 	dialogue.buttons[4].info 'More...', true, -> 
 		menu2()
@@ -383,27 +364,19 @@ menu2 = ->
 
 	r1 = 0.25 * height 
 	r2 = 0.11 * height
-	dialogue.clock ' ',4,r1,r2,90+360/8
+	dialogue.clock ' ',3,r1,r2,90+360/6
 
 	dialogue.buttons[0].info 'Restart', true, -> 
 		restart()
 		dialogues.clear()
 
-	dialogue.buttons[1].info 'Total Restart', not general.competition, -> 
+	dialogue.buttons[1].info 'Total Restart', true, -> 
 		delete localStorage.Generalen
 		general.clr()
 		newGame 0
 		dialogues.clear()
 
-	s = if general.competition then 'Exit Competition' else 'Start Competition'
-	dialogue.buttons[2].info s, true, -> 
-		general.competition = not general.competition
-		delete localStorage.Generalen
-		general.clr()
-		newGame 0
-		dialogues.clear()
-
-	dialogue.buttons[3].info 'Link', true, ->
+	dialogue.buttons[2].info 'Link', true, ->
 		link = makeLink()
 		copyToClipboard link		
 		#msg = 'Link copied to clipboard'
@@ -463,18 +436,17 @@ showInfo = ->
 	infoLines[4][2] = total[0] 
 
 	for [a,b,c],i in infoLines
-		if i==1 and not general.competition then continue
+		#if i==1 and not general.competition then continue
 		y = h*(2.2 + 0.2*i)
 		textAlign LEFT,BOTTOM
 		text a, 0.05*w,y
 		textAlign RIGHT,BOTTOM
 		text b, 3*w,y
-		if general.competition then text c, 4*w,y
+		text c, 4*w,y
 
 	text "Level: #{general.level}",7.95*w,2.4*h
 	text "Cards: #{4*N - countAceCards(board)}",7.95*w,2.6*h
-	if not general.competition then text "Hints: #{general.hintsUsed}",7.95*w,2.8*h
-	#text "Seed: #{currentSeed}",7.95*w,3.0*h
+	text "Hints: #{general.hintsUsed}",7.95*w,2.8*h
 
 	textAlign CENTER,CENTER
 	textSize 1.0*h

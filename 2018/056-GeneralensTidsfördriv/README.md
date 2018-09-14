@@ -26,7 +26,7 @@ Menyn nås genom att klicka på den gröna bakgrunden eller något av essen.
 Classic innebär att sekvenserna är lika långa.
 Svårare nivåer kan nås genom att utföra så få drag som möjligt och utan att använda Hint.
 
-* 0 = Classic Ess till 3. Lätt
+* 0 = Classic Ess till 3. Lätt (Cards=8)
 * 1 = Ess till 4
 * 2 = Ess till 5
 * 3 = Classic Ess till 5
@@ -41,7 +41,7 @@ Svårare nivåer kan nås genom att utföra så få drag som möjligt och utan a
 * 12 = Classic Ess till Knekt
 * 13 = Ess till Dam
 * 14 = Ess till Kung
-* 15 = Classic Ess till Kung. Svår
+* 15 = Classic Ess till Kung. Svår (Cards=48)
 
 # Hints
 
@@ -92,7 +92,17 @@ Motsvarar Nivå 15.
 * Man måste bygga uppåt på essen.
 * Man kan ej använda något fängelse.
 
-![](bild0.jpg "Start")
-![](bild1.jpg "Menu")
-![](bild2.jpg "Classic")
-![](bild3.jpg "Wild")
+# Bilden
+
+* Vi befinner oss 7 drag in i lösandet av en patiens på nivå 11
+* Datorn har redan löst problemet. Det går att lösa på 53 drag
+* Dock händer det ganska ofta att kortare lösningar finns
+* Det senaste draget flyttade spader 9 från klöver 2 till spader 8
+* Detta går att ångra med Undo
+* Vill man istället placera spadera 9 på spader 10 kan det göras med Cycle Move
+* Nivå 11 innebär att 44 kort ska placeras. Av dessa har just nu 4 placerats på essen
+* Normalt innebär ett drag att två kort kopplas ihop
+* Talet 9 (53-44) anger hur många drag som inte kopplar ihop två kort
+* T ex genom att flytta ett kort eller en hög till ett hål
+
+![](bild0.jpg "GT")

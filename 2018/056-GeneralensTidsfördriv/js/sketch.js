@@ -101,9 +101,6 @@ var ACES,
     undoMoveOne,
     unpack,
     w,
-    modulo = function modulo(a, b) {
-  return (+a % (b = +b) + b) % b;
-},
     indexOf = [].indexOf;
 
 ACES = [0, 1, 2, 3];
@@ -239,15 +236,11 @@ copyToClipboard = function copyToClipboard(txt) {
 };
 
 makeLink = function makeLink() {
-  var index, n, url;
+  var index, url;
   url = window.location.href + '?';
   index = url.indexOf('?');
   url = url.substring(0, index);
-  n = 16 * currentSeed + general.level;
-  if (general.competition) {
-    n = -n;
-  }
-  return url + '?cards=' + n;
+  return url + '?cards=' + currentSeed;
 };
 
 BlackBox = function () {
@@ -293,7 +286,6 @@ General = function () {
   function General() {
     _classCallCheck(this, General);
 
-    this.competition = false;
     this.start = null;
     this.maxMoves = null;
     this.hist = null;
@@ -313,27 +305,23 @@ General = function () {
   }, {
     key: "handle",
     value: function handle(mx, my) {
-      var heap, marked, msg, timeUsed;
+      var heap, marked, timeUsed;
       marked = [mx + (my >= 3 ? 12 : 4), my];
       heap = oneClick(marked, board, true);
       if (this.timeUsed === 0 && 4 * N === countAceCards(board)) {
-        if (this.competition) {
-          timeUsed = Math.floor((millis() - this.start) / 1000);
-          if (this.blackBox.probe(timeUsed, this.maxMoves, this.hist.length)) {
-            this.timeUsed = timeUsed;
-            this.blackBox.show();
-            this.maxLevel++;
-          }
-        } else {
-          if (this.hist.length > this.maxMoves * 1.1) {
-            msg = "Too many moves: " + (this.hist.length - this.maxMoves);
-          } else if (this.hintsUsed === 0) {
-            this.timeUsed = Math.floor((millis() - this.start) / 1000);
-            if (this.level === this.maxLevel) {
-              this.maxLevel++;
-            }
-          }
+        timeUsed = Math.floor((millis() - this.start) / 1000);
+        if (this.blackBox.probe(timeUsed, this.maxMoves, this.hist.length)) {
+          this.timeUsed = timeUsed;
+          this.blackBox.show();
+          this.maxLevel++;
         }
+
+        // else
+        // 	if @hist.length > @maxMoves * 1.1
+        // 		msg = "Too many moves: #{@hist.length - @maxMoves}"
+        // 	else if @hintsUsed == 0
+        // 		@timeUsed = (millis() - @start) // 1000
+        // 		if @level == @maxLevel then @maxLevel++ 
         this.maxLevel = constrain(this.maxLevel, 0, 15);
         localStorage.Generalen = JSON.stringify({ maxLevel: this.maxLevel, level: this.level });
         return printManualSolution();
@@ -586,7 +574,7 @@ fakeBoard = function fakeBoard() {
 };
 
 setup = function setup() {
-  var canvas, level, maxLevel, n, params;
+  var canvas, level, maxLevel, params;
   print('Z');
   canvas = createCanvas(innerWidth - 0.5, innerHeight - 0.5);
   canvas.position(0, 0); // hides text field used for clipboard copy.
@@ -611,14 +599,8 @@ setup = function setup() {
   general.level = level;
   params = getParameters();
   if ('cards' in params) {
-    n = parseInt(params.cards);
-    print(n);
-    general.competition = n < 0;
-    n = abs(n);
-    general.level = modulo(n, 16);
-    seed = Math.floor(n / 16);
-    print(general.level);
-    print(seed);
+    seed = parseInt(params.cards);
+    general.level = 0;
   } else {
     seed = int(random(65536));
   }
@@ -713,7 +695,7 @@ menu1 = function menu1() {
       return dialogues.pop();
     }
   });
-  dialogue.buttons[1].info('Hint', !general.competition, function () {
+  dialogue.buttons[1].info('Hint', true, function () {
     dialogues.pop();
     return hint(); // Lägger till menu0
   });
@@ -734,50 +716,34 @@ menu1 = function menu1() {
     return makeMove(board, src, heap, true);
   });
   // dialogues.pop() # do not pop!
-  dialogue.buttons[3].info('Next', !general.competition || general.blackBox.success, function () {
+  dialogue.buttons[3].info('Next', general.blackBox.success, function () {
     general.level = constrain((general.level + 1) % 16, 0, general.maxLevel);
     newGame(general.level);
     general.timeUsed = 0;
     return dialogues.pop();
   });
-  // dialogue.buttons[4].info 'Go', not general.competition, ->
-  // 	newGame general.level
-  // 	dialogues.pop()
-
-  // dialogue.buttons[5].info 'Easier', not general.competition, -> 
-  // 	general.level = constrain general.level-1,0,general.maxLevel
-  // 	newGame general.level
-  // 	dialogues.pop()
   return dialogue.buttons[4].info('More...', true, function () {
     return menu2();
   });
 };
 
 menu2 = function menu2() {
-  var dialogue, r1, r2, s;
+  var dialogue, r1, r2;
   dialogue = new Dialogue(2, int(4 * w), int(1.5 * h), int(0.15 * h));
   r1 = 0.25 * height;
   r2 = 0.11 * height;
-  dialogue.clock(' ', 4, r1, r2, 90 + 360 / 8);
+  dialogue.clock(' ', 3, r1, r2, 90 + 360 / 6);
   dialogue.buttons[0].info('Restart', true, function () {
     restart();
     return dialogues.clear();
   });
-  dialogue.buttons[1].info('Total Restart', !general.competition, function () {
+  dialogue.buttons[1].info('Total Restart', true, function () {
     delete localStorage.Generalen;
     general.clr();
     newGame(0);
     return dialogues.clear();
   });
-  s = general.competition ? 'Exit Competition' : 'Start Competition';
-  dialogue.buttons[2].info(s, true, function () {
-    general.competition = !general.competition;
-    delete localStorage.Generalen;
-    general.clr();
-    newGame(0);
-    return dialogues.clear();
-  });
-  return dialogue.buttons[3].info('Link', true, function () {
+  return dialogue.buttons[2].info('Link', true, function () {
     var link;
     link = makeLink();
     copyToClipboard(link);
@@ -871,30 +837,22 @@ showInfo = function showInfo() {
   infoLines[3][2] = total[2];
   infoLines[4][2] = total[0];
   for (i = l = 0, len = infoLines.length; l < len; i = ++l) {
+    //if i==1 and not general.competition then continue
     var _infoLines$i = _slicedToArray(infoLines[i], 3);
 
     a = _infoLines$i[0];
     b = _infoLines$i[1];
     c = _infoLines$i[2];
-
-    if (i === 1 && !general.competition) {
-      continue;
-    }
     y = h * (2.2 + 0.2 * i);
     textAlign(LEFT, BOTTOM);
     text(a, 0.05 * w, y);
     textAlign(RIGHT, BOTTOM);
     text(b, 3 * w, y);
-    if (general.competition) {
-      text(c, 4 * w, y);
-    }
+    text(c, 4 * w, y);
   }
   text("Level: " + general.level, 7.95 * w, 2.4 * h);
   text("Cards: " + (4 * N - countAceCards(board)), 7.95 * w, 2.6 * h);
-  if (!general.competition) {
-    text("Hints: " + general.hintsUsed, 7.95 * w, 2.8 * h);
-  }
-  //text "Seed: #{currentSeed}",7.95*w,3.0*h
+  text("Hints: " + general.hintsUsed, 7.95 * w, 2.8 * h);
   textAlign(CENTER, CENTER);
   textSize(1.0 * h);
   stroke(0, 64, 0);
