@@ -352,8 +352,8 @@ menu1 = ->
 	r2 = 0.085 * height
 	dialogue.clock ' ',7,r1,r2,90+360/14
 
-	s = if general.hist.length == 0 then '' else 'Undo'	
-	dialogue.buttons[0].info s, -> 
+	#s = if general.hist.length == 0 then '' else 'Undo'	
+	dialogue.buttons[0].info 'Undo', general.hist.length > 0, -> 
 		if general.hist.length > 0 
 			[src,dst,antal] = _.last general.hist
 
@@ -365,12 +365,12 @@ menu1 = ->
 		else
 			dialogues.pop()
 
-	dialogue.buttons[1].info (if general.competition then '' else 'Hint'), -> 
+	dialogue.buttons[1].info 'Hint', not general.competition, -> 
 		dialogues.pop()
 		hint() # Lägger till menu0
 
-	s = if alternativeDsts.length <= 1 then '' else 'Cycle Move'
-	dialogue.buttons[2].info s, ->
+	#s = if alternativeDsts.length <= 1 then '' else 'Cycle Move'
+	dialogue.buttons[2].info 'Cycle Move', alternativeDsts.length > 1, ->
 		alternativeDsts.push alternativeDsts.shift()
 		[src,dst,antal] = general.hist.pop()
 		undoMove [src,dst,antal]
@@ -379,23 +379,23 @@ menu1 = ->
 		# dialogues.pop() # do not pop!
 
 	#print not general.competition or general.blackBox.success
-	s = if not general.competition or general.blackBox.success then 'Harder' else '' 
-	dialogue.buttons[3].info s, -> 
+	#s = if not general.competition or general.blackBox.success then 'Harder' else '' 
+	dialogue.buttons[3].info 'Harder', not general.competition or general.blackBox.success, -> 
 		general.level = constrain (general.level+1) % 16, 0, general.maxLevel
 		newGame general.level
 		general.timeUsed = 0
 		dialogues.pop()
 
-	dialogue.buttons[4].info (if general.competition then '' else 'Go'), ->
+	dialogue.buttons[4].info 'Go', not general.competition, ->
 		newGame general.level
 		dialogues.pop()
 
-	dialogue.buttons[5].info (if general.competition then '' else 'Easier'), -> 
+	dialogue.buttons[5].info 'Easier', not general.competition, -> 
 		general.level = constrain general.level-1,0,general.maxLevel
 		newGame general.level
 		dialogues.pop()
 
-	dialogue.buttons[6].info 'More...', -> 
+	dialogue.buttons[6].info 'More...', true, -> 
 		menu2()
 
 menu2 = ->
@@ -405,12 +405,12 @@ menu2 = ->
 	r2 = 0.11 * height
 	dialogue.clock ' ',4,r1,r2,90+360/8
 
-	dialogue.buttons[0].info 'Restart', -> 
+	dialogue.buttons[0].info 'Restart', true, -> 
 		restart()
 		dialogues.pop()
 		dialogues.pop()
 
-	dialogue.buttons[1].info (if general.competition then '' else 'Total Restart'), -> 
+	dialogue.buttons[1].info 'Total Restart', not general.competition, -> 
 		delete localStorage.Generalen
 		general.clr()
 		newGame 0
@@ -418,7 +418,7 @@ menu2 = ->
 		dialogues.pop()
 
 	s = if general.competition then 'Exit Competition' else 'Start Competition'
-	dialogue.buttons[2].info s, -> 
+	dialogue.buttons[2].info s, true, -> 
 		general.competition = not general.competition
 		delete localStorage.Generalen
 		general.races = []
@@ -427,7 +427,7 @@ menu2 = ->
 		dialogues.pop()
 		dialogues.pop()
 
-	dialogue.buttons[3].info 'Link', ->
+	dialogue.buttons[3].info 'Link', true, ->
 		link = makeLink()
 		copyToClipboard link		
 		#msg = 'Link copied to clipboard'

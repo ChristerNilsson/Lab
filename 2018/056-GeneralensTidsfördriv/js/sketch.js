@@ -704,13 +704,13 @@ menu0 = function menu0(src, dst, col) {
 };
 
 menu1 = function menu1() {
-  var dialogue, r1, r2, s;
+  var dialogue, r1, r2;
   dialogue = new Dialogue(1, int(4 * w), int(1.5 * h), int(0.15 * h));
   r1 = 0.25 * height;
   r2 = 0.085 * height;
   dialogue.clock(' ', 7, r1, r2, 90 + 360 / 14);
-  s = general.hist.length === 0 ? '' : 'Undo';
-  dialogue.buttons[0].info(s, function () {
+  //s = if general.hist.length == 0 then '' else 'Undo'	
+  dialogue.buttons[0].info('Undo', general.hist.length > 0, function () {
     var antal, dst, src;
     if (general.hist.length > 0) {
       var _$last = _.last(general.hist);
@@ -729,12 +729,13 @@ menu1 = function menu1() {
       return dialogues.pop();
     }
   });
-  dialogue.buttons[1].info(general.competition ? '' : 'Hint', function () {
+  dialogue.buttons[1].info('Hint', !general.competition, function () {
     dialogues.pop();
     return hint(); // Lägger till menu0
   });
-  s = alternativeDsts.length <= 1 ? '' : 'Cycle Move';
-  dialogue.buttons[2].info(s, function () {
+
+  //s = if alternativeDsts.length <= 1 then '' else 'Cycle Move'
+  dialogue.buttons[2].info('Cycle Move', alternativeDsts.length > 1, function () {
     var antal, dst, heap, src;
     alternativeDsts.push(alternativeDsts.shift());
 
@@ -753,23 +754,23 @@ menu1 = function menu1() {
   // dialogues.pop() # do not pop!
 
   //print not general.competition or general.blackBox.success
-  s = !general.competition || general.blackBox.success ? 'Harder' : '';
-  dialogue.buttons[3].info(s, function () {
+  //s = if not general.competition or general.blackBox.success then 'Harder' else '' 
+  dialogue.buttons[3].info('Harder', !general.competition || general.blackBox.success, function () {
     general.level = constrain((general.level + 1) % 16, 0, general.maxLevel);
     newGame(general.level);
     general.timeUsed = 0;
     return dialogues.pop();
   });
-  dialogue.buttons[4].info(general.competition ? '' : 'Go', function () {
+  dialogue.buttons[4].info('Go', !general.competition, function () {
     newGame(general.level);
     return dialogues.pop();
   });
-  dialogue.buttons[5].info(general.competition ? '' : 'Easier', function () {
+  dialogue.buttons[5].info('Easier', !general.competition, function () {
     general.level = constrain(general.level - 1, 0, general.maxLevel);
     newGame(general.level);
     return dialogues.pop();
   });
-  return dialogue.buttons[6].info('More...', function () {
+  return dialogue.buttons[6].info('More...', true, function () {
     return menu2();
   });
 };
@@ -780,12 +781,12 @@ menu2 = function menu2() {
   r1 = 0.25 * height;
   r2 = 0.11 * height;
   dialogue.clock(' ', 4, r1, r2, 90 + 360 / 8);
-  dialogue.buttons[0].info('Restart', function () {
+  dialogue.buttons[0].info('Restart', true, function () {
     restart();
     dialogues.pop();
     return dialogues.pop();
   });
-  dialogue.buttons[1].info(general.competition ? '' : 'Total Restart', function () {
+  dialogue.buttons[1].info('Total Restart', !general.competition, function () {
     delete localStorage.Generalen;
     general.clr();
     newGame(0);
@@ -793,7 +794,7 @@ menu2 = function menu2() {
     return dialogues.pop();
   });
   s = general.competition ? 'Exit Competition' : 'Start Competition';
-  dialogue.buttons[2].info(s, function () {
+  dialogue.buttons[2].info(s, true, function () {
     general.competition = !general.competition;
     delete localStorage.Generalen;
     general.races = [];
@@ -802,7 +803,7 @@ menu2 = function menu2() {
     dialogues.pop();
     return dialogues.pop();
   });
-  return dialogue.buttons[3].info('Link', function () {
+  return dialogue.buttons[3].info('Link', true, function () {
     var link;
     link = makeLink();
     copyToClipboard(link);

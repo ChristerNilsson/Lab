@@ -27,17 +27,14 @@ class Dialogue
 		false 
 
 class Button 
-	constructor : (@txt, @x, @y, @r, @event = -> print @txt) ->
-	info : (@txt,@event) ->
+	constructor : (@txt, @x, @y, @r, @event = -> print @txt) -> @active = true 
+	info : (@txt,@active,@event) ->
 	show : ->
-		if @txt == '' 
-			noFill()
-		else	
-			fill @dlg.col
+		if @active then fill @dlg.col else fill "#fff8"
 		stroke 0
 		ellipse @x,@y,2*@r,2*@r
 		push()
-		fill 0
+		if @active then fill 0 else fill "#888"
 		noStroke()
 		textAlign CENTER,CENTER
 		textSize @dlg.textSize
@@ -49,5 +46,5 @@ class Button
 			text arr[1], @x,@y+0.3*@r
 		pop()
 
-	inside : (mx,my) -> if @txt == '' then false else @r > dist mx, my, @dlg.x + @x, @dlg.y + @y 
-	execute : -> @event()
+	inside : (mx,my) ->  @r > dist mx, my, @dlg.x + @x, @dlg.y + @y 
+	execute : -> if @active then @event()

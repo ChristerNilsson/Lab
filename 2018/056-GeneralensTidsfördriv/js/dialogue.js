@@ -92,27 +92,33 @@ Button = function () {
     this.y = y;
     this.r = r;
     this.event = event;
+    this.active = true;
   }
 
   _createClass(Button, [{
     key: 'info',
-    value: function info(txt, event) {
+    value: function info(txt, active, event) {
       this.txt = txt;
+      this.active = active;
       this.event = event;
     }
   }, {
     key: 'show',
     value: function show() {
       var arr;
-      if (this.txt === '') {
-        noFill();
-      } else {
+      if (this.active) {
         fill(this.dlg.col);
+      } else {
+        fill("#fff8");
       }
       stroke(0);
       ellipse(this.x, this.y, 2 * this.r, 2 * this.r);
       push();
-      fill(0);
+      if (this.active) {
+        fill(0);
+      } else {
+        fill("#888");
+      }
       noStroke();
       textAlign(CENTER, CENTER);
       textSize(this.dlg.textSize);
@@ -128,16 +134,14 @@ Button = function () {
   }, {
     key: 'inside',
     value: function inside(mx, my) {
-      if (this.txt === '') {
-        return false;
-      } else {
-        return this.r > dist(mx, my, this.dlg.x + this.x, this.dlg.y + this.y);
-      }
+      return this.r > dist(mx, my, this.dlg.x + this.x, this.dlg.y + this.y);
     }
   }, {
     key: 'execute',
     value: function execute() {
-      return this.event();
+      if (this.active) {
+        return this.event();
+      }
     }
   }]);
 
