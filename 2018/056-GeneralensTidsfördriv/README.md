@@ -13,22 +13,22 @@
 # Menyn
 Menyn nås genom att klicka på den gröna bakgrunden eller något av essen.
 
-* [Undo] Ångrar senaste drag. Draget indikeras med From och To
-* [Hint] Ger en ledtråd. Se röd/grön indikator
+* __Undo__ Ångrar senaste drag. Draget indikeras med From och To
+* __Hint__ Ger en ledtråd. Se röd/grön indikator
   * Prova även att göra en Restart innan du klickar på Hint. Då slipper du utföra eventuella Undo
-* [Cycle Move] Ibland placeras korten på en annan plats än du tänkt dig. Med detta kommando kan du välja mellan alternativa platser. Klicka på mittcirkeln då du är nöjd
-* [More...]
-  * [Restart] Återställ korten för denna Nivå.
-  * [Total Restart] Innebär att starta om från Nivå 0. Alla Nivåer måste ånyo lösas
-  * [Link] Sparar en länk till aktuell patiens på klippbordet. Skicka till en vän!
-* [Next] Gå till nästa nivå
+* __Cycle Move__ Ibland placeras korten på en annan plats än du tänkt dig. Med detta kommando kan du välja mellan alternativa platser. Klicka på mittcirkeln då du är nöjd
+* __More...__
+  * __Restart__ Återställ korten för denna Nivå.
+  * __Total Restart__ Innebär att starta om från Nivå 0. Alla Nivåer måste ånyo lösas
+  * __Link__ Sparar en länk till aktuell patiens på klippbordet. Skicka till en vän!
+* __Next__ Gå till nästa nivå
 * Mittcirkeln används för att stänga en meny
 
 # Nivåer 
-Classic innebär att sekvenserna är lika långa.
+_Classic_ innebär att sekvenserna är lika långa.
 Högre nivåer nås genom att utföra så få drag som möjligt och utan att använda Hint.
 
-* 0 = Classic Ess till 3. Lätt (Cards=8)
+* 0 = Classic Ess till 3. _Lätt_ (Cards=8)
 * 1 = Ess till 4
 * 2 = Ess till 5
 * 3 = Classic Ess till 5
@@ -43,22 +43,22 @@ Högre nivåer nås genom att utföra så få drag som möjligt och utan att anv
 * 12 = Classic Ess till Knekt
 * 13 = Ess till Dam
 * 14 = Ess till Kung
-* 15 = Classic Ess till Kung. Svår (Cards=48)
+* 15 = Classic Ess till Kung. _Svår_ (Cards=48)
 
-# Hints
+# Ledtrådar
 
-* Klickar man på Hint får man ett förslag för att komma vidare mot lösningen
-* Inledningsvis kan Hint ge en eller flera Undo som indikeras med rött
+* Klickar man på __Hint__ får man en ledtråd för att komma vidare mot lösningen
+* Inledningsvis kan __Hint__ ge en eller flera __Undo__ som indikeras med rött
 * Man måste själv utföra de föreslagna dragen
-* Använder man Hint kan man inte avancera till nästa nivå
+* Använder man __Hint__ kan man inte avancera till nästa nivå
 
 # Indikatorer
 
-* [From] visar var draget börjar
-* [To] visar var draget slutar
-* Rött är en hint bakåt. Klicka på Undo för att utföra Undo
+* __From__ visar var draget börjar
+* __To__ visar var draget slutar
+* Rött är en hint bakåt. Klicka på __Undo__ för att utföra __Undo__
 * Grönt är en hint framåt. Klicka på kortet för att utföra draget
-* Gult visar vilken Undo som precis utförts. Du behöver ej klicka på något
+* Gult visar vilken __Undo__ som precis utförts. Du behöver ej klicka på något
 
 # Lösbarhet
 
@@ -79,12 +79,12 @@ Om man är smartare än datorn får man tillgodoräkna sig de dragen och använd
 
 # Tips
 
-* Maximera fönstret med F11
-* Refresha med ctrl-R
+* Maximera fönstret med __F11__
+* Refresha med __ctrl-R__
 
 # Litteratur
 
-Att lägga patiens. Bokförlaget Forum 1957.
+_Att lägga patiens_. Bokförlaget Forum 1957.
 Motsvarar Nivå 15.
 
 ## Avvikelser från originalpatiensen
@@ -98,8 +98,8 @@ Motsvarar Nivå 15.
 * Datorn har redan löst problemet. Det går att lösa på 53 drag
   * Dock händer det ganska ofta att kortare lösningar finns
 * Det senaste draget flyttade spader 9 från klöver 2 till spader 8
-  * Detta går att ångra med Undo
-  * Vill man istället placera spadera 9 på spader 10 kan det göras med Cycle Move
+  * Detta går att ångra med __Undo__
+  * Vill man istället placera spadera 9 på spader 10 kan det göras med __Cycle Move__
 * Nivå 11 innebär att 44 kort ska placeras.
   * Av dessa har just nu fyra placerats på hjärter ess.
 * Normalt innebär ett drag att två kort kopplas ihop
