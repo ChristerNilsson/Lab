@@ -1,5 +1,7 @@
 # Generalens Tidsfördriv
 
+[Prova!](https://christernilsson.github.io/Lab/2018/056-GeneralensTidsf%C3%B6rdriv/index.html)
+
 * Livet är kort!
 * Det lär vara ett antal generaler som lägger denna patiens i fredstid för att hålla sina hjärnor i trim.
 * Denna patiens går ut på att bygga uppåt på Essen. Dvs Tvåor läggs på Essen osv upp till Kung.
@@ -11,20 +13,20 @@
 # Menyn
 Menyn nås genom att klicka på den gröna bakgrunden eller något av essen.
 
-* [Undo] Ångrar senaste drag. Talet visar antalet drag som utförts. Draget indikeras med gult mynt och gul ring
-* [Hint] Ger en ledtråd. Se röd/grön indikator. Talet visar antalet Hints som utförts
-  * Prova även att göra en Restart innan du klickar på Hint. Då slipper du eventuella Undo.
-* [Cycle Move] Ibland placeras korten på en annan plats än du tänkt dig. Med detta kommando kan du välja mellan alternativa platser. Klicka på mittcirkeln då du är nöjd.
+* [Undo] Ångrar senaste drag. Draget indikeras med From och To
+* [Hint] Ger en ledtråd. Se röd/grön indikator
+  * Prova även att göra en Restart innan du klickar på Hint. Då slipper du utföra eventuella Undo
+* [Cycle Move] Ibland placeras korten på en annan plats än du tänkt dig. Med detta kommando kan du välja mellan alternativa platser. Klicka på mittcirkeln då du är nöjd
 * [More...]
   * [Restart] Återställ korten för denna Nivå.
   * [Total Restart] Innebär att starta om från Nivå 0. Alla Nivåer måste ånyo lösas
-	* [Link] Sparar en länk till aktuell patiens till klippbordet
-  * [Start/Exit Competition]
-* [Next] Går till nästa nivå
+  * [Link] Sparar en länk till aktuell patiens på klippbordet. Skicka till en vän!
+* [Next] Gå till nästa nivå
+* Mittcirkeln används för att stänga en meny
 
 # Nivåer 
 Classic innebär att sekvenserna är lika långa.
-Svårare nivåer kan nås genom att utföra så få drag som möjligt och utan att använda Hint.
+Högre nivåer nås genom att utföra så få drag som möjligt och utan att använda Hint.
 
 * 0 = Classic Ess till 3. Lätt (Cards=8)
 * 1 = Ess till 4
@@ -62,8 +64,8 @@ Svårare nivåer kan nås genom att utföra så få drag som möjligt och utan a
 
 De skapade patienserna är alltid lösbara. Det är med andra ord alltid för tidigt att ge upp.
 
-# Competition
-Två eller flera personer.
+# Tävling
+Tävling kan ske mellan två eller flera personer. Man kan t ex bestämma sig för att hålla på en viss tid eller först uppnå en viss nivå.
 
 ## Tid
 Börja med att bestämma en viss tid, t ex fem minuter eller en halv timma. Den som har hunnit längst har vunnit.
@@ -74,8 +76,6 @@ Bestäm antal nivåer som ska lösas, t ex 4, 8 eller 16.
 
 ## Allmänt
 Om man är smartare än datorn får man tillgodoräkna sig de dragen och använda dem på högre nivåer.
-
-[Prova!](https://christernilsson.github.io/Lab/2018/056-GeneralensTidsf%C3%B6rdriv/index.html)
 
 # Tips
 
@@ -96,13 +96,14 @@ Motsvarar Nivå 15.
 
 * Vi befinner oss 7 drag in i lösandet av en patiens på nivå 11
 * Datorn har redan löst problemet. Det går att lösa på 53 drag
-* Dock händer det ganska ofta att kortare lösningar finns
+  * Dock händer det ganska ofta att kortare lösningar finns
 * Det senaste draget flyttade spader 9 från klöver 2 till spader 8
-* Detta går att ångra med Undo
-* Vill man istället placera spadera 9 på spader 10 kan det göras med Cycle Move
-* Nivå 11 innebär att 44 kort ska placeras. Av dessa har just nu 4 placerats på essen
+  * Detta går att ångra med Undo
+  * Vill man istället placera spadera 9 på spader 10 kan det göras med Cycle Move
+* Nivå 11 innebär att 44 kort ska placeras.
+  * Av dessa har just nu fyra placerats på hjärter ess.
 * Normalt innebär ett drag att två kort kopplas ihop
 * Talet 9 (53-44) anger hur många drag som inte kopplar ihop två kort
-* T ex genom att flytta ett kort eller en hög till ett hål
+  * T ex genom att flytta ett kort eller en hög till ett hål
 
 ![](bild0.jpg "GT")
