@@ -52,12 +52,9 @@ originalBoard = null
 
 startCompetition = null
 N = null # Max rank
-#classic = false
 srcs = null
 dsts = null
 
-#oneClickData = {lastMarked:-1, counter:0}
-indicators = {} # färgmarkering av senaste undo eller hint. [color,hollow]
 seed = 1 # seed for random numbers
 currentSeed = null
 
@@ -68,6 +65,7 @@ general = null
 
 print = console.log
 range = _.range
+Array.prototype.clear = -> @length = 0
 assert = (a, b, msg='Assert failure') -> chai.assert.deepEqual a, b, msg
 
 getParameters = (h = window.location.href) -> 
@@ -157,27 +155,7 @@ class General
 					if @level == @maxLevel then @maxLevel++ 
 			@maxLevel = constrain @maxLevel,0,15
 			localStorage.Generalen = JSON.stringify {@maxLevel,@level}
-			#printManualSolution()
-
-showIndicator = (heap,x,y)->
-	x0 = x + w/2
-	y0 = y + 0.49*h
-	if heap of indicators
-		[color,hollow] = indicators[heap]
-		push()
-		if hollow
-			stroke 0
-			strokeWeight 0.13*h
-			arc x0,y0,0.4*w,0.4*w,0,360
-			stroke color
-			strokeWeight 0.13*h-2
-			arc x0,y0,0.4*w,0.4*w,0,360
-		else
-			stroke 0
-			strokeWeight 1
-			fill color
-			ellipse x0,y0,0.55*w
-		pop()
+			printManualSolution()
 
 preload = -> 
 	faces = loadImage 'cards/Color_52_Faces_v.2.0.png'
@@ -298,7 +276,7 @@ fakeBoard = ->
 	print board
 
 setup = ->
-	print 'X'
+	print 'Y'
 	canvas = createCanvas innerWidth-0.5, innerHeight-0.5
 	canvas.position 0,0 # hides text field used for clipboard copy.
 
@@ -337,7 +315,6 @@ setup = ->
 	infoLines.push ["Human Moves",0,0]
 	infoLines.push ["Time",0,0]	
 
-	print newGame 
 	newGame general.level
 	display board 
 
@@ -350,25 +327,47 @@ keyPressed = ->
 		print board 
 	display board
 
+# returnerar övre, vänstra koordinaten för översta kortet i högen som [x,y]
+getCenter = (heap) -> 
+	if heap in ACES then return [int(8*w), int(heap*h)]
+	if heap in PANEL then return [int((heap-12)*w), int(3*h)]
+	if heap in HEAPS 
+		n = calcAntal board[heap]
+		dy = if n == 0 then 0 else min h/4,2*h/(n-1)
+		#print 'getCenter',heap,n,dy
+		return [int((heap-4)*w), int((n-1)*dy)]
+
+menu0 = (src,dst,col) ->
+	dialogue = new Dialogue 0,int(w/2),int(h/2),int(0.10*h),col
+	r = int 0.05 * height
+	[x,y] = getCenter src
+	dialogue.add new Button 'From', x,y,r, -> dialogues.pop()
+	[x,y] = getCenter dst 
+	dialogue.add new Button 'To',   x,y,r, -> dialogues.pop()
+
 menu1 = ->
-	dialogue = new Dialogue 4*w,1.5*h,0.15*h 
+	dialogue = new Dialogue 1,int(4*w),int(1.5*h),int(0.15*h) 
 
 	r1 = 0.25 * height 
 	r2 = 0.085 * height
 	dialogue.clock ' ',7,r1,r2,90+360/14
 
-	dialogue.buttons[0].info 'Undo', -> 
+	s = if general.hist.length == 0 then '' else 'Undo'	
+	dialogue.buttons[0].info s, -> 
 		if general.hist.length > 0 
-			[src,dst] = _.last general.hist
-			indicators = {}
-			indicators[src]=["#ff0",true]
-			indicators[dst]=["#ff0",false]
+			[src,dst,antal] = _.last general.hist
+
+			dialogues.pop()
+#			menu0 src,dst,'#ff0'
+			
 			undoMove general.hist.pop()
-		dialogues.pop()
+			menu0 src,dst,'#ff0'
+		else
+			dialogues.pop()
 
 	dialogue.buttons[1].info (if general.competition then '' else 'Hint'), -> 
-		hint()
 		dialogues.pop()
+		hint() # Lägger till menu0
 
 	s = if alternativeDsts.length <= 1 then '' else 'Cycle Move'
 	dialogue.buttons[2].info s, ->
@@ -377,9 +376,9 @@ menu1 = ->
 		undoMove [src,dst,antal]
 		heap = alternativeDsts[0] 
 		makeMove board,src,heap,true
-		# dialogues.pop()
+		# dialogues.pop() # do not pop!
 
-	print not general.competition or general.blackBox.success
+	#print not general.competition or general.blackBox.success
 	s = if not general.competition or general.blackBox.success then 'Harder' else '' 
 	dialogue.buttons[3].info s, -> 
 		general.level = constrain (general.level+1) % 16, 0, general.maxLevel
@@ -400,7 +399,7 @@ menu1 = ->
 		menu2()
 
 menu2 = ->
-	dialogue = new Dialogue 4*w,1.5*h,0.15*h 
+	dialogue = new Dialogue 2,int(4*w),int(1.5*h),int(0.15*h) 
 
 	r1 = 0.25 * height 
 	r2 = 0.11 * height
@@ -431,7 +430,8 @@ menu2 = ->
 	dialogue.buttons[3].info 'Link', ->
 		link = makeLink()
 		copyToClipboard link		
-		msg = 'Link copied to clipboard'
+		#msg = 'Link copied to clipboard'
+		dialogues.pop()
 		dialogues.pop()
 
 showHeap = (board,heap,x,y,dy) -> # dy kan vara både pos och neg
@@ -454,7 +454,7 @@ showHeap = (board,heap,x,y,dy) -> # dy kan vara både pos och neg
 		if heap in ACES and over == N-1
 			image backs, x, y, w,h*1.1, OFFSETX+860,1092+622,225,H-1
 
-	showIndicator heap,x,if heap in HEAPS then y-dy else y
+	#showIndicator heap,x,if heap in HEAPS then y-dy else y
 
 display = (board) ->
 	background 0,128,0
@@ -510,7 +510,10 @@ showInfo = ->
 	text 'Generalens',  4*w,0.5*h
 	text 'Tidsfördriv', 4*w,1.5*h
 
-showDialogue = -> if dialogues.length > 0 then (_.last dialogues).show()
+showDialogue = -> 
+	if dialogues.length > 0
+		#print 'showDialogue',dialogues
+		(_.last dialogues).show()
 
 legalMove = (board,src,dst) ->
 	if src in ACES then return false 
@@ -654,18 +657,20 @@ mousePressed = ->
 	mx = mouseX//w
 	my = mouseY//h
 
-	#if 0 < _.size indicators then 
-	indicators = {}
-	#else		
+	#print 'dialogues',dialogues
+	if dialogues.length == 1 and dialogues[0].number == 0 
+		#print '0 popped'
+		dialogues.pop()
+
 	dialogue = _.last dialogues
 	if dialogues.length == 0 or not dialogue.execute mouseX,mouseY 
-		#indicators = {}
 
 		if mx == 8 or hitGreen mx,my,mouseX,mouseY 
 			if dialogues.length == 0 then menu1() else dialogues.pop()
 			display board
 			return
 
+		dialogues.clear()
 		general.handle mx,my
 
 	display board
@@ -704,13 +709,16 @@ expand = ([aceCards,level,b,path]) ->
 hint = ->
 	if 4*N == countAceCards board then return 
 	general.hintsUsed++
+
+	#dialogues.pop()
+
 	res = hintOne()
 	if res or general.hist.length==0 then return 
-	indicators = {}
-	[src,dst] = _.last general.hist 
-	indicators[src] = ['#f00',true]
-	indicators[dst] = ['#f00',false]	
-	#undoMove hist.pop()
+
+	# Gick ej att gå framåt, gå bakåt
+	[src,dst,antal] = _.last general.hist 	
+	menu0 src,dst,'#f00'
+	print 'red',dialogues.length
 
 hintOne = -> 
 	hintTime = millis()
@@ -736,7 +744,7 @@ hintOne = ->
 			increment = expand cand
 			cands = cands.concat increment
 			cands.sort (a,b) -> if a[0] == b[0] then b[1]-a[1] else a[0]-b[0]
-	print N,nr,cands.length,aceCards
+	#print N,nr,cands.length,aceCards
 
 	if aceCards == N*4
 		board = cand[2]
@@ -745,11 +753,9 @@ hintOne = ->
 		board = origBoard
 		[src,dst] = path[0]
 		#makeMove board,src,dst,true
-		indicators = {}
-		indicators[src] = ['#0f0',true]
-		indicators[dst] = ['#0f0',false]
-
-		print "hint: #{int millis()-hintTime} ms"
+		#dialogues.pop()
+		menu0 src,dst,'#0f0'
+		#print "hint: #{int millis()-hintTime} ms"
 		return true
 	else
 		print 'hint failed. Should never happen!'
@@ -787,6 +793,7 @@ newGame = (lvl) -> # 0..15
 			print JSON.stringify dumpBoard originalBoard 
 			board = cand[2]
 			print makeLink()
+			print 'currentSeed', currentSeed
 			printAutomaticSolution hash,board
 			board = _.cloneDeep originalBoard
 			print "#{int millis()-general.start} ms"

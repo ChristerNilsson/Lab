@@ -10,12 +10,16 @@ var Button, Dialogue, dialogues;
 dialogues = [];
 
 Dialogue = function () {
-  function Dialogue(x, y, textSize1) {
+  function Dialogue(number, x, y, textSize1) {
+    var col = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : '#ff08';
+
     _classCallCheck(this, Dialogue);
 
+    this.number = number;
     this.x = x;
     this.y = y;
     this.textSize = textSize1;
+    this.col = col;
     this.buttons = [];
     dialogues.push(this);
   }
@@ -101,9 +105,10 @@ Button = function () {
     value: function show() {
       var arr;
       if (this.txt === '') {
-        return;
+        noFill();
+      } else {
+        fill(this.dlg.col);
       }
-      fill(255, 255, 0, 128);
       stroke(0);
       ellipse(this.x, this.y, 2 * this.r, 2 * this.r);
       push();

@@ -66,19 +66,20 @@ var ACES,
     fakeBoard,
     findAllMoves,
     general,
+    getCenter,
     getParameters,
     h,
     hash,
     hint,
     hintOne,
     hitGreen,
-    indicators,
     infoLines,
     keyPressed,
     legalMove,
     makeBoard,
     makeLink,
     makeMove,
+    menu0,
     menu1,
     menu2,
     mousePressed,
@@ -103,7 +104,6 @@ var ACES,
     setup,
     showDialogue,
     showHeap,
-    showIndicator,
     showInfo,
     srcs,
     startCompetition,
@@ -168,13 +168,9 @@ startCompetition = null;
 
 N = null; // Max rank
 
-//classic = false
 srcs = null;
 
 dsts = null;
-
-//oneClickData = {lastMarked:-1, counter:0}
-indicators = {}; // färgmarkering av senaste undo eller hint. [color,hollow]
 
 seed = 1; // seed for random numbers
 
@@ -189,6 +185,10 @@ general = null;
 print = console.log;
 
 range = _.range;
+
+Array.prototype.clear = function () {
+  return this.length = 0;
+};
 
 assert = function assert(a, b) {
   var msg = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 'Assert failure';
@@ -348,42 +348,14 @@ General = function () {
           }
         }
         this.maxLevel = constrain(this.maxLevel, 0, 15);
-        return localStorage.Generalen = JSON.stringify({ maxLevel: this.maxLevel, level: this.level });
+        localStorage.Generalen = JSON.stringify({ maxLevel: this.maxLevel, level: this.level });
+        return printManualSolution();
       }
     }
   }]);
 
   return General;
 }();
-
-//printManualSolution()
-showIndicator = function showIndicator(heap, x, y) {
-  var color, hollow, x0, y0;
-  x0 = x + w / 2;
-  y0 = y + 0.49 * h;
-  if (heap in indicators) {
-    var _indicators$heap = _slicedToArray(indicators[heap], 2);
-
-    color = _indicators$heap[0];
-    hollow = _indicators$heap[1];
-
-    push();
-    if (hollow) {
-      stroke(0);
-      strokeWeight(0.13 * h);
-      arc(x0, y0, 0.4 * w, 0.4 * w, 0, 360);
-      stroke(color);
-      strokeWeight(0.13 * h - 2);
-      arc(x0, y0, 0.4 * w, 0.4 * w, 0, 360);
-    } else {
-      stroke(0);
-      strokeWeight(1);
-      fill(color);
-      ellipse(x0, y0, 0.55 * w);
-    }
-    return pop();
-  }
-};
 
 preload = function preload() {
   faces = loadImage('cards/Color_52_Faces_v.2.0.png');
@@ -628,7 +600,7 @@ fakeBoard = function fakeBoard() {
 
 setup = function setup() {
   var canvas, level, maxLevel, n, params;
-  print('X');
+  print('Y');
   canvas = createCanvas(innerWidth - 0.5, innerHeight - 0.5);
   canvas.position(0, 0); // hides text field used for clipboard copy.
   general = new General();
@@ -671,7 +643,6 @@ setup = function setup() {
   infoLines.push(["Computer Moves", 0, 0]);
   infoLines.push(["Human Moves", 0, 0]);
   infoLines.push(["Time", 0, 0]);
-  print(newGame);
   newGame(general.level);
   return display(board);
 };
@@ -687,32 +658,80 @@ keyPressed = function keyPressed() {
   return display(board);
 };
 
+// returnerar övre, vänstra koordinaten för översta kortet i högen som [x,y]
+getCenter = function getCenter(heap) {
+  var dy, n;
+  if (indexOf.call(ACES, heap) >= 0) {
+    return [int(8 * w), int(heap * h)];
+  }
+  if (indexOf.call(PANEL, heap) >= 0) {
+    return [int((heap - 12) * w), int(3 * h)];
+  }
+  if (indexOf.call(HEAPS, heap) >= 0) {
+    n = calcAntal(board[heap]);
+    dy = n === 0 ? 0 : min(h / 4, 2 * h / (n - 1));
+    //print 'getCenter',heap,n,dy
+    return [int((heap - 4) * w), int((n - 1) * dy)];
+  }
+};
+
+menu0 = function menu0(src, dst, col) {
+  var dialogue, r, x, y;
+  dialogue = new Dialogue(0, int(w / 2), int(h / 2), int(0.10 * h), col);
+  r = int(0.05 * height);
+
+  var _getCenter = getCenter(src);
+
+  var _getCenter2 = _slicedToArray(_getCenter, 2);
+
+  x = _getCenter2[0];
+  y = _getCenter2[1];
+
+  dialogue.add(new Button('From', x, y, r, function () {
+    return dialogues.pop();
+  }));
+
+  var _getCenter3 = getCenter(dst);
+
+  var _getCenter4 = _slicedToArray(_getCenter3, 2);
+
+  x = _getCenter4[0];
+  y = _getCenter4[1];
+
+  return dialogue.add(new Button('To', x, y, r, function () {
+    return dialogues.pop();
+  }));
+};
+
 menu1 = function menu1() {
   var dialogue, r1, r2, s;
-  dialogue = new Dialogue(4 * w, 1.5 * h, 0.15 * h);
+  dialogue = new Dialogue(1, int(4 * w), int(1.5 * h), int(0.15 * h));
   r1 = 0.25 * height;
   r2 = 0.085 * height;
   dialogue.clock(' ', 7, r1, r2, 90 + 360 / 14);
-  dialogue.buttons[0].info('Undo', function () {
-    var dst, src;
+  s = general.hist.length === 0 ? '' : 'Undo';
+  dialogue.buttons[0].info(s, function () {
+    var antal, dst, src;
     if (general.hist.length > 0) {
       var _$last = _.last(general.hist);
 
-      var _$last2 = _slicedToArray(_$last, 2);
+      var _$last2 = _slicedToArray(_$last, 3);
 
       src = _$last2[0];
       dst = _$last2[1];
+      antal = _$last2[2];
 
-      indicators = {};
-      indicators[src] = ["#ff0", true];
-      indicators[dst] = ["#ff0", false];
+      dialogues.pop();
+      //			menu0 src,dst,'#ff0'
       undoMove(general.hist.pop());
+      return menu0(src, dst, '#ff0');
+    } else {
+      return dialogues.pop();
     }
-    return dialogues.pop();
   });
   dialogue.buttons[1].info(general.competition ? '' : 'Hint', function () {
-    hint();
-    return dialogues.pop();
+    dialogues.pop();
+    return hint(); // Lägger till menu0
   });
   s = alternativeDsts.length <= 1 ? '' : 'Cycle Move';
   dialogue.buttons[2].info(s, function () {
@@ -731,8 +750,9 @@ menu1 = function menu1() {
     heap = alternativeDsts[0];
     return makeMove(board, src, heap, true);
   });
-  // dialogues.pop()
-  print(!general.competition || general.blackBox.success);
+  // dialogues.pop() # do not pop!
+
+  //print not general.competition or general.blackBox.success
   s = !general.competition || general.blackBox.success ? 'Harder' : '';
   dialogue.buttons[3].info(s, function () {
     general.level = constrain((general.level + 1) % 16, 0, general.maxLevel);
@@ -756,7 +776,7 @@ menu1 = function menu1() {
 
 menu2 = function menu2() {
   var dialogue, r1, r2, s;
-  dialogue = new Dialogue(4 * w, 1.5 * h, 0.15 * h);
+  dialogue = new Dialogue(2, int(4 * w), int(1.5 * h), int(0.15 * h));
   r1 = 0.25 * height;
   r2 = 0.11 * height;
   dialogue.clock(' ', 4, r1, r2, 90 + 360 / 8);
@@ -783,10 +803,12 @@ menu2 = function menu2() {
     return dialogues.pop();
   });
   return dialogue.buttons[3].info('Link', function () {
-    var link, msg;
+    var link;
     link = makeLink();
     copyToClipboard(link);
-    msg = 'Link copied to clipboard';
+
+    //msg = 'Link copied to clipboard'
+    dialogues.pop();
     return dialogues.pop();
   });
 };
@@ -832,12 +854,12 @@ showHeap = function showHeap(board, heap, x, y, dy) {
     over = _unpack10[2];
 
     if (indexOf.call(ACES, heap) >= 0 && over === N - 1) {
-      image(backs, x, y, w, h * 1.1, OFFSETX + 860, 1092 + 622, 225, H - 1);
+      return image(backs, x, y, w, h * 1.1, OFFSETX + 860, 1092 + 622, 225, H - 1);
     }
   }
-  return showIndicator(heap, x, indexOf.call(HEAPS, heap) >= 0 ? y - dy : y);
 };
 
+//showIndicator heap,x,if heap in HEAPS then y-dy else y
 display = function display(board) {
   var dy, heap, l, len, len1, len2, m, n, o, x, y;
   background(0, 128, 0);
@@ -910,6 +932,7 @@ showInfo = function showInfo() {
 
 showDialogue = function showDialogue() {
   if (dialogues.length > 0) {
+    //print 'showDialogue',dialogues
     return _.last(dialogues).show();
   }
 };
@@ -1163,13 +1186,14 @@ mousePressed = function mousePressed() {
   }
   mx = Math.floor(mouseX / w);
   my = Math.floor(mouseY / h);
-  //if 0 < _.size indicators then 
-  indicators = {};
-  //else		
+  //print 'dialogues',dialogues
+  if (dialogues.length === 1 && dialogues[0].number === 0) {
+
+    //print '0 popped'
+    dialogues.pop();
+  }
   dialogue = _.last(dialogues);
   if (dialogues.length === 0 || !dialogue.execute(mouseX, mouseY)) {
-
-    //indicators = {}
     if (mx === 8 || hitGreen(mx, my, mouseX, mouseY)) {
       if (dialogues.length === 0) {
         menu1();
@@ -1179,6 +1203,7 @@ mousePressed = function mousePressed() {
       display(board);
       return;
     }
+    dialogues.clear();
     general.handle(mx, my);
   }
   return display(board);
@@ -1243,29 +1268,31 @@ expand = function expand(_ref3) {
 };
 
 hint = function hint() {
-  var dst, res, src;
+  var antal, dst, res, src;
   if (4 * N === countAceCards(board)) {
     return;
   }
   general.hintsUsed++;
+  //dialogues.pop()
   res = hintOne();
   if (res || general.hist.length === 0) {
     return;
   }
-  indicators = {};
+
+  // Gick ej att gå framåt, gå bakåt
 
   var _$last3 = _.last(general.hist);
 
-  var _$last4 = _slicedToArray(_$last3, 2);
+  var _$last4 = _slicedToArray(_$last3, 3);
 
   src = _$last4[0];
   dst = _$last4[1];
+  antal = _$last4[2];
 
-  indicators[src] = ['#f00', true];
-  return indicators[dst] = ['#f00', false];
+  menu0(src, dst, '#f00');
+  return print('red', dialogues.length);
 };
 
-//undoMove hist.pop()
 hintOne = function hintOne() {
   var cand, dst, hintTime, increment, key, nr, origBoard, path, src;
   hintTime = millis();
@@ -1299,7 +1326,7 @@ hintOne = function hintOne() {
       });
     }
   }
-  print(N, nr, cands.length, aceCards);
+  //print N,nr,cands.length,aceCards
   if (aceCards === N * 4) {
     board = cand[2];
     //printAutomaticSolution hash, board
@@ -1307,14 +1334,13 @@ hintOne = function hintOne() {
     board = origBoard;
 
     //makeMove board,src,dst,true
+    //dialogues.pop()
     var _path$ = _slicedToArray(path[0], 2);
 
     src = _path$[0];
     dst = _path$[1];
-    indicators = {};
-    indicators[src] = ['#0f0', true];
-    indicators[dst] = ['#0f0', false];
-    print("hint: " + int(millis() - hintTime) + " ms");
+    menu0(src, dst, '#0f0');
+    //print "hint: #{int millis()-hintTime} ms"
     return true;
   } else {
     print('hint failed. Should never happen!');
@@ -1361,6 +1387,7 @@ newGame = function newGame(lvl) {
       print(JSON.stringify(dumpBoard(originalBoard)));
       board = cand[2];
       print(makeLink());
+      print('currentSeed', currentSeed);
       printAutomaticSolution(hash, board);
       board = _.cloneDeep(originalBoard);
       print(int(millis() - general.start) + " ms");

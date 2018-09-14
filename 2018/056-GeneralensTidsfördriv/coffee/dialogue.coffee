@@ -1,7 +1,7 @@
 dialogues = []
 
 class Dialogue 
-	constructor : (@x,@y,@textSize) -> 
+	constructor : (@number,@x,@y,@textSize,@col='#ff08') -> 
 		@buttons = []
 		dialogues.push @
 	add : (button) -> 
@@ -30,8 +30,10 @@ class Button
 	constructor : (@txt, @x, @y, @r, @event = -> print @txt) ->
 	info : (@txt,@event) ->
 	show : ->
-		if @txt == '' then return
-		fill 255,255,0,128
+		if @txt == '' 
+			noFill()
+		else	
+			fill @dlg.col
 		stroke 0
 		ellipse @x,@y,2*@r,2*@r
 		push()
