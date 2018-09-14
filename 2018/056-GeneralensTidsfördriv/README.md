@@ -13,7 +13,7 @@
 # Menyn
 Menyn nås genom att klicka på den gröna bakgrunden eller något av essen.
 
-* __Undo__ Ångrar senaste drag. Draget indikeras med From och To
+* __Undo__ Ångrar senaste drag. Draget indikeras med __From__ och __To__
 * __Hint__ Ger en ledtråd. Se röd/grön indikator
   * Prova även att göra en Restart innan du klickar på Hint. Då slipper du utföra eventuella Undo
 * __Cycle Move__ Ibland placeras korten på en annan plats än du tänkt dig. Med detta kommando kan du välja mellan alternativa platser. Klicka på mittcirkeln då du är nöjd
@@ -26,7 +26,7 @@ Menyn nås genom att klicka på den gröna bakgrunden eller något av essen.
 
 # Nivåer 
 _Classic_ innebär att sekvenserna är lika långa.
-Högre nivåer nås genom att utföra så få drag som möjligt och utan att använda Hint.
+Högre nivåer nås genom att använda så få drag som möjligt och utan att använda någon ledtråd.
 
 * 0 = Classic Ess till 3. _Lätt_ (Cards=8)
 * 1 = Ess till 4
@@ -56,7 +56,7 @@ Högre nivåer nås genom att utföra så få drag som möjligt och utan att anv
 
 * __From__ visar var draget börjar
 * __To__ visar var draget slutar
-* Rött är en hint bakåt. Klicka på __Undo__ för att utföra __Undo__
+* Rött är en hint bakåt. Klicka på __Undo__
 * Grönt är en hint framåt. Klicka på kortet för att utföra draget
 * Gult visar vilken __Undo__ som precis utförts. Du behöver ej klicka på något
 
@@ -105,5 +105,10 @@ Motsvarar Nivå 15.
 * Normalt innebär ett drag att två kort kopplas ihop
 * Talet 9 (53-44) anger hur många drag som inte kopplar ihop två kort
   * T ex genom att flytta ett kort eller en hög till ett hål
+* Av bilden framgår att spelaren har 5 (47-42) sparade drag sedan tidigare
+  * Det innebär att denna uppgift måste lösas med högst 58 (53+5) drag för uppflyttning till nästa nivå
+* Totaltiden som använts är 131 sekunder
+* Klockan stoppas då alla korten placerats på essen
+* Klockan startas igen då man klickar på __Next__
 
 ![](bild0.jpg "GT")
