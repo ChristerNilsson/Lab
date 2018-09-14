@@ -42,22 +42,22 @@ Svårare nivåer kan nås genom att utföra så få drag som möjligt och utan a
 * 11 = Ess till Knekt
 * 12 = Classic Ess till Knekt
 * 13 = Ess till Dam
-* 14 = Ess till Kung. Möjligen svårast
-* 15 = Classic Ess till Kung. Möjligen svårast
+* 14 = Ess till Kung
+* 15 = Classic Ess till Kung. Svår
 
 # Hints
 
 * Klickar man på Hint får man ett förslag för att komma vidare mot lösningen
 * Inledningsvis kan Hint ge en eller flera Undo som indikeras med rött
 * Man måste själv utföra de föreslagna dragen
-* Använder man Hints kan man inte avancera till nästa nivå
+* Använder man Hint kan man inte avancera till nästa nivå
 
-# Indikatorer (ring och mynt)
+# Indikatorer 
 
-* Ringen visar var draget börjar
-* Myntet visar var draget slutar
+* [From] visar var draget börjar
+* [To] visar var draget slutar
 * Rött är en hint bakåt. Klicka på Undo för att utföra Undo
-* Grönt är en hint framåt. Klicka på Ringen för att utföra draget
+* Grönt är en hint framåt. Klicka på kortet för att utföra draget
 * Gult visar vilken Undo som precis utförts. Du behöver ej klicka på något
 
 # Lösbarhet
@@ -75,7 +75,7 @@ Ligger man lika fortsätter man tills någon når nästa nivå.
 Bestäm antal nivåer som ska lösas, t ex 4, 8 eller 16. 
 
 ## Allmänt
-Om man är man smartare än datorn får man tillgodoräkna sig de dragen och använda dem på högre nivåer.
+Om man är smartare än datorn får man tillgodoräkna sig de dragen och använda dem på högre nivåer.
 
 [Prova!](https://christernilsson.github.io/Lab/2018/056-GeneralensTidsf%C3%B6rdriv/index.html)
 
@@ -87,7 +87,7 @@ Om man är man smartare än datorn får man tillgodoräkna sig de dragen och anv
 # Litteratur
 
 Att lägga patiens. Bokförlaget Forum 1957.
-Motsvarar Level 15.
+Motsvarar Nivå 15.
 
 ## Avvikelser från originalpatiensen
 
