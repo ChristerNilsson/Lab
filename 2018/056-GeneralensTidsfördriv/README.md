@@ -58,6 +58,7 @@ Högre nivåer nås genom att använda så få drag som möjligt och utan att an
 * __To__ visar var draget slutar
 * Rött är en hint bakåt. Klicka på __Undo__
 * Grönt är en hint framåt. Klicka på kortet för att utföra draget
+  * Om kortet hamnar på fel plats kan du korrigera detta med hjälp av __Cycle Move__
 * Gult visar vilken __Undo__ som precis utförts. Du behöver ej klicka på något
 
 # Lösbarhet

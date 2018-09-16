@@ -51,6 +51,8 @@ alternativeDsts = []
 infoLines = []
 general = null
 
+released = true 
+
 print = console.log
 range = _.range
 Array.prototype.clear = -> @length = 0
@@ -92,10 +94,10 @@ makeLink = ->
 class BlackBox # Avgör om man lyckats eller ej. Man får tillgodogöra sig tidigare drag.
 	constructor : -> @clr()
 	probe : (time,computer,human) ->
-		print 'probe',@total[2], human, @total[1], computer, @total[2] + human > @total[1] + computer
 		if @total[2] + human > @total[1] + computer 
 			@success = false
 			return @success 
+		print @count,'time',time,'computer',computer,'human',human
 		@count++
 		@total = [@total[0]+time, @total[1]+computer, @total[2]+human]
 		@success = true 
@@ -104,7 +106,7 @@ class BlackBox # Avgör om man lyckats eller ej. Man får tillgodogöra sig tidi
 		@total = [0,0,0] # [time,computer,human]
 		@count = 0
 		@success = false 
-	show : -> print 'BlackBox',@count,@total
+	show : -> # print 'BlackBox',@count,@total
 
 class General
 	constructor : ->
@@ -327,7 +329,7 @@ menu1 = ->
 
 	r1 = 0.25 * height 
 	r2 = 0.085 * height
-	dialogue.clock ' ',5,r1,r2,90+360/10
+	dialogue.clock ' ',6,r1,r2,90+360/12
 
 	dialogue.buttons[0].info 'Undo', general.hist.length > 0, -> 
 		if general.hist.length > 0 
@@ -351,12 +353,16 @@ menu1 = ->
 		# dialogues.pop() # do not pop!
 
 	dialogue.buttons[3].info 'Next', general.blackBox.success, -> 
-		general.level = constrain (general.level+1) % 16, 0, general.maxLevel
+		#general.level = constrain (general.level+1) % 16, 0, general.maxLevel
+		general.level = constrain general.level+1, 0, general.maxLevel
 		newGame general.level
 		general.timeUsed = 0
 		dialogues.pop()
 
-	dialogue.buttons[4].info 'More...', true, -> 
+	dialogue.buttons[4].info 'Help', true, ->
+		window.open "https://github.com/ChristerNilsson/Lab/tree/master/2018/056-GeneralensTidsf%C3%B6rdriv#generalens-tidsf%C3%B6rdriv"
+
+	dialogue.buttons[5].info 'More...', true, -> 
 		menu2()
 
 menu2 = ->
@@ -405,7 +411,7 @@ showHeap = (board,heap,x,y,dy) -> # dy kan vara både pos och neg
 display = (board) ->
 	background 0,128,0
 
-	showInfo()
+	generalen()
 
 	textAlign CENTER,TOP
 	for heap,y in ACES
@@ -416,6 +422,8 @@ display = (board) ->
 		showHeap board, heap, x, 0, dy
 	for heap,x in PANEL
 		showHeap board, heap, x, 3, 0
+
+	showInfo()
 
 	noStroke()
 	showDialogue()
@@ -435,6 +443,9 @@ showInfo = ->
 	infoLines[3][2] = total[2]
 	infoLines[4][2] = total[0] 
 
+	fill 255,255,0,128
+	stroke 0,128,0
+
 	for [a,b,c],i in infoLines
 		#if i==1 and not general.competition then continue
 		y = h*(2.2 + 0.2*i)
@@ -448,6 +459,7 @@ showInfo = ->
 	text "Cards: #{4*N - countAceCards(board)}",7.95*w,2.6*h
 	text "Hints: #{general.hintsUsed}",7.95*w,2.8*h
 
+generalen = ->
 	textAlign CENTER,CENTER
 	textSize 1.0*h
 	stroke 0,64,0
@@ -479,7 +491,6 @@ makeMove = (board,src,dst,record) ->
 
 # returns text move
 undoMove = ([src,dst,antal]) -> 
-	msg = ''
 	res = prettyUndoMove src,dst,board,antal
 	[board[src],board[dst]] = undoMoveOne board[src],board[dst],antal
 	res
@@ -591,10 +602,25 @@ hitGreen = (mx,my,mouseX,mouseY) ->
 	if n==0 then return true
 	mouseY > h*(1+1/4*(n-1))
 
+mouseReleased = ->
+	released = true
+	#messages.push 'mouseReleased'
+	false
+
+# mousePressed = ->
+# 	if not released then return false
+# 	released = false 
+# 	counter += 1
+# 	messages.push "mousePressed #{counter}"
+# 	false	
+
 mousePressed = -> 
 
-	if not (0 < mouseX < width) then return
-	if not (0 < mouseY < height) then return
+	if not released then return false
+	released = false 
+
+	if not (0 < mouseX < width) then return false
+	if not (0 < mouseY < height) then return false 
 
 	mx = mouseX//w
 	my = mouseY//h
@@ -607,12 +633,13 @@ mousePressed = ->
 		if mx == 8 or hitGreen mx,my,mouseX,mouseY 
 			if dialogues.length == 0 then menu1() else dialogues.pop()
 			display board
-			return
+			return false
 
 		dialogues.clear()
 		general.handle mx,my
 
 	display board
+	false 
 
 ####### AI-section ########
 
@@ -703,10 +730,11 @@ hintOne = ->
 		return false
 
 newGame = (lvl) -> # 0..15
+	#lvl = 14
 	general.level = lvl
 	general.start = millis()
-	msg = ''
 	general.hist = []
+	print '#####','Level',lvl
 	while true 
 		makeBoard general.level 
 		general.hintsUsed = 0
@@ -727,12 +755,12 @@ newGame = (lvl) -> # 0..15
 			cands = cands.concat increment
 			cands.sort (a,b) -> if a[0] == b[0] then b[1]-a[1] else a[0]-b[0]
 
-		print nr,cands.length
+		print 'trying',nr,cands.length
 		if aceCards == N*4
 			print JSON.stringify dumpBoard originalBoard 
 			board = cand[2]
 			print makeLink()
-			print 'currentSeed', currentSeed
+			#print 'currentSeed', currentSeed
 			printAutomaticSolution hash,board
 			board = _.cloneDeep originalBoard
 			print "#{int millis()-general.start} ms"
@@ -743,7 +771,6 @@ newGame = (lvl) -> # 0..15
 restart = ->
 	general.hist = []
 	board = _.cloneDeep originalBoard
-	msg = ''
 
 prettyCard2 = (card,antal) ->
 	[suit,under,over] = unpack card 

@@ -55,6 +55,7 @@ var ACES,
     fakeBoard,
     findAllMoves,
     general,
+    generalen,
     getCenter,
     getParameters,
     h,
@@ -72,6 +73,7 @@ var ACES,
     menu1,
     menu2,
     mousePressed,
+    mouseReleased,
     myRandom,
     myShuffle,
     newGame,
@@ -88,6 +90,7 @@ var ACES,
     printManualSolution,
     range,
     readBoard,
+    released,
     restart,
     seed,
     setup,
@@ -165,6 +168,8 @@ alternativeDsts = [];
 infoLines = [];
 
 general = null;
+
+released = true;
 
 print = console.log;
 
@@ -254,11 +259,11 @@ BlackBox = function () {
   _createClass(BlackBox, [{
     key: "probe",
     value: function probe(time, computer, human) {
-      print('probe', this.total[2], human, this.total[1], computer, this.total[2] + human > this.total[1] + computer);
       if (this.total[2] + human > this.total[1] + computer) {
         this.success = false;
         return this.success;
       }
+      print(this.count, 'time', time, 'computer', computer, 'human', human);
       this.count++;
       this.total = [this.total[0] + time, this.total[1] + computer, this.total[2] + human];
       this.success = true;
@@ -274,9 +279,8 @@ BlackBox = function () {
     }
   }, {
     key: "show",
-    value: function show() {
-      return print('BlackBox', this.count, this.total);
-    }
+    value: function show() {} // print 'BlackBox',@count,@total
+
   }]);
 
   return BlackBox;
@@ -676,7 +680,7 @@ menu1 = function menu1() {
   dialogue = new Dialogue(1, int(4 * w), int(1.5 * h), int(0.15 * h));
   r1 = 0.25 * height;
   r2 = 0.085 * height;
-  dialogue.clock(' ', 5, r1, r2, 90 + 360 / 10);
+  dialogue.clock(' ', 6, r1, r2, 90 + 360 / 12);
   dialogue.buttons[0].info('Undo', general.hist.length > 0, function () {
     var antal, dst, src;
     if (general.hist.length > 0) {
@@ -717,12 +721,17 @@ menu1 = function menu1() {
   });
   // dialogues.pop() # do not pop!
   dialogue.buttons[3].info('Next', general.blackBox.success, function () {
-    general.level = constrain((general.level + 1) % 16, 0, general.maxLevel);
+
+    //general.level = constrain (general.level+1) % 16, 0, general.maxLevel
+    general.level = constrain(general.level + 1, 0, general.maxLevel);
     newGame(general.level);
     general.timeUsed = 0;
     return dialogues.pop();
   });
-  return dialogue.buttons[4].info('More...', true, function () {
+  dialogue.buttons[4].info('Help', true, function () {
+    return window.open("https://github.com/ChristerNilsson/Lab/tree/master/2018/056-GeneralensTidsf%C3%B6rdriv#generalens-tidsf%C3%B6rdriv");
+  });
+  return dialogue.buttons[5].info('More...', true, function () {
     return menu2();
   });
 };
@@ -802,7 +811,7 @@ showHeap = function showHeap(board, heap, x, y, dy) {
 display = function display(board) {
   var dy, heap, l, len, len1, len2, m, n, o, x, y;
   background(0, 128, 0);
-  showInfo();
+  generalen();
   textAlign(CENTER, TOP);
   for (y = l = 0, len = ACES.length; l < len; y = ++l) {
     heap = ACES[y];
@@ -818,6 +827,7 @@ display = function display(board) {
     heap = PANEL[x];
     showHeap(board, heap, x, 3, 0);
   }
+  showInfo();
   noStroke();
   return showDialogue();
 };
@@ -836,6 +846,8 @@ showInfo = function showInfo() {
   infoLines[2][2] = total[1];
   infoLines[3][2] = total[2];
   infoLines[4][2] = total[0];
+  fill(255, 255, 0, 128);
+  stroke(0, 128, 0);
   for (i = l = 0, len = infoLines.length; l < len; i = ++l) {
     //if i==1 and not general.competition then continue
     var _infoLines$i = _slicedToArray(infoLines[i], 3);
@@ -852,7 +864,10 @@ showInfo = function showInfo() {
   }
   text("Level: " + general.level, 7.95 * w, 2.4 * h);
   text("Cards: " + (4 * N - countAceCards(board)), 7.95 * w, 2.6 * h);
-  text("Hints: " + general.hintsUsed, 7.95 * w, 2.8 * h);
+  return text("Hints: " + general.hintsUsed, 7.95 * w, 2.8 * h);
+};
+
+generalen = function generalen() {
   textAlign(CENTER, CENTER);
   textSize(1.0 * h);
   stroke(0, 64, 0);
@@ -941,8 +956,7 @@ undoMove = function undoMove(_ref) {
       dst = _ref2[1],
       antal = _ref2[2];
 
-  var msg, res;
-  msg = '';
+  var res;
   res = prettyUndoMove(src, dst, board, antal);
 
   var _undoMoveOne = undoMoveOne(board[src], board[dst], antal);
@@ -1106,13 +1120,29 @@ hitGreen = function hitGreen(mx, my, mouseX, mouseY) {
   return mouseY > h * (1 + 1 / 4 * (n - 1));
 };
 
+mouseReleased = function mouseReleased() {
+  released = true;
+  //messages.push 'mouseReleased'
+  return false;
+};
+
+// mousePressed = ->
+// 	if not released then return false
+// 	released = false 
+// 	counter += 1
+// 	messages.push "mousePressed #{counter}"
+// 	false	
 mousePressed = function mousePressed() {
   var dialogue, mx, my;
+  if (!released) {
+    return false;
+  }
+  released = false;
   if (!(0 < mouseX && mouseX < width)) {
-    return;
+    return false;
   }
   if (!(0 < mouseY && mouseY < height)) {
-    return;
+    return false;
   }
   mx = Math.floor(mouseX / w);
   my = Math.floor(mouseY / h);
@@ -1128,12 +1158,13 @@ mousePressed = function mousePressed() {
         dialogues.pop();
       }
       display(board);
-      return;
+      return false;
     }
     dialogues.clear();
     general.handle(mx, my);
   }
-  return display(board);
+  display(board);
+  return false;
 };
 
 //###### AI-section ########
@@ -1279,11 +1310,12 @@ hintOne = function hintOne() {
 
 newGame = function newGame(lvl) {
   // 0..15
-  var cand, increment, msg, nr;
+  var cand, increment, nr;
+  //lvl = 14
   general.level = lvl;
   general.start = millis();
-  msg = '';
   general.hist = [];
+  print('#####', 'Level', lvl);
   while (true) {
     makeBoard(general.level);
     general.hintsUsed = 0;
@@ -1309,12 +1341,12 @@ newGame = function newGame(lvl) {
         }
       });
     }
-    print(nr, cands.length);
+    print('trying', nr, cands.length);
     if (aceCards === N * 4) {
       print(JSON.stringify(dumpBoard(originalBoard)));
       board = cand[2];
       print(makeLink());
-      print('currentSeed', currentSeed);
+      //print 'currentSeed', currentSeed
       printAutomaticSolution(hash, board);
       board = _.cloneDeep(originalBoard);
       print(int(millis() - general.start) + " ms");
@@ -1326,10 +1358,8 @@ newGame = function newGame(lvl) {
 };
 
 restart = function restart() {
-  var msg;
   general.hist = [];
-  board = _.cloneDeep(originalBoard);
-  return msg = '';
+  return board = _.cloneDeep(originalBoard);
 };
 
 prettyCard2 = function prettyCard2(card, antal) {
