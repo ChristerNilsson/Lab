@@ -43,8 +43,8 @@ N = null # Max rank
 srcs = null
 dsts = null
 
-seed = 1 # seed for random numbers
-currentSeed = null
+slowSeed = 1 # stored externally
+fastSeed = 1 # used internally
 
 alternativeDsts = []
 
@@ -67,7 +67,7 @@ getParameters = (h = window.location.href) ->
 	_.fromPairs (f.split '=' for f in s.split('&'))
 
 myRandom = (a,b) -> 
-	x = 10000 * Math.sin seed++
+	x = 10000 * Math.sin fastSeed++
 	r = x - Math.floor x
 	a + Math.floor (b-a) * r
 
@@ -89,7 +89,7 @@ makeLink = ->
 	url = window.location.href + '?'
 	index = url.indexOf '?'
 	url = url.substring 0,index
-	url + '?cards=' + currentSeed
+	url + '?cards=' + slowSeed
 
 class BlackBox # Avgör om man lyckats eller ej. Man får tillgodogöra sig tidigare drag.
 	constructor : -> @clr()
@@ -113,15 +113,34 @@ class General
 		@start = null
 		@maxMoves = null
 		@hist = null
-		@hintsUsed = null
+		@hintsUsed = 0
 		@blackBox = new BlackBox()
 		@clr()
+		@getLocalStorage()
+
+	getLocalStorage : ->
+		if localStorage.Generalen? then hash = JSON.parse localStorage.Generalen 
+		if _.size hash != 5 then hash = {level:0, slowSeed:0, fastSeed:0, total:[0,0,0], hintsUsed:0} 
+		{level,slowSeed,fastSeed,total,hintsUsed} = hash
+		@level = level
+		@blackBox.total = total
+		@hintsUsed = hintsUsed
+		print 'get', JSON.stringify hash
+
+	putLocalStorage : ->
+		s = JSON.stringify {level: @level, slowSeed, fastSeed, total:@blackBox.total, hintsUsed:@hintsUsed} 
+		localStorage.Generalen = s 
+		print 'put',s
 
 	clr : ->
 		@blackBox.clr()
 		@level = 0
-		@maxLevel = 0 
 		@timeUsed = 0
+		#@putLocalStorage()
+
+	totalRestart : -> 
+		slowSeed = int random 65536		
+		@clr()
 
 	handle : (mx,my) ->
 		marked = [(mx + if my >= 3 then 12 else 4),my]
@@ -132,9 +151,7 @@ class General
 			if @blackBox.probe timeUsed,@maxMoves,@hist.length 
 				@timeUsed = timeUsed
 				@blackBox.show()
-				@maxLevel++ 
-			@maxLevel = constrain @maxLevel,0,15
-			localStorage.Generalen = JSON.stringify {@maxLevel,@level}
+			@putLocalStorage()
 			printManualSolution()
 
 preload = -> 
@@ -221,7 +238,7 @@ makeBoard = (lvl)->
 		for rank in range 1,N # 2..K
 			cards.push pack suit,rank,rank 
 
-	currentSeed = seed
+	fastSeed++
 	myShuffle cards
 
 	board = []
@@ -266,24 +283,14 @@ setup = ->
 	h = height/4 
 	angleMode DEGREES
 
-	if localStorage.Generalen? 
-		{maxLevel,level} = JSON.parse localStorage.Generalen
-	else
-		{maxLevel,level} = {maxLevel:0, level:0} 
-	general.maxLevel = maxLevel
-	general.level = level
-
 	params = getParameters()
 	if 'cards' of params
-		seed = parseInt params.cards
-		general.level = 0 
-	else
-		seed = int random 65536
-	general.level = constrain general.level,0,general.maxLevel
+		slowSeed = parseInt params.cards
+		general.level = 0
 
 	startCompetition = millis()
-	infoLines.push 'Moves Bonus Time   Level Cards Hints'.split ' '
-	infoLines.push '0 0 0   0 0 0'.split ' '
+	infoLines.push 'Level Moves Bonus Cards   Time Hints'.split ' '
+	infoLines.push '0 0 0 0   0 0'.split ' '
 
 	newGame general.level
 	display board 
@@ -343,10 +350,10 @@ menu1 = ->
 		# dialogues.pop() # do not pop!
 
 	dialogue.buttons[3].info 'Next', general.blackBox.success, -> 
-		#general.level = constrain (general.level+1) % 16, 0, general.maxLevel
-		general.level = constrain general.level+1, 0, general.maxLevel
+		general.level = (general.level+1) % 16
 		newGame general.level
 		general.timeUsed = 0
+		general.putLocalStorage()
 		dialogues.pop()
 
 	dialogue.buttons[4].info 'Help', true, ->
@@ -367,8 +374,7 @@ menu2 = ->
 		dialogues.clear()
 
 	dialogue.buttons[1].info 'Total Restart', true, -> 
-		delete localStorage.Generalen
-		general.clr()
+		general.totalRestart()
 		newGame 0
 		dialogues.clear()
 
@@ -426,12 +432,12 @@ showInfo = ->
 
 	total = general.blackBox.total
 
-	infoLines[1][0] = general.maxMoves - general.hist.length
-	infoLines[1][1] = total[1] - total[2] 
-	infoLines[1][2] = general.timeUsed 
-	infoLines[1][5] = general.level
-	infoLines[1][6] = 4*N - countAceCards(board)
-	infoLines[1][7] = general.hintsUsed
+	infoLines[1][0] = general.level
+	infoLines[1][1] = general.maxMoves - general.hist.length
+	infoLines[1][2] = total[1] - total[2] # bonus
+	infoLines[1][3] = 4*N - countAceCards(board) # cards
+	infoLines[1][6] = total[0] # time 
+	infoLines[1][7] = general.hintsUsed # hints
 
 	fill 255,255,0,128
 	stroke 0,128,0

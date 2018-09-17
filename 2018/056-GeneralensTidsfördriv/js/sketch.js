@@ -46,13 +46,13 @@ var ACES,
     copyToClipboard,
     countAceCards,
     countPanelCards,
-    currentSeed,
     display,
     dsts,
     dumpBoard,
     expand,
     faces,
     fakeBoard,
+    fastSeed,
     findAllMoves,
     general,
     generalen,
@@ -92,11 +92,11 @@ var ACES,
     readBoard,
     released,
     restart,
-    seed,
     setup,
     showDialogue,
     showHeap,
     showInfo,
+    slowSeed,
     srcs,
     startCompetition,
     text3,
@@ -159,9 +159,9 @@ srcs = null;
 
 dsts = null;
 
-seed = 1; // seed for random numbers
+slowSeed = 1; // stored externally
 
-currentSeed = null;
+fastSeed = 1; // used internally
 
 alternativeDsts = [];
 
@@ -212,7 +212,7 @@ getParameters = function getParameters() {
 
 myRandom = function myRandom(a, b) {
   var r, x;
-  x = 10000 * Math.sin(seed++);
+  x = 10000 * Math.sin(fastSeed++);
   r = x - Math.floor(x);
   return a + Math.floor((b - a) * r);
 };
@@ -245,7 +245,7 @@ makeLink = function makeLink() {
   url = window.location.href + '?';
   index = url.indexOf('?');
   url = url.substring(0, index);
-  return url + '?cards=' + currentSeed;
+  return url + '?cards=' + slowSeed;
 };
 
 BlackBox = function () {
@@ -293,18 +293,69 @@ General = function () {
     this.start = null;
     this.maxMoves = null;
     this.hist = null;
-    this.hintsUsed = null;
+    this.hintsUsed = 0;
     this.blackBox = new BlackBox();
     this.clr();
+    this.getLocalStorage();
   }
 
   _createClass(General, [{
+    key: "getLocalStorage",
+    value: function getLocalStorage() {
+      var hintsUsed, level, total;
+      if (localStorage.Generalen != null) {
+        hash = JSON.parse(localStorage.Generalen);
+      }
+      if (_.size(hash !== 5)) {
+        hash = {
+          level: 0,
+          slowSeed: 0,
+          fastSeed: 0,
+          total: [0, 0, 0],
+          hintsUsed: 0
+        };
+      }
+      var _hash = hash;
+      level = _hash.level;
+      slowSeed = _hash.slowSeed;
+      fastSeed = _hash.fastSeed;
+      total = _hash.total;
+      hintsUsed = _hash.hintsUsed;
+
+      this.level = level;
+      this.blackBox.total = total;
+      this.hintsUsed = hintsUsed;
+      return print('get', JSON.stringify(hash));
+    }
+  }, {
+    key: "putLocalStorage",
+    value: function putLocalStorage() {
+      var s;
+      s = JSON.stringify({
+        level: this.level,
+        slowSeed: slowSeed,
+        fastSeed: fastSeed,
+        total: this.blackBox.total,
+        hintsUsed: this.hintsUsed
+      });
+      localStorage.Generalen = s;
+      return print('put', s);
+    }
+  }, {
     key: "clr",
     value: function clr() {
       this.blackBox.clr();
       this.level = 0;
-      this.maxLevel = 0;
       return this.timeUsed = 0;
+    }
+
+    //@putLocalStorage()
+
+  }, {
+    key: "totalRestart",
+    value: function totalRestart() {
+      slowSeed = int(random(65536));
+      return this.clr();
     }
   }, {
     key: "handle",
@@ -317,10 +368,8 @@ General = function () {
         if (this.blackBox.probe(timeUsed, this.maxMoves, this.hist.length)) {
           this.timeUsed = timeUsed;
           this.blackBox.show();
-          this.maxLevel++;
         }
-        this.maxLevel = constrain(this.maxLevel, 0, 15);
-        localStorage.Generalen = JSON.stringify({ maxLevel: this.maxLevel, level: this.level });
+        this.putLocalStorage();
         return printManualSolution();
       }
     }
@@ -505,7 +554,7 @@ makeBoard = function makeBoard(lvl) {
       cards.push(pack(suit, rank, rank));
     }
   }
-  currentSeed = seed;
+  fastSeed++;
   myShuffle(cards);
   board = [];
   ref2 = range(20);
@@ -571,7 +620,7 @@ fakeBoard = function fakeBoard() {
 };
 
 setup = function setup() {
-  var canvas, level, maxLevel, params;
+  var canvas, params;
   print('Z');
   canvas = createCanvas(innerWidth - 0.5, innerHeight - 0.5);
   canvas.position(0, 0); // hides text field used for clipboard copy.
@@ -579,32 +628,14 @@ setup = function setup() {
   w = width / 9;
   h = height / 4;
   angleMode(DEGREES);
-  if (localStorage.Generalen != null) {
-    var _JSON$parse = JSON.parse(localStorage.Generalen);
-
-    maxLevel = _JSON$parse.maxLevel;
-    level = _JSON$parse.level;
-  } else {
-    var _maxLevel$level = {
-      maxLevel: 0,
-      level: 0
-    };
-    maxLevel = _maxLevel$level.maxLevel;
-    level = _maxLevel$level.level;
-  }
-  general.maxLevel = maxLevel;
-  general.level = level;
   params = getParameters();
   if ('cards' in params) {
-    seed = parseInt(params.cards);
+    slowSeed = parseInt(params.cards);
     general.level = 0;
-  } else {
-    seed = int(random(65536));
   }
-  general.level = constrain(general.level, 0, general.maxLevel);
   startCompetition = millis();
-  infoLines.push('Moves Bonus Time   Level Cards Hints'.split(' '));
-  infoLines.push('0 0 0   0 0 0'.split(' '));
+  infoLines.push('Level Moves Bonus Cards   Time Hints'.split(' '));
+  infoLines.push('0 0 0 0   0 0'.split(' '));
   newGame(general.level);
   return display(board);
 };
@@ -710,11 +741,10 @@ menu1 = function menu1() {
   });
   // dialogues.pop() # do not pop!
   dialogue.buttons[3].info('Next', general.blackBox.success, function () {
-
-    //general.level = constrain (general.level+1) % 16, 0, general.maxLevel
-    general.level = constrain(general.level + 1, 0, general.maxLevel);
+    general.level = (general.level + 1) % 16;
     newGame(general.level);
     general.timeUsed = 0;
+    general.putLocalStorage();
     return dialogues.pop();
   });
   dialogue.buttons[4].info('Help', true, function () {
@@ -736,8 +766,7 @@ menu2 = function menu2() {
     return dialogues.clear();
   });
   dialogue.buttons[1].info('Total Restart', true, function () {
-    delete localStorage.Generalen;
-    general.clr();
+    general.totalRestart();
     newGame(0);
     return dialogues.clear();
   });
@@ -828,12 +857,12 @@ showInfo = function showInfo() {
   fill(64);
   textSize(0.2 * h);
   total = general.blackBox.total;
-  infoLines[1][0] = general.maxMoves - general.hist.length;
-  infoLines[1][1] = total[1] - total[2];
-  infoLines[1][2] = general.timeUsed;
-  infoLines[1][5] = general.level;
-  infoLines[1][6] = 4 * N - countAceCards(board);
-  infoLines[1][7] = general.hintsUsed;
+  infoLines[1][0] = general.level;
+  infoLines[1][1] = general.maxMoves - general.hist.length;
+  infoLines[1][2] = total[1] - total[2];
+  infoLines[1][3] = 4 * N - countAceCards(board); // cards
+  infoLines[1][6] = total[0];
+  infoLines[1][7] = general.hintsUsed; // hints
   fill(255, 255, 0, 128);
   stroke(0, 128, 0);
   textAlign(RIGHT, BOTTOM);
