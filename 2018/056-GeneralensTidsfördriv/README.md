@@ -13,6 +13,7 @@
 # Menyn
 Menyn nås genom att klicka på den gröna bakgrunden eller något av essen.
 
+* __Help__ Denna sida visas
 * __Undo__ Ångrar senaste drag. Draget indikeras med __From__ och __To__
 * __Hint__ Ger en ledtråd. Se röd/grön indikator
   * Prova även att göra en Restart innan du klickar på Hint. Då slipper du utföra eventuella Undo

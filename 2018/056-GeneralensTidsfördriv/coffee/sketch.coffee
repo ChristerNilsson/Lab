@@ -133,12 +133,6 @@ class General
 				@timeUsed = timeUsed
 				@blackBox.show()
 				@maxLevel++ 
-			# else
-			# 	if @hist.length > @maxMoves * 1.1
-			# 		msg = "Too many moves: #{@hist.length - @maxMoves}"
-			# 	else if @hintsUsed == 0
-			# 		@timeUsed = (millis() - @start) // 1000
-			# 		if @level == @maxLevel then @maxLevel++ 
 			@maxLevel = constrain @maxLevel,0,15
 			localStorage.Generalen = JSON.stringify {@maxLevel,@level}
 			printManualSolution()
@@ -288,12 +282,8 @@ setup = ->
 	general.level = constrain general.level,0,general.maxLevel
 
 	startCompetition = millis()
-	infoLines = []
-	infoLines.push ['','','Total']
-	infoLines.push ['Levels','',0]
-	infoLines.push ["Computer Moves",0,0]
-	infoLines.push ["Human Moves",0,0]
-	infoLines.push ["Time",0,0]	
+	infoLines.push 'Moves Bonus Time   Level Cards Hints'.split ' '
+	infoLines.push '0 0 0   0 0 0'.split ' '
 
 	newGame general.level
 	display board 
@@ -434,30 +424,24 @@ showInfo = ->
 	fill 64
 	textSize 0.2*h
 
-	infoLines[1][2] = general.blackBox.count
-	infoLines[2][1] = general.maxMoves 
-	infoLines[3][1] = general.hist.length 
-	infoLines[4][1] = general.timeUsed 
 	total = general.blackBox.total
-	infoLines[2][2] = total[1]
-	infoLines[3][2] = total[2]
-	infoLines[4][2] = total[0] 
+
+	infoLines[1][0] = general.maxMoves - general.hist.length
+	infoLines[1][1] = total[1] - total[2] 
+	infoLines[1][2] = general.timeUsed 
+	infoLines[1][5] = general.level
+	infoLines[1][6] = 4*N - countAceCards(board)
+	infoLines[1][7] = general.hintsUsed
 
 	fill 255,255,0,128
 	stroke 0,128,0
 
-	for [a,b,c],i in infoLines
-		#if i==1 and not general.competition then continue
-		y = h*(2.2 + 0.2*i)
-		textAlign LEFT,BOTTOM
-		text a, 0.05*w,y
-		textAlign RIGHT,BOTTOM
-		text b, 3*w,y
-		text c, 4*w,y
-
-	text "Level: #{general.level}",7.95*w,2.4*h
-	text "Cards: #{4*N - countAceCards(board)}",7.95*w,2.6*h
-	text "Hints: #{general.hintsUsed}",7.95*w,2.8*h
+	textAlign RIGHT,BOTTOM
+	for i in range 8 
+		x = w*(i+1)
+		for j in range 2
+			y = h*(2.8 + 0.2*j)
+			text infoLines[j][i], x,y
 
 generalen = ->
 	textAlign CENTER,CENTER
@@ -604,15 +588,7 @@ hitGreen = (mx,my,mouseX,mouseY) ->
 
 mouseReleased = ->
 	released = true
-	#messages.push 'mouseReleased'
 	false
-
-# mousePressed = ->
-# 	if not released then return false
-# 	released = false 
-# 	counter += 1
-# 	messages.push "mousePressed #{counter}"
-# 	false	
 
 mousePressed = -> 
 

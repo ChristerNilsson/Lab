@@ -319,13 +319,6 @@ General = function () {
           this.blackBox.show();
           this.maxLevel++;
         }
-
-        // else
-        // 	if @hist.length > @maxMoves * 1.1
-        // 		msg = "Too many moves: #{@hist.length - @maxMoves}"
-        // 	else if @hintsUsed == 0
-        // 		@timeUsed = (millis() - @start) // 1000
-        // 		if @level == @maxLevel then @maxLevel++ 
         this.maxLevel = constrain(this.maxLevel, 0, 15);
         localStorage.Generalen = JSON.stringify({ maxLevel: this.maxLevel, level: this.level });
         return printManualSolution();
@@ -610,12 +603,8 @@ setup = function setup() {
   }
   general.level = constrain(general.level, 0, general.maxLevel);
   startCompetition = millis();
-  infoLines = [];
-  infoLines.push(['', '', 'Total']);
-  infoLines.push(['Levels', '', 0]);
-  infoLines.push(["Computer Moves", 0, 0]);
-  infoLines.push(["Human Moves", 0, 0]);
-  infoLines.push(["Time", 0, 0]);
+  infoLines.push('Moves Bonus Time   Level Cards Hints'.split(' '));
+  infoLines.push('0 0 0   0 0 0'.split(' '));
   newGame(general.level);
   return display(board);
 };
@@ -835,36 +824,37 @@ display = function display(board) {
 text3 = function text3(a, b, c, y) {};
 
 showInfo = function showInfo() {
-  var a, b, c, i, l, len, total, y;
+  var i, j, l, len, ref, results, total, x, y;
   fill(64);
   textSize(0.2 * h);
-  infoLines[1][2] = general.blackBox.count;
-  infoLines[2][1] = general.maxMoves;
-  infoLines[3][1] = general.hist.length;
-  infoLines[4][1] = general.timeUsed;
   total = general.blackBox.total;
-  infoLines[2][2] = total[1];
-  infoLines[3][2] = total[2];
-  infoLines[4][2] = total[0];
+  infoLines[1][0] = general.maxMoves - general.hist.length;
+  infoLines[1][1] = total[1] - total[2];
+  infoLines[1][2] = general.timeUsed;
+  infoLines[1][5] = general.level;
+  infoLines[1][6] = 4 * N - countAceCards(board);
+  infoLines[1][7] = general.hintsUsed;
   fill(255, 255, 0, 128);
   stroke(0, 128, 0);
-  for (i = l = 0, len = infoLines.length; l < len; i = ++l) {
-    //if i==1 and not general.competition then continue
-    var _infoLines$i = _slicedToArray(infoLines[i], 3);
-
-    a = _infoLines$i[0];
-    b = _infoLines$i[1];
-    c = _infoLines$i[2];
-    y = h * (2.2 + 0.2 * i);
-    textAlign(LEFT, BOTTOM);
-    text(a, 0.05 * w, y);
-    textAlign(RIGHT, BOTTOM);
-    text(b, 3 * w, y);
-    text(c, 4 * w, y);
+  textAlign(RIGHT, BOTTOM);
+  ref = range(8);
+  results = [];
+  for (l = 0, len = ref.length; l < len; l++) {
+    i = ref[l];
+    x = w * (i + 1);
+    results.push(function () {
+      var len1, m, ref1, results1;
+      ref1 = range(2);
+      results1 = [];
+      for (m = 0, len1 = ref1.length; m < len1; m++) {
+        j = ref1[m];
+        y = h * (2.8 + 0.2 * j);
+        results1.push(text(infoLines[j][i], x, y));
+      }
+      return results1;
+    }());
   }
-  text("Level: " + general.level, 7.95 * w, 2.4 * h);
-  text("Cards: " + (4 * N - countAceCards(board)), 7.95 * w, 2.6 * h);
-  return text("Hints: " + general.hintsUsed, 7.95 * w, 2.8 * h);
+  return results;
 };
 
 generalen = function generalen() {
@@ -1122,16 +1112,9 @@ hitGreen = function hitGreen(mx, my, mouseX, mouseY) {
 
 mouseReleased = function mouseReleased() {
   released = true;
-  //messages.push 'mouseReleased'
   return false;
 };
 
-// mousePressed = ->
-// 	if not released then return false
-// 	released = false 
-// 	counter += 1
-// 	messages.push "mousePressed #{counter}"
-// 	false	
 mousePressed = function mousePressed() {
   var dialogue, mx, my;
   if (!released) {
