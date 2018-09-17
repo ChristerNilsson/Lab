@@ -52,7 +52,6 @@ var ACES,
     expand,
     faces,
     fakeBoard,
-    fastSeed,
     findAllMoves,
     general,
     generalen,
@@ -96,7 +95,6 @@ var ACES,
     showDialogue,
     showHeap,
     showInfo,
-    slowSeed,
     srcs,
     startCompetition,
     text3,
@@ -159,10 +157,6 @@ srcs = null;
 
 dsts = null;
 
-slowSeed = 1; // stored externally
-
-fastSeed = 1; // used internally
-
 alternativeDsts = [];
 
 infoLines = [];
@@ -212,7 +206,7 @@ getParameters = function getParameters() {
 
 myRandom = function myRandom(a, b) {
   var r, x;
-  x = 10000 * Math.sin(fastSeed++);
+  x = 10000 * Math.sin(general.fastSeed++);
   r = x - Math.floor(x);
   return a + Math.floor((b - a) * r);
 };
@@ -245,7 +239,7 @@ makeLink = function makeLink() {
   url = window.location.href + '?';
   index = url.indexOf('?');
   url = url.substring(0, index);
-  return url + '?cards=' + slowSeed;
+  return url + '?cards=' + general.slowSeed;
 };
 
 BlackBox = function () {
@@ -257,26 +251,15 @@ BlackBox = function () {
   }
 
   _createClass(BlackBox, [{
-    key: "probe",
-    value: function probe(time, computer, human) {
-      if (this.total[2] + human > this.total[1] + computer) {
-        this.success = false;
-        return this.success;
-      }
-      print(this.count, 'time', time, 'computer', computer, 'human', human);
-      this.count++;
-      this.total = [this.total[0] + time, this.total[1] + computer, this.total[2] + human];
-      this.success = true;
-      return this.success;
-    }
-  }, {
     key: "clr",
     value: function clr() {
       this.total = [0, 0, 0 // [time,computer,human]
       ];
-      this.count = 0;
-      return this.success = false;
+      return this.count = 0;
     }
+
+    //@success = false 
+
   }, {
     key: "show",
     value: function show() {} // print 'BlackBox',@count,@total
@@ -290,6 +273,8 @@ General = function () {
   function General() {
     _classCallCheck(this, General);
 
+    this.slowSeed = 1; // stored externally
+    this.fastSeed = 1; // used internally
     this.start = null;
     this.maxMoves = null;
     this.hist = null;
@@ -300,31 +285,48 @@ General = function () {
   }
 
   _createClass(General, [{
+    key: "success",
+    value: function success() {
+      return this.blackBox.total[2] + this.hist.length <= this.blackBox.total[1] + this.maxMoves;
+    }
+  }, {
+    key: "probe",
+    value: function probe(time) {
+      var total;
+      if (!this.success()) {
+        return false;
+      }
+      total = this.blackBox.total;
+      total[0] += time;
+      total[1] += this.maxMoves;
+      total[2] += this.hist.length;
+      return true;
+    }
+  }, {
     key: "getLocalStorage",
     value: function getLocalStorage() {
-      var hintsUsed, level, total;
+      print('direct', localStorage.Generalen);
       if (localStorage.Generalen != null) {
         hash = JSON.parse(localStorage.Generalen);
+      } else {
+        hash = {};
       }
-      if (_.size(hash !== 5)) {
+      if (5 !== _.size(hash)) {
         hash = {
           level: 0,
-          slowSeed: 0,
-          fastSeed: 0,
+          slowSeed: 1,
+          fastSeed: 1,
           total: [0, 0, 0],
           hintsUsed: 0
         };
       }
-      var _hash = hash;
-      level = _hash.level;
-      slowSeed = _hash.slowSeed;
-      fastSeed = _hash.fastSeed;
-      total = _hash.total;
-      hintsUsed = _hash.hintsUsed;
-
-      this.level = level;
-      this.blackBox.total = total;
-      this.hintsUsed = hintsUsed;
+      print('hash', JSON.stringify(hash));
+      // {level,slowSeed,fastSeed,total,hintsUsed} = hash
+      this.level = hash.level;
+      this.slowSeed = hash.slowSeed;
+      this.fastSeed = hash.fastSeed;
+      this.blackBox.total = hash.total;
+      this.hintsUsed = hash.hintsUsed;
       return print('get', JSON.stringify(hash));
     }
   }, {
@@ -333,8 +335,8 @@ General = function () {
       var s;
       s = JSON.stringify({
         level: this.level,
-        slowSeed: slowSeed,
-        fastSeed: fastSeed,
+        slowSeed: this.slowSeed,
+        fastSeed: this.fastSeed,
         total: this.blackBox.total,
         hintsUsed: this.hintsUsed
       });
@@ -354,7 +356,7 @@ General = function () {
   }, {
     key: "totalRestart",
     value: function totalRestart() {
-      slowSeed = int(random(65536));
+      this.slowSeed = int(random(65536));
       return this.clr();
     }
   }, {
@@ -365,7 +367,7 @@ General = function () {
       heap = oneClick(marked, board, true);
       if (this.timeUsed === 0 && 4 * N === countAceCards(board)) {
         timeUsed = Math.floor((millis() - this.start) / 1000);
-        if (this.blackBox.probe(timeUsed, this.maxMoves, this.hist.length)) {
+        if (this.probe(timeUsed)) {
           this.timeUsed = timeUsed;
           this.blackBox.show();
         }
@@ -554,7 +556,8 @@ makeBoard = function makeBoard(lvl) {
       cards.push(pack(suit, rank, rank));
     }
   }
-  fastSeed++;
+
+  //general.fastSeed++ # nödvändig?
   myShuffle(cards);
   board = [];
   ref2 = range(20);
@@ -621,7 +624,7 @@ fakeBoard = function fakeBoard() {
 
 setup = function setup() {
   var canvas, params;
-  print('Z');
+  print('X');
   canvas = createCanvas(innerWidth - 0.5, innerHeight - 0.5);
   canvas.position(0, 0); // hides text field used for clipboard copy.
   general = new General();
@@ -630,7 +633,7 @@ setup = function setup() {
   angleMode(DEGREES);
   params = getParameters();
   if ('cards' in params) {
-    slowSeed = parseInt(params.cards);
+    general.slowSeed = parseInt(params.cards);
     general.level = 0;
   }
   startCompetition = millis();
@@ -740,7 +743,7 @@ menu1 = function menu1() {
     return makeMove(board, src, heap, true);
   });
   // dialogues.pop() # do not pop!
-  dialogue.buttons[3].info('Next', general.blackBox.success, function () {
+  dialogue.buttons[3].info('Next', general.success(), function () {
     general.level = (general.level + 1) % 16;
     newGame(general.level);
     general.timeUsed = 0;
@@ -855,7 +858,8 @@ text3 = function text3(a, b, c, y) {};
 showInfo = function showInfo() {
   var i, j, l, len, ref, results, total, x, y;
   fill(64);
-  textSize(0.2 * h);
+  print('textSize');
+  textSize(0.1 * (w + h));
   total = general.blackBox.total;
   infoLines[1][0] = general.level;
   infoLines[1][1] = general.maxMoves - general.hist.length;
@@ -865,12 +869,12 @@ showInfo = function showInfo() {
   infoLines[1][7] = general.hintsUsed; // hints
   fill(255, 255, 0, 128);
   stroke(0, 128, 0);
-  textAlign(RIGHT, BOTTOM);
+  textAlign(CENTER, BOTTOM);
   ref = range(8);
   results = [];
   for (l = 0, len = ref.length; l < len; l++) {
     i = ref[l];
-    x = w * (i + 1);
+    x = w * (i + 0.5);
     results.push(function () {
       var len1, m, ref1, results1;
       ref1 = range(2);
@@ -888,7 +892,7 @@ showInfo = function showInfo() {
 
 generalen = function generalen() {
   textAlign(CENTER, CENTER);
-  textSize(1.0 * h);
+  textSize(0.5 * (w + h));
   stroke(0, 64, 0);
   noFill();
   text('Generalens', 4 * w, 0.5 * h);

@@ -43,9 +43,6 @@ N = null # Max rank
 srcs = null
 dsts = null
 
-slowSeed = 1 # stored externally
-fastSeed = 1 # used internally
-
 alternativeDsts = []
 
 infoLines = []
@@ -67,7 +64,7 @@ getParameters = (h = window.location.href) ->
 	_.fromPairs (f.split '=' for f in s.split('&'))
 
 myRandom = (a,b) -> 
-	x = 10000 * Math.sin fastSeed++
+	x = 10000 * Math.sin general.fastSeed++
 	r = x - Math.floor x
 	a + Math.floor (b-a) * r
 
@@ -89,27 +86,20 @@ makeLink = ->
 	url = window.location.href + '?'
 	index = url.indexOf '?'
 	url = url.substring 0,index
-	url + '?cards=' + slowSeed
+	url + '?cards=' + general.slowSeed
 
 class BlackBox # Avgör om man lyckats eller ej. Man får tillgodogöra sig tidigare drag.
 	constructor : -> @clr()
-	probe : (time,computer,human) ->
-		if @total[2] + human > @total[1] + computer 
-			@success = false
-			return @success 
-		print @count,'time',time,'computer',computer,'human',human
-		@count++
-		@total = [@total[0]+time, @total[1]+computer, @total[2]+human]
-		@success = true 
-		@success
 	clr : ->
 		@total = [0,0,0] # [time,computer,human]
 		@count = 0
-		@success = false 
+		#@success = false 
 	show : -> # print 'BlackBox',@count,@total
 
 class General
 	constructor : ->
+		@slowSeed = 1 # stored externally
+		@fastSeed = 1 # used internally
 		@start = null
 		@maxMoves = null
 		@hist = null
@@ -118,17 +108,31 @@ class General
 		@clr()
 		@getLocalStorage()
 
+	success : -> @blackBox.total[2] + @hist.length <= @blackBox.total[1] + @maxMoves 
+
+	probe : (time) ->
+		if not @success() then return false 
+		total = @blackBox.total
+		total[0] += time
+		total[1] += @maxMoves
+		total[2] += @hist.length
+		true
+
 	getLocalStorage : ->
-		if localStorage.Generalen? then hash = JSON.parse localStorage.Generalen 
-		if _.size hash != 5 then hash = {level:0, slowSeed:0, fastSeed:0, total:[0,0,0], hintsUsed:0} 
-		{level,slowSeed,fastSeed,total,hintsUsed} = hash
-		@level = level
-		@blackBox.total = total
-		@hintsUsed = hintsUsed
+		print 'direct',localStorage.Generalen
+		if localStorage.Generalen? then hash = JSON.parse localStorage.Generalen else hash = {}
+		if 5 != _.size hash then hash = {level:0, slowSeed:1, fastSeed:1, total:[0,0,0], hintsUsed:0} 
+		print 'hash',JSON.stringify hash
+		# {level,slowSeed,fastSeed,total,hintsUsed} = hash
+		@level = hash.level
+		@slowSeed = hash.slowSeed
+		@fastSeed = hash.fastSeed
+		@blackBox.total = hash.total
+		@hintsUsed = hash.hintsUsed
 		print 'get', JSON.stringify hash
 
 	putLocalStorage : ->
-		s = JSON.stringify {level: @level, slowSeed, fastSeed, total:@blackBox.total, hintsUsed:@hintsUsed} 
+		s = JSON.stringify {level: @level, slowSeed:@slowSeed, fastSeed:@fastSeed, total:@blackBox.total, hintsUsed:@hintsUsed} 
 		localStorage.Generalen = s 
 		print 'put',s
 
@@ -139,7 +143,7 @@ class General
 		#@putLocalStorage()
 
 	totalRestart : -> 
-		slowSeed = int random 65536		
+		@slowSeed = int random 65536		
 		@clr()
 
 	handle : (mx,my) ->
@@ -148,7 +152,7 @@ class General
 
 		if @timeUsed == 0 and 4*N == countAceCards board
 			timeUsed = (millis() - @start) // 1000
-			if @blackBox.probe timeUsed,@maxMoves,@hist.length 
+			if @probe timeUsed
 				@timeUsed = timeUsed
 				@blackBox.show()
 			@putLocalStorage()
@@ -238,7 +242,7 @@ makeBoard = (lvl)->
 		for rank in range 1,N # 2..K
 			cards.push pack suit,rank,rank 
 
-	fastSeed++
+	#general.fastSeed++ # nödvändig?
 	myShuffle cards
 
 	board = []
@@ -273,7 +277,7 @@ fakeBoard = ->
 	print board
 
 setup = ->
-	print 'Z'
+	print 'X'
 	canvas = createCanvas innerWidth-0.5, innerHeight-0.5
 	canvas.position 0,0 # hides text field used for clipboard copy.
 
@@ -285,7 +289,7 @@ setup = ->
 
 	params = getParameters()
 	if 'cards' of params
-		slowSeed = parseInt params.cards
+		general.slowSeed = parseInt params.cards
 		general.level = 0
 
 	startCompetition = millis()
@@ -349,7 +353,7 @@ menu1 = ->
 		makeMove board,src,heap,true
 		# dialogues.pop() # do not pop!
 
-	dialogue.buttons[3].info 'Next', general.blackBox.success, -> 
+	dialogue.buttons[3].info 'Next', general.success(), -> 
 		general.level = (general.level+1) % 16
 		newGame general.level
 		general.timeUsed = 0
@@ -428,7 +432,8 @@ text3 = (a,b,c,y) ->
 
 showInfo = ->
 	fill 64
-	textSize 0.2*h
+	print 'textSize'
+	textSize 0.1*(w+h)
 
 	total = general.blackBox.total
 
@@ -442,16 +447,16 @@ showInfo = ->
 	fill 255,255,0,128
 	stroke 0,128,0
 
-	textAlign RIGHT,BOTTOM
+	textAlign CENTER,BOTTOM
 	for i in range 8 
-		x = w*(i+1)
+		x = w*(i+0.5)
 		for j in range 2
 			y = h*(2.8 + 0.2*j)
 			text infoLines[j][i], x,y
 
 generalen = ->
 	textAlign CENTER,CENTER
-	textSize 1.0*h
+	textSize 0.5*(w+h)
 	stroke 0,64,0
 	noFill()
 	text 'Generalens',  4*w,0.5*h
