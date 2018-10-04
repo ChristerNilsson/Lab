@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "curve.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\curve.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AAEC,AAAc;;;AACb,AAAC,SAAA,AAAD,OAAQ;AACR,AAAC,SAAA,AAAD,IAAK;AACL,AAAC,SAAA,AAAD,IAAK,AAHQ;AAKd,AAAW;;;;;aAAG,AAAC,KAAA,AAAI,KAAC,AAAN,KAAW,aAAa,AAAC,KAAA,AAAd,GAAgB,AAAC,KAAA,AAAjB,AAAX,AAAH;AACX,AAAQ;;;;aAAG,AAAC,KAAA,AAAD,OAAQ,AAAX;AAER,AAAO;;;2BACN;UAAA,GAAA,KAAA,KAAA;AAAA,aAAO,AAAP;AACA,mBAAa,AAAb;AACA;AACA,AACA;;AAAA,WAAA,kCAAA;;AACC,eAAO,AAAC,EAAC,AAAT,GAAY,AAAC,EAAC,AAAd,AADD;;AAEA;AAEA,mBAAa,AAAb;aACA,MAAM,AAAC,KAAA,AAAP,GAAU,AAAC,KAAA,AAAX,AAVM;AAVR",
+  "sourcesContent": [
+    "class Curve \r\n\r\n\tconstructor : ->\r\n\t\t@path = []\r\n\t\t@x = 0\r\n\t\t@y = 0\r\n\t\r\n\taddPoint : -> @path.push createVector @x,@y \r\n\treset : -> @path = []\r\n\r\n\tshow : ->\r\n\t\tstroke 255\r\n\t\tstrokeWeight 1\r\n\t\tnoFill()\r\n\t\tbeginShape()\r\n\t\tfor v in @path\r\n\t\t\tvertex v.x, v.y\r\n\t\tendShape()\r\n\r\n\t\tstrokeWeight 8\r\n\t\tpoint @x, @y\r\n\t"
+  ]
+}
