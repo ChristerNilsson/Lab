@@ -1,8 +1,8 @@
 make2DArray = (rows, cols) ->
-	arr = new Array rows #like arr[]; but with number of columns hardcoded
+	arr = new Array rows 
 	for i in range arr.length
 		arr[i] = new Array cols
-	return arr
+	arr
 
 angle = 0
 w = 120
@@ -12,8 +12,9 @@ curves = null
 
 setup = () ->
 	createCanvas windowWidth, windowHeight
-	cols = floor(width / w) - 1
-	rows = floor(height / w) - 1
+	angleMode DEGREES
+	cols = floor width / w 
+	rows = floor height / w 
 	curves = make2DArray rows,cols
 
 	for j in range rows
@@ -21,61 +22,39 @@ setup = () ->
 			curves[j][i] = new Curve()
 
 draw = () ->
-	background 0
-	d = w - 0.2 * w
-	r = d / 2
+	bg 0
+	r = 0.4 * w
 
 	noFill()
-	stroke 255
-	for i in range cols 
-		cx = w + i * w + w / 2
-		cy = w / 2
-		strokeWeight 1
-		stroke 255
-		circle cx, cy, r
-		x = r * cos angle * (i + 1) - HALF_PI
-		y = r * sin angle * (i + 1) - HALF_PI
-		strokeWeight 8
-		stroke 255
-		point cx + x, cy + y
-		stroke 255, 150
-		strokeWeight 1
-		line cx + x, 0, cx + x, height
-
-		for j in range rows
-			curves[j][i].x = cx + x
-
-	noFill()
-	stroke 255
 	for j in range rows
-		cx = w / 2
-		cy = w + j * w + w / 2
-		strokeWeight 1
-		stroke 255
-		circle cx, cy, r
-		x = r * cos angle * (j + 1) - HALF_PI
-		y = r * sin angle * (j + 1) - HALF_PI
-		strokeWeight 8
-		stroke 255
-		point cx + x, cy + y
-		stroke 255, 150
-		strokeWeight 1
-		line 0, cy + y, width, cy + y
-
-		for i in range cols 
-			curves[j][i].y = cy + y
-
-	for j in range rows 
 		for i in range cols
-			curves[j][i].addPoint()
-			curves[j][i].show()
+			cy = (j+0.5) * w
+			cx = (i+0.5) * w
 
-	angle -= 0.01;
+			if i==0 and j==0
+			else if i==0 or j==0
+				sw 1
+				circle cx, cy, r
+				k = if i==0 then j else i
+				y = r * sin angle * k - 90
+				x = r * cos angle * k - 90
+				if j==0 then line cx + x, 0, cx + x, height
+				if i==0 then line 0, cy + y, width, cy + y
+				sw 8
+				point cx + x, cy + y
+			else
+				sw 1
+				stroke 255, 50
+				y = r * sin angle * j - 90
+				x = r * cos angle * i - 90
+				curves[j][i].addPoint cx + x, cy + y
+				curves[j][i].show()
 
-	if angle < -TWO_PI
+	angle++
+
+	if angle == 360
 		for j in range rows
 			for i in range cols
 				curves[j][i].reset()
-		# saveFrame("lissajous#####.png");
 		angle = 0
 	

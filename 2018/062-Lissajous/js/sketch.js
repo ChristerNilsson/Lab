@@ -4,11 +4,11 @@
 var angle, cols, curves, draw, make2DArray, rows, setup, w;
 
 make2DArray = function make2DArray(rows, cols) {
-  var arr, i, k, len, ref;
-  arr = new Array(rows); //like arr[]; but with number of columns hardcoded
+  var arr, i, l, len, ref;
+  arr = new Array(rows);
   ref = range(arr.length);
-  for (k = 0, len = ref.length; k < len; k++) {
-    i = ref[k];
+  for (l = 0, len = ref.length; l < len; l++) {
+    i = ref[l];
     arr[i] = new Array(cols);
   }
   return arr;
@@ -25,21 +25,22 @@ rows = null;
 curves = null;
 
 setup = function setup() {
-  var i, j, k, len, ref, results;
+  var i, j, l, len, ref, results;
   createCanvas(windowWidth, windowHeight);
-  cols = floor(width / w) - 1;
-  rows = floor(height / w) - 1;
+  angleMode(DEGREES);
+  cols = floor(width / w);
+  rows = floor(height / w);
   curves = make2DArray(rows, cols);
   ref = range(rows);
   results = [];
-  for (k = 0, len = ref.length; k < len; k++) {
-    j = ref[k];
+  for (l = 0, len = ref.length; l < len; l++) {
+    j = ref[l];
     results.push(function () {
-      var l, len1, ref1, results1;
+      var len1, m, ref1, results1;
       ref1 = range(cols);
       results1 = [];
-      for (l = 0, len1 = ref1.length; l < len1; l++) {
-        i = ref1[l];
+      for (m = 0, len1 = ref1.length; m < len1; m++) {
+        i = ref1[m];
         results1.push(curves[j][i] = new Curve());
       }
       return results1;
@@ -49,80 +50,53 @@ setup = function setup() {
 };
 
 draw = function draw() {
-  var cx, cy, d, i, j, k, l, len, len1, len2, len3, len4, len5, len6, len7, m, n, o, p, q, r, ref, ref1, ref2, ref3, ref4, ref5, ref6, ref7, s, x, y;
-  background(0);
-  d = w - 0.2 * w;
-  r = d / 2;
+  var cx, cy, i, j, k, l, len, len1, len2, len3, m, n, o, r, ref, ref1, ref2, ref3, x, y;
+  bg(0);
+  r = 0.4 * w;
   noFill();
-  stroke(255);
-  ref = range(cols);
-  for (k = 0, len = ref.length; k < len; k++) {
-    i = ref[k];
-    cx = w + i * w + w / 2;
-    cy = w / 2;
-    strokeWeight(1);
-    stroke(255);
-    circle(cx, cy, r);
-    x = r * cos(angle * (i + 1) - HALF_PI);
-    y = r * sin(angle * (i + 1) - HALF_PI);
-    strokeWeight(8);
-    stroke(255);
-    point(cx + x, cy + y);
-    stroke(255, 150);
-    strokeWeight(1);
-    line(cx + x, 0, cx + x, height);
-    ref1 = range(rows);
-    for (l = 0, len1 = ref1.length; l < len1; l++) {
-      j = ref1[l];
-      curves[j][i].x = cx + x;
+  ref = range(rows);
+  for (l = 0, len = ref.length; l < len; l++) {
+    j = ref[l];
+    ref1 = range(cols);
+    for (m = 0, len1 = ref1.length; m < len1; m++) {
+      i = ref1[m];
+      cy = (j + 0.5) * w;
+      cx = (i + 0.5) * w;
+      if (i === 0 && j === 0) {} else if (i === 0 || j === 0) {
+        sw(1);
+        circle(cx, cy, r);
+        k = i === 0 ? j : i;
+        y = r * sin(angle * k - 90);
+        x = r * cos(angle * k - 90);
+        if (j === 0) {
+          line(cx + x, 0, cx + x, height);
+        }
+        if (i === 0) {
+          line(0, cy + y, width, cy + y);
+        }
+        sw(8);
+        point(cx + x, cy + y);
+      } else {
+        sw(1);
+        stroke(255, 50);
+        y = r * sin(angle * j - 90);
+        x = r * cos(angle * i - 90);
+        curves[j][i].addPoint(cx + x, cy + y);
+        curves[j][i].show();
+      }
     }
   }
-  noFill();
-  stroke(255);
-  ref2 = range(rows);
-  for (m = 0, len2 = ref2.length; m < len2; m++) {
-    j = ref2[m];
-    cx = w / 2;
-    cy = w + j * w + w / 2;
-    strokeWeight(1);
-    stroke(255);
-    circle(cx, cy, r);
-    x = r * cos(angle * (j + 1) - HALF_PI);
-    y = r * sin(angle * (j + 1) - HALF_PI);
-    strokeWeight(8);
-    stroke(255);
-    point(cx + x, cy + y);
-    stroke(255, 150);
-    strokeWeight(1);
-    line(0, cy + y, width, cy + y);
-    ref3 = range(cols);
-    for (n = 0, len3 = ref3.length; n < len3; n++) {
-      i = ref3[n];
-      curves[j][i].y = cy + y;
-    }
-  }
-  ref4 = range(rows);
-  for (o = 0, len4 = ref4.length; o < len4; o++) {
-    j = ref4[o];
-    ref5 = range(cols);
-    for (p = 0, len5 = ref5.length; p < len5; p++) {
-      i = ref5[p];
-      curves[j][i].addPoint();
-      curves[j][i].show();
-    }
-  }
-  angle -= 0.01;
-  if (angle < -TWO_PI) {
-    ref6 = range(rows);
-    for (q = 0, len6 = ref6.length; q < len6; q++) {
-      j = ref6[q];
-      ref7 = range(cols);
-      for (s = 0, len7 = ref7.length; s < len7; s++) {
-        i = ref7[s];
+  angle++;
+  if (angle === 360) {
+    ref2 = range(rows);
+    for (n = 0, len2 = ref2.length; n < len2; n++) {
+      j = ref2[n];
+      ref3 = range(cols);
+      for (o = 0, len3 = ref3.length; o < len3; o++) {
+        i = ref3[o];
         curves[j][i].reset();
       }
     }
-    // saveFrame("lissajous#####.png");
     return angle = 0;
   }
 };

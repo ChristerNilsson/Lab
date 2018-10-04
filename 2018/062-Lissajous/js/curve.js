@@ -11,15 +11,13 @@ Curve = function () {
   function Curve() {
     _classCallCheck(this, Curve);
 
-    this.path = [];
-    this.x = 0;
-    this.y = 0;
+    this.reset();
   }
 
   _createClass(Curve, [{
     key: "addPoint",
-    value: function addPoint() {
-      return this.path.push(createVector(this.x, this.y));
+    value: function addPoint(x, y) {
+      return this.path.push(createVector(x, y));
     }
   }, {
     key: "reset",
@@ -29,7 +27,7 @@ Curve = function () {
   }, {
     key: "show",
     value: function show() {
-      var i, len, ref, v;
+      var i, last, len, ref, v;
       stroke(255);
       strokeWeight(1);
       noFill();
@@ -41,7 +39,8 @@ Curve = function () {
       }
       endShape();
       strokeWeight(8);
-      return point(this.x, this.y);
+      last = _.last(this.path);
+      return point(last.x, last.y);
     }
   }]);
 

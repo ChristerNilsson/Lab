@@ -1,11 +1,6 @@
 class Curve 
-
-	constructor : ->
-		@path = []
-		@x = 0
-		@y = 0
-	
-	addPoint : -> @path.push createVector @x,@y 
+	constructor : -> @reset()
+	addPoint : (x,y) -> @path.push createVector x,y 
 	reset : -> @path = []
 
 	show : ->
@@ -18,5 +13,6 @@ class Curve
 		endShape()
 
 		strokeWeight 8
-		point @x, @y
+		last = _.last @path
+		point last.x, last.y
 	
