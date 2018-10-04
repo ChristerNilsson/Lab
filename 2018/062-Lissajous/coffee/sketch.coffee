@@ -4,8 +4,8 @@ make2DArray = (rows, cols) ->
 		arr[i] = new Array cols
 	arr
 
-angle = 0
 w = 120
+angle = null
 cols = null
 rows = null
 curves = null
@@ -13,10 +13,13 @@ curves = null
 setup = () ->
 	createCanvas windowWidth, windowHeight
 	angleMode DEGREES
-	cols = floor width / w 
-	rows = floor height / w 
+	cols = width // w 
+	rows = height // w 
 	curves = make2DArray rows,cols
+	reset()
 
+reset = ->
+	angle = 0
 	for j in range rows
 		for i in range cols
 			curves[j][i] = new Curve()
@@ -36,25 +39,19 @@ draw = () ->
 				sw 1
 				circle cx, cy, r
 				k = if i==0 then j else i
-				y = r * sin angle * k - 90
-				x = r * cos angle * k - 90
-				if j==0 then line cx + x, 0, cx + x, height
-				if i==0 then line 0, cy + y, width, cy + y
+				y = cy + r * sin angle * k - 90 
+				x = cx + r * cos angle * k - 90 
+				if j==0 then line x, 0, x, height
+				if i==0 then line 0, y, width, y
 				sw 8
-				point cx + x, cy + y
+				point x, y
 			else
 				sw 1
 				stroke 255, 50
-				y = r * sin angle * j - 90
-				x = r * cos angle * i - 90
-				curves[j][i].addPoint cx + x, cy + y
+				y = cy + r * sin angle * j - 90 
+				x = cx + r * cos angle * i - 90 
+				curves[j][i].addPoint x, y
 				curves[j][i].show()
 
-	angle++
-
-	if angle == 360
-		for j in range rows
-			for i in range cols
-				curves[j][i].reset()
-		angle = 0
+	if angle == 360 then reset() else angle++
 	
