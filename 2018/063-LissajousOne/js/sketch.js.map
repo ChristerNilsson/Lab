@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;AAAA,IAAA,SAAA,SAAA,MAAA,WAAA,GAAA;;AAAA,IAAI;;AACJ,UAAU;;AACV,UAAU;;AAEV,QAAQ;AACP,eAAa,IAAb,AAAe,GAAG,IAAlB,AAAoB;SACpB,UAFO,AAEP,AAAU;;;AAEX,YAAY,mBAAA,AAAC,OACZ;MAAA,GAAA;AAAA,aAAW,CAAC,SAAD,AAAQ,KAAG;AACtB,aAAW,CAAC,SAAD,AAAQ,KAAG;AACtB,MAAI,IAAI,IAAI,IAAI,IAAA,AAAI,QAAR,AAAgB;AAC5B,MAAI,IAAI,IAAI,IAAI,IAAA,AAAI,QAAR,AAAgB;SAC5B,CAAA,AAAC,GALU,AAKX,AAAG;;;AAEJ,OAAO;MACN,OAAA,GAAA,KAAA,KAAA,GAAA;AAAA,KAAA,AAAG;AAEH;AACA,SAAA,AAAO;AAEP,AACA;;AAAA,OAAA,kCAAA;gBACC;;qBAAQ,UAAA,AAAU;;;;AAAlB,AAAC;AAAD,AAAG;;AACH,WAAA,AAAO,GAAP,AAAU;AACV,QAAG,QAAA,AAAQ,OAAX,AAAiB;AAChB,SAAM,UAAH,AAAU,IAAV,AAAiB,IAApB,AAA2B;AAC3B,YAAA,AAAM,GAFP,AAEC,AAAQ;AALV;AAOA;;AAbA,oBAaQ,UAAA,AAAU;;;;AAAlB,AAAC;AAAD,AAAG;;AACH,SAAA,AAAO,GAAP,AAAU;AACV,KAAA,AAAG;SAhBG,AAiBN",
+  "sourcesContent": [
+    "r = 300\r\ndangleX = 0\r\ndangleY = 0\r\n\r\nsetup = ->\r\n\tcreateCanvas 2*r, 2*r\r\n\tangleMode DEGREES\r\n\r\nmakePoint = (angle) ->\r\n\tdangleY += (mouseY-r)/100000\r\n\tdangleX += (mouseX-r)/100000\r\n\tx = r + r * cos 3 * angle + dangleX \r\n\ty = r + r * sin 5 * angle + dangleY  \r\n\t[x,y]\r\n\r\ndraw = ->\r\n\tbg 0\r\n\r\n\tnoFill()\r\n\tstroke 255\r\n\r\n\tbeginShape()\r\n\tfor angle in range 360\r\n\t\t[x,y] = makePoint angle\r\n\t\tvertex x, y\r\n\t\tif angle % 10 == 0 \r\n\t\t\tsw if angle==0 then 8 else 4\r\n\t\t\tpoint x,y\r\n\r\n\t[x,y] = makePoint 360\r\n\tvertex x, y\r\n\tsw 1\r\n\tendShape()\r\n"
+  ]
+}

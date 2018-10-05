@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "curve.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\curve.coffee"
+  ],
+  "names": [],
+  "mappings": "",
+  "sourcesContent": [
+    ""
+  ]
+}
