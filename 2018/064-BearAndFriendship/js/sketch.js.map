@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;;;AAAA,IAAA,MAAA,GAAA,WAAA;;AAAA,QAAQ;;AAER,AAAM;AACL,AAAc,gBAAA,OAAA,MAAA;;;AAAC,AAAC,SAAA;AAAK,AAAC,SAAA;AAAK,AAAC,SAAA,QAAd;AACd,AAAU;;;;4BAAA,AAAC;aACV,AAAC,KAAD,AAAC,OADQ,AACD;AACT,AAAS;;;2BAAA,AAAC;AACT,AAAC,WAAD,AAAC,QAAS,AAAK,MAAC;aAChB,AAAC,KAAD,AAAC,SAAS,AAAK,MAAL,AAAM,QAFR,AAEgB;AAN1B;;;;;;AAQA,IAAI,WAAA,AAAC,GAAD,AAAG,KACN;MAAA,GAAA,GAAA,GAAA,GAAA,GAAA,KAAA,MAAA;AAAA;qBAAS;gBAAA;;AAAA,SAAA,kCAAA;;mBAAA,IAAA,AAAI,KAAJ,AAAS,GAAT,AAAW,GAAX,AAAa;AAAb;;;AACT,OAAA,kCAAA;AAAI;;AAAA,AAAC;AAAD,AAAG;;AACN,QAAI,UAAA,AAAS;AACb,QAAI,UAAA,AAAS;AACb,QAAG,MAAH,AAAQ;AACP,AAAM,YAAA,AAAE,GAAR,AAAS,QAAT,AAAiB;AACjB,AAAM,YAAA,AAAE,GAAR,AAAS,OAAO,AAAM,MAFvB,AAEC,AAAsB;AAFvB,WAAA;AAIC,AAAM,YAAA,AAAE,GAJT,AAIC,AAAS;AAPX;;AAQA,OAAA,gDAAA;;AACC,QAAG,AAAI,KAAJ,AAAK,SAAL,AAAa,KAAM,AAAI,KAAJ,AAAK,AAAK,QAAC,AAAI,KAAJ,AAAK,OAAhB,AAAU,AAAW,OAAM,IAAE,AAAI,KAAvD,AAAwD,OAAW;aAAnE,AAA0E;AAD3E;;SAVG,AAYH;;;AACD,YAAW,kBAAA,AAAC;AAAM,MAAG,MAAK,AAAM,MAAA,AAAE,GAAhB,AAAiB;WAAjB,AAA2B;AAA3B,SAAA;WAAkC,UAAS,AAAM,MAAA,AAAE,GAAnD,AAAkC,AAAkB;AAA3D;;;AAEX,OAAA,AAAO,QAAM,AAAE,IAAG,CAAA,AAAC,GAAF,AAAC,AAAG,IAAG,CAAA,AAAC,GAAR,AAAO,AAAG,KAAG,AAAC,GAAD,AAAG,EAAjC,AAAa,AAAI;AAAa,CAAb,CAAJ;;AACb,MAAA,AAAM;;AACN,OAAA,AAAO,OAAO,EAAA,AAAE,GAAE,CAAC,CAAA,AAAC,GAAF,AAAC,AAAG,IAAG,CAAA,AAAC,GAAR,AAAO,AAAG,IAAG,CAAA,AAAC,GAAd,AAAa,AAAG,IAAG,CAAA,AAAC,GAAtC,AAAc,AAAI,AAAmB,AAAG;;AACxC,MAAA,AAAM",
+  "sourcesContent": [
+    "nodes = null\r\n\r\nclass Node\r\n\tconstructor : (@head,@size,@edges) ->\r\n\tsetHead : (head) -> \r\n\t\t@head = head\r\n\tupdate : (other) -> \r\n\t\t@size  += other.size\r\n\t\t@edges += other.edges + 1 \r\n\r\nf = (n,lst) ->   \r\n\tnodes = (new Node i,1,0 for i in range n)        \r\n\tfor [a,b] in lst \r\n\t\ta = findHead a\r\n\t\tb = findHead b\r\n\t\tif a != b \r\n\t\t\tnodes[a].setHead b\r\n\t\t\tnodes[b].update nodes[a]\r\n\t\telse\r\n\t\t\tnodes[a].edges++\r\n\tfor node,i in nodes\r\n\t\tif node.head == i and node.size*(node.size-1) != 2*node.edges then return false\r\n\ttrue\r\nfindHead = (u) -> if u == nodes[u].head then u else findHead nodes[u].head \r\n \r\nassert true, f 4,[[0,2],[0,3],[2,3]] # zero based\r\nprint nodes\r\nassert false, f 4,[[2,0],[1,2],[2,3],[0,1]]\r\nprint nodes\r\n"
+  ]
+}
