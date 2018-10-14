@@ -12,20 +12,15 @@ var Node, f, _findHead, nodes;
 nodes = null;
 
 Node = function () {
-  function Node(head1, size, edges) {
+  function Node(head, size, edges) {
     _classCallCheck(this, Node);
 
-    this.head = head1;
+    this.head = head;
     this.size = size;
     this.edges = edges;
   }
 
   _createClass(Node, [{
-    key: "setHead",
-    value: function setHead(head) {
-      return this.head = head;
-    }
-  }, {
     key: "update",
     value: function update(other) {
       this.size += other.size;
@@ -57,7 +52,7 @@ f = function f(n, lst) {
     a = _findHead(a);
     b = _findHead(b);
     if (a !== b) {
-      nodes[a].setHead(b);
+      nodes[a].head = b;
       nodes[b].update(nodes[a]);
     } else {
       nodes[a].edges++;

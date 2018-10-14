@@ -2,8 +2,6 @@ nodes = null
 
 class Node
 	constructor : (@head,@size,@edges) ->
-	setHead : (head) -> 
-		@head = head
 	update : (other) -> 
 		@size  += other.size
 		@edges += other.edges + 1 
@@ -14,7 +12,7 @@ f = (n,lst) ->
 		a = findHead a
 		b = findHead b
 		if a != b 
-			nodes[a].setHead b
+			nodes[a].head = b
 			nodes[b].update nodes[a]
 		else
 			nodes[a].edges++
