@@ -57,8 +57,8 @@ Ratio = function () {
       return new Ratio(-this.a, this.b);
     }
   }, {
-    key: "tos",
-    value: function tos() {
+    key: "toString",
+    value: function toString() {
       return this.a + "/" + this.b;
     }
   }]);
@@ -70,15 +70,15 @@ a = new Ratio(10, 20);
 
 b = new Ratio(6, 8);
 
-assert("1/2", a.tos());
+assert("1/2", "" + a);
 
-assert("3/4", b.tos());
+assert("3/4", "" + b);
 
-assert("5/4", a.add(b).tos());
+assert("5/4", "" + a.add(b));
 
-assert("3/8", a.mul(b).tos());
+assert("3/8", "" + a.mul(b));
 
-assert("-1/2", a.neg(b).tos());
+assert("-1/2", "" + a.neg(b));
 
 cache = {};
 
@@ -116,27 +116,27 @@ polynomialTerm = function polynomialTerm(degree, n) {
   return new Ratio(a, b);
 };
 
-assert("0/1", _bernoulli(0).tos());
+assert("0/1", "" + _bernoulli(0));
 
-assert("1/6", _bernoulli(1).tos());
+assert("1/6", "" + _bernoulli(1));
 
-assert("-1/30", _bernoulli(3).tos());
+assert("-1/30", "" + _bernoulli(3));
 
-assert("1/42", _bernoulli(5).tos());
+assert("1/42", "" + _bernoulli(5));
 
-assert("-1/30", _bernoulli(7).tos());
+assert("-1/30", "" + _bernoulli(7));
 
-assert("5/66", _bernoulli(9).tos());
+assert("5/66", "" + _bernoulli(9));
 
-assert("-691/2730", _bernoulli(11).tos());
+assert("-691/2730", "" + _bernoulli(11));
 
-assert("7/6", _bernoulli(13).tos());
+assert("7/6", "" + _bernoulli(13));
 
-assert("-3617/510", _bernoulli(15).tos());
+assert("-3617/510", "" + _bernoulli(15));
 
-assert("43867/798", _bernoulli(17).tos());
+assert("43867/798", "" + _bernoulli(17));
 
-assert("-174611/330", _bernoulli(19).tos());
+assert("-174611/330", "" + _bernoulli(19));
 
-print('Ready!');
+print("Ready!");
 //# sourceMappingURL=sketch.js.map
