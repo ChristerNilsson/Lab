@@ -78,3 +78,4 @@
   * demo : https://swenson.github.io/adventurejs/
   * text: https://jerz.setonhill.edu/if/crowther/advdat.77-03-11
   * fortran: https://jerz.setonhill.edu/if/crowther/advf4.77-03-11 (700 LOC)
+  * PDP-10 https://en.wikipedia.org/wiki/PDP-10
