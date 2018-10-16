@@ -11,29 +11,15 @@ var B,
     b,
     f,
     g,
-    _gcd,
     i,
     j,
     k,
-    l,
     len,
-    len1,
     ref,
-    ref1,
     res,
     modulo = function modulo(a, b) {
   return (+a % (b = +b) + b) % b;
 };
-
-_gcd = function gcd(a, b) {
-  if (b === 0) {
-    return a;
-  } else {
-    return _gcd(b, modulo(a, b));
-  }
-};
-
-assert(2, _gcd(10, 8));
 
 Ratio = function () {
   function Ratio() {
@@ -45,7 +31,7 @@ Ratio = function () {
     var n;
     this.a = a1;
     this.b = b1;
-    n = _gcd(this.a, this.b);
+    n = this.gcd(this.a, this.b);
     this.a /= n;
     this.b /= n;
   }
@@ -66,6 +52,15 @@ Ratio = function () {
       return new Ratio(-this.a, this.b);
     }
   }, {
+    key: "gcd",
+    value: function gcd(a, b) {
+      if (b === 0) {
+        return a;
+      } else {
+        return this.gcd(b, modulo(a, b));
+      }
+    }
+  }, {
     key: "toString",
     value: function toString() {
       return this.a + "/" + this.b;
@@ -79,6 +74,10 @@ a = new Ratio(10, 20);
 
 b = new Ratio(6, 8);
 
+assert(2, a.gcd(10, 8));
+
+assert(1, a.gcd(5, 7));
+
 assert("1/2", "" + a);
 
 assert("3/4", "" + b);
@@ -87,7 +86,7 @@ assert("5/4", "" + a.add(b));
 
 assert("3/8", "" + a.mul(b));
 
-assert("-1/2", "" + a.neg(b));
+assert("-1/2", "" + a.neg());
 
 f = function f(x) {
   return new Ratio(-1, 2).mul(new Ratio(2 * x - 1, 2 * x + 1));
@@ -98,14 +97,19 @@ assert("-1/6", "" + f(1));
 assert("-3/10", "" + f(2));
 
 g = function g(x, n) {
-  var i, k, len, ref, res;
-  res = new Ratio(1, 1);
-  ref = range(2 * n - 1);
-  for (k = 0, len = ref.length; k < len; k++) {
-    i = ref[k];
-    res = res.mul(new Ratio(2 * x - i, i + 2));
-  }
-  return res;
+  var i;
+  return function () {
+    var k, len, ref, results;
+    ref = range(2 * n - 1);
+    results = [];
+    for (k = 0, len = ref.length; k < len; k++) {
+      i = ref[k];
+      results.push(new Ratio(2 * x - i, i + 2));
+    }
+    return results;
+  }().reduce(function (t, a) {
+    return t.mul(a);
+  });
 };
 
 assert("2/1", "" + g(2, 1));
@@ -125,12 +129,19 @@ B = [new Ratio(0, 1)];
 ref = range(1, 12);
 for (k = 0, len = ref.length; k < len; k++) {
   i = ref[k];
-  res = f(i);
-  ref1 = range(1, i);
-  for (l = 0, len1 = ref1.length; l < len1; l++) {
-    j = ref1[l];
-    res = res.add(B[j].mul(g(i, j)));
-  }
+  res = i === 1 ? B[0] : function () {
+    var l, len1, ref1, results;
+    ref1 = range(1, i);
+    results = [];
+    for (l = 0, len1 = ref1.length; l < len1; l++) {
+      j = ref1[l];
+      results.push(B[j].mul(g(i, j)));
+    }
+    return results;
+  }().reduce(function (t, a) {
+    return t.add(a);
+  });
+  res = res.add(f(i));
   B.push(res.neg());
 }
 
