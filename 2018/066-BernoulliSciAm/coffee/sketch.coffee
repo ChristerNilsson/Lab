@@ -20,8 +20,12 @@ assert "3/8", "#{a.mul b}"
 assert "-1/2", "#{a.neg()}"
 
 f = (x) -> new Ratio(-1,2).mul new Ratio 2*x-1, 2*x+1
+assert "1/2","#{f 0}"
 assert "-1/6","#{f 1}"
 assert "-3/10","#{f 2}"
+assert "-5/14","#{f 3}"
+assert "-7/18","#{f 4}"
+assert "-9/22","#{f 5}"
 
 g = (x,n) -> (new Ratio 2*x-i, i+2 for i in range 2*n-1).reduce (t,a) => t.mul a
 assert "2/1", "#{g 2,1}"

@@ -92,9 +92,17 @@ f = function f(x) {
   return new Ratio(-1, 2).mul(new Ratio(2 * x - 1, 2 * x + 1));
 };
 
+assert("1/2", "" + f(0));
+
 assert("-1/6", "" + f(1));
 
 assert("-3/10", "" + f(2));
+
+assert("-5/14", "" + f(3));
+
+assert("-7/18", "" + f(4));
+
+assert("-9/22", "" + f(5));
 
 g = function g(x, n) {
   var i;
