@@ -21,7 +21,7 @@ Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttja
   * D Y Del av stacken
   * E Z Del av stacken
   * F T Del av stacken
-	* PC = Program Counter 
+  * PC = Program Counter 
   * S = [Status register](http://home.citycable.ch/pierrefleur/Jacques-Laporte/status_bit_flags.htm)
   
 Projektet består av tre filer:
@@ -32,11 +32,11 @@ Projektet består av tre filer:
 
 * [Baksida](https://www.keesvandersanden.nl/calculators/images/HP35_1302S48386_backlabel.jpg)
 
-* [Manual](file:///C:/Users/christer/AppData/Local/Temp/Temp1_HP35.zip/HP35oh.pdf)
+* [Manual](http://www.cs.columbia.edu/~sedwards/hp35colr.pdf)
 
 * [Wikipedia](https://en.wikipedia.org/wiki/HP-35)
 
-* [HP-35 simulator](http://www.hpmuseum.org/simulate/hp35sim/hp35sim.htm)
+* [HP-35 simulator](http://www.hpmuseum.org/simulate/hp35sim/calc.html)
 
 * [Originalkod för Arduino av Pietro de Luca](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Image_deluca/hp35_lcd.pde)
 
