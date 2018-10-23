@@ -1,7 +1,7 @@
 buttons = []
 
 class Button
-	constructor : (@x,@y,@r=12.5,@value=0) -> @active = 0
+	constructor : (@x,@y,@r,@value) -> @active = 0
 	draw : -> 
 		fc @active
 		circle @x,@y,@r
@@ -14,14 +14,20 @@ class Button
 setup = ->
 	createCanvas 200,200
 	textAlign CENTER,CENTER
+	textSize 24
+	r = 70
 	for i in range 8
-		buttons.push new Button 188-i*25,100,12,2**i
+		angle = PI/4*i
+		x = 100+r*cos angle
+		y = 100+r*sin angle
+		buttons.push new Button x,y,25,2**i
 
 draw = ->
 	bg 0.5
-	res = (button.draw() for button,i in buttons).reduce (a,b) -> a+b
+	lst = (button.draw() for button in buttons)
+	res = lst.reduce (a,b) -> a+b
 	fc 0
-	text res,100,150
+	text res,100,100
 
 mousePressed = ->
 	for button in buttons

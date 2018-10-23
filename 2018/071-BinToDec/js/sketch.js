@@ -10,15 +10,12 @@ var Button, buttons, draw, mousePressed, setup;
 buttons = [];
 
 Button = function () {
-  function Button(x, y) {
-    var r = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 12.5;
-    var value = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 0;
-
+  function Button(x1, y1, r1, value) {
     _classCallCheck(this, Button);
 
-    this.x = x;
-    this.y = y;
-    this.r = r;
+    this.x = x1;
+    this.y = y1;
+    this.r = r1;
     this.value = value;
     this.active = 0;
   }
@@ -48,34 +45,40 @@ Button = function () {
 }();
 
 setup = function setup() {
-  var i, j, len, ref, results;
+  var angle, i, j, len, r, ref, results, x, y;
   createCanvas(200, 200);
   textAlign(CENTER, CENTER);
+  textSize(24);
+  r = 70;
   ref = range(8);
   results = [];
   for (j = 0, len = ref.length; j < len; j++) {
     i = ref[j];
-    results.push(buttons.push(new Button(188 - i * 25, 100, 12, Math.pow(2, i))));
+    angle = PI / 4 * i;
+    x = 100 + r * cos(angle);
+    y = 100 + r * sin(angle);
+    results.push(buttons.push(new Button(x, y, 25, Math.pow(2, i))));
   }
   return results;
 };
 
 draw = function draw() {
-  var button, i, res;
+  var button, lst, res;
   bg(0.5);
-  res = function () {
+  lst = function () {
     var j, len, results;
     results = [];
-    for (i = j = 0, len = buttons.length; j < len; i = ++j) {
-      button = buttons[i];
+    for (j = 0, len = buttons.length; j < len; j++) {
+      button = buttons[j];
       results.push(button.draw());
     }
     return results;
-  }().reduce(function (a, b) {
+  }();
+  res = lst.reduce(function (a, b) {
     return a + b;
   });
   fc(0);
-  return text(res, 100, 150);
+  return text(res, 100, 100);
 };
 
 mousePressed = function mousePressed() {
