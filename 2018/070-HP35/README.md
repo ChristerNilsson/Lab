@@ -1,19 +1,19 @@
 # HP-35
 
-Legendarisk kalkylator från Hewlett-Packard 1972.
+Legendarisk kalkylator från Hewlett-Packard 1972. I ett slag förflyttades logaritmtabeller och räknestickor till muséerna.
 
 Översättning från C++ till Coffeescript.
 
-Denna simulator använder sig av det utsprungliga rommet om 960 bytes.
+Denna simulator använder sig av det ursprungliga rommet om 960 bytes.
 De enda instruktioner som används är addition och shift.
 Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttjar sig enbart av addition och shift.
 
 * Hela programmet ryms i 3 x 256 x 10 bitar = 960 bytes
-* Data: 8 tal om 16 nibbles = 64 bytes
+* Data: 7 register om 14 nibbles = 49 bytes (nibble = 4 bitar)
 * Status: 12 bitar.
 
 * Genom att klicka på displayen kan man slå av och på trace
-* Då får man se vad de åtta registren innehåller.
+* Då får man se vad de sju registren innehåller.
 * Dessutom kan man använda F12 för att se vilka instruktioner som körs
   * A   Styr displayen
   * B   [Styr displayen](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Output%20format.htm)
@@ -21,8 +21,9 @@ Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttja
   * D Y Del av stacken
   * E Z Del av stacken
   * F T Del av stacken
-  * PC = Program Counter 
+  * M   Memory
   * S = [Status register](http://home.citycable.ch/pierrefleur/Jacques-Laporte/status_bit_flags.htm)
+  * PC = Program Counter 
   
 Projektet består av tre filer:
 
