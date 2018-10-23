@@ -104,14 +104,14 @@ setup = ->
 	buttons.push new Button 34,'pi',175,180
 
 dump = (name,lst,y,n=14) ->
-	if not TRACE then return 
+	if not hp.TRACE then return 
 	fc 1,1,0
 	text name,10,y
 	for i in range n
 		text lst[i], 30+(15-i)*10, y
 
 dump1 = (prompt,value) ->
-	if not TRACE then return 
+	if not hp.TRACE then return 
 	text prompt,x,y
 	text value,x+100,y
 	y+=12
@@ -134,7 +134,7 @@ draw = ->
 	dump 'm',hp.m,280
 	dump 's',hp.s,290,12
 
-	for i in range SPEED
+	for i in range hp.SPEED
 		hp.singleStep()
 
 	x = 5
@@ -152,7 +152,8 @@ draw = ->
 	dump1 'ret', hp.ret
 
 mousePressed = ->
+	if mouseY < 20 then return hp.toggle()
 	for button in buttons
 		if button.inside mouseX,mouseY
-			print button.title
+			print '##########',button.title,'##########'
 			keyboard.buffer.push button.key_code

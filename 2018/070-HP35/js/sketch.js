@@ -197,7 +197,7 @@ dump = function dump(name, lst, y) {
   var n = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : 14;
 
   var i, j, len, ref, results;
-  if (!TRACE) {
+  if (!hp.TRACE) {
     return;
   }
   fc(1, 1, 0);
@@ -212,7 +212,7 @@ dump = function dump(name, lst, y) {
 };
 
 dump1 = function dump1(prompt, value) {
-  if (!TRACE) {
+  if (!hp.TRACE) {
     return;
   }
   text(prompt, x, y);
@@ -238,7 +238,7 @@ draw = function draw() {
   dump('t', hp.t, 270);
   dump('m', hp.m, 280);
   dump('s', hp.s, 290, 12);
-  ref = range(SPEED);
+  ref = range(hp.SPEED);
   for (k = 0, len1 = ref.length; k < len1; k++) {
     i = ref[k];
     hp.singleStep();
@@ -260,11 +260,14 @@ draw = function draw() {
 
 mousePressed = function mousePressed() {
   var button, j, len, results;
+  if (mouseY < 20) {
+    return hp.toggle();
+  }
   results = [];
   for (j = 0, len = buttons.length; j < len; j++) {
     button = buttons[j];
     if (button.inside(mouseX, mouseY)) {
-      print(button.title);
+      print('##########', button.title, '##########');
       results.push(keyboard.buffer.push(button.key_code));
     } else {
       results.push(void 0);

@@ -1,6 +1,3 @@
-TRACE = false 
-SPEED = 1000 # 1=slow 1000=fast
-
 class HP35
 	constructor : ->
 		@rom = [
@@ -87,6 +84,9 @@ class HP35
 		@key_rom = 0
 		@error = 0
 
+		@TRACE = false 
+		@SPEED = 1000 # 1=slow 1000=fast
+
 	compact : (lst) -> 
 		n = lst.length
 		if n==16 then n=14
@@ -94,7 +94,11 @@ class HP35
 		res.reverse()
 		res.join ''
 
-	decorate : (trace, data) ->	if TRACE then print "#{trace.padEnd 40} #{data}"
+	toggle : ->
+		@TRACE = not @TRACE
+		@SPEED = if @SPEED == 1 then 1000 else 1	
+
+	decorate : (trace, data) ->	if @TRACE then print "#{trace.padEnd 40} #{data}"
 
 	singleStep : ->
 		data = ''
