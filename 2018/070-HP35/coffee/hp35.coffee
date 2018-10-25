@@ -441,14 +441,14 @@ class HP35
 			@decorate trace,data
 
 	get_f_l : (ws) -> 
-		if @word_select == 0 then [@first,@last] = [@p,@p]
-		if @word_select == 1 then [@first,@last] = [3,12]
-		if @word_select == 2 then [@first,@last] = [0,2]
-		if @word_select == 3 then [@first,@last] = [0,13]
-		if @word_select == 4 then [@first,@last] = [0,@p]
-		if @word_select == 5 then [@first,@last] = [3,13]
-		if @word_select == 6 then [@first,@last] = [2,2]
-		if @word_select == 7 then [@first,@last] = [13,13]
+		if @word_select == 0 then [@first,@last] = [@p,@p] # P
+		if @word_select == 1 then [@first,@last] = [3,12]  # M
+		if @word_select == 2 then [@first,@last] = [0,2]   # X
+		if @word_select == 3 then [@first,@last] = [0,13]  # W
+		if @word_select == 4 then [@first,@last] = [0,@p]  # WP
+		if @word_select == 5 then [@first,@last] = [3,13]  # MS
+		if @word_select == 6 then [@first,@last] = [2,2]   # XS
+		if @word_select == 7 then [@first,@last] = [13,13] # S
 
 	do_add : (x, y) ->
 		@res = x + y + @carry

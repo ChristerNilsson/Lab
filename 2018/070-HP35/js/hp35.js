@@ -620,44 +620,52 @@ HP35 = function () {
     key: 'get_f_l',
     value: function get_f_l(ws) {
       if (this.word_select === 0) {
-        var _ref9 = [this.p, this.p];
+        var _ref9 = [this.p, this.p // P
+        ];
         this.first = _ref9[0];
         this.last = _ref9[1];
       }
       if (this.word_select === 1) {
-        var _ref10 = [3, 12];
+        var _ref10 = [3, 12 // M
+        ];
         this.first = _ref10[0];
         this.last = _ref10[1];
       }
       if (this.word_select === 2) {
-        var _ref11 = [0, 2];
+        var _ref11 = [0, 2 // X
+        ];
         this.first = _ref11[0];
         this.last = _ref11[1];
       }
       if (this.word_select === 3) {
-        var _ref12 = [0, 13];
+        var _ref12 = [0, 13 // W
+        ];
         this.first = _ref12[0];
         this.last = _ref12[1];
       }
       if (this.word_select === 4) {
-        var _ref13 = [0, this.p];
+        var _ref13 = [0, this.p // WP
+        ];
         this.first = _ref13[0];
         this.last = _ref13[1];
       }
       if (this.word_select === 5) {
-        var _ref14 = [3, 13];
+        var _ref14 = [3, 13 // MS
+        ];
         this.first = _ref14[0];
         this.last = _ref14[1];
       }
       if (this.word_select === 6) {
-        var _ref15 = [2, 2];
+        var _ref15 = [2, 2 // XS
+        ];
         this.first = _ref15[0];
         this.last = _ref15[1];
       }
       if (this.word_select === 7) {
         var _ref16;
 
-        return _ref16 = [13, 13], this.first = _ref16[0], this.last = _ref16[1], _ref16;
+        return _ref16 = [13, 13 // S
+        ], this.first = _ref16[0], this.last = _ref16[1], _ref16;
       }
     }
   }, {

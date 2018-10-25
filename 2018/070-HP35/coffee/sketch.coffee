@@ -38,14 +38,23 @@ class LCD
 		pop()
 
 class Button 
-	constructor : (@key_code,@title,@x,@y,@w=30) -> @h = 15
+	constructor : (@key_code,@title,@x,@y,@w=30) -> @h = 20
 	inside : (x,y) -> @x-@w/2 < x < @x+@w/2 and @y-@h/2 < y < @y+@h/2 
 	draw : ->
 		textAlign CENTER,CENTER
 		fc 1
 		rect @x,@y,@w,@h
 		fc 0
-		text @title,@x,@y
+		if @title == '/'
+			text ':',@x,@y+1
+			text '-',@x,@y
+		else
+			text @title,@x,@y+1
+		if @title == 'x y'
+			line @x-1,@y-4,@x+1,@y-2
+			line @x-1,@y  ,@x+1,@y-2
+			line @x+1,@y+5,@x-1,@y+3
+			line @x+1,@y+1,@x-1,@y+3
 
 class KeyBoard # klarar bara ett tecken
 	constructor : -> @buffer = []
@@ -60,48 +69,68 @@ setup = ->
 	lcd = new LCD '-1234567890.-35',0,17
 	keyboard = new KeyBoard()
 
-	buttons.push new Button 6,'x^y',25,40,30-2
-	buttons.push new Button 4,'log',65-3,40,30-2
-	buttons.push new Button 3,'ln',105-6,40,30-2
-	buttons.push new Button 2,'e^x',145-9,40,30-2
-	buttons.push new Button 0,'CLR',185-12,40,30-2
+	x0 = 24
+	x1 = x0+38
+	x2 = x1+38
+	x3 = x2+38
+	x4 = 176
 
-	buttons.push new Button 46,'sqrt',25,60,30-2
-	buttons.push new Button 44,'arc',65-3,60,30-2
-	buttons.push new Button 43,'sin',105-6,60,30-2
-	buttons.push new Button 42,'cos',145-9,60,30-2
-	buttons.push new Button 40,'tan',185-12,60,30-2
+	y0=45
+	y1=75
+	y2=105
+	y3=135
+	y4=165
+	y5=195
+	y6=225
+	y7=255
 
-	buttons.push new Button 14,'1/x',25,80,30-2
-	buttons.push new Button 12,'x<>y',65-3,80,30-2
-	buttons.push new Button 11,'RDN',105-6,80,30-2
-	buttons.push new Button 10,'STO',145-9,80,30-2
-	buttons.push new Button 8,'RCL',185-12,80,30-2
+	x5 = 24
+	x6 = x5+51
+	x7 = x6+51
+	x8 = 176
 
-	buttons.push new Button 62,'ENTER',45-1,100,70-4
-	buttons.push new Button 59,'CHS',105-6,100,30-2
-	buttons.push new Button 58,'EEX',145-9,100,30-2
-	buttons.push new Button 56,'CL x',185-12,100,30-2
+	buttons.push new Button 6,'x^y',x0,y0
+	buttons.push new Button 4,'log',x1,y0
+	buttons.push new Button 3,'ln',x2,y0
+	buttons.push new Button 2,'e^x',x3,y0
+	buttons.push new Button 0,'clr',x4,y0
 
-	buttons.push new Button 54,'-',25,120
-	buttons.push new Button 52,'7',75,120
-	buttons.push new Button 51,'8',125,120
-	buttons.push new Button 50,'9',175,120
+	buttons.push new Button 46,'sqrt',x0,y1
+	buttons.push new Button 44,'arc',x1,y1
+	buttons.push new Button 43,'sin',x2,y1
+	buttons.push new Button 42,'cos',x3,y1
+	buttons.push new Button 40,'tan',x4,y1
 
-	buttons.push new Button 22,'+',25,140
-	buttons.push new Button 20,'4',75,140
-	buttons.push new Button 19,'5',125,140
-	buttons.push new Button 18,'6',175,140
+	buttons.push new Button 14,'1/x',x0,y2
+	buttons.push new Button 12,'x y',x1,y2
+	buttons.push new Button 11,'rdn',x2,y2
+	buttons.push new Button 10,'sto',x3,y2
+	buttons.push new Button 8,'rcl',x4,y2
 
-	buttons.push new Button 30,'x',25,160
-	buttons.push new Button 28,'1',75,160
-	buttons.push new Button 27,'2',125,160
-	buttons.push new Button 26,'3',175,160
+	buttons.push new Button 62,'enter',43,y3,68
+	buttons.push new Button 59,'chs',x2,y3
+	buttons.push new Button 58,'eex',x3,y3
+	buttons.push new Button 56,'clx',x4,y3
 
-	buttons.push new Button 38,'/',25,180
-	buttons.push new Button 36,'0',75,180
-	buttons.push new Button 35,'.',125,180
-	buttons.push new Button 34,'pi',175,180
+	buttons.push new Button 54,'-',x5,y4
+	buttons.push new Button 52,'7',x6,y4
+	buttons.push new Button 51,'8',x7,y4
+	buttons.push new Button 50,'9',x8,y4
+
+	buttons.push new Button 22,'+',x5,y5
+	buttons.push new Button 20,'4',x6,y5
+	buttons.push new Button 19,'5',x7,y5
+	buttons.push new Button 18,'6',x8,y5
+
+	buttons.push new Button 30,'x',x5,y6
+	buttons.push new Button 28,'1',x6,y6
+	buttons.push new Button 27,'2',x7,y6
+	buttons.push new Button 26,'3',x8,y6
+
+	buttons.push new Button 38,'/',x5,y7
+	buttons.push new Button 36,'0',x6,y7
+	buttons.push new Button 35,'.',x7,y7
+	buttons.push new Button 34,'pi',x8,y7
 
 dump = (name,lst,y,n=14) ->
 	if not hp.TRACE then return 
@@ -119,28 +148,28 @@ dump1 = (prompt,value) ->
 draw = ->
 	bg 0
 	lcd.draw()
+	textSize 16	
 	for button in buttons
 		button.draw()
 
 	textAlign LEFT,CENTER
+	textSize 12
 
-	dump 'a',hp.a,210
-	dump 'b',hp.b,220
-	dump 'c x',hp.c,230
-	dump 'd y',hp.d,240
-	dump 'e z',hp.e,250
-	dump 'f t',hp.f,260
-	dump 't',hp.t,270
-	dump 'm',hp.m,280
-	dump 's',hp.s,290,12
+	y8=280
 
-	for i in range hp.SPEED
-		hp.singleStep()
+	dump 'a',hp.a,y8
+	dump 'b',hp.b,y8+12
+	dump 'c x',hp.c,y8+24
+	dump 'd y',hp.d,y8+36
+	dump 'e z',hp.e,y8+48
+	dump 'f t',hp.f,y8+60
+	dump 't',hp.t,y8+72
+	dump 'm',hp.m,y8+84
+	dump 's',hp.s,y8+96,12
 
-	x = 5
-	y = 310
+	x = 10
+	y = 395
 	dump1 'p', hp.p
-	dump1 'key_code', hp.key_code
 	dump1 'carry', hp.carry
 	dump1 'offset', hp.offset
 	dump1 'display_enable',hp.display_enable
@@ -149,11 +178,13 @@ draw = ->
 	dump1 'first', hp.first
 	dump1 'last', hp.last
 	dump1 'prevCarry', hp.prevCarry
-	dump1 'ret', hp.ret
+
+	for i in range hp.SPEED
+		hp.singleStep()
 
 mousePressed = ->
-	if mouseY < 20 then return hp.toggle()
 	for button in buttons
 		if button.inside mouseX,mouseY
 			print '##########',button.title,'##########'
-			keyboard.buffer.push button.key_code
+			return keyboard.buffer.push button.key_code
+	hp.toggle()

@@ -12,9 +12,14 @@ Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttja
 * Data: 7 register om 14 nibbles = 49 bytes (nibble = 4 bitar)
 * Status: 12 bitar.
 
-* Genom att klicka på displayen kan man slå av och på trace
-* Då får man se vad de sju registren innehåller.
+## Trace 
+
+* Genom att klicka på bakgrunden kan man slå av och på trace
+* Då får man se vad registren innehåller.
 * Dessutom kan man använda F12 för att se vilka instruktioner som körs
+
+## Register
+
   * A   Styr displayen
   * B   [Styr displayen](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Output%20format.htm)
   * C X Talet användaren ser i displayen
@@ -25,11 +30,13 @@ Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttja
   * S = [Status register](http://home.citycable.ch/pierrefleur/Jacques-Laporte/status_bit_flags.htm)
   * PC = Program Counter 
   
-Projektet består av tre filer:
+## Projektet består av tre filer
 
-* hp35.coffee: 450 rader. Kalkylatorklass inklusive Styrprogram i ROM.
-* sketch.coffee: 160 rader. GUI
+* hp35.coffee: 390 rader. Kalkylatorklass inklusive Styrprogram i ROM.
+* sketch.coffee: 135 rader. GUI
 * asm.coffee: 768 rader. Styrprogrammet på läsbar form.
+
+## Länkar
 
 * [Baksida](https://www.keesvandersanden.nl/calculators/images/HP35_1302S48386_backlabel.jpg)
 
