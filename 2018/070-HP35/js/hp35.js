@@ -50,7 +50,7 @@ HP35 = function () {
     this.key_rom = 0;
     this.error = 0;
     this.TRACE = false;
-    this.SPEED = 1000; // 1=slow 1000=fast
+    this.SPEED = 60; // 1=slow 60=normal 1000=fast
   }
 
   _createClass(HP35, [{
@@ -69,7 +69,7 @@ HP35 = function () {
     key: 'toggle',
     value: function toggle() {
       this.TRACE = !this.TRACE;
-      return this.SPEED = this.SPEED === 1 ? 1000 : 1;
+      return this.SPEED = this.SPEED === 1 ? 60 : 1;
     }
   }, {
     key: 'decorate',
@@ -81,9 +81,11 @@ HP35 = function () {
   }, {
     key: 'singleStep',
     value: function singleStep() {
-      var cmd, constant, data, i, i1, i2, instr, j, j1, j2, k, k1, k2, l, l1, l2, lbl, len, len1, len10, len11, len12, len13, len14, len15, len16, len17, len18, len19, len2, len20, len21, len22, len23, len24, len25, len26, len27, len28, len29, len3, len30, len31, len32, len33, len34, len35, len36, len37, len38, len4, len5, len6, len7, len8, len9, m, m1, m2, n1, n2, o, o1, o2, p, p1, q, q1, r, r1, ref, ref1, ref10, ref11, ref12, ref13, ref14, ref15, ref16, ref17, ref18, ref19, ref2, ref20, ref21, ref22, ref23, ref24, ref25, ref26, ref27, ref28, ref29, ref3, ref30, ref31, ref32, ref33, ref34, ref35, ref36, ref37, ref38, ref39, ref4, ref5, ref6, ref7, ref8, ref9, s, s1, t, t1, trace, u, u1, v, v1, w, w1, x1, y1, z, z1;
+      var cmd, constant, data, i, i1, i2, instr, j, j1, j2, k, k1, k2, l, l1, l2, lbl, len, len1, len10, len11, len12, len13, len14, len15, len16, len17, len18, len19, len2, len20, len21, len22, len23, len24, len25, len26, len27, len28, len29, len3, len30, len31, len32, len33, len34, len35, len36, len37, len38, len4, len5, len6, len7, len8, len9, m, m1, m2, n1, n2, o, o1, o2, p, p1, prevOffset, prevPC, q, q1, r, r1, ref, ref1, ref10, ref11, ref12, ref13, ref14, ref15, ref16, ref17, ref18, ref19, ref2, ref20, ref21, ref22, ref23, ref24, ref25, ref26, ref27, ref28, ref29, ref3, ref30, ref31, ref32, ref33, ref34, ref35, ref36, ref37, ref38, ref39, ref4, ref5, ref6, ref7, ref8, ref9, s, s1, t, t1, trace, u, u1, v, v1, w, w1, x1, y1, z, z1;
       data = '';
       this.prevCarry = this.carry;
+      prevOffset = this.offset;
+      prevPC = this.pc;
       this.carry = 0;
       this.fetch_h = this.rom[this.offset * 256 * 2 + this.pc * 2 + 0];
       this.fetch_l = this.rom[this.offset * 256 * 2 + this.pc * 2 + 1];
@@ -134,7 +136,7 @@ HP35 = function () {
       if (this.fetch_l === 0x0D0) {
         this.pc = this.key_rom;
         this.s[0] = 0;
-        data = 'PC=' + this.pc;
+        data = 'ProgramCounter=' + this.pc;
       }
       if (keyboard.available()) {
         this.key_code = keyboard.read();
@@ -270,7 +272,7 @@ HP35 = function () {
         if (this.prevCarry !== 1) {
           this.pc = (this.fetch_l & 0x0fc) >> 2 | (this.fetch_h & 0x03) << 6;
         }
-        data = 'PC=' + this.pc;
+        data = 'ProgramCounter=' + this.pc + ' PrevCarry=' + this.prevCarry;
       }
       if ((this.fetch_l & 0x03) === 0x02) {
         // A&R
@@ -611,7 +613,7 @@ HP35 = function () {
         // 	@update_display = false
         lcd.update();
       }
-      if (ref39 = this.offset + ':' + this.pc, indexOf.call("0:199 0:200 0:201 0:205 0:206".split(' '), ref39) < 0) {
+      if (ref39 = prevOffset + ':' + prevPC, indexOf.call("0:199 0:200 0:201 0:205 0:206 0:208 0:209 0:210".split(' '), ref39) < 0) {
         // the display loop
         return this.decorate(trace, data);
       }

@@ -15,8 +15,15 @@ Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttja
 ## Trace 
 
 * Genom att klicka på bakgrunden kan man slå av och på trace
-* Då får man se vad registren innehåller.
+* Då får man se vad registren innehåller
 * Dessutom kan man använda F12 för att se vilka instruktioner som körs
+
+## Hastighet
+* Bit tar 5 mikrosekunder
+* Digit 20 mikrosekunder
+* Word 280 mikrosekunder
+* HP-35:s normala hastighet är cirka 1000000/280 = 3571 operationer per sekund
+* Vid spårning sänks hastigheten till 60 operationer per sekund
 
 ## Register
 

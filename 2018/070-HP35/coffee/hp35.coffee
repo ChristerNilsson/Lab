@@ -85,7 +85,7 @@ class HP35
 		@error = 0
 
 		@TRACE = false 
-		@SPEED = 1000 # 1=slow 1000=fast
+		@SPEED = 60 # 1=slow 60=normal 1000=fast
 
 	compact : (lst) -> 
 		n = lst.length
@@ -96,13 +96,15 @@ class HP35
 
 	toggle : ->
 		@TRACE = not @TRACE
-		@SPEED = if @SPEED == 1 then 1000 else 1	
+		@SPEED = if @SPEED == 1 then 60 else 1	
 
 	decorate : (trace, data) ->	if @TRACE then print "#{trace.padEnd 40} #{data}"
 
 	singleStep : ->
 		data = ''
 		@prevCarry = @carry
+		prevOffset = @offset
+		prevPC = @pc
 		@carry = 0
 		@fetch_h = @rom[@offset*256*2 + @pc*2 + 0]    
 		@fetch_l = @rom[@offset*256*2 + @pc*2 + 1] 
@@ -141,7 +143,7 @@ class HP35
 		if @fetch_l == 0x0D0
 			@pc = @key_rom
 			@s[0] = 0
-			data = "PC=#{@pc}"
+			data = "ProgramCounter=#{@pc}"
 
 		if keyboard.available() then @key_code = keyboard.read()
 				
@@ -231,7 +233,7 @@ class HP35
 		if (@fetch_l & 0x03) == 0x03 # print "Cond Branch: ",@pc
 			if @prevCarry != 1
 				@pc = ((@fetch_l&0x0fc)>>2) | ( (@fetch_h&0x03)<<6)
-			data = "PC=#{@pc}"
+			data = "ProgramCounter=#{@pc} PrevCarry=#{@prevCarry}"
 
 		if (@fetch_l & 0x03) == 0x02 # A&R
 			@word_select = (@fetch_l>>2) & 0x07
@@ -437,7 +439,7 @@ class HP35
 			# 	@update_display = false
 			lcd.update()
 
-		if "#{@offset}:#{@pc}" not in "0:199 0:200 0:201 0:205 0:206".split ' ' # the display loop
+		if "#{prevOffset}:#{prevPC}" not in "0:199 0:200 0:201 0:205 0:206 0:208 0:209 0:210".split ' ' # the display loop
 			@decorate trace,data
 
 	get_f_l : (ws) -> 
