@@ -2,9 +2,14 @@
 
 ![HP-35](http://www.hpmuseum.org/35last.jpg)
 
-Legendarisk kalkylator från Hewlett-Packard 1972. I ett slag förflyttades [logaritmtabeller](https://en.wikipedia.org/wiki/Common_logarithm), [Elektromekaniska kalkylatorer](https://www.youtube.com/watch?v=Bd3R9u2vuCo), [Mekaniska kalkylatorer](https://www.youtube.com/watch?v=ZDn_DDsBWws), [Four-bangers](http://www.vintagecalculators.com/assets/images/Anita1011_1.JPG) samt [räknestickor](http://www.antiquark.com/sliderule/sim/n909es/virtual-n909-es.html) till muséerna.
+Legendarisk kalkylator från Hewlett-Packard 1972. 
+I ett enda slag blev följande metoder omoderna:
 
-Översättning från C++ till Coffeescript.
+* [Logaritmtabeller](https://en.wikipedia.org/wiki/Common_logarithm)
+* [Räknestickor](http://www.antiquark.com/sliderule/sim/n909es/virtual-n909-es.html)
+* [Elektromekaniska kalkylatorer](https://www.youtube.com/watch?v=Bd3R9u2vuCo)
+* [Mekaniska kalkylatorer](https://www.youtube.com/watch?v=ZDn_DDsBWws)
+* [Elektroniska four-bangers](http://www.vintagecalculators.com/assets/images/Anita1011_1.JPG)
 
 Denna simulator använder sig av det ursprungliga rommet om 960 bytes.
 De enda instruktioner som används är addition och shift.
