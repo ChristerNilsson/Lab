@@ -1,5 +1,7 @@
 # HP-35
 
+![HP-35](http://www.hpmuseum.org/35last.jpg)
+
 Legendarisk kalkylator från Hewlett-Packard 1972. I ett slag förflyttades [logaritmtabeller](https://en.wikipedia.org/wiki/Common_logarithm) och [räknestickor](http://www.antiquark.com/sliderule/sim/n909es/virtual-n909-es.html) till muséerna.
 
 Översättning från C++ till Coffeescript.
