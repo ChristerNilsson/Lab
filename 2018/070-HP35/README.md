@@ -11,21 +11,18 @@ I ett enda slag blev följande metoder omoderna:
 * [Mekaniska kalkylatorer](https://www.youtube.com/watch?v=ZDn_DDsBWws)
 * [Elektroniska four-bangers](http://www.vintagecalculators.com/assets/images/Anita1011_1.JPG)
 
-Denna simulator använder sig av det ursprungliga rommet om 960 bytes.
+## Föregångaren HP-9100 (1968)
+
+![HP-9100](http://www.hpmuseum.org/9100pr.jpg)
+
+## Kod
+
+Denna simulator använder sig av det ursprungliga rommet om 3 * 256 * 10 = 960 bytes.
 De enda instruktioner som används är addition och shift.
 Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttjar sig enbart av addition och shift.
 
-* Hela programmet ryms i 3 x 256 x 10 bitar = 960 bytes
-* Data: 7 register om 14 nibbles = 49 bytes (nibble = 4 bitar)
-* Status: 12 bitar.
-
-## Trace 
-
-* Genom att klicka på bakgrunden kan man slå av och på trace
-* Då får man se vad registren innehåller
-* Dessutom kan man använda F12 för att se vilka instruktioner som körs
-
 ## Hastighet
+
 * Bit tar 5 mikrosekunder
 * Digit 20 mikrosekunder
 * Word 280 mikrosekunder
@@ -34,21 +31,30 @@ Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttja
 
 ## Register
 
-  * A   Styr displayen
-  * B   [Styr displayen](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Output%20format.htm)
-  * C X Talet användaren ser i displayen
-  * D Y Del av stacken
-  * E Z Del av stacken
-  * F T Del av stacken
-  * M   Memory
-  * S = [Status register](http://home.citycable.ch/pierrefleur/Jacques-Laporte/status_bit_flags.htm)
-  * PC = Program Counter 
+* Data: 7 register om 14 nibbles = 49 bytes (nibble = 4 bitar)
+* Status: 12 bitar.
+
+* A   Styr displayen
+* B   [Styr displayen](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Output%20format.htm)
+* C X Talet användaren ser i displayen
+* D Y Del av stacken
+* E Z Del av stacken
+* F T Del av stacken
+* M   Memory
+* S = [Status register](http://home.citycable.ch/pierrefleur/Jacques-Laporte/status_bit_flags.htm)
+* PC = Program Counter 
   
 ## Projektet består av tre filer
 
-* hp35.coffee: 390 rader. Kalkylatorklass inklusive Styrprogram i ROM.
+* hp35.coffee: 390 rader. Kalkylatorklass inklusive Styrprogram i ROM
 * sketch.coffee: 135 rader. GUI
-* asm.coffee: 768 rader. Styrprogrammet på läsbar form.
+* asm.coffee: 768 rader. Styrprogrammet på läsbar form
+
+## Trace 
+
+* Genom att klicka på bakgrunden kan man slå av och på trace
+* Då får man se vad registren innehåller
+* Dessutom kan man använda F12 för att se vilka instruktioner som körs
 
 ## Länkar
 
