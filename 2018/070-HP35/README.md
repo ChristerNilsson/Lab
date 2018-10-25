@@ -5,10 +5,10 @@
 Legendarisk kalkylator från Hewlett-Packard 1972. 
 I ett enda slag blev följande metoder omoderna:
 
-* [Logaritmtabell 1624-1972](https://en.wikipedia.org/wiki/Common_logarithm)
-* [Räknesticka 1630-1972](http://www.antiquark.com/sliderule/sim/n909es/virtual-n909-es.html)
-* [Mekanisk kalkylator 1874-1972](https://www.youtube.com/watch?v=ZDn_DDsBWws)
-* [Elektromekanisk kalkylator 1958-1972](https://www.youtube.com/watch?v=Bd3R9u2vuCo)
+* [Logaritmtabell (Napier,Briggs) 1624-1972](https://en.wikipedia.org/wiki/Common_logarithm)
+* [Räknesticka (Oughtred) 1622-1972](http://www.antiquark.com/sliderule/sim/n909es/virtual-n909-es.html)
+* [Mekanisk kalkylator (Odhner) 1874-1972](https://www.youtube.com/watch?v=ZDn_DDsBWws)
+* [Elektromekanisk kalkylator 1927-1972](https://www.youtube.com/watch?v=Bd3R9u2vuCo)
 * [Elektronisk räknare, fyra räknesätt 1961-1972](http://www.vintagecalculators.com/assets/images/Anita1011_1.JPG)
 
 ## Föregångaren HP-9100 (1968)
