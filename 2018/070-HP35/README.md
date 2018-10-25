@@ -95,3 +95,6 @@ Calculator Challenges the Slide Rule](http://www.hpl.hp.com/hpjournal/pdfs/Issue
 * [Pseudo Multiplication av Meggitt 1961](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Meggitt_62.pdf)
   
 * [Hewlett-Packard 9100 - Computer Calculator For Math And Science (1968)](https://www.youtube.com/watch?v=Ki1Inux1_wU)
+
+* [A reconstruction of the tables of Briggs’ Arithmetica
+logarithmica (1624)](https://hal.inria.fr/inria-00543939/document)
