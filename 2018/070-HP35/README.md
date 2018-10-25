@@ -11,6 +11,15 @@ I ett enda slag blev följande metoder omoderna:
 * [Elektromekanisk kalkylator 1927-1972](https://www.youtube.com/watch?v=Bd3R9u2vuCo)
 * [Elektronisk räknare, fyra räknesätt 1961-1972](http://www.vintagecalculators.com/assets/images/Anita1011_1.JPG)
 
+## Personerna bakom HP-35
+
+* [Henry Briggs, PhD in Math, 1624 (http://home.citycable.ch/pierrefleur/Jacques-Laporte/Briggs%20and%20the%20HP35.htm)
+* [Jack E Volder, BSEE, 1959](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Volder_CORDIC.pdf)
+* [J. E. Meggitt, PhD in Math, 1961](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Meggitt_62.pdf)
+* [Tom Osborne, MSEE, 1962](http://www.hp9825.com/html/osborne_s_story.html)
+* [J. S. Walther, HP, 1971](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Welther-Unified%20Algorithm.pdf)
+* [David Cochran, MSEE, 1971](http://www8.hp.com/us/en/pdf/023hpjournal03_tcm_245_935056.pdf)
+
 ## Föregångaren HP-9100 (1968)
 
 ![HP-9100](http://www.hpmuseum.org/9100pr.jpg)
@@ -66,6 +75,11 @@ Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttja
 
 * [HP-35 simulator](http://www.hpmuseum.org/simulate/hp35sim/calc.html)
 
+* [The 'Powerful Pocketful': an Electronic
+Calculator Challenges the Slide Rule](http://www.hpl.hp.com/hpjournal/pdfs/IssuePDFs/1972-06.pdf)
+
+* [Reverse Polish Notation (RPN)](https://www.youtube.com/watch?v=g6_cnRg5GmI)
+
 * [Originalkod för Arduino av Pietro de Luca](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Image_deluca/hp35_lcd.pde)
 
 * [Jacques Laporte's dokumentation](http://home.citycable.ch/pierrefleur/Jacques-Laporte/index-old.html)
@@ -80,3 +94,4 @@ Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttja
 
 * [Pseudo Multiplication av Meggitt 1961](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Meggitt_62.pdf)
   
+* [Hewlett-Packard 9100 - Computer Calculator For Math And Science (1968)](https://www.youtube.com/watch?v=Ki1Inux1_wU)
