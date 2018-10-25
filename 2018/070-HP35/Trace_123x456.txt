@@ -1,0 +1,251 @@
+########## 1 ##########
+########## 2 ##########
+########## 3 ##########
+########## enter ##########
+########## 4 ##########
+########## 5 ##########
+########## 6 ##########
+########## x ##########
+0:207 dsp8:   0 -> s0                    S=100110000000
+0:211         display off                
+0:212         if s8 # 1                  S=100110000000
+0:213           then go to dsp4          ProgramCounter=214 PrevCarry=1
+0:214         shift left a[w]            A=45600000000000
+0:215         0 -> s5                    S=100110000000
+0:216         keys -> rom address        ProgramCounter=30
+0:030         3 -> p                     P=3
+0:031         0 - c -> c[x]              C=04560000000998
+0:032 lab020: stack -> a                 A=01230000000002 D=00000000000000 E=00000000000000
+0:033         go to lab010               ProgramCounter=16 PrevCarry=0
+0:016 lab010: 0 -> b[w]	/b               B=00000000000000
+0:017         select rom 1               
+1:018 asn12:  jsb div11                  PC=166
+1:166 div11:  a - c -> c[x]              C=04560000000004
+1:167         select rom 2               
+2:168         a - c -> c[s]              C=04560000000004
+2:169         if no carry go to div22    ProgramCounter=171 PrevCarry=0
+2:171 div22:  a exchange b[m]            A=00000000000002 B=01230000000000
+2:172         0 -> a[w]                  A=00000000000000
+2:173         if p # 12                  P=3
+2:174           then go to mpy27         ProgramCounter=197 PrevCarry=0
+2:197 mpy27:  c - 1 -> c[p]              C=04560000009004
+2:198         if no carry go to myp26    ProgramCounter=199 PrevCarry=1
+2:199 mpy28:  shift right a[w]           A=00000000000000
+2:200         p + 1 -> p                 P=4
+2:201         if p # 13                  P=4
+2:202           then go to mpy27         ProgramCounter=197 PrevCarry=0
+2:197 mpy27:  c - 1 -> c[p]              C=04560000099004
+2:198         if no carry go to myp26    ProgramCounter=199 PrevCarry=1
+2:199 mpy28:  shift right a[w]           A=00000000000000
+2:200         p + 1 -> p                 P=5
+2:201         if p # 13                  P=5
+2:202           then go to mpy27         ProgramCounter=197 PrevCarry=0
+2:197 mpy27:  c - 1 -> c[p]              C=04560000999004
+2:198         if no carry go to myp26    ProgramCounter=199 PrevCarry=1
+2:199 mpy28:  shift right a[w]           A=00000000000000
+2:200         p + 1 -> p                 P=6
+2:201         if p # 13                  P=6
+2:202           then go to mpy27         ProgramCounter=197 PrevCarry=0
+2:197 mpy27:  c - 1 -> c[p]              C=04560009999004
+2:198         if no carry go to myp26    ProgramCounter=199 PrevCarry=1
+2:199 mpy28:  shift right a[w]           A=00000000000000
+2:200         p + 1 -> p                 P=7
+2:201         if p # 13                  P=7
+2:202           then go to mpy27         ProgramCounter=197 PrevCarry=0
+2:197 mpy27:  c - 1 -> c[p]              C=04560099999004
+2:198         if no carry go to myp26    ProgramCounter=199 PrevCarry=1
+2:199 mpy28:  shift right a[w]           A=00000000000000
+2:200         p + 1 -> p                 P=8
+2:201         if p # 13                  P=8
+2:202           then go to mpy27         ProgramCounter=197 PrevCarry=0
+2:197 mpy27:  c - 1 -> c[p]              C=04560999999004
+2:198         if no carry go to myp26    ProgramCounter=199 PrevCarry=1
+2:199 mpy28:  shift right a[w]           A=00000000000000
+2:200         p + 1 -> p                 P=9
+2:201         if p # 13                  P=9
+2:202           then go to mpy27         ProgramCounter=197 PrevCarry=0
+2:197 mpy27:  c - 1 -> c[p]              C=04569999999004
+2:198         if no carry go to myp26    ProgramCounter=199 PrevCarry=1
+2:199 mpy28:  shift right a[w]           A=00000000000000
+2:200         p + 1 -> p                 P=10
+2:201         if p # 13                  P=10
+2:202           then go to mpy27         ProgramCounter=197 PrevCarry=0
+2:197 mpy27:  c - 1 -> c[p]              C=04559999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=01230000000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=04549999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=02460000000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=04539999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=03690000000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=04529999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=04920000000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=04519999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=06150000000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=04509999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=07380000000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=04599999999004
+2:198         if no carry go to myp26    ProgramCounter=199 PrevCarry=1
+2:199 mpy28:  shift right a[w]           A=00738000000000
+2:200         p + 1 -> p                 P=11
+2:201         if p # 13                  P=11
+2:202           then go to mpy27         ProgramCounter=197 PrevCarry=0
+2:197 mpy27:  c - 1 -> c[p]              C=04499999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=01968000000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=04399999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=03198000000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=04299999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=04428000000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=04199999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=05658000000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=04099999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=06888000000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=04999999999004
+2:198         if no carry go to myp26    ProgramCounter=199 PrevCarry=1
+2:199 mpy28:  shift right a[w]           A=00688800000000
+2:200         p + 1 -> p                 P=12
+2:201         if p # 13                  P=12
+2:202           then go to mpy27         ProgramCounter=197 PrevCarry=0
+2:197 mpy27:  c - 1 -> c[p]              C=03999999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=01918800000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=02999999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=03148800000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=01999999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=04378800000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=00999999999004
+2:198         if no carry go to myp26    ProgramCounter=196 PrevCarry=0
+2:196 myp26:  a + b -> a[w]              A=05608800000000 B=01230000000000
+2:197 mpy27:  c - 1 -> c[p]              C=09999999999004
+2:198         if no carry go to myp26    ProgramCounter=199 PrevCarry=1
+2:199 mpy28:  shift right a[w]           A=00560880000000
+2:200         p + 1 -> p                 P=13
+2:201         if p # 13                  P=13
+2:202           then go to mpy27         ProgramCounter=203 PrevCarry=1
+2:203         c + 1 -> c[x]              C=09999999999005
+2:204 nrm21:  0 -> a[s]                  A=00560880000000
+2:205         12 -> p                    P=12
+2:206         0 -> b[w]                  B=00000000000000
+2:207 nrm23:  if a[p] >= 1               Carry=1
+2:208           then go to nrm24         ProgramCounter=209 PrevCarry=1
+2:209         shift left a[w]            A=05608800000000
+2:210         c - 1 -> c[x]              C=09999999999004
+2:211         if a[w] >= 1               Carry=0
+2:212           then go to nrm23         ProgramCounter=207 PrevCarry=0
+2:207 nrm23:  if a[p] >= 1               Carry=0
+2:208           then go to nrm24         ProgramCounter=214 PrevCarry=0
+2:214 nrm24:  a -> b[x]                  B=00000000000000
+2:215         a + b -> a[w]              A=05608800000000 B=00000000000000
+2:216         if a[s] >= 1               Carry=1
+2:217           then go to mpy28         ProgramCounter=218 PrevCarry=1
+2:218         a exchange c[m]            A=09999999999000 C=05608800000004
+2:219         c -> a[w]                  A=05608800000004
+2:220         0 -> b[w]                  B=00000000000000
+2:221 nrm27:  12 -> p                    P=12
+2:222         go to nrm26                ProgramCounter=122 PrevCarry=0
+2:122 nrm26:  if s2 # 1                  S=100110000000
+2:123           then go to rtn21         ProgramCounter=148 PrevCarry=0
+2:148 rtn21:  select rom 1               
+1:149 rtn11:  if s1 # 1                  S=100110000000
+1:150           then go to rtn12         ProgramCounter=218 PrevCarry=0
+1:218 rtn12:  select rom 0               
+0:219 lab0DB: jsb of13                   PC=93
+0:093 of13:   clear status               S=000000000000
+0:094         c -> a[w]                  A=05608800000004
+0:095 of14:   12 -> p                    P=12
+0:096         a -> b[x]                  B=00000000000004
+0:097         c -> a[x]                  A=05608800000004
+0:098         if c[xs] = 0               Carry=0
+0:099           then go to of15          ProgramCounter=104 PrevCarry=0
+0:104 of15:   a exchange c[x]            A=05608800000004 C=05608800000004
+0:105         if s4 # 1                  S=000000000000
+0:106           then go to lab042        ProgramCounter=66 PrevCarry=0
+0:066 lab042: a -> b[w]                  B=05608800000004
+0:067         0 -> a[xs]                 A=05608800000004
+0:068         shift left a[ms]           A=56088000000004
+0:069 lab045: a - 1 -> a[x]              A=56088000000003
+0:070         if no carry go to lab0E0   ProgramCounter=224 PrevCarry=0
+0:224 lab0E0: shift right a[ms]          A=05608800000003
+0:225         p - 1 -> p                 P=11
+0:226         if p # 2                   P=11
+0:227           then go to lab045        ProgramCounter=69 PrevCarry=0
+0:069 lab045: a - 1 -> a[x]              A=05608800000002
+0:070         if no carry go to lab0E0   ProgramCounter=224 PrevCarry=0
+0:224 lab0E0: shift right a[ms]          A=00560880000002
+0:225         p - 1 -> p                 P=10
+0:226         if p # 2                   P=10
+0:227           then go to lab045        ProgramCounter=69 PrevCarry=0
+0:069 lab045: a - 1 -> a[x]              A=00560880000001
+0:070         if no carry go to lab0E0   ProgramCounter=224 PrevCarry=0
+0:224 lab0E0: shift right a[ms]          A=00056088000001
+0:225         p - 1 -> p                 P=9
+0:226         if p # 2                   P=9
+0:227           then go to lab045        ProgramCounter=69 PrevCarry=0
+0:069 lab045: a - 1 -> a[x]              A=00056088000000
+0:070         if no carry go to lab0E0   ProgramCounter=224 PrevCarry=0
+0:224 lab0E0: shift right a[ms]          A=00005608800000
+0:225         p - 1 -> p                 P=8
+0:226         if p # 2                   P=8
+0:227           then go to lab045        ProgramCounter=69 PrevCarry=0
+0:069 lab045: a - 1 -> a[x]              A=00005608800999
+0:070         if no carry go to lab0E0   ProgramCounter=71 PrevCarry=1
+0:071         if c[xs] = 0               Carry=0
+0:072           then go to lab0E6        ProgramCounter=230 PrevCarry=0
+0:230 lab0E6: 0 -> a[ms]                 A=00000000000999
+0:231         a + 1 -> a[p]              A=00000100000999
+0:232         a + 1 -> a[p]              A=00000200000999
+0:233         2 -> p                     P=2
+0:234 lab0EA: p + 1 -> p                 P=3
+0:235         a - 1 -> a[p]              A=00000200009999
+0:236         if no carry go to lab0EF   ProgramCounter=237 PrevCarry=1
+0:237         if b[p] = 0                Carry=0
+0:238           then go to lab0EA        ProgramCounter=234 PrevCarry=0
+0:234 lab0EA: p + 1 -> p                 P=4
+0:235         a - 1 -> a[p]              A=00000200099999
+0:236         if no carry go to lab0EF   ProgramCounter=237 PrevCarry=1
+0:237         if b[p] = 0                Carry=0
+0:238           then go to lab0EA        ProgramCounter=234 PrevCarry=0
+0:234 lab0EA: p + 1 -> p                 P=5
+0:235         a - 1 -> a[p]              A=00000200999999
+0:236         if no carry go to lab0EF   ProgramCounter=237 PrevCarry=1
+0:237         if b[p] = 0                Carry=0
+0:238           then go to lab0EA        ProgramCounter=234 PrevCarry=0
+0:234 lab0EA: p + 1 -> p                 P=6
+0:235         a - 1 -> a[p]              A=00000209999999
+0:236         if no carry go to lab0EF   ProgramCounter=237 PrevCarry=1
+0:237         if b[p] = 0                Carry=0
+0:238           then go to lab0EA        ProgramCounter=234 PrevCarry=0
+0:234 lab0EA: p + 1 -> p                 P=7
+0:235         a - 1 -> a[p]              A=00000299999999
+0:236         if no carry go to lab0EF   ProgramCounter=237 PrevCarry=1
+0:237         if b[p] = 0                Carry=0
+0:238           then go to lab0EA        ProgramCounter=234 PrevCarry=0
+0:234 lab0EA: p + 1 -> p                 P=8
+0:235         a - 1 -> a[p]              A=00000199999999
+0:236         if no carry go to lab0EF   ProgramCounter=239 PrevCarry=0
+0:239 lab0EF: a + 1 -> a[p]              A=00000299999999
+0:240         a exchange b[w]            A=05608800000004 B=00000299999999
+0:241         return                     
+0:220         1 -> s7                    S=000010000000
+0:221 fst2zx: jsb dsp1                   PC=247
+0:247 dsp1:   0 -> s10                   S=000010000000
+0:248         go to dsp7                 ProgramCounter=195 PrevCarry=0
+0:195 dsp7:   c -> a[s]                  A=05608800000004
+0:196         0 -> s8                    S=000010000000
+0:197         go to dsp8                 ProgramCounter=207 PrevCarry=0
+0:207 dsp8:   0 -> s0                    S=000010000000
+0:211         display off                
+0:212         if s8 # 1                  S=000010000000
+0:213           then go to dsp4          ProgramCounter=204 PrevCarry=0
+0:204 dsp4:   display toggle

@@ -9,7 +9,7 @@ I ett enda slag blev följande metoder omoderna:
 * [Räknesticka (Oughtred) 1622-1972](http://www.antiquark.com/sliderule/sim/n909es/virtual-n909-es.html)
 * [Mekanisk kalkylator (Odhner) 1874-1972](https://www.youtube.com/watch?v=ZDn_DDsBWws)
 * [Elektromekanisk kalkylator 1927-1972](https://www.youtube.com/watch?v=Bd3R9u2vuCo)
-* [Elektronisk räknare, fyra räknesätt 1961-1972](http://www.vintagecalculators.com/assets/images/Anita1011_1.JPG)
+* [Elektronisk räknare, fyra räknesätt 1961-1972](https://www.oldcalculatormuseum.com/friden130.html)
 
 ## Personerna bakom HP-35
 
@@ -26,7 +26,7 @@ I ett enda slag blev följande metoder omoderna:
 
 ## Kod
 
-Denna simulator använder sig av det ursprungliga rommet om 3 * 256 * 10 = 960 bytes.
+Denna simulator använder sig av det ursprungliga [rommet](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/coffee/asm.coffee) om 3 * 256 * 10 = [960 bytes](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/HP35_ROM.txt).
 De enda instruktioner som används är addition och shift.
 Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttjar sig enbart av addition och shift.
 
@@ -55,15 +55,16 @@ Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttja
   
 ## Projektet består av tre filer
 
-* hp35.coffee: 390 rader. Kalkylatorklass inklusive Styrprogram i ROM
-* sketch.coffee: 135 rader. GUI
-* asm.coffee: 768 rader. Styrprogrammet på läsbar form
+* [hp35.coffee](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/coffee/hp35.coffee): 390 rader. Kalkylatorklass inklusive Styrprogram i ROM
+* [sketch.coffee](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/coffee/sketch.coffee): 135 rader. GUI
+* [asm.coffee](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/coffee/asm.coffee): 768 rader. Styrprogrammet på läsbar form
 
 ## Trace 
 
 * Genom att klicka på bakgrunden kan man slå av och på trace
 * Då får man se vad registren innehåller
 * Dessutom kan man använda F12 för att se vilka instruktioner som körs
+* Exempel: [123 * 456](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/Trace_123x456.txt)
 
 ## Länkar
 
