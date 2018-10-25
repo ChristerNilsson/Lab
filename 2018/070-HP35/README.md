@@ -56,7 +56,7 @@ Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttja
 ## Projektet består av tre filer
 
 * [hp35.coffee](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/coffee/hp35.coffee): 390 rader. Kalkylatorklass inklusive Styrprogram i ROM
-* [sketch.coffee](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/coffee/sketch.coffee): 135 rader. GUI
+* [sketch.coffee](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/coffee/sketch.coffee): 160 rader. GUI
 * [asm.coffee](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/coffee/asm.coffee): 768 rader. Styrprogrammet på läsbar form
 
 ## Trace 
@@ -65,6 +65,7 @@ Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttja
 * Då får man se vad registren innehåller
 * Dessutom kan man använda F12 för att se vilka instruktioner som körs
 * Exempel: [123 * 456](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/Trace_123x456.txt)
+  * Notera att multiplikationen utförs på samma sätt som när man räknar för hand. [Enbart addition och skift](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/Trace_compact.txt).
 
 ## Länkar
 
