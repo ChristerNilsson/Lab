@@ -13,7 +13,7 @@ I ett enda slag blev följande metoder omoderna:
 
 ## Personerna bakom HP-35
 
-* [Henry Briggs, PhD in Math, 1624 (http://home.citycable.ch/pierrefleur/Jacques-Laporte/Briggs%20and%20the%20HP35.htm)
+* [Henry Briggs, PhD in Math, 1624](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Briggs%20and%20the%20HP35.htm)
 * [Jack E Volder, BSEE, 1959](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Volder_CORDIC.pdf)
 * [J. E. Meggitt, PhD in Math, 1961](http://home.citycable.ch/pierrefleur/Jacques-Laporte/Meggitt_62.pdf)
 * [Tom Osborne, MSEE, 1962](http://www.hp9825.com/html/osborne_s_story.html)
