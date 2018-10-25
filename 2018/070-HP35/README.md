@@ -1,6 +1,6 @@
 # HP-35
 
-Legendarisk kalkylator från Hewlett-Packard 1972. I ett slag förflyttades logaritmtabeller och räknestickor till muséerna.
+Legendarisk kalkylator från Hewlett-Packard 1972. I ett slag förflyttades [logaritmtabeller](https://en.wikipedia.org/wiki/Common_logarithm) och [räknestickor](http://www.antiquark.com/sliderule/sim/n909es/virtual-n909-es.html) till muséerna.
 
 Översättning från C++ till Coffeescript.
 
