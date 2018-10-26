@@ -36,7 +36,7 @@ Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttja
 * Digit 20 mikrosekunder
 * Word 280 mikrosekunder
 * HP-35:s normala hastighet är cirka 1000000/280 = 3571 operationer per sekund
-* Vid spårning sänks hastigheten till 60 operationer per sekund
+* Långsammaste operationen, tangens, tar cirka 500 ms.
 
 ## Register
 
@@ -64,6 +64,7 @@ Alla övriga instruktioner, t ex mult, div, sin, cos, tan, ln, log, e^x utnyttja
 * Genom att klicka på bakgrunden kan man slå av och på trace
 * Då får man se vad registren innehåller
 * Dessutom kan man använda F12 för att se vilka instruktioner som körs
+* Vid spårning sänks hastigheten till 60 operationer per sekund
 * Exempel: [123 * 456](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/Trace_123x456.txt)
   * Notera att multiplikationen utförs på samma sätt som när man räknar för hand. [Enbart addition och skift](https://github.com/ChristerNilsson/Lab/blob/master/2018/070-HP35/Trace_compact.txt).
 
@@ -87,6 +88,10 @@ Calculator Challenges the Slide Rule](http://www.hpl.hp.com/hpjournal/pdfs/Issue
 * [Jacques Laporte's dokumentation](http://home.citycable.ch/pierrefleur/Jacques-Laporte/index-old.html)
 
 * [Andra HP simulatorer](http://www.teenix.org/)
+
+* [Free42](http://thomasokken.com/free42)
+
+* [DM42](https://www.swissmicros.com/dm42.php)
 
 * [HP CPU and Programming](http://www.hpmuseum.org/techcpu.htm)
 
