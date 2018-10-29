@@ -85,8 +85,9 @@ draw = function draw() {
   }
   if (timer === 0) {
     noLoop();
-    fc(0);
+    bg(0);
     image(img3, 0, 50);
+    fc(1);
     return text(highscore, 100, 100);
   }
 };
