@@ -1,10 +1,11 @@
+KEY = '078-TimeMeasurer'
+
 persons = []
 db = {}
 
-myNow = -> Date.now()
-
 class Person
-	constructor : (@name,@y,@state=0,@konto=0) ->
+	constructor : (@name,@y,@konto=0) ->
+		@state = 0
 		@w = 80
 		@h = 30
 		@lastValue = 0 # millis sedan 1970
@@ -26,9 +27,15 @@ class Person
 		text '-',200,@y
 
 		# konto
-		d = new Date @konto 
+		k = @konto
 		fc 0
-		text "#{nf d.getHours(),2}:#{nf d.getMinutes(),2}:#{nf d.getSeconds(),2}",300,@y
+		k //= 1000		
+		s = k % 60
+		k //= 60
+		m = k % 60
+		k //= 60
+		h = k
+		text "#{nf h,2}:#{nf m,2}:#{nf s,2}",300,@y
 
 		# plus
 		fc 1,1,1
@@ -41,24 +48,23 @@ class Person
 		text '+',400,@y
 
 	update : ->
-		if @lastValue == 0 then @lastValue = myNow()
-		d = myNow() # millis sedan 1970
+		if @lastValue == 0 then @lastValue = Date.now()
+		d = Date.now() # millis sedan 1970
 		@konto += @state * (d - @lastValue)
-		print @konto
-		#if @konto<0 then @konto = 0 
+		if @konto < 0 then @konto = 0
 		@lastValue = d
 
 	inside : (x,y,mx,my) -> x-@w/2 < mx < x+@w/2 and y-@h/2 < my < y+@h/2
 	execute : (mx,my) ->
+		if @inside 100,@y,mx,my then @state = 0
 		if @inside 200,@y,mx,my then @state = -1 
 		if @inside 300,@y,mx,my then @state = 0
 		if @inside 400,@y,mx,my then @state = 1
 
 setup = ->
 	createCanvas 800,600
-	#delete localStorage['078-TimeMeasurer']
 
-	s = localStorage['078-TimeMeasurer'] # "{David:3600000}"
+	s = localStorage[KEY] 
 	if s==undefined then s='{}'
 	db = JSON.parse s
 
@@ -80,8 +86,7 @@ draw = ->
 	for person,i in persons
 		person.draw()
 		db[person.name] = person.konto
-	#print JSON.stringify db
-	localStorage['078-TimeMeasurer'] = JSON.stringify db
+	localStorage[KEY] = JSON.stringify db
 
 mousePressed = ->
 	for person in persons
