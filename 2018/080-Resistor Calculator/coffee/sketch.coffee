@@ -1,15 +1,11 @@
 class Calculator
 	constructor : -> @stack = []
-	p : ->
-		x = @stack.pop()
-		y = @stack.pop()
-		@stack.push x*y/(x+y)
 	calc : (opers) ->
-		if opers.length==0 then return ""
+		if opers.length == 0 then return ''
 		for oper in opers.split ' '
 			switch oper
 				when '+' then @stack.push @stack.pop() + @stack.pop()
-				when 'p' then @p()
+				when 'p' then @stack.push 1 / (1 / @stack.pop() + 1 / @stack.pop())
 				when ''
 				else @stack.push parseFloat oper
 		if @stack.length>0 then @stack.pop() else ""

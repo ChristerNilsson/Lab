@@ -15,19 +15,11 @@ Calculator = function () {
   }
 
   _createClass(Calculator, [{
-    key: 'p',
-    value: function p() {
-      var x, y;
-      x = this.stack.pop();
-      y = this.stack.pop();
-      return this.stack.push(x * y / (x + y));
-    }
-  }, {
     key: 'calc',
     value: function calc(opers) {
       var i, len, oper, ref;
       if (opers.length === 0) {
-        return "";
+        return '';
       }
       ref = opers.split(' ');
       for (i = 0, len = ref.length; i < len; i++) {
@@ -37,7 +29,7 @@ Calculator = function () {
             this.stack.push(this.stack.pop() + this.stack.pop());
             break;
           case 'p':
-            this.p();
+            this.stack.push(1 / (1 / this.stack.pop() + 1 / this.stack.pop()));
             break;
           case '':
             break;
