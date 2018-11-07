@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "paddle.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\paddle.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AACC,AAAc,kBAAA,IAAA,GAAA,IAAA,GAAA,GAAA,IAAA;;;AAAC,AAAC,SAAA;AAAI,AAAC,SAAA;AAAE,AAAC,SAAA;AAAG,AAAC,SAAA;AAAE,AAAC,SAAA;AAAG,AAAC,SAAA;AAAG,AAAC,SAAA;AACtC,AAAC,SAAA,AAAD,KAAM;AACN,AAAC,SAAA,AAAD,QAAS,AAFI;AAId,AAAS;;;;2BAAC,AAAD,IACR;UAAA;AAAA,UAAI,AAAC,KAAA,AAAD,IAAK,AAAC,KAAA,AAAD,KAAM;aACf,AAAC,KAAA,AAAD,IAAQ,AAAC,KAAA,AAAD,KAAM,AAAC,KAAA,AAAD,IAAG,AAAZ,IAAmB,IAAI,AAAC,KAAA,AAAD,IAAG,AAAP,GAAU,AAAV,AAAnB,KAAoC,IAAI,SAAS,AAAC,KAAA,AAAD,IAAG,AAAhB,GAAmB,AAAnB,AAFjC;AAIT,AAAY;;;;AACX,AAAC,WAAA,AAAD,KAAM;AACN,UAAG,UAAU,AAAC,KAAA,AAAX,AAAH;AAAsB,AAAC,aAAA,AAAD,KAAM,CAAC,AAA7B;;AACA,UAAG,UAAU,AAAC,KAAA,AAAX,AAAH;eAAwB,AAAC,KAAA,AAAD,KAAM,AAA9B;AAHW;AAKZ,AAAS;;;;aAAG,KAAK,AAAC,KAAA,AAAN,GAAS,AAAC,KAAA,AAAV,GAAa,AAAC,KAAA,AAAd,GAAiB,AAAC,KAAA,AAAlB,AAAH;AAET,AAAiB;;;mCAAC,AAAD,MAAM,AAAN;AAChB,UAAG,AAAI,KAAC,AAAL,SAAc,AAAd,AAAH;AACC,AAAI,aAAC,AAAL,MAAW,CAAC;AACZ,AAAI,aAAC,AAAL,IAAS,AAAC,KAAA,AAAD,IAAK;eACd,AAAI,KAAC,AAAL,KAAa,AAAI,KAAC,AAAL,KAAU,AAAb,IAAoB,CAAC,OAAO,AAAP,IAAW,AAAX,AAArB,OAAyC,OAAO,AAAP,IAAW,AAAX,AAHpD;AADgB;AAMjB,AAAO;;;yBAAC,AAAD;AACN,AAAI,WAAC,AAAL,gBAAqB;AACrB,AAAC,WAAA,AAAD;AACA,UAAG,AAAC,KAAA,AAAD,UAAU,AAAb;AACC,AAAI,aAAC,AAAL,gBAAqB,AAAC,KAAA;eACtB,AAAI,KAAC,AAAL,YAAiB,AAFlB;AAAA,aAAA;AAIC,AAAI,aAAC,AAAL,YAAiB;eACjB,AAAI,KAAC,AAAI,KAAC,AAAV,AALD;AAHM;AAtBR",
+  "sourcesContent": [
+    "class Player\r\n\tconstructor : (@nr, @x,@y, @w,@h, @up,@down) ->\r\n\t\t@dy = 0\r\n\t\t@score = 0\r\n\r\n\tupdate : (dt) ->\r\n\t\ty = @y + @dy * dt\r\n\t\t@y = if @dy < @h/2 then max @h/2, y else min HEIGHT - @h/2, y\r\n\r\n\thandleKey : ->\r\n\t\t@dy = 0\r\n\t\tif keyIsDown @up then\t@dy = -PADDLE_SPEED\r\n\t\tif keyIsDown @down then\t@dy = PADDLE_SPEED\r\n\r\n\trender : -> rect @x, @y, @w, @h\r\n\r\n\tcheckCollision : (ball,dx) ->\r\n\t\tif ball.collides @\r\n\t\t\tball.dx *= -1.03\r\n\t\t\tball.x = @x + dx\r\n\t\t\tball.dy = if ball.dy < 0 then -random 10, 150 else random 10, 150\r\n\r\n\tincr : (sp) ->\r\n\t\tgame.servingPlayer = sp\r\n\t\t@score++\r\n\t\tif @score == 10 \r\n\t\t\tgame.winningPlayer = @nr\r\n\t\t\tgame.gameState = 'done'\r\n\t\telse\r\n\t\t\tgame.gameState = 'serve'\r\n\t\t\tgame.ball.reset()\r\n"
+  ]
+}

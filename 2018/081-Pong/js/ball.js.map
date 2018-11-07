@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "ball.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\ball.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AACC,AAAc,gBAAA,GAAA,IAAA,GAAA;;;AAAC,AAAC,SAAA;AAAE,AAAC,SAAA;AAAG,AAAC,SAAA;AAAE,AAAC,SAAA;AACzB,AAAC,SAAA,AAAD,KAAM;AACN,AAAC,SAAA,AAAD,KAAM,AAFO;AAId,AAAW;;;;6BAAC,AAAD;AACV,UAAG,IAAI,AAAC,KAAA,AAAD,IAAK,AAAC,EAAC,AAAX,KAAgB,CAAC,AAAC,EAAC,AAAF,IAAM,AAAC,KAAA,AAAR,KAAW,AAA9B,GAAqC;eAAO,AAA5C;;AACA,UAAG,IAAI,AAAC,KAAA,AAAD,IAAK,AAAC,EAAC,AAAX,KAAgB,CAAC,AAAC,EAAC,AAAF,IAAM,AAAC,KAAA,AAAR,KAAW,AAA9B,GAAqC;eAAO,AAA5C;;aACA,AAHU;AAKX,AAAQ;;;;AACP,AAAC,WAAA,AAAD,IAAK,QAAM;AACX,AAAC,WAAA,AAAD,IAAK,SAAO;AACZ,AAAC,WAAA,AAAD,KAAM;aACN,AAAC,KAAA,AAAD,KAAM,AAJC;AAMR,AAAS;;;2BAAC,AAAD;AACR,AAAC,WAAA,AAAD,KAAM,AAAC,KAAA,AAAD,KAAM;aACZ,AAAC,KAAA,AAAD,KAAM,AAAC,KAAA,AAAD,KAAM,AAFJ;AAIT,AAAS;;;;aAAG,KAAK,AAAC,KAAA,AAAN,GAAS,AAAC,KAAA,AAAV,GAAa,AAAC,KAAA,AAAd,GAAiB,AAAC,KAAA,AAAlB,AAAH;AAET,AAAS;;;2BAAC,AAAD;AACR,AAAC,WAAA,AAAD,IAAK;aACL,AAAC,KAAA,AAAD,KAAM,CAAC,AAAC,KAAA,AAFA;AAtBV",
+  "sourcesContent": [
+    "class Ball \r\n\tconstructor : (@x,@y, @w,@h) ->\r\n\t\t@dx = 0\r\n\t\t@dy = 0\r\n\r\n\tcollides : (p) ->\r\n\t\tif abs(@x - p.x) > (p.w + @w)/2 then return false\r\n\t\tif abs(@y - p.y) > (p.h + @h)/2 then return false\r\n\t\ttrue\r\n\r\n\treset : ->\r\n\t\t@x = WIDTH/2\r\n\t\t@y = HEIGHT/2\r\n\t\t@dx = 0\r\n\t\t@dy = 0\r\n\r\n\tupdate : (dt) ->\r\n\t\t@x += @dx * dt\r\n\t\t@y += @dy * dt\r\n\r\n\trender : -> rect @x, @y, @w, @h\r\n\r\n\tbounce : (y) ->\r\n\t\t@y = y\r\n\t\t@dy = -@dy\r\n"
+  ]
+}
