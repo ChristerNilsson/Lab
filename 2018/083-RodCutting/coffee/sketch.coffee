@@ -25,12 +25,12 @@ cut_rod = (v, n2) ->
 			temp = c[j] + c[k]
 			if temp > max_c
 				max_c = temp
-				indexes = [k, j]
+				indexes = [j, k]
 		c[i] = max_c
 		part = (0 for j in range n1)
 		if i < n1
 			for index in indexes
-				part[index] += 1
+				part[index]++
 		else
 			for m in range n1
 				for index in indexes
@@ -43,15 +43,14 @@ setup = ->
 	textSize 16
 	prices = [1,5,8,9]
 	for price,i in prices
-		x = i
-		do (x) ->
+		do (i) ->
 			buttons.push new Button i+1,110+50*i,30, ->
-				if prices[x]>1 then prices[x]--
-				buttons[2*x+1].title = prices[x]
+				if prices[i]>1 then prices[i]--
+				buttons[2*i+1].title = prices[i]
 				execute()
 			buttons.push new Button price,110+50*i,70, ->
-				prices[x]++
-				buttons[2*x+1].title = prices[x]
+				prices[i]++
+				buttons[2*i+1].title = prices[i]
 				execute()
 	execute()
 

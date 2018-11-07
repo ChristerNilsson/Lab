@@ -10,11 +10,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var Button, buttons, cut_rod, draw, execute, lst, mousePressed, parts, prices, setup;
 
 Button = function () {
-  function Button(title, x1, y, event) {
+  function Button(title, x, y, event) {
     _classCallCheck(this, Button);
 
     this.title = title;
-    this.x = x1;
+    this.x = x;
     this.y = y;
     this.event = event;
     this.r = 15;
@@ -85,7 +85,7 @@ cut_rod = function cut_rod(v, n2) {
       temp = c[j] + c[k];
       if (temp > max_c) {
         max_c = temp;
-        indexes = [k, j];
+        indexes = [j, k];
       }
     }
     c[i] = max_c;
@@ -102,7 +102,7 @@ cut_rod = function cut_rod(v, n2) {
     if (i < n1) {
       for (o = 0, len2 = indexes.length; o < len2; o++) {
         index = indexes[o];
-        part[index] += 1;
+        part[index]++;
       }
     } else {
       ref2 = range(n1);
@@ -120,28 +120,27 @@ cut_rod = function cut_rod(v, n2) {
 };
 
 setup = function setup() {
-  var fn, i, l, len, price, x;
+  var fn, i, l, len, price;
   createCanvas(500, 400);
   textSize(16);
   prices = [1, 5, 8, 9];
-  fn = function fn(x) {
+  fn = function fn(i) {
     buttons.push(new Button(i + 1, 110 + 50 * i, 30, function () {
-      if (prices[x] > 1) {
-        prices[x]--;
+      if (prices[i] > 1) {
+        prices[i]--;
       }
-      buttons[2 * x + 1].title = prices[x];
+      buttons[2 * i + 1].title = prices[i];
       return execute();
     }));
     return buttons.push(new Button(price, 110 + 50 * i, 70, function () {
-      prices[x]++;
-      buttons[2 * x + 1].title = prices[x];
+      prices[i]++;
+      buttons[2 * i + 1].title = prices[i];
       return execute();
     }));
   };
   for (i = l = 0, len = prices.length; l < len; i = ++l) {
     price = prices[i];
-    x = i;
-    fn(x);
+    fn(i);
   }
   return execute();
 };
