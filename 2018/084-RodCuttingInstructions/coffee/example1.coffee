@@ -19,7 +19,8 @@ fixa = (i,value) ->
 	c[i] = value
 
 makeCommands = ->
-	g1 = new Grid 8, 4, 4,1, 11, 3,true,'Rod Cutting'
+
+	g1 = new Grid 8, 4, 4,1, 11, 3,true,'Rod Cutting: Använd piltangenterna eller mushjulet'
 
 	g1.add new Text 'i',0.5,0,"indexraden (samma som storlek)"
 	g1.add new Text 'v',0.5,1,"värderaden (priset för en bit med en viss storlek)"

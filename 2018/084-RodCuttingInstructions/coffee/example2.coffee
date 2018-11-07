@@ -40,7 +40,8 @@ fix3 = (x,i,j) ->
 	g2.add new Text h,x+0.5,3,"Bit med längd #{x} värd #{v[x-1]} delas i #{i+1} och #{j+1}"
 
 makeCommands = ->
-	g1 = new Grid 2, 1, 4,1, 11, 3,true,'Best value'
+
+	g1 = new Grid 2, 1, 4,1, 11, 3,true,'Rod Cutting: Använd piltangenterna eller mushjulet'
 	g2 = new Grid 2, 5, 4,1, 11, 4,true,'Parts'
 	g2.add new Text v[0],0.5,0,"parts[1][1]"
 	g2.add new Text v[1],0.5,1,"parts[1][2]"
