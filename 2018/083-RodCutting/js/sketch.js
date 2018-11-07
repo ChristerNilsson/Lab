@@ -52,7 +52,7 @@ parts = null;
 cut_rod = function cut_rod(v, n2) {
   var c, i, index, indexes, j, k, l, len, len1, len2, len3, len4, m, max_c, n, n1, o, p, part, q, ref, ref1, ref2, temp;
   n1 = v.length;
-  v = v.concat(function () {
+  c = v.concat(function () {
     var l, len, ref, results;
     ref = range(n2 - n1);
     results = [];
@@ -62,23 +62,13 @@ cut_rod = function cut_rod(v, n2) {
     }
     return results;
   }());
-  c = function () {
-    var l, len, ref, results;
-    ref = range(n2);
-    results = [];
-    for (l = 0, len = ref.length; l < len; l++) {
-      i = ref[l];
-      results.push(0);
-    }
-    return results;
-  }();
   parts = [];
   ref = range(n2);
   for (l = 0, len = ref.length; l < len; l++) {
     i = ref[l];
-    max_c = v[i];
+    max_c = c[i];
     indexes = [i];
-    ref1 = range(i);
+    ref1 = range(Math.floor((i + 1) / 2));
     for (n = 0, len1 = ref1.length; n < len1; n++) {
       j = ref1[n];
       k = i - j - 1;

@@ -13,14 +13,13 @@ parts = null
 
 cut_rod = (v, n2) ->
 	n1 = v.length
-	v = v.concat (0 for i in range n2-n1)
-	c = (0 for i in range n2)
+	c = v.concat (0 for i in range n2-n1)
 
 	parts = []
 	for i in range n2
-		max_c = v[i]
+		max_c = c[i] 
 		indexes = [i]
-		for j in range i
+		for j in range (i+1) // 2 
 			k = i - j - 1
 			temp = c[j] + c[k]
 			if temp > max_c
