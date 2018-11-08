@@ -20,32 +20,28 @@ var Button,
 SIZE = 100;
 
 Button = function () {
-  function Button(title1, x1, y1, event) {
+  function Button(title1, i, j, event) {
     _classCallCheck(this, Button);
 
     this.title = title1;
-    this.x = x1;
-    this.y = y1;
     this.event = event;
     this.visible = false;
+    this.x = (i + 1) * SIZE;
+    this.y = (j + 1) * SIZE;
   }
 
   _createClass(Button, [{
     key: 'draw',
     value: function draw() {
-      var x, y;
-      x = SIZE + this.x * SIZE;
-      y = SIZE + this.y * SIZE;
-      rect(x, y, SIZE, SIZE);
+      rect(this.x, this.y, SIZE, SIZE);
       if (this.visible) {
-        return text(this.title, x, y);
+        return text(this.title, this.x, this.y);
       }
     }
   }, {
     key: 'inside',
     value: function inside(mx, my) {
-      var ref, ref1;
-      return this.x - 1 / 2 < (ref = mx / SIZE - 1) && ref < this.x + 1 / 2 && this.y - 1 / 2 < (ref1 = my / SIZE - 1) && ref1 < this.y + 1 / 2;
+      return this.x - SIZE / 2 < mx && mx < this.x + SIZE / 2 && this.y - SIZE / 2 < my && my < this.y + SIZE / 2;
     }
   }, {
     key: 'execute',
@@ -64,59 +60,60 @@ buttons = [];
 clicked = [];
 
 setup = function setup() {
-  var arr, i, j, len, results, title;
+  var arr, i, k, len, results, title;
   createCanvas(600, 500);
   rectMode(CENTER);
   textAlign(CENTER, CENTER);
   textSize(50);
   arr = _.shuffle('ABCDEFGHIJABCDEFGHIJ'.split(''));
   results = [];
-  for (i = j = 0, len = arr.length; j < len; i = ++j) {
+  for (i = k = 0, len = arr.length; k < len; i = ++k) {
     title = arr[i];
     results.push(buttons.push(new Button(title, modulo(i, 5), Math.floor(i / 5), function () {
-      var click, k, l, len1, len2;
-      if (this.found) {
+      var click, l, len1, len2, m;
+      if (this.visible) {
         return;
-      }
-      if (clicked.length === 0 || clicked.length === 1 && clicked[0] !== this) {
-        clicks++;
-        clicked.push(this);
-        return this.visible = true;
       } else {
+        this.visible = true;
+      }
+      if (clicked.length === 0) {
+        clicked === [];
+      } else if (clicked.length === 1 && clicked[0] !== this) {} else {
         if (clicked[0].title === clicked[1].title) {
-          for (k = 0, len1 = clicked.length; k < len1; k++) {
-            click = clicked[k];
-            click.visible = true;
+          for (l = 0, len1 = clicked.length; l < len1; l++) {
+            click = clicked[l];
             click.found = true;
           }
         } else {
-          for (l = 0, len2 = clicked.length; l < len2; l++) {
-            click = clicked[l];
+          for (m = 0, len2 = clicked.length; m < len2; m++) {
+            click = clicked[m];
             click.visible = false;
           }
         }
-        return clicked = [];
+        clicked = [];
       }
+      clicks++;
+      return clicked.push(this);
     })));
   }
   return results;
 };
 
 draw = function draw() {
-  var button, j, len;
+  var button, k, len;
   bg(0.5);
-  for (j = 0, len = buttons.length; j < len; j++) {
-    button = buttons[j];
+  for (k = 0, len = buttons.length; k < len; k++) {
+    button = buttons[k];
     button.draw();
   }
   return text(clicks, width / 2, SIZE / 4);
 };
 
 mousePressed = function mousePressed() {
-  var button, j, len, results;
+  var button, k, len, results;
   results = [];
-  for (j = 0, len = buttons.length; j < len; j++) {
-    button = buttons[j];
+  for (k = 0, len = buttons.length; k < len; k++) {
+    button = buttons[k];
     if (button.inside(mouseX, mouseY)) {
       results.push(button.execute());
     } else {
