@@ -13,7 +13,9 @@ var ALFABET,
     clicked,
     clicks,
     draw,
+    found,
     mousePressed,
+    _newGame,
     setup,
     modulo = function modulo(a, b) {
   return (+a % (b = +b) + b) % b;
@@ -21,7 +23,7 @@ var ALFABET,
 
 ALFABET = "ABCDEFGHIJKLMOPQRSTUVWXYZ@0123456789";
 
-CARDS = 9; // 3,6,9,12,15,18,21,24,27,30,33,36 
+CARDS = 3; // 3,6,9,12,15,18,21,24,27,30,33,36 
 
 SIZE = 80;
 
@@ -61,23 +63,25 @@ Button = function () {
 
 clicks = 0;
 
+found = 0;
+
 buttons = [];
 
 clicked = [];
 
-setup = function setup() {
+_newGame = function newGame() {
   var arr, i, k, len, results, s, title;
-  createCanvas((6 + 1) * SIZE, SIZE + Math.floor(CARDS / 3) * SIZE);
-  rectMode(CENTER);
-  textAlign(CENTER, CENTER);
-  textSize(SIZE / 2);
+  clicks = Math.floor(CARDS / 3) * 10;
+  found = 0;
+  buttons = [];
+  clicked = [];
   s = ALFABET.substr(0, CARDS);
   arr = _.shuffle((s + s).split(''));
   results = [];
   for (i = k = 0, len = arr.length; k < len; i = ++k) {
     title = arr[i];
     results.push(buttons.push(new Button(title, modulo(i, 6), Math.floor(i / 6), function () {
-      var click, l, len1, len2, m;
+      var click, l, len1;
       if (this.visible) {
         return;
       } else {
@@ -85,25 +89,36 @@ setup = function setup() {
       }
       if (clicked.length === 0) {
         clicked === [];
-      } else if (clicked.length === 1 && clicked[0] !== this) {} else {
+      } else if (clicked.length === 1 && clicked[0] !== this) {
+        if (found === CARDS - 1) {
+          CARDS += clicks >= 0 ? 3 : -3;
+          CARDS = constrain(CARDS, 3, 36);
+          return _newGame();
+        }
+      } else {
         if (clicked[0].title === clicked[1].title) {
+          found++;
+        } else {
           for (l = 0, len1 = clicked.length; l < len1; l++) {
             click = clicked[l];
-            click.found = true;
-          }
-        } else {
-          for (m = 0, len2 = clicked.length; m < len2; m++) {
-            click = clicked[m];
             click.visible = false;
           }
         }
         clicked = [];
       }
-      clicks++;
+      clicks--;
       return clicked.push(this);
     })));
   }
   return results;
+};
+
+setup = function setup() {
+  createCanvas((6 + 1) * SIZE, SIZE + 12 * SIZE);
+  rectMode(CENTER);
+  textAlign(CENTER, CENTER);
+  textSize(SIZE / 2);
+  return _newGame();
 };
 
 draw = function draw() {
@@ -117,16 +132,12 @@ draw = function draw() {
 };
 
 mousePressed = function mousePressed() {
-  var button, k, len, results;
-  results = [];
+  var button, k, len;
   for (k = 0, len = buttons.length; k < len; k++) {
     button = buttons[k];
     if (button.inside(mouseX, mouseY)) {
-      results.push(button.execute());
-    } else {
-      results.push(void 0);
+      return button.execute();
     }
   }
-  return results;
 };
 //# sourceMappingURL=sketch.js.map

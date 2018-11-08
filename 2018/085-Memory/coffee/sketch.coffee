@@ -1,5 +1,5 @@
 ALFABET = "ABCDEFGHIJKLMOPQRSTUVWXYZ@0123456789"
-CARDS = 9 # 3,6,9,12,15,18,21,24,27,30,33,36 
+CARDS = 3 # 3,6,9,12,15,18,21,24,27,30,33,36 
 SIZE = 80
 
 class Button
@@ -14,14 +14,15 @@ class Button
 	execute : -> @event()
 
 clicks = 0
+found = 0
 buttons = []
 clicked = []
 
-setup = ->
-	createCanvas (6+1)*SIZE, SIZE + CARDS//3 * SIZE
-	rectMode CENTER
-	textAlign CENTER,CENTER
-	textSize SIZE/2
+newGame = ->
+	clicks = CARDS//3*10
+	found = 0
+	buttons = []
+	clicked = []
 	s = ALFABET.substr 0,CARDS
 	arr = _.shuffle (s+s).split ''
 	for title,i in arr
@@ -29,14 +30,25 @@ setup = ->
 			if @visible then return else @visible = true
 			if clicked.length == 0 then clicked==[]
 			else if clicked.length == 1 and clicked[0] != @
+				if found == CARDS-1
+					CARDS += if clicks >= 0 then 3 else -3
+					CARDS = constrain CARDS,3,36
+					return newGame()
 			else 
 				if clicked[0].title == clicked[1].title
-					click.found = true for click in clicked
+					found++
 				else 
 					click.visible = false for click in clicked
 				clicked = []
-			clicks++
+			clicks--
 			clicked.push @
+
+setup = ->
+	createCanvas (6+1)*SIZE, SIZE + 12 * SIZE
+	rectMode CENTER
+	textAlign CENTER,CENTER
+	textSize SIZE/2
+	newGame()
 
 draw = ->
 	bg 0.5
@@ -45,4 +57,4 @@ draw = ->
 
 mousePressed = ->
 	for button in buttons
-		if button.inside mouseX,mouseY then button.execute()
+		if button.inside mouseX,mouseY then return button.execute()
