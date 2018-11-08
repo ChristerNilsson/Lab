@@ -37,17 +37,23 @@ cut_rod = (v, n2) ->
 		parts.push part
 	return [c, parts]
 
+showInfo = (i) ->
+	push()
+	fc 0
+	text nf(prices[i]/(i+1),0,2), 110+50*i,80
+	pop()
+
 setup = ->
-	createCanvas 500,400
+	createCanvas 500,900
 	textSize 16
-	prices = [1,5,8,9]
+	prices = [1,5,8,9,0,0,0,0]
 	for price,i in prices
 		do (i) ->
-			buttons.push new Button i+1,110+50*i,30, ->
+			buttons.push new Button i+1,110+50*i,20, ->
 				if prices[i]>1 then prices[i]--
 				buttons[2*i+1].title = prices[i]
 				execute()
-			buttons.push new Button price,110+50*i,70, ->
+			buttons.push new Button price,110+50*i,50, ->
 				prices[i]++
 				buttons[2*i+1].title = prices[i]
 				execute()
@@ -62,8 +68,11 @@ draw = ->
 	for button in buttons
 		button.draw()	
 	textAlign LEFT,CENTER
-	for index,i in [0,1,2,3,4,5,6,7,8,9,9995,9996,9997,9998,9999]
+	for index,i in range(30).concat range 9990,10000
 		text "Rod sized #{index+1} is cut to [#{parts[index]}] and valued #{lst[index]}",10,100+20*i
+	textAlign CENTER,CENTER
+	for price,i in prices
+		showInfo i
 
 execute = -> [lst,parts] = cut_rod prices, 10000
 
