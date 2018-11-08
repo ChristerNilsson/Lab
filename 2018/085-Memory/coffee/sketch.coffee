@@ -1,4 +1,6 @@
-SIZE = 100
+ALFABET = "ABCDEFGHIJKLMOPQRSTUVWXYZ@0123456789"
+CARDS = 9 # 3,6,9,12,15,18,21,24,27,30,33,36 
+SIZE = 80
 
 class Button
 	constructor : (@title,i,j,@event) ->
@@ -16,13 +18,14 @@ buttons = []
 clicked = []
 
 setup = ->
-	createCanvas 600,500
+	createCanvas (6+1)*SIZE, SIZE + CARDS//3 * SIZE
 	rectMode CENTER
 	textAlign CENTER,CENTER
-	textSize 50
-	arr = _.shuffle 'ABCDEFGHIJABCDEFGHIJ'.split ''
+	textSize SIZE/2
+	s = ALFABET.substr 0,CARDS
+	arr = _.shuffle (s+s).split ''
 	for title,i in arr
-		buttons.push new Button title,i%%5,i//5, ->
+		buttons.push new Button title,i%%6,i//6, ->
 			if @visible then return else @visible = true
 			if clicked.length == 0 then clicked==[]
 			else if clicked.length == 1 and clicked[0] != @
