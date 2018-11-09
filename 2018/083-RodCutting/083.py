@@ -119,48 +119,51 @@ def g(v, n2, clen):
 		c[i] = max_c
 		part = [0] * n1
 		if i < clen:
+			print('a',indexes)
 			for index in indexes:
 				part[index] += 1
 		else:
+			print('b',indexes)
 			for m in range(n1):
 				for index in indexes:
 					part[m] += parts[index][m]
+		print(part)
 		parts.append(part)
 	return parts[-1]
 
 
 prices = [1, 6, 10, 14]  # 1 3 3.33 3.5 clen=4
-assert g(prices,1,4) == [1,0,0,0] # 1
-assert g(prices,2,4) == [0,1,0,0] # 6
-assert g(prices,3,4) == [0,0,1,0] # 10
-assert g(prices,4,4) == [0,0,0,1] # 14
-assert g(prices,5,4) == [0,1,1,0] # 16
-assert g(prices,6,4) == [0,1,0,1] # 20
-assert g(prices,7,4) == [0,0,1,1] # 24
-assert g(prices,8,4) == [0,0,0,2] # 28
+# assert g(prices,1,4) == [1,0,0,0] # 1
+# assert g(prices,2,4) == [0,1,0,0] # 6
+# assert g(prices,3,4) == [0,0,1,0] # 10
+# assert g(prices,4,4) == [0,0,0,1] # 14
+# assert g(prices,5,4) == [0,1,1,0] # 16
+# assert g(prices,6,4) == [0,1,0,1] # 20
+# assert g(prices,7,4) == [0,0,1,1] # 24
+# assert g(prices,8,4) == [0,0,0,2] # 28
 assert g(prices,9,4) == [0,1,1,1] # 30
-assert g(prices,10,4)== [0,1,0,2] # 34
+#assert g(prices,10,4)== [0,1,0,2] # 34
 
 prices = [5, 6, 7, 10]  # 5 3 3.5 2.5 clen=1
-assert g(prices,1,1) == [1,0,0,0]
-assert g(prices,2,1) == [2,0,0,0]
-assert g(prices,3,1) == [3,0,0,0]
-assert g(prices,4,1) == [4,0,0,0]
-assert g(prices,5,1) == [5,0,0,0]
-assert g(prices,6,1) == [6,0,0,0]
-assert g(prices,7,1) == [7,0,0,0]
+# assert g(prices,1,1) == [1,0,0,0]
+# assert g(prices,2,1) == [2,0,0,0]
+# assert g(prices,3,1) == [3,0,0,0]
+# assert g(prices,4,1) == [4,0,0,0]
+# assert g(prices,5,1) == [5,0,0,0]
+# assert g(prices,6,1) == [6,0,0,0]
+# assert g(prices,7,1) == [7,0,0,0]
 
 prices = [1, 5, 8, 9]  # 1 2.5 2.67 2.25 clen=3
-assert g(prices,1,3) == [1,0,0,0] # 1
-assert g(prices,2,3) == [0,1,0,0] # 5
-assert g(prices,3,3) == [0,0,1,0] # 8
-assert g(prices,4,3) == [0,2,0,0] # 10
-assert g(prices,5,3) == [0,1,1,0] # 13
-assert g(prices,6,3) == [0,0,2,0] # 16
-assert g(prices,7,3) == [0,2,1,0] # 18
-assert g(prices,8,3) == [0,1,2,0] # 21
-assert g(prices,9,3) == [0,0,3,0] # 24
-assert g(prices,10,3)== [0,2,2,0] # 26
+# assert g(prices,1,3) == [1,0,0,0] # 1
+# assert g(prices,2,3) == [0,1,0,0] # 5
+# assert g(prices,3,3) == [0,0,1,0] # 8
+# assert g(prices,4,3) == [0,2,0,0] # 10
+# assert g(prices,5,3) == [0,1,1,0] # 13
+# assert g(prices,6,3) == [0,0,2,0] # 16
+# assert g(prices,7,3) == [0,2,1,0] # 18
+# assert g(prices,8,3) == [0,1,2,0] # 21
+# assert g(prices,9,3) == [0,0,3,0] # 24
+# assert g(prices,10,3)== [0,2,2,0] # 26
 
 #####################################
 
@@ -173,77 +176,77 @@ def gc(prices, n):
 	part[clen-1] += (n-clen)//clen
 	return part
 
-prices = [1,5,8,9]  # 1 2.5 2.67 2.25 clen=3
-assert gc(prices,1) == [1,0, 0,0]
-assert gc(prices,2) == [0,1, 0,0]
-assert gc(prices,3) == [0,0, 1,0]
-assert gc(prices,4) == [0,2, 0,0]
-assert gc(prices,5) == [0,1, 1,0]
-assert gc(prices,6) == [0,0, 2,0]
-assert gc(prices,7) == [0,2, 1,0]
-assert gc(prices,8) == [0,1, 2,0]
-assert gc(prices,9) == [0,0, 3,0]
-assert gc(prices,10)== [0,2, 2,0]
-
-prices = [1,6,10,14]  # 1 3 3.33 3.5 clen=4
-assert gc(prices,1) == [1,0, 0,0]
-assert gc(prices,2) == [0,1, 0,0]
-assert gc(prices,3) == [0,0, 1,0]
-assert gc(prices,4) == [0,0, 0,1]
-assert gc(prices,5) == [0,1, 1,0]
-assert gc(prices,6) == [0,1, 0,1]
-assert gc(prices,7) == [0,0, 1,1]
-assert gc(prices,8) == [0,0, 0,2]
-assert gc(prices,9) == [0,1, 1,1]
-assert gc(prices,10)== [0,1, 0,2]
-assert gc(prices,11)== [0,0, 1,2]
-assert gc(prices,12)== [0,0, 0,3]
-
-prices = [5,6,7,10]  # 5 3 3.5 2.5 clen=1
-assert gc(prices,1) == [1,0,0,0] # 5
-assert gc(prices,2) == [2,0,0,0] # 10
-assert gc(prices,3) == [3,0,0,0] # 15
-assert gc(prices,4) == [4,0,0,0] # 20
-assert gc(prices,5) == [5,0,0,0] # 25
-assert gc(prices,6) == [6,0,0,0] # 30
-assert gc(prices,7) == [7,0,0,0] # 35
-assert gc(prices,8) == [8,0,0,0] # 40
-assert gc(prices,9) == [9,0,0,0] # 45
-assert gc(prices,10)== [10,0,0,0] # 50
-
-prices = [46, 64, 75, 96] # 46 32 25 24 clen=1
-assert gc(prices,1) == [1,0,0,0] # 46
-assert gc(prices,2) == [2,0,0,0] # 92
-assert gc(prices,3) == [3,0,0,0] # ...
-assert gc(prices,4) == [4,0,0,0] #
-assert gc(prices,5) == [5,0,0,0] #
-assert gc(prices,6) == [6,0,0,0] #
-assert gc(prices,7) == [7,0,0,0] #
-assert gc(prices,8) == [8,0,0,0] #
-assert gc(prices,9) == [9,0,0,0] #
-assert gc(prices,10)== [10,0,0,0] #
-
-
-################ performance ####################
-
-mega = 1000000
-giga = 1000000000
-tera = 1000000000000
-
-start = time.clock()
-assert gc([1, 5, 8, 9],   mega) == [0, 2, 333332, 0]
-assert gc([1, 6, 10, 14], mega) == [0, 0, 0, 250000]
-assert gc([5, 6, 7, 10],  mega) == [1000000, 0, 0, 0]
-print(time.clock()-start) # 20 micros
-
-start = time.clock()
-assert gc([1, 5, 8, 9],   giga) == [0, 2, 333333332, 0]
-assert gc([1, 6, 10, 14], giga) == [0, 0, 0, 250000000]
-assert gc([5, 6, 7, 10],  giga) == [1000000000, 0, 0, 0]
-print(time.clock()-start) # 20 micros
-
-start = time.clock()
-assert gc([1, 5, 8, 9],   tera) == [0, 2, 333333333332, 0]
-assert gc([1, 6, 10, 14], tera) == [0, 0, 0, 250000000000]
-assert gc([5, 6, 7, 10],  tera) == [1000000000000, 0, 0, 0]
-print(time.clock()-start) # 20 micros
+# prices = [1,5,8,9]  # 1 2.5 2.67 2.25 clen=3
+# assert gc(prices,1) == [1,0, 0,0]
+# assert gc(prices,2) == [0,1, 0,0]
+# assert gc(prices,3) == [0,0, 1,0]
+# assert gc(prices,4) == [0,2, 0,0]
+# assert gc(prices,5) == [0,1, 1,0]
+# assert gc(prices,6) == [0,0, 2,0]
+# assert gc(prices,7) == [0,2, 1,0]
+# assert gc(prices,8) == [0,1, 2,0]
+# assert gc(prices,9) == [0,0, 3,0]
+# assert gc(prices,10)== [0,2, 2,0]
+#
+# prices = [1,6,10,14]  # 1 3 3.33 3.5 clen=4
+# assert gc(prices,1) == [1,0, 0,0]
+# assert gc(prices,2) == [0,1, 0,0]
+# assert gc(prices,3) == [0,0, 1,0]
+# assert gc(prices,4) == [0,0, 0,1]
+# assert gc(prices,5) == [0,1, 1,0]
+# assert gc(prices,6) == [0,1, 0,1]
+# assert gc(prices,7) == [0,0, 1,1]
+# assert gc(prices,8) == [0,0, 0,2]
+# assert gc(prices,9) == [0,1, 1,1]
+# assert gc(prices,10)== [0,1, 0,2]
+# assert gc(prices,11)== [0,0, 1,2]
+# assert gc(prices,12)== [0,0, 0,3]
+#
+# prices = [5,6,7,10]  # 5 3 3.5 2.5 clen=1
+# assert gc(prices,1) == [1,0,0,0] # 5
+# assert gc(prices,2) == [2,0,0,0] # 10
+# assert gc(prices,3) == [3,0,0,0] # 15
+# assert gc(prices,4) == [4,0,0,0] # 20
+# assert gc(prices,5) == [5,0,0,0] # 25
+# assert gc(prices,6) == [6,0,0,0] # 30
+# assert gc(prices,7) == [7,0,0,0] # 35
+# assert gc(prices,8) == [8,0,0,0] # 40
+# assert gc(prices,9) == [9,0,0,0] # 45
+# assert gc(prices,10)== [10,0,0,0] # 50
+#
+# prices = [46, 64, 75, 96] # 46 32 25 24 clen=1
+# assert gc(prices,1) == [1,0,0,0] # 46
+# assert gc(prices,2) == [2,0,0,0] # 92
+# assert gc(prices,3) == [3,0,0,0] # ...
+# assert gc(prices,4) == [4,0,0,0] #
+# assert gc(prices,5) == [5,0,0,0] #
+# assert gc(prices,6) == [6,0,0,0] #
+# assert gc(prices,7) == [7,0,0,0] #
+# assert gc(prices,8) == [8,0,0,0] #
+# assert gc(prices,9) == [9,0,0,0] #
+# assert gc(prices,10)== [10,0,0,0] #
+#
+#
+# ################ performance ####################
+#
+# mega = 1000000
+# giga = 1000000000
+# tera = 1000000000000
+#
+# start = time.clock()
+# assert gc([1, 5, 8, 9],   mega) == [0, 2, 333332, 0]
+# assert gc([1, 6, 10, 14], mega) == [0, 0, 0, 250000]
+# assert gc([5, 6, 7, 10],  mega) == [1000000, 0, 0, 0]
+# print(time.clock()-start) # 20 micros
+#
+# start = time.clock()
+# assert gc([1, 5, 8, 9],   giga) == [0, 2, 333333332, 0]
+# assert gc([1, 6, 10, 14], giga) == [0, 0, 0, 250000000]
+# assert gc([5, 6, 7, 10],  giga) == [1000000000, 0, 0, 0]
+# print(time.clock()-start) # 20 micros
+#
+# start = time.clock()
+# assert gc([1, 5, 8, 9],   tera) == [0, 2, 333333333332, 0]
+# assert gc([1, 6, 10, 14], tera) == [0, 0, 0, 250000000000]
+# assert gc([5, 6, 7, 10],  tera) == [1000000000000, 0, 0, 0]
+# print(time.clock()-start) # 20 micros
