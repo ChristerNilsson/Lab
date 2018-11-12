@@ -33,7 +33,7 @@ Button = function () {
 
     this.title = title1;
     this.event = event;
-    this.visible = false;
+    this.visible = 0;
     this.x = (i + 1) * SIZE;
     this.y = (j + 1) * SIZE;
   }
@@ -41,8 +41,10 @@ Button = function () {
   _createClass(Button, [{
     key: "draw",
     value: function draw() {
-      rect(this.x, this.y, SIZE, SIZE);
-      if (this.visible) {
+      if (this.visible <= 1) {
+        rect(this.x, this.y, SIZE - 1, SIZE - 1);
+      }
+      if (this.visible === 1) {
         return text(this.title, this.x, this.y);
       }
     }
@@ -70,7 +72,11 @@ buttons = [];
 clicked = [];
 
 _newGame = function newGame() {
+  var cards = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+
   var arr, i, k, len, results, s, title;
+  CARDS += cards;
+  CARDS = constrain(CARDS, 3, 36);
   clicks = Math.floor(CARDS / 3) * 10;
   found = 0;
   buttons = [];
@@ -81,33 +87,42 @@ _newGame = function newGame() {
   for (i = k = 0, len = arr.length; k < len; i = ++k) {
     title = arr[i];
     results.push(buttons.push(new Button(title, modulo(i, 6), Math.floor(i / 6), function () {
-      var click, l, len1;
-      if (this.visible) {
+      var click, l, len1, ref;
+      if ((ref = this.visible) === 1 || ref === 2) {
         return;
-      } else {
-        this.visible = true;
       }
-      if (clicked.length === 0) {
-        clicked === [];
-      } else if (clicked.length === 1 && clicked[0] !== this) {
-        if (found === CARDS - 1) {
-          CARDS += clicks >= 0 ? 3 : -3;
-          CARDS = constrain(CARDS, 3, 36);
-          return _newGame();
-        }
-      } else {
-        if (clicked[0].title === clicked[1].title) {
-          found++;
-        } else {
-          for (l = 0, len1 = clicked.length; l < len1; l++) {
-            click = clicked[l];
-            click.visible = false;
-          }
-        }
-        clicked = [];
-      }
+      this.visible = 1;
       clicks--;
-      return clicked.push(this);
+      if (clicked.length === 0) {
+        clicked.push(this);
+        return;
+      }
+      if (clicked.length === 1) {
+        if (clicked[0] === this) {
+          return;
+        }
+        if (clicked[0].title === this.title) {
+          clicked[0].visible = 2;
+          this.visible = 2;
+          found++;
+          clicked = [];
+          if (found === CARDS) {
+            return _newGame(clicks >= 0 ? 3 : -3);
+          }
+        } else {
+          this.visible = 1;
+          clicked.push(this);
+        }
+        return;
+      }
+      if (clicked.length === 2) {
+        for (l = 0, len1 = clicked.length; l < len1; l++) {
+          click = clicked[l];
+          click.visible = 0;
+        }
+        this.visible = 1;
+        return clicked = [this];
+      }
     })));
   }
   return results;

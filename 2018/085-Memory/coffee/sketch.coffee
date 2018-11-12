@@ -4,21 +4,23 @@ SIZE = 80
 
 class Button
 	constructor : (@title,i,j,@event) ->
-		@visible = false 
+		@visible = 0 
 		@x = (i+1) * SIZE
 		@y = (j+1) * SIZE
 	draw : ->
-		rect @x,@y,SIZE,SIZE
-		if @visible then text @title,@x,@y
+		if @visible<=1 then rect @x,@y,SIZE-1,SIZE-1
+		if @visible==1 then text @title,@x,@y
 	inside : (mx,my) -> @x-SIZE/2 < mx < @x+SIZE/2 and @y-SIZE/2 < my < @y+SIZE/2
 	execute : -> @event()
 
 clicks = 0
 found = 0
-buttons = []
+buttons = [] 
 clicked = []
 
-newGame = ->
+newGame = (cards=0) ->
+	CARDS += cards 
+	CARDS = constrain CARDS,3,36
 	clicks = CARDS//3*10
 	found = 0
 	buttons = []
@@ -27,21 +29,29 @@ newGame = ->
 	arr = _.shuffle (s+s).split ''
 	for title,i in arr
 		buttons.push new Button title,i%%6,i//6, ->
-			if @visible then return else @visible = true
-			if clicked.length == 0 then clicked==[]
-			else if clicked.length == 1 and clicked[0] != @
-				if found == CARDS-1
-					CARDS += if clicks >= 0 then 3 else -3
-					CARDS = constrain CARDS,3,36
-					return newGame()
-			else 
-				if clicked[0].title == clicked[1].title
-					found++
-				else 
-					click.visible = false for click in clicked
-				clicked = []
+			if @visible in [1,2] then return 
+			@visible = 1
 			clicks--
-			clicked.push @
+			if clicked.length == 0 
+				clicked.push @
+				return 
+			if clicked.length == 1
+				if clicked[0] == @ then return
+				if clicked[0].title == @title
+					clicked[0].visible = 2 
+					@visible = 2
+					found++
+					clicked = []
+					if found == CARDS
+						return newGame if clicks >= 0 then 3 else -3
+				else
+					@visible = 1
+					clicked.push @
+				return
+			if clicked.length == 2
+				click.visible = 0 for click in clicked
+				@visible = 1
+				clicked = [@]
 
 setup = ->
 	createCanvas (6+1)*SIZE, SIZE + 12 * SIZE
