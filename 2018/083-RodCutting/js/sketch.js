@@ -67,7 +67,7 @@ setup = function setup() {
   var fn, i, l, len, price;
   createCanvas(610, 700);
   textSize(16);
-  prices = [1, 5, 8, 9, 0, 0, 0, 0, 0, 0];
+  prices = [1, 5, 7, 10, 0, 0, 0, 0, 0, 0];
   fn = function fn(i) {
     return buttons.push(new Button(prices[i], X[1], 110 + 50 * i, function () {
       if (mouseX < X[1]) {
@@ -189,6 +189,36 @@ mousePressed = function mousePressed() {
 
 //#####
 
+// Constant + Parts
+gc = function gc(prices, n) {
+  var clen, i, lst, part, price, q;
+  // Om lika maxkvot, välj högsta index
+  lst = function () {
+    var l, len, results;
+    results = [];
+    for (i = l = 0, len = prices.length; l < len; i = ++l) {
+      price = prices[i];
+      results.push([price / (i + 1), i + 1]);
+    }
+    return results;
+  }();
+  lst.sort();
+
+  var _$last = _.last(lst);
+
+  var _$last2 = _slicedToArray(_$last, 2);
+
+  q = _$last2[0];
+  clen = _$last2[1];
+
+  if (n < clen) {
+    return g(prices, n, clen);
+  }
+  part = g(prices, clen + n % clen, clen);
+  part[clen - 1] += Math.floor((n - clen) / clen);
+  return part;
+};
+
 // Quadratic + Parts
 g = function g(v, n2, clen) {
   var c, i, index, indexes, j, k, l, len, len1, len2, len3, len4, m, max_c, n1, o, p, part, r, ref, ref1, ref2, s, temp, z;
@@ -216,7 +246,7 @@ g = function g(v, n2, clen) {
       k = i - j - 1;
       if (k >= 0) {
         temp = c[j] + c[k];
-        if (temp > max_c) {
+        if (temp >= max_c) {
           max_c = temp;
           indexes = [k, j];
         }
@@ -233,7 +263,7 @@ g = function g(v, n2, clen) {
       }
       return results;
     }();
-    if (i < clen) {
+    if (i <= clen) {
       for (p = 0, len2 = indexes.length; p < len2; p++) {
         index = indexes[p];
         part[index] += 1;
@@ -252,6 +282,8 @@ g = function g(v, n2, clen) {
   }
   return _.last(parts);
 };
+
+assert([0, 2, 0, 0], g([1, 5, 7, 10], 4, 4)); // 26
 
 prices = [1, 6, 10, 14 // 1 3 3.33 3.5 clen=4
 ];
@@ -337,35 +369,9 @@ assert(g(prices, 10, 3), [0, 2, 2, 0 // 26
 ]);
 
 //####################################
+assert(gc([1, 12, 19, 25], 10), [0, 0, 2, 1]);
 
-// Constant + Parts
-gc = function gc(prices, n) {
-  var clen, i, part, price, q;
-
-  var _$max = _.max(function () {
-    var l, len, results;
-    results = [];
-    for (i = l = 0, len = prices.length; l < len; i = ++l) {
-      price = prices[i];
-      results.push([price / (i + 1), i + 1]);
-    }
-    return results;
-  }(), function (item) {
-    return item[0];
-  });
-
-  var _$max2 = _slicedToArray(_$max, 2);
-
-  q = _$max2[0];
-  clen = _$max2[1];
-
-  if (n < clen) {
-    return g(prices, n, clen);
-  }
-  part = g(prices, clen + n % clen, clen);
-  part[clen - 1] += Math.floor((n - clen) / clen);
-  return part;
-};
+assert(gc([1, 5, 7, 10], 4), [0, 2, 0, 0]);
 
 prices = [1, 5, 8, 9 // 1 2.5 2.67 2.25 clen=3
 ];

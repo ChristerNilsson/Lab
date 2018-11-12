@@ -25,7 +25,7 @@ showInfo = (i) ->
 setup = ->
 	createCanvas 610,700
 	textSize 16
-	prices = [1,5,8,9,0,0,0,0,0,0]
+	prices = [1,5,7,10,0,0,0,0,0,0]
 	for price,i in prices
 		do (i) ->
 			buttons.push new Button prices[i],X[1],110+50*i, ->
@@ -108,6 +108,19 @@ mousePressed = ->
 
 ######
 
+# Constant + Parts
+gc = (prices, n) ->
+	# Om lika maxkvot, välj högsta index
+	lst = ([price/(i+1),i+1] for price,i in prices)
+	lst.sort()
+	[q, clen] = _.last lst
+
+	if n < clen then return g prices, n, clen
+	part = g prices,clen + n % clen,clen
+	part[clen-1] += (n-clen)//clen
+	part
+
+
 # Quadratic + Parts
 g = (v, n2, clen) ->
 	n1 = v.length
@@ -120,12 +133,12 @@ g = (v, n2, clen) ->
 			k = i - j - 1
 			if k >= 0
 				temp = c[j] + c[k]
-				if temp > max_c
+				if temp >= max_c
 					max_c = temp
 					indexes = [k, j]
 		c[i] = max_c
 		part = (0 for z in range n1) 
-		if i < clen
+		if i <= clen
 			for index in indexes
 				part[index] += 1
 		else
@@ -135,6 +148,8 @@ g = (v, n2, clen) ->
 		parts.push part
 	_.last parts
 
+
+assert [0,2,0,0], g [1,5,7,10],4,4  # 26
 
 prices = [1, 6, 10, 14]  # 1 3 3.33 3.5 clen=4
 assert g(prices,1,4) , [1,0,0,0] # 1
@@ -169,16 +184,11 @@ assert g(prices,8,3) , [0,1,2,0] # 21
 assert g(prices,9,3) , [0,0,3,0] # 24
 assert g(prices,10,3), [0,2,2,0] # 26
 
+
 #####################################
 
-
-# Constant + Parts
-gc = (prices, n) ->
-	[q, clen] = _.max ([price/(i+1),i+1] for price,i in prices), (item) -> item[0]
-	if n < clen then return g prices, n, clen
-	part = g prices,clen + n % clen,clen
-	part[clen-1] += (n-clen)//clen
-	part
+assert gc([1,12,19,25],10) , [0,0, 2,1]
+assert gc([1,5,7,10],4), [0,2, 0,0]
 
 prices = [1,5,8,9]  # 1 2.5 2.67 2.25 clen=3
 assert gc(prices,1) , [1,0, 0,0]
