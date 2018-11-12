@@ -239,3 +239,13 @@ assert gc(prices,7) , [7,0,0,0] #
 assert gc(prices,8) , [8,0,0,0] #
 assert gc(prices,9) , [9,0,0,0] #
 assert gc(prices,10), [10,0,0,0] #
+
+# for k in range 100
+# 	prices = []
+# 	for i in range 10
+# 		prices.push Math.round 10 + 90 * Math.random()
+# 	prices.sort()
+# 	print prices 
+# 	for i in range 1,101
+# 		print gc prices,i
+# print 'Ready!'
