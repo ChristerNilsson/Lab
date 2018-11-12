@@ -1,15 +1,3 @@
-class Button
-	constructor : (@title,@x,@y,@event) -> @r = 20
-	draw : ->
-		circle @x,@y,@r	
-		sc 0.8
-		line @x,@y-@r,@x,@y+@r	
-		sc()
-		text @title,@x,@y
-	inside : (mx,my) -> @r > dist mx,my,@x,@y 
-	execute : -> @event()
-
-buttons = []
 prices = null
 parts = null
 X = [30,90,170,300,450,600]
@@ -18,6 +6,7 @@ rodsize = 10
 showInfo = (i) ->
 	push()
 	fc 0
+	text prices[i],X[1],110+50*i
 	x = Math.round(prices[i]/(i+1) * 100) / 100
 	text nf(x,0,2), X[2],110+50*i
 	pop()
@@ -25,16 +14,7 @@ showInfo = (i) ->
 setup = ->
 	createCanvas 610,700
 	textSize 16
-	prices = [1,5,7,10,0,0,0,0,0,0]
-	for price,i in prices
-		do (i) ->
-			buttons.push new Button prices[i],X[1],110+50*i, ->
-				if mouseX < X[1]
-					if prices[i]>0 then prices[i]--
-				else
-					prices[i]++
-				buttons[i].title = prices[i]
-				execute()
+	prices = [1,5,8,9]
 	execute()
 
 text3 = (texts,x) ->
@@ -60,8 +40,6 @@ draw = ->
 
 	total = [0,0,0]
 	textAlign CENTER,CENTER
-	for button in buttons
-		button.draw()
 	textAlign RIGHT,CENTER
 	for part,i in parts
 		push()
@@ -97,14 +75,13 @@ draw = ->
 
 execute = -> parts = gc prices, rodsize
 
-rodSize = (input) -> 
-	rodsize = parseInt input.value
-	if rodsize < 0 then rodsize=1
+rodSize = (input) ->
+	prices = []
+	for value in input.value.split ' '
+		if value.length > 0 then prices.push parseInt value 
+	rodsize = prices.shift()
+	if rodsize <= 0 then rodsize = 1
 	execute()
-
-mousePressed = ->
-	for button in buttons
-		if button.inside mouseX,mouseY then button.execute()
 
 ######
 
@@ -113,6 +90,7 @@ gc = (prices, n) ->
 	# Om lika maxkvot, välj högsta index
 	lst = ([price/(i+1),i+1] for price,i in prices)
 	lst.sort()
+	print lst
 	[q, clen] = _.last lst
 
 	if n < clen then return g prices, n, clen
@@ -120,11 +98,10 @@ gc = (prices, n) ->
 	part[clen-1] += (n-clen)//clen
 	part
 
-
 # Quadratic + Parts
 g = (v, n2, clen) ->
 	n1 = v.length
-	c = v.concat (0 for i in range n2) # [0] * n2
+	c = v.concat (0 for i in range n2) 
 	parts = []
 	for i in range n2
 		max_c = c[i]
@@ -147,7 +124,6 @@ g = (v, n2, clen) ->
 					part[m] += parts[index][m]
 		parts.push part
 	_.last parts
-
 
 assert [0,2,0,0], g [1,5,7,10],4,4  # 26
 
