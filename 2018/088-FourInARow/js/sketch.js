@@ -46,21 +46,22 @@ buttons = [];
 message = '';
 
 makeWIN = function makeWIN() {
-  var arr, ch, k, len, quad;
+  var arr, ch, k, len, quad, results;
   arr = 'abcd efgh ijkl mnop aeim bfjn cgko dhlp afkp dgjm'.split(' ');
+  results = [];
   for (k = 0, len = arr.length; k < len; k++) {
     quad = arr[k];
-    WIN.push(function () {
-      var l, len1, results;
-      results = [];
+    results.push(WIN.push(function () {
+      var l, len1, results1;
+      results1 = [];
       for (l = 0, len1 = quad.length; l < len1; l++) {
         ch = quad[l];
-        results.push('abcdefghijklmnop'.indexOf(ch));
+        results1.push('abcdefghijklmnop'.indexOf(ch));
       }
-      return results;
-    }());
+      return results1;
+    }()));
   }
-  return print(WIN);
+  return results;
 };
 
 setup = function setup() {

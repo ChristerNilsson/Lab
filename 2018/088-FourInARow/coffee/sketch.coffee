@@ -14,7 +14,6 @@ makeWIN = ->
 	arr = 'abcd efgh ijkl mnop aeim bfjn cgko dhlp afkp dgjm'.split ' '
 	for quad in arr
 		WIN.push ('abcdefghijklmnop'.indexOf ch for ch in quad)
-	print WIN
 
 setup = ->
 	createCanvas 500,500
