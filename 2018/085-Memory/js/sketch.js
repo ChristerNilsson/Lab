@@ -8,7 +8,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var ALFABET,
     Button,
     CARDS,
+    DONE,
+    HIDDEN,
     SIZE,
+    VISIBLE,
     buttons,
     clicked,
     clicks,
@@ -27,13 +30,19 @@ CARDS = 3; // 3,6,9,12,15,18,21,24,27,30,33,36
 
 SIZE = 80;
 
+HIDDEN = 0;
+
+VISIBLE = 1;
+
+DONE = 2;
+
 Button = function () {
   function Button(title1, i, j, event) {
     _classCallCheck(this, Button);
 
     this.title = title1;
     this.event = event;
-    this.visible = 0;
+    this.state = HIDDEN;
     this.x = (i + 1) * SIZE;
     this.y = (j + 1) * SIZE;
   }
@@ -41,10 +50,11 @@ Button = function () {
   _createClass(Button, [{
     key: "draw",
     value: function draw() {
-      if (this.visible <= 1) {
+      var ref;
+      if ((ref = this.state) === HIDDEN || ref === VISIBLE) {
         rect(this.x, this.y, SIZE - 1, SIZE - 1);
       }
-      if (this.visible === 1) {
+      if (this.state === VISIBLE) {
         return text(this.title, this.x, this.y);
       }
     }
@@ -88,10 +98,10 @@ _newGame = function newGame() {
     title = arr[i];
     results.push(buttons.push(new Button(title, modulo(i, 6), Math.floor(i / 6), function () {
       var click, l, len1, ref;
-      if ((ref = this.visible) === 1 || ref === 2) {
+      if ((ref = this.state) === VISIBLE || ref === DONE) {
         return;
       }
-      this.visible = 1;
+      this.state = VISIBLE;
       clicks--;
       if (clicked.length === 0) {
         clicked.push(this);
@@ -102,15 +112,15 @@ _newGame = function newGame() {
           return;
         }
         if (clicked[0].title === this.title) {
-          clicked[0].visible = 2;
-          this.visible = 2;
+          clicked[0].state = DONE;
+          this.state = DONE;
           found++;
           clicked = [];
           if (found === CARDS) {
             return _newGame(clicks >= 0 ? 3 : -3);
           }
         } else {
-          this.visible = 1;
+          this.state = VISIBLE;
           clicked.push(this);
         }
         return;
@@ -118,9 +128,9 @@ _newGame = function newGame() {
       if (clicked.length === 2) {
         for (l = 0, len1 = clicked.length; l < len1; l++) {
           click = clicked[l];
-          click.visible = 0;
+          click.state = HIDDEN;
         }
-        this.visible = 1;
+        this.state = VISIBLE;
         return clicked = [this];
       }
     })));
