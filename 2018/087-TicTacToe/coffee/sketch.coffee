@@ -5,8 +5,9 @@ class Button
 		text @title,@x,@y
 	inside : (mx,my) -> @x-@w/2 < mx < @x+@w/2 and @y-@w/2 < my < @y+@w/2
 
+N = 3
 [FREE,X,O] = [' ','X','O']
-WIN = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
+WINNERS = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
 buttons = []
 message = ''
 
@@ -15,14 +16,14 @@ setup = ->
 	rectMode CENTER
 	textAlign CENTER,CENTER
 	textSize 100
-	for i in range 3
-		for j in range 3
+	for i in range N
+		for j in range N
 			[x,y] = [100+100*i,100+100*j]
 			buttons.push new Button x,y,FREE,->
 				if message != '' then return newGame()
 				@title = O
 				if three sel O then return message = 'human wins!'
-				if (sel FREE).length==0 then return message = 'remi!'
+				if (sel FREE).length == 0 then return message = 'remi!'
 				ai()
 				if three sel X then message = 'computer wins!'
 
@@ -42,14 +43,14 @@ investigate = (marker) ->
 	false
 
 ai = -> # computer is X
-	if investigate X then return # try winning
+	if investigate X then return # try WINNERSning
 	if investigate O then return # avoid losing
 	index = _.sample sel FREE # random move
 	buttons[index].title = X
 
 three = (b) -> 
-	for pattern in WIN
-		if _.intersection(pattern,b).length==3 then return true
+	for winner in WINNERS
+		if _.intersection(winner,b).length == N then return true
 	false
 
 draw = ->

@@ -5,24 +5,25 @@ class Button
 		text @title,@x,@y
 	inside : (mx,my) -> @x-@w/2 < mx < @x+@w/2 and @y-@w/2 < my < @y+@w/2
 
+N = 4 
 [FREE,X,O] = [' ','X','O']
-WIN = [] 
+WINNERS = [] 
 buttons = []
 message = ''
 
-makeWIN = ->
+makeWINNERS = ->
 	arr = 'abcd efgh ijkl mnop aeim bfjn cgko dhlp afkp dgjm'.split ' '
 	for quad in arr
-		WIN.push ('abcdefghijklmnop'.indexOf ch for ch in quad)
+		WINNERS.push ('abcdefghijklmnop'.indexOf ch for ch in quad)
 
 setup = ->
 	createCanvas 500,500
 	rectMode CENTER
 	textAlign CENTER,CENTER
 	textSize 100
-	makeWIN()
-	for i in range 4
-		for j in range 4
+	makeWINNERS()
+	for i in range N
+		for j in range N
 			[x,y] = [100+100*i,100+100*j]
 			buttons.push new Button x,y,FREE,->
 				if message != '' then return newGame()
@@ -54,8 +55,8 @@ ai = -> # computer is X
 	buttons[index].title = X
 
 four = (b) -> 
-	for pattern in WIN
-		if _.intersection(pattern,b).length == 4 then return true
+	for winner in WINNERS
+		if _.intersection(winner,b).length == N then return true
 	false
 
 draw = ->
