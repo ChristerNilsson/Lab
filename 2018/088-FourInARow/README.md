@@ -1,6 +1,8 @@
 # Four in a row
 
-Inspiration: https://github.com/coltonoscopy/tictactoe50
+Inspiration: 
+* https://www.youtube.com/watch?v=1iNp85N-36Y
+* https://github.com/coltonoscopy/tictactoe50/blob/master/main.lua
 
 You play on a 4 by 4 board.
 

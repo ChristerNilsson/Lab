@@ -1,6 +1,8 @@
 # Tic Tac Toe
 
-Inspiration: https://github.com/coltonoscopy/tictactoe50
+Inspiration: 
+* https://www.youtube.com/watch?v=1iNp85N-36Y
+* https://github.com/coltonoscopy/tictactoe50/blob/master/main.lua
 
 You play on a 3 by 3 board.
 
