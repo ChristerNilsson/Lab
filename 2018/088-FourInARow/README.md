@@ -1,8 +1,8 @@
-# Tic Tac Toe
+# Four in a row
 
-You play on a 3 by 3 board.
+You play on a 4 by 4 board.
 
-You need three in a row.
+You need four in a row.
 
 The ai tries 
 * to win direct
