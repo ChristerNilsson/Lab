@@ -21,6 +21,7 @@ setup = ->
 			[x,y] = [100+100*i,100+100*j]
 			buttons.push new Button x,y,FREE,->
 				if message != '' then return newGame()
+				if @title != FREE then return
 				@title = O
 				if three sel O then return message = 'human wins!'
 				if (sel FREE).length == 0 then return message = 'remi!'

@@ -28,11 +28,12 @@ setup = ->
 			[x,y] = [100+100*i,100+100*j]
 			buttons.push new Button x,y,FREE,->
 				if message != '' then return newGame()
+				if @title != FREE then return
 				@title = O
 				if four sel O then return message = 'human wins!'
+				if (sel FREE).length==0 then return message = 'remi!'
 				ai()
 				if four sel X then message = 'computer wins!'
-				if (sel FREE).length==0 then return message = 'remi!'
 
 newGame = ->
 	for button in buttons

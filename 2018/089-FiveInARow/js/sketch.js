@@ -91,16 +91,19 @@ setup = function setup() {
           if (message !== '') {
             return newGame();
           }
+          if (this.title !== FREE) {
+            return;
+          }
           this.title = O;
           if (four(sel(O))) {
             return message = 'human wins!';
           }
-          ai();
-          if (four(sel(X))) {
-            message = 'computer wins!';
-          }
           if (sel(FREE).length === 0) {
             return message = 'remi!';
+          }
+          ai();
+          if (four(sel(X))) {
+            return message = 'computer wins!';
           }
         })));
       }

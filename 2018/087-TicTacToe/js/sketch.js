@@ -70,6 +70,9 @@ setup = function setup() {
           if (message !== '') {
             return newGame();
           }
+          if (this.title !== FREE) {
+            return;
+          }
           this.title = O;
           if (three(sel(O))) {
             return message = 'human wins!';
