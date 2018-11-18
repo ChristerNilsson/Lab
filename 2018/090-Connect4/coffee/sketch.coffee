@@ -1,4 +1,5 @@
 SIZE = 600/7
+
 level = 0
 list = null
 moves = null
@@ -52,6 +53,7 @@ mousePressed = ->
 	if delta != -2 then return newGame()
 	nr = int (mouseX-(width-7*SIZE)/2)/SIZE
 	if 0 <= nr <= 6
+		if list[nr].length==6 then return
 		moves.push nr
 		board.move nr
 		list[nr].push moves.length
@@ -67,4 +69,4 @@ mousePressed = ->
 undo : -> if moves.length > 0 then list[moves.pop()].pop()
 
 class Human
-	constructor : (@name) -> @move = -1 
+	constructor : -> @move = -1 

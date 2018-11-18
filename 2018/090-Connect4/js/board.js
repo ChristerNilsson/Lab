@@ -36,7 +36,7 @@ Board = function () {
     value: function copy() {
       var b;
       b = new Board();
-      b.board = this.board.slice(); //(x for x in @board)
+      b.board = this.board.slice();
       b.moves = this.moves.slice();
       return b;
     }
@@ -85,34 +85,6 @@ Board = function () {
     key: 'next_marker',
     value: function next_marker() {
       return 'XO'[this.moves.length % 2];
-    }
-  }, {
-    key: 'display_simple',
-    value: function display_simple() {
-      return '\n:' + '\n:'.join(this.board) + '\n 012345\n';
-    }
-  }, {
-    key: 'display',
-    value: function display() {
-      var i, j, k, l, len, len1, ref, ref1, res;
-      res = '\n';
-      ref = range(5, -1, -1);
-      for (k = 0, len = ref.length; k < len; k++) {
-        j = ref[k];
-        res += str(j);
-        ref1 = range(N);
-        for (l = 0, len1 = ref1.length; l < len1; l++) {
-          i = ref1[l];
-          if (j < this.board[i].length) {
-            res += ' ' + this.board[i][j];
-          } else {
-            res += ' ' + DOT;
-          }
-        }
-        res += "\n";
-      }
-      res += '  0 1 2 3 4 5 6\n';
-      return res;
     }
   }, {
     key: 'calc_columns',

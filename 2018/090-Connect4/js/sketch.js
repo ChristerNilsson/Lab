@@ -101,6 +101,9 @@ mousePressed = function mousePressed() {
   }
   nr = int((mouseX - (width - 7 * SIZE) / 2) / SIZE);
   if (0 <= nr && nr <= 6) {
+    if (list[nr].length === 6) {
+      return;
+    }
     moves.push(nr);
     board.move(nr);
     list[nr].push(moves.length);
@@ -128,10 +131,9 @@ mousePressed = function mousePressed() {
   }
 });
 
-Human = function Human(name) {
+Human = function Human() {
   _classCallCheck(this, Human);
 
-  this.name = name;
   this.move = -1;
 };
 //# sourceMappingURL=sketch.js.map

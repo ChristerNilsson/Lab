@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -9,15 +9,11 @@ var Computer;
 
 Computer = function () {
   function Computer() {
-    var name = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'MonteCarlo';
-
     _classCallCheck(this, Computer);
-
-    this.name = name;
   }
 
   _createClass(Computer, [{
-    key: 'play_complete',
+    key: "play_complete",
     value: function play_complete(b) {
       var m, marker;
       while (true) {
@@ -35,10 +31,9 @@ Computer = function () {
       }
     }
   }, {
-    key: 'move',
+    key: "move",
     value: function move(board) {
-      var arr, b, best, bestm, i, j, k, l, len, len1, len2, lst, m, marker, mrkr, ref, start;
-      start = Date.now();
+      var arr, b, best, bestm, i, j, k, l, len, len1, len2, lst, m, marker, mrkr, ref;
       arr = [0, 0, 0, 0, 0, 0, 0];
       marker = board.last_marker();
       lst = function () {
@@ -83,7 +78,6 @@ Computer = function () {
           best = arr[m];
         }
       }
-      print(Date.now() - start);
       return bestm;
     }
   }]);

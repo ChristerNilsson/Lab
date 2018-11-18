@@ -1,6 +1,6 @@
 class Computer
 
-	constructor : (@name='MonteCarlo') ->
+	constructor : ->
 
 	play_complete : (b) ->
 		while true
@@ -12,7 +12,6 @@ class Computer
 			if 42 == b.moves.length then return "draw" 
 
 	move : (board) ->
-		start = Date.now()
 		arr = [0,0,0,0,0,0,0]
 		marker = board.last_marker()
 		lst = (m for m in range 7 when board.board[m].length < 6)
@@ -33,5 +32,4 @@ class Computer
 			if arr[m] > best
 				bestm = m
 				best = arr[m]
-		print Date.now()-start
 		return bestm

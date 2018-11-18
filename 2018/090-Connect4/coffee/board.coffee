@@ -13,7 +13,7 @@ class Board
  
 	copy : ->
 		b = new Board()
-		b.board = @board.slice() #(x for x in @board)
+		b.board = @board.slice() 
 		b.moves = @moves.slice()
 		b
 
@@ -33,20 +33,6 @@ class Board
 
 	last_marker : -> 'OX'[@moves.length % 2]
 	next_marker : -> 'XO'[@moves.length % 2]
-	display_simple : -> '\n:' + '\n:'.join(@board) + '\n 012345\n'
-
-	display : ->
-		res = '\n'
-		for j in range 5, -1, -1
-			res += str(j)
-			for i in range N
-				if j < @board[i].length
-					res += ' ' + @board[i][j]
-				else
-					res += ' ' + DOT 
-			res += "\n"
-		res += '  0 1 2 3 4 5 6\n'
-		res
 
 	calc_columns : ->
 		marker = @last_marker()
