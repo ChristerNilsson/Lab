@@ -5,31 +5,29 @@ class Computer
 	play_complete : (b) ->
 		while true
 			marker = b.last_marker()
-			m = b.rand()
-			if b.board[m].length < M
-				b.move m
-				if b.calc() then return marker
+			b.move b.rand()
+			if b.done() then return marker
 			if M*N == b.moves.length then return "draw" 
 
 	move : (board) ->
-		arr = [0,0,0,0,0,0,0]
+		score = [0,0,0,0,0,0,0]
 		marker = board.last_marker()
-		lst = (m for m in range N when board.board[m].length < M)
-		if lst.length == 1 then return lst[0]
-		for m in lst
+		cands = (m for m in range N when board.board[m].length < M)
+		if cands.length == 1 then return cands[0]
+		for m in cands
 			for i in range (20 * 2 ** level)
 				b = board.copy()
 				b.move m
-				if b.calc() then return m
+				if b.done() then return m
 				mrkr = @play_complete b
 				if mrkr == marker
-					arr[m]++
+					score[m]++
 				else if mrkr != 'draw'
-					arr[m]--
-		bestm = lst[0]
-		best = arr[bestm]
-		for m in lst
-			if arr[m] > best
+					score[m]--
+		bestm = cands[0]
+		best = score[bestm]
+		for m in cands
+			if score[m] > best
 				bestm = m
-				best = arr[m]
+				best = score[m]
 		return bestm

@@ -27,8 +27,8 @@ delta = 0;
 
 setup = function setup() {
   createCanvas(700, 700);
-  dator = new Computer('Dator');
-  human = new Human('Human');
+  dator = new Computer();
+  human = new Human();
   newGame();
   textAlign(CENTER, CENTER);
   return textSize(SIZE / 2);
@@ -88,16 +88,7 @@ draw = function draw() {
   }
   sc();
   fc(1);
-  msg = '';
-  if (delta === -1) {
-    msg = 'Datorn vann!';
-  }
-  if (delta === 0) {
-    msg = 'Remis!';
-  }
-  if (delta === 1) {
-    msg = 'Du vann!';
-  }
+  msg = ['', 'Datorn vann!', 'Remis!', 'Du vann!'][delta + 2];
   text(msg, width / 2, SIZE / 2 - 10);
   return text(level, SIZE / 2, SIZE / 2 - 10);
 };
@@ -107,7 +98,7 @@ mousePressed = function mousePressed() {
   if (delta !== -2) {
     return newGame();
   }
-  nr = int((mouseX - (width - 7 * SIZE) / 2) / SIZE);
+  nr = int((mouseX - (width - N * SIZE) / 2) / SIZE);
   if (0 <= nr && nr <= M) {
     if (list[nr].length === M) {
       return;
@@ -116,14 +107,14 @@ mousePressed = function mousePressed() {
     board.move(nr);
     list[nr].push(moves.length);
   }
-  if (board.calc()) {
+  if (board.done()) {
     return delta = 1;
   }
   m = dator.move(board);
   moves.push(m);
   board.move(m);
   list[m].push(moves.length);
-  if (board.calc()) {
+  if (board.done()) {
     return delta = -1;
   }
   if (board.moves.length === M * N) {

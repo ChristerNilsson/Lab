@@ -17,6 +17,7 @@ Board = function () {
 
     _classCallCheck(this, Board);
 
+    // @board,@moves
     var digit, k, len;
     this.clear();
     for (k = 0, len = moves.length; k < len; k++) {
@@ -142,8 +143,8 @@ Board = function () {
       return count >= 4;
     }
   }, {
-    key: 'calc',
-    value: function calc() {
+    key: 'done',
+    value: function done() {
       if (this.calc_columns()) {
         return true;
       }

@@ -13,8 +13,8 @@ delta = 0
 
 setup = ->
 	createCanvas 700,700
-	dator = new Computer 'Dator'
-	human = new Human 'Human'
+	dator = new Computer()
+	human = new Human()
 	newGame()
 	textAlign CENTER,CENTER
 	textSize SIZE/2
@@ -33,15 +33,15 @@ draw = ->
 	sc 0.1,0.3,1
 	sw 0.2 * SIZE
 	for i in range N
-		x = SIZE/2+i*SIZE
+		x = SIZE/2 + i*SIZE
 		for j in range M
-			y = height-SIZE/2-SIZE*j
+			y = height-SIZE/2 - SIZE*j
 			circle x, y, SIZE/2
 
 	for column,i in list
-		x = SIZE/2+i*SIZE
+		x = SIZE/2 + i*SIZE
 		for nr,j in column
-			y = height-SIZE/2-SIZE*j
+			y = height-SIZE/2 - SIZE*j
 			fc 1,nr%2,0
 			sw 1
 			circle x, y, SIZE*0.4
@@ -50,28 +50,25 @@ draw = ->
 			text nr, x, y
 	sc()
 	fc 1
-	msg = ''
-	if delta == -1 then msg = 'Datorn vann!'
-	if delta == 0 then msg = 'Remis!'
-	if delta == 1 then msg = 'Du vann!'
+	msg = ['','Datorn vann!','Remis!','Du vann!'][delta+2]
 	text msg,width/2,SIZE/2-10
 	text level,SIZE/2,SIZE/2-10
 
 mousePressed = ->
 	if delta != -2 then return newGame()
-	nr = int (mouseX-(width-7*SIZE)/2)/SIZE
+	nr = int (mouseX-(width-N*SIZE)/2)/SIZE
 	if 0 <= nr <= M
-		if list[nr].length==M then return
+		if list[nr].length == M then return
 		moves.push nr
 		board.move nr
 		list[nr].push moves.length
 
-	if board.calc() then return delta = 1
+	if board.done() then return delta = 1
 	m = dator.move board
 	moves.push m
 	board.move m
 	list[m].push moves.length
-	if board.calc() then return delta = -1
+	if board.done() then return delta = -1
 	if board.moves.length == M*N then delta = 0
 
 undo : -> if moves.length > 0 then list[moves.pop()].pop()

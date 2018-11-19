@@ -15,15 +15,12 @@ Computer = function () {
   _createClass(Computer, [{
     key: "play_complete",
     value: function play_complete(b) {
-      var m, marker;
+      var marker;
       while (true) {
         marker = b.last_marker();
-        m = b.rand();
-        if (b.board[m].length < M) {
-          b.move(m);
-          if (b.calc()) {
-            return marker;
-          }
+        b.move(b.rand());
+        if (b.done()) {
+          return marker;
         }
         if (M * N === b.moves.length) {
           return "draw";
@@ -33,10 +30,10 @@ Computer = function () {
   }, {
     key: "move",
     value: function move(board) {
-      var arr, b, best, bestm, i, j, k, l, len, len1, len2, lst, m, marker, mrkr, ref;
-      arr = [0, 0, 0, 0, 0, 0, 0];
+      var b, best, bestm, cands, i, j, k, l, len, len1, len2, m, marker, mrkr, ref, score;
+      score = [0, 0, 0, 0, 0, 0, 0];
       marker = board.last_marker();
-      lst = function () {
+      cands = function () {
         var j, len, ref, results;
         ref = range(N);
         results = [];
@@ -48,34 +45,34 @@ Computer = function () {
         }
         return results;
       }();
-      if (lst.length === 1) {
-        return lst[0];
+      if (cands.length === 1) {
+        return cands[0];
       }
-      for (j = 0, len = lst.length; j < len; j++) {
-        m = lst[j];
+      for (j = 0, len = cands.length; j < len; j++) {
+        m = cands[j];
         ref = range(20 * Math.pow(2, level));
         for (k = 0, len1 = ref.length; k < len1; k++) {
           i = ref[k];
           b = board.copy();
           b.move(m);
-          if (b.calc()) {
+          if (b.done()) {
             return m;
           }
           mrkr = this.play_complete(b);
           if (mrkr === marker) {
-            arr[m]++;
+            score[m]++;
           } else if (mrkr !== 'draw') {
-            arr[m]--;
+            score[m]--;
           }
         }
       }
-      bestm = lst[0];
-      best = arr[bestm];
-      for (l = 0, len2 = lst.length; l < len2; l++) {
-        m = lst[l];
-        if (arr[m] > best) {
+      bestm = cands[0];
+      best = score[bestm];
+      for (l = 0, len2 = cands.length; l < len2; l++) {
+        m = cands[l];
+        if (score[m] > best) {
           bestm = m;
-          best = arr[m];
+          best = score[m];
         }
       }
       return bestm;

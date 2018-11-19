@@ -2,7 +2,7 @@ getRandom = (b) -> int b * Math.random()
 
 class Board
 
-	constructor : (moves='') ->
+	constructor : (moves='') -> # @board,@moves
 		@clear()
 		for digit in moves
 			@move int digit
@@ -56,7 +56,7 @@ class Board
 			i--
 		count >= 4
 
-	helper : (di, dj, marker,m,n) ->
+	helper : (di, dj, marker, m, n) ->
 		i = m+di
 		j = n+dj
 		res = 0
@@ -75,7 +75,7 @@ class Board
 		count += @helper -1,-dj,marker,m,n
 		count >= 4
 
-	calc : ->
+	done : ->
 		if @calc_columns() then return true
 		if @calc_rows() then return true
 		if @calc_diagonal 1 then return true
