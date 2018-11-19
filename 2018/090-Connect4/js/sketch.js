@@ -9,9 +9,9 @@ M = 6; // antal rader
 
 N = 7; // antal kolumner
 
-SIZE = 700 / N;
+SIZE = 600 / N;
 
-PROBES = 20;
+PROBES = 10;
 
 level = 0;
 
@@ -28,7 +28,7 @@ board = null;
 delta = 0;
 
 setup = function setup() {
-  createCanvas(700, 700);
+  createCanvas(600, 600);
   dator = new Computer();
   human = new Human();
   newGame();
@@ -100,8 +100,11 @@ mousePressed = function mousePressed() {
   if (delta !== -2) {
     return newGame();
   }
+  if (mouseX >= width || mouseY >= height) {
+    return;
+  }
   nr = int((mouseX - (width - N * SIZE) / 2) / SIZE);
-  if (0 <= nr && nr <= M) {
+  if (0 <= nr && nr <= N) {
     if (list[nr].length === M) {
       return;
     }
@@ -134,7 +137,5 @@ mousePressed = function mousePressed() {
 
 Human = function Human() {
   _classCallCheck(this, Human);
-
-  this.move = -1;
 };
 //# sourceMappingURL=sketch.js.map

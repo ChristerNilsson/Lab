@@ -1,8 +1,8 @@
 M = 6  # antal rader
 N = 7  # antal kolumner
 
-SIZE = 700/N
-PROBES = 20
+SIZE = 600/N
+PROBES = 10
 
 level = 0
 list = null
@@ -13,7 +13,7 @@ board = null
 delta = 0
 
 setup = ->
-	createCanvas 700,700
+	createCanvas 600,600
 	dator = new Computer()
 	human = new Human()
 	newGame()
@@ -57,8 +57,9 @@ draw = ->
 
 mousePressed = ->
 	if delta != -2 then return newGame()
+	if mouseX>=width or mouseY>=height then return
 	nr = int (mouseX-(width-N*SIZE)/2)/SIZE
-	if 0 <= nr <= M
+	if 0 <= nr <= N
 		if list[nr].length == M then return
 		moves.push nr
 		board.move nr
@@ -75,4 +76,4 @@ mousePressed = ->
 undo : -> if moves.length > 0 then list[moves.pop()].pop()
 
 class Human
-	constructor : -> @move = -1 
+	constructor : -> 
