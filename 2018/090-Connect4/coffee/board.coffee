@@ -23,9 +23,7 @@ class Board
 		@board[m] += @next_marker()
 		@moves.push m
 
-	undo : ->
-		m = @moves.pop()
-		@board[m].pop()
+	undo : -> @board[@moves.pop()].pop()
 
 	last_marker : -> 'OX'[@moves.length % 2]
 	next_marker : -> 'XO'[@moves.length % 2]

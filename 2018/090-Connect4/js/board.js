@@ -67,9 +67,7 @@ Board = function () {
   }, {
     key: 'undo',
     value: function undo() {
-      var m;
-      m = this.moves.pop();
-      return this.board[m].pop();
+      return this.board[this.moves.pop()].pop();
     }
   }, {
     key: 'last_marker',

@@ -2,12 +2,13 @@ M = 6  # antal rader
 N = 7  # antal kolumner
 
 SIZE = 700/N
+PROBES = 20
 
 level = 0
 list = null
 moves = null
-dator = null 
-human = null 
+dator = null
+human = null
 board = null
 delta = 0
 

@@ -30,52 +30,52 @@ Computer = function () {
   }, {
     key: "move",
     value: function move(board) {
-      var b, best, bestm, cands, i, j, k, l, len, len1, len2, m, marker, mrkr, ref, score;
-      score = [0, 0, 0, 0, 0, 0, 0];
+      var b, cand, cands, i, j, k, l, len, len1, len2, m, marker, mrkr, n, ref, ref1, start;
+      start = Date.now();
       marker = board.last_marker();
       cands = function () {
-        var j, len, ref, results;
+        var k, len, ref, results;
         ref = range(N);
         results = [];
-        for (j = 0, len = ref.length; j < len; j++) {
-          m = ref[j];
+        for (k = 0, len = ref.length; k < len; k++) {
+          m = ref[k];
           if (board.board[m].length < M) {
-            results.push(m);
+            results.push([0, m]);
           }
         }
         return results;
       }();
       if (cands.length === 1) {
-        return cands[0];
+        return cands[0][1];
       }
-      for (j = 0, len = cands.length; j < len; j++) {
-        m = cands[j];
-        ref = range(20 * Math.pow(2, level));
-        for (k = 0, len1 = ref.length; k < len1; k++) {
-          i = ref[k];
-          b = board.copy();
-          b.move(m);
-          if (b.done()) {
-            return m;
-          }
-          mrkr = this.play_complete(b);
-          if (mrkr === marker) {
-            score[m]++;
-          } else if (mrkr !== 'draw') {
-            score[m]--;
+      for (k = 0, len = cands.length; k < len; k++) {
+        cand = cands[k];
+        ref = range(Math.pow(2, level));
+        for (l = 0, len1 = ref.length; l < len1; l++) {
+          j = ref[l];
+          ref1 = range(PROBES);
+          // shorter ranges
+          for (n = 0, len2 = ref1.length; n < len2; n++) {
+            i = ref1[n];
+            b = board.copy();
+            b.move(cand[1]);
+            if (b.done()) {
+              return cand[1];
+            }
+            mrkr = this.play_complete(b);
+            if (mrkr === marker) {
+              cand[0]++;
+            } else if (mrkr !== 'draw') {
+              cand[0]--;
+            }
           }
         }
       }
-      bestm = cands[0];
-      best = score[bestm];
-      for (l = 0, len2 = cands.length; l < len2; l++) {
-        m = cands[l];
-        if (score[m] > best) {
-          bestm = m;
-          best = score[m];
-        }
-      }
-      return bestm;
+      cand = _.max(cands, function (cand) {
+        return cand[0];
+      });
+      print(Date.now() - start, -cand[0]);
+      return cand[1];
     }
   }]);
 
