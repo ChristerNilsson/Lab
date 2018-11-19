@@ -19,13 +19,13 @@ Computer = function () {
       while (true) {
         marker = b.last_marker();
         m = b.rand();
-        if (b.board[m].length < 6) {
+        if (b.board[m].length < M) {
           b.move(m);
           if (b.calc()) {
             return marker;
           }
         }
-        if (42 === b.moves.length) {
+        if (M * N === b.moves.length) {
           return "draw";
         }
       }
@@ -38,11 +38,11 @@ Computer = function () {
       marker = board.last_marker();
       lst = function () {
         var j, len, ref, results;
-        ref = range(7);
+        ref = range(N);
         results = [];
         for (j = 0, len = ref.length; j < len; j++) {
           m = ref[j];
-          if (board.board[m].length < 6) {
+          if (board.board[m].length < M) {
             results.push(m);
           }
         }
@@ -63,9 +63,9 @@ Computer = function () {
           }
           mrkr = this.play_complete(b);
           if (mrkr === marker) {
-            arr[m] += 1;
+            arr[m]++;
           } else if (mrkr !== 'draw') {
-            arr[m] -= 1;
+            arr[m]--;
           }
         }
       }

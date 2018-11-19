@@ -1,7 +1,3 @@
-M = 6  # antal rader
-N = 7  # antal kolumner
-DOT = '.'
-
 getRandom = (b) -> int b * Math.random()
 
 class Board
@@ -41,8 +37,8 @@ class Board
 		row = @board[m]
 		i = row.length - 1
 		while row[i] == marker and i >= 0
-			count += 1
-			i -= 1
+			count++
+			i--
 		count == 4
 
 	calc_rows : ->
@@ -51,13 +47,13 @@ class Board
 		count = 1
 		n = @board[m].length - 1
 		i = m+1
-		while i < 7 and n < @board[i].length and @board[i][n] == marker
-			count += 1
-			i += 1
+		while i < N and n < @board[i].length and @board[i][n] == marker
+			count++
+			i++
 		i = m-1
 		while i >= 0 and n < @board[i].length and @board[i][n] == marker
-			count += 1
-			i -= 1
+			count++
+			i--
 		count >= 4
 
 	helper : (di, dj, marker,m,n) ->
@@ -65,7 +61,7 @@ class Board
 		j = n+dj
 		res = 0
 		while 0 <= j < M and 0 <= i < N and j < @board[i].length and @board[i][j] == marker
-			res += 1
+			res++
 			i += di
 			j += dj
 		return res
@@ -75,8 +71,8 @@ class Board
 		m = _.last @moves
 		count = 1
 		n = @board[m].length - 1
-		count += @helper 1, dj,marker,m,n
-		count += @helper -1, -dj,marker,m,n
+		count += @helper +1,+dj,marker,m,n
+		count += @helper -1,-dj,marker,m,n
 		count >= 4
 
 	calc : ->
