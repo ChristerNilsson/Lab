@@ -9,7 +9,7 @@ M = 6; // antal rader
 
 N = 7; // antal kolumner
 
-SIZE = 600 / N;
+SIZE = 600 / (N + 1);
 
 PROBES = 10;
 
@@ -66,20 +66,20 @@ draw = function draw() {
   ref = range(N);
   for (k = 0, len = ref.length; k < len; k++) {
     i = ref[k];
-    x = SIZE / 2 + i * SIZE;
+    x = SIZE + i * SIZE;
     ref1 = range(M);
     for (l = 0, len1 = ref1.length; l < len1; l++) {
       j = ref1[l];
-      y = height - SIZE / 2 - SIZE * j;
+      y = height - SIZE - SIZE * j;
       circle(x, y, SIZE / 2);
     }
   }
   for (i = n = 0, len2 = list.length; n < len2; i = ++n) {
     column = list[i];
-    x = SIZE / 2 + i * SIZE;
+    x = SIZE + i * SIZE;
     for (j = o = 0, len3 = column.length; o < len3; j = ++o) {
       nr = column[j];
-      y = height - SIZE / 2 - SIZE * j;
+      y = height - SIZE - SIZE * j;
       fc(1, nr % 2, 0);
       sw(1);
       circle(x, y, SIZE * 0.4);
@@ -100,10 +100,10 @@ mousePressed = function mousePressed() {
   if (delta !== -2) {
     return newGame();
   }
-  if (mouseX >= width || mouseY >= height) {
+  if (mouseX < SIZE / 2 || mouseX >= width - SIZE / 2 || mouseY >= height) {
     return;
   }
-  nr = int((mouseX - (width - N * SIZE) / 2) / SIZE);
+  nr = int((mouseX - SIZE / 2) / SIZE);
   if (0 <= nr && nr <= N) {
     if (list[nr].length === M) {
       return;

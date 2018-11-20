@@ -1,7 +1,7 @@
 M = 6  # antal rader
 N = 7  # antal kolumner
 
-SIZE = 600/N
+SIZE = 600/(N+1)
 PROBES = 10
 
 level = 0
@@ -34,15 +34,15 @@ draw = ->
 	sc 0.1,0.3,1
 	sw 0.2 * SIZE
 	for i in range N
-		x = SIZE/2 + i*SIZE
+		x = SIZE + i*SIZE
 		for j in range M
-			y = height-SIZE/2 - SIZE*j
+			y = height-SIZE - SIZE*j
 			circle x, y, SIZE/2
 
 	for column,i in list
-		x = SIZE/2 + i*SIZE
+		x = SIZE + i*SIZE
 		for nr,j in column
-			y = height-SIZE/2 - SIZE*j
+			y = height-SIZE - SIZE*j
 			fc 1,nr%2,0
 			sw 1
 			circle x, y, SIZE*0.4
@@ -57,8 +57,9 @@ draw = ->
 
 mousePressed = ->
 	if delta != -2 then return newGame()
-	if mouseX>=width or mouseY>=height then return
-	nr = int (mouseX-(width-N*SIZE)/2)/SIZE
+	if mouseX<SIZE/2 or mouseX>=width-SIZE/2 or mouseY>=height then return
+	nr = int (mouseX-SIZE/2)/SIZE
+
 	if 0 <= nr <= N
 		if list[nr].length == M then return
 		moves.push nr

@@ -2,11 +2,18 @@
 
 https://en.wikipedia.org/wiki/Connect_Four
 
-Det gäller att först få fyra i rad.
+Spelet går ut på att först få fyra i rad.
 
-Vid vinst/förlust dubblas/halveras datorns betänketid.
+* Horisontalt
+* Vertikalt eller 
+* Diagonalt
+
+* Vid vinst dubblas datorns betänketid
+* Vid förlust halveras datorns betänketid
 
 AI:n är baserad på Monte Carlo. http://beej.us/blog/data/monte-carlo-method-game-ai/
 
-Inledningsvis spelas ett antal partier per möjligt drag, sju stycken. Dragen slumpas hela vägen till slutet.
-Det drag som lyckas bäst spelas.
+* Inledningsvis spelas tio partier per möjliga sju drag. 
+* Dragen slumpas hela vägen till slutet.
+* Det drag som leder till flest vinster spelas.
+* Om datorn förlorar dubblas till tjugo partier, osv.

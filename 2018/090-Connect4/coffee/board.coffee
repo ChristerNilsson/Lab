@@ -44,14 +44,15 @@ class Board
 		m = _.last @moves
 		count = 1
 		n = @board[m].length - 1
-		i = m+1
-		while i < N and n < @board[i].length and @board[i][n] == marker
+
+		for i in range m+1,N
+			if n >= @board[i].length or @board[i][n] != marker then break
 			count++
-			i++
-		i = m-1
-		while i >= 0 and n < @board[i].length and @board[i][n] == marker
+
+		for i in range m-1,-1,-1
+			if n >= @board[i].length or @board[i][n] != marker then break
 			count++
-			i--
+
 		count >= 4
 
 	helper : (di, dj, marker, m, n) ->

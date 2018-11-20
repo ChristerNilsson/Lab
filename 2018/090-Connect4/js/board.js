@@ -97,20 +97,26 @@ Board = function () {
   }, {
     key: 'calc_rows',
     value: function calc_rows() {
-      var count, i, m, marker, n;
+      var count, i, k, l, len, len1, m, marker, n, ref, ref1;
       marker = this.last_marker();
       m = _.last(this.moves);
       count = 1;
       n = this.board[m].length - 1;
-      i = m + 1;
-      while (i < N && n < this.board[i].length && this.board[i][n] === marker) {
+      ref = range(m + 1, N);
+      for (k = 0, len = ref.length; k < len; k++) {
+        i = ref[k];
+        if (n >= this.board[i].length || this.board[i][n] !== marker) {
+          break;
+        }
         count++;
-        i++;
       }
-      i = m - 1;
-      while (i >= 0 && n < this.board[i].length && this.board[i][n] === marker) {
+      ref1 = range(m - 1, -1, -1);
+      for (l = 0, len1 = ref1.length; l < len1; l++) {
+        i = ref1[l];
+        if (n >= this.board[i].length || this.board[i][n] !== marker) {
+          break;
+        }
         count++;
-        i--;
       }
       return count >= 4;
     }
