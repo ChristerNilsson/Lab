@@ -17,3 +17,6 @@ AI:n är baserad på Monte Carlo. http://beej.us/blog/data/monte-carlo-method-ga
 * Dragen slumpas hela vägen till slutet.
 * Det drag som leder till flest vinster spelas.
 * Om datorn förlorar dubblas till tjugo partier, osv.
+
+AI:n i länken nedan är ännu smartare.
+https://www.theofekfoundation.org/games/ConnectFour

@@ -12,3 +12,5 @@ The ai tries
 1. to win direct
 2. to avoid losing direct
 3. a random move
+
+Ultimate Tic Tac Toe: https://www.theofekfoundation.org/games/UltimateTicTacToe/
