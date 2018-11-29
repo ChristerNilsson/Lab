@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA;;AAAA,IAAA,SAAA,MAAA,SAAA,QAAA,UAAA,OAAA;;AAGA,SAAS;;AACT,UAAU;;AACV,UAAU;;AACV,WAAW;;AAEX,QAAQ,iBACN;MAAA,OAAA,GAAA,GAAA,KAAA,GAAA,KAAA;AAAA,eAAa,AAAb,aAA0B,AAA1B;AACA,WAAS;AACT,MAAI,AAEJ;;AAAA,OAAA,kCAAA;;AACE,YAAQ,IAAI,AAAJ,SAAa;AACrB,QAAI,AAAE,GAAC,AAAM,OAAC,AAAV,UAAoB,AAApB;AACJ,AAAC,MAAC,AAAF,KAAO,QAAQ,AAAf;AACA,AAAC,MAAC,AAAF,IAAM,QAAQ,AAAd,GAAiB,SAAS,AAA1B;AACA,AAAM,WAAC,AAAP,KAAY,AAAZ,AALF;;SAOA,AAZM;;;AAeR,QAAQ,iBACN;MAAA,GAAA,KAAA,GAAA;AAAA,YAAU,aAAa,OAAO,AAAP,AAAb,QAA4B,OAAO,AAAP,AAA5B;AACV,KAAG,AAAH;AACA,KAAG,AAAH;AACA,KAAG,AAAH,AACA;;AAAA,OAAA,qCAAA;;iBACE,MAAM,AAAC,EAAC,AAAR,GAAW,AAAC,EAAC,AAAb,AADF;AAAA;SALM;;;AAQR,OAAO,gBAEL;MAAA,GAAA,GAAA,KAAA,MAAA,KAAA;cAAA;;AAAA,OAAA,kCAAA;;AACE,OAAG,AAAH;AACA,OAAG,AAAH;AACA,WAAO,OAAO,AAAP;AACP,QAAG,SAAQ,AAAX;AACE,AAAO,cAAC,AAAR,IAAY,KAAK,AAAO,QAAC,AAAb,GAAgB,AAAI,KAAC,AAArB,GAAwB,AAAxB;AACZ,AAAO,cAAC,AAAR,IAAY,KAAK,AAAO,QAAC,AAAb,GAAgB,AAAI,KAAC,AAArB,GAAwB,AAAxB;AACZ,YAAM,AAAO,QAAC,AAAd,GAAiB,AAAO,QAAC,AAAzB,AAHF;;iBAIA,WAAW,AARb;AAAA;SAFK",
+  "sourcesContent": [
+    "# Part 1: https://youtu.be/7gNzMtYo9n4\r\n# Part 2: https://youtu.be/A0NHGTggoOQ\r\n\r\npoints = []\r\ncurrent = null\r\npercent = 0.5\r\nprevious = null\r\n\r\nsetup = ->\r\n  createCanvas windowWidth, windowHeight\r\n  points = []\r\n  n = 5\r\n\r\n  for i in range n\r\n    angle = i * TWO_PI / n\r\n    v = p5.Vector.fromAngle angle\r\n    v.mult width / 2\r\n    v.add width / 2, height / 2\r\n    points.push v\r\n\r\n  reset()\r\n\r\n\r\nreset = ->\r\n  current = createVector random(width), random(height)\r\n  bg 0\r\n  sc 1\r\n  sw 8\r\n  for p in points\r\n    point p.x, p.y\r\n\r\ndraw = ->\r\n\r\n  for i in range 1000\r\n    sw 1\r\n    sc 1\r\n    next = random points\r\n    if next != previous\r\n      current.x = lerp current.x, next.x, percent\r\n      current.y = lerp current.y, next.y, percent\r\n      point current.x, current.y\r\n    previous = next\r\n"
+  ]
+}
