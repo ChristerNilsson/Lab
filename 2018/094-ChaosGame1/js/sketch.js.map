@@ -6,8 +6,8 @@
     "coffee\\sketch.coffee"
   ],
   "names": [],
-  "mappings": ";;;;;AAAA;AAAA,IAAA,MAAA,QAAA,OAAA,GAAA;;AAEA,SAAS;;AACT,IAAI;;AACJ,IAAI;;AAEJ,QAAQ,iBACP;MAAA,GAAA,GAAA,KAAA;AAAA,eAAA,AAAa,aAAb,AAA0B,AAC1B;;AAAA,OAAA,kCAAA;;AACC,AAAM,WAAN,AAAO,KAAK,CAAC,OAAD,AAAC,AAAO,QAAO,OAD5B,AACC,AAAY,AAAe,AAAO;;AAEnC,MAAI,OAAA,AAAO;AACX,MAAI,OAAA,AAAO;AACX,KAAA,AAAG;SACH,GARO,AAQP,AAAG;;;AAEJ,OAAO,gBACN;MAAA,GAAA,GAAA,KAAA,IAAA,IAAA,KAAA;cAAA;;AAAA,OAAA,kCAAA;;AACC,UAAA,AAAM,GAAN,AAAS,AACT;;mBAAU,AAAC,EAAD,AAAE,OAAF,AAAS;;;;AAAnB,AAAC;AAAD,AAAI;;AACJ,QAAI,KAAA,AAAK,GAAL,AAAQ,IAAR,AAAY;iBAChB,IAAI,KAAA,AAAK,GAAL,AAAQ,IAJb,AAIK,AAAY;AAJjB;SADM",
+  "mappings": ";;;;;AAAA,IAAA,MAAA,QAAA,OAAA,GAAA;;AAAA,SAAS,AACT;;AAAA,AAAC,IAAO,AAAC;AAAT,AAAG,AAAK,IAAA,AAAG;;;AAEX,QAAQ,iBACP;MAAA,GAAA,GAAA,KAAA,KAAA;AAAA,eAAA,AAAa,aAAb,AAA0B,AAC1B;cAAA;;AAAA,OAAA,kCAAA;;iBACC,AAAM,OAAN,AAAO,KAAK,CAAC,OAAD,AAAC,AAAO,QAAO,OAD5B,AACC,AAAY,AAAe,AAAO;AADnC;SAFO;;;AAKR,OAAO,gBACN;MAAA,GAAA,GAAA,KAAA,IAAA,IAAA,KAAA;cAAA;;AAAA,OAAA,kCAAA;;;;AACC,UAAA,AAAM,GAAN,AAAS,AACT;;mBAAU,AAAC,EAAD,AAAE,OAAF,AAAS;;;;AAAnB,AAAC;AAAD,AAAI;;YACJ,aAAQ,CAAC,KAAA,AAAK,GAAL,AAAQ,IAAT,AAAC,AAAY,MAAM,KAAA,AAAK,GAAL,AAAQ,IAHpC,AAGS,AAAmB,AAAY,OAAvC,AAAC,aAAD,AAAG;AAHJ;SADM",
   "sourcesContent": [
-    "# Part 1: https://youtu.be/7gNzMtYo9n4\r\n\r\npoints = []\r\nx = null\r\ny = null\r\n\r\nsetup = ->\r\n\tcreateCanvas windowWidth, windowHeight\r\n\tfor i in range 3\r\n\t\tpoints.push [random(width),random(height)]\r\n\r\n\tx = random width\r\n\ty = random height\r\n\tbg 0  \r\n\tsc 1\r\n\r\ndraw = ->\r\n\tfor i in range 100\r\n\t\tpoint x, y\r\n\t\t[px,py] = _.sample points\r\n\t\tx = lerp x, px, 0.5\r\n\t\ty = lerp y, py, 0.5\r\n"
+    "points = []\r\n[x,y] = [0,0]\r\n\r\nsetup = ->\r\n\tcreateCanvas windowWidth, windowHeight\r\n\tfor i in range 3\r\n\t\tpoints.push [random(width),random(height)]\r\n\r\ndraw = ->\r\n\tfor i in range 100\r\n\t\tpoint x, y\r\n\t\t[px,py] = _.sample points\r\n\t\t[x,y] = [lerp(x, px, 0.5), lerp(y, py, 0.5)]"
   ]
 }
