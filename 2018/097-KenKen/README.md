@@ -1,32 +1,24 @@
-# Mall
+# KenKen
 
-* Libraries innehåller bl a p5-filer.
-* index.html används när man vill köra programmet i Google Chrome.
-* katalogen coffee innehåller din kod. Redigera med Sublime.
-* js-filer skapas automatiskt av startProject.bat
+![9x9](9x9.JPG "9x9")
 
-## Detta gör du en enda gång
+Populärt i SvD! Finns även på https://www.kenkenpuzzle.com
 
-* Kopiera 000-Mall med Clone or Download
-* Välj Download .Zip
-* Packa upp innehållet och spara i en egen katalog med namnet 000-Mall. Dvs inget -master
-* Flytta upp createProject.bat en nivå.
+Pusslet går ut på att fylla i siffror i en matris så att inga dubletter förekommer på någon rad eller kolumn.
 
-## Detta gör du när du skapar ett nytt projekt
+I en 4x4-matris får bara talen 1..4 förekomma.
 
-* Använda createProject för att skapa en kopia av mallen.
-* Byt namn på NewProject. T ex till 001-projektnamn.
+Grupper av tal ska räknas ut.
+T ex om N=4 så har man för ledtexten 7+ möjligheterna 3+4 och 4+3 om gruppstorleken är 2. 
 
-## Detta gör du när du utvecklar
+Är gruppstorleken 3 finns fler möjligheter:
+1+2+4 1+4+2 2+1+4 2+4+1 4+1+2 4+2+2
+samt 1+3+3 3+1+3 3+3+1
 
-* Gå in i katalogen och starta startProject
-  * index.html startas i Chrome
-  * sublime startas.
-  	* Stäng eventuellt befintligt projekt med högerklick|Remove Folder from Project
-  	* Stäng eventuella befintliga filer med File|Close All Files
-  * transpilern startas
-* Ändra i sketch.coffee.
-	* Ctrl-s behövs ej om du sätter Preference
-		* "save_on_focus_lost": true
-* Refresha Chrome.
-* Transpilering sker automatiskt. Ett pip hörs vid syntaxfel.
+Maximal gruppstorlek är fyra.
+
+Möjliga pussel: 3x3 4x4 5x5 6x6 7x7 8x8 9x9
+
+Lösningsmetod: Backtracking
+
+9x9 tar cirka fem sekunder att lösa.
