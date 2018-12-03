@@ -1,11 +1,6 @@
 N = null
 ALFABET = ' ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'	
 
-# setup = ->
-# 	createCanvas 200,200
-# draw = ->
-# 	bg 0.5
-
 arrayExcept = (arr, idx) ->
 	res = arr[0..]
 	res.splice idx, 1
@@ -42,18 +37,14 @@ f = (kenken) ->
 uniq = (lst) ->
 	res = [lst[0]]
 	for item,i in lst
-		if i>0
-			if not _.isEqual item, _.last res
-				res.push item
+		if i>0 and not _.isEqual item, _.last res then res.push item
 	res 
 
 match2 = (total,operation) ->
 	res = []
 	for a in range 1,N+1
 		for b in range 1,N+1
-			if total == operation a,b
-				lst = [a,b].sort()
-				res.push lst
+			if total == operation a,b then res.push [a,b].sort()
 	uniq res.sort()
 
 match3 = (total,operation) ->
@@ -61,9 +52,7 @@ match3 = (total,operation) ->
 	for a in range 1,N+1
 		for b in range 1,N+1
 			for c in range 1,N+1
-				if total == operation a,b,c
-					lst = [a,b,c].sort()
-					res.push lst
+				if total == operation a,b,c then res.push [a,b,c].sort()
 	uniq res.sort()
 
 match4 = (total,operation) ->
@@ -72,9 +61,7 @@ match4 = (total,operation) ->
 		for b in range 1,N+1
 			for c in range 1,N+1
 				for d in range 1,N+1
-					if total == operation a,b,c,d
-						lst = [a,b,c,d].sort()
-						res.push lst
+					if total == operation a,b,c,d then res.push [a,b,c,d].sort()
 	uniq res.sort()
 
 g = (rf,ops) -> # gets possible operands
@@ -191,8 +178,7 @@ solve = (kenken,ops) ->
 		flag = indexes[pointer] < rp[pointer].length
 		if flag and valid indexes,pointer,rf,rp
 			pointer = incr pointer 
-			if pointer < stopper 
-				indexes[pointer]++
+			if pointer < stopper then indexes[pointer]++
 		else if indexes[pointer] < rp[pointer].length-1
 			indexes[pointer]++
 			if pointer < indexes.length then indexes[incr pointer] = -1
@@ -216,6 +202,6 @@ sol7x7={A:1,B:16,C:2,D:6,E:0,F:7,G:2,H:4,I:0,J:8,K:1,L:0,M:0,N:2,O:5,P:5,Q:5,R:3
 assert sol7x7, solve "AABBCDDEFBBCGHEFIJJGHKLIMJNOKPPMNNOQRSSSTUQRVVVTU", {A:'6-',B:'360*',C:'5-',D:'2/',E:'15*',F:'3-',G:'1-',H:'6+',I:'13+',J:'12+',K:'3+',L:'6',M:'8+',N:'120*',O:'1-',P:'3-',Q:'2-',R:'1-',S:'8+',T:'6-',U:'1-',V:'60*'}
 
 sol9x9={A:6,B:1,C:41,D:18,E:13,F:19,G:1,H:4,I:5,J:13,K:57,L:0,M:33,N:2,O:2,P:201,Q:8,R:0,S:4,T:1,U:19,V:0,W:47,X:0,Y:50,Z:16,a:0,b:1,c:5,d:2,e:6,f:18,g:0,h:4} #4563ms
-assert sol9x9, solve "ABCCCDDEEABFGGHDEEIIFJJHKKKLMFNOOPQQLMRNSPPTTUMRVSPWWXUUYYZaaWXbbYcZZddefffcgghhe",  {A:'3-',B:'8+',C:'16+',D:'9+',E:'33+',F:'10+',G:'3+',H:'7+',I:'7+',J:'1-',K:'16+',L:'8-',M:'18+',N:'16+',O:'9+',P:'21+',Q:'4-',R:'8-',S:'2-',T:'3-',U:'16+',V:'5',W:'17+',X:'7+',Y:'16+',Z:'22+',a:'3+',b:'7-',c:'7+',d:'4+',e:'9+',f:'13+',g:'17+',h:'12+'}
+#assert sol9x9, solve "ABCCCDDEEABFGGHDEEIIFJJHKKKLMFNOOPQQLMRNSPPTTUMRVSPWWXUUYYZaaWXbbYcZZddefffcgghhe",  {A:'3-',B:'8+',C:'16+',D:'9+',E:'33+',F:'10+',G:'3+',H:'7+',I:'7+',J:'1-',K:'16+',L:'8-',M:'18+',N:'16+',O:'9+',P:'21+',Q:'4-',R:'8-',S:'2-',T:'3-',U:'16+',V:'5',W:'17+',X:'7+',Y:'16+',Z:'22+',a:'3+',b:'7-',c:'7+',d:'4+',e:'9+',f:'13+',g:'17+',h:'12+'}
 
 print 'Ready!',Date.now()-start

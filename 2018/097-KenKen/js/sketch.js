@@ -9,10 +9,6 @@ N = null;
 
 ALFABET = ' ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';
 
-// setup = ->
-// 	createCanvas 200,200
-// draw = ->
-// 	bg 0.5
 arrayExcept = function arrayExcept(arr, idx) {
   var res;
   res = arr.slice(0);
@@ -82,17 +78,15 @@ uniq = function uniq(lst) {
   res = [lst[0]];
   for (i = k = 0, len = lst.length; k < len; i = ++k) {
     item = lst[i];
-    if (i > 0) {
-      if (!_.isEqual(item, _.last(res))) {
-        res.push(item);
-      }
+    if (i > 0 && !_.isEqual(item, _.last(res))) {
+      res.push(item);
     }
   }
   return res;
 };
 
 match2 = function match2(total, operation) {
-  var a, b, k, l, len, len1, lst, ref, ref1, res;
+  var a, b, k, l, len, len1, ref, ref1, res;
   res = [];
   ref = range(1, N + 1);
   for (k = 0, len = ref.length; k < len; k++) {
@@ -101,8 +95,7 @@ match2 = function match2(total, operation) {
     for (l = 0, len1 = ref1.length; l < len1; l++) {
       b = ref1[l];
       if (total === operation(a, b)) {
-        lst = [a, b].sort();
-        res.push(lst);
+        res.push([a, b].sort());
       }
     }
   }
@@ -110,7 +103,7 @@ match2 = function match2(total, operation) {
 };
 
 match3 = function match3(total, operation) {
-  var a, b, c, k, l, len, len1, len2, lst, m, ref, ref1, ref2, res;
+  var a, b, c, k, l, len, len1, len2, m, ref, ref1, ref2, res;
   res = [];
   ref = range(1, N + 1);
   for (k = 0, len = ref.length; k < len; k++) {
@@ -122,8 +115,7 @@ match3 = function match3(total, operation) {
       for (m = 0, len2 = ref2.length; m < len2; m++) {
         c = ref2[m];
         if (total === operation(a, b, c)) {
-          lst = [a, b, c].sort();
-          res.push(lst);
+          res.push([a, b, c].sort());
         }
       }
     }
@@ -132,7 +124,7 @@ match3 = function match3(total, operation) {
 };
 
 match4 = function match4(total, operation) {
-  var a, b, c, d, k, l, len, len1, len2, len3, lst, m, n, ref, ref1, ref2, ref3, res;
+  var a, b, c, d, k, l, len, len1, len2, len3, m, n, ref, ref1, ref2, ref3, res;
   res = [];
   ref = range(1, N + 1);
   for (k = 0, len = ref.length; k < len; k++) {
@@ -147,8 +139,7 @@ match4 = function match4(total, operation) {
         for (n = 0, len3 = ref3.length; n < len3; n++) {
           d = ref3[n];
           if (total === operation(a, b, c, d)) {
-            lst = [a, b, c, d].sort();
-            res.push(lst);
+            res.push([a, b, c, d].sort());
           }
         }
       }
@@ -582,42 +573,6 @@ sol9x9 = {
   h: 4 //4563ms
 };
 
-assert(sol9x9, solve("ABCCCDDEEABFGGHDEEIIFJJHKKKLMFNOOPQQLMRNSPPTTUMRVSPWWXUUYYZaaWXbbYcZZddefffcgghhe", {
-  A: '3-',
-  B: '8+',
-  C: '16+',
-  D: '9+',
-  E: '33+',
-  F: '10+',
-  G: '3+',
-  H: '7+',
-  I: '7+',
-  J: '1-',
-  K: '16+',
-  L: '8-',
-  M: '18+',
-  N: '16+',
-  O: '9+',
-  P: '21+',
-  Q: '4-',
-  R: '8-',
-  S: '2-',
-  T: '3-',
-  U: '16+',
-  V: '5',
-  W: '17+',
-  X: '7+',
-  Y: '16+',
-  Z: '22+',
-  a: '3+',
-  b: '7-',
-  c: '7+',
-  d: '4+',
-  e: '9+',
-  f: '13+',
-  g: '17+',
-  h: '12+'
-}));
-
+//assert sol9x9, solve "ABCCCDDEEABFGGHDEEIIFJJHKKKLMFNOOPQQLMRNSPPTTUMRVSPWWXUUYYZaaWXbbYcZZddefffcgghhe",  {A:'3-',B:'8+',C:'16+',D:'9+',E:'33+',F:'10+',G:'3+',H:'7+',I:'7+',J:'1-',K:'16+',L:'8-',M:'18+',N:'16+',O:'9+',P:'21+',Q:'4-',R:'8-',S:'2-',T:'3-',U:'16+',V:'5',W:'17+',X:'7+',Y:'16+',Z:'22+',a:'3+',b:'7-',c:'7+',d:'4+',e:'9+',f:'13+',g:'17+',h:'12+'}
 print('Ready!', Date.now() - start);
 //# sourceMappingURL=sketch.js.map
