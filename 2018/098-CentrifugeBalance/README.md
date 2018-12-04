@@ -2,12 +2,12 @@
 
 https://www.youtube.com/watch?v=7DHE8RnsCQ8
 
-Make all hours yellow.
+Make all slots yellow.
 
-The clock has to be in balance.
+The centrifuge has to be in balance.
 
-White circles are heavy. Their center of gravity is marked with a red circle.
+Tubes (white) are heavy. Their center of gravity is shown with a red circle.
+
+One and eleven tubes are pre marked as they are impossible to balance.
 
 Use a minimum of clicks.
-
-One and eleven are pre marked as they are impossible to reach.
