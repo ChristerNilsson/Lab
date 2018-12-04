@@ -4,10 +4,7 @@
 var draw,
     f,
     highscore,
-    img0,
-    img1,
-    img2,
-    img3,
+    images,
     preload,
     s,
     setup,
@@ -20,27 +17,21 @@ s = null;
 
 f = null;
 
-highscore = null;
+highscore = 0;
 
-timer = null;
+timer = 2000;
 
-img0 = null;
-
-img1 = null;
-
-img2 = null;
-
-img3 = null;
+images = [];
 
 preload = function preload() {
-  img0 = loadImage("plan.jpg");
-  img1 = loadImage("fotboll.png");
-  img2 = loadImage("kalkyl.png");
-  return img3 = loadImage("kalkyl_vinst.png");
+  images.push(loadImage("plan.jpg"));
+  images.push(loadImage("fotboll.png"));
+  images.push(loadImage("kalkyl.png"));
+  return images.push(loadImage("kalkyl_vinst.png"));
 };
 
 setup = function setup() {
-  createCanvas(img0.width, img0.height);
+  createCanvas(images[0].width, images[0].height);
   textAlign(CENTER, CENTER);
   s = {
     x: 200,
@@ -50,19 +41,17 @@ setup = function setup() {
     x: width / 2,
     y: height / 2
   };
-  highscore = 0;
-  timer = 2000;
   return textSize(100);
 };
 
 draw = function draw() {
   bg(0);
   fc(1, 1, 0, 0.25);
-  image(img0, 0, 0);
+  image(images[0], 0, 0);
   text("Tid kvar: " + timer, width / 2, 100);
   text("Antal fotbollar: " + highscore, width / 2, height - 100);
-  image(img1, f.x - 25, f.y - 30, 50, 50);
-  image(img2, s.x - 70, s.y - 80, 100, 100);
+  image(images[1], f.x - 25, f.y - 30, 50, 50);
+  image(images[2], s.x - 70, s.y - 80, 100, 100);
   if (keyIsDown(UP_ARROW)) {
     s.y = modulo(s.y - 5, height);
   }
@@ -86,7 +75,7 @@ draw = function draw() {
   if (timer === 0) {
     noLoop();
     bg(0);
-    image(img3, 0, 50);
+    image(images[3], 0, 50);
     fc(1);
     return text(highscore, 100, 100);
   }
