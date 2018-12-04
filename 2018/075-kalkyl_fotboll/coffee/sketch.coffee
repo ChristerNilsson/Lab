@@ -2,14 +2,9 @@ s = null
 f = null
 highscore = 0
 timer = 2000
-images = []
+images = null
 
-preload = ->
-	images.push loadImage "plan.jpg"
-	images.push loadImage "fotboll.png"
-	images.push loadImage "kalkyl.png"
-	images.push loadImage "kalkyl_vinst.png"
-
+preload = -> images = (loadImage for filename in 'plan.jpg fotboll.png kalkyl.png kalkyl_vinst.png'.split ' ')
 setup = ->
 	createCanvas images[0].width,images[0].height
 	textAlign CENTER,CENTER
