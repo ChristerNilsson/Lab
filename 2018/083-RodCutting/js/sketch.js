@@ -11,7 +11,7 @@ parts = null;
 
 X = [30, 90, 170, 300, 450, 600];
 
-rodsize = 10;
+rodsize = 100;
 
 showInfo = function showInfo(i) {
   var x;
@@ -26,10 +26,10 @@ showInfo = function showInfo(i) {
 setup = function setup() {
   createCanvas(610, 700);
   textSize(16);
-  prices = [1, 5, 8, 9];
-  return execute();
+  return prices = [1, 3, 4, 7, 9, 11, 13, 17, 19, 21];
 };
 
+//execute()
 text3 = function text3(texts, x) {
   var i, l, len, ref, results, t;
   ref = texts.split(' ');
@@ -48,11 +48,11 @@ draw = function draw() {
   textAlign(CENTER, CENTER);
   push();
   fc(0.75);
-  text3('piece size', X[0]);
-  text3('piece price -|+', X[1]);
+  text('size', X[0], 40);
+  text('price', X[1], 40);
   textAlign(RIGHT, CENTER);
   text3('price / size', X[2]);
-  text3('piece count', X[3]);
+  text('count', X[3], 40);
   text3('size x count', X[4]);
   text3('price x count', X[5]);
   for (i = l = 0, len = prices.length; l < len; i = ++l) {
@@ -135,20 +135,22 @@ gc = function gc(prices, n) {
     }
     return results;
   }();
-  lst.sort();
-  print(lst);
+  print('' + lst);
+  lst.sort(function (a, b) {
+    return b[0] - a[0];
+  });
 
-  var _$last = _.last(lst);
+  var _lst$ = _slicedToArray(lst[0], 2);
 
-  var _$last2 = _slicedToArray(_$last, 2);
+  q = _lst$[0];
+  clen = _lst$[1];
 
-  q = _$last2[0];
-  clen = _$last2[1];
-
+  print(n, q, clen, lst);
   if (n < clen) {
     return g(prices, n, clen);
   }
   part = g(prices, clen + n % clen, clen);
+  print('part', part);
   part[clen - 1] += Math.floor((n - clen) / clen);
   return part;
 };
@@ -171,6 +173,7 @@ g = function g(v, n2, clen) {
   ref = range(n2);
   for (l = 0, len = ref.length; l < len; l++) {
     i = ref[l];
+    print('i n2', i, n2);
     max_c = c[i];
     indexes = [i];
     ref1 = range(n2);
@@ -202,6 +205,8 @@ g = function g(v, n2, clen) {
         part[index] += 1;
       }
     } else {
+      print(parts);
+      print('indexes', indexes);
       ref2 = range(n1);
       for (r = 0, len3 = ref2.length; r < len3; r++) {
         m = ref2[r];
@@ -216,204 +221,97 @@ g = function g(v, n2, clen) {
   return _.last(parts);
 };
 
-assert([0, 2, 0, 0], g([1, 5, 7, 10], 4, 4)); // 26
+// assert [0,2,0,0], g [1,5,7,10],4,4  # 26
 
-prices = [1, 6, 10, 14 // 1 3 3.33 3.5 clen=4
-];
+// prices = [1, 6, 10, 14]  # 1 3 3.33 3.5 clen=4
+// assert g(prices,1,4) , [1,0,0,0] # 1
+// assert g(prices,2,4) , [0,1,0,0] # 6
+// assert g(prices,3,4) , [0,0,1,0] # 10
+// assert g(prices,4,4) , [0,0,0,1] # 14
+// assert g(prices,5,4) , [0,1,1,0] # 16
+// assert g(prices,6,4) , [0,1,0,1] # 20
+// assert g(prices,7,4) , [0,0,1,1] # 24
+// assert g(prices,8,4) , [0,0,0,2] # 28
+// assert g(prices,9,4) , [0,1,1,1] # 30
+// assert g(prices,10,4), [0,1,0,2] # 34
 
-assert(g(prices, 1, 4), [1, 0, 0, 0 // 1
-]);
+// prices = [5, 6, 7, 10]  # 5 3 3.5 2.5 clen=1
+// assert g(prices,1,1) , [1,0,0,0]
+// assert g(prices,2,1) , [2,0,0,0]
+// assert g(prices,3,1) , [3,0,0,0]
+// assert g(prices,4,1) , [4,0,0,0]
+// assert g(prices,5,1) , [5,0,0,0]
+// assert g(prices,6,1) , [6,0,0,0]
+// assert g(prices,7,1) , [7,0,0,0]
 
-assert(g(prices, 2, 4), [0, 1, 0, 0 // 6
-]);
-
-assert(g(prices, 3, 4), [0, 0, 1, 0 // 10
-]);
-
-assert(g(prices, 4, 4), [0, 0, 0, 1 // 14
-]);
-
-assert(g(prices, 5, 4), [0, 1, 1, 0 // 16
-]);
-
-assert(g(prices, 6, 4), [0, 1, 0, 1 // 20
-]);
-
-assert(g(prices, 7, 4), [0, 0, 1, 1 // 24
-]);
-
-assert(g(prices, 8, 4), [0, 0, 0, 2 // 28
-]);
-
-assert(g(prices, 9, 4), [0, 1, 1, 1 // 30
-]);
-
-assert(g(prices, 10, 4), [0, 1, 0, 2 // 34
-]);
-
-prices = [5, 6, 7, 10 // 5 3 3.5 2.5 clen=1
-];
-
-assert(g(prices, 1, 1), [1, 0, 0, 0]);
-
-assert(g(prices, 2, 1), [2, 0, 0, 0]);
-
-assert(g(prices, 3, 1), [3, 0, 0, 0]);
-
-assert(g(prices, 4, 1), [4, 0, 0, 0]);
-
-assert(g(prices, 5, 1), [5, 0, 0, 0]);
-
-assert(g(prices, 6, 1), [6, 0, 0, 0]);
-
-assert(g(prices, 7, 1), [7, 0, 0, 0]);
-
-prices = [1, 5, 8, 9 // 1 2.5 2.67 2.25 clen=3
-];
-
-assert(g(prices, 1, 3), [1, 0, 0, 0 // 1
-]);
-
-assert(g(prices, 2, 3), [0, 1, 0, 0 // 5
-]);
-
-assert(g(prices, 3, 3), [0, 0, 1, 0 // 8
-]);
-
-assert(g(prices, 4, 3), [0, 2, 0, 0 // 10
-]);
-
-assert(g(prices, 5, 3), [0, 1, 1, 0 // 13
-]);
-
-assert(g(prices, 6, 3), [0, 0, 2, 0 // 16
-]);
-
-assert(g(prices, 7, 3), [0, 2, 1, 0 // 18
-]);
-
-assert(g(prices, 8, 3), [0, 1, 2, 0 // 21
-]);
-
-assert(g(prices, 9, 3), [0, 0, 3, 0 // 24
-]);
-
-assert(g(prices, 10, 3), [0, 2, 2, 0 // 26
-]);
+// prices = [1, 5, 8, 9]  # 1 2.5 2.67 2.25 clen=3
+// assert g(prices,1,3) , [1,0,0,0] # 1
+// assert g(prices,2,3) , [0,1,0,0] # 5
+// assert g(prices,3,3) , [0,0,1,0] # 8
+// assert g(prices,4,3) , [0,2,0,0] # 10
+// assert g(prices,5,3) , [0,1,1,0] # 13
+// assert g(prices,6,3) , [0,0,2,0] # 16
+// assert g(prices,7,3) , [0,2,1,0] # 18
+// assert g(prices,8,3) , [0,1,2,0] # 21
+// assert g(prices,9,3) , [0,0,3,0] # 24
+// assert g(prices,10,3), [0,2,2,0] # 26
 
 //####################################
-assert(gc([1, 12, 19, 25], 10), [0, 0, 2, 1]);
+print(gc([1, 3, 4, 7, 9, 11, 13, 17, 19, 21], 100)); //)  , [0,0, 2,1]
 
-assert(gc([1, 5, 7, 10], 4), [0, 2, 0, 0]);
 
-prices = [1, 5, 8, 9 // 1 2.5 2.67 2.25 clen=3
-];
+// assert gc([1,12,19,25],10) , [0,0, 2,1]
+// assert gc([1,5,7,10],4), [0,2, 0,0]
 
-assert(gc(prices, 1), [1, 0, 0, 0]);
+// prices = [1,5,8,9]  # 1 2.5 2.67 2.25 clen=3
+// assert gc(prices,1) , [1,0, 0,0]
+// assert gc(prices,2) , [0,1, 0,0]
+// assert gc(prices,3) , [0,0, 1,0]
+// assert gc(prices,4) , [0,2, 0,0]
+// assert gc(prices,5) , [0,1, 1,0]
+// assert gc(prices,6) , [0,0, 2,0]
+// assert gc(prices,7) , [0,2, 1,0]
+// assert gc(prices,8) , [0,1, 2,0]
+// assert gc(prices,9) , [0,0, 3,0]
+// assert gc(prices,10), [0,2, 2,0]
 
-assert(gc(prices, 2), [0, 1, 0, 0]);
+// prices = [1,6,10,14]  # 1 3 3.33 3.5 clen=4
+// assert gc(prices,1) , [1,0, 0,0]
+// assert gc(prices,2) , [0,1, 0,0]
+// assert gc(prices,3) , [0,0, 1,0]
+// assert gc(prices,4) , [0,0, 0,1]
+// assert gc(prices,5) , [0,1, 1,0]
+// assert gc(prices,6) , [0,1, 0,1]
+// assert gc(prices,7) , [0,0, 1,1]
+// assert gc(prices,8) , [0,0, 0,2]
+// assert gc(prices,9) , [0,1, 1,1]
+// assert gc(prices,10), [0,1, 0,2]
+// assert gc(prices,11), [0,0, 1,2]
+// assert gc(prices,12), [0,0, 0,3]
 
-assert(gc(prices, 3), [0, 0, 1, 0]);
+// prices = [5,6,7,10]  # 5 3 3.5 2.5 clen=1
+// assert gc(prices,1) , [1,0,0,0] # 5
+// assert gc(prices,2) , [2,0,0,0] # 10
+// assert gc(prices,3) , [3,0,0,0] # 15
+// assert gc(prices,4) , [4,0,0,0] # 20
+// assert gc(prices,5) , [5,0,0,0] # 25
+// assert gc(prices,6) , [6,0,0,0] # 30
+// assert gc(prices,7) , [7,0,0,0] # 35
+// assert gc(prices,8) , [8,0,0,0] # 40
+// assert gc(prices,9) , [9,0,0,0] # 45
+// assert gc(prices,10), [10,0,0,0] # 50
 
-assert(gc(prices, 4), [0, 2, 0, 0]);
-
-assert(gc(prices, 5), [0, 1, 1, 0]);
-
-assert(gc(prices, 6), [0, 0, 2, 0]);
-
-assert(gc(prices, 7), [0, 2, 1, 0]);
-
-assert(gc(prices, 8), [0, 1, 2, 0]);
-
-assert(gc(prices, 9), [0, 0, 3, 0]);
-
-assert(gc(prices, 10), [0, 2, 2, 0]);
-
-prices = [1, 6, 10, 14 // 1 3 3.33 3.5 clen=4
-];
-
-assert(gc(prices, 1), [1, 0, 0, 0]);
-
-assert(gc(prices, 2), [0, 1, 0, 0]);
-
-assert(gc(prices, 3), [0, 0, 1, 0]);
-
-assert(gc(prices, 4), [0, 0, 0, 1]);
-
-assert(gc(prices, 5), [0, 1, 1, 0]);
-
-assert(gc(prices, 6), [0, 1, 0, 1]);
-
-assert(gc(prices, 7), [0, 0, 1, 1]);
-
-assert(gc(prices, 8), [0, 0, 0, 2]);
-
-assert(gc(prices, 9), [0, 1, 1, 1]);
-
-assert(gc(prices, 10), [0, 1, 0, 2]);
-
-assert(gc(prices, 11), [0, 0, 1, 2]);
-
-assert(gc(prices, 12), [0, 0, 0, 3]);
-
-prices = [5, 6, 7, 10 // 5 3 3.5 2.5 clen=1
-];
-
-assert(gc(prices, 1), [1, 0, 0, 0 // 5
-]);
-
-assert(gc(prices, 2), [2, 0, 0, 0 // 10
-]);
-
-assert(gc(prices, 3), [3, 0, 0, 0 // 15
-]);
-
-assert(gc(prices, 4), [4, 0, 0, 0 // 20
-]);
-
-assert(gc(prices, 5), [5, 0, 0, 0 // 25
-]);
-
-assert(gc(prices, 6), [6, 0, 0, 0 // 30
-]);
-
-assert(gc(prices, 7), [7, 0, 0, 0 // 35
-]);
-
-assert(gc(prices, 8), [8, 0, 0, 0 // 40
-]);
-
-assert(gc(prices, 9), [9, 0, 0, 0 // 45
-]);
-
-assert(gc(prices, 10), [10, 0, 0, 0 // 50
-]);
-
-prices = [46, 64, 75, 96 // 46 32 25 24 clen=1
-];
-
-assert(gc(prices, 1), [1, 0, 0, 0 // 46
-]);
-
-assert(gc(prices, 2), [2, 0, 0, 0 // 92
-]);
-
-assert(gc(prices, 3), [3, 0, 0, 0 // ...
-]);
-
-assert(gc(prices, 4), [4, 0, 0, 0]);
-
-assert(gc(prices, 5), [5, 0, 0, 0]);
-
-assert(gc(prices, 6), [6, 0, 0, 0]);
-
-assert(gc(prices, 7), [7, 0, 0, 0]);
-
-assert(gc(prices, 8), [8, 0, 0, 0]);
-
-assert(gc(prices, 9), [9, 0, 0, 0]);
-
-assert(gc(prices, 10), [10, 0, 0, 0]);
+// prices = [46, 64, 75, 96] # 46 32 25 24 clen=1
+// assert gc(prices,1) , [1,0,0,0] # 46
+// assert gc(prices,2) , [2,0,0,0] # 92
+// assert gc(prices,3) , [3,0,0,0] # ...
+// assert gc(prices,4) , [4,0,0,0] #
+// assert gc(prices,5) , [5,0,0,0] #
+// assert gc(prices,6) , [6,0,0,0] #
+// assert gc(prices,7) , [7,0,0,0] #
+// assert gc(prices,8) , [8,0,0,0] #
+// assert gc(prices,9) , [9,0,0,0] #
+// assert gc(prices,10), [10,0,0,0] #
 
 // for k in range 100
 // 	prices = []
@@ -422,6 +320,6 @@ assert(gc(prices, 10), [10, 0, 0, 0]);
 // 	prices.sort()
 // 	print prices 
 // 	for i in range 1,101
-// 		print gc prices,i
+// 		print "#{gc prices,i}"
 // print 'Ready!'
 //# sourceMappingURL=sketch.js.map
