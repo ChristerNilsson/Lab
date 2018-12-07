@@ -9,19 +9,28 @@ class Button
 		if @state!=DONE then rect @x,@y,@w,@h
 		if @state==VISIBLE then text @title,@x,@y
 
+N = 6
 HIDDEN = 0
 VISIBLE = 1
 DONE = 2
 
+done = 0
 buttons = []
 alfabet = 'AABBCC'
+visible = []
 
 setup = ->
 	createCanvas 600,600
 	rectMode CENTER
 	textAlign CENTER,CENTER
 	textSize 42
-	for i in range 6
+	newGame()
+
+newGame = ->
+	alfabet = _.shuffle alfabet
+	buttons = []
+	done = 0
+	for i in range N
 		letter = alfabet[i]
 		buttons.push new Button letter,100+50*i,100
 
@@ -32,5 +41,24 @@ draw = ->
 
 mousePressed = ->
 	for button in buttons
-		if button.inside(mouseX,mouseY) 
-			button.state=VISIBLE
+		if button.inside mouseX,mouseY
+			if button.state != HIDDEN then return 
+			button.state = VISIBLE
+			switch visible.length
+				when 0
+					visible.push button					
+				when 1
+					a = button
+					b = visible[0]
+					if a.title == b.title
+						a.state = DONE
+						b.state = DONE
+						done += 2
+						visible=[]
+						if done==N then newGame()
+					else
+						visible.push button					
+				when 2
+					for b in visible
+						b.state = HIDDEN
+					visible = [button]
