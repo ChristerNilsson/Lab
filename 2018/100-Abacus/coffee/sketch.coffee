@@ -1,3 +1,6 @@
+# todo Anpassa till smart phone. Se någon app. 
+# Ska klara multi touch, dvs minst två samtidiga rörelser.
+
 class Digit
 	constructor : (@x,@y,@value=0) ->
 
@@ -58,7 +61,7 @@ draw = ->
 	fc 0
 	text msg, width/2,height/2
 
-mousePressed = ->
+mouseDragged = ->
 	i = (mouseX-25)//100
 	j = (mouseY+25)//25
 	if j==1
