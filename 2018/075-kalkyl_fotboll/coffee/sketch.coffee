@@ -4,7 +4,7 @@ highscore = 0
 timer = 2000
 images = null
 
-preload = -> images = (loadImage for filename in 'plan.jpg fotboll.png kalkyl.png kalkyl_vinst.png'.split ' ')
+preload = -> images = (loadImage filename for filename in 'plan.jpg fotboll.png kalkyl.png kalkyl_vinst.png'.split ' ')
 setup = ->
 	createCanvas images[0].width,images[0].height
 	textAlign CENTER,CENTER
@@ -16,6 +16,7 @@ draw = ->
 	bg 0
 	
 	fc 1,1,0,0.25
+	print images
 	image images[0], 0, 0 
 	text "Tid kvar: "+timer, width/2, 100
 	text "Antal fotbollar: "+highscore, width/2, height-100
