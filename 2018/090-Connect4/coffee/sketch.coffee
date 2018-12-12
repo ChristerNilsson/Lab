@@ -8,14 +8,12 @@ level = 0
 list = null
 moves = null
 dator = null
-human = null
 board = null
 delta = 0
 
 setup = ->
 	createCanvas 600,600
 	dator = new Computer()
-	human = new Human()
 	newGame()
 	textAlign CENTER,CENTER
 	textSize SIZE/2
@@ -75,6 +73,3 @@ mousePressed = ->
 	if board.moves.length == M*N then delta = 0
 
 undo : -> if moves.length > 0 then list[moves.pop()].pop()
-
-class Human
-	constructor : -> 
