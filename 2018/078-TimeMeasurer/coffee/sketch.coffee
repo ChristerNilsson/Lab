@@ -69,12 +69,15 @@ setup = ->
 	db = JSON.parse s
 
 	hash = getParameters()
-	if hash != undefined 
+	print hash
+	if hash == undefined 
+		names = 'christer'
+	else
 		names = hash['names']
-		for name,i in names.split '|'
-			konto = db[name]
-			if konto == null then konto = 0
-			persons.push new Person name,150+i*50,konto
+	for name,i in names.split '|'
+		konto = db[name]
+		if konto == null then konto = 0
+		persons.push new Person name,150+i*50,konto
 
 	sc()
 	textSize 20
