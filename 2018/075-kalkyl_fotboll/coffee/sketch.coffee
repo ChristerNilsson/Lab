@@ -16,7 +16,6 @@ draw = ->
 	bg 0
 	
 	fc 1,1,0,0.25
-	print images
 	image images[0], 0, 0 
 	text "Tid kvar: "+timer, width/2, 100
 	text "Antal fotbollar: "+highscore, width/2, height-100
