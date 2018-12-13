@@ -6,6 +6,7 @@ new Vue({
   methods: {
     decodeQr (v) {
       this.message = v
+      // Här hanteras inscannade strängar!
       //console.log('holi', v)
     },
     async onInit (promise) {
