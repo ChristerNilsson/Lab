@@ -1,6 +1,6 @@
 process = (dy,t) ->
 	for txt,i in t
-		if i==0 or i%2==1 
+		if 'string' == typeof txt 
 			fc if i in [0,1] then 1 else 0.5
 			textSize if i in [0,1] then 20 else 24
 			textAlign LEFT
@@ -10,17 +10,17 @@ process = (dy,t) ->
 			for s,j in txt
 				textAlign [LEFT,CENTER,RIGHT][j]
 				x = [20,width/2,width-20][j]
-				fc [1,1,0][j],[0,1,1][j],0
+				fc [1,1,0][j],[0,1,1][j],0 # red yellow green
 				text s,x,dy+i*dy
 
 setup = ->
-	createCanvas 1150,600
+	createCanvas 850,700
 	bg 0
 	sc()
 
 	# process 40, [
-	# 	'Problemlösning:'
-	# 	'Förmågan att formulera och lösa problem med hjälp av matematik samt värdera valda strategier och metoder.'
+	# 	'Problemlösning: Förmågan att formulera och lösa problem med'
+	# 	'hjälp av matematik samt värdera valda strategier och metoder.'
 	# 	['E','C','A']
 	# 	'Eleven kan lösa olika problem i bekanta situationer på ett'
 	# 	['i huvudsak','relativt väl','väl']
@@ -34,18 +34,21 @@ setup = ->
 	# ]
 
 	process 40, [
-		'Begrepp:' 
-		'Förmågan att använda och analysera matematiska begrepp och samband mellan begrepp.' 
+		'Begrepp: Förmågan att använda och analysera'
+		'matematiska begrepp och samband mellan begrepp.' 
 		['E','C','A']
 		'Eleven har'
 		['grundläggande','goda','mycket goda']
-		'kunskaper om matematiska begrepp och visar det genom att använda dem i'
+		'kunskaper om matematiska begrepp och'
+		' visar det genom att använda dem i'
 		['välkända','bekanta','nya']
 		'sammanhang på ett'
 		['i huvudsak','relativt väl','väl']
-		'fungerande sätt. Eleven kan även beskriva olika begrepp med hjälp av matematiska uttrycksformer på ett'
+		'fungerande sätt. Eleven kan även beskriva olika begrepp'
+		'med hjälp av matematiska uttrycksformer på ett'
 		['i huvudsak','relativt väl','väl']
-		'fungerande sätt. I beskrivningarna kan eleven växla mellan olika uttrycksformer samt föra'
+		'fungerande sätt. I beskrivningarna kan eleven'
+		'växla mellan olika uttrycksformer samt föra'
 		['enkla','utvecklade','välutvecklade']
 		'resonemang kring hur begreppen relaterar till varandra.'
 	]

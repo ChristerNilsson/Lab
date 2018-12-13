@@ -8,7 +8,7 @@ process = function process(dy, t) {
   results = [];
   for (i = k = 0, len = t.length; k < len; i = ++k) {
     txt = t[i];
-    if (i === 0 || i % 2 === 1) {
+    if ('string' === typeof txt) {
       fc(i === 0 || i === 1 ? 1 : 0.5);
       textSize(i === 0 || i === 1 ? 20 : 24);
       textAlign(LEFT);
@@ -22,7 +22,7 @@ process = function process(dy, t) {
           s = txt[j];
           textAlign([LEFT, CENTER, RIGHT][j]);
           x = [20, width / 2, width - 20][j];
-          fc([1, 1, 0][j], [0, 1, 1][j], 0);
+          fc([1, 1, 0][j], [0, 1, 1][j], 0); // red yellow green
           results1.push(text(s, x, dy + i * dy));
         }
         return results1;
@@ -33,12 +33,12 @@ process = function process(dy, t) {
 };
 
 setup = function setup() {
-  createCanvas(1150, 600);
+  createCanvas(850, 700);
   bg(0);
   sc();
   // process 40, [
-  // 	'Problemlösning:'
-  // 	'Förmågan att formulera och lösa problem med hjälp av matematik samt värdera valda strategier och metoder.'
+  // 	'Problemlösning: Förmågan att formulera och lösa problem med'
+  // 	'hjälp av matematik samt värdera valda strategier och metoder.'
   // 	['E','C','A']
   // 	'Eleven kan lösa olika problem i bekanta situationer på ett'
   // 	['i huvudsak','relativt väl','väl']
@@ -50,7 +50,7 @@ setup = function setup() {
   // 	['','efter någon bearbetning','']
   // 	'kan tillämpas i sammanhanget.'
   // ]
-  return process(40, ['Begrepp:', 'Förmågan att använda och analysera matematiska begrepp och samband mellan begrepp.', ['E', 'C', 'A'], 'Eleven har', ['grundläggande', 'goda', 'mycket goda'], 'kunskaper om matematiska begrepp och visar det genom att använda dem i', ['välkända', 'bekanta', 'nya'], 'sammanhang på ett', ['i huvudsak', 'relativt väl', 'väl'], 'fungerande sätt. Eleven kan även beskriva olika begrepp med hjälp av matematiska uttrycksformer på ett', ['i huvudsak', 'relativt väl', 'väl'], 'fungerande sätt. I beskrivningarna kan eleven växla mellan olika uttrycksformer samt föra', ['enkla', 'utvecklade', 'välutvecklade'], 'resonemang kring hur begreppen relaterar till varandra.']);
+  return process(40, ['Begrepp: Förmågan att använda och analysera', 'matematiska begrepp och samband mellan begrepp.', ['E', 'C', 'A'], 'Eleven har', ['grundläggande', 'goda', 'mycket goda'], 'kunskaper om matematiska begrepp och', ' visar det genom att använda dem i', ['välkända', 'bekanta', 'nya'], 'sammanhang på ett', ['i huvudsak', 'relativt väl', 'väl'], 'fungerande sätt. Eleven kan även beskriva olika begrepp', 'med hjälp av matematiska uttrycksformer på ett', ['i huvudsak', 'relativt väl', 'väl'], 'fungerande sätt. I beskrivningarna kan eleven', 'växla mellan olika uttrycksformer samt föra', ['enkla', 'utvecklade', 'välutvecklade'], 'resonemang kring hur begreppen relaterar till varandra.']);
 };
 
 // 1:                                                                                                                                                                     
