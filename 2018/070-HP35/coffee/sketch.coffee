@@ -132,6 +132,8 @@ setup = ->
 	buttons.push new Button 35,'.',x7,y7
 	buttons.push new Button 34,'pi',x8,y7
 
+	frameRate 10
+
 dump = (name,lst,y,n=14) ->
 	if not hp.TRACE then return 
 	fc 1,1,0
@@ -171,7 +173,7 @@ draw = ->
 	y = 395
 	dump1 'p', hp.p
 	dump1 'carry', hp.carry
-	dump1 'offset', hp.offset
+	dump1 'offset:pc', "#{hp.offset}:#{hp.pc}"
 	dump1 'display_enable',hp.display_enable
 	dump1 'update_display',hp.update_display
 	dump1 'op_code', hp.op_code
