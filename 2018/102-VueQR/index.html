@@ -1,0 +1,13 @@
+<script src="https://unpkg.com/vue"></script>
+<link rel="stylesheet" href="https://unpkg.com/vue-qrcode-reader@1.2.2/dist/vue-qrcode-reader.css"/>
+<script src="https://unpkg.com/vue-qrcode-reader@1.2.2/dist/vue-qrcode-reader.browser.js"></script>
+
+
+<div id="app">
+  <p>{{ message }}</p>
+  <qrcode-reader @decode="decodeQr" @init="onInit">
+  </qrcode-reader>
+</div>
+
+
+<script src="js/sketch.js"></script>
