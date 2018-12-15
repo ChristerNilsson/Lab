@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,MAAA,MAAA,MAAA,GAAA,cAAA,QAAA,OAAA;;AAAA;mBAAU;cAAA;;AAAA,OAAA,kCAAA;;iBAAF,AAAE;AAAA;;;;AACV,QAAQ;;AAER,QAAQ;AACP,eAAa,AAAb,KAAiB,AAAjB;AACA,YAAU,AAAV,QAAiB,AAAjB;SACA,SAAS,AAAT,AAHO;;;AAKR,OAAM,aAAC,AAAD,GAAI,AAAJ;AAAU,MAAG,MAAK,AAAR;WAAe,AAAf;AAAA,SAAA;WAAsB,KAAI,AAAJ,GAAO,IAAI,AAAX,AAAtB;AAAV;;;AAEN,SAAS,gBAAC,AAAD,GAAG,AAAH,GACR;MAAA;AAAA,MAAG,MAAK,AAAR,GAAe;WAAO,AAAtB;;AACA,MAAI,KAAI,AAAJ,GAAM,AAAN;AACJ,iBAAA,IAAM;AACN,iBAAA,IAAM;AACN,MAAG,MAAK,AAAR;WAAe,AAAf;AAAA,SAAA;AAAsB,WAAG,AAAH,AAAK,AAAL,UAAQ,AAAR,AAAtB;AALQ;;;AAOT,OAAO,gBACN;MAAA,GAAA,KAAA,MAAA,KAAA;AAAA,KAAG,AAAH,AACA;2EAAA;;AAAA,OAAA,4CAAA;;AACC,SAAK,AAAL,MAAU,AAAV,IAAa,KAAG,IAAE,AAAlB;AACA,QAAG,AAAK,KAAA,AAAL,KAAQ,AAAX;AAAkB,WAAK,AAAK,KAAA,AAAV,IAAa,AAAb,KAAiB,KAAG,IAAE,AAAtB,AAAlB;;iBACA,AAAK,UAAG,OAAO,AAAP,OAAa,AAAK,KAAA,AAAlB,AAAH,AAAL,KAA+B,AAA/B,KAAmC,KAAG,IAAE,AAAxC,AAHD;AAAA;SAFM;;;AAOP,eAAe;AACd,iBAAI,SAAQ;AACZ,AAAK,OAAA,AAAL;SACA,AAHc",
+  "sourcesContent": [
+    "bets = (0 for i in range 10)\r\ntotal = 0\r\n\r\nsetup = ->\r\n\tcreateCanvas 200,200\r\n\ttextAlign CENTER,CENTER\r\n\ttextSize 20\r\n\r\ngcd = (x, y) -> if y == 0 then x else gcd y, x % y\r\n\r\npretty = (a,b) ->\r\n\tif b == 0 then return ''\r\n\tg = gcd a,b\r\n\ta //= g\r\n\tb //= g\r\n\tif b == 1 then a else \"#{a}/#{b}\"\r\n\r\ndraw = ->\r\n\tbg 0.5\r\n\tfor name,i in 'Adam Bertil Cesar David Erik Filip Gustav Helge Ivar Johan'.split ' '\r\n\t\ttext name,50,10+i*20\r\n\t\tif bets[i]>0 then text bets[i],100,10+i*20\r\n\t\ttext \"#{pretty total,bets[i]}\",150,10+i*20\r\n\r\nmousePressed = ->\r\n\ti = mouseY//20\r\n\tbets[i]++\r\n\ttotal++\r\n"
+  ]
+}
