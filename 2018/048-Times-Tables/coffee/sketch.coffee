@@ -21,4 +21,9 @@ draw = ->
 		line x1, y1, x2, y2
 	if not pause then times++
 
-mousePressed = -> pause = not pause
+mousePressed = -> 
+	if n > dist n,n,mouseX,mouseY 
+		pause = not pause
+	else if mouseX < n
+		times--
+	else times++		

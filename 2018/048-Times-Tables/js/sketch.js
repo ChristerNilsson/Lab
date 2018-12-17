@@ -37,6 +37,12 @@ draw = function draw() {
 };
 
 mousePressed = function mousePressed() {
-  return pause = !pause;
+  if (n > dist(n, n, mouseX, mouseY)) {
+    return pause = !pause;
+  } else if (mouseX < n) {
+    return times--;
+  } else {
+    return times++;
+  }
 };
 //# sourceMappingURL=sketch.js.map
