@@ -16,7 +16,8 @@ setup = function setup() {
 
 draw = function draw() {
   var i, j, len, ref, x1, x2, y1, y2;
-  bg(1);
+  bg(0);
+  sc(1);
   translate(width / 2, height / 2);
   scale(n);
   ref = range(360);

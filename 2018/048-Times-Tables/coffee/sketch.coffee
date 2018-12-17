@@ -8,7 +8,8 @@ setup = ->
 	sw 1/n
 
 draw = ->
-	bg 1
+	bg 0
+	sc 1
 	translate width/2, height/2	
 	scale n
 	for i in range 360
