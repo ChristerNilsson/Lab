@@ -1,5 +1,6 @@
 times = 0
 n = null
+pause = false 
 
 setup = -> 
 	createCanvas windowWidth, windowHeight
@@ -9,7 +10,7 @@ setup = ->
 
 draw = ->
 	bg 0
-	sc 1
+	sc 1,0,0,0.5
 	translate width/2, height/2	
 	scale n
 	for i in range 360
@@ -18,4 +19,6 @@ draw = ->
 		x2 = cos i * times/2000
 		y2 = sin i * times/2000
 		line x1, y1, x2, y2
-	times++
+	if not pause then times++
+
+mousePressed = -> pause = not pause
