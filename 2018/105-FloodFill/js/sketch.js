@@ -18,7 +18,7 @@ setup = function setup() {
 };
 
 floodFill = function floodFill(x, y, c2) {
-  var add, c1, start;
+  var add, c1;
   add = function add(x, y) {
     if (_.isEqual(c1, get(x, y))) {
       return stack.push([x, y]);
@@ -26,7 +26,6 @@ floodFill = function floodFill(x, y, c2) {
   };
   stack.push([x, y]);
   c1 = get(x, y);
-  start = new Date();
   while (stack.length > 0) {
     var _stack$pop = stack.pop();
 

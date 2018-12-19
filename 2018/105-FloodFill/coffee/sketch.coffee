@@ -16,7 +16,6 @@ floodFill = (x,y,c2) ->
 
 	stack.push [x,y]
 	c1 = get x,y
-	start = new Date()
 	while stack.length > 0
 		[x,y] = stack.pop()
 		set x,y,c2
