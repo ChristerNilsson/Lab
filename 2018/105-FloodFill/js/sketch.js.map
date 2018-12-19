@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;AAAA,IAAA,WAAA,cAAA,OAAA;;AAAA,QAAQ;;AAER,QAAQ;AACP,eAAA,AAAa,KAAb,AAAiB;AACjB,aAAA,AAAW;AACX;AACA,QAAA,AAAM;AACN,SAAA,AAAO,IAAP,AAAU,IAAV,AAAa;AACb,SAAA,AAAO,IAAP,AAAU,IAAV,AAAa;SACb,OAAA,AAAO,IAAP,AAAU,IAPH,AAOP,AAAa;;;AAEd,YAAY,mBAAA,AAAC,GAAD,AAAG,GAAH,AAAK,IAChB;MAAA,KAAA,IAAA;AAAA,QAAM,aAAA,AAAC,GAAD,AAAG;AACR,QAAG,AAAC,EAAD,AAAE,QAAF,AAAU,IAAI,IAAA,AAAI,GAArB,AAAG,AAAc,AAAM;aACtB,AAAK,MAAL,AAAM,KAAK,CAAA,AAAC,GADb,AACC,AAAW,AAAG;AAFV;;AAIN,AAAK,QAAL,AAAM,KAAK,CAAA,AAAC,GAAZ,AAAW,AAAG;AACd,OAAK,IAAA,AAAI,GAAJ,AAAM;AACX,UAAQ,IAAA,AAAI,AACZ;SAAM,AAAK,MAAL,AAAM,SAAZ,AAAqB;AACpB,qBAAQ,AAAK,MAAL,AAAM;;;;AAAd,AAAC;AAAD,AAAG;;AACH,QAAA,AAAI,GAAJ,AAAM,GAAN,AAAQ;AACR,QAAI,IAAJ,AAAM,GAAN,AAAQ;AACR,QAAI,IAAJ,AAAM,GAAN,AAAQ;AACR,QAAA,AAAI,GAAE,IAAN,AAAQ;AACR,QAAA,AAAI,GAAE,IANP,AAMC,AAAQ;;SAdE,AAeX;;;AAED,eAAe;SAAG,UAAA,AAAU,QAAV,AAAiB,QAAO,CAAA,AAAC,KAAD,AAAK,GAAL,AAAO,GAAlC,AAAG,AAAwB,AAAS",
+  "sourcesContent": [
+    "stack = []\r\n\r\nsetup = ->\r\n\tcreateCanvas 750,750\r\n\tbackground 128\r\n\tnoFill()\r\n\tscale 15\r\n\tcircle 15,20,15\r\n\tcircle 30,15,15\r\n\tcircle 25,35,15\r\n\r\nfloodFill = (x,y,c2) ->\r\n\tadd = (x,y) ->\r\n\t\tif _.isEqual c1, get x,y\r\n\t\t\tstack.push [x,y] \r\n\r\n\tstack.push [x,y]\r\n\tc1 = get x,y\r\n\tstart = new Date()\r\n\twhile stack.length > 0\r\n\t\t[x,y] = stack.pop()\r\n\t\tset x,y,c2\r\n\t\tadd x+1,y\r\n\t\tadd x-1,y\r\n\t\tadd x,y-1\r\n\t\tadd x,y+1\r\n\tupdatePixels()\r\n\r\nmousePressed = -> floodFill mouseX,mouseY,[255,0,0,255]"
+  ]
+}
