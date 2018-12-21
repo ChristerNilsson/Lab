@@ -4,10 +4,10 @@ setup = ->
 	createCanvas 750,750
 	background 128
 	noFill()
-	scale 15
-	circle 15,20,15
-	circle 30,15,15
-	circle 25,35,15
+	scale 14
+	circle 16,21,15
+	circle 31,16,15
+	circle 26,36,15
 
 floodFill = (x,y,c2) ->
 	add = (x,y) ->
@@ -25,4 +25,8 @@ floodFill = (x,y,c2) ->
 		add x,y+1
 	updatePixels()
 
-mousePressed = -> floodFill mouseX,mouseY,[255,0,0,255]
+mousePressed = -> 
+	r = random 256
+	g = random 256
+	b = random 256
+	floodFill mouseX,mouseY,[r,g,b,255]

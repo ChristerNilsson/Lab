@@ -11,10 +11,10 @@ setup = function setup() {
   createCanvas(750, 750);
   background(128);
   noFill();
-  scale(15);
-  circle(15, 20, 15);
-  circle(30, 15, 15);
-  return circle(25, 35, 15);
+  scale(14);
+  circle(16, 21, 15);
+  circle(31, 16, 15);
+  return circle(26, 36, 15);
 };
 
 floodFill = function floodFill(x, y, c2) {
@@ -44,6 +44,10 @@ floodFill = function floodFill(x, y, c2) {
 };
 
 mousePressed = function mousePressed() {
-  return floodFill(mouseX, mouseY, [255, 0, 0, 255]);
+  var b, g, r;
+  r = random(256);
+  g = random(256);
+  b = random(256);
+  return floodFill(mouseX, mouseY, [r, g, b, 255]);
 };
 //# sourceMappingURL=sketch.js.map
