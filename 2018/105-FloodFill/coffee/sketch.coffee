@@ -19,8 +19,8 @@ floodFill = (x,y,c2) ->
 	while stack.length > 0
 		[x,y] = stack.pop()
 		set x,y,c2
-		add x+1,y
 		add x-1,y
+		add x+1,y
 		add x,y-1
 		add x,y+1
 	updatePixels()

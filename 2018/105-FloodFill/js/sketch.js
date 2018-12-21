@@ -35,8 +35,8 @@ floodFill = function floodFill(x, y, c2) {
     y = _stack$pop2[1];
 
     set(x, y, c2);
-    add(x + 1, y);
     add(x - 1, y);
+    add(x + 1, y);
     add(x, y - 1);
     add(x, y + 1);
   }
