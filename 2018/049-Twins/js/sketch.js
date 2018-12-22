@@ -564,8 +564,7 @@ within = function within(i, j) {
 };
 
 keyPressed = function keyPressed() {
-  keys = keys + key;
-  print(keys);
+  keys += key;
   if (keys.endsWith('QPZM')) {
     keys = '';
     return showHint = !showHint;

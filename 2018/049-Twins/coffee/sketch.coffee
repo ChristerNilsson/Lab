@@ -305,8 +305,7 @@ drawLittera = (i,j) ->
 within = (i,j) -> 0 <= i < Size and 0 <= j < Size
 
 keyPressed = ->
-	keys = keys + key 
-	print keys
+	keys += key 
 	if keys.endsWith 'QPZM'
 		keys = ''
 		showHint = not showHint
