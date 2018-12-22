@@ -1,25 +1,38 @@
-import time
 import random
+import time
 
-def findCycle(prices):
+# Constant Time bygger på att man sätter kostnaderna for storre delar till noll. Kanske inte ok.
+
+def findCycle(prices): # Find best price per unit
 	lst = [[price / (i + 1), i + 1] for i, price in enumerate(prices)]
+	#print(' '.join(["{:0}:{:.3}".format(index,value) for value,index in lst]))
 	q, clen = max(lst)
-	return [len(prices)*clen,clen]
+	print(prices,clen)
+	# Offset can be smaller, but hard to find rules for this.
+	return [len(prices)*clen,clen] # Offset and cycle length
 
-# Quadratic + Parts
-def g(v, n2):
+# Find optimum using dynamic programming
+def g(v, n2,show=False):
+	start = time.clock()
+	antal = 0
+	nn = n2*n2//4
 	n1 = len(v)
 	c = v + [0] * n2
 	parts = []
 	for i in range(n2):
 		max_c = c[i]
 		indexes = [i]
-		for j in range(i//2):  # i
+		for j in range((i+1) // 2):
+			antal += 1
 			k = i - j - 1
 			temp = c[j] + c[k]
 			if temp > max_c:
 				max_c = temp
 				indexes = [k, j]
+
+		# if show and i%1000==0 and antal>0:
+		# 	s = "{:.2f}% of {:.6f} seconds".format(100 * antal / nn, nn / antal * (time.clock() - start))
+		# 	sys.stdout.write("\r" + s)
 
 		c[i] = max_c
 		part = [0] * n1
@@ -34,14 +47,18 @@ def g(v, n2):
 		parts.append(part)
 		#print(' ' if i+1<10 else '',i+1,part,c[i],c[i]-c[i-1])
 
+	#print(antal,nn)
+	#sys.stdout.write("\r")
+	#sys.stdout.flush()
+	#print()
 	return [part,c[0:n1]]
 
 
-# Constant + Parts
-def gc(prices, n): # n och offset är 1-based
+# Find optimal parts using quick method
+def gc(prices, n): # n and offset are 1-based
 	if n < offset: return g(prices, n)
 	part,c = g(prices, offset + (n-offset) % clen)
-	part[clen-1] = part[clen-1] + (n-offset) // clen
+	part[clen-1] += (n-offset) // clen # add to best paid unit size
 	return part,c
 
 #########################
@@ -49,48 +66,63 @@ def gc(prices, n): # n och offset är 1-based
 offset = None
 clen = None
 
-def solveSlow(prices,n):  return g(prices, n)
+def solveSlow(prices,n):  return g(prices, n, True)
 def solveQuick(prices,n): return gc(prices, n)
 def total(parts,prices):  return sum([parts[i] * prices[i] for i in range(len(parts))])
 
 def solve(prices,N):
 	global offset, clen
 	offset, clen = findCycle(prices)
+	#print(offset,clen)
 	return solveQuick(prices,N)
 
-start = time.clock()
-prices = [8, 40, 40, 162, 191, 244, 261, 264, 265, 337, 348, 353, 445, 497, 506, 582, 852, 887, 913, 927]
-#prices=[25, 31, 42, 52, 92, 107, 115, 117, 140, 161, 168, 214, 246, 247, 269, 359, 366, 414, 421, 449, 455, 508, 598, 599, 611, 616, 626, 648, 658, 660, 669, 701, 752, 760, 790, 876, 897, 898, 954, 977]
+def testBench(N):
+	#print()
+	#print('N',N)
+	start = time.clock()
+	prices = [8, 40, 40, 162, 191, 244, 261, 264, 265, 337, 348, 353, 445, 497, 506, 582, 852, 887, 913, 927]
+	#prices = [1,5,8,9,10,17,17,20]
+	#prices=[25, 31, 42, 52, 92, 107, 115, 117, 140, 161, 168, 214, 246, 247, 269, 359, 366, 414, 421, 449, 455, 508, 598, 599, 611, 616, 626, 648, 658, 660, 669, 701, 752, 760, 790, 876, 897, 898, 954, 977]
+	#print('Prices',prices)
+	count,newPrices = solve(prices,N)
+	#print('Prices',prices)
+	#print('prices',newPrices)
+	#print('RodSize',N)
+	#print('Size','Price','Count')
+	#for i in range(len(prices)):
+	#	print("{0:4}".format(i+1), "{0:5}".format(prices[i]),"{0:5}".format(count[i]))
+	#print('Count',count)
+	total1 = total(count,prices)
+	#print('Total',total1)
+	#print('Method A:', "{:6f} secs".format(time.clock() - start))
 
-N = 1000
+	#print()
+	start = time.clock()
+	count,newPrices = solveSlow(prices,N)
+	#print('Count',count)
+	total2 = total(count,prices)
+	#print('Total',total2)
+	#print('prices',newPrices)
+	#print('Method B:', "{:6f} secs".format(time.clock() - start))
 
-print('Constant Time Method:')
-count,newPrices = solve(prices,N)
-#print('Prices',prices)
-#print('prices',newPrices)
-print('RodSize',N)
-print('Size','Price','Count')
-for i in range(len(prices)):
-	print("{0:4}".format(i+1), "{0:5}".format(prices[i]),"{0:5}".format(count[i]))
-print('Total',total(count,prices))
-print(int(1000 * (time.clock() - start)),'ms')
+	if total1!=total2:
+		print('Diff!',N)
 
-print()
-print('Quadratic Time Method (Dynamic Programming):')
-start = time.clock()
-count,newPrices = solveSlow(prices,N)
-print('Count',count)
-#print('prices',newPrices)
-print(int(1000 * (time.clock() - start)),'ms')
+
+# for N in [1006]: #range(1000,1020):
+# 	testBench(N)
 
 ########################### TEST #################################
 
 TRACE = False
 #TRACE = True
 
-def testa(prices,N=100):
+def testa(prices,N=1000):
 	#print()
 	#print(prices)
+
+	#N = random.randint(1000,1020)
+	#print(N)
 
 	global offset, clen
 	offset, clen = findCycle(prices)
@@ -102,53 +134,56 @@ def testa(prices,N=100):
 	part2,newPrices2 = solveQuick(prices,N)
 	lstsum2 = total(part2,prices)
 
-	print(prices)
-	print('part1',part1)
+	#print(prices)
+	#print('part1',part1)
 	#print('part2',part2)
 	#print('lstsum',lstsum1,lstsum2)
 	#print('newPrices1',newPrices1)
 	#print('newPrices2',newPrices2)
 
 	assert lstsum1 == lstsum2
-	#assert part1 == part2
+	#assert part1 == part2 # might be different if same value per unit
 	assert newPrices1 == newPrices2
 
-while 0 and True:
-	prices = [int(1000 * random.random()) for i in range(40)]
-	prices.sort()
-	testa(prices)
+#for N in [8,10,100,1000]:
+#		testa([1,5,8,9,10,17,17,20],N)
 
-# testa([55, 110, 143, 201, 205, 227, 239, 353, 369, 376, 423, 467, 536, 547, 582, 696, 822, 849, 936, 973])
-# testa([16, 45, 48, 51, 85, 125, 147, 158, 293, 351, 374, 398, 417, 424, 439, 625, 651, 677, 872, 913]) # clen = 19
-# testa([14, 70, 188, 516, 534, 539, 579, 605, 609, 619, 696, 702, 744, 792, 818, 822, 866, 891, 910, 954]) # clen=4
-# testa([12, 75, 130, 163, 238, 250, 254, 258, 269, 362, 365, 367, 414, 580, 675, 761, 787, 823, 825, 931]) # clen=5
-# testa([50, 103, 113, 117, 350, 395, 462, 503, 520, 596, 656, 699, 755, 797, 826, 899, 920, 945, 962, 982]) # clen=5
-# testa([7, 71, 86, 98, 181, 372, 400, 435, 506, 537, 615, 632, 664, 764, 812, 890, 921, 977, 977, 999]) # clen=6
-#
+# #
 # # GRUPP B
-# testa([5, 32, 41, 44, 51, 80, 84, 85, 86, 95]) # clen=2
-# testa([1, 10, 46, 58, 74, 75, 79, 89, 89, 94]) # clen=3
-# testa([3, 10, 31, 38, 42, 52, 57, 69, 75, 93]) # clen=3
-# testa([3, 3, 17, 60, 63, 69, 73, 81, 82, 93]) # clen=4
-# testa([16, 17, 19, 21, 21, 30, 45, 47, 83, 85]) # clen=1
-# testa([2, 39, 43, 49, 69, 90, 91, 92, 94, 96])  # clen=2
-# testa([9, 22, 26, 31, 46, 49, 55, 55, 93, 97])  # clen=2
-# testa([5, 32, 41, 44, 51, 80, 84, 85, 86, 95])  # clen=2
-# testa([0, 0, 31, 41, 62, 66, 72, 79, 93, 99])   # clen=5
-# testa([15, 26, 27, 35, 54, 54, 54, 72, 74, 91]) # clen=1
+testa([5, 32, 41, 44, 51, 80, 84, 85, 86, 95]) # clen=2
+testa([1, 10, 46, 58, 74, 75, 79, 89, 89, 94]) # clen=3
+testa([3, 10, 31, 38, 42, 52, 57, 69, 75, 93]) # clen=3
+testa([3, 3, 17, 60, 63, 69, 73, 81, 82, 93]) # clen=4
+testa([16, 17, 19, 21, 21, 30, 45, 47, 83, 85]) # clen=1
+testa([2, 39, 43, 49, 69, 90, 91, 92, 94, 96])  # clen=2
+testa([9, 22, 26, 31, 46, 49, 55, 55, 93, 97])  # clen=2
+testa([5, 32, 41, 44, 51, 80, 84, 85, 86, 95])  # clen=2
+testa([0, 0, 31, 41, 62, 66, 72, 79, 93, 99])   # clen=5
+testa([15, 26, 27, 35, 54, 54, 54, 72, 74, 91]) # clen=1
 # #
 # # GRUPP C
-# testa([1, 6, 8, 26, 31, 44, 64, 65, 73, 91]) # hopp=2 clen=7
-# testa([3, 8, 18, 24, 30, 32, 77, 82, 98, 99]) # hopp=2 clen=7
-# testa([3, 6, 7, 12, 15, 47, 55, 76, 86, 88]) # hoppar 2 clen=9
-# testa([2, 4, 6, 24, 25, 35, 39, 75, 76, 84])    # hoppar 6 clen=8
-# testa([1, 3, 15, 17, 19, 28, 64, 71, 78, 84])   # hoppar 3 clen=7
-# testa([2, 4, 7, 19, 22, 37, 39, 60, 75, 78])   # hoppar 5 clen=9
-# testa([7, 12, 24, 30, 31, 39, 42, 52, 79, 94])  # clen=10
-# testa([1,3,4,7,9,11,13,17,19,21]) # clen=8
-# testa([1, 3, 15, 17, 19, 28, 64, 71, 78, 84]) # clen=7
-# testa([3, 3, 9, 10, 17, 25, 37, 62, 80, 88]) #
+testa([1, 6, 8, 26, 31, 44, 64, 65, 73, 91]) # hopp=2 clen=7
+testa([3, 8, 18, 24, 30, 32, 77, 82, 98, 99]) # hopp=2 clen=7
+testa([3, 6, 7, 12, 15, 47, 55, 76, 86, 88]) # hoppar 2 clen=9
+testa([2, 4, 6, 24, 25, 35, 39, 75, 76, 84])    # hoppar 6 clen=8
+testa([1, 3, 15, 17, 19, 28, 64, 71, 78, 84])   # hoppar 3 clen=7
+testa([2, 4, 7, 19, 22, 37, 39, 60, 75, 78])   # hoppar 5 clen=9
+testa([7, 12, 24, 30, 31, 39, 42, 52, 79, 94])  # clen=10
+testa([1,3,4,7,9,11,13,17,19,21]) # clen=8
+testa([1, 3, 15, 17, 19, 28, 64, 71, 78, 84]) # clen=7
+testa([3, 3, 9, 10, 17, 25, 37, 62, 80, 88]) #
 
+testa([55, 110, 143, 201, 205, 227, 239, 353, 369, 376, 423, 467, 536, 547, 582, 696, 822, 849, 936, 973])
+testa([16, 45, 48, 51, 85, 125, 147, 158, 293, 351, 374, 398, 417, 424, 439, 625, 651, 677, 872, 913]) # clen = 19
+testa([14, 70, 188, 516, 534, 539, 579, 605, 609, 619, 696, 702, 744, 792, 818, 822, 866, 891, 910, 954]) # clen=4
+testa([12, 75, 130, 163, 238, 250, 254, 258, 269, 362, 365, 367, 414, 580, 675, 761, 787, 823, 825, 931]) # clen=5
+testa([50, 103, 113, 117, 350, 395, 462, 503, 520, 596, 656, 699, 755, 797, 826, 899, 920, 945, 962, 982]) # clen=5
+testa([7, 71, 86, 98, 181, 372, 400, 435, 506, 537, 615, 632, 664, 764, 812, 890, 921, 977, 977, 999]) # clen=6
+
+while 0 and True:
+	prices = [int(1000 * random.random()) for i in range(30)]
+	prices.sort()
+	testa(prices)
 
 #############
 # Graveyard #
