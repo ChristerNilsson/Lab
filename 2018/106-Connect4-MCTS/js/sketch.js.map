@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,cAAA,MAAA,MAAA,WAAA,MAAA,cAAA,OAAA,OAAA;;AAAA,OAAO;;AACP,OAAO;;AACP,QAAQ;;AACR,SAAS;;AAET,QAAQ;AACP,eAAA,AAAa,KAAb,AAAiB;AACjB,SAAO,IAAA,AAAI;AACX,SAAO,IAAA,AAAI,WAAJ,AAAe;AACtB,UAAQ,AAAI,KAAJ,AAAK;AACb,WAAS,AAAI,KAAJ,AAAK,OAAL,AAAY;SALd,AAMP;;;AAED,eAAe;MACd,MAAA;AAAA,AAAI,OAAJ,AAAK,UAAL,AAAe,OAAf,AAAsB,GAAtB;AACA,UAAQ,AAAI,KAAJ,AAAK,SAAL,AAAc;AACtB,SAAO,AAAI,KAAJ,AAAK,SAAL,AAAc,OAAd,AAAqB;AAC5B,UAAQ,AAAI,KAAJ,AAAK,UAAL,AAAe,OAAf,AAAsB;SAC9B,SAAS,AAAI,KAAJ,AAAK,OALA,AAKL,AAAY;;;AAEtB,YAAY,qBACX;MAAA,GAAA,OAAA,GAAA,KAAA,MAAA,KAAA;AAAA,qBAAQ,CAAC,SAAD,AAAQ,MAAK,AACrB;;AAAA,OAAA,kCAAA;;AACC,QAAG,AAAK,MAAC,AAAM,MAAA,AAAG,GAAf,AAAe,WAAlB,AAA0B;AAAO,YAAjC,AAAuC;AADxC;;AAEA,SAAO,IAAA,AAAI,KAAJ,AAAS,KAAT,AAAa;AACpB,UAAQ,AAAI,KAAJ,AAAK,UAAL,AAAe,OAAf,AAAsB;SAC9B,SAAS,AAAI,KAAJ,AAAK,OANH,AAMF,AAAY;;;AAEtB,eAAe;AACd;AACA,MAAA,AAAG,QAAY;WAAf,AAAsB;;SAFR,AAGd;;;AAED,OAAO,gBACN;MAAA,KAAA,GAAA,MAAA,GAAA,GAAA,GAAA,KAAA,MAAA;AAAA,KAAA,AAAG,AACH;;AAAA,OAAA,4CAAA;;AACC,SAAA,8CAAA;;AACC,SAAA,AAAG;AACH,UAAG,SAAQ,CAAX,AAAY;AAAO,WAAA,AAAG,GAAH,AAAK,GAAxB,AAAmB,AAAO;;AAC1B,UAAG,SAAQ,CAAX,AAAY;AAAO,WAAA,AAAG,GAAH,AAAK,GAAxB,AAAmB,AAAO;;AAC1B,aAAO,KAAG,KAAV,AAAa,GAAE,KAAG,KAAlB,AAAqB,GAJtB,AAIC,AAAuB;AALzB;;AAMA,MAAA,AAAG;AACF,aAAA,AAAS;AACT,cAAA,AAAU,QAAV,AAAiB;AACjB,OAAA,AAAG;WACH,KAAA,AAAK,UAAU,QAAf,AAAqB,GAAG,MAJzB,AAIC,AAA8B;AAZzB",
+  "sourcesContent": [
+    "game = null\r\nmcts = null\r\nstate = null\r\nwinner = null\r\n\r\nsetup = ->\r\n\tcreateCanvas 200,200\r\n\tgame = new Game_C4()\r\n\tmcts = new MonteCarlo game\r\n\tstate = game.start()\r\n\twinner = game.winner state\r\n\tcomputerMove()\r\n\r\ncomputerMove = () ->\r\n\tmcts.runSearch state, 1 # 0.05 second\r\n\tstats = mcts.getStats state\r\n\tplay = mcts.bestPlay state, \"robust\"\r\n\tstate = game.nextState state, play\r\n\twinner = game.winner state\r\n\r\nhumanMove = () ->\r\n\tindex = (mouseX-10)//20\r\n\tfor i in range 6\r\n\t\tif state.board[i][index]==0 then row = i\r\n\tplay = new Play row,index \r\n\tstate = game.nextState state, play\r\n\twinner = game.winner state\r\n\r\nmousePressed = ->\r\n\thumanMove()\r\n\tif winner then return draw()\r\n\tcomputerMove()\r\n\r\ndraw = ->\r\n\tbg 0.5\r\n\tfor col,i in state.board\r\n\t\tfor item,j in col\r\n\t\t\tfc 0.5\r\n\t\t\tif item == -1 then fc 1,0,0 \r\n\t\t\tif item == +1 then fc 1,1,0\r\n\t\t\tcircle 20+20*j,20+20*i,10\r\n\tif winner \r\n\t\ttextSize 50\r\n\t\ttextAlign CENTER,CENTER\r\n\t\tfc 0\r\n\t\ttext \"winner\", width/2, 0.8 * height\r\n"
+  ]
+}
