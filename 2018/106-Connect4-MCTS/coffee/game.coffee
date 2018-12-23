@@ -36,8 +36,10 @@ class Game_C4
 		res
 
 	nextState : (state, play) ->
-		newHistory = state.playHistory.slice() # 1-deep copy
-		newHistory.push play
+		#newHistory = state.playHistory.slice() # 1-deep copy
+		#newHistory.push play.col
+		newHistory = state.playHistory + play.col 
+
 		newBoard = state.board.map (row) => row.slice()
 		newBoard[play.row][play.col] = state.player
 		newPlayer = -state.player

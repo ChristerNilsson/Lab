@@ -54,8 +54,9 @@ Game_C4 = function () {
     key: "nextState",
     value: function nextState(state, play) {
       var newBoard, newHistory, newPlayer;
-      newHistory = state.playHistory.slice(); // 1-deep copy
-      newHistory.push(play);
+      //newHistory = state.playHistory.slice() # 1-deep copy
+      //newHistory.push play.col
+      newHistory = state.playHistory + play.col;
       newBoard = state.board.map(function (row) {
         return row.slice();
       });

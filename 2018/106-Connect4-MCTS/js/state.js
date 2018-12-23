@@ -21,10 +21,13 @@ State = function () {
     value: function isPlayer(player) {
       return player === this.player;
     }
+
+    //hash : -> JSON.stringify @playHistory
+
   }, {
     key: "hash",
     value: function hash() {
-      return JSON.stringify(this.playHistory);
+      return this.playHistory; //.join ''
     }
   }]);
 

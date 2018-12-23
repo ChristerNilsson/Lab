@@ -6,8 +6,8 @@
     "coffee\\state.coffee"
   ],
   "names": [],
-  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AAEC,AAAc,iBAAA,aAAA,OAAA;;;AAAC,AAAC,SAAA;AAAa,AAAC,SAAA;AAAO,AAAC,SAAA,SAAxB;AACd,AAAW;;;;6BAAC,AAAD;aAAY,WAAU,AAAC,KAAA,AAAvB;AACX,AAAO;;;;aAAG,AAAI,KAAC,AAAL,UAAe,AAAC,KAAA,AAAhB,AAAH;AAJR",
+  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AAEC,AAAc,iBAAA,aAAA,OAAA;;;AAAC,AAAC,SAAA;AAAa,AAAC,SAAA;AAAO,AAAC,SAAA,SAAxB;AACd,AAAW;;;;6BAAC,AAAD;aAAY,WAAU,AAAC,KAAA,AAAvB;AADX;;AAGA,AAAO;;;;;aAAG,AAAC,KAAA,AAAJ,aAAA;AALR",
   "sourcesContent": [
-    "class State \r\n\r\n\tconstructor : (@playHistory, @board, @player) ->\r\n\tisPlayer : (player) -> player == @player\r\n\thash : -> JSON.stringify @playHistory\r\n"
+    "class State \r\n\r\n\tconstructor : (@playHistory, @board, @player) ->\r\n\tisPlayer : (player) -> player == @player\r\n\t#hash : -> JSON.stringify @playHistory\r\n\thash : -> @playHistory #.join ''\r\n"
   ]
 }
