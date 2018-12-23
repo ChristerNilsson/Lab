@@ -4,12 +4,12 @@ class MonteCarloNode
 		@n_plays = 0
 		@n_wins = 0
 
-		@children = {} #new Map()
+		@children = new Map()
 		for play in unexpandedPlays
-			@children[play.hash()] = { play: play, node: null }
+			@children.set play.hash(), { play: play, node: null }
 
 	childNode : (play) ->
-		child = @children[play.hash()]
+		child = @children.get play.hash()
 		if child == undefined
 			throw new Error 'No such play!'
 		else if child.node == null
@@ -17,22 +17,25 @@ class MonteCarloNode
 		child.node
 
 	expand : (play, childState, unexpandedPlays) ->
-		if play.hash() not in _.keys @children then throw new Error("No such play!")
+		if !(@children.has play.hash()) then throw new Error("No such play!")
 		childNode = new MonteCarloNode(@, play, childState, unexpandedPlays)
-		@children[play.hash()] = { play: play, node: childNode }
+		@children.set play.hash(), { play: play, node: childNode }
 		childNode
 
-	allPlays : -> (child.play for child in @children)
+	allPlays : -> # (child.play for child in @children)
+		ret = []
+		@children.forEach (child, key) => ret.push child.play
+		ret
 
-	unexpandedPlays : -> (child.play for child in @children when child.node == null)
-		# ret = []
-		# @children.forEach (child, key) => if child.node == null then ret.push child.play
-		# ret
+	unexpandedPlays : -> #(child.play for child in @children when child.node == null)
+		ret = []
+		@children.forEach (child, key) => if child.node == null then ret.push child.play
+		ret
 
-	isFullyExpanded : -> (child.play for child in @children when child.node).length == @children.length
-		# ret = true
-		# @children.forEach (child, key) => if child.node == null then ret = false
-		# ret
+	isFullyExpanded : -> #(child.play for child in @children when child.node).length == @children.length
+		ret = true
+		@children.forEach (child, key) => if child.node == null then ret = false
+		ret
 
 	isLeaf : -> @children.length == 0 
 	
