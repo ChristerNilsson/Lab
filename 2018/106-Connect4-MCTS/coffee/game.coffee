@@ -1,6 +1,7 @@
 N_ROWS = 6
 N_COLS = 7
 
+
 boardPrototype = ([0,0,0,0,0,0,0]     for i in range N_ROWS)
 checkPrototype = ([0,0,0,0,0,0,0,0,0] for i in range N_COLS)
 
