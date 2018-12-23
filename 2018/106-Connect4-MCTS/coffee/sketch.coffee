@@ -5,7 +5,7 @@ winner = null
 
 setup = ->
 	createCanvas 200,200
-	game = new Game_C4()
+	game = new Game()
 	mcts = new MonteCarlo game
 	state = game.start()
 	winner = game.winner state

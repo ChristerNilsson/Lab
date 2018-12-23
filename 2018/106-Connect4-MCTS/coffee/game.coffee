@@ -1,26 +1,10 @@
 N_ROWS = 6
 N_COLS = 7
 
-boardPrototype = [ 
-	[0,0,0,0,0,0,0]
-	[0,0,0,0,0,0,0]
-	[0,0,0,0,0,0,0]
-	[0,0,0,0,0,0,0]
-	[0,0,0,0,0,0,0]
-	[0,0,0,0,0,0,0] 
-]
+boardPrototype = ([0,0,0,0,0,0,0] for i in range N_ROWS)
+checkPrototype = ([0,0,0,0,0,0,0,0,0] for i in range N_COLS)
 
-checkPrototype = [ 
-	[0,0,0,0,0,0,0,0,0]
-	[0,0,0,0,0,0,0,0,0]
-	[0,0,0,0,0,0,0,0,0]
-	[0,0,0,0,0,0,0,0,0]
-	[0,0,0,0,0,0,0,0,0]
-	[0,0,0,0,0,0,0,0,0]
-	[0,0,0,0,0,0,0,0,0]
-]
-
-class Game_C4 
+class Game
 
 	start : () ->
 		newBoard = boardPrototype.map (row) => row.slice()
@@ -36,10 +20,7 @@ class Game_C4
 		res
 
 	nextState : (state, play) ->
-		#newHistory = state.playHistory.slice() # 1-deep copy
-		#newHistory.push play.col
 		newHistory = state.playHistory + play.col 
-
 		newBoard = state.board.map (row) => row.slice()
 		newBoard[play.row][play.col] = state.player
 		newPlayer = -state.player
@@ -61,7 +42,7 @@ class Game_C4
 					[dr,dc] = [[1,0],[0,1],[0,0],[0,2]][i]
 					acc = val[row+dr][col+dc]
 					val[row + 1][col + 1] = cell
-					if (cell < 0 && acc < 0 || cell > 0 && acc > 0) 
+					if cell < 0 and acc < 0 or cell > 0 and acc > 0
 						val[row + 1][col + 1] += acc
 					
 					if val[row + 1][col + 1] == 4 then return 1
