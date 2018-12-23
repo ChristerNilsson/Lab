@@ -4,12 +4,12 @@ class MonteCarloNode
 		@n_plays = 0
 		@n_wins = 0
 
-		@children = new Map()
+		@children = {} #new Map()
 		for play in unexpandedPlays
-			@children.set play.hash(), { play: play, node: null }
+			@children[play.hash()] = { play: play, node: null }
 
 	childNode : (play) ->
-		child = @children.get play.hash()
+		child = @children[play.hash()]
 		if child == undefined
 			throw new Error 'No such play!'
 		else if child.node == null
@@ -17,26 +17,23 @@ class MonteCarloNode
 		child.node
 
 	expand : (play, childState, unexpandedPlays) ->
-		if (!@children.has(play.hash())) then throw new Error("No such play!")
+		if play.hash() not in _.keys @children then throw new Error("No such play!")
 		childNode = new MonteCarloNode(@, play, childState, unexpandedPlays)
-		@children.set(play.hash(), { play: play, node: childNode })
+		@children[play.hash()] = { play: play, node: childNode }
 		childNode
 
-	allPlays : ->
-		ret = []
-		@children.forEach (child, key) => ret.push child.play
-		ret
+	allPlays : -> (child.play for child in @children)
 
-	unexpandedPlays : ->
-		ret = []
-		@children.forEach (child, key) => if child.node == null then ret.push child.play
-		ret
+	unexpandedPlays : -> (child.play for child in @children when child.node == null)
+		# ret = []
+		# @children.forEach (child, key) => if child.node == null then ret.push child.play
+		# ret
 
-	isFullyExpanded : ->
-		ret = true
-		@children.forEach (child, key) => if child.node == null then ret = false
-		ret
+	isFullyExpanded : -> (child.play for child in @children when child.node).length == @children.length
+		# ret = true
+		# @children.forEach (child, key) => if child.node == null then ret = false
+		# ret
 
-	isLeaf : -> @children.size == 0 
+	isLeaf : -> @children.length == 0 
 	
 	getUCB1 : (biasParam) -> @n_wins / @n_plays + Math.sqrt(biasParam * Math.log(@parent.n_plays) / @n_plays)
