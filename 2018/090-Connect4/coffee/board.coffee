@@ -29,11 +29,12 @@ class Board
 	next_marker : -> 'XO'[@moves.length % 2]
 
 	calc_columns : ->
-		marker = @last_marker()
 		m = _.last @moves
-		count = 0
 		row = @board[m]
-		i = row.length - 1
+		i = row.length - 2
+		if i<2 then return false # 50% more pos/sec
+		marker = @last_marker()
+		count = 1
 		while row[i] == marker and i >= 0
 			count++
 			i--
@@ -75,8 +76,8 @@ class Board
 		count >= 4
 
 	done : ->
-		if @calc_columns() then return true
-		if @calc_rows() then return true
-		if @calc_diagonal 1 then return true
+		if @calc_columns()   then return true
+		if @calc_rows()      then return true
+		if @calc_diagonal +1 then return true
 		if @calc_diagonal -1 then return true
 		false

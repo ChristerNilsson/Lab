@@ -83,11 +83,14 @@ Board = function () {
     key: 'calc_columns',
     value: function calc_columns() {
       var count, i, m, marker, row;
-      marker = this.last_marker();
       m = _.last(this.moves);
-      count = 0;
       row = this.board[m];
-      i = row.length - 1;
+      i = row.length - 2;
+      if (i < 2) {
+        return false; // 50% more pos/sec
+      }
+      marker = this.last_marker();
+      count = 1;
       while (row[i] === marker && i >= 0) {
         count++;
         i--;
@@ -155,7 +158,7 @@ Board = function () {
       if (this.calc_rows()) {
         return true;
       }
-      if (this.calc_diagonal(1)) {
+      if (this.calc_diagonal(+1)) {
         return true;
       }
       if (this.calc_diagonal(-1)) {

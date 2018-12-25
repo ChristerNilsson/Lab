@@ -30,15 +30,15 @@ Computer = function () {
   }, {
     key: "move",
     value: function move(board) {
-      var b, cand, cands, i, j, k, l, len, len1, len2, m, marker, mrkr, n, ref, ref1, start;
+      var antal, b, cand, cands, end, i, len, m, marker, mrkr, start;
       start = Date.now();
       marker = board.last_marker();
       cands = function () {
-        var k, len, ref, results;
+        var i, len, ref, results;
         ref = range(N);
         results = [];
-        for (k = 0, len = ref.length; k < len; k++) {
-          m = ref[k];
+        for (i = 0, len = ref.length; i < len; i++) {
+          m = ref[i];
           if (board.board[m].length < M) {
             results.push([0, m]);
           }
@@ -48,33 +48,29 @@ Computer = function () {
       if (cands.length === 1) {
         return cands[0][1];
       }
-      for (k = 0, len = cands.length; k < len; k++) {
-        cand = cands[k];
-        ref = range(Math.pow(2, level));
-        for (l = 0, len1 = ref.length; l < len1; l++) {
-          j = ref[l];
-          ref1 = range(PROBES);
-          // shorter ranges
-          for (n = 0, len2 = ref1.length; n < len2; n++) {
-            i = ref1[n];
-            b = board.copy();
-            b.move(cand[1]);
-            if (b.done()) {
-              return cand[1];
-            }
-            mrkr = this.play_complete(b);
-            if (mrkr === marker) {
-              cand[0]++;
-            } else if (mrkr !== 'draw') {
-              cand[0]--;
-            }
+      antal = 0;
+      end = Date.now() + Math.pow(2, level) * thinkingTime;
+      while (Date.now() < end) {
+        for (i = 0, len = cands.length; i < len; i++) {
+          cand = cands[i];
+          antal++;
+          b = board.copy();
+          b.move(cand[1]);
+          if (b.done()) {
+            return cand[1];
+          }
+          mrkr = this.play_complete(b);
+          if (mrkr === marker) {
+            cand[0]++;
+          } else if (mrkr !== 'draw') {
+            cand[0]--;
           }
         }
       }
       cand = _.max(cands, function (cand) {
         return cand[0];
       });
-      print(Date.now() - start, -cand[0]);
+      print(Date.now() - start, antal / (Math.pow(2, level) * thinkingTime / 1000));
       return cand[1];
     }
   }]);

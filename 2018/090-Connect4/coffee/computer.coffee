@@ -14,18 +14,21 @@ class Computer
 		marker = board.last_marker()
 		cands = ([0,m] for m in range N when board.board[m].length < M)
 		if cands.length == 1 then return cands[0][1]
-		for cand in cands
-			for j in range 2 ** level
-				for i in range PROBES # shorter ranges
-					b = board.copy()
-					b.move cand[1]
-					if b.done() then return cand[1]
-					mrkr = @play_complete b
-					if mrkr == marker
-						cand[0]++
-					else if mrkr != 'draw'
-						cand[0]--
+
+		antal = 0
+		end = Date.now() + 2 ** level * thinkingTime
+		while Date.now() < end
+			for cand in cands
+				antal++
+				b = board.copy()
+				b.move cand[1]
+				if b.done() then return cand[1]
+				mrkr = @play_complete b
+				if mrkr == marker
+					cand[0]++
+				else if mrkr != 'draw'
+					cand[0]--
 
 		cand  = _.max cands, (cand) -> cand[0]
-		print Date.now() - start, -cand[0]
+		print Date.now() - start, antal/(2 ** level * thinkingTime/1000)
 		cand[1]
