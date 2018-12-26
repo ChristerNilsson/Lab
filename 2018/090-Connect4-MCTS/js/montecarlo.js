@@ -19,19 +19,20 @@ MonteCarlo = function () {
     value: function runSearch() {
       var factor = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
 
-      var end, node, results, winner;
-      end = Date.now() + factor * 50;
-      results = [];
+      var end, node, winner;
+      end = Date.now() + factor * thinkingTime;
       while (Date.now() < end) {
         node = this.select();
+        if (node === null) {
+          return;
+        }
         winner = node.board.winner();
         if (winner === null) {
           node = this.expand(node);
           winner = this.simulate(node);
         }
-        results.push(this.backpropagate(node, winner));
+        this.backpropagate(node, winner);
       }
-      return results;
     }
   }, {
     key: "bestPlay",
@@ -69,6 +70,9 @@ MonteCarlo = function () {
           }
           return results;
         }();
+        if (pairs.length === 0) {
+          return null;
+        }
         bestPlay = _.max(pairs, function (pair) {
           return pair[0];
         })[1];
@@ -118,38 +122,4 @@ MonteCarlo = function () {
 // mc.runSearch()
 // print mc
 // print mc.bestPlay mc.root
-
-//##### tester ######
-
-// assert mc.root.board.board, ['','','','','','','']
-// assert mc.root.board.moves, []
-//child = mc.root.children[0]
-//assert child.play, 0
-//assert child.board.board[0], "X"
-
-// print 'n1'
-// n1 = mc.select()
-// assert n,n1
-// assert n1.board.done(), false
-// assert n1.isLeaf(), false
-// child = mc.expand n1,0
-// print child
-// assert child.board.board[child.play], 'X'
-// winner = mc.simulate child
-// print mc,winner
-// mc.backpropagate child,winner
-// print mc
-
-// print 'n2'
-// n2 = mc.select()
-// #assert n,n2
-// #assert n1.board.done(), false
-// #assert n1.isLeaf(), false
-// child = mc.expand n2,0
-// print child
-// #assert child.board.board[child.play], 'X'
-// winner = mc.simulate child
-// print mc,winner
-// mc.backpropagate child,winner
-// print mc
 //# sourceMappingURL=montecarlo.js.map

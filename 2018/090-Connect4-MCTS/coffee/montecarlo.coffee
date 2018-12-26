@@ -3,15 +3,14 @@ class MonteCarlo
 	constructor : (@root) ->
 
 	runSearch : (factor = 1) ->
-		end = Date.now() + factor * 50
+		end = Date.now() + factor * thinkingTime 
 		while Date.now() < end
 			node = @select()
+			if node == null then return
 			winner = node.board.winner()
-
 			if winner == null
 				node = @expand node
 				winner = @simulate node
-			
 			@backpropagate node, winner
 
 	bestPlay : (node) ->
@@ -29,12 +28,12 @@ class MonteCarlo
 				max = ratio
 		bestPlay
 
-
 	select : -> # väljer en nod ur trädet
 		node = @root
 		while node.isFullyExpanded()
 			plays = node.allPlays()
 			pairs = ([node.children[play].getUCB1(), play] for play in plays)
+			if pairs.length==0 then return null 
 			bestPlay = _.max(pairs, (pair) -> pair[0])[1]
 			node = node.children[bestPlay]
 		node
@@ -61,39 +60,3 @@ class MonteCarlo
 # mc.runSearch()
 # print mc
 # print mc.bestPlay mc.root
-
-###### tester ######
-
-
-# assert mc.root.board.board, ['','','','','','','']
-# assert mc.root.board.moves, []
-#child = mc.root.children[0]
-#assert child.play, 0
-#assert child.board.board[0], "X"
-
-# print 'n1'
-# n1 = mc.select()
-# assert n,n1
-# assert n1.board.done(), false
-# assert n1.isLeaf(), false
-# child = mc.expand n1,0
-# print child
-# assert child.board.board[child.play], 'X'
-# winner = mc.simulate child
-# print mc,winner
-# mc.backpropagate child,winner
-# print mc
-
-# print 'n2'
-# n2 = mc.select()
-# #assert n,n2
-# #assert n1.board.done(), false
-# #assert n1.isLeaf(), false
-# child = mc.expand n2,0
-# print child
-# #assert child.board.board[child.play], 'X'
-# winner = mc.simulate child
-# print mc,winner
-# mc.backpropagate child,winner
-# print mc
-

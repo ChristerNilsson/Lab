@@ -1,5 +1,5 @@
 SIZE = 600/(N+1)
-thinkingTime = 10 # milliseconds
+thinkingTime = 10 # 10 milliseconds is ok
 
 level = 0
 list = null
@@ -18,10 +18,24 @@ newGame = () ->
 	level += delta
 	if level < 0 then level = 0
 	delta = -2
+
 	board = new Board()
 	list = ([] for i in range 7)
 	moves = []
-	montecarlo = new MonteCarlo new Node null,null,board,list
+
+	# board = new Board '3233224445230330044022166666'
+	# print board
+	# moves = [3, 2, 3, 3, 2, 2, 4, 4, 4, 5, 2, 3, 0, 3, 3, 0, 0, 4, 4, 0, 2, 2, 1, 6, 6, 6, 6, 6]
+	# list = []
+	# list.push [13,16,17,20]
+	# list.push [23]
+	# list.push [2,5,6,11,21,22]
+	# list.push [1,3,4,12,14,15]
+	# list.push [7,8,9,18,19]
+	# list.push [10]
+	# list.push [24,25,26,27,28]
+
+	montecarlo = new MonteCarlo new Node null,null,board
 
 draw = ->
 	bg 0
@@ -63,8 +77,8 @@ mousePressed = ->
 
 	if board.done() then return delta = 1
 	montecarlo = new MonteCarlo new Node null,null,board
-	print montecarlo	
 	result = montecarlo.runSearch 2**level
+	print montecarlo.root.n, montecarlo	
 	m = montecarlo.bestPlay montecarlo.root
 
 	moves.push m
