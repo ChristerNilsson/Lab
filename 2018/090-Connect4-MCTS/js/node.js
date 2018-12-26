@@ -27,9 +27,6 @@ Node = function () {
     }
   }
 
-  //print @children
-
-
   _createClass(Node, [{
     key: "expand",
     value: function expand(play) {
@@ -66,14 +63,7 @@ Node = function () {
       return results;
     }
 
-    //isLeaf : -> 0 == _.size @children 
-
-  }, {
-    key: "isLeaf",
-    value: function isLeaf() {
-      return false;
-    }
-
+    //isLeaf : -> false
     // antal = 0
     // for child in @children 
     // 	if child == null then antal++

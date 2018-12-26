@@ -2,26 +2,17 @@ class MonteCarlo
 
 	constructor : (@root) ->
 
-	runSearch : (timeout = 3) ->
-		draws = 0
-		totalSims = 0    
-
-		end = Date.now() + 100 # 3 * 1000
+	runSearch : (factor = 1) ->
+		end = Date.now() + factor * 50
 		while Date.now() < end
 			node = @select()
 			winner = node.board.winner()
 
-			if node.isLeaf() == false and winner == null
+			if winner == null
 				node = @expand node
 				winner = @simulate node
 			
 			@backpropagate node, winner
-
-			if winner == 0 then draws++
-			totalSims++
-		
-		{ runtime: timeout, simulations: totalSims, draws: draws }
-
 
 	bestPlay : (node) ->
 		allPlays = node.allPlays()
@@ -32,7 +23,6 @@ class MonteCarlo
 
 			#ratio = childNode.t / childNode.n
 			ratio = childNode.n
-			print 'bestPlay',play,childNode.t,childNode.n,childNode.t/childNode.n
 
 			if ratio > max
 				bestPlay = play
@@ -42,11 +32,11 @@ class MonteCarlo
 
 	select : -> # väljer en nod ur trädet
 		node = @root
-		while node.isFullyExpanded() and not node.isLeaf()
+		while node.isFullyExpanded()
 			plays = node.allPlays()
-			pairs = ([node.children["#{play}"].getUCB1(), play] for play in plays)
+			pairs = ([node.children[play].getUCB1(), play] for play in plays)
 			bestPlay = _.max(pairs, (pair) -> pair[0])[1]
-			node = node.children["#{bestPlay}"]
+			node = node.children[bestPlay]
 		node
  
 	expand : (node) -> node.expand _.sample node.unexpandedPlays() 
@@ -57,7 +47,6 @@ class MonteCarlo
 		while winner == null
 			board = board.nextBoard _.sample board.legalPlays()
 			winner = board.winner()
-		#print winner,board
 		winner
 
 	backpropagate : (node, winner) ->
@@ -66,16 +55,15 @@ class MonteCarlo
 			if node.board.isPlayer -winner then node.t++
 			node = node.parent
 	
-	# getStats : (state) ->
+# b = new Board()
+# n = new Node null,null,b
+# mc = new MonteCarlo n
+# mc.runSearch()
+# print mc
+# print mc.bestPlay mc.root
 
 ###### tester ######
 
-b = new Board()
-n = new Node null,null,b
-mc = new MonteCarlo n
-mc.runSearch()
-print mc
-print mc.bestPlay mc.root
 
 # assert mc.root.board.board, ['','','','','','','']
 # assert mc.root.board.moves, []

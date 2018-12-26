@@ -6,7 +6,6 @@ class Node
 		for play in range N
 			if @board.board[play].length < M
 				@children[play] = null
-		#print @children
 
 	expand : (play) ->
 		childBoard = @board.nextBoard play
@@ -16,8 +15,7 @@ class Node
 
 	allPlays : -> (parseInt play for play,child of @children)
 	unexpandedPlays : -> (parseInt play for play,child of @children when child == null)
-	#isLeaf : -> 0 == _.size @children 
-	isLeaf : -> false 
+	#isLeaf : -> false
 		# antal = 0
 		# for child in @children 
 		# 	if child == null then antal++

@@ -106,9 +106,9 @@ mousePressed = function mousePressed() {
   if (board.done()) {
     return delta = 1;
   }
-  montecarlo = new MonteCarlo(new Node(null, null, board, list));
+  montecarlo = new MonteCarlo(new Node(null, null, board));
   print(montecarlo);
-  result = montecarlo.runSearch();
+  result = montecarlo.runSearch(Math.pow(2, level));
   m = montecarlo.bestPlay(montecarlo.root);
   moves.push(m);
   board.move(m);

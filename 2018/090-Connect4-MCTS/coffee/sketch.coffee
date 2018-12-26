@@ -62,9 +62,9 @@ mousePressed = ->
 		list[nr].push moves.length
 
 	if board.done() then return delta = 1
-	montecarlo = new MonteCarlo new Node null,null,board,list
+	montecarlo = new MonteCarlo new Node null,null,board
 	print montecarlo	
-	result = montecarlo.runSearch()
+	result = montecarlo.runSearch 2**level
 	m = montecarlo.bestPlay montecarlo.root
 
 	moves.push m
