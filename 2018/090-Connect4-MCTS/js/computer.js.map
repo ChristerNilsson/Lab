@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "computer.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\computer.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA",
+  "sourcesContent": [
+    "# class Computer\r\n\r\n# \tconstructor : ->\r\n\r\n# \tplay_complete : (b) ->\r\n# \t\twhile true\r\n# \t\t\tmarker = b.lastMarker()\r\n# \t\t\tb.move b.rand()\r\n# \t\t\tif b.done() then return marker\r\n# \t\t\tif M*N == b.moves.length then return \"draw\" \r\n\r\n\t# move : (board) ->\r\n\t# \tstart = Date.now()\r\n\t# \tmarker = board.last_marker()\r\n\t# \tcands = ([0,m] for m in range N when board.board[m].length < M)\r\n\t# \tif cands.length == 1 then return cands[0][1]\r\n\r\n\t# \tantal = 0\r\n\t# \tend = Date.now() + 2 ** level * thinkingTime\r\n\t# \twhile Date.now() < end\r\n\t# \t\tfor cand in cands\r\n\t# \t\t\tantal++\r\n\t# \t\t\tb = board.copy()\r\n\t# \t\t\tb.move cand[1]\r\n\t# \t\t\tif b.done() then return cand[1]\r\n\t# \t\t\tmrkr = @play_complete b\r\n\t# \t\t\tif mrkr == marker\r\n\t# \t\t\t\tcand[0]++\r\n\t# \t\t\telse if mrkr != 'draw'\r\n\t# \t\t\t\tcand[0]--\r\n\r\n\t# \tcand  = _.max cands, (cand) -> cand[0]\r\n\t# \tprint Date.now() - start, antal/(2 ** level * thinkingTime/1000)\r\n\t# \tcand[1]\r\n\r\n\t# move : (board) ->\r\n\t# \tmc = new MonteCarlo new Node null,null,board,[0,1,2,3,4,5,6]\r\n\t# \tresult = mc.runSearch()\r\n"
+  ]
+}
