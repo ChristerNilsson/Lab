@@ -18,13 +18,12 @@ class MonteCarlo
 		totalSims = 0
 		
 		end = Date.now() + timeout * 1000
-
 		while Date.now() < end
 
 			node = @select state
 			winner = @game.winner node.state
 
-			if node.isLeaf() == false && winner == null
+			if node.isLeaf() == false and winner == null
 				node = @expand node
 				winner = @simulate node
 			
@@ -33,7 +32,7 @@ class MonteCarlo
 			if winner == 0 then draws++
 			totalSims++
 		
-		return { runtime: timeout, simulations: totalSims, draws: draws }
+		{ runtime: timeout, simulations: totalSims, draws: draws }
 
 	bestPlay : (state, policy = "robust") ->
 

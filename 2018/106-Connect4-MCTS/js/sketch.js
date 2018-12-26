@@ -22,7 +22,7 @@ setup = function setup() {
 
 computerMove = function computerMove() {
   var play, stats;
-  mcts.runSearch(state, 1); // 0.05 second
+  mcts.runSearch(state, 10); // 0.05 second
   stats = mcts.getStats(state);
   play = mcts.bestPlay(state, "robust");
   state = game.nextState(state, play);
