@@ -23,6 +23,8 @@ setup = function setup() {
   mcts.runSearch(state, 1);
   //stats = mcts.getStats(state)
   play = mcts.bestPlay(state, "robust");
+  print(mcts);
+  print(play);
   return state = game.nextState(state, play);
 };
 

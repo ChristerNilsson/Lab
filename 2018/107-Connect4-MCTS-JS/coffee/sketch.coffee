@@ -16,6 +16,8 @@ setup = ->
 	mcts.runSearch(state, 1)
 	#stats = mcts.getStats(state)
 	play = mcts.bestPlay(state, "robust")
+	print mcts
+	print play
 	state = game.nextState(state, play)	
 
 # // From initial state, play games until end

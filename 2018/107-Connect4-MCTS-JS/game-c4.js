@@ -30,7 +30,7 @@ class Game {
   }
 
   /** Return the current player's legal plays from given state. */
-  legalPlays(state) {
+  legalPlays(state) { // alltid 1..7 element
     let legalPlays = []
     for (let col = 0; col < N_COLS; col++) {
       for (let row = N_ROWS - 1; row >= 0; row--) {
@@ -40,6 +40,7 @@ class Game {
         }
       }
     }
+    // if (legalPlays.length==0) print('legalPlays',legalPlays.length)
     return legalPlays
   }
 

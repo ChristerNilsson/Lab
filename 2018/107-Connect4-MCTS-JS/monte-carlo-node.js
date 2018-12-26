@@ -65,11 +65,12 @@ class MonteCarloNode {
    * Get all legal plays from this node.
    * @return {Play[]} All plays.
    */
-  allPlays() {
+  allPlays() { // alltid 7 element
     let ret = []
     for (let child of this.children.values()) {
       ret.push(child.play)
     }
+    //if (ret.length!=7) print('allPlays',ret.length)
     return ret
   }
 
@@ -77,11 +78,12 @@ class MonteCarloNode {
    * Get all unexpanded legal plays from this node.
    * @return {Play[]} All unexpanded plays.
    */
-  unexpandedPlays() {
+  unexpandedPlays() { // alltid 1..7 element
     let ret = []
     for (let child of this.children.values()) {
       if (child.node === null) ret.push(child.play)
     }
+    //if (ret.length==0) print('unexpandedPlays',ret.length)
     return ret
   }
 
@@ -89,20 +91,24 @@ class MonteCarloNode {
    * Whether this node is fully expanded.
    * @return {boolean} Whether this node is fully expanded.
    */
-  isFullyExpanded() {
+  isFullyExpanded() { // blandade resultat
+    var res = true
     for (let child of this.children.values()) {
-      if (child.node === null) return false
+      if (child.node === null) res = false
     }
-    return true
+    //print('isFullyExpanded',res)
+    return res
   }
 
   /**
    * Whether this node is terminal in the game tree, NOT INCLUSIVE of termination due to winning.
    * @return {boolean} Whether this node is a leaf in the tree.
    */
-  isLeaf() {
-    if (this.children.size === 0) return true
-    else return false
+  isLeaf() { // alltid false 
+    var res = false 
+    if (this.children.size === 0) res = true
+    //if (res) print('isLeaf',res)
+    return res
   }
   
   /**

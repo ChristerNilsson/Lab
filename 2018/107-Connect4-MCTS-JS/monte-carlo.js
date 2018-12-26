@@ -27,6 +27,7 @@ class MonteCarlo {
   makeNode(state) {
     if (!this.nodes.has(state.hash())) {
       let unexpandedPlays = this.game.legalPlays(state).slice()
+      print('makeNode',unexpandedPlays.length)
       let node = new MonteCarloNode(null, null, state, unexpandedPlays)
       this.nodes.set(state.hash(), node)
     }
@@ -45,7 +46,7 @@ class MonteCarlo {
     let draws = 0
     let totalSims = 0
     
-    let end = Date.now() + 3 * 1000
+    let end = Date.now() + 1000
 
     while (Date.now() < end) {
 
@@ -88,6 +89,7 @@ class MonteCarlo {
       let max = -Infinity
       for (let play of allPlays) {
         let childNode = node.childNode(play)
+        print(play.col,childNode.n_wins,childNode.n_plays,childNode.n_wins/childNode.n_plays)
         if (childNode.n_plays > max) {
           bestPlay = play
           max = childNode.n_plays
@@ -149,6 +151,7 @@ class MonteCarlo {
 
     let childState = this.game.nextState(node.state, play)
     let childUnexpandedPlays = this.game.legalPlays(childState)
+    if (childUnexpandedPlays.length!=7) print('mc-expand',childUnexpandedPlays.length)
     let childNode = node.expand(play, childState, childUnexpandedPlays)
     this.nodes.set(childState.hash(), childNode)
 
