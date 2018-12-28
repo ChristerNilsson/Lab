@@ -21,10 +21,9 @@ setup = function setup() {
   var play;
   createCanvas(200, 200);
   mcts.runSearch(state, 1);
-  //stats = mcts.getStats(state)
   play = mcts.bestPlay(state, "robust");
-  print(mcts);
-  print(play);
+  //	print mcts
+  //	print play
   return state = game.nextState(state, play);
 };
 
@@ -90,9 +89,10 @@ mousePressed = function mousePressed() {
   winner = game.winner(state);
   // computer move
   mcts.runSearch(state, 1);
+  //print 'JSON'
+  //print JSON.stringify mcts 
   //stats = mcts.getStats(state)
   play = mcts.bestPlay(state, "robust");
-  print(mcts);
   state = game.nextState(state, play);
   //dump state.board
   winner = game.winner(state);

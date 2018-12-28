@@ -27,7 +27,7 @@ class MonteCarlo {
   makeNode(state) {
     if (!this.nodes.has(state.hash())) {
       let unexpandedPlays = this.game.legalPlays(state).slice()
-      print('makeNode',unexpandedPlays.length)
+      //print('makeNode',unexpandedPlays.length)
       let node = new MonteCarloNode(null, null, state, unexpandedPlays)
       this.nodes.set(state.hash(), node)
     }
@@ -46,7 +46,7 @@ class MonteCarlo {
     let draws = 0
     let totalSims = 0
     
-    let end = Date.now() + 1000
+    let end = Date.now() + 4000 // ms
 
     while (Date.now() < end) {
 
@@ -89,7 +89,7 @@ class MonteCarlo {
       let max = -Infinity
       for (let play of allPlays) {
         let childNode = node.childNode(play)
-        print(play.col,childNode.n_wins,childNode.n_plays,childNode.n_wins/childNode.n_plays)
+        //print(play.col,childNode.n_wins,childNode.n_plays,childNode.n_wins/childNode.n_plays)
         if (childNode.n_plays > max) {
           bestPlay = play
           max = childNode.n_plays
@@ -151,11 +151,19 @@ class MonteCarlo {
 
     let childState = this.game.nextState(node.state, play)
     let childUnexpandedPlays = this.game.legalPlays(childState)
-    if (childUnexpandedPlays.length!=7) print('mc-expand',childUnexpandedPlays.length)
+    //if (childUnexpandedPlays.length!=7) print('mc-expand',childUnexpandedPlays.length)
     let childNode = node.expand(play, childState, childUnexpandedPlays)
     this.nodes.set(childState.hash(), childNode)
 
     return childNode
+  }
+
+  compact(history) {
+    var s = ''
+    for (let i=0; i<history.length; i++) {
+      s += history[i].col
+    }
+    return s
   }
 
   /**
@@ -176,6 +184,7 @@ class MonteCarlo {
       winner = this.game.winner(state)
     }
 
+    //print('simulate',winner, state.prettyBoard(), this.compact(state.playHistory))
     return winner
   }
 
@@ -186,6 +195,7 @@ class MonteCarlo {
    * @param {number} winner - The winner to propagate.
    */
   backpropagate(node, winner) {
+    var s = this.compact(node.state.playHistory)
 
     while (node !== null) {
       node.n_plays += 1
@@ -193,9 +203,15 @@ class MonteCarlo {
       if (node.state.isPlayer(-winner)) {
         node.n_wins += 1
       }
+      s += ' '
+      s += node.n_wins 
+      s += '/'
+      s += node.n_plays
       node = node.parent
     }
+    //print(s)
   }
+
 
   // Utility & debugging methods
 

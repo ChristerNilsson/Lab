@@ -17,6 +17,19 @@ class State {
     return JSON.stringify(this.playHistory)
   }
 
+  prettyBoard() {
+    var s='\n'
+    for (let i=0; i<6; i++) {
+      for (let j=0; j<7; j++) {
+        var item = this.board[i][j]
+        s += "O.X"[item+1]+' '
+        //print(s)
+      }
+      s += "\n"
+    }
+    return s
+  }
+
   // Note: If hash uses board, multiple parents possible
 }
 
