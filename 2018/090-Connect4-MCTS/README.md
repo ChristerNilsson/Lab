@@ -1,6 +1,8 @@
 # Connect Four - MCTS
 
-AI är baserad på Monte Carlo Tree Search.
+* Datorn spelar svagt i början, men dubblar betänketiden för varje förlust.
+* AI är baserad på Monte Carlo Tree Search.
+* Delar av trädet ersätter trädet för varje drag.
 
 [Youtube: John Levine](https://www.youtube.com/watch?v=UXW2yZndl7U)
 

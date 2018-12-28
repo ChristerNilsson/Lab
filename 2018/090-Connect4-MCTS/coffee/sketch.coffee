@@ -1,4 +1,4 @@
-thinkingTime = 1000 # 10 milliseconds is ok
+thinkingTime = 10 # 10 milliseconds is ok
 UCB = 2
 
 SIZE = 600/(N+1)
@@ -26,21 +26,8 @@ newGame = () ->
 	board = new Board()
 	list = ([] for i in range 7)
 	moves = []
+	montecarlo = null
 	#computerMove()
-
-	# board = new Board '3233224445230330044022166666'
-	# print board
-	# moves = [3, 2, 3, 3, 2, 2, 4, 4, 4, 5, 2, 3, 0, 3, 3, 0, 0, 4, 4, 0, 2, 2, 1, 6, 6, 6, 6, 6]
-	# list = []
-	# list.push [13,16,17,20]
-	# list.push [23]
-	# list.push [2,5,6,11,21,22]
-	# list.push [1,3,4,12,14,15]
-	# list.push [7,8,9,18,19]
-	# list.push [10]
-	# list.push [24,25,26,27,28]
-
-	montecarlo = new MonteCarlo new Node null,null,board
 
 draw = ->
 	bg 0
@@ -62,7 +49,7 @@ draw = ->
 			circle x, y, SIZE*0.4
 			fc 0
 			sc()
-			text nr, x, y
+			text nr, x, y+4
 	sc()
 	fc 1
 	msg = ['','Datorn vann!','Remis!','Du vann!'][delta+2]
@@ -71,13 +58,22 @@ draw = ->
 	#text UCB,width-50,SIZE/2-10
 
 computerMove = ->
+	if moves.length < 2 
+		montecarlo = new MonteCarlo new Node null,null,board
+	else
+		human = moves[moves.length-1]
+		dator = moves[moves.length-2]
+		montecarlo.root = montecarlo.root.children[dator].children[human]
+		montecarlo.root.parent = null
+
 	start = Date.now()
-	montecarlo = new MonteCarlo new Node null,null,board
 	result = montecarlo.runSearch 2**level
 	print 'ms=',Date.now()-start, 'games='+montecarlo.root.n, 'nodes='+antal
 	print montecarlo	
-	#dump montecarlo.root
+
+	#montecarlo.dump montecarlo.root
 	#print ''
+
 	m = montecarlo.bestPlay montecarlo.root
 	moves.push m
 	board.move m
@@ -103,3 +99,18 @@ mousePressed = ->
 
 undo : -> if moves.length > 0 then list[moves.pop()].pop()
 
+######
+
+	# board = new Board '3233224445230330044022166666'
+	# print board
+	# moves = [3, 2, 3, 3, 2, 2, 4, 4, 4, 5, 2, 3, 0, 3, 3, 0, 0, 4, 4, 0, 2, 2, 1, 6, 6, 6, 6, 6]
+	# list = []
+	# list.push [13,16,17,20]
+	# list.push [23]
+	# list.push [2,5,6,11,21,22]
+	# list.push [1,3,4,12,14,15]
+	# list.push [7,8,9,18,19]
+	# list.push [10]
+	# list.push [24,25,26,27,28]
+
+	#montecarlo = new MonteCarlo new Node null,null,board
