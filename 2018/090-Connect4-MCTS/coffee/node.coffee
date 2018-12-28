@@ -16,7 +16,7 @@ class Node
 
 	allPlays : -> (parseInt play for play,child of @children)
 	unexpandedPlays : -> (parseInt play for play,child of @children when child == null)
-	getUCB1 : -> @t / @n + Math.sqrt(2 * Math.log(@parent.n) / @n)
+	getUCB1 : -> @t / @n + Math.sqrt(UCB * Math.log(@parent.n) / @n)
 
 	isFullyExpanded : ->
 		for key,child of @children 

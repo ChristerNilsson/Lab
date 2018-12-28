@@ -1,6 +1,7 @@
-SIZE = 600/(N+1)
 thinkingTime = 1000 # 10 milliseconds is ok
+UCB = 2
 
+SIZE = 600/(N+1)
 level = 0
 list = null
 moves = null
@@ -25,6 +26,7 @@ newGame = () ->
 	board = new Board()
 	list = ([] for i in range 7)
 	moves = []
+	#computerMove()
 
 	# board = new Board '3233224445230330044022166666'
 	# print board
@@ -66,6 +68,22 @@ draw = ->
 	msg = ['','Datorn vann!','Remis!','Du vann!'][delta+2]
 	text msg,width/2,SIZE/2-10
 	text level,SIZE/2,SIZE/2-10
+	#text UCB,width-50,SIZE/2-10
+
+computerMove = ->
+	start = Date.now()
+	montecarlo = new MonteCarlo new Node null,null,board
+	result = montecarlo.runSearch 2**level
+	print 'ms=',Date.now()-start, 'games='+montecarlo.root.n, 'nodes='+antal
+	print montecarlo	
+	#dump montecarlo.root
+	#print ''
+	m = montecarlo.bestPlay montecarlo.root
+	moves.push m
+	board.move m
+	list[m].push moves.length
+	if board.done() then return delta = -1
+	if board.moves.length == M*N then delta = 0	
 
 mousePressed = ->
 	antal=0
@@ -80,20 +98,8 @@ mousePressed = ->
 		list[nr].push moves.length
 
 	if board.done() then return delta = 1
-	start = Date.now()
-	montecarlo = new MonteCarlo new Node null,null,board
-	result = montecarlo.runSearch 2**level
-	print 'ms=',Date.now()-start, 'games='+montecarlo.root.n, 'nodes='+antal
-	print montecarlo	
-	#dump montecarlo.root
-	#print ''
-	m = montecarlo.bestPlay montecarlo.root
 
-	moves.push m
-	board.move m
-	list[m].push moves.length
-	if board.done() then return delta = -1
-	if board.moves.length == M*N then delta = 0
+	computerMove()
 
 undo : -> if moves.length > 0 then list[moves.pop()].pop()
 

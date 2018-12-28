@@ -44,10 +44,10 @@ class MonteCarlo
 		node = @root
 		while node.isFullyExpanded()
 			plays = node.allPlays()
-			pairs = ([node.children["#{play}"].getUCB1(), play] for play in plays)
+			pairs = ([node.children[play].getUCB1(), play] for play in plays)
 			if pairs.length==0 then return null 
 			bestPlay = _.max(pairs, (pair) -> pair[0])[1]
-			node = node.children["#{bestPlay}"]
+			node = node.children[bestPlay]
 			#if TRACE then print 'selecting',JSON.stringify(node.board.moves), pairs
 		#if TRACE then print 'selected',JSON.stringify node.board.moves
 		node

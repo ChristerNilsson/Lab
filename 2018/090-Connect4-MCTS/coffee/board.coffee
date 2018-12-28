@@ -101,6 +101,4 @@ class Board
 		if @draw() then return 0.5
 		if @done() then return [1,0][@moves.length % 2] 
 		null
-
-	# isPlayer : (player) -> player == [-1,1][@moves.length % 2]  
 	

@@ -66,7 +66,7 @@ Node = function () {
   }, {
     key: "getUCB1",
     value: function getUCB1() {
-      return this.t / this.n + Math.sqrt(2 * Math.log(this.parent.n) / this.n);
+      return this.t / this.n + Math.sqrt(UCB * Math.log(this.parent.n) / this.n);
     }
   }, {
     key: "isFullyExpanded",

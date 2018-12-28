@@ -105,7 +105,7 @@ MonteCarlo = function () {
           results = [];
           for (i = 0, len = plays.length; i < len; i++) {
             play = plays[i];
-            results.push([node.children['' + play].getUCB1(), play]);
+            results.push([node.children[play].getUCB1(), play]);
           }
           return results;
         }();
@@ -115,7 +115,7 @@ MonteCarlo = function () {
         bestPlay = _.max(pairs, function (pair) {
           return pair[0];
         })[1];
-        node = node.children['' + bestPlay];
+        node = node.children[bestPlay];
       }
       //if TRACE then print 'selecting',JSON.stringify(node.board.moves), pairs
       //if TRACE then print 'selected',JSON.stringify node.board.moves

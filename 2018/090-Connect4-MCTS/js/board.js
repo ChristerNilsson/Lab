@@ -226,6 +226,4 @@ Board = function () {
 
   return Board;
 }();
-
-// isPlayer : (player) -> player == [-1,1][@moves.length % 2]
 //# sourceMappingURL=board.js.map
