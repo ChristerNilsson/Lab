@@ -1,5 +1,5 @@
 SIZE = 600/(N+1)
-thinkingTime = 10 # 10 milliseconds is ok
+thinkingTime = 1000 # 10 milliseconds is ok
 
 level = 0
 list = null
@@ -7,6 +7,7 @@ moves = null
 board = null
 delta = 0
 montecarlo = null
+antal = 0
 
 setup = ->
 	createCanvas 600,600
@@ -15,6 +16,8 @@ setup = ->
 	textSize SIZE/2
 
 newGame = () ->
+	antal = 0
+	print ' '
 	level += delta
 	if level < 0 then level = 0
 	delta = -2
@@ -65,6 +68,7 @@ draw = ->
 	text level,SIZE/2,SIZE/2-10
 
 mousePressed = ->
+	antal=0
 	if delta != -2 then return newGame()
 	if mouseX<SIZE/2 or mouseX>=width-SIZE/2 or mouseY>=height then return
 	nr = int (mouseX-SIZE/2)/SIZE
@@ -76,9 +80,13 @@ mousePressed = ->
 		list[nr].push moves.length
 
 	if board.done() then return delta = 1
+	start = Date.now()
 	montecarlo = new MonteCarlo new Node null,null,board
 	result = montecarlo.runSearch 2**level
-	print montecarlo.root.n, montecarlo	
+	print 'ms=',Date.now()-start, 'games='+montecarlo.root.n, 'nodes='+antal
+	print montecarlo	
+	#dump montecarlo.root
+	#print ''
 	m = montecarlo.bestPlay montecarlo.root
 
 	moves.push m
@@ -88,3 +96,4 @@ mousePressed = ->
 	if board.moves.length == M*N then delta = 0
 
 undo : -> if moves.length > 0 then list[moves.pop()].pop()
+

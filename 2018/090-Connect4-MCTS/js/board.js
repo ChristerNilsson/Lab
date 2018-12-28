@@ -195,7 +195,7 @@ Board = function () {
   }, {
     key: 'draw',
     value: function draw() {
-      return this.moves.length === M * N;
+      return this.moves.length === M * N; // OBS! Kan vara vinst!
     }
   }, {
     key: 'legalPlays',
@@ -215,20 +215,17 @@ Board = function () {
     key: 'winner',
     value: function winner() {
       if (this.draw()) {
-        return 0;
+        return 0.5;
       }
       if (this.done()) {
-        return [1, -1][this.moves.length % 2];
+        return [1, 0][this.moves.length % 2];
       }
       return null;
-    }
-  }, {
-    key: 'isPlayer',
-    value: function isPlayer(player) {
-      return player === [-1, 1][this.moves.length % 2];
     }
   }]);
 
   return Board;
 }();
+
+// isPlayer : (player) -> player == [-1,1][@moves.length % 2]
 //# sourceMappingURL=board.js.map

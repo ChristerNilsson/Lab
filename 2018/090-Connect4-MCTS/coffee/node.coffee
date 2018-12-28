@@ -1,5 +1,6 @@
 class Node 
 	constructor : (@parent, @play, @board) ->
+		antal++
 		@t = 0 # number of wins
 		@n = 0 # number of games
 		@children = {} # of Nodes
@@ -15,7 +16,7 @@ class Node
 
 	allPlays : -> (parseInt play for play,child of @children)
 	unexpandedPlays : -> (parseInt play for play,child of @children when child == null)
-	getUCB1 : -> (@t / @n) + Math.sqrt(2 * Math.log(@parent.n) / @n)
+	getUCB1 : -> @t / @n + Math.sqrt(2 * Math.log(@parent.n) / @n)
 
 	isFullyExpanded : ->
 		for key,child of @children 

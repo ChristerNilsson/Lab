@@ -93,13 +93,14 @@ class Board
 		if @calcDiagonal -1 then return true
 		false
 
-	draw : -> @moves.length == M*N
+	draw : -> @moves.length == M*N # OBS! Kan vara vinst!
 
 	legalPlays : -> (col for col in range N when @board[col].length < M)
-	winner : ->
-		if @draw() then return 0
-		if @done() then return [1,-1][@moves.length % 2] 
+
+	winner : -> 
+		if @draw() then return 0.5
+		if @done() then return [1,0][@moves.length % 2] 
 		null
 
-	isPlayer : (player) -> player == [-1,1][@moves.length % 2]  
+	# isPlayer : (player) -> player == [-1,1][@moves.length % 2]  
 	

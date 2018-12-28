@@ -15,6 +15,7 @@ Node = function () {
     this.parent = parent;
     this.play = play1;
     this.board = board;
+    antal++;
     this.t = 0; // number of wins
     this.n = 0; // number of games
     this.children = {}; // of Nodes
