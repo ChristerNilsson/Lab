@@ -2,7 +2,7 @@ M = 6  # antal rader
 N = 7  # antal kolumner
 
 SIZE = 600/(N+1)
-thinkingTime = 10 # milliseconds
+thinkingTime = 1000 # 10 milliseconds
 
 level = 0
 list = null
@@ -25,6 +25,7 @@ newGame = () ->
 	board = new Board()
 	list = ([] for i in range 7)
 	moves = []
+	computerMove()
 
 draw = ->
 	bg 0
@@ -53,6 +54,14 @@ draw = ->
 	text msg,width/2,SIZE/2-10
 	text level,SIZE/2,SIZE/2-10
 
+computerMove = ->
+	m = dator.move board
+	moves.push m
+	board.move m
+	list[m].push moves.length
+	if board.done() then return delta = -1
+	if board.moves.length == M*N then delta = 0
+
 mousePressed = ->
 	if delta != -2 then return newGame()
 	if mouseX<SIZE/2 or mouseX>=width-SIZE/2 or mouseY>=height then return
@@ -65,11 +74,6 @@ mousePressed = ->
 		list[nr].push moves.length
 
 	if board.done() then return delta = 1
-	m = dator.move board
-	moves.push m
-	board.move m
-	list[m].push moves.length
-	if board.done() then return delta = -1
-	if board.moves.length == M*N then delta = 0
+	computerMove()
 
 undo : -> if moves.length > 0 then list[moves.pop()].pop()
