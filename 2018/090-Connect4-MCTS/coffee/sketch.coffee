@@ -1,4 +1,4 @@
-thinkingTime = 10 # 10 milliseconds is ok
+thinkingTime = 1000 # 10 milliseconds is ok
 UCB = 2
 
 SIZE = 600/(N+1)
@@ -63,8 +63,10 @@ computerMove = ->
 	else
 		human = moves[moves.length-1]
 		dator = moves[moves.length-2]
+		n1 = montecarlo.root.n
 		montecarlo.root = montecarlo.root.children[dator].children[human]
 		montecarlo.root.parent = null
+		print 'Reused',nf(100*montecarlo.root.n/n1,0,1),'% of the tree'
 
 	start = Date.now()
 	result = montecarlo.runSearch 2**level
