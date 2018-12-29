@@ -24,11 +24,11 @@ MonteCarlo = function () {
       var key = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '';
       var level = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '*';
 
-      var child, ref, results;
+      var child, i, len, ref, results;
       print(level, key, 't:' + node.t, 'n:' + node.n, 'moves:' + JSON.stringify(node.board.moves), 'board:' + JSON.stringify(node.board.board));
       ref = node.children;
       results = [];
-      for (key in ref) {
+      for (key = i = 0, len = ref.length; i < len; key = ++i) {
         child = ref[key];
         if (child !== null) {
           results.push(this.dump(child, key, level + '|'));
@@ -177,11 +177,4 @@ MonteCarlo = function () {
 
   return MonteCarlo;
 }();
-
-// b = new Board()
-// n = new Node null,null,b
-// mc = new MonteCarlo n
-// mc.runSearch()
-// print mc
-// print mc.bestPlay mc.root
 //# sourceMappingURL=montecarlo.js.map

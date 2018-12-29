@@ -18,7 +18,7 @@ Node = function () {
     this.parent = parent;
     this.board = board;
     antal++;
-    this.children = {}; // of Nodes
+    this.children = []; // of Nodes
     ref = range(N);
     for (i = 0, len = ref.length; i < len; i++) {
       play = ref[i];
@@ -40,10 +40,10 @@ Node = function () {
   }, {
     key: "allPlays",
     value: function allPlays() {
-      var child, play, ref, results;
+      var child, i, len, play, ref, results;
       ref = this.children;
       results = [];
-      for (play in ref) {
+      for (play = i = 0, len = ref.length; i < len; play = ++i) {
         child = ref[play];
         results.push(parseInt(play));
       }
@@ -52,10 +52,10 @@ Node = function () {
   }, {
     key: "unexpandedPlays",
     value: function unexpandedPlays() {
-      var child, play, ref, results;
+      var child, i, len, play, ref, results;
       ref = this.children;
       results = [];
-      for (play in ref) {
+      for (play = i = 0, len = ref.length; i < len; play = ++i) {
         child = ref[play];
         if (child === null) {
           results.push(parseInt(play));
@@ -71,10 +71,10 @@ Node = function () {
   }, {
     key: "isFullyExpanded",
     value: function isFullyExpanded() {
-      var child, key, ref;
+      var child, i, len, ref;
       ref = this.children;
-      for (key in ref) {
-        child = ref[key];
+      for (i = 0, len = ref.length; i < len; i++) {
+        child = ref[i];
         if (child === null) {
           return false;
         }

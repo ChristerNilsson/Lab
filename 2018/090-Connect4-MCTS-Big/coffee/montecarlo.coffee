@@ -6,7 +6,7 @@ class MonteCarlo
 
 	dump : (node,key='',level='*') ->
 		print level,key,"t:#{node.t}", "n:#{node.n}", "moves:#{JSON.stringify node.board.moves}", "board:#{JSON.stringify node.board.board}"
-		for key,child of node.children
+		for child,key in node.children
 			if child != null then @dump child,key,level + '|' 
 
 	runSearch : (factor = 1) ->
@@ -73,10 +73,3 @@ class MonteCarlo
 			node.t += [score,1-score][node.board.moves.length % 2]
 			node = node.parent
 	
-# b = new Board()
-# n = new Node null,null,b
-# mc = new MonteCarlo n
-# mc.runSearch()
-# print mc
-# print mc.bestPlay mc.root
-
