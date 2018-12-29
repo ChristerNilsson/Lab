@@ -1,4 +1,4 @@
-thinkingTime = 1000 # 10 milliseconds is ok
+thinkingTime = 50 # 10 milliseconds is ok
 UCB = 2
 
 SIZE = 600/(N+1)
@@ -52,9 +52,9 @@ draw = ->
 			text nr, x, y+4
 	sc()
 	fc 1
-	msg = ['','Datorn vann!','Remis!','Du vann!'][delta+2]
-	text msg,width/2,SIZE/2-10
-	text level,SIZE/2,SIZE/2-10
+	msg = ['','Computer wins!','Remis!','You win!'][delta+2]
+	text msg,width/2,SIZE/2+30
+	text "Level:#{level} Time:#{2**level*thinkingTime} ms",width/2,SIZE/2-10
 	#text UCB,width-50,SIZE/2-10
 
 computerMove = ->
