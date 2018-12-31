@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "sketch.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\sketch.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;AAAA,IAAA,MAAA,OAAA;;AAAA,QAAQ;SACP,aAAa,AAAb,MAAkB,AAAlB,AADO;;;AAGR,QAAO,cAAC,AAAD,IAAI,AAAJ,IACN;MAAA,IAAA,IAAA,IAAA;AAAA,MAAG,AAAE,GAAC,AAAH,KAAQ,AAAR,MAAc,AAAjB;WACC,KAAK,AAAE,GAAC,AAAR,GAAU,AAAE,GAAC,AAAb,GAAe,AAAE,GAAC,AAAlB,GAAoB,AAAE,GAAC,AAAvB,AADD;AAAA,SAAA;AAGC,SAAK,AAAE,GAAC,AAAM,OAAC,AAAV,KAAe,AAAf,IAAkB,AAAlB,IAAqB,IAAE,AAAvB;AACL,SAAK,AAAE,GAAC,AAAM,OAAC,AAAV,KAAe,AAAf,IAAkB,AAAlB,IAAqB,IAAE,AAAvB;AACL,QAAI,AAAE,GAAC,AAAM,OAAC,AAAV,IAAc,AAAd,IAAiB,AAAjB;AACJ,AAAC,MAAC,AAAF,IAAM,AAAN;AACA,AAAC,MAAC,AAAF,OAAS,CAAC,AAAD,KAAI,AAAb;AACA,SAAK,AAAE,GAAC,AAAM,OAAC,AAAV,IAAc,AAAd,IAAiB,AAAjB;AAEL,UAAK,AAAL,IAAQ,AAAR;AACA,UAAK,AAAL,IAAQ,AAAR;AACA,UAAK,AAAL,IAAQ,AAAR;WACA,MAAK,AAAL,IAAQ,AAAR,AAbD;AADM;;;AAgBP,OAAO,gBACN;MAAA,IAAA,IAAA;AAAA,KAAG,AAAH;AACA,QAAM,AAAN;AACA,YAAU,AAAV,KAAc,AAAd;AACA,OAAK,aAAa,AAAb,GAAe,SAAO,KAAK,AAAL,AAAP,KAAe,AAA9B;AACL,OAAK,aAAa,QAAM,AAAnB,GAAqB,AAArB;AACL,OAAK,aAAa,AAAb,OAAmB,SAAO,KAAK,AAAL,AAAP,KAAe,AAAlC;AACL,QAAK,AAAL,IAAQ,AAAR;AACA,QAAK,AAAL,IAAQ,AAAR;SACA,MAAK,AAAL,IAAQ,AAAR,AATM",
+  "sourcesContent": [
+    "setup = ->\r\n\tcreateCanvas 1000,1000\r\n\r\nkoch = (q1,q5) ->\r\n\tif q1.dist(q5) < 20\r\n\t\tline q1.x,q1.y,q5.x,q5.y\r\n\telse\r\n\t\tq2 = p5.Vector.lerp q1,q5,1/3\r\n\t\tq4 = p5.Vector.lerp q1,q5,2/3\r\n\t\tv = p5.Vector.sub q5,q1\r\n\t\tv.div 3\r\n\t\tv.rotate -PI/3\r\n\t\tq3 = p5.Vector.add q2,v\r\n\r\n\t\tkoch q1,q2\r\n\t\tkoch q2,q3\r\n\t\tkoch q3,q4\r\n\t\tkoch q4,q5\r\n\r\ndraw = ->\r\n\tbg 0.5\r\n\tscale 0.8\r\n\ttranslate 150,50\r\n\tq1 = createVector 0,height*sqrt(3)/2\r\n\tq2 = createVector width/2,0\r\n\tq3 = createVector width,height*sqrt(3)/2\r\n\tkoch q1,q2\r\n\tkoch q2,q3\r\n\tkoch q3,q1\r\n"
+  ]
+}
