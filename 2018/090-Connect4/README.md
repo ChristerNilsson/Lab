@@ -1,4 +1,4 @@
-# Connect Four
+# Connect Four Random
 
 https://en.wikipedia.org/wiki/Connect_Four
 

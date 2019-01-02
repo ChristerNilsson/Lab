@@ -2,7 +2,7 @@ M = 6  # antal rader
 N = 7  # antal kolumner
 
 SIZE = 600/(N+1)
-thinkingTime = 1000 # 10 milliseconds
+thinkingTime = 10 # milliseconds
 
 level = 0
 list = null
@@ -25,7 +25,7 @@ newGame = () ->
 	board = new Board()
 	list = ([] for i in range 7)
 	moves = []
-	computerMove()
+	#computerMove()
 
 draw = ->
 	bg 0

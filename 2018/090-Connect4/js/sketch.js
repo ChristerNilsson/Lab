@@ -9,7 +9,7 @@ N = 7; // antal kolumner
 
 SIZE = 600 / (N + 1);
 
-thinkingTime = 1000; // 10 milliseconds
+thinkingTime = 10; // milliseconds
 
 level = 0;
 
@@ -49,10 +49,10 @@ newGame = function newGame() {
     }
     return results;
   }();
-  moves = [];
-  return computerMove();
+  return moves = [];
 };
 
+//computerMove()
 draw = function draw() {
   var column, i, j, k, l, len, len1, len2, len3, msg, n, nr, o, ref, ref1, x, y;
   bg(0);

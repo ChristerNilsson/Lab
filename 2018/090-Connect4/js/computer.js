@@ -13,11 +13,11 @@ Computer = function () {
   }
 
   _createClass(Computer, [{
-    key: "play_complete",
-    value: function play_complete(b) {
+    key: "simulate",
+    value: function simulate(b) {
       var marker;
       while (true) {
-        marker = b.last_marker();
+        marker = b.lastMarker();
         b.move(b.rand());
         if (b.done()) {
           return marker;
@@ -32,7 +32,7 @@ Computer = function () {
     value: function move(board) {
       var antal, b, cand, cands, end, i, len, m, marker, mrkr, start;
       start = Date.now();
-      marker = board.last_marker();
+      marker = board.lastMarker();
       cands = function () {
         var i, len, ref, results;
         ref = range(N);
@@ -59,7 +59,7 @@ Computer = function () {
           if (b.done()) {
             return cand[1];
           }
-          mrkr = this.play_complete(b);
+          mrkr = this.simulate(b);
           if (mrkr === marker) {
             cand[0]++;
           } else if (mrkr !== 'draw') {
@@ -70,7 +70,7 @@ Computer = function () {
       cand = _.max(cands, function (cand) {
         return cand[0];
       });
-      print(Date.now() - start, antal / (Math.pow(2, level) * thinkingTime / 1000));
+      print(Date.now() - start, antal); ///(2 ** level * thinkingTime/1000)
       return cand[1];
     }
   }]);
