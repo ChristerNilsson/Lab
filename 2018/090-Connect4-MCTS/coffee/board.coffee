@@ -1,5 +1,6 @@
 M = 6  # antal rader
 N = 7  # antal kolumner
+WINSIZE = 4
 
 getRandom = (b) -> int b * Math.random()
 
