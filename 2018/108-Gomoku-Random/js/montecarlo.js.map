@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "montecarlo.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\montecarlo.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;AAAA,IAAA,YAAA;;AAAA,QAAQ;;AAER,AAAM;AAEL,AAAc,sBAAA;;;AAAC,AAAC,SAAA,OAAF;AAEd,AAAY;;;;;AACX,UADY,6EAAD,AAAU;;UACrB,GAAA,OAAA,KAAA,GAAA,KAAA,MAAA,KAAA,SAAA;;AAAA,WAAA,kCAAA;;AACC,AAAC,aAAA,AAAI,KAAL,AAAM,OADP,AACC,AAAa;;AAEd,YAAM,AAAI,KAAJ,AAAK,QAAQ,SAAS,AAC5B;;aAAM,AAAI,KAAJ,AAAK,QAAX,AAAmB;;oBAElB;;AAAA;;AAAA,eAAA,QAAA;;AACC,qBAAS,AAAC,KAAD,AAAC,SAAD,AAAU;AACnB,AAAK,kBAAL,AAAM;AACN,gBAAG,WAAH,AAAa;4BAAO,AAAK,MAAzB,AAAoB,AAAM;AAA1B,mBAAA;iCAAA;AAHD;AAAA;;eAFD;AAAA;aALW;AAYZ,AAAW;;;6BAAA,AAAC,MACX;UAAA,OAAA,MAAA,MAAA;AAAA;iBAAyB;mBAAA;;AAAA,aAAA,QAAA;;uBAAhB,CAAC,AAAK,MAAN,AAAO,GAAP,AAAU,AAAM;AAAA;;;AACzB,UAAG,AAAK,MAAL,AAAM,WAAT,AAAmB;AAClB,cAAA,AAAM,AACN;eAFD,AAEQ;;AACR,eAAO,AAAE,IAAF,AAAM,OAAO,UAAA,AAAC;eAAS,AAAK,KAAf,AAAe;AAA5B,OAAA,AAAC;aACR,AAAK,KANK,AAML;AAEN,AAAW;;;6BAAA,AAAC,MACX;UAAA,OAAA;AAAA;AACA,cAAQ,AAAI,KAAC,AAAK,MAAV,AAAW;AACnB,eAAS,AAAK,MAAL,AAAM,AACf;aAAM,WAAN,AAAgB;AACf,AAAK,cAAL,AAAM,KAAK,AAAC,EAAD,AAAE,OAAO,AAAK,MAAzB,AAAW,AAAe;AAC1B,iBAAS,AAAK,MAFf,AAEU,AAAM;;aANN,AAOV;AA/BF",
+  "sourcesContent": [
+    "TRACE = true\r\n\r\nclass MonteCarlo\r\n\r\n\tconstructor : (@root) ->\r\n\r\n\trunSearch : (factor = 1) ->\r\n\t\tfor b in @root.board.surr\r\n\t\t\t@root.expand b\r\n\r\n\t\tend = Date.now() + factor * thinkingTime \r\n\t\twhile Date.now() < end\r\n\t\t#for i in range 500\r\n\t\t\tfor move,child of @root.children\r\n\t\t\t\twinner = @simulate child\r\n\t\t\t\tchild.n++\r\n\t\t\t\tif winner == 1 then child.t++\r\n\r\n\tbestPlay : (node) ->\r\n\t\tpairs = ([child.t, move] for move,child of node.children)\r\n\t\tif pairs.length == 0 \r\n\t\t\tprint 'Problem in bestPlay'\r\n\t\t\treturn null \r\n\t\tpair = _.max(pairs, (pair) -> pair[0])\r\n\t\tpair[1]\r\n\r\n\tsimulate : (node) ->\r\n\t\tantal++\r\n\t\tboard = node.board.copy()\r\n\t\twinner = board.winner()\r\n\t\twhile winner == null\r\n\t\t\tboard.move _.sample board.surr\r\n\t\t\twinner = board.winner()\r\n\t\twinner\r\n"
+  ]
+}

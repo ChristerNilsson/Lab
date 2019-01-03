@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "node.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\node.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AACC,AAAc,gBAAA,GAAA,GAAA;AAAA;;AACb;QAAA,GAAA,KAAA,MAAA;AADc,AAAC,SAAA;AAAE,AAAC,SAAA;AAAE,AAAC,SAAA;AACrB,AAAC,SAAA,AAAD,WAAY,AACZ;;AAAA,SAAA,kCAAA;;AACC,AAAC,WAAA,AAAS,SAAA,AAAV,QAAkB,AADnB;AAFa;AAKd,AAAS;;;;2BAAC,AAAD,MACR;UAAA,YAAA;AAAA,mBAAa,AAAC,KAAA,AAAK,MAAC,AAAP,UAAiB,AAAjB;AACb,kBAAY,IAAI,AAAJ,KAAS,AAAT,GAAW,AAAX,GAAa,AAAb;AACZ,AAAC,WAAA,AAAS,SAAA,AAAV,QAAkB;aAClB,AAJQ;AANV",
+  "sourcesContent": [
+    "class Node \r\n\tconstructor : (@t,@n,@board) -> # t=number of wins. n=number of games\r\n\t\t@children = {}\r\n\t\tfor play in @board.surr \r\n\t\t\t@children[play] = null \r\n\r\n\texpand : (play) ->\r\n\t\tchildBoard = @board.nextBoard play\r\n\t\tchildNode = new Node 0,0,childBoard\r\n\t\t@children[play] = childNode\r\n\t\tchildNode\r\n"
+  ]
+}
