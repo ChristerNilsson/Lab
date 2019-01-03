@@ -39,58 +39,27 @@ class Board
 	lastMarker : -> 'OX'[@moves.length % 2]
 	nextMarker : -> 'XO'[@moves.length % 2]
 
-	calcColumns : ->
-		m = _.last @moves
-		row = @board[m]
-		i = row.length - 2
-		if i<2 then return false # 50% more pos/sec
-		marker = @lastMarker()
-		count = 1
-		while row[i] == marker and i >= 0
-			count++
-			i--
-		count == WINSIZE
-
-	calcRows : ->
-		marker = @lastMarker()
-		m = _.last @moves
-		count = 1
-		n = @board[m].length - 1
-
-		for i in range m+1,N
-			if n >= @board[i].length or @board[i][n] != marker then break
-			count++
-
-		for i in range m-1,-1,-1
-			if n >= @board[i].length or @board[i][n] != marker then break
-			count++
-
-		count >= WINSIZE
-
-	calcDiagonal : (dj) ->
-		helper = (di, dj) =>
-			i = m+di
-			j = n+dj
+	calc : (dr,dc) ->
+		helper = =>
+			r = row + dr 
+			c = col + dc
 			res = 0
-			while 0 <= j < M and 0 <= i < N and j < @board[i].length and @board[i][j] == marker
+			while 0 <= r < M and 0 <= c < N and r < @board[c].length and @board[c][r] == marker
 				res++
-				i += di
-				j += dj
+				r += dr
+				c += dc
 			res
 		marker = @lastMarker()
-		m = _.last @moves
-		count = 1
-		n = @board[m].length - 1
-		count += helper +1,+dj,marker,m,n
-		count += helper -1,-dj,marker,m,n
-		count >= WINSIZE
+		col = _.last @moves
+		row = @board[col].length-1
+		1 + helper() >= WINSIZE
 
 	done : ->
 		if @moves.length <= 2 * (WINSIZE-1) then return false
-		if @calcColumns()   then return true
-		if @calcRows()      then return true
-		if @calcDiagonal +1 then return true
-		if @calcDiagonal -1 then return true
+		for dr in [-1,0,1]
+			for dc in [-1,0,1]
+				if dr!=0 or dc!=0
+					if @calc dr,dc then return true 
 		false
 
 	draw : -> @moves.length == M*N # OBS! Kan vara vinst!
