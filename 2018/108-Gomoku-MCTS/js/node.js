@@ -19,7 +19,7 @@ Node = function () {
     this.board = board;
     antal++;
     this.children = {};
-    ref = this.board.surr();
+    ref = this.board.surr;
     // legalPlays() 
     //print @board
     for (i = 0, len = ref.length; i < len; i++) {

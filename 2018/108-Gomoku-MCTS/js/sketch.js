@@ -14,12 +14,13 @@ var SIZE,
     moves,
     newGame,
     setup,
+    showSurr,
     thinkingTime,
     modulo = function modulo(a, b) {
   return (+a % (b = +b) + b) % b;
 };
 
-thinkingTime = 5000; // 50 milliseconds is ok
+thinkingTime = 1000;
 
 UCB = 2;
 
@@ -58,6 +59,22 @@ newGame = function newGame() {
 };
 
 //computerMove()
+showSurr = function showSurr() {
+  var col, index, j, len, ref, results, row;
+  ref = board.surr;
+  results = [];
+  for (j = 0, len = ref.length; j < len; j++) {
+    index = ref[j];
+    //if index not in board.moves
+    row = 1 + Math.floor(index / N);
+    col = 1 + modulo(index, N);
+    sc(0, 1, 0);
+    fc();
+    results.push(circle(SIZE * col, SIZE * row, 10));
+  }
+  return results;
+};
+
 draw = function draw() {
   var c, i, index, j, k, len, len1, msg, r, ref, x, y;
   bg(0);
@@ -90,10 +107,11 @@ draw = function draw() {
   fc(1);
   msg = ['', 'Computer Wins!', 'Remis!', 'You win!'][delta + 2];
   text(msg, width / 2, height - SIZE / 2 - 10);
-  return text(level, SIZE / 2, height - SIZE / 2 - 10);
+  text(level, SIZE / 2, height - SIZE / 2 - 10);
+  //text UCB,width-50,SIZE/2-10
+  return showSurr();
 };
 
-//text UCB,width-50,SIZE/2-10
 computerMove = function computerMove() {
   var m, result, start;
   montecarlo = new MonteCarlo(new Node(0, 0, null, board));

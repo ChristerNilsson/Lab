@@ -11,31 +11,40 @@ class Board
  
 	copy : ->
 		b = new Board()
-		b.board = @board.slice() 
-		b.moves = @moves.slice()
+		b.board = @board.slice() # 1D
+		b.moves = @moves.slice() # 1D
+		b.surr = @surr.slice() # 1D
 		b
 
-	surr : -> # one step neighbours in eight directions 
-		res = {}
-		for move in @moves
-			row = move // N
-			col = move %% N
-			for dr in [-1,0,1]
-				for dc in [-1,0,1]
-					if dr!=0 or dc!=0
-						if 0 <= row+dr < N and 0 <= col+dc < N 
-							index = N*(row+dr)+col+dc 
-							res[index] = index
-		res[move] = -1 for move in @moves
-		(m for i,m of res when m != -1)
+	extendSurr : -> # one step neighbours in eight directions 
+		move = _.last @moves
+		#print board
+		row = move // N
+		col = move %% N
+		for dr in [-1,0,1]
+			for dc in [-1,0,1]
+				if dr!=0 or dc!=0
+					if 0<=row+dr<N and 0<=col+dc<N
+						index = N*(row+dr)+col+dc 
+						if @board[index] == 0 #and index not in @surr
+							@surr.push index 
+		#print 'extendSurr',move,"#{@surr}"
+		#@surr = _.without @surr, move
+		newSurr = []
+		for s in @surr
+			if s not in @moves
+				newSurr.push s
+		@surr = newSurr
 
 	clear : ->
 		@moves = []
 		@board = (0 for i in range M*N)
+		@surr = []
 
 	move : (play) ->
 		@board[play] = @nextMarker()
 		@moves.push play
+		@extendSurr()
 
 	nextBoard : (play) ->
 		b = @copy()

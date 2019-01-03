@@ -107,9 +107,7 @@ MonteCarlo = function () {
         }
         return results;
       }());
-      if (TRACE) {
-        print('bestPlay', res, pair, lst);
-      }
+      //if TRACE then print 'bestPlay', res, pair, lst
       return res;
     }
   }, {
@@ -157,7 +155,7 @@ MonteCarlo = function () {
       board = node.board;
       winner = board.winner();
       while (winner === null) {
-        board = board.nextBoard(_.sample(board.surr())); // legalPlays() 
+        board = board.nextBoard(_.sample(board.surr)); // legalPlays() 
         winner = board.winner();
       }
       //if TRACE then print 'simulate',winner,"#{JSON.stringify node.board.moves}",board.board,board.moves

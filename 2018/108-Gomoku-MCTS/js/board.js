@@ -11,7 +11,8 @@ var Board,
     WINSIZE,
     modulo = function modulo(a, b) {
   return (+a % (b = +b) + b) % b;
-};
+},
+    indexOf = [].indexOf;
 
 M = 10; // number of rows
 
@@ -38,56 +39,56 @@ Board = function () {
     value: function copy() {
       var b;
       b = new Board();
-      b.board = this.board.slice();
-      b.moves = this.moves.slice();
+      b.board = this.board.slice(); // 1D
+      b.moves = this.moves.slice(); // 1D
+      b.surr = this.surr.slice(); // 1D
       return b;
     }
   }, {
-    key: 'surr',
-    value: function surr() {
+    key: 'extendSurr',
+    value: function extendSurr() {
       // one step neighbours in eight directions 
-      var col, dc, dr, i, index, j, k, l, len, len1, len2, len3, m, move, n, ref, ref1, ref2, ref3, ref4, ref5, res, results, row;
-      res = {};
-      ref = this.moves;
+      var col, dc, dr, index, j, k, l, len, len1, len2, move, newSurr, ref, ref1, ref2, ref3, ref4, row, s;
+      move = _.last(this.moves);
+      //print board
+      row = Math.floor(move / N);
+      col = modulo(move, N);
+      ref = [-1, 0, 1];
       for (j = 0, len = ref.length; j < len; j++) {
-        move = ref[j];
-        row = Math.floor(move / N);
-        col = modulo(move, N);
+        dr = ref[j];
         ref1 = [-1, 0, 1];
         for (k = 0, len1 = ref1.length; k < len1; k++) {
-          dr = ref1[k];
-          ref2 = [-1, 0, 1];
-          for (l = 0, len2 = ref2.length; l < len2; l++) {
-            dc = ref2[l];
-            if (dr !== 0 || dc !== 0) {
-              if (0 <= (ref3 = row + dr) && ref3 < N && 0 <= (ref4 = col + dc) && ref4 < N) {
-                index = N * (row + dr) + col + dc;
-                res[index] = index;
+          dc = ref1[k];
+          if (dr !== 0 || dc !== 0) {
+            if (0 <= (ref2 = row + dr) && ref2 < N && 0 <= (ref3 = col + dc) && ref3 < N) {
+              index = N * (row + dr) + col + dc;
+              if (this.board[index] === 0) {
+                //and index not in @surr
+                this.surr.push(index);
               }
             }
           }
         }
       }
-      ref5 = this.moves;
-      for (n = 0, len3 = ref5.length; n < len3; n++) {
-        move = ref5[n];
-        res[move] = -1;
-      }
-      results = [];
-      for (i in res) {
-        m = res[i];
-        if (m !== -1) {
-          results.push(m);
+
+      //print 'extendSurr',move,"#{@surr}"
+      //@surr = _.without @surr, move
+      newSurr = [];
+      ref4 = this.surr;
+      for (l = 0, len2 = ref4.length; l < len2; l++) {
+        s = ref4[l];
+        if (indexOf.call(this.moves, s) < 0) {
+          newSurr.push(s);
         }
       }
-      return results;
+      return this.surr = newSurr;
     }
   }, {
     key: 'clear',
     value: function clear() {
       var i;
       this.moves = [];
-      return this.board = function () {
+      this.board = function () {
         var j, len, ref, results;
         ref = range(M * N);
         results = [];
@@ -97,12 +98,14 @@ Board = function () {
         }
         return results;
       }();
+      return this.surr = [];
     }
   }, {
     key: 'move',
     value: function move(play) {
       this.board[play] = this.nextMarker();
-      return this.moves.push(play);
+      this.moves.push(play);
+      return this.extendSurr();
     }
   }, {
     key: 'nextBoard',

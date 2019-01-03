@@ -39,7 +39,7 @@ class MonteCarlo
 		pair = _.max(pairs, (pair) -> pair[0])
 		res = pair[1]
 		lst = JSON.stringify (a for [a,b] in pairs)
-		if TRACE then print 'bestPlay', res, pair, lst
+		#if TRACE then print 'bestPlay', res, pair, lst
 		res
 
 	select : -> # väljer en nod ur trädet
@@ -63,7 +63,7 @@ class MonteCarlo
 		board = node.board
 		winner = board.winner()
 		while winner == null
-			board = board.nextBoard _.sample board.surr() # legalPlays() 
+			board = board.nextBoard _.sample board.surr # legalPlays() 
 			winner = board.winner()
 		#if TRACE then print 'simulate',winner,"#{JSON.stringify node.board.moves}",board.board,board.moves
 		winner

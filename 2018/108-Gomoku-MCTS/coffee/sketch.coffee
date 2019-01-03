@@ -1,4 +1,4 @@
-thinkingTime = 5000 # 50 milliseconds is ok
+thinkingTime = 1000
 UCB = 2
 
 SIZE = 600//(N+1)
@@ -26,6 +26,15 @@ newGame = () ->
 	moves = []
 	montecarlo = null
 	#computerMove()
+
+showSurr = ->
+	for index in board.surr
+		#if index not in board.moves
+		row = 1 + index//N
+		col = 1 + index%%N
+		sc 0,1,0
+		fc()
+		circle SIZE*col,SIZE*row,10
 
 draw = ->
 	bg 0
@@ -56,6 +65,7 @@ draw = ->
 	text msg,width/2,height-SIZE/2-10
 	text level,SIZE/2,height-SIZE/2-10
 	#text UCB,width-50,SIZE/2-10
+	showSurr()	
 
 computerMove = ->
 	montecarlo = new MonteCarlo new Node 0,0,null,board

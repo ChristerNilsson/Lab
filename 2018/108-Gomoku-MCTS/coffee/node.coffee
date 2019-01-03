@@ -3,7 +3,7 @@ class Node
 		antal++
 		@children = {}
 		#print @board
-		for play in @board.surr() # legalPlays() 
+		for play in @board.surr # legalPlays() 
 			@children[play] = null 
 
 	expand : (play) ->
