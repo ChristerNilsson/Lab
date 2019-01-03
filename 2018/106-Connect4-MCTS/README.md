@@ -1,5 +1,7 @@
 # Connect4 MCTS
 
+# Ej aktiv
+
 [Medium](https://medium.com/@quasimik/implementing-monte-carlo-tree-search-in-node-js-5f07595104df)
 
 * Hade en del problem med Map.
