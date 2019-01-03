@@ -23,10 +23,10 @@ Board = function () {
 
     _classCallCheck(this, Board);
 
-    var digit, k, len;
+    var digit, j, len;
     this.clear();
-    for (k = 0, len = moves.length; k < len; k++) {
-      digit = moves[k];
+    for (j = 0, len = moves.length; j < len; j++) {
+      digit = moves[j];
       this.move(parseInt(digit));
     }
   }
@@ -45,10 +45,10 @@ Board = function () {
     value: function rand() {
       var b, i;
       return _.sample(function () {
-        var k, len, ref, results;
+        var j, len, ref, results;
         ref = this.board;
         results = [];
-        for (i = k = 0, len = ref.length; k < len; i = ++k) {
+        for (i = j = 0, len = ref.length; j < len; i = ++j) {
           b = ref[i];
           if (b.length < M) {
             results.push(i);
@@ -63,11 +63,11 @@ Board = function () {
       var i;
       this.moves = [];
       return this.board = function () {
-        var k, len, ref, results;
+        var j, len, ref, results;
         ref = range(N);
         results = [];
-        for (k = 0, len = ref.length; k < len; k++) {
-          i = ref[k];
+        for (j = 0, len = ref.length; j < len; j++) {
+          i = ref[j];
           results.push('');
         }
         return results;
@@ -105,92 +105,47 @@ Board = function () {
       return 'XO'[this.moves.length % 2];
     }
   }, {
-    key: 'calcColumns',
-    value: function calcColumns() {
-      var count, i, m, marker, row;
-      m = _.last(this.moves);
-      row = this.board[m];
-      i = row.length - 2;
-      if (i < 2) {
-        return false; // 50% more pos/sec
-      }
-      marker = this.lastMarker();
-      count = 1;
-      while (row[i] === marker && i >= 0) {
-        count++;
-        i--;
-      }
-      return count === 4;
-    }
-  }, {
-    key: 'calcRows',
-    value: function calcRows() {
-      var count, i, k, l, len, len1, m, marker, n, ref, ref1;
-      marker = this.lastMarker();
-      m = _.last(this.moves);
-      count = 1;
-      n = this.board[m].length - 1;
-      ref = range(m + 1, N);
-      for (k = 0, len = ref.length; k < len; k++) {
-        i = ref[k];
-        if (n >= this.board[i].length || this.board[i][n] !== marker) {
-          break;
+    key: 'calc',
+    value: function calc(dr, dc) {
+      var _this = this;
+
+      var col, helper, marker, row;
+      helper = function helper() {
+        var c, r, res;
+        r = row + dr;
+        c = col + dc;
+        res = 0;
+        while (0 <= r && r < M && 0 <= c && c < N && r < _this.board[c].length && _this.board[c][r] === marker) {
+          res++;
+          r += dr;
+          c += dc;
         }
-        count++;
-      }
-      ref1 = range(m - 1, -1, -1);
-      for (l = 0, len1 = ref1.length; l < len1; l++) {
-        i = ref1[l];
-        if (n >= this.board[i].length || this.board[i][n] !== marker) {
-          break;
-        }
-        count++;
-      }
-      return count >= 4;
-    }
-  }, {
-    key: 'helper',
-    value: function helper(di, dj, marker, m, n) {
-      var i, j, res;
-      i = m + di;
-      j = n + dj;
-      res = 0;
-      while (0 <= j && j < M && 0 <= i && i < N && j < this.board[i].length && this.board[i][j] === marker) {
-        res++;
-        i += di;
-        j += dj;
-      }
-      return res;
-    }
-  }, {
-    key: 'calcDiagonal',
-    value: function calcDiagonal(dj) {
-      var count, m, marker, n;
+        return res;
+      };
       marker = this.lastMarker();
-      m = _.last(this.moves);
-      count = 1;
-      n = this.board[m].length - 1;
-      count += this.helper(+1, +dj, marker, m, n);
-      count += this.helper(-1, -dj, marker, m, n);
-      return count >= 4;
+      col = _.last(this.moves);
+      row = this.board[col].length - 1;
+      return 1 + helper() >= WINSIZE;
     }
   }, {
     key: 'done',
     value: function done() {
-      if (this.moves.length <= 6) {
+      var dc, dr, j, k, len, len1, ref, ref1;
+      if (this.moves.length <= 2 * (WINSIZE - 1)) {
         return false;
       }
-      if (this.calcColumns()) {
-        return true;
-      }
-      if (this.calcRows()) {
-        return true;
-      }
-      if (this.calcDiagonal(+1)) {
-        return true;
-      }
-      if (this.calcDiagonal(-1)) {
-        return true;
+      ref = [-1, 0, 1];
+      for (j = 0, len = ref.length; j < len; j++) {
+        dr = ref[j];
+        ref1 = [-1, 0, 1];
+        for (k = 0, len1 = ref1.length; k < len1; k++) {
+          dc = ref1[k];
+          if (dr !== 0 || dc !== 0) {
+            if (this.calc(dr, dc)) {
+              return true;
+            }
+          }
+        }
       }
       return false;
     }
@@ -202,11 +157,11 @@ Board = function () {
   }, {
     key: 'legalPlays',
     value: function legalPlays() {
-      var col, k, len, ref, results;
+      var col, j, len, ref, results;
       ref = range(N);
       results = [];
-      for (k = 0, len = ref.length; k < len; k++) {
-        col = ref[k];
+      for (j = 0, len = ref.length; j < len; j++) {
+        col = ref[j];
         if (this.board[col].length < M) {
           results.push(col);
         }
