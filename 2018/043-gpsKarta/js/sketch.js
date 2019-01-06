@@ -95,10 +95,12 @@ corner = function corner(a, b, c, d, x, y) {
 // Vinterpasset 2109
 makeCorners = function makeCorners() {
   var ab0, ab1, ac0, ac1, bd0, bd1, cd0, cd1, ne, nw, se, sw;
+  // beräkna x
   ac0 = vercal(A, C, 0);
   ac1 = vercal(A, C, HEIGHT);
   bd0 = vercal(B, D, 0);
   bd1 = vercal(B, D, HEIGHT);
+  // beräkna y
   ab0 = hortal(A, B, 0);
   ab1 = hortal(A, B, WIDTH);
   cd0 = hortal(C, D, 0);
