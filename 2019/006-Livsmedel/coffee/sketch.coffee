@@ -1,76 +1,45 @@
-priser = 
-	K963: 30/0.300
-	K2226: 30
-	K1395: 80/0.25 # räkor, skalade. 50% går bort.
-	K2238: 40/0.540 # chorizo
-
-gr = 1
-mgr = 0.001
-µgr = 1e-6
-
-RDI =
-	mg: 0.350 * mgr
-	selen: 1 * µgr # ren gissning
-
 f = (s) ->
 	res = []
-	total = {pris:0,kcal:0,kolhydrater:0,fett:0,protein:0,mg:0}
+	total = {k:0,f:0,c:0,p:0,price:0,amount:0,n:'TOTAL'}
 	for item in s.split '|'
 		arr = item.split ' '
 		key = arr[0]
 		amount = parseInt arr[1]
 		data = db[key]
 
-		name = data[0]
-		pris = priser[key]
-		kcal = parseFloat data[2] # kcal/100g RDI:2300 kcal
-		kolhydrater = parseFloat data[4] # g/100g
-		fett = parseFloat data[5] # g/100g 
-		protein = parseFloat data[6] # g/100g 
-		mg = parseFloat data[54] # mg/100g  RDI:350 mg
+		n = data.n # name
+		price = amount * data.price / data.weight 
+		k = amount * data.k/100 # kcal RDI:2300 kcal
+		c = amount * data.c/100 # carb g
+		f = amount * data.f/100 # fat g 
+		p = amount * data.p/100 # prot g 
+		res.push {k,c,f,p,price,amount,n}
 
-		total.pris        += amount/1000 * pris
-		total.kcal        += amount/100 * kcal
-		total.kolhydrater += amount/100 * kolhydrater # [g]
-		total.fett        += amount/100 * fett # [g]
-		total.protein     += amount/100 * protein # [g]
-		total.mg          += amount/100 * mg # [mg] 
-		res.push [amount,kcal,kolhydrater,fett,protein,mg,name]
-
-	total["fett/protein"] = format 0,'%', 100*total.fett/total.protein # Riktvärde: 1.0
-	total.pris        = format 2,'kr',total.pris
-	total.kcal        = format 0,'kcal',total.kcal
-	total.kolhydrater = format 0,'g',total.kolhydrater
-	total.fett        = format 0,'g',total.fett
-	total.protein     = format 0,'g',total.protein
-	total.mg          = format 0,'mg',total.mg
+		total.k += k
+		total.c += c # [g]
+		total.f += f # [g]
+		total.p += p # [g]
+		total.price += price 
+		total.amount += amount
 
 	res.push total
+	summa = (total.f+total.c+total.p)/100
+	res.push {k:0,f:total.f/summa,c:total.c/summa,p:total.p/summa,price:0,amount:0,n:'%'}
 	res
 
-format = (decs,unit,value) -> "#{value.toFixed decs} #{unit}"
+fmt = (value,width,decs=0) -> value.toFixed(decs).padStart width
 
 db = {}
 buildDb = ->
-	for line in database.split '\n'
-		arr = line.split '|' 
-		for item,i in arr
-			if item=='' then arr[i]=0
-		arr[0] = arr[0].toLowerCase()
-		if arr[0].includes 'chorizo' then print arr[0],arr[1]
-		db["K"+arr[1]] = arr
+	db.K0 = {n:'bacon',   k:308, f:28, c:3.5, p:14,   weight:125, price:13}
+	db.K1 = {n:'chorizo', k:273, f:23, c:3.5, p:13,   weight:540, price:40}
+	db.K2 = {n:'ägg',     k:140, f:10, c:0,   p:12.5, weight:630, price:33}
+	db.K3 = {n:'musslor', k:100, f:2.8, c:3.1,p:15,   weight:250, price:32}
 
 setup = ->
 	createCanvas 200,200
-
-	#print titles.split '|'
-
 	buildDb()
 
-	print db['K2238']
-
-	# bacon 1003
-	# chorizo 2238
 	# fläsklägg 984
 	# kaffegrädde 1714
 	# kalvlever 1441
@@ -87,9 +56,31 @@ setup = ->
 	# pollock 4615
 	# räkor 1395 # OBS! Hälften går bort som skal
 	# torsk 1246
-	# ägg 1225
 
-	#print f 'K1003 100|K984 500' # bacon fläsklägg
-	#print f 'K1453 250|K963 300|K1714 125|K2226 50|K1003 125' # kycklinglever köttfärs kaffegrädde pasta bacon
-	print f 'K963 300|K2226 50|K1395 100|K2238 180' # köttfärs pasta räkor chorizo
-	#print f 'K2238 100' 
+	söndag = 'K0 125|K1 360|K2 120|K3 125'
+
+	print ' kcal fat carb prot price amount name'
+	for item in f söndag
+		print "#{fmt item.k,5} #{fmt item.f,3} #{fmt item.c,4} #{fmt item.p,4} #{fmt item.price,5,2} #{fmt item.amount,6} #{item.n}" #  #{fmt 50*item.f/item.p,4}%
+	print '       75    5   20              Keto Std'
+	print '       60    5   35              Keto HP'
+
+#######
+
+		# gr = 1
+# mgr = 0.001
+# µgr = 1e-6
+
+# RDI =
+# 	mg: 0.350 * mgr
+# 	selen: 1 * µgr # ren gissning
+
+	# for line in database.split '\n'
+	# 	arr = line.split '|' 
+	# 	for item,i in arr
+	# 		if item=='' then arr[i]=0
+	# 	arr[0] = arr[0].toLowerCase()
+	# 	if arr[0].includes 'chorizo' then print arr[0],arr[1]
+	# 	db["K"+arr[1]] = arr
+
+#format = (decs,unit,value) -> "#{value.toFixed decs} #{unit}"
