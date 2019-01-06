@@ -1,6 +1,6 @@
 0 Se till att kameran har maximal upplösning.
 * Kan ställas in med: Superresolution till 9216*6912 (Asus 64 MP)
-1 Fotografera av kartan. Den behöver inte ligga exakt i norr. Testade 45 grader, gick utmärkt!
+1 Fotografera av kartan.
 2 Välj fyra hörnpunkter som syns bra i Google Maps
 3 Tag reda på deras lat och long mha högerklick|"What's here"
 4 Tag reda på x och y mha measure.coffee
