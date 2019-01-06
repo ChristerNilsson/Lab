@@ -6,7 +6,8 @@ var RDI, buildDb, db, f, format, gr, mgr, priser, setup, µgr;
 priser = {
   K963: 30 / 0.300,
   K2226: 30,
-  K1395: 80 / 0.25 // räkor, skalade. 50% går bort.
+  K1395: 80 / 0.25, // räkor, skalade. 50% går bort.
+  K2238: 40 / 0.540 // chorizo
 };
 
 gr = 1;
@@ -84,7 +85,7 @@ buildDb = function buildDb() {
       }
     }
     arr[0] = arr[0].toLowerCase();
-    if (arr[0].includes('räk')) {
+    if (arr[0].includes('chorizo')) {
       print(arr[0], arr[1]);
     }
     results.push(db["K" + arr[1]] = arr);
@@ -96,7 +97,9 @@ setup = function setup() {
   createCanvas(200, 200);
   //print titles.split '|'
   buildDb();
+  print(db['K2238']);
   // bacon 1003
+  // chorizo 2238
   // fläsklägg 984
   // kaffegrädde 1714
   // kalvlever 1441
@@ -117,6 +120,8 @@ setup = function setup() {
 
   //print f 'K1003 100|K984 500' # bacon fläsklägg
   //print f 'K1453 250|K963 300|K1714 125|K2226 50|K1003 125' # kycklinglever köttfärs kaffegrädde pasta bacon
-  return print(f('K963 300|K2226 50|K1395 125')); // köttfärs pasta räkor
+  return print(f('K963 300|K2226 50|K1395 100|K2238 180')); // köttfärs pasta räkor chorizo
 };
+
+//print f 'K2238 100'
 //# sourceMappingURL=sketch.js.map

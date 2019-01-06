@@ -2,6 +2,7 @@ priser =
 	K963: 30/0.300
 	K2226: 30
 	K1395: 80/0.25 # räkor, skalade. 50% går bort.
+	K2238: 40/0.540 # chorizo
 
 gr = 1
 mgr = 0.001
@@ -56,7 +57,7 @@ buildDb = ->
 		for item,i in arr
 			if item=='' then arr[i]=0
 		arr[0] = arr[0].toLowerCase()
-		if arr[0].includes 'räk' then print arr[0],arr[1]
+		if arr[0].includes 'chorizo' then print arr[0],arr[1]
 		db["K"+arr[1]] = arr
 
 setup = ->
@@ -66,7 +67,10 @@ setup = ->
 
 	buildDb()
 
+	print db['K2238']
+
 	# bacon 1003
+	# chorizo 2238
 	# fläsklägg 984
 	# kaffegrädde 1714
 	# kalvlever 1441
@@ -87,4 +91,5 @@ setup = ->
 
 	#print f 'K1003 100|K984 500' # bacon fläsklägg
 	#print f 'K1453 250|K963 300|K1714 125|K2226 50|K1003 125' # kycklinglever köttfärs kaffegrädde pasta bacon
-	print f 'K963 300|K2226 50|K1395 125' # köttfärs pasta räkor
+	print f 'K963 300|K2226 50|K1395 100|K2238 180' # köttfärs pasta räkor chorizo
+	#print f 'K2238 100' 
