@@ -1,15 +1,23 @@
-FILENAME = 'karta.jpg'
+FILENAME = '2019-Vinter.jpg'
 
 spara = (lat,lon, x,y) -> {lat,lon, x,y}
-B = spara 59.300593,18.163456, 5422,158 
-A = spara 59.300736,18.125648, 554,433
-C = spara 59.265339,18.159501, 5384,9114 
-D = spara 59.281411,18.122435, 338,5298  # Sockenvägen/Ätravägen
-E = spara 59.266262,18.144961, 3496,8980 # Garden Center
+
+# Sommarpasset 2018
+# B = spara 59.300593,18.163456, 5422,158 
+# A = spara 59.300736,18.125648, 554,433
+# C = spara 59.265339,18.159501, 5384,9114 
+# D = spara 59.281411,18.122435, 338,5298  # Sockenvägen/Ätravägen
+# E = spara 59.266262,18.144961, 3496,8980 # Garden Center
+
+# Vinterpasset 2019
+A = spara 59.285607,18.150687, 178,442   # Norra brofästet
+B = spara 59.284808,18.180402, 3222,338  # Shooting Range, mitt i huset
+C = spara 59.270078,18.150334, 359,3488  # Östra brofästet
+D = spara 59.269380,18.169612, 2303,3494 # Kolarängsvägen/Klisätravägen
 
 DATA = "gpsKarta"
-WIDTH = 6912
-HEIGHT = 9216
+WIDTH = null
+HEIGHT = null
 [cx,cy] = [0,0] # center (image coordinates)
 SCALE = 1
 
@@ -51,39 +59,65 @@ corner = (a,b,c,d,x,y)->
 	lat = map y, c.y,d.y, c.lat,d.lat  
 	{lat,lon,x,y} 	
 
+# Vinterpasset 2109
 makeCorners = ->
-	ad0 = vercal A,D,0
-	ad1 = vercal A,D,HEIGHT
-	bc0 = vercal B,C,0
-	bc1 = vercal B,C,HEIGHT
+	ac0 = vercal A,C,0
+	ac1 = vercal A,C,HEIGHT
+	bd0 = vercal B,D,0
+	bd1 = vercal B,D,HEIGHT
 
 	ab0 = hortal A,B,0
 	ab1 = hortal A,B,WIDTH
-	ec0 = hortal E,C,0
-	ec1 = hortal E,C,WIDTH
+	cd0 = hortal C,D,0
+	cd1 = hortal C,D,WIDTH
 
-	nw = corner ad0,bc0,ab0,ec0,0,    0
-	ne = corner ad0,bc0,ab1,ec1,WIDTH,0
-	se = corner ad1,bc1,ab1,ec1,WIDTH,HEIGHT
-	sw = corner ad1,bc1,ab0,ec0,0,    HEIGHT
+	nw = corner ac0,bd0,ab0,cd0,0,    0
+	ne = corner ac0,bd0,ab1,cd1,WIDTH,0
+	se = corner ac1,bd1,ab1,cd1,WIDTH,HEIGHT
+	sw = corner ac1,bd1,ab0,cd0,0,    HEIGHT
 
 	gps = new GPS nw,ne,se,sw,WIDTH,HEIGHT
 
-	# Testpunkter
-	P1 = spara 59.275687,18.155340, 4697, 6518 # krknök
-	P2 = spara 59.280348,18.155122, 4590,5310 # trevägsskylt
-	P3 = B
-	P4 = spara 59.279172,18.149319, 3877,5681 # Bron
+	print gps.gps2bmp A.lat,A.lon
+	print gps.gps2bmp B.lat,B.lon
+	print gps.gps2bmp C.lat,C.lon
+	print gps.gps2bmp D.lat,D.lon
 
-	gps.assert_gps2bmp P1, [6,7]
-	gps.assert_gps2bmp P2, [24,38]
-	gps.assert_gps2bmp P3, [0,1]
-	gps.assert_gps2bmp P4, [-4,7]
+# Sommarpasset 2018
+# makeCorners = ->
+# 	ad0 = vercal A,D,0
+# 	ad1 = vercal A,D,HEIGHT
+# 	bc0 = vercal B,C,0
+# 	bc1 = vercal B,C,HEIGHT
 
-	gps.assert_bmp2gps P1,[2.4,-1.2]
-	gps.assert_bmp2gps P2,[14.9, -7.35]
-	gps.assert_bmp2gps P3,[0.2,0]
-	gps.assert_bmp2gps P4,[2.3,2.75]
+# 	ab0 = hortal A,B,0
+# 	ab1 = hortal A,B,WIDTH
+# 	ec0 = hortal E,C,0
+# 	ec1 = hortal E,C,WIDTH
+
+# 	nw = corner ad0,bc0,ab0,ec0,0,    0
+# 	ne = corner ad0,bc0,ab1,ec1,WIDTH,0
+# 	se = corner ad1,bc1,ab1,ec1,WIDTH,HEIGHT
+# 	sw = corner ad1,bc1,ab0,ec0,0,    HEIGHT
+
+# 	gps = new GPS nw,ne,se,sw,WIDTH,HEIGHT
+
+# 	# Testpunkter
+# 	P1 = spara 59.275687,18.155340, 4697,6518 # krknök
+# 	P2 = spara 59.280348,18.155122, 4590,5310 # trevägsskylt
+# 	P3 = B
+# 	P4 = spara 59.279172,18.149319, 3877,5681 # Bron
+
+# 	gps.assert_gps2bmp P1, [6,7]
+# 	gps.assert_gps2bmp P2, [24,38]
+# 	gps.assert_gps2bmp P3, [0,1]
+# 	gps.assert_gps2bmp P4, [-4,7]
+
+	# gps.assert_bmp2gps P1,[2.4,-1.2]
+	# gps.assert_bmp2gps P2,[14.9, -7.35]
+	# gps.assert_bmp2gps P3,[0.2,0]
+	# gps.assert_bmp2gps P4,[2.3,2.75]
+
 
 locationUpdate = (p) ->
 	lat = p.coords.latitude
@@ -105,6 +139,9 @@ fetchData = -> if localStorage[DATA] then points = JSON.parse localStorage[DATA]
 
 setup = ->
 	createCanvas windowWidth,windowHeight
+
+	WIDTH = img.width
+	HEIGHT = img.height
 
 	[cx,cy] = [WIDTH/2,HEIGHT/2] 
 
@@ -249,3 +286,12 @@ xdraw = ->
 # 	counter += 1
 # 	messages.push "mousePressed #{counter}"
 # 	false
+
+# mousePressed = ->
+# 	x = cx + mouseX/SCALE - width/2
+# 	y = cy + mouseY/SCALE - height/2
+# 	print {mouseX,mouseY,cx,cy,SCALE,x,y}
+# 	print gps.bmp2gps mouseX,mouseY
+# 	for button in buttons
+# 		if button.contains mouseX,mouseY then button.click()
+# 	xdraw()
