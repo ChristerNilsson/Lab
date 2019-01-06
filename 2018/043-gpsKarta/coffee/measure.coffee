@@ -1,3 +1,8 @@
+# Denna fil användes istället för sketch.coffee när man ska kalibrera en ny karta
+# Klicka på tydliga referenspunkter i de fyra hörnen
+# T ex vägskäl, hus, broar, kraftledningar, osv
+# Avläs koordinaterna med tangent F12
+
 img = null 
 
 preload = -> img = loadImage '2019-Vinter.jpg'

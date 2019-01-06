@@ -6,8 +6,8 @@
     "coffee\\measure.coffee"
   ],
   "names": [],
-  "mappings": ";;;AAAA,IAAA,KAAA,cAAA,SAAA;;AAAA,MAAM;;AAEN,UAAU;SAAG,MAAM,UAAU,AAAV,AAAT;;;AAEV,QAAQ;AACP,eAAa,AAAG,IAAC,AAAjB,OAAwB,AAAG,IAAC,AAA5B;AACA,QAAM,AAAN,KAAW,AAAX,GAAa,AAAb,GAAgB,AAAhB,OAAsB,AAAtB;SACA,MAAM,AAAN,AAHO;;;AAKR,eAAe;SAAG,MAAM,MAAM,AAAN,AAAN,SAAqB,MAAM,AAAN,AAArB,AAAH",
+  "mappings": ";;;AAAA;;;;AAAA,IAAA,KAAA,cAAA,SAAA;;AAKA,MAAM;;AAEN,UAAU;SAAG,MAAM,UAAU,AAAV,AAAT;;;AAEV,QAAQ;AACP,eAAa,AAAG,IAAC,AAAjB,OAAwB,AAAG,IAAC,AAA5B;AACA,QAAM,AAAN,KAAW,AAAX,GAAa,AAAb,GAAgB,AAAhB,OAAsB,AAAtB;SACA,MAAM,AAAN,AAHO;;;AAKR,eAAe;SAAG,MAAM,MAAM,AAAN,AAAN,SAAqB,MAAM,AAAN,AAArB,AAAH",
   "sourcesContent": [
-    "img = null \r\n\r\npreload = -> img = loadImage '2019-Vinter.jpg'\r\n\r\nsetup = ->\r\n\tcreateCanvas img.width, img.height\r\n\timage img, 0,0, width,height\r\n\tprint img\r\n\r\nmousePressed = ->\tprint round(mouseX), round(mouseY)\r\n"
+    "# Denna fil användes istället för sketch.coffee när man ska kalibrera en ny karta\r\n# Klicka på tydliga referenspunkter i de fyra hörnen\r\n# T ex vägskäl, hus, broar, kraftledningar, osv\r\n# Avläs koordinaterna med tangent F12\r\n\r\nimg = null \r\n\r\npreload = -> img = loadImage '2019-Vinter.jpg'\r\n\r\nsetup = ->\r\n\tcreateCanvas img.width, img.height\r\n\timage img, 0,0, width,height\r\n\tprint img\r\n\r\nmousePressed = ->\tprint round(mouseX), round(mouseY)\r\n"
   ]
 }

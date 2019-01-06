@@ -2,13 +2,6 @@ FILENAME = '2019-Vinter.jpg'
 
 spara = (lat,lon, x,y) -> {lat,lon, x,y}
 
-# Sommarpasset 2018
-# B = spara 59.300593,18.163456, 5422,158 
-# A = spara 59.300736,18.125648, 554,433
-# C = spara 59.265339,18.159501, 5384,9114 
-# D = spara 59.281411,18.122435, 338,5298  # Sockenvägen/Ätravägen
-# E = spara 59.266262,18.144961, 3496,8980 # Garden Center
-
 # Vinterpasset 2019
 A = spara 59.285607,18.150687, 178,442   # Norra brofästet
 B = spara 59.284808,18.180402, 3222,338  # Shooting Range, mitt i huset
@@ -82,42 +75,6 @@ makeCorners = ->
 	print gps.gps2bmp B.lat,B.lon
 	print gps.gps2bmp C.lat,C.lon
 	print gps.gps2bmp D.lat,D.lon
-
-# Sommarpasset 2018
-# makeCorners = ->
-# 	ad0 = vercal A,D,0
-# 	ad1 = vercal A,D,HEIGHT
-# 	bc0 = vercal B,C,0
-# 	bc1 = vercal B,C,HEIGHT
-
-# 	ab0 = hortal A,B,0
-# 	ab1 = hortal A,B,WIDTH
-# 	ec0 = hortal E,C,0
-# 	ec1 = hortal E,C,WIDTH
-
-# 	nw = corner ad0,bc0,ab0,ec0,0,    0
-# 	ne = corner ad0,bc0,ab1,ec1,WIDTH,0
-# 	se = corner ad1,bc1,ab1,ec1,WIDTH,HEIGHT
-# 	sw = corner ad1,bc1,ab0,ec0,0,    HEIGHT
-
-# 	gps = new GPS nw,ne,se,sw,WIDTH,HEIGHT
-
-# 	# Testpunkter
-# 	P1 = spara 59.275687,18.155340, 4697,6518 # krknök
-# 	P2 = spara 59.280348,18.155122, 4590,5310 # trevägsskylt
-# 	P3 = B
-# 	P4 = spara 59.279172,18.149319, 3877,5681 # Bron
-
-# 	gps.assert_gps2bmp P1, [6,7]
-# 	gps.assert_gps2bmp P2, [24,38]
-# 	gps.assert_gps2bmp P3, [0,1]
-# 	gps.assert_gps2bmp P4, [-4,7]
-
-	# gps.assert_bmp2gps P1,[2.4,-1.2]
-	# gps.assert_bmp2gps P2,[14.9, -7.35]
-	# gps.assert_bmp2gps P3,[0.2,0]
-	# gps.assert_bmp2gps P4,[2.3,2.75]
-
 
 locationUpdate = (p) ->
 	lat = p.coords.latitude
@@ -205,7 +162,7 @@ drawTrack = ->
 	translate width/2, height/2
 	scale SCALE
 	for [x,y],i in track
-		circle x-cx, y-cy, 5*(track.length-i)
+		circle x-cx, y-cy, 10 * (track.length-i)
 	pop()
 
 drawPoints = ->

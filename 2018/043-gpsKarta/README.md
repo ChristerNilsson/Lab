@@ -19,13 +19,17 @@ Kontrollernas diameter är cirka 75 meter.
 * S : Sparar aktuell position. Visas med rött.
 * 0 : Droppar senast sparad position. Visar antalet sparade.
 
-Praktisk noggrannhet tycks ligga kring 15-20 meter.
+Praktisk noggrannhet tycks ligga kring 10 meter.
 
 Den egna positionen visas med fem gula cirklar. Den minsta cirkeln är den senaste.
+
+Hindra skärmrotation på din mobil (Android) :
+* Settings
+* Display
+* When device is rotated: Stay in portrait view
 
 # ToDo:
 
 *	Begränsa zoom
 *	Drag och pinch istf knappar
-*	Transformationer mellan wgs84 och bitmappskoordinater sker via åtta anrop till map. Borde kunna förbättras. 
-*	GlobalMercator kan möjligen användas för denna projektion.
+* Få kompassen att visa rätt
