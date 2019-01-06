@@ -8,6 +8,12 @@ B = spara 59.284808,18.180402, 3222,338  # Shooting Range, mitt i huset
 C = spara 59.270078,18.150334, 359,3488  # Östra brofästet
 D = spara 59.269380,18.169612, 2303,3494 # Kolarängsvägen/Klisätravägen
 
+# 45 grader
+# A = spara 59.285607,18.150687, 2499,328   # Norra brofästet
+# B = spara 59.284808,18.180402, 4061,2292  # Shooting Range, mitt i huset
+# C = spara 59.270078,18.150334, 584,1959   # Östra brofästet
+# D = spara 59.269380,18.169612, 1511,3268  # Kolarängsvägen/Klisätravägen
+
 DATA = "gpsKarta"
 WIDTH = null
 HEIGHT = null
@@ -47,10 +53,19 @@ hortal = (a,b,x) ->
 	lon = map x, a.x,b.x, a.lon,b.lon  
 	{lat,lon,x,y} 	
 
+# corner behöver troligen åtgärdas om man ska klara 45 grader
 corner = (a,b,c,d,x,y)->
 	lon = map x, a.x,b.x, a.lon,b.lon
 	lat = map y, c.y,d.y, c.lat,d.lat  
-	{lat,lon,x,y} 	
+
+	# lon1 = map x, a.x,b.x, a.lon,b.lon
+	# lat1 = map x, a.x,b.x, a.lat,b.lat
+	# lon2 = map y, c.y,d.y, c.lon,d.lon
+	# lat2 = map y, c.y,d.y, c.lat,d.lat
+	# lat = (lat1+lat2)/2
+	# lon = (lon1+lon2)/2
+
+	{lat,lon,x,y}
 
 # Vinterpasset 2109
 makeCorners = ->
@@ -60,23 +75,44 @@ makeCorners = ->
 	bd0 = vercal B,D,0
 	bd1 = vercal B,D,HEIGHT
 
+	# print ac0
+	# print ac1
+	# print bd0
+	# print bd1
+
 	# beräkna y
 	ab0 = hortal A,B,0
 	ab1 = hortal A,B,WIDTH
 	cd0 = hortal C,D,0
 	cd1 = hortal C,D,WIDTH
 
+	# print ab0
+	# print ab1
+	# print cd0
+	# print cd1
+
 	nw = corner ac0,bd0,ab0,cd0,0,    0
 	ne = corner ac0,bd0,ab1,cd1,WIDTH,0
 	se = corner ac1,bd1,ab1,cd1,WIDTH,HEIGHT
 	sw = corner ac1,bd1,ab0,cd0,0,    HEIGHT
 
+#	print nw,ne,se,sw
+
 	gps = new GPS nw,ne,se,sw,WIDTH,HEIGHT
 
-	print gps.gps2bmp A.lat,A.lon
-	print gps.gps2bmp B.lat,B.lon
-	print gps.gps2bmp C.lat,C.lon
-	print gps.gps2bmp D.lat,D.lon
+	# print gps.bmp2gps 0,0
+	# print gps.bmp2gps WIDTH,0
+	# print gps.bmp2gps WIDTH,HEIGHT
+	# print gps.bmp2gps 0,HEIGHT
+
+#print gps.bmp2gps 2223,2125
+#	print gps.gps2bmp 59.277431, 18.165034
+
+
+	# print gps.gps2bmp A.lat,A.lon
+	# print gps.gps2bmp B.lat,B.lon
+	# print gps.gps2bmp C.lat,C.lon
+	# print gps.gps2bmp D.lat,D.lon
 
 locationUpdate = (p) ->
 	lat = p.coords.latitude
