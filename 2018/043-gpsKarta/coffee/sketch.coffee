@@ -8,19 +8,13 @@ B = spara 59.284808,18.180402, 3222,338  # Shooting Range, mitt i huset
 C = spara 59.270078,18.150334, 359,3488  # Östra brofästet
 D = spara 59.269380,18.169612, 2303,3494 # Kolarängsvägen/Klisätravägen
 
-# 45 grader
-# A = spara 59.285607,18.150687, 2499,328   # Norra brofästet
-# B = spara 59.284808,18.180402, 4061,2292  # Shooting Range, mitt i huset
-# C = spara 59.270078,18.150334, 584,1959   # Östra brofästet
-# D = spara 59.269380,18.169612, 1511,3268  # Kolarängsvägen/Klisätravägen
-
 DATA = "gpsKarta"
 WIDTH = null
 HEIGHT = null
 [cx,cy] = [0,0] # center (image coordinates)
 SCALE = 1
 
-released = true # to make Android work
+# released = true # to make Android work
 
 gps = null
 TRACKED = 5 # circles shows the player's position
@@ -53,66 +47,29 @@ hortal = (a,b,x) ->
 	lon = map x, a.x,b.x, a.lon,b.lon  
 	{lat,lon,x,y} 	
 
-# corner behöver troligen åtgärdas om man ska klara 45 grader
 corner = (a,b,c,d,x,y)->
-	lon = map x, a.x,b.x, a.lon,b.lon
 	lat = map y, c.y,d.y, c.lat,d.lat  
-
-	# lon1 = map x, a.x,b.x, a.lon,b.lon
-	# lat1 = map x, a.x,b.x, a.lat,b.lat
-	# lon2 = map y, c.y,d.y, c.lon,d.lon
-	# lat2 = map y, c.y,d.y, c.lat,d.lat
-	# lat = (lat1+lat2)/2
-	# lon = (lon1+lon2)/2
-
+	lon = map x, a.x,b.x, a.lon,b.lon
 	{lat,lon,x,y}
 
-# Vinterpasset 2109
 makeCorners = ->
-	# beräkna x
-	ac0 = vercal A,C,0
+
+	ac0 = vercal A,C,0  	                  # beräkna x
 	ac1 = vercal A,C,HEIGHT
 	bd0 = vercal B,D,0
 	bd1 = vercal B,D,HEIGHT
 
-	# print ac0
-	# print ac1
-	# print bd0
-	# print bd1
-
-	# beräkna y
-	ab0 = hortal A,B,0
+	ab0 = hortal A,B,0                      # beräkna y
 	ab1 = hortal A,B,WIDTH
 	cd0 = hortal C,D,0
 	cd1 = hortal C,D,WIDTH
 
-	# print ab0
-	# print ab1
-	# print cd0
-	# print cd1
-
-	nw = corner ac0,bd0,ab0,cd0,0,    0
-	ne = corner ac0,bd0,ab1,cd1,WIDTH,0
-	se = corner ac1,bd1,ab1,cd1,WIDTH,HEIGHT
-	sw = corner ac1,bd1,ab0,cd0,0,    HEIGHT
-
-#	print nw,ne,se,sw
+	nw = corner ac0,bd0,ab0,cd0, 0,    0		# beräkna hörnen
+	ne = corner ac0,bd0,ab1,cd1, WIDTH,0
+	se = corner ac1,bd1,ab1,cd1, WIDTH,HEIGHT
+	sw = corner ac1,bd1,ab0,cd0, 0,    HEIGHT
 
 	gps = new GPS nw,ne,se,sw,WIDTH,HEIGHT
-
-	# print gps.bmp2gps 0,0
-	# print gps.bmp2gps WIDTH,0
-	# print gps.bmp2gps WIDTH,HEIGHT
-	# print gps.bmp2gps 0,HEIGHT
-
-#print gps.bmp2gps 2223,2125
-#	print gps.gps2bmp 59.277431, 18.165034
-
-
-	# print gps.gps2bmp A.lat,A.lon
-	# print gps.gps2bmp B.lat,B.lon
-	# print gps.gps2bmp C.lat,C.lon
-	# print gps.gps2bmp D.lat,D.lon
 
 locationUpdate = (p) ->
 	lat = p.coords.latitude
@@ -178,19 +135,12 @@ setup = ->
 	setupCompass()
 	xdraw()
 
-	# undviker dubbelstuds:
-	#addEventListener 'touchend', (evt) ->	
-	#	released = true             # to make Android work
-	#	false       # to make Android work
 	addEventListener 'touchstart', (evt) ->	
-		#if not released then return false # to make Android work
-		#released = false            # to make Android work
 		touches = evt.changedTouches	
 		touch = touches[touches.length-1]
 		for button in buttons
 			if button.contains touch.pageX,touch.pageY then button.click()
 		xdraw()
-		#false       # to make Android work
 
 drawTrack = ->
 	push()
@@ -243,46 +193,7 @@ xdraw = ->
 	for message,i in messages
 		text message,width/2,50*(i+1)
 
-# touchEnded = ->            # to make Android work
-# 	released = true             # to make Android work
-# 	messages.push 'touchEnded'
-# 	false       # to make Android work
-
-# touchStarted = -> 
-# 	if not released then return false # to make Android work
-# 	released = false            # to make Android work
-# 	for button in buttons
-# 		if button.contains mouseX,mouseY then button.click()
-# 	messages.push "touchStarted #{points.length}"
-# 	xdraw()
-# 	false       # to make Android work
-
-# mouseReleased = ->            # to make Android work
-# 	released = true             # to make Android work
-# 	messages.push 'mouseReleased'
-# 	false                       # to make Android work
-
-# mousePressed = ->
-# 	if not released then return false # to make Android work
-# 	released = false            # to make Android work
-# 	for button in buttons
-# 		if button.contains mouseX,mouseY then button.click()
-# 	messages.push "mousePressed #{points.length}"
-# 	false                       # to make Android work
-
-# mouseReleased = ->
-# 	released = true
-# 	messages.push 'mouseReleased'
-# 	false
-
-# mousePressed = ->
-# 	if not released then return false
-# 	released = false 
-# 	counter += 1
-# 	messages.push "mousePressed #{counter}"
-# 	false
-
-# mousePressed = ->
+# mousePressed = -> # For use on PC during development only.
 # 	x = cx + mouseX/SCALE - width/2
 # 	y = cy + mouseY/SCALE - height/2
 # 	print {mouseX,mouseY,cx,cy,SCALE,x,y}

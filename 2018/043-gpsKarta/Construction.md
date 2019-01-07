@@ -20,3 +20,5 @@ nw,ne,se,sw beräknas mha ac0,ac1, bd0,bd1, ab0,ab1, cd0,cd1 samt corners()
 I terrängen får man in en gps-koordinat.
 Denna omvandlas till (x,y) mha GPS.gps2bmp()
 Därefter kan positionen ritas in på kartan.
+
+Distanskalkylator: http://edwilliams.org/gccalc.htm
