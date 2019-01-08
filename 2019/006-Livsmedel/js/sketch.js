@@ -86,7 +86,7 @@ buildDb = function buildDb() {
     weight: 630,
     price: 33
   };
-  return db.K3 = {
+  db.K3 = {
     n: 'musslor',
     k: 100,
     f: 2.8,
@@ -95,10 +95,82 @@ buildDb = function buildDb() {
     weight: 250,
     price: 32
   };
+  db.K4 = {
+    n: 'fläsklägg',
+    k: 120,
+    f: 5.2,
+    c: 2.1,
+    p: 16,
+    weight: 1000,
+    price: 35
+  };
+  db.K5 = {
+    n: 'blodpudding',
+    k: 200,
+    f: 8.5,
+    c: 22,
+    p: 7.2,
+    weight: 500,
+    price: 9
+  };
+  db.K6 = {
+    n: 'kycklingklubba',
+    k: 200,
+    f: 14,
+    c: 0,
+    p: 19,
+    weight: 1000,
+    price: 27
+  };
+  db.K7 = {
+    n: 'ananas',
+    k: 60,
+    f: 0.4,
+    c: 12,
+    p: 0,
+    weight: 225,
+    price: 0
+  };
+  db.K8 = {
+    n: 'mango',
+    k: 70,
+    f: 0,
+    c: 15,
+    p: 0,
+    weight: 250,
+    price: 10.00
+  };
+  db.K9 = {
+    n: 'blåbär',
+    k: 53,
+    f: 1,
+    c: 9,
+    p: 1,
+    weight: 125,
+    price: 17.95
+  };
+  db.K10 = {
+    n: 'banan',
+    k: 101,
+    f: 0.5,
+    c: 22,
+    p: 1,
+    weight: 1000,
+    price: 22
+  };
+  return db.K11 = {
+    n: 'glass',
+    k: 234,
+    f: 16,
+    c: 18,
+    p: 4,
+    weight: 250,
+    price: 10
+  };
 };
 
 setup = function setup() {
-  var i, item, len, ref, söndag;
+  var i, item, len, måndag, ref, söndag, tisdag;
   createCanvas(200, 200);
   buildDb();
   // fläsklägg 984
@@ -118,8 +190,10 @@ setup = function setup() {
   // räkor 1395 # OBS! Hälften går bort som skal
   // torsk 1246
   söndag = 'K0 125|K1 360|K2 120|K3 125';
+  måndag = 'K6 500|K7 225|K8 250';
+  tisdag = 'K5 350|K9 250|K10 320|K11 250';
   print(' kcal fat carb prot price amount name');
-  ref = _f(söndag);
+  ref = _f(tisdag);
   for (i = 0, len = ref.length; i < len; i++) {
     item = ref[i];
     print(fmt(item.k, 5) + ' ' + fmt(item.f, 3) + ' ' + fmt(item.c, 4) + ' ' + fmt(item.p, 4) + ' ' + fmt(item.price, 5, 2) + ' ' + fmt(item.amount, 6) + ' ' + item.n //  #{fmt 50*item.f/item.p,4}%
