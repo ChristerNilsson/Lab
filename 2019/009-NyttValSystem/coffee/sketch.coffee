@@ -1,39 +1,59 @@
+S = 0
+M = 1
+SD = 2
+C = 3
+V = 4
+KD = 5
+L = 6
+MP = 7
+FI = 8
+AFS = 9
+MED = 10
+ÖVRIGA = 11
+
 partier = []
 save = (namn,andel) -> partier.push {andel,available:true, total:0,namn}
-save 'Socialdemokraterna', 28.26
-save 'Moderaterna',  19.84
-save 'SverigeDemokraterna', 17.53
-save 'Centern', 8.61
-save 'Vänsterpartiet', 8.00
-save 'Kristdemokraterna', 6.32
-save 'Liberalerna', 5.49
-save 'Miljöpartiet', 4.41
-save 'Feministerna', 0.46
+save 'S', 28.26
+save 'M',  19.84
+save 'SD', 17.53
+save 'C', 8.61
+save 'V', 8.00
+save 'KD', 6.32
+save 'L', 5.49
+save 'MP', 4.41
+save 'FI', 0.46
 save 'AfS', 0.31
+save 'MED', 0.30
+save 'Övriga', 0.47
 
 N = 7497123
 röster = []
 
+process = (lst,andel=1) ->
+	index = lst[0]
+	parti = partier[index]
+	n = round parti.andel * andel * N / 100
+	for i in range n
+		röster.push lst
+
 SkapaRöster = ->
-	for parti,index in partier
-		n = int parti.andel * N / 100
-		for i in range n
-			switch index 
-				when 0 then röster.push [0]
-				when 1 then röster.push [1]
-				when 2 
-					röster.push if random() < 0.3 then [2,5,0] else [2,5,1]
-				when 3 
-					röster.push if random() < 0.5 then [3,0] else [3,1]
-				when 4 then röster.push [4,0]
-				when 5 then röster.push [5,1]
-				when 6 then röster.push [6,1]
-				when 7
-					röster.push if random() < 0.7 then [7,4,0] else [7,4,1]
-				when 8 then röster.push [8,4,7,0]
-				when 9 then röster.push [9,2,1]
+	process [S]
+	process [M]
+	process [SD,V,S],0.3
+	process [SD,KD,M],0.7
+	process [C,S],0.5
+	process [C,M],0.5
+	process [V,S]
+	process [KD,M]
+	process [L,M]
+	process [MP,V,S],0.7
+	process [MP,V,M],0.3
+	process [FI,V,MP,S]
+	process [AFS,SD,M]
+	process [MED,SD,M]
+	process [ÖVRIGA]
 	röster = _.shuffle röster
-	print "#{N} röster inlästa"
+	print "#{röster.length} röster inlästa"
 
 RäknaRöster = ->
 	for parti in partier
@@ -44,30 +64,31 @@ RäknaRöster = ->
 				partier[index].total++
 				break 
 	for p in partier
-		print "#{p.andel}% #{p.total} #{p.namn}" if p.available
+		print "#{nf 100*p.total/N,0,2}% #{p.total} #{p.namn}" if p.available
+
+eliminera = ([antal,index]) ->
+	parti = partier[index]
+	print "Tag bort #{parti.namn} med #{antal} röster"
+	parti.available = false
 
 setup = ->
 	SkapaRöster()
-	for i in range 10
+	for i in range partier.length-1
 		print ''
 		print "------- Omgång #{i} --------"
 		RäknaRöster()
 		arr = ([parti.total,i] for parti,i in partier when parti.total > 0)
-		arr.sort (item) -> item[0]
-		#print 'Partierna',arr
-		summa = röster.length # _.reduce arr, ((sum,pair) -> sum+pair[0]),0
-		parti = arr[0]
+		arr.sort (a,b) -> b[0] - a[0]
+
+		summa = röster.length 
+		[antal,index] = arr[0]
+		störst = partier[index]
 		print ''
-		print "Största parti: #{partier[parti[1]].namn} med #{nf (parti[0]/summa*100), 0,1}% av rösterna"
+		print "Största parti: #{störst.namn} med #{nf (antal/summa*100), 0,2}% av rösterna"
 
-		#print 'summa',summa 
-		if _.last(arr)[0] > summa/2 then break
-
-		parti = _.last arr
-		print "Tag bort #{partier[parti[1]].namn} med #{parti[0]} röster"
-		partier[parti[1]].available = false
-		#print partier
+		eliminera _.last arr
 
 	print '===================================================='
-	index = arr[0][1]
-	print "Slutlig segrare: #{partier[index].namn} med #{nf (parti[index]/summa*100), 0,1} röster"
+	[antal,index] = arr[0]
+	parti = partier[index]
+	print "Slutlig segrare: #{parti.namn} med #{nf (antal/summa*100), 0,2} röster"
