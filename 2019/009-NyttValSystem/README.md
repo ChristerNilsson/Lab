@@ -1,12 +1,15 @@
-# Nytt Valsystem
+# Nytt valsystem
 
 Bygger på att man kan välja flera partier, i rangordning.
 
-# Exempel:
+Denna metod är ett förslag till hur man kan få fram största parti för regeringsbildning.
+
+# Exempelröst
 
 [FI,V,MP,S]
 
 # Tolkning
+
 * I första hand vill den röstande rösta på FI.
 * Kommer FI inte in ska rösten gå till V.
 * Kommer V inte in ska rösten gå till MP.
@@ -18,12 +21,14 @@ Bygger på att man kan välja flera partier, i rangordning.
 2. Om största parti ej får majoritet - stryk minsta partiet
 3. Upprepa
 
-Observera: Det finns ingen garanti för att något parti kommer över 50%.
+Observera: Det finns ingen garanti för att något parti kommer över 50%. Sannolikheten ökar dock ju fler som röstar på flera partier.
 
 # Fördelar
+
 * Ökar sannolikheten för regeringsbildande
 * Ökar chans för nya partier att etablera sig. Ingen röst blir bortkastad.
 
 # Nackdelar
+
 * Kräver grundlagsändring
 * Kräver mer hantering av den röstande

@@ -28,6 +28,8 @@ save 'Övriga', 0.47
 
 N = 7497123
 röster = []
+riksdagsOmgång = -1 
+summa = 0
 
 process = (lst,andel=1) ->
 	index = lst[0]
@@ -58,29 +60,37 @@ SkapaRöster = ->
 RäknaRöster = ->
 	for parti in partier
 		parti.total = 0
+	summa = 0
 	for röst in röster
 		for index in röst
 			if partier[index].available
 				partier[index].total++
+				summa++
 				break 
 	for p in partier
-		print "#{nf 100*p.total/N,0,2}% #{p.total} #{p.namn}" if p.available
+		print "#{nf 100*p.total/summa,0,2}% #{p.total} #{p.namn}" if p.available
 
 eliminera = ([antal,index]) ->
 	parti = partier[index]
 	print "Tag bort #{parti.namn} med #{antal} röster"
 	parti.available = false
 
+riksdag = (omgång) ->
+	if riksdagsOmgång != -1 then return 
+	riksdagsOmgång = omgång
+
 setup = ->
 	SkapaRöster()
-	for i in range partier.length-1
+	for omgång in range partier.length-1
 		print ''
-		print "------- Omgång #{i} --------"
+		print "------- Omgång #{omgång} --------"
 		RäknaRöster()
 		arr = ([parti.total,i] for parti,i in partier when parti.total > 0)
 		arr.sort (a,b) -> b[0] - a[0]
 
-		summa = röster.length 
+		[antal,index] = _.last arr
+		if antal >= 0.04 * summa then riksdag omgång
+
 		[antal,index] = arr[0]
 		störst = partier[index]
 		print ''
@@ -88,7 +98,9 @@ setup = ->
 
 		eliminera _.last arr
 
-	print '===================================================='
+	print ''
+	print '======= SLUTRESULTAT ==========================================='
 	[antal,index] = arr[0]
 	parti = partier[index]
-	print "Slutlig segrare: #{parti.namn} med #{nf (antal/summa*100), 0,2} röster"
+	print "Regering: #{parti.namn} med #{nf (antal/summa*100), 0,2} röster"
+	print "Riksdag: Se Omgång #{riksdagsOmgång}"
