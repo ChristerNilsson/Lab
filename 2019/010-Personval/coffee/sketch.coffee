@@ -1,3 +1,4 @@
+# Beskrivning av kolumner i kandidaturer.js:
 VALTYP = 0
 VALOMRÅDESKOD = 1
 VALOMRÅDESNAMN = 2
@@ -35,10 +36,13 @@ dictionary = {}
 	# 01 -> Stockholms läns landsting
 	# 0180 -> Stockholm
 
-buttons = []
-pbuttons = []
-lbuttons = []
-kbuttons = []
+buttons = [] # RKL
+pbuttons = [] # parti
+lbuttons = [] # letters
+kbuttons = [] # kandidater
+sbuttons = [] # Del, Up, Down
+
+selectedPersons = {R:[], L:[], K:[]}
 
 selectedButton = null
 selectedPartiButton = null
@@ -66,6 +70,10 @@ class PartiButton extends Button
 		text @title,@x,@y
 
 class PersonButton extends Button
+	constructor : (person, x,y,w,h,click = ->) ->
+		title = "#{person[NAMN]} - #{person[VALSEDELSUPPGIFT]}"
+		super title,x,y,w,h,click
+		@person = person
 	draw : ->
 		fc 0.5
 		rect @x,@y,@w,@h
@@ -78,8 +86,8 @@ class LetterButton extends Button
 	constructor : (title,x,y,w,h,@antal,click) ->
 		super title,x,y,w,h,click
 		@page = -1
-		@pages = 1 + @antal // 30
-		if @antal==0 then @pages = 0 
+		@pages = 1 + @antal // PERSONS_PER_PAGE
+		if @antal % PERSONS_PER_PAGE == 0 then @pages--
 	draw : ->
 		fc 0.5
 		rect @x,@y,@w,@h
@@ -91,7 +99,7 @@ class LetterButton extends Button
 		@pageIndicator()
 		pop()
 	pageIndicator : ->
-		if @pages < 1 then return 
+		if @pages <= 1 then return 
 		dx = @w//(@pages+1)
 		for i in range @pages
 			if i==@page then fc 1 else fc 0
@@ -106,28 +114,92 @@ spara = (lista,key,value) ->
 	current[key] = value
 
 antal = (letter,personer) ->
-	#print letter,personer
 	lst = (1 for key,person of personer when letter == person[NAMN][0])
 	lst.length
 
-clickLetterButton = (button,letter,personer) ->
+createSelectButtons = ->
+	sbuttons = []
+	for typ,persons of selectedPersons
+		for person,i in persons
+			x = 900
+			y = {R:100,L:300,K:500}[typ] + (i+1)*25
+			do (typ,i) ->
+				sbuttons.push new Button ' x ',x+ 0,y,40,20, -> clickDelete @,typ,i
+				sbuttons.push new Button 'upp',x+45,y,40,20, -> clickUp     @,typ,i
+				sbuttons.push new Button 'ner',x+90,y,40,20, -> clickDown   @,typ,i
+
+clickDelete = (button,typ,index) ->
+	selectedPersons[typ].splice index,1 	
+	createSelectButtons()
+
+clickUp = (button,typ,index) ->
+	arr = selectedPersons[typ]
+	if index == 0 then return
+	[item] = arr.splice index,1 	
+	arr.splice index-1,0,item 	
+	createSelectButtons()
+
+clickDown = (button,typ,index) ->
+	arr = selectedPersons[typ]
+	if index == arr.length-1 then return
+	[item] = arr.splice index,1 	
+	arr.splice index+1,0,item 	
+	createSelectButtons()
+
+clickPersonButton = (person) ->
+	persons = selectedPersons[selectedButton.title[0]]
+	# Finns partiet redan? I så fall: ersätt denna person med den nya.
+	for p,i in persons 
+		if p[PARTIKOD] == person[PARTIKOD]
+			persons[i] = person
+			return 
+	if persons.length < 5 
+		persons.push person 
+		createSelectButtons()
+
+clickLetterButton = (button,letters,personer) ->
 	N = PERSONS_PER_PAGE
 	selectedLetterButton = button
 	button.page = (button.page + 1) % button.pages
-	#print 'visaPersoner',button.page
 	kbuttons = []
 	keys = _.keys personer 
 	keys.sort (a,b) -> if a.slice(a.indexOf('-')) < b.slice(b.indexOf('-')) then -1 else 1
-	#print _.size keys
 	j = 0
 	for key in keys
 		person = personer[key]
-		if letter == person[NAMN][0]
+		if person[NAMN][0] in letters
 			if j // N == button.page 
 				x = 605 
 				y = 38+25*(j%N)
-				do (key) -> kbuttons.push new PersonButton "#{person[NAMN]} - #{person[VALSEDELSUPPGIFT]}",x,y,400,20, -> print key
+				do (person) -> kbuttons.push new PersonButton person,x,y,400,20, -> clickPersonButton person
 			j++
+
+makeFreq = (personer) ->
+	res = {}
+	keys = (person[NAMN] for key,person of personer)
+	keys.sort()
+	for key in keys
+		letter = key[0]
+		res[letter] = if res[letter] == undefined then 1 else res[letter] + 1
+	res
+
+gruppera = (letters,n=32) ->
+	res = {}
+	group = ''
+	count = 0
+	for letter,m of letters
+		if count + m <= n
+			group += letter
+			count += m
+		else
+			if count > 0 then res[group] = count
+			group = letter
+			count = m
+	if count > 0 then res[group] = count
+	res
+assert {AB:25,C:14,D:57}, gruppera {A:12, B:13, C:14, D:57}
+assert {ABDEF:28, GH:25}, gruppera {A:2, B:1, D:3,E:10,F:12,G:13,H:12}
+assert {ABDEF:28, NO:32}, gruppera {A:2, B:1, D:3,E:10,F:12,N:20,O:12}
 
 clickPartiButton = (button, personer) ->
 	N = 16
@@ -142,20 +214,21 @@ clickPartiButton = (button, personer) ->
 			person = personer[key]
 			x = 605
 			y = 40+25*j
-			do (key) -> kbuttons.push new PersonButton "#{person[NAMN]} - #{person[VALSEDELSUPPGIFT]}",x,y,400,20, -> print key
+			do (person) -> kbuttons.push new PersonButton person,x,y,400,20, -> clickPersonButton person
 
 	else
-		for letter,i in 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ'
+		i = 0
+		for letters,n of gruppera makeFreq personer
+			#print letters,n
 			x = 325+50*(i//N)
 			y = 50+50*(i%N)
-			n = antal letter,personer
-			title = letter
-			do (letter,title) -> lbuttons.push new LetterButton title,x,y,45,45,n, -> clickLetterButton @, letter, personer
+			title = if letters.length == 1 then letters else "#{letters[0]}-#{_.last letters}"
+			do (letters,title) -> lbuttons.push new LetterButton title,x,y,45,45,n, -> clickLetterButton @, letters, personer
+			i++
 
 clickButton = (button, partier) ->
 	N = 16
 	selectedButton = button
-	#print button
 	pbuttons = []
 	lbuttons = []
 	kbuttons = []
@@ -166,8 +239,30 @@ clickButton = (button, partier) ->
 		y = 50+50*(i%N)
 		do (key) -> pbuttons.push new PartiButton key,x,y,95,45, -> clickPartiButton @, partier[key]
 
+getClowner = (lines) -> # tag fram alla personer som representerar flera partier i samma valtyp
+	res = []
+	partier = {}
+	for line in lines 
+		cells = line.split ';'
+		knr = cells[KANDIDATNUMMER]
+		if partier[knr] == undefined then partier[knr] = {}
+		partier[knr][cells[PARTIKOD]] = cells
+	for knr,lista of partier
+		if 1 == _.size lista then continue
+		klr = {R:0,K:0,L:0}
+		for key,item of lista
+			klr[item[VALTYP]]++
+		if klr.R>1 or klr.K>1 or klr.L>1 then res.push knr
+	print 'Borttagna kandidater pga flera partier i samma valtyp: ',res
+	res
+
 readDatabase = ->
+	partikoder = {}
+	partier = {}
 	lines = db.split '\n'
+
+	clowner = getClowner lines
+
 	for line in lines
 		cells = line.split ';'
 		valtyp = cells[VALTYP]
@@ -178,6 +273,9 @@ readDatabase = ->
 		knr = cells[KANDIDATNUMMER]
 		namn = cells[NAMN]
 
+		partikoder[cells[PARTIKOD]]=parti
+
+		if knr in clowner then continue
 		if namn == undefined then continue
 		if parti == '' then continue
 
@@ -197,15 +295,19 @@ readDatabase = ->
 		if valtyp == 'L' and områdeskod==länskod   then spara [områdeskod,"#{område}",        parti], "#{knr}-#{namn}", cells
 		if valtyp == 'K' and områdeskod==kommunkod then spara [områdeskod.slice(0,2), område, parti], "#{knr}-#{namn}", cells
 	print dictionary
+	print partikoder
+	#print partier
+	for key,parti of partier
+		if 1 < _.size parti then print key,parti
 
 setup = ->
 	createCanvas 1400,840
 	sc()
 
 	# från urlen:
-	#kommunkod = '0180' # Stockholm
+	kommunkod = '0180' # Stockholm
 	#kommunkod = '1275' # Perstorp
-	kommunkod = '1276' # Klippan
+	#kommunkod = '1276' # Klippan
 
 	länskod = kommunkod.slice 0,2
 	
@@ -220,9 +322,24 @@ setup = ->
 	buttons.push new Button 'Landsting',50,100,95,45, -> clickButton @, tree[länskod][dictionary[länskod]]
 	buttons.push new Button 'Kommun',   50,150,95,45, -> clickButton @, tree[länskod][dictionary[kommunkod]]
 
+showSelectedPersons = ->
+	x = 850
+	push()
+	textAlign LEFT,CENTER
+	for typ,i in 'RLK'
+		y0 = [100,300,500][i]
+		textSize 28
+		text buttons[i].title,x,y0
+		for person,j in selectedPersons[typ]
+			y = y0 + 25*(j+1)
+			textSize 20
+			text "#{j+1}.",x,y
+			text "#{person[PARTIFÖRKORTNING]} - #{person[NAMN]}",x+170,y
+	pop()
+
 draw = ->
 	bg 0
-	for button in buttons.concat pbuttons.concat lbuttons.concat kbuttons
+	for button in buttons.concat pbuttons.concat lbuttons.concat kbuttons.concat sbuttons
 		button.draw()
 	if selectedPartiButton != null
 		push()
@@ -238,7 +355,8 @@ draw = ->
 		if selectedButton.title == 'Landsting' then text dictionary[länskod],  110,15
 		if selectedButton.title == 'Kommun'    then text dictionary[kommunkod],110,15
 		pop()
+	showSelectedPersons()
 
 mousePressed = ->
-	for button in buttons.concat pbuttons.concat lbuttons.concat kbuttons
+	for button in buttons.concat pbuttons.concat lbuttons.concat kbuttons.concat sbuttons
 		if button.inside mouseX,mouseY then button.click()
