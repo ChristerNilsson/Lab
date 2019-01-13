@@ -109,7 +109,7 @@ VALBAR_PÅ_VALDAGEN = 22;
 
 GILTIG = 23;
 
-PERSONS_PER_PAGE = 31;
+PERSONS_PER_PAGE = 32;
 
 kommunkod = null;
 
@@ -344,7 +344,7 @@ clickLetterButton = function clickLetterButton(button, letter, personer) {
     if (letter === person[NAMN][0]) {
       if (Math.floor(j / N) === button.page) {
         x = 605;
-        y = 40 + 25 * (j % N);
+        y = 38 + 25 * (j % N);
         (function (key) {
           return kbuttons.push(new PersonButton(person[NAMN] + ' - ' + person[VALSEDELSUPPGIFT], x, y, 400, 20, function () {
             return print(key);
@@ -482,21 +482,21 @@ setup = function setup() {
   sc();
   // från urlen:
   //kommunkod = '0180' # Stockholm
-  kommunkod = '1275'; // Perstorp
-  //kommunkod = '1276' # Klippan
+  //kommunkod = '1275' # Perstorp
+  kommunkod = '1276'; // Klippan
   länskod = kommunkod.slice(0, 2);
   readDatabase();
   print(tree);
   rectMode(CENTER);
   textAlign(CENTER, CENTER);
   textSize(20);
-  buttons.push(new Button('Riksdag', 50, 25, 95, 45, function () {
+  buttons.push(new Button('Riksdag', 50, 50, 95, 45, function () {
     return clickButton(this, tree['00 - riksdagen']);
   }));
-  buttons.push(new Button('Landsting', 50, 75, 95, 45, function () {
+  buttons.push(new Button('Landsting', 50, 100, 95, 45, function () {
     return clickButton(this, tree[länskod][dictionary[länskod]]);
   }));
-  return buttons.push(new Button('Kommun', 50, 125, 95, 45, function () {
+  return buttons.push(new Button('Kommun', 50, 150, 95, 45, function () {
     return clickButton(this, tree[länskod][dictionary[kommunkod]]);
   }));
 };

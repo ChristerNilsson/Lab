@@ -23,7 +23,7 @@ ANT_BEST_VALS = 21
 VALBAR_PÅ_VALDAGEN = 22
 GILTIG = 23
 
-PERSONS_PER_PAGE = 31
+PERSONS_PER_PAGE = 32
 
 kommunkod = null
 länskod = null
@@ -125,7 +125,7 @@ clickLetterButton = (button,letter,personer) ->
 		if letter == person[NAMN][0]
 			if j // N == button.page 
 				x = 605 
-				y = 40+25*(j%N)
+				y = 38+25*(j%N)
 				do (key) -> kbuttons.push new PersonButton "#{person[NAMN]} - #{person[VALSEDELSUPPGIFT]}",x,y,400,20, -> print key
 			j++
 
@@ -204,8 +204,8 @@ setup = ->
 
 	# från urlen:
 	#kommunkod = '0180' # Stockholm
-	kommunkod = '1275' # Perstorp
-	#kommunkod = '1276' # Klippan
+	#kommunkod = '1275' # Perstorp
+	kommunkod = '1276' # Klippan
 
 	länskod = kommunkod.slice 0,2
 	
@@ -216,9 +216,9 @@ setup = ->
 	textAlign CENTER,CENTER
 	textSize 20
 
-	buttons.push new Button 'Riksdag',  50, 25,95,45, -> clickButton @, tree['00 - riksdagen'] 
-	buttons.push new Button 'Landsting',50, 75,95,45, -> clickButton @, tree[länskod][dictionary[länskod]]
-	buttons.push new Button 'Kommun',   50,125,95,45, -> clickButton @, tree[länskod][dictionary[kommunkod]]
+	buttons.push new Button 'Riksdag',  50, 50,95,45, -> clickButton @, tree['00 - riksdagen'] 
+	buttons.push new Button 'Landsting',50,100,95,45, -> clickButton @, tree[länskod][dictionary[länskod]]
+	buttons.push new Button 'Kommun',   50,150,95,45, -> clickButton @, tree[länskod][dictionary[kommunkod]]
 
 draw = ->
 	bg 0
