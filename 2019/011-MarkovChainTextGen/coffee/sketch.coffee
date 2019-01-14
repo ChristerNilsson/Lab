@@ -47,27 +47,27 @@ choose = (arr) -> arr[int random arr.length]
 setup = ->
 	start = Date.now()
 	model = {}
-	for i in range data.length - N
+	for i in [0..data.length - N]
 		state = data.slice i, i+N 
 		next = data[i+N]
 		if state of model then model[state].push next else model[state] = [next]
 
 	# reducera listor med lika element
-	for state of model
-		if model[state].length==1 then continue
-		a = _.uniq model[state]
-		if a.length==1 then model[state]=a
+	# for state of model
+	# 	if model[state].length==1 then continue
+	# 	a = _.uniq model[state]
+	# 	if a.length==1 then model[state]=a
 
-	print model
+	# print model
 
 	keys = _.keys model
 	index = int random keys.length
 	state = keys[index]
 	out = [state]
 	for i in [0..CHARS]
-		if state not of model then break
-		char = choose model[state]
-		out.push char
-		state = state.slice(1,N) + char
+		if state of model 
+			char = choose model[state]
+			out.push char
+			state = state.slice(1,N) + char
 	print out.join ''
 	print Date.now()-start 

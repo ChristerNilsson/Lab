@@ -54,12 +54,10 @@ choose = function choose(arr) {
 };
 
 setup = function setup() {
-  var a, char, i, index, j, k, keys, len, model, next, out, ref, ref1, start, state;
+  var char, i, index, j, k, keys, model, next, out, ref, ref1, start, state;
   start = Date.now();
   model = {};
-  ref = range(data.length - N);
-  for (j = 0, len = ref.length; j < len; j++) {
-    i = ref[j];
+  for (i = j = 0, ref = data.length - N; 0 <= ref ? j <= ref : j >= ref; i = 0 <= ref ? ++j : --j) {
     state = data.slice(i, i + N);
     next = data[i + N];
     if (state in model) {
@@ -69,27 +67,22 @@ setup = function setup() {
     }
   }
   // reducera listor med lika element
-  for (state in model) {
-    if (model[state].length === 1) {
-      continue;
-    }
-    a = _.uniq(model[state]);
-    if (a.length === 1) {
-      model[state] = a;
-    }
-  }
-  print(model);
+  // for state of model
+  // 	if model[state].length==1 then continue
+  // 	a = _.uniq model[state]
+  // 	if a.length==1 then model[state]=a
+
+  // print model
   keys = _.keys(model);
   index = int(random(keys.length));
   state = keys[index];
   out = [state];
   for (i = k = 0, ref1 = CHARS; 0 <= ref1 ? k <= ref1 : k >= ref1; i = 0 <= ref1 ? ++k : --k) {
-    if (!(state in model)) {
-      break;
+    if (state in model) {
+      char = choose(model[state]);
+      out.push(char);
+      state = state.slice(1, N) + char;
     }
-    char = choose(model[state]);
-    out.push(char);
-    state = state.slice(1, N) + char;
   }
   print(out.join(''));
   return print(Date.now() - start);
