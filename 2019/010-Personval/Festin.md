@@ -1,4 +1,4 @@
-# Rättshaveristerna Karl Festin och Marijn Ingmar Lorenzo.
+# Superspammarna Karl Festin och Marijn Ingmar Lorenzo.
 
 Fil: https://data.val.se/val/val2018/valsedlar/partier/kandidaturer.skv
 
@@ -11,6 +11,8 @@ Fil: https://data.val.se/val/val2018/valsedlar/partier/kandidaturer.skv
 * Dessa båda spammare förekommer aldrig i seriösa partier, förutom MED.
 
 * Jämför t ex med Annie Lööf och Hanif Bali som förekommer totalt 35 respektive två gånger.
+
+# Karl Festins 68 kandidaturer för Östersunds kommun 2018
 
 * K;2380;Östersund;00;Östersund;20% skattepartiet;;1365;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
 * K;2380;Östersund;00;Östersund;Allians för Sverige;;1423;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
@@ -80,6 +82,8 @@ Fil: https://data.val.se/val/val2018/valsedlar/partier/kandidaturer.skv
 * K;2380;Östersund;00;Östersund;Vägvalet;VägV;1138;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
 * K;2380;Östersund;00;Östersund;Äkta demokrati;;1407;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
 * K;2380;Östersund;00;Östersund;Ändrings partiet revolution;;1404;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+
+# Karl Festins 68 kandidaturer för Jämtland/Härjedalen 2018
 
 * L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;20% skattepartiet;;1365;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
 * L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Allians för Sverige;;1423;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
