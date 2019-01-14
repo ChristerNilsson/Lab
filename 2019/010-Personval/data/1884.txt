@@ -1,0 +1,147 @@
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;1;J;J;I;J;69274;Solveig Oscarsson;60;K;Nora;60 år, Kommunalråd, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;2;J;J;I;J;69275;Jonas Åkerman;33;M;Nora;33 år, Leg Barnmorska, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;3;J;J;I;J;69276;Ulla Bergström;57;K;Nora;57 år, Kommunalråd, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;4;J;J;I;J;69277;Ulf Carlson;51;M;Nora;51 år, Facklig ombudsman, Pershyttan;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;5;J;J;I;J;69278;Camilla Sörman;50;K;Nora;50 år, Lärare, Skrikarhyttan;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;6;J;J;I;J;69279;Håkan Boman;53;M;Nora;53 år, Lärare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;7;J;J;I;J;69280;Eleonore Karlsson;48;K;Nora;48 år, Vårdbiträde, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;8;J;J;I;J;69281;Kent Nilsson;69;M;Nora;69 år, F d svetsare, Gyttorp;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;9;J;J;I;J;69282;Anna Karlsson;60;K;Nora;60 år, Fritidspedagog, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;10;J;J;I;J;69283;Per Andreasson;52;M;Nora;52 år, Ekonom, Skrikarhyttan;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;11;J;J;I;J;69284;Anita Rundqvist;71;K;Nora;71 år, F d förskollärare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;12;J;J;I;J;69285;Hans Knutsson;72;M;Nora;72 år, F d rektor, Ås;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;13;J;J;I;J;69286;Ursula Steffensen;63;K;Nora;63 år, Samordnare, Ås;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;14;J;J;I;J;69287;Bror-Erik Israelsson;71;M;Nora;71 år, F d arbetsledare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;15;J;J;I;J;69288;Sofia Erlandsson;47;K;Nora;47 år, Lärare, Striberg;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;16;J;J;I;J;69289;Mikael Wahlberg;26;M;Nora;26 år, Facklig förtroendeman, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;17;J;J;I;J;69290;Monica Sundberg;69;K;Nora;69 år, F d Politisk redaktör, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;18;J;J;I;J;69291;Abdo Haj Mohammad;47;M;Nora;47 år, Språkstödjare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;19;J;J;I;J;69292;Annelie Kammerland;54;K;Nora;54 år, Undersköterska/Boendestödjare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;20;J;J;I;J;69293;Mohammed Khir Bakkaya;20;M;Nora;20 år, Studerande, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;21;J;J;I;J;69294;Berit Elgström;77;K;Nora;77 år, F d Kulturarbetare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;22;J;J;I;J;69295;Raimo Niskanen;64;M;Nora;64 år, F d Behandlingsassistent, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;23;J;J;I;J;69296;Anna Pettersson;54;K;Nora;54 år, Kontorist, Pershyttan;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;24;J;J;I;J;69297;Anders Karlsson;47;M;Nora;47 år, Fabriksarbetare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;25;J;J;I;J;69298;Emma Brodin;32;K;Nora;32 år, Lastbilschaufför, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;26;J;J;I;J;69299;Enar Moberg;76;M;Nora;77 år, F d Vuxenutbildare, Gyttorp;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;27;J;J;I;J;69300;Elisabeth Hoikkala;55;K;Nora;56 år, Löneadministratör, Gyttorp;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;28;J;J;I;J;69301;Fredrik Munkvold;44;M;Nora;44 år, Förvaltningsledare IT, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;29;J;J;I;J;69302;Erika Lindahl;32;K;Nora;33 år, Fabriksarbetare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;30;J;J;I;J;69303;Svenerik Werner;75;M;Nora;75 år, Pensionär, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;31;J;J;I;J;69304;Elin Sörman;47;K;Nora;47 år, Kultursekreterare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;32;J;J;I;J;69305;Pierre Andersson;47;M;Nora;47 år, Lärare, Striberg;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;33;J;J;I;J;69306;Gerd Erlandsson;68;K;Nora;68 år, Pensionär, Striberg;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;34;J;J;I;J;69307;Lennart Axelsson;66;M;Nora;66 år, Riksdagsledamot, Pershyttan;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;35;J;J;I;J;69308;Monika Andersson;62;K;Nora;62 år, Barnmorska, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;36;J;J;I;J;69309;Lennart Israelsson;74;M;Nora;74 år, Pensionär, Klacka Lerberg;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;37;J;J;I;J;69310;Anette Mallalieu-Sand;73;K;Nora;73 år, Pensionär, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;38;J;J;I;J;69311;Anton Häggblom;34;M;Nora;34 år, Skådespelare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;39;J;J;I;J;69312;Ulla Lindström-Nilsson;63;K;Nora;63 år, Undersköterska, Gyttorp;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;40;J;J;I;J;71991;Janåke Wildhammar;74;M;Nora;74 år, F d Lärare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;41;J;J;I;J;71992;Jennika Landin;32;K;Nora;32 år, Arbetsförmedlare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;42;J;J;I;J;71993;Greger Kammerland;50;M;Nora;50 år, Industriarbetare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;43;J;J;I;J;71994;Lisel Wulfstrand;63;K;Nora;63 år, Pensionär, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;44;J;J;I;J;71995;Tommy Botström;66;M;Nora;66 år, F d Arbetsförmedlare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;45;J;J;I;J;71996;Anna-Kay Törnqvist;73;K;Nora;73 år, Pensionär, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;46;J;J;I;J;71997;Tord Thuresson;72;M;Nora;72 år, F d svarvare, Nora;30000;;J
+K;1884;Nora;00;Nora;Arbetarepartiet-Socialdemokraterna;S;2;S;13032;47;J;J;I;J;71998;Kjell Olof Ericson;75;M;Nora;75 år, F d Väktare, Nora;30000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;1;J;J;I;J;234558;Susanne Forsberg;52;K;Nora;ekonom;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;2;J;J;I;J;234559;Jörgen Säteraas;44;M;Nora;lärare;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;3;J;J;I;J;234560;Marita Simpson;55;K;Nora;ekonom;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;4;J;J;I;J;234561;Christer Gustavsson;56;M;Nora;egen företagare;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;5;J;J;I;J;234562;Sofie Semstrand;46;K;Nora;miljösamordnare;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;6;J;J;I;J;234563;Elin Dahlbacka;32;K;Nora;undersköterska;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;7;J;J;I;J;234564;Kenneth Eriksson;59;M;Nora;distriktrepresentant;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;8;J;J;I;J;234565;Eva Stenquist;53;K;Nora;undersköterska;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;9;J;J;I;J;234566;Magnus Eriksson;49;M;Nora;yrkeschaufför;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;10;J;J;I;J;8506;Helena Vilhelmsson;53;K;Nora;skogskonsulent;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;11;J;J;I;J;234568;Peter Gräsberg;38;M;Nora;assistent;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;12;J;J;I;J;234569;Anna-Carin Andersson;58;K;Nora;lantbrukare;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;13;J;J;I;J;234570;Kolbjörn Kindströmer;58;M;Nora;skogsägare;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;14;J;J;I;J;234571;Eva Gräsberg;39;K;Nora;officer supply chain;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;15;J;J;I;J;234572;Edit Vilhelmsson;20;K;Nora;försäljare;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;16;J;J;I;J;234573;Titti Hansson;59;K;Nora;radiopratare;25000;;J
+K;1884;Nora;00;Nora;Centerpartiet;C;4;S;14072;17;J;J;I;J;234574;Ingalisa Persson;86;K;Nora;f.d. sjuksköterska;25000;;J
+K;1884;Nora;00;Nora;Feministiskt initiativ;FI;532;S;15613;1;N;J;J;I;501764;William Grönlund;44;M;Nora;43 år, folkhögskollärare;24000;;J
+K;1884;Nora;00;Nora;Feministiskt initiativ;FI;532;S;15613;2;N;J;J;I;501765;Malena Frööjd;41;K;Nora;42 år, pedagog;24000;;J
+K;1884;Nora;00;Nora;Kristdemokraterna;KD;68;S;13780;1;J;J;I;J;193327;John Sundell;75;M;Nora;Ingenjör, Nora;11000;;J
+K;1884;Nora;00;Nora;Kristdemokraterna;KD;68;S;13780;2;J;J;I;J;193328;Parisse Ekman;37;K;Nora;Civilekonom, Nora;11000;;J
+K;1884;Nora;00;Nora;Kristdemokraterna;KD;68;S;13780;3;J;J;I;J;193329;Gilite Rugerero;20;M;Nora;Studerande, Nora;11000;;J
+K;1884;Nora;00;Nora;Kristdemokraterna;KD;68;S;13780;4;J;J;I;J;193330;Susanne Lindholm;55;K;Nora;Regionchef, Nora;11000;;J
+K;1884;Nora;00;Nora;Kristdemokraterna;KD;68;S;13780;5;J;J;I;J;193331;Wivine Kayenga;24;K;Örebro;Studerande, Nora;11000;;J
+K;1884;Nora;00;Nora;Kristdemokraterna;KD;68;S;13780;6;J;J;I;J;193332;Klas Engholm;55;M;Nora;Hjälpmedelstekniker, Ås;11000;;J
+K;1884;Nora;00;Nora;Kristdemokraterna;KD;68;S;13780;7;J;J;I;J;193333;Marianne Holmberg;74;K;Nora;Undersköterska, Nora;11000;;J
+K;1884;Nora;00;Nora;Kristdemokraterna;KD;68;S;13780;8;J;J;I;J;193334;Nils Holmberg;82;M;Nora;Pastor, Nora;11000;;J
+K;1884;Nora;00;Nora;Landsbygdspartiet Oberoende;LPo;1011;S;13769;1;J;J;I;J;131855;Pia-Maria Johansson;59;K;Nora;60 år, Socionom;25000;;J
+K;1884;Nora;00;Nora;Landsbygdspartiet Oberoende;LPo;1011;S;13769;2;J;J;I;J;192296;Bengt Magnusson;62;M;Nora;62 år, Psykolog;25000;;J
+K;1884;Nora;00;Nora;Landsbygdspartiet Oberoende;LPo;1011;S;13769;3;J;J;I;J;192297;Maria Blomqvist;54;K;Nora;54 år, Lärare;25000;;J
+K;1884;Nora;00;Nora;Landsbygdspartiet Oberoende;LPo;1011;S;13769;4;J;J;I;J;192298;Anna Berggren;55;K;Nora;55 år, Trädgårdstekniker;25000;;J
+K;1884;Nora;00;Nora;Landsbygdspartiet Oberoende;LPo;1011;S;13769;5;J;J;I;J;192299;Klara Sandberg;60;K;Nora;61 år, Boendestödjare;25000;;J
+K;1884;Nora;00;Nora;Landsbygdspartiet Oberoende;LPo;1011;S;13769;6;J;J;I;J;192300;Sirpa Fårhage;54;K;Örebro;54 år, Entreprenör;25000;;J
+K;1884;Nora;00;Nora;Landsbygdspartiet Oberoende;LPo;1011;S;13769;7;J;J;I;J;192301;Johnny Sandberg;65;M;Nora;65 år;25000;;J
+K;1884;Nora;00;Nora;Landsbygdspartiet Oberoende;LPo;1011;S;13769;8;J;J;I;J;192302;Göran Berggren;55;M;Nora;55 år, Lantmästare;25000;;J
+K;1884;Nora;00;Nora;Landsbygdspartiet Oberoende;LPo;1011;S;13769;9;J;J;I;J;192303;William Askerlund;24;M;Nora;24 år, Snickrande småbarnspappa;25000;;J
+K;1884;Nora;00;Nora;Landsbygdspartiet Oberoende;LPo;1011;S;13769;10;J;J;I;J;192304;Susanna Almer;49;K;Nora;48 år, Egenföretagare/Massör;25000;;J
+K;1884;Nora;00;Nora;Liberalerna (tidigare Folkpartiet);L;3;S;11986;1;J;J;I;J;17148;Birgitta Borg;76;K;Nora;76 år, leg. sjuksköterska/egenföretagare;25000;;J
+K;1884;Nora;00;Nora;Liberalerna (tidigare Folkpartiet);L;3;S;11986;2;J;J;I;J;17149;Ulf Wilder;69;M;Nora;70 år, egenföretagare;25000;;J
+K;1884;Nora;00;Nora;Liberalerna (tidigare Folkpartiet);L;3;S;11986;3;J;J;I;J;17150;Gunilla Jackson;73;K;Nora;73 år, egenföretagare;25000;;J
+K;1884;Nora;00;Nora;Liberalerna (tidigare Folkpartiet);L;3;S;11986;4;J;J;I;J;17151;Jens Mikael Larsson;43;M;Nora;43 år, studerande/nändeman;25000;;J
+K;1884;Nora;00;Nora;Liberalerna (tidigare Folkpartiet);L;3;S;11986;5;J;J;I;J;17152;Ingegerd Kangert;74;K;Nora;74 år, vuxenlärare;25000;;J
+K;1884;Nora;00;Nora;Liberalerna (tidigare Folkpartiet);L;3;S;11986;6;J;J;I;J;17153;Jan Ulfberg;72;M;Nora;72 år, leg. läkare;25000;;J
+K;1884;Nora;00;Nora;Liberalerna (tidigare Folkpartiet);L;3;S;11986;7;J;J;I;J;17154;Johan Nordström;46;M;Nora;46 år, kvalitetsingenjör;25000;;J
+K;1884;Nora;00;Nora;Liberalerna (tidigare Folkpartiet);L;3;S;11986;8;J;J;I;J;17155;Staffan Jackson;73;M;Nora;73 år, FRG-ansvarig;25000;;J
+K;1884;Nora;00;Nora;Miljöpartiet de gröna;MP;55;S;13239;1;J;J;I;J;122971;Jasmine Ivarsson;26;K;Nora;26 år, samhällsvetare;25000;;J
+K;1884;Nora;00;Nora;Miljöpartiet de gröna;MP;55;S;13239;2;J;J;I;J;122973;Jan Larsson;66;M;Nora;66 år, skogsbrukare och entreprenör;25000;;J
+K;1884;Nora;00;Nora;Miljöpartiet de gröna;MP;55;S;13239;3;J;J;I;J;123598;Petra Käller;50;K;Nora;50 år, industriarbetare;25000;;J
+K;1884;Nora;00;Nora;Miljöpartiet de gröna;MP;55;S;13239;4;J;J;I;J;122970;Jonatan Sandberg;38;M;Nora;38 år, psykolog;25000;;J
+K;1884;Nora;00;Nora;Miljöpartiet de gröna;MP;55;S;13239;5;J;J;I;J;122954;Monika Aune;58;K;Nora;58 år, kulturvetare;25000;;J
+K;1884;Nora;00;Nora;Miljöpartiet de gröna;MP;55;S;13239;6;J;J;I;J;124419;Ruben Wickenhäuser;44;M;[saknas i folkbokföringen];44 år, författare;25000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;1;J;J;I;J;19099;Tom Rymoen;59;M;Nora;59 år, Företagare, Järnboås;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;2;J;J;I;J;19100;Bengt Svensson;57;M;Nora;57 år, Företagare, Nora;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;3;J;J;I;J;19101;Håkan Kangert;73;M;Nora;73 år, Civilekonom, Bengtstorp;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;4;J;J;I;J;19102;Renate Larssen;31;K;Nora;31 år, Politisk sekreterare, Nora;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;5;J;J;I;J;19103;Ture Österberg;78;M;Nora;78 år, Säkerhetskonsult, Nora;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;6;J;J;I;J;19104;Eric Viduss;32;M;Nora;32 år, Partiombudsman, Nora;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;7;J;J;I;J;19105;Frank Thörnqvist;48;M;Nora;48 år, Säkerhetskonsult, Västgöthyttan;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;8;J;J;I;J;19106;Eija Ahonen Pettersson;61;K;Nora;61 år, Företagare, Hammarby;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;9;J;J;I;J;19107;Henrik Karlsson;31;M;Nora;31 år, Civilingenjör, Nora;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;10;J;J;I;J;19108;Christer Häggqvist;67;M;Nora;67 år, Företagare, Nora;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;11;J;J;I;J;19109;Britt Alderholm;75;K;Nora;75 år, Fd Områdeschef, Nora;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;12;J;J;I;J;19110;Morgan Hedlund;73;M;Nora;73 år, Entrepenör, Bröstorp;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;13;J;J;I;J;19111;Therese Larsson;39;K;Nora;39 år, Lantbrukare, Järnboås;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;14;J;J;I;J;19112;Torbjörn Pettersson;38;M;Nora;38 år, Säljare, Nora;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;15;J;J;I;J;19113;Ingegärd Öhlin;83;K;Örebro;83 år, Fd Hemtjänstinspektör, Nora;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;16;J;J;I;J;19114;Gunilla Österberg;77;K;Nora;77 år, Fd Ekonom, Nora;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;17;J;J;I;J;19115;Anna-Lena Persson;65;K;Karlstad;65 år, Företagare, Åkerby;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;18;J;J;I;J;19116;Katrin Winarve;46;K;Nora;46 år, Personalvetare, Västgöthyttan;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;19;J;J;I;J;19117;Henk Burgering;79;M;Nora;79 år, Revisor, Nora;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;20;J;J;I;J;19118;Ewa Turesson;62;K;Nora;62 år, Lärare, Nora;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;21;J;J;I;J;19119;Gary Dybeck;80;M;Nora;80 år, Företagare, Born;41000;;J
+K;1884;Nora;00;Nora;Moderaterna;M;1;S;12004;22;J;J;I;J;19120;Hillevi Löwenberg;84;K;Nora;84 år, Fd Distriktssköterska, Nora;41000;;J
+K;1884;Nora;00;Nora;Norapartiet;NOR;985;S;15080;1;J;J;I;J;392175;Rutger Ahlbeck;73;M;Nora;Aukt. ledarutvecklare;25000;;J
+K;1884;Nora;00;Nora;Norapartiet;NOR;985;S;15080;2;J;J;I;J;392176;Bertil Roden;74;M;Nora;Datoringenjör och lärare;25000;;J
+K;1884;Nora;00;Nora;Norapartiet;NOR;985;S;15080;3;J;J;I;J;392177;Jan Rylander;79;M;Nora;Bygg- och anläggningsingenjör;25000;;J
+K;1884;Nora;00;Nora;Norapartiet;NOR;985;S;15080;4;J;J;I;J;392178;Lars-Erik Larsson;72;M;Nora;Jur kand;25000;;J
+K;1884;Nora;00;Nora;Norapartiet;NOR;985;S;15080;5;J;J;I;J;392179;Joakim Wård;36;M;Nora;Miljötekniker;25000;;J
+K;1884;Nora;00;Nora;Norapartiet;NOR;985;S;15080;6;J;J;I;J;392180;Gunnar Rosendahl;72;M;Nora;Pensionär;25000;;J
+K;1884;Nora;00;Nora;Norapartiet;NOR;985;S;15080;7;J;J;I;J;392181;Anders Stigfur;66;M;Nora;Sjuksköterska;25000;;J
+K;1884;Nora;00;Nora;Norapartiet;NOR;985;S;15080;8;J;J;I;J;392182;Weronica Ahlbeck;71;K;Nora;Redovisningskonsult;25000;;J
+K;1884;Nora;00;Nora;Norapartiet;NOR;985;S;15080;9;J;J;I;J;392191;Boye Jonsson;62;M;Nora;Entertainer;25000;;J
+K;1884;Nora;00;Nora;Sverigedemokraterna;SD;110;S;15593;1;N;J;J;I;65859;Andreas Widlund;35;M;Nora;Egenföretagare, Gyttorp, 35;25000;;J
+K;1884;Nora;00;Nora;Sverigedemokraterna;SD;110;S;15593;2;N;J;J;I;65860;Conny Alfredsson;65;M;Nora;Pensionär, Nora, 65;25000;;J
+K;1884;Nora;00;Nora;Sverigedemokraterna;SD;110;;;;N;J;J;I;508171;Larsson, Margareta;66;K;Nora;;0;;J
+K;1884;Nora;00;Nora;Sverigedemokraterna;SD;110;;;;N;J;J;I;508172;Ahl, Birgitta;59;K;Nora;;0;;J
+K;1884;Nora;00;Nora;Sverigedemokraterna;SD;110;;;;N;J;J;I;510366;Göthlin, Ove;55;M;Nora;;0;;J
+K;1884;Nora;00;Nora;Sverigedemokraterna;SD;110;;;;N;J;J;I;514360;Ahlblad, Kaj;65;M;Nora;;0;;J
+K;1884;Nora;00;Nora;Sverigedemokraterna;SD;110;;;;N;J;J;I;514361;Edgren, Anders;55;M;Nora;;0;;J
+K;1884;Nora;00;Nora;Sverigedemokraterna;SD;110;;;;N;J;J;I;515333;Jansson, Börje;75;M;Nora;;0;;J
+K;1884;Nora;00;Nora;Vänsterpartiet;V;5;S;15501;1;J;J;I;J;354569;Therese Hoikkala;32;K;Nora;Socialsekreterare, Nora;23000;;J
+K;1884;Nora;00;Nora;Vänsterpartiet;V;5;S;15501;2;J;J;I;J;251289;Camilla Andersson Larsson;31;K;Nora;Undersköterska, Nora;23000;;J
+K;1884;Nora;00;Nora;Vänsterpartiet;V;5;S;15501;3;J;J;I;J;251290;Jonatan Tjäder;37;M;Nora;Medlemsassistent, Nora;23000;;J
+K;1884;Nora;00;Nora;Vänsterpartiet;V;5;S;15501;4;J;J;I;J;251291;Björn Folkeson;29;M;Nora;Vårdbiträde, Nora;23000;;J
+K;1884;Nora;00;Nora;Vänsterpartiet;V;5;S;15501;5;J;J;I;J;251292;Eva Haldert;71;K;Nora;Skådespelare, Nora;23000;;J
+K;1884;Nora;00;Nora;Vänsterpartiet;V;5;S;15501;6;J;J;I;J;251293;Linus Gustafsson;32;M;Nora;Lärarstudent, Nora;23000;;J
+K;1884;Nora;00;Nora;Vänsterpartiet;V;5;S;15501;7;J;J;I;J;251294;Roxanne Pettersson;27;K;Nora;Nora;23000;;J
+K;1884;Nora;00;Nora;Vänsterpartiet;V;5;S;15501;8;J;J;I;J;251295;Ulrika Mogren;69;K;Nora;Psykolog, Nora;23000;;J
+K;1884;Nora;00;Nora;Vänsterpartiet;V;5;S;15501;9;J;J;I;J;251296;Lars Mogren;70;M;Nora;Psykolog, Nora;23000;;J
+K;1884;Nora;00;Nora;Vänsterpartiet;V;5;S;15501;10;J;J;I;J;251297;David Stansvik;65;M;Nora;Bokförläggare, Nora;23000;;J

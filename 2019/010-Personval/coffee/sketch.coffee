@@ -239,29 +239,29 @@ clickButton = (button, partier) ->
 		y = 50+50*(i%N)
 		do (key) -> pbuttons.push new PartiButton key,x,y,95,45, -> clickPartiButton @, partier[key]
 
-getClowner = (lines) -> # tag fram alla personer som representerar flera partier i samma valtyp
-	res = []
-	partier = {}
-	for line in lines 
-		cells = line.split ';'
-		knr = cells[KANDIDATNUMMER]
-		if partier[knr] == undefined then partier[knr] = {}
-		partier[knr][cells[PARTIKOD]] = cells
-	for knr,lista of partier
-		if 1 == _.size lista then continue
-		klr = {R:0,K:0,L:0}
-		for key,item of lista
-			klr[item[VALTYP]]++
-		if klr.R>1 or klr.K>1 or klr.L>1 then res.push knr
-	print 'Borttagna kandidater pga flera partier i samma valtyp: ',res
-	res
+# getClowner = (lines) -> # tag fram alla personer som representerar flera partier i samma valtyp
+# 	res = []
+# 	partier = {}
+# 	for line in lines 
+# 		cells = line.split ';'
+# 		knr = cells[KANDIDATNUMMER]
+# 		if partier[knr] == undefined then partier[knr] = {}
+# 		partier[knr][cells[PARTIKOD]] = cells
+# 	for knr,lista of partier
+# 		if 1 == _.size lista then continue
+# 		klr = {R:0,K:0,L:0}
+# 		for key,item of lista
+# 			klr[item[VALTYP]]++
+# 		if klr.R>1 or klr.K>1 or klr.L>1 then res.push knr
+# 	print 'Borttagna kandidater pga flera partier i samma valtyp: ',res
+# 	res
 
 readDatabase = ->
 	partikoder = {}
 	partier = {}
 	lines = db.split '\n'
 
-	clowner = getClowner lines
+	#clowner = getClowner lines
 
 	for line in lines
 		cells = line.split ';'
@@ -275,7 +275,7 @@ readDatabase = ->
 
 		partikoder[cells[PARTIKOD]]=parti
 
-		if knr in clowner then continue
+		#if knr in clowner then continue
 		if namn == undefined then continue
 		if parti == '' then continue
 
@@ -300,15 +300,19 @@ readDatabase = ->
 	for key,parti of partier
 		if 1 < _.size parti then print key,parti
 
+getParameters = (h = window.location.href) -> 
+	h = decodeURI h
+	arr = h.split '?'
+	if arr.length != 2 then return {}
+	if arr[1] == '' then return {}
+	_.object(f.split '=' for f in arr[1].split '&')		
+
 setup = ->
 	createCanvas 1400,840
 	sc()
 
-	# från urlen:
-	kommunkod = '0180' # Stockholm
-	#kommunkod = '1275' # Perstorp
-	#kommunkod = '1276' # Klippan
-
+	{kommunkod} = getParameters()
+	if not kommunkod then kommunkod = '0180'
 	länskod = kommunkod.slice 0,2
 	
 	readDatabase()

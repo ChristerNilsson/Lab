@@ -1,0 +1,376 @@
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;1;J;J;I;J;154018;Anders Almgren;50;M;Lund;Civilingenjör;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;2;J;J;I;J;28157;Elin Gustafsson;29;K;Lund;Fil. Kand.;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;3;J;J;I;J;154020;Björn Abelson;49;M;Lund;Undersköterska;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;4;J;J;I;J;154021;Fanny Johansson;31;K;Lund;Politisk sekreterare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;5;J;J;I;J;154022;Peter Fransson;33;M;Lund;Jur. Kand.;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;6;J;J;I;J;154023;Rita Borg;51;K;Lund;Socionom;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;7;J;J;I;J;154024;Stig Svensson;68;M;Lund;Skatterevisor;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;8;J;J;I;J;28169;Eleni Rezaii Liakou;56;K;Lund;Modermålslärare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;9;J;J;I;J;154026;Kenth Andersson;61;M;Lund;Post Tjänsteman;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;10;J;J;I;J;40098;Anna-Lena Hogerud;41;K;Lund;Jur. Kand.;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;11;J;J;I;J;154028;Lennart Prytz;75;M;Lund;Fullmäktiges ordförande;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;12;J;J;I;J;154029;Lena Fällström;63;K;Lund;Kanslist;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;13;J;J;I;J;40103;Mattias Olsson;43;M;Lund;Kanslichef;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;14;J;J;I;J;154031;Eva S Olsson;69;K;Lund;Socionom;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;15;J;J;I;J;154032;Sebastian Persson;27;M;Lund;Politisk sekreterare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;16;J;J;I;J;154033;Lina Olsson;21;K;Lund;Student;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;17;J;J;I;J;154034;Pär-Ola Nilsson;36;M;Lund;HR-generalist;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;18;J;J;I;J;40106;Klara Twete;34;K;Lund;Samhällsplanerare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;19;J;J;I;J;154036;Haris Hadzovic;21;M;Lund;Student;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;20;J;J;I;J;154037;Ann-Margreth Ohlsson;65;K;Lund;Forskare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;21;J;J;I;J;154038;Pontus Pyk;22;M;Lund;Student;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;22;J;J;I;J;154039;Margita Malmros;44;K;Lund;Arbetsförmedlare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;23;J;J;I;J;154040;Joakim Twete;38;M;Lund;IT tekniker;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;24;J;J;I;J;154041;Ann-Louise Levau;50;K;Lund;Undersköterska;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;25;J;J;I;J;154042;Mats Nilsson;52;M;Lund;Systemutvecklare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;26;J;J;I;J;154043;Monica Molin;70;K;Lund;Egen företagare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;27;J;J;I;J;154044;Lars Westerberg;50;M;Lund;Lärarexamen;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;28;J;J;I;J;154045;Helena Lindh;37;K;Lund;Civilingenjör;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;29;J;J;I;J;154046;Rune Granqvist;63;M;Lund;Utbildningskonsulent;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;30;J;J;I;J;40128;Vlasta Sabljak;61;K;Lund;Arkitekt;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;31;J;J;I;J;154048;Kenneth M Persson;54;M;Lund;Professor;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;32;J;J;I;J;154049;Akram Heidari;53;K;Lund;Projektledare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;33;J;J;I;J;154050;Mårten Spanne;51;M;Lund;Ingenjör;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;34;J;J;I;J;154051;Cecilia Skoug;29;K;Lund;;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;35;J;J;I;J;154052;Tesfom Solomon;39;M;Lund;Studiehandledare/coach;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;36;J;J;I;J;154053;Jorun Koca Jakobsson;40;K;Lund;Politisk sekreterare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;37;J;J;I;J;154054;Mikael Thunberg;54;M;Lund;Gymnasielärare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;38;J;J;I;J;154055;Kerstin Vikner;67;K;Lund;Docent/historiker;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;39;J;J;I;J;154056;Laurent Lawson;60;M;Lund;Egen företagare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;40;J;J;I;J;154057;Margaretha Kristensson;67;K;Lund;Pensionär;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;41;J;J;I;J;154058;Johnny Hulthén;57;M;Lund;Verktygsmakare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;42;J;J;I;J;154059;Linda Andersson;43;K;Lund;;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;43;J;J;I;J;154060;Gabor Tilesch;70;M;Lund;Pensionär;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;44;J;J;I;J;154061;Ann-Sofie Severinsson;70;K;Lund;F.d. lärare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;45;J;J;I;J;154062;Eskil Carlström;19;M;Lund;Student;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;46;J;J;I;J;429759;Anna Larsen;20;K;Lund;Student;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;47;J;J;I;J;154064;Ludvig Stigsson;38;M;Lund;;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;48;J;J;I;J;154065;Josefina Bäck;20;K;Lund;Student;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;49;J;J;I;J;154066;Lars Graffemark;74;M;Lund;Sjuksköterska;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;50;J;J;I;J;154067;Eva Olsson;50;K;Lund;Barnskötare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;51;J;J;I;J;154068;Anders Hansson;62;M;Lund;Pensionär;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;52;J;J;I;J;154069;Solveig Ekström Persson;77;K;Lund;Pol. Mag.;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;53;J;J;I;J;154070;Abbe Elhachimi;70;M;Lund;Äffarsrådgivare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;54;J;J;I;J;154071;Anna-Lena Håkansson;70;K;Lund;Leg. Arbetsteraput;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;55;J;J;I;J;154072;Harpreet Singh;44;M;Lund;Socialpedagog;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;56;J;J;I;J;154073;Hanna Christensen;27;K;Lund;Leg. Psykolog;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;57;J;J;I;J;154074;Ola Christiansson;52;M;Lund;;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;58;J;J;I;J;154075;Carina Carlsson;55;K;Lund;Butiksinnehavare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;59;J;J;I;J;154076;Andreas Papamoshos;36;M;Lund;Bagare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;60;J;J;I;J;154077;Annika Brodin;64;K;Lund;;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;61;J;J;I;J;154078;Öystein Kolsrud;41;M;Lund;Civilingenjör datorteknik;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;62;J;J;I;J;154079;Elvira Mehic;49;K;Lund;Förskolelärare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;63;J;J;I;J;154080;Stefan Nilsson;45;M;Lund;Läkare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;64;J;J;I;J;40120;Jeanette Olsson;58;K;Lund;Verksamhetsutvecklare;284000;;J
+K;1281;Lund;00;Lund;Arbetarepartiet-Socialdemokraterna;S;2;S;13450;65;J;J;I;J;154082;Mohsen Abtin;64;M;Lund;Civilingenjör;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;1;J;J;I;J;50413;Inga-Kerstin Eriksson;70;K;Lund;70, Rektor, Södra Sandby;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;2;J;J;I;J;37079;Mattias Horrdin;39;M;Lund;39, Organisatör, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;3;J;J;I;J;50415;Lars V Andersson;72;M;Lund;72, Fd.politisk redaktör, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;4;J;J;I;J;50416;Johan Nilsson;27;M;Lund;27, Jurist, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;5;J;J;I;J;39196;Susanne Ståhl;44;K;Lund;44, Ekonom, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;6;J;J;I;J;50418;Pia Askman;67;K;Lund;66, Kostchef, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;7;J;J;I;J;50419;Ida Alterå;21;K;Lund;21, Student, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;8;J;J;I;J;39194;Camilla Ländin;45;K;Lund;45, Företagare, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;9;J;J;I;J;50421;Bernt Bertilsson;70;M;Lund;70, Agronom, Södra Sandby;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;10;J;J;I;J;37096;Staffan Fredlund;43;M;Lund;43, Miljöchef, Dalby;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;11;J;J;I;J;37076;David Liljedal;25;M;Lund;25, Student, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;12;J;J;I;J;39190;John Lager;41;M;Lund;41, Arbetsledare, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;13;J;J;I;J;50425;Per Johnsson;27;M;Lund;27, Civilingenjör, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;14;J;J;I;J;50426;Anders Hallin;60;M;Lund;60, Områdeschef, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;15;J;J;I;J;37095;Erik Dahlén;30;M;Karlshamn;30, Systemutvecklare, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;16;J;J;I;J;50428;Joakim Andersson;44;M;Lund;44, Civilingenjör, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;17;J;J;I;J;50429;Bertil Göransson;86;M;Lund;86, Lantbrukare, Norra Nöbbelöv;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;18;J;J;I;J;37084;Christian Ohlsson;46;M;Lund;46, Gymnasielärare, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;19;J;J;I;J;50431;Elias Grabka;34;M;Lund;34, Enhetschef, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;20;J;J;I;J;50432;Sven Ingmar Andersson;80;M;Lund;79, Professor/leg.psykolog, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;21;J;J;I;J;50433;Johanna Sturesson;31;K;Lund;31, Politisk sekreterare, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;22;J;J;I;J;48812;Thomas Jonsson;23;M;Lund;23, Studerande, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;23;J;J;I;J;50435;Nikolas Pieta Theofanous;32;M;Lund;32, Bostadschef, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;24;J;J;I;J;50436;Hans Ledström;48;M;Lund;48, Lärare/ingenjör, Lund;284000;;J
+K;1281;Lund;00;Lund;Centerpartiet;C;4;S;12463;25;J;J;I;J;35632;Jonas Klevhag;51;M;Lund;51, Hållbarhetskonsult, Lund;284000;;J
+K;1281;Lund;00;Lund;Djurens parti;DjuP;1136;S;15306;1;J;J;I;J;448887;Marie-Louise Ramos Wihlborg;30;K;Lund;Lund, veterinär, 30 år;6000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;1;J;J;I;J;419527;Maja Grubelic;42;K;Lund;Handläggare, 42 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;2;J;J;I;J;419528;Caroline Ljungqvist;26;K;Lund;Lärarstudent, 26 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;3;J;J;I;J;419529;Dmitri Ivanov;27;M;Lund;Elektroingenjör, 27 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;4;J;J;I;J;419530;Annika Nilsson;34;K;Lund;Gymnasielärare, 34 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;5;J;J;I;J;419531;Sengül Köse Lindqvist;39;K;Lund;Samordnare, 38 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;6;J;J;I;J;419532;Sarajeh Okhovat;33;K;Lund;Simlärare, 33 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;7;J;J;I;J;219326;Joakim Månsson Bengtsson;25;M;Lund;Människorättsaktivist, 25 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;8;J;J;I;J;419534;Frida Gudmundsson;26;K;Lund;Lärarstudent, 26 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;9;J;J;I;J;419535;Leo Möller;18;K;Lund;Gymnasieelev, 18 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;10;J;J;I;J;419536;Josefin Hjertman;26;K;Lund;Student, 25 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;11;J;J;I;J;419537;Rickard Andrén;32;M;Lund;Driftplanerare, 31 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;12;J;J;I;J;419538;Maria Holm;50;K;Lund;Behandlingsassistent, 50 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;13;J;J;I;J;419539;Alida Gadea;29;K;Lund;Student, 28 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;14;J;J;I;J;419540;Bo Wennergren;67;M;Lund;Företagare, 67 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;15;J;J;I;J;419541;Inger Grubelic;69;K;Lund;Pensionär, 69 år;190000;;J
+K;1281;Lund;00;Lund;Feministiskt initiativ;FI;532;S;15221;16;J;J;I;J;419542;Emma Tomasson;38;K;Lund;Lärare, 38 år;190000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;1;J;J;I;J;422631;Börje Hed;66;M;Lund;Teknologie doktor;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;2;J;J;I;J;422632;Jan Annerstedt;73;M;Lund;Professor;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;3;J;J;I;J;422633;Maria Nermark;59;K;Lund;Leg. psykolog;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;4;J;J;I;J;422634;Kerstin Frygner;73;K;Lund;Leg. psykolog, socionom;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;5;J;J;I;J;422635;Carl Gustaf Jönsson;72;M;Lund;Civilekonom;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;6;J;J;I;J;422636;István Ulvros;71;M;Lund;Civilingenjör;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;7;J;J;I;J;422637;Ann Tångmark;66;K;Lund;Arkitekt;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;8;J;J;I;J;422638;Lars Lindholm;75;M;Lund;Företagare;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;9;J;J;I;J;422639;Marianne Rehnstedt;71;K;Lund;Civilingenjör;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;10;J;J;I;J;422640;Rolf Nilsson;74;M;Lund;Civilingenjör;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;11;J;J;I;J;422641;Katarina Wullt;25;K;Lund;Fil.stud;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;12;J;J;I;J;422642;Lotte Möller;80;K;Lund;Författare;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;13;J;J;I;J;422643;Björn Palmqvist;73;M;Lund;Key Account Manager;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;14;J;J;I;J;422644;Julius Landin;19;M;Lund;Studerande;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;15;J;J;I;J;422645;Cecilia Nelson;80;K;Lund;f.d. Konsthallchef;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;16;J;J;I;J;422646;Kent Salomonsson;71;M;Lund;Pol.mag, konsult;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;17;J;J;I;J;422647;Hjördis Kristenson;85;K;Lund;Docent, universitetslektor;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;18;J;J;I;J;422648;Vladimir Liharevschi;74;M;Lund;Grafisk konsult;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;19;J;J;I;J;422649;Åke Forssell;77;M;Lund;Överläkare;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;20;J;J;I;J;422650;Margareta Sjöstedt;70;K;Lund;Socionom;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;21;J;J;I;J;422651;Marco Ricci;73;M;Lund;Ingenjör;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;22;J;J;I;J;422652;Stefan Holmström;80;M;Lund;f.d. Generalsekr. IM;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;23;J;J;I;J;422653;Lena Ymén;72;K;Lund;Leg. psykolog;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;24;J;J;I;J;422654;Nils Norsell;81;M;Lund;Tandläkare, Leg. psykoterapeut;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;25;J;J;I;J;422655;Reza Noushabadi;63;M;Lund;Företagare;424000;;J
+K;1281;Lund;00;Lund;FörNyaLund;FöNyL;1135;S;15233;26;J;J;I;J;422656;Rolf Hallgren;74;M;Lund;f.d. Banktjänsteman;424000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;1;J;J;I;J;31799;Hedvig Åkesson;21;K;Lund;21 år, Student, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;2;J;J;I;J;62663;Agneta Lindskog;72;K;Lund;72 år, Läkare, Södra Sandby;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;3;J;J;I;J;31857;Gustav Lundblad;32;M;Lund;32 år, Politisk sekreterare, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;4;J;J;I;J;59441;John Sunnqvist;21;M;Lund;21 år, Student, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;5;J;J;I;J;62666;Ljiljana Lipovac;63;K;Lund;63 år, Undersköterska, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;6;J;J;I;J;31829;Johan Björk;21;M;Lund;21 år, Student, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;7;J;J;I;J;62668;Torsten Czernyson;70;M;Lund;70 år, Pensionär, Genarp;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;8;J;J;I;J;31819;Mattias Svensson;33;M;Lund;33 år, Politisk sekreterare, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;9;J;J;I;J;62670;Sebastian Ekberg;30;M;Lund;30 år, Teolog/Konsult, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;10;J;J;I;J;59443;Joel Haglund;21;M;Lund;21 år, Student, Veberöd;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;11;J;J;I;J;62672;Dimitrios Afentoulis;58;M;Lund;58 år, Byggnadsingenjör, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;12;J;J;I;J;62673;Dan Backman;59;M;Lund;59 år, Handledare, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;13;J;J;I;J;31692;Caroline Dahlström-Nilsson;22;K;Lund;22 år, Elevassistent, Veberöd;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;14;J;J;I;J;31860;Julia Stock;22;K;Lund;22 år, Student, Veberöd;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;15;J;J;I;J;62676;Aleksander Mlynarczyk;32;M;Lund;32 år, Statsvetare, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;16;J;J;I;J;62677;Thomas Hermansson;29;M;Lund;29 år, Teol. Kand., Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;17;J;J;I;J;62678;Marcus Klingborg;26;M;Lund;26 år, Teknisk Konsult, Veberöd;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;18;J;J;I;J;62679;Roland Aronsson;74;M;Lund;74 år, Konsult/Företagsrådgivare, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;19;J;J;I;J;62680;Lukas Hansson;23;M;Lund;23 år, Student, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;20;J;J;I;J;62681;Jan Berlin;72;M;Lund;72 år, fd Enhetschef, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;21;J;J;I;J;62684;Daniel Holpers;39;M;Lund;39 år, Fastighetsskötare, Lund;250000;;J
+K;1281;Lund;00;Lund;Kristdemokraterna;KD;68;S;12623;22;J;J;I;J;62685;Mio Fric;53;M;Lund;53 år, Säljare, Lund;250000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;1;J;J;I;J;55230;Philip Sandberg;36;M;Lund;Kommunalråd, Stångby, 36 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;2;J;J;I;J;38838;Inger Tolsved Rosenkvist;54;K;Lund;Egen företagare, Torna Hällestad, 54 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;3;J;J;I;J;55232;Mia Honeth;68;K;Lund;F.d. Rektor, Igelösa, 68 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;4;J;J;I;J;55233;Staffan Bolin;64;M;Lund;Utredare, Lund, 64 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;5;J;J;I;J;55234;Camilla Neptune;56;K;Lund;Försäkringstjänsteman, Veberöd, 56 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;6;J;J;I;J;55235;Cecilia Barnes;54;K;Lund;Läromedelsutvecklare, Lund, 54 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;7;J;J;I;J;55236;Gunnar Brådvik;27;M;Lund;Ekonom, Lund, 27 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;8;J;J;I;J;55237;Ursula Savonius;29;K;Lund;Kronoinspektör, Lund, 29 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;9;J;J;I;J;27781;Christoffer Karlsson;26;M;Lund;Student, Lund, 26 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;10;J;J;I;J;55239;Karl Branzén;71;M;Lund;Fil. kand., Lund, 71 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;11;J;J;I;J;55240;Axel Nordberg;29;M;Lund;Maskinkonstruktör, Lund, 29 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;12;J;J;I;J;55241;Sushma Uthappa-Schwerdt;36;K;Lund;Rekryteringsspecialist, Dalby, 36 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;13;J;J;I;J;55242;Daniel Kronmann;38;M;Lund;Enhetschef Innovation, Lund, 38 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;14;J;J;I;J;38848;Josefine Temrell;28;K;Lund;Student, Lund, 28 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;15;J;J;I;J;38843;Robert Barnes;54;M;Lund;Affärsutvecklare, Lund, 54 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;16;J;J;I;J;55245;Adrian Kasperczyk;21;M;Lund;Student, Lund, 21 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;17;J;J;I;J;55246;Camilla Lundberg;69;K;Lund;F.d. Bibliotekarie, Lund, 69 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;18;J;J;I;J;55247;Fabian Zäll;48;M;Lund;Utredare, Lund, 48 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;19;J;J;I;J;55248;Linnéa Bjärum;23;K;Lund;Student, Lund, 23 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;20;J;J;I;J;55249;Håkan Friberg;58;M;Lund;Lärare, Lund, 58 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;21;J;J;I;J;55250;Camilla Norberg Hansen;52;K;Lund;Egen företagare, Lund, 52 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;22;J;J;I;J;55251;Irene Bozena Werbart;69;K;Lund;Professor em., Lund, 69 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;23;J;J;I;J;55252;Linnea Warnemyr;22;K;Lund;Student, Lund, 22 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;24;J;J;I;J;55253;Maria Brolin Glennow;32;K;Lund;Fastighetsmäklare, Lund, 32 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;25;J;J;I;J;55254;Joar Lindén;20;M;Lund;Student, Lund, 20 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;26;J;J;I;J;55255;Joanna Lundell;55;K;Lund;Speciallärare, Veberöd, 55 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;27;J;J;I;J;55256;Jessica Ulfgren;28;K;Lund;Samhällsplanerare, Lund, 28 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;28;J;J;I;J;55257;Joakim Vasiliadis;50;M;Lund;Lärare, Lund, 50 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;29;J;J;I;J;55258;Christina Zoric Persson;50;K;Lund;Landskapsarkitekt, Lund, 50 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;30;J;J;I;J;55259;Mette-Maaria Lundström;61;K;Lund;Lärare, Genarp, 61 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;31;J;J;I;J;55260;Christoffer Lindbom;21;M;Lund;Student, Lund, 21 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;32;J;J;I;J;55261;Erik Kanders;40;M;Lund;Civilingenjör, Lund, 40 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;33;J;J;I;J;55262;Lis Carlander;53;K;Lund;Präst, Lund, 53 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;34;J;J;I;J;55263;Richard Carlsson;41;M;Lund;Ekonom, Lund, 41 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;35;J;J;I;J;55264;Oskar Vilhelmsson Timmermand;34;M;Lund;Forskare, Lund, 34 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;36;J;J;I;J;55265;Jesse Derrick Nkurunziza;26;M;Lund;Butiksbiträde, Lund, 26 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;37;J;J;I;J;55266;Karin Wrammerfors;60;K;Lund;Adjunkt, Genarp, 60 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;38;J;J;I;J;55267;Issa Kul;32;M;Lund;Butikschef, Lund, 32 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;39;J;J;I;J;55268;Torbjörn L Möller;74;M;Lund;Entreprenör, Veberöd, 74 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;40;J;J;I;J;55269;Peter Hedberg;55;M;Lund;Egen företagare, Genarp, 55 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;41;J;J;I;J;55270;Kjell Åke Nilsson;66;M;Lund;F.d. Förvaltningschef, Lund, 66 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;42;J;J;I;J;55271;Viveka Brunander;50;K;Lund;Lärare, Stångby, 50 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;43;J;J;I;J;55272;Harriet Johansson;53;K;Lund;Specialpedagog, Södra Sandby, 53 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;44;J;J;I;J;55273;Alireza Sarvari;35;M;Lund;Egen företagare. Lund, 35 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;45;J;J;I;J;55274;Karin Löwhagen;64;K;Lund;Revisor, Lund, 64 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;46;J;J;I;J;55275;Taru Sundqvist;59;K;Lund;Undersköterska, Dalby, 59 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;47;J;J;I;J;55276;Bertil Karlsson;61;M;Lund;Ingenjör, Lund, 61 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;48;J;J;I;J;55277;Tobias Carlsson;35;M;Lund;Tjänsteman, Lund, 35 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;49;J;J;I;J;55278;Bengt Fransson;56;M;Lund;Fritidsledare, Lund, 56 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;50;J;J;I;J;55279;Thomas Glennow;44;M;Lund;Entreprenör, Lund, 44 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;51;J;J;I;J;55280;Marcus Romedahl;24;M;Lund;Student, Lund, 24 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;52;J;J;I;J;55281;Martin Palm;32;M;Lund;Gymnasielärare,Södra Sandby, 32 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;53;J;J;I;J;55282;Mårten Ekemohn;33;M;Lund;Säljare, Stångby, 33 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;54;J;J;I;J;55283;Marianne Bang;67;K;Lund;Beteendestrateg, Lund, 67 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;55;J;J;I;J;55284;Gabriel Snygg Kvernes;18;M;Lund;Studerande, Dalby, 18 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;56;J;J;I;J;55285;Fredrik Folkesson;26;M;Lund;Systemutvecklare, Lund, 26 år;142000;;J
+K;1281;Lund;00;Lund;Liberalerna (tidigare Folkpartiet);L;3;S;15406;57;J;J;I;J;55286;Sofia Persson;22;K;Lund;Student, Lund, 22 år;142000;;J
+K;1281;Lund;00;Lund;Medborgerlig Samling;MED;1296;S;14396;1;J;J;I;J;187818;Oskar Hagberg;47;M;Lund;48, statistiker, Lund;24000;;J
+K;1281;Lund;00;Lund;Medborgerlig Samling;MED;1296;S;14396;2;J;J;I;J;128575;Ola Larsson;50;M;Lund;50, civilekonom, Södra Sandby;24000;;J
+K;1281;Lund;00;Lund;Medborgerlig Samling;MED;1296;S;14396;3;J;J;I;J;266094;Jakob Meijling;52;M;Lund;52, typograf, Lund;24000;;J
+K;1281;Lund;00;Lund;Medborgerlig Samling;MED;1296;S;14396;4;J;J;I;J;266095;Katarina Larsson;50;K;Lund;50, egenföretagare, Södra Sandby;24000;;J
+K;1281;Lund;00;Lund;Medborgerlig Samling;MED;1296;S;14396;5;J;J;I;J;188055;Henrik Jonsson;41;M;Lund;41, lärare, Lund;24000;;J
+K;1281;Lund;00;Lund;Medborgerlig Samling;MED;1296;S;14396;6;J;J;I;J;266097;Ulrika Moe;54;K;Lund;54, egenföretagare, Lund;24000;;J
+K;1281;Lund;00;Lund;Medborgerlig Samling;MED;1296;S;14396;7;J;J;I;J;188053;Nils Åström;24;M;Lund;24, civilingenjör, Lund;24000;;J
+K;1281;Lund;00;Lund;Medborgerlig Samling;MED;1296;S;14396;8;J;J;I;J;266099;Niklas Moser;39;M;Lund;39, bolagsjurist, Lund;24000;;J
+K;1281;Lund;00;Lund;Medborgerlig Samling;MED;1296;S;14396;9;J;J;I;J;266100;Dora Sterner;50;K;Lund;50, egenföretagare, Genarp;24000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;1;J;J;I;J;94807;Karin Svensson Smith;62;K;Lund;62 år, riksdagsledamot, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;2;J;J;I;J;20738;Axel Hallberg;19;M;Lund;19 år, språkrör Grön Ungdom, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;3;J;J;I;J;20774;Yanira Difonis;56;K;Lund;56 år, fritidsledare, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;4;J;J;I;J;94810;Ulf Nymark;72;M;Lund;72 år, pensionär, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;5;J;J;I;J;20804;Sofie Lemontzis;28;K;Lund;28 år, juriststudent, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;6;J;J;I;J;94812;Lars Wirtén;53;M;Lund;53 år, kommunikationskonsult, Torna Hällestad;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;7;J;J;I;J;94813;Ewa Björnberg;71;K;Lund;71 år, lantmästare, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;8;J;J;I;J;94814;Peter Bergwall;43;M;Lund;43 år, rättssociolog, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;9;J;J;I;J;19811;Emma Berginger;31;K;Lund;31 år, kommunalråd, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;10;J;J;I;J;94816;Tobias Ekholm;40;M;Lund;40 år, projektledare, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;11;J;J;I;J;94817;Amanda Lindblad;24;K;Lund;24 år, student, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;12;J;J;I;J;94818;Manaf Sababi;57;M;Lund;57 år, farmaceut, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;13;J;J;I;J;94819;Elsa Christersson;79;K;Lund;79 år, pensionär, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;14;J;J;I;J;94820;Jean Niyongabo;46;M;Lund;46 år, vattenhandläggare, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;15;J;J;I;J;94821;Johan Helgesson;43;M;Lund;43 år, planarkitekt, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;16;J;J;I;J;20800;Anette Mårtensson;35;K;Lund;35 år, biokemist, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;17;J;J;I;J;94859;Klas Sivén;22;M;Lund;22 år, student, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;18;J;J;I;J;20806;Helena Heintz;35;K;Lund;35 år, nämndsekreterare, Södra Sandby;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;19;J;J;I;J;94861;Staffan Sölve;56;M;Lund;56 år, företagare, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;20;J;J;I;J;94862;Lisa Pedersen;26;K;Lund;26 år, student, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;21;J;J;I;J;94863;Julius Eberhard;20;M;Lund;20 år, juriststudent, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;22;J;J;I;J;94864;Vera Chudnikova;32;K;Lund;32 år, student, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;23;J;J;I;J;94865;Hjalmar Dahm;61;M;Lund;61 år, grundskollärare, Torna Hällestad;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;24;J;J;I;J;21594;Teresia Ställborn;46;K;Lund;46 år, organisationssekreterare, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;25;J;J;I;J;94867;Martin Edbladh;46;M;Lund;46 år, sakkunnig, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;26;J;J;I;J;21197;Mätta Ivarsson;44;K;Lund;44 år, regionråd, Dalby;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;27;J;J;I;J;94869;Jens Gynnerstedt;35;M;Lund;35 år, produktionschef, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;28;J;J;I;J;94870;Emma Fager Malmström;42;K;Lund;42 år, organisationsutvecklare, Lund;272000;;J
+K;1281;Lund;00;Lund;Miljöpartiet de gröna;MP;55;S;12994;29;J;J;I;J;94871;Ola Persson;42;M;Lund;42 år, konsultgruppsansvarig, Lund;272000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;1;J;J;I;J;61934;Christer Wallin;60;M;Lund;60 år, kommunalråd, boktryckare, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;2;J;J;I;J;61935;Mats Helmfrid;59;M;Lund;59 år, småföretagare, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;3;J;J;I;J;61936;Louise Rehn Winsborg;65;K;Lund;65 år, ekonom, Dalby;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;4;J;J;I;J;61937;Fredrik Ljunghill;35;M;Lund;35 år, politisk sekreterare, Södra Sandby;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;5;J;J;I;J;61938;Birger Swahn;40;M;Lund;40 år, ekonom, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;6;J;J;I;J;61939;Christine Ohlsson;21;K;Lund;21 år, juriststudent, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;7;J;J;I;J;61940;Dan Ishaq;28;M;Lund;28 år, projektledare, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;8;J;J;I;J;61941;Göran Wallén;68;M;Lund;68 år, f.d. kriminalvårdschef, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;9;J;J;I;J;61942;Ann Heberlein;48;K;Lund;48 år, författare, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;10;J;J;I;J;61943;Adrian Borin;41;M;Lund;41 år, ombudsman, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;11;J;J;I;J;61944;Klas Svanberg;53;M;Lund;53 år, jur. kand, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;12;J;J;I;J;61945;Edith Escobar Medina;51;K;Lund;51 år, IT-specialist, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;13;J;J;I;J;61946;Rasmus Törnblom;28;M;Lund;28 år, studerande, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;14;J;J;I;J;61947;Ann-Charlotte Ewerhard;47;K;Lund;47 år, civilekonom, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;15;J;J;I;J;61948;Alexander Lewerentz;31;M;Lund;31 år, fil. dr. geologi, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;16;J;J;I;J;61949;Carl von Friesendorff;79;M;Lund;79 år, skogsbrukare, Silvåkra;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;17;J;J;I;J;61950;Johanna Kyander;54;K;Lund;54 år, gymnasielärare, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;18;J;J;I;J;61951;Jörgen Forsberg;59;M;Lund;59 år, överstelöjtnant, Södra Sandby;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;19;J;J;I;J;61952;Christoffer Stenström;31;M;Lund;31 år, studerande, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;20;J;J;I;J;61953;Lars Leonardsson;63;M;Lund;63 år, IT-chef, Assartorp;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;21;J;J;I;J;61954;Josefin Eriksen;23;K;Lund;23 år, studerande, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;22;J;J;I;J;61955;Tamas Osvath;68;M;Lund;68 år, kommunrevisor, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;23;J;J;I;J;61956;Daniel Nilsson;36;M;Lund;36 år, säkerhetstekniker, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;24;J;J;I;J;61957;Petra Douhane;36;K;Lund;36 år, relationsterapeut, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;25;J;J;I;J;61958;Christer Larsson;65;M;Lund;65 år, företagare, Dalby;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;26;J;J;I;J;61959;Inga-Lisa Sjödin;75;K;Lund;75 år, f.d. ekonomidirektör, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;27;J;J;I;J;61960;Astrid Rugsveen;73;K;Lund;73 år, undersköterska, Dalby;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;28;J;J;I;J;61961;Magnus Ekblad;45;M;Lund;45 år, verksamhetscontroller, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;29;J;J;I;J;61962;Maj-Britt Dahlquist;76;K;Lund;76 år, pensionär, Genarp;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;30;J;J;I;J;61963;Per Jakobsson;69;M;Lund;69 år, brandmästare, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;31;J;J;I;J;61964;Felix Solberg;22;M;Lund;22 år, läkarstudent, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;32;J;J;I;J;61965;Linnéa Karmlid;36;K;Lund;36 år, förskolepedagog, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;33;J;J;I;J;61966;Alexander Wallin;32;M;Lund;32 år, computer scientist, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;34;J;J;I;J;61967;Tomas Arvidsson;53;M;Lund;53 år, infrastrukturstrateg, Igelösa;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;35;J;J;I;J;61968;Anders Eriksson;71;M;Lund;71 år, pensionär, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;36;J;J;I;J;61969;Tomas Jonsson;55;M;Lund;55 år, civilingenjör, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;37;J;J;I;J;61970;Karl Melin;21;M;Lund;21 år, studerande, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;38;J;J;I;J;61971;Helena Trofast;38;K;Lund;38 år, civilekonom, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;39;J;J;I;J;61972;Erik Nordin;42;M;Lund;42 år, säljledare, Dalby;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;40;J;J;I;J;61973;Jerry Davidsson;42;M;Lund;42 år, civilingenjör, Södra Sandby;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;41;J;J;I;J;61974;Mats Jonsson;74;M;Lund;74 år, senior rådgivare, Södra Sandby;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;42;J;J;I;J;61975;Rickard Sahlin;49;M;Lund;49 år, ingenjör, Genarp;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;43;J;J;I;J;61976;Olle Tolke;23;M;Lund;23 år, studerande, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;44;J;J;I;J;61977;Betty Jansson;29;K;Lund;29 år, administrativ assistent, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;45;J;J;I;J;61978;Thomas Åkesson;66;M;Lund;66 år, f.d. postanställd, Södra Sandby;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;46;J;J;I;J;61979;Erik Vestergaard;62;M;Lund;62 år, civilingenjör, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;47;J;J;I;J;61980;Alexander Strukelj;37;M;Lund;37 år, doktorand, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;48;J;J;I;J;61981;Nils Bergbom;56;M;Lund;56 år, civilekonom, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;49;J;J;I;J;61982;Maria Pehrsson;45;K;Lund;45 år, banktjänsteman, Lund;284000;;J
+K;1281;Lund;00;Lund;Moderaterna;M;1;S;12609;50;J;J;I;J;61983;Dagmar Gärtner;77;K;Lund;77 år, studerande, Dalby;284000;;J
+K;1281;Lund;00;Lund;Piratpartiet;PP;524;S;15308;1;J;J;I;J;449212;Jan-Erik Malmquist;44;M;Lund;44, Civilingenjör;70000;;J
+K;1281;Lund;00;Lund;Piratpartiet;PP;524;S;15308;2;J;J;I;J;449213;Mattias Rubenson;24;M;Lund;24, Lärare;70000;;J
+K;1281;Lund;00;Lund;Piratpartiet;PP;524;S;15308;3;J;J;I;J;449214;Wilhelm Wijkander;23;M;Lund;23, Systemadministratör;70000;;J
+K;1281;Lund;00;Lund;Piratpartiet;PP;524;S;15308;4;J;J;I;J;449215;Markus Oskarsson;24;M;Lund;24, Student;70000;;J
+K;1281;Lund;00;Lund;Piratpartiet;PP;524;S;15308;5;J;J;I;J;449216;Maj Stenmark;31;K;Lund;31, Tekn.dr. i datavetenskap;70000;;J
+K;1281;Lund;00;Lund;Piratpartiet;PP;524;S;15308;6;J;J;I;J;449217;Dan Svensson;41;M;Lund;41;70000;;J
+K;1281;Lund;00;Lund;Piratpartiet;PP;524;S;15308;7;J;J;I;J;449218;Måns Magnusson;23;M;Lund;23, Student;70000;;J
+K;1281;Lund;00;Lund;Piratpartiet;PP;524;S;15308;8;J;J;I;J;449219;Ivan Carlestam;24;M;Lund;24, Student;70000;;J
+K;1281;Lund;00;Lund;Romelepartiet Skåne;RoPa;1339;S;15242;1;J;J;I;J;425364;Bengt Kolben;72;M;Lund;Fil.mag.;50000;;J
+K;1281;Lund;00;Lund;Romelepartiet Skåne;RoPa;1339;S;15242;2;J;J;I;J;425365;Robert Schuler;77;M;Lund;Konsult;50000;;J
+K;1281;Lund;00;Lund;Romelepartiet Skåne;RoPa;1339;S;15242;3;J;J;I;J;425366;Mats Olsson;57;M;Lund;Lärare;50000;;J
+K;1281;Lund;00;Lund;Romelepartiet Skåne;RoPa;1339;S;15242;4;J;J;I;J;425367;Catarina Nkembo;53;K;Lund;VD;50000;;J
+K;1281;Lund;00;Lund;Romelepartiet Skåne;RoPa;1339;S;15242;5;J;J;I;J;425368;Lena Staffansson;52;K;Lund;Företagare;50000;;J
+K;1281;Lund;00;Lund;Romelepartiet Skåne;RoPa;1339;S;15242;6;J;J;I;J;425369;Björn Lindberg;40;M;Lund;Civilekonom;50000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;1;J;J;I;J;54086;Hans-Olof Andersson;52;M;Lund;52, politiker, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;2;J;J;I;J;54087;Christoffer Brinkåker;26;M;Lund;26, student, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;3;J;J;I;J;54088;Åsa Wittenfelt;59;K;Lund;59, lärare, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;4;J;J;I;J;53323;Victoria Tiblom;48;K;Helsingborg;48, kommunikatör, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;5;J;J;I;J;54090;Micael Jarnesjö;55;M;Lund;55, chaufför, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;6;J;J;I;J;54091;Bengt Malmberg;69;M;Lund;69, pensionär, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;7;J;J;I;J;54092;Magnus Liljeroth;54;M;Lund;54, ingenjör, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;8;J;J;I;J;54093;Urban Nilsson;61;M;Lund;61, teknisk dr, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;9;J;J;I;J;54095;Diana Engblom;48;K;Lund;48, samordnare, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;10;J;J;I;J;54096;Dragan Brankovic;56;M;Lund;56, egenföretagare, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;11;J;J;I;J;54097;Bo Kjellberg;85;M;Lund;85, egenföretagare, Stångby;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;12;J;J;I;J;54098;Bengt Svensson;65;M;Lund;65, egenföretagare, Dalby;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;13;J;J;I;J;54099;Victor Jangdal;20;M;Lund;20, officersaspirant, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;14;J;J;I;J;54100;Linda Nilsson;40;K;Lund;40, barnskötare, Dalby;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;15;J;J;I;J;54102;Håkan Engblom;54;M;Lund;55, besiktningstekniker, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;16;J;J;I;J;54103;Marcus Svensson;39;M;Lund;39, personlig assistent, Södra Sandby;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;17;J;J;I;J;54104;Johan Nilsson;32;M;Lund;32, studerande, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;18;J;J;I;J;54105;Gunilla Hedlund Mikulasek;65;K;Lund;65, pensionär, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;19;J;J;I;J;54106;Jonas Johansson;53;M;Lund;53, säljare, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;20;J;J;I;J;54107;Pathrick Broholm;35;M;Lund;35, servicetekniker, Dalby;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;21;J;J;I;J;54108;Magnus Lindbom;44;M;Lund;44, ambulanssjuksköterska, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;22;J;J;I;J;54109;Ingvar Mårtensson;73;M;Lund;73, pensionär, Dalby;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;23;J;J;I;J;54110;Sven Björnsson;71;M;Lund;71, pensionär, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;24;J;J;I;J;54111;Erik Ivarsson;22;M;Lund;22, student, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;25;J;J;I;J;54112;Charlotta Billvik;50;K;Lund;50, lantmästare, Genarp;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;26;J;J;I;J;54113;Michael Andersson;58;M;Lund;58, operatör, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;27;J;J;I;J;54114;Lars Åhlin;69;M;Lund;69, pensionär, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;28;J;J;I;N;54115;[inte lämnat förklaring];;;;;284000;;N
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;29;J;J;I;J;54116;Robert Berg;50;M;Lund;50, egenföretagare, Lund;284000;;J
+K;1281;Lund;00;Lund;Sverigedemokraterna;SD;110;S;12503;30;J;J;I;J;54117;Mattias Kristiansson;45;M;Lund;45, läkare, Veberöd;284000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;1;J;J;I;J;127345;Hanna Gunnarsson;34;K;Lund;34 år, lärare, Revingeby;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;2;J;J;I;J;127346;Helena Falk;33;K;Lund;33 år, utbildningsadministratör, Lund;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;3;J;J;I;J;127347;Mats Olsson;61;M;Lund;61 år, professor, Lund;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;4;J;J;I;J;127348;Sven-Bertil Persson;69;M;Lund;69 år, pensionerad förskollärare, Dalby;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;5;J;J;I;J;127349;Saima Jönsson Fahoum;75;K;Lund;åldersrik distriktsläkare, Väster;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;6;J;J;I;J;127350;Jesper Sahlén;24;M;Lund;24 år, gymnasielärare, Väster;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;7;J;J;I;J;127351;Angelica Svensson;35;K;Lund;35 år, gatuingenjör, Margretedal;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;8;J;J;I;J;127352;Pontus Kjellström;35;M;Lund;35 år, lärare, Lund;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;9;J;J;I;J;127353;Nita Lorimer;66;K;Lund;66 år, egen företagare, Östra Torn;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;10;J;J;I;J;127354;Lars A Ohlsson;75;M;Lund;75 år, f d byggnadsingenjör, Östra Torn;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;11;J;J;I;J;127355;Savita Upadhyaya;43;K;Lund;43 år, avfallsutvecklingsingenjör, Ö Torn;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;12;J;J;I;J;127356;Bertil Raalas;52;M;Lund;52 år, idrottskonsulent, Värpinge;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;13;J;J;I;J;127357;Anne Dederichs;48;K;Lund;47 år, lektor och forskare, Lund;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;14;J;J;I;J;127358;Olof Peterffy;33;M;Lund;32 år, hydrogeolog, Dalby;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;15;J;J;I;J;127359;Gunilla Wahlberg;66;K;Lund;66 år, sjuksöterska, Hunnerup;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;16;J;J;I;J;127360;Jonas Ringqvist;43;M;Lund;43 år, inspector dealer, Väster;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;17;J;J;I;J;127361;Ann Schlyter;75;K;Lund;pensionär, Lund;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;18;J;J;I;J;127362;Gustaf Lindfors;37;M;Lund;37 år, vaktmästare, Dalby;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;19;J;J;I;J;127363;Nilla Bolding;66;K;Lund;66 år, kristen MS-sjuk miljöaktivist, Klostergården;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;20;J;J;I;J;127364;Alexander Moser Uppström;22;M;Lund;22 år, student, Smålands;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;21;J;J;I;J;127365;Margot Bengtsson;75;K;Lund;75 år, docent i psykologi, Lund;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;22;J;J;I;J;127366;Ibrahim Kakahama;68;M;Lund;68 år, pensionär, Linero;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;23;J;J;I;J;127367;Marianne Sonnby Borgström;69;K;Lund;f d lärare, Lund;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;24;J;J;I;J;127368;Göran Fries;74;M;Lund;75 år, datavetare, Stångby;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;25;J;J;I;J;127369;Karin Oscarsson;75;K;Lund;bibliotekarie, Lund;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;26;J;J;I;J;127370;Stefan Arvidsson;50;M;Lund;50 år, professor i religionshistoria, Lund;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;27;J;J;I;J;127371;Elisabeth Iregren;73;K;Lund;74 år, f d lärare, Norra Fäladen;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;28;J;J;I;J;127372;Govind Krishna Misra;61;M;Lund;60 år, förvaltare/undersköterska, Lund;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;29;J;J;I;J;127373;Emelie Bronstorp;26;K;Lund;26 år, student, Smålands;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;30;J;J;I;J;127374;Mattias Rückert;56;M;Lund;56 år, arkitekt, Dalby;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;31;J;J;I;J;127375;Kerstin Rosendahl;60;K;Lund;61 år, f d bokhandlare, Linero;144000;;J
+K;1281;Lund;00;Lund;Vänsterpartiet;V;5;S;13295;32;J;J;I;J;127376;Peter Aandahl;51;M;Lund;50 år, Data Warehouse Engineer, Södra Sandby;144000;;J

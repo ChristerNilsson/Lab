@@ -1,0 +1,626 @@
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;1;J;J;I;J;64257;Torbjörn Karlsson;53;M;Trelleborg;Kommunalråd, 53 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;2;J;J;I;J;28167;Anna Nordstrandh;44;K;Trelleborg;Avgiftshandläggare, 44 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;3;J;J;I;J;64259;Sven Lindkvist;67;M;Trelleborg;F.d. Ombudsman, 67 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;4;J;J;I;J;64260;Veronica Larsson;37;K;Trelleborg;Turismutvecklare, 37 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;5;J;J;I;J;64261;Johnny Nilsson;63;M;Trelleborg;Metallarbetare, 63 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;6;J;J;I;J;28155;Marianne Pettersson;59;K;Trelleborg;Undersköterska, Riksdagsledamot, 59 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;7;J;J;I;J;64263;Andreas Persson;37;M;Trelleborg;Produktionsledare, 37 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;8;J;J;I;J;64264;Birgitta Lanér Sjöström;68;K;Trelleborg;Fil. Mag., 68 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;9;J;J;I;J;64265;Ismet Dedic;53;M;Trelleborg;Kontorsvaktmästare, 53 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;10;J;J;I;J;64266;Eva Höckert;44;K;Trelleborg;Grundskolelärare, 44 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;11;J;J;I;J;54752;Lennart Höckert;52;M;Trelleborg;Verksamhetsutvecklare, 52 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;12;J;J;I;J;54763;Layal Chidiac;33;K;Trelleborg;Arbetsförmedlare, 33 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;13;J;J;I;J;54760;Jan Lundgren;69;M;Trelleborg;Konsult, 69 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;14;J;J;I;J;64270;Cecilia Dahl Andersson;46;K;Trelleborg;Folkbildare, 46 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;15;J;J;I;J;64271;Paul Lövdahl;45;M;Trelleborg;Industriarbetare, 45 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;16;J;J;I;J;64272;Lizian Kyreus;75;K;Trelleborg;Förskolelärare, 75 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;17;J;J;I;J;54756;Hans Björklund;53;M;Trelleborg;Byggnadssnickare, 53 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;18;J;J;I;J;64274;Anitha Lata;73;K;Trelleborg;Socionom, 73 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;19;J;J;I;J;28170;Thomas Westman;48;M;Trelleborg;Ombudsman, 48 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;20;J;J;I;J;64276;Gerd Klein;75;K;Trelleborg;Grundskolelärare, 75 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;21;J;J;I;J;64277;Linus Pernum;37;M;Trelleborg;Projektledare, 37 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;22;J;J;I;J;54765;Hanna Skånberg;34;K;Trelleborg;Personlig Assistent, 34 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;23;J;J;I;J;64279;Stefan Berglinden;68;M;Trelleborg;Lärare, 68 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;24;J;J;I;J;64280;Kerstin Johansson;63;K;Trelleborg;Skolsköterska, 63 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;25;J;J;I;J;64281;Anders Yngve;67;M;Trelleborg;Svetsare, 67 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;26;J;J;I;J;64282;Monica Nordbladh;70;K;Trelleborg;Affärsbiträde, 70 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;27;J;J;I;J;54764;Anders Söderberg;64;M;Trelleborg;F.d. Järnvägstjänsteman, 64 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;28;J;J;I;J;64284;Ann Lindqvist;65;K;Trelleborg;F.d. Arbetsförmedlingschef, 65 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;29;J;J;I;J;64285;Kenneth Johansson;68;M;Trelleborg;Pensionär, 68 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;30;J;J;I;J;64286;Felicia Nordstrandh;21;K;Trelleborg;Student, 21 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;31;J;J;I;J;64287;John Thörnlund;39;M;Trelleborg;Verksamhetsansvarig, 39 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;32;J;J;I;J;64288;Sini Ala;30;K;Trelleborg;Undersköterska, 30 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;33;J;J;I;J;64289;Sten Björk;77;M;Trelleborg;Sjöofficer, 77 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;34;J;J;I;J;64290;Ann-Christin Dahlgren;62;K;Trelleborg;Undersköterska, 62 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;35;J;J;I;J;64291;Kouder Mere;37;M;Trelleborg;Elektriker, 37 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;36;J;J;I;J;64292;Vita Åstrand;69;K;Trelleborg;Pensionär, 69 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;37;J;J;I;J;64293;Göran Hansson;56;M;Trelleborg;Industriarbetare, 56 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;38;J;J;I;J;429488;Yvonne Svensson;67;K;Trelleborg;Pensionär, 67 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;39;J;J;I;J;64295;Robert Horvath;36;M;Trelleborg;Ombudsman, 37 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;40;J;J;I;J;64296;Kerstin Pernum;34;K;Trelleborg;Förskollärare, 34 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;41;J;J;I;J;64297;Jan Ahlkvist;71;M;Trelleborg;Pensionär, 71 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;42;J;J;I;J;64298;Kerstin Zetterman;70;K;Trelleborg;Pensionär, 70 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;43;J;J;I;J;64299;Dennis Ispiroglu;48;M;Trelleborg;Socialpedagog, 48 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;44;J;J;I;J;64300;Zabia Alhamwi;42;K;Trelleborg;Veterinär, 42 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;45;J;J;I;J;64301;Malik Sesay;47;M;Trelleborg;Enhetschef, 46 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;46;J;J;I;J;64302;Anita Widerberg;72;K;Trelleborg;Pensionär, 72 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;47;J;J;I;J;64303;Geza Maté;77;M;Trelleborg;Pensionär, 77 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;48;J;J;I;J;64304;Anitha Ljung;59;K;Trelleborg;Samordnare, 59 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;49;J;J;I;J;64305;Robert Borg;65;M;Trelleborg;Pensionär, 66 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;50;J;J;I;J;64306;Jalila Polus;58;K;Trelleborg;Modersmålslärare, 58 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;51;J;J;I;J;64307;Alf Rosengren;66;M;Trelleborg;Nämndeman, 66 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;52;J;J;I;J;64308;Emelie Elwing;38;K;Trelleborg;Leg. Sjuksköterska, 38 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;53;J;J;I;J;64309;Rolf Almroth;55;M;Trelleborg;Administratör, 55 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;54;J;J;I;J;64310;Jelena Simic;66;K;Trelleborg;Pensionär, 66 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;55;J;J;I;J;64311;Roger Thell;50;M;Trelleborg;Studerande, 50 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;56;J;J;I;J;64312;Yvonne Borg;59;K;Trelleborg;Verksamhetsansvarig, 59 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;57;J;J;I;J;64313;Anna Andersson;39;K;Trelleborg;Socionom, 39 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;1;J;J;I;J;35614;Patrik Holmberg;51;M;Trelleborg;Socialpedagog, Trelleborg, 51 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;2;J;J;I;J;79569;Mariann Sjöström;51;K;Trelleborg;Redovisningskonsult, Östra Värlinge, 51 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;3;J;J;I;J;37083;Mats Sjöslätt;46;M;Trelleborg;Försäkringstjänsteman, Stora Beddinge, 46 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;4;J;J;I;J;37077;Ola Olsson;30;M;Trelleborg;Ekonom/controller, Trelleborg, 30 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;5;J;J;I;J;79572;Mette Hansson;29;K;Trelleborg;Specialistsjuksköterska, Fjärdingslöv, 29 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;6;J;J;I;J;79573;Pernilla Linde;39;K;Trelleborg;Landskapsingenjör, Fuglie, 39 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;7;J;J;I;J;79574;Christina S Björklund;57;K;Trelleborg;Aukt. redovisningskonsult, Källstorp, 57 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;8;J;J;I;J;37089;Johanna Sjögren;35;K;Trelleborg;Lärare, Stävesjö, 57 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;9;J;J;I;J;37098;Philip Andersson;27;M;Trelleborg;Teamleader, Trelleborg, 27 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;10;J;J;I;J;79577;Mats Ingvarsson;55;M;Trelleborg;Distriktsrepresentant, Smygehamn, 55 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;11;J;J;I;J;79578;Kenneth Nilsson;61;M;Trelleborg;Egenföretagare, Gislöv Läge, 61 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;12;J;J;I;J;79579;Lars-Ingvar Andersson;59;M;Trelleborg;Lantmästare, Maglarp, 59 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;13;J;J;I;J;79580;Leif Sjögren;70;M;Trelleborg;Pensionär, Fuglie, 70 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;14;J;J;I;J;79581;Olof Rempe;67;M;Trelleborg;Lantmästare, Gylle, 67 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;15;J;J;I;J;39309;Birgitta Sjögren;70;K;Trelleborg;Kyrkokamrer, Fuglie, 70 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;16;J;J;I;J;79583;Rolf Stridsberg;72;M;Trelleborg;Entreprenör, Önnarp, 72 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;17;J;J;I;J;39316;Bo Andersson;71;M;Trelleborg;Lantbrukare, Slågarp, 72 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;18;J;J;I;J;79585;Maj-Lis Fredriksson;52;K;Trelleborg;Undersköterska, Beddingestrand, 52 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;19;J;J;I;J;79586;Ola Palmblad;49;M;Trelleborg;Byggprojektledare, Gislöv Läge, 49 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;20;J;J;I;J;79587;Andreas Andersson;39;M;Trelleborg;Sjökapten, Simmermarken, 39 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;21;J;J;I;J;79588;Anna Wild;51;K;Trelleborg;Marknadsförare, Smygehamn, 51 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;22;J;J;I;J;79589;Christel Sund;68;K;Trelleborg;Nämndeman, Trelleborg, 68 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;23;J;J;I;J;79590;Kerstin Gahne;85;K;Trelleborg;Företagare, Anderslöv, 85 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Centerpartiet;C;4;S;12902;24;J;J;I;J;79591;Marie Hammar;58;K;Trelleborg;Lärare, Grönby, 58 år;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Djurens parti;DjuP;1136;S;15305;1;J;J;I;J;448841;Andreas Ekfrost;39;M;Trelleborg;Trelleborg, vaktmästare, 39 år;2000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Klassiskt liberala partiet;KLP;638;;;;N;J;J;I;515112;Palmqvist, Daniel;44;M;Trelleborg;;0;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kommunistiska Partiet;K;471;S;14184;1;J;J;I;J;244995;Dennis Andersson;42;M;Trelleborg;Byggnadsarbetare;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kommunistiska Partiet;K;471;S;14184;2;J;J;I;J;244996;Valeria Holm;46;K;Trelleborg;Målare;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kommunistiska Partiet;K;471;S;14184;3;J;J;I;J;244997;Krister Rehn;56;M;Trelleborg;Kock;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kommunistiska Partiet;K;471;S;14184;4;J;J;I;J;244998;Daniel Larsson;36;M;Trelleborg;IT-tekninker;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kommunistiska Partiet;K;471;S;14184;5;J;J;I;J;244999;Torsten Nilsson;88;M;Trelleborg;Pensionär;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kommunistiska Partiet;K;471;S;14184;6;J;J;I;J;245000;Birgitte Jensen;52;K;Trelleborg;Kontorsassistent;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kommunistiska Partiet;K;471;S;14184;7;J;J;I;J;245001;Roland Lindahl;67;M;Trelleborg;Pensionär;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kommunistiska Partiet;K;471;S;14184;8;J;J;I;J;245002;Kaj Mortensen;67;M;Trelleborg;Pensionär;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kommunistiska Partiet;K;471;S;14184;9;J;J;I;J;245003;Thomas Holm;45;M;Trelleborg;Byggnadsarbetare;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;1;J;J;I;J;32066;Erik Lundström;50;M;Trelleborg;VD;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;2;J;J;I;J;32067;Hans Norén;71;M;Trelleborg;Tulltjänstman;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;3;J;J;I;J;31855;Karin Jönsson;69;K;Trelleborg;Studie- och yrkesvägledare;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;4;J;J;I;J;32069;Thomas Nilsson;56;M;Trelleborg;Brevbärare;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;5;J;J;I;J;32070;Estrid Nimåker;62;K;Trelleborg;Ekonomiassistent;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;6;J;J;I;J;32071;Mats Svensson;58;M;Trelleborg;Säljansvarig;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;7;J;J;I;J;32072;Monica Edström;75;K;Trelleborg;Leg. Sjuksköterska;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;8;J;J;I;J;32073;Birgitta Svensson;80;K;Trelleborg;Sekreterare;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;9;J;J;I;J;32074;Joakim Freiman;49;M;Trelleborg;Pastor;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;10;J;J;I;J;32075;Åke Svensson;82;M;Trelleborg;Ämneslärare;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;11;J;J;I;J;32076;Erika Kuusenjärvi;38;K;Trelleborg;Optical dispenser;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;12;J;J;I;J;32077;Johnny Svensson;72;M;Trelleborg;Säljare;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;13;J;J;I;J;32078;Ann Lundström;41;K;Trelleborg;Egenföretagare;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;14;J;J;I;J;32079;Mark Huisman;58;M;Trelleborg;Landskapsarkitekt;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;15;J;J;I;J;32080;Bengt Larsson;63;M;Trelleborg;Enhetschef;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;16;J;J;I;J;32081;Christina Nilsson;65;K;Trelleborg;Förskollärare;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;17;J;J;I;J;32082;Ingmar Aronson;48;M;Trelleborg;Pastor;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;18;J;J;I;J;32083;Fredrik Jönsson;46;M;Trelleborg;Enhetschef;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;19;J;J;I;J;32084;Daniel Svensson;35;M;Trelleborg;Trafikledare;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;20;J;J;I;J;32085;Christer Nelander;69;M;Trelleborg;Speditör;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;S;12216;21;J;J;I;J;32086;Tina Aronsson;45;K;Trelleborg;Pedagog;36000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Kristdemokraterna;KD;68;;;;J;J;I;N;515954;[inte lämnat förklaring];;;;;0;;N
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;1;J;J;I;J;163003;Henrik Silfverstolpe;51;M;Trelleborg;Civilingenjör, Äspö, 51 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;2;J;J;I;J;163004;Inger Persson;67;K;Trelleborg;Specialpedagog, Västra Alstad, 67 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;3;J;J;I;J;163005;Kristoffer Lindstrii;20;M;Trelleborg;Studerande, Trelleborg, 20 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;4;J;J;I;J;163006;Lotta Belstad;68;K;Trelleborg;Ekonom, Klagstorp, 68 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;5;J;J;I;J;163007;Hans Jeppsson Berg;51;M;Trelleborg;Skolledare, Trelleborg, 51 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;6;J;J;I;J;163008;Jonas Ralving;43;M;Trelleborg;Chaufför, Anderslöv, 43 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;7;J;J;I;J;163009;Ylva Ekstrand;71;K;Trelleborg;Gymnasielärare, Stavstensudde, 71 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;8;J;J;I;J;163010;Emma Lindstrii;39;K;Trelleborg;Civilekonom, Trelleborg, 39 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;9;J;J;I;J;163011;Oskar Spetz;20;M;Trelleborg;Studerande, Simremarken, 20 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;10;J;J;I;J;163012;Ann-Christine Seehusen;72;K;Trelleborg;Kriminalvårdare, Gislövs läge, 72 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;11;J;J;I;J;163013;Sverrir Valgeirsson;41;M;Trelleborg;Civilingenjör, Smygehamn, 41 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;12;J;J;I;J;163014;Gustaf Centervall;66;M;Trelleborg;Präst, Trelleborg, 66 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;13;J;J;I;J;163015;Henrik Antonio Monés;45;M;Trelleborg;Administratör, Västra Alstad, 45 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;14;J;J;I;J;163016;Nils Christensson;21;M;Trelleborg;Student, Alstad, 21 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;15;J;J;I;J;163017;Tina Järvenpää;42;K;Trelleborg;Leg. Arbetsterapeut, Trelleborg, 42 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;16;J;J;I;J;163018;Bert Ekstrand;74;M;Trelleborg;Skadeförebyggare, Trelleborg, 74 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;17;J;J;I;J;163019;Margaretha Blennhede;76;K;Trelleborg;Ekonom, Trelleborg, 76 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;18;J;J;I;J;163020;Olof Blennhede;77;M;Trelleborg;Butiksanställd, Trelleborg, 77 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;19;J;J;I;J;163021;Klas Regland;68;M;Trelleborg;Ingenjör, Fru Alstad, 68 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;20;J;J;I;J;163022;Carina Nertlinge;40;K;Trelleborg;Civilekonom, Trelleborg, 40 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;21;J;J;I;J;163023;Timmy Hulst;19;M;Trelleborg;Trelleborg, 19 år;53000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Medborgerlig Samling;MED;1296;S;13441;1;J;J;I;J;150664;Fredrik Körner;50;M;Trelleborg;50, institutionsmäklare, Gylle;10000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Medborgerlig Samling;MED;1296;S;13441;2;J;J;I;J;150665;Dejan Milivojevic;44;M;Trelleborg;44, statlig tjänsteman, Skegrie;10000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Medborgerlig Samling;MED;1296;S;13441;3;J;J;I;J;150666;Jessica Lilja;46;K;Trelleborg;46, sjuksköterska, Skegrie;10000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Medborgerlig Samling;MED;1296;S;13441;4;J;J;I;J;150667;Jonas Lilja;45;M;Trelleborg;44, IT-chef, Skegrie;10000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Medborgerlig Samling;MED;1296;S;13441;5;J;J;I;J;150668;Lars Andersson;69;M;Trelleborg;69, pensionär, Trelleborg;10000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;1;J;J;I;J;20742;Emil Samnegård;37;M;Trelleborg;Politisk sekreterare, 37 år, Gylle;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;2;J;J;I;J;111829;Maria Wilhelms;60;K;Trelleborg;Fairtradesamordnare, 60 år, Trelleborg;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;3;J;J;I;J;21522;Tomas Tigerschiöld;51;M;Trelleborg;Arbetare, 51 år, Trelleborg;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;4;J;J;I;J;21523;Salomé San Miguel Martínez;45;K;Trelleborg;Civilingenjör, 45 år, Trelleborg;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;5;J;J;I;J;21519;Anne-Sophie Samnegård;30;K;Trelleborg;Sjuksköterskestudent, 30 år, Gylle;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;6;J;J;I;J;20779;Johannes Book;41;M;Trelleborg;Egen företagare, 41 år, Trelleborg;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;7;J;J;I;J;111834;Christine Stafström;72;K;Trelleborg;Socionom, 72 år, Grönby;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;8;J;J;I;J;111835;Simon Yngve;36;M;Trelleborg;Civilingenjör, 36 år, Trelleborg;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;9;J;J;I;J;20798;Aina Andersson;68;K;Trelleborg;F.d. lärare, 68 år, Alstad;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;10;J;J;I;J;111837;Rolf Olsson;76;M;Trelleborg;Vingårdsarbetare, 76 år, Anderslöv;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;11;J;J;I;J;111838;Britten Morän Jystrand;75;K;Trelleborg;Pensionär, 75 år, Anderslöv;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;12;J;J;I;J;111839;Kjell Forsberg;73;M;Trelleborg;Pensionär, 73 år, Trelleborg;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;13;J;J;I;J;111840;Kai Regnell;76;M;Trelleborg;Pensionerad lärare, 76 år, Trelleborg;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;14;J;J;I;J;111841;Ingrid Wallin;54;K;Trelleborg;Domstolshandläggare, 54 år, Klagstorp;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;15;J;J;I;J;154923;Bo Hansson;56;M;Trelleborg;Entreprenör, 56 år, Stora Jordberga;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;16;J;J;I;J;111842;Gull-Britt Persson;70;K;Trelleborg;Studie och yrkesvägledare, 70 år, Beddingestrand;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Miljöpartiet de gröna;MP;55;S;13105;17;J;J;I;J;111843;Carl Hall Karlström;42;M;Trelleborg;Arkitekt, 42 år, Trelleborg;24000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;1;J;J;I;J;62528;Mikael Rubin;54;M;Trelleborg;oppositionsråd, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;2;J;J;I;J;62529;Lars Mikkelä;65;M;Trelleborg;IT-konsult, Smygehamn;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;3;J;J;I;J;62530;Marianne Ohrlander;69;K;Trelleborg;leg. sjuksköterska, Dalköpinge;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;4;J;J;I;J;62531;Jan Isaksson;67;M;Trelleborg;ingenjör, Smygehamn;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;5;J;J;I;J;62532;Göran Gärtner;60;M;Trelleborg;IT-administratör, Kurland;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;6;J;J;I;J;62533;Håkan Sjöberg;65;M;Trelleborg;byggprojektledare, Stavstensudde;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;7;J;J;I;J;62534;Catharina von Blixen-Finecke;66;K;Trelleborg;f.d. regionråd, Gärdslöv;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;8;J;J;I;J;62535;Ib Rundqvist;27;M;Trelleborg;studerande, Stavstensudde;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;9;J;J;I;J;62536;Otto von Arnold;68;M;Trelleborg;landsbygdsentreprenör, Klagstorp;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;10;J;J;I;J;62537;Fredrik Schlyter;44;M;Trelleborg;projektledare, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;11;J;J;I;J;62538;Roger Persson;61;M;Trelleborg;idrottslärare, Beddingestrand;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;12;J;J;I;J;62539;Jonas Bjunö;45;M;Trelleborg;kurator, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;13;J;J;I;J;62540;Mårten Bönnemark;70;M;Trelleborg;företagare, Böste;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;14;J;J;I;J;62541;Sophie Gärtner;21;K;Trelleborg;destinationschef, Kurland;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;15;J;J;I;J;62542;Gunnar Hedin;63;M;Trelleborg;inspektör, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;16;J;J;I;J;62543;Eric Samuelson;71;M;Trelleborg;civiling., civilek., Beddingestrand;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;17;J;J;I;J;62544;Ann Kajson Carlqvist;55;K;Trelleborg;egen företagare, Solvik;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;18;J;J;I;J;62545;Carl Knutsson;53;M;Trelleborg;ekonomichef, Fjärdingslöv;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;19;J;J;I;J;62546;Britta Brinck-Nehlin;70;K;Trelleborg;fastighetskonsult, Smygehuk;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;20;J;J;I;J;62547;Tim Lundgren;23;M;Trelleborg;studerande, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;21;J;J;I;J;62548;Linda Hägg;41;K;Trelleborg;nätdriftsingenjör, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;22;J;J;I;J;62549;Per Jönsson;45;M;Trelleborg;yrkeslärare, Smygehamn;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;23;J;J;I;J;62550;Nils Svensson;66;M;Trelleborg;lantmästare, V Vemmerlöv;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;24;J;J;I;J;62551;Lars G Olsson;65;M;Trelleborg;egen företagare, Beddingestrand;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;25;J;J;I;J;62552;Inger Persson;68;K;Trelleborg;personlig assistent, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;26;J;J;I;J;62553;Venzel Rosqvist;62;M;Trelleborg;områdeschef, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;27;J;J;I;J;62554;Lars Raneke;72;M;Trelleborg;konsult, Lilla Beddinge;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;28;J;J;I;J;62555;Susana Apostolovska;52;K;Trelleborg;kundassistent, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;29;J;J;I;J;62556;Clas Jönsson;74;M;Trelleborg;frivårdsinspektör, Smygehamn;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;30;J;J;I;J;62557;Bengt Nilmo;76;M;Trelleborg;ingenjör, Smygehamn;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;31;J;J;I;J;62558;Marianne Ahlgren;71;K;Trelleborg;leg. sjuksköterska, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;32;J;J;I;J;62559;Clarence Lindgren;64;M;Trelleborg;major, projektledare, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;33;J;J;I;J;62560;Christel Holmberg;49;K;Trelleborg;kvalitetskontrollant, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;34;J;J;I;J;62561;Sten Andersson;72;M;Trelleborg;ingenjör, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;35;J;J;I;J;62562;Göran Persson;71;M;Trelleborg;f.d. fastighetschef, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;36;J;J;I;J;62563;Mona Persson-Palotai;72;K;Trelleborg;sjukmassör, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;37;J;J;I;J;62564;Gunnar Grafström;66;M;Trelleborg;civilekonom/kapten, Gislövs läge;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;38;J;J;I;J;62565;Anita Lindgren;71;K;Trelleborg;tulltaxerare, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;39;J;J;I;J;62566;Anastasios Manetopoulos;73;M;Trelleborg;rättssociolog, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;40;J;J;I;J;62567;Birgitta Nilsson;73;K;Trelleborg;ekonom, Beddingestrand;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;41;J;J;I;J;62568;Mikael Månsson;32;M;Trelleborg;geograf, Simremarken;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;42;J;J;I;J;62569;Lennart Larsson;63;M;Trelleborg;lantmästare, Norra Åby;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;43;J;J;I;J;62570;Jane Kristerson;73;K;Trelleborg;lärare, Minnesberg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;44;J;J;I;J;62571;Torbjörn Lanker;70;M;Trelleborg;business manager, Beddingestrand;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;45;J;J;I;J;62572;Carl Rubin;18;M;Trelleborg;studerande, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;46;J;J;I;J;62573;Eva Ekström;70;K;Trelleborg;militär trafiklärare, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;47;J;J;I;J;62574;Staffan Svensson;74;M;Trelleborg;f.d. personalchef, Beddingestrand;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;48;J;J;I;J;62575;Lena Bönnemark;68;K;Trelleborg;sekreterare, Böste;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;49;J;J;I;J;62576;Peter Nilsson;50;M;Trelleborg;fastighetsförvaltare, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;50;J;J;I;J;62577;Veronica Rubin;45;K;Trelleborg;gymnasielärare, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;51;J;J;I;J;62578;Joakim Sydvart;53;M;Trelleborg;temleader/distriktschef, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;52;J;J;I;J;62579;Ina Liljeberg;73;K;Trelleborg;ekonom, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;53;J;J;I;J;62580;Leif Malmstein;75;M;Trelleborg;bankrevisor, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;54;J;J;I;J;62581;Marina Thelandersson;81;K;Trelleborg;sekreterare, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;55;J;J;I;J;62582;Maxine Jönsson;32;K;Trelleborg;speditör, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;56;J;J;I;J;62583;Roland Larsson;77;M;Trelleborg;lyftledare, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;57;J;J;I;J;62584;Patrik Adzievski;19;M;Trelleborg;studerande, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;58;J;J;I;J;62585;Marie Sandholm;55;K;Trelleborg;foderkonsulent, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;59;J;J;I;J;62586;Anders Henriksson;50;M;Trelleborg;kvalitets och miljöchef, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;60;J;J;I;J;62587;Stefan Bergström;69;M;Trelleborg;konsult vårdorganisation, Skåre;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;61;J;J;I;J;62588;Emma Carlbom;39;K;Trelleborg;egen företagare, Maglarp;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;62;J;J;I;J;62589;Anita Pettersson;84;K;Trelleborg;lärare, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;63;J;J;I;J;62590;Christina Hilding;69;K;Trelleborg;distriktssköterska, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Moderaterna;M;1;S;12621;64;J;J;I;J;384043;Lars-Olof Flink;70;M;Trelleborg;egen företagare, Trelleborg;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;1;J;J;I;J;127568;Helmuth Petersen;63;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;2;J;J;I;J;127569;Anita Persson;58;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;3;J;J;I;J;127570;Per Klarberg;53;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;4;J;J;I;J;127571;Mathias Andersson;35;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;5;J;J;I;J;127572;Ken Karlsson;63;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;6;J;J;I;J;127573;Bengt Andersson;71;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;7;J;J;I;J;127574;Wictor Olsson;21;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;8;J;J;I;J;127575;Fredrik Karlsson;31;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;9;J;J;I;J;127576;Fredrik Trulsson;35;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;10;J;J;I;J;127577;Mats Andersson;69;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;11;J;J;I;J;127578;Bo Jönsson;66;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;12;J;J;I;J;127579;Ulf Carlsten;73;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;13;J;J;I;J;127580;Thomas Malmqvist;60;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;14;J;J;I;J;127581;Anna Holst;27;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;15;J;J;I;J;127582;Christer Jönsson;69;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;16;J;J;I;J;127583;Håkan Lerstorp;59;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;17;J;J;I;J;127584;Magnus Isgren;43;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;18;J;J;I;J;127585;Tomas Olsson;42;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;19;J;J;I;J;127586;Andrzej Krugly;51;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;20;J;J;I;J;127587;Eva Karlsson;58;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;21;J;J;I;J;127588;Oliver Weiland;25;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;22;J;J;I;J;127589;Dragan Vukoicic;50;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;23;J;J;I;J;127590;Tony Jönsson;41;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;24;J;J;I;J;127591;Christer Leo;46;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;25;J;J;I;J;127592;Manne Olsson;67;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;26;J;J;I;J;127593;Biserka Petersén;60;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;27;J;J;I;J;127594;Jan Holst;56;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;28;J;J;I;J;127595;Lena Andersson;58;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;29;J;J;I;J;127596;Therése Gynnstam;47;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;30;J;J;I;J;127597;Emelie Karlsson;26;K;Lund;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;31;J;J;I;J;127598;Sven Ekström;73;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;32;J;J;I;J;127599;Jesper Mohlin;22;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;33;J;J;I;J;127600;Sonja Persson;83;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;34;J;J;I;J;127601;Ulla Åkerlund;72;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;35;J;J;I;J;127602;Linda Olsson;31;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;S;13301;36;J;J;I;J;127603;Daniel Olin;41;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Sverigedemokraterna;SD;110;;;;J;J;I;N;515948;[inte lämnat förklaring];;;;;0;;N
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;1;J;J;I;J;429189;Anders Ahvander;66;M;Trelleborg;Företagare, Skegrie;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;2;J;J;I;J;429190;Christer Dahlberg;66;M;Trelleborg;Inköp/logistik, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;3;J;J;I;J;429191;Bertil Larsson;68;M;Trelleborg;Företagskonsult, Maglarp;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;4;J;J;I;J;429192;Christian Ottergren;73;M;Trelleborg;Civilingenjör, Gislövs Strandmark;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;5;J;J;I;J;429193;Ann-Marie Flink;66;K;Trelleborg;Bank/ekonom, Gislövs Läge;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;6;J;J;I;J;429194;Sven Tilly;61;M;Trelleborg;Miljöingenjör, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;7;J;J;I;J;429195;Tom Magnusson;65;M;Trelleborg;Företagare, Skåre;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;8;J;J;I;J;429196;Kenneth Lundgren;64;M;Trelleborg;Sjökapten, Skåre;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;9;J;J;I;J;429197;Alf E Christensson;67;M;Trelleborg;Företagare, Gislövs Strandmark;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;10;J;J;I;J;429198;Lars Hemzelius;57;M;Trelleborg;Lärare, Klagstorp;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;11;J;J;I;J;429199;Fredrik Winge;60;M;Trelleborg;Fysiker, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;12;J;J;I;J;429200;Lejnor Jawad;44;M;Trelleborg;Företagare, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;13;J;J;I;J;429201;Rickard Johansson;54;M;Trelleborg;Ingenjör, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;14;J;J;I;J;429202;Rolf Andersson;77;M;Trelleborg;fd Tillsynslärare, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;15;J;J;I;J;429203;Thomas Nehlin;54;M;Trelleborg;Skattehandläggare, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;16;J;J;I;J;429204;Bo Vejmarker;66;M;Trelleborg;Företagare, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;17;J;J;I;J;429205;Marianne Bengtsson;61;K;Trelleborg;Musikadjunkt, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;18;J;J;I;J;429206;Joakim Hillman Szabo;49;M;Trelleborg;Botaniker, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;19;J;J;I;J;429207;Annika Williamsson;54;K;Trelleborg;Utvecklingskonsult, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;20;J;J;I;J;429208;Mikael Areskoug;58;M;Trelleborg;Enhetschef/VA, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;21;J;J;I;J;429209;Eilert Andersson;68;M;Trelleborg;Företagare, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;22;J;J;I;J;429210;Göte Nilsson;81;M;Trelleborg;Miljötekniker, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;23;J;J;I;J;429211;Gisela Ahvander;70;K;Trelleborg;Redaktionssekreterare, Skegrie;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;24;J;J;I;J;429212;Karin Munthe;56;K;Trelleborg;Lärare, Skåre;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;25;J;J;I;J;429213;Mikael Malmqvist;52;M;Trelleborg;Trafikledare/Chaufför, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;26;J;J;I;J;429214;Lena Göransson;73;K;Trelleborg;Advokat, Gislövs Strandmark;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;27;J;J;I;J;429215;Peter Ingvarsson;56;M;Trelleborg;Musiker, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;28;J;J;I;J;429216;Åsa Persson;56;K;Trelleborg;Ekonom, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;29;J;J;I;J;429217;Anders Hagberg;58;M;Trelleborg;Sektionschef, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;30;J;J;I;J;429218;Roland Hallengren;67;M;Trelleborg;Affärsbiträde, Dalköpinge;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;31;J;J;I;J;429219;Sven-Ingvar Kristersson;51;M;Trelleborg;Chaufför, Gislövs Strandby;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;32;J;J;I;J;429220;Birgitta Nogeman;67;K;Trelleborg;Tandläkare, Gylle;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;33;J;J;I;J;429221;Leif Kristoffersson;73;M;Trelleborg;Pensionär, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;34;J;J;I;J;429222;Lilliane Andersson;64;K;Trelleborg;Smyckedesigner, Gislövs Strandmark;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;35;J;J;I;J;429223;Mona Svärd;68;K;Trelleborg;Laboratorieingenjör, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;36;J;J;I;J;429224;Adnan Pajic;36;M;Trelleborg;Ingenjör, Trelleborg;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Söderslättspartiet;SÖS;1006;S;15254;37;J;J;I;J;429225;Sven-Ingvar Göransson;76;M;Trelleborg;Civilekonom, Gislövs Strandmark;100000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;TRYGGHETSPARTIET;TRP;1309;S;15262;1;J;J;I;J;431317;Fia Nilsson;45;K;Trelleborg;Studerande;16000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;TRYGGHETSPARTIET;TRP;1309;S;15262;2;J;J;I;J;431292;Lisbeth Nilsson;66;K;Trelleborg;pensionär;16000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;TRYGGHETSPARTIET;TRP;1309;S;15262;3;J;J;I;J;431324;Malin Palmqvist;45;K;Trelleborg;Cafévärd;16000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;TRYGGHETSPARTIET;TRP;1309;S;15262;4;J;J;I;J;431313;My Larsson;30;K;Trelleborg;vårdbiträde;16000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;1;J;J;I;J;124653;Mats Sjölin;64;M;Trelleborg;ekonom, Trelleborg;64000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;2;J;J;I;J;124654;Kersti Engström;74;K;Trelleborg;socionom, Trelleborg;64000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;3;J;J;I;J;124655;Emmy Sartell;28;K;Trelleborg;statsvetare, Trelleborg;64000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;4;J;J;I;J;124656;Bo Nylander;66;M;Trelleborg;kemist, Grönby;64000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;5;J;J;I;J;124657;Eva Lindstedt;55;K;Trelleborg;undersköterska, Beddingestrand;64000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;6;J;J;I;J;124658;Susanne Möller;56;K;Trelleborg;arbetsterapeut, Anderslöv;64000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;7;J;J;I;J;124659;Sofi Magableh;35;K;Trelleborg;medicinsk sekreterare, Trelleborg;64000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;8;J;J;I;J;124660;Debora Svensson;27;K;Trelleborg;konstnär, Anderslöv;64000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;9;J;J;I;J;124661;Rolf Nilsson;67;M;Trelleborg;lärare, Södra Åby;64000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;10;J;J;I;J;124662;Vera Pedersen;67;K;Trelleborg;hushållslärare, Anderslöv;64000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;11;J;J;I;J;124663;Linda Nilsson;41;K;Trelleborg;kurator, Anderslöv;64000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;12;J;J;I;J;124664;Peter Forssell;60;M;Trelleborg;pensionär, Trelleborg;64000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;13;J;J;I;J;124665;Berit Sjölin;63;K;Trelleborg;förskollärare, Trelleborg;64000;;J
+K;1287;Trelleborg;01;Trelleborgs  Första, Västra-Norra;Vänsterpartiet;V;5;S;13244;14;J;J;I;J;124666;Christian Gisselquist;73;M;Trelleborg;bibliotekarie, Trelleborg;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;1;J;J;I;J;64257;Torbjörn Karlsson;53;M;Trelleborg;Kommunalråd, 53 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;2;J;J;I;J;28167;Anna Nordstrandh;44;K;Trelleborg;Avgiftshandläggare, 44 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;3;J;J;I;J;64259;Sven Lindkvist;67;M;Trelleborg;F.d. Ombudsman, 67 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;4;J;J;I;J;64260;Veronica Larsson;37;K;Trelleborg;Turismutvecklare, 37 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;5;J;J;I;J;64261;Johnny Nilsson;63;M;Trelleborg;Metallarbetare, 63 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;6;J;J;I;J;28155;Marianne Pettersson;59;K;Trelleborg;Undersköterska, Riksdagsledamot, 59 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;7;J;J;I;J;64263;Andreas Persson;37;M;Trelleborg;Produktionsledare, 37 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;8;J;J;I;J;64264;Birgitta Lanér Sjöström;68;K;Trelleborg;Fil. Mag., 68 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;9;J;J;I;J;64265;Ismet Dedic;53;M;Trelleborg;Kontorsvaktmästare, 53 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;10;J;J;I;J;64266;Eva Höckert;44;K;Trelleborg;Grundskolelärare, 44 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;11;J;J;I;J;54752;Lennart Höckert;52;M;Trelleborg;Verksamhetsutvecklare, 52 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;12;J;J;I;J;54763;Layal Chidiac;33;K;Trelleborg;Arbetsförmedlare, 33 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;13;J;J;I;J;54760;Jan Lundgren;69;M;Trelleborg;Konsult, 69 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;14;J;J;I;J;64270;Cecilia Dahl Andersson;46;K;Trelleborg;Folkbildare, 46 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;15;J;J;I;J;64271;Paul Lövdahl;45;M;Trelleborg;Industriarbetare, 45 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;16;J;J;I;J;64272;Lizian Kyreus;75;K;Trelleborg;Förskolelärare, 75 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;17;J;J;I;J;54756;Hans Björklund;53;M;Trelleborg;Byggnadssnickare, 53 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;18;J;J;I;J;64274;Anitha Lata;73;K;Trelleborg;Socionom, 73 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;19;J;J;I;J;28170;Thomas Westman;48;M;Trelleborg;Ombudsman, 48 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;20;J;J;I;J;64276;Gerd Klein;75;K;Trelleborg;Grundskolelärare, 75 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;21;J;J;I;J;64277;Linus Pernum;37;M;Trelleborg;Projektledare, 37 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;22;J;J;I;J;54765;Hanna Skånberg;34;K;Trelleborg;Personlig Assistent, 34 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;23;J;J;I;J;64279;Stefan Berglinden;68;M;Trelleborg;Lärare, 68 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;24;J;J;I;J;64280;Kerstin Johansson;63;K;Trelleborg;Skolsköterska, 63 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;25;J;J;I;J;64281;Anders Yngve;67;M;Trelleborg;Svetsare, 67 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;26;J;J;I;J;64282;Monica Nordbladh;70;K;Trelleborg;Affärsbiträde, 70 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;27;J;J;I;J;54764;Anders Söderberg;64;M;Trelleborg;F.d. Järnvägstjänsteman, 64 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;28;J;J;I;J;64284;Ann Lindqvist;65;K;Trelleborg;F.d. Arbetsförmedlingschef, 65 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;29;J;J;I;J;64285;Kenneth Johansson;68;M;Trelleborg;Pensionär, 68 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;30;J;J;I;J;64286;Felicia Nordstrandh;21;K;Trelleborg;Student, 21 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;31;J;J;I;J;64287;John Thörnlund;39;M;Trelleborg;Verksamhetsansvarig, 39 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;32;J;J;I;J;64288;Sini Ala;30;K;Trelleborg;Undersköterska, 30 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;33;J;J;I;J;64289;Sten Björk;77;M;Trelleborg;Sjöofficer, 77 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;34;J;J;I;J;64290;Ann-Christin Dahlgren;62;K;Trelleborg;Undersköterska, 62 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;35;J;J;I;J;64291;Kouder Mere;37;M;Trelleborg;Elektriker, 37 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;36;J;J;I;J;64292;Vita Åstrand;69;K;Trelleborg;Pensionär, 69 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;37;J;J;I;J;64293;Göran Hansson;56;M;Trelleborg;Industriarbetare, 56 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;38;J;J;I;J;429488;Yvonne Svensson;67;K;Trelleborg;Pensionär, 67 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;39;J;J;I;J;64295;Robert Horvath;36;M;Trelleborg;Ombudsman, 37 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;40;J;J;I;J;64296;Kerstin Pernum;34;K;Trelleborg;Förskollärare, 34 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;41;J;J;I;J;64297;Jan Ahlkvist;71;M;Trelleborg;Pensionär, 71 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;42;J;J;I;J;64298;Kerstin Zetterman;70;K;Trelleborg;Pensionär, 70 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;43;J;J;I;J;64299;Dennis Ispiroglu;48;M;Trelleborg;Socialpedagog, 48 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;44;J;J;I;J;64300;Zabia Alhamwi;42;K;Trelleborg;Veterinär, 42 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;45;J;J;I;J;64301;Malik Sesay;47;M;Trelleborg;Enhetschef, 46 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;46;J;J;I;J;64302;Anita Widerberg;72;K;Trelleborg;Pensionär, 72 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;47;J;J;I;J;64303;Geza Maté;77;M;Trelleborg;Pensionär, 77 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;48;J;J;I;J;64304;Anitha Ljung;59;K;Trelleborg;Samordnare, 59 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;49;J;J;I;J;64305;Robert Borg;65;M;Trelleborg;Pensionär, 66 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;50;J;J;I;J;64306;Jalila Polus;58;K;Trelleborg;Modersmålslärare, 58 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;51;J;J;I;J;64307;Alf Rosengren;66;M;Trelleborg;Nämndeman, 66 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;52;J;J;I;J;64308;Emelie Elwing;38;K;Trelleborg;Leg. Sjuksköterska, 38 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;53;J;J;I;J;64309;Rolf Almroth;55;M;Trelleborg;Administratör, 55 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;54;J;J;I;J;64310;Jelena Simic;66;K;Trelleborg;Pensionär, 66 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;55;J;J;I;J;64311;Roger Thell;50;M;Trelleborg;Studerande, 50 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;56;J;J;I;J;64312;Yvonne Borg;59;K;Trelleborg;Verksamhetsansvarig, 59 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12649;57;J;J;I;J;64313;Anna Andersson;39;K;Trelleborg;Socionom, 39 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;1;J;J;I;J;35614;Patrik Holmberg;51;M;Trelleborg;Socialpedagog, Trelleborg, 51 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;2;J;J;I;J;79569;Mariann Sjöström;51;K;Trelleborg;Redovisningskonsult, Östra Värlinge, 51 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;3;J;J;I;J;37083;Mats Sjöslätt;46;M;Trelleborg;Försäkringstjänsteman, Stora Beddinge, 46 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;4;J;J;I;J;37077;Ola Olsson;30;M;Trelleborg;Ekonom/controller, Trelleborg, 30 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;5;J;J;I;J;79572;Mette Hansson;29;K;Trelleborg;Specialistsjuksköterska, Fjärdingslöv, 29 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;6;J;J;I;J;79573;Pernilla Linde;39;K;Trelleborg;Landskapsingenjör, Fuglie, 39 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;7;J;J;I;J;79574;Christina S Björklund;57;K;Trelleborg;Aukt. redovisningskonsult, Källstorp, 57 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;8;J;J;I;J;37089;Johanna Sjögren;35;K;Trelleborg;Lärare, Stävesjö, 57 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;9;J;J;I;J;37098;Philip Andersson;27;M;Trelleborg;Teamleader, Trelleborg, 27 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;10;J;J;I;J;79577;Mats Ingvarsson;55;M;Trelleborg;Distriktsrepresentant, Smygehamn, 55 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;11;J;J;I;J;79578;Kenneth Nilsson;61;M;Trelleborg;Egenföretagare, Gislöv Läge, 61 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;12;J;J;I;J;79579;Lars-Ingvar Andersson;59;M;Trelleborg;Lantmästare, Maglarp, 59 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;13;J;J;I;J;79580;Leif Sjögren;70;M;Trelleborg;Pensionär, Fuglie, 70 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;14;J;J;I;J;79581;Olof Rempe;67;M;Trelleborg;Lantmästare, Gylle, 67 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;15;J;J;I;J;39309;Birgitta Sjögren;70;K;Trelleborg;Kyrkokamrer, Fuglie, 70 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;16;J;J;I;J;79583;Rolf Stridsberg;72;M;Trelleborg;Entreprenör, Önnarp, 72 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;17;J;J;I;J;39316;Bo Andersson;71;M;Trelleborg;Lantbrukare, Slågarp, 72 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;18;J;J;I;J;79585;Maj-Lis Fredriksson;52;K;Trelleborg;Undersköterska, Beddingestrand, 52 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;19;J;J;I;J;79586;Ola Palmblad;49;M;Trelleborg;Byggprojektledare, Gislöv Läge, 49 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;20;J;J;I;J;79587;Andreas Andersson;39;M;Trelleborg;Sjökapten, Simmermarken, 39 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;21;J;J;I;J;79588;Anna Wild;51;K;Trelleborg;Marknadsförare, Smygehamn, 51 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;22;J;J;I;J;79589;Christel Sund;68;K;Trelleborg;Nämndeman, Trelleborg, 68 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;23;J;J;I;J;79590;Kerstin Gahne;85;K;Trelleborg;Företagare, Anderslöv, 85 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Centerpartiet;C;4;S;12902;24;J;J;I;J;79591;Marie Hammar;58;K;Trelleborg;Lärare, Grönby, 58 år;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Djurens parti;DjuP;1136;S;15305;1;J;J;I;J;448841;Andreas Ekfrost;39;M;Trelleborg;Trelleborg, vaktmästare, 39 år;2000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Klassiskt liberala partiet;KLP;638;;;;N;J;J;I;515112;Palmqvist, Daniel;44;M;Trelleborg;;0;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kommunistiska Partiet;K;471;S;14184;1;J;J;I;J;244995;Dennis Andersson;42;M;Trelleborg;Byggnadsarbetare;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kommunistiska Partiet;K;471;S;14184;2;J;J;I;J;244996;Valeria Holm;46;K;Trelleborg;Målare;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kommunistiska Partiet;K;471;S;14184;3;J;J;I;J;244997;Krister Rehn;56;M;Trelleborg;Kock;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kommunistiska Partiet;K;471;S;14184;4;J;J;I;J;244998;Daniel Larsson;36;M;Trelleborg;IT-tekninker;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kommunistiska Partiet;K;471;S;14184;5;J;J;I;J;244999;Torsten Nilsson;88;M;Trelleborg;Pensionär;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kommunistiska Partiet;K;471;S;14184;6;J;J;I;J;245000;Birgitte Jensen;52;K;Trelleborg;Kontorsassistent;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kommunistiska Partiet;K;471;S;14184;7;J;J;I;J;245001;Roland Lindahl;67;M;Trelleborg;Pensionär;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kommunistiska Partiet;K;471;S;14184;8;J;J;I;J;245002;Kaj Mortensen;67;M;Trelleborg;Pensionär;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kommunistiska Partiet;K;471;S;14184;9;J;J;I;J;245003;Thomas Holm;45;M;Trelleborg;Byggnadsarbetare;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;1;J;J;I;J;32066;Erik Lundström;50;M;Trelleborg;VD;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;2;J;J;I;J;32067;Hans Norén;71;M;Trelleborg;Tulltjänstman;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;3;J;J;I;J;31855;Karin Jönsson;69;K;Trelleborg;Studie- och yrkesvägledare;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;4;J;J;I;J;32069;Thomas Nilsson;56;M;Trelleborg;Brevbärare;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;5;J;J;I;J;32070;Estrid Nimåker;62;K;Trelleborg;Ekonomiassistent;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;6;J;J;I;J;32071;Mats Svensson;58;M;Trelleborg;Säljansvarig;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;7;J;J;I;J;32072;Monica Edström;75;K;Trelleborg;Leg. Sjuksköterska;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;8;J;J;I;J;32073;Birgitta Svensson;80;K;Trelleborg;Sekreterare;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;9;J;J;I;J;32074;Joakim Freiman;49;M;Trelleborg;Pastor;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;10;J;J;I;J;32075;Åke Svensson;82;M;Trelleborg;Ämneslärare;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;11;J;J;I;J;32076;Erika Kuusenjärvi;38;K;Trelleborg;Optical dispenser;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;12;J;J;I;J;32077;Johnny Svensson;72;M;Trelleborg;Säljare;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;13;J;J;I;J;32078;Ann Lundström;41;K;Trelleborg;Egenföretagare;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;14;J;J;I;J;32079;Mark Huisman;58;M;Trelleborg;Landskapsarkitekt;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;15;J;J;I;J;32080;Bengt Larsson;63;M;Trelleborg;Enhetschef;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;16;J;J;I;J;32081;Christina Nilsson;65;K;Trelleborg;Förskollärare;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;17;J;J;I;J;32082;Ingmar Aronson;48;M;Trelleborg;Pastor;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;18;J;J;I;J;32083;Fredrik Jönsson;46;M;Trelleborg;Enhetschef;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;19;J;J;I;J;32084;Daniel Svensson;35;M;Trelleborg;Trafikledare;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;20;J;J;I;J;32085;Christer Nelander;69;M;Trelleborg;Speditör;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;S;12216;21;J;J;I;J;32086;Tina Aronsson;45;K;Trelleborg;Pedagog;36000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Kristdemokraterna;KD;68;;;;J;J;I;N;515954;[inte lämnat förklaring];;;;;0;;N
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;1;J;J;I;J;163003;Henrik Silfverstolpe;51;M;Trelleborg;Civilingenjör, Äspö, 51 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;2;J;J;I;J;163004;Inger Persson;67;K;Trelleborg;Specialpedagog, Västra Alstad, 67 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;3;J;J;I;J;163005;Kristoffer Lindstrii;20;M;Trelleborg;Studerande, Trelleborg, 20 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;4;J;J;I;J;163006;Lotta Belstad;68;K;Trelleborg;Ekonom, Klagstorp, 68 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;5;J;J;I;J;163007;Hans Jeppsson Berg;51;M;Trelleborg;Skolledare, Trelleborg, 51 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;6;J;J;I;J;163008;Jonas Ralving;43;M;Trelleborg;Chaufför, Anderslöv, 43 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;7;J;J;I;J;163009;Ylva Ekstrand;71;K;Trelleborg;Gymnasielärare, Stavstensudde, 71 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;8;J;J;I;J;163010;Emma Lindstrii;39;K;Trelleborg;Civilekonom, Trelleborg, 39 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;9;J;J;I;J;163011;Oskar Spetz;20;M;Trelleborg;Studerande, Simremarken, 20 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;10;J;J;I;J;163012;Ann-Christine Seehusen;72;K;Trelleborg;Kriminalvårdare, Gislövs läge, 72 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;11;J;J;I;J;163013;Sverrir Valgeirsson;41;M;Trelleborg;Civilingenjör, Smygehamn, 41 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;12;J;J;I;J;163014;Gustaf Centervall;66;M;Trelleborg;Präst, Trelleborg, 66 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;13;J;J;I;J;163015;Henrik Antonio Monés;45;M;Trelleborg;Administratör, Västra Alstad, 45 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;14;J;J;I;J;163016;Nils Christensson;21;M;Trelleborg;Student, Alstad, 21 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;15;J;J;I;J;163017;Tina Järvenpää;42;K;Trelleborg;Leg. Arbetsterapeut, Trelleborg, 42 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;16;J;J;I;J;163018;Bert Ekstrand;74;M;Trelleborg;Skadeförebyggare, Trelleborg, 74 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;17;J;J;I;J;163019;Margaretha Blennhede;76;K;Trelleborg;Ekonom, Trelleborg, 76 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;18;J;J;I;J;163020;Olof Blennhede;77;M;Trelleborg;Butiksanställd, Trelleborg, 77 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;19;J;J;I;J;163021;Klas Regland;68;M;Trelleborg;Ingenjör, Fru Alstad, 68 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;20;J;J;I;J;163022;Carina Nertlinge;40;K;Trelleborg;Civilekonom, Trelleborg, 40 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Liberalerna (tidigare Folkpartiet);L;3;S;13525;21;J;J;I;J;163023;Timmy Hulst;19;M;Trelleborg;Trelleborg, 19 år;53000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Medborgerlig Samling;MED;1296;S;13441;1;J;J;I;J;150664;Fredrik Körner;50;M;Trelleborg;50, institutionsmäklare, Gylle;10000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Medborgerlig Samling;MED;1296;S;13441;2;J;J;I;J;150665;Dejan Milivojevic;44;M;Trelleborg;44, statlig tjänsteman, Skegrie;10000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Medborgerlig Samling;MED;1296;S;13441;3;J;J;I;J;150666;Jessica Lilja;46;K;Trelleborg;46, sjuksköterska, Skegrie;10000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Medborgerlig Samling;MED;1296;S;13441;4;J;J;I;J;150667;Jonas Lilja;45;M;Trelleborg;44, IT-chef, Skegrie;10000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Medborgerlig Samling;MED;1296;S;13441;5;J;J;I;J;150668;Lars Andersson;69;M;Trelleborg;69, pensionär, Trelleborg;10000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;1;J;J;I;J;20742;Emil Samnegård;37;M;Trelleborg;Politisk sekreterare, 37 år, Gylle;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;2;J;J;I;J;111829;Maria Wilhelms;60;K;Trelleborg;Fairtradesamordnare, 60 år, Trelleborg;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;3;J;J;I;J;21522;Tomas Tigerschiöld;51;M;Trelleborg;Arbetare, 51 år, Trelleborg;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;4;J;J;I;J;21523;Salomé San Miguel Martínez;45;K;Trelleborg;Civilingenjör, 45 år, Trelleborg;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;5;J;J;I;J;21519;Anne-Sophie Samnegård;30;K;Trelleborg;Sjuksköterskestudent, 30 år, Gylle;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;6;J;J;I;J;20779;Johannes Book;41;M;Trelleborg;Egen företagare, 41 år, Trelleborg;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;7;J;J;I;J;111834;Christine Stafström;72;K;Trelleborg;Socionom, 72 år, Grönby;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;8;J;J;I;J;111835;Simon Yngve;36;M;Trelleborg;Civilingenjör, 36 år, Trelleborg;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;9;J;J;I;J;20798;Aina Andersson;68;K;Trelleborg;F.d. lärare, 68 år, Alstad;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;10;J;J;I;J;111837;Rolf Olsson;76;M;Trelleborg;Vingårdsarbetare, 76 år, Anderslöv;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;11;J;J;I;J;111838;Britten Morän Jystrand;75;K;Trelleborg;Pensionär, 75 år, Anderslöv;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;12;J;J;I;J;111839;Kjell Forsberg;73;M;Trelleborg;Pensionär, 73 år, Trelleborg;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;13;J;J;I;J;111840;Kai Regnell;76;M;Trelleborg;Pensionerad lärare, 76 år, Trelleborg;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;14;J;J;I;J;111841;Ingrid Wallin;54;K;Trelleborg;Domstolshandläggare, 54 år, Klagstorp;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;15;J;J;I;J;154923;Bo Hansson;56;M;Trelleborg;Entreprenör, 56 år, Stora Jordberga;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;16;J;J;I;J;111842;Gull-Britt Persson;70;K;Trelleborg;Studie och yrkesvägledare, 70 år, Beddingestrand;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Miljöpartiet de gröna;MP;55;S;13105;17;J;J;I;J;111843;Carl Hall Karlström;42;M;Trelleborg;Arkitekt, 42 år, Trelleborg;24000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;1;J;J;I;J;62528;Mikael Rubin;54;M;Trelleborg;oppositionsråd, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;2;J;J;I;J;62529;Lars Mikkelä;65;M;Trelleborg;IT-konsult, Smygehamn;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;3;J;J;I;J;62530;Marianne Ohrlander;69;K;Trelleborg;leg. sjuksköterska, Dalköpinge;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;4;J;J;I;J;62531;Jan Isaksson;67;M;Trelleborg;ingenjör, Smygehamn;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;5;J;J;I;J;62532;Göran Gärtner;60;M;Trelleborg;IT-administratör, Kurland;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;6;J;J;I;J;62533;Håkan Sjöberg;65;M;Trelleborg;byggprojektledare, Stavstensudde;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;7;J;J;I;J;62534;Catharina von Blixen-Finecke;66;K;Trelleborg;f.d. regionråd, Gärdslöv;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;8;J;J;I;J;62535;Ib Rundqvist;27;M;Trelleborg;studerande, Stavstensudde;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;9;J;J;I;J;62536;Otto von Arnold;68;M;Trelleborg;landsbygdsentreprenör, Klagstorp;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;10;J;J;I;J;62537;Fredrik Schlyter;44;M;Trelleborg;projektledare, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;11;J;J;I;J;62538;Roger Persson;61;M;Trelleborg;idrottslärare, Beddingestrand;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;12;J;J;I;J;62539;Jonas Bjunö;45;M;Trelleborg;kurator, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;13;J;J;I;J;62540;Mårten Bönnemark;70;M;Trelleborg;företagare, Böste;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;14;J;J;I;J;62541;Sophie Gärtner;21;K;Trelleborg;destinationschef, Kurland;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;15;J;J;I;J;62542;Gunnar Hedin;63;M;Trelleborg;inspektör, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;16;J;J;I;J;62543;Eric Samuelson;71;M;Trelleborg;civiling., civilek., Beddingestrand;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;17;J;J;I;J;62544;Ann Kajson Carlqvist;55;K;Trelleborg;egen företagare, Solvik;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;18;J;J;I;J;62545;Carl Knutsson;53;M;Trelleborg;ekonomichef, Fjärdingslöv;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;19;J;J;I;J;62546;Britta Brinck-Nehlin;70;K;Trelleborg;fastighetskonsult, Smygehuk;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;20;J;J;I;J;62547;Tim Lundgren;23;M;Trelleborg;studerande, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;21;J;J;I;J;62548;Linda Hägg;41;K;Trelleborg;nätdriftsingenjör, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;22;J;J;I;J;62549;Per Jönsson;45;M;Trelleborg;yrkeslärare, Smygehamn;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;23;J;J;I;J;62550;Nils Svensson;66;M;Trelleborg;lantmästare, V Vemmerlöv;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;24;J;J;I;J;62551;Lars G Olsson;65;M;Trelleborg;egen företagare, Beddingestrand;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;25;J;J;I;J;62552;Inger Persson;68;K;Trelleborg;personlig assistent, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;26;J;J;I;J;62553;Venzel Rosqvist;62;M;Trelleborg;områdeschef, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;27;J;J;I;J;62554;Lars Raneke;72;M;Trelleborg;konsult, Lilla Beddinge;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;28;J;J;I;J;62555;Susana Apostolovska;52;K;Trelleborg;kundassistent, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;29;J;J;I;J;62556;Clas Jönsson;74;M;Trelleborg;frivårdsinspektör, Smygehamn;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;30;J;J;I;J;62557;Bengt Nilmo;76;M;Trelleborg;ingenjör, Smygehamn;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;31;J;J;I;J;62558;Marianne Ahlgren;71;K;Trelleborg;leg. sjuksköterska, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;32;J;J;I;J;62559;Clarence Lindgren;64;M;Trelleborg;major, projektledare, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;33;J;J;I;J;62560;Christel Holmberg;49;K;Trelleborg;kvalitetskontrollant, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;34;J;J;I;J;62561;Sten Andersson;72;M;Trelleborg;ingenjör, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;35;J;J;I;J;62562;Göran Persson;71;M;Trelleborg;f.d. fastighetschef, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;36;J;J;I;J;62563;Mona Persson-Palotai;72;K;Trelleborg;sjukmassör, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;37;J;J;I;J;62564;Gunnar Grafström;66;M;Trelleborg;civilekonom/kapten, Gislövs läge;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;38;J;J;I;J;62565;Anita Lindgren;71;K;Trelleborg;tulltaxerare, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;39;J;J;I;J;62566;Anastasios Manetopoulos;73;M;Trelleborg;rättssociolog, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;40;J;J;I;J;62567;Birgitta Nilsson;73;K;Trelleborg;ekonom, Beddingestrand;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;41;J;J;I;J;62568;Mikael Månsson;32;M;Trelleborg;geograf, Simremarken;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;42;J;J;I;J;62569;Lennart Larsson;63;M;Trelleborg;lantmästare, Norra Åby;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;43;J;J;I;J;62570;Jane Kristerson;73;K;Trelleborg;lärare, Minnesberg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;44;J;J;I;J;62571;Torbjörn Lanker;70;M;Trelleborg;business manager, Beddingestrand;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;45;J;J;I;J;62572;Carl Rubin;18;M;Trelleborg;studerande, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;46;J;J;I;J;62573;Eva Ekström;70;K;Trelleborg;militär trafiklärare, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;47;J;J;I;J;62574;Staffan Svensson;74;M;Trelleborg;f.d. personalchef, Beddingestrand;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;48;J;J;I;J;62575;Lena Bönnemark;68;K;Trelleborg;sekreterare, Böste;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;49;J;J;I;J;62576;Peter Nilsson;50;M;Trelleborg;fastighetsförvaltare, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;50;J;J;I;J;62577;Veronica Rubin;45;K;Trelleborg;gymnasielärare, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;51;J;J;I;J;62578;Joakim Sydvart;53;M;Trelleborg;temleader/distriktschef, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;52;J;J;I;J;62579;Ina Liljeberg;73;K;Trelleborg;ekonom, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;53;J;J;I;J;62580;Leif Malmstein;75;M;Trelleborg;bankrevisor, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;54;J;J;I;J;62581;Marina Thelandersson;81;K;Trelleborg;sekreterare, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;55;J;J;I;J;62582;Maxine Jönsson;32;K;Trelleborg;speditör, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;56;J;J;I;J;62583;Roland Larsson;77;M;Trelleborg;lyftledare, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;57;J;J;I;J;62584;Patrik Adzievski;19;M;Trelleborg;studerande, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;58;J;J;I;J;62585;Marie Sandholm;55;K;Trelleborg;foderkonsulent, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;59;J;J;I;J;62586;Anders Henriksson;50;M;Trelleborg;kvalitets och miljöchef, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;60;J;J;I;J;62587;Stefan Bergström;69;M;Trelleborg;konsult vårdorganisation, Skåre;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;61;J;J;I;J;62588;Emma Carlbom;39;K;Trelleborg;egen företagare, Maglarp;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;62;J;J;I;J;62589;Anita Pettersson;84;K;Trelleborg;lärare, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;63;J;J;I;J;62590;Christina Hilding;69;K;Trelleborg;distriktssköterska, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Moderaterna;M;1;S;12621;64;J;J;I;J;384043;Lars-Olof Flink;70;M;Trelleborg;egen företagare, Trelleborg;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;1;J;J;I;J;127568;Helmuth Petersen;63;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;2;J;J;I;J;127569;Anita Persson;58;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;3;J;J;I;J;127570;Per Klarberg;53;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;4;J;J;I;J;127571;Mathias Andersson;35;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;5;J;J;I;J;127572;Ken Karlsson;63;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;6;J;J;I;J;127573;Bengt Andersson;71;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;7;J;J;I;J;127574;Wictor Olsson;21;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;8;J;J;I;J;127575;Fredrik Karlsson;31;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;9;J;J;I;J;127576;Fredrik Trulsson;35;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;10;J;J;I;J;127577;Mats Andersson;69;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;11;J;J;I;J;127578;Bo Jönsson;66;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;12;J;J;I;J;127579;Ulf Carlsten;73;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;13;J;J;I;J;127580;Thomas Malmqvist;60;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;14;J;J;I;J;127581;Anna Holst;27;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;15;J;J;I;J;127582;Christer Jönsson;69;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;16;J;J;I;J;127583;Håkan Lerstorp;59;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;17;J;J;I;J;127584;Magnus Isgren;43;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;18;J;J;I;J;127585;Tomas Olsson;42;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;19;J;J;I;J;127586;Andrzej Krugly;51;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;20;J;J;I;J;127587;Eva Karlsson;58;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;21;J;J;I;J;127588;Oliver Weiland;25;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;22;J;J;I;J;127589;Dragan Vukoicic;50;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;23;J;J;I;J;127590;Tony Jönsson;41;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;24;J;J;I;J;127591;Christer Leo;46;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;25;J;J;I;J;127592;Manne Olsson;67;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;26;J;J;I;J;127593;Biserka Petersén;60;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;27;J;J;I;J;127594;Jan Holst;56;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;28;J;J;I;J;127595;Lena Andersson;58;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;29;J;J;I;J;127596;Therése Gynnstam;47;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;30;J;J;I;J;127597;Emelie Karlsson;26;K;Lund;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;31;J;J;I;J;127598;Sven Ekström;73;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;32;J;J;I;J;127599;Jesper Mohlin;22;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;33;J;J;I;J;127600;Sonja Persson;83;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;34;J;J;I;J;127601;Ulla Åkerlund;72;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;35;J;J;I;J;127602;Linda Olsson;31;K;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;S;13301;36;J;J;I;J;127603;Daniel Olin;41;M;Trelleborg;;105000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Sverigedemokraterna;SD;110;;;;J;J;I;N;515948;[inte lämnat förklaring];;;;;0;;N
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;1;J;J;I;J;429189;Anders Ahvander;66;M;Trelleborg;Företagare, Skegrie;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;2;J;J;I;J;429190;Christer Dahlberg;66;M;Trelleborg;Inköp/logistik, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;3;J;J;I;J;429191;Bertil Larsson;68;M;Trelleborg;Företagskonsult, Maglarp;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;4;J;J;I;J;429192;Christian Ottergren;73;M;Trelleborg;Civilingenjör, Gislövs Strandmark;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;5;J;J;I;J;429193;Ann-Marie Flink;66;K;Trelleborg;Bank/ekonom, Gislövs Läge;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;6;J;J;I;J;429194;Sven Tilly;61;M;Trelleborg;Miljöingenjör, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;7;J;J;I;J;429195;Tom Magnusson;65;M;Trelleborg;Företagare, Skåre;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;8;J;J;I;J;429196;Kenneth Lundgren;64;M;Trelleborg;Sjökapten, Skåre;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;9;J;J;I;J;429197;Alf E Christensson;67;M;Trelleborg;Företagare, Gislövs Strandmark;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;10;J;J;I;J;429198;Lars Hemzelius;57;M;Trelleborg;Lärare, Klagstorp;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;11;J;J;I;J;429199;Fredrik Winge;60;M;Trelleborg;Fysiker, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;12;J;J;I;J;429200;Lejnor Jawad;44;M;Trelleborg;Företagare, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;13;J;J;I;J;429201;Rickard Johansson;54;M;Trelleborg;Ingenjör, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;14;J;J;I;J;429202;Rolf Andersson;77;M;Trelleborg;fd Tillsynslärare, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;15;J;J;I;J;429203;Thomas Nehlin;54;M;Trelleborg;Skattehandläggare, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;16;J;J;I;J;429204;Bo Vejmarker;66;M;Trelleborg;Företagare, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;17;J;J;I;J;429205;Marianne Bengtsson;61;K;Trelleborg;Musikadjunkt, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;18;J;J;I;J;429206;Joakim Hillman Szabo;49;M;Trelleborg;Botaniker, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;19;J;J;I;J;429207;Annika Williamsson;54;K;Trelleborg;Utvecklingskonsult, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;20;J;J;I;J;429208;Mikael Areskoug;58;M;Trelleborg;Enhetschef/VA, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;21;J;J;I;J;429209;Eilert Andersson;68;M;Trelleborg;Företagare, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;22;J;J;I;J;429210;Göte Nilsson;81;M;Trelleborg;Miljötekniker, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;23;J;J;I;J;429211;Gisela Ahvander;70;K;Trelleborg;Redaktionssekreterare, Skegrie;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;24;J;J;I;J;429212;Karin Munthe;56;K;Trelleborg;Lärare, Skåre;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;25;J;J;I;J;429213;Mikael Malmqvist;52;M;Trelleborg;Trafikledare/Chaufför, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;26;J;J;I;J;429214;Lena Göransson;73;K;Trelleborg;Advokat, Gislövs Strandmark;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;27;J;J;I;J;429215;Peter Ingvarsson;56;M;Trelleborg;Musiker, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;28;J;J;I;J;429216;Åsa Persson;56;K;Trelleborg;Ekonom, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;29;J;J;I;J;429217;Anders Hagberg;58;M;Trelleborg;Sektionschef, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;30;J;J;I;J;429218;Roland Hallengren;67;M;Trelleborg;Affärsbiträde, Dalköpinge;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;31;J;J;I;J;429219;Sven-Ingvar Kristersson;51;M;Trelleborg;Chaufför, Gislövs Strandby;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;32;J;J;I;J;429220;Birgitta Nogeman;67;K;Trelleborg;Tandläkare, Gylle;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;33;J;J;I;J;429221;Leif Kristoffersson;73;M;Trelleborg;Pensionär, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;34;J;J;I;J;429222;Lilliane Andersson;64;K;Trelleborg;Smyckedesigner, Gislövs Strandmark;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;35;J;J;I;J;429223;Mona Svärd;68;K;Trelleborg;Laboratorieingenjör, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;36;J;J;I;J;429224;Adnan Pajic;36;M;Trelleborg;Ingenjör, Trelleborg;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Söderslättspartiet;SÖS;1006;S;15254;37;J;J;I;J;429225;Sven-Ingvar Göransson;76;M;Trelleborg;Civilekonom, Gislövs Strandmark;100000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;TRYGGHETSPARTIET;TRP;1309;S;15262;1;J;J;I;J;431317;Fia Nilsson;45;K;Trelleborg;Studerande;16000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;TRYGGHETSPARTIET;TRP;1309;S;15262;2;J;J;I;J;431292;Lisbeth Nilsson;66;K;Trelleborg;pensionär;16000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;TRYGGHETSPARTIET;TRP;1309;S;15262;3;J;J;I;J;431324;Malin Palmqvist;45;K;Trelleborg;Cafévärd;16000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;TRYGGHETSPARTIET;TRP;1309;S;15262;4;J;J;I;J;431313;My Larsson;30;K;Trelleborg;vårdbiträde;16000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;1;J;J;I;J;124653;Mats Sjölin;64;M;Trelleborg;ekonom, Trelleborg;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;2;J;J;I;J;124654;Kersti Engström;74;K;Trelleborg;socionom, Trelleborg;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;3;J;J;I;J;124655;Emmy Sartell;28;K;Trelleborg;statsvetare, Trelleborg;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;4;J;J;I;J;124656;Bo Nylander;66;M;Trelleborg;kemist, Grönby;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;5;J;J;I;J;124657;Eva Lindstedt;55;K;Trelleborg;undersköterska, Beddingestrand;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;6;J;J;I;J;124658;Susanne Möller;56;K;Trelleborg;arbetsterapeut, Anderslöv;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;7;J;J;I;J;124659;Sofi Magableh;35;K;Trelleborg;medicinsk sekreterare, Trelleborg;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;8;J;J;I;J;124660;Debora Svensson;27;K;Trelleborg;konstnär, Anderslöv;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;9;J;J;I;J;124661;Rolf Nilsson;67;M;Trelleborg;lärare, Södra Åby;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;10;J;J;I;J;124662;Vera Pedersen;67;K;Trelleborg;hushållslärare, Anderslöv;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;11;J;J;I;J;124663;Linda Nilsson;41;K;Trelleborg;kurator, Anderslöv;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;12;J;J;I;J;124664;Peter Forssell;60;M;Trelleborg;pensionär, Trelleborg;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;13;J;J;I;J;124665;Berit Sjölin;63;K;Trelleborg;förskollärare, Trelleborg;64000;;J
+K;1287;Trelleborg;02;Trelleborgs Andra, Östra;Vänsterpartiet;V;5;S;13244;14;J;J;I;J;124666;Christian Gisselquist;73;M;Trelleborg;bibliotekarie, Trelleborg;64000;;J

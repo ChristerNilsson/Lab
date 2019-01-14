@@ -1,0 +1,142 @@
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;1;J;J;I;J;9636;Matilda Wärenfalk;40;K;Mörbylånga;Lärare, Algutsrum, 40 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;2;J;J;I;J;19587;Mattias Nilsson;30;M;Mörbylånga;Barnskötare, Mörbylånga, 30 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;3;J;J;I;J;9634;Margaretha Lööf-Johanson;74;K;Mörbylånga;Distriktsläkare, Mörbylånga, 74 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;4;J;J;I;J;230686;Per-Olof Johansson;67;M;Mörbylånga;Senior samhällsplanerare, Skogsby, 67 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;5;J;J;I;J;230687;Henriette Koblanck;73;K;Mörbylånga;Professor, Albrunna, 73 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;6;J;J;I;J;230688;Jerker Nilsson;44;M;Mörbylånga;Fastighetsskötare, Mörbylånga, 44 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;7;J;J;I;J;230689;Elisabeth Fransén;48;K;Mörbylånga;Civilekonom, Ryd, 48 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;8;J;J;I;J;230690;Fredrik Jämtin;36;M;Mörbylånga;VVS-tekniker, Färjestaden, 36 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;9;J;J;I;J;9638;Kristina Sjöström;57;K;Mörbylånga;Omsorgsassistent, Mörbylånga, 57 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;10;J;J;I;J;230692;Javid Shirzad;24;M;Mörbylånga;Omsorgsassistent, Mörbylånga, 24 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;11;J;J;I;J;230693;Ella-Britt Andersson;73;K;Mörbylånga;Pensionär, Södra Möckleby, 73 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;12;J;J;I;J;230694;Bertil Johansson;64;M;Mörbylånga;Vaktmästare, Gunnarstorp, 64 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;13;J;J;I;J;230695;Seita Riikonen;54;K;Mörbylånga;Omsorgsassistent, Mörbylånga, 54 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;14;J;J;I;J;230696;Bength Andersson;75;M;Mörbylånga;Pensionär, Södra Möckleby, 75 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;15;J;J;I;J;230697;Veronika Hildingsson;42;K;Mörbylånga;Vårdare, Färjestaden,  42 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;16;J;J;I;J;230698;Stig Salebäck;64;M;Mörbylånga;Pensionär, Norra Möckleby, 64 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;17;J;J;I;J;230699;Annika Willaume;58;K;Mörbylånga;Geolog, Södra Möckleby, 58 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;18;J;J;I;J;230700;Morgan Nyberg;52;M;Mörbylånga;Ombudsman, Färjestaden, 52 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;19;J;J;I;J;230701;Eva-Lena Karlsson;54;K;Mörbylånga;Socionom, Färjestaden, 54 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;20;J;J;I;J;9639;Kurt Arvidsson;73;M;Mörbylånga;Pensionär, Södra Möckleby, 73 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;21;J;J;I;J;230703;Zandra Norén-Olsson;42;K;Mörbylånga;Ekonomiassistent, Färjestaden, 42 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;22;J;J;I;J;230704;Bo Blad;54;M;Mörbylånga;Omsorgsassistent, Mörbylånga, 54 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;23;J;J;I;J;230705;Carina Adolfsson-Elgestam;59;K;Mörbylånga;Egenföretagare, Bröttorp, 58 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;24;J;J;I;J;230706;Björn Samuelsson;68;M;Mörbylånga;Kulturutvecklare, Skogsby, 68 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;25;J;J;I;J;230707;Rickard Pontmark;48;M;Mörbylånga;Byggnadsarbetare, Färjestaden, 48 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;26;J;J;I;J;230709;Håkan Lindqvist;49;M;Mörbylånga;Säljare, Färjestaden, 49 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;27;J;J;I;J;230711;Lena Jönsson;59;K;Mörbylånga;Omsorgsassistent, Norra Möckleby, 59 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;28;J;J;I;J;230712;Per Elgestam;73;M;Mörbylånga;Pensionär, Bröttorp, 73 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;29;J;J;I;J;230713;Pontus Svensson;29;M;Mörbylånga;Teamleader, Mörbylånga, 29 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;30;J;J;I;J;230714;Elisabeth Noresund;56;K;Mörbylånga;Undersköterska, Mörbylånga, 56 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;31;J;J;I;J;230715;Mathias Karlsson;44;M;Mörbylånga;Analytiker, Färjestaden, 44 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;32;J;J;I;J;230716;Amena Shirzad;24;K;Mörbylånga;Studerande, Mörbylånga, 24 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;33;J;J;I;J;9641;Michael Granstedt;48;M;Mörbylånga;Simhallschef, Färjestaden, 47 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Arbetarepartiet-Socialdemokraterna;S;2;S;14046;34;J;J;I;J;230718;Lars-Göran Abrahamsson;70;M;Mörbylånga;Pensionär, Färjestaden, 70 år;36000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;1;J;J;I;J;361266;Anna-Kajsa Arnesson;55;K;Mörbylånga;55 år, företagare, Hagby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;2;J;J;I;J;360922;Johan Åhlund;47;M;Mörbylånga;47 år, lantbrukare, Vickleby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;3;J;J;I;J;361268;Monika Löfvin Rosén;64;K;Mörbylånga;64 år, kulturvetare, Mörbylånga;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;4;J;J;I;J;301053;Kjell Magnusson;69;M;Mörbylånga;69 år, pensionär, Holmetorp Algutsrum;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;5;J;J;I;J;361270;Lena Petersen;68;K;Mörbylånga;68 år, frilansare, Mörbylånga;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;6;J;J;I;J;301057;Hans Sabelström;53;M;Mörbylånga;53 år, egenföretagare, Degerhamn;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;7;J;J;I;J;361272;Johan Sigvardsson;50;M;Mörbylånga;50 år, lantbrukare, Alby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;8;J;J;I;J;361273;Gunilla Karlsson;65;K;Mörbylånga;65 år, kontaktperson, Stenåsa;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;9;J;J;I;J;361274;Per-Olov Johansson;59;M;Mörbylånga;59 år, egenföretagare, Gårdby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;10;J;J;I;J;301055;Annika Olsson;60;K;Mörbylånga;60 år, socionom, Norra Kvinneby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;11;J;J;I;J;301061;Marcus Persson;33;M;Mörbylånga;33 år, enhetschef, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;12;J;J;I;J;301051;Annika Henell;49;K;Mörbylånga;49 år, förvaltningsassistent, Degerhamn;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;13;J;J;I;J;361278;Emmy Ahlstedt;37;K;Mörbylånga;37 år, statsvetare, Gårdby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;14;J;J;I;J;361279;Gerd Åstrand;63;K;Mörbylånga;63 år, fd mjölkbonde, Mörbylilla;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;15;J;J;I;J;361280;Jessica Jämtin;35;K;Mörbylånga;35 år, ekonom, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;16;J;J;I;J;361281;Kerstin Sigvardsson;18;K;Mörbylånga;18 år, Student, Alby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;17;J;J;I;J;361282;Niklas Petersson;30;M;Mörbylånga;30 år, lantbrukare, Degerhamn;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;18;J;J;I;J;361283;Anders Eklöv;36;M;Mörbylånga;36 år, lantbrukare, Ekelunda;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;19;J;J;I;J;361284;Johan Bjärkse;65;M;Mörbylånga;65 år, lantmästare, Mörbylånga;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;20;J;J;I;J;361285;Gudrun Mo;63;K;Mörbylånga;63 år, vårdbiträde, Nedre Ålebäck;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;21;J;J;I;J;361286;Christer Rosén;67;M;Mörbylånga;67 år, civilekonom/egen företagare, Mörbylånga;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;22;J;J;I;J;361287;Magnus Björkegren;49;M;Mörbylånga;50 år, Egenföretagare, Algutsrum;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;23;J;J;I;J;361288;Krister Petersson;58;M;Mörbylånga;58 år, platschef/säljare, Gårdby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Centerpartiet;C;4;S;14890;24;J;J;I;J;361289;Andreas Åström;43;M;Mörbylånga;43 år, universitets adjunkt, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Kristdemokraterna;KD;68;S;13804;1;J;J;I;J;25228;Eric Dicksson;29;M;Mörbylånga;leg sjuksköterska, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Kristdemokraterna;KD;68;S;13804;2;J;J;I;J;37713;Nina Åkesson Nylander;55;K;Mörbylånga;undersköterska, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Kristdemokraterna;KD;68;S;13804;3;J;J;I;J;37719;Jeanette Lindh;72;K;Mörbylånga;senior, Mörbylånga;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Kristdemokraterna;KD;68;S;13804;4;J;J;I;J;195244;Bo Sjölin;64;M;Mörbylånga;senior, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Kristdemokraterna;KD;68;S;13804;5;J;J;I;J;195245;Samuel Sigvardsson;33;M;Mörbylånga;ingenjörsstuderande, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Kristdemokraterna;KD;68;S;13804;6;J;J;I;J;37721;Ann-Marie Jeansson;70;K;Mörbylånga;Törnbotten;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Kristdemokraterna;KD;68;S;13804;7;J;J;I;J;37720;Margita Asén;65;K;Mörbylånga;senior, Törnbotten;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Kristdemokraterna;KD;68;S;13804;8;J;J;I;J;195248;Hanna Dicksson;28;K;Mörbylånga;leg sjuksköterska, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Kristdemokraterna;KD;68;S;13804;9;J;J;I;J;195249;Marie Swedberg;56;K;Mörbylånga;leg sjuksköterska, Mörbylånga;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Kristdemokraterna;KD;68;S;13804;10;J;J;I;J;195250;Jonathan Nylander;25;M;Mörbylånga;simlärare, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Liberalerna (tidigare Folkpartiet);L;3;S;12928;1;J;J;I;J;82162;Sebastian Hallén;38;M;Mörbylånga;38 år, Färjestaden;20000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Liberalerna (tidigare Folkpartiet);L;3;S;12928;2;J;J;I;J;82163;Berne Klysing;69;M;Mörbylånga;Egen företagare, Glömminge;20000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Liberalerna (tidigare Folkpartiet);L;3;S;12928;3;J;J;I;J;82164;May-Britt Landin;70;K;Mörbylånga;Mörbylånga;20000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Liberalerna (tidigare Folkpartiet);L;3;S;12928;4;J;J;I;J;82165;Sam Wadin;75;M;Mörbylånga;Grönhögen;20000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Liberalerna (tidigare Folkpartiet);L;3;S;12928;5;J;J;I;J;82166;Kerstin Lindgren;72;K;Mörbylånga;Civ.ing., Färjestaden;20000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Liberalerna (tidigare Folkpartiet);L;3;S;12928;6;J;J;I;J;82167;Ingemo Eriksson;63;K;Mörbylånga;Gymnasielärare, Färjestaden;20000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Liberalerna (tidigare Folkpartiet);L;3;S;12928;7;J;J;I;J;82168;Birgitta Rolfsdotter;62;K;Mörbylånga;Socioterapeut, Mörbylånga;20000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Miljöpartiet de gröna;MP;55;S;15379;1;J;J;I;J;478752;Ulf Elgehed;58;M;Borgholm;Företagare;18000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Miljöpartiet de gröna;MP;55;S;15379;2;J;J;I;J;478753;Eva Traore Dahlberg;63;K;Mörbylånga;Agronom;18000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Miljöpartiet de gröna;MP;55;S;15379;3;J;J;I;J;478754;Monica Orthagen;58;K;Mörbylånga;Beteendevetare;18000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;1;J;J;I;J;160579;Henrik Yngvesson;45;M;Mörbylånga;Kommunalråd, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;2;J;J;I;J;160582;Carl Dahlin;36;M;Mörbylånga;Statsvetare, Södra Näsby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;3;J;J;I;J;158891;Eva Folkesdotter Paradis;69;K;Mörbylånga;Distriktssköterska, Karlevi;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;4;J;J;I;J;161601;Elisabeth Schröder;35;K;Mörbylånga;Sjökapten, Arontorp;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;5;J;J;I;J;161602;Günter Ruchatz;47;M;Mörbylånga;Polisinspektör, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;6;J;J;I;J;161603;Agneta Stjärnlöf;72;K;Mörbylånga;Lärare, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;7;J;J;I;J;160604;Pär Palmgren;65;M;Mörbylånga;Skogstekniker, Degerhamn;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;8;J;J;I;J;161605;Ingela Fredriksson;59;K;Mörbylånga;Civilekonom, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;9;J;J;I;J;161606;Kent Ingvarsson;75;M;Mörbylånga;Pensionär, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;10;J;J;I;J;161607;Liv Stjärnlöf;31;K;Mörbylånga;Journalist, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;11;J;J;I;J;161608;Thomas Danielsson;39;M;Mörbylånga;Polis, Karlevi;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;12;J;J;I;J;161609;Mikael Sundén;49;M;Mörbylånga;Lärare, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;13;J;J;I;J;161610;Hans-Ove Görtz;68;M;Mörbylånga;Överstelöjtnant, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;14;J;J;I;J;160594;Ulrik Brandén;50;M;Mörbylånga;Företagare, Mörbylånga;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;15;J;J;I;J;161612;Stellan Ungerholm;73;M;Mörbylånga;Leg. läkare, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;16;J;J;I;J;161613;Joakim Sohlberg;43;M;Mörbylånga;Egen företagare, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;17;J;J;I;J;161614;Simon Sjöstedt;44;M;Mörbylånga;Kriminalvårdare, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;18;J;J;I;J;161615;Britta Palmgren;59;K;Mörbylånga;Socionom, Degerhamn;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;19;J;J;I;J;161616;Martin Olsson;40;M;Mörbylånga;Officer, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;20;J;J;I;J;161617;Magnus Yngvesson;48;M;Mörbylånga;Egen företagare, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;21;J;J;I;J;161618;Lars Paradis;67;M;Mörbylånga;Pensionär, Karlevi;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;22;J;J;I;J;161619;Sven Stenson;60;M;Mörbylånga;Polis, Isgärde;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;23;J;J;I;J;161620;Thorbjörn Hagström;41;M;Mörbylånga;Lantbrukare, Kastlösa;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;24;J;J;I;J;161621;Ludvig Hasselbom;74;M;Mörbylånga;Pensionär, Bjärby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;25;J;J;I;J;161622;Hedy Johansson;73;K;Mörbylånga;Företagare, Risinge;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Moderaterna;M;1;S;13516;26;J;J;I;J;161623;Christer Hävre;59;M;Mörbylånga;Kontorsansvarig, Degerhamn;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;1;J;J;I;J;60932;Olof Nilsson;78;M;Mörbylånga;egen företagare, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;2;J;J;I;J;60933;Jessica Hellman;46;K;Mörbylånga;undersköterska, Algutsrum;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;3;J;J;I;J;60934;Curt Ekvall;74;M;Mörbylånga;pol. mag, Glömminge;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;4;J;J;I;J;60935;Claus Zaar;72;M;Mörbylånga;f.d. riksdagsman, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;5;J;J;I;J;60936;Eric Rosenlund;70;M;Mörbylånga;civilingenjör, Norra Möckleby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;6;J;J;I;J;60937;Per-Gunnar Olsson;61;M;Mörbylånga;entreprenör, Mörbylånga;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;7;J;J;I;J;60938;Monika Johansson;38;K;Mörbylånga;omsorgsassistent, Algutsrum;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;8;J;J;I;J;60939;Mikael Johansson;34;M;Mörbylånga;VVS-montör, Algutsrum;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;9;J;J;I;J;60940;Kenneth Nilsson;76;M;Mörbylånga;entreprenör, Algutsrum;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;10;J;J;I;J;60941;Tore Andersson;71;M;Mörbylånga;lantbrukare, Södra Näsby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;11;J;J;I;J;60942;Louise Schalberg;72;K;Mörbylånga;fast.mäklare, Skogsby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;12;J;J;I;J;60943;Kenneth Plato;71;M;Mörbylånga;mekaniker, Gårdby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;13;J;J;I;J;60944;Raimo Mattsson;57;M;Eksjö;skötare, Färjestaden;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Sverigedemokraterna;SD;110;S;12592;14;J;J;I;J;60945;Anders Åsenius;56;M;Mörbylånga;lantbrukare, Össby;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;1;J;J;I;J;33312;Per Fredriksson;76;M;Mörbylånga;marknadschef;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;2;J;J;I;J;33313;Pia Schröder;67;K;Mörbylånga;Journalist;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;3;J;J;I;J;33314;Jonny Berntsson;76;M;Mörbylånga;Tekn.chef.;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;4;J;J;I;J;33315;Maria Pålhammar;56;K;Mörbylånga;Egen företagare;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;5;J;J;I;J;33316;Peter Barvestad;62;M;Mörbylånga;Idrottslärare;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;6;J;J;I;J;33317;Marie Jarleng;67;K;Mörbylånga;Egen företagare;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;7;J;J;I;J;33318;Joakim Fredriksson;45;M;Mörbylånga;Chef tekn.förvaltn.;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;8;J;J;I;J;33319;Tomas Hesselmark;38;M;Mörbylånga;Egen företagare;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;9;J;J;I;J;33320;Marita Andersson;47;K;Mörbylånga;Servicechef;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;10;J;J;I;J;33321;Arne Svensson;72;M;Mörbylånga;Friidrottstränare;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;11;J;J;I;J;33322;Magnus Pålhammar;51;M;Mörbylånga;Leg. audionom;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;12;J;J;I;J;33323;Peter Pagels;54;M;Mörbylånga;universitetslektor;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;13;J;J;I;J;33324;Svante Wennberg;73;M;Mörbylånga;Tågmästare;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;TRYGGHETSPARTIET;TRP;1309;S;12229;14;J;J;I;J;33325;Berth Ljungström;73;M;Mörbylånga;Tekn.chef;5000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Vänsterpartiet;V;5;S;14771;1;J;J;I;J;337312;Elisabeth Cima Kvarneke;64;K;Mörbylånga;Ölands Skogsby, Biomedicinsk analytiker;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Vänsterpartiet;V;5;S;14771;2;J;J;I;J;337313;Anders Wassbäck;73;M;Mörbylånga;Segerstad, Lärare;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Vänsterpartiet;V;5;S;14771;3;J;J;I;J;337314;Agneta Sandvik;62;K;Mörbylånga;Törnbotten, Hotellreceptionist;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Vänsterpartiet;V;5;S;14771;4;J;J;I;J;337315;Pontus Björk;27;M;Mörbylånga;Ullevi, Rivningstekniker;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Vänsterpartiet;V;5;S;14771;5;J;J;I;J;337316;Karin Olsson;57;K;Mörbylånga;Hagby, Egenföretagare;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Vänsterpartiet;V;5;S;14771;6;J;J;I;J;337317;Erik Cardfelt;56;M;Mörbylånga;Hagby, Grafisk Formgivare;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Vänsterpartiet;V;5;S;14771;7;J;J;I;J;337318;Sonia Lindell;81;K;Mörbylånga;Mörbylånga, Pensionär;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Vänsterpartiet;V;5;S;14771;8;J;J;I;J;337319;Josef Berlin;36;M;Mörbylånga;Mörbylånga, Verksamhetsutvecklare;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Vänsterpartiet;V;5;S;14771;9;J;J;I;J;337320;Rita Backman Wassbäck;63;K;Mörbylånga;Segerstad, Undersköterska;35000;;J
+K;0840;Mörbylånga;00;Mörbylånga;Vänsterpartiet;V;5;S;14771;10;J;J;I;J;337321;Sten-Olof Söderlund;73;M;Mörbylånga;Nedra Ålebäck, Socialarbetare;35000;;J

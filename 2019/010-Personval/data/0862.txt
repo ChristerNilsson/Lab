@@ -1,0 +1,189 @@
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;1;J;J;I;J;158986;Maria Ixcot Nilsson;43;K;Emmaboda;Lärare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;2;J;J;I;J;19591;Per Adolfsson;51;M;Emmaboda;Byggnadsträarbetare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;3;J;J;I;J;158988;Zeljka Krajinovic;45;K;Emmaboda;Administratör, Lindås;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;4;J;J;I;J;19575;Pontus Franzén;26;M;Emmaboda;Träarbetare, Vissefjärda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;5;J;J;I;J;10125;Annika Karlsson;52;K;Emmaboda;Metallarbetare, Långasjö;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;6;J;J;I;J;158991;Jarkko Pekkala;48;M;Emmaboda;Arbetsmiljösamordnare, Eriksmåla;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;7;J;J;I;J;158992;Marie-Louise Eddegård;57;K;Emmaboda;Omsorgsassistent, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;8;J;J;I;J;158993;Jan-Olof P Jäghagen;65;M;Emmaboda;Glasarbetare, Boda Glasbruk;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;9;J;J;I;J;10119;Kickie Norrby;68;K;Emmaboda;Egenföretagare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;10;J;J;I;J;10122;Dragan Pavlovic;53;M;Emmaboda;Processtekniker, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;11;J;J;I;J;158996;Gunvor Karlsson;64;K;Emmaboda;Undersköterska, Vissefjärda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;12;J;J;I;J;158997;Flemming Jörgensen;60;M;Emmaboda;Drifttekniker, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;13;J;J;I;J;158998;Ann-Marie Fagerström;64;K;Emmaboda;Kommunalråd, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;14;J;J;I;J;158999;Simon Petersson;29;M;Emmaboda;Gjuteriarbetare, Lindås;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;15;J;J;I;J;159000;Gullvi Dahlöf;67;K;Emmaboda;Fritidsledare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;16;J;J;I;J;159001;Stig-Ove Andersson;73;M;Emmaboda;Glasarbetare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;17;J;J;I;J;159002;Ingrid Adolfsson;69;K;Emmaboda;Glasarbetare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;18;J;J;I;J;19599;Christer Norrby;67;M;Emmaboda;Egenföretagare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;19;J;J;I;J;159004;Marina Skoglund;58;K;Emmaboda;Lärare, Vissefjärda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;20;J;J;I;J;159005;András Garami;49;M;Emmaboda;Egenföretagare, Långasjö;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;21;J;J;I;J;159006;Eva-Lena Gotthardsson;63;K;Emmaboda;Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;22;J;J;I;J;10112;Erik Fors;51;M;Emmaboda;Fastighetsskötare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;23;J;J;I;J;159008;Camilla Johansson;49;K;Emmaboda;Processtekniker, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;24;J;J;I;J;159009;Jonas Fors;24;M;Emmaboda;Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;25;J;J;I;J;159010;Susanne Gustavsson;55;K;Emmaboda;Direktsäljare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;26;J;J;I;J;159011;Göran Johansson;63;M;Emmaboda;Museiintendent, Boda Glasbruk;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;27;J;J;I;J;159012;Anne Beate Hamilton;46;K;Emmaboda;Lindås;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;28;J;J;I;J;159013;Osama Habbak;49;M;Emmaboda;fd Idrottslärare, Lindås;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;29;J;J;I;J;159014;Sofie Malmborg;40;K;Emmaboda;Elmotorlindare, Lindås;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;30;J;J;I;J;159015;Dan Bondesson;52;M;Emmaboda;Kyrkhantverkare, Långasjö;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;31;J;J;I;J;159016;Maj-Brith Andersson;73;K;Emmaboda;Handelsanställd, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;32;J;J;I;J;159017;Göte Svensson;76;M;Emmaboda;Pensionär, Långasjö;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;33;J;J;I;J;159019;Jan Karlsson;70;M;Emmaboda;fd Personaladministratör, Åfors;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;34;J;J;I;J;159020;Annika Blockmark;33;K;Emmaboda;Produktionstekniker, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;35;J;J;I;J;159021;Kurt Lindblom;63;M;Emmaboda;Fastighetsskötare, Algutsboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;36;J;J;I;J;159022;Inger Williamsson;64;K;Emmaboda;Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;37;J;J;I;J;159023;Yngve Karlsson;68;M;Emmaboda;Skogsarbetare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;38;J;J;I;J;159024;Samar Zakaria;52;K;Emmaboda;fd Engelskalärare, Lindås;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;39;J;J;I;J;159025;Anders Fransson;58;M;Emmaboda;Metallarbetare, Långasjö;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;40;J;J;I;J;159026;Ann-Louise Ahonen;56;K;Emmaboda;Omsorgsassistent, Boda Glasbruk;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;41;J;J;I;J;159027;Alireza Ahmadi;21;M;Emmaboda;Metallarbetare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;42;J;J;I;J;159028;Ann-Christine Johansson;72;K;Emmaboda;Broakulla;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;43;J;J;I;J;159029;Jonas Holmqvist;41;M;Emmaboda;Produktionstekniker, Långasjö;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;44;J;J;I;J;159030;Angela Veltsiou;50;K;Emmaboda;Handelsanställd, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;45;J;J;I;J;159031;Alfred Weinberger;65;M;Emmaboda;Träarbetare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;46;J;J;I;J;159032;Gunilla Sunesson;63;K;Emmaboda;Adjunkt, Långasjö;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;47;J;J;I;J;159033;Joel Bengtzon;31;M;Emmaboda;Industriarbetare, Långasjö;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;48;J;J;I;J;159034;Anette Jäghagen;60;K;Emmaboda;Omsorgsassistent, Boda Glasbruk;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;49;J;J;I;J;159035;Jimmy Landefjäll;58;M;Emmaboda;Sågverksarbetare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;50;J;J;I;J;159036;Kathryn Nilsson;69;K;Emmaboda;Barnskötare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;51;J;J;I;J;159037;Ingmar Karlsson;68;M;Emmaboda;Pensionär, Vissefjärda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;52;J;J;I;J;159038;Lotta Lejon Stenberg;50;K;Emmaboda;Biblioteksassistent, Eriksmåla;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;53;J;J;I;J;159039;Peter Svensson;56;M;Emmaboda;Hantverkare, Vissefärda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;54;J;J;I;J;159040;Kristina Ideström;57;K;Emmaboda;Städsamordnare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;55;J;J;I;J;159041;Niklas Hult;48;M;Emmaboda;Montör, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;56;J;J;I;J;159042;Lena Holmqvist;66;K;Emmaboda;Långasjö;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;57;J;J;I;J;159043;Peter Slättman;47;M;Emmaboda;CNC-operatör, Lindås;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;58;J;J;I;J;159044;Margaretha Roskvist;62;K;Emmaboda;Lärare, Eriksmåla;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Arbetarepartiet-Socialdemokraterna;S;2;S;13496;59;J;J;I;J;159045;Anette Svanhall;51;K;Emmaboda;Metallarbetare, Emmaboda;25000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;1;N;J;J;I;10116;Bo Eddie Rossbol;71;M;Emmaboda;F D Tekniker;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;2;N;J;J;I;408446;Anja Karlsson Granlund;62;K;Emmaboda;Personalchef;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;3;N;J;J;I;408447;Mats Bjartling;52;M;Emmaboda;Drifttekniker;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;4;N;J;J;I;408448;Jenny Petersson;43;K;Emmaboda;Administratör;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;5;N;J;J;I;408449;Kent-Göran Karlsson;56;M;Emmaboda;Fastighetstekniker;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;6;N;J;J;I;408450;Birgitta Jochnick;61;K;Emmaboda;Företagare;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;7;N;J;J;I;408451;Dianne Meijer;33;K;Emmaboda;Administratör;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;8;N;J;J;I;408460;Peter Johansson;35;M;Emmaboda;IT-Tekniker;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;9;N;J;J;I;408453;Evelina Hjalmarsson;42;K;Emmaboda;Sjukgymnast;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;10;N;J;J;I;408454;Birgitta Gahlin;59;K;Emmaboda;Egenföretagare;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;11;N;J;J;I;408455;Sonny Meijer;58;M;Emmaboda;F D Inköpare;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;12;N;J;J;I;408456;Thomas Herbertsson;49;M;Emmaboda;Entreprenör;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;13;N;J;J;I;408457;Eva Ekdahl;44;K;Emmaboda;Personalvetare;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;14;N;J;J;I;408458;Houssam Haiek;34;M;Emmaboda;Målare;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;15;N;J;J;I;494727;Jenny Lassen;23;K;Emmaboda;Fritidsassistent;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;16;N;J;J;I;408452;Dorothee Sch Viberg;57;K;Emmaboda;Rådgivare;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;17;N;J;J;I;494729;Hampus Algotsson;25;M;Emmaboda;Industrioperatör;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;18;N;J;J;I;408462;Erling Karlsson;66;M;Emmaboda;Fd Produktionsledare;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;19;N;J;J;I;408463;Christoffer Karlsson;24;M;Emmaboda;Personlig Tränare;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;20;N;J;J;I;408464;Johan Bernfalk;41;M;Emmaboda;Entreprenör;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;21;N;J;J;I;408465;Ola Gustafsson;47;M;Emmaboda;Sågverksarbetare;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;22;N;J;J;I;494734;Åke Lindström;72;M;Emmaboda;Fd Ingenjör;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;S;15161;23;N;J;J;I;494735;Muhammed Rifat Shamma;37;M;Emmaboda;Busschaufför;17000;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;;;;N;J;J;I;408459;Dakoury, Raghad;23;K;Emmaboda;;0;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;;;;N;J;J;I;408461;Dakoury, Reham;30;K;Emmaboda;;0;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;;;;N;J;J;I;515793;Ledung, Sven Holger Leonard;31;M;Emmaboda;;0;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;;;;N;J;J;I;515794;Johansson, Harley;36;M;Emmaboda;;0;;J
+K;0862;Emmaboda;00;Emmaboda;Bästa Alternativet;B-ALT;1366;;;;N;J;J;I;515795;Losell, Stefan;61;M;Emmaboda;;0;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;1;J;J;I;J;333992;Johan Jonsson;35;M;Emmaboda;civilekonom, Algutsboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;2;J;J;I;J;333989;Jenny Rydberg;41;K;Emmaboda;omsorgsassistent, Lindås;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;3;J;J;I;J;347974;Bo Sunesson;64;M;Emmaboda;byggnadssnickare, Harebo;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;4;J;J;I;J;347975;Karin Rask;50;K;Emmaboda;omsorgsassistent, Algutsboö;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;5;J;J;I;J;347976;Rune Magnusson;75;M;Emmaboda;trafiklärare, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;6;J;J;I;J;347977;Niklas Banérsson;48;M;Emmaboda;brandman, Lindås;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;7;J;J;I;J;333997;Göran Andersson;78;M;Emmaboda;fil.mag., skogsbrukare, Algutsboö;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;8;J;J;I;J;347979;Angela Fransson;69;K;Emmaboda;lärare, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;9;J;J;I;J;347980;Kristina Lövqvist;41;K;Emmaboda;omsorgsassistent, Lindås;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;10;J;J;I;J;347981;Johan Gustafsson;37;M;Emmaboda;kyrkvaktmästare, Häljanäs;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;11;J;J;I;J;333994;Linda Johansson;32;K;Emmaboda;civilekonom, Algutsboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;12;J;J;I;J;334001;Iréne Nimenius;69;K;Emmaboda;teolog, Broakulla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;13;J;J;I;J;347984;Lennart Gustavsson;79;M;Emmaboda;skogsbrukare, Lindehult;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;14;J;J;I;J;347985;Emelie Lindström;31;K;Emmaboda;djurskötare, Lindehult;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;15;J;J;I;J;347986;Anna J Karlsson;50;K;Emmaboda;ekonomiansvarig, Moshult;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;16;J;J;I;J;347987;Lage Karlsson;79;M;[saknas i folkbokföringen];lantbrukare, Karamåla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;17;J;J;I;J;347988;Eva Aronsson;60;K;Emmaboda;gymnasielärare, Gransjö;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;18;J;J;I;J;347989;Vivi-Ann Ekström;61;K;Emmaboda;fd djurskötare, Fiskesjö;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;19;J;J;I;J;347990;Göran Ernstsson;76;M;Emmaboda;pensionär, Åleberg;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;20;J;J;I;J;347991;Alf Medin;75;M;Emmaboda;fd åkeriägare, Långasjö;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;21;J;J;I;J;333985;Christer Jonsson;59;M;Emmaboda;universitetslektor, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;22;J;J;I;J;347993;Ingrid Jensen;70;K;Emmaboda;fd metallarbetare, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Centerpartiet;C;4;S;14825;23;J;J;I;J;347994;Göran Eriksson;71;M;Emmaboda;lantbrukare, Kammarbo;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Kristdemokraterna;KD;68;S;12300;1;J;J;I;J;25241;Gull-Britt Hellborg;73;K;Emmaboda;f d distriktssköterska, Broakulla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Kristdemokraterna;KD;68;S;12300;2;J;J;I;J;37851;Torgny Karlsson;41;M;Emmaboda;banktjänsteman, Ingemundebo;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Kristdemokraterna;KD;68;S;12300;3;J;J;I;J;37570;Anne Thuresson;53;K;Emmaboda;omsorgsassistent, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Kristdemokraterna;KD;68;S;12300;4;J;J;I;J;37569;Albin Johansson;20;M;Emmaboda;studerande, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Kristdemokraterna;KD;68;S;12300;5;J;J;I;J;37854;Kerstin Fridholm;74;K;Emmaboda;förskollärare, Broakulla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Kristdemokraterna;KD;68;S;12300;6;J;J;I;J;37574;Mac Hellborg;76;M;Emmaboda;pensionär, Broakulla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Kristdemokraterna;KD;68;S;12300;7;J;J;I;J;37562;Helena Berzelius;47;K;Emmaboda;företagare, Åleberg;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Kristdemokraterna;KD;68;S;12300;8;J;J;I;J;37857;Mikael Berzelius;47;M;Emmaboda;konferensansvarig, Åleberg;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Kristdemokraterna;KD;68;S;12300;9;J;J;I;J;37858;Maria Karlsson Olverstrand;72;K;Emmaboda;konstnär, Broakulla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Kristdemokraterna;KD;68;S;12300;10;J;J;I;J;37859;Daniel Jonsson;41;M;Emmaboda;Broakulla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Kristdemokraterna;KD;68;S;12300;11;J;J;I;J;37860;Katarina Jonsson;41;K;Emmaboda;elevassistent, Broakulla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Kristdemokraterna;KD;68;S;12300;12;J;J;I;J;37861;Ros-Marie Sandberg;76;K;Emmaboda;Långasjö;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Kristdemokraterna;KD;68;S;12300;13;J;J;I;J;37567;Anders Johansson;53;M;Emmaboda;fritidsledare, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Liberalerna (tidigare Folkpartiet);L;3;S;12923;1;J;J;I;J;81292;Lars-Olof Hellborg;68;M;Emmaboda;Broakulla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Liberalerna (tidigare Folkpartiet);L;3;S;12923;2;J;J;I;J;81293;Sven Astevall;70;M;Emmaboda;Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Liberalerna (tidigare Folkpartiet);L;3;S;12923;3;J;J;I;J;81294;Eva Hellborg;67;K;Emmaboda;Broakulla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Liberalerna (tidigare Folkpartiet);L;3;S;12923;4;J;J;I;J;81295;Carl-Gunnar Holst;73;M;Emmaboda;Broakulla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Liberalerna (tidigare Folkpartiet);L;3;S;12923;5;J;J;I;J;81296;Barbro Sjöndin;59;K;Emmaboda;Broakulla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Miljöpartiet de gröna;MP;55;S;13463;1;J;J;I;J;156023;Jette Lehrmann Madsen;57;K;Emmaboda;Samhällsodontolog, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Miljöpartiet de gröna;MP;55;S;13463;2;J;J;I;J;156024;Gunilla Gerkman;60;K;Emmaboda;Kursledare, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Miljöpartiet de gröna;MP;55;S;13463;3;J;J;I;J;156025;Karl Geyer;62;M;Emmaboda;Pensionär, Vissefjärda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Miljöpartiet de gröna;MP;55;S;13463;4;J;J;I;J;156026;Inger Bark-Lagergren;73;K;Emmaboda;Aukt. kroppsterapeut, Lindås;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;1;J;J;I;J;158894;Sten Olof Johansson;64;M;Emmaboda;64 år, F.d. företagare, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;2;J;J;I;J;160925;Leif Karlsson;65;M;Emmaboda;65 år, Företagare, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;3;J;J;I;J;160598;Stefan Nyström;64;M;Emmaboda;64 år, Målaremästare, Broakulla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;4;J;J;I;J;160590;Ann Helene Jonsson;42;K;Emmaboda;42 år, Ekonomiassistent, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;5;J;J;I;J;160928;Hans Ohlsson;45;M;Emmaboda;45 år, Fönsterarbetare, Suttaremåla;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;6;J;J;I;J;160929;Eva Regin Johnston;38;K;Emmaboda;38 år, Egen företagare, Vissefjärda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;7;J;J;I;J;160930;Günter Villman;63;M;Emmaboda;63 år, Överste, Vissefjärda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;8;J;J;I;J;160931;Stefan Focic;37;M;Emmaboda;37 år, Sågverksarbetare, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;9;J;J;I;J;160932;Emma Åhlander Hansson;47;K;Emmaboda;47 år, Musiklärare, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;10;J;J;I;J;160933;Börje Forsberg;65;M;Emmaboda;65 år, F.d. företagare, Vissefjärda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;11;J;J;I;J;160588;Berthold Andersson;65;M;Emmaboda;65 år, Civilingenjör, Lindås;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;12;J;J;I;J;160935;Teija Karlsson;51;K;Emmaboda;51 år, Kundtjänsteman, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;13;J;J;I;J;160936;Johan Forsberg;45;M;Emmaboda;45 år, Säljare, Vissefjärda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;14;J;J;I;J;160937;Sara Magnusson;39;K;Emmaboda;39 år, Företagare, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;15;J;J;I;J;160938;Christer Fransson;75;M;Emmaboda;75 år, Företagare, Vissefjärda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;16;J;J;I;J;160939;Thomas Gustafson;62;M;Emmaboda;62 år, Företagare, Vissefjärda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;17;J;J;I;J;160940;Emmie Viding;24;K;Emmaboda;24 år, Studerande, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;18;J;J;I;J;160941;Jan Gustafsson;68;M;Emmaboda;68 år, Ingenjör, Vissefjärda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;19;J;J;I;J;160942;Fredrik Hansson;48;M;Emmaboda;48 år, Muraremästare, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Moderaterna;M;1;S;13507;20;J;J;I;J;160943;Lillemor Karlsson;63;K;Emmaboda;63 år, Kontorist, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15400;1;N;J;J;I;60426;Martin Henriksson;34;M;Emmaboda;IT-konsult, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15400;2;N;J;J;I;60427;Lars-Olof Karlsson;76;M;Emmaboda;yrkeschaufför, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15400;3;N;J;J;I;60428;Anette Rydqvist;52;K;Emmaboda;skomakarlärling, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15400;4;N;J;N;I;60429;[inte lämnat samtycke];;;;;22000;;N
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15400;5;N;J;J;I;60430;Charlotte Andersson;36;K;Emmaboda;undersköterska, Lindås;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15400;6;N;J;J;I;60431;Bo Häggbring;70;M;Emmaboda;ingenjör, Vissefjärda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15400;7;N;J;J;I;60432;Tony Johansson;44;M;Emmaboda;montör, Lindås;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15400;8;N;J;N;I;60434;[inte lämnat samtycke];;;;;22000;;N
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15400;9;N;J;J;I;60435;Jan Larsson;38;M;Emmaboda;industriarbetare, Emmaboda;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15727;1;N;J;J;I;60426;Martin Henriksson;34;M;Emmaboda;IT-konsult, Emmaboda;16000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15727;2;N;J;J;I;60427;Lars-Olof Karlsson;76;M;Emmaboda;yrkeschaufför, Emmaboda;16000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15727;3;N;J;J;I;60428;Anette Rydqvist;52;K;Emmaboda;skomakarlärling, Emmaboda;16000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15727;4;N;J;N;I;60429;[inte lämnat samtycke];;;;;16000;;N
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15727;5;N;J;J;I;60430;Charlotte Andersson;36;K;Emmaboda;undersköterska, Lindås;16000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15727;6;N;J;J;I;60431;Bo Häggbring;70;M;Emmaboda;ingenjör, Vissefjärda;16000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15727;7;N;J;J;I;60432;Tony Johansson;44;M;Emmaboda;montör, Lindås;16000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15727;8;N;J;N;I;60434;[inte lämnat samtycke];;;;;16000;;N
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15727;9;N;J;J;I;60435;Jan Larsson;38;M;Emmaboda;industriarbetare, Emmaboda;16000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15727;10;N;J;J;I;508215;Bo Mårtensson;56;M;Emmaboda;skogsentreprenör,Långasjö;16000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;S;15727;11;N;J;J;I;508216;Stefan Marcelius;49;M;Emmaboda;gjuteriarbetare, Emmaboda;16000;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;;;;N;J;J;I;513891;Somsamai, Sureerat;38;K;Emmaboda;;0;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;;;;N;J;J;I;513892;Bertilsson, Olle Ronny;71;M;Emmaboda;;0;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;;;;N;J;J;I;513893;Ekmark Johnsson, Jonatan;22;M;Emmaboda;;0;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;;;;N;J;J;I;513894;Andersson, Stefan;61;M;Emmaboda;;0;;J
+K;0862;Emmaboda;00;Emmaboda;Sverigedemokraterna;SD;110;;;;N;J;J;I;513949;Persson, Joakim Henning Dan;36;M;Emmaboda;;0;;J
+K;0862;Emmaboda;00;Emmaboda;Vänsterpartiet;V;5;S;14744;1;J;J;I;J;328911;Nicke Grozdanovski;46;M;Emmaboda;Skolbibliotikarie;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Vänsterpartiet;V;5;S;14744;2;J;J;I;J;328912;Camilla Holgersson;54;K;Emmaboda;Levnadskonstnär;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Vänsterpartiet;V;5;S;14744;3;J;J;I;J;328913;Pontus Adolfsson;28;M;Emmaboda;Lärarstudent;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Vänsterpartiet;V;5;S;14744;4;J;J;I;J;328914;Daniel Miletic;35;M;Emmaboda;Egenföretagare;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Vänsterpartiet;V;5;S;14744;5;J;J;I;J;328915;Helen Hellgren;51;K;Emmaboda;Arbetare;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Vänsterpartiet;V;5;S;14744;6;J;J;I;J;328916;Maria Olsson;18;K;Emmaboda;Student;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Vänsterpartiet;V;5;S;14744;7;J;J;I;J;328917;Pelle Hellgren;57;M;Emmaboda;Kooperativt anställd;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Vänsterpartiet;V;5;S;14744;8;J;J;I;J;328918;Lise Kroer;83;K;Emmaboda;Bibliotikarie;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Vänsterpartiet;V;5;S;14744;9;J;J;I;J;328919;Agnes Brunni;20;K;Emmaboda;Omsorgsassistent;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Vänsterpartiet;V;5;S;14744;10;J;J;I;J;328920;Josefin Källqvist Edvardssson;36;K;Emmaboda;Synthare;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Vänsterpartiet;V;5;S;14744;11;J;J;I;J;328921;Anna Nilsson;44;K;Emmaboda;;22000;;J
+K;0862;Emmaboda;00;Emmaboda;Vänsterpartiet;V;5;S;14744;12;J;J;I;J;328922;Ebba Ringman Brunni;23;K;Emmaboda;Mammaledig;22000;;J

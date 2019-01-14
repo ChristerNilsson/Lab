@@ -1,0 +1,173 @@
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;1;J;J;I;J;93470;Bengt-Olov Eriksson;63;M;Tierp;63 år, Kommunalråd, Månkarbo;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;2;J;J;I;J;81363;Viktoria Söderling;30;K;Tierp;30 år, Biokemist, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;3;J;J;I;J;93472;Jonas Nyberg;49;M;Tierp;49 år, Operatör, Söderfors;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;4;J;J;I;J;93473;Barbro Wiklund;67;K;Tierp;67 år, Specialpedagog, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;5;J;J;I;J;93474;Gunnar Jansson;63;M;Tierp;63 år, Byggnadsarbetare, Karlholm;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;6;J;J;I;J;93475;Christina Svensson;52;K;Tierp;53 år, Verksamhetschef, Skärplinge;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;7;J;J;I;J;93476;Lars-Olof Färnström;62;M;Tierp;62 år, Brandman, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;8;J;J;I;J;93477;Marie-Louise Rindå;52;K;Tierp;52 år, Flygtekniker, Tobo;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;9;J;J;I;J;93478;Pontus Söderberg;34;M;Tierp;34 år, Industrioperatör, Söderfors;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;10;J;J;I;J;81379;Erica Aspgren Wallin;43;K;Tierp;43 år, Kommunikatör, Västland;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;11;J;J;I;J;93480;Oskar Nilsson;41;M;Tierp;41 år, IT-tekniker, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;12;J;J;I;J;93481;Christina Holmström;52;K;Tierp;52 år, Förstelärare, Örbyhus;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;13;J;J;I;J;93482;Torgny Helgesson;63;M;Tierp;63 år, Pensionär, Hållnäs;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;14;J;J;I;J;93483;Linda Friberg;42;K;Tierp;42 år, Processoperatör, Söderfors;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;15;J;J;I;J;93484;Christer Niklasson;64;M;Tierp;64 år, Universitetsadjukt, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;16;J;J;I;J;93485;Margaretha Magnusson;64;K;Tierp;64 år, Sjuksköterska, Skärplinge;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;17;J;J;I;J;93486;Börje Wennberg;66;M;Tierp;66 år, Regionråd, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;18;J;J;I;J;93487;Helena Broman;52;K;Tierp;52 år, Fritidspedagog, Söderfors;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;19;J;J;I;J;93488;Kjell Hammerin;74;M;Tierp;74 år, Ekonom, Söderfors;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;20;J;J;I;J;93489;Inger Andersson;57;K;Tierp;58 år, Förtidspensionär, Örbyhus;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;21;J;J;I;J;93490;Tomas Delgado Pinto;35;M;Tierp;36 år, Hotellreceptionist, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;22;J;J;I;J;93491;Elin Lindqvist;31;K;Tierp;30 år, Undersköterska, Söderfors;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;23;J;J;I;J;93492;Stefan Andersson;64;M;Tierp;64 år, Ingenjör, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;24;J;J;I;J;93493;Lize-Lotte Löfgren;64;K;Tierp;64 år, Undersköterska, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;25;J;J;I;J;93494;Fared Shamma;30;M;Tierp;30 år, Söderfors;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;26;J;J;I;J;93495;Sara Lindqvist;25;K;Tierp;25, Lärarstudent, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;27;J;J;I;J;93496;Benny Larsson;46;M;Tierp;46 år, CNC-operatör, Skärplinge;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;28;J;J;I;J;93497;Anette Pettersson;49;K;Tierp;49 år, HR-konsult, Örbyhus;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;29;J;J;I;J;93498;Ulf Andersson;57;M;Tierp;58 år, Idrottsplatsvaktmästare, Örbyhus;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;30;J;J;I;J;93499;Eivor Englund;74;K;Tierp;74 år, Pensionär, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;31;J;J;I;J;93500;Robin Falk;28;M;Tierp;28 år, Enhetschef, Örbyhus;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;32;J;J;I;J;93501;Inger Johansson;75;K;Tierp;75 år, Pensionär, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;33;J;J;I;J;93502;Saad Salih Hamad;36;M;Tierp;30 år, Skärplinge;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;34;J;J;I;J;93503;Villy Wahlström;70;M;Tierp;70 år, Pensionär, Karlholm;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;35;J;J;I;J;93504;Violet Englund;77;K;Tierp;77 år, Pensionär, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;36;J;J;I;J;93505;Clark Wilgert;34;M;Tierp;34 år, Processoperatör, Tobo;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;37;J;J;I;J;93506;Tommy Engström;35;M;Tierp;35 år, Lokalvårdare, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;38;J;J;I;J;93507;Lena-Britt Zetterqvist;62;K;Tierp;62 år, Präst, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;39;J;J;I;J;93508;Hans Edin;66;M;Tierp;66 år, Pensionär, Örbyhus;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;40;J;J;I;J;93509;Alf Wåhlen;70;M;Tierp;70 år, Pensionär, Söderfors;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;41;J;J;I;J;93510;Katarina Larsson;45;K;Tierp;45 år, Butiksarbetare, Skärplinge;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;42;J;J;I;J;93511;Jan Zetterqvist;66;M;Tierp;66 år, Lärare, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;43;J;J;I;J;93512;Kristofer Watz;52;M;Tierp;52 år, Lagerarbetare, Örbyhus;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;44;J;J;I;J;93513;Frida Nyberg;39;K;Tierp;39 år, Förskollärare, Söderfors;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;45;J;J;I;J;93514;Torsten Lindberg;74;M;Tierp;74 år, Pensionär, Söderfors;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;46;J;J;I;J;93515;Claes Holmgren;71;M;Tierp;71 år, Pensionär, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;47;J;J;I;J;93516;Maria Wallin Mååg;55;K;Tierp;55 år, Sjuksköterska, Tierp;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;48;J;J;I;J;93517;Eric Bolander;65;M;Tierp;65 år, Pensionär, Örbyhus;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;49;J;J;I;J;93518;Mauri Järvi;63;M;Tierp;63 år, Chaufför, Söderfors;55000;;J
+K;0360;Tierp;00;Tierps kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12980;50;J;J;I;J;93519;Lars-Peter Hållstrand;69;M;Tierp;69 år, Pensionär, Hållnäs;55000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;1;J;J;I;J;159440;Sara Sjödal;38;K;Tierp;38 år, agronom, Orrskog;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;2;J;J;I;J;180112;Erik Kolm;61;M;Tierp;61 år, lantbrukare, Uggelbo, Strömsberg;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;3;J;J;I;J;159094;Lotta Carlberg;43;K;Tierp;43 år, egenföretagare, Vendel;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;4;J;J;I;J;159447;Yaqub Ahmed;22;M;Tierp;22 år, föreningsansvarig, Tierp;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;5;J;J;I;J;180115;Anna Ahlin;50;K;Tierp;50 år, kvalitets - och miljöchef, Vallby;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;6;J;J;I;J;159101;Peter Staland;71;M;Tierp;71 år, jägmästare, Söderfors;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;7;J;J;I;J;180117;Anna Grimberg;41;K;Tierp;41 år, redovisningsassistent, Söderby;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;8;J;J;I;J;180118;Magdalena Ewert;45;K;Tierp;45 år, lärare, Tierp;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;9;J;J;I;J;180119;Lars Lindgren;64;M;Tierp;65 år, fd. polisinspektör, Grönö;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;10;J;J;I;J;159449;Helén Jaktlund;63;K;Tierp;63 år, distriktssköterska/uppdragsstrateg, Älby;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;11;J;J;I;J;180121;Mats Wikander;74;M;Tierp;74 år, pensionär, Tierp;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;12;J;J;I;J;180122;Christina Lindholm;41;K;Tierp;41 år, egenföretagare, Tierp;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;13;J;J;I;J;180123;Louise Blomfeldt;26;K;Tierp;26 år, djurskötare och studerande, Hillebola;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;14;J;J;I;J;180124;Anna Ohlström;46;K;Tierp;46 år, lantbrukare, Valparbo;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;15;J;J;I;J;180125;Marianne Eriksson;73;K;Tierp;73 år, pensionär, Hållnäs;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;16;J;J;I;J;180126;Filip Håkansson;43;M;Tierp;43 år, jurist, Tierp;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;17;J;J;I;J;180127;Roger Henningsson;50;M;Tierp;50 år, socionom, Åkerby;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;18;J;J;I;J;180128;Anna-Karin Boman;38;K;Tierp;38 år, lantbrukare, Untra;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;19;J;J;I;J;180129;Jonas Malmqvist;47;M;Tierp;48 år, produktionsledare, Gyllby;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;20;J;J;I;J;180130;Leif Lindgren;71;M;Tierp;71 år, pensionär, Valla;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;21;J;J;I;J;180131;Anders Gejke;74;M;Tierp;74 år, pensionär, Tierp;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;22;J;J;I;J;180132;Per Vendin;67;M;Tierp;67 år, vaktmästare, Tierp;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;23;J;J;I;J;180133;Gustav Berg;60;M;Tierp;60 år, mellan två jobb, Eskesta;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;24;J;J;I;J;180134;Lennart Grimberg;62;M;Tierp;61 år, busschaufför, Söderby;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;25;J;J;I;J;180135;Sakhi Dad Abdul Hamid;48;M;Tierp;47 år, busschaufför, Söderfors;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;26;J;J;I;J;180136;Björn Olsson;57;M;Tierp;57 år, kommunikatör, Åkerby;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;27;J;J;I;J;180137;Christoffer Karlsson;37;M;Tierp;37 år, egenföretagare, Fors;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;28;J;J;I;J;180138;Björn Hellstedt;55;M;Tierp;55 år, lantbrukare, Halls;60000;;J
+K;0360;Tierp;00;Tierps kommun;Centerpartiet;C;4;S;13645;29;J;J;I;J;180139;Erik Kihlén;41;M;Tierp;41 år, civilingenjör, Orrskog;60000;;J
+K;0360;Tierp;00;Tierps kommun;Kristdemokraterna;KD;68;S;14914;1;J;J;I;J;359097;Ann-Kristin Ringefors;54;K;Tierp;53, Undersköterska, Tierp;28000;;J
+K;0360;Tierp;00;Tierps kommun;Kristdemokraterna;KD;68;S;14914;2;J;J;I;J;364391;Lars Svensk;71;M;Tierp;70, Produktchef, Söderfors;28000;;J
+K;0360;Tierp;00;Tierps kommun;Kristdemokraterna;KD;68;S;14914;3;J;J;I;J;356887;Gunilla Wisell;73;K;Tierp;73, f.d. Lärare, Söderfors;28000;;J
+K;0360;Tierp;00;Tierps kommun;Kristdemokraterna;KD;68;S;14914;4;J;J;I;J;364393;Sebastian Nordman;22;M;Tierp;22, Studerande, Tierp;28000;;J
+K;0360;Tierp;00;Tierps kommun;Kristdemokraterna;KD;68;S;14914;5;J;J;I;J;364394;Margareta Wikström Svensk;71;K;Tierp;71, f.d. Distriktssköterska, Söderfors;28000;;J
+K;0360;Tierp;00;Tierps kommun;Kristdemokraterna;KD;68;S;14914;6;J;J;I;J;364395;Börje Flygman;65;M;Tierp;65, Pastor, Karlholmsbruk;28000;;J
+K;0360;Tierp;00;Tierps kommun;Kristdemokraterna;KD;68;S;14914;7;J;J;I;J;356901;Angelica Pettersson;30;K;Tierp;29, Miljö-& Hälsoskyddsinspektör, Tobo;28000;;J
+K;0360;Tierp;00;Tierps kommun;Kristdemokraterna;KD;68;S;14914;8;J;J;I;J;359099;Thomas Gahnstedt;66;M;Tierp;66, Försäljare, Älvkarleby;28000;;J
+K;0360;Tierp;00;Tierps kommun;Kristdemokraterna;KD;68;S;14914;9;J;J;I;J;364398;Jan Berglund;71;M;Tierp;71, f.d Byggnadsmålare, Tierp;28000;;J
+K;0360;Tierp;00;Tierps kommun;Kristdemokraterna;KD;68;S;14914;10;J;J;I;J;364399;Andreas Sågström;23;M;Tierp;22, Studerande, Tierp;28000;;J
+K;0360;Tierp;00;Tierps kommun;Landsbygdspartiet Oberoende;LPo;1011;S;13539;1;J;J;I;J;164157;Per-Olof Flood;64;M;Tierp;64 år, f.d Mångsysslare, Tierp;5000;;J
+K;0360;Tierp;00;Tierps kommun;Landsbygdspartiet Oberoende;LPo;1011;S;13539;2;J;J;I;J;164158;Rolf Löfgren;70;M;Tierp;70 år, f.d Tulltjänsteman, Karlsholmsbruk;5000;;J
+K;0360;Tierp;00;Tierps kommun;Landsbygdspartiet Oberoende;LPo;1011;S;13539;3;J;J;I;J;164290;Desirè Troëng;41;K;Tierp;41 år, Väktare/Bonde, Örbyhus;5000;;J
+K;0360;Tierp;00;Tierps kommun;Liberalerna (tidigare Folkpartiet);L;3;S;12495;1;J;J;I;J;53546;Alfred Mujambere;40;M;Tierp;40 år, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Liberalerna (tidigare Folkpartiet);L;3;S;12495;2;J;J;I;J;53918;Sarah Näslund;30;K;Tierp;30 år, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Liberalerna (tidigare Folkpartiet);L;3;S;12495;3;J;J;I;J;53919;Robert Lemming;45;M;Tierp;45 år, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Liberalerna (tidigare Folkpartiet);L;3;S;12495;4;J;J;I;J;53550;Ann-Cathrin Larsson;60;K;Tierp;60 år, Örbyhus;50000;;J
+K;0360;Tierp;00;Tierps kommun;Liberalerna (tidigare Folkpartiet);L;3;S;12495;5;J;J;I;J;114634;Göran Larsson;64;M;Tierp;64 år, Örbyhus;50000;;J
+K;0360;Tierp;00;Tierps kommun;Medborgerlig Samling;MED;1296;S;15002;1;J;J;I;J;383456;Tommy Hellberg;46;M;Tierp;46 år systemadministratör;1000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;1;J;J;I;J;385002;Joachim Stormvall;37;M;Tierp;37 år, Bokförläggare, Månkarbo;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;2;J;J;I;J;382635;Jenny Lundström;51;K;Tierp;51 år, Regionråd/veterinär, Tobo;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;3;J;J;I;J;385004;Oskar Jonsson;40;M;Tierp;40 år, Illustratör, Örbyhus;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;4;J;J;I;J;383003;Brita Kajrup;75;K;Tierp;75 år, Biomedicinsk analytiker, Tobo;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;5;J;J;I;J;383015;Oliver Klett;48;M;Tierp;48 år, Kemist, Örbyhus;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;6;J;J;I;J;385007;Karolina Larsson;40;K;Tierp;40 år, Lärare, Tobo;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;7;J;J;I;J;385008;Monica Ulfsdotter Pettersson;55;K;Tierp;55 år, Verksamhetschef, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;8;J;J;I;J;382670;Rose Marie Nejdling;72;K;Tierp;72 år, Pastor/guide, Tobo;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;9;J;J;I;J;385010;Pär Lindqvist;46;M;Tierp;46 år, Lantbrukare, Vendel;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;10;J;J;I;J;385011;Elisabet Jansson;67;K;Tierp;67 år, Egenföretagare, Örbyhus;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;11;J;J;I;J;382651;Sylvia Lundholm;49;K;Tierp;49 år, Nationell samordnare, Örbyhus;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;12;J;J;I;J;385013;Anders Arnell;59;M;Tierp;59 år, Naturvägledare, Vendel;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;13;J;J;I;J;385014;Karin Gerhardt;57;K;Tierp;57 år, Biolog/mathantverkare, Vendel;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;14;J;J;I;J;385015;Catrin Öhman Björk;51;K;Tierp;51 år, Gymnasielärare, Örbyhus;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;15;J;J;I;J;385016;Berndt-Olov Jacobsson;52;M;Tierp;52 år, Fabriksarbetare, Skärplinge;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;16;J;J;I;J;385017;Nathalie Nordén;35;K;Tierp;35 år, Projektledare/utbildare, Tobo;50000;;J
+K;0360;Tierp;00;Tierps kommun;Miljöpartiet de gröna;MP;55;S;15013;17;J;J;I;J;385018;Kenneth Gunnarsson;65;M;Tierp;65 år, Fotograf, Söderfors;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;1;J;J;I;J;133552;Lars-Göran Birkehorn Karlsen;62;M;Tierp;62 år, Företagare, Tobo;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;2;J;J;I;J;132923;Åsa Sikberg;51;K;Tierp;51 år, Lantbrukare, Lövstabruk;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;3;J;J;I;J;135073;Sven Lokander;74;M;Tierp;74 år, F. d. energiingenjör , Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;4;J;J;I;J;135074;Carola Fredén;55;K;Tierp;55 år, Konsult , Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;5;J;J;I;J;135075;Emma Lokander;33;K;Tierp;33 år, Studerande, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;6;J;J;I;J;135076;Kenneth Karlsson;64;M;Tierp;64 år, Maskiningenjör, Hållnäs;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;7;J;J;I;J;135077;Anders Eklund;74;M;Tierp;74 år, Tekn. mag., Söderfors;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;8;J;J;I;J;135078;Jessica Tindre Falk;42;K;Tierp;42 år, Projektledare, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;9;J;J;I;J;135079;Stig Lundqvist;77;M;Tierp;77 år, F. d. företagare, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;10;J;J;I;J;135080;Regina Birkehorn;54;K;Tierp;54 år, Krisexpert, Tobo;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;11;J;J;I;J;135081;Jelena Radojcic Zivkovic;54;K;Tierp;54 år, Restaurangägare, Hållnäs;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;12;J;J;I;J;135082;Ulla Löjdquist;87;K;Tierp;87 år, F. d. företagare, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;13;J;J;I;J;135083;Ronny Bränneland;68;M;Tierp;68 år, Chaufför, Skärplinge;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;14;J;J;I;J;135084;Kaisa Westerholm;71;K;Tierp;71 år, Pensionär, Skärplinge;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;15;J;J;I;J;135085;Suncica Zivkovic;30;K;Tierp;30 år, Sjuksköterskestuderande, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;16;J;J;I;J;135086;Annaliisa Allas;32;K;Tierp;32 år, Studerande, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Moderaterna;M;1;S;13340;17;J;J;I;J;135087;Hans Sikberg;52;M;Tierp;52 år, Lantbrukare, Lövstabruk;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;1;J;J;I;J;138077;Joakim Larsson;43;M;Tierp;43 år, politisk sekreterare, Örbyhus;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;2;J;J;I;N;138078;[inte lämnat förklaring];;;;;50000;;N
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;3;J;J;I;J;138079;Daniel Hedberg;37;M;Tierp;37 år, chaufför, Örbyhus;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;4;J;J;I;J;138080;Jonhas Åker;57;M;Tierp;57 år, chaufför, Lövstabruk;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;5;J;J;I;J;138081;Bengt Lindström;77;M;Tierp;77 år, f.d. busschaufför, Karlholmsbruk;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;6;J;J;I;J;138082;Klas Jakobsson;29;M;Tierp;29 år, energitekniker, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;7;J;J;I;J;138083;Per Karlsson;51;M;Tierp;51 år, processoperatör, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;8;J;J;I;J;138084;Kenneth Lignell;67;M;Tierp;67 år, konstförvant, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;9;J;J;I;J;138085;Lars-Ola Sandström;59;M;Tierp;59 år, ingenjör, Söderfors;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;10;J;J;I;J;138086;Rosa Ingeborg Malmberg;81;K;Tierp;81 år, f.d. postkassör, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;11;J;J;I;J;138087;Rickard Olsson;27;M;Tierp;27 år, bilmekaniker, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;12;J;J;I;J;138088;Johan Söderström;37;M;Tierp;37 år, fastighetsskötare, Tobo;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;13;J;J;I;J;138089;Esperanza Halvorsen;62;K;Tierp;62 år, entreprenör, Tobo;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;14;J;J;I;J;138090;Ulf Enarsson;61;M;Tierp;61 år, verkstadsarbetare, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;15;J;J;I;J;138091;Eva-Mari Lindström;64;K;Tierp;64 år, pensionär, Tobo;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;16;J;J;I;J;138092;Sofia Jakobsson;31;K;Tierp;31 år, vårdbiträde, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;17;J;J;I;J;138093;Victor Ljung;26;M;Tierp;26 år, lastbilschaufför, Månkarbo;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;18;J;J;I;J;138094;Simon Brännström;21;M;Tierp;21 år, student, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;19;J;J;I;J;138095;Bengt Asplund;66;M;Tierp;66 år, busschaufför, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;20;J;J;I;J;138096;Veronica Mattsson;45;K;Tierp;45 år, restaurangbiträde, Skärplinge;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;21;J;J;I;J;138097;Tony Eilertsen;38;M;Tierp;38 år, personlig assistent, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;22;J;J;I;J;138098;Jeanette Asplund;73;K;Tierp;73 år, sjukvårdsbiträde, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Sverigedemokraterna;SD;110;S;13365;23;J;J;I;J;138099;Pär Tyskling;38;M;Tierp;38 år, IT-chef, Tierp;50000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;1;J;J;I;J;384952;Alexander Karlsson;32;M;Tierp;Örbyhus;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;2;J;J;I;J;384953;Agnetha Andersson;65;K;Tierp;Tierp;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;3;J;J;I;J;384954;Anna Zmudzin-Ågren;63;K;Tierp;Tierp;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;4;J;J;I;J;384955;Urban Blomster;69;M;Tierp;Söderfors;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;5;J;J;I;J;384956;Emmanuel Nzisabira;48;M;Tierp;Tierp;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;6;J;J;I;J;384957;Krister Andersson;44;M;Tierp;Tierp;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;7;J;J;I;J;384958;Eva Berglund;64;K;Tierp;Söderfors;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;8;J;J;I;J;384959;Annie Pettersson;51;K;Tierp;Örbyhus;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;9;J;J;I;J;384960;Andreas Vestin;38;M;Tierp;Karlholms bruk;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;10;J;J;I;J;384961;Anette Wilger;61;K;Tierp;Örbyhus;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;11;J;J;I;J;384962;Elisabeth Rosengren;68;K;Tierp;Strömsbergs bruk;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;12;J;J;I;J;384963;Ulla Hjälm Karlsson;66;K;Tierp;Skogsbo;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;13;J;J;I;J;384964;Lasse Karlsson;67;M;Tierp;Skogsbo;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;14;J;J;I;J;384965;Eva Ezim;61;K;Tierp;Örbyhus;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;15;J;J;I;J;384966;Bert Karlsson;65;M;Tierp;Tierp;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;16;J;J;I;J;384967;Mikael Skärlund;33;M;Tierp;Mehedeby;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;17;J;J;I;J;384968;Petra Runesdotter;54;K;Tierp;Tierp;25000;;J
+K;0360;Tierp;00;Tierps kommun;Vänsterpartiet;V;5;S;15012;18;J;J;I;J;403852;Lars-Göran Wadström;80;M;Tierp;Yttrö;25000;;J

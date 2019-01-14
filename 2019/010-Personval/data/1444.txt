@@ -1,0 +1,99 @@
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;1;J;J;I;J;33812;Petter Johansson;36;M;Grästorp;Stödassistent;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;2;J;J;I;J;33813;Kristina Eriksson;54;K;Grästorp;Undersköterska/Skötare;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;3;J;J;I;J;33814;Jens Persson;61;M;Grästorp;Skötare;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;4;J;J;I;J;33815;Emma Andersson;36;K;Grästorp;Medicinsk sekreterare;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;5;J;J;I;J;33816;Göran Enström;73;M;Grästorp;Pensionär;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;6;J;J;I;J;33817;Elisabeth Hansson Ohlsson;45;K;Grästorp;Stödassistent;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;7;J;J;I;J;33818;Kenneth Wulcan;65;M;Grästorp;Vaktmästare;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;8;J;J;I;J;33819;Ann-Helen Antonsson;52;K;Grästorp;Akademiker;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;9;J;J;I;J;33820;Henrik Svensson;25;M;Grästorp;Student;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;10;J;J;I;J;33821;Ramona Karlsson;28;K;Grästorp;Personlig assistent;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;11;J;J;I;J;33822;Anders Ehrnbecker;35;M;Grästorp;Produktionsplanerare;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;12;J;J;I;J;33823;Keivan Moloudi;46;M;Grästorp;Student;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;13;J;J;I;J;33824;Tore Emanuelsson;66;M;Grästorp;Pensionär;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;14;J;J;I;J;33825;Kristina Augustsson;48;K;Grästorp;Administratör;14000;;J
+K;1444;Grästorp;00;Grästorp;Arbetarepartiet-Socialdemokraterna;S;2;S;12232;15;J;J;I;J;33826;Johan Augustsson;52;M;Grästorp;Drifttekniker;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;1;J;J;I;J;3201;Tobias Leverin;45;M;Grästorp;Flo,Civilingenjör,45 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;2;J;J;I;J;3217;Maria Toll;44;K;Grästorp;Grästorp,Samordnare,44 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;3;J;J;I;J;3244;Svante Classon;55;M;Grästorp;Tengene,Sjukhusdiakon,55 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;4;J;J;I;J;3270;Madeleine Vinberg;42;K;Grästorp;Grästorp,Pedagog,42 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;5;J;J;I;J;5155;Niclas Toll;46;M;Grästorp;Grästorp,Familjebehandlare,46 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;6;J;J;I;J;3226;Johanna Ekekrantz;36;K;Grästorp;Grästorp,Landsbygdsutvecklare,36 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;7;J;J;I;J;5157;Gunnar Nyvaller;61;M;Grästorp;Grästorp,Tjänsteman,61 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;8;J;J;I;J;5158;Rose-Marie Edvardsson;66;K;Grästorp;Sal,Pensionär,66 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;9;J;J;I;J;5159;Joakim Andersson;40;M;Grästorp;Grästorp,Konsult,40 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;10;J;J;I;J;5160;Inger Paulsson;63;K;Grästorp;Grästorp,Distributör,63 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;11;J;J;I;J;5161;Stefan Andersson;45;M;Grästorp;Särestad,Civilingenjör,45 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;12;J;J;I;J;5162;Petra Sahlén;55;K;Grästorp;Grästorp,Leg. sjuksköterska,55 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;13;J;J;I;J;5163;Thomas Rigland;66;M;Grästorp;Håle,Pensionär,66 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;14;J;J;I;J;5164;Krister Önnermalm;48;M;Grästorp;Grästorp,Civilingenjör,48 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;15;J;J;I;J;5165;Inge Fransson;64;M;Grästorp;Tengene,Handlare,64 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;16;J;J;I;J;5166;Christina Lindh;75;K;Grästorp;Grästorp,Pensionär,75 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;17;J;J;I;J;5167;Roger Olofsson;73;M;Grästorp;Tun,Lantbrukare,73 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;18;J;J;I;J;5168;Angela Rigland;69;K;Grästorp;Grästorp,Förvaltare,69 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;19;J;J;I;J;5169;Clas-Göran Andersson;50;M;Grästorp;Håle,Lantbrukare,50 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Centerpartiet;C;4;S;11817;20;J;J;I;J;5170;Elisabeth Hagberg;66;K;Grästorp;Längnum,Tapetserare,66 år;14000;;J
+K;1444;Grästorp;00;Grästorp;Folkhemmet Sverige;;1388;;;;N;J;J;I;515655;Bruzell, Katarina;54;K;Grästorp;;0;;J
+K;1444;Grästorp;00;Grästorp;Kristdemokraterna;KD;68;S;15636;1;N;J;J;I;503777;Olivia Larsson;20;K;Grästorp;20, Matros/ungdomsledare, Grästorp;9000;;J
+K;1444;Grästorp;00;Grästorp;Kristdemokraterna;KD;68;;;;N;J;J;I;515375;Carlsson, Anna-Marie Elisabeth;76;K;Grästorp;;0;;J
+K;1444;Grästorp;00;Grästorp;Liberalerna (tidigare Folkpartiet);L;3;S;12197;1;J;J;I;J;25029;Dag Hardysson;66;M;Grästorp;civilekonom;14000;;J
+K;1444;Grästorp;00;Grästorp;Liberalerna (tidigare Folkpartiet);L;3;S;12197;2;J;J;I;J;30868;Camilla Söljemo;49;K;Grästorp;systemutvecklare;14000;;J
+K;1444;Grästorp;00;Grästorp;Liberalerna (tidigare Folkpartiet);L;3;S;12197;3;J;J;I;J;30869;Jan Emanuelsson;71;M;Grästorp;sjöingenjör;14000;;J
+K;1444;Grästorp;00;Grästorp;Liberalerna (tidigare Folkpartiet);L;3;S;12197;4;J;J;I;J;30870;Katharina Larsson;53;K;Grästorp;företagare;14000;;J
+K;1444;Grästorp;00;Grästorp;Liberalerna (tidigare Folkpartiet);L;3;S;12197;5;J;J;I;J;30871;Per Götell;69;M;Grästorp;fd. flygkapten;14000;;J
+K;1444;Grästorp;00;Grästorp;Liberalerna (tidigare Folkpartiet);L;3;S;12197;6;J;J;I;J;30872;Anneli Götell;66;K;Grästorp;gymnasielärare;14000;;J
+K;1444;Grästorp;00;Grästorp;Liberalerna (tidigare Folkpartiet);L;3;S;12197;7;J;J;I;J;30873;Stefan Söljemo;49;M;Grästorp;automationsingenjör;14000;;J
+K;1444;Grästorp;00;Grästorp;Liberalerna (tidigare Folkpartiet);L;3;S;12197;8;J;J;I;J;30874;Dorina Hapenciuc;43;K;Grästorp;lokalvårdare;14000;;J
+K;1444;Grästorp;00;Grästorp;Liberalerna (tidigare Folkpartiet);L;3;S;12197;9;J;J;I;J;30875;Peter Spetz;52;M;Grästorp;mekaniker;14000;;J
+K;1444;Grästorp;00;Grästorp;Liberalerna (tidigare Folkpartiet);L;3;S;12197;10;J;J;I;J;30876;Gudrun Alfredssom;86;K;Grästorp;fd.företagare;14000;;J
+K;1444;Grästorp;00;Grästorp;Liberalerna (tidigare Folkpartiet);L;3;S;12197;11;J;J;I;J;30877;Per Erik Wikstredt;88;M;Grästorp;fd.militär;14000;;J
+K;1444;Grästorp;00;Grästorp;Miljöpartiet de gröna;MP;55;S;12658;1;J;J;I;J;65384;Jonas Blomster;21;M;Grästorp;21 år, Student, Grästorp;11000;;J
+K;1444;Grästorp;00;Grästorp;Miljöpartiet de gröna;MP;55;S;12658;2;J;J;I;J;65385;Isabel Ferrer-Domenech;31;K;Grästorp;31 år, Lärare, Grästorp;11000;;J
+K;1444;Grästorp;00;Grästorp;Miljöpartiet de gröna;MP;55;S;12658;3;J;J;I;J;65386;Gunnel Lundmark;75;K;Grästorp;75 år, Eldsjäl, Grästorp;11000;;J
+K;1444;Grästorp;00;Grästorp;Miljöpartiet de gröna;MP;55;S;12658;4;J;J;I;J;65387;Ingela Kumar-Lidvall;70;K;Grästorp;70 år, Grästorp;11000;;J
+K;1444;Grästorp;00;Grästorp;Miljöpartiet de gröna;MP;55;S;12658;5;J;J;I;J;65388;Pär Lundmark;50;M;Grästorp;50 år, Försvarsanställd, Grästorp;11000;;J
+K;1444;Grästorp;00;Grästorp;Miljöpartiet de gröna;MP;55;S;12658;6;J;J;I;J;65389;Anders Ferrer;40;M;Grästorp;40 år, Bloggare, Grästorp;11000;;J
+K;1444;Grästorp;00;Grästorp;Miljöpartiet de gröna;MP;55;S;12658;7;J;J;I;J;65391;Linda Ernelid;49;K;Grästorp;49 år, Ingenjör, Grästorp;11000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;1;J;J;I;J;253982;Kent Larsson;54;M;Grästorp;54 år, Kommunstyrelsens ordförande;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;2;J;J;I;J;253993;Carina Torpenberg;52;K;Grästorp;52 år, Management konsult;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;3;J;J;I;J;254356;Kent Hansson;68;M;Grästorp;68 år, Pensionär;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;4;J;J;I;J;255126;Eva Tengeland;56;K;Grästorp;56 år, Personlig assistent;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;5;J;J;I;J;255127;Stina Månsson;33;K;Grästorp;33 år, Hortonom;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;6;J;J;I;J;255128;Robert Fransson;31;M;Grästorp;31 år, Officer;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;7;J;J;I;J;255129;Thomas Johansson;38;M;Grästorp;38 år, Produktionschef;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;8;J;J;I;J;255130;Michael Ruud;40;M;Grästorp;40 år, Systemingenjör;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;9;J;J;I;J;255131;Annica Johansson;55;K;Grästorp;55 år, Revysömmerska;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;10;J;J;I;J;255132;Henrik Svensson;49;M;Grästorp;49 år, Logistikchef;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;11;J;J;I;J;255133;Leo Torpenberg;21;M;Grästorp;21 år, Egen företagare;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;12;J;J;I;J;255134;Monia Persson;81;K;Grästorp;81 år, Pensionär;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;13;J;J;I;J;255135;Dennis Månsson;29;M;Grästorp;29 år, Projektledare;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;14;J;J;I;J;255136;Carin Vulkan;49;K;Grästorp;49 år, Undersköterska;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;15;J;J;I;J;255137;David Holst;37;M;Grästorp;37 år, Egen företagare;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;16;J;J;I;J;255138;Kristina Öhman;62;K;Grästorp;62 år, Banktjänsteman;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;17;J;J;I;J;255139;Stefan Pettersson;55;M;Grästorp;55 år, Lantbrukare;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;18;J;J;I;J;255140;Birgitta Karlsson;59;K;Grästorp;59 år, Undersköterska;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;19;J;J;I;J;255141;Magnus Karlsson;59;M;Grästorp;59 år, Lantbrukare;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;20;J;J;I;J;255142;Sofia Gustavsen;43;K;Grästorp;43 år, Processutvecklare;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;21;J;J;I;J;255143;Leif Hermansson;47;M;Grästorp;47 år, Civilingenjör;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;22;J;J;I;J;255144;Ulf Ojala;52;M;Grästorp;52 år, Serviceingenjör;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;23;J;J;I;J;255145;Marcus Larsson;36;M;Grästorp;36 år, VD Radio Treby;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;24;J;J;I;J;255146;Elin Ruud;38;K;Grästorp;38 år, Redovisningsekonom;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;25;J;J;I;J;255147;Magnus Hofling;36;M;Grästorp;36 år, Skogsentreprenör;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;26;J;J;I;J;255148;Kent Jonsson;68;M;Grästorp;68 år, Lantbrukare;14000;;J
+K;1444;Grästorp;00;Grästorp;Moderaterna;M;1;S;14312;27;J;J;I;J;255149;Kjell Andersson;68;M;Grästorp;68 år, Lärare;14000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15454;1;N;J;J;I;66290;Magnus Harjapää;43;M;Grästorp;Politisk sekreterare, 43;14000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15454;2;N;J;J;I;66291;Linda Fridlund;44;K;Grästorp;Undersköterska, 44;14000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15454;3;N;J;J;I;66292;Riona Hansson;62;K;Grästorp;Kock, 62;14000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15454;4;N;J;J;I;66293;Klas Hilmersson;47;M;Grästorp;Maskintekniker, 47;14000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15454;5;N;J;J;I;66294;Marlene Hansson;40;K;Grästorp;Kock, 41;14000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15454;6;N;J;J;I;225191;Sven-Olof Bergqvist;76;M;Grästorp;Tekniker/Pensionär, 77;14000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15744;1;N;J;J;I;66290;Magnus Harjapää;43;M;Grästorp;43, politisk sekreterare;6000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15744;2;N;J;J;I;66291;Linda Fridlund;44;K;Grästorp;44, undersköterska;6000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15744;3;N;J;J;I;66292;Riona Hansson;62;K;Grästorp;62, kock;6000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15744;4;N;J;J;I;66293;Klas Hilmersson;47;M;Grästorp;47, maskintekniker;6000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15744;5;N;J;J;I;66294;Marlene Hansson;40;K;Grästorp;41, kock;6000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15744;6;N;J;J;I;225191;Sven-Olof Bergqvist;76;M;Grästorp;77, pensionär;6000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15744;7;N;J;J;I;508809;Kai Wichers;50;M;Grästorp;50, officer;6000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15744;8;N;J;J;I;508810;Maria Fridlund;64;K;Grästorp;64, pensionär;6000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15744;9;N;J;J;I;507176;Malin Skoberne;40;K;Grästorp;40, vårdbiträde;6000;;J
+K;1444;Grästorp;00;Grästorp;Sverigedemokraterna;SD;110;S;15744;10;N;J;J;I;508812;Agnethe Hamrén;79;K;Grästorp;79, pensionär;6000;;J

@@ -1,0 +1,169 @@
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;1;J;J;I;J;66380;Björn Axtelius;66;M;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;2;J;J;I;J;66381;Birgitta Tengqvist;70;K;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;3;J;J;I;J;66382;Jörgen Nord;74;M;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;4;J;J;I;J;28164;Lars Klang;57;M;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;5;J;J;I;J;66384;Dick Stenberg;63;M;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;6;J;J;I;J;66385;Mats Tindberg;63;M;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;7;J;J;I;J;66386;Lars-Åke Andersson;74;M;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;8;J;J;I;J;66387;Orvar Turegård;74;M;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;9;J;J;I;J;54753;Petra Revemark;48;K;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;10;J;J;I;J;66389;Agneta Persson;58;K;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;11;J;J;I;J;54762;Jan Holmgren;70;M;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;12;J;J;I;J;66391;Caroline Johansson;30;K;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;13;J;J;I;J;66392;Mats Ståhl;48;M;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;14;J;J;I;J;66393;Ann-Christin Lorentz Olsson;72;K;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;15;J;J;I;J;66394;Per-Erik Lundquist;74;M;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;16;J;J;I;J;66395;Katarina Ribbing;60;K;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;17;J;J;I;J;66396;Benny Wiklund;59;M;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;18;J;J;I;J;66397;Christina Skörvald;74;K;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;19;J;J;I;J;66398;Willy Olsson;78;M;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Arbetarepartiet-Socialdemokraterna;S;2;S;12680;20;J;J;I;J;66399;Bo-Göran Olsson;75;M;Vellinge;;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;1;J;J;I;J;80377;Magdalena Nour;47;K;Vellinge;47, VD, Skanör;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;2;J;J;I;J;80378;Rolf Erichs;72;M;Vellinge;72, Konsult, Falsterbo;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;3;J;J;I;J;80379;Anders Johansson;46;M;Vellinge;46, Producent, Höllviken;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;4;J;J;I;J;80380;Anina Söderlund;64;K;Vellinge;64, Läkare, Ljunghusen;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;5;J;J;I;J;80381;Karin Petersson;33;K;Vellinge;33, Miljökonsult, Höllviken;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;6;J;J;I;J;80382;Mikael Kinning;59;M;Vellinge;59, Hybridkreatör, Höllviken;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;7;J;J;I;J;80383;Erik Campbell;66;M;Vellinge;66, Läkare, Höllviken;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;8;J;J;I;J;80384;Madeleine Carlsson Ahnell;46;K;Vellinge;46, Trädgårdsarkitekt, Falsterbo;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;9;J;J;I;J;39312;David Möller;33;M;Vellinge;33, Sjukpensionär, Vellinge;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;10;J;J;I;J;80386;Peter Jonsson;64;M;Vellinge;64, Bolagsjurist, Falsterbo;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;11;J;J;I;J;80387;Hans Hansson;49;M;Vellinge;49, Busschaufför, Vellinge;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;12;J;J;I;J;80388;Kristin Roos;67;K;Vellinge;67, Pensionär, Ljunghusen;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;13;J;J;I;J;80389;Jessica Cassland;44;K;Vellinge;44, Gymnasielärare, Vellinge;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;14;J;J;I;J;80390;Linus Larsson;30;M;Vellinge;30, Byråchef, Hököpinge kyrkby;82000;;J
+K;1233;Vellinge;00;Vellinge;Centerpartiet;C;4;S;12910;15;J;J;I;J;80391;Anita Lilliecrantz Norén;73;K;Vellinge;73, Leg. Barnmorska, Höllviken;82000;;J
+K;1233;Vellinge;00;Vellinge;Kristdemokraterna;KD;68;S;12978;1;J;J;I;J;31850;Fabian Sivnert;26;M;Vellinge;26, student, Höllviken;15000;;J
+K;1233;Vellinge;00;Vellinge;Kristdemokraterna;KD;68;S;12978;2;J;J;I;J;92645;Åke Hansson;78;M;Vellinge;77, egen företagare, Höllviken;15000;;J
+K;1233;Vellinge;00;Vellinge;Kristdemokraterna;KD;68;S;12978;3;J;J;I;J;92646;Kjell Bornhager;74;M;Vellinge;73, fd speciallärare, Höllviken;15000;;J
+K;1233;Vellinge;00;Vellinge;Kristdemokraterna;KD;68;S;12978;4;J;J;I;J;92647;Birgitta Wramling-Lundell;77;K;Vellinge;77, pensionär, Höllviken;15000;;J
+K;1233;Vellinge;00;Vellinge;Kristdemokraterna;KD;68;S;12978;5;J;J;I;J;354210;Louise Ericson;18;K;Vellinge;18, studerande, Skanör;15000;;J
+K;1233;Vellinge;00;Vellinge;Kristdemokraterna;KD;68;S;12978;6;J;J;I;J;354211;Christer Björkegren;70;M;Vellinge;70, egen företagare, Falsterbo;15000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;1;J;J;I;J;263870;Henrik Thorsell;54;M;Vellinge;Ljunghusen;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;2;J;J;I;J;261148;Anders Cnattingius;52;M;Vellinge;Ljunghusen;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;3;J;J;I;J;261145;Annmari Paulcén;52;K;Vellinge;Gessie Villastad;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;4;J;J;I;J;263873;Ola Svantesson;59;M;Vellinge;Ljunghusen;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;5;J;J;I;J;178262;Andreas Johansson;32;M;Vellinge;Vellinge;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;6;J;J;I;J;263875;Mikael Dahlgren;56;M;Vellinge;Höllviken;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;7;J;J;I;J;263876;Lennart Eriksson;75;M;Vellinge;Falsterbo;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;8;J;J;I;J;178256;Måns Weimarck;49;M;Vellinge;Höllviken;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;9;J;J;I;J;263878;Per Edeheim;66;M;Vellinge;Ljunghusen;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;10;J;J;I;J;263879;Lilian Heier-Eriksson;73;K;Vellinge;Falsterbo;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;11;J;J;I;J;261164;Christian Jensen;35;M;Vellinge;Hököpinge;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;12;J;J;I;J;263881;Linda Wejderot;44;K;Vellinge;Vellinge;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;13;J;J;I;J;178268;Bertil Wilén;73;M;Vellinge;Höllviken;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;14;J;J;I;J;263883;Jeanette Jensen Johansson;45;K;Vellinge;Hököpinge;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;15;J;J;I;J;178257;Frida Svensson;31;K;Vellinge;Skanör;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;16;J;J;I;J;263886;Phyllis Dyrvall;69;K;Vellinge;Ljunghusen;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;17;J;J;I;J;263887;Magnus Bergström;56;M;Vellinge;Skanör;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;18;J;J;I;J;263888;Roland Zlobeck;61;M;Vellinge;Ljunghusen;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;19;J;J;I;J;263890;Ida Liedholm-Perulf;45;K;Vellinge;Skanör;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;20;J;J;I;J;263891;Thord Meyerson;67;M;Vellinge;Ljunghusen;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;21;J;J;I;J;263893;Boel Franzén Sveger;66;K;Vellinge;Skanör;41000;;J
+K;1233;Vellinge;00;Vellinge;Liberalerna (tidigare Folkpartiet);L;3;S;14386;22;J;J;I;J;263894;Gunilla Selander;78;K;Vellinge;Höllviken;41000;;J
+K;1233;Vellinge;00;Vellinge;Medborgerlig Samling;MED;1296;S;13430;1;J;J;I;J;124847;Mons Krabbe;43;M;Vellinge;43, säkerhetspolitisk konsult, Skanör;9000;;J
+K;1233;Vellinge;00;Vellinge;Medborgerlig Samling;MED;1296;S;13430;2;J;J;I;J;149396;Sten Ivarsson;39;M;Vellinge;38, bibliotekarie, Skanör;9000;;J
+K;1233;Vellinge;00;Vellinge;Medborgerlig Samling;MED;1296;S;13430;3;J;J;I;J;149397;Magdalena Paulsson;30;K;Vellinge;30, bibliotekarie, Skanör;9000;;J
+K;1233;Vellinge;00;Vellinge;Medborgerlig Samling;MED;1296;S;13430;4;J;J;I;J;149398;Johan Hegethorn;54;M;Vellinge;54, jurist, Höllviken;9000;;J
+K;1233;Vellinge;00;Vellinge;Medborgerlig Samling;MED;1296;S;13430;5;J;J;I;J;149399;Anders Ekedahl;69;M;Vellinge;69, docent, Höllviken;9000;;J
+K;1233;Vellinge;00;Vellinge;Medborgerlig Samling;MED;1296;S;13430;6;J;J;I;J;149400;Jacob Lerenius;37;M;Vellinge;37, civilingenjör, Stävie;9000;;J
+K;1233;Vellinge;00;Vellinge;Miljöpartiet de gröna;MP;55;S;12494;1;J;J;I;J;20741;Angela Everbäck;60;K;Vellinge;Höllviken;50000;;J
+K;1233;Vellinge;00;Vellinge;Miljöpartiet de gröna;MP;55;S;12494;2;J;J;I;J;21528;Ann Stenberg;69;K;Vellinge;Ljunghusen;50000;;J
+K;1233;Vellinge;00;Vellinge;Miljöpartiet de gröna;MP;55;S;12494;3;J;J;I;J;20777;Jan Björkman;53;M;Vellinge;Vellinge;50000;;J
+K;1233;Vellinge;00;Vellinge;Miljöpartiet de gröna;MP;55;S;12494;4;J;J;I;J;21315;Madeleine Arderup;53;K;Vellinge;Skanör;50000;;J
+K;1233;Vellinge;00;Vellinge;Miljöpartiet de gröna;MP;55;S;12494;5;J;J;I;J;53912;Håkan Bjerking;60;M;Vellinge;Höllviken;50000;;J
+K;1233;Vellinge;00;Vellinge;Miljöpartiet de gröna;MP;55;S;12494;6;J;J;I;J;53913;Anilya Jönsson;18;K;Vellinge;Höllviken;50000;;J
+K;1233;Vellinge;00;Vellinge;Miljöpartiet de gröna;MP;55;S;12494;7;J;J;I;J;21525;Sylvia Rådelius;60;K;Vellinge;Skanör;50000;;J
+K;1233;Vellinge;00;Vellinge;Miljöpartiet de gröna;MP;55;S;12494;8;J;J;I;J;53915;Lisbeth Jönsson;54;K;Vellinge;Höllviken;50000;;J
+K;1233;Vellinge;00;Vellinge;Miljöpartiet de gröna;MP;55;S;12494;9;J;J;I;J;53916;Ulrika Wahlgren;48;K;Vellinge;Höllviken;50000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;1;J;J;I;J;62686;Carina Wutzler;47;K;Vellinge;47 år, kommunalråd, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;2;J;J;I;J;62687;Anders Hansson;42;M;Vellinge;42 år, tullinspektör, riksdagsledamot, Falsterbo;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;3;J;J;I;J;62688;Anna Mannfalk;59;K;Vellinge;59 år, civilekonom, Ljunghusen;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;4;J;J;I;J;62689;Gustav Schyllert;31;M;Vellinge;31 år, tjänsteman, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;5;J;J;I;J;62690;Karin Lönnergård-Grevendahl;62;K;Vellinge;62 år, f.d. banktjänsteman, Falsterbo;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;6;J;J;I;J;62691;Hans Cedergren;50;M;Vellinge;50 år, lantbrukare, Östra Grevie;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;7;J;J;I;J;62692;Anna Tinglöf;41;K;Vellinge;41 år, chief operations officer, Vellinge;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;8;J;J;I;J;62693;Eric Queckfeldt;65;M;Vellinge;65 år, företagare, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;9;J;J;I;J;62694;Lars Renhed;51;M;Vellinge;51 år, exportsäljchef, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;10;J;J;I;J;62695;Ulrica Fors Stenmarck;45;K;Vellinge;45 år, politisk sekreterare, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;11;J;J;I;J;62696;Elisabeth Tedestål;59;K;Vellinge;59 år, civilekonom, Vellinge väster;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;12;J;J;I;J;62697;Rasmus Tönning Hansson;27;M;Vellinge;27 år, jurist, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;13;J;J;I;J;62698;Synnøve Frick;50;K;Vellinge;50 år, hotelladministratör, Falsterbo;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;14;J;J;I;J;62699;Marie-Louise Bergman;61;K;Vellinge;61 år, fastighetsförvaltare, Vellinge;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;15;J;J;I;J;62700;Hannah Renhed;19;K;Vellinge;19 år, studerande, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;16;J;J;I;J;62701;Lars-Ingvar Ljungman;65;M;Vellinge;65 år, tandläkare, Ljunghusen;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;17;J;J;I;J;62702;Peter Jungbeck;67;M;Vellinge;67 år, VD, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;18;J;J;I;J;62703;Catarina Wictorsson;51;K;Vellinge;51 år, enhetschef, leg. sjuksköterska, Vellinge;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;19;J;J;I;J;62704;Bob Ericsson;31;M;Vellinge;31 år, byggnadsinspektör, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;20;J;J;I;J;62705;Göran Holm;73;M;Vellinge;73 år, konsult, Ljunghusen;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;21;J;J;I;J;62706;Nils-Ola Roth;75;M;Vellinge;75 år, marknadssociolog, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;22;J;J;I;J;62707;Mavis Zander;38;K;Vellinge;38 år, röntgensjuksköterska, klinisk lärare, Vellinge;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;23;J;J;I;J;62708;Lars Olin;59;M;Vellinge;59 år, byggnadsingenjör, Ljunghusen;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;24;J;J;I;J;62709;Ann-Margret Ohlsson;79;K;Vellinge;79 år, leg. sjukgymnast, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;25;J;J;I;J;62710;Gisela Cavalli-Björkman Danred;70;K;Vellinge;70 år, f. d. barn- och förlossningssköterska, Östra Grevie;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;26;J;J;I;J;62711;Lars Danred;71;M;Vellinge;71 år, kock, f.d. krögare, Östra Grevie;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;27;J;J;I;J;62712;Ola Stenberg;52;M;Vellinge;52 år, marknadschef, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;28;J;J;I;J;62713;Per-Ola Stjernqvist;54;M;Vellinge;54 år, företagare, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;29;J;J;I;J;62714;Martin von Gertten;54;M;Vellinge;54 år, brandmästare, Gessie villastad;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;30;J;J;I;J;62715;Thommy Gransten;65;M;Vellinge;65 år, företagare, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;31;J;J;I;J;62716;Christine Andersson;51;K;Vellinge;51 år, stadsjurist, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;32;J;J;I;J;62717;Jesper von Wowern;49;M;Vellinge;49 år, auktoriserad jurist, Vellinge;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;33;J;J;I;J;62718;Pia Andersson;62;K;Vellinge;62 år, förskollärare, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;34;J;J;I;J;62719;Charlotte Wannius-Falk;44;K;Vellinge;44 år, pedagog, Vellinge väster;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;35;J;J;I;J;62720;Filip Hernsell;30;M;Vellinge;30 år, projektledare, Stora Hammar;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;36;J;J;I;J;62721;Margaretha Olsson;50;K;Vellinge;50 år, skolsköterska, Hötofta;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;37;J;J;I;J;62722;Ola Wemrin;49;M;Vellinge;49 år, polis, kriminaltekniker, Vellinge väster;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;38;J;J;I;J;62723;Kjeld Steffensen;72;M;Vellinge;72 år, företagare, Falsterbo;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;39;J;J;I;J;62724;Patrik Åkesson;65;M;Vellinge;65 år, advokat, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;40;J;J;I;J;62726;Lennart Willemo;81;M;Vellinge;81 år, f.d. skolchef, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;41;J;J;I;J;62727;Lars Hansson;70;M;Vellinge;70 år, ingenjör, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;42;J;J;I;J;62728;Tove von Gertten;19;K;Vellinge;19 år, studerande, Gessie villastad;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;43;J;J;I;J;62729;Olof Löfgren;74;M;Vellinge;74 år, med. dr, docent, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;44;J;J;I;J;62730;Pia Nyqvist;53;K;Vellinge;53 år, KAM, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;45;J;J;I;J;62731;Karl Henrik Östberg;43;M;Vellinge;43 år, advokat, Eskilstorps kyrkby;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;46;J;J;I;J;62732;Pia Lindgren;48;K;Vellinge;48 år, gruppchef inom äldreomsorg, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;47;J;J;I;J;62733;Krister Askaner;52;M;Vellinge;52 år, läkare, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;48;J;J;I;J;62734;Rasmus Tinglöf;37;M;Vellinge;37 år, affärsutvecklare, Vellinge;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;49;J;J;I;J;62735;Carina Gerthel;66;K;Vellinge;66 år, f.d. distriktssköterska, Falsterbo;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;50;J;J;I;J;62736;Anders Arkenstedt;58;M;Vellinge;58 år, egenföretagare, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;51;J;J;I;J;62737;Rickard Mårtensson;18;M;Vellinge;18 år, studerande, Vellinge;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;52;J;J;I;J;62738;Göran Cronsioe;66;M;Vellinge;66 år, ingenjör, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;53;J;J;I;J;62739;Anette Clair;47;K;Vellinge;47 år, företagare, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;54;J;J;I;J;62740;Peter Gustafsson;54;M;Vellinge;54 år, VD, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;55;J;J;I;J;62741;Åsa Dahlbeck;67;K;Vellinge;67 år, f.d. kriminalkommissarie, Falsterbo;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;56;J;J;I;J;62742;Nicklas Albing-Schweitz;48;M;Vellinge;48 år, statsvetare, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;57;J;J;I;J;62743;Per Cedergren;54;M;Vellinge;54 år, egenföretagare, Vellinge;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;58;J;J;I;J;62744;Stellan Carlson;74;M;Vellinge;74 år, ingenjör, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;59;J;J;I;J;62745;Malin Lindskog;43;K;Vellinge;43 år, entreprenör, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;60;J;J;I;J;62746;M. May Qwinten Linné;35;K;Vellinge;35 år, platschef, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;61;J;J;I;J;62747;Gerd Clair;66;K;Vellinge;66 år, företagare, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;62;J;J;I;J;62748;Thorvald Lindhe;65;M;Vellinge;65 år, seniorkonsult, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;63;J;J;I;J;62749;Monica Casparsson Hensfelt;64;K;Vellinge;64 år, jur. kand., Hököpinge;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;64;J;J;I;J;62750;Martin Appelfeldt;43;M;Vellinge;43 år, affärsområdeschef, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;65;J;J;I;J;62751;Filippa Wimmerstedt;49;K;Trelleborg;49 år, studerande, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;66;J;J;I;J;62752;Stefan Jonasson;54;M;Vellinge;54 år, servicechef, Gessie villastad;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;67;J;J;I;J;62753;Niklas Girvall;35;M;Vellinge;35 år, säljare, Höllviken;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;68;J;J;I;J;62754;Ulrika Gustafsson;47;K;Vellinge;47 år, distriktssköterska, Vellinge;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;69;J;J;I;J;384245;Måns Modéer;46;M;Vellinge;46 år, civilekonom, Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Moderaterna;M;1;S;12624;70;J;J;I;J;62755;Jan Nyberg;80;M;Vellinge;80 år, fil. och teol. kand., Skanör;100000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;1;J;J;I;J;162885;Karl-Johan Persson;39;M;Vellinge;40 år, Processoperatör;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;2;J;J;I;J;162886;Deniz Eryilmaz;41;M;Vellinge;41 år, Infrastrukturtjänsteman;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;3;J;J;I;J;162887;Kristian Svensson;49;M;Vellinge;49 år, Ingenjör;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;4;J;J;I;J;162888;Pierre Carlström;38;M;Vellinge;38 år, It-arkitekt;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;5;J;J;I;J;162889;Jimmy Lenander;34;M;Vellinge;35 år, Kategorichef;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;6;J;J;I;J;162890;Mats Carlström;63;M;Vellinge;63 år, Kyltekniker;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;7;J;J;I;J;162891;Jan Lexryd;71;M;Vellinge;72 år, Företagare;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;8;J;J;I;J;162892;Jerry Bjelk;42;M;Vellinge;43 år, Byggnadssmed;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;9;J;J;I;J;162893;Per-Erik Hennings;66;M;Vellinge;66 år, Fd. Tekniker;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;10;J;J;I;J;162894;Lena Henrikson;68;K;Vellinge;68 år, Tandläkare/Dr;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;11;J;J;I;J;162895;Lisbeth Kvist Hallgren;72;K;Vellinge;72 år, Pensionär;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;12;J;J;I;J;162896;Kristina Hansson;65;K;Vellinge;65 år, Undersköterska;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;13;J;J;I;J;162897;Hans Erixon;59;M;Vellinge;59 år, Senior Konsult;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;14;J;J;I;J;162898;Ann-Lis Lexryd;67;K;Vellinge;68 år, Revisor;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;15;J;J;I;J;162899;Lena Jensen;72;K;Vellinge;72 år, Fd. Advokatsekreterare;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;16;J;J;I;J;162900;Annika Carlström;60;K;Vellinge;60 år, Ekonomiansvarig;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;17;J;J;I;J;162901;Kent Rönndahl;58;M;Vellinge;58 år, Administrations ass.;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;18;J;J;I;J;162902;Ingemar Nilsson;48;M;Vellinge;48 år, Fordonstekniker;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;19;J;J;I;J;162903;Jan Svensson;70;M;Vellinge;71 år, Pensionär;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;20;J;J;I;J;162905;Elize Åkesson;57;K;Vellinge;57 år, Socionom;82000;;J
+K;1233;Vellinge;00;Vellinge;Sverigedemokraterna;SD;110;S;13522;21;J;J;I;J;162906;Claes Roos;70;M;Vellinge;71 år, Sjöingenjör;82000;;J

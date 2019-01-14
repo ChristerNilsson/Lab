@@ -1,0 +1,1266 @@
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;1;J;J;I;J;87880;Per Carlsson;41;M;Borås;41 år, Borås;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;2;J;J;I;J;171125;Sara Andersson;41;K;Borås;41 år, Hässleholmen;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;3;J;J;I;J;171126;Micael Svensson;59;M;Borås;59 år, Målsryd;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;4;J;J;I;J;171127;Liridona Rexhepi;20;K;Borås;20 år, Hulta;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;5;J;J;I;J;91664;Sead Omerovic;41;M;Borås;41 år, Gånghester;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;6;J;J;I;J;171129;Marie Samuelsson;51;K;Borås;51 år, Gånghester;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;7;J;J;I;J;171130;Anders Jonsson;63;M;Borås;63 år, Svensgärde;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;8;J;J;I;J;171131;Anja Liikaluoma;67;K;Borås;67 år, Hässleholmen;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;9;J;J;I;J;171132;Muharrem Binaku;54;M;Borås;54 år, Boda;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;10;J;J;I;J;171133;Raija Leppänen;70;K;Borås;70 år, Hässleholmen;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;11;J;J;I;J;171134;Mohamed Farah;59;M;Borås;59 år, Borås;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;12;J;J;I;J;171135;Emina Beganovic;54;K;Borås;54 år, Brämhult;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;13;J;J;I;J;171136;Thomas Wingren;39;M;Borås;39 år, Dalsjöfors;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;14;J;J;I;J;171137;Eva Axell;57;K;Borås;57 år, Målsryd;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;15;J;J;I;J;171138;Martin Neuman;55;M;Borås;55 år, Målsryd;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;16;J;J;I;J;171139;Camilla Kvibro Ståhl;49;K;Borås;49 år, Äspered;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;17;J;J;I;J;171140;Bamma Sanneh;22;M;Göteborg;22 år, Hässleholmen;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;18;J;J;I;J;91661;Eva Österlund Hjort;58;K;Borås;58 år, Brämhult;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;19;J;J;I;J;171142;Vishal Arora;37;M;Borås;37 år, Hulta;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;20;J;J;I;J;171143;Eva Andersson;70;K;Borås;70 år, Rångedala;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;21;J;J;I;J;171146;Ulf Samuelsson;60;M;Borås;60 år, Gånghester;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;22;J;J;I;J;171145;Sahra Ali Osman;53;K;Borås;53 år, Borås;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;23;J;J;I;J;87892;Ernad Suntic;36;M;Borås;36 år, Brämhult;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;24;J;J;I;J;91659;Marianne Gustafson;63;K;Borås;63 år, Brotorp;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;25;J;J;I;J;171150;Ramadhan Hashim;42;M;Borås;42 år, Hulta;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;26;J;J;I;J;171149;Åsa Tobrant;51;K;Borås;51 år, Dalsjöfors;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;27;J;J;I;J;171152;Tauno Haikara;65;M;Borås;65 år, Hässleholmen;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;28;J;J;I;J;171151;Gunnel Österberg;69;K;Borås;69 år, Trandared;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;29;J;J;I;J;171154;Petri Pitkänen;52;M;Borås;52 år, Dalsjöfors;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;30;J;J;I;J;171153;Jenny Parmstrand;48;K;Borås;48 år, Målsryd;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;31;J;J;I;J;171156;Agron Cela;57;M;Borås;57 år, Trandared;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;32;J;J;I;J;171155;Marie Söderhagen;54;K;Borås;55 år, Äspered;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;33;J;J;I;J;171158;Tomas Fernfelt;53;M;Borås;53 år, Rångedala;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;34;J;J;I;J;91653;Jessica Eriksson;24;K;Borås;24 år, Trandared;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;35;J;J;I;J;171160;Rolf Andersson;69;M;Borås;69 år, Brämhult;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;36;J;J;I;J;171159;Alva Börjesson;19;K;Borås;19 år, Sörmarken;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;37;J;J;I;J;171161;Björn Johansson;73;M;Borås;73 år, Hässleholmen;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;38;J;J;I;J;171162;Tony Karlstedt;49;M;Borås;49 år, Äspered;96000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;1;J;J;I;J;171163;Ulf Olsson;46;M;Borås;46 år, Hedvigsborg;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;2;J;J;I;J;171164;Yvonne Persson;70;K;Borås;70 år, Lugnet;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;3;J;J;I;J;171165;Per-Olof Höög;75;M;Borås;75 år, Centrum;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;4;J;J;I;J;171166;Sofia Bohlin;27;K;Borås;27 år, Göta;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;5;J;J;I;J;91662;Robert Sandberg;44;M;Borås;44 år, Lugnet;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;6;J;J;I;J;171168;Leila Pekkala;69;K;Borås;69 år, Svaneholm;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;7;J;J;I;J;171169;Bengt Bohlin;54;M;Borås;54 år, Hedvigsborg;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;8;J;J;I;J;87873;Therése Björklund;24;K;Borås;24 år, Göta;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;9;J;J;I;J;171171;Andreas Ekström;43;M;Borås;43 år, Hedvigsborg;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;10;J;J;I;J;171172;Anethe Tolfsson;50;K;Borås;50 år, Bergdalen;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;11;J;J;I;J;171173;Mohamed Ben Maaouia;48;M;Borås;48 år, Centrum;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;12;J;J;I;J;171174;Cecilia Kochan;43;K;Borås;43 år, Seglora;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;13;J;J;I;J;171175;Leif Johansson;57;M;Borås;57 år, Norrmalm;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;14;J;J;I;J;171176;Helene Sandberg;50;K;Borås;50 år, Östermalm;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;15;J;J;I;J;171177;Tobias Eng Strömberg;20;M;Borås;20 år, Östermalm;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;16;J;J;I;J;171178;Christina Frisk;53;K;Borås;53 år, Seglora;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;17;J;J;I;J;171179;Samir Muratovic;45;M;Borås;45 år, Viskafors;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;18;J;J;I;J;171180;Ulla-Britt Möller;68;K;Borås;68 år, Kinnarumma;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;19;J;J;I;J;171181;Burair Mahmood;36;M;Borås;36 år, Östermalm;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;20;J;J;I;J;171182;Ulla-Britt Nordqvist;73;K;Borås;73 år, Funningen;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;21;J;J;I;J;171183;Roger Olsson;55;M;Borås;55 år, Druvefors;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;22;J;J;I;J;171184;Jaana Ben Maaouia;52;K;Borås;52 år, Centrum;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;23;J;J;I;J;171185;Mattias Nyström;27;M;Borås;27 år, Östermalm;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;24;J;J;I;J;171186;Annette Bjernhagen;59;K;Borås;59 år, Dammsvedjan;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;25;J;J;I;J;171187;Tord Andersson;73;M;Borås;73 år, Kristineberg;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;26;J;J;I;J;171188;Barbro Andersson;78;K;Borås;78 år, Norrmalm;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;27;J;J;I;J;171189;Urban Åkervall;48;M;Borås;48 år, Östermalm;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;28;J;J;I;J;171190;Kristina Nyberg Smahel;39;K;Borås;39 år, Druvefors;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;29;J;J;I;J;171191;Björn Alexandersson;61;M;Borås;61 år, Norrmalm;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;30;J;J;I;J;171192;Maria Oscarson;65;K;Borås;65 år, Östermalm;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;31;J;J;I;J;171193;Per Alstermark;53;M;Borås;53 år, Dammsvedjan;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;32;J;J;I;J;171194;Sarah Ali;32;K;Borås;32 år, Druvefors;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;33;J;J;I;J;171195;Samir Karamovic;54;M;Borås;54 år, Furuberg;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;34;J;J;I;J;171196;Erika Storme Martinger;49;K;Borås;49 år, Göta;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;35;J;J;I;J;171197;Magnus Persson;53;M;Borås;53 år, Seglora;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;36;J;J;I;J;171198;Ulla Krok;64;K;Borås;64 år, Norrmalm;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;37;J;J;I;J;171199;Micael Emilsson;53;M;Borås;53 år, Göta;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;38;J;J;I;J;171200;Anton Löberg;25;M;Borås;25 år, Göta;104000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;1;J;J;I;J;171201;Malin Carlsson;47;K;Borås;47 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;2;J;J;I;J;171202;Kent Hedberg;63;M;Borås;63 år, Byttorp;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;3;J;J;I;J;171203;Rose-Marie Liljenby-Andersson;68;K;Borås;68 år, Sjömarken;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;4;J;J;I;J;171204;Lars-Åke Johansson;74;M;Borås;74 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;5;J;J;I;J;171205;Ninni Dyberg;73;K;Borås;73 år, Byttorp;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;6;J;J;I;J;171206;Johan Dahlberg;27;M;Borås;27 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;7;J;J;I;J;171207;Gun-Britt Persson;73;K;Borås;73 år, Fristad;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;8;J;J;I;J;171208;Mohamed Kossir;27;M;Borås;27 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;9;J;J;I;J;171209;Ylva Lengberg;37;K;Borås;37 år, Fristad;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;10;J;J;I;J;171210;Abdullahi Warsame;43;M;Borås;43 år, Norrby;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;11;J;J;I;J;171211;Jessica Eng Strömberg;22;K;Borås;22 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;12;J;J;I;J;171212;Leif Grahn;67;M;Borås;67 år, Sandhult;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;13;J;J;I;J;171213;Marie Sandberg;64;K;Borås;64 år, Sandhult;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;14;J;J;I;J;171214;Sören Björklund;59;M;Borås;59 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;15;J;J;I;J;171215;Paulina Hanafi;19;K;Borås;19 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;16;J;J;I;J;87888;Nicholas Gregory;44;M;Borås;45 år, Hestra;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;17;J;J;I;J;171217;Maria Hanafi;49;K;Borås;49 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;18;J;J;I;J;171218;Mats Tolfsson;56;M;Borås;56 år, Tosseryd;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;19;J;J;I;J;171219;Anki Amneskog;69;K;Borås;69 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;20;J;J;I;J;171220;Magnus Olofsson;47;M;Borås;47 år, Fristad;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;21;J;J;I;J;171221;Pernilla Ohlsson;49;K;Borås;49 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;22;J;J;I;J;91680;Oscar Johansson;22;M;Borås;22 år, Norrby;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;23;J;J;I;J;171223;Linda Ikatti;46;K;Borås;46 år, Hestra;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;24;J;J;I;J;171224;Oskari Anundi;47;M;Borås;47 år, Fristad;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;25;J;J;I;J;171225;Agneta Ahlgrand;60;K;Borås;60 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;26;J;J;I;J;171226;Johan Hallin;49;M;Borås;49 år, Sandared;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;27;J;J;I;J;171227;Ismeta Dzafic;41;K;Borås;41 år, Norrby;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;28;J;J;I;J;91672;Adam Löberg;22;M;Borås;22 år, Norrby;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;29;J;J;I;J;171229;Melanja Nehme Duranec;52;K;Borås;52 år, Byttorp;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;30;J;J;I;J;171230;Magnus Johansson;34;M;Borås;34 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;31;J;J;I;J;171231;Josefin Larsson;21;K;Borås;21 år, Norrby;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;32;J;J;I;J;171232;Tinos Lappas;49;M;Borås;49 år, Hestra;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;33;J;J;I;J;171233;Tuula Järvinen;66;K;Borås;66 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;34;J;J;I;J;171234;Väinö Östhult;74;M;Borås;74 år, Norrby;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;35;J;J;I;J;171235;Liz Odqvist;54;K;Borås;54 år, Sandhult;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;36;J;J;I;J;91682;Joakim Angervik;35;M;Borås;35 år, Gingri;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;37;J;J;I;J;171239;Anette Molarin;63;K;Borås;63 år, Hestra;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;38;J;J;I;J;171240;Göran Holtstrand;59;M;Borås;59 år, Hestra;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;39;J;J;I;J;171241;Anne Sandberg;70;K;Borås;70 år, Sandhult;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;40;J;J;I;J;171242;Pavle Velcov;58;M;Borås;58 år, Viared;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;41;J;J;I;J;171243;Bratica Lazovic;69;K;Borås;69 år, Norrby;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;42;J;J;I;J;171244;Pentti Lindberg;64;M;Borås;64 år, Sjöbo;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;43;J;J;I;J;171245;Erzulina Yngvesson;46;K;Borås;46 år, Hestra;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;44;J;J;I;J;171246;Jan Patrikson;70;M;Borås;70 år, Hestra;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;45;J;J;I;J;171247;Cathrine Jansson;57;K;Borås;57 år, Byttorp;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;46;J;J;I;J;171248;Peder Backlund;56;M;Borås;56 år, Sjömarken;120000;;J
+K;1490;Borås;01;Borås 1;Arbetarepartiet-Socialdemokraterna;S;2;;;;J;J;I;N;87869;[inte lämnat förklaring];;;;;0;;N
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;1;J;J;I;J;2943;Kerstin Hermansson;58;K;Borås;58 år, gruppledare, Seglora;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;2;J;J;I;J;2971;Mattias Danielsson;43;M;Borås;43 år, studie- och yrkesvägledare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;3;J;J;I;J;3099;Cecilia Andersson;44;K;Borås;44 år, regionpolitiker, Brämhult;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;4;J;J;I;J;13802;Alexander Andersson;35;M;Borås;35 år, lantbrukare, Dannike;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;5;J;J;I;J;3104;Maj-Britt Eckerström;59;K;Borås;59 år, kyrkokanslist, Vänga;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;6;J;J;I;J;13804;Monika Hermansson Friedman;47;K;Borås;47 år, civilekonom, Fristad;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;7;J;J;I;J;13805;Jan Idehed;71;M;Borås;71 år, organisatör, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;8;J;J;I;J;13806;Oscar Undevall;26;M;Borås;26 år, kundrådgivare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;9;J;J;I;J;3128;Karl-Eric Nilsson;65;M;Borås;65 år, speditör, Tämta;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;10;J;J;I;J;2967;Karla Kollberg;36;K;Göteborg;36 år, företagare, Dalsjöfors;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;11;J;J;I;J;13809;David Hårsmar;39;M;Borås;39 år, agronom, Dalsjöfors;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;12;J;J;I;J;13810;Monica Johansson;66;K;Borås;66 år, organisatör, Bredared;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;13;J;J;I;J;13811;Pernilla Tejemark;32;K;Borås;32 år, förvaltningsassistent, Fristad;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;14;J;J;I;J;13812;Solveig Landegren;68;K;Borås;68 år, fd kriminalinspektör, Sjömarken;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;15;J;J;I;J;13813;Emil Bertilsson;38;M;Borås;38 år, distriktschef, Målsryd;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;16;J;J;I;J;13814;Catharina Rapp;60;K;Borås;60 år, verksamhetsutvecklare, Tosseryd;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;17;J;J;I;J;13815;Johan Drotz;46;M;Borås;46 år, processledare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;18;J;J;I;J;13816;Lennart Brännmar;62;M;Borås;62 år, företagare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;19;J;J;I;J;2955;Elias Haqiqat;19;M;Borås;19 år, studerande, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;20;J;J;I;J;13818;Johan Källén;55;M;Borås;55 år, truckförsäljare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;21;J;J;I;J;13819;Leif Olsson;67;M;Borås;67 år, snickare, Bredared;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;22;J;J;I;J;13820;Maria Hermansson;50;K;Borås;50 år, sjuksköterska, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;23;J;J;I;J;13822;Håkan Eriksson;46;M;Borås;46 år, konsulent, Målsryd;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;24;J;J;I;J;13823;Jimmy Sjölund;46;M;Borås;47 år, innovationscoach, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;25;J;J;I;J;13824;Bengt-Olof Olsson;62;M;Borås;63 år, projektledare, Bredared;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;26;J;J;I;J;13825;Bengt Belfrage;68;M;Borås;69 år, företagare, Dalsjöfors;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;27;J;J;I;J;2970;Olivia Schell;37;K;Borås;37 år, företagare, Seglora;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;28;J;J;I;J;13827;Ulf Landegren;74;M;Borås;74 år, fd försäljningschef, Sjömarken;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;29;J;J;I;J;13828;Håkan Torstensson;70;M;Borås;70 år, teknikkonsult, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Centerpartiet;C;4;S;11938;30;J;J;I;J;13829;Christina Gustavsson;51;K;Borås;51 år, diakon, Gånghester;256000;;J
+K;1490;Borås;01;Borås 1;Feministiskt initiativ;FI;532;;;;N;J;J;I;497461;Rölander, Patrik;52;M;Borås;;0;;J
+K;1490;Borås;01;Borås 1;Feministiskt initiativ;FI;532;;;;N;J;J;I;515536;Fallenius, Sven;42;M;Borås;;0;;J
+K;1490;Borås;01;Borås 1;Feministiskt initiativ;FI;532;;;;N;J;J;I;515699;Vermelin, Emilia;24;K;Borås;;0;;J
+K;1490;Borås;01;Borås 1;Kommunistiska Partiet;K;471;S;14028;1;J;J;I;J;228066;Sonja Persson;66;K;Borås;förskollärare;90000;;J
+K;1490;Borås;01;Borås 1;Kommunistiska Partiet;K;471;S;14028;2;J;J;I;J;228067;Sergej Odström;34;M;Borås;arbetslös;90000;;J
+K;1490;Borås;01;Borås 1;Kommunistiska Partiet;K;471;S;14028;3;J;J;I;J;228068;Tobias Halldin;41;M;Borås;ortopedtekniker;90000;;J
+K;1490;Borås;01;Borås 1;Kommunistiska Partiet;K;471;S;14028;4;J;J;I;J;228069;Bengt Persson;69;M;Borås;möbelsnickare;90000;;J
+K;1490;Borås;01;Borås 1;Kommunistiska Partiet;K;471;S;14028;5;J;J;I;J;228070;Ronny Larsson;65;M;Borås;pensionär;90000;;J
+K;1490;Borås;01;Borås 1;Kommunistiska Partiet;K;471;S;14028;6;J;J;I;J;228071;Robert Wettersten;34;M;Borås;journalist;90000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;1;J;J;I;J;274920;Niklas Arvidsson;27;M;Borås;27, Tjänsteman, Borås;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;2;J;J;I;J;274723;Lisa Berglund;33;K;Borås;33, Biomedicinsk analytiker, Borås;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;3;J;J;I;J;280254;Hans Gustavsson;69;M;Borås;69, Säljare, Brämhult;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;4;J;J;I;J;274925;Else-Marie Lindgren;69;K;Borås;68, Fd riksdagsledamot, Sparsör;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;5;J;J;I;J;274937;Magnus Sjödahl;60;M;Borås;59, Socionom, Sjömarken;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;6;J;J;I;J;280257;Åke Ekvad;79;M;Borås;78, Rektor, Borås;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;7;J;J;I;J;274716;Valéria Kant;58;K;Borås;57, Kostrådgivare, Borås;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;8;J;J;I;J;274734;Ingela Hallgren;79;K;Borås;79, Fil. mag., Borås;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;9;J;J;I;J;280260;Gunilla Christoffersson;55;K;Borås;54, Lärare, Sjömarken;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;10;J;J;I;J;280261;Sven Wergård;86;M;Borås;85, Överste, Viskafors;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;11;J;J;I;J;280262;Per-Jonas Carlsson;57;M;Borås;57, Ekonom, Brämhult;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;12;J;J;I;J;280263;Jonathan Tellbe;30;M;Borås;29, Lärare, Borås;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;13;J;J;I;J;280264;Pär Sundbaum;56;M;Borås;56, Rektor, Brämhult;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;14;J;J;I;J;274934;Bengt-Göran Persson;68;M;Borås;68, Ingenjör, Sandared;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;15;J;J;I;J;274729;Lars Lyborg;73;M;Borås;72, Personalchef, Borås;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;16;J;J;I;J;280267;Harald Finlöf;69;M;Borås;69, Lärare, Brämhult;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;17;J;J;I;J;280268;Ronnie Friström;50;M;Borås;49, Systemtekniker, Sandared;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;18;J;J;I;J;280269;Felicidad Vicei;62;K;Borås;61, Inköpsassistent, Borås;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;19;J;J;I;J;280270;Daniel Henriksson;36;M;Borås;35, Produktutvecklare, Brämhult;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;20;J;J;I;J;280271;Daniel Swedengren;67;M;Borås;67, Egenföretagare, Brämhult;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;21;J;J;I;J;280272;Lennart Malmerfors;68;M;Borås;68, Fastighetschef, Borås;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;22;J;J;I;J;280273;Sivert Oxelbark;75;M;Borås;75, Musikpedagog, Dalsjöfors;208000;;J
+K;1490;Borås;01;Borås 1;Kristdemokraterna;KD;68;S;14499;23;J;J;I;J;280274;Lennart Gabre;76;M;Borås;76, Redovisningskonsult, Borås;208000;;J
+K;1490;Borås;01;Borås 1;Kristna Värdepartiet;KrVP;1140;;;;N;J;J;I;507638;Möller, Anna-Karin;31;K;Borås;;0;;J
+K;1490;Borås;01;Borås 1;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515850;Johansson, Ola;48;M;Borås;;0;;J
+K;1490;Borås;01;Borås 1;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515851;Svensson, Martin;38;M;Borås;;0;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;1;J;J;I;J;112685;Anna Svalander;46;K;Borås;46 år, statsvetare och pedagog;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;2;J;J;I;J;112686;Johan Wikander;55;M;Borås;55 år, ombudsman;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;3;J;J;I;J;112687;Andreas Cerny;24;M;Borås;24 år, utredningssekreterare;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;4;J;J;I;J;112688;Anne-Marie Ekström;71;K;Borås;71 år, företagare;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;5;J;J;I;J;112689;Soroush Rezai;21;M;Borås;21 år, tjänsteman;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;6;J;J;I;J;112690;Morgan Hjalmarsson;71;M;Borås;71 år, kommunalråd;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;7;J;J;I;J;112691;Britt-Marie Halldén;71;K;Borås;71 år, lektor;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;8;J;J;I;J;112692;Marcus Nilsen;25;M;Göteborg;25 år, universitetsstuderande;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;9;J;J;I;J;112693;Lars Gustaf Andersson;69;M;Borås;68 år, konsult/konstnär;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;10;J;J;I;J;112694;Linda Pålemo;39;K;Borås;39 år, designer;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;11;J;J;I;J;112695;Patric Cerny;55;M;Borås;55 år, kyrkoherde;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;12;J;J;I;J;112696;Lotta Preijde;55;K;Borås;55 år, rekryteringskonsult;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;13;J;J;I;J;112697;Tage Carlsson;47;M;Borås;47 år, måltidsbiträde;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;14;J;J;I;J;112698;Susanne Karlander;54;K;Borås;54 år, företagare;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;15;J;J;I;J;112699;Tommy Ky;23;M;Borås;23 år, företagare;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;16;J;J;I;J;112700;Emmy Scilaris;18;K;Borås;18 år, studerande;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;17;J;J;I;J;112701;Reza Aghapoor;43;M;Borås;43 år, verksamhetsutvecklare;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;18;J;J;I;J;112702;Hjördis Jonsson;81;K;Borås;81 år, f.d. företagare;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;19;J;J;I;J;112703;Bengt Wahlgren;82;M;Borås;82 år, f.d. gymnasielärare;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;20;J;J;I;J;112704;Cecilia Baggesen-Gyllunger;23;K;Borås;23 år, ombudsman;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;21;J;J;I;J;112705;Jan Hyllstam;55;M;Borås;55 år, präst;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;22;J;J;I;J;112706;Irene Gimmersta;38;K;Borås;39 år, egen företagare;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;23;J;J;I;J;112707;Roland Steinick;70;M;Borås;70 år, pensionär;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;24;J;J;I;J;112708;Bo W Jonsson;82;M;Borås;82 år, f.d. adjunkt;256000;;J
+K;1490;Borås;01;Borås 1;Liberalerna (tidigare Folkpartiet);L;3;S;13118;25;J;J;I;J;112709;Hamid Fard;50;M;Borås;50 år, företagsrådgivare;256000;;J
+K;1490;Borås;01;Borås 1;Medborgerlig Samling;MED;1296;S;14350;1;J;J;I;J;257616;Michel Johnsson;37;M;Borås;37 åkare Kinnarumma;13000;;J
+K;1490;Borås;01;Borås 1;Medborgerlig Samling;MED;1296;S;14350;2;J;J;I;J;258805;Magnus Hedén;36;M;Borås;36 psykolog Borås;13000;;J
+K;1490;Borås;01;Borås 1;Medborgerlig Samling;MED;1296;S;14350;3;J;J;I;J;257614;Robert Nordgren;62;M;Borås;62 pensionär Frufällan;13000;;J
+K;1490;Borås;01;Borås 1;Medborgerlig Samling;MED;1296;;;;J;J;I;N;513711;[inte lämnat förklaring];;;;;0;;N
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;1;J;J;I;J;74080;Kjell Hjalmarsson;64;M;Borås;64 år, Administratör, Borås;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;2;J;J;I;J;74081;Christina Waldenström;61;K;Borås;61 år, nämndeman i Hovrätten, Sjuksköterska, Dannike;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;3;J;J;I;J;74082;Tom Andersson;40;M;Borås;40 år, Kommunalråd, Sjöbo;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;4;J;J;I;J;232593;Anna-Karin Gunnarsson;48;K;Borås;48 år, Utvecklingsingenjör, Kinnarumma;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;5;J;J;I;J;66241;Göran Larsson;50;M;Borås;50 år, Sjuksköterska/Ordf. SÄS, Brämhult;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;6;J;J;I;J;74068;Sümeyya Gencoglu;25;K;Borås;25 år, Kulturstudent, Dammsvedjan;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;7;J;J;I;J;232596;Tim Gahnström;39;M;Borås;39 år, Systemutvecklare, Fristad;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;8;J;J;I;J;232597;Maria Hyllstam;48;K;Borås;48 år, Psykolog, Sjömarken;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;9;J;J;I;J;232598;Linnea Johansson Kläth;22;K;Borås;22 år, Bibliotekarie, Villastan;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;10;J;J;I;J;232599;Erik Johnson;43;M;Borås;43 år, Projektledare, Gånghester;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;11;J;J;I;J;74075;Mosa Roshangias;58;M;Borås;58 år, Sjuksköterska, Sparsör;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;12;J;J;I;J;74867;Hanna Werner;69;K;Borås;69 år, Socionom, Sandared;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;13;J;J;I;J;74069;Dennis Söderberg;51;M;Borås;51 år, Hållbarhetsentreprenör, Sjömarken;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;14;J;J;I;J;74077;Ellie Blickfors;77;K;Borås;77 år, Pensionär, Hässleholmen;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;15;J;J;I;J;232604;Enock Akouele;34;M;Borås;34 år, Student, Hässleholmen;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;16;J;J;I;J;232605;Anna Kjellberg;31;K;Borås;31 år, Egenföretagare, Hestra;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;17;J;J;I;J;232606;Matti Oinas;32;M;Borås;32 år, Miljöanalytiker, Dalsjöfors;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;18;J;J;I;J;232607;Tova Lidbeck;53;K;Borås;53 år, Verksamhetschef daglig verksamhet, Druvefors;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;19;J;J;I;J;74067;Sam Siavashee;56;M;Borås;56 år, Integrationskonsult, Sjöbo;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;20;J;J;I;J;232609;Helen Ernits;37;K;Borås;37 år, Tjänsteman, Viskafors;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;21;J;J;I;J;232610;Staffan Falk;71;M;Borås;70 år, Pensionär, Hestra;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;22;J;J;I;J;232611;Madeleine Larsson;52;K;Borås;52 år, Personlig assistent, Brämhult;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;23;J;J;I;J;232612;Eva Theen Johansson;66;K;Borås;66 år, Egenföretagare, Dalsjöfors;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;24;J;J;I;J;232613;Kyan Tabrizi;53;M;Borås;52 år, Personlig assistent, Trandared;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;25;J;J;I;J;232614;Ingrid Samuelsson;60;K;Borås;60 år, Humanekolog, Dannike;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;26;J;J;I;J;232615;Lars Sigfridsson;65;M;Borås;65 år, Stödassistent, Lundaskog;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;27;J;J;I;J;232616;Birgit Johansson;72;K;Borås;72 år, Pensionär, Bredared;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;28;J;J;I;J;232617;Lasse Jutemar;62;M;Borås;62 år, Ultralöpare, Kinnarumma;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;29;J;J;I;J;232618;Magnus Almström;48;M;Borås;48 år, Gymnasielärare, Trandared;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;30;J;J;I;J;232619;Bo-Lennart Bäcklund;56;M;Borås;56 år, Ekonom, Sjöbo;167000;;J
+K;1490;Borås;01;Borås 1;Miljöpartiet de gröna;MP;55;S;14060;31;J;J;I;J;232620;Bo-Göran Gunnarsson;72;M;Borås;72 år, Pensionär, Aplared;167000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;1;J;J;I;J;253899;Annette Carlson;56;K;Borås;56, Kommunalråd, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;2;J;J;I;J;253902;Oliver Öberg;28;M;Borås;28, Säljare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;3;J;J;I;J;254302;Marie Fridén;59;K;Borås;59, Civilekonom, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;4;J;J;I;J;256269;Ulf Sjösten;64;M;Borås;64, fd Polis, Brämhult;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;5;J;J;I;J;253890;Amanda Wiktorsson;23;K;Borås;23, Student, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;6;J;J;I;J;253886;Ulrik Nilsson;55;M;Borås;55, Sektionschef, Brämhult;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;7;J;J;I;J;253895;Dennis Jernkrook;23;M;Borås;23, Politisk tjänsteman, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;8;J;J;I;J;254299;Hasse Ikävalko;42;M;Borås;42, Möbeltapetserare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;9;J;J;I;J;253884;Cecilie Tenfjord Toftby;48;K;Borås;48, Riksdagsledamot, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;10;J;J;I;J;256275;Martin Nilsson;46;M;Borås;46, Företagare, Brämhult;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;11;J;J;I;J;254284;Birgitta Bergman;74;K;Borås;74, Kulturvetare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;12;J;J;I;J;256277;Anna Christensen;40;K;Borås;40, Analytiker, Brämhult;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;13;J;J;I;J;253906;Jolly Bou Rahal;22;K;Borås;22, Juriststudent, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;14;J;J;I;J;256279;Lars-Gunnar Comén;59;M;Borås;59, Flyganalytiker/Egen företagare, Brämhult;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;15;J;J;I;J;256280;Urban Svenkvist;68;M;Borås;68, fd Chefsåklagare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;16;J;J;I;J;256281;Pirita Isegran;32;K;Borås;32, Biståndshandläggare, Viskafors;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;17;J;J;I;J;256282;Anna-Clara Stenström;61;K;Borås;61, Undersköterska, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;18;J;J;I;J;256283;Nils-Åke Björklund;64;M;Borås;64, Ekonom, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;19;J;J;I;J;256284;Annette Nordström;46;K;Borås;46, Distributör, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;20;J;J;I;J;256285;Per Månsson;68;M;Borås;68, Pensionär, Fristad;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;21;J;J;I;J;254287;Jonas Garmarp;50;M;Borås;50, Civilekonom, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;22;J;J;I;J;254314;Lovisa Gustafsson;18;K;Borås;18, Studerande, Sjömarken;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;23;J;J;I;J;254289;Mattias Karlsson;34;M;Borås;34, Kronoinspektör, Viskafors;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;24;J;J;I;J;256289;Jessica Bjurén;46;K;Borås;46, Butikschef, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;25;J;J;I;J;256290;Paul Andre Safko;68;M;Borås;68, Ingengör, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;26;J;J;I;J;256291;Lotta Löfgren Hjelm;71;K;Borås;71, f.d Barnmorska, Fristad;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;27;J;J;I;J;256292;Mikael Wickberg;64;M;Borås;64, Civilingenjör, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;28;J;J;I;J;256293;Wiwi Roswall;76;K;Borås;76, Pensionär, Fristad;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;29;J;J;I;J;253907;Daniel Nikolov;21;M;Borås;21, Student/restaurang, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;30;J;J;I;J;256295;Alva Mannberg;20;K;Borås;20, Studerande, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;31;J;J;I;J;256296;Georg Guldstrand;55;M;Borås;55, IT Application Lead, Dalsjöfors;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;32;J;J;I;J;256297;Marie Jöreteg;58;K;Borås;58, Regionchef, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;33;J;J;I;J;256298;Anders Johansson;42;M;Borås;42, Lärare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;34;J;J;I;J;256299;Peter Wilhelmson;67;M;Borås;67, Utredningssekreterare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;35;J;J;I;N;256300;[inte lämnat förklaring];;;;;256000;;N
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;36;J;J;I;J;256301;Sofia Sandänger;41;K;Borås;41, Samverkansansvarig, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;37;J;J;I;J;256302;Alen Saric;30;M;Borås;30, Civilekonom, Brämhult;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;38;J;J;I;J;256303;Saveta Olsén;66;K;Borås;66, Egenföretagare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;39;J;J;I;J;256304;Emil Ramezani Semnani Moghaddam;19;M;Borås;19, Studerande, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;40;J;J;I;J;256305;Christian Ekström;44;M;Borås;44, Egen Företagare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;41;J;J;I;J;256306;Elsie Lundberg;80;K;Borås;80, Pensionär, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;42;J;J;I;J;256307;Björn-Ola Kronander;47;M;Borås;47, Företagare, Dannike;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;43;J;J;I;J;256308;Berit Johansson;63;K;Borås;63, Medicinsk sekreterare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;44;J;J;I;J;256309;Hakam Alakraa;55;M;Borås;55, Egenföretagare, Målsryd;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;45;J;J;I;N;256310;[inte lämnat förklaring];;;;;256000;;N
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;46;J;J;I;J;256311;Lina Nilsson;19;K;Borås;19, Studerande, Brämhult;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;47;J;J;I;J;256312;Rasmus Kivinen;22;M;Borås;22, Ekonomistudent, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;48;J;J;I;J;254312;Seija Noppa;79;K;Borås;79, Egenföretagare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;49;J;J;I;J;256314;Carin Brandt;73;K;Borås;73, Pensionär, f.d. arbetsförmedlare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;50;J;J;I;J;256315;Bill Johansson;72;M;Borås;72, Ingenjör, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;51;J;J;I;J;256316;Christina Zetterstrand;66;K;Borås;66, f.d lärare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;52;J;J;I;J;256317;Andreas Tammjärv;43;M;Borås;43, Projektledare, Sparsör;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;53;J;J;I;J;256318;Kristina Andersson;70;K;Borås;70, Specialpedagog, Bredared;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;54;J;J;I;J;256319;Marcus Banér;18;M;Borås;18, Studerande, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;55;J;J;I;J;256320;Birgit Åkerlund;70;K;Borås;70, Nämndeman, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;56;J;J;I;J;256321;Bill Bakkemose;67;M;Borås;67, Lärare, Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;57;J;J;I;J;256322;Karin Grill;70;K;Borås;70, , Borås;256000;;J
+K;1490;Borås;01;Borås 1;Moderaterna;M;1;S;14336;58;J;J;I;J;256323;Marie-Louise Hall;75;K;Borås;75, Pensionär, Brämhult;256000;;J
+K;1490;Borås;01;Borås 1;Piratpartiet;PP;524;;;;N;J;J;I;395218;Rouhivuori, Henry;51;M;Borås;;0;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;1;J;J;I;J;49338;Patric Silfverklinga;54;M;Borås;gruppledare, 54;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;2;J;J;I;J;49339;Björn Qvarnström;47;M;Borås;undersköterska, 47;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;3;J;J;I;J;49340;Andreas Exner;27;M;Borås;ekonom, 27;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;4;J;J;I;J;49341;Leif Häggblom;45;M;Borås;transportledare, 45;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;5;J;J;I;J;49342;Anders Alftberg;45;M;Borås;lärare, 45;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;6;J;J;I;J;49343;Kristian Silbvers;37;M;Borås;VD, 37;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;7;J;J;I;J;49344;Jan Nilsson;69;M;Borås;pensionär, 69;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;8;J;J;I;J;49345;Jonas Ellerstrand;53;M;Borås;försäljningsansvarig, 53;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;9;J;J;I;J;49346;Ann-Charlotte Blomqvist;71;K;Borås;pensionär, 71;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;10;J;J;I;J;49347;Crister Spets;54;M;Borås;riksdagsman, 54;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;11;J;J;I;J;49348;Tomas Brandberg;46;M;Borås;Tekn dr, 46;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;12;J;J;I;J;49349;Olle Engström;73;M;Borås;f.d. företagsledare, 73;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;13;J;J;I;J;49350;Eva Eriksson;62;K;Borås;egenföretagare, 62;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;14;J;J;I;J;49355;Maria Lindgren;58;K;Borås;Socionom, 58;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;15;J;J;I;J;49351;Robert Skånberg;41;M;Borås;bilskadetekniker, 41;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;16;J;J;I;J;49352;Niklas Hallberg;44;M;Borås;IT-tekniker, 44;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;17;J;J;I;J;49377;Martin Sörbom;36;M;Borås;logistiker, 36;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;18;J;J;I;J;49354;Valter Kotsalainen;57;M;Borås;fil.kand, 57;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;19;J;J;I;J;49374;Mark Warnberg;67;M;Borås;hovslagare, 67;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;20;J;J;I;J;49386;Björn Malmquist;65;M;Borås;säkerhetssamordnare, 65;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;21;J;J;I;J;49379;Lars-Erik Johansson;70;M;Borås;pensionär, 70;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;22;J;J;I;J;49375;Daniel Assarsson;41;M;Borås;egenföretagare, 41;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;23;J;J;I;J;49378;Sven-Olof Johansson;62;M;Borås;chaufför, 62;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;24;J;J;I;J;49380;Kathy Johansson;67;K;Borås;konsult, 67;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;25;J;J;I;J;49381;Thor Henning Öhrn;77;M;Borås;pensionär, 77;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;26;J;J;I;J;49382;Jovan Vuckovic;58;M;Borås;undersköterska, 58;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;27;J;J;I;J;49383;Ronny Nyberg;54;M;Borås;försäljningsingenjör, 54;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;28;J;J;I;J;49384;Reijo Jardekrans;54;M;Borås;arbetssökande, 54;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;29;J;J;I;J;49385;Johanna Silfverklinga;53;K;Borås;stf. butikschef, 53;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;30;J;J;I;J;49353;Susanne Karlsson;52;K;Borås;undersköterska, 52;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;31;J;J;I;J;85425;Eike Jünke;82;M;Borås;trädgårdsmästare, 82;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;32;J;J;I;J;49387;Jürgen Urbas;71;M;Borås;marknadschef, 71;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;33;J;J;I;J;49388;Jan Stenberg;50;M;Borås;egenföretagare, 50;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;34;J;J;I;J;49422;Pia Larsson;52;K;Borås;personaladministratör, 52;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;35;J;J;I;J;49423;Kjell Mårtensson;57;M;Borås;chaufför, 57;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;36;J;J;I;J;49424;Peter Ohlsén;59;M;Borås;chaufför, 59;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;37;J;J;I;J;49425;Irene Rosalie Eriksson;75;K;Borås;pensionär, 75;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;38;J;J;I;J;49426;Patrik Hållpås;47;M;Borås;avdelningschef, 47;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;39;J;J;I;J;49427;Pertti Merstrand;56;M;Borås;montör, 56;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;40;J;J;I;J;49428;Magnus Andersson;53;M;Borås;snickare, 54;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;12448;41;J;J;I;J;49429;Zandra Johansson;39;K;Borås;servicepersonal, 39;256000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;1;J;J;I;J;49339;Björn Qvarnström;47;M;Borås;undersköterska, 47;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;2;J;J;I;J;49340;Andreas Exner;27;M;Borås;ekonom, 27;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;3;J;J;I;J;49341;Leif Häggblom;45;M;Borås;transportledare, 45;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;4;J;J;I;J;49342;Anders Alftberg;45;M;Borås;lärare, 45;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;5;J;J;I;J;49343;Kristian Silbvers;37;M;Borås;VD, 37;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;6;J;J;I;J;49344;Jan Nilsson;69;M;Borås;pensionär, 69;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;7;J;J;I;J;49345;Jonas Ellerstrand;53;M;Borås;försäljningsansvarig, 53;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;8;J;J;I;J;49346;Ann-Charlotte Blomqvist;71;K;Borås;pensionär, 71;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;9;J;J;I;J;49347;Crister Spets;54;M;Borås;riksdagsman, 54;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;10;J;J;I;J;49348;Tomas Brandberg;46;M;Borås;Tekn dr, 46;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;11;J;J;I;J;49349;Olle Engström;73;M;Borås;f.d. företagsledare, 73;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;12;J;J;I;J;49350;Eva Eriksson;62;K;Borås;egenföretagare, 62;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;13;J;J;I;J;49355;Maria Lindgren;58;K;Borås;Socionom, 58;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;14;J;J;I;J;49351;Robert Skånberg;41;M;Borås;bilskadetekniker, 41;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;15;J;J;I;J;49352;Niklas Hallberg;44;M;Borås;IT-tekniker, 44;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;16;J;J;I;J;49377;Martin Sörbom;36;M;Borås;logistiker, 36;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;17;J;J;I;J;49354;Valter Kotsalainen;57;M;Borås;fil.kand, 57;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;18;J;J;I;J;49374;Mark Warnberg;67;M;Borås;hovslagare, 67;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;19;J;J;I;J;49386;Björn Malmquist;65;M;Borås;säkerhetssamordnare, 65;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;20;J;J;I;J;49379;Lars-Erik Johansson;70;M;Borås;pensionär, 70;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;21;J;J;I;J;49375;Daniel Assarsson;41;M;Borås;egenföretagare, 41;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;22;J;J;I;J;49378;Sven-Olof Johansson;62;M;Borås;chaufför, 62;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;23;J;J;I;J;49380;Kathy Johansson;67;K;Borås;konsult, 67;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;24;J;J;I;J;49381;Thor Henning Öhrn;77;M;Borås;pensionär, 77;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;25;J;J;I;J;49382;Jovan Vuckovic;58;M;Borås;undersköterska, 58;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;26;J;J;I;J;49383;Ronny Nyberg;54;M;Borås;försäljningsingenjör, 54;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;27;J;J;I;J;49384;Reijo Jardekrans;54;M;Borås;arbetssökande, 54;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;28;J;J;I;J;49353;Susanne Karlsson;52;K;Borås;undersköterska, 52;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;29;J;J;I;J;85425;Eike Jünke;82;M;Borås;trädgårdsmästare, 82;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;30;J;J;I;J;49387;Jürgen Urbas;71;M;Borås;marknadschef, 71;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;31;J;J;I;J;49388;Jan Stenberg;50;M;Borås;egenföretagare, 50;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;32;J;J;I;J;49422;Pia Larsson;52;K;Borås;personaladministratör, 52;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;33;J;J;I;J;49423;Kjell Mårtensson;57;M;Borås;chaufför, 57;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;34;J;J;I;J;49424;Peter Ohlsén;59;M;Borås;chaufför, 59;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;35;J;J;I;J;49425;Irene Rosalie Eriksson;75;K;Borås;pensionär, 75;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;36;J;J;I;J;49426;Patrik Hållpås;47;M;Borås;avdelningschef, 47;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;37;J;J;I;J;49427;Pertti Merstrand;56;M;Borås;montör, 56;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;38;J;J;I;J;49428;Magnus Andersson;53;M;Borås;snickare, 54;250000;;J
+K;1490;Borås;01;Borås 1;Sverigedemokraterna;SD;110;S;15631;39;J;J;I;J;49429;Zandra Johansson;39;K;Borås;servicepersonal, 39;250000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;1;J;J;I;J;5448;Ida Legnemark;37;K;Borås;37 år, lärare, Dammsvedjan;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;2;J;J;I;J;76034;Stefan Lindborg;33;M;Borås;33 år, student, Norrmalm;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;3;J;J;I;J;16800;Anne Rapinoja;62;K;Borås;62 år, förskollärare, Hässleholmen;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;4;J;J;I;J;7761;Lennart Andreasson;73;M;Borås;73 år, pensionär, Parkstaden;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;5;J;J;I;J;76037;Gabriella Andersson;35;K;Borås;35 år, socionom, Norrmalm;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;6;J;J;I;J;24732;Peter Wiberg;40;M;Borås;40 år, ombudsman, Göta;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;7;J;J;I;J;76039;Inger Landström;59;K;Borås;59 år, arbetsterapeut, Dalsjöfors;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;8;J;J;I;J;16798;Tommy Josefsson;67;M;Borås;67 år, tekniklärare/pensionär, Norrby;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;9;J;J;I;J;76041;Anita Spjuth;55;K;Borås;55 år, integrationskonsulent, Sjöbo;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;10;J;J;I;J;24730;Peter Lund;41;M;Borås;41 år, kundtjänstmedarbetare, Dalsjöfors;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;11;J;J;I;J;76043;Kim Lindberg;34;K;Borås;34 år, projektledare, Hässleholmen;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;12;J;J;I;J;76044;Janne Elfstrand;51;M;Borås;51 år, boendestödjare, Sjöbo;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;13;J;J;I;J;76045;Carina Kierdorf;60;K;Borås;60 år, teststrateg, Viskafors;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;14;J;J;I;J;76046;Magnus Winblad;45;M;Borås;45 år, studerande, Viskafors;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;15;J;J;I;J;76047;Ulla Stålhammar;70;K;Borås;70 år, pensionär, Bosnäs;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;16;J;J;I;J;16797;Jasem Hardan;63;M;Borås;63 år, lärare, Norrby;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;17;J;J;I;J;76049;Leila Talmoudi;37;K;Borås;36 år, verksamhetsansvarig ABF, Östermalm;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;18;J;J;I;J;76050;Gholamreza Abbasian;64;M;Borås;65 år, undersköterska, Sjöbo;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;19;J;J;I;J;5449;Marjan Garmroudi;49;K;Borås;49 år, lärare, Trandared;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;20;J;J;I;J;76052;Peder Jonsson;52;M;Borås;51 år, miljöarbetare, Dalsjöfors;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;21;J;J;I;J;24725;Sofia Andersson;33;K;Borås;33 år, bibliotekarie, Göta;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;22;J;J;I;J;76054;Kjell Eliasson;73;M;Borås;73 år, fd metallarbetare, Äspered;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;23;J;J;I;J;76055;Maryam Osman;34;K;Borås;33 år, studerande/pers assistent, Hulta;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;24;J;J;I;J;76056;Ulf Hillermyr;69;M;Borås;69 år, träsnidare, Hulta;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;25;J;J;I;J;76057;Anna Gustavsson;33;K;Borås;33 år, lärare, Bergsbo;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;26;J;J;I;J;76058;Steve Liljekvist;35;M;Borås;35 år, applikationsspecialist, Fristad;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;27;J;J;I;J;76059;Pari Mahinpour;66;K;Borås;66 år, pensionär, Hulta;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;28;J;J;I;J;24729;Eyad Shehab;39;M;Borås;38 år, tolk, Norrby;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;29;J;J;I;J;76061;Angelica Vehmas;46;K;Borås;45 år, studerande, Trandared;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;30;J;J;I;J;76062;Joel Carlberg-Torsell;25;M;Borås;25 år, kundservicemedarbetare, Norrby;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;31;J;J;I;J;24735;Solveig Lindh-Josefsson;62;K;Borås;62 år, lärare, Norrby;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;32;J;J;I;J;76064;Mohamed Mohamoud;48;M;Borås;48 år, busschaufför/lärare, Norrby;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;33;J;J;I;J;76065;Jonas Edberg;34;M;Borås;35 år, forskningshandläggare, Dannike;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;34;J;J;I;J;76066;Anita Persson;60;K;Borås;60 år, ombudsman, Dammsvedjan;96000;;J
+K;1490;Borås;01;Borås 1;Vänsterpartiet;V;5;S;11825;35;J;J;I;J;76067;Matti Dahlbom;62;M;Borås;62 år, folkhögskolelärare, Norrmalm;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;1;J;J;I;J;87880;Per Carlsson;41;M;Borås;41 år, Borås;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;2;J;J;I;J;171125;Sara Andersson;41;K;Borås;41 år, Hässleholmen;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;3;J;J;I;J;171126;Micael Svensson;59;M;Borås;59 år, Målsryd;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;4;J;J;I;J;171127;Liridona Rexhepi;20;K;Borås;20 år, Hulta;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;5;J;J;I;J;91664;Sead Omerovic;41;M;Borås;41 år, Gånghester;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;6;J;J;I;J;171129;Marie Samuelsson;51;K;Borås;51 år, Gånghester;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;7;J;J;I;J;171130;Anders Jonsson;63;M;Borås;63 år, Svensgärde;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;8;J;J;I;J;171131;Anja Liikaluoma;67;K;Borås;67 år, Hässleholmen;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;9;J;J;I;J;171132;Muharrem Binaku;54;M;Borås;54 år, Boda;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;10;J;J;I;J;171133;Raija Leppänen;70;K;Borås;70 år, Hässleholmen;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;11;J;J;I;J;171134;Mohamed Farah;59;M;Borås;59 år, Borås;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;12;J;J;I;J;171135;Emina Beganovic;54;K;Borås;54 år, Brämhult;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;13;J;J;I;J;171136;Thomas Wingren;39;M;Borås;39 år, Dalsjöfors;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;14;J;J;I;J;171137;Eva Axell;57;K;Borås;57 år, Målsryd;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;15;J;J;I;J;171138;Martin Neuman;55;M;Borås;55 år, Målsryd;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;16;J;J;I;J;171139;Camilla Kvibro Ståhl;49;K;Borås;49 år, Äspered;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;17;J;J;I;J;171140;Bamma Sanneh;22;M;Göteborg;22 år, Hässleholmen;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;18;J;J;I;J;91661;Eva Österlund Hjort;58;K;Borås;58 år, Brämhult;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;19;J;J;I;J;171142;Vishal Arora;37;M;Borås;37 år, Hulta;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;20;J;J;I;J;171143;Eva Andersson;70;K;Borås;70 år, Rångedala;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;21;J;J;I;J;171146;Ulf Samuelsson;60;M;Borås;60 år, Gånghester;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;22;J;J;I;J;171145;Sahra Ali Osman;53;K;Borås;53 år, Borås;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;23;J;J;I;J;87892;Ernad Suntic;36;M;Borås;36 år, Brämhult;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;24;J;J;I;J;91659;Marianne Gustafson;63;K;Borås;63 år, Brotorp;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;25;J;J;I;J;171150;Ramadhan Hashim;42;M;Borås;42 år, Hulta;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;26;J;J;I;J;171149;Åsa Tobrant;51;K;Borås;51 år, Dalsjöfors;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;27;J;J;I;J;171152;Tauno Haikara;65;M;Borås;65 år, Hässleholmen;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;28;J;J;I;J;171151;Gunnel Österberg;69;K;Borås;69 år, Trandared;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;29;J;J;I;J;171154;Petri Pitkänen;52;M;Borås;52 år, Dalsjöfors;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;30;J;J;I;J;171153;Jenny Parmstrand;48;K;Borås;48 år, Målsryd;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;31;J;J;I;J;171156;Agron Cela;57;M;Borås;57 år, Trandared;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;32;J;J;I;J;171155;Marie Söderhagen;54;K;Borås;55 år, Äspered;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;33;J;J;I;J;171158;Tomas Fernfelt;53;M;Borås;53 år, Rångedala;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;34;J;J;I;J;91653;Jessica Eriksson;24;K;Borås;24 år, Trandared;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;35;J;J;I;J;171160;Rolf Andersson;69;M;Borås;69 år, Brämhult;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;36;J;J;I;J;171159;Alva Börjesson;19;K;Borås;19 år, Sörmarken;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;37;J;J;I;J;171161;Björn Johansson;73;M;Borås;73 år, Hässleholmen;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;38;J;J;I;J;171162;Tony Karlstedt;49;M;Borås;49 år, Äspered;96000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;1;J;J;I;J;171163;Ulf Olsson;46;M;Borås;46 år, Hedvigsborg;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;2;J;J;I;J;171164;Yvonne Persson;70;K;Borås;70 år, Lugnet;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;3;J;J;I;J;171165;Per-Olof Höög;75;M;Borås;75 år, Centrum;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;4;J;J;I;J;171166;Sofia Bohlin;27;K;Borås;27 år, Göta;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;5;J;J;I;J;91662;Robert Sandberg;44;M;Borås;44 år, Lugnet;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;6;J;J;I;J;171168;Leila Pekkala;69;K;Borås;69 år, Svaneholm;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;7;J;J;I;J;171169;Bengt Bohlin;54;M;Borås;54 år, Hedvigsborg;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;8;J;J;I;J;87873;Therése Björklund;24;K;Borås;24 år, Göta;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;9;J;J;I;J;171171;Andreas Ekström;43;M;Borås;43 år, Hedvigsborg;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;10;J;J;I;J;171172;Anethe Tolfsson;50;K;Borås;50 år, Bergdalen;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;11;J;J;I;J;171173;Mohamed Ben Maaouia;48;M;Borås;48 år, Centrum;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;12;J;J;I;J;171174;Cecilia Kochan;43;K;Borås;43 år, Seglora;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;13;J;J;I;J;171175;Leif Johansson;57;M;Borås;57 år, Norrmalm;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;14;J;J;I;J;171176;Helene Sandberg;50;K;Borås;50 år, Östermalm;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;15;J;J;I;J;171177;Tobias Eng Strömberg;20;M;Borås;20 år, Östermalm;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;16;J;J;I;J;171178;Christina Frisk;53;K;Borås;53 år, Seglora;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;17;J;J;I;J;171179;Samir Muratovic;45;M;Borås;45 år, Viskafors;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;18;J;J;I;J;171180;Ulla-Britt Möller;68;K;Borås;68 år, Kinnarumma;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;19;J;J;I;J;171181;Burair Mahmood;36;M;Borås;36 år, Östermalm;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;20;J;J;I;J;171182;Ulla-Britt Nordqvist;73;K;Borås;73 år, Funningen;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;21;J;J;I;J;171183;Roger Olsson;55;M;Borås;55 år, Druvefors;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;22;J;J;I;J;171184;Jaana Ben Maaouia;52;K;Borås;52 år, Centrum;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;23;J;J;I;J;171185;Mattias Nyström;27;M;Borås;27 år, Östermalm;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;24;J;J;I;J;171186;Annette Bjernhagen;59;K;Borås;59 år, Dammsvedjan;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;25;J;J;I;J;171187;Tord Andersson;73;M;Borås;73 år, Kristineberg;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;26;J;J;I;J;171188;Barbro Andersson;78;K;Borås;78 år, Norrmalm;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;27;J;J;I;J;171189;Urban Åkervall;48;M;Borås;48 år, Östermalm;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;28;J;J;I;J;171190;Kristina Nyberg Smahel;39;K;Borås;39 år, Druvefors;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;29;J;J;I;J;171191;Björn Alexandersson;61;M;Borås;61 år, Norrmalm;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;30;J;J;I;J;171192;Maria Oscarson;65;K;Borås;65 år, Östermalm;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;31;J;J;I;J;171193;Per Alstermark;53;M;Borås;53 år, Dammsvedjan;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;32;J;J;I;J;171194;Sarah Ali;32;K;Borås;32 år, Druvefors;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;33;J;J;I;J;171195;Samir Karamovic;54;M;Borås;54 år, Furuberg;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;34;J;J;I;J;171196;Erika Storme Martinger;49;K;Borås;49 år, Göta;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;35;J;J;I;J;171197;Magnus Persson;53;M;Borås;53 år, Seglora;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;36;J;J;I;J;171198;Ulla Krok;64;K;Borås;64 år, Norrmalm;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;37;J;J;I;J;171199;Micael Emilsson;53;M;Borås;53 år, Göta;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;38;J;J;I;J;171200;Anton Löberg;25;M;Borås;25 år, Göta;104000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;1;J;J;I;J;171201;Malin Carlsson;47;K;Borås;47 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;2;J;J;I;J;171202;Kent Hedberg;63;M;Borås;63 år, Byttorp;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;3;J;J;I;J;171203;Rose-Marie Liljenby-Andersson;68;K;Borås;68 år, Sjömarken;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;4;J;J;I;J;171204;Lars-Åke Johansson;74;M;Borås;74 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;5;J;J;I;J;171205;Ninni Dyberg;73;K;Borås;73 år, Byttorp;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;6;J;J;I;J;171206;Johan Dahlberg;27;M;Borås;27 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;7;J;J;I;J;171207;Gun-Britt Persson;73;K;Borås;73 år, Fristad;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;8;J;J;I;J;171208;Mohamed Kossir;27;M;Borås;27 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;9;J;J;I;J;171209;Ylva Lengberg;37;K;Borås;37 år, Fristad;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;10;J;J;I;J;171210;Abdullahi Warsame;43;M;Borås;43 år, Norrby;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;11;J;J;I;J;171211;Jessica Eng Strömberg;22;K;Borås;22 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;12;J;J;I;J;171212;Leif Grahn;67;M;Borås;67 år, Sandhult;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;13;J;J;I;J;171213;Marie Sandberg;64;K;Borås;64 år, Sandhult;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;14;J;J;I;J;171214;Sören Björklund;59;M;Borås;59 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;15;J;J;I;J;171215;Paulina Hanafi;19;K;Borås;19 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;16;J;J;I;J;87888;Nicholas Gregory;44;M;Borås;45 år, Hestra;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;17;J;J;I;J;171217;Maria Hanafi;49;K;Borås;49 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;18;J;J;I;J;171218;Mats Tolfsson;56;M;Borås;56 år, Tosseryd;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;19;J;J;I;J;171219;Anki Amneskog;69;K;Borås;69 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;20;J;J;I;J;171220;Magnus Olofsson;47;M;Borås;47 år, Fristad;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;21;J;J;I;J;171221;Pernilla Ohlsson;49;K;Borås;49 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;22;J;J;I;J;91680;Oscar Johansson;22;M;Borås;22 år, Norrby;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;23;J;J;I;J;171223;Linda Ikatti;46;K;Borås;46 år, Hestra;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;24;J;J;I;J;171224;Oskari Anundi;47;M;Borås;47 år, Fristad;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;25;J;J;I;J;171225;Agneta Ahlgrand;60;K;Borås;60 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;26;J;J;I;J;171226;Johan Hallin;49;M;Borås;49 år, Sandared;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;27;J;J;I;J;171227;Ismeta Dzafic;41;K;Borås;41 år, Norrby;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;28;J;J;I;J;91672;Adam Löberg;22;M;Borås;22 år, Norrby;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;29;J;J;I;J;171229;Melanja Nehme Duranec;52;K;Borås;52 år, Byttorp;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;30;J;J;I;J;171230;Magnus Johansson;34;M;Borås;34 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;31;J;J;I;J;171231;Josefin Larsson;21;K;Borås;21 år, Norrby;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;32;J;J;I;J;171232;Tinos Lappas;49;M;Borås;49 år, Hestra;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;33;J;J;I;J;171233;Tuula Järvinen;66;K;Borås;66 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;34;J;J;I;J;171234;Väinö Östhult;74;M;Borås;74 år, Norrby;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;35;J;J;I;J;171235;Liz Odqvist;54;K;Borås;54 år, Sandhult;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;36;J;J;I;J;91682;Joakim Angervik;35;M;Borås;35 år, Gingri;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;37;J;J;I;J;171239;Anette Molarin;63;K;Borås;63 år, Hestra;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;38;J;J;I;J;171240;Göran Holtstrand;59;M;Borås;59 år, Hestra;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;39;J;J;I;J;171241;Anne Sandberg;70;K;Borås;70 år, Sandhult;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;40;J;J;I;J;171242;Pavle Velcov;58;M;Borås;58 år, Viared;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;41;J;J;I;J;171243;Bratica Lazovic;69;K;Borås;69 år, Norrby;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;42;J;J;I;J;171244;Pentti Lindberg;64;M;Borås;64 år, Sjöbo;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;43;J;J;I;J;171245;Erzulina Yngvesson;46;K;Borås;46 år, Hestra;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;44;J;J;I;J;171246;Jan Patrikson;70;M;Borås;70 år, Hestra;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;45;J;J;I;J;171247;Cathrine Jansson;57;K;Borås;57 år, Byttorp;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;46;J;J;I;J;171248;Peder Backlund;56;M;Borås;56 år, Sjömarken;120000;;J
+K;1490;Borås;02;Borås 2;Arbetarepartiet-Socialdemokraterna;S;2;;;;J;J;I;N;87869;[inte lämnat förklaring];;;;;0;;N
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;1;J;J;I;J;2943;Kerstin Hermansson;58;K;Borås;58 år, gruppledare, Seglora;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;2;J;J;I;J;2971;Mattias Danielsson;43;M;Borås;43 år, studie- och yrkesvägledare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;3;J;J;I;J;3099;Cecilia Andersson;44;K;Borås;44 år, regionpolitiker, Brämhult;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;4;J;J;I;J;13802;Alexander Andersson;35;M;Borås;35 år, lantbrukare, Dannike;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;5;J;J;I;J;3104;Maj-Britt Eckerström;59;K;Borås;59 år, kyrkokanslist, Vänga;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;6;J;J;I;J;13804;Monika Hermansson Friedman;47;K;Borås;47 år, civilekonom, Fristad;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;7;J;J;I;J;13805;Jan Idehed;71;M;Borås;71 år, organisatör, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;8;J;J;I;J;13806;Oscar Undevall;26;M;Borås;26 år, kundrådgivare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;9;J;J;I;J;3128;Karl-Eric Nilsson;65;M;Borås;65 år, speditör, Tämta;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;10;J;J;I;J;2967;Karla Kollberg;36;K;Göteborg;36 år, företagare, Dalsjöfors;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;11;J;J;I;J;13809;David Hårsmar;39;M;Borås;39 år, agronom, Dalsjöfors;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;12;J;J;I;J;13810;Monica Johansson;66;K;Borås;66 år, organisatör, Bredared;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;13;J;J;I;J;13811;Pernilla Tejemark;32;K;Borås;32 år, förvaltningsassistent, Fristad;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;14;J;J;I;J;13812;Solveig Landegren;68;K;Borås;68 år, fd kriminalinspektör, Sjömarken;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;15;J;J;I;J;13813;Emil Bertilsson;38;M;Borås;38 år, distriktschef, Målsryd;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;16;J;J;I;J;13814;Catharina Rapp;60;K;Borås;60 år, verksamhetsutvecklare, Tosseryd;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;17;J;J;I;J;13815;Johan Drotz;46;M;Borås;46 år, processledare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;18;J;J;I;J;13816;Lennart Brännmar;62;M;Borås;62 år, företagare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;19;J;J;I;J;2955;Elias Haqiqat;19;M;Borås;19 år, studerande, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;20;J;J;I;J;13818;Johan Källén;55;M;Borås;55 år, truckförsäljare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;21;J;J;I;J;13819;Leif Olsson;67;M;Borås;67 år, snickare, Bredared;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;22;J;J;I;J;13820;Maria Hermansson;50;K;Borås;50 år, sjuksköterska, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;23;J;J;I;J;13822;Håkan Eriksson;46;M;Borås;46 år, konsulent, Målsryd;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;24;J;J;I;J;13823;Jimmy Sjölund;46;M;Borås;47 år, innovationscoach, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;25;J;J;I;J;13824;Bengt-Olof Olsson;62;M;Borås;63 år, projektledare, Bredared;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;26;J;J;I;J;13825;Bengt Belfrage;68;M;Borås;69 år, företagare, Dalsjöfors;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;27;J;J;I;J;2970;Olivia Schell;37;K;Borås;37 år, företagare, Seglora;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;28;J;J;I;J;13827;Ulf Landegren;74;M;Borås;74 år, fd försäljningschef, Sjömarken;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;29;J;J;I;J;13828;Håkan Torstensson;70;M;Borås;70 år, teknikkonsult, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Centerpartiet;C;4;S;11938;30;J;J;I;J;13829;Christina Gustavsson;51;K;Borås;51 år, diakon, Gånghester;256000;;J
+K;1490;Borås;02;Borås 2;Feministiskt initiativ;FI;532;;;;N;J;J;I;497461;Rölander, Patrik;52;M;Borås;;0;;J
+K;1490;Borås;02;Borås 2;Feministiskt initiativ;FI;532;;;;N;J;J;I;515536;Fallenius, Sven;42;M;Borås;;0;;J
+K;1490;Borås;02;Borås 2;Feministiskt initiativ;FI;532;;;;N;J;J;I;515699;Vermelin, Emilia;24;K;Borås;;0;;J
+K;1490;Borås;02;Borås 2;Kommunistiska Partiet;K;471;S;14028;1;J;J;I;J;228066;Sonja Persson;66;K;Borås;förskollärare;90000;;J
+K;1490;Borås;02;Borås 2;Kommunistiska Partiet;K;471;S;14028;2;J;J;I;J;228067;Sergej Odström;34;M;Borås;arbetslös;90000;;J
+K;1490;Borås;02;Borås 2;Kommunistiska Partiet;K;471;S;14028;3;J;J;I;J;228068;Tobias Halldin;41;M;Borås;ortopedtekniker;90000;;J
+K;1490;Borås;02;Borås 2;Kommunistiska Partiet;K;471;S;14028;4;J;J;I;J;228069;Bengt Persson;69;M;Borås;möbelsnickare;90000;;J
+K;1490;Borås;02;Borås 2;Kommunistiska Partiet;K;471;S;14028;5;J;J;I;J;228070;Ronny Larsson;65;M;Borås;pensionär;90000;;J
+K;1490;Borås;02;Borås 2;Kommunistiska Partiet;K;471;S;14028;6;J;J;I;J;228071;Robert Wettersten;34;M;Borås;journalist;90000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;1;J;J;I;J;274920;Niklas Arvidsson;27;M;Borås;27, Tjänsteman, Borås;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;2;J;J;I;J;274723;Lisa Berglund;33;K;Borås;33, Biomedicinsk analytiker, Borås;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;3;J;J;I;J;280254;Hans Gustavsson;69;M;Borås;69, Säljare, Brämhult;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;4;J;J;I;J;274925;Else-Marie Lindgren;69;K;Borås;68, Fd riksdagsledamot, Sparsör;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;5;J;J;I;J;274937;Magnus Sjödahl;60;M;Borås;59, Socionom, Sjömarken;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;6;J;J;I;J;280257;Åke Ekvad;79;M;Borås;78, Rektor, Borås;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;7;J;J;I;J;274716;Valéria Kant;58;K;Borås;57, Kostrådgivare, Borås;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;8;J;J;I;J;274734;Ingela Hallgren;79;K;Borås;79, Fil. mag., Borås;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;9;J;J;I;J;280260;Gunilla Christoffersson;55;K;Borås;54, Lärare, Sjömarken;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;10;J;J;I;J;280261;Sven Wergård;86;M;Borås;85, Överste, Viskafors;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;11;J;J;I;J;280262;Per-Jonas Carlsson;57;M;Borås;57, Ekonom, Brämhult;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;12;J;J;I;J;280263;Jonathan Tellbe;30;M;Borås;29, Lärare, Borås;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;13;J;J;I;J;280264;Pär Sundbaum;56;M;Borås;56, Rektor, Brämhult;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;14;J;J;I;J;274934;Bengt-Göran Persson;68;M;Borås;68, Ingenjör, Sandared;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;15;J;J;I;J;274729;Lars Lyborg;73;M;Borås;72, Personalchef, Borås;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;16;J;J;I;J;280267;Harald Finlöf;69;M;Borås;69, Lärare, Brämhult;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;17;J;J;I;J;280268;Ronnie Friström;50;M;Borås;49, Systemtekniker, Sandared;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;18;J;J;I;J;280269;Felicidad Vicei;62;K;Borås;61, Inköpsassistent, Borås;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;19;J;J;I;J;280270;Daniel Henriksson;36;M;Borås;35, Produktutvecklare, Brämhult;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;20;J;J;I;J;280271;Daniel Swedengren;67;M;Borås;67, Egenföretagare, Brämhult;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;21;J;J;I;J;280272;Lennart Malmerfors;68;M;Borås;68, Fastighetschef, Borås;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;22;J;J;I;J;280273;Sivert Oxelbark;75;M;Borås;75, Musikpedagog, Dalsjöfors;208000;;J
+K;1490;Borås;02;Borås 2;Kristdemokraterna;KD;68;S;14499;23;J;J;I;J;280274;Lennart Gabre;76;M;Borås;76, Redovisningskonsult, Borås;208000;;J
+K;1490;Borås;02;Borås 2;Kristna Värdepartiet;KrVP;1140;;;;N;J;J;I;507638;Möller, Anna-Karin;31;K;Borås;;0;;J
+K;1490;Borås;02;Borås 2;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515850;Johansson, Ola;48;M;Borås;;0;;J
+K;1490;Borås;02;Borås 2;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515851;Svensson, Martin;38;M;Borås;;0;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;1;J;J;I;J;112685;Anna Svalander;46;K;Borås;46 år, statsvetare och pedagog;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;2;J;J;I;J;112686;Johan Wikander;55;M;Borås;55 år, ombudsman;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;3;J;J;I;J;112687;Andreas Cerny;24;M;Borås;24 år, utredningssekreterare;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;4;J;J;I;J;112688;Anne-Marie Ekström;71;K;Borås;71 år, företagare;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;5;J;J;I;J;112689;Soroush Rezai;21;M;Borås;21 år, tjänsteman;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;6;J;J;I;J;112690;Morgan Hjalmarsson;71;M;Borås;71 år, kommunalråd;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;7;J;J;I;J;112691;Britt-Marie Halldén;71;K;Borås;71 år, lektor;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;8;J;J;I;J;112692;Marcus Nilsen;25;M;Göteborg;25 år, universitetsstuderande;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;9;J;J;I;J;112693;Lars Gustaf Andersson;69;M;Borås;68 år, konsult/konstnär;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;10;J;J;I;J;112694;Linda Pålemo;39;K;Borås;39 år, designer;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;11;J;J;I;J;112695;Patric Cerny;55;M;Borås;55 år, kyrkoherde;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;12;J;J;I;J;112696;Lotta Preijde;55;K;Borås;55 år, rekryteringskonsult;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;13;J;J;I;J;112697;Tage Carlsson;47;M;Borås;47 år, måltidsbiträde;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;14;J;J;I;J;112698;Susanne Karlander;54;K;Borås;54 år, företagare;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;15;J;J;I;J;112699;Tommy Ky;23;M;Borås;23 år, företagare;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;16;J;J;I;J;112700;Emmy Scilaris;18;K;Borås;18 år, studerande;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;17;J;J;I;J;112701;Reza Aghapoor;43;M;Borås;43 år, verksamhetsutvecklare;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;18;J;J;I;J;112702;Hjördis Jonsson;81;K;Borås;81 år, f.d. företagare;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;19;J;J;I;J;112703;Bengt Wahlgren;82;M;Borås;82 år, f.d. gymnasielärare;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;20;J;J;I;J;112704;Cecilia Baggesen-Gyllunger;23;K;Borås;23 år, ombudsman;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;21;J;J;I;J;112705;Jan Hyllstam;55;M;Borås;55 år, präst;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;22;J;J;I;J;112706;Irene Gimmersta;38;K;Borås;39 år, egen företagare;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;23;J;J;I;J;112707;Roland Steinick;70;M;Borås;70 år, pensionär;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;24;J;J;I;J;112708;Bo W Jonsson;82;M;Borås;82 år, f.d. adjunkt;256000;;J
+K;1490;Borås;02;Borås 2;Liberalerna (tidigare Folkpartiet);L;3;S;13118;25;J;J;I;J;112709;Hamid Fard;50;M;Borås;50 år, företagsrådgivare;256000;;J
+K;1490;Borås;02;Borås 2;Medborgerlig Samling;MED;1296;S;14350;1;J;J;I;J;257616;Michel Johnsson;37;M;Borås;37 åkare Kinnarumma;13000;;J
+K;1490;Borås;02;Borås 2;Medborgerlig Samling;MED;1296;S;14350;2;J;J;I;J;258805;Magnus Hedén;36;M;Borås;36 psykolog Borås;13000;;J
+K;1490;Borås;02;Borås 2;Medborgerlig Samling;MED;1296;S;14350;3;J;J;I;J;257614;Robert Nordgren;62;M;Borås;62 pensionär Frufällan;13000;;J
+K;1490;Borås;02;Borås 2;Medborgerlig Samling;MED;1296;;;;J;J;I;N;513711;[inte lämnat förklaring];;;;;0;;N
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;1;J;J;I;J;74080;Kjell Hjalmarsson;64;M;Borås;64 år, Administratör, Borås;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;2;J;J;I;J;74081;Christina Waldenström;61;K;Borås;61 år, nämndeman i Hovrätten, Sjuksköterska, Dannike;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;3;J;J;I;J;74082;Tom Andersson;40;M;Borås;40 år, Kommunalråd, Sjöbo;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;4;J;J;I;J;232593;Anna-Karin Gunnarsson;48;K;Borås;48 år, Utvecklingsingenjör, Kinnarumma;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;5;J;J;I;J;66241;Göran Larsson;50;M;Borås;50 år, Sjuksköterska/Ordf. SÄS, Brämhult;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;6;J;J;I;J;74068;Sümeyya Gencoglu;25;K;Borås;25 år, Kulturstudent, Dammsvedjan;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;7;J;J;I;J;232596;Tim Gahnström;39;M;Borås;39 år, Systemutvecklare, Fristad;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;8;J;J;I;J;232597;Maria Hyllstam;48;K;Borås;48 år, Psykolog, Sjömarken;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;9;J;J;I;J;232598;Linnea Johansson Kläth;22;K;Borås;22 år, Bibliotekarie, Villastan;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;10;J;J;I;J;232599;Erik Johnson;43;M;Borås;43 år, Projektledare, Gånghester;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;11;J;J;I;J;74075;Mosa Roshangias;58;M;Borås;58 år, Sjuksköterska, Sparsör;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;12;J;J;I;J;74867;Hanna Werner;69;K;Borås;69 år, Socionom, Sandared;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;13;J;J;I;J;74069;Dennis Söderberg;51;M;Borås;51 år, Hållbarhetsentreprenör, Sjömarken;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;14;J;J;I;J;74077;Ellie Blickfors;77;K;Borås;77 år, Pensionär, Hässleholmen;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;15;J;J;I;J;232604;Enock Akouele;34;M;Borås;34 år, Student, Hässleholmen;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;16;J;J;I;J;232605;Anna Kjellberg;31;K;Borås;31 år, Egenföretagare, Hestra;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;17;J;J;I;J;232606;Matti Oinas;32;M;Borås;32 år, Miljöanalytiker, Dalsjöfors;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;18;J;J;I;J;232607;Tova Lidbeck;53;K;Borås;53 år, Verksamhetschef daglig verksamhet, Druvefors;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;19;J;J;I;J;74067;Sam Siavashee;56;M;Borås;56 år, Integrationskonsult, Sjöbo;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;20;J;J;I;J;232609;Helen Ernits;37;K;Borås;37 år, Tjänsteman, Viskafors;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;21;J;J;I;J;232610;Staffan Falk;71;M;Borås;70 år, Pensionär, Hestra;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;22;J;J;I;J;232611;Madeleine Larsson;52;K;Borås;52 år, Personlig assistent, Brämhult;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;23;J;J;I;J;232612;Eva Theen Johansson;66;K;Borås;66 år, Egenföretagare, Dalsjöfors;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;24;J;J;I;J;232613;Kyan Tabrizi;53;M;Borås;52 år, Personlig assistent, Trandared;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;25;J;J;I;J;232614;Ingrid Samuelsson;60;K;Borås;60 år, Humanekolog, Dannike;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;26;J;J;I;J;232615;Lars Sigfridsson;65;M;Borås;65 år, Stödassistent, Lundaskog;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;27;J;J;I;J;232616;Birgit Johansson;72;K;Borås;72 år, Pensionär, Bredared;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;28;J;J;I;J;232617;Lasse Jutemar;62;M;Borås;62 år, Ultralöpare, Kinnarumma;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;29;J;J;I;J;232618;Magnus Almström;48;M;Borås;48 år, Gymnasielärare, Trandared;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;30;J;J;I;J;232619;Bo-Lennart Bäcklund;56;M;Borås;56 år, Ekonom, Sjöbo;167000;;J
+K;1490;Borås;02;Borås 2;Miljöpartiet de gröna;MP;55;S;14060;31;J;J;I;J;232620;Bo-Göran Gunnarsson;72;M;Borås;72 år, Pensionär, Aplared;167000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;1;J;J;I;J;253899;Annette Carlson;56;K;Borås;56, Kommunalråd, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;2;J;J;I;J;253902;Oliver Öberg;28;M;Borås;28, Säljare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;3;J;J;I;J;254302;Marie Fridén;59;K;Borås;59, Civilekonom, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;4;J;J;I;J;256269;Ulf Sjösten;64;M;Borås;64, fd Polis, Brämhult;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;5;J;J;I;J;253890;Amanda Wiktorsson;23;K;Borås;23, Student, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;6;J;J;I;J;253886;Ulrik Nilsson;55;M;Borås;55, Sektionschef, Brämhult;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;7;J;J;I;J;253895;Dennis Jernkrook;23;M;Borås;23, Politisk tjänsteman, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;8;J;J;I;J;254299;Hasse Ikävalko;42;M;Borås;42, Möbeltapetserare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;9;J;J;I;J;253884;Cecilie Tenfjord Toftby;48;K;Borås;48, Riksdagsledamot, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;10;J;J;I;J;256275;Martin Nilsson;46;M;Borås;46, Företagare, Brämhult;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;11;J;J;I;J;254284;Birgitta Bergman;74;K;Borås;74, Kulturvetare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;12;J;J;I;J;256277;Anna Christensen;40;K;Borås;40, Analytiker, Brämhult;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;13;J;J;I;J;253906;Jolly Bou Rahal;22;K;Borås;22, Juriststudent, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;14;J;J;I;J;256279;Lars-Gunnar Comén;59;M;Borås;59, Flyganalytiker/Egen företagare, Brämhult;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;15;J;J;I;J;256280;Urban Svenkvist;68;M;Borås;68, fd Chefsåklagare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;16;J;J;I;J;256281;Pirita Isegran;32;K;Borås;32, Biståndshandläggare, Viskafors;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;17;J;J;I;J;256282;Anna-Clara Stenström;61;K;Borås;61, Undersköterska, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;18;J;J;I;J;256283;Nils-Åke Björklund;64;M;Borås;64, Ekonom, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;19;J;J;I;J;256284;Annette Nordström;46;K;Borås;46, Distributör, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;20;J;J;I;J;256285;Per Månsson;68;M;Borås;68, Pensionär, Fristad;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;21;J;J;I;J;254287;Jonas Garmarp;50;M;Borås;50, Civilekonom, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;22;J;J;I;J;254314;Lovisa Gustafsson;18;K;Borås;18, Studerande, Sjömarken;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;23;J;J;I;J;254289;Mattias Karlsson;34;M;Borås;34, Kronoinspektör, Viskafors;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;24;J;J;I;J;256289;Jessica Bjurén;46;K;Borås;46, Butikschef, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;25;J;J;I;J;256290;Paul Andre Safko;68;M;Borås;68, Ingengör, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;26;J;J;I;J;256291;Lotta Löfgren Hjelm;71;K;Borås;71, f.d Barnmorska, Fristad;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;27;J;J;I;J;256292;Mikael Wickberg;64;M;Borås;64, Civilingenjör, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;28;J;J;I;J;256293;Wiwi Roswall;76;K;Borås;76, Pensionär, Fristad;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;29;J;J;I;J;253907;Daniel Nikolov;21;M;Borås;21, Student/restaurang, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;30;J;J;I;J;256295;Alva Mannberg;20;K;Borås;20, Studerande, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;31;J;J;I;J;256296;Georg Guldstrand;55;M;Borås;55, IT Application Lead, Dalsjöfors;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;32;J;J;I;J;256297;Marie Jöreteg;58;K;Borås;58, Regionchef, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;33;J;J;I;J;256298;Anders Johansson;42;M;Borås;42, Lärare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;34;J;J;I;J;256299;Peter Wilhelmson;67;M;Borås;67, Utredningssekreterare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;35;J;J;I;N;256300;[inte lämnat förklaring];;;;;256000;;N
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;36;J;J;I;J;256301;Sofia Sandänger;41;K;Borås;41, Samverkansansvarig, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;37;J;J;I;J;256302;Alen Saric;30;M;Borås;30, Civilekonom, Brämhult;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;38;J;J;I;J;256303;Saveta Olsén;66;K;Borås;66, Egenföretagare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;39;J;J;I;J;256304;Emil Ramezani Semnani Moghaddam;19;M;Borås;19, Studerande, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;40;J;J;I;J;256305;Christian Ekström;44;M;Borås;44, Egen Företagare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;41;J;J;I;J;256306;Elsie Lundberg;80;K;Borås;80, Pensionär, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;42;J;J;I;J;256307;Björn-Ola Kronander;47;M;Borås;47, Företagare, Dannike;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;43;J;J;I;J;256308;Berit Johansson;63;K;Borås;63, Medicinsk sekreterare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;44;J;J;I;J;256309;Hakam Alakraa;55;M;Borås;55, Egenföretagare, Målsryd;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;45;J;J;I;N;256310;[inte lämnat förklaring];;;;;256000;;N
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;46;J;J;I;J;256311;Lina Nilsson;19;K;Borås;19, Studerande, Brämhult;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;47;J;J;I;J;256312;Rasmus Kivinen;22;M;Borås;22, Ekonomistudent, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;48;J;J;I;J;254312;Seija Noppa;79;K;Borås;79, Egenföretagare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;49;J;J;I;J;256314;Carin Brandt;73;K;Borås;73, Pensionär, f.d. arbetsförmedlare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;50;J;J;I;J;256315;Bill Johansson;72;M;Borås;72, Ingenjör, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;51;J;J;I;J;256316;Christina Zetterstrand;66;K;Borås;66, f.d lärare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;52;J;J;I;J;256317;Andreas Tammjärv;43;M;Borås;43, Projektledare, Sparsör;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;53;J;J;I;J;256318;Kristina Andersson;70;K;Borås;70, Specialpedagog, Bredared;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;54;J;J;I;J;256319;Marcus Banér;18;M;Borås;18, Studerande, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;55;J;J;I;J;256320;Birgit Åkerlund;70;K;Borås;70, Nämndeman, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;56;J;J;I;J;256321;Bill Bakkemose;67;M;Borås;67, Lärare, Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;57;J;J;I;J;256322;Karin Grill;70;K;Borås;70, , Borås;256000;;J
+K;1490;Borås;02;Borås 2;Moderaterna;M;1;S;14336;58;J;J;I;J;256323;Marie-Louise Hall;75;K;Borås;75, Pensionär, Brämhult;256000;;J
+K;1490;Borås;02;Borås 2;Piratpartiet;PP;524;;;;N;J;J;I;395218;Rouhivuori, Henry;51;M;Borås;;0;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;1;J;J;I;J;49338;Patric Silfverklinga;54;M;Borås;gruppledare, 54;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;2;J;J;I;J;49339;Björn Qvarnström;47;M;Borås;undersköterska, 47;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;3;J;J;I;J;49340;Andreas Exner;27;M;Borås;ekonom, 27;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;4;J;J;I;J;49341;Leif Häggblom;45;M;Borås;transportledare, 45;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;5;J;J;I;J;49342;Anders Alftberg;45;M;Borås;lärare, 45;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;6;J;J;I;J;49343;Kristian Silbvers;37;M;Borås;VD, 37;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;7;J;J;I;J;49344;Jan Nilsson;69;M;Borås;pensionär, 69;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;8;J;J;I;J;49345;Jonas Ellerstrand;53;M;Borås;försäljningsansvarig, 53;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;9;J;J;I;J;49346;Ann-Charlotte Blomqvist;71;K;Borås;pensionär, 71;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;10;J;J;I;J;49347;Crister Spets;54;M;Borås;riksdagsman, 54;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;11;J;J;I;J;49348;Tomas Brandberg;46;M;Borås;Tekn dr, 46;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;12;J;J;I;J;49349;Olle Engström;73;M;Borås;f.d. företagsledare, 73;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;13;J;J;I;J;49350;Eva Eriksson;62;K;Borås;egenföretagare, 62;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;14;J;J;I;J;49355;Maria Lindgren;58;K;Borås;Socionom, 58;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;15;J;J;I;J;49351;Robert Skånberg;41;M;Borås;bilskadetekniker, 41;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;16;J;J;I;J;49352;Niklas Hallberg;44;M;Borås;IT-tekniker, 44;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;17;J;J;I;J;49377;Martin Sörbom;36;M;Borås;logistiker, 36;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;18;J;J;I;J;49354;Valter Kotsalainen;57;M;Borås;fil.kand, 57;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;19;J;J;I;J;49374;Mark Warnberg;67;M;Borås;hovslagare, 67;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;20;J;J;I;J;49386;Björn Malmquist;65;M;Borås;säkerhetssamordnare, 65;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;21;J;J;I;J;49379;Lars-Erik Johansson;70;M;Borås;pensionär, 70;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;22;J;J;I;J;49375;Daniel Assarsson;41;M;Borås;egenföretagare, 41;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;23;J;J;I;J;49378;Sven-Olof Johansson;62;M;Borås;chaufför, 62;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;24;J;J;I;J;49380;Kathy Johansson;67;K;Borås;konsult, 67;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;25;J;J;I;J;49381;Thor Henning Öhrn;77;M;Borås;pensionär, 77;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;26;J;J;I;J;49382;Jovan Vuckovic;58;M;Borås;undersköterska, 58;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;27;J;J;I;J;49383;Ronny Nyberg;54;M;Borås;försäljningsingenjör, 54;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;28;J;J;I;J;49384;Reijo Jardekrans;54;M;Borås;arbetssökande, 54;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;29;J;J;I;J;49385;Johanna Silfverklinga;53;K;Borås;stf. butikschef, 53;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;30;J;J;I;J;49353;Susanne Karlsson;52;K;Borås;undersköterska, 52;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;31;J;J;I;J;85425;Eike Jünke;82;M;Borås;trädgårdsmästare, 82;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;32;J;J;I;J;49387;Jürgen Urbas;71;M;Borås;marknadschef, 71;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;33;J;J;I;J;49388;Jan Stenberg;50;M;Borås;egenföretagare, 50;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;34;J;J;I;J;49422;Pia Larsson;52;K;Borås;personaladministratör, 52;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;35;J;J;I;J;49423;Kjell Mårtensson;57;M;Borås;chaufför, 57;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;36;J;J;I;J;49424;Peter Ohlsén;59;M;Borås;chaufför, 59;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;37;J;J;I;J;49425;Irene Rosalie Eriksson;75;K;Borås;pensionär, 75;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;38;J;J;I;J;49426;Patrik Hållpås;47;M;Borås;avdelningschef, 47;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;39;J;J;I;J;49427;Pertti Merstrand;56;M;Borås;montör, 56;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;40;J;J;I;J;49428;Magnus Andersson;53;M;Borås;snickare, 54;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;12448;41;J;J;I;J;49429;Zandra Johansson;39;K;Borås;servicepersonal, 39;256000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;1;J;J;I;J;49339;Björn Qvarnström;47;M;Borås;undersköterska, 47;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;2;J;J;I;J;49340;Andreas Exner;27;M;Borås;ekonom, 27;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;3;J;J;I;J;49341;Leif Häggblom;45;M;Borås;transportledare, 45;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;4;J;J;I;J;49342;Anders Alftberg;45;M;Borås;lärare, 45;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;5;J;J;I;J;49343;Kristian Silbvers;37;M;Borås;VD, 37;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;6;J;J;I;J;49344;Jan Nilsson;69;M;Borås;pensionär, 69;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;7;J;J;I;J;49345;Jonas Ellerstrand;53;M;Borås;försäljningsansvarig, 53;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;8;J;J;I;J;49346;Ann-Charlotte Blomqvist;71;K;Borås;pensionär, 71;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;9;J;J;I;J;49347;Crister Spets;54;M;Borås;riksdagsman, 54;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;10;J;J;I;J;49348;Tomas Brandberg;46;M;Borås;Tekn dr, 46;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;11;J;J;I;J;49349;Olle Engström;73;M;Borås;f.d. företagsledare, 73;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;12;J;J;I;J;49350;Eva Eriksson;62;K;Borås;egenföretagare, 62;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;13;J;J;I;J;49355;Maria Lindgren;58;K;Borås;Socionom, 58;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;14;J;J;I;J;49351;Robert Skånberg;41;M;Borås;bilskadetekniker, 41;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;15;J;J;I;J;49352;Niklas Hallberg;44;M;Borås;IT-tekniker, 44;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;16;J;J;I;J;49377;Martin Sörbom;36;M;Borås;logistiker, 36;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;17;J;J;I;J;49354;Valter Kotsalainen;57;M;Borås;fil.kand, 57;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;18;J;J;I;J;49374;Mark Warnberg;67;M;Borås;hovslagare, 67;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;19;J;J;I;J;49386;Björn Malmquist;65;M;Borås;säkerhetssamordnare, 65;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;20;J;J;I;J;49379;Lars-Erik Johansson;70;M;Borås;pensionär, 70;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;21;J;J;I;J;49375;Daniel Assarsson;41;M;Borås;egenföretagare, 41;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;22;J;J;I;J;49378;Sven-Olof Johansson;62;M;Borås;chaufför, 62;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;23;J;J;I;J;49380;Kathy Johansson;67;K;Borås;konsult, 67;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;24;J;J;I;J;49381;Thor Henning Öhrn;77;M;Borås;pensionär, 77;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;25;J;J;I;J;49382;Jovan Vuckovic;58;M;Borås;undersköterska, 58;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;26;J;J;I;J;49383;Ronny Nyberg;54;M;Borås;försäljningsingenjör, 54;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;27;J;J;I;J;49384;Reijo Jardekrans;54;M;Borås;arbetssökande, 54;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;28;J;J;I;J;49353;Susanne Karlsson;52;K;Borås;undersköterska, 52;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;29;J;J;I;J;85425;Eike Jünke;82;M;Borås;trädgårdsmästare, 82;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;30;J;J;I;J;49387;Jürgen Urbas;71;M;Borås;marknadschef, 71;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;31;J;J;I;J;49388;Jan Stenberg;50;M;Borås;egenföretagare, 50;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;32;J;J;I;J;49422;Pia Larsson;52;K;Borås;personaladministratör, 52;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;33;J;J;I;J;49423;Kjell Mårtensson;57;M;Borås;chaufför, 57;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;34;J;J;I;J;49424;Peter Ohlsén;59;M;Borås;chaufför, 59;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;35;J;J;I;J;49425;Irene Rosalie Eriksson;75;K;Borås;pensionär, 75;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;36;J;J;I;J;49426;Patrik Hållpås;47;M;Borås;avdelningschef, 47;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;37;J;J;I;J;49427;Pertti Merstrand;56;M;Borås;montör, 56;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;38;J;J;I;J;49428;Magnus Andersson;53;M;Borås;snickare, 54;250000;;J
+K;1490;Borås;02;Borås 2;Sverigedemokraterna;SD;110;S;15631;39;J;J;I;J;49429;Zandra Johansson;39;K;Borås;servicepersonal, 39;250000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;1;J;J;I;J;5448;Ida Legnemark;37;K;Borås;37 år, lärare, Dammsvedjan;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;2;J;J;I;J;76034;Stefan Lindborg;33;M;Borås;33 år, student, Norrmalm;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;3;J;J;I;J;16800;Anne Rapinoja;62;K;Borås;62 år, förskollärare, Hässleholmen;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;4;J;J;I;J;7761;Lennart Andreasson;73;M;Borås;73 år, pensionär, Parkstaden;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;5;J;J;I;J;76037;Gabriella Andersson;35;K;Borås;35 år, socionom, Norrmalm;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;6;J;J;I;J;24732;Peter Wiberg;40;M;Borås;40 år, ombudsman, Göta;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;7;J;J;I;J;76039;Inger Landström;59;K;Borås;59 år, arbetsterapeut, Dalsjöfors;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;8;J;J;I;J;16798;Tommy Josefsson;67;M;Borås;67 år, tekniklärare/pensionär, Norrby;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;9;J;J;I;J;76041;Anita Spjuth;55;K;Borås;55 år, integrationskonsulent, Sjöbo;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;10;J;J;I;J;24730;Peter Lund;41;M;Borås;41 år, kundtjänstmedarbetare, Dalsjöfors;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;11;J;J;I;J;76043;Kim Lindberg;34;K;Borås;34 år, projektledare, Hässleholmen;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;12;J;J;I;J;76044;Janne Elfstrand;51;M;Borås;51 år, boendestödjare, Sjöbo;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;13;J;J;I;J;76045;Carina Kierdorf;60;K;Borås;60 år, teststrateg, Viskafors;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;14;J;J;I;J;76046;Magnus Winblad;45;M;Borås;45 år, studerande, Viskafors;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;15;J;J;I;J;76047;Ulla Stålhammar;70;K;Borås;70 år, pensionär, Bosnäs;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;16;J;J;I;J;16797;Jasem Hardan;63;M;Borås;63 år, lärare, Norrby;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;17;J;J;I;J;76049;Leila Talmoudi;37;K;Borås;36 år, verksamhetsansvarig ABF, Östermalm;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;18;J;J;I;J;76050;Gholamreza Abbasian;64;M;Borås;65 år, undersköterska, Sjöbo;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;19;J;J;I;J;5449;Marjan Garmroudi;49;K;Borås;49 år, lärare, Trandared;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;20;J;J;I;J;76052;Peder Jonsson;52;M;Borås;51 år, miljöarbetare, Dalsjöfors;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;21;J;J;I;J;24725;Sofia Andersson;33;K;Borås;33 år, bibliotekarie, Göta;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;22;J;J;I;J;76054;Kjell Eliasson;73;M;Borås;73 år, fd metallarbetare, Äspered;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;23;J;J;I;J;76055;Maryam Osman;34;K;Borås;33 år, studerande/pers assistent, Hulta;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;24;J;J;I;J;76056;Ulf Hillermyr;69;M;Borås;69 år, träsnidare, Hulta;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;25;J;J;I;J;76057;Anna Gustavsson;33;K;Borås;33 år, lärare, Bergsbo;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;26;J;J;I;J;76058;Steve Liljekvist;35;M;Borås;35 år, applikationsspecialist, Fristad;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;27;J;J;I;J;76059;Pari Mahinpour;66;K;Borås;66 år, pensionär, Hulta;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;28;J;J;I;J;24729;Eyad Shehab;39;M;Borås;38 år, tolk, Norrby;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;29;J;J;I;J;76061;Angelica Vehmas;46;K;Borås;45 år, studerande, Trandared;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;30;J;J;I;J;76062;Joel Carlberg-Torsell;25;M;Borås;25 år, kundservicemedarbetare, Norrby;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;31;J;J;I;J;24735;Solveig Lindh-Josefsson;62;K;Borås;62 år, lärare, Norrby;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;32;J;J;I;J;76064;Mohamed Mohamoud;48;M;Borås;48 år, busschaufför/lärare, Norrby;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;33;J;J;I;J;76065;Jonas Edberg;34;M;Borås;35 år, forskningshandläggare, Dannike;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;34;J;J;I;J;76066;Anita Persson;60;K;Borås;60 år, ombudsman, Dammsvedjan;96000;;J
+K;1490;Borås;02;Borås 2;Vänsterpartiet;V;5;S;11825;35;J;J;I;J;76067;Matti Dahlbom;62;M;Borås;62 år, folkhögskolelärare, Norrmalm;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;1;J;J;I;J;87880;Per Carlsson;41;M;Borås;41 år, Borås;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;2;J;J;I;J;171125;Sara Andersson;41;K;Borås;41 år, Hässleholmen;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;3;J;J;I;J;171126;Micael Svensson;59;M;Borås;59 år, Målsryd;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;4;J;J;I;J;171127;Liridona Rexhepi;20;K;Borås;20 år, Hulta;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;5;J;J;I;J;91664;Sead Omerovic;41;M;Borås;41 år, Gånghester;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;6;J;J;I;J;171129;Marie Samuelsson;51;K;Borås;51 år, Gånghester;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;7;J;J;I;J;171130;Anders Jonsson;63;M;Borås;63 år, Svensgärde;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;8;J;J;I;J;171131;Anja Liikaluoma;67;K;Borås;67 år, Hässleholmen;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;9;J;J;I;J;171132;Muharrem Binaku;54;M;Borås;54 år, Boda;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;10;J;J;I;J;171133;Raija Leppänen;70;K;Borås;70 år, Hässleholmen;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;11;J;J;I;J;171134;Mohamed Farah;59;M;Borås;59 år, Borås;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;12;J;J;I;J;171135;Emina Beganovic;54;K;Borås;54 år, Brämhult;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;13;J;J;I;J;171136;Thomas Wingren;39;M;Borås;39 år, Dalsjöfors;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;14;J;J;I;J;171137;Eva Axell;57;K;Borås;57 år, Målsryd;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;15;J;J;I;J;171138;Martin Neuman;55;M;Borås;55 år, Målsryd;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;16;J;J;I;J;171139;Camilla Kvibro Ståhl;49;K;Borås;49 år, Äspered;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;17;J;J;I;J;171140;Bamma Sanneh;22;M;Göteborg;22 år, Hässleholmen;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;18;J;J;I;J;91661;Eva Österlund Hjort;58;K;Borås;58 år, Brämhult;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;19;J;J;I;J;171142;Vishal Arora;37;M;Borås;37 år, Hulta;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;20;J;J;I;J;171143;Eva Andersson;70;K;Borås;70 år, Rångedala;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;21;J;J;I;J;171146;Ulf Samuelsson;60;M;Borås;60 år, Gånghester;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;22;J;J;I;J;171145;Sahra Ali Osman;53;K;Borås;53 år, Borås;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;23;J;J;I;J;87892;Ernad Suntic;36;M;Borås;36 år, Brämhult;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;24;J;J;I;J;91659;Marianne Gustafson;63;K;Borås;63 år, Brotorp;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;25;J;J;I;J;171150;Ramadhan Hashim;42;M;Borås;42 år, Hulta;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;26;J;J;I;J;171149;Åsa Tobrant;51;K;Borås;51 år, Dalsjöfors;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;27;J;J;I;J;171152;Tauno Haikara;65;M;Borås;65 år, Hässleholmen;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;28;J;J;I;J;171151;Gunnel Österberg;69;K;Borås;69 år, Trandared;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;29;J;J;I;J;171154;Petri Pitkänen;52;M;Borås;52 år, Dalsjöfors;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;30;J;J;I;J;171153;Jenny Parmstrand;48;K;Borås;48 år, Målsryd;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;31;J;J;I;J;171156;Agron Cela;57;M;Borås;57 år, Trandared;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;32;J;J;I;J;171155;Marie Söderhagen;54;K;Borås;55 år, Äspered;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;33;J;J;I;J;171158;Tomas Fernfelt;53;M;Borås;53 år, Rångedala;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;34;J;J;I;J;91653;Jessica Eriksson;24;K;Borås;24 år, Trandared;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;35;J;J;I;J;171160;Rolf Andersson;69;M;Borås;69 år, Brämhult;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;36;J;J;I;J;171159;Alva Börjesson;19;K;Borås;19 år, Sörmarken;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;37;J;J;I;J;171161;Björn Johansson;73;M;Borås;73 år, Hässleholmen;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13609;38;J;J;I;J;171162;Tony Karlstedt;49;M;Borås;49 år, Äspered;96000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;1;J;J;I;J;171163;Ulf Olsson;46;M;Borås;46 år, Hedvigsborg;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;2;J;J;I;J;171164;Yvonne Persson;70;K;Borås;70 år, Lugnet;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;3;J;J;I;J;171165;Per-Olof Höög;75;M;Borås;75 år, Centrum;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;4;J;J;I;J;171166;Sofia Bohlin;27;K;Borås;27 år, Göta;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;5;J;J;I;J;91662;Robert Sandberg;44;M;Borås;44 år, Lugnet;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;6;J;J;I;J;171168;Leila Pekkala;69;K;Borås;69 år, Svaneholm;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;7;J;J;I;J;171169;Bengt Bohlin;54;M;Borås;54 år, Hedvigsborg;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;8;J;J;I;J;87873;Therése Björklund;24;K;Borås;24 år, Göta;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;9;J;J;I;J;171171;Andreas Ekström;43;M;Borås;43 år, Hedvigsborg;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;10;J;J;I;J;171172;Anethe Tolfsson;50;K;Borås;50 år, Bergdalen;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;11;J;J;I;J;171173;Mohamed Ben Maaouia;48;M;Borås;48 år, Centrum;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;12;J;J;I;J;171174;Cecilia Kochan;43;K;Borås;43 år, Seglora;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;13;J;J;I;J;171175;Leif Johansson;57;M;Borås;57 år, Norrmalm;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;14;J;J;I;J;171176;Helene Sandberg;50;K;Borås;50 år, Östermalm;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;15;J;J;I;J;171177;Tobias Eng Strömberg;20;M;Borås;20 år, Östermalm;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;16;J;J;I;J;171178;Christina Frisk;53;K;Borås;53 år, Seglora;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;17;J;J;I;J;171179;Samir Muratovic;45;M;Borås;45 år, Viskafors;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;18;J;J;I;J;171180;Ulla-Britt Möller;68;K;Borås;68 år, Kinnarumma;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;19;J;J;I;J;171181;Burair Mahmood;36;M;Borås;36 år, Östermalm;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;20;J;J;I;J;171182;Ulla-Britt Nordqvist;73;K;Borås;73 år, Funningen;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;21;J;J;I;J;171183;Roger Olsson;55;M;Borås;55 år, Druvefors;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;22;J;J;I;J;171184;Jaana Ben Maaouia;52;K;Borås;52 år, Centrum;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;23;J;J;I;J;171185;Mattias Nyström;27;M;Borås;27 år, Östermalm;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;24;J;J;I;J;171186;Annette Bjernhagen;59;K;Borås;59 år, Dammsvedjan;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;25;J;J;I;J;171187;Tord Andersson;73;M;Borås;73 år, Kristineberg;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;26;J;J;I;J;171188;Barbro Andersson;78;K;Borås;78 år, Norrmalm;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;27;J;J;I;J;171189;Urban Åkervall;48;M;Borås;48 år, Östermalm;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;28;J;J;I;J;171190;Kristina Nyberg Smahel;39;K;Borås;39 år, Druvefors;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;29;J;J;I;J;171191;Björn Alexandersson;61;M;Borås;61 år, Norrmalm;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;30;J;J;I;J;171192;Maria Oscarson;65;K;Borås;65 år, Östermalm;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;31;J;J;I;J;171193;Per Alstermark;53;M;Borås;53 år, Dammsvedjan;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;32;J;J;I;J;171194;Sarah Ali;32;K;Borås;32 år, Druvefors;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;33;J;J;I;J;171195;Samir Karamovic;54;M;Borås;54 år, Furuberg;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;34;J;J;I;J;171196;Erika Storme Martinger;49;K;Borås;49 år, Göta;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;35;J;J;I;J;171197;Magnus Persson;53;M;Borås;53 år, Seglora;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;36;J;J;I;J;171198;Ulla Krok;64;K;Borås;64 år, Norrmalm;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;37;J;J;I;J;171199;Micael Emilsson;53;M;Borås;53 år, Göta;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13610;38;J;J;I;J;171200;Anton Löberg;25;M;Borås;25 år, Göta;104000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;1;J;J;I;J;171201;Malin Carlsson;47;K;Borås;47 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;2;J;J;I;J;171202;Kent Hedberg;63;M;Borås;63 år, Byttorp;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;3;J;J;I;J;171203;Rose-Marie Liljenby-Andersson;68;K;Borås;68 år, Sjömarken;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;4;J;J;I;J;171204;Lars-Åke Johansson;74;M;Borås;74 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;5;J;J;I;J;171205;Ninni Dyberg;73;K;Borås;73 år, Byttorp;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;6;J;J;I;J;171206;Johan Dahlberg;27;M;Borås;27 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;7;J;J;I;J;171207;Gun-Britt Persson;73;K;Borås;73 år, Fristad;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;8;J;J;I;J;171208;Mohamed Kossir;27;M;Borås;27 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;9;J;J;I;J;171209;Ylva Lengberg;37;K;Borås;37 år, Fristad;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;10;J;J;I;J;171210;Abdullahi Warsame;43;M;Borås;43 år, Norrby;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;11;J;J;I;J;171211;Jessica Eng Strömberg;22;K;Borås;22 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;12;J;J;I;J;171212;Leif Grahn;67;M;Borås;67 år, Sandhult;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;13;J;J;I;J;171213;Marie Sandberg;64;K;Borås;64 år, Sandhult;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;14;J;J;I;J;171214;Sören Björklund;59;M;Borås;59 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;15;J;J;I;J;171215;Paulina Hanafi;19;K;Borås;19 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;16;J;J;I;J;87888;Nicholas Gregory;44;M;Borås;45 år, Hestra;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;17;J;J;I;J;171217;Maria Hanafi;49;K;Borås;49 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;18;J;J;I;J;171218;Mats Tolfsson;56;M;Borås;56 år, Tosseryd;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;19;J;J;I;J;171219;Anki Amneskog;69;K;Borås;69 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;20;J;J;I;J;171220;Magnus Olofsson;47;M;Borås;47 år, Fristad;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;21;J;J;I;J;171221;Pernilla Ohlsson;49;K;Borås;49 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;22;J;J;I;J;91680;Oscar Johansson;22;M;Borås;22 år, Norrby;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;23;J;J;I;J;171223;Linda Ikatti;46;K;Borås;46 år, Hestra;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;24;J;J;I;J;171224;Oskari Anundi;47;M;Borås;47 år, Fristad;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;25;J;J;I;J;171225;Agneta Ahlgrand;60;K;Borås;60 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;26;J;J;I;J;171226;Johan Hallin;49;M;Borås;49 år, Sandared;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;27;J;J;I;J;171227;Ismeta Dzafic;41;K;Borås;41 år, Norrby;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;28;J;J;I;J;91672;Adam Löberg;22;M;Borås;22 år, Norrby;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;29;J;J;I;J;171229;Melanja Nehme Duranec;52;K;Borås;52 år, Byttorp;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;30;J;J;I;J;171230;Magnus Johansson;34;M;Borås;34 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;31;J;J;I;J;171231;Josefin Larsson;21;K;Borås;21 år, Norrby;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;32;J;J;I;J;171232;Tinos Lappas;49;M;Borås;49 år, Hestra;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;33;J;J;I;J;171233;Tuula Järvinen;66;K;Borås;66 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;34;J;J;I;J;171234;Väinö Östhult;74;M;Borås;74 år, Norrby;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;35;J;J;I;J;171235;Liz Odqvist;54;K;Borås;54 år, Sandhult;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;36;J;J;I;J;91682;Joakim Angervik;35;M;Borås;35 år, Gingri;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;37;J;J;I;J;171239;Anette Molarin;63;K;Borås;63 år, Hestra;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;38;J;J;I;J;171240;Göran Holtstrand;59;M;Borås;59 år, Hestra;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;39;J;J;I;J;171241;Anne Sandberg;70;K;Borås;70 år, Sandhult;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;40;J;J;I;J;171242;Pavle Velcov;58;M;Borås;58 år, Viared;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;41;J;J;I;J;171243;Bratica Lazovic;69;K;Borås;69 år, Norrby;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;42;J;J;I;J;171244;Pentti Lindberg;64;M;Borås;64 år, Sjöbo;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;43;J;J;I;J;171245;Erzulina Yngvesson;46;K;Borås;46 år, Hestra;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;44;J;J;I;J;171246;Jan Patrikson;70;M;Borås;70 år, Hestra;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;45;J;J;I;J;171247;Cathrine Jansson;57;K;Borås;57 år, Byttorp;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;S;13611;46;J;J;I;J;171248;Peder Backlund;56;M;Borås;56 år, Sjömarken;120000;;J
+K;1490;Borås;03;Borås 3;Arbetarepartiet-Socialdemokraterna;S;2;;;;J;J;I;N;87869;[inte lämnat förklaring];;;;;0;;N
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;1;J;J;I;J;2943;Kerstin Hermansson;58;K;Borås;58 år, gruppledare, Seglora;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;2;J;J;I;J;2971;Mattias Danielsson;43;M;Borås;43 år, studie- och yrkesvägledare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;3;J;J;I;J;3099;Cecilia Andersson;44;K;Borås;44 år, regionpolitiker, Brämhult;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;4;J;J;I;J;13802;Alexander Andersson;35;M;Borås;35 år, lantbrukare, Dannike;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;5;J;J;I;J;3104;Maj-Britt Eckerström;59;K;Borås;59 år, kyrkokanslist, Vänga;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;6;J;J;I;J;13804;Monika Hermansson Friedman;47;K;Borås;47 år, civilekonom, Fristad;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;7;J;J;I;J;13805;Jan Idehed;71;M;Borås;71 år, organisatör, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;8;J;J;I;J;13806;Oscar Undevall;26;M;Borås;26 år, kundrådgivare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;9;J;J;I;J;3128;Karl-Eric Nilsson;65;M;Borås;65 år, speditör, Tämta;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;10;J;J;I;J;2967;Karla Kollberg;36;K;Göteborg;36 år, företagare, Dalsjöfors;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;11;J;J;I;J;13809;David Hårsmar;39;M;Borås;39 år, agronom, Dalsjöfors;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;12;J;J;I;J;13810;Monica Johansson;66;K;Borås;66 år, organisatör, Bredared;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;13;J;J;I;J;13811;Pernilla Tejemark;32;K;Borås;32 år, förvaltningsassistent, Fristad;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;14;J;J;I;J;13812;Solveig Landegren;68;K;Borås;68 år, fd kriminalinspektör, Sjömarken;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;15;J;J;I;J;13813;Emil Bertilsson;38;M;Borås;38 år, distriktschef, Målsryd;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;16;J;J;I;J;13814;Catharina Rapp;60;K;Borås;60 år, verksamhetsutvecklare, Tosseryd;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;17;J;J;I;J;13815;Johan Drotz;46;M;Borås;46 år, processledare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;18;J;J;I;J;13816;Lennart Brännmar;62;M;Borås;62 år, företagare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;19;J;J;I;J;2955;Elias Haqiqat;19;M;Borås;19 år, studerande, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;20;J;J;I;J;13818;Johan Källén;55;M;Borås;55 år, truckförsäljare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;21;J;J;I;J;13819;Leif Olsson;67;M;Borås;67 år, snickare, Bredared;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;22;J;J;I;J;13820;Maria Hermansson;50;K;Borås;50 år, sjuksköterska, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;23;J;J;I;J;13822;Håkan Eriksson;46;M;Borås;46 år, konsulent, Målsryd;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;24;J;J;I;J;13823;Jimmy Sjölund;46;M;Borås;47 år, innovationscoach, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;25;J;J;I;J;13824;Bengt-Olof Olsson;62;M;Borås;63 år, projektledare, Bredared;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;26;J;J;I;J;13825;Bengt Belfrage;68;M;Borås;69 år, företagare, Dalsjöfors;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;27;J;J;I;J;2970;Olivia Schell;37;K;Borås;37 år, företagare, Seglora;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;28;J;J;I;J;13827;Ulf Landegren;74;M;Borås;74 år, fd försäljningschef, Sjömarken;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;29;J;J;I;J;13828;Håkan Torstensson;70;M;Borås;70 år, teknikkonsult, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Centerpartiet;C;4;S;11938;30;J;J;I;J;13829;Christina Gustavsson;51;K;Borås;51 år, diakon, Gånghester;256000;;J
+K;1490;Borås;03;Borås 3;Feministiskt initiativ;FI;532;;;;N;J;J;I;497461;Rölander, Patrik;52;M;Borås;;0;;J
+K;1490;Borås;03;Borås 3;Feministiskt initiativ;FI;532;;;;N;J;J;I;515536;Fallenius, Sven;42;M;Borås;;0;;J
+K;1490;Borås;03;Borås 3;Feministiskt initiativ;FI;532;;;;N;J;J;I;515699;Vermelin, Emilia;24;K;Borås;;0;;J
+K;1490;Borås;03;Borås 3;Kommunistiska Partiet;K;471;S;14028;1;J;J;I;J;228066;Sonja Persson;66;K;Borås;förskollärare;90000;;J
+K;1490;Borås;03;Borås 3;Kommunistiska Partiet;K;471;S;14028;2;J;J;I;J;228067;Sergej Odström;34;M;Borås;arbetslös;90000;;J
+K;1490;Borås;03;Borås 3;Kommunistiska Partiet;K;471;S;14028;3;J;J;I;J;228068;Tobias Halldin;41;M;Borås;ortopedtekniker;90000;;J
+K;1490;Borås;03;Borås 3;Kommunistiska Partiet;K;471;S;14028;4;J;J;I;J;228069;Bengt Persson;69;M;Borås;möbelsnickare;90000;;J
+K;1490;Borås;03;Borås 3;Kommunistiska Partiet;K;471;S;14028;5;J;J;I;J;228070;Ronny Larsson;65;M;Borås;pensionär;90000;;J
+K;1490;Borås;03;Borås 3;Kommunistiska Partiet;K;471;S;14028;6;J;J;I;J;228071;Robert Wettersten;34;M;Borås;journalist;90000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;1;J;J;I;J;274920;Niklas Arvidsson;27;M;Borås;27, Tjänsteman, Borås;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;2;J;J;I;J;274723;Lisa Berglund;33;K;Borås;33, Biomedicinsk analytiker, Borås;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;3;J;J;I;J;280254;Hans Gustavsson;69;M;Borås;69, Säljare, Brämhult;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;4;J;J;I;J;274925;Else-Marie Lindgren;69;K;Borås;68, Fd riksdagsledamot, Sparsör;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;5;J;J;I;J;274937;Magnus Sjödahl;60;M;Borås;59, Socionom, Sjömarken;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;6;J;J;I;J;280257;Åke Ekvad;79;M;Borås;78, Rektor, Borås;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;7;J;J;I;J;274716;Valéria Kant;58;K;Borås;57, Kostrådgivare, Borås;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;8;J;J;I;J;274734;Ingela Hallgren;79;K;Borås;79, Fil. mag., Borås;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;9;J;J;I;J;280260;Gunilla Christoffersson;55;K;Borås;54, Lärare, Sjömarken;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;10;J;J;I;J;280261;Sven Wergård;86;M;Borås;85, Överste, Viskafors;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;11;J;J;I;J;280262;Per-Jonas Carlsson;57;M;Borås;57, Ekonom, Brämhult;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;12;J;J;I;J;280263;Jonathan Tellbe;30;M;Borås;29, Lärare, Borås;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;13;J;J;I;J;280264;Pär Sundbaum;56;M;Borås;56, Rektor, Brämhult;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;14;J;J;I;J;274934;Bengt-Göran Persson;68;M;Borås;68, Ingenjör, Sandared;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;15;J;J;I;J;274729;Lars Lyborg;73;M;Borås;72, Personalchef, Borås;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;16;J;J;I;J;280267;Harald Finlöf;69;M;Borås;69, Lärare, Brämhult;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;17;J;J;I;J;280268;Ronnie Friström;50;M;Borås;49, Systemtekniker, Sandared;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;18;J;J;I;J;280269;Felicidad Vicei;62;K;Borås;61, Inköpsassistent, Borås;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;19;J;J;I;J;280270;Daniel Henriksson;36;M;Borås;35, Produktutvecklare, Brämhult;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;20;J;J;I;J;280271;Daniel Swedengren;67;M;Borås;67, Egenföretagare, Brämhult;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;21;J;J;I;J;280272;Lennart Malmerfors;68;M;Borås;68, Fastighetschef, Borås;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;22;J;J;I;J;280273;Sivert Oxelbark;75;M;Borås;75, Musikpedagog, Dalsjöfors;208000;;J
+K;1490;Borås;03;Borås 3;Kristdemokraterna;KD;68;S;14499;23;J;J;I;J;280274;Lennart Gabre;76;M;Borås;76, Redovisningskonsult, Borås;208000;;J
+K;1490;Borås;03;Borås 3;Kristna Värdepartiet;KrVP;1140;;;;N;J;J;I;507638;Möller, Anna-Karin;31;K;Borås;;0;;J
+K;1490;Borås;03;Borås 3;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515850;Johansson, Ola;48;M;Borås;;0;;J
+K;1490;Borås;03;Borås 3;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515851;Svensson, Martin;38;M;Borås;;0;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;1;J;J;I;J;112685;Anna Svalander;46;K;Borås;46 år, statsvetare och pedagog;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;2;J;J;I;J;112686;Johan Wikander;55;M;Borås;55 år, ombudsman;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;3;J;J;I;J;112687;Andreas Cerny;24;M;Borås;24 år, utredningssekreterare;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;4;J;J;I;J;112688;Anne-Marie Ekström;71;K;Borås;71 år, företagare;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;5;J;J;I;J;112689;Soroush Rezai;21;M;Borås;21 år, tjänsteman;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;6;J;J;I;J;112690;Morgan Hjalmarsson;71;M;Borås;71 år, kommunalråd;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;7;J;J;I;J;112691;Britt-Marie Halldén;71;K;Borås;71 år, lektor;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;8;J;J;I;J;112692;Marcus Nilsen;25;M;Göteborg;25 år, universitetsstuderande;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;9;J;J;I;J;112693;Lars Gustaf Andersson;69;M;Borås;68 år, konsult/konstnär;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;10;J;J;I;J;112694;Linda Pålemo;39;K;Borås;39 år, designer;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;11;J;J;I;J;112695;Patric Cerny;55;M;Borås;55 år, kyrkoherde;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;12;J;J;I;J;112696;Lotta Preijde;55;K;Borås;55 år, rekryteringskonsult;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;13;J;J;I;J;112697;Tage Carlsson;47;M;Borås;47 år, måltidsbiträde;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;14;J;J;I;J;112698;Susanne Karlander;54;K;Borås;54 år, företagare;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;15;J;J;I;J;112699;Tommy Ky;23;M;Borås;23 år, företagare;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;16;J;J;I;J;112700;Emmy Scilaris;18;K;Borås;18 år, studerande;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;17;J;J;I;J;112701;Reza Aghapoor;43;M;Borås;43 år, verksamhetsutvecklare;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;18;J;J;I;J;112702;Hjördis Jonsson;81;K;Borås;81 år, f.d. företagare;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;19;J;J;I;J;112703;Bengt Wahlgren;82;M;Borås;82 år, f.d. gymnasielärare;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;20;J;J;I;J;112704;Cecilia Baggesen-Gyllunger;23;K;Borås;23 år, ombudsman;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;21;J;J;I;J;112705;Jan Hyllstam;55;M;Borås;55 år, präst;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;22;J;J;I;J;112706;Irene Gimmersta;38;K;Borås;39 år, egen företagare;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;23;J;J;I;J;112707;Roland Steinick;70;M;Borås;70 år, pensionär;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;24;J;J;I;J;112708;Bo W Jonsson;82;M;Borås;82 år, f.d. adjunkt;256000;;J
+K;1490;Borås;03;Borås 3;Liberalerna (tidigare Folkpartiet);L;3;S;13118;25;J;J;I;J;112709;Hamid Fard;50;M;Borås;50 år, företagsrådgivare;256000;;J
+K;1490;Borås;03;Borås 3;Medborgerlig Samling;MED;1296;S;14350;1;J;J;I;J;257616;Michel Johnsson;37;M;Borås;37 åkare Kinnarumma;13000;;J
+K;1490;Borås;03;Borås 3;Medborgerlig Samling;MED;1296;S;14350;2;J;J;I;J;258805;Magnus Hedén;36;M;Borås;36 psykolog Borås;13000;;J
+K;1490;Borås;03;Borås 3;Medborgerlig Samling;MED;1296;S;14350;3;J;J;I;J;257614;Robert Nordgren;62;M;Borås;62 pensionär Frufällan;13000;;J
+K;1490;Borås;03;Borås 3;Medborgerlig Samling;MED;1296;;;;J;J;I;N;513711;[inte lämnat förklaring];;;;;0;;N
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;1;J;J;I;J;74080;Kjell Hjalmarsson;64;M;Borås;64 år, Administratör, Borås;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;2;J;J;I;J;74081;Christina Waldenström;61;K;Borås;61 år, nämndeman i Hovrätten, Sjuksköterska, Dannike;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;3;J;J;I;J;74082;Tom Andersson;40;M;Borås;40 år, Kommunalråd, Sjöbo;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;4;J;J;I;J;232593;Anna-Karin Gunnarsson;48;K;Borås;48 år, Utvecklingsingenjör, Kinnarumma;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;5;J;J;I;J;66241;Göran Larsson;50;M;Borås;50 år, Sjuksköterska/Ordf. SÄS, Brämhult;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;6;J;J;I;J;74068;Sümeyya Gencoglu;25;K;Borås;25 år, Kulturstudent, Dammsvedjan;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;7;J;J;I;J;232596;Tim Gahnström;39;M;Borås;39 år, Systemutvecklare, Fristad;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;8;J;J;I;J;232597;Maria Hyllstam;48;K;Borås;48 år, Psykolog, Sjömarken;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;9;J;J;I;J;232598;Linnea Johansson Kläth;22;K;Borås;22 år, Bibliotekarie, Villastan;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;10;J;J;I;J;232599;Erik Johnson;43;M;Borås;43 år, Projektledare, Gånghester;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;11;J;J;I;J;74075;Mosa Roshangias;58;M;Borås;58 år, Sjuksköterska, Sparsör;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;12;J;J;I;J;74867;Hanna Werner;69;K;Borås;69 år, Socionom, Sandared;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;13;J;J;I;J;74069;Dennis Söderberg;51;M;Borås;51 år, Hållbarhetsentreprenör, Sjömarken;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;14;J;J;I;J;74077;Ellie Blickfors;77;K;Borås;77 år, Pensionär, Hässleholmen;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;15;J;J;I;J;232604;Enock Akouele;34;M;Borås;34 år, Student, Hässleholmen;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;16;J;J;I;J;232605;Anna Kjellberg;31;K;Borås;31 år, Egenföretagare, Hestra;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;17;J;J;I;J;232606;Matti Oinas;32;M;Borås;32 år, Miljöanalytiker, Dalsjöfors;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;18;J;J;I;J;232607;Tova Lidbeck;53;K;Borås;53 år, Verksamhetschef daglig verksamhet, Druvefors;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;19;J;J;I;J;74067;Sam Siavashee;56;M;Borås;56 år, Integrationskonsult, Sjöbo;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;20;J;J;I;J;232609;Helen Ernits;37;K;Borås;37 år, Tjänsteman, Viskafors;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;21;J;J;I;J;232610;Staffan Falk;71;M;Borås;70 år, Pensionär, Hestra;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;22;J;J;I;J;232611;Madeleine Larsson;52;K;Borås;52 år, Personlig assistent, Brämhult;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;23;J;J;I;J;232612;Eva Theen Johansson;66;K;Borås;66 år, Egenföretagare, Dalsjöfors;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;24;J;J;I;J;232613;Kyan Tabrizi;53;M;Borås;52 år, Personlig assistent, Trandared;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;25;J;J;I;J;232614;Ingrid Samuelsson;60;K;Borås;60 år, Humanekolog, Dannike;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;26;J;J;I;J;232615;Lars Sigfridsson;65;M;Borås;65 år, Stödassistent, Lundaskog;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;27;J;J;I;J;232616;Birgit Johansson;72;K;Borås;72 år, Pensionär, Bredared;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;28;J;J;I;J;232617;Lasse Jutemar;62;M;Borås;62 år, Ultralöpare, Kinnarumma;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;29;J;J;I;J;232618;Magnus Almström;48;M;Borås;48 år, Gymnasielärare, Trandared;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;30;J;J;I;J;232619;Bo-Lennart Bäcklund;56;M;Borås;56 år, Ekonom, Sjöbo;167000;;J
+K;1490;Borås;03;Borås 3;Miljöpartiet de gröna;MP;55;S;14060;31;J;J;I;J;232620;Bo-Göran Gunnarsson;72;M;Borås;72 år, Pensionär, Aplared;167000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;1;J;J;I;J;253899;Annette Carlson;56;K;Borås;56, Kommunalråd, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;2;J;J;I;J;253902;Oliver Öberg;28;M;Borås;28, Säljare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;3;J;J;I;J;254302;Marie Fridén;59;K;Borås;59, Civilekonom, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;4;J;J;I;J;256269;Ulf Sjösten;64;M;Borås;64, fd Polis, Brämhult;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;5;J;J;I;J;253890;Amanda Wiktorsson;23;K;Borås;23, Student, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;6;J;J;I;J;253886;Ulrik Nilsson;55;M;Borås;55, Sektionschef, Brämhult;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;7;J;J;I;J;253895;Dennis Jernkrook;23;M;Borås;23, Politisk tjänsteman, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;8;J;J;I;J;254299;Hasse Ikävalko;42;M;Borås;42, Möbeltapetserare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;9;J;J;I;J;253884;Cecilie Tenfjord Toftby;48;K;Borås;48, Riksdagsledamot, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;10;J;J;I;J;256275;Martin Nilsson;46;M;Borås;46, Företagare, Brämhult;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;11;J;J;I;J;254284;Birgitta Bergman;74;K;Borås;74, Kulturvetare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;12;J;J;I;J;256277;Anna Christensen;40;K;Borås;40, Analytiker, Brämhult;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;13;J;J;I;J;253906;Jolly Bou Rahal;22;K;Borås;22, Juriststudent, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;14;J;J;I;J;256279;Lars-Gunnar Comén;59;M;Borås;59, Flyganalytiker/Egen företagare, Brämhult;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;15;J;J;I;J;256280;Urban Svenkvist;68;M;Borås;68, fd Chefsåklagare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;16;J;J;I;J;256281;Pirita Isegran;32;K;Borås;32, Biståndshandläggare, Viskafors;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;17;J;J;I;J;256282;Anna-Clara Stenström;61;K;Borås;61, Undersköterska, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;18;J;J;I;J;256283;Nils-Åke Björklund;64;M;Borås;64, Ekonom, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;19;J;J;I;J;256284;Annette Nordström;46;K;Borås;46, Distributör, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;20;J;J;I;J;256285;Per Månsson;68;M;Borås;68, Pensionär, Fristad;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;21;J;J;I;J;254287;Jonas Garmarp;50;M;Borås;50, Civilekonom, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;22;J;J;I;J;254314;Lovisa Gustafsson;18;K;Borås;18, Studerande, Sjömarken;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;23;J;J;I;J;254289;Mattias Karlsson;34;M;Borås;34, Kronoinspektör, Viskafors;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;24;J;J;I;J;256289;Jessica Bjurén;46;K;Borås;46, Butikschef, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;25;J;J;I;J;256290;Paul Andre Safko;68;M;Borås;68, Ingengör, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;26;J;J;I;J;256291;Lotta Löfgren Hjelm;71;K;Borås;71, f.d Barnmorska, Fristad;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;27;J;J;I;J;256292;Mikael Wickberg;64;M;Borås;64, Civilingenjör, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;28;J;J;I;J;256293;Wiwi Roswall;76;K;Borås;76, Pensionär, Fristad;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;29;J;J;I;J;253907;Daniel Nikolov;21;M;Borås;21, Student/restaurang, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;30;J;J;I;J;256295;Alva Mannberg;20;K;Borås;20, Studerande, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;31;J;J;I;J;256296;Georg Guldstrand;55;M;Borås;55, IT Application Lead, Dalsjöfors;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;32;J;J;I;J;256297;Marie Jöreteg;58;K;Borås;58, Regionchef, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;33;J;J;I;J;256298;Anders Johansson;42;M;Borås;42, Lärare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;34;J;J;I;J;256299;Peter Wilhelmson;67;M;Borås;67, Utredningssekreterare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;35;J;J;I;N;256300;[inte lämnat förklaring];;;;;256000;;N
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;36;J;J;I;J;256301;Sofia Sandänger;41;K;Borås;41, Samverkansansvarig, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;37;J;J;I;J;256302;Alen Saric;30;M;Borås;30, Civilekonom, Brämhult;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;38;J;J;I;J;256303;Saveta Olsén;66;K;Borås;66, Egenföretagare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;39;J;J;I;J;256304;Emil Ramezani Semnani Moghaddam;19;M;Borås;19, Studerande, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;40;J;J;I;J;256305;Christian Ekström;44;M;Borås;44, Egen Företagare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;41;J;J;I;J;256306;Elsie Lundberg;80;K;Borås;80, Pensionär, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;42;J;J;I;J;256307;Björn-Ola Kronander;47;M;Borås;47, Företagare, Dannike;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;43;J;J;I;J;256308;Berit Johansson;63;K;Borås;63, Medicinsk sekreterare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;44;J;J;I;J;256309;Hakam Alakraa;55;M;Borås;55, Egenföretagare, Målsryd;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;45;J;J;I;N;256310;[inte lämnat förklaring];;;;;256000;;N
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;46;J;J;I;J;256311;Lina Nilsson;19;K;Borås;19, Studerande, Brämhult;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;47;J;J;I;J;256312;Rasmus Kivinen;22;M;Borås;22, Ekonomistudent, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;48;J;J;I;J;254312;Seija Noppa;79;K;Borås;79, Egenföretagare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;49;J;J;I;J;256314;Carin Brandt;73;K;Borås;73, Pensionär, f.d. arbetsförmedlare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;50;J;J;I;J;256315;Bill Johansson;72;M;Borås;72, Ingenjör, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;51;J;J;I;J;256316;Christina Zetterstrand;66;K;Borås;66, f.d lärare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;52;J;J;I;J;256317;Andreas Tammjärv;43;M;Borås;43, Projektledare, Sparsör;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;53;J;J;I;J;256318;Kristina Andersson;70;K;Borås;70, Specialpedagog, Bredared;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;54;J;J;I;J;256319;Marcus Banér;18;M;Borås;18, Studerande, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;55;J;J;I;J;256320;Birgit Åkerlund;70;K;Borås;70, Nämndeman, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;56;J;J;I;J;256321;Bill Bakkemose;67;M;Borås;67, Lärare, Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;57;J;J;I;J;256322;Karin Grill;70;K;Borås;70, , Borås;256000;;J
+K;1490;Borås;03;Borås 3;Moderaterna;M;1;S;14336;58;J;J;I;J;256323;Marie-Louise Hall;75;K;Borås;75, Pensionär, Brämhult;256000;;J
+K;1490;Borås;03;Borås 3;Piratpartiet;PP;524;;;;N;J;J;I;395218;Rouhivuori, Henry;51;M;Borås;;0;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;1;J;J;I;J;49338;Patric Silfverklinga;54;M;Borås;gruppledare, 54;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;2;J;J;I;J;49339;Björn Qvarnström;47;M;Borås;undersköterska, 47;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;3;J;J;I;J;49340;Andreas Exner;27;M;Borås;ekonom, 27;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;4;J;J;I;J;49341;Leif Häggblom;45;M;Borås;transportledare, 45;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;5;J;J;I;J;49342;Anders Alftberg;45;M;Borås;lärare, 45;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;6;J;J;I;J;49343;Kristian Silbvers;37;M;Borås;VD, 37;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;7;J;J;I;J;49344;Jan Nilsson;69;M;Borås;pensionär, 69;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;8;J;J;I;J;49345;Jonas Ellerstrand;53;M;Borås;försäljningsansvarig, 53;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;9;J;J;I;J;49346;Ann-Charlotte Blomqvist;71;K;Borås;pensionär, 71;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;10;J;J;I;J;49347;Crister Spets;54;M;Borås;riksdagsman, 54;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;11;J;J;I;J;49348;Tomas Brandberg;46;M;Borås;Tekn dr, 46;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;12;J;J;I;J;49349;Olle Engström;73;M;Borås;f.d. företagsledare, 73;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;13;J;J;I;J;49350;Eva Eriksson;62;K;Borås;egenföretagare, 62;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;14;J;J;I;J;49355;Maria Lindgren;58;K;Borås;Socionom, 58;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;15;J;J;I;J;49351;Robert Skånberg;41;M;Borås;bilskadetekniker, 41;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;16;J;J;I;J;49352;Niklas Hallberg;44;M;Borås;IT-tekniker, 44;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;17;J;J;I;J;49377;Martin Sörbom;36;M;Borås;logistiker, 36;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;18;J;J;I;J;49354;Valter Kotsalainen;57;M;Borås;fil.kand, 57;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;19;J;J;I;J;49374;Mark Warnberg;67;M;Borås;hovslagare, 67;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;20;J;J;I;J;49386;Björn Malmquist;65;M;Borås;säkerhetssamordnare, 65;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;21;J;J;I;J;49379;Lars-Erik Johansson;70;M;Borås;pensionär, 70;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;22;J;J;I;J;49375;Daniel Assarsson;41;M;Borås;egenföretagare, 41;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;23;J;J;I;J;49378;Sven-Olof Johansson;62;M;Borås;chaufför, 62;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;24;J;J;I;J;49380;Kathy Johansson;67;K;Borås;konsult, 67;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;25;J;J;I;J;49381;Thor Henning Öhrn;77;M;Borås;pensionär, 77;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;26;J;J;I;J;49382;Jovan Vuckovic;58;M;Borås;undersköterska, 58;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;27;J;J;I;J;49383;Ronny Nyberg;54;M;Borås;försäljningsingenjör, 54;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;28;J;J;I;J;49384;Reijo Jardekrans;54;M;Borås;arbetssökande, 54;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;29;J;J;I;J;49385;Johanna Silfverklinga;53;K;Borås;stf. butikschef, 53;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;30;J;J;I;J;49353;Susanne Karlsson;52;K;Borås;undersköterska, 52;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;31;J;J;I;J;85425;Eike Jünke;82;M;Borås;trädgårdsmästare, 82;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;32;J;J;I;J;49387;Jürgen Urbas;71;M;Borås;marknadschef, 71;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;33;J;J;I;J;49388;Jan Stenberg;50;M;Borås;egenföretagare, 50;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;34;J;J;I;J;49422;Pia Larsson;52;K;Borås;personaladministratör, 52;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;35;J;J;I;J;49423;Kjell Mårtensson;57;M;Borås;chaufför, 57;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;36;J;J;I;J;49424;Peter Ohlsén;59;M;Borås;chaufför, 59;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;37;J;J;I;J;49425;Irene Rosalie Eriksson;75;K;Borås;pensionär, 75;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;38;J;J;I;J;49426;Patrik Hållpås;47;M;Borås;avdelningschef, 47;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;39;J;J;I;J;49427;Pertti Merstrand;56;M;Borås;montör, 56;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;40;J;J;I;J;49428;Magnus Andersson;53;M;Borås;snickare, 54;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;12448;41;J;J;I;J;49429;Zandra Johansson;39;K;Borås;servicepersonal, 39;256000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;1;J;J;I;J;49339;Björn Qvarnström;47;M;Borås;undersköterska, 47;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;2;J;J;I;J;49340;Andreas Exner;27;M;Borås;ekonom, 27;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;3;J;J;I;J;49341;Leif Häggblom;45;M;Borås;transportledare, 45;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;4;J;J;I;J;49342;Anders Alftberg;45;M;Borås;lärare, 45;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;5;J;J;I;J;49343;Kristian Silbvers;37;M;Borås;VD, 37;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;6;J;J;I;J;49344;Jan Nilsson;69;M;Borås;pensionär, 69;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;7;J;J;I;J;49345;Jonas Ellerstrand;53;M;Borås;försäljningsansvarig, 53;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;8;J;J;I;J;49346;Ann-Charlotte Blomqvist;71;K;Borås;pensionär, 71;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;9;J;J;I;J;49347;Crister Spets;54;M;Borås;riksdagsman, 54;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;10;J;J;I;J;49348;Tomas Brandberg;46;M;Borås;Tekn dr, 46;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;11;J;J;I;J;49349;Olle Engström;73;M;Borås;f.d. företagsledare, 73;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;12;J;J;I;J;49350;Eva Eriksson;62;K;Borås;egenföretagare, 62;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;13;J;J;I;J;49355;Maria Lindgren;58;K;Borås;Socionom, 58;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;14;J;J;I;J;49351;Robert Skånberg;41;M;Borås;bilskadetekniker, 41;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;15;J;J;I;J;49352;Niklas Hallberg;44;M;Borås;IT-tekniker, 44;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;16;J;J;I;J;49377;Martin Sörbom;36;M;Borås;logistiker, 36;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;17;J;J;I;J;49354;Valter Kotsalainen;57;M;Borås;fil.kand, 57;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;18;J;J;I;J;49374;Mark Warnberg;67;M;Borås;hovslagare, 67;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;19;J;J;I;J;49386;Björn Malmquist;65;M;Borås;säkerhetssamordnare, 65;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;20;J;J;I;J;49379;Lars-Erik Johansson;70;M;Borås;pensionär, 70;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;21;J;J;I;J;49375;Daniel Assarsson;41;M;Borås;egenföretagare, 41;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;22;J;J;I;J;49378;Sven-Olof Johansson;62;M;Borås;chaufför, 62;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;23;J;J;I;J;49380;Kathy Johansson;67;K;Borås;konsult, 67;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;24;J;J;I;J;49381;Thor Henning Öhrn;77;M;Borås;pensionär, 77;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;25;J;J;I;J;49382;Jovan Vuckovic;58;M;Borås;undersköterska, 58;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;26;J;J;I;J;49383;Ronny Nyberg;54;M;Borås;försäljningsingenjör, 54;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;27;J;J;I;J;49384;Reijo Jardekrans;54;M;Borås;arbetssökande, 54;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;28;J;J;I;J;49353;Susanne Karlsson;52;K;Borås;undersköterska, 52;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;29;J;J;I;J;85425;Eike Jünke;82;M;Borås;trädgårdsmästare, 82;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;30;J;J;I;J;49387;Jürgen Urbas;71;M;Borås;marknadschef, 71;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;31;J;J;I;J;49388;Jan Stenberg;50;M;Borås;egenföretagare, 50;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;32;J;J;I;J;49422;Pia Larsson;52;K;Borås;personaladministratör, 52;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;33;J;J;I;J;49423;Kjell Mårtensson;57;M;Borås;chaufför, 57;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;34;J;J;I;J;49424;Peter Ohlsén;59;M;Borås;chaufför, 59;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;35;J;J;I;J;49425;Irene Rosalie Eriksson;75;K;Borås;pensionär, 75;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;36;J;J;I;J;49426;Patrik Hållpås;47;M;Borås;avdelningschef, 47;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;37;J;J;I;J;49427;Pertti Merstrand;56;M;Borås;montör, 56;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;38;J;J;I;J;49428;Magnus Andersson;53;M;Borås;snickare, 54;250000;;J
+K;1490;Borås;03;Borås 3;Sverigedemokraterna;SD;110;S;15631;39;J;J;I;J;49429;Zandra Johansson;39;K;Borås;servicepersonal, 39;250000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;1;J;J;I;J;5448;Ida Legnemark;37;K;Borås;37 år, lärare, Dammsvedjan;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;2;J;J;I;J;76034;Stefan Lindborg;33;M;Borås;33 år, student, Norrmalm;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;3;J;J;I;J;16800;Anne Rapinoja;62;K;Borås;62 år, förskollärare, Hässleholmen;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;4;J;J;I;J;7761;Lennart Andreasson;73;M;Borås;73 år, pensionär, Parkstaden;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;5;J;J;I;J;76037;Gabriella Andersson;35;K;Borås;35 år, socionom, Norrmalm;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;6;J;J;I;J;24732;Peter Wiberg;40;M;Borås;40 år, ombudsman, Göta;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;7;J;J;I;J;76039;Inger Landström;59;K;Borås;59 år, arbetsterapeut, Dalsjöfors;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;8;J;J;I;J;16798;Tommy Josefsson;67;M;Borås;67 år, tekniklärare/pensionär, Norrby;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;9;J;J;I;J;76041;Anita Spjuth;55;K;Borås;55 år, integrationskonsulent, Sjöbo;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;10;J;J;I;J;24730;Peter Lund;41;M;Borås;41 år, kundtjänstmedarbetare, Dalsjöfors;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;11;J;J;I;J;76043;Kim Lindberg;34;K;Borås;34 år, projektledare, Hässleholmen;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;12;J;J;I;J;76044;Janne Elfstrand;51;M;Borås;51 år, boendestödjare, Sjöbo;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;13;J;J;I;J;76045;Carina Kierdorf;60;K;Borås;60 år, teststrateg, Viskafors;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;14;J;J;I;J;76046;Magnus Winblad;45;M;Borås;45 år, studerande, Viskafors;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;15;J;J;I;J;76047;Ulla Stålhammar;70;K;Borås;70 år, pensionär, Bosnäs;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;16;J;J;I;J;16797;Jasem Hardan;63;M;Borås;63 år, lärare, Norrby;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;17;J;J;I;J;76049;Leila Talmoudi;37;K;Borås;36 år, verksamhetsansvarig ABF, Östermalm;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;18;J;J;I;J;76050;Gholamreza Abbasian;64;M;Borås;65 år, undersköterska, Sjöbo;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;19;J;J;I;J;5449;Marjan Garmroudi;49;K;Borås;49 år, lärare, Trandared;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;20;J;J;I;J;76052;Peder Jonsson;52;M;Borås;51 år, miljöarbetare, Dalsjöfors;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;21;J;J;I;J;24725;Sofia Andersson;33;K;Borås;33 år, bibliotekarie, Göta;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;22;J;J;I;J;76054;Kjell Eliasson;73;M;Borås;73 år, fd metallarbetare, Äspered;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;23;J;J;I;J;76055;Maryam Osman;34;K;Borås;33 år, studerande/pers assistent, Hulta;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;24;J;J;I;J;76056;Ulf Hillermyr;69;M;Borås;69 år, träsnidare, Hulta;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;25;J;J;I;J;76057;Anna Gustavsson;33;K;Borås;33 år, lärare, Bergsbo;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;26;J;J;I;J;76058;Steve Liljekvist;35;M;Borås;35 år, applikationsspecialist, Fristad;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;27;J;J;I;J;76059;Pari Mahinpour;66;K;Borås;66 år, pensionär, Hulta;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;28;J;J;I;J;24729;Eyad Shehab;39;M;Borås;38 år, tolk, Norrby;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;29;J;J;I;J;76061;Angelica Vehmas;46;K;Borås;45 år, studerande, Trandared;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;30;J;J;I;J;76062;Joel Carlberg-Torsell;25;M;Borås;25 år, kundservicemedarbetare, Norrby;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;31;J;J;I;J;24735;Solveig Lindh-Josefsson;62;K;Borås;62 år, lärare, Norrby;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;32;J;J;I;J;76064;Mohamed Mohamoud;48;M;Borås;48 år, busschaufför/lärare, Norrby;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;33;J;J;I;J;76065;Jonas Edberg;34;M;Borås;35 år, forskningshandläggare, Dannike;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;34;J;J;I;J;76066;Anita Persson;60;K;Borås;60 år, ombudsman, Dammsvedjan;96000;;J
+K;1490;Borås;03;Borås 3;Vänsterpartiet;V;5;S;11825;35;J;J;I;J;76067;Matti Dahlbom;62;M;Borås;62 år, folkhögskolelärare, Norrmalm;96000;;J

@@ -1,0 +1,63 @@
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;1;J;J;I;J;159986;Britt-Marie Johansson;63;K;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;2;J;J;I;J;159987;Johan Birath;57;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;3;J;J;I;J;159988;Arne Karlsson;66;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;4;J;J;I;J;159989;Annika Adolfsson;68;K;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;5;J;J;I;J;159990;Stig Adolfsson;74;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;6;J;J;I;J;159991;Siw Karlsson;65;K;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;7;J;J;I;J;159992;Hans Sjögren;67;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;8;J;J;I;J;159993;Janet Åkesson;60;K;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;9;J;J;I;J;159994;Lars-Bertil Oscarsson;65;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;10;J;J;I;J;31543;Annsofi Ramevik;45;K;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;11;J;J;I;J;159996;Henrik M Carlsson;51;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;12;J;J;I;J;31609;Helena Stålhandske;42;K;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;13;J;J;I;J;159998;Peter Kjellberg;41;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;14;J;J;I;J;159999;David Hansevi;34;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;15;J;J;I;J;160000;Ann-Charlotte Hallén Mård;53;K;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;16;J;J;I;J;160001;Claes Sjökvist;48;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;17;J;J;I;J;160002;Hugo Pettersson;18;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;18;J;J;I;J;31535;Per-Arne Larsson;67;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;19;J;J;I;J;161142;Ann-Marie Flink;70;K;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;20;J;J;I;J;161143;Conny Abrahamsson;71;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;21;J;J;I;J;161144;Monica Karlsson;68;K;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;22;J;J;I;J;161145;Göran Karlsson;66;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;23;J;J;I;J;161146;Anna Jörnestad;45;K;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;24;J;J;I;J;161147;Sölve J Rosenlöf;61;M;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;25;J;J;I;J;161148;Eva Oscarsson;60;K;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;13501;26;J;J;I;J;161149;Elin Granath;37;K;Boxholm;;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;1;J;J;I;J;15668;Staffan Leufvén;38;M;Boxholm;38 år, Uddebo;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;2;J;J;I;J;15669;Siv Friedmann Björk;68;K;Boxholm;68 år, Pålsbo;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;3;J;J;I;J;15670;Ian Jamieson;59;M;Boxholm;59 år, Tumbo Gård;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;4;J;J;I;J;15671;Therese Leufvén;36;K;Boxholm;36 år, Uddebo;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;5;J;J;I;J;15672;Sune Blom;75;M;Boxholm;75 år, Hester;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;6;J;J;I;J;12034;Anna Jamieson;58;K;Boxholm;58 år, Tumbo Gård;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;7;J;J;I;J;15674;Gunnar Malgeryd;49;M;Boxholm;49 år, Malexander;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;8;J;J;I;J;15675;Maud Steen;62;K;Boxholm;62 år, Ekeby;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;9;J;J;I;J;15676;Börje Johansson;71;M;Boxholm;71 år, Alarp;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;10;J;J;I;J;15677;Solveig Agnevik;71;K;Boxholm;71 år, Svärdsvik;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;11;J;J;I;J;15678;Anders Gustavsson;65;M;Boxholm;65 år, Boxholm;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;12;J;J;I;J;15679;Elisabeth Ekman;68;K;Boxholm;68 år, Skärlunda;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;13;J;J;I;J;15680;Inger Samuelsson;64;K;Boxholm;64 år, Boxholm;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Centerpartiet;C;4;S;11969;14;J;J;I;J;15681;Stig Karlsson;79;M;Boxholm;79 år, Malexander;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Kristdemokraterna;KD;68;S;14398;1;J;J;I;J;261051;Elna Eriksson;77;K;Boxholm;Barnskötare;8000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Kristdemokraterna;KD;68;S;14398;2;J;J;I;J;267417;Daniel Fredriksson;43;M;Boxholm;Egen företagare;8000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Kristdemokraterna;KD;68;S;14398;3;J;J;I;J;267418;Monika Johansson;66;K;Boxholm;F.d Lantbrukare;8000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Kristdemokraterna;KD;68;S;14398;4;J;J;I;J;267419;Nilsgunnar Johansson;34;M;Boxholm;Travtränare;8000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Kristdemokraterna;KD;68;S;14398;5;J;J;I;J;263090;Evert Andersson;70;M;Boxholm;Ingenjör;8000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Kristdemokraterna;KD;68;S;14398;6;J;J;I;J;267421;Arne Gustavsson;80;M;Boxholm;Skogsarbetare;8000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Kristdemokraterna;KD;68;S;14398;7;J;J;I;J;267422;Anna Lundgren;50;K;Boxholm;Skötare;8000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Liberalerna (tidigare Folkpartiet);L;3;;;;N;J;J;I;515898;Bremer, Eva;57;K;Boxholm;;0;;J
+K;0560;Boxholm;00;Boxholms Kommun;Moderaterna;M;1;S;11862;1;J;J;I;J;8230;Stefan Andersson;70;M;Boxholm;Blåvik;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Moderaterna;M;1;S;11862;2;J;J;I;J;3338;Stig Johansson;81;M;Boxholm;Boxholm;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Moderaterna;M;1;S;11862;3;J;J;I;J;8232;Jenny Ledelius;52;K;Boxholm;Ekeby;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Moderaterna;M;1;S;11862;4;J;J;I;J;8233;Sören Norrby;64;M;Boxholm;Malexander;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Moderaterna;M;1;S;11862;5;J;J;I;J;8234;Åke Carlsson;69;M;Boxholm;Boxholm;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Moderaterna;M;1;S;11862;6;J;J;I;J;8235;Jan Hallgren;76;M;Boxholm;Boxholm;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Moderaterna;M;1;S;11862;7;J;J;I;J;8236;Rolf Stenvard;72;M;Boxholm;Boxholm;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Moderaterna;M;1;S;11862;8;J;J;I;J;8237;Birgitta Carlsson;71;K;Boxholm;Boxholm;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Moderaterna;M;1;S;11862;9;J;J;I;J;8238;Åke Sandberg;65;M;Boxholm;Boxholm;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Moderaterna;M;1;S;11862;10;J;J;I;J;8239;Helene Norrby;60;K;Boxholm;Malexander;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Moderaterna;M;1;S;11862;11;J;J;I;J;8240;Nils Huss;53;M;Boxholm;Boxholm;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Moderaterna;M;1;S;11862;12;J;J;I;J;8241;Ylwa Söderström;68;K;Boxholm;Boxholm;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Sverigedemokraterna;SD;110;S;12916;1;J;J;I;J;80893;Stefan Hallin;62;M;Boxholm;62, Montör, Boxholm;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Sverigedemokraterna;SD;110;S;12916;2;J;J;I;J;80894;Michael Stark;50;M;Boxholm;50, Verkstadsarbetare, Boxholm;13000;;J
+K;0560;Boxholm;00;Boxholms Kommun;Vänsterpartiet;V;5;S;12883;1;J;J;I;J;71572;Irene Garperian;61;K;Boxholm;61, Sjukpensionär, Boxholm;7000;;J

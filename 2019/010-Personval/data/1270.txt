@@ -1,0 +1,158 @@
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;1;J;J;I;J;28276;Sara Anheden;31;K;Tomelilla;31 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;2;J;J;I;J;57863;Torgny Larsson;60;M;Tomelilla;60 år, Tryde;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;3;J;J;I;J;66062;Ida Bornlykke;39;K;Tomelilla;39 år, Smedstorp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;4;J;J;I;J;28291;Sejdi Karaliti;33;M;Tomelilla;33 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;5;J;J;I;J;66064;Tina Bergström Darell;66;K;Tomelilla;66 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;6;J;J;I;J;66065;Anders Throbäck;53;M;Tomelilla;53 år, Ramsåsa;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;7;J;J;I;J;66066;Inger Åbonde;70;K;Tomelilla;70 år, Lunnarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;8;J;J;I;J;66067;Peter Boström;58;M;Tomelilla;58 år, Sälshög;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;9;J;J;I;J;57850;Anne-Maj Råberg;75;K;Tomelilla;75 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;10;J;J;I;J;66069;Jan-Erik Andersson;67;M;Tomelilla;67 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;11;J;J;I;J;66070;Helén Bladh;56;K;Tomelilla;56 år, Smedstorp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;12;J;J;I;J;66071;Kevin Ekvall;21;M;Tomelilla;21 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;13;J;J;I;J;66072;Kristin Skoog;47;K;Tomelilla;47 år, Benestad;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;14;J;J;I;J;66073;Axel Olsson;43;M;Tomelilla;43 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;15;J;J;I;J;66074;Britt-Marie Liljeholm;67;K;Tomelilla;67 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;16;J;J;I;J;66075;Roger Persson;45;M;Tomelilla;45 år, Tryde;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;17;J;J;I;J;66076;Karin Arvidsson;67;K;Tomelilla;67 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;18;J;J;I;J;66077;Henrik Nilsson;48;M;Tomelilla;48 år, Sälshög;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;19;J;J;I;J;66078;Ulla-Christina Lindberg;68;K;Tomelilla;68 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;20;J;J;I;J;66079;Per Larsson;56;M;Tomelilla;56 år, Spjutstorp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;21;J;J;I;J;66080;Gunilla Eriksson;49;K;Tomelilla;49 år, Tryde;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;22;J;J;I;J;66081;Walter Borggren;65;M;Tomelilla;65 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;23;J;J;I;J;66082;Elsy Larsson;71;K;Tomelilla;71 år, Tryde;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;24;J;J;I;J;66083;Hans Larsson;72;M;Tomelilla;72 år, Tryde;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;25;J;J;I;J;66084;Britt-Marie Olofsson;74;K;Tomelilla;74 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;26;J;J;I;J;66085;Kenth Bergström;64;M;Tomelilla;64 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;27;J;J;I;J;66086;Else-Marie Lindgren;75;K;Tomelilla;75 år, Tryde;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;28;J;J;I;J;57845;Per Skoog;51;M;Tomelilla;51 år, Benestad;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;29;J;J;I;J;66088;Ann-Sofie Lind;60;K;Tomelilla;60 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;30;J;J;I;J;66089;Mikael Rosén;49;M;Tomelilla;49 år, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;31;J;J;I;J;66090;Margit Olsson;77;K;Tomelilla;77 år, Tryde;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Arbetarepartiet-Socialdemokraterna;S;2;S;12667;32;J;J;I;J;66091;Tomas Talik;73;M;Tomelilla;73 år, Brösarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;1;J;J;I;J;416227;Leif Sandberg;50;M;Tomelilla;50, Kommunalråd, Everöd;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;2;J;J;I;J;79259;Maria Mickelåker;39;K;Tomelilla;39, Agronom, Eljaröd;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;3;J;J;I;J;79260;Magnus Nilsson;42;M;Tomelilla;42, Lantmästare, Torasteröd;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;4;J;J;I;J;79261;Charlotte Rosdala;53;K;Tomelilla;53, Butikssäljare, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;5;J;J;I;J;35334;Christer Yrjas;45;M;Tomelilla;45, Agronom, Agusa;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;6;J;J;I;J;35327;Fatlum Avdullahu;33;M;Tomelilla;33, Redovisningskonsult, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;7;J;J;I;J;79264;Anette Thoresson;54;K;Tomelilla;54, Redovisningskonsult, Lönhult;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;8;J;J;I;J;79265;Anders Larsson;60;M;Tomelilla;60, Plaståtervinnare, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;9;J;J;I;J;79266;Gunvor Olsson;61;K;Tomelilla;61, Apotekschef, Sälshög;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;10;J;J;I;J;79267;Alice Jönsson;18;K;Tomelilla;18, Studerande, Brösarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;11;J;J;I;J;79268;Christian Björkqvist;58;M;Tomelilla;57, Kanslichef, Sillaröd;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;12;J;J;I;J;79269;Bengt Högborg;61;M;Tomelilla;61, Lantmästare, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;13;J;J;I;J;39481;Lena Eriksson;47;K;Tomelilla;46, Sektionschef, Eljaröd;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;14;J;J;I;J;35340;Boel Holm;39;K;Tomelilla;38, Socionom, Onslunda;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;15;J;J;I;J;79273;Per Håkanson;65;M;Tomelilla;65, Lantmästare, Andrarum;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;16;J;J;I;J;79274;Erica Toft;57;K;Tomelilla;57, Innovations- och företagskonsult, Lönhult;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;17;J;J;I;J;79275;Håkan Jönsson;61;M;Tomelilla;61, Gymnasielärare, Norra Björstorp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;18;J;J;I;J;79276;Inger Johanson-Thor;70;K;Tomelilla;70, Egenföretagare, Ramsåsa;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;19;J;J;I;J;79277;Jan-Erik Broomé;70;M;Tomelilla;70, Pensionär, Brösarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;20;J;J;I;J;79278;Eva Gustavsson;63;K;Tomelilla;63, Speciallärare, Bondrum;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;21;J;J;I;J;79279;Nesib Haskic;55;M;Tomelilla;54, Yrkeslärare/brandman, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;22;J;J;I;J;79280;Bengt Lydén;74;M;Tomelilla;73, Ingenjör, Tunby;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;23;J;J;I;J;79281;Agneta Nilsson;78;K;Tomelilla;77, Fil.kand/konstnär, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;24;J;J;I;J;79282;Tobias Högborg;26;M;Tomelilla;26, Lantmästare, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;25;J;J;I;J;79283;Matilda Björk;18;K;Tomelilla;18, Studerande, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;26;J;J;I;J;79284;Sven-Anders Gustavsson;63;M;Tomelilla;63, Lantbrukare, Bondrum;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;27;J;J;I;J;79285;Carina Ivarsson;60;K;Tomelilla;59, Ekonomichef, Tryde;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;28;J;J;I;J;79286;Thomas Leandersson;68;M;Tomelilla;68, Auktionsförrättare, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;29;J;J;I;J;79287;Marie Ljungdahl;48;K;Tomelilla;48, Diversearbetare/författare, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;30;J;J;I;J;79288;Tobias Mirvéus;48;M;Tomelilla;48, Produktionsteknisk chef, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;31;J;J;I;J;79289;Siv Nilsson;57;K;Tomelilla;57, Butiksbiträde, Tunby;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;32;J;J;I;J;79290;Gert-Åke Mårtensson;59;M;Tomelilla;59, Verksamhetsledare, Illstorp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;33;J;J;I;J;79291;Lena Persson;56;K;Tomelilla;55, Socionom, Munka Tågarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Centerpartiet;C;4;S;12898;34;J;J;I;J;79292;Ingvar Karlsson;56;M;Tomelilla;55, Lantmästare, Tryde;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Feministiskt initiativ;FI;532;;;;N;J;J;I;515316;Eriksson, Sven;60;M;Tomelilla;;0;;J
+K;1270;Tomelilla;00;Tomelilla;Kristdemokraterna;KD;68;S;13001;1;J;J;I;J;95570;Bo Herou;65;M;Tomelilla;65 år, Jurist, Onslunda;20000;;J
+K;1270;Tomelilla;00;Tomelilla;Kristdemokraterna;KD;68;S;13001;2;J;J;I;J;95571;Susanne Balczar Herou;65;K;Tomelilla;65 år, Biomed.analytiker, Onslunda;20000;;J
+K;1270;Tomelilla;00;Tomelilla;Kristdemokraterna;KD;68;S;13001;3;J;J;I;J;95572;Kjell Persson;74;M;Tomelilla;74 år, Verkstadschef, Tomelilla;20000;;J
+K;1270;Tomelilla;00;Tomelilla;Kristdemokraterna;KD;68;S;13001;4;J;J;I;J;95573;Stig Johansson;74;M;Tomelilla;74 år, Pensionär, Smedstorp;20000;;J
+K;1270;Tomelilla;00;Tomelilla;Kristdemokraterna;KD;68;S;13001;5;J;J;I;J;95574;Helene Nilsson;52;K;Tomelilla;52 år, Kenellägare, Smedstorp;20000;;J
+K;1270;Tomelilla;00;Tomelilla;Kristdemokraterna;KD;68;S;13001;6;J;J;I;J;95575;Annika Johansson;72;K;Tomelilla;72 år, Pensionär, Smedstorp;20000;;J
+K;1270;Tomelilla;00;Tomelilla;Liberalerna (tidigare Folkpartiet);L;3;S;14384;1;J;J;I;J;263629;Carina Persson;49;K;Tomelilla;Brösarp;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Liberalerna (tidigare Folkpartiet);L;3;S;14384;2;J;J;I;J;263630;Conny Thoresson;51;M;Tomelilla;Brösarp;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Liberalerna (tidigare Folkpartiet);L;3;S;14384;3;J;J;I;J;261551;Charlotte Larkin;50;K;Tomelilla;Tomelilla;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Liberalerna (tidigare Folkpartiet);L;3;S;14384;4;J;J;I;J;261684;Anders Albäck;68;M;Tomelilla;Brösarp;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Liberalerna (tidigare Folkpartiet);L;3;S;14384;5;J;J;I;J;263633;Bitte Ahrland Bocz;66;K;Tomelilla;Illstorp;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Liberalerna (tidigare Folkpartiet);L;3;S;14384;6;J;J;I;J;263634;Anders Cederberg;79;M;Vellinge;Brösarp;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Miljöpartiet de gröna;MP;55;S;15490;1;J;J;I;J;21557;Mikael Holmberg;44;M;Tomelilla;Projektledare, Ramsåsa;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Miljöpartiet de gröna;MP;55;S;15490;2;J;J;I;J;21558;Solveig Falk;63;K;Tomelilla;Designer, Skåne-Tranås;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Miljöpartiet de gröna;MP;55;S;15490;3;J;J;I;J;21549;Jerry Bergström;67;M;Tomelilla;Sjuksköterska, Skåne-Tranås;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Miljöpartiet de gröna;MP;55;S;15490;4;J;J;I;J;89756;Vilda Rosenblad;38;K;Tomelilla;Författare, Onslunda;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Miljöpartiet de gröna;MP;55;S;15490;5;J;J;I;J;21559;Claes Melin;55;M;Tomelilla;Egen företagare, Kverrestad;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Miljöpartiet de gröna;MP;55;S;15490;6;J;J;I;J;89758;Zuzanne Ljungblad;58;K;Tomelilla;Lärare, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Miljöpartiet de gröna;MP;55;S;15490;7;J;J;I;J;89759;Erik Rosenblad;38;M;Tomelilla;Hållbarhetssamordnare, Onslunda;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Miljöpartiet de gröna;MP;55;S;15490;8;J;J;I;J;89760;Misao Melin;49;K;Tomelilla;Lärare, Kverrestad;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Miljöpartiet de gröna;MP;55;S;15490;9;J;J;I;J;89761;Sven-Gunnar Hultman;77;M;Tomelilla;Egen företagare, Brösarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Miljöpartiet de gröna;MP;55;S;15490;10;J;J;I;J;104440;Emili Melin;20;K;Tomelilla;Diversearbetare, Kverrestad;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Miljöpartiet de gröna;MP;55;S;15490;11;J;J;I;J;89762;Johan Rosenblad;63;M;Tomelilla;Författare, Onslunda;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Miljöpartiet de gröna;MP;55;S;15490;12;J;J;I;J;19566;Lotta Hedström;62;K;Tomelilla;F.d. riksdagsledamot, Andrarum;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;1;J;J;I;J;62168;Per-Martin Svensson;51;M;Tomelilla;51 år, egen företagare, Gärarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;2;J;J;I;J;62169;Ewa Carnbrand;69;K;Tomelilla;69 år, egen företagare, Brösarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;3;J;J;I;J;62170;Sander Dijkstra;46;M;Tomelilla;46 år, lantbrukare , Ramsåsa;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;4;J;J;I;J;62171;Gunnel Andersson;74;K;Tomelilla;74 år, leg. sjuksköterska, Brösarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;5;J;J;I;J;62172;Marianne Åkerblad;71;K;Tomelilla;71 år, filosofie magister, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;6;J;J;I;J;62173;Bertil Fredlund;67;M;Tomelilla;67 år, professor, Skåne-Tranås;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;7;J;J;I;J;62174;Emil Ekstrand;34;M;Tomelilla;35 år, civilingenjör lantmäteri, Nedraby;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;8;J;J;I;J;62175;Margith Svensson;74;K;Tomelilla;74 år, f.d. upphandlingschef, Smedstorp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;9;J;J;I;J;62176;Kenneth Strömbeck;57;M;Tomelilla;57 år, jur. kand., Brösarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;10;J;J;I;J;62178;Alexander Verweij Svensson;23;M;Tomelilla;23 år, bartender, Gärarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;11;J;J;I;J;62180;Paul Hallgren;46;M;Tomelilla;46 år, projektledare, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;12;J;J;I;J;62181;Lennart Johansson;72;M;Tomelilla;72 år, lantmästare, Ramsåsa;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;13;J;J;I;J;62182;Ade Inarwanty;39;K;Tomelilla;39 år, butiksbiträde, Ramsåsa;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;14;J;J;I;J;62184;Janet ten Have;41;K;Tomelilla;41 år, egen företagare, Ramsåsa;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;15;J;J;I;J;62185;Per Jepsson;57;M;Tomelilla;57 år, lantmästare, Ullstorp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;16;J;J;I;J;62186;Bo Claëson;70;M;Tomelilla;70 år, advokat, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;17;J;J;I;J;62187;Mats Andersson;54;M;Tomelilla;54 år, egen företagare, Brösarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;18;J;J;I;J;62188;Elizabeth Nilsson;52;K;Tomelilla;52 år, leg. sjuksköterska, Brösarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;19;J;J;I;J;62189;Pia Turtiainen;51;K;Tomelilla;51 år, jurist, Brösarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;20;J;J;I;J;62190;Johanna Andersson;20;K;Kristianstad;20 år, studerande, Brösarp;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;21;J;J;I;J;62191;Marie Schuman;37;K;Tomelilla;37 år, ekonom, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;22;J;J;I;J;62192;Simon Blixt;44;M;Tomelilla;44 år, VD , Bollerup;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;23;J;J;I;J;62193;Maximilian Bengtsson;25;M;Tomelilla;25 år, VVS-montör, Ingelstad;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;24;J;J;I;J;62194;Göran Hansson;55;M;Tomelilla;54 år, gårdsmästare, Nedraby;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;25;J;J;I;J;62195;Linnea Henningsson;18;K;Tomelilla;18 år, studerar, Ramsåsa;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;26;J;J;I;J;62196;Andreas Svensson;30;M;Tomelilla;29 år, egen företagare, Everöd;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;27;J;J;I;J;62197;Marie Ståhlbrand;46;K;Tomelilla;45 år, enhetschef, Tomelilla;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Moderaterna;M;1;S;12615;28;J;J;I;J;322127;Jonas Borg;52;M;Tomelilla;52 år, egenföretagare, Onslunda;32000;;J
+K;1270;Tomelilla;00;Tomelilla;SPI Välfärden;SPI;107;S;15302;1;J;J;I;J;448738;Egon Hansson;77;M;Tomelilla;Lantbrukare;41000;;J
+K;1270;Tomelilla;00;Tomelilla;SPI Välfärden;SPI;107;S;15302;2;J;J;I;J;448739;Arne Lilja;77;M;Tomelilla;Pensionär;41000;;J
+K;1270;Tomelilla;00;Tomelilla;SPI Välfärden;SPI;107;S;15302;3;J;J;I;J;448740;Gun Fisker;75;K;Tomelilla;Pensionär;41000;;J
+K;1270;Tomelilla;00;Tomelilla;SPI Välfärden;SPI;107;S;15302;4;J;J;I;J;448741;Inga-Lill Themsen;73;K;Tomelilla;Pensionär;41000;;J
+K;1270;Tomelilla;00;Tomelilla;SPI Välfärden;SPI;107;S;15302;5;J;J;I;J;448742;Lars-Erik Ottosson;79;M;Tomelilla;Pensionär;41000;;J
+K;1270;Tomelilla;00;Tomelilla;SPI Välfärden;SPI;107;S;15302;6;J;J;I;J;448743;Bertil Nilsson;72;M;Tomelilla;Pensionär;41000;;J
+K;1270;Tomelilla;00;Tomelilla;SPI Välfärden;SPI;107;S;15302;7;J;J;I;J;448744;Ann Harrysson;79;K;Tomelilla;Pensionär;41000;;J
+K;1270;Tomelilla;00;Tomelilla;Sverigedemokraterna;SD;110;S;13116;1;J;J;I;J;112645;Per Gustafsson;48;M;Tomelilla;fordonsmekaniker;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Sverigedemokraterna;SD;110;S;13116;2;J;J;I;J;112646;Paul Lennartsson;40;M;Tomelilla;smed;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Sverigedemokraterna;SD;110;S;13116;3;J;J;I;J;112647;Peo Örnsved;51;M;Tomelilla;ekonomichef;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Sverigedemokraterna;SD;110;S;13116;4;J;J;I;J;112648;Anders Rosengren;48;M;Tomelilla;byggnadsmålare;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Sverigedemokraterna;SD;110;S;13116;5;J;J;I;J;112649;Kent Olofsson;75;M;Tomelilla;pensionär;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Sverigedemokraterna;SD;110;S;13116;6;J;J;I;J;112650;Tina Malm;34;K;Tomelilla;målare;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Sverigedemokraterna;SD;110;S;13116;7;J;J;I;J;112653;Martin Åkesson;42;M;Tomelilla;yrkeschaufför;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Sverigedemokraterna;SD;110;S;13116;8;J;J;I;J;112654;Thony Blomgren;49;M;Tomelilla;fastighetsförvaltare;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Sverigedemokraterna;SD;110;S;13116;9;J;J;I;J;112655;Jonas Olsson;47;M;Tomelilla;CNC-operatör;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Sverigedemokraterna;SD;110;S;13116;10;J;J;I;J;112656;Kent Gustafsson;63;M;Tomelilla;pensionär;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Sverigedemokraterna;SD;110;S;13116;11;J;J;I;J;112657;Birger Hörberger;68;M;Tomelilla;egenföretagare;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Sverigedemokraterna;SD;110;S;13116;12;J;J;I;J;112658;Zofia Prokopczyk;66;K;Tomelilla;pensionär;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Sverigedemokraterna;SD;110;S;13116;13;J;J;I;J;112659;Jan Gustafsson;56;M;Tomelilla;bilförsäljare;32000;;J
+K;1270;Tomelilla;00;Tomelilla;Tomelillapartiet;TomP;1334;S;15307;1;N;J;J;I;448981;Håkan Malmgren;61;M;Tomelilla;Alternativ för Sverige;6000;;J
+K;1270;Tomelilla;00;Tomelilla;Tomelillapartiet;TomP;1334;S;15307;2;N;J;J;I;448982;Göran Andersson;49;M;Tomelilla;Tomelilla;6000;;J
+K;1270;Tomelilla;00;Tomelilla;Tomelillapartiet;TomP;1334;;;;N;J;J;I;515328;Lundberg, Anki;52;K;Simrishamn;;0;;J
+K;1270;Tomelilla;00;Tomelilla;TRYGGHETSPARTIET;TRP;1309;S;15268;1;J;J;I;J;431296;Christian Stridh;40;M;Tomelilla;Förman, Tomelilla;4000;;J
+K;1270;Tomelilla;00;Tomelilla;TRYGGHETSPARTIET;TRP;1309;S;15268;2;J;J;I;J;431563;Birgitta Clarholm;59;K;Tomelilla;Tomelilla;4000;;J
+K;1270;Tomelilla;00;Tomelilla;TRYGGHETSPARTIET;TRP;1309;S;15268;3;J;J;I;J;432298;Tommy Falk;38;M;Tomelilla;Tomelilla;4000;;J
+K;1270;Tomelilla;00;Tomelilla;TRYGGHETSPARTIET;TRP;1309;S;15268;4;J;J;I;J;432299;Josefin Lindholm;34;K;Tomelilla;Undersköterska, Tomelilla;4000;;J
+K;1270;Tomelilla;00;Tomelilla;TRYGGHETSPARTIET;TRP;1309;S;15268;5;J;J;I;J;431310;Linus Mattisson;40;M;Tomelilla;Svetsare, Tomelilla;4000;;J
+K;1270;Tomelilla;00;Tomelilla;TRYGGHETSPARTIET;TRP;1309;S;15268;6;J;J;I;J;432301;Jonny Wohlin;43;M;Tomelilla;Smedstorp;4000;;J
+K;1270;Tomelilla;00;Tomelilla;Vänsterpartiet;V;5;S;13230;1;J;J;I;J;124134;Mona Nihlén;55;K;Tomelilla;behandlingspedagog, 55 år, Tomelilla;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Vänsterpartiet;V;5;S;13230;2;J;J;I;J;124135;Linda Ekelund;36;K;Tomelilla;handledare, 36 år, Skåne-Tranås;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Vänsterpartiet;V;5;S;13230;3;J;J;I;J;124136;Figge Bergquist;65;M;Tomelilla;fotograf, 65 år, Tomelilla;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Vänsterpartiet;V;5;S;13230;4;J;J;I;J;124137;Britta Berg;86;K;Tomelilla;pensionär, 87 år, Skräppeboda;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Vänsterpartiet;V;5;S;13230;5;J;J;I;J;124138;Esad Smajic;56;M;Tomelilla;CHC-operatör, 56 år, Tomelilla;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Vänsterpartiet;V;5;S;13230;6;J;J;I;J;124139;Frans Berg;70;M;Tomelilla;pensionär, 70 år, Tomelilla;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Vänsterpartiet;V;5;S;13230;7;J;J;I;J;124140;Anna Axelsson;70;K;Tomelilla;socionom, 70 år, Smedstorp;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Vänsterpartiet;V;5;S;13230;8;J;J;I;J;124141;Bengt Magnusson;68;M;Tomelilla;socionom, 58 år, Smedstorp;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Vänsterpartiet;V;5;S;13230;9;J;J;I;J;124142;Shaban Spahiu;30;M;Tomelilla;värdetransportör, 30 år, Tomelilla;16000;;J
+K;1270;Tomelilla;00;Tomelilla;Vänsterpartiet;V;5;S;13230;10;J;J;I;J;124143;Ingegärd Larsson;86;K;Tomelilla;f d studieorganisatör, Brösarp;16000;;J

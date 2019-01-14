@@ -1,0 +1,159 @@
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;1;J;J;I;J;43267;Erik Ezelius;31;M;Tidaholm;32 år, officer;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;2;J;J;I;J;43268;Anna-Karin Skatt;51;K;Tidaholm;52 år, kommunalråd;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;3;J;J;I;J;43269;Bengt Karlsson;65;M;Tidaholm;65 år, konsulent;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;4;J;J;I;J;43270;Lena Andersson;58;K;Tidaholm;58 år, ungdomslots;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;5;J;J;I;J;43271;Tony Pettersson;63;M;Tidaholm;64 år, produktionsledare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;6;J;J;I;J;43272;Anna Zöögling;51;K;Tidaholm;51 år, kriminalvårdsinspektör;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;7;J;J;I;J;43273;Mattias Ezelius;26;M;Tidaholm;26 år, sjuksköterska;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;8;J;J;I;J;43274;Zelal-Sara Yesildeniz;34;K;Tidaholm;35 år, lärare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;9;J;J;I;J;43275;Othmar Fiala;66;M;Tidaholm;67 år, produktionstekniker;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;10;J;J;I;J;43276;Helena Qvick;52;K;Tidaholm;52 år, arbetsledare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;11;J;J;I;J;43277;Lennart Rehn;74;M;Tidaholm;74 år, metallarbetare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;12;J;J;I;J;43278;Monica Staadig;55;K;Tidaholm;55 år, arbetsledare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;13;J;J;I;J;43279;Per-Erik Thurén;69;M;Tidaholm;69 år, kommunalarbetare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;14;J;J;I;J;43280;Michelle Hjerp Holmén;22;K;Tidaholm;23 år, studerande;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;15;J;J;I;J;43281;Håkan Joelsson;56;M;Tidaholm;56 år, snickeriarbetare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;16;J;J;I;J;43282;Kristina Spetz Larsson;64;K;Tidaholm;64 år, enhetschef;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;17;J;J;I;J;43283;Peter Ezelius;52;M;Tidaholm;53 år, projektledare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;18;J;J;I;J;43284;Ulla Brissman;71;K;Tidaholm;71 år, ekonom;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;19;J;J;I;J;43285;Georgos Moschos;50;M;Tidaholm;50 år, samordnare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;20;J;J;I;J;43286;Sara Hammar;39;K;Tidaholm;39 år, arbetsledare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;21;J;J;I;J;43287;Fahad Almedane;48;M;Tidaholm;48 år, företagare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;22;J;J;I;J;43288;Cathrine Karlsson;74;K;Tidaholm;74 år, omvårdare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;23;J;J;I;J;43289;Henrik Lennartsson;24;M;Tidaholm;24 år, nämndsekreterare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;24;J;J;I;J;43290;Mimmi Pirttilä;45;K;Tidaholm;45 år, arbetsledare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;25;J;J;I;J;43291;Anders Johansson;44;M;Tidaholm;45 år, kock;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;26;J;J;I;J;43292;Monica Karlén;49;K;Tidaholm;48 år, personlig assistent;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;27;J;J;I;J;43293;Arne Andersson;70;M;Tidaholm;70 år, plåtslagare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;28;J;J;I;J;43294;Susanne Lindgren;56;K;Tidaholm;57 år, fritidspedagog;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;29;J;J;I;J;43295;Emad Alshikha;35;M;Tidaholm;35 år, snickeriarbetare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;30;J;J;I;J;43296;Gunilla Djurberg;61;K;Tidaholm;61 år, omvårdare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;31;J;J;I;J;43297;Christoffer Axelsson;33;M;Tidaholm;33 år, boendehandledare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;32;J;J;I;J;43298;Jessica Kjellgren;33;K;Tidaholm;33 år, undersköterska;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;33;J;J;I;J;43299;Ingvar Jansson;66;M;Tidaholm;66 år, kriminalvårdare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;34;J;J;I;J;43300;Malin Andersson;26;K;Tidaholm;26 år, omvårdare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;35;J;J;I;J;43301;Kent Persson;67;M;Tidaholm;67 år, undersköterska;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;36;J;J;I;J;43302;Emma Graaf;36;K;Tidaholm;26 år, optikerassistent;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;37;J;J;I;J;43303;Krister Wäring;70;M;Tidaholm;70 år, metallarbetare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;38;J;J;I;J;43304;Lisa Öhgren;41;K;Tidaholm;41 år, församlingspedagog;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;39;J;J;I;J;43305;Emil Ekman;26;M;Tidaholm;26 år, ungdomslots;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;40;J;J;I;J;43306;Carola Karlsson;57;K;Tidaholm;57 år, boendestödjare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;41;J;J;I;J;43307;Jesper Carlman;36;M;Tidaholm;36 år, kriminalvårdsinspektör;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;42;J;J;I;J;43308;Ulrika Storm;45;K;Tidaholm;45 år, personlig assistent;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;43;J;J;I;J;43309;Dick Broberg;77;M;Tidaholm;78 år, vvs-ingenjör;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;44;J;J;I;J;43310;Pia Blomqvist;55;K;Tidaholm;55 år, omvårdare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;45;J;J;I;J;43311;Pär-Ola Olausson;45;M;Tidaholm;46 år, reparatör;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;46;J;J;I;J;43312;Marianne Gustafson;70;K;Tidaholm;70 år, förvaltningskontorist;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;47;J;J;I;J;43313;Ahmad Naveed Noorzad;30;M;Tidaholm;30 år, boendestödjare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;48;J;J;I;J;43314;Jerker Johansson;46;M;Tidaholm;47 år, snickeriarbetare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;49;J;J;I;J;43315;Nils Werner;67;M;Tidaholm;67 år, tekniker;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;50;J;J;I;J;43316;Jonas Kling;53;M;Tidaholm;53 år, fabriksarbetare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;51;J;J;I;J;43317;Rickard Eriksson Häll;30;M;Tidaholm;30 år, produktionstekniker;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;52;J;J;I;J;43318;Jonas Ringqvist;46;M;Tidaholm;47 år, jordbrukare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;53;J;J;I;J;43319;Berndt Gustafsson;75;M;Tidaholm;75 år, byggnadsarbetare;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;54;J;J;I;J;43320;Juha Weckman;56;M;Tidaholm;56 år, produktionstekniker;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;55;J;J;I;J;43321;Leif Hjelman;51;M;Tidaholm;52 år, account manager;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Arbetarepartiet-Socialdemokraterna;S;2;S;12375;56;J;J;I;J;43322;Nedal Ali;45;M;Tidaholm;46 år, konstnär;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;1;J;J;I;J;26305;Ulf Persson;71;M;Tidaholm;Baltak, 71 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;2;J;J;I;J;3269;Anneli Sandstedt;62;K;Tidaholm;Hångsdala, 62 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;3;J;J;I;J;3234;Lennart Axelsson;62;M;Tidaholm;Fröjered, 62 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;4;J;J;I;J;3260;Mikael Hallin;51;M;Tidaholm;Dimbo, 51 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;5;J;J;I;J;26309;Per-Inge Karlsson;49;M;Tidaholm;Velinga, 49 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;6;J;J;I;J;26310;Josette Rask;69;K;Tidaholm;Fröjered, 69 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;7;J;J;I;J;26311;Bengt Gunnarsson;76;M;Tidaholm;Baltak, 76 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;8;J;J;I;J;26312;Erik Andersson;32;M;Tidaholm;Dimbo, 32 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;9;J;J;I;J;26313;Katarina Persson Hill;51;K;Tidaholm;Kungslena, 52 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;10;J;J;I;J;26314;Stig Andersson;61;M;Tidaholm;Fröjered, 61 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;11;J;J;I;J;26315;Louise Wind;69;K;Tidaholm;Pensionär, 69 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;12;J;J;I;J;26316;Kjell Johansson;72;M;Tidaholm;Velinga, 72 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;13;J;J;I;J;3214;Sophia Breman;32;K;Tidaholm;Ekedalen, 32 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;14;J;J;I;J;26318;Rolf Johansson;68;M;Tidaholm;Agnetorp, 68 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;15;J;J;I;J;26319;Lisbeth Wallgren;71;K;Tidaholm;Vättak, 71 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;16;J;J;I;J;26320;Ingela Johansson;66;K;Tidaholm;Agnetorp,66 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;17;J;J;I;J;26321;Christofer Breman;33;M;Tidaholm;Ekedalen, 33 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Centerpartiet;C;4;S;13995;18;J;J;I;J;26322;Torgny Sandstedt;65;M;Tidaholm;Hångsdala, 66 år;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Kristdemokraterna;KD;68;S;14442;1;J;J;I;J;275068;Krister Rohman;72;M;Tidaholm;72, fd rektor, Agnetorp;30000;;J
+K;1498;Tidaholm;00;Tidaholm;Kristdemokraterna;KD;68;S;14442;2;J;J;I;J;274612;Torgny Hedlund;58;M;Tidaholm;58, tekniker, Tidaholm;30000;;J
+K;1498;Tidaholm;00;Tidaholm;Kristdemokraterna;KD;68;S;14442;3;J;J;I;J;275070;Claes Andersson;53;M;Tidaholm;53, guldsmed, Suntak;30000;;J
+K;1498;Tidaholm;00;Tidaholm;Kristdemokraterna;KD;68;S;14442;4;J;J;I;J;275071;Roger Lundvold;53;M;Tidaholm;53, egenföretagare, Tidaholm;30000;;J
+K;1498;Tidaholm;00;Tidaholm;Kristdemokraterna;KD;68;S;14442;5;J;J;I;J;275072;Håkan Daremark;61;M;Tidaholm;61, gymnasielärare, Daretorp;30000;;J
+K;1498;Tidaholm;00;Tidaholm;Kristdemokraterna;KD;68;S;14442;6;J;J;I;J;275073;Christel Larsson;41;K;Tidaholm;41, undersköterska, Tidaholm;30000;;J
+K;1498;Tidaholm;00;Tidaholm;Kristdemokraterna;KD;68;S;14442;7;J;J;I;J;275074;Jimmy Jubrant;60;M;Tidaholm;60, målare/lantbrukare, Agnetorp;30000;;J
+K;1498;Tidaholm;00;Tidaholm;Kristdemokraterna;KD;68;S;14442;8;J;J;I;J;275075;Leif Johansson;53;M;Tidaholm;53, lantbrukare, Klämmesbo;30000;;J
+K;1498;Tidaholm;00;Tidaholm;Kristdemokraterna;KD;68;S;14442;9;J;J;I;J;275076;Birgitta Yngvesson;58;K;Tidaholm;58, kurator, Fröjered;30000;;J
+K;1498;Tidaholm;00;Tidaholm;Kristdemokraterna;KD;68;S;14442;10;J;J;I;J;275077;Thomas Holst;62;M;Tidaholm;62, TV-producent/filmare, Fröjered;30000;;J
+K;1498;Tidaholm;00;Tidaholm;Kristdemokraterna;KD;68;S;14442;11;J;J;I;J;275078;Christina Daremark;55;K;Tidaholm;55, SFI-lärare, Tidaholm;30000;;J
+K;1498;Tidaholm;00;Tidaholm;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515617;Allansdotter, Christina;49;K;Tidaholm;;0;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;1;J;J;I;J;17442;Runo Johansson;49;M;Tidaholm;Oppositionsråd Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;2;J;J;I;J;17443;Birgitta Andersson;72;K;Tidaholm;Landsbygdsutvecklare Agnetorp;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;3;J;J;I;J;17444;Ingemar Johansson;59;M;Tidaholm;Gymnasielärare Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;4;J;J;I;J;17445;Mats Falk;57;M;Tidaholm;Fritidsledare Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;5;J;J;I;J;17446;Jenny Svensson;30;K;Tidaholm;Frisör Agnetorp;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;6;J;J;I;J;17447;Mathias Lundgren;44;M;Tidaholm;Produktionstekniker Acklinga;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;7;J;J;I;J;17448;Halina Gustavsson;64;K;Tidaholm;Skoladministratör Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;8;J;J;I;J;17449;Thomas Wigholm;47;M;Tidaholm;Egenföretagare Klämmesbo;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;9;J;J;I;J;17450;Åsa Bergman;54;K;Tidaholm;Folkbildningsarbetare Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;10;J;J;I;J;17451;Jakob Jonsson;18;M;Tidaholm;Studerande Kungslena;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;11;J;J;I;J;17452;Helena Nylén;71;K;Tidaholm;Ordförande Rödakorset Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;12;J;J;I;J;17453;Gunnar Alriksson;75;M;Tidaholm;Posttjänsteman Kymbo;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;13;J;J;I;J;17454;Isabell Harrstedt;25;K;Tidaholm;Studerande Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Liberalerna (tidigare Folkpartiet);L;3;S;11991;14;J;J;I;J;17455;Ros-Mari Dygd;70;K;Tidaholm;Leg.Sjuksköterska Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Miljöpartiet de gröna;MP;55;S;14181;1;J;J;I;J;164437;Karin Olofsson;76;K;Tidaholm;Kurator;25000;;J
+K;1498;Tidaholm;00;Tidaholm;Miljöpartiet de gröna;MP;55;S;14181;2;J;J;I;J;66247;Annica Snäll;51;K;Tidaholm;51 år, Kommunikationschef, Tidaholm;25000;;J
+K;1498;Tidaholm;00;Tidaholm;Miljöpartiet de gröna;MP;55;S;14181;3;J;J;I;J;217776;Christopher Vipond;34;M;Tidaholm;34 år, Lantbrukare, Klämmesbo;25000;;J
+K;1498;Tidaholm;00;Tidaholm;Miljöpartiet de gröna;MP;55;S;14181;4;J;J;I;J;363581;Anna Wik;30;K;Tidaholm;30 år, Frisör, Tidaholm;25000;;J
+K;1498;Tidaholm;00;Tidaholm;Miljöpartiet de gröna;MP;55;S;14181;5;J;J;I;J;77427;Göran Olofsson;80;M;Tidaholm;Ergonom;25000;;J
+K;1498;Tidaholm;00;Tidaholm;Miljöpartiet de gröna;MP;55;S;14181;6;J;J;I;J;245008;Tobias Henning;37;M;Tidaholm;37 år, Kommunikatör, Tidaholm;25000;;J
+K;1498;Tidaholm;00;Tidaholm;Miljöpartiet de gröna;MP;55;S;14181;7;J;J;I;J;217778;Mikael Snäll;54;M;Tidaholm;Tidaholm;25000;;J
+K;1498;Tidaholm;00;Tidaholm;Miljöpartiet de gröna;MP;55;S;14181;8;J;J;I;J;217779;Anna-Karin Östlund;51;K;Tidaholm;51 år, Egen företagare/Undersköterska, Tidaholm;25000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;1;J;J;I;J;256638;Ambjörn Lennartsson;63;M;Tidaholm;Klämmesbo;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;2;J;J;I;J;253994;Peter Friberg;61;M;Tidaholm;Madängsholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;3;J;J;I;J;253983;Ida Davidsson;37;K;Tidaholm;Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;4;J;J;I;J;256641;Gunilla Dverstorp;73;K;Tidaholm;Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;5;J;J;I;J;256642;Johan Liljegrahn;54;M;Tidaholm;Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;6;J;J;I;J;254008;Jan-Olof Sandberg;69;M;Tidaholm;Fröjered;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;7;J;J;I;J;256644;Maria Lackner;40;K;Tidaholm;Klämmesbo;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;8;J;J;I;J;256645;Henrik Granqvist;38;M;Tidaholm;Klämmesbo;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;9;J;J;I;J;254006;Ulf Alteg;50;M;Tidaholm;Folkabo;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;10;J;J;I;J;254002;Fredrik Kvist;34;M;Tidaholm;Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;11;J;J;I;J;256648;Camilla Graaf;32;K;Tidaholm;Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;12;J;J;I;J;256649;Richard Mellgren;44;M;Tidaholm;Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;13;J;J;I;J;256650;Per-Erik Vrang;73;M;Tidaholm;Baltak;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;14;J;J;I;J;256651;Jean Ahoniemi;58;M;Tidaholm;Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;15;J;J;I;J;256652;Kerstin Thuvesson;79;K;Tidaholm;Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;16;J;J;I;J;256653;Kristina Björling;72;K;Tidaholm;Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;17;J;J;I;J;256654;Elisabeth Alfredsson;62;K;Tidaholm;Dimbo;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;18;J;J;I;J;256655;Adnan Al-Haddad;53;M;Tidaholm;Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;19;J;J;I;J;256656;Lena Alteg;38;K;Tidaholm;Folkabo;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;20;J;J;I;J;256657;Bill Malm;73;M;Tidaholm;Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;21;J;J;I;J;256658;Per Bromander;62;M;Tidaholm;Härja;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;22;J;J;I;J;256659;Joseph Josef;52;M;Tidaholm;Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;23;J;J;I;J;256660;Birger Gustafsson;62;M;Tidaholm;Dimbo;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;24;J;J;I;J;256661;Helena Gustafsson;72;K;Tidaholm;Ottravad;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Moderaterna;M;1;S;14342;25;J;J;I;J;256662;Michael Brisman;65;M;Tidaholm;Tidaholm;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;S;15460;1;N;J;J;I;66315;Marianne Andersson;65;K;Tidaholm;Pensionär, 65;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;S;15460;2;N;J;J;I;66316;Lennart Nilsson;60;M;Tidaholm;Företagare, 60;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;S;15460;3;N;J;J;I;66348;Jan Andersson;62;M;Tidaholm;Chaufför, 63;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;S;15460;4;N;J;J;I;66349;Marika Lund;34;K;Tidaholm;Maskinoperatör, 34;31000;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;S;15783;1;N;J;J;I;66315;Marianne Andersson;65;K;Tidaholm;65, pensionär;9000;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;S;15783;2;N;J;J;I;66316;Lennart Nilsson;60;M;Tidaholm;60, företagare;9000;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;S;15783;3;N;J;J;I;66348;Jan Andersson;62;M;Tidaholm;63, chaufför;9000;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;S;15783;4;N;J;J;I;66349;Marika Lund;34;K;Tidaholm;34, maskinoperatör;9000;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;S;15783;5;N;J;J;I;508485;Petri Niska;48;M;Tidaholm;48, personbilstekniker;9000;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;S;15783;6;N;J;J;I;507653;Per Nordström;65;M;Tidaholm;65, pensionär;9000;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;;;;N;J;J;I;515534;Werner, Stig-Erik;49;M;Tidaholm;;0;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;;;;N;J;J;I;515689;Sheridan, Anna;43;K;Tidaholm;;0;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;;;;N;J;J;I;515690;Logård, Pia;46;K;Tidaholm;;0;;J
+K;1498;Tidaholm;00;Tidaholm;Sverigedemokraterna;SD;110;;;;N;J;J;I;515691;Räisänen, Aili;20;K;Tidaholm;;0;;J
+K;1498;Tidaholm;00;Tidaholm;Vänsterpartiet;V;5;S;12770;1;J;J;I;J;71090;Hajrudin Abdihodzic;50;M;Tidaholm;Grundskollärare;20000;;J
+K;1498;Tidaholm;00;Tidaholm;Vänsterpartiet;V;5;S;12770;2;J;J;I;J;71091;Lisbeth Ider;72;K;Tidaholm;Pensionär;20000;;J
+K;1498;Tidaholm;00;Tidaholm;Vänsterpartiet;V;5;S;12770;3;J;J;I;J;71092;Henrik Vang;41;M;Tidaholm;Kriminalvårdsinspektör;20000;;J
+K;1498;Tidaholm;00;Tidaholm;Vänsterpartiet;V;5;S;12770;4;J;J;I;J;71093;Anna Ider;44;K;Tidaholm;Grundskollärare;20000;;J
+K;1498;Tidaholm;00;Tidaholm;Vänsterpartiet;V;5;S;12770;5;J;J;I;J;71094;Lars-Ove Larsson;68;M;Tidaholm;Pensionär;20000;;J
+K;1498;Tidaholm;00;Tidaholm;Vänsterpartiet;V;5;S;12770;6;J;J;I;J;71095;Solveig Henriksson;65;K;Tidaholm;Pensionär;20000;;J
+K;1498;Tidaholm;00;Tidaholm;Vänsterpartiet;V;5;S;12770;7;J;J;I;J;71096;Kent Augustsson;73;M;Tidaholm;Pensionär;20000;;J
+K;1498;Tidaholm;00;Tidaholm;Vänsterpartiet;V;5;S;12770;8;J;J;I;J;71097;Britt Norström;82;K;Tidaholm;f.d. Bokhandlare;20000;;J
+K;1498;Tidaholm;00;Tidaholm;Vänsterpartiet;V;5;S;12770;9;J;J;I;J;71098;Per Wiklund;63;M;Tidaholm;Fastighetsskötare;20000;;J
+K;1498;Tidaholm;00;Tidaholm;Vänsterpartiet;V;5;S;12770;10;J;J;I;J;71099;Jenny Larsson;40;K;Tidaholm;Förskollärare;20000;;J
+K;1498;Tidaholm;00;Tidaholm;Vänsterpartiet;V;5;S;12770;11;J;J;I;J;71100;Daniel Jonasson;22;M;Tidaholm;Butikssäljare;20000;;J
+K;1498;Tidaholm;00;Tidaholm;Vänsterpartiet;V;5;S;12770;12;J;J;I;J;71101;Hannah Storm;35;K;Tidaholm;Leveransadministratör;20000;;J

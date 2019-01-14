@@ -1,0 +1,353 @@
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;1;J;J;I;J;24504;Jan Björklund;59;M;Helsingborg;59 år Säljare Eskilsminne;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;2;J;J;I;J;24505;Maria Ward;59;K;Helsingborg;59 år Sjuksköterska Söder;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;3;J;J;I;J;24506;Mikael Andersson;46;M;Helsingborg;46 år Ombudsman Påarp;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;4;J;J;I;J;24507;Anna Ingers;49;K;Helsingborg;49 år Butiksbiträde Rosengården;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;5;J;J;I;J;24508;Ali Shibl;54;M;Helsingborg;54 år Ombudsman Laröd;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;6;J;J;I;J;24509;Christel Håkansson;61;K;Helsingborg;61 år Leg.Sjuksköterska Centrum;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;7;J;J;I;J;24510;Mickey Magnusson;24;M;Helsingborg;23 år Företagare Slottshöjden;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;8;J;J;I;J;24511;Ingela Andersson;66;K;Helsingborg;66 år Socionom Söder;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;9;J;J;I;J;24512;Khaled El Khalayeli;38;M;Helsingborg;37 år Lärarassistent Närlunda;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;10;J;J;I;J;24513;Margareta Liljedahl Eriksson;51;K;Helsingborg;50 år Ekonom Eskilsminne;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;11;J;J;I;J;24514;Mats Rosdahl;49;M;Helsingborg;49 år Kriminalvårdare Västra Berga;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;12;J;J;I;J;24515;Elin Hellqvist;22;K;Helsingborg;22 år Studerande Helsingborg;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;13;J;J;I;J;24516;Vehid Stovrag;53;M;Helsingborg;52 år Maskinoperatör Närlunda;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;14;J;J;I;J;24517;Inger Nilsson;68;K;Helsingborg;68 år Pensionär Mörarp;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;15;J;J;I;J;24518;Oskar Fridolf;26;M;Helsingborg;26 år Arbetsförmedlare Tågaborg;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;16;J;J;I;J;24519;Tonka Frodlund;56;K;Helsingborg;56 år Labbassistent Eneborg;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;17;J;J;I;J;24520;Ahmed Mansour;28;M;Helsingborg;28 år Organizer Närlunda;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;18;J;J;I;J;24521;Eva-Lotta Hermansson Truedsson;64;K;Helsingborg;64 år Pensionär Gustavslund;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;19;J;J;I;J;24522;Bengt Olsson;65;M;Helsingborg;65 år Pensionär Ramlösa;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;20;J;J;I;J;24523;My Rosell;33;K;Helsingborg;33 år Enhetschef Stattena;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;21;J;J;I;J;24524;Fredrik Dersell;46;M;Helsingborg;46 år Lärare Påarp;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;22;J;J;I;J;24525;Marie Nilsson;51;K;Helsingborg;51 år Ombudsman Slottshöjden;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;23;J;J;I;J;24526;Muzzafar Khan;38;M;Helsingborg;38 år E-handelsansv.Handels Görarp;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;24;J;J;I;J;24527;Monika Arvidsson;67;K;Helsingborg;66 år Avd.Chef Rydebäck;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;25;J;J;I;J;24528;Jan-Olof Rosenberg;50;M;Helsingborg;50 år Kontorschef Helsingborg;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;26;J;J;I;J;24529;Yvonne Svensson;73;K;Helsingborg;73 år Pensionär Ringstorp;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;27;J;J;I;J;24530;Sead Konakovic;61;M;Helsingborg;61 år Civilekonom Adolfsberg/Västergård;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;28;J;J;I;J;24531;Reneé Sandberg Ohlander;55;K;Helsingborg;54 år Med.Sekr./Kommunikatör Helsingborg;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;29;J;J;I;J;24532;Lennart Ericsson;67;M;Helsingborg;67 år Pensionär Husensjö;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;30;J;J;I;J;24533;Jenny Lindblom;37;K;Helsingborg;37 år Verksamhetsassistent Raus;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;31;J;J;I;J;24534;Martin Svensson;42;M;Helsingborg;41 år Ombudsman Vasatorpsträdgård;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;32;J;J;I;J;24535;Vilma Carlsen;39;K;Helsingborg;38 år Brevbärare Helsingborg;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;33;J;J;I;J;24536;Besnik Zeneli;44;M;Helsingborg;44 år Försäkringshandläggare Ödåkra;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;34;J;J;I;J;24537;Vivecka Mendy;49;K;Helsingborg;49 år leg.Förskollärare Ättekulla;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;35;J;J;I;J;24538;Ghassan Abu Taka;34;M;Helsingborg;34 år Ombudsman Ödåkra;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;36;J;J;I;J;24539;Tünde Hansen;47;K;Helsingborg;47 år Studerande Påarp;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;37;J;J;I;J;24540;Mats Fuchs;62;M;Helsingborg;61 år Sjukpensionär Wilson Park;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;38;J;J;I;J;24541;Ellinor Hammarsköld;25;K;Helsingborg;24 år Studerande Helsingborg;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;39;J;J;I;J;24542;Folke Bengtsson;70;M;Helsingborg;69 år Målare Filborna;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;40;J;J;I;J;24543;Clarita Larsen;64;K;Helsingborg;64 år Arbetsförmedlare Eskilsminne;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;41;J;J;I;J;24615;Sejran Morina;47;M;Helsingborg;48 år Arbetsförmedlare/Tolk Adolfsberg;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;42;J;J;I;J;24616;Cecilia Fransson;45;K;Helsingborg;46 år Sjuksköterskestudent Mörarp;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;43;J;J;I;J;24617;Khalid Geire;49;M;Helsingborg;49 år Socialarbetare/Nöjesprofil Helsingborg;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;44;J;J;I;J;24618;Katarina Kovac Grönberg;63;K;Helsingborg;62 år Tjänsteman Västergård;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;45;J;J;I;J;24619;Stanislav Agustin;64;M;Helsingborg;64 år Servicetekniker Rydebäck;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;46;J;J;I;J;24620;Eva Ingers;68;K;Helsingborg;68 år Pensionär Söder;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;47;J;J;I;J;24621;Sven Rydström;65;M;Helsingborg;65 år Pensionär Fältabacken;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;48;J;J;I;J;24622;Åsa Holmqvist;45;K;Helsingborg;44 år Politisk sekreterare Slottshöjden;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;49;J;J;I;J;24623;Carl-Johan Sjögren;29;M;Helsingborg;29 år Lager/Transportarbetare Centrum;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;50;J;J;I;J;24624;Elisabeth Lilja;51;K;Helsingborg;50 år Familjehem Tånga;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;51;J;J;I;J;24625;Hans-Erik Andersson;67;M;Helsingborg;67 år Pensionär Norra stadsdelen;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;52;J;J;I;J;24626;Pernilla Rydell;55;K;Helsingborg;54 år Gastronom Gustavslund;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;53;J;J;I;J;24627;Viktor Lindkvist;20;M;Helsingborg;20 år Studerande Laröd;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;54;J;J;I;J;24628;Lisbeth Lindell;73;K;Helsingborg;72 år Pensionär Gustavslund;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;55;J;J;I;J;24629;Pär Fransson;57;M;Helsingborg;56 år Grafiker Mörarp;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;56;J;J;I;J;24630;Yvonne Augustin;60;K;Helsingborg;59 år Socionom Rydebäck;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;57;J;J;I;J;24631;Christer Ottinger;48;M;Helsingborg;48 år Elektriker Adolfsberg;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;58;J;J;I;J;24632;Mia-Jonas Plunteman;34;M;Helsingborg;33 år Ekonomi/Personalansvarig Lussebäcken;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;59;J;J;I;J;24633;Mariam Mata;20;K;Helsingborg;20 år Barnskötare Söder;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;60;J;J;I;J;24634;Franziska Larsson;71;K;Helsingborg;71 år Pensionerad Pedagog Söder;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Arbetarepartiet-Socialdemokraterna;S;2;S;12098;61;J;J;I;J;24635;Ingrid Lundin;74;K;Helsingborg;74 år Fd.Medicinsk Sekreterare Påarp;458000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;1;J;J;I;J;8509;Jonny Cato Hansson;24;M;Helsingborg;24, Kommunalråd;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;2;J;J;I;J;37736;Monica Andersson;63;K;Helsingborg;63, Agronom;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;3;J;J;I;J;37739;Johan Vesterlund;22;M;Helsingborg;22, Lärarstudent;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;4;J;J;I;J;38887;Lars Hansson;63;M;Helsingborg;63, Tulltjänsteman;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;5;J;J;I;J;43437;Ian Karlemark;24;M;Helsingborg;24, Jur.kand;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;6;J;J;I;J;37743;Eva Holm;53;K;Helsingborg;54, Samordnare;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;7;J;J;I;J;43439;Bengt Persson;76;M;Helsingborg;76, Ingenjör;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;8;J;J;I;J;43440;Sara Johnson;50;K;Helsingborg;50, Agronom;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;9;J;J;I;J;43441;Arvid Straube;22;M;Helsingborg;22, Kock;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;10;J;J;I;J;37752;Peter Janson;62;M;Helsingborg;61, Marknadschef;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;11;J;J;I;J;163086;Sonja Persson;74;K;Helsingborg;74, Sekreterare;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;12;J;J;I;J;38891;Oktai Gholami;23;M;Helsingborg;23, Student;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;13;J;J;I;J;37748;Teodor Lundvall;19;M;Helsingborg;19, Studerande;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;14;J;J;I;J;43446;Christel Hoch-Hansson;66;K;Helsingborg;66, Livsnjutare;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;15;J;J;I;J;43447;Ulf Palmqvist;55;M;Helsingborg;55, Produktionschef;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;16;J;J;I;J;43448;Karsten Deppert;34;M;Helsingborg;34, Företagare;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;17;J;J;I;J;43449;Tommy Grundström;58;M;Helsingborg;58, Sektionschef;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;18;J;J;I;J;43450;Inger Henryson;61;K;Helsingborg;61, Gymnasielärare;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;19;J;J;I;J;43451;Hugo Pringle;19;M;Helsingborg;19, Studerande;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;20;J;J;I;J;43452;Lars-Erik Lindberg;52;M;Helsingborg;52, Systemingenjör;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;21;J;J;I;J;43453;Isabella Rundkvist;22;K;Helsingborg;22, Kock;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;22;J;J;I;J;43454;Hans Ingemansson;68;M;Helsingborg;68, Företagare;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;23;J;J;I;J;43455;Ragnar Andersson;65;M;Helsingborg;65, Lantmästare;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;24;J;J;I;J;43456;Ingrid Cohn;77;K;Helsingborg;77, Pensionär;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;25;J;J;I;J;163100;Fredrik Torkildsen;46;M;Helsingborg;46, Civilekonom;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Centerpartiet;C;4;S;12377;26;J;J;I;J;37755;Linus Hannedahl;25;M;Helsingborg;25, Politisk sekreterare;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Enhet;ENH;189;S;15769;1;N;J;J;I;509530;Laurentiu Dumitrescu;61;M;Helsingborg;Läkare alternativmedicin, Helsingborg;10000;;J
+K;1283;Helsingborg;00;Helsingborg;Feministiskt initiativ;FI;532;S;15798;1;N;J;J;I;510810;Jenny Berg;45;K;Helsingborg;Arbetssökande, 45 år;30000;;J
+K;1283;Helsingborg;00;Helsingborg;Feministiskt initiativ;FI;532;S;15798;2;N;J;J;I;510811;Maria Malkert;27;K;Helsingborg;Förskollärare, 27 år;30000;;J
+K;1283;Helsingborg;00;Helsingborg;Feministiskt initiativ;FI;532;S;15798;3;N;J;J;I;510812;Lena Ljungqvist;45;K;Helsingborg;Läkare, 45 år;30000;;J
+K;1283;Helsingborg;00;Helsingborg;Feministiskt initiativ;FI;532;S;15798;4;N;J;J;I;510813;Ikram Abdalla;34;K;Helsingborg;Enhetschef, 34 år;30000;;J
+K;1283;Helsingborg;00;Helsingborg;Feministiskt initiativ;FI;532;S;15798;5;N;J;J;I;510814;Hindse Hansen;83;M;Helsingborg;Pensionär, 84 år;30000;;J
+K;1283;Helsingborg;00;Helsingborg;Futurum Sverige;;1363;S;15203;1;J;J;I;J;417715;Carina Sällberg;57;K;Helsingborg;gymnasielärare svenska/religion, 57 år;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Futurum Sverige;;1363;S;15203;2;J;J;I;J;417716;Lumnije Kajtazi;49;K;Helsingborg;sfi- och gymnasielärare, historiker, 49 år;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Futurum Sverige;;1363;S;15203;3;J;J;I;J;417717;Lars Angelhammar;49;M;Helsingborg;avdelningschef, elektriker, 49 år;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Futurum Sverige;;1363;S;15203;4;J;J;I;J;417718;Ala Zidan;31;K;Helsingborg;integrationsvägledare, 31 år;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Futurum Sverige;;1363;S;15203;5;J;J;I;J;417719;Adelina Ukehaxhaj;30;K;Helsingborg;studie- och yrkesvägledare, 30 år;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Futurum Sverige;;1363;S;15203;6;J;J;I;J;417720;Hassaan El-Hinidy;62;M;Helsingborg;regionchef, rekrytering, 62 år;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Futurum Sverige;;1363;S;15203;7;J;J;I;J;417721;Isabelle Angelhammar;18;K;Helsingborg;studerande, 18 år;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Futurum Sverige;;1363;S;15203;8;J;J;I;J;417722;Isabelle Sällberg;19;K;Helsingborg;studerande, 19 år;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Futurum Sverige;;1363;S;15203;9;J;J;I;J;417723;Nazif Ahmedi;61;M;Helsingborg;skomakare, 61 år;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Futurum Sverige;;1363;S;15203;10;J;J;I;J;417724;Maria Thyrén;53;K;Helsingborg;studie- och yrkesvägledare, 53 år;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Futurum Sverige;;1363;S;15203;11;J;J;I;J;417725;Zeinab Matar;58;K;Helsingborg;lärare sfi, jurist, 58 år;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Futurum Sverige;;1363;S;15203;12;J;J;I;J;417726;Adelina Abazi;26;K;Helsingborg;barista, 26 år;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Futurum Sverige;;1363;S;15203;13;J;J;I;J;417727;Rrahimn Krasniqi;48;M;Helsingborg;byggnadsarbetare, 37 år;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;1;J;J;I;J;31772;Lars Thunberg;57;M;Helsingborg;57 år, kommunalråd, Olympia;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;2;J;J;I;J;31768;Cecilia Engström;45;K;Helsingborg;45 år, ekonomichef, Tågaborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;3;J;J;I;J;59366;Alexander Kolind;27;M;Helsingborg;27 år, HR-konsult, Ringstorp;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;4;J;J;I;J;59365;Karin Jensen;62;K;Helsingborg;62 år, skolassistent, Råå;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;5;J;J;I;J;31773;Simon Nilsson;37;M;Helsingborg;37 år, byggnadsingenjör, Fältabacken;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;6;J;J;I;J;59349;P-O Gunnarsson;64;M;Helsingborg;64 år, ledarskapskonsult, Laröd;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;7;J;J;I;J;61590;Anne-Margret Norberg;60;K;Helsingborg;60 år, förskollärare, Ödåkra;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;8;J;J;I;J;59350;Henrik Thott;66;M;Helsingborg;66 år, företagare, Råå;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;9;J;J;I;J;31789;Aline De Camargo Olsson;41;K;Helsingborg;41 år, företagare, Ramlösa;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;10;J;J;I;J;31686;Anders Lundström;45;M;Helsingborg;45 år, gymnasielärare, Söder;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;11;J;J;I;J;31683;Birgitta Södertun;63;K;Helsingborg;63 år, barnmorska, Ramlösa;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;12;J;J;I;J;61595;Gustav Natt Och Dag;38;M;Helsingborg;38 år, musiker, Tågaborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;13;J;J;I;J;31783;Anders Ivarsson;55;M;Helsingborg;55 år, nämndsekreterare, Gustavslund;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;14;J;J;I;J;61597;Emmelie Wikström;31;K;Helsingborg;31 år, förälder, Ödåkra;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;15;J;J;I;J;31777;Jimmy Johansson;34;M;Helsingborg;34 år, officer, Vallåkra;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;16;J;J;I;J;61599;Carl Möller;39;M;Helsingborg;39 år, sjökapten, Ödåkra;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;17;J;J;I;J;61600;Eva Virginius;65;K;Helsingborg;65 år, webbdesigner, Eneborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;18;J;J;I;J;61601;Björn Zorec;45;M;Helsingborg;45 år, enhetschef, Tågaborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;19;J;J;I;J;61602;Andreas Lindberg;39;M;Helsingborg;39 år, företagare, Mariastaden;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;20;J;J;I;J;61603;Margareta Hamark;67;K;Helsingborg;67 år, pensionerad rektor, Sofieberg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;21;J;J;I;J;61604;Kenneth Pettersson;73;M;Helsingborg;73 år, företagsekonom, Filborna;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;22;J;J;I;J;61605;Anton Hyllstam;27;M;Helsingborg;27 år, musiker, Eneborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;23;J;J;I;J;61606;Östen Lundgren;75;M;Helsingborg;75 år, pensionär, Olympia;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;24;J;J;I;J;61607;Robert Södertun;63;M;Helsingborg;63 år, präst, Ramlösa;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;25;J;J;I;J;61608;Eva Zander;49;K;Helsingborg;49 år, förskollärare, Ödåkra;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Kristdemokraterna;KD;68;S;12606;26;J;J;I;J;61609;Kenneth Lantz;69;M;Helsingborg;69 år, fastighetsförvaltare, Eskilsminne;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;1;J;J;I;J;115797;Maria Winberg Nordström;49;K;Helsingborg;leg psykolog/kommunalråd, 49 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;2;J;J;I;J;115798;Christer Sörliden;47;M;Helsingborg;verksamhetsutvecklare, 47 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;3;J;J;I;J;115799;Mats Werne;63;M;Helsingborg;civ.ing/företagare, 63 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;4;J;J;I;J;115800;Margareta Fagerhov;67;K;Helsingborg;pensionär, 67 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;5;J;J;I;J;115801;Gustaf Andersson;43;M;Helsingborg;utvecklingsstrateg, 43 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;6;J;J;I;J;115802;Miranda Kalabria;19;K;Helsingborg;student, 19 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;7;J;J;I;J;115803;Niclas Svensson;27;M;Helsingborg;miljö kand., 27 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;8;J;J;I;J;115804;Christina Palmkvist Wester;56;K;Helsingborg;samverkansansvarig, 56 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;9;J;J;I;J;115805;Christina Freij;51;K;Helsingborg;butiksanställd, 51 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;10;J;J;I;J;115806;Magnus Grill;73;M;Helsingborg;företagare, 73 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;11;J;J;I;J;115807;Lennart Perborg;68;M;Helsingborg;civ.ing/företagare, 68 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;12;J;J;I;J;115808;Per Johansson;61;M;Helsingborg;jur. kand., 61 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;13;J;J;I;J;115809;Anki Celander;53;K;Helsingborg;ombudsman, 53 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;14;J;J;I;J;115810;Sylvia Sörliden;45;K;Helsingborg;lärare, 45 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;15;J;J;I;J;115811;Annelie Wahlgren;36;K;Helsingborg;marknadsansvarig, 36 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;16;J;J;I;J;115812;Emilia Kulevska;20;K;Helsingborg;butiksanställd, 20 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;17;J;J;I;J;115813;Marie Jansson;55;K;Helsingborg;fru, 55 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;18;J;J;I;J;115814;Kennet Karlsson;64;M;Helsingborg;ingenjör, 64 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;19;J;J;I;J;115815;Rikard Lind;39;M;Helsingborg;säljare, 39 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;20;J;J;I;J;115816;Dubravka Trejling Nikolic;37;K;Helsingborg;gymnasielärare, 37 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;21;J;J;I;J;115817;Rasmus Karlsson;22;M;Helsingborg;student, 22 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;22;J;J;I;J;115818;Elvis Stan;40;M;Helsingborg;utredningssekreterare, 40 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;23;J;J;I;J;115819;Martin Kohl;55;M;Helsingborg;civilingenjör väg och vatten, 55 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Liberalerna (tidigare Folkpartiet);L;3;S;13154;24;J;J;I;J;115820;Mike Opdahl;35;M;Helsingborg;supply manager, 35 år;247000;;J
+K;1283;Helsingborg;00;Helsingborg;Medborgerlig Samling;MED;1296;S;14988;1;J;J;I;J;187971;Alexander Seth;24;M;Helsingborg;24, statsvetare, Gantofta;17000;;J
+K;1283;Helsingborg;00;Helsingborg;Medborgerlig Samling;MED;1296;S;14988;2;J;J;I;J;187944;Mårten Nilsson;31;M;Helsingborg;31, civilingenjör, Ödåkra;17000;;J
+K;1283;Helsingborg;00;Helsingborg;Medborgerlig Samling;MED;1296;S;14988;3;J;J;I;J;380106;Kajsa Pålsson;31;K;Helsingborg;31, studerande, Ödåkra;17000;;J
+K;1283;Helsingborg;00;Helsingborg;Medborgerlig Samling;MED;1296;S;14988;4;J;J;I;J;380107;Johan Lewis-Jonsson;43;M;Helsingborg;43, ingenjör, Helsingborg;17000;;J
+K;1283;Helsingborg;00;Helsingborg;Medborgerlig Samling;MED;1296;S;14988;5;J;J;I;J;394841;Jakob Ebelin;26;M;Helsingborg;26, järnvägskonsult, Helsingborg;17000;;J
+K;1283;Helsingborg;00;Helsingborg;Medborgerlig Samling;MED;1296;S;14988;6;J;J;I;J;187945;Göran Dybner;47;M;Helsingborg;47, egenföretagare, Helsingborg;17000;;J
+K;1283;Helsingborg;00;Helsingborg;Medborgerlig Samling;MED;1296;S;14988;7;J;J;I;J;380109;Malin Seth;28;K;Helsingborg;28, administrativ specialist, Helsingborg;17000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;1;J;J;I;J;163161;Marcus Friberg;31;M;Helsingborg;31 år, Lärare/Kommunalråd, Stattena;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;2;J;J;I;J;19821;Sofia Kamlund;28;K;Helsingborg;28 år, Doktorand, Olympia;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;3;J;J;I;J;163163;Lars Dalesjö;64;M;Helsingborg;64 år, Skolledare, Tågaborg;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;4;J;J;I;J;22045;Lena Östholm-Munkberg;57;K;Helsingborg;57 år, Utvecklare/Sjuksköterska, Miatorp;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;5;J;J;I;J;19806;Rickard Persson;58;M;Helsingborg;58 år, Riksdagsledamot, Ringstorp;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;6;J;J;I;J;163166;Ann-Christine Borgman;66;K;Helsingborg;66 år, Sjuksköterska, Ramlösa;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;7;J;J;I;J;163169;Ralf Nymberg;56;M;Helsingborg;56 år, Kylmontör, Olympia;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;8;J;J;I;J;22089;Samra Dedic;39;K;Helsingborg;39 år, Gymnasielärare, Centrum;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;9;J;J;I;J;19822;Thomas Rödin Hulth;36;M;Helsingborg;36 år, Journalist/Copywriter, Ramlösa;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;10;J;J;I;J;163170;Liselotte Lindskog;60;K;Helsingborg;60 år, Socionom, Rydebäck;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;11;J;J;I;J;163173;Stefano Kuzhicov;57;M;Helsingborg;56 år, Processledare, Sofieberg;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;12;J;J;I;J;163172;Afeta Ramadanoska;40;K;Helsingborg;40 år, Socionom, Gustavslund;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;13;J;J;I;J;19816;Gustaf Wiklund;36;M;Helsingborg;36 år, Miljöinspektör, Slottshöjden;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;14;J;J;I;J;19807;Annika Román;55;K;Helsingborg;55 år, Sångpedagog, Söder;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;15;J;J;I;J;163536;Nader El-Hajj;30;M;Helsingborg;30 år, Egen företagare, Söder;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;16;J;J;I;J;163176;Sofia Mattsson;51;K;Helsingborg;51 år, Miljöstrateg, Ramlösa;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;17;J;J;I;J;163538;Fredrik Malmborg;48;M;Helsingborg;48 år, Systemutvecklare, Laröd;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;18;J;J;I;J;163537;Anna Hjortenskiöld;32;K;Helsingborg;32 år, Miljöinspektör, Maria Park;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;19;J;J;I;J;163540;Jacob Hjärne;54;M;Helsingborg;54 år, Bokhållare, Norr;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;20;J;J;I;J;163539;Mette Bryngemark;70;K;Helsingborg;70 år, Speciallärare, Wilson Park;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;21;J;J;I;J;163542;Karl-Johan Aldegren;39;M;Helsingborg;39 år, Bussförare, Dalhem;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;22;J;J;I;J;163541;Merete Sundholm;77;K;Helsingborg;77 år, Pensionär, Eneborg;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;23;J;J;I;J;163544;Lars Dahlin;86;M;Helsingborg;86 år, Läkare, Pålsjö;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;24;J;J;I;J;163543;Carin Hjärne;56;K;Helsingborg;56 år, Bokhållare, Tågaborg;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;25;J;J;I;J;163746;Dennis Qvarnström;28;M;Helsingborg;28 år, Studerande, Planteringen;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;26;J;J;I;J;163745;Kristina Hessing Nilsson;58;K;Helsingborg;58 år, Distriktssköterska, Raus Vång;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;27;J;J;I;J;163747;Kerstin Dahlin;86;K;Helsingborg;86 år, Läkare, Pålsjö;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;28;J;J;I;J;163748;Marie Halldén;46;K;Helsingborg;46 år, Tjänsteman, Kattarp;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;29;J;J;I;J;163749;Christina Mörtl;64;K;Helsingborg;65 år, Kostekonom, Maria Park;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;30;J;J;I;J;163750;Eva Storlind;48;K;Helsingborg;48 år, Socionom, Bårslöv;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Miljöpartiet de gröna;MP;55;S;13527;31;J;J;I;J;163751;Aida Pilica;53;K;Helsingborg;53 år, Idrottsplatsvaktmästare, Elineberg;100000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;1;J;J;I;J;61436;Peter Danielsson;44;M;Helsingborg;44 år, kommunikationskonsult/ kommunstyrelsens ordförande, Laröd;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;2;J;J;I;J;61437;Christian Orsing;39;M;Helsingborg;39 år, polisinspektör/ kommunalråd, Råå;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;3;J;J;I;J;61438;Anna Jähnke;41;K;Helsingborg;41 år, socialarbetare/ kommunalråd, Ramlösa;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;4;J;J;I;J;61439;Eleonora Johansson;39;K;Helsingborg;39 år, kammaråklagare, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;5;J;J;I;J;61440;Lena Bjerne;75;K;Helsingborg;75 år, fil. mag., Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;6;J;J;I;J;61441;Mats Sander;55;M;Helsingborg;55 år, flygvapenofficer/ kommunfullmäktiges ordförande, Laröd;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;7;J;J;I;J;61442;Hans Bosson;77;M;Helsingborg;77 år, major, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;8;J;J;I;J;61443;Richard Lundberg;41;M;Helsingborg;41 år, banktjänsteman, Laröd;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;9;J;J;I;J;61444;Julia Persson;24;K;Helsingborg;24 år, politisk sekreterare, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;10;J;J;I;J;61445;Alexander Svensson;22;M;Helsingborg;22 år, politisk sekreterare, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;11;J;J;I;J;61446;Peter Knutsson;56;M;Helsingborg;56 år, lantbrukare , Påarp;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;12;J;J;I;J;61447;Marie Weibull Kornias;63;K;Helsingborg;63 år, undersköterska, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;13;J;J;I;J;61448;Carl Herbertsson;66;M;Helsingborg;66 år, civilingenjör, Råå;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;14;J;J;I;J;61449;Kristian Anderson;52;M;Helsingborg;52 år, art director, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;15;J;J;I;J;61450;Jacqueline Engström;24;K;Helsingborg;24 år, student e-commerce management, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;16;J;J;I;J;61451;Samuel Lilja;68;M;Helsingborg;68 år, pensionär, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;17;J;J;I;J;61452;Ann-Charlotte Svärd;49;K;Helsingborg;49 år, fil. mag. civilekonom, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;18;J;J;I;J;61453;Nini Hansen;47;K;Helsingborg;47 år, entreprenör, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;19;J;J;I;J;61454;Kjell Möller;69;M;[saknas i folkbokföringen];69 år, agronom, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;20;J;J;I;J;61455;Björn Eisner;63;M;Helsingborg;63 år, internationell marknadsekonom, Råå;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;21;J;J;I;J;61456;Cecilia Rupp;56;K;Helsingborg;56 år, tandsköterska, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;22;J;J;I;J;61457;Johan Rausgård;42;M;Helsingborg;42 år, ekonom, Ramlösa;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;23;J;J;I;J;61458;Beth Lundstedt Holmkvist;74;K;Helsingborg;74 år, pensionär, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;24;J;J;I;J;61459;Patrik Bellner;49;M;Helsingborg;49 år, arbetsförmedlare, Fleninge;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;25;J;J;I;J;61460;Hans Svedell;70;M;Helsingborg;70 år, speciallärare, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;26;J;J;I;J;61461;Suzana Axeheim;52;K;Helsingborg;52 år, kommunikatör, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;27;J;J;I;J;61462;Anders Cato;50;M;Helsingborg;49 år, polisinspektör, Ramlösa;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;28;J;J;I;J;61463;Kristina Filipsson Johnsson;77;K;Helsingborg;77 år, talpedagog, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;29;J;J;I;J;61464;Joachim Axelson;48;M;Helsingborg;48 år, egenföretagare, Mörarp;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;30;J;J;I;J;61465;Nikola Sarjanovic;75;M;Helsingborg;75 år, språklärare, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;31;J;J;I;J;61466;Matilda Malmgren;30;K;Helsingborg;30 år, trafikutvecklare, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;32;J;J;I;J;61467;Alexandra Cato;44;K;Helsingborg;45 år, leg. fysioterapeut, Ramlösa;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;33;J;J;I;J;61468;Gun-Britt Lagerlöf;70;K;Helsingborg;70 år, dietist, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;34;J;J;I;J;61469;Kristina Påhlsson;73;K;Helsingborg;73 år, senior, Råå;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;35;J;J;I;J;61470;Bo Hansson;74;M;Helsingborg;74 år, rektor, Rydebäck;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;36;J;J;I;J;61471;Nihad Sarajlic;49;M;Helsingborg;49 år, elingenjör, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;37;J;J;I;J;61472;Martin Brolin;46;M;Helsingborg;46 år, key account manager, Gantofta;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;38;J;J;I;J;61473;Jenny Åström Jansson;45;K;Helsingborg;45 år, ekonom, Påarp;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;39;J;J;I;J;61474;Sofia Borissenko;48;K;Helsingborg;48 år, överläkare, Fleninge;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;40;J;J;I;J;61475;Bo Lambertsson Persson;76;M;Helsingborg;76 år, lantmästare, Ödåkra;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;41;J;J;I;J;61476;Annica Lind;53;K;Helsingborg;53 år, redovisningskonsult, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;42;J;J;I;J;61478;Tomas Ulrich;44;M;Helsingborg;44 år, specialistofficer, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;43;J;J;I;J;61479;James Klingborg;37;M;Helsingborg;37 år, konsult, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;44;J;J;I;J;61482;Mikael Molin;55;M;Helsingborg;55 år, konsult, Ramlösa;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;45;J;J;I;J;61483;Mirko Zupanic;68;M;Helsingborg;68 år, pensionör, Rydebäck;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;46;J;J;I;J;61484;Peter Hägg;37;M;Helsingborg;37 år, brand engagement manager, Ramlösa;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;47;J;J;I;J;61485;Marie-Louise Siwaton;57;K;Helsingborg;57 år, inredare, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;48;J;J;I;J;61486;Ymer Ilirzon;55;M;Helsingborg;55 år, verksamhetschef, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;49;J;J;I;J;61487;Besim Bekiri;39;M;Helsingborg;39 år, redovisningskonsult, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;50;J;J;I;J;61488;Michaela Sarvik;62;K;Helsingborg;62 år, senior projektledare IT, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;51;J;J;I;J;61489;Roland Wester;68;M;Helsingborg;68 år, civilingenjör, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Moderaterna;M;1;S;12602;52;J;J;I;J;61490;Johan Aftonstråle;47;M;Helsingborg;47 år, ingenjör, Helsingborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;1;J;J;I;J;53316;Michael Rosenberg;49;M;Helsingborg;49 Kommunalråd, Ättekulla;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;2;J;J;I;J;53317;Eva Zensch;53;K;Helsingborg;53 Administratör, Allerum;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;3;J;J;I;J;53318;Alexander Aardgaard;71;M;Helsingborg;71 Politisk sekreterare, Elineberg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;4;J;J;I;J;53319;Karin Forsell;70;K;Helsingborg;70 Bibliotekarie, Ättekulla;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;5;J;J;I;J;53320;Pontus Andersson;26;M;Helsingborg;26 Politisk sekreterare, Rydebäck;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;6;J;J;I;J;53321;Ulrika Persson;49;K;Helsingborg;49 Sjuksköterska, Söder;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;7;J;J;I;J;53322;Bengt Lindahl;61;M;Helsingborg;62 Busschaufför, Adolfsberg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;8;J;J;I;J;53323;Victoria Tiblom;48;K;Helsingborg;48 Kommunikatör, Laröd;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;9;J;J;I;J;53324;Dick Johansson;75;M;Helsingborg;76 Konsult, Husensjö;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;10;J;J;I;J;53325;Britt Aardgaard;71;K;Helsingborg;72 Pensionär, Elineberg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;11;J;J;I;J;53326;Felix Lindau;25;M;Helsingborg;25 Väktare, Ringstorp;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;12;J;J;I;J;53327;Dag Sundius;61;M;Helsingborg;61 Chaufför, Fredriksdal;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;13;J;J;I;J;53328;Olle Nilsson;54;M;Helsingborg;55 Montör, Laröd;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;14;J;J;I;J;53329;Lennart Svensson;64;M;Helsingborg;65 Ingenjör, Söder;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;15;J;J;I;J;53330;Per Stenberg;57;M;Helsingborg;57 Drifttekniker, Slottshöjden;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;16;J;J;I;J;53331;Martin Zensch;55;M;Helsingborg;55 Egenföretagare, Allerum;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;17;J;J;I;J;53332;Hans Quarfood;63;M;Helsingborg;63 Kock, Stattena;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;18;J;J;I;J;53333;Petri Kaldjärv;46;M;Helsingborg;47 Säljare, Ättekulla;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;19;J;J;I;J;53334;Ann-Charlotte Eriksson;52;K;Helsingborg;53 Civilekonom, Ringstorp;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;20;J;J;I;J;53335;Magnus Mellgren;50;M;Helsingborg;50 Projektplanerare, Gustavslund;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;21;J;J;I;J;53336;Catarina R Liljestrand;55;K;Helsingborg;55 Lärare, Centrum;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;22;J;J;I;J;53337;Mårten Hedlund;40;M;Helsingborg;40 Snickare, Hittarp;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;23;J;J;I;J;53338;Pia Klesell;58;K;Helsingborg;58 Servicetekniker, Ringstorp;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;24;J;J;I;J;53339;Claes Johnsson;70;M;Klippan;71 Ekonomikonsult, Brohult;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;25;J;J;I;J;53340;Ingela Gordon;52;K;Helsingborg;52 Trafiklärare, Ättekulla;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;26;J;J;I;J;53341;Flemming Hansen;47;M;Helsingborg;47 Fastighetsskötare, Söder;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;27;J;J;I;J;53342;Bengt Bengtsson;75;M;Helsingborg;75 Sjökapten, Ättekulla;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;28;J;J;I;J;53343;Linda Lindberg;43;K;Helsingborg;44 Florist, Västergård;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;29;J;J;I;J;53344;Thommy Friberg;68;M;Helsingborg;68 Fd polis, Laröd;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;30;J;J;I;J;53345;Eivor Söderberg;73;K;Helsingborg;73 Pensionär, Adolfsberg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;31;J;J;I;J;53346;Susanne Nilsson;57;K;Helsingborg;57 Hemserviceanställd, Ättekulla;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;32;J;J;I;J;53347;Nils Klintvik Olofsson;20;M;Helsingborg;20 Politisk kommunkatör, Centrum;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;33;J;J;I;J;53348;Sebastian Nilsson;26;M;Helsingborg;26 Väktare, Ättekulla;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;34;J;J;I;J;53349;Anders Bennsten;51;M;Helsingborg;51 Bryggmästare, Domsten;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;35;J;J;I;J;53350;Jens Högberg;48;M;Helsingborg;48 Inspektör, Högaborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;36;J;J;I;J;53351;Anders Johnsson;60;M;Helsingborg;60 Försäljningsingenjör, Fredriksdal;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;37;J;J;I;J;53352;Emil Jansson Vasilcin;24;M;Helsingborg;24 Studerande, Slottshöjden;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;38;J;J;I;J;53353;Christel Larsson;55;K;Helsingborg;55 Receptionist, Centrum;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;39;J;J;I;J;53354;Lars Isaksson;56;M;Helsingborg;57 Fastighetstekniker, Slottshöjden;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;40;J;J;I;J;53355;Barner Knudsen;67;M;Helsingborg;67 Fastighetstekniker, Vallåkra;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;41;J;J;I;J;53356;Christina Bly-Andersson;64;K;Helsingborg;65 Frisör, Centrum;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;42;J;J;I;J;53357;Björn Gyllix;58;M;Helsingborg;58 Lärare, Centrum;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;43;J;J;I;J;53358;Yvonne Friberg;65;K;Helsingborg;66 Laboratorieassistent, Laröd;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;44;J;J;I;J;53359;Alexander Johansson;31;M;Helsingborg;31 Student, Söder;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;45;J;J;I;J;99916;Daniel Bergsten;49;M;Bjuv;49, snickare, Elineberg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;46;J;J;I;J;53361;Birger Jönsson;79;M;Helsingborg;79 Reparatör, Allerum;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;47;J;J;I;J;53362;Börje Wigström;75;M;Helsingborg;76 Pensionär, Dalhem;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;48;J;J;I;J;53363;Carina Persson;47;K;Helsingborg;47 Lokalvårdare, Elineberg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;49;J;J;I;J;53364;Christer Nilsson;67;M;Helsingborg;67 Pensionär, Söder;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;50;J;J;I;J;53365;Christian Johansen;75;M;Helsingborg;75 Pensionär, Husensjö;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;51;J;J;I;J;53366;Cornelia Scott;29;K;Helsingborg;30 Flygvärdinna, Centrum;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;52;J;J;I;J;53367;Gunnel Fredriksson;66;K;Helsingborg;67 Pensionär, Centrum;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;53;J;J;I;J;53368;Jan Fredriksson;65;M;Helsingborg;66 Pensionär, Centrum;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;54;J;J;I;J;53369;Maj-Lis Bengtsson;73;K;Helsingborg;73 Undersköterska, Ättekulla;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;55;J;J;I;J;53370;Mattias Arlefalk;33;M;Helsingborg;34 Säljare, Dalhem;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;56;J;J;I;J;53371;Staffan Quist;59;M;Helsingborg;59 Suderande, Närlunda;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;57;J;J;I;J;53372;Thomas Olsson;68;M;Helsingborg;68 Pensionär, Gustavslund;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;58;J;J;I;J;53373;Liz Edman;64;K;Helsingborg;64 Pensionär, Kattarp;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;59;J;J;I;J;53374;Gunvor Enström;78;K;Helsingborg;78 Pensionär, Tågaborg;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;60;J;J;I;J;53375;Yrsa Bernecker;68;K;Helsingborg;69 Frisör, Vegeholm;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;61;J;J;I;J;53376;Sven-Erik Larheim;83;M;Helsingborg;84 Pensionär, Raus;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;62;J;J;I;J;53377;Bo Söderström;72;M;Helsingborg;72 Personlig assistent, Centrum;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;63;J;J;I;J;53378;Maria Lundborg;53;K;Helsingborg;53 Flygvärdinna, Råå;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;64;J;J;I;J;53379;Dick Johansson;58;M;Helsingborg;59 Yrkeschaufför, Slottshöjden;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;65;J;J;I;J;53380;Monica Cronbring;71;K;Helsingborg;71 Pensionär, Söder;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;66;J;J;I;J;53381;Hans Fernebring;75;M;Helsingborg;75 Värmetekniker, Råå;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;67;J;J;I;J;53382;Håkan Hallberg;68;M;Helsingborg;68 Pensionär, Ramlösa;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;68;J;J;I;J;53383;Viveca Hassani-Baluchi;62;K;Helsingborg;62 Servicehandläggare, Centrum;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;69;J;J;I;J;99940;Kenny Pettersson;66;M;Helsingborg;66, pensionär, Slottshöjden;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;70;J;J;I;J;53385;Ann-Christine Nilsson;70;K;Helsingborg;70 Redovisningsekonom, Söder;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;71;J;J;I;J;53386;Susan Andersson;67;K;Helsingborg;68 Mäklare, Ättekulla;329000;;J
+K;1283;Helsingborg;00;Helsingborg;Sverigedemokraterna;SD;110;S;12481;72;J;J;I;J;53387;Gilberth Storm;66;M;Helsingborg;66 Säljare, Hittarp;329000;;J
+K;1283;Helsingborg;00;Helsingborg;TRYGGHETSPARTIET;TRP;1309;S;15264;1;J;J;I;J;431286;Birger Nilsson;68;M;Helsingborg;Skolledare;20000;;J
+K;1283;Helsingborg;00;Helsingborg;TRYGGHETSPARTIET;TRP;1309;S;15264;2;J;J;I;J;431300;Marianne Witting;70;K;Helsingborg;Präst;20000;;J
+K;1283;Helsingborg;00;Helsingborg;TRYGGHETSPARTIET;TRP;1309;S;15264;3;J;J;I;J;431567;Magnus Hansson;74;M;Helsingborg;Lärare;20000;;J
+K;1283;Helsingborg;00;Helsingborg;TRYGGHETSPARTIET;TRP;1309;S;15264;4;J;J;I;J;431308;Rosita Lindbom;75;K;Helsingborg;Pensionär;20000;;J
+K;1283;Helsingborg;00;Helsingborg;TRYGGHETSPARTIET;TRP;1309;S;15264;5;J;J;I;J;431569;Stig Andersson;79;M;Helsingborg;Marknadsförare;20000;;J
+K;1283;Helsingborg;00;Helsingborg;TRYGGHETSPARTIET;TRP;1309;S;15264;6;J;J;I;J;431321;Rolf Åström;77;M;Helsingborg;Fastighetstekniker;20000;;J
+K;1283;Helsingborg;00;Helsingborg;TRYGGHETSPARTIET;TRP;1309;S;15264;7;J;J;I;J;431571;Biljana Varalungovic;55;K;Helsingborg;Frisör;20000;;J
+K;1283;Helsingborg;00;Helsingborg;TRYGGHETSPARTIET;TRP;1309;S;15264;8;J;J;I;J;431572;Anette Karlsson;53;K;Helsingborg;Gymnasielärare;20000;;J
+K;1283;Helsingborg;00;Helsingborg;TRYGGHETSPARTIET;TRP;1309;S;15264;9;J;J;I;J;431573;Anita Mellgren;74;K;Helsingborg;Pensionär;20000;;J
+K;1283;Helsingborg;00;Helsingborg;TRYGGHETSPARTIET;TRP;1309;S;15264;10;J;J;I;J;431574;Ulla-Britt Lindkvist;75;K;Helsingborg;Läkarsekreterare;20000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;1;J;J;I;J;108235;Ingrid Mattiasson Saarinen;72;K;Helsingborg;72 år, lärare;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;2;J;J;I;J;108236;Claudia Velásquez;48;K;Helsingborg;47 år,socialsekreterare, skyddsombud;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;3;J;J;I;J;108237;Peter Ahlbom;50;M;Helsingborg;50 år, leg.sjuksköterska, pedagog;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;4;J;J;I;J;108238;Tomas Gustafsson;64;M;Helsingborg;64 år, socionom;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;5;J;J;I;J;108239;Jenny Björklund Hansson;37;K;Helsingborg;37 år, studie-och yrkesvägledare;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;6;J;J;I;J;108240;Joacim Werner Petersson;32;M;Helsingborg;31 år, politisk sekreterare;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;7;J;J;I;J;108241;Svjetlana Saric;56;K;Helsingborg;55 år, kemist;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;8;J;J;I;J;108242;Ulla Sandkvist Thell;64;K;Helsingborg;64 år, lärare;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;9;J;J;I;J;108243;Ingemar Karlsson;60;M;Helsingborg;60 år, avtalspensionär;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;10;J;J;I;J;108244;Hans Henning Nilsson;54;M;Helsingborg;54 år, fritidsassistent;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;11;J;J;I;J;108245;Jennie Fryksäter;39;K;Helsingborg;38 år, historiker, humanist;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;12;J;J;I;J;108246;Birgitta Möller;77;K;Helsingborg;77 år, pensionär;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;13;J;J;I;J;108247;Magnus Thelander;50;M;Helsingborg;49 år, ombudsman;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;14;J;J;I;J;108248;Rebecca Thell;29;K;Helsingborg;29 år, studerande;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;15;J;J;I;J;108249;Ivar Sjögren;23;M;Helsingborg;23 år, studerande;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;16;J;J;I;J;108250;Britta Olsson;70;K;Helsingborg;70 år, lärare, volontär;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;17;J;J;I;J;108251;Veikko Saarinen;76;M;Helsingborg;76 år, pensionär;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;18;J;J;I;J;108254;Monica Davidson;64;K;Helsingborg;64 år, socionom;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;19;J;J;I;J;108252;Sven-Erik Svantesson;55;M;Helsingborg;54 år, arbetssökande, aktivist;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;20;J;J;I;J;108253;Marie Steijer-Wollmer;58;K;Helsingborg;57 år, familjebehandlare;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;21;J;J;I;J;108255;Ferman Büyükkaya;40;M;Solna;40 år, egenföretagare;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;22;J;J;I;J;108256;Birgitta Sjöholm;67;K;Helsingborg;67 år, kurator;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;23;J;J;I;J;108258;Peter Jonasson;49;M;Helsingborg;48 år, lagerarbetare;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;24;J;J;I;J;108259;Victor Bärring;28;M;Helsingborg;27 år, project & sales manager;176000;;J
+K;1283;Helsingborg;00;Helsingborg;Vänsterpartiet;V;5;S;15140;25;J;J;I;J;108257;Margareta Borssén;73;K;Helsingborg;72 år, pensionär;176000;;J

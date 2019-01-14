@@ -1,0 +1,360 @@
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;1;J;J;I;J;93520;Anders Teljebäck;61;M;Västerås;61 år, Kommunstyrelsens ordförande;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;2;J;J;I;J;93521;Carin Lidman;52;K;Västerås;52 år, Kommunalråd;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;3;J;J;I;J;93522;Staffan Jansson;50;M;Västerås;50 år, Kommunalråd;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;4;J;J;I;J;6195;Ann-Louise Molin Östling;56;K;Västerås;56 år, Kommunalråd;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;5;J;J;I;J;93524;Jonas Cronert;38;M;Västerås;38 år, Ombudsman;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;6;J;J;I;J;6181;Djeila Ahundzada;23;K;Västerås;23 år, Student;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;7;J;J;I;J;93526;Tony Lundin;53;M;Västerås;53 år, Ombudsman;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;8;J;J;I;J;93527;Solveig Nilsson;49;K;Västerås;49 år, Barnskötare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;9;J;J;I;J;93528;Mikael Sandberg;54;M;Västerås;54 år, Ombudsman;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;10;J;J;I;J;93529;Maria Kesselring;41;K;Västerås;41 år, Arbetsförmedlare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;11;J;J;I;J;93530;Per-Inge Ahlbäck;70;M;Västerås;70 år, Fd. LO-ombudsman;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;12;J;J;I;J;93531;Marita Öberg Molin;65;K;Västerås;65 år, Pensionär;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;13;J;J;I;J;93532;Madjid Ibrahim;27;M;Västerås;27 år, Snickare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;14;J;J;I;J;93533;Jenny Setterholm;42;K;Västerås;42 år, Butiksmedarbetare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;15;J;J;I;J;6180;Magnus Johansson;38;M;Västerås;38 år, Samhällsplanerare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;16;J;J;I;J;96950;Anna Grön;54;K;Västerås;54 år, Civilekonom;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;17;J;J;I;J;6186;Jakop Yildiz;46;M;Västerås;46 år, Pedagog;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;18;J;J;I;J;96952;Sandra Zanabria;21;K;Västerås;21 år, Studerande;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;19;J;J;I;J;96953;Julio Maravilla;40;M;Västerås;40 år, Brandman;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;20;J;J;I;J;96954;Anny Bustos Teljebäck;55;K;Västerås;55 år, Linjeledare SFI;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;21;J;J;I;J;96955;Thomas Karlsson;53;M;Västerås;53 år, Ingenjör;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;22;J;J;I;J;96956;Alexandra Olsson;31;K;Västerås;31 år, Statstjänsteman;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;23;J;J;I;J;96957;Jonas Berglind;42;M;Västerås;42 år, Vattensamordnare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;24;J;J;I;J;6189;Jazmin Pettersson;47;K;Västerås;47 år, Pedagog;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;25;J;J;I;J;96959;Mathias Mardani;28;M;Västerås;28 år, Fritidsledare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;26;J;J;I;J;96960;Lena Burström;61;K;Västerås;61 år, Hälso-o sjukvårdsstrateg;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;27;J;J;I;J;96961;Vladimir Ahmed;31;M;Västerås;31 år, Arbetsförmedlare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;28;J;J;I;J;97546;Malin Kauranen;52;K;Västerås;52 år, Undersköterska;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;29;J;J;I;J;97547;Mikael Lindh;57;M;Västerås;57 år, Lärare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;30;J;J;I;J;97548;Iréne Englund;72;K;Västerås;72 år, Fritidspedagog;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;31;J;J;I;J;97549;Felix Lundqvist;21;M;Västerås;21 år, Studerande;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;32;J;J;I;J;97550;Agata Kosik;50;K;Västerås;50 år, Materialare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;33;J;J;I;J;100150;Mikael Dimgård;38;M;Västerås;38 år, Kommunikatör;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;34;J;J;I;J;100151;Emma Adehult;20;K;Västerås;20 år, Restaurangbiträde;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;35;J;J;I;J;100152;Mikael Stenås;54;M;Västerås;54 år, Projektledare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;36;J;J;I;J;100153;Susanne Malm;51;K;Västerås;51 år, Elektronikmontör;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;37;J;J;I;J;100154;Jörgen Wolff;54;M;Västerås;54 år, Konsult;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;38;J;J;I;J;100155;Tabira Kaya Nygren;54;K;Västerås;54 år, Servicehandläggare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;39;J;J;I;J;6417;Jakob Eriksson;41;M;Västerås;41 år, Systemintegratör;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;40;J;J;I;J;6420;Vanja Ahlén;54;K;Västerås;54 år, Ombudsman;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;41;J;J;I;J;100158;Fuad Ahmed;51;M;Västerås;51 år, Projektledare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;42;J;J;I;J;100159;Ann-Christine Alkazhami;45;K;Västerås;43 år, Undersköterska;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;43;J;J;I;J;100160;Birger Höök;70;M;Västerås;70 år, Civilingenjör;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;44;J;J;I;J;100161;Helena Sannestedt;66;K;Västerås;66 år, Civilekonom;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;45;J;J;I;J;100162;Leif Bäckström;53;M;Västerås;53 år, Lastbilschaufför;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;46;J;J;I;J;100163;Dorene Snäckerström;67;K;Västerås;67 år, Sjuksköterska;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;47;J;J;I;J;6426;Håkan Jansson;63;M;Västerås;63 år, Assistent;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;48;J;J;I;J;100165;Susanne Jörgensen;53;K;Västerås;53 år, Undersköterska;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;49;J;J;I;J;100166;Süleyman Bahar;70;M;Västerås;70 år, Pensionär;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;50;J;J;I;J;100167;Suzan Altun;37;K;Västerås;37 år, Sjuksköterska;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;51;J;J;I;J;6421;Sten Helleng;79;M;Västerås;79 år, Ingenjör;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;52;J;J;I;J;6396;Carina Vallin;50;K;Västerås;50 år, Assistent;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;53;J;J;I;J;6411;Robert Ringvall;40;M;Västerås;40 år, Statsvetare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;54;J;J;I;J;6193;Josefine Bäckström;30;K;Västerås;30 år, Facklig rådgivare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;55;J;J;I;J;6397;Thommy Södergård Åkesson;25;M;Västerås;25 år, Biträdande jurist;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;56;J;J;I;J;6410;Barbara Bienkowska;62;K;Västerås;62 år, Förskollärare;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;57;J;J;I;J;6393;Abdifatah Abdullahi Farah;37;M;Västerås;37 år, Tolk;379000;;J
+K;1980;Västerås;00;Västerås;Arbetarepartiet-Socialdemokraterna;S;2;S;12981;58;J;J;I;J;6399;Jan-Roman Dostál;34;M;Västerås;34 år, Studerande;379000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;1;J;J;I;J;212764;Vicki Skure-Eriksson;47;K;Västerås;47 år, Lantbruksföretagare, Tillberga;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;2;J;J;I;J;8547;Lars Kallsäby;55;M;Västerås;55 år, Lantmästare, Dingtuna;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;3;J;J;I;J;242290;Monica Stolpe-Nordin;55;K;Västerås;55 år, Avdelningschef, Lundby;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;4;J;J;I;J;229283;Karin Westlund;45;K;Västerås;44 år, Civilingenjör, Romfartuna;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;5;J;J;I;J;245079;Adam Pettersson;29;M;Västerås;29 år, Polis, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;6;J;J;I;J;212766;Indi Persson;51;K;Västerås;51 år, Landsbygdsutvecklare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;7;J;J;I;J;212767;Ulf Jansson;66;M;Västerås;65 år, Jordbrukare, Kungsåra;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;8;J;J;I;J;212768;Eva-Lotta Svensson;36;K;Västerås;36 år, Projektledare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;9;J;J;I;J;212769;Åke Johansson;63;M;Västerås;62 år, f.d Rektor, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;10;J;J;I;J;242280;Agnes Svedberg;20;K;Västerås;20 år, Studerande, Björksta;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;11;J;J;I;J;212770;Jonathan Taki;30;M;Västerås;30 år, Projektledare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;12;J;J;I;J;212771;Sara Gunstad Selin;42;K;Västerås;42 år, Uppdragsledare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;13;J;J;I;J;354996;Ahmed Abdurahman;33;M;Västerås;34 år, Handledare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;14;J;J;I;J;212772;Sara Norström;32;K;Västerås;32 år, Egenföretagare, Dingtuna;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;15;J;J;I;J;212773;Mikael Palmqvist;58;M;Västerås;58 år, Förskollärare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;16;J;J;I;J;212774;Ing-Marie Berndtsson;63;K;Västerås;63 år, Coach, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;17;J;J;I;J;212775;Magnus Nystedt;46;M;Västerås;47 år, Politisk sekreterare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;18;J;J;I;J;213826;Fredrik Melin;41;M;Västerås;41 år, Lantmästare, Romfartuna;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;19;J;J;I;J;213827;Dan Edlund;74;M;Västerås;74 år, Senior, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;20;J;J;I;J;213828;Rickard Jerndahl;44;M;Västerås;43 år, Egenföretagare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;21;J;J;I;J;213829;Dorothy Bergkvist;74;K;Västerås;74 år, f.d Socionom, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;22;J;J;I;J;213830;Birgitta Olsson;78;K;Västerås;78 år, Pensionär, Dingtuna;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;23;J;J;I;J;229288;Camilla Bohm Coleman;63;K;Västerås;62 år, Verksamhetsutvecklare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;24;J;J;I;J;213831;Eva Edlund;63;K;Västerås;62 år, f.d Socialarbetare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;25;J;J;I;J;316350;Bengt Granberg;76;M;Västerås;76 år, Civilingenjör, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;26;J;J;I;J;213832;Lars Hedlund Johansson;29;M;Västerås;29 år, Jägmästare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;27;J;J;I;J;213833;David Sundén;46;M;Västerås;46 år, VD, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;28;J;J;I;J;316353;Margareta Humble;56;K;Västerås;56 år, Fastighetsmäklare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;29;J;J;I;J;326747;Veronica Cadei;44;K;Västerås;44 år, Platschef, Sevalla;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;30;J;J;I;J;213834;Linda Rahme;38;K;Västerås;38 år, Undersköterska, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;31;J;J;I;J;316355;Mattias Dahlberg;40;M;Västerås;40 år, Hantverkare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;32;J;J;I;J;213835;Johan Lembke;49;M;Västerås;49 år, Universitetsadministratör, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;33;J;J;I;J;316357;Elisabeth Sannesjö;66;K;Västerås;66 år, Egenföretagare, Romfartuna;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;34;J;J;I;J;213836;Lars Andersson;55;M;Västerås;55 år, Lantbrukare, Skultuna;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;35;J;J;I;J;213837;Karin Larses;65;K;Västerås;65 år, Präst, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;36;J;J;I;J;213838;Joakim Öhrndalen;48;M;Västerås;48 år, IT-samordnare, Irsta;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;37;J;J;I;J;295219;Razmik Krikorian;34;M;Västerås;34 år, Forskare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;38;J;J;I;J;213839;Erik Kihlberg;57;M;Västerås;57 år, VD, Tillberga;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;39;J;J;I;J;213840;Christina Ulvede;68;K;Västerås;68 år, Egenföretagare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;40;J;J;I;J;245105;Ylva Rostad;23;K;Västerås;23 år, Djurskötare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;41;J;J;I;J;213841;Ulla Yderfors-Johansson;63;K;Västerås;62 år, Försäkringsmedarbetare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;42;J;J;I;J;213842;Mats Granlund;57;M;Västerås;57 år, Inköp logistik, Haraker;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;43;J;J;I;J;213843;Charlotte Unander-Scharin;65;K;Västerås;66 år, Pensionär, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;44;J;J;I;J;229289;Basil Wakid;63;M;Västerås;63 år, Universitetslärare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;45;J;J;I;J;245110;Karin Vikland;69;K;Västerås;69 år, f.d Ekonom, Ängsö;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;46;J;J;I;J;213844;Malin Svedberg;18;K;Västerås;18 år, Student, Björksta;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;47;J;J;I;J;365100;Falis Hassan Fiidow;53;K;Västerås;53 år, Lärare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;48;J;J;I;J;245112;Mahamad Hassan;56;M;Västerås;55 år, Snickare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;49;J;J;I;J;213845;Göran Johansson;62;M;Västerås;62 år, Lantbrukare, Skultuna;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;50;J;J;I;J;213846;Jan Thunberg;61;M;Västerås;61 år, Åkare, Dingtuna;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;51;J;J;I;J;352508;Jonas Karlsson Rahme;42;M;Västerås;42 år, Lokalvårdare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;52;J;J;I;J;316374;Marianne Brånn;72;K;Västerås;72 år, f.d Sjuksköterska, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;53;J;J;I;J;295232;Lars-Olov Lind;55;M;Västerås;55 år, Anläggningsarbetare, Rytterne;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;54;J;J;I;J;213847;Reidun Andersson;57;K;Västerås;57 år, Arbetsmarknadskonsulent, Haraker;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;55;J;J;I;J;355037;Henrik Eriksson;18;M;Västerås;18 år, Studerande, Tillberga;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;56;J;J;I;J;316377;Teresia Unander-Scharin;33;K;Västerås;33 år, Rekryterare, Gäddeholm;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;57;J;J;I;J;352513;Marita Ljung;56;K;Västerås;56 år, Banktjänsteman, Sevalla;347000;;J
+K;1980;Västerås;00;Västerås;Centerpartiet;C;4;S;13934;58;J;J;I;J;245116;Mats Eriksson;42;M;Västerås;42 år, Lantbrukare, Västerås;347000;;J
+K;1980;Västerås;00;Västerås;Feministiskt initiativ;FI;532;S;14223;1;J;J;I;J;247896;Kristiina Koistila;35;K;Västerås;Socionom;36000;;J
+K;1980;Västerås;00;Västerås;Feministiskt initiativ;FI;532;S;14223;2;J;J;I;J;247897;Jonas Kullinger;42;M;Västerås;Sociolog;36000;;J
+K;1980;Västerås;00;Västerås;Feministiskt initiativ;FI;532;S;14223;3;J;J;I;J;247898;Wictor Hoffman;30;M;Västerås;Skolkurator;36000;;J
+K;1980;Västerås;00;Västerås;Feministiskt initiativ;FI;532;S;14223;4;J;J;I;J;247899;Johanna Yttréus;40;K;Västerås;Arbetar i kvinnojour;36000;;J
+K;1980;Västerås;00;Västerås;Feministiskt initiativ;FI;532;S;14223;5;J;J;I;J;247900;Richard Berglind;31;M;Västerås;Beteendevetare;36000;;J
+K;1980;Västerås;00;Västerås;Feministiskt initiativ;FI;532;S;14223;6;J;J;I;J;247901;Anna Ehlin;26;K;Västerås;Onlinemarknadsförare;36000;;J
+K;1980;Västerås;00;Västerås;Feministiskt initiativ;FI;532;S;14223;7;J;J;I;J;247902;Ann-Sofie Nordberg;28;K;Västerås;Socionom;36000;;J
+K;1980;Västerås;00;Västerås;Feministiskt initiativ;FI;532;S;14223;8;J;J;I;J;247903;Peppe Hämeeniemi;38;M;Västerås;Utvecklare;36000;;J
+K;1980;Västerås;00;Västerås;Feministiskt initiativ;FI;532;S;14223;9;J;J;I;J;247904;Ann-Charlott Mähler;46;K;Västerås;Sjuksköterska;36000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;1;J;J;I;J;185429;Amanda Agestav;44;K;Västerås;44, Ekonom/Kommunalråd;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;2;J;J;I;J;185427;Samuel Stengård;46;M;Västerås;46, Pastor;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;3;J;J;I;J;185443;Elisabeth Wäneskog;73;K;Västerås;73, Leg. sjuksköterska;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;4;J;J;I;J;185431;Per Nilsson;25;M;Västerås;25, Lantbrukare;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;5;J;J;I;J;185438;Joakim Widell;51;M;Västerås;51, Politisk sekreterare;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;6;J;J;I;J;186030;Pauline Sturesson;48;K;Västerås;48, Redovisningskonsult;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;7;J;J;I;J;188516;Gunilla Kuul Jonsson;45;K;Västerås;45, Politisk sekreterare;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;8;J;J;I;J;9170;Jesper Songer;31;M;Västerås;31, Företagare;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;9;J;J;I;J;188518;Elin Granqvist;29;K;Västerås;29, Ekonomisekreterare;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;10;J;J;I;J;185454;Eric Söderberg;44;M;Västerås;44, Företagare;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;11;J;J;I;J;186024;Micael Larsson;48;M;Västerås;48, Egenföretagare;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;12;J;J;I;J;188521;Katherine Tepsi;47;K;Västerås;47, Barnskötare;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;13;J;J;I;J;185440;Gabriel Ishak;52;M;Västerås;52, Egenföretagare;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;14;J;J;I;J;188523;Emma Persson;56;K;Västerås;56, Egenföretagare;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;15;J;J;I;J;188524;Juhani Nikula;68;M;Västerås;68, F.d. rektor;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;16;J;J;I;J;188525;Ibrahim Onar;34;M;Västerås;34, Modersmålslärare;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;17;J;J;I;J;186914;Richard Eklund;48;M;Hallstahammar;48, Företagare;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;18;J;J;I;J;188527;Sture Torseng;75;M;Västerås;75, Tekn. dr.;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;19;J;J;I;J;188528;Filip Hjelm;19;M;Västerås;19, Studerande;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;20;J;J;I;J;188529;Joakim Arnstjerna;49;M;Västerås;49, Ingenjör;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;21;J;J;I;J;188530;Claude Jolie Farah;38;K;Västerås;38, Undersköterska;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;22;J;J;I;J;188531;Stefan Sturesson;72;M;Västerås;72, Företagare;347000;;J
+K;1980;Västerås;00;Västerås;Kristdemokraterna;KD;68;S;13724;23;J;J;I;J;185434;Magnus Agestav;48;M;Västerås;48, Jur.kand.;347000;;J
+K;1980;Västerås;00;Västerås;Landsbygdspartiet Oberoende;LPo;1011;S;15753;1;N;J;J;I;508973;Peter Hennig;63;M;Västerås;63 år;10000;;J
+K;1980;Västerås;00;Västerås;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515676;Törnkvist, Jessica;36;K;Västerås;;0;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;1;J;J;I;J;287822;Jesper Brandberg;36;M;Västerås;36, oppositionsråd, civilekonom;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;2;J;J;I;J;287830;Anna Lundberg;44;K;Västerås;44, projektledare;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;3;J;J;I;J;49168;Roger Haddad;40;M;Västerås;40, riksdagsledamot;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;4;J;J;I;J;287827;Jenny Boström;37;K;Västerås;37, IT-projektledare;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;5;J;J;I;J;290606;Bengt-Åke Nilsson;69;M;Västerås;69, civilekonom;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;6;J;J;I;J;290603;Karin Andersson;66;K;Västerås;66, f.d. chef vård och omsorg;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;7;J;J;I;J;287829;Jacob Axelson;23;M;Västerås;23, lärarstuderande;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;8;J;J;I;J;290614;Birgitta Åkerberg;69;K;Västerås;69, lärare;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;9;J;J;I;J;297098;Erik Ödmansson;75;M;Västerås;75, civilingenjör;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;10;J;J;I;J;287825;Henrik Östman;69;M;Västerås;69, civilingenjör;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;11;J;J;I;J;290607;Sam Haddad;53;M;Västerås;53, elektronikmontör;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;12;J;J;I;J;297101;Elin Asplund;31;K;Västerås;31, projektledare, civilingenjör;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;13;J;J;I;J;297102;Anna Östholm;48;K;Västerås;48, el- och systemingenjör;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;14;J;J;I;J;297103;Ulf Larsson;50;M;Västerås;50, civilekonom;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;15;J;J;I;J;290604;Anders Duvkär;49;M;Västerås;49, gymnasiechef;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;16;J;J;I;J;297105;Therese Siverbo;42;K;Västerås;41, maskin- och energiingenjör;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;17;J;J;I;J;297106;Pia Heldesjö;45;K;Västerås;45, ekonomi- och finanschef;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;18;J;J;I;J;297107;Stefan Sköld;31;M;Västerås;30, statsvetare;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;19;J;J;I;J;297108;Sanna Strömstedt;44;K;Västerås;44, avdelningschef, civilekonom;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;20;J;J;I;J;297109;Per Bodlund;34;M;Västerås;34, personalchef, statsvetare;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;21;J;J;I;J;297110;Simon Damberg;18;M;Västerås;18, studerande;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;22;J;J;I;J;287824;Viktoria Grimfjärd;45;K;Västerås;45, statsvetare, lärare;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;23;J;J;I;J;297112;Åke Johansson;73;M;Västerås;72, företagare, ingenjör;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;24;J;J;I;J;297113;Annica Bjarnefeldt;45;K;Västerås;44, personlig assistent;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;25;J;J;I;J;297114;Anna Porsaeus;49;K;Västerås;48, personalstrateg/personalvetare;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;26;J;J;I;J;297115;Örjan Rosell;76;M;Västerås;76, pensionerad civilingenjör;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;27;J;J;I;J;297116;Bengt Wallén;73;M;Västerås;73, f.d. chef Arbetsförmedlingen;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;28;J;J;I;J;297117;Fredrik Domert;47;M;Västerås;46, kvalitetschef;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;29;J;J;I;J;290605;Maria Vallgren Eriksson;46;K;Västerås;46, kostkonsulent;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;30;J;J;I;J;297119;Britt-Inger Lindell;57;K;Västerås;56, IT-strateg;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;31;J;J;I;J;297120;Mats Lundemalm;48;M;Västerås;47, produktionschef;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;32;J;J;I;J;297121;Birgitta Carlstedt;69;K;Västerås;68, lärare;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;33;J;J;I;J;287823;Lina Eriksson;26;K;Västerås;26, kvalitetsledare, studerande;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;34;J;J;I;J;297123;Peter Tyrhandske;51;M;Västerås;51, lärare;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;35;J;J;I;J;297124;Axel Isaksson;20;M;Västerås;19, studerande;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;36;J;J;I;J;297125;Joa Silver;68;M;Västerås;68, systemvetare;320000;;J
+K;1980;Västerås;00;Västerås;Liberalerna (tidigare Folkpartiet);L;3;S;14590;37;J;J;I;J;297126;Sture Larsson;74;M;Västerås;74, ingenjör;320000;;J
+K;1980;Västerås;00;Västerås;Medborgerlig Samling;MED;1296;S;13358;1;J;J;I;J;128542;Jan Röman;60;M;Västerås;60 år, Tekn. licentiat;22000;;J
+K;1980;Västerås;00;Västerås;Medborgerlig Samling;MED;1296;S;13358;2;J;J;I;J;137777;Carl Wikgren;19;M;Västerås;18 år, Student;22000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;1;J;J;I;J;58487;Anna Thunell;34;K;Västerås;34 år, Undersköterska;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;2;J;J;I;J;59258;Markus Lindgren;33;M;Västerås;33 år, Rektor;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;3;J;J;I;J;59259;Agneta Luttropp;73;K;Västerås;73 år, Fil. lic. i specialpedagogik;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;4;J;J;I;J;59260;Ariana Tanha;34;M;Västerås;34 år, Energi- och miljöingenjör;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;5;J;J;I;J;59261;Anna Nematbakhsh;21;K;Västerås;21 år, Studerande;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;6;J;J;I;J;59262;Kristofer Åberg;26;M;Västerås;26 år, Samhällsvetare;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;7;J;J;I;J;59263;Marie Sundström;60;K;Västerås;60 år, Företagare;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;8;J;J;I;J;59264;Håkan Wretljung;67;M;Västerås;67 år, Fotograf;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;9;J;J;I;J;59265;Kristina Östman;41;K;Västerås;41 år, Processledare;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;10;J;J;I;J;59266;August Lindberg;23;M;Västerås;23 år, Politisk sekreterare;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;11;J;J;I;J;59267;Hanna Dönsberg;32;K;Västerås;32 år, Barnskötare;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;12;J;J;I;J;59268;Rasmus Pepponen;19;M;Västerås;19 år, Studerande;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;13;J;J;I;J;59269;Tove Engström;35;K;Västerås;34 år, Socionom;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;14;J;J;I;J;59270;Johannes Wretljung Persson;31;M;Västerås;31 år, Företagare;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;15;J;J;I;J;59271;JennieMaria Ström;32;K;Västerås;32 år, Finansiell administratör;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;16;J;J;I;J;59272;Johan Norrlin;59;M;Västerås;59 år, Geolog;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;17;J;J;I;J;59273;Anna Betz Mark;45;K;Västerås;45 år, Undersköterska;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;18;J;J;I;J;59274;Andreas Porswald;43;M;Västerås;43 år, Miljöekonom;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;19;J;J;I;J;59275;Barbara Conte;65;K;Västerås;65 år, Ekologisk ekonom;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;20;J;J;I;J;59276;Caroline Närhi;44;K;Västerås;44 år, SFI-lärare;176000;;J
+K;1980;Västerås;00;Västerås;Miljöpartiet de gröna;MP;55;S;12560;21;J;J;I;J;59277;Pernilla Rinsell;46;K;Västerås;46 år, Ekoingenjör;176000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;1;J;J;I;J;206;Elisabeth Unell;55;K;Västerås;Oppositionsråd;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;2;J;J;I;J;33;Anna Hård af Segerstad;40;K;Västerås;Oppositionsråd;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;3;J;J;I;J;208;Marcus Jacobson;35;M;Västerås;Jur.Kand;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;4;J;J;I;J;31;Caroline Högström;26;K;Västerås;Förskollärare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;5;J;J;I;J;35;Eleonore Lundkvist;30;K;Västerås;Politisk sekreterare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;6;J;J;I;J;211;Stefan Lindh;46;M;Västerås;Civilekonom;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;7;J;J;I;J;212;Claes Kugelberg;73;M;Västerås;Civilingenjör;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;8;J;J;I;J;34;Enes Bilalovic;55;M;Västerås;Företagare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;9;J;J;I;J;214;Anna Nordin;48;K;Västerås;Civilekonom;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;10;J;J;I;J;29;Mikael Damsgaard;41;M;Västerås;HR-konsult;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;11;J;J;I;J;216;Cassandra Lundgren;22;K;Västerås;Studerande;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;12;J;J;I;J;40;Jörgen Andersson;61;M;Västerås;Produktionschef;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;13;J;J;I;J;218;Tomas Salzmann;64;M;Västerås;Direktör;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;14;J;J;I;N;219;[inte lämnat förklaring];;;;;347000;;N
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;15;J;J;I;J;54;Marie Brandstedt;36;K;Västerås;Byggnadsingenjör;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;16;J;J;I;J;38;Håkan Nilsson;49;M;Västerås;Poliskommissarie;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;17;J;J;I;J;47;Terese Pransjö;38;K;Västerås;Datasamordnare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;18;J;J;I;J;223;Irene Hagström;66;K;Västerås;Företagare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;19;J;J;I;J;42;Johan Henriksson;23;M;Västerås;Studerande;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;20;J;J;I;J;225;Patrik Bruksgård;53;M;Västerås;Företagare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;21;J;J;I;J;226;Carl-Johan Aberger;43;M;Västerås;IT-Arkitekt;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;22;J;J;I;J;167;Mohammed Rashid;57;M;Västerås;Projektledare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;23;J;J;I;J;228;Carl-Henrik Knutsson;65;M;Västerås;Civilingenjör;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;24;J;J;I;J;229;Karolina Kling;34;K;Västerås;Ekonom;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;25;J;J;I;J;62;Jonas Larsson;30;M;Västerås;Civilingenjör;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;26;J;J;I;J;231;Jan Plewako;69;M;Västerås;Företagare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;27;J;J;I;J;154;Silvana Enelo-Jansson;66;K;Västerås;F.d. Skolchef;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;28;J;J;I;J;233;Inga Bröms;74;K;Västerås;Pensionär;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;29;J;J;I;J;234;Olle Bröms;73;M;Västerås;F.d Kriminalinspektör;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;30;J;J;I;J;235;Catharina Piper;75;K;Västerås;Pensionär;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;31;J;J;I;J;164;Thomas Frisk;52;M;Västerås;CEO;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;32;J;J;I;J;237;Marianne Ohlsson;52;K;Västerås;Affärsutvecklare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;33;J;J;I;J;238;Linnea Ytterstene;19;K;Västerås;Studerande;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;34;J;J;I;J;239;Benny Barrö;62;M;Västerås;Platschef;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;35;J;J;I;J;160;Anna Gardeblad;50;K;Västerås;Undersköterska;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;36;J;J;I;J;241;Rolf Falkland;84;M;Västerås;Pensionär;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;37;J;J;I;J;242;Anders Wallquist;77;M;Västerås;Bergsingenjör;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;38;J;J;I;J;171;Victor Nilsson;18;M;Västerås;Studerande;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;39;J;J;I;J;244;Eva Kugelberg;69;K;Västerås;Ledarutvecklare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;40;J;J;I;J;49;Jan G Fäger;65;M;Västerås;Civilingenjör;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;41;J;J;I;J;172;Leif Ringström;74;M;Västerås;Pensionär;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;42;J;J;I;J;46;Stefan Oszák Bengtsson;51;M;Västerås;Gymnasielärare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;43;J;J;I;J;56;Solveig Nygren;58;K;Västerås;Lärare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;44;J;J;I;N;50;[inte lämnat förklaring];;;;;347000;;N
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;45;J;J;I;J;249;Lennart Åhl;61;M;Västerås;Advokat;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;46;J;J;I;J;180;Anders Olsson;47;M;Västerås;Civilingenjör;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;47;J;J;I;J;163;Veronica Samuelsson;29;K;Västerås;Studerande;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;48;J;J;I;J;60;Magnus Edman;57;M;Västerås;Affärsutvecklare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;49;J;J;I;J;177;Johan Eriksson;49;M;Västerås;E-handelsansvarig;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;50;J;J;I;J;184;Tomas Hedlund;47;M;Västerås;Undersköterska;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;51;J;J;I;J;187;Henrik Calander;39;M;Västerås;Civilingenjör;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;52;J;J;I;J;185;Cassandra Romo;22;K;Västerås;Studerande;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;53;J;J;I;J;183;Frank Pettersson;64;M;Västerås;Affärsutvecklare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;54;J;J;I;J;64;Stefano Suvero;75;M;Västerås;Projektkonsult;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;55;J;J;I;J;259;Michael Wikström;53;M;Västerås;Fastighetsskötare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;56;J;J;I;J;260;Jan-Erik Jansson;67;M;Västerås;F.d. Arbetsmarknadskonsulent;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;57;J;J;I;J;186;Emil Ytter;30;M;Västerås;Handläggare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;58;J;J;I;J;262;Fredrik Dalmo;35;M;Västerås;Applications Manager;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;59;J;J;I;J;150;Anna Nygren;48;K;Västerås;Sjuksköterska;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;60;J;J;I;J;265;Christian Pettersson;29;M;Västerås;Regionchef;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;61;J;J;I;J;266;Peder Danielsson;52;M;Västerås;Byggprojektledare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;62;J;J;I;J;18890;Sofia Abrahamsson;33;K;Västerås;Inköpschef;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;63;J;J;I;J;9976;Anders Måwe;42;M;Västerås;Aktivitetshandledare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;64;J;J;I;J;9977;Maria Ringström;48;K;Västerås;Destinationsstrateg;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;65;J;J;I;J;9978;Yin Zhan;38;K;Västerås;Försäljningschef;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;66;J;J;I;J;9979;Robert Österlind;56;M;Västerås;Journalist;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;67;J;J;I;J;19893;Edward Barnelius;42;M;Västerås;Företagare;347000;;J
+K;1980;Västerås;00;Västerås;Moderaterna;M;1;S;11762;68;J;J;I;J;159;Asta Matikainen Lecklin;67;K;Västerås;Prost;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;1;J;J;I;J;76163;Ann-Christine From Utterstedt;45;K;Västerås;oppositionsråd, 45 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;2;J;J;I;J;76164;Emil Thessén;24;M;Västerås;statsvetare, 24 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;3;J;J;I;J;76165;Patric Sjölund;49;M;Västerås;undersköterska, 49 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;4;J;J;I;J;76166;Anna Svensson;63;K;Västerås;pensionär, 63 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;5;J;J;I;J;76167;Jan Johansson;49;M;Västerås;motorbyggare/robotprovare, 49 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;6;J;J;I;J;76168;Kenneth Nilsson;69;M;Västerås;pensionerad egenföretagare, 69 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;7;J;J;I;J;76169;Janeth Persson;44;K;Västerås;HR-administratör, 44 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;8;J;J;I;J;76170;Erik Johansson;38;M;Västerås;trafikinspektör, 38 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;9;J;J;I;J;76171;Jerry Hagberg;49;M;Västerås;elevresurs/musiklärare, 49 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;10;J;J;I;J;76172;Ewa Halvarsson;42;K;Västerås;redovisningsekonom, 41 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;11;J;J;I;J;76173;Daniel Sjölund Jonsson;24;M;Hallstahammar;arbetare, 24 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;12;J;J;I;J;76174;Alexander Savander;37;M;Västerås;undersköterska, 37 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;13;J;J;I;J;76175;Lars Nord;72;M;Västerås;pensionär, 72 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;14;J;J;I;J;76176;Jens-Ove Johansson;59;M;Västerås;egenföretagare, 59 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;15;J;J;I;J;76177;Tomas Söhr;51;M;Västerås;småföretagare, 51 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;16;J;J;I;J;76178;Stefan Handing;74;M;Västerås;ingenjör, 75 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;17;J;J;I;J;76179;Håkan Gunstedt;55;M;Västerås;egenföretagare/konsult, 54 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;18;J;J;I;J;76180;Nadja Axling;29;K;Västerås;områdeschef, 30 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;19;J;J;I;J;76181;Tobias Utterstedt;45;M;Västerås;politisk sekreterare, 45 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;20;J;J;I;J;76182;Nan Rummelhoff;63;K;Västerås;konstnär, 63 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;21;J;J;I;J;76183;Magnus Jesperson;60;M;Västerås;bergsinjenjör, 60 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;22;J;J;I;J;76185;Nils-Petter Sjögren;51;M;Västerås;livförsäkringskonsult, 51 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;23;J;J;I;J;76186;Robert Holmberg;47;M;Västerås;truckförare, 47 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;24;J;J;I;J;76187;Per Blomström;54;M;Västerås;chaufför, 54 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;25;J;J;I;J;76188;Göran Svensson;61;M;Västerås;servicetekniker, 61 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;26;J;J;I;J;76189;Roger Larsson;53;M;Västerås;egenföretagare/lastbilschaufför, 54 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;27;J;J;I;J;76190;Göran Sjödahl;59;M;Västerås;pensionär, 59 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;28;J;J;I;J;76191;Jimmy Gunstedt;25;M;Västerås;VVS-montör, 25 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;29;J;J;I;J;76192;Thomas Stridsman;55;M;Västerås;fondförvaltare, 55 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;30;J;J;I;J;76193;Sven Jonsson;57;M;Västerås;maskinist, 57 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;31;J;J;I;J;76194;Tommi Vartianinen;34;M;Västerås;industriarbetare, 34 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;32;J;J;I;J;76195;Ann-Sofie Karlström;41;K;Västerås;verksamhetssekreterare, 40 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;33;J;J;I;J;76196;Peter Andersson;69;M;Västerås;pensionär, 69 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;34;J;J;I;J;76197;Lars Sundqvist;70;M;Västerås;pensionär, 70 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;35;J;J;I;J;76198;Camilla Olsson;48;K;Västerås;trafiklärare, 48 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;36;J;J;I;J;76199;Bo Karlsson;74;M;Västerås;pensionär, 73 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;37;J;J;I;J;76200;Kjell Gyllsten;63;M;Västerås;egenföretagare, 63 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;38;J;J;I;J;76201;Roland Källström;66;M;Västerås;arbetsledare, 65 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;39;J;J;I;J;76202;Alexander Löfberg;40;M;Västerås;barnskötare, 40 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;S;13334;40;J;J;I;J;76203;Rafeek Raouf;57;M;Västerås;tolk, 57 år;347000;;J
+K;1980;Västerås;00;Västerås;Sverigedemokraterna;SD;110;;;;J;J;I;N;515995;[inte lämnat förklaring];;;;;0;;N
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;1;J;J;I;J;16583;Anna Maria Romlid;36;K;Västerås;35, oppositionsråd;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;2;J;J;I;J;179418;Lars Nordin;67;M;Västerås;67, pensionerad rektor;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;3;J;J;I;J;16574;Hawar Asaiesh;32;K;Västerås;32, folkhögskollärare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;4;J;J;I;J;16595;Olle Kvarnryd;40;M;Västerås;40, lärare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;5;J;J;I;J;16581;Vicktoria Bagi;46;K;Västerås;47, kommunikatör;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;6;J;J;I;J;16582;Shiar Mala Said;26;M;Västerås;26, montör;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;7;J;J;I;J;179423;Gabriella Howlden;46;K;Västerås;46, behandlare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;8;J;J;I;J;179422;Harri Åman;50;M;Västerås;50, logistiker;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;9;J;J;I;J;179425;Marie Wiberg;43;K;Västerås;43, undersköterska;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;10;J;J;I;J;16575;Fredrik Stockhaus;44;M;Västerås;43, folkhögskollärare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;11;J;J;I;J;16739;Maja Garpelin;36;K;Västerås;36, sjukgymnast;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;12;J;J;I;J;57959;Leonardo Becerra;56;M;Västerås;55, ingenjör/lärare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;13;J;J;I;J;57960;Dagmar Mardi;63;K;Västerås;62, socionom;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;14;J;J;I;J;16593;Lars Lithammer;61;M;Västerås;61, specialpedagog;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;15;J;J;I;J;57962;Nidia Åman;54;K;Västerås;54, undersköterska;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;16;J;J;I;J;16768;Billy Tungren;70;M;Västerås;70, f d socialsekreterare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;17;J;J;I;J;359248;Anne Hübinette;60;K;Västerås;60, gymnasielärare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;18;J;J;I;J;57963;Mats Ericsson;66;M;Västerås;66, f d kommunalråd;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;19;J;J;I;J;57964;Agneta Hermansson;61;K;Västerås;61, lärare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;20;J;J;I;J;57965;Charles Metzma;28;M;Västerås;28, civilsamhällesguru;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;21;J;J;I;J;16743;Sofia Telfer;53;K;Västerås;52, administrativ sekreterare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;22;J;J;I;J;57967;Erik Hals;37;M;Västerås;37, gymnasielärare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;23;J;J;I;J;182967;Jonna Granberg Schmidt;36;K;Västerås;36, medicinsk sekreterare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;24;J;J;I;J;182968;Emeli Lanninge;32;K;Västerås;32, socialsekreterare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;25;J;J;I;J;16589;Per Lithammer;58;M;Västerås;58, tjänsteman;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;26;J;J;I;J;57969;Kerstin Ånevall Lind;68;K;Västerås;68, socionom;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;27;J;J;I;J;57970;Göran Welin;68;M;Västerås;68, pensionerad rektor;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;28;J;J;I;J;16598;Malin Larsson;30;K;Västerås;30, studerande;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;29;J;J;I;J;57972;Rickard Borg;47;M;Västerås;47, sotare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;30;J;J;I;J;57973;Celmira Romero;55;K;Västerås;54, socialarbetare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;31;J;J;I;J;16586;Niklas Strand;41;M;Västerås;40, väktare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;32;J;J;I;J;16570;Vasiliki Tsouplaki;38;K;Västerås;38, riksdagsledamot;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;33;J;J;I;J;16770;Sebastian Housset;34;M;Västerås;35, lärare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;34;J;J;I;J;16579;Linn Wegemo;33;K;Västerås;33, lagerarbetare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;35;J;J;I;J;16591;Pär Lanninge;39;M;Västerås;39, ombudsman;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;36;J;J;I;J;57980;Anders Forsell;61;M;Västerås;61, blombud;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;37;J;J;I;J;57981;Helena Gustafsson;69;K;Västerås;68, leg psykolog;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;38;J;J;I;J;179453;Maria Nordin;65;K;Västerås;65, lärare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;39;J;J;I;J;16732;Hans Jansson;60;M;Västerås;60, regionråd;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;40;J;J;I;J;16733;Heidi-Maria Wallinder;43;K;Västerås;43, politisk sekreterare;347000;;J
+K;1980;Västerås;00;Västerås;Vänsterpartiet;V;5;S;12557;41;J;J;I;J;16594;Siw Sundberg;63;K;Västerås;63, vårdlärare;347000;;J

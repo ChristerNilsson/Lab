@@ -1,0 +1,227 @@
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;1;J;J;I;J;41688;Johan Ask;40;M;Skövde;40 år, Stöpen;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;2;J;J;I;J;41689;Maria Hjärtqvist;43;K;Skövde;43 år, Värsås;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;3;J;J;I;J;41690;Robert Ciabatti;62;M;Skövde;62 år, Hentorp;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;4;J;J;I;J;41691;Monica Green;58;K;Skövde;58 år, Östermalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;5;J;J;I;J;41692;Jörgen Frödelius;61;M;Skövde;61 år, Lerdala;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;6;J;J;I;J;41693;Per Johansson;60;M;Skövde;60 år, Östermalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;7;J;J;I;J;41694;Malin Wadman;47;K;Skövde;47 år, Igelstorp;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;8;J;J;I;J;41695;Linus Sjöholm;33;M;Skövde;33 år, Östermalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;9;J;J;I;J;41696;Anita Löfgren;65;K;Skövde;65 år, Trädgårdsstaden;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;10;J;J;I;J;41697;Bjarne Medin;65;M;Skövde;65 år, Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;11;J;J;I;J;41812;Margaretha Åslund;66;K;Skövde;66 år, Ekängen;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;12;J;J;I;J;41698;Anders Grönvall;52;M;Skövde;52 år, Östermalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;13;J;J;I;J;41699;Eva Larsson;66;K;Skövde;66 år, Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;14;J;J;I;J;41700;Per-Erik Gustafsson;73;M;Skövde;73 år, Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;15;J;J;I;J;41701;Carina Pettersson;58;K;Skövde;58 år, Norrmalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;16;J;J;I;J;41702;Mikael Karlsson;53;M;Skövde;53 år, Götlunda;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;17;J;J;I;J;41703;Elin Hjärtqvist;18;K;Skövde;18 år, Värsås;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;18;J;J;I;J;41704;Kayda Lazar;34;M;Skövde;34 år, Vasastan;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;19;J;J;I;J;41705;Ida Eliasson;31;K;Skövde;31 år, Säter;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;20;J;J;I;J;41706;Joakim Nord;41;M;Skövde;41 år, Hentorp;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;21;J;J;I;J;41707;Emelie Wärn;32;K;Skövde;32 år, Norrmalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;22;J;J;I;J;41708;Sean Lager;25;M;Skövde;25 år, Norrmlam;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;23;J;J;I;J;41709;Emma Lundin;37;K;Skövde;37 år, Lerdala;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;24;J;J;I;J;41710;Göran Bergman;62;M;Skövde;62 år, Östermalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;25;J;J;I;J;41711;Felicia Lager;20;K;Skövde;20 år, Norrmalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;26;J;J;I;J;41712;Alf Norberg;68;M;Skövde;68 år, Ulveket;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;27;J;J;I;J;41713;Camilla Lindborg;40;K;Skövde;40 år, Igelstorp;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;28;J;J;I;J;41714;Tord Lindqvist;61;M;Skövde;61 år, Simsjön;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;29;J;J;I;J;41715;Inga Törmänen;54;K;Skövde;54 år, Centrum;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;30;J;J;I;J;41716;Sandra Ask;38;K;Skövde;38 år, Stöpen;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;31;J;J;I;J;41717;Kennet Eriksson;65;M;Skövde;65 år, Dälderna;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;32;J;J;I;J;41718;Margareta Lindh;67;K;Skövde;67 år, Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;33;J;J;I;J;41719;Thommy Johansson;61;M;Skövde;61 år, Norrmalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;34;J;J;I;J;41720;Maria Renner;28;K;Skövde;28 år, Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;35;J;J;I;J;41721;Mikael Rask;30;M;Skövde;31 år, Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;36;J;J;I;J;41722;Annica Falck;60;K;Skövde;60 år, Värsås;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;37;J;J;I;J;41723;Lars Larsson;69;M;Skövde;69 år, Östermalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;38;J;J;I;J;41724;Inger Gustafsson;69;K;Skövde;69 år, Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;39;J;J;I;J;41725;Ramin Rustami;50;M;Skövde;50 år, Trädgårdsstaden;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;40;J;J;I;J;41726;Ingela Mikanovic;48;K;Skövde;48 år, Frösve;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;41;J;J;I;J;41727;Björn Mikkelsen;46;M;Skövde;46 år, Väring;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;42;J;J;I;J;41728;Pia Lager;52;K;Skövde;52 år, Norrmalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;43;J;J;I;J;41729;Lars Gustavsson;41;M;Skövde;41 år, Centrum;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;44;J;J;I;J;41730;Dorota Johansson;63;K;Skövde;63 år, Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;45;J;J;I;J;41731;Christer Rönn;64;M;Skövde;64 år, Ekängen;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;46;J;J;I;J;41732;Asima Pasalic;66;K;Skövde;66 år, Östermalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;47;J;J;I;J;41733;Harry Svensson;66;M;Skövde;66 år, Norrmalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;48;J;J;I;J;41734;Pernilla Enarsson;47;K;Skövde;47 år, Norrmalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;49;J;J;I;J;41735;Anders Wiberg;49;M;Skövde;48 år, Havstena;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;50;J;J;I;J;41736;Kajsa-Liza Axdorff;37;K;Skövde;37 år, Berget;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;51;J;J;I;J;41737;Jonny Alfredsson;52;M;Skövde;52 år, Locketorp;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;52;J;J;I;J;41738;Emma Ohlson;34;K;Skövde;34 år, Hentorp;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;53;J;J;I;J;41739;Pontus Lundin;47;M;Skövde;47 år, Centrum;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;54;J;J;I;J;41740;Emma Andersson;31;K;Skövde;31 år, Norrmalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;55;J;J;I;J;41741;Linda Henricsson;48;K;Skövde;48 år, Norrmalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;56;J;J;I;J;41742;Lars-Erik Lindh;72;M;Skövde;72 år, Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;57;J;J;I;J;41743;Anita Andersson;75;K;Skövde;75 år, Östermalm;130000;;J
+K;1496;Skövde;00;Skövde;Arbetarepartiet-Socialdemokraterna;S;2;S;12355;58;J;J;I;J;41744;Rickard Birath;66;M;Skövde;66 år, Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;1;J;J;I;J;3241;Ulrica Johansson;46;K;Skövde;Kommunalråd, Skövde, 46 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;2;J;J;I;J;3196;Ulrika Carlsson;53;K;Skövde;Riksdagsledamot/Lärare, Vreten, 53 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;3;J;J;I;J;32604;Klas Hedenberg;50;M;Skövde;Universitetsadjunkt, Skövde, 50 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;4;J;J;I;J;32605;Gunvor Kvick;64;K;Skövde;Undersköterska, Varola, 64 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;5;J;J;I;J;32606;Orvar Eriksson;68;M;Skövde;Ingenjör, Väring, 68 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;6;J;J;I;J;32607;Börje Johansson;63;M;Skövde;Fd officer, Skövde, 63 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;7;J;J;I;J;32608;Andreas Gustafsson;34;M;Skövde;IT-företagare, Skövde, 34 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;8;J;J;I;J;32610;Shorik Adam;41;K;Skövde;Projektledare, Skövde, 41 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;9;J;J;I;J;32609;Andreas Svensson;28;M;Skövde;Ingenjör, Skövde, 28 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;10;J;J;I;J;3227;Åsa Axelsson;47;K;Skövde;Projektledare, Skövde, 47 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;11;J;J;I;J;32612;Fredrik Andersson;48;M;Skövde;Egenföretagare, Värsås, 48 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;12;J;J;I;J;32613;Emilia Uvesten Gustafsson;45;K;Skövde;Samtalsterapeut, Skövde, 45 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;13;J;J;I;J;32614;Therese Qwarfordt;40;K;Skövde;Elevcoach, Häggum, 40 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;14;J;J;I;J;32615;Rune Kjernald;78;M;Skövde;Fd Primärvårdschef, Skövde, 78 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;15;J;J;I;J;32616;Birgitta Johansson;72;K;Skövde;Gymnasielärare, Skövde, 72 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;16;J;J;I;J;3254;Tommy Westerberg;66;M;Skövde;Ingenjör, Skultorp, 66 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;17;J;J;I;J;32618;Kimberly Freiman;35;K;Skövde;Redovisningsekonom, Sventorp, 35 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;18;J;J;I;J;32619;Anders Nordström;52;M;Skövde;Skolledare, Tidan, 52 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;19;J;J;I;J;32620;Jonny Nicklasson;54;M;Skövde;Landsbygdsföretagare, Lerdala, 54 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;20;J;J;I;J;32621;Göran Torstensson;69;M;Skövde;Lantbrukare, Tidan, 69 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;21;J;J;I;J;32622;Christina Nilsson;62;K;Skövde;Samordnare, Tidan, 62 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;22;J;J;I;J;32623;Malte Svensson;58;M;Skövde;Enhetschef, Skövde, 58 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;23;J;J;I;J;32624;Lena Andersson;65;K;Skövde;Undersköterska, Tidan, 65 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;24;J;J;I;J;32625;Gösta Kvick;66;M;Skövde;Lantbrukare, Varola, 66 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;25;J;J;I;J;32626;Stefan Svensson;59;M;Skövde;Gymnasielärare, Skövde, 59 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;26;J;J;I;J;32627;Lollo Persson;53;K;Skövde;Verksamhetsledare, Böja, 53 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;27;J;J;I;J;32628;Kent Wäring;65;M;Skövde;Fd Butikschef, Tidan, 65 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;28;J;J;I;J;32629;Karin Torstensson;50;K;Skövde;Hudterapeut, Skövde, 50 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;29;J;J;I;J;32630;Patrick Fredriksson;48;M;Skövde;Ingenjör, Lerdala, 48 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;30;J;J;I;J;32631;Brtih Mari Johansson;64;K;Skövde;Handläggare, Skövde, 64 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;31;J;J;I;J;32632;Anders Assarsson;52;M;Skövde;Yrkeslärare, Väring, 52 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;32;J;J;I;J;32633;Göran Johansson;63;M;Skövde;Lantbrukare, Värsås, 63 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;33;J;J;I;J;32634;Lars Ahlstrand;68;M;Skövde;Lantbrukare, Frösve, 68 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;34;J;J;I;J;32635;Mats Eliasson;58;M;Skövde;Handläggare, Skövde, 58 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;35;J;J;I;J;32636;Leif Karlsson;69;M;Skövde;Ekonom, Skövde, 69 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;36;J;J;I;J;32637;Bengt Olsson;69;M;Skövde;Lantbrukare, Sventorp, 69 år;130000;;J
+K;1496;Skövde;00;Skövde;Centerpartiet;C;4;S;12218;37;J;J;I;J;32638;Titti Walterum;43;K;Skövde;Regionutvecklare, Forsby, 43 år;130000;;J
+K;1496;Skövde;00;Skövde;Feministiskt initiativ;FI;532;S;13006;1;J;J;I;J;96669;Hilda Rolfsdotter;40;K;Skövde;40 år Jämställdhetsutvecklare;15000;;J
+K;1496;Skövde;00;Skövde;Feministiskt initiativ;FI;532;S;13006;2;J;J;I;J;96670;Moa Mannesson;28;K;Skövde;28 år Studie- och yrkesvägledare;15000;;J
+K;1496;Skövde;00;Skövde;Feministiskt initiativ;FI;532;S;13006;3;J;J;I;J;96671;Kjell Ambertson;70;M;Skövde;70 år Pensionär;15000;;J
+K;1496;Skövde;00;Skövde;Feministiskt initiativ;FI;532;S;13006;4;J;J;I;J;96672;Béatrice Tamm;27;K;Skövde;27 år Vårdbiträde/student;15000;;J
+K;1496;Skövde;00;Skövde;Feministiskt initiativ;FI;532;S;13006;5;J;J;I;J;96673;Sara Lund;39;K;Skövde;39 år Förskollärare;15000;;J
+K;1496;Skövde;00;Skövde;Feministiskt initiativ;FI;532;S;13006;6;J;J;I;J;96674;Agnes Nelsson;68;K;Skövde;68 år Pensionär/socionom;15000;;J
+K;1496;Skövde;00;Skövde;Feministiskt initiativ;FI;532;S;13006;7;J;J;I;J;96675;Maria Viklund;49;K;Skövde;49 år Beteendevetare/skolkurator;15000;;J
+K;1496;Skövde;00;Skövde;Feministiskt initiativ;FI;532;S;13006;8;J;J;I;J;96676;Caroline Lennemar;31;K;Skövde;32 år Kompetensförsörjningsstrateg;15000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;1;J;J;I;J;274617;Marianne Gustafson;57;K;Skövde;56, Sjuksköterska, Vasastan;112000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;2;J;J;I;J;198321;Conny Brännberg;62;M;Skövde;62, Kommunfullmäktiges ordf, Södra Ryd;112000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;3;J;J;I;J;279683;Isabelle Waldenvik;27;K;Skövde;26, Integrationsstrateg, Norrmalm;112000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;4;J;J;I;J;274618;Göte Carling;74;M;Skövde;74, Pensionär, Timmersdala;112000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;5;J;J;I;J;274613;Mona Johansson;67;K;Skövde;67, Fd vårdlärare, Billingen;112000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;6;J;J;I;J;280383;Emad Hanna;52;M;Skövde;52, Tolk, Södra Ryd;112000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;7;J;J;I;J;280384;Nouhad Runesson;50;K;Skövde;49, Rådgivare, Billingen;112000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;8;J;J;I;J;280385;Per-Agne Rytter;59;M;Skövde;59, Sporthandlare, Igelstorp;112000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;9;J;J;I;J;280386;Ghoson Sawa;37;K;Skövde;37, Samordnare, Skövde;112000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;10;J;J;I;J;280387;Björn Carlsson;77;M;Skövde;77, Pensionär, Vadden;112000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;11;J;J;I;J;280388;Lennart Lindbäck;66;M;Skövde;66, Fd tågmästare, Billingen;112000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;12;J;J;I;J;280389;Stefan Hallström;69;M;Skövde;69, Pensionär, Norrmalm;112000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;13;J;J;I;J;279702;William Kajo;23;M;Skövde;23, Student fastighetsvet., Södra Ryd;112000;;J
+K;1496;Skövde;00;Skövde;Kristdemokraterna;KD;68;S;14501;14;J;J;I;J;280391;Toni Abi-Khalil;63;M;Skövde;63, Företagsrådgivare, Hentorp;112000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;1;J;J;I;J;22350;Ulla-Britt Hagström;73;K;Skövde;Kommun- och Regionpolitiker Lunden;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;2;J;J;I;J;22351;Petter Fahlström;28;M;Skövde;Kriminalvårdare Käpplunda;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;3;J;J;I;J;22352;Jacqueline Tjällman;52;K;Skövde;Förskol- och resurslärare Östermalm;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;4;J;J;I;J;22353;Christer Winbäck;64;M;Skövde;f.d.Riksdagsledamot Billingsluttningen;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;5;J;J;I;J;22354;Louise Clausen;60;K;Uppsala;Kommunikatör S Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;6;J;J;I;J;22355;Kaj-Eve Enroth;75;M;Skövde;f.d. Överstelöjtnant Östermalm;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;7;J;J;I;J;22356;Elin Elfverson;42;K;Skövde;Kursadministratör Centrum;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;8;J;J;I;J;22357;Johan Ekström;75;M;Skövde;f.d. Kommunalråd Vasastaden;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;9;J;J;I;J;27989;Elisabet Fläring;64;K;Skövde;Legitimerad Lärare Hentorp;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;10;J;J;I;J;22358;Björn Spetz;73;M;Skövde;Pensionär S Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;11;J;J;I;J;22359;Viola Lindén;75;K;Skövde;f.d. Sjuksköterska/Vårdlärare Norrmalm;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;12;J;J;I;J;22360;Birgitta Lövgren;43;K;Skövde;Undersköterska S Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;13;J;J;I;J;22361;Hans Clausen;67;M;Uppsala;Fotograf S Ryd;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;14;J;J;I;J;22362;Anders Edeskär-Wennberg;62;M;Skövde;Tekniker Billingsluttningen;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;15;J;J;I;J;22363;Stig Larsson;85;M;Skövde;Ingenjör Dälderna;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;16;J;J;I;J;22364;Lars Wallberg;58;M;Skövde;Konsult Simsjön;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;17;J;J;I;J;22365;Marie Larsson;80;K;Skövde;f.d. Ekonom Dälderna;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;18;J;J;I;J;22366;Kay Henningsson;40;M;Skövde;Officer Skultorp;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;19;J;J;I;J;22368;Vanja Ekström;79;K;Skövde;Pensionär Vasastaden;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;20;J;J;I;J;22369;Ann Krantz;56;K;Skövde;Bitr.Butikschef Gengåvan Norrmalm;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;21;J;J;I;J;22370;Lars Lundgren;57;M;Skövde;Universitetsstuderande, Direktör Lerdala;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;22;J;J;I;J;22371;Margareta Elfverson;67;K;Skövde;Sjuksköterska Timmersdala;130000;;J
+K;1496;Skövde;00;Skövde;Liberalerna (tidigare Folkpartiet);L;3;S;12051;23;J;J;I;J;22372;Elisabeth Enroth;39;K;Skövde;Sjuksköterska Norrmalm;130000;;J
+K;1496;Skövde;00;Skövde;Medborgerlig Samling;MED;1296;S;14361;1;J;J;I;J;128543;Leif Svensson;63;M;Skövde;63 civilingenjör Skövde;6000;;J
+K;1496;Skövde;00;Skövde;Medborgerlig Samling;MED;1296;S;14361;2;J;J;I;J;260125;Michael Dahlqvist;31;M;Skövde;31 arbetsledare Skövde;6000;;J
+K;1496;Skövde;00;Skövde;Miljöpartiet de gröna;MP;55;S;13435;1;J;J;I;J;66253;Janette Leinonen;48;K;Skövde;48 år, Automationsingenjör;84000;;J
+K;1496;Skövde;00;Skövde;Miljöpartiet de gröna;MP;55;S;13435;2;J;J;I;J;66233;Peter Sögaard;59;M;Skövde;59 år, M.dr.;84000;;J
+K;1496;Skövde;00;Skövde;Miljöpartiet de gröna;MP;55;S;13435;3;J;J;I;J;66245;Emil Forslund;25;M;Skövde;25 år, Systemutvecklare, Skövde;84000;;J
+K;1496;Skövde;00;Skövde;Miljöpartiet de gröna;MP;55;S;13435;4;J;J;I;J;66242;Maj-Lis Lindholm;53;K;Skövde;53 år, Universitetsadjunkt, Värsås;84000;;J
+K;1496;Skövde;00;Skövde;Miljöpartiet de gröna;MP;55;S;13435;5;J;J;I;J;77412;Johan Örnemar;47;M;Skövde;47 år, Organisationsutvecklare, Skövde;84000;;J
+K;1496;Skövde;00;Skövde;Miljöpartiet de gröna;MP;55;S;13435;6;J;J;I;J;66251;Elisabet Brunnegård;39;K;Skövde;39 år, Socionom och Lärare, Skövde;84000;;J
+K;1496;Skövde;00;Skövde;Miljöpartiet de gröna;MP;55;S;13435;7;J;J;I;J;149837;Mikael Franzèn;56;M;Skövde;56 år, Systemutvecklare, Lunden;84000;;J
+K;1496;Skövde;00;Skövde;Miljöpartiet de gröna;MP;55;S;13435;8;J;J;I;J;149838;Marie-Louise Karlberg;74;K;Skövde;74 år, Bibliotekarie;84000;;J
+K;1496;Skövde;00;Skövde;Miljöpartiet de gröna;MP;55;S;13435;9;J;J;I;J;66258;Eva-Lill Nilsson;61;K;Skövde;62 år, Gymnasielärare, Vreten;84000;;J
+K;1496;Skövde;00;Skövde;Miljöpartiet de gröna;MP;55;S;13435;10;J;J;I;J;149840;Börje Johansson;77;M;Skövde;77 år, Folkbildare, Pensionär, Väring;84000;;J
+K;1496;Skövde;00;Skövde;Miljöpartiet de gröna;MP;55;S;13435;11;J;J;I;J;66246;Amanda Nordell;34;K;Skövde;34 år, Ekolog;84000;;J
+K;1496;Skövde;00;Skövde;Miljöpartiet de gröna;MP;55;S;13435;12;J;J;I;J;252055;Roger Almgren;52;M;Skövde;52 år, Räddningschef;84000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;1;J;J;I;J;253986;Katarina Jonsson;53;K;Skövde;53, Kommunalråd, Timmersdala;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;2;J;J;I;J;253975;Anders G Johansson;46;M;Skövde;46, Officer, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;3;J;J;I;J;254325;Theres Sahlström;43;K;Skövde;43, Leg. Fysioterapeut, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;4;J;J;I;J;256572;Magnus Hammar;38;M;Skövde;38, Verksamhetsansvarig, Skultorp;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;5;J;J;I;J;254001;Torbjörn Bergman;44;M;Skövde;44, Lantbrukare, Säter;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;6;J;J;I;J;256574;Anna Bergman;41;K;Skövde;41, Lärare, Säter;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;7;J;J;I;J;253996;Martin Odenö;46;M;Skövde;46, Senior analytiker, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;8;J;J;I;J;254364;Marie Guhrén;64;K;Skövde;64, Upphandlare, Skultorp;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;9;J;J;I;J;256577;Claës Beckman;72;M;Skövde;72, Pensionär, Stöpen;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;10;J;J;I;J;256578;Gunilla K Löfvenborg;54;K;Skövde;54, Egen företagare, Klåvasten;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;11;J;J;I;J;254362;Rohland Peterson;76;M;Skövde;76, F.d. överstelöjtnant, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;12;J;J;I;J;256580;Anna Ljungberg;46;K;Skövde;46, Lärare, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;13;J;J;I;J;254350;Bernt Mårtensson;60;M;Skövde;60, Verkställande direktör, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;14;J;J;I;J;254009;Michael Nimstad;57;M;Skövde;57, Konsult, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;15;J;J;I;J;256583;Philip Segell;70;M;Skövde;70, F.d. överstelöjtnant, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;16;J;J;I;J;256584;Lars Ove Källman;69;M;Skövde;69, Herr, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;17;J;J;I;J;256585;Ingrid Bäfman;69;K;Skövde;69, F.d. socialchef, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;18;J;J;I;J;254357;Clary Starck;52;K;Skövde;52, Äldreomsorgschef, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;19;J;J;I;J;256587;John Khalaf;59;M;Skövde;59, Egenföretagare, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;20;J;J;I;J;256588;Erik Boström;50;M;Skövde;50, Informatör, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;21;J;J;I;J;254007;Pär Bönnestig;48;M;Skövde;48, Ekonomie Magister, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;22;J;J;I;J;256590;Eva Wärnå;49;K;Skövde;49, Processledare inköp, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;23;J;J;I;J;256591;Timothy Walsh;41;M;Skövde;41, Officer, Skultorp;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;24;J;J;I;J;256592;Sven Sundberg;78;M;Skövde;78, Företagare, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;25;J;J;I;J;256593;Göran Hjert;52;M;Skövde;52, Officer, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;26;J;J;I;J;256594;Sven-Erik Söderlund;73;M;Skövde;73, Pensionerad förvaltningschef, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;27;J;J;I;J;256595;Per Tenning;68;M;Skövde;68, Civilekonom, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;28;J;J;I;J;254004;Sebastian Eriksson;37;M;Skövde;37, Officer, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;29;J;J;I;J;256597;Markus Wästefors;31;M;Skövde;31, Jurist, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;30;J;J;I;J;256598;Andreas Granander;41;M;Skövde;41, Industriarbetare, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;31;J;J;I;J;256599;Anders Karlsson;39;M;Skövde;39, Konsulent, Horn;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;32;J;J;I;J;256600;Nicklas Johansson;44;M;Skövde;44, Lärare, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;33;J;J;I;J;256601;Johan Fogelberg;56;M;Skövde;56, Egenföretagare, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;34;J;J;I;J;256603;Elin Broberg;31;K;Skövde;31, Leg. Tandhygienist , Timmersdala;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;35;J;J;I;J;256604;Karin Malmsten;54;K;Skövde;54, Officer, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;36;J;J;I;J;256605;Anders Löfvenborg;61;M;Skövde;61, Verkställande direktör, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;37;J;J;I;J;256606;Joseph Nasob Tamasang;38;M;Skövde;38, Ekonomichef, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;38;J;J;I;J;256607;Arne Lorentzon;65;M;Skövde;65, Styr Entreprenör, Skövde;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;39;J;J;I;J;256608;Leif Repo;57;M;Skövde;57, Group Logistics Manager, Timmersdala;130000;;J
+K;1496;Skövde;00;Skövde;Moderaterna;M;1;S;14340;40;J;J;I;J;256609;Lennart Bogren;59;M;Skövde;59, Lantbrukare, Timmersdala;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;1;J;J;I;J;247314;Josef Fransson;39;M;Skövde;39, Riksdagsledamot;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;2;J;J;I;J;126699;Tobias Andersson;22;M;Skövde;22, Ekonom;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;3;J;J;I;J;126702;Göran Segerstedt;64;M;Skövde;64, Tekniker;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;4;J;J;I;J;126683;Jonas Eriksson;35;M;Skövde;35, Civilekonom;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;5;J;J;I;J;247318;Maria Cidh Christensen;69;K;Skövde;69, Journalist/Pensionär;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;6;J;J;I;J;126681;Jerzy Kucier;52;M;Skövde;52, Yrkesofficer;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;7;J;J;I;J;247320;Mikael Clarke;29;M;Ulricehamn;29, Sergeant;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;8;J;J;I;J;126706;Hanna Vikström;25;K;Skövde;25, Yrkeschaufför;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;9;J;J;I;J;247322;Per Henrik Hallberg;30;M;Skövde;30, Fordonstekniker;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;10;J;J;I;J;126696;Alva Orrenvade;25;K;Skövde;25, Studerande;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;11;J;J;I;J;126686;Yvonne Eriksson Harlin;72;K;Skövde;71, Dep.Sekreterare/Pensionär;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;12;J;J;I;J;126704;David Sandberg;20;M;Skövde;20, Personlig assistent;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;13;J;J;I;J;247326;Kenneth Källström;58;M;Skövde;58, Yrkeschaufför;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;14;J;J;I;J;126680;Beatrice Orrenvade;61;K;Skövde;61, Leg sjuksköterska;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;15;J;J;I;J;126695;Anita Kucier;40;K;Skövde;40, Personlig assistent;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;16;J;J;I;J;247329;Lennart Nilsson;67;M;Skövde;68, Elingenjör/Pensionär;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;17;J;J;I;J;126720;Stefan Larsson;52;M;Skövde;52, CNC-operatör;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;18;J;J;I;J;247331;Lisbeth Åström;68;K;Skövde;68, Frisör/Pensionär;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;19;J;J;I;J;247332;Karin Sjölander;60;K;Skövde;60, Lokalvårdare;130000;;J
+K;1496;Skövde;00;Skövde;Sverigedemokraterna;SD;110;S;14212;20;J;J;I;J;247333;Christer Bratt;52;M;Skövde;52, Civilingenjör;130000;;J
+K;1496;Skövde;00;Skövde;Vänsterpartiet;V;5;S;12758;1;J;J;I;J;70592;Gabryjel Blom;34;M;Skövde;Industriarbetare;86000;;J
+K;1496;Skövde;00;Skövde;Vänsterpartiet;V;5;S;12758;2;J;J;I;J;70593;Dag Fredriksson;54;M;Skövde;Ekolog;86000;;J
+K;1496;Skövde;00;Skövde;Vänsterpartiet;V;5;S;12758;3;J;J;I;J;70594;Isabell Ankarström;52;K;Skövde;Lärare;86000;;J
+K;1496;Skövde;00;Skövde;Vänsterpartiet;V;5;S;12758;4;J;J;I;J;70595;Rickard Ornblad;26;M;Skövde;Elevassistent;86000;;J
+K;1496;Skövde;00;Skövde;Vänsterpartiet;V;5;S;12758;5;J;J;I;J;6165;Elizabeth Fierro Fredriksson;69;K;Skövde;Biolog;86000;;J
+K;1496;Skövde;00;Skövde;Vänsterpartiet;V;5;S;12758;6;J;J;I;J;6163;Carlos Bobadilla;55;M;Skövde;Lärare;86000;;J
+K;1496;Skövde;00;Skövde;Vänsterpartiet;V;5;S;12758;7;J;J;I;J;70598;Ida Gunnarsson;41;K;Skövde;Förskollärare;86000;;J
+K;1496;Skövde;00;Skövde;Vänsterpartiet;V;5;S;12758;8;J;J;I;J;70599;Mia Nortunen;29;K;Skövde;Förskollärare;86000;;J
+K;1496;Skövde;00;Skövde;Vänsterpartiet;V;5;S;12758;9;J;J;I;J;70600;Mats Kristiansson;55;M;Skövde;Språkvetare;86000;;J
+K;1496;Skövde;00;Skövde;Vänsterpartiet;V;5;S;12758;10;J;J;I;J;70601;Hayat Hanan;53;K;Skövde;Sjuksköterska;86000;;J
+K;1496;Skövde;00;Skövde;Vänsterpartiet;V;5;S;12758;11;J;J;I;J;70602;Erik Karlsson;69;M;Skövde;Pensionär;86000;;J
+K;1496;Skövde;00;Skövde;Vänsterpartiet;V;5;S;12758;12;J;J;I;J;70603;Alicia Ankarström;20;K;Skövde;Studerande;86000;;J
+K;1496;Skövde;00;Skövde;Vänsterpartiet;V;5;S;12758;13;J;J;I;J;82968;Marie Lindahl;36;K;Skövde;Kurator;86000;;J

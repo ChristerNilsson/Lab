@@ -52,7 +52,7 @@ var ANMDELTAGANDE,
     createSelectButtons,
     dictionary,
     draw,
-    getClowner,
+    getParameters,
     gruppera,
     kbuttons,
     kommunkod,
@@ -635,48 +635,28 @@ clickButton = function clickButton(button, partier) {
   return results;
 };
 
-getClowner = function getClowner(lines) {
-  // tag fram alla personer som representerar flera partier i samma valtyp
-  var cells, item, k, key, klr, knr, len, line, lista, partier, res;
-  res = [];
-  partier = {};
-  for (k = 0, len = lines.length; k < len; k++) {
-    line = lines[k];
-    cells = line.split(';');
-    knr = cells[KANDIDATNUMMER];
-    if (partier[knr] === void 0) {
-      partier[knr] = {};
-    }
-    partier[knr][cells[PARTIKOD]] = cells;
-  }
-  for (knr in partier) {
-    lista = partier[knr];
-    if (1 === _.size(lista)) {
-      continue;
-    }
-    klr = {
-      R: 0,
-      K: 0,
-      L: 0
-    };
-    for (key in lista) {
-      item = lista[key];
-      klr[item[VALTYP]]++;
-    }
-    if (klr.R > 1 || klr.K > 1 || klr.L > 1) {
-      res.push(knr);
-    }
-  }
-  print('Borttagna kandidater pga flera partier i samma valtyp: ', res);
-  return res;
-};
-
+// getClowner = (lines) -> # tag fram alla personer som representerar flera partier i samma valtyp
+// 	res = []
+// 	partier = {}
+// 	for line in lines 
+// 		cells = line.split ';'
+// 		knr = cells[KANDIDATNUMMER]
+// 		if partier[knr] == undefined then partier[knr] = {}
+// 		partier[knr][cells[PARTIKOD]] = cells
+// 	for knr,lista of partier
+// 		if 1 == _.size lista then continue
+// 		klr = {R:0,K:0,L:0}
+// 		for key,item of lista
+// 			klr[item[VALTYP]]++
+// 		if klr.R>1 or klr.K>1 or klr.L>1 then res.push knr
+// 	print 'Borttagna kandidater pga flera partier i samma valtyp: ',res
+// 	res
 readDatabase = function readDatabase() {
-  var arr, cells, clowner, k, key, knr, len, line, lines, namn, område, områdeskod, parti, partier, partikoder, results, valtyp;
+  var arr, cells, k, key, knr, len, line, lines, namn, område, områdeskod, parti, partier, partikoder, results, valtyp;
   partikoder = {};
   partier = {};
   lines = db.split('\n');
-  clowner = getClowner(lines);
+  //clowner = getClowner lines
   for (k = 0, len = lines.length; k < len; k++) {
     line = lines[k];
     cells = line.split(';');
@@ -688,9 +668,7 @@ readDatabase = function readDatabase() {
     knr = cells[KANDIDATNUMMER];
     namn = cells[NAMN];
     partikoder[cells[PARTIKOD]] = parti;
-    if (indexOf.call(clowner, knr) >= 0) {
-      continue;
-    }
+    //if knr in clowner then continue
     if (namn === void 0) {
       continue;
     }
@@ -735,13 +713,41 @@ readDatabase = function readDatabase() {
   return results;
 };
 
+getParameters = function getParameters() {
+  var h = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : window.location.href;
+
+  var arr, f;
+  h = decodeURI(h);
+  arr = h.split('?');
+  if (arr.length !== 2) {
+    return {};
+  }
+  if (arr[1] === '') {
+    return {};
+  }
+  return _.object(function () {
+    var k, len, ref, results;
+    ref = arr[1].split('&');
+    results = [];
+    for (k = 0, len = ref.length; k < len; k++) {
+      f = ref[k];
+      results.push(f.split('='));
+    }
+    return results;
+  }());
+};
+
 setup = function setup() {
   createCanvas(1400, 840);
   sc();
-  // från urlen:
-  kommunkod = '0180'; // Stockholm
-  //kommunkod = '1275' # Perstorp
-  //kommunkod = '1276' # Klippan
+
+  var _getParameters = getParameters();
+
+  kommunkod = _getParameters.kommunkod;
+
+  if (!kommunkod) {
+    kommunkod = '0180';
+  }
   länskod = kommunkod.slice(0, 2);
   readDatabase();
   print(tree);

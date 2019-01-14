@@ -1,0 +1,148 @@
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;1;J;J;I;J;24288;Ingela Stefansson;54;K;Båstad;Barnskötare, 54 år, Torekov;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;2;J;J;I;J;24289;Adem Qerimaj;57;M;Båstad;Modersmålslärare, 58 år, Förslöv;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;3;J;J;I;J;24290;Jessica Andersson;53;K;Båstad;Fastighetsskötare, 54 år, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;4;J;J;I;J;24291;Niclas Svanberg;53;M;Båstad;VVS-montör, 53 år, Förslöv;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;5;J;J;I;J;24292;Ingrid Zäther;49;K;Båstad;Integrationshandläggare, 49 år, Grevie;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;6;J;J;I;J;24293;Ingvar Bengtsson;68;M;Båstad;Pensionär, 69 år, Torekov;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;7;J;J;I;J;24294;Irene Ebbesson;74;K;Båstad;Sjuksköterska, 74 år, Förslöv;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;8;J;J;I;J;24295;Göran Klang;64;M;Båstad;Vårdare, 65 år, Förslöv;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;9;J;J;I;J;24296;Ann-Margret Kjellberg;72;K;Båstad;Socionom, 72 år, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;10;J;J;I;J;24297;Mikael Jalris;36;M;Båstad;Maskinoperatör, 37 år, Grevie;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;11;J;J;I;J;24298;Linda Smit;45;K;Båstad;Undersköterska, 46 år, Ramsjö;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;12;J;J;I;J;24299;Isuf Asani;57;M;Båstad;Chaufför, 57 år, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;13;J;J;I;J;24300;Ingrid Pihlsgård;57;K;Båstad;Undersköterska, 57 år, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;14;J;J;I;J;24301;Jack Burgos;19;M;Båstad;Studerande, 20 år, Slättaröd;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;15;J;J;I;J;24302;Jan Ekelund;86;M;Båstad;Folkskollärare, 86 år, Torekov;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;16;J;J;I;J;24303;Mats Johansson;71;M;Båstad;Byggnadsarbetare, 72 år, Förslöv;36000;;J
+K;1278;Båstad;00;Båstad;Arbetarepartiet-Socialdemokraterna;S;2;S;12092;17;J;J;I;J;24304;Roar Onsö;81;M;Båstad;Pensionär, 81 år, Hov;36000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;1;J;J;I;J;420530;Bo Wendt;65;M;Båstad;65 år, Båstad;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;2;J;J;I;J;420531;Eddie Grankvist;72;M;Båstad;72 år, Erikstorp;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;3;J;J;I;J;420532;Hans Grönqvist;55;M;Båstad;55 år, Boarp;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;4;J;J;I;J;420533;Inge Henriksson;67;M;Båstad;67 år, Torekov;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;5;J;J;I;J;420534;Håkan Mörnstad;76;M;Båstad;76 år, Ängalag;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;6;J;J;I;J;420535;Jonas Follin Persson;40;M;Båstad;40 år, Hemmeslöv;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;7;J;J;I;J;420536;Marianne Eriksson Mjöberg;66;K;Båstad;66 år, Svenstad;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;8;J;J;I;J;420537;Helena Stridh;49;K;Båstad;49 år, Ö.Karup;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;9;J;J;I;J;420538;Claes Sjögren;70;M;Båstad;70 år, Båstad;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;10;J;J;I;J;420539;Haakon Böcker;78;M;Båstad;78 år, Ö.Karup;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;11;J;J;I;J;420540;Ingemar Jönsson;71;M;Båstad;71 år, Segelstorp;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;12;J;J;I;J;420541;Göran Håkansson;64;M;Båstad;64 år, Båstad;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;13;J;J;I;J;420542;Karin Schmidt;77;K;Båstad;77 år, Hemmeslöv;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;14;J;J;I;J;420543;Anita Bäck;76;K;Båstad;76 år, Slättaröd;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;15;J;J;I;J;420544;Claes Sundin;60;M;Båstad;60 år, Förslöv;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;16;J;J;I;J;420545;Marie-Louise Nilsson;60;K;Båstad;60 år, Häljarp;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;17;J;J;I;J;420546;Ingrid Edgarsdotter;61;K;Båstad;61 år, Grevie;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;18;J;J;I;J;420547;Kjell Andersson;83;M;Båstad;83 år, Förslöv;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;19;J;J;I;J;420548;Kjell Stridh;50;M;Båstad;50 år, Ö.Karup;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;20;J;J;I;J;420549;Helén Barnekow;65;K;Båstad;65 år, Båstad;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;21;J;J;I;J;420550;Uno Henningsson;77;M;Båstad;77 år, Båstad;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;22;J;J;I;J;420551;Anders Bäck;70;M;Båstad;70 år, Slättaröd;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;23;J;J;I;J;420552;Gunnel Sebelius Böcker;80;K;Båstad;80 år, Ö.Karup;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;24;J;J;I;J;420553;Eva Maltesson;63;K;Båstad;63 år, Båstad;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;25;J;J;I;J;420554;Kerstin Johansson;79;K;Båstad;79 år, Båstad;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;26;J;J;I;J;420555;Christer Paulsson;63;M;Båstad;63 år, Häljarp;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;27;J;J;I;J;420556;Anders Barte;67;M;Båstad;67 år, Förslöv;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;28;J;J;I;J;420557;Anders Dahlkvist;73;M;Båstad;73 år, Båstad;60000;;J
+K;1278;Båstad;00;Båstad;Bjärepartiet;BJP;163;S;15228;29;J;J;I;J;420558;Roland Nelson;68;M;Båstad;68 år, Båstad;60000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;1;J;J;I;J;35322;Ebba Krumlinde;41;K;Båstad;41, Fil.mag.i mänskliga rättigheter, Båstad;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;2;J;J;I;J;42278;Gösta Gebauer;68;M;Båstad;68, Fd.företagare, Förslöv;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;3;J;J;I;J;42279;Stefan Olsson;56;M;Båstad;56, Lantbrukare, Hålarp;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;4;J;J;I;J;42280;Uno Johansson;67;M;Båstad;67, Företagare, Grevie;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;5;J;J;I;J;42281;Ib Nilsson;47;M;Båstad;45, Jur.kand, Stora Hult;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;6;J;J;I;J;42282;Emma Jönsson;43;K;Båstad;42, Hortonom, Segelstorp;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;7;J;J;I;J;38898;Mats Sjöbeck;63;M;Båstad;62, Fd.personalchef, Båstad;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;8;J;J;I;J;38909;Sonia Larsson;69;K;Båstad;68, Medicinsk sekreterare, Förslöv;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;9;J;J;I;J;42285;Johanna Svensson;32;K;Båstad;31, Sjukgymnast, Killebäckstorp;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;10;J;J;I;J;42286;Eduardo Martinez;60;M;Båstad;60, Lärare, Grevie;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;11;J;J;I;J;42287;Tomas Kulneff;63;M;Båstad;62, Lantbrukare, Killebäckstorp;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;12;J;J;I;J;42288;Josefin Svensson;30;K;Båstad;29, Bärodlare, Öllöv;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;13;J;J;I;J;42289;Lennart Svensson;57;M;Båstad;56, Lantbrukare, Ranarp;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;14;J;J;I;J;42290;Nils-Bertil Nilsson;47;M;Båstad;46, Lagerarbetare, Förslöv;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;15;J;J;I;J;42291;Marcus Nilsson;42;M;Båstad;41, Företagare, Ranarp;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;16;J;J;I;J;42292;Kjell Jonsson;64;M;Båstad;63, Socionom, Båstad;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12362;17;J;J;I;J;42293;Oskar Olsson;24;M;Båstad;23, Snickare, Grevie;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;1;J;J;I;J;35322;Ebba Krumlinde;41;K;Båstad;41, Fil.mag.i mänskliga rättigheter, Båstad;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;2;J;J;I;J;42278;Gösta Gebauer;68;M;Båstad;68, Fd.företagare, Förslöv;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;3;J;J;I;J;42279;Stefan Olsson;56;M;Båstad;56, Lantbrukare, Hålarp;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;4;J;J;I;J;42280;Uno Johansson;67;M;Båstad;67, Företagare, Grevie;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;5;J;J;I;J;42660;Johan Arnoldsson;50;M;Båstad;49, Lantbrukare, Svenstad;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;6;J;J;I;J;42661;Linnea Gunnarsson;25;K;Båstad;25, Leg.sjuksköterska, Västra Karup;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;7;J;J;I;J;42662;Rune Andersson;53;M;Båstad;52, Lantbrukare/chaufför, Grevie;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;8;J;J;I;J;42663;Anton Karlsson;26;M;Båstad;25, Industriarbetare, Västra Karup;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;9;J;J;I;J;42664;Christel Eriksson;59;K;Båstad;58, Seniorkonsult, Båstad;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;10;J;J;I;J;42665;Arne Nilsson;77;M;Båstad;76, Pensionär, Olastorp;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;11;J;J;I;J;42666;Anders Gunnarsson;57;M;Båstad;56, Lantbrukare, Glimminge;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;12;J;J;I;J;42667;Stina Jansson;26;K;Båstad;25, EU-praktikant, Torekov;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;13;J;J;I;J;42668;Gunnar Hejll;74;M;Båstad;73, Förvaltare, Lya;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;14;J;J;I;J;42669;Daniel Nilsson;52;M;Båstad;51, Montör, Olastorp;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;15;J;J;I;J;42670;Magnus Nilsson;40;M;Båstad;39, Företagare, Båstad;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;16;J;J;I;J;42671;Rune Pålsson;68;M;Båstad;67, Maskiningenjör, Östra Karup;18000;;J
+K;1278;Båstad;00;Båstad;Centerpartiet;C;4;S;12369;17;J;J;I;J;42672;Bertil Karlsson;75;M;Båstad;74, Chaufför, Hemmeslöv;18000;;J
+K;1278;Båstad;00;Båstad;Kristdemokraterna;KD;68;S;13148;1;J;J;I;J;114730;Krister Lilja;57;M;Båstad;Taxichaufför;15000;;J
+K;1278;Båstad;00;Båstad;Kristdemokraterna;KD;68;S;13148;2;J;J;I;J;31787;Kerstin Larsson;71;K;Båstad;Fil.kand.;15000;;J
+K;1278;Båstad;00;Båstad;Kristdemokraterna;KD;68;S;13148;3;J;J;I;J;114732;Peter Larsson;63;M;Båstad;Pastor;15000;;J
+K;1278;Båstad;00;Båstad;Kristdemokraterna;KD;68;S;13148;4;J;J;I;J;114733;Alex Dahlberg;18;M;Båstad;Studerande;15000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;1;J;J;I;J;63563;Thomas Andersson;71;M;Båstad;pensionär, Båstad, 71 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;2;J;J;I;J;63564;Birgitte Dahlin;68;K;Båstad;egenföretagare, Båstad, 68 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;3;J;J;I;J;63565;Mats Lundberg;51;M;Båstad;verksamhetschef, Hemmeslöv, 51 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;4;J;J;I;J;63566;Catarina Fryland;52;K;Båstad;systemförvaltare, Eskilstorp, 52 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;5;J;J;I;J;63567;Jens Nygren;42;M;Båstad;forskningsledare, Västra Karup, 42 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;6;J;J;I;J;63568;Louise Dock;43;K;Båstad;egenföretagare, Båstad, 43 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;7;J;J;I;J;63569;Hans Ekwurtzel;69;M;Båstad;egenföretagare, Båstad, 69 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;8;J;J;I;J;63570;Solveig Strebel;31;K;Båstad;ekonom, Troentorp, 31 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;9;J;J;I;J;63571;Sven-Olof Bengtsson;73;M;Båstad;pensionär, Båstad, 73 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;10;J;J;I;J;63572;Ingrid Nygren;70;K;Båstad;pensionär, Torekov, 70 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;11;J;J;I;J;63573;Sten Moberg;72;M;Båstad;pensionär, Båstad, 72 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;12;J;J;I;J;63574;Jenny Hamringe;52;K;Båstad;miljöinspektör, Östra Karup, 52 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;13;J;J;I;J;63575;Christer Sjöö;44;M;Båstad;generalsekreterare, Båstad, 44 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;14;J;J;I;J;63576;Carina Ekwurtzel;58;K;Båstad;sjuksköterska, Båstad, 58 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;15;J;J;I;J;63577;Håkan Sandin;71;M;Båstad;projektledare, Båstad, 71 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;16;J;J;I;J;63578;Ina Angel;58;K;Båstad;rektor, Dejarp, 58 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;17;J;J;I;J;63579;Helene Muhola;56;K;Båstad;konstnär/jurist, Boarp, 56 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;18;J;J;I;J;63580;Anna Rosberg;53;K;Båstad;egenföretagare, Förslöv, 53 år;18000;;J
+K;1278;Båstad;00;Båstad;Liberalerna (tidigare Folkpartiet);L;3;S;12640;19;J;J;I;J;63581;Eva Andersson;72;K;Båstad;pensionär, Båstad, 72 år;18000;;J
+K;1278;Båstad;00;Båstad;Miljöpartiet de gröna;MP;55;S;15876;1;N;J;J;I;513502;Jonas Nilsson;47;M;Båstad;Målare, Båstad;24000;;J
+K;1278;Båstad;00;Båstad;Miljöpartiet de gröna;MP;55;S;15876;2;N;J;J;I;513503;Lina Andreasson;54;K;Båstad;Redaktör, Båstad;24000;;J
+K;1278;Båstad;00;Båstad;Miljöpartiet de gröna;MP;55;S;15876;3;N;J;J;I;513501;Jenny Sjöholm;38;K;Båstad;Arbetsmiljösamordnare, Förslöv;24000;;J
+K;1278;Båstad;00;Båstad;Miljöpartiet de gröna;MP;55;S;15876;4;N;J;J;I;513755;Birgitta Persson;66;K;Båstad;Textilkonstnär, Öllöv;24000;;J
+K;1278;Båstad;00;Båstad;Miljöpartiet de gröna;MP;55;S;15876;5;N;J;J;I;513756;Jonas Holgersson;47;M;Båstad;Biolog, Båstad;24000;;J
+K;1278;Båstad;00;Båstad;Miljöpartiet de gröna;MP;55;S;15876;6;N;J;J;I;513757;Eva Åkesson;75;K;Båstad;Mentor, Torekov;24000;;J
+K;1278;Båstad;00;Båstad;Miljöpartiet de gröna;MP;55;S;15876;7;N;J;J;I;513758;Tomas Peterson;70;M;Båstad;Caféidkare, Båstad;24000;;J
+K;1278;Båstad;00;Båstad;Miljöpartiet de gröna;MP;55;S;15876;8;N;J;J;I;513759;Eva Sterner Ranégie;87;K;Båstad;Pensionerad sjukgymnast, Stora Hult;24000;;J
+K;1278;Båstad;00;Båstad;Miljöpartiet de gröna;MP;55;S;15876;9;N;J;J;I;513760;Gunilla Wickman;75;K;Båstad;Taijimästare, Båstad;24000;;J
+K;1278;Båstad;00;Båstad;Miljöpartiet de gröna;MP;55;S;15876;10;N;J;J;I;513761;Lena Göranson;75;K;Båstad;Bokhandlare, Båstad;24000;;J
+K;1278;Båstad;00;Båstad;Miljöpartiet de gröna;MP;55;S;15876;11;N;J;J;I;513762;Carlos Luna;75;M;Båstad;Qigong/taijimästare, Båstad;24000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;1;J;J;I;J;52486;Johan Olsson Swanstein;41;M;Båstad;41 år, utvecklingschef, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;2;J;J;I;J;79636;Ulf Jiewertz;64;M;Båstad;64 år, teolog, pedagog, Västra Karup;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;3;J;J;I;J;52488;Kerstin Gustafsson;70;K;Båstad;70 år, ekonomichef, Torekov;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;4;J;J;I;J;52489;Linda Ivarsson;28;K;Båstad;29 år, lärare, Grevie;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;5;J;J;I;J;52490;Ann Elofsson;65;K;Båstad;65 år, lantbrukare, Rammsjö;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;6;J;J;I;J;52491;Tony Ivarsson;54;M;Båstad;54 år, lantbrukare, Ängelsbäck;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;7;J;J;I;J;52492;Carl-Magnus Fröjdh;48;M;Båstad;48 år, leg. psykolog, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;8;J;J;I;J;52493;Gösta Sandgren;68;M;Båstad;68 år, f.d. personaldir., Ranarp;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;9;J;J;I;J;52494;Viktor Törnqvist;28;M;Båstad;28 år, egen företagare, Kattvik;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;10;J;J;I;J;52495;Håkan Hagström;59;M;Båstad;59 år, jurist, Öllövsstrand;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;11;J;J;I;J;52496;Susanne Jung;66;K;Båstad;66 år, egen företagare, Torekov;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;12;J;J;I;J;52497;Anette Åkesson;52;K;Båstad;52 år, riksdagsledamot, Hov;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;13;J;J;I;J;52498;Mona Källbäck;75;K;Båstad;75 år, f.d. arbetsledare, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;14;J;J;I;J;52499;Marie-Louise Lindén;77;M;Båstad;76 år, socionom, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;15;J;J;I;J;52500;Gunilla Linghoff;79;K;Båstad;79 år, konsult, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;16;J;J;I;J;52501;Christer de la Motte;68;M;Båstad;68 år, förvaltningschef, Hemmeslöv;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;17;J;J;I;J;52502;Alexander Timmermans Eriksson;19;M;Båstad;19 år, studerande, Grevie;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;18;J;J;I;J;52503;Annika Fengved Stefansson;60;K;Båstad;60 år, företagare, Torekov;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;19;J;J;I;J;52504;Jan Ahlström;68;M;Båstad;68 år, civ. ekonom, Segelstorpsstrand;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;20;J;J;I;J;52505;Lars Elofsson;71;M;Båstad;71 år, lantbrukare, Rammsjö;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;21;J;J;I;J;52506;Carl Lilliehöök;63;M;Båstad;63 år, civ. ing., Torekov;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;22;J;J;I;J;52507;Lena Lindqvist Kello;71;K;Båstad;71 år, VD, Hemmeslöv;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;23;J;J;I;J;52508;Gunilla Klingspor;60;K;Båstad;60 år, egen företagare, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;24;J;J;I;J;52509;Belisa Berglund;63;K;Båstad;63 år, agronom, Torekov;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;25;J;J;I;J;52510;Nicole Hagström;58;K;Båstad;58 år, tolk, Öllövsstrand;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;26;J;J;I;J;52511;Marie Louise Aaröe;66;K;Båstad;66 år, PR-konsult, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;27;J;J;I;J;52512;Iréne Wikström;67;K;Båstad;67 år, undersköterska, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;28;J;J;I;J;52513;Rustan Svensson;62;M;Båstad;62 år, riskmanager, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;29;J;J;I;J;52514;Ninni Markow;69;K;Båstad;69 år, leg. psykolog, Förslöv;36000;;J
+K;1278;Båstad;00;Båstad;Moderaterna;M;1;S;12475;30;J;J;I;J;52515;Johan Wastensson;48;M;Båstad;48 år, försäljningschef, Båstad;36000;;J
+K;1278;Båstad;00;Båstad;Sverigedemokraterna;SD;110;S;14318;1;J;J;I;J;255289;Carolin Gräbner;26;K;Båstad;Köksbiträde, 26;36000;;J
+K;1278;Båstad;00;Båstad;Sverigedemokraterna;SD;110;S;14318;2;J;J;I;J;255290;Suzanne Kroksdotter;61;K;Båstad;Egenföretagare, 61;36000;;J
+K;1278;Båstad;00;Båstad;Sverigedemokraterna;SD;110;S;14318;3;J;J;I;J;255291;Claes Wallin;59;M;Båstad;Postiljon, 59;36000;;J
+K;1278;Båstad;00;Båstad;Sverigedemokraterna;SD;110;S;14318;4;J;J;I;J;255292;Joakim Gräbner;52;M;Båstad;Sjöingenjör, 52;36000;;J

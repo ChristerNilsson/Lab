@@ -1,0 +1,120 @@
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;1;J;J;I;J;139863;Catharina Fredriksson;53;K;Oxelösund;53 år Handledare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;2;J;J;I;J;139864;Linus Fogel;45;M;Oxelösund;44 år Lärare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;3;J;J;I;J;139865;Britta Bergström;64;K;Oxelösund;64 år Arbetsterapeut;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;4;J;J;I;J;139879;Tommy Karlsson;57;M;Oxelösund;57 år Arbetsmiljötekniker;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;5;J;J;I;J;139880;Linda Hägglund;44;K;Oxelösund;43 år Avsnittschef;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;6;J;J;I;J;140041;Claes-Göran Borrman;58;M;Oxelösund;58 år Hamnarbetare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;7;J;J;I;J;140042;Nina Wikström-Tiala;46;K;Oxelösund;46 år Industriarbetare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;8;J;J;I;J;140043;Inge Ståhlgren;66;M;Oxelösund;66 år Pensionär;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;9;J;J;I;J;140630;Solveig Lindblom;77;K;Oxelösund;77 år Pensionär;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;10;J;J;I;J;140045;Martin Bergström;31;M;Oxelösund;31 år Lärare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;11;J;J;I;J;140046;Oheila Mozil;33;K;Oxelösund;32 år Montör;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;12;J;J;I;J;140047;Håkan Carlsson;66;M;Oxelösund;66 år fd Stålverksarbetare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;13;J;J;I;J;140048;Birgitta Luoto;73;K;Oxelösund;73 år fd Kokerska;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;14;J;J;I;J;140049;Peter Karlsson;51;M;Oxelösund;50 år Industriarbetare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;15;J;J;I;J;467576;Mayvor Lundberg;71;K;Oxelösund;71 år Pensionär;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;16;J;J;I;J;140637;Bror Sterner;70;M;Oxelösund;70 år fd Metallarbetare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;17;J;J;I;J;140638;Ann-Sophie Nygren;45;K;Oxelösund;44 år Undersköterska;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;18;J;J;I;J;140639;Rune Tschemernjack;51;M;Oxelösund;50 år Avsnittschef;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;19;J;J;I;J;140640;Sofia Bergli;40;K;Oxelösund;40 år Industriarbetare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;20;J;J;I;J;140641;Jonas Widegren;45;M;Oxelösund;45 år Undersköterska;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;21;J;J;I;J;140642;Charlotta Olson;47;K;Oxelösund;47 år Servicehandläggare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;22;J;J;I;J;140643;Ferry Hagi;58;M;Oxelösund;57 år Lastbilschaufför;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;23;J;J;I;J;140644;Ann Svensson;65;K;Oxelösund;66 år Pensionär;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;24;J;J;I;J;468029;Ammar Darwish;47;M;Oxelösund;47 år Studerande;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;25;J;J;I;J;140646;Lena Svedlindh;64;K;Oxelösund;63 år Förskollärare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;26;J;J;I;J;140647;Evert Melander;73;M;Oxelösund;73 år Utbildare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;27;J;J;I;J;140648;Kristina Johansson;71;K;Oxelösund;71 år Pensionär;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;28;J;J;I;J;140649;Birger Svensson;65;M;Oxelösund;65 år Pensionär;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;29;J;J;I;J;140650;Lena Blomkvist;60;K;Oxelösund;61 år Tjänsteman;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Arbetarepartiet-Socialdemokraterna;S;2;S;13378;30;J;J;I;J;140651;Lennart Samuelsson;75;M;Oxelösund;75 år Pensionär;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Centerpartiet;C;4;S;13841;1;J;J;I;J;196484;Bo Höglander;63;M;Oxelösund;63 år,Redaktör,Oxelösund;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Centerpartiet;C;4;S;13841;2;J;J;I;J;198534;Joakim Öhman;54;M;Oxelösund;54 år,Företagare,Oxelösund;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Centerpartiet;C;4;S;13841;3;J;J;I;J;197668;Siri Wink;24;K;Oxelösund;24 år,Ombudsman,Oxelösund;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Centerpartiet;C;4;S;13841;4;J;J;I;J;198536;Ann Abrahamsson;43;K;Oxelösund;43 år,Personlig assistent,Oxelösund;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Centerpartiet;C;4;S;13841;5;J;J;I;J;198537;Agneta Höglander;61;K;Oxelösund;61 år,Arkivarie,Oxelösund;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Centerpartiet;C;4;S;13841;6;J;J;I;J;198538;Elisabeth Wink;62;K;Oxelösund;62 år,Biodlare,Oxelösund;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Centerpartiet;C;4;S;13841;7;J;J;I;J;198539;Ebbe Svartling;88;M;Oxelösund;88 år,Pensionär, Oxelösund;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Kristdemokraterna;KD;68;S;13572;1;J;J;I;J;166944;Göran Bernhardsson;66;M;Oxelösund;66, ekonom, Oxelösund;20000;;J
+K;0481;Oxelösund;00;Oxelösund;Kristdemokraterna;KD;68;S;13572;2;J;J;I;J;166945;Gert Bennevall;70;M;Oxelösund;70, byggkonsult, Oxelösund;20000;;J
+K;0481;Oxelösund;00;Oxelösund;Kristdemokraterna;KD;68;S;13572;3;J;J;I;J;166946;Sophia Stenbäck;30;K;Oxelösund;30, instruktör, Oxelösund;20000;;J
+K;0481;Oxelösund;00;Oxelösund;Kristdemokraterna;KD;68;S;13572;4;J;J;I;J;166947;Tony Eklund;52;M;Oxelösund;52, operatör, Oxelösund;20000;;J
+K;0481;Oxelösund;00;Oxelösund;Kristdemokraterna;KD;68;S;13572;5;J;J;I;J;166948;Christine Bennevall;69;K;Oxelösund;69, lärare, Oxelösund;20000;;J
+K;0481;Oxelösund;00;Oxelösund;Kristdemokraterna;KD;68;S;13572;6;J;J;I;J;166949;Bastiampillai Veerasingam;58;M;Oxelösund;58, mekaniker, Oxelösund;20000;;J
+K;0481;Oxelösund;00;Oxelösund;Kristdemokraterna;KD;68;S;13572;7;J;J;I;J;166950;Anette Bernhardsson;60;K;Oxelösund;60, distriktsköterska, Oxelösund;20000;;J
+K;0481;Oxelösund;00;Oxelösund;Liberalerna (tidigare Folkpartiet);L;3;S;11978;1;J;J;I;J;16317;Klas Lundbergh;62;M;Oxelösund;;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Liberalerna (tidigare Folkpartiet);L;3;S;11978;2;J;J;I;J;16318;Björn Wintler;76;M;Oxelösund;;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Liberalerna (tidigare Folkpartiet);L;3;S;11978;3;J;J;I;J;16319;Lars Johansson;60;M;Oxelösund;;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Liberalerna (tidigare Folkpartiet);L;3;S;11978;4;J;J;I;J;2203;Tommy Linder;32;M;Oxelösund;;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Liberalerna (tidigare Folkpartiet);L;3;S;11978;5;J;J;I;J;16321;Karin Paulsson;62;K;Oxelösund;;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Miljöpartiet de gröna;MP;55;S;13693;1;J;J;I;J;185794;Sandra Landin;43;K;Oxelösund;ekologisk hudvårdsterapeut, Frösäng;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Miljöpartiet de gröna;MP;55;S;13693;2;J;J;I;J;185795;Björn Johansson;72;M;Oxelösund;ingenjör, Centrum;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Miljöpartiet de gröna;MP;55;S;13693;3;J;J;I;J;185796;Kristin Johansson;45;K;Oxelösund;undersköterska, Centrum;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Miljöpartiet de gröna;MP;55;S;13693;4;J;J;I;J;185797;Lars Pettersson;61;M;Oxelösund;omsorgsassistent, Sunda;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Miljöpartiet de gröna;MP;55;S;13693;5;J;J;I;J;185798;Linda Bogne;40;K;Oxelösund;stålverksarbetare, Ramdalshöjden;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Miljöpartiet de gröna;MP;55;S;13693;6;J;J;I;J;185799;Peter Friberg;69;M;Oxelösund;lärare, Stenvik;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Miljöpartiet de gröna;MP;55;S;13693;7;J;J;I;J;185800;Margareta Friberg;72;K;Oxelösund;lärare, Stenvik;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Miljöpartiet de gröna;MP;55;S;13693;8;J;J;I;J;185801;Christer Sandström;73;M;Oxelösund;pensionär, Sunda;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;1;J;J;I;J;9994;Dag Bergentoft;63;M;Oxelösund;oppositionsråd;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;2;J;J;I;J;313497;Katarina Berg;53;K;Oxelösund;chef produktkvalitét;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;3;J;J;I;J;10135;Stefan Johansson;51;M;Oxelösund;VD;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;4;J;J;I;J;313499;Luiza Kaminska;70;K;Oxelösund;pensionär;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;5;J;J;I;J;313500;Mårthen Backman;49;M;Oxelösund;lärare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;6;J;J;I;J;313501;Urpo Koivula;62;M;Norrtälje;ingenjör;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;7;J;J;I;J;313502;Bengt Björkhage;63;M;Oxelösund;företagare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;8;J;J;I;J;313503;Haifaa Alkhaldi;30;K;Oxelösund;förskolelärare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;9;J;J;I;J;313504;Tapio Helminen;60;M;Oxelösund;IT-konsult;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;10;J;J;I;J;313505;Eva Asthage;71;K;Oxelösund;konsult;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;11;J;J;I;J;313506;Zuber Sahi;28;M;Oxelösund;sjökapten;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;12;J;J;I;J;313507;Matti Koponen;64;M;Oxelösund;språkvetare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;13;J;J;I;J;313508;Kirsten Bälldal Andersson;61;K;Oxelösund;egen företagare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;14;J;J;I;J;313509;Stefan Andersson;59;M;Oxelösund;IT-konsult;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;15;J;J;I;J;313510;Anna-Maija Alajoki;69;K;Oxelösund;filosofie magister;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;16;J;J;I;J;313511;Odd Mattson;58;M;Oxelösund;lagerarbetare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;17;J;J;I;J;313512;Magnus Råd;46;M;Oxelösund;senior projektledare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;18;J;J;I;J;313513;Hans Molin;73;M;Oxelösund;fd fastighetsskötare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;19;J;J;I;J;313514;Mikael Bälldal Andersson;27;M;Oxelösund;lastbilschaufför;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;20;J;J;I;J;313515;Thomas Toft;56;M;Oxelösund;arbetsmiljöingenjör;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;21;J;J;I;J;313516;Johan Hemmingson;41;M;Oxelösund;handläggare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;22;J;J;I;J;313517;Lina Thor;42;K;Oxelösund;järnverksarbetare/företagare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;23;J;J;I;J;313518;Anders Berglund;46;M;Oxelösund;hamnarbetare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;24;J;J;I;J;313519;Margun Lundström;68;K;Oxelösund;vårdlärare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;25;J;J;I;J;313520;Peter Martens;38;M;Oxelösund;platschef;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;26;J;J;I;J;313521;Heike Emmrich;56;K;Oxelösund;lärare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;27;J;J;I;J;313522;Bo Jender;79;M;Oxelösund;teknisk licentiat;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;28;J;J;I;J;313523;Torbritt Bökman;83;K;Oxelösund;handelslärare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;29;J;J;I;J;313524;Margaretha Jender;80;K;Oxelösund;civilingenjör;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;30;J;J;I;J;313525;Ingemar Urborn;74;M;Oxelösund;ingenjör;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;31;J;J;I;J;313526;Christina Holm;68;K;Oxelösund;fd polisinspektör;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Moderaterna;M;1;S;14675;32;J;J;I;J;313527;Tonny Holm;72;M;Oxelösund;sjöbefäl;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Sverigedemokraterna;SD;110;S;11975;1;J;J;I;J;16086;Jan-Eric Eriksson;70;M;Oxelösund;70, Sjökapten;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Sverigedemokraterna;SD;110;S;11975;2;J;J;I;J;16087;Jannike Zetterman;28;K;Oxelösund;29, Ämneshanterare;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Sverigedemokraterna;SD;110;S;11975;3;J;J;I;J;16088;Leif Winnsberger;63;M;Oxelösund;63, Pensionär;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Sverigedemokraterna;SD;110;S;11975;4;J;J;I;J;16089;Dagmara Mandrela;43;K;Oxelösund;43, Undersköterska;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Sverigedemokraterna;SD;110;S;11975;5;J;J;I;J;16090;Ulla Hulkko;70;K;Oxelösund;70, Pensionär;29000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;1;J;J;I;J;12079;Patrik Renfors;43;M;Oxelösund;43, Industrielektriker;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;2;J;J;I;J;49667;Ingela Wahlstam;46;K;Oxelösund;47, Fritidsgårdsföreståndare;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;3;J;J;I;J;12086;Lotta Johnsson Fornarve;62;K;Oxelösund;62, Riksdagsledamot;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;4;J;J;I;J;12089;Daniel Lundgren;46;M;Oxelösund;46, Socialsekreterare;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;5;J;J;I;J;49670;Mariela Perez;57;K;Oxelösund;57, Administratör;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;6;J;J;I;J;49671;Viktor Johnsson;26;M;Oxelösund;26, Butiksarbetare;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;7;J;J;I;J;49672;Victoria Flores;55;K;Oxelösund;55, Lärare;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;8;J;J;I;J;49673;Thomas Löfdahl;63;M;Oxelösund;63, Pensionär;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;9;J;J;I;J;49674;Tove Renfors;30;K;Oxelösund;30, Järnverksarbetare;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;10;J;J;I;J;49675;Emil Carlsson;53;M;Oxelösund;53, Järnverksarbetare;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;11;J;J;I;J;49676;Lasse Fornarve;66;M;Oxelösund;66, Pensionär;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;12;J;J;I;J;49677;Johan Renfors;40;M;Oxelösund;40, Järnverksarbetare;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;13;J;J;I;J;49678;Tova Famme;55;K;Oxelösund;55, Undersköterska;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;14;J;J;I;J;49679;Ulla Löfdahl;65;K;Oxelösund;65, Pensionär;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;15;J;J;I;J;49680;Håkan Gustafsson;59;M;Oxelösund;59, Parkeringsvakt;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;16;J;J;I;J;49681;Monica Mattsson;53;K;Oxelösund;53, Lokalvårdare;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;17;J;J;I;J;49682;Robert Söderström;38;M;Oxelösund;38, Järnverksarbetare;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;18;J;J;I;J;49683;Sinikka Famme;79;K;Oxelösund;79, Pensionär;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;19;J;J;I;J;49684;Robin Famme;34;M;Oxelösund;34 Undersköterska;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;20;J;J;I;J;49685;Jenny Zaloga;44;K;Oxelösund;44, Barnskötare;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;21;J;J;I;J;49686;Tommy Hummel;33;M;Oxelösund;33, Förskolelärare;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;22;J;J;I;J;49687;Aimo Konttinen;69;M;Oxelösund;69, Pensionär;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;23;J;J;I;J;49688;Anna-Lena Wennberg;61;K;Oxelösund;61, Sjukpensionär;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;24;J;J;I;J;49689;Mats Wahlstam;44;M;Oxelösund;44, Industrielektriker;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;25;J;J;I;J;49690;Fransisco Cruz Oyanedel;62;M;Oxelösund;62, Verkstadsarbetare;15000;;J
+K;0481;Oxelösund;00;Oxelösund;Vänsterpartiet;V;5;S;12451;26;J;J;I;J;49691;Tomas Sohlgren;71;M;Oxelösund;71, Pensionär;15000;;J

@@ -1,0 +1,1174 @@
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;1;J;J;I;J;241542;Kenneth Nilsson;42;M;Örebro;41 år, Kommunalråd;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;2;J;J;I;J;241543;Agneta Blom;56;K;Örebro;56 år, Universitetslektor;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;3;J;J;I;J;237708;John Johansson;36;M;Örebro;36 år, Politisk sekreterare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;4;J;J;I;J;241545;Jessica Ekerbring;46;K;Örebro;46 år, Kommunalråd;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;5;J;J;I;J;224172;Jan Zetterqvist;59;M;Örebro;59 år, LO-funktionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;6;J;J;I;J;241547;Ullis Sandberg;46;K;Örebro;46 år, Kommunalråd;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;7;J;J;I;J;241548;Kemal Hoso;43;M;Örebro;43 år, Logistiker;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;8;J;J;I;J;241549;Linda Smedberg;32;K;Örebro;32 år, Förskollärare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;9;J;J;I;J;241550;Jonas Håård;45;M;Örebro;45 år, Gruppledare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;10;J;J;I;J;237693;Gun Carlestam Lewin;78;K;Örebro;78 år, Socionom;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;11;J;J;I;J;237694;Per Lilja;53;M;Örebro;53 år, Butiksbiträde;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;12;J;J;I;J;224173;Ida Eklund;31;K;Örebro;31 år, Socionom;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;13;J;J;I;J;241554;Ameer Sachet;55;M;Örebro;55 år, Arbetsförmedlare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;14;J;J;I;J;224181;Fisun Yavas;62;K;Örebro;62 år, Inspektör;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;15;J;J;I;J;9298;CH Nordström;32;M;Örebro;32 år, Jurist;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;16;J;J;I;J;237707;Eva Eriksson;53;K;Örebro;53 år, Gymnasielärare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;17;J;J;I;J;224184;Kent Vallén;67;M;Örebro;67 år, Projektarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;18;J;J;I;J;241559;Marie Brorson;51;K;Örebro;51 år, Distriktssköterska;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;19;J;J;I;J;241560;Mårten Karlsson;40;M;Örebro;40 år, Industriarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;20;J;J;I;J;241561;Carina Toro Hartman;61;K;Örebro;61 år, Lärare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;21;J;J;I;J;237684;Johan Gynnhammar;25;M;Örebro;25 år, Studerande;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;22;J;J;I;J;241563;Susann Wallin;52;K;Örebro;52 år, Elevassistent;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;23;J;J;I;J;241564;Roger Andersson;73;M;Örebro;73 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;24;J;J;I;J;224185;Jennan Hannah;32;K;Örebro;32 år, Utredare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;25;J;J;I;J;241566;Thomas Börjesson;42;M;Örebro;42 år, Statstjänsteman;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;26;J;J;I;J;241567;Anna Hedström;54;K;Örebro;54 år, Administratör;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;27;J;J;I;J;241568;Frederick Axewill;47;M;Örebro;47 år, HR-specialist;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;28;J;J;I;J;241569;Britten Uhlin;69;K;Örebro;69 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;29;J;J;I;J;241570;Allan Armaghan;63;M;Örebro;63 år, Egen företagare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;30;J;J;I;J;237697;Madelene Vikström;37;K;Örebro;37 år ,Lagerarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;31;J;J;I;J;237700;Pell Uno Larsson;77;M;Örebro;77 år, Leg Sjuksköterska;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;32;J;J;I;J;224193;Inger Karlsson;66;K;Örebro;66 år, Fd kock;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;33;J;J;I;J;237728;Hanna Altunkaynak;49;M;Örebro;49 år, Lärare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;34;J;J;I;J;241575;Eva Ströman;64;K;Örebro;64 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;35;J;J;I;J;237720;Per-Åke Sundkvist;50;M;Örebro;51 år, Terminalarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;36;J;J;I;J;241577;Carina Oskarsson;49;K;Örebro;49 år, Organisationsombudsman;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;37;J;J;I;J;241578;Elmar Jehle;67;M;Örebro;67 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;38;J;J;I;J;241579;Jenny Thor;38;K;Örebro;38 år, Projektsamordnare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;39;J;J;I;J;241580;Per-Erik Andersson;66;M;Örebro;66 år, Socionom;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;40;J;J;I;J;224195;Margareta Jansson;71;K;Örebro;71 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;41;J;J;I;J;241582;Nisvet Okanovic;57;M;Örebro;57 år, Arbetsledare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;42;J;J;I;J;241583;Maja Gullberg;28;K;Örebro;28 år, Genusvetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;43;J;J;I;J;241584;Nabil Mouchi;32;M;Örebro;32 år, Budget/finansstrateg;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;44;J;J;I;J;237727;Carina Svedenberg Widqvist;56;K;Örebro;56 år, Lärare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;45;J;J;I;J;241586;Viktor Tullgren;34;M;Örebro;34 år, Civilingenjör;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;46;J;J;I;J;241587;Tania Cifuentes Valdés;44;K;Örebro;44 år, Socionom;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;47;J;J;I;J;241588;Antti Ahtiainen;56;M;Örebro;56 år, Statlig utredare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;48;J;J;I;J;241589;Elisabeth Karlsson Zuaw;62;K;Örebro;61 år, Gymnasielärare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;49;J;J;I;J;241590;Tomas Sandberg;60;M;Örebro;60 år, Industriarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;50;J;J;I;J;241591;Melina Nuhic;26;K;Örebro;26 år, Arbetskonsulent;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;51;J;J;I;N;224170;[inte lämnat förklaring];;;;;180000;;N
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;52;J;J;I;J;241593;Sheneh Armaghan;31;K;Örebro;32 år, Larmoperatör;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;53;J;J;I;J;241594;Christer Karlsson;63;M;Örebro;63 år, Miljöarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;54;J;J;I;J;241595;Sandra Zenginel;31;K;Örebro;31 år, Samhällsvetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;55;J;J;I;N;241596;[inte lämnat förklaring];;;;;180000;;N
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;56;J;J;I;J;241597;Carola Johansson;60;K;Örebro;60 år, Avdelningsföreståndare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;57;J;J;I;J;224190;Henrik Hagel;42;M;Örebro;42 år, Lagerarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;58;J;J;I;J;224200;Lisbeth Estrada Pérez;27;K;Örebro;27 år, Student;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;59;J;J;I;J;224188;Jan-Eric B Norman;54;M;Örebro;54 år, Föreläsare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;60;J;J;I;J;241601;Inger Blückert;54;K;Örebro;54 år, Kommunvägledare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;61;J;J;I;J;241602;Nils-Erik Pettersson;75;M;Örebro;75 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;62;J;J;I;J;224201;Kerstin Nilsson;67;K;Örebro;66 år, Universitetsadjunkt;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;63;J;J;I;J;241604;Husein Hoso;62;M;Örebro;62 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;64;J;J;I;J;241605;Bodil Svensson;68;K;Örebro;68 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;65;J;J;I;J;241606;Håkan Schultz;59;M;Örebro;59 år, Handläggare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;66;J;J;I;J;241607;Vera Peci;46;K;Örebro;46 år, Frisör;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;67;J;J;I;J;241608;Leif Gustafsson;73;M;Örebro;74 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;68;J;J;I;J;224187;Alex Elofsson;19;K;Örebro;19 år, Studerande;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;69;J;J;I;J;241610;Mirsad Omerbasic;64;M;Örebro;64 år, Kock;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;70;J;J;I;J;224189;Inger Westerberg;56;K;Örebro;56 år, Handledare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;71;J;J;I;J;241612;Per-Ove Karlsson;56;M;Örebro;56 år, Kommunalarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;72;J;J;I;J;241613;Shahla Ojagh Nasab;46;K;Örebro;45 år, Utbildningsledare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;1;J;J;I;J;241542;Kenneth Nilsson;42;M;Örebro;41 år, Kommunalråd;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;2;J;J;I;J;241543;Agneta Blom;56;K;Örebro;56 år, Universitetslektor;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;3;J;J;I;J;237708;John Johansson;36;M;Örebro;36 år, Politisk sekreterare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;4;J;J;I;J;241545;Jessica Ekerbring;46;K;Örebro;46 år, Kommunalråd;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;5;J;J;I;J;224172;Jan Zetterqvist;59;M;Örebro;59 år, LO-funktionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;6;J;J;I;J;241547;Ullis Sandberg;46;K;Örebro;46 år, Kommunalråd;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;7;J;J;I;J;241548;Kemal Hoso;43;M;Örebro;43 år, Logistiker;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;8;J;J;I;J;241549;Linda Smedberg;32;K;Örebro;32 år, Förskollärare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;9;J;J;I;J;241550;Jonas Håård;45;M;Örebro;45 år, Gruppledare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;10;J;J;I;J;237693;Gun Carlestam Lewin;78;K;Örebro;78 år, Socionom;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;11;J;J;I;J;237694;Per Lilja;53;M;Örebro;53 år, Butiksbiträde;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;12;J;J;I;J;224173;Ida Eklund;31;K;Örebro;31 år, Socionom;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;13;J;J;I;J;241554;Ameer Sachet;55;M;Örebro;55 år, Arbetsförmedlare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;14;J;J;I;J;224181;Fisun Yavas;62;K;Örebro;62 år, Inspektör;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;15;J;J;I;J;9298;CH Nordström;32;M;Örebro;32 år, Jurist;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;16;J;J;I;J;237707;Eva Eriksson;53;K;Örebro;53 år, Gymnasielärare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;17;J;J;I;J;224184;Kent Vallén;67;M;Örebro;67 år, Projektarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;18;J;J;I;J;241559;Marie Brorson;51;K;Örebro;51 år, Distriktssköterska;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;19;J;J;I;J;241560;Mårten Karlsson;40;M;Örebro;40 år, Industriarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;20;J;J;I;J;241561;Carina Toro Hartman;61;K;Örebro;61 år, Lärare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;21;J;J;I;J;237684;Johan Gynnhammar;25;M;Örebro;25 år, Studerande;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;22;J;J;I;J;241563;Susann Wallin;52;K;Örebro;52 år, Elevassistent;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;23;J;J;I;J;241564;Roger Andersson;73;M;Örebro;73 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;24;J;J;I;J;224185;Jennan Hannah;32;K;Örebro;32 år, Utredare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;25;J;J;I;J;241566;Thomas Börjesson;42;M;Örebro;42 år, Statstjänsteman;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;26;J;J;I;J;241567;Anna Hedström;54;K;Örebro;54 år, Administratör;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;27;J;J;I;J;241568;Frederick Axewill;47;M;Örebro;47 år, HR-specialist;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;28;J;J;I;J;241569;Britten Uhlin;69;K;Örebro;69 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;29;J;J;I;J;241570;Allan Armaghan;63;M;Örebro;63 år, Egen företagare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;30;J;J;I;J;237697;Madelene Vikström;37;K;Örebro;37 år, Lagerarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;31;J;J;I;J;237700;Pell Uno Larsson;77;M;Örebro;77 år, Leg.Sjuksköterska;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;32;J;J;I;J;224193;Inger Karlsson;66;K;Örebro;66 år, Fd kock;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;33;J;J;I;J;237728;Hanna Altunkaynak;49;M;Örebro;49 år, Lärare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;34;J;J;I;J;241575;Eva Ströman;64;K;Örebro;64 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;35;J;J;I;J;237720;Per-Åke Sundkvist;50;M;Örebro;51 år, Terminalarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;36;J;J;I;J;241577;Carina Oskarsson;49;K;Örebro;49 år, Organisationsombudsman;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;37;J;J;I;J;241578;Elmar Jehle;67;M;Örebro;67 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;38;J;J;I;J;241579;Jenny Thor;38;K;Örebro;38 år, Projektsamordnare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;39;J;J;I;J;241580;Per-Erik Andersson;66;M;Örebro;66 år, Socionom;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;40;J;J;I;J;224195;Margareta Jansson;71;K;Örebro;71 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;41;J;J;I;J;241582;Nisvet Okanovic;57;M;Örebro;57 år, Arbetsledare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;42;J;J;I;J;241583;Maja Gullberg;28;K;Örebro;28 år, Genusvetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;43;J;J;I;J;241584;Nabil Mouchi;32;M;Örebro;32 år, Budget/finansstrateg;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;44;J;J;I;J;237727;Carina Svedenberg Widqvist;56;K;Örebro;56 år, Lärare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;45;J;J;I;J;241586;Viktor Tullgren;34;M;Örebro;34 år, Civilingenjör;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;46;J;J;I;J;241587;Tania Cifuentes Valdés;44;K;Örebro;44 år, Socionom;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;47;J;J;I;J;241588;Antti Ahtiainen;56;M;Örebro;56 år, Statlig utredare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;48;J;J;I;J;241589;Elisabeth Karlsson Zuaw;62;K;Örebro;61 år, Gymnasielärare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;49;J;J;I;J;241590;Tomas Sandberg;60;M;Örebro;60 år, Industriarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;50;J;J;I;J;241591;Melina Nuhic;26;K;Örebro;26 år, Arbetskonsulent;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;51;J;J;I;N;224170;[inte lämnat förklaring];;;;;180000;;N
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;52;J;J;I;J;241593;Sheneh Armaghan;31;K;Örebro;32 år, Larmoperatör;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;53;J;J;I;J;241594;Christer Karlsson;63;M;Örebro;63 år, Miljöarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;54;J;J;I;J;241595;Sandra Zenginel;31;K;Örebro;31 år, Samhällsvetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;55;J;J;I;J;244544;K-G Granberg;72;M;Örebro;72 år, Egen företagare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;56;J;J;I;J;244545;Elvy Wennerström;71;K;Örebro;71 år, Fd Förskollärare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;57;J;J;I;J;237716;Thony Mossberg;42;M;Örebro;42 år, Lagerarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;58;J;J;I;J;244547;Kerstin Persson;71;K;Örebro;71 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;59;J;J;I;J;224164;Bulent Oktay;43;M;Örebro;43 år, Administratör;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;60;J;J;I;J;244549;Siv Lord;73;K;Örebro;73 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;61;J;J;I;J;244550;André Schwenk;34;M;Örebro;34 år, Skötare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;62;J;J;I;J;224183;Ellen Leijen;24;K;Örebro;24 år, Studerande;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;63;J;J;I;J;224192;Björn Ramstedt;56;M;Örebro;56 år, Lagerarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;64;J;J;I;J;224157;Fredrika Jakobsen;49;K;Örebro;49 år, Barnskötare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;65;J;J;I;J;244554;Gösta Eriksson;70;M;Örebro;70 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;66;J;J;I;J;224155;Carina Dahl;61;K;Örebro;60 år, Ombudsman;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;67;J;J;I;J;244556;Magnus Hellström;44;M;Örebro;44 år, Terminalarbetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;68;J;J;I;J;244557;Inger Göransson;79;K;Örebro;79 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;69;J;J;I;J;244558;Agneta Åsgård Larsson;66;K;Örebro;66 år, Pensionär;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;70;J;J;I;J;224153;Eva-Lena Jansson;55;K;Örebro;55 år, Riksdagsledamot;180000;;J
+K;1880;Örebro;01;Örebro Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;71;J;J;I;J;224197;Linda Linder;38;K;Örebro;38 år, Statsvetare;180000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;1;J;J;I;J;205528;Per-Åke Sörman;42;M;Örebro;42 år, kommunalråd, Ervalla;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;2;J;J;I;J;57883;Linda Larsson;38;K;Örebro;38 år, lärare, Markbacken;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;3;J;J;I;J;57869;Seydou Bahngoura;56;M;Örebro;56 år, mentor, Stora Mellösa;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;4;J;J;I;J;57885;Gunhild Wallin;68;K;Örebro;68 år, barnmorska, Närkes Kil;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;5;J;J;I;J;58667;Anders Olsson;50;M;Örebro;50 år, kanslisamordnare, Askersby;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;6;J;J;I;J;8537;Elisabeth Malmqvist;32;K;Örebro;32 år, politisk sekreterare, Vintrosa;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;7;J;J;I;J;57888;Abdulrahman Ibrahim Muhammed;28;M;Örebro;28 år, fritidsledare, Vivalla;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;8;J;J;I;J;205535;Jimmy Nordengren;39;M;Örebro;39 år, rektor, Ervalla;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;9;J;J;I;J;205536;Annika Tholster;51;K;Örebro;51 år, kurator, Vintrosa;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;10;J;J;I;J;57875;Maria Comstedt;50;K;Örebro;50 år, konsult, Norr;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;11;J;J;I;J;57870;Börje Gustafsson;81;M;Örebro;81 år, pensionär, Sörbyängen;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;12;J;J;I;J;57882;Xerxes Åkerfeldt;20;M;Örebro;20 år, student, City;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;13;J;J;I;J;58647;Emilia Molin;27;K;Örebro;27 år, politisk sekreterare, City;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;14;J;J;I;J;57890;Bo Åkerling;66;M;Örebro;66 år, åkare, Asker;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;15;J;J;I;J;205542;Alexandra Royal;40;K;Örebro;40 år, lärare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;16;J;J;I;J;205543;Lars Johansson;66;M;Örebro;66 år, naturvärnare, Ormesta;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;17;J;J;I;J;57893;Marita Andersson;58;K;Örebro;58 år, ingenjör, City;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;18;J;J;I;J;57879;Charlotte Edberger Jangdin;55;K;Örebro;55 år, lärare, City;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;19;J;J;I;J;57889;Jessika Edetun Falk;51;K;Örebro;51 år, hälsoinspiratör, Adolfsberg;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;20;J;J;I;J;205547;Anders Gunnarsson;70;M;Örebro;70 år, lantbrukare, Vintrosa;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;21;J;J;I;J;205548;Ann-Kristin Sundqvist;41;K;Örebro;41 år, lärare, Järle;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;22;J;J;I;J;57891;Regina Salenfors Andersson;63;K;Örebro;63 år, lantbrukare, Lännäs;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;23;J;J;I;J;58669;Håkan Gransten;68;M;Örebro;68 år, fastighetschef, Ervalla;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;24;J;J;I;J;58674;Ingvar Bilock;66;M;Örebro;66 år, pensionär/konstnär, Norra Bro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;25;J;J;I;J;57887;Kamran Kabinejad;42;M;Örebro;42 år, verksamhetschef, Adolfsberg;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;26;J;J;I;J;205553;Annbrith Wiman;67;K;Örebro;67 år, pensionär, Asker;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;27;J;J;I;J;205554;Lucas Persson;23;M;Örebro;23 år, student, Brickebacken;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;28;J;J;I;J;57897;Ingvar Ernstson;66;M;Örebro;66 år, djurskötare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;29;J;J;I;J;205556;Birgitta Nordlöw;72;K;Örebro;72 år, skolplanerare/rektor, City;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;30;J;J;I;J;205557;Peter Johansson;55;M;Örebro;55 år, projektledare, Ladugårdsängen;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;31;J;J;I;J;205558;Cecilia Hermansson;26;K;Örebro;26 år, måltidsekolog, City;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;32;J;J;I;J;205559;Marie Nordqvist;58;K;Örebro;58 år, företagare, Ladugårdsängen;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;33;J;J;I;J;205560;Fehret Hatic;49;M;Örebro;49 år, busschaufför, Tybble;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;34;J;J;I;J;205561;Madelene Karlsson;48;K;Örebro;48 år, Lillkyrka;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;35;J;J;I;J;205562;Lars-Gustav Ståhl;34;M;Örebro;34 år, kock, Almby;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;36;J;J;I;J;205563;Bella Kiin Mohammed;50;K;Örebro;50 år, Oxhagen;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;37;J;J;I;J;205564;Lars Jakobsson;71;M;Örebro;71 år, Lillkyrka;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;38;J;J;I;J;205565;Christer Johansson;73;M;Örebro;73 år, socionom, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;39;J;J;I;J;205566;Tina Fingal Swens;41;K;Örebro;41 år, socionom, Lundby;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;40;J;J;I;J;205567;Hannes Önander;42;M;Örebro;42 år, lärare, Brickeberg;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;41;J;J;I;J;205568;Khadra Elmi;27;K;Örebro;27 år, student, Oxhagen;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;42;J;J;I;J;205569;Linnéa Hed;20;K;Örebro;20 år, konsult/barista, City;349000;;J
+K;1880;Örebro;01;Örebro Norra;Centerpartiet;C;4;S;13888;43;J;J;I;J;205570;Jan Jorsäter;47;M;Örebro;47 år, IT-tekniker, City;349000;;J
+K;1880;Örebro;01;Örebro Norra;Feministiskt initiativ;FI;532;;;;N;J;J;I;512925;Nordling, Fredrika;27;K;Örebro;;0;;J
+K;1880;Örebro;01;Örebro Norra;Folkhemmet Sverige;;1388;;;;N;J;J;I;515661;Westin Hellertz, Pia;76;K;Örebro;;0;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;1;J;J;I;J;298360;Filip Astvald;31;M;Örebro;31 år, lagerarbetare, Tybble;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;2;J;J;I;J;298361;Maria Pohn;50;K;Örebro;50 år, sjuksköterska, Norrby;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;3;J;J;I;J;298362;Magnus Hedman;34;M;Örebro;34 år, färdtjänstchaufför, Norrby;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;4;J;J;I;J;298363;Erling Bronsberg;31;M;Örebro;31 år, student/städare, Baronbackarna;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;5;J;J;I;J;298364;Morgan Pettersson;27;M;Örebro;27 år, lärare, Brickebacken;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;6;J;J;I;J;298365;Ali Alhajahmad;59;M;Örebro;59 år, arbetslös, Vivalla;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;7;J;J;I;J;298366;Lars Nordin;62;M;Örebro;62 år, grundskollärare, Glanshammar;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;8;J;J;I;J;298367;Jan Tell;68;M;Örebro;68 år, pensionär, Tybble;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;9;J;J;I;J;298368;Mattias Backteman;31;M;Örebro;31 år, rörmokare, Söder;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;10;J;J;I;J;298369;Johan Björklund;38;M;Örebro;38 år, bussförare, Brevens bruk;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;11;J;J;I;J;298370;Stefan Stensvik;21;M;Örebro;21 år, omvårdnadspersonal, Baronbackarna;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;12;J;J;I;J;298371;Christer Herndal;40;M;Örebro;40 år, personlig assistent, Markbacken;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;13;J;J;I;J;298372;Mattias Åsberg;32;M;Örebro;32 år, punkmusiker/barnskötare, Ladugårdsängen;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;14;J;J;I;J;298373;Martin Gustafsson;25;M;Örebro;25 år, student, Campus;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;15;J;J;I;J;298374;Robin Uutela;25;M;Örebro;24 år, student/bruksarbetare, Brickebacken;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kommunistiska Partiet;K;471;S;14598;16;J;J;I;J;298375;Gustaf Lindholm;26;M;Örebro;26 år, student, Brickebacken;70000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;1;J;J;I;J;312584;Marlene Jörhag;45;K;Örebro;Lärare, Sörby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;2;J;J;I;J;312561;Lennart Bondeson;65;M;Örebro;Kommunalråd, Näsby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;3;J;J;I;J;312568;Sonja Kurt;45;K;Örebro;Gymnasielärare, Varberga;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;4;J;J;I;J;312567;Anders Hagström;58;M;Örebro;Företagare, Sörbyskogen;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;5;J;J;I;J;327936;Sara Maxe;38;K;Örebro;Kurator, Kårsta;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;6;J;J;I;J;312557;Johan Arenius;34;M;Örebro;Pastor, Södra Runnaby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;7;J;J;I;J;312555;Marie Holm;58;K;Örebro;Rektor Företagare, Centrum;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;8;J;J;I;J;327913;Håkan Stålbert;39;M;Örebro;Organisationssekreterare, Ekeby-Almby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;9;J;J;I;J;327944;Marie Magnusson;54;K;Örebro;Politisk sekreterare, Hovsta;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;10;J;J;I;J;327911;Magnus Lagergren;45;M;Örebro;Lärare, Odensbacken;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;11;J;J;I;J;312564;Ingalill Bergensten;67;K;Örebro;Journalist, Brevens Bruk;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;12;J;J;I;J;312594;Behcet Barsom;52;M;Örebro;Regionråd, Varberga;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;13;J;J;I;J;312572;Gunn Öjebrandt;68;K;Örebro;Senior, Brickeberg;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;14;J;J;I;J;327917;Sven-Erik Sahlén;70;M;Örebro;fd. förvaltningschef, Almby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;15;J;J;I;J;312579;Febro Oktay;44;K;Örebro;Tandsköterska, Nyponlunden;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;16;J;J;I;J;327921;Jonas Levin;38;M;Örebro;Trafikplanerare, Hovsta;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;17;J;J;I;J;330186;Anna Andersson;33;K;Örebro;Lärare, Sörbyängen;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;18;J;J;I;J;330187;Fredrik Norrström;30;M;Örebro;Fastighetsförvaltare, Gamla Hjärsta;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;19;J;J;I;J;327948;Nadde Kaniki;34;K;Örebro;Centrum;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;20;J;J;I;J;312590;Björn Sundström;50;M;Örebro;Chaufför, Hagaby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;21;J;J;I;J;312588;Christina Håkansson;59;K;Örebro;Enhetschef it, Hovsta;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;22;J;J;I;J;330191;Nils Jakobsson;20;M;Örebro;Säljare, Sörby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;23;J;J;I;J;312582;Elin Adebo;26;K;Örebro;Statsvetare, Baronbackarna;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;24;J;J;I;J;330193;David Gelinder;37;M;Örebro;Politisk sekreterare, Södra Runnaby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;25;J;J;I;J;330194;Maria Landh;68;K;Örebro;Pensionär, Hovsta;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;26;J;J;I;J;327924;Eva Sape;59;K;Örebro;Inredningsarkitekt, Centrum;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;27;J;J;I;J;312583;Lars O Molin;72;M;Örebro;Civilekonom, Rosta;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;28;J;J;I;J;312591;Ewa Sundkvist;63;K;Örebro;Senior, Adolfsberg;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;29;J;J;I;J;330198;Conny Harrysson;70;M;Örebro;Ekonom, Hovsta;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;30;J;J;I;J;330199;Layla Abou Tacca;36;K;Örebro;Lärare, Ormesta;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;31;J;J;I;J;330200;Georg Barsom;51;M;Örebro;Boendeutvecklare, Mellringe;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;32;J;J;I;J;330201;AnnaMaria Hedin;64;K;Örebro;Musikdirektör, Centrum;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;33;J;J;I;J;330202;Sven Landh;68;M;Örebro;Pensionär, Hovsta;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;34;J;J;I;J;327941;Erica Gidlöf;47;K;Örebro;Sjuksköterska, Nya Hjärsta;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;35;J;J;I;J;330204;Anders Östman;71;M;Örebro;Skolledare, Adolfsberg;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;36;J;J;I;J;330205;Ulrika Schortz;57;K;Örebro;Ekonom, Almby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;37;J;J;I;J;330206;Irfan Doganson;48;M;Örebro;Redovisningskonsult, Oxhagen;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;38;J;J;I;J;312586;Malin Silén;33;K;Örebro;Fil kand, Almby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;39;J;J;I;J;330208;Bengt Isacson;69;M;Örebro;Sjukhussjälavårdare, Stora Mellösa;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;40;J;J;I;J;312589;Birgitta Eklund;81;K;Örebro;Pensionär, Norrby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;41;J;J;I;J;330210;Jonas Ahlforn;36;M;Örebro;Präst, Bromsplan;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;42;J;J;I;J;330211;Linda Makris;45;K;Örebro;Samordnare, Lundby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;43;J;J;I;J;330212;Rasmus Lundin;36;M;Örebro;Civilekonom, Rynninge;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;44;J;J;I;J;330213;Felicia Magnusson;23;K;Örebro;Socionom, Norr;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;45;J;J;I;J;312569;Johan Svanberg;26;M;Örebro;Student, Baronbacken;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;46;J;J;I;J;330215;Gunvor Sundmark;83;K;Örebro;Pensionär, Adolfsberg;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;47;J;J;I;J;330216;Arne Christianson;82;M;Örebro;Pensionär, Öster;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;48;J;J;I;J;330217;Annika Andersson;55;K;Örebro;Marknadskoordinator, Brickeberg;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;49;J;J;I;J;330218;Göran Wall;65;M;Örebro;Sfi lärare, Södra Linfhult;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;50;J;J;I;J;330219;Carina Berg;52;K;Örebro;Teol.kand, Hampetorp;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;51;J;J;I;J;330220;Ricard Öjebrandt;69;M;Örebro;Konsult, Brickberg;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;52;J;J;I;J;312593;Rose-Marie Wilnerzon Thörn;53;K;Örebro;Fysioterapeut, Hagaby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;53;J;J;I;J;330222;Per Danielsson;70;M;Örebro;Journalist, Brickberg;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;54;J;J;I;J;327908;Margareta Ehnfors;76;K;Örebro;Professor emeritus, Nya Hjärsta;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;55;J;J;I;J;327923;Suleyman Alp;44;M;Örebro;Företagare, Hjärsta;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;56;J;J;I;J;330225;Silvia Östersjö;41;K;Örebro;Musiklärare, Rynningeåsen;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;57;J;J;I;J;330226;Jan Lindéh;75;M;Örebro;Pastor, Västra Oxhagen;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;58;J;J;I;J;312580;Brittis Sundström;45;K;Örebro;Förskolelärare, Hagaby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;59;J;J;I;J;330228;Owe Ranebäck;79;M;Örebro;Redaktör, Centrum;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;60;J;J;I;J;330229;Agne Ericsson;69;M;Örebro;Senior, Hagaby;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;61;J;J;I;J;330230;Helena Lingmar;51;K;Örebro;Folkhälsovetare, Stora Mellösa;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;62;J;J;I;J;330231;Nikolas Demetriades;49;M;Örebro;Pastor, Vintrosa;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;63;J;J;I;J;330232;Ingrid Tvelin;72;K;Örebro;Pensionär, Mellringe;280000;;J
+K;1880;Örebro;01;Örebro Norra;Kristdemokraterna;KD;68;S;14750;64;J;J;I;J;330233;Lars B Stenström;70;M;Örebro;Präst, Centrum;280000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;1;J;J;I;J;26950;Karolina Wallström;50;K;Örebro;50 år, kommunalråd, Glanshammar;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;2;J;J;I;J;151070;Carl Kling;22;M;Örebro;22 år, företagare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;3;J;J;I;J;26957;Ulrica Solver-Gustavsson;47;K;Örebro;47 år, legitimerad lärare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;4;J;J;I;J;26969;Patrik Jämtvall;40;M;Örebro;40 år, sektionschef, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;5;J;J;I;J;151073;Marianne Thyr;60;K;Örebro;60 år, ekonomiansvarig, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;6;J;J;I;J;151074;Magnus Riseby;48;M;Örebro;48 år, gymnasielärare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;7;J;J;I;J;26955;Olivia Angermayr;18;K;Örebro;18 år, studerande, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;8;J;J;I;J;26933;Johan Åqvist;66;M;Örebro;66 år, kriminalvårdare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;9;J;J;I;J;26940;Gunilla Werme;62;K;Örebro;62 år, skolsköterska/sjuksköterska, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;10;J;J;I;J;26954;Martin Mestanza;54;M;Örebro;54 år, föreningsledare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;11;J;J;I;J;151079;Marie Brodin;46;K;Örebro;46 år, kommunikationschef, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;12;J;J;I;J;49170;Johan Pehrson;50;M;Örebro;50 år, företagare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;13;J;J;I;J;151081;Britta Bjelle;77;K;Örebro;77 år, f.d. generaldirektör, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;14;J;J;I;J;26937;Larz Lundberg;73;M;Örebro;73 år, ingenjör, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;15;J;J;I;J;26938;Pia Delin;69;K;Örebro;69 år, pensionär, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;16;J;J;I;J;26962;Börje Ström;73;M;Örebro;73 år, musikdirektör, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;17;J;J;I;J;26966;Patricia Iranipour;20;K;Örebro;20 år, studerande, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;18;J;J;I;J;151086;Lars Modig;57;M;Örebro;57 år, vice VD, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;19;J;J;I;J;26923;Anna Ågerfalk;50;K;Örebro;50 år, oppostionsråd, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;20;J;J;I;J;26925;Willhelm Sundman;26;M;Örebro;26 år, ombudsman, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;21;J;J;I;J;151089;Katarina Palm;52;K;Örebro;52 år, läkare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;22;J;J;I;J;26943;Kamil Nissan;47;M;Örebro;47 år, gymnasielärare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;23;J;J;I;J;26952;Zara Anell;40;K;Örebro;40 år, pedagog, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;24;J;J;I;J;151092;Philip Kurt;27;M;Örebro;27 år, egenföretagare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;25;J;J;I;J;151093;Johanna Sundman;29;K;Örebro;29 år, lärare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;26;J;J;I;J;151094;Gregor Zubicky;63;M;Örebro;62 år, konstnärlig chef, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;27;J;J;I;J;26982;Åsa Johansson;75;K;Örebro;75 år, f.d. företagare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;28;J;J;I;J;151096;Mikael Rundgren;56;M;Örebro;56 år, hockeykonsulent, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;29;J;J;I;J;26968;Berit Tedsjö Winkler;67;K;Örebro;67 år, biblioteksassistent, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;30;J;J;I;J;151098;Mats Hammarlund;52;M;Örebro;52 år, projektledare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;31;J;J;I;J;26946;Anna Torgny;59;K;Örebro;59 år, jurist, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;32;J;J;I;J;26935;Henrik Johansson;48;M;Örebro;48 år, ombudsman, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;33;J;J;I;J;151101;Carin Melin;73;K;Örebro;73 år, advokat, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;34;J;J;I;J;26947;Pål Anders Stensson;66;M;Örebro;66 år, stadsarkitekt, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;35;J;J;I;J;151103;Helene Zeilot;57;K;Örebro;57 år, egenföretagare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;36;J;J;I;J;151104;Christer Johansson;72;M;Örebro;72 år, pastor, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;37;J;J;I;J;26942;Barbro Klaeson;69;K;Örebro;68 år, f.d. rektor, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;38;J;J;I;J;26949;Thomas Eckard;56;M;Örebro;56 år, ingenjör, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;39;J;J;I;J;26970;Kerstin Cederström;77;K;Örebro;77 år, f.d. specialpedagog, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;40;J;J;I;J;151108;Marcus Mattsson;32;M;Örebro;32 år, företagsrådgivare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;41;J;J;I;J;26964;Karin Forsling;46;K;Örebro;46 år, statsvetare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;42;J;J;I;J;26981;Marcus Lennselius;26;M;Örebro;26 år, skadereglerare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;43;J;J;I;J;151111;Gunnel Körner;73;K;Örebro;73 år, socionom, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;44;J;J;I;J;26929;Mats Einestam;59;M;Örebro;59 år, arbetskonsulet, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;45;J;J;I;J;151113;Clas Rosdahl;51;M;Örebro;51 år, advokat, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;46;J;J;I;J;151114;Margaretha Pehrson;72;K;Örebro;72 år, pensionär, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;47;J;J;I;J;151115;Erik Löfstedt;28;M;Örebro;28 år, studerande, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;48;J;J;I;J;26980;Gunilla Bursell;73;K;Örebro;73år, f.d. intendent, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;49;J;J;I;J;151117;Håkan Ullefors;53;M;Örebro;53 år, vårdare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;50;J;J;I;J;26961;Marika Westerberg;70;K;Örebro;70 år, specialpedagog, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;51;J;J;I;J;151119;Peter Ahlstrand;65;M;Örebro;65 år, egenföretagare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;52;J;J;I;J;151120;Ewa-Christina Sandgren;52;K;Örebro;52 år, specialpedagog, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;53;J;J;I;J;151121;Fredrik Beckmann;55;M;Örebro;55 år, producent, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;54;J;J;I;J;26976;Carina Johansson;64;K;Örebro;64 år, fritidsped/jurist, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;55;J;J;I;J;151123;Mats-Olof Liljegren;55;M;Örebro;56 år, rektor, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;56;J;J;I;J;151124;Sara Wirsen;32;K;Örebro;32 år, kundansvarig, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;57;J;J;I;J;151125;Lennart Eriksson;75;M;Örebro;76 år, pensionär, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;58;J;J;I;J;26930;Yvonne Nilsson;72;K;Örebro;73 år, f.d. socialchef, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;59;J;J;I;J;151127;Jerk Alton;81;M;Örebro;81 år, arkitekt, Glanshammar;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;60;J;J;I;J;151128;Lars Lennart Gustavsson;73;M;Örebro;73 år, pensionär, Gällersta;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;61;J;J;I;J;151129;Yngve Alkman;78;M;Örebro;78 år, egenföretagare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;62;J;J;I;J;151130;Britt-Marie Svensson;70;K;Örebro;70 år, pensionär, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;63;J;J;I;J;151131;Jerker Lindgren;56;M;Örebro;56 år, politisk sekreterare, Örebro;349000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;1;J;J;I;J;250643;Niclas Persson;29;M;Örebro;29 år, kommunalråd, Svampen;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;2;J;J;I;J;122949;Sara Richert;45;K;Örebro;45 år, kommunalråd, centrum;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;3;J;J;I;J;122958;Marcus Willén Ode;46;M;Örebro;46 år, präst, Örnsro;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;4;J;J;I;J;122968;Maria Sääf;38;K;Örebro;38 år, undersköterska, Norra Ormesta;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;5;J;J;I;J;123393;Lea Strandberg;54;K;Örebro;54 år, leg. psykolog/psykoterapeut, Stora Mellösa;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;6;J;J;I;J;123403;Pontus Olofsson;38;M;Örebro;38 år, pappa, norr;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;7;J;J;I;J;250649;Stina Ståhl;51;K;Örebro;51 år, leg. psykolog, Sörby;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;8;J;J;I;J;250650;Mohammad Tariq;24;M;Örebro;24 år, integrationsprojektledare/student, Tybble;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;9;J;J;I;J;250651;Anneli Weiner;58;K;Örebro;58 år, kommunikatör, öster;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;10;J;J;I;J;250652;Arvid Hanell;26;M;Örebro;26 år, student, väster;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;11;J;J;I;J;250653;Lotta Sörman;60;K;Örebro;60 år, lärare, Nya Hjärsta;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;12;J;J;I;J;122964;Sten Lang;66;M;Örebro;66 år, lärare, Södra Ladugårdsskogen;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;13;J;J;I;J;122974;Katarina Bååth;45;K;Örebro;45 år, jämlikhetsutvecklare, Sörbyängen;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;14;J;J;I;J;122946;Michael Horvath Dahlman;38;M;Örebro;38 år, psykolog, Almby;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;15;J;J;I;J;122965;Helena Bosved;34;K;Örebro;34 år, samhällsplanerare, Vintrosa;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;16;J;J;I;J;122961;Magnus Lander;37;M;Örebro;37 år, it-konsult, centrum;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;17;J;J;I;J;122978;Malin Bjarnefors;36;K;Örebro;36 år, distriktssekreterare, Rosta;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;18;J;J;I;J;122944;Jonas Eriksson;51;M;Örebro;51 år, gymnasielärare, Sörby;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;19;J;J;I;J;250661;Airton Valente Junior;44;M;Örebro;44 år, advokat/lärare, centrum;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;20;J;J;I;J;250662;Ammi Dahlén;47;K;Örebro;47 år. enhetschef, Holmen;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;21;J;J;I;J;123612;Tomas Dahlberg;58;M;Örebro;58 år, kulturchef, Rosta;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;22;J;J;I;J;250664;Helena Skogh;44;K;Örebro;44 år, psykologstudent, centralt väster;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;23;J;J;I;J;250665;Fredrik Welander;47;M;Örebro;47 år, pappa, öster;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;24;J;J;I;J;250666;Najibullah Zakhilwal;40;M;Örebro;40 år, tolk, Vivalla;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;25;J;J;I;J;123389;Ann-Kristin Spåls;45;K;Örebro;45 år, lärare, Garphyttan;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;26;J;J;I;J;123399;Gunnar Oest;74;M;Örebro;74 år, ekonom, Södermalm;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;27;J;J;I;J;250669;Krister Andreasen Hildingsson;58;M;Örebro;58 år, säkerhetssamordnare, Hjärsta;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;28;J;J;I;J;250670;Anna Uhlin Landh;48;K;Örebro;48 år, strateg för hållbar utveckling, Hjärsta;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;29;J;J;I;J;250671;Linus Lindén;45;M;Örebro;45 år, företagare, Mosås;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;30;J;J;I;J;123563;Olof Johansson;76;M;Örebro;76 år, fil. dr. universitetslektor, Axberg;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;31;J;J;I;J;250673;Kal Ström;41;M;Örebro;41 år, egenföretagare, norr;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14257;32;J;J;I;J;250674;Pia Lind;46;K;Örebro;46 år, biblioteksassistent, norr;175000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;1;J;J;I;J;122949;Sara Richert;45;K;Örebro;45 år, kommunalråd, centrum;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;2;J;J;I;J;250643;Niclas Persson;29;M;Örebro;29 år, kommunalråd, Svampen;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;3;J;J;I;J;122968;Maria Sääf;38;K;Örebro;38 år, undersköterska, Norra Ormesta;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;4;J;J;I;J;122958;Marcus Willén Ode;46;M;Örebro;46 år, präst, Örnsro;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;5;J;J;I;J;123393;Lea Strandberg;54;K;Örebro;54 år, leg. psykolog/psykoterapeut, Stora Mellösa;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;6;J;J;I;J;250650;Mohammad Tariq;24;M;Örebro;24 år, integrationsprojektledare/student, Tybble;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;7;J;J;I;J;250649;Stina Ståhl;51;K;Örebro;51 år, leg. psykolog, Sörby;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;8;J;J;I;J;123403;Pontus Olofsson;38;M;Örebro;38 år, pappa, norr;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;9;J;J;I;J;250653;Lotta Sörman;60;K;Örebro;60 år, lärare, Nya Hjärsta;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;10;J;J;I;J;122964;Sten Lang;66;M;Örebro;66 år, lärare, Södra Ladugårdsskogen;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;11;J;J;I;J;250651;Anneli Weiner;58;K;Örebro;58 år, kommunikatör, öster;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;12;J;J;I;J;250652;Arvid Hanell;26;M;Örebro;26 år, student, väster;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;13;J;J;I;J;122974;Katarina Bååth;45;K;Örebro;45 år, jämlikhetsutvecklare, Sörbyängen;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;14;J;J;I;J;122946;Michael Horvath Dahlman;38;M;Örebro;38 år, psykolog, Almby;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;15;J;J;I;J;122965;Helena Bosved;34;K;Örebro;34 år, samhällsplanerare, Vintrosa;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;16;J;J;I;J;122961;Magnus Lander;37;M;Örebro;37 år, it-konsult, centrum;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;17;J;J;I;J;122978;Malin Bjarnefors;36;K;Örebro;36 år, distriktssekreterare, Rosta;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;18;J;J;I;J;122944;Jonas Eriksson;51;M;Örebro;51 år, gymnasielärare, Sörby;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;19;J;J;I;J;250661;Airton Valente Junior;44;M;Örebro;44 år, advokat/lärare, centrum;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;20;J;J;I;J;250662;Ammi Dahlén;47;K;Örebro;47 år. enhetschef, Holmen;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;21;J;J;I;J;123612;Tomas Dahlberg;58;M;Örebro;58 år, kulturchef, Rosta;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;22;J;J;I;J;250664;Helena Skogh;44;K;Örebro;44 år, psykologstudent, centralt väster;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;23;J;J;I;J;250665;Fredrik Welander;47;M;Örebro;47 år, pappa, öster;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;24;J;J;I;J;250666;Najibullah Zakhilwal;40;M;Örebro;40 år, tolk, Vivalla;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;25;J;J;I;J;123389;Ann-Kristin Spåls;45;K;Örebro;45 år, lärare, Garphyttan;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;26;J;J;I;J;123399;Gunnar Oest;74;M;Örebro;74 år, ekonom, Södermalm;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;27;J;J;I;J;250669;Krister Andreasen Hildingsson;58;M;Örebro;58 år, säkerhetssamordnare, Hjärsta;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;28;J;J;I;J;250670;Anna Uhlin Landh;48;K;Örebro;48 år, strateg för hållbar utveckling, Hjärsta;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;29;J;J;I;J;250671;Linus Lindén;45;M;Örebro;45 år, företagare, Mosås;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;30;J;J;I;J;123563;Olof Johansson;76;M;Örebro;fil. dr. universitetslektor, Axberg;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;31;J;J;I;J;250673;Kal Ström;41;M;Örebro;41 år, egenföretagare, norr;174000;;J
+K;1880;Örebro;01;Örebro Norra;Miljöpartiet de gröna;MP;55;S;14258;32;J;J;I;J;250674;Pia Lind;46;K;Örebro;46 år, biblioteksassistent, norr;174000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;1;J;J;I;J;26435;Anders Åhrlin;40;M;Örebro;40 år, Kommunalråd, Lillkyrka;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;2;J;J;I;J;26436;Maria Haglund;54;K;Örebro;54 år, Kommunalråd, Väster;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;3;J;J;I;J;26437;Cecilia Askerskär Philipsson;39;K;Örebro;39 år, Socionom, Adolfsberg;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;4;J;J;I;J;26438;Maria Hedwall;26;K;Örebro;26 år, Student & Simlärare, Almby;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;5;J;J;I;J;26439;Daniel Granqvist;46;M;Örebro;46 år, Verksjurist, Adolfsberg;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;6;J;J;I;J;26440;Stefan Stark;49;M;Örebro;49 år, Bitr. ombudsman, Lundby;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;7;J;J;I;J;26441;Carina Börjesson;56;K;Örebro;56 år, Företagare, Latorp;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;8;J;J;I;J;26442;Emelie Jaxell;30;K;Örebro;30 år, Partiombudsman, Almby;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;9;J;J;I;J;26443;Hossein Azeri;62;M;Örebro;62 år, Dataingenjör, Adolfsberg;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;10;J;J;I;J;26444;Johan Kumlin;51;M;Örebro;51 år, Egenföretagare, Centrum;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;11;J;J;I;J;26445;Ulf Södersten;72;M;Örebro;72 år, fd officer, Adolfsberg;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;12;J;J;I;J;26446;Christopher Rydaeus;21;M;Örebro;21 år, Lärarstudent, Öster;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;13;J;J;I;J;26447;Anders Brandén;61;M;Örebro;61 år, Ekonom, Öster;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;14;J;J;I;J;26448;Hanna Rimmerfors;27;K;Örebro;27 år, Studerande, Sörbyängen;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;15;J;J;I;J;26449;Tomas Runnquist;54;M;Örebro;54 år, Entreprenör, Glanshammar;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;16;J;J;I;J;26450;Eva Leitzler;60;K;Örebro;60 år, Grafiker, Centrum;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;17;J;J;I;J;26451;Carl-Johan Wase;36;M;Örebro;36 år, Universitetslärare, Adolfsberg;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;18;J;J;I;N;26452;[inte lämnat förklaring];;;;;349000;;N
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;19;J;J;I;J;26453;Markus Lokander;21;M;Örebro;21 år, Montör, Väster;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;20;J;J;I;J;26454;Sara Dicksen;45;K;Örebro;45 år, Jurist, Björkhaga;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;21;J;J;I;J;26455;Eghbal Kamran;53;M;Örebro;53 år, Socionom, Näsby;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;22;J;J;I;J;26456;Krister Eriksson;52;M;Örebro;52 år, Verkstadschef, Nya Hjärsta;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;23;J;J;I;J;26457;Lennart Karlsson;71;M;Örebro;71 år, Trädgårdsmästare, Odensbacken;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;24;J;J;I;J;26458;Sebastian Cehlin;27;M;Örebro;27 år, Arbetsförmedlare, Centrum;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;25;J;J;I;J;26459;Meriton Rexhepi;29;M;Örebro;29 år, Skolpedagog, Eklunda;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;26;J;J;I;J;26460;Lars Elamson;70;M;Örebro;70 år, Pensionär, Väster;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;27;J;J;I;J;26462;Magnus Johansson;47;M;Örebro;47 år, Fritidspedagog, Björkhaga;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;28;J;J;I;J;26463;Kristian Berglund;41;M;Örebro;41 år, Enhetschef, Holmen;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;29;J;J;I;N;26464;[inte lämnat förklaring];;;;;349000;;N
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;30;J;J;I;J;26465;Marcus Ahltun;36;M;Örebro;36 år, Lärare, Ekeby-Almby;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;31;J;J;I;J;26466;Krister Tornberg;71;M;Örebro;71 år, fd hyresråd, Sörbyängen;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;32;J;J;I;J;26467;Ann-Katrine Jondelius;70;K;Örebro;70 år, fd biståndshandläggare, Adolfsberg;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;33;J;J;I;J;26468;Yvonne Käll;76;K;Örebro;76 år, Pensionär, Gamla Hjärsta;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;34;J;J;I;J;26469;Solbritt Fontander;74;K;Örebro;74 år, Jurist & Civilekonom, Varberga;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;35;J;J;I;J;26470;Mustaf Cali Siyaad;52;M;Örebro;52 år, Tolk, Vivalla;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;36;J;J;I;J;26471;Marianne Hamp;72;K;Örebro;72 år, Socionom, Almby;349000;;J
+K;1880;Örebro;01;Örebro Norra;Moderaterna;M;1;S;12121;37;J;J;I;J;26472;Christina Bremer;70;K;Örebro;70 år, Säljkonsult, Oxhagen;349000;;J
+K;1880;Örebro;01;Örebro Norra;Piratpartiet;PP;524;S;15270;1;J;J;I;J;432938;Mathias Segerlund;35;M;Örebro;37, IT-konsult;14000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;1;J;J;I;J;77720;Daniel Spiik;41;M;Örebro;41 år, entreprenör;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;2;J;J;I;J;77722;Helena Ståhl;30;K;Örebro;30 år, politisk sekreterare;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;3;J;J;I;J;77724;David Larsson;43;M;Örebro;43 år, politisk sekreterare;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;4;J;J;I;J;77725;Abraham Begallo;55;M;Örebro;55 år, restaurangägare;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;5;J;J;I;N;77726;[inte lämnat förklaring];;;;;174000;;N
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;6;J;J;I;J;77727;Sigvard Blixt;70;M;Örebro;70 år, pensionär;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;7;J;J;I;J;77729;Magnus Ingwall;79;M;Örebro;79 år, pensionär;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;8;J;J;I;J;77730;Terés Björndahl;49;K;Örebro;49 år, yrkeschaufför;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;9;J;J;I;J;77731;Bo Ammer;69;M;Örebro;69 år, ingenjör;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;10;J;J;I;J;77733;Arne Björklund;79;M;Örebro;79 år, busschaufför;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;11;J;J;I;J;77734;Habib Brini;69;M;Örebro;69 år, billackerare;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;12;J;J;I;J;77735;Ulf Nilsson;72;M;Örebro;72 år, förvaltare;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;13;J;J;I;J;77736;Nils Gunnarsson;73;M;Örebro;73 år, revisor;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;14;J;J;I;J;77737;Lena Lindén;66;K;Örebro;66 år, undersköterska;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;15;J;J;I;J;77738;Ulf Gustafsson;59;M;Örebro;59 år, projektledare;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;16;J;J;I;J;77739;Josefin Pettersson;27;K;Örebro;27 år, yrkeschaufför;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;17;J;J;I;J;77740;Ture Thureson;73;M;Örebro;73 år, ingenjör;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;18;J;J;I;J;77741;Peter Fredriksson;58;M;Örebro;58 år, nämndeman;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;19;J;J;I;J;77742;Mikael Östlind;43;M;Örebro;43 år, egenföretagare;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;20;J;J;I;J;77743;Johan Dahlström;39;M;Örebro;39 år, pumpmaskinist;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;21;J;J;I;J;77744;Jan-Olov Dahlström;61;M;Örebro;61 år, jordbrukare;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;22;J;J;I;J;77745;Dan Friberg;53;M;Örebro;53 år, besiktningsman;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;23;J;J;I;J;77746;Gunilla Fredriksson;70;K;Örebro;70 år, pensionär;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;24;J;J;I;J;77747;Lars Norrman;71;M;Örebro;71 år, snickare;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;25;J;J;I;J;77748;Leif Åke Persson;73;M;Örebro;73 år, bergskoleingenjör;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;26;J;J;I;J;77749;Sergej Salnikov;21;M;Örebro;21 år, studerande civilekonom;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;27;J;J;I;J;77750;Johan Andersson;48;M;Örebro;48 år, projektledare;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;12858;28;J;J;I;J;77751;Michael Larsson;59;M;Örebro;59 år, arbetssökande;174000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;1;J;J;I;J;77720;Daniel Spiik;41;M;Örebro;41 år, entreprenör;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;2;J;J;I;J;77722;Helena Ståhl;30;K;Örebro;30 år, politisk sekreterare;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;3;J;J;I;J;77724;David Larsson;43;M;Örebro;43 år, politisk sekreterare;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;4;J;J;I;J;77725;Abraham Begallo;55;M;Örebro;55 år, restaurangägare;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;5;J;J;I;N;77726;[inte lämnat förklaring];;;;;175000;;N
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;6;J;J;I;J;77727;Sigvard Blixt;70;M;Örebro;70 år, pensionär;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;7;J;J;I;J;77736;Nils Gunnarsson;73;M;Örebro;73 år, revisor;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;8;J;J;I;J;77729;Magnus Ingwall;79;M;Örebro;79 år, pensionär;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;9;J;J;I;J;77730;Terés Björndahl;49;K;Örebro;49 år, yrkeschaufför;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;10;J;J;I;J;77731;Bo Ammer;69;M;Örebro;69 år, ingenjör;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;11;J;J;I;J;77733;Arne Björklund;79;M;Örebro;79 år, busschaufför;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;12;J;J;I;J;77734;Habib Brini;69;M;Örebro;69 år, billackerare;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;13;J;J;I;J;77735;Ulf Nilsson;72;M;Örebro;72 år, förvaltare;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;14;J;J;I;J;77737;Lena Lindén;66;K;Örebro;66 år, undersköterska;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;15;J;J;I;J;77738;Ulf Gustafsson;59;M;Örebro;59 år, projektledare;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;16;J;J;I;J;77739;Josefin Pettersson;27;K;Örebro;27 år, yrkeschaufför;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;17;J;J;I;J;77740;Ture Thureson;73;M;Örebro;73 år, ingenjör;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;18;J;J;I;J;77741;Peter Fredriksson;58;M;Örebro;58 år, nämndeman;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;19;J;J;I;J;77742;Mikael Östlind;43;M;Örebro;43 år, egenföretagare;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;20;J;J;I;J;77743;Johan Dahlström;39;M;Örebro;39 år, pumpmaskinist;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;21;J;J;I;J;77744;Jan-Olov Dahlström;61;M;Örebro;61 år, jordbrukare;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;22;J;J;I;J;77745;Dan Friberg;53;M;Örebro;53 år, besiktningsman;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;23;J;J;I;J;77746;Gunilla Fredriksson;70;K;Örebro;70 år, pensionär;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;24;J;J;I;J;77747;Lars Norrman;71;M;Örebro;71 år, snickare;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;25;J;J;I;J;77748;Leif Åke Persson;73;M;Örebro;73 år, bergskoleingenjör;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;26;J;J;I;J;77749;Sergej Salnikov;21;M;Örebro;21 år, studerande civilekonom;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;27;J;J;I;J;77750;Johan Andersson;48;M;Örebro;48 år, projektledare;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;14552;28;J;J;I;J;77751;Michael Larsson;59;M;Örebro;59 år, arbetssökande;175000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;1;J;J;I;J;77720;Daniel Spiik;41;M;Örebro;41 år, entreprenör;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;2;J;J;I;J;77722;Helena Ståhl;30;K;Örebro;30 år, politisk sekreterare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;3;J;J;I;J;77724;David Larsson;43;M;Örebro;43 år, politisk sekreterare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;4;J;J;I;J;77725;Abraham Begallo;55;M;Örebro;55 år, restaurangägare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;5;J;J;I;J;77727;Sigvard Blixt;70;M;Örebro;70 år, pensionär;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;6;J;J;I;J;77729;Magnus Ingwall;79;M;Örebro;79 år, pensionär;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;7;J;J;I;J;77730;Terés Björndahl;49;K;Örebro;49 år, yrkeschaufför;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;8;J;J;I;J;77731;Bo Ammer;69;M;Örebro;69 år, ingenjör;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;9;J;J;I;J;77733;Arne Björklund;79;M;Örebro;79 år, busschaufför;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;10;J;J;I;J;77734;Habib Brini;69;M;Örebro;69 år, billackerare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;11;J;J;I;J;77735;Ulf Nilsson;72;M;Örebro;72 år, förvaltare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;12;J;J;I;J;77736;Nils Gunnarsson;73;M;Örebro;73 år, revisor;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;13;J;J;I;J;77737;Lena Lindén;66;K;Örebro;66 år, undersköterska;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;14;J;J;I;J;77738;Ulf Gustafsson;59;M;Örebro;59 år, projektledare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;15;J;J;I;J;77739;Josefin Pettersson;27;K;Örebro;27 år, yrkeschaufför;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;16;J;J;I;J;77740;Ture Thureson;73;M;Örebro;73 år, ingenjör;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;17;J;J;I;J;77741;Peter Fredriksson;58;M;Örebro;58 år, nämndeman;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;18;J;J;I;J;77742;Mikael Östlind;43;M;Örebro;43 år, egenföretagare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;19;J;J;I;J;77745;Dan Friberg;53;M;Örebro;53 år, besiktningsman;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;20;J;J;I;J;77746;Gunilla Fredriksson;70;K;Örebro;70 år, pensionär;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;21;J;J;I;J;77747;Lars Norrman;71;M;Örebro;71 år, snickare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;22;J;J;I;J;77748;Leif Åke Persson;73;M;Örebro;73 år, bergskoleingenjör;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;23;J;J;I;J;77749;Sergej Salnikov;21;M;Örebro;21 år, studerande civilekonom;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;24;J;J;I;J;77750;Johan Andersson;48;M;Örebro;48 år, projektledare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15711;25;J;J;I;J;77751;Michael Larsson;59;M;Örebro;59 år, arbetssökande;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;1;J;J;I;J;77720;Daniel Spiik;41;M;Örebro;41 år, entreprenör;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;2;J;J;I;J;77722;Helena Ståhl;30;K;Örebro;30 år, politisk sekreterare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;3;J;J;I;J;77724;David Larsson;43;M;Örebro;43 år, politisk sekreterare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;4;J;J;I;J;77725;Abraham Begallo;55;M;Örebro;55 år, restaurangägare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;5;J;J;I;J;77727;Sigvard Blixt;70;M;Örebro;70 år, pensionär;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;6;J;J;I;J;77736;Nils Gunnarsson;73;M;Örebro;73 år, revisor;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;7;J;J;I;J;77729;Magnus Ingwall;79;M;Örebro;79 år, pensionär;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;8;J;J;I;J;77730;Terés Björndahl;49;K;Örebro;49 år, yrkeschaufför;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;9;J;J;I;J;77731;Bo Ammer;69;M;Örebro;69 år, ingenjör;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;10;J;J;I;J;77733;Arne Björklund;79;M;Örebro;79 år, busschaufför;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;11;J;J;I;J;77734;Habib Brini;69;M;Örebro;69 år, billackerare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;12;J;J;I;J;77735;Ulf Nilsson;72;M;Örebro;72 år, förvaltare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;13;J;J;I;J;77737;Lena Lindén;66;K;Örebro;66 år, undersköterska;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;14;J;J;I;J;77738;Ulf Gustafsson;59;M;Örebro;59 år, projektledare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;15;J;J;I;J;77739;Josefin Pettersson;27;K;Örebro;27 år, yrkeschaufför;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;16;J;J;I;J;77740;Ture Thureson;73;M;Örebro;73 år, ingenjör;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;17;J;J;I;J;77741;Peter Fredriksson;58;M;Örebro;58 år, nämndeman;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;18;J;J;I;J;77742;Mikael Östlind;43;M;Örebro;43 år, egenföretagare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;19;J;J;I;J;77745;Dan Friberg;53;M;Örebro;53 år, besiktningsman;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;20;J;J;I;J;77746;Gunilla Fredriksson;70;K;Örebro;70 år, pensionär;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;21;J;J;I;J;77747;Lars Norrman;71;M;Örebro;71 år, snickare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;22;J;J;I;J;77748;Leif Åke Persson;73;M;Örebro;73 år, bergskoleingenjör;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;23;J;J;I;J;77749;Sergej Salnikov;21;M;Örebro;21 år, studerande civilekonom;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;24;J;J;I;J;77750;Johan Andersson;48;M;Örebro;48 år, projektledare;100000;;J
+K;1880;Örebro;01;Örebro Norra;Sverigedemokraterna;SD;110;S;15712;25;J;J;I;J;77751;Michael Larsson;59;M;Örebro;59 år, arbetssökande;100000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;1;J;J;I;J;351349;Martha Wicklund;39;K;Örebro;Kriminalvårdare, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;2;J;J;I;J;351350;Murad Artin;58;M;Örebro;Kommunalråd, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;3;J;J;I;J;351351;Linn Josefsson;32;K;Örebro;Miljöcontroller, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;4;J;J;I;J;351352;Cecilia Lönn Elgstrand;37;K;Örebro;Politisk sekreterare, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;5;J;J;I;J;351353;Faisa Maxamed;38;K;Örebro;Mottagning Samordnare, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;6;J;J;I;J;351354;Sunil Jayasooriya;53;M;Örebro;Livsmedelsarbetare, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;7;J;J;I;J;351355;Stefan Nilsson;48;M;Örebro;Färdtjänst chaufför, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;8;J;J;I;J;351356;Matilda Fredriksson;32;K;Örebro;Doktorand, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;9;J;J;I;J;351357;Ingemar Savonen;66;M;Örebro;Pensionär,Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;10;J;J;I;J;351358;Johannes Nilsson;38;M;Örebro;Statsvetare, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;11;J;J;I;J;351359;Nadja Awad;27;K;Örebro;Lärare, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;12;J;J;I;J;351360;Maria Westerholm;49;K;Örebro;Elevassistent, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;13;J;J;I;J;351361;Nadia Abdellah;33;K;Örebro;Kommunikatör, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;14;J;J;I;J;351362;Kåge Svensson;74;M;Örebro;Pensionär, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;15;J;J;I;J;351363;Per-Åke Wilén;49;M;Örebro;IT samordnare, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;16;J;J;I;J;351364;Zozan Baransson;37;K;Örebro;Integrationshandläggare, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;17;J;J;I;J;351365;Mats Nilsson;58;M;Örebro;Lagerarbetare, Odensbacken;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;18;J;J;I;J;351366;Christina Hermansson Placon;74;K;Örebro;Sjuksköterska/Tolk, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;19;J;J;I;J;351367;Mahdi Warsama;57;M;Örebro;Filmregissör Lärare Författare, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;20;J;J;I;J;351368;Lisbeth Lund;73;K;Örebro;Pensionär, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;21;J;J;I;J;351369;Andreas Luperi;42;M;Örebro;Produktionsansvarig SCB, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;22;J;J;I;J;351370;Tore Mellberg;73;M;Örebro;Pensionär, Garphyttan;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;23;J;J;I;J;351371;Marie Krantz;42;K;Örebro;Boendestödjare, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;24;J;J;I;J;351372;Andrej Wicklund;33;M;Örebro;IT ansvarig, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;25;J;J;I;J;361862;Gunnel Lindblom;71;K;Örebro;f.d. Barnmorska, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;26;J;J;I;J;351374;Aligul Erkisi;27;M;Örebro;Matematik NO lärare, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;27;J;J;I;J;351375;Birgitta Karlsson Feldgrill;53;K;Örebro;Undersköterska, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;28;J;J;I;J;351376;Jonas Ohlsson;25;M;Örebro;Ingenjör, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;29;J;J;I;J;351377;Henric Elgstrand;34;M;Örebro;Socionom, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;30;J;J;I;J;351378;Barbara Komnik;70;K;Örebro;f.d. Socionom, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;31;J;J;I;J;351379;Elisabeth Nilesol;27;K;Örebro;Städare,Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;32;J;J;I;J;351380;Tomas Hjort;41;M;Örebro;Egen företagare, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;33;J;J;I;J;351381;Eva Sohlborg;62;K;Örebro;Socialarbetare, Gällersta;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;34;J;J;I;J;351382;Chafic Dana;40;M;Örebro;Kriminalvårdare,Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;35;J;J;I;J;351383;Mette Holck;68;K;Örebro;Pensionär, Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;36;J;J;I;J;351384;Hassan Alizadeh;61;M;Örebro;Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Vänsterpartiet;V;5;S;15122;37;J;J;I;J;351385;Malin Tinjan;38;K;Örebro;Örebro;340000;;J
+K;1880;Örebro;01;Örebro Norra;Örebropartiet;ÖrP;1152;S;15069;1;J;J;I;J;391379;Markus Allard;28;M;Örebro;28 år, Journalist;150000;;J
+K;1880;Örebro;01;Örebro Norra;Örebropartiet;ÖrP;1152;S;15069;2;J;J;I;J;391439;Peter Springare;62;M;Örebro;62 år, Polis;150000;;J
+K;1880;Örebro;01;Örebro Norra;Örebropartiet;ÖrP;1152;S;15069;3;J;J;I;J;391440;Adam Heivert Taylor;25;M;Örebro;25 år, Snickare;150000;;J
+K;1880;Örebro;01;Örebro Norra;Örebropartiet;ÖrP;1152;S;15069;4;J;J;I;J;391441;Karolina Strindberg;28;K;Örebro;28 år, Fritidshemslärare;150000;;J
+K;1880;Örebro;01;Örebro Norra;Örebropartiet;ÖrP;1152;S;15069;5;J;J;I;J;391442;Milian Penahi;22;M;Örebro;22 år, Studerande;150000;;J
+K;1880;Örebro;01;Örebro Norra;Örebropartiet;ÖrP;1152;S;15069;6;J;J;I;J;391443;Simon Strindberg;26;M;Örebro;26 år, IT-tekniker;150000;;J
+K;1880;Örebro;01;Örebro Norra;Örebropartiet;ÖrP;1152;S;15069;7;J;J;I;J;391444;Vincent De Verdier;22;M;Örebro;22 år, Psykologistudent;150000;;J
+K;1880;Örebro;01;Örebro Norra;Örebropartiet;ÖrP;1152;S;15069;8;J;J;I;J;391445;Axel Frick;25;M;Örebro;25 år, Tjänsteförvaltare;150000;;J
+K;1880;Örebro;01;Örebro Norra;Örebropartiet;ÖrP;1152;S;15069;9;J;J;I;J;391446;Edvard Welander;27;M;Örebro;27 år, Läkarstudent;150000;;J
+K;1880;Örebro;01;Örebro Norra;Örebropartiet;ÖrP;1152;S;15069;10;J;J;I;J;391447;Marie-Louise Ringström;50;K;Örebro;50 år, Serviceledare;150000;;J
+K;1880;Örebro;01;Örebro Norra;Örebropartiet;ÖrP;1152;S;15069;11;J;J;I;J;391448;Emil Stangefelt;21;M;Örebro;20 år, Sjukvårdsbiträde;150000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;1;J;J;I;J;241542;Kenneth Nilsson;42;M;Örebro;41 år, Kommunalråd;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;2;J;J;I;J;241543;Agneta Blom;56;K;Örebro;56 år, Universitetslektor;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;3;J;J;I;J;237708;John Johansson;36;M;Örebro;36 år, Politisk sekreterare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;4;J;J;I;J;241545;Jessica Ekerbring;46;K;Örebro;46 år, Kommunalråd;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;5;J;J;I;J;224172;Jan Zetterqvist;59;M;Örebro;59 år, LO-funktionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;6;J;J;I;J;241547;Ullis Sandberg;46;K;Örebro;46 år, Kommunalråd;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;7;J;J;I;J;241548;Kemal Hoso;43;M;Örebro;43 år, Logistiker;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;8;J;J;I;J;241549;Linda Smedberg;32;K;Örebro;32 år, Förskollärare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;9;J;J;I;J;241550;Jonas Håård;45;M;Örebro;45 år, Gruppledare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;10;J;J;I;J;237693;Gun Carlestam Lewin;78;K;Örebro;78 år, Socionom;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;11;J;J;I;J;237694;Per Lilja;53;M;Örebro;53 år, Butiksbiträde;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;12;J;J;I;J;224173;Ida Eklund;31;K;Örebro;31 år, Socionom;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;13;J;J;I;J;241554;Ameer Sachet;55;M;Örebro;55 år, Arbetsförmedlare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;14;J;J;I;J;224181;Fisun Yavas;62;K;Örebro;62 år, Inspektör;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;15;J;J;I;J;9298;CH Nordström;32;M;Örebro;32 år, Jurist;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;16;J;J;I;J;237707;Eva Eriksson;53;K;Örebro;53 år, Gymnasielärare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;17;J;J;I;J;224184;Kent Vallén;67;M;Örebro;67 år, Projektarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;18;J;J;I;J;241559;Marie Brorson;51;K;Örebro;51 år, Distriktssköterska;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;19;J;J;I;J;241560;Mårten Karlsson;40;M;Örebro;40 år, Industriarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;20;J;J;I;J;241561;Carina Toro Hartman;61;K;Örebro;61 år, Lärare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;21;J;J;I;J;237684;Johan Gynnhammar;25;M;Örebro;25 år, Studerande;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;22;J;J;I;J;241563;Susann Wallin;52;K;Örebro;52 år, Elevassistent;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;23;J;J;I;J;241564;Roger Andersson;73;M;Örebro;73 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;24;J;J;I;J;224185;Jennan Hannah;32;K;Örebro;32 år, Utredare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;25;J;J;I;J;241566;Thomas Börjesson;42;M;Örebro;42 år, Statstjänsteman;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;26;J;J;I;J;241567;Anna Hedström;54;K;Örebro;54 år, Administratör;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;27;J;J;I;J;241568;Frederick Axewill;47;M;Örebro;47 år, HR-specialist;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;28;J;J;I;J;241569;Britten Uhlin;69;K;Örebro;69 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;29;J;J;I;J;241570;Allan Armaghan;63;M;Örebro;63 år, Egen företagare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;30;J;J;I;J;237697;Madelene Vikström;37;K;Örebro;37 år ,Lagerarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;31;J;J;I;J;237700;Pell Uno Larsson;77;M;Örebro;77 år, Leg Sjuksköterska;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;32;J;J;I;J;224193;Inger Karlsson;66;K;Örebro;66 år, Fd kock;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;33;J;J;I;J;237728;Hanna Altunkaynak;49;M;Örebro;49 år, Lärare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;34;J;J;I;J;241575;Eva Ströman;64;K;Örebro;64 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;35;J;J;I;J;237720;Per-Åke Sundkvist;50;M;Örebro;51 år, Terminalarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;36;J;J;I;J;241577;Carina Oskarsson;49;K;Örebro;49 år, Organisationsombudsman;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;37;J;J;I;J;241578;Elmar Jehle;67;M;Örebro;67 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;38;J;J;I;J;241579;Jenny Thor;38;K;Örebro;38 år, Projektsamordnare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;39;J;J;I;J;241580;Per-Erik Andersson;66;M;Örebro;66 år, Socionom;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;40;J;J;I;J;224195;Margareta Jansson;71;K;Örebro;71 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;41;J;J;I;J;241582;Nisvet Okanovic;57;M;Örebro;57 år, Arbetsledare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;42;J;J;I;J;241583;Maja Gullberg;28;K;Örebro;28 år, Genusvetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;43;J;J;I;J;241584;Nabil Mouchi;32;M;Örebro;32 år, Budget/finansstrateg;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;44;J;J;I;J;237727;Carina Svedenberg Widqvist;56;K;Örebro;56 år, Lärare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;45;J;J;I;J;241586;Viktor Tullgren;34;M;Örebro;34 år, Civilingenjör;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;46;J;J;I;J;241587;Tania Cifuentes Valdés;44;K;Örebro;44 år, Socionom;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;47;J;J;I;J;241588;Antti Ahtiainen;56;M;Örebro;56 år, Statlig utredare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;48;J;J;I;J;241589;Elisabeth Karlsson Zuaw;62;K;Örebro;61 år, Gymnasielärare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;49;J;J;I;J;241590;Tomas Sandberg;60;M;Örebro;60 år, Industriarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;50;J;J;I;J;241591;Melina Nuhic;26;K;Örebro;26 år, Arbetskonsulent;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;51;J;J;I;N;224170;[inte lämnat förklaring];;;;;180000;;N
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;52;J;J;I;J;241593;Sheneh Armaghan;31;K;Örebro;32 år, Larmoperatör;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;53;J;J;I;J;241594;Christer Karlsson;63;M;Örebro;63 år, Miljöarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;54;J;J;I;J;241595;Sandra Zenginel;31;K;Örebro;31 år, Samhällsvetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;55;J;J;I;N;241596;[inte lämnat förklaring];;;;;180000;;N
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;56;J;J;I;J;241597;Carola Johansson;60;K;Örebro;60 år, Avdelningsföreståndare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;57;J;J;I;J;224190;Henrik Hagel;42;M;Örebro;42 år, Lagerarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;58;J;J;I;J;224200;Lisbeth Estrada Pérez;27;K;Örebro;27 år, Student;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;59;J;J;I;J;224188;Jan-Eric B Norman;54;M;Örebro;54 år, Föreläsare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;60;J;J;I;J;241601;Inger Blückert;54;K;Örebro;54 år, Kommunvägledare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;61;J;J;I;J;241602;Nils-Erik Pettersson;75;M;Örebro;75 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;62;J;J;I;J;224201;Kerstin Nilsson;67;K;Örebro;66 år, Universitetsadjunkt;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;63;J;J;I;J;241604;Husein Hoso;62;M;Örebro;62 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;64;J;J;I;J;241605;Bodil Svensson;68;K;Örebro;68 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;65;J;J;I;J;241606;Håkan Schultz;59;M;Örebro;59 år, Handläggare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;66;J;J;I;J;241607;Vera Peci;46;K;Örebro;46 år, Frisör;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;67;J;J;I;J;241608;Leif Gustafsson;73;M;Örebro;74 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;68;J;J;I;J;224187;Alex Elofsson;19;K;Örebro;19 år, Studerande;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;69;J;J;I;J;241610;Mirsad Omerbasic;64;M;Örebro;64 år, Kock;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;70;J;J;I;J;224189;Inger Westerberg;56;K;Örebro;56 år, Handledare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;71;J;J;I;J;241612;Per-Ove Karlsson;56;M;Örebro;56 år, Kommunalarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14138;72;J;J;I;J;241613;Shahla Ojagh Nasab;46;K;Örebro;45 år, Utbildningsledare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;1;J;J;I;J;241542;Kenneth Nilsson;42;M;Örebro;41 år, Kommunalråd;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;2;J;J;I;J;241543;Agneta Blom;56;K;Örebro;56 år, Universitetslektor;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;3;J;J;I;J;237708;John Johansson;36;M;Örebro;36 år, Politisk sekreterare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;4;J;J;I;J;241545;Jessica Ekerbring;46;K;Örebro;46 år, Kommunalråd;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;5;J;J;I;J;224172;Jan Zetterqvist;59;M;Örebro;59 år, LO-funktionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;6;J;J;I;J;241547;Ullis Sandberg;46;K;Örebro;46 år, Kommunalråd;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;7;J;J;I;J;241548;Kemal Hoso;43;M;Örebro;43 år, Logistiker;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;8;J;J;I;J;241549;Linda Smedberg;32;K;Örebro;32 år, Förskollärare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;9;J;J;I;J;241550;Jonas Håård;45;M;Örebro;45 år, Gruppledare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;10;J;J;I;J;237693;Gun Carlestam Lewin;78;K;Örebro;78 år, Socionom;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;11;J;J;I;J;237694;Per Lilja;53;M;Örebro;53 år, Butiksbiträde;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;12;J;J;I;J;224173;Ida Eklund;31;K;Örebro;31 år, Socionom;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;13;J;J;I;J;241554;Ameer Sachet;55;M;Örebro;55 år, Arbetsförmedlare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;14;J;J;I;J;224181;Fisun Yavas;62;K;Örebro;62 år, Inspektör;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;15;J;J;I;J;9298;CH Nordström;32;M;Örebro;32 år, Jurist;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;16;J;J;I;J;237707;Eva Eriksson;53;K;Örebro;53 år, Gymnasielärare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;17;J;J;I;J;224184;Kent Vallén;67;M;Örebro;67 år, Projektarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;18;J;J;I;J;241559;Marie Brorson;51;K;Örebro;51 år, Distriktssköterska;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;19;J;J;I;J;241560;Mårten Karlsson;40;M;Örebro;40 år, Industriarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;20;J;J;I;J;241561;Carina Toro Hartman;61;K;Örebro;61 år, Lärare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;21;J;J;I;J;237684;Johan Gynnhammar;25;M;Örebro;25 år, Studerande;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;22;J;J;I;J;241563;Susann Wallin;52;K;Örebro;52 år, Elevassistent;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;23;J;J;I;J;241564;Roger Andersson;73;M;Örebro;73 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;24;J;J;I;J;224185;Jennan Hannah;32;K;Örebro;32 år, Utredare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;25;J;J;I;J;241566;Thomas Börjesson;42;M;Örebro;42 år, Statstjänsteman;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;26;J;J;I;J;241567;Anna Hedström;54;K;Örebro;54 år, Administratör;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;27;J;J;I;J;241568;Frederick Axewill;47;M;Örebro;47 år, HR-specialist;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;28;J;J;I;J;241569;Britten Uhlin;69;K;Örebro;69 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;29;J;J;I;J;241570;Allan Armaghan;63;M;Örebro;63 år, Egen företagare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;30;J;J;I;J;237697;Madelene Vikström;37;K;Örebro;37 år, Lagerarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;31;J;J;I;J;237700;Pell Uno Larsson;77;M;Örebro;77 år, Leg.Sjuksköterska;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;32;J;J;I;J;224193;Inger Karlsson;66;K;Örebro;66 år, Fd kock;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;33;J;J;I;J;237728;Hanna Altunkaynak;49;M;Örebro;49 år, Lärare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;34;J;J;I;J;241575;Eva Ströman;64;K;Örebro;64 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;35;J;J;I;J;237720;Per-Åke Sundkvist;50;M;Örebro;51 år, Terminalarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;36;J;J;I;J;241577;Carina Oskarsson;49;K;Örebro;49 år, Organisationsombudsman;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;37;J;J;I;J;241578;Elmar Jehle;67;M;Örebro;67 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;38;J;J;I;J;241579;Jenny Thor;38;K;Örebro;38 år, Projektsamordnare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;39;J;J;I;J;241580;Per-Erik Andersson;66;M;Örebro;66 år, Socionom;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;40;J;J;I;J;224195;Margareta Jansson;71;K;Örebro;71 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;41;J;J;I;J;241582;Nisvet Okanovic;57;M;Örebro;57 år, Arbetsledare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;42;J;J;I;J;241583;Maja Gullberg;28;K;Örebro;28 år, Genusvetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;43;J;J;I;J;241584;Nabil Mouchi;32;M;Örebro;32 år, Budget/finansstrateg;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;44;J;J;I;J;237727;Carina Svedenberg Widqvist;56;K;Örebro;56 år, Lärare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;45;J;J;I;J;241586;Viktor Tullgren;34;M;Örebro;34 år, Civilingenjör;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;46;J;J;I;J;241587;Tania Cifuentes Valdés;44;K;Örebro;44 år, Socionom;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;47;J;J;I;J;241588;Antti Ahtiainen;56;M;Örebro;56 år, Statlig utredare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;48;J;J;I;J;241589;Elisabeth Karlsson Zuaw;62;K;Örebro;61 år, Gymnasielärare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;49;J;J;I;J;241590;Tomas Sandberg;60;M;Örebro;60 år, Industriarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;50;J;J;I;J;241591;Melina Nuhic;26;K;Örebro;26 år, Arbetskonsulent;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;51;J;J;I;N;224170;[inte lämnat förklaring];;;;;180000;;N
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;52;J;J;I;J;241593;Sheneh Armaghan;31;K;Örebro;32 år, Larmoperatör;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;53;J;J;I;J;241594;Christer Karlsson;63;M;Örebro;63 år, Miljöarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;54;J;J;I;J;241595;Sandra Zenginel;31;K;Örebro;31 år, Samhällsvetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;55;J;J;I;J;244544;K-G Granberg;72;M;Örebro;72 år, Egen företagare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;56;J;J;I;J;244545;Elvy Wennerström;71;K;Örebro;71 år, Fd Förskollärare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;57;J;J;I;J;237716;Thony Mossberg;42;M;Örebro;42 år, Lagerarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;58;J;J;I;J;244547;Kerstin Persson;71;K;Örebro;71 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;59;J;J;I;J;224164;Bulent Oktay;43;M;Örebro;43 år, Administratör;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;60;J;J;I;J;244549;Siv Lord;73;K;Örebro;73 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;61;J;J;I;J;244550;André Schwenk;34;M;Örebro;34 år, Skötare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;62;J;J;I;J;224183;Ellen Leijen;24;K;Örebro;24 år, Studerande;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;63;J;J;I;J;224192;Björn Ramstedt;56;M;Örebro;56 år, Lagerarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;64;J;J;I;J;224157;Fredrika Jakobsen;49;K;Örebro;49 år, Barnskötare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;65;J;J;I;J;244554;Gösta Eriksson;70;M;Örebro;70 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;66;J;J;I;J;224155;Carina Dahl;61;K;Örebro;60 år, Ombudsman;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;67;J;J;I;J;244556;Magnus Hellström;44;M;Örebro;44 år, Terminalarbetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;68;J;J;I;J;244557;Inger Göransson;79;K;Örebro;79 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;69;J;J;I;J;244558;Agneta Åsgård Larsson;66;K;Örebro;66 år, Pensionär;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;70;J;J;I;J;224153;Eva-Lena Jansson;55;K;Örebro;55 år, Riksdagsledamot;180000;;J
+K;1880;Örebro;02;Örebro Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;14177;71;J;J;I;J;224197;Linda Linder;38;K;Örebro;38 år, Statsvetare;180000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;1;J;J;I;J;205528;Per-Åke Sörman;42;M;Örebro;42 år, kommunalråd, Ervalla;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;2;J;J;I;J;57883;Linda Larsson;38;K;Örebro;38 år, lärare, Markbacken;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;3;J;J;I;J;57869;Seydou Bahngoura;56;M;Örebro;56 år, mentor, Stora Mellösa;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;4;J;J;I;J;57885;Gunhild Wallin;68;K;Örebro;68 år, barnmorska, Närkes Kil;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;5;J;J;I;J;58667;Anders Olsson;50;M;Örebro;50 år, kanslisamordnare, Askersby;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;6;J;J;I;J;8537;Elisabeth Malmqvist;32;K;Örebro;32 år, politisk sekreterare, Vintrosa;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;7;J;J;I;J;57888;Abdulrahman Ibrahim Muhammed;28;M;Örebro;28 år, fritidsledare, Vivalla;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;8;J;J;I;J;205535;Jimmy Nordengren;39;M;Örebro;39 år, rektor, Ervalla;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;9;J;J;I;J;205536;Annika Tholster;51;K;Örebro;51 år, kurator, Vintrosa;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;10;J;J;I;J;57875;Maria Comstedt;50;K;Örebro;50 år, konsult, Norr;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;11;J;J;I;J;57870;Börje Gustafsson;81;M;Örebro;81 år, pensionär, Sörbyängen;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;12;J;J;I;J;57882;Xerxes Åkerfeldt;20;M;Örebro;20 år, student, City;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;13;J;J;I;J;58647;Emilia Molin;27;K;Örebro;27 år, politisk sekreterare, City;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;14;J;J;I;J;57890;Bo Åkerling;66;M;Örebro;66 år, åkare, Asker;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;15;J;J;I;J;205542;Alexandra Royal;40;K;Örebro;40 år, lärare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;16;J;J;I;J;205543;Lars Johansson;66;M;Örebro;66 år, naturvärnare, Ormesta;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;17;J;J;I;J;57893;Marita Andersson;58;K;Örebro;58 år, ingenjör, City;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;18;J;J;I;J;57879;Charlotte Edberger Jangdin;55;K;Örebro;55 år, lärare, City;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;19;J;J;I;J;57889;Jessika Edetun Falk;51;K;Örebro;51 år, hälsoinspiratör, Adolfsberg;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;20;J;J;I;J;205547;Anders Gunnarsson;70;M;Örebro;70 år, lantbrukare, Vintrosa;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;21;J;J;I;J;205548;Ann-Kristin Sundqvist;41;K;Örebro;41 år, lärare, Järle;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;22;J;J;I;J;57891;Regina Salenfors Andersson;63;K;Örebro;63 år, lantbrukare, Lännäs;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;23;J;J;I;J;58669;Håkan Gransten;68;M;Örebro;68 år, fastighetschef, Ervalla;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;24;J;J;I;J;58674;Ingvar Bilock;66;M;Örebro;66 år, pensionär/konstnär, Norra Bro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;25;J;J;I;J;57887;Kamran Kabinejad;42;M;Örebro;42 år, verksamhetschef, Adolfsberg;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;26;J;J;I;J;205553;Annbrith Wiman;67;K;Örebro;67 år, pensionär, Asker;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;27;J;J;I;J;205554;Lucas Persson;23;M;Örebro;23 år, student, Brickebacken;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;28;J;J;I;J;57897;Ingvar Ernstson;66;M;Örebro;66 år, djurskötare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;29;J;J;I;J;205556;Birgitta Nordlöw;72;K;Örebro;72 år, skolplanerare/rektor, City;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;30;J;J;I;J;205557;Peter Johansson;55;M;Örebro;55 år, projektledare, Ladugårdsängen;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;31;J;J;I;J;205558;Cecilia Hermansson;26;K;Örebro;26 år, måltidsekolog, City;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;32;J;J;I;J;205559;Marie Nordqvist;58;K;Örebro;58 år, företagare, Ladugårdsängen;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;33;J;J;I;J;205560;Fehret Hatic;49;M;Örebro;49 år, busschaufför, Tybble;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;34;J;J;I;J;205561;Madelene Karlsson;48;K;Örebro;48 år, Lillkyrka;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;35;J;J;I;J;205562;Lars-Gustav Ståhl;34;M;Örebro;34 år, kock, Almby;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;36;J;J;I;J;205563;Bella Kiin Mohammed;50;K;Örebro;50 år, Oxhagen;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;37;J;J;I;J;205564;Lars Jakobsson;71;M;Örebro;71 år, Lillkyrka;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;38;J;J;I;J;205565;Christer Johansson;73;M;Örebro;73 år, socionom, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;39;J;J;I;J;205566;Tina Fingal Swens;41;K;Örebro;41 år, socionom, Lundby;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;40;J;J;I;J;205567;Hannes Önander;42;M;Örebro;42 år, lärare, Brickeberg;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;41;J;J;I;J;205568;Khadra Elmi;27;K;Örebro;27 år, student, Oxhagen;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;42;J;J;I;J;205569;Linnéa Hed;20;K;Örebro;20 år, konsult/barista, City;349000;;J
+K;1880;Örebro;02;Örebro Södra;Centerpartiet;C;4;S;13888;43;J;J;I;J;205570;Jan Jorsäter;47;M;Örebro;47 år, IT-tekniker, City;349000;;J
+K;1880;Örebro;02;Örebro Södra;Feministiskt initiativ;FI;532;;;;N;J;J;I;512925;Nordling, Fredrika;27;K;Örebro;;0;;J
+K;1880;Örebro;02;Örebro Södra;Folkhemmet Sverige;;1388;;;;N;J;J;I;515661;Westin Hellertz, Pia;76;K;Örebro;;0;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;1;J;J;I;J;298360;Filip Astvald;31;M;Örebro;31 år, lagerarbetare, Tybble;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;2;J;J;I;J;298361;Maria Pohn;50;K;Örebro;50 år, sjuksköterska, Norrby;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;3;J;J;I;J;298362;Magnus Hedman;34;M;Örebro;34 år, färdtjänstchaufför, Norrby;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;4;J;J;I;J;298363;Erling Bronsberg;31;M;Örebro;31 år, student/städare, Baronbackarna;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;5;J;J;I;J;298364;Morgan Pettersson;27;M;Örebro;27 år, lärare, Brickebacken;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;6;J;J;I;J;298365;Ali Alhajahmad;59;M;Örebro;59 år, arbetslös, Vivalla;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;7;J;J;I;J;298366;Lars Nordin;62;M;Örebro;62 år, grundskollärare, Glanshammar;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;8;J;J;I;J;298367;Jan Tell;68;M;Örebro;68 år, pensionär, Tybble;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;9;J;J;I;J;298368;Mattias Backteman;31;M;Örebro;31 år, rörmokare, Söder;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;10;J;J;I;J;298369;Johan Björklund;38;M;Örebro;38 år, bussförare, Brevens bruk;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;11;J;J;I;J;298370;Stefan Stensvik;21;M;Örebro;21 år, omvårdnadspersonal, Baronbackarna;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;12;J;J;I;J;298371;Christer Herndal;40;M;Örebro;40 år, personlig assistent, Markbacken;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;13;J;J;I;J;298372;Mattias Åsberg;32;M;Örebro;32 år, punkmusiker/barnskötare, Ladugårdsängen;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;14;J;J;I;J;298373;Martin Gustafsson;25;M;Örebro;25 år, student, Campus;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;15;J;J;I;J;298374;Robin Uutela;25;M;Örebro;24 år, student/bruksarbetare, Brickebacken;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kommunistiska Partiet;K;471;S;14598;16;J;J;I;J;298375;Gustaf Lindholm;26;M;Örebro;26 år, student, Brickebacken;70000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;1;J;J;I;J;312584;Marlene Jörhag;45;K;Örebro;Lärare, Sörby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;2;J;J;I;J;312561;Lennart Bondeson;65;M;Örebro;Kommunalråd, Näsby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;3;J;J;I;J;312568;Sonja Kurt;45;K;Örebro;Gymnasielärare, Varberga;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;4;J;J;I;J;312567;Anders Hagström;58;M;Örebro;Företagare, Sörbyskogen;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;5;J;J;I;J;327936;Sara Maxe;38;K;Örebro;Kurator, Kårsta;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;6;J;J;I;J;312557;Johan Arenius;34;M;Örebro;Pastor, Södra Runnaby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;7;J;J;I;J;312555;Marie Holm;58;K;Örebro;Rektor Företagare, Centrum;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;8;J;J;I;J;327913;Håkan Stålbert;39;M;Örebro;Organisationssekreterare, Ekeby-Almby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;9;J;J;I;J;327944;Marie Magnusson;54;K;Örebro;Politisk sekreterare, Hovsta;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;10;J;J;I;J;327911;Magnus Lagergren;45;M;Örebro;Lärare, Odensbacken;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;11;J;J;I;J;312564;Ingalill Bergensten;67;K;Örebro;Journalist, Brevens Bruk;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;12;J;J;I;J;312594;Behcet Barsom;52;M;Örebro;Regionråd, Varberga;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;13;J;J;I;J;312572;Gunn Öjebrandt;68;K;Örebro;Senior, Brickeberg;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;14;J;J;I;J;327917;Sven-Erik Sahlén;70;M;Örebro;fd. förvaltningschef, Almby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;15;J;J;I;J;312579;Febro Oktay;44;K;Örebro;Tandsköterska, Nyponlunden;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;16;J;J;I;J;327921;Jonas Levin;38;M;Örebro;Trafikplanerare, Hovsta;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;17;J;J;I;J;330186;Anna Andersson;33;K;Örebro;Lärare, Sörbyängen;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;18;J;J;I;J;330187;Fredrik Norrström;30;M;Örebro;Fastighetsförvaltare, Gamla Hjärsta;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;19;J;J;I;J;327948;Nadde Kaniki;34;K;Örebro;Centrum;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;20;J;J;I;J;312590;Björn Sundström;50;M;Örebro;Chaufför, Hagaby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;21;J;J;I;J;312588;Christina Håkansson;59;K;Örebro;Enhetschef it, Hovsta;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;22;J;J;I;J;330191;Nils Jakobsson;20;M;Örebro;Säljare, Sörby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;23;J;J;I;J;312582;Elin Adebo;26;K;Örebro;Statsvetare, Baronbackarna;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;24;J;J;I;J;330193;David Gelinder;37;M;Örebro;Politisk sekreterare, Södra Runnaby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;25;J;J;I;J;330194;Maria Landh;68;K;Örebro;Pensionär, Hovsta;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;26;J;J;I;J;327924;Eva Sape;59;K;Örebro;Inredningsarkitekt, Centrum;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;27;J;J;I;J;312583;Lars O Molin;72;M;Örebro;Civilekonom, Rosta;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;28;J;J;I;J;312591;Ewa Sundkvist;63;K;Örebro;Senior, Adolfsberg;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;29;J;J;I;J;330198;Conny Harrysson;70;M;Örebro;Ekonom, Hovsta;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;30;J;J;I;J;330199;Layla Abou Tacca;36;K;Örebro;Lärare, Ormesta;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;31;J;J;I;J;330200;Georg Barsom;51;M;Örebro;Boendeutvecklare, Mellringe;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;32;J;J;I;J;330201;AnnaMaria Hedin;64;K;Örebro;Musikdirektör, Centrum;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;33;J;J;I;J;330202;Sven Landh;68;M;Örebro;Pensionär, Hovsta;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;34;J;J;I;J;327941;Erica Gidlöf;47;K;Örebro;Sjuksköterska, Nya Hjärsta;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;35;J;J;I;J;330204;Anders Östman;71;M;Örebro;Skolledare, Adolfsberg;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;36;J;J;I;J;330205;Ulrika Schortz;57;K;Örebro;Ekonom, Almby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;37;J;J;I;J;330206;Irfan Doganson;48;M;Örebro;Redovisningskonsult, Oxhagen;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;38;J;J;I;J;312586;Malin Silén;33;K;Örebro;Fil kand, Almby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;39;J;J;I;J;330208;Bengt Isacson;69;M;Örebro;Sjukhussjälavårdare, Stora Mellösa;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;40;J;J;I;J;312589;Birgitta Eklund;81;K;Örebro;Pensionär, Norrby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;41;J;J;I;J;330210;Jonas Ahlforn;36;M;Örebro;Präst, Bromsplan;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;42;J;J;I;J;330211;Linda Makris;45;K;Örebro;Samordnare, Lundby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;43;J;J;I;J;330212;Rasmus Lundin;36;M;Örebro;Civilekonom, Rynninge;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;44;J;J;I;J;330213;Felicia Magnusson;23;K;Örebro;Socionom, Norr;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;45;J;J;I;J;312569;Johan Svanberg;26;M;Örebro;Student, Baronbacken;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;46;J;J;I;J;330215;Gunvor Sundmark;83;K;Örebro;Pensionär, Adolfsberg;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;47;J;J;I;J;330216;Arne Christianson;82;M;Örebro;Pensionär, Öster;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;48;J;J;I;J;330217;Annika Andersson;55;K;Örebro;Marknadskoordinator, Brickeberg;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;49;J;J;I;J;330218;Göran Wall;65;M;Örebro;Sfi lärare, Södra Linfhult;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;50;J;J;I;J;330219;Carina Berg;52;K;Örebro;Teol.kand, Hampetorp;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;51;J;J;I;J;330220;Ricard Öjebrandt;69;M;Örebro;Konsult, Brickberg;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;52;J;J;I;J;312593;Rose-Marie Wilnerzon Thörn;53;K;Örebro;Fysioterapeut, Hagaby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;53;J;J;I;J;330222;Per Danielsson;70;M;Örebro;Journalist, Brickberg;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;54;J;J;I;J;327908;Margareta Ehnfors;76;K;Örebro;Professor emeritus, Nya Hjärsta;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;55;J;J;I;J;327923;Suleyman Alp;44;M;Örebro;Företagare, Hjärsta;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;56;J;J;I;J;330225;Silvia Östersjö;41;K;Örebro;Musiklärare, Rynningeåsen;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;57;J;J;I;J;330226;Jan Lindéh;75;M;Örebro;Pastor, Västra Oxhagen;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;58;J;J;I;J;312580;Brittis Sundström;45;K;Örebro;Förskolelärare, Hagaby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;59;J;J;I;J;330228;Owe Ranebäck;79;M;Örebro;Redaktör, Centrum;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;60;J;J;I;J;330229;Agne Ericsson;69;M;Örebro;Senior, Hagaby;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;61;J;J;I;J;330230;Helena Lingmar;51;K;Örebro;Folkhälsovetare, Stora Mellösa;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;62;J;J;I;J;330231;Nikolas Demetriades;49;M;Örebro;Pastor, Vintrosa;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;63;J;J;I;J;330232;Ingrid Tvelin;72;K;Örebro;Pensionär, Mellringe;280000;;J
+K;1880;Örebro;02;Örebro Södra;Kristdemokraterna;KD;68;S;14750;64;J;J;I;J;330233;Lars B Stenström;70;M;Örebro;Präst, Centrum;280000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;1;J;J;I;J;26950;Karolina Wallström;50;K;Örebro;50 år, kommunalråd, Glanshammar;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;2;J;J;I;J;151070;Carl Kling;22;M;Örebro;22 år, företagare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;3;J;J;I;J;26957;Ulrica Solver-Gustavsson;47;K;Örebro;47 år, legitimerad lärare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;4;J;J;I;J;26969;Patrik Jämtvall;40;M;Örebro;40 år, sektionschef, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;5;J;J;I;J;151073;Marianne Thyr;60;K;Örebro;60 år, ekonomiansvarig, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;6;J;J;I;J;151074;Magnus Riseby;48;M;Örebro;48 år, gymnasielärare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;7;J;J;I;J;26955;Olivia Angermayr;18;K;Örebro;18 år, studerande, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;8;J;J;I;J;26933;Johan Åqvist;66;M;Örebro;66 år, kriminalvårdare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;9;J;J;I;J;26940;Gunilla Werme;62;K;Örebro;62 år, skolsköterska/sjuksköterska, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;10;J;J;I;J;26954;Martin Mestanza;54;M;Örebro;54 år, föreningsledare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;11;J;J;I;J;151079;Marie Brodin;46;K;Örebro;46 år, kommunikationschef, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;12;J;J;I;J;49170;Johan Pehrson;50;M;Örebro;50 år, företagare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;13;J;J;I;J;151081;Britta Bjelle;77;K;Örebro;77 år, f.d. generaldirektör, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;14;J;J;I;J;26937;Larz Lundberg;73;M;Örebro;73 år, ingenjör, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;15;J;J;I;J;26938;Pia Delin;69;K;Örebro;69 år, pensionär, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;16;J;J;I;J;26962;Börje Ström;73;M;Örebro;73 år, musikdirektör, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;17;J;J;I;J;26966;Patricia Iranipour;20;K;Örebro;20 år, studerande, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;18;J;J;I;J;151086;Lars Modig;57;M;Örebro;57 år, vice VD, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;19;J;J;I;J;26923;Anna Ågerfalk;50;K;Örebro;50 år, oppostionsråd, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;20;J;J;I;J;26925;Willhelm Sundman;26;M;Örebro;26 år, ombudsman, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;21;J;J;I;J;151089;Katarina Palm;52;K;Örebro;52 år, läkare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;22;J;J;I;J;26943;Kamil Nissan;47;M;Örebro;47 år, gymnasielärare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;23;J;J;I;J;26952;Zara Anell;40;K;Örebro;40 år, pedagog, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;24;J;J;I;J;151092;Philip Kurt;27;M;Örebro;27 år, egenföretagare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;25;J;J;I;J;151093;Johanna Sundman;29;K;Örebro;29 år, lärare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;26;J;J;I;J;151094;Gregor Zubicky;63;M;Örebro;62 år, konstnärlig chef, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;27;J;J;I;J;26982;Åsa Johansson;75;K;Örebro;75 år, f.d. företagare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;28;J;J;I;J;151096;Mikael Rundgren;56;M;Örebro;56 år, hockeykonsulent, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;29;J;J;I;J;26968;Berit Tedsjö Winkler;67;K;Örebro;67 år, biblioteksassistent, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;30;J;J;I;J;151098;Mats Hammarlund;52;M;Örebro;52 år, projektledare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;31;J;J;I;J;26946;Anna Torgny;59;K;Örebro;59 år, jurist, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;32;J;J;I;J;26935;Henrik Johansson;48;M;Örebro;48 år, ombudsman, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;33;J;J;I;J;151101;Carin Melin;73;K;Örebro;73 år, advokat, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;34;J;J;I;J;26947;Pål Anders Stensson;66;M;Örebro;66 år, stadsarkitekt, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;35;J;J;I;J;151103;Helene Zeilot;57;K;Örebro;57 år, egenföretagare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;36;J;J;I;J;151104;Christer Johansson;72;M;Örebro;72 år, pastor, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;37;J;J;I;J;26942;Barbro Klaeson;69;K;Örebro;68 år, f.d. rektor, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;38;J;J;I;J;26949;Thomas Eckard;56;M;Örebro;56 år, ingenjör, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;39;J;J;I;J;26970;Kerstin Cederström;77;K;Örebro;77 år, f.d. specialpedagog, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;40;J;J;I;J;151108;Marcus Mattsson;32;M;Örebro;32 år, företagsrådgivare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;41;J;J;I;J;26964;Karin Forsling;46;K;Örebro;46 år, statsvetare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;42;J;J;I;J;26981;Marcus Lennselius;26;M;Örebro;26 år, skadereglerare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;43;J;J;I;J;151111;Gunnel Körner;73;K;Örebro;73 år, socionom, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;44;J;J;I;J;26929;Mats Einestam;59;M;Örebro;59 år, arbetskonsulet, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;45;J;J;I;J;151113;Clas Rosdahl;51;M;Örebro;51 år, advokat, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;46;J;J;I;J;151114;Margaretha Pehrson;72;K;Örebro;72 år, pensionär, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;47;J;J;I;J;151115;Erik Löfstedt;28;M;Örebro;28 år, studerande, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;48;J;J;I;J;26980;Gunilla Bursell;73;K;Örebro;73år, f.d. intendent, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;49;J;J;I;J;151117;Håkan Ullefors;53;M;Örebro;53 år, vårdare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;50;J;J;I;J;26961;Marika Westerberg;70;K;Örebro;70 år, specialpedagog, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;51;J;J;I;J;151119;Peter Ahlstrand;65;M;Örebro;65 år, egenföretagare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;52;J;J;I;J;151120;Ewa-Christina Sandgren;52;K;Örebro;52 år, specialpedagog, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;53;J;J;I;J;151121;Fredrik Beckmann;55;M;Örebro;55 år, producent, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;54;J;J;I;J;26976;Carina Johansson;64;K;Örebro;64 år, fritidsped/jurist, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;55;J;J;I;J;151123;Mats-Olof Liljegren;55;M;Örebro;56 år, rektor, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;56;J;J;I;J;151124;Sara Wirsen;32;K;Örebro;32 år, kundansvarig, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;57;J;J;I;J;151125;Lennart Eriksson;75;M;Örebro;76 år, pensionär, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;58;J;J;I;J;26930;Yvonne Nilsson;72;K;Örebro;73 år, f.d. socialchef, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;59;J;J;I;J;151127;Jerk Alton;81;M;Örebro;81 år, arkitekt, Glanshammar;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;60;J;J;I;J;151128;Lars Lennart Gustavsson;73;M;Örebro;73 år, pensionär, Gällersta;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;61;J;J;I;J;151129;Yngve Alkman;78;M;Örebro;78 år, egenföretagare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;62;J;J;I;J;151130;Britt-Marie Svensson;70;K;Örebro;70 år, pensionär, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Liberalerna (tidigare Folkpartiet);L;3;S;13443;63;J;J;I;J;151131;Jerker Lindgren;56;M;Örebro;56 år, politisk sekreterare, Örebro;349000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;1;J;J;I;J;250643;Niclas Persson;29;M;Örebro;29 år, kommunalråd, Svampen;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;2;J;J;I;J;122949;Sara Richert;45;K;Örebro;45 år, kommunalråd, centrum;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;3;J;J;I;J;122958;Marcus Willén Ode;46;M;Örebro;46 år, präst, Örnsro;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;4;J;J;I;J;122968;Maria Sääf;38;K;Örebro;38 år, undersköterska, Norra Ormesta;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;5;J;J;I;J;123393;Lea Strandberg;54;K;Örebro;54 år, leg. psykolog/psykoterapeut, Stora Mellösa;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;6;J;J;I;J;123403;Pontus Olofsson;38;M;Örebro;38 år, pappa, norr;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;7;J;J;I;J;250649;Stina Ståhl;51;K;Örebro;51 år, leg. psykolog, Sörby;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;8;J;J;I;J;250650;Mohammad Tariq;24;M;Örebro;24 år, integrationsprojektledare/student, Tybble;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;9;J;J;I;J;250651;Anneli Weiner;58;K;Örebro;58 år, kommunikatör, öster;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;10;J;J;I;J;250652;Arvid Hanell;26;M;Örebro;26 år, student, väster;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;11;J;J;I;J;250653;Lotta Sörman;60;K;Örebro;60 år, lärare, Nya Hjärsta;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;12;J;J;I;J;122964;Sten Lang;66;M;Örebro;66 år, lärare, Södra Ladugårdsskogen;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;13;J;J;I;J;122974;Katarina Bååth;45;K;Örebro;45 år, jämlikhetsutvecklare, Sörbyängen;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;14;J;J;I;J;122946;Michael Horvath Dahlman;38;M;Örebro;38 år, psykolog, Almby;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;15;J;J;I;J;122965;Helena Bosved;34;K;Örebro;34 år, samhällsplanerare, Vintrosa;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;16;J;J;I;J;122961;Magnus Lander;37;M;Örebro;37 år, it-konsult, centrum;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;17;J;J;I;J;122978;Malin Bjarnefors;36;K;Örebro;36 år, distriktssekreterare, Rosta;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;18;J;J;I;J;122944;Jonas Eriksson;51;M;Örebro;51 år, gymnasielärare, Sörby;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;19;J;J;I;J;250661;Airton Valente Junior;44;M;Örebro;44 år, advokat/lärare, centrum;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;20;J;J;I;J;250662;Ammi Dahlén;47;K;Örebro;47 år. enhetschef, Holmen;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;21;J;J;I;J;123612;Tomas Dahlberg;58;M;Örebro;58 år, kulturchef, Rosta;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;22;J;J;I;J;250664;Helena Skogh;44;K;Örebro;44 år, psykologstudent, centralt väster;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;23;J;J;I;J;250665;Fredrik Welander;47;M;Örebro;47 år, pappa, öster;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;24;J;J;I;J;250666;Najibullah Zakhilwal;40;M;Örebro;40 år, tolk, Vivalla;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;25;J;J;I;J;123389;Ann-Kristin Spåls;45;K;Örebro;45 år, lärare, Garphyttan;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;26;J;J;I;J;123399;Gunnar Oest;74;M;Örebro;74 år, ekonom, Södermalm;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;27;J;J;I;J;250669;Krister Andreasen Hildingsson;58;M;Örebro;58 år, säkerhetssamordnare, Hjärsta;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;28;J;J;I;J;250670;Anna Uhlin Landh;48;K;Örebro;48 år, strateg för hållbar utveckling, Hjärsta;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;29;J;J;I;J;250671;Linus Lindén;45;M;Örebro;45 år, företagare, Mosås;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;30;J;J;I;J;123563;Olof Johansson;76;M;Örebro;76 år, fil. dr. universitetslektor, Axberg;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;31;J;J;I;J;250673;Kal Ström;41;M;Örebro;41 år, egenföretagare, norr;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14257;32;J;J;I;J;250674;Pia Lind;46;K;Örebro;46 år, biblioteksassistent, norr;175000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;1;J;J;I;J;122949;Sara Richert;45;K;Örebro;45 år, kommunalråd, centrum;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;2;J;J;I;J;250643;Niclas Persson;29;M;Örebro;29 år, kommunalråd, Svampen;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;3;J;J;I;J;122968;Maria Sääf;38;K;Örebro;38 år, undersköterska, Norra Ormesta;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;4;J;J;I;J;122958;Marcus Willén Ode;46;M;Örebro;46 år, präst, Örnsro;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;5;J;J;I;J;123393;Lea Strandberg;54;K;Örebro;54 år, leg. psykolog/psykoterapeut, Stora Mellösa;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;6;J;J;I;J;250650;Mohammad Tariq;24;M;Örebro;24 år, integrationsprojektledare/student, Tybble;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;7;J;J;I;J;250649;Stina Ståhl;51;K;Örebro;51 år, leg. psykolog, Sörby;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;8;J;J;I;J;123403;Pontus Olofsson;38;M;Örebro;38 år, pappa, norr;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;9;J;J;I;J;250653;Lotta Sörman;60;K;Örebro;60 år, lärare, Nya Hjärsta;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;10;J;J;I;J;122964;Sten Lang;66;M;Örebro;66 år, lärare, Södra Ladugårdsskogen;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;11;J;J;I;J;250651;Anneli Weiner;58;K;Örebro;58 år, kommunikatör, öster;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;12;J;J;I;J;250652;Arvid Hanell;26;M;Örebro;26 år, student, väster;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;13;J;J;I;J;122974;Katarina Bååth;45;K;Örebro;45 år, jämlikhetsutvecklare, Sörbyängen;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;14;J;J;I;J;122946;Michael Horvath Dahlman;38;M;Örebro;38 år, psykolog, Almby;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;15;J;J;I;J;122965;Helena Bosved;34;K;Örebro;34 år, samhällsplanerare, Vintrosa;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;16;J;J;I;J;122961;Magnus Lander;37;M;Örebro;37 år, it-konsult, centrum;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;17;J;J;I;J;122978;Malin Bjarnefors;36;K;Örebro;36 år, distriktssekreterare, Rosta;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;18;J;J;I;J;122944;Jonas Eriksson;51;M;Örebro;51 år, gymnasielärare, Sörby;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;19;J;J;I;J;250661;Airton Valente Junior;44;M;Örebro;44 år, advokat/lärare, centrum;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;20;J;J;I;J;250662;Ammi Dahlén;47;K;Örebro;47 år. enhetschef, Holmen;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;21;J;J;I;J;123612;Tomas Dahlberg;58;M;Örebro;58 år, kulturchef, Rosta;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;22;J;J;I;J;250664;Helena Skogh;44;K;Örebro;44 år, psykologstudent, centralt väster;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;23;J;J;I;J;250665;Fredrik Welander;47;M;Örebro;47 år, pappa, öster;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;24;J;J;I;J;250666;Najibullah Zakhilwal;40;M;Örebro;40 år, tolk, Vivalla;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;25;J;J;I;J;123389;Ann-Kristin Spåls;45;K;Örebro;45 år, lärare, Garphyttan;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;26;J;J;I;J;123399;Gunnar Oest;74;M;Örebro;74 år, ekonom, Södermalm;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;27;J;J;I;J;250669;Krister Andreasen Hildingsson;58;M;Örebro;58 år, säkerhetssamordnare, Hjärsta;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;28;J;J;I;J;250670;Anna Uhlin Landh;48;K;Örebro;48 år, strateg för hållbar utveckling, Hjärsta;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;29;J;J;I;J;250671;Linus Lindén;45;M;Örebro;45 år, företagare, Mosås;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;30;J;J;I;J;123563;Olof Johansson;76;M;Örebro;fil. dr. universitetslektor, Axberg;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;31;J;J;I;J;250673;Kal Ström;41;M;Örebro;41 år, egenföretagare, norr;174000;;J
+K;1880;Örebro;02;Örebro Södra;Miljöpartiet de gröna;MP;55;S;14258;32;J;J;I;J;250674;Pia Lind;46;K;Örebro;46 år, biblioteksassistent, norr;174000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;1;J;J;I;J;26435;Anders Åhrlin;40;M;Örebro;40 år, Kommunalråd, Lillkyrka;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;2;J;J;I;J;26436;Maria Haglund;54;K;Örebro;54 år, Kommunalråd, Väster;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;3;J;J;I;J;26437;Cecilia Askerskär Philipsson;39;K;Örebro;39 år, Socionom, Adolfsberg;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;4;J;J;I;J;26438;Maria Hedwall;26;K;Örebro;26 år, Student & Simlärare, Almby;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;5;J;J;I;J;26439;Daniel Granqvist;46;M;Örebro;46 år, Verksjurist, Adolfsberg;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;6;J;J;I;J;26440;Stefan Stark;49;M;Örebro;49 år, Bitr. ombudsman, Lundby;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;7;J;J;I;J;26441;Carina Börjesson;56;K;Örebro;56 år, Företagare, Latorp;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;8;J;J;I;J;26442;Emelie Jaxell;30;K;Örebro;30 år, Partiombudsman, Almby;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;9;J;J;I;J;26443;Hossein Azeri;62;M;Örebro;62 år, Dataingenjör, Adolfsberg;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;10;J;J;I;J;26444;Johan Kumlin;51;M;Örebro;51 år, Egenföretagare, Centrum;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;11;J;J;I;J;26445;Ulf Södersten;72;M;Örebro;72 år, fd officer, Adolfsberg;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;12;J;J;I;J;26446;Christopher Rydaeus;21;M;Örebro;21 år, Lärarstudent, Öster;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;13;J;J;I;J;26447;Anders Brandén;61;M;Örebro;61 år, Ekonom, Öster;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;14;J;J;I;J;26448;Hanna Rimmerfors;27;K;Örebro;27 år, Studerande, Sörbyängen;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;15;J;J;I;J;26449;Tomas Runnquist;54;M;Örebro;54 år, Entreprenör, Glanshammar;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;16;J;J;I;J;26450;Eva Leitzler;60;K;Örebro;60 år, Grafiker, Centrum;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;17;J;J;I;J;26451;Carl-Johan Wase;36;M;Örebro;36 år, Universitetslärare, Adolfsberg;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;18;J;J;I;N;26452;[inte lämnat förklaring];;;;;349000;;N
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;19;J;J;I;J;26453;Markus Lokander;21;M;Örebro;21 år, Montör, Väster;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;20;J;J;I;J;26454;Sara Dicksen;45;K;Örebro;45 år, Jurist, Björkhaga;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;21;J;J;I;J;26455;Eghbal Kamran;53;M;Örebro;53 år, Socionom, Näsby;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;22;J;J;I;J;26456;Krister Eriksson;52;M;Örebro;52 år, Verkstadschef, Nya Hjärsta;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;23;J;J;I;J;26457;Lennart Karlsson;71;M;Örebro;71 år, Trädgårdsmästare, Odensbacken;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;24;J;J;I;J;26458;Sebastian Cehlin;27;M;Örebro;27 år, Arbetsförmedlare, Centrum;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;25;J;J;I;J;26459;Meriton Rexhepi;29;M;Örebro;29 år, Skolpedagog, Eklunda;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;26;J;J;I;J;26460;Lars Elamson;70;M;Örebro;70 år, Pensionär, Väster;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;27;J;J;I;J;26462;Magnus Johansson;47;M;Örebro;47 år, Fritidspedagog, Björkhaga;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;28;J;J;I;J;26463;Kristian Berglund;41;M;Örebro;41 år, Enhetschef, Holmen;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;29;J;J;I;N;26464;[inte lämnat förklaring];;;;;349000;;N
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;30;J;J;I;J;26465;Marcus Ahltun;36;M;Örebro;36 år, Lärare, Ekeby-Almby;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;31;J;J;I;J;26466;Krister Tornberg;71;M;Örebro;71 år, fd hyresråd, Sörbyängen;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;32;J;J;I;J;26467;Ann-Katrine Jondelius;70;K;Örebro;70 år, fd biståndshandläggare, Adolfsberg;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;33;J;J;I;J;26468;Yvonne Käll;76;K;Örebro;76 år, Pensionär, Gamla Hjärsta;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;34;J;J;I;J;26469;Solbritt Fontander;74;K;Örebro;74 år, Jurist & Civilekonom, Varberga;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;35;J;J;I;J;26470;Mustaf Cali Siyaad;52;M;Örebro;52 år, Tolk, Vivalla;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;36;J;J;I;J;26471;Marianne Hamp;72;K;Örebro;72 år, Socionom, Almby;349000;;J
+K;1880;Örebro;02;Örebro Södra;Moderaterna;M;1;S;12121;37;J;J;I;J;26472;Christina Bremer;70;K;Örebro;70 år, Säljkonsult, Oxhagen;349000;;J
+K;1880;Örebro;02;Örebro Södra;Piratpartiet;PP;524;S;15270;1;J;J;I;J;432938;Mathias Segerlund;35;M;Örebro;37, IT-konsult;14000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;1;J;J;I;J;77720;Daniel Spiik;41;M;Örebro;41 år, entreprenör;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;2;J;J;I;J;77722;Helena Ståhl;30;K;Örebro;30 år, politisk sekreterare;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;3;J;J;I;J;77724;David Larsson;43;M;Örebro;43 år, politisk sekreterare;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;4;J;J;I;J;77725;Abraham Begallo;55;M;Örebro;55 år, restaurangägare;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;5;J;J;I;N;77726;[inte lämnat förklaring];;;;;174000;;N
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;6;J;J;I;J;77727;Sigvard Blixt;70;M;Örebro;70 år, pensionär;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;7;J;J;I;J;77729;Magnus Ingwall;79;M;Örebro;79 år, pensionär;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;8;J;J;I;J;77730;Terés Björndahl;49;K;Örebro;49 år, yrkeschaufför;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;9;J;J;I;J;77731;Bo Ammer;69;M;Örebro;69 år, ingenjör;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;10;J;J;I;J;77733;Arne Björklund;79;M;Örebro;79 år, busschaufför;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;11;J;J;I;J;77734;Habib Brini;69;M;Örebro;69 år, billackerare;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;12;J;J;I;J;77735;Ulf Nilsson;72;M;Örebro;72 år, förvaltare;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;13;J;J;I;J;77736;Nils Gunnarsson;73;M;Örebro;73 år, revisor;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;14;J;J;I;J;77737;Lena Lindén;66;K;Örebro;66 år, undersköterska;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;15;J;J;I;J;77738;Ulf Gustafsson;59;M;Örebro;59 år, projektledare;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;16;J;J;I;J;77739;Josefin Pettersson;27;K;Örebro;27 år, yrkeschaufför;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;17;J;J;I;J;77740;Ture Thureson;73;M;Örebro;73 år, ingenjör;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;18;J;J;I;J;77741;Peter Fredriksson;58;M;Örebro;58 år, nämndeman;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;19;J;J;I;J;77742;Mikael Östlind;43;M;Örebro;43 år, egenföretagare;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;20;J;J;I;J;77743;Johan Dahlström;39;M;Örebro;39 år, pumpmaskinist;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;21;J;J;I;J;77744;Jan-Olov Dahlström;61;M;Örebro;61 år, jordbrukare;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;22;J;J;I;J;77745;Dan Friberg;53;M;Örebro;53 år, besiktningsman;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;23;J;J;I;J;77746;Gunilla Fredriksson;70;K;Örebro;70 år, pensionär;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;24;J;J;I;J;77747;Lars Norrman;71;M;Örebro;71 år, snickare;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;25;J;J;I;J;77748;Leif Åke Persson;73;M;Örebro;73 år, bergskoleingenjör;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;26;J;J;I;J;77749;Sergej Salnikov;21;M;Örebro;21 år, studerande civilekonom;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;27;J;J;I;J;77750;Johan Andersson;48;M;Örebro;48 år, projektledare;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;12858;28;J;J;I;J;77751;Michael Larsson;59;M;Örebro;59 år, arbetssökande;174000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;1;J;J;I;J;77720;Daniel Spiik;41;M;Örebro;41 år, entreprenör;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;2;J;J;I;J;77722;Helena Ståhl;30;K;Örebro;30 år, politisk sekreterare;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;3;J;J;I;J;77724;David Larsson;43;M;Örebro;43 år, politisk sekreterare;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;4;J;J;I;J;77725;Abraham Begallo;55;M;Örebro;55 år, restaurangägare;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;5;J;J;I;N;77726;[inte lämnat förklaring];;;;;175000;;N
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;6;J;J;I;J;77727;Sigvard Blixt;70;M;Örebro;70 år, pensionär;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;7;J;J;I;J;77736;Nils Gunnarsson;73;M;Örebro;73 år, revisor;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;8;J;J;I;J;77729;Magnus Ingwall;79;M;Örebro;79 år, pensionär;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;9;J;J;I;J;77730;Terés Björndahl;49;K;Örebro;49 år, yrkeschaufför;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;10;J;J;I;J;77731;Bo Ammer;69;M;Örebro;69 år, ingenjör;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;11;J;J;I;J;77733;Arne Björklund;79;M;Örebro;79 år, busschaufför;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;12;J;J;I;J;77734;Habib Brini;69;M;Örebro;69 år, billackerare;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;13;J;J;I;J;77735;Ulf Nilsson;72;M;Örebro;72 år, förvaltare;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;14;J;J;I;J;77737;Lena Lindén;66;K;Örebro;66 år, undersköterska;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;15;J;J;I;J;77738;Ulf Gustafsson;59;M;Örebro;59 år, projektledare;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;16;J;J;I;J;77739;Josefin Pettersson;27;K;Örebro;27 år, yrkeschaufför;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;17;J;J;I;J;77740;Ture Thureson;73;M;Örebro;73 år, ingenjör;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;18;J;J;I;J;77741;Peter Fredriksson;58;M;Örebro;58 år, nämndeman;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;19;J;J;I;J;77742;Mikael Östlind;43;M;Örebro;43 år, egenföretagare;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;20;J;J;I;J;77743;Johan Dahlström;39;M;Örebro;39 år, pumpmaskinist;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;21;J;J;I;J;77744;Jan-Olov Dahlström;61;M;Örebro;61 år, jordbrukare;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;22;J;J;I;J;77745;Dan Friberg;53;M;Örebro;53 år, besiktningsman;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;23;J;J;I;J;77746;Gunilla Fredriksson;70;K;Örebro;70 år, pensionär;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;24;J;J;I;J;77747;Lars Norrman;71;M;Örebro;71 år, snickare;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;25;J;J;I;J;77748;Leif Åke Persson;73;M;Örebro;73 år, bergskoleingenjör;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;26;J;J;I;J;77749;Sergej Salnikov;21;M;Örebro;21 år, studerande civilekonom;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;27;J;J;I;J;77750;Johan Andersson;48;M;Örebro;48 år, projektledare;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;14552;28;J;J;I;J;77751;Michael Larsson;59;M;Örebro;59 år, arbetssökande;175000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;1;J;J;I;J;77720;Daniel Spiik;41;M;Örebro;41 år, entreprenör;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;2;J;J;I;J;77722;Helena Ståhl;30;K;Örebro;30 år, politisk sekreterare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;3;J;J;I;J;77724;David Larsson;43;M;Örebro;43 år, politisk sekreterare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;4;J;J;I;J;77725;Abraham Begallo;55;M;Örebro;55 år, restaurangägare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;5;J;J;I;J;77727;Sigvard Blixt;70;M;Örebro;70 år, pensionär;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;6;J;J;I;J;77729;Magnus Ingwall;79;M;Örebro;79 år, pensionär;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;7;J;J;I;J;77730;Terés Björndahl;49;K;Örebro;49 år, yrkeschaufför;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;8;J;J;I;J;77731;Bo Ammer;69;M;Örebro;69 år, ingenjör;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;9;J;J;I;J;77733;Arne Björklund;79;M;Örebro;79 år, busschaufför;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;10;J;J;I;J;77734;Habib Brini;69;M;Örebro;69 år, billackerare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;11;J;J;I;J;77735;Ulf Nilsson;72;M;Örebro;72 år, förvaltare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;12;J;J;I;J;77736;Nils Gunnarsson;73;M;Örebro;73 år, revisor;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;13;J;J;I;J;77737;Lena Lindén;66;K;Örebro;66 år, undersköterska;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;14;J;J;I;J;77738;Ulf Gustafsson;59;M;Örebro;59 år, projektledare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;15;J;J;I;J;77739;Josefin Pettersson;27;K;Örebro;27 år, yrkeschaufför;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;16;J;J;I;J;77740;Ture Thureson;73;M;Örebro;73 år, ingenjör;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;17;J;J;I;J;77741;Peter Fredriksson;58;M;Örebro;58 år, nämndeman;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;18;J;J;I;J;77742;Mikael Östlind;43;M;Örebro;43 år, egenföretagare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;19;J;J;I;J;77745;Dan Friberg;53;M;Örebro;53 år, besiktningsman;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;20;J;J;I;J;77746;Gunilla Fredriksson;70;K;Örebro;70 år, pensionär;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;21;J;J;I;J;77747;Lars Norrman;71;M;Örebro;71 år, snickare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;22;J;J;I;J;77748;Leif Åke Persson;73;M;Örebro;73 år, bergskoleingenjör;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;23;J;J;I;J;77749;Sergej Salnikov;21;M;Örebro;21 år, studerande civilekonom;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;24;J;J;I;J;77750;Johan Andersson;48;M;Örebro;48 år, projektledare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15711;25;J;J;I;J;77751;Michael Larsson;59;M;Örebro;59 år, arbetssökande;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;1;J;J;I;J;77720;Daniel Spiik;41;M;Örebro;41 år, entreprenör;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;2;J;J;I;J;77722;Helena Ståhl;30;K;Örebro;30 år, politisk sekreterare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;3;J;J;I;J;77724;David Larsson;43;M;Örebro;43 år, politisk sekreterare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;4;J;J;I;J;77725;Abraham Begallo;55;M;Örebro;55 år, restaurangägare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;5;J;J;I;J;77727;Sigvard Blixt;70;M;Örebro;70 år, pensionär;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;6;J;J;I;J;77736;Nils Gunnarsson;73;M;Örebro;73 år, revisor;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;7;J;J;I;J;77729;Magnus Ingwall;79;M;Örebro;79 år, pensionär;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;8;J;J;I;J;77730;Terés Björndahl;49;K;Örebro;49 år, yrkeschaufför;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;9;J;J;I;J;77731;Bo Ammer;69;M;Örebro;69 år, ingenjör;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;10;J;J;I;J;77733;Arne Björklund;79;M;Örebro;79 år, busschaufför;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;11;J;J;I;J;77734;Habib Brini;69;M;Örebro;69 år, billackerare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;12;J;J;I;J;77735;Ulf Nilsson;72;M;Örebro;72 år, förvaltare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;13;J;J;I;J;77737;Lena Lindén;66;K;Örebro;66 år, undersköterska;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;14;J;J;I;J;77738;Ulf Gustafsson;59;M;Örebro;59 år, projektledare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;15;J;J;I;J;77739;Josefin Pettersson;27;K;Örebro;27 år, yrkeschaufför;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;16;J;J;I;J;77740;Ture Thureson;73;M;Örebro;73 år, ingenjör;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;17;J;J;I;J;77741;Peter Fredriksson;58;M;Örebro;58 år, nämndeman;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;18;J;J;I;J;77742;Mikael Östlind;43;M;Örebro;43 år, egenföretagare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;19;J;J;I;J;77745;Dan Friberg;53;M;Örebro;53 år, besiktningsman;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;20;J;J;I;J;77746;Gunilla Fredriksson;70;K;Örebro;70 år, pensionär;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;21;J;J;I;J;77747;Lars Norrman;71;M;Örebro;71 år, snickare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;22;J;J;I;J;77748;Leif Åke Persson;73;M;Örebro;73 år, bergskoleingenjör;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;23;J;J;I;J;77749;Sergej Salnikov;21;M;Örebro;21 år, studerande civilekonom;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;24;J;J;I;J;77750;Johan Andersson;48;M;Örebro;48 år, projektledare;100000;;J
+K;1880;Örebro;02;Örebro Södra;Sverigedemokraterna;SD;110;S;15712;25;J;J;I;J;77751;Michael Larsson;59;M;Örebro;59 år, arbetssökande;100000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;1;J;J;I;J;351349;Martha Wicklund;39;K;Örebro;Kriminalvårdare, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;2;J;J;I;J;351350;Murad Artin;58;M;Örebro;Kommunalråd, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;3;J;J;I;J;351351;Linn Josefsson;32;K;Örebro;Miljöcontroller, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;4;J;J;I;J;351352;Cecilia Lönn Elgstrand;37;K;Örebro;Politisk sekreterare, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;5;J;J;I;J;351353;Faisa Maxamed;38;K;Örebro;Mottagning Samordnare, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;6;J;J;I;J;351354;Sunil Jayasooriya;53;M;Örebro;Livsmedelsarbetare, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;7;J;J;I;J;351355;Stefan Nilsson;48;M;Örebro;Färdtjänst chaufför, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;8;J;J;I;J;351356;Matilda Fredriksson;32;K;Örebro;Doktorand, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;9;J;J;I;J;351357;Ingemar Savonen;66;M;Örebro;Pensionär,Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;10;J;J;I;J;351358;Johannes Nilsson;38;M;Örebro;Statsvetare, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;11;J;J;I;J;351359;Nadja Awad;27;K;Örebro;Lärare, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;12;J;J;I;J;351360;Maria Westerholm;49;K;Örebro;Elevassistent, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;13;J;J;I;J;351361;Nadia Abdellah;33;K;Örebro;Kommunikatör, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;14;J;J;I;J;351362;Kåge Svensson;74;M;Örebro;Pensionär, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;15;J;J;I;J;351363;Per-Åke Wilén;49;M;Örebro;IT samordnare, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;16;J;J;I;J;351364;Zozan Baransson;37;K;Örebro;Integrationshandläggare, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;17;J;J;I;J;351365;Mats Nilsson;58;M;Örebro;Lagerarbetare, Odensbacken;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;18;J;J;I;J;351366;Christina Hermansson Placon;74;K;Örebro;Sjuksköterska/Tolk, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;19;J;J;I;J;351367;Mahdi Warsama;57;M;Örebro;Filmregissör Lärare Författare, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;20;J;J;I;J;351368;Lisbeth Lund;73;K;Örebro;Pensionär, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;21;J;J;I;J;351369;Andreas Luperi;42;M;Örebro;Produktionsansvarig SCB, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;22;J;J;I;J;351370;Tore Mellberg;73;M;Örebro;Pensionär, Garphyttan;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;23;J;J;I;J;351371;Marie Krantz;42;K;Örebro;Boendestödjare, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;24;J;J;I;J;351372;Andrej Wicklund;33;M;Örebro;IT ansvarig, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;25;J;J;I;J;361862;Gunnel Lindblom;71;K;Örebro;f.d. Barnmorska, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;26;J;J;I;J;351374;Aligul Erkisi;27;M;Örebro;Matematik NO lärare, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;27;J;J;I;J;351375;Birgitta Karlsson Feldgrill;53;K;Örebro;Undersköterska, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;28;J;J;I;J;351376;Jonas Ohlsson;25;M;Örebro;Ingenjör, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;29;J;J;I;J;351377;Henric Elgstrand;34;M;Örebro;Socionom, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;30;J;J;I;J;351378;Barbara Komnik;70;K;Örebro;f.d. Socionom, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;31;J;J;I;J;351379;Elisabeth Nilesol;27;K;Örebro;Städare,Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;32;J;J;I;J;351380;Tomas Hjort;41;M;Örebro;Egen företagare, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;33;J;J;I;J;351381;Eva Sohlborg;62;K;Örebro;Socialarbetare, Gällersta;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;34;J;J;I;J;351382;Chafic Dana;40;M;Örebro;Kriminalvårdare,Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;35;J;J;I;J;351383;Mette Holck;68;K;Örebro;Pensionär, Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;36;J;J;I;J;351384;Hassan Alizadeh;61;M;Örebro;Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Vänsterpartiet;V;5;S;15122;37;J;J;I;J;351385;Malin Tinjan;38;K;Örebro;Örebro;340000;;J
+K;1880;Örebro;02;Örebro Södra;Örebropartiet;ÖrP;1152;S;15069;1;J;J;I;J;391379;Markus Allard;28;M;Örebro;28 år, Journalist;150000;;J
+K;1880;Örebro;02;Örebro Södra;Örebropartiet;ÖrP;1152;S;15069;2;J;J;I;J;391439;Peter Springare;62;M;Örebro;62 år, Polis;150000;;J
+K;1880;Örebro;02;Örebro Södra;Örebropartiet;ÖrP;1152;S;15069;3;J;J;I;J;391440;Adam Heivert Taylor;25;M;Örebro;25 år, Snickare;150000;;J
+K;1880;Örebro;02;Örebro Södra;Örebropartiet;ÖrP;1152;S;15069;4;J;J;I;J;391441;Karolina Strindberg;28;K;Örebro;28 år, Fritidshemslärare;150000;;J
+K;1880;Örebro;02;Örebro Södra;Örebropartiet;ÖrP;1152;S;15069;5;J;J;I;J;391442;Milian Penahi;22;M;Örebro;22 år, Studerande;150000;;J
+K;1880;Örebro;02;Örebro Södra;Örebropartiet;ÖrP;1152;S;15069;6;J;J;I;J;391443;Simon Strindberg;26;M;Örebro;26 år, IT-tekniker;150000;;J
+K;1880;Örebro;02;Örebro Södra;Örebropartiet;ÖrP;1152;S;15069;7;J;J;I;J;391444;Vincent De Verdier;22;M;Örebro;22 år, Psykologistudent;150000;;J
+K;1880;Örebro;02;Örebro Södra;Örebropartiet;ÖrP;1152;S;15069;8;J;J;I;J;391445;Axel Frick;25;M;Örebro;25 år, Tjänsteförvaltare;150000;;J
+K;1880;Örebro;02;Örebro Södra;Örebropartiet;ÖrP;1152;S;15069;9;J;J;I;J;391446;Edvard Welander;27;M;Örebro;27 år, Läkarstudent;150000;;J
+K;1880;Örebro;02;Örebro Södra;Örebropartiet;ÖrP;1152;S;15069;10;J;J;I;J;391447;Marie-Louise Ringström;50;K;Örebro;50 år, Serviceledare;150000;;J
+K;1880;Örebro;02;Örebro Södra;Örebropartiet;ÖrP;1152;S;15069;11;J;J;I;J;391448;Emil Stangefelt;21;M;Örebro;20 år, Sjukvårdsbiträde;150000;;J

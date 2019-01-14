@@ -1,0 +1,850 @@
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;1;J;J;I;J;300753;Janet Ågren;39;K;Umeå;39 år, Pol.mag, Rödäng;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;2;J;J;I;J;300754;Hans Lindberg;44;M;Umeå;44 år, Ombudsman, Teg;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;3;J;J;I;J;300755;Moa Brydsten;40;K;Umeå;40 år, Lärare, Sandbacka;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;4;J;J;I;J;300756;Andreas Lundgren;41;M;Umeå;41 år, Boendehandledare, Tomtebo;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;5;J;J;I;J;192115;Marie-Louise Rönnmark;64;K;Umeå;64 år, fd Kommunalråd, Carlshem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;6;J;J;I;J;300758;Ali Yasin Dahir;55;M;Umeå;55 år, Tolk/statsvetare, Gimonäs;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;7;J;J;I;J;300759;Irma Olofsson;26;K;Umeå;26 år, Kulturgeograf, Umeå;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;8;J;J;I;J;300760;Tomas Wennström;63;M;Umeå;63 år, Koordinator, Umeå;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;9;J;J;I;J;192111;Paulina Granberg;28;K;Umeå;28 år, Ombudsman, Haga;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;10;J;J;I;J;300762;Karl Larsson;32;M;Umeå;32 år, Lärare, Sofiehem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;11;J;J;I;J;300763;Charlotta Westerlund;48;K;Umeå;48 år, Undersköterska, Ersboda;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;12;J;J;I;J;300764;Ari Leinonen;60;M;Umeå;60 år, Föreningsledare, Ersboda;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;13;J;J;I;J;300765;Margareta Rönngren;63;K;Umeå;63 år, Förskollärare, Rödäng;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;14;J;J;I;J;300766;Andreas Sjögren;41;M;Umeå;41 år, Ombudsman, Umeå;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;15;J;J;I;J;300767;Agnes Blom Bringlöv;24;K;Umeå;24 år, Boendehandledare, Tomtebo;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;16;J;J;I;J;300768;Christer Lindvall;65;M;Umeå;65 år, Ombudsman, Ersboda;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;17;J;J;I;J;300769;Mehrana Bassami;30;K;Umeå;30 år, Student, Mariehem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;18;J;J;I;J;300770;Lennart Holmlund;72;M;Umeå;72 år, Pensionär, Umeå;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;19;J;J;I;J;300771;Marikk Henriksson;34;K;Umeå;34 år, Restaurangbiträde, Sandbacka;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;20;J;J;I;J;300772;Dennis Larsson;57;M;Umeå;57 år, Postarbetare, Mariehem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;21;J;J;I;J;300773;Mona Westman;56;K;Umeå;56 år, Socialsekreterare, Ålidhöjd;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;22;J;J;I;J;192126;Johan Lindbom;29;M;Umeå;29 år, Elektriker, Berghem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;23;J;J;I;J;300775;Sandra Reinklou;25;K;Umeå;25 år, Lärarstudent, Berghem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;24;J;J;I;J;300776;Leif Berglund;64;M;Umeå;64 år, Pappersindustriarbetare, Ersboda;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;25;J;J;I;J;300777;Sandra Novalie Lilja;31;K;Umeå;31 år, Läkare, Umeå;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;26;J;J;I;J;300778;Mostafa Barazeghi;30;M;Umeå;30 år, Student, Nydalahöjd;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;27;J;J;I;J;300779;Lina Farhat;39;K;Umeå;39 år, Arbetsförmedlare, Mariehem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;28;J;J;I;J;300780;Ingemar Jangvad;73;M;Umeå;73 år, Pensionär, Mariehem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;29;J;J;I;J;300781;Hanna Abbasi;28;K;Umeå;28 år, Personlig assistent, Ersboda;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;30;J;J;I;J;192116;Mahmoud Chninou;29;M;Umeå;29 år, Juriststudent, Ersboda;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;31;J;J;I;J;300783;Rita Andersson;59;K;Umeå;59 år, Undersköterska, Gimonäs;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;32;J;J;I;J;300784;Mathias Westbrand Emilsson;24;M;Umeå;24 år, Servitör, Haga;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;33;J;J;I;J;300785;Linda Burén;46;K;Umeå;46 år, Socionom, Haga;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;34;J;J;I;J;300786;Bassam Achour;55;M;Umeå;55 år, Lärare, Carlshem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;35;J;J;I;J;300787;Rebecka Jacobsson;28;K;Umeå;28 år, Personalvetare, Marieberg;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;36;J;J;I;J;300788;Kuno Morén;74;M;Umeå;74 år, Pensionär, Haga;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;37;J;J;I;J;300789;Katarina Nilsson Reian;45;K;Umeå;45 år, Specialistsjuksköterska, Ersmark;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;38;J;J;I;J;300790;Jari Prosi;55;M;Umeå;55 år, Fil kand, Berghem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;39;J;J;I;J;300791;Monica Norlund;72;K;Umeå;72 år, Pensionär, Berghem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;40;J;J;I;J;300792;Tommy Stark;64;M;Umeå;64 år, Rörmontör, Ersboda;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;41;J;J;I;J;300793;Gisela Lindmark Bertilsson;52;K;Umeå;52 år, Chef, Marieberg;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;42;J;J;I;J;300794;Ingemar Andersson;51;M;Umeå;51 år, Lastbilsmekaniker, Liljansberget;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;43;J;J;I;J;300795;Anna Forss;45;K;Umeå;46 år, Kock, Ersboda;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;44;J;J;I;J;300796;Robert Lindberg;35;M;Umeå;35 år, Brevbärare, Umeå;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;45;J;J;I;J;192123;Matilda Olofsson;32;K;Umeå;32 år, Barnsköterska, Innertavle;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;46;J;J;I;J;300798;Torgny Forss;44;M;Umeå;44 år, Energirådgivare, Carlshem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;47;J;J;I;J;300799;Anna Johansson;22;K;Umeå;22 år, Cafébiträde, Sofiehem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;48;J;J;I;J;300800;Jonas Bergström;28;M;Umeå;28 år, Politisk sakkunnig, Umeå;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;49;J;J;I;J;300801;Gun-Britt Härjelin;52;K;Umeå;52 år, Montör, Mariehem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;50;J;J;I;J;300802;Hans-Åke Rönnlund;69;M;Umeå;69 år, Pensionär, Mariehem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;51;J;J;I;J;300803;Evelyn Ångqvist;51;K;Umeå;51 år, Förskollärare, Ålidhem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;52;J;J;I;J;300804;Mattias Karlsson;31;M;Umeå;31 år, Rörmokare, Mariehem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;53;J;J;I;J;300805;Marie-Louise Nilsson;79;K;Umeå;79 år, Pensionär, Berghem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;54;J;J;I;J;300806;Theodor Appelblad;22;M;Umeå;22 år, Studerande, Umeå;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;55;J;J;I;J;300807;Hanna Kriss;28;K;Umeå;28 år, Student, Öbacka;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;56;J;J;I;J;300808;Bengt Norman;57;M;Umeå;57 år, Projektledare, Ålidhöjd;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;57;J;J;I;J;300809;Anna Bengtsson;47;K;Umeå;47 år, Diversearbetande, Haga;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;58;J;J;I;J;300810;Peter Svensson;57;M;Umeå;57 år, Ombudsman, Haga;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;59;J;J;I;J;300811;Barbara Lewandowska Paulsson;67;K;Umeå;67 år, Undersköterska, Ålidhem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;60;J;J;I;J;300812;Roland Samuelsson;67;M;Umeå;67 år, Lärare, Carlshem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;61;J;J;I;J;300813;Emilia Harr;21;K;Umeå;21 år, Student, Carlshem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;62;J;J;I;J;300814;Joel Bystedt;24;M;Umeå;23 år, Studerande, Tomtebo;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;63;J;J;I;J;300815;Emilia Barsk;22;K;Umeå;22 år, Studerande, Mariehem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;64;J;J;I;J;300816;Kurt-Åke Sjöström;68;M;Umeå;68 år, fd ombudsman/rektor, Ersboda;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;65;J;J;I;J;300817;Oscar Sedholm;29;M;Umeå;29 år, Beteendevetare, Nydalahöjd;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;66;J;J;I;J;300818;Sebastian Svahn;22;M;Umeå;22 år, Lärarstudent, Tomtebo;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;67;J;J;I;J;300819;Robin Enander;25;M;Umeå;25 år, Jurist, Nydalahöjd;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;1;J;J;I;J;300754;Hans Lindberg;44;M;Umeå;44 år, Ombudsman, Teg;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;2;J;J;I;J;300753;Janet Ågren;39;K;Umeå;39 år, Pol.mag, Rödäng;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;3;J;J;I;J;302420;Mikael Berglund;53;M;Umeå;53 år, Elektriker, Västerhiske;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;4;J;J;I;J;302421;Lena Karlsson Engman;60;K;Umeå;60 år, Forskare, Obbola;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;5;J;J;I;J;302422;Peter Vigren;33;M;Umeå;33 år, Lärare, Västerhiske;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;6;J;J;I;J;302423;Carin Nilsson;70;K;Umeå;70 år, Leg.biomedicinsk analytiker, Sävar;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;7;J;J;I;J;192130;Per-Erik Johansson;55;M;Umeå;55 år, Ombudsman, Sävar;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;8;J;J;I;J;192135;Emma Vigren;33;K;Umeå;33 år, Socionom, Västerhiske;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;9;J;J;I;J;302426;Lars Hammarstedt;67;M;Umeå;67 år, Ombudsman/pensionär, Hörnefors;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;10;J;J;I;J;302427;Nora Tabbouche;54;K;Umeå;54 år, Gymnasielärare, Böleäng;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;11;J;J;I;J;302430;Stellan Elebro;36;M;Umeå;36 år, Arbetare, Holmsund;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;12;J;J;I;J;302429;Helena Smith;30;K;Umeå;30 år, Politisk sekreterare, Mariehem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;13;J;J;I;J;302432;Gunnar Dahlberg;57;M;Umeå;58 år, Ombudsman, Yttersjö;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;14;J;J;I;J;302431;Beatrice Årebrand;53;K;Umeå;53 år, Verksamhetsassistent, Obbola;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;15;J;J;I;J;302434;Jan Lundberg;68;M;Umeå;68 år, Pensionär, Gravmark;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;16;J;J;I;J;302433;Sanna Rudolfsen;21;K;Umeå;21 år, Verksamhetsutvecklare, Tomtebo;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;17;J;J;I;J;302436;Tichaona Dumba Maphosa;39;M;Umeå;39 år, Planarkitekt, Backen;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;18;J;J;I;J;302435;Lotta Wiechel;18;K;Umeå;18 år, Student, Teg;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;19;J;J;I;J;302438;Håkan Johansson;53;M;Umeå;53 år, Brevbärare, Grisbacka;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;20;J;J;I;J;302437;Lena Sandlin;49;K;Umeå;49 år, Tf affärsområdeschef, Teg;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;21;J;J;I;J;302440;Patrik Enkvist;32;M;Umeå;32 år, Skötare, Böleäng;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;22;J;J;I;J;302439;Catarina Holmberg;51;K;Umeå;51 år, Butikschef, Umedalen;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;23;J;J;I;J;302442;Jimmy Olsson;45;M;Umeå;45 år, Industriarbetare, Sävar;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;24;J;J;I;J;302441;Britt-Inger Karlsson;57;K;Umeå;58 år, Undersköterska, Röbäck;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;25;J;J;I;J;302444;Pär Berglund;50;M;Umeå;50 år, Metallarbetare, Tavelsjö;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;26;J;J;I;J;302443;Anneli Grundberg;51;K;Umeå;51 år, Familjebehandlare, Teg;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;27;J;J;I;J;302446;Ronny Kassman;67;M;Umeå;67 år, Pensionär, Holmsund;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;28;J;J;I;J;302445;Rita Poromaa;67;K;Umeå;67 år, Socionom, Holmsund;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;29;J;J;I;J;302448;Ola Borgström;59;M;Umeå;59 år, Montör, Hörnefors;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;30;J;J;I;J;302447;Maria Vängbo;48;K;Umeå;48 år, Facklig företrädare, Teg;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;31;J;J;I;J;302450;Bo Johansson;62;M;Umeå;62 år, Integrationsassistent, Grubbe;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;32;J;J;I;J;302449;Carina Aminoff;49;K;Umeå;49 år, Sjuksköterska, Umedalen;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;33;J;J;I;J;302452;Jörgen Boström;45;M;Umeå;45 år, Webbkommunikatör, Teg;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;34;J;J;I;J;302451;Lina Vänglund;27;K;Umeå;27 år, Student, Nydalahöjd;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;35;J;J;I;J;302454;Curt Jonsson;52;M;Umeå;52 år, Affärsutvecklare, Stöcke;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;36;J;J;I;J;302453;Agneta Lundström;66;K;Umeå;66 år, Farmaceut, Sävar;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;37;J;J;I;J;302456;Kenneth Hedlund;64;M;Umeå;64 år, Arbetare, Hörnefors;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;38;J;J;I;J;302455;Carola Andersson;54;K;Umeå;54 år, Fabriksarbetare, Sävar;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;39;J;J;I;J;302458;Jonas Gustavsson;31;M;Umeå;31 år, VVS-montör, Umeå/Brattby;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;40;J;J;I;J;193460;Titti Ådén;58;K;Umeå;58 år, Grafiker, Böleäng;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;41;J;J;I;J;302460;Bengt Holm;73;M;Umeå;73 år, Pensionär, Sävar;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;42;J;J;I;J;302459;Birgitta Jonsson;53;K;Umeå;53 år,  Leg Sjuksköterska, Bullmark;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;43;J;J;I;J;302462;Glenn Sjöström;60;M;Umeå;60 år, IT/vaktmästare, Backen;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;44;J;J;I;J;302461;Kerstin Hermansson Morén;57;K;Umeå;57 år, EU-samordnare, Teg;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;45;J;J;I;J;302464;Mikael Danielsson;52;M;Umeå;52 år, Ombudsman, Obbola;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;46;J;J;I;J;302463;Molly Hoffrén;28;K;Umeå;28 år, Studerande, Ersboda;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;47;J;J;I;J;302466;Thomas Hartman;49;M;Umeå;49 år, Kommunikationschef, Teg;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;48;J;J;I;J;302465;Emma Wallerström;21;K;Umeå;21 år, Juriststudent, Tomtebo;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;49;J;J;I;J;302468;Lars Sandberg;70;M;Umeå;70 år, Socionom, Grisbacka;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;50;J;J;I;J;302467;Emelie Persson;30;K;Umeå;30 år, Boendehandledare, Umeå;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;51;J;J;I;J;302470;Marcus Helletun;39;M;Umeå;39 år, Statsvetare, Haga;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;52;J;J;I;J;302469;Fredrik Valham;46;M;Umeå;46 år, Läkare, Haga;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;53;J;J;I;J;302471;Kjell-Arne Jonsson;62;M;Umeå;62 år, Chaufför, Bullmark;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;54;J;J;I;J;302472;Andreas Georgsson;43;M;Umeå;43 år, IT-specialist, Grubbe;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;55;J;J;I;J;302473;Örjan Aronsson;69;M;Umeå;69 år, Kyrkoherde em, Umedalen;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;56;J;J;I;J;302474;Lars Åberg;42;M;Umeå;42 år, Blivande Miljö-hälsoskyddsinspektör, Ålidhem;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;57;J;J;I;J;302475;Mats-Olov Karlsson;61;M;Umeå;61 år, Projektledare, Umeå;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;58;J;J;I;J;302476;Per Genberg;36;M;Umeå;36 år, Lärare, Ersboda;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;59;J;J;I;J;302477;Daniel Holst;24;M;Umeå;24 år, Student, Nydalahöjd;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;60;J;J;I;J;302478;Lennart Lundquist;72;M;Umeå;72 år, Lärare, Mariedal;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;61;J;J;I;J;302479;Francisco Hansson;24;M;Umeå;24 år, Vårdbiträde, Ersboda;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;62;J;J;I;J;302480;Mahmoud Shnino;59;M;Umeå;59 år, Projektledare, Ersboda;150000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;1;N;J;J;I;185880;Jan Hägglund;65;M;Umeå;redaktör Umebladet;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;2;N;J;N;I;331530;[inte lämnat samtycke];;;;;100000;;N
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;3;N;J;J;I;331531;Patrik Brännberg;48;M;Umeå;undersköterska;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;4;N;J;J;I;331532;Gun Sandström;56;K;Umeå;lokalvårdare;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;5;N;J;J;I;331533;Tomas Westerström;38;M;Umeå;undersköterska NUS;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;6;N;J;J;I;331534;Agneta Björk;61;K;Umeå;sjukpensionär Holmsund;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;7;N;J;J;I;331535;Davis Kaza;33;M;Umeå;redaktör Nya Arbetartidningen;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;8;N;J;J;I;331536;Marika Atlegrim;61;K;Umeå;biomedicinsk analytiker NUS;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;9;N;J;J;I;331537;Olof Kristmansson;40;M;Umeå;lärare;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;10;N;J;J;I;331538;Kerstin Jonsson;78;K;Umeå;pensionerad yrkeslärare;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;11;N;J;J;I;331539;Frank Pettersson;57;M;Umeå;sjuksköterska NUS;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;12;N;J;J;I;331540;Lena Lindström;60;K;Umeå;undersköterska äldreomsorgen;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;13;N;J;J;I;331544;Donald Rosendahl;53;M;Umeå;snickare, oberoende;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;14;N;J;J;I;386989;Pia Roth;48;K;Umeå;boendehandledare, oberoende;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;15;N;J;J;I;331543;Lars-Erik Utberg;31;M;Umeå;ekonomibiträde;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;16;N;J;J;I;386991;Maryam Sarjoughian;39;K;Umeå;barnskötare;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;17;N;J;J;I;331541;Johan Roslin;25;M;Umeå;miljöarbetare;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;18;N;J;J;I;331545;Josefin Häggbom;24;K;Umeå;köksbiträde Hörnefors;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;19;N;J;J;I;331548;Hussein Ali;49;M;Umeå;busschaufför;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;20;N;J;J;I;331542;Olena Rzhepishevska;39;K;Umeå;molekylärbiolog;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;21;N;J;J;I;386990;Shahin Bahrami;41;M;Umeå;lastbilschaufför;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;22;N;J;J;I;331562;Marie Bergqvist;34;K;Umeå;bibliotekarie;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;23;N;J;J;I;331549;Conny Ström;62;M;Umeå;läkare NUS;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;24;N;J;J;I;331550;Britt-Inger Fors Sanaei;60;K;Umeå;lokalvårdare;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;25;N;J;J;I;331561;Patrik Jonsson;30;M;Umeå;undersköterska socialpsykiatrin;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;26;N;J;J;I;331547;Viola Egertun Wahlström;64;K;Umeå;handelsanställd Holmsund;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;27;N;J;J;I;331546;Göran Sandberg;73;M;Umeå;pensionerad taxichaufför Överboda;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;28;N;J;J;I;331558;Anton Hultdin;35;M;Umeå;spelutvecklare;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;29;N;J;J;I;331560;Veronica Johansson;60;K;Umeå;personlig assistent Holmsund;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;30;N;J;J;I;331551;Peter Ericsson;31;M;Umeå;vuxenstuderande;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;31;N;J;J;I;331555;Andreas Löfdahl;44;M;Umeå;taxichaufför, oberoende;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;32;N;J;J;I;388802;Anna-Sara Wännman;20;K;Umeå;expeditör;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;33;N;J;J;I;331556;Jonathan Edmundsson;35;M;Umeå;jägmästare;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;34;N;J;J;I;331566;Frank B Jakobsen;69;M;Umeå;pensionerad målare;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;35;N;J;J;I;331554;Veronica Nordenström;49;K;Umeå;arbetssökande;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;36;N;J;J;I;331559;Jonas Rydberg;42;M;Umeå;programmerare;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;37;N;J;J;I;331565;Dan Molund;60;M;Umeå;ekonom;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;38;N;J;J;I;331557;Elisabeth Rodestål;83;K;[saknas i folkbokföringen];pensionär;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;39;N;J;J;I;331563;Gunnar Frohm;61;M;Umeå;kontorist;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;40;N;J;J;I;331568;Adam Jonsson;27;M;Umeå;studerande;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;41;N;J;J;I;331552;Cassandra Wells;25;K;Umeå;lokalvårdare;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;42;N;J;J;I;331567;Kristofer Näsman;33;M;Umeå;sjuksköterska;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;43;N;J;J;I;362014;Ivan Alvear Bello;30;M;Umeå;larmoperatör, oberoende;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;44;N;J;J;I;331553;Kjell Berglund;69;M;Umeå;pensionerad förskollärare;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;45;N;J;J;I;331564;Lars-Göran Lejdebro;70;M;Umeå;pensionerad skogstekniker, oberoende;100000;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;;;;N;J;J;I;361580;Bengtsson, Andreas;45;M;Robertsfors;;0;;J
+K;2480;Umeå;01;Umeå centrala;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;;;;N;J;J;I;361581;Gustafsson, Helena;49;K;Norsjö;;0;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;1;J;J;I;J;47460;Mattias Larsson;45;M;Umeå;45 år, Gruppledare, Umedalen;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;2;J;J;I;J;47461;Anna-Karin "Kajsa" Sjölander;52;K;Umeå;52 år, Rektor, Teg;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;3;J;J;I;J;47462;Robert Axebro;46;M;Umeå;46 år, Utredare, Bullmark;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;4;J;J;I;J;47463;Maja Westling;27;K;Umeå;27 år, Politisk sekreterare, Mariehem;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;5;J;J;I;J;47464;Sven-Olov Edvinsson;69;M;Umeå;69 år, Överläkare, Kasamark;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;6;J;J;I;J;47465;Eric Bergner;64;M;Umeå;64 år, Politisk sekreterare, Bullmark;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;7;J;J;I;J;47466;Solveig Granberg;69;K;Umeå;69 år, Undersköterska, Tavelsjö;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;8;J;J;I;J;47467;Fredrik Elgh;60;M;Umeå;60 år, Överläkare, Berghem;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;9;J;J;I;J;47468;Lovisa Milton Frykholm;23;K;Umeå;23 år, Idrottsmedicinstuderande, Tomtebo;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;10;J;J;I;J;47469;Eva Maaherra-Lövheim;35;K;Umeå;35 år, Samhällsplanerare, Sandbacka;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;11;J;J;I;J;47470;Fredrik Rönn;50;M;Umeå;50 år, Civilingenjör, Innertavle;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;12;J;J;I;J;47471;Sara Häggström;38;K;Umeå;38 år, HR-specialist, Centrala stan;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;13;J;J;I;J;47472;Lennart Persson;68;M;Umeå;68 år, Behandlingsassistent, Hissjö;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;14;J;J;I;J;47473;Julia Algotsson;22;K;Umeå;22 år, Civilekonomstuderande, Carlshem;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;15;J;J;I;J;47474;Delia Zadius;31;K;Umeå;31 år, Företagare, Dragonfältet;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;16;J;J;I;J;47475;Hampus Lindqvist;18;M;Umeå;18 år, Studerande, Västerslätt;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;17;J;J;I;J;47476;Erica Ohlsson;31;K;Umeå;31 år, Civilekonom, Tomtebo;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;18;J;J;I;J;47477;Ron Mahieu;53;M;Umeå;53 år, Universitetslektor, Holmsund;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;19;J;J;I;J;47478;Ellinor Hansson;42;K;Umeå;42 år, Informationsadministratör, Sävar;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;20;J;J;I;J;47479;Torbjörn Wennebro;69;M;Umeå;69 år, Konsult, Tavelsjö;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;21;J;J;I;J;47480;Gunnel Lagerkvist;76;K;Umeå;76 år, Konsult, Mariehem;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;22;J;J;I;J;47481;Robert Horvath;50;M;Umeå;50 år, Strategisk inköpare, Sandbacka;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;23;J;J;I;J;47482;Charlotta Weinehall;47;K;Umeå;47 år, Centrumledare, Täfteå;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;24;J;J;I;J;47483;Åke Gustafsson;65;M;Umeå;65 år, Överläkare, Berghem;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;25;J;J;I;J;47484;Mari Lindgren;48;K;Umeå;48 år, Boendehandledare, Tavelsjö;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;26;J;J;I;J;47485;Tobias Gillberg;31;M;Umeå;31 år, Rekryterare, Tomtebo;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;27;J;J;I;J;47486;Mira Constantin;30;K;Umeå;30 år, Uppdragschef, Mariehem;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;28;J;J;I;J;47487;Per Holmström;66;M;Umeå;66 år, Företagare, Sofiehem;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;29;J;J;I;J;47488;Christina Edblom;68;K;Umeå;68 år, Specialpedagog, Böleäng;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;30;J;J;I;J;47489;Johanna Häggström;44;K;Umeå;44 år, Sjuksköterska, Umedalen;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;31;J;J;I;J;47490;Malin Forss;45;K;Umeå;45 år, Boendeansvarig, Centrala stan;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;32;J;J;I;J;47491;Håkan Appelblad;53;M;Umeå;53 år, Universitetslektor, Västerhiske;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;33;J;J;I;J;47492;Fredrik Bergner;70;M;Umeå;70 år, Ingenjör, Bodbyn;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;34;J;J;I;J;47493;Niclas Westberg;21;M;Umeå;21 år, Studerande, Ålidhem;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;35;J;J;I;J;47494;Inger Renström;70;K;Umeå;70 år, Universitetsadjunkt, Holmsund;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;36;J;J;I;J;47495;Roger Sandström;71;M;Umeå;71 år, Lantbrukare, Stöcksjö;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;37;J;J;I;J;47496;Per-Gunnar Olofsson;64;M;Umeå;64 år, Landsbygdslobbyist, Tavelsjö;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;38;J;J;I;J;47497;Margareta Sandeström;74;K;Umeå;74 år, Kanslist, Böle;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;39;J;J;I;J;47498;Tord Renström;78;M;Umeå;78 år, Byggnadsinspektör, Holmsund;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;40;J;J;I;J;47499;Alexandra Nelson Blixt;22;K;Umeå;22 år, Filosofistuderande,  Mariehem;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;41;J;J;I;J;47500;Morgan Edstedt;38;M;Umeå;38 år, Studerande, Ålidhem;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;42;J;J;I;J;47501;Erik Weinehall;37;M;Umeå;37 år, Mekaniker, Tavelsjö;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;43;J;J;I;J;47502;Lars Ove Renberg;68;M;Umeå;68 år, Ekonom, Dragonfältet;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;44;J;J;I;J;47503;Steen A Bärentsen;49;M;Umeå;49 år, Företagare, Ålidhem;160000;;J
+K;2480;Umeå;01;Umeå centrala;Centerpartiet;C;4;S;12428;45;J;J;I;J;47504;Lars Jöran Edström;69;M;Umeå;69 år, Lantmästare, Hössjö;160000;;J
+K;2480;Umeå;01;Umeå centrala;Direktdemokraterna;DD;1150;;;;N;J;J;I;509552;Hallin, Fredrik;33;M;Umeå;;0;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;1;J;J;I;J;392933;Minna Toivo;50;K;Umeå;49, lärare;48000;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;2;J;J;I;J;392938;Julia Lidman;22;K;Umeå;21, student/vårdbiträde;48000;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;3;J;J;I;J;392935;Alexander Svartvatten;40;M;Umeå;40, konstnär;48000;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;4;J;J;I;J;392936;Keykaus Abbasi;64;M;Umeå;65, pensionär;48000;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;5;J;J;I;J;392937;Magnus Ledman;48;M;Umeå;48, utredare;48000;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;6;J;J;I;J;392940;Shahandeh Seyfizadeh;67;K;Umeå;67, sjuksköterska;48000;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;7;J;J;I;J;392939;Saasha Metsärantala;51;M;Umeå;;48000;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;8;J;J;I;J;392941;Johsefin Tallroth;26;K;Uppsala;25, student;48000;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;9;J;J;I;J;392942;Maria Axelsson;42;K;Umeå;42, kommunikatör;48000;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;10;J;J;I;J;392934;Ellen Svedjeland;39;K;Umeå;;48000;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;11;J;J;I;J;219305;Elfrida Bergman;34;K;Umeå;34, kulturanalytiker;48000;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;12;J;J;I;J;392944;Maria Lundström;45;K;Umeå;45, kulturadministratör;48000;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;13;J;J;I;J;392945;Anna Höglund;49;K;Umeå;48, psykolog & psykoterapeut;48000;;J
+K;2480;Umeå;01;Umeå centrala;Feministiskt initiativ;FI;532;S;15089;14;J;J;I;J;392946;Jennie Bergvall Lindström;28;K;Umeå;28, student;48000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;1;J;J;I;J;5826;Veronica Kerr;48;K;Umeå;statsvetare, Holmsund;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;2;J;J;I;J;24216;Anders Sellström;54;M;Umeå;civilekonom, Haga;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;3;J;J;I;J;5824;Birgitta Nordvall;68;K;Umeå;distriktssköterska, Teg;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;4;J;J;I;J;5856;Sven-Åke Granberg;78;M;Umeå;pensionär, Ersboda;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;5;J;J;I;J;5859;Talent Hofling;30;K;Umeå;socionom, Grubbe;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;6;J;J;I;J;5847;Jan Kollberg;49;M;Umeå;säljare, Tomtebo;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;7;J;J;I;J;5855;Evy Grad;40;K;Umeå;säljare, Sörfors;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;8;J;J;I;J;24222;Sture Eriksson;71;M;Umeå;docent, Röbäck;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;9;J;J;I;J;24223;Anna Selberg;48;K;Umeå;kommunikatör, Böleäng;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;10;J;J;I;J;5852;Samuel Appiah-Kubi;61;M;Umeå;vaktmästare, Västerslätt;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;11;J;J;I;J;24225;Kerstin Pehrsson;69;K;Umeå;pensionär, Holmsund;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;12;J;J;I;J;24226;Rabih Ballout;57;M;Umeå;busschaufför, Ersboda;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;13;J;J;I;J;24227;Åsa Lunnergård;56;K;Umeå;distriktssköterska, Tavelsjö;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;14;J;J;I;J;24228;Kenneth Mikaelsson;61;M;Umeå;sjuksköterska, Teg;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;15;J;J;I;J;24229;Monica Hultman;74;K;Umeå;pensionär, Haga;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;16;J;J;I;J;5854;Fredrik Berggren;32;M;Umeå;marknadskoordinator, Röbäck;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;17;J;J;I;J;5845;Per-Martin Jonasson;66;M;Umeå;pastor, Sävar;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;18;J;J;I;J;5839;Helén Edlund;58;K;Umeå;företagare, Grubbe;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;19;J;J;I;J;5840;Torbjörn Arvidsson;68;M;Umeå;präst, Sandbacka;284000;;J
+K;2480;Umeå;01;Umeå centrala;Kristdemokraterna;KD;68;S;12090;20;J;J;I;J;22119;Håkan Karlsson;78;M;Umeå;företagare, Hörnefors;284000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;1;J;J;I;J;215923;Peder Westerberg;51;M;Umeå;Umeå,gruppledare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;2;J;J;I;J;60879;Dorothea Liebel;62;K;Umeå;Umeå,lärare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;3;J;J;I;J;216146;Björn Kjellsson;35;M;Umeå;Umeå,pol.sekreterare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;4;J;J;I;J;60864;Marianne Normark;71;K;Umeå;Västerhiske,sjuksköterska;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;5;J;J;I;J;49153;Ulrica Westerlund;52;K;Umeå;Umeå,bitr.socialchef;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;6;J;J;I;J;198182;Anders Norqvist;65;M;Umeå;Degersjön,nämndeman;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;7;J;J;I;J;216220;Carinne Sjöberg;56;K;Umeå;Umeå,konsult;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;8;J;J;I;J;60871;Anna Ramnemark-Sjöström;48;K;Umeå;Holmsund,läkare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;9;J;J;I;J;216222;Björn Alrutz-Boman;42;M;Umeå;Umeå,barnskötare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;10;J;J;I;J;453287;Robin Thörnberg;26;M;Umeå;Umeå,studerande;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;11;J;J;I;J;216670;Maria Lindvall;54;K;Umeå;Umeå,jurist;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;12;J;J;I;J;198175;Thommy Bäckström;65;M;Umeå;Berghem,HR-specialist;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;13;J;J;I;J;60884;Britta Enfält;70;K;Umeå;Umeå,leg.sjuksköterska;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;14;J;J;I;J;60883;Urban Wikman;47;M;Umeå;Holmsund,företagsutvecklare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;15;J;J;I;J;198186;Margareta Ekesryd;72;K;Umeå;Holmsund,f.d.rektor;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;16;J;J;I;J;60882;Elias Holmgren;38;M;Umeå;Ersboda,skattehandläggare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;17;J;J;I;J;60881;Maria Gripenhoftner;50;K;Umeå;Umeå,nämndeman;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;18;J;J;I;J;216768;Jan Hultman;53;M;Umeå;Umeå,Egenföretagare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;19;J;J;I;J;217237;Anna-Karin Östling-Sjöstrand;72;K;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;20;J;J;I;J;198194;Hans-Christer Jonsson;59;M;Umeå;Umeå,ungdomskonsulent;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;21;J;J;I;J;217239;Iréne Bäckström;65;K;Umeå;Berghem,distriktssköterska;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;22;J;J;I;J;217240;Christine Elmrros;69;K;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;23;J;J;I;J;60886;Mats Nilsson;64;M;Umeå;Teg,journalist;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;24;J;J;I;J;198188;Käte Alrutz;71;K;Umeå;Umeå,logoped;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;25;J;J;I;J;217385;Jan-Olof Schöldström;54;M;Umeå;Umeå,Reseadministrator;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;26;J;J;I;J;217386;Karin Andersson;71;K;Umeå;Holmsund,pensionär;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;27;J;J;I;J;217387;Linda Normark;43;K;Umeå;Umeå,undersköterska;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;28;J;J;I;J;217388;Lennart Sandström;77;M;Umeå;Umeå,ingenjör;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;29;J;J;I;J;217389;Eva Haegerlund;77;K;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;30;J;J;I;J;217390;Björn Boberg;69;M;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;31;J;J;I;J;217391;Erik Selander;73;M;Umeå;Umeå,lärare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;32;J;J;I;J;60867;Alf Molin;67;M;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;33;J;J;I;J;198197;Andreas Hollmer;32;M;Umeå;Umeå,läkarstuderande;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;34;J;J;I;J;217518;Jan-Olof Sandberg;66;M;Umeå;Umeå,f.d.mässchef;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;35;J;J;I;J;217519;Johnny Sandström;72;M;Umeå;Umeå,Egenföretagare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;36;J;J;I;J;217520;Gunnar Leissner;71;M;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;37;J;J;I;J;217521;Frej Moström;28;M;Göteborg;Umeå,studerande;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;38;J;J;I;J;217522;Conny Svensson;70;M;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;39;J;J;I;J;217605;Peter Westh;54;M;Umeå;Obbola,transportchef;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;40;J;J;I;J;217606;Samuel Holmlund;32;M;Umeå;Umeå;296000;;J
+K;2480;Umeå;01;Umeå centrala;Liberalerna (tidigare Folkpartiet);L;3;S;13957;41;J;J;I;J;217607;Peter Sedlacek;77;M;Umeå;Grubbe,f.d.kanslichef;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;1;J;J;I;J;311145;Nils Seye Larsen;38;M;Umeå;38 år, Verksamhetsutvecklare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;2;J;J;I;J;363014;Mariam Salem;37;K;Umeå;37 år, Konsult/egenföretagare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;3;J;J;I;J;363015;John Vestergren;34;M;Umeå;34 år, Konsult;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;4;J;J;I;J;363016;Alice Fatma Nikmanesh;26;K;Umeå;26 år, Student;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;5;J;J;I;J;363017;Arvid Lundberg;33;M;Umeå;33 år, Doktorand;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;6;J;J;I;J;175343;Elin Söderberg;34;K;Umeå;34 år, Klimat- och energisamordnare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;7;J;J;I;N;363019;[inte lämnat förklaring];;;;;296000;;N
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;8;J;J;I;J;363020;Jennifer Forssell;40;K;Umeå;40 år, Energiexpert;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;9;J;J;I;J;363021;Stefan Andersson;45;M;Umeå;45 år, Projektledare/civilingenjör;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;10;J;J;I;J;363022;Lennart Frostesjö;55;M;Umeå;58 år, Fil dr/PhD/forskare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;11;J;J;I;J;363023;Lars Brännström;62;M;Umeå;62 år, Miljöstrateg;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;12;J;J;I;J;363025;Zacharias Tjäder;30;M;Umeå;30 år, Säkerhetssamordnare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;13;J;J;I;J;363026;Mazin Hermez Matti;50;M;Umeå;50 år, Fastighetsskötare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;14;J;J;I;J;363024;Karla Escobar;23;K;Umeå;23 år, Student;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;15;J;J;I;J;363027;Morgan Flank;46;M;Umeå;46 år, Grundskollärare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;16;J;J;I;J;363028;Lea Wissing-Ek;32;K;Umeå;32 år, Kurator/socionom;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;17;J;J;I;J;363029;Sven Nygren;75;M;Umeå;75 år, Pensionär;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;18;J;J;I;J;363030;Gun Bergström;76;K;Umeå;76 år, Familjeterapeut;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;19;J;J;I;J;363031;Jan Bergström;78;M;Umeå;78 år, Ingenjör;296000;;J
+K;2480;Umeå;01;Umeå centrala;Miljöpartiet de gröna;MP;55;S;14903;20;J;J;I;J;363032;Emma Farrysson;29;K;Umeå;29 år, Sjuksköterska;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;1;J;J;I;J;67707;Anders Ågren;46;M;Umeå;46, kommunalråd, Öst på stan;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;2;J;J;I;J;67708;Gunilla Berglund;75;K;Umeå;75, fd kommunalråd, Mariedal;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;3;J;J;I;J;67709;Elmer Eriksson;69;M;Umeå;69, tjänsteman, Hörnefors;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;4;J;J;I;J;67710;Lena Riedl;56;K;Umeå;56, sjuksköterska, Teg;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;5;J;J;I;J;7801;Stefan Nordström;69;M;Umeå;69, civiljägmästare, Haga;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;6;J;J;I;J;67712;Madelene Nord;25;K;Umeå;25, undersköterska, Mariehem;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;7;J;J;I;J;67713;Ulrik Berg;59;M;Umeå;59, ingenjör, Täfteå;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;8;J;J;I;J;67714;Marianne Löfstedt;79;K;Umeå;79, fd kommunalråd, Väst på stan;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;9;J;J;I;J;67715;Pasi Huikuri;23;M;Umeå;23, politisk sekreterare, Grubbe;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;10;J;J;I;J;67716;Tina Myhrberg;50;K;Umeå;50, ekonomiadministratör, Haga;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;11;J;J;I;J;67717;Lennart Johansson;71;M;Umeå;71, företagare, Klabböle;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;12;J;J;I;J;67718;Sofia Ekman;44;K;Umeå;44, företagare/statsvetare, Teg;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;13;J;J;I;J;67719;Igor Jonsson;59;M;Umeå;59, tidningstryckare, Kåddis;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;14;J;J;I;J;67720;Ewa Miller;63;K;Umeå;63, konsult, Umedalen;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;15;J;J;I;J;67721;Greger Knutsson;70;M;Umeå;70, entreprenör, Botsmark;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;16;J;J;I;J;67722;Kjerstin Widman;64;K;Umeå;64, tandläkare, Teg;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;17;J;J;I;J;67723;Leif Lundgren;63;M;Umeå;63, företagare, Haga;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;18;J;J;I;J;7788;Sofia Andersson;23;K;Umeå;23, juriststudent, Umeå;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;19;J;J;I;J;67725;Mikael Thyni;51;M;Umeå;51, platschef, Tomtebo;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;20;J;J;I;J;67726;Åsa Ågren Wikström;47;K;Umeå;47, fd riksdagsledamot, Öst på stan;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;21;J;J;I;J;67727;Tommy Strand;72;M;Umeå;72, gymnasielärare, Berghem;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;22;J;J;I;J;67728;Liv Granbom;73;K;Umeå;73, distriktssjuksköterska, Väst på stan;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;23;J;J;I;J;67729;Anton Bergström;22;M;Umeå;22, politisk sekreterare, Mariehem;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;24;J;J;I;J;67730;Eva Westman Modig;75;K;Umeå;75, datakonsult, Haga;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;25;J;J;I;J;67731;Harald Svensson;51;M;Umeå;51, administratör, Ålidhem;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;26;J;J;I;J;67732;Noomi Grönberg;23;K;Umeå;23, läkarstuderande, Öst på stan;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;27;J;J;I;J;67733;Andreas Fällström;22;M;Lund;22, studerande, Mariehem;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;28;J;J;I;J;67734;Anthonia Lundberg;22;K;Umeå;22, civilingenjörsstuderande, Mariedal;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;29;J;J;I;J;67735;Oliver Granered;18;M;Umeå;18, butikssäljare, Haga;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;30;J;J;I;J;67736;Izabel Riedl;18;K;Umeå;18, studerande, Teg;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;31;J;J;I;J;67737;Ola Lundgren;47;M;Umeå;47, socionom, Mariehem;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;32;J;J;I;J;7800;Anna Hedman;48;K;Umeå;48, avdelningschef, Sävar;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;33;J;J;I;J;67739;Christer Fessé;73;M;Umeå;73, företagsrådgivare, Grubbe;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;34;J;J;I;J;67740;Åsa Johansson;50;K;Umeå;50, handläggare, Väst på stan;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;35;J;J;I;J;67741;Fredrik Wirenblad;38;M;Umeå;38, byggnadsingenjör, Umedalen;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;36;J;J;I;J;67742;Ulla Löfgren;74;K;Umeå;74, ingenjör, Holmön;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;37;J;J;I;J;67743;Anton Josér;20;M;Umeå;20, studerande, Grubbe;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;38;J;J;I;J;67744;Magdalena Taheri;21;K;Umeå;21, studerande, Sandåkern;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;39;J;J;I;J;67745;Patrik Andersson;48;M;Umeå;48, affärsutvecklare, Röbäck;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;40;J;J;I;J;67746;Anja Isaksson;29;K;Umeå;29, läkare, Väst på stan;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;41;J;J;I;J;67747;Peteris Timofejevs Henriksson;36;M;Umeå;36, universitetslektor, Väst på stan;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;42;J;J;I;J;67748;Maja Bylund;33;K;Umeå;33, jurist, Mariehem;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;43;J;J;I;J;67749;Lars Rejnus;71;M;Umeå;71, överingenjör, Väst på stan;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;44;J;J;I;J;67750;Joline Göttfert;23;K;Umeå;23, studerande, Öst på stan;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;45;J;J;I;J;67751;Hans Modig;78;M;Umeå;78, läkare, Haga;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;46;J;J;I;J;229711;Lotta Holmberg;63;K;Umeå;63, vårdlärare, Haga;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;47;J;J;I;J;67752;Lennart Sandström;65;M;Umeå;65, pensionär, Sandbacka;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;48;J;J;I;J;67753;Christer Åström;63;M;Umeå;63, yrkesofficer, Umedalen;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;49;J;J;I;J;67754;Kenneth Grahn;65;M;Umeå;65, fastighetsägare, Teg;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;50;J;J;I;J;67755;Kjell Söderberg;77;M;Umeå;77, filosofie doktor, Backen;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;51;J;J;I;J;67756;Lars Möllsten;36;M;Umeå;36, ingenjör, Böleäng;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;52;J;J;I;J;67757;Gunnar Öqvist;67;M;Umeå;67, pensionär, Sävar;296000;;J
+K;2480;Umeå;01;Umeå centrala;Moderaterna;M;1;S;14039;53;J;J;I;J;7805;Viktor Brodin;28;M;Umeå;28, driftsledare, Tavelsjö;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;1;N;J;J;I;71262;Marcus Bornemisza;54;M;Umeå;54, politisk sekreterare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;2;N;J;J;I;71263;Birgitta Ejlefall;56;K;Umeå;56, pensionär;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;3;N;J;J;I;71264;Maria Nilsson;60;K;Umeå;59, leg.psykolog;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;4;N;J;J;I;71265;Lars-Arne Ivert;72;M;Umeå;72, fd högstadielärare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;5;N;J;J;I;71267;Petter Nilsson;34;M;Umeå;34, gruppledare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;6;N;J;J;I;71268;Katrin Larsson;50;K;Umeå;50, medicinsk sekreterare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;7;N;J;J;I;71269;Andreas Figaro;47;M;Umeå;47, sjuksköterska;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;8;N;J;J;I;71270;Christina Sjödin;71;K;Umeå;70, pensionerad brottsoffersamordnare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;9;N;J;J;I;71271;Lars-Ivar Nilsson;68;M;Umeå;67, pensionär;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;10;N;J;J;I;71272;Tobias Lindgren;28;M;Umeå;28, egenföretagare;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;11;N;J;J;I;71273;Helen Östlund;52;K;Umeå;51;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;12;N;J;J;I;71274;Marléne Eriksson;30;K;Umeå;30;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;13;N;J;J;I;71275;Jan Johansson;66;M;Umeå;65, pensionär;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;14;N;J;J;I;71276;Leif Tage Jonsson;71;M;Umeå;70, pensionär;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;15;N;J;J;I;71277;Angelica Holmgren;44;K;Umeå;44;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;16;N;J;J;I;71278;Thomas Holmgren;47;M;Umeå;46;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;S;15474;17;N;J;J;I;71280;Sten Nilsson;58;M;Umeå;57, konsultchef;296000;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;;;;N;J;J;I;71266;Pettersson, Willy;65;M;Umeå;;0;;J
+K;2480;Umeå;01;Umeå centrala;Sverigedemokraterna;SD;110;;;;N;J;J;I;71279;Filipsson, Ann-Louise;54;K;Umeå;;0;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;1;J;J;I;J;376486;Ulrika Edman;42;K;Umeå;42, gruppledare/socionom;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;2;J;J;I;J;376487;Mattias Sehlstedt;38;M;Umeå;38, administratör;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;3;J;J;I;J;376488;Åsa Bäckström;61;K;Umeå;61, miljösamordnare;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;4;J;J;I;J;376489;Lennart Arvidsson;59;M;Umeå;59, pol. funktionär/metallarbetare;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;5;J;J;I;J;377533;Gudrun Nordborg;72;K;Umeå;72, fd jurist;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;6;J;J;I;J;377534;Bore Sköld;30;M;Umeå;30, forskare folkhälsa;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;7;J;J;I;J;377535;Elisabeth Zachrisson;66;K;Umeå;68, utbildningskonsult;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;8;J;J;I;J;377536;Jan-Olov Carlsson;61;M;Umeå;61, metallarbetare/oberoende socialist;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;9;J;J;I;J;377537;Ellen Söderberg;27;K;Umeå;27, lärarstudent;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;10;J;J;I;J;377538;Abdi Hanad;42;M;Umeå;42, lärare;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;11;J;J;I;J;360848;Caroline Täljeblad;31;K;Umeå;31, politisk sekreterare;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;12;J;J;I;J;377855;Lasse Jacobson;69;M;Umeå;72, fd socialarbetare;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;13;J;J;I;J;377856;Nasteho Lander;28;K;Umeå;28, projektledare/artist;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;14;J;J;I;J;360838;Wilmer Prentius;28;M;Umeå;28, statistiker;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;15;J;J;I;J;360833;Elisabet Forssell;40;K;Umeå;40, politisk sekreterare;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;16;J;J;I;J;360847;Daniell Andersson;42;M;Umeå;42, skolvärd;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;17;J;J;I;J;380253;Maria Myrstener;29;K;Umeå;29, doktorand;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;18;J;J;I;J;380254;Johan Stål;38;M;Umeå;38, projektörstudent;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;19;J;J;I;J;377860;Rebecca Sellstedt;29;K;Umeå;29, vårdbiträde;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;20;J;J;I;J;360837;Andreas Nuottaniemi;41;M;Umeå;41, lärare;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;21;J;J;I;J;377862;Susanne Yttergren;55;K;Umeå;55, fritidspedagog;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;22;J;J;I;J;377863;Elsa Andersson Hedqvist;63;K;Umeå;63 fd sjuksköterska;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;23;J;J;I;J;377864;Joakim Mäki;35;M;Umeå;35, dansinstruktör;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;24;J;J;I;J;377865;Elena Martinez Recabarren;53;K;Umeå;53, socionom;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;25;J;J;I;J;360836;Ahmed Hersi;49;M;Umeå;49, socialarbetare;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;26;J;J;I;J;378421;Emma Skog;36;K;Umeå;36, kommunikatör;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;27;J;J;I;J;378423;Sofia Ed;46;K;Umeå;46, handläggare;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;28;J;J;I;J;379348;Örjan Mikaelsson;73;M;Umeå;73, fd speciallärare;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;29;J;J;I;J;379349;Sofia Stolt;31;K;Umeå;32, montör;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;30;J;J;I;J;379350;Elias Åström;21;M;Umeå;21, studerande;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;31;J;J;I;J;379351;Karolina Frykholm;42;K;Umeå;42, skadereglerare;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;32;J;J;I;J;379352;Bernth Olofsson;76;M;Umeå;76, pensionär;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;33;J;J;I;J;379353;Agneta Högstadius;63;K;Umeå;63, kulturarbetare;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;34;J;J;I;J;379354;Erik Danielsson;68;M;Umeå;68, aktivist;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;35;J;J;I;J;360841;Minna Toivanen;29;K;Umeå;29, undersköterska;148000;;J
+K;2480;Umeå;01;Umeå centrala;Vänsterpartiet;V;5;S;14981;36;J;J;I;J;379356;Göran Teljebäck;61;M;Umeå;61, busschaufför/kulturarbetare;148000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;1;J;J;I;J;300753;Janet Ågren;39;K;Umeå;39 år, Pol.mag, Rödäng;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;2;J;J;I;J;300754;Hans Lindberg;44;M;Umeå;44 år, Ombudsman, Teg;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;3;J;J;I;J;300755;Moa Brydsten;40;K;Umeå;40 år, Lärare, Sandbacka;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;4;J;J;I;J;300756;Andreas Lundgren;41;M;Umeå;41 år, Boendehandledare, Tomtebo;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;5;J;J;I;J;192115;Marie-Louise Rönnmark;64;K;Umeå;64 år, fd Kommunalråd, Carlshem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;6;J;J;I;J;300758;Ali Yasin Dahir;55;M;Umeå;55 år, Tolk/statsvetare, Gimonäs;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;7;J;J;I;J;300759;Irma Olofsson;26;K;Umeå;26 år, Kulturgeograf, Umeå;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;8;J;J;I;J;300760;Tomas Wennström;63;M;Umeå;63 år, Koordinator, Umeå;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;9;J;J;I;J;192111;Paulina Granberg;28;K;Umeå;28 år, Ombudsman, Haga;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;10;J;J;I;J;300762;Karl Larsson;32;M;Umeå;32 år, Lärare, Sofiehem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;11;J;J;I;J;300763;Charlotta Westerlund;48;K;Umeå;48 år, Undersköterska, Ersboda;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;12;J;J;I;J;300764;Ari Leinonen;60;M;Umeå;60 år, Föreningsledare, Ersboda;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;13;J;J;I;J;300765;Margareta Rönngren;63;K;Umeå;63 år, Förskollärare, Rödäng;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;14;J;J;I;J;300766;Andreas Sjögren;41;M;Umeå;41 år, Ombudsman, Umeå;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;15;J;J;I;J;300767;Agnes Blom Bringlöv;24;K;Umeå;24 år, Boendehandledare, Tomtebo;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;16;J;J;I;J;300768;Christer Lindvall;65;M;Umeå;65 år, Ombudsman, Ersboda;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;17;J;J;I;J;300769;Mehrana Bassami;30;K;Umeå;30 år, Student, Mariehem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;18;J;J;I;J;300770;Lennart Holmlund;72;M;Umeå;72 år, Pensionär, Umeå;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;19;J;J;I;J;300771;Marikk Henriksson;34;K;Umeå;34 år, Restaurangbiträde, Sandbacka;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;20;J;J;I;J;300772;Dennis Larsson;57;M;Umeå;57 år, Postarbetare, Mariehem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;21;J;J;I;J;300773;Mona Westman;56;K;Umeå;56 år, Socialsekreterare, Ålidhöjd;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;22;J;J;I;J;192126;Johan Lindbom;29;M;Umeå;29 år, Elektriker, Berghem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;23;J;J;I;J;300775;Sandra Reinklou;25;K;Umeå;25 år, Lärarstudent, Berghem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;24;J;J;I;J;300776;Leif Berglund;64;M;Umeå;64 år, Pappersindustriarbetare, Ersboda;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;25;J;J;I;J;300777;Sandra Novalie Lilja;31;K;Umeå;31 år, Läkare, Umeå;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;26;J;J;I;J;300778;Mostafa Barazeghi;30;M;Umeå;30 år, Student, Nydalahöjd;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;27;J;J;I;J;300779;Lina Farhat;39;K;Umeå;39 år, Arbetsförmedlare, Mariehem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;28;J;J;I;J;300780;Ingemar Jangvad;73;M;Umeå;73 år, Pensionär, Mariehem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;29;J;J;I;J;300781;Hanna Abbasi;28;K;Umeå;28 år, Personlig assistent, Ersboda;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;30;J;J;I;J;192116;Mahmoud Chninou;29;M;Umeå;29 år, Juriststudent, Ersboda;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;31;J;J;I;J;300783;Rita Andersson;59;K;Umeå;59 år, Undersköterska, Gimonäs;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;32;J;J;I;J;300784;Mathias Westbrand Emilsson;24;M;Umeå;24 år, Servitör, Haga;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;33;J;J;I;J;300785;Linda Burén;46;K;Umeå;46 år, Socionom, Haga;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;34;J;J;I;J;300786;Bassam Achour;55;M;Umeå;55 år, Lärare, Carlshem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;35;J;J;I;J;300787;Rebecka Jacobsson;28;K;Umeå;28 år, Personalvetare, Marieberg;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;36;J;J;I;J;300788;Kuno Morén;74;M;Umeå;74 år, Pensionär, Haga;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;37;J;J;I;J;300789;Katarina Nilsson Reian;45;K;Umeå;45 år, Specialistsjuksköterska, Ersmark;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;38;J;J;I;J;300790;Jari Prosi;55;M;Umeå;55 år, Fil kand, Berghem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;39;J;J;I;J;300791;Monica Norlund;72;K;Umeå;72 år, Pensionär, Berghem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;40;J;J;I;J;300792;Tommy Stark;64;M;Umeå;64 år, Rörmontör, Ersboda;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;41;J;J;I;J;300793;Gisela Lindmark Bertilsson;52;K;Umeå;52 år, Chef, Marieberg;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;42;J;J;I;J;300794;Ingemar Andersson;51;M;Umeå;51 år, Lastbilsmekaniker, Liljansberget;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;43;J;J;I;J;300795;Anna Forss;45;K;Umeå;46 år, Kock, Ersboda;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;44;J;J;I;J;300796;Robert Lindberg;35;M;Umeå;35 år, Brevbärare, Umeå;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;45;J;J;I;J;192123;Matilda Olofsson;32;K;Umeå;32 år, Barnsköterska, Innertavle;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;46;J;J;I;J;300798;Torgny Forss;44;M;Umeå;44 år, Energirådgivare, Carlshem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;47;J;J;I;J;300799;Anna Johansson;22;K;Umeå;22 år, Cafébiträde, Sofiehem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;48;J;J;I;J;300800;Jonas Bergström;28;M;Umeå;28 år, Politisk sakkunnig, Umeå;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;49;J;J;I;J;300801;Gun-Britt Härjelin;52;K;Umeå;52 år, Montör, Mariehem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;50;J;J;I;J;300802;Hans-Åke Rönnlund;69;M;Umeå;69 år, Pensionär, Mariehem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;51;J;J;I;J;300803;Evelyn Ångqvist;51;K;Umeå;51 år, Förskollärare, Ålidhem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;52;J;J;I;J;300804;Mattias Karlsson;31;M;Umeå;31 år, Rörmokare, Mariehem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;53;J;J;I;J;300805;Marie-Louise Nilsson;79;K;Umeå;79 år, Pensionär, Berghem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;54;J;J;I;J;300806;Theodor Appelblad;22;M;Umeå;22 år, Studerande, Umeå;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;55;J;J;I;J;300807;Hanna Kriss;28;K;Umeå;28 år, Student, Öbacka;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;56;J;J;I;J;300808;Bengt Norman;57;M;Umeå;57 år, Projektledare, Ålidhöjd;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;57;J;J;I;J;300809;Anna Bengtsson;47;K;Umeå;47 år, Diversearbetande, Haga;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;58;J;J;I;J;300810;Peter Svensson;57;M;Umeå;57 år, Ombudsman, Haga;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;59;J;J;I;J;300811;Barbara Lewandowska Paulsson;67;K;Umeå;67 år, Undersköterska, Ålidhem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;60;J;J;I;J;300812;Roland Samuelsson;67;M;Umeå;67 år, Lärare, Carlshem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;61;J;J;I;J;300813;Emilia Harr;21;K;Umeå;21 år, Student, Carlshem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;62;J;J;I;J;300814;Joel Bystedt;24;M;Umeå;23 år, Studerande, Tomtebo;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;63;J;J;I;J;300815;Emilia Barsk;22;K;Umeå;22 år, Studerande, Mariehem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;64;J;J;I;J;300816;Kurt-Åke Sjöström;68;M;Umeå;68 år, fd ombudsman/rektor, Ersboda;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;65;J;J;I;J;300817;Oscar Sedholm;29;M;Umeå;29 år, Beteendevetare, Nydalahöjd;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;66;J;J;I;J;300818;Sebastian Svahn;22;M;Umeå;22 år, Lärarstudent, Tomtebo;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14612;67;J;J;I;J;300819;Robin Enander;25;M;Umeå;25 år, Jurist, Nydalahöjd;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;1;J;J;I;J;300754;Hans Lindberg;44;M;Umeå;44 år, Ombudsman, Teg;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;2;J;J;I;J;300753;Janet Ågren;39;K;Umeå;39 år, Pol.mag, Rödäng;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;3;J;J;I;J;302420;Mikael Berglund;53;M;Umeå;53 år, Elektriker, Västerhiske;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;4;J;J;I;J;302421;Lena Karlsson Engman;60;K;Umeå;60 år, Forskare, Obbola;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;5;J;J;I;J;302422;Peter Vigren;33;M;Umeå;33 år, Lärare, Västerhiske;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;6;J;J;I;J;302423;Carin Nilsson;70;K;Umeå;70 år, Leg.biomedicinsk analytiker, Sävar;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;7;J;J;I;J;192130;Per-Erik Johansson;55;M;Umeå;55 år, Ombudsman, Sävar;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;8;J;J;I;J;192135;Emma Vigren;33;K;Umeå;33 år, Socionom, Västerhiske;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;9;J;J;I;J;302426;Lars Hammarstedt;67;M;Umeå;67 år, Ombudsman/pensionär, Hörnefors;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;10;J;J;I;J;302427;Nora Tabbouche;54;K;Umeå;54 år, Gymnasielärare, Böleäng;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;11;J;J;I;J;302430;Stellan Elebro;36;M;Umeå;36 år, Arbetare, Holmsund;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;12;J;J;I;J;302429;Helena Smith;30;K;Umeå;30 år, Politisk sekreterare, Mariehem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;13;J;J;I;J;302432;Gunnar Dahlberg;57;M;Umeå;58 år, Ombudsman, Yttersjö;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;14;J;J;I;J;302431;Beatrice Årebrand;53;K;Umeå;53 år, Verksamhetsassistent, Obbola;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;15;J;J;I;J;302434;Jan Lundberg;68;M;Umeå;68 år, Pensionär, Gravmark;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;16;J;J;I;J;302433;Sanna Rudolfsen;21;K;Umeå;21 år, Verksamhetsutvecklare, Tomtebo;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;17;J;J;I;J;302436;Tichaona Dumba Maphosa;39;M;Umeå;39 år, Planarkitekt, Backen;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;18;J;J;I;J;302435;Lotta Wiechel;18;K;Umeå;18 år, Student, Teg;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;19;J;J;I;J;302438;Håkan Johansson;53;M;Umeå;53 år, Brevbärare, Grisbacka;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;20;J;J;I;J;302437;Lena Sandlin;49;K;Umeå;49 år, Tf affärsområdeschef, Teg;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;21;J;J;I;J;302440;Patrik Enkvist;32;M;Umeå;32 år, Skötare, Böleäng;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;22;J;J;I;J;302439;Catarina Holmberg;51;K;Umeå;51 år, Butikschef, Umedalen;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;23;J;J;I;J;302442;Jimmy Olsson;45;M;Umeå;45 år, Industriarbetare, Sävar;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;24;J;J;I;J;302441;Britt-Inger Karlsson;57;K;Umeå;58 år, Undersköterska, Röbäck;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;25;J;J;I;J;302444;Pär Berglund;50;M;Umeå;50 år, Metallarbetare, Tavelsjö;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;26;J;J;I;J;302443;Anneli Grundberg;51;K;Umeå;51 år, Familjebehandlare, Teg;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;27;J;J;I;J;302446;Ronny Kassman;67;M;Umeå;67 år, Pensionär, Holmsund;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;28;J;J;I;J;302445;Rita Poromaa;67;K;Umeå;67 år, Socionom, Holmsund;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;29;J;J;I;J;302448;Ola Borgström;59;M;Umeå;59 år, Montör, Hörnefors;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;30;J;J;I;J;302447;Maria Vängbo;48;K;Umeå;48 år, Facklig företrädare, Teg;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;31;J;J;I;J;302450;Bo Johansson;62;M;Umeå;62 år, Integrationsassistent, Grubbe;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;32;J;J;I;J;302449;Carina Aminoff;49;K;Umeå;49 år, Sjuksköterska, Umedalen;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;33;J;J;I;J;302452;Jörgen Boström;45;M;Umeå;45 år, Webbkommunikatör, Teg;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;34;J;J;I;J;302451;Lina Vänglund;27;K;Umeå;27 år, Student, Nydalahöjd;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;35;J;J;I;J;302454;Curt Jonsson;52;M;Umeå;52 år, Affärsutvecklare, Stöcke;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;36;J;J;I;J;302453;Agneta Lundström;66;K;Umeå;66 år, Farmaceut, Sävar;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;37;J;J;I;J;302456;Kenneth Hedlund;64;M;Umeå;64 år, Arbetare, Hörnefors;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;38;J;J;I;J;302455;Carola Andersson;54;K;Umeå;54 år, Fabriksarbetare, Sävar;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;39;J;J;I;J;302458;Jonas Gustavsson;31;M;Umeå;31 år, VVS-montör, Umeå/Brattby;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;40;J;J;I;J;193460;Titti Ådén;58;K;Umeå;58 år, Grafiker, Böleäng;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;41;J;J;I;J;302460;Bengt Holm;73;M;Umeå;73 år, Pensionär, Sävar;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;42;J;J;I;J;302459;Birgitta Jonsson;53;K;Umeå;53 år,  Leg Sjuksköterska, Bullmark;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;43;J;J;I;J;302462;Glenn Sjöström;60;M;Umeå;60 år, IT/vaktmästare, Backen;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;44;J;J;I;J;302461;Kerstin Hermansson Morén;57;K;Umeå;57 år, EU-samordnare, Teg;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;45;J;J;I;J;302464;Mikael Danielsson;52;M;Umeå;52 år, Ombudsman, Obbola;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;46;J;J;I;J;302463;Molly Hoffrén;28;K;Umeå;28 år, Studerande, Ersboda;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;47;J;J;I;J;302466;Thomas Hartman;49;M;Umeå;49 år, Kommunikationschef, Teg;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;48;J;J;I;J;302465;Emma Wallerström;21;K;Umeå;21 år, Juriststudent, Tomtebo;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;49;J;J;I;J;302468;Lars Sandberg;70;M;Umeå;70 år, Socionom, Grisbacka;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;50;J;J;I;J;302467;Emelie Persson;30;K;Umeå;30 år, Boendehandledare, Umeå;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;51;J;J;I;J;302470;Marcus Helletun;39;M;Umeå;39 år, Statsvetare, Haga;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;52;J;J;I;J;302469;Fredrik Valham;46;M;Umeå;46 år, Läkare, Haga;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;53;J;J;I;J;302471;Kjell-Arne Jonsson;62;M;Umeå;62 år, Chaufför, Bullmark;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;54;J;J;I;J;302472;Andreas Georgsson;43;M;Umeå;43 år, IT-specialist, Grubbe;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;55;J;J;I;J;302473;Örjan Aronsson;69;M;Umeå;69 år, Kyrkoherde em, Umedalen;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;56;J;J;I;J;302474;Lars Åberg;42;M;Umeå;42 år, Blivande Miljö-hälsoskyddsinspektör, Ålidhem;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;57;J;J;I;J;302475;Mats-Olov Karlsson;61;M;Umeå;61 år, Projektledare, Umeå;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;58;J;J;I;J;302476;Per Genberg;36;M;Umeå;36 år, Lärare, Ersboda;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;59;J;J;I;J;302477;Daniel Holst;24;M;Umeå;24 år, Student, Nydalahöjd;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;60;J;J;I;J;302478;Lennart Lundquist;72;M;Umeå;72 år, Lärare, Mariedal;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;61;J;J;I;J;302479;Francisco Hansson;24;M;Umeå;24 år, Vårdbiträde, Ersboda;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarepartiet-Socialdemokraterna;S;2;S;14629;62;J;J;I;J;302480;Mahmoud Shnino;59;M;Umeå;59 år, Projektledare, Ersboda;150000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;1;N;J;J;I;185880;Jan Hägglund;65;M;Umeå;redaktör Umebladet;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;2;N;J;N;I;331530;[inte lämnat samtycke];;;;;100000;;N
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;3;N;J;J;I;331531;Patrik Brännberg;48;M;Umeå;undersköterska;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;4;N;J;J;I;331532;Gun Sandström;56;K;Umeå;lokalvårdare;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;5;N;J;J;I;331533;Tomas Westerström;38;M;Umeå;undersköterska NUS;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;6;N;J;J;I;331534;Agneta Björk;61;K;Umeå;sjukpensionär Holmsund;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;7;N;J;J;I;331535;Davis Kaza;33;M;Umeå;redaktör Nya Arbetartidningen;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;8;N;J;J;I;331536;Marika Atlegrim;61;K;Umeå;biomedicinsk analytiker NUS;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;9;N;J;J;I;331537;Olof Kristmansson;40;M;Umeå;lärare;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;10;N;J;J;I;331538;Kerstin Jonsson;78;K;Umeå;pensionerad yrkeslärare;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;11;N;J;J;I;331539;Frank Pettersson;57;M;Umeå;sjuksköterska NUS;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;12;N;J;J;I;331540;Lena Lindström;60;K;Umeå;undersköterska äldreomsorgen;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;13;N;J;J;I;331544;Donald Rosendahl;53;M;Umeå;snickare, oberoende;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;14;N;J;J;I;386989;Pia Roth;48;K;Umeå;boendehandledare, oberoende;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;15;N;J;J;I;331543;Lars-Erik Utberg;31;M;Umeå;ekonomibiträde;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;16;N;J;J;I;386991;Maryam Sarjoughian;39;K;Umeå;barnskötare;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;17;N;J;J;I;331541;Johan Roslin;25;M;Umeå;miljöarbetare;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;18;N;J;J;I;331545;Josefin Häggbom;24;K;Umeå;köksbiträde Hörnefors;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;19;N;J;J;I;331548;Hussein Ali;49;M;Umeå;busschaufför;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;20;N;J;J;I;331542;Olena Rzhepishevska;39;K;Umeå;molekylärbiolog;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;21;N;J;J;I;386990;Shahin Bahrami;41;M;Umeå;lastbilschaufför;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;22;N;J;J;I;331562;Marie Bergqvist;34;K;Umeå;bibliotekarie;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;23;N;J;J;I;331549;Conny Ström;62;M;Umeå;läkare NUS;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;24;N;J;J;I;331550;Britt-Inger Fors Sanaei;60;K;Umeå;lokalvårdare;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;25;N;J;J;I;331561;Patrik Jonsson;30;M;Umeå;undersköterska socialpsykiatrin;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;26;N;J;J;I;331547;Viola Egertun Wahlström;64;K;Umeå;handelsanställd Holmsund;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;27;N;J;J;I;331546;Göran Sandberg;73;M;Umeå;pensionerad taxichaufför Överboda;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;28;N;J;J;I;331558;Anton Hultdin;35;M;Umeå;spelutvecklare;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;29;N;J;J;I;331560;Veronica Johansson;60;K;Umeå;personlig assistent Holmsund;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;30;N;J;J;I;331551;Peter Ericsson;31;M;Umeå;vuxenstuderande;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;31;N;J;J;I;331555;Andreas Löfdahl;44;M;Umeå;taxichaufför, oberoende;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;32;N;J;J;I;388802;Anna-Sara Wännman;20;K;Umeå;expeditör;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;33;N;J;J;I;331556;Jonathan Edmundsson;35;M;Umeå;jägmästare;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;34;N;J;J;I;331566;Frank B Jakobsen;69;M;Umeå;pensionerad målare;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;35;N;J;J;I;331554;Veronica Nordenström;49;K;Umeå;arbetssökande;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;36;N;J;J;I;331559;Jonas Rydberg;42;M;Umeå;programmerare;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;37;N;J;J;I;331565;Dan Molund;60;M;Umeå;ekonom;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;38;N;J;J;I;331557;Elisabeth Rodestål;83;K;[saknas i folkbokföringen];pensionär;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;39;N;J;J;I;331563;Gunnar Frohm;61;M;Umeå;kontorist;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;40;N;J;J;I;331568;Adam Jonsson;27;M;Umeå;studerande;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;41;N;J;J;I;331552;Cassandra Wells;25;K;Umeå;lokalvårdare;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;42;N;J;J;I;331567;Kristofer Näsman;33;M;Umeå;sjuksköterska;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;43;N;J;J;I;362014;Ivan Alvear Bello;30;M;Umeå;larmoperatör, oberoende;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;44;N;J;J;I;331553;Kjell Berglund;69;M;Umeå;pensionerad förskollärare;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;S;13694;45;N;J;J;I;331564;Lars-Göran Lejdebro;70;M;Umeå;pensionerad skogstekniker, oberoende;100000;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;;;;N;J;J;I;361580;Bengtsson, Andreas;45;M;Robertsfors;;0;;J
+K;2480;Umeå;02;Umeå omland;Arbetarpartiet tidigare Rättvisepartiet Offensiv;Ar P;1180;;;;N;J;J;I;361581;Gustafsson, Helena;49;K;Norsjö;;0;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;1;J;J;I;J;47460;Mattias Larsson;45;M;Umeå;45 år, Gruppledare, Umedalen;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;2;J;J;I;J;47461;Anna-Karin "Kajsa" Sjölander;52;K;Umeå;52 år, Rektor, Teg;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;3;J;J;I;J;47462;Robert Axebro;46;M;Umeå;46 år, Utredare, Bullmark;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;4;J;J;I;J;47463;Maja Westling;27;K;Umeå;27 år, Politisk sekreterare, Mariehem;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;5;J;J;I;J;47464;Sven-Olov Edvinsson;69;M;Umeå;69 år, Överläkare, Kasamark;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;6;J;J;I;J;47465;Eric Bergner;64;M;Umeå;64 år, Politisk sekreterare, Bullmark;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;7;J;J;I;J;47466;Solveig Granberg;69;K;Umeå;69 år, Undersköterska, Tavelsjö;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;8;J;J;I;J;47467;Fredrik Elgh;60;M;Umeå;60 år, Överläkare, Berghem;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;9;J;J;I;J;47468;Lovisa Milton Frykholm;23;K;Umeå;23 år, Idrottsmedicinstuderande, Tomtebo;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;10;J;J;I;J;47469;Eva Maaherra-Lövheim;35;K;Umeå;35 år, Samhällsplanerare, Sandbacka;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;11;J;J;I;J;47470;Fredrik Rönn;50;M;Umeå;50 år, Civilingenjör, Innertavle;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;12;J;J;I;J;47471;Sara Häggström;38;K;Umeå;38 år, HR-specialist, Centrala stan;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;13;J;J;I;J;47472;Lennart Persson;68;M;Umeå;68 år, Behandlingsassistent, Hissjö;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;14;J;J;I;J;47473;Julia Algotsson;22;K;Umeå;22 år, Civilekonomstuderande, Carlshem;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;15;J;J;I;J;47474;Delia Zadius;31;K;Umeå;31 år, Företagare, Dragonfältet;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;16;J;J;I;J;47475;Hampus Lindqvist;18;M;Umeå;18 år, Studerande, Västerslätt;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;17;J;J;I;J;47476;Erica Ohlsson;31;K;Umeå;31 år, Civilekonom, Tomtebo;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;18;J;J;I;J;47477;Ron Mahieu;53;M;Umeå;53 år, Universitetslektor, Holmsund;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;19;J;J;I;J;47478;Ellinor Hansson;42;K;Umeå;42 år, Informationsadministratör, Sävar;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;20;J;J;I;J;47479;Torbjörn Wennebro;69;M;Umeå;69 år, Konsult, Tavelsjö;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;21;J;J;I;J;47480;Gunnel Lagerkvist;76;K;Umeå;76 år, Konsult, Mariehem;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;22;J;J;I;J;47481;Robert Horvath;50;M;Umeå;50 år, Strategisk inköpare, Sandbacka;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;23;J;J;I;J;47482;Charlotta Weinehall;47;K;Umeå;47 år, Centrumledare, Täfteå;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;24;J;J;I;J;47483;Åke Gustafsson;65;M;Umeå;65 år, Överläkare, Berghem;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;25;J;J;I;J;47484;Mari Lindgren;48;K;Umeå;48 år, Boendehandledare, Tavelsjö;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;26;J;J;I;J;47485;Tobias Gillberg;31;M;Umeå;31 år, Rekryterare, Tomtebo;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;27;J;J;I;J;47486;Mira Constantin;30;K;Umeå;30 år, Uppdragschef, Mariehem;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;28;J;J;I;J;47487;Per Holmström;66;M;Umeå;66 år, Företagare, Sofiehem;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;29;J;J;I;J;47488;Christina Edblom;68;K;Umeå;68 år, Specialpedagog, Böleäng;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;30;J;J;I;J;47489;Johanna Häggström;44;K;Umeå;44 år, Sjuksköterska, Umedalen;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;31;J;J;I;J;47490;Malin Forss;45;K;Umeå;45 år, Boendeansvarig, Centrala stan;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;32;J;J;I;J;47491;Håkan Appelblad;53;M;Umeå;53 år, Universitetslektor, Västerhiske;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;33;J;J;I;J;47492;Fredrik Bergner;70;M;Umeå;70 år, Ingenjör, Bodbyn;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;34;J;J;I;J;47493;Niclas Westberg;21;M;Umeå;21 år, Studerande, Ålidhem;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;35;J;J;I;J;47494;Inger Renström;70;K;Umeå;70 år, Universitetsadjunkt, Holmsund;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;36;J;J;I;J;47495;Roger Sandström;71;M;Umeå;71 år, Lantbrukare, Stöcksjö;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;37;J;J;I;J;47496;Per-Gunnar Olofsson;64;M;Umeå;64 år, Landsbygdslobbyist, Tavelsjö;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;38;J;J;I;J;47497;Margareta Sandeström;74;K;Umeå;74 år, Kanslist, Böle;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;39;J;J;I;J;47498;Tord Renström;78;M;Umeå;78 år, Byggnadsinspektör, Holmsund;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;40;J;J;I;J;47499;Alexandra Nelson Blixt;22;K;Umeå;22 år, Filosofistuderande,  Mariehem;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;41;J;J;I;J;47500;Morgan Edstedt;38;M;Umeå;38 år, Studerande, Ålidhem;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;42;J;J;I;J;47501;Erik Weinehall;37;M;Umeå;37 år, Mekaniker, Tavelsjö;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;43;J;J;I;J;47502;Lars Ove Renberg;68;M;Umeå;68 år, Ekonom, Dragonfältet;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;44;J;J;I;J;47503;Steen A Bärentsen;49;M;Umeå;49 år, Företagare, Ålidhem;160000;;J
+K;2480;Umeå;02;Umeå omland;Centerpartiet;C;4;S;12428;45;J;J;I;J;47504;Lars Jöran Edström;69;M;Umeå;69 år, Lantmästare, Hössjö;160000;;J
+K;2480;Umeå;02;Umeå omland;Direktdemokraterna;DD;1150;;;;N;J;J;I;509552;Hallin, Fredrik;33;M;Umeå;;0;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;1;J;J;I;J;392933;Minna Toivo;50;K;Umeå;49, lärare;48000;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;2;J;J;I;J;392938;Julia Lidman;22;K;Umeå;21, student/vårdbiträde;48000;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;3;J;J;I;J;392935;Alexander Svartvatten;40;M;Umeå;40, konstnär;48000;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;4;J;J;I;J;392936;Keykaus Abbasi;64;M;Umeå;65, pensionär;48000;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;5;J;J;I;J;392937;Magnus Ledman;48;M;Umeå;48, utredare;48000;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;6;J;J;I;J;392940;Shahandeh Seyfizadeh;67;K;Umeå;67, sjuksköterska;48000;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;7;J;J;I;J;392939;Saasha Metsärantala;51;M;Umeå;;48000;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;8;J;J;I;J;392941;Johsefin Tallroth;26;K;Uppsala;25, student;48000;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;9;J;J;I;J;392942;Maria Axelsson;42;K;Umeå;42, kommunikatör;48000;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;10;J;J;I;J;392934;Ellen Svedjeland;39;K;Umeå;;48000;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;11;J;J;I;J;219305;Elfrida Bergman;34;K;Umeå;34, kulturanalytiker;48000;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;12;J;J;I;J;392944;Maria Lundström;45;K;Umeå;45, kulturadministratör;48000;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;13;J;J;I;J;392945;Anna Höglund;49;K;Umeå;48, psykolog & psykoterapeut;48000;;J
+K;2480;Umeå;02;Umeå omland;Feministiskt initiativ;FI;532;S;15089;14;J;J;I;J;392946;Jennie Bergvall Lindström;28;K;Umeå;28, student;48000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;1;J;J;I;J;5826;Veronica Kerr;48;K;Umeå;statsvetare, Holmsund;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;2;J;J;I;J;24216;Anders Sellström;54;M;Umeå;civilekonom, Haga;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;3;J;J;I;J;5824;Birgitta Nordvall;68;K;Umeå;distriktssköterska, Teg;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;4;J;J;I;J;5856;Sven-Åke Granberg;78;M;Umeå;pensionär, Ersboda;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;5;J;J;I;J;5859;Talent Hofling;30;K;Umeå;socionom, Grubbe;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;6;J;J;I;J;5847;Jan Kollberg;49;M;Umeå;säljare, Tomtebo;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;7;J;J;I;J;5855;Evy Grad;40;K;Umeå;säljare, Sörfors;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;8;J;J;I;J;24222;Sture Eriksson;71;M;Umeå;docent, Röbäck;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;9;J;J;I;J;24223;Anna Selberg;48;K;Umeå;kommunikatör, Böleäng;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;10;J;J;I;J;5852;Samuel Appiah-Kubi;61;M;Umeå;vaktmästare, Västerslätt;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;11;J;J;I;J;24225;Kerstin Pehrsson;69;K;Umeå;pensionär, Holmsund;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;12;J;J;I;J;24226;Rabih Ballout;57;M;Umeå;busschaufför, Ersboda;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;13;J;J;I;J;24227;Åsa Lunnergård;56;K;Umeå;distriktssköterska, Tavelsjö;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;14;J;J;I;J;24228;Kenneth Mikaelsson;61;M;Umeå;sjuksköterska, Teg;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;15;J;J;I;J;24229;Monica Hultman;74;K;Umeå;pensionär, Haga;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;16;J;J;I;J;5854;Fredrik Berggren;32;M;Umeå;marknadskoordinator, Röbäck;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;17;J;J;I;J;5845;Per-Martin Jonasson;66;M;Umeå;pastor, Sävar;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;18;J;J;I;J;5839;Helén Edlund;58;K;Umeå;företagare, Grubbe;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;19;J;J;I;J;5840;Torbjörn Arvidsson;68;M;Umeå;präst, Sandbacka;284000;;J
+K;2480;Umeå;02;Umeå omland;Kristdemokraterna;KD;68;S;12090;20;J;J;I;J;22119;Håkan Karlsson;78;M;Umeå;företagare, Hörnefors;284000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;1;J;J;I;J;215923;Peder Westerberg;51;M;Umeå;Umeå,gruppledare;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;2;J;J;I;J;60879;Dorothea Liebel;62;K;Umeå;Umeå,lärare;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;3;J;J;I;J;216146;Björn Kjellsson;35;M;Umeå;Umeå,pol.sekreterare;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;4;J;J;I;J;60864;Marianne Normark;71;K;Umeå;Västerhiske,sjuksköterska;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;5;J;J;I;J;49153;Ulrica Westerlund;52;K;Umeå;Umeå,bitr.socialchef;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;6;J;J;I;J;198182;Anders Norqvist;65;M;Umeå;Degersjön,nämndeman;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;7;J;J;I;J;216220;Carinne Sjöberg;56;K;Umeå;Umeå,konsult;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;8;J;J;I;J;60871;Anna Ramnemark-Sjöström;48;K;Umeå;Holmsund,läkare;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;9;J;J;I;J;216222;Björn Alrutz-Boman;42;M;Umeå;Umeå,barnskötare;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;10;J;J;I;J;453287;Robin Thörnberg;26;M;Umeå;Umeå,studerande;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;11;J;J;I;J;216670;Maria Lindvall;54;K;Umeå;Umeå,jurist;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;12;J;J;I;J;198175;Thommy Bäckström;65;M;Umeå;Berghem,HR-specialist;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;13;J;J;I;J;60884;Britta Enfält;70;K;Umeå;Umeå,leg.sjuksköterska;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;14;J;J;I;J;60883;Urban Wikman;47;M;Umeå;Holmsund,företagsutvecklare;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;15;J;J;I;J;198186;Margareta Ekesryd;72;K;Umeå;Holmsund,f.d.rektor;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;16;J;J;I;J;60882;Elias Holmgren;38;M;Umeå;Ersboda,skattehandläggare;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;17;J;J;I;J;60881;Maria Gripenhoftner;50;K;Umeå;Umeå,nämndeman;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;18;J;J;I;J;216768;Jan Hultman;53;M;Umeå;Umeå,Egenföretagare;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;19;J;J;I;J;217237;Anna-Karin Östling-Sjöstrand;72;K;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;20;J;J;I;J;198194;Hans-Christer Jonsson;59;M;Umeå;Umeå,ungdomskonsulent;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;21;J;J;I;J;217239;Iréne Bäckström;65;K;Umeå;Berghem,distriktssköterska;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;22;J;J;I;J;217240;Christine Elmrros;69;K;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;23;J;J;I;J;60886;Mats Nilsson;64;M;Umeå;Teg,journalist;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;24;J;J;I;J;198188;Käte Alrutz;71;K;Umeå;Umeå,logoped;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;25;J;J;I;J;217385;Jan-Olof Schöldström;54;M;Umeå;Umeå,Reseadministrator;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;26;J;J;I;J;217386;Karin Andersson;71;K;Umeå;Holmsund,pensionär;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;27;J;J;I;J;217387;Linda Normark;43;K;Umeå;Umeå,undersköterska;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;28;J;J;I;J;217388;Lennart Sandström;77;M;Umeå;Umeå,ingenjör;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;29;J;J;I;J;217389;Eva Haegerlund;77;K;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;30;J;J;I;J;217390;Björn Boberg;69;M;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;31;J;J;I;J;217391;Erik Selander;73;M;Umeå;Umeå,lärare;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;32;J;J;I;J;60867;Alf Molin;67;M;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;33;J;J;I;J;198197;Andreas Hollmer;32;M;Umeå;Umeå,läkarstuderande;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;34;J;J;I;J;217518;Jan-Olof Sandberg;66;M;Umeå;Umeå,f.d.mässchef;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;35;J;J;I;J;217519;Johnny Sandström;72;M;Umeå;Umeå,Egenföretagare;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;36;J;J;I;J;217520;Gunnar Leissner;71;M;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;37;J;J;I;J;217521;Frej Moström;28;M;Göteborg;Umeå,studerande;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;38;J;J;I;J;217522;Conny Svensson;70;M;Umeå;Umeå,pensionär;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;39;J;J;I;J;217605;Peter Westh;54;M;Umeå;Obbola,transportchef;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;40;J;J;I;J;217606;Samuel Holmlund;32;M;Umeå;Umeå;296000;;J
+K;2480;Umeå;02;Umeå omland;Liberalerna (tidigare Folkpartiet);L;3;S;13957;41;J;J;I;J;217607;Peter Sedlacek;77;M;Umeå;Grubbe,f.d.kanslichef;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;1;J;J;I;J;311145;Nils Seye Larsen;38;M;Umeå;38 år, Verksamhetsutvecklare;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;2;J;J;I;J;363014;Mariam Salem;37;K;Umeå;37 år, Konsult/egenföretagare;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;3;J;J;I;J;363015;John Vestergren;34;M;Umeå;34 år, Konsult;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;4;J;J;I;J;363016;Alice Fatma Nikmanesh;26;K;Umeå;26 år, Student;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;5;J;J;I;J;363017;Arvid Lundberg;33;M;Umeå;33 år, Doktorand;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;6;J;J;I;J;175343;Elin Söderberg;34;K;Umeå;34 år, Klimat- och energisamordnare;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;7;J;J;I;N;363019;[inte lämnat förklaring];;;;;296000;;N
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;8;J;J;I;J;363020;Jennifer Forssell;40;K;Umeå;40 år, Energiexpert;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;9;J;J;I;J;363021;Stefan Andersson;45;M;Umeå;45 år, Projektledare/civilingenjör;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;10;J;J;I;J;363022;Lennart Frostesjö;55;M;Umeå;58 år, Fil dr/PhD/forskare;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;11;J;J;I;J;363023;Lars Brännström;62;M;Umeå;62 år, Miljöstrateg;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;12;J;J;I;J;363025;Zacharias Tjäder;30;M;Umeå;30 år, Säkerhetssamordnare;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;13;J;J;I;J;363026;Mazin Hermez Matti;50;M;Umeå;50 år, Fastighetsskötare;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;14;J;J;I;J;363024;Karla Escobar;23;K;Umeå;23 år, Student;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;15;J;J;I;J;363027;Morgan Flank;46;M;Umeå;46 år, Grundskollärare;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;16;J;J;I;J;363028;Lea Wissing-Ek;32;K;Umeå;32 år, Kurator/socionom;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;17;J;J;I;J;363029;Sven Nygren;75;M;Umeå;75 år, Pensionär;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;18;J;J;I;J;363030;Gun Bergström;76;K;Umeå;76 år, Familjeterapeut;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;19;J;J;I;J;363031;Jan Bergström;78;M;Umeå;78 år, Ingenjör;296000;;J
+K;2480;Umeå;02;Umeå omland;Miljöpartiet de gröna;MP;55;S;14903;20;J;J;I;J;363032;Emma Farrysson;29;K;Umeå;29 år, Sjuksköterska;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;1;J;J;I;J;67707;Anders Ågren;46;M;Umeå;46, kommunalråd, Öst på stan;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;2;J;J;I;J;67708;Gunilla Berglund;75;K;Umeå;75, fd kommunalråd, Mariedal;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;3;J;J;I;J;67709;Elmer Eriksson;69;M;Umeå;69, tjänsteman, Hörnefors;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;4;J;J;I;J;67710;Lena Riedl;56;K;Umeå;56, sjuksköterska, Teg;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;5;J;J;I;J;7801;Stefan Nordström;69;M;Umeå;69, civiljägmästare, Haga;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;6;J;J;I;J;67712;Madelene Nord;25;K;Umeå;25, undersköterska, Mariehem;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;7;J;J;I;J;67713;Ulrik Berg;59;M;Umeå;59, ingenjör, Täfteå;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;8;J;J;I;J;67714;Marianne Löfstedt;79;K;Umeå;79, fd kommunalråd, Väst på stan;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;9;J;J;I;J;67715;Pasi Huikuri;23;M;Umeå;23, politisk sekreterare, Grubbe;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;10;J;J;I;J;67716;Tina Myhrberg;50;K;Umeå;50, ekonomiadministratör, Haga;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;11;J;J;I;J;67717;Lennart Johansson;71;M;Umeå;71, företagare, Klabböle;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;12;J;J;I;J;67718;Sofia Ekman;44;K;Umeå;44, företagare/statsvetare, Teg;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;13;J;J;I;J;67719;Igor Jonsson;59;M;Umeå;59, tidningstryckare, Kåddis;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;14;J;J;I;J;67720;Ewa Miller;63;K;Umeå;63, konsult, Umedalen;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;15;J;J;I;J;67721;Greger Knutsson;70;M;Umeå;70, entreprenör, Botsmark;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;16;J;J;I;J;67722;Kjerstin Widman;64;K;Umeå;64, tandläkare, Teg;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;17;J;J;I;J;67723;Leif Lundgren;63;M;Umeå;63, företagare, Haga;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;18;J;J;I;J;7788;Sofia Andersson;23;K;Umeå;23, juriststudent, Umeå;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;19;J;J;I;J;67725;Mikael Thyni;51;M;Umeå;51, platschef, Tomtebo;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;20;J;J;I;J;67726;Åsa Ågren Wikström;47;K;Umeå;47, fd riksdagsledamot, Öst på stan;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;21;J;J;I;J;67727;Tommy Strand;72;M;Umeå;72, gymnasielärare, Berghem;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;22;J;J;I;J;67728;Liv Granbom;73;K;Umeå;73, distriktssjuksköterska, Väst på stan;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;23;J;J;I;J;67729;Anton Bergström;22;M;Umeå;22, politisk sekreterare, Mariehem;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;24;J;J;I;J;67730;Eva Westman Modig;75;K;Umeå;75, datakonsult, Haga;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;25;J;J;I;J;67731;Harald Svensson;51;M;Umeå;51, administratör, Ålidhem;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;26;J;J;I;J;67732;Noomi Grönberg;23;K;Umeå;23, läkarstuderande, Öst på stan;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;27;J;J;I;J;67733;Andreas Fällström;22;M;Lund;22, studerande, Mariehem;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;28;J;J;I;J;67734;Anthonia Lundberg;22;K;Umeå;22, civilingenjörsstuderande, Mariedal;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;29;J;J;I;J;67735;Oliver Granered;18;M;Umeå;18, butikssäljare, Haga;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;30;J;J;I;J;67736;Izabel Riedl;18;K;Umeå;18, studerande, Teg;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;31;J;J;I;J;67737;Ola Lundgren;47;M;Umeå;47, socionom, Mariehem;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;32;J;J;I;J;7800;Anna Hedman;48;K;Umeå;48, avdelningschef, Sävar;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;33;J;J;I;J;67739;Christer Fessé;73;M;Umeå;73, företagsrådgivare, Grubbe;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;34;J;J;I;J;67740;Åsa Johansson;50;K;Umeå;50, handläggare, Väst på stan;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;35;J;J;I;J;67741;Fredrik Wirenblad;38;M;Umeå;38, byggnadsingenjör, Umedalen;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;36;J;J;I;J;67742;Ulla Löfgren;74;K;Umeå;74, ingenjör, Holmön;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;37;J;J;I;J;67743;Anton Josér;20;M;Umeå;20, studerande, Grubbe;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;38;J;J;I;J;67744;Magdalena Taheri;21;K;Umeå;21, studerande, Sandåkern;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;39;J;J;I;J;67745;Patrik Andersson;48;M;Umeå;48, affärsutvecklare, Röbäck;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;40;J;J;I;J;67746;Anja Isaksson;29;K;Umeå;29, läkare, Väst på stan;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;41;J;J;I;J;67747;Peteris Timofejevs Henriksson;36;M;Umeå;36, universitetslektor, Väst på stan;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;42;J;J;I;J;67748;Maja Bylund;33;K;Umeå;33, jurist, Mariehem;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;43;J;J;I;J;67749;Lars Rejnus;71;M;Umeå;71, överingenjör, Väst på stan;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;44;J;J;I;J;67750;Joline Göttfert;23;K;Umeå;23, studerande, Öst på stan;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;45;J;J;I;J;67751;Hans Modig;78;M;Umeå;78, läkare, Haga;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;46;J;J;I;J;229711;Lotta Holmberg;63;K;Umeå;63, vårdlärare, Haga;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;47;J;J;I;J;67752;Lennart Sandström;65;M;Umeå;65, pensionär, Sandbacka;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;48;J;J;I;J;67753;Christer Åström;63;M;Umeå;63, yrkesofficer, Umedalen;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;49;J;J;I;J;67754;Kenneth Grahn;65;M;Umeå;65, fastighetsägare, Teg;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;50;J;J;I;J;67755;Kjell Söderberg;77;M;Umeå;77, filosofie doktor, Backen;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;51;J;J;I;J;67756;Lars Möllsten;36;M;Umeå;36, ingenjör, Böleäng;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;52;J;J;I;J;67757;Gunnar Öqvist;67;M;Umeå;67, pensionär, Sävar;296000;;J
+K;2480;Umeå;02;Umeå omland;Moderaterna;M;1;S;14039;53;J;J;I;J;7805;Viktor Brodin;28;M;Umeå;28, driftsledare, Tavelsjö;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;1;N;J;J;I;71262;Marcus Bornemisza;54;M;Umeå;54, politisk sekreterare;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;2;N;J;J;I;71263;Birgitta Ejlefall;56;K;Umeå;56, pensionär;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;3;N;J;J;I;71264;Maria Nilsson;60;K;Umeå;59, leg.psykolog;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;4;N;J;J;I;71265;Lars-Arne Ivert;72;M;Umeå;72, fd högstadielärare;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;5;N;J;J;I;71267;Petter Nilsson;34;M;Umeå;34, gruppledare;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;6;N;J;J;I;71268;Katrin Larsson;50;K;Umeå;50, medicinsk sekreterare;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;7;N;J;J;I;71269;Andreas Figaro;47;M;Umeå;47, sjuksköterska;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;8;N;J;J;I;71270;Christina Sjödin;71;K;Umeå;70, pensionerad brottsoffersamordnare;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;9;N;J;J;I;71271;Lars-Ivar Nilsson;68;M;Umeå;67, pensionär;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;10;N;J;J;I;71272;Tobias Lindgren;28;M;Umeå;28, egenföretagare;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;11;N;J;J;I;71273;Helen Östlund;52;K;Umeå;51;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;12;N;J;J;I;71274;Marléne Eriksson;30;K;Umeå;30;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;13;N;J;J;I;71275;Jan Johansson;66;M;Umeå;65, pensionär;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;14;N;J;J;I;71276;Leif Tage Jonsson;71;M;Umeå;70, pensionär;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;15;N;J;J;I;71277;Angelica Holmgren;44;K;Umeå;44;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;16;N;J;J;I;71278;Thomas Holmgren;47;M;Umeå;46;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;S;15474;17;N;J;J;I;71280;Sten Nilsson;58;M;Umeå;57, konsultchef;296000;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;;;;N;J;J;I;71266;Pettersson, Willy;65;M;Umeå;;0;;J
+K;2480;Umeå;02;Umeå omland;Sverigedemokraterna;SD;110;;;;N;J;J;I;71279;Filipsson, Ann-Louise;54;K;Umeå;;0;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;1;J;J;I;J;376486;Ulrika Edman;42;K;Umeå;42, gruppledare/socionom;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;2;J;J;I;J;376487;Mattias Sehlstedt;38;M;Umeå;38, administratör;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;3;J;J;I;J;376488;Åsa Bäckström;61;K;Umeå;61, miljösamordnare;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;4;J;J;I;J;376489;Lennart Arvidsson;59;M;Umeå;59, pol. funktionär/metallarbetare;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;5;J;J;I;J;377533;Gudrun Nordborg;72;K;Umeå;72, fd jurist;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;6;J;J;I;J;377534;Bore Sköld;30;M;Umeå;30, forskare folkhälsa;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;7;J;J;I;J;377535;Elisabeth Zachrisson;66;K;Umeå;68, utbildningskonsult;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;8;J;J;I;J;377536;Jan-Olov Carlsson;61;M;Umeå;61, metallarbetare/oberoende socialist;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;9;J;J;I;J;377537;Ellen Söderberg;27;K;Umeå;27, lärarstudent;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;10;J;J;I;J;377538;Abdi Hanad;42;M;Umeå;42, lärare;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;11;J;J;I;J;360848;Caroline Täljeblad;31;K;Umeå;31, politisk sekreterare;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;12;J;J;I;J;377855;Lasse Jacobson;69;M;Umeå;72, fd socialarbetare;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;13;J;J;I;J;377856;Nasteho Lander;28;K;Umeå;28, projektledare/artist;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;14;J;J;I;J;360838;Wilmer Prentius;28;M;Umeå;28, statistiker;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;15;J;J;I;J;360833;Elisabet Forssell;40;K;Umeå;40, politisk sekreterare;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;16;J;J;I;J;360847;Daniell Andersson;42;M;Umeå;42, skolvärd;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;17;J;J;I;J;380253;Maria Myrstener;29;K;Umeå;29, doktorand;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;18;J;J;I;J;380254;Johan Stål;38;M;Umeå;38, projektörstudent;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;19;J;J;I;J;377860;Rebecca Sellstedt;29;K;Umeå;29, vårdbiträde;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;20;J;J;I;J;360837;Andreas Nuottaniemi;41;M;Umeå;41, lärare;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;21;J;J;I;J;377862;Susanne Yttergren;55;K;Umeå;55, fritidspedagog;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;22;J;J;I;J;377863;Elsa Andersson Hedqvist;63;K;Umeå;63 fd sjuksköterska;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;23;J;J;I;J;377864;Joakim Mäki;35;M;Umeå;35, dansinstruktör;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;24;J;J;I;J;377865;Elena Martinez Recabarren;53;K;Umeå;53, socionom;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;25;J;J;I;J;360836;Ahmed Hersi;49;M;Umeå;49, socialarbetare;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;26;J;J;I;J;378421;Emma Skog;36;K;Umeå;36, kommunikatör;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;27;J;J;I;J;378423;Sofia Ed;46;K;Umeå;46, handläggare;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;28;J;J;I;J;379348;Örjan Mikaelsson;73;M;Umeå;73, fd speciallärare;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;29;J;J;I;J;379349;Sofia Stolt;31;K;Umeå;32, montör;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;30;J;J;I;J;379350;Elias Åström;21;M;Umeå;21, studerande;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;31;J;J;I;J;379351;Karolina Frykholm;42;K;Umeå;42, skadereglerare;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;32;J;J;I;J;379352;Bernth Olofsson;76;M;Umeå;76, pensionär;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;33;J;J;I;J;379353;Agneta Högstadius;63;K;Umeå;63, kulturarbetare;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;34;J;J;I;J;379354;Erik Danielsson;68;M;Umeå;68, aktivist;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;35;J;J;I;J;360841;Minna Toivanen;29;K;Umeå;29, undersköterska;148000;;J
+K;2480;Umeå;02;Umeå omland;Vänsterpartiet;V;5;S;14981;36;J;J;I;J;379356;Göran Teljebäck;61;M;Umeå;61, busschaufför/kulturarbetare;148000;;J

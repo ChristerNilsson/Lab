@@ -1,0 +1,225 @@
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;1;J;J;I;J;33201;Dan Gabrielsson;49;M;Falköping;49 år, Kyrkogårdsarbetare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;2;J;J;I;J;33202;Ingvor Bergman;59;K;Falköping;59 år, Arbetsförmedlare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;3;J;J;I;J;33203;Patrik Björck;61;M;Falköping;61 år, Träindustriarbetare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;4;J;J;I;J;33204;Susanne Larsson;45;K;Falköping;45 år, Försäkringstjänsteman;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;5;J;J;I;J;33205;Niclas Hillestrand;46;M;Falköping;46 år, Verkstadschef;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;6;J;J;I;J;33206;Johanna Svensson;49;K;Falköping;49 år, Undersköterska;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;7;J;J;I;J;33207;Roger Lundberg;65;M;Falköping;65 år, Ekonom;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;8;J;J;I;J;33208;Lina Ahl;23;K;Falköping;23 år, Studerande;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;9;J;J;I;J;33209;Kelesh Hussein;22;M;Falköping;22 år, Studerande;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;10;J;J;I;J;33210;Heléne Svensson;52;K;Falköping;52 år, Undersköterska;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;11;J;J;I;J;33211;Henric Hagberg;32;M;Falköping;32 år, Yrkeslärare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;12;J;J;I;J;33212;Hanna Nord;32;K;Falköping;32 år, Kock;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;13;J;J;I;J;33213;Alex Bergström;44;M;Falköping;44 år, Grafiker;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;14;J;J;I;J;33214;Anna-Bella Nordh Fahlqvist;67;K;Falköping;68 år, Pensionär;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;15;J;J;I;J;33215;Fredy Neüman;65;M;Falköping;64 år, Pensionär;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;16;J;J;I;J;33216;Lisbeth Ek;56;K;Falköping;55 år, Parkeringsvakt;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;17;J;J;I;J;33217;Thomas Svensson;52;M;Falköping;52 år, Fastighetsskötare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;18;J;J;I;J;33218;Marie Post;59;K;Falköping;59 år, Handelsanställd;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;19;J;J;I;J;33219;Corry Thuresson;63;M;Falköping;63 år, Kriminalvårdare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;20;J;J;I;N;33220;[inte lämnat förklaring];;;;;76000;;N
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;21;J;J;I;J;33221;Jonas Karlsson;50;M;Falköping;50 år, Slöjdlärare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;22;J;J;I;J;33222;Ingvor Arnoldsson;67;K;Falköping;67 år, Pensionär;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;23;J;J;I;J;33223;Kovan Akrawi;33;M;Falköping;33 år, Kriminalvårdare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;24;J;J;I;J;33224;Inga-Lill Bergsten;64;K;Falköping;64 år, Förskollärare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;25;J;J;I;J;33225;Hassan Hussein;40;M;Falköping;40 år, Boendepersonal;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;26;J;J;I;J;33226;Monica Janzon;73;K;Falköping;73 år, Pensionär;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;27;J;J;I;J;33227;Bengt Lundqvist;70;M;Falköping;69 år, Pensionär;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;28;J;J;I;J;33228;Sofia Selander;20;K;Falköping;20 år, Musiklärare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;29;J;J;I;J;33229;Dawood Khalaf;45;M;Falköping;45 år, Frivårdsinspektör;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;30;J;J;I;J;33230;Ingrid Törnqvist;69;K;Falköping;69 år, Pensionär;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;31;J;J;I;J;33231;Kenneth Johansson;62;M;Falköping;63 år, Lokförare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;32;J;J;I;J;33232;Esgul Eroglu;41;K;Falköping;41 år, Personlig assistent;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;33;J;J;I;J;33233;Krister Sjölin;58;M;Falköping;58 år, Stödassistent;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;34;J;J;I;J;33234;Solweig Ericsson;75;K;Falköping;75 år, Pensionär;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;35;J;J;I;J;33235;Gerth Bragnå;67;M;Falköping;67 år, Kulturpedagog;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;36;J;J;I;J;33236;Jenny Nieminen;29;K;Falköping;29 år, Extruderingsställare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;37;J;J;I;J;33237;Mohamed Husein Mohamed;43;M;Falköping;42 år, Arbetsledare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;38;J;J;I;J;33238;Erica Lustigh;30;K;Falköping;30 år, Undersköterska;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;39;J;J;I;J;33239;Arne Gunnarsson;70;M;Falköping;70 år, Pensionär;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;40;J;J;I;J;33240;Ann-Kristin Bergström Svahn;36;K;Falköping;36 år, Undersköterska;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;41;J;J;I;J;33241;Råhny Gustavsson;52;M;Falköping;52 år, Träindustriarbete;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;42;J;J;I;J;33242;Camilla Sjöberg;38;K;Falköping;38 år, Barnskötare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;43;J;J;I;J;33243;Mikael Gustavsson;51;M;Falköping;51 år, Träindustriarbetare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;44;J;J;I;J;33244;Anne-Marie Ahlin Johansson;56;K;Falköping;56 år, Undersköterska;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;45;J;J;I;J;33245;Ahmed Doski;29;M;Falköping;28 år, Företagare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;46;J;J;I;J;33246;Yesim Göc;39;K;Falköping;39 år, Undersköterska;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;47;J;J;I;J;33247;Anette Andersson;56;K;Falköping;56 år, Lageroperatör;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;48;J;J;I;J;33248;Ann-Marie Ahl;54;K;Falköping;53 år, Lågstadielärare;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;49;J;J;I;J;33249;Linda Almberg;46;K;Falköping;45 år, Specialistundersköterska;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;50;J;J;I;J;33250;Linda Antonsson;43;K;Falköping;43 år, Undersköterska;76000;;J
+K;1499;Falköping;00;Falköping;Arbetarepartiet-Socialdemokraterna;S;2;S;12228;51;J;J;I;J;33251;Ingegerd Darius Reinholdsson;75;K;Falköping;75 år, Pensionär;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;1;J;J;I;J;3200;Karola Svensson;49;K;Falköping;Falköping, 49 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;2;J;J;I;J;3220;Hans Johansson;42;M;Falköping;Falköping, 42 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;3;J;J;I;J;3204;Wanja Wallemyr;59;K;Falköping;Mularp, 59 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;4;J;J;I;J;24639;Niclas Fällström;54;M;Falköping;Hornborga, 54 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;5;J;J;I;J;24640;Göte Andersson;68;M;Falköping;Grolanda, Floby, 68 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;6;J;J;I;J;24641;Lovisa Wennerholm;44;K;Falköping;Vilske-Kleva, 45 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;7;J;J;I;J;24656;Zahra Abdulahe Igal;54;K;Falköping;Falköping, 54 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;8;J;J;I;J;24643;Rune Lennartsson;66;M;Falköping;Kinnarp, 67 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;9;J;J;I;J;24644;Christiane Uhle;34;K;Falköping;Falköping, 34 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;10;J;J;I;J;24645;Helén Engström;51;K;Falköping;Stenstorp, 51 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;11;J;J;I;J;24646;Bengt Lennartsson;70;M;Falköping;Östra Tunhem, 70 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;12;J;J;I;J;24647;Ingrid Martens;58;K;Falköping;Falköping, 58 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;13;J;J;I;J;24648;Sofia Thuvesson;31;K;Falköping;Floby, 31 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;14;J;J;I;J;24649;Kjell-Åke Johansson;63;M;Falköping;Falköping, 63 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;15;J;J;I;J;24650;Inger Eriksson;60;K;Falköping;Kinnarp, 61 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;16;J;J;I;J;24651;Johan Aldén;28;M;Falköping;Marka, 28 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;17;J;J;I;J;24652;Morgan Eriksson;49;M;Falköping;Åsarp, 49 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;18;J;J;I;J;24654;Emil Larsson;31;M;Falköping;Kinnarp, 32 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;19;J;J;I;J;24655;Jonas Hagström;52;M;Falköping;Falköping, 53 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;20;J;J;I;J;24667;Ann-Britt Larsson;62;K;Falköping;Luttra, 62 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;21;J;J;I;J;24657;Ingemar Gustavsson;47;M;Falköping;Falköping, 47 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;22;J;J;I;J;24658;Börje Svensson;61;M;Falköping;Broddetorp, 61 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;23;J;J;I;J;24659;Sven Johansson;60;M;Falköping;Kättilstorp, 60 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;24;J;J;I;J;24660;Åke Högberg;53;M;Falköping;Falköping, 53 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;25;J;J;I;J;24661;Jeanette Svensson;56;K;Falköping;Broddetorp, 56 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;26;J;J;I;J;24662;Birgitta Lindh;71;K;Falköping;Falköping, 71 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;27;J;J;I;J;24663;Gunnel Bergqvist;71;K;Falköping;Falköping, 71 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;28;J;J;I;J;24664;Lars-Erik Karlsson;57;M;Falköping;Borgunda, 57 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;29;J;J;I;J;24665;Hillevi Wallgren;63;K;Falköping;Falköping, 64 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;30;J;J;I;J;24666;Staffan Gustavsson;59;M;Falköping;Floby, 59 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;31;J;J;I;J;24668;Kurt-Ola Svensson;67;M;Falköping;Broddetorp, 67 år;76000;;J
+K;1499;Falköping;00;Falköping;Centerpartiet;C;4;S;14478;32;J;J;I;J;24669;Yngve Karlsson;62;M;Falköping;Vårkumla, 62 år;76000;;J
+K;1499;Falköping;00;Falköping;Feministiskt initiativ;FI;532;S;15849;1;N;J;J;I;512794;Rebecka Grafström;30;K;Falköping;30 år, studerande;1000;;J
+K;1499;Falköping;00;Falköping;Feministiskt initiativ;FI;532;;;;N;J;J;I;515847;Grafström, Joel;35;M;Falköping;;0;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;1;J;J;I;J;274258;Dan Hovskär;48;M;Falköping;48, Projektledare, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;2;J;J;I;J;274259;Allan Bjärkhed;60;M;Falköping;60, Pastor, Åsarp;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;3;J;J;I;J;274260;Debora Josefsson;38;K;Falköping;37, Lärare för yngre åldrar, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;4;J;J;I;J;274261;Michael Kristiansson;52;M;Falköping;52, Produktionstekniker, Kinnarp;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;5;J;J;I;J;274262;Maria Bruckshaw;60;K;Falköping;59, VD, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;6;J;J;I;J;274263;Gary Linneusson;37;M;Falköping;37, Tekn. doktor, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;7;J;J;I;J;274264;Angela Joelsson;55;K;Falköping;55, Undersköterska, Åsarp;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;8;J;J;I;J;274265;Anna-Sara Ståtenhag;28;K;Falköping;27, Lärare, Vartofta;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;9;J;J;I;J;274266;Carl-Magnus Folke;64;M;Falköping;64, Fastighetsmäklare, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;10;J;J;I;J;274267;Britt-Marie Aronsson;65;K;Falköping;65, Personlig assistent, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;11;J;J;I;J;274268;Andreas Möller;35;M;Falköping;34, Säljare, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;12;J;J;I;J;274269;Karin Larsson;37;K;Falköping;37, Verksamhetschef, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;13;J;J;I;J;274270;Conny Persson;72;M;Falköping;72, Pensionär, Floby;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;14;J;J;I;J;274271;Ann Liljebäck;64;K;Falköping;64, Leg sjuksköterska, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;15;J;J;I;J;274272;Krister Tegehall;64;M;Falköping;63, Revisor, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;16;J;J;I;J;274273;Johan Dahlström;37;M;Falköping;37, Säljare, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;17;J;J;I;J;274274;Anna Jonsson;53;K;Falköping;53, Projektledare, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;18;J;J;I;J;274275;Daniel Sigfridsson;51;M;Falköping;50, Fabriksarbetare, Åsarp;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;19;J;J;I;J;274276;Jan Eriksson;53;M;Falköping;53, Arbetsledare pers ass., Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;20;J;J;I;J;274277;Christina Johansson;57;K;Falköping;57, Socialpedagog, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;21;J;J;I;J;274278;Thomas Fredriksson;61;M;Falköping;60, Företagare, Åsarp;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;22;J;J;I;J;274279;Karin Johansson;38;K;Falköping;38, Förskollärare, Åsarp;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;23;J;J;I;J;274280;Daniel Lindkvist;39;M;Falköping;39, Undersköterska, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;24;J;J;I;J;274281;Vera Johansson;64;K;Falköping;63, Förskollärare, Åsarp;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;25;J;J;I;J;274282;Josef Samuelsson;33;M;Falköping;33, Verktygskonstruktör, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;26;J;J;I;J;274283;Harald Enocksson;69;M;Falköping;69, Lantbrukare, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Kristdemokraterna;KD;68;S;14425;27;J;J;I;J;274284;Ulla-Britt Merkell;70;K;Falköping;70, Pensionär, Falköping;64000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;1;J;J;I;J;18020;Annika Carp;47;K;Falköping;Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;2;J;J;I;J;18021;Anna-Brita Fransson;70;K;Falköping;Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;3;J;J;I;J;18022;Dag Högrell;64;M;Falköping;Falekvarna;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;4;J;J;I;J;18023;Maria Jern;56;K;Falköping;Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;5;J;J;I;J;18024;Theres Björkehög;33;K;Falköping;Vilske Kleva;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;6;J;J;I;J;18025;Lena Arvidsson;70;K;Falköping;Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;7;J;J;I;J;18026;Bengt-Arne Medin;62;M;Falköping;Trevattna;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;8;J;J;I;J;18027;Josef Håkansson;24;M;Falköping;Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;9;J;J;I;J;18028;Lennart Falegård;72;M;Falköping;Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;10;J;J;I;J;18029;Katharina Thunander;55;K;Falköping;Karleby;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;11;J;J;I;J;18030;Ove Larsson;74;M;Falköping;Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;12;J;J;I;J;18031;Björn Perneborn;66;M;Falköping;Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;13;J;J;I;J;18032;Mikael Lundqvist;54;M;Falköping;Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;14;J;J;I;J;18033;Rune Brissman;80;M;Falköping;Floby;76000;;J
+K;1499;Falköping;00;Falköping;Liberalerna (tidigare Folkpartiet);L;3;S;12000;15;J;J;I;J;18034;IngMarie Larsson;71;K;Falköping;Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Medborgerlig Samling;MED;1296;S;14351;1;J;J;I;J;257609;Åke Grönqvist;55;M;Falköping;55 sjukpensionär Falköping;4000;;J
+K;1499;Falköping;00;Falköping;Miljöpartiet de gröna;MP;55;S;12969;1;J;J;I;J;6175;Roland Wanner;66;M;Falköping;66 år, Pensionär, Valtorp;50000;;J
+K;1499;Falköping;00;Falköping;Miljöpartiet de gröna;MP;55;S;12969;2;J;J;I;J;89950;Camilla Funke;41;K;Falköping;41 år, Energi-och klimatrådgivare, Floby;50000;;J
+K;1499;Falköping;00;Falköping;Miljöpartiet de gröna;MP;55;S;12969;3;J;J;I;J;66254;Anders Blom;57;M;Falköping;57 år, Siftspedagog-Sv k:a, Skara stift, Falköping;50000;;J
+K;1499;Falköping;00;Falköping;Miljöpartiet de gröna;MP;55;S;12969;4;J;J;I;J;89952;Åsa Lidén;37;K;Falköping;37 år, Behandlingsassistent, Falköping;50000;;J
+K;1499;Falköping;00;Falköping;Miljöpartiet de gröna;MP;55;S;12969;5;J;J;I;J;89953;Mattias Lindgren;31;M;Falköping;39 år, Egenföretagare, Falköping;50000;;J
+K;1499;Falköping;00;Falköping;Miljöpartiet de gröna;MP;55;S;12969;6;J;J;I;J;89954;Håkan Gerenmark;62;M;Falköping;62 år, Församlingspedagog, Vartofta;50000;;J
+K;1499;Falköping;00;Falköping;Miljöpartiet de gröna;MP;55;S;12969;7;J;J;I;J;89955;Helena Hallqvist;68;K;Falköping;68 år, Spec.ped. Kälvene;50000;;J
+K;1499;Falköping;00;Falköping;Miljöpartiet de gröna;MP;55;S;12969;8;J;J;I;J;89956;Lars Nordgren;73;M;Falköping;73 år, Ingenjör, Falköping;50000;;J
+K;1499;Falköping;00;Falköping;Miljöpartiet de gröna;MP;55;S;12969;9;J;J;I;J;89957;Ulla Torsrud;72;K;Falköping;72 år, Lärare, Falköping;50000;;J
+K;1499;Falköping;00;Falköping;Miljöpartiet de gröna;MP;55;S;12969;10;J;J;I;J;89958;Christer Holm;72;M;Falköping;72 år, Pensionär, Falköping;50000;;J
+K;1499;Falköping;00;Falköping;Miljöpartiet de gröna;MP;55;S;12969;11;J;J;I;J;89959;Alf Jacobsson;60;M;Falköping;60 år, Skötare-psykvård, Stenstorp;50000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;1;J;J;I;J;253988;Adam Johansson;22;M;Falköping;22, Organisationschef, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;2;J;J;I;J;253990;Ed Kahrs;49;M;Falköping;49, Enhetsansvarig, Floby;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;3;J;J;I;J;254358;Christina Jorméus;67;K;Falköping;67, Företagare, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;4;J;J;I;J;254352;Sture Olsson;69;M;Falköping;69, Pensionär f.d.Med.ansv sjuksköterska, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;5;J;J;I;J;256676;Morgan Billman;58;M;Falköping;58, Industritjänsteman, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;6;J;J;I;J;254346;Ingrid Adomeit Jarlsson;63;K;Falköping;63, Mark och skogsbrukare, Åsarp;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;7;J;J;I;J;256678;Anders Winlöf;55;M;Falköping;55, Reklammakare, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;8;J;J;I;J;256679;Elias Assio;55;M;Falköping;55, Elektroniker, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;9;J;J;I;J;256680;Pema Malmgren;46;K;Falköping;46, Kultur och fritidschef, Vartofta;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;10;J;J;I;J;256681;Johan Eriksson;42;M;Falköping;42, Skogsentreprenör, Floby;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;11;J;J;I;J;256682;Inge Persson;71;M;Falköping;71, Officer, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;12;J;J;I;J;256683;Caroline Lundberg;53;K;Falköping;53, Redovisningskonsult, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;13;J;J;I;J;256684;Roger Sjödahl;75;M;Falköping;75, Pensionär, Broddetorp;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;14;J;J;I;J;256685;Johanna Blad;40;K;Falköping;40, ,;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;15;J;J;I;J;256686;Peter Jorméus;66;M;Falköping;66, Byggnadsingenjör, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;16;J;J;I;J;256687;Helene Odh;51;K;Falköping;51, Egen företagare, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;17;J;J;I;J;256688;Per Halldén;63;M;Falköping;63, Säljare, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;18;J;J;I;J;256689;Mohamed Dharar;34;M;Falköping;34, Lärarassistent/tolk, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;19;J;J;I;J;256690;Emelie Brännmark;37;K;Falköping;37, Logistik koordinator, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;20;J;J;I;J;256691;Tommy Karlsson;55;M;Falköping;55, Säljutvecklare, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;21;J;J;I;J;256692;Larry Geszti;56;M;Falköping;56, Ljudtekniker, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;22;J;J;I;J;256693;Margareta Warrén Stomberg;72;K;Falköping;72, Lektor/Docent, Kättilstorp;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;23;J;J;I;J;256694;Håkan Pettersson;53;M;Falköping;53, Säljare, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;24;J;J;I;J;256695;Tobias Andersson;43;M;Falköping;43, Företagare, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;25;J;J;I;J;256696;Irene Almsparre;72;K;Falköping;72, Pensionär, Gudhem;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;26;J;J;I;J;256697;Jacob Kahrs;21;M;Falköping;21, Studerande, Floby;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;27;J;J;I;J;254333;Sören Rafstedt;48;M;Falköping;48, Kriminalvårdstjänsteman, Broddetorp;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;28;J;J;I;J;256699;Håkan Arnesson;71;M;Falköping;71, 0ppråd ( Lantbrukare), Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;29;J;J;I;J;256700;Roland Svensson;62;M;Falköping;62, Chaufför, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Moderaterna;M;1;S;14343;30;J;J;I;J;256701;Kent Mossby;66;M;Falköping;66, Pensionär, Falköping;76000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15452;1;N;J;J;I;66277;Christopher Münch;61;M;Falköping;61, Chaufför;76000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15452;2;N;J;J;I;66279;Johanna Johansson;35;K;Falköping;34, Administratör;76000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15452;3;N;J;J;I;66280;Tommy Almgren;50;M;Falköping;50, Ekonom;76000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15452;4;N;J;J;I;66281;Jonas Larsson;36;M;Falköping;35, Ekonom;76000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15452;5;N;J;J;I;66282;Marita Ljus;68;K;Falköping;67, Pensionär;76000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15452;6;N;J;J;I;66283;Sonja Eriksson;68;K;Falköping;67, Pensionär;76000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15452;7;N;J;J;I;66284;Milada Wurm;55;K;Falköping;55, Arkitekt;76000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15452;8;N;J;J;I;66285;Gerhard Carlsson;59;M;Falköping;58, Egenföretagare;76000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15452;9;N;J;J;I;66286;Per Magnusson;65;M;Falköping;64, Pensionär;76000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15452;10;N;J;J;I;66287;Jörgen Larsson;53;M;Falköping;52, Lantbrukare;76000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15452;11;N;J;J;I;66288;Matti Qvist;58;M;Falköping;58, Reparatör;76000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;1;N;J;J;I;66277;Christopher Münch;61;M;Falköping;61, chaufför;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;2;N;J;J;I;66279;Johanna Johansson;35;K;Falköping;34, administratör;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;3;N;J;J;I;66281;Jonas Larsson;36;M;Falköping;35, ekonom;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;4;N;J;J;I;66282;Marita Ljus;68;K;Falköping;67, pensionär;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;5;N;J;J;I;66283;Sonja Eriksson;68;K;Falköping;68, pensionär;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;6;N;J;J;I;66284;Milada Wurm;55;K;Falköping;55, arkitekt;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;7;N;J;J;I;66285;Gerhard Carlsson;59;M;Falköping;59, egenföretagare;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;8;N;J;J;I;66286;Per Magnusson;65;M;Falköping;65, pensionär;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;9;N;J;J;I;66287;Jörgen Larsson;53;M;Falköping;53, lantbrukare;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;10;N;J;J;I;66288;Matti Qvist;58;M;Falköping;58, reparatör;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;11;N;J;J;I;507177;Jens Larsson;34;M;Falköping;34, chaufför;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;12;N;J;J;I;506455;Frank Wurm;77;M;Falköping;77, pensionär;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;13;N;J;J;I;506200;Arild Svensgam;70;M;Falköping;70, pensionär;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;S;15791;14;N;J;J;I;509378;Tord Ljus;77;M;Falköping;77, pensionär;35000;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;;;;N;J;J;I;504903;Forsberg, Michael;54;M;Falköping;;0;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;;;;N;J;J;I;506495;Norén, Erik;71;M;Falköping;;0;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;;;;N;J;J;I;508770;Axelsson, Rebecca;23;K;Falköping;;0;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;;;;N;J;J;I;509374;Axelsson, Linda;25;K;Falköping;;0;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;;;;N;J;J;I;510758;Johansson, Börje;63;M;Falköping;;0;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;;;;N;J;J;I;513463;Zettersten Sanderbratt, Sebastian;25;M;Falköping;;0;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;;;;N;J;J;I;515387;Gerasimov, Joakim;47;M;Falköping;;0;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;;;;N;J;J;I;515552;Johansson, Peter;55;M;Falköping;;0;;J
+K;1499;Falköping;00;Falköping;Sverigedemokraterna;SD;110;;;;N;J;J;I;515694;Brorsson, Niclas;54;M;Falköping;;0;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;1;J;J;I;J;71900;Jessica Thunander;44;K;Falköping;Lärare, 44 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;2;J;J;I;J;71901;Erik Kyrkander;46;M;Falköping;Solcellsentreprenör, 46 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;3;J;J;I;J;71902;Elisabeth Klang;39;K;Falköping;Kock, 39 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;4;J;J;I;J;71904;Emil Estebanez;29;M;Falköping;Skadedjurstekniker, 29 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;5;J;J;I;J;71903;Iowan Hedendahl;56;M;Falköping;Ingenjör, 56 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;6;J;J;I;J;71905;Alice Andersson;66;K;Falköping;Pensionerad med. sekreterare, 66 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;7;J;J;I;J;71906;Scott Schylander;36;M;Falköping;Fritidspedagog, 36 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;8;J;J;I;J;71907;Lena Schylander;35;K;Falköping;VVS-projektör, 36 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;9;J;J;I;J;71908;Adam Ahlin;24;M;Falköping;Ingenjör, 24 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;10;J;J;I;J;71909;Inger Lilja;62;K;Falköping;Skötare, 62 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;11;J;J;I;J;71910;Martin Andersson;35;M;Falköping;Svetsare, 35 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;12;J;J;I;J;71911;Amanda Svensson Almberg;21;K;Falköping;Diversearbetare, 21 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;13;J;J;I;J;71912;Göran Johansson;78;M;Falköping;Murare, 78 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;14;J;J;I;J;71913;Lena Karlsson;57;K;Falköping;Skötare, 57 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;15;J;J;I;J;71914;Christina Carlsson;53;K;Falköping;Arbetstränar, 53 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;16;J;J;I;J;71915;Gunnar Creutz;51;M;Falköping;Arkeolog, 51 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;17;J;J;I;J;71916;Margareta Johansson;57;K;Falköping;Skötare, 57 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;18;J;J;I;J;71917;Douglas Jansson;76;M;Falköping;Pensionär, 76 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;19;J;J;I;J;71918;Christer Svensson;72;M;Falköping;Pensionär, 72 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;20;J;J;I;J;71919;Adam Forsman;29;M;Falköping;Elektriker, 29 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;21;J;J;I;J;71920;Björn Therkelson;72;M;Falköping;Konstnär, 71 år;50000;;J
+K;1499;Falköping;00;Falköping;Vänsterpartiet;V;5;S;12786;22;J;J;I;J;71921;Erling Öhrnell;68;M;Falköping;Konstnär, Pedagog, 68 år;50000;;J

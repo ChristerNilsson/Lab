@@ -1,0 +1,144 @@
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;1;J;J;I;J;5781;Birgitta Larsson;57;K;Gällivare;57 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;2;J;J;I;J;5782;Magnus Johansson;42;M;Gällivare;42 år, Malmberget;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;3;J;J;I;J;5783;Maria Åhlén;50;K;Gällivare;50 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;4;J;J;I;J;5784;Tomas Junkka;67;M;Gällivare;67 år, Koskullskulle;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;5;J;J;I;J;5785;Lena Lindberg;68;K;Gällivare;68 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;6;J;J;I;J;5786;Roland Axelsson;65;M;Gällivare;65 år, Palohuornas;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;7;J;J;I;J;5787;Helena Lillbro;50;K;Gällivare;50 år, Malmberget;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;8;J;J;I;J;5788;Johannes Sundelin;30;M;Gällivare;30 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;9;J;J;I;J;5789;Anna Burman;49;K;Gällivare;49 år, Hakkas;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;10;J;J;I;J;5790;Claes Danell;34;M;Gällivare;34 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;11;J;J;I;J;5791;Elin Näslund;28;K;Gällivare;28 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;12;J;J;I;J;5792;Ulf Normark;60;M;Gällivare;60 år, Koskullskulle;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;13;J;J;I;J;5793;Gerd Siverhall;67;K;Gällivare;67 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;14;J;J;I;J;5794;Tony Normark;28;M;Gällivare;28 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;15;J;J;I;J;5795;Gunnel Eriksson;67;K;Gällivare;67 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;16;J;J;I;J;5796;Mats Rantapää;60;M;Gällivare;60 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;17;J;J;I;J;5797;Clary Persson;71;K;Gällivare;71 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;18;J;J;I;J;5798;Steve Ärlebrand;69;M;Gällivare;69 år, Malmberget;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;19;J;J;I;J;5799;Rolf Häggkvist;67;M;Gällivare;67 år, Malmberget;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;20;J;J;I;J;5800;Birgitta Heldeskog;71;K;Gällivare;71 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;21;J;J;I;J;5801;Tommy Nyström;66;M;Gällivare;66 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;22;J;J;I;J;5802;Frank Öqvist;65;M;Gällivare;65 år, Koskullskulle;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;23;J;J;I;J;5803;Monica Hellström;72;K;Gällivare;73 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;24;J;J;I;J;5804;Stefan Bergström;27;M;Gällivare;27 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;25;J;J;I;J;5805;Roland Bergström;54;M;Gällivare;54 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;26;J;J;I;J;5806;Roland Nirlén;68;M;Gällivare;68 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;27;J;J;I;J;5807;Thage Johansson;80;M;Gällivare;80 år, Malmberget;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;28;J;J;I;J;5808;Gunnel Johansson Jänkänpää;64;K;Gällivare;64 år, Malmberget;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;29;J;J;I;J;5809;Anders Olofsson;58;M;Gällivare;58 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;30;J;J;I;J;5810;Christoffer Larsson;32;M;Boden;32 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;31;J;J;I;J;5811;Stefan Kostenniemi;32;M;Gällivare;32 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;32;J;J;I;J;5812;Bernd Lass;68;M;Gällivare;68 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;33;J;J;I;J;5813;Mikael Alldén;63;M;Gällivare;63 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;34;J;J;I;J;5814;Monika Eriksson;72;K;Gällivare;72 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;35;J;J;I;J;5815;Oskar Enback Junkka;26;M;Gällivare;26 år, Nilivaara;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;36;J;J;I;J;5816;Margareta Pohjanen;77;K;Gällivare;77 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;37;J;J;I;J;5817;Laila Furskog;82;K;Gällivare;82 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;38;J;J;I;J;5818;Lars-Erik Johansson;78;M;Gällivare;79 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;39;J;J;I;J;5819;Vivi Eriksson;69;K;Gällivare;69 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;40;J;J;I;J;5820;Tommy Karlsson;62;M;Gällivare;62 år, Hakkas;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;41;J;J;I;J;5821;Jan-Erik Apelqvist;72;M;Gällivare;72 år, Gällivare;49000;;J
+K;2523;Gällivare;00;Gällivare;Arbetarepartiet-Socialdemokraterna;S;2;S;11828;42;J;J;I;J;5822;Brittmari Sandvärn;61;K;Gällivare;61 år, Muorjevaara;49000;;J
+K;2523;Gällivare;00;Gällivare;Centerpartiet;C;4;S;14787;1;J;J;I;J;340864;Berit Vennström;64;K;Gällivare;Gällivare;15000;;J
+K;2523;Gällivare;00;Gällivare;Knegarkampanjen;KNEG;1168;;;;N;J;J;I;515963;Larsson, Markus;37;M;Gällivare;;0;;J
+K;2523;Gällivare;00;Gällivare;Liberalerna (tidigare Folkpartiet);L;3;S;14076;1;J;J;I;J;210372;Mattias Åkemalm;19;M;Gällivare;Studerande, Gällivare;6000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;1;J;J;I;J;437882;Fredric Olofsson;42;M;Gällivare;Ungdomskonsulent;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;2;J;J;I;J;437883;Anneli Isaksson;50;K;Gällivare;Administratör;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;3;J;J;I;J;437884;Bror Wennström;80;M;Gällivare;Pensionär;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;4;J;J;I;J;437885;Gun Isaxon;78;K;Gällivare;fd Läkarsekreterare;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;5;J;J;I;J;437886;Kurt Björnfot;63;M;Gällivare;Byggnadsarbetare;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;6;J;J;I;J;437887;Agneta Edin;44;K;Gällivare;Förskollärare;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;7;J;J;I;J;437888;Lars-Eric Sandvärn;54;M;Gällivare;Företagare;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;8;J;J;I;J;437889;Therese Skoglund;24;K;Gällivare;Vårdbiträde;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;9;J;J;I;J;437890;Dick Lannerblad;60;M;Gällivare;Boendestödjare;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;10;J;J;I;J;437891;Lena Falegren Wennström;61;K;Gällivare;Skoladministratör;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;11;J;J;I;J;437892;Anneli Vänbjörk;42;K;Gällivare;Säljare;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;12;J;J;I;J;437893;Angelica Karlsson;55;K;Gällivare;Barnskötare;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;13;J;J;I;J;437894;Yvonne Falegren;68;K;Gällivare;fd Sjuksköterska;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;14;J;J;I;J;437895;Christoffer Mukka;34;M;Gällivare;Svetsare;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;15;J;J;I;J;437896;Dan Vintén;67;M;Gällivare;Pensionär;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;16;J;J;I;J;437897;Ove Nilsson;73;M;Gällivare;Pensionär;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;17;J;J;I;J;437898;Monica Jussi;46;K;Gällivare;Administratör;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;18;J;J;I;J;437899;Monica Olofsson-Ranta;53;K;Gällivare;Truckförare;60000;;J
+K;2523;Gällivare;00;Gällivare;Malmfältens Väl;MV;509;S;15288;19;J;J;I;J;437900;Rosmari Carlsson;68;K;Gällivare;fd Lärarassistent;60000;;J
+K;2523;Gällivare;00;Gällivare;Miljöpartiet de gröna;MP;55;S;14432;1;J;J;I;J;274342;Henrik Ölvebo;40;M;Gällivare;40 år, Projektledare;15000;;J
+K;2523;Gällivare;00;Gällivare;Miljöpartiet de gröna;MP;55;S;14432;2;J;J;I;J;274434;Sanna Nilsson Ylitalo;28;K;Gällivare;28 år, Projektledare;15000;;J
+K;2523;Gällivare;00;Gällivare;Miljöpartiet de gröna;MP;55;S;14432;3;J;J;I;J;274354;Mattias Liinanki;41;M;Gällivare;41 år, Ingenjör;15000;;J
+K;2523;Gällivare;00;Gällivare;Miljöpartiet de gröna;MP;55;S;14432;4;J;J;I;J;274448;Dagmar Nyman;54;K;Gällivare;54 år, Undersköterska;15000;;J
+K;2523;Gällivare;00;Gällivare;Miljöpartiet de gröna;MP;55;S;14432;5;J;J;I;J;274437;Stefan Ovrell;38;M;Gällivare;38 år, Egenföretagare;15000;;J
+K;2523;Gällivare;00;Gällivare;Miljöpartiet de gröna;MP;55;S;14432;6;J;J;I;J;274538;Josefine Rynbäck;38;K;Gällivare;38 år, Socionom;15000;;J
+K;2523;Gällivare;00;Gällivare;Miljöpartiet de gröna;MP;55;S;14432;7;J;J;I;J;274355;Andreas Pettersson;38;M;Gällivare;38 år, Civilingenjör;15000;;J
+K;2523;Gällivare;00;Gällivare;Miljöpartiet de gröna;MP;55;S;14432;8;J;J;I;J;274540;Jenny Johansson Jänkänpää;32;K;Gällivare;32 år, Arbetsterapeut;15000;;J
+K;2523;Gällivare;00;Gällivare;Miljöpartiet de gröna;MP;55;S;14432;9;J;J;I;J;274541;Hanna Falksund;36;K;Gällivare;36 år, Civilingenjör;15000;;J
+K;2523;Gällivare;00;Gällivare;Miljöpartiet de gröna;MP;55;S;14432;10;J;J;I;J;274542;Sara Ölvebo;36;K;Gällivare;36 år, Processoperatör;15000;;J
+K;2523;Gällivare;00;Gällivare;Miljöpartiet de gröna;MP;55;S;14432;11;J;J;I;J;378302;Erhan Karaberg;33;M;Gällivare;33 år;15000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;1;J;J;I;J;205061;Lars Alriksson;62;M;Gällivare;Kommunalråd;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;2;J;J;I;J;205062;Eva Alriksson;61;K;Gällivare;Lärare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;3;J;J;I;J;43180;Monika Hedström;72;K;Gällivare;Företagare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;4;J;J;I;J;205064;Kjell Hansson;67;M;Gällivare;Företagare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;5;J;J;I;J;43186;Marina Eriksson;58;K;Gällivare;Vårdlärare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;6;J;J;I;J;205066;Benny Blom;59;M;Gällivare;Insatsledare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;7;J;J;I;J;205067;Per Wahlström;62;M;Gällivare;Polis;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;8;J;J;I;J;42998;Anna Alriksson;31;K;Gällivare;Jurist;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;9;J;J;I;J;205069;Per Åke Liljergren;67;M;Gällivare;Företagare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;10;J;J;I;J;205070;Kjell-Åke Andersson;67;M;Gällivare;F.d Polis;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;11;J;J;I;J;205071;Jon Sandin;29;M;Gällivare;Arbetsledare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;12;J;J;I;J;205072;Krister Nordmark;69;M;Gällivare;F.d Kamrer;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;13;J;J;I;J;205073;Dick Sundström;63;M;Gällivare;Projektledare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;14;J;J;I;J;205074;Ann Wahlström;32;K;Gällivare;Arbetsledare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;15;J;J;I;J;205075;Susanne Forsberg;57;K;Gällivare;Leg. Optiker;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;16;J;J;I;J;205076;Johan Barkman;63;M;Gällivare;Företagare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;17;J;J;I;J;205077;Josefine Blom;22;K;Gällivare;Ordförande MUF;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;18;J;J;I;J;205078;Fredrik Nilsson;47;M;Gällivare;Lärare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;19;J;J;I;J;205079;Anna Maria Wahlström;48;K;Gällivare;Polis;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;20;J;J;I;J;205081;Anna Klasson;44;K;Gällivare;Lärare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;21;J;J;I;J;205082;Jaime Romo;56;M;Gällivare;Chaufför;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;22;J;J;I;J;205083;Kent Nedergård;41;M;Gällivare;Ambulanssjuksköterska;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;23;J;J;I;J;205084;Rune Hedberg;77;M;Gällivare;Pensionär/Elingenjör;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;24;J;J;I;J;205085;Anette Lindström;58;K;Gällivare;Sjuksköterska;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;25;J;J;I;J;205086;Jan Hollström;30;M;Gällivare;Egen företagare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;26;J;J;I;J;205087;Jens-Olof Andersson;62;M;Gällivare;Företagare;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;27;J;J;I;J;205088;Imelda Iran;56;K;Gällivare;Personlig assistent;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;28;J;J;I;J;205089;Desirée Arvidsson Simonsson;77;K;Gällivare;Pensionär;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;29;J;J;I;J;205090;Mikael Lundberg;34;M;Gällivare;Tjänsteman;44000;;J
+K;2523;Gällivare;00;Gällivare;Moderaterna;M;1;S;13883;30;J;J;I;J;205091;Bo Olsson;67;M;Gällivare;Elinstallatör;44000;;J
+K;2523;Gällivare;00;Gällivare;Norrlandspartiet;;1378;;;;N;J;J;I;512568;Norlin, Sune;61;M;Gällivare;;0;;J
+K;2523;Gällivare;00;Gällivare;Sjukvårdspartiet;SJV;193;S;11815;1;J;J;I;J;4898;Margareta Henricsson;77;K;Gällivare;F.d. Kommunsekreterare, Malmberget;44000;;J
+K;2523;Gällivare;00;Gällivare;Sjukvårdspartiet;SJV;193;S;11815;2;J;J;I;J;4928;Nicklas Johansson;54;M;Gällivare;Lärare, Gällivare;44000;;J
+K;2523;Gällivare;00;Gällivare;Sjukvårdspartiet;SJV;193;S;11815;3;J;J;I;J;4908;Stig Nordqvist;68;M;Gällivare;Läkare, Gällivare;44000;;J
+K;2523;Gällivare;00;Gällivare;Sjukvårdspartiet;SJV;193;S;11815;4;J;J;I;J;5093;Torbjörn Sandin;63;M;Gällivare;F.d. Gruvarbetare, Gällivare;44000;;J
+K;2523;Gällivare;00;Gällivare;Sjukvårdspartiet;SJV;193;S;11815;5;J;J;I;J;5096;Anna Henriksson;38;K;Gällivare;Hälsorådgivare, Gällivare;44000;;J
+K;2523;Gällivare;00;Gällivare;Sjukvårdspartiet;SJV;193;S;11815;6;J;J;I;J;4938;Tommy Krigsman;72;M;Gällivare;F.d. Gruvarbetare, Palohuornas;44000;;J
+K;2523;Gällivare;00;Gällivare;Sjukvårdspartiet;SJV;193;S;11815;7;J;J;I;J;4948;Göte Eriksson;77;M;Gällivare;Ekonom, Gällivare;44000;;J
+K;2523;Gällivare;00;Gällivare;Sjukvårdspartiet;SJV;193;S;11815;8;J;J;I;J;4957;Clary Eriksson;77;K;Gällivare;F.d. Lärare, Gällivare;44000;;J
+K;2523;Gällivare;00;Gällivare;Sjukvårdspartiet;SJV;193;S;11815;9;J;J;I;J;5100;Gerhard Larsson;82;M;Gällivare;Pensionär, Gällivare;44000;;J
+K;2523;Gällivare;00;Gällivare;Sjukvårdspartiet;SJV;193;S;11815;10;J;J;I;J;5101;Bror Henricsson;81;M;Gällivare;F.d. Konsult, Malmberget;44000;;J
+K;2523;Gällivare;00;Gällivare;Sverigedemokraterna;SD;110;S;12430;1;J;J;I;J;47902;Eric Palmqvist;47;M;Gällivare;47, Yrkesförare;44000;;J
+K;2523;Gällivare;00;Gällivare;Sverigedemokraterna;SD;110;S;12430;2;J;J;I;J;47903;Paula Palmqvist;38;K;Gällivare;38, Sjuksköterska;44000;;J
+K;2523;Gällivare;00;Gällivare;Sverigedemokraterna;SD;110;S;12430;3;J;J;I;J;47904;Mia Feldenius;47;K;Gällivare;47, Undersköterska;44000;;J
+K;2523;Gällivare;00;Gällivare;Sverigedemokraterna;SD;110;S;12430;4;J;J;I;J;47905;Carl Lundblad;47;M;Gällivare;47, Yrkesförare;44000;;J
+K;2523;Gällivare;00;Gällivare;Sverigedemokraterna;SD;110;S;12430;5;J;J;I;J;47906;Rory Blom;60;M;Gällivare;60, Egenföretagare;44000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;1;J;J;I;J;71025;Jeanette Wäppling;61;K;Gällivare;60 år, pedagogisk handledare, Gällivare;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;2;J;J;I;J;80419;Karl-Erik Taivalsaari;61;M;Gällivare;61 år, socialarbetare, Gällivare;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;3;J;J;I;J;80420;Pernilla Fagerlönn;36;K;Gällivare;36 år, sångpedagog, Gällivare;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;4;J;J;I;J;80421;David Väyrynen;34;M;Gällivare;34 år, diversearbetare, Gällivare;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;5;J;J;I;J;80505;Katinka Sundqvist Apelqvist;61;K;Gällivare;61 år, grundskolelärare, Gällivare;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;6;J;J;I;J;80506;Jan-Anders Perdahl;62;M;Gällivare;62 år, geolog, Malmberget;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;7;J;J;I;J;80507;Iris Dimitri;63;K;Gällivare;63 år, lärare, Koskullskulle;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;8;J;J;I;J;80508;Johannes Reinfors;39;M;Gällivare;39 år, truckförare, Malmberget;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;9;J;J;I;J;80927;Isabelle Öderyd;34;K;Gällivare;33 år, enhetschef, Koskullskulle;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;10;J;J;I;J;80928;Ove Haarala;79;M;Gällivare;79 år, pensionär, Koskullskulle;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;11;J;J;I;J;80929;Margareta Höyås;37;K;Gällivare;37 år, kundansvarig, Alavaara;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;12;J;J;I;J;80930;Elsa Häggqvist;64;K;Gällivare;64 år, lärare, Malmberget;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;13;J;J;I;J;80931;Stig Eriksson;69;M;Gällivare;69 år, pensionär, Malmberget;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;14;J;J;I;J;80932;Lis-Mari Hjortfors;56;K;Gällivare;55 år, etnolog/forskare, Koskullskulle;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;15;J;J;I;J;80981;Ramiz Husakovic;57;M;Gällivare;57 år, försäljare, Gällivare;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;16;J;J;I;J;80982;Britt-Marie Snell Perdahl;58;K;Gällivare;58 år, kostadministratör, Malmberget;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;17;J;J;I;J;81092;Kurt Taivalsaari;62;M;Gällivare;62 år, gruvarbetare, Malmberget;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;18;J;J;I;J;81093;Terttu Kult;61;K;Gällivare;61 år, inköpare, Gällivare;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;19;J;J;I;J;81094;Tomas Nordmark;56;M;Gällivare;55 år, gruvelektriker, Malmberget;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;20;J;J;I;J;81095;Kristina Forsberg;54;K;Gällivare;54 år, inköpare, Gällivare;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;21;J;J;I;J;81153;Henrik Lehtipalo;75;M;Gällivare;75 år, pensionär, Markitta;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;22;J;J;I;J;81154;Ann-Christin Lehtipalo;67;K;Gällivare;66 år, pensionär, Markitta;32000;;J
+K;2523;Gällivare;00;Gällivare;Vänsterpartiet;V;5;S;12768;23;J;J;I;J;81155;Ulla Vintén;64;K;Gällivare;64 år, administratör, Malmberget;32000;;J

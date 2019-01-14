@@ -1,0 +1,194 @@
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;1;J;J;I;J;88013;Per Lawén;53;M;Forshaga;53 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;2;J;J;I;J;22212;Maria Norell;54;K;Forshaga;54 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;3;J;J;I;J;22070;Gert Björnvall;56;M;Forshaga;56 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;4;J;J;I;J;88016;Ulrika Rodin;48;K;Forshaga;48 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;5;J;J;I;J;22211;Aakash Budathoki;37;M;Forshaga;36 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;6;J;J;I;J;73945;Marian Gustavsson;60;K;Forshaga;61 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;7;J;J;I;J;88447;Anders Norbäck;39;M;Forshaga;38 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;8;J;J;I;J;88448;Eva Ahlm;57;K;Forshaga;57 år, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;9;J;J;I;J;88449;Roger Johansson;46;M;Forshaga;46 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;10;J;J;I;J;88450;Maria Hedlund-Olsson;54;K;Forshaga;54 år, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;11;J;J;I;J;88451;Kenneth Eriksson;69;M;Forshaga;69 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;12;J;J;I;J;90738;Therese Andersson;46;K;Forshaga;46 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;13;J;J;I;J;90739;Kim Gewert;34;M;Forshaga;35 år, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;14;J;J;I;J;90740;Lill Andersson;60;K;Forshaga;61 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;15;J;J;I;J;90741;Bertil Hagelin;67;M;Forshaga;67 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;16;J;J;I;J;90742;Anneli Bodin;66;K;Forshaga;66 år, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;17;J;J;I;J;90827;Per Asplund;58;M;Forshaga;58 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;18;J;J;I;J;90828;Ingrid Holmberg;71;K;Forshaga;71 år, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;19;J;J;I;J;90829;Sven-Erik Persson;67;M;Forshaga;67 år, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;20;J;J;I;J;90830;Ingrid Forssten;64;K;Forshaga;63 år, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;21;J;J;I;J;90831;Amin Alkusaibati;52;M;Forshaga;52 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;22;J;J;I;J;90832;Gunilla Dahlqvist;52;K;Forshaga;52 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;23;J;J;I;J;90833;Ingmar Larsson;51;M;Forshaga;51 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;24;J;J;I;J;90834;Erika Svensson;39;K;Forshaga;38 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;25;J;J;I;J;90835;Stig Björk;47;M;Forshaga;47 år, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;26;J;J;I;J;90836;Linda Bååth;42;K;Forshaga;42 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;27;J;J;I;J;90837;Mikael Andersson;53;M;Forshaga;54 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;28;J;J;I;J;90838;Reem Abdul Sattar;42;K;Forshaga;42 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;29;J;J;I;J;91313;Lars-Ove Carlsson;72;M;Forshaga;72 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;30;J;J;I;J;75915;Myrna Labusan-Jönsson;55;K;Forshaga;56 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;31;J;J;I;J;91315;Esbjörn Lindstedt;66;M;Forshaga;66 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;32;J;J;I;J;91316;Anette Nilsson;70;K;Forshaga;70 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;33;J;J;I;J;91317;Conny Antonsson;53;M;Forshaga;53 år, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;34;J;J;I;J;91318;Hanna Lawén;20;K;Forshaga;20 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;35;J;J;I;J;96857;Jonas Sjödén;37;M;Forshaga;38 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;36;J;J;I;J;97032;Kristina Hakkarainen-Rådberg;73;K;Forshaga;73 år, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;37;J;J;I;J;97033;Lars Ohlsson;67;M;Forshaga;67 år, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;38;J;J;I;J;97034;Marianne Läckström;74;K;Forshaga;74 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;39;J;J;I;J;97035;Marcus Björnvall;24;M;Forshaga;25 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;40;J;J;I;J;97036;Elin Gustavsson;27;K;Forshaga;28 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;41;J;J;I;J;97037;Per Norell;62;M;Forshaga;62 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;42;J;J;I;J;97038;Anita Hagelin;61;K;Forshaga;61 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;43;J;J;I;J;97039;Kenneth Rååd;74;M;Forshaga;75 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;44;J;J;I;J;97040;Annelie Asplund;52;K;Forshaga;53 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;45;J;J;I;J;97041;John-Erik Nilsson;75;M;Forshaga;76 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;46;J;J;I;J;97042;Inger Stenström;67;K;Forshaga;67 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;47;J;J;I;J;97043;Lennart Andersson;75;M;Forshaga;75 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;48;J;J;I;J;97044;Berit Carlsson;71;K;Forshaga;71 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;49;J;J;I;J;97045;Birger Jönsson;66;M;Forshaga;66 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Arbetarepartiet-Socialdemokraterna;S;2;S;12963;50;J;J;I;J;97046;Maria Bull Sjöberg;56;K;Forshaga;56 år, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;1;J;J;I;J;27379;Göran Adrian;64;M;Forshaga;Forshaga, Marknadschef;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;2;J;J;I;J;27380;Yvonne Thorén;47;K;Forshaga;Bergsäng, Utredningsledare;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;3;J;J;I;J;27381;Sten Myreback;64;M;Forshaga;Forshaga, Maskintillverkare;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;4;J;J;I;J;27382;Marita Ögren;56;K;Forshaga;Olsäter, Lärare;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;5;J;J;I;J;27383;Stefan Ögren;56;M;Forshaga;Olsäter, Gymnasielärare;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;6;J;J;I;J;27384;Maria Lindquist;71;K;Forshaga;Hällekil, Lantbrukare;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;7;J;J;I;J;27385;Lars Emilson;68;M;Forshaga;Strand, Seniorkonsult;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;8;J;J;I;J;27386;Maria Wikström;51;K;Forshaga;Olsäter, Ekonomiansvarig;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;9;J;J;I;J;27387;Lars-Göran Carlsson;64;M;Forshaga;Rud, Kyrkogårdsföreståndare;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;10;J;J;I;J;27388;Ewa Nilsson;57;K;Forshaga;Rud, Företagsrådgivare;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;11;J;J;I;J;27389;Willy Eriksson;72;M;Forshaga;Forshaga, Köpman;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;12;J;J;I;J;27390;Elisabeth Axelsson;61;K;Forshaga;Västsjö, Redovisningskonsult;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;13;J;J;I;J;27391;Bertil Larsson;71;M;Forshaga;Mölnbacka, Pensionär;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;14;J;J;I;J;27392;Birgitta Hyttring-Lundqvist;54;K;Forshaga;Forshaga, Förvaltningsassistent;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;15;J;J;I;J;27393;Hans Lindquist;74;M;Forshaga;Hällekil, Geolog;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;16;J;J;I;J;27394;Irma Heikkinen;61;K;Forshaga;Forshaga, Adjunkt;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;17;J;J;I;J;27395;Lars Ullén;64;M;Forshaga;Deje, Lantmästare;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;18;J;J;I;J;27396;Anders Moberg;64;M;Forshaga;Nordsjögård, Lantbrukare;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;19;J;J;I;J;27397;Lars Edgren;60;M;Forshaga;Forshaga, Skogsbrukare;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;20;J;J;I;J;27398;Margareta Oskarsson;55;K;Forshaga;Rudsheden, Undersköterska;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;21;J;J;I;J;27399;Per-Åke Olsson;69;M;Forshaga;Deje, Åkare;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;22;J;J;I;J;27400;Jan-Erik Hallberg;51;M;Forshaga;Kvarnbråten, Driftledare;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;23;J;J;I;J;27401;Allan Axelsson;68;M;Forshaga;Rudsheden, Lantbrukare;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;24;J;J;I;J;27402;Lennart Mattsson;75;M;Forshaga;Skogskonsulent;27000;;J
+K;1763;Forshaga;00;Forshaga;Centerpartiet;C;4;S;12142;25;J;J;I;J;27403;John Lundqvist;52;M;Forshaga;Forshaga, Konstnär;27000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15566;1;N;J;J;I;496314;Peter Lingman;54;M;Forshaga;Företagare;27000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15566;2;N;J;J;I;496315;Göran Olsson;61;M;Forshaga;Offshoretekniker;27000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15566;3;N;J;J;I;496316;Åsa Gullberg Iderström;48;K;Forshaga;Personlig assistent;27000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15566;4;N;J;J;I;496317;Magnus Heikenberg;67;M;Forshaga;Fartygsbefäl;27000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15566;5;N;J;J;I;496319;Mikaela Blixt;40;K;Forshaga;Personalansvarig/personlig coach;27000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15566;6;N;J;J;I;496318;Helga Brevik;73;K;[saknas i folkbokföringen];Hudterapeut;27000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15566;7;N;J;J;I;496320;Linnea Heikenberg;66;K;Forshaga;Lantbrukare;27000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15566;8;N;J;J;I;496321;Eero Väisänen;62;M;Forshaga;Elektriker;27000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15566;9;N;J;J;I;496322;Tony Gunnarsson;62;M;Forshaga;Personlig assistent;27000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15566;10;N;J;J;I;496323;Malte Berglund;67;M;Forshaga;Montör;27000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15566;11;N;J;J;I;496324;Sam Samuelsson;68;M;Forshaga;Elektriker;27000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15755;1;N;J;J;I;496314;Peter Lingman;54;M;Forshaga;Företagare;12000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15755;2;N;J;J;I;496315;Göran Olsson;61;M;Forshaga;Offshoretekniker;12000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15755;3;N;J;J;I;496316;Åsa Gullberg Iderström;48;K;Forshaga;Personlig assistent;12000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15755;4;N;J;J;I;496317;Magnus Heikenberg;67;M;Forshaga;Fartygsbefäl;12000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15755;5;N;J;J;I;496318;Helga Brevik;73;K;[saknas i folkbokföringen];Hudterapeut;12000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15755;6;N;J;J;I;496320;Linnea Heikenberg;66;K;Forshaga;Lantbrukare;12000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15755;7;N;J;J;I;496321;Eero Väisänen;62;M;Forshaga;Elektriker;12000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15755;8;N;J;J;I;496322;Tony Gunnarsson;62;M;Forshaga;Personlig assistent;12000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15755;9;N;J;J;I;496323;Malte Berglund;67;M;Forshaga;Montör;12000;;J
+K;1763;Forshaga;00;Forshaga;Kommunens Bästa;KomBä;1107;S;15755;10;N;J;J;I;496324;Sam Samuelsson;68;M;Forshaga;Elektriker;12000;;J
+K;1763;Forshaga;00;Forshaga;Kristdemokraterna;KD;68;S;15704;1;N;J;J;I;507115;Magnus Sundholm;40;M;Forshaga;41 år, Forshaga;10000;;J
+K;1763;Forshaga;00;Forshaga;Kristdemokraterna;KD;68;S;15704;2;N;J;J;I;507116;Maj Sundholm;71;K;Forshaga;71 år, Deje/Olsäter;10000;;J
+K;1763;Forshaga;00;Forshaga;Kristdemokraterna;KD;68;S;15704;3;N;J;J;I;507117;Leif Forsberg;64;M;Forshaga;64 år, Deje;10000;;J
+K;1763;Forshaga;00;Forshaga;Kristdemokraterna;KD;68;S;15704;4;N;J;J;I;507118;Zabrina Örnborg;21;K;Forshaga;21 år, Deje;10000;;J
+K;1763;Forshaga;00;Forshaga;Kristdemokraterna;KD;68;S;15704;5;N;J;J;I;507119;Magnus Salander;50;M;Forshaga;50 år, Forshaga;10000;;J
+K;1763;Forshaga;00;Forshaga;Liberalerna (tidigare Folkpartiet);L;3;S;14650;1;J;J;I;J;31340;Maud Jennemo-Olsson;61;K;Forshaga;;27000;;J
+K;1763;Forshaga;00;Forshaga;Liberalerna (tidigare Folkpartiet);L;3;S;14650;2;J;J;I;J;59370;Fredrik Erlandsson;50;M;Forshaga;;27000;;J
+K;1763;Forshaga;00;Forshaga;Liberalerna (tidigare Folkpartiet);L;3;S;14650;3;J;J;I;J;59371;Gunnar Sundström;73;M;Forshaga;;27000;;J
+K;1763;Forshaga;00;Forshaga;Liberalerna (tidigare Folkpartiet);L;3;S;14650;4;J;J;I;J;59372;Anita Erlandsson;51;K;Forshaga;;27000;;J
+K;1763;Forshaga;00;Forshaga;Liberalerna (tidigare Folkpartiet);L;3;S;14650;5;J;J;I;J;59373;Roland Hammar;76;M;Forshaga;;27000;;J
+K;1763;Forshaga;00;Forshaga;Liberalerna (tidigare Folkpartiet);L;3;S;14650;6;J;J;I;J;59374;Linda Pettersson;66;K;Forshaga;;27000;;J
+K;1763;Forshaga;00;Forshaga;Liberalerna (tidigare Folkpartiet);L;3;S;14650;7;J;J;I;J;59375;Per-Olov Nilsson;72;M;Forshaga;;27000;;J
+K;1763;Forshaga;00;Forshaga;Liberalerna (tidigare Folkpartiet);L;3;S;14650;8;J;J;I;J;59376;Amia Pierre;70;K;Forshaga;;27000;;J
+K;1763;Forshaga;00;Forshaga;Liberalerna (tidigare Folkpartiet);L;3;S;14650;9;J;J;I;J;59377;Sven-Åke Asplund;73;M;Forshaga;;27000;;J
+K;1763;Forshaga;00;Forshaga;Liberalerna (tidigare Folkpartiet);L;3;S;14650;10;J;J;I;J;59378;Ann-Margret Axelsson;75;K;Forshaga;;27000;;J
+K;1763;Forshaga;00;Forshaga;Liberalerna (tidigare Folkpartiet);L;3;S;14650;11;J;J;I;J;59379;Lars Pierre;75;M;Forshaga;;27000;;J
+K;1763;Forshaga;00;Forshaga;Miljöpartiet de gröna;MP;55;S;15181;1;J;J;I;J;414479;Lars-Ola Westerlund;46;M;Forshaga;46 år, advokatsekreterare, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Miljöpartiet de gröna;MP;55;S;15181;2;J;J;I;J;414480;Håkan Adolfsson;37;M;Forshaga;37 år, konsult, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Miljöpartiet de gröna;MP;55;S;15181;3;J;J;I;J;414481;Lars Andersson;51;M;Forshaga;51 år, psykolog, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Miljöpartiet de gröna;MP;55;S;15181;4;J;J;I;J;414482;Marja Rönnholm;71;K;Forshaga;71 år, pensionär, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Miljöpartiet de gröna;MP;55;S;15181;5;J;J;I;J;414483;Jan Gustavsson;74;M;Forshaga;74 år, f d byrådirektör, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;1;J;J;I;J;618;Anders Ljungsten;53;M;Forshaga;53 år, Väktare;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;2;J;J;I;J;39693;Thomas Nilsson;52;M;Forshaga;52 år, Lärare;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;3;J;J;I;J;39694;Annie Lindberg;59;K;Forshaga;59 år, Silversmed;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;4;J;J;I;J;39695;Mattias Op De Weegh;42;M;Forshaga;42 år, Egen företagare;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;5;J;J;I;J;39696;Anna-Maria Nilsson;42;K;Forshaga;42 år, Ladugårdsförman;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;6;J;J;I;J;39697;Tuva Nysaeter;32;K;Forshaga;32 år, Undersköterska;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;7;J;J;I;J;39698;Per Hallström;58;M;Karlstad;58 år, IT-Konsult;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;8;J;J;I;J;39699;Ira Ljungberg;33;K;Forshaga;33 år, Hudterapeut;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;9;J;J;I;J;39700;Jennie Op De Weegh;39;K;Forshaga;39 år, Undersköterska;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;10;J;J;I;J;39701;Annika Jarl Ljungsten;55;K;Forshaga;55 år, Avdelningschef/Sjuksköterska;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;11;J;J;I;J;39702;Henrik Larsson;36;M;Forshaga;36 år, Väktare;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;12;J;J;I;J;39703;Jennie Skogman;37;K;Forshaga;37 år, Bokningsansvarig;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;13;J;J;I;J;39704;Carl Hallström;23;M;Karlstad;23 år, Studerande;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;14;J;J;I;J;39705;Karin Andersson;43;K;Forshaga;43 år, Leg. Sjuksköterska;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;15;J;J;I;J;39706;Mikael Resenius;54;M;Forshaga;54 år, Stenhuggare;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;16;J;J;I;J;39707;Jimmy Skogman;41;M;Forshaga;41 år, Elinstallatör;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;17;J;J;I;J;39708;Erik Nysaeter;33;M;Forshaga;33 år, Musiker;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12331;18;J;J;I;J;39709;Monica Resenius;66;K;Forshaga;66 år, Pensionär;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;1;J;J;I;J;39693;Thomas Nilsson;52;M;Forshaga;52 år, Lärare;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;2;J;J;I;J;618;Anders Ljungsten;53;M;Forshaga;53 år, Väktare;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;3;J;J;I;J;39694;Annie Lindberg;59;K;Forshaga;59 år, Silversmed;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;4;J;J;I;J;39695;Mattias Op De Weegh;42;M;Forshaga;42 år, Egen företagare;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;5;J;J;I;J;39696;Anna-Maria Nilsson;42;K;Forshaga;42 år, Ladugårdsförman;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;6;J;J;I;J;39697;Tuva Nysaeter;32;K;Forshaga;32 år, Undersköterska;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;7;J;J;I;J;39698;Per Hallström;58;M;Karlstad;58 år, IT-Konsult;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;8;J;J;I;J;39699;Ira Ljungberg;33;K;Forshaga;33 år, Hudterapeut;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;9;J;J;I;J;39700;Jennie Op De Weegh;39;K;Forshaga;39 år, Undersköterska;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;10;J;J;I;J;39701;Annika Jarl Ljungsten;55;K;Forshaga;55 år, Avdelningschef/Sjuksköterska;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;11;J;J;I;J;39702;Henrik Larsson;36;M;Forshaga;36 år, Väktare;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;12;J;J;I;J;39703;Jennie Skogman;37;K;Forshaga;37 år, Bokningsansvarig;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;13;J;J;I;J;39704;Carl Hallström;23;M;Karlstad;23 år, Studerande;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;14;J;J;I;J;39705;Karin Andersson;43;K;Forshaga;43 år, Leg. Sjuksköterska;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;15;J;J;I;J;39706;Mikael Resenius;54;M;Forshaga;54 år, Stenhuggare;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;16;J;J;I;J;39707;Jimmy Skogman;41;M;Forshaga;41 år, Elinstallatör;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;17;J;J;I;J;39708;Erik Nysaeter;33;M;Forshaga;33 år, Musiker;27000;;J
+K;1763;Forshaga;00;Forshaga;Moderaterna;M;1;S;12332;18;J;J;I;J;39709;Monica Resenius;66;K;Forshaga;66 år, Pensionär;27000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;13253;1;N;J;J;I;124876;Jan-Erik Tjärngård;58;M;Forshaga;58, Tekniker, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;13253;2;N;J;J;I;124905;Helena Birkeland Kilgren;28;K;Forshaga;28, Lokalvårdare, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;13253;3;N;J;J;I;253244;Björn Engqvist;50;M;Forshaga;50, egenföretagare, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;13253;4;N;J;J;I;124889;Rickard Karlsson;44;M;Forshaga;44, Resemontör, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;13253;5;N;J;J;I;125598;Thomas Rindestrand;57;M;Forshaga;57, Byggnadsarbetare, Deje;27000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;13253;6;N;J;J;I;125599;Karl-Göran Näsström;44;M;Forshaga;44, VVS-tekniker, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;13253;7;N;J;J;I;125600;Lennart Johansson;78;M;Forshaga;78, Pensionär, Forshaga;27000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;15906;1;N;J;J;I;124876;Jan-Erik Tjärngård;58;M;Forshaga;58 år, Tekniker, Deje;11000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;15906;2;N;J;J;I;124905;Helena Birkeland Kilgren;28;K;Forshaga;28 år, Lokalvårdare, Deje;11000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;15906;3;N;J;J;I;253244;Björn Engqvist;50;M;Forshaga;50 år, Egen företagare, Forshaga;11000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;15906;4;N;J;J;I;124889;Rickard Karlsson;44;M;Forshaga;44 år, Resemontör, Deje;11000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;15906;5;N;J;J;I;125598;Thomas Rindestrand;57;M;Forshaga;57 år, Byggnadsarbetare, Deje;11000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;15906;6;N;J;J;I;125599;Karl-Göran Näsström;44;M;Forshaga;44 år, VVS-tekniker, Forshaga;11000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;15906;7;N;J;J;I;125600;Lennart Johansson;78;M;Forshaga;78 år, Pensionär, Forshaga;11000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;15906;8;N;J;J;I;513643;Fredric Söderberg;47;M;Forshaga;47 år, Maskinoperatör, Forshaga;11000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;S;15906;9;N;J;J;I;513646;Lars Oskarsson;52;M;Forshaga;52 år, Egen företagare, Deje;11000;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;;;;N;J;J;I;513644;Myrén, Maritha;56;K;Forshaga;;0;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;;;;N;J;J;I;513645;Forssten, Ellinor;41;K;Forshaga;;0;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;;;;N;J;J;I;514919;Chongera, Jonas;47;M;Forshaga;;0;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;;;;N;J;J;I;515999;Holmgren, Tina;57;K;Forshaga;;0;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;;;;N;J;J;I;516001;Hedström, Magnus;46;M;Forshaga;;0;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;;;;N;J;J;I;516005;Wikenström, Dennis;42;M;Forshaga;;0;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;;;;N;J;J;I;516006;Delin, Ludvig;28;M;Forshaga;;0;;J
+K;1763;Forshaga;00;Forshaga;Sverigedemokraterna;SD;110;;;;N;J;J;I;516014;Bohlin, Kristofer;37;M;Forshaga;;0;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;1;J;J;I;J;9824;My Funcke;26;K;Forshaga;26 år, behandlingsassistent;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;2;J;J;I;J;9825;Torbjörn Strömberg;53;M;Forshaga;53 år, ombudsman;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;3;J;J;I;J;9826;Bodil Murås;30;K;Forshaga;30 år, barnsjuksköterska;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;4;J;J;I;J;9827;Peter Rattfält;49;M;Forshaga;49 år, väktare;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;5;J;J;I;J;9828;Agnetha Gustafsson;54;K;Forshaga;54 år, leg. förskolelärare;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;6;J;J;I;J;9829;Stefan Lindstedt;35;M;Forshaga;34 år, leg. psykolog;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;7;J;J;I;J;9830;Cecilia Kruse;36;K;Forshaga;36 år, förskolelärare;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;8;J;J;I;J;9831;Göran Pettersson;58;M;Forshaga;58 år, yrkeslärare;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;9;J;J;I;J;9832;Camilla Kruse;29;K;Forshaga;29 år, tjänsteman;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;10;J;J;I;J;9833;Arazoo Ghali;31;K;Forshaga;31 år, socionom;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;11;J;J;I;J;9834;Jonathan Strömberg;21;M;Forshaga;21 år, studerande;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;12;J;J;I;J;9835;Ida Regin;35;K;Forshaga;35 år, lärare;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;13;J;J;I;J;9836;David Öborn Regin;33;M;Forshaga;34 år, administratör;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;14;J;J;I;J;9837;Maja Strömberg;19;K;Forshaga;19 år, student;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;15;J;J;I;J;9838;Mikael Torstensson;51;M;Forshaga;51 år, leg. förskolelärare;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;16;J;J;I;J;9839;Stina Palm;35;K;Forshaga;35 år, kommunikatör;27000;;J
+K;1763;Forshaga;00;Forshaga;Vänsterpartiet;V;5;S;11879;17;J;J;I;J;9840;Roger Sundholm;33;M;Forshaga;34 år, säljare;27000;;J

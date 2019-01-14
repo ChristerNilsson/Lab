@@ -1,0 +1,193 @@
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;1;J;J;I;J;37913;Kenth Williamsson;53;M;Vaggeryd;53, Oppositionsråd, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;2;J;J;I;J;37914;Annelie Borgström;52;K;Vaggeryd;52, Ombudsman, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;3;J;J;I;J;37915;Roger Ödebrink;64;M;Vaggeryd;64, Utbildningsansvarig, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;4;J;J;I;J;37916;Carina Ödebrink;56;K;Vaggeryd;57, Regionråd, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;5;J;J;I;J;37917;Marijo Corkovic;44;M;Vaggeryd;44, Metallarbetare, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;6;J;J;I;J;37918;Christina Karlsson;59;K;Vaggeryd;60, Administratör, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;7;J;J;I;J;37919;Berry Lilja;68;M;Vaggeryd;68, Pensionär, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;8;J;J;I;J;37920;Nadira Kilim;55;K;Vaggeryd;55, Verksamhetsutvecklare, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;9;J;J;I;J;37921;Tommy Ottosson;53;M;Vaggeryd;53, Metallarbetare, Grytås;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;10;J;J;I;J;37922;Solweig Antonsson;65;K;Vaggeryd;65, Pensionär, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;11;J;J;I;J;37923;Nexhat Shabani;37;M;Vaggeryd;37, Elevcoach, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;12;J;J;I;J;37924;Anita Chestersson;74;K;Vaggeryd;74, Pensionär, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;13;J;J;I;J;37925;Magnus Dauhn;52;M;Vaggeryd;52, Arbetsledare, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;14;J;J;I;J;37926;Mathilda Andersson;26;K;Vaggeryd;26, Studerande, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;15;J;J;I;J;37927;Erik Sjöberg;74;M;Vaggeryd;74, Pensionär, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;16;J;J;I;J;37928;Joy Kanyange;50;K;Vaggeryd;50, Undersköterska, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;17;J;J;I;J;37929;Roger Antonsson;44;M;Vaggeryd;45, Asfaltarbetare, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;18;J;J;I;J;37930;Sonja Kling;67;K;Vaggeryd;67, Biblioteksassistent, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;19;J;J;I;J;37931;Roland Svensson;59;M;Vaggeryd;59, Metallarbetare, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;20;J;J;I;J;37932;Evelina Grimborg;33;K;Vaggeryd;33, Butiksmedarbetare, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;21;J;J;I;J;37933;Bengt Fälth;69;M;Vaggeryd;69, Pensionär, Klevshult;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;22;J;J;I;J;37934;Anette Petersson;54;K;Vaggeryd;55, Ombudsman, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;23;J;J;I;J;37935;Michel Magnusson;45;M;Vaggeryd;45, Metallarbetare, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;24;J;J;I;J;37936;Sonja Tencic;57;K;Vaggeryd;58, Undersköterska, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;25;J;J;I;J;37937;Besim Matoshi;35;M;Vaggeryd;36, Industriarbetare, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;26;J;J;I;J;37938;Ingegerd Olsson;60;K;Vaggeryd;60, Fanértekniker, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;27;J;J;I;J;37939;Bo Junefjäll;58;M;Vaggeryd;58, Ombudsman, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;28;J;J;I;J;37940;Monica Andersson;76;K;Vaggeryd;76, Pensionär, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;29;J;J;I;J;37941;Patric Ahlberg;49;M;Vaggeryd;49, IT-systemsamordnare, Bratteborg;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;30;J;J;I;J;37942;Inger Strandlund;70;K;Vaggeryd;70, fd Sjukvårdsbiträde, Hok;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;31;J;J;I;J;37943;Omar Ahmed;38;M;Vaggeryd;38, Metallarbetare, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;32;J;J;I;J;37944;Håkan Gustafsson;57;M;Vaggeryd;57, Företagare, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;33;J;J;I;J;37945;Per Nord;70;M;Vaggeryd;70, Pensionär, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;34;J;J;I;J;37946;Reine Frisk;75;M;Vaggeryd;75, Pensionär, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;35;J;J;I;J;37947;Kjell Karlsson;55;M;Vaggeryd;55, Säljare, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;36;J;J;I;J;37948;Bekim Matoshi;33;M;Vaggeryd;33, Produktionsledare, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12301;37;J;J;I;J;37949;Göran Mukka;53;M;Vaggeryd;53, Pumpmaskinist, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;1;J;J;I;J;38019;Tuula Ingner;63;K;Vaggeryd;63 ,Behandlingspedagog, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;2;J;J;I;J;38020;Kenneth Åberg;63;M;Vaggeryd;63, fd Bankman, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;3;J;J;I;J;38021;Anna-Karin Slunge;61;K;Vaggeryd;61, Studie- och yrkesvägledare, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;4;J;J;I;J;38022;Robert Alkemark;56;M;Vaggeryd;55, Ingenjör, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;5;J;J;I;J;38023;Helena Erlandsson;49;K;Vaggeryd;49, Församlingspedagog, Hok;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;6;J;J;I;J;38024;Thomas Strand;64;M;Vaggeryd;64, Riksdagsledamot, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;7;J;J;I;J;38025;Seth Andersson;77;M;Vaggeryd;77, fd Lagerchef, Rastad;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;8;J;J;I;J;38026;Bengt Sandahl;72;M;Vaggeryd;73, fd Posttjänsteman, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;9;J;J;I;J;38027;Kenneth Bergqvist;69;M;Vaggeryd;69, fd Arbetsmiljöinspektör, Bondstorp;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;10;J;J;I;J;38028;Brahim Peci;41;M;Vaggeryd;41, Gymnasielärare, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;11;J;J;I;J;38029;Maj-Britt Johansson;75;K;Vaggeryd;76, fd Undersköterska, Eckersholm;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;12;J;J;I;J;38030;Claes Johansson;48;M;Vaggeryd;49, Montör, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;13;J;J;I;J;38031;Inger Fröding;75;K;Vaggeryd;75, fd Undersköterska, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;14;J;J;I;J;38032;Mousa Mousa Hussien;23;M;Vaggeryd;23, Fritidsledare, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;15;J;J;I;J;38033;Victor Blixth;18;M;Vaggeryd;18, Studerande, Klevshult;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;16;J;J;I;J;38034;Bo Josefsson;65;M;Vaggeryd;65, fd Elektriker, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;17;J;J;I;J;38035;Ann-Britt Gustavsson;66;K;Vaggeryd;66, fd Undersköterska, Fagerhult;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;18;J;J;I;J;38037;Torbjörn Gunnarsson;60;M;Vaggeryd;60, Stödassistent, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;19;J;J;I;J;38038;Christina Gustavsson;74;K;Vaggeryd;74, fd Distriktssköterska, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;20;J;J;I;J;38039;Jan-Erik Andersson;62;M;Vaggeryd;62, Busschaufför, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;21;J;J;I;J;38040;Gullvi Alkemark;79;K;Vaggeryd;80, fd Lokalvårdare, Skillingaryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Arbetarepartiet-Socialdemokraterna;S;2;S;12302;22;J;J;I;J;38041;Lars Erik Joakimson;78;M;Vaggeryd;78, fd Lärare, Vaggeryd;21000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;1;J;J;I;J;127463;Ulf Abrahamsson;63;M;Vaggeryd;63, Egenföretagare, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;2;J;J;I;J;127464;Anna-Maria Toftgård;42;K;Vaggeryd;42, Församlingsmusiker, Tofteryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;3;J;J;I;J;127465;Jörgen Johansson;55;M;Vaggeryd;55, Egenföretagare, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;4;J;J;I;J;15855;Pelle Philip;67;M;Vaggeryd;67, Egenföretagare, Hålabo;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;5;J;J;I;J;127467;Ida Philip;35;K;Vaggeryd;35, Vårdadministratör, Bondstorp;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;6;J;J;I;J;127468;Carina Stridh Bjurhager;58;K;Vaggeryd;58, Specialpedagog, Åker;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;7;J;J;I;J;127469;Sverker Bernhardsson;68;M;Vaggeryd;68, Pensionär, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;8;J;J;I;J;127470;Sven Samuelsson;55;M;Vaggeryd;55, Säljare, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;9;J;J;I;J;127471;Johanna Malmborg;35;K;Vaggeryd;35, Redovisningskonsult, Tofteryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;10;J;J;I;J;127472;Thomas Mörhed;61;M;Vaggeryd;61, Entreprenör, Mörhult;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;11;J;J;I;J;127473;Frans Gunnarsson;27;M;Vaggeryd;27, Elektriker, Ljungberg;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;12;J;J;I;J;127474;Henric Ulfsax;44;M;Vaggeryd;44, Präst, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;13;J;J;I;J;127475;Olof Sjöholm;34;M;Vaggeryd;34, Entreprenadingenjör, Hagshult;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;14;J;J;I;J;127476;Hillevi Andersson;54;K;Vaggeryd;54, Församlingspedagog, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;15;J;J;I;J;127477;Jan Andersson;58;M;Vaggeryd;58, Lantbrukare, Svenarum;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;16;J;J;I;J;127478;Fredrik Nord;51;M;Vaggeryd;51, Miljöarbetare, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;17;J;J;I;J;127479;Gunnel Johansson;74;K;Vaggeryd;74, Pensionär, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;18;J;J;I;J;127480;Ulf Berggren;59;M;Vaggeryd;59, Företagare, Åker;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Centerpartiet;C;4;S;13298;19;J;J;I;J;127481;Jonas Rofors;46;M;Vaggeryd;46, Administratör, Byarum;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;EMPA(R)TIET;EMP;1333;S;15730;1;N;J;J;I;35233;Lennart Charlie Karlsson;73;M;Vaggeryd;74, Pensionerad Arbetsledare;6000;;J
+K;0665;Vaggeryd;00;Vaggeryd;EMPA(R)TIET;EMP;1333;S;15730;2;N;J;J;I;35234;Klas Gustavsson;44;M;Vaggeryd;44, Lagerarbetare;6000;;J
+K;0665;Vaggeryd;00;Vaggeryd;EMPA(R)TIET;EMP;1333;S;15730;3;N;J;J;I;35235;Eva Malmberg;44;K;Vaggeryd;44, Förskollärare;6000;;J
+K;0665;Vaggeryd;00;Vaggeryd;EMPA(R)TIET;EMP;1333;S;15730;4;N;J;J;I;35236;Jennie Lassen;43;K;Vaggeryd;43, Ekonom;6000;;J
+K;0665;Vaggeryd;00;Vaggeryd;EMPA(R)TIET;EMP;1333;S;15730;5;N;J;J;I;35237;Ewa Alexandra Karlsson;66;K;Vaggeryd;66, Vårdare;6000;;J
+K;0665;Vaggeryd;00;Vaggeryd;EMPA(R)TIET;EMP;1333;S;15730;6;N;J;J;I;508316;Rolf Olofsson;77;M;Vaggeryd;77, Kontrollingenjör;6000;;J
+K;0665;Vaggeryd;00;Vaggeryd;EMPA(R)TIET;EMP;1333;S;15730;7;N;J;J;I;508317;Mats Elmgren;67;M;Vaggeryd;67, Verktygsmakare;6000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;1;J;J;I;J;78141;Thomas Axelsson;61;M;Vaggeryd;IT-affärskonsult, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;2;J;J;I;J;78142;Jenny Larsen;46;K;Vaggeryd;IT-projektledare, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;3;J;J;I;J;78143;Maritha Bengtsson;56;K;Vaggeryd;Ekonomiassistent, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;4;J;J;I;J;78144;Christer Sandén;44;M;Vaggeryd;Lärare, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;5;J;J;I;J;78145;Sofia Isaksson;31;K;Vaggeryd;Lärare, Hok;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;6;J;J;I;J;78146;Nicklas Nordquist;26;M;Vaggeryd;Snickare, Svenarum;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;7;J;J;I;J;78147;Viktoria Önneby;44;K;Vaggeryd;Leg. arbetsterapeut, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;8;J;J;I;J;78148;Camilla Ohlsson;46;K;Vaggeryd;Förskollärare, Byarum;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;9;J;J;I;J;78149;Anna Vingrahn;38;K;Vaggeryd;Redovisningskonsult, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;10;J;J;I;J;78150;Per Pettersson;61;M;Vaggeryd;Processoperatör, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;11;J;J;I;J;78151;Marianne Andersson;61;K;Vaggeryd;Undersköterska, Tofteryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;12;J;J;I;J;78152;Marcus Rombo;46;M;Vaggeryd;Lärare, Hok;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;13;J;J;I;J;78153;Maria Ottosson;54;K;Vaggeryd;Distriktssköterska, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;14;J;J;I;J;78154;Hanna Sandén;38;K;Vaggeryd;Tågvärd, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;15;J;J;I;J;78155;Patrik Isaksson;32;M;Vaggeryd;Företagare, Hok;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;16;J;J;I;J;78156;Monika Klingberg;54;K;Jönköping;Skolsköterska, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;17;J;J;I;J;78157;Mats Wisth;53;M;Vaggeryd;Trafikchef, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;18;J;J;I;J;78158;Elisabeth Blom;38;K;Vaggeryd;Barnskötare, Tofteryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;19;J;J;I;J;78159;Birgitta Mellin;52;K;Vaggeryd;Kanslist/församl.musiker, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;20;J;J;I;J;78160;Thomas Frankner;54;M;Vaggeryd;Elevassistent, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;21;J;J;I;J;78161;Rose-Marie Axelsson;58;K;Vaggeryd;Företagare, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;22;J;J;I;J;78162;Stefan Ottosson;54;M;Vaggeryd;Företagare, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;23;J;J;I;J;78163;Gunnel Elg;60;K;Vaggeryd;Behandlingspedagog, Ålaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;24;J;J;I;J;78164;Kenneth Skoogh;58;M;Vaggeryd;Företagare, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;S;12872;25;J;J;I;J;78165;Johnny Wackt;65;M;Vaggeryd;Lantbrukare, Bratteborg;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Kristdemokraterna;KD;68;;;;J;J;I;N;480135;[inte lämnat förklaring];;;;;0;;N
+K;0665;Vaggeryd;00;Vaggeryd;Kristna Värdepartiet;KrVP;1140;S;15688;1;N;J;J;I;480135;Mathias Johansson;45;M;Vaggeryd;byggmästare, 45, Skillingaryd;3000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;1;J;J;I;J;204179;Ewa Magnusson;50;K;Vaggeryd;Jorarp;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;2;J;J;I;J;234859;Atacha Adinda;45;M;Vaggeryd;Skillingaryd;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;3;J;J;I;J;204184;Magnus Thelin;33;M;Vaggeryd;Hult;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;4;J;J;I;J;234861;Malin Gustavsson;47;K;Vaggeryd;Ekhult;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;5;J;J;I;J;234862;Kim Andersson;45;M;Vaggeryd;Vaggeryd;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;6;J;J;I;J;212920;Ann-Christin Holmgren;66;K;Vaggeryd;Bäck;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;7;J;J;I;J;234864;Bjarne Atlefur;50;M;Jönköping;Skillingaryd;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;8;J;J;I;J;234865;Catharina Jalonen;35;K;Vaggeryd;Skillingaryd;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;9;J;J;I;J;234866;Robert Gurbin;44;M;Vaggeryd;Skillingaryd;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;10;J;J;I;J;234867;Jerry Karlsson;44;M;Vaggeryd;Skillingaryd;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;11;J;J;I;J;234868;Abdirahman Mohammed Ahmed;19;M;Vaggeryd;Vaggeryd;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;12;J;J;I;J;234869;Ken Frick;59;M;Vaggeryd;Hankabo;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;13;J;J;I;J;234870;Thore Ohlsson;75;M;Vaggeryd;Vaggeryd;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;14;J;J;I;J;234871;Ulla Hansson;65;K;Vaggeryd;Pålskog;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;15;J;J;I;J;234872;Daniel Paulsson;81;M;Vaggeryd;Torp;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;16;J;J;I;J;234873;Per-Olof Persson;83;M;Vaggeryd;Skillingaryd;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;17;J;J;I;J;234874;Linnéa Hugosson;80;K;Vaggeryd;Skillingaryd;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Liberalerna (tidigare Folkpartiet);L;3;S;14078;18;J;J;I;J;234875;Sven-Olov Carlsson;76;M;Vaggeryd;Skillingaryd;18000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Miljöpartiet de gröna;MP;55;S;14966;1;J;J;I;J;374881;Stig-Göran Hultsbo;64;M;Vaggeryd;64 år, egen företagare, Taglarp;20000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Miljöpartiet de gröna;MP;55;S;14966;2;J;J;I;J;374882;Malin Rehnstedt;38;K;Vaggeryd;38 år, biomedicinsk analytiker, Vaggeryd;20000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Miljöpartiet de gröna;MP;55;S;14966;3;J;J;I;J;374883;Michael Anderberg;57;M;Vaggeryd;57 år, projektsamordnare, Mölnarp;20000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Miljöpartiet de gröna;MP;55;S;14966;4;J;J;I;J;374884;Kristin Stark;68;K;Vaggeryd;68 år, f.d. arbetsmarknadschef, Bäck;20000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Miljöpartiet de gröna;MP;55;S;14966;5;J;J;I;J;374885;Mikael Wahss;38;M;Vaggeryd;38 år, utvecklingschef, Vaggeryd;20000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Miljöpartiet de gröna;MP;55;S;14966;6;J;J;I;J;233335;Ulla-Carin Djerf;69;K;Vaggeryd;69 år, advokat, Bäck;20000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Miljöpartiet de gröna;MP;55;S;14966;7;J;J;I;J;374887;Björn Karlsson;37;M;Vaggeryd;37 år, möbelproduktionstekniker, Skillingaryd;20000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Miljöpartiet de gröna;MP;55;S;14966;8;J;J;I;J;374888;Kristopher Pihlgren;34;M;Vaggeryd;34 år, transportledare, Skillingaryd;20000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Miljöpartiet de gröna;MP;55;S;14966;9;J;J;I;J;374889;Kerstin Hultsbo;64;K;Vaggeryd;64 år, lärare, Taglarp;20000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Miljöpartiet de gröna;MP;55;S;14966;10;J;J;I;J;374890;Lisa Andersson;39;K;Vaggeryd;39 år, veterinärassistent, Bäck;20000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Miljöpartiet de gröna;MP;55;S;14966;11;J;J;I;J;374891;Anette Olsson;50;K;Vaggeryd;50 år, fritidsledare, Vaggeryd;20000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Miljöpartiet de gröna;MP;55;S;14966;12;J;J;I;J;374892;Josefin Wahss;37;K;Vaggeryd;37 år, tandläkare, Vaggeryd;20000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;1;J;J;I;J;1653;Gert Jonsson;58;M;Vaggeryd;Kommunalråd, Hok;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;2;J;J;I;J;149628;Ann-Katrin Löfstedt;64;K;Vaggeryd;Gymnastikdirektör, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;3;J;J;I;J;149629;Gunilla Otterberg;72;K;Vaggeryd;F.d. företagare/säljare, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;4;J;J;I;J;149630;Allan Ragnarsson;70;M;Vaggeryd;Ingenjör, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;5;J;J;I;J;149631;Christer Holmgren;72;M;Vaggeryd;Skolledare, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;6;J;J;I;J;149632;Mats Oskarsson;53;M;Vaggeryd;Pilot, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;7;J;J;I;J;149633;Britt Johansson;74;K;Vaggeryd;Distriktssköterska, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;8;J;J;I;J;149634;Carl Johansson;31;M;Vaggeryd;Företagare, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;9;J;J;I;J;149635;Lars Seger;54;M;Vaggeryd;Kreatör, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;10;J;J;I;J;149636;Werner Andersson;73;M;Vaggeryd;Ingenjör, Ålaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;11;J;J;I;J;149637;Adis Begovic;30;M;Vaggeryd;Företagare, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;12;J;J;I;J;149638;Andreas Orre;50;M;Vaggeryd;Exportchef, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;13;J;J;I;J;149639;Linnea Graab;55;K;Vaggeryd;Jurist, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;14;J;J;I;J;149640;Marita Wågesson-Sjöberg;52;K;Vaggeryd;Föreståndare, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;15;J;J;I;J;149641;Peter Sjöberg;56;M;Vaggeryd;Säljare, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;16;J;J;I;J;149642;Katarina Samuelsson;58;K;Vaggeryd;Undersköterska, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;17;J;J;I;J;149643;Mats Jonsson;56;M;Vaggeryd;Byggnadsarbetare, Hagshult;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;18;J;J;I;J;149644;Anita Jonsson;53;K;Vaggeryd;Äldresamordnare, Hok;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;19;J;J;I;J;149645;Kristofer Flood;40;M;Vaggeryd;Företagare, Tofteryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;20;J;J;I;J;149646;Monica Gabrielsson;71;K;Vaggeryd;Undersköterska, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;21;J;J;I;J;149647;Anders Johansson;54;M;Vaggeryd;Tapetserare, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;22;J;J;I;J;149648;Christian Glöckner;36;M;Vaggeryd;Egen företagare, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;23;J;J;I;J;149649;Eva Arvidsson-Johansson;63;K;Vaggeryd;Ekonomichef, Klevshult;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;24;J;J;I;J;149650;Sture Filipsson;76;M;Vaggeryd;Företagsledare, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;25;J;J;I;J;149651;Kristina Staude;53;K;Vaggeryd;Ämneslärare, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;26;J;J;I;J;149652;Bengt Staude;57;M;Vaggeryd;VD, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Moderaterna;M;1;S;13433;27;J;J;I;J;149653;Björn Otterberg;74;M;Vaggeryd;Ingenjör, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;S;15443;1;N;J;J;I;126267;Jan-Olof Svedberg;63;M;Vaggeryd;63, busschaufför, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;S;15443;2;N;J;J;I;126268;Jan Sjögren;70;M;Vaggeryd;70, pensionär, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;S;15443;3;N;J;J;I;126269;Jan-Erik Aronsson;62;M;Vaggeryd;63, driftansvarig, Åker;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;S;15443;4;N;J;J;I;126270;Valter Hagström;31;M;Vaggeryd;31, VVS-företagare, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;S;15443;5;N;J;J;I;126271;Lars Olof Hindersson;82;M;Vaggeryd;51, produktionstekniker, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;S;15443;6;N;J;J;I;126272;Niklas Oskarsson;33;M;Vaggeryd;33, CNC-operatör, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;S;15443;7;N;J;J;I;126273;Patrick Åhlin;48;M;Vaggeryd;48, fastighetstekniker, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;S;15443;8;N;J;J;I;126274;Johan Oskarsson;30;M;Vaggeryd;30, svetsare, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;S;15443;9;N;J;J;I;126276;Christoffer Grimborg;33;M;Vaggeryd;31, chaufför, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;S;15443;10;N;J;J;I;126277;Claes Nord;53;M;Vaggeryd;52, arbetsledare, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;S;15443;11;N;J;J;I;126278;Ingvar Larsson;70;M;Vaggeryd;70, pensionär, Skillingaryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;S;15443;12;N;J;J;I;126279;Jan Bomberg;30;M;Vaggeryd;29, anläggare, Vaggeryd;32000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;;;;N;J;J;I;500033;Hindersson, Lars-Olof;52;M;Vaggeryd;;0;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;;;;N;J;J;I;508148;Svensson, Stig;72;M;Vaggeryd;;0;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;;;;N;J;J;I;508695;Mazur, Ievgen;28;M;Vaggeryd;;0;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;;;;N;J;J;I;508696;Laszlo, Andreas;25;M;Vaggeryd;;0;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;;;;N;J;J;I;512919;Petersson, Michelle;19;K;Gislaved;;0;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;;;;N;J;J;I;515618;Eriksson, Monica;68;K;Vaggeryd;;0;;J
+K;0665;Vaggeryd;00;Vaggeryd;Sverigedemokraterna;SD;110;;;;N;J;J;I;515909;Svensson, Ola;49;M;Vaggeryd;;0;;J
+K;0665;Vaggeryd;00;Vaggeryd;Vänsterpartiet;V;5;S;14799;1;N;J;J;I;318145;Martin Damberg;28;M;Vaggeryd;avdelningsledare, Klevshult;16000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Vänsterpartiet;V;5;S;14799;2;N;J;J;I;230779;Elizabeth Orellana Bravo;54;K;Vaggeryd;undersköterska, Vaggeryd;16000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Vänsterpartiet;V;5;S;14799;3;N;J;J;I;342873;Linnéa Lundgren;26;K;Vaggeryd;processledare, Klevshult;16000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Vänsterpartiet;V;5;S;14799;4;N;J;J;I;230790;Erica Gunnarsson Kibowa;61;K;Vaggeryd;pedagog, Skillingaryd;16000;;J
+K;0665;Vaggeryd;00;Vaggeryd;Vänsterpartiet;V;5;S;14799;5;N;J;J;I;493869;Petra Bertilsson;62;K;Vaggeryd;informatör, Ekeryd;16000;;J

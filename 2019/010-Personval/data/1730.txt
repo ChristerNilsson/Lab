@@ -1,0 +1,113 @@
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;1;J;J;I;J;26760;Hans-Peter Jessen;62;M;Eda;Köla;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;2;J;J;I;J;22210;Sofia Andersson;26;K;Eda;Koppom;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;3;J;J;I;J;26762;Jens Ericsson;47;M;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;4;J;J;I;J;26763;Birgitta Eklund;71;K;Eda;Skillingmark;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;5;J;J;I;J;26764;Dan Säterman;69;M;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;6;J;J;I;J;26765;Monica Aarholdt;57;K;Eda;Åmotfors;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;7;J;J;I;J;26766;Odd Westby;64;M;Eda;Eda Glasbruk;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;8;J;J;I;J;26767;Lena Olsson;43;K;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;9;J;J;I;J;26768;Bengt Hansson;59;M;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;10;J;J;I;J;26769;Marianne Torstensdotter;82;K;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;11;J;J;I;J;26770;Björn Damperud;69;M;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;12;J;J;I;J;26771;Astrid Lillevold;74;K;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;13;J;J;I;J;26772;Bo Guldbrandsson;72;M;Eda;Åmotfors;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;14;J;J;I;J;26773;Evy Andersson;64;K;Eda;Köla;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;15;J;J;I;J;26774;Didrik Lillevold;71;M;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;16;J;J;I;J;26775;Liselotte Kihlström;54;K;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;17;J;J;I;J;26776;Jan Silverås;56;M;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;18;J;J;I;J;26777;Ulla Sverrunger;71;K;Eda;Skillingmark;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;19;J;J;I;J;26778;Angelo Khallo;44;M;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;20;J;J;I;J;26779;Christina Säihke;58;K;Eda;Eda Kyrkbygd;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;21;J;J;I;J;26780;Arne Guldbrandsson;58;M;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;22;J;J;I;J;26781;Monica Andersson;39;K;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;23;J;J;I;J;26782;Sven-Olof Hedell;85;M;Eda;Koppom;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;24;J;J;I;J;26783;Mona Älvstrand Karlsson;46;K;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Arbetarepartiet-Socialdemokraterna;S;2;S;12131;25;J;J;I;J;26784;Sven Arne Arvidsson;46;M;Eda;Charlottenberg;22000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;1;J;J;I;J;42673;Johanna Söderberg;60;K;Eda;Sjuksköterska, Fjäll;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;2;J;J;I;J;42674;Fredrik Karlsson;32;M;Eda;Klubbchef, Skarbol;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;3;J;J;I;J;42675;Annika Hugne;64;K;Eda;Grisbonde, Lunden;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;4;J;J;I;J;42676;Lars-Eric Andersson;72;M;Eda;Lantbrukare, Sjögervål;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;5;J;J;I;J;42677;Sylvia Jonasson;68;K;Eda;Undersköterska, Lunden;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;6;J;J;I;J;42678;Carl-Olov Sjöstedt;53;M;Eda;Mjölkproducent, Hajom;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;7;J;J;I;J;42679;Linda Nordling;42;K;Eda;Sjuksköterska, Ås;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;8;J;J;I;J;42680;Eva Magnusson Nilsson;63;K;Eda;Småbrukare, Västra Flogned;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;9;J;J;I;J;42681;Elsa Badh;26;K;Eda;Civilekonom, Ås;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;10;J;J;I;J;42682;Elisabeth Hugne;29;K;Eda;Agronom, Tollesbyn;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;11;J;J;I;J;42683;Lennart Brunzell;75;M;Eda;Pensionär, Charlottenberg;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;12;J;J;I;J;42684;Böret Segolsson-Knutsson;68;K;Eda;Företagare, Skarbol;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;13;J;J;I;J;42685;Jan Brander;54;M;Eda;Skogsbonde, Lilla Hög;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;14;J;J;I;J;42686;Amy Persson;41;K;Eda;Undersköterska, Lunden;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;15;J;J;I;J;42687;John Badh;77;M;Eda;Pensionär, Koppom;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;16;J;J;I;J;42688;Annette Johansson;73;K;Eda;Pensionär, Ås;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;17;J;J;I;J;42689;Björn E Olsson;68;M;Eda;Lantbrukare, Bön;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;18;J;J;I;J;42690;Annmarie Öjstrand;62;K;Eda;VA-tekniker, Slärteg;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;19;J;J;I;J;42691;Jörgen Nilsson;48;M;Eda;Företagare, Lässerud;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;20;J;J;I;J;42692;Vivi-Ann Belsing-Wargh;66;K;Eda;Lågstadielärare, Västra Gryttved;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;21;J;J;I;J;42693;Jannica Bergström;40;K;Eda;Sjuksköterska, Rudsgården;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;22;J;J;I;J;42694;Stig Bengtsson;61;M;Eda;Tekniker, Korsbyn;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;23;J;J;I;J;42695;Maria Svala;63;K;Eda;Socionom, Söpple;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;24;J;J;I;J;42696;Anders Persson;66;M;Eda;Lantbrukare, Bålstad;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;25;J;J;I;J;42697;Maria Blomqvist;49;K;Eda;Handläggare, Flogned;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;26;J;J;I;J;42698;Leif Johansson;76;M;Eda;Pensionär, Ås;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;27;J;J;I;J;42699;Ragnar Eriksson;69;M;Eda;Pensionär, Kronan;21000;;J
+K;1730;Eda;00;Eda;Centerpartiet;C;4;S;12370;28;J;J;I;J;42700;Maud Nilsson;58;K;Eda;Chaufför, Västby;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;1;N;J;J;I;435874;Hans Nilsson;58;M;Eda;Kommunalråd Eda, civilingenjör, Järnskog;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;2;N;J;J;I;435921;Bertil Börjeson;66;M;Eda;ordf Vård & stöd, ordf Valfjället, hemmansägare i Gunnerud;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;3;N;J;J;I;474243;Bo-Inge Nilsson;44;M;Eda;ordf Kommunfullmäktige, ordf Bildning, signaltekniker, Adolfsfors;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;4;N;J;J;I;474249;Birgitta Olsson;81;K;Eda;vice ordf Bildning, Åmotfors;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;5;N;J;J;I;474276;Margaretha Persson;61;K;Eda;ordf Folkhälsorådet, ordf Valnämnden, Åmotfors;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;6;N;J;J;I;474634;Mattias Lindgren;35;M;Eda;Rörmokare, Skillingmark;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;7;N;J;J;I;474593;Muwafak Hamami;55;M;Eda;Bovärd Eda Integrationscenter, Åmotfors;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;8;N;J;J;I;474928;Tony Persson;50;M;Eda;Entreprenör, Nolby;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;9;N;J;J;I;474635;Håkan Olsson;44;M;Eda;Kyrkogårdsarbetare, Åmotfors;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;10;N;J;J;I;474594;Kurt Emtman;62;M;Eda;Fiske- och naturguide, Sundshagen;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;11;N;J;J;I;500083;Jon Erik Engevold;30;M;Eda;Nordmann, Koppom;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;12;N;J;J;I;502207;Kari Staatsen;29;K;Eda;Verkställande direktör, Ånnebol;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;13;N;J;J;I;503635;Runar Johansson;63;M;Eda;Marknadsansvarig, Häljeboda;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;14;N;J;J;I;474930;Bo Lehresjön;83;M;Eda;Kulturarbetare, Lersjön;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;15;N;J;J;I;494966;Arne Persson;72;M;Eda;Entreprenör, Mellbyn;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;16;N;J;J;I;474931;Per-Magnus Andersson;60;M;Eda;Åkeriägare, Lerot;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;17;N;J;J;I;492486;Tomas Olsson;48;M;Eda;Butiksmedarbetare bildelar, Koppom;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;18;N;J;J;I;495347;Peter Lundaby;49;M;Eda;Lastbilsmekaniker, Älgestad;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;19;N;J;J;I;494954;Tage Kutt;71;M;Eda;Pensionär, Gunnerud;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;20;N;J;J;I;500089;Jens Normann Løvlie;72;M;Eda;Pensionär, Eda Glasbruk;21000;;J
+K;1730;Eda;00;Eda;Hela Edas Lista;HEL;160;S;15356;21;N;J;J;I;495631;Köla-Inge Lindqvist;83;M;Eda;Pensionär, Charlottenberg;21000;;J
+K;1730;Eda;00;Eda;Kristdemokraterna;KD;68;S;14580;1;J;J;I;J;293331;Anders Gustafsson;68;M;Eda;Charlottenberg;7000;;J
+K;1730;Eda;00;Eda;Kristdemokraterna;KD;68;S;14580;2;J;J;I;J;295090;Bengt Nilsson;64;M;Eda;Köla;7000;;J
+K;1730;Eda;00;Eda;Kristdemokraterna;KD;68;S;14580;3;J;J;I;J;295091;Catarina Jansson;46;K;Eda;Köla;7000;;J
+K;1730;Eda;00;Eda;Kristdemokraterna;KD;68;S;14580;4;J;J;I;J;295092;Kenneth Bodin;73;M;Eda;Köla;7000;;J
+K;1730;Eda;00;Eda;Kristdemokraterna;KD;68;S;14580;5;J;J;I;J;295093;Per Sjögren;61;M;Eda;Charlottenberg;7000;;J
+K;1730;Eda;00;Eda;Kristdemokraterna;KD;68;S;14580;6;J;J;I;J;295094;Mikael Nilsson;37;M;Eda;Köla;7000;;J
+K;1730;Eda;00;Eda;Liberalerna (tidigare Folkpartiet);L;3;S;14645;1;J;J;I;J;31347;Ola Dahlström;67;M;Eda;Koppom;21000;;J
+K;1730;Eda;00;Eda;Liberalerna (tidigare Folkpartiet);L;3;S;14645;2;J;J;I;J;208563;Eva Lanvald;71;K;Eda;Helgeboda;21000;;J
+K;1730;Eda;00;Eda;Liberalerna (tidigare Folkpartiet);L;3;S;14645;3;J;J;I;J;208564;Sven Olof Sylven;61;M;Eda;Åmotfors;21000;;J
+K;1730;Eda;00;Eda;Liberalerna (tidigare Folkpartiet);L;3;S;14645;4;J;J;I;J;208565;Kim Karlsson;38;M;Eda;Koppom;21000;;J
+K;1730;Eda;00;Eda;Liberalerna (tidigare Folkpartiet);L;3;S;14645;5;J;J;I;J;208566;Björn Åke Bergman;70;M;Eda;Charlottenberg;21000;;J
+K;1730;Eda;00;Eda;Liberalerna (tidigare Folkpartiet);L;3;S;14645;6;J;J;I;J;208567;Lennart Olsson;79;M;Eda;N:a Fjäll Åtmotfors;21000;;J
+K;1730;Eda;00;Eda;Liberalerna (tidigare Folkpartiet);L;3;S;14645;7;J;J;I;J;208568;Swea Edman;69;K;Eda;S:a Fjäll Åmotfors;21000;;J
+K;1730;Eda;00;Eda;Moderaterna;M;1;S;12277;1;J;J;I;J;611;Hanna Andersson;43;K;Eda;43 år, Personskadereglerare;21000;;J
+K;1730;Eda;00;Eda;Moderaterna;M;1;S;12277;2;J;J;I;J;37061;Mats-Åke Knutsson;65;M;Eda;65 år, Småföretagare;21000;;J
+K;1730;Eda;00;Eda;Moderaterna;M;1;S;12277;3;J;J;I;J;37062;Jasmine Karlsson;26;K;Eda;26 år, Egen företagare Frisör;21000;;J
+K;1730;Eda;00;Eda;Moderaterna;M;1;S;12277;4;J;J;I;J;37063;Owe Magnusson;59;M;Eda;59 år, Ekonomichef;21000;;J
+K;1730;Eda;00;Eda;Moderaterna;M;1;S;12277;5;J;J;I;J;37064;Gun Andersson;69;K;Eda;69 år, Pedagog;21000;;J
+K;1730;Eda;00;Eda;Moderaterna;M;1;S;12277;6;J;J;I;J;37066;Christer Danielsson;69;M;Eda;69 år, Pensionär;21000;;J
+K;1730;Eda;00;Eda;Moderaterna;M;1;S;12277;7;J;J;I;J;37067;Tor Andersson;67;M;Eda;67 år, Egen företagare;21000;;J
+K;1730;Eda;00;Eda;Moderaterna;M;1;S;12277;8;J;J;I;J;37068;Lotta Hedström;60;K;Eda;60 år, VD;21000;;J
+K;1730;Eda;00;Eda;Moderaterna;M;1;S;12277;9;J;J;I;J;37070;Julija Vyte;32;K;Eda;32 år, Personalansvarig;21000;;J
+K;1730;Eda;00;Eda;Moderaterna;M;1;S;12277;10;J;J;I;J;37071;Gunnar Andersson;68;M;Eda;68 år, Konsult;21000;;J
+K;1730;Eda;00;Eda;Sverigedemokraterna;SD;110;S;12996;1;N;J;J;I;94936;Stefan Nilsson;44;M;Eda;44, Egen företagare, Åmotfors;21000;;J
+K;1730;Eda;00;Eda;Sverigedemokraterna;SD;110;S;12996;2;N;J;J;I;94937;Mikael Johansson;51;M;Eda;51, Behandlingsassistent, Charlottenberg;21000;;J
+K;1730;Eda;00;Eda;Sverigedemokraterna;SD;110;S;12996;3;N;J;J;I;94938;Per-Olof Larsson;68;M;Eda;68, Egen företagare, Åmotfors;21000;;J
+K;1730;Eda;00;Eda;Sverigedemokraterna;SD;110;S;12996;4;N;J;J;I;94939;Helena Ringstrand;47;K;Eda;47, Ekonomiansvarig, Charlottenberg;21000;;J
+K;1730;Eda;00;Eda;Sverigedemokraterna;SD;110;S;12996;5;N;J;J;I;109827;Johnny Renström;70;M;Eda;71, Pensionär, Koppom;21000;;J
+K;1730;Eda;00;Eda;Sverigedemokraterna;SD;110;S;12996;6;N;J;J;I;94940;Uno Hultman;76;M;Eda;76, Egen företagare, Charlottenberg;21000;;J
+K;1730;Eda;00;Eda;Sverigedemokraterna;SD;110;;;;N;J;J;I;515743;Kristiansen, Bent;68;M;Eda;;0;;J
+K;1730;Eda;00;Eda;Vänsterpartiet;V;5;S;13075;1;J;J;I;J;108420;Nicklas Backelin;44;M;Eda;Pappersbruksarbetare, Åmotfors;21000;;J
+K;1730;Eda;00;Eda;Vänsterpartiet;V;5;S;13075;2;J;J;I;J;108421;Eva Aanerud Karlsson;55;K;Eda;Miljöansvarig, Eda Glasbruk;21000;;J
+K;1730;Eda;00;Eda;Vänsterpartiet;V;5;S;13075;3;J;J;I;J;30307;Patric Carlsson;46;M;Eda;Undersköterska, Charlottenberg;21000;;J
+K;1730;Eda;00;Eda;Vänsterpartiet;V;5;S;13075;4;J;J;I;J;108423;Karl-Erik Backelin;61;M;Eda;Pappersbruksarbetare, Boda Åmotfors;21000;;J
+K;1730;Eda;00;Eda;Vänsterpartiet;V;5;S;13075;5;J;J;I;J;108424;Per Dahlman;44;M;Eda;Pappersbruksarbetare, Åmotfors;21000;;J
+K;1730;Eda;00;Eda;Vänsterpartiet;V;5;S;13075;6;J;J;I;J;108425;Jannica Jansson;50;K;Eda;Metallarbetare, Åmotfors;21000;;J
+K;1730;Eda;00;Eda;Vänsterpartiet;V;5;S;13075;7;J;J;I;J;108426;John Erik Carlsson;74;M;Eda;Fastighetsmäklare, Charlottenberg;21000;;J
+K;1730;Eda;00;Eda;Vänsterpartiet;V;5;S;13075;8;J;J;I;J;108427;Per Kullgren;42;M;Eda;Pappersbruksarbetare, Åmotfors;21000;;J
+K;1730;Eda;00;Eda;Vänsterpartiet;V;5;S;13075;9;J;J;I;J;108428;Elin Andersson;65;K;Eda;Undersköterska, Charlottenberg;21000;;J

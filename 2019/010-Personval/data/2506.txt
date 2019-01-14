@@ -1,0 +1,48 @@
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;1;J;J;I;J;10552;Britta Flinkfeldt;53;K;Arjeplog;53 år, Arjeplog;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;2;J;J;I;J;10553;Mats Abrahamsson;65;M;Arjeplog;65 år, Arjeplog;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;3;J;J;I;J;10554;Mari-Teres Ögren;44;K;Arjeplog;44 år, Arjeplog;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;4;J;J;I;J;10555;Görgen Åberg;45;M;Arjeplog;45 år, Arjeplog;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;5;J;J;I;J;10556;Veronica Burman;48;K;Arjeplog;48 år, Slagnäs;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;6;J;J;I;J;10557;Mauricio Puga;64;M;Arjeplog;64 år, Arjeplog;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;7;J;J;I;J;10558;Christina Wallström;71;K;Arjeplog;71 år, Radnejaur;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;8;J;J;I;J;10559;Rickard Jilläng;58;M;Arjeplog;58 år, Änganäs;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;9;J;J;I;J;10560;Anna-Lena Le Goascogne;50;K;Arjeplog;50 år, Arjeplog;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;10;J;J;I;J;10561;Kjell Marklund;76;M;Arjeplog;78 år, Mellanström;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;11;J;J;I;J;10562;Sonja Lundquist;33;K;Arjeplog;33 år, Mellanström;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;12;J;J;I;J;10563;Rolf Laestander;77;M;Arjeplog;77 år, Arjeplog;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;13;J;J;I;J;10564;Åsa Larsson;41;K;Arjeplog;41 år, Arjeplog;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;14;J;J;I;J;10565;Kurt Burman;77;M;Arjeplog;77 år, Arjeplog;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;15;J;J;I;J;10566;Elin Ögren;19;K;Arjeplog;19 år, Arjeplog;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;16;J;J;I;J;10567;John Sundström;75;M;Arjeplog;75 år, Laisvall;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;17;J;J;I;J;10568;Olga Rusinova;52;K;Arjeplog;52 år, Arjeplog;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;18;J;J;I;J;10570;Ulla Lindström;75;K;Arjeplog;75 år, Mellanström;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;19;J;J;I;J;10571;Jan Stenberg;51;M;Arjeplog;51 år, Arjeplog;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Arbetarepartiet-Socialdemokraterna;S;2;S;11890;20;J;J;I;J;10572;Ingmari Nykvist;66;K;Arjeplog;66 år, Myrås;9000;;J
+K;2506;Arjeplog;00;Arjeplog;Centerpartiet;C;4;S;14790;1;J;J;I;J;341234;Sten-Åke Nilsson;54;M;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Centerpartiet;C;4;S;14790;2;J;J;I;J;341235;John Wennström;56;M;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Centerpartiet;C;4;S;14790;3;J;J;I;J;341236;Nina Lango;46;K;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Centerpartiet;C;4;S;14790;4;J;J;I;J;341237;Johan Hermansson;53;M;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Centerpartiet;C;4;S;14790;5;J;J;I;J;341238;Ulf Ottosson;68;M;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Centerpartiet;C;4;S;14790;6;J;J;I;J;341239;Laila Lundgren Sundström;52;K;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Centerpartiet;C;4;S;14790;7;J;J;I;J;341240;Stina Ederlöv;32;K;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Centerpartiet;C;4;S;14790;8;J;J;I;J;341241;Mikael Lejon;52;M;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Centerpartiet;C;4;S;14790;9;J;J;I;J;341242;Anette Wallström;56;K;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Liberalerna (tidigare Folkpartiet);L;3;S;13904;1;J;J;I;J;208509;Jeanette Ranfjäll;31;K;Arjeplog;31 år, Lärare;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Liberalerna (tidigare Folkpartiet);L;3;S;13904;2;J;J;I;J;208510;Joakim Renström;34;M;Arjeplog;34 år, Lärare;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Liberalerna (tidigare Folkpartiet);L;3;S;13904;3;J;J;I;J;208511;Per Lampinen;36;M;Arjeplog;36 år, Arbetsledare;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Liberalerna (tidigare Folkpartiet);L;3;S;13904;4;J;J;I;J;208512;Alf Sundström;62;M;Arjeplog;62 år, Företagare;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Liberalerna (tidigare Folkpartiet);L;3;S;13904;5;J;J;I;J;208513;Michael Cermenius;36;M;Arjeplog;36 år, Företagare;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Liberalerna (tidigare Folkpartiet);L;3;S;13904;6;J;J;I;J;208514;Ulla-Britt Nilsson;76;K;Arjeplog;76 år, Pensionär;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Sverigedemokraterna;SD;110;S;15025;1;J;J;I;J;48258;Robert Håkansson;40;M;Piteå;;1000;;J
+K;2506;Arjeplog;00;Arjeplog;Vänsterpartiet;V;5;S;14082;1;J;J;I;J;235326;Albert Lestander;65;M;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Vänsterpartiet;V;5;S;14082;2;J;J;I;J;30051;Elisabeth Bramfeldt;65;K;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Vänsterpartiet;V;5;S;14082;3;J;J;I;J;30013;Erik Grähs;24;M;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Vänsterpartiet;V;5;S;14082;4;J;J;I;J;245522;Inger Holgersen;39;K;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Vänsterpartiet;V;5;S;14082;5;J;J;I;J;245523;Robert Lundström;53;M;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Vänsterpartiet;V;5;S;14082;6;J;J;I;J;245524;Ola Holmström;56;M;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Vänsterpartiet;V;5;S;14082;7;J;J;I;J;245525;Sanna Nordin;29;K;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Vänsterpartiet;V;5;S;14082;8;J;J;I;J;245815;Andreas Marklund;19;M;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Vänsterpartiet;V;5;S;14082;9;J;J;I;J;245816;Sofa Nezíri;34;K;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Vänsterpartiet;V;5;S;14082;10;J;J;I;J;245817;Maud Lestander;59;K;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Vänsterpartiet;V;5;S;14082;11;J;J;I;J;245818;Ove Burman;59;M;Arjeplog;;7000;;J
+K;2506;Arjeplog;00;Arjeplog;Vänsterpartiet;V;5;S;14082;12;J;J;I;J;245819;Tommy Marklund;30;M;Arjeplog;;7000;;J

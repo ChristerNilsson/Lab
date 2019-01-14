@@ -1,0 +1,734 @@
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;1;J;J;I;J;97078;Khashayar Farmanbar;41;M;Nacka;41, Saltsjö Duvnäs, Oppositionsråd, Företagsledare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;2;J;J;I;J;97087;Maria Raner;41;K;Nacka;41, Boo, Arbetsförmedlare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;3;J;J;I;J;349329;Espen Bjordal Tollare;42;M;Nacka;42, Socionom, Lärare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;4;J;J;I;J;349330;Gunnel Nyman Gräff;58;K;Nacka;58, Kummelnäs, Ombudsman;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;5;J;J;I;J;97092;Martin Hellströmer;28;M;Nacka;28, Finntorp, Civilekonom;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;6;J;J;I;J;349332;Majvie Swärd;73;K;Nacka;73, Orminge, Pensionär, fd. arbetsförmedlare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;7;J;J;I;J;349333;Mattias Qvarsell;39;M;Nacka;39, Henriksdalsberget, Ombudsman;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;8;J;J;I;J;349334;Helena Westerling;56;K;Nacka;56, Finnberget, Organisationssekreterare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;9;J;J;I;J;349335;Carl-Magnus Grenninger;75;M;Nacka;75, Henriksborg, Journalist;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;10;J;J;I;J;349336;Alva Dahn;22;K;Nacka;23, Fisksätra, Studerande, Ordförande;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;11;J;J;I;J;349337;Andreas Falk;42;M;Nacka;42, Finntorp, Tjänsteman;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;12;J;J;I;J;97083;Ella Tegsten;27;K;Nacka;27, Sickla, Hemtjänstassistent;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;13;J;J;I;J;349339;Erik Svanfeldt;54;M;Nacka;54, Saltsjöbaden, Tjänsteman;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;14;J;J;I;J;349340;Emelie Norberg Friberg;39;K;Nacka;39, Saltsjö Duvnäs, Marknadschef;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;15;J;J;I;J;97084;Viktor Ellström;28;M;Nacka;28, Nacka, Partiarbetare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;16;J;J;I;J;349342;Hadia Mian;28;K;Nacka;27, Fisksätra, Studerande, Projektledare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;17;J;J;I;J;349343;Andreas Andersson;22;M;Nacka;22, Ektorp, Studerande;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;18;J;J;I;J;349344;Zakia Mirza;54;K;Nacka;54, Fisksätra, Lärare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;19;J;J;I;J;349345;Björn Andersson;51;M;Nacka;51, Älta, Lärare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;20;J;J;I;J;349346;Lena Rönnerstam;74;K;Nacka;74, Fisksätra, Tandläkare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;21;J;J;I;J;349347;Svanthe Hansson;64;M;Nacka;64, Kvarnholmen, Egen företagare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;22;J;J;I;J;71211;Maja Fjaestad;41;K;Nacka;41, Järla sjö, Teknisk Doktor;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;23;J;J;I;J;349349;Henric Unosson;44;M;Nacka;44, Sickla, Konsult;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;24;J;J;I;J;349350;Johanna Kvist;30;K;Stockholm;30, Saltängen, Politisk sekreterare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;25;J;J;I;J;349351;Godwyll Osei-Amoako;30;M;Nacka;30, Henriksdalsberget, Ombudsman;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;26;J;J;I;J;349352;Lena Gonäs;72;K;Nacka;72, Älta, Professor;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;27;J;J;I;J;349353;Martin Rundkvist;46;M;Nacka;46, Fisksätra, Arkeolog;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;28;J;J;I;J;349354;Hina Khan;20;K;Nacka;20, Boo, Studerande;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;29;J;J;I;J;349355;Roger Hällhag;55;M;Nacka;56, Skuru, Civilekonom;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;30;J;J;I;J;70624;Åsa Norrman Grenninger;67;K;Nacka;67, Henriksborg, fd Kanslichef;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;31;J;J;I;J;349357;Magnus Olsson;47;M;Nacka;47, Saltsjö-Duvnäs, Lärare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;32;J;J;I;J;349358;Lovisa Emanuelsson;28;K;Nacka;28, Finntorp, Studerande;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;33;J;J;I;J;349359;Håkan Ahtari Håkansson;69;M;Nacka;69, Älta, fd Personalchef och Äldreomsorgschef;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;34;J;J;I;J;97079;Maria Kjellsdotter Rydinger;52;K;Nacka;52, Skogalund, Präst;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;35;J;J;I;J;349361;Noor Rehman Sherzad;37;M;Nacka;36, Henriksdalsberget, Journalist;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;36;J;J;I;J;349362;Pia Ellström;61;K;Nacka;63, Skuru, Lärare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;37;J;J;I;J;349363;Ole Forsberg;64;M;Nacka;64, Mensättra, Skådespelare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;38;J;J;I;J;349364;Bushra Albazi;52;K;Nacka;53, Fisksätra, Barnskötare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;39;J;J;I;J;349365;Jan Ekholm;72;M;Nacka;72, Älta, Pensionär;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;40;J;J;I;J;349366;Birgitta Högberg;71;K;Nacka;70, Älta, fil. dr. Leg Psykolog;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;41;J;J;I;J;349367;Thomas Josefsson;72;M;Nacka;72, Saltsjöbaden, Civilingenjör;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;42;J;J;I;J;349368;Mia Maria Rosenkvist;75;K;Nacka;75, Saltsjöbaden, Docent i pedagogik;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;43;J;J;I;J;349371;Daniel Moore;39;M;Nacka;39, Björknäs, Säljare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;44;J;J;I;J;349370;Suzanne Weigl;49;K;Nacka;49, Skuru, Kommunikatör;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;45;J;J;I;J;349373;Kenneth Andersson;68;M;Nacka;68, Hasseludden, Pensionerad försäkringstjänsteman;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;46;J;J;I;J;349372;Alicia Savbäck Garcia;18;K;Nacka;18, Gustavsvik, Studerande;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;47;J;J;I;J;349375;Daniel Costa;65;M;Nacka;65, Orminge, Systemadministratör;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;48;J;J;I;J;349374;Gunilla Åberg;82;K;Nacka;82, Saltsjökvarn, fd Sjukvårdsdirektör;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;49;J;J;I;J;349377;Staffan Rehnström;51;M;Nacka;51, Järla sjö, Sportchef;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;50;J;J;I;J;349376;Maria Blom;57;K;Nacka;57, Nacka, Kulturarbetare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;51;J;J;I;J;349379;Claes Borell;72;M;Nacka;72, Björknäs, Ingenjör;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;52;J;J;I;J;349378;Vera-Maj Torby;86;K;Nacka;82, Saltsjöbaden, Pensionerad socionom;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;53;J;J;I;J;349381;Alexander Onnela;18;M;Nacka;18, Boo, Studerande;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;54;J;J;I;J;349380;Salma Trosell;51;K;Nacka;51, Fisksätra, Jurist;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;55;J;J;I;J;349383;Yared Kassa;18;M;Nacka;18, Fisksätra, Studerande;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;56;J;J;I;J;349382;Margareta Huzelius;70;K;Nacka;70, Lännersta, Förskollärare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;57;J;J;I;J;349385;Anders Paulsson;55;M;Nacka;55, Fisksätra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;58;J;J;I;J;349384;Eva Hall;56;K;Nacka;56, Hedvigslund, Älta, Butiksmedarbetare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;59;J;J;I;J;349386;Yvonne Wessman;78;K;Nacka;78, Saltsjöbaden, Pensionerad högskoledirektör;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;1;J;J;I;J;86913;Hans Peters;57;M;Nacka;57 år, Kommunalråd, Jarlaberg;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;2;J;J;I;J;86902;Christine Lorne;36;K;Nacka;36 år, Ambulanssjuksköterska, Insjön;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;3;J;J;I;J;86929;Håkan Ekengren;54;M;Nacka;54 år, Företagare, Älta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;4;J;J;I;J;76911;Johan Krogh;26;M;Nacka;26 år, Personalvetare, Saltsjö-Boo;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;5;J;J;I;J;120799;Linnea Strömberg;29;K;Nacka;28 år, Verksamhetschef, Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;6;J;J;I;J;76944;Martin Alejandro Hedman;38;M;Nacka;38 år, Utbildningsadministratör, Orminge;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;7;J;J;I;J;120801;Tomas Hjort;49;M;Nacka;49 år, VD Elektronikindustri, Saltsjöbaden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;8;J;J;I;J;120802;Olga Anikina;22;K;Nacka;22 år, Ekonomistudent, Ekudden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;9;J;J;I;J;86932;Karima Penahi;58;K;Nacka;58 år, Boendestödjare, Jarlaberg;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;10;J;J;I;J;120804;Alexi Strandberg;25;M;Nacka;25 år, IT-tekniker, Älta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;11;J;J;I;J;120805;Björn Strehlenert;78;M;Nacka;78 år, Pensionär, Igelboda;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;12;J;J;I;J;120806;Maria Håård;59;K;Nacka;59 år, Formgivare, Kummelnäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;13;J;J;I;J;86928;Ylva Hedman;29;K;Nacka;29 år, Platsutvecklare, Fisksätra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;14;J;J;I;J;76957;Ingemar Sahlgren;65;M;Nacka;65 år, Skolbusschaufför Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;15;J;J;I;J;120809;Ulla Krogh;55;K;Nacka;55 år, Polis, Saltsjöbaden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;16;J;J;I;J;120810;Kjell Stenudd;51;M;Nacka;50 år, Affärsutvecklare, Kvarnholmen;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;17;J;J;I;J;120811;Mattias Westling;52;M;Nacka;52 år, Supply chain manager, Storängen;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;18;J;J;I;J;120812;Reka Tolnai;20;K;Nacka;20 år, Student, Fisksätra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;19;J;J;I;J;120813;John Lagerstedt;22;M;Nacka;22 år, Studerande, Saltsjö-Boo;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;20;J;J;I;J;86916;Elisabeth Därth;65;K;Nacka;65 år, Pensionär, Älta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;21;J;J;I;J;120815;Kerstin Malmström;58;K;Nacka;58 år, Ekonom, Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;22;J;J;I;J;120816;Carola Strand;53;K;Nacka;53 år, Butikschef, Saltsjö-Boo;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;23;J;J;I;J;120817;Karin Carlesten;37;K;Nacka;37 år, Internationell sekreterare, Insjön;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;24;J;J;I;J;120818;Hassan El Mahdi;39;M;Nacka;39 år, Börsmäklare, Finnboda hamn;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;25;J;J;I;J;120819;Emma Eide;38;K;Nacka;38 år, Kommunikatör, Eriksvik;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;26;J;J;I;J;86927;Hans Lenkert;70;M;Nacka;70 år, Jurist, Skogalund;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;27;J;J;I;J;120821;Petra Schultz;38;K;Nacka;38 år, Ambulanssjuksköterska, Älta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;28;J;J;I;J;120822;Joel Stenberg;39;M;Nacka;39 år, Studerande, Saltsjö-Boo;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;29;J;J;I;J;120823;Ulf Erlingsjö;62;M;Nacka;62 år, Logistiker, Järla Sjö;224000;;J
+K;0182;Nacka;01;Nacka Västra;Centerpartiet;C;4;S;13187;30;J;J;I;J;120824;Hanna Granström;25;K;Nacka;25 år, Ombudsman, Henriksdal;224000;;J
+K;0182;Nacka;01;Nacka Västra;Feministiskt initiativ;FI;532;S;15884;1;N;J;J;I;513855;Jenny Vikman;40;K;Nacka;40, utvecklingsledare;15000;;J
+K;0182;Nacka;01;Nacka Västra;Feministiskt initiativ;FI;532;S;15884;2;N;J;J;I;513856;Melinda Riedel;23;K;Nacka;23, lärarstudent;15000;;J
+K;0182;Nacka;01;Nacka Västra;Feministiskt initiativ;FI;532;S;15884;3;N;J;J;I;513857;Malin Back;39;K;Nacka;39, gymnasielärare;15000;;J
+K;0182;Nacka;01;Nacka Västra;Feministiskt initiativ;FI;532;S;15884;4;N;J;J;I;513858;Maya Rios;37;K;Nacka;37, civilingenjör inom huskonstruktion;15000;;J
+K;0182;Nacka;01;Nacka Västra;Feministiskt initiativ;FI;532;S;15884;5;N;J;J;I;513859;Marie Nordquist-Kastling;59;K;Nacka;59, socialsekreterare;15000;;J
+K;0182;Nacka;01;Nacka Västra;Feministiskt initiativ;FI;532;S;15884;6;N;J;J;I;513860;Anna Schröder;51;K;Nacka;51, personlig assistent;15000;;J
+K;0182;Nacka;01;Nacka Västra;Feministiskt initiativ;FI;532;S;15884;7;N;J;J;I;513861;Maral Fayazian;27;K;Nacka;27, socialantropolog;15000;;J
+K;0182;Nacka;01;Nacka Västra;Feministiskt initiativ;FI;532;S;15884;8;N;J;J;I;513862;Åsa Wickberg;62;K;Nacka;62, specialpedagog;15000;;J
+K;0182;Nacka;01;Nacka Västra;Initiativet;;1374;;;;N;J;J;I;415141;Nordström, Magnus;48;M;Nacka;;0;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;1;J;J;I;J;149742;Karin Teljstedt;40;K;Nacka;40, Civilekonom, Finnberget;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;2;J;J;I;J;149743;Anders Tiger;68;M;Nacka;68, Journalist, Alphyddan;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;3;J;J;I;J;149744;Lydia Liu;48;K;Nacka;48, Företagsentreprenör, Fisksätra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;4;J;J;I;J;149745;Anders Wihk;52;M;Nacka;52, Musiker, Älta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;5;J;J;I;J;149746;Malin Gunnesson;44;K;Nacka;44, Fastighetsstrateg, Duvnäs utskog;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;6;J;J;I;J;149747;Joakim Franklin;33;M;Nacka;33, Samhällsplanerare, Järla sjö;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;7;J;J;I;J;149748;Maryam Herlin;57;K;Nacka;57, Förskolechef, Saltsjö-Boo;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;8;J;J;I;J;149749;Jack Sjölund;23;M;Nacka;23, Studerande, Saltsjö-Boo;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;9;J;J;I;J;149750;Anna Maria Eiderbrant Uhrström;62;K;Nacka;62, Civilekonom, Saltsjö-Duvnäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;10;J;J;I;J;149751;Anders Myrbäck;52;M;Nacka;52, Vd, Lännersta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;11;J;J;I;J;149752;Nana Amirajibi;61;K;Nacka;61, Tolk, Jarlaberg;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;12;J;J;I;J;149753;Martin Gunnesson;43;M;Nacka;43, Idéhistoriker, Duvnäs utskog;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;13;J;J;I;J;149754;Karolina Johansson;47;K;Nacka;47, Lärare, Skuru;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;14;J;J;I;J;149755;Stefan Herczfeld;57;M;Nacka;57, HR-chef, Krokhöjden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;15;J;J;I;J;149756;Karoline Jonasson;37;K;Nacka;37, Paralegal, Ljuskärrsberget;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;16;J;J;I;J;149757;Dennis Smidt;41;M;Nacka;41, Bitr restaurangchef, Finntorp;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;17;J;J;I;J;149758;Monica Sjölund;52;K;Nacka;52, Egen företagare, Saltsjö-Boo;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;18;J;J;I;J;149759;Lukas Uhrström;24;M;Nacka;24, Strategikonsult, Saltsjö-Duvnäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;19;J;J;I;J;149760;Karin Avelin Romin;55;K;Nacka;55, Konstvetare, Kvarnholmen;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;20;J;J;I;J;149761;Ibrahim Habboush;37;M;Nacka;37, Lärare, Lännersta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;21;J;J;I;J;149762;Mehretab Tesfai;26;M;Nacka;26, Fritidsledare, Fisksätra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;22;J;J;I;J;149763;Rein Raukas;78;M;Nacka;78, Ekonom, Saltsjöbaden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;23;J;J;I;J;149764;Inger Davidson;73;K;Nacka;73, Fd. riksdagsledamot, Birka;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;24;J;J;I;J;149765;Ulf G Johansson;70;M;Nacka;70, Nämndeman, Finntorp;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;25;J;J;I;J;149766;Birgitta Husén;75;K;Nacka;75, Ekonom, Ljuskärrsberget;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;26;J;J;I;J;149767;Stefan Kinert;67;M;Nacka;67, Säkerhetskonsult, Tollare;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;27;J;J;I;J;149768;Isak Rizell;22;M;Nacka;22, Musiker, Orminge;224000;;J
+K;0182;Nacka;01;Nacka Västra;Kristdemokraterna;KD;68;S;13434;28;J;J;I;J;149769;Ulf Swenzén;83;M;Nacka;83, Småföretagare, Saltsjöbaden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;1;J;J;I;J;13872;Gunilla Grudevall-Steen;56;K;Nacka;56, Lärare, Saltsjö-Boo;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;2;J;J;I;J;13873;Monica Brohede Tellström;46;K;Nacka;46, Personaladministratör, Skuru;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;3;J;J;I;J;13874;Martin Sääf;61;M;Nacka;61, Projektledare, Tollare;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;4;J;J;I;J;13875;Louise Granath;28;K;Nacka;28, Civilingenjör, Sickla;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;5;J;J;I;J;13876;Mats Granath;60;M;Nacka;60, Verksamhetschef, Älta;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;6;J;J;I;J;13877;Lena Linnerborg;53;K;Nacka;53, Utredare, Orminge;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;7;J;J;I;J;13878;Anna-Karin Boréus;53;K;Nacka;53, Systemutvecklare, Ektorp;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;8;J;J;I;J;13879;Johan Kjellman;59;M;Nacka;59, Egenföretagare, Saltsjö-Boo;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;9;J;J;I;J;13880;Karin Bünger;41;K;Nacka;41, Produktchef, Saltsjöbaden;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;10;J;J;I;J;13881;Jonas Conradsson;43;M;Nacka;43, Advokat, Saltsjöbaden;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;11;J;J;I;J;13883;Helena Håkansson;56;K;Nacka;56, Agronom, Skuru;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;12;J;J;I;J;13884;Taher Ebrahimzada;28;M;Lerum;28, Studerande, Fisksätra;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;13;J;J;I;J;13885;Sofia Hanner;34;K;Nacka;34, Projektchef, Skogalund;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;14;J;J;I;J;13886;Johan Norman;37;M;Nacka;36, Office manager, Orminge;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;15;J;J;I;J;13887;Anna Nörby Gennerud;44;K;Nacka;43, Kommunikationskonsult, Saltsjö-Duvnäs;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;16;J;J;I;J;13888;Petter Strömberg;29;M;Nacka;29, Jobbcoach, Björknäs;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;17;J;J;I;J;13889;Rona Aksak;24;K;Nacka;24, Statsvetare, Kvarnholmen;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;18;J;J;I;J;13890;Ken McArthur;56;M;Nacka;56, Solution manager, Järla sjö;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;19;J;J;I;J;13891;Lotta Fryklund;59;K;Nacka;59, Verksamhetschef, Lännersta;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;20;J;J;I;J;13892;Göran Fredriksson;74;M;Nacka;74, Kommunikationskonsult, Storängen;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;21;J;J;I;J;13893;Jennie Knutsson;37;K;Nacka;37, VD och PR-konsult, Älta;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;22;J;J;I;J;13894;Peter Stare;81;M;Nacka;81, Jur.kand, Finntorp;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;23;J;J;I;J;13895;Gertrud Lindgren;79;K;Nacka;79, Adjunkt, Skogsö;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;24;J;J;I;J;13896;Bo Hjertstrand;70;M;Nacka;70, Ingenjör, Sickla;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;25;J;J;I;J;13897;Monia Sturén;72;K;Nacka;72, Jur.kand, Sickla;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;26;J;J;I;J;13898;Lennart Philip;74;M;Nacka;74, Ekonom, Saltsjöbaden;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;27;J;J;I;J;13899;Lilian Sandberg;70;K;Nacka;70, Yrkeslärare, Saltsjö-Boo;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;28;J;J;I;J;13900;Joakim Olofsson;51;M;Nacka;51, Konsult, Jarlaberg;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;29;J;J;I;J;13901;Kåre Jansson;65;M;Nacka;65, Utredare, Sickla strand;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;30;J;J;I;J;13902;Birgitta Westman;73;K;Nacka;73, Revisor, Kolarängen;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;31;J;J;I;J;13903;Kjell Tormod;75;M;Nacka;75, Lärare, Tollare;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;32;J;J;I;J;13904;Mikael Sandberg;76;M;Nacka;76, Arkitekt SAR/MSA, Finntorp;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;33;J;J;I;J;13905;Annelie Löfqvist;67;K;Nacka;67, Socionom, Saltängen;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;34;J;J;I;J;13906;Bjarne Hanson;74;M;Nacka;74, Apotekare, Nysätra;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;35;J;J;I;J;13907;Kjell Åkerlund;74;M;Nacka;74, Författare, Saltsjö-Boo;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;36;J;J;I;J;13908;Maj-Britt Stenfelt;85;K;Nacka;85, Senior, Saltsjö-Boo;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;37;J;J;I;J;13909;Jonas Skiöld;46;M;Nacka;46, Handläggare, Rensätra;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;38;J;J;I;J;13910;Niki Westerberg;50;K;Nacka;50, Kommunikationschef, Lännersta;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;39;J;J;I;J;13911;Sten Grack;76;M;Nacka;76, Forskare, Älta;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;40;J;J;I;J;13912;Björn Carheden;74;M;Nacka;74, Lärare, Finntorp;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;41;J;J;I;J;13913;Ingemar Morsten;77;M;Nacka;77, Kreditchef, Kolarängen;150000;;J
+K;0182;Nacka;01;Nacka Västra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;42;J;J;I;J;13914;Anders Österlund;82;M;Nacka;82, Ingenjör, Lillängen;150000;;J
+K;0182;Nacka;01;Nacka Västra;Medborgerlig Samling;MED;1296;S;13263;1;J;J;I;J;125942;Tobias Ekelin;51;M;Nacka;51, Civilingenjör, Saltsjöbaden;11000;;J
+K;0182;Nacka;01;Nacka Västra;Medborgerlig Samling;MED;1296;S;13263;2;J;J;I;J;125943;Carl-Axel Stein;65;M;Nacka;65, Konsult & Förändringsledare, Saltsjö-Boo;11000;;J
+K;0182;Nacka;01;Nacka Västra;Medborgerlig Samling;MED;1296;S;13263;3;J;J;I;J;125944;Lena Widman;50;K;Nacka;50, Senior Associate/jur. kand., Saltsjö-Boo;11000;;J
+K;0182;Nacka;01;Nacka Västra;Medborgerlig Samling;MED;1296;S;13263;4;J;J;I;J;125945;Claes Djurfeldt;62;M;Nacka;62, Polisinspektör, Saltsjöbaden;11000;;J
+K;0182;Nacka;01;Nacka Västra;Medborgerlig Samling;MED;1296;S;13263;5;J;J;I;J;125946;Carl Johan Rundquist;63;M;Nacka;63, Jur. kand., Saltsjöbaden;11000;;J
+K;0182;Nacka;01;Nacka Västra;Medborgerlig Samling;MED;1296;S;13263;6;J;J;I;J;125947;Carl Sidenvall;44;M;Nacka;44, Civilingenjör, Nacka;11000;;J
+K;0182;Nacka;01;Nacka Västra;Medborgerlig Samling;MED;1296;S;13263;7;J;J;I;J;125948;Thomas Hultman;48;M;Nacka;48, Konsult-Elkraftingenjör, Saltsjö-Boo;11000;;J
+K;0182;Nacka;01;Nacka Västra;Medborgerlig Samling;MED;1296;S;13263;8;J;J;I;J;125949;Daniel Claesson;46;M;Nacka;46, Kommunikationschef, Saltsjö-Boo;11000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;1;N;J;J;I;247571;Sidney Holm;59;M;Nacka;Småföretagare, 59 år, Sickla;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;2;N;J;J;I;247572;Lisskulla Zayane;54;K;Nacka;Skötare, 54 år, Älta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;3;N;J;J;I;247573;Ninni Lindberg;61;K;Nacka;Gymnasielärare, 61 år, Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;4;N;J;J;I;247574;Pascal Mafall Fall;51;M;Nacka;Språklärare, 51 år, Orminge;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;5;N;J;J;I;247575;Louise Ollivier;46;K;Nacka;Businesspartner, 46 år, Orminge;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;6;N;J;J;I;247576;Göran Börjesson;64;M;Nacka;Egenföretagare, 64 år, Rensättra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;7;N;J;J;I;247577;Desha Svenneborg;35;K;Nacka;Jur. stud, 34 år, Finnberget;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;8;N;J;J;I;247578;Per Chrisander;73;M;Nacka;Socionom, 73 år, Eknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;9;N;J;J;I;247579;Erik Nordlund;18;M;Nacka;Studerande, 18 år, Lännersta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;10;N;J;J;I;247580;Nicole Goufas;33;K;Nacka;Pressekreterare, 33 år, Fisksätra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;11;N;J;J;I;247581;David Lukose;42;M;Nacka;Trafikplanerare, 41 år, Henriksdalsberget;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;12;N;J;J;I;247582;Åsa Marnell;46;K;Nacka;Museiintendent, 46 år, Lännersta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;13;N;J;J;I;247583;Klas Eriksson;82;M;Nacka;Senior, 82 år, Jarlaberg;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;14;N;J;J;I;247584;Anne Magnusson;62;K;Nacka;Förskollärare och socionom, 62 år, Sickla;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;15;N;J;J;I;247585;Henrik Hermansson;33;M;Nacka;Analytiker, 33 år, Kvarnholmen;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;16;N;J;J;I;247586;Brita Ström;67;K;Nacka;Utbildningskonsult, 67 år, Kummelnäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;17;N;J;J;I;247587;Mats Marnell;49;M;Nacka;Arkitekt, 49 år, Lännersta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;18;N;J;J;I;247588;Nina Piroth;35;K;Nacka;Projektledare, 35 år, Sickla;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;19;N;J;J;I;247589;Roger Bydler;75;M;Nacka;Egenföretagare, 75 år, Finnboda;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;20;N;J;J;I;247590;Pernilla Fexdal;48;K;Nacka;Departementssekreterare, 48 år, Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;21;N;J;J;I;247591;Hampus Skoug;29;M;Nacka;Ingenjör, 29 år, Finntorp;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;22;N;J;J;I;247592;Rebecka Bodemar;47;K;Nacka;SFI-lärare, 47 år, Fisksätra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;23;N;J;J;I;247593;Roland von Malmborg;73;M;Nacka;Världsmedborgare och trubadur, 73 år, Saltsjöbaden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;24;N;J;J;I;247594;Filippa Holm;27;K;Nacka;Studerande, 27 år, Sickla;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;25;N;J;N;I;247595;[inte lämnat samtycke];;;;;224000;;N
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;26;N;J;J;I;247596;Ulla von Strokirch;56;K;Nacka;Boendestödjare, 56 år, Kummelnäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;27;N;J;J;I;247597;Henrik Sundström;71;M;Nacka;Ekonom, 71 år, Vikingshill;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;28;N;J;J;I;247598;Liselotte van den Tempel;73;K;Nacka;Ingenjör, 73 år, Älta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;29;N;J;J;I;247599;Eva Hellung Strohl;86;K;Nacka;f d ombudsman, 86 år, Duvnäs Utskog;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;30;N;J;J;I;348877;Cecilia Gren;55;K;Nacka;Förskolepersonal och konstnär, 55 år, Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;31;N;J;J;I;247600;Elisabeth Karlsson;66;K;Nacka;Jurist, 66 år, Sickla;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;14218;32;N;J;J;I;247601;Eva Royen;71;K;Nacka;Konsult, 71 år, Finnboda;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;1;N;J;J;I;247571;Sidney Holm;59;M;Nacka;Småföretagare, 59 år, Sickla;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;2;N;J;J;I;247572;Lisskulla Zayane;54;K;Nacka;Skötare, 54 år, Älta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;3;N;J;J;I;247573;Ninni Lindberg;61;K;Nacka;Gymnasielärare, 61 år, Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;4;N;J;J;I;247574;Pascal Mafall Fall;51;M;Nacka;Språklärare, 51 år, Orminge;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;5;N;J;J;I;247575;Louise Ollivier;46;K;Nacka;Businesspartner, 46 år, Orminge;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;6;N;J;J;I;247576;Göran Börjesson;64;M;Nacka;Egenföretagare, 64 år, Rensättra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;7;N;J;J;I;247577;Desha Svenneborg;35;K;Nacka;Jurist, 35 år, Finnberget;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;8;N;J;J;I;247578;Per Chrisander;73;M;Nacka;Socionom, 73 år, Eknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;9;N;J;J;I;247579;Erik Nordlund;18;M;Nacka;Studerande, 18 år, Lännersta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;10;N;J;J;I;247580;Nicole Goufas;33;K;Nacka;Pressekreterare, 33 år, Fisksätra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;11;N;J;J;I;247581;David Lukose;42;M;Nacka;Trafikplanerare, 41 år, Henriksdalsberget;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;12;N;J;J;I;247582;Åsa Marnell;46;K;Nacka;Museiintendent, 46 år, Lännersta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;13;N;J;J;I;247583;Klas Eriksson;82;M;Nacka;Senior, 82 år, Jarlaberg;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;14;N;J;J;I;247584;Anne Magnusson;62;K;Nacka;Förskollärare och socionom, 62 år, Sickla;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;15;N;J;J;I;247585;Henrik Hermansson;33;M;Nacka;Analytiker, 33 år, Kvarnholmen;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;16;N;J;J;I;247586;Brita Ström;67;K;Nacka;Utbildningskonsult, 67 år, Kummelnäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;17;N;J;J;I;247587;Mats Marnell;49;M;Nacka;Arkitekt, 49 år, Lännersta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;18;N;J;J;I;247588;Nina Piroth;35;K;Nacka;Projektledare, 35 år, Sickla;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;19;N;J;J;I;247589;Roger Bydler;75;M;Nacka;Egenföretagare, 75 år, Finnboda;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;20;N;J;J;I;247590;Pernilla Fexdal;48;K;Nacka;Departementssekreterare, 48 år, Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;21;N;J;J;I;247591;Hampus Skoug;29;M;Nacka;Ingenjör, 29 år, Finntorp;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;22;N;J;J;I;247592;Rebecka Bodemar;47;K;Nacka;SFI-lärare, 47 år, Fisksätra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;23;N;J;J;I;247593;Roland von Malmborg;73;M;Nacka;Världsmedborgare och trubadur, 73 år, Saltsjöbaden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;24;N;J;J;I;247594;Filippa Holm;27;K;Nacka;Studerande, 27 år, Sickla;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;25;N;J;J;I;247596;Ulla von Strokirch;56;K;Nacka;Boendestödjare, 56 år, Kummelnäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;26;N;J;J;I;247597;Henrik Sundström;71;M;Nacka;Ekonom, 71 år, Vikingshill;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;27;N;J;J;I;247598;Liselotte van den Tempel;73;K;Nacka;Ingenjör, 73 år, Älta;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;28;N;J;J;I;247599;Eva Hellung Strohl;86;K;Nacka;f d ombudsman, 86 år, Duvnäs Utskog;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;29;N;J;J;I;348877;Cecilia Gren;55;K;Nacka;Förskolepersonal och konstnär, 55 år, Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;30;N;J;J;I;247600;Elisabeth Karlsson;66;K;Nacka;Jurist, 66 år, Sickla;224000;;J
+K;0182;Nacka;01;Nacka Västra;Miljöpartiet de gröna;MP;55;S;15696;31;N;J;J;I;247601;Eva Royen;71;K;Nacka;Konsult, 71 år, Finnboda;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;1;J;J;I;J;18301;Mats Gerdau;54;M;Nacka;54, Kolarängen;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;2;J;J;I;J;18302;Cathrin Bergenstråhle;58;K;Nacka;58, Rensättra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;3;J;J;I;J;18303;Tobias Nässén;45;M;Nacka;45, Duvnäs Utskog;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;4;J;J;I;J;18304;Sofia Fölster;26;K;Nacka;26, Alphyddan;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;5;J;J;I;J;12799;Helene Skantze;61;K;Nacka;61, Finnboda;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;6;J;J;I;J;12794;Filip Wiljander;24;M;Nacka;24, Skuru;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;7;J;J;I;J;18307;Eva Öhbom Ekdahl;68;K;Nacka;68, Baggensudden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;8;J;J;I;J;18308;Bo Bergkvist;67;M;Nacka;67, Hedvigslund;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;9;J;J;I;J;18309;Richard Wendt;48;M;Nacka;48, Solsidan;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;10;J;J;I;J;18310;Oliver Rykatkin;23;M;Nacka;23, Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;11;J;J;I;J;18311;Eivor Örenmark;56;K;Nacka;56, Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;12;J;J;I;J;18312;Magnus Sjöqvist;60;M;Nacka;60, Skogsö;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;13;J;J;I;J;18313;Anna Kjellin Flory;58;K;Nacka;58, Solsidan;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;14;J;J;I;J;18314;Peter Zethraeus;56;M;Nacka;56, Kummelnäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;15;J;J;I;J;18315;Johan Hiller;69;M;Nacka;69, Fisksätra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;16;J;J;I;J;18316;Carl Albinsson;28;M;Nacka;28, Finnboda;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;17;J;J;I;J;18317;Lars Stenholm;67;M;Nacka;67, Jarlaberg;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;18;J;J;I;J;18318;Axel Krottler;24;M;Nacka;24, Skuru;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;19;J;J;I;J;18319;Andreas Brännström;36;M;Nacka;36, Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;20;J;J;I;J;18320;Lotta Riedel;67;K;Nacka;67, Velamsund;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;21;J;J;I;J;18321;Lena Gatenborg Mohns;44;K;Nacka;44, Rensättra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;22;J;J;I;J;18322;Annelie Stiglund;34;K;Nacka;34, Finnboda;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;23;J;J;I;J;12792;Richard Herrey;54;M;Nacka;54, Saltsjöbaden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;24;J;J;I;J;18324;Asta Groth;20;K;Nacka;20, Neglinge;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;25;J;J;I;J;18325;Elisabet Engström;72;K;Nacka;72, Igelboda;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;26;J;J;I;J;18326;Anders Bruhn;58;M;Nacka;58, Krokhöjden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;27;J;J;I;J;18327;Annika Jung;69;K;Nacka;69, Fannydal;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;28;J;J;I;J;18350;Vilma Mori Aguilar;60;K;Nacka;60, Stensö;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;29;J;J;I;J;18328;Dominique Faymonville;42;M;Nacka;42, Rösunda;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;30;J;J;I;J;18329;Per Norling;55;M;Nacka;55, Jarlaberg;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;31;J;J;I;J;18330;Angela Berglund;68;K;Nacka;68, Ekängen;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;32;J;J;I;J;18331;Noa Samenius;18;M;Nacka;18, Storängen;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;33;J;J;I;J;18332;Christina Rinman;44;K;Nacka;44, Igelboda;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;34;J;J;I;J;18333;Jan Bjurfors;64;M;Nacka;64, Igelboda;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;35;J;J;I;J;18334;Petter Larsson;35;M;Nacka;35, Kvarnholmen;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;36;J;J;I;J;18335;Cathrine Swenzén;69;K;Nacka;69, Saltsjöbaden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;37;J;J;I;J;18336;Monica Segerman;79;K;Nacka;79, Kolarängen;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;38;J;J;I;J;18337;Kristiina Rettel;41;K;Nacka;41, Fisksätra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;39;J;J;I;J;18338;Claudio van der Touw;22;M;Nacka;22, Ekudden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;40;J;J;I;J;18339;Anna Karin Bergholm Liljeroth;61;K;Nacka;61, Neglinge;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;41;J;J;I;J;18354;Göran Frisk;75;M;Nacka;75, Stensö;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;42;J;J;I;J;18340;Christof Borgström;57;M;Nacka;57, Kolarängen;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;43;J;J;I;J;18341;Ulrika Engellau;34;K;Nacka;34, Rensättra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;44;J;J;I;J;18342;Eric Lindahl;46;M;Nacka;46, Stensö;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;45;J;J;I;J;18343;Gun Lingbert;73;K;Nacka;73, Sickla;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;46;J;J;I;J;18344;Margareta Hjelmstad;74;K;Nacka;74, Stensö;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;47;J;J;I;J;18345;Linda Olsson;78;K;Nacka;78, Skuru;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;48;J;J;I;J;18346;Lennart Örenmark;59;M;Nacka;59, Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;49;J;J;I;J;18347;Helena Söderqvist;51;K;Nacka;51, Fisksätra;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;50;J;J;I;J;18348;Lars Berglund;68;M;Nacka;68, Solsidan;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;51;J;J;I;J;18351;Moa Bern;78;K;Nacka;78, Rösunda;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;52;J;J;I;J;18352;Nicole Bistoletti;43;K;Nacka;43, Saltsjöbaden;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;53;J;J;I;J;18353;Gunilla Elmberg;74;K;Nacka;74, Eknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Moderaterna;M;1;S;12003;54;J;J;I;J;18349;Ingmar Berthelsen;82;M;Nacka;82, Björknäs;224000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;1;J;J;I;J;364665;Christina Ståldal;70;K;Nacka;F.d. bibliotekschef, gruppledare, plan-, miljö-, o. demokratifrågor;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;2;J;J;I;J;364666;Mikael Carlsson;41;M;Nacka;Förskolechef, barn- o. utbildningsfrågor;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;3;J;J;I;J;364667;Lina Olsson;45;K;Nacka;Civilingenjör, egen företagare, miljö-, natur-, o. trafikfrågor;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;4;J;J;I;J;364668;Efson Goitom;31;M;Nacka;Bussförare;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;5;J;J;I;J;364669;Yusie Rundkvist Chou;45;K;Nacka;Psykolog, översättare, ersättare i Arbets- o. företagsnämnden;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;6;J;J;I;J;364670;Bosse Ståldal;70;M;Nacka;Samhällsentreprenör, kandidat till Fritids- o. Kulturnämnden;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;7;J;J;I;J;364671;Shahin Malak;63;K;Nacka;Intresserad av sociala -, miljö- o. kulturfrågor;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;8;J;J;I;J;364672;Lamin Jatta Modigh;22;M;Nacka;22 år Fisksätra;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;9;J;J;I;J;364673;Kristina Granlund;54;K;Nacka;Civilekonom, researcher, natur- o. miljöfrågor;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;10;J;J;I;J;364674;Torgny Domeij;70;M;Nacka;Psykolog, intressen Nackareservatet, parker, kollektivtrafik, cykelbanor, kommunikationer;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;11;J;J;I;J;364675;Carin Larsson;63;K;Nacka;Miljö, natur o. växter;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;12;J;J;I;J;364676;Ann Sundberg;53;K;Nacka;Arkivarie, intressen kult.historiska miljöer, bevarande grönområden, hyresrätter till rimliga hyror;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;13;J;J;I;J;364677;Margareta Jonsson;71;K;Nacka;Pensionär, livs- o. samhällsfrågor;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;14;J;J;I;J;364678;Leidy Ximena Botero Zuluaga;36;K;Nacka;Barn-, studerandefrågor, äldreomsorg;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;15;J;J;I;J;364679;Henrik Wagenius;48;M;Nacka;Konstvetare o. jurist, aktiv inom finans;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;16;J;J;I;J;364680;Mariama Sonko;40;K;Nacka;Undersköterska, aktiv inom Löparakademin;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;17;J;J;I;J;364681;Hans Larsson;69;M;Nacka;OVK besiktningsman;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;18;J;J;I;J;364682;Ingela Walck;68;K;Nacka;Skribent;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;19;J;J;I;J;364683;Kennet Balk;59;M;Nacka;Natur-, miljö- o. vägfrågor;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;20;J;J;I;J;364684;Ulla Anserius;79;K;Nacka;Pensionär;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;21;J;J;I;J;364685;Martina Jordan;50;K;Nacka;Musiker, koreograf;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;22;J;J;I;J;364686;Binta Sonko;42;K;Nacka;specialistundersköterska, samhällsfrågor;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;23;J;J;I;J;364687;Danny Sundberg;33;M;Nacka;Yrkeschaufför, intressen bevarande av grönområden o. kulturhistoriska miljöer, veteranfordon;160000;;J
+K;0182;Nacka;01;Nacka Västra;Nackalistan;NL;543;S;14915;24;J;J;I;J;364688;Lars Nieckels;75;M;Nacka;Fil.dr. intresseområden långsiktigt hållbar utveckling, energibesparing, kommunala VA-problem;160000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;1;J;J;I;N;67091;[inte lämnat förklaring];;;;;225000;;N
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;2;J;J;I;J;67092;Åsa Nyberg;64;K;Nacka;64, sjuksköterska, Nacka;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;3;J;J;I;J;67093;Esa Örmä;66;M;Nacka;66, projektledare, Fisksätra;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;4;J;J;I;J;67094;Stephan Andersson;60;M;Nacka;60, VVS-ingenjör, Saltsjö-Boo;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;5;J;J;I;J;67095;Leonid Yurkovskiy;22;M;Nacka;22, politisk sekreterare, Saltsjö-Boo;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;6;J;J;I;J;67096;David Hyde;30;M;Nacka;30, säljare, Nacka;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;7;J;J;I;J;67097;Louise Wallenblad;27;K;Nacka;27, operasångerska, Nacka;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;8;J;J;I;J;67098;Göran Gaefke;62;M;Nacka;62, taxichaufför, Nacka;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;9;J;J;I;J;67099;Pernilla Axelsson;50;K;Nacka;50, ekonomiassistent, Nacka;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;10;J;J;I;J;67100;Therese Elg;57;K;Nacka;56, pensionär, Saltsjö-Boo;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;11;J;J;I;J;67101;Åke Söderman;58;M;Nacka;58, konsult, Saltsjö-Boo;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;12;J;J;I;J;67102;Tommy Sjöström;44;M;Nacka;44, gruppledare, Saltsjöbaden;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;13;J;J;I;J;67103;Mari D'Orsay;54;K;Nacka;54, näringsrådgivare, Nacka;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;14;J;J;I;J;67104;Christina Wiltman;73;K;Nacka;73, pensionär, Nacka;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;15;J;J;I;J;67105;Jörgen Karlsson;51;M;Nacka;51, lackerare, Älta;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;16;J;J;I;J;67106;Jan Nordberg;64;M;Nacka;64, pensionär, Nacka;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;17;J;J;I;J;67107;Bror Bergquist;66;M;Nacka;66, pensionerad företagare, Saltsjö-Boo;225000;;J
+K;0182;Nacka;01;Nacka Västra;Sverigedemokraterna;SD;110;S;12704;18;J;J;I;J;67108;Nina Nilsson;67;K;Nacka;67, f.d. civilekonom, Saltsjö-Boo;225000;;J
+K;0182;Nacka;01;Nacka Västra;Vi Socialkonservativa;ViS;1349;;;;N;J;J;I;11827;Abrahamsson, Michael;57;M;Nacka;;0;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;1;N;J;J;I;196627;Amanda Sandholm;31;K;Nacka;31 år, skötare i psykiatrin, Orminge;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;2;N;J;J;I;196628;Borna Rowshani;37;M;Nacka;36 år, säljare, Neglinge;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;3;N;J;J;I;196629;Salka Hallström Bornold;48;K;Nacka;48 år, journalist, Saltsjö-Boo;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;4;N;J;J;I;196630;Ramzi Ben Youssef;29;M;Nacka;30 år, studerande, Ektorp;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;5;N;J;J;I;196631;Oscar Dahlström;25;M;Nacka;25 år, datortekniker, Tollare;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;6;N;J;J;I;196632;Lisa Rasmussen;53;K;Nacka;53 år, politisk sekreterare, Orminge;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;7;N;J;J;I;315835;Rezan Labady;31;K;Nacka;30 år, studerande, Fisksätra;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;8;N;J;J;I;196633;Fredrik Holmkvist;47;M;Nacka;47 år, formgivare, Tallbacken;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;9;N;J;J;I;196634;Tomas Ottosson;58;M;Nacka;58 år, familjebehandlare, Älta;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;10;N;J;J;I;196635;Birgit Hansson;71;K;Nacka;71 år, senior rådgivare, Orminge;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;11;N;J;J;I;196636;Rolf Wasteson;68;M;Nacka;68 år, IT-arkitekt, Finntorp;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;12;N;J;J;I;196637;Malin Ehnebuske;37;K;Nacka;37 år, arkivarie, Finntorp;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;13;N;J;J;I;196638;Ulf Fogelström;42;M;Nacka;41 år, socialsekreterare, Ektorp;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;14;N;J;J;I;196639;Klara Krantz;32;K;Nacka;32 år, författare, Finntorp;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;15;N;J;J;I;196640;Fredrik Lundkvist;46;M;Nacka;46 år, ST-läkare, Saltsjö-Boo;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;16;N;J;J;I;218985;Ida Gabrielsson;36;K;Nacka;36 år, studerande, Jarlaberg;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;17;N;J;J;I;332354;Jamil Jumaa;73;M;Nacka;72 år, pensionär, Älta;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;18;N;J;J;I;196641;Agneta Johansson;65;K;Nacka;65 år, lärare, Jarlaberg;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;19;N;J;J;I;196642;Hans Wigren;77;M;Nacka;77 år, skådespelare, Jarlaberg;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;20;N;J;J;I;196643;Hediye Güzel;40;K;Nacka;40 år, presschef, Björknäs;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;21;N;J;J;I;196644;Ronald Eriksson;62;M;Nacka;62 år, byggmästare, Lännersta;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;22;N;J;J;I;196645;Åsa Rombin;52;K;Nacka;51 år, sjukpensionär, Hasseludden;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;23;N;J;J;I;332360;Kalle Larsson;48;M;Nacka;48 år, kanslichef, Jarlaberg;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;24;N;J;J;I;196646;Ragnar Schön;34;M;Nacka;34 år, civilingenjör, Orminge;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;25;N;J;J;I;196647;Cecilia Malmgren;71;K;Nacka;70 år, folkbildare, Tallbacken;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;26;N;J;J;I;196648;Staffan Hjalmarsson;38;M;Nacka;38 år, verksamhetsansvarig, Finntorp;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;27;N;J;J;I;196649;Julia Kjällquist;29;K;Nacka;28 år, verksamhetsutvecklare, Tallbacken;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;28;N;J;J;I;196650;Birgitta Rasmussen;77;K;Nacka;76 år, pensionär, Boo Gård;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;29;N;J;J;I;196651;Dan Johansson;65;M;Nacka;65 år, studerande, Talludden;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;30;N;J;J;I;196652;Gunnar Friberger;62;M;Nacka;62 år, politisk sekreterare, Orminge;75000;;J
+K;0182;Nacka;01;Nacka Västra;Vänsterpartiet;V;5;S;13814;31;N;J;J;I;196653;Åsa Mattsson;59;K;Nacka;59 år, pressekreterare, Skvaltan;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;1;J;J;I;J;97078;Khashayar Farmanbar;41;M;Nacka;41, Saltsjö Duvnäs, Oppositionsråd, Företagsledare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;2;J;J;I;J;97087;Maria Raner;41;K;Nacka;41, Boo, Arbetsförmedlare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;3;J;J;I;J;349329;Espen Bjordal Tollare;42;M;Nacka;42, Socionom, Lärare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;4;J;J;I;J;349330;Gunnel Nyman Gräff;58;K;Nacka;58, Kummelnäs, Ombudsman;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;5;J;J;I;J;97092;Martin Hellströmer;28;M;Nacka;28, Finntorp, Civilekonom;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;6;J;J;I;J;349332;Majvie Swärd;73;K;Nacka;73, Orminge, Pensionär, fd. arbetsförmedlare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;7;J;J;I;J;349333;Mattias Qvarsell;39;M;Nacka;39, Henriksdalsberget, Ombudsman;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;8;J;J;I;J;349334;Helena Westerling;56;K;Nacka;56, Finnberget, Organisationssekreterare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;9;J;J;I;J;349335;Carl-Magnus Grenninger;75;M;Nacka;75, Henriksborg, Journalist;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;10;J;J;I;J;349336;Alva Dahn;22;K;Nacka;23, Fisksätra, Studerande, Ordförande;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;11;J;J;I;J;349337;Andreas Falk;42;M;Nacka;42, Finntorp, Tjänsteman;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;12;J;J;I;J;97083;Ella Tegsten;27;K;Nacka;27, Sickla, Hemtjänstassistent;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;13;J;J;I;J;349339;Erik Svanfeldt;54;M;Nacka;54, Saltsjöbaden, Tjänsteman;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;14;J;J;I;J;349340;Emelie Norberg Friberg;39;K;Nacka;39, Saltsjö Duvnäs, Marknadschef;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;15;J;J;I;J;97084;Viktor Ellström;28;M;Nacka;28, Nacka, Partiarbetare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;16;J;J;I;J;349342;Hadia Mian;28;K;Nacka;27, Fisksätra, Studerande, Projektledare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;17;J;J;I;J;349343;Andreas Andersson;22;M;Nacka;22, Ektorp, Studerande;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;18;J;J;I;J;349344;Zakia Mirza;54;K;Nacka;54, Fisksätra, Lärare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;19;J;J;I;J;349345;Björn Andersson;51;M;Nacka;51, Älta, Lärare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;20;J;J;I;J;349346;Lena Rönnerstam;74;K;Nacka;74, Fisksätra, Tandläkare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;21;J;J;I;J;349347;Svanthe Hansson;64;M;Nacka;64, Kvarnholmen, Egen företagare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;22;J;J;I;J;71211;Maja Fjaestad;41;K;Nacka;41, Järla sjö, Teknisk Doktor;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;23;J;J;I;J;349349;Henric Unosson;44;M;Nacka;44, Sickla, Konsult;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;24;J;J;I;J;349350;Johanna Kvist;30;K;Stockholm;30, Saltängen, Politisk sekreterare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;25;J;J;I;J;349351;Godwyll Osei-Amoako;30;M;Nacka;30, Henriksdalsberget, Ombudsman;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;26;J;J;I;J;349352;Lena Gonäs;72;K;Nacka;72, Älta, Professor;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;27;J;J;I;J;349353;Martin Rundkvist;46;M;Nacka;46, Fisksätra, Arkeolog;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;28;J;J;I;J;349354;Hina Khan;20;K;Nacka;20, Boo, Studerande;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;29;J;J;I;J;349355;Roger Hällhag;55;M;Nacka;56, Skuru, Civilekonom;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;30;J;J;I;J;70624;Åsa Norrman Grenninger;67;K;Nacka;67, Henriksborg, fd Kanslichef;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;31;J;J;I;J;349357;Magnus Olsson;47;M;Nacka;47, Saltsjö-Duvnäs, Lärare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;32;J;J;I;J;349358;Lovisa Emanuelsson;28;K;Nacka;28, Finntorp, Studerande;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;33;J;J;I;J;349359;Håkan Ahtari Håkansson;69;M;Nacka;69, Älta, fd Personalchef och Äldreomsorgschef;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;34;J;J;I;J;97079;Maria Kjellsdotter Rydinger;52;K;Nacka;52, Skogalund, Präst;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;35;J;J;I;J;349361;Noor Rehman Sherzad;37;M;Nacka;36, Henriksdalsberget, Journalist;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;36;J;J;I;J;349362;Pia Ellström;61;K;Nacka;63, Skuru, Lärare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;37;J;J;I;J;349363;Ole Forsberg;64;M;Nacka;64, Mensättra, Skådespelare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;38;J;J;I;J;349364;Bushra Albazi;52;K;Nacka;53, Fisksätra, Barnskötare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;39;J;J;I;J;349365;Jan Ekholm;72;M;Nacka;72, Älta, Pensionär;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;40;J;J;I;J;349366;Birgitta Högberg;71;K;Nacka;70, Älta, fil. dr. Leg Psykolog;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;41;J;J;I;J;349367;Thomas Josefsson;72;M;Nacka;72, Saltsjöbaden, Civilingenjör;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;42;J;J;I;J;349368;Mia Maria Rosenkvist;75;K;Nacka;75, Saltsjöbaden, Docent i pedagogik;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;43;J;J;I;J;349371;Daniel Moore;39;M;Nacka;39, Björknäs, Säljare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;44;J;J;I;J;349370;Suzanne Weigl;49;K;Nacka;49, Skuru, Kommunikatör;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;45;J;J;I;J;349373;Kenneth Andersson;68;M;Nacka;68, Hasseludden, Pensionerad försäkringstjänsteman;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;46;J;J;I;J;349372;Alicia Savbäck Garcia;18;K;Nacka;18, Gustavsvik, Studerande;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;47;J;J;I;J;349375;Daniel Costa;65;M;Nacka;65, Orminge, Systemadministratör;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;48;J;J;I;J;349374;Gunilla Åberg;82;K;Nacka;82, Saltsjökvarn, fd Sjukvårdsdirektör;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;49;J;J;I;J;349377;Staffan Rehnström;51;M;Nacka;51, Järla sjö, Sportchef;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;50;J;J;I;J;349376;Maria Blom;57;K;Nacka;57, Nacka, Kulturarbetare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;51;J;J;I;J;349379;Claes Borell;72;M;Nacka;72, Björknäs, Ingenjör;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;52;J;J;I;J;349378;Vera-Maj Torby;86;K;Nacka;82, Saltsjöbaden, Pensionerad socionom;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;53;J;J;I;J;349381;Alexander Onnela;18;M;Nacka;18, Boo, Studerande;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;54;J;J;I;J;349380;Salma Trosell;51;K;Nacka;51, Fisksätra, Jurist;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;55;J;J;I;J;349383;Yared Kassa;18;M;Nacka;18, Fisksätra, Studerande;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;56;J;J;I;J;349382;Margareta Huzelius;70;K;Nacka;70, Lännersta, Förskollärare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;57;J;J;I;J;349385;Anders Paulsson;55;M;Nacka;55, Fisksätra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;58;J;J;I;J;349384;Eva Hall;56;K;Nacka;56, Hedvigslund, Älta, Butiksmedarbetare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;14826;59;J;J;I;J;349386;Yvonne Wessman;78;K;Nacka;78, Saltsjöbaden, Pensionerad högskoledirektör;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;1;J;J;I;J;86913;Hans Peters;57;M;Nacka;57 år, Kommunalråd, Jarlaberg;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;2;J;J;I;J;86902;Christine Lorne;36;K;Nacka;36 år, Ambulanssjuksköterska, Insjön;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;3;J;J;I;J;86929;Håkan Ekengren;54;M;Nacka;54 år, Företagare, Älta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;4;J;J;I;J;76911;Johan Krogh;26;M;Nacka;26 år, Personalvetare, Saltsjö-Boo;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;5;J;J;I;J;120799;Linnea Strömberg;29;K;Nacka;28 år, Verksamhetschef, Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;6;J;J;I;J;76944;Martin Alejandro Hedman;38;M;Nacka;38 år, Utbildningsadministratör, Orminge;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;7;J;J;I;J;120801;Tomas Hjort;49;M;Nacka;49 år, VD Elektronikindustri, Saltsjöbaden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;8;J;J;I;J;120802;Olga Anikina;22;K;Nacka;22 år, Ekonomistudent, Ekudden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;9;J;J;I;J;86932;Karima Penahi;58;K;Nacka;58 år, Boendestödjare, Jarlaberg;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;10;J;J;I;J;120804;Alexi Strandberg;25;M;Nacka;25 år, IT-tekniker, Älta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;11;J;J;I;J;120805;Björn Strehlenert;78;M;Nacka;78 år, Pensionär, Igelboda;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;12;J;J;I;J;120806;Maria Håård;59;K;Nacka;59 år, Formgivare, Kummelnäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;13;J;J;I;J;86928;Ylva Hedman;29;K;Nacka;29 år, Platsutvecklare, Fisksätra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;14;J;J;I;J;76957;Ingemar Sahlgren;65;M;Nacka;65 år, Skolbusschaufför Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;15;J;J;I;J;120809;Ulla Krogh;55;K;Nacka;55 år, Polis, Saltsjöbaden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;16;J;J;I;J;120810;Kjell Stenudd;51;M;Nacka;50 år, Affärsutvecklare, Kvarnholmen;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;17;J;J;I;J;120811;Mattias Westling;52;M;Nacka;52 år, Supply chain manager, Storängen;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;18;J;J;I;J;120812;Reka Tolnai;20;K;Nacka;20 år, Student, Fisksätra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;19;J;J;I;J;120813;John Lagerstedt;22;M;Nacka;22 år, Studerande, Saltsjö-Boo;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;20;J;J;I;J;86916;Elisabeth Därth;65;K;Nacka;65 år, Pensionär, Älta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;21;J;J;I;J;120815;Kerstin Malmström;58;K;Nacka;58 år, Ekonom, Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;22;J;J;I;J;120816;Carola Strand;53;K;Nacka;53 år, Butikschef, Saltsjö-Boo;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;23;J;J;I;J;120817;Karin Carlesten;37;K;Nacka;37 år, Internationell sekreterare, Insjön;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;24;J;J;I;J;120818;Hassan El Mahdi;39;M;Nacka;39 år, Börsmäklare, Finnboda hamn;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;25;J;J;I;J;120819;Emma Eide;38;K;Nacka;38 år, Kommunikatör, Eriksvik;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;26;J;J;I;J;86927;Hans Lenkert;70;M;Nacka;70 år, Jurist, Skogalund;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;27;J;J;I;J;120821;Petra Schultz;38;K;Nacka;38 år, Ambulanssjuksköterska, Älta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;28;J;J;I;J;120822;Joel Stenberg;39;M;Nacka;39 år, Studerande, Saltsjö-Boo;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;29;J;J;I;J;120823;Ulf Erlingsjö;62;M;Nacka;62 år, Logistiker, Järla Sjö;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Centerpartiet;C;4;S;13187;30;J;J;I;J;120824;Hanna Granström;25;K;Nacka;25 år, Ombudsman, Henriksdal;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Feministiskt initiativ;FI;532;S;15884;1;N;J;J;I;513855;Jenny Vikman;40;K;Nacka;40, utvecklingsledare;15000;;J
+K;0182;Nacka;02;Nacka  Östra;Feministiskt initiativ;FI;532;S;15884;2;N;J;J;I;513856;Melinda Riedel;23;K;Nacka;23, lärarstudent;15000;;J
+K;0182;Nacka;02;Nacka  Östra;Feministiskt initiativ;FI;532;S;15884;3;N;J;J;I;513857;Malin Back;39;K;Nacka;39, gymnasielärare;15000;;J
+K;0182;Nacka;02;Nacka  Östra;Feministiskt initiativ;FI;532;S;15884;4;N;J;J;I;513858;Maya Rios;37;K;Nacka;37, civilingenjör inom huskonstruktion;15000;;J
+K;0182;Nacka;02;Nacka  Östra;Feministiskt initiativ;FI;532;S;15884;5;N;J;J;I;513859;Marie Nordquist-Kastling;59;K;Nacka;59, socialsekreterare;15000;;J
+K;0182;Nacka;02;Nacka  Östra;Feministiskt initiativ;FI;532;S;15884;6;N;J;J;I;513860;Anna Schröder;51;K;Nacka;51, personlig assistent;15000;;J
+K;0182;Nacka;02;Nacka  Östra;Feministiskt initiativ;FI;532;S;15884;7;N;J;J;I;513861;Maral Fayazian;27;K;Nacka;27, socialantropolog;15000;;J
+K;0182;Nacka;02;Nacka  Östra;Feministiskt initiativ;FI;532;S;15884;8;N;J;J;I;513862;Åsa Wickberg;62;K;Nacka;62, specialpedagog;15000;;J
+K;0182;Nacka;02;Nacka  Östra;Initiativet;;1374;;;;N;J;J;I;415141;Nordström, Magnus;48;M;Nacka;;0;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;1;J;J;I;J;149742;Karin Teljstedt;40;K;Nacka;40, Civilekonom, Finnberget;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;2;J;J;I;J;149743;Anders Tiger;68;M;Nacka;68, Journalist, Alphyddan;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;3;J;J;I;J;149744;Lydia Liu;48;K;Nacka;48, Företagsentreprenör, Fisksätra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;4;J;J;I;J;149745;Anders Wihk;52;M;Nacka;52, Musiker, Älta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;5;J;J;I;J;149746;Malin Gunnesson;44;K;Nacka;44, Fastighetsstrateg, Duvnäs utskog;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;6;J;J;I;J;149747;Joakim Franklin;33;M;Nacka;33, Samhällsplanerare, Järla sjö;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;7;J;J;I;J;149748;Maryam Herlin;57;K;Nacka;57, Förskolechef, Saltsjö-Boo;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;8;J;J;I;J;149749;Jack Sjölund;23;M;Nacka;23, Studerande, Saltsjö-Boo;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;9;J;J;I;J;149750;Anna Maria Eiderbrant Uhrström;62;K;Nacka;62, Civilekonom, Saltsjö-Duvnäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;10;J;J;I;J;149751;Anders Myrbäck;52;M;Nacka;52, Vd, Lännersta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;11;J;J;I;J;149752;Nana Amirajibi;61;K;Nacka;61, Tolk, Jarlaberg;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;12;J;J;I;J;149753;Martin Gunnesson;43;M;Nacka;43, Idéhistoriker, Duvnäs utskog;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;13;J;J;I;J;149754;Karolina Johansson;47;K;Nacka;47, Lärare, Skuru;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;14;J;J;I;J;149755;Stefan Herczfeld;57;M;Nacka;57, HR-chef, Krokhöjden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;15;J;J;I;J;149756;Karoline Jonasson;37;K;Nacka;37, Paralegal, Ljuskärrsberget;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;16;J;J;I;J;149757;Dennis Smidt;41;M;Nacka;41, Bitr restaurangchef, Finntorp;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;17;J;J;I;J;149758;Monica Sjölund;52;K;Nacka;52, Egen företagare, Saltsjö-Boo;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;18;J;J;I;J;149759;Lukas Uhrström;24;M;Nacka;24, Strategikonsult, Saltsjö-Duvnäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;19;J;J;I;J;149760;Karin Avelin Romin;55;K;Nacka;55, Konstvetare, Kvarnholmen;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;20;J;J;I;J;149761;Ibrahim Habboush;37;M;Nacka;37, Lärare, Lännersta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;21;J;J;I;J;149762;Mehretab Tesfai;26;M;Nacka;26, Fritidsledare, Fisksätra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;22;J;J;I;J;149763;Rein Raukas;78;M;Nacka;78, Ekonom, Saltsjöbaden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;23;J;J;I;J;149764;Inger Davidson;73;K;Nacka;73, Fd. riksdagsledamot, Birka;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;24;J;J;I;J;149765;Ulf G Johansson;70;M;Nacka;70, Nämndeman, Finntorp;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;25;J;J;I;J;149766;Birgitta Husén;75;K;Nacka;75, Ekonom, Ljuskärrsberget;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;26;J;J;I;J;149767;Stefan Kinert;67;M;Nacka;67, Säkerhetskonsult, Tollare;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;27;J;J;I;J;149768;Isak Rizell;22;M;Nacka;22, Musiker, Orminge;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Kristdemokraterna;KD;68;S;13434;28;J;J;I;J;149769;Ulf Swenzén;83;M;Nacka;83, Småföretagare, Saltsjöbaden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;1;J;J;I;J;13872;Gunilla Grudevall-Steen;56;K;Nacka;56, Lärare, Saltsjö-Boo;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;2;J;J;I;J;13873;Monica Brohede Tellström;46;K;Nacka;46, Personaladministratör, Skuru;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;3;J;J;I;J;13874;Martin Sääf;61;M;Nacka;61, Projektledare, Tollare;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;4;J;J;I;J;13875;Louise Granath;28;K;Nacka;28, Civilingenjör, Sickla;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;5;J;J;I;J;13876;Mats Granath;60;M;Nacka;60, Verksamhetschef, Älta;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;6;J;J;I;J;13877;Lena Linnerborg;53;K;Nacka;53, Utredare, Orminge;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;7;J;J;I;J;13878;Anna-Karin Boréus;53;K;Nacka;53, Systemutvecklare, Ektorp;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;8;J;J;I;J;13879;Johan Kjellman;59;M;Nacka;59, Egenföretagare, Saltsjö-Boo;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;9;J;J;I;J;13880;Karin Bünger;41;K;Nacka;41, Produktchef, Saltsjöbaden;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;10;J;J;I;J;13881;Jonas Conradsson;43;M;Nacka;43, Advokat, Saltsjöbaden;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;11;J;J;I;J;13883;Helena Håkansson;56;K;Nacka;56, Agronom, Skuru;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;12;J;J;I;J;13884;Taher Ebrahimzada;28;M;Lerum;28, Studerande, Fisksätra;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;13;J;J;I;J;13885;Sofia Hanner;34;K;Nacka;34, Projektchef, Skogalund;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;14;J;J;I;J;13886;Johan Norman;37;M;Nacka;36, Office manager, Orminge;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;15;J;J;I;J;13887;Anna Nörby Gennerud;44;K;Nacka;43, Kommunikationskonsult, Saltsjö-Duvnäs;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;16;J;J;I;J;13888;Petter Strömberg;29;M;Nacka;29, Jobbcoach, Björknäs;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;17;J;J;I;J;13889;Rona Aksak;24;K;Nacka;24, Statsvetare, Kvarnholmen;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;18;J;J;I;J;13890;Ken McArthur;56;M;Nacka;56, Solution manager, Järla sjö;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;19;J;J;I;J;13891;Lotta Fryklund;59;K;Nacka;59, Verksamhetschef, Lännersta;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;20;J;J;I;J;13892;Göran Fredriksson;74;M;Nacka;74, Kommunikationskonsult, Storängen;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;21;J;J;I;J;13893;Jennie Knutsson;37;K;Nacka;37, VD och PR-konsult, Älta;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;22;J;J;I;J;13894;Peter Stare;81;M;Nacka;81, Jur.kand, Finntorp;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;23;J;J;I;J;13895;Gertrud Lindgren;79;K;Nacka;79, Adjunkt, Skogsö;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;24;J;J;I;J;13896;Bo Hjertstrand;70;M;Nacka;70, Ingenjör, Sickla;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;25;J;J;I;J;13897;Monia Sturén;72;K;Nacka;72, Jur.kand, Sickla;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;26;J;J;I;J;13898;Lennart Philip;74;M;Nacka;74, Ekonom, Saltsjöbaden;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;27;J;J;I;J;13899;Lilian Sandberg;70;K;Nacka;70, Yrkeslärare, Saltsjö-Boo;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;28;J;J;I;J;13900;Joakim Olofsson;51;M;Nacka;51, Konsult, Jarlaberg;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;29;J;J;I;J;13901;Kåre Jansson;65;M;Nacka;65, Utredare, Sickla strand;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;30;J;J;I;J;13902;Birgitta Westman;73;K;Nacka;73, Revisor, Kolarängen;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;31;J;J;I;J;13903;Kjell Tormod;75;M;Nacka;75, Lärare, Tollare;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;32;J;J;I;J;13904;Mikael Sandberg;76;M;Nacka;76, Arkitekt SAR/MSA, Finntorp;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;33;J;J;I;J;13905;Annelie Löfqvist;67;K;Nacka;67, Socionom, Saltängen;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;34;J;J;I;J;13906;Bjarne Hanson;74;M;Nacka;74, Apotekare, Nysätra;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;35;J;J;I;J;13907;Kjell Åkerlund;74;M;Nacka;74, Författare, Saltsjö-Boo;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;36;J;J;I;J;13908;Maj-Britt Stenfelt;85;K;Nacka;85, Senior, Saltsjö-Boo;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;37;J;J;I;J;13909;Jonas Skiöld;46;M;Nacka;46, Handläggare, Rensätra;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;38;J;J;I;J;13910;Niki Westerberg;50;K;Nacka;50, Kommunikationschef, Lännersta;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;39;J;J;I;J;13911;Sten Grack;76;M;Nacka;76, Forskare, Älta;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;40;J;J;I;J;13912;Björn Carheden;74;M;Nacka;74, Lärare, Finntorp;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;41;J;J;I;J;13913;Ingemar Morsten;77;M;Nacka;77, Kreditchef, Kolarängen;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Liberalerna (tidigare Folkpartiet);L;3;S;11940;42;J;J;I;J;13914;Anders Österlund;82;M;Nacka;82, Ingenjör, Lillängen;150000;;J
+K;0182;Nacka;02;Nacka  Östra;Medborgerlig Samling;MED;1296;S;13263;1;J;J;I;J;125942;Tobias Ekelin;51;M;Nacka;51, Civilingenjör, Saltsjöbaden;11000;;J
+K;0182;Nacka;02;Nacka  Östra;Medborgerlig Samling;MED;1296;S;13263;2;J;J;I;J;125943;Carl-Axel Stein;65;M;Nacka;65, Konsult & Förändringsledare, Saltsjö-Boo;11000;;J
+K;0182;Nacka;02;Nacka  Östra;Medborgerlig Samling;MED;1296;S;13263;3;J;J;I;J;125944;Lena Widman;50;K;Nacka;50, Senior Associate/jur. kand., Saltsjö-Boo;11000;;J
+K;0182;Nacka;02;Nacka  Östra;Medborgerlig Samling;MED;1296;S;13263;4;J;J;I;J;125945;Claes Djurfeldt;62;M;Nacka;62, Polisinspektör, Saltsjöbaden;11000;;J
+K;0182;Nacka;02;Nacka  Östra;Medborgerlig Samling;MED;1296;S;13263;5;J;J;I;J;125946;Carl Johan Rundquist;63;M;Nacka;63, Jur. kand., Saltsjöbaden;11000;;J
+K;0182;Nacka;02;Nacka  Östra;Medborgerlig Samling;MED;1296;S;13263;6;J;J;I;J;125947;Carl Sidenvall;44;M;Nacka;44, Civilingenjör, Nacka;11000;;J
+K;0182;Nacka;02;Nacka  Östra;Medborgerlig Samling;MED;1296;S;13263;7;J;J;I;J;125948;Thomas Hultman;48;M;Nacka;48, Konsult-Elkraftingenjör, Saltsjö-Boo;11000;;J
+K;0182;Nacka;02;Nacka  Östra;Medborgerlig Samling;MED;1296;S;13263;8;J;J;I;J;125949;Daniel Claesson;46;M;Nacka;46, Kommunikationschef, Saltsjö-Boo;11000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;1;N;J;J;I;247571;Sidney Holm;59;M;Nacka;Småföretagare, 59 år, Sickla;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;2;N;J;J;I;247572;Lisskulla Zayane;54;K;Nacka;Skötare, 54 år, Älta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;3;N;J;J;I;247573;Ninni Lindberg;61;K;Nacka;Gymnasielärare, 61 år, Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;4;N;J;J;I;247574;Pascal Mafall Fall;51;M;Nacka;Språklärare, 51 år, Orminge;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;5;N;J;J;I;247575;Louise Ollivier;46;K;Nacka;Businesspartner, 46 år, Orminge;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;6;N;J;J;I;247576;Göran Börjesson;64;M;Nacka;Egenföretagare, 64 år, Rensättra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;7;N;J;J;I;247577;Desha Svenneborg;35;K;Nacka;Jur. stud, 34 år, Finnberget;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;8;N;J;J;I;247578;Per Chrisander;73;M;Nacka;Socionom, 73 år, Eknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;9;N;J;J;I;247579;Erik Nordlund;18;M;Nacka;Studerande, 18 år, Lännersta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;10;N;J;J;I;247580;Nicole Goufas;33;K;Nacka;Pressekreterare, 33 år, Fisksätra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;11;N;J;J;I;247581;David Lukose;42;M;Nacka;Trafikplanerare, 41 år, Henriksdalsberget;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;12;N;J;J;I;247582;Åsa Marnell;46;K;Nacka;Museiintendent, 46 år, Lännersta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;13;N;J;J;I;247583;Klas Eriksson;82;M;Nacka;Senior, 82 år, Jarlaberg;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;14;N;J;J;I;247584;Anne Magnusson;62;K;Nacka;Förskollärare och socionom, 62 år, Sickla;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;15;N;J;J;I;247585;Henrik Hermansson;33;M;Nacka;Analytiker, 33 år, Kvarnholmen;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;16;N;J;J;I;247586;Brita Ström;67;K;Nacka;Utbildningskonsult, 67 år, Kummelnäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;17;N;J;J;I;247587;Mats Marnell;49;M;Nacka;Arkitekt, 49 år, Lännersta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;18;N;J;J;I;247588;Nina Piroth;35;K;Nacka;Projektledare, 35 år, Sickla;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;19;N;J;J;I;247589;Roger Bydler;75;M;Nacka;Egenföretagare, 75 år, Finnboda;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;20;N;J;J;I;247590;Pernilla Fexdal;48;K;Nacka;Departementssekreterare, 48 år, Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;21;N;J;J;I;247591;Hampus Skoug;29;M;Nacka;Ingenjör, 29 år, Finntorp;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;22;N;J;J;I;247592;Rebecka Bodemar;47;K;Nacka;SFI-lärare, 47 år, Fisksätra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;23;N;J;J;I;247593;Roland von Malmborg;73;M;Nacka;Världsmedborgare och trubadur, 73 år, Saltsjöbaden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;24;N;J;J;I;247594;Filippa Holm;27;K;Nacka;Studerande, 27 år, Sickla;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;25;N;J;N;I;247595;[inte lämnat samtycke];;;;;224000;;N
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;26;N;J;J;I;247596;Ulla von Strokirch;56;K;Nacka;Boendestödjare, 56 år, Kummelnäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;27;N;J;J;I;247597;Henrik Sundström;71;M;Nacka;Ekonom, 71 år, Vikingshill;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;28;N;J;J;I;247598;Liselotte van den Tempel;73;K;Nacka;Ingenjör, 73 år, Älta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;29;N;J;J;I;247599;Eva Hellung Strohl;86;K;Nacka;f d ombudsman, 86 år, Duvnäs Utskog;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;30;N;J;J;I;348877;Cecilia Gren;55;K;Nacka;Förskolepersonal och konstnär, 55 år, Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;31;N;J;J;I;247600;Elisabeth Karlsson;66;K;Nacka;Jurist, 66 år, Sickla;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;14218;32;N;J;J;I;247601;Eva Royen;71;K;Nacka;Konsult, 71 år, Finnboda;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;1;N;J;J;I;247571;Sidney Holm;59;M;Nacka;Småföretagare, 59 år, Sickla;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;2;N;J;J;I;247572;Lisskulla Zayane;54;K;Nacka;Skötare, 54 år, Älta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;3;N;J;J;I;247573;Ninni Lindberg;61;K;Nacka;Gymnasielärare, 61 år, Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;4;N;J;J;I;247574;Pascal Mafall Fall;51;M;Nacka;Språklärare, 51 år, Orminge;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;5;N;J;J;I;247575;Louise Ollivier;46;K;Nacka;Businesspartner, 46 år, Orminge;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;6;N;J;J;I;247576;Göran Börjesson;64;M;Nacka;Egenföretagare, 64 år, Rensättra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;7;N;J;J;I;247577;Desha Svenneborg;35;K;Nacka;Jurist, 35 år, Finnberget;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;8;N;J;J;I;247578;Per Chrisander;73;M;Nacka;Socionom, 73 år, Eknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;9;N;J;J;I;247579;Erik Nordlund;18;M;Nacka;Studerande, 18 år, Lännersta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;10;N;J;J;I;247580;Nicole Goufas;33;K;Nacka;Pressekreterare, 33 år, Fisksätra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;11;N;J;J;I;247581;David Lukose;42;M;Nacka;Trafikplanerare, 41 år, Henriksdalsberget;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;12;N;J;J;I;247582;Åsa Marnell;46;K;Nacka;Museiintendent, 46 år, Lännersta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;13;N;J;J;I;247583;Klas Eriksson;82;M;Nacka;Senior, 82 år, Jarlaberg;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;14;N;J;J;I;247584;Anne Magnusson;62;K;Nacka;Förskollärare och socionom, 62 år, Sickla;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;15;N;J;J;I;247585;Henrik Hermansson;33;M;Nacka;Analytiker, 33 år, Kvarnholmen;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;16;N;J;J;I;247586;Brita Ström;67;K;Nacka;Utbildningskonsult, 67 år, Kummelnäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;17;N;J;J;I;247587;Mats Marnell;49;M;Nacka;Arkitekt, 49 år, Lännersta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;18;N;J;J;I;247588;Nina Piroth;35;K;Nacka;Projektledare, 35 år, Sickla;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;19;N;J;J;I;247589;Roger Bydler;75;M;Nacka;Egenföretagare, 75 år, Finnboda;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;20;N;J;J;I;247590;Pernilla Fexdal;48;K;Nacka;Departementssekreterare, 48 år, Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;21;N;J;J;I;247591;Hampus Skoug;29;M;Nacka;Ingenjör, 29 år, Finntorp;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;22;N;J;J;I;247592;Rebecka Bodemar;47;K;Nacka;SFI-lärare, 47 år, Fisksätra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;23;N;J;J;I;247593;Roland von Malmborg;73;M;Nacka;Världsmedborgare och trubadur, 73 år, Saltsjöbaden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;24;N;J;J;I;247594;Filippa Holm;27;K;Nacka;Studerande, 27 år, Sickla;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;25;N;J;J;I;247596;Ulla von Strokirch;56;K;Nacka;Boendestödjare, 56 år, Kummelnäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;26;N;J;J;I;247597;Henrik Sundström;71;M;Nacka;Ekonom, 71 år, Vikingshill;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;27;N;J;J;I;247598;Liselotte van den Tempel;73;K;Nacka;Ingenjör, 73 år, Älta;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;28;N;J;J;I;247599;Eva Hellung Strohl;86;K;Nacka;f d ombudsman, 86 år, Duvnäs Utskog;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;29;N;J;J;I;348877;Cecilia Gren;55;K;Nacka;Förskolepersonal och konstnär, 55 år, Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;30;N;J;J;I;247600;Elisabeth Karlsson;66;K;Nacka;Jurist, 66 år, Sickla;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Miljöpartiet de gröna;MP;55;S;15696;31;N;J;J;I;247601;Eva Royen;71;K;Nacka;Konsult, 71 år, Finnboda;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;1;J;J;I;J;18301;Mats Gerdau;54;M;Nacka;54, Kolarängen;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;2;J;J;I;J;18302;Cathrin Bergenstråhle;58;K;Nacka;58, Rensättra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;3;J;J;I;J;18303;Tobias Nässén;45;M;Nacka;45, Duvnäs Utskog;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;4;J;J;I;J;18304;Sofia Fölster;26;K;Nacka;26, Alphyddan;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;5;J;J;I;J;12799;Helene Skantze;61;K;Nacka;61, Finnboda;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;6;J;J;I;J;12794;Filip Wiljander;24;M;Nacka;24, Skuru;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;7;J;J;I;J;18307;Eva Öhbom Ekdahl;68;K;Nacka;68, Baggensudden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;8;J;J;I;J;18308;Bo Bergkvist;67;M;Nacka;67, Hedvigslund;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;9;J;J;I;J;18309;Richard Wendt;48;M;Nacka;48, Solsidan;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;10;J;J;I;J;18310;Oliver Rykatkin;23;M;Nacka;23, Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;11;J;J;I;J;18311;Eivor Örenmark;56;K;Nacka;56, Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;12;J;J;I;J;18312;Magnus Sjöqvist;60;M;Nacka;60, Skogsö;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;13;J;J;I;J;18313;Anna Kjellin Flory;58;K;Nacka;58, Solsidan;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;14;J;J;I;J;18314;Peter Zethraeus;56;M;Nacka;56, Kummelnäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;15;J;J;I;J;18315;Johan Hiller;69;M;Nacka;69, Fisksätra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;16;J;J;I;J;18316;Carl Albinsson;28;M;Nacka;28, Finnboda;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;17;J;J;I;J;18317;Lars Stenholm;67;M;Nacka;67, Jarlaberg;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;18;J;J;I;J;18318;Axel Krottler;24;M;Nacka;24, Skuru;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;19;J;J;I;J;18319;Andreas Brännström;36;M;Nacka;36, Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;20;J;J;I;J;18320;Lotta Riedel;67;K;Nacka;67, Velamsund;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;21;J;J;I;J;18321;Lena Gatenborg Mohns;44;K;Nacka;44, Rensättra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;22;J;J;I;J;18322;Annelie Stiglund;34;K;Nacka;34, Finnboda;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;23;J;J;I;J;12792;Richard Herrey;54;M;Nacka;54, Saltsjöbaden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;24;J;J;I;J;18324;Asta Groth;20;K;Nacka;20, Neglinge;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;25;J;J;I;J;18325;Elisabet Engström;72;K;Nacka;72, Igelboda;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;26;J;J;I;J;18326;Anders Bruhn;58;M;Nacka;58, Krokhöjden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;27;J;J;I;J;18327;Annika Jung;69;K;Nacka;69, Fannydal;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;28;J;J;I;J;18350;Vilma Mori Aguilar;60;K;Nacka;60, Stensö;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;29;J;J;I;J;18328;Dominique Faymonville;42;M;Nacka;42, Rösunda;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;30;J;J;I;J;18329;Per Norling;55;M;Nacka;55, Jarlaberg;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;31;J;J;I;J;18330;Angela Berglund;68;K;Nacka;68, Ekängen;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;32;J;J;I;J;18331;Noa Samenius;18;M;Nacka;18, Storängen;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;33;J;J;I;J;18332;Christina Rinman;44;K;Nacka;44, Igelboda;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;34;J;J;I;J;18333;Jan Bjurfors;64;M;Nacka;64, Igelboda;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;35;J;J;I;J;18334;Petter Larsson;35;M;Nacka;35, Kvarnholmen;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;36;J;J;I;J;18335;Cathrine Swenzén;69;K;Nacka;69, Saltsjöbaden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;37;J;J;I;J;18336;Monica Segerman;79;K;Nacka;79, Kolarängen;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;38;J;J;I;J;18337;Kristiina Rettel;41;K;Nacka;41, Fisksätra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;39;J;J;I;J;18338;Claudio van der Touw;22;M;Nacka;22, Ekudden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;40;J;J;I;J;18339;Anna Karin Bergholm Liljeroth;61;K;Nacka;61, Neglinge;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;41;J;J;I;J;18354;Göran Frisk;75;M;Nacka;75, Stensö;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;42;J;J;I;J;18340;Christof Borgström;57;M;Nacka;57, Kolarängen;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;43;J;J;I;J;18341;Ulrika Engellau;34;K;Nacka;34, Rensättra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;44;J;J;I;J;18342;Eric Lindahl;46;M;Nacka;46, Stensö;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;45;J;J;I;J;18343;Gun Lingbert;73;K;Nacka;73, Sickla;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;46;J;J;I;J;18344;Margareta Hjelmstad;74;K;Nacka;74, Stensö;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;47;J;J;I;J;18345;Linda Olsson;78;K;Nacka;78, Skuru;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;48;J;J;I;J;18346;Lennart Örenmark;59;M;Nacka;59, Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;49;J;J;I;J;18347;Helena Söderqvist;51;K;Nacka;51, Fisksätra;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;50;J;J;I;J;18348;Lars Berglund;68;M;Nacka;68, Solsidan;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;51;J;J;I;J;18351;Moa Bern;78;K;Nacka;78, Rösunda;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;52;J;J;I;J;18352;Nicole Bistoletti;43;K;Nacka;43, Saltsjöbaden;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;53;J;J;I;J;18353;Gunilla Elmberg;74;K;Nacka;74, Eknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Moderaterna;M;1;S;12003;54;J;J;I;J;18349;Ingmar Berthelsen;82;M;Nacka;82, Björknäs;224000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;1;J;J;I;J;364665;Christina Ståldal;70;K;Nacka;F.d. bibliotekschef, gruppledare, plan-, miljö-, o. demokratifrågor;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;2;J;J;I;J;364666;Mikael Carlsson;41;M;Nacka;Förskolechef, barn- o. utbildningsfrågor;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;3;J;J;I;J;364667;Lina Olsson;45;K;Nacka;Civilingenjör, egen företagare, miljö-, natur-, o. trafikfrågor;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;4;J;J;I;J;364668;Efson Goitom;31;M;Nacka;Bussförare;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;5;J;J;I;J;364669;Yusie Rundkvist Chou;45;K;Nacka;Psykolog, översättare, ersättare i Arbets- o. företagsnämnden;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;6;J;J;I;J;364670;Bosse Ståldal;70;M;Nacka;Samhällsentreprenör, kandidat till Fritids- o. Kulturnämnden;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;7;J;J;I;J;364671;Shahin Malak;63;K;Nacka;Intresserad av sociala -, miljö- o. kulturfrågor;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;8;J;J;I;J;364672;Lamin Jatta Modigh;22;M;Nacka;22 år Fisksätra;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;9;J;J;I;J;364673;Kristina Granlund;54;K;Nacka;Civilekonom, researcher, natur- o. miljöfrågor;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;10;J;J;I;J;364674;Torgny Domeij;70;M;Nacka;Psykolog, intressen Nackareservatet, parker, kollektivtrafik, cykelbanor, kommunikationer;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;11;J;J;I;J;364675;Carin Larsson;63;K;Nacka;Miljö, natur o. växter;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;12;J;J;I;J;364676;Ann Sundberg;53;K;Nacka;Arkivarie, intressen kult.historiska miljöer, bevarande grönområden, hyresrätter till rimliga hyror;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;13;J;J;I;J;364677;Margareta Jonsson;71;K;Nacka;Pensionär, livs- o. samhällsfrågor;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;14;J;J;I;J;364678;Leidy Ximena Botero Zuluaga;36;K;Nacka;Barn-, studerandefrågor, äldreomsorg;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;15;J;J;I;J;364679;Henrik Wagenius;48;M;Nacka;Konstvetare o. jurist, aktiv inom finans;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;16;J;J;I;J;364680;Mariama Sonko;40;K;Nacka;Undersköterska, aktiv inom Löparakademin;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;17;J;J;I;J;364681;Hans Larsson;69;M;Nacka;OVK besiktningsman;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;18;J;J;I;J;364682;Ingela Walck;68;K;Nacka;Skribent;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;19;J;J;I;J;364683;Kennet Balk;59;M;Nacka;Natur-, miljö- o. vägfrågor;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;20;J;J;I;J;364684;Ulla Anserius;79;K;Nacka;Pensionär;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;21;J;J;I;J;364685;Martina Jordan;50;K;Nacka;Musiker, koreograf;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;22;J;J;I;J;364686;Binta Sonko;42;K;Nacka;specialistundersköterska, samhällsfrågor;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;23;J;J;I;J;364687;Danny Sundberg;33;M;Nacka;Yrkeschaufför, intressen bevarande av grönområden o. kulturhistoriska miljöer, veteranfordon;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Nackalistan;NL;543;S;14915;24;J;J;I;J;364688;Lars Nieckels;75;M;Nacka;Fil.dr. intresseområden långsiktigt hållbar utveckling, energibesparing, kommunala VA-problem;160000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;1;J;J;I;N;67091;[inte lämnat förklaring];;;;;225000;;N
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;2;J;J;I;J;67092;Åsa Nyberg;64;K;Nacka;64, sjuksköterska, Nacka;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;3;J;J;I;J;67093;Esa Örmä;66;M;Nacka;66, projektledare, Fisksätra;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;4;J;J;I;J;67094;Stephan Andersson;60;M;Nacka;60, VVS-ingenjör, Saltsjö-Boo;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;5;J;J;I;J;67095;Leonid Yurkovskiy;22;M;Nacka;22, politisk sekreterare, Saltsjö-Boo;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;6;J;J;I;J;67096;David Hyde;30;M;Nacka;30, säljare, Nacka;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;7;J;J;I;J;67097;Louise Wallenblad;27;K;Nacka;27, operasångerska, Nacka;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;8;J;J;I;J;67098;Göran Gaefke;62;M;Nacka;62, taxichaufför, Nacka;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;9;J;J;I;J;67099;Pernilla Axelsson;50;K;Nacka;50, ekonomiassistent, Nacka;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;10;J;J;I;J;67100;Therese Elg;57;K;Nacka;56, pensionär, Saltsjö-Boo;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;11;J;J;I;J;67101;Åke Söderman;58;M;Nacka;58, konsult, Saltsjö-Boo;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;12;J;J;I;J;67102;Tommy Sjöström;44;M;Nacka;44, gruppledare, Saltsjöbaden;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;13;J;J;I;J;67103;Mari D'Orsay;54;K;Nacka;54, näringsrådgivare, Nacka;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;14;J;J;I;J;67104;Christina Wiltman;73;K;Nacka;73, pensionär, Nacka;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;15;J;J;I;J;67105;Jörgen Karlsson;51;M;Nacka;51, lackerare, Älta;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;16;J;J;I;J;67106;Jan Nordberg;64;M;Nacka;64, pensionär, Nacka;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;17;J;J;I;J;67107;Bror Bergquist;66;M;Nacka;66, pensionerad företagare, Saltsjö-Boo;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Sverigedemokraterna;SD;110;S;12704;18;J;J;I;J;67108;Nina Nilsson;67;K;Nacka;67, f.d. civilekonom, Saltsjö-Boo;225000;;J
+K;0182;Nacka;02;Nacka  Östra;Vi Socialkonservativa;ViS;1349;;;;N;J;J;I;11827;Abrahamsson, Michael;57;M;Nacka;;0;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;1;N;J;J;I;196627;Amanda Sandholm;31;K;Nacka;31 år, skötare i psykiatrin, Orminge;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;2;N;J;J;I;196628;Borna Rowshani;37;M;Nacka;36 år, säljare, Neglinge;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;3;N;J;J;I;196629;Salka Hallström Bornold;48;K;Nacka;48 år, journalist, Saltsjö-Boo;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;4;N;J;J;I;196630;Ramzi Ben Youssef;29;M;Nacka;30 år, studerande, Ektorp;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;5;N;J;J;I;196631;Oscar Dahlström;25;M;Nacka;25 år, datortekniker, Tollare;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;6;N;J;J;I;196632;Lisa Rasmussen;53;K;Nacka;53 år, politisk sekreterare, Orminge;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;7;N;J;J;I;315835;Rezan Labady;31;K;Nacka;30 år, studerande, Fisksätra;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;8;N;J;J;I;196633;Fredrik Holmkvist;47;M;Nacka;47 år, formgivare, Tallbacken;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;9;N;J;J;I;196634;Tomas Ottosson;58;M;Nacka;58 år, familjebehandlare, Älta;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;10;N;J;J;I;196635;Birgit Hansson;71;K;Nacka;71 år, senior rådgivare, Orminge;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;11;N;J;J;I;196636;Rolf Wasteson;68;M;Nacka;68 år, IT-arkitekt, Finntorp;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;12;N;J;J;I;196637;Malin Ehnebuske;37;K;Nacka;37 år, arkivarie, Finntorp;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;13;N;J;J;I;196638;Ulf Fogelström;42;M;Nacka;41 år, socialsekreterare, Ektorp;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;14;N;J;J;I;196639;Klara Krantz;32;K;Nacka;32 år, författare, Finntorp;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;15;N;J;J;I;196640;Fredrik Lundkvist;46;M;Nacka;46 år, ST-läkare, Saltsjö-Boo;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;16;N;J;J;I;218985;Ida Gabrielsson;36;K;Nacka;36 år, studerande, Jarlaberg;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;17;N;J;J;I;332354;Jamil Jumaa;73;M;Nacka;72 år, pensionär, Älta;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;18;N;J;J;I;196641;Agneta Johansson;65;K;Nacka;65 år, lärare, Jarlaberg;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;19;N;J;J;I;196642;Hans Wigren;77;M;Nacka;77 år, skådespelare, Jarlaberg;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;20;N;J;J;I;196643;Hediye Güzel;40;K;Nacka;40 år, presschef, Björknäs;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;21;N;J;J;I;196644;Ronald Eriksson;62;M;Nacka;62 år, byggmästare, Lännersta;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;22;N;J;J;I;196645;Åsa Rombin;52;K;Nacka;51 år, sjukpensionär, Hasseludden;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;23;N;J;J;I;332360;Kalle Larsson;48;M;Nacka;48 år, kanslichef, Jarlaberg;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;24;N;J;J;I;196646;Ragnar Schön;34;M;Nacka;34 år, civilingenjör, Orminge;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;25;N;J;J;I;196647;Cecilia Malmgren;71;K;Nacka;70 år, folkbildare, Tallbacken;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;26;N;J;J;I;196648;Staffan Hjalmarsson;38;M;Nacka;38 år, verksamhetsansvarig, Finntorp;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;27;N;J;J;I;196649;Julia Kjällquist;29;K;Nacka;28 år, verksamhetsutvecklare, Tallbacken;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;28;N;J;J;I;196650;Birgitta Rasmussen;77;K;Nacka;76 år, pensionär, Boo Gård;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;29;N;J;J;I;196651;Dan Johansson;65;M;Nacka;65 år, studerande, Talludden;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;30;N;J;J;I;196652;Gunnar Friberger;62;M;Nacka;62 år, politisk sekreterare, Orminge;75000;;J
+K;0182;Nacka;02;Nacka  Östra;Vänsterpartiet;V;5;S;13814;31;N;J;J;I;196653;Åsa Mattsson;59;K;Nacka;59 år, pressekreterare, Skvaltan;75000;;J

@@ -1,0 +1,158 @@
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;1;J;J;I;J;35718;Susanne Sjögren;44;K;Sävsjö;44 år,Logistikansvarig, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;2;J;J;I;J;35719;Göran Häll;60;M;Sävsjö;60 år,Industriarbetare, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;3;J;J;I;J;35720;Ingrid Ivarsson;64;K;Sävsjö;64 år,Vårdare, Vrigstad;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;4;J;J;I;J;35721;Christer Sjögren;72;M;Sävsjö;71 år,Ingenjör, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;5;J;J;I;J;35722;Kerstin Hvirf;56;K;Sävsjö;56 år,Undersköterska, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;6;J;J;I;J;35723;Lena Persson;72;K;Sävsjö;72 år,Pensionär, Vrigstad;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;7;J;J;I;N;35724;[inte lämnat förklaring];;;;;26000;;N
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;8;J;J;I;J;35725;Eva Johansson;58;K;Sävsjö;57 år,Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;9;J;J;I;J;35726;P-O Ivarsson;68;M;Sävsjö;67 år,Vrigstad;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;10;J;J;I;J;35727;Majvor Skoog;61;K;Sävsjö;60 år,Sjuksköterska, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;11;J;J;I;J;35728;Sven Krafft;66;M;Sävsjö;66 år,pensionär, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;12;J;J;I;J;35729;Barbro Sand;65;K;Sävsjö;65 år,Fastighetsassistent, Vrigstad;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;13;J;J;I;J;35730;Christer Pettersson;57;M;Sävsjö;57 år,Målare, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;14;J;J;I;J;35731;Elena Andreea Nicoara;23;K;Sävsjö;23 år,Studerande, Stockaryd;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;15;J;J;I;J;35732;Victor Erliksson;33;M;Sävsjö;33 år,Lärare, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;16;J;J;I;J;35733;Mats Johansson;75;M;Sävsjö;75 år,Pensionär, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;17;J;J;I;J;35734;Bengt Persson;79;M;Sävsjö;78 år,Pensionär, Vrigstad;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;18;J;J;I;J;35735;Lena Svensson Webb;57;K;Sävsjö;57 år,Administratör, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;19;J;J;I;J;35736;Eddie Windborg;30;M;Sävsjö;30 år,Livsmedelsarbetare, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;20;J;J;I;J;35737;Katarina Rydahl;55;K;Sävsjö;56 år,Sjuksköterska, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Arbetarepartiet-Socialdemokraterna;S;2;S;12253;21;J;J;I;J;35738;Laila Fransson;79;K;Sävsjö;78 år,Pensionär, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13291;1;J;J;I;J;127060;Sten-Åke Claesson;75;M;Sävsjö;Skogsbrukare Solkaryd Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13291;2;J;J;I;J;15848;Matilda Henriksson;36;K;Sävsjö;Landskapsarkitekt Björnskog Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13291;3;J;J;I;J;127062;Sven Andersson;68;M;Sävsjö;Lantbrukare Kännestubba Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13291;4;J;J;I;J;127063;Conny Karlsson;55;M;Sävsjö;Konstruktör Skepperstad Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13291;5;J;J;I;J;127064;Mirjam Johansson;38;K;Sävsjö;Leg sjuksköterska Holmatorp 1 Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13291;6;J;J;I;J;127065;Leif Henriksson;60;M;Sävsjö;Egenföretagare Björnskog Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13291;7;J;J;I;J;127066;Ingemar Ahnstedt;61;M;Sävsjö;Småföretagare Häggatorp Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13291;8;J;J;I;J;127067;Maini Karlsson;74;K;Sävsjö;Aktivitetsledare Nässja Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13291;9;J;J;I;J;127068;Gunilla Fransson;71;K;Sävsjö;Pensionär Hjälmåkra Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13291;10;J;J;I;J;127069;Anna Carlsson;48;K;Sävsjö;Företagsrådgivare Skärsjö Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13291;11;J;J;I;J;127070;Eije Johansson;55;M;Sävsjö;Ekobonde Holmatorp 1 Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13291;12;J;J;I;J;127071;Berndt Svensson;80;M;Sävsjö;Pensionär Kättorp 11 Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13294;1;J;J;I;J;127335;Anette Gustafsson;53;K;Sävsjö;Personlig assistent Draget 1 Rörvik;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13294;2;J;J;I;J;127336;Stig Hagelvik;63;M;Sävsjö;Maskinförare Hetseryd Stockaryd;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13294;3;J;J;I;J;127337;Johan Brogård;63;M;Sävsjö;Lantmästare Hylletofta Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13294;4;J;J;I;J;127338;Karl-Gustav Svensson;61;M;Sävsjö;Agronom Sanden 1 Lammhult;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13294;5;J;J;I;J;127339;Ida Svensson;42;K;Sävsjö;Lärare Mellangatan 16 Rörvik;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13294;6;J;J;I;J;127340;Christer Strömblad;54;M;Sävsjö;Lantmästare Bjärkaryd Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13294;7;J;J;I;J;127341;Mikael Salomonsson;45;M;Sävsjö;Konstruktör Hjälmseryd Stockaryd;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13294;8;J;J;I;J;127342;Tommy Trofast;71;M;Sävsjö;Skogstekniker Hylletofta Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13294;9;J;J;I;J;127343;Lennart Olsson;71;M;Sävsjö;Pensionär Sävsjövägen 45 Stockaryd;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;13294;10;J;J;I;J;127344;Maria Pettersson;56;K;Sävsjö;Ekonomibiträde Hylletofta Gläntan 1 Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;15578;1;J;J;I;J;127315;Christer Sandström;59;M;Sävsjö;Skogskonsulent Björkängsgatan 6 Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;15578;2;J;J;I;J;127316;Marie Svensson;57;K;Sävsjö;Leg. Distriktssköterska Ö. Esplanaden 4 Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;15578;3;J;J;I;J;127317;Christer Bengtsson;66;M;Sävsjö;Lantbrukare Ärnanäs 1 Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;15578;4;J;J;I;J;127319;Britt-Marie Andersson;56;K;Sävsjö;Lantbrukare Örsby Ängen Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;15578;5;J;J;I;J;127320;Siv Classon;66;K;Sävsjö;Sjuksköterska Ljunga Sunagård 7 Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;15578;6;J;J;I;J;127321;John Sjögren;24;M;Sävsjö;Lammproducent Hultsjö Kättorp 3 Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;15578;7;J;J;I;J;127322;Kenneth Malmsten-Ek;75;M;Sävsjö;Pensionär Kristnarp 3 Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;15578;8;J;J;I;J;127323;Jan-Gunnar Andersson;48;M;Sävsjö;Lantbrukare Ljunga Broddagård 2 Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Centerpartiet;C;4;S;15578;9;J;J;I;J;127324;Niklas Andersson;31;M;Sävsjö;Maskinförare Örsby 9 Sävsjö;23000;;J
+K;0684;Sävsjö;00;Sävsjö;Klassiskt liberala partiet;KLP;638;;;;N;J;J;I;513953;Westerlund, Sebastian;29;M;Sävsjö;;0;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;1;J;J;I;J;78039;Stefan Gustafsson;59;M;Sävsjö;Kommunalråd, Stockaryd;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;2;J;J;I;J;78040;Fredrik Håkansson;43;M;Sävsjö;Företagare, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;3;J;J;I;J;78041;Anna-Karin Yngvesson;54;K;Sävsjö;Undersköterska, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;4;J;J;I;J;78042;Per Danielsson;54;M;Sävsjö;Leg. psykolog, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;5;J;J;I;J;78043;Johanna Danielsson;30;K;Sävsjö;Inredningskonsult, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;6;J;J;I;J;78044;Hugo Cruz;63;M;Sävsjö;Områdeschef, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;7;J;J;I;J;78045;Dan Thelander;50;M;Sävsjö;Entreprenadsäljare, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;8;J;J;I;J;78046;Therese Petersson;47;K;Sävsjö;Företagare, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;9;J;J;I;J;78047;Ghassan Bahnan;38;M;Sävsjö;Industriarbetare, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;10;J;J;I;J;78048;Ing-Marie Arwidsson;62;K;Sävsjö;Lärare, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;11;J;J;I;J;78049;Amos Makajula;41;M;Sävsjö;Busschaufför, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;12;J;J;I;J;78050;Anncatrin Ek;59;K;Sävsjö;Förskollärare, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;13;J;J;I;J;78051;Per-Egon Eliasson;67;M;Sävsjö;Senior, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;14;J;J;I;J;78052;Pär-Eric Lantz;74;M;Sävsjö;Företagare, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;15;J;J;I;J;78053;Pernilla Johansson;46;K;Sävsjö;Barnpastor, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;16;J;J;I;J;78054;Samuel Bengtsson;36;M;Sävsjö;Hantverkare, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;17;J;J;I;J;78055;Agneta Hjalmarsson;65;K;Sävsjö;Distriktssköterska, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;18;J;J;I;J;78056;Samuel Nickolausson;52;M;Sävsjö;Yrkeslärare, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;19;J;J;I;J;78057;Jan Johansson;54;M;Sävsjö;Redovisningsekonom, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12867;20;J;J;I;J;78058;Mari Karlsson;51;K;Sävsjö;Lärare, Hultsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;1;J;J;I;J;78039;Stefan Gustafsson;59;M;Sävsjö;Kommunalråd, Stockaryd;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;2;J;J;I;J;78082;Bengt Swerlander;68;M;Sävsjö;Senior, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;3;J;J;I;J;78083;Daniel Karlsson;34;M;Sävsjö;Sågverksarbetare, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;4;J;J;I;J;78084;Erika Mallander Karlsson;56;K;Sävsjö;Sjuksköters, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;5;J;J;I;J;78085;Benjamin Petersson;19;M;Sävsjö;Studerande, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;6;J;J;I;J;78086;Helmer Andersson;71;M;Sävsjö;Byggnadsingenjör, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;7;J;J;I;J;78087;Marie Gustafsson;54;K;Sävsjö;Biståndshandl., Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;8;J;J;I;J;78088;Isac Kasiga;30;M;Sävsjö;Lärare, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;9;J;J;I;J;78089;Helene Sigfridsson;58;K;Sävsjö;Distriktssköterska, Söndra;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;10;J;J;I;J;78090;Bengt Mattsson;70;M;Sävsjö;Senior, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;11;J;J;I;J;78091;Katrin Sjögren;41;K;Sävsjö;Frisör, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;12;J;J;I;J;78092;Torbjörn Johansson;51;M;Sävsjö;Administratör, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;13;J;J;I;J;78093;Ing-Britt Lidhök;72;K;Sävsjö;fd SFI-lärare, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;14;J;J;I;J;78094;Sven-Åke Gårdstam;75;M;Sävsjö;Byggn.ingenjör, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;15;J;J;I;J;78095;May Andersson;56;K;Sävsjö;Barnskötare, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;16;J;J;I;J;78096;Göran Svensson;72;M;Sävsjö;Ingenjör, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12869;17;J;J;I;J;78097;Mattias Hjälmeby;47;M;Sävsjö;Byggnadsingenjör, Vrigstad;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;1;J;J;I;J;78039;Stefan Gustafsson;59;M;Sävsjö;Kommunalråd, Stockaryd;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;2;J;J;I;J;78099;Anders Griph;68;M;Sävsjö;Präst, Rörvik;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;3;J;J;I;J;78041;Anna-Karin Yngvesson;54;K;Sävsjö;Undersköterska, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;4;J;J;I;J;78042;Per Danielsson;54;M;Sävsjö;Leg. psykolog, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;5;J;J;I;J;78040;Fredrik Håkansson;43;M;Sävsjö;Företagare, Sävsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;6;J;J;I;J;78103;Isabelle Tiderblom;38;K;Sävsjö;Barnskötare, Rörvik;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;7;J;J;I;J;78104;Ludwig Axelsson;34;M;Sävsjö;Stockaryd;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;8;J;J;I;J;78058;Mari Karlsson;51;K;Sävsjö;Lärare, Hultsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;9;J;J;I;J;78106;Jonathan Andersson;23;M;Sävsjö;Ungd.ledare, Skärshult;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;10;J;J;I;J;78107;Anna Eriksson;45;K;Sävsjö;Grundskollärare, Hultsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;11;J;J;I;J;78108;Camilla Danielsson;51;K;Sävsjö;Förskollärare, Rörvik;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;12;J;J;I;J;78109;Mattias Svensson;44;M;Sävsjö;Lärare, Släthult;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;13;J;J;I;J;78089;Helene Sigfridsson;58;K;Sävsjö;Distriktssköterska, Söndra;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;14;J;J;I;J;78111;Mikael Erlandsson;54;M;Sävsjö;Byggn.entreprenör, Hultsjö;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;15;J;J;I;J;78112;Anna Svärd;53;K;Sävsjö;Vårdlärare, Stockaryd;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;16;J;J;I;J;78113;Annika Andersson;62;K;Sävsjö;Fritidspedagog, Skärshult;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Kristdemokraterna;KD;68;S;12870;17;J;J;I;J;78114;Bengt-Åke Håkansson;73;M;Sävsjö;fd Kyrkvaktm., Föreberg;15000;;J
+K;0684;Sävsjö;00;Sävsjö;Landsbygdspartiet Oberoende;LPo;1011;S;13684;1;J;J;I;J;185235;Mikael Sterner;42;M;Sävsjö;Ordförande, Sävsjö;4000;;J
+K;0684;Sävsjö;00;Sävsjö;Landsbygdspartiet Oberoende;LPo;1011;S;13684;2;J;J;I;J;185236;Carl-Eric Ländell;70;M;Sävsjö;Lärare, Vrigstad;4000;;J
+K;0684;Sävsjö;00;Sävsjö;Liberalerna (tidigare Folkpartiet);L;3;S;14136;1;J;J;I;J;204180;Peter Gran;51;M;Sävsjö;;8000;;J
+K;0684;Sävsjö;00;Sävsjö;Liberalerna (tidigare Folkpartiet);L;3;S;14136;2;J;J;I;J;241309;Bengt Antonsson;70;M;Sävsjö;;8000;;J
+K;0684;Sävsjö;00;Sävsjö;Liberalerna (tidigare Folkpartiet);L;3;S;14136;3;J;J;I;J;241310;Göran Larsnäs;75;M;Sävsjö;;8000;;J
+K;0684;Sävsjö;00;Sävsjö;Liberalerna (tidigare Folkpartiet);L;3;S;14136;4;J;J;I;J;241311;Marita Hagelvik;67;K;Sävsjö;;8000;;J
+K;0684;Sävsjö;00;Sävsjö;Liberalerna (tidigare Folkpartiet);L;3;S;14136;5;J;J;I;J;241312;Dagny Bergvall-Persson;79;K;Sävsjö;;8000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;1;J;J;I;J;72624;Alexandra Wikström Kelemen;34;K;Sävsjö;34 år, Företagare, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;2;J;J;I;J;72625;Mats Hermansson;59;M;Sävsjö;59 år, Möbelsnickare, Rörvik;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;3;J;J;I;J;72626;Patrik Christierson;53;M;Sävsjö;53 år, Företagare, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;4;J;J;I;J;72627;Gunnel Svensson;74;K;Sävsjö;74 år, Vårdlärare , Stockaryd;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;5;J;J;I;J;72628;Alf Wihrén;68;M;Sävsjö;68 år, Företagare, Vrigstad;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;6;J;J;I;J;72629;Bo Nilvall;75;M;Sävsjö;75 år, Civilingenjör, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;7;J;J;I;J;72630;Hans Svensson;73;M;Sävsjö;73 år, Pensionär, Vrigstad;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;8;J;J;I;J;72631;Arne Petersson;70;M;Sävsjö;70 år, Företagare, Rörvik;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;9;J;J;I;J;72632;Klas Hjalmarskog;36;M;Sävsjö;36 år, Egen företagare, Vrigstad;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;10;J;J;I;J;72633;Mats Karlsson;73;M;Sävsjö;73 år, Företagare, Vrigstad;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;11;J;J;I;J;72634;Jan-Ove Fransson;70;M;Sävsjö;70 år, Skogsbrukare, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;12;J;J;I;J;72635;József Kelemen;35;M;Sävsjö;35 år, Produktionsledare, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;13;J;J;I;J;72959;Morgan Olsson;50;M;Sävsjö;50 år,Teknisk chef, Stockaryd;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;14;J;J;I;J;72636;Martin Baum;36;M;Sävsjö;36 år, Företagare, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;15;J;J;I;J;72637;Kerstin Karlsson;68;K;Sävsjö;68 år, Lärare, Vrigstad;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;16;J;J;I;J;72638;Björn Svensson;70;M;Sävsjö;70 år, VA-ingenjör, Stockaryd;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;17;J;J;I;J;72639;Lars Ejert Steifeldt;73;M;Sävsjö;73 år, Pensionär, Rörvik;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;18;J;J;I;J;72964;Natalie Engvall Lundgren;47;K;Sävsjö;47 år, Företagare, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;19;J;J;I;J;72965;Daniel Axelsson;37;M;Sävsjö;37 år, Inköpare, Stockaryd;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;20;J;J;I;J;72640;Sonny Fridh;58;M;Sävsjö;58 år, Företagare, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;21;J;J;I;J;72967;Niclas Jonsson;44;M;Sävsjö;44 år, Företagare, Vrigstad;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;22;J;J;I;J;72641;Jonas Lagerqvist;50;M;Sävsjö;50 år, Varuhuschef, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;23;J;J;I;J;72642;Karin Magnusson;58;K;Sävsjö;58 år, Företagare, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;24;J;J;I;J;72643;Christer Gustavsson;70;M;Sävsjö;70 år, Åkeriägare, Stockaryd;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;25;J;J;I;J;72971;DJ Bramer;50;M;Sävsjö;50 år, Företagare, Vrigstad;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;26;J;J;I;J;72644;Claes Gynnerstedt;54;M;Sävsjö;54 år, Lantbrukare, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;27;J;J;I;J;72645;Inger Lundgren;70;K;Sävsjö;70 år, Kontorist, Stockaryd;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;28;J;J;I;J;72646;Ewa Svensson;71;K;Sävsjö;71 år, Pensionär, Vrigstad;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;29;J;J;I;J;72975;Berit Möller Hermansson;57;K;Sävsjö;57 år, VD, Rörvik;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;30;J;J;I;J;72647;Runa Jansson;77;K;Sävsjö;77 år, Redovisningschef, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Moderaterna;M;1;S;12793;31;J;J;I;J;72648;Harald Petersson;77;M;Sävsjö;77 år, Kyrkomusiker, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Sverigedemokraterna;SD;110;S;15442;1;N;J;J;I;122405;Lars-Ola Helgesson;65;M;Sävsjö;konsult, 65, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Sverigedemokraterna;SD;110;S;15442;2;N;J;J;I;122406;Kjell Lundkvist;71;M;Sävsjö;pensionär, 71, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Sverigedemokraterna;SD;110;S;15442;3;N;J;J;I;122407;Peter Evertson;55;M;Sävsjö;vaktmästare, 53, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Sverigedemokraterna;SD;110;S;15442;4;N;J;J;I;122408;Kennert Jonasson;74;M;Sävsjö;pensionär, 73, Rörvik;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Sverigedemokraterna;SD;110;S;15442;5;N;J;J;I;122409;Mikael Svensson;42;M;Sävsjö;montör, 42, Sävsjö;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Sverigedemokraterna;SD;110;S;15442;6;N;J;J;I;122410;Ronald Svensson;70;M;Sävsjö;pensionär, 69, Lammhult;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Sverigedemokraterna;SD;110;S;15442;7;N;J;J;I;122411;Bo Ek;55;M;Sävsjö;egenföretagare, 53, Hjälmseryd;26000;;J
+K;0684;Sävsjö;00;Sävsjö;Sverigedemokraterna;SD;110;;;;N;J;J;I;385306;Larsson, Arne Hemery Kenneth;73;M;Sävsjö;;0;;J
+K;0684;Sävsjö;00;Sävsjö;Sverigedemokraterna;SD;110;;;;N;J;J;I;515614;Komarica, Ljubomir;60;M;Sävsjö;;0;;J
+K;0684;Sävsjö;00;Sävsjö;Vänsterpartiet;V;5;S;13579;1;J;J;I;J;167477;Stefan Fürst;63;M;Sävsjö;metallarbetare;13000;;J
+K;0684;Sävsjö;00;Sävsjö;Vänsterpartiet;V;5;S;13579;2;J;J;I;J;167478;Kristina Jönsson;61;K;Sävsjö;förskolepedagog;13000;;J
+K;0684;Sävsjö;00;Sävsjö;Vänsterpartiet;V;5;S;13579;3;J;J;I;J;167479;Björn Jönsson;60;M;Sävsjö;pensionär;13000;;J
+K;0684;Sävsjö;00;Sävsjö;Vänsterpartiet;V;5;S;13579;4;J;J;I;J;167480;Frida Lindemann;34;K;Sävsjö;behandlingspedagog;13000;;J

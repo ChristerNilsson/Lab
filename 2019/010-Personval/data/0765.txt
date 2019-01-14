@@ -1,0 +1,161 @@
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;1;J;J;I;J;231898;Eva Ballovarre;36;K;Älmhult;36, distriktssköterska, Diö;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;2;J;J;I;J;231899;Stefan Jönsson;59;M;Älmhult;59, metallarbetare, Älmhult,;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;3;J;J;I;J;231900;Monica Haider;55;K;Älmhult;55, metallarbetare, Eneryda;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;4;J;J;I;J;231901;Lars Ingvert;65;M;Älmhult;66, pensionär, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;5;J;J;I;J;231902;Helen Bengtsson;50;K;Älmhult;50, kokerska, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;6;J;J;I;J;231903;Mattias Lindqvist;42;M;Älmhult;42, informationschef, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;7;J;J;I;J;231904;Petra Karlsson;48;K;Älmhult;48, projektledare, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;8;J;J;I;J;231905;Kent Ballovarre;38;M;Älmhult;38, elektriker, Diö;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;9;J;J;I;J;231906;Birgitta Bengtsson;68;K;Älmhult;68, pensionär, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;10;J;J;I;J;231907;Tommy Lövquist;68;M;Älmhult;68, yrkeslärare, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;11;J;J;I;J;231908;Ann Johansson;62;K;Älmhult;62, facklig förtroendevald, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;12;J;J;I;J;231909;Håkan Pettersson;41;M;Älmhult;42, industriarbetare, Virestad;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;13;J;J;I;J;231910;Kristina Spjut Sahlberg;53;K;Älmhult;53, undersköterska, Diö;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;14;J;J;I;J;231911;Anton Härder;52;M;Älmhult;52, informatör, Stenbrohult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;15;J;J;I;J;231912;Patricia Schooner;35;K;Älmhult;35, lärare,  Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;16;J;J;I;J;231913;Staffan Ferm;68;M;Älmhult;68,  pensionär, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;17;J;J;I;J;231914;Silvia Lobos;66;K;Älmhult;66, pensionär, Möckelsnäs;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;18;J;J;I;J;231915;Filip Akaronka;24;M;Älmhult;24, studievägledare, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;19;J;J;I;J;231916;Britta Crona;74;K;Älmhult;75, läkarsekreterare, Delary;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;20;J;J;I;J;231917;Tommy Sahlberg;49;M;Älmhult;49, chaufför, Diö;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;21;J;J;I;J;231918;Irene Svensson;66;K;Älmhult;66, socionom,  Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;22;J;J;I;J;231919;Einar Holmqvist;72;M;Älmhult;72, pensionär, Möckeln;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;23;J;J;I;J;231920;Birgitta Nilsson;70;K;Älmhult;71, förskollärare, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;24;J;J;I;J;231921;Ingemar Almkvist;66;M;Älmhult;66, pensionär, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;25;J;J;I;J;231922;Elin Nilsson;31;K;Älmhult;31, socionom, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;26;J;J;I;J;231923;Åke Karlsson;76;M;Älmhult;76, pensionär, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;27;J;J;I;J;231924;Maria Snaula;46;K;Älmhult;46, undersköterska,  Diö;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;28;J;J;I;J;231925;Fredrik Ekstrand;44;M;Älmhult;45, ombudsman, Eneryda;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;29;J;J;I;J;231926;Mina Zilkic;56;K;Älmhult;56, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;30;J;J;I;J;231927;Roland Johansson;74;M;Älmhult;75, pensionär, Hallaryd;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;31;J;J;I;J;231928;Monika Nilsson;53;K;Älmhult;54, undersköterska, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;32;J;J;I;J;231929;Lars Wegendal;69;M;Älmhult;69, pensionär, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;33;J;J;I;J;231930;Indira Ruiz Lundgren;41;K;Älmhult;42, socialsekreterare, Råshult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;34;J;J;I;J;231931;Kurt Olausson;72;M;Älmhult;72, pensionär,  Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;35;J;J;I;J;231932;Hillevi Wegendal;62;K;Älmhult;62, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;36;J;J;I;J;231933;Björn Dellenmark;70;M;Älmhult;70, pensionär,  Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Arbetarepartiet-Socialdemokraterna;S;2;S;14055;37;J;J;I;J;231934;Kerstin Bengtsson;74;K;Älmhult;75, pensionär, Eneryda;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;1;J;J;I;J;123039;Elizabeth Peltola;53;K;Älmhult;53, Kommunalråd, Diö;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;2;J;J;I;J;8552;Gusten Mårtensson;28;M;Älmhult;28, Statsvetare, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;3;J;J;I;J;123041;Marie Olofsson;48;K;Älmhult;48, Aukt. Redovisningskonsult, Ryfors;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;4;J;J;I;J;123042;Tomas Harrysson;50;M;Älmhult;50, Småföretagare, Virestad;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;5;J;J;I;J;123043;Yvonne Jonsson;62;K;Älmhult;62, Kommunikatör, Liatorp;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;6;J;J;I;J;123044;Vidar Lundbäck;67;M;Älmhult;67, Musiker, Hallaryd;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;7;J;J;I;J;123045;Pontus Haglund;45;M;Älmhult;45, Företagare, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;8;J;J;I;J;123046;Sofia Herbertsson;41;K;Älmhult;41, Enhetschef, Diö;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;9;J;J;I;J;123047;John-Arne Sandström;48;M;Älmhult;48, Entreprenör, Virestad;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;10;J;J;I;J;123048;Selin Hult;43;K;Älmhult;43, Projektledare, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;11;J;J;I;J;123049;Anders Mårtensson;63;M;Älmhult;63, Bonde, Göteryd;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;12;J;J;I;J;123050;Nusreta Kurtanovic Nilsson;52;K;Älmhult;52, Undersköterska, Gemön;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;13;J;J;I;J;123051;Claes Lindahl;66;M;Älmhult;67, Pensionär, Virestad;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;14;J;J;I;J;123052;Tobias Herz;52;M;Älmhult;52, Pedagog, Pjätteryd;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;15;J;J;I;J;123053;Lars Henriksson;74;M;Älmhult;74, Egenföretagare, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;16;J;J;I;J;123054;Ida Ekdahl;34;K;Älmhult;34, Civilingenjör, Delary;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;17;J;J;I;J;123055;Ola Willhammar;61;M;Älmhult;61, Processkonsult, Diö;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;18;J;J;I;J;123056;Ingemar Nilsson;67;M;Älmhult;67, Egenföretagare, Långasjömåla;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;19;J;J;I;J;123057;Jessica Wihlborg;45;K;Älmhult;45, Kommunikationsansvarig, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;20;J;J;I;J;123058;Jonny Johansson;52;M;Älmhult;52, Kyrkvaktmästare, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;21;J;J;I;J;123059;Anita Håkansson;66;K;Älmhult;66, Pensionär, Tiakölna;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;22;J;J;I;J;123060;Peter Niklasson;51;M;Älmhult;51, Kundcenterchef, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;23;J;J;I;J;123061;Knut Lange;66;M;Älmhult;66, Pensionär, Apelhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;24;J;J;I;J;123062;Mouhamad Bassam Al Omari;48;M;Älmhult;48, Vaktmästare, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;25;J;J;I;J;123063;Bengt Håkansson;72;M;Älmhult;71, Fd. bankdirektör, Hallaryd;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;26;J;J;I;J;123064;Iain Mackie;54;M;Älmhult;54, Finanschef, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;27;J;J;I;J;123065;Anders Eriksson;58;M;Älmhult;58, Bonde, Pjätteryd;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;28;J;J;I;J;123066;Laila Hult;70;K;Älmhult;70, Företagare, Liatorp;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;29;J;J;I;J;123067;Annelie Olin;59;K;Älmhult;59, Lärare/Personlig assistent, Arveka;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;30;J;J;I;J;123068;Tryggve Eriksson;72;M;Älmhult;72, Egenföretagare, Virestad;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;31;J;J;I;J;123069;Niklas Petersson;48;M;Älmhult;48, Polis, Ryfors;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;32;J;J;I;J;123070;Agneta Andersson;41;K;Älmhult;41, Leg. Veterinär, Eneryda;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;33;J;J;I;J;123071;Peter Sandberg;51;M;Älmhult;51, Egenföretagare, Nedraön;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;34;J;J;I;J;123072;Elisabet Gunnarsson;61;K;Älmhult;61, Lanthandlare, Uthövdan;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;35;J;J;I;J;123073;Lennart Pettersson;65;M;Älmhult;65, Företagssköterska, Pjätteryd;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;36;J;J;I;J;123074;Jan-Åke Johannesson;57;M;Älmhult;58, Byggmästare, Lindö;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;37;J;J;I;J;123075;Bo Göransson;67;M;Älmhult;67, Jordbrukare, Tiakölna;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;38;J;J;I;J;123076;Hassan Abdulwahab;39;M;Älmhult;39, Koordinator, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;39;J;J;I;J;123077;Greta Ivarsson;62;K;Älmhult;62, Lantbrukare, Eneryda;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;40;J;J;I;J;123078;Krister Svensson;61;M;Älmhult;62, Bonde, Göteryd;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;41;J;J;I;J;123079;Ingegärd Lundbäck;64;K;Älmhult;64, Musiker, Hallaryd;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;42;J;J;I;J;123080;Ulf Olin;66;M;Älmhult;66, Skogsföretagare, Arveka;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;43;J;J;I;J;123081;Ingemar Johnsson;73;M;Älmhult;73, Civilekonom, Stenbrohult;38000;;J
+K;0765;Älmhult;00;Älmhult;Centerpartiet;C;4;S;13211;44;J;J;I;J;123082;Leif Nilsson;65;M;Älmhult;65, Pensionär, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Kristdemokraterna;KD;68;S;13680;1;J;J;I;J;184949;Gun-Britt Cedergren;71;K;Älmhult;f.d. Rektor, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Kristdemokraterna;KD;68;S;13680;2;J;J;I;J;184950;Karl-Henrik Wallerstein;41;M;Älmhult;Kyrkoherde, Diö;38000;;J
+K;0765;Älmhult;00;Älmhult;Kristdemokraterna;KD;68;S;13680;3;J;J;I;J;184951;Livia Martinsson;53;K;Älmhult;Montör, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Kristdemokraterna;KD;68;S;13680;4;J;J;I;J;184952;Hilda Aramayes Ardash;40;K;Älmhult;Tolk, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Kristdemokraterna;KD;68;S;13680;5;J;J;I;J;184953;Krister Martinsson;73;M;Älmhult;f.d. Golvläggare, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Kristdemokraterna;KD;68;S;13680;6;J;J;I;J;184954;Ingvar Svensson;74;M;Älmhult;f.d. Riksdagsledamot, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Kristdemokraterna;KD;68;S;13680;7;J;J;I;J;184955;Karoline Karlén;42;K;Älmhult;Säljare, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Kristdemokraterna;KD;68;S;13680;8;J;J;I;J;184956;Madeleine Lideberg;59;K;Älmhult;Adm. handläggare, Diö;38000;;J
+K;0765;Älmhult;00;Älmhult;Kristdemokraterna;KD;68;S;13680;9;J;J;I;J;184957;Magnus Strandberg;56;M;Älmhult;Skogstekniker, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Kristdemokraterna;KD;68;S;13680;10;J;J;I;J;184958;Hans Cedergren;71;M;Älmhult;Fil. mag., Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Kristdemokraterna;KD;68;S;13680;11;J;J;I;J;184959;Jakob Sträng;37;M;Älmhult;Rektor, Virestad;38000;;J
+K;0765;Älmhult;00;Älmhult;Kristdemokraterna;KD;68;S;13680;12;J;J;I;J;184960;Dan Bülow;73;M;Älmhult;Fil. mag., Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Kristdemokraterna;KD;68;S;13680;13;J;J;I;J;184961;Maria Cedergren;43;K;Älmhult;Lärare, Häradsbäck;38000;;J
+K;0765;Älmhult;00;Älmhult;Landsbygdspartiet Oberoende;LPo;1011;S;15115;1;J;J;I;J;395973;Olle Tillemark;59;M;Älmhult;Metallarbetare, Virestad;3000;;J
+K;0765;Älmhult;00;Älmhult;Landsbygdspartiet Oberoende;LPo;1011;S;15115;2;J;J;I;J;283555;Jens Hermansson;61;M;Älmhult;Båtman, Häradsbäck;3000;;J
+K;0765;Älmhult;00;Älmhult;Landsbygdspartiet Oberoende;LPo;1011;S;15115;3;J;J;I;J;395975;Stefan Hörberg;41;M;Älmhult;Bonde & IT-konsult, Diö;3000;;J
+K;0765;Älmhult;00;Älmhult;Liberalerna (tidigare Folkpartiet);L;3;S;14599;1;J;J;I;J;298498;Senada Hodzic;39;K;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Liberalerna (tidigare Folkpartiet);L;3;S;14599;2;J;J;I;J;298499;Bo Bergsjö;67;M;Älmhult;Pjätteryd;38000;;J
+K;0765;Älmhult;00;Älmhult;Liberalerna (tidigare Folkpartiet);L;3;S;14599;3;J;J;I;J;298500;Lina Yosefi;22;K;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Liberalerna (tidigare Folkpartiet);L;3;S;14599;4;J;J;I;J;298501;Jan Gustavsson;54;M;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Liberalerna (tidigare Folkpartiet);L;3;S;14599;5;J;J;I;J;298502;Maria Gustafsson;52;K;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Liberalerna (tidigare Folkpartiet);L;3;S;14599;6;J;J;I;J;298503;Lars Janson;73;M;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Liberalerna (tidigare Folkpartiet);L;3;S;14599;7;J;J;I;J;298504;Ingegerd Lennartsson;72;K;Älmhult;Liatorp;38000;;J
+K;0765;Älmhult;00;Älmhult;Liberalerna (tidigare Folkpartiet);L;3;S;14599;8;J;J;I;J;298505;Gulli Janson;72;K;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Miljöpartiet de gröna;MP;55;S;14920;1;J;J;I;J;365554;Jan Fagerberg;65;M;Älmhult;65 år, Arbetsledare, Älmhult;32000;;J
+K;0765;Älmhult;00;Älmhult;Miljöpartiet de gröna;MP;55;S;14920;2;J;J;I;J;363998;Michael Öberg;49;M;Älmhult;49 år, Personalvetare, Älmhult;32000;;J
+K;0765;Älmhult;00;Älmhult;Miljöpartiet de gröna;MP;55;S;14920;3;J;J;I;J;365556;Jamil Ahmad Nazar;37;M;Älmhult;37 år, Logistiker, Älmhult;32000;;J
+K;0765;Älmhult;00;Älmhult;Miljöpartiet de gröna;MP;55;S;14920;4;J;J;I;J;365557;Ulla Rundlöf;67;K;Göteborg;67 år, Naturguide, Diö;32000;;J
+K;0765;Älmhult;00;Älmhult;Miljöpartiet de gröna;MP;55;S;14920;5;J;J;I;J;365558;Mohammed Al Heswani;36;M;Älmhult;36 år, Säljare, Älmhult;32000;;J
+K;0765;Älmhult;00;Älmhult;Miljöpartiet de gröna;MP;55;S;14920;6;J;J;I;J;365559;Roni Salomonsson;65;M;Älmhult;65 år, Senior, Älmhult;32000;;J
+K;0765;Älmhult;00;Älmhult;Miljöpartiet de gröna;MP;55;S;14920;7;J;J;I;J;365560;Eva Dickner;54;K;Älmhult;54 år, Gymnasielärare, Älmhult;32000;;J
+K;0765;Älmhult;00;Älmhult;Miljöpartiet de gröna;MP;55;S;14920;8;J;J;I;J;365658;Göran Johansson;76;M;Älmhult;76 år, Senior, Älmhult;32000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;1;J;J;I;J;45932;Sonja Emilsson;65;K;Älmhult;Liatorp;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;2;J;J;I;J;46343;Bo Mazetti-Nissen;73;M;Älmhult;Hallaryd;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;3;J;J;I;J;46344;Tomas Simonsson;69;M;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;4;J;J;I;J;46345;Inga Karlsson;74;K;Älmhult;Abborraslätt;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;5;J;J;I;J;46346;Jakob Willborg;42;M;Älmhult;Hormeshult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;6;J;J;I;J;45916;Viktor Emilsson;27;M;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;7;J;J;I;J;46348;Daniel Stenvall;38;M;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;8;J;J;I;J;46349;Dan Blixt;56;M;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;9;J;J;I;J;46350;Tord Åkesson;75;M;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;10;J;J;I;J;46351;Marie Rosenquist;69;K;Helsingborg;Boastad;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;11;J;J;I;J;46352;Fredrik Danielsson;34;M;Älmhult;Diö;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;12;J;J;I;J;45934;Erik Ederfors;22;M;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;13;J;J;I;J;46354;Elof Danielsson;38;M;Älmhult;Göteryd;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;14;J;J;I;J;46355;Roland Johansson;71;M;Älmhult;Damsnäs;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;15;J;J;I;J;46009;Soili Lång-Söderberg;63;K;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;16;J;J;I;J;46357;Göran Widing;67;M;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;17;J;J;I;J;46358;Ann-Sofie Sune;54;K;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;18;J;J;I;J;46359;Anders Stigsson;66;M;Älmhult;Diö;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;19;J;J;I;J;46360;Niclas Rarysson;52;M;Älmhult;Göteryd;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;20;J;J;I;J;46361;Bengt-Eric Ericsson;57;M;Älmhult;Stenbrohult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;21;J;J;I;J;46362;Birgit Käll Andersson;73;K;Älmhult;Stenbrohult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;22;J;J;I;J;46363;Bengt Adolfsson;67;M;Älmhult;Liatorp;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;23;J;J;I;J;46364;Claes Moberg;26;M;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;24;J;J;I;J;46365;Rumiana Miteva De Reyes;65;K;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;25;J;J;I;J;46366;Jens J.Jörgensen;74;M;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;26;J;J;I;J;46367;Anders Håkansson;50;M;Älmhult;Eneryda;38000;;J
+K;0765;Älmhult;00;Älmhult;Moderaterna;M;1;S;12411;27;J;J;I;J;46368;Staffan Wyke;75;M;Älmhult;Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Sverigedemokraterna;SD;110;S;12423;1;J;J;I;J;47226;Börje Tranvik;63;M;Älmhult;62 år, Pensionär;38000;;J
+K;0765;Älmhult;00;Älmhult;Sverigedemokraterna;SD;110;S;12423;2;J;J;I;J;47227;Gull-Britt Tranvik;60;K;Älmhult;60 år, Vårdbiträde;38000;;J
+K;0765;Älmhult;00;Älmhult;Sverigedemokraterna;SD;110;S;12423;3;J;J;I;J;47228;Lennart Strand;58;M;Älmhult;59 år, Entreprenör;38000;;J
+K;0765;Älmhult;00;Älmhult;Sverigedemokraterna;SD;110;S;12423;4;J;J;I;N;47229;[inte lämnat förklaring];;;;;38000;;N
+K;0765;Älmhult;00;Älmhult;Sverigedemokraterna;SD;110;S;12423;5;J;J;I;J;47230;Tord Helle;55;M;Älmhult;55 år, Svetsare;38000;;J
+K;0765;Älmhult;00;Älmhult;Sverigedemokraterna;SD;110;S;12423;6;J;J;I;J;47231;Carl-Gustaf Hansson;63;M;Älmhult;62 år, Pensionär;38000;;J
+K;0765;Älmhult;00;Älmhult;Sverigedemokraterna;SD;110;S;12423;7;J;J;I;J;166022;Göran Johansson;67;M;Älmhult;67 år, Pensionär;38000;;J
+K;0765;Älmhult;00;Älmhult;Sverigedemokraterna;SD;110;S;12423;8;J;J;I;N;47232;[inte lämnat förklaring];;;;;38000;;N
+K;0765;Älmhult;00;Älmhult;Sverigedemokraterna;SD;110;;;;J;J;I;N;513435;[inte lämnat förklaring];;;;;0;;N
+K;0765;Älmhult;00;Älmhult;Vänsterpartiet;V;5;S;14210;1;J;J;I;J;247202;Ulla-Britt Andreasson;50;K;Älmhult;50 år, enhetsassistent, Häradsbäck;38000;;J
+K;0765;Älmhult;00;Älmhult;Vänsterpartiet;V;5;S;14210;2;J;J;I;J;104864;Predrag Jankovic;58;M;Älmhult;58 år, HVB-anställd, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Vänsterpartiet;V;5;S;14210;3;J;J;I;J;247204;Ann-Louise Ljung;54;K;Älmhult;55 år, fritidspedagog, Diö;38000;;J
+K;0765;Älmhult;00;Älmhult;Vänsterpartiet;V;5;S;14210;4;J;J;I;J;247205;Karl-Bertil Bertilsson;74;M;Älmhult;74 år, pensionär, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Vänsterpartiet;V;5;S;14210;5;J;J;I;J;247206;Shanti Maria Persson;37;K;Älmhult;37 år, boendeassistent, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Vänsterpartiet;V;5;S;14210;6;J;J;I;J;246050;Jerker Nilsson;50;M;Älmhult;50 år, Liatorp;38000;;J
+K;0765;Älmhult;00;Älmhult;Vänsterpartiet;V;5;S;14210;7;J;J;I;J;247208;Annika Andersson;47;K;Älmhult;47 år, Liatorp;38000;;J
+K;0765;Älmhult;00;Älmhult;Vänsterpartiet;V;5;S;14210;8;J;J;I;J;247209;Karin Dellenmark;69;K;Älmhult;69 år, pensionär, Älmhult;38000;;J
+K;0765;Älmhult;00;Älmhult;Vänsterpartiet;V;5;S;14210;9;J;J;I;J;247210;Michael Haider;66;M;Älmhult;65 år, sjuksköterska, Eneryda;38000;;J
+K;0765;Älmhult;00;Älmhult;Vänsterpartiet;V;5;S;14210;10;J;J;I;J;247211;Christina Lennarthsson;56;K;Älmhult;56 år, undersköterska, Häradsbäck;38000;;J
+K;0765;Älmhult;00;Älmhult;Vänsterpartiet;V;5;S;14210;11;J;J;I;J;247212;Karl-Henrik Johansson;36;M;Älmhult;36 år, Häradsbäck;38000;;J
+K;0765;Älmhult;00;Älmhult;Vänsterpartiet;V;5;S;14210;12;J;J;I;J;247213;Anette Nilsson;60;K;Älmhult;60 år, Älmhult;38000;;J

@@ -1,0 +1,101 @@
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;1;J;J;I;J;73827;Per Gruvberger;60;M;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;2;J;J;I;J;75367;Marina Isaksson;58;K;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;3;J;J;I;J;201010;Torbjörn Parling;63;M;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;4;J;J;I;J;201065;Britt-Marie Wall;66;K;Filipstad;Nykroppa;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;5;J;J;I;J;74766;Jomark Polintan;26;M;Filipstad;Nykroppa;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;6;J;J;I;J;201067;Heléne Larsson Saikoff;70;K;Filipstad;Brattfors;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;7;J;J;I;J;201068;Henric Forsberg;44;M;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;8;J;J;I;J;22202;Åsa Hååkman Felth;48;K;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;9;J;J;I;J;201132;Olle Engström;67;M;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;10;J;J;I;J;201133;Ann-Marie Rosö;62;K;Filipstad;Horrsjön;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;11;J;J;I;J;201134;Claes-Eric Ericsson;66;M;Filipstad;Horrsjön;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;12;J;J;I;J;201303;Rima Shams Al-Deen;33;K;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;13;J;J;I;J;201304;Torgeir Pettersen;73;M;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;14;J;J;I;J;201305;Louise Eriksson;51;K;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;15;J;J;I;J;76152;Mats Thunér;64;M;Filipstad;Nykroppa;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;16;J;J;I;J;201490;Lillvor Eriksson;69;K;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;17;J;J;I;J;201491;Johan Larsson;35;M;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;18;J;J;I;J;201492;Stefanie Maultasch;22;K;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;19;J;J;I;J;201493;Stefan Andersson;53;M;Filipstad;Lesjöfors;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;20;J;J;I;J;201943;Kerstin Svensson;63;K;Filipstad;Lesjöfors;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;21;J;J;I;J;201946;Sune Frisk;77;M;Filipstad;Nykroppa;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;22;J;J;I;J;201945;Monika Samuelsson;66;K;Filipstad;Prästbacken;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;23;J;J;I;J;201948;Håkan Engström;57;M;Filipstad;Lesjöfors;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;24;J;J;I;J;201947;Iréne Frisk;75;K;Filipstad;Nykroppa;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;25;J;J;I;J;201950;Per-Åke Sandberg;73;M;Filipstad;Lesjöfors;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;26;J;J;I;J;201949;Elisabeth Maultasch;19;K;Filipstad;Nordmarkshyttan;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;27;J;J;I;J;201952;Paul Andersson;77;M;Filipstad;Lesjöfors;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;28;J;J;I;J;201951;Yasmin Adam Isaaq;31;K;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;29;J;J;I;J;202425;Mahdi Mohammadi;18;M;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;30;J;J;I;J;202741;Britta Wikström;68;K;Filipstad;Nykroppa;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;31;J;J;I;J;202742;Bertil Nilsson;70;M;Filipstad;Lesjöfors;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;32;J;J;I;J;202743;Birgitta Geijer;58;K;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;33;J;J;I;J;202744;Qeyam Amini;18;M;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;34;J;J;I;J;202925;Britta Lundbäck;71;K;Filipstad;Nykroppa;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;35;J;J;I;J;202926;Urban Granfeldt;56;M;Filipstad;Filipstad;41000;;J
+K;1782;Filipstad;00;Filipstad;Arbetarepartiet-Socialdemokraterna;S;2;S;15568;36;J;J;I;J;202927;Lena Andersson Dahlberg;37;K;Filipstad;Lesjöfors;41000;;J
+K;1782;Filipstad;00;Filipstad;Centerpartiet;C;4;S;12147;1;J;J;I;J;27548;Nils-Erik Mellström;69;M;Filipstad;69 år, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Centerpartiet;C;4;S;12147;2;J;J;I;J;27549;Peter Johansson;55;M;Filipstad;55 år, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Centerpartiet;C;4;S;12147;3;J;J;I;J;27550;Monica Mellström;68;K;Filipstad;68 år, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Centerpartiet;C;4;S;12147;4;J;J;I;J;27551;Eilert Eriksson;67;M;Filipstad;67 år, Brattfors;26000;;J
+K;1782;Filipstad;00;Filipstad;Centerpartiet;C;4;S;12147;5;J;J;I;J;27552;Andreas Kårén;33;M;Filipstad;33 år, Gåsborn;26000;;J
+K;1782;Filipstad;00;Filipstad;Centerpartiet;C;4;S;12147;6;J;J;I;J;27553;Gudrun Henriksson;72;K;Filipstad;73 år, Brattfors;26000;;J
+K;1782;Filipstad;00;Filipstad;Centerpartiet;C;4;S;12147;7;J;J;I;J;27554;Rolf Christoffersson;74;M;Filipstad;74 år, Långban;26000;;J
+K;1782;Filipstad;00;Filipstad;Kristdemokraterna;KD;68;S;14991;1;J;J;I;J;381183;Göran Andersson;66;M;Filipstad;;10000;;J
+K;1782;Filipstad;00;Filipstad;Kristdemokraterna;KD;68;S;14991;2;J;J;I;J;381184;Peter Nylund;47;M;Filipstad;;10000;;J
+K;1782;Filipstad;00;Filipstad;Kristdemokraterna;KD;68;S;14991;3;J;J;I;J;381185;Karl-Erik Brobäck;66;M;Filipstad;;10000;;J
+K;1782;Filipstad;00;Filipstad;Kristdemokraterna;KD;68;S;14991;4;J;J;I;J;381186;Ulf Hedman;67;M;Filipstad;;10000;;J
+K;1782;Filipstad;00;Filipstad;Liberalerna (tidigare Folkpartiet);L;3;S;14648;1;J;J;I;J;62051;Michael Helmersson;54;M;Filipstad;Brattfors;26000;;J
+K;1782;Filipstad;00;Filipstad;Liberalerna (tidigare Folkpartiet);L;3;S;14648;2;J;J;I;J;28205;Ulla Olsson;71;K;Filipstad;Bolhyttan;26000;;J
+K;1782;Filipstad;00;Filipstad;Liberalerna (tidigare Folkpartiet);L;3;S;14648;3;J;J;I;J;62053;Simone Hullström;78;K;Filipstad;Nykroppa;26000;;J
+K;1782;Filipstad;00;Filipstad;Liberalerna (tidigare Folkpartiet);L;3;S;14648;4;J;J;I;J;212999;Göran Helmersson;52;M;Filipstad;Brattfors;26000;;J
+K;1782;Filipstad;00;Filipstad;Liberalerna (tidigare Folkpartiet);L;3;S;14648;5;J;J;I;J;213000;Ebba Jonegård-Berggren;70;K;Filipstad;Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Liberalerna (tidigare Folkpartiet);L;3;S;14648;6;J;J;I;J;213001;Ingegerd Lindström;80;K;Filipstad;Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Liberalerna (tidigare Folkpartiet);L;3;S;14648;7;J;J;I;J;213002;Inger Abrahamsson Edwertz;71;K;Filipstad;Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Liberalerna (tidigare Folkpartiet);L;3;S;14648;8;J;J;I;J;213003;Bengt Olsson;93;M;Filipstad;Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Miljöpartiet de gröna;MP;55;S;15178;1;J;J;I;J;414454;Alfred Maultasch;69;M;Filipstad;energiomställningskonsult, Nordmarkshyttan;25000;;J
+K;1782;Filipstad;00;Filipstad;Miljöpartiet de gröna;MP;55;S;15178;2;J;J;I;J;414455;Kerstin Chrunak;73;K;Filipstad;kyrkomusiker, Nykroppa;25000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;1;J;J;I;J;37692;Christer Olsson;60;M;Filipstad;Leg. Sjuksköterska, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;2;J;J;I;J;653;Ulf Söhrman;74;M;Filipstad;Civilingenjör, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;3;J;J;I;J;37694;Lotta Jonsson;42;K;Filipstad;Styrkeledare, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;4;J;J;I;J;610;Marcos Ciscar;45;M;Filipstad;Musikproducent, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;5;J;J;I;J;634;Patrik Fornander;50;M;Filipstad;Egen företagare, Nykroppa;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;6;J;J;I;J;37697;Filip Dahlöv;19;M;Filipstad;Elevassistent, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;7;J;J;I;J;37698;Sofie Svensson;30;K;Filipstad;Undersköterska, Nordmarkshyttan;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;8;J;J;I;J;37699;Lena Olsson;65;K;Filipstad;Leg. Sjuksköterska, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;9;J;J;I;J;37700;Mark Morén;59;M;Filipstad;Säljare, Nykroppa;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;10;J;J;I;J;37701;Ottfried Eickenrodt;77;M;Filipstad;Ekonom, Lesjöfors;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;11;J;J;I;J;37702;Christina Söhrman;74;K;Filipstad;Fd. Lärare, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;12;J;J;I;J;37703;Frida Olsson;31;K;Filipstad;Undersköterska, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;13;J;J;I;J;37704;Per Hero;53;M;Filipstad;Fastighetsskötare, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;14;J;J;I;J;664;Eva Närvä Eickenrodt;67;K;Filipstad;Ekonom, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;15;J;J;I;J;37706;Håkan Eriksson;73;M;Filipstad;Affärsområdeschef, Paradis;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;16;J;J;I;J;37707;Lina Eriksson;37;K;Filipstad;Assistent, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;17;J;J;I;J;37708;Camilla Nyqvist;50;K;Örebro;Handledare, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;18;J;J;I;J;37709;Caroline Lundberg;32;K;Filipstad;Undersköterska, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;19;J;J;I;J;37710;Jerry Rothin;66;M;Filipstad;Egen företagare, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Moderaterna;M;1;S;12296;20;J;J;I;J;37711;Göran Hellblom;66;M;Storfors;Egen företagare, Rämmen;26000;;J
+K;1782;Filipstad;00;Filipstad;Sverigedemokraterna;SD;110;S;13002;1;N;J;J;I;95597;Urban Pettersson;61;M;Filipstad;61, Civilingenjör, Nykroppa;26000;;J
+K;1782;Filipstad;00;Filipstad;Sverigedemokraterna;SD;110;S;13002;2;N;J;J;I;95598;Helena Halvarsson;40;K;Filipstad;40, Industriarbetare, Lesjöfors;26000;;J
+K;1782;Filipstad;00;Filipstad;Sverigedemokraterna;SD;110;S;13002;3;N;J;J;I;95599;Johnny Grahn;47;M;Filipstad;47, Busschaufför, Nykroppa;26000;;J
+K;1782;Filipstad;00;Filipstad;Sverigedemokraterna;SD;110;S;13002;4;N;J;J;I;95600;Eva Eriksson;65;K;Filipstad;64, Undersköterska, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Sverigedemokraterna;SD;110;S;13002;5;N;J;J;I;95601;Tord Johansson;63;M;Filipstad;62, Resemontör, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Sverigedemokraterna;SD;110;S;13002;6;N;J;J;I;95602;Roger Göransson;44;M;Filipstad;44, Grävmaskinist, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Sverigedemokraterna;SD;110;S;13002;7;N;J;J;I;95603;Ida Petersson;25;K;Filipstad;25, Säljledare/Studerande, Nykroppa;26000;;J
+K;1782;Filipstad;00;Filipstad;Sverigedemokraterna;SD;110;S;13002;8;N;J;J;I;95604;Börje Andersson;72;M;Filipstad;72, Pensionär/Förvaltare, Nykroppa;26000;;J
+K;1782;Filipstad;00;Filipstad;Sverigedemokraterna;SD;110;S;13002;9;N;J;J;I;95605;Helena Örbom;46;K;Filipstad;45, Hemtjänst/Stödperson, Nykroppa;26000;;J
+K;1782;Filipstad;00;Filipstad;Sverigedemokraterna;SD;110;S;13002;10;N;J;J;I;95606;Kenneth Rydén;72;M;Filipstad;72, Gruvnörd, Nykroppa;26000;;J
+K;1782;Filipstad;00;Filipstad;Sverigedemokraterna;SD;110;S;13002;11;N;J;J;I;95607;Robert Spector;30;M;Filipstad;30, Studerande, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Sverigedemokraterna;SD;110;S;13002;12;N;J;J;I;253267;Corey Andersson;37;M;Filipstad;37, Undersköterska/Studerande, Filipstad;26000;;J
+K;1782;Filipstad;00;Filipstad;Sverigedemokraterna;SD;110;;;;N;J;J;I;514133;Jansson, Catarina;52;K;Filipstad;;0;;J
+K;1782;Filipstad;00;Filipstad;Vänsterpartiet;V;5;S;13090;1;J;J;I;J;30298;Anders Nilsson;57;M;Filipstad;Nykroppa, behandlingsassistent, 58 år;26000;;J
+K;1782;Filipstad;00;Filipstad;Vänsterpartiet;V;5;S;13090;2;J;J;I;J;109856;Christel Iversen;58;K;Filipstad;Nordmarkshyttan, personligt ombud, 58 år;26000;;J
+K;1782;Filipstad;00;Filipstad;Vänsterpartiet;V;5;S;13090;3;J;J;I;J;109857;Percy Bok Fallgren;67;M;Filipstad;Persberg, pensionär, 67 år;26000;;J
+K;1782;Filipstad;00;Filipstad;Vänsterpartiet;V;5;S;13090;4;J;J;I;J;109858;Karin Löfstrand;65;K;Filipstad;Nykroppa, arbetande pensionär, 65 år;26000;;J
+K;1782;Filipstad;00;Filipstad;Vänsterpartiet;V;5;S;13090;5;J;J;I;J;109859;Robin Hedlund;32;M;Filipstad;Filipstad, maskinoperatör, 32 år;26000;;J
+K;1782;Filipstad;00;Filipstad;Vänsterpartiet;V;5;S;13090;6;J;J;I;J;109860;Ayla Iversen;26;K;Filipstad;Filipstad, student, 25 år;26000;;J
+K;1782;Filipstad;00;Filipstad;Vänsterpartiet;V;5;S;13090;7;J;J;I;J;109861;Helena Viitakangas;63;K;Filipstad;Lesjöfors, pensionär, 63 år;26000;;J
+K;1782;Filipstad;00;Filipstad;Vänsterpartiet;V;5;S;13090;8;J;J;I;J;109862;Anders Andersson;52;M;Filipstad;Lesjöfors, ombudsman, 53 år;26000;;J
+K;1782;Filipstad;00;Filipstad;Vänsterpartiet;V;5;S;13090;9;J;J;I;J;109863;Anne-Marie Nilsson;61;K;Filipstad;Nykroppa, undersköterska, 62 år;26000;;J
+K;1782;Filipstad;00;Filipstad;Vänsterpartiet;V;5;S;13090;10;J;J;I;J;109864;Håkan Stange;36;M;Filipstad;Filipstad, CNC-operatör, 36 år;26000;;J
+K;1782;Filipstad;00;Filipstad;Vänsterpartiet;V;5;S;13090;11;J;J;I;J;109865;Jens Buskas;70;M;Filipstad;Nordmarkshyttan, pensionär, 70 år;26000;;J

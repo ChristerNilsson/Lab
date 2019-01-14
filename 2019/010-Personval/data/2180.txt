@@ -1,0 +1,411 @@
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;1;J;J;I;J;148623;Åsa Wiklund Lång;47;K;Gävle;47 år, habiliterare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;2;J;J;I;J;148624;Jörgen Edsvik;43;M;Gävle;43 år, tjänsteman;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;3;J;J;I;J;148625;Eva Älander;35;K;Gävle;35 år, lärare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;4;J;J;I;J;29149;Daniel Olsson;30;M;Gävle;30 år, lärare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;5;J;J;I;J;148627;Sanna Backeskog;33;K;Gävle;33 år, ombudsman;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;6;J;J;I;J;29161;Ahmed Amin;30;M;Gävle;30 år, verksamhetsutvecklare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;7;J;J;I;J;148629;Mona Kolarby;58;K;Gävle;58 år, personalchef;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;8;J;J;I;J;148630;Hans Wahlström;76;M;Gävle;76 år, pensionär;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;9;J;J;I;J;148631;Matilda Sundquist Boox;27;K;Gävle;27 år, socionom;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;10;J;J;I;J;148632;Lars Öberg;44;M;Gävle;44 år, handledare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;11;J;J;I;J;148633;Lena Säfström;56;K;Gävle;56 år, kommunikatör;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;12;J;J;I;J;148634;Håkan Alenius;51;M;Gävle;51 år, ombudsman;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;13;J;J;I;J;29354;Emma Wannberg;34;K;Gävle;34 år, funktionschef, IT;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;14;J;J;I;J;148636;Lars-Göran Ståhl;68;M;Gävle;68 år, pensionär;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;15;J;J;I;J;148637;Lisa Trevitt;37;K;Gävle;37 år, strategisk miljökonsult;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;16;J;J;I;J;29355;Hampus Forsmark;40;M;Gävle;40 år, lärare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;17;J;J;I;J;148639;Kristina Hellström;69;K;Gävle;69 år, fd gymnasielärare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;18;J;J;I;J;148640;Kent Edin;66;M;Gävle;66 år, entreprenör;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;19;J;J;I;J;148641;Sara Astner;40;K;Gävle;40 år, bingovärdinna;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;20;J;J;I;J;148642;Christoffer Rogsberg;34;M;Gävle;34 år, kustbevakare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;21;J;J;I;J;148643;Ewa Jansson;52;K;Gävle;52 år, ombudsman;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;22;J;J;I;J;148644;Antti Vainio;34;M;Gävle;34 år, politisk sakkunnig;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;23;J;J;I;J;148645;Leyla Tarhan;44;K;Gävle;44 år, socionom;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;24;J;J;I;J;148646;Niklas Nygren;44;M;Gävle;44 år, personlig tränare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;25;J;J;I;J;148647;Frida Olsson;28;K;Gävle;28 år, utredare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;26;J;J;I;J;148648;Damian Riveira Linares;26;M;Gävle;26 år, lärare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;27;J;J;I;J;148649;Marie Rogsberg;37;K;Gävle;37 år, handläggare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;28;J;J;I;J;148650;Torgny Jacobsson;45;M;Gävle;45 år, ombudsman/chef;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;29;J;J;I;J;148651;Ellinor Hedblom;70;K;Gävle;70 år, pensionär;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;30;J;J;I;J;148652;David Rabenius;36;M;Gävle;36 år, lärare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;31;J;J;I;J;29340;Jasmine Larsson;33;K;Gävle;33 år, bingovärdinna;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;32;J;J;I;J;148654;Johan Johansson;35;M;Gävle;36 år, verksamhetschef;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;33;J;J;I;J;148655;Johanna Grundström;45;K;Gävle;45 år, enhetschef;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;34;J;J;I;J;148656;Anders Eriksson;30;M;Gävle;30 år, gymnasielärare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;35;J;J;I;J;148657;Lena Ålander;63;K;Gävle;63 år,undersköterska;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;36;J;J;I;J;148658;Jan-Henrik Sandberg;59;M;Gävle;59 år, verksamhetsansvarig;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;37;J;J;I;J;148659;Ewa Löfqvist;69;K;Gävle;69 år, pensionär;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;38;J;J;I;J;148660;Stefan Grandien;43;M;Gävle;43 år, verksamhetschef;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;39;J;J;I;J;148661;Eva L Johansson;48;K;Gävle;48 år, undersköterska;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;40;J;J;I;J;148662;Alexander Engvall;25;M;Gävle;25 år, säljare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;41;J;J;I;J;148663;Maria Andersson;38;K;Gävle;38 år, arbetsförmedlare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;42;J;J;I;J;148664;Mohammed Abusagr;47;M;Gävle;47 år, datavetare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;43;J;J;I;J;148665;Emma Magnusson;27;K;Gävle;27 år, frisör;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;44;J;J;I;J;148666;Johan Hillblom;22;M;Gävle;22 år, kanslichef;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;45;J;J;I;J;148667;Fanny Eriksson;27;K;Gävle;27 år,upphandlare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;46;J;J;I;J;148668;Lars-Erik Lönnqvist;31;M;Gävle;31 år, HR-ansvarig;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;47;J;J;I;J;29144;Elin Lundgren;40;K;Gävle;40 år, lärare/riksdagsledamot;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;48;J;J;I;J;148670;Johan Löfström;46;M;Gävle;46 år, kultur- och konstproducent;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;49;J;J;I;J;148671;Ann-Sofie Daniels;46;K;Gävle;46 år, personlig assistent;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;50;J;J;I;J;148672;Kenneth Ekberg;63;M;Gävle;63 år, industriarbetare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;51;J;J;I;J;148673;Johanna Kullenberg;30;K;Gävle;30 år, leg. fysioterapeut;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;52;J;J;I;J;148674;Magnus Dawest;43;M;Gävle;43 år, ombudsman;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;53;J;J;I;J;148675;Yvonne Sundgren;60;K;Gävle;60 år, lärare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;54;J;J;I;J;148676;Raimo Pärssinen;62;M;Gävle;62 år, industriarbetare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;55;J;J;I;J;148677;Erica Embretsen Almer;57;K;Gävle;57 år, enhetschef;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;56;J;J;I;J;148678;Lars Eriksson;51;M;Gävle;51 år, yrkeslärare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;57;J;J;I;J;148679;Boel Fredriksson;79;K;Gävle;79 år, pensionär;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;58;J;J;I;J;148680;Hisham Safieh;66;M;Gävle;66 år, maskiningenjör;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;59;J;J;I;J;29334;Carina Holm;64;K;Gävle;64 år, f.d ombudsman;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;60;J;J;I;J;148682;Ulf Bengtsson;54;M;Gävle;54 år, universitetsadjunkt;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;61;J;J;I;J;148683;Annelie Remsöbo;56;K;Gävle;56 år, habiliterare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;62;J;J;I;J;148684;Stefan Eriksson;44;M;Gävle;44 år, konsult;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;63;J;J;I;J;29154;Linnéa Wickman;25;K;Gävle;25 år, politisk sekreterare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;64;J;J;I;J;148686;Tord Wallén;47;M;Gävle;47 år, handläggare;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;65;J;J;I;J;148687;Malin van der Kaaij;45;K;Gävle;45 år, verksamhetschef;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;66;J;J;I;J;148688;Thomas Felth;57;M;Gävle;57 år, tjänsteman;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;67;J;J;I;J;148689;Leif Hållander;75;M;Gävle;74 år, pensionär;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;68;J;J;I;J;148690;Claes-Håkan Jansson;70;M;Gävle;70 år, pensionär;236000;;J
+K;2180;Gävle;00;Gävle;Arbetarepartiet-Socialdemokraterna;S;2;S;13424;69;J;J;I;J;148691;Bengt Jonsson;70;M;Gävle;70 år, pensionär;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;1;J;J;I;J;285697;Margaretha Wedin;66;K;Gävle;Hagaström;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;2;J;J;I;J;287548;Erik Holmestig;52;M;Gävle;Hagaström;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;3;J;J;I;J;374628;Leena Bergander Wikström;60;K;Gävle;Furuvik;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;4;J;J;I;J;287550;Roland Ericsson;73;M;Gävle;Bomhus;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;5;J;J;I;J;287551;Stéphanie Forsmark;39;K;Gävle;Bergby;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;6;J;J;I;J;287552;Elisabeth Carlsson;54;K;Gävle;Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;7;J;J;I;J;287553;Ayser Bayraktar;54;K;Gävle;Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;8;J;J;I;J;287554;Bengt-Göran Wikström;64;M;Gävle;Furuvik;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;9;J;J;I;J;287555;Robert Wallner;53;M;Gävle;Hedesunda;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;10;J;J;I;J;287556;Anders Ekman;31;M;Gävle;Norr;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;11;J;J;I;N;287557;[inte lämnat förklaring];;;;;236000;;N
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;12;J;J;I;J;287558;Urban Sjölander;72;M;Gävle;Lexe;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;13;J;J;I;J;287559;Ingeborg Wigzell;21;K;Gävle;Söder;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;14;J;J;I;J;287560;Suzana Stamenkovic;52;K;Gävle;Brynäs;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;15;J;J;I;J;287561;Sakhi Adeli;32;M;Gävle;Söder;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;16;J;J;I;J;287562;Christer Lindström;63;M;Gävle;Alderholmen;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;17;J;J;I;J;287563;Lars Engstrand;66;M;Gävle;Söder;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;18;J;J;I;J;287564;Annette Israelsson Nilsson;55;K;Gävle;Björke;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;19;J;J;I;J;287565;Stina Östlund;58;K;Gävle;Hamrånge;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;20;J;J;I;J;287566;Henrik Persson;44;M;Gävle;Sörby;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;21;J;J;I;J;287567;Katrin Landelius;48;K;Gävle;Söder;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;22;J;J;I;J;287568;Ragnar Lange;60;M;Gävle;Stigslund;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;23;J;J;I;J;287569;Inger Landberg;66;K;Gävle;Söder;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;24;J;J;I;J;287570;Fredrik Ohlson;30;M;Gävle;Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;25;J;J;I;J;287571;Bjarni Arnason;58;M;Gävle;Brynäs;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;26;J;J;I;J;287572;Tomi Holmberg;42;M;Gävle;Oslättfors;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;27;J;J;I;J;287573;Pontus Axberg;35;M;Gävle;Centrum;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;28;J;J;I;J;287574;Simon Nilsson;40;M;Gävle;Villastan;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;29;J;J;I;J;287575;Karin Roslund;60;K;Gävle;Hedesunda;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;30;J;J;I;J;287576;Ann-Helen Persson;51;K;Gävle;Bomhus;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;31;J;J;I;J;287577;Johan Kerstell;48;M;Gävle;Höjersdal;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;32;J;J;I;J;287578;Anna Wretblad;72;K;Gävle;Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15327;33;J;J;I;J;287579;Berit Östlund;82;K;Gävle;Hamrånge;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;1;J;J;I;J;285697;Margaretha Wedin;66;K;Gävle;Hagaström;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;2;J;J;I;J;287548;Erik Holmestig;52;M;Gävle;Hagaström;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;3;J;J;I;J;374628;Leena Bergander Wikström;60;K;Gävle;Furuvik;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;4;J;J;I;J;287550;Roland Ericsson;73;M;Gävle;Bomhus;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;5;J;J;I;J;287551;Stéphanie Forsmark;39;K;Gävle;Bergby;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;6;J;J;I;J;287552;Elisabeth Carlsson;54;K;Gävle;Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;7;J;J;I;J;287553;Ayser Bayraktar;54;K;Gävle;Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;8;J;J;I;J;287554;Bengt-Göran Wikström;64;M;Gävle;Furuvik;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;9;J;J;I;J;287555;Robert Wallner;53;M;Gävle;Hedesunda;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;10;J;J;I;J;287556;Anders Ekman;31;M;Gävle;Norr;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;11;J;J;I;J;287558;Urban Sjölander;72;M;Gävle;Lexe;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;12;J;J;I;J;287559;Ingeborg Wigzell;21;K;Gävle;Söder;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;13;J;J;I;J;287560;Suzana Stamenkovic;52;K;Gävle;Brynäs;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;14;J;J;I;J;287561;Sakhi Adeli;32;M;Gävle;Söder;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;15;J;J;I;J;287562;Christer Lindström;63;M;Gävle;Alderholmen;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;16;J;J;I;J;287563;Lars Engstrand;66;M;Gävle;Söder;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;17;J;J;I;J;287564;Annette Israelsson Nilsson;55;K;Gävle;Björke;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;18;J;J;I;J;287565;Stina Östlund;58;K;Gävle;Hamrånge;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;19;J;J;I;J;287566;Henrik Persson;44;M;Gävle;Sörby;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;20;J;J;I;J;287567;Katrin Landelius;48;K;Gävle;Söder;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;21;J;J;I;J;287568;Ragnar Lange;60;M;Gävle;Stigslund;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;22;J;J;I;J;287569;Inger Landberg;66;K;Gävle;Söder;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;23;J;J;I;J;287570;Fredrik Ohlson;30;M;Gävle;Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;24;J;J;I;J;287571;Bjarni Arnason;58;M;Gävle;Brynäs;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;25;J;J;I;J;287572;Tomi Holmberg;42;M;Gävle;Oslättfors;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;26;J;J;I;J;287573;Pontus Axberg;35;M;Gävle;Centrum;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;27;J;J;I;J;287574;Simon Nilsson;40;M;Gävle;Villastan;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;28;J;J;I;J;287575;Karin Roslund;60;K;Gävle;Hedesunda;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;29;J;J;I;J;287576;Ann-Helen Persson;51;K;Gävle;Bomhus;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;30;J;J;I;J;287577;Johan Kerstell;48;M;Gävle;Höjersdal;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;31;J;J;I;J;287578;Anna Wretblad;72;K;Gävle;Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Centerpartiet;C;4;S;15698;32;J;J;I;J;287579;Berit Östlund;82;K;Gävle;Hamrånge;236000;;J
+K;2180;Gävle;00;Gävle;Direktdemokraterna;DD;1150;;;;N;J;J;I;515931;Gustafsson, Joakim;25;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Feministiskt initiativ;FI;532;S;15609;1;N;J;J;I;501433;Desirée Kjellberg;43;K;Gävle;43 år, Kulturarbetare;25000;;J
+K;2180;Gävle;00;Gävle;Feministiskt initiativ;FI;532;S;15609;2;N;J;J;I;501434;Ida Nyström;33;K;Gävle;33 år, Fi Djurrätt, Underklass;25000;;J
+K;2180;Gävle;00;Gävle;Feministiskt initiativ;FI;532;S;15609;3;N;J;J;I;501435;Daniel Hjärpe;29;M;Gävle;29 år, Statstjänsteman;25000;;J
+K;2180;Gävle;00;Gävle;Feministiskt initiativ;FI;532;S;15609;4;N;J;J;I;501436;Anny Andersson;28;K;Gävle;28 år, Statstjänsteman;25000;;J
+K;2180;Gävle;00;Gävle;Feministiskt initiativ;FI;532;S;15609;5;N;J;J;I;501437;Martina Lundgren;40;K;Gävle;40 år;25000;;J
+K;2180;Gävle;00;Gävle;Feministiskt initiativ;FI;532;S;15609;6;N;J;J;I;501438;Helena Kerslow;56;K;Gävle;56 år, Fritidspedagog;25000;;J
+K;2180;Gävle;00;Gävle;Feministiskt initiativ;FI;532;S;15609;7;N;J;J;I;501439;Per Jernberg;63;M;Gävle;63 år, Universitetslektor;25000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;1;J;J;I;J;19638;Jan Myléus;47;M;Gävle;Kommunalråd, Bomhus, 47 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;2;J;J;I;J;19639;Jan-Eric Andersson;52;M;Gävle;Rektor, Sätra, 53 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;3;J;J;I;J;23794;Martina Kyngäs;34;K;Gävle;Kundansvarig gruppledare, Sätra, 34 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;4;J;J;I;J;19640;Lili André;48;K;Gävle;Ingenjör, Bomhus, 48 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;5;J;J;I;J;19641;Henrik Lindström;45;M;Gävle;Polis, Bomhus, 45 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;6;J;J;I;J;23797;Viktoria Almqvist;41;K;Gävle;Kundansvarig gruppledare, Bomhus, 41 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;7;J;J;I;J;23798;Matilda Elmebo;28;K;Gävle;Säljare, Valbo, 27 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;8;J;J;I;J;79002;Alexandra Tawaifi;22;K;Gävle;Student, Gävle, 22 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;9;J;J;I;J;19642;Rosmari Holmgren;63;K;Gävle;Personlig assistent, Eskön, 63 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;10;J;J;I;J;23800;Lina Elmebo;33;K;Gävle;Behandlingspedagog, Gävle, 32 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;11;J;J;I;J;19643;Ingemar André;56;M;Gävle;Fritidspedagog, Bomhus, 56 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;12;J;J;I;J;19644;Elisabeth Norberg;50;K;Gävle;Egenföretagare, Sätra, 50 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;13;J;J;I;J;19645;Samuel Nilsson;24;M;Gävle;Barnskötare, Bomhus, 24 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;14;J;J;I;J;19646;Anders Karlsson;65;M;Gävle;Lokalvårdare, Brynäs, 65 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;15;J;J;I;J;19647;Rosalie Carlén;72;K;Gävle;Distriktssköterska, Gävle, 72 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;16;J;J;I;J;19648;Pia-Kerstin Silverdal;62;K;Gävle;Undersköterska, Bomhus, 62 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;17;J;J;I;J;19649;Göran Dahlin;71;M;Gävle;Säljare, Bomhus, 71 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;18;J;J;I;J;19650;Elisabet Bjurbo;71;K;Gävle;Distriktssköterska, Gävle, 71 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;19;J;J;I;J;19651;Anders Aldén;51;M;Gävle;Ekonom, Hedesunda, 51 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;20;J;J;I;J;19652;Gunilla Berglund;74;K;Gävle;Distriktssköterska, Forsbacka, 74 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;21;J;J;I;J;19653;Leif Berggren;76;M;Gävle;Ekonom, Bomhus, 76 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;22;J;J;I;J;19654;Anette Paulson;49;K;Gävle;Löneadministratör, Bomhus, 49 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;23;J;J;I;J;23813;Thord Persson;67;M;Gävle;Bussförare, Eskön, 67 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;24;J;J;I;J;19655;Viktoria Andersson;51;K;Gävle;Rehabkoordinator, Sätra, 52 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;25;J;J;I;J;19656;Hans Holmgren;67;M;Gävle;Bussförare, Eskön, 67 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;26;J;J;I;J;23816;Anna Kling;62;K;Gävle;Enskild firma, Gävle, 59 år;236000;;J
+K;2180;Gävle;00;Gävle;Kristdemokraterna;KD;68;S;12009;27;J;J;I;J;19657;Kurt Arnaryd;81;M;Gävle;Pensionär,Trödje, 81 år;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;1;J;J;I;J;148331;Helene Åkerlind;52;K;Gävle;52,kommunalråd,Stigslund;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;2;J;J;I;J;49180;Per-Åke Fredriksson;44;M;Gävle;44,statsvetare,Strömsbro;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;3;J;J;I;J;148327;Evelyn Klöverstedt;57;K;Gävle;57,statstjänsteman,Stigslund;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;4;J;J;I;J;148350;Kjell Helling;67;M;Gävle;67,yrkesvägledare,Gävle strand;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;5;J;J;I;J;155572;Lena Ödeen;76;K;Gävle;76,pens.gymnasielärare,Vallbacken;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;6;J;J;I;J;149496;Tomas Engelmark;42;M;Gävle;42,byggprojektledare,Hille;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;7;J;J;I;J;148320;Helena Englund;54;K;Gävle;54,affärsområdeschef,Forsbacka;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;8;J;J;I;J;148334;John-Olof Hermanson;73;M;Gävle;73,företagare,Nynäs;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;9;J;J;I;J;155576;Kristofer Dahlgren;27;M;Gävle;27,handläggare,Vallbacken;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;10;J;J;I;J;155577;Vanessa Azin Ebrahim;28;K;Gävle;28,handläggare,Sätra;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;11;J;J;I;J;155578;Azad Taher;45;M;Gävle;45,tolk,Sätra;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;12;J;J;I;J;155579;Arne Övrelid;64;M;Gävle;64,gymnasielärare,Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;13;J;J;I;J;148330;Mats Ivarsson;43;M;Gävle;43,säkerhetssamordnare,Bomhus;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;14;J;J;I;J;155581;Margaretha Hofvenstam;73;K;Gävle;73,f.d. åklagaradministratör,Norr;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;15;J;J;I;J;155582;Mikael Persson;43;M;Gävle;43,civilingenjör,Sätra;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;16;J;J;I;J;155583;Johan Sundin;57;M;Gävle;57,civilingenjör,Hagaström;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;17;J;J;I;J;148355;Anna-Lena Hellman;62;K;Gävle;62,projektledare,Fridhem;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;18;J;J;I;J;155585;Bosse Janson;69;M;Gävle;69,pens.civilekonom,Bomhus;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;19;J;J;I;J;148343;Kristina Hermanson-Åreng;75;K;Gävle;75,egen företagare,Nynäs;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;20;J;J;I;J;155587;Kamil Bukowiecki;33;M;Gävle;33,studerar till samhällsplanerare,Sätra;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;21;J;J;I;J;148352;Björn Belin;69;M;Gävle;69,fd.utbildningsledare,Norr;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;22;J;J;I;J;155589;Karin Qvick;65;K;Gävle;65,handledare,Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;23;J;J;I;J;155590;Jens Olsson;57;M;Gävle;57,coach,Södertull;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;24;J;J;I;J;155591;Petter Mörck;45;M;Gävle;45,egen företagare,Höjersdal;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;25;J;J;I;J;155592;Margareta Kvist;74;K;Gävle;74,pensionär,Norrlandet;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;26;J;J;I;J;155593;Hans Lindblad;80;M;Gävle;80,f.d.riksdagsledamot,Söder;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;27;J;J;I;J;155594;Pälla Elfström;77;K;Gävle;77,politisk redaktör,Gävle strand;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;28;J;J;I;J;155595;Ann Stenström;76;K;Gävle;76,pens.gymnasielärare,Villastaden;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;29;J;J;I;J;155596;Kenth Lövgren;66;M;Gävle;66,regionpolitiker,Söder;236000;;J
+K;2180;Gävle;00;Gävle;Liberalerna (tidigare Folkpartiet);L;3;S;13460;30;J;J;I;J;155597;Lena Åberg;63;K;Gävle;63,länsombudsman,Brynäs;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;1;J;J;I;J;14258;Therese Metz;34;K;Gävle;kommunalråd i opposition & egen företagare, 34 år, Hamrångebygden;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;2;J;J;I;J;26694;Emanuel Hort;34;M;Gävle;integrationsutvecklare, 34 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;3;J;J;I;J;26695;Helene Börjesson;52;K;Gävle;gymnasielärare, 52 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;4;J;J;I;J;26696;Henrik Sundberg;45;M;Gävle;miljögiftsamordnare, 45 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;5;J;J;I;J;26697;Emelie Carlson Lejon;33;K;Gävle;tandhygienist, 33 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;6;J;J;I;J;26698;Anders Berglund;54;M;Gävle;projektledare, 54 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;7;J;J;I;J;26699;Emmely Hornborg;34;K;Gävle;kommunikatör, 34 år, Hille;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;8;J;J;I;J;26700;Patrik Blom;37;M;Gävle;miljösamordnare, 37 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;9;J;J;I;J;26701;Inger Schörling;72;K;Gävle;kulturgeograf, f.d. ledamot av riksdagen och europaparlamentet, 72 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;10;J;J;I;J;14259;Roger Persson;54;M;Gävle;miljöekonom, 54 år, Hedesunda;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;11;J;J;I;J;26703;Kerstin Monk;73;K;Gävle;journalist, 73 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;12;J;J;I;J;26704;Erik Olsson;51;M;Gävle;docent i klinisk psykologi, 51 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;13;J;J;I;J;26705;Norea Persson;18;K;Gävle;studerande, 18 år, Hedesunda;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;14;J;J;I;J;14264;David Ling;25;M;Gävle;student, 25 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;15;J;J;I;J;26707;Albert Bernhoff;81;M;Gävle;pensionerad narkosläkare, 81 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;16;J;J;I;J;26708;Ulla Westerberg;71;K;Gävle;pensionär, 71 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;17;J;J;I;J;26709;Mauritz Glaumann;75;M;Gävle;arkitekt, 75 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;18;J;J;I;J;26710;Kiki Larsson;70;K;Gävle;konstnär-keramiker, 70 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;19;J;J;I;J;26711;Kenneth Kubulenso;87;M;Gävle;pensionär, 87 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;20;J;J;I;J;26712;Ann-Katrin Myles;70;K;Gävle;civilingenjör, 70 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;21;J;J;I;J;14257;Anders Schröder;28;M;Gävle;riksdagsledamot, 28 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;22;J;J;I;J;14406;Ylva Bandmann;76;K;Gävle;leg. psykolog/psykoterapeut, 76 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;23;J;J;I;J;14412;Joel Olsson;37;M;Gävle;lärarvikarie och bandoperatör, 37 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;24;J;J;I;J;26716;Linnea Gåsberg;24;K;Gävle;student, 24 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;25;J;J;I;J;26717;Thor-leif Frank;59;M;Gävle;ledare inom Trafikverket, 59 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;26;J;J;I;J;26718;Maggie Gonzalez;65;K;Gävle;vårdbiträde, 65 år, Gävle;236000;;J
+K;2180;Gävle;00;Gävle;Miljöpartiet de gröna;MP;55;S;12130;27;J;J;I;J;14414;Robert Stahl;58;M;Gävle;IT-specialist, 58 år, Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;1;J;J;I;J;168324;Patrik Stenvard;45;M;Gävle;45 år, kommunalråd, Bomhus;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;2;J;J;I;J;168325;Anders Jansson;62;M;Gävle;62 år, överstelöjtnant, Söder;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;3;J;J;I;J;168326;Birgittha Bjerkén;65;K;Gävle;65 år, egenföretagare, Norrlandet;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;4;J;J;I;J;168327;Måns Montell;39;M;Gävle;39 år, logistikchef, Gävle strand;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;5;J;J;I;J;168328;EvaMarja Andersson;63;K;Gävle;63 år, gymnasielärare, Lexe;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;6;J;J;I;J;168329;Pekka Seitola;60;M;Gävle;60 år, egenföretagare, Norrlandet;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;7;J;J;I;J;168330;Margareta Larsson;71;K;Gävle;71 år, läkare, Hagaström;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;8;J;J;I;J;168331;Niclas Bornegrim;53;M;Gävle;53 år, försäljningschef, Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;9;J;J;I;J;168332;Pia Jansson;52;K;Gävle;52 år, egenföretagare, Sörby;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;10;J;J;I;J;168333;William Elofsson;23;M;Gävle;23 år, pressekreterare, Söder;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;11;J;J;I;J;168334;Lars Beckman;50;M;Gävle;50 år, riksdagsledamot, Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;12;J;J;I;J;168335;Ann-Charlotte Granath;43;K;Gävle;43 år, statsvetare, Norr;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;13;J;J;I;J;168336;Lars Widén;69;M;Gävle;69 år, pensionär, Oppala;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;14;J;J;I;J;168337;Emma Karlsson;27;K;Gävle;27 år, socionomstudent, Höjersdal;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;15;J;J;I;J;168338;Lars-Göran Lundh;70;M;Gävle;70 år, konsult, Hagaström;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;16;J;J;I;J;168339;Örjan Larsson;41;M;Gävle;41 år, lärare, Höjersdal;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;17;J;J;I;J;168340;Maud Lundh;65;K;Gävle;65 år, leg. barnmorska, Hagaström;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;18;J;J;I;J;168341;Therése Hammarberg;42;K;Gävle;42 år, lärare, Dalen;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;19;J;J;I;J;168342;Peter Hallgren Stjerndorff;51;M;Gävle;51 år, präst, Fridhem;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;20;J;J;I;J;168343;Petri Ekorre;51;M;Gävle;51 år, konsult, Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;21;J;J;I;J;168344;Roland Nilsson;72;M;Gävle;72 år, ingenjör, Centrum;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;22;J;J;I;J;168345;Mårten Berglund;31;M;Danderyd;31 år, psykiatrisjuksköterska, Söder;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;23;J;J;I;J;168346;Fredrik Hegrelius;50;M;Gävle;50 år, projektledare, Centrum;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;24;J;J;I;J;168347;Camilla Strömberg;36;K;Gävle;36 år, leg. barnmorska, Strömsbro;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;25;J;J;I;J;168348;Annika Erlandsson;52;K;Gävle;52 år, samordnare, Forsbacka;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;26;J;J;I;J;168349;Anders Fogeus;73;M;Gävle;73 år, pensionär, Bomhus;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;27;J;J;I;J;168350;Gun Lundberg;75;K;Gävle;75 år, fil. mag, Villastaden;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;28;J;J;I;J;168351;Albin Hillberg;18;M;Gävle;18 år, studerande, Söder;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;29;J;J;I;J;168352;Eva-Karin Caisa Hamilton;67;K;Gävle;67 år, företagare, Utvalnäs;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;30;J;J;I;J;168353;Jonas Brindmark;40;M;Gävle;40 år, ambulanssjuksköterska, Hagaström;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;31;J;J;I;J;168354;Marina Alfredsson-Bror;57;K;Gävle;57 år, undersköterska, Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;32;J;J;I;J;168355;Nils Ekholm;23;M;Gävle;23 år, kypare, Strömsbro;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;33;J;J;I;J;168356;Karl Andersson;34;M;Gävle;34 år, lärare, Sätra;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;34;J;J;I;J;294448;Maria Makbule Colak;44;K;Gävle;44 år, undersköterska, Brynäs;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;35;J;J;I;J;168357;Sven-Olov Hiller;66;M;Gävle;66 år, pensionär, Brynäs;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;36;J;J;I;J;168358;Carolina Fredsdotter-Nilsson;49;K;Gävle;49 år, röntgenläkare, Höjersdal;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;37;J;J;I;J;168359;Osman Dalgin;37;M;Gävle;37 år, hantverkare, Åbyggeby;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;38;J;J;I;J;168360;Mikael Brodin;38;M;Gävle;38 år, trafikledare, Sätra;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;39;J;J;I;J;168361;Robert Waller;50;M;Gävle;50 år, funktionschef IT, Hagaström;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;40;J;J;I;J;168362;Doris Chatzoudis;67;K;Gävle;67 år, leg. barnmorska, Söder;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;41;J;J;I;J;168363;Mattias Thorsell;49;M;Gävle;49 år, lead auditor, Centrum;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;42;J;J;I;J;168364;Kerstin Brannerydh;69;K;Gävle;69 år, pensionär, Centrum;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;43;J;J;I;J;168365;Ola Nilsson;73;M;Gävle;73 år, pensionär, Strandvallen;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;44;J;J;I;J;168366;Birgitta Bienitz;71;K;Gävle;71 år, kiropraktor, Söder;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;45;J;J;I;J;168367;Tommy Björkman;73;M;Gävle;73 år, ingenjör, Valbo;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;46;J;J;I;J;168368;Anna-Karin Strömberg;67;K;Gävle;67 år, företagare, Hedesunda;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;47;J;J;I;J;168369;Christian Öman;28;M;Gävle;28 år, account manager, Bomhus;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;48;J;J;I;J;168370;Didrik Elofsson;19;M;Gävle;19 år, studerande, Söder;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;49;J;J;I;J;168371;Michael Agerbring;58;M;Gävle;58 år, barberare, Söder;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;50;J;J;I;J;168372;Ulf Björn;67;M;Gävle;67 år, pensionär, Centrum;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;51;J;J;I;J;168373;Thomas Hedin;67;M;Gävle;67 år, pensionär, Lexe;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;52;J;J;I;J;168374;Ann-Sophie Mattisson;74;K;Gävle;74 år, pensionär, Norr;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;53;J;J;I;J;168375;Alexander Lindqvist;37;M;Gävle;37 år, småföretagare, Norrlandet;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;54;J;J;I;J;168376;Håkan Rosén;59;M;Gävle;59 år, uppfinnare, Gävle strand;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;55;J;J;I;J;168377;Mattias Broström;40;M;Gävle;40 år, handläggare, Andersberg;236000;;J
+K;2180;Gävle;00;Gävle;Moderaterna;M;1;S;13590;56;J;J;I;J;168378;Björn Frankson;80;M;Gävle;80 år, civilingenjör, Furuvik;236000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;1;N;J;J;I;340367;Mattias Eriksson Falk;28;M;Gävle;28, regionråd, Brynäs;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;2;N;J;J;I;340368;Roger Hedlund;38;M;Gävle;38, riksdagsledamot, Vallbacken;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;3;N;J;J;I;340369;Latifa Löfvenberg;44;K;Gävle;44, sjuksköterska, Bomhus;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;4;N;J;J;I;340370;Richard Carlsson;42;M;Gävle;42, kommunalråd, Bomhus;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;5;N;J;J;I;340371;Lena Emanuelsson;36;K;Gävle;36, tandhygienist, Bergby;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;6;N;J;J;I;340372;Marcus Lagerroos;24;M;Gävle;24, studerande, Bomhus;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;7;N;J;J;I;340373;Wanja Delén;38;K;Gävle;38, förskolelärare, Öster;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;8;N;J;J;I;340374;Georgios Toris;50;M;Gävle;50, polisinspektör, Södertull;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;9;N;J;J;I;340375;Lena Eriksson;57;K;Gävle;57, undersköterska, Brynäs;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;10;N;J;J;I;340376;Patrik Lindholm;49;M;Gävle;49, industriarbetare, Bomhus;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;11;N;J;J;I;340377;Romel Rached;29;M;Gävle;29, företagare, Södertull;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;12;N;J;J;I;340378;Anna Rosén;44;K;Gävle;44, sjukpensionär, Hedesunda;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;13;N;J;J;I;340379;Olle Larsson;52;M;Gävle;52, fordonstekniker, Bomhus;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;14;N;J;J;I;340380;Bella Wåhlstedt;42;K;Gävle;43, habiliterare, Bomhus;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;15;N;J;J;I;340381;Mikael Forsberg;42;M;Gävle;42, ordningsvakt, Bomhus;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;16;N;J;J;I;340382;Linda Carlsson;35;K;Gävle;35, serviceassistent, Valbo;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;17;N;J;J;I;340383;Sven Malm;69;M;Gävle;69, hantverkare, Lervik;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;18;N;J;J;I;340384;Marcus Frisk;34;M;Gävle;34, vd, Forsbacka;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;19;N;J;J;I;340385;Carina Naenfeldt;50;K;Gävle;51, personlig assistent, Öster;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;20;N;J;J;I;340386;Marianne Larsson;51;K;Gävle;51, undersköterska, Bomhus;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;21;N;J;J;I;340387;Anders Boberg;52;M;Gävle;52, vd, Valbo;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;22;N;J;J;I;340388;Nicklas Ringhage;43;M;Gävle;43, yrkeschaufför, Sätra;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;23;N;J;J;I;340389;Madeleine Eklund;42;K;Gävle;43, stf butikschef, Bomhus;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;24;N;J;J;I;340390;Eva Sundman;63;K;Gävle;63, lokalvårdare, Kastsjö;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;25;N;J;J;I;340391;Thomas Lindberg;54;M;Gävle;54, skötare psykiatri, Centrum;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;26;N;J;J;I;340393;Agneta Stjernström;65;K;Gävle;65, massageterapeut, Gävle Strand;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;27;N;J;J;I;340394;Daniel Hällman;51;M;Gävle;51, revisor, Åbyggeby;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;28;N;J;J;I;340395;Ronny Hedman;49;M;Gävle;49, svetsare, Sätra;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;29;N;J;J;I;340396;Åsa Hedström;50;K;Gävle;50, virkesmätare, Bergby;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;30;N;J;J;I;340397;Jonas Åström;33;M;Gävle;33, teamledare, Kastsjö;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;31;N;J;J;I;340398;Niklas Färnstrand;46;M;Gävle;46, jägare, Andersberg;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;32;N;J;J;I;340399;Mimmi Edin;52;K;Gävle;53, företagsekonom, Säljemar;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;33;N;J;J;I;340400;Svenne Ekstrand;74;M;Gävle;74, ekonomiföreståndare, Fridhem;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;34;N;J;J;I;340401;Stefan Ström;65;M;Gävle;66, fartygskock, Söder;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;35;N;J;J;I;340402;Thomas Möller;57;M;Gävle;58 ,logistiker, Sätra;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;36;N;J;J;I;340403;André Ekholm;29;M;Gävle;29, industriarbetare, Hedesunda;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;37;N;J;J;I;340404;Monika Ekenberg;52;K;Gävle;52, köksbiträde, Hamrångefjärden;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;38;N;J;J;I;340405;Henrik Midendal;67;M;Gävle;67, företagare, Valbo;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;39;N;J;J;I;340406;Rhia Frisk;33;K;Gävle;33, studerande, Forsbacka;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;40;N;J;J;I;340407;Cole Ericsson;32;M;Gävle;32, arbetssökande, Brynäs;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;41;N;J;J;I;340408;Magdalena Lemon;71;K;Gävle;71, sjuksköterska, Villastaden;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;42;N;J;J;I;340409;Per-Arne Olsson;62;M;Gävle;63, konsult, Centrum;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;43;N;J;J;I;340410;Anna-Karin Åström;46;K;Gävle;46, undersköterska, Hamrångefjärden;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;44;N;J;J;I;340411;Magnus Eklund;43;M;Gävle;43, golvläggare, Bomhus;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;45;N;J;J;I;340412;Robert Olsson;43;M;Gävle;43, hamnarbetare, Söder;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;46;N;J;J;I;340413;Jan-Erik Skyman;73;M;Gävle;73, f.d. neuro-psykolog, Söder;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;47;N;J;J;I;340414;Rose Karlsson;78;K;Gävle;78, pensionär, Sätra;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;48;N;J;J;I;340415;Lars Johansson;57;M;Gävle;57, chef, Gävle Strand;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;49;N;J;J;I;340416;Peter Andersson;56;M;Gävle;56, elektriker, Andersberg;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;50;N;J;J;I;340417;Lennart Johansson;67;M;Gävle;67, f.d. lokförare, Sörby;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;51;N;J;J;I;340418;Agne Berg;76;M;Gävle;77, pensionär, Forsbacka;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;52;N;J;J;I;340419;Mats Ekenberg;56;M;Gävle;56, vårdare, Hamrångefjärden;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;53;N;J;J;I;340420;Manne Höglund;19;M;Gävle;19, fordonstekniker, Valbo;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;54;N;J;J;I;340421;Bjarne Östlund;68;M;Gävle;69, mekaniker, Hedesunda;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;55;N;J;J;I;340422;Jimmy Andersson;43;M;Gävle;48, vd, Vallbacken;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;56;N;J;J;I;340423;Ulf Larsson;55;M;Gävle;55, vd, Sätra;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;57;N;J;J;I;340424;Marina Köhler;52;K;Gävle;52, arbetssökande, Norrsundet;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;58;N;J;J;I;340425;Kristoffer Lindholm;24;M;Gävle;24, flyttserviceman, Andersberg;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;59;N;J;J;I;340426;Birgitta Engberg;57;K;Gävle;57, lastbilschaufför, Valbo;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;60;N;J;J;I;340427;Roland Sandstedt;57;M;Gävle;58, vaktmästare, Söder;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;61;N;J;J;I;340428;Ruthie Andersson;46;K;Gävle;46, företagare, Vallbacken;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;62;N;J;J;I;340429;Magnus Emanuelsson;42;M;Gävle;42, bilmekaniker, Bergby;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;63;N;J;J;I;340430;Lars Strandberg;72;M;Gävle;72, ingenjör, Söder;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;64;N;J;J;I;340431;Staffan Engberg;36;M;Gävle;36, lastbilschaufför, Forsbacka;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;65;N;J;J;I;340432;Karin Englund;75;K;Gävle;75, pensionär, Brynäs;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;66;N;J;J;I;340433;Nina Grönlund;53;K;Gävle;53, vårdbiträde, Södertull;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;67;N;J;J;I;340434;Micke Lönn;48;M;Gävle;48, kontaktledningsmontör, Söder;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;68;N;J;J;I;340435;Per Petersson;52;M;Gävle;52, Bomhus;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;69;N;J;J;I;340436;Odd Kläringe;74;M;Gävle;74, pensionär, Stigslund;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;70;N;J;J;I;340437;Karl-Axel Bartholf;59;M;Gävle;60, byggingenjör, Strömsbro;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;71;N;J;J;I;489443;Eva Gustafsson;68;K;Sandviken;68, behandlingsassistent, Gävle;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;S;15502;72;N;J;J;I;340438;Christer Larsson;59;M;Gävle;59, avdelningschef, Bomhus;307000;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;340392;Höglund, Robin;29;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;491904;Ljungbeck, Olle;86;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;501373;Andersson, Ricky;55;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;501374;Ek, Anna-Karin;61;K;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;501375;Fröström, Kjell;55;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;501376;Johansson, Margareta;64;K;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;501377;Johansson, Michael;26;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;501378;Rosén, Jörgen;51;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;501379;Lindeberg, Gunnar;68;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;503571;Hellström, Mats;62;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;503572;Kjällström, Iris;65;K;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;503573;Hungefält, Lars;50;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;503575;Lundin, Nils Björn;59;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;503576;Säterhof, Hans;62;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;503577;Wallin, Mikael;51;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;503599;Färnstrand, Gudrun;76;K;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;503601;Ericsson, Per-Åke;51;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;503602;Engberg, Tommy;61;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;503603;Delén, Beryl;63;K;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Sverigedemokraterna;SD;110;;;;N;J;J;I;513630;Skoglund, Karl-Georg;77;M;Gävle;;0;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;1;J;J;I;J;340591;Gin Akgul Hajo;41;K;Gävle;Lärare, 40;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;2;J;J;I;J;343622;Isabella Bexell;36;K;Gävle;Gymnasie- och komvuxlärare, 35;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;3;J;J;I;J;343623;Tord Fredriksen;48;M;Gävle;Utredare, 48;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;4;J;J;I;J;340839;Kristina Sjöström;60;K;Gävle;Projektledare;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;5;J;J;I;J;343625;Owe Hellberg;65;M;Gävle;Förhandlare hyresgästföreningen;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;6;J;J;I;J;343626;Charlotta Lagnander;59;K;Gävle;Jurist, 59;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;7;J;J;I;J;340600;Seppo Laine;60;M;Gävle;Ombudsman, 60;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;8;J;J;I;J;343628;Maud Liljeqvist;65;K;Gävle;Vårdlärare, 65;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;9;J;J;I;J;343629;Jonas Ryberg;33;M;Gävle;Planingenjör, 33;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;10;J;J;I;J;340855;Jessica Åberg;45;K;Gävle;45, lärare, Gävle;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;11;J;J;I;J;343631;Stefan Pettersson;67;M;Gävle;Fd försäkringsanställd, 66;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;12;J;J;I;J;343632;Maritha Johansson;65;K;Gävle;Fritidspedagog, 65;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;13;J;J;I;J;340838;Fredrik Åberg Jönsson;38;M;Gävle;Utredare, 38;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;14;J;J;I;J;343634;Anita Walther;77;K;Gävle;Senior;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;15;J;J;I;J;343635;Erik Gustafsson;43;M;Gävle;Byggnadsplåtslagare, 42;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;16;J;J;I;J;343636;Wictoria Bernäng;30;K;Gävle;Sjuksköterska, 30;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;17;J;J;I;J;343637;Sherzad Fatih;55;M;Gävle;Mattelärare, 55;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;18;J;J;I;J;343638;Ove Vestin;78;M;Gävle;Kontrollansvarig- bygg, 78;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;19;J;J;I;J;343639;Anncharlotte Nyberg;68;K;Gävle;Pensionär;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;20;J;J;I;J;343640;Rafael Carrillo;51;M;Gävle;Verksamhetsansvarig, 51;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;21;J;J;I;J;343641;Carina Johnzon;51;K;Gävle;Massageterapeut, 51;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;22;J;J;I;J;340843;Lars-Göran Langeborg;66;M;Gävle;Paralegal, 66;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;23;J;J;I;J;343643;Lena Palm;69;K;Gävle;Fritidspedagog;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;24;J;J;I;J;343644;Lars Sundling;46;M;Gävle;Tandsköterskestuderande, 46;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;25;J;J;I;J;343645;Iréne Forslund;66;K;Gävle;Pensionär, 66;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;26;J;J;I;J;343646;Håkan Forslund;70;M;Gävle;Pensionär, 69;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;27;J;J;I;J;343647;Lill Andersson;64;K;Gävle;Föreskollärare, 64;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;28;J;J;I;J;343648;Sandra Söderqvist;49;K;Gävle;Projektledare, 50;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;29;J;J;I;J;343649;Joakim Stark;45;M;Gävle;Sjukpensionär, 45;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;30;J;J;I;J;343650;Sandra Hjelmerus;36;K;Gävle;Funktionschef, 36;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;31;J;J;I;J;343651;Per Schönnings;67;M;Gävle;Pensionär, 68;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;32;J;J;I;J;343652;Katarina Samuelsson;76;K;Gävle;Senior;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;33;J;J;I;J;343653;Apollinaire Ndayishiniye;48;M;Gävle;Arbetsförmedlare, 48;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;34;J;J;I;J;343654;Ingela Nässén;64;K;Gävle;Ingenjör, 64;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;35;J;J;I;J;343655;Tommy Lundqvist;62;M;Gävle;Busschaufför, 62;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;36;J;J;I;J;343656;Kerstin Willén;63;K;Gävle;Undersköterska, 63;91000;;J
+K;2180;Gävle;00;Gävle;Vänsterpartiet;V;5;S;14812;37;J;J;I;J;343657;Poul-Erik Jenssen;51;M;Gävle;Ombudsman, 51;91000;;J

@@ -1,0 +1,120 @@
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;1;J;J;I;J;40384;Per Eriksson;49;M;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;2;J;J;I;J;40385;Christina Lundqvist;65;K;Bengtsfors;Dals Långed;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;3;J;J;I;J;40386;Besnik Dautaj;34;M;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;4;J;J;I;J;40387;Susanne Öhrn;47;K;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;5;J;J;I;J;40388;Kenneth Juhl;41;M;Bengtsfors;Billingsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;6;J;J;I;J;33236;Jenny Nieminen;29;K;Falköping;Dals Långed;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;7;J;J;I;J;40390;Christer Jakobsson;47;M;Bengtsfors;Gustavsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;8;J;J;I;J;40391;Lena Grönlund;72;K;Bengtsfors;Dals Långed;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;9;J;J;I;J;40392;Johnny Eliasson;50;M;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;10;J;J;I;J;40393;Torill Stjerndahl;69;K;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;11;J;J;I;J;40394;Daniel Karlsson;44;M;Bengtsfors;Dals Långed;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;12;J;J;I;J;40395;Solveig Nettelbo;69;K;Bengtsfors;Billingsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;13;J;J;I;J;40396;Mats Kruse;44;M;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;14;J;J;I;J;40397;Marie Andersson;37;K;Bengtsfors;Dals Långed;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;15;J;J;I;J;40398;Lennart Karlsson;67;M;Bengtsfors;Dals Långed;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;16;J;J;I;J;40399;Sofia Thorn;37;K;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;17;J;J;I;J;40400;Martin Lundqvist;27;M;Bengtsfors;Dals Långed;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;18;J;J;I;J;40401;Carola Qvist;73;K;Bengtsfors;Bäckefors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;19;J;J;I;J;40402;Frank Hagman;53;M;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;20;J;J;I;J;40403;Ivanka Uvalic;54;K;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;21;J;J;I;J;40404;Lennart Jonasson;55;M;Bengtsfors;Ödskölt;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;22;J;J;I;J;40405;Helena Weiland;43;K;Bengtsfors;Billingsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;23;J;J;I;J;40406;Göran Andréasson;71;M;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;24;J;J;I;J;40407;Viktoria Gradin;44;K;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;25;J;J;I;J;40408;Bo Thorn;76;M;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;26;J;J;I;J;40409;Bim Lyrstrand;46;K;Bengtsfors;Billingsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;27;J;J;I;J;40410;Sten-Åke Jansson;76;M;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;28;J;J;I;J;40411;Monica Gunnarsson;62;K;Bengtsfors;Skåpafors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;29;J;J;I;J;40412;Royne Karlsson;60;M;Bengtsfors;Gustavsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;30;J;J;I;J;40413;Gunilla Nolsten;57;K;Bengtsfors;Skåpafors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;31;J;J;I;J;40414;Karl-Erik Ågren;75;M;Bengtsfors;Dals Långed;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Arbetarepartiet-Socialdemokraterna;S;2;S;12341;32;J;J;I;J;40415;Britt-Marie Almqvist;72;K;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;1;J;J;I;J;1877;Per Jonsson;62;M;Bengtsfors;Torrskog;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;2;J;J;I;J;1869;Marie-Therese Harfouche;56;K;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;3;J;J;I;J;5563;Kåre Karlsson;72;M;Bengtsfors;Bäckefors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;4;J;J;I;J;5564;Erik Sandberg;45;M;Bengtsfors;Ärtemark;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;5;J;J;I;J;5565;Marianne Ågren;63;K;Bengtsfors;Dingelvik;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;6;J;J;I;J;5566;Jimmy Bjerkansmo;66;M;Bengtsfors;Ödskölt;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;7;J;J;I;J;5567;Linda Höder Stenegren;43;K;Bengtsfors;Skåpafors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;8;J;J;I;J;5568;Kjell-Åke Andersson;68;M;Bengtsfors;Ärtemark;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;9;J;J;I;J;5569;Ylva Jonsson;65;K;Bengtsfors;Torrskog;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;10;J;J;I;J;5570;Jim Jakobsson;43;M;Bengtsfors;Ödskölt;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;11;J;J;I;J;5571;Leif Johansson;75;M;Bengtsfors;Ödskölt;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;12;J;J;I;J;5572;Matilda Olsson;36;K;Bengtsfors;Ärtemark;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;13;J;J;I;J;5573;Donald Andersson;71;M;Bengtsfors;Ärtemark;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;14;J;J;I;J;5574;Maria Lindqvist;55;K;Bengtsfors;Laxarby;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;15;J;J;I;J;5575;Stefan Eliasson;67;M;Bengtsfors;Torrskog;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;16;J;J;I;J;5576;Ewa Ljungberg;66;K;Bengtsfors;Ärtemark;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;17;J;J;I;J;5577;Ann-Britt Danielsson;79;K;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;18;J;J;I;J;5578;Markus Fredriksson;39;M;Bengtsfors;Ärtemark;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;19;J;J;I;J;5580;Lennart Johansson;65;M;Bengtsfors;Ödskölt;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;20;J;J;I;J;5581;Lars Larsson;75;M;Bengtsfors;Bäckefors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;21;J;J;I;J;5582;Lennart Eriksson;69;M;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;22;J;J;I;J;5583;Irene Ottosson;60;K;Bengtsfors;Laxarby;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;23;J;J;I;J;5584;Östen Karlsson;65;M;Bengtsfors;Steneby;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;24;J;J;I;J;5585;Kenth-Eric Gustavsson;66;M;Bengtsfors;Ärtemark;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;25;J;J;I;J;5586;Mattias Ågren;41;M;Bengtsfors;Steneby;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;26;J;J;I;J;5587;Gunnel Svensson;58;K;Bengtsfors;Steneby;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;27;J;J;I;J;5588;Mohammed Amin Othman;37;M;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;28;J;J;I;J;5589;Anders Lennartsson;56;M;Bengtsfors;Tisselskog;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;29;J;J;I;J;5590;Lars-Erik Olsson;68;M;Bengtsfors;Steneby;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Centerpartiet;C;4;S;11826;30;J;J;I;J;1901;Jerker Johansson;63;M;Bengtsfors;Steneby;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Kristdemokraterna;KD;68;S;14275;1;J;J;I;J;249184;Jan-Åke Jansson;77;M;Bengtsfors;Ingenjör, Tisselskog;20000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Kristdemokraterna;KD;68;S;14275;2;J;J;I;J;248799;Anna-Greta Strömberg;72;K;Bengtsfors;Ekonom, Dals Långed;20000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Kristdemokraterna;KD;68;S;14275;3;J;J;I;J;252513;Lisbeth Wilsson;63;K;Bengtsfors;Undersköterska, Steneby;20000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Kristdemokraterna;KD;68;S;14275;4;J;J;I;J;252514;Göran Pettersson;58;M;Bengtsfors;Fabriksarbetare, Laxarby;20000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Kristdemokraterna;KD;68;S;14275;5;J;J;I;J;252515;Hans-Gunnar Lindström;69;M;Bengtsfors;Ekonom, Dals Långed;20000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Kristdemokraterna;KD;68;S;14275;6;J;J;I;J;252516;Stig Andersson;81;M;Bengtsfors;F.d. polis, Steneby;20000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Liberalerna (tidigare Folkpartiet);L;3;S;13921;1;J;J;I;J;211630;Adam Clason;27;M;Bengtsfors;Avdelningschef, Bäckefors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Liberalerna (tidigare Folkpartiet);L;3;S;13921;2;J;J;I;J;211631;Jan Leander;64;M;Bengtsfors;Skogsbrukare, Laxarby;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Liberalerna (tidigare Folkpartiet);L;3;S;13921;3;J;J;I;J;211632;Carl Kullgren;69;M;Bengtsfors;Psykolog/småbrukare, Ärtemark;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Liberalerna (tidigare Folkpartiet);L;3;S;13921;4;J;J;I;J;211633;Linda Ericsson;48;K;Bengtsfors;Lärare, Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Liberalerna (tidigare Folkpartiet);L;3;S;13921;5;J;J;I;J;211634;Mårten Lönn;28;M;Bengtsfors;Banktjänsteman, Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Liberalerna (tidigare Folkpartiet);L;3;S;13921;6;J;J;I;J;211635;Joseph Hitti;44;M;Bengtsfors;Lärare, Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Liberalerna (tidigare Folkpartiet);L;3;S;13921;7;J;J;I;J;211636;Bengt Jonsson;76;M;Bengtsfors;Lärare, Ärtemark;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Liberalerna (tidigare Folkpartiet);L;3;S;13921;8;J;J;I;J;211637;Margareta Olsson;74;K;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Liberalerna (tidigare Folkpartiet);L;3;S;13921;9;J;J;I;J;211638;Mats Martinsson;76;M;Bengtsfors;Billingsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Liberalerna (tidigare Folkpartiet);L;3;S;13921;10;J;J;I;J;211639;Jan-Owe Olsson;73;M;Bengtsfors;Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Miljöpartiet de gröna;MP;55;S;14164;1;N;J;J;I;243404;Bernt Petzäll;72;M;Bengtsfors;Bengtsfors;20000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Miljöpartiet de gröna;MP;55;;;;N;J;J;I;516033;Karlsson, Terése;50;K;Bengtsfors;;0;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;1;J;J;I;J;258430;Stig Bertilsson;68;M;Bengtsfors;Redaktör/Företagare, Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;2;J;J;I;J;254209;Krister Stensson;50;M;Bengtsfors;Beteendevetare, Ödskölt;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;3;J;J;I;J;258432;Yvonne Rudebou;73;K;Bengtsfors;Sjuksköterska/Pensionär, Gustavsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;4;J;J;I;J;258433;Gert Andersson;67;M;Bengtsfors;Företagare/Elektriker, Skåpafors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;5;J;J;I;J;258434;Anders Forsberg;49;M;Bengtsfors;Verksamhetsledare, Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;6;J;J;I;J;258435;Anna Johansson;53;K;Bengtsfors;Företagare, Ärtemark;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;7;J;J;I;J;258436;Pontus Gyllenberg;39;M;Bengtsfors;Företagsledare, Ärtemark;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;8;J;J;I;J;258437;Jesper Johansson;40;M;Bengtsfors;Lantbrukare, Laxarby;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;9;J;J;I;J;258438;Ulf Nelson;70;M;Bengtsfors;Företagare, Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;10;J;J;I;J;258439;Marielle Johansson;47;K;Bengtsfors;Grundskolelärare, Laxarby;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;11;J;J;I;J;258440;Owe Gustafsson;41;M;Bengtsfors;Ingenjör, Ärtemark;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;12;J;J;I;J;258441;Patrik Forsberg;26;M;Bengtsfors;Drifttekniker, Dals-Långed;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;13;J;J;I;J;258442;Kjell Johansson;64;M;Bengtsfors;Bonde/Entreprenör, Steneby;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;14;J;J;I;J;254217;Mats Johansson;70;M;Bengtsfors;Pensionär, Ödskölt;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;15;J;J;I;J;258444;Mikael Mohammad Ali;23;M;Bengtsfors;Studerande, Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;16;J;J;I;J;258445;May-Louise Bryngelsson;62;K;Bengtsfors;Butikschef, Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;17;J;J;I;J;258446;Nils Lindroth;40;M;Bengtsfors;Transportledare, Bengtsfors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;18;J;J;I;J;258447;Erik Larsson;76;M;Bengtsfors;Pensionär, Ärtemark;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;19;J;J;I;J;258448;Erika Båld;26;K;Bengtsfors;Undersköterska, Dals-Långed;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Moderaterna;M;1;S;14317;20;J;J;I;J;258449;Maylis Svensson;71;K;Bengtsfors;Pensionär, Bäckefors;24000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Sverigedemokraterna;SD;110;S;12684;1;J;J;I;J;66507;Christer Andréasson;74;M;Bengtsfors;75 år, Företagare, Dals Långed;27000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Sverigedemokraterna;SD;110;S;12684;2;J;J;I;J;66508;Lars-Erik Molin;74;M;Bengtsfors;74 år, Civilingenjör, Bengtsfors;27000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Sverigedemokraterna;SD;110;S;12684;3;J;J;I;J;66509;Ingegerd Venborg;60;K;Bengtsfors;60 år, Laborant, Billingsfors;27000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Sverigedemokraterna;SD;110;S;12684;4;J;J;I;J;66510;Henning Venborg;65;M;Bengtsfors;65 år, Pappersarbetare, Billingsfors;27000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Sverigedemokraterna;SD;110;S;12684;5;J;J;I;J;184155;Nore Johansson;62;M;Bengtsfors;62 år, Företagare, Dals Långed;27000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Sverigedemokraterna;SD;110;S;12684;6;J;J;I;J;66511;Britt-Inger Sandström;62;K;Bengtsfors;62 år, Allt-i-allo, Dals Långed;27000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Sverigedemokraterna;SD;110;S;12684;7;J;J;I;J;66512;Jim Grenander;40;M;Bengtsfors;40 år, Värmetekniker, Gustavsfors;27000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Sverigedemokraterna;SD;110;S;12684;8;J;J;I;J;66513;Stefan Borgert;35;M;Bengtsfors;35 år, Mekaniker, Billingsfors;27000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Sverigedemokraterna;SD;110;S;12684;9;J;J;I;J;66514;Ingleif Wangsmo;37;M;Bengtsfors;37 år, Produktionsarbetare, Bäckefors;27000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Sverigedemokraterna;SD;110;S;12684;10;J;J;I;J;66515;Leif Johnsson;66;M;Bengtsfors;66 år, Sjöman, Dals Långed;27000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Sverigedemokraterna;SD;110;S;12684;11;J;J;I;J;66517;Annika Skån;62;K;Bengtsfors;62 år, Frisör, Bengtsfors;27000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Vänsterpartiet;V;5;S;14689;1;J;J;I;J;314404;Annette Ternstedt;68;K;Bengtsfors;68 år, Pensionär, Dals Långed;18000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Vänsterpartiet;V;5;S;14689;2;J;J;I;J;234439;Emil Norén;28;M;Bengtsfors;28 år, Studerande, Bäckefors;18000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Vänsterpartiet;V;5;S;14689;3;J;J;I;J;314406;Anna Lena Ingemansson;53;K;Bengtsfors;53 år, Konstnär/Butikssäljare, Steneby;18000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Vänsterpartiet;V;5;S;14689;4;J;J;I;J;314407;Anna Eriksson;29;K;Göteborg;29 år, Integrationspedagog, Dals Långed;18000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Vänsterpartiet;V;5;S;14689;5;J;J;I;J;234434;Mats Berglund;28;M;Göteborg;28 år, Ombudsman, Dals Långed;18000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Vänsterpartiet;V;5;S;14689;6;J;J;I;J;314409;Sara Norén;28;K;Bengtsfors;28 år, Socialsekreterare, Bäckefors;18000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Vänsterpartiet;V;5;S;14689;7;J;J;I;J;314410;Jan-Olof Ternstedt;71;M;Bengtsfors;71 år, Halmslöjdare, Dals Långed;18000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Vänsterpartiet;V;5;S;14689;8;J;J;I;J;314411;Marie Persson;54;K;Bengtsfors;54 år, Socialsekreterare, Dals Långed;18000;;J
+K;1460;Bengtsfors;00;Bengtsfors;Vänsterpartiet;V;5;S;14689;9;J;J;I;J;314412;Bo Nelin;68;M;Bengtsfors;68 år, Pensionär, Svarttjärn;18000;;J
