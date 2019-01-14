@@ -7,6 +7,8 @@ CHARS = 200000;
 
 N = 4;
 
+// Benderskys metod:
+
 // choose = (hash) ->
 // 	keys = _.keys hash
 // 	values = _.values hash
@@ -45,6 +47,8 @@ N = 4;
 // 		state = state.slice(1,N) + char
 // 	print out.join ''
 // 	print Date.now()-start 
+
+// Min metod
 choose = function choose(arr) {
   return arr[int(random(arr.length))];
 };

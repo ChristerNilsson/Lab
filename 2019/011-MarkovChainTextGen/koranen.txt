@@ -1,4 +1,3 @@
-data="""
 1|1|I GUDS, DEN NÅDERIKES, DEN BARMHÄRTIGES NAMN
 1|2|Lov och pris tillkommer Gud, världarnas Herre,
 1|3|den Nåderike, den Barmhärtige,
@@ -6235,4 +6234,3 @@ data="""
 114|4|mot det onda som den förrädiske frestaren
 114|5|viskar i människornas hjärtan,
 114|6|[viskar] genom [onda] osynliga väsen och [deras likar bland] människorna."
-"""

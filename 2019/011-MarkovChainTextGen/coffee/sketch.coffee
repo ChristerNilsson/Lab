@@ -1,6 +1,8 @@
 CHARS = 200000
 N = 4
 
+# Benderskys metod:
+
 # choose = (hash) ->
 # 	keys = _.keys hash
 # 	values = _.values hash
@@ -40,6 +42,7 @@ N = 4
 # 	print out.join ''
 # 	print Date.now()-start 
 
+# Min metod
 choose = (arr) -> arr[int random arr.length]
 setup = ->
 	start = Date.now()
