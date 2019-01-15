@@ -1,7 +1,5 @@
 'use strict';
 
-var _slicedToArray = function () { function sliceIterator(arr, i) { var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"]) _i["return"](); } finally { if (_d) throw _e; } } return _arr; } return function (arr, i) { if (Array.isArray(arr)) { return arr; } else if (Symbol.iterator in Object(arr)) { return sliceIterator(arr, i); } else { throw new TypeError("Invalid attempt to destructure non-iterable instance"); } }; }();
-
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -29,6 +27,9 @@ var ANMDELTAGANDE,
     PARTIFÖRKORTNING,
     PARTIKOD,
     PERSONS_PER_PAGE,
+    Page,
+    Page0,
+    Page1,
     PartiButton,
     PersonButton,
     SAMTYCKE,
@@ -42,15 +43,15 @@ var ANMDELTAGANDE,
     VALTYP,
     VOTES,
     antal,
-    buttons,
     canvas,
     clickButton,
     clickDelete,
-    clickDown,
+    clickFortsätt,
     clickLetterButton,
     clickPartiButton,
     clickPersonButton,
-    clickUp,
+    clickRensa,
+    clickSwap,
     clickUtskrift,
     createSelectButtons,
     dictionary,
@@ -58,16 +59,14 @@ var ANMDELTAGANDE,
     getParameters,
     getQR,
     gruppera,
-    kbuttons,
     kommunkod,
-    lbuttons,
     länskod,
     makeFreq,
     mousePressed,
-    pbuttons,
+    pages,
+    qr,
     qrcode,
     readDatabase,
-    sbuttons,
     selectedButton,
     selectedLetterButton,
     selectedPartiButton,
@@ -139,26 +138,20 @@ länskod = null;
 
 tree = {};
 
-state = 0; // 0=normal 1=qrcode
-
 canvas = null;
 
 qrcode = null;
+
+qr = null;
 
 dictionary = {};
 
 // S -> Socialdemokraterna
 // 01 -> Stockholms läns landsting
 // 0180 -> Stockholm
-buttons = []; // RKL
+state = 0; // 0=normal 1=qrcode
 
-pbuttons = []; // parti
-
-lbuttons = []; // letters
-
-kbuttons = []; // kandidater
-
-sbuttons = []; // Del, Up, Down
+pages = [];
 
 selectedPersons = {
   R: [],
@@ -173,6 +166,156 @@ selectedPartiButton = null;
 selectedLetterButton = null;
 
 selectedPersonButton = null;
+
+Page = function () {
+  function Page() {
+    var render = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : function () {};
+
+    _classCallCheck(this, Page);
+
+    this.render = render;
+    this.buttons = [];
+  }
+
+  _createClass(Page, [{
+    key: 'add',
+    value: function add(button) {
+      this.buttons.push(button);
+      return button;
+    }
+  }, {
+    key: 'draw',
+    value: function draw() {
+      var button, k, len, ref, results;
+      this.render();
+      ref = this.buttons;
+      results = [];
+      for (k = 0, len = ref.length; k < len; k++) {
+        button = ref[k];
+        results.push(button.draw());
+      }
+      return results;
+    }
+  }, {
+    key: 'mousePressed',
+    value: function mousePressed() {
+      var button, k, len, ref, results;
+      ref = this.buttons;
+      results = [];
+      for (k = 0, len = ref.length; k < len; k++) {
+        button = ref[k];
+        if (button.inside(mouseX, mouseY)) {
+          results.push(button.click());
+        } else {
+          results.push(void 0);
+        }
+      }
+      return results;
+    }
+  }]);
+
+  return Page;
+}();
+
+Page0 = function (_Page) {
+  _inherits(Page0, _Page);
+
+  function Page0() {
+    var render = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : function () {};
+
+    _classCallCheck(this, Page0);
+
+    var _this = _possibleConstructorReturn(this, (Page0.__proto__ || Object.getPrototypeOf(Page0)).call(this));
+
+    _this.render = render;
+    _this.rbuttons = []; // RKL
+    _this.init();
+    return _this;
+  }
+
+  _createClass(Page0, [{
+    key: 'radd',
+    value: function radd(button) {
+      return this.rbuttons.push(button);
+    }
+  }, {
+    key: 'padd',
+    value: function padd(button) {
+      return this.pbuttons.push(button);
+    }
+  }, {
+    key: 'ladd',
+    value: function ladd(button) {
+      return this.lbuttons.push(button);
+    }
+  }, {
+    key: 'kadd',
+    value: function kadd(button) {
+      return this.kbuttons.push(button);
+    }
+  }, {
+    key: 'sadd',
+    value: function sadd(button) {
+      return this.sbuttons.push(button);
+    }
+  }, {
+    key: 'allButtons',
+    value: function allButtons() {
+      return this.rbuttons.concat(this.pbuttons.concat(this.lbuttons.concat(this.kbuttons.concat(this.sbuttons))));
+    }
+  }, {
+    key: 'init',
+    value: function init() {
+      this.pbuttons = []; // parti
+      this.lbuttons = []; // letters
+      this.kbuttons = []; // kandidater
+      return this.sbuttons = []; // Del, Up, Down
+    }
+  }, {
+    key: 'draw',
+    value: function draw() {
+      var button, k, len, ref, results;
+      this.render();
+      ref = this.allButtons();
+      results = [];
+      for (k = 0, len = ref.length; k < len; k++) {
+        button = ref[k];
+        results.push(button.draw());
+      }
+      return results;
+    }
+  }, {
+    key: 'mousePressed',
+    value: function mousePressed() {
+      var button, k, len, ref, results;
+      ref = this.allButtons();
+      results = [];
+      for (k = 0, len = ref.length; k < len; k++) {
+        button = ref[k];
+        if (button.inside(mouseX, mouseY)) {
+          results.push(button.click());
+        } else {
+          results.push(void 0);
+        }
+      }
+      return results;
+    }
+  }]);
+
+  return Page0;
+}(Page);
+
+Page1 = function (_Page2) {
+  _inherits(Page1, _Page2);
+
+  function Page1() {
+    _classCallCheck(this, Page1);
+
+    return _possibleConstructorReturn(this, (Page1.__proto__ || Object.getPrototypeOf(Page1)).apply(this, arguments));
+  }
+
+  return Page1;
+}(Page);
 
 Button = function () {
   function Button(title1, x1, y1, w1, h1) {
@@ -252,10 +395,10 @@ PersonButton = function (_Button2) {
     var title;
     title = person[NAMN] + ' - ' + person[VALSEDELSUPPGIFT];
 
-    var _this2 = _possibleConstructorReturn(this, (PersonButton.__proto__ || Object.getPrototypeOf(PersonButton)).call(this, title, x, y, w, h, click));
+    var _this4 = _possibleConstructorReturn(this, (PersonButton.__proto__ || Object.getPrototypeOf(PersonButton)).call(this, title, x, y, w, h, click));
 
-    _this2.person = person;
-    return _this2;
+    _this4.person = person;
+    return _this4;
   }
 
   _createClass(PersonButton, [{
@@ -279,15 +422,15 @@ LetterButton = function (_Button3) {
   function LetterButton(title, x, y, w, h, antal1, click) {
     _classCallCheck(this, LetterButton);
 
-    var _this3 = _possibleConstructorReturn(this, (LetterButton.__proto__ || Object.getPrototypeOf(LetterButton)).call(this, title, x, y, w, h, click));
+    var _this5 = _possibleConstructorReturn(this, (LetterButton.__proto__ || Object.getPrototypeOf(LetterButton)).call(this, title, x, y, w, h, click));
 
-    _this3.antal = antal1;
-    _this3.page = -1;
-    _this3.pages = 1 + Math.floor(_this3.antal / PERSONS_PER_PAGE);
-    if (_this3.antal % PERSONS_PER_PAGE === 0) {
-      _this3.pages--;
+    _this5.antal = antal1;
+    _this5.page = -1;
+    _this5.pages = 1 + Math.floor(_this5.antal / PERSONS_PER_PAGE);
+    if (_this5.antal % PERSONS_PER_PAGE === 0) {
+      _this5.pages--;
     }
-    return _this3;
+    return _this5;
   }
 
   _createClass(LetterButton, [{
@@ -365,35 +508,28 @@ antal = function antal(letter, personer) {
 
 createSelectButtons = function createSelectButtons() {
   var i, person, persons, results, typ, x, y;
-  sbuttons = [];
+  pages[0].sbuttons = [];
   results = [];
   for (typ in selectedPersons) {
     persons = selectedPersons[typ];
-    print(persons);
     results.push(function () {
       var k, len, results1;
       results1 = [];
       for (i = k = 0, len = persons.length; k < len; i = ++k) {
         person = persons[i];
-        print(person);
         x = 770;
         y = {
-          R: 100,
-          L: 370,
-          K: 640
+          R: 100 - 20,
+          L: 310 + 50 - 20,
+          K: 570 + 50 - 20
         }[typ] + i * 40;
         results1.push(function (typ, i) {
-          sbuttons.push(new Button(' x ', x + 0, y, 40, 30, function () {
-            return clickDelete(this, typ, i);
+          pages[0].sadd(new Button(' x ', x + 0, y, 40, 30, function () {
+            return clickDelete(typ, i);
           }));
           if (i > 0) {
-            sbuttons.push(new Button('upp', x + 45, y, 40, 30, function () {
-              return clickUp(this, typ, i);
-            }));
-          }
-          if (i < persons.length - 1) {
-            return sbuttons.push(new Button('ner', x + 90, y, 40, 30, function () {
-              return clickDown(this, typ, i);
+            return pages[0].sadd(new Button('byt', x + 45, y - 20, 40, 30, function () {
+              return clickSwap(typ, i);
             }));
           }
         }(typ, i));
@@ -404,43 +540,34 @@ createSelectButtons = function createSelectButtons() {
   return results;
 };
 
-clickDelete = function clickDelete(button, typ, index) {
+clickDelete = function clickDelete(typ, index) {
   selectedPersons[typ].splice(index, 1);
   return createSelectButtons();
 };
 
-clickUp = function clickUp(button, typ, index) {
-  var arr, item;
+clickSwap = function clickSwap(typ, index) {
+  var arr;
   arr = selectedPersons[typ];
-  if (index === 0) {
-    return;
-  }
+  var _ref = [arr[index - 1], arr[index]];
+  arr[index] = _ref[0];
+  arr[index - 1] = _ref[1];
 
-  var _arr$splice = arr.splice(index, 1);
-
-  var _arr$splice2 = _slicedToArray(_arr$splice, 1);
-
-  item = _arr$splice2[0];
-
-  arr.splice(index - 1, 0, item);
   return createSelectButtons();
 };
 
-clickDown = function clickDown(button, typ, index) {
-  var arr, item;
-  arr = selectedPersons[typ];
-  if (index === arr.length - 1) {
-    return;
-  }
-
-  var _arr$splice3 = arr.splice(index, 1);
-
-  var _arr$splice4 = _slicedToArray(_arr$splice3, 1);
-
-  item = _arr$splice4[0];
-
-  arr.splice(index + 1, 0, item);
-  return createSelectButtons();
+clickRensa = function clickRensa() {
+  selectedPersons = {
+    R: [],
+    L: [],
+    K: []
+  };
+  createSelectButtons();
+  pages[0].init();
+  selectedButton = null;
+  selectedPartiButton = null;
+  selectedLetterButton = null;
+  selectedPersonButton = null;
+  return qr = '';
 };
 
 clickPersonButton = function clickPersonButton(person) {
@@ -465,7 +592,7 @@ clickLetterButton = function clickLetterButton(button, letters, personer) {
   N = PERSONS_PER_PAGE;
   selectedLetterButton = button;
   button.page = (button.page + 1) % button.pages;
-  kbuttons = [];
+  pages[0].kbuttons = [];
   keys = _.keys(personer);
   keys.sort(function (a, b) {
     if (a.slice(a.indexOf('-')) < b.slice(b.indexOf('-'))) {
@@ -484,7 +611,7 @@ clickLetterButton = function clickLetterButton(button, letters, personer) {
         x = 505;
         y = 38 + 25 * (j % N);
         (function (person) {
-          return kbuttons.push(new PersonButton(person, x, y, 400, 20, function () {
+          return pages[0].kadd(new PersonButton(person, x, y, 400, 20, function () {
             return clickPersonButton(person);
           }));
         })(person);
@@ -585,8 +712,8 @@ clickPartiButton = function clickPartiButton(button, personer) {
   var N, i, j, k, key, keys, l, len, len1, letters, n, p, person, persons, ref, title, x, y;
   N = 16;
   selectedPartiButton = button;
-  lbuttons = [];
-  kbuttons = [];
+  pages[0].lbuttons = [];
+  pages[0].kbuttons = [];
   if (PERSONS_PER_PAGE >= _.size(personer)) {
     keys = _.keys(personer);
     keys.sort(function (a, b) {
@@ -602,7 +729,7 @@ clickPartiButton = function clickPartiButton(button, personer) {
       x = 505;
       y = 40 + 25 * j;
       (function (person) {
-        return kbuttons.push(new PersonButton(person, x, y, 400, 20, function () {
+        return pages[0].kadd(new PersonButton(person, x, y, 400, 20, function () {
           return clickPersonButton(person);
         }));
       })(person);
@@ -617,7 +744,7 @@ clickPartiButton = function clickPartiButton(button, personer) {
       y = 50 + 50 * (i % N);
       title = letters.length === 1 ? letters : letters[0] + '-' + _.last(letters);
       (function (letters, title) {
-        return lbuttons.push(new LetterButton(title, x, y, 45, 45, n, function () {
+        return pages[0].ladd(new LetterButton(title, x, y, 45, 45, n, function () {
           return clickLetterButton(this, letters, personer);
         }));
       })(letters, title);
@@ -648,9 +775,9 @@ clickButton = function clickButton(button, partier) {
   var N, i, k, key, keys, len, results, x, y;
   N = 16;
   selectedButton = button;
-  pbuttons = [];
-  lbuttons = [];
-  kbuttons = [];
+  pages[0].pbuttons = [];
+  pages[0].lbuttons = [];
+  pages[0].kbuttons = [];
   keys = _.keys(partier);
   keys.sort(function (a, b) {
     return _.size(partier[b]) - _.size(partier[a]);
@@ -661,7 +788,7 @@ clickButton = function clickButton(button, partier) {
     x = 50 + 100 * Math.floor(i / N);
     y = 50 + 50 * (i % N);
     results.push(function (key) {
-      return pbuttons.push(new PartiButton(key, x, y, 95, 45, function () {
+      return pages[0].padd(new PartiButton(key, x, y, 95, 45, function () {
         return clickPartiButton(this, partier[key]);
       }));
     }(key));
@@ -790,14 +917,14 @@ getQR = function getQR() {
     }
   }
   assert(s.length, 4 + 6 + 15 * 6); // 100
-  print(s);
   return s;
 };
 
 clickUtskrift = function clickUtskrift() {
   state = 1;
+  qr = getQR();
   return qrcode = new QRCode(document.getElementById("qrcode"), {
-    text: getQR(),
+    text: qr,
     width: 256,
     height: 256,
     colorDark: "#000000",
@@ -806,69 +933,18 @@ clickUtskrift = function clickUtskrift() {
   });
 };
 
+clickFortsätt = function clickFortsTt() {
+  var myNode;
+  myNode = document.getElementById("qrcode");
+  myNode.innerHTML = '';
+  return state = 0;
+};
+
 setup = function setup() {
   createCanvas(1250, 840);
-  sc();
-
-  var _getParameters = getParameters();
-
-  kommunkod = _getParameters.kommunkod;
-
-  if (!kommunkod) {
-    kommunkod = '0180';
-  }
-  länskod = kommunkod.slice(0, 2);
-  readDatabase();
-  print(tree);
-  rectMode(CENTER);
-  textAlign(CENTER, CENTER);
-  textSize(20);
-  buttons.push(new Button('Riksdag', 950, 50, 400, 45, function () {
-    return clickButton(this, tree['00 - riksdagen']);
-  }));
-  buttons.push(new Button('Landsting', 950, 310, 400, 45, function () {
-    return clickButton(this, tree[länskod][dictionary[länskod]]);
-  }));
-  buttons.push(new Button('Kommun', 950, 570, 400, 45, function () {
-    return clickButton(this, tree[länskod][dictionary[kommunkod]]);
-  }));
-  return buttons.push(new Button('Utskrift', 950, 830, 400, 45, function () {
-    return clickUtskrift(); // @, tree[länskod][dictionary[kommunkod]]
-  }));
-};
-
-showSelectedPersons = function showSelectedPersons() {
-  var i, j, k, l, len, len1, person, ref, ref1, typ, x, y, y0;
-  x = 720;
-  push();
-  textAlign(LEFT, CENTER);
-  ref = 'RLK';
-  for (i = k = 0, len = ref.length; k < len; i = ++k) {
-    typ = ref[i];
-    y0 = [100, 370, 640][i];
-    ref1 = selectedPersons[typ];
-    //textSize 28
-    //text buttons[i].title,x,y0
-    for (j = l = 0, len1 = ref1.length; l < len1; j = ++l) {
-      person = ref1[j];
-      y = y0 + 40 * j;
-      textSize(20);
-      text(j + 1 + '.', x, y);
-      text(person[PARTIFÖRKORTNING] + ' - ' + person[NAMN], x + 170, y);
-    }
-  }
-  return pop();
-};
-
-draw = function draw() {
-  var button, k, len, ref;
-  if (state === 0) {
+  pages.push(new Page0(function () {
+    // pages[0].render()
     bg(0);
-    ref = buttons.concat(pbuttons.concat(lbuttons.concat(kbuttons.concat(sbuttons))));
-    for (k = 0, len = ref.length; k < len; k++) {
-      button = ref[k];
-      button.draw();
-    }
     if (selectedPartiButton !== null) {
       push();
       textAlign(LEFT, CENTER);
@@ -891,26 +967,82 @@ draw = function draw() {
       }
       pop();
     }
-    showSelectedPersons();
+    return showSelectedPersons(750, 100 - 20);
+  }));
+  pages.push(new Page1(function () {
+    // pages[1].render()
+    textAlign(LEFT, CENTER);
+    bg(1);
+    fc(0);
+    text(qr, 50, height - 20);
+    text('Riksdag', 10, 50 + 0);
+    text(dictionary[länskod], 10, 50 + 260);
+    text(dictionary[kommunkod], 10, 50 + 520);
+    return showSelectedPersons(400, 50);
+  }));
+  sc();
+
+  var _getParameters = getParameters();
+
+  kommunkod = _getParameters.kommunkod;
+
+  if (!kommunkod) {
+    kommunkod = '0180';
   }
-  if (state === 1) {
-    return bg(1);
-  }
+  länskod = kommunkod.slice(0, 2);
+  readDatabase();
+  print(tree);
+  rectMode(CENTER);
+  textAlign(CENTER, CENTER);
+  textSize(20);
+  pages[0].radd(new Button('Riksdag', 950, 50 - 20, 400, 45, function () {
+    return clickButton(this, tree['00 - riksdagen']);
+  }));
+  pages[0].radd(new Button('Landsting', 950, 310 - 20, 400, 45, function () {
+    return clickButton(this, tree[länskod][dictionary[länskod]]);
+  }));
+  pages[0].radd(new Button('Kommun', 950, 570 - 20, 400, 45, function () {
+    return clickButton(this, tree[länskod][dictionary[kommunkod]]);
+  }));
+  pages[0].radd(new Button('Utskrift', 850, 830 - 20, 200, 45, function () {
+    return clickUtskrift();
+  }));
+  pages[0].radd(new Button('Rensa', 1050, 830 - 20, 195, 45, function () {
+    return clickRensa();
+  }));
+  pages[1].add(new Button('Utskrift', 490, height - 60, 200, 45, function () {
+    return window.print();
+  }));
+  return pages[1].add(new Button('Fortsätt', 700, height - 60, 200, 45, function () {
+    return clickFortsätt();
+  }));
 };
 
-//Drawing.draw qrcode 
-mousePressed = function mousePressed() {
-  var button, k, len, ref, results;
-  ref = buttons.concat(pbuttons.concat(lbuttons.concat(kbuttons.concat(sbuttons))));
-  results = [];
-  for (k = 0, len = ref.length; k < len; k++) {
-    button = ref[k];
-    if (button.inside(mouseX, mouseY)) {
-      results.push(button.click());
-    } else {
-      results.push(void 0);
+showSelectedPersons = function showSelectedPersons(xoff, yoff) {
+  var i, j, k, l, len, len1, person, ref, ref1, typ, y, y0;
+  push();
+  textAlign(LEFT, CENTER);
+  ref = 'RLK';
+  for (i = k = 0, len = ref.length; k < len; i = ++k) {
+    typ = ref[i];
+    y0 = yoff + [0, 260, 520][i];
+    ref1 = selectedPersons[typ];
+    for (j = l = 0, len1 = ref1.length; l < len1; j = ++l) {
+      person = ref1[j];
+      y = y0 + 40 * j;
+      textSize(20);
+      text(j + 1 + '.', xoff - 30, y);
+      text(person[PARTIFÖRKORTNING] + ' - ' + person[NAMN], xoff + 100, y);
     }
   }
-  return results;
+  return pop();
+};
+
+draw = function draw() {
+  return pages[state].draw();
+};
+
+mousePressed = function mousePressed() {
+  return pages[state].mousePressed(mouseX, mouseY);
 };
 //# sourceMappingURL=sketch.js.map

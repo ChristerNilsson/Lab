@@ -21,3 +21,8 @@ Att ta bort kandidaturer som ställer upp i flera partier på samma nivå ger in
 Partierna finns kvar i alla fall.
 
 https://github.com/davidshimjs/qrcodejs
+
+# todo
+
+* Kiosk mode.
+* Bättre hantering av utskrift.

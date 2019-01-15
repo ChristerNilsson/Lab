@@ -32,21 +32,18 @@ kommunkod = null
 länskod = null
 
 tree = {}
-state = 0 # 0=normal 1=qrcode
 
 canvas = null
 qrcode = null
+qr = null
 
 dictionary = {} 
 	# S -> Socialdemokraterna
 	# 01 -> Stockholms läns landsting
 	# 0180 -> Stockholm
 
-buttons = [] # RKL
-pbuttons = [] # parti
-lbuttons = [] # letters
-kbuttons = [] # kandidater
-sbuttons = [] # Del, Up, Down
+state = 0 # 0=normal 1=qrcode
+pages = []
 
 selectedPersons = {R:[], L:[], K:[]}
 
@@ -54,6 +51,54 @@ selectedButton = null
 selectedPartiButton = null
 selectedLetterButton = null
 selectedPersonButton = null
+
+class Page
+	constructor : (@render = ->) ->
+		@buttons  = [] 
+
+	add : (button) -> 
+		@buttons.push button
+		button
+
+	draw : ->
+		@render()
+		for button in @buttons
+			button.draw()
+
+	mousePressed : ->
+		for button in @buttons
+			if button.inside mouseX,mouseY then button.click()
+
+class Page0 extends Page
+	constructor : (@render = ->) ->
+		super()
+		@rbuttons = [] # RKL
+		@init()
+
+	radd : (button) -> @rbuttons.push button
+	padd : (button) -> @pbuttons.push button
+	ladd : (button) -> @lbuttons.push button
+	kadd : (button) -> @kbuttons.push button
+	sadd : (button) -> @sbuttons.push button
+
+	allButtons : -> @rbuttons.concat @pbuttons.concat @lbuttons.concat @kbuttons.concat @sbuttons
+
+	init : ->
+		@pbuttons = [] # parti
+		@lbuttons = [] # letters
+		@kbuttons = [] # kandidater
+		@sbuttons = [] # Del, Up, Down
+
+	draw : ->
+		@render()
+		for button in @allButtons()
+			button.draw()
+
+	mousePressed : ->
+		for button in @allButtons()
+			if button.inside mouseX,mouseY then button.click()
+
+class Page1 extends Page
 
 class Button
 	constructor : (@title, @x,@y,@w,@h,@click = ->) ->
@@ -124,35 +169,33 @@ antal = (letter,personer) ->
 	lst.length
 
 createSelectButtons = ->
-	sbuttons = []
+	pages[0].sbuttons = []
 	for typ,persons of selectedPersons
-		print persons
 		for person,i in persons
-			print person
 			x = 770
-			y = {R:100,L:370,K:640}[typ] + i*40
+			y = {R:100-20,L:310+50-20,K:570+50-20}[typ] + i*40
 			do (typ,i) ->
-				sbuttons.push                            new Button ' x ',x+ 0,y,40,30, -> clickDelete @,typ,i
-				if i>0                then sbuttons.push new Button 'upp',x+45,y,40,30, -> clickUp     @,typ,i
-				if i<persons.length-1 then sbuttons.push new Button 'ner',x+90,y,40,30, -> clickDown   @,typ,i
+				pages[0].sadd             new Button ' x ',x+ 0,y,   40,30, -> clickDelete typ,i
+				if i>0 then pages[0].sadd new Button 'byt',x+45,y-20,40,30, -> clickSwap   typ,i
 
-clickDelete = (button,typ,index) ->
+clickDelete = (typ,index) ->
 	selectedPersons[typ].splice index,1 	
 	createSelectButtons()
 
-clickUp = (button,typ,index) ->
+clickSwap = (typ,index) ->
 	arr = selectedPersons[typ]
-	if index == 0 then return
-	[item] = arr.splice index,1 	
-	arr.splice index-1,0,item 	
+	[arr[index],arr[index-1]] = [arr[index-1],arr[index]]
 	createSelectButtons()
 
-clickDown = (button,typ,index) ->
-	arr = selectedPersons[typ]
-	if index == arr.length-1 then return
-	[item] = arr.splice index,1 	
-	arr.splice index+1,0,item 	
-	createSelectButtons()
+clickRensa = ->
+	selectedPersons = {R:[], L:[], K:[]}
+	createSelectButtons()	
+	pages[0].init()
+	selectedButton = null
+	selectedPartiButton = null
+	selectedLetterButton = null
+	selectedPersonButton = null
+	qr = ''
 
 clickPersonButton = (person) ->
 	persons = selectedPersons[selectedButton.title[0]]
@@ -169,7 +212,7 @@ clickLetterButton = (button,letters,personer) ->
 	N = PERSONS_PER_PAGE
 	selectedLetterButton = button
 	button.page = (button.page + 1) % button.pages
-	kbuttons = []
+	pages[0].kbuttons = []
 	keys = _.keys personer 
 	keys.sort (a,b) -> if a.slice(a.indexOf('-')) < b.slice(b.indexOf('-')) then -1 else 1
 	j = 0
@@ -179,7 +222,7 @@ clickLetterButton = (button,letters,personer) ->
 			if j // N == button.page 
 				x = 505
 				y = 38+25*(j%N)
-				do (person) -> kbuttons.push new PersonButton person,x,y,400,20, -> clickPersonButton person
+				do (person) -> pages[0].kadd new PersonButton person,x,y,400,20, -> clickPersonButton person
 			j++
 
 makeFreq = (personer) ->
@@ -212,8 +255,8 @@ assert {ABDEF:28, NO:32}, gruppera {A:2, B:1, D:3,E:10,F:12,N:20,O:12}
 clickPartiButton = (button, personer) ->
 	N = 16
 	selectedPartiButton = button 
-	lbuttons = []
-	kbuttons = []
+	pages[0].lbuttons = []
+	pages[0].kbuttons = []
 
 	if PERSONS_PER_PAGE >= _.size personer
 		keys = _.keys personer
@@ -222,7 +265,7 @@ clickPartiButton = (button, personer) ->
 			person = personer[key]
 			x = 505
 			y = 40+25*j
-			do (person) -> kbuttons.push new PersonButton person,x,y,400,20, -> clickPersonButton person
+			do (person) -> pages[0].kadd new PersonButton person,x,y,400,20, -> clickPersonButton person
 
 	else
 		i = 0
@@ -231,7 +274,7 @@ clickPartiButton = (button, personer) ->
 			x = 225+50*(i//N)
 			y = 50+50*(i%N)
 			title = if letters.length == 1 then letters else "#{letters[0]}-#{_.last letters}"
-			do (letters,title) -> lbuttons.push new LetterButton title,x,y,45,45,n, -> clickLetterButton @, letters, personer
+			do (letters,title) -> pages[0].ladd new LetterButton title,x,y,45,45,n, -> clickLetterButton @, letters, personer
 			i++
 
 	persons = selectedPersons[selectedButton.title[0]]
@@ -250,19 +293,18 @@ clickPartiButton = (button, personer) ->
 		persons.push person 
 		createSelectButtons()
 
-
 clickButton = (button, partier) ->
 	N = 16
 	selectedButton = button
-	pbuttons = []
-	lbuttons = []
-	kbuttons = []
+	pages[0].pbuttons = []
+	pages[0].lbuttons = []
+	pages[0].kbuttons = []
 	keys = _.keys partier
 	keys.sort (a,b) -> _.size(partier[b]) - _.size(partier[a])
 	for key,i in keys
 		x = 50+100*(i//N)
 		y = 50+50*(i%N)
-		do (key) -> pbuttons.push new PartiButton key,x,y,95,45, -> clickPartiButton @, partier[key]
+		do (key) -> pages[0].padd new PartiButton key,x,y,95,45, -> clickPartiButton @, partier[key]
 
 # getClowner = (lines) -> # tag fram alla personer som representerar flera partier i samma valtyp
 # 	res = []
@@ -345,60 +387,29 @@ getQR = ->
 			else
 				s += '000000'
 	assert s.length,4+6+15*6 # 100
-	print s
 	s
 
 clickUtskrift = ->
 	state = 1
+	qr = getQR()
 	qrcode = new QRCode document.getElementById("qrcode"),
-		text: getQR()
+		text: qr
 		width: 256
 		height: 256
 		colorDark : "#000000"
 		colorLight : "#ffffff"
 		correctLevel : QRCode.CorrectLevel.L # Low Medium Q High
 
+clickFortsätt = -> 
+	myNode = document.getElementById "qrcode"
+	myNode.innerHTML = ''
+	state = 0
+
 setup = ->
 	createCanvas 1250,840
-	sc()
 
-	{kommunkod} = getParameters()
-	if not kommunkod then kommunkod = '0180'
-	länskod = kommunkod.slice 0,2
-	
-	readDatabase()
-	print tree
-
-	rectMode CENTER
-	textAlign CENTER,CENTER
-	textSize 20
-
-	buttons.push new Button 'Riksdag',  950, 50,400,45, -> clickButton @, tree['00 - riksdagen'] 
-	buttons.push new Button 'Landsting',950,310,400,45, -> clickButton @, tree[länskod][dictionary[länskod]]
-	buttons.push new Button 'Kommun',   950,570,400,45, -> clickButton @, tree[länskod][dictionary[kommunkod]]
-
-	buttons.push new Button 'Utskrift', 950,830,400,45, -> clickUtskrift() # @, tree[länskod][dictionary[kommunkod]]
-
-showSelectedPersons = ->
-	x = 720
-	push()
-	textAlign LEFT,CENTER
-	for typ,i in 'RLK'
-		y0 = [100,370,640][i]
-		#textSize 28
-		#text buttons[i].title,x,y0
-		for person,j in selectedPersons[typ]
-			y = y0 + 40*j
-			textSize 20
-			text "#{j+1}.",x,y
-			text "#{person[PARTIFÖRKORTNING]} - #{person[NAMN]}",x+170,y
-	pop()
-
-draw = ->
-	if state == 0
+	pages.push new Page0 -> # pages[0].render()
 		bg 0
-		for button in buttons.concat pbuttons.concat lbuttons.concat kbuttons.concat sbuttons
-			button.draw()
 		if selectedPartiButton != null
 			push()
 			textAlign LEFT,CENTER
@@ -413,11 +424,53 @@ draw = ->
 			if selectedButton.title == 'Landsting' then text dictionary[länskod],  10,15
 			if selectedButton.title == 'Kommun'    then text dictionary[kommunkod],10,15
 			pop()
-		showSelectedPersons()
-	if state == 1
-		bg 1
-		#Drawing.draw qrcode 
+		showSelectedPersons 750,100-20
 
-mousePressed = ->
-	for button in buttons.concat pbuttons.concat lbuttons.concat kbuttons.concat sbuttons
-		if button.inside mouseX,mouseY then button.click()
+	pages.push new Page1 -> # pages[1].render()
+		textAlign LEFT,CENTER
+		bg 1
+		fc 0
+		text qr,50,height-20
+
+		text 'Riksdag',            10,50+0
+		text dictionary[länskod],  10,50+260
+		text dictionary[kommunkod],10,50+520
+		
+		showSelectedPersons 400,50
+
+	sc()
+
+	{kommunkod} = getParameters()
+	if not kommunkod then kommunkod = '0180'
+	länskod = kommunkod.slice 0,2
+	
+	readDatabase()
+	print tree
+
+	rectMode CENTER
+	textAlign CENTER,CENTER
+	textSize 20
+
+	pages[0].radd new Button 'Riksdag',   950, 50-20,400,45, -> clickButton @, tree['00 - riksdagen'] 
+	pages[0].radd new Button 'Landsting', 950,310-20,400,45, -> clickButton @, tree[länskod][dictionary[länskod]]
+	pages[0].radd new Button 'Kommun',    950,570-20,400,45, -> clickButton @, tree[länskod][dictionary[kommunkod]]
+	pages[0].radd new Button 'Utskrift',  850,830-20,200,45, -> clickUtskrift() 
+	pages[0].radd new Button 'Rensa',    1050,830-20,195,45, -> clickRensa()
+
+	pages[1].add new Button 'Utskrift', 490,height-60,200,45, -> window.print()
+	pages[1].add new Button 'Fortsätt', 700,height-60,200,45, -> clickFortsätt()
+
+showSelectedPersons = (xoff,yoff) ->
+	push()
+	textAlign LEFT,CENTER
+	for typ,i in 'RLK'
+		y0 = yoff+[0,260,520][i]
+		for person,j in selectedPersons[typ]
+			y = y0 + 40*j
+			textSize 20
+			text "#{j+1}.",xoff-30,y
+			text "#{person[PARTIFÖRKORTNING]} - #{person[NAMN]}",xoff+100,y
+	pop()
+
+draw = ->	pages[state].draw()
+mousePressed = -> pages[state].mousePressed mouseX,mouseY
