@@ -26,10 +26,16 @@ GILTIG = 23
 
 PERSONS_PER_PAGE = 32
 
+VOTES = 5
+
 kommunkod = null
 länskod = null
 
 tree = {}
+state = 0 # 0=normal 1=qrcode
+
+canvas = null
+qrcode = null
 
 dictionary = {} 
 	# S -> Socialdemokraterna
@@ -120,13 +126,15 @@ antal = (letter,personer) ->
 createSelectButtons = ->
 	sbuttons = []
 	for typ,persons of selectedPersons
+		print persons
 		for person,i in persons
-			x = 900
-			y = {R:100,L:300,K:500}[typ] + (i+1)*25
+			print person
+			x = 770
+			y = {R:100,L:370,K:640}[typ] + i*40
 			do (typ,i) ->
-				sbuttons.push new Button ' x ',x+ 0,y,40,20, -> clickDelete @,typ,i
-				sbuttons.push new Button 'upp',x+45,y,40,20, -> clickUp     @,typ,i
-				sbuttons.push new Button 'ner',x+90,y,40,20, -> clickDown   @,typ,i
+				sbuttons.push                            new Button ' x ',x+ 0,y,40,30, -> clickDelete @,typ,i
+				if i>0                then sbuttons.push new Button 'upp',x+45,y,40,30, -> clickUp     @,typ,i
+				if i<persons.length-1 then sbuttons.push new Button 'ner',x+90,y,40,30, -> clickDown   @,typ,i
 
 clickDelete = (button,typ,index) ->
 	selectedPersons[typ].splice index,1 	
@@ -153,7 +161,7 @@ clickPersonButton = (person) ->
 		if p[PARTIKOD] == person[PARTIKOD]
 			persons[i] = person
 			return 
-	if persons.length < 5 
+	if persons.length < VOTES
 		persons.push person 
 		createSelectButtons()
 
@@ -169,7 +177,7 @@ clickLetterButton = (button,letters,personer) ->
 		person = personer[key]
 		if person[NAMN][0] in letters
 			if j // N == button.page 
-				x = 605 
+				x = 505
 				y = 38+25*(j%N)
 				do (person) -> kbuttons.push new PersonButton person,x,y,400,20, -> clickPersonButton person
 			j++
@@ -212,7 +220,7 @@ clickPartiButton = (button, personer) ->
 		keys.sort (a,b) -> if a.slice(a.indexOf('-')) < b.slice(b.indexOf('-')) then -1 else 1
 		for key,j in keys
 			person = personer[key]
-			x = 605
+			x = 505
 			y = 40+25*j
 			do (person) -> kbuttons.push new PersonButton person,x,y,400,20, -> clickPersonButton person
 
@@ -220,11 +228,28 @@ clickPartiButton = (button, personer) ->
 		i = 0
 		for letters,n of gruppera makeFreq personer
 			#print letters,n
-			x = 325+50*(i//N)
+			x = 225+50*(i//N)
 			y = 50+50*(i%N)
 			title = if letters.length == 1 then letters else "#{letters[0]}-#{_.last letters}"
 			do (letters,title) -> lbuttons.push new LetterButton title,x,y,45,45,n, -> clickLetterButton @, letters, personer
 			i++
+
+	persons = selectedPersons[selectedButton.title[0]]
+	# Finns partiet redan? I så fall: ersätt denna person med den nya.
+	person = []
+	person[NAMN] = dictionary[button.title][0]
+	person[PARTIKOD] = dictionary[button.title][1]
+	person[PARTIFÖRKORTNING] = button.title
+	person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
+
+	for p,i in persons 
+		if p[PARTIKOD] == person[PARTIKOD]
+			persons[i] = person
+			return 
+	if persons.length < VOTES
+		persons.push person 
+		createSelectButtons()
+
 
 clickButton = (button, partier) ->
 	N = 16
@@ -235,7 +260,7 @@ clickButton = (button, partier) ->
 	keys = _.keys partier
 	keys.sort (a,b) -> _.size(partier[b]) - _.size(partier[a])
 	for key,i in keys
-		x = 150+100*(i//N)
+		x = 50+100*(i//N)
 		y = 50+50*(i%N)
 		do (key) -> pbuttons.push new PartiButton key,x,y,95,45, -> clickPartiButton @, partier[key]
 
@@ -279,10 +304,10 @@ readDatabase = ->
 		if namn == undefined then continue
 		if parti == '' then continue
 
-		dictionary[parti] = cells[PARTIBETECKNING]
+		dictionary[parti] = [cells[PARTIBETECKNING],cells[PARTIKOD]]
 		dictionary[områdeskod] = område # hanterar både kommun och landsting
-		# S -> Socialdemokraterna
-		# 01 -> 01 - Stockholms läns landsting
+		# S -> ['Socialdemokraterna','1234']
+		# 01 -> '01 - Stockholms läns landsting'
 		# 0180 -> Stockholm
 
 		arr = namn.split ', '
@@ -307,8 +332,34 @@ getParameters = (h = window.location.href) ->
 	if arr[1] == '' then return {}
 	_.object(f.split '=' for f in arr[1].split '&')		
 
+getQR = ->
+	s = kommunkod 
+	slump = int random 1000000
+	s += slump.toString().padStart 6,0 # to increase probability of uniqueness 
+	for typ of selectedPersons
+		persons = selectedPersons[typ]
+		for i in range VOTES
+			if i < persons.length
+				person = persons[i]
+				s += person[KANDIDATNUMMER].padStart 6,'0'
+			else
+				s += '000000'
+	assert s.length,4+6+15*6 # 100
+	print s
+	s
+
+clickUtskrift = ->
+	state = 1
+	qrcode = new QRCode document.getElementById("qrcode"),
+		text: getQR()
+		width: 256
+		height: 256
+		colorDark : "#000000"
+		colorLight : "#ffffff"
+		correctLevel : QRCode.CorrectLevel.L # Low Medium Q High
+
 setup = ->
-	createCanvas 1400,840
+	createCanvas 1250,840
 	sc()
 
 	{kommunkod} = getParameters()
@@ -322,44 +373,50 @@ setup = ->
 	textAlign CENTER,CENTER
 	textSize 20
 
-	buttons.push new Button 'Riksdag',  50, 50,95,45, -> clickButton @, tree['00 - riksdagen'] 
-	buttons.push new Button 'Landsting',50,100,95,45, -> clickButton @, tree[länskod][dictionary[länskod]]
-	buttons.push new Button 'Kommun',   50,150,95,45, -> clickButton @, tree[länskod][dictionary[kommunkod]]
+	buttons.push new Button 'Riksdag',  950, 50,400,45, -> clickButton @, tree['00 - riksdagen'] 
+	buttons.push new Button 'Landsting',950,310,400,45, -> clickButton @, tree[länskod][dictionary[länskod]]
+	buttons.push new Button 'Kommun',   950,570,400,45, -> clickButton @, tree[länskod][dictionary[kommunkod]]
+
+	buttons.push new Button 'Utskrift', 950,830,400,45, -> clickUtskrift() # @, tree[länskod][dictionary[kommunkod]]
 
 showSelectedPersons = ->
-	x = 850
+	x = 720
 	push()
 	textAlign LEFT,CENTER
 	for typ,i in 'RLK'
-		y0 = [100,300,500][i]
-		textSize 28
-		text buttons[i].title,x,y0
+		y0 = [100,370,640][i]
+		#textSize 28
+		#text buttons[i].title,x,y0
 		for person,j in selectedPersons[typ]
-			y = y0 + 25*(j+1)
+			y = y0 + 40*j
 			textSize 20
 			text "#{j+1}.",x,y
 			text "#{person[PARTIFÖRKORTNING]} - #{person[NAMN]}",x+170,y
 	pop()
 
 draw = ->
-	bg 0
-	for button in buttons.concat pbuttons.concat lbuttons.concat kbuttons.concat sbuttons
-		button.draw()
-	if selectedPartiButton != null
-		push()
-		textAlign LEFT,CENTER
-		textSize 20
-		text dictionary[selectedPartiButton.title],410,15
-		pop()
-	if selectedButton != null
-		push()
-		textAlign LEFT,CENTER
-		textSize 20
-		if selectedButton.title == 'Riksdag'   then text 'Riksdag',            110,15
-		if selectedButton.title == 'Landsting' then text dictionary[länskod],  110,15
-		if selectedButton.title == 'Kommun'    then text dictionary[kommunkod],110,15
-		pop()
-	showSelectedPersons()
+	if state == 0
+		bg 0
+		for button in buttons.concat pbuttons.concat lbuttons.concat kbuttons.concat sbuttons
+			button.draw()
+		if selectedPartiButton != null
+			push()
+			textAlign LEFT,CENTER
+			textSize 20
+			text dictionary[selectedPartiButton.title][0],310,15
+			pop()
+		if selectedButton != null
+			push()
+			textAlign LEFT,CENTER
+			textSize 20
+			if selectedButton.title == 'Riksdag'   then text 'Riksdag',            10,15
+			if selectedButton.title == 'Landsting' then text dictionary[länskod],  10,15
+			if selectedButton.title == 'Kommun'    then text dictionary[kommunkod],10,15
+			pop()
+		showSelectedPersons()
+	if state == 1
+		bg 1
+		#Drawing.draw qrcode 
 
 mousePressed = ->
 	for button in buttons.concat pbuttons.concat lbuttons.concat kbuttons.concat sbuttons

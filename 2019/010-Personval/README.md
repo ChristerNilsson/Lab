@@ -6,11 +6,11 @@
 * Den röstande kan skapa sin valsedel hemma i lugn och ro. Printas mha femställig kod i vallokalen.
 * Utskriven streckkod underlättar uträknande av valresultatet.
 
-Riksdagsval, Landstingsval och Kommunval tillgängligt för kommun angiven i urlen.
+* Riksdagsval, Landstingsval och Kommunval tillgängligt för kommun angiven i urlen.
+  * T ex 010-Personval/index.html?kommun=1280
+  * Stockholms kommun är default.
 
-T ex 010-Personval/index.html?kommun=1280
-
-Stockholms kommun är default.
+Partierna är sorterade fallande efter antalet kandidaturer.
 
 # Intern information
 
@@ -19,3 +19,5 @@ Riksdagsdelen är på 6.5 Mb och den måste alla läsa. Bedömd snittmängd cirk
 
 Att ta bort kandidaturer som ställer upp i flera partier på samma nivå ger inte mycket.
 Partierna finns kvar i alla fall.
+
+https://github.com/davidshimjs/qrcodejs

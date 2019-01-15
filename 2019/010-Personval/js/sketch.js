@@ -40,8 +40,10 @@ var ANMDELTAGANDE,
     VALSEDELSSTATUS,
     VALSEDELSUPPGIFT,
     VALTYP,
+    VOTES,
     antal,
     buttons,
+    canvas,
     clickButton,
     clickDelete,
     clickDown,
@@ -49,10 +51,12 @@ var ANMDELTAGANDE,
     clickPartiButton,
     clickPersonButton,
     clickUp,
+    clickUtskrift,
     createSelectButtons,
     dictionary,
     draw,
     getParameters,
+    getQR,
     gruppera,
     kbuttons,
     kommunkod,
@@ -61,6 +65,7 @@ var ANMDELTAGANDE,
     makeFreq,
     mousePressed,
     pbuttons,
+    qrcode,
     readDatabase,
     sbuttons,
     selectedButton,
@@ -71,6 +76,7 @@ var ANMDELTAGANDE,
     setup,
     showSelectedPersons,
     spara,
+    state,
     tree,
     ÅLDER_PÅ_VALDAGEN,
     indexOf = [].indexOf;
@@ -125,11 +131,19 @@ GILTIG = 23;
 
 PERSONS_PER_PAGE = 32;
 
+VOTES = 5;
+
 kommunkod = null;
 
 länskod = null;
 
 tree = {};
+
+state = 0; // 0=normal 1=qrcode
+
+canvas = null;
+
+qrcode = null;
 
 dictionary = {};
 
@@ -355,27 +369,33 @@ createSelectButtons = function createSelectButtons() {
   results = [];
   for (typ in selectedPersons) {
     persons = selectedPersons[typ];
+    print(persons);
     results.push(function () {
       var k, len, results1;
       results1 = [];
       for (i = k = 0, len = persons.length; k < len; i = ++k) {
         person = persons[i];
-        x = 900;
+        print(person);
+        x = 770;
         y = {
           R: 100,
-          L: 300,
-          K: 500
-        }[typ] + (i + 1) * 25;
+          L: 370,
+          K: 640
+        }[typ] + i * 40;
         results1.push(function (typ, i) {
-          sbuttons.push(new Button(' x ', x + 0, y, 40, 20, function () {
+          sbuttons.push(new Button(' x ', x + 0, y, 40, 30, function () {
             return clickDelete(this, typ, i);
           }));
-          sbuttons.push(new Button('upp', x + 45, y, 40, 20, function () {
-            return clickUp(this, typ, i);
-          }));
-          return sbuttons.push(new Button('ner', x + 90, y, 40, 20, function () {
-            return clickDown(this, typ, i);
-          }));
+          if (i > 0) {
+            sbuttons.push(new Button('upp', x + 45, y, 40, 30, function () {
+              return clickUp(this, typ, i);
+            }));
+          }
+          if (i < persons.length - 1) {
+            return sbuttons.push(new Button('ner', x + 90, y, 40, 30, function () {
+              return clickDown(this, typ, i);
+            }));
+          }
         }(typ, i));
       }
       return results1;
@@ -434,7 +454,7 @@ clickPersonButton = function clickPersonButton(person) {
       return;
     }
   }
-  if (persons.length < 5) {
+  if (persons.length < VOTES) {
     persons.push(person);
     return createSelectButtons();
   }
@@ -461,7 +481,7 @@ clickLetterButton = function clickLetterButton(button, letters, personer) {
     person = personer[key];
     if (ref = person[NAMN][0], indexOf.call(letters, ref) >= 0) {
       if (Math.floor(j / N) === button.page) {
-        x = 605;
+        x = 505;
         y = 38 + 25 * (j % N);
         (function (person) {
           return kbuttons.push(new PersonButton(person, x, y, 400, 20, function () {
@@ -562,7 +582,7 @@ assert({
 }));
 
 clickPartiButton = function clickPartiButton(button, personer) {
-  var N, i, j, k, key, keys, len, letters, n, person, ref, results, results1, title, x, y;
+  var N, i, j, k, key, keys, l, len, len1, letters, n, p, person, persons, ref, title, x, y;
   N = 16;
   selectedPartiButton = button;
   lbuttons = [];
@@ -576,27 +596,24 @@ clickPartiButton = function clickPartiButton(button, personer) {
         return 1;
       }
     });
-    results = [];
     for (j = k = 0, len = keys.length; k < len; j = ++k) {
       key = keys[j];
       person = personer[key];
-      x = 605;
+      x = 505;
       y = 40 + 25 * j;
-      results.push(function (person) {
+      (function (person) {
         return kbuttons.push(new PersonButton(person, x, y, 400, 20, function () {
           return clickPersonButton(person);
         }));
-      }(person));
+      })(person);
     }
-    return results;
   } else {
     i = 0;
     ref = gruppera(makeFreq(personer));
-    results1 = [];
     for (letters in ref) {
       n = ref[letters];
       //print letters,n
-      x = 325 + 50 * Math.floor(i / N);
+      x = 225 + 50 * Math.floor(i / N);
       y = 50 + 50 * (i % N);
       title = letters.length === 1 ? letters : letters[0] + '-' + _.last(letters);
       (function (letters, title) {
@@ -604,9 +621,26 @@ clickPartiButton = function clickPartiButton(button, personer) {
           return clickLetterButton(this, letters, personer);
         }));
       })(letters, title);
-      results1.push(i++);
+      i++;
     }
-    return results1;
+  }
+  persons = selectedPersons[selectedButton.title[0]];
+  // Finns partiet redan? I så fall: ersätt denna person med den nya.
+  person = [];
+  person[NAMN] = dictionary[button.title][0];
+  person[PARTIKOD] = dictionary[button.title][1];
+  person[PARTIFÖRKORTNING] = button.title;
+  person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart(4, '0');
+  for (i = l = 0, len1 = persons.length; l < len1; i = ++l) {
+    p = persons[i];
+    if (p[PARTIKOD] === person[PARTIKOD]) {
+      persons[i] = person;
+      return;
+    }
+  }
+  if (persons.length < VOTES) {
+    persons.push(person);
+    return createSelectButtons();
   }
 };
 
@@ -624,7 +658,7 @@ clickButton = function clickButton(button, partier) {
   results = [];
   for (i = k = 0, len = keys.length; k < len; i = ++k) {
     key = keys[i];
-    x = 150 + 100 * Math.floor(i / N);
+    x = 50 + 100 * Math.floor(i / N);
     y = 50 + 50 * (i % N);
     results.push(function (key) {
       return pbuttons.push(new PartiButton(key, x, y, 95, 45, function () {
@@ -675,10 +709,10 @@ readDatabase = function readDatabase() {
     if (parti === '') {
       continue;
     }
-    dictionary[parti] = cells[PARTIBETECKNING];
+    dictionary[parti] = [cells[PARTIBETECKNING], cells[PARTIKOD]];
     dictionary[områdeskod] = område; // hanterar både kommun och landsting
-    // S -> Socialdemokraterna
-    // 01 -> 01 - Stockholms läns landsting
+    // S -> ['Socialdemokraterna','1234']
+    // 01 -> '01 - Stockholms läns landsting'
     // 0180 -> Stockholm
     arr = namn.split(', ');
     if (arr.length === 2) {
@@ -737,8 +771,43 @@ getParameters = function getParameters() {
   }());
 };
 
+getQR = function getQR() {
+  var i, k, len, person, persons, ref, s, slump, typ;
+  s = kommunkod;
+  slump = int(random(1000000));
+  s += slump.toString().padStart(6, 0); // to increase probability of uniqueness 
+  for (typ in selectedPersons) {
+    persons = selectedPersons[typ];
+    ref = range(VOTES);
+    for (k = 0, len = ref.length; k < len; k++) {
+      i = ref[k];
+      if (i < persons.length) {
+        person = persons[i];
+        s += person[KANDIDATNUMMER].padStart(6, '0');
+      } else {
+        s += '000000';
+      }
+    }
+  }
+  assert(s.length, 4 + 6 + 15 * 6); // 100
+  print(s);
+  return s;
+};
+
+clickUtskrift = function clickUtskrift() {
+  state = 1;
+  return qrcode = new QRCode(document.getElementById("qrcode"), {
+    text: getQR(),
+    width: 256,
+    height: 256,
+    colorDark: "#000000",
+    colorLight: "#ffffff",
+    correctLevel: QRCode.CorrectLevel.L // Low Medium Q High
+  });
+};
+
 setup = function setup() {
-  createCanvas(1400, 840);
+  createCanvas(1250, 840);
   sc();
 
   var _getParameters = getParameters();
@@ -754,32 +823,35 @@ setup = function setup() {
   rectMode(CENTER);
   textAlign(CENTER, CENTER);
   textSize(20);
-  buttons.push(new Button('Riksdag', 50, 50, 95, 45, function () {
+  buttons.push(new Button('Riksdag', 950, 50, 400, 45, function () {
     return clickButton(this, tree['00 - riksdagen']);
   }));
-  buttons.push(new Button('Landsting', 50, 100, 95, 45, function () {
+  buttons.push(new Button('Landsting', 950, 310, 400, 45, function () {
     return clickButton(this, tree[länskod][dictionary[länskod]]);
   }));
-  return buttons.push(new Button('Kommun', 50, 150, 95, 45, function () {
+  buttons.push(new Button('Kommun', 950, 570, 400, 45, function () {
     return clickButton(this, tree[länskod][dictionary[kommunkod]]);
+  }));
+  return buttons.push(new Button('Utskrift', 950, 830, 400, 45, function () {
+    return clickUtskrift(); // @, tree[länskod][dictionary[kommunkod]]
   }));
 };
 
 showSelectedPersons = function showSelectedPersons() {
   var i, j, k, l, len, len1, person, ref, ref1, typ, x, y, y0;
-  x = 850;
+  x = 720;
   push();
   textAlign(LEFT, CENTER);
   ref = 'RLK';
   for (i = k = 0, len = ref.length; k < len; i = ++k) {
     typ = ref[i];
-    y0 = [100, 300, 500][i];
-    textSize(28);
-    text(buttons[i].title, x, y0);
+    y0 = [100, 370, 640][i];
     ref1 = selectedPersons[typ];
+    //textSize 28
+    //text buttons[i].title,x,y0
     for (j = l = 0, len1 = ref1.length; l < len1; j = ++l) {
       person = ref1[j];
-      y = y0 + 25 * (j + 1);
+      y = y0 + 40 * j;
       textSize(20);
       text(j + 1 + '.', x, y);
       text(person[PARTIFÖRKORTNING] + ' - ' + person[NAMN], x + 170, y);
@@ -790,37 +862,43 @@ showSelectedPersons = function showSelectedPersons() {
 
 draw = function draw() {
   var button, k, len, ref;
-  bg(0);
-  ref = buttons.concat(pbuttons.concat(lbuttons.concat(kbuttons.concat(sbuttons))));
-  for (k = 0, len = ref.length; k < len; k++) {
-    button = ref[k];
-    button.draw();
-  }
-  if (selectedPartiButton !== null) {
-    push();
-    textAlign(LEFT, CENTER);
-    textSize(20);
-    text(dictionary[selectedPartiButton.title], 410, 15);
-    pop();
-  }
-  if (selectedButton !== null) {
-    push();
-    textAlign(LEFT, CENTER);
-    textSize(20);
-    if (selectedButton.title === 'Riksdag') {
-      text('Riksdag', 110, 15);
+  if (state === 0) {
+    bg(0);
+    ref = buttons.concat(pbuttons.concat(lbuttons.concat(kbuttons.concat(sbuttons))));
+    for (k = 0, len = ref.length; k < len; k++) {
+      button = ref[k];
+      button.draw();
     }
-    if (selectedButton.title === 'Landsting') {
-      text(dictionary[länskod], 110, 15);
+    if (selectedPartiButton !== null) {
+      push();
+      textAlign(LEFT, CENTER);
+      textSize(20);
+      text(dictionary[selectedPartiButton.title][0], 310, 15);
+      pop();
     }
-    if (selectedButton.title === 'Kommun') {
-      text(dictionary[kommunkod], 110, 15);
+    if (selectedButton !== null) {
+      push();
+      textAlign(LEFT, CENTER);
+      textSize(20);
+      if (selectedButton.title === 'Riksdag') {
+        text('Riksdag', 10, 15);
+      }
+      if (selectedButton.title === 'Landsting') {
+        text(dictionary[länskod], 10, 15);
+      }
+      if (selectedButton.title === 'Kommun') {
+        text(dictionary[kommunkod], 10, 15);
+      }
+      pop();
     }
-    pop();
+    showSelectedPersons();
   }
-  return showSelectedPersons();
+  if (state === 1) {
+    return bg(1);
+  }
 };
 
+//Drawing.draw qrcode 
 mousePressed = function mousePressed() {
   var button, k, len, ref, results;
   ref = buttons.concat(pbuttons.concat(lbuttons.concat(kbuttons.concat(sbuttons))));
