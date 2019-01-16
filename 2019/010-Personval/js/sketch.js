@@ -33,6 +33,7 @@ var ANMDELTAGANDE,
     PartiButton,
     PersonButton,
     SAMTYCKE,
+    TypButton,
     VALBAR_PÅ_VALDAGEN,
     VALKRETSKOD,
     VALKRETSNAMN,
@@ -261,7 +262,7 @@ Page0 = function (_Page) {
   }, {
     key: 'allButtons',
     value: function allButtons() {
-      return this.rbuttons.concat(this.pbuttons.concat(this.lbuttons.concat(this.kbuttons.concat(this.sbuttons))));
+      return this.pbuttons.concat(this.lbuttons.concat(this.kbuttons.concat(this.sbuttons.concat(this.rbuttons))));
     }
   }, {
     key: 'init',
@@ -274,15 +275,14 @@ Page0 = function (_Page) {
   }, {
     key: 'draw',
     value: function draw() {
-      var button, k, len, ref, results;
-      this.render();
+      var button, k, len, ref;
+      bg(0);
       ref = this.allButtons();
-      results = [];
       for (k = 0, len = ref.length; k < len; k++) {
         button = ref[k];
-        results.push(button.draw());
+        button.draw();
       }
-      return results;
+      return this.render();
     }
   }, {
     key: 'mousePressed',
@@ -292,7 +292,7 @@ Page0 = function (_Page) {
       results = [];
       for (k = 0, len = ref.length; k < len; k++) {
         button = ref[k];
-        if (button.inside(mouseX, mouseY)) {
+        if (button.inside()) {
           results.push(button.click());
         } else {
           results.push(void 0);
@@ -347,16 +347,33 @@ Button = function () {
     }
   }, {
     key: 'inside',
-    value: function inside(mx, my) {
-      return this.x < mx && mx < this.x + this.w && this.y < my && my < this.y + this.h;
+    value: function inside() {
+      return this.x < mouseX && mouseX < this.x + this.w && this.y < mouseY && mouseY < this.y + this.h;
     }
   }]);
 
   return Button;
 }();
 
-PartiButton = function (_Button) {
-  _inherits(PartiButton, _Button);
+TypButton = function (_Button) {
+  _inherits(TypButton, _Button);
+
+  function TypButton(typ1, title, x, y, w, h) {
+    var click = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : function () {};
+
+    _classCallCheck(this, TypButton);
+
+    var _this3 = _possibleConstructorReturn(this, (TypButton.__proto__ || Object.getPrototypeOf(TypButton)).call(this, title, x, y, w, h, click));
+
+    _this3.typ = typ1;
+    return _this3;
+  }
+
+  return TypButton;
+}(Button);
+
+PartiButton = function (_Button2) {
+  _inherits(PartiButton, _Button2);
 
   function PartiButton() {
     _classCallCheck(this, PartiButton);
@@ -384,8 +401,8 @@ PartiButton = function (_Button) {
   return PartiButton;
 }(Button);
 
-PersonButton = function (_Button2) {
-  _inherits(PersonButton, _Button2);
+PersonButton = function (_Button3) {
+  _inherits(PersonButton, _Button3);
 
   function PersonButton(person, x, y, w, h) {
     var click = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : function () {};
@@ -395,10 +412,10 @@ PersonButton = function (_Button2) {
     var title;
     title = person[NAMN] + ' - ' + person[VALSEDELSUPPGIFT];
 
-    var _this4 = _possibleConstructorReturn(this, (PersonButton.__proto__ || Object.getPrototypeOf(PersonButton)).call(this, title, x, y, w, h, click));
+    var _this5 = _possibleConstructorReturn(this, (PersonButton.__proto__ || Object.getPrototypeOf(PersonButton)).call(this, title, x, y, w, h, click));
 
-    _this4.person = person;
-    return _this4;
+    _this5.person = person;
+    return _this5;
   }
 
   _createClass(PersonButton, [{
@@ -416,21 +433,21 @@ PersonButton = function (_Button2) {
   return PersonButton;
 }(Button);
 
-LetterButton = function (_Button3) {
-  _inherits(LetterButton, _Button3);
+LetterButton = function (_Button4) {
+  _inherits(LetterButton, _Button4);
 
   function LetterButton(title, x, y, w, h, antal1, click) {
     _classCallCheck(this, LetterButton);
 
-    var _this5 = _possibleConstructorReturn(this, (LetterButton.__proto__ || Object.getPrototypeOf(LetterButton)).call(this, title, x, y, w, h, click));
+    var _this6 = _possibleConstructorReturn(this, (LetterButton.__proto__ || Object.getPrototypeOf(LetterButton)).call(this, title, x, y, w, h, click));
 
-    _this5.antal = antal1;
-    _this5.page = -1;
-    _this5.pages = 1 + Math.floor(_this5.antal / PERSONS_PER_PAGE);
-    if (_this5.antal % PERSONS_PER_PAGE === 0) {
-      _this5.pages--;
+    _this6.antal = antal1;
+    _this6.page = -1;
+    _this6.pages = 1 + Math.floor(_this6.antal / PERSONS_PER_PAGE);
+    if (_this6.antal % PERSONS_PER_PAGE === 0) {
+      _this6.pages--;
     }
-    return _this5;
+    return _this6;
   }
 
   _createClass(LetterButton, [{
@@ -572,7 +589,7 @@ clickRensa = function clickRensa() {
 
 clickPersonButton = function clickPersonButton(person) {
   var i, k, len, p, persons;
-  persons = selectedPersons[selectedButton.title[0]];
+  persons = selectedPersons[selectedButton.typ];
   // Finns partiet redan? I så fall: ersätt denna person med den nya.
   for (i = k = 0, len = persons.length; k < len; i = ++k) {
     p = persons[i];
@@ -751,7 +768,7 @@ clickPartiButton = function clickPartiButton(button, personer) {
       i++;
     }
   }
-  persons = selectedPersons[selectedButton.title[0]];
+  persons = selectedPersons[selectedButton.typ];
   // Finns partiet redan? I så fall: ersätt denna person med den nya.
   person = [];
   person[NAMN] = dictionary[button.title][0];
@@ -941,11 +958,11 @@ clickFortsätt = function clickFortsTt() {
 };
 
 setup = function setup() {
+  var kommun;
   canvas = createCanvas(1255, 840);
   canvas.parent('canvas');
   pages.push(new Page0(function () {
     // pages[0].render()
-    bg(0);
     if (selectedPartiButton !== null) {
       push();
       textAlign(LEFT, CENTER);
@@ -985,8 +1002,10 @@ setup = function setup() {
 
   var _getParameters = getParameters();
 
-  kommunkod = _getParameters.kommunkod;
+  kommun = _getParameters.kommun;
 
+  print(kommun);
+  kommunkod = kommun;
   if (!kommunkod) {
     kommunkod = '0180';
   }
@@ -995,13 +1014,13 @@ setup = function setup() {
   print(tree);
   textAlign(CENTER, CENTER);
   textSize(20);
-  pages[0].radd(new Button('Riksdag', 710, 5, 540, 50, function () {
+  pages[0].radd(new TypButton('R', 'Riksdag', 710, 5, 540, 50, function () {
     return clickButton(this, tree['00 - riksdagen']);
   }));
-  pages[0].radd(new Button('Landsting', 710, 265, 540, 50, function () {
+  pages[0].radd(new TypButton('L', dictionary[länskod], 710, 265, 540, 50, function () {
     return clickButton(this, tree[länskod][dictionary[länskod]]);
   }));
-  pages[0].radd(new Button('Kommun', 710, 525, 540, 50, function () {
+  pages[0].radd(new TypButton('K', dictionary[kommunkod], 710, 525, 540, 50, function () {
     return clickButton(this, tree[länskod][dictionary[kommunkod]]);
   }));
   pages[0].radd(new Button('Utskrift', 710, 785, 270, 50, function () {

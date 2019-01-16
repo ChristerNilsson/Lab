@@ -81,7 +81,7 @@ class Page0 extends Page
 	kadd : (button) -> @kbuttons.push button
 	sadd : (button) -> @sbuttons.push button
 
-	allButtons : -> @rbuttons.concat @pbuttons.concat @lbuttons.concat @kbuttons.concat @sbuttons
+	allButtons : -> @pbuttons.concat @lbuttons.concat @kbuttons.concat @sbuttons.concat @rbuttons 
 
 	init : ->
 		@pbuttons = [] # parti
@@ -90,13 +90,14 @@ class Page0 extends Page
 		@sbuttons = [] # Del, Up, Down
 
 	draw : ->
-		@render()
+		bg 0
 		for button in @allButtons()
 			button.draw()
+		@render()
 
 	mousePressed : ->
 		for button in @allButtons()
-			if button.inside mouseX,mouseY then button.click()
+			if button.inside() then button.click()
 
 class Page1 extends Page
 
@@ -109,7 +110,11 @@ class Button
 		textAlign CENTER,CENTER
 		if selectedButton==@ then fc 1,1,0 else fc 1
 		text @title,@x+@w/2,@y+@h/2
-	inside : (mx,my) -> @x < mx < @x+@w and @y < my < @y+@h
+	inside : -> @x < mouseX < @x+@w and @y < mouseY < @y+@h
+
+class TypButton extends Button
+	constructor : (@typ, title,x,y,w,h,click = ->) ->
+		super title, x,y,w,h,click
 
 class PartiButton extends Button 
 	draw : ->
@@ -198,7 +203,7 @@ clickRensa = ->
 	qr = ''
 
 clickPersonButton = (person) ->
-	persons = selectedPersons[selectedButton.title[0]]
+	persons = selectedPersons[selectedButton.typ]
 	# Finns partiet redan? I så fall: ersätt denna person med den nya.
 	for p,i in persons 
 		if p[PARTIKOD] == person[PARTIKOD]
@@ -278,7 +283,7 @@ clickPartiButton = (button, personer) ->
 			do (letters,title) -> pages[0].ladd new LetterButton title,x,y,45,45,n, -> clickLetterButton @, letters, personer
 			i++
 
-	persons = selectedPersons[selectedButton.title[0]]
+	persons = selectedPersons[selectedButton.typ]
 	# Finns partiet redan? I så fall: ersätt denna person med den nya.
 	person = []
 	person[NAMN] = dictionary[button.title][0]
@@ -411,7 +416,6 @@ setup = ->
 	canvas.parent 'canvas'	
 
 	pages.push new Page0 -> # pages[0].render()
-		bg 0
 		if selectedPartiButton != null
 			push()
 			textAlign LEFT,CENTER
@@ -442,7 +446,9 @@ setup = ->
 
 	sc()
 
-	{kommunkod} = getParameters()
+	{kommun} = getParameters()
+	print kommun
+	kommunkod = kommun
 	if not kommunkod then kommunkod = '0180'
 	länskod = kommunkod.slice 0,2
 	
@@ -452,11 +458,11 @@ setup = ->
 	textAlign CENTER,CENTER
 	textSize 20
 
-	pages[0].radd new Button 'Riksdag',   710,5,540,50, -> clickButton @, tree['00 - riksdagen'] 
-	pages[0].radd new Button 'Landsting', 710,265,540,50, -> clickButton @, tree[länskod][dictionary[länskod]]
-	pages[0].radd new Button 'Kommun',    710,525,540,50, -> clickButton @, tree[länskod][dictionary[kommunkod]]
-	pages[0].radd new Button 'Utskrift',  710,785,270,50, -> clickUtskrift() 
-	pages[0].radd new Button 'Rensa',     985,785,265,50, -> clickRensa()
+	pages[0].radd new TypButton 'R', 'Riksdag',             710,  5,540,50, -> clickButton @, tree['00 - riksdagen'] 
+	pages[0].radd new TypButton 'L', dictionary[länskod],   710,265,540,50, -> clickButton @, tree[länskod][dictionary[länskod]]
+	pages[0].radd new TypButton 'K', dictionary[kommunkod], 710,525,540,50, -> clickButton @, tree[länskod][dictionary[kommunkod]]
+	pages[0].radd new Button 'Utskrift',            710,785,270,50, -> clickUtskrift() 
+	pages[0].radd new Button 'Rensa',               985,785,265,50, -> clickRensa()
 
 	pages[1].add new Button 'Utskrift', 360,height-82,270,45, -> window.print()
 	pages[1].add new Button 'Fortsätt', 635,height-82,270,45, -> clickFortsätt()
