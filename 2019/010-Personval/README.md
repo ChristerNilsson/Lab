@@ -12,6 +12,38 @@
 
 Partierna är sorterade fallande efter antalet kandidaturer.
 
+# Exempel
+
+Följande valsedel ska åstadkommas:
+
+![Personval](Personval.JPG "personval")
+
+Klicka så här i 23 steg:
+
+1. Riksdag
+1. Fi
+1. MP
+1. S
+1. Landsting
+1. Fi
+1. Katarzyna Konkol
+1. MP
+1. R-Z
+1. Zarathustra Azal
+1. S
+1. M
+1. M
+1. Mikko Svensson
+1. Kommun
+1. Fi
+1. Madeleine Kaharascho Fridh
+1. S
+1. Utskrift
+1. Utskrift
+1. Print
+1. Fortsätt
+1. Rensa
+
 # Intern information
 
 Att dela upp filen kandidaturer.js till riksdag/län/kommuner ger inte så mycket.
