@@ -343,12 +343,12 @@ Button = function () {
       } else {
         fc(1);
       }
-      return text(this.title, this.x, this.y);
+      return text(this.title, this.x + this.w / 2, this.y + this.h / 2);
     }
   }, {
     key: 'inside',
     value: function inside(mx, my) {
-      return this.x - this.w / 2 < mx && mx < this.x + this.w / 2 && this.y - this.h / 2 < my && my < this.y + this.h / 2;
+      return this.x < mx && mx < this.x + this.w && this.y < my && my < this.y + this.h;
     }
   }]);
 
@@ -377,7 +377,7 @@ PartiButton = function (_Button) {
       } else {
         fc(1);
       }
-      return text(this.title, this.x, this.y);
+      return text(this.title, this.x + this.w / 2, this.y + this.h / 2);
     }
   }]);
 
@@ -409,7 +409,7 @@ PersonButton = function (_Button2) {
       textSize(12);
       textAlign(LEFT, CENTER);
       fc(1);
-      return text(this.title, this.x - this.w / 2 + 5, this.y);
+      return text(this.title, this.x + 5, this.y + 2 + this.h / 2);
     }
   }]);
 
@@ -445,7 +445,7 @@ LetterButton = function (_Button3) {
       } else {
         fc(1);
       }
-      text(this.title, this.x, this.y);
+      text(this.title, this.x + this.w / 2, this.y + this.h / 2);
       push();
       this.pageIndicator();
       return pop();
@@ -467,7 +467,7 @@ LetterButton = function (_Button3) {
         } else {
           fc(0);
         }
-        results.push(circle(this.x + i * dx - Math.floor(dx / 2) * (this.pages - 1), this.y + 15, 3));
+        results.push(circle(this.x + (i + 1) * dx, this.y + 0.85 * this.h, 3));
       }
       return results;
     }
@@ -517,21 +517,21 @@ createSelectButtons = function createSelectButtons() {
       results1 = [];
       for (i = k = 0, len = persons.length; k < len; i = ++k) {
         person = persons[i];
-        x = 770;
+        x = 1160;
         y = {
-          R: 100 - 20,
-          L: 310 + 50 - 20,
-          K: 570 + 50 - 20
-        }[typ] + i * 40;
+          R: 80,
+          L: 340,
+          K: 600
+        }[typ] + i * 40 - 15;
         results1.push(function (typ, i) {
-          pages[0].sadd(new Button(' x ', x + 0, y, 40, 30, function () {
-            return clickDelete(typ, i);
-          }));
           if (i > 0) {
-            return pages[0].sadd(new Button('byt', x + 45, y - 20, 40, 30, function () {
+            pages[0].sadd(new Button('byt', x + 10, y - 20, 40, 30, function () {
               return clickSwap(typ, i);
             }));
           }
+          return pages[0].sadd(new Button(' x ', x + 55, y, 30, 30, function () {
+            return clickDelete(typ, i);
+          }));
         }(typ, i));
       }
       return results1;
@@ -608,8 +608,8 @@ clickLetterButton = function clickLetterButton(button, letters, personer) {
     person = personer[key];
     if (ref = person[NAMN][0], indexOf.call(letters, ref) >= 0) {
       if (Math.floor(j / N) === button.page) {
-        x = 505;
-        y = 38 + 25 * (j % N);
+        x = 305;
+        y = 30 + 25 * (j % N);
         (function (person) {
           return pages[0].kadd(new PersonButton(person, x, y, 400, 20, function () {
             return clickPersonButton(person);
@@ -726,10 +726,10 @@ clickPartiButton = function clickPartiButton(button, personer) {
     for (j = k = 0, len = keys.length; k < len; j = ++k) {
       key = keys[j];
       person = personer[key];
-      x = 505;
-      y = 40 + 25 * j;
+      x = 310;
+      y = 30 + 25 * (j % N);
       (function (person) {
-        return pages[0].kadd(new PersonButton(person, x, y, 400, 20, function () {
+        return pages[0].kadd(new PersonButton(person, x, y, 395, 20, function () {
           return clickPersonButton(person);
         }));
       })(person);
@@ -740,8 +740,8 @@ clickPartiButton = function clickPartiButton(button, personer) {
     for (letters in ref) {
       n = ref[letters];
       //print letters,n
-      x = 225 + 50 * Math.floor(i / N);
-      y = 50 + 50 * (i % N);
+      x = 205 + 50 * Math.floor(i / N);
+      y = 30 + 50 * (i % N);
       title = letters.length === 1 ? letters : letters[0] + '-' + _.last(letters);
       (function (letters, title) {
         return pages[0].ladd(new LetterButton(title, x, y, 45, 45, n, function () {
@@ -785,8 +785,8 @@ clickButton = function clickButton(button, partier) {
   results = [];
   for (i = k = 0, len = keys.length; k < len; i = ++k) {
     key = keys[i];
-    x = 50 + 100 * Math.floor(i / N);
-    y = 50 + 50 * (i % N);
+    x = 5 + 100 * Math.floor(i / N);
+    y = 30 + 50 * (i % N);
     results.push(function (key) {
       return pages[0].padd(new PartiButton(key, x, y, 95, 45, function () {
         return clickPartiButton(this, partier[key]);
@@ -941,7 +941,8 @@ clickFortsätt = function clickFortsTt() {
 };
 
 setup = function setup() {
-  createCanvas(1250, 840);
+  canvas = createCanvas(1255, 840);
+  canvas.parent('canvas');
   pages.push(new Page0(function () {
     // pages[0].render()
     bg(0);
@@ -992,28 +993,27 @@ setup = function setup() {
   länskod = kommunkod.slice(0, 2);
   readDatabase();
   print(tree);
-  rectMode(CENTER);
   textAlign(CENTER, CENTER);
   textSize(20);
-  pages[0].radd(new Button('Riksdag', 950, 50 - 20, 400, 45, function () {
+  pages[0].radd(new Button('Riksdag', 710, 5, 540, 50, function () {
     return clickButton(this, tree['00 - riksdagen']);
   }));
-  pages[0].radd(new Button('Landsting', 950, 310 - 20, 400, 45, function () {
+  pages[0].radd(new Button('Landsting', 710, 265, 540, 50, function () {
     return clickButton(this, tree[länskod][dictionary[länskod]]);
   }));
-  pages[0].radd(new Button('Kommun', 950, 570 - 20, 400, 45, function () {
+  pages[0].radd(new Button('Kommun', 710, 525, 540, 50, function () {
     return clickButton(this, tree[länskod][dictionary[kommunkod]]);
   }));
-  pages[0].radd(new Button('Utskrift', 850, 830 - 20, 200, 45, function () {
+  pages[0].radd(new Button('Utskrift', 710, 785, 270, 50, function () {
     return clickUtskrift();
   }));
-  pages[0].radd(new Button('Rensa', 1050, 830 - 20, 195, 45, function () {
+  pages[0].radd(new Button('Rensa', 985, 785, 265, 50, function () {
     return clickRensa();
   }));
-  pages[1].add(new Button('Utskrift', 490, height - 60, 200, 45, function () {
+  pages[1].add(new Button('Utskrift', 360, height - 82, 270, 45, function () {
     return window.print();
   }));
-  return pages[1].add(new Button('Fortsätt', 700, height - 60, 200, 45, function () {
+  return pages[1].add(new Button('Fortsätt', 635, height - 82, 270, 45, function () {
     return clickFortsätt();
   }));
 };
@@ -1025,14 +1025,27 @@ showSelectedPersons = function showSelectedPersons(xoff, yoff) {
   ref = 'RLK';
   for (i = k = 0, len = ref.length; k < len; i = ++k) {
     typ = ref[i];
+    push();
+    rectMode(CORNER);
     y0 = yoff + [0, 260, 520][i];
+    if (i === 0) {
+      fc(1, 1, 0.5);
+    }
+    if (i === 1) {
+      fc(0.5, 0.75, 1);
+    }
+    if (i === 2) {
+      fc(1);
+    }
+    rect(xoff - 40, y0 - 20, 540, 200);
+    pop();
+    fc(0);
     ref1 = selectedPersons[typ];
     for (j = l = 0, len1 = ref1.length; l < len1; j = ++l) {
       person = ref1[j];
       y = y0 + 40 * j;
       textSize(20);
-      text(j + 1 + '.', xoff - 30, y);
-      text(person[PARTIFÖRKORTNING] + ' - ' + person[NAMN], xoff + 100, y);
+      text(j + 1 + '  ' + person[PARTIFÖRKORTNING] + ' - ' + person[NAMN], xoff - 30, y);
     }
   }
   return pop();
