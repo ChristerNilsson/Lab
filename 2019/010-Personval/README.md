@@ -4,9 +4,9 @@
 * Alla namnvalsedlar för hela Sverige tillgängliga. Man kan förtidsrösta på personer överallt.
 * Personlig valsedel skrivs ut direkt i valbåset. Handskrivna valsedlar behövs ej längre.
 * Den röstande kan skapa sin valsedel hemma i lugn och ro. Printas mha femställig kod i vallokalen.
-* Utskriven streckkod underlättar uträknande av valresultatet.
+* Utskriven QR-kod underlättar uträknande av valresultatet.
 
-* Riksdagsval, Landstingsval och Kommunval tillgängligt för kommun angiven i urlen.
+* Kommun anges i urlen.
   * T ex 010-Personval/index.html?kommun=1280
   * Stockholms kommun är default.
 
@@ -43,6 +43,16 @@ Klicka så här i 23 steg:
 1. Print
 1. Fortsätt
 1. Rensa
+
+![QR-kod](QRkod.JPG "qr-kod")
+
+# Hjälp
+
+* Byt - innebär att två rader byter plats
+* x - innebär att raden tas bort
+* Rensa - innebär att alla val tas bort
+* A-Z - innebär att personer med förnamn som börjar på A-Z visas
+* Två eller fler prickar - innebär att det finns fler sidor med namn. Klicka.
 
 # Intern information
 
