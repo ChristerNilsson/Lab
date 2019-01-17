@@ -275,14 +275,16 @@ Page0 = function (_Page) {
   }, {
     key: 'draw',
     value: function draw() {
-      var button, k, len, ref;
+      var button, k, len, ref, results;
       bg(0);
+      this.render();
       ref = this.allButtons();
+      results = [];
       for (k = 0, len = ref.length; k < len; k++) {
         button = ref[k];
-        button.draw();
+        results.push(button.draw());
       }
-      return this.render();
+      return results;
     }
   }, {
     key: 'mousePressed',

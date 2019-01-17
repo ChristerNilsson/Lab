@@ -91,9 +91,9 @@ class Page0 extends Page
 
 	draw : ->
 		bg 0
+		@render()
 		for button in @allButtons()
 			button.draw()
-		@render()
 
 	mousePressed : ->
 		for button in @allButtons()
