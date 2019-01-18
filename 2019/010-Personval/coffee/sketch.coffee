@@ -269,7 +269,7 @@ clickPartiButton = (button, personer) ->
 		for key,j in keys
 			person = personer[key]
 			x = 310
-			y = 30+25*(j%N)
+			y = 30+25*(j%PERSONS_PER_PAGE)
 
 			do (person) -> pages[0].kadd new PersonButton person,x,y,395,20, -> clickPersonButton person
 

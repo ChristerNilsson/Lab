@@ -746,7 +746,7 @@ clickPartiButton = function clickPartiButton(button, personer) {
       key = keys[j];
       person = personer[key];
       x = 310;
-      y = 30 + 25 * (j % N);
+      y = 30 + 25 * (j % PERSONS_PER_PAGE);
       (function (person) {
         return pages[0].kadd(new PersonButton(person, x, y, 395, 20, function () {
           return clickPersonButton(person);
