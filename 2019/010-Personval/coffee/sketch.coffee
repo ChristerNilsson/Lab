@@ -364,9 +364,9 @@ readDatabase = ->
 			cells[NAMN] = namn
 
 		if parti == '' or namn == '[inte lämnat förklaring]' then continue
-		if valtyp == 'R'                           then spara ['00 - riksdagen',              parti], "#{knr}-#{namn}", cells
-		if valtyp == 'L' and områdeskod==länskod   then spara [områdeskod,"#{område}",        parti], "#{knr}-#{namn}", cells
-		if valtyp == 'K' and områdeskod==kommunkod then spara [områdeskod.slice(0,2), område, parti], "#{knr}-#{namn}", cells
+		if valtyp == 'R'                           then spara [valtyp, parti], "#{knr}-#{namn}", cells
+		if valtyp == 'L' and områdeskod==länskod   then spara [valtyp, parti], "#{knr}-#{namn}", cells
+		if valtyp == 'K' and områdeskod==kommunkod then spara [valtyp, parti], "#{knr}-#{namn}", cells
 	print dictionary
 	print partikoder
 	#print partier
@@ -458,9 +458,9 @@ setup = ->
 	textAlign CENTER,CENTER
 	textSize 20
 
-	pages[0].radd new TypButton 'R', 'Riksdag',             710,  5,540,50, -> clickButton @, tree['00 - riksdagen'] 
-	pages[0].radd new TypButton 'L', dictionary[länskod],   710,265,540,50, -> clickButton @, tree[länskod][dictionary[länskod]]
-	pages[0].radd new TypButton 'K', dictionary[kommunkod], 710,525,540,50, -> clickButton @, tree[länskod][dictionary[kommunkod]]
+	pages[0].radd new TypButton 'R', 'Riksdag',             710,  5,540,50, -> clickButton @, tree['R'] 
+	pages[0].radd new TypButton 'L', dictionary[länskod],   710,265,540,50, -> clickButton @, tree['L']
+	pages[0].radd new TypButton 'K', dictionary[kommunkod], 710,525,540,50, -> clickButton @, tree['K']
 	pages[0].radd new Button 'Utskrift',            710,785,270,50, -> clickUtskrift() 
 	pages[0].radd new Button 'Rensa',               985,785,265,50, -> clickRensa()
 

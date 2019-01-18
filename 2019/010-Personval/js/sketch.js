@@ -869,13 +869,13 @@ readDatabase = function readDatabase() {
       continue;
     }
     if (valtyp === 'R') {
-      spara(['00 - riksdagen', parti], knr + '-' + namn, cells);
+      spara([valtyp, parti], knr + '-' + namn, cells);
     }
     if (valtyp === 'L' && områdeskod === länskod) {
-      spara([områdeskod, '' + område, parti], knr + '-' + namn, cells);
+      spara([valtyp, parti], knr + '-' + namn, cells);
     }
     if (valtyp === 'K' && områdeskod === kommunkod) {
-      spara([områdeskod.slice(0, 2), område, parti], knr + '-' + namn, cells);
+      spara([valtyp, parti], knr + '-' + namn, cells);
     }
   }
   print(dictionary);
@@ -1009,13 +1009,13 @@ setup = function setup() {
   textAlign(CENTER, CENTER);
   textSize(20);
   pages[0].radd(new TypButton('R', 'Riksdag', 710, 5, 540, 50, function () {
-    return clickButton(this, tree['00 - riksdagen']);
+    return clickButton(this, tree['R']);
   }));
   pages[0].radd(new TypButton('L', dictionary[länskod], 710, 265, 540, 50, function () {
-    return clickButton(this, tree[länskod][dictionary[länskod]]);
+    return clickButton(this, tree['L']);
   }));
   pages[0].radd(new TypButton('K', dictionary[kommunkod], 710, 525, 540, 50, function () {
-    return clickButton(this, tree[länskod][dictionary[kommunkod]]);
+    return clickButton(this, tree['K']);
   }));
   pages[0].radd(new Button('Utskrift', 710, 785, 270, 50, function () {
     return clickUtskrift();
