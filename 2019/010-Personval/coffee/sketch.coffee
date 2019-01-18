@@ -331,7 +331,7 @@ clickButton = (button, partier) ->
 
 readDatabase = ->
 	partikoder = {}
-	partier = {}
+	#partier = {}
 	lines = db.split '\n'
 
 	#clowner = getClowner lines
@@ -370,8 +370,8 @@ readDatabase = ->
 	print dictionary
 	print partikoder
 	#print partier
-	for key,parti of partier
-		if 1 < _.size parti then print key,parti
+	#for key,parti of partier
+	#	if 1 < _.size parti then print key,parti
 
 getParameters = (h = window.location.href) -> 
 	h = decodeURI h

@@ -832,9 +832,9 @@ clickButton = function clickButton(button, partier) {
 // 	print 'Borttagna kandidater pga flera partier i samma valtyp: ',res
 // 	res
 readDatabase = function readDatabase() {
-  var arr, cells, k, key, knr, len, line, lines, namn, område, områdeskod, parti, partier, partikoder, results, valtyp;
+  var arr, cells, k, knr, len, line, lines, namn, område, områdeskod, parti, partikoder, valtyp;
   partikoder = {};
-  partier = {};
+  //partier = {}
   lines = db.split('\n');
   //clowner = getClowner lines
   for (k = 0, len = lines.length; k < len; k++) {
@@ -879,20 +879,12 @@ readDatabase = function readDatabase() {
     }
   }
   print(dictionary);
-  print(partikoder);
-  //print partier
-  results = [];
-  for (key in partier) {
-    parti = partier[key];
-    if (1 < _.size(parti)) {
-      results.push(print(key, parti));
-    } else {
-      results.push(void 0);
-    }
-  }
-  return results;
+  return print(partikoder);
 };
 
+//print partier
+//for key,parti of partier
+//	if 1 < _.size parti then print key,parti
 getParameters = function getParameters() {
   var h = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : window.location.href;
 
