@@ -46,13 +46,49 @@ Klicka så här i 23 steg:
 
 ![QR-kod](QRkod.JPG "qr-kod")
 
+# Röstning på ett parti med Personval
+
+Klicka så här i 15 steg:
+
+1. Riksdag
+1. Fi
+1. L-Y
+1. Yolanda Aurora Bohm Ramirez
+1. Landsting
+1. Fi
+1. Katarzyna Konkol
+1. Kommun
+1. Fi
+1. Madeleine Kaharascho Fridh
+1. Utskrift
+1. Utskrift
+1. Print
+1. Fortsätt
+1. Rensa
+
+# Röstning på ett parti utan Personval
+
+Klicka så här i 11 steg:
+
+1. Riksdag
+1. Fi
+1. Landsting
+1. Fi
+1. Kommun
+1. Fi
+1. Utskrift
+1. Utskrift
+1. Print
+1. Fortsätt
+1. Rensa
+
 # Hjälp
 
 * Byt - innebär att två rader byter plats
 * x - innebär att raden tas bort
 * Rensa - innebär att alla val tas bort
 * A-Z - innebär att personer med förnamn som börjar på A-Z visas
-* Två eller fler prickar - innebär att det finns fler sidor med namn. Klicka.
+* Två eller fler prickar - innebär att det finns fler sidor med namn. Klicka på knappen igen för att se övriga personer.
 
 # Intern information
 
