@@ -1,0 +1,222 @@
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;1;J;J;I;J;92166;Andreas Sjölander;37;M;Härnösand;37 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;2;J;J;I;J;92167;Ann-Charlotte Visén;63;K;Härnösand;63 år, Säbrå;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;3;J;J;I;J;92168;Magnus Oskarsson;56;M;Härnösand;56 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;4;J;J;I;J;92169;Nina Skyttberg;39;K;Härnösand;39 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;5;J;J;I;J;67817;Krister F Mc Carthy;47;M;Härnösand;47 år, Viksjö;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;6;J;J;I;J;92171;Monica Fahlén;60;K;Härnösand;60 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;7;J;J;I;J;92172;Håkan Viklund;50;M;Härnösand;50 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;8;J;J;I;J;92173;Ebba Hansson;18;K;Härnösand;18 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;9;J;J;I;J;92174;Göran Norlander;72;M;Härnösand;72 år, Häggdånger;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;10;J;J;I;J;92175;Anne-Cathrine Genberg;55;K;Härnösand;55 år, Utansjö;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;11;J;J;I;J;92176;Björn Nordling;67;M;Härnösand;67 år, Viksjö;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;12;J;J;I;J;92177;Katrin Sjödin;55;K;Härnösand;55 år, Ramvik;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;13;J;J;I;J;92178;Johan Nilsson;46;M;Härnösand;46 år, Älandsbro;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;14;J;J;I;J;92179;Susanne Forsberg;57;K;Härnösand;57 år, Viksjö;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;15;J;J;I;J;92180;Lennart Mohlin;67;M;Härnösand;67 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;16;J;J;I;J;92181;Marie-Charlotte Vidmark;35;K;Härnösand;35 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;17;J;J;I;J;92182;Jasenko Omanovic;51;M;Härnösand;51 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;18;J;J;I;J;92183;Agneta Jonsson;68;K;Härnösand;68 år, Älandsbro;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;19;J;J;I;J;92184;Basel Aljamal;32;M;Härnösand;32 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;20;J;J;I;J;92185;Eva Larsson;64;K;Härnösand;64 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;21;J;J;I;J;67799;Mats Höglund;67;M;Härnösand;67 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;22;J;J;I;J;92187;Mona Sundin;48;K;Härnösand;48 år, Häggdånger;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;23;J;J;I;J;92188;Rune Danielsson;76;M;Härnösand;76 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;24;J;J;I;J;67804;Monica Fällström;63;K;Härnösand;63 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;25;J;J;I;J;92190;Fredrik Olsson;34;M;Härnösand;34 år, Älandsbro;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;26;J;J;I;J;92191;Christina Gärdin;59;K;Härnösand;59 år, Nyland;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;27;J;J;I;J;92192;Roland Strömqvist;66;M;Härnösand;66 år, Byåker;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;28;J;J;I;J;67820;Ann-Kristine Elfvendal;62;K;Härnösand;62 år, Byåker;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;29;J;J;I;J;67813;Tomas Sundqvist;64;M;Härnösand;64 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;30;J;J;I;J;92196;Malin Lövkvist;44;K;Härnösand;44 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;31;J;J;I;J;92195;Lars Zetterlund;69;M;Härnösand;69 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;32;J;J;I;J;92198;May Andersson;68;K;Härnösand;68 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;33;J;J;I;J;92197;Anders Bergman;70;M;Härnösand;70 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;34;J;J;I;J;92200;Ann-Catrin Sköld;52;K;Härnösand;52 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;35;J;J;I;J;92199;Fredrik Lundgren;48;M;Härnösand;48 år, Älandsbro;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;36;J;J;I;J;92202;Berit Jonsson;66;K;Härnösand;66 år, Älandsbro;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;37;J;J;I;J;92201;Richard Kouaho;52;M;Härnösand;52 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;38;J;J;I;J;92204;Eva Melander;65;K;Härnösand;65 år, Älandsbro;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;39;J;J;I;J;92203;Sven Erik Landgren;71;M;Härnösand;71 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;40;J;J;I;J;92206;Birgit Eldrot;80;K;Härnösand;80 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;41;J;J;I;J;92205;Raymond Rinnan;75;M;Härnösand;75år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;42;J;J;I;J;92208;Junia Eriksson;41;K;Härnösand;41 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;43;J;J;I;J;92207;Lars Vikberg;61;M;Härnösand;61 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;44;J;J;I;J;92210;Anita Adolfsson;62;K;Härnösand;62 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Arbetarepartiet-Socialdemokraterna;S;2;S;12976;45;J;J;I;J;92209;Krister Eriksson;44;M;Härnösand;44 år, Härnösand;70000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;1;J;J;I;J;51221;Christina Lindberg;57;K;Härnösand;utredare, 57 år, Stenhammar;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;2;J;J;I;J;94582;Erik Hultin;55;M;Härnösand;vd, 55 år, Gådeåberget;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;3;J;J;I;J;94583;Per-Eric Norberg;63;M;Härnösand;civilingenjör, 63 år, Älandsbro;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;4;J;J;I;J;51229;Annette Nordin;53;K;Härnösand;skog-och lantbrukare, 53 år, Antjärn;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;5;J;J;I;J;94585;Karl Rönnkvist;19;M;Härnösand;studerande, 19 år, Stigsjö;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;6;J;J;I;J;94586;Sonny Andersson;49;M;Härnösand;jordbrukare, 48 år, Högsjö;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;7;J;J;I;J;94587;Dunia Ali;28;K;Härnösand;personlig assistent, 28 år, Mellanholmen;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;8;J;J;I;J;94588;Lillemor Andersson;50;K;Härnösand;kundansvarig, 50 år, Älandsbro;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;9;J;J;I;J;51241;Ulrika Sundgren;53;K;Härnösand;civilingenjör, 53 år, Norrstaden;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;10;J;J;I;J;94590;Noah Juma Gul;29;M;Härnösand;integrationspedagog, 29 år, Granudden;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;11;J;J;I;J;94591;Maria Norberg;48;K;Härnösand;spec undersköterska demens, 48 år, Högsjö;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;12;J;J;I;J;94592;Lena Fassali;46;K;Härnösand;programansvarig, 46 år, Centrum;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;13;J;J;I;J;94593;Alphonse Amoda;60;M;Härnösand;ekonom, 60 år, Murberget;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;14;J;J;I;J;94594;Sven Westerlund;72;M;Härnösand;jord-och skogsbrukare, 72 år, Häggdånger;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;15;J;J;I;J;94595;Margareta Björner;47;K;Härnösand;försäkringssäljare, 47 år, Häggdånger;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;16;J;J;I;J;94596;Jared Munter Wruor;57;M;Härnösand;sjuksköterska, 57 år, Murberget;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;17;J;J;I;J;231770;Catharina Rosén;54;K;Härnösand;psykolog, 54 år, Brännan;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;18;J;J;I;J;94597;Curt Johansson;70;M;Härnösand;fd.företagare, 70 år, Häggdånger;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;19;J;J;I;J;94598;Carina Almgren;56;K;Härnösand;sjukpensionär, 56 år, Brännan;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;20;J;J;I;J;94599;Fredrik Lundvall;56;M;Härnösand;vd, 56 år, Rotudden;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;21;J;J;I;J;94600;Maja Carlgren;57;K;Härnösand;KBT-terapeut, 57 år, Hemsön;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;22;J;J;I;J;94601;Birgitta Rönnkvist;49;K;Härnösand;lärare, 49 år, Stigsjö;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;23;J;J;I;J;94602;Jan Gilliusson;57;M;Härnösand;teletekniker, 57 år, Högsjö;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;24;J;J;I;J;94603;Eva Ekman;58;K;Härnösand;företagare, 58 år, Älandsbro;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;25;J;J;I;J;94604;Carlos Gandâra;74;M;Härnösand;fd.arkitekt, 74 år, Brännan;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;26;J;J;I;J;51239;Ola Svanqvist;50;M;Härnösand;tjänsteman, 50 år, Norrstaden;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;27;J;J;I;J;94606;Mathias Rönnkvist;47;M;Härnösand;tjänsteman, 47 år, Stigsjö;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;28;J;J;I;J;94607;Staffan Nyström;79;M;Härnösand;fd. lektor, 79 år, Rotudden;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;29;J;J;I;J;94608;Åsa Svanholm;66;K;Härnösand;fd. biblioteksassistent, 66 år, Älandsbro;59000;;J
+K;2280;Härnösand;00;Härnösand;Centerpartiet;C;4;S;12991;30;J;J;I;J;51208;Jonny Lundin;47;M;Härnösand;företagare, 47 år, Stigsjö;59000;;J
+K;2280;Härnösand;00;Härnösand;Feministiskt initiativ;FI;532;S;13124;1;J;J;I;J;113155;Isedora Skogström;45;K;Härnösand;45, Egenföretagare, Solumshamn;50000;;J
+K;2280;Härnösand;00;Härnösand;Feministiskt initiativ;FI;532;S;13124;2;J;J;I;J;113156;Sara Marianne Lindberg;39;K;Härnösand;39, Biträdande skolledare, Härnösand;50000;;J
+K;2280;Härnösand;00;Härnösand;Feministiskt initiativ;FI;532;S;13124;3;J;J;I;J;113157;David Gürlet Häggström;34;M;Härnösand;35, Egenföretagare, Härnösand;50000;;J
+K;2280;Härnösand;00;Härnösand;Feministiskt initiativ;FI;532;S;13124;4;J;J;I;J;113158;Jessica Ögren;43;K;Härnösand;43, Informatör, Härnösand;50000;;J
+K;2280;Härnösand;00;Härnösand;Feministiskt initiativ;FI;532;S;13124;5;J;J;I;J;113159;Sara Selmros;41;K;Härnösand;41, Projektledare, Älandsbro;50000;;J
+K;2280;Härnösand;00;Härnösand;Feministiskt initiativ;FI;532;S;13124;6;J;J;I;J;113160;Birgitta Rasmusson;65;K;Härnösand;65, Maskör, Häggdånger;50000;;J
+K;2280;Härnösand;00;Härnösand;Feministiskt initiativ;FI;532;S;13124;7;J;J;I;J;113161;Daniel Myrén;36;M;Härnösand;36, Lärare, Härnösand;50000;;J
+K;2280;Härnösand;00;Härnösand;Feministiskt initiativ;FI;532;S;13124;8;J;J;I;J;113162;Helena Elfvendal;34;K;Härnösand;34, Kommunikationsansvarig, Härnösand;50000;;J
+K;2280;Härnösand;00;Härnösand;Feministiskt initiativ;FI;532;S;13124;9;J;J;I;J;113163;Gunne Furudahl;69;M;Härnösand;69, Pensionär, Häggdånger;50000;;J
+K;2280;Härnösand;00;Härnösand;Feministiskt initiativ;FI;532;S;13124;10;J;J;I;J;113164;Mona Bentsen;57;K;Härnösand;57, Personalkonsulent, Härnösand;50000;;J
+K;2280;Härnösand;00;Härnösand;Kristdemokraterna;KD;68;S;12036;1;J;J;I;J;20906;Ingemar Wiklander;69;M;Härnösand;Östanvik;56000;;J
+K;2280;Härnösand;00;Härnösand;Kristdemokraterna;KD;68;S;12036;2;J;J;I;J;21081;Mai Nahas;31;K;Härnösand;Härnösand;56000;;J
+K;2280;Härnösand;00;Härnösand;Kristdemokraterna;KD;68;S;12036;3;J;J;I;J;20920;Anders Nordström;55;M;Härnösand;Älandsbro;56000;;J
+K;2280;Härnösand;00;Härnösand;Kristdemokraterna;KD;68;S;12036;4;J;J;I;J;21083;Chantal Binua;33;K;Härnösand;Härnösand;56000;;J
+K;2280;Härnösand;00;Härnösand;Kristdemokraterna;KD;68;S;12036;5;J;J;I;J;20926;Robert Barkéus;32;M;Härnösand;Härnösand;56000;;J
+K;2280;Härnösand;00;Härnösand;Kristdemokraterna;KD;68;S;12036;6;J;J;I;J;21085;Lilian Krantz;59;K;Härnösand;Byn;56000;;J
+K;2280;Härnösand;00;Härnösand;Kristdemokraterna;KD;68;S;12036;7;J;J;I;J;21086;Ulla Bylund;68;K;Härnösand;Starred;56000;;J
+K;2280;Härnösand;00;Härnösand;Kristdemokraterna;KD;68;S;12036;8;J;J;I;J;21087;Gottfrid Krantz;22;M;Härnösand;Byn;56000;;J
+K;2280;Härnösand;00;Härnösand;Kristdemokraterna;KD;68;S;12036;9;J;J;I;J;20916;Solveig Hamrin;68;K;Härnösand;Hanaberg;56000;;J
+K;2280;Härnösand;00;Härnösand;Kristdemokraterna;KD;68;S;12036;10;J;J;I;J;21089;Tryggve Nandorf;74;M;Härnösand;Härnösand;56000;;J
+K;2280;Härnösand;00;Härnösand;Kristdemokraterna;KD;68;S;12036;11;J;J;I;J;21090;Birgitta Wiklander;67;K;Härnösand;Östanvik;56000;;J
+K;2280;Härnösand;00;Härnösand;Kristdemokraterna;KD;68;S;12036;12;J;J;I;J;20923;Lars-Åke Krantz;60;M;Härnösand;Byn;56000;;J
+K;2280;Härnösand;00;Härnösand;Kristdemokraterna;KD;68;S;12036;13;J;J;I;J;21092;Maud Nandorf;71;K;Härnösand;Härnösand;56000;;J
+K;2280;Härnösand;00;Härnösand;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515398;Östman, Nils Gunnar Michael;55;M;Härnösand;;0;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;1;J;J;I;J;277221;Eva Olstedt-Lundgren;49;K;Härnösand;Civilekonom, 50 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;2;J;J;I;J;277224;Olle Löfgren;39;M;Härnösand;Lärare/företagare, 40 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;3;J;J;I;J;277241;RosMarie Sandin;42;K;Härnösand;Arbetsterapeut, 42 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;4;J;J;I;J;277590;Mathias Johansson;33;M;Härnösand;Företagare, 34 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;5;J;J;I;J;277248;Camilla Nilsson;47;K;Härnösand;Egenföretagare/begravningsassistent, 47 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;6;J;J;I;J;277592;Per Häggström;53;M;Härnösand;Personalchef, 53 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;7;J;J;I;J;277253;Tomas Pålsson;35;M;Härnösand;Säljare, 35 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;8;J;J;I;J;277230;Sarah Karlsson;37;K;Härnösand;Barnsjuksköterska, 37 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;9;J;J;I;J;277595;Anders Nylander;61;M;Härnösand;Skogstekniker/fastighetsmäklare, 62 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;10;J;J;I;J;277596;Anita Holmström;74;K;Härnösand;Lärare, 74 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;11;J;J;I;J;277597;Mårten Holmström;75;M;Härnösand;Civilingenjör, 75 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;12;J;J;I;J;277313;Mikael Schéele;51;M;Härnösand;Riskingenjör, 51 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;13;J;J;I;J;277256;Ingrid Hedström;54;K;Härnösand;Personlig assistent, 54 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;14;J;J;I;J;277600;Lars-Åke Falck;66;M;Härnösand;Tandläkare, 66 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;15;J;J;I;J;277601;Olov Asplund;47;M;Härnösand;Ämneslärare högstadiet, 46 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;16;J;J;I;J;277602;Lennart Jonsson;77;M;Härnösand;Rektor, 77 år, Älandsbro;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;17;J;J;I;J;277603;Bengt Jansson;64;M;Härnösand;Lärare, 64 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;18;J;J;I;J;277258;Jonas Lundgren;50;M;Härnösand;Organisationsutvecklare, 50 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;19;J;J;I;J;277605;Lars Sjödin;71;M;Härnösand;Advokat, 71 år, Aspnäs;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;20;J;J;I;J;277606;Per Hägglund;85;M;Härnösand;Socionom, 85 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Liberalerna (tidigare Folkpartiet);L;3;S;14473;21;J;J;I;J;277607;Sven-Åke Vest;72;M;Härnösand;Civilingenjör, 72 år, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;1;J;J;I;J;134819;Knapp Britta Thyr;34;K;Härnösand;34, teckenspråkstolk;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;2;J;J;I;J;134820;Göran Hådén;37;M;Härnösand;37, miljöskribent;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;3;J;J;I;J;134821;Hibo Abdullahi;40;K;Härnösand;40, integrationspedagog;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;4;J;J;I;J;134822;Per Sander;51;M;Härnösand;51, jägmästare;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;5;J;J;I;J;134823;Saeida Noori;22;K;Härnösand;22, studerande;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;6;J;J;I;J;134824;Myriam Estrella-Näslund;58;K;Härnösand;58, barnmorska;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;7;J;J;I;J;134825;Göran Umefjord;67;M;Härnösand;67, läkare;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;8;J;J;I;J;134826;Amanda Lind;38;K;Härnösand;38, partisekreterare;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;9;J;J;I;J;134827;Mohamed Abdulwahab;28;M;Härnösand;28, undersköterska;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;10;J;J;I;J;134828;Mikaela Edholm;29;K;Härnösand;29, IKT-pedagog;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;11;J;J;I;J;134829;Lars Landström;62;M;Härnösand;62, journalist;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;12;J;J;I;J;134830;Kersti Löfgren Östensson;68;K;Härnösand;68, veterinär;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;13;J;J;I;J;134831;Joakim Byström;49;M;Härnösand;49, solenergientreprenör;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;14;J;J;I;J;134832;Anna Burenius;32;K;Härnösand;32, läkare;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;15;J;J;I;J;134833;Måns Palmstierna;60;M;Härnösand;60, överläkare;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;16;J;J;I;J;134834;Katarina Schiebe;60;K;Härnösand;60, rehabsamordnare;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;17;J;J;I;J;134835;Ghaidaa Shihab;46;K;Härnösand;46, veterinär;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;18;J;J;I;J;134836;Joakim Drejare;62;M;Härnösand;62, integrationspedagog;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;19;J;J;I;J;134837;Claire Keza;25;K;Härnösand;25, integrationspedagog;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;20;J;J;I;J;134838;Carsten Brosjö;26;M;Härnösand;26, ämneslärare;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;21;J;J;I;J;134839;Christine Sprinzl;40;K;Härnösand;40, controller;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;22;J;J;I;J;134840;Erik Norberg;56;M;Härnösand;56, drifttekniker;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;23;J;J;I;J;134841;Ruth Lusevikueno;31;K;Härnösand;31, studerande;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;24;J;J;I;J;134842;Benny Magnusson;32;M;Härnösand;32, lärare;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;25;J;J;I;J;134843;Juliette Eshragi;29;K;Härnösand;29, datatekniker;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;26;J;J;I;J;134844;Abdel Ben Salem;37;M;Härnösand;37, samhällskommunikatör;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;27;J;J;I;J;134845;Carina Silva;40;K;Härnösand;40, kock;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;28;J;J;I;J;134846;Rebecka Bjurhall;40;K;Härnösand;40, miljömålssamordnare;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;29;J;J;I;J;134847;Jeff Forssell;73;M;Härnösand;73, alt hälsoentreprenör;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;30;J;J;I;J;134848;Linn Olauson;26;K;Härnösand;26, aktivist;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;31;J;J;I;J;134849;Rune Wikström;77;M;Härnösand;77 pensionerad lektor;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;32;J;J;I;J;134850;Karin Frejarö;39;K;Härnösand;39, kommunalråd;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;33;J;J;I;J;134851;Tomas Frejarö;43;M;Härnösand;43, bastuvärd;30000;;J
+K;2280;Härnösand;00;Härnösand;Miljöpartiet de gröna;MP;55;S;13335;34;J;J;I;J;134852;Eva Goës;71;K;Härnösand;71, fd språkrör;30000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;1;J;J;I;J;240707;Anders Gäfvert;61;M;Härnösand;61 år, Kommunalråd, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;2;J;J;I;J;268912;Ida Skogström;22;K;Härnösand;22 år, Arbetsledare, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;3;J;J;I;J;268913;Lennart Bolander;74;M;Härnösand;74 år, Företagsekonom, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;4;J;J;I;J;268914;Margareta Tjärnlund;70;K;Härnösand;70 år, Leg. sjukgymnast, Hemsön;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;5;J;J;I;J;240711;Kristoffer Bodin;34;M;Härnösand;34 år, Revisor, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;6;J;J;I;J;268916;Eva-Clara Viklund;48;K;Härnösand;48 år, Kontor/ekonomi, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;7;J;J;I;J;268917;Christian Wasell;58;M;Härnösand;58 år, Affärsområdeschef, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;8;J;J;I;J;268918;Linda Borg;42;K;Härnösand;42 år, Socionom, Älandsbro;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;9;J;J;I;J;268919;Bengt Wallgren;73;M;Härnösand;73 år, Civilingenjör, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;10;J;J;I;J;268920;Malin Plantin Sjöblom;42;K;Härnösand;42 år, Leg. sjuksköterska, Stigsjö;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;11;J;J;I;J;268921;Ingemar Ljunggren;69;M;Härnösand;69 år, Fd. transportledare, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;12;J;J;I;J;268922;Gunnar Westman;72;M;Härnösand;72 år, Fd. överstelöjtnant, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;13;J;J;I;J;240719;Tina Sellgren;45;K;Härnösand;45 år, Kundrelationshandläggare, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;14;J;J;I;J;268924;Anna Davis;48;K;Härnösand;48 år, Beteendevetare, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;15;J;J;I;J;268925;Leif Jonsson;69;M;Härnösand;69 år, Driftledare kollektivtrafik, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;16;J;J;I;J;268926;Ronny Larsson;61;M;Härnösand;61 år, Kökschef, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;17;J;J;I;J;268927;Stefan Backlund;57;M;Härnösand;57 år, Arbetsförmedlare, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;18;J;J;I;J;268928;Richard Viklund;51;M;Härnösand;51 år, Mekaniker, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;19;J;J;I;J;268929;Karl Einar Björner;74;M;Härnösand;74 år, Fd. banktjänsteman, Häggdånger;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;20;J;J;I;J;268930;Bill Lindgren;59;M;Härnösand;59 år, Försäkringstjänsteman, Älandsbro;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;21;J;J;I;J;268931;Rolf Larsson;77;M;Härnösand;77 år, Pensionär, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;22;J;J;I;J;268932;Önne Norberg;76;M;Härnösand;76 år, Entreprenör, Stigsjö;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;23;J;J;I;J;268933;Lennart Böhlin;61;M;Härnösand;61 år, Civilingenjör, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;24;J;J;I;J;268934;Roland Stenberg;72;M;Härnösand;72 år, Köpman, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;25;J;J;I;J;268935;Albin Löfroth;19;M;Härnösand;19 år, Student, Älandsbro;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;26;J;J;I;J;268936;Mikael Bäckman;28;M;Härnösand;28 år, Projektledare IT, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;27;J;J;I;J;268937;Rasoul Zarar Ibrahim;49;M;Härnösand;49 år, Företagare, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;28;J;J;I;J;268938;Fredrik Bäckman;40;M;Härnösand;40 år, Handläggare, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;29;J;J;I;J;268939;Birgitta Bolander Lundström;78;K;Härnösand;78 år, Leg. sjukgymnast, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Moderaterna;M;1;S;14405;30;J;J;I;J;268940;Karin Andersson;57;K;Härnösand;57 år, Lärare, Härnösand;59000;;J
+K;2280;Härnösand;00;Härnösand;Sverigedemokraterna;SD;110;S;15418;1;J;J;I;J;360134;Bert Skoglund;74;M;Härnösand;74, Företagare;59000;;J
+K;2280;Härnösand;00;Härnösand;Sverigedemokraterna;SD;110;S;15418;2;J;J;I;J;360127;Kenneth Lunneborg;63;M;Härnösand;62, Chaufför;59000;;J
+K;2280;Härnösand;00;Härnösand;Sverigedemokraterna;SD;110;S;15418;3;J;J;I;J;360095;Sven-Ingemar Vernersson;72;M;Härnösand;72, Fd. polis;59000;;J
+K;2280;Härnösand;00;Härnösand;Sverigedemokraterna;SD;110;S;15418;4;J;J;I;N;360119;[inte lämnat förklaring];;;;;59000;;N
+K;2280;Härnösand;00;Härnösand;Sverigedemokraterna;SD;110;S;15418;5;J;J;I;J;389655;Lennart Bergström;65;M;Härnösand;65, Företagare;59000;;J
+K;2280;Härnösand;00;Härnösand;Sverigedemokraterna;SD;110;S;15418;6;J;J;I;J;360107;Ulrika Jonsson;39;K;Härnösand;38, Undersköterska;59000;;J
+K;2280;Härnösand;00;Härnösand;Sverigedemokraterna;SD;110;S;15418;7;J;J;I;N;360133;[inte lämnat förklaring];;;;;59000;;N
+K;2280;Härnösand;00;Härnösand;Sverigedemokraterna;SD;110;S;15418;8;J;J;I;J;360122;Kent Steiner;64;M;Härnösand;64, Chaufför;59000;;J
+K;2280;Härnösand;00;Härnösand;Sverigedemokraterna;SD;110;S;15418;9;J;J;I;J;360130;Anette Åström;56;K;Härnösand;55, Lokalvårdare;59000;;J
+K;2280;Härnösand;00;Härnösand;Sverigedemokraterna;SD;110;S;15418;10;J;J;I;J;360144;Bo Gidmark;65;M;Härnösand;64, Pensionär;59000;;J
+K;2280;Härnösand;00;Härnösand;Sverigedemokraterna;SD;110;S;15418;11;J;J;I;J;360692;Glenn Sehlin;59;M;Härnösand;59, Driftstekniker;59000;;J
+K;2280;Härnösand;00;Härnösand;Sverigedemokraterna;SD;110;S;15418;12;J;J;I;J;360112;Göran Bergman;73;M;Härnösand;73, Fd. polis;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;1;J;J;I;J;164364;Ingrid Nilsson;54;K;Härnösand;54 år, Verksamhetschef;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;2;J;J;I;J;164365;Martin Neldén;41;M;Härnösand;41 år, Beredskapshandläggare;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;3;J;J;I;J;164366;Malin Lindroth;33;K;Härnösand;33 år, Arbetsmarknadskonsulent;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;4;J;J;I;J;164367;Åke Hamrin;64;M;Härnösand;64 år, Pensionär;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;5;J;J;I;J;164368;Birgitta Alevård;68;K;Härnösand;68 år, Socionom, leg psykoterapeut;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;6;J;J;I;J;164369;Anders Bergqvist;53;M;Härnösand;53 år, Arbetsledare;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;7;J;J;I;J;164370;Christina Höj Larsen;47;K;Härnösand;47 år, Utredare;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;8;J;J;I;J;164371;Michael Möller Christensen;62;M;Härnösand;62 år, Musiker;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;9;J;J;I;J;164372;Helena Grönhagen;33;K;Härnösand;33 år, Integrationspedagog;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;10;J;J;I;J;164373;Carl-Fredrik Edgren;49;M;Härnösand;49 år, Ekonom;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;11;J;J;I;J;164374;Marita Björling;71;K;Härnösand;71 år, Företagare;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;12;J;J;I;J;164375;Urban Bolander;49;M;Härnösand;49 år, Diversearbetare;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;13;J;J;I;J;164377;Jakob Hedin;54;M;Härnösand;54 år, Singer/songwriter;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;14;J;J;I;J;164378;Christine Stålberg;34;K;Härnösand;33 år, Socialsekreterare;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;15;J;J;I;J;164379;Kenan Alfawal;26;M;Härnösand;26 år, Studerande;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;16;J;J;I;J;164380;Sara Hultgren Näs;30;K;Härnösand;30 år, Integrationspedagog;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;17;J;J;I;J;164381;Olof Burlin;72;M;Härnösand;72 år, Dataprogrammerare;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;18;J;J;I;J;164382;Jonna Grimstoft;74;K;Härnösand;74 år, Pensionär, Överlevare, Konstnär;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;19;J;J;I;J;164383;Jonas Lundqvist;73;M;Härnösand;73 år, Konstnär;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;20;J;J;I;J;164384;Vibeke Marsling;69;K;Härnösand;69 år, Pensionär, fd psykolog;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;21;J;J;I;J;164385;Keith Bryant;67;M;Härnösand;67 år, Egenföretagare;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;22;J;J;I;J;164386;Janet Harling;63;K;Härnösand;63 år, Egenföretagare;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;23;J;J;I;J;164387;Gustaf Kull;75;M;Härnösand;75 år, Fattigpensionär;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;24;J;J;I;J;164388;Ida-Maria Hallstensson;35;K;Härnösand;35 år, Pedagog;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;25;J;J;I;J;164389;Karin Lundqvist;72;K;Härnösand;71 år, Pensionär;59000;;J
+K;2280;Härnösand;00;Härnösand;Vänsterpartiet;V;5;S;13543;26;J;J;I;J;164390;Karl-Einar Borg;80;M;Härnösand;80 år, Pensionär;59000;;J

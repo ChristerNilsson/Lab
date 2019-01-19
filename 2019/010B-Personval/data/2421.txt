@@ -1,0 +1,105 @@
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;1;J;J;I;J;192121;Kristina Fredriksson;57;K;Storuman;57 år, Storuman;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;2;J;J;I;J;196780;Rickard From;43;M;Storuman;43 år, Storuman;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;3;J;J;I;J;192998;Karin Malmfjord;62;K;Storuman;62 år, Tärnaby;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;4;J;J;I;J;196782;Fredrik Boström;41;M;Storuman;41 år, Storuman;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;5;J;J;I;J;196783;Kajsa Forsberg;26;K;Storuman;26 år, Storuman;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;6;J;J;I;J;196784;Peter Åberg;63;M;Storuman;62 år, Åskilje;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;7;J;J;I;J;193020;Gunilla Lundgren;66;K;Storuman;66 år, Storuman;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;8;J;J;I;J;196786;Christian Andersson;67;M;Storuman;67 år, Hemavan;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;9;J;J;I;J;193025;Maria Gardfall;61;K;Storuman;61 år, Slussfors;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;10;J;J;I;J;193019;Bo-Anders Johansson;63;M;Storuman;63 år, Storuman;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;11;J;J;I;J;196789;Emma Eriksson;26;K;Storuman;26 år, Storuman;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;12;J;J;I;J;196790;Kurt Forsberg;57;M;Storuman;57 år, Klippen;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;13;J;J;I;J;196791;Gull-Britt Larsson;64;K;Storuman;64 år, Boksjön;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;14;J;J;I;J;193009;Sven-Åke Pennling;61;M;Storuman;61 år, Kaskeluokt;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;15;J;J;I;J;196793;Elisabeth Olofsson;54;K;Storuman;54 år, Storuman;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;16;J;J;I;J;196794;Nils-Erik Dahlberg;68;M;Storuman;68 år, Ström;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;17;J;J;I;J;196795;Ann-Christine Jonsson;51;K;Storuman;51 år, Laisbäck;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;18;J;J;I;J;196796;Gunnar Andersson;55;M;Storuman;55 år, Hemavan;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;19;J;J;I;J;196797;Marietta Malmbo;74;K;Storuman;76 år, Strömsund;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;20;J;J;I;J;196798;Kent Eriksson;65;M;Storuman;65 år, Åskilje;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;21;J;J;I;J;196799;Barbro Lindgren;79;K;Storuman;79 år, Tärnaby;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;22;J;J;I;J;196800;Ninos Tomas;36;M;Storuman;36 år, Storuman;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;23;J;J;I;J;196801;Leif Karlsson;57;M;Storuman;57 år, Slussfors;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;24;J;J;I;J;196802;Bengt Dalemalm;74;M;Storuman;76 år, Strömsund;16000;;J
+K;2421;Storuman;00;Storuman;Arbetarepartiet-Socialdemokraterna;S;2;S;13817;25;J;J;I;J;196803;Lennart Cohen;66;M;Storuman;66 år, Övre Björknäs;16000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;1;J;J;I;J;8545;Tomas Mörtsell;49;M;Storuman;49 år, Kaskeloukt;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;2;J;J;I;J;70804;Jessica Bergfors;33;K;Storuman;33 år, Hemavan;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;3;J;J;I;J;55745;Patrik Persson;52;M;Storuman;52 år, Storuman;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;4;J;J;I;J;70806;Therese Granström;36;K;Storuman;36 år, Grundfors;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;5;J;J;I;J;70807;Anders Persson;46;M;Storuman;46 år, Tärnaby;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;6;J;J;I;J;70808;Klara Olofsson;26;K;Storuman;26 år, Blaiken;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;7;J;J;I;J;70809;Peder Wiklund;52;M;Storuman;52 år, Storuman;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;8;J;J;I;J;70810;Annika Mörtsell;49;K;Storuman;49 år, Kaskeloukt;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;9;J;J;I;J;55733;Jarl Folkesson;74;M;Storuman;74 år, Joeström;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;10;J;J;I;J;70812;Eva-Sofie Jansson;43;K;Storuman;43 år, Storuman;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;11;J;J;I;J;70813;Jan-Elof Bergström;77;M;Storuman;77 år, Laxnäs;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;12;J;J;I;J;70814;Susanne Hansson;62;K;Storuman;62 år, Tärnaby;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;13;J;J;I;J;70815;Pereric Stenvall;72;M;Storuman;72 år, Pauträsk;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;14;J;J;I;J;70816;Sandra Holmner;36;K;Storuman;36 år, Storuman;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;15;J;J;I;J;70817;Mikael Fredriksson;58;M;Storuman;58 år, Blaiken;15000;;J
+K;2421;Storuman;00;Storuman;Centerpartiet;C;4;S;12763;16;J;J;I;J;70818;Ella-Pia Lönnback;73;K;Storuman;73 år, Slussfors;15000;;J
+K;2421;Storuman;00;Storuman;Kommunlistan;SKL;742;S;15291;1;J;J;I;J;439590;Erold Westman;63;M;Storuman;63 år;1000;;J
+K;2421;Storuman;00;Storuman;Kommunlistan;SKL;742;S;15291;2;J;J;I;J;439591;Ronny Nyström;65;M;Storuman;65 år;1000;;J
+K;2421;Storuman;00;Storuman;Kommunlistan;SKL;742;S;15291;3;J;J;I;J;439592;Håkan Fjell;60;M;Storuman;60 år;1000;;J
+K;2421;Storuman;00;Storuman;Kommunlistan;SKL;742;S;15291;4;J;J;I;J;439593;Lars-Rune Arvidsson;62;M;Storuman;62 år;1000;;J
+K;2421;Storuman;00;Storuman;Kommunlistan;SKL;742;S;15291;5;J;J;I;J;439594;Leif Samuelsson;57;M;Storuman;57 år;1000;;J
+K;2421;Storuman;00;Storuman;Kommunlistan;SKL;742;S;15291;6;J;J;I;J;439595;Jerker Bergström;65;M;Storuman;65 år;1000;;J
+K;2421;Storuman;00;Storuman;Kristdemokraterna;KD;68;S;12935;1;J;J;I;J;171950;Roland Gustavsson;59;M;Storuman;projektledare, Storuman;12000;;J
+K;2421;Storuman;00;Storuman;Kristdemokraterna;KD;68;S;12935;2;J;J;I;J;41295;Ingela Forsman;46;K;Storuman;yrkesförare, Barsele;12000;;J
+K;2421;Storuman;00;Storuman;Kristdemokraterna;KD;68;S;12935;3;J;J;I;J;41292;Allan Forsberg;60;M;Storuman;lärare, Tärnaby;12000;;J
+K;2421;Storuman;00;Storuman;Kristdemokraterna;KD;68;S;12935;4;J;J;I;J;82783;Therese Mörtzell;47;K;Storuman;socionom, Storuman;12000;;J
+K;2421;Storuman;00;Storuman;Kristdemokraterna;KD;68;S;12935;5;J;J;I;J;82784;Per-Daniel Liljegren;59;M;Storuman;projektledare, Storuman;12000;;J
+K;2421;Storuman;00;Storuman;Kristdemokraterna;KD;68;S;12935;6;J;J;I;J;82785;Eva-Marie Stabbfors;62;K;Storuman;undersköterska, Hemavan;12000;;J
+K;2421;Storuman;00;Storuman;Kristdemokraterna;KD;68;S;12935;7;J;J;I;J;82786;Daniel Bergström;38;M;Storuman;enhetschef, Storuman;12000;;J
+K;2421;Storuman;00;Storuman;Kristdemokraterna;KD;68;S;12935;8;J;J;I;J;82787;Ulrika Andersson;50;K;Storuman;arbetsledare, Gunnarn;12000;;J
+K;2421;Storuman;00;Storuman;Kristdemokraterna;KD;68;S;12935;9;J;J;I;J;82788;Emanuel Arnfjell;51;M;Storuman;vaktmästare, Storuman;12000;;J
+K;2421;Storuman;00;Storuman;Kristdemokraterna;KD;68;S;12935;10;J;J;I;J;82789;Britt-Inger Ärlebrandt;65;K;Storuman;senior, Långsjöby;12000;;J
+K;2421;Storuman;00;Storuman;Kristdemokraterna;KD;68;S;12935;11;J;J;I;J;82791;Barbro Mörtzell;77;K;Storuman;senior, Storuman;12000;;J
+K;2421;Storuman;00;Storuman;Kristdemokraterna;KD;68;S;12935;12;J;J;I;J;82792;Bengt Andersson;78;M;Storuman;senior, Gunnarn;12000;;J
+K;2421;Storuman;00;Storuman;Kristdemokraterna;KD;68;S;12935;13;J;J;I;J;82793;Tom Persson;82;M;Storuman;senior, Gunnarn;12000;;J
+K;2421;Storuman;00;Storuman;Liberalerna (tidigare Folkpartiet);L;3;S;12726;1;J;J;I;J;60876;Hans-Peter Carlsson;50;M;Storuman;företagare,Tärnaby;15000;;J
+K;2421;Storuman;00;Storuman;Liberalerna (tidigare Folkpartiet);L;3;S;12726;2;J;J;I;J;67656;Ulla-Maria Åkerblom;37;K;Storuman;Sjuksköterska,Forsvik;15000;;J
+K;2421;Storuman;00;Storuman;Liberalerna (tidigare Folkpartiet);L;3;S;12726;3;J;J;I;J;67657;Per-Erik Sahlman;51;M;Storuman;Driftstekniker,Stensele;15000;;J
+K;2421;Storuman;00;Storuman;Liberalerna (tidigare Folkpartiet);L;3;S;12726;4;J;J;I;J;67658;Catarina Samuelsson;52;K;Storuman;Fritidsgårdsföeståndare,Storuman;15000;;J
+K;2421;Storuman;00;Storuman;Liberalerna (tidigare Folkpartiet);L;3;S;12726;5;J;J;I;J;67659;Karl-Anders Åkerblom;41;M;Storuman;Egenföretagare,Forsvik;15000;;J
+K;2421;Storuman;00;Storuman;Liberalerna (tidigare Folkpartiet);L;3;S;12726;6;J;J;I;J;67660;Anna Cederlund;48;K;Storuman;Sjuksköterska,Hemavan;15000;;J
+K;2421;Storuman;00;Storuman;Liberalerna (tidigare Folkpartiet);L;3;S;12726;7;J;J;I;J;67661;Johnny Holmgren;63;M;Storuman;Terminalchef,Forsvik;15000;;J
+K;2421;Storuman;00;Storuman;Liberalerna (tidigare Folkpartiet);L;3;S;12726;8;J;J;I;J;67662;Leif Semrén;78;M;Storuman;Pensionär,Storuman;15000;;J
+K;2421;Storuman;00;Storuman;Liberalerna (tidigare Folkpartiet);L;3;S;12726;9;J;J;I;J;67663;Bengt Johansson;72;M;Storuman;Pensionär,Storuman;15000;;J
+K;2421;Storuman;00;Storuman;Liberalerna (tidigare Folkpartiet);L;3;S;12726;10;J;J;I;J;67664;Alexander Tornberg;25;M;Storuman;Hantverkare,Storuman;15000;;J
+K;2421;Storuman;00;Storuman;Liberalerna (tidigare Folkpartiet);L;3;S;12726;11;J;J;I;J;67665;Reine Håkansson;39;M;Storuman;Egenföretagare,Storuman;15000;;J
+K;2421;Storuman;00;Storuman;Liberalerna (tidigare Folkpartiet);L;3;S;12726;12;J;J;I;J;67666;Joachim Tellström;54;M;Storuman;Snickare,Tärnaby;15000;;J
+K;2421;Storuman;00;Storuman;Moderaterna;M;1;S;14037;1;J;J;I;J;229655;Ulf Vidman;58;M;Storuman;58, Tärnaby;15000;;J
+K;2421;Storuman;00;Storuman;Moderaterna;M;1;S;14037;2;J;J;I;J;7792;Veronika Håkansson;46;K;Storuman;46, Sördal;15000;;J
+K;2421;Storuman;00;Storuman;Moderaterna;M;1;S;14037;3;J;J;I;J;229657;Olle Wärnick;75;M;Storuman;75, Gunnarn;15000;;J
+K;2421;Storuman;00;Storuman;Moderaterna;M;1;S;14037;4;J;J;I;J;229658;Eva Banstorp;65;K;Storuman;65, Blaiken;15000;;J
+K;2421;Storuman;00;Storuman;Moderaterna;M;1;S;14037;5;J;J;I;J;229659;Christer Bergfors;66;M;Storuman;66, Slussfors;15000;;J
+K;2421;Storuman;00;Storuman;Moderaterna;M;1;S;14037;6;J;J;I;J;229660;Karin Holmner;54;K;Storuman;54, Gunnarn;15000;;J
+K;2421;Storuman;00;Storuman;Moderaterna;M;1;S;14037;7;J;J;I;J;229661;Michael Nederberg;38;M;Storuman;38, Tärnaby;15000;;J
+K;2421;Storuman;00;Storuman;Moderaterna;M;1;S;14037;8;J;J;I;J;229662;Monica Beije;74;K;Storuman;74, Barsele;15000;;J
+K;2421;Storuman;00;Storuman;Moderaterna;M;1;S;14037;9;J;J;I;J;229663;Robin Ramstedt;68;M;Storuman;68, Skarvsjöby;15000;;J
+K;2421;Storuman;00;Storuman;Moderaterna;M;1;S;14037;10;J;J;I;J;229664;Gun-Brith Stenvall;78;K;Storuman;78, Storuman;15000;;J
+K;2421;Storuman;00;Storuman;Moderaterna;M;1;S;14037;11;J;J;I;J;229665;Elisabeth Wärnick;73;K;Storuman;73, Gunnarn;15000;;J
+K;2421;Storuman;00;Storuman;Sverigedemokraterna;SD;110;S;13201;1;J;J;I;J;122788;Bengt-Erik Åkebrand;73;M;Storuman;Slussfors, 72;15000;;J
+K;2421;Storuman;00;Storuman;Sverigedemokraterna;SD;110;S;13201;2;J;J;I;J;122789;Elving Karlsson;66;M;Storuman;Slussfors, 65;15000;;J
+K;2421;Storuman;00;Storuman;Sverigedemokraterna;SD;110;S;13201;3;J;J;I;J;122790;Marie Berglund;67;K;Storuman;Storuman, 66;15000;;J
+K;2421;Storuman;00;Storuman;Sverigedemokraterna;SD;110;S;13201;4;J;J;I;J;122791;Ali Rubertsson;73;M;Storuman;Storuman, 72;15000;;J
+K;2421;Storuman;00;Storuman;Sverigedemokraterna;SD;110;S;13201;5;J;J;I;J;122792;Laila Löfdahl;58;K;Storuman;Stensele, 57;15000;;J
+K;2421;Storuman;00;Storuman;Sverigedemokraterna;SD;110;S;13201;6;J;J;I;J;122793;Jonas Hestner;44;M;Storuman;Slussfors, 44;15000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;1;J;J;I;J;366412;Daniel Johansson;35;M;Storuman;35 år, enhetschef, Storuman;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;2;J;J;I;J;377128;Linda Glasin;36;K;Storuman;36 år, receptionist/vårdadministratör Storuman;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;3;J;J;I;J;377129;Torkel Stångberg;38;M;Storuman;39 år, egenföretagare, Vallenäs;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;4;J;J;I;J;375343;Emilia Ronnhed;29;K;Storuman;29 år, boendestödjare, Storuman;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;5;J;J;I;J;377131;Mats Eliasson;62;M;Storuman;62 år, tågklarerare, Storuman;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;6;J;J;I;J;377132;Johan Karlberg;41;M;Storuman;41 år, enhetschef, Tärnaby;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;7;J;J;I;J;437457;Ingela Viktorsson;53;K;Storuman;52 år, boendestödjare, Storuman;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;8;J;J;I;J;377133;Krister Näslund;60;M;Storuman;60 år, elevassistent, Storuman;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;9;J;J;I;J;377134;Marcus Glasin;42;M;Storuman;42 år, vårdbiträde, Storuman;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;10;J;J;I;J;377135;Erika Rönnholm;49;K;Storuman;49 år, Storuman;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;11;J;J;I;J;377136;Irene Walfridsson;56;K;Storuman;56 år, lokalvårdare, Storuman;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;12;J;J;I;J;377137;Inga Walfridsson;62;K;Storuman;61 år, förskollärare, Storuman;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;13;J;J;I;J;377138;Elin Eriksson;37;K;Storuman;37 år, studerande, Tärnaby;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;14;J;J;I;J;377139;Annika Lundin;59;K;Storuman;58 år, butikssäljare, Storuman;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;15;J;J;I;J;377140;Christer Johansson;64;M;Storuman;64 år, pensionär, Mosekälla;7000;;J
+K;2421;Storuman;00;Storuman;Vänsterpartiet;V;5;S;14982;16;J;J;I;J;377141;Bengt-Göran Burman;76;M;Storuman;77 år, pensionär, Tärnamo/Tärnaby;7000;;J

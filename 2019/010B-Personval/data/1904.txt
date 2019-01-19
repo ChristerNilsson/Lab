@@ -1,0 +1,95 @@
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;1;J;J;I;J;30750;Lena Lovén Rolén;55;K;Skinnskatteberg;55 år, Leg. Sjukgymnast;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;2;J;J;I;J;6182;Tony Bölja;50;M;Skinnskatteberg;50 år, Industriarbetare;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;3;J;J;I;J;30752;Charlotte Jansson;57;K;Skinnskatteberg;57 år, Lärare;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;4;J;J;I;J;30753;Roger Ingvarsson;41;M;Skinnskatteberg;41 år, Verksamhetsledare;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;5;J;J;I;J;30754;Eva Anderberg;47;K;Skinnskatteberg;47 år, Teaterpedagog;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;6;J;J;I;J;30755;Lars-Göran Fammé;62;M;Skinnskatteberg;62 år, Elektriker;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;7;J;J;I;J;30756;Sabine Thungren;30;K;Skinnskatteberg;30 år, HR-administratör;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;8;J;J;I;J;30757;Rolf Sass;55;M;Skinnskatteberg;55 år, Lagerarbetare;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;9;J;J;I;J;30758;Aneth Arvidsson;67;K;Skinnskatteberg;67 år, Pensionär;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;10;J;J;I;J;30759;Klaus Jesse;63;M;Skinnskatteberg;63 år, Vårdbiträde;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;11;J;J;I;J;30760;Kerstin Delfalk;75;K;Skinnskatteberg;75 år, Pensionär;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;12;J;J;I;J;30761;Pentti Lahtinen;69;M;Skinnskatteberg;69 år, Pensionär;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;13;J;J;I;J;30762;Ann-Christin Andersson;41;K;Skinnskatteberg;41 år, Montör;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;14;J;J;I;J;30763;Gabriel Andersson;24;M;Skinnskatteberg;24 år, Kommunikatör;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;15;J;J;I;J;30764;Helena Nykänen;63;K;Skinnskatteberg;63 år, Socionom;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;16;J;J;I;J;30765;Elof Engman;73;M;Skinnskatteberg;73 år, Pensionär;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;17;J;J;I;J;30766;Barbara Laaksonen;57;K;Skinnskatteberg;57 år, Områdeschef;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;18;J;J;I;J;30767;Per Andersson;54;M;Skinnskatteberg;54 år, Arbetsmiljösamordnare;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;19;J;J;I;J;30768;Laila Åberg;55;K;Skinnskatteberg;55 år, Sjuksköterska;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;20;J;J;I;J;30769;Lars Andersson;67;M;Skinnskatteberg;67 år, Pensionär;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;21;J;J;I;J;30770;Soili Raja-Aho;61;K;Skinnskatteberg;61 år, Sjuksköterska;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;22;J;J;I;J;6347;Hans Eric Johansson;69;M;Skinnskatteberg;69 år, Präst;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;23;J;J;I;J;30818;Ewa Wikström;70;K;Skinnskatteberg;70 år, Fd Bildlärare;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;24;J;J;I;J;30819;Kenneth Ernebrink;69;M;Skinnskatteberg;69 år, Pensionär;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;25;J;J;I;J;30820;Cecilia Karlsson;43;K;Skinnskatteberg;43 år, Lärare;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;26;J;J;I;J;30821;Sune Bruhn;56;M;Skinnskatteberg;56 år, Fastighetsskötare;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;27;J;J;I;J;30822;Rania Sado;57;K;Skinnskatteberg;57 år, Lokalvårdare;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;28;J;J;I;J;30823;Ricky Sten;50;M;Skinnskatteberg;50 år, Industriarbetare;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;29;J;J;I;J;30824;Monica Ladhman;69;K;Skinnskatteberg;69 år, Pensionär;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;30;J;J;I;J;30825;Yvonne Ladman;48;K;Skinnskatteberg;48 år, Undersköterska;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;31;J;J;I;J;30826;Katarina Holm;73;K;Skinnskatteberg;73 år, Pensionär;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;32;J;J;I;J;30827;Karolina Pikkuaho;39;K;Skinnskatteberg;39 år. Leg. Sjuksköterska;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Arbetarepartiet-Socialdemokraterna;S;2;S;12195;33;J;J;I;J;30828;Gun Karlsson;68;K;Skinnskatteberg;68 år, Pensionär;15000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Centerpartiet;C;4;S;13797;1;J;J;I;J;194526;Helena Norrby;46;K;Skinnskatteberg;Småföretagare, Lövslätten;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Centerpartiet;C;4;S;13797;2;J;J;I;J;194527;Ulf Kjellin;69;M;Skinnskatteberg;Företagare, Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Centerpartiet;C;4;S;13797;3;J;J;I;J;194528;Rolf Andersson;76;M;Skinnskatteberg;Lantbrukare, Sillbo;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Centerpartiet;C;4;S;13797;4;J;J;I;J;194529;Sonja Råberg;62;K;Skinnskatteberg;Barnskötare, Solmyra;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Centerpartiet;C;4;S;13797;5;J;J;I;J;194530;Ylva Eriksson;62;K;Skinnskatteberg;Enhetschef, Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Centerpartiet;C;4;S;13797;6;J;J;I;J;194531;Gunilla Persson;75;K;Skinnskatteberg;Diakon, Uttersberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Centerpartiet;C;4;S;13797;7;J;J;I;J;194532;Anders Andersson;44;M;Skinnskatteberg;Egenföretagare, Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Centerpartiet;C;4;S;13797;8;J;J;I;J;194533;Bengt Persson;77;M;Skinnskatteberg;f.d Lantbrukare, Uttersberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Centerpartiet;C;4;S;13797;9;J;J;I;J;194534;Barbro von Walden;76;K;Skinnskatteberg;Egenföretagare, Bernshammar;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Centerpartiet;C;4;S;13797;10;J;J;I;J;194535;Åke Fransson;78;M;Skinnskatteberg;Lantbrukare, Plöjningen;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Kristdemokraterna;KD;68;S;14695;1;J;J;I;J;314778;Johan Hådén;37;M;Skinnskatteberg;Entreprenör, Högfors;4000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Kristdemokraterna;KD;68;S;14695;2;J;J;I;J;314779;Cathy Karlsson;44;K;Skinnskatteberg;Maskinförare, Riddarhyttan;4000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Kristdemokraterna;KD;68;S;14695;3;J;J;I;J;314780;Veli-Matti Sorvari;65;M;Skinnskatteberg;Flyglärare, Hed;4000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Kristdemokraterna;KD;68;S;14695;4;J;J;I;J;314781;Kittika Wimon;38;K;Skinnskatteberg;Mammaledig, Högfors;4000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;132659;Matsson, Lars;52;M;Skinnskatteberg;;0;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515675;Björklund, Irene;57;K;Skinnskatteberg;;0;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;1;J;J;I;J;49209;Carina Sándor;47;K;Skinnskatteberg;Laggarbo;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;2;J;J;I;J;294592;Tobias Jarstorp;42;M;Skinnskatteberg;Riddarhyttan;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;3;J;J;I;J;294593;Elisabeth Åberg;68;K;Skinnskatteberg;Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;4;J;J;I;J;287835;Anders Nordenbris;78;M;Skinnskatteberg;Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;5;J;J;I;J;294595;Vanja Leneklint;84;K;Skinnskatteberg;Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;6;J;J;I;J;294596;Susanne Karlsson;52;K;Skinnskatteberg;Färna;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;7;J;J;I;J;294597;Solveig Hammarström;81;K;Skinnskatteberg;Färna;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;8;J;J;I;J;294598;Warja Rafik;53;M;Skinnskatteberg;Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;9;J;J;I;J;294599;Anna-Lena Lundén;46;K;Skinnskatteberg;Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;10;J;J;I;J;297303;Jan Lejon;76;M;Skinnskatteberg;Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;11;J;J;I;J;297304;Kjell Andersson;66;M;Skinnskatteberg;Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;12;J;J;I;J;297305;Margareta Nordenbris;73;K;Skinnskatteberg;Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;13;J;J;I;J;297306;Roger Karlsson;56;M;Skinnskatteberg;Färna;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;14;J;J;I;J;297307;Rasmus Karlsson;25;M;Skinnskatteberg;Färna;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;15;J;J;I;J;297308;Kristina Bergstedt;72;K;Skinnskatteberg;Karmansbo;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;16;J;J;I;J;297309;Hjalmar Hammarström;76;M;Skinnskatteberg;Färna;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;17;J;J;I;J;297310;Aina Ek;87;K;Skinnskatteberg;Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;18;J;J;I;J;297311;Eva Turén;84;K;Skinnskatteberg;Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Liberalerna (tidigare Folkpartiet);L;3;S;14576;19;J;J;I;J;297312;Anita Carlsson;73;K;Skinnskatteberg;Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Moderaterna;M;1;S;11784;1;J;J;I;J;3189;Bo Öberg;61;M;Skinnskatteberg;Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Moderaterna;M;1;S;11784;2;J;J;I;J;3190;Staffan Strid;56;M;Skinnskatteberg;Skinnskatteberg;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Moderaterna;M;1;S;11784;3;J;J;I;J;3191;Angelique Nyström;46;K;Skinnskatteberg;Solmyra;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Moderaterna;M;1;S;11784;4;J;J;I;J;59;Pernilla Danielsson;53;K;Skinnskatteberg;Gillbo;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Moderaterna;M;1;S;11784;5;J;J;I;J;3193;Patric Gålbom;47;M;Skinnskatteberg;Solmyra;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Moderaterna;M;1;S;11784;6;J;J;I;J;3194;Sture Bäcklund;82;M;Skinnskatteberg;Godkärra;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Moderaterna;M;1;S;11784;7;J;J;I;J;3195;Björn Eijre;75;M;Skinnskatteberg;Getbro;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Sverigedemokraterna;SD;110;S;12825;1;J;J;I;J;75505;Ewa Olsson Bergstedt;55;K;Skinnskatteberg;miljöarbetare och egenföretagare;13000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Sverigedemokraterna;SD;110;S;12825;2;J;J;I;J;75506;Oscar Sjöstedt;37;M;Skinnskatteberg;nationalekonom;13000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Sverigedemokraterna;SD;110;S;12825;3;J;J;I;J;75507;Birgit Barchiesi;59;K;Skinnskatteberg;stansoperatör och egenföretagare;13000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Sverigedemokraterna;SD;110;S;12825;4;J;J;I;J;75508;Jonny Emtin;38;M;Skinnskatteberg;egenföretagare;13000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Sverigedemokraterna;SD;110;S;12825;5;J;J;I;J;75509;Pär Hultman;43;M;Skinnskatteberg;IT-tekniker;13000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Sverigedemokraterna;SD;110;S;12825;6;J;J;I;J;75510;Sari von Walden;49;K;Skinnskatteberg;industriarbetare;13000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Sverigedemokraterna;SD;110;S;12825;7;J;J;I;J;75511;Vesa Koskelainen;69;M;Skinnskatteberg;pensionär;13000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Sverigedemokraterna;SD;110;S;12825;8;J;J;I;J;75512;Cecilia Olsson Bergstedt;19;K;Skinnskatteberg;studerande;13000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Sverigedemokraterna;SD;110;S;12825;9;J;J;I;J;75513;Therese Lövdahl;28;K;Skinnskatteberg;konditor;13000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Sverigedemokraterna;SD;110;S;12825;10;J;J;I;J;75514;Torgny Roxell;64;M;Skinnskatteberg;pensionär;13000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Vänsterpartiet;V;5;S;13920;1;J;J;I;J;211433;Fredrik Skog;46;M;Skinnskatteberg;;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Vänsterpartiet;V;5;S;13920;2;J;J;I;J;16587;Helena Cederberg;52;K;Skinnskatteberg;;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Vänsterpartiet;V;5;S;13920;3;J;J;I;J;287539;Anna Werner;25;K;Skinnskatteberg;;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Vänsterpartiet;V;5;S;13920;4;J;J;I;J;211435;Agneta C Lundberg;68;K;Skinnskatteberg;;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Vänsterpartiet;V;5;S;13920;5;J;J;I;J;211436;Kent Abrahamsson;70;M;Skinnskatteberg;;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Vänsterpartiet;V;5;S;13920;6;J;J;I;J;211437;Nettan Roth;40;K;Skinnskatteberg;;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Vänsterpartiet;V;5;S;13920;7;J;J;I;J;211438;Jörgen Andersson;71;M;Skinnskatteberg;;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Vänsterpartiet;V;5;S;13920;8;J;J;I;J;211439;Elisabeth Skog;65;K;Skinnskatteberg;;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Vänsterpartiet;V;5;S;13920;9;J;J;I;J;211440;Bertil Skog;69;M;Skinnskatteberg;;11000;;J
+K;1904;Skinnskatteberg;00;Skinnskatteberg;Vänsterpartiet;V;5;S;13920;10;J;J;I;J;211441;Ingrid Sköldin;65;K;Skinnskatteberg;;11000;;J

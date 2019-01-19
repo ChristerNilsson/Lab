@@ -1,0 +1,818 @@
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;1;J;J;I;J;66434;Katrin Stjernfeldt Jammeh;44;K;Malmö;Kommunstyrelsens ordförande;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;2;J;J;I;J;28296;Andreas Schönström;42;M;Malmö;Kommunalråd;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;3;J;J;I;J;66436;Frida Trollmyr;39;K;Malmö;Kommunalråd;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;4;J;J;I;J;66437;Anders Rubin;54;M;Malmö;Kommunalråd;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;5;J;J;I;J;66438;Carina Nilsson;59;K;Malmö;Kommunalråd;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;6;J;J;I;J;28111;Sedat Arif;35;M;Malmö;Kommunalråd;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;7;J;J;I;J;66440;Elin Kramer;27;K;Malmö;Ungdomssekreterare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;8;J;J;I;J;28089;Mubarik Mohamed Abdirahman;35;M;Malmö;Sekreterare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;9;J;J;I;J;28100;Rose-Marie Carlsson;63;K;Malmö;Undersköterska;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;10;J;J;I;J;28306;Ilmar Reepalu;74;M;Malmö;Arkitekt;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;11;J;J;I;J;66444;Sofia Hedén;42;K;Malmö;Lärare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;12;J;J;I;J;66445;Björn Gudmundsson;57;M;Malmö;Ombudsman;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;13;J;J;I;J;28297;Carina Svensson;59;K;Malmö;Skötare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;14;J;J;I;J;66447;Juan-Tadeo Espitia;58;M;Malmö;Fritidspedagog;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;15;J;J;I;J;66448;Eva Sjöstedt;74;K;Malmö;Pensionär;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;16;J;J;I;J;28103;Arwin Sohrabi;24;M;Malmö;Studerande;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;17;J;J;I;J;66450;Christina Wessling;69;K;Malmö;Pensionär;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;18;J;J;I;J;66451;Jan Olsson;66;M;Malmö;Ombudsman;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;19;J;J;I;J;28102;Mediha Ahmadi Pir Hosseinian;28;K;Malmö;Projektledare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;20;J;J;I;J;66453;Dündar Güngör;47;M;Malmö;Egen företagare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;21;J;J;I;J;28108;Susanne Jönsson;60;K;Malmö;Undersköterska;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;22;J;J;I;J;66455;Harris Cheema;27;M;Malmö;Studerande;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;23;J;J;I;J;28106;Sanna Axelsson;34;K;Malmö;Verksamhetsutvecklare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;24;J;J;I;J;66457;Anders Nilsson;64;M;Malmö;Pensionär;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;25;J;J;I;J;66458;Emilie Malm;37;K;Malmö;Jurist;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;26;J;J;I;J;66459;Peter Johansson;56;M;Malmö;Kontorist;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;27;J;J;I;J;66460;Birgit Hansson;67;K;Malmö;VD;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;28;J;J;I;J;66461;Mats Sjölin;55;M;Malmö;Terminalarbetare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;29;J;J;I;J;28110;Anna-Karin Bengtsdotter;50;K;Malmö;Fritidspedagog;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;30;J;J;I;J;66463;Sven-Erik Rasmusson;66;M;Malmö;Pensionär;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;31;J;J;I;J;28315;Electra Ververidis;23;K;Malmö;Ombudsman;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;32;J;J;I;J;66465;Jean Pierre Denape;45;M;Malmö;Forskarstuderande;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;33;J;J;I;J;66466;Lirije Latifi;61;K;Malmö;Administratör;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;34;J;J;I;J;66467;Hasse Hajar;32;M;Malmö;Fastighetsförvaltare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;35;J;J;I;J;66468;Vanja Andersson;38;K;Malmö;Försäkringsutredare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;36;J;J;I;J;28312;Stefan Pinjefors;38;M;Malmö;Tågvärd;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;37;J;J;I;J;66470;Eva Jönsson;61;K;Malmö;Familjebehandlare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;38;J;J;I;J;66471;Kostadin Cavdarovski;43;M;Malmö;Industriarbetare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;39;J;J;I;J;28311;Teba Awni;23;K;Malmö;Studerande;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;40;J;J;I;J;66473;Jonas Michanek;44;M;Malmö;Entreprenör;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;41;J;J;I;J;66474;Gaby Wallström;58;K;Malmö;Egen företagare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;42;J;J;I;J;66475;Nihad Pasalic;46;M;Malmö;Tjänsteman;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;43;J;J;I;J;66476;Therese Lindberg;43;K;Malmö;Barnskötare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;44;J;J;I;J;28101;Johan Sjöstrand;42;M;Malmö;Lagerarbetare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;45;J;J;I;J;66478;Neziya Rahman;43;K;Malmö;Livsmedelsarbetare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;46;J;J;I;J;66479;Fehim Yilmas;57;M;Malmö;Busschafför;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;47;J;J;I;J;28327;Rifqa Al-Sammarraie;21;K;Malmö;Studerande;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;48;J;J;I;J;66481;Akeel Abdul-Amir;55;M;Malmö;Lärare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;49;J;J;I;J;66482;Lilian Ekvall;74;K;Malmö;Pensionär;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;50;J;J;I;J;66483;Fredrik Egefur;43;M;Malmö;Arkivarie;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;51;J;J;I;J;66484;Linnea Jacobsson;28;K;Malmö;Studerande;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;52;J;J;I;J;28105;Rizwan Elahi;29;M;Malmö;Studerande;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;53;J;J;I;J;66486;Barbro Erlström;68;K;Malmö;Pensionär;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;54;J;J;I;J;66487;Martin Hjort;47;M;Malmö;Ekonom;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;55;J;J;I;J;66488;Alisar El-Haj;24;K;Malmö;Lärare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;56;J;J;I;J;66489;Shaip Morina;53;M;Malmö;Fritidsledare;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;57;J;J;I;J;66490;Pernilla Hagen;52;K;Malmö;Undersköterska;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;58;J;J;I;J;66491;Joseph Prai;47;M;Malmö;IT-tekniker;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;59;J;J;I;J;177055;Anette Ellis;58;K;Malmö;Divisionschef;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;60;J;J;I;J;177056;Klas Abelson;42;M;Malmö;Universitetslektor;1000000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;1;J;J;I;J;8512;Niels Paarup-Petersen;40;M;Malmö;40, Konsult;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;2;J;J;I;J;35607;Charlotte Bossen;31;K;Malmö;31, Statstjänsteman;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;3;J;J;I;J;35610;Anton Sauer;24;M;Malmö;24, Lärare;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;4;J;J;I;J;35609;Kay Wictorin;73;M;Malmö;73, Pensionär;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;5;J;J;I;J;35611;Michaela Esseen;30;K;Malmö;30, Försäkringstjänsteman;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;6;J;J;I;J;35613;Adnan Bibic;43;M;Malmö;43, Fysiker;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;7;J;J;I;J;8543;Warda Fatih;23;K;Lund;23, Läkarstudent;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;8;J;J;I;J;35615;Joacim Ahlqvist;36;M;Malmö;35, Statstjänsteman;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;9;J;J;I;J;39260;Heinz Wellershaus;54;M;Malmö;54, Civilingenjör;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;10;J;J;I;J;35608;Nancy Diaz-Afzali;34;K;Malmö;34, Enhetschef;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;11;J;J;I;J;39272;Magnus Thulin;35;M;Malmö;35, Civilekonom/egenföretagare;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;12;J;J;I;J;39254;Martin Molin;29;M;Malmö;29, Trafikplanerare;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;13;J;J;I;J;35622;Gunnel Kristiansson;70;K;Malmö;70, Sjuksköterska;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;14;J;J;I;J;35624;Albin Westermark;23;M;Malmö;23, Verksamhetskoordinator;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;15;J;J;I;J;35617;Evelina Reuterfors;22;K;Malmö;22, Verksamhetsledare;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;16;J;J;I;J;35629;Bengt Svensson;65;M;Malmö;64, Civilingenjör;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;17;J;J;I;J;35612;Andreas Asker;38;M;Malmö;38, Civilingenjör;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;18;J;J;I;J;35616;Erika Hedblom;42;K;Malmö;42, Projektledare;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;19;J;J;I;J;39261;Hanna Edwards;25;K;Malmö;25, Samhällsvetare;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;20;J;J;I;J;35626;Rasmus Carlsson;43;M;Malmö;43, IT-konsult;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;21;J;J;I;J;39269;Sapko Sinani;36;M;Malmö;36, VD;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;22;J;J;I;J;35633;Halid Osman;64;M;Malmö;65, Egenföretagare;772000;;J
+K;1280;Malmö;01;Malmö Östra;Centerpartiet;C;4;S;12465;23;J;J;I;J;39271;Maria Ekstrand;55;K;Malmö;51, Kommunikationsstrateg;772000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;1;J;J;I;J;219325;Jonna Böhler;28;K;Malmö;28 år, Lärarstudent;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;2;J;J;I;J;406790;Reza Sharifi;32;M;Malmö;32 år, Sektionschef;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;3;J;J;I;J;406791;Tilde Sand;18;K;Malmö;18 år, Student;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;4;J;J;I;J;406792;Camilla Hidalgo Hernandez;24;K;Malmö;24 år, Student;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;5;J;J;I;J;219307;Toktam Jahangiry;44;K;Malmö;44 år, Utbildare om våld i nära relationer;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;6;J;J;I;J;406794;Hanna Bergman;22;K;Malmö;22 år, Student;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;7;J;J;I;J;219328;Joel Boni;57;M;Malmö;57 år, Lärare;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;8;J;J;I;J;406796;Amanda Sköld;19;K;Malmö;19 år, Student;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;9;J;J;I;J;219324;Myriam Gomez Lattes;51;K;Malmö;51 år, Personlig assistent;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;10;J;J;I;J;406798;Ahmad Abonahleh;40;M;Malmö;40 år, Kundresurs;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;11;J;J;I;J;406799;Sanne Petersson;28;K;Malmö;28 år, Arbetssökande;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;12;J;J;I;J;406800;Lillian Bailey;35;K;Malmö;35 år, Stödassistent inom LSS;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;13;J;J;I;J;219317;Elham Ahmadi;19;K;Malmö;19 år, Student;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;14;J;J;I;J;406802;Veronika Rangin;32;K;Malmö;32 år, Student/egenföretagare;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;15;J;J;I;J;406803;Linus Fast;38;M;Malmö;38 år, Bostadspolitisk utvecklare;150000;;J
+K;1280;Malmö;01;Malmö Östra;Feministiskt initiativ;FI;532;S;15160;16;J;J;I;J;406804;Beata Sjöstedt;28;K;Malmö;28 år, Student;150000;;J
+K;1280;Malmö;01;Malmö Östra;Folkhemmet Sverige;;1388;;;;N;J;J;I;515659;Axelsson Horstmann, Christopher;35;M;Malmö;;0;;J
+K;1280;Malmö;01;Malmö Östra;Initiativet;;1374;;;;N;J;J;I;415128;Waller, Jakob Olof;41;M;Malmö;;0;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;1;J;J;I;J;31794;Torsten Elofsson;67;M;Malmö;67 år, fd Polisintendent, Innerstaden;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;2;J;J;I;J;31797;Martin Hallander;25;M;Malmö;25 år, Politisk sekreterare, Dammfri;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;3;J;J;I;J;31801;Eleonor Vinciguerra;37;K;Malmö;37 år, Informatör, Bunkeflostrand;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;4;J;J;I;J;31803;Lars Lindqvist;65;M;Malmö;65 år, Senior advisor, Dockan;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;5;J;J;I;J;31733;Robin Persson;21;M;Malmö;21 år, Museiassistent, Lindeborg;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;6;J;J;I;J;62314;Monika Jensen;66;K;Malmö;66 år, Pensionär, Dalaplan;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;7;J;J;I;J;31808;Josef Ander;34;M;Malmö;34 år, Polis, Rosengård;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;8;J;J;I;J;62316;Aina Ragnarp;82;K;Malmö;82 år, Leg. Sjuksköterska, Gullvik;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;9;J;J;I;J;59409;Tomas Ander;65;M;Malmö;65 år, Redaktör, Gullvik;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;10;J;J;I;J;62318;Linus Owman;45;M;Malmö;45 år, Pol.mag./Konsult, Fridhem;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;11;J;J;I;J;31812;Adele Horn;20;K;Malmö;20 år, Student, Hyllie;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;12;J;J;I;J;62320;Sven Steén;78;M;Malmö;78 år, Posttjänsteman, Fosie;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;13;J;J;I;J;62322;Richard Jensen;62;M;Malmö;62 år, Professionell coach, Dalaplan;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;14;J;J;I;J;62323;Lennart Henrysson;85;M;Malmö;85 år, fd Universitetslektor, Lorensborg;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;15;J;J;I;J;62324;Karolina Rados;28;K;Malmö;28 år, Teamledare, Västra Hamnen;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;16;J;J;I;J;62325;Ingvar Johansson;76;M;Malmö;76 år, Pensionär, Tygelsjö;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;17;J;J;I;J;62326;Anita Steén;70;K;Malmö;70 år, fd Brevbärare, Dalaplan;210000;;J
+K;1280;Malmö;01;Malmö Östra;Kristdemokraterna;KD;68;S;12617;18;J;J;I;J;59478;Roger Sidestam;70;M;Malmö;70 år, Leg. Läkare, Slottsstaden;210000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;1;J;J;I;J;38224;Roko Kursar;32;M;Malmö;Statstjänsteman, 32 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;2;J;J;I;J;38223;Louise Eklund;39;K;Malmö;Doktor i historia, 39 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;3;J;J;I;J;27767;Allan Widman;54;M;Malmö;Riksdagsledamot, 54 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;4;J;J;I;J;38225;Sara Wettergren;46;K;Malmö;Politisk sekreterare, 46 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;5;J;J;I;J;40465;Simon Chrisander;40;M;Malmö;Marknadsförare, 40 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;6;J;J;I;J;38744;Ewa Bertz;70;K;Malmö;F.d. egen företagare, 70 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;7;J;J;I;J;38227;Joel Laguna;41;M;Malmö;Statstjänsteman, 41 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;8;J;J;I;J;38228;Linda Eklund;25;K;Malmö;Ämneslärarstudent, 25 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;9;J;J;I;J;38230;Ulrika Rogland;53;K;Malmö;Advokat, 53 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;10;J;J;I;J;38233;Magnus Hulthe Andersson;37;M;Malmö;Statsvetare, 37 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;11;J;J;I;J;38226;Anneli Bojesson;65;K;Malmö;Civilekonom, 65 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;12;J;J;I;J;38232;Ulla Herbert;77;K;Malmö;Lärare, 77 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;13;J;J;I;J;40473;Narcis Spahovic;50;M;Malmö;Sektionschef, 50 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;14;J;J;I;J;38231;Olle Schmidt;69;M;Malmö;Tidigare EU-parlamentariker, 69 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;15;J;J;I;J;38237;Tore Robertsson;73;M;Malmö;Företagare, 73 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;16;J;J;I;J;38235;Amanda Onsberg Brumark;24;K;Malmö;Statsvetare, marknadsassistent, 24 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;17;J;J;I;J;38234;Lars Hellström;55;M;Malmö;Affärschef, 55 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;18;J;J;I;J;38752;Jacob Branting;48;M;Malmö;Samordnare, 48 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;19;J;J;I;J;38244;Monica Hildingson;65;K;Malmö;Civilingenjör, 65 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;20;J;J;I;J;38236;Alexander Werne;28;M;Malmö;Ingenjör i kemiteknik, 28 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;21;J;J;I;J;38229;Sirwan Dabagh;33;M;Malmö;Trafikingenjör, 33 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;22;J;J;I;J;40483;Håkan Linné;67;M;Malmö;Pensionär, 67 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;23;J;J;I;J;40484;Bo Lindström;82;M;Malmö;Leg. Tandläkare, 82 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;24;J;J;I;J;38241;Arne Bojesson;67;M;Malmö;Civilekonom, 67 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;25;J;J;I;J;38240;Aram Mahmoud;33;M;Malmö;Tjänsteman, 33 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;26;J;J;I;J;38763;Stefan Pettersson;64;M;Malmö;Civilekonom, 64 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;27;J;J;I;J;40488;Marie Jacobsson;38;K;Malmö;Socionom, 38 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;28;J;J;I;J;38762;Ann Christin Gaskell-Brown;75;K;Malmö;Yrkeslärare Gymnasium, 75 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;29;J;J;I;J;40490;Ahmed Keita;31;M;Malmö;Handläggare på Arbetsförmedlingen,31 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;30;J;J;I;J;38239;Marianne Friedman;62;K;Malmö;Kurator i Region Skåne, 62 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;31;J;J;I;J;38243;Sofia Borg;54;K;Malmö;Kanslist på Liberalerna, 54 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;32;J;J;I;J;38246;Gun Rosenlund Chrintz-Gath;64;K;Malmö;Specialpedagog, 64 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;33;J;J;I;J;40494;Max Hartler;33;M;Malmö;Regionsäljare, 33 år;382000;;J
+K;1280;Malmö;01;Malmö Östra;Medborgerlig Samling;MED;1296;S;13960;1;J;J;I;J;124844;Ilan Sadé;40;M;Malmö;40, chefsjurist, Västra Hamnen;38000;;J
+K;1280;Malmö;01;Malmö Östra;Medborgerlig Samling;MED;1296;S;13960;2;J;J;I;J;128540;Andreas Nurbo;34;M;Malmö;34, egenföretagare, Husie;38000;;J
+K;1280;Malmö;01;Malmö Östra;Medborgerlig Samling;MED;1296;S;13960;3;J;J;I;N;216030;[inte lämnat förklaring];;;;;38000;;N
+K;1280;Malmö;01;Malmö Östra;Medborgerlig Samling;MED;1296;S;13960;4;J;J;I;J;187974;Jonas Olsson;44;M;Malmö;44, civilekonom, Rosengård;38000;;J
+K;1280;Malmö;01;Malmö Östra;Medborgerlig Samling;MED;1296;S;13960;5;J;J;I;J;32979;Torsten Nurbo;63;M;Malmö;63, projektledare, Husie;38000;;J
+K;1280;Malmö;01;Malmö Östra;Medborgerlig Samling;MED;1296;S;13960;6;J;J;I;J;216033;Leo Sundberg;35;M;Malmö;35, ingenjör, Södra Innerstaden;38000;;J
+K;1280;Malmö;01;Malmö Östra;Medborgerlig Samling;MED;1296;S;13960;7;J;J;I;J;216034;Ann-Cathrine Björk;50;K;Malmö;50, egenföretagare, Västra Hamnen;38000;;J
+K;1280;Malmö;01;Malmö Östra;Medborgerlig Samling;MED;1296;S;13960;8;J;J;I;J;188054;Helene Manger;50;K;Malmö;50, administrativ chef, Husie;38000;;J
+K;1280;Malmö;01;Malmö Östra;Medborgerlig Samling;MED;1296;S;13960;9;J;J;I;J;216141;Elisabeth Wass;55;K;Malmö;56, civilekonom, Centrum;38000;;J
+K;1280;Malmö;01;Malmö Östra;Medborgerlig Samling;MED;1296;S;13960;10;J;J;I;J;216142;Sara Nilsson;38;K;Malmö;38, VD, Limhamn;38000;;J
+K;1280;Malmö;01;Malmö Östra;Medborgerlig Samling;MED;1296;S;13960;11;J;J;I;J;216143;Greger Morin;66;M;Malmö;65, pensionär, Kirseberg;38000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;1;J;J;I;J;109305;Märta Stenevi;42;K;Malmö;kommunalråd, 42 år, Djupadal;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;2;J;J;I;J;109306;Bassem Nasr;37;M;Malmö;politisk sekreterare, 37 år, Lindeborg;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;3;J;J;I;J;17215;Johanna Öfverbeck;33;K;Malmö;socionom, 33 år, Värnhem;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;4;J;J;I;J;109135;Måns Berger;30;M;Malmö;politisk sekreterare, 30 år, Möllevången;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;5;J;J;I;J;109144;Stefana Hoti;31;K;Malmö;barnrättsstrateg, 31 år, Sorgenfri;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;6;J;J;I;J;109310;Janne Grönholm;36;M;Malmö;freds- och konfliktvetare,  36 år, Limhamn;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;7;J;J;I;J;109141;Mohamed Yassin;38;M;Malmö;projektledare, 38 år, Värnhem;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;8;J;J;I;J;109312;Ellen Kasimir;24;K;Malmö;lärarstudent, 24 år, Västra hamnen;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;9;J;J;I;J;109146;Karolin Johansson;29;K;Malmö;hållbarhetssamordnare, 28 år, Kulladal;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;10;J;J;I;J;109143;Mårten Espmarker;30;M;Malmö;arkitekt, 29 år, Sorgenfri;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;11;J;J;I;J;109134;Louise Arndt;32;K;Malmö;arbetsförmedlare, 32 år, Dammfri;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;12;J;J;I;J;109147;Kami Petersen;42;M;Malmö;politisk sekreterare, 42 år, Rådmansvången;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;13;J;J;I;J;109138;Asma Saleh;51;K;Malmö;biomedicinsk analytiker, 51 år, Fosie;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;14;J;J;I;J;20824;Jouni Borglund;37;M;Malmö;socionom, 37 år, Värnhem;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;15;J;J;I;J;109319;Marie Ridell;42;K;Malmö;socionom, 42 år, Limhamn;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;16;J;J;I;J;109137;Lutfi Zuta;41;M;Malmö;it-tekniker, 41 år, Rosengård;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;17;J;J;I;J;20829;Isabella Iman Al khafaji;25;K;Malmö;förskollärare, 25 år, Möllevången;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;18;J;J;I;J;109322;Lucas Carlsson;47;M;Malmö;systemutvecklare, 47 år, Fågelbacken;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;19;J;J;I;J;109148;Kristina Aurell;51;K;Malmö;socionom, 51 år, Västra hamnen;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;20;J;J;I;J;109139;Malte Roos;24;M;Malmö;språkrör Gröna Studenter, 24 år, Kirseberg;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;21;J;J;I;J;109149;Emelie Edström;28;K;Malmö;planarkitekt, 28 år, Östra Sorgenfri;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;22;J;J;I;J;109326;Andreas Holmgren;46;M;Malmö;hållbarhetschef, 46 år, Kirseberg;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;23;J;J;I;J;109327;Annika Elwert;33;K;Malmö;forskare, 33 år, Östervärn;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;24;J;J;I;J;109328;Gustav Svanborg Edén;38;M;Malmö;skateboardsamordnare, 38 år, Rådmansvången;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;25;J;J;I;J;109329;Liselotte Sigurd;61;K;Malmö;kommunikatör, 61 år, Limhamn;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;26;J;J;I;J;109330;Carl-Erik Flodmark;62;M;Malmö;barnläkare, 62 år, Ribersborg;300000;;J
+K;1280;Malmö;01;Malmö Östra;Miljöpartiet de gröna;MP;55;S;13083;27;J;J;I;J;145920;Michael-Jay Andersson;31;M;Malmö;förskollärare, 31 år, Limhamn;300000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;1;J;J;I;J;58086;Torbjörn Tegnhammar;36;M;Malmö;36 år, oppositionsråd;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;2;J;J;I;J;58087;Noria Manouchi;27;K;Malmö;27 år, ledsagare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;3;J;J;I;J;58088;Håkan Fäldt;67;M;Malmö;67 år, konsult;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;4;J;J;I;J;58089;John Roslund;49;M;Malmö;49 år, lärare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;5;J;J;I;J;58090;Helena Nanne;26;K;Malmö;26 år, personalvetare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;6;J;J;I;J;58091;Tony Rahm;31;M;Malmö;31 år, civilekonom;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;7;J;J;I;J;58092;John Eklöf;27;M;Malmö;27 år, studerande;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;8;J;J;I;J;58093;Anja Sonesson;44;K;Malmö;44 år, jur. kand.;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;9;J;J;I;J;58094;Nicola Rabi;51;M;Malmö;50 år, marknadsekonom;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;10;J;J;I;J;58095;Peter Ollén;59;M;Malmö;59 år, förläggare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;11;J;J;I;J;58096;Josefin Anselmsson;34;K;Malmö;34 år, fil. master;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;12;J;J;I;J;58097;David Blomgren;45;M;Malmö;45 år, småföretagare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;13;J;J;I;J;58098;Helena Grahn;34;K;Malmö;34 år, hovmästare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;14;J;J;I;J;58099;Farishta Sulaiman;25;K;Malmö;25 år, studerande;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;15;J;J;I;J;58100;Linda Obiedzinski;19;K;Malmö;19 år, studerande;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;16;J;J;I;J;58101;Niclas Röhr;50;M;Malmö;49 år, creative director;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;17;J;J;I;J;58102;Olof Lavesson;42;M;Malmö;42 år, riksdagsledamot;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;18;J;J;I;J;58103;Andreas Bruzelius;37;M;Malmö;37 år, civilekonom;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;19;J;J;I;J;58104;Lilian Gerleman;69;K;Malmö;69 år, f.d. kammaråklagare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;20;J;J;I;J;58105;Darko Simic;30;M;Malmö;30 år, ombudsman;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;21;J;J;I;J;58106;Ingrid Gunnarson;74;K;Malmö;74 år, konsult;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;22;J;J;I;J;58107;Göran Wiberg;70;M;Malmö;70 år, f.d. revisor;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;23;J;J;I;J;58108;Mohammad Mohammad;58;M;Malmö;58 år, civilingenjör;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;24;J;J;I;J;58109;Sasha Steneram;21;K;Malmö;21 år, studerande;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;25;J;J;I;J;58110;Mats Brogren;56;M;Malmö;56 år, företagare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;26;J;J;I;J;58111;Linda Dahlberg Wirje;32;K;Malmö;32 år, pol. kand.;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;27;J;J;I;J;58112;Anna Adell;67;K;Malmö;67 år, leg. tandläkare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;28;J;J;I;J;58113;Julija Radeson Lindeberg;48;K;Malmö;48 år, biträdande rektor;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;29;J;J;I;J;58114;Danica Srnic;62;K;Malmö;62 år, lärare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;30;J;J;I;J;58115;Peter Langerbeck;60;M;Malmö;60 år, ekonom;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;31;J;J;I;J;58116;Peter J Olsson;60;M;Malmö;60 år, redaktör;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;32;J;J;I;J;58117;Henrik Jönsson;43;M;Malmö;43 år, entreprenör;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;33;J;J;I;J;58118;Petter Naef;47;M;Malmö;47 år, fil. mag. informationslogistik;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;34;J;J;I;J;58119;Roger Parmstrand;63;M;Malmö;63 år, egenföretagare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;35;J;J;I;J;58120;Oskar Månsson;18;M;Malmö;18 år, studerande;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;36;J;J;I;J;58121;Ulf Staafgård;71;M;Malmö;70 år, fil. kand.;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;37;J;J;I;J;58122;Carl Hammarström;35;M;Malmö;35 år, företagare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;38;J;J;I;J;58123;Oscar Hill;19;M;Malmö;19 år, studerande;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;39;J;J;I;J;58124;Kerstin Svenonius;70;K;Malmö;70 år, skattehandläggare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;40;J;J;I;J;58125;Peter Österlin;66;M;Malmö;66 år, marknadsekonom;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;41;J;J;I;J;58126;Katarina Kasmarvik;31;K;Malmö;31 år, lärare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;42;J;J;I;J;58127;Robert Lenir;56;M;Malmö;56 år, rekryterare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;43;J;J;I;J;58128;Tina Hill;33;K;Malmö;33 år, projektledare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;44;J;J;I;J;58129;Bertil Lindberg;67;M;Malmö;67 år, civilingenjör;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;45;J;J;I;J;58130;Richard Nicander;49;M;Malmö;49 år, företagare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;46;J;J;I;J;58131;Ragnhild Ståleker;73;K;Malmö;73 år, diplomerad projektledare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;47;J;J;I;J;58132;Cecilia Barwén;53;K;Malmö;53 år, servicekoordinator;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;48;J;J;I;J;58133;Viveka Hägg;71;K;Malmö;71 år, ekonom;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;49;J;J;I;J;58134;Pernilla Röjner;46;K;Malmö;46 år, verksamhetschef;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;50;J;J;I;J;58135;Haqvin Svensson;68;M;Malmö;68 år, civilekonom;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;51;J;J;I;J;58136;Ahmad Jaro;43;M;Malmö;43 år, fritidspedagog;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;52;J;J;I;J;58137;Åsa Nilsson;54;K;Malmö;54 år, redovisningskonsult;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;53;J;J;I;J;58138;Erik Herslow Bergman;46;M;Malmö;46 år, ek. mag.;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;54;J;J;I;J;58139;Claes Holmerup;53;M;Malmö;53 år, serviceingenjör;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;55;J;J;I;J;58140;Gull-Maj Banke;74;K;Malmö;74 år, jur. kand.;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;56;J;J;I;J;58141;Dejan Ecimovic;43;M;Malmö;43 år, handläggare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;57;J;J;I;J;58142;Anastasia Permiakova;29;K;Malmö;29 år, trafikutvecklare;764000;;J
+K;1280;Malmö;01;Malmö Östra;Moderaterna;M;1;S;12558;58;J;J;I;J;58143;Lars-Göran Jönsson;56;M;Malmö;56 år, IT-konsult;764000;;J
+K;1280;Malmö;01;Malmö Östra;Piratpartiet;PP;524;S;15310;1;J;J;I;J;449491;Christoffer Eldengrip;28;M;Malmö;28;100000;;J
+K;1280;Malmö;01;Malmö Östra;Piratpartiet;PP;524;S;15310;2;J;J;I;J;449492;Michaela Ljungstrand;19;K;Göteborg;19;100000;;J
+K;1280;Malmö;01;Malmö Östra;Piratpartiet;PP;524;S;15310;3;J;J;I;J;449493;Ronny Nord;35;M;Malmö;36;100000;;J
+K;1280;Malmö;01;Malmö Östra;Piratpartiet;PP;524;S;15310;4;J;J;I;J;449494;Alicia Deodorson;23;K;Malmö;24;100000;;J
+K;1280;Malmö;01;Malmö Östra;Piratpartiet;PP;524;S;15310;5;J;J;I;J;449495;Jerry Hjort;26;M;Kalix;26;100000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;1;J;J;I;J;428414;Maude Holmgren;75;K;Malmö;Samtalsterapeut;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;2;J;J;I;J;428415;Lennart Hoff;80;M;Malmö;Datakonsult;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;3;J;J;I;J;428409;Britt Borronha;76;K;Malmö;Undersköterska;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;4;J;J;I;J;428410;Horst Werder;87;M;Malmö;Sjökapten;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;5;J;J;I;J;428420;Britt Jönsson;77;K;Malmö;Pensionär;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;6;J;J;I;J;428417;Wanda Vesterberg;63;K;Malmö;Affärsbiträde;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;7;J;J;I;J;428419;Inger Johansson;73;K;Malmö;Kontorist;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;8;J;J;I;J;428413;Andreas Karlsson;35;M;Malmö;Byggföretagare;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;9;J;J;I;J;428422;Lisbeth Persson;68;K;Malmö;Ekonomiassistent;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;10;J;J;I;J;428418;José Borronha;86;M;Malmö;Montör;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;11;J;J;I;J;428421;Sven Nilsson;82;M;Malmö;Förvaltare;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;12;J;J;I;J;428425;Berthil Larsson;78;M;Malmö;Försäljare;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;13;J;J;I;J;428424;Marianne Månsson;76;K;Malmö;Pensionär;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;14;J;J;I;J;428427;Inga-Lill Kristoffersson;82;K;Malmö;Kontorist;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;15;J;J;I;J;428429;Rut Mårtensson;88;K;Malmö;Pensionär;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;16;J;J;I;J;428605;Sven Olsson;81;M;Malmö;IT-företagare;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;17;J;J;I;J;428431;Jane Brandin-Nielsen;71;K;Malmö;Pensionär;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;18;J;J;I;J;428428;Gunvor Walter;81;K;Malmö;Undersköterska;80000;;J
+K;1280;Malmö;01;Malmö Östra;SKÅNEPARTIET;SKÅ;54;S;15250;19;J;J;I;J;428432;Åke Johannesson;71;M;Malmö;Representant;80000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;1;J;J;I;J;66796;Magnus Olsson;42;M;Malmö;Kommunalråd, 42;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;2;J;J;I;J;66797;Jörgen Grubb;56;M;Malmö;Projektledare, 56;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;3;J;J;I;J;66798;Lisbeth Persson-Ekström;66;K;Malmö;Systemförvaltare, 66;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;4;J;J;I;J;66799;Anders Olin;50;M;Malmö;Riksombudsman, 50;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;5;J;J;I;J;66800;Eva Hallén;61;K;Malmö;Undersköterska, 62;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;6;J;J;I;J;66801;Rickard Åhman-Persson;65;M;Malmö;Jurist, 66;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;7;J;J;I;J;66802;Nima Gholam Ali Pour;36;M;Malmö;Politisk sekreterare, 36;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;8;J;J;I;J;66803;Stefan Plath;48;M;Malmö;Systemadministratör, 48;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;9;J;J;I;J;66804;Lars-Johan Hallgren;46;M;Malmö;Säljare, 46;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;10;J;J;I;J;66805;Anders Pripp;57;M;Malmö;Byggnadsarbetare, 57;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;11;J;J;I;J;66806;Ilvars Hansson;71;M;Malmö;Elektroingenjör, 71;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;12;J;J;I;J;66807;Anna Isaksson;31;K;Malmö;Tågvärd, 31;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;13;J;J;I;J;66808;Michael Hård af Segerstad;41;M;Malmö;Reparatör, 41;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;14;J;J;I;J;66809;Stefan Claesson;69;M;Malmö;Pensionär, 69;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;15;J;J;I;J;66810;Håkan Ask;52;M;Malmö;Brandman, 52;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;16;J;J;I;J;66811;Patrick Angelin;42;M;Malmö;Service agent, 42;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;17;J;J;I;J;66812;Nadja Strand;73;K;Malmö;Pensionär, 72;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;18;J;J;I;J;66813;Christer Bengtsson;62;M;Malmö;Socionom, 62;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;19;J;J;I;J;66814;Alexander Lagerroth;34;M;Malmö;Studerande, 34;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;20;J;J;I;J;66815;Jane Olin;48;K;Malmö;Stödassistent, 48;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;21;J;J;I;J;66816;Christer Persson;71;M;Malmö;Servicetekniker, 71;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;22;J;J;I;J;66817;Stefan Greschner;58;M;Malmö;Brandman, 58;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;23;J;J;I;J;66818;Håkan Andersson;47;M;Malmö;Maskiningenjör, 47;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;24;J;J;I;J;66819;Britt-Marie Nilsson;57;K;Malmö;Verksamhetsledare, 57;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;25;J;J;I;J;66820;Rolf Hansson;70;M;Malmö;Byggnadsingenjör, 70;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;26;J;J;I;J;66821;Ola Johansson;40;M;Malmö;Väktare, 40;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;27;J;J;I;J;66822;Peter Edlund;70;M;Malmö;Polisintendent, 70;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;28;J;J;I;J;66823;Michael Pleym;59;M;Malmö;Åklagare, 59;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;29;J;J;I;J;66824;Ulf Blomström;38;M;Malmö;Fabriksarbetare, 38;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;30;J;J;I;J;66825;Staffan Appelros;67;M;Malmö;Direktör, 67;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;31;J;J;I;J;66827;Kurre Halvardsson;78;M;Malmö;Ingenjör, 78;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;32;J;J;I;J;66828;Åsa Ahnfeldt;52;K;Malmö;Projektadministratör, 52;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;33;J;J;I;J;66829;Christer Arkemyr;62;M;Malmö;Pensionär, 62;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;34;J;J;I;J;66830;Mette Lisberg;54;K;Malmö;Verksamhetsassistent, 54;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;35;J;J;I;J;66831;Hanna Grubb;18;K;Malmö;Studerande, 18;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;36;J;J;I;J;66832;Ortwin Lobbes;74;M;Malmö;Tekniker, 74;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;37;J;J;I;J;66833;Robert Nilsson;58;M;Malmö;Flygtrafikplanerare, 58;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;38;J;J;I;J;66834;Regina Harwigsson;59;K;Malmö;Kock, 59;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;39;J;J;I;J;66835;Bo-Eric Andersson;60;M;Malmö;Bussförare, 61;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;40;J;J;I;J;66836;Peter Jangbro;61;M;Malmö;Undersköterska, 61;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;41;J;J;I;J;66837;Nichodemus Nilsson;26;M;Malmö;Förrådsarbetare, 26;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;42;J;J;I;J;66838;Stefan Kramer;43;M;Malmö;Sjukpensionär, 43;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;43;J;J;I;J;66839;Bengt Metz;68;M;Malmö;Elektronikingenjör, 68;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;44;J;J;I;J;66840;George Florea;28;M;Malmö;Teoretisk fysiker, 28;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;45;J;J;I;J;66841;Marie Löfgren;56;K;Malmö;Redovisningskonsult, 56;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;46;J;J;I;J;66842;Lillebror Bruér;58;M;Malmö;Tatuerare, 58;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;47;J;J;I;J;66843;Gustav Kjellström;26;M;Malmö;Pilot, 26;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;48;J;J;I;J;66844;Jan Danielsson;67;M;Malmö;Ekonom, 66;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;49;J;J;I;J;66845;Jeanette Karlsson;57;K;Malmö;Lagerarbetare, 57;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;50;J;J;I;J;66846;Michell Milovansson;60;M;Malmö;Parkeringsvakt, 60;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;51;J;J;I;J;66847;Mikael Blomqvist;39;M;Malmö;Egenföretagare, 39;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;S;12692;52;J;J;I;J;66848;Sven Sandram;81;M;Malmö;Pensionär, 81;764000;;J
+K;1280;Malmö;01;Malmö Östra;Sverigedemokraterna;SD;110;;;;J;J;I;N;515948;[inte lämnat förklaring];;;;;0;;N
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;1;N;J;J;I;494056;Victor Diaz De Filipi;41;M;Malmö;rivningsarbetare;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;2;N;J;J;I;494046;Jan Jönsson;73;M;Malmö;byggnadsarbetare;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;3;N;J;J;I;494058;Mohammad Nourozi;71;M;Malmö;lagerarbetare;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;4;N;J;J;I;494049;Lilliana De Filippi;76;K;Malmö;lokalvårdare;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;5;N;J;J;I;494060;Charlie Paulsson;31;M;Malmö;översättare;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;6;N;J;J;I;494055;Ljubomir T. Devic;48;M;Malmö;lärare;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;7;N;J;J;I;494062;Elisabeth Maturana;62;K;Malmö;lokalvårdare;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;8;N;J;J;I;494063;Ioannis Papadopoulos;55;M;Malmö;plattsättare;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;9;N;J;J;I;494053;Manoochehr Kiani;72;M;Malmö;cykelreparatör;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;10;N;J;J;I;494065;Nahuel Treuquepán Pozo;39;M;Malmö;elevassistent;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;11;N;J;J;I;494066;Håkan Jönsson;34;M;Malmö;byggnadsarbetare;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;12;N;J;J;I;494051;Omel Hussain Sahil;48;K;Malmö;personligassistent;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;13;N;J;J;I;494068;Gürsel Karlidag;40;M;Malmö;renhållningsarbetare;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;14;N;J;J;I;494069;Peter Sjöholm;33;M;Malmö;industriarbetare;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;15;N;J;J;I;494070;Ivan Fouladvand;74;M;Malmö;försäljare;25000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Nationella Demokratiska Parti;;339;S;15549;1;N;J;J;I;494204;Pawel Grunneholm;58;M;Malmö;gymnasiumingenjör;8000;;J
+K;1280;Malmö;01;Malmö Östra;Sveriges Nationella Demokratiska Parti;;339;S;15549;2;N;J;J;I;494205;Krzysztof Mazur;55;M;Malmö;lagerarbetare;8000;;J
+K;1280;Malmö;01;Malmö Östra;TRYGGHETSPARTIET;TRP;1309;S;15267;1;J;J;I;J;431298;Sigbritt Sjöstrand;71;K;Malmö;Civ. utr. polisen, Malmö;310000;;J
+K;1280;Malmö;01;Malmö Östra;TRYGGHETSPARTIET;TRP;1309;S;15267;2;J;J;I;J;431287;Jan O Pålsson;72;M;Malmö;Ingenjör, Malmö;310000;;J
+K;1280;Malmö;01;Malmö Östra;TRYGGHETSPARTIET;TRP;1309;S;15267;3;J;J;I;J;431303;Bertil Gyllencreutz;78;M;Malmö;Ekonom, Malmö;310000;;J
+K;1280;Malmö;01;Malmö Östra;TRYGGHETSPARTIET;TRP;1309;S;15267;4;J;J;I;J;431315;Nancy Thern;78;K;Malmö;Modedirektris, Malmö;310000;;J
+K;1280;Malmö;01;Malmö Östra;TRYGGHETSPARTIET;TRP;1309;S;15267;5;J;J;I;J;431319;Lennart Nilsson;74;M;Malmö;Civilekonom;310000;;J
+K;1280;Malmö;01;Malmö Östra;TRYGGHETSPARTIET;TRP;1309;S;15267;6;J;J;I;J;431314;Sonny Jenfjord;79;M;Malmö;Konsult, Malmö;310000;;J
+K;1280;Malmö;01;Malmö Östra;TRYGGHETSPARTIET;TRP;1309;S;15267;7;J;J;I;J;431987;Kicki Lindgren;74;K;Malmö;Dekoratör, Malmö;310000;;J
+K;1280;Malmö;01;Malmö Östra;TRYGGHETSPARTIET;TRP;1309;S;15267;8;J;J;I;J;431988;Siv Wiktorsson;79;K;Malmö;Köpman, Malmö;310000;;J
+K;1280;Malmö;01;Malmö Östra;TRYGGHETSPARTIET;TRP;1309;S;15267;9;J;J;I;J;431312;Else Angeldorff;68;K;Malmö;Sjuksköterska, Malmö;310000;;J
+K;1280;Malmö;01;Malmö Östra;TRYGGHETSPARTIET;TRP;1309;S;15267;10;J;J;I;J;431564;Margareta Ekstrand;75;K;Malmö;Lärare, Malmö;310000;;J
+K;1280;Malmö;01;Malmö Östra;Utveckling och Progressiv för Sverige partiet (U.P.S);;1386;;;;N;J;J;I;512174;Bozbey, Tarik;49;M;Lund;;0;;J
+K;1280;Malmö;01;Malmö Östra;Utveckling och Progressiv för Sverige partiet (U.P.S);;1386;;;;N;J;J;I;512175;Hagos, Michael Belay;30;M;Kävlinge;;0;;J
+K;1280;Malmö;01;Malmö Östra;Utveckling och Progressiv för Sverige partiet (U.P.S);;1386;;;;N;J;J;I;512176;Karlsson, Roddy;57;M;Malmö;;0;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;1;J;J;I;J;186242;Hanna Thomé;42;K;Malmö;kommunalråd, 41 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;2;J;J;I;J;186243;Emma-Lina Johansson;33;K;Malmö;kock, 33 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;3;J;J;I;J;186244;Anders Skans;56;M;Malmö;förskollärare, 56 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;4;J;J;I;J;186245;Daniel Sestrajcic;42;M;Malmö;aktivist, 43 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;5;J;J;I;J;186246;Sadiye Altundal;37;K;Malmö;utvecklingssamordnare, 37 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;6;J;J;I;J;186247;Gunilla Ryd;70;K;Malmö;pensionär, 70 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;7;J;J;I;J;186248;Anders Andersson;57;M;Malmö;undersköterska, 57 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;8;J;J;I;J;186249;Boel Pettersson;45;K;Malmö;lärare, 45 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;9;J;J;I;J;186250;Carin Gustafsson;35;K;Malmö;logoped, 35 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;10;J;J;I;J;186251;Showan Shattak;29;M;Malmö;verksamhetsutvecklare ABF, 29 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;11;J;J;I;J;186252;Lisa Stolpe;35;K;Malmö;lärare, 35 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;12;J;J;I;J;186253;Joel Nordström;26;M;Malmö;student, 26 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;13;J;J;I;J;186254;Elisavet Johansson Tziampazis;28;K;Malmö;projektledare, 28 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;14;J;J;I;J;186255;Tobias Petersson;38;M;Malmö;handläggare - internationellt bistånd, 38 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;15;J;J;I;J;186256;Carlos González;67;M;Malmö;lärare, 67 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;16;J;J;I;J;186257;Susanne Adielsson;45;K;Malmö;stödassistent LSS, 72 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;17;J;J;I;J;186258;Ulrika Williamsson;55;K;Malmö;fabriksarbetare, 55 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;18;J;J;I;J;186259;Susanne Björkenheim;73;K;Malmö;pensionär, 73 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;19;J;J;I;J;186260;Busi Dimitriu;39;K;Malmö;politisk sekreterare, 39 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;20;J;J;I;J;186261;Mirjam Katzin;31;K;Malmö;jurist, 31 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;21;J;J;I;J;186262;Fiona Winders;57;K;Malmö;utvecklingssamordnare, 57 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;22;J;J;I;J;186263;Jeanette Stojic;36;K;Malmö;svetsare/montör, 36 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;23;J;J;I;J;186264;Anton Flink;73;M;Malmö;pensionär, 73 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;24;J;J;I;J;186265;Stephen Krauss;70;M;Malmö;pensionär, 70 år.;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;25;J;J;I;J;128121;Linda Sjöö;43;K;Malmö;församlingspedagog, 43 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;26;J;J;I;J;186267;Birgitta Ehlin;73;K;Malmö;pensionär, 73 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;27;J;J;I;J;186268;Gunnel Suneson;31;K;Malmö;skolkurator, 31 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;28;J;J;I;J;186269;Patrik Strand;54;M;Malmö;undersköterska, 54 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;29;J;J;I;J;186270;Bente Holmen;64;K;Malmö;butiksbiträde, 64 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;30;J;J;I;J;186271;Mikael Andersson;60;M;Malmö;projektutvecklare, 43 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;31;J;J;I;J;186272;Anna Angantyr;43;K;Malmö;folkhögskolelärare, 43 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;32;J;J;I;J;186273;Jerry Segerberg;39;M;Malmö;skådespelare, 39 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;33;J;J;I;J;186274;Mansour Kafi;55;M;Malmö;tolk, 55 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;34;J;J;I;J;186275;Mats Billberg Johansson;65;M;Malmö;projektledare, 65 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;35;J;J;I;J;186276;Matilda Gradin;42;K;Malmö;naturguide, 42 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;36;J;J;I;J;186277;Lorena Mariel Törnlycke;42;K;Malmö;sjuksköterska, 42 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;37;J;J;I;J;186278;Maria Kållberg;60;K;Malmö;journalist, 60 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;38;J;J;I;J;186279;Hedvig Lärka;24;K;Malmö;student, 24 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;39;J;J;I;J;186280;Sara Nilsson Mohammadi;35;K;Malmö;psykolog, 35 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;40;J;J;I;J;186281;Anders Neergaard;55;M;Malmö;universitetslärare, 55 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;41;J;J;I;J;186282;Ana Süssner Rubin;38;K;Malmö;arbetsrättsjurist, 38 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;42;J;J;I;J;186283;Ola Brunnström;40;M;Malmö;lokförare, 40 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;43;J;J;I;J;186284;Oliver Sneath;26;M;Malmö;elektriker, 26 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;44;J;J;I;J;186285;Alexandra Thomasson;39;K;Malmö;folkhälsovetare, 39 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;45;J;J;I;J;186286;Linn Fristedt;27;K;Malmö;vårdbiträde, 27 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;46;J;J;I;J;186287;Maria Persdotter;30;K;Malmö;doktorand, 30 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;47;J;J;I;J;186288;Momodou Malcolm Jallow;42;M;Malmö;riksdagsledamot, 42 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;48;J;J;I;J;186289;Lina Myritz;37;K;Malmö;läkare, 37 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;49;J;J;I;J;186290;Carl Aragón;41;M;Malmö;ombudsman, 41 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;50;J;J;I;J;186291;Lars-Göran Ahlström;82;M;Malmö;pensionär, 82 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;51;J;J;I;J;186292;Linda Svensson;43;K;Malmö;ombudsman transport, 43 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;52;J;J;I;J;186293;Mats Högelius;67;M;Malmö;präst, 67 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;53;J;J;I;J;186294;Ingemar Ekblad;34;M;Malmö;lärare, 34 år;384000;;J
+K;1280;Malmö;01;Malmö Östra;Vänsterpartiet;V;5;S;13698;54;J;J;I;J;186295;Pål Brunnström;44;M;Malmö;historiker, 44 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;1;J;J;I;J;66434;Katrin Stjernfeldt Jammeh;44;K;Malmö;Kommunstyrelsens ordförande;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;2;J;J;I;J;28296;Andreas Schönström;42;M;Malmö;Kommunalråd;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;3;J;J;I;J;66436;Frida Trollmyr;39;K;Malmö;Kommunalråd;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;4;J;J;I;J;66437;Anders Rubin;54;M;Malmö;Kommunalråd;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;5;J;J;I;J;66438;Carina Nilsson;59;K;Malmö;Kommunalråd;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;6;J;J;I;J;28111;Sedat Arif;35;M;Malmö;Kommunalråd;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;7;J;J;I;J;66440;Elin Kramer;27;K;Malmö;Ungdomssekreterare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;8;J;J;I;J;28089;Mubarik Mohamed Abdirahman;35;M;Malmö;Sekreterare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;9;J;J;I;J;28100;Rose-Marie Carlsson;63;K;Malmö;Undersköterska;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;10;J;J;I;J;28306;Ilmar Reepalu;74;M;Malmö;Arkitekt;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;11;J;J;I;J;66444;Sofia Hedén;42;K;Malmö;Lärare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;12;J;J;I;J;66445;Björn Gudmundsson;57;M;Malmö;Ombudsman;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;13;J;J;I;J;28297;Carina Svensson;59;K;Malmö;Skötare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;14;J;J;I;J;66447;Juan-Tadeo Espitia;58;M;Malmö;Fritidspedagog;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;15;J;J;I;J;66448;Eva Sjöstedt;74;K;Malmö;Pensionär;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;16;J;J;I;J;28103;Arwin Sohrabi;24;M;Malmö;Studerande;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;17;J;J;I;J;66450;Christina Wessling;69;K;Malmö;Pensionär;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;18;J;J;I;J;66451;Jan Olsson;66;M;Malmö;Ombudsman;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;19;J;J;I;J;28102;Mediha Ahmadi Pir Hosseinian;28;K;Malmö;Projektledare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;20;J;J;I;J;66453;Dündar Güngör;47;M;Malmö;Egen företagare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;21;J;J;I;J;28108;Susanne Jönsson;60;K;Malmö;Undersköterska;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;22;J;J;I;J;66455;Harris Cheema;27;M;Malmö;Studerande;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;23;J;J;I;J;28106;Sanna Axelsson;34;K;Malmö;Verksamhetsutvecklare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;24;J;J;I;J;66457;Anders Nilsson;64;M;Malmö;Pensionär;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;25;J;J;I;J;66458;Emilie Malm;37;K;Malmö;Jurist;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;26;J;J;I;J;66459;Peter Johansson;56;M;Malmö;Kontorist;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;27;J;J;I;J;66460;Birgit Hansson;67;K;Malmö;VD;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;28;J;J;I;J;66461;Mats Sjölin;55;M;Malmö;Terminalarbetare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;29;J;J;I;J;28110;Anna-Karin Bengtsdotter;50;K;Malmö;Fritidspedagog;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;30;J;J;I;J;66463;Sven-Erik Rasmusson;66;M;Malmö;Pensionär;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;31;J;J;I;J;28315;Electra Ververidis;23;K;Malmö;Ombudsman;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;32;J;J;I;J;66465;Jean Pierre Denape;45;M;Malmö;Forskarstuderande;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;33;J;J;I;J;66466;Lirije Latifi;61;K;Malmö;Administratör;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;34;J;J;I;J;66467;Hasse Hajar;32;M;Malmö;Fastighetsförvaltare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;35;J;J;I;J;66468;Vanja Andersson;38;K;Malmö;Försäkringsutredare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;36;J;J;I;J;28312;Stefan Pinjefors;38;M;Malmö;Tågvärd;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;37;J;J;I;J;66470;Eva Jönsson;61;K;Malmö;Familjebehandlare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;38;J;J;I;J;66471;Kostadin Cavdarovski;43;M;Malmö;Industriarbetare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;39;J;J;I;J;28311;Teba Awni;23;K;Malmö;Studerande;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;40;J;J;I;J;66473;Jonas Michanek;44;M;Malmö;Entreprenör;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;41;J;J;I;J;66474;Gaby Wallström;58;K;Malmö;Egen företagare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;42;J;J;I;J;66475;Nihad Pasalic;46;M;Malmö;Tjänsteman;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;43;J;J;I;J;66476;Therese Lindberg;43;K;Malmö;Barnskötare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;44;J;J;I;J;28101;Johan Sjöstrand;42;M;Malmö;Lagerarbetare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;45;J;J;I;J;66478;Neziya Rahman;43;K;Malmö;Livsmedelsarbetare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;46;J;J;I;J;66479;Fehim Yilmas;57;M;Malmö;Busschafför;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;47;J;J;I;J;28327;Rifqa Al-Sammarraie;21;K;Malmö;Studerande;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;48;J;J;I;J;66481;Akeel Abdul-Amir;55;M;Malmö;Lärare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;49;J;J;I;J;66482;Lilian Ekvall;74;K;Malmö;Pensionär;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;50;J;J;I;J;66483;Fredrik Egefur;43;M;Malmö;Arkivarie;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;51;J;J;I;J;66484;Linnea Jacobsson;28;K;Malmö;Studerande;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;52;J;J;I;J;28105;Rizwan Elahi;29;M;Malmö;Studerande;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;53;J;J;I;J;66486;Barbro Erlström;68;K;Malmö;Pensionär;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;54;J;J;I;J;66487;Martin Hjort;47;M;Malmö;Ekonom;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;55;J;J;I;J;66488;Alisar El-Haj;24;K;Malmö;Lärare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;56;J;J;I;J;66489;Shaip Morina;53;M;Malmö;Fritidsledare;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;57;J;J;I;J;66490;Pernilla Hagen;52;K;Malmö;Undersköterska;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;58;J;J;I;J;66491;Joseph Prai;47;M;Malmö;IT-tekniker;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;59;J;J;I;J;177055;Anette Ellis;58;K;Malmö;Divisionschef;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Arbetarepartiet-Socialdemokraterna;S;2;S;12683;60;J;J;I;J;177056;Klas Abelson;42;M;Malmö;Universitetslektor;1000000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;1;J;J;I;J;8512;Niels Paarup-Petersen;40;M;Malmö;40, Konsult;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;2;J;J;I;J;35607;Charlotte Bossen;31;K;Malmö;31, Statstjänsteman;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;3;J;J;I;J;35610;Anton Sauer;24;M;Malmö;24, Lärare;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;4;J;J;I;J;35609;Kay Wictorin;73;M;Malmö;73, Pensionär;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;5;J;J;I;J;35611;Michaela Esseen;30;K;Malmö;30, Försäkringstjänsteman;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;6;J;J;I;J;35613;Adnan Bibic;43;M;Malmö;43, Fysiker;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;7;J;J;I;J;8543;Warda Fatih;23;K;Lund;23, Läkarstudent;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;8;J;J;I;J;35615;Joacim Ahlqvist;36;M;Malmö;35, Statstjänsteman;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;9;J;J;I;J;39260;Heinz Wellershaus;54;M;Malmö;54, Civilingenjör;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;10;J;J;I;J;35608;Nancy Diaz-Afzali;34;K;Malmö;34, Enhetschef;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;11;J;J;I;J;39272;Magnus Thulin;35;M;Malmö;35, Civilekonom/egenföretagare;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;12;J;J;I;J;39254;Martin Molin;29;M;Malmö;29, Trafikplanerare;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;13;J;J;I;J;35622;Gunnel Kristiansson;70;K;Malmö;70, Sjuksköterska;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;14;J;J;I;J;35624;Albin Westermark;23;M;Malmö;23, Verksamhetskoordinator;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;15;J;J;I;J;35617;Evelina Reuterfors;22;K;Malmö;22, Verksamhetsledare;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;16;J;J;I;J;35629;Bengt Svensson;65;M;Malmö;64, Civilingenjör;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;17;J;J;I;J;35612;Andreas Asker;38;M;Malmö;38, Civilingenjör;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;18;J;J;I;J;35616;Erika Hedblom;42;K;Malmö;42, Projektledare;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;19;J;J;I;J;39261;Hanna Edwards;25;K;Malmö;25, Samhällsvetare;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;20;J;J;I;J;35626;Rasmus Carlsson;43;M;Malmö;43, IT-konsult;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;21;J;J;I;J;39269;Sapko Sinani;36;M;Malmö;36, VD;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;22;J;J;I;J;35633;Halid Osman;64;M;Malmö;65, Egenföretagare;772000;;J
+K;1280;Malmö;02;Malmö Västra;Centerpartiet;C;4;S;12465;23;J;J;I;J;39271;Maria Ekstrand;55;K;Malmö;51, Kommunikationsstrateg;772000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;1;J;J;I;J;219325;Jonna Böhler;28;K;Malmö;28 år, Lärarstudent;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;2;J;J;I;J;406790;Reza Sharifi;32;M;Malmö;32 år, Sektionschef;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;3;J;J;I;J;406791;Tilde Sand;18;K;Malmö;18 år, Student;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;4;J;J;I;J;406792;Camilla Hidalgo Hernandez;24;K;Malmö;24 år, Student;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;5;J;J;I;J;219307;Toktam Jahangiry;44;K;Malmö;44 år, Utbildare om våld i nära relationer;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;6;J;J;I;J;406794;Hanna Bergman;22;K;Malmö;22 år, Student;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;7;J;J;I;J;219328;Joel Boni;57;M;Malmö;57 år, Lärare;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;8;J;J;I;J;406796;Amanda Sköld;19;K;Malmö;19 år, Student;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;9;J;J;I;J;219324;Myriam Gomez Lattes;51;K;Malmö;51 år, Personlig assistent;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;10;J;J;I;J;406798;Ahmad Abonahleh;40;M;Malmö;40 år, Kundresurs;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;11;J;J;I;J;406799;Sanne Petersson;28;K;Malmö;28 år, Arbetssökande;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;12;J;J;I;J;406800;Lillian Bailey;35;K;Malmö;35 år, Stödassistent inom LSS;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;13;J;J;I;J;219317;Elham Ahmadi;19;K;Malmö;19 år, Student;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;14;J;J;I;J;406802;Veronika Rangin;32;K;Malmö;32 år, Student/egenföretagare;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;15;J;J;I;J;406803;Linus Fast;38;M;Malmö;38 år, Bostadspolitisk utvecklare;150000;;J
+K;1280;Malmö;02;Malmö Västra;Feministiskt initiativ;FI;532;S;15160;16;J;J;I;J;406804;Beata Sjöstedt;28;K;Malmö;28 år, Student;150000;;J
+K;1280;Malmö;02;Malmö Västra;Folkhemmet Sverige;;1388;;;;N;J;J;I;515659;Axelsson Horstmann, Christopher;35;M;Malmö;;0;;J
+K;1280;Malmö;02;Malmö Västra;Initiativet;;1374;;;;N;J;J;I;415128;Waller, Jakob Olof;41;M;Malmö;;0;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;1;J;J;I;J;31794;Torsten Elofsson;67;M;Malmö;67 år, fd Polisintendent, Innerstaden;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;2;J;J;I;J;31797;Martin Hallander;25;M;Malmö;25 år, Politisk sekreterare, Dammfri;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;3;J;J;I;J;31801;Eleonor Vinciguerra;37;K;Malmö;37 år, Informatör, Bunkeflostrand;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;4;J;J;I;J;31803;Lars Lindqvist;65;M;Malmö;65 år, Senior advisor, Dockan;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;5;J;J;I;J;31733;Robin Persson;21;M;Malmö;21 år, Museiassistent, Lindeborg;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;6;J;J;I;J;62314;Monika Jensen;66;K;Malmö;66 år, Pensionär, Dalaplan;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;7;J;J;I;J;31808;Josef Ander;34;M;Malmö;34 år, Polis, Rosengård;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;8;J;J;I;J;62316;Aina Ragnarp;82;K;Malmö;82 år, Leg. Sjuksköterska, Gullvik;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;9;J;J;I;J;59409;Tomas Ander;65;M;Malmö;65 år, Redaktör, Gullvik;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;10;J;J;I;J;62318;Linus Owman;45;M;Malmö;45 år, Pol.mag./Konsult, Fridhem;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;11;J;J;I;J;31812;Adele Horn;20;K;Malmö;20 år, Student, Hyllie;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;12;J;J;I;J;62320;Sven Steén;78;M;Malmö;78 år, Posttjänsteman, Fosie;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;13;J;J;I;J;62322;Richard Jensen;62;M;Malmö;62 år, Professionell coach, Dalaplan;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;14;J;J;I;J;62323;Lennart Henrysson;85;M;Malmö;85 år, fd Universitetslektor, Lorensborg;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;15;J;J;I;J;62324;Karolina Rados;28;K;Malmö;28 år, Teamledare, Västra Hamnen;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;16;J;J;I;J;62325;Ingvar Johansson;76;M;Malmö;76 år, Pensionär, Tygelsjö;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;17;J;J;I;J;62326;Anita Steén;70;K;Malmö;70 år, fd Brevbärare, Dalaplan;210000;;J
+K;1280;Malmö;02;Malmö Västra;Kristdemokraterna;KD;68;S;12617;18;J;J;I;J;59478;Roger Sidestam;70;M;Malmö;70 år, Leg. Läkare, Slottsstaden;210000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;1;J;J;I;J;38224;Roko Kursar;32;M;Malmö;Statstjänsteman, 32 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;2;J;J;I;J;38223;Louise Eklund;39;K;Malmö;Doktor i historia, 39 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;3;J;J;I;J;27767;Allan Widman;54;M;Malmö;Riksdagsledamot, 54 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;4;J;J;I;J;38225;Sara Wettergren;46;K;Malmö;Politisk sekreterare, 46 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;5;J;J;I;J;40465;Simon Chrisander;40;M;Malmö;Marknadsförare, 40 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;6;J;J;I;J;38744;Ewa Bertz;70;K;Malmö;F.d. egen företagare, 70 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;7;J;J;I;J;38227;Joel Laguna;41;M;Malmö;Statstjänsteman, 41 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;8;J;J;I;J;38228;Linda Eklund;25;K;Malmö;Ämneslärarstudent, 25 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;9;J;J;I;J;38230;Ulrika Rogland;53;K;Malmö;Advokat, 53 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;10;J;J;I;J;38233;Magnus Hulthe Andersson;37;M;Malmö;Statsvetare, 37 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;11;J;J;I;J;38226;Anneli Bojesson;65;K;Malmö;Civilekonom, 65 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;12;J;J;I;J;38232;Ulla Herbert;77;K;Malmö;Lärare, 77 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;13;J;J;I;J;40473;Narcis Spahovic;50;M;Malmö;Sektionschef, 50 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;14;J;J;I;J;38231;Olle Schmidt;69;M;Malmö;Tidigare EU-parlamentariker, 69 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;15;J;J;I;J;38237;Tore Robertsson;73;M;Malmö;Företagare, 73 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;16;J;J;I;J;38235;Amanda Onsberg Brumark;24;K;Malmö;Statsvetare, marknadsassistent, 24 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;17;J;J;I;J;38234;Lars Hellström;55;M;Malmö;Affärschef, 55 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;18;J;J;I;J;38752;Jacob Branting;48;M;Malmö;Samordnare, 48 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;19;J;J;I;J;38244;Monica Hildingson;65;K;Malmö;Civilingenjör, 65 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;20;J;J;I;J;38236;Alexander Werne;28;M;Malmö;Ingenjör i kemiteknik, 28 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;21;J;J;I;J;38229;Sirwan Dabagh;33;M;Malmö;Trafikingenjör, 33 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;22;J;J;I;J;40483;Håkan Linné;67;M;Malmö;Pensionär, 67 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;23;J;J;I;J;40484;Bo Lindström;82;M;Malmö;Leg. Tandläkare, 82 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;24;J;J;I;J;38241;Arne Bojesson;67;M;Malmö;Civilekonom, 67 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;25;J;J;I;J;38240;Aram Mahmoud;33;M;Malmö;Tjänsteman, 33 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;26;J;J;I;J;38763;Stefan Pettersson;64;M;Malmö;Civilekonom, 64 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;27;J;J;I;J;40488;Marie Jacobsson;38;K;Malmö;Socionom, 38 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;28;J;J;I;J;38762;Ann Christin Gaskell-Brown;75;K;Malmö;Yrkeslärare Gymnasium, 75 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;29;J;J;I;J;40490;Ahmed Keita;31;M;Malmö;Handläggare på Arbetsförmedlingen,31 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;30;J;J;I;J;38239;Marianne Friedman;62;K;Malmö;Kurator i Region Skåne, 62 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;31;J;J;I;J;38243;Sofia Borg;54;K;Malmö;Kanslist på Liberalerna, 54 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;32;J;J;I;J;38246;Gun Rosenlund Chrintz-Gath;64;K;Malmö;Specialpedagog, 64 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Liberalerna (tidigare Folkpartiet);L;3;S;15866;33;J;J;I;J;40494;Max Hartler;33;M;Malmö;Regionsäljare, 33 år;382000;;J
+K;1280;Malmö;02;Malmö Västra;Medborgerlig Samling;MED;1296;S;13960;1;J;J;I;J;124844;Ilan Sadé;40;M;Malmö;40, chefsjurist, Västra Hamnen;38000;;J
+K;1280;Malmö;02;Malmö Västra;Medborgerlig Samling;MED;1296;S;13960;2;J;J;I;J;128540;Andreas Nurbo;34;M;Malmö;34, egenföretagare, Husie;38000;;J
+K;1280;Malmö;02;Malmö Västra;Medborgerlig Samling;MED;1296;S;13960;3;J;J;I;N;216030;[inte lämnat förklaring];;;;;38000;;N
+K;1280;Malmö;02;Malmö Västra;Medborgerlig Samling;MED;1296;S;13960;4;J;J;I;J;187974;Jonas Olsson;44;M;Malmö;44, civilekonom, Rosengård;38000;;J
+K;1280;Malmö;02;Malmö Västra;Medborgerlig Samling;MED;1296;S;13960;5;J;J;I;J;32979;Torsten Nurbo;63;M;Malmö;63, projektledare, Husie;38000;;J
+K;1280;Malmö;02;Malmö Västra;Medborgerlig Samling;MED;1296;S;13960;6;J;J;I;J;216033;Leo Sundberg;35;M;Malmö;35, ingenjör, Södra Innerstaden;38000;;J
+K;1280;Malmö;02;Malmö Västra;Medborgerlig Samling;MED;1296;S;13960;7;J;J;I;J;216034;Ann-Cathrine Björk;50;K;Malmö;50, egenföretagare, Västra Hamnen;38000;;J
+K;1280;Malmö;02;Malmö Västra;Medborgerlig Samling;MED;1296;S;13960;8;J;J;I;J;188054;Helene Manger;50;K;Malmö;50, administrativ chef, Husie;38000;;J
+K;1280;Malmö;02;Malmö Västra;Medborgerlig Samling;MED;1296;S;13960;9;J;J;I;J;216141;Elisabeth Wass;55;K;Malmö;56, civilekonom, Centrum;38000;;J
+K;1280;Malmö;02;Malmö Västra;Medborgerlig Samling;MED;1296;S;13960;10;J;J;I;J;216142;Sara Nilsson;38;K;Malmö;38, VD, Limhamn;38000;;J
+K;1280;Malmö;02;Malmö Västra;Medborgerlig Samling;MED;1296;S;13960;11;J;J;I;J;216143;Greger Morin;66;M;Malmö;65, pensionär, Kirseberg;38000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;1;J;J;I;J;109305;Märta Stenevi;42;K;Malmö;kommunalråd, 42 år, Djupadal;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;2;J;J;I;J;109306;Bassem Nasr;37;M;Malmö;politisk sekreterare, 37 år, Lindeborg;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;3;J;J;I;J;17215;Johanna Öfverbeck;33;K;Malmö;socionom, 33 år, Värnhem;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;4;J;J;I;J;109135;Måns Berger;30;M;Malmö;politisk sekreterare, 30 år, Möllevången;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;5;J;J;I;J;109144;Stefana Hoti;31;K;Malmö;barnrättsstrateg, 31 år, Sorgenfri;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;6;J;J;I;J;109310;Janne Grönholm;36;M;Malmö;freds- och konfliktvetare,  36 år, Limhamn;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;7;J;J;I;J;109141;Mohamed Yassin;38;M;Malmö;projektledare, 38 år, Värnhem;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;8;J;J;I;J;109312;Ellen Kasimir;24;K;Malmö;lärarstudent, 24 år, Västra hamnen;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;9;J;J;I;J;109146;Karolin Johansson;29;K;Malmö;hållbarhetssamordnare, 28 år, Kulladal;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;10;J;J;I;J;109143;Mårten Espmarker;30;M;Malmö;arkitekt, 29 år, Sorgenfri;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;11;J;J;I;J;109134;Louise Arndt;32;K;Malmö;arbetsförmedlare, 32 år, Dammfri;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;12;J;J;I;J;109147;Kami Petersen;42;M;Malmö;politisk sekreterare, 42 år, Rådmansvången;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;13;J;J;I;J;109138;Asma Saleh;51;K;Malmö;biomedicinsk analytiker, 51 år, Fosie;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;14;J;J;I;J;20824;Jouni Borglund;37;M;Malmö;socionom, 37 år, Värnhem;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;15;J;J;I;J;109319;Marie Ridell;42;K;Malmö;socionom, 42 år, Limhamn;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;16;J;J;I;J;109137;Lutfi Zuta;41;M;Malmö;it-tekniker, 41 år, Rosengård;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;17;J;J;I;J;20829;Isabella Iman Al khafaji;25;K;Malmö;förskollärare, 25 år, Möllevången;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;18;J;J;I;J;109322;Lucas Carlsson;47;M;Malmö;systemutvecklare, 47 år, Fågelbacken;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;19;J;J;I;J;109148;Kristina Aurell;51;K;Malmö;socionom, 51 år, Västra hamnen;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;20;J;J;I;J;109139;Malte Roos;24;M;Malmö;språkrör Gröna Studenter, 24 år, Kirseberg;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;21;J;J;I;J;109149;Emelie Edström;28;K;Malmö;planarkitekt, 28 år, Östra Sorgenfri;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;22;J;J;I;J;109326;Andreas Holmgren;46;M;Malmö;hållbarhetschef, 46 år, Kirseberg;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;23;J;J;I;J;109327;Annika Elwert;33;K;Malmö;forskare, 33 år, Östervärn;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;24;J;J;I;J;109328;Gustav Svanborg Edén;38;M;Malmö;skateboardsamordnare, 38 år, Rådmansvången;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;25;J;J;I;J;109329;Liselotte Sigurd;61;K;Malmö;kommunikatör, 61 år, Limhamn;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;26;J;J;I;J;109330;Carl-Erik Flodmark;62;M;Malmö;barnläkare, 62 år, Ribersborg;300000;;J
+K;1280;Malmö;02;Malmö Västra;Miljöpartiet de gröna;MP;55;S;13083;27;J;J;I;J;145920;Michael-Jay Andersson;31;M;Malmö;förskollärare, 31 år, Limhamn;300000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;1;J;J;I;J;58086;Torbjörn Tegnhammar;36;M;Malmö;36 år, oppositionsråd;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;2;J;J;I;J;58087;Noria Manouchi;27;K;Malmö;27 år, ledsagare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;3;J;J;I;J;58088;Håkan Fäldt;67;M;Malmö;67 år, konsult;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;4;J;J;I;J;58089;John Roslund;49;M;Malmö;49 år, lärare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;5;J;J;I;J;58090;Helena Nanne;26;K;Malmö;26 år, personalvetare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;6;J;J;I;J;58091;Tony Rahm;31;M;Malmö;31 år, civilekonom;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;7;J;J;I;J;58092;John Eklöf;27;M;Malmö;27 år, studerande;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;8;J;J;I;J;58093;Anja Sonesson;44;K;Malmö;44 år, jur. kand.;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;9;J;J;I;J;58094;Nicola Rabi;51;M;Malmö;50 år, marknadsekonom;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;10;J;J;I;J;58095;Peter Ollén;59;M;Malmö;59 år, förläggare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;11;J;J;I;J;58096;Josefin Anselmsson;34;K;Malmö;34 år, fil. master;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;12;J;J;I;J;58097;David Blomgren;45;M;Malmö;45 år, småföretagare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;13;J;J;I;J;58098;Helena Grahn;34;K;Malmö;34 år, hovmästare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;14;J;J;I;J;58099;Farishta Sulaiman;25;K;Malmö;25 år, studerande;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;15;J;J;I;J;58100;Linda Obiedzinski;19;K;Malmö;19 år, studerande;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;16;J;J;I;J;58101;Niclas Röhr;50;M;Malmö;49 år, creative director;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;17;J;J;I;J;58102;Olof Lavesson;42;M;Malmö;42 år, riksdagsledamot;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;18;J;J;I;J;58103;Andreas Bruzelius;37;M;Malmö;37 år, civilekonom;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;19;J;J;I;J;58104;Lilian Gerleman;69;K;Malmö;69 år, f.d. kammaråklagare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;20;J;J;I;J;58105;Darko Simic;30;M;Malmö;30 år, ombudsman;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;21;J;J;I;J;58106;Ingrid Gunnarson;74;K;Malmö;74 år, konsult;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;22;J;J;I;J;58107;Göran Wiberg;70;M;Malmö;70 år, f.d. revisor;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;23;J;J;I;J;58108;Mohammad Mohammad;58;M;Malmö;58 år, civilingenjör;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;24;J;J;I;J;58109;Sasha Steneram;21;K;Malmö;21 år, studerande;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;25;J;J;I;J;58110;Mats Brogren;56;M;Malmö;56 år, företagare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;26;J;J;I;J;58111;Linda Dahlberg Wirje;32;K;Malmö;32 år, pol. kand.;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;27;J;J;I;J;58112;Anna Adell;67;K;Malmö;67 år, leg. tandläkare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;28;J;J;I;J;58113;Julija Radeson Lindeberg;48;K;Malmö;48 år, biträdande rektor;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;29;J;J;I;J;58114;Danica Srnic;62;K;Malmö;62 år, lärare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;30;J;J;I;J;58115;Peter Langerbeck;60;M;Malmö;60 år, ekonom;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;31;J;J;I;J;58116;Peter J Olsson;60;M;Malmö;60 år, redaktör;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;32;J;J;I;J;58117;Henrik Jönsson;43;M;Malmö;43 år, entreprenör;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;33;J;J;I;J;58118;Petter Naef;47;M;Malmö;47 år, fil. mag. informationslogistik;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;34;J;J;I;J;58119;Roger Parmstrand;63;M;Malmö;63 år, egenföretagare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;35;J;J;I;J;58120;Oskar Månsson;18;M;Malmö;18 år, studerande;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;36;J;J;I;J;58121;Ulf Staafgård;71;M;Malmö;70 år, fil. kand.;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;37;J;J;I;J;58122;Carl Hammarström;35;M;Malmö;35 år, företagare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;38;J;J;I;J;58123;Oscar Hill;19;M;Malmö;19 år, studerande;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;39;J;J;I;J;58124;Kerstin Svenonius;70;K;Malmö;70 år, skattehandläggare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;40;J;J;I;J;58125;Peter Österlin;66;M;Malmö;66 år, marknadsekonom;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;41;J;J;I;J;58126;Katarina Kasmarvik;31;K;Malmö;31 år, lärare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;42;J;J;I;J;58127;Robert Lenir;56;M;Malmö;56 år, rekryterare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;43;J;J;I;J;58128;Tina Hill;33;K;Malmö;33 år, projektledare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;44;J;J;I;J;58129;Bertil Lindberg;67;M;Malmö;67 år, civilingenjör;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;45;J;J;I;J;58130;Richard Nicander;49;M;Malmö;49 år, företagare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;46;J;J;I;J;58131;Ragnhild Ståleker;73;K;Malmö;73 år, diplomerad projektledare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;47;J;J;I;J;58132;Cecilia Barwén;53;K;Malmö;53 år, servicekoordinator;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;48;J;J;I;J;58133;Viveka Hägg;71;K;Malmö;71 år, ekonom;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;49;J;J;I;J;58134;Pernilla Röjner;46;K;Malmö;46 år, verksamhetschef;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;50;J;J;I;J;58135;Haqvin Svensson;68;M;Malmö;68 år, civilekonom;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;51;J;J;I;J;58136;Ahmad Jaro;43;M;Malmö;43 år, fritidspedagog;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;52;J;J;I;J;58137;Åsa Nilsson;54;K;Malmö;54 år, redovisningskonsult;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;53;J;J;I;J;58138;Erik Herslow Bergman;46;M;Malmö;46 år, ek. mag.;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;54;J;J;I;J;58139;Claes Holmerup;53;M;Malmö;53 år, serviceingenjör;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;55;J;J;I;J;58140;Gull-Maj Banke;74;K;Malmö;74 år, jur. kand.;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;56;J;J;I;J;58141;Dejan Ecimovic;43;M;Malmö;43 år, handläggare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;57;J;J;I;J;58142;Anastasia Permiakova;29;K;Malmö;29 år, trafikutvecklare;764000;;J
+K;1280;Malmö;02;Malmö Västra;Moderaterna;M;1;S;12558;58;J;J;I;J;58143;Lars-Göran Jönsson;56;M;Malmö;56 år, IT-konsult;764000;;J
+K;1280;Malmö;02;Malmö Västra;Piratpartiet;PP;524;S;15310;1;J;J;I;J;449491;Christoffer Eldengrip;28;M;Malmö;28;100000;;J
+K;1280;Malmö;02;Malmö Västra;Piratpartiet;PP;524;S;15310;2;J;J;I;J;449492;Michaela Ljungstrand;19;K;Göteborg;19;100000;;J
+K;1280;Malmö;02;Malmö Västra;Piratpartiet;PP;524;S;15310;3;J;J;I;J;449493;Ronny Nord;35;M;Malmö;36;100000;;J
+K;1280;Malmö;02;Malmö Västra;Piratpartiet;PP;524;S;15310;4;J;J;I;J;449494;Alicia Deodorson;23;K;Malmö;24;100000;;J
+K;1280;Malmö;02;Malmö Västra;Piratpartiet;PP;524;S;15310;5;J;J;I;J;449495;Jerry Hjort;26;M;Kalix;26;100000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;1;J;J;I;J;428414;Maude Holmgren;75;K;Malmö;Samtalsterapeut;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;2;J;J;I;J;428415;Lennart Hoff;80;M;Malmö;Datakonsult;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;3;J;J;I;J;428409;Britt Borronha;76;K;Malmö;Undersköterska;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;4;J;J;I;J;428410;Horst Werder;87;M;Malmö;Sjökapten;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;5;J;J;I;J;428420;Britt Jönsson;77;K;Malmö;Pensionär;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;6;J;J;I;J;428417;Wanda Vesterberg;63;K;Malmö;Affärsbiträde;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;7;J;J;I;J;428419;Inger Johansson;73;K;Malmö;Kontorist;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;8;J;J;I;J;428413;Andreas Karlsson;35;M;Malmö;Byggföretagare;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;9;J;J;I;J;428422;Lisbeth Persson;68;K;Malmö;Ekonomiassistent;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;10;J;J;I;J;428418;José Borronha;86;M;Malmö;Montör;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;11;J;J;I;J;428421;Sven Nilsson;82;M;Malmö;Förvaltare;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;12;J;J;I;J;428425;Berthil Larsson;78;M;Malmö;Försäljare;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;13;J;J;I;J;428424;Marianne Månsson;76;K;Malmö;Pensionär;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;14;J;J;I;J;428427;Inga-Lill Kristoffersson;82;K;Malmö;Kontorist;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;15;J;J;I;J;428429;Rut Mårtensson;88;K;Malmö;Pensionär;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;16;J;J;I;J;428605;Sven Olsson;81;M;Malmö;IT-företagare;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;17;J;J;I;J;428431;Jane Brandin-Nielsen;71;K;Malmö;Pensionär;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;18;J;J;I;J;428428;Gunvor Walter;81;K;Malmö;Undersköterska;80000;;J
+K;1280;Malmö;02;Malmö Västra;SKÅNEPARTIET;SKÅ;54;S;15250;19;J;J;I;J;428432;Åke Johannesson;71;M;Malmö;Representant;80000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;1;J;J;I;J;66796;Magnus Olsson;42;M;Malmö;Kommunalråd, 42;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;2;J;J;I;J;66797;Jörgen Grubb;56;M;Malmö;Projektledare, 56;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;3;J;J;I;J;66798;Lisbeth Persson-Ekström;66;K;Malmö;Systemförvaltare, 66;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;4;J;J;I;J;66799;Anders Olin;50;M;Malmö;Riksombudsman, 50;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;5;J;J;I;J;66800;Eva Hallén;61;K;Malmö;Undersköterska, 62;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;6;J;J;I;J;66801;Rickard Åhman-Persson;65;M;Malmö;Jurist, 66;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;7;J;J;I;J;66802;Nima Gholam Ali Pour;36;M;Malmö;Politisk sekreterare, 36;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;8;J;J;I;J;66803;Stefan Plath;48;M;Malmö;Systemadministratör, 48;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;9;J;J;I;J;66804;Lars-Johan Hallgren;46;M;Malmö;Säljare, 46;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;10;J;J;I;J;66805;Anders Pripp;57;M;Malmö;Byggnadsarbetare, 57;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;11;J;J;I;J;66806;Ilvars Hansson;71;M;Malmö;Elektroingenjör, 71;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;12;J;J;I;J;66807;Anna Isaksson;31;K;Malmö;Tågvärd, 31;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;13;J;J;I;J;66808;Michael Hård af Segerstad;41;M;Malmö;Reparatör, 41;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;14;J;J;I;J;66809;Stefan Claesson;69;M;Malmö;Pensionär, 69;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;15;J;J;I;J;66810;Håkan Ask;52;M;Malmö;Brandman, 52;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;16;J;J;I;J;66811;Patrick Angelin;42;M;Malmö;Service agent, 42;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;17;J;J;I;J;66812;Nadja Strand;73;K;Malmö;Pensionär, 72;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;18;J;J;I;J;66813;Christer Bengtsson;62;M;Malmö;Socionom, 62;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;19;J;J;I;J;66814;Alexander Lagerroth;34;M;Malmö;Studerande, 34;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;20;J;J;I;J;66815;Jane Olin;48;K;Malmö;Stödassistent, 48;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;21;J;J;I;J;66816;Christer Persson;71;M;Malmö;Servicetekniker, 71;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;22;J;J;I;J;66817;Stefan Greschner;58;M;Malmö;Brandman, 58;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;23;J;J;I;J;66818;Håkan Andersson;47;M;Malmö;Maskiningenjör, 47;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;24;J;J;I;J;66819;Britt-Marie Nilsson;57;K;Malmö;Verksamhetsledare, 57;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;25;J;J;I;J;66820;Rolf Hansson;70;M;Malmö;Byggnadsingenjör, 70;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;26;J;J;I;J;66821;Ola Johansson;40;M;Malmö;Väktare, 40;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;27;J;J;I;J;66822;Peter Edlund;70;M;Malmö;Polisintendent, 70;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;28;J;J;I;J;66823;Michael Pleym;59;M;Malmö;Åklagare, 59;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;29;J;J;I;J;66824;Ulf Blomström;38;M;Malmö;Fabriksarbetare, 38;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;30;J;J;I;J;66825;Staffan Appelros;67;M;Malmö;Direktör, 67;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;31;J;J;I;J;66827;Kurre Halvardsson;78;M;Malmö;Ingenjör, 78;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;32;J;J;I;J;66828;Åsa Ahnfeldt;52;K;Malmö;Projektadministratör, 52;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;33;J;J;I;J;66829;Christer Arkemyr;62;M;Malmö;Pensionär, 62;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;34;J;J;I;J;66830;Mette Lisberg;54;K;Malmö;Verksamhetsassistent, 54;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;35;J;J;I;J;66831;Hanna Grubb;18;K;Malmö;Studerande, 18;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;36;J;J;I;J;66832;Ortwin Lobbes;74;M;Malmö;Tekniker, 74;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;37;J;J;I;J;66833;Robert Nilsson;58;M;Malmö;Flygtrafikplanerare, 58;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;38;J;J;I;J;66834;Regina Harwigsson;59;K;Malmö;Kock, 59;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;39;J;J;I;J;66835;Bo-Eric Andersson;60;M;Malmö;Bussförare, 61;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;40;J;J;I;J;66836;Peter Jangbro;61;M;Malmö;Undersköterska, 61;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;41;J;J;I;J;66837;Nichodemus Nilsson;26;M;Malmö;Förrådsarbetare, 26;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;42;J;J;I;J;66838;Stefan Kramer;43;M;Malmö;Sjukpensionär, 43;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;43;J;J;I;J;66839;Bengt Metz;68;M;Malmö;Elektronikingenjör, 68;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;44;J;J;I;J;66840;George Florea;28;M;Malmö;Teoretisk fysiker, 28;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;45;J;J;I;J;66841;Marie Löfgren;56;K;Malmö;Redovisningskonsult, 56;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;46;J;J;I;J;66842;Lillebror Bruér;58;M;Malmö;Tatuerare, 58;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;47;J;J;I;J;66843;Gustav Kjellström;26;M;Malmö;Pilot, 26;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;48;J;J;I;J;66844;Jan Danielsson;67;M;Malmö;Ekonom, 66;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;49;J;J;I;J;66845;Jeanette Karlsson;57;K;Malmö;Lagerarbetare, 57;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;50;J;J;I;J;66846;Michell Milovansson;60;M;Malmö;Parkeringsvakt, 60;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;51;J;J;I;J;66847;Mikael Blomqvist;39;M;Malmö;Egenföretagare, 39;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;S;12692;52;J;J;I;J;66848;Sven Sandram;81;M;Malmö;Pensionär, 81;764000;;J
+K;1280;Malmö;02;Malmö Västra;Sverigedemokraterna;SD;110;;;;J;J;I;N;515948;[inte lämnat förklaring];;;;;0;;N
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;1;N;J;J;I;494056;Victor Diaz De Filipi;41;M;Malmö;rivningsarbetare;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;2;N;J;J;I;494046;Jan Jönsson;73;M;Malmö;byggnadsarbetare;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;3;N;J;J;I;494058;Mohammad Nourozi;71;M;Malmö;lagerarbetare;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;4;N;J;J;I;494049;Lilliana De Filippi;76;K;Malmö;lokalvårdare;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;5;N;J;J;I;494060;Charlie Paulsson;31;M;Malmö;översättare;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;6;N;J;J;I;494055;Ljubomir T. Devic;48;M;Malmö;lärare;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;7;N;J;J;I;494062;Elisabeth Maturana;62;K;Malmö;lokalvårdare;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;8;N;J;J;I;494063;Ioannis Papadopoulos;55;M;Malmö;plattsättare;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;9;N;J;J;I;494053;Manoochehr Kiani;72;M;Malmö;cykelreparatör;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;10;N;J;J;I;494065;Nahuel Treuquepán Pozo;39;M;Malmö;elevassistent;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;11;N;J;J;I;494066;Håkan Jönsson;34;M;Malmö;byggnadsarbetare;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;12;N;J;J;I;494051;Omel Hussain Sahil;48;K;Malmö;personligassistent;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;13;N;J;J;I;494068;Gürsel Karlidag;40;M;Malmö;renhållningsarbetare;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;14;N;J;J;I;494069;Peter Sjöholm;33;M;Malmö;industriarbetare;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15547;15;N;J;J;I;494070;Ivan Fouladvand;74;M;Malmö;försäljare;25000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Nationella Demokratiska Parti;;339;S;15549;1;N;J;J;I;494204;Pawel Grunneholm;58;M;Malmö;gymnasiumingenjör;8000;;J
+K;1280;Malmö;02;Malmö Västra;Sveriges Nationella Demokratiska Parti;;339;S;15549;2;N;J;J;I;494205;Krzysztof Mazur;55;M;Malmö;lagerarbetare;8000;;J
+K;1280;Malmö;02;Malmö Västra;TRYGGHETSPARTIET;TRP;1309;S;15267;1;J;J;I;J;431298;Sigbritt Sjöstrand;71;K;Malmö;Civ. utr. polisen, Malmö;310000;;J
+K;1280;Malmö;02;Malmö Västra;TRYGGHETSPARTIET;TRP;1309;S;15267;2;J;J;I;J;431287;Jan O Pålsson;72;M;Malmö;Ingenjör, Malmö;310000;;J
+K;1280;Malmö;02;Malmö Västra;TRYGGHETSPARTIET;TRP;1309;S;15267;3;J;J;I;J;431303;Bertil Gyllencreutz;78;M;Malmö;Ekonom, Malmö;310000;;J
+K;1280;Malmö;02;Malmö Västra;TRYGGHETSPARTIET;TRP;1309;S;15267;4;J;J;I;J;431315;Nancy Thern;78;K;Malmö;Modedirektris, Malmö;310000;;J
+K;1280;Malmö;02;Malmö Västra;TRYGGHETSPARTIET;TRP;1309;S;15267;5;J;J;I;J;431319;Lennart Nilsson;74;M;Malmö;Civilekonom;310000;;J
+K;1280;Malmö;02;Malmö Västra;TRYGGHETSPARTIET;TRP;1309;S;15267;6;J;J;I;J;431314;Sonny Jenfjord;79;M;Malmö;Konsult, Malmö;310000;;J
+K;1280;Malmö;02;Malmö Västra;TRYGGHETSPARTIET;TRP;1309;S;15267;7;J;J;I;J;431987;Kicki Lindgren;74;K;Malmö;Dekoratör, Malmö;310000;;J
+K;1280;Malmö;02;Malmö Västra;TRYGGHETSPARTIET;TRP;1309;S;15267;8;J;J;I;J;431988;Siv Wiktorsson;79;K;Malmö;Köpman, Malmö;310000;;J
+K;1280;Malmö;02;Malmö Västra;TRYGGHETSPARTIET;TRP;1309;S;15267;9;J;J;I;J;431312;Else Angeldorff;68;K;Malmö;Sjuksköterska, Malmö;310000;;J
+K;1280;Malmö;02;Malmö Västra;TRYGGHETSPARTIET;TRP;1309;S;15267;10;J;J;I;J;431564;Margareta Ekstrand;75;K;Malmö;Lärare, Malmö;310000;;J
+K;1280;Malmö;02;Malmö Västra;Utveckling och Progressiv för Sverige partiet (U.P.S);;1386;;;;N;J;J;I;512174;Bozbey, Tarik;49;M;Lund;;0;;J
+K;1280;Malmö;02;Malmö Västra;Utveckling och Progressiv för Sverige partiet (U.P.S);;1386;;;;N;J;J;I;512175;Hagos, Michael Belay;30;M;Kävlinge;;0;;J
+K;1280;Malmö;02;Malmö Västra;Utveckling och Progressiv för Sverige partiet (U.P.S);;1386;;;;N;J;J;I;512176;Karlsson, Roddy;57;M;Malmö;;0;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;1;J;J;I;J;186242;Hanna Thomé;42;K;Malmö;kommunalråd, 41 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;2;J;J;I;J;186243;Emma-Lina Johansson;33;K;Malmö;kock, 33 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;3;J;J;I;J;186244;Anders Skans;56;M;Malmö;förskollärare, 56 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;4;J;J;I;J;186245;Daniel Sestrajcic;42;M;Malmö;aktivist, 43 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;5;J;J;I;J;186246;Sadiye Altundal;37;K;Malmö;utvecklingssamordnare, 37 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;6;J;J;I;J;186247;Gunilla Ryd;70;K;Malmö;pensionär, 70 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;7;J;J;I;J;186248;Anders Andersson;57;M;Malmö;undersköterska, 57 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;8;J;J;I;J;186249;Boel Pettersson;45;K;Malmö;lärare, 45 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;9;J;J;I;J;186250;Carin Gustafsson;35;K;Malmö;logoped, 35 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;10;J;J;I;J;186251;Showan Shattak;29;M;Malmö;verksamhetsutvecklare ABF, 29 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;11;J;J;I;J;186252;Lisa Stolpe;35;K;Malmö;lärare, 35 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;12;J;J;I;J;186253;Joel Nordström;26;M;Malmö;student, 26 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;13;J;J;I;J;186254;Elisavet Johansson Tziampazis;28;K;Malmö;projektledare, 28 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;14;J;J;I;J;186255;Tobias Petersson;38;M;Malmö;handläggare - internationellt bistånd, 38 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;15;J;J;I;J;186256;Carlos González;67;M;Malmö;lärare, 67 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;16;J;J;I;J;186257;Susanne Adielsson;45;K;Malmö;stödassistent LSS, 72 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;17;J;J;I;J;186258;Ulrika Williamsson;55;K;Malmö;fabriksarbetare, 55 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;18;J;J;I;J;186259;Susanne Björkenheim;73;K;Malmö;pensionär, 73 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;19;J;J;I;J;186260;Busi Dimitriu;39;K;Malmö;politisk sekreterare, 39 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;20;J;J;I;J;186261;Mirjam Katzin;31;K;Malmö;jurist, 31 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;21;J;J;I;J;186262;Fiona Winders;57;K;Malmö;utvecklingssamordnare, 57 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;22;J;J;I;J;186263;Jeanette Stojic;36;K;Malmö;svetsare/montör, 36 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;23;J;J;I;J;186264;Anton Flink;73;M;Malmö;pensionär, 73 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;24;J;J;I;J;186265;Stephen Krauss;70;M;Malmö;pensionär, 70 år.;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;25;J;J;I;J;128121;Linda Sjöö;43;K;Malmö;församlingspedagog, 43 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;26;J;J;I;J;186267;Birgitta Ehlin;73;K;Malmö;pensionär, 73 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;27;J;J;I;J;186268;Gunnel Suneson;31;K;Malmö;skolkurator, 31 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;28;J;J;I;J;186269;Patrik Strand;54;M;Malmö;undersköterska, 54 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;29;J;J;I;J;186270;Bente Holmen;64;K;Malmö;butiksbiträde, 64 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;30;J;J;I;J;186271;Mikael Andersson;60;M;Malmö;projektutvecklare, 43 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;31;J;J;I;J;186272;Anna Angantyr;43;K;Malmö;folkhögskolelärare, 43 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;32;J;J;I;J;186273;Jerry Segerberg;39;M;Malmö;skådespelare, 39 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;33;J;J;I;J;186274;Mansour Kafi;55;M;Malmö;tolk, 55 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;34;J;J;I;J;186275;Mats Billberg Johansson;65;M;Malmö;projektledare, 65 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;35;J;J;I;J;186276;Matilda Gradin;42;K;Malmö;naturguide, 42 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;36;J;J;I;J;186277;Lorena Mariel Törnlycke;42;K;Malmö;sjuksköterska, 42 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;37;J;J;I;J;186278;Maria Kållberg;60;K;Malmö;journalist, 60 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;38;J;J;I;J;186279;Hedvig Lärka;24;K;Malmö;student, 24 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;39;J;J;I;J;186280;Sara Nilsson Mohammadi;35;K;Malmö;psykolog, 35 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;40;J;J;I;J;186281;Anders Neergaard;55;M;Malmö;universitetslärare, 55 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;41;J;J;I;J;186282;Ana Süssner Rubin;38;K;Malmö;arbetsrättsjurist, 38 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;42;J;J;I;J;186283;Ola Brunnström;40;M;Malmö;lokförare, 40 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;43;J;J;I;J;186284;Oliver Sneath;26;M;Malmö;elektriker, 26 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;44;J;J;I;J;186285;Alexandra Thomasson;39;K;Malmö;folkhälsovetare, 39 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;45;J;J;I;J;186286;Linn Fristedt;27;K;Malmö;vårdbiträde, 27 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;46;J;J;I;J;186287;Maria Persdotter;30;K;Malmö;doktorand, 30 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;47;J;J;I;J;186288;Momodou Malcolm Jallow;42;M;Malmö;riksdagsledamot, 42 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;48;J;J;I;J;186289;Lina Myritz;37;K;Malmö;läkare, 37 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;49;J;J;I;J;186290;Carl Aragón;41;M;Malmö;ombudsman, 41 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;50;J;J;I;J;186291;Lars-Göran Ahlström;82;M;Malmö;pensionär, 82 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;51;J;J;I;J;186292;Linda Svensson;43;K;Malmö;ombudsman transport, 43 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;52;J;J;I;J;186293;Mats Högelius;67;M;Malmö;präst, 67 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;53;J;J;I;J;186294;Ingemar Ekblad;34;M;Malmö;lärare, 34 år;384000;;J
+K;1280;Malmö;02;Malmö Västra;Vänsterpartiet;V;5;S;13698;54;J;J;I;J;186295;Pål Brunnström;44;M;Malmö;historiker, 44 år;384000;;J

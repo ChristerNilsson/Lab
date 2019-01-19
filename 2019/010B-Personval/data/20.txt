@@ -1,0 +1,905 @@
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14188;1;J;J;I;J;244922;Kjell Persson;72;M;Falun;Falun;147000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14188;2;J;J;I;J;244923;Suzanne Lazar;60;K;Falun;Falun;147000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14188;3;J;J;I;J;244912;Krister Andersson;58;M;Falun;Falun;147000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14188;4;J;J;I;J;245381;Inga-Britt Kronnäs;64;K;Falun;Falun;147000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14188;5;J;J;I;J;245382;Majsan Willén;67;K;Falun;Falun;147000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14188;6;J;J;I;J;244915;Annika Östling;59;K;Falun;Falun;147000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14188;7;J;J;I;J;244875;Susanne Norberg;57;K;Falun;Falun;147000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14188;8;J;J;I;J;244929;Karl-Erik Pettersson;75;M;Falun;Falun;147000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14188;9;J;J;I;J;245386;Berit Fredriksson;65;K;Falun;Falun;147000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14188;10;J;J;I;J;244880;Kenneth Wåhlberg;67;M;Falun;Falun;147000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14188;11;J;J;I;J;245388;Elisabeth Gullarbergs;38;K;Falun;Falun;147000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14188;12;J;J;I;J;244901;Charlotte Oster;45;K;Falun;Falun;147000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14188;13;J;J;I;J;244885;Christina Knutsson;54;K;Falun;Falun;147000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;1;J;J;I;J;245457;Kristina Svensson;57;K;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;2;J;J;I;J;245458;Per Morelius;63;M;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;3;J;J;I;J;244145;Camilla Andersson;38;K;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;4;J;J;I;J;245460;Ahmed Bari;34;M;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;5;J;J;I;J;245461;Linda Kvarnström;44;K;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;6;J;J;I;J;245462;Anders Taavo;55;M;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;7;J;J;I;J;245463;Sarah Tångring;37;K;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;8;J;J;I;J;232021;Jan Boman;59;M;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;9;J;J;I;J;402332;Najmo Abubakar;33;K;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;10;J;J;I;J;245466;Göran Tägtström;83;M;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;11;J;J;I;J;232050;Iza Renfjord;18;K;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;12;J;J;I;J;245468;Eric Nyström Svensk;35;M;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;13;J;J;I;J;232044;Monica Bodin;46;K;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;14;J;J;I;J;245470;Roger Iversen;54;M;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;15;J;J;I;J;232060;Ingrid Norberg;63;K;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;16;J;J;I;J;245472;Jan Cederlund;46;M;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;17;J;J;I;J;245473;Hans Salomonsson;53;M;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;18;J;J;I;J;232028;Anita Nordström;60;K;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;19;J;J;I;J;245475;Peter Jäderbrant;62;M;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14189;20;J;J;I;J;245476;Eva Brossberg Andersson;53;K;Borlänge;Borlänge;131000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;1;J;J;I;J;245608;Abbe Ronsten;53;M;Säter;Säter;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;2;J;J;I;J;236844;Susann Berger;47;K;Avesta;Avesta;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;3;J;J;I;J;245610;Per-Inge Nyberg;58;M;Säter;Säter;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;4;J;J;I;J;237829;Agneta Andreasson Bäck;69;K;Hedemora;Hedemora;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;5;J;J;I;J;236843;Lars Isacsson;48;M;Avesta;Avesta;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;6;J;J;I;J;237833;Kajsa-Lena Fagerström;68;K;Hedemora;Hedemora;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;7;J;J;I;J;237838;Stefan Norberg;46;M;Hedemora;Hedemora;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;8;J;J;I;J;236862;Malin Bäckebo;40;K;Avesta;Avesta;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;9;J;J;I;J;245616;Johan Skoog;50;M;Avesta;Avesta;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;10;J;J;I;J;242575;Paulina Johansson;25;K;Säter;Säter;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;11;J;J;I;J;237832;David Aura;27;M;Hedemora;Hedemora;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;12;J;J;I;J;237859;Susanne Hoffman;50;K;Hedemora;Hedemora;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;13;J;J;I;J;236855;Lars Levahn;73;M;Avesta;Avesta;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;14;J;J;I;J;242573;Annika Karlsson;59;K;Säter;Säter;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;15;J;J;I;J;236874;Hans Danielsen;73;M;Avesta;Avesta;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;16;J;J;I;J;242572;Håkan Karlsson;71;M;Säter;Säter;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;17;J;J;I;J;245624;Inger Körstig;52;K;Säter;Säter;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14191;18;J;J;I;J;237847;Inger Persson;74;K;Hedemora;Hedemora;129000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;1;J;J;I;J;245626;Elin Norén;35;K;Smedjebacken;Smedjebacken;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;2;J;J;I;J;238763;Ivan Eriksson;63;M;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;3;J;J;I;J;238756;Anna-Lena Andersson;50;K;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;4;J;J;I;J;242077;Ingemar Hellström;54;M;Smedjebacken;Smedjebacken;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;5;J;J;I;J;242084;Monica Forsgren;51;K;Smedjebacken;Smedjebacken;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;6;J;J;I;J;238787;Håkan Anestedt;50;M;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;7;J;J;I;J;245632;Eva De Marothy;72;K;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;8;J;J;I;J;238755;Mohammad Alkazhami;57;M;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;9;J;J;I;J;245634;Eira Henriksson;73;K;Smedjebacken;Smedjebacken;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;10;J;J;I;J;238767;Sven-Erik Källman;47;M;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;11;J;J;I;J;245636;Lise-Lotte Jansson;65;K;Smedjebacken;Smedjebacken;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;12;J;J;I;J;245637;Jörgen Hammarin;65;M;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;13;J;J;I;J;238772;Camilla Lönnqvist;50;K;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;14;J;J;I;J;245639;Håkan Söderlund;56;M;Smedjebacken;Smedjebacken;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;15;J;J;I;J;242086;Kerstin Ernebrink;69;K;Smedjebacken;Smedjebacken;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;16;J;J;I;J;238761;Peter Cyrillus;59;M;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;17;J;J;I;J;238750;Åsa Bergkvist;48;K;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;18;J;J;I;J;238781;Kjell Stenberg;74;M;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;19;J;J;I;J;238762;Ingrid Berg;51;K;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;20;J;J;I;J;242091;Joacim Lundgren;45;M;Smedjebacken;Smedjebacken;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;21;J;J;I;J;242092;Solweig Nyrede;73;K;Smedjebacken;Smedjebacken;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;22;J;J;I;J;238773;Åke Henriksson;69;M;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14192;23;J;J;I;J;238777;Seppo Timonen;72;M;Ludvika;Ludvika;118000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;1;J;J;I;J;243589;Gunnar Barke;63;M;Älvdalen;Älvdalen;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;2;J;J;I;J;240273;Bigitta Sohlberg;59;K;Mora;Mora;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;3;J;J;I;J;240896;Anders Rosell;50;M;Orsa;Orsa;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;4;J;J;I;J;243588;Mari Rustad;40;K;Älvdalen;Älvdalen;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;5;J;J;I;J;240272;Per Göransson;67;M;Mora;Mora;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;6;J;J;I;J;240899;Maria Tapper;52;K;Orsa;Orsa;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;7;J;J;I;J;243632;Leo Persson;76;M;Älvdalen;Älvdalen;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;8;J;J;I;J;240281;Karolina Treson;36;K;Mora;Mora;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;9;J;J;I;J;245714;Ingela Derkert;47;K;Orsa;Orsa;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;10;J;J;I;J;243586;Kerstin Knuts;75;K;Älvdalen;Älvdalen;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;11;J;J;I;J;240266;Lennart Sohlberg;65;M;Mora;Mora;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;12;J;J;I;J;240909;Inger Jones-Eriksson;68;K;Orsa;Orsa;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;13;J;J;I;J;243603;Arne Jönsson;58;M;Älvdalen;Älvdalen;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;14;J;J;I;J;240267;Anna-Karin Rydstedt;56;K;Mora;Mora;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;15;J;J;I;J;245720;Lars Andersson;66;M;Orsa;Orsa;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;16;J;J;I;J;243594;Berith Olsen;67;K;Älvdalen;Älvdalen;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;17;J;J;I;J;240285;Ingemar Larsson;71;M;Mora;Mora;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;18;J;J;I;J;240905;Gunlis Olmats;66;K;Orsa;Orsa;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;19;J;J;I;J;243595;Viktor Barke;29;M;Älvdalen;Älvdalen;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;20;J;J;I;J;240294;Lizzy Gullo;65;K;Mora;Mora;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;21;J;J;I;J;240917;Karin Herko;64;K;Orsa;Orsa;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;22;J;J;I;J;245727;Herbert Halvarsson;68;M;Älvdalen;Älvdalen;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;23;J;J;I;J;240289;Arne Pettersson;82;M;Mora;Mora;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;24;J;J;I;J;243587;Kent Eriksson;56;M;Älvdalen;Älvdalen;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14194;25;J;J;I;J;240293;Folke Thelin;79;M;Mora;Mora;88000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;1;J;J;I;J;238231;Liv Lunde Andersson;72;K;Leksand;Leksand;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;2;J;J;I;J;238983;Kurt Podgorski;66;M;Malung-Sälen;Malung-Sälen;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;3;J;J;I;J;237343;Irene Homman;64;K;Gagnef;Gagnef;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;4;J;J;I;J;243020;Nall Lars Göran Andersson;60;M;Vansbro;Vansbro;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;5;J;J;I;J;241276;Britt-Marie Essell;68;K;Rättvik;Rättvik;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;6;J;J;I;J;238220;Viktor Zakrisson;36;M;Leksand;Leksand;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;7;J;J;I;J;243023;Ulrika Gärds Forsberg;45;K;Vansbro;Vansbro;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;8;J;J;I;J;241275;Lars-Erik Kalles;76;M;Rättvik;Rättvik;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;9;J;J;I;J;238956;Lilian Olsson;68;K;Malung-Sälen;Malung-Sälen;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;10;J;J;I;J;237344;Daniel Bergman;35;M;Gagnef;Gagnef;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;11;J;J;I;J;238975;Britta Lindholm;68;K;Malung-Sälen;Malung-Sälen;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;12;J;J;I;J;241283;Peter Rousu;48;M;Rättvik;Rättvik;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;13;J;J;I;J;238228;Kent Dahlqvist;67;M;Leksand;Leksand;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;14;J;J;I;J;238957;Jörgen Norén;43;M;Malung-Sälen;Malung-Sälen;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;15;J;J;I;J;237348;Alf Johansson;76;M;Gagnef;Gagnef;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Arbetarepartiet-Socialdemokraterna;S;2;S;14196;16;J;J;I;J;238222;Lars Halvarsson;50;M;Leksand;Rättvik;135000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;1;J;J;I;J;33528;Sofia Jarl;40;K;Gagnef;Gagnef;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;2;J;J;I;J;33531;Anna Hed;47;K;Mora;Mora;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;3;J;J;I;J;38913;Jonny Jones;53;M;Rättvik;Rättvik;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;4;J;J;I;J;38914;Göte Persson;51;M;Falun;Falun;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;5;J;J;I;J;33532;Christina Bröms;67;K;Mora;Mora;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;6;J;J;I;J;38916;Linda Zetterström;43;K;Borlänge;Borlänge;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;7;J;J;I;J;33530;Mikael Thalin;52;M;Orsa;Orsa;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;8;J;J;I;J;33536;Sara Persson;28;K;Avesta;Avesta;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;9;J;J;I;J;33543;Pär Kindlund;49;M;Malung-Sälen;Malung-Sälen;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;10;J;J;I;J;38920;Anette Granegärd;59;K;Hedemora;Hedemora;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;11;J;J;I;J;33537;Oscar Sjökvist;24;M;Borlänge;Borlänge;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;12;J;J;I;J;33533;Joakim Storck;45;M;Falun;Falun;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;13;J;J;I;J;33539;Kjell Tenn;65;M;Älvdalen;Älvdalen;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;14;J;J;I;J;33541;Gunilla Berglund;57;K;Avesta;Avesta;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;15;J;J;I;J;38925;Niclas Bodin;47;M;Säter;Säter;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;16;J;J;I;J;38926;Annika Simm Eriksson;67;K;Vansbro;Vansbro;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;17;J;J;I;J;33553;Tommy Hafvsdalen;46;M;Falun;Falun;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;18;J;J;I;J;33544;Mauritz Bropetters;71;M;Ludvika;Ludvika;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;19;J;J;I;J;33542;Agneta Ängsås;70;K;Falun;Falun;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;20;J;J;I;J;38930;Mats Fogelström;62;M;Leksand;Leksand;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;21;J;J;I;J;38931;Adam Carlsson;34;M;Smedjebacken;Smedjebacken;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;22;J;J;I;J;38932;Mohamed-deeq Barkhadle;58;M;Avesta;Ludvika;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;23;J;J;I;J;33546;Torbjörn Ulriksen;42;M;Mora;Mora;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;24;J;J;I;J;8538;Ulrika Liljeberg;49;K;Leksand;Leksand;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;25;J;J;I;J;38935;Daniel Drugge;45;M;Falun;Falun;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;26;J;J;I;J;33524;Per-Anders Westhed;71;M;Falun;Falun;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;27;J;J;I;J;38937;Joanna Stridh;45;K;Rättvik;Rättvik;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;28;J;J;I;J;33548;Mathias Westin;45;M;Falun;Falun;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;29;J;J;I;J;38939;Fredrik Jarl;42;M;Gagnef;Gagnef;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;30;J;J;I;J;33540;Dan Westerberg;66;M;Falun;Falun;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;31;J;J;I;J;38941;Owe Ahlinder;72;M;Hedemora;Hedemora;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;32;J;J;I;J;38942;Karin Örjes;54;K;Borlänge;Borlänge;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;33;J;J;I;J;38943;Anneli Hultgren;47;K;Vansbro;Vansbro;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;34;J;J;I;J;33527;Michael Arvidsson;47;M;Säter;Säter;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;35;J;J;I;J;33545;Jan Spånberg;62;M;Älvdalen;Älvdalen;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;36;J;J;I;J;33529;Mohamed Abdi Mohamoud;53;M;Borlänge;"Fanax", Borlänge;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;37;J;J;I;J;38948;Lillemor Gunnarsson;68;K;Hedemora;Hedemora;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;38;J;J;I;J;33538;Johanna Hallin;24;K;Gagnef;Gagnef;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;39;J;J;I;J;38950;Kristina Lundgren;64;K;Hedemora;Hedemora;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;40;J;J;I;J;38951;Jan Segerstedt;72;M;Orsa;Orsa;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;41;J;J;I;J;38952;Kenneth Dahlström;69;M;Leksand;Leksand;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;42;J;J;I;J;33549;Anders Lundin;65;M;Vansbro;Vansbro;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;43;J;J;I;J;33555;Jan-Olof Källström;71;M;Avesta;Avesta;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;44;J;J;I;J;33534;Stina Munters;44;K;Vansbro;Vansbro;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;45;J;J;I;J;38957;Lars-Olov Liss;41;M;Vansbro;Vansbro;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;46;J;J;I;J;38958;Bernt Westerhagen;70;M;Orsa;Orsa;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;47;J;J;I;J;38960;Karin Bogg;66;K;Älvdalen;Älvdalen;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;48;J;J;I;J;38961;Mikael Gotthardsson;43;M;Hedemora;Hedemora;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;49;J;J;I;J;33551;Agneta Åhs-Sivertsen;66;K;Malung-Sälen;Malung-Sälen;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;50;J;J;I;J;33557;Jan Olof Karlsson;64;M;Ludvika;Ludvika;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;51;J;J;I;J;38964;Jan Gustafsson;62;M;Smedjebacken;Smedjebacken;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;52;J;J;I;J;38965;Håkan Jansson;69;M;Smedjebacken;Smedjebacken;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;53;J;J;I;J;38966;Britt-Marie Romlin;63;K;Falun;Falun;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;S;12315;54;J;J;I;J;184560;Anders Ors;41;M;Falun;Falun;671000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Centerpartiet;C;4;;;;J;J;I;N;514161;[inte lämnat förklaring];;;;;0;;N
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;1;N;J;J;I;402853;Lisbet Mörk-Amnelius;64;K;Älvdalen;Älvdalen;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;2;N;J;J;I;490175;Ingvar "Nille" Niilimaa;71;M;Mora;Mora;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;3;N;J;J;I;490176;Björn Hammarskjöld;76;M;Mora;Mora;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;4;N;J;J;I;402854;Östen Sjögren;76;M;Älvdalen;Älvdalen;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;5;N;J;J;I;490178;Mattias Eriksson;26;M;Orsa;Orsa;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;6;N;J;J;I;402864;Anitha Jerlerud;64;K;Älvdalen;Älvdalen;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;7;N;J;J;I;497979;Marie Lund;32;K;Mora;Mora;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;8;N;J;J;I;490180;Jenny Back-Ågren;38;K;Mora;Mora;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;9;N;J;J;I;402855;Birgitta Sjögren;75;K;Älvdalen;Älvdalen;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;10;N;J;J;I;490182;Madeleine Figgé;45;K;Borlänge;Borlänge;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;11;N;J;J;I;490183;Chatarina Nyström;55;K;Mora;Mora;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;12;N;J;J;I;490184;Johnny Larsson;54;M;Älvdalen;Falun;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;13;N;J;J;I;497985;Maria Frelin;50;K;Mora;Mora;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;14;N;J;J;I;402860;Evy Lindén;72;K;Älvdalen;Älvdalen;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;15;N;J;J;I;187948;Jimmy Karlsson;63;M;Leksand;Leksand;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;16;N;J;J;I;497988;Maria Bäckström;48;K;Mora;Mora;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;17;N;J;J;I;402858;Stig Amnelius;79;M;Älvdalen;Älvdalen;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;18;N;J;J;I;497990;Kristina Eriksson;55;K;Smedjebacken;Smedjebacken;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;19;N;J;J;I;490188;Ola Storkitt;53;M;Borlänge;Borlänge;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;20;N;J;J;I;490189;Gösta Sarholm;76;M;Rättvik;Rättvik;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;21;N;J;J;I;239770;Per-Ola Sjödén;68;M;Malung-Sälen;Malung-Sälen;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;22;N;J;J;I;490191;Lena Hed Sandlund;68;K;Mora;Mora;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;23;N;J;J;I;490192;Tatiana "Tanja" Krigsman;44;K;Säter;Säter;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;24;N;J;J;I;490193;Lena Lorens;61;K;Avesta;Avesta;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;25;N;J;J;I;490194;Christina Morath;73;K;Vansbro;Vansbro;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;26;N;J;J;I;490195;Lennart Hedberg;73;M;Rättvik;Rättvik;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;27;N;J;J;I;187952;David Edin;38;M;Leksand;Leksand;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;28;N;J;J;I;490197;K. Ingemar Similä;87;M;Rättvik;Rättvik;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;29;N;J;J;I;490198;Helena Hammarskjöld;61;K;Mora;Mora;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;30;N;J;J;I;392146;Grazyna Björklund;67;K;Vansbro;Vansbro;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;31;N;J;J;I;490200;Elg Kerstin Similä;80;K;Rättvik;Rättvik;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;32;N;J;J;I;490201;Birgit Nilsson;65;K;Mora;Mora;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15506;33;N;J;J;I;490202;Leif Arvidsson;50;M;Borlänge;Borlänge;120000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;1;N;J;J;I;402853;Lisbet Mörk-Amnelius;64;K;Älvdalen;Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;2;N;J;J;I;490189;Gösta Sarholm;76;M;Rättvik;Rättvik;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;3;N;J;J;I;187952;David Edin;38;M;Leksand;Leksand;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;4;N;J;J;I;490176;Björn Hammarskjöld;76;M;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;5;N;J;J;I;392146;Grazyna Björklund;67;K;Vansbro;Vansbro;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;6;N;J;J;I;239770;Per-Ola Sjödén;68;M;Malung-Sälen;Malung-Sälen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;7;N;J;J;I;490192;Tatiana "Tanja" Krigsman;44;K;Säter;Säter;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;8;N;J;J;I;490175;Ingvar "Nille" Niilimaa;71;M;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;9;N;J;J;I;490195;Lennart Hedberg;73;M;Rättvik;Rättvik;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;10;N;J;J;I;187948;Jimmy Karlsson;63;M;Leksand;Leksand;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;11;N;J;J;I;490194;Christina Morath;73;K;Vansbro;Vansbro;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;12;N;J;J;I;497979;Marie Lund;32;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;13;N;J;J;I;402854;Östen Sjögren;76;M;Älvdalen;Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;14;N;J;J;I;490180;Jenny Back-Ågren;38;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;15;N;J;J;I;497990;Kristina Eriksson;55;K;Smedjebacken;Smedjebacken;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;16;N;J;J;I;402864;Anitha Jerlerud;64;K;Älvdalen;Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;17;N;J;J;I;497988;Maria Bäckström;48;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;18;N;J;J;I;490193;Lena Lorens;61;K;Avesta;Avesta;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;19;N;J;J;I;490188;Ola Storkitt;53;M;Borlänge;Borlänge;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;20;N;J;J;I;490183;Chatarina Nyström;55;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;21;N;J;J;I;490178;Mattias Eriksson;26;M;Orsa;Orsa;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;22;N;J;J;I;402860;Evy Lindén;72;K;Älvdalen;Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;23;N;J;J;I;490191;Lena Hed Sandlund;68;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;24;N;J;J;I;490182;Madeleine Figgé;45;K;Borlänge;Borlänge;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;25;N;J;J;I;490184;Johnny Larsson;54;M;Älvdalen;Falun;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;26;N;J;J;I;497985;Maria Frelin;50;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;27;N;J;J;I;490197;K. Ingemar Similä;87;M;Rättvik;Rättvik;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;28;N;J;J;I;490198;Helena Hammarskjöld;61;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;29;N;J;J;I;490200;Elg Kerstin Similä;80;K;Rättvik;Rättvik;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;30;N;J;J;I;490201;Birgit Nilsson;65;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;31;N;J;J;I;402855;Birgitta Sjögren;75;K;Älvdalen;Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;32;N;J;J;I;402858;Stig Amnelius;79;M;Älvdalen;Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15507;33;N;J;J;I;490202;Leif Arvidsson;50;M;Borlänge;Borlänge;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;1;N;J;J;I;402853;Lisbet Mörk-Amnelius;64;K;Älvdalen;Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;2;N;J;J;I;490182;Madeleine Figgé;45;K;Borlänge;Borlänge;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;3;N;J;J;I;490184;Johnny Larsson;54;M;Älvdalen;Falun;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;4;N;J;J;I;490192;Tatiana "Tanja" Krigsman;44;K;Säter;Säter;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;5;N;J;J;I;490193;Lena Lorens;61;K;Avesta;Avesta;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;6;N;J;J;I;490175;Ingvar "Nille" Niilimaa;71;M;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;7;N;J;J;I;187948;Jimmy Karlsson;63;M;Leksand;Leksand;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;8;N;J;J;I;490189;Gösta Sarholm;76;M;Rättvik;Rättvik;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;9;N;J;J;I;490194;Christina Morath;73;K;Vansbro;Vansbro;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;10;N;J;J;I;490202;Leif Arvidsson;50;M;Borlänge;Borlänge;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;11;N;J;J;I;490176;Björn Hammarskjöld;76;M;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;12;N;J;J;I;497985;Maria Frelin;50;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;13;N;J;J;I;187952;David Edin;38;M;Leksand;Leksand;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;14;N;J;J;I;392146;Grazyna Björklund;67;K;Vansbro;Vansbro;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;15;N;J;J;I;490180;Jenny Back-Ågren;38;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;16;N;J;J;I;490195;Lennart Hedberg;73;M;Rättvik;Rättvik;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;17;N;J;J;I;490191;Lena Hed Sandlund;68;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;18;N;J;J;I;402860;Evy Lindén;72;K;Älvdalen;Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;19;N;J;J;I;490178;Mattias Eriksson;26;M;Orsa;Orsa;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;20;N;J;J;I;497988;Maria Bäckström;48;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;21;N;J;J;I;239770;Per-Ola Sjödén;68;M;Malung-Sälen;Malung-Sälen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;22;N;J;J;I;490188;Ola Storkitt;53;M;Borlänge;Borlänge;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15583;23;N;J;J;I;497990;Kristina Eriksson;55;K;Smedjebacken;Smedjebacken;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;1;N;J;J;I;402853;Lisbet Mörk-Amnelius;64;K;Älvdalen;Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;2;N;J;J;I;490175;Ingvar "Nille" Niilimaa;71;M;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;3;N;J;J;I;490192;Tatiana "Tanja" Krigsman;44;K;Säter;Säter;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;4;N;J;J;I;490184;Johnny Larsson;54;M;Älvdalen;Falun;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;5;N;J;J;I;239770;Per-Ola Sjödén;68;M;Malung-Sälen;Malung-Sälen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;6;N;J;J;I;187952;David Edin;38;M;Leksand;Leksand;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;7;N;J;J;I;490176;Björn Hammarskjöld;76;M;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;8;N;J;J;I;490193;Lena Lorens;61;K;Avesta;Avesta;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;9;N;J;J;I;402854;Östen Sjögren;76;M;Älvdalen;Särna Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;10;N;J;J;I;497985;Maria Frelin;50;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;11;N;J;J;I;392146;Grazyna Björklund;67;K;Vansbro;Vansbro;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;12;N;J;J;I;490189;Gösta Sarholm;76;M;Rättvik;Rättvik;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;13;N;J;J;I;490182;Madeleine Figgé;45;K;Borlänge;Borlänge;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;14;N;J;J;I;497990;Kristina Eriksson;55;K;Smedjebacken;Smedjebacken;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;15;N;J;J;I;490180;Jenny Back-Ågren;38;K;Mora;Nusnäs Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;16;N;J;J;I;402860;Evy Lindén;72;K;Älvdalen;Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;17;N;J;J;I;497979;Marie Lund;32;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;18;N;J;J;I;490194;Christina Morath;73;K;Vansbro;Dala-Järna Vansbro;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;19;N;J;J;I;490195;Lennart Hedberg;73;M;Rättvik;Rättvik;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;20;N;J;J;I;497988;Maria Bäckström;48;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;21;N;J;J;I;490188;Ola Storkitt;53;M;Borlänge;Borlänge;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;22;N;J;J;I;402864;Anitha Jerlerud;64;K;Älvdalen;Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;23;N;J;J;I;490183;Chatarina Nyström;55;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;24;N;J;J;I;187948;Jimmy Karlsson;63;M;Leksand;Leksand;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;25;N;J;J;I;490197;K. Ingemar Similä;87;M;Rättvik;Rättvik;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;26;N;J;J;I;490178;Mattias Eriksson;26;M;Orsa;Orsa;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;27;N;J;J;I;402855;Birgitta Sjögren;75;K;Älvdalen;Särna Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;28;N;J;J;I;490191;Lena Hed Sandlund;68;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;29;N;J;J;I;490200;Elg Kerstin Similä;80;K;Rättvik;Rättvik;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;30;N;J;J;I;402858;Stig Amnelius;79;M;Älvdalen;Särna Älvdalen;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;31;N;J;J;I;490202;Leif Arvidsson;50;M;Borlänge;Borlänge;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;32;N;J;J;I;490201;Birgit Nilsson;65;K;Mora;Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;S;15584;33;N;J;J;I;490198;Helena Hammarskjöld;61;K;Mora;Vika Mora;150000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Dalarnas Sjukvårdsparti;dsp;472;;;;N;J;J;I;497986;[saknas i folkbokföringen];72;K;[saknas i folkbokföringen];;0;;N
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;1;J;J;I;J;9173;Birgitta Sacrédeus;59;K;Mora;landstingsråd, Mora;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;2;J;J;I;J;9153;Torsten Larsson;63;M;Vansbro;ekonom, Dala-Järna;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;3;J;J;I;J;9175;Jonas Hillerström;35;M;Borlänge;tjänsteman, Torsång;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;4;J;J;I;J;9150;Carin Malm;59;K;Leksand;statsvetare, Insjön;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;5;J;J;I;J;9164;Roy Uppgård;69;M;Avesta;företagare, Avesta;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;6;J;J;I;J;9178;Anders Bengtsson;53;M;Gagnef;socionom, Gagnef;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;7;J;J;I;J;9152;Lena Paajanen;55;K;Borlänge;undersköterska, Borlänge;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;8;J;J;I;J;9180;Katarina Gustavsson;64;K;Falun;undersköterska, Falun;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;9;J;J;I;J;9181;Daniel Ericgörs;44;M;Säter;CNC-operatör, Gustafs;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;10;J;J;I;J;9154;Helena Vådegård;43;K;Säter;lärare, Säter;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;11;J;J;I;J;9161;Lena Johansson;57;K;Rättvik;sjukgymnast, Rättvik;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;12;J;J;I;J;9184;Johan Paulsen;35;M;Leksand;läkare, Leksand;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;13;J;J;I;J;9185;Heidi Löppönen;37;K;Borlänge;distriktssköterska, Borlänge;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;14;J;J;I;J;9186;Bengt-Åke Svahn;72;M;Orsa;Orsa;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;15;J;J;I;J;9163;Bodil Sundquist;74;K;Ludvika;lärare, Ludvika;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;16;J;J;I;J;9188;Zbigniew Karczewski;67;M;Mora;lärare, Mora;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;17;J;J;I;J;9189;Elisabeth Svensdotter;61;K;Mora;barnmorska, Nusnäs;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;18;J;J;I;J;9190;Robert Söderberg;51;M;Orsa;marknadssamordnare, Orsa;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;19;J;J;I;J;9191;Ilona Nyland;73;K;Falun;terapeut, Falun;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;20;J;J;I;J;9192;Daniel Caesar;45;M;Gagnef;butikssäljare, Gagnef;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;21;J;J;I;J;9165;Elin Åhman;42;K;Borlänge;grundskollärare, Borlänge;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;22;J;J;I;J;9195;Roger Westlund;50;M;Falun;tentamenssamordnare, Falun;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristdemokraterna;KD;68;S;11873;23;J;J;I;J;9196;Lars Nilsson;70;M;Malung-Sälen;Malung;384000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristna Värdepartiet;KrVP;1140;S;15722;1;N;J;J;I;480109;Bengt-Olov Söderkvist;56;M;Avesta;IT-ingenjör/elektriker, 56, Fors/Avesta;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Kristna Värdepartiet;KrVP;1140;S;15722;2;N;J;J;I;507876;Torbjörn Bergebrant;57;M;Säter;Skötare, 57, Stora Skedvi/Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;131867;Wall, Inga;62;K;Älvdalen;;0;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;514161;Johansson, Bertil;56;M;Älvdalen;;0;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;1;J;J;I;J;156314;Bo Brännström;63;M;Avesta;63 år Adjunkt, Avesta;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;2;J;J;I;J;165055;Lotten Kluck;50;K;Leksand;50 år Utvecklingsledare, Leksand;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;3;J;J;I;J;49206;Svante Parsjö Tegnér;54;M;Falun;54 år Lärare, Falun;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;4;J;J;I;J;156313;Anna Eling;48;K;Hedemora;48 år Företagare, Långshyttan/Hedemora;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;5;J;J;I;J;165058;John Thornander;52;M;Borlänge;52 år Ombudsman/Bussförare, Borlänge;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;6;J;J;I;J;156317;Jörgen Öhrström;55;M;Mora;55 år Ingenjör, Mora;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;7;J;J;I;J;156318;Julia Hållberg;20;K;Borlänge;20 år Studerande, Borlänge;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;8;J;J;I;J;165061;Jon Bylund;42;M;Falun;42 år Projektledare IT, Falun;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;9;J;J;I;J;156320;Åsa Nilser;57;K;Falun;57 år Civilekonom, Falun;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;10;J;J;I;J;165063;Christer Iversen;69;M;Gagnef;69 år Egenföretagare, Gagnef;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;11;J;J;I;J;156319;Mats-Gunnar Eriksson;57;M;Mora;57 år Verktygsmakare, Mora;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;12;J;J;I;J;156323;Hanna Romelin;24;K;Mora;24 år Lärarstuderande,Mora;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;13;J;J;I;J;156316;Martina Elfström;38;K;Malung-Sälen;38 år Leg. Lärare, Malung-Sälen;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;14;J;J;I;J;156322;Arne Lissmats;63;M;Borlänge;63 år Elingenjör, Borlänge;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;15;J;J;I;J;156324;Tomas Grundell;62;M;Rättvik;62 år Handledare/Administratör, Rättvik;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;16;J;J;I;J;156325;Susanne Säbb Danielsson;51;K;Rättvik;51 år Egenföretagare, Rättvik;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;17;J;J;I;J;165070;Anna-Maria Norén;68;K;Mora;68 år Pensionär, Mora;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;18;J;J;I;J;165071;David Gustafsson;36;M;Vansbro;36 år Säljare, Vansbro;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;19;J;J;I;J;156321;Jonna Stenberg;27;K;Säter;27 år Lastbilschaufför, Säter;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;20;J;J;I;J;165073;Thomas Ericsson;58;M;Malung-Sälen;58 år Företagare, Malung-Sälen;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;21;J;J;I;J;165074;Tommie Lif;39;M;Smedjebacken;39 år Lastbilschaufför, Smedjebacken;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Liberalerna (tidigare Folkpartiet);L;3;S;15637;22;J;J;I;J;156329;Olle Jobs;79;M;Orsa;79 år Pensionär, Orsa;234000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;1;N;J;J;I;420363;Tony Nyberg;57;M;Borlänge;Egen företagare;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;2;N;J;J;I;420364;Bernt Danielsson;77;M;Borlänge;Fd. egen företagare;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;3;N;J;J;I;420365;Kjell Mosell;65;M;Borlänge;Mekaniker;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;4;N;J;J;I;511055;Gudrun Thenander;72;K;Borlänge;Egen företagare;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;5;N;J;J;I;511056;Tom Hartmeyer;55;M;Borlänge;Kock;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;6;N;J;J;I;512275;Jeanette Eliasson;57;K;Borlänge;Undersköterska;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;7;N;J;J;I;511057;Olga Sjödén;42;K;Borlänge;Sjuksköterska;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;8;N;J;J;I;511058;Björn Morten Vestman;57;M;Borlänge;Trafiklärare;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;9;N;J;J;I;511059;Franz Baumann;60;M;Borlänge;Egen företagare;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;10;N;J;J;I;511060;Sandra Olsson;35;K;Borlänge;Studerande;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;11;N;J;J;I;511061;Irina Basova;32;K;Borlänge;Ekonom;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;12;N;J;J;I;511062;Sandra Koivu;36;K;Borlänge;Entreprenör;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;13;N;J;J;I;511063;Kjell Jonsson;64;M;Borlänge;Travtränare;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;14;N;J;J;I;511065;Nadejda Verlan;60;K;Borlänge;Ingenjör;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;15;N;J;J;I;511066;Ulf Jonasson;61;M;Borlänge;Busschaufför;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;16;N;J;J;I;511067;PA Börje A Eliasson;71;M;Borlänge;Entreprenör;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;17;N;J;J;I;511068;Hans Andersson;73;M;Säter;Fd egen företagare;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Medborgarnas Politiska Parti i Sverige;MPPS;1367;S;15835;18;N;J;J;I;511064;Sven Lindbom;77;M;Säter;Pensionär;56000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;1;J;J;I;J;114139;Mursal Isa;36;M;Borlänge;Borlänge, landstingsråd;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;2;J;J;I;J;114146;Kerstin Lundh;68;K;Hedemora;Hedemora, leg sjuksköterska;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;3;J;J;I;J;94833;Jonas Åsenius;43;M;Falun;Falun, gymnasielärare;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;4;J;J;I;J;94806;Maj Ardesjö;58;K;Falun;Falun, miljöhandläggare;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;5;J;J;I;J;114189;Anneli Qvicker;55;K;Älvdalen;Älvdalen, frisörföretagare;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;6;J;J;I;J;94977;Linus Fransson;21;M;Avesta;Avesta, juriststudent;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;7;J;J;I;J;114147;Thor Draiby;32;M;Smedjebacken;Smedjebacken;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;8;J;J;I;J;94824;Karolina Brosché;33;K;Falun;Falun, IKT- och språkpedagog;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;9;J;J;I;J;94976;Heidi Sjungargård;50;K;Avesta;Avesta;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;10;J;J;I;J;94842;Niklas Henriksson;55;M;Falun;Falun, utredare kollektivtrafik;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;11;J;J;I;J;94561;Magnus Gabrielson;58;M;Säter;Säter, IT-konsult;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;12;J;J;I;J;114196;Åsa Wikberg;38;K;Ludvika;Ludvika, nationalekonom;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;13;J;J;I;J;114145;Aron Knifström;33;M;Ludvika;Ludvika, distributör;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;14;J;J;I;J;114106;Maria Alfredsson;53;K;Gagnef;Gagnef, rektor;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;15;J;J;I;J;94981;Gert Lundqvist;73;M;Avesta;Avesta, läkare;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;16;J;J;I;J;94823;Mats Wiklund;62;M;Falun;Falun, leg sjukgymnast;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;17;J;J;I;J;114200;Monika Utter;66;K;Ludvika;Ludvika, pensionerad lärare och undersköterska;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;18;J;J;I;J;114150;Helena Andersson;51;K;Älvdalen;Älvdalen, egenföretagare;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;19;J;J;I;J;114140;Mikael Hjort;34;M;Ludvika;Ludvika, civilingenjör;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;20;J;J;I;J;114204;Elina Brodén;33;K;Borlänge;Borlänge, samhällsplanerare;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;21;J;J;I;J;94825;Kenth Carlson;68;M;Falun;Falun, hälsorådgivare;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;22;J;J;I;J;114152;Calle Morgården;66;M;Smedjebacken;Smedjebacken, gårdskarl;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;23;J;J;I;J;94840;Inger Jacobsson;69;K;Falun;Falun, leg sjuksköterska;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;24;J;J;I;J;94829;Richard Holmqvist;73;M;Falun;Falun, civilingenjör;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;25;J;J;I;J;114155;Ingmari Nilsson;57;K;Älvdalen;Älvdalen, lärare;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;26;J;J;I;J;114210;Krystyna Karlsson;70;K;Hedemora;Hedemora, pensionerad undersköterska;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;27;J;J;I;J;114156;Barbro Gossas;63;K;Borlänge;Borlänge;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;28;J;J;I;J;114159;Nicklas Vidlund Bjurman;35;M;Borlänge;Borlänge, lärare;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;29;J;J;I;J;114214;Mikael Nilsson;62;M;Älvdalen;Älvdalen, hållbarhetskonsult;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;30;J;J;I;J;94837;Staffan Mild;71;M;Falun;Falun, leg sjuksköterska;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;31;J;J;I;J;114216;Joep Meens;65;M;Orsa;Orsa, teknisk fysiker, didaktiker;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;32;J;J;I;J;94827;Linus Lindgren;30;M;Falun;Falun, omsorgsarbetare;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Miljöpartiet de gröna;MP;55;S;15338;33;J;J;I;J;114154;Sven Fernlund Skagerud;63;M;Borlänge;Borlänge;520000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;1;J;J;I;J;36168;Ulf Berg;61;M;Avesta;61 år, oppositionsråd,polis, Avesta;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;2;J;J;I;J;35815;Christer Carlsson;54;M;Falun;54 år, oppositionsråd, ambulanssjuksköterska, Falun;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;3;J;J;I;J;35814;Charlotte Wiberg Gudmundsson;51;K;Malung-Sälen;51 år, projektledare, Malung-Sälen;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;4;J;J;I;J;36171;Gunilla Franklin;58;K;Falun;58 år, distriktssköterska, Falun;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;5;J;J;I;J;35812;Mikael Rosén;63;M;Falun;63 år, advokat, Falun;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;6;J;J;I;J;35813;HåGe Persson;45;M;Ludvika;45 år, oppositionsråd, lärare, Ludvika;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;7;J;J;I;J;35810;Ulrik Bergman;48;M;Borlänge;48 år, civilekonom, Borlänge;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;8;J;J;I;J;36175;Håkan Frank;63;M;Ludvika;63 år, skattedirektör, Ludvika;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;9;J;J;I;J;35818;Sebastian Larsson;25;M;Leksand;25 år, VVS-montör, Leksand;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;10;J;J;I;J;36177;Carina Källström;66;K;Älvdalen;66 år, verksamhetschef, tandläkare, Älvdalen;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;11;J;J;I;J;35825;Martin Bergman;21;M;Falun;21 år, egenföretagare, Falun;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;12;J;J;I;J;35824;Caroline Willfox;33;K;Säter;33 år, egenföretagare, Säter;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;13;J;J;I;J;36180;Anna Granlund;38;K;Borlänge;38 år, biografanställd, Borlänge;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;14;J;J;I;J;36181;Britt-Inger Remning;64;K;Hedemora;64 år, legitimerad sjukgymnast, Hedemora;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;15;J;J;I;J;36182;Christina Brunell;70;K;Smedjebacken;70 år, fd polis, Smedjebacken;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;16;J;J;I;J;35819;Nils-Åke Norman;63;M;Älvdalen;63 år, oppositionsråd, Älvdalen;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;17;J;J;I;J;35821;Catharina Enhörning;49;K;Falun;49 år, internationell handläggare, konsult, Falun;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;18;J;J;I;J;36185;Kjell Israelsson;68;M;Ludvika;68 år, ekonom, pensionär, Ludvika;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;19;J;J;I;J;36186;Leif Bergh;74;M;Falun;74 år, fd revisionschef, Falun;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;20;J;J;I;J;36187;Lena Bertelsen;45;K;Älvdalen;45 år, statsvetare, Älvdalen;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;21;J;J;I;J;36188;Feasl Kheder Alyas;27;M;Borlänge;27 år, handläggare, Borlänge;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;22;J;J;I;J;36189;Göran Forsén;58;M;Falun;58 år, landsbygdsutvecklare, Falun;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;23;J;J;I;J;36190;Kent Svens;59;M;Falun;59 år, affärschef, Falun;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;24;J;J;I;J;36191;Kerstin Borg;65;K;Borlänge;65 år, undersköterska, Borlänge;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;25;J;J;I;J;35827;Mikael Östling;40;M;Malung-Sälen;40 år, egenföretagare, Malung-Sälen;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;26;J;J;I;J;36193;Mikael Sandy;36;M;Falun;36 år, advokat, Falun;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;27;J;J;I;J;35820;Agneta Nyvall;56;K;Borlänge;56 år, oppostitionsråd, Borlänge;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;28;J;J;I;J;36195;Anders Bringborn;73;M;Borlänge;73 år, fil kand, Borlänge;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;29;J;J;I;J;36196;Christer Juhlin;65;M;Mora;65 år, pensionär, Mora;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;30;J;J;I;J;35833;Sofia Axelsson;23;K;Hedemora;23 år, student, Hedemora;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;31;J;J;I;J;36198;Jan Wiklund;58;M;Gagnef;58 år, informatör, Gagnef;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;32;J;J;I;J;36199;Cecilia Tomtlund;44;K;Smedjebacken;44 år, handledare AME, Smedjebacken;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;33;J;J;I;J;35829;Erik Gustafsson;53;M;Malung-Sälen;53 år, samordnare, Malung-Sälen;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;34;J;J;I;J;36201;Erik Johansson;43;M;Rättvik;43 år, byggnadsplåtslagare, Rättvik;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;35;J;J;I;J;36202;Maarit Hessling;65;K;Avesta;65 år, statstjänsteman, Avesta;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;36;J;J;I;J;36203;Peter Vogt;62;M;Gagnef;62 år, partiombudsman, Gagnef;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;37;J;J;I;J;36204;Gunnel Söderberg;64;K;Mora;64 år, keramiker, Mora;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;38;J;J;I;J;36205;Joakim Larsson;54;M;Orsa;54 år, civilekonom, Orsa;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;39;J;J;I;J;36206;Hans Moberg;64;M;Borlänge;64 år, VD, Borlänge;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;40;J;J;I;J;36207;Stefan Olsson;56;M;Vansbro;56 år, inköpare, Vansbro;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;41;J;J;I;J;36208;Malin Holmström;47;K;Älvdalen;47 år, personlig assistent, Älvdalen;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;42;J;J;I;J;36209;Linda Kardell Broman;43;K;Ludvika;43 år, undersköterska, Ludvika;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;43;J;J;I;J;36210;Patrick Svärd;34;M;Gagnef;34 år, projektingenjör, Gagnef;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;44;J;J;I;J;36211;Filip Jonsson;19;M;Falun;19 år, studerande, Falun;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;45;J;J;I;J;105442;Kjell Gustafsson;70;M;Falun;70 år, pensionär, Sundborn;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;46;J;J;I;J;36212;Håkan Nohrén;73;M;Falun;73 år, pensionär, Falun;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;47;J;J;I;J;35832;Martin Tomtlund;41;M;Smedjebacken;41 år, ordningsvakt, väktare, Smedjebacken;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;48;J;J;I;J;36215;Roger Siljeholm;63;M;Säter;63 år, marknadsekonom, Säter;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;49;J;J;I;J;36216;Gunilla Frelin;72;K;Orsa;72 år, egenföretagare, Orsa;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;50;J;J;I;J;35836;Jimmy Pasanen;37;M;Borlänge;37 år, planerare, Borlänge;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;51;J;J;I;J;36218;Lisa Larsbäck;41;K;Falun;41 år, ambulanssjuksköterska, Falun;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;52;J;J;I;J;35835;Fredrik Ollén;43;M;Rättvik;43 år, lärare, Rättvik;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;53;J;J;I;J;36220;Eva Vogt;60;K;Gagnef;60 år, specialpedagog, Gagnef;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;54;J;J;I;J;36221;Ronnie Persson;62;M;Orsa;62 år, yrkeschaufför, Orsa;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Moderaterna;M;1;S;12260;55;J;J;I;J;35834;Sten Hansson van Nes;57;M;Orsa;57 år, egenföretagare, Orsa;676000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Nordiska motståndsrörelsen;NMR;1273;S;15094;1;J;J;I;J;393462;Pär Öberg;47;M;Ludvika;47 år, elektriker;70000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Nordiska motståndsrörelsen;NMR;1273;S;15094;2;J;J;I;J;393463;Pär Sjögren;38;M;Ludvika;38 år, infrastrukturarbetare;70000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Nordiska motståndsrörelsen;NMR;1273;S;15094;3;J;J;I;J;393464;Haakon Forwald;39;M;Ludvika;39 år, butiksarbetare;70000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Nordiska motståndsrörelsen;NMR;1273;S;15094;4;J;J;I;J;393465;Nicklas Norling;28;M;Ludvika;28 år, VVS-montör;70000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Nordiska motståndsrörelsen;NMR;1273;S;15094;5;J;J;I;J;393466;Emma Karlsson;32;K;Ludvika;31 år, barnskötare;70000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Nordiska motståndsrörelsen;NMR;1273;S;15094;6;J;J;I;J;393467;Markus Nordh;35;M;Ludvika;35 år, civilingenjör;70000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Nordiska motståndsrörelsen;NMR;1273;S;15094;7;J;J;I;J;393468;Jimmy Björk;34;M;Ludvika;34 år, snickare;70000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Raggarpartiet;;1389;;;;N;J;J;I;512356;Ekman, Stefan;55;M;Ludvika;;0;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;1;J;J;I;J;125910;Benny Rosengren;61;M;Ludvika;Linkontrollör, Grängesberg;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;2;J;J;I;J;125883;Sonny Pettersson;53;M;Borlänge;Egenföretagare, Borlänge;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;3;J;J;I;J;125901;Mats Nordberg;60;M;Falun;Skogsindustrispecialist, Falun;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;4;J;J;I;J;125831;Per-Ola Ahlström;46;M;Avesta;Säljare, Krylbo;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;5;J;J;I;J;39801;Roine Andersson;54;M;Orsa;Service, Orsa;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;6;J;J;I;J;36051;Inge Östlund;60;M;Rättvik;Egenföretagare, Furudal;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;7;J;J;I;J;36741;Marie Jakobsson;50;K;Säter;Driftpersonal, Gustafs;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;8;J;J;I;J;125929;Johan Persson;33;M;Smedjebacken;Industriarbetare, Smedjebacken;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;9;J;J;I;J;125881;Kent Forschner-Hell;71;M;Borlänge;Egenföretagare, Borlänge;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;10;J;J;I;J;125908;Matti Trogothsson;22;M;Falun;Personlig assistent, Svärdsjö;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;11;J;J;I;J;35149;Bror Markus;71;M;Mora;Fritidsförvaltare, Sollerön;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;12;J;J;I;J;125912;Fredrik Trygg;52;M;Ludvika;Bryggeriarbetare, Grängesberg;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;13;J;J;I;J;125889;Anders Fredriksson;70;M;Borlänge;Pensionär, Borlänge;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;14;J;J;I;J;125837;Tony Femtler;53;M;Avesta;Säljare, Avesta;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;15;J;J;I;J;35153;Pär Dalkvist;44;M;Mora;Sjuksköterska, Mora;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;16;J;J;I;J;125906;Tony Källgren;58;M;Falun;Egenföretagare, Bjursås;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;17;J;J;I;J;125934;Aleksandra Børgesen;43;K;Smedjebacken;Leg.tandhygienist, Söderbärke;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;18;J;J;I;J;125884;Kenneth Tjernberg;68;M;Borlänge;Egenföretagare, Borlänge;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;19;J;J;I;J;125907;Jim Aronsson;33;M;Falun;Servicetekniker, Falun;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;20;J;J;I;J;125833;Margareta Lindgren;71;K;Avesta;Bussförare, Avesta;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;21;J;J;I;J;37233;Tomas Andersson;54;M;Älvdalen;Företagare, Särna;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;22;J;J;I;J;35150;Lars-Erik Lohman;73;M;Mora;Byggnadsingenjör, Mora;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;23;J;J;I;J;125913;Mari Karlsson Björk;29;K;Ludvika;Undersköterska, Grängesberg;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;24;J;J;I;J;125885;Anita Tjernberg;63;K;Borlänge;Kyrkvaktare, Borlänge;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;25;J;J;I;J;36990;Marit Andersson;49;K;Hedemora;Restaurangbiträde, Hedemora;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;26;J;J;I;J;125933;Jerry Jäger;69;M;Smedjebacken;Kiropraktor, Smedjebacken;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;27;J;J;I;J;125880;Kjell Forslund;77;M;Borlänge;Pensionär, Borlänge;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;28;J;J;I;J;125832;Martti Hopponen;77;M;Avesta;Målare, Horndal;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;29;J;J;I;J;35151;Simon Granath;23;M;Mora;Elevassistent, Mora;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;30;J;J;I;J;125919;Annkatrin Krainer;55;K;Ludvika;Undersköterska, Grängesberg;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;31;J;J;I;J;125903;Knut C.A. Scherman;75;M;Falun;Pensionär, Falun;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;32;J;J;I;J;125888;Peter Karlsson;47;M;Borlänge;Industriarbetare, Borlänge;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;33;J;J;I;J;36419;Anna-Lena Blomkvist;45;K;Leksand;Medicinsk sekreterare, Leksand;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;34;J;J;I;J;125931;Pia Johansson;53;K;Smedjebacken;Jurist, Storsand;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;35;J;J;I;J;125914;Torbjörn Norman;50;M;Ludvika;Montör, Grängesberg;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;36;J;J;I;J;125887;Benny Sjöblom;67;M;Borlänge;Assistent, Borlänge;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;37;J;J;I;J;35154;Therese Mörk;39;K;Mora;Vårdare, Mora;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;38;J;J;I;J;101069;Mats Larsson;60;M;Malung-Sälen;Skogsmästare, Malungsfors;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;39;J;J;I;J;125922;Jarmo Jokikari;51;M;Ludvika;Montör, Grängesberg;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;40;J;J;I;J;125930;Tobias Johansson;27;M;Smedjebacken;Smörjare, Storsand;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;41;J;J;I;J;36989;Gunilla Brandt Jonsson;61;K;Hedemora;Undersköterska, Hedemora;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;42;J;J;I;J;125895;Stefan Andersson;50;M;Borlänge;Industriarbetare, Borlänge;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;43;J;J;I;J;125916;Mattias Kron Eriksson;40;M;Ludvika;Bryggeriarbetare, Grängesberg;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;44;J;J;I;J;125932;Per-Erik Hellström;51;M;Smedjebacken;Jord- och skogsbruk, Nyfors;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Sverigedemokraterna;SD;110;S;15279;45;J;J;I;J;125897;Carina Sjöblom;63;K;Borlänge;Pensionär, Borlänge;719000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;1;J;J;I;J;64068;Maja Gilbert Westholm;69;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;2;J;J;I;J;63811;Kajsa Fredholm;56;K;Leksand;Leksand;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;3;J;J;I;J;63816;David Örnberg;54;M;Mora;Mora;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;4;J;J;I;J;63817;Josefin Heed;31;K;Avesta;Avesta;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;5;J;J;I;J;46775;Matts Hammarqvist;33;M;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;6;J;J;I;J;64073;Zohreh Anhari;53;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;7;J;J;I;J;64074;Mathias Edbäck;30;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;8;J;J;I;J;63821;Birgitta "Fia" Wikström;53;K;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;9;J;J;I;J;78665;Lars Holmgren;67;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;10;J;J;I;J;78666;Jenny Axelson-Fisk;44;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;11;J;J;I;J;64076;Sten G Johansson;70;M;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;12;J;J;I;J;63825;Audrina Handegard;31;K;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;13;J;J;I;J;64078;David Steen;42;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;14;J;J;I;J;64079;Lillebil Högberg Hermelin;68;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;15;J;J;I;J;46795;Kenneth Petersson;71;M;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;16;J;J;I;J;46776;Valida Cicen;34;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;17;J;J;I;J;64082;Petri Stenport;42;M;Orsa;Orsa;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;18;J;J;I;J;63819;Ida Friberg;44;K;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;19;J;J;I;J;64084;Katrin Lohed Söderman;66;K;Rättvik;Rättvik;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;20;J;J;I;J;64085;Patrik Liljeglöd;39;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;21;J;J;I;J;64094;Monica Lindh;68;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;22;J;J;I;J;46781;Maude Nordfeldt Holmqvist;61;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;23;J;J;I;J;64087;Sten-Olof Eklund;62;M;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;24;J;J;I;J;63826;Britt Marie Strömbäck;59;K;Malung-Sälen;Malung-Sälen;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;25;J;J;I;J;64089;Robert Göransson;47;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;26;J;J;I;J;64090;Ewa Berglund;60;K;Leksand;Leksand;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;27;J;J;I;J;64091;Thomas Sjöberg;52;M;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;28;J;J;I;J;46799;Lena Angberg;68;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;29;J;J;I;J;78685;Joel Bjurholm;25;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;30;J;J;I;J;78686;Steve Rosén;62;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12646;31;J;J;I;J;64093;Niclas Fors;32;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;1;J;J;I;J;64068;Maja Gilbert Westholm;69;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;2;J;J;I;J;63811;Kajsa Fredholm;56;K;Leksand;Leksand;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;3;J;J;I;J;63816;David Örnberg;54;M;Mora;Mora;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;4;J;J;I;J;63817;Josefin Heed;31;K;Avesta;Avesta;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;5;J;J;I;J;46775;Matts Hammarqvist;33;M;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;6;J;J;I;J;64073;Zohreh Anhari;53;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;7;J;J;I;J;64074;Mathias Edbäck;30;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;8;J;J;I;J;63821;Birgitta "Fia" Wikström;53;K;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;9;J;J;I;J;78665;Lars Holmgren;67;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;10;J;J;I;J;78666;Jenny Axelson-Fisk;44;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;11;J;J;I;J;64076;Sten G Johansson;70;M;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;12;J;J;I;J;63825;Audrina Handegard;31;K;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;13;J;J;I;J;64078;David Steen;42;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;14;J;J;I;J;64079;Lillebil Högberg Hermelin;68;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;15;J;J;I;J;46795;Kenneth Petersson;71;M;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;16;J;J;I;J;46776;Valida Cicen;34;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;17;J;J;I;J;64082;Petri Stenport;42;M;Orsa;Orsa;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;18;J;J;I;J;63819;Ida Friberg;44;K;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;19;J;J;I;J;64084;Katrin Lohed Söderman;66;K;Rättvik;Rättvik;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;20;J;J;I;J;64085;Patrik Liljeglöd;39;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;21;J;J;I;J;64094;Monica Lindh;68;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;22;J;J;I;J;46781;Maude Nordfeldt Holmqvist;61;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;23;J;J;I;J;64087;Sten-Olof Eklund;62;M;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;24;J;J;I;J;63826;Britt Marie Strömbäck;59;K;Malung-Sälen;Malung-Sälen;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;25;J;J;I;J;64089;Robert Göransson;47;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;26;J;J;I;J;64090;Ewa Berglund;60;K;Leksand;Leksand;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;27;J;J;I;J;64091;Thomas Sjöberg;52;M;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;28;J;J;I;J;46799;Lena Angberg;68;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;29;J;J;I;J;78685;Joel Bjurholm;25;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;30;J;J;I;J;78686;Steve Rosén;62;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12886;31;J;J;I;J;64093;Niclas Fors;32;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;1;J;J;I;J;64068;Maja Gilbert Westholm;69;K;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;2;J;J;I;J;63811;Kajsa Fredholm;56;K;Leksand;Leksand;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;3;J;J;I;J;63816;David Örnberg;54;M;Mora;Mora;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;4;J;J;I;J;63817;Josefin Heed;31;K;Avesta;Avesta;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;5;J;J;I;J;46775;Matts Hammarqvist;33;M;Borlänge;Borlänge;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;6;J;J;I;J;64073;Zohreh Anhari;53;K;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;7;J;J;I;J;64074;Mathias Edbäck;30;M;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;8;J;J;I;J;63821;Birgitta "Fia" Wikström;53;K;Säter;Säter;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;9;J;J;I;J;78665;Lars Holmgren;67;M;Smedjebacken;Smedjebacken;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;10;J;J;I;J;78666;Jenny Axelson-Fisk;44;K;Borlänge;Borlänge;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;11;J;J;I;J;64076;Sten G Johansson;70;M;Ludvika;Ludvika;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;12;J;J;I;J;63825;Audrina Handegard;31;K;Ludvika;Ludvika;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;13;J;J;I;J;64078;David Steen;42;M;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;14;J;J;I;J;64079;Lillebil Högberg Hermelin;68;K;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;15;J;J;I;J;46795;Kenneth Petersson;71;M;Borlänge;Borlänge;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;16;J;J;I;J;46776;Valida Cicen;34;K;Borlänge;Borlänge;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;17;J;J;I;J;64082;Petri Stenport;42;M;Orsa;Orsa;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;18;J;J;I;J;63819;Ida Friberg;44;K;Ludvika;Ludvika;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;19;J;J;I;J;64084;Katrin Lohed Söderman;66;K;Rättvik;Rättvik;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;20;J;J;I;J;64085;Patrik Liljeglöd;39;M;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;21;J;J;I;J;64094;Monica Lindh;68;K;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;22;J;J;I;J;46781;Maude Nordfeldt Holmqvist;61;K;Borlänge;Borlänge;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;23;J;J;I;J;64087;Sten-Olof Eklund;62;M;Säter;Säter;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;24;J;J;I;J;63826;Britt Marie Strömbäck;59;K;Malung-Sälen;Malung-Sälen;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;25;J;J;I;J;64089;Robert Göransson;47;M;Smedjebacken;Smedjebacken;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;26;J;J;I;J;64090;Ewa Berglund;60;K;Leksand;Leksand;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;27;J;J;I;J;64091;Thomas Sjöberg;52;M;Säter;Säter;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;28;J;J;I;J;46799;Lena Angberg;68;K;Borlänge;Borlänge;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;29;J;J;I;J;78685;Joel Bjurholm;25;M;Smedjebacken;Smedjebacken;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;30;J;J;I;J;78686;Steve Rosén;62;M;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12887;31;J;J;I;J;64093;Niclas Fors;32;M;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;1;J;J;I;J;64068;Maja Gilbert Westholm;69;K;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;2;J;J;I;J;63811;Kajsa Fredholm;56;K;Leksand;Leksand;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;3;J;J;I;J;63816;David Örnberg;54;M;Mora;Mora;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;4;J;J;I;J;63817;Josefin Heed;31;K;Avesta;Avesta;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;5;J;J;I;J;46775;Matts Hammarqvist;33;M;Borlänge;Borlänge;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;6;J;J;I;J;64073;Zohreh Anhari;53;K;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;7;J;J;I;J;64074;Mathias Edbäck;30;M;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;8;J;J;I;J;63821;Birgitta "Fia" Wikström;53;K;Säter;Säter;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;9;J;J;I;J;78665;Lars Holmgren;67;M;Smedjebacken;Smedjebacken;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;10;J;J;I;J;78666;Jenny Axelson-Fisk;44;K;Borlänge;Borlänge;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;11;J;J;I;J;64076;Sten G Johansson;70;M;Ludvika;Ludvika;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;12;J;J;I;J;63825;Audrina Handegard;31;K;Ludvika;Ludvika;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;13;J;J;I;J;64078;David Steen;42;M;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;14;J;J;I;J;64079;Lillebil Högberg Hermelin;68;K;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;15;J;J;I;J;46795;Kenneth Petersson;71;M;Borlänge;Borlänge;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;16;J;J;I;J;46776;Valida Cicen;34;K;Borlänge;Borlänge;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;17;J;J;I;J;64082;Petri Stenport;42;M;Orsa;Orsa;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;18;J;J;I;J;63819;Ida Friberg;44;K;Ludvika;Ludvika;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;19;J;J;I;J;64084;Katrin Lohed Söderman;66;K;Rättvik;Rättvik;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;20;J;J;I;J;64085;Patrik Liljeglöd;39;M;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;21;J;J;I;J;64094;Monica Lindh;68;K;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;22;J;J;I;J;46781;Maude Nordfeldt Holmqvist;61;K;Borlänge;Borlänge;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;23;J;J;I;J;64087;Sten-Olof Eklund;62;M;Säter;Säter;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;24;J;J;I;J;63826;Britt Marie Strömbäck;59;K;Malung-Sälen;Malung-Sälen;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;25;J;J;I;J;64089;Robert Göransson;47;M;Smedjebacken;Smedjebacken;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;26;J;J;I;J;64090;Ewa Berglund;60;K;Leksand;Leksand;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;27;J;J;I;J;64091;Thomas Sjöberg;52;M;Säter;Säter;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;28;J;J;I;J;46799;Lena Angberg;68;K;Borlänge;Borlänge;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;29;J;J;I;J;78685;Joel Bjurholm;25;M;Smedjebacken;Smedjebacken;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;30;J;J;I;J;78686;Steve Rosén;62;M;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12888;31;J;J;I;J;64093;Niclas Fors;32;M;Falun;Falun;3000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;1;J;J;I;J;64068;Maja Gilbert Westholm;69;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;2;J;J;I;J;63811;Kajsa Fredholm;56;K;Leksand;Leksand;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;3;J;J;I;J;63816;David Örnberg;54;M;Mora;Mora;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;4;J;J;I;J;63817;Josefin Heed;31;K;Avesta;Avesta;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;5;J;J;I;J;46775;Matts Hammarqvist;33;M;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;6;J;J;I;J;64073;Zohreh Anhari;53;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;7;J;J;I;J;64074;Mathias Edbäck;30;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;8;J;J;I;J;63821;Birgitta "Fia" Wikström;53;K;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;9;J;J;I;J;78665;Lars Holmgren;67;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;10;J;J;I;J;78666;Jenny Axelson-Fisk;44;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;11;J;J;I;J;64076;Sten G Johansson;70;M;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;12;J;J;I;J;63825;Audrina Handegard;31;K;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;13;J;J;I;J;64078;David Steen;42;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;14;J;J;I;J;64079;Lillebil Högberg Hermelin;68;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;15;J;J;I;J;46795;Kenneth Petersson;71;M;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;16;J;J;I;J;46776;Valida Cicen;34;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;17;J;J;I;J;64082;Petri Stenport;42;M;Orsa;Orsa;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;18;J;J;I;J;63819;Ida Friberg;44;K;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;19;J;J;I;J;64084;Katrin Lohed Söderman;66;K;Rättvik;Rättvik;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;20;J;J;I;J;64085;Patrik Liljeglöd;39;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;21;J;J;I;J;64094;Monica Lindh;68;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;22;J;J;I;J;46781;Maude Nordfeldt Holmqvist;61;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;23;J;J;I;J;64087;Sten-Olof Eklund;62;M;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;24;J;J;I;J;63826;Britt Marie Strömbäck;59;K;Malung-Sälen;Malung-Sälen;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;25;J;J;I;J;64089;Robert Göransson;47;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;26;J;J;I;J;64090;Ewa Berglund;60;K;Leksand;Leksand;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;27;J;J;I;J;64091;Thomas Sjöberg;52;M;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;28;J;J;I;J;46799;Lena Angberg;68;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;29;J;J;I;J;78685;Joel Bjurholm;25;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;30;J;J;I;J;78686;Steve Rosén;62;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12889;31;J;J;I;J;64093;Niclas Fors;32;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;1;J;J;I;J;64068;Maja Gilbert Westholm;69;K;Falun;Falun;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;2;J;J;I;J;63811;Kajsa Fredholm;56;K;Leksand;Leksand;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;3;J;J;I;J;63816;David Örnberg;54;M;Mora;Mora;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;4;J;J;I;J;63817;Josefin Heed;31;K;Avesta;Avesta;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;5;J;J;I;J;46775;Matts Hammarqvist;33;M;Borlänge;Borlänge;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;6;J;J;I;J;64073;Zohreh Anhari;53;K;Falun;Falun;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;7;J;J;I;J;64074;Mathias Edbäck;30;M;Falun;Falun;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;8;J;J;I;J;63821;Birgitta "Fia" Wikström;53;K;Säter;Säter;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;9;J;J;I;J;78665;Lars Holmgren;67;M;Smedjebacken;Smedjebacken;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;10;J;J;I;J;78666;Jenny Axelson-Fisk;44;K;Borlänge;Borlänge;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;11;J;J;I;J;64076;Sten G Johansson;70;M;Ludvika;Ludvika;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;12;J;J;I;J;63825;Audrina Handegard;31;K;Ludvika;Ludvika;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;13;J;J;I;J;64078;David Steen;42;M;Falun;Falun;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;14;J;J;I;J;64079;Lillebil Högberg Hermelin;68;K;Falun;Falun;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;15;J;J;I;J;46795;Kenneth Petersson;71;M;Borlänge;Borlänge;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;16;J;J;I;J;46776;Valida Cicen;34;K;Borlänge;Borlänge;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;17;J;J;I;J;64082;Petri Stenport;42;M;Orsa;Orsa;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;18;J;J;I;J;63819;Ida Friberg;44;K;Ludvika;Ludvika;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;19;J;J;I;J;64084;Katrin Lohed Söderman;66;K;Rättvik;Rättvik;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;20;J;J;I;J;64085;Patrik Liljeglöd;39;M;Falun;Falun;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;21;J;J;I;J;64094;Monica Lindh;68;K;Falun;Falun;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;22;J;J;I;J;46781;Maude Nordfeldt Holmqvist;61;K;Borlänge;Borlänge;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;23;J;J;I;J;64087;Sten-Olof Eklund;62;M;Säter;Säter;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;24;J;J;I;J;63826;Britt Marie Strömbäck;59;K;Malung-Sälen;Malung-Sälen;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;25;J;J;I;J;64089;Robert Göransson;47;M;Smedjebacken;Smedjebacken;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;26;J;J;I;J;64090;Ewa Berglund;60;K;Leksand;Leksand;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;27;J;J;I;J;64091;Thomas Sjöberg;52;M;Säter;Säter;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;28;J;J;I;J;46799;Lena Angberg;68;K;Borlänge;Borlänge;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;29;J;J;I;J;78685;Joel Bjurholm;25;M;Smedjebacken;Smedjebacken;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;30;J;J;I;J;78686;Steve Rosén;62;M;Falun;Falun;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12890;31;J;J;I;J;64093;Niclas Fors;32;M;Falun;Falun;21000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;1;J;J;I;J;64068;Maja Gilbert Westholm;69;K;Falun;Falun;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;2;J;J;I;J;63811;Kajsa Fredholm;56;K;Leksand;Leksand;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;3;J;J;I;J;63816;David Örnberg;54;M;Mora;Mora;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;4;J;J;I;J;63817;Josefin Heed;31;K;Avesta;Avesta;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;5;J;J;I;J;46775;Matts Hammarqvist;33;M;Borlänge;Borlänge;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;6;J;J;I;J;64073;Zohreh Anhari;53;K;Falun;Falun;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;7;J;J;I;J;64074;Mathias Edbäck;30;M;Falun;Falun;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;8;J;J;I;J;63821;Birgitta "Fia" Wikström;53;K;Säter;Säter;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;9;J;J;I;J;78665;Lars Holmgren;67;M;Smedjebacken;Smedjebacken;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;10;J;J;I;J;78666;Jenny Axelson-Fisk;44;K;Borlänge;Borlänge;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;11;J;J;I;J;64076;Sten G Johansson;70;M;Ludvika;Ludvika;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;12;J;J;I;J;63825;Audrina Handegard;31;K;Ludvika;Ludvika;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;13;J;J;I;J;64078;David Steen;42;M;Falun;Falun;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;14;J;J;I;J;64079;Lillebil Högberg Hermelin;68;K;Falun;Falun;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;15;J;J;I;J;46795;Kenneth Petersson;71;M;Borlänge;Borlänge;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;16;J;J;I;J;46776;Valida Cicen;34;K;Borlänge;Borlänge;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;17;J;J;I;J;64082;Petri Stenport;42;M;Orsa;Orsa;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;18;J;J;I;J;63819;Ida Friberg;44;K;Ludvika;Ludvika;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;19;J;J;I;J;64084;Katrin Lohed Söderman;66;K;Rättvik;Rättvik;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;20;J;J;I;J;64085;Patrik Liljeglöd;39;M;Falun;Falun;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;21;J;J;I;J;64094;Monica Lindh;68;K;Falun;Falun;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;22;J;J;I;J;46781;Maude Nordfeldt Holmqvist;61;K;Borlänge;Borlänge;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;23;J;J;I;J;64087;Sten-Olof Eklund;62;M;Säter;Säter;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;24;J;J;I;J;63826;Britt Marie Strömbäck;59;K;Malung-Sälen;Malung-Sälen;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;25;J;J;I;J;64089;Robert Göransson;47;M;Smedjebacken;Smedjebacken;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;26;J;J;I;J;64090;Ewa Berglund;60;K;Leksand;Leksand;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;27;J;J;I;J;64091;Thomas Sjöberg;52;M;Säter;Säter;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;28;J;J;I;J;46799;Lena Angberg;68;K;Borlänge;Borlänge;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;29;J;J;I;J;78685;Joel Bjurholm;25;M;Smedjebacken;Smedjebacken;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;30;J;J;I;J;78686;Steve Rosén;62;M;Falun;Falun;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12891;31;J;J;I;J;64093;Niclas Fors;32;M;Falun;Falun;35000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;1;J;J;I;J;64068;Maja Gilbert Westholm;69;K;Falun;Falun;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;2;J;J;I;J;63811;Kajsa Fredholm;56;K;Leksand;Leksand;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;3;J;J;I;J;63816;David Örnberg;54;M;Mora;Mora;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;4;J;J;I;J;63817;Josefin Heed;31;K;Avesta;Avesta;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;5;J;J;I;J;46775;Matts Hammarqvist;33;M;Borlänge;Borlänge;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;6;J;J;I;J;64073;Zohreh Anhari;53;K;Falun;Falun;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;7;J;J;I;J;64074;Mathias Edbäck;30;M;Falun;Falun;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;8;J;J;I;J;63821;Birgitta "Fia" Wikström;53;K;Säter;Säter;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;9;J;J;I;J;78665;Lars Holmgren;67;M;Smedjebacken;Smedjebacken;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;10;J;J;I;J;78666;Jenny Axelson-Fisk;44;K;Borlänge;Borlänge;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;11;J;J;I;J;64076;Sten G Johansson;70;M;Ludvika;Ludvika;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;12;J;J;I;J;63825;Audrina Handegard;31;K;Ludvika;Ludvika;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;13;J;J;I;J;64078;David Steen;42;M;Falun;Falun;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;14;J;J;I;J;64079;Lillebil Högberg Hermelin;68;K;Falun;Falun;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;15;J;J;I;J;46795;Kenneth Petersson;71;M;Borlänge;Borlänge;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;16;J;J;I;J;46776;Valida Cicen;34;K;Borlänge;Borlänge;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;17;J;J;I;J;64082;Petri Stenport;42;M;Orsa;Orsa;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;18;J;J;I;J;63819;Ida Friberg;44;K;Ludvika;Ludvika;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;19;J;J;I;J;64084;Katrin Lohed Söderman;66;K;Rättvik;Rättvik;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;20;J;J;I;J;64085;Patrik Liljeglöd;39;M;Falun;Falun;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;21;J;J;I;J;64094;Monica Lindh;68;K;Falun;Falun;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;22;J;J;I;J;46781;Maude Nordfeldt Holmqvist;61;K;Borlänge;Borlänge;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;23;J;J;I;J;64087;Sten-Olof Eklund;62;M;Säter;Säter;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;24;J;J;I;J;63826;Britt Marie Strömbäck;59;K;Malung-Sälen;Malung-Sälen;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;25;J;J;I;J;64089;Robert Göransson;47;M;Smedjebacken;Smedjebacken;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;26;J;J;I;J;64090;Ewa Berglund;60;K;Leksand;Leksand;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;27;J;J;I;J;64091;Thomas Sjöberg;52;M;Säter;Säter;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;28;J;J;I;J;46799;Lena Angberg;68;K;Borlänge;Borlänge;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;29;J;J;I;J;78685;Joel Bjurholm;25;M;Smedjebacken;Smedjebacken;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;30;J;J;I;J;78686;Steve Rosén;62;M;Falun;Falun;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;12922;31;J;J;I;J;64093;Niclas Fors;32;M;Falun;Falun;40000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;1;J;J;I;J;64068;Maja Gilbert Westholm;69;K;Falun;Falun;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;2;J;J;I;J;63811;Kajsa Fredholm;56;K;Leksand;Leksand;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;3;J;J;I;J;63816;David Örnberg;54;M;Mora;Mora;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;4;J;J;I;J;63817;Josefin Heed;31;K;Avesta;Avesta;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;5;J;J;I;J;46775;Matts Hammarqvist;33;M;Borlänge;Borlänge;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;6;J;J;I;J;64073;Zohreh Anhari;53;K;Falun;Falun;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;7;J;J;I;J;64074;Mathias Edbäck;30;M;Falun;Falun;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;8;J;J;I;J;63821;Birgitta "Fia" Wikström;53;K;Säter;Säter;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;9;J;J;I;J;78665;Lars Holmgren;67;M;Smedjebacken;Smedjebacken;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;10;J;J;I;J;78666;Jenny Axelson-Fisk;44;K;Borlänge;Borlänge;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;11;J;J;I;J;64076;Sten G Johansson;70;M;Ludvika;Ludvika;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;12;J;J;I;J;63825;Audrina Handegard;31;K;Ludvika;Ludvika;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;13;J;J;I;J;64078;David Steen;42;M;Falun;Falun;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;14;J;J;I;J;64079;Lillebil Högberg Hermelin;68;K;Falun;Falun;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;15;J;J;I;J;46795;Kenneth Petersson;71;M;Borlänge;Borlänge;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;16;J;J;I;J;46776;Valida Cicen;34;K;Borlänge;Borlänge;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;17;J;J;I;J;64082;Petri Stenport;42;M;Orsa;Orsa;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;18;J;J;I;J;63819;Ida Friberg;44;K;Ludvika;Ludvika;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;19;J;J;I;J;64084;Katrin Lohed Söderman;66;K;Rättvik;Rättvik;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;20;J;J;I;J;64085;Patrik Liljeglöd;39;M;Falun;Falun;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;21;J;J;I;J;64094;Monica Lindh;68;K;Falun;Falun;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;22;J;J;I;J;46781;Maude Nordfeldt Holmqvist;61;K;Borlänge;Borlänge;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;23;J;J;I;J;64087;Sten-Olof Eklund;62;M;Säter;Säter;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;24;J;J;I;J;63826;Britt Marie Strömbäck;59;K;Malung-Sälen;Malung-Sälen;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;25;J;J;I;J;64089;Robert Göransson;47;M;Smedjebacken;Smedjebacken;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;26;J;J;I;J;64090;Ewa Berglund;60;K;Leksand;Leksand;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;27;J;J;I;J;64091;Thomas Sjöberg;52;M;Säter;Säter;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;28;J;J;I;J;46799;Lena Angberg;68;K;Borlänge;Borlänge;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;29;J;J;I;J;78685;Joel Bjurholm;25;M;Smedjebacken;Smedjebacken;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;30;J;J;I;J;78686;Steve Rosén;62;M;Falun;Falun;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14859;31;J;J;I;J;64093;Niclas Fors;32;M;Falun;Falun;63000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;1;J;J;I;J;64068;Maja Gilbert Westholm;69;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;2;J;J;I;J;63811;Kajsa Fredholm;56;K;Leksand;Leksand;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;3;J;J;I;J;63816;David Örnberg;54;M;Mora;Mora;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;4;J;J;I;J;63817;Josefin Heed;31;K;Avesta;Avesta;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;5;J;J;I;J;46775;Matts Hammarqvist;33;M;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;6;J;J;I;J;64073;Zohreh Anhari;53;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;7;J;J;I;J;64074;Mathias Edbäck;30;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;8;J;J;I;J;63821;Birgitta "Fia" Wikström;53;K;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;9;J;J;I;J;78665;Lars Holmgren;67;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;10;J;J;I;J;78666;Jenny Axelson-Fisk;44;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;11;J;J;I;J;64076;Sten G Johansson;70;M;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;12;J;J;I;J;63825;Audrina Handegard;31;K;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;13;J;J;I;J;64078;David Steen;42;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;14;J;J;I;J;64079;Lillebil Högberg Hermelin;68;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;15;J;J;I;J;46795;Kenneth Petersson;71;M;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;16;J;J;I;J;46776;Valida Cicen;34;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;17;J;J;I;J;64082;Petri Stenport;42;M;Orsa;Orsa;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;18;J;J;I;J;63819;Ida Friberg;44;K;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;19;J;J;I;J;64084;Katrin Lohed Söderman;66;K;Rättvik;Rättvik;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;20;J;J;I;J;64085;Patrik Liljeglöd;39;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;21;J;J;I;J;64094;Monica Lindh;68;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;22;J;J;I;J;46781;Maude Nordfeldt Holmqvist;61;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;23;J;J;I;J;64087;Sten-Olof Eklund;62;M;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;24;J;J;I;J;63826;Britt Marie Strömbäck;59;K;Malung-Sälen;Malung-Sälen;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;25;J;J;I;J;64089;Robert Göransson;47;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;26;J;J;I;J;64090;Ewa Berglund;60;K;Leksand;Leksand;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;27;J;J;I;J;64091;Thomas Sjöberg;52;M;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;28;J;J;I;J;46799;Lena Angberg;68;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;29;J;J;I;J;78685;Joel Bjurholm;25;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;30;J;J;I;J;78686;Steve Rosén;62;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14860;31;J;J;I;J;64093;Niclas Fors;32;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;1;J;J;I;J;64068;Maja Gilbert Westholm;69;K;Falun;Falun;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;2;J;J;I;J;63811;Kajsa Fredholm;56;K;Leksand;Leksand;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;3;J;J;I;J;63816;David Örnberg;54;M;Mora;Mora;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;4;J;J;I;J;63817;Josefin Heed;31;K;Avesta;Avesta;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;5;J;J;I;J;46775;Matts Hammarqvist;33;M;Borlänge;Borlänge;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;6;J;J;I;J;64073;Zohreh Anhari;53;K;Falun;Falun;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;7;J;J;I;J;64074;Mathias Edbäck;30;M;Falun;Falun;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;8;J;J;I;J;63821;Birgitta "Fia" Wikström;53;K;Säter;Säter;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;9;J;J;I;J;78665;Lars Holmgren;67;M;Smedjebacken;Smedjebacken;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;10;J;J;I;J;78666;Jenny Axelson-Fisk;44;K;Borlänge;Borlänge;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;11;J;J;I;J;64076;Sten G Johansson;70;M;Ludvika;Ludvika;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;12;J;J;I;J;63825;Audrina Handegard;31;K;Ludvika;Ludvika;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;13;J;J;I;J;64078;David Steen;42;M;Falun;Falun;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;14;J;J;I;J;64079;Lillebil Högberg Hermelin;68;K;Falun;Falun;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;15;J;J;I;J;46795;Kenneth Petersson;71;M;Borlänge;Borlänge;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;16;J;J;I;J;46776;Valida Cicen;34;K;Borlänge;Borlänge;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;17;J;J;I;J;64082;Petri Stenport;42;M;Orsa;Orsa;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;18;J;J;I;J;63819;Ida Friberg;44;K;Ludvika;Ludvika;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;19;J;J;I;J;64084;Katrin Lohed Söderman;66;K;Rättvik;Rättvik;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;20;J;J;I;J;64085;Patrik Liljeglöd;39;M;Falun;Falun;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;21;J;J;I;J;64094;Monica Lindh;68;K;Falun;Falun;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;22;J;J;I;J;46781;Maude Nordfeldt Holmqvist;61;K;Borlänge;Borlänge;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;23;J;J;I;J;64087;Sten-Olof Eklund;62;M;Säter;Säter;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;24;J;J;I;J;63826;Britt Marie Strömbäck;59;K;Malung-Sälen;Malung-Sälen;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;25;J;J;I;J;64089;Robert Göransson;47;M;Smedjebacken;Smedjebacken;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;26;J;J;I;J;64090;Ewa Berglund;60;K;Leksand;Leksand;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;27;J;J;I;J;64091;Thomas Sjöberg;52;M;Säter;Säter;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;28;J;J;I;J;46799;Lena Angberg;68;K;Borlänge;Borlänge;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;29;J;J;I;J;78685;Joel Bjurholm;25;M;Smedjebacken;Smedjebacken;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;30;J;J;I;J;78686;Steve Rosén;62;M;Falun;Falun;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14862;31;J;J;I;J;64093;Niclas Fors;32;M;Falun;Falun;2000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;1;J;J;I;J;64068;Maja Gilbert Westholm;69;K;Falun;Falun;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;2;J;J;I;J;63811;Kajsa Fredholm;56;K;Leksand;Leksand;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;3;J;J;I;J;63816;David Örnberg;54;M;Mora;Mora;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;4;J;J;I;J;63817;Josefin Heed;31;K;Avesta;Avesta;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;5;J;J;I;J;46775;Matts Hammarqvist;33;M;Borlänge;Borlänge;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;6;J;J;I;J;64073;Zohreh Anhari;53;K;Falun;Falun;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;7;J;J;I;J;64074;Mathias Edbäck;30;M;Falun;Falun;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;8;J;J;I;J;63821;Birgitta "Fia" Wikström;53;K;Säter;Säter;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;9;J;J;I;J;78665;Lars Holmgren;67;M;Smedjebacken;Smedjebacken;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;10;J;J;I;J;78666;Jenny Axelson-Fisk;44;K;Borlänge;Borlänge;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;11;J;J;I;J;64076;Sten G Johansson;70;M;Ludvika;Ludvika;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;12;J;J;I;J;63825;Audrina Handegard;31;K;Ludvika;Ludvika;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;13;J;J;I;J;64078;David Steen;42;M;Falun;Falun;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;14;J;J;I;J;64079;Lillebil Högberg Hermelin;68;K;Falun;Falun;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;15;J;J;I;J;46795;Kenneth Petersson;71;M;Borlänge;Borlänge;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;16;J;J;I;J;46776;Valida Cicen;34;K;Borlänge;Borlänge;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;17;J;J;I;J;64082;Petri Stenport;42;M;Orsa;Orsa;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;18;J;J;I;J;63819;Ida Friberg;44;K;Ludvika;Ludvika;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;19;J;J;I;J;64084;Katrin Lohed Söderman;66;K;Rättvik;Rättvik;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;20;J;J;I;J;64085;Patrik Liljeglöd;39;M;Falun;Falun;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;21;J;J;I;J;64094;Monica Lindh;68;K;Falun;Falun;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;22;J;J;I;J;46781;Maude Nordfeldt Holmqvist;61;K;Borlänge;Borlänge;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;23;J;J;I;J;64087;Sten-Olof Eklund;62;M;Säter;Säter;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;24;J;J;I;J;63826;Britt Marie Strömbäck;59;K;Malung-Sälen;Malung-Sälen;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;25;J;J;I;J;64089;Robert Göransson;47;M;Smedjebacken;Smedjebacken;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;26;J;J;I;J;64090;Ewa Berglund;60;K;Leksand;Leksand;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;27;J;J;I;J;64091;Thomas Sjöberg;52;M;Säter;Säter;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;28;J;J;I;J;46799;Lena Angberg;68;K;Borlänge;Borlänge;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;29;J;J;I;J;78685;Joel Bjurholm;25;M;Smedjebacken;Smedjebacken;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;30;J;J;I;J;78686;Steve Rosén;62;M;Falun;Falun;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14863;31;J;J;I;J;64093;Niclas Fors;32;M;Falun;Falun;18000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;1;J;J;I;J;64068;Maja Gilbert Westholm;69;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;2;J;J;I;J;63811;Kajsa Fredholm;56;K;Leksand;Leksand;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;3;J;J;I;J;63816;David Örnberg;54;M;Mora;Mora;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;4;J;J;I;J;63817;Josefin Heed;31;K;Avesta;Avesta;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;5;J;J;I;J;46775;Matts Hammarqvist;33;M;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;6;J;J;I;J;64073;Zohreh Anhari;53;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;7;J;J;I;J;64074;Mathias Edbäck;30;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;8;J;J;I;J;63821;Birgitta "Fia" Wikström;53;K;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;9;J;J;I;J;78665;Lars Holmgren;67;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;10;J;J;I;J;78666;Jenny Axelson-Fisk;44;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;11;J;J;I;J;64076;Sten G Johansson;70;M;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;12;J;J;I;J;63825;Audrina Handegard;31;K;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;13;J;J;I;J;64078;David Steen;42;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;14;J;J;I;J;64079;Lillebil Högberg Hermelin;68;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;15;J;J;I;J;46795;Kenneth Petersson;71;M;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;16;J;J;I;J;46776;Valida Cicen;34;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;17;J;J;I;J;64082;Petri Stenport;42;M;Orsa;Orsa;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;18;J;J;I;J;63819;Ida Friberg;44;K;Ludvika;Ludvika;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;19;J;J;I;J;64084;Katrin Lohed Söderman;66;K;Rättvik;Rättvik;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;20;J;J;I;J;64085;Patrik Liljeglöd;39;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;21;J;J;I;J;64094;Monica Lindh;68;K;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;22;J;J;I;J;46781;Maude Nordfeldt Holmqvist;61;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;23;J;J;I;J;64087;Sten-Olof Eklund;62;M;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;24;J;J;I;J;63826;Britt Marie Strömbäck;59;K;Malung-Sälen;Malung-Sälen;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;25;J;J;I;J;64089;Robert Göransson;47;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;26;J;J;I;J;64090;Ewa Berglund;60;K;Leksand;Leksand;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;27;J;J;I;J;64091;Thomas Sjöberg;52;M;Säter;Säter;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;28;J;J;I;J;46799;Lena Angberg;68;K;Borlänge;Borlänge;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;29;J;J;I;J;78685;Joel Bjurholm;25;M;Smedjebacken;Smedjebacken;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;30;J;J;I;J;78686;Steve Rosén;62;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;S;14864;31;J;J;I;J;64093;Niclas Fors;32;M;Falun;Falun;5000;;J
+L;20;Dalarnas läns landsting;00;Landstinget Dalarna;Vänsterpartiet;V;5;;;;J;J;I;N;514161;[inte lämnat förklaring];;;;;0;;N

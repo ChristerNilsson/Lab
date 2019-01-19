@@ -1,0 +1,282 @@
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;1;J;J;I;J;40659;Ida Ekeroth;27;K;Mariestad;27 år, oppositionsråd;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;2;J;J;I;J;40660;Janne Jansson;49;M;Mariestad;49 år, industriarbetare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;3;J;J;I;J;40661;Linnéa Wall;58;K;Mariestad;58 år, truckförare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;4;J;J;I;J;40662;Sebastian Clausson;36;M;Mariestad;36 år, handläggare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;5;J;J;I;J;40663;Anita Olausson;65;K;Mariestad;65 år, kock;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;6;J;J;I;J;40664;Leif Udéhn;59;M;Mariestad;59 år, arbetshandledare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;7;J;J;I;J;40665;Tuula Ojala;68;K;Mariestad;68 år, personlig assistent;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;8;J;J;I;J;40666;Ola Bertilsson;63;M;Mariestad;63 år, metallarbetare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;9;J;J;I;J;40667;Catarina Åkerblad;61;K;Mariestad;61 år, jurist;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;10;J;J;I;J;40668;Sture Pettersson;58;M;Mariestad;58 år, snickare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;11;J;J;I;J;40669;Lillemor Ågren;44;K;Mariestad;44 år, undersköterska;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;12;J;J;I;J;40670;Björn Nilsson;60;M;Mariestad;60 år, pappersbruksarbetare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;13;J;J;I;J;40671;Gun-Britt Alenljung;68;K;Mariestad;68 år, personlig assistent;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;14;J;J;I;J;40672;Nils Farken;44;M;Mariestad;44 år, ombudsman;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;15;J;J;I;J;40673;Marianne Johansson;68;K;Mariestad;68 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;16;J;J;I;J;40674;Leif Andersson;66;M;Mariestad;66 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;17;J;J;I;J;40675;Marina Smedberg;50;K;Mariestad;50 år, undersköterska;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;18;J;J;I;J;40676;Mathias Törnblom;43;M;Mariestad;43 år, yrkeslärare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;19;J;J;I;J;40677;Ninni Larsson;66;K;Mariestad;66 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;20;J;J;I;J;40678;Leif Johansson;65;M;Mariestad;64 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;21;J;J;I;J;40679;Marie Molin;63;K;Mariestad;63 år, assistent;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;22;J;J;I;J;40680;Håkan Fernström;58;M;Mariestad;58 år, underhållsingenjör;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;23;J;J;I;J;40681;Elisabeth Ljungqvist;66;K;Mariestad;66 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;24;J;J;I;J;40682;Anas Alkharat;21;M;Mariestad;21 år, studerande;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;25;J;J;I;J;40683;Eva Heistola;70;K;Mariestad;70 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;26;J;J;I;J;40684;Arne Andersson;62;M;Mariestad;62 år, fastighetsingenjör;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;27;J;J;I;J;40685;Lena Johansson;62;K;Mariestad;62 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;28;J;J;I;J;40686;Fred Bruns;76;M;Mariestad;76 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;29;J;J;I;J;40687;Eva-Lotta Hadzimuratovic;37;K;Mariestad;37 år, undersköterska;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;30;J;J;I;J;40688;Jens Söder;54;M;Mariestad;54 år, elektriker;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;31;J;J;I;J;40689;Louise Max;59;K;Mariestad;59 år, undersköterska;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;32;J;J;I;J;40690;Roger Åkerblad;71;M;Mariestad;71 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;33;J;J;I;J;40691;Katarina Udéhn;58;K;Mariestad;58 år, verksamhetsansvarig;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;34;J;J;I;J;40692;Mattias Rydin;33;M;Mariestad;33 år, reparatör;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;35;J;J;I;J;40693;Mari-Ann Wallander;73;K;Mariestad;73 år, docent;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;36;J;J;I;J;40694;Kenneth Nygren;65;M;Mariestad;65 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;37;J;J;I;J;40695;Sylvia Gustafsson;69;K;Mariestad;69 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;38;J;J;I;J;40696;Bosse Eksell;79;M;Mariestad;79 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;39;J;J;I;J;40697;Inga-Lill Bertilsson;59;K;Mariestad;59 år, undersköterska;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;40;J;J;I;J;40698;Anders Edgren;60;M;Mariestad;60 år, ombudsman;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;41;J;J;I;J;40699;Marianne Kjellquist;72;K;Mariestad;72 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;42;J;J;I;J;40700;Lars Svensson;68;M;Mariestad;68 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;43;J;J;I;J;40701;Inger Frånberg;69;K;Mariestad;69 år, förskollärare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;44;J;J;I;J;40702;Börje Alenljung;67;M;Mariestad;67 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;45;J;J;I;J;40703;Ann-Britt Olsson;67;K;Mariestad;67 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;46;J;J;I;J;40704;Bror Amell;67;M;[saknas i folkbokföringen];67 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;47;J;J;I;J;40705;Eva Edgren;56;K;Mariestad;56 år, undersköterska;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;12345;48;J;J;I;J;40706;Berit Sjögren;80;K;Mariestad;80 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;1;J;J;I;J;40659;Ida Ekeroth;27;K;Mariestad;27 år, oppositionsråd;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;2;J;J;I;J;40660;Janne Jansson;49;M;Mariestad;49 år, industriarbetare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;3;J;J;I;J;40661;Linnéa Wall;58;K;Mariestad;58 år, truckförare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;4;J;J;I;J;40662;Sebastian Clausson;36;M;Mariestad;36 år, handläggare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;5;J;J;I;J;40663;Anita Olausson;65;K;Mariestad;65 år, kock;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;6;J;J;I;J;40664;Leif Udéhn;59;M;Mariestad;59 år, arbetshandledare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;7;J;J;I;J;40665;Tuula Ojala;68;K;Mariestad;68 år, personlig assistent;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;8;J;J;I;J;40666;Ola Bertilsson;63;M;Mariestad;63 år, metallarbetare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;9;J;J;I;J;40667;Catarina Åkerblad;61;K;Mariestad;61 år, jurist;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;10;J;J;I;J;40668;Sture Pettersson;58;M;Mariestad;58 år, snickare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;11;J;J;I;J;40669;Lillemor Ågren;44;K;Mariestad;44 år, undersköterska;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;12;J;J;I;J;40670;Björn Nilsson;60;M;Mariestad;60 år, pappersbruksarbetare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;13;J;J;I;J;40671;Gun-Britt Alenljung;68;K;Mariestad;68 år, personlig assistent;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;14;J;J;I;J;40672;Nils Farken;44;M;Mariestad;44 år, ombudsman;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;15;J;J;I;J;40673;Marianne Johansson;68;K;Mariestad;68 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;16;J;J;I;J;40674;Leif Andersson;66;M;Mariestad;66 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;17;J;J;I;J;40675;Marina Smedberg;50;K;Mariestad;50 år, undersköterska;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;18;J;J;I;J;40676;Mathias Törnblom;43;M;Mariestad;43 år, yrkeslärare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;19;J;J;I;J;40677;Ninni Larsson;66;K;Mariestad;66 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;20;J;J;I;J;40678;Leif Johansson;65;M;Mariestad;64 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;21;J;J;I;J;40679;Marie Molin;63;K;Mariestad;63 år, assistent;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;22;J;J;I;J;40680;Håkan Fernström;58;M;Mariestad;58 år, underhållsingenjör;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;23;J;J;I;J;40681;Elisabeth Ljungqvist;66;K;Mariestad;66 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;24;J;J;I;J;40682;Anas Alkharat;21;M;Mariestad;21 år, studerande;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;25;J;J;I;J;40683;Eva Heistola;70;K;Mariestad;70 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;26;J;J;I;J;40684;Arne Andersson;62;M;Mariestad;62 år, fastighetsingenjör;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;27;J;J;I;J;40685;Lena Johansson;62;K;Mariestad;62 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;28;J;J;I;J;40686;Fred Bruns;76;M;Mariestad;76 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;29;J;J;I;J;40687;Eva-Lotta Hadzimuratovic;37;K;Mariestad;37 år, undersköterska;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;30;J;J;I;J;40688;Jens Söder;54;M;Mariestad;54 år, elektriker;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;31;J;J;I;J;40689;Louise Max;59;K;Mariestad;59 år, undersköterska;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;32;J;J;I;J;40690;Roger Åkerblad;71;M;Mariestad;71 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;33;J;J;I;J;40691;Katarina Udéhn;58;K;Mariestad;58 år, verksamhetsansvarig;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;34;J;J;I;J;40692;Mattias Rydin;33;M;Mariestad;33 år, reparatör;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;35;J;J;I;J;40693;Mari-Ann Wallander;73;K;Mariestad;73 år, docent;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;36;J;J;I;J;40694;Kenneth Nygren;65;M;Mariestad;65 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;37;J;J;I;J;40695;Sylvia Gustafsson;69;K;Mariestad;69 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;38;J;J;I;J;40696;Bosse Eksell;79;M;Mariestad;79 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;39;J;J;I;J;40697;Inga-Lill Bertilsson;59;K;Mariestad;59 år, undersköterska;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;40;J;J;I;J;40698;Anders Edgren;60;M;Mariestad;60 år, ombudsman;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;41;J;J;I;J;40699;Marianne Kjellquist;72;K;Mariestad;72 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;42;J;J;I;J;40700;Lars Svensson;68;M;Mariestad;68 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;43;J;J;I;J;40701;Inger Frånberg;69;K;Mariestad;69 år, förskollärare;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;44;J;J;I;J;40702;Börje Alenljung;67;M;Mariestad;67 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;45;J;J;I;J;40703;Ann-Britt Olsson;67;K;Mariestad;67 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;46;J;J;I;J;40705;Eva Edgren;56;K;Mariestad;56 år, undersköterska;59000;;J
+K;1493;Mariestad;00;Mariestad;Arbetarepartiet-Socialdemokraterna;S;2;S;15597;47;J;J;I;J;40706;Berit Sjögren;80;K;Mariestad;80 år, pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;1;J;J;I;J;3854;Anders Karlsson;46;M;Mariestad;Lantbrukare, Färed, 46 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;2;J;J;I;J;3202;Jan Wahn;65;M;Mariestad;Präst,Mariestad, 65 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;3;J;J;I;J;3224;Helena Hallerhed;52;K;Mariestad;Rektor, Hasslerör, 52år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;4;J;J;I;J;3268;Leif Andersson;59;M;Mariestad;Egenföretagare, Lugnås, 59 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;5;J;J;I;J;3258;Emil Gullbrantz;42;M;Mariestad;Undersköterska, Mariestad, 43 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;6;J;J;I;J;3859;Agneta Larsson;39;K;Mariestad;Projektledare, Mariestad, 39 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;7;J;J;I;J;3860;Torbjörn Forsell;52;M;Mariestad;Verksamhetschef, Mariestad, 52 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;8;J;J;I;J;3861;Adam Pallin;19;M;Mariestad;Cnc-operatör, Mariestad, 19 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;9;J;J;I;J;3862;Therése Boman Nordlie;55;K;Mariestad;Förskolepedagog, Mariestad, 55 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;10;J;J;I;J;3863;Inger Dernroth;74;K;Mariestad;Exjournalist, Mariestad, 74 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;11;J;J;I;J;3864;Ann-Christine Gustafsson;66;K;Mariestad;Pensionär, Sjötorp, 66 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;12;J;J;I;J;3865;Amanda Henrysson;28;K;Mariestad;Utredare, Ekby, 29 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;13;J;J;I;J;3866;Rune Skogsberg;75;M;Mariestad;Lantbrukare, Ullervad, 75 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;14;J;J;I;J;3867;Gunnar Carlsson;52;M;Mariestad;Förvaltningschef, Torsö, 52 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;15;J;J;I;J;3868;Birgitta Svensson;71;K;Mariestad;Lärare, Sjötorp, 71år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;16;J;J;I;J;3869;Karl-Arne Gustafsson;66;M;Mariestad;Pensionär, Sjötorp, 67 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;17;J;J;I;J;3870;Anders Johansson;69;M;Mariestad;Verksamhetskonsult, Torsö, 69 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;18;J;J;I;J;3871;Sune B Jansson;80;M;Mariestad;Fd företagsledare, Mariestad, 80 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;19;J;J;I;J;3872;Sören Larsson;65;M;Mariestad;Pensionär, Lugnås, 65 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;20;J;J;I;J;3873;Maj-Britt Jansson;80;K;Mariestad;Fd barnskötare, 80 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;21;J;J;I;J;3874;Kjell Karlsson;75;M;Mariestad;Pensionär, Lyrestad, 75 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;22;J;J;I;J;3875;Sven-Erik Månsson;68;M;Mariestad;Fd polis, Mariestad, 68 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Centerpartiet;C;4;S;11793;23;J;J;I;J;3876;Gunilla Strindevall;74;K;Mariestad;Pensionär, Lugnås, 74 år;59000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;1;J;J;I;J;275572;Morgan Forsberg;42;M;Mariestad;42, Gymnasielärare, Björsäter;48000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;2;J;J;I;J;275573;Emma Sjögren;40;K;Mariestad;40, Socionom, Mariestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;3;J;J;I;J;274608;Sven-Inge Eriksson;60;M;Mariestad;60, Inköpare, Mariestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;4;J;J;I;J;275575;Lars Alfredsson;53;M;Mariestad;53, Enhetschef, Mariestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;5;J;J;I;J;275576;Göran Sagen;72;M;Mariestad;71, Präst, Sjötorp;48000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;6;J;J;I;J;275577;Lotta Forsberg;38;K;Mariestad;37, Beteendevetare, Björsäter;48000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;7;J;J;I;J;275578;Nina Fransson;32;K;Mariestad;32, Frisör, Mariestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;8;J;J;I;J;275579;Magnus Landgren;63;M;Mariestad;62, Docent, Mariestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;9;J;J;I;J;275580;Miriam Wahlström Svensson;36;K;Mariestad;35, Leg sjuksköterska, Lugnås;48000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;10;J;J;I;J;275581;Gunilla Landgren;61;K;Mariestad;61, Lärare, Mariestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;11;J;J;I;J;275582;Anders Svärd;48;M;Mariestad;48, Butiksarbetare, Mariestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;12;J;J;I;J;275583;Margareta Alexandersson;67;K;Mariestad;66, Personlig assistent, Mariestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;13;J;J;I;J;275584;Peter Thörn;61;M;Mariestad;61, Pensionär, Mariestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Kristdemokraterna;KD;68;S;14452;14;J;J;I;J;275585;Josef Sabel;83;M;Mariestad;83, Pensionär, Lyrestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;1;J;J;I;J;40061;Jan Hallström;51;M;Mariestad;Gymnasielärare;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;2;J;J;I;J;46536;Göran Hellström;66;M;Mariestad;Företagare;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;3;J;J;I;J;46537;Wassen Abdul;43;K;Mariestad;Integrationscoach;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;4;J;J;I;J;46538;Johan Gotthardsson;34;M;Mariestad;Företagare;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;5;J;J;I;J;46539;Brita Kvicklund;65;K;Mariestad;Lärare;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;6;J;J;I;J;46540;Lennart Bäckman;58;M;Mariestad;Teknisk konsult;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;7;J;J;I;J;46541;Bengt-Olof Aronsson;72;M;Mariestad;Revisor;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;8;J;J;I;J;46542;Fateen Alassad;37;K;Mariestad;Hemspråkslärare;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;9;J;J;I;J;46543;Leif Jonegård;72;M;Mariestad;Fil. magister;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;10;J;J;I;J;46544;Arvid Hallström;18;M;Mariestad;Studerande;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;11;J;J;I;J;46545;Viktor Bergström;33;M;Mariestad;IT-Teletekniker;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;12;J;J;I;J;25036;Birgitta Sjö;73;K;Mariestad;Ekonom;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;13;J;J;I;J;46547;Lars Idunger;71;M;Mariestad;Civilingenjör;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;14;J;J;I;J;46548;Lars Larsson;77;M;Mariestad;Pastor;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;15;J;J;I;J;46549;Kauko Hokkinen;77;M;Mariestad;Fd.Skattehandläggare;59000;;J
+K;1493;Mariestad;00;Mariestad;Liberalerna (tidigare Folkpartiet);L;3;S;12419;16;J;J;I;J;46550;Markus Karlsson;34;M;Mariestad;Företagare;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;1;J;J;I;J;464079;Henrik Andersson;27;M;Mariestad;Egenföretagare nöjesbranschen;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;2;J;J;I;J;464080;Henrik Claesson;40;M;Mariestad;Egenföretagare entreprenadbranschen;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;3;J;J;I;J;464081;Jerry Kullberg;43;M;Mariestad;;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;4;J;J;I;J;464082;Johan Jansson;36;M;Mariestad;;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;5;J;J;I;J;464083;Birgit Selmosson;47;K;Mariestad;;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;6;J;J;I;J;464084;Christer Dalvik;65;M;Mariestad;Pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;7;J;J;I;J;464085;Peter Selmosson;53;M;Mariestad;;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;8;J;J;I;J;464086;Juha Sarajärvi;51;M;Mariestad;;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;9;J;J;I;J;464087;Anna Stenlund;64;K;Mariestad;Assistent;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;10;J;J;I;J;464088;Francois "Frankie" Tadros;48;M;Mariestad;Kock/servitör;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;11;J;J;I;J;464089;Jurgita Tadros;39;K;Mariestad;Hemmafru;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;12;J;J;I;J;464090;Kenneth "Nenne" Larsson;48;M;Mariestad;Ullervad;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;13;J;J;I;J;464091;Henrik Heij;37;M;Mariestad;Väghyvelförare;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;14;J;J;I;J;464092;Karl-Gunnar Sandström;60;M;Mariestad;Säljare;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;15;J;J;I;J;464093;Siw Persson;68;K;Mariestad;Pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;16;J;J;I;J;464094;Spiros Agorastas;48;M;Mariestad;;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;17;J;J;I;J;464095;Ronny Jansson;36;M;Mariestad;Maskinförare;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;18;J;J;I;J;464096;Gunnar Karlsson;45;M;Mariestad;Elektriker;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;19;J;J;I;J;464097;Matz Erlandsson;82;M;Mariestad;Pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;20;J;J;I;J;464098;Emil Nordlander;37;M;Mariestad;Lyrestad;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;21;J;J;I;J;464099;Anita Dalvik;65;K;Mariestad;Butiksbiträde;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;22;J;J;I;J;464100;Patrik Dalvik;27;M;Mariestad;Resurspedagog;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;23;J;J;I;J;464101;Joacim Jansson;49;M;Mariestad;;59000;;J
+K;1493;Mariestad;00;Mariestad;MariestadsPartiet;MaP;331;S;15347;24;J;J;I;J;464102;Lars-Åke Stenlund;65;M;Mariestad;Pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Miljöpartiet de gröna;MP;55;S;12972;1;J;J;I;J;6156;Mats Karlsson;64;M;Mariestad;64 år, Fastighetsingenjör, Mariestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Miljöpartiet de gröna;MP;55;S;12972;2;J;J;I;J;91357;Wera Lycken;61;K;Mariestad;Förskolelärare, Mariestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Miljöpartiet de gröna;MP;55;S;12972;3;J;J;I;J;91358;Bengt Erik Askerlund;74;M;Mariestad;74 år, Pensionär;48000;;J
+K;1493;Mariestad;00;Mariestad;Miljöpartiet de gröna;MP;55;S;12972;4;J;J;I;J;66260;Inger Farken;73;K;Mariestad;Pensionär, Mariestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Miljöpartiet de gröna;MP;55;S;12972;5;J;J;I;J;91360;Jan Bertilsson;59;M;Mariestad;59 år, Lärare, Torsö;48000;;J
+K;1493;Mariestad;00;Mariestad;Miljöpartiet de gröna;MP;55;S;12972;6;J;J;I;J;91361;Tommy Appelgren;43;M;Mariestad;44 år, Gymnasielärare, Mariestad;48000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;1;J;J;I;J;254319;Johan Abrahamsson;47;M;Mariestad;47, Kommunalråd, Hassle;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;2;J;J;I;J;254326;Anette Karlsson;57;K;Mariestad;57, Barnmorska, Björsäter;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;3;J;J;I;J;256909;Henrik Karlsson;52;M;Mariestad;52, Polis, Lyrestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;4;J;J;I;J;253992;Erik Ekblom;43;M;Mariestad;43, IT-företagare, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;5;J;J;I;J;254363;Sandra Magnusson;23;K;Mariestad;23, Studerande, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;6;J;J;I;J;253974;Sten Bergheden;53;M;Mariestad;53, Riksdagsledamot, Björsäter;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;7;J;J;I;J;256913;Anna Mossberg;61;K;Mariestad;61, Företagare, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;8;J;J;I;J;254366;Göte Andersson;40;M;Mariestad;40, Kronoispektör, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;9;J;J;I;J;256915;Anders Bredelius;68;M;Mariestad;68, Fd polis, Låstad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;10;J;J;I;J;256916;Ola Jonegård;32;M;Mariestad;32, Islamolog, Ullervad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;11;J;J;I;J;256917;Yvonne Gogolin;57;K;Mariestad;57, Ekonom, Säby;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;12;J;J;I;J;256918;Richard Thorell;34;M;Mariestad;34, Lärare, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;13;J;J;I;J;256919;Cathrine Kronberg;68;K;Mariestad;68, Redovisningskonsult, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;14;J;J;I;J;256920;Björn Fagerlund;74;M;Mariestad;74, Byggnadsingenjör, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;15;J;J;I;J;256921;Urban Claesson;65;M;Mariestad;65, Läkare, Odensåker;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;16;J;J;I;J;256922;John-Gunnar Nilsson;77;M;Mariestad;77, Företagare, Lyrestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;17;J;J;I;J;256923;Rolf Rutgersson;70;M;Mariestad;70, Chaufför, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;18;J;J;I;J;256924;Elin Abrahamsson;18;K;Mariestad;18, Studerande, Hassle;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;19;J;J;I;J;256925;Anita Ahl;75;K;Mariestad;75, Administratör, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;20;J;J;I;J;256926;Liselotte Andersson;67;K;Mariestad;67, Administratör, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;21;J;J;I;J;256927;Jonny Odhner;71;M;Mariestad;71, General Manager, Ullervad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;22;J;J;I;J;256928;Margareta Berggren;78;K;Mariestad;78, Fil.mag, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;23;J;J;I;J;256929;Johan Magnusson;49;M;Mariestad;49, Företagare, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;24;J;J;I;J;256930;Katarina Brydzinski;47;K;Mariestad;47, Kriminalvårdare, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;25;J;J;I;J;256931;Hannelore Fredriksson;80;K;Mariestad;80, HR ansvarig, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;26;J;J;I;J;254349;Björn Mossberg;61;M;Mariestad;61, Företagare, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;27;J;J;I;J;256933;Börje Andersson;67;M;Mariestad;67, Säljare, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;28;J;J;I;J;256934;Gunnila Norrman;70;K;Mariestad;70, Sjuksköterska, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;29;J;J;I;J;256935;Elvi Fagerlund;71;K;Mariestad;71, Företagare, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;30;J;J;I;J;256936;Ing-Britt Andersson;72;K;Mariestad;72, Lärare, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;31;J;J;I;J;256937;Stefan Eriksson;66;M;Mariestad;66, Försäkringstjänsteman, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;32;J;J;I;J;256938;Jennie Fröjd;39;K;Mariestad;39, Telefonist, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;33;J;J;I;J;256939;Bo Larsson;77;M;Mariestad;77,Fd Kriminalvårdare,Ullervad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;34;J;J;I;J;256940;Björn Andersson;56;M;Mariestad;56, Banktjänsteman, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;35;J;J;I;J;256941;Magnus Runersjö;60;M;Mariestad;60, Lantbrukare, Lugnås;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;36;J;J;I;J;256942;Lars Carlsson;63;M;Mariestad;63, Lantbrukare, Björsäter;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;37;J;J;I;J;256943;Annelie Bergheden;24;K;Mariestad;24, Försäkringssäljare, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;38;J;J;I;J;256944;Madelaine Karlsson;34;K;Mariestad;34, Säljledare, Lyrestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;39;J;J;I;J;256945;Gunilla Hellsten Boman;55;K;Mariestad;55, Civilekonom, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;40;J;J;I;J;256946;Marita Lundqvist;74;K;Mariestad;74, Företagare/Konsult, Ullervad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;41;J;J;I;J;256947;Monika Öhlund;76;K;Mariestad;76, Pensionär, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;42;J;J;I;J;256948;Siv Samuelsson;74;K;Mariestad;74, Lärare, Sjötorp;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;43;J;J;I;J;256949;Anita Nilsson;74;K;Mariestad;74, Pensionär, Lyrestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;44;J;J;I;J;256950;Susanne Johansson;73;K;Mariestad;73, Konstnär, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;45;J;J;I;J;256951;Diana Bergheden;22;K;Mariestad;22, Studerande, Björsäter;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;46;J;J;I;J;256952;Elisabet Ekblom;40;K;Mariestad;40, Kriminalvårdare, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;47;J;J;I;J;256953;Malin Abrahamsson;47;K;Mariestad;47, Undersköterska, Hassle;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;48;J;J;I;J;256954;Lars Samuelsson;85;M;Mariestad;85, Pensionär, Sjötorp;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;49;J;J;I;J;256955;Fanny Carlsson;22;K;Mariestad;22, Säljare, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;50;J;J;I;J;256956;Gustaf Johansson;27;M;Mariestad;27, Studerande, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Moderaterna;M;1;S;14344;51;J;J;I;J;256957;Thomas Dynesius;74;M;Mariestad;74,Pedagog, Mariestad;59000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15458;1;N;J;J;I;217112;Carl-Gunnar Sand;64;M;Mariestad;65 år, Pensionär/f d advokat;59000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15458;2;N;J;J;I;217113;Riitaa Holmblad;66;K;Mariestad;65 år, Pensionär;59000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15458;3;N;J;J;I;61136;Per-Olof Henningsson;75;M;Västervik;74 år, Företagare/f.d. sjökapten;59000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15458;4;N;J;J;I;217115;Joar Strid;23;M;Mariestad;23 år, Snickare;59000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15458;5;N;J;J;I;217116;Per Johansson;38;M;Mariestad;38 år, Träindustriarbetare;59000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15458;6;N;J;J;I;217117;Tomas Dahlén;54;M;Mariestad;54 år, Egenföretagare åkeri;59000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15458;7;N;J;J;I;217118;Beatrice Barck;49;K;Mariestad;49 år, Återvinningsarbetare;59000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15800;1;N;J;J;I;217113;Riitaa Holmblad;66;K;Mariestad;66, pensionär;20000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15800;2;N;J;J;I;61136;Per-Olof Henningsson;75;M;Västervik;75, pensionär/f.d. sjökapten;20000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15800;3;N;J;J;I;217115;Joar Strid;23;M;Mariestad;23, snickare;20000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15800;4;N;J;J;I;217116;Per Johansson;38;M;Mariestad;38, träindustriarbetare;20000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15800;5;N;J;J;I;217117;Tomas Dahlén;54;M;Mariestad;54, egenföretagare;20000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15800;6;N;J;J;I;510969;Nicklas Fernström;19;M;Mariestad;19, egenföretagare;20000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15800;7;N;J;J;I;510970;Susanna Dahlén;48;K;Mariestad;48, företagare;20000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;S;15800;8;N;J;J;I;217118;Beatrice Barck;49;K;Mariestad;49, återvinningsarbetare;20000;;J
+K;1493;Mariestad;00;Mariestad;Sverigedemokraterna;SD;110;;;;N;J;J;I;513712;Andersson, Ulf;42;M;Mariestad;;0;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;1;J;J;I;J;70511;Marie Engström Rosengren;65;K;Mariestad;Redovisningskonsult;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;2;J;J;I;J;70512;Per Rosengren;67;M;Mariestad;Lärare;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;3;J;J;I;J;70513;Britta Wänström;37;K;Mariestad;Miljöinspektör;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;4;J;J;I;J;70514;Chris Nygren;68;K;Mariestad;Sjuksköterska;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;5;J;J;I;J;70515;Monika Kindberg;47;K;Mariestad;;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;6;J;J;I;J;70516;Bernt Ekström;79;M;Mariestad;;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;7;J;J;I;J;70517;Sara Wallmon;45;K;Mariestad;;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;8;J;J;I;J;70518;Jonna Evertsson Kindberg;20;K;Mariestad;Undersköterska;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;9;J;J;I;J;70519;Mika Schroderus;42;M;[saknas i folkbokföringen];Naturvetare;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;10;J;J;I;J;70520;Anna Hjalmarsson;53;K;Mariestad;;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;11;J;J;I;J;70521;Staffan Haugland;34;M;Mariestad;Studerande;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;12;J;J;I;J;70522;Jane Rosenlind;40;K;Mariestad;Kulturutvecklare;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;13;J;J;I;J;70523;Jonny Bång;35;M;Mariestad;;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;14;J;J;I;J;70524;Bengt Johansson;78;M;Mariestad;Pensionär;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;15;J;J;I;J;70525;Charlotta Mellberg;47;K;Mariestad;Socialpedagog;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;16;J;J;I;J;70526;Erik Pettersson;32;M;Mariestad;Murare;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;17;J;J;I;J;70527;Erik Nilsson;58;M;Mariestad;Boendestödjare;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;18;J;J;I;J;70528;Jan Hagberg;61;M;Mariestad;;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;12756;19;J;J;I;J;70529;Michael Hellström;66;M;Mariestad;;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;1;J;J;I;J;70511;Marie Engström Rosengren;65;K;Mariestad;Redovisningskonsult;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;2;J;J;I;J;70512;Per Rosengren;67;M;Mariestad;Lärare;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;3;J;J;I;J;70513;Britta Wänström;37;K;Mariestad;Miljöinspektör;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;4;J;J;I;J;70514;Chris Nygren;68;K;Mariestad;Sjuksköterska;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;5;J;J;I;J;70515;Monika Kindberg;47;K;Mariestad;;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;6;J;J;I;J;70516;Bernt Ekström;79;M;Mariestad;;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;7;J;J;I;J;70517;Sara Wallmon;45;K;Mariestad;;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;8;J;J;I;J;70518;Jonna Evertsson Kindberg;20;K;Mariestad;Undersköterska;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;9;J;J;I;J;70520;Anna Hjalmarsson;53;K;Mariestad;;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;10;J;J;I;J;70521;Staffan Haugland;34;M;Mariestad;Studerande;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;11;J;J;I;J;70522;Jane Rosenlind;40;K;Mariestad;Kulturutvecklare;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;12;J;J;I;J;70523;Jonny Bång;35;M;Mariestad;;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;13;J;J;I;J;70524;Bengt Johansson;78;M;Mariestad;Pensionär;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;14;J;J;I;J;70525;Charlotta Mellberg;47;K;Mariestad;Socialpedagog;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;15;J;J;I;J;70526;Erik Pettersson;32;M;Mariestad;Murare;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;16;J;J;I;J;70527;Erik Nilsson;58;M;Mariestad;Boendestödjare;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;17;J;J;I;J;70528;Jan Hagberg;61;M;Mariestad;;39000;;J
+K;1493;Mariestad;00;Mariestad;Vänsterpartiet;V;5;S;15720;18;J;J;I;J;70529;Michael Hellström;66;M;Mariestad;;39000;;J

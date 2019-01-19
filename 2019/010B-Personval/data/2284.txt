@@ -1,0 +1,582 @@
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;1;J;J;I;J;9857;Per Nylén;45;M;Örnsköldsvik;45 år, Lärare, Själevad;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;2;J;J;I;J;9858;Anna-Belle Strömberg;53;K;Örnsköldsvik;53 år, Fritidsledare, Kroksta;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;3;J;J;I;J;9859;Kristoffer Park;40;M;Örnsköldsvik;40 år, Däckmontör, Mellansel;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;4;J;J;I;J;9860;Agneta Alenius Madsen;45;K;Örnsköldsvik;45 år, Egen företagare, Ulvöhamn;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;5;J;J;I;J;9861;Gunnar Jutterström;59;M;Örnsköldsvik;59 år, Verksamhetsutvecklare, Själevad;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;6;J;J;I;J;9862;Carolina Sondell;41;K;Örnsköldsvik;41 år, Civilingenjör, Kroksta;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;7;J;J;I;J;9863;Jan Olov Häggström;60;M;Örnsköldsvik;60 år, Ekonom, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;8;J;J;I;J;9864;Erika Howcroft;37;K;Örnsköldsvik;37 år, Entreprenör, Domsjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;9;J;J;I;J;9865;Tom Sundelin;60;M;Örnsköldsvik;60 år, Civilingenjör, Domsjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;10;J;J;I;J;9866;Kristin Ögren;64;K;Örnsköldsvik;64 år, Barnskötare, Hörnett;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;11;J;J;I;J;9867;Frat Kandemir;22;M;Örnsköldsvik;22 år, Statsvetare, Varvet;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;12;J;J;I;J;9868;Olga Back;54;K;Örnsköldsvik;54 år, Lokalvårdare, Domsjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;13;J;J;I;J;9869;Jan Lindstedt;70;M;Örnsköldsvik;70 år, Egen företagare, Varvet;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;14;J;J;I;J;9870;Elin Nordfjell;23;K;Örnsköldsvik;23 år, Studerande, Bjästa;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;15;J;J;I;J;9871;Mikael Sundmark;28;M;Örnsköldsvik;28 år, Kommunikatör, Gullänget;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;16;J;J;I;J;9872;Anna-Karin Sjölund;46;K;Örnsköldsvik;46 år, Fritidspedagog, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;17;J;J;I;J;9873;Jim Sundelin;54;M;Örnsköldsvik;54 år, Betongarbetare, Bredbyn;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;18;J;J;I;J;9874;Ulrika Karlsson;42;K;Örnsköldsvik;42 år, Cafébiträde, Domsjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;19;J;J;I;J;9875;Hans Gidlund;24;M;Örnsköldsvik;24 år, Assistent inom EKB, Kroksta;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;20;J;J;I;J;9876;Annika Westin;54;K;Örnsköldsvik;54 år, Undersköterska, Bjästa;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;21;J;J;I;J;9877;Leif Lindholm;60;M;Örnsköldsvik;60 år, Processoperatör, Bredbyn;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;22;J;J;I;J;9878;Yvonne Ölund;62;K;Örnsköldsvik;62 år, Förskollärare, Bjästa;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;23;J;J;I;J;9879;Emil Nordfjell;19;M;Örnsköldsvik;19 år, Studerande, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;24;J;J;I;J;9880;Katarina Nylén;43;K;Örnsköldsvik;43 år, Systemvetare, Själevad;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;25;J;J;I;J;9881;Håkan Forslund;34;M;Örnsköldsvik;34 år, Lastbilschaufför, Sidensjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;26;J;J;I;J;9882;Therese Häggquist;27;K;Örnsköldsvik;28 år, Assistent, Åmynnet;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;27;J;J;I;J;9883;Magnus Strödin;37;M;Örnsköldsvik;36 år, Mjukvaruutvecklare, Domsjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;28;J;J;I;J;9884;Klara Olsson Umegård;19;K;Örnsköldsvik;19 år, Studerande, Domsjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;29;J;J;I;J;9885;Christian Andersson;24;M;Örnsköldsvik;24 år, Vårdare, Bjästa;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;30;J;J;I;J;9886;Stina Sohlin;24;K;Örnsköldsvik;24 år, Studerande, Domsjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;31;J;J;I;J;9887;Magnus Wester;39;M;Örnsköldsvik;39 år, IF Metallarbetare, Domsjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;32;J;J;I;J;9888;Marianne Vestin;65;K;Örnsköldsvik;65 år, Assistent, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;33;J;J;I;J;9889;Roger Fjeldseth;60;M;Örnsköldsvik;61 år, Kanslichef, Skorped;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;34;J;J;I;J;9890;Matilda Abrahamsson;37;K;Örnsköldsvik;37 år, Processingenjör, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;35;J;J;I;J;9891;Zeth Olsson;43;M;Örnsköldsvik;43 år, Säljare, Hörnett;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;36;J;J;I;J;9892;Britt Westman;62;K;Örnsköldsvik;62 år, Assistent, Domsjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;37;J;J;I;J;9893;Andreas Näslund;36;M;Örnsköldsvik;36 år, Snickare, Själevad;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;38;J;J;I;J;9894;Christina Andersson;59;K;Örnsköldsvik;59 år, Administratör, Sidensjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;39;J;J;I;J;9895;Kent Lundgren;61;M;Örnsköldsvik;61 år, Verkstadsmontör, Bjästa;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;40;J;J;I;J;9896;Ingrid Åström;68;K;Örnsköldsvik;68 år, Pensionär, Bjästa;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;41;J;J;I;J;9897;Viktor Olofsson;28;M;Örnsköldsvik;28 år, Taxichaufför, Domsjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;42;J;J;I;J;9898;Birgitta Westman;62;K;Örnsköldsvik;62 år, Undersköterska, Sidensjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;43;J;J;I;J;9899;Tore Gidlund;67;M;Örnsköldsvik;57 år, Ekonom, Domsjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;44;J;J;I;J;9900;Josefin Lopez;25;K;Örnsköldsvik;25 år, Studerande, Bjästa;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;45;J;J;I;J;9901;Peter Näslund;44;M;Örnsköldsvik;44 år, Lagerarbetare, Bjästa;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;46;J;J;I;J;9902;Annika Kristoffersson;49;K;Örnsköldsvik;49 år, Administratör, Skorped;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;47;J;J;I;J;9903;David Björklund;46;M;Örnsköldsvik;46 år, Ombudsman, Själevad;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;48;J;J;I;J;9904;Tereza Mills;48;K;Örnsköldsvik;48 år, Beteendevetare, Bjästa;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;49;J;J;I;J;9905;Lars Nilsson;63;M;Örnsköldsvik;63 år, Personlig assistent, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;50;J;J;I;J;9906;Maria Olofsson;56;K;Örnsköldsvik;56 år, Resursplanerare, Solberg;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;51;J;J;I;J;9907;Gösta Svensson;70;M;Örnsköldsvik;70 år, Pensionär, Hörnett;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;52;J;J;I;J;9908;Maja Norman;19;K;Örnsköldsvik;19 år, Studerande, Gullänget;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;53;J;J;I;J;9909;Olof Ögren;66;M;Örnsköldsvik;66 år, Pensionär, Hörnett;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;54;J;J;I;J;9910;Madeleine Lundgren;41;K;Örnsköldsvik;41 år, Lokalvårdare, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;55;J;J;I;J;9911;Peder Johansson;63;M;Örnsköldsvik;63 år, Psykosoc. Resurs, Domsjö;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;56;J;J;I;J;9913;Mattias Bylund;28;M;Örnsköldsvik;28 år, Hydraulikmontör, Själevad;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;57;J;J;I;J;9914;Roger Sandström;67;M;Örnsköldsvik;67 år, Lärare, Åmynnet;100000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;1;J;J;I;J;9857;Per Nylén;45;M;Örnsköldsvik;45 år, Lärare, Själevad;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;2;J;J;I;J;10188;Anna Sundberg;42;K;Örnsköldsvik;42 år, Beteendevetare, Arnäsvall;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;3;J;J;I;J;10189;Mikael Hedin;44;M;Örnsköldsvik;44 år, IT-specialist, Bonässund;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;4;J;J;I;J;10190;Susanne Sturk;43;K;Örnsköldsvik;43 år, Miljöhandläggare, Svartby;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;5;J;J;I;J;10191;Tomas Jonsson;35;M;Örnsköldsvik;35 år, Industriarbetare, Trehörningssjö;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;6;J;J;I;J;10192;Zenitha Nordfjell;45;K;Örnsköldsvik;45 år, Kansliassistent, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;7;J;J;I;J;10193;Mattias Öberg;48;M;Örnsköldsvik;48 år, Brevbärare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;8;J;J;I;J;10194;Kristina Nilsson;53;K;Örnsköldsvik;53 år, Sjuksköterska, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;9;J;J;I;J;10195;Marcus Sellgren;40;M;Örnsköldsvik;40 år, Automationsingenjör, Järved;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;10;J;J;I;J;10196;Frida Olsson;28;K;Örnsköldsvik;28 år, Undersköterska, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;11;J;J;I;J;10197;Kazim Karkan;47;M;Örnsköldsvik;47 år, Samhällskommunikatör, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;12;J;J;I;J;10198;Birgith Olsson Johansson;55;K;Örnsköldsvik;55 år, Assistent, Brösta;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;13;J;J;I;J;10199;Zouheir Assaf;50;M;Örnsköldsvik;50 år, Språkhandledare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;14;J;J;I;J;10200;Jennifer Lundqvist;23;K;Örnsköldsvik;23 år, Vårdare, Husum;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;15;J;J;I;J;10201;Mustafa Acar;43;M;Örnsköldsvik;43 år, Lärare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;16;J;J;I;J;10202;Maria Vestman;41;K;Örnsköldsvik;41 år, Förskollärare, Järved;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;17;J;J;I;J;10203;Daniel Bylund;27;M;Örnsköldsvik;27 år, Vårdare, Trehörningssjö;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;18;J;J;I;J;10204;Susanne Silverkraft;42;K;Örnsköldsvik;42 år, Coach, Bonässund;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;19;J;J;I;J;10205;Torbjörn Vestman;60;M;Örnsköldsvik;60 år, Mobilkranförare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;20;J;J;I;J;10206;Ann-Sofie Karlsson Ågren;43;K;Örnsköldsvik;43 år, Undersköterska, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;21;J;J;I;J;10207;Tobias Hermansson;20;M;Örnsköldsvik;20 år, Studerande, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;22;J;J;I;J;10208;Lena Kvarnström;72;K;Örnsköldsvik;72 år, Pensionär, Brösta;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;23;J;J;I;J;10209;Welat Acar;23;M;Örnsköldsvik;23 år,  Studerande, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;24;J;J;I;J;10210;Cina Flarke;46;K;Örnsköldsvik;46 år, Pedagog, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;25;J;J;I;J;10211;Örjan Forsberg;57;M;Örnsköldsvik;57 år, Fritidskonsulent, Husum;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;26;J;J;I;J;10212;Britt-Inger Staaf;53;K;Örnsköldsvik;53 år, Vårdare, Björna;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;27;J;J;I;J;10213;Lars Edblad;55;M;Örnsköldsvik;55 år, Ombudsman, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;28;J;J;I;J;10214;Malin Westman;44;K;Örnsköldsvik;44 år, Upphandlare, Järved;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;29;J;J;I;J;10215;Jonny Englund;46;M;Örnsköldsvik;46 år, Säljare, Långviksmon;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;30;J;J;I;J;10216;Helene Andersson;54;K;Örnsköldsvik;54 år, Integrationsstödjare, Trehörningssjö;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;31;J;J;I;J;10217;Peter Vestin;45;M;Örnsköldsvik;45 år, Arbetare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;32;J;J;I;J;10218;Elvy Söderström;64;K;Örnsköldsvik;64 år, Lärare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;33;J;J;I;J;10219;Tommy Rönnqvist;56;M;Örnsköldsvik;56 år, Processoperatör, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;34;J;J;I;J;10220;Marielle Sjölund;43;K;Örnsköldsvik;43 år, Socionom, Trehörningsjö;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;35;J;J;I;J;10221;Glenn Nordlund;57;M;Örnsköldsvik;57 år, Hälsoplanerare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;36;J;J;I;J;10222;Maria Lundberg;44;K;Örnsköldsvik;44 år, Barnskötare, Bonässund;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;37;J;J;I;J;10223;Per Jonsson;52;M;Örnsköldsvik;52 år, Automationstekniker, Husum;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;38;J;J;I;J;10224;Marianne Lundström;72;K;Örnsköldsvik;72 år, Pensionär, Arnäsvall;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;39;J;J;I;J;10225;Patrik Lundstedt;31;M;Örnsköldsvik;31 år, Musiker, Järved;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;40;J;J;I;J;10226;Laila Bylund;63;K;Örnsköldsvik;63 år, Undersköterska, Brösta;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;41;J;J;I;J;10227;Michael Axelsson;53;M;Örnsköldsvik;53 år, Ingenjör, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;42;J;J;I;J;10228;Sandra Jonsson;39;K;Örnsköldsvik;39 år, Industriarbetare, Trehörningsjö;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;43;J;J;I;J;10229;Bruno Sjölund;49;M;Örnsköldsvik;49 år, Konstruktör, Trehörningsjö;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;44;J;J;I;J;10230;Gerd Persson;73;K;Örnsköldsvik;73 år, Pensionär, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;45;J;J;I;J;10231;Nils-Gunnar Persson;67;M;Örnsköldsvik;67 år, Pensionär, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;46;J;J;I;J;10232;Vega Näsström;75;K;Örnsköldsvik;75 år, Pensionär, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;47;J;J;I;J;10233;Zebastian Olsson;38;M;Örnsköldsvik;38 år, Säljare, Kroksta;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;48;J;J;I;J;10234;Karin Nordin;63;K;Örnsköldsvik;63 år, Undersköterska, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;49;J;J;I;J;10235;Ingemar Sundström;60;M;Örnsköldsvik;60 år, Servicerådgivare, Bjästa;82000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;1;J;J;I;J;50029;Anna-Britta Åkerlind;57;K;Örnsköldsvik;kommunalråd, 57 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;2;J;J;I;J;50030;Björn Olsson;39;M;Örnsköldsvik;skorstensfejare, 38 år, Högbyn;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;3;J;J;I;J;50031;Anna-Lena Lindberg;50;K;Örnsköldsvik;grundskollärare, 50 år, Grundsunda;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;4;J;J;I;J;8518;Emil Källström;31;M;Örnsköldsvik;riksdagsledamot, 31 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;5;J;J;I;J;50033;Lena Lindgren;51;K;Örnsköldsvik;utredare, 51 år, Björna;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;6;J;J;I;J;50034;Andreas Jansson;29;M;Örnsköldsvik;elkonstruktör, 29 år, Västerlandsjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;7;J;J;I;J;50035;Frida Bylund;34;K;Örnsköldsvik;bonde, 34 år, Myckelgensjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;8;J;J;I;J;50036;Bruno Byström;67;M;Örnsköldsvik;pensionär, 67 år, Sidensjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;9;J;J;I;J;50037;Margareta Andreasson;35;K;Örnsköldsvik;handläggare, 35 år, Själevad;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;10;J;J;I;J;50038;Bertil Jonsson;61;M;Örnsköldsvik;verksamhetschef, 61 år, Själevad;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;11;J;J;I;J;50039;Mats Kjellsson;49;M;Örnsköldsvik;projektledare, 49 år, Sidensjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;12;J;J;I;J;50040;Marielle Hagström;28;K;Örnsköldsvik;IT-tekniker, 28 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;13;J;J;I;J;50041;Svante Lundberg;68;M;Örnsköldsvik;pensionär, 68 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;14;J;J;I;J;50042;Erika Sjödin;46;K;Örnsköldsvik;kyrkomusiker, 46 år, Själevad;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;15;J;J;I;J;50043;Maria Hörnqvist;37;K;Örnsköldsvik;företagare, 38 år, Arnäsvall;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;16;J;J;I;J;50044;Liisi Hägglund;70;K;Örnsköldsvik;företagare/pensionär, 70 år, Järved;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;17;J;J;I;J;50045;Henrik Hägglund;41;M;Örnsköldsvik;lantbrukare, 42 år, Gideå;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;18;J;J;I;J;50046;Gunilla Kallin;74;K;Örnsköldsvik;pensionär, 74 år, Moliden;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;19;J;J;I;J;50047;André Eklöf;19;M;Örnsköldsvik;mångsysslare, 19 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;20;J;J;I;J;50048;Annica Långvall;30;K;Örnsköldsvik;leg dietist, 30 år, Gullänget;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;21;J;J;I;J;50049;Jan Sehlin;57;M;Örnsköldsvik;grundskollärare, 57 år, Hemling;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;22;J;J;I;J;50050;Elvira Häggblad;29;K;Örnsköldsvik;hemmansägare, 29 år, Djuptjärn;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;23;J;J;I;J;50051;Matthias Modig;40;M;Örnsköldsvik;fordonssamordnare, 40 år Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;24;J;J;I;J;50052;Vivi-Anne Olsson;56;K;Örnsköldsvik;verksamhetsutvecklare, 57 år, Högbyn;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;25;J;J;I;J;50053;Rose-Marie Saellström;52;K;Örnsköldsvik;undersköterska,53 år, Anundsjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;26;J;J;I;J;50054;Stina Kristoffersson;29;K;Örnsköldsvik;projektledare, 29 år, Bjästa;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;27;J;J;I;J;50055;Göran Algotsson;57;M;Örnsköldsvik;verkstads- och skogsarbetare, 57 år, Anundsjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;28;J;J;I;J;50056;Barbro Olsson;70;K;Örnsköldsvik;pensionär, 70 år, Husum;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;29;J;J;I;J;50057;Ulrik Ulander;46;M;Örnsköldsvik;enhetschef, 46 år, Husum;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;30;J;J;I;J;50058;Ellinor Källström;62;K;Örnsköldsvik;pedagog, 62 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;31;J;J;I;J;50059;Elias Zackrisson;19;M;Örnsköldsvik;studerande, 19 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;32;J;J;I;J;50060;Kristina Åström;70;K;Örnsköldsvik;pensionär, 70 år, Gideå;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;33;J;J;I;J;50061;Louise Byström;31;K;Örnsköldsvik;egen företagare, 31 år, Sidensjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;34;J;J;I;J;432024;Louise Bergkvist;65;K;Örnsköldsvik;skogsägare, 65 år, Järved;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;35;J;J;I;J;50063;Erik Sandin;31;M;Örnsköldsvik;butikschef, 31 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;36;J;J;I;J;50064;Marcus Edström;38;M;Örnsköldsvik;egen företagare, 38 år, Skagshamn;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;37;J;J;I;J;50065;Kristina Granlöf;61;K;Örnsköldsvik;miljöingenjör/företagare, 61 år, Gullänget;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;38;J;J;I;J;50066;Thomas Östman;54;M;Örnsköldsvik;egen företagare, 54 år, Själevad;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;39;J;J;I;J;50067;Frank Ståhlberg;30;M;Örnsköldsvik;utredningsingenjör, 30 år Gullänget;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;40;J;J;I;J;50068;Nils Wallner;18;M;Örnsköldsvik;studerande, 18 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Centerpartiet;C;4;S;12459;41;J;J;I;J;50069;Roland Wahlberg;59;M;Örnsköldsvik;datatekniker, 59 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Folkhemmet Sverige;;1388;;;;N;J;J;I;515657;Nilsson, Frank;74;M;Örnsköldsvik;;0;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;1;J;J;I;J;20907;Hanna Sydhage;33;K;Örnsköldsvik;33, Grafisk formgivare, Domsjö;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;2;J;J;I;J;20911;Lars Eidenvall;53;M;Örnsköldsvik;53, Teknologie doktor, Själevad;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;3;J;J;I;J;26037;Ulla-Britt Sundin;65;K;Örnsköldsvik;65, Kroksta;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;4;J;J;I;J;20904;Roland Nordin;50;M;Örnsköldsvik;50, Servicechef, Hörnett;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;5;J;J;I;J;26039;Maria Gulliksson;52;K;Örnsköldsvik;52, Lärare, Järved;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;6;J;J;I;J;20913;Göran Brorsson;66;M;Örnsköldsvik;66, Lärare, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;7;J;J;I;J;49732;Birgitta Sedin;61;K;Örnsköldsvik;61, Regionchef, Sidensjö;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;8;J;J;I;J;26042;Lennart Eriksson;62;M;Örnsköldsvik;62, Hoppets Stjärna, Kärrsjö;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;9;J;J;I;J;26043;Eva-Karin Öman;50;K;Örnsköldsvik;50, Kontorschef, Själevad;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;10;J;J;I;J;26044;Joseph Daibess;48;M;Örnsköldsvik;48, Affärsrådgivare, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;11;J;J;I;J;26045;Amanda Malmborg;22;K;Örnsköldsvik;22, Svedjeholmen;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;12;J;J;I;J;20915;Lars Forssén;51;M;Örnsköldsvik;51, Processtekniker, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;13;J;J;I;J;26047;Maria Berggren;54;K;Örnsköldsvik;54, Sidensjö;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;14;J;J;I;J;21000;Maria Borgehammar;45;K;Örnsköldsvik;45, Församlingspedagog, Gullänget;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;15;J;J;I;J;20921;Curt Eriksson;74;M;Örnsköldsvik;74, Ingenjör, Själevad;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;16;J;J;I;J;26051;Gunnel Sedin;68;K;Örnsköldsvik;68, Grönnäs;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;17;J;J;I;J;315376;Björn Sidén;54;M;Örnsköldsvik;54, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;18;J;J;I;J;26053;Maude Eriksson;72;K;Örnsköldsvik;72, Ekonom, Själevad;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;19;J;J;I;J;20917;Per Sundin;68;M;Örnsköldsvik;68, Civilingenjör, Kroksta;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;20;J;J;I;J;26055;Marie Jonzon;59;K;Örnsköldsvik;59, Mentalskötare, Överhörnäs;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;21;J;J;I;J;26056;Thomas Nordström;63;M;Örnsköldsvik;63, Ingenjör, Gidböle;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;22;J;J;I;J;26057;Helena Gulliksson;50;K;Örnsköldsvik;50, Ekonomiassistent, Varvet;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;23;J;J;I;J;26058;Uno Sjöberg;75;M;Örnsköldsvik;75, Storborgarn;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;24;J;J;I;J;26059;Maria Nordberg;54;K;Örnsköldsvik;54, Pastor, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;25;J;J;I;J;26060;Sven-Olof Grönlund;72;M;Örnsköldsvik;72, Åkeriägare, Österalnäs;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;26;J;J;I;J;26061;Susanne Ingman;59;K;Örnsköldsvik;59, Svedjeholmen;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;27;J;J;I;J;20997;Michal Zakolski;67;M;Örnsköldsvik;67, Socionom, Bredbyn;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;28;J;J;I;J;26063;Agnetha Nordin;60;K;Örnsköldsvik;60, Språklärare, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;29;J;J;I;J;26064;Erik Klint;82;M;Örnsköldsvik;82, Husum;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;30;J;J;I;J;21014;Maude Westman;74;K;Örnsköldsvik;74, Domsjö;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;31;J;J;I;J;26066;Sven-Olof Hellholm;73;M;Örnsköldsvik;73, Byggnadsingenjör, Järved;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;32;J;J;I;J;21007;Mona Lundqvist;73;K;Örnsköldsvik;73, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;33;J;J;I;J;26068;Åsa Sydhage;59;K;Örnsköldsvik;59, Förskollärare, Ås;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;34;J;J;I;J;26069;Mats Ingman;54;M;Örnsköldsvik;54, Svedjeholmen;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;35;J;J;I;J;26070;Brita Sandin;81;K;Örnsköldsvik;81, Verksamhetsledare, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;36;J;J;I;J;26071;Margit Forssén;80;K;Örnsköldsvik;80, Komminister emeritus, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Kristdemokraterna;KD;68;S;12118;37;J;J;I;J;26072;Sten Lundin;73;M;Örnsköldsvik;73, Sund;128000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Landsbygdspartiet Oberoende;LPo;1011;S;15359;1;J;J;I;J;207433;Ulla Carnemyr;47;K;Örnsköldsvik;47 år, administratör, Örnsköldsvik;3000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Landsbygdspartiet Oberoende;LPo;1011;;;;J;J;I;N;515654;[inte lämnat förklaring];;;;;0;;N
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;1;J;J;I;J;277270;Magnus Melin;38;M;Örnsköldsvik;Väktare, 38 år, Själevad;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;2;J;J;I;J;49189;Erica Markusson;39;K;Örnsköldsvik;Affärsjurist, 39 år, Högbyn;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;3;J;J;I;J;277336;Kurt Enberg;63;M;Örnsköldsvik;Kyrkoherde, 63 år, Bonäset;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;4;J;J;I;J;277790;Bror Wallström;70;M;Örnsköldsvik;Egenföretagare, 70 år, Sillviken;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;5;J;J;I;J;277237;Iréne Wallström;61;K;Örnsköldsvik;Egenföretagare, 60 år, Sillviken;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;6;J;J;I;J;277232;André Strödin;34;M;Örnsköldsvik;Studerande, 34 år, Vågsnäs;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;7;J;J;I;J;277245;Lena Jonsson;65;K;Örnsköldsvik;Lantbrevbärare, 65 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;8;J;J;I;J;277262;Göran Lundqvist;63;M;Örnsköldsvik;Socialpedagogisk resurs, 63 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;9;J;J;I;J;277795;Nathalie Ålstig;31;K;Örnsköldsvik;Studerande, 31 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;10;J;J;I;J;277796;Göran Norlén;66;M;Örnsköldsvik;Diakon, 66 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;11;J;J;I;J;277797;Berit Bengtsdotter;74;K;Örnsköldsvik;Förskollärare, 74 år, Köpmanholmen;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;12;J;J;I;J;277798;Ann-Kristin Enberg;63;K;Örnsköldsvik;Diakon, 63 år, Bonäset;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;13;J;J;I;J;277799;Anders Vestlin;64;M;Örnsköldsvik;Byggprojektledare, 63 år, Arnäsvall;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;14;J;J;I;J;277800;Owe Dahlgren;82;M;Örnsköldsvik;Sjöingenjör, 82 år, Köpmanholmen;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;15;J;J;I;J;277801;Åsa Nygren;69;K;Örnsköldsvik;Socionom, 69 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;16;J;J;I;J;277802;Carl-Johan Bredberg;80;M;Örnsköldsvik;Pensionär, 80 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;17;J;J;I;J;277803;Knut Nordin;74;M;Örnsköldsvik;Civilekonom, 74 år, Arnäsvall;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;18;J;J;I;J;277804;Hans Delén;75;M;Örnsköldsvik;F.d. Kriminalinspektör, 75 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;19;J;J;I;J;277805;Nils J Lundgren;62;M;Örnsköldsvik;Präst, 62 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;20;J;J;I;J;277807;Karin Siwertsson;37;K;Örnsköldsvik;Präst, 37 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;21;J;J;I;J;277264;Jöran Lundberg;89;M;Örnsköldsvik;Pensionär, 89 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Miljöpartiet de gröna;MP;55;S;14937;1;J;J;I;J;368884;Josefin Nilsson;26;K;Örnsköldsvik;26 år, lokalt språkrör, Örnsköldsvik;64000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Miljöpartiet de gröna;MP;55;S;14937;2;J;J;I;J;368293;Olof Dahlberg;45;M;Örnsköldsvik;45 år, pedagog, Arnäsvall;64000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Miljöpartiet de gröna;MP;55;S;14937;3;J;J;I;J;368502;Marianne Melander;37;K;Örnsköldsvik;37 år, läkare, Örnsköldsvik;64000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Miljöpartiet de gröna;MP;55;S;14937;4;J;J;I;J;368887;Henrik Augustsson;36;M;Örnsköldsvik;36 år, elmontör, Själevad;64000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Miljöpartiet de gröna;MP;55;S;14937;5;J;J;I;J;368888;Sara Bjurestam;29;K;Örnsköldsvik;29 år, gymnasielärare, Arnäsvall;64000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Miljöpartiet de gröna;MP;55;S;14937;6;J;J;I;J;368889;Torbjörn Vårsaga;31;M;Örnsköldsvik;31 år, reporter, Nötbolandet;64000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Miljöpartiet de gröna;MP;55;S;14937;7;J;J;I;J;368890;Erika Hallgren;28;K;Örnsköldsvik;28 år, biologistuderande, Örnsköldsvik;64000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Miljöpartiet de gröna;MP;55;S;14937;8;J;J;I;J;368891;Mikael Eklund;29;M;Örnsköldsvik;29 år, studie- och yrkesvägledare, Arnäsvall;64000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Miljöpartiet de gröna;MP;55;S;14937;9;J;J;I;J;368892;Ella Östberg;20;K;Örnsköldsvik;20 år, studerande, Domsjö;64000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Miljöpartiet de gröna;MP;55;S;14937;10;J;J;I;J;368893;Mattias Höglund;31;M;Örnsköldsvik;31 år, personlig assistent, Örnsköldsvik;64000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Miljöpartiet de gröna;MP;55;S;14937;11;J;J;I;J;368894;Sara Edström;43;K;Örnsköldsvik;43 år, lärare, Arnäsvall;64000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Miljöpartiet de gröna;MP;55;S;14937;12;J;J;I;J;368896;Per-Gunnar Fahrbring;64;M;Örnsköldsvik;64 år, arbetsmiljöingenjör, Lugnvik;64000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;1;J;J;I;J;268579;Annica Jonsson;41;K;Örnsköldsvik;Bonässund;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;2;J;J;I;J;240709;Johannes Nordin;26;M;Örnsköldsvik;Svedjeholmen;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;3;J;J;I;J;268581;Lars Näslund;55;M;Örnsköldsvik;Stråsundsviken;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;4;J;J;I;J;268582;Linnéa Berggren;24;K;Örnsköldsvik;Moliden;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;5;J;J;I;J;268583;Roger Näslund;48;M;Örnsköldsvik;Hörnett;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;6;J;J;I;J;21019;Helena Emanuelsson;41;K;Örnsköldsvik;Kornsjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;7;J;J;I;J;268585;Patrik Björklund;44;M;Örnsköldsvik;Husum;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;8;J;J;I;J;268586;Anita Danielsson;74;K;Örnsköldsvik;Solberg;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;9;J;J;I;J;268587;Jarl-Erik Smeds;72;M;Örnsköldsvik;Kroksta;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;10;J;J;I;J;268588;Jeanette Karlsson;26;K;Örnsköldsvik;Högland;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;11;J;J;I;J;268589;Peter Byström;45;M;Örnsköldsvik;Överhörnäs;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;12;J;J;I;J;268590;Maud Gustavsson;69;K;Örnsköldsvik;Husum;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;13;J;J;I;J;268591;Anvar Abbulv;44;M;Örnsköldsvik;Bjästa;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;14;J;J;I;J;268592;Julia Jäger;23;K;Örnsköldsvik;Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;15;J;J;I;J;268593;Willy Meshe Bikumbu;51;M;Örnsköldsvik;Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;16;J;J;I;J;268594;Margona Berggren;50;K;Örnsköldsvik;Österalnö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;17;J;J;I;J;268595;Tom Jonsson;52;M;Örnsköldsvik;Skallören;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;18;J;J;I;J;268596;Rikard Isaksson;19;M;Örnsköldsvik;Hörnett;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;19;J;J;I;J;268597;Doris Hamberg;73;K;Örnsköldsvik;Husum;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;20;J;J;I;J;268598;Jean-Baptiste Rubwebwe;60;M;Örnsköldsvik;Gottne;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;21;J;J;I;J;268599;Peter Engström;49;M;Örnsköldsvik;Stråsundsviken;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;22;J;J;I;J;268600;Monica Nordstrand;65;K;Örnsköldsvik;Arnäsvall;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Moderaterna;M;1;S;14404;23;J;J;I;J;268601;Ibrahim Medlej;41;M;Örnsköldsvik;Högland;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sjukvårdspartiet - Västernorrland;SJVP;196;S;14464;1;J;J;I;J;275662;Mathias Westin;43;M;Örnsköldsvik;43 år, Systemutvecklare, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sjukvårdspartiet - Västernorrland;SJVP;196;S;14464;2;J;J;I;J;275680;Erik Johansson;44;M;Örnsköldsvik;44 år, Elevassistent, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sjukvårdspartiet - Västernorrland;SJVP;196;S;14464;3;J;J;I;J;275668;Malte Hellström;69;M;Örnsköldsvik;69 år, Pensionär, Bonässund;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sjukvårdspartiet - Västernorrland;SJVP;196;S;14464;4;J;J;I;J;277183;Bo Enquist;68;M;Örnsköldsvik;68 år, Pensionär, Bonässund;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sjukvårdspartiet - Västernorrland;SJVP;196;S;14464;5;J;J;I;J;275666;Ola Johansson;49;M;Örnsköldsvik;49 år, Verkstadsarbetare, Bjästa;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sverigedemokraterna;SD;110;S;14892;1;J;J;I;J;360099;Patrick Wikner;53;M;Örnsköldsvik;52, Bjästa;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sverigedemokraterna;SD;110;S;14892;2;J;J;I;J;360093;Gudrun Ledin;61;K;Örnsköldsvik;61, Köpmanholmen;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sverigedemokraterna;SD;110;S;14892;3;J;J;I;J;360103;Tony Alexandersson;57;M;Örnsköldsvik;57, Domsjö;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sverigedemokraterna;SD;110;S;14892;4;J;J;I;J;360156;Arne Lindberg;74;M;Örnsköldsvik;73, Långviksmon;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sverigedemokraterna;SD;110;S;14892;5;J;J;I;J;360149;Gösta Nordberg;74;M;Örnsköldsvik;73, Husum;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sverigedemokraterna;SD;110;S;14892;6;J;J;I;J;361317;Arne Olsson;50;M;Örnsköldsvik;50, Bredbyn;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sverigedemokraterna;SD;110;S;14892;7;J;J;I;J;360153;Bo Ekeborg;76;M;Örnsköldsvik;75, Bonässund;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sverigedemokraterna;SD;110;S;14892;8;J;J;I;J;360142;Patrik Tegström;44;M;Örnsköldsvik;43, Moliden;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Sverigedemokraterna;SD;110;;;;J;J;I;N;515528;[inte lämnat förklaring];;;;;0;;N
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;1;J;J;I;J;111523;Göran Wåhlstedth;58;M;Örnsköldsvik;58 år, slöjdlärare, Mellansel;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;2;J;J;I;J;111524;Marie Buhr;57;K;Örnsköldsvik;57 år, vuxenlärare, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;3;J;J;I;J;111525;Anna Sjöberg;38;K;Örnsköldsvik;38 år, processoperatör, Bonäset;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;4;J;J;I;J;111526;Gunnar Eklöf;65;M;Örnsköldsvik;65 år, särskolelärare, Varvet;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;5;J;J;I;J;111527;Baran Hosseini;31;K;Örnsköldsvik;28 år, studerande, Sörliden;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;6;J;J;I;J;111528;Johnny Eriksson;48;M;Örnsköldsvik;48 år, kock, Gullänget;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;7;J;J;I;J;111529;Kerstin Lindgren;65;K;Örnsköldsvik;65 år, verksamhetsutvecklare, Norrvåge;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;8;J;J;I;J;111530;Gunnar Fors;68;M;Örnsköldsvik;68 år, fd Af-chef, Norrvåge;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;9;J;J;I;J;111531;Cecilia Wendt;35;K;Örnsköldsvik;35 år, undersköterska, Gullänget;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;10;J;J;I;J;111532;Nelson Rivera;55;M;Örnsköldsvik;55 år, lärarassistent, Gullänget;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;11;J;J;I;J;111533;Susann Persson;57;K;Örnsköldsvik;57 år, kulturarbetare, Bjästa;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;12;J;J;I;J;111534;Patrik Paulsson;33;M;Örnsköldsvik;33 år, lärarvikarie, Gene;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;13;J;J;I;J;111535;Ulrica Ödebygd;46;K;Örnsköldsvik;46 år, utredare, Bodum;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;14;J;J;I;J;111536;Hector López Ortega;49;M;Örnsköldsvik;49 år, undersköterska, Gullänget;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;15;J;J;I;J;111537;Anette Sjölund;49;K;Örnsköldsvik;49 år, kaninuppfödare, Järved;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;16;J;J;I;J;111538;Staffan Heldner;46;M;Örnsköldsvik;46 år, griftegårdsarbetare, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;17;J;J;I;J;111539;Johanna Thorsson Tyrberg;41;K;Örnsköldsvik;41 år, taxichaufför, Gullänget;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;18;J;J;I;J;111680;Anders Ölund;62;M;Örnsköldsvik;62 år, fd arbetsledare, Skede;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;19;J;J;I;J;111540;Marielle Buhr;25;K;Örnsköldsvik;25 år, musiker, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;20;J;J;I;J;111541;Kjell Strömstedt;57;M;Örnsköldsvik;57 år, busschaufför, Kroksta;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;21;J;J;I;J;111542;Anne-Louise Buhr;29;K;Örnsköldsvik;29 år, processoperatör, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;22;J;J;I;J;111543;Michael Carlsson;32;M;Örnsköldsvik;32 år, lönekonsulent, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;23;J;J;I;J;111544;Angela Nordlander;29;K;Örnsköldsvik;29 år, studerande, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;24;J;J;I;J;111545;Kristoffer Högstedt;29;M;Örnsköldsvik;29 år, systemingenjör, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;25;J;J;I;J;111546;Birgitha Landfors;60;K;Örnsköldsvik;60 år, undersköterska, Angsta;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;26;J;J;I;J;111547;Nils-Arne Nordlander;55;M;Örnsköldsvik;55 år, habiliteringsassistent, Köpmanholmen;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;27;J;J;I;J;111548;Sara Stockfelt;41;K;Örnsköldsvik;41 år, branch manager, Kroksta;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;28;J;J;I;J;111549;Zerisenai Yakob;37;M;Örnsköldsvik;37 år, vuxenlärare, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;29;J;J;I;J;111550;Lena Lundblad;55;K;Örnsköldsvik;55 år, inredningsarkitekt, Järved;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;30;J;J;I;J;111551;Anders Nilsson;44;M;Örnsköldsvik;44 år, teaterlärare, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;31;J;J;I;J;111552;Anne-Li Öman;51;K;Örnsköldsvik;51 år, socionom, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;32;J;J;I;J;111553;Abdelrahman Gumaa;57;M;Örnsköldsvik;57 år, städare, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;33;J;J;I;J;111554;Diana Berntsdotter Vallgren;37;K;Örnsköldsvik;37 år, konstkonsulent, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;01;Örnsköldsviks Norra;Vänsterpartiet;V;5;S;13101;34;J;J;I;J;111555;Anders Segerstedt;54;M;Örnsköldsvik;54 år, hallbyggare, Sörflärke;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;1;J;J;I;J;9857;Per Nylén;45;M;Örnsköldsvik;45 år, Lärare, Själevad;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;2;J;J;I;J;9858;Anna-Belle Strömberg;53;K;Örnsköldsvik;53 år, Fritidsledare, Kroksta;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;3;J;J;I;J;9859;Kristoffer Park;40;M;Örnsköldsvik;40 år, Däckmontör, Mellansel;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;4;J;J;I;J;9860;Agneta Alenius Madsen;45;K;Örnsköldsvik;45 år, Egen företagare, Ulvöhamn;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;5;J;J;I;J;9861;Gunnar Jutterström;59;M;Örnsköldsvik;59 år, Verksamhetsutvecklare, Själevad;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;6;J;J;I;J;9862;Carolina Sondell;41;K;Örnsköldsvik;41 år, Civilingenjör, Kroksta;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;7;J;J;I;J;9863;Jan Olov Häggström;60;M;Örnsköldsvik;60 år, Ekonom, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;8;J;J;I;J;9864;Erika Howcroft;37;K;Örnsköldsvik;37 år, Entreprenör, Domsjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;9;J;J;I;J;9865;Tom Sundelin;60;M;Örnsköldsvik;60 år, Civilingenjör, Domsjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;10;J;J;I;J;9866;Kristin Ögren;64;K;Örnsköldsvik;64 år, Barnskötare, Hörnett;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;11;J;J;I;J;9867;Frat Kandemir;22;M;Örnsköldsvik;22 år, Statsvetare, Varvet;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;12;J;J;I;J;9868;Olga Back;54;K;Örnsköldsvik;54 år, Lokalvårdare, Domsjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;13;J;J;I;J;9869;Jan Lindstedt;70;M;Örnsköldsvik;70 år, Egen företagare, Varvet;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;14;J;J;I;J;9870;Elin Nordfjell;23;K;Örnsköldsvik;23 år, Studerande, Bjästa;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;15;J;J;I;J;9871;Mikael Sundmark;28;M;Örnsköldsvik;28 år, Kommunikatör, Gullänget;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;16;J;J;I;J;9872;Anna-Karin Sjölund;46;K;Örnsköldsvik;46 år, Fritidspedagog, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;17;J;J;I;J;9873;Jim Sundelin;54;M;Örnsköldsvik;54 år, Betongarbetare, Bredbyn;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;18;J;J;I;J;9874;Ulrika Karlsson;42;K;Örnsköldsvik;42 år, Cafébiträde, Domsjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;19;J;J;I;J;9875;Hans Gidlund;24;M;Örnsköldsvik;24 år, Assistent inom EKB, Kroksta;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;20;J;J;I;J;9876;Annika Westin;54;K;Örnsköldsvik;54 år, Undersköterska, Bjästa;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;21;J;J;I;J;9877;Leif Lindholm;60;M;Örnsköldsvik;60 år, Processoperatör, Bredbyn;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;22;J;J;I;J;9878;Yvonne Ölund;62;K;Örnsköldsvik;62 år, Förskollärare, Bjästa;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;23;J;J;I;J;9879;Emil Nordfjell;19;M;Örnsköldsvik;19 år, Studerande, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;24;J;J;I;J;9880;Katarina Nylén;43;K;Örnsköldsvik;43 år, Systemvetare, Själevad;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;25;J;J;I;J;9881;Håkan Forslund;34;M;Örnsköldsvik;34 år, Lastbilschaufför, Sidensjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;26;J;J;I;J;9882;Therese Häggquist;27;K;Örnsköldsvik;28 år, Assistent, Åmynnet;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;27;J;J;I;J;9883;Magnus Strödin;37;M;Örnsköldsvik;36 år, Mjukvaruutvecklare, Domsjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;28;J;J;I;J;9884;Klara Olsson Umegård;19;K;Örnsköldsvik;19 år, Studerande, Domsjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;29;J;J;I;J;9885;Christian Andersson;24;M;Örnsköldsvik;24 år, Vårdare, Bjästa;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;30;J;J;I;J;9886;Stina Sohlin;24;K;Örnsköldsvik;24 år, Studerande, Domsjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;31;J;J;I;J;9887;Magnus Wester;39;M;Örnsköldsvik;39 år, IF Metallarbetare, Domsjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;32;J;J;I;J;9888;Marianne Vestin;65;K;Örnsköldsvik;65 år, Assistent, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;33;J;J;I;J;9889;Roger Fjeldseth;60;M;Örnsköldsvik;61 år, Kanslichef, Skorped;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;34;J;J;I;J;9890;Matilda Abrahamsson;37;K;Örnsköldsvik;37 år, Processingenjör, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;35;J;J;I;J;9891;Zeth Olsson;43;M;Örnsköldsvik;43 år, Säljare, Hörnett;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;36;J;J;I;J;9892;Britt Westman;62;K;Örnsköldsvik;62 år, Assistent, Domsjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;37;J;J;I;J;9893;Andreas Näslund;36;M;Örnsköldsvik;36 år, Snickare, Själevad;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;38;J;J;I;J;9894;Christina Andersson;59;K;Örnsköldsvik;59 år, Administratör, Sidensjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;39;J;J;I;J;9895;Kent Lundgren;61;M;Örnsköldsvik;61 år, Verkstadsmontör, Bjästa;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;40;J;J;I;J;9896;Ingrid Åström;68;K;Örnsköldsvik;68 år, Pensionär, Bjästa;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;41;J;J;I;J;9897;Viktor Olofsson;28;M;Örnsköldsvik;28 år, Taxichaufför, Domsjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;42;J;J;I;J;9898;Birgitta Westman;62;K;Örnsköldsvik;62 år, Undersköterska, Sidensjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;43;J;J;I;J;9899;Tore Gidlund;67;M;Örnsköldsvik;57 år, Ekonom, Domsjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;44;J;J;I;J;9900;Josefin Lopez;25;K;Örnsköldsvik;25 år, Studerande, Bjästa;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;45;J;J;I;J;9901;Peter Näslund;44;M;Örnsköldsvik;44 år, Lagerarbetare, Bjästa;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;46;J;J;I;J;9902;Annika Kristoffersson;49;K;Örnsköldsvik;49 år, Administratör, Skorped;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;47;J;J;I;J;9903;David Björklund;46;M;Örnsköldsvik;46 år, Ombudsman, Själevad;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;48;J;J;I;J;9904;Tereza Mills;48;K;Örnsköldsvik;48 år, Beteendevetare, Bjästa;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;49;J;J;I;J;9905;Lars Nilsson;63;M;Örnsköldsvik;63 år, Personlig assistent, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;50;J;J;I;J;9906;Maria Olofsson;56;K;Örnsköldsvik;56 år, Resursplanerare, Solberg;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;51;J;J;I;J;9907;Gösta Svensson;70;M;Örnsköldsvik;70 år, Pensionär, Hörnett;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;52;J;J;I;J;9908;Maja Norman;19;K;Örnsköldsvik;19 år, Studerande, Gullänget;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;53;J;J;I;J;9909;Olof Ögren;66;M;Örnsköldsvik;66 år, Pensionär, Hörnett;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;54;J;J;I;J;9910;Madeleine Lundgren;41;K;Örnsköldsvik;41 år, Lokalvårdare, Köpmanholmen;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;55;J;J;I;J;9911;Peder Johansson;63;M;Örnsköldsvik;63 år, Psykosoc. Resurs, Domsjö;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;56;J;J;I;J;9913;Mattias Bylund;28;M;Örnsköldsvik;28 år, Hydraulikmontör, Själevad;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11882;57;J;J;I;J;9914;Roger Sandström;67;M;Örnsköldsvik;67 år, Lärare, Åmynnet;100000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;1;J;J;I;J;9857;Per Nylén;45;M;Örnsköldsvik;45 år, Lärare, Själevad;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;2;J;J;I;J;10188;Anna Sundberg;42;K;Örnsköldsvik;42 år, Beteendevetare, Arnäsvall;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;3;J;J;I;J;10189;Mikael Hedin;44;M;Örnsköldsvik;44 år, IT-specialist, Bonässund;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;4;J;J;I;J;10190;Susanne Sturk;43;K;Örnsköldsvik;43 år, Miljöhandläggare, Svartby;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;5;J;J;I;J;10191;Tomas Jonsson;35;M;Örnsköldsvik;35 år, Industriarbetare, Trehörningssjö;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;6;J;J;I;J;10192;Zenitha Nordfjell;45;K;Örnsköldsvik;45 år, Kansliassistent, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;7;J;J;I;J;10193;Mattias Öberg;48;M;Örnsköldsvik;48 år, Brevbärare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;8;J;J;I;J;10194;Kristina Nilsson;53;K;Örnsköldsvik;53 år, Sjuksköterska, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;9;J;J;I;J;10195;Marcus Sellgren;40;M;Örnsköldsvik;40 år, Automationsingenjör, Järved;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;10;J;J;I;J;10196;Frida Olsson;28;K;Örnsköldsvik;28 år, Undersköterska, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;11;J;J;I;J;10197;Kazim Karkan;47;M;Örnsköldsvik;47 år, Samhällskommunikatör, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;12;J;J;I;J;10198;Birgith Olsson Johansson;55;K;Örnsköldsvik;55 år, Assistent, Brösta;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;13;J;J;I;J;10199;Zouheir Assaf;50;M;Örnsköldsvik;50 år, Språkhandledare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;14;J;J;I;J;10200;Jennifer Lundqvist;23;K;Örnsköldsvik;23 år, Vårdare, Husum;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;15;J;J;I;J;10201;Mustafa Acar;43;M;Örnsköldsvik;43 år, Lärare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;16;J;J;I;J;10202;Maria Vestman;41;K;Örnsköldsvik;41 år, Förskollärare, Järved;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;17;J;J;I;J;10203;Daniel Bylund;27;M;Örnsköldsvik;27 år, Vårdare, Trehörningssjö;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;18;J;J;I;J;10204;Susanne Silverkraft;42;K;Örnsköldsvik;42 år, Coach, Bonässund;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;19;J;J;I;J;10205;Torbjörn Vestman;60;M;Örnsköldsvik;60 år, Mobilkranförare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;20;J;J;I;J;10206;Ann-Sofie Karlsson Ågren;43;K;Örnsköldsvik;43 år, Undersköterska, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;21;J;J;I;J;10207;Tobias Hermansson;20;M;Örnsköldsvik;20 år, Studerande, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;22;J;J;I;J;10208;Lena Kvarnström;72;K;Örnsköldsvik;72 år, Pensionär, Brösta;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;23;J;J;I;J;10209;Welat Acar;23;M;Örnsköldsvik;23 år,  Studerande, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;24;J;J;I;J;10210;Cina Flarke;46;K;Örnsköldsvik;46 år, Pedagog, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;25;J;J;I;J;10211;Örjan Forsberg;57;M;Örnsköldsvik;57 år, Fritidskonsulent, Husum;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;26;J;J;I;J;10212;Britt-Inger Staaf;53;K;Örnsköldsvik;53 år, Vårdare, Björna;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;27;J;J;I;J;10213;Lars Edblad;55;M;Örnsköldsvik;55 år, Ombudsman, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;28;J;J;I;J;10214;Malin Westman;44;K;Örnsköldsvik;44 år, Upphandlare, Järved;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;29;J;J;I;J;10215;Jonny Englund;46;M;Örnsköldsvik;46 år, Säljare, Långviksmon;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;30;J;J;I;J;10216;Helene Andersson;54;K;Örnsköldsvik;54 år, Integrationsstödjare, Trehörningssjö;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;31;J;J;I;J;10217;Peter Vestin;45;M;Örnsköldsvik;45 år, Arbetare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;32;J;J;I;J;10218;Elvy Söderström;64;K;Örnsköldsvik;64 år, Lärare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;33;J;J;I;J;10219;Tommy Rönnqvist;56;M;Örnsköldsvik;56 år, Processoperatör, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;34;J;J;I;J;10220;Marielle Sjölund;43;K;Örnsköldsvik;43 år, Socionom, Trehörningsjö;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;35;J;J;I;J;10221;Glenn Nordlund;57;M;Örnsköldsvik;57 år, Hälsoplanerare, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;36;J;J;I;J;10222;Maria Lundberg;44;K;Örnsköldsvik;44 år, Barnskötare, Bonässund;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;37;J;J;I;J;10223;Per Jonsson;52;M;Örnsköldsvik;52 år, Automationstekniker, Husum;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;38;J;J;I;J;10224;Marianne Lundström;72;K;Örnsköldsvik;72 år, Pensionär, Arnäsvall;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;39;J;J;I;J;10225;Patrik Lundstedt;31;M;Örnsköldsvik;31 år, Musiker, Järved;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;40;J;J;I;J;10226;Laila Bylund;63;K;Örnsköldsvik;63 år, Undersköterska, Brösta;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;41;J;J;I;J;10227;Michael Axelsson;53;M;Örnsköldsvik;53 år, Ingenjör, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;42;J;J;I;J;10228;Sandra Jonsson;39;K;Örnsköldsvik;39 år, Industriarbetare, Trehörningsjö;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;43;J;J;I;J;10229;Bruno Sjölund;49;M;Örnsköldsvik;49 år, Konstruktör, Trehörningsjö;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;44;J;J;I;J;10230;Gerd Persson;73;K;Örnsköldsvik;73 år, Pensionär, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;45;J;J;I;J;10231;Nils-Gunnar Persson;67;M;Örnsköldsvik;67 år, Pensionär, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;46;J;J;I;J;10232;Vega Näsström;75;K;Örnsköldsvik;75 år, Pensionär, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;47;J;J;I;J;10233;Zebastian Olsson;38;M;Örnsköldsvik;38 år, Säljare, Kroksta;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;48;J;J;I;J;10234;Karin Nordin;63;K;Örnsköldsvik;63 år, Undersköterska, Örnsköldsvik;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Arbetarepartiet-Socialdemokraterna;S;2;S;11886;49;J;J;I;J;10235;Ingemar Sundström;60;M;Örnsköldsvik;60 år, Servicerådgivare, Bjästa;82000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;1;J;J;I;J;50029;Anna-Britta Åkerlind;57;K;Örnsköldsvik;kommunalråd, 57 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;2;J;J;I;J;50030;Björn Olsson;39;M;Örnsköldsvik;skorstensfejare, 38 år, Högbyn;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;3;J;J;I;J;50031;Anna-Lena Lindberg;50;K;Örnsköldsvik;grundskollärare, 50 år, Grundsunda;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;4;J;J;I;J;8518;Emil Källström;31;M;Örnsköldsvik;riksdagsledamot, 31 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;5;J;J;I;J;50033;Lena Lindgren;51;K;Örnsköldsvik;utredare, 51 år, Björna;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;6;J;J;I;J;50034;Andreas Jansson;29;M;Örnsköldsvik;elkonstruktör, 29 år, Västerlandsjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;7;J;J;I;J;50035;Frida Bylund;34;K;Örnsköldsvik;bonde, 34 år, Myckelgensjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;8;J;J;I;J;50036;Bruno Byström;67;M;Örnsköldsvik;pensionär, 67 år, Sidensjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;9;J;J;I;J;50037;Margareta Andreasson;35;K;Örnsköldsvik;handläggare, 35 år, Själevad;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;10;J;J;I;J;50038;Bertil Jonsson;61;M;Örnsköldsvik;verksamhetschef, 61 år, Själevad;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;11;J;J;I;J;50039;Mats Kjellsson;49;M;Örnsköldsvik;projektledare, 49 år, Sidensjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;12;J;J;I;J;50040;Marielle Hagström;28;K;Örnsköldsvik;IT-tekniker, 28 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;13;J;J;I;J;50041;Svante Lundberg;68;M;Örnsköldsvik;pensionär, 68 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;14;J;J;I;J;50042;Erika Sjödin;46;K;Örnsköldsvik;kyrkomusiker, 46 år, Själevad;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;15;J;J;I;J;50043;Maria Hörnqvist;37;K;Örnsköldsvik;företagare, 38 år, Arnäsvall;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;16;J;J;I;J;50044;Liisi Hägglund;70;K;Örnsköldsvik;företagare/pensionär, 70 år, Järved;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;17;J;J;I;J;50045;Henrik Hägglund;41;M;Örnsköldsvik;lantbrukare, 42 år, Gideå;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;18;J;J;I;J;50046;Gunilla Kallin;74;K;Örnsköldsvik;pensionär, 74 år, Moliden;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;19;J;J;I;J;50047;André Eklöf;19;M;Örnsköldsvik;mångsysslare, 19 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;20;J;J;I;J;50048;Annica Långvall;30;K;Örnsköldsvik;leg dietist, 30 år, Gullänget;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;21;J;J;I;J;50049;Jan Sehlin;57;M;Örnsköldsvik;grundskollärare, 57 år, Hemling;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;22;J;J;I;J;50050;Elvira Häggblad;29;K;Örnsköldsvik;hemmansägare, 29 år, Djuptjärn;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;23;J;J;I;J;50051;Matthias Modig;40;M;Örnsköldsvik;fordonssamordnare, 40 år Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;24;J;J;I;J;50052;Vivi-Anne Olsson;56;K;Örnsköldsvik;verksamhetsutvecklare, 57 år, Högbyn;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;25;J;J;I;J;50053;Rose-Marie Saellström;52;K;Örnsköldsvik;undersköterska,53 år, Anundsjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;26;J;J;I;J;50054;Stina Kristoffersson;29;K;Örnsköldsvik;projektledare, 29 år, Bjästa;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;27;J;J;I;J;50055;Göran Algotsson;57;M;Örnsköldsvik;verkstads- och skogsarbetare, 57 år, Anundsjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;28;J;J;I;J;50056;Barbro Olsson;70;K;Örnsköldsvik;pensionär, 70 år, Husum;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;29;J;J;I;J;50057;Ulrik Ulander;46;M;Örnsköldsvik;enhetschef, 46 år, Husum;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;30;J;J;I;J;50058;Ellinor Källström;62;K;Örnsköldsvik;pedagog, 62 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;31;J;J;I;J;50059;Elias Zackrisson;19;M;Örnsköldsvik;studerande, 19 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;32;J;J;I;J;50060;Kristina Åström;70;K;Örnsköldsvik;pensionär, 70 år, Gideå;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;33;J;J;I;J;50061;Louise Byström;31;K;Örnsköldsvik;egen företagare, 31 år, Sidensjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;34;J;J;I;J;432024;Louise Bergkvist;65;K;Örnsköldsvik;skogsägare, 65 år, Järved;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;35;J;J;I;J;50063;Erik Sandin;31;M;Örnsköldsvik;butikschef, 31 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;36;J;J;I;J;50064;Marcus Edström;38;M;Örnsköldsvik;egen företagare, 38 år, Skagshamn;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;37;J;J;I;J;50065;Kristina Granlöf;61;K;Örnsköldsvik;miljöingenjör/företagare, 61 år, Gullänget;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;38;J;J;I;J;50066;Thomas Östman;54;M;Örnsköldsvik;egen företagare, 54 år, Själevad;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;39;J;J;I;J;50067;Frank Ståhlberg;30;M;Örnsköldsvik;utredningsingenjör, 30 år Gullänget;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;40;J;J;I;J;50068;Nils Wallner;18;M;Örnsköldsvik;studerande, 18 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Centerpartiet;C;4;S;12459;41;J;J;I;J;50069;Roland Wahlberg;59;M;Örnsköldsvik;datatekniker, 59 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Folkhemmet Sverige;;1388;;;;N;J;J;I;515657;Nilsson, Frank;74;M;Örnsköldsvik;;0;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;1;J;J;I;J;20907;Hanna Sydhage;33;K;Örnsköldsvik;33, Grafisk formgivare, Domsjö;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;2;J;J;I;J;20911;Lars Eidenvall;53;M;Örnsköldsvik;53, Teknologie doktor, Själevad;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;3;J;J;I;J;26037;Ulla-Britt Sundin;65;K;Örnsköldsvik;65, Kroksta;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;4;J;J;I;J;20904;Roland Nordin;50;M;Örnsköldsvik;50, Servicechef, Hörnett;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;5;J;J;I;J;26039;Maria Gulliksson;52;K;Örnsköldsvik;52, Lärare, Järved;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;6;J;J;I;J;20913;Göran Brorsson;66;M;Örnsköldsvik;66, Lärare, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;7;J;J;I;J;49732;Birgitta Sedin;61;K;Örnsköldsvik;61, Regionchef, Sidensjö;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;8;J;J;I;J;26042;Lennart Eriksson;62;M;Örnsköldsvik;62, Hoppets Stjärna, Kärrsjö;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;9;J;J;I;J;26043;Eva-Karin Öman;50;K;Örnsköldsvik;50, Kontorschef, Själevad;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;10;J;J;I;J;26044;Joseph Daibess;48;M;Örnsköldsvik;48, Affärsrådgivare, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;11;J;J;I;J;26045;Amanda Malmborg;22;K;Örnsköldsvik;22, Svedjeholmen;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;12;J;J;I;J;20915;Lars Forssén;51;M;Örnsköldsvik;51, Processtekniker, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;13;J;J;I;J;26047;Maria Berggren;54;K;Örnsköldsvik;54, Sidensjö;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;14;J;J;I;J;21000;Maria Borgehammar;45;K;Örnsköldsvik;45, Församlingspedagog, Gullänget;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;15;J;J;I;J;20921;Curt Eriksson;74;M;Örnsköldsvik;74, Ingenjör, Själevad;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;16;J;J;I;J;26051;Gunnel Sedin;68;K;Örnsköldsvik;68, Grönnäs;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;17;J;J;I;J;315376;Björn Sidén;54;M;Örnsköldsvik;54, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;18;J;J;I;J;26053;Maude Eriksson;72;K;Örnsköldsvik;72, Ekonom, Själevad;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;19;J;J;I;J;20917;Per Sundin;68;M;Örnsköldsvik;68, Civilingenjör, Kroksta;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;20;J;J;I;J;26055;Marie Jonzon;59;K;Örnsköldsvik;59, Mentalskötare, Överhörnäs;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;21;J;J;I;J;26056;Thomas Nordström;63;M;Örnsköldsvik;63, Ingenjör, Gidböle;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;22;J;J;I;J;26057;Helena Gulliksson;50;K;Örnsköldsvik;50, Ekonomiassistent, Varvet;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;23;J;J;I;J;26058;Uno Sjöberg;75;M;Örnsköldsvik;75, Storborgarn;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;24;J;J;I;J;26059;Maria Nordberg;54;K;Örnsköldsvik;54, Pastor, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;25;J;J;I;J;26060;Sven-Olof Grönlund;72;M;Örnsköldsvik;72, Åkeriägare, Österalnäs;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;26;J;J;I;J;26061;Susanne Ingman;59;K;Örnsköldsvik;59, Svedjeholmen;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;27;J;J;I;J;20997;Michal Zakolski;67;M;Örnsköldsvik;67, Socionom, Bredbyn;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;28;J;J;I;J;26063;Agnetha Nordin;60;K;Örnsköldsvik;60, Språklärare, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;29;J;J;I;J;26064;Erik Klint;82;M;Örnsköldsvik;82, Husum;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;30;J;J;I;J;21014;Maude Westman;74;K;Örnsköldsvik;74, Domsjö;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;31;J;J;I;J;26066;Sven-Olof Hellholm;73;M;Örnsköldsvik;73, Byggnadsingenjör, Järved;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;32;J;J;I;J;21007;Mona Lundqvist;73;K;Örnsköldsvik;73, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;33;J;J;I;J;26068;Åsa Sydhage;59;K;Örnsköldsvik;59, Förskollärare, Ås;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;34;J;J;I;J;26069;Mats Ingman;54;M;Örnsköldsvik;54, Svedjeholmen;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;35;J;J;I;J;26070;Brita Sandin;81;K;Örnsköldsvik;81, Verksamhetsledare, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;36;J;J;I;J;26071;Margit Forssén;80;K;Örnsköldsvik;80, Komminister emeritus, Örnsköldsvik;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Kristdemokraterna;KD;68;S;12118;37;J;J;I;J;26072;Sten Lundin;73;M;Örnsköldsvik;73, Sund;128000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Landsbygdspartiet Oberoende;LPo;1011;S;15359;1;J;J;I;J;207433;Ulla Carnemyr;47;K;Örnsköldsvik;47 år, administratör, Örnsköldsvik;3000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Landsbygdspartiet Oberoende;LPo;1011;;;;J;J;I;N;515654;[inte lämnat förklaring];;;;;0;;N
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;1;J;J;I;J;277270;Magnus Melin;38;M;Örnsköldsvik;Väktare, 38 år, Själevad;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;2;J;J;I;J;49189;Erica Markusson;39;K;Örnsköldsvik;Affärsjurist, 39 år, Högbyn;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;3;J;J;I;J;277336;Kurt Enberg;63;M;Örnsköldsvik;Kyrkoherde, 63 år, Bonäset;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;4;J;J;I;J;277790;Bror Wallström;70;M;Örnsköldsvik;Egenföretagare, 70 år, Sillviken;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;5;J;J;I;J;277237;Iréne Wallström;61;K;Örnsköldsvik;Egenföretagare, 60 år, Sillviken;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;6;J;J;I;J;277232;André Strödin;34;M;Örnsköldsvik;Studerande, 34 år, Vågsnäs;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;7;J;J;I;J;277245;Lena Jonsson;65;K;Örnsköldsvik;Lantbrevbärare, 65 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;8;J;J;I;J;277262;Göran Lundqvist;63;M;Örnsköldsvik;Socialpedagogisk resurs, 63 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;9;J;J;I;J;277795;Nathalie Ålstig;31;K;Örnsköldsvik;Studerande, 31 år, Domsjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;10;J;J;I;J;277796;Göran Norlén;66;M;Örnsköldsvik;Diakon, 66 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;11;J;J;I;J;277797;Berit Bengtsdotter;74;K;Örnsköldsvik;Förskollärare, 74 år, Köpmanholmen;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;12;J;J;I;J;277798;Ann-Kristin Enberg;63;K;Örnsköldsvik;Diakon, 63 år, Bonäset;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;13;J;J;I;J;277799;Anders Vestlin;64;M;Örnsköldsvik;Byggprojektledare, 63 år, Arnäsvall;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;14;J;J;I;J;277800;Owe Dahlgren;82;M;Örnsköldsvik;Sjöingenjör, 82 år, Köpmanholmen;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;15;J;J;I;J;277801;Åsa Nygren;69;K;Örnsköldsvik;Socionom, 69 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;16;J;J;I;J;277802;Carl-Johan Bredberg;80;M;Örnsköldsvik;Pensionär, 80 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;17;J;J;I;J;277803;Knut Nordin;74;M;Örnsköldsvik;Civilekonom, 74 år, Arnäsvall;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;18;J;J;I;J;277804;Hans Delén;75;M;Örnsköldsvik;F.d. Kriminalinspektör, 75 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;19;J;J;I;J;277805;Nils J Lundgren;62;M;Örnsköldsvik;Präst, 62 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;20;J;J;I;J;277807;Karin Siwertsson;37;K;Örnsköldsvik;Präst, 37 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Liberalerna (tidigare Folkpartiet);L;3;S;14479;21;J;J;I;J;277264;Jöran Lundberg;89;M;Örnsköldsvik;Pensionär, 89 år, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Miljöpartiet de gröna;MP;55;S;14937;1;J;J;I;J;368884;Josefin Nilsson;26;K;Örnsköldsvik;26 år, lokalt språkrör, Örnsköldsvik;64000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Miljöpartiet de gröna;MP;55;S;14937;2;J;J;I;J;368293;Olof Dahlberg;45;M;Örnsköldsvik;45 år, pedagog, Arnäsvall;64000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Miljöpartiet de gröna;MP;55;S;14937;3;J;J;I;J;368502;Marianne Melander;37;K;Örnsköldsvik;37 år, läkare, Örnsköldsvik;64000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Miljöpartiet de gröna;MP;55;S;14937;4;J;J;I;J;368887;Henrik Augustsson;36;M;Örnsköldsvik;36 år, elmontör, Själevad;64000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Miljöpartiet de gröna;MP;55;S;14937;5;J;J;I;J;368888;Sara Bjurestam;29;K;Örnsköldsvik;29 år, gymnasielärare, Arnäsvall;64000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Miljöpartiet de gröna;MP;55;S;14937;6;J;J;I;J;368889;Torbjörn Vårsaga;31;M;Örnsköldsvik;31 år, reporter, Nötbolandet;64000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Miljöpartiet de gröna;MP;55;S;14937;7;J;J;I;J;368890;Erika Hallgren;28;K;Örnsköldsvik;28 år, biologistuderande, Örnsköldsvik;64000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Miljöpartiet de gröna;MP;55;S;14937;8;J;J;I;J;368891;Mikael Eklund;29;M;Örnsköldsvik;29 år, studie- och yrkesvägledare, Arnäsvall;64000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Miljöpartiet de gröna;MP;55;S;14937;9;J;J;I;J;368892;Ella Östberg;20;K;Örnsköldsvik;20 år, studerande, Domsjö;64000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Miljöpartiet de gröna;MP;55;S;14937;10;J;J;I;J;368893;Mattias Höglund;31;M;Örnsköldsvik;31 år, personlig assistent, Örnsköldsvik;64000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Miljöpartiet de gröna;MP;55;S;14937;11;J;J;I;J;368894;Sara Edström;43;K;Örnsköldsvik;43 år, lärare, Arnäsvall;64000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Miljöpartiet de gröna;MP;55;S;14937;12;J;J;I;J;368896;Per-Gunnar Fahrbring;64;M;Örnsköldsvik;64 år, arbetsmiljöingenjör, Lugnvik;64000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;1;J;J;I;J;268579;Annica Jonsson;41;K;Örnsköldsvik;Bonässund;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;2;J;J;I;J;240709;Johannes Nordin;26;M;Örnsköldsvik;Svedjeholmen;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;3;J;J;I;J;268581;Lars Näslund;55;M;Örnsköldsvik;Stråsundsviken;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;4;J;J;I;J;268582;Linnéa Berggren;24;K;Örnsköldsvik;Moliden;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;5;J;J;I;J;268583;Roger Näslund;48;M;Örnsköldsvik;Hörnett;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;6;J;J;I;J;21019;Helena Emanuelsson;41;K;Örnsköldsvik;Kornsjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;7;J;J;I;J;268585;Patrik Björklund;44;M;Örnsköldsvik;Husum;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;8;J;J;I;J;268586;Anita Danielsson;74;K;Örnsköldsvik;Solberg;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;9;J;J;I;J;268587;Jarl-Erik Smeds;72;M;Örnsköldsvik;Kroksta;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;10;J;J;I;J;268588;Jeanette Karlsson;26;K;Örnsköldsvik;Högland;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;11;J;J;I;J;268589;Peter Byström;45;M;Örnsköldsvik;Överhörnäs;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;12;J;J;I;J;268590;Maud Gustavsson;69;K;Örnsköldsvik;Husum;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;13;J;J;I;J;268591;Anvar Abbulv;44;M;Örnsköldsvik;Bjästa;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;14;J;J;I;J;268592;Julia Jäger;23;K;Örnsköldsvik;Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;15;J;J;I;J;268593;Willy Meshe Bikumbu;51;M;Örnsköldsvik;Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;16;J;J;I;J;268594;Margona Berggren;50;K;Örnsköldsvik;Österalnö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;17;J;J;I;J;268595;Tom Jonsson;52;M;Örnsköldsvik;Skallören;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;18;J;J;I;J;268596;Rikard Isaksson;19;M;Örnsköldsvik;Hörnett;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;19;J;J;I;J;268597;Doris Hamberg;73;K;Örnsköldsvik;Husum;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;20;J;J;I;J;268598;Jean-Baptiste Rubwebwe;60;M;Örnsköldsvik;Gottne;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;21;J;J;I;J;268599;Peter Engström;49;M;Örnsköldsvik;Stråsundsviken;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;22;J;J;I;J;268600;Monica Nordstrand;65;K;Örnsköldsvik;Arnäsvall;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Moderaterna;M;1;S;14404;23;J;J;I;J;268601;Ibrahim Medlej;41;M;Örnsköldsvik;Högland;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sjukvårdspartiet - Västernorrland;SJVP;196;S;14464;1;J;J;I;J;275662;Mathias Westin;43;M;Örnsköldsvik;43 år, Systemutvecklare, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sjukvårdspartiet - Västernorrland;SJVP;196;S;14464;2;J;J;I;J;275680;Erik Johansson;44;M;Örnsköldsvik;44 år, Elevassistent, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sjukvårdspartiet - Västernorrland;SJVP;196;S;14464;3;J;J;I;J;275668;Malte Hellström;69;M;Örnsköldsvik;69 år, Pensionär, Bonässund;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sjukvårdspartiet - Västernorrland;SJVP;196;S;14464;4;J;J;I;J;277183;Bo Enquist;68;M;Örnsköldsvik;68 år, Pensionär, Bonässund;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sjukvårdspartiet - Västernorrland;SJVP;196;S;14464;5;J;J;I;J;275666;Ola Johansson;49;M;Örnsköldsvik;49 år, Verkstadsarbetare, Bjästa;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sverigedemokraterna;SD;110;S;14892;1;J;J;I;J;360099;Patrick Wikner;53;M;Örnsköldsvik;52, Bjästa;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sverigedemokraterna;SD;110;S;14892;2;J;J;I;J;360093;Gudrun Ledin;61;K;Örnsköldsvik;61, Köpmanholmen;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sverigedemokraterna;SD;110;S;14892;3;J;J;I;J;360103;Tony Alexandersson;57;M;Örnsköldsvik;57, Domsjö;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sverigedemokraterna;SD;110;S;14892;4;J;J;I;J;360156;Arne Lindberg;74;M;Örnsköldsvik;73, Långviksmon;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sverigedemokraterna;SD;110;S;14892;5;J;J;I;J;360149;Gösta Nordberg;74;M;Örnsköldsvik;73, Husum;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sverigedemokraterna;SD;110;S;14892;6;J;J;I;J;361317;Arne Olsson;50;M;Örnsköldsvik;50, Bredbyn;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sverigedemokraterna;SD;110;S;14892;7;J;J;I;J;360153;Bo Ekeborg;76;M;Örnsköldsvik;75, Bonässund;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sverigedemokraterna;SD;110;S;14892;8;J;J;I;J;360142;Patrik Tegström;44;M;Örnsköldsvik;43, Moliden;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Sverigedemokraterna;SD;110;;;;J;J;I;N;515528;[inte lämnat förklaring];;;;;0;;N
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;1;J;J;I;J;111523;Göran Wåhlstedth;58;M;Örnsköldsvik;58 år, slöjdlärare, Mellansel;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;2;J;J;I;J;111524;Marie Buhr;57;K;Örnsköldsvik;57 år, vuxenlärare, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;3;J;J;I;J;111525;Anna Sjöberg;38;K;Örnsköldsvik;38 år, processoperatör, Bonäset;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;4;J;J;I;J;111526;Gunnar Eklöf;65;M;Örnsköldsvik;65 år, särskolelärare, Varvet;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;5;J;J;I;J;111527;Baran Hosseini;31;K;Örnsköldsvik;28 år, studerande, Sörliden;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;6;J;J;I;J;111528;Johnny Eriksson;48;M;Örnsköldsvik;48 år, kock, Gullänget;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;7;J;J;I;J;111529;Kerstin Lindgren;65;K;Örnsköldsvik;65 år, verksamhetsutvecklare, Norrvåge;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;8;J;J;I;J;111530;Gunnar Fors;68;M;Örnsköldsvik;68 år, fd Af-chef, Norrvåge;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;9;J;J;I;J;111531;Cecilia Wendt;35;K;Örnsköldsvik;35 år, undersköterska, Gullänget;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;10;J;J;I;J;111532;Nelson Rivera;55;M;Örnsköldsvik;55 år, lärarassistent, Gullänget;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;11;J;J;I;J;111533;Susann Persson;57;K;Örnsköldsvik;57 år, kulturarbetare, Bjästa;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;12;J;J;I;J;111534;Patrik Paulsson;33;M;Örnsköldsvik;33 år, lärarvikarie, Gene;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;13;J;J;I;J;111535;Ulrica Ödebygd;46;K;Örnsköldsvik;46 år, utredare, Bodum;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;14;J;J;I;J;111536;Hector López Ortega;49;M;Örnsköldsvik;49 år, undersköterska, Gullänget;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;15;J;J;I;J;111537;Anette Sjölund;49;K;Örnsköldsvik;49 år, kaninuppfödare, Järved;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;16;J;J;I;J;111538;Staffan Heldner;46;M;Örnsköldsvik;46 år, griftegårdsarbetare, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;17;J;J;I;J;111539;Johanna Thorsson Tyrberg;41;K;Örnsköldsvik;41 år, taxichaufför, Gullänget;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;18;J;J;I;J;111680;Anders Ölund;62;M;Örnsköldsvik;62 år, fd arbetsledare, Skede;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;19;J;J;I;J;111540;Marielle Buhr;25;K;Örnsköldsvik;25 år, musiker, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;20;J;J;I;J;111541;Kjell Strömstedt;57;M;Örnsköldsvik;57 år, busschaufför, Kroksta;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;21;J;J;I;J;111542;Anne-Louise Buhr;29;K;Örnsköldsvik;29 år, processoperatör, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;22;J;J;I;J;111543;Michael Carlsson;32;M;Örnsköldsvik;32 år, lönekonsulent, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;23;J;J;I;J;111544;Angela Nordlander;29;K;Örnsköldsvik;29 år, studerande, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;24;J;J;I;J;111545;Kristoffer Högstedt;29;M;Örnsköldsvik;29 år, systemingenjör, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;25;J;J;I;J;111546;Birgitha Landfors;60;K;Örnsköldsvik;60 år, undersköterska, Angsta;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;26;J;J;I;J;111547;Nils-Arne Nordlander;55;M;Örnsköldsvik;55 år, habiliteringsassistent, Köpmanholmen;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;27;J;J;I;J;111548;Sara Stockfelt;41;K;Örnsköldsvik;41 år, branch manager, Kroksta;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;28;J;J;I;J;111549;Zerisenai Yakob;37;M;Örnsköldsvik;37 år, vuxenlärare, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;29;J;J;I;J;111550;Lena Lundblad;55;K;Örnsköldsvik;55 år, inredningsarkitekt, Järved;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;30;J;J;I;J;111551;Anders Nilsson;44;M;Örnsköldsvik;44 år, teaterlärare, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;31;J;J;I;J;111552;Anne-Li Öman;51;K;Örnsköldsvik;51 år, socionom, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;32;J;J;I;J;111553;Abdelrahman Gumaa;57;M;Örnsköldsvik;57 år, städare, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;33;J;J;I;J;111554;Diana Berntsdotter Vallgren;37;K;Örnsköldsvik;37 år, konstkonsulent, Örnsköldsvik;132000;;J
+K;2284;Örnsköldsvik;02;Örnsköldsviks Södra;Vänsterpartiet;V;5;S;13101;34;J;J;I;J;111555;Anders Segerstedt;54;M;Örnsköldsvik;54 år, hallbyggare, Sörflärke;132000;;J

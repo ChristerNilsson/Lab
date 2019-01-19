@@ -1,0 +1,141 @@
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;1;J;J;I;J;77179;Stefan Carlsson;60;M;Svenljunga;Svenljunga;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;2;J;J;I;J;77180;Lisbeth Jacobsson;67;K;Svenljunga;Hillared;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;3;J;J;I;J;77181;Dan Franzén;70;M;Svenljunga;Svenljunga;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;4;J;J;I;J;77182;Mary-Ann Brimstedt;67;K;Svenljunga;Mjöbäck;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;5;J;J;I;J;77183;Dag Forsström;64;M;Svenljunga;Sexdrega;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;6;J;J;I;J;77184;Kerstin Göss Lindh;65;K;Svenljunga;Karkashult;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;7;J;J;I;J;77185;Patrik Harrysson;43;M;Svenljunga;Svenljunga;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;8;J;J;I;J;77186;Ann-Marie Franzén Molin;71;K;Svenljunga;Svenljunga;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;9;J;J;I;J;77187;Torsten Lindh;67;M;Svenljunga;Karkashult;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;10;J;J;I;J;77188;Birgitta Boo;77;K;Svenljunga;Hillared;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;11;J;J;I;J;77189;Per Bornefalk;63;M;Svenljunga;Ullasjö;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;12;J;J;I;J;77190;Anette Almgren;54;K;Svenljunga;Svenljunga;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;13;J;J;I;J;77191;Ingbert Haraldsson;72;M;Svenljunga;Svenljunga;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;14;J;J;I;J;77192;Helene Johnsson;45;K;Svenljunga;Svenljunga;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;15;J;J;I;J;77193;Tommy Falk;46;M;Svenljunga;Svenljunga;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;16;J;J;I;J;77194;Marie Hellstenius Flannagan;54;K;Svenljunga;Mjöbäck;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;17;J;J;I;J;77195;Gunnel Johansson;57;K;Svenljunga;Svenljunga;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;18;J;J;I;J;77196;Mauno Lundin;77;M;Svenljunga;Svenljunga;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;19;J;J;I;J;77197;Petra Berg;32;K;Svenljunga;Mjöbäck;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;20;J;J;I;J;77198;Gerhard Johansson;76;M;Svenljunga;Svenljunga;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;21;J;J;I;J;77199;Peter Bouvin;62;M;Svenljunga;Svenljunga;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;22;J;J;I;J;77200;Sidsel Kristiansen;66;K;Svenljunga;Svenljunga;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;23;J;J;I;J;77201;Jan Axell;60;M;Svenljunga;Mjöbäck;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Arbetarepartiet-Socialdemokraterna;S;2;S;12850;24;J;J;I;J;77202;Klas Göran Elvin;79;M;Svenljunga;Kalv;33000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;1;J;J;I;J;2944;Eva Johansson;59;K;Svenljunga;59 år, företagare, Kalv;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;2;J;J;I;J;5414;Bernt Andersson;65;M;Svenljunga;65 år, bilreparatör, Håcksvik;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;3;J;J;I;J;5415;Barbro Johansson;62;K;Svenljunga;62 år, lantbrukare, Sexdrega;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;4;J;J;I;J;3115;Petra Ojala;41;K;Svenljunga;41 år, sjuksköterska, Örsås;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;5;J;J;I;J;2969;Tommy Stensson;52;M;Svenljunga;52 år, företagare, Håcksvik;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;6;J;J;I;J;5418;Ann-Louise Karlsson;52;K;Svenljunga;52 år, fritidsledare, Östra Frölunda;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;7;J;J;I;J;5419;Inge Salomonsson;55;M;Svenljunga;56 år, arbetsledare, Sexdrega;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;8;J;J;I;J;5420;Christer Wolgner;49;M;Svenljunga;49 år, kyrkogårdsvaktmästare, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;9;J;J;I;J;5421;Britt-Marie Stensson;54;K;Svenljunga;53 år, företagare, Håcksvik;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;10;J;J;I;J;5422;Ernst Gustafsson;62;M;Svenljunga;62 år, verksamhetsutvecklare, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;11;J;J;I;J;5423;Anita Ottosson;76;K;Svenljunga;76 år, pensionerad vårdlärare, Mårdaklev;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;12;J;J;I;J;2968;Helene Jansson;41;K;Svenljunga;41 år, företagare, Östra Frölunda;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;13;J;J;I;J;5425;Anders Leijonhielm;72;M;Svenljunga;72 år, f.d bankdirektör, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;14;J;J;I;J;5426;Manda Schillerås;34;K;Svenljunga;34 år, landsbygdsutvecklare, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;15;J;J;I;J;5427;Susanne Pohl Lilja;50;K;Svenljunga;50 år, busschaufför, Örsås;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;16;J;J;I;J;5428;Catrin Wolgner;52;K;Svenljunga;52 år, kultursekreterare, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;17;J;J;I;J;5429;Per Larsson;54;M;Svenljunga;53 år, lantbrukare, Ullasjö;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;18;J;J;I;J;5430;Therese Söderlind;45;K;Svenljunga;44 år, fritidsledare, Holsjunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;19;J;J;I;J;5431;Rune Peterson;75;M;Svenljunga;70 år, pensionär, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;20;J;J;I;J;5432;Erik Johansson;45;M;Svenljunga;46 år, vaktmästare, Håcksvik;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;21;J;J;I;J;5433;Stefan Brorsson;47;M;Svenljunga;47 år, konstruktör, Mjöbäck;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;22;J;J;I;J;5434;Anders Selfors;50;M;Svenljunga;50 år, affärsutvecklare, Mjöbäck;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;23;J;J;I;J;5435;Anders Lennström;53;M;Svenljunga;53 år, företagare, Östra Frölunda;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;24;J;J;I;J;5436;Markus Bylander;44;M;Svenljunga;44 år, fabrikschef, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;25;J;J;I;J;5437;Kaj Brorsson;72;M;Svenljunga;72 år, pensionerad snickare, Mjöbäck;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;26;J;J;I;J;5438;Anita Kristensson;68;K;Svenljunga;67 år, pensionär, Östra Frölunda;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;27;J;J;I;J;5439;Unni Eliasson;70;K;Svenljunga;70 år, pensionär, Roasjö;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;28;J;J;I;J;5440;Johan Samuelsson;28;M;Svenljunga;29 år, banktjänsteman, Kalv;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;29;J;J;I;J;5441;Lars Hedin;74;M;Svenljunga;73 år, ingenjör, Holsjunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;30;J;J;I;J;5442;Joakim Bengtsson;49;M;Svenljunga;49 år, lastbilschaufför, Håcksvik;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;31;J;J;I;J;5443;Mona Johansson;28;K;Svenljunga;28 år, fritidspedagog, Sexdrega;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;32;J;J;I;J;5444;Malte Svensson;24;M;Svenljunga;23 år, studerande, Örsås;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;33;J;J;I;J;5445;Fredrik Stenbäcken;43;M;Svenljunga;43 år, lastbilschaufför, Holsjunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;34;J;J;I;J;5446;Björn Johansson;54;M;Svenljunga;54 år, skogsinspektör, Roasjö;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Centerpartiet;C;4;S;11822;35;J;J;I;J;5447;Anita Sjöberg;57;K;Svenljunga;56 år, barnskötare, Kalv;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Kristdemokraterna;KD;68;S;15524;1;N;J;J;I;274724;Fredrik Skott;47;M;Svenljunga;47, Pastor, Svenljunga;24000;;J
+K;1465;Svenljunga;00;Svenljunga;Kristdemokraterna;KD;68;S;15524;2;N;J;J;I;274733;Stig Nilsson;62;M;Svenljunga;62, Lagerarbetare, Svenljunga;24000;;J
+K;1465;Svenljunga;00;Svenljunga;Kristdemokraterna;KD;68;S;15524;3;N;J;J;I;491786;Caroline Pritchard Swedengren;36;K;Svenljunga;35, Vårdlärare, Sexdrega;24000;;J
+K;1465;Svenljunga;00;Svenljunga;Kristdemokraterna;KD;68;;;;N;J;J;I;515392;Simonovic, Robert;30;M;Svenljunga;;0;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;1;J;J;I;J;131842;Monica Björsell;41;K;Svenljunga;Svenljunga;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;2;J;J;I;J;237105;Bertil Hagström;58;M;Svenljunga;Sexdrega;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;3;J;J;I;J;237106;Ann Wallnedal;62;K;Svenljunga;Mårdaklev;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;4;J;J;I;J;237107;Jarl Bill;75;M;Svenljunga;Karkashult;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;5;J;J;I;J;237108;Thomas Carlsson;55;M;Svenljunga;Revesjö;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;6;J;J;I;J;237109;Susanna Johansson Ny;24;K;Svenljunga;Ebbarp;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;7;J;J;I;J;237110;Alain Waern;61;M;Svenljunga;Svenljunga;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;8;J;J;I;J;237111;Lennart Eriksson;66;M;Svenljunga;Mjöbäck;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;9;J;J;I;J;237112;Ann-Helene Cederholm;55;K;Svenljunga;Svenljunga;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;10;J;J;I;J;237113;Per Backlund;47;M;Svenljunga;Roasjö;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;11;J;J;I;J;237114;Lars-Erik Lundahl;36;M;Svenljunga;Roasjö;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;12;J;J;I;J;237115;Michaela Williamson;38;K;Svenljunga;Hillared;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;13;J;J;I;J;237116;Daniel Svensson;47;M;Svenljunga;Ullasjö;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;14;J;J;I;J;237117;Lone Holm Olesen;46;K;Svenljunga;Håcksvik;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;15;J;J;I;J;237118;Göran Andersson;72;M;Svenljunga;Roasjö;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;16;J;J;I;J;237119;Johan Björsell;42;M;Svenljunga;Svenljunga;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;17;J;J;I;J;237120;Bertil Johansson;70;M;Svenljunga;Sexdrega;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;18;J;J;I;J;237121;Angela Jönsson;55;K;Svenljunga;Mjöbäck;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;19;J;J;I;J;237122;Eckard Klug;78;M;Svenljunga;Örsås;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;20;J;J;I;J;237123;Christian Bengtsson;40;M;Svenljunga;Holsljunga;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;21;J;J;I;J;237124;Ida Eriksson;23;K;Svenljunga;Mjöbäck;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;22;J;J;I;J;237125;Gösta Johansson;74;M;Svenljunga;Svenljunga;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;23;J;J;I;J;237126;Lena Hammarstrand;57;K;Svenljunga;Holsljunga;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;24;J;J;I;J;237127;Claes Göran Claesson;77;M;Svenljunga;Holsljunga;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Landsbygdspartiet Oberoende;LPo;1011;S;14096;25;J;J;I;J;237128;Lars-Erik Eriksson;76;M;Svenljunga;Svenljunga;48000;;J
+K;1465;Svenljunga;00;Svenljunga;Liberalerna (tidigare Folkpartiet);L;3;S;14106;1;J;J;I;J;237880;Peter Kobbe;63;M;Svenljunga;64 år, företagare, Mjöbäck;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Liberalerna (tidigare Folkpartiet);L;3;S;14106;2;J;J;I;J;237881;Jari Palo-oja;44;M;Svenljunga;44 år, tryckare, Sexdrega;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Liberalerna (tidigare Folkpartiet);L;3;S;14106;3;J;J;I;J;237882;Eva Johansson;73;K;Svenljunga;73 år, stödpersonal LSS, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Liberalerna (tidigare Folkpartiet);L;3;S;14106;4;J;J;I;J;237883;Owe Lundin;75;M;Svenljunga;76 år, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Liberalerna (tidigare Folkpartiet);L;3;S;14106;5;J;J;I;J;237884;Marita Karlsson;65;K;Svenljunga;66 år, enhetschef, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Liberalerna (tidigare Folkpartiet);L;3;S;14106;6;J;J;I;J;237885;Lars-Göran Rudin;59;M;Svenljunga;59 år, undersköterska, Sexdrega;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Liberalerna (tidigare Folkpartiet);L;3;S;14106;7;J;J;I;J;237886;Nicklas Odéen;53;M;Svenljunga;54 år, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Miljöpartiet de gröna;MP;55;S;15538;1;N;J;J;I;74076;Marianne Josefsson;69;K;Svenljunga;Lärare, Svenljunga;16000;;J
+K;1465;Svenljunga;00;Svenljunga;Miljöpartiet de gröna;MP;55;S;15538;2;N;J;J;I;74876;Johanna Westerlund;34;K;Svenljunga;Undersköterska, Svenljunga;16000;;J
+K;1465;Svenljunga;00;Svenljunga;Miljöpartiet de gröna;MP;55;S;15538;3;N;J;J;I;493062;Annicka Kilberg;57;K;Svenljunga;Kulturhantverkare, Gyminstruktör, Holsjunga;16000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;1;J;J;I;J;253891;Johan Björkman;53;M;Svenljunga;53, Hillared;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;2;J;J;I;J;255474;Kjell Persson;62;M;Svenljunga;62, Hillared;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;3;J;J;I;J;254307;Margaretha Bjälkemo;73;K;Svenljunga;73, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;4;J;J;I;J;255476;Martin Due;18;M;Svenljunga;18, Sexdrega;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;5;J;J;I;J;253896;Jonas Alm;47;M;Svenljunga;47, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;6;J;J;I;J;255478;Per Ekelund;68;M;Svenljunga;68, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;7;J;J;I;J;255479;Bo Nordström;51;M;Svenljunga;51, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;8;J;J;I;J;255480;Roger Axelsson;47;M;Svenljunga;47, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;9;J;J;I;J;255481;Urban Nylén;50;M;Svenljunga;50, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;10;J;J;I;J;255482;Malin Lundin;43;K;Svenljunga;43, Holsljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;11;J;J;I;J;255483;Yvette Nordström;50;K;Svenljunga;50, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;12;J;J;I;J;255485;Roger Edberg;71;M;[saknas i folkbokföringen];71, Uddebo;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;13;J;J;I;J;255486;Hans Lundin;72;M;Svenljunga;72, Holsljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;14;J;J;I;J;255487;Christian Due;55;M;Svenljunga;55, Sexdrega;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;15;J;J;I;J;255488;Jan Uddgren;62;M;Svenljunga;62, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;14322;16;J;J;I;J;255490;Britt Marie Råvik;78;K;Svenljunga;78, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;1;J;J;I;J;253891;Johan Björkman;53;M;Svenljunga;53, Hillared;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;2;J;J;I;J;255474;Kjell Persson;62;M;Svenljunga;62, Hillared;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;3;J;J;I;J;254307;Margaretha Bjälkemo;73;K;Svenljunga;73, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;4;J;J;I;J;255476;Martin Due;18;M;Svenljunga;18, Sexdrega;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;5;J;J;I;J;253896;Jonas Alm;47;M;Svenljunga;47, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;6;J;J;I;J;255478;Per Ekelund;68;M;Svenljunga;68, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;7;J;J;I;J;255479;Bo Nordström;51;M;Svenljunga;51, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;8;J;J;I;J;255480;Roger Axelsson;47;M;Svenljunga;47, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;9;J;J;I;J;255481;Urban Nylén;50;M;Svenljunga;50, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;10;J;J;I;J;255482;Malin Lundin;43;K;Svenljunga;43, Holsljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;11;J;J;I;J;255483;Yvette Nordström;50;K;Svenljunga;50, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;12;J;J;I;J;255486;Hans Lundin;72;M;Svenljunga;72, Holsljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;13;J;J;I;J;255487;Christian Due;55;M;Svenljunga;55, Sexdrega;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;14;J;J;I;J;255488;Jan Uddgren;62;M;Svenljunga;62, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Moderaterna;M;1;S;15575;15;J;J;I;J;255490;Britt Marie Råvik;78;K;Svenljunga;78, Svenljunga;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Sverigedemokraterna;SD;110;S;12671;1;J;J;I;J;66223;Christer Schönander;67;M;Svenljunga;67, Pensionär;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Sverigedemokraterna;SD;110;S;12671;2;J;J;I;J;66224;Patrik Thorén;43;M;Svenljunga;43, Lantbrukstekniker;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Sverigedemokraterna;SD;110;S;12671;3;J;J;I;J;66225;Anna-Karin Örni;58;K;Svenljunga;57, Boendestödjare;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Sverigedemokraterna;SD;110;S;12671;4;J;J;I;J;66226;Roger Gyllensten;80;M;Svenljunga;80, Pensionär;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Sverigedemokraterna;SD;110;S;12671;5;J;J;I;J;66227;Peter Elofsson;37;M;Svenljunga;37, Maskinförare;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Sverigedemokraterna;SD;110;S;12671;6;J;J;I;J;66228;Susanne Lindström;58;K;Svenljunga;57, Pensionär;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Sverigedemokraterna;SD;110;S;12671;7;J;J;I;J;66229;Jan Örni;62;M;Svenljunga;62, Metallarbetare;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Sverigedemokraterna;SD;110;S;12671;8;J;J;I;J;66230;Lars-Åke Engström;65;M;Svenljunga;65, Taxichaufför;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Sverigedemokraterna;SD;110;S;12671;9;J;J;I;J;66231;Kjell Persson;75;M;Svenljunga;75, Pensionär;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Sverigedemokraterna;SD;110;S;12671;10;J;J;I;J;66232;Gert Månsson;62;M;Svenljunga;62, egenföretagare;25000;;J
+K;1465;Svenljunga;00;Svenljunga;Vänsterpartiet;V;5;S;12777;1;J;J;I;J;24734;Robert Klerfors;51;M;Svenljunga;51 år, idrottsplatsarbetare, Kalv;16000;;J
+K;1465;Svenljunga;00;Svenljunga;Vänsterpartiet;V;5;S;12777;2;J;J;I;J;71308;Emma Baster;49;K;Svenljunga;49 år, personlig assistent, Svenljunga;16000;;J

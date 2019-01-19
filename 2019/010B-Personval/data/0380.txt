@@ -1,0 +1,461 @@
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;1;J;J;I;J;110926;Erik Pelling;42;M;Uppsala;42 år, Kommunalråd/Agronom, Ekeby;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;2;J;J;I;J;110927;Caroline Hoffstedt;34;K;Uppsala;34 år, Kommunalråd/Utredare, Luthagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;3;J;J;I;J;81360;Gustaf Lantz;37;M;Uppsala;37 år, Jurist, Fålhagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;4;J;J;I;J;81381;Eva Christiernin;36;K;Uppsala;36 år, Lärare, Årsta;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;5;J;J;I;J;81378;Peter Gustavsson;41;M;Uppsala;41 år, Strategisk rådgivare ABF, Fålhagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;6;J;J;I;J;81369;Asal Gohari;21;K;Uppsala;21 år, Studerande, Fålhagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;7;J;J;I;J;98777;Ulrik Wärnsberg;59;M;Uppsala;59 år, Ekonom, Gottsunda;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;8;J;J;I;J;81361;Inga-Lill Sjöblom;58;K;Uppsala;58 år, Boendeassistent, Vänge;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;9;J;J;I;J;110934;Klas-Herman Lundgren;36;M;Uppsala;36 år, Ingenjör, Centrum;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;10;J;J;I;J;110935;Agneta Gille;62;K;Uppsala;62 år, Barnskötare/Riksdagsledamot, Svartbäcken;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;11;J;J;I;J;110936;Carl Lindberg;77;M;Uppsala;77 år, F.d. lärare, Bälinge;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;12;J;J;I;J;98780;Ylva Stadell;35;K;Uppsala;35 år, Politisk sekreterare, Årsta;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;13;J;J;I;J;110938;Björn Wall;71;M;Uppsala;71 år, Ekonomichef, Kapellgärdet;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;14;J;J;I;J;98804;Hilde Klasson;65;K;Uppsala;65 år, Personligt ombud, Eriksberg;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;15;J;J;I;J;110940;Mattias Kristenson;27;M;Uppsala;27 år, Ombudsman, Fålhagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;16;J;J;I;J;110941;Loa Mothata;45;K;Uppsala;45 år, Myndighetshandläggare, Svartbäcken;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;17;J;J;I;J;110942;Rafael Waters;39;M;Uppsala;39 år, Professor, Valsätra;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;18;J;J;I;J;110943;Elnaz Alizadeh;38;K;Uppsala;38 år, Kommunikationschef, Kungsängen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;19;J;J;I;J;81374;Pavlos Cavelier Bizas;21;M;Uppsala;21 år, Pressekreterare, Valsätra;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;20;J;J;I;J;110945;Agneta Erikson;62;K;Uppsala;62 år, Skolledare, Kungsängen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;21;J;J;I;J;110946;Anders Grönvall;54;M;Uppsala;54 år, Politisk sekreterare, Vårdsätra;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;22;J;J;I;J;110948;My Lilja;44;K;Uppsala;44 år, Lektor i kriminologi, Centrum;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;23;J;J;I;J;110949;Erik Dagnesjö;39;M;Uppsala;39 år, Byggnadsarbetare, Luthagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;24;J;J;I;J;110950;Maria Gauffin Röjestål;40;K;Uppsala;40 år, Folkbildare/Pedagog, Storvreta;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;25;J;J;I;J;81384;Patrik Hedlund;47;M;Uppsala;47 år, Trendspanare, Stenhagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;26;J;J;I;J;110952;Monica Östman;65;K;Uppsala;65 år, Arbetsmiljösamordnare, Kungsängen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;27;J;J;I;J;110953;Staffan Yngve;73;M;Uppsala;73 år, Professor, Ekeby;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;28;J;J;I;J;110954;Dima Sarsour;36;K;Uppsala;36 år, Integrationssamordnare, Bergsbrunna;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;29;J;J;I;J;110955;Bedo Kaplan;65;M;Uppsala;65 år, Civilingenjör/Byggledare, Svartbäcken;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;30;J;J;I;J;110956;Kia (Kristina) Solid;64;K;Uppsala;64 år, Koordinator Uppsala kommun, Storvreta;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;31;J;J;I;J;110957;Peder Granath;59;M;Uppsala;59 år, Personligt ombud, Fålhagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;32;J;J;I;J;110958;Emmy Sjöblom;30;K;Uppsala;30 år, Ombudsman, Fålhagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;33;J;J;I;J;110947;Joakim Palestro;43;M;Uppsala;43 år, Fastighetschef, Fålhagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;34;J;J;I;J;110959;Maria Patel;51;K;Uppsala;51 år, Administratör, Rickomberga;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;35;J;J;I;J;110960;Bertil Brunn;61;M;Uppsala;61 år, Chaufför, Storvreta;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;36;J;J;I;J;98790;Sara Gille;21;K;Uppsala;21 år, Studerande, Studentstaden;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;37;J;J;I;J;110962;Patrik Kjellin;36;M;Uppsala;36 år, Administratör, Salabacke;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;38;J;J;I;J;110963;Helena Wallström;50;K;Uppsala;50 år, Kommunikatör, Löten;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;39;J;J;I;J;110964;Martin Viredius;67;M;Uppsala;67 år, Pensionär, Fålhagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;40;J;J;I;J;110965;Kerstin Westman;67;K;Uppsala;67 år, Barnsköterska, Vattholma;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;41;J;J;I;J;110966;Gabriel Söderberg;39;M;Uppsala;39 år, Forskare/Ekonom, Kungsängen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;42;J;J;I;J;98798;Karin de Afonseca;57;K;Uppsala;57 år, Enhetschef, Löten;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;43;J;J;I;J;110968;Stavros Giangozoglu;54;M;Uppsala;54 år, Egen företagare, Kvarngärdet;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;44;J;J;I;J;110969;Kia Alfredsson;61;K;Uppsala;61 år, Hushållslärare, Svartbäcken;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;45;J;J;I;J;110970;Kjell Engström;68;M;Uppsala;68 år, Konsult logistik, Gottsunda;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;46;J;J;I;J;110971;Kijan Karimi;34;K;Uppsala;34 år, Jurist, Centrum;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;47;J;J;I;J;110972;Petri Lähteenmäki;50;M;Uppsala;50 år, Yrkeslärare, Danmark-Funbo;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;48;J;J;I;J;110973;Eileen Rönnlund Holmgren;70;K;Uppsala;70 år, Socionom, Kapellgärdet;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;49;J;J;I;J;98795;Jakob Stone;24;M;Uppsala;24 år, Studerande, Kvarngärdet;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;50;J;J;I;J;110975;Helena Olsson;57;K;Uppsala;57 år, Admin. samordnare, Ekeby;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;51;J;J;I;J;110976;Anders Alm;56;M;Uppsala;56 år, Kock, Ekeby;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;52;J;J;I;J;110977;Catrin Johansson;37;K;Uppsala;37 år, Verksamhetsassistent, Gränby;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;53;J;J;I;J;110978;Viktor Karlsson;39;M;Uppsala;39 år, Renhållningsarbetare, Salabacke;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;54;J;J;I;J;98796;Emine Behiye Karakitapoglu;52;K;Uppsala;52 år, Miljöstrateg, Ulleråker;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;55;J;J;I;J;110980;Eric Kapinga;37;M;Uppsala;37 år, Projektsamordnare, Flogsta;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;56;J;J;I;J;110981;Josefin Mannberg;62;K;Uppsala;62 år, Psykolog, Svartbäcken;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;57;J;J;I;J;110982;Daniel Simmons;31;M;Uppsala;31 år, Politices masterstudent, Luthagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;58;J;J;I;J;110983;Annica Nordin;43;K;Uppsala;43 år, Förlagsredaktör, Årsta;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;59;J;J;I;J;110984;Christer Solander;66;M;Uppsala;66 år, Miljö- och hälsoskyddsinspektör, Ekeby;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;60;J;J;I;J;110985;Caitlin McEvoy;28;K;Uppsala;28 år, Doktorand, Kåbo;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;61;J;J;I;J;110986;Björn-Erik Tapper;66;M;Uppsala;66 år, Ingenjör, Ulleråker;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;62;J;J;I;J;110987;Soraja Nadimpour;65;K;Uppsala;65 år, F.d. miljösamordnare, Sunnersta;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;63;J;J;I;J;110988;Erik Andersson;22;M;Uppsala;22 år, Studerande, Rackarberget;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;64;J;J;I;J;110989;Helena Nordlund;50;K;Uppsala;50 år, Förhandlare på Hyresgästföreningen, Sävja;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;65;J;J;I;J;110990;Erik Johansson;35;M;Uppsala;35 år, Flygplanslastare, Nyby;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;66;J;J;I;J;110991;Ingrid Pineiro;75;K;Uppsala;75 år, F.d. handikappkonsulent, Gottsunda;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;67;J;J;I;J;110994;Sixten Svanberg;22;M;Uppsala;22 år, Studerande, Luthagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;68;J;J;I;J;110993;Malika Charipova Akgül;47;K;Uppsala;47 år, Lärare, Salabacke;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;69;J;J;I;J;110996;Gunnar Larsson;40;M;Uppsala;40 år, Forskare, Gottsunda;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;70;J;J;I;J;110995;My MyungHee Han;70;K;Uppsala;70 år, Konstvetare, Salabacke;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;71;J;J;I;J;152234;Ove Johansson;76;M;Uppsala;76 år, Pensionär, Gamla Uppsala;642000;;J
+K;0380;Uppsala;00;Uppsala;Arbetarepartiet-Socialdemokraterna;S;2;S;13098;72;J;J;I;J;98802;Birgitta Lundkvist;63;K;Uppsala;63 år, Röntgensjuksköterska, Luthagen;642000;;J
+K;0380;Uppsala;00;Uppsala;Basinkomstpartiet;;1372;;;;N;J;J;I;486474;Jäger, Jan;51;M;Uppsala;;0;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;1;J;J;I;J;165645;Stefan Hanna;54;M;Uppsala;54 år, företagare, civilekonom, Centrum;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;2;J;J;I;J;159090;Unn Harsem;34;K;Uppsala;34 år, maskiningenjör, Luthagen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;3;J;J;I;J;159091;Mattias Johansson;46;M;Uppsala;45 år, policychef, Dalby-Tuna;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;4;J;J;I;J;165648;Zahrah Lifvendahl;43;K;Uppsala;42 år, agronom, Skyttorp/Vänge;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;5;J;J;I;J;165649;Jonas Petersson;46;M;Uppsala;46 år, systemutvecklare, Ulleråker;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;6;J;J;I;J;159103;Diana Zadius;22;K;Uppsala;22 år, juridikstuderande, Fålhagen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;7;J;J;I;J;165651;Mats Åhlund;65;M;Uppsala;64 år, fd överåklagare, Industristaden;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;8;J;J;I;J;165652;Viviane Obaid;49;K;Uppsala;49 år, företagare, Gränby;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;9;J;J;I;J;159106;Olle Romlin;22;M;Uppsala;22 år, politisk sekreterare, Luthagen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;10;J;J;I;J;159097;Rigmor Stenmark;78;K;Uppsala;78 år, fd riksdagsledamot, Luthagen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;11;J;J;I;J;165655;Karin Ericsson;67;K;Uppsala;67 år, civilingenjör, Centrum;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;12;J;J;I;J;165656;Ingmar Jansson;70;M;Uppsala;71 år, företagare, Börje;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;13;J;J;I;J;165657;Lena-Maria Jansson;57;K;Uppsala;57 år, guide, Uppsala;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;14;J;J;I;J;165658;Hans Nordström;64;M;Uppsala;64 år, pensionär, Almunge;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;15;J;J;I;J;165659;Karolina Wigenfeldt;42;K;Uppsala;42 år, ekonom, Ramsta;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;16;J;J;I;J;165660;Johan Cejie;49;M;Uppsala;49 år, företagare, Norby;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;17;J;J;I;J;159102;Freija Carlstén;27;K;Uppsala;27 år, landskapsarkitekt, Kungsängen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;18;J;J;I;J;159107;Gustaf Svenungsson;25;M;Uppsala;25 år, agronom, Fålhagen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;19;J;J;I;J;165663;Ehsan Nasari;37;M;Uppsala;36 år,entreprenör, Stenhagen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;20;J;J;I;J;159086;Anne Lennartsson;55;K;Uppsala;54 år, egenföretagare, Årsta;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;21;J;J;I;J;165665;Curt Malmenstedt;60;M;Uppsala;59 år, jordbrukschef, Läby;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;22;J;J;I;J;159096;Mia Nordström;44;K;Uppsala;44 år, miljö- och klimatrådgivare, Kungsängen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;23;J;J;I;J;165667;Gustav Harrysson;34;M;Uppsala;34 år, gymnasielärare, Kåbo;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;24;J;J;I;J;165668;Anna Johansson;40;K;Uppsala;40 år, forskare, Kapellgärdet;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;25;J;J;I;J;165669;Joakim Strignert;53;M;Uppsala;53 år, jurist, City;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;26;J;J;I;J;165670;Cecilia Fischer;44;K;Uppsala;43 år, marknadschef, Sala backe;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;27;J;J;I;J;186755;Yousof Rizai;23;M;Uppsala;23 år, säljare, Storvreta;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;28;J;J;I;J;165671;Kristina Johnson;56;K;Uppsala;56 år, fastighetschef, Kungsängen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;29;J;J;I;J;165672;Ulf Schmidt;68;M;Uppsala;68 år, lantbrukare, Vaksala;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;30;J;J;I;J;165673;Simon Öhlmér;43;M;Uppsala;43 år, programmerare, Centrum;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;31;J;J;I;J;165674;Stefan Hamnstedt;61;M;Uppsala;61 år, polis, Bälinge;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;32;J;J;I;J;165675;Victor Zhao-Jansson;31;M;Uppsala;31 år, IT-tekniker, Flogsta;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;33;J;J;I;J;159110;Daniel Solling;37;M;Uppsala;36 år, fil. dr forskningsakrivarie, Stenhagen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;34;J;J;I;J;165677;Anette Stavenow Eriksson;57;K;Uppsala;57 år, filmproducent, egenföretagare, Fålhagen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;35;J;J;I;J;165678;Bengt Mattsson;73;M;Uppsala;73 år, pensionär, redovisningskonsult, Kvarngärdet;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;36;J;J;I;J;159105;Johanna Engström;34;K;Uppsala;34 år, legitimerad psykolog, Fålhagen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;37;J;J;I;J;207059;Göran Möller;68;M;Uppsala;68 år, docent, Kåbo;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;38;J;J;I;J;165680;Steffen Weckner;65;M;Uppsala;64 år, civilingenjör, Sävja;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;39;J;J;I;J;165681;Lars Björndahl;64;M;Uppsala;64 år, företagare, Bergsbrunna;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;40;J;J;I;J;165682;Meheraab Ali Habibi;41;M;Uppsala;41 år, kökschef, Fullerö;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;41;J;J;I;J;207063;Barbro Möller;67;K;Uppsala;67 år, musiker, Kåbo;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;42;J;J;I;J;165683;Johan Ulin;55;M;Uppsala;55 år, produktionschef, Kungsgärdet;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;43;J;J;I;J;165684;Kajsa Lindner;39;K;Uppsala;39 år, VD, Sunnersta;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;44;J;J;I;J;165685;Andreas Nilsson;25;M;Uppsala;25 år, Civilingenjör, Fålhagen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;45;J;J;I;J;165686;Andreas Tyrberg;33;M;Uppsala;33 år, student, Kvarngärdet;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;46;J;J;I;J;165687;Mats Hellman;64;M;Uppsala;64 år, förvaltare, Dalby;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;47;J;J;I;J;159114;Daniel Hedefalk;19;M;Uppsala;19 år, student, Kungsängen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;48;J;J;I;J;159112;Mikael Eriksson;57;M;Uppsala;57 år, IT-ekonom, Gottsunda;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;49;J;J;I;J;165690;Josefin Berglund;36;K;Uppsala;37 år, administratör, Berthåga;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;50;J;J;I;J;165691;Jerker Nyberg von Below;43;M;Uppsala;43 år, systemadministratör, Kåbo;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;51;J;J;I;J;165692;Ove Hultquist;71;M;Uppsala;71 år, organisationskonsult, Uppsala;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;52;J;J;I;J;178501;Katarina Öjefors Stark;42;K;Uppsala;42 år, apotekare, Uppsala;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;53;J;J;I;J;165693;Magnus Tauvon;53;M;Uppsala;53 år, företagsledare, Luthagen;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;54;J;J;I;J;165694;Bengt Jansson;74;M;Uppsala;73 år, fd. tulltjänsteman/pensionär, Västeråker Björk;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;55;J;J;I;J;165695;Håkan Fredriksson;63;M;Uppsala;62 år, lantbruksföretagare, Vänge;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;56;J;J;I;J;165696;Jacob Von Engeström;42;M;Uppsala;41 år, lantbruksföretagare, Bälinge;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;57;J;J;I;J;165697;Kristina Mastroianni;45;K;Uppsala;45 år, agronom, Danmarksby;533000;;J
+K;0380;Uppsala;00;Uppsala;Centerpartiet;C;4;S;13558;58;J;J;I;J;165698;Alice Hult;77;K;Uppsala;77 år, pensionerad gymnasielärare, Sommarro;533000;;J
+K;0380;Uppsala;00;Uppsala;Direktdemokraterna;DD;1150;;;;N;J;J;I;513149;Hyttsten Almqvist, Fredrik;26;M;Uppsala;;0;;J
+K;0380;Uppsala;00;Uppsala;Direktdemokraterna;DD;1150;;;;N;J;J;I;515627;Eriksson, Christian;36;M;Uppsala;;0;;J
+K;0380;Uppsala;00;Uppsala;Feministiskt initiativ;FI;532;S;15157;1;J;J;I;J;406450;Lovisa Johansson;22;K;Uppsala;22 år, Politisk sekreterare;150000;;J
+K;0380;Uppsala;00;Uppsala;Feministiskt initiativ;FI;532;S;15157;2;J;J;I;J;406451;Stina Jansson;27;K;Uppsala;27 år, Lärarstudent och aktiv i tjej- och transjour;150000;;J
+K;0380;Uppsala;00;Uppsala;Feministiskt initiativ;FI;532;S;15157;3;J;J;I;J;406452;Josef Safady Åslund;32;M;Uppsala;32 år, Behandlingsassistent och socionomstudent;150000;;J
+K;0380;Uppsala;00;Uppsala;Feministiskt initiativ;FI;532;S;15157;4;J;J;I;J;406453;Charlie Strängberg;24;M;Uppsala;24 år, Student;150000;;J
+K;0380;Uppsala;00;Uppsala;Feministiskt initiativ;FI;532;S;15157;5;J;J;I;J;352187;Leia Nordin;29;K;Uppsala;29 år, Lärare och matematiker;150000;;J
+K;0380;Uppsala;00;Uppsala;Feministiskt initiativ;FI;532;S;15157;6;J;J;I;J;406455;Marie Sandberg;56;K;Uppsala;56 år, Arbetssökande;150000;;J
+K;0380;Uppsala;00;Uppsala;Feministiskt initiativ;FI;532;S;15157;7;J;J;I;J;406456;Naser Babor;35;M;Malmö;35 år, Läkare;150000;;J
+K;0380;Uppsala;00;Uppsala;Feministiskt initiativ;FI;532;S;15157;8;J;J;I;J;406457;Matilda Källman;26;K;Uppsala;26 år, Receptionist;150000;;J
+K;0380;Uppsala;00;Uppsala;Feministiskt initiativ;FI;532;S;15157;9;J;J;I;J;406458;Hodan Dualeh;40;K;Uppsala;39 år, Förskolelärare och tidigare undersköterska;150000;;J
+K;0380;Uppsala;00;Uppsala;Feministiskt initiativ;FI;532;S;15157;10;J;J;I;J;219300;Carmen Blanco Valer;59;K;Uppsala;58 år, Folkhögskolelärare och globalrättviseaktivist;150000;;J
+K;0380;Uppsala;00;Uppsala;Feministiskt initiativ;FI;532;S;15157;11;J;J;I;J;219321;Tomas Rimeika Karlsson;35;M;Uppsala;35 år, Musiker;150000;;J
+K;0380;Uppsala;00;Uppsala;Feministiskt initiativ;FI;532;S;15157;12;J;J;I;J;406461;Erik Svensson;29;M;Uppsala;28 år, Programmerare och spelutvecklare;150000;;J
+K;0380;Uppsala;00;Uppsala;Folkhemmet Sverige;;1388;;;;N;J;J;I;515656;Kjellman, Sture;72;M;Uppsala;;0;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;1;J;J;I;J;358120;Jonas Segersam;48;M;Uppsala;48, Kommunalråd, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;2;J;J;I;J;367133;Sarah Havneraas;24;K;Uppsala;24, Ombudsman, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;3;J;J;I;J;356871;Margit Borgström;70;K;Uppsala;70, Musiklärare, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;4;J;J;I;J;367135;Simon Westberg;33;M;Uppsala;32, Tjänsteman, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;5;J;J;I;J;367136;Eva Moberg;51;K;Uppsala;51, Föreståndare, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;6;J;J;I;J;358116;Evelina Solem;25;K;Uppsala;24, Sjuksköterska, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;7;J;J;I;J;367138;Mattias Holmström;28;M;Uppsala;27, Politisk sekreterare, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;8;J;J;I;J;367139;Christian Hermanson;46;M;Uppsala;46, IT-konsult, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;9;J;J;I;J;358107;Alexander Oscarsson;18;M;Uppsala;18, Studerande, Almunge;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;10;J;J;I;J;367141;Leif Boström;66;M;Uppsala;66, Serviceelektriker, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;11;J;J;I;J;356902;Martin Wisell;45;M;Uppsala;44, Kommittéhandläggare, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;12;J;J;I;J;367143;Amalia Hacopian;61;K;Uppsala;61, fd. Caféföreståndare, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;13;J;J;I;J;356886;Jan Erik Ågren;74;M;Uppsala;73, KD-senior ordf., Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;14;J;J;I;J;356881;Anna-Karin Vaz Contreiras;50;K;Uppsala;49, VD, Storvreta;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;15;J;J;I;J;356872;Ingemar Virsén;57;M;Uppsala;57, Byggnadsingenjör, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;16;J;J;I;J;367147;Alfonso Marin;70;M;Uppsala;69, fd. Multimediakonsult, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;17;J;J;I;J;367148;Tommy Pettersson;70;M;Uppsala;70, Pensionär, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;18;J;J;I;J;367149;Åsa Samuelsson;61;K;Uppsala;61, Leg psykolog, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;19;J;J;I;J;367150;Rickard Löfberg;40;M;Uppsala;39,, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;20;J;J;I;J;358119;Elias Sjögren;24;M;Uppsala;24, Civilingenjörsstudent, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;21;J;J;I;J;367152;Peter Holm;42;M;Uppsala;41, CTO, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;22;J;J;I;J;367153;Stig Andersson;71;M;Uppsala;71, Enhetschef, Bälinge;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;23;J;J;I;J;367154;Christoffer Orméus;25;M;Uppsala;25, Kriminalvårdare, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;24;J;J;I;J;356888;Sten Aleman;60;M;Uppsala;60, Officer, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;25;J;J;I;J;356889;Louice Moberg;24;K;Uppsala;24, Läkarstuderande, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;26;J;J;I;J;356880;Josef Gäreskog;26;M;Uppsala;26, Analytiker, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;27;J;J;I;J;367158;Fredric Strandh;32;M;Uppsala;32, Juridikstudent, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;28;J;J;I;J;358102;Alexandra Braf;28;K;Uppsala;28, Jurist, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;29;J;J;I;J;367160;Nils Ove Bejermyr;69;M;Uppsala;68, Ekonom, Storvreta;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;30;J;J;I;J;367161;Simon Elfving;49;M;Uppsala;49, Utvecklare, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristdemokraterna;KD;68;S;14927;31;J;J;I;J;367162;Daniel Jernberg;53;M;Uppsala;53, Egenföretagare, Uppsala;300000;;J
+K;0380;Uppsala;00;Uppsala;Kristna Värdepartiet;KrVP;1140;S;15701;1;N;J;J;I;480107;Lars Borgström;45;M;Uppsala;präst/lärare, 45, Uppsala;12000;;J
+K;0380;Uppsala;00;Uppsala;Kristna Värdepartiet;KrVP;1140;S;15701;2;N;J;J;I;480129;Larissa Wickman;64;K;Uppsala;läkare, 64, Uppsala;12000;;J
+K;0380;Uppsala;00;Uppsala;Kristna Värdepartiet;KrVP;1140;S;15701;3;N;J;J;I;507010;Niko Laxström;30;M;Tierp;företagare, 30, Uppsala;12000;;J
+K;0380;Uppsala;00;Uppsala;Kristna Värdepartiet;KrVP;1140;S;15701;4;N;J;J;I;507011;Lars Einarsson;73;M;Uppsala;pens. forskningsing., 73, Storvreta;12000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;1;J;J;I;J;131509;Claes Littorin;52;M;Uppsala;Lantbrukare, Bladåker;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;2;J;J;I;J;131606;Helena Sedvall;45;K;Uppsala;Verkstadsarbetare, Rasbo;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;3;J;J;I;J;131655;Yngve Eriksson;49;M;Uppsala;Drifttekniker, Vattholma;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;4;J;J;I;J;132599;Krister Ericsson;40;M;Uppsala;Produktionsingenjör, Uppsala;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;5;J;J;I;J;131653;Erica Åhström;49;K;Uppsala;Fotterapeut, Knutby;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;6;J;J;I;J;132220;Thomas Nordlöv;73;M;Uppsala;Förläggare, Järlåsa;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;7;J;J;I;J;270174;Arne Jansson;58;M;Uppsala;Koordinator/Deltidsbrandman, Knutby;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;8;J;J;I;J;132426;Luckie Söderholm;23;K;Uppsala;Studerande, Vattholma;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;9;J;J;I;J;132419;Peter Vahlqvist;55;M;Uppsala;Busschaufför, Björklinge;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;10;J;J;I;J;270184;Fredrik Andersson;25;M;Uppsala;Mjölkbonde, Storvreta;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;11;J;J;I;J;270185;Hans Johansson;67;M;Uppsala;Pensionär, Svista;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;12;J;J;I;J;270186;Leif Jalmerud;58;M;Uppsala;Elkonsult, Edinge;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;13;J;J;I;J;270187;Conny Andersson;38;M;Uppsala;Ambulanssjukvårdare, Rasbo;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;14;J;J;I;J;270201;Rune Söderström;75;M;Uppsala;Pensionerad lastbilschaufför, Knutby;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;15;J;J;I;J;270216;Birgitta Gregersen Kvist;58;K;Uppsala;Undersköterska, Järlåsa;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;16;J;J;I;J;270217;Marianne Fohlström;82;K;Uppsala;Pensionär, Uppsala;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;17;J;J;I;J;270218;Anna Karlsson;47;K;Uppsala;Regulatory Affairs Manager, Knutby;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;18;J;J;I;J;270219;Åsa Pousette;48;K;Uppsala;Medicinsk sekreterare, Bladåker;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;19;J;J;I;J;270238;Stefan Sundstedt;38;M;Uppsala;Cateringlastare, Knutby;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;20;J;J;I;J;270239;Kristina Jalmerud;59;K;Uppsala;Läkare, Edinge;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;21;J;J;I;J;270240;Peter Hellsing;41;M;Uppsala;Distriktschef, Storvreta;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;22;J;J;I;J;270241;Magnus Åhström;56;M;Uppsala;Jordbrukare/Deltidsbrandman, Knutby;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;23;J;J;I;J;270264;Ann-Cathrine Littorin;65;K;Uppsala;Vårdbiträde, Almunge;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;24;J;J;I;J;270265;Hanna Delawyer;43;K;Uppsala;Barnskötare/Frisör, Knutby;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;25;J;J;I;J;270266;Niklas Åhström;25;M;Uppsala;Butiksbiträde, Knutby;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;26;J;J;I;J;270267;Gunnar Isaksson;75;M;Uppsala;Pensionär, Vänge;65000;;J
+K;0380;Uppsala;00;Uppsala;Landsbygdspartiet Oberoende;LPo;1011;S;14408;27;J;J;I;J;270268;Helena Mattsson;58;K;Uppsala;Egenföretagare/Fårägare, Björklinge;65000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;1;J;J;I;J;53267;Mohamad Hassan;46;M;Uppsala;kommunalråd, 46 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;2;J;J;I;J;53268;Helena Hedman Skoglund;36;K;Uppsala;gymnasielärare, 36 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;3;J;J;I;J;53269;Benny Lindholm;33;M;Uppsala;tf. kammarrättsassessor, 33 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;4;J;J;I;J;53270;Eva Edwardsson;53;K;Uppsala;hovrättsråd, 53 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;5;J;J;I;J;53271;Anders A. Aronsson;64;M;Uppsala;företagare, 64 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;6;J;J;I;J;53272;Amanda Kanange;22;K;Uppsala;juriststudent, 22 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;7;J;J;I;J;53273;Mats Dafnäs;69;M;Uppsala;företagare, 69 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;8;J;J;I;J;53274;Oscar Matti;25;M;Uppsala;lärarstudent, 25 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;9;J;J;I;J;53275;Angelique Prinz Blix;54;K;Uppsala;projektledare, 54 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;10;J;J;I;J;53276;Peter Nordgren;69;M;Uppsala;företagare, 69 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;11;J;J;I;J;53277;Erica Närlinge;36;K;Uppsala;kanslichef, 36 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;12;J;J;I;J;53278;Anders Wallin;53;M;Uppsala;advokat, 53 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;13;J;J;I;J;53279;Susanne Eriksson;44;K;Uppsala;verksamhetschef äldreomsorgen, 44 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;14;J;J;I;J;53280;Helena Ling;49;K;Uppsala;förstelärare, 49 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;15;J;J;I;J;53281;Bodil Frick;42;K;Uppsala;idrott- och hälsoentreprenör, 42 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;16;J;J;I;J;53282;Urban Wästljung;62;M;Uppsala;industritjänsteman, 62 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;17;J;J;I;J;53283;Thea Andersson;27;K;Uppsala;kommunikatör, 27 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;18;J;J;I;J;53284;Anita Ericsson;64;K;Uppsala;fakultetshandläggare, 64 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;19;J;J;I;J;53285;Marmar Moshfeghi;36;K;Uppsala;kvinnorättsaktivist, 36 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;20;J;J;I;J;53286;Anders Westerlind;51;M;Uppsala;projektledare, 51 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;21;J;J;I;J;53287;Sofi Lahyani;46;K;Uppsala;regionchef, 46 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;22;J;J;I;J;53288;Gunnel Borgegård;74;K;Uppsala;f.d. direktor, 74 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;23;J;J;I;J;53289;Ulla Lovcalic;23;K;Uppsala;student, 23 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;24;J;J;I;J;53290;Björn Sundin;70;M;Uppsala;f.d. adjunkt, 70 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;25;J;J;I;J;53291;Leyla Demirel;37;K;Uppsala;utredare, 37 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;26;J;J;I;J;53292;Camilla Westerborn;58;K;Uppsala;civilingenjör, 58 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;27;J;J;I;J;53293;Aktar Zaman;65;M;Uppsala;integrationskonsult, 65 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;28;J;J;I;J;53294;Stojka Lakic;66;K;Uppsala;egenföretagare, 66 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;29;J;J;I;J;53295;Ing-Marie Hedman;67;K;Uppsala;beteendevetare, 67 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;30;J;J;I;J;53296;Lars-Johan Edström;36;M;Uppsala;högstadielärare, 36 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;31;J;J;I;J;53297;Kjell Aleklett;73;M;Uppsala;professor emeritus, 73 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;32;J;J;I;J;53298;Charlotte Bergendal;41;K;Uppsala;internationell handläggare, 41 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;33;J;J;I;J;53299;Rebecca Weissmann;37;K;Uppsala;stadsplanerare, 37 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;34;J;J;I;J;53300;Anders Nordström;73;M;Uppsala;folkbildare, 73 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;35;J;J;I;J;53301;Ella-Britt Hanslöf;82;K;Uppsala;f.d. socialkamrer, 82 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;36;J;J;I;J;53302;Karin Lawenius;50;K;Uppsala;statsvetare, 50 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;37;J;J;I;J;53303;Alf Hanslöf;84;M;Uppsala;byggnadsingenjör, 84 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;38;J;J;I;J;53304;Erik Norberg;77;M;Uppsala;läkare, 77 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;39;J;J;I;J;53305;Håkan Marklund;51;M;Uppsala;projektledare, 51 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;40;J;J;I;J;53306;Johanna Norberg;37;K;Uppsala;universitetsadjunkt, 37 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;41;J;J;I;J;53307;Niklas Hjelm Smith;32;M;Uppsala;tjänsteman, 32 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;42;J;J;I;J;53308;Kim Andersson;63;K;Uppsala;administratör, 63 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;43;J;J;I;J;53310;Per Ekegren;42;M;Uppsala;jurist, 42 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;44;J;J;I;J;53311;Leif Wernberg;75;M;Uppsala;f.d. konsult, 75 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;45;J;J;I;J;53312;Janine Bichara;56;K;Uppsala;leg. sjuksköterska & företagare, 56 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;46;J;J;I;J;53313;Ismail Kamil;63;M;Uppsala;universitetslärare, 63 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;47;J;J;I;J;53314;Malin Sjöberg Högrell;46;K;Uppsala;civilekonom, 46 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Liberalerna (tidigare Folkpartiet);L;3;S;15410;48;J;J;I;J;53315;Agneta Simonsson;77;K;Uppsala;f.d. egenföretagare, 77 år;513000;;J
+K;0380;Uppsala;00;Uppsala;Medborgerlig Samling;MED;1296;S;15000;1;J;J;I;J;383394;Wilhelm Berndtsson;27;M;Uppsala;27 år yrkesofficer;35000;;J
+K;0380;Uppsala;00;Uppsala;Medborgerlig Samling;MED;1296;S;15000;2;J;J;I;J;383395;Pernilla Rosander;51;K;Uppsala;51 år verksamhetskonsult hovslagare;35000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;1;J;J;I;J;382644;Rickard Malmström;50;M;Uppsala;Kommunalråd/gymnasielärare, 50 år, Norby;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;2;J;J;I;J;382647;Linda Eskilsson;43;K;Uppsala;Miljö- och hälsoskyddsinspektör, 43 år, Valsätra;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;3;J;J;I;J;382646;Lars Friberg;43;M;Uppsala;Klimat- och energiexpert, 43 år, Luthagen;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;4;J;J;I;J;382645;Helena Nordström-Källström;46;K;Uppsala;Forskare AgrDr., 46 år, Rasbokil;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;5;J;J;I;J;382642;Charles Pylad;41;M;Uppsala;Pol.mag/politisk sekreterare, 41 år, Sävja;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;6;J;J;I;J;382639;Åsa Strahlemo;48;K;Uppsala;Kurator, 48 år, Björklinge;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;7;J;J;I;J;385048;Per Eric Rosén;39;M;Uppsala;programmerare, 39 år, Luthagen;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;8;J;J;I;J;385049;Elisabeth Ståhle;73;K;Uppsala;konsult, 73 år, Kungsängen;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;9;J;J;I;J;382636;Johan Edstav;51;M;Uppsala;Särskild utredare, 51 år, Centrum;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;10;J;J;I;J;385051;Klara Ellström;30;K;Uppsala;FoU-sekreterare, 30 år, Kvarngärdet;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;11;J;J;I;J;383013;Bengt Fladvad;72;M;Uppsala;Egenföretagare, 72 år, Luthagen;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;12;J;J;I;J;382655;Alice Josephson;18;K;Uppsala;Student, 18 år, Sunnersta;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;13;J;J;I;J;385054;Oliver Björklund;23;M;Uppsala;Avdelningschef, 23 år, Kåbo;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;14;J;J;I;J;382653;Eva Adler;68;K;Uppsala;Fd speciallärare, 68 år, Eriksberg;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;15;J;J;I;J;382662;Salvador Rincon Amat;40;M;Uppsala;Arbetsförmedlare, 40 år, Lövstalöt;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;16;J;J;I;J;382633;Andrea Byding;21;K;Uppsala;Studerande, 21, Flogsta;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;17;J;J;I;J;382634;Erik Apel;31;M;Uppsala;Politisk sekreterare, 31 år, Årsta;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;18;J;J;I;J;382659;Tarja Onegård;47;K;Uppsala;Projektkoordinator, 47 år, Bälinge;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;19;J;J;I;J;385060;Warren Kunce;32;M;Uppsala;Biolog, 32 år, Gottsunda;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;20;J;J;I;J;385061;Susanne Engström;56;K;Uppsala;Universitetslektor, 56 år, Kvarngärdet;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;21;J;J;I;J;385062;Lennart Köhler;47;M;Uppsala;Företagare, 47 år, Centrum;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;22;J;J;I;J;383007;Susanna Tuvemo Johnson;54;K;Uppsala;Fysioterapeut/universitetsadjunkt, 54 år, Luthagen;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;23;J;J;I;J;382652;Mattias Ekberg;28;M;Uppsala;Socionom, 28 år, Almunge;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;24;J;J;I;J;385065;Sanna Sundvall;31;K;Uppsala;Student, 31 år, Centrum;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;25;J;J;I;J;385066;Ahmad Orfali;60;M;Uppsala;Egenföretagare, 60 år, Kvarngärdet;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;26;J;J;I;J;383024;Thess Lorin;22;K;Uppsala;Barnskötare, 22 år, Stenhagen;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;27;J;J;I;J;382648;Jonas Andersson;29;M;Uppsala;Processingenjör, 29 år, Flogsta;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;28;J;J;I;J;385069;Küllike Montgomery;75;K;Uppsala;Tidigare museichef, 75 år, Fålhagen;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;29;J;J;I;J;382998;Fredrik Leijerstam;49;M;Uppsala;Allmänläkare, 49 år, Svartbäcken;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;30;J;J;I;J;382661;Lene Schill;41;K;Uppsala;Studerande/verksamhetsutvecklare, 41 år, Årsta;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;31;J;J;I;J;383011;Finn Hedman;49;M;Uppsala;Receptionist, 49 år, Ekeby;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;32;J;J;I;J;385073;Ida Sylwan;34;K;Uppsala;Civilingenjör, 34 år, Kvarngärdet;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;33;J;J;I;J;384096;Trond Svendsen;61;M;Uppsala;Civilingenjör, 61 år, Gottsunda;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;34;J;J;I;J;385075;Kerstin Lundberg;75;K;Uppsala;Fil.kand, 75 år, Fjärdingen;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;35;J;J;I;J;385076;Paul Eskilsson;41;M;Uppsala;Jurist, 41 år, Valsätra;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;36;J;J;I;J;382667;Siw Björkgren;72;K;Uppsala;Agronom, 72 år, Löten;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;37;J;J;I;J;383017;Joachim Höggren;26;M;Uppsala;Politisk sekreterare, 26 år, Fålhagen;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;38;J;J;I;J;385079;Pia-Maria Ivarsson;61;K;Uppsala;Universitetslektor, 61 år, Tunabackar;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;39;J;J;I;J;382666;Terence Hongslo;69;M;Uppsala;Civilingenjör, 69 år, Kåbo;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;40;J;J;I;J;382669;Ida Netzel;33;K;Uppsala;Anställd i Försvarsmakten, 33 år, Årsta;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;41;J;J;I;J;385082;Jan Hagerlid;71;M;Uppsala;Pensionär, 71, Stabby;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;42;J;J;I;J;385083;Celina Hongslo;31;K;Uppsala;Lärare, 31 år, Sala backe;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;43;J;J;I;J;385084;Andreas Lindholm;35;M;Uppsala;Lärare, 35 år, Stenhagen;513000;;J
+K;0380;Uppsala;00;Uppsala;Miljöpartiet de gröna;MP;55;S;15015;44;J;J;I;J;382649;Åsa Ljusenius;32;K;Uppsala;Kommunikatör, 32 år, Sala backe;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;1;J;J;I;J;135099;Fredrik Ahlstedt;50;M;Uppsala;50 år, Kommunalråd, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;2;J;J;I;J;135100;Therez Olsson;35;K;Uppsala;35 år, Kommunalråd, Vänge;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;3;J;J;I;J;133581;Alexandra Steinholtz;29;K;Uppsala;29 år, Jurist, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;4;J;J;I;J;132922;Christopher Lagerqvist;42;M;Uppsala;42 år, Forskare, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;5;J;J;I;J;132910;Marta Obminska;39;K;Uppsala;39 år, Riksdagsledamot, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;6;J;J;I;J;132921;Magnus Åkerman;61;M;Uppsala;61 år, Civilekonom, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;7;J;J;I;J;132915;Cecilia Forss;70;K;Uppsala;70 år, Pensionär, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;8;J;J;I;J;132913;Markus Lagerquist;49;M;Uppsala;49 år, Politiskt sakkunnig, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;9;J;J;I;J;132932;Mats Gyllander;59;M;Uppsala;59 år, Officer, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;10;J;J;I;J;132920;Madeleine Andersson;47;K;Uppsala;47 år, Idrottsutvecklare, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;11;J;J;I;J;132929;Carolina Bringborn;43;K;Uppsala;43 år, Administrativ chef, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;12;J;J;I;J;135110;Anna-Karin Westerlund;69;K;Uppsala;69 år, 1:e arkivarie, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;13;J;J;I;J;135111;Robin Kronvall;40;M;Uppsala;40 år, Ekonomiansvarig, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;14;J;J;I;J;135112;Carolina Zandén;31;K;Uppsala;31 år, Borgarrådssekreterare, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;15;J;J;I;J;132916;Fredrik Hultman;25;M;Uppsala;25 år, Student, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;16;J;J;I;J;135114;Gunnar Hedberg;70;M;Uppsala;70 år, F.d. kommunalråd, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;17;J;J;I;J;135115;Roine Thunberg;57;M;Uppsala;57 år, Reservdelsman, Alunda;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;18;J;J;I;J;135116;Inger Söderberg;74;K;Uppsala;74 år, Pensionerad rektor, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;19;J;J;I;J;135117;Arne Sandemo;60;M;Uppsala;60 år, Kommunikationskonsult, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;20;J;J;I;J;132926;Bekir Jusufbasic;49;M;Uppsala;49 år, Egen företagare, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;21;J;J;I;J;135119;Lars Harlin;59;M;Uppsala;59 år, VD/ekonom, Storvreta;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;22;J;J;I;J;133575;Vivianne Eriksson;76;K;Uppsala;76 år, Egen företagare, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;23;J;J;I;J;135121;Stig Rådahl;72;M;Uppsala;72 år, F.d. bitr. rektor, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;24;J;J;I;J;135122;Mats Hansén;51;M;Uppsala;51 år, Rektor, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;25;J;J;I;J;135123;Maria Jansson;54;K;Uppsala;54 år, Kyrkvaktmästare, Knutby;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;26;J;J;I;J;135124;Mathias Kullberg;46;M;Uppsala;46 år, Civilingenjör, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;27;J;J;I;J;135125;Maria Petersson;68;K;Uppsala;68 år, Pensionär, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;28;J;J;I;J;135126;Hannes Beckman;34;M;Uppsala;34 år, Jurist, Storvreta;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;29;J;J;I;J;135127;Johan Ridenfeldt;36;M;Uppsala;36 år, Banktjänsteman, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;30;J;J;I;J;135128;Malin Ahlström;44;K;Uppsala;44 år, Bygglovsadministratör, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;31;J;J;I;J;135129;Thomas Tjäder;69;M;Uppsala;69 år, F.r. säk.politisk rådgivare, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;32;J;J;I;J;135130;John Manders;21;M;Uppsala;21 år, Studerande, Storvreta;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;33;J;J;I;J;135131;Sten Storgärds;23;M;Uppsala;23 år, Jur stud, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;34;J;J;I;J;135132;Per Davidsson;68;M;Uppsala;68 år, Pensionär, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;35;J;J;I;J;135133;Inger Liljeberg Kjelsson;59;K;Uppsala;59 år, Köksbiträde, Almunge;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;36;J;J;I;J;133571;Gazang Bradosti;29;K;Uppsala;29 år, Jurist , Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;37;J;J;I;J;135135;Mårten Blix;52;M;Uppsala;52 år, Jur. kand., Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;38;J;J;I;J;135136;Lise-Lotte Argulander;53;K;Uppsala;53 år, Jur. kand. , Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;39;J;J;I;J;135137;Lars Tufvesson;63;M;Uppsala;63 år, Civilekonom, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;40;J;J;I;J;135138;Håkan Tribell;40;M;Uppsala;40 år, Talskrivare, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;41;J;J;I;J;135139;Josefine Andersson;30;K;Uppsala;30 år, Forskare, Storvreta;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;42;J;J;I;J;135140;Tobias Hägglund;39;M;Uppsala;39 år, Handelspolitiskt sakkunnig, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;43;J;J;I;J;133579;Anders Karlberg;74;M;Uppsala;74 år, F d. kyrkojurist, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;44;J;J;I;J;135142;Margareta Fernberg;67;K;Uppsala;67 år, Projektledare, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;45;J;J;I;J;135143;Jukka Saario;47;M;Uppsala;47 år, Entreprenör, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;46;J;J;I;J;135144;Michael Holtorf;29;M;Uppsala;29 år, Studerande, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;47;J;J;I;J;132927;Hélène Brodin Rheindorf;58;K;Uppsala;58 år, Chefssekreterare, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;48;J;J;I;J;135146;Carl Filip Trolle Hjälte;22;M;Uppsala;22 år, Agronomie stud., Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;49;J;J;I;J;133576;Adrian Ribbing;25;M;Uppsala;25 år, Studerande, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;50;J;J;I;J;135148;Åse Karlsson;57;K;Uppsala;57 år, Egen företagare, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;51;J;J;I;J;133583;Peter Eklund;67;M;Uppsala;67 år, Civilingenjör, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;52;J;J;I;J;133562;Amanda Skårner;27;K;Uppsala;27 år, Juriststuderande, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;53;J;J;I;J;135151;Mohammad Jashim Uddin;39;M;Uppsala;39 år, Företagare, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;54;J;J;I;J;135152;Fredrik Björkman;50;M;Uppsala;50 år, Officer, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;55;J;J;I;J;135153;Gunilla Söderman;72;K;Uppsala;72 år, Lärare, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;56;J;J;I;J;135154;Mats Wurmbach;40;M;Uppsala;40 år, IT-specialist, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;57;J;J;I;J;135156;Martin Talay;64;M;Uppsala;64 år, Marknadsekonom, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;58;J;J;I;J;135157;Johan Blomqvist;42;M;Uppsala;42 år, El-projektör, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;59;J;J;I;J;135158;Maris Rasul;40;K;Uppsala;40 år, Tjänsteman, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;60;J;J;I;J;133574;Diderick Velthoen;57;M;Uppsala;57 år, Miljöjurist, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Moderaterna;M;1;S;13341;61;J;J;I;J;135160;Ulf Åström;51;M;Uppsala;51 år, Banktjänsteman, Uppsala;513000;;J
+K;0380;Uppsala;00;Uppsala;Piratpartiet;PP;524;S;15112;1;J;J;I;J;395850;Aeona Faramond;28;M;Uppsala;28, Personlig assistent;100000;;J
+K;0380;Uppsala;00;Uppsala;Piratpartiet;PP;524;S;15112;2;J;J;I;J;395851;Elin Andersson;25;K;Uppsala;25;100000;;J
+K;0380;Uppsala;00;Uppsala;Piratpartiet;PP;524;S;15112;3;J;J;I;J;395852;Fredrik Appelkvist;30;M;Uppsala;30, Kulturentusiast;100000;;J
+K;0380;Uppsala;00;Uppsala;POPULISTERNA;;1347;;;;N;J;J;I;501409;Eriksson, Mikael;56;M;Uppsala;;0;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;1;J;J;I;J;136073;Simon Alm;28;M;Uppsala;28, regionråd, Skyttorp;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;2;J;J;I;J;136074;David Perez;28;M;Uppsala;28, ekonom, centrum;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;3;J;J;I;J;136075;Lisen Burmeister;40;K;Uppsala;40, fil. kand. biologi, Björklinge;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;4;J;J;I;J;136076;Linnea Bjuhr;22;K;Håbo;22, politisk sekreterare, Skyttorp;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;5;J;J;I;J;136077;Rebecka Tyrheim;18;K;Uppsala;18, student, Funbo;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;6;J;J;I;J;136078;Anders Sehlin;72;M;Uppsala;72, f.d. it-manager, Eriksberg;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;7;J;J;I;J;136079;Roger Thelander;52;M;Uppsala;52, företagare, Eriksberg;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;8;J;J;I;J;136080;Knut Godskesen;54;M;Uppsala;54, översättare, Årsta;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;9;J;J;I;J;136081;Alexander von Uckermann;24;M;Uppsala;24, personalvetare, Storvreta;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;10;J;J;I;J;136082;Simon Pettersson;29;M;Uppsala;29, frilansjournalist, Tunabackar;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;11;J;J;I;J;136083;Kent Kumpula;43;M;Uppsala;43, entreprenör, Stavby;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;12;J;J;I;J;136084;Torbjörn Westerlund;47;M;Uppsala;46, universitetslektor, Gottsunda;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;13;J;J;I;J;136085;Jan Jansson;67;M;Uppsala;67, f.d. försäkringsförmedlare, Luthagen;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;14;J;J;I;J;136086;Mike Tutsch;64;M;Uppsala;64, officer, Herrhagen;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;15;J;J;I;J;136087;Nora Svenonius;25;K;Uppsala;25, vårdbiträde, Tunabackar;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;16;J;J;I;J;136088;Ivan Alm;26;M;Uppsala;26, fastighetsskötare, Gränby;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;17;J;J;I;J;136089;Bennie Bergkvist;41;M;Uppsala;41, besiktningstekniker, Stavby;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;18;J;J;I;J;136090;Tommy Larsson;72;M;Uppsala;72, ingenjör, Vattholma;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;19;J;J;I;J;136091;Reio Roosi;53;M;Uppsala;53, VD i transportföretag, Sävja;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;20;J;J;I;J;136092;Jasmine Bengtsar;57;K;Uppsala;56, redovisningsekonom, Knutby;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;21;J;J;I;J;136093;Haroon Bayani;25;M;Uppsala;25, student, Kvarngärdet;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;22;J;J;I;J;136094;Christina Säfström;68;K;Uppsala;68, skötare, Nyby;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;23;J;J;I;J;136095;Anneli Persson;50;K;Uppsala;50, arbetshandledare, Sävja;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;24;J;J;I;J;136096;Christer Olsson;63;M;Uppsala;63, tandläkare, Salabacke;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;25;J;J;I;J;136097;Thomas Kindström;61;M;Uppsala;61, officer, Viksta;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;26;J;J;I;J;136098;Inga Britt Hedlund;79;K;Uppsala;79, entreprenör, Sävja;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;27;J;J;I;J;136099;Johan Andersson;48;M;Uppsala;48, student, Gränby;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;28;J;J;I;J;136100;Kim Holmberg;20;M;Uppsala;20, markarbetare, Vattholma;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;29;J;J;I;J;136101;Niklas Ernstedt;52;M;Uppsala;52, styckmästare, Salabacke;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;30;J;J;I;J;136102;Börje Wängelin;66;M;Uppsala;66, tekniker, Dalby;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;31;J;J;I;J;136103;Jan-Olov Råman;69;M;Uppsala;69, civilekonom, Stenhagen;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;32;J;J;I;J;136104;Oscar Haglund;28;M;Uppsala;28, operatör, Kvarngärdet;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;33;J;J;I;J;136105;Joakim Zetterström;31;M;Uppsala;31, systemkonsult, Kvarngärdet;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;34;J;J;I;J;136106;Peter Thun;54;M;Uppsala;54, miljöarbetare, Sävja;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;35;J;J;I;J;136108;Tommy Öhlund;55;M;Uppsala;55, personalhanterare, Kvarngärdet;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;36;J;J;I;J;136109;Peter Bytar;61;M;Uppsala;61, fastighetsmäklare, Fålhagen;733000;;J
+K;0380;Uppsala;00;Uppsala;Sverigedemokraterna;SD;110;S;13345;37;J;J;I;J;136110;Magnus Törne;44;M;Uppsala;44, tryckare, Fålhagen;733000;;J
+K;0380;Uppsala;00;Uppsala;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15532;1;N;J;J;I;490652;Henrik Gustavsson;29;M;Uppsala;lärare;15000;;J
+K;0380;Uppsala;00;Uppsala;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15532;2;N;J;J;I;490653;Sahand Fayzi;28;M;Uppsala;bilmekaniker;15000;;J
+K;0380;Uppsala;00;Uppsala;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15532;3;N;J;J;I;490654;Patrik Lindh;30;M;Uppsala;trädgårdsmästare;15000;;J
+K;0380;Uppsala;00;Uppsala;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15532;4;N;J;J;I;490655;Kurt Sörensen;65;M;Uppsala;pensionär;15000;;J
+K;0380;Uppsala;00;Uppsala;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15532;5;N;J;J;I;490656;Marina Weilguni;62;K;Uppsala;översättare;15000;;J
+K;0380;Uppsala;00;Uppsala;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15532;6;N;J;J;I;490657;Johannes Ståhlnacke;31;M;Uppsala;lärare;15000;;J
+K;0380;Uppsala;00;Uppsala;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15532;7;N;J;J;I;490658;Filip Sörensen;23;M;Uppsala;butiksarbetare;15000;;J
+K;0380;Uppsala;00;Uppsala;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15532;8;N;J;J;I;490659;Alexander Patris;22;M;Gullspång;sjuksköterska;15000;;J
+K;0380;Uppsala;00;Uppsala;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15532;9;N;J;J;I;490660;Fredrik Gustafsson;30;M;Uppsala;boendestödjare;15000;;J
+K;0380;Uppsala;00;Uppsala;Sveriges Kommunistiska Parti (SKP);SKP;1063;S;15532;10;N;J;J;I;490661;Andreas Sörensen;29;M;Uppsala;lärare;15000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;1;J;J;I;J;395756;Tobias Smedberg;40;M;Uppsala;40, småföretagare, Vårdsätra;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;2;J;J;I;J;395757;Hanna Victoria Mörck;38;K;Uppsala;38, affärsutvecklare, Innerstaden;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;3;J;J;I;J;395758;Karolin Lundström;41;K;Uppsala;40, socialsekreterare, Rackarberget;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;4;J;J;I;J;395759;Torbjörn Björlund;60;M;Uppsala;60, fritidspedagog, Rosendal;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;5;J;J;I;J;395760;Edip Akay;53;M;Uppsala;52, barnskötare/modermålspedagog, Gottsunda;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;6;J;J;I;J;395761;Ingela Ekrelius;63;K;Uppsala;63, undersköterska, Ekeby;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;7;J;J;I;J;395762;Magne Björklund;27;M;Uppsala;27, studerande, Kåbo;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;8;J;J;I;J;395763;Therese Rhann;47;K;Uppsala;46, journalist, Svartbäcken;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;9;J;J;I;J;395764;Lalla Andersson;62;M;Uppsala;62, förskollärare, Hågaby;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;10;J;J;I;J;395765;Marlene Larsson;47;K;Uppsala;46, undersköterska, Innerstaden;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;11;J;J;I;J;395766;Florian Burmeister;46;M;Uppsala;45, översättare, Nybygård;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;12;J;J;I;J;395767;Anette Fisher;67;K;Uppsala;67, agronom, Luthagen;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;13;J;J;I;J;395768;Per-Olof Forsblom;72;M;Uppsala;71, pensionär/ fd socialchef, Gottsunda;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;14;J;J;I;J;395769;Andrea Karnekvist;60;M;Uppsala;59, undersköterska, Vattholma;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;15;J;J;I;J;395770;Artemis Lumarker;20;M;Uppsala;20, studerande, Innerstaden;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;16;J;J;I;J;395771;Milo Häggkvist;18;K;Uppsala;18, studerande, Kvarnbo;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;17;J;J;I;J;395772;Daniel Rogozinski;31;M;Uppsala;31, lärare, Storvreta;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;18;J;J;I;J;395773;Alexandra Valdez;43;K;Uppsala;43, pedagog/fackligt aktiv, Svartbäcken;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;19;J;J;I;J;395774;Per Ström;63;M;Uppsala;63, socialchef/leg sjukgymnast, Gamla Uppsala;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;20;J;J;I;J;395775;Aynur Beydogan;63;K;Uppsala;62, lokalvårdare/kontaktperson, Kvarngärdet;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;21;J;J;I;J;395776;Philip Wargert;30;M;Uppsala;30, industriarbetare, Gränby;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;22;J;J;I;J;395777;Anna Bergström;38;K;Uppsala;38, lokförare/fackligt aktiv, Årsta;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;23;J;J;I;J;395778;Veronica Grohs;42;K;Uppsala;41, boendeassistent LSS/fackligt förtroendevald, Sävja;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;24;J;J;I;J;395779;Carola Carlsson;51;K;Uppsala;51, studerande/busschaufför, Alunda;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;25;J;J;I;J;395780;Salam Kadirzada;37;M;Uppsala;36, Gottsunda;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;26;J;J;I;J;395781;Michelle Andersson Thatal;20;K;Uppsala;19, studerande, Storvreta;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;27;J;J;I;J;395782;Monica Lindgren Petersson;64;K;Uppsala;64, uppdragsstrateg, Ekeby;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;28;J;J;I;J;395783;Ali Akis;42;M;Uppsala;41, sociolog/poet, Innerstaden;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;29;J;J;I;J;395784;Tobias Nordqvist;42;M;Uppsala;41, statistiker, Årsta;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;30;J;J;I;J;395785;Börje Lindblom;51;M;Uppsala;51, tidningsbud, Luthagen;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;31;J;J;I;J;395786;Gunnar Kullgren;70;M;Uppsala;69, pensionerad professor/överläkare, Almunge;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;32;J;J;I;J;395787;Javiera Cifuentes;45;K;Uppsala;45, administratör, Ekeby;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;33;J;J;I;J;395788;Kjell Haglund;71;M;Uppsala;70, pensionär, Järlåsa;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;34;J;J;I;J;395789;Alexandra D'Urso;37;K;Uppsala;37, pedagogisk utvecklare, Nyby;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;35;J;J;I;J;395790;Lisa Skiöld;43;K;Uppsala;43, lokalt barnombud, Vattholma;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;36;J;J;I;J;395791;Pia Sandqvist;64;K;Uppsala;64, socionom, Luthagen;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;37;J;J;I;J;395792;Carl Åborg;67;M;Uppsala;66, leg. psykolog, Innerstaden;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;38;J;J;I;J;395793;Anja Karinsdotter;32;K;Uppsala;32, kurator, Storvreta;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;39;J;J;I;J;395794;Nadja Boucheloukh;59;K;Uppsala;59, förskollärare, Gottsunda;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;40;J;J;I;J;395795;Martin Holmberg;60;M;Uppsala;60, studievägledare, Stenhagen;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;41;J;J;I;J;395796;Thorsten Rehn;60;M;Uppsala;59, utredare, Gamla Uppsala;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;42;J;J;I;J;395797;Ingrid Nordlander;66;K;Uppsala;65, pensionär, Luthagen;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;43;J;J;I;J;395798;Tove Fraurud;38;K;Uppsala;37, lärare, Eriksberg;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;44;J;J;I;J;395799;Lennart Larsson;66;M;Uppsala;65, universitetslektor, Gränby;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;45;J;J;I;J;395800;Anna-Lena Mehlstrand;70;K;Uppsala;69, pensionär/studievägledare, Luthagen;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;46;J;J;I;J;395801;Ulla-Stina Claesson;60;K;Uppsala;60, förskollärare, Norby;260000;;J
+K;0380;Uppsala;00;Uppsala;Vänsterpartiet;V;5;S;15111;47;J;J;I;J;395802;Karin Bennemo;61;K;Uppsala;61, undersköterska, Innerstaden;260000;;J

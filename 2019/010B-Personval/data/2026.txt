@@ -1,0 +1,117 @@
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;1;J;J;I;J;237343;Irene Homman;64;K;Gagnef;Mockfjärd;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;2;J;J;I;J;237344;Daniel Bergman;35;M;Gagnef;Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;3;J;J;I;J;237345;Christina Walles;54;K;Gagnef;Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;4;J;J;I;J;237346;Magnus Eriksson;36;M;Gagnef;Mockfjärd;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;5;J;J;I;J;237347;Eva-Lotta Törnblom Nises;46;K;Gagnef;Dala-Floda;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;6;J;J;I;J;237348;Alf Johansson;76;M;Gagnef;Dala-Floda;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;7;J;J;I;J;237349;Anne-Christine Karlsson;58;K;Gagnef;Djurmo;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;8;J;J;I;J;237350;Tomas Fredén;70;M;Gagnef;Dala-Floda;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;9;J;J;I;J;237351;Yvonne Soneson;61;K;Gagnef;Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;10;J;J;I;J;237352;Fredrik Kvarnström;45;M;Gagnef;Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;11;J;J;I;J;237353;Margreth Göransdotter;71;K;Gagnef;Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;12;J;J;I;J;237354;Anders Söderlund;38;M;Gagnef;Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;13;J;J;I;J;237355;Ingegerd Hägg;68;K;Gagnef;Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;14;J;J;I;J;237356;Bengt Andersson;50;M;Gagnef;Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;15;J;J;I;J;237357;Thomas Gruhs;68;M;Gagnef;Björbo;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;16;J;J;I;J;237358;Kent Karlsson;65;M;Gagnef;Djurmo;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;17;J;J;I;J;237359;Susanne Behning;58;K;Gagnef;Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;18;J;J;I;J;237360;Åke Sandberg;69;M;Gagnef;Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;19;J;J;I;J;237361;Tomas Jansson;52;M;Gagnef;Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Arbetarepartiet-Socialdemokraterna;S;2;S;14098;20;J;J;I;J;237362;Ann-Gret Olsson;77;K;Gagnef;Dala-Floda;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;1;J;J;I;J;38939;Fredrik Jarl;42;M;Gagnef;42 år, Dala-Floda;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;2;J;J;I;J;33538;Johanna Hallin;24;K;Gagnef;24 år, Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;3;J;J;I;J;55372;Erik Warg;62;M;Gagnef;62 år, Mockfjärd;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;4;J;J;I;J;55373;Kerstin Stenquist;53;K;Gagnef;53 år, Dala-Floda;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;5;J;J;I;J;55374;Fredrik Andersson;47;M;Gagnef;47 år, Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;6;J;J;I;J;55375;Maria Svensson;52;K;Gagnef;52 år, Björbo;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;7;J;J;I;J;55376;Jonas Hellsten;42;M;Gagnef;42 år, Bäsna;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;8;J;J;I;J;55377;Ola Hebert;62;M;Gagnef;62 år, Djurmo;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;9;J;J;I;J;55378;Kristina Bolinder;52;K;Gagnef;52 år, Sifferbo;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;10;J;J;I;J;55379;Johan Elfsberg;29;M;Gagnef;29 år, Mockfjärd;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;11;J;J;I;J;55380;Birgitta Floresjö;55;K;Gagnef;55 år, Dala-Floda;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;12;J;J;I;J;55381;Lena Fröyen;53;K;Gagnef;53 år, Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;13;J;J;I;J;33528;Sofia Jarl;40;K;Gagnef;40 år, Dala-Floda;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;14;J;J;I;J;55384;Ola Erkers;54;M;Gagnef;54 år, Björbo;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;15;J;J;I;J;55385;Anette Kotilainen;52;K;Gagnef;52 år, Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;16;J;J;I;J;55386;Hans-Erik Bergman;67;M;Borlänge;67 år, Mockfjärd;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;17;J;J;I;J;55387;Pål Fröyen;52;M;Gagnef;52 år, Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;18;J;J;I;J;55388;Sofia Lorentzon;36;K;Gagnef;36 år, Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;19;J;J;I;J;55389;Börje Lindvall;71;M;Gagnef;72 år, Bodarna;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;20;J;J;I;J;55390;Elin Erkers;24;K;Gagnef;24 år, Björbo;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;21;J;J;I;J;55391;Kjell Andersson;72;M;Gagnef;72 år, Bodarna;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;22;J;J;I;J;55392;Annelie Wiman;38;K;Gagnef;38 år, Mockfjärd;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;23;J;J;I;J;55393;Bernth Eriksson;62;M;Gagnef;62 år, Dala-Floda;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;24;J;J;I;J;55394;Annelie Westman;41;K;Gagnef;42 år, Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;25;J;J;I;J;55395;Göran Pers;75;M;Gagnef;75 år, Mockfjärd;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;26;J;J;I;J;55396;Karin Karlsson;36;K;Gagnef;36 år, Dala-Floda;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;27;J;J;I;J;55397;Goar Mirzoyan;36;K;Gagnef;36 år, Mockfjärd;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;28;J;J;I;J;55398;Jonas Andersson;33;M;Gagnef;33 år, Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;29;J;J;I;J;55399;Viktoria Liss;44;K;Gagnef;44 år, Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Centerpartiet;C;4;S;12520;30;J;J;I;J;203182;Per Karlsson;35;M;Gagnef;35 år, Dala-Floda;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;1;N;J;J;I;426998;Lars-Erik Granholm;68;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;2;N;J;J;I;426999;Svante Hanses;73;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;3;N;J;J;I;427000;Patrik Andersson;49;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;4;N;J;J;I;427001;Agneta Finn;70;K;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;5;N;J;J;I;427002;Ingegerd Kull Hanses;71;K;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;6;N;J;J;I;427003;Pelle Källs;71;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;7;N;J;J;I;427004;Gunnar Östberg;71;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;8;N;J;J;I;427005;Curt Svärd;73;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;9;N;J;J;I;427006;Göran Westling;68;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;10;N;J;J;I;427007;Ulf Haglund;65;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;11;N;J;J;I;427008;Jaak Kerstell;77;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;12;N;J;J;I;427009;Tomas Neijbert;65;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;13;N;J;J;I;427010;Lars Ljungman;79;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;14;N;J;J;I;427011;Tomas Pelleberg;61;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;15;N;J;J;I;427012;Bengt Ohlsson;61;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;16;N;J;J;I;427013;Mourad "Murre" Khasib;50;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;17;N;J;J;I;427014;Ulla Envall;80;K;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;18;N;J;J;I;427015;Marianne Östlund;66;K;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;19;N;J;J;I;427016;Rune Karis;73;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;20;N;J;J;I;427017;Ola Granath;65;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kommunal Samling;KOSA;1121;S;15245;21;N;J;J;I;427018;Lennart Finn;83;M;Gagnef;;24000;;J
+K;2026;Gagnef;00;Gagnef;Kristdemokraterna;KD;68;S;13158;1;J;J;I;J;9178;Anders Bengtsson;53;M;Gagnef;socionom;16000;;J
+K;2026;Gagnef;00;Gagnef;Kristdemokraterna;KD;68;S;13158;2;J;J;I;J;116702;Catharina Karlhager;43;K;Gagnef;speciallärare;16000;;J
+K;2026;Gagnef;00;Gagnef;Kristdemokraterna;KD;68;S;13158;3;J;J;I;J;9151;Mathias Bengtsson;20;M;Gagnef;studerande;16000;;J
+K;2026;Gagnef;00;Gagnef;Kristdemokraterna;KD;68;S;13158;4;J;J;I;J;116704;Marianne Hjort;62;K;Gagnef;särskolepedagog;16000;;J
+K;2026;Gagnef;00;Gagnef;Kristdemokraterna;KD;68;S;13158;5;J;J;I;J;9192;Daniel Caesar;45;M;Gagnef;butikssäljare;16000;;J
+K;2026;Gagnef;00;Gagnef;Kristdemokraterna;KD;68;S;13158;6;J;J;I;J;116706;Jari Paananen;52;M;Gagnef;projektingenjör;16000;;J
+K;2026;Gagnef;00;Gagnef;Kristdemokraterna;KD;68;S;13158;7;J;J;I;J;116708;Olof Silverdahl;38;M;Gagnef;deltidsbrandman;16000;;J
+K;2026;Gagnef;00;Gagnef;Kristdemokraterna;KD;68;S;13158;8;J;J;I;J;116709;Linda Lejdemark;40;K;Gagnef;lärare;16000;;J
+K;2026;Gagnef;00;Gagnef;Kristdemokraterna;KD;68;S;13158;9;J;J;I;J;116710;Simon Johnston;58;M;Gagnef;civilingenjör;16000;;J
+K;2026;Gagnef;00;Gagnef;Kristdemokraterna;KD;68;S;13158;10;J;J;I;J;9156;Caroline Caesar;40;K;Gagnef;affärsutvecklare;16000;;J
+K;2026;Gagnef;00;Gagnef;Kristdemokraterna;KD;68;S;13158;11;J;J;I;J;116712;Mikael Persson;56;M;Gagnef;lastningsledare;16000;;J
+K;2026;Gagnef;00;Gagnef;Liberalerna (tidigare Folkpartiet);L;3;S;13722;1;J;J;I;J;165063;Christer Iversen;69;M;Gagnef;Gagnef;10000;;J
+K;2026;Gagnef;00;Gagnef;Liberalerna (tidigare Folkpartiet);L;3;S;13722;2;J;J;I;J;156326;Andreas Hållberg;42;M;Gagnef;Djurås;10000;;J
+K;2026;Gagnef;00;Gagnef;Liberalerna (tidigare Folkpartiet);L;3;S;13722;3;J;J;I;J;188477;Marie Karlsson;57;K;Gagnef;Mockfjärd;10000;;J
+K;2026;Gagnef;00;Gagnef;Liberalerna (tidigare Folkpartiet);L;3;S;13722;4;J;J;I;J;188478;Björn Kruse;60;M;Gagnef;Dala-Floda;10000;;J
+K;2026;Gagnef;00;Gagnef;Liberalerna (tidigare Folkpartiet);L;3;S;13722;5;J;J;I;J;188479;Göran Strandberg;64;M;Gagnef;Gagnef;10000;;J
+K;2026;Gagnef;00;Gagnef;Liberalerna (tidigare Folkpartiet);L;3;S;13722;6;J;J;I;J;188480;Bengt Löfgren;73;M;Gagnef;Sifferbo;10000;;J
+K;2026;Gagnef;00;Gagnef;Liberalerna (tidigare Folkpartiet);L;3;S;13722;7;J;J;I;J;188481;Per Bergman;80;M;Gagnef;Sifferbo;10000;;J
+K;2026;Gagnef;00;Gagnef;Miljöpartiet de gröna;MP;55;S;13143;1;J;J;I;J;114105;Jonas Wittink;44;M;Gagnef;administratör, Djurmo;18000;;J
+K;2026;Gagnef;00;Gagnef;Miljöpartiet de gröna;MP;55;S;13143;2;J;J;I;J;114106;Maria Alfredsson;53;K;Gagnef;rektor, Gagnef;18000;;J
+K;2026;Gagnef;00;Gagnef;Miljöpartiet de gröna;MP;55;S;13143;3;J;J;I;J;114107;Anders Eriksson;52;M;Gagnef;lokförare, Djurmo;18000;;J
+K;2026;Gagnef;00;Gagnef;Miljöpartiet de gröna;MP;55;S;13143;4;J;J;I;J;114108;Lina Wittink;40;K;Gagnef;teckenspråkstolk, Djurmo;18000;;J
+K;2026;Gagnef;00;Gagnef;Miljöpartiet de gröna;MP;55;S;13143;5;J;J;I;J;114109;Ulf-Göran Redhe;61;M;Gagnef;konsult, Dala-Floda;18000;;J
+K;2026;Gagnef;00;Gagnef;Miljöpartiet de gröna;MP;55;S;13143;6;J;J;I;J;114110;Peter Lindholm;69;M;Gagnef;civilingenjör, Mockfjärd;18000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;1;J;J;I;J;35816;Stefan Eriksson;51;M;Gagnef;Djurmo;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;2;J;J;I;J;36198;Jan Wiklund;58;M;Gagnef;Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;3;J;J;I;J;36464;Birgitta Ihlis;67;K;Gagnef;Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;4;J;J;I;J;36465;Erik Bergman;43;M;Gagnef;Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;5;J;J;I;J;36466;Petra Wiklund;42;K;Gagnef;Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;6;J;J;I;J;36467;Barbro Wallin;73;K;Gagnef;Björbo;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;7;J;J;I;J;36210;Patrick Svärd;34;M;Gagnef;Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;8;J;J;I;J;36470;Alma Eriksson;18;K;Gagnef;Djurmo;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;9;J;J;I;J;36471;Samuel Källman;40;M;Gagnef;Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;10;J;J;I;J;36203;Peter Vogt;62;M;Gagnef;Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;11;J;J;I;J;36474;Annika Winlöf;69;K;Gagnef;Gagnef;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;12;J;J;I;J;36475;Jan Wallin;76;M;Gagnef;Björbo;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;13;J;J;I;J;36220;Eva Vogt;60;K;Gagnef;Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;14;J;J;I;J;36477;Bengt Rosén;66;M;Gagnef;Mockfjärd;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;15;J;J;I;J;36478;Per-Erik Larsson;75;M;Gagnef;Dala-Floda;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;16;J;J;I;J;36479;Anna Söderberg;53;K;Gagnef;Djurmo;24000;;J
+K;2026;Gagnef;00;Gagnef;Moderaterna;M;1;S;12266;17;J;J;I;J;36480;Pär Sixtensson;69;M;Gagnef;Djurås;24000;;J
+K;2026;Gagnef;00;Gagnef;Sverigedemokraterna;SD;110;S;14229;1;J;J;I;J;125910;Benny Rosengren;61;M;Ludvika;Distriktsordförande;24000;;J
+K;2026;Gagnef;00;Gagnef;Vänsterpartiet;V;5;S;15821;1;N;J;J;I;511902;Robert Österlund;48;M;Gagnef;Gagnef;2000;;J
+K;2026;Gagnef;00;Gagnef;Vänsterpartiet;V;5;S;15821;2;N;J;N;I;511903;[inte lämnat samtycke];;;;;2000;;N
+K;2026;Gagnef;00;Gagnef;Vänsterpartiet;V;5;;;;N;J;J;I;515119;Åkerklint, Conney;71;M;Gagnef;;0;;J
+K;2026;Gagnef;00;Gagnef;Vänsterpartiet;V;5;;;;N;J;J;I;515120;Åkerklint, Jonatan;25;M;Gagnef;;0;;J

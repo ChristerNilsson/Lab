@@ -1,0 +1,824 @@
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;1;J;J;I;J;6337;Kenneth Östberg;54;M;Norberg;54 år, Norberg;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;2;J;J;I;J;6338;Annika Duàn;61;K;Köping;61 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;3;J;J;I;J;6339;Shpetim Pirraku;39;M;Köping;39 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;4;J;J;I;J;6340;Johanna Skottman;37;K;Surahammar;37 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;5;J;J;I;J;6341;Per Strengbom;60;M;Kungsör;60 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;6;J;J;I;J;6342;Tove Winqvist;31;K;Norberg;31 år, Norberg;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;7;J;J;I;J;6343;Joakim Sparv;55;M;Arboga;55 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;8;J;J;I;J;6344;Anna-Karin Folkesson;41;K;Hallstahammar;41 år, Hallstahammar;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;9;J;J;I;J;6188;Marino Wallsten;42;M;Fagersta;42 år, Fagersta;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;10;J;J;I;J;6346;Marie Brolin;52;K;Köping;52 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;11;J;J;I;J;6347;Hans Eric Johansson;69;M;Skinnskatteberg;69 år, Skinnskatteberg;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;12;J;J;I;J;6348;Ann-Charlotte Karlsson;52;K;Arboga;52 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;13;J;J;I;J;6349;Abdul Qorbani;54;M;Köping;54 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;14;J;J;I;J;6350;Natalie Nordström;33;K;Kungsör;33 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;15;J;J;I;J;6351;Joakim Rönnberg;53;M;Arboga;53 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;16;J;J;I;J;6352;Claire Ahlström;69;K;Hallstahammar;69 år, Hallstahammar;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;17;J;J;I;J;6353;Per Ågren;51;M;Köping;51 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;18;J;J;I;J;6354;Marjatta Nurmi;70;K;Fagersta;70 år, Fagersta;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;19;J;J;I;J;6192;Mikael Peterson;52;M;Kungsör;52 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;20;J;J;I;J;6356;Jenny Björklöv;38;K;Köping;38 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;21;J;J;I;J;6357;Cristian Hidalgo;41;M;Surahammar;41 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;22;J;J;I;J;6358;Eva Hölke;62;K;Norberg;62 år, Norberg;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;23;J;J;I;J;6359;Roger Pistol;76;M;Hallstahammar;76 år, Hallstahammar;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;24;J;J;I;J;6360;Åse Ellingsen Vesper;52;K;Köping;52 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;25;J;J;I;J;6361;Akam Abdi;27;M;Surahammar;27 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;26;J;J;I;J;6362;Gunilla A Aurusell;68;K;Kungsör;68 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;27;J;J;I;J;6363;Anders Rydell;72;M;Surahammar;72 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;28;J;J;I;J;6364;Sara Dahlin;34;K;Norberg;34 år, Norberg;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;29;J;J;I;J;6365;Tony Himmler;38;M;Fagersta;38 år, Fagersta;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;30;J;J;I;J;6366;Lena Träff;59;K;Arboga;59 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;31;J;J;I;J;6367;Kjell Persson;69;M;Arboga;69 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;32;J;J;I;J;6368;Angelica Stigenberg;45;K;Kungsör;45 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;33;J;J;I;J;6369;Kennet Hedlund;49;M;Surahammar;49 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;34;J;J;I;J;6370;Ann-Marie Lundin;66;K;Köping;66 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;35;J;J;I;J;6371;Leif Carlberg;74;M;Surahammar;74 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;36;J;J;I;J;6372;Elisabeth Strengbom;56;K;Kungsör;56 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;37;J;J;I;J;6373;Bo Molander;54;M;Arboga;54 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;38;J;J;I;J;6374;Shabana Haider Amir;30;K;Köping;30 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;39;J;J;I;J;6375;Ronny Moström;59;M;Kungsör;59 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;40;J;J;I;J;6376;Seija Blefors Edqvist;58;K;Surahammar;58 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;41;J;J;I;J;6377;Dan Stigenberg;68;M;Kungsör;68 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;42;J;J;I;J;6378;Kerstin Rosenkvist;63;K;Arboga;63 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;43;J;J;I;J;6379;Hadia Haider Amir;25;K;Köping;25 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;1;J;J;I;J;6380;Denise Norström;56;K;Västerås;56 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;2;J;J;I;J;6381;Tommy Levinsson;60;M;Västerås;60 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;3;J;J;I;J;6382;Lena Johansson;48;K;Västerås;48 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;4;J;J;I;J;6383;Arvid Hedeborg;35;M;Västerås;35 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;5;J;J;I;J;6384;Ulrika Spårebo;43;K;Sala;43 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;6;J;J;I;J;6385;Fehmi Paulus;50;M;Västerås;50 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;7;J;J;I;J;6386;Karolina Myllergård;38;K;Västerås;38 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;8;J;J;I;J;6387;Dennis Nilsson;55;M;Västerås;55 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;9;J;J;I;J;6191;Amanda Lindblad;27;K;Sala;27 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;10;J;J;I;J;6389;Robert Lennes;59;M;Västerås;59 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;11;J;J;I;J;6390;Anna Rickman;49;K;Västerås;49 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;12;J;J;I;J;6391;Jonas Persson;49;M;Västerås;49 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;13;J;J;I;J;6392;Aurora Pirraku Eriksson;46;K;Västerås;46 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;14;J;J;I;J;6393;Abdifatah Abdullahi Farah;37;M;Västerås;37 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;15;J;J;I;J;6394;Camilla Runerås;44;K;Sala;43 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;16;J;J;I;J;6395;Olof Walldén;78;M;Västerås;78 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;17;J;J;I;J;6396;Carina Vallin;50;K;Västerås;50 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;18;J;J;I;J;6397;Thommy Södergård Åkesson;25;M;Västerås;25 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;19;J;J;I;J;6193;Josefine Bäckström;30;K;Västerås;30 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;20;J;J;I;J;6399;Jan-Roman Dostál;34;M;Västerås;34 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;21;J;J;I;J;6400;Ann-Christine Björkman;54;K;Västerås;54 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;22;J;J;I;J;6401;Måns Gustafsson;57;M;Sala;57 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;23;J;J;I;J;6404;Ann Kristin Lindgren;38;K;Sala;38 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;24;J;J;I;J;6403;Kjell Henriksson;67;M;Västerås;67 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;25;J;J;I;J;6406;Maria Nordberg;52;K;Västerås;52 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;26;J;J;I;J;6407;Hmida Benatallah;24;M;Västerås;24 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;27;J;J;I;J;6408;Elzbieta Norling;67;K;Västerås;67 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;28;J;J;I;J;6409;Alaittin Temur;53;M;Sala;53 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;29;J;J;I;J;6410;Barbara Bienkowska;62;K;Västerås;62 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;30;J;J;I;J;6411;Robert Ringvall;40;M;Västerås;40 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;31;J;J;I;J;6412;Kristina Nyberg;59;K;Sala;59 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;32;J;J;I;J;6413;Per-Åke Olofsson;72;M;Västerås;72 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;33;J;J;I;J;6414;Monika Sundlin;48;K;Västerås;48 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;34;J;J;I;J;6415;Jan van der Horst;38;M;Västerås;38 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;35;J;J;I;J;6189;Jazmin Pettersson;47;K;Västerås;47 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;36;J;J;I;J;6417;Jakob Eriksson;41;M;Västerås;41 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;37;J;J;I;J;6420;Vanja Ahlén;54;K;Västerås;54 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;38;J;J;I;J;6419;Tomas Östling;73;M;Västerås;73 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;39;J;J;I;J;6422;Eva Stenberg;57;K;Sala;57 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;40;J;J;I;J;6421;Sten Helleng;79;M;Västerås;79 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;41;J;J;I;J;6424;Lisa Pettersson;35;K;Västerås;35 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;42;J;J;I;J;6423;Bengt Atthem;67;M;Sala;67 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;43;J;J;I;J;6425;Bijan Pourian;56;M;Västerås;56 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;44;J;J;I;J;6426;Håkan Jansson;63;M;Västerås;63 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;45;J;J;I;J;6427;Per Pochat;55;M;Västerås;55 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;1;J;J;I;J;197285;Barbro Larsson;56;K;Sala;Sjuksköterska, Sala;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;2;J;J;I;J;229271;Magnus Ekblad;57;M;Västerås;VD/Förvaltare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;3;J;J;I;J;229272;Hanna Lostelius;41;K;Västerås;Barnmorska, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;4;J;J;I;J;198403;Hamse Omar;46;M;Fagersta;Lärare, Fagersta;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;5;J;J;I;J;184814;Anders Johannesson;60;M;Hallstahammar;Expert företagarvillkor, Hallstahammar;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;6;J;J;I;J;200529;Eleonor Westlund;60;K;Kungsör;Undersköterska, Kungsör;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;7;J;J;I;J;229276;Bernt Bergsten;48;M;Köping;Inspektionsansvarig, Köping;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;8;J;J;I;J;213840;Christina Ulvede;68;K;Västerås;Egenföretagare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;9;J;J;I;J;229278;Patrik Bonér;43;M;Köping;Lantbrukare, Köping;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;10;J;J;I;J;229279;Helena Köhl;46;K;Västerås;Egenföretagare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;11;J;J;I;J;212766;Indi Persson;51;K;Västerås;Landsbygdsutvecklare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;12;J;J;I;J;197280;Christer Gustafsson;62;M;Sala;Handläggare, Sala;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;13;J;J;I;J;212775;Magnus Nystedt;46;M;Västerås;Politisk sekreterare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;14;J;J;I;J;229283;Karin Westlund;45;K;Västerås;Civilingenjör, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;15;J;J;I;J;229284;Anna-Lena Jansson;49;K;Köping;Lärare, Köping;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;16;J;J;I;J;213826;Fredrik Melin;41;M;Västerås;Lantmästare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;17;J;J;I;J;242290;Monica Stolpe-Nordin;55;K;Västerås;Avdelningschef, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;18;J;J;I;J;1691;Petter Westlund;33;M;Kungsör;Kommunikatör, Kungsör;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;19;J;J;I;J;229287;Hans Stergel;75;M;Västerås;Projektledare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;20;J;J;I;J;229288;Camilla Bohm Coleman;63;K;Västerås;Verksamhetsutvecklare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;21;J;J;I;J;229289;Basil Wakid;63;M;Västerås;Universitetslärare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Centerpartiet;C;4;S;14036;22;J;J;I;J;236196;Lars Löfgren;57;M;Arboga;Kemisorterare, Arboga;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Feministiskt initiativ;FI;532;;;;N;J;J;I;247897;Kullinger, Jonas;42;M;Västerås;;0;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;1;J;J;I;J;185439;Malin Gabrielsson;48;K;Västerås;48, Regionråd, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;2;J;J;I;J;186024;Micael Larsson;48;M;Västerås;48, Egenföretagare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;3;J;J;I;J;185443;Elisabeth Wäneskog;73;K;Västerås;73, Leg. sjuksköterska, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;4;J;J;I;J;186026;Ingvar Nordén;71;M;Västerås;71, Adjunkt, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;5;J;J;I;J;185442;Tobias Löfgren;32;M;Västerås;32, Upphandlare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;6;J;J;I;J;185445;Eva Axelsson;56;K;Sala;56, Diakon, Sala;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;7;J;J;I;J;185434;Magnus Agestav;48;M;Västerås;48, Jur.kand., Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;8;J;J;I;J;186030;Pauline Sturesson;48;K;Västerås;48, Redovisningskonsult, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;9;J;J;I;J;185430;Johanna Ridderström;20;K;Hallstahammar;20, Pedagog, Hallstahammar;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;10;J;J;I;J;185444;Jonatan Lönnqvist;39;M;Västerås;39, Körpedagog, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;11;J;J;I;J;186033;Hanke Joneklav;65;M;Sala;65, Sjukhuspastor, Sala;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;12;J;J;I;J;185452;Per Norin;56;M;Köping;56, Leg. lärare, Köping;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;13;J;J;I;J;185427;Samuel Stengård;46;M;Västerås;46, Pastor, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;14;J;J;I;J;185438;Joakim Widell;51;M;Västerås;51, Politisk sekreterare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;15;J;J;I;J;186037;Lisa Joneklav;66;K;Sala;66, Grundskolelärare, Sala;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;16;J;J;I;J;186038;Mats Westerlund;51;M;Västerås;51, Projektledare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;17;J;J;I;J;185440;Gabriel Ishak;52;M;Västerås;52, Egenföretagare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;18;J;J;I;J;9170;Jesper Songer;31;M;Västerås;31, Företagare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;19;J;J;I;J;185431;Per Nilsson;25;M;Västerås;25, Lantbrukare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;20;J;J;I;J;185449;Viviane Mbumba Tshala;39;K;Norberg;39, Omvårdnadspersonal, Norberg;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;21;J;J;I;J;186043;Marianne Severinsson;69;K;Norberg;69, Pensionär, Norberg;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;22;J;J;I;J;186044;Lars Carnbrand;77;M;Skinnskatteberg;77, Pensionär, Skinnskatteberg;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;23;J;J;I;J;186045;Börje Hultin;76;M;Västerås;76, Pensionär, Västerås;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;24;J;J;I;J;185453;Sickan Palm;70;K;Sala;70, Företagare, Sala;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13697;25;J;J;I;J;186047;Hannu Söderlund;52;M;Kungsör;52, Vårdlärare, Kungsör;377000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;1;J;J;I;J;185439;Malin Gabrielsson;48;K;Västerås;48, Regionråd, Västerås;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;2;J;J;I;J;185430;Johanna Ridderström;20;K;Hallstahammar;20, Pedagog, Hallstahammar;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;3;J;J;I;J;186914;Richard Eklund;48;M;Hallstahammar;48, Företagare, Västerås;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;4;J;J;I;J;186915;Gun-Brith Rydén;69;K;Hallstahammar;69, Pensionär, Hallstahammar;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;5;J;J;I;J;186047;Hannu Söderlund;52;M;Kungsör;52, Vårdlärare, Kungsör;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;6;J;J;I;J;185433;Anna-Carin Ragnarsson;52;K;Köping;52, Förskollärare, Köping;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;7;J;J;I;J;186918;Bengt Fred;68;M;Köping;68, Pastor, Kolsva;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;8;J;J;I;J;186919;Carina Byhlin;50;K;Hallstahammar;50, Undersköterska, Hallstahammar;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;9;J;J;I;J;186920;Kjell Wendin;67;M;Arboga;67, Chaufför, Arboga;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;10;J;J;I;J;186921;Ingrid Broman;68;K;Köping;68, Förskollärare, Köping;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;11;J;J;I;J;186922;Lars-Göran Bärling;62;M;Surahammar;62, Socionom, Ramnäs;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;12;J;J;I;J;185446;Jonas Stenzelius;51;M;Arboga;51, Ingenjör, Arboga;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;13;J;J;I;J;185452;Per Norin;56;M;Köping;56, Leg. lärare, Köping;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;14;J;J;I;J;185427;Samuel Stengård;46;M;Västerås;46, Pastor, Västerås;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;15;J;J;I;J;185438;Joakim Widell;51;M;Västerås;51, Politisk sekreterare, Västerås;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;16;J;J;I;J;186037;Lisa Joneklav;66;K;Sala;66, Grundskolelärare, Sala;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;17;J;J;I;J;186038;Mats Westerlund;51;M;Västerås;51, Projektledare, Västerås;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;18;J;J;I;J;185440;Gabriel Ishak;52;M;Västerås;52, Egenföretagare, Västerås;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;19;J;J;I;J;9170;Jesper Songer;31;M;Västerås;31, Företagare, Västerås;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;20;J;J;I;J;185431;Per Nilsson;25;M;Västerås;25, Lantbrukare, Västerås;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;21;J;J;I;J;185449;Viviane Mbumba Tshala;39;K;Norberg;39, Omvårdnadspersonal, Norberg;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;22;J;J;I;J;186043;Marianne Severinsson;69;K;Norberg;69, Pensionär, Norberg;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;23;J;J;I;J;186044;Lars Carnbrand;77;M;Skinnskatteberg;77, Pensionär, Skinnskatteberg;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;24;J;J;I;J;186045;Börje Hultin;76;M;Västerås;76, Pensionär, Västerås;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;25;J;J;I;J;185453;Sickan Palm;70;K;Sala;70, Företagare, Sala;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Kristdemokraterna;KD;68;S;13704;26;J;J;I;J;185434;Magnus Agestav;48;M;Västerås;48, Jur.kand., Västerås;252000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Landsbygdspartiet Oberoende;LPo;1011;S;15787;1;N;J;J;I;132660;Anders Wetterholm;69;M;Norberg;;15000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Landsbygdspartiet Oberoende;LPo;1011;S;15787;2;N;J;J;I;508973;Peter Hennig;63;M;Västerås;;15000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Landsbygdspartiet Oberoende;LPo;1011;S;15787;3;N;J;J;I;132659;Lars Matsson;52;M;Skinnskatteberg;;15000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515676;Törnkvist, Jessica;36;K;Västerås;;0;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;1;J;J;I;J;290599;Helena Hagberg;42;K;Västerås;42, regionråd, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;2;J;J;I;J;287826;Agne Furingsten;70;M;Sala;70, ledarskapskonsult, Sala;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;3;J;J;I;J;287830;Anna Lundberg;44;K;Västerås;44, projektledare, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;4;J;J;I;J;287828;Richard Fallqvist;39;M;Arboga;39, installatör, Arboga;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;5;J;J;I;J;290603;Karin Andersson;66;K;Västerås;66, f.d. chef vård och omsorg, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;6;J;J;I;J;290604;Anders Duvkär;49;M;Västerås;49, områdeschef utb., Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;7;J;J;I;J;290605;Maria Vallgren Eriksson;46;K;Västerås;46, egenföretagare, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;8;J;J;I;J;290606;Bengt-Åke Nilsson;69;M;Västerås;69, civilekonom, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;9;J;J;I;J;290607;Sam Haddad;53;M;Västerås;53, elektronikmontör, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;10;J;J;I;J;290608;Anita Lilja-Stenholm;72;K;Fagersta;72, f.d. rektor, Fagersta;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;11;J;J;I;J;290609;Sigge Synnergård;73;M;Hallstahammar;73, pensionär, Kolbäck;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;12;J;J;I;J;287831;Anders Cargerman;71;M;Arboga;71, egenföretagare, Arboga;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;13;J;J;I;J;290611;Marianne Möllerström;56;K;Surahammar;56, undersköterska, Surahammar;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;14;J;J;I;J;287823;Lina Eriksson;26;K;Västerås;26, kvalitetsledare, studerande, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;15;J;J;I;J;287832;Ingemar Johansson;71;M;Arboga;71, elektroingenjör, Arboga;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;16;J;J;I;J;290614;Birgitta Åkerberg;69;K;Västerås;69, lärare, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;17;J;J;I;J;287833;Lars Jansson;61;M;Norberg;61, gymnasielärare, Norberg;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;18;J;J;I;J;287834;Jan Eriksson;40;M;Sala;40, renhållningsarbetare, Sala;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;19;J;J;I;J;287827;Jenny Boström;37;K;Västerås;37, projektledare IT, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;20;J;J;I;J;290618;Peter Svensson;60;M;Sala;60, ingenjör, Sala;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;21;J;J;I;J;49209;Carina Sándor;47;K;Skinnskatteberg;47, civilekonom, Skinnskatteberg;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;1;J;J;I;J;290599;Helena Hagberg;42;K;Västerås;42, regionråd, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;2;J;J;I;J;287826;Agne Furingsten;70;M;Sala;70, ledarskapskonsult, Sala;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;3;J;J;I;J;287830;Anna Lundberg;44;K;Västerås;44, projektledare, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;4;J;J;I;J;287828;Richard Fallqvist;39;M;Arboga;39, installatör, Arboga;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;5;J;J;I;J;290603;Karin Andersson;66;K;Västerås;66, f.d. chef vård och omsorg, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;6;J;J;I;J;290604;Anders Duvkär;49;M;Västerås;49, områdeschef utb., Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;7;J;J;I;J;290605;Maria Vallgren Eriksson;46;K;Västerås;46, egenföretagare, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;8;J;J;I;J;290606;Bengt-Åke Nilsson;69;M;Västerås;69, civilekonom, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;9;J;J;I;J;287823;Lina Eriksson;26;K;Västerås;26, kvalitetsledare, studerande, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;10;J;J;I;J;290607;Sam Haddad;53;M;Västerås;53, elektronikmontör, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;11;J;J;I;J;290608;Anita Lilja-Stenholm;72;K;Fagersta;72, f.d. rektor, Fagersta;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;12;J;J;I;J;290609;Sigge Synnergård;73;M;Hallstahammar;73, pensionär, Kolbäck;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;13;J;J;I;J;287831;Anders Cargerman;71;M;Arboga;71, egenföretagare, Arboga;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;14;J;J;I;J;290611;Marianne Möllerström;56;K;Surahammar;56, undersköterska, Surahammar;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;15;J;J;I;J;287832;Ingemar Johansson;71;M;Arboga;71, elektroingenjör, Arboga;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;16;J;J;I;J;290614;Birgitta Åkerberg;69;K;Västerås;69, lärare, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;17;J;J;I;J;287833;Lars Jansson;61;M;Norberg;61, gymnasielärare, Norberg;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;18;J;J;I;J;287834;Jan Eriksson;40;M;Sala;40, renhållningsarbetare, Sala;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;19;J;J;I;J;287827;Jenny Boström;37;K;Västerås;37, projektledare IT, Västerås;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;20;J;J;I;J;290618;Peter Svensson;60;M;Sala;60, ingenjör, Sala;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;21;J;J;I;J;49209;Carina Sándor;47;K;Skinnskatteberg;47, civilekonom, Skinnskatteberg;480000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Medborgerlig Samling;MED;1296;S;15278;1;J;J;I;J;44;Carina Sjölund;39;K;Kungsör;39 år, Företagare, Kungsör;40000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Medborgerlig Samling;MED;1296;S;15278;2;J;J;I;J;189152;Gary Johnsén;44;M;Hallstahammar;44 år, Fartygsinspektör, Kolbäck;40000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Medborgerlig Samling;MED;1296;S;15278;3;J;J;I;J;137646;Mattias Sjölund;40;M;Kungsör;40 år, Energi- och klimatrådgivare, Kungsör;40000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Medborgerlig Samling;MED;1296;S;15278;4;J;J;I;J;189155;Gisela Wallin;50;K;Arboga;50 år, Dietist, Arboga;40000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;1;J;J;I;J;59277;Pernilla Rinsell;46;K;Västerås;46, ekoingenjör/regionråd, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;2;J;J;I;J;59274;Andreas Porswald;43;M;Västerås;43, miljöekonom/regionråd, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;3;J;J;I;J;282205;Kerstin Åkesson;50;K;Kungsör;50, undersköterska, Valskog/Kungsör;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;4;J;J;I;J;72076;Peter Ristikartano;42;M;Hallstahammar;41, ekonom, Kolbäck/Hallstahammar;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;5;J;J;I;J;59269;Tove Engström;35;K;Västerås;34, socionom, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;6;J;J;I;J;283341;Jan Babar;67;M;Sala;66, lärare, Sala;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;7;J;J;I;J;59273;Anna Betz Mark;45;K;Västerås;44, undersköterska, Munga/Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;8;J;J;I;J;59270;Johannes Wretljung Persson;31;M;Västerås;31, företagare, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;9;J;J;I;J;283342;Beatrice Woldert;38;K;Sala;37, civilingenjör, Sala;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;10;J;J;I;J;59262;Kristofer Åberg;26;M;Västerås;25, samhällsvetare, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;11;J;J;I;J;283516;Pieternella van Beek;66;K;Norberg;66, leg psykoterapeut, Norberg;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;12;J;J;I;J;72078;Abdulmotal Suliman;39;M;Hallstahammar;39, undersköterska, Hallstahammar;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;13;J;J;I;J;72075;Åsa Junkes Kfouri;51;K;Hallstahammar;50, ekonom, Hallstahammar;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;14;J;J;I;J;282969;Owe Enarsson;57;M;Köping;57, transportsamordnare, Köping;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;15;J;J;I;J;59261;Anna Nematbakhsh;21;K;Västerås;21, studerande , Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;16;J;J;I;J;309976;Mikael Vilbaste;59;M;Västerås;59, elkraftingenjör, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;17;J;J;I;J;282968;Kristina Lindblad;33;K;Köping;33, lärarvikarie, Köping;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;18;J;J;I;J;283738;Jarl-Olof Lundstedt;75;M;Fagersta;74, Hälsoekonom, Fagersta;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;19;J;J;I;J;59275;Barbara Conte;65;K;Västerås;65, ekologisk ekonom, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;20;J;J;I;J;59264;Håkan Wretljung;67;M;Västerås;67, fotograf, Dingtuna/Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;21;J;J;I;J;282976;Christina Eljansbo Hammarbäck;66;K;Köping;66, socionom, Köping;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;22;J;J;I;J;59260;Ariana Tanha;34;M;Västerås;34, energi- och miljöingenjör, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;23;J;J;I;J;309983;Bahareh Wolde;41;K;Västerås;40, dataingenjör, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;1;J;J;I;J;59277;Pernilla Rinsell;46;K;Västerås;46, ekoingenjör/regionråd, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;2;J;J;I;J;59274;Andreas Porswald;43;M;Västerås;43, miljöekonom/regionråd, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;3;J;J;I;J;282205;Kerstin Åkesson;50;K;Kungsör;50, undersköterska, Valskog/Kungsör;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;4;J;J;I;J;72076;Peter Ristikartano;42;M;Hallstahammar;41, ekonom, Kolbäck/Hallstahammar;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;5;J;J;I;J;59269;Tove Engström;35;K;Västerås;34, socionom, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;6;J;J;I;J;283341;Jan Babar;67;M;Sala;66, lärare, Sala;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;7;J;J;I;J;283516;Pieternella van Beek;66;K;Norberg;66, leg psykoterapeut, Norberg;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;8;J;J;I;J;72078;Abdulmotal Suliman;39;M;Hallstahammar;39, undersköterska, Hallstahammar;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;9;J;J;I;J;72075;Åsa Junkes Kfouri;51;K;Hallstahammar;50, ekonom, Hallstahammar;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;10;J;J;I;J;282969;Owe Enarsson;57;M;Köping;57, transportsamordnare, Köping;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;11;J;J;I;J;59273;Anna Betz Mark;45;K;Västerås;44, undersköterska, Munga/Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;12;J;J;I;J;59270;Johannes Wretljung Persson;31;M;Västerås;31, företagare, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;13;J;J;I;J;283342;Beatrice Woldert;38;K;Sala;37, civilingenjör, Sala;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;14;J;J;I;J;59262;Kristofer Åberg;26;M;Västerås;25, samhällsvetare, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;15;J;J;I;J;59261;Anna Nematbakhsh;21;K;Västerås;21, studerande, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;16;J;J;I;J;309976;Mikael Vilbaste;59;M;Västerås;59, elkraftingenjör, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;17;J;J;I;J;282968;Kristina Lindblad;33;K;Köping;33, lärarvikarie, Köping;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;18;J;J;I;J;283738;Jarl-Olof Lundstedt;75;M;Fagersta;74, hälsoekonom, Fagersta;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;19;J;J;I;J;59275;Barbara Conte;65;K;Västerås;65, ekologisk ekonom, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;20;J;J;I;J;59264;Håkan Wretljung;67;M;Västerås;67, fotograf, Dingtuna/Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;21;J;J;I;J;282976;Christina Eljansbo Hammarbäck;66;K;Köping;66, socionom, Köping;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;22;J;J;I;J;59260;Ariana Tanha;34;M;Västerås;34, energi- och miljöingenjör, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;23;J;J;I;J;309983;Bahareh Wolde;41;K;Västerås;40, dataingenjör, Västerås;300000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;1;J;J;I;J;32;Jenny Landernäs;37;K;Hallstahammar;Oppositionsråd, Hallstahammar;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;2;J;J;I;J;36;Håkan Freijd;65;M;Hallstahammar;VD/Senior Advisor, Hallstahammar;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;3;J;J;I;J;37;Jonna Lindman;54;K;Arboga;Personalplanerare, Arboga;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;4;J;J;I;J;59;Pernilla Danielsson;53;K;Skinnskatteberg;Ekonom, Skinnskatteberg;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;5;J;J;I;J;70;Tommy Karlsson;64;M;Arboga;Officer, Arboga;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;6;J;J;I;J;71;Yrjö Björkqvist;64;M;Kungsör;Pensionerad underhållsingenjör, Kungsör;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;7;J;J;I;J;48;Torbjörn Estelli;58;M;Hallstahammar;Verkstadsarbetare, Hallstahammar;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;8;J;J;I;J;39;Mikael Gunnarsson;51;M;Köping;Projektledare, Köping;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;9;J;J;I;J;43;Isabella Piva Hultström;33;K;Hallstahammar;Sjuksköterska, Hallstahammar;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;10;J;J;I;J;52;Anna Kramer;53;K;Norberg;Projektledare, Norberg;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;11;J;J;I;J;11520;Theresé Karlsson;40;K;Surahammar;Sjuksköterska, Surahammar;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;12;J;J;I;J;90;Mats Öhgren;68;M;Arboga;Pensionär, Arboga;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;13;J;J;I;J;89;Anders Röhfors;66;M;Arboga;Kommunalråd, Arboga;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;14;J;J;I;J;14735;Anita Westin Brodd;77;K;Hallstahammar;Fastighetsmäklare, Hallstahammar;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;15;J;J;I;J;14734;Stieg Andersson;74;M;Hallstahammar;Metallurg, Hallstahammar;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;16;J;J;I;J;91;Håkan Tomasson;46;M;Arboga;Avdelningschef, Arboga;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;17;J;J;I;J;11518;Johanna Olofsson;36;K;Surahammar;Undersköterska, Surahammar;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;11759;18;J;J;I;J;3190;Staffan Strid;56;M;Skinnskatteberg;Företagare, Skinnskatteberg;314000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;1;J;J;I;J;146;Tomas Högström;64;M;Västerås;Regionråd, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;2;J;J;I;J;30;Mikael Andersson Elfgren;30;M;Västerås;Officer, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;3;J;J;I;J;148;Maria Dellham;54;K;Västerås;Regionråd, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;4;J;J;I;J;149;Stephanie Bruksgård;30;K;Västerås;Undersköterska, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;5;J;J;I;J;150;Anna Nygren;48;K;Västerås;Sjuksköterska, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;6;J;J;I;J;45;Patrik Andrén;46;M;Västerås;Tandläkare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;7;J;J;I;J;152;Andreas Weiborn;30;M;Västerås;Projektledare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;8;J;J;I;J;4;Fredrik Larsson;47;M;Sala;Enhetschef, Sala;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;9;J;J;I;J;154;Silvana Enelo-Jansson;66;K;Västerås;F.d. skolchef, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;10;J;J;I;J;51;Gunnar Björnstad;50;M;Västerås;Civilingenjör, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;11;J;J;I;J;8;Elin Johansson;28;K;Sala;Socialsekreterare, Sala;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;12;J;J;I;J;157;Björn Svartsgård;57;M;Västerås;Överläkare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;13;J;J;I;J;28;Åsa Coenraads;40;K;Västerås;Riksdagsledamot, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;14;J;J;I;J;159;Asta Matikainen Lecklin;67;K;Västerås;Prost, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;15;J;J;I;J;160;Anna Gardeblad;50;K;Västerås;Undersköterska, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;16;J;J;I;J;63;Tomas Martinsson;23;M;Västerås;Studerande, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;17;J;J;I;J;54;Marie Brandstedt;36;K;Västerås;Byggnadsingenjör, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;18;J;J;I;J;163;Veronica Samuelsson;29;K;Västerås;Studerande, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;19;J;J;I;J;164;Thomas Frisk;52;M;Västerås;Affärsutvecklare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;20;J;J;I;J;9;Johan Widén;39;M;Sala;Företagare, Sala;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;21;J;J;I;N;50;[inte lämnat förklaring];;;;;315000;;N
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;22;J;J;I;J;167;Mohammed Rashid;57;M;Västerås;Projektledare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;23;J;J;I;J;46;Stefan Oszák Bengtsson;51;M;Västerås;Gymnasielärare , Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;24;J;J;I;J;169;Gunnel Wallquist Gustafsson;77;K;Västerås;Gymnastikdirektör, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;25;J;J;I;J;1;Erik Hamrin;39;M;Sala;Projektledare, Sala;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;26;J;J;I;J;171;Victor Nilsson;18;M;Västerås;Studerande, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;27;J;J;I;J;172;Leif Ringström;74;M;Västerås;Pensionär, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;28;J;J;I;J;5;Martin Eriksson;32;M;Sala;Handläggare, Sala;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;29;J;J;I;J;64;Stefano Suvero;75;M;Västerås;Projektkonsult, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;30;J;J;I;J;49;Jan G Fäger;65;M;Västerås;Civilingenjör, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;31;J;J;I;J;177;Johan Eriksson;49;M;Västerås;E-handelsansvarig, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;32;J;J;I;J;3;Michael Pb Johansson;57;M;Sala;Handläggare, Sala;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;33;J;J;I;J;60;Magnus Edman;57;M;Västerås;Affärsutvecklare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;34;J;J;I;J;180;Anders Olsson;47;M;Västerås;Civilingenjör, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;35;J;J;I;J;10;Jasin Arkavazi;51;M;Sala;Byggnadsingenjör, Sala;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;36;J;J;I;J;58;Anette Hult;63;K;Västerås;Företagare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;37;J;J;I;J;183;Frank Pettersson;64;M;Västerås;Affärsutvecklare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;38;J;J;I;J;184;Tomas Hedlund;47;M;Västerås;Undersköterska, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;39;J;J;I;J;185;Cassandra Romo;22;K;Västerås;Studerande, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;40;J;J;I;J;186;Emil Ytter;30;M;Västerås;Handläggare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;41;J;J;I;J;187;Henrik Calander;39;M;Västerås;Civilingenjör, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Moderaterna;M;1;S;15200;42;J;J;I;J;260;Jan-Erik Jansson;67;M;Västerås;F.d. arbetsmarknadskonsulent, Västerås;315000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;1;J;J;I;J;166974;Maria Liljedahl;44;K;Köping;44 år, Regionråd, Köping;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;2;J;J;I;J;75392;Ingvar Jonsson;59;M;Sala;59 år, Företagare, Möklinta;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;3;J;J;I;J;76165;Patric Sjölund;49;M;Västerås;49 år, Undersköterska, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;4;J;J;I;J;75400;Carin Engström;64;K;Sala;64 år, Diabetessköterska, Rosshyttan;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;5;J;J;I;J;76167;Jan Johansson;49;M;Västerås;29 år, Motorbyggare/Systemprovare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;6;J;J;I;J;75606;Sven Fallgren;60;M;Surahammar;60 år, Enhetschef, Surahammar;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;7;J;J;I;J;76180;Nadja Axling;29;K;Västerås;29 år, Områdeschef, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;8;J;J;I;J;75394;Louise Eriksson;55;K;Sala;55 år, Undersköterska, Sala;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;9;J;J;I;J;166982;Monica Israelsson;65;K;Köping;65 år, Undersköterska, Kolsva;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;10;J;J;I;J;75122;Åsa-Lena Vestling;50;K;Norberg;50 år, Ordningsvakt, Norberg;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;11;J;J;I;J;76170;Erik Johansson;38;M;Västerås;38 år, Trafikinspektör, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;12;J;J;I;J;76169;Janeth Persson;44;K;Västerås;44 år, HR Administrator, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;13;J;J;I;J;75019;Christer Borg;46;M;Fagersta;46 år, Företagare, Fagersta;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;14;J;J;I;J;76166;Anna Svensson;63;K;Västerås;63 år, Pensionär, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;15;J;J;I;J;76172;Ewa Halvarsson;42;K;Västerås;42 år, Redovisningsekonom, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;16;J;J;I;J;134854;Martin Nyqvist;54;M;Arboga;54 år, Entreprenör, Arboga;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;17;J;J;I;J;76168;Kenneth Nilsson;69;M;Västerås;69 år, Pensionerad Företagare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;18;J;J;I;J;76187;Per Blomström;54;M;Västerås;54 år, Chaufför, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;19;J;J;I;J;166993;Karolina Glogowska;35;K;Köping;35 år, Studerande, Köping;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;20;J;J;I;J;76171;Jerry Hagberg;49;M;Västerås;49 år, Elevresurs/Musiklärare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;21;J;J;I;J;75603;Conny Johansson;62;M;Surahammar;62 år, Jordbrukare, Surahammar;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;22;J;J;I;J;75127;Felicia Vestling;20;K;Norberg;20 år, Säljare, Norberg;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;23;J;J;I;J;75125;Carolina Wallin;38;K;Norberg;38 år, Vårdbiträde, Norberg;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;24;J;J;I;J;76178;Stefan Handing;74;M;Västerås;74 år, Ingenjör, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;25;J;J;I;J;134915;Britt-Marie Häggkvist Back;74;K;Kungsör;74 år, Skolassistent, Kungsör;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;26;J;J;I;J;76191;Jimmy Gunstedt;25;M;Västerås;25 år, VVS-montör, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;27;J;J;I;J;76192;Thomas Stridsman;55;M;Västerås;54 år, Fondförvaltare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;28;J;J;I;N;75016;[inte lämnat förklaring];;;;;631000;;N
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;29;J;J;I;J;134913;Anders Frödin;57;M;Kungsör;57 år, Anläggningsarbetare, Kungsör;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;30;J;J;I;J;76182;Nan Rummelhoff;63;K;Västerås;63 år, Konstnär, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;31;J;J;I;J;76177;Tomas Söhr;51;M;Västerås;51 år, Företagare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;32;J;J;I;J;76202;Alexander Löfberg;40;M;Västerås;40 år, Barnskötare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;33;J;J;I;J;75607;Kent Pettersson;42;M;Surahammar;42 år, Företagare, Surahammar;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;34;J;J;I;J;167009;Tommy Eriksson;57;M;Surahammar;57 år, Trafik- o Byggvakt, Virsbo;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;35;J;J;I;J;134853;Tony Pehrsson;58;M;Arboga;58 år, Företagare, Götlunda;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;36;J;J;I;J;134910;Roland Jansson;65;M;Kungsör;65 år, Företagare, Kungsör;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;37;J;J;I;J;134912;Annicka Eriksson;54;K;Kungsör;54 år, Personlig Assistent, Kungsör;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;38;J;J;I;J;134916;Rune Broström;77;M;Kungsör;77 år, Pensionär, Kungsör;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;39;J;J;I;J;167014;Maija Karresmaa Asplund;48;K;Köping;48 år, Vårdare LSS, Köping;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;40;J;J;I;J;76197;Lars Sundqvist;70;M;Västerås;70 år, Pensionär, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;41;J;J;I;J;76186;Robert Holmberg;47;M;Västerås;47 år, Truckförare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;42;J;J;I;J;76193;Sven Jonsson;57;M;Västerås;57 år, Maskinist, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;S;13573;43;J;J;I;J;76179;Håkan Gunstedt;55;M;Västerås;55 år, Företagare/Konsult, Västerås;631000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;511302;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;512845;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;513055;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;513065;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;513720;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;515672;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;515995;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;1;J;J;I;J;16576;Johanna Ritvadotter;48;K;Sala;49, f d teaterarbetare, Sala;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;2;J;J;I;J;16732;Hans Jansson;60;M;Västerås;60, regionråd, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;3;J;J;I;J;16733;Heidi-Maria Wallinder;43;K;Västerås;43, politisk sekreterare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;4;J;J;I;J;16575;Fredrik Stockhaus;44;M;Västerås;43, folkhögskolelärare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;5;J;J;I;J;16735;Pratima Åslund;66;K;Norberg;66, arbetsmarknadshandläggare, Norberg;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;6;J;J;I;J;16586;Niklas Strand;41;M;Västerås;40, väktare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;7;J;J;I;J;16737;Felicia Granath;25;K;Västerås;25, människorättsrådgivare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;8;J;J;I;J;16738;Dan Avdic Karlsson;67;M;Arboga;67, socialsekreterare, Arboga;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;9;J;J;I;J;16739;Maja Garpelin;36;K;Västerås;36, sjukgymnast, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;10;J;J;I;J;16577;Peter Berg;48;M;Surahammar;48, ambulanssjukvårdare, Surahammar;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;11;J;J;I;J;16592;Hanna Ericsson Franzén;33;K;Arboga;33, förskollärare, Arboga;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;12;J;J;I;J;16573;Eric Äras Simitko;48;M;Västerås;48, rådgivare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;13;J;J;I;J;16743;Sofia Telfer;53;K;Västerås;52, administrativ sekreterare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;14;J;J;I;J;16744;Hans Granlund;57;M;Fagersta;57, projektledare, Fagersta;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;15;J;J;I;J;16578;Elisabeth Hanning;70;K;Fagersta;70, pensionär, Fagersta;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;16;J;J;I;J;16746;Stefan Lundborg;61;M;Köping;60, vårdare, Köping;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;17;J;J;I;J;16747;Bodil Hildemar;58;K;Sala;58, administratör, Sala;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;18;J;J;I;J;16748;Annica Lindholm;69;K;Hallstahammar;68, pensionär/f d handläggare, Kolbäck;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;19;J;J;I;J;16749;Fredrik Johansson;46;M;Norberg;46, kontorsassistent, Norberg;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;20;J;J;I;J;16750;Inga-Lill Frössman;65;K;Arboga;65, leg sjuksköterska, Arboga;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;21;J;J;I;J;16751;Christer Henriksson;71;M;Kungsör;71, pensionär, Kungsör;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;22;J;J;I;J;16752;Peter Tuike;47;M;Surahammar;47, industriarbetare, Virsbo;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;23;J;J;I;J;16594;Siw Sundberg;63;K;Västerås;62, vårdlärare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;24;J;J;I;J;16754;Kent Persson;67;M;Norberg;67, pensionär, Norberg;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;25;J;J;I;J;16581;Vicktoria Bagi;46;K;Västerås;47, kommunikatör/programansvarig, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;26;J;J;I;J;16756;Andrew Morgan;48;M;Västerås;48, drifttekniker, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;27;J;J;I;J;16757;Airi Andersson;56;K;Arboga;56, barnskötare, Arboga;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;28;J;J;I;J;16593;Lars Lithammer;61;M;Västerås;61, specialpedagog, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;29;J;J;I;J;16570;Vasiliki Tsouplaki;38;K;Västerås;38, riksdagsledamot, Skultuna;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;30;J;J;I;J;16760;Alberto Castellanos;67;M;Sala;67, pensionär, Sala;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;31;J;J;I;J;16579;Linn Wegemo;33;K;Västerås;33, lagerarbetare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;32;J;J;I;J;16591;Pär Lanninge;39;M;Västerås;39, ombudsman, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;33;J;J;I;J;16763;Nancy Ibarra;73;K;Norberg;72, civilekonom, Norberg;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;34;J;J;I;J;16588;Daniel Guerra;54;M;Västerås;53, illustratör, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;35;J;J;I;J;16585;Maria Arvidsson;59;K;Sala;59, förskollärare, Sala;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;36;J;J;I;J;16595;Olle Kvarnryd;40;M;Västerås;40, lärare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;37;J;J;I;J;16619;Lisa Parland;38;K;Västerås;38, journalist, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;38;J;J;I;J;16768;Billy Tungren;70;M;Västerås;70, pensionerad socialsekreterare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;39;J;J;I;J;16596;Catarina Eriksson;54;K;Västerås;54, sjuksköterska, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;40;J;J;I;J;16770;Sebastian Housset;34;M;Västerås;34, lärare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;41;J;J;I;J;16590;Åsa Forss;44;K;Sala;44, hästskötare, Ransta;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;42;J;J;I;J;16599;Bertil Svensson;57;M;Västerås;57, civilingenjör, Västerås;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;43;J;J;I;J;16598;Malin Larsson;30;K;Västerås;30, studerande;629000;;J
+L;19;Västmanlands läns landsting;01;Östra valkretsen;Vänsterpartiet;V;5;S;11981;44;J;J;I;J;16597;Mohsen Ghobadipour;42;M;Västerås;42, tågmontör, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;1;J;J;I;J;6337;Kenneth Östberg;54;M;Norberg;54 år, Norberg;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;2;J;J;I;J;6338;Annika Duàn;61;K;Köping;61 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;3;J;J;I;J;6339;Shpetim Pirraku;39;M;Köping;39 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;4;J;J;I;J;6340;Johanna Skottman;37;K;Surahammar;37 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;5;J;J;I;J;6341;Per Strengbom;60;M;Kungsör;60 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;6;J;J;I;J;6342;Tove Winqvist;31;K;Norberg;31 år, Norberg;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;7;J;J;I;J;6343;Joakim Sparv;55;M;Arboga;55 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;8;J;J;I;J;6344;Anna-Karin Folkesson;41;K;Hallstahammar;41 år, Hallstahammar;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;9;J;J;I;J;6188;Marino Wallsten;42;M;Fagersta;42 år, Fagersta;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;10;J;J;I;J;6346;Marie Brolin;52;K;Köping;52 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;11;J;J;I;J;6347;Hans Eric Johansson;69;M;Skinnskatteberg;69 år, Skinnskatteberg;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;12;J;J;I;J;6348;Ann-Charlotte Karlsson;52;K;Arboga;52 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;13;J;J;I;J;6349;Abdul Qorbani;54;M;Köping;54 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;14;J;J;I;J;6350;Natalie Nordström;33;K;Kungsör;33 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;15;J;J;I;J;6351;Joakim Rönnberg;53;M;Arboga;53 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;16;J;J;I;J;6352;Claire Ahlström;69;K;Hallstahammar;69 år, Hallstahammar;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;17;J;J;I;J;6353;Per Ågren;51;M;Köping;51 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;18;J;J;I;J;6354;Marjatta Nurmi;70;K;Fagersta;70 år, Fagersta;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;19;J;J;I;J;6192;Mikael Peterson;52;M;Kungsör;52 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;20;J;J;I;J;6356;Jenny Björklöv;38;K;Köping;38 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;21;J;J;I;J;6357;Cristian Hidalgo;41;M;Surahammar;41 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;22;J;J;I;J;6358;Eva Hölke;62;K;Norberg;62 år, Norberg;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;23;J;J;I;J;6359;Roger Pistol;76;M;Hallstahammar;76 år, Hallstahammar;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;24;J;J;I;J;6360;Åse Ellingsen Vesper;52;K;Köping;52 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;25;J;J;I;J;6361;Akam Abdi;27;M;Surahammar;27 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;26;J;J;I;J;6362;Gunilla A Aurusell;68;K;Kungsör;68 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;27;J;J;I;J;6363;Anders Rydell;72;M;Surahammar;72 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;28;J;J;I;J;6364;Sara Dahlin;34;K;Norberg;34 år, Norberg;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;29;J;J;I;J;6365;Tony Himmler;38;M;Fagersta;38 år, Fagersta;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;30;J;J;I;J;6366;Lena Träff;59;K;Arboga;59 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;31;J;J;I;J;6367;Kjell Persson;69;M;Arboga;69 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;32;J;J;I;J;6368;Angelica Stigenberg;45;K;Kungsör;45 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;33;J;J;I;J;6369;Kennet Hedlund;49;M;Surahammar;49 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;34;J;J;I;J;6370;Ann-Marie Lundin;66;K;Köping;66 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;35;J;J;I;J;6371;Leif Carlberg;74;M;Surahammar;74 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;36;J;J;I;J;6372;Elisabeth Strengbom;56;K;Kungsör;56 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;37;J;J;I;J;6373;Bo Molander;54;M;Arboga;54 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;38;J;J;I;J;6374;Shabana Haider Amir;30;K;Köping;30 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;39;J;J;I;J;6375;Ronny Moström;59;M;Kungsör;59 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;40;J;J;I;J;6376;Seija Blefors Edqvist;58;K;Surahammar;58 år, Surahammar;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;41;J;J;I;J;6377;Dan Stigenberg;68;M;Kungsör;68 år, Kungsör;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;42;J;J;I;J;6378;Kerstin Rosenkvist;63;K;Arboga;63 år, Arboga;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11837;43;J;J;I;J;6379;Hadia Haider Amir;25;K;Köping;25 år, Köping;261000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;1;J;J;I;J;6380;Denise Norström;56;K;Västerås;56 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;2;J;J;I;J;6381;Tommy Levinsson;60;M;Västerås;60 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;3;J;J;I;J;6382;Lena Johansson;48;K;Västerås;48 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;4;J;J;I;J;6383;Arvid Hedeborg;35;M;Västerås;35 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;5;J;J;I;J;6384;Ulrika Spårebo;43;K;Sala;43 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;6;J;J;I;J;6385;Fehmi Paulus;50;M;Västerås;50 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;7;J;J;I;J;6386;Karolina Myllergård;38;K;Västerås;38 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;8;J;J;I;J;6387;Dennis Nilsson;55;M;Västerås;55 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;9;J;J;I;J;6191;Amanda Lindblad;27;K;Sala;27 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;10;J;J;I;J;6389;Robert Lennes;59;M;Västerås;59 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;11;J;J;I;J;6390;Anna Rickman;49;K;Västerås;49 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;12;J;J;I;J;6391;Jonas Persson;49;M;Västerås;49 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;13;J;J;I;J;6392;Aurora Pirraku Eriksson;46;K;Västerås;46 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;14;J;J;I;J;6393;Abdifatah Abdullahi Farah;37;M;Västerås;37 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;15;J;J;I;J;6394;Camilla Runerås;44;K;Sala;43 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;16;J;J;I;J;6395;Olof Walldén;78;M;Västerås;78 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;17;J;J;I;J;6396;Carina Vallin;50;K;Västerås;50 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;18;J;J;I;J;6397;Thommy Södergård Åkesson;25;M;Västerås;25 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;19;J;J;I;J;6193;Josefine Bäckström;30;K;Västerås;30 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;20;J;J;I;J;6399;Jan-Roman Dostál;34;M;Västerås;34 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;21;J;J;I;J;6400;Ann-Christine Björkman;54;K;Västerås;54 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;22;J;J;I;J;6401;Måns Gustafsson;57;M;Sala;57 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;23;J;J;I;J;6404;Ann Kristin Lindgren;38;K;Sala;38 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;24;J;J;I;J;6403;Kjell Henriksson;67;M;Västerås;67 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;25;J;J;I;J;6406;Maria Nordberg;52;K;Västerås;52 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;26;J;J;I;J;6407;Hmida Benatallah;24;M;Västerås;24 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;27;J;J;I;J;6408;Elzbieta Norling;67;K;Västerås;67 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;28;J;J;I;J;6409;Alaittin Temur;53;M;Sala;53 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;29;J;J;I;J;6410;Barbara Bienkowska;62;K;Västerås;62 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;30;J;J;I;J;6411;Robert Ringvall;40;M;Västerås;40 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;31;J;J;I;J;6412;Kristina Nyberg;59;K;Sala;59 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;32;J;J;I;J;6413;Per-Åke Olofsson;72;M;Västerås;72 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;33;J;J;I;J;6414;Monika Sundlin;48;K;Västerås;48 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;34;J;J;I;J;6415;Jan van der Horst;38;M;Västerås;38 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;35;J;J;I;J;6189;Jazmin Pettersson;47;K;Västerås;47 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;36;J;J;I;J;6417;Jakob Eriksson;41;M;Västerås;41 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;37;J;J;I;J;6420;Vanja Ahlén;54;K;Västerås;54 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;38;J;J;I;J;6419;Tomas Östling;73;M;Västerås;73 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;39;J;J;I;J;6422;Eva Stenberg;57;K;Sala;57 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;40;J;J;I;J;6421;Sten Helleng;79;M;Västerås;79 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;41;J;J;I;J;6424;Lisa Pettersson;35;K;Västerås;35 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;42;J;J;I;J;6423;Bengt Atthem;67;M;Sala;67 år, Sala;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;43;J;J;I;J;6425;Bijan Pourian;56;M;Västerås;56 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;44;J;J;I;J;6426;Håkan Jansson;63;M;Västerås;63 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Arbetarepartiet-Socialdemokraterna;S;2;S;11838;45;J;J;I;J;6427;Per Pochat;55;M;Västerås;55 år, Västerås;432000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;1;J;J;I;J;197285;Barbro Larsson;56;K;Sala;Sjuksköterska, Sala;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;2;J;J;I;J;229271;Magnus Ekblad;57;M;Västerås;VD/Förvaltare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;3;J;J;I;J;229272;Hanna Lostelius;41;K;Västerås;Barnmorska, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;4;J;J;I;J;198403;Hamse Omar;46;M;Fagersta;Lärare, Fagersta;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;5;J;J;I;J;184814;Anders Johannesson;60;M;Hallstahammar;Expert företagarvillkor, Hallstahammar;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;6;J;J;I;J;200529;Eleonor Westlund;60;K;Kungsör;Undersköterska, Kungsör;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;7;J;J;I;J;229276;Bernt Bergsten;48;M;Köping;Inspektionsansvarig, Köping;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;8;J;J;I;J;213840;Christina Ulvede;68;K;Västerås;Egenföretagare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;9;J;J;I;J;229278;Patrik Bonér;43;M;Köping;Lantbrukare, Köping;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;10;J;J;I;J;229279;Helena Köhl;46;K;Västerås;Egenföretagare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;11;J;J;I;J;212766;Indi Persson;51;K;Västerås;Landsbygdsutvecklare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;12;J;J;I;J;197280;Christer Gustafsson;62;M;Sala;Handläggare, Sala;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;13;J;J;I;J;212775;Magnus Nystedt;46;M;Västerås;Politisk sekreterare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;14;J;J;I;J;229283;Karin Westlund;45;K;Västerås;Civilingenjör, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;15;J;J;I;J;229284;Anna-Lena Jansson;49;K;Köping;Lärare, Köping;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;16;J;J;I;J;213826;Fredrik Melin;41;M;Västerås;Lantmästare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;17;J;J;I;J;242290;Monica Stolpe-Nordin;55;K;Västerås;Avdelningschef, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;18;J;J;I;J;1691;Petter Westlund;33;M;Kungsör;Kommunikatör, Kungsör;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;19;J;J;I;J;229287;Hans Stergel;75;M;Västerås;Projektledare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;20;J;J;I;J;229288;Camilla Bohm Coleman;63;K;Västerås;Verksamhetsutvecklare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;21;J;J;I;J;229289;Basil Wakid;63;M;Västerås;Universitetslärare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Centerpartiet;C;4;S;14036;22;J;J;I;J;236196;Lars Löfgren;57;M;Arboga;Kemisorterare, Arboga;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Feministiskt initiativ;FI;532;;;;N;J;J;I;247897;Kullinger, Jonas;42;M;Västerås;;0;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;1;J;J;I;J;185439;Malin Gabrielsson;48;K;Västerås;48, Regionråd, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;2;J;J;I;J;186024;Micael Larsson;48;M;Västerås;48, Egenföretagare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;3;J;J;I;J;185443;Elisabeth Wäneskog;73;K;Västerås;73, Leg. sjuksköterska, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;4;J;J;I;J;186026;Ingvar Nordén;71;M;Västerås;71, Adjunkt, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;5;J;J;I;J;185442;Tobias Löfgren;32;M;Västerås;32, Upphandlare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;6;J;J;I;J;185445;Eva Axelsson;56;K;Sala;56, Diakon, Sala;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;7;J;J;I;J;185434;Magnus Agestav;48;M;Västerås;48, Jur.kand., Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;8;J;J;I;J;186030;Pauline Sturesson;48;K;Västerås;48, Redovisningskonsult, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;9;J;J;I;J;185430;Johanna Ridderström;20;K;Hallstahammar;20, Pedagog, Hallstahammar;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;10;J;J;I;J;185444;Jonatan Lönnqvist;39;M;Västerås;39, Körpedagog, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;11;J;J;I;J;186033;Hanke Joneklav;65;M;Sala;65, Sjukhuspastor, Sala;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;12;J;J;I;J;185452;Per Norin;56;M;Köping;56, Leg. lärare, Köping;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;13;J;J;I;J;185427;Samuel Stengård;46;M;Västerås;46, Pastor, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;14;J;J;I;J;185438;Joakim Widell;51;M;Västerås;51, Politisk sekreterare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;15;J;J;I;J;186037;Lisa Joneklav;66;K;Sala;66, Grundskolelärare, Sala;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;16;J;J;I;J;186038;Mats Westerlund;51;M;Västerås;51, Projektledare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;17;J;J;I;J;185440;Gabriel Ishak;52;M;Västerås;52, Egenföretagare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;18;J;J;I;J;9170;Jesper Songer;31;M;Västerås;31, Företagare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;19;J;J;I;J;185431;Per Nilsson;25;M;Västerås;25, Lantbrukare, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;20;J;J;I;J;185449;Viviane Mbumba Tshala;39;K;Norberg;39, Omvårdnadspersonal, Norberg;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;21;J;J;I;J;186043;Marianne Severinsson;69;K;Norberg;69, Pensionär, Norberg;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;22;J;J;I;J;186044;Lars Carnbrand;77;M;Skinnskatteberg;77, Pensionär, Skinnskatteberg;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;23;J;J;I;J;186045;Börje Hultin;76;M;Västerås;76, Pensionär, Västerås;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;24;J;J;I;J;185453;Sickan Palm;70;K;Sala;70, Företagare, Sala;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13697;25;J;J;I;J;186047;Hannu Söderlund;52;M;Kungsör;52, Vårdlärare, Kungsör;377000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;1;J;J;I;J;185439;Malin Gabrielsson;48;K;Västerås;48, Regionråd, Västerås;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;2;J;J;I;J;185430;Johanna Ridderström;20;K;Hallstahammar;20, Pedagog, Hallstahammar;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;3;J;J;I;J;186914;Richard Eklund;48;M;Hallstahammar;48, Företagare, Västerås;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;4;J;J;I;J;186915;Gun-Brith Rydén;69;K;Hallstahammar;69, Pensionär, Hallstahammar;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;5;J;J;I;J;186047;Hannu Söderlund;52;M;Kungsör;52, Vårdlärare, Kungsör;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;6;J;J;I;J;185433;Anna-Carin Ragnarsson;52;K;Köping;52, Förskollärare, Köping;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;7;J;J;I;J;186918;Bengt Fred;68;M;Köping;68, Pastor, Kolsva;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;8;J;J;I;J;186919;Carina Byhlin;50;K;Hallstahammar;50, Undersköterska, Hallstahammar;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;9;J;J;I;J;186920;Kjell Wendin;67;M;Arboga;67, Chaufför, Arboga;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;10;J;J;I;J;186921;Ingrid Broman;68;K;Köping;68, Förskollärare, Köping;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;11;J;J;I;J;186922;Lars-Göran Bärling;62;M;Surahammar;62, Socionom, Ramnäs;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;12;J;J;I;J;185446;Jonas Stenzelius;51;M;Arboga;51, Ingenjör, Arboga;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;13;J;J;I;J;185452;Per Norin;56;M;Köping;56, Leg. lärare, Köping;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;14;J;J;I;J;185427;Samuel Stengård;46;M;Västerås;46, Pastor, Västerås;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;15;J;J;I;J;185438;Joakim Widell;51;M;Västerås;51, Politisk sekreterare, Västerås;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;16;J;J;I;J;186037;Lisa Joneklav;66;K;Sala;66, Grundskolelärare, Sala;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;17;J;J;I;J;186038;Mats Westerlund;51;M;Västerås;51, Projektledare, Västerås;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;18;J;J;I;J;185440;Gabriel Ishak;52;M;Västerås;52, Egenföretagare, Västerås;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;19;J;J;I;J;9170;Jesper Songer;31;M;Västerås;31, Företagare, Västerås;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;20;J;J;I;J;185431;Per Nilsson;25;M;Västerås;25, Lantbrukare, Västerås;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;21;J;J;I;J;185449;Viviane Mbumba Tshala;39;K;Norberg;39, Omvårdnadspersonal, Norberg;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;22;J;J;I;J;186043;Marianne Severinsson;69;K;Norberg;69, Pensionär, Norberg;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;23;J;J;I;J;186044;Lars Carnbrand;77;M;Skinnskatteberg;77, Pensionär, Skinnskatteberg;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;24;J;J;I;J;186045;Börje Hultin;76;M;Västerås;76, Pensionär, Västerås;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;25;J;J;I;J;185453;Sickan Palm;70;K;Sala;70, Företagare, Sala;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Kristdemokraterna;KD;68;S;13704;26;J;J;I;J;185434;Magnus Agestav;48;M;Västerås;48, Jur.kand., Västerås;252000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Landsbygdspartiet Oberoende;LPo;1011;S;15787;1;N;J;J;I;132660;Anders Wetterholm;69;M;Norberg;;15000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Landsbygdspartiet Oberoende;LPo;1011;S;15787;2;N;J;J;I;508973;Peter Hennig;63;M;Västerås;;15000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Landsbygdspartiet Oberoende;LPo;1011;S;15787;3;N;J;J;I;132659;Lars Matsson;52;M;Skinnskatteberg;;15000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515676;Törnkvist, Jessica;36;K;Västerås;;0;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;1;J;J;I;J;290599;Helena Hagberg;42;K;Västerås;42, regionråd, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;2;J;J;I;J;287826;Agne Furingsten;70;M;Sala;70, ledarskapskonsult, Sala;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;3;J;J;I;J;287830;Anna Lundberg;44;K;Västerås;44, projektledare, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;4;J;J;I;J;287828;Richard Fallqvist;39;M;Arboga;39, installatör, Arboga;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;5;J;J;I;J;290603;Karin Andersson;66;K;Västerås;66, f.d. chef vård och omsorg, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;6;J;J;I;J;290604;Anders Duvkär;49;M;Västerås;49, områdeschef utb., Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;7;J;J;I;J;290605;Maria Vallgren Eriksson;46;K;Västerås;46, egenföretagare, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;8;J;J;I;J;290606;Bengt-Åke Nilsson;69;M;Västerås;69, civilekonom, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;9;J;J;I;J;290607;Sam Haddad;53;M;Västerås;53, elektronikmontör, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;10;J;J;I;J;290608;Anita Lilja-Stenholm;72;K;Fagersta;72, f.d. rektor, Fagersta;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;11;J;J;I;J;290609;Sigge Synnergård;73;M;Hallstahammar;73, pensionär, Kolbäck;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;12;J;J;I;J;287831;Anders Cargerman;71;M;Arboga;71, egenföretagare, Arboga;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;13;J;J;I;J;290611;Marianne Möllerström;56;K;Surahammar;56, undersköterska, Surahammar;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;14;J;J;I;J;287823;Lina Eriksson;26;K;Västerås;26, kvalitetsledare, studerande, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;15;J;J;I;J;287832;Ingemar Johansson;71;M;Arboga;71, elektroingenjör, Arboga;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;16;J;J;I;J;290614;Birgitta Åkerberg;69;K;Västerås;69, lärare, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;17;J;J;I;J;287833;Lars Jansson;61;M;Norberg;61, gymnasielärare, Norberg;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;18;J;J;I;J;287834;Jan Eriksson;40;M;Sala;40, renhållningsarbetare, Sala;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;19;J;J;I;J;287827;Jenny Boström;37;K;Västerås;37, projektledare IT, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;20;J;J;I;J;290618;Peter Svensson;60;M;Sala;60, ingenjör, Sala;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;14557;21;J;J;I;J;49209;Carina Sándor;47;K;Skinnskatteberg;47, civilekonom, Skinnskatteberg;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;1;J;J;I;J;290599;Helena Hagberg;42;K;Västerås;42, regionråd, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;2;J;J;I;J;287826;Agne Furingsten;70;M;Sala;70, ledarskapskonsult, Sala;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;3;J;J;I;J;287830;Anna Lundberg;44;K;Västerås;44, projektledare, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;4;J;J;I;J;287828;Richard Fallqvist;39;M;Arboga;39, installatör, Arboga;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;5;J;J;I;J;290603;Karin Andersson;66;K;Västerås;66, f.d. chef vård och omsorg, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;6;J;J;I;J;290604;Anders Duvkär;49;M;Västerås;49, områdeschef utb., Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;7;J;J;I;J;290605;Maria Vallgren Eriksson;46;K;Västerås;46, egenföretagare, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;8;J;J;I;J;290606;Bengt-Åke Nilsson;69;M;Västerås;69, civilekonom, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;9;J;J;I;J;287823;Lina Eriksson;26;K;Västerås;26, kvalitetsledare, studerande, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;10;J;J;I;J;290607;Sam Haddad;53;M;Västerås;53, elektronikmontör, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;11;J;J;I;J;290608;Anita Lilja-Stenholm;72;K;Fagersta;72, f.d. rektor, Fagersta;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;12;J;J;I;J;290609;Sigge Synnergård;73;M;Hallstahammar;73, pensionär, Kolbäck;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;13;J;J;I;J;287831;Anders Cargerman;71;M;Arboga;71, egenföretagare, Arboga;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;14;J;J;I;J;290611;Marianne Möllerström;56;K;Surahammar;56, undersköterska, Surahammar;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;15;J;J;I;J;287832;Ingemar Johansson;71;M;Arboga;71, elektroingenjör, Arboga;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;16;J;J;I;J;290614;Birgitta Åkerberg;69;K;Västerås;69, lärare, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;17;J;J;I;J;287833;Lars Jansson;61;M;Norberg;61, gymnasielärare, Norberg;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;18;J;J;I;J;287834;Jan Eriksson;40;M;Sala;40, renhållningsarbetare, Sala;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;19;J;J;I;J;287827;Jenny Boström;37;K;Västerås;37, projektledare IT, Västerås;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;20;J;J;I;J;290618;Peter Svensson;60;M;Sala;60, ingenjör, Sala;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Liberalerna (tidigare Folkpartiet);L;3;S;15659;21;J;J;I;J;49209;Carina Sándor;47;K;Skinnskatteberg;47, civilekonom, Skinnskatteberg;480000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Medborgerlig Samling;MED;1296;S;15278;1;J;J;I;J;44;Carina Sjölund;39;K;Kungsör;39 år, Företagare, Kungsör;40000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Medborgerlig Samling;MED;1296;S;15278;2;J;J;I;J;189152;Gary Johnsén;44;M;Hallstahammar;44 år, Fartygsinspektör, Kolbäck;40000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Medborgerlig Samling;MED;1296;S;15278;3;J;J;I;J;137646;Mattias Sjölund;40;M;Kungsör;40 år, Energi- och klimatrådgivare, Kungsör;40000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Medborgerlig Samling;MED;1296;S;15278;4;J;J;I;J;189155;Gisela Wallin;50;K;Arboga;50 år, Dietist, Arboga;40000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;1;J;J;I;J;59277;Pernilla Rinsell;46;K;Västerås;46, ekoingenjör/regionråd, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;2;J;J;I;J;59274;Andreas Porswald;43;M;Västerås;43, miljöekonom/regionråd, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;3;J;J;I;J;282205;Kerstin Åkesson;50;K;Kungsör;50, undersköterska, Valskog/Kungsör;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;4;J;J;I;J;72076;Peter Ristikartano;42;M;Hallstahammar;41, ekonom, Kolbäck/Hallstahammar;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;5;J;J;I;J;59269;Tove Engström;35;K;Västerås;34, socionom, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;6;J;J;I;J;283341;Jan Babar;67;M;Sala;66, lärare, Sala;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;7;J;J;I;J;59273;Anna Betz Mark;45;K;Västerås;44, undersköterska, Munga/Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;8;J;J;I;J;59270;Johannes Wretljung Persson;31;M;Västerås;31, företagare, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;9;J;J;I;J;283342;Beatrice Woldert;38;K;Sala;37, civilingenjör, Sala;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;10;J;J;I;J;59262;Kristofer Åberg;26;M;Västerås;25, samhällsvetare, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;11;J;J;I;J;283516;Pieternella van Beek;66;K;Norberg;66, leg psykoterapeut, Norberg;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;12;J;J;I;J;72078;Abdulmotal Suliman;39;M;Hallstahammar;39, undersköterska, Hallstahammar;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;13;J;J;I;J;72075;Åsa Junkes Kfouri;51;K;Hallstahammar;50, ekonom, Hallstahammar;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;14;J;J;I;J;282969;Owe Enarsson;57;M;Köping;57, transportsamordnare, Köping;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;15;J;J;I;J;59261;Anna Nematbakhsh;21;K;Västerås;21, studerande , Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;16;J;J;I;J;309976;Mikael Vilbaste;59;M;Västerås;59, elkraftingenjör, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;17;J;J;I;J;282968;Kristina Lindblad;33;K;Köping;33, lärarvikarie, Köping;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;18;J;J;I;J;283738;Jarl-Olof Lundstedt;75;M;Fagersta;74, Hälsoekonom, Fagersta;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;19;J;J;I;J;59275;Barbara Conte;65;K;Västerås;65, ekologisk ekonom, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;20;J;J;I;J;59264;Håkan Wretljung;67;M;Västerås;67, fotograf, Dingtuna/Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;21;J;J;I;J;282976;Christina Eljansbo Hammarbäck;66;K;Köping;66, socionom, Köping;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;22;J;J;I;J;59260;Ariana Tanha;34;M;Västerås;34, energi- och miljöingenjör, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14652;23;J;J;I;J;309983;Bahareh Wolde;41;K;Västerås;40, dataingenjör, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;1;J;J;I;J;59277;Pernilla Rinsell;46;K;Västerås;46, ekoingenjör/regionråd, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;2;J;J;I;J;59274;Andreas Porswald;43;M;Västerås;43, miljöekonom/regionråd, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;3;J;J;I;J;282205;Kerstin Åkesson;50;K;Kungsör;50, undersköterska, Valskog/Kungsör;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;4;J;J;I;J;72076;Peter Ristikartano;42;M;Hallstahammar;41, ekonom, Kolbäck/Hallstahammar;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;5;J;J;I;J;59269;Tove Engström;35;K;Västerås;34, socionom, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;6;J;J;I;J;283341;Jan Babar;67;M;Sala;66, lärare, Sala;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;7;J;J;I;J;283516;Pieternella van Beek;66;K;Norberg;66, leg psykoterapeut, Norberg;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;8;J;J;I;J;72078;Abdulmotal Suliman;39;M;Hallstahammar;39, undersköterska, Hallstahammar;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;9;J;J;I;J;72075;Åsa Junkes Kfouri;51;K;Hallstahammar;50, ekonom, Hallstahammar;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;10;J;J;I;J;282969;Owe Enarsson;57;M;Köping;57, transportsamordnare, Köping;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;11;J;J;I;J;59273;Anna Betz Mark;45;K;Västerås;44, undersköterska, Munga/Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;12;J;J;I;J;59270;Johannes Wretljung Persson;31;M;Västerås;31, företagare, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;13;J;J;I;J;283342;Beatrice Woldert;38;K;Sala;37, civilingenjör, Sala;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;14;J;J;I;J;59262;Kristofer Åberg;26;M;Västerås;25, samhällsvetare, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;15;J;J;I;J;59261;Anna Nematbakhsh;21;K;Västerås;21, studerande, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;16;J;J;I;J;309976;Mikael Vilbaste;59;M;Västerås;59, elkraftingenjör, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;17;J;J;I;J;282968;Kristina Lindblad;33;K;Köping;33, lärarvikarie, Köping;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;18;J;J;I;J;283738;Jarl-Olof Lundstedt;75;M;Fagersta;74, hälsoekonom, Fagersta;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;19;J;J;I;J;59275;Barbara Conte;65;K;Västerås;65, ekologisk ekonom, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;20;J;J;I;J;59264;Håkan Wretljung;67;M;Västerås;67, fotograf, Dingtuna/Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;21;J;J;I;J;282976;Christina Eljansbo Hammarbäck;66;K;Köping;66, socionom, Köping;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;22;J;J;I;J;59260;Ariana Tanha;34;M;Västerås;34, energi- och miljöingenjör, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Miljöpartiet de gröna;MP;55;S;14657;23;J;J;I;J;309983;Bahareh Wolde;41;K;Västerås;40, dataingenjör, Västerås;300000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;1;J;J;I;J;32;Jenny Landernäs;37;K;Hallstahammar;Oppositionsråd, Hallstahammar;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;2;J;J;I;J;36;Håkan Freijd;65;M;Hallstahammar;VD/Senior Advisor, Hallstahammar;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;3;J;J;I;J;37;Jonna Lindman;54;K;Arboga;Personalplanerare, Arboga;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;4;J;J;I;J;59;Pernilla Danielsson;53;K;Skinnskatteberg;Ekonom, Skinnskatteberg;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;5;J;J;I;J;70;Tommy Karlsson;64;M;Arboga;Officer, Arboga;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;6;J;J;I;J;71;Yrjö Björkqvist;64;M;Kungsör;Pensionerad underhållsingenjör, Kungsör;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;7;J;J;I;J;48;Torbjörn Estelli;58;M;Hallstahammar;Verkstadsarbetare, Hallstahammar;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;8;J;J;I;J;39;Mikael Gunnarsson;51;M;Köping;Projektledare, Köping;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;9;J;J;I;J;43;Isabella Piva Hultström;33;K;Hallstahammar;Sjuksköterska, Hallstahammar;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;10;J;J;I;J;52;Anna Kramer;53;K;Norberg;Projektledare, Norberg;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;11;J;J;I;J;11520;Theresé Karlsson;40;K;Surahammar;Sjuksköterska, Surahammar;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;12;J;J;I;J;90;Mats Öhgren;68;M;Arboga;Pensionär, Arboga;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;13;J;J;I;J;89;Anders Röhfors;66;M;Arboga;Kommunalråd, Arboga;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;14;J;J;I;J;14735;Anita Westin Brodd;77;K;Hallstahammar;Fastighetsmäklare, Hallstahammar;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;15;J;J;I;J;14734;Stieg Andersson;74;M;Hallstahammar;Metallurg, Hallstahammar;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;16;J;J;I;J;91;Håkan Tomasson;46;M;Arboga;Avdelningschef, Arboga;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;17;J;J;I;J;11518;Johanna Olofsson;36;K;Surahammar;Undersköterska, Surahammar;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;11759;18;J;J;I;J;3190;Staffan Strid;56;M;Skinnskatteberg;Företagare, Skinnskatteberg;314000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;1;J;J;I;J;146;Tomas Högström;64;M;Västerås;Regionråd, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;2;J;J;I;J;30;Mikael Andersson Elfgren;30;M;Västerås;Officer, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;3;J;J;I;J;148;Maria Dellham;54;K;Västerås;Regionråd, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;4;J;J;I;J;149;Stephanie Bruksgård;30;K;Västerås;Undersköterska, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;5;J;J;I;J;150;Anna Nygren;48;K;Västerås;Sjuksköterska, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;6;J;J;I;J;45;Patrik Andrén;46;M;Västerås;Tandläkare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;7;J;J;I;J;152;Andreas Weiborn;30;M;Västerås;Projektledare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;8;J;J;I;J;4;Fredrik Larsson;47;M;Sala;Enhetschef, Sala;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;9;J;J;I;J;154;Silvana Enelo-Jansson;66;K;Västerås;F.d. skolchef, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;10;J;J;I;J;51;Gunnar Björnstad;50;M;Västerås;Civilingenjör, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;11;J;J;I;J;8;Elin Johansson;28;K;Sala;Socialsekreterare, Sala;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;12;J;J;I;J;157;Björn Svartsgård;57;M;Västerås;Överläkare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;13;J;J;I;J;28;Åsa Coenraads;40;K;Västerås;Riksdagsledamot, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;14;J;J;I;J;159;Asta Matikainen Lecklin;67;K;Västerås;Prost, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;15;J;J;I;J;160;Anna Gardeblad;50;K;Västerås;Undersköterska, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;16;J;J;I;J;63;Tomas Martinsson;23;M;Västerås;Studerande, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;17;J;J;I;J;54;Marie Brandstedt;36;K;Västerås;Byggnadsingenjör, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;18;J;J;I;J;163;Veronica Samuelsson;29;K;Västerås;Studerande, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;19;J;J;I;J;164;Thomas Frisk;52;M;Västerås;Affärsutvecklare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;20;J;J;I;J;9;Johan Widén;39;M;Sala;Företagare, Sala;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;21;J;J;I;N;50;[inte lämnat förklaring];;;;;315000;;N
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;22;J;J;I;J;167;Mohammed Rashid;57;M;Västerås;Projektledare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;23;J;J;I;J;46;Stefan Oszák Bengtsson;51;M;Västerås;Gymnasielärare , Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;24;J;J;I;J;169;Gunnel Wallquist Gustafsson;77;K;Västerås;Gymnastikdirektör, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;25;J;J;I;J;1;Erik Hamrin;39;M;Sala;Projektledare, Sala;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;26;J;J;I;J;171;Victor Nilsson;18;M;Västerås;Studerande, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;27;J;J;I;J;172;Leif Ringström;74;M;Västerås;Pensionär, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;28;J;J;I;J;5;Martin Eriksson;32;M;Sala;Handläggare, Sala;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;29;J;J;I;J;64;Stefano Suvero;75;M;Västerås;Projektkonsult, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;30;J;J;I;J;49;Jan G Fäger;65;M;Västerås;Civilingenjör, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;31;J;J;I;J;177;Johan Eriksson;49;M;Västerås;E-handelsansvarig, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;32;J;J;I;J;3;Michael Pb Johansson;57;M;Sala;Handläggare, Sala;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;33;J;J;I;J;60;Magnus Edman;57;M;Västerås;Affärsutvecklare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;34;J;J;I;J;180;Anders Olsson;47;M;Västerås;Civilingenjör, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;35;J;J;I;J;10;Jasin Arkavazi;51;M;Sala;Byggnadsingenjör, Sala;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;36;J;J;I;J;58;Anette Hult;63;K;Västerås;Företagare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;37;J;J;I;J;183;Frank Pettersson;64;M;Västerås;Affärsutvecklare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;38;J;J;I;J;184;Tomas Hedlund;47;M;Västerås;Undersköterska, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;39;J;J;I;J;185;Cassandra Romo;22;K;Västerås;Studerande, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;40;J;J;I;J;186;Emil Ytter;30;M;Västerås;Handläggare, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;41;J;J;I;J;187;Henrik Calander;39;M;Västerås;Civilingenjör, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Moderaterna;M;1;S;15200;42;J;J;I;J;260;Jan-Erik Jansson;67;M;Västerås;F.d. arbetsmarknadskonsulent, Västerås;315000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;1;J;J;I;J;166974;Maria Liljedahl;44;K;Köping;44 år, Regionråd, Köping;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;2;J;J;I;J;75392;Ingvar Jonsson;59;M;Sala;59 år, Företagare, Möklinta;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;3;J;J;I;J;76165;Patric Sjölund;49;M;Västerås;49 år, Undersköterska, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;4;J;J;I;J;75400;Carin Engström;64;K;Sala;64 år, Diabetessköterska, Rosshyttan;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;5;J;J;I;J;76167;Jan Johansson;49;M;Västerås;29 år, Motorbyggare/Systemprovare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;6;J;J;I;J;75606;Sven Fallgren;60;M;Surahammar;60 år, Enhetschef, Surahammar;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;7;J;J;I;J;76180;Nadja Axling;29;K;Västerås;29 år, Områdeschef, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;8;J;J;I;J;75394;Louise Eriksson;55;K;Sala;55 år, Undersköterska, Sala;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;9;J;J;I;J;166982;Monica Israelsson;65;K;Köping;65 år, Undersköterska, Kolsva;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;10;J;J;I;J;75122;Åsa-Lena Vestling;50;K;Norberg;50 år, Ordningsvakt, Norberg;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;11;J;J;I;J;76170;Erik Johansson;38;M;Västerås;38 år, Trafikinspektör, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;12;J;J;I;J;76169;Janeth Persson;44;K;Västerås;44 år, HR Administrator, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;13;J;J;I;J;75019;Christer Borg;46;M;Fagersta;46 år, Företagare, Fagersta;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;14;J;J;I;J;76166;Anna Svensson;63;K;Västerås;63 år, Pensionär, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;15;J;J;I;J;76172;Ewa Halvarsson;42;K;Västerås;42 år, Redovisningsekonom, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;16;J;J;I;J;134854;Martin Nyqvist;54;M;Arboga;54 år, Entreprenör, Arboga;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;17;J;J;I;J;76168;Kenneth Nilsson;69;M;Västerås;69 år, Pensionerad Företagare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;18;J;J;I;J;76187;Per Blomström;54;M;Västerås;54 år, Chaufför, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;19;J;J;I;J;166993;Karolina Glogowska;35;K;Köping;35 år, Studerande, Köping;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;20;J;J;I;J;76171;Jerry Hagberg;49;M;Västerås;49 år, Elevresurs/Musiklärare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;21;J;J;I;J;75603;Conny Johansson;62;M;Surahammar;62 år, Jordbrukare, Surahammar;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;22;J;J;I;J;75127;Felicia Vestling;20;K;Norberg;20 år, Säljare, Norberg;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;23;J;J;I;J;75125;Carolina Wallin;38;K;Norberg;38 år, Vårdbiträde, Norberg;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;24;J;J;I;J;76178;Stefan Handing;74;M;Västerås;74 år, Ingenjör, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;25;J;J;I;J;134915;Britt-Marie Häggkvist Back;74;K;Kungsör;74 år, Skolassistent, Kungsör;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;26;J;J;I;J;76191;Jimmy Gunstedt;25;M;Västerås;25 år, VVS-montör, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;27;J;J;I;J;76192;Thomas Stridsman;55;M;Västerås;54 år, Fondförvaltare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;28;J;J;I;N;75016;[inte lämnat förklaring];;;;;631000;;N
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;29;J;J;I;J;134913;Anders Frödin;57;M;Kungsör;57 år, Anläggningsarbetare, Kungsör;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;30;J;J;I;J;76182;Nan Rummelhoff;63;K;Västerås;63 år, Konstnär, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;31;J;J;I;J;76177;Tomas Söhr;51;M;Västerås;51 år, Företagare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;32;J;J;I;J;76202;Alexander Löfberg;40;M;Västerås;40 år, Barnskötare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;33;J;J;I;J;75607;Kent Pettersson;42;M;Surahammar;42 år, Företagare, Surahammar;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;34;J;J;I;J;167009;Tommy Eriksson;57;M;Surahammar;57 år, Trafik- o Byggvakt, Virsbo;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;35;J;J;I;J;134853;Tony Pehrsson;58;M;Arboga;58 år, Företagare, Götlunda;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;36;J;J;I;J;134910;Roland Jansson;65;M;Kungsör;65 år, Företagare, Kungsör;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;37;J;J;I;J;134912;Annicka Eriksson;54;K;Kungsör;54 år, Personlig Assistent, Kungsör;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;38;J;J;I;J;134916;Rune Broström;77;M;Kungsör;77 år, Pensionär, Kungsör;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;39;J;J;I;J;167014;Maija Karresmaa Asplund;48;K;Köping;48 år, Vårdare LSS, Köping;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;40;J;J;I;J;76197;Lars Sundqvist;70;M;Västerås;70 år, Pensionär, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;41;J;J;I;J;76186;Robert Holmberg;47;M;Västerås;47 år, Truckförare, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;42;J;J;I;J;76193;Sven Jonsson;57;M;Västerås;57 år, Maskinist, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;S;13573;43;J;J;I;J;76179;Håkan Gunstedt;55;M;Västerås;55 år, Företagare/Konsult, Västerås;631000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;511302;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;512845;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;513055;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;513065;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;513720;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;515672;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Sverigedemokraterna;SD;110;;;;J;J;I;N;515995;[inte lämnat förklaring];;;;;0;;N
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;1;J;J;I;J;16576;Johanna Ritvadotter;48;K;Sala;49, f d teaterarbetare, Sala;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;2;J;J;I;J;16732;Hans Jansson;60;M;Västerås;60, regionråd, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;3;J;J;I;J;16733;Heidi-Maria Wallinder;43;K;Västerås;43, politisk sekreterare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;4;J;J;I;J;16575;Fredrik Stockhaus;44;M;Västerås;43, folkhögskolelärare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;5;J;J;I;J;16735;Pratima Åslund;66;K;Norberg;66, arbetsmarknadshandläggare, Norberg;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;6;J;J;I;J;16586;Niklas Strand;41;M;Västerås;40, väktare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;7;J;J;I;J;16737;Felicia Granath;25;K;Västerås;25, människorättsrådgivare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;8;J;J;I;J;16738;Dan Avdic Karlsson;67;M;Arboga;67, socialsekreterare, Arboga;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;9;J;J;I;J;16739;Maja Garpelin;36;K;Västerås;36, sjukgymnast, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;10;J;J;I;J;16577;Peter Berg;48;M;Surahammar;48, ambulanssjukvårdare, Surahammar;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;11;J;J;I;J;16592;Hanna Ericsson Franzén;33;K;Arboga;33, förskollärare, Arboga;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;12;J;J;I;J;16573;Eric Äras Simitko;48;M;Västerås;48, rådgivare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;13;J;J;I;J;16743;Sofia Telfer;53;K;Västerås;52, administrativ sekreterare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;14;J;J;I;J;16744;Hans Granlund;57;M;Fagersta;57, projektledare, Fagersta;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;15;J;J;I;J;16578;Elisabeth Hanning;70;K;Fagersta;70, pensionär, Fagersta;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;16;J;J;I;J;16746;Stefan Lundborg;61;M;Köping;60, vårdare, Köping;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;17;J;J;I;J;16747;Bodil Hildemar;58;K;Sala;58, administratör, Sala;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;18;J;J;I;J;16748;Annica Lindholm;69;K;Hallstahammar;68, pensionär/f d handläggare, Kolbäck;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;19;J;J;I;J;16749;Fredrik Johansson;46;M;Norberg;46, kontorsassistent, Norberg;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;20;J;J;I;J;16750;Inga-Lill Frössman;65;K;Arboga;65, leg sjuksköterska, Arboga;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;21;J;J;I;J;16751;Christer Henriksson;71;M;Kungsör;71, pensionär, Kungsör;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;22;J;J;I;J;16752;Peter Tuike;47;M;Surahammar;47, industriarbetare, Virsbo;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;23;J;J;I;J;16594;Siw Sundberg;63;K;Västerås;62, vårdlärare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;24;J;J;I;J;16754;Kent Persson;67;M;Norberg;67, pensionär, Norberg;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;25;J;J;I;J;16581;Vicktoria Bagi;46;K;Västerås;47, kommunikatör/programansvarig, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;26;J;J;I;J;16756;Andrew Morgan;48;M;Västerås;48, drifttekniker, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;27;J;J;I;J;16757;Airi Andersson;56;K;Arboga;56, barnskötare, Arboga;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;28;J;J;I;J;16593;Lars Lithammer;61;M;Västerås;61, specialpedagog, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;29;J;J;I;J;16570;Vasiliki Tsouplaki;38;K;Västerås;38, riksdagsledamot, Skultuna;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;30;J;J;I;J;16760;Alberto Castellanos;67;M;Sala;67, pensionär, Sala;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;31;J;J;I;J;16579;Linn Wegemo;33;K;Västerås;33, lagerarbetare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;32;J;J;I;J;16591;Pär Lanninge;39;M;Västerås;39, ombudsman, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;33;J;J;I;J;16763;Nancy Ibarra;73;K;Norberg;72, civilekonom, Norberg;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;34;J;J;I;J;16588;Daniel Guerra;54;M;Västerås;53, illustratör, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;35;J;J;I;J;16585;Maria Arvidsson;59;K;Sala;59, förskollärare, Sala;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;36;J;J;I;J;16595;Olle Kvarnryd;40;M;Västerås;40, lärare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;37;J;J;I;J;16619;Lisa Parland;38;K;Västerås;38, journalist, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;38;J;J;I;J;16768;Billy Tungren;70;M;Västerås;70, pensionerad socialsekreterare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;39;J;J;I;J;16596;Catarina Eriksson;54;K;Västerås;54, sjuksköterska, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;40;J;J;I;J;16770;Sebastian Housset;34;M;Västerås;34, lärare, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;41;J;J;I;J;16590;Åsa Forss;44;K;Sala;44, hästskötare, Ransta;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;42;J;J;I;J;16599;Bertil Svensson;57;M;Västerås;57, civilingenjör, Västerås;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;43;J;J;I;J;16598;Malin Larsson;30;K;Västerås;30, studerande;629000;;J
+L;19;Västmanlands läns landsting;02;Västra valkretsen;Vänsterpartiet;V;5;S;11981;44;J;J;I;J;16597;Mohsen Ghobadipour;42;M;Västerås;42, tågmontör, Västerås;629000;;J

@@ -1,0 +1,332 @@
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;1;J;J;I;J;16324;Krissi Kristina Johansson;45;K;Halmstad;45, Bäckagård;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;2;J;J;I;J;16323;Stefan Pålsson;27;M;Halmstad;27, Nyatorp;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;3;J;J;I;J;16328;Ingegerd Sahlström;74;K;Halmstad;74, Centrum;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;4;J;J;I;J;16325;Fredrik Luhanka;32;M;Halmstad;32, Gustavsfält;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;5;J;J;I;J;16326;Fatma Hergül;54;K;Halmstad;54, Söndrum;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;6;J;J;I;J;16327;Tony Stané;52;M;Halmstad;52, Centrum;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;7;J;J;I;J;11773;Gun-Britt Löfdahl;50;K;Halmstad;50, Kärleken;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;8;J;J;I;J;16329;Tord Johansson;60;M;Halmstad;60, Centrum;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;9;J;J;I;J;16330;Sofia Levin;27;K;Halmstad;27, Centrum;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;10;J;J;I;J;7603;Lars El Hayek;26;M;Halmstad;26, Fyllinge;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;11;J;J;I;J;16332;Carin Söderberg;49;K;Halmstad;49, Söndrum;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;12;J;J;I;J;16333;Micael Nilsson;49;M;Halmstad;49, Snöstorp;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;13;J;J;I;J;16334;Christel Eriksson;66;K;Halmstad;66, Frennarp;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;14;J;J;I;J;16335;Michael Svensson;60;M;Halmstad;60, Vallås;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;15;J;J;I;J;16336;Sandra Löberg Erlandsson;32;K;Halmstad;32, Centrum;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;16;J;J;I;J;16337;Kent Gustafsson;58;M;Halmstad;58, Getinge;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;17;J;J;I;J;16338;Lenita Strandberg;52;K;Halmstad;52, Trönninge;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;18;J;J;I;J;16339;Bengt Ekberg;80;M;Halmstad;80, Oskarström;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;19;J;J;I;J;16340;Erika Olivares;51;K;Halmstad;51, Gustavsfält;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;20;J;J;I;J;16341;Folke Alfredsson;51;M;Halmstad;51, Gullbranna;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;21;J;J;I;J;16342;Eva-Marie Paulsson;47;K;Halmstad;47, Nyhem;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;22;J;J;I;J;16343;Ante Hultin;56;M;Halmstad;56, Kvibille;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;23;J;J;I;J;16344;Rose-Marie Henriksson;74;K;Halmstad;74, Vallås;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;24;J;J;I;J;16345;Tommie Hägg;51;M;Halmstad;51, Furet;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;25;J;J;I;J;16346;Anne Bergman;45;K;Halmstad;45, Vallås;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;26;J;J;I;J;16347;Stefan Hansson;62;M;Halmstad;62, Mickedala;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;27;J;J;I;J;16348;Rose-Marie Jönsson;62;K;Halmstad;62, Andersberg;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;28;J;J;I;J;16349;Leif Grenlund;68;M;Halmstad;68, Furet;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;29;J;J;I;J;16350;Maria Persdotter;56;K;Halmstad;56, Mickedala;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;30;J;J;I;J;16351;Imre Gulyas;55;M;Halmstad;55, Fyllinge;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;31;J;J;I;J;16352;Åsa Malmberg;42;K;Halmstad;42, Furet;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;32;J;J;I;J;16353;Arber Gashi;23;M;Halmstad;23, Nyhem;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;33;J;J;I;J;16354;Rose-Marie Edlund;67;K;Halmstad;67, Centrum;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;34;J;J;I;J;16355;Anders Rosén;59;M;Halmstad;59, Centrum;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;35;J;J;I;J;16356;Ulla Winblad;72;K;Halmstad;72, Bergsgård;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;36;J;J;I;J;16357;Bertil Andersson;63;M;Halmstad;63, Vallås;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;37;J;J;I;J;16358;Rebecca Nordström;30;K;Halmstad;30, Tolarp;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;38;J;J;I;J;16359;Urban Landström;50;M;Halmstad;50, Nyhem;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;39;J;J;I;J;16360;Pernilla Hultin;58;K;Halmstad;58, Kvibille;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;40;J;J;I;J;16361;Peter Nofors;54;M;Halmstad;54, Stenhuggeriet;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;41;J;J;I;J;11765;Jeanet Kjöller;51;K;Halmstad;51, Oskarström;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;42;J;J;I;J;16363;Kim Petersson;35;M;Halmstad;35, Oskarström;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;43;J;J;I;J;16364;Charlotte Olesen Rosén;60;K;Halmstad;60, Vallås;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;44;J;J;I;J;16365;Jihad Radjab Adel;19;M;Halmstad;19, Nyhem;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;45;J;J;I;J;16366;Amela Kara;50;K;Halmstad;50, Furet;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;46;J;J;I;J;16367;Conny Jönsson;39;M;Halmstad;39, Trönninge;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;47;J;J;I;J;7612;Eva-Lena Jakobsson;54;K;Halmstad;54, Snöstorp;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;48;J;J;I;J;16369;Magnus Jeppesen;36;M;Halmstad;36, Nyhem;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;49;J;J;I;J;16370;Moa Petersson;29;K;Halmstad;29, Brogård;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;50;J;J;I;J;16373;Jan Olof Johansson;74;M;Halmstad;74, Centrum;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;51;J;J;I;J;16372;Inga-Lill Nilsberth;68;K;Halmstad;68, Strandhaga;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;52;J;J;I;J;16375;Kemal Hadzalic;43;M;Halmstad;43, Oskarström;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;53;J;J;I;J;16374;Irene Lindgren;57;K;Halmstad;57, Andersberg;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;54;J;J;I;J;16377;Tony Kok;42;M;Halmstad;42, Linehed;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;55;J;J;I;J;16376;Lina Paulsson;26;K;Halmstad;26, Linehed;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;56;J;J;I;J;16379;Lars-Uno Kroon;58;M;Halmstad;58, Eldsberga;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;57;J;J;I;J;16378;Anna-Grethe Sörensen;67;K;Halmstad;67, Slättåkra;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;58;J;J;I;J;16381;Per Ihlström;40;M;Halmstad;40, Getinge;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;59;J;J;I;J;16380;Jannike Karlsson;46;K;Halmstad;46, Söndrum;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;60;J;J;I;J;11770;Ulf Johansson;60;M;Halmstad;60, Nyhem;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;61;J;J;I;J;16382;Sawsan Al Akki;46;K;Halmstad;46, Centrum;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;62;J;J;I;J;16385;Mathias Sörensen;41;M;Halmstad;41, Vallås;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;63;J;J;I;J;16384;Anna Carlsson;54;K;Halmstad;54, Snöstorp;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;64;J;J;I;J;16387;Ismail Akgun;35;M;Halmstad;35, Nyhem;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;65;J;J;I;J;16386;Narine Gabrielyan;53;K;Halmstad;53, Nyhem;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;66;J;J;I;J;16389;Staffan Albihn;63;M;Halmstad;63, Harplinge;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;67;J;J;I;J;16388;Lilli Istenes;53;K;Halmstad;53, Oskarström;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;68;J;J;I;J;16391;Bengt Arvidsson;52;M;Halmstad;52, Centrum;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;69;J;J;I;J;16390;Perihan Karagöz;44;K;Halmstad;44, Snöstorp;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;70;J;J;I;J;16393;Martin Johansson;40;M;Halmstad;40, Gullbrandstorp;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;71;J;J;I;J;16392;Cathrin Ljungberg;30;K;Halmstad;30, Vallås;235000;;J
+K;1380;Halmstad;00;Halmstad;Arbetarepartiet-Socialdemokraterna;S;2;S;11979;72;J;J;I;J;153255;Ola Fritzon;34;M;Halmstad;34, Andersberg;235000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;1;J;J;I;J;23834;Jenny Axelsson;44;K;Halmstad;44 år, Kommunråd, Simlångsdalen;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;2;J;J;I;J;29587;Yngve Kihlberg;53;M;Halmstad;53 år, Biodlingsföretagare, Kärleken;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;3;J;J;I;J;23821;Jennie Wijk;48;K;Halmstad;48 år, Strateg/VD, Väster;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;4;J;J;I;J;29589;Henrik Andersson;58;M;Halmstad;58 år, Agronom, Holm;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;5;J;J;I;J;29590;Anna Ginstmark;39;K;Halmstad;39 år, Teknisk säljare, Getinge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;6;J;J;I;J;28990;Staffan Svensson;50;M;Halmstad;50 år, Egenföretagare, Harplinge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;7;J;J;I;J;29592;Håkan Björklund;49;M;Halmstad;49 år, Lärare, Vallås;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;8;J;J;I;J;29593;Rebecca Bjällsjö;29;K;Halmstad;29 år, Förskollärare, Trönninge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;9;J;J;I;J;29594;Gzim Ramadani;31;M;Halmstad;31 år, Frisör, Nissastrand;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;10;J;J;I;J;23836;Victor Rundqvist;25;M;Halmstad;26 år, Ungdomspolitiker, Nyhem;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;11;J;J;I;J;29596;Lars-Roland Svensson;66;M;Halmstad;66 år, F.d. Polis, Oskarström;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;12;J;J;I;J;29597;Sofie Karlsson;40;K;Halmstad;40 år, Civilekonom, Söndrum;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;13;J;J;I;J;29598;Jimmie Tschander;39;M;Halmstad;39 år, Bokningskoordinator, Stenhuggeriet;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;14;J;J;I;J;29599;Pierre Håkansson;42;M;Halmstad;42 år, Byggprojektledare, Getinge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;15;J;J;I;J;29600;Sandra Carlsson;39;K;Halmstad;39 år, Försäkringstjänsteman, Holm;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;16;J;J;I;J;29601;Paul Barath;44;M;Halmstad;44 år, Verksamhetsansvarig KRIS, Slättåkra;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;17;J;J;I;J;23829;Fisnik Nepola;38;M;Halmstad;38 år, Affärsrådgivare, Frösakull;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;18;J;J;I;J;29603;Cathrine Sjölin;46;K;Halmstad;46 år, Företagare, Snöstorp;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;19;J;J;I;J;29604;Ewy Henriksson;69;K;Halmstad;69 år, Förskolelärare, Kvibille;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;20;J;J;I;J;29605;Ola Hidgård;47;M;Halmstad;47 år, Småföretagare, Tönnersjö;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;21;J;J;I;J;29606;Erik Holmer;40;M;Halmstad;40 år, Läkare, Åled;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;22;J;J;I;J;29607;Jessica Geijer;46;K;Halmstad;46 år, Gymnasielärare, Haverdal;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;23;J;J;I;J;29608;Maria Blasek Jansson;42;K;Halmstad;42 år, Lärare försvarsmakten, Kvibille;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;24;J;J;I;J;28985;Anna Ericsson;41;K;Halmstad;41 år, Lärare, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;25;J;J;I;J;29610;Fredrik Johansson;46;M;Halmstad;46 år, Försäljningschef, Steninge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;26;J;J;I;J;28958;Petter Larron;48;M;Halmstad;48 år, Kyrkokamrer, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;27;J;J;I;J;29612;Karin Ring;43;K;Halmstad;43 år, Administratör, Steninge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;28;J;J;I;J;29613;Christer Meuller;57;M;Halmstad;57 år, Egenföretagare, Eldsberga;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;29;J;J;I;J;29614;Peter Feuerbach;62;M;Halmstad;62 år, Våtmarksexpert, Harplinge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;30;J;J;I;J;29615;Fredrik Jörgensen;46;M;Halmstad;46 år, Rektor, Slättåkra;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;31;J;J;I;J;29616;Peter Uppman;41;M;Halmstad;41 år, Innovationsstrateg, Eldsberga;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;32;J;J;I;J;29617;Jenny Grahn;46;K;Halmstad;46 år, Tapetserare, Simlångsdalen;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;33;J;J;I;J;29618;Johan Karlsson;50;M;Halmstad;50 år, VD/Datoringenjör, Eldsberga;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;34;J;J;I;J;29619;Jonas Wahlbeck;48;M;Halmstad;48 år, Egenföretagare, Vallås;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;35;J;J;I;J;29620;Eva Wetterlund Cederholm;54;K;Halmstad;54 år, Lärare, Getinge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;36;J;J;I;J;28988;Torbjörn Johansson;56;M;Halmstad;56 år, Studerande, Söder;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;37;J;J;I;J;29622;Malin Forsberg;23;K;Halmstad;23 år, Studerande, Nyhem;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;38;J;J;I;J;29623;Lavdim Syla;34;M;Halmstad;34 år, Egenföretagare, Snöstorp;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;39;J;J;I;J;29624;John-Wilhelm Pahlm;26;M;Halmstad;26 år, Kulturentreprenör, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;40;J;J;I;J;29625;Christian Hertz;43;M;Halmstad;43 år, Egenföretagare, Simlångsdalen;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;41;J;J;I;J;29626;Johan Pehrson;60;M;Halmstad;60 år, Företagsutvecklare, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;42;J;J;I;J;29627;Dan Karlsson;56;M;Halmstad;56 år, Försäljare, Harplinge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;43;J;J;I;J;29628;Henrik Salomonsson;46;M;Halmstad;46 år, Serviceingenjör, Simlångsdalen;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;44;J;J;I;J;29629;Ulrika Kjellberg;45;K;Halmstad;45 år, Förstelärare, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;45;J;J;I;J;29630;Mattias Bengtsson;44;M;Halmstad;44 år, Lantbrukare, Rävinge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;46;J;J;I;J;29631;Torbjörn Ferdman;53;M;Halmstad;53 år, Civilingenjör, Särdal;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;47;J;J;I;J;29632;Christer Henriksson;68;M;Halmstad;68 år, Lantmästare, Harplinge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;48;J;J;I;J;23840;Christian Lidén;37;M;Halmstad;37 år, Ambulanssjuksköterska, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;49;J;J;I;J;29634;Anders Darelius;41;M;Halmstad;41 år, Teknologie doktor, Steninge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;50;J;J;I;J;29635;Hugo Lindqvist;19;M;Halmstad;19 år, Studerande, Gullbrandstorp;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;51;J;J;I;J;29636;Rickard Bengtsson;47;M;Halmstad;47 år, Projektledare/Egenföretagare, Harplinge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;52;J;J;I;J;29637;Bengt Tönsgård;68;M;Halmstad;68 år, Civilingenjör, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;53;J;J;I;J;29638;Cecilia Skjödt;38;K;Halmstad;38 år, Inköpschef, Stenhuggeriet;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;54;J;J;I;J;29639;Ronny Bengtsson;51;M;Halmstad;51 år, Mejeriarbetare, Gullbrandstorp;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;55;J;J;I;J;29640;Magnus Persson;58;M;Halmstad;58 år, Entreprenör, Onsjö;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;56;J;J;I;J;29641;Hicham Andersson;49;M;Halmstad;49 år, Polisvolontär, Frösakull;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;57;J;J;I;J;29642;Henrik Noord;39;M;Halmstad;39 år, Lastbilschaufför, Åled;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;58;J;J;I;J;29643;Jörgen Jansson;49;M;Halmstad;49 år, Lärare, Harplinge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;59;J;J;I;J;29644;Christina Rödl;59;K;Halmstad;59 år, Socialpedagog, Särdal;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;60;J;J;I;J;29645;Tomas Norlander;54;M;Halmstad;54 år, Ekonomikonsult, Steninge;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;61;J;J;I;J;29646;Daniel Stanic;33;M;Halmstad;33 år, Säljare, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;62;J;J;I;J;29647;Lennart Eriksson;76;M;Halmstad;76 år, Företagare, Kvibille;233000;;J
+K;1380;Halmstad;00;Halmstad;Centerpartiet;C;4;S;12174;63;J;J;I;J;29648;Lizzie Nilsson;87;K;Halmstad;87 år, Egenföretagare, Holm;233000;;J
+K;1380;Halmstad;00;Halmstad;Direktdemokraterna;DD;1150;;;;N;J;J;I;365275;Isefalk, Jan;61;M;Halmstad;;0;;J
+K;1380;Halmstad;00;Halmstad;Direktdemokraterna;DD;1150;;;;N;J;J;I;515756;Nyberg, Magnus;48;M;Halmstad;;0;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;1;J;J;I;J;221780;Ella Kardemark;34;K;Halmstad;34, Företagare, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;2;J;J;I;J;221797;Henrik Östlund;44;M;Halmstad;44, Regionchef, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;3;J;J;I;J;221788;Magnus Hedman;46;M;Halmstad;45, Civilekonom, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;4;J;J;I;J;221794;Annette Nordén;54;K;Halmstad;54, Egenföretagare, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;5;J;J;I;J;221799;Johnny Rosenberg Bodmar;31;M;Halmstad;31, Lärarstudent, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;6;J;J;I;J;221786;Erik Golovtchenko;19;M;Halmstad;19, Student, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;7;J;J;I;J;223915;Elisabeth Wetoft Petersson;64;K;Halmstad;64, Leg. Sjuksköterska, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;8;J;J;I;J;223916;Hans Sjöblom;63;M;Halmstad;62, Guldsmedsmästare, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;9;J;J;I;J;223917;Anders Centerwall;34;M;Halmstad;33, Ventilationstekniker, Holm;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;10;J;J;I;J;223918;Linda Arrhenius;31;K;Halmstad;31, Löneadministratör, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;11;J;J;I;J;223919;Kaj Danielsson;78;M;Halmstad;78, VVS Ingenjör, Åled;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;12;J;J;I;J;223920;Lena Weibull;76;K;Halmstad;76, Hemkunskapslärare, Haverdal;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;13;J;J;I;J;223921;Björn Ericson;69;M;Halmstad;68, f.d. Överåklagare, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;14;J;J;I;J;223922;Helena Jämtestam Pedersen;59;K;Halmstad;58, f.d. Undersköterska, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;15;J;J;I;J;223923;Lars-Olof Nilsson;82;M;Halmstad;81, f.d. Ämneslärare, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;16;J;J;I;J;223924;Margareta Chibba;70;K;Halmstad;69, Företagare, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Kristdemokraterna;KD;68;S;14006;17;J;J;I;J;223925;Bertil Alhult;71;M;Halmstad;70, Pensionär, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515599;Johansson, Lars Erik;70;M;Halmstad;;0;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;1;J;J;I;J;156090;Lovisa Aldrin;36;K;Halmstad;36 år, kommunråd, Karlstorp;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;2;J;J;I;J;156091;Per Carlsson;37;M;Halmstad;37 år, officer, Nyhem;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;3;J;J;I;J;156092;Barbro Odelberg;69;K;Halmstad;69 år, f.d. journalist, Rotorp;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;4;J;J;I;J;156093;Simon Karlsson;20;M;Halmstad;20 år, lärarvikarie, Söndrum;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;5;J;J;I;J;49193;Ellen Österberg;23;K;Halmstad;23 år, maskiningenjör, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;6;J;J;I;J;156095;Mikael Wendt;62;M;Halmstad;62 år, rektor, Alet;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;7;J;J;I;J;156096;Annica Elvroth;51;K;Halmstad;51 år, försäkringsförmedlare, Frösakull;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;8;J;J;I;J;156097;Anders Blomqvist;60;M;Halmstad;60 år, leg. ortopedingenjör, Frösakull;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;9;J;J;I;J;156098;Ann-Christin Danielsson;60;K;Halmstad;60 år, yrkeslärare, Öster;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;10;J;J;I;J;156099;Håkan Ramsén;56;M;Halmstad;56 år, guldsmed, Kärleken;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;11;J;J;I;J;156100;Caroline Carlsson;36;K;Halmstad;36 år, konstvetare, Nyhem;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;12;J;J;I;J;156101;Ronni Söderberg;32;M;Halmstad;32 år, lärarstudent, Furet;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;13;J;J;I;J;156102;Anne Rosvall;47;K;Halmstad;47 år, företagare, Centrum;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;14;J;J;I;J;156103;Zlatan Kesetovic;52;M;Halmstad;52 år, civilingenjör, Snöstorp;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;15;J;J;I;J;156104;Catrin Stag;35;K;Halmstad;35 år, produktspecialist, Eldsberga;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;16;J;J;I;J;156105;Lars Nordgren;70;M;Halmstad;69 år, docent/universitetslektor, Eketånga;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;17;J;J;I;J;156106;Sanna Peters;21;K;Halmstad;21 år, studerande, Söndrum;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;18;J;J;I;J;156107;Hannes Sjöberg;20;M;Halmstad;20 år, distriktsstyrelseledamot LUF Halland, Halmstad;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;19;J;J;I;J;156108;Gunnel Fabricius;64;K;Halmstad;65 år, ämneslärare, Holm;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;20;J;J;I;J;156109;Michael Hedlund;53;M;Halmstad;53 år, pedagog, Söndrum;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;21;J;J;I;J;156110;Kenneth Mellåker;61;M;Halmstad;61 år, specialpedagog, Rotorp;233000;;J
+K;1380;Halmstad;00;Halmstad;Liberalerna (tidigare Folkpartiet);L;3;S;13464;22;J;J;I;J;156111;Kerstin Persson;82;K;Halmstad;81 år, senior advisor, Söndrum;233000;;J
+K;1380;Halmstad;00;Halmstad;Medborgerlig Samling;MED;1296;S;14644;1;J;J;I;J;128526;Milos Varcakovic;27;M;Halmstad;27 statstjänsteman Halmstad;12000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;1;J;J;I;J;131362;Ola Nilsson;49;M;Halmstad;49 år, lärare, Simlångsdalen;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;2;J;J;I;J;131363;Tove Bergman;60;K;Halmstad;60 år, författare, Nyhem;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;3;J;J;I;J;131364;Svein Henriksen;50;M;Halmstad;50 år, socionom, Getinge;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;4;J;J;I;J;131365;Ida Westin;27;K;Halmstad;27 år, socialsekreterare, Centrum;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;5;J;J;I;J;131366;Anders Bergh;36;M;Halmstad;36 år, förskollärarstudent, Särdal;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;6;J;J;I;J;131367;Maria Söderberg;30;K;Halmstad;30 år, klimatstrateg, Centrum;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;7;J;J;I;J;131368;Mikael Östman;61;M;Halmstad;61 år, arkitekt, Nyhem;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;8;J;J;I;J;131369;Peter Holm;55;M;Halmstad;55 år, socionom, Centrum;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;9;J;J;I;J;131370;Catrin Isaksson;51;K;Halmstad;51 år, handläggare, Rotorp;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;10;J;J;I;J;131371;Kerstin Teutsch;58;K;Halmstad;58 år, landskapsarkitekt, Steninge;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;11;J;J;I;J;131372;Marie Ekholm;67;K;Halmstad;67 år, pensionär, f.d. barnläkare, Norr;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;12;J;J;I;J;131373;Anton Bristav;23;M;Skara;23 år, miljö- och hälsoskyddshandläggare, Centrum;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;13;J;J;I;J;131374;Elinor Gustafsson;47;K;Halmstad;48 år, socialpedagog, Oskarström;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;14;J;J;I;J;190197;Anders Wirdheim;66;M;Halmstad;67 år, journalist, Stenhuggeriet;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;15;J;J;I;J;190198;Mariam Younis Hussein;44;K;Halmstad;44 år, lärare, Bäckagård;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;16;J;J;I;J;190199;Lionel Charrière;44;M;Halmstad;44 år, lärare, Furet;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;17;J;J;I;J;190200;Marie Tönnberg;41;K;Halmstad;40 år, miljövetare, Furet;100000;;J
+K;1380;Halmstad;00;Halmstad;Miljöpartiet de gröna;MP;55;S;13328;18;J;J;I;J;190201;Barbro Toftgård;78;K;Halmstad;78 år, pensionär, Söndrum;100000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;1;J;J;I;J;240210;Jonas Bergman;45;M;Halmstad;45 år, Systemutvecklare, Haverdal;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;2;J;J;I;J;160382;Carl-Johan Berthilsson;50;M;Halmstad;50 år, Företagare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;3;J;J;I;J;240212;Mikaela Waltersson;45;K;Halmstad;45 år, Områdeschef, Kvibille;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;4;J;J;I;J;240213;Ann-Charlott Mankell;59;K;Halmstad;59 år, Rekryterare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;5;J;J;I;J;160375;Christofer Lundholm;31;M;Halmstad;31 år, Gymnasielärare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;6;J;J;I;J;240215;Dag Hultefors;64;M;Halmstad;64 år, Länsveterinär, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;7;J;J;I;J;160395;Josefin Green;48;K;Halmstad;48 år, Verksamhetschef, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;8;J;J;I;J;240217;Louise Uvenfeldt;45;K;Halmstad;45 år, Politices magister, Steninge;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;9;J;J;I;J;160364;Lars Püss;52;M;Halmstad;52 år, Civilekonom, Villshärad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;10;J;J;I;J;160380;Ardian Mazreku;39;M;Halmstad;39 år, Statsvetare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;11;J;J;I;J;240220;Camilla Berthilsson;48;K;Halmstad;48 år, VD, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;12;J;J;I;J;160368;Jenny Petersson;37;K;Halmstad;37 år, Riksdagsledamot, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;13;J;J;I;J;160386;Andreas Bergman;38;M;Halmstad;38 år, Åklagare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;14;J;J;I;J;240223;Conny Hansen;50;M;Halmstad;50 år, Överstelöjtnant, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;15;J;J;I;J;160388;Anna Fallkvist;51;K;Halmstad;51 år, Administratör, Harplinge;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;16;J;J;I;J;160378;Houda Axelsson;39;K;Halmstad;39 år, VD, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;17;J;J;I;J;240226;Sebastian Stenbeck;22;M;Halmstad;22 år, Försäljare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;18;J;J;I;J;240227;Johanna Jansson;42;K;Halmstad;42 år, Universitetsadjunkt, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;19;J;J;I;J;240228;Madelen Rossköld;31;K;Halmstad;31 år, Civilekonom, Steninge;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;20;J;J;I;J;160371;Annika Svensson;40;K;Halmstad;40 år, Molekylärbiolog, Eldsberga;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;21;J;J;I;J;240230;Daniel Gharavi;41;M;Halmstad;41 år, Företagare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;22;J;J;I;J;240231;Simon Lindgren;31;M;Halmstad;31 år, Civilingenjör, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;23;J;J;I;J;240232;Nese Celebioglu;52;K;Halmstad;52 år, Ämneslärare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;24;J;J;I;J;240233;Emelie Hägerklint;30;K;Halmstad;30 år, Verksamhetsutvecklare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;25;J;J;I;J;240234;Magnus Uvenfeldt;49;M;Halmstad;49 år, Quality director, Steninge;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;26;J;J;I;J;240235;Johanna Hjelmberg;30;K;Halmstad;30 år, Statsvetare, Getinge;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;27;J;J;I;J;240236;Magnus Ackerot;62;M;Halmstad;62 år, Entreprenör, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;28;J;J;I;J;240237;Ann-Kristin Nilsson;68;K;Halmstad;68 år, Pensionär, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;29;J;J;I;J;240238;Sandra Oghlikhani;21;K;Halmstad;21 år, Konsult, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;30;J;J;I;J;240239;Jan Prytz;73;M;Halmstad;73 år, Sjökapten, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;31;J;J;I;J;240240;Lars-Erik Blank;69;M;Halmstad;69 år, Officer, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;32;J;J;I;J;240241;Joakim Rask;47;M;Halmstad;47 år, Gymnasielärare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;33;J;J;I;J;160393;Ewa Sjögren;62;K;Halmstad;62 år, Verksamhetschef, Steninge;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;34;J;J;I;J;240243;Johan Sutinen;40;M;Halmstad;40 år, Rekrythandläggare, Getinge;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;35;J;J;I;J;160387;Shpetim Bujupi;45;M;Halmstad;45 år, Tandläkare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;36;J;J;I;J;240245;Sven Palmkvist;75;M;Halmstad;75 år, Civilingenjör, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;37;J;J;I;J;240246;Barbro Henriksson;73;K;Halmstad;73 år, Tandsköterska, Haverdal;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;38;J;J;I;J;240247;Lars-Ove Hägerroth;67;M;Halmstad;67 år, Lantmästare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;39;J;J;I;J;160394;Pehr Magnusson;61;M;Halmstad;61 år, Ekonom, Gullbrandstorp;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;40;J;J;I;J;240249;Birgitta Mardell;75;K;Halmstad;75 år, Utbildare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;41;J;J;I;J;160385;Bengt Kjellgren;48;M;Halmstad;48 år, Universitetsadjunkt, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;42;J;J;I;J;160377;Niclas Jansson;49;M;Halmstad;49 år, Fastighetsförvaltare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;43;J;J;I;J;160406;Samuel Åkesson;30;M;Halmstad;30 år, Säljare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;44;J;J;I;J;160401;Anne-Maria Smedberg;56;K;Halmstad;56 år, Egenföretagare, Påarp;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;45;J;J;I;J;240254;Ann-Charlotte Westlund;70;K;Halmstad;70 år, Pensionär, Haverdal;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;46;J;J;I;J;240255;Ola Johnsson;43;M;Halmstad;43 år, Ingenjör, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;47;J;J;I;J;240256;Roland Malmenborn;75;M;Halmstad;75 år, Förvaltare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;48;J;J;I;J;240257;Magnus Axelsson;42;M;Halmstad;42 år, Byggnadsingenjör, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;49;J;J;I;J;240258;Arife Yeniler;57;K;Halmstad;57 år, Sjuksköterska, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;50;J;J;I;J;240259;Leonard Von Wolcker;33;M;Halmstad;33 år, Verksamhetsutvecklare, Åled;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;51;J;J;I;J;240260;Cristina Gegö;42;K;Halmstad;42 år, Lärare, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;52;J;J;I;J;240261;Anders Eriksson;45;M;Halmstad;45 år, Trafiksäkerhetschef, Kvibille;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;53;J;J;I;J;240262;Milot Thaci;30;M;Malmö;30 år, Högskolestuderande, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;54;J;J;I;J;240263;Lennart Germundsson;78;M;Halmstad;78 år, Civilingenjör, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;55;J;J;I;J;240264;Lennart Ohlin;71;M;Halmstad;71 år, Pensionär, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Moderaterna;M;1;S;14125;56;J;J;I;J;240265;Henning Pipkorn;63;M;Halmstad;63 år, Ingenjör, Halmstad;248000;;J
+K;1380;Halmstad;00;Halmstad;Reformist Neutral Partiet;RNP;1202;S;15508;1;N;J;J;I;490395;Charlotte Persson;49;K;Halmstad;Undersköterska;5000;;J
+K;1380;Halmstad;00;Halmstad;SPI Välfärden;SPI;107;S;15078;1;J;J;I;J;392160;Bo Fridolph;78;M;Halmstad;;100000;;J
+K;1380;Halmstad;00;Halmstad;SPI Välfärden;SPI;107;S;15078;2;J;J;I;J;392161;Rutger Johannesson;66;M;Halmstad;;100000;;J
+K;1380;Halmstad;00;Halmstad;SPI Välfärden;SPI;107;S;15078;3;J;J;I;J;392162;Torsten Nilsson;74;M;Halmstad;;100000;;J
+K;1380;Halmstad;00;Halmstad;SPI Välfärden;SPI;107;S;15078;4;J;J;I;J;392163;Waseem Bakko;27;M;Halmstad;;100000;;J
+K;1380;Halmstad;00;Halmstad;SPI Välfärden;SPI;107;S;15078;5;J;J;I;J;392164;Arnold Gustavsson;86;M;Halmstad;;100000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;1;J;J;I;J;119788;Fabio Ishaq;35;M;Halmstad;34 år, VD;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;2;J;J;I;J;119757;Anton Nilsson;25;M;Halmstad;24 år, Säljare;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;3;J;J;I;J;119762;Tor Ingels;52;M;Halmstad;51 år, Läkare;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;4;J;J;I;J;119774;Andréa Skoglund;36;K;Halmstad;35 år, Undersköterska;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;5;J;J;I;J;119782;Ulf Holmgren;60;M;Halmstad;60 år, Vårdbiträde;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;6;J;J;I;J;119778;Andreas Ahlqvist;44;M;Halmstad;44 år, Teamchef;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;7;J;J;I;J;119768;Lars Björk;65;M;Halmstad;64 år, Pensionär;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;8;J;J;I;J;119770;Joacim Svensson;53;M;Halmstad;53 år, Entreprenör;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;9;J;J;I;J;119775;Per Ove Andersson;67;M;Halmstad;66 år, Pensionär;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;10;J;J;I;J;119785;Suzana Johansson;47;K;Halmstad;47 år, Undersköterska;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;11;J;J;I;J;125979;Jacob Ravensberg;26;M;Halmstad;25 år, Säljare;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;12;J;J;I;J;119759;Georg Cserti;72;M;Halmstad;71 år, Pensionär;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;13;J;J;I;J;119802;Krister Karlsson;42;M;Halmstad;41 år, Lagerarbetare;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;14;J;J;I;J;119820;Robert Lindgren;44;M;Halmstad;43 år, CNC operatör;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;15;J;J;I;J;125985;Henrik Pejle;53;M;Halmstad;52 år, Egenföretagare;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;16;J;J;I;J;119794;Dan Stigsson;60;M;Halmstad;59 år, Chaufför;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;17;J;J;I;J;119793;Robert Grönberg;46;M;Halmstad;45 år, Administratör;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;18;J;J;I;J;119765;Kjell Jönsson;74;M;Halmstad;74 år, Pensionär;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;19;J;J;I;J;119823;Rebecca Lago;22;K;Halmstad;22 år, Student;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;20;J;J;I;J;126328;John Andersen;55;M;Halmstad;54 år, Militär;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;21;J;J;I;J;125989;Claes Söderlind;67;M;Halmstad;67 år, Pensionär;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;22;J;J;I;J;126330;Fredrik Bunnstedth;39;M;Halmstad;38 år, Egenföretagare;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;23;J;J;I;J;119781;Lars Larsson;23;M;Halmstad;23 år, Student;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;24;J;J;I;J;119813;Conny Blad;63;M;Halmstad;63 år, Pensionär;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;25;J;J;I;J;119797;Gert Hellström;65;M;Halmstad;65 år, Avbytare stålverk;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;26;J;J;I;J;119791;Max Andréasson;20;M;Halmstad;20 år, Soldat;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;27;J;J;I;J;126335;Leif Jönsson;68;M;Halmstad;67 år, Pensionär;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;28;J;J;I;J;119815;Johan Josefsson;42;M;Halmstad;42 år, Platschef;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;29;J;J;I;J;126337;Morgan Olsen;21;M;Halmstad;20 år, Soldat;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;30;J;J;I;J;126338;Henry Berglund;73;M;Halmstad;72 år, Pensionär;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;31;J;J;I;J;126339;Joachim Lundvall;54;M;Halmstad;53 år, Arbetsledare;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;32;J;J;I;J;126340;Bruno Chmel;67;M;[saknas i folkbokföringen];67 år, Tandläkare;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;33;J;J;I;J;126341;Per Karlsson;74;M;Halmstad;74 år, Pensionär;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;34;J;J;I;J;126342;Carl Magelius;52;M;Halmstad;51 år, Chaufför;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;35;J;J;I;J;126343;Jan Andersson;74;M;Halmstad;73 år, Pensionär;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;36;J;J;I;J;119809;Ludvig Andersson;21;M;Halmstad;20 år, Student;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;37;J;J;I;J;126346;Bengt Höglund;82;M;Halmstad;82 år, Pensionär;297000;;J
+K;1380;Halmstad;00;Halmstad;Sverigedemokraterna;SD;110;S;13264;38;J;J;I;J;126347;Bo Hofvander;76;M;Halmstad;75 år, Pensionär;297000;;J
+K;1380;Halmstad;00;Halmstad;TRYGGHETSPARTIET;TRP;1309;S;12544;1;J;J;I;J;23950;Ingeborg Oléni;79;K;Halmstad;Sjuksköterska/Vårdlärare;150000;;J
+K;1380;Halmstad;00;Halmstad;TRYGGHETSPARTIET;TRP;1309;S;12544;2;J;J;I;J;23951;Maj-Lis Andersson;80;K;Halmstad;Banktjänsteman;150000;;J
+K;1380;Halmstad;00;Halmstad;TRYGGHETSPARTIET;TRP;1309;S;12544;3;J;J;I;J;25676;Dan Nilsson;69;M;Halmstad;Elektroingenjör;150000;;J
+K;1380;Halmstad;00;Halmstad;TRYGGHETSPARTIET;TRP;1309;S;12544;4;J;J;I;J;25677;Lennart Nyberg;72;M;Halmstad;Teknisk officer;150000;;J
+K;1380;Halmstad;00;Halmstad;TRYGGHETSPARTIET;TRP;1309;S;12544;5;J;J;I;J;25678;Kerstin Nyberg;67;K;Halmstad;Biståndshandläggare;150000;;J
+K;1380;Halmstad;00;Halmstad;TRYGGHETSPARTIET;TRP;1309;S;12544;6;J;J;I;J;25679;Anna Carin Nilsson;71;K;Halmstad;Socionom;150000;;J
+K;1380;Halmstad;00;Halmstad;TRYGGHETSPARTIET;TRP;1309;S;12544;7;J;J;I;J;25680;Alf Nilsson;78;M;Halmstad;Pensionär;150000;;J
+K;1380;Halmstad;00;Halmstad;TRYGGHETSPARTIET;TRP;1309;S;12544;8;J;J;I;J;25681;Lennart Bild;71;M;Halmstad;Lastbilschaufför;150000;;J
+K;1380;Halmstad;00;Halmstad;TRYGGHETSPARTIET;TRP;1309;S;12544;9;J;J;I;J;25682;Kåre Nielsen;73;M;Halmstad;Senior;150000;;J
+K;1380;Halmstad;00;Halmstad;TRYGGHETSPARTIET;TRP;1309;S;12544;10;J;J;I;J;25683;Bo Göransson;87;M;Halmstad;Leg. Läk.;150000;;J
+K;1380;Halmstad;00;Halmstad;TRYGGHETSPARTIET;TRP;1309;S;12544;11;J;J;I;J;25684;Inga Lindén Nilsson;84;K;Halmstad;Fil. mag. i konsthistoria;150000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;1;J;J;I;J;13322;Tania Bengtsson;39;K;Halmstad;lärare, 39 år, Frennarp;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;2;J;J;I;J;13245;Daniel Nilsson Brodén;23;M;Halmstad;förskollärare, 23 år, Söder;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;3;J;J;I;J;13325;Maria Johansson;40;K;Halmstad;undersköterska, 40 år, Nyhem;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;4;J;J;I;J;14270;Mikael Ekfeldt;50;M;Halmstad;socialpedagog, 50 år, Simlångsdalen;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;5;J;J;I;J;14271;Mariann Norell;70;K;Halmstad;pensionär, 70 år, Frennarp;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;6;J;J;I;J;14272;Patricio Fuentes-Orellana;66;M;Halmstad;ekonomiassistent, 66 år, Nyhem;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;7;J;J;I;J;14273;Cleo Latifa Khaldi;35;K;Halmstad;undersköterska, 35 år, Haverdal;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;8;J;J;I;J;14274;Kim Ljungcrantz;29;M;Halmstad;barnskötare, 29 år, Andersberg;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;9;J;J;I;J;13328;Ulrika Wiland Sonesson;39;K;Halmstad;39 år, ombudsman/verksamhetsutvecklare, Nyatorp;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;10;J;J;I;J;14275;Jan Berg;71;M;Halmstad;pensionär, 71 år, Centrum Väster;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;11;J;J;I;J;14276;Charlott Zsoldos;38;K;Halmstad;lärare, 38 år, Bäckagård;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;12;J;J;I;J;14277;Reza Sultani;22;M;Halmstad;stödassistent, 22 år, Andersberg;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;13;J;J;I;J;234106;Nour Ataia;21;K;Halmstad;student/vårdbiträde, 21 år, Östra Stranden;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;14;J;J;I;J;14278;Martin Marklund;43;M;Halmstad;musiklärare, 43 år, Frennarp;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;15;J;J;I;J;14279;Carina Rosshed Renkert;63;K;Halmstad;förskollärare, 63 år, Nyhem;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;16;J;J;I;J;234109;Jens Johansson;48;M;Halmstad;miljöarbetare, 48 år, Eldsberga;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;17;J;J;I;J;13320;Pär Petersson;49;M;Halmstad;diakon, 49 år, Oskarstöm;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;18;J;J;I;J;234111;Angeline Ewube Tabe;40;K;Halmstad;sociolog/student, 40 år, Bäckagård;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;19;J;J;I;J;234112;Charlotte Hansson;35;K;Halmstad;personlig assistent, 35 år, Frennarp;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;20;J;J;I;J;234113;Charlotte Drugge;42;K;Halmstad;barnmorska, 42 år, Marbäck;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;21;J;J;I;J;14281;Willy F. Schütt;54;M;Halmstad;boendestödjare, 54 år, Frennarp;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;22;J;J;I;J;234115;Ingrid Karlsson;70;K;Halmstad;f.d. högskolelärare, 70 år, Östra Stranden;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;23;J;J;I;J;14282;Reino Renkert;73;M;Halmstad;pensionär, 73 år, Nyhem;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;24;J;J;I;J;234117;Malin Engqvist;36;K;Halmstad;orderadministratör, 36 år, Centrum;140000;;J
+K;1380;Halmstad;00;Halmstad;Vänsterpartiet;V;5;S;11946;25;J;J;I;J;13455;Anders Lövgren;64;M;Halmstad;arbetssökande, 64 år, Rotorp;140000;;J

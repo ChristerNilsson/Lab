@@ -1,0 +1,216 @@
+K;1440;Ale;00;Ale;Ale - demokraterna;ADK;139;S;15191;1;J;J;I;J;415544;Sven Nicolaisen;59;M;Ale;Sjukgymnast;69000;;J
+K;1440;Ale;00;Ale;Ale - demokraterna;ADK;139;S;15191;2;J;J;I;J;415545;Börje Ohlsson;70;M;Ale;Köpman;69000;;J
+K;1440;Ale;00;Ale;Ale - demokraterna;ADK;139;S;15191;3;J;J;I;J;415546;Kjell Brattfors;73;M;Ale;Skeppare;69000;;J
+K;1440;Ale;00;Ale;Ale - demokraterna;ADK;139;S;15191;4;J;J;I;J;415547;Maria Ohlsson;66;K;Ale;Servitris;69000;;J
+K;1440;Ale;00;Ale;Ale - demokraterna;ADK;139;S;15191;5;J;J;I;J;415548;Bengt Tillberg;71;M;Ale;Köpman;69000;;J
+K;1440;Ale;00;Ale;Ale - demokraterna;ADK;139;S;15191;6;J;J;I;J;415549;Lena Alexandersson;50;K;Ale;Köksmästare;69000;;J
+K;1440;Ale;00;Ale;Ale - demokraterna;ADK;139;S;15191;7;J;J;I;J;415550;Jan A. Pressfeldt;75;M;Ale;Fastighetsmäklare;69000;;J
+K;1440;Ale;00;Ale;Ale - demokraterna;ADK;139;S;15191;8;J;J;I;J;415551;Ingela Nordhall;76;K;Ale;Receptarie;69000;;J
+K;1440;Ale;00;Ale;Ale - demokraterna;ADK;139;S;15191;9;J;J;I;J;415552;Timo Marklund;78;M;Ale;Grävmaskinist;69000;;J
+K;1440;Ale;00;Ale;Ale - demokraterna;ADK;139;S;15191;10;J;J;I;J;415553;Lise-Lott Börjesson Tillberg;65;K;Ale;Kanslist;69000;;J
+K;1440;Ale;00;Ale;Ale - demokraterna;ADK;139;S;15191;11;J;J;I;J;415554;Carl-Hugo Hamnegård;64;M;Ale;Läkare;69000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;1;J;J;I;J;84332;Paula Örn;40;K;Ale;40 år, kommunalråd, Nödinge;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;2;J;J;I;J;84333;Stefan Hagman;50;M;Ale;50 år, gymnasielärare, Nödinge;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;3;J;J;I;J;84334;Monica Samuelsson;62;K;Ale;62 år, kontorist, Nol;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;4;J;J;I;J;84335;Johnny Sundling;39;M;Ale;38 år, undersköterska, Skepplanda;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;5;J;J;I;J;84336;Ann Lundgren;52;K;Ale;52 år, lärare, Surte;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;6;J;J;I;J;84337;Dennis Ljunggren;45;M;Ale;46 år, industriarbetare, Nödinge;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;7;J;J;I;J;84338;Lena Orstadius;31;K;Ale;31 år, barn och ungdomsledare, Älvängen;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;8;J;J;I;J;84339;Rolf Gustavsson;69;M;Ale;69 år, pensionär, Alafors;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;9;J;J;I;J;84340;Catharina Eliasson;67;K;Ale;68 år, pensionär, Alafors;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;10;J;J;I;J;84341;Johan Nordin;37;M;Ale;37 år, arbetsmiljöingenjör, Älvängen;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;11;J;J;I;J;84342;Isabella Andersson;21;K;Ale;21 år, stödassistent, Bohus;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;12;J;J;I;J;84343;Anders Rollings;38;M;Lerum;38 år, verksamhetsutvecklare, Surte;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;13;J;J;I;J;84344;Elaine Björkman;71;K;Ale;72 år, pensionär, Skepplanda;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;14;J;J;I;J;84345;Klas Karlsson;52;M;Ale;53 år, civilingenjör, Nol;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;15;J;J;I;J;84346;Ingrid Inhammar;38;K;Ale;38 år, arbetsförmedlare, Älvängen;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;16;J;J;I;J;84347;Krister Bergenhus;53;M;Ale;54 år, processoperatör, Älvängen;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;17;J;J;I;J;84348;Hiba Abdulqader;25;K;Ale;25 år, barnskötare, Nödinge;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;18;J;J;I;J;84349;Jarl Karlsson;68;M;Ale;68 år, pensionär, Älvängen;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;19;J;J;I;J;84350;Christina Oskarsson;67;K;Ale;67 år, pensionär, Surte;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;20;J;J;I;J;84351;Gabriel Ljunggren;20;M;Ale;21 år, barnskötare, Bohus;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;21;J;J;I;J;84352;Natalie Namro;23;K;Ale;24 år, hälsopedagog, Nödinge;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;22;J;J;I;J;84353;Aree Said Gaff;48;M;Ale;48 år, lagerarbetare, Nödinge;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;23;J;J;I;J;84354;Monica H Westberg;73;K;Ale;73 år, pensionär, Nol;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;24;J;J;I;J;84355;Toni Andersson;57;M;Ale;58 år, plåtslagare, Bohus;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;25;J;J;I;J;84356;Zainab Tilako;48;K;Ale;47 år, utbildningssamordnare, Nödinge;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;26;J;J;I;J;84357;Bo-Ivar Andersson;51;M;Ale;52 år, pensionär, Nol;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;27;J;J;I;J;84358;Karin Heimdal;30;K;Ale;30 år, studerande, Älvängen;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;28;J;J;I;J;84359;Seppo Tallheden;53;M;Ale;54 år, metallarbetare, Älvängen;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;29;J;J;I;J;84360;Eva Eriksson;61;K;Ale;61 år, undersköterska, Surte;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;30;J;J;I;J;84361;Johan Signell;58;M;Ale;58 år, arbetsmarknadskonsult, Nol;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;31;J;J;I;J;84362;Anette Håkansson;58;K;Ale;59 år, undersköterska, Alafors;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;32;J;J;I;J;84363;Peter Ohlsson;62;M;Ale;62 år, folkbildare, Alvhem;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;33;J;J;I;J;84364;Ing-Britt Adiels;81;K;Ale;82 år, pensionär, Alafors;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;34;J;J;I;J;84365;Andreé Storm;31;M;Ale;30 år, elkraftsingenjör, Älvängen;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;35;J;J;I;J;84366;Christina Magnusson Wallöe;61;K;Ale;61 år, samordnare, Nödinge;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;36;J;J;I;J;84367;Fredrik Samuelsson;33;M;Ale;34 år, konsult, Nol;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;37;J;J;I;J;84368;Sandra Samuelsson;45;K;Ale;45 år, säljare, Älvängen;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;38;J;J;I;J;84369;Jim Aleberg;49;M;Ale;49 år, metallarbetare, Alafors;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;39;J;J;I;J;84370;Mahlin Engstrand;44;K;Ale;44 år, polis, Alafors;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;40;J;J;I;J;84371;Örjan Claesson;70;M;Ale;70 år, pensionär, Hålanda;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;41;J;J;I;J;84372;Inga-Lill Andersson;72;K;Ale;73 år, pensionär, Bohus;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;42;J;J;I;J;84373;Eje Engstrand;74;M;Ale;75 år, pensionär, Alafors;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;43;J;J;I;J;84374;Jessica Norberg;43;K;Ale;43 år, metallarbetare, Älvängen;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;44;J;J;I;J;84375;Kjell Rysjö;65;M;Ale;65 år, pensionär, Älvängen;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;45;J;J;I;J;84376;Anita Amdin;44;K;Ale;44 år, pensionär, Alafors;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;46;J;J;I;J;84377;Bengt Lundberg;67;M;Ale;68 år, pensionär, Älvängen;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;47;J;J;I;J;84378;Wivi-Anne Radesjö;82;K;Ale;83 år, pensionär, Bohus;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;48;J;J;I;J;434032;Kjell Stensson;75;M;Ale;75 år, pensionär, Nol;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;49;J;J;I;J;84380;Ulrica Martinsson;49;K;Ale;49 år, familjehemsföreståndare, Alvhem;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;50;J;J;I;J;84381;Jens-Peter Larsen;51;M;Ale;51 år, underhållsingenjör, Nol;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;51;J;J;I;J;84382;Sari Andersson;48;K;Ale;47 år, florist, Bohus;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;52;J;J;I;J;84383;Thor Eliasson;77;M;Ale;78 år, pensionär, Alafors;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;53;J;J;I;J;84384;Åse Hagborg Aleberg;46;K;Ale;46 år, lärare, Alafors;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;54;J;J;I;J;84385;Denny Olausson;45;M;Ale;45 år, grävmaskinist, Älvängen;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;55;J;J;I;J;84386;Stina-Kajsa Melin;72;K;Ale;72 år, pensionär, Surte;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;56;J;J;I;J;84387;Gert Karlsson;67;M;Ale;67 år, pensionär, Nol;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;57;J;J;I;J;84388;Carina Ackerfors;51;K;Ale;52 år, förskolelärare, Alafors;115000;;J
+K;1440;Ale;00;Ale;Arbetarepartiet-Socialdemokraterna;S;2;S;12942;58;J;J;I;J;84389;Sven Pettersson;81;M;Ale;81 år, pensionär, Nödinge;115000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;1;J;J;I;J;8532;Elena Fridfelt;39;K;Ale;projektledare inom IT, 39 år, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;2;J;J;I;J;178995;Åke Niklasson;61;M;Ale;lantbrukare, 61 år, Starrkärr;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;3;J;J;I;J;178996;Jessika Loftbring;34;K;Ale;socionom, 34 år, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;4;J;J;I;J;178997;Lennart Dahl;67;M;Ale;pensionär, 67 år, Bohus;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;5;J;J;I;J;178998;Lina Bodestad;33;K;Ale;psykolog och företagare, 33 år, Nol;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;6;J;J;I;J;178999;Hampus Eskilsson;27;M;Ale;församlingspedagog, 27 år, Alafors;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;7;J;J;I;J;179000;Anitha Kristiansson;69;K;Ale;pensionär, 69 år, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;8;J;J;I;J;179001;Pierre Torwald;41;M;Ale;musiker, 41 år, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;9;J;J;I;J;179002;Aida Karimli;34;K;Ale;näringslivsutvecklare, 34 år, Surte;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;10;J;J;I;J;179003;Dan Sandros;49;M;Ale;civilingengör, 49 år, Nödinge;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;11;J;J;I;J;179004;Helena Andersson;34;K;Ale;laboratorieingenjör, 34 år, Burhult;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;12;J;J;I;J;179005;Mattias Ivarsson;38;M;Ale;byggledare, 38år ,Älvängen;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;13;J;J;I;J;179006;Fuad Karimli;35;M;Ale;behandlingsassistent, 35 år, Surte;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;14;J;J;I;J;179007;Christian Nielsen;51;M;Ale;ölnörd, 51 år, Nödinge;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;15;J;J;I;J;179008;Ove Parkås;62;M;Ale;företagare, 62 år, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;16;J;J;I;J;179009;Ingemar Otzén;70;M;Ale;lärare, 71 år, Alvhem;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;17;J;J;I;J;179010;Leif Andersson;75;M;Ale;senior, 75 år, Surte;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;18;J;J;I;J;179011;Roland Wall;81;M;Ale;hemmansägare, 81 år, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;19;J;J;I;J;179012;Inger Zachrisson;68;K;Ale;behandlare, 68 år, Starrkärr;69000;;J
+K;1440;Ale;00;Ale;Centerpartiet;C;4;S;13637;20;J;J;I;J;179013;Tage Svensson;83;M;Ale;pensionär, 83 år, Älvängen;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;1;J;J;I;J;137274;Tyrone Hansson;49;M;Ale;Alafors;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;2;J;J;I;J;137275;Renée Palmnäs;63;K;Ale;Nödinge;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;3;J;J;I;J;137276;Rolf Engström;77;M;Ale;Surte-Bohus;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;4;J;J;I;J;137277;My Bardin Björkman;43;K;Ale;Älvängen;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;5;J;J;I;J;137278;Jonas Molin;44;M;Ale;Skepplanda;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;6;J;J;I;J;137279;Brita Karlsson;70;K;Ale;Nol;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;7;J;J;I;J;137280;Christer Eriksson;55;M;Ale;Nol;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;8;J;J;I;J;137281;Stefan Gustafsson;48;M;Ale;Älvängen;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;9;J;J;I;J;137282;Ingemar Sörqvist;41;M;Ale;Skepplanda;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;10;J;J;I;J;137283;Anna-Lill Andersson;63;K;Ale;Skepplanda;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;11;J;J;I;J;137284;Ronny Ericsson;71;M;Ale;Nödinge;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;12;J;J;I;J;137285;Pernilla Slitebo;44;K;Ale;Ölanda-Älvängen;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;13;J;J;I;J;137286;Lena Zachrisson;53;K;Ale;Alafors;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;14;J;J;I;J;137287;Per Zikovic;50;M;Ale;Surte-Bohus;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;15;J;J;I;J;137288;Elin Palmnäs;33;K;Ale;Nödinge;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;16;J;J;I;J;137289;Sebastian Hansson;23;M;Ale;Skepplanda;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;17;J;J;I;J;137290;Lena-Marie Forsman;69;K;Ale;Surte-Bohus;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;18;J;J;I;J;137291;Robert Hansson;25;M;Ale;Skepplanda;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;19;J;J;I;J;137292;Rakel Molin;44;K;Ale;Skepplanda;69000;;J
+K;1440;Ale;00;Ale;FRAMTID I ALE;FiA;1158;S;13350;20;J;J;I;J;137293;Jörgen Björkman;45;M;Ale;Älvängen;69000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;1;J;J;I;J;298117;Sune Rydén;64;M;Ale;Ryd;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;2;J;J;I;J;341189;Birgit Andersson;67;K;Ale;Ölanda;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;3;J;J;I;J;341190;Claes-Anders Bengtsson;65;M;Ale;Skepplanda;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;4;J;J;I;J;341191;Natanael Kvidal;23;M;Ale;Älvängen;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;5;J;J;I;J;341192;Christer Mörlin;74;M;Ale;Skepplanda;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;6;J;J;I;J;341193;Ingvar Arvidsson;73;M;Ale;Älvängen;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;7;J;J;I;J;341194;Tony Karlsson;60;M;Ale;Älvängen;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;8;J;J;I;J;341195;Madiorie Ormark;60;K;Ale;Nödinge;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;9;J;J;I;J;341196;Tage Lindström;72;M;Ale;Nödinge;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;10;J;J;I;J;341197;David Rydén;41;M;Ale;Ryd;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;11;J;J;I;J;341198;Tomas Johansson;50;M;Ale;Älvängen;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;12;J;J;I;J;341199;Göran Svensson;72;M;Ale;Alafors;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;13;J;J;I;J;341255;Staffan Andersson;53;M;Ale;Krokstorp;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;14;J;J;I;J;341200;Sofia Andersson;33;K;Ale;Bohus;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;15;J;J;I;J;341201;Lars Ingvarsson;67;M;Ale;Älvängen;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;16;J;J;I;J;277378;Ingrid Hellberg;57;K;Ale;Älvängen;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;17;J;J;I;J;341203;Birgit Hansson;70;K;Ale;Nödinge;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;18;J;J;I;J;341204;Thorbjörn Berg;72;M;Ale;Nödinge;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;19;J;J;I;J;341205;Nils-Hugo Strömberg;76;M;Ale;Nol;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;20;J;J;I;J;341206;Ulla-Britt Svensson;73;K;Ale;Alafors;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;21;J;J;I;J;298126;Wimar Sundeen;69;M;Ale;Skepplanda;64000;;J
+K;1440;Ale;00;Ale;Kristdemokraterna;KD;68;S;14788;22;J;J;I;J;341208;Rebecca Blohm;24;K;Ale;Skepplanda;64000;;J
+K;1440;Ale;00;Ale;Liberalerna (tidigare Folkpartiet);L;3;S;14451;1;J;J;I;J;275558;Stefan Ekwing;72;M;Ale;organisationskonsult, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Liberalerna (tidigare Folkpartiet);L;3;S;14451;2;J;J;I;J;275559;Rose-Marie Fihn;69;K;Ale;f.d. språklärare, Nol;69000;;J
+K;1440;Ale;00;Ale;Liberalerna (tidigare Folkpartiet);L;3;S;14451;3;J;J;I;J;275560;Eva Lans Samuelsson;60;K;Ale;enhetschef, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Liberalerna (tidigare Folkpartiet);L;3;S;14451;4;J;J;I;J;275561;Patrik Rasmusson;36;M;Ale;specialistofficer, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Liberalerna (tidigare Folkpartiet);L;3;S;14451;5;J;J;I;J;275562;Madeleine Olofsson;38;K;Ale;studie- och yrkesvägledare, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Liberalerna (tidigare Folkpartiet);L;3;S;14451;6;J;J;I;J;275563;Jonas Lindberg;22;M;Ale;studerande, Skepplanda;69000;;J
+K;1440;Ale;00;Ale;Liberalerna (tidigare Folkpartiet);L;3;S;14451;7;J;J;I;J;275564;Jan Samuelsson;64;M;Ale;civilingenjör, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Liberalerna (tidigare Folkpartiet);L;3;S;14451;8;J;J;I;J;275566;Inga-Lena Lindenau;72;K;Ale;rektor, Nödinge;69000;;J
+K;1440;Ale;00;Ale;Liberalerna (tidigare Folkpartiet);L;3;S;14451;9;J;J;I;J;275567;Rauf Karimli;33;M;Ale;socialpedagog, Bohus;69000;;J
+K;1440;Ale;00;Ale;Liberalerna (tidigare Folkpartiet);L;3;S;14451;10;J;J;I;J;275568;Kristina Karlsson;63;K;Ale;förskollärare, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Liberalerna (tidigare Folkpartiet);L;3;S;14451;11;J;J;I;J;275569;Åke Johansson;66;M;Ale;pensionär, Alafors;69000;;J
+K;1440;Ale;00;Ale;Liberalerna (tidigare Folkpartiet);L;3;S;14451;12;J;J;I;J;275570;Birgitta Brinkhed;81;K;Ale;f.d. talpedagog, Nödinge;69000;;J
+K;1440;Ale;00;Ale;Liberalerna (tidigare Folkpartiet);L;3;S;14451;13;J;J;I;J;275571;Daniel Karlsson;42;M;Ale;bankchef, Nödinge;69000;;J
+K;1440;Ale;00;Ale;Medborgerlig Samling;MED;1296;S;14347;1;J;J;I;J;258274;Linda Edgren;44;K;Ale;44 försäljningschef Nödinge;3000;;J
+K;1440;Ale;00;Ale;Miljöpartiet de gröna;MP;55;S;13172;1;J;J;I;J;118978;Sonny Landerberg;59;M;Ale;59 år, Egenföretagare, Skepplanda;43000;;J
+K;1440;Ale;00;Ale;Miljöpartiet de gröna;MP;55;S;13172;2;J;J;I;J;118979;Jenny Sandkvist;46;K;Ale;46 år, Kommunikationsstrateg, Nödinge;43000;;J
+K;1440;Ale;00;Ale;Miljöpartiet de gröna;MP;55;S;13172;3;J;J;I;J;118980;Geo de Maré;43;M;Ale;43 år, Systemtekniker, Alafors;43000;;J
+K;1440;Ale;00;Ale;Miljöpartiet de gröna;MP;55;S;13172;4;J;J;I;J;118981;Axel Andersson;23;M;Ale;23 år, Studerande, Nol;43000;;J
+K;1440;Ale;00;Ale;Miljöpartiet de gröna;MP;55;S;13172;5;J;J;I;J;118982;Lars Åke Ellbén;68;M;Ale;68 år, Pensionär, Alafors;43000;;J
+K;1440;Ale;00;Ale;Miljöpartiet de gröna;MP;55;S;13172;6;J;J;I;J;118983;Christian Samuelsson;33;M;Ale;33 år, Transportledare, Älvängen;43000;;J
+K;1440;Ale;00;Ale;Miljöpartiet de gröna;MP;55;S;13172;7;J;J;I;J;118984;Johan Ström;43;M;Ale;43 år, Systemtekniker, Nol;43000;;J
+K;1440;Ale;00;Ale;Miljöpartiet de gröna;MP;55;S;13172;8;J;J;I;J;118985;Camilla Landerberg;52;K;Ale;52 år, Egenföretagare, Skepplanda;43000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;1;J;J;I;J;254967;Mikael Berglund;46;M;Ale;46, Försäljningsingenjör, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;2;J;J;I;J;253913;Isabell Mörner;26;K;Ale;26, Jurist, Ale;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;3;J;J;I;J;254969;Oliver Andersson;18;M;Ale;18, Studerande, Nol;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;4;J;J;I;J;254970;Jan Skog;64;M;Ale;64, Egen företagare, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;5;J;J;I;J;254971;Henrik Fogelklou;48;M;Ale;48, Arkitekt, Nödinge;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;6;J;J;I;J;254972;Lars Kopp;72;M;Ale;72, Pensionär, Hålanda;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;7;J;J;I;J;254973;Daniel Mörner;30;M;Ale;30, , Älvängen;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;8;J;J;I;J;254974;Kajsa Nilsson;76;K;Ale;76, Leg sjuksköterska (pens), Nödinge;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;9;J;J;I;J;254975;Dan Björk;58;M;Ale;58, Tekniker, Nödinge;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;10;J;J;I;J;254976;Maj Holmström;72;K;Ale;72, Egen Företagare, Nödinge;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;11;J;J;I;J;254197;Erik Liljeberg;45;M;Ale;45, IT-strateg, Nol;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;12;J;J;I;J;254978;Peter Kornesjö;48;M;Ale;48, , Nödinge;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;13;J;J;I;J;254979;Lennarth Nilsson;80;M;Ale;80, Pensionär, Nödinge;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;14;J;J;I;J;254980;Susanna Mouvitz;45;K;Ale;45, , Älvängen;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;15;J;J;I;J;254981;Thomas Olesen;42;M;Ale;42, VD Bevakningsföreståndare, Nol;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;16;J;J;I;J;254982;Urban Wallbert;58;M;Ale;58, ,;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;17;J;J;I;J;254983;Anna Löfgren Silfversparre;48;K;Ale;48, Artikelkoordinator, Nödinge;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;18;J;J;I;J;254984;Dennis Larsen;35;M;Ale;35, , Alvhem;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;19;J;J;I;J;254985;Homayoun Amiri;63;M;Ale;63, Egenföretagare, Ale;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;20;J;J;I;J;254986;Maria Bokedal;41;K;Ale;41, Vårdenhetschef, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;21;J;J;I;J;254987;Gustav Havilehto;18;M;Ale;18, ,;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;22;J;J;I;J;254988;Magnus Wennergren;64;M;Ale;64, Konsult, Burhult;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;23;J;J;I;J;254989;Johan Bankel;58;M;Ale;58, Civilingenjör, Nödinge;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;24;J;J;I;J;254990;Bent Nissen;68;M;Ale;68, Pensionär, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;25;J;J;I;J;254991;Annelie Lund;70;K;Ale;70, f.d Förvaltare, Kilanda;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;26;J;J;I;J;254992;Göran Åkerlund;79;M;Ale;79, Pensionär, Bohus;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;27;J;J;I;J;254993;Cassandra Furberg;30;K;Ale;30, , Skepplanda;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;28;J;J;I;J;253919;Amanda Thonander;21;K;Ale;21, Student, Nödinge;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;29;J;J;I;J;254995;Rexhep Ademaj;55;M;Ale;55, Flygingenjör, Surte;69000;;J
+K;1440;Ale;00;Ale;Moderaterna;M;1;S;14308;30;J;J;I;J;254996;Mona Gunlycke;67;K;Ale;67, Tandsköterska, Nödinge;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;1;J;J;I;J;70288;Robert Jansson;31;M;Ale;31, Produktionsutvecklare, Nol;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;2;J;J;I;J;61343;Jonas Lundgren;46;M;Ale;46, Chaufför, Nol;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;3;J;J;I;J;70290;Kennet Sandow;72;M;Ale;72, Maskiningenjör, Alvhem;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;4;J;J;I;J;70291;Lennie Kjellman;43;M;Ale;43, Yttre hemtjänst, Nol;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;5;J;J;I;J;70292;Marita Henriksson;70;K;Ale;70, F.d. Omvårdnadspersonal, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;6;J;J;I;J;70293;Alexis Tranmarker;33;M;Ale;32, Gruppledare produktionslogistik, Alvhem;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;7;J;J;I;J;70294;Pernilla Johansson;46;K;Ale;46, Truckförare, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;8;J;J;I;J;70295;Robert Roos;52;M;Ale;52, Trafiklärare, Alafors;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;9;J;J;I;J;70296;Rune Karlsson;79;M;Ale;79, Pensionär, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;10;J;J;I;J;70297;Charlie Ceder;62;M;Ale;63, Pensionär, Surte;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;11;J;J;I;J;70298;Rainer Andreasson;64;M;Ale;64, Byggnadssnickare, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;12;J;J;I;J;70299;Håkan Bergman;61;M;Ale;61, Pensionär, Surte;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;13;J;J;I;J;70300;Benny Liu;54;M;Ale;54, Busschaufför, Surte;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;14;J;J;I;J;70301;Mattias Börjesson;45;M;Ale;45, Ventilationstekniker, Surte;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;15;J;J;I;J;70302;Marie Lundgren;51;K;Ale;50, Servicearbetare, Alafors;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;16;J;J;I;J;70303;Anna-Karin Axelsson;75;K;Ale;74, Maskiningenjör, Surte;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;17;J;J;I;J;70304;Mikael Larsson;46;M;Ale;46, Fastighetsskötare, Älvängen;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;18;J;J;I;J;70305;Christin Ekstrand;65;K;Ale;65, Pensionär, Bohus;69000;;J
+K;1440;Ale;00;Ale;Sverigedemokraterna;SD;110;S;12754;19;J;J;I;J;70306;John Nordlander;70;M;Ale;70, Pensionär, Nol;69000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;1;J;J;I;J;181864;Sven Engdahl;62;M;Ale;HR-specialist, Skepplanda, 63 år;46000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;2;J;J;I;J;181865;Lisa Gustafsson;35;K;Ale;socialpedagog, Nol, 35 år;46000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;3;J;J;I;J;162924;Christer Pålsson;52;M;Ale;logistiker, Skepplanda, 53 år;46000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;4;J;J;I;J;181867;Birgitta Andersson;73;K;Ale;pensionerad kurator, Älvängen, 72 år;46000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;5;J;J;I;J;181868;Adam Loftbring;35;M;Ale;Älvängen, 35 år;46000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;6;J;J;I;J;181869;Maria Bergérus;52;K;Ale;lärare, Skepplanda, 53 år;46000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;7;J;J;I;J;181870;Ann Franzén;70;K;Ale;före detta bibliotekarie, Älvängen, 70 år;46000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;8;J;J;I;J;181871;Mohammad Nashabat;63;M;Ale;taxichaufför, Nödinge, 64 år;46000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;9;J;J;I;J;181872;Anna Enggren;65;K;Ale;lärare, Nödinge, 65 år;46000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;10;J;J;I;J;181873;Bengt Stahlman;70;M;Ale;pensionerad lärare, Nödinge, 70 år;46000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;11;J;J;I;J;181874;Elisabeth Nordén-Forsberg;69;K;Ale;kulturarbetare, Bohus, 69 år;46000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;12;J;J;I;J;181875;Marie Olsson;56;K;Ale;arbetsspecialist, Kilanda, 56 år;46000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;13;J;J;I;J;181876;Camilla Karlsson;48;K;Ale;enhetschef LSS, Nödinge, 48 år;46000;;J
+K;1440;Ale;00;Ale;Vänsterpartiet;V;5;S;13652;14;J;J;I;J;181877;Kjell Gustavsson;88;M;Ale;pensionär, Nödinge, 88 år;46000;;J

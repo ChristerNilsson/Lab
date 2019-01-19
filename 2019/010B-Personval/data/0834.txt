@@ -1,0 +1,141 @@
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;1;J;J;I;J;10110;Henrik Nilsson Bokor;43;M;Torsås;Kommunalråd, Söderåkra, 43 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;2;J;J;I;J;158326;Ann-Britt Mårtensson;62;K;Torsås;Leg sjuksköt, Bergkvara, 62 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;3;J;J;I;J;19571;Björn Petersson;36;M;Torsås;Ombudsman, Bidalite, 36 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;4;J;J;I;J;10115;Christina Lönnqvist;62;K;Torsås;Fritidspedagog, Torsås, 62 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;5;J;J;I;J;158329;Sören Bondesson;60;M;Torsås;Egenföretagare, Bergkvara, 60 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;6;J;J;I;J;10121;Jill Jonsson;53;K;Torsås;Omsorgsassistent, Torsås, 53 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;7;J;J;I;J;158331;Roland Swedestam;71;M;Torsås;Skogsbrukare, Tjärekulla, 71 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;8;J;J;I;J;158332;Susanne Rosén;55;K;Torsås;Områdeschef, Stuvehyltan, 55 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;9;J;J;I;J;158333;Hans Larsson;51;M;Torsås;Metallarbetare/egenföretagare, Torsås, 51 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;10;J;J;I;J;158334;Maja Heller;27;K;Torsås;Medlemsutvecklare,Kvilla, 27 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;11;J;J;I;J;10118;Lars Häggbring;62;M;Torsås;Enhetschef,Gettnabo, 62 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;12;J;J;I;J;158336;Barbro Englund;76;K;Torsås;Pensionär,Torsås, 76 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;13;J;J;I;J;158337;Bernt Nykvist;66;M;Torsås;Pensionär, Bergkvara, 66 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;14;J;J;I;J;158338;Monica Anderberg;52;K;Torsås;Undersköterska, Torsås, 52 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;15;J;J;I;J;158339;Kåre Holgersson;66;M;Torsås;Konstnär, Bergkvara, 65 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;16;J;J;I;J;158340;Anne Ivholm;61;K;Torsås;Banktjm, Bidalite, 61 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;17;J;J;I;J;158341;Peter Ludvigsson;59;M;Torsås;Anläggningsarbetare, Ragnabo, 59 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;18;J;J;I;J;19588;Emöke Bokor;41;K;Torsås;Skolkurator, Söderåkra, 41 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;19;J;J;I;J;158343;Ulf Appelquist;58;M;Torsås;Producent/musiker, Torsås, 58 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;20;J;J;I;J;158344;Agnetha Eriksson;62;K;Torsås;Lärare, Bergkvara, 62 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;21;J;J;I;J;158345;Ghiath Al Bitar;28;M;Torsås;Tandläkare, Torsås, 28 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;22;J;J;I;J;158346;Siv Eriksson;77;K;Torsås;Pensionär, Påboda, 77 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;23;J;J;I;J;158347;Tomas Holgersson;68;M;Torsås;Pensionär, Bergkvara, 68 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;24;J;J;I;J;158348;Inga-Britt Karlsson;71;K;Torsås;Pensionär, Bergkvara, 71 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;25;J;J;I;J;158349;Tommie Sigvardsson;69;M;Torsås;fd Teknisk chef, Bergkvara, 69 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;26;J;J;I;J;158350;Marie-Louise Aspernäs;65;K;Torsås;Präst, Bergkvara, 65 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;27;J;J;I;J;158351;Ingemar Larsson;79;M;Torsås;Pensionär, Påboda, 79 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;28;J;J;I;J;158352;Kjell Arvidsson;77;M;Torsås;Modellsnickare, Söderåkra, 77 år;17000;;J
+K;0834;Torsås;00;Torsås;Arbetarepartiet-Socialdemokraterna;S;2;S;13490;29;J;J;I;J;158353;Ove Hagstrand;77;M;Torsås;Pensionär, Ekaryd, 77 år;17000;;J
+K;0834;Torsås;00;Torsås;Bästa Alternativet;B-ALT;1366;S;15858;1;N;J;J;I;513148;Roger Isberg;56;M;Torsås;Entreprenör;3000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;1;J;J;I;J;360916;Christofer Johansson;38;M;Torsås;38 år, lärare, Appleryd;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;2;J;J;I;J;363898;Frida Portin;54;K;Torsås;54 år, civilekonom, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;3;J;J;I;J;333991;Sten Bondesson;69;M;Torsås;69 år, skogsbrukare, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;4;J;J;I;J;333987;Eva-Kristina Berg;62;K;Torsås;62 år, omsorgsassistent, Gettnabo;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;5;J;J;I;J;333990;Linda Eriksson;44;K;Torsås;44 år, omsorgsassistent, Gullabo;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;6;J;J;I;J;333996;Maria Karlsson;42;K;Torsås;42 år, förskolechef, Ebbelångsö;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;7;J;J;I;J;363903;Marcus Johansson;47;M;Torsås;47 år, ica-handlare, Gullabo;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;8;J;J;I;J;363904;Tony Schäfer;40;M;Torsås;40 år, vd, Karsbo;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;9;J;J;I;J;363905;Lisa Klasson;37;K;Torsås;37 år, stadsingenjör, Kyrkebomåla;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;10;J;J;I;J;363906;Jörgen Johansson;61;M;Torsås;61 år, revisor, Norra Tång;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;11;J;J;I;J;363907;Jan-Olof Olsson;61;M;Torsås;61 år, lantbrukare, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;12;J;J;I;J;363908;Malin Mårtensson;39;K;Torsås;38 år, undersköterska, Ugglemad;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;13;J;J;I;J;363909;Nils Gustling;69;M;Torsås;69 år, pensionär, Strömby;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;14;J;J;I;J;363910;Elsie Ludwig;81;K;Torsås;81 år, pensionär, Söderåkra;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;15;J;J;I;J;363911;Stefan Nilsson;33;M;Torsås;33 år, egen företagare, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;16;J;J;I;J;363912;Helena Kalmteg;56;K;Torsås;56 år, lärare, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;17;J;J;I;J;334000;Jonas Fransson;36;M;Torsås;34 år, kock, yrkeschaufför, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;18;J;J;I;J;363914;Östen Barrdahl;72;M;Torsås;72 år, egen företagare, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;19;J;J;I;J;363915;Hans Thörn;67;M;Torsås;67 år, chaufför, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;20;J;J;I;J;363916;Ronny Ramberg;73;M;Torsås;73 år, skogsbrukare, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;21;J;J;I;J;363917;Ingela Övgård;56;K;Torsås;56 år, lantbruksföretagare, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;22;J;J;I;J;363918;Mattis Andersson;27;M;Torsås;26 år, redaktör, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;23;J;J;I;J;363919;Irma Folkesson;73;K;Torsås;73 år, pensionär, Kallemåla;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;24;J;J;I;J;363920;Cecilia Sjögren;50;K;Torsås;50 år, socionom, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;25;J;J;I;J;363921;Ing-Marie Fridolfsson;55;K;Torsås;55 år, undersköterska, Slätafly;17000;;J
+K;0834;Torsås;00;Torsås;Centerpartiet;C;4;S;14909;26;J;J;I;J;363922;Christina Svensson;59;K;Torsås;59 år, gymnasielärare, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Kristdemokraterna;KD;68;S;12434;1;J;J;I;J;37566;Mats Olsson;61;M;Torsås;maskinförare, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Kristdemokraterna;KD;68;S;12434;2;J;J;I;J;25239;Anna Olausson;31;K;Torsås;socionomstuderande, Norra Tång;17000;;J
+K;0834;Torsås;00;Torsås;Kristdemokraterna;KD;68;S;12434;3;J;J;I;J;25249;Sven Söderbom;74;M;Torsås;ingenjör, Söderåkra;17000;;J
+K;0834;Torsås;00;Torsås;Kristdemokraterna;KD;68;S;12434;4;J;J;I;J;48248;Kjell Mattsson;71;M;Torsås;chaufför, Gullabo;17000;;J
+K;0834;Torsås;00;Torsås;Kristdemokraterna;KD;68;S;12434;5;J;J;I;J;48252;Sigrid Blomberg;31;K;Torsås;översättare, Norra Tång;17000;;J
+K;0834;Torsås;00;Torsås;Kristdemokraterna;KD;68;S;12434;6;J;J;I;J;48250;Robert Blomberg;36;M;Torsås;it-tekniker, Norra Tång;17000;;J
+K;0834;Torsås;00;Torsås;Kristdemokraterna;KD;68;S;12434;7;J;J;I;J;37575;Ewa Bonér;60;K;Torsås;distriktssköterska, Söderåkra;17000;;J
+K;0834;Torsås;00;Torsås;Kristdemokraterna;KD;68;S;12434;8;J;J;I;J;48253;Birgitta Andrén Olsson;61;K;Torsås;kantor, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Kristdemokraterna;KD;68;S;12434;9;J;J;I;J;48254;Laila Söderholm;72;K;Torsås;distriktssköterska, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Kristdemokraterna;KD;68;S;12434;10;J;J;I;J;37571;Christer Söderholm;72;M;Torsås;förläggare, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Kristdemokraterna;KD;68;S;12434;11;J;J;I;J;48256;Bo Nilsson Johnér;72;M;Torsås;konstnär, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Kristdemokraterna;KD;68;S;12434;12;J;J;I;J;37563;Ronny Fransson;62;M;Torsås;präst, Valfridsbro;17000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;1;J;J;I;J;316659;Johan Petersson;47;M;Torsås;Snickare, Övraby;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;2;J;J;I;J;316660;Margareta Ohlin;77;K;Torsås;Pensionär, Söderåkra;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;3;J;J;I;J;316661;Joshua Ssebandeke;33;M;Örebro;Socionom, nationalekonom, Söderåkra;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;4;J;J;I;J;316662;Elsa Jannert;72;K;Torsås;Pensionerad lärare, Söderåkra;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;5;J;J;I;J;316663;Leif Spångberg;67;M;Torsås;Fjärrvärmetekniker, Söderåkra;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;6;J;J;I;J;316664;Cecilia Dalberg;53;K;Torsås;Massageterapeut, Söderåkra;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;7;J;J;I;J;316665;Youssef Lamiri;52;M;Torsås;Vårdbiträde, Djursvik;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;8;J;J;I;J;316666;Svenja Flottmann;37;K;Torsås;Undersköterska, Fagerhyltan;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;9;J;J;I;J;316667;Behram "Ricky" Mehrabi;28;M;Malmö;Byggnadsingenjör/byggtekniker, Torsås;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;10;J;J;I;J;316668;Ann-Charlotte Gustavsson;55;K;Torsås;Undersköterska, Hulebäck;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;11;J;J;I;J;316669;Kent Gullin;48;M;Torsås;Chaufför, Torsås;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;12;J;J;I;J;316670;Hormat Abdollahi;55;K;Torsås;Kallskänka, Torsås;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;13;J;J;I;J;316671;Haeilum Futoui;21;M;Torsås;Studerande/industriteknik, Söderåkra;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;14;J;J;I;J;316672;Renata Kazlauska;31;K;Torsås;Livsmedelsarbetare, Söderåkra;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;15;J;J;I;J;316673;Jan Petersson;71;M;Torsås;Företagare, Söderåkra;10000;;J
+K;0834;Torsås;00;Torsås;Liberalerna (tidigare Folkpartiet);L;3;S;14710;16;J;J;I;J;316674;Iseyas Gidey;25;M;Torsås;Studerande, Söderåkra;10000;;J
+K;0834;Torsås;00;Torsås;Medborgerlig Samling;MED;1296;S;14346;1;J;J;I;J;258241;Kent Freij;71;M;Torsås;;10000;;J
+K;0834;Torsås;00;Torsås;Medborgerlig Samling;MED;1296;S;14346;2;J;J;I;J;258242;Per-Olov Karlsson;66;M;Torsås;;10000;;J
+K;0834;Torsås;00;Torsås;Medborgerlig Samling;MED;1296;S;14346;3;J;J;I;J;258243;Sven-Erik Torneus;77;M;Torsås;;10000;;J
+K;0834;Torsås;00;Torsås;Medborgerlig Samling;MED;1296;S;14346;4;J;J;I;J;258244;Ulla Freij;70;K;Torsås;;10000;;J
+K;0834;Torsås;00;Torsås;Medborgerlig Samling;MED;1296;S;14346;5;J;J;I;J;258245;Ulf-Peter Rosenblad;63;M;Torsås;;10000;;J
+K;0834;Torsås;00;Torsås;Medborgerlig Samling;MED;1296;S;14346;6;J;J;I;J;258246;Sune Andersson;76;M;Torsås;;10000;;J
+K;0834;Torsås;00;Torsås;Medborgerlig Samling;MED;1296;S;14346;7;J;J;I;J;258247;Gun-Britt Torneus;79;K;Torsås;;10000;;J
+K;0834;Torsås;00;Torsås;Miljöpartiet de gröna;MP;55;;;;N;J;J;I;515525;Sjöholm, Lars;74;M;Torsås;;0;;J
+K;0834;Torsås;00;Torsås;Miljöpartiet de gröna;MP;55;;;;N;J;J;I;515526;Nilsson, Mikael;42;M;Torsås;;0;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;1;J;J;I;J;158895;Mona Magnusson;62;K;Torsås;Teknisk handläggare, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;2;J;J;I;J;163704;Staffan Kromnow;65;M;Torsås;Administratör, Söderåkra;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;3;J;J;I;J;163705;Anders Palmér;52;M;Torsås;Tekniker, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;4;J;J;I;J;163706;Magnus Nilsén;62;M;Torsås;Lantbrukare, Söderåkra;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;5;J;J;I;J;163707;Patrik Rejneborg;52;M;Torsås;Företagare, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;6;J;J;I;J;163708;Evy Svensson;75;K;Torsås;Pensionär, Slätafly;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;7;J;J;I;J;163709;Bengt Rydahl;76;M;Torsås;Pensionär, Djursvik;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;8;J;J;I;J;163710;Björn Ekelund;73;M;Torsås;Konditor, Söderåkra;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;9;J;J;I;J;163711;Peter Nielsen;52;M;Torsås;Företagare, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;10;J;J;I;J;163712;Marie Johansson;55;K;Torsås;Lärare, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;11;J;J;I;J;163713;Magnus Svensson;48;M;Torsås;Lantmästare, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;12;J;J;I;J;163714;Marie Palm;63;K;Torsås;Studie- & yrkesvägledare, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;13;J;J;I;J;163715;Povel Varga;51;M;Torsås;Key account manager, Söderåkra;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;14;J;J;I;J;163716;Ulla Borgius;76;K;Torsås;Lärare, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;15;J;J;I;J;163717;Gunilla Ekelund;76;K;Torsås;Pensionär, Söderåkra;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;16;J;J;I;J;163718;Ingegerd Tornegård;76;K;Torsås;F.d. managementkonsult, Slätafly;17000;;J
+K;0834;Torsås;00;Torsås;Moderaterna;M;1;S;13534;17;J;J;I;J;160585;Tuulikki Åkesson;67;K;Torsås;Egen företagare, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15403;1;N;J;J;I;61193;Janita Kirchberg;50;K;Torsås;ekonomikonsult, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15403;2;N;J;J;I;68640;Thomas Axelsson;64;M;Torsås;civilingenjör, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15403;3;N;J;J;I;65713;Roger Nilsson;54;M;Torsås;företagare, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15403;4;N;J;J;I;65615;Martin Kirchberg;50;M;Torsås;civilingenjör, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15403;5;N;J;J;I;65709;Eva Axelsson;61;K;Torsås;leg. barnmorska, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15403;6;N;J;J;I;65723;Kenneth Kinberg;67;M;Torsås;pensionär, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15403;7;N;J;J;I;65720;Mikael Petersson;50;M;Torsås;trädgårdsarbetare, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15403;8;N;J;J;I;68646;Melker Lyth;54;M;Torsås;f.d. undersköterska, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15873;1;N;J;J;I;61193;Janita Kirchberg;50;K;Torsås;ekonomikonsult, Torsås;5000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15873;2;N;J;J;I;68640;Thomas Axelsson;64;M;Torsås;civilingenjör, Bergkvara;5000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15873;3;N;J;J;I;65713;Roger Nilsson;54;M;Torsås;företagare, Torsås;5000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15873;4;N;J;J;I;65615;Martin Kirchberg;50;M;Torsås;civilingenjör, Torsås;5000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15873;5;N;J;J;I;65709;Eva Axelsson;61;K;Torsås;leg. barnmorska, Bergkvara;5000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15873;6;N;J;J;I;65723;Kenneth Kinberg;67;M;Torsås;pensionär, Torsås;5000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15873;7;N;J;J;I;65720;Mikael Petersson;50;M;Torsås;trädgårdsarbetare, Bergkvara;5000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15873;8;N;J;J;I;68646;Melker Lyth;54;M;Torsås;undersköterska, Torsås;5000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15873;9;N;J;J;I;512894;Yvonne Karlsson;49;K;Torsås;elektronikmontör, Gullabo;5000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;S;15873;10;N;J;J;I;512893;Kent Inge Engström;55;M;Torsås;bilmekaniker, Bergkvara;5000;;J
+K;0834;Torsås;00;Torsås;Sverigedemokraterna;SD;110;;;;N;J;J;I;513684;Petersson, Maria;54;K;Torsås;;0;;J
+K;0834;Torsås;00;Torsås;Vänsterpartiet;V;5;S;14754;1;J;J;I;J;332781;Lena Gustafsson;67;K;Torsås;Bällstorp, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Vänsterpartiet;V;5;S;14754;2;J;J;I;J;332782;Elwira Wiefel;67;K;Torsås;Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Vänsterpartiet;V;5;S;14754;3;J;J;I;J;332783;Eleonore Strand;46;K;Torsås;Gata, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Vänsterpartiet;V;5;S;14754;4;J;J;I;J;332784;Hans Gustafsson;67;M;Torsås;Bällstorp, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Vänsterpartiet;V;5;S;14754;5;J;J;I;J;332785;Gunilla Modin;63;K;Torsås;V. Karsbo, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Vänsterpartiet;V;5;S;14754;6;J;J;I;J;332786;Hans-Göran Axelsson;65;M;Torsås;Gata, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Vänsterpartiet;V;5;S;14754;7;J;J;I;J;332787;Sacha Wiefel;40;M;Torsås;Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Vänsterpartiet;V;5;S;14754;8;J;J;I;J;332788;Karin Carlsson;64;K;Torsås;Hallagärde, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Vänsterpartiet;V;5;S;14754;9;J;J;I;J;332789;Tomas Holesäter;60;M;Torsås;Appelrums by, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Vänsterpartiet;V;5;S;14754;10;J;J;I;J;332790;Aino Pakarinen;70;K;Torsås;Gökalund, Bergkvara;17000;;J
+K;0834;Torsås;00;Torsås;Vänsterpartiet;V;5;S;14754;11;J;J;I;J;332791;Astrid Boman;70;K;Torsås;Ilingetorp, Torsås;17000;;J
+K;0834;Torsås;00;Torsås;Vänsterpartiet;V;5;S;14754;12;J;J;I;J;332792;Jürgen Wiefel;69;M;Torsås;Bergkvara;17000;;J

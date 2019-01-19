@@ -1,0 +1,634 @@
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;1;J;J;I;J;146522;Jimmy Jansson;40;M;Eskilstuna;40 år Grundskollärare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;2;J;J;I;J;468503;Sarita Hotti;47;K;Eskilstuna;47 år Ekonom Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;3;J;J;I;J;146524;Lars Andersson;76;M;Eskilstuna;76 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;4;J;J;I;J;146525;Ann-Sofie Wågström;58;K;Eskilstuna;58 år Förtroendevald Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;5;J;J;I;J;146526;Daniel Alexandersson;36;M;Eskilstuna;36 år Lastbilschaufför Ärla;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;6;J;J;I;J;146527;Marie Svensson;44;K;Eskilstuna;42 år Undersköterska Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;7;J;J;I;J;146528;Mikael Edlund;56;M;Eskilstuna;56 år Förtroendevald Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;8;J;J;I;J;147063;Majo Kuusikoski;42;K;Eskilstuna;42 år Socionom Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;9;J;J;I;J;147064;Björn Larsson;56;M;Eskilstuna;56 år Kriminalvårdare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;10;J;J;I;J;468395;Lisa Friberg;33;K;Eskilstuna;33 år Gymnasielärare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;11;J;J;I;J;147066;Geerth Gustavsson;61;M;Eskilstuna;61 år Ombudsman Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;12;J;J;I;J;147067;Nina Tuncer;52;K;Eskilstuna;52 år Arbetsförmedlare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;13;J;J;I;J;147068;Lars-Göran Karlsson;69;M;Eskilstuna;69 år Egen företagare Torshälla;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;14;J;J;I;J;147069;Teresa Laurén;50;K;Eskilstuna;50 år Enhetschef Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;15;J;J;I;J;147070;Owe Ek;38;M;Eskilstuna;38 år Lagerarbetare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;16;J;J;I;J;147071;Theresia Jansson;43;K;Eskilstuna;43 år Ombudsman Kvicksund;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;17;J;J;I;J;147072;Deria Ilia;32;M;Eskilstuna;32 år Egen företagare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;18;J;J;I;J;147073;Mona Kanaan;53;K;Eskilstuna;53 år Utvecklingsstrateg Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;19;J;J;I;J;147074;Marko Grönfors;43;M;Eskilstuna;43 år Samhällsvägledare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;20;J;J;I;J;147075;Josefine Helleday;20;K;Eskilstuna;20 år Juridikstuderande Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;21;J;J;I;J;147076;Magnus Hansson;39;M;Eskilstuna;39 år Folkbokföringsassistent Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;22;J;J;I;J;147812;Gunilla Cederfjord;71;K;Eskilstuna;71 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;23;J;J;I;J;147813;Göran Andersson;62;M;Eskilstuna;62 år Handläggare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;24;J;J;I;J;147814;Eine Ikonen;51;K;Eskilstuna;51 år Metallarbetare Torshälla;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;25;J;J;I;J;147815;Clarence Palm;67;M;Eskilstuna;67 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;26;J;J;I;J;147816;Karola Bast;37;K;Eskilstuna;37 år Statsvetare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;27;J;J;I;J;147817;Lars-Göran Hammarberg;60;M;Eskilstuna;60 år Ombudsman Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;28;J;J;I;J;147818;Intisar Mahmood;18;K;Eskilstuna;18 år Studerande Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;29;J;J;I;J;147819;Viggo Hansen;58;M;Eskilstuna;58 år Ungdomsstödjare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;30;J;J;I;J;147820;Nina Alexandersson;32;K;Eskilstuna;32 år Elektriker Ärla;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;31;J;J;I;J;147821;Bert Eriksson;65;M;Eskilstuna;65 år Metallarbetare Kvicksund;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;32;J;J;I;J;147822;Eva Johansson;71;K;Eskilstuna;71 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;33;J;J;I;J;147823;Leif Andersson;66;M;Eskilstuna;66 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;34;J;J;I;J;147824;Marianne Jonsson;70;K;Eskilstuna;70 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;35;J;J;I;J;147825;Daniel Ekman;38;M;Eskilstuna;38 år Konstruktör Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;36;J;J;I;J;147826;Mandane Kakai;20;K;Eskilstuna;20 år Studerande Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;37;J;J;I;J;147827;Thomas Ackelid;56;M;Eskilstuna;56 år Marknadsförare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;38;J;J;I;J;147828;Lena Blomkvist;61;K;Eskilstuna;61 år Grundskollärare Torshälla;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;39;J;J;I;J;148193;Thomas Gustafsson;67;M;Eskilstuna;67 år Pensionär Skogstorp;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;40;J;J;I;J;148194;Carin Zaric;64;K;Eskilstuna;64 år Assistent Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;41;J;J;I;J;148195;Magnus Carlsson;37;M;Eskilstuna;37 år Barnskötare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;42;J;J;I;J;148196;Therése Huru;36;K;Eskilstuna;36 år Ombudsman Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;43;J;J;I;J;148197;Hans Bergström;73;M;Eskilstuna;73 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;44;J;J;I;J;148198;Eva-Lena Plantin;56;K;Eskilstuna;56 år Vårdledare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;45;J;J;I;J;148199;Ulf Rüdén;52;M;Eskilstuna;52 år Lärare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;46;J;J;I;J;148974;Sirpa Mäkipää;58;K;Eskilstuna;58 år Metallarbetare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;47;J;J;I;J;148975;Raino Kölhagen;55;M;Eskilstuna;55 år Snickare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;48;J;J;I;J;148976;Marie Granlund;56;K;Eskilstuna;56 år Kurator Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;49;J;J;I;J;148977;Kent Sedin;57;M;Eskilstuna;57 år Ombudsman Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;50;J;J;I;J;148978;Ikram Mahmood;18;K;Eskilstuna;18 år Studerande Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;51;J;J;I;J;148979;Nicklas Karlsson;52;M;Eskilstuna;52 år Yrkeslärare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;52;J;J;I;J;148980;Marianne Karlberg;66;K;Eskilstuna;66 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;53;J;J;I;J;148981;Anders Kronqvist;60;M;Eskilstuna;60 år Metallarbetare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;54;J;J;I;J;148982;Anna Mattsson;32;K;Eskilstuna;32 år Innovationsledare Ärla;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;55;J;J;I;J;148983;Jonny Pettersson;56;M;Eskilstuna;56 år Inredningsarkitekt Torshälla;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;56;J;J;I;J;148984;Marie-Jaqueline Hasselquist;54;K;Eskilstuna;54 år Sociologiutbildad Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;57;J;J;I;J;148985;Sonny Lundgren;74;M;Eskilstuna;74 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;58;J;J;I;J;148986;Tine Bröns;61;K;Eskilstuna;61 år Metallarbetare Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;1;J;J;I;J;196476;Arne Jonsson;72;M;Eskilstuna;72 år,Redovisningskonsult,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;2;J;J;I;J;196487;Lillemor Nordh;52;K;Eskilstuna;52 år,Universitetsadjunkt, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;3;J;J;I;J;196481;Mattias Stjernström;35;M;Eskilstuna;35 år,Entreprenör,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;4;J;J;I;J;199987;Maria Dahlin;58;K;Eskilstuna;58 år,Lantbrukare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;5;J;J;I;J;196496;Tommy Ellfolk;54;M;Eskilstuna;54 år, Företagare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;6;J;J;I;J;199989;Maria Hopstadius;49;K;Eskilstuna;49 år,Universitetsadjunkt, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;7;J;J;I;J;199990;Carlos Costa;47;M;Eskilstuna;47 år,Advokat, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;8;J;J;I;J;199991;Anna Bildt;56;K;Eskilstuna;56 år,Lokalsamordnare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;9;J;J;I;J;199992;Anders Nordin;61;M;Eskilstuna;61 år,Företagare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;10;J;J;I;J;199994;Sanna Mikkola;32;K;Eskilstuna;32 år,Marknadskommunikatör, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;11;J;J;I;J;199995;Christofer Lindblad;33;M;Eskilstuna;32 år, Företagare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;12;J;J;I;J;196492;Anna-Maria Lindqvist Arrue;43;K;Eskilstuna;43år,Journalist,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;13;J;J;I;J;199997;Gunnar Bildt;60;M;Eskilstuna;60 år,Lantbrukare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;14;J;J;I;J;199998;Jenny Bergh;46;K;Eskilstuna;46 år,Konsult,Företagare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;15;J;J;I;J;200000;Ruwayda Ahmad Abdi;30;K;Eskilstuna;30 år,Studerande,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;16;J;J;I;J;200001;Amer Solmaz;31;M;Eskilstuna;31 år,Studerande,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;17;J;J;I;J;200002;Anders Kullstam;74;M;Eskilstuna;74 år,Entreprenör/ingejör,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;18;J;J;I;J;200003;Gunnar Westermark;72;M;Eskilstuna;72 år,Lantmästare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;19;J;J;I;J;200004;Christer Dahlin;63;M;Eskilstuna;63år,Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;20;J;J;I;J;396725;Kulasegarampillai Sivakulam;54;M;Eskilstuna;54 år, Avancerad maskinoperatör, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Centerpartiet;C;4;S;13856;21;J;J;I;J;396726;Margareta Grape-Lindblom;76;K;Eskilstuna;75 år, f.d.tandläkare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;1;J;J;I;J;166582;Lotta Jonsson;51;K;Eskilstuna;51, gruppledare, Ärla;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;2;J;J;I;J;166815;Bo Hellmark;65;M;Eskilstuna;65, köpman, Eskilstuna;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;3;J;J;I;J;166593;Alara Taher;20;K;Eskilstuna;20, butiksförsäljare, Eskilstuna;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;4;J;J;I;J;166817;Hans Öjemark;57;M;Eskilstuna;57, rådman, Ärla;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;5;J;J;I;J;166590;Johan Rudengren;59;M;Eskilstuna;59, revisor, Husby-Rekarne;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;6;J;J;I;J;166819;AnnChristin Liljeroos Grönås;60;K;Eskilstuna;60, barnmorska, Eskilstuna;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;7;J;J;I;J;166820;Tomas Widin;51;M;Eskilstuna;51, systemutvecklare, Eskilstuna;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;8;J;J;I;J;166821;Sevan Hovhannisyan;37;K;Eskilstuna;37, juristassistent, Eskilstuna;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;9;J;J;I;J;166822;Tobias Nygren;43;M;Eskilstuna;43, projektledare, Ärla;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;10;J;J;I;J;166823;Anna Newell;40;K;Eskilstuna;40, musiklärare, Eskilstuna;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;11;J;J;I;J;166824;Samuel Deivard;49;M;Eskilstuna;49, transportsamordnare, Eskilstuna;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;12;J;J;I;J;166825;Malin Persson;33;K;Eskilstuna;33, undersköterska, Eskilstuna;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;13;J;J;I;J;166826;Kristina Gillberg;65;K;Eskilstuna;65, pensionär, Eskilstuna;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;14;J;J;I;J;166827;Henry Aldrin;75;M;Eskilstuna;74, pensionär, Ärla;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;15;J;J;I;J;166667;Borhan Bajati;25;M;Eskilstuna;25, studerande, Eskilstuna;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;16;J;J;I;J;166829;Solomie Anghesom;37;K;Eskilstuna;37, undersköterska, Ärla;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;17;J;J;I;J;166830;Christian Chitoleh Taura;29;M;Eskilstuna;29, barnskötare, Ärla;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristdemokraterna;KD;68;S;13569;18;J;J;I;J;166831;Karl-Erik Axelsson;73;M;Eskilstuna;73, pensionär, Ärla;160000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristna Värdepartiet;KrVP;1140;;;;N;J;J;I;480106;Brodd Hemmelin, Maria;50;K;Haninge;;0;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Kristna Värdepartiet;KrVP;1140;;;;N;J;J;I;515518;Forsby, Hans-Olof;48;M;Eskilstuna;;0;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515667;Karlman, Alf;82;M;Eskilstuna;;0;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;1;J;J;I;J;2180;Stefan Krstic;22;M;Eskilstuna;22, livsmedelsarbetare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;2;J;J;I;J;2589;Erika Rydja Sandvik;47;K;Eskilstuna;47, gymnasielärare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;3;J;J;I;J;2584;Niklas Frykman;41;M;Eskilstuna;41, gruppledare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;4;J;J;I;J;2679;Helen Wretling;66;K;Eskilstuna;66, samordnare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;5;J;J;I;J;2680;Peter Harich;42;M;Eskilstuna;42, key account manager;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;6;J;J;I;J;2187;Maria Buco;53;K;Eskilstuna;53, ekonom;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;7;J;J;I;J;2682;Diyar Alis;22;M;Eskilstuna;22, socionomstudent;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;8;J;J;I;J;2685;Irja Hökås;54;K;Eskilstuna;54, företagare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;9;J;J;I;J;2686;Jenny Dunberg;45;K;Eskilstuna;45, jur.kand.;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;10;J;J;I;J;2687;Linus Björk;42;M;Eskilstuna;42, lärare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;11;J;J;I;J;2688;Aza Safari;56;M;Eskilstuna;56, installatör;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;12;J;J;I;J;2689;Ulla Jilsmo;74;K;Eskilstuna;74, lärare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;13;J;J;I;J;2690;Mikael Eriksson;28;M;Eskilstuna;27, innovationsvetare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;14;J;J;I;J;2692;Thomas Stääv;72;M;Eskilstuna;72, f.d. personalchef;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;15;J;J;I;J;2693;Anitha Wretling;66;K;Eskilstuna;66, kommunikatör;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;16;J;J;I;J;2694;Per-Olof Eriksson;77;M;Eskilstuna;77, senior;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;17;J;J;I;J;2695;Lahja Molin;78;K;Eskilstuna;78, senior;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;18;J;J;I;J;2696;Gert Johansson;78;M;Eskilstuna;78, f.d företagsledare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;19;J;J;I;J;2697;Elisabeth Rytterström;54;K;Eskilstuna;54, controller;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;20;J;J;I;J;2698;Victor Claesson;34;M;Eskilstuna;34, it support;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;21;J;J;I;J;2699;Richard Karlsson;76;M;Eskilstuna;76, volontär;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;22;J;J;I;J;2174;Christer Kax Sundberg;71;M;Eskilstuna;71, f.d rektor;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Medborgerlig Samling;MED;1296;S;13729;1;J;J;I;J;128531;Åsa Tallroth;42;K;Eskilstuna;42 år, logistiker;15000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Medborgerlig Samling;MED;1296;S;13729;2;J;J;I;J;188784;Kenth Reinelius;50;M;Eskilstuna;50 år, egenföretagare;15000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Medborgerlig Samling;MED;1296;S;13729;3;J;J;I;J;128579;Madeleine Forsgren;65;K;Eskilstuna;65 år, agronom;15000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Medborgerlig Samling;MED;1296;S;13729;4;J;J;I;J;188786;Fredrik Lindblad;44;M;Eskilstuna;43 år, egenföretagare;15000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Medborgerlig Samling;MED;1296;S;13729;5;J;J;I;J;128559;Fredrik Sunnermark;47;M;Eskilstuna;47 år, egenföretagare;15000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;1;J;J;I;J;179239;Marielle Lahti;49;K;Eskilstuna;49 år, jurist;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;2;J;J;I;J;179240;Magnus Arreflod;41;M;Eskilstuna;41 år, folkhögskolelärare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;3;J;J;I;J;179241;Hanna Hessling;29;K;Eskilstuna;29 år, pressekreterare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;4;J;J;I;J;179242;Linus Lakso;35;M;Eskilstuna;35 år, ingenjör förnybar energi;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;5;J;J;I;J;179243;Faisal Hassan;31;M;Eskilstuna;31 år, lärare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;6;J;J;I;J;179244;Nina Hedenfeldt;40;K;Eskilstuna;40 år, järnsmed, egen företagare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;7;J;J;I;J;179245;Stefan Sjöberg;57;M;Eskilstuna;57 år, VA-rådgivare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;8;J;J;I;J;179246;Gladys Silva;61;K;Eskilstuna;61 år, civilekonom;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;9;J;J;I;J;179247;Mohamed Abdukani;38;M;Eskilstuna;38 år, arbetsförmedlare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;10;J;J;I;J;179248;Erica Hallenstam;43;K;Eskilstuna;43 år, personlig assistent;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;11;J;J;I;J;179249;Ulf Isaksson;62;M;Eskilstuna;62 år, konsult;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;12;J;J;I;J;179250;Eva Johansson;67;K;Eskilstuna;67 år,pensionär;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;13;J;J;I;J;179251;Reynaldo Garcia Quinteros;48;M;Eskilstuna;48 år, lärare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;14;J;J;I;J;179252;Theresia Hägglund;39;K;Eskilstuna;39 år, folkhögskolelärare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;15;J;J;I;J;179253;Ronny Ilhag;59;M;Eskilstuna;59 år, lastbilschaufför;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;16;J;J;I;J;179254;Dinka Hodzic;57;K;Eskilstuna;57 år, civilekonom;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;17;J;J;I;J;179255;Robert Lindberg;53;M;Eskilstuna;53 år, statsvetare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;18;J;J;I;J;179256;Sofia Michelson;48;K;Eskilstuna;48 år, bildlärare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;19;J;J;I;J;179257;Simon Larsson;31;M;Eskilstuna;31 år, studerande;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;20;J;J;I;J;179258;Marjoriet Pezoa;34;K;Eskilstuna;34 år, arbetsförmedlare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;21;J;J;I;J;179259;Robert Forsman;61;M;Eskilstuna;61 år, lärare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;22;J;J;I;J;179260;Siv Aksila;67;K;Eskilstuna;67 år, f.d. Metallarbetare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;23;J;J;I;J;179261;Oscar Hedenfeldt;43;M;Eskilstuna;43 år, kanslichef;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;24;J;J;I;J;179262;Jan Bergsten;73;M;Eskilstuna;73 år, egenföretagare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;13638;25;J;J;I;J;179263;Tina Lindell;39;K;Eskilstuna;39 år, politisk sekreterare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;1;J;J;I;J;179240;Magnus Arreflod;41;M;Eskilstuna;41 år, folkhögskolelärare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;2;J;J;I;J;179239;Marielle Lahti;49;K;Eskilstuna;49 år, jurist;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;3;J;J;I;J;179241;Hanna Hessling;29;K;Eskilstuna;29 år, pressekreterare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;4;J;J;I;J;179242;Linus Lakso;35;M;Eskilstuna;35 år, ingenjör förnybar energi;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;5;J;J;I;J;179243;Faisal Hassan;31;M;Eskilstuna;31 år, lärare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;6;J;J;I;J;179244;Nina Hedenfeldt;40;K;Eskilstuna;40 år, järnsmed, egen företagare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;7;J;J;I;J;179245;Stefan Sjöberg;57;M;Eskilstuna;57 år, VA-rådgivare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;8;J;J;I;J;179246;Gladys Silva;61;K;Eskilstuna;61 år, civilekonom;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;9;J;J;I;J;179247;Mohamed Abdukani;38;M;Eskilstuna;38 år, arbetsförmedlare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;10;J;J;I;J;179248;Erica Hallenstam;43;K;Eskilstuna;43 år, personlig assistent;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;11;J;J;I;J;179249;Ulf Isaksson;62;M;Eskilstuna;62 år, konsult;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;12;J;J;I;J;179250;Eva Johansson;67;K;Eskilstuna;67 år, pensionär;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;13;J;J;I;J;179251;Reynaldo Garcia Quinteros;48;M;Eskilstuna;48 år, lärare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;14;J;J;I;J;179252;Theresia Hägglund;39;K;Eskilstuna;39 år, folkhögskolelärare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;15;J;J;I;J;179253;Ronny Ilhag;59;M;Eskilstuna;59 år, lastbilschaufför;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;16;J;J;I;J;179254;Dinka Hodzic;57;K;Eskilstuna;57 år, civilekonom;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;17;J;J;I;J;179255;Robert Lindberg;53;M;Eskilstuna;53 år, statsvetare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;18;J;J;I;J;179256;Sofia Michelson;48;K;Eskilstuna;48 år, bildlärare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;19;J;J;I;J;179257;Simon Larsson;31;M;Eskilstuna;31 år, studerande;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;20;J;J;I;J;179258;Marjoriet Pezoa;34;K;Eskilstuna;34 år, arbetsförmedlare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;21;J;J;I;J;179259;Robert Forsman;61;M;Eskilstuna;61 år, lärare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;22;J;J;I;J;179260;Siv Aksila;67;K;Eskilstuna;67 år, f.d. Metallarbetare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;23;J;J;I;J;179261;Oscar Hedenfeldt;43;M;Eskilstuna;43 år, kanslichef;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;24;J;J;I;J;179262;Jan Bergsten;73;M;Eskilstuna;73 år, egenföretagare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;14232;25;J;J;I;J;179263;Tina Lindell;39;K;Eskilstuna;39 år, politisk sekreterare;119000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;1;J;J;I;J;179239;Marielle Lahti;49;K;Eskilstuna;49 jurist;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;2;J;J;I;J;179241;Hanna Hessling;29;K;Eskilstuna;29 pressekreterare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;3;J;J;I;J;179242;Linus Lakso;35;M;Eskilstuna;35 ingenjör förnybar energi;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;4;J;J;I;J;179244;Nina Hedenfeldt;40;K;Eskilstuna;40 järnsmed, egen företagare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;5;J;J;I;J;179245;Stefan Sjöberg;57;M;Eskilstuna;57 VA-rådgivare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;6;J;J;I;J;179246;Gladys Silva;61;K;Eskilstuna;61 civilekonom;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;7;J;J;I;J;179247;Mohamed Abdukani;38;M;Eskilstuna;38 arbetsförmedlare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;8;J;J;I;J;179248;Erica Hallenstam;43;K;Eskilstuna;43 personlig assistent;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;9;J;J;I;J;179249;Ulf Isaksson;62;M;Eskilstuna;62 konsult;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;10;J;J;I;J;179250;Eva Johansson;67;K;Eskilstuna;67 pensionär;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;11;J;J;I;J;179251;Reynaldo Garcia Quinteros;48;M;Eskilstuna;48 lärare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;12;J;J;I;J;179252;Theresia Hägglund;39;K;Eskilstuna;39 folkhögskolelärare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;13;J;J;I;J;179253;Ronny Ilhag;59;M;Eskilstuna;59 lastbilschaufför;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;14;J;J;I;J;179254;Dinka Hodzic;57;K;Eskilstuna;57 civilekonom;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;15;J;J;I;J;179255;Robert Lindberg;53;M;Eskilstuna;53 statsvetare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;16;J;J;I;J;179256;Sofia Michelson;48;K;Eskilstuna;48 bildlärare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;17;J;J;I;J;179257;Simon Larsson;31;M;Eskilstuna;31 studerande;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;18;J;J;I;J;179258;Marjoriet Pezoa;34;K;Eskilstuna;34 arbetsförmedlare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;19;J;J;I;J;179259;Robert Forsman;61;M;Eskilstuna;61 lärare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;20;J;J;I;J;179260;Siv Aksila;67;K;Eskilstuna;67 f.d. metallarbetare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;21;J;J;I;J;179261;Oscar Hedenfeldt;43;M;Eskilstuna;43 kanslichef;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;22;J;J;I;J;179262;Jan Bergsten;73;M;Eskilstuna;73 egenföretagare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Miljöpartiet de gröna;MP;55;S;15667;23;J;J;I;J;179263;Tina Lindell;39;K;Eskilstuna;39 politisk sekreterare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;1;J;J;I;J;9983;Jari Puustinen;49;M;Eskilstuna;49 år, kommunalråd, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;2;J;J;I;J;325367;Göran Gredfors;54;M;Eskilstuna;54 år, kommunalråd, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;3;J;J;I;J;10001;Madeléne Tannarp;50;K;Eskilstuna;50 år, teamledare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;4;J;J;I;J;325369;Ulf Ståhl;72;M;Eskilstuna;72 år, sjöingenjör, Skogstorp;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;5;J;J;I;J;10148;Ann Berglund;66;K;Eskilstuna;66 år, socionom, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;6;J;J;I;J;9988;Robin Tannarp;25;M;Eskilstuna;25 år, studerande, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;7;J;J;I;J;325372;Lars Olov Lundkvist;75;M;Eskilstuna;75 år, ingenjör, Ärla;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;8;J;J;I;J;10015;Stefan Biscevic;20;M;Eskilstuna;20 år, studerande, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;9;J;J;I;J;10138;Abshir Osman;56;M;Eskilstuna;56 år, lärare, Skogstorp;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;10;J;J;I;J;325375;Gunilla Ternert;68;K;Eskilstuna;68 år, fd regionchef, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;11;J;J;I;J;10169;Rafal Wisniewski;52;M;Eskilstuna;52 år, biobanksansvarig, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;12;J;J;I;J;10007;Ulla Grip;57;K;Eskilstuna;57 år, chefssekreterare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;13;J;J;I;J;10144;Ulf Westerberg;49;M;Eskilstuna;49 år, konsult, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;14;J;J;I;J;10166;Tomas Jönsson;43;M;Eskilstuna;43 år, civilekonom, Husby-Rekarne;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;15;J;J;I;J;10011;Marko Biscevic;20;M;Eskilstuna;20 år, studerande, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;16;J;J;I;J;325381;Anna Asklöf;45;K;Eskilstuna;45 år, åklagare, Torshälla;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;17;J;J;I;J;10004;David Dishart;50;M;Eskilstuna;50 år, molekylärbiolog, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;18;J;J;I;J;9989;Tony Meshko;40;M;Eskilstuna;40 år, frisör, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;19;J;J;I;J;9999;Ilham Mahmood Ibrahim;20;K;Eskilstuna;20 år, studerande, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;20;J;J;I;J;325385;Muhammed Tahsin;27;M;Eskilstuna;27 år, handläggare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;21;J;J;I;J;325386;Per Lundqvist;67;M;Eskilstuna;67 år, civilekonom, Stora Sundby;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;22;J;J;I;J;10005;Filip Rundström;26;M;Eskilstuna;26 år, anestesisjuksköterska, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;23;J;J;I;J;325388;Bernt Åke Edlund;68;M;Eskilstuna;68 år, pensionär, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;24;J;J;I;J;325389;Patrick Sannetjärn;53;M;Eskilstuna;53 år, lagerarbetare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;25;J;J;I;J;325390;Louisa Fagarasan;20;K;Eskilstuna;20 år, studerande, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;26;J;J;I;J;325391;Servat Barzangi;52;M;Eskilstuna;52 år, arbetsförmedlare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;27;J;J;I;J;325392;Ramona Grapenhielm;56;K;Eskilstuna;56 år, förbundschef, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;28;J;J;I;J;325393;Erik Ternert;75;M;Eskilstuna;75 år, fd lagman, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;29;J;J;I;J;325394;Ulla Stålberg;69;K;Eskilstuna;69 år, advokat, Torshälla;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;30;J;J;I;J;10183;Magnus Eriksson;38;M;Eskilstuna;38 år, entreprenör, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;31;J;J;I;J;325396;Håkan Linnskog;65;M;Eskilstuna;65 år, konsult, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;32;J;J;I;J;325397;Torbjörn Andersson;56;M;Eskilstuna;56 år, affärsutvecklare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;33;J;J;I;J;325398;Ing-Marie Sandström;59;K;Eskilstuna;59 år, sjuksköterska, Hållsta;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;34;J;J;I;J;325399;Gunnel Ristander;66;K;Eskilstuna;66 år, civilingenjör, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;35;J;J;I;J;10177;Börje Lindqvist;62;M;Eskilstuna;62 år, kundansvarig, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;36;J;J;I;J;325401;Torgny Zetterling;69;M;Eskilstuna;69 år, företagsledare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;37;J;J;I;J;10163;Susanne Henning Aihonen;52;K;Eskilstuna;52 år, marknadsförare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Moderaterna;M;1;S;14736;38;J;J;I;J;325403;Mats Blomberg;64;M;Eskilstuna;64 år, småföretagare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;1;J;J;I;J;32706;Kim Fredriksson;29;M;Eskilstuna;29, Oppositionsråd;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;2;J;J;I;J;32713;Mikael Nygren;49;M;Eskilstuna;49, Gymnasielärare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;3;J;J;I;J;32703;Anton Berglund;32;M;Eskilstuna;32, Politisk gruppledare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;4;J;J;I;J;59109;Adam Marttinen;34;M;Eskilstuna;34, Riksdagsledamot;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;5;J;J;I;J;59110;Elin Blomberg;29;K;Eskilstuna;29, Redovisningsekonom;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;6;J;J;I;J;59111;Seppo Vuolteenaho;40;M;Eskilstuna;40, Politisk sekreterare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;7;J;J;I;J;59112;Anita Nygren;54;K;Eskilstuna;54, Ekonomiassistent;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;8;J;J;I;N;32709;[inte lämnat förklaring];;;;;238000;;N
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;9;J;J;I;J;59114;Mikael Strömberg;38;M;Eskilstuna;38, Copywriter;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;10;J;J;I;J;59115;Tatjana Gudmundsgårdh;40;K;Eskilstuna;40, Lärare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;11;J;J;I;J;59116;Tobias Gustafsson;29;M;Eskilstuna;29, Montör;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;12;J;J;I;J;59118;Carina Åkesson;49;K;Eskilstuna;49, Produktionsplanerare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;13;J;J;I;J;59119;Lotta Elf;47;K;Eskilstuna;47, Personalchef;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;14;J;J;I;J;32717;Lars Bohlin;49;M;Eskilstuna;49, Egenföretagare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;15;J;J;I;J;59121;Fredrik Elf;44;M;Eskilstuna;44, Supporttekniker;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;16;J;J;I;J;59122;Peter Laufer;49;M;Eskilstuna;49, Målare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;17;J;J;I;J;59123;Stefan Bergqvist;43;M;Eskilstuna;43, Egenföretagare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;18;J;J;I;J;59124;Carola Sunesson;49;K;Eskilstuna;49, Sekreterare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;19;J;J;I;J;32712;Pernilla Eriksson;49;K;Eskilstuna;49, Undersköterska;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;20;J;J;I;J;59126;Rikard Branting;43;M;Eskilstuna;43, Egenföretagare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;21;J;J;I;J;59127;Susanne Bergqvist;46;K;Eskilstuna;46, Tjänsteman;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;22;J;J;I;J;59128;Simon Lindbäck;19;M;Eskilstuna;19, Studerande;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;23;J;J;I;J;59129;Susanne Östling;48;K;Eskilstuna;48, Företagare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;24;J;J;I;J;59130;Sven-Göran Sigurd;71;M;Eskilstuna;71, Pensionär;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;25;J;J;I;J;32716;Caroline Hansson;42;K;Eskilstuna;42, Distriktssköterska;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;26;J;J;I;J;59132;Aila Kangas;65;K;Eskilstuna;65, Socionom;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;27;J;J;I;J;59133;Michael Wilhelmsson;58;M;Eskilstuna;58, Projektledare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;28;J;J;I;J;59134;Lars-Åke Phuthom;59;M;Eskilstuna;59, Väktare/Ordningsvakt;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;29;J;J;I;J;59135;Anne-Cathrine Kaup;61;K;Eskilstuna;61, Pensionär;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;30;J;J;I;J;116136;Tord Wall;54;M;Eskilstuna;54, IT-chef;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;31;J;J;I;J;83337;Bengt Nilsson;60;M;Eskilstuna;60, Konsult;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;32;J;J;I;J;116138;Marica Berger;51;K;Eskilstuna;51, Filialchef;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;33;J;J;I;J;116139;Jan Larsson;54;M;Eskilstuna;54, Filialarbetare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;34;J;J;I;J;83346;Fredrik Jonasson;42;M;Eskilstuna;42, Yrkeschaufför;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;35;J;J;I;J;116141;Tommy Kvarsell;65;M;Eskilstuna;65, Pensionär;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;36;J;J;I;J;116142;Elisabeth Branting;41;K;Eskilstuna;41, Trädgårdsmästare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;37;J;J;I;J;116143;Johan Sundequist;49;M;Eskilstuna;49, Planerare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;38;J;J;I;J;116145;Daniel Blomqvist;37;M;Eskilstuna;37, Egenföretagare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;39;J;J;I;J;116146;Göran Kunstbergs;58;M;Eskilstuna;58, Musiklärare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;40;J;J;I;J;116147;Sirilak Phuthom;49;K;Eskilstuna;49, Lokalvårdare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;41;J;J;I;J;116148;Thomas Lindeberg;56;M;Eskilstuna;56, Chaufför;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;42;J;J;I;J;116149;Admir Busbaher;45;M;Eskilstuna;45, Arbetsledare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;43;J;J;I;J;116150;Lars Gustafsson;61;M;Eskilstuna;61, Systemingenjör IT;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;44;J;J;I;J;116151;Kim Seppälä;47;M;Eskilstuna;47, Yrkeschaufför;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;45;J;J;I;J;116152;Sven Eriksson;42;M;Eskilstuna;42, Tjänsteman;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;46;J;J;I;J;116153;Mats Klarin;59;M;Eskilstuna;59, Egenföretagare;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;47;J;J;I;J;116154;Andreas Lillsjö;23;M;Eskilstuna;23, Student;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;48;J;J;I;J;116155;Mikael Loberg;59;M;Eskilstuna;59;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Sverigedemokraterna;SD;110;S;12564;49;J;J;I;J;116156;Johan Östman;41;M;Eskilstuna;41;238000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;1;J;J;I;J;12098;Maria Chergui;45;K;Eskilstuna;45, Gruppledare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;2;J;J;I;J;12107;Jawad Zanganeh;40;M;Eskilstuna;40, VVS-ingenjör, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;3;J;J;I;J;12095;Maria Forsberg;43;K;Eskilstuna;43, Lärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;4;J;J;I;J;12081;Johan Sandberg;33;M;Eskilstuna;33, Industriarbetare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;5;J;J;I;J;32984;Anette Stavehaug;51;K;Eskilstuna;51, Förskollärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;6;J;J;I;J;12085;Alar Kuutmann;66;M;Eskilstuna;65, Kulturarbetare, Torshälla;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;7;J;J;I;J;12082;Ida Myrbäck;33;K;Eskilstuna;33, Leg. dietist, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;8;J;J;I;J;32987;Firat Nemrud;59;M;Eskilstuna;59, Verksamhetsutvecklare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;9;J;J;I;J;32988;Solveig Pohjola;74;K;Eskilstuna;74, Socionom, Torshälla;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;10;J;J;I;J;32989;Elias Cataño C;40;M;Eskilstuna;40, Facklig tågvärd, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;11;J;J;I;J;12075;Roja Mahmoudi;51;K;Eskilstuna;51, Undersköterska, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;12;J;J;I;J;12103;Rashid Azarå;60;M;Eskilstuna;60, Lärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;13;J;J;I;J;32992;Monicka Larsson;59;K;Eskilstuna;59, Socionom, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;14;J;J;I;J;32993;Marcus Helgstrand;33;M;Eskilstuna;33, Lagerarbetare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;15;J;J;I;J;32994;Veronika Jan;27;K;Eskilstuna;27, Leg. psykolog, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;16;J;J;I;J;12077;Jukka Tähkävuori;61;M;Eskilstuna;60, Fordonstekniker, Torshälla;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;17;J;J;I;J;32996;Carin Holmquist Kuutmann;62;K;Eskilstuna;62, Leg. psykolog, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;18;J;J;I;J;32997;Joel Hamberg;35;M;Eskilstuna;35, Lärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;19;J;J;I;J;32998;Irena Tyszko Tähkävuori;55;K;Eskilstuna;55, Lagerarbetare, Torshälla;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;20;J;J;I;J;32999;Annika Goblirsch;66;K;Eskilstuna;65, Lärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;21;J;J;I;J;33000;Anders Larsson;35;M;Eskilstuna;35, Animatör, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;22;J;J;I;J;33001;Mirjam Abdulla-Poor;54;K;Eskilstuna;53, Boendestödjare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;23;J;J;I;J;12093;Maud Ekman;72;K;Eskilstuna;72, Pensionär, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;24;J;J;I;J;33003;Naim Yusufi;45;M;Eskilstuna;45, Lärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;25;J;J;I;J;33004;Karin Wretling;40;K;Eskilstuna;40, Statstjänsteman, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;26;J;J;I;J;33005;Tommy Hamberg;67;M;Eskilstuna;67, Pensionär, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;27;J;J;I;J;33006;Laima Hamberg;66;K;Eskilstuna;66, Pensionär, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;28;J;J;I;J;33007;Kajsa Svärd;63;K;Eskilstuna;63, Lärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;29;J;J;I;J;33008;Lennart Abrahamsson;69;M;Eskilstuna;69, Pensionär, Eskilstuna;158000;;J
+K;0484;Eskilstuna;01;Eskilstuna Sydöstra;Vänsterpartiet;V;5;S;12226;30;J;J;I;J;33009;Terhi Niemi;77;K;Eskilstuna;77, Pensionär, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;1;J;J;I;J;146522;Jimmy Jansson;40;M;Eskilstuna;40 år Grundskollärare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;2;J;J;I;J;468503;Sarita Hotti;47;K;Eskilstuna;47 år Ekonom Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;3;J;J;I;J;146524;Lars Andersson;76;M;Eskilstuna;76 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;4;J;J;I;J;146525;Ann-Sofie Wågström;58;K;Eskilstuna;58 år Förtroendevald Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;5;J;J;I;J;146526;Daniel Alexandersson;36;M;Eskilstuna;36 år Lastbilschaufför Ärla;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;6;J;J;I;J;146527;Marie Svensson;44;K;Eskilstuna;42 år Undersköterska Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;7;J;J;I;J;146528;Mikael Edlund;56;M;Eskilstuna;56 år Förtroendevald Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;8;J;J;I;J;147063;Majo Kuusikoski;42;K;Eskilstuna;42 år Socionom Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;9;J;J;I;J;147064;Björn Larsson;56;M;Eskilstuna;56 år Kriminalvårdare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;10;J;J;I;J;468395;Lisa Friberg;33;K;Eskilstuna;33 år Gymnasielärare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;11;J;J;I;J;147066;Geerth Gustavsson;61;M;Eskilstuna;61 år Ombudsman Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;12;J;J;I;J;147067;Nina Tuncer;52;K;Eskilstuna;52 år Arbetsförmedlare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;13;J;J;I;J;147068;Lars-Göran Karlsson;69;M;Eskilstuna;69 år Egen företagare Torshälla;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;14;J;J;I;J;147069;Teresa Laurén;50;K;Eskilstuna;50 år Enhetschef Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;15;J;J;I;J;147070;Owe Ek;38;M;Eskilstuna;38 år Lagerarbetare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;16;J;J;I;J;147071;Theresia Jansson;43;K;Eskilstuna;43 år Ombudsman Kvicksund;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;17;J;J;I;J;147072;Deria Ilia;32;M;Eskilstuna;32 år Egen företagare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;18;J;J;I;J;147073;Mona Kanaan;53;K;Eskilstuna;53 år Utvecklingsstrateg Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;19;J;J;I;J;147074;Marko Grönfors;43;M;Eskilstuna;43 år Samhällsvägledare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;20;J;J;I;J;147075;Josefine Helleday;20;K;Eskilstuna;20 år Juridikstuderande Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;21;J;J;I;J;147076;Magnus Hansson;39;M;Eskilstuna;39 år Folkbokföringsassistent Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;22;J;J;I;J;147812;Gunilla Cederfjord;71;K;Eskilstuna;71 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;23;J;J;I;J;147813;Göran Andersson;62;M;Eskilstuna;62 år Handläggare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;24;J;J;I;J;147814;Eine Ikonen;51;K;Eskilstuna;51 år Metallarbetare Torshälla;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;25;J;J;I;J;147815;Clarence Palm;67;M;Eskilstuna;67 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;26;J;J;I;J;147816;Karola Bast;37;K;Eskilstuna;37 år Statsvetare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;27;J;J;I;J;147817;Lars-Göran Hammarberg;60;M;Eskilstuna;60 år Ombudsman Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;28;J;J;I;J;147818;Intisar Mahmood;18;K;Eskilstuna;18 år Studerande Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;29;J;J;I;J;147819;Viggo Hansen;58;M;Eskilstuna;58 år Ungdomsstödjare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;30;J;J;I;J;147820;Nina Alexandersson;32;K;Eskilstuna;32 år Elektriker Ärla;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;31;J;J;I;J;147821;Bert Eriksson;65;M;Eskilstuna;65 år Metallarbetare Kvicksund;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;32;J;J;I;J;147822;Eva Johansson;71;K;Eskilstuna;71 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;33;J;J;I;J;147823;Leif Andersson;66;M;Eskilstuna;66 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;34;J;J;I;J;147824;Marianne Jonsson;70;K;Eskilstuna;70 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;35;J;J;I;J;147825;Daniel Ekman;38;M;Eskilstuna;38 år Konstruktör Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;36;J;J;I;J;147826;Mandane Kakai;20;K;Eskilstuna;20 år Studerande Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;37;J;J;I;J;147827;Thomas Ackelid;56;M;Eskilstuna;56 år Marknadsförare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;38;J;J;I;J;147828;Lena Blomkvist;61;K;Eskilstuna;61 år Grundskollärare Torshälla;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;39;J;J;I;J;148193;Thomas Gustafsson;67;M;Eskilstuna;67 år Pensionär Skogstorp;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;40;J;J;I;J;148194;Carin Zaric;64;K;Eskilstuna;64 år Assistent Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;41;J;J;I;J;148195;Magnus Carlsson;37;M;Eskilstuna;37 år Barnskötare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;42;J;J;I;J;148196;Therése Huru;36;K;Eskilstuna;36 år Ombudsman Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;43;J;J;I;J;148197;Hans Bergström;73;M;Eskilstuna;73 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;44;J;J;I;J;148198;Eva-Lena Plantin;56;K;Eskilstuna;56 år Vårdledare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;45;J;J;I;J;148199;Ulf Rüdén;52;M;Eskilstuna;52 år Lärare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;46;J;J;I;J;148974;Sirpa Mäkipää;58;K;Eskilstuna;58 år Metallarbetare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;47;J;J;I;J;148975;Raino Kölhagen;55;M;Eskilstuna;55 år Snickare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;48;J;J;I;J;148976;Marie Granlund;56;K;Eskilstuna;56 år Kurator Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;49;J;J;I;J;148977;Kent Sedin;57;M;Eskilstuna;57 år Ombudsman Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;50;J;J;I;J;148978;Ikram Mahmood;18;K;Eskilstuna;18 år Studerande Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;51;J;J;I;J;148979;Nicklas Karlsson;52;M;Eskilstuna;52 år Yrkeslärare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;52;J;J;I;J;148980;Marianne Karlberg;66;K;Eskilstuna;66 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;53;J;J;I;J;148981;Anders Kronqvist;60;M;Eskilstuna;60 år Metallarbetare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;54;J;J;I;J;148982;Anna Mattsson;32;K;Eskilstuna;32 år Innovationsledare Ärla;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;55;J;J;I;J;148983;Jonny Pettersson;56;M;Eskilstuna;56 år Inredningsarkitekt Torshälla;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;56;J;J;I;J;148984;Marie-Jaqueline Hasselquist;54;K;Eskilstuna;54 år Sociologiutbildad Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;57;J;J;I;J;148985;Sonny Lundgren;74;M;Eskilstuna;74 år Pensionär Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Arbetarepartiet-Socialdemokraterna;S;2;S;13407;58;J;J;I;J;148986;Tine Bröns;61;K;Eskilstuna;61 år Metallarbetare Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;1;J;J;I;J;196476;Arne Jonsson;72;M;Eskilstuna;72 år,Redovisningskonsult,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;2;J;J;I;J;196487;Lillemor Nordh;52;K;Eskilstuna;52 år,Universitetsadjunkt, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;3;J;J;I;J;196481;Mattias Stjernström;35;M;Eskilstuna;35 år,Entreprenör,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;4;J;J;I;J;199987;Maria Dahlin;58;K;Eskilstuna;58 år,Lantbrukare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;5;J;J;I;J;196496;Tommy Ellfolk;54;M;Eskilstuna;54 år, Företagare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;6;J;J;I;J;199989;Maria Hopstadius;49;K;Eskilstuna;49 år,Universitetsadjunkt, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;7;J;J;I;J;199990;Carlos Costa;47;M;Eskilstuna;47 år,Advokat, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;8;J;J;I;J;199991;Anna Bildt;56;K;Eskilstuna;56 år,Lokalsamordnare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;9;J;J;I;J;199992;Anders Nordin;61;M;Eskilstuna;61 år,Företagare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;10;J;J;I;J;199994;Sanna Mikkola;32;K;Eskilstuna;32 år,Marknadskommunikatör, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;11;J;J;I;J;199995;Christofer Lindblad;33;M;Eskilstuna;32 år, Företagare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;12;J;J;I;J;196492;Anna-Maria Lindqvist Arrue;43;K;Eskilstuna;43år,Journalist,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;13;J;J;I;J;199997;Gunnar Bildt;60;M;Eskilstuna;60 år,Lantbrukare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;14;J;J;I;J;199998;Jenny Bergh;46;K;Eskilstuna;46 år,Konsult,Företagare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;15;J;J;I;J;200000;Ruwayda Ahmad Abdi;30;K;Eskilstuna;30 år,Studerande,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;16;J;J;I;J;200001;Amer Solmaz;31;M;Eskilstuna;31 år,Studerande,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;17;J;J;I;J;200002;Anders Kullstam;74;M;Eskilstuna;74 år,Entreprenör/ingejör,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;18;J;J;I;J;200003;Gunnar Westermark;72;M;Eskilstuna;72 år,Lantmästare,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;19;J;J;I;J;200004;Christer Dahlin;63;M;Eskilstuna;63år,Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;20;J;J;I;J;396725;Kulasegarampillai Sivakulam;54;M;Eskilstuna;54 år, Avancerad maskinoperatör, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Centerpartiet;C;4;S;13856;21;J;J;I;J;396726;Margareta Grape-Lindblom;76;K;Eskilstuna;75 år, f.d.tandläkare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;1;J;J;I;J;166582;Lotta Jonsson;51;K;Eskilstuna;51, gruppledare, Ärla;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;2;J;J;I;J;166815;Bo Hellmark;65;M;Eskilstuna;65, köpman, Eskilstuna;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;3;J;J;I;J;166593;Alara Taher;20;K;Eskilstuna;20, butiksförsäljare, Eskilstuna;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;4;J;J;I;J;166817;Hans Öjemark;57;M;Eskilstuna;57, rådman, Ärla;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;5;J;J;I;J;166590;Johan Rudengren;59;M;Eskilstuna;59, revisor, Husby-Rekarne;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;6;J;J;I;J;166819;AnnChristin Liljeroos Grönås;60;K;Eskilstuna;60, barnmorska, Eskilstuna;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;7;J;J;I;J;166820;Tomas Widin;51;M;Eskilstuna;51, systemutvecklare, Eskilstuna;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;8;J;J;I;J;166821;Sevan Hovhannisyan;37;K;Eskilstuna;37, juristassistent, Eskilstuna;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;9;J;J;I;J;166822;Tobias Nygren;43;M;Eskilstuna;43, projektledare, Ärla;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;10;J;J;I;J;166823;Anna Newell;40;K;Eskilstuna;40, musiklärare, Eskilstuna;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;11;J;J;I;J;166824;Samuel Deivard;49;M;Eskilstuna;49, transportsamordnare, Eskilstuna;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;12;J;J;I;J;166825;Malin Persson;33;K;Eskilstuna;33, undersköterska, Eskilstuna;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;13;J;J;I;J;166826;Kristina Gillberg;65;K;Eskilstuna;65, pensionär, Eskilstuna;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;14;J;J;I;J;166827;Henry Aldrin;75;M;Eskilstuna;74, pensionär, Ärla;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;15;J;J;I;J;166667;Borhan Bajati;25;M;Eskilstuna;25, studerande, Eskilstuna;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;16;J;J;I;J;166829;Solomie Anghesom;37;K;Eskilstuna;37, undersköterska, Ärla;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;17;J;J;I;J;166830;Christian Chitoleh Taura;29;M;Eskilstuna;29, barnskötare, Ärla;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristdemokraterna;KD;68;S;13569;18;J;J;I;J;166831;Karl-Erik Axelsson;73;M;Eskilstuna;73, pensionär, Ärla;160000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristna Värdepartiet;KrVP;1140;;;;N;J;J;I;480106;Brodd Hemmelin, Maria;50;K;Haninge;;0;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Kristna Värdepartiet;KrVP;1140;;;;N;J;J;I;515518;Forsby, Hans-Olof;48;M;Eskilstuna;;0;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515667;Karlman, Alf;82;M;Eskilstuna;;0;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;1;J;J;I;J;2180;Stefan Krstic;22;M;Eskilstuna;22, livsmedelsarbetare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;2;J;J;I;J;2589;Erika Rydja Sandvik;47;K;Eskilstuna;47, gymnasielärare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;3;J;J;I;J;2584;Niklas Frykman;41;M;Eskilstuna;41, gruppledare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;4;J;J;I;J;2679;Helen Wretling;66;K;Eskilstuna;66, samordnare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;5;J;J;I;J;2680;Peter Harich;42;M;Eskilstuna;42, key account manager;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;6;J;J;I;J;2187;Maria Buco;53;K;Eskilstuna;53, ekonom;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;7;J;J;I;J;2682;Diyar Alis;22;M;Eskilstuna;22, socionomstudent;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;8;J;J;I;J;2685;Irja Hökås;54;K;Eskilstuna;54, företagare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;9;J;J;I;J;2686;Jenny Dunberg;45;K;Eskilstuna;45, jur.kand.;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;10;J;J;I;J;2687;Linus Björk;42;M;Eskilstuna;42, lärare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;11;J;J;I;J;2688;Aza Safari;56;M;Eskilstuna;56, installatör;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;12;J;J;I;J;2689;Ulla Jilsmo;74;K;Eskilstuna;74, lärare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;13;J;J;I;J;2690;Mikael Eriksson;28;M;Eskilstuna;27, innovationsvetare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;14;J;J;I;J;2692;Thomas Stääv;72;M;Eskilstuna;72, f.d. personalchef;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;15;J;J;I;J;2693;Anitha Wretling;66;K;Eskilstuna;66, kommunikatör;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;16;J;J;I;J;2694;Per-Olof Eriksson;77;M;Eskilstuna;77, senior;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;17;J;J;I;J;2695;Lahja Molin;78;K;Eskilstuna;78, senior;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;18;J;J;I;J;2696;Gert Johansson;78;M;Eskilstuna;78, f.d företagsledare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;19;J;J;I;J;2697;Elisabeth Rytterström;54;K;Eskilstuna;54, controller;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;20;J;J;I;J;2698;Victor Claesson;34;M;Eskilstuna;34, it support;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;21;J;J;I;J;2699;Richard Karlsson;76;M;Eskilstuna;76, volontär;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Liberalerna (tidigare Folkpartiet);L;3;S;11777;22;J;J;I;J;2174;Christer Kax Sundberg;71;M;Eskilstuna;71, f.d rektor;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Medborgerlig Samling;MED;1296;S;13729;1;J;J;I;J;128531;Åsa Tallroth;42;K;Eskilstuna;42 år, logistiker;15000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Medborgerlig Samling;MED;1296;S;13729;2;J;J;I;J;188784;Kenth Reinelius;50;M;Eskilstuna;50 år, egenföretagare;15000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Medborgerlig Samling;MED;1296;S;13729;3;J;J;I;J;128579;Madeleine Forsgren;65;K;Eskilstuna;65 år, agronom;15000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Medborgerlig Samling;MED;1296;S;13729;4;J;J;I;J;188786;Fredrik Lindblad;44;M;Eskilstuna;43 år, egenföretagare;15000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Medborgerlig Samling;MED;1296;S;13729;5;J;J;I;J;128559;Fredrik Sunnermark;47;M;Eskilstuna;47 år, egenföretagare;15000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;1;J;J;I;J;179239;Marielle Lahti;49;K;Eskilstuna;49 år, jurist;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;2;J;J;I;J;179240;Magnus Arreflod;41;M;Eskilstuna;41 år, folkhögskolelärare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;3;J;J;I;J;179241;Hanna Hessling;29;K;Eskilstuna;29 år, pressekreterare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;4;J;J;I;J;179242;Linus Lakso;35;M;Eskilstuna;35 år, ingenjör förnybar energi;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;5;J;J;I;J;179243;Faisal Hassan;31;M;Eskilstuna;31 år, lärare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;6;J;J;I;J;179244;Nina Hedenfeldt;40;K;Eskilstuna;40 år, järnsmed, egen företagare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;7;J;J;I;J;179245;Stefan Sjöberg;57;M;Eskilstuna;57 år, VA-rådgivare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;8;J;J;I;J;179246;Gladys Silva;61;K;Eskilstuna;61 år, civilekonom;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;9;J;J;I;J;179247;Mohamed Abdukani;38;M;Eskilstuna;38 år, arbetsförmedlare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;10;J;J;I;J;179248;Erica Hallenstam;43;K;Eskilstuna;43 år, personlig assistent;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;11;J;J;I;J;179249;Ulf Isaksson;62;M;Eskilstuna;62 år, konsult;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;12;J;J;I;J;179250;Eva Johansson;67;K;Eskilstuna;67 år,pensionär;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;13;J;J;I;J;179251;Reynaldo Garcia Quinteros;48;M;Eskilstuna;48 år, lärare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;14;J;J;I;J;179252;Theresia Hägglund;39;K;Eskilstuna;39 år, folkhögskolelärare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;15;J;J;I;J;179253;Ronny Ilhag;59;M;Eskilstuna;59 år, lastbilschaufför;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;16;J;J;I;J;179254;Dinka Hodzic;57;K;Eskilstuna;57 år, civilekonom;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;17;J;J;I;J;179255;Robert Lindberg;53;M;Eskilstuna;53 år, statsvetare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;18;J;J;I;J;179256;Sofia Michelson;48;K;Eskilstuna;48 år, bildlärare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;19;J;J;I;J;179257;Simon Larsson;31;M;Eskilstuna;31 år, studerande;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;20;J;J;I;J;179258;Marjoriet Pezoa;34;K;Eskilstuna;34 år, arbetsförmedlare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;21;J;J;I;J;179259;Robert Forsman;61;M;Eskilstuna;61 år, lärare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;22;J;J;I;J;179260;Siv Aksila;67;K;Eskilstuna;67 år, f.d. Metallarbetare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;23;J;J;I;J;179261;Oscar Hedenfeldt;43;M;Eskilstuna;43 år, kanslichef;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;24;J;J;I;J;179262;Jan Bergsten;73;M;Eskilstuna;73 år, egenföretagare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;13638;25;J;J;I;J;179263;Tina Lindell;39;K;Eskilstuna;39 år, politisk sekreterare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;1;J;J;I;J;179240;Magnus Arreflod;41;M;Eskilstuna;41 år, folkhögskolelärare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;2;J;J;I;J;179239;Marielle Lahti;49;K;Eskilstuna;49 år, jurist;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;3;J;J;I;J;179241;Hanna Hessling;29;K;Eskilstuna;29 år, pressekreterare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;4;J;J;I;J;179242;Linus Lakso;35;M;Eskilstuna;35 år, ingenjör förnybar energi;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;5;J;J;I;J;179243;Faisal Hassan;31;M;Eskilstuna;31 år, lärare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;6;J;J;I;J;179244;Nina Hedenfeldt;40;K;Eskilstuna;40 år, järnsmed, egen företagare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;7;J;J;I;J;179245;Stefan Sjöberg;57;M;Eskilstuna;57 år, VA-rådgivare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;8;J;J;I;J;179246;Gladys Silva;61;K;Eskilstuna;61 år, civilekonom;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;9;J;J;I;J;179247;Mohamed Abdukani;38;M;Eskilstuna;38 år, arbetsförmedlare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;10;J;J;I;J;179248;Erica Hallenstam;43;K;Eskilstuna;43 år, personlig assistent;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;11;J;J;I;J;179249;Ulf Isaksson;62;M;Eskilstuna;62 år, konsult;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;12;J;J;I;J;179250;Eva Johansson;67;K;Eskilstuna;67 år, pensionär;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;13;J;J;I;J;179251;Reynaldo Garcia Quinteros;48;M;Eskilstuna;48 år, lärare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;14;J;J;I;J;179252;Theresia Hägglund;39;K;Eskilstuna;39 år, folkhögskolelärare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;15;J;J;I;J;179253;Ronny Ilhag;59;M;Eskilstuna;59 år, lastbilschaufför;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;16;J;J;I;J;179254;Dinka Hodzic;57;K;Eskilstuna;57 år, civilekonom;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;17;J;J;I;J;179255;Robert Lindberg;53;M;Eskilstuna;53 år, statsvetare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;18;J;J;I;J;179256;Sofia Michelson;48;K;Eskilstuna;48 år, bildlärare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;19;J;J;I;J;179257;Simon Larsson;31;M;Eskilstuna;31 år, studerande;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;20;J;J;I;J;179258;Marjoriet Pezoa;34;K;Eskilstuna;34 år, arbetsförmedlare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;21;J;J;I;J;179259;Robert Forsman;61;M;Eskilstuna;61 år, lärare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;22;J;J;I;J;179260;Siv Aksila;67;K;Eskilstuna;67 år, f.d. Metallarbetare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;23;J;J;I;J;179261;Oscar Hedenfeldt;43;M;Eskilstuna;43 år, kanslichef;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;24;J;J;I;J;179262;Jan Bergsten;73;M;Eskilstuna;73 år, egenföretagare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;14232;25;J;J;I;J;179263;Tina Lindell;39;K;Eskilstuna;39 år, politisk sekreterare;119000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;1;J;J;I;J;179239;Marielle Lahti;49;K;Eskilstuna;49 jurist;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;2;J;J;I;J;179241;Hanna Hessling;29;K;Eskilstuna;29 pressekreterare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;3;J;J;I;J;179242;Linus Lakso;35;M;Eskilstuna;35 ingenjör förnybar energi;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;4;J;J;I;J;179244;Nina Hedenfeldt;40;K;Eskilstuna;40 järnsmed, egen företagare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;5;J;J;I;J;179245;Stefan Sjöberg;57;M;Eskilstuna;57 VA-rådgivare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;6;J;J;I;J;179246;Gladys Silva;61;K;Eskilstuna;61 civilekonom;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;7;J;J;I;J;179247;Mohamed Abdukani;38;M;Eskilstuna;38 arbetsförmedlare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;8;J;J;I;J;179248;Erica Hallenstam;43;K;Eskilstuna;43 personlig assistent;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;9;J;J;I;J;179249;Ulf Isaksson;62;M;Eskilstuna;62 konsult;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;10;J;J;I;J;179250;Eva Johansson;67;K;Eskilstuna;67 pensionär;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;11;J;J;I;J;179251;Reynaldo Garcia Quinteros;48;M;Eskilstuna;48 lärare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;12;J;J;I;J;179252;Theresia Hägglund;39;K;Eskilstuna;39 folkhögskolelärare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;13;J;J;I;J;179253;Ronny Ilhag;59;M;Eskilstuna;59 lastbilschaufför;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;14;J;J;I;J;179254;Dinka Hodzic;57;K;Eskilstuna;57 civilekonom;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;15;J;J;I;J;179255;Robert Lindberg;53;M;Eskilstuna;53 statsvetare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;16;J;J;I;J;179256;Sofia Michelson;48;K;Eskilstuna;48 bildlärare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;17;J;J;I;J;179257;Simon Larsson;31;M;Eskilstuna;31 studerande;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;18;J;J;I;J;179258;Marjoriet Pezoa;34;K;Eskilstuna;34 arbetsförmedlare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;19;J;J;I;J;179259;Robert Forsman;61;M;Eskilstuna;61 lärare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;20;J;J;I;J;179260;Siv Aksila;67;K;Eskilstuna;67 f.d. metallarbetare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;21;J;J;I;J;179261;Oscar Hedenfeldt;43;M;Eskilstuna;43 kanslichef;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;22;J;J;I;J;179262;Jan Bergsten;73;M;Eskilstuna;73 egenföretagare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Miljöpartiet de gröna;MP;55;S;15667;23;J;J;I;J;179263;Tina Lindell;39;K;Eskilstuna;39 politisk sekreterare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;1;J;J;I;J;9983;Jari Puustinen;49;M;Eskilstuna;49 år, kommunalråd, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;2;J;J;I;J;325367;Göran Gredfors;54;M;Eskilstuna;54 år, kommunalråd, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;3;J;J;I;J;10001;Madeléne Tannarp;50;K;Eskilstuna;50 år, teamledare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;4;J;J;I;J;325369;Ulf Ståhl;72;M;Eskilstuna;72 år, sjöingenjör, Skogstorp;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;5;J;J;I;J;10148;Ann Berglund;66;K;Eskilstuna;66 år, socionom, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;6;J;J;I;J;9988;Robin Tannarp;25;M;Eskilstuna;25 år, studerande, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;7;J;J;I;J;325372;Lars Olov Lundkvist;75;M;Eskilstuna;75 år, ingenjör, Ärla;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;8;J;J;I;J;10015;Stefan Biscevic;20;M;Eskilstuna;20 år, studerande, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;9;J;J;I;J;10138;Abshir Osman;56;M;Eskilstuna;56 år, lärare, Skogstorp;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;10;J;J;I;J;325375;Gunilla Ternert;68;K;Eskilstuna;68 år, fd regionchef, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;11;J;J;I;J;10169;Rafal Wisniewski;52;M;Eskilstuna;52 år, biobanksansvarig, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;12;J;J;I;J;10007;Ulla Grip;57;K;Eskilstuna;57 år, chefssekreterare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;13;J;J;I;J;10144;Ulf Westerberg;49;M;Eskilstuna;49 år, konsult, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;14;J;J;I;J;10166;Tomas Jönsson;43;M;Eskilstuna;43 år, civilekonom, Husby-Rekarne;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;15;J;J;I;J;10011;Marko Biscevic;20;M;Eskilstuna;20 år, studerande, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;16;J;J;I;J;325381;Anna Asklöf;45;K;Eskilstuna;45 år, åklagare, Torshälla;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;17;J;J;I;J;10004;David Dishart;50;M;Eskilstuna;50 år, molekylärbiolog, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;18;J;J;I;J;9989;Tony Meshko;40;M;Eskilstuna;40 år, frisör, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;19;J;J;I;J;9999;Ilham Mahmood Ibrahim;20;K;Eskilstuna;20 år, studerande, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;20;J;J;I;J;325385;Muhammed Tahsin;27;M;Eskilstuna;27 år, handläggare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;21;J;J;I;J;325386;Per Lundqvist;67;M;Eskilstuna;67 år, civilekonom, Stora Sundby;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;22;J;J;I;J;10005;Filip Rundström;26;M;Eskilstuna;26 år, anestesisjuksköterska, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;23;J;J;I;J;325388;Bernt Åke Edlund;68;M;Eskilstuna;68 år, pensionär, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;24;J;J;I;J;325389;Patrick Sannetjärn;53;M;Eskilstuna;53 år, lagerarbetare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;25;J;J;I;J;325390;Louisa Fagarasan;20;K;Eskilstuna;20 år, studerande, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;26;J;J;I;J;325391;Servat Barzangi;52;M;Eskilstuna;52 år, arbetsförmedlare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;27;J;J;I;J;325392;Ramona Grapenhielm;56;K;Eskilstuna;56 år, förbundschef, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;28;J;J;I;J;325393;Erik Ternert;75;M;Eskilstuna;75 år, fd lagman, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;29;J;J;I;J;325394;Ulla Stålberg;69;K;Eskilstuna;69 år, advokat, Torshälla;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;30;J;J;I;J;10183;Magnus Eriksson;38;M;Eskilstuna;38 år, entreprenör, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;31;J;J;I;J;325396;Håkan Linnskog;65;M;Eskilstuna;65 år, konsult, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;32;J;J;I;J;325397;Torbjörn Andersson;56;M;Eskilstuna;56 år, affärsutvecklare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;33;J;J;I;J;325398;Ing-Marie Sandström;59;K;Eskilstuna;59 år, sjuksköterska, Hållsta;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;34;J;J;I;J;325399;Gunnel Ristander;66;K;Eskilstuna;66 år, civilingenjör, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;35;J;J;I;J;10177;Börje Lindqvist;62;M;Eskilstuna;62 år, kundansvarig, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;36;J;J;I;J;325401;Torgny Zetterling;69;M;Eskilstuna;69 år, företagsledare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;37;J;J;I;J;10163;Susanne Henning Aihonen;52;K;Eskilstuna;52 år, marknadsförare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Moderaterna;M;1;S;14736;38;J;J;I;J;325403;Mats Blomberg;64;M;Eskilstuna;64 år, småföretagare, Eskilstuna;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;1;J;J;I;J;32706;Kim Fredriksson;29;M;Eskilstuna;29, Oppositionsråd;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;2;J;J;I;J;32713;Mikael Nygren;49;M;Eskilstuna;49, Gymnasielärare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;3;J;J;I;J;32703;Anton Berglund;32;M;Eskilstuna;32, Politisk gruppledare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;4;J;J;I;J;59109;Adam Marttinen;34;M;Eskilstuna;34, Riksdagsledamot;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;5;J;J;I;J;59110;Elin Blomberg;29;K;Eskilstuna;29, Redovisningsekonom;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;6;J;J;I;J;59111;Seppo Vuolteenaho;40;M;Eskilstuna;40, Politisk sekreterare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;7;J;J;I;J;59112;Anita Nygren;54;K;Eskilstuna;54, Ekonomiassistent;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;8;J;J;I;N;32709;[inte lämnat förklaring];;;;;238000;;N
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;9;J;J;I;J;59114;Mikael Strömberg;38;M;Eskilstuna;38, Copywriter;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;10;J;J;I;J;59115;Tatjana Gudmundsgårdh;40;K;Eskilstuna;40, Lärare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;11;J;J;I;J;59116;Tobias Gustafsson;29;M;Eskilstuna;29, Montör;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;12;J;J;I;J;59118;Carina Åkesson;49;K;Eskilstuna;49, Produktionsplanerare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;13;J;J;I;J;59119;Lotta Elf;47;K;Eskilstuna;47, Personalchef;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;14;J;J;I;J;32717;Lars Bohlin;49;M;Eskilstuna;49, Egenföretagare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;15;J;J;I;J;59121;Fredrik Elf;44;M;Eskilstuna;44, Supporttekniker;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;16;J;J;I;J;59122;Peter Laufer;49;M;Eskilstuna;49, Målare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;17;J;J;I;J;59123;Stefan Bergqvist;43;M;Eskilstuna;43, Egenföretagare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;18;J;J;I;J;59124;Carola Sunesson;49;K;Eskilstuna;49, Sekreterare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;19;J;J;I;J;32712;Pernilla Eriksson;49;K;Eskilstuna;49, Undersköterska;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;20;J;J;I;J;59126;Rikard Branting;43;M;Eskilstuna;43, Egenföretagare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;21;J;J;I;J;59127;Susanne Bergqvist;46;K;Eskilstuna;46, Tjänsteman;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;22;J;J;I;J;59128;Simon Lindbäck;19;M;Eskilstuna;19, Studerande;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;23;J;J;I;J;59129;Susanne Östling;48;K;Eskilstuna;48, Företagare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;24;J;J;I;J;59130;Sven-Göran Sigurd;71;M;Eskilstuna;71, Pensionär;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;25;J;J;I;J;32716;Caroline Hansson;42;K;Eskilstuna;42, Distriktssköterska;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;26;J;J;I;J;59132;Aila Kangas;65;K;Eskilstuna;65, Socionom;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;27;J;J;I;J;59133;Michael Wilhelmsson;58;M;Eskilstuna;58, Projektledare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;28;J;J;I;J;59134;Lars-Åke Phuthom;59;M;Eskilstuna;59, Väktare/Ordningsvakt;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;29;J;J;I;J;59135;Anne-Cathrine Kaup;61;K;Eskilstuna;61, Pensionär;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;30;J;J;I;J;116136;Tord Wall;54;M;Eskilstuna;54, IT-chef;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;31;J;J;I;J;83337;Bengt Nilsson;60;M;Eskilstuna;60, Konsult;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;32;J;J;I;J;116138;Marica Berger;51;K;Eskilstuna;51, Filialchef;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;33;J;J;I;J;116139;Jan Larsson;54;M;Eskilstuna;54, Filialarbetare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;34;J;J;I;J;83346;Fredrik Jonasson;42;M;Eskilstuna;42, Yrkeschaufför;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;35;J;J;I;J;116141;Tommy Kvarsell;65;M;Eskilstuna;65, Pensionär;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;36;J;J;I;J;116142;Elisabeth Branting;41;K;Eskilstuna;41, Trädgårdsmästare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;37;J;J;I;J;116143;Johan Sundequist;49;M;Eskilstuna;49, Planerare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;38;J;J;I;J;116145;Daniel Blomqvist;37;M;Eskilstuna;37, Egenföretagare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;39;J;J;I;J;116146;Göran Kunstbergs;58;M;Eskilstuna;58, Musiklärare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;40;J;J;I;J;116147;Sirilak Phuthom;49;K;Eskilstuna;49, Lokalvårdare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;41;J;J;I;J;116148;Thomas Lindeberg;56;M;Eskilstuna;56, Chaufför;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;42;J;J;I;J;116149;Admir Busbaher;45;M;Eskilstuna;45, Arbetsledare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;43;J;J;I;J;116150;Lars Gustafsson;61;M;Eskilstuna;61, Systemingenjör IT;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;44;J;J;I;J;116151;Kim Seppälä;47;M;Eskilstuna;47, Yrkeschaufför;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;45;J;J;I;J;116152;Sven Eriksson;42;M;Eskilstuna;42, Tjänsteman;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;46;J;J;I;J;116153;Mats Klarin;59;M;Eskilstuna;59, Egenföretagare;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;47;J;J;I;J;116154;Andreas Lillsjö;23;M;Eskilstuna;23, Student;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;48;J;J;I;J;116155;Mikael Loberg;59;M;Eskilstuna;59;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Sverigedemokraterna;SD;110;S;12564;49;J;J;I;J;116156;Johan Östman;41;M;Eskilstuna;41;238000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;1;J;J;I;J;12098;Maria Chergui;45;K;Eskilstuna;45, Gruppledare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;2;J;J;I;J;12107;Jawad Zanganeh;40;M;Eskilstuna;40, VVS-ingenjör, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;3;J;J;I;J;12095;Maria Forsberg;43;K;Eskilstuna;43, Lärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;4;J;J;I;J;12081;Johan Sandberg;33;M;Eskilstuna;33, Industriarbetare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;5;J;J;I;J;32984;Anette Stavehaug;51;K;Eskilstuna;51, Förskollärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;6;J;J;I;J;12085;Alar Kuutmann;66;M;Eskilstuna;65, Kulturarbetare, Torshälla;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;7;J;J;I;J;12082;Ida Myrbäck;33;K;Eskilstuna;33, Leg. dietist, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;8;J;J;I;J;32987;Firat Nemrud;59;M;Eskilstuna;59, Verksamhetsutvecklare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;9;J;J;I;J;32988;Solveig Pohjola;74;K;Eskilstuna;74, Socionom, Torshälla;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;10;J;J;I;J;32989;Elias Cataño C;40;M;Eskilstuna;40, Facklig tågvärd, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;11;J;J;I;J;12075;Roja Mahmoudi;51;K;Eskilstuna;51, Undersköterska, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;12;J;J;I;J;12103;Rashid Azarå;60;M;Eskilstuna;60, Lärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;13;J;J;I;J;32992;Monicka Larsson;59;K;Eskilstuna;59, Socionom, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;14;J;J;I;J;32993;Marcus Helgstrand;33;M;Eskilstuna;33, Lagerarbetare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;15;J;J;I;J;32994;Veronika Jan;27;K;Eskilstuna;27, Leg. psykolog, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;16;J;J;I;J;12077;Jukka Tähkävuori;61;M;Eskilstuna;60, Fordonstekniker, Torshälla;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;17;J;J;I;J;32996;Carin Holmquist Kuutmann;62;K;Eskilstuna;62, Leg. psykolog, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;18;J;J;I;J;32997;Joel Hamberg;35;M;Eskilstuna;35, Lärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;19;J;J;I;J;32998;Irena Tyszko Tähkävuori;55;K;Eskilstuna;55, Lagerarbetare, Torshälla;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;20;J;J;I;J;32999;Annika Goblirsch;66;K;Eskilstuna;65, Lärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;21;J;J;I;J;33000;Anders Larsson;35;M;Eskilstuna;35, Animatör, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;22;J;J;I;J;33001;Mirjam Abdulla-Poor;54;K;Eskilstuna;53, Boendestödjare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;23;J;J;I;J;12093;Maud Ekman;72;K;Eskilstuna;72, Pensionär, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;24;J;J;I;J;33003;Naim Yusufi;45;M;Eskilstuna;45, Lärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;25;J;J;I;J;33004;Karin Wretling;40;K;Eskilstuna;40, Statstjänsteman, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;26;J;J;I;J;33005;Tommy Hamberg;67;M;Eskilstuna;67, Pensionär, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;27;J;J;I;J;33006;Laima Hamberg;66;K;Eskilstuna;66, Pensionär, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;28;J;J;I;J;33007;Kajsa Svärd;63;K;Eskilstuna;63, Lärare, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;29;J;J;I;J;33008;Lennart Abrahamsson;69;M;Eskilstuna;69, Pensionär, Eskilstuna;158000;;J
+K;0484;Eskilstuna;02;Eskilstuna Nordvästra;Vänsterpartiet;V;5;S;12226;30;J;J;I;J;33009;Terhi Niemi;77;K;Eskilstuna;77, Pensionär, Eskilstuna;158000;;J

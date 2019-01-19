@@ -1,0 +1,716 @@
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;1;J;J;I;J;37103;Peder Björk;42;M;Sundsvall;42 år, Bosvedjan;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;2;J;J;I;J;37104;Bodil Hansson;42;K;Sundsvall;42 år, Södermalm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;3;J;J;I;J;37105;Niklas Säwén;26;M;Sundsvall;26 år, Centrum;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;4;J;J;I;J;37106;Christina Nordenö;63;K;Sundsvall;63 år, Allsta;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;5;J;J;I;J;37107;Jonas Väst;43;M;Sundsvall;43 år, Kubikenborg;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;6;J;J;I;J;37108;Anita Bdioui;60;K;Sundsvall;60 år, Centrum;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;7;J;J;I;J;37109;João Pinheiro;66;M;Sundsvall;66 år, Haga;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;8;J;J;I;J;37110;Diana Kapitanska;55;K;Sundsvall;55 år, Skönsberg;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;9;J;J;I;J;37111;Jan Lahti;37;M;Sundsvall;37 år, Sallyhill;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;10;J;J;I;J;37112;Caroline Sundström;32;K;Sundsvall;32 år, Skönsmon;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;11;J;J;I;J;37113;Leif Nilsson;62;M;Sundsvall;62 år, Skönsmon;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;12;J;J;I;J;37114;Marie Sjöbom Olsson;50;K;Sundsvall;50 år, Johannedal;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;13;J;J;I;J;37115;Stefan Broman;40;M;Sundsvall;40 år, Haga;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;14;J;J;I;J;37116;Annika Kallin;55;K;Sundsvall;55 år, Östermalm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;15;J;J;I;J;37117;Stefan Eriksson;55;M;Sundsvall;55 år, Skönsmon;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;16;J;J;I;J;37118;Frida Smedberg;34;K;Sundsvall;34 år, Kvissleby;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;17;J;J;I;J;37119;Lars-Olof Boström;67;M;Sundsvall;67 år, Södermalm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;18;J;J;I;J;37120;Frida Burman;45;K;Sundsvall;45 år, Södermalm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;19;J;J;I;J;37121;Leif Wiklund;55;M;Sundsvall;55 år, Centrum;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;20;J;J;I;J;37122;Priscilda Helenius;66;K;Sundsvall;66 år, Nacksta;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;21;J;J;I;J;37123;Johan Nikula;61;M;Sundsvall;61 år, Bosvedjan;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;22;J;J;I;J;37124;Eva Bergström Selling;60;K;Sundsvall;60 år, Centrum;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;23;J;J;I;J;37125;Hans Backlund;60;M;Sundsvall;60 år, Södermalm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;24;J;J;I;J;37126;Monika Lindberg;46;K;Sundsvall;46 år, Ljustadalen;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;25;J;J;I;J;37127;Johan Hörting;65;M;Sundsvall;65 år, Skönsberg;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;26;J;J;I;J;37128;Aagoth Lögdahl;72;K;Sundsvall;72 år, Bosvedjan;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;27;J;J;I;J;37129;Kristoffer Högstedt Gustavsson;29;M;Sundsvall;29 år, Bosvedjan;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;28;J;J;I;J;37130;Ann-Christine Meiding;50;K;Sundsvall;50 år, Kubikenborg;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;29;J;J;I;J;37131;Rolf Nordin;66;M;Sundsvall;66 år, Östermalm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;30;J;J;I;J;37132;Pernilla Holgert;53;K;Sundsvall;54 år, Centrum;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;31;J;J;I;J;37133;Nisar Khan;40;M;Sundsvall;40 år, Nacksta;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;32;J;J;I;J;37134;Maria Antonic;68;K;Sundsvall;68 år, Sallyhill;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;33;J;J;I;J;37135;Ulf Bylund;53;M;Sundsvall;53 år, Södermalm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;34;J;J;I;J;37136;Zhila Garmiani;26;K;Sundsvall;26 år, Nacksta;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;35;J;J;I;J;37137;Lars-Åke Andersson;57;M;Sundsvall;57 år, Haga;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;36;J;J;I;J;37138;Lottis Hörting;58;K;Sundsvall;58 år, Skönsberg;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;37;J;J;I;J;37139;Evert Nederberg;70;M;Sundsvall;71 år, Haga;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;38;J;J;I;J;37140;Emma Edvall;30;K;Sundsvall;30 år, Centrum;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;39;J;J;I;J;37141;Roland Grafström;78;M;Sundsvall;78 år, Haga;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;40;J;J;I;J;37142;Kurdistan Kasem Ali;40;K;Sundsvall;40 år, Skönsberg;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;41;J;J;I;J;37143;Sameer Lafta;65;M;Sundsvall;65 år, Sallyhill;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;42;J;J;I;J;37144;Lena Sjölén;62;K;Sundsvall;62 år, Johannedal;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;43;J;J;I;J;37145;Sami Chérif;33;M;Sundsvall;33 år, Nacksta;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;44;J;J;I;J;37146;Sophia Beyer Rankila;31;K;Sundsvall;31 år, Centrum;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;45;J;J;I;J;37147;Robin Sjölén;35;M;Sundsvall;35 år, Sundsbruk;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;46;J;J;I;J;37148;Veronica Österlund;62;K;Sundsvall;62 år, Skönsberg;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;47;J;J;I;J;37149;Robin Fonseca;19;M;Sundsvall;19 år, Skönsberg;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;48;J;J;I;J;37150;Ida Lindouf;41;K;Sundsvall;41 år, Skönsberg;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;49;J;J;I;J;37151;Lars Huss;66;M;Sundsvall;66 år, Nacksta;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;50;J;J;I;J;37152;Laila Ågren;76;K;Sundsvall;76 år, Skönsmon;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;1;J;J;I;J;37104;Bodil Hansson;42;K;Sundsvall;42 år, Södermalm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;2;J;J;I;J;37103;Peder Björk;42;M;Sundsvall;42 år, Bosvedjan;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;3;J;J;I;J;45337;Lisa Lööf;26;K;Sundsvall;26 år, Matfors;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;4;J;J;I;J;45338;Anders Hedenius;62;M;Sundsvall;62 år, Njurunda;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;5;J;J;I;J;45339;Åsa Ulander;52;K;Sundsvall;52 år, Alnö;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;6;J;J;I;J;45340;Roger Johansson;55;M;Sundsvall;55 år, Matfors;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;7;J;J;I;J;45341;Malin Larsson;38;K;Sundsvall;38 år, Stöde;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;8;J;J;I;J;45342;Burhan Hussain;62;M;Sundsvall;62 år, Granlo;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;9;J;J;I;J;45343;Arianne Sundman;49;K;Sundsvall;49 år, Alnö;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;10;J;J;I;J;45344;Jan-Olov Lampinen;66;M;Sundsvall;66 år, Granloholm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;11;J;J;I;J;45345;Jeanette Hedlund;35;K;Sundsvall;35 år, Matfors;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;12;J;J;I;J;45346;Mathias Hansson;21;M;Sundsvall;21 år, Bydalen;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;13;J;J;I;J;45347;Ann-Charlotte Evrung;54;K;Sundsvall;54 år, Liden;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;14;J;J;I;J;45348;Magnus Haak;45;M;Sundsvall;45 år, Alnö;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;15;J;J;I;J;45349;Jenny Bjerkås;40;K;Sundsvall;40 år, Alnö;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;16;J;J;I;J;45350;Fredrik Thunström;33;M;Sundsvall;33 år, Stöde;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;17;J;J;I;J;45351;Rose-Marie Antonic;49;K;Sundsvall;49 år, Alnö;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;18;J;J;I;J;45352;Kenneth Högström;58;M;Sundsvall;58 år, Njurunda;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;19;J;J;I;J;45353;Inger Arvidsson;67;K;Sundsvall;67 år, Njurunda;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;20;J;J;I;J;45354;Niclas Burvall;49;M;Sundsvall;49 år, Holm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;21;J;J;I;J;45355;Rebecca Lampinen;25;K;Sundsvall;25 år, Granloholm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;22;J;J;I;J;45356;Ludvig Lind;19;M;Sundsvall;19 år, Granloholm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;23;J;J;I;J;45357;Karolina Sundberg;34;K;Sundsvall;34 år, Indal;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;24;J;J;I;J;45358;Kent Larsson;48;M;Sundsvall;48 år, Matfors;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;25;J;J;I;J;45359;Carina Staf;39;K;Sundsvall;39 år, Njurunda;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;26;J;J;I;J;45360;Alaa Ourabi Alkhn;35;M;Sundsvall;35 år, Alnö;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;27;J;J;I;J;45361;Annika Söderberg;56;K;Sundsvall;56 år, Granloholm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;28;J;J;I;J;45362;Michael Sjödin;47;M;Sundsvall;47 år, Njurunda;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;29;J;J;I;J;45363;Adele Flodin;62;K;Sundsvall;62 år, Kvissleby;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;30;J;J;I;J;45364;Magnus Svensson;54;M;Sundsvall;54 år, Alnö;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;31;J;J;I;J;45365;Lena Holmberg Eriksson;51;K;Sundsvall;51 år, Granlo;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;32;J;J;I;J;45366;Jonathan Brinkeback;28;M;Sundsvall;28 år, Granlo;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;33;J;J;I;J;45367;Helena Gudasic;45;K;Sundsvall;45 år, Granloholm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;34;J;J;I;J;45368;Karaman Chalak;56;M;Sundsvall;56 år, Kvissleby;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;35;J;J;I;J;45369;Ulla Näsman;67;K;Sundsvall;67 år, Alnö;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;36;J;J;I;J;45370;Kenth Söder;56;M;Sundsvall;56 år, Nedansjö;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;37;J;J;I;J;45371;Jessica Höglin;40;K;Sundsvall;40 år, Matfors;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;38;J;J;I;J;45372;Ulf Sjölinder;62;M;Sundsvall;58 år, Stöde;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;39;J;J;I;J;45373;Lena Sjöberg;59;K;Sundsvall;59 år, Nedansjö;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;40;J;J;I;J;45374;Tommy Eriksson;65;M;Sundsvall;65 år, Matfors;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;41;J;J;I;J;45375;Marianne Törngren;55;K;Sundsvall;55 år, Bergsåker;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;42;J;J;I;J;45376;Robert Kuusikko;48;M;Sundsvall;48 år, Granlo;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;43;J;J;I;J;45377;Carin Öhlund;60;K;Sundsvall;60 år, Granloholm;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;44;J;J;I;J;45378;Håkan Byberg;71;M;Sundsvall;71 år, Njurunda;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;45;J;J;I;J;45379;Elisabeth Eng Åkerlund;57;K;Sundsvall;57 år, Alnö;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;46;J;J;I;J;45380;Mikael Sundqvist;49;M;Sundsvall;50 år, Alnö;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;47;J;J;I;J;45381;Margareta Jansson;56;K;Sundsvall;56 år, Njurunda;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;48;J;J;I;J;45382;Hans Dahlström Åsander;50;M;Sundsvall;50 år, Matfors;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;49;J;J;I;J;45383;Ylva Zetterström;54;K;Sundsvall;54 år, Nedansjö;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;50;J;J;I;J;45384;Kenneth Nordström;63;M;Sundsvall;63 år, Kvissleby;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;51;J;J;I;J;45385;Sanna Boholm;19;K;Sundsvall;18 år, Kvissleby;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;52;J;J;I;J;45386;Svante Lejon;66;M;Sundsvall;66 år, Kovland;137000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;1;J;J;I;J;48970;Hans Forsberg;34;M;Sundsvall;34 år, Njurunda;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;2;J;J;I;J;48971;Sanna Jonsson;32;K;Sundsvall;32 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;3;J;J;I;J;48972;Kjell Bergkvist;63;M;Sundsvall;62 år, Kovland;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;4;J;J;I;J;48973;Anita Forslin;61;K;Sundsvall;60 år, Alnö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;5;J;J;I;J;48974;Magnus Persson;54;M;Sundsvall;53 år, Matfors;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;6;J;J;I;J;48975;Emma Flemström Heurgren;44;K;Sundsvall;43 år, Alnö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;7;J;J;I;J;48976;Jan Ola Andersson;65;M;Sundsvall;65 år, Attmar;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;8;J;J;I;J;48977;Anna Edin;52;K;Sundsvall;52 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;9;J;J;I;J;48978;Jonas Borg;51;M;Sundsvall;51 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;10;J;J;I;J;48979;Anneli Rehnfors;60;K;Sundsvall;60 år, Njurunda;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;11;J;J;I;J;48980;Erik Thunström;59;M;Sundsvall;59 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;12;J;J;I;J;48981;Maria Åström;55;K;Sundsvall;55 år, Indal;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;13;J;J;I;J;48982;Helge Sjödin;64;M;Sundsvall;54 år, Bydalen;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;14;J;J;I;J;48983;Anja Åkerlund;45;K;Sundsvall;45 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;15;J;J;I;J;48984;Jeanette Lindblom;64;K;Sundsvall;64 år Attmar;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;16;J;J;I;J;48985;Rebecka Mc Neill;20;K;Sundsvall;20 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;17;J;J;I;J;48986;Martin Lindh;35;M;Sundsvall;35 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;18;J;J;I;J;48987;Yvonne Flodén;53;K;Sundsvall;53 år, Stöde;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;19;J;J;I;J;48988;Sara Eriksson;44;K;Sundsvall;44 år, Njurunda;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;20;J;J;I;J;48989;Roland Hultman;67;M;Sundsvall;67 år, Holm;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;21;J;J;I;J;8549;Anne-Li Sjölund;52;K;Sundsvall;52 år, Alnö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;22;J;J;I;J;48991;Sofia Suomalainen;39;K;Sundsvall;39 år, Alnö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;23;J;J;I;J;48992;Göran Söderblom;78;M;Sundsvall;78 år, Indal;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;24;J;J;I;J;48993;Marcus Rick;41;M;Sundsvall;41 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Centerpartiet;C;4;S;12442;25;J;J;I;J;48994;Thomas Persson;48;M;Sundsvall;48 år, Stöde;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Feministiskt initiativ;FI;532;S;13131;1;J;J;I;J;113544;Elin Lockneus;29;K;Sundsvall;29 år, doktorand, präst, Matfors;64000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Feministiskt initiativ;FI;532;S;13131;2;J;J;I;J;113545;Daniel Högberg;32;M;Sundsvall;32 år, Java-utvecklare, ledsagare, Sundsbruk;64000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Feministiskt initiativ;FI;532;S;13131;3;J;J;I;J;113546;Ingrid Möller;71;K;Sundsvall;71 år, leg.arbetsterapeut, arkitekt;64000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Feministiskt initiativ;FI;532;S;13131;4;J;J;I;J;113547;Anna Gustafsson;30;K;Sundsvall;30 år, personlig assistent, Sundsbruk;64000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Feministiskt initiativ;FI;532;S;13131;5;J;J;I;J;113548;Sara Svensson;19;K;Sundsvall;19 år, samhällsprogrammet i gymnasiet, Skönsmon;64000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Feministiskt initiativ;FI;532;S;13131;6;J;J;I;J;167806;Mika Andersen;19;K;Sundsvall;19 år, ledarskapsprogrammet i gymnasiet, Södermalm;64000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Feministiskt initiativ;FI;532;S;13131;7;J;J;I;J;113549;Josef Eriksson;37;M;Sundsvall;37 år, gitarrlärare, Töva;64000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Feministiskt initiativ;FI;532;S;13131;8;J;J;I;J;114019;Elsa Undin;23;K;Sundsvall;23 år, teknisk support, Skönsmon;64000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Feministiskt initiativ;FI;532;S;13131;9;J;J;I;J;113550;Kerstin Våge;52;K;Sundsvall;52 år, bibliotekarie, Östermalm;64000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Feministiskt initiativ;FI;532;S;13131;10;J;J;I;J;113551;Peter Selander;44;M;Sundsvall;44 år, religionsvetare, yogalärare, Södermalm;64000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Feministiskt initiativ;FI;532;S;13131;11;J;J;I;J;113552;Krissy Virtanen;28;M;Sundsvall;28 år, lärarstuderande, Juniskär;64000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Feministiskt initiativ;FI;532;S;13131;12;J;J;I;J;113553;Eila Wall Boholm;25;K;Sundsvall;25 år, skådespelare, poet, poddare, Kvissleby;64000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Feministiskt initiativ;FI;532;S;13131;13;J;J;I;J;113628;Irma Henriksson;72;K;Sundsvall;72 år, tolk, översättare, förskollärare, Korsta;64000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;1;J;J;I;J;20903;Liza-Maria Norlin;38;K;Sundsvall;38, Lärare, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;2;J;J;I;J;21004;Emil Esping;42;M;Sundsvall;42, Ekonom, Kvissleby;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;3;J;J;I;J;50005;Kate Almroth;48;K;Sundsvall;48, Affärsutvecklare, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;4;J;J;I;J;20909;Stefan Hill;54;M;Sundsvall;54, Civilingenjör, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;5;J;J;I;J;50007;Ronja Strid;24;K;Sundsvall;24, Student, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;6;J;J;I;J;20922;Miriam Monsell;38;K;Sundsvall;38, Ekonom, Alnö;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;7;J;J;I;J;20912;Joachim Jonsson;31;M;Sundsvall;30, Student, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;8;J;J;I;J;50010;Sara Svensson;50;K;Sundsvall;50, Farmaceut, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;9;J;J;I;J;50011;Hailemeskel Alem Meles;37;M;Sundsvall;37, Sjuksköterska, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;10;J;J;I;J;21015;Emelie Granemar;31;K;Sundsvall;31, Socionom, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;11;J;J;I;J;20914;Robin Håkansson;29;M;Sundsvall;29, Ekonom, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;12;J;J;I;J;20919;Britt-Mari Brynielsson;61;K;Sundsvall;61, Dagbarnvårdare, Kvissleby;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;13;J;J;I;J;50015;Gunnar Åström;73;M;Sundsvall;73, Pensionär, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;14;J;J;I;J;50016;Elisabeth Walfridsson;78;K;Sundsvall;78, Frivilligarbetare, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;15;J;J;I;J;50017;Anders Eriksson;51;M;Sundsvall;51, Copywriter, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;16;J;J;I;J;50018;Lena Nordin;65;K;Sundsvall;65, Socionom, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;17;J;J;I;J;50019;Robert Nordin;65;M;Sundsvall;65, Affärsutvecklare, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;18;J;J;I;J;50020;Yvonne Bengtson;64;K;Sundsvall;64, Butikschef, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;19;J;J;I;J;50021;Berndt Wikman;70;M;Sundsvall;70, Pensionär, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;20;J;J;I;J;50022;Josef Nordin;43;M;Sundsvall;43, IT-arkitekt, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;21;J;J;I;J;50023;Bengt Åke Bengtson;71;M;Sundsvall;71, Konsult, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;22;J;J;I;J;50024;Anders Mähler;76;M;Sundsvall;76, Pensionär, Sundsbruk;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;23;J;J;I;J;20924;Joakim Westlinder;22;M;Sundsvall;22, Butiksarbetare, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;24;J;J;I;J;50026;Lars Ågren;77;M;Sundsvall;77, Pensionär, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;25;J;J;I;J;50027;Berit Andersson;85;K;Sundsvall;86, Pensionär, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Kristdemokraterna;KD;68;S;12458;26;J;J;I;J;50028;Leif Jacobsson;52;M;Sundsvall;52, Merchandiser, Sundsvall;232000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;132601;Wästfelt, Anders Sture;75;M;Sundsvall;;0;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;1;J;J;I;J;277223;Fáten Nilsson;46;K;Sundsvall;Rådgivare, 47 år, Haga;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;2;J;J;I;J;277228;Stefan Falk;59;M;Sundsvall;Docent, 59 år, Sidsjö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;3;J;J;I;J;277235;Catrin Eliasson;51;K;Sundsvall;Företagare, 51 år, Alnö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;4;J;J;I;J;277322;Annelie Luthman;53;K;Sundsvall;Jurist, 53 år, Alnö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;5;J;J;I;J;49208;Alex Nilsson;20;M;Sundsvall;Studerande, 20 år, Sallyhill;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;6;J;J;I;J;277271;Ingeborg Wiksten;55;K;Sundsvall;Konsult, 55 år, Njurunda;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;7;J;J;I;J;277231;Lars Holmgren;66;M;Sundsvall;Marknadsekonom, 66 år, Bydalen;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;8;J;J;I;J;277225;Ina Lindström Skandevall;37;K;Sundsvall;Statsvetare, 37 år, Skönsberg;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;9;J;J;I;J;277233;Martin Liljeros;45;M;Sundsvall;Civilekonom, 45 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;10;J;J;I;J;277836;Maria Lilja;46;K;Sundsvall;Handläggare, 46 år, Kvissleby;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;11;J;J;I;J;277222;Arne Engholm;70;M;Sundsvall;Pensionär, 70 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;12;J;J;I;J;277838;Jeanette Lozanovski;42;K;Sundsvall;Kommunikatör, 42 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;13;J;J;I;J;277839;Mistiresilassie Tewolde;32;K;Sundsvall;Studerande, 32 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;14;J;J;I;J;277255;Stefan Westman;30;M;Sundsvall;Ambulanssjuksköterska, 29 år, Haga;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;15;J;J;I;J;277841;Elise Backman;25;K;Sundsvall;Studerande, 24 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;16;J;J;I;J;277238;Marcus Hellström;37;M;Sundsvall;Kock/studerande, 37 år, Bosvedjan;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;17;J;J;I;J;277843;Maria Räfsbäck;46;K;Sundsvall;Handläggare, 46 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;18;J;J;I;J;277844;Zdenko Cabrajic;35;M;Sundsvall;Projektledare, 35 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;19;J;J;I;J;277845;Ebba Ädel;20;K;Sundsvall;Butiksbiträde, 20 år, Gångviken;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;20;J;J;I;J;277242;Mathias Lindwe;31;M;Sundsvall;Testledare, 31 år, Sallyhill;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;21;J;J;I;J;277847;Ulla Grelsson;67;K;Sundsvall;Ingenjör, 67 år, Holm;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;22;J;J;I;J;277848;Michael Jonsson;33;M;Sundsvall;Skattehandläggare, 33 år, Haga;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;23;J;J;I;J;277849;Ulla Norgren;80;K;Sundsvall;Senior, 80 år, Stöde;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;24;J;J;I;J;277850;Dominic Nordenberg;22;M;Sundsvall;Kommunikatör, 22 år, Södermalm;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;25;J;J;I;J;349496;Inga-Lill Hägglund;67;K;Sundsvall;Distriktssköterska, 67 år, Alnö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;26;J;J;I;J;277851;Sigge Godin;80;M;Sundsvall;F.d riksdagsledamot, 80 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;27;J;J;I;J;277260;Jakob Machuca;36;M;Sundsvall;Advokat, 36 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;28;J;J;I;J;277853;Göte Stenlund;80;M;Sundsvall;Företagsekonom, 80 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;29;J;J;I;J;277854;Anders Odmark;44;M;Sundsvall;Jurist, 44 år, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Liberalerna (tidigare Folkpartiet);L;3;S;14481;30;J;J;I;J;277855;Leif Carlsson;73;M;Sundsvall;Senior, 73 år, Alnö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Medborgerlig Samling;MED;1296;S;15350;1;J;J;I;J;128554;Daniel Lundin;49;M;Sundsvall;49 år, snickare och byggnadsvårdare;12000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;1;J;J;I;J;368517;Johanna Thurdin;47;K;Sundsvall;47år, civilingenjör, Alnö;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;2;J;J;I;J;368290;Maria Algotsson;46;K;Sundsvall;46 år, vik skola-vård-omsorg, Njurunda;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;3;J;J;I;J;368302;Magnus Bylund;40;M;Sundsvall;40 år, socialarbetare, Sundsbruk;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;4;J;J;I;J;368301;Sabina Mattsson;28;K;Sundsvall;28 år, leg psykolog, Sundsvall;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;5;J;J;I;J;373110;Wiltrud Daniels;42;K;Sundsvall;42 år, gymnasie- och högskolelärare, Kvissleby;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;6;J;J;I;J;368311;Mathias Rex;33;M;Sundsvall;33 år, servicetekniker, Haga;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;7;J;J;I;J;373112;Cecilia Dahlbäck;51;K;Sundsvall;51 år, fil mag, Sallyhill;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;8;J;J;I;J;368296;Angel Villaverde;55;M;Sundsvall;55 år, lärare, Sundsbruk;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;9;J;J;I;J;373114;Titti Pettersson;54;K;Sundsvall;54 år, aktivitetsledare, Södermalm;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;10;J;J;I;J;368304;Sverker Ottosson;52;M;Sundsvall;52 år, socialarbetare, Bergsåker;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;11;J;J;I;J;373116;Johanna Simonsson;26;K;Sundsvall;26 år, projektledare, Matfors;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;12;J;J;I;J;373117;Erik Sönegård;29;M;Sundsvall;29 år, civilingenjör, Vinkeltået;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;13;J;J;I;J;373118;Britt-Inger Eriksson;69;K;Sundsvall;69 år, pensionär, Alnö;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;14;J;J;I;J;368309;Per-Olof Swing;38;M;Sundsvall;38 år, kyrkomusiker och civilekonom, Sundsvall;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;15;J;J;I;J;373120;Harriet Olsén;48;K;Sundsvall;48 år, undersköterska, Sallyhill;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;16;J;J;I;J;373121;Gunnar Farm;66;M;Sundsvall;66 år, egenföretagare, Norrmalm;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;17;J;J;I;J;373122;Monica Engqvist;67;K;Sundsvall;67 år, lärare, Matfors;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;18;J;J;I;J;373123;Mattias Ekhem;48;M;Sundsvall;48 år, verksamhetsarkitekt, Hemmanet;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;19;J;J;I;J;373124;Jan-Olof Tedebrand;73;M;Sundsvall;73 år, pensionär, Nacksta;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;20;J;J;I;J;373125;Torbjörn Forsman;51;M;Sundsvall;51 år, konstruktör, Alnö;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;21;J;J;I;J;373126;Klas Forsman;81;M;Sundsvall;81 år, fd univ. lektor, Bydalen;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;22;J;J;I;J;373127;Dick Sörholm;57;M;Sundsvall;57 år, ingenjör, Stöde;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;23;J;J;I;J;373128;Kerstin Bagge;80;K;Sundsvall;80 år, pensionär, Granlo;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;24;J;J;I;J;373129;Holger Daniels;44;M;Sundsvall;44, lokförare, Kvissleby;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Miljöpartiet de gröna;MP;55;S;14954;25;J;J;I;J;373130;Runa Forsman;81;K;Sundsvall;81, fd apotekare, Bydalen;176000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;1;J;J;I;J;240708;Alicja Kapica;38;K;Sundsvall;38 år, Civilekonom, Övre Bredsand;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;2;J;J;I;J;269256;Viktoria Jansson;29;K;Sundsvall;29 år, Politisk sekreterare, Granlo;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;3;J;J;I;J;240706;Jörgen Berglund;44;M;Sundsvall;44 år, Oppositionsråd, Södermalm;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;4;J;J;I;J;269258;Patrik Gustavsson;50;M;Sundsvall;50 år, IT Solution Manager, Södermalm;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;5;J;J;I;J;269259;Bertil Kjellberg;65;M;Sundsvall;65 år, Advokat/fd. riksdagsledamot, Norrliden;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;6;J;J;I;J;269260;Lina Heidenbeck;29;K;Sundsvall;29 år, Konsult/feminist, Kovland;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;7;J;J;I;J;269261;Tom Emanuelz;70;M;Sundsvall;70 år, Pensionär, Haga;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;8;J;J;I;J;240710;Mikael Gäfvert;57;M;Sundsvall;57 år, Pol. mag., Stenstan;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;9;J;J;I;J;240712;Linda Strandfjäll;45;K;Sundsvall;45 år, Brottsutredare, Stenstan;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;10;J;J;I;J;269264;Fredrik Lohman;28;M;Sundsvall;28 år, Ambulanssjuksköterska, Ljustadalen;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;11;J;J;I;J;269265;Josefin Eurenius;34;K;Sundsvall;34 år, Säljare, Njurunda;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;12;J;J;I;J;269266;Habibollah Effati;62;M;Sundsvall;62 år, Civilingenjör, Södermalm;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;13;J;J;I;J;269267;Rodney Engström;70;M;Sundsvall;70 år, Ekonom, Haga;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;14;J;J;I;J;269268;Sven Bredberg;76;M;Sundsvall;76 år, Fd. officer, Haga;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;15;J;J;I;J;269269;Cecilia Backlund;32;K;Sundsvall;32 år, Företagare, Södermalm;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;16;J;J;I;J;269270;Marianne Oscarson;64;K;Sundsvall;64 år, Sjuksköterska/företagare, Centrum;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;17;J;J;I;J;269271;Margareta Engström;69;K;Sundsvall;69 år, Sjuksköterska/vårdlärare, Haga;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;18;J;J;I;J;269272;Per-Magnus Forsberg;50;M;Sundsvall;50 år, Civilingenjör, Sidsjö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;19;J;J;I;J;269273;Jan-Erik Iversen;57;M;Sundsvall;57 år, Företagare, Alnö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;20;J;J;I;J;269274;Jan Heijbel;78;M;Sundsvall;78 år, Pensionär, Stenstan;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;21;J;J;I;J;269275;Lars A.G. Carlsson;62;M;Sundsvall;62 år, Jur. kand., Södermalm;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;22;J;J;I;J;269276;Åsa Melander;38;K;Sundsvall;38 år, Administratör, Skönsberg;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;23;J;J;I;J;269277;Henrik Öhman;39;M;Sundsvall;39 år, Företagare, Alnö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;24;J;J;I;J;269278;Thomas Burman;71;M;Sundsvall;71 år, Fd. företagare, Bergsåker;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;25;J;J;I;J;269279;Per Lindstrand;71;M;Sundsvall;71 år, Fd. rektor, Skönsberg;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;26;J;J;I;J;269280;Signe Weiss;48;K;Sundsvall;48 år, Företagare, Håkanstået;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;27;J;J;I;J;269281;Peter Sjöbom;54;M;Sundsvall;54 år, Civilekonom/beteendevetare, Baggböle, Njurunda;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;28;J;J;I;J;269282;Per Wahlberg;51;M;Sundsvall;51 år, Oppositionsråd, Stenstan;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;29;J;J;I;J;269283;Bo-Göran Strandfjäll;56;M;Sundsvall;56 år, Polis, Stenstan;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;30;J;J;I;J;269284;Leif Hemmingsson;62;M;Sundsvall;62 år, Poliskommisarie, Ankarsvik;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;31;J;J;I;J;269285;Jan Sjöberg;38;M;Sundsvall;38 år, Butiksansvarig innesäljare, Alnö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;32;J;J;I;J;240715;Elisabeth Gisslin Burman;71;K;Sundsvall;71 år, Fil. kand. media o kommunikation/sociologi , Bergsåker;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;33;J;J;I;J;269287;Narges Pour Moradian Esfandabadi;43;K;Sundsvall;43 år, Företagare, Stenstan;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;34;J;J;I;J;269288;Bertil Swenson;73;M;Sundsvall;73 år, Tjänsteman, Kubikenborg;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;35;J;J;I;J;269289;Linus Johansson;39;M;Sundsvall;39 år, Innertaksmontör/säljare, Skönsmon;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;36;J;J;I;J;269290;Marcus Sällstedt;47;M;Sundsvall;47 år, Enhetschef IT, Haga;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;37;J;J;I;J;269291;Sigbritt Eriksson;76;K;Sundsvall;76 år, Pensionerad socionom, Norrliden;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;38;J;J;I;J;269292;Åse Johansson;71;K;Sundsvall;71 år, Fd. distriktschef läkemedelsindustri, Skatan;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;39;J;J;I;J;269293;Efva Åström;75;K;Sundsvall;75 år, Biomedicinsk analytiker/arbetsmiljökonsult, Selånger;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;40;J;J;I;J;269294;Ludvig Berggren;20;M;Sundsvall;20 år, Distriktsordförande MUF, Södermalm;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;41;J;J;I;J;269295;Sofie Henning;29;K;Sundsvall;29 år, Banktjänsteman, Övre Bredsand;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;42;J;J;I;J;269296;Marcus Stenborg;33;M;Sundsvall;33 år, Produktionsledare, Övre Bredsand;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;43;J;J;I;J;269297;Jonas Ivarsson;28;M;Sundsvall;28 år, Kommunikatör, Kvissleby;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;44;J;J;I;J;269298;Klara Skoglund;22;K;Sundsvall;22 år, Säljare, Centrum;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;45;J;J;I;J;269299;Tom Bergman;22;M;Sundsvall;22 år, Säljare, Nacksta;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Moderaterna;M;1;S;14406;46;J;J;I;J;240717;Gunilla Molin;54;K;Sundsvall;54 år, Fil. mag. Medie- och kommunikationsvetenskap, Södermalm;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sundsvallspartiet;SDL;1165;S;15271;1;J;J;I;J;433131;Else Ammor;56;K;Sundsvall;56, jurist;100000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sundsvallspartiet;SDL;1165;S;15271;2;J;J;I;J;433132;Anders Engqvist;72;M;Sundsvall;72, småföretagare;100000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sundsvallspartiet;SDL;1165;S;15271;3;J;J;I;J;433133;Krister Bäckstrand;37;M;Sundsvall;37, högskoleingenjör;100000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sundsvallspartiet;SDL;1165;S;15271;4;J;J;I;J;433134;MariAnne Andersson;55;K;Sundsvall;55, fotograf;100000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sundsvallspartiet;SDL;1165;S;15271;5;J;J;I;J;433135;Inga-Britta Karlsson;71;K;Sundsvall;71, pensionär;100000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sundsvallspartiet;SDL;1165;S;15271;6;J;J;I;J;433136;Karin Wassman;66;K;Sundsvall;66, distriktssköterska;100000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sundsvallspartiet;SDL;1165;S;15271;7;J;J;I;J;433137;Mikael Westman;44;M;Sundsvall;44, chaufför;100000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sundsvallspartiet;SDL;1165;S;15271;8;J;J;I;J;433138;Eva Wikner;63;K;Sundsvall;63, undersköterska;100000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sundsvallspartiet;SDL;1165;S;15271;9;J;J;I;J;433139;Tony Östergren;47;M;Sundsvall;47, studiestödsutredare;100000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sundsvallspartiet;SDL;1165;S;15271;10;J;J;I;J;433140;Åsa Sundqvist;68;K;Sundsvall;68, pensionär;100000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sundsvallspartiet;SDL;1165;S;15271;11;J;J;I;J;433142;Gunilla Lundström;74;K;Sundsvall;74, pensionär;100000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sundsvallspartiet;SDL;1165;S;15271;12;J;J;I;J;433143;Björn Östlund;37;M;Sundsvall;37, lärare;100000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sundsvallspartiet;SDL;1165;S;15271;13;J;J;I;J;433144;Lasse Lundström;74;M;Sundsvall;74, pensionär;100000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;1;J;J;I;J;360558;Johnny Skalin;40;M;Sundsvall;40, Kvissleby;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;2;J;J;I;J;360100;Olga Nordlund;29;K;Sundsvall;29, Njurunda;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;3;J;J;I;J;360097;Roland Persson;73;M;Sundsvall;72, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;4;J;J;I;J;360087;Mats Hellhoff;64;M;Sundsvall;64, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;5;J;J;I;J;360128;Anneli Lindholm;48;K;Sundsvall;47, Kovland;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;6;J;J;I;J;360120;Börje Mattsson;61;M;Sundsvall;60, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;7;J;J;I;J;360137;Lars Skoglund;71;M;Sundsvall;71, Matfors;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;8;J;J;I;J;360111;Svetlana Afanasyeva;51;K;Sundsvall;51, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;9;J;J;I;J;360143;Stig Bergström;71;M;Sundsvall;71, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;10;J;J;I;J;360105;Gunnar Jönsson;68;M;Sundsvall;68, Liden;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;11;J;J;I;J;360098;Carina Sjöström;60;K;Sundsvall;59, Kvissleby;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;12;J;J;I;J;360113;Hans-Olof Häggström;67;M;Sundsvall;67, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;13;J;J;I;J;360126;Marianne Eliasson;69;K;Sundsvall;69, Matfors;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;14;J;J;I;J;360115;Tomasz Baron;45;M;Sundsvall;44, Sundsbruk;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;15;J;J;I;J;360123;Eva-Lotta Söderström;46;K;Sundsvall;45, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;16;J;J;I;J;360135;Ove Skalin;71;M;Sundsvall;71, Kvissleby;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;17;J;J;I;J;360089;Annelie Henriksson;51;K;Sundsvall;50, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;18;J;J;I;J;360131;Jonas Lingdén;34;M;Sundsvall;34, Matfors;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;19;J;J;I;J;360132;Ulf Rydberg;67;M;Sundsvall;67, Njurunda;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;20;J;J;I;J;360129;Björn Andersson;73;M;Sundsvall;73, Kvissleby;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;21;J;J;I;J;360106;Erika Stenberg Raatikainen;43;K;Sundsvall;43, Sundsbruk;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;22;J;J;I;J;360117;Cristian Haglund;33;M;Sundsvall;33, Matfors;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;23;J;J;I;J;360140;Sven Dahl;66;M;Sundsvall;65, Njurunda;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;24;J;J;I;J;360145;Benny Westholm;57;M;Sundsvall;57, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;25;J;J;I;J;360583;Sven-Erik Sandström;58;M;Sundsvall;57, Kvissleby;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;26;J;J;I;J;360584;Solbritt Rydberg;62;K;Sundsvall;62, Njurunda;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;27;J;J;I;J;360585;Tobias Bringstål;43;M;Sundsvall;43, Alnö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;28;J;J;I;J;360586;Ulf Sawert;56;M;Sundsvall;56, Kvissleby;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;14875;29;J;J;I;J;360587;Sven-Olof Nordlund;85;M;Sundsvall;84, Sundsvall;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;1;J;J;I;J;360558;Johnny Skalin;40;M;Sundsvall;40, Kvissleby;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;2;J;J;I;J;360100;Olga Nordlund;29;K;Sundsvall;29, Njurunda;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;3;J;J;I;J;360097;Roland Persson;73;M;Sundsvall;72, Sundsvall;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;4;J;J;I;J;360087;Mats Hellhoff;64;M;Sundsvall;64, Sundsvall;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;5;J;J;I;J;360128;Anneli Lindholm;48;K;Sundsvall;47, Kovland;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;6;J;J;I;J;360120;Börje Mattsson;61;M;Sundsvall;60, Sundsvall;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;7;J;J;I;J;360137;Lars Skoglund;71;M;Sundsvall;71, Matfors;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;8;J;J;I;J;360111;Svetlana Afanasyeva;51;K;Sundsvall;51, Sundsvall;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;9;J;J;I;J;360143;Stig Bergström;71;M;Sundsvall;71, Sundsvall;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;10;J;J;I;J;360105;Gunnar Jönsson;68;M;Sundsvall;68, Liden;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;11;J;J;I;J;360098;Carina Sjöström;60;K;Sundsvall;59, Kvissleby;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;12;J;J;I;J;360126;Marianne Eliasson;69;K;Sundsvall;69, Matfors;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;13;J;J;I;J;360115;Tomasz Baron;45;M;Sundsvall;44, Sundsbruk;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;14;J;J;I;J;360123;Eva-Lotta Söderström;46;K;Sundsvall;45, Sundsvall;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;15;J;J;I;J;360135;Ove Skalin;71;M;Sundsvall;71, Kvissleby;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;16;J;J;I;J;360089;Annelie Henriksson;51;K;Sundsvall;50, Sundsvall;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;17;J;J;I;J;360131;Jonas Lingdén;34;M;Sundsvall;34, Matfors;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;18;J;J;I;J;360132;Ulf Rydberg;67;M;Sundsvall;67, Njurunda;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;19;J;J;I;J;360129;Björn Andersson;73;M;Sundsvall;73, Kvissleby;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;20;J;J;I;J;360106;Erika Stenberg Raatikainen;43;K;Sundsvall;43, Sundsbruk;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;21;J;J;I;J;360117;Cristian Haglund;33;M;Sundsvall;33, Matfors;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;22;J;J;I;J;360140;Sven Dahl;66;M;Sundsvall;65, Njurunda;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;23;J;J;I;J;360145;Benny Westholm;57;M;Sundsvall;57, Sundsvall;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;24;J;J;I;J;360583;Sven-Erik Sandström;58;M;Sundsvall;57, Kvissleby;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;25;J;J;I;J;360584;Solbritt Rydberg;62;K;Sundsvall;62, Njurunda;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;26;J;J;I;J;360585;Tobias Bringstål;43;M;Sundsvall;43, Alnö;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Sverigedemokraterna;SD;110;S;15823;27;J;J;I;J;360587;Sven-Olof Nordlund;85;M;Sundsvall;84, Sundsvall;120000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;1;J;J;I;J;114065;Christiane Rüdiger;44;K;Sundsvall;barnmorska, Alnö;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;2;J;J;I;J;114066;Niklas Evaldsson;37;M;Sundsvall;brevbärare, Skönsmon;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;3;J;J;I;J;114067;Jenny Karlstein;39;K;Sundsvall;socionom, Sundsbruk;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;4;J;J;I;J;114068;Hans Zetterkvist;57;M;Sundsvall;administratör, Kvissleby;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;5;J;J;I;J;114069;Ann Modin;68;K;Sundsvall;lärare, Allsta;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;6;J;J;I;J;114070;Åke Johansson;64;M;Sundsvall;tågmästare, Centrum;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;7;J;J;I;J;114071;Kim Ottosson;68;K;Sundsvall;miljöinspektör, Indal;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;8;J;J;I;J;114072;Hicham Elkahtib;61;M;Sundsvall;juridisk rådgivare, Hästhagen;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;9;J;J;I;J;114073;Karin Gustafsson;59;K;Sundsvall;socialsekreterare, Nacksta;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;10;J;J;I;J;114074;Martin Jägesten;64;M;Sundsvall;lärare, Skönsberg;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;11;J;J;I;J;114075;Isabell Mixter;29;K;Sundsvall;handläggare, Bergsåker;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;12;J;J;I;J;114076;Olle Granath;40;M;Sundsvall;socialarbetare, Granloholm;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;13;J;J;I;J;114077;Lotta Wesslén;54;K;Sundsvall;distriktssköterska, Granloholm;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;14;J;J;I;J;114078;Anders Fagerblom;55;M;Timrå;socionom, Östermalm;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;15;J;J;I;J;114079;Ulrika Sedlund;38;K;Sundsvall;fastighetsskötare, Korsta;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;16;J;J;I;J;114080;Ronny Fröwall;53;M;Sundsvall;kriminalvårdare, Nacksta;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;17;J;J;I;J;114081;Gull-May Gustafsson;79;K;Sundsvall;pensionär, Nacksta;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;18;J;J;I;J;114082;Niklas Högdahl;49;M;Sundsvall;entreprenör, Bydalen;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;19;J;J;I;J;114083;Paulina Jonsson;20;K;Sundsvall;arbetssökande, Nacksta;233000;;J
+K;2281;Sundsvall;01;Sundsvalls  Första;Vänsterpartiet;V;5;S;13142;20;J;J;I;J;114084;Thomas Jäärf;64;M;Sundsvall;elentreprenör, Centrum;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;1;J;J;I;J;37103;Peder Björk;42;M;Sundsvall;42 år, Bosvedjan;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;2;J;J;I;J;37104;Bodil Hansson;42;K;Sundsvall;42 år, Södermalm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;3;J;J;I;J;37105;Niklas Säwén;26;M;Sundsvall;26 år, Centrum;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;4;J;J;I;J;37106;Christina Nordenö;63;K;Sundsvall;63 år, Allsta;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;5;J;J;I;J;37107;Jonas Väst;43;M;Sundsvall;43 år, Kubikenborg;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;6;J;J;I;J;37108;Anita Bdioui;60;K;Sundsvall;60 år, Centrum;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;7;J;J;I;J;37109;João Pinheiro;66;M;Sundsvall;66 år, Haga;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;8;J;J;I;J;37110;Diana Kapitanska;55;K;Sundsvall;55 år, Skönsberg;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;9;J;J;I;J;37111;Jan Lahti;37;M;Sundsvall;37 år, Sallyhill;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;10;J;J;I;J;37112;Caroline Sundström;32;K;Sundsvall;32 år, Skönsmon;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;11;J;J;I;J;37113;Leif Nilsson;62;M;Sundsvall;62 år, Skönsmon;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;12;J;J;I;J;37114;Marie Sjöbom Olsson;50;K;Sundsvall;50 år, Johannedal;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;13;J;J;I;J;37115;Stefan Broman;40;M;Sundsvall;40 år, Haga;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;14;J;J;I;J;37116;Annika Kallin;55;K;Sundsvall;55 år, Östermalm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;15;J;J;I;J;37117;Stefan Eriksson;55;M;Sundsvall;55 år, Skönsmon;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;16;J;J;I;J;37118;Frida Smedberg;34;K;Sundsvall;34 år, Kvissleby;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;17;J;J;I;J;37119;Lars-Olof Boström;67;M;Sundsvall;67 år, Södermalm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;18;J;J;I;J;37120;Frida Burman;45;K;Sundsvall;45 år, Södermalm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;19;J;J;I;J;37121;Leif Wiklund;55;M;Sundsvall;55 år, Centrum;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;20;J;J;I;J;37122;Priscilda Helenius;66;K;Sundsvall;66 år, Nacksta;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;21;J;J;I;J;37123;Johan Nikula;61;M;Sundsvall;61 år, Bosvedjan;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;22;J;J;I;J;37124;Eva Bergström Selling;60;K;Sundsvall;60 år, Centrum;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;23;J;J;I;J;37125;Hans Backlund;60;M;Sundsvall;60 år, Södermalm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;24;J;J;I;J;37126;Monika Lindberg;46;K;Sundsvall;46 år, Ljustadalen;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;25;J;J;I;J;37127;Johan Hörting;65;M;Sundsvall;65 år, Skönsberg;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;26;J;J;I;J;37128;Aagoth Lögdahl;72;K;Sundsvall;72 år, Bosvedjan;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;27;J;J;I;J;37129;Kristoffer Högstedt Gustavsson;29;M;Sundsvall;29 år, Bosvedjan;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;28;J;J;I;J;37130;Ann-Christine Meiding;50;K;Sundsvall;50 år, Kubikenborg;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;29;J;J;I;J;37131;Rolf Nordin;66;M;Sundsvall;66 år, Östermalm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;30;J;J;I;J;37132;Pernilla Holgert;53;K;Sundsvall;54 år, Centrum;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;31;J;J;I;J;37133;Nisar Khan;40;M;Sundsvall;40 år, Nacksta;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;32;J;J;I;J;37134;Maria Antonic;68;K;Sundsvall;68 år, Sallyhill;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;33;J;J;I;J;37135;Ulf Bylund;53;M;Sundsvall;53 år, Södermalm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;34;J;J;I;J;37136;Zhila Garmiani;26;K;Sundsvall;26 år, Nacksta;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;35;J;J;I;J;37137;Lars-Åke Andersson;57;M;Sundsvall;57 år, Haga;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;36;J;J;I;J;37138;Lottis Hörting;58;K;Sundsvall;58 år, Skönsberg;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;37;J;J;I;J;37139;Evert Nederberg;70;M;Sundsvall;71 år, Haga;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;38;J;J;I;J;37140;Emma Edvall;30;K;Sundsvall;30 år, Centrum;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;39;J;J;I;J;37141;Roland Grafström;78;M;Sundsvall;78 år, Haga;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;40;J;J;I;J;37142;Kurdistan Kasem Ali;40;K;Sundsvall;40 år, Skönsberg;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;41;J;J;I;J;37143;Sameer Lafta;65;M;Sundsvall;65 år, Sallyhill;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;42;J;J;I;J;37144;Lena Sjölén;62;K;Sundsvall;62 år, Johannedal;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;43;J;J;I;J;37145;Sami Chérif;33;M;Sundsvall;33 år, Nacksta;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;44;J;J;I;J;37146;Sophia Beyer Rankila;31;K;Sundsvall;31 år, Centrum;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;45;J;J;I;J;37147;Robin Sjölén;35;M;Sundsvall;35 år, Sundsbruk;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;46;J;J;I;J;37148;Veronica Österlund;62;K;Sundsvall;62 år, Skönsberg;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;47;J;J;I;J;37149;Robin Fonseca;19;M;Sundsvall;19 år, Skönsberg;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;48;J;J;I;J;37150;Ida Lindouf;41;K;Sundsvall;41 år, Skönsberg;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;49;J;J;I;J;37151;Lars Huss;66;M;Sundsvall;66 år, Nacksta;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12280;50;J;J;I;J;37152;Laila Ågren;76;K;Sundsvall;76 år, Skönsmon;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;1;J;J;I;J;37104;Bodil Hansson;42;K;Sundsvall;42 år, Södermalm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;2;J;J;I;J;37103;Peder Björk;42;M;Sundsvall;42 år, Bosvedjan;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;3;J;J;I;J;45337;Lisa Lööf;26;K;Sundsvall;26 år, Matfors;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;4;J;J;I;J;45338;Anders Hedenius;62;M;Sundsvall;62 år, Njurunda;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;5;J;J;I;J;45339;Åsa Ulander;52;K;Sundsvall;52 år, Alnö;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;6;J;J;I;J;45340;Roger Johansson;55;M;Sundsvall;55 år, Matfors;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;7;J;J;I;J;45341;Malin Larsson;38;K;Sundsvall;38 år, Stöde;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;8;J;J;I;J;45342;Burhan Hussain;62;M;Sundsvall;62 år, Granlo;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;9;J;J;I;J;45343;Arianne Sundman;49;K;Sundsvall;49 år, Alnö;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;10;J;J;I;J;45344;Jan-Olov Lampinen;66;M;Sundsvall;66 år, Granloholm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;11;J;J;I;J;45345;Jeanette Hedlund;35;K;Sundsvall;35 år, Matfors;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;12;J;J;I;J;45346;Mathias Hansson;21;M;Sundsvall;21 år, Bydalen;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;13;J;J;I;J;45347;Ann-Charlotte Evrung;54;K;Sundsvall;54 år, Liden;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;14;J;J;I;J;45348;Magnus Haak;45;M;Sundsvall;45 år, Alnö;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;15;J;J;I;J;45349;Jenny Bjerkås;40;K;Sundsvall;40 år, Alnö;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;16;J;J;I;J;45350;Fredrik Thunström;33;M;Sundsvall;33 år, Stöde;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;17;J;J;I;J;45351;Rose-Marie Antonic;49;K;Sundsvall;49 år, Alnö;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;18;J;J;I;J;45352;Kenneth Högström;58;M;Sundsvall;58 år, Njurunda;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;19;J;J;I;J;45353;Inger Arvidsson;67;K;Sundsvall;67 år, Njurunda;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;20;J;J;I;J;45354;Niclas Burvall;49;M;Sundsvall;49 år, Holm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;21;J;J;I;J;45355;Rebecca Lampinen;25;K;Sundsvall;25 år, Granloholm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;22;J;J;I;J;45356;Ludvig Lind;19;M;Sundsvall;19 år, Granloholm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;23;J;J;I;J;45357;Karolina Sundberg;34;K;Sundsvall;34 år, Indal;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;24;J;J;I;J;45358;Kent Larsson;48;M;Sundsvall;48 år, Matfors;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;25;J;J;I;J;45359;Carina Staf;39;K;Sundsvall;39 år, Njurunda;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;26;J;J;I;J;45360;Alaa Ourabi Alkhn;35;M;Sundsvall;35 år, Alnö;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;27;J;J;I;J;45361;Annika Söderberg;56;K;Sundsvall;56 år, Granloholm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;28;J;J;I;J;45362;Michael Sjödin;47;M;Sundsvall;47 år, Njurunda;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;29;J;J;I;J;45363;Adele Flodin;62;K;Sundsvall;62 år, Kvissleby;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;30;J;J;I;J;45364;Magnus Svensson;54;M;Sundsvall;54 år, Alnö;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;31;J;J;I;J;45365;Lena Holmberg Eriksson;51;K;Sundsvall;51 år, Granlo;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;32;J;J;I;J;45366;Jonathan Brinkeback;28;M;Sundsvall;28 år, Granlo;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;33;J;J;I;J;45367;Helena Gudasic;45;K;Sundsvall;45 år, Granloholm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;34;J;J;I;J;45368;Karaman Chalak;56;M;Sundsvall;56 år, Kvissleby;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;35;J;J;I;J;45369;Ulla Näsman;67;K;Sundsvall;67 år, Alnö;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;36;J;J;I;J;45370;Kenth Söder;56;M;Sundsvall;56 år, Nedansjö;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;37;J;J;I;J;45371;Jessica Höglin;40;K;Sundsvall;40 år, Matfors;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;38;J;J;I;J;45372;Ulf Sjölinder;62;M;Sundsvall;58 år, Stöde;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;39;J;J;I;J;45373;Lena Sjöberg;59;K;Sundsvall;59 år, Nedansjö;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;40;J;J;I;J;45374;Tommy Eriksson;65;M;Sundsvall;65 år, Matfors;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;41;J;J;I;J;45375;Marianne Törngren;55;K;Sundsvall;55 år, Bergsåker;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;42;J;J;I;J;45376;Robert Kuusikko;48;M;Sundsvall;48 år, Granlo;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;43;J;J;I;J;45377;Carin Öhlund;60;K;Sundsvall;60 år, Granloholm;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;44;J;J;I;J;45378;Håkan Byberg;71;M;Sundsvall;71 år, Njurunda;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;45;J;J;I;J;45379;Elisabeth Eng Åkerlund;57;K;Sundsvall;57 år, Alnö;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;46;J;J;I;J;45380;Mikael Sundqvist;49;M;Sundsvall;50 år, Alnö;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;47;J;J;I;J;45381;Margareta Jansson;56;K;Sundsvall;56 år, Njurunda;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;48;J;J;I;J;45382;Hans Dahlström Åsander;50;M;Sundsvall;50 år, Matfors;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;49;J;J;I;J;45383;Ylva Zetterström;54;K;Sundsvall;54 år, Nedansjö;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;50;J;J;I;J;45384;Kenneth Nordström;63;M;Sundsvall;63 år, Kvissleby;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;51;J;J;I;J;45385;Sanna Boholm;19;K;Sundsvall;18 år, Kvissleby;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Arbetarepartiet-Socialdemokraterna;S;2;S;12390;52;J;J;I;J;45386;Svante Lejon;66;M;Sundsvall;66 år, Kovland;137000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;1;J;J;I;J;48970;Hans Forsberg;34;M;Sundsvall;34 år, Njurunda;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;2;J;J;I;J;48971;Sanna Jonsson;32;K;Sundsvall;32 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;3;J;J;I;J;48972;Kjell Bergkvist;63;M;Sundsvall;62 år, Kovland;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;4;J;J;I;J;48973;Anita Forslin;61;K;Sundsvall;60 år, Alnö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;5;J;J;I;J;48974;Magnus Persson;54;M;Sundsvall;53 år, Matfors;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;6;J;J;I;J;48975;Emma Flemström Heurgren;44;K;Sundsvall;43 år, Alnö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;7;J;J;I;J;48976;Jan Ola Andersson;65;M;Sundsvall;65 år, Attmar;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;8;J;J;I;J;48977;Anna Edin;52;K;Sundsvall;52 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;9;J;J;I;J;48978;Jonas Borg;51;M;Sundsvall;51 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;10;J;J;I;J;48979;Anneli Rehnfors;60;K;Sundsvall;60 år, Njurunda;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;11;J;J;I;J;48980;Erik Thunström;59;M;Sundsvall;59 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;12;J;J;I;J;48981;Maria Åström;55;K;Sundsvall;55 år, Indal;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;13;J;J;I;J;48982;Helge Sjödin;64;M;Sundsvall;54 år, Bydalen;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;14;J;J;I;J;48983;Anja Åkerlund;45;K;Sundsvall;45 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;15;J;J;I;J;48984;Jeanette Lindblom;64;K;Sundsvall;64 år Attmar;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;16;J;J;I;J;48985;Rebecka Mc Neill;20;K;Sundsvall;20 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;17;J;J;I;J;48986;Martin Lindh;35;M;Sundsvall;35 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;18;J;J;I;J;48987;Yvonne Flodén;53;K;Sundsvall;53 år, Stöde;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;19;J;J;I;J;48988;Sara Eriksson;44;K;Sundsvall;44 år, Njurunda;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;20;J;J;I;J;48989;Roland Hultman;67;M;Sundsvall;67 år, Holm;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;21;J;J;I;J;8549;Anne-Li Sjölund;52;K;Sundsvall;52 år, Alnö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;22;J;J;I;J;48991;Sofia Suomalainen;39;K;Sundsvall;39 år, Alnö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;23;J;J;I;J;48992;Göran Söderblom;78;M;Sundsvall;78 år, Indal;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;24;J;J;I;J;48993;Marcus Rick;41;M;Sundsvall;41 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Centerpartiet;C;4;S;12442;25;J;J;I;J;48994;Thomas Persson;48;M;Sundsvall;48 år, Stöde;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Feministiskt initiativ;FI;532;S;13131;1;J;J;I;J;113544;Elin Lockneus;29;K;Sundsvall;29 år, doktorand, präst, Matfors;64000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Feministiskt initiativ;FI;532;S;13131;2;J;J;I;J;113545;Daniel Högberg;32;M;Sundsvall;32 år, Java-utvecklare, ledsagare, Sundsbruk;64000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Feministiskt initiativ;FI;532;S;13131;3;J;J;I;J;113546;Ingrid Möller;71;K;Sundsvall;71 år, leg.arbetsterapeut, arkitekt;64000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Feministiskt initiativ;FI;532;S;13131;4;J;J;I;J;113547;Anna Gustafsson;30;K;Sundsvall;30 år, personlig assistent, Sundsbruk;64000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Feministiskt initiativ;FI;532;S;13131;5;J;J;I;J;113548;Sara Svensson;19;K;Sundsvall;19 år, samhällsprogrammet i gymnasiet, Skönsmon;64000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Feministiskt initiativ;FI;532;S;13131;6;J;J;I;J;167806;Mika Andersen;19;K;Sundsvall;19 år, ledarskapsprogrammet i gymnasiet, Södermalm;64000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Feministiskt initiativ;FI;532;S;13131;7;J;J;I;J;113549;Josef Eriksson;37;M;Sundsvall;37 år, gitarrlärare, Töva;64000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Feministiskt initiativ;FI;532;S;13131;8;J;J;I;J;114019;Elsa Undin;23;K;Sundsvall;23 år, teknisk support, Skönsmon;64000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Feministiskt initiativ;FI;532;S;13131;9;J;J;I;J;113550;Kerstin Våge;52;K;Sundsvall;52 år, bibliotekarie, Östermalm;64000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Feministiskt initiativ;FI;532;S;13131;10;J;J;I;J;113551;Peter Selander;44;M;Sundsvall;44 år, religionsvetare, yogalärare, Södermalm;64000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Feministiskt initiativ;FI;532;S;13131;11;J;J;I;J;113552;Krissy Virtanen;28;M;Sundsvall;28 år, lärarstuderande, Juniskär;64000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Feministiskt initiativ;FI;532;S;13131;12;J;J;I;J;113553;Eila Wall Boholm;25;K;Sundsvall;25 år, skådespelare, poet, poddare, Kvissleby;64000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Feministiskt initiativ;FI;532;S;13131;13;J;J;I;J;113628;Irma Henriksson;72;K;Sundsvall;72 år, tolk, översättare, förskollärare, Korsta;64000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;1;J;J;I;J;20903;Liza-Maria Norlin;38;K;Sundsvall;38, Lärare, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;2;J;J;I;J;21004;Emil Esping;42;M;Sundsvall;42, Ekonom, Kvissleby;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;3;J;J;I;J;50005;Kate Almroth;48;K;Sundsvall;48, Affärsutvecklare, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;4;J;J;I;J;20909;Stefan Hill;54;M;Sundsvall;54, Civilingenjör, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;5;J;J;I;J;50007;Ronja Strid;24;K;Sundsvall;24, Student, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;6;J;J;I;J;20922;Miriam Monsell;38;K;Sundsvall;38, Ekonom, Alnö;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;7;J;J;I;J;20912;Joachim Jonsson;31;M;Sundsvall;30, Student, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;8;J;J;I;J;50010;Sara Svensson;50;K;Sundsvall;50, Farmaceut, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;9;J;J;I;J;50011;Hailemeskel Alem Meles;37;M;Sundsvall;37, Sjuksköterska, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;10;J;J;I;J;21015;Emelie Granemar;31;K;Sundsvall;31, Socionom, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;11;J;J;I;J;20914;Robin Håkansson;29;M;Sundsvall;29, Ekonom, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;12;J;J;I;J;20919;Britt-Mari Brynielsson;61;K;Sundsvall;61, Dagbarnvårdare, Kvissleby;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;13;J;J;I;J;50015;Gunnar Åström;73;M;Sundsvall;73, Pensionär, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;14;J;J;I;J;50016;Elisabeth Walfridsson;78;K;Sundsvall;78, Frivilligarbetare, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;15;J;J;I;J;50017;Anders Eriksson;51;M;Sundsvall;51, Copywriter, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;16;J;J;I;J;50018;Lena Nordin;65;K;Sundsvall;65, Socionom, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;17;J;J;I;J;50019;Robert Nordin;65;M;Sundsvall;65, Affärsutvecklare, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;18;J;J;I;J;50020;Yvonne Bengtson;64;K;Sundsvall;64, Butikschef, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;19;J;J;I;J;50021;Berndt Wikman;70;M;Sundsvall;70, Pensionär, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;20;J;J;I;J;50022;Josef Nordin;43;M;Sundsvall;43, IT-arkitekt, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;21;J;J;I;J;50023;Bengt Åke Bengtson;71;M;Sundsvall;71, Konsult, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;22;J;J;I;J;50024;Anders Mähler;76;M;Sundsvall;76, Pensionär, Sundsbruk;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;23;J;J;I;J;20924;Joakim Westlinder;22;M;Sundsvall;22, Butiksarbetare, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;24;J;J;I;J;50026;Lars Ågren;77;M;Sundsvall;77, Pensionär, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;25;J;J;I;J;50027;Berit Andersson;85;K;Sundsvall;86, Pensionär, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Kristdemokraterna;KD;68;S;12458;26;J;J;I;J;50028;Leif Jacobsson;52;M;Sundsvall;52, Merchandiser, Sundsvall;232000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;132601;Wästfelt, Anders Sture;75;M;Sundsvall;;0;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;1;J;J;I;J;277223;Fáten Nilsson;46;K;Sundsvall;Rådgivare, 47 år, Haga;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;2;J;J;I;J;277228;Stefan Falk;59;M;Sundsvall;Docent, 59 år, Sidsjö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;3;J;J;I;J;277235;Catrin Eliasson;51;K;Sundsvall;Företagare, 51 år, Alnö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;4;J;J;I;J;277322;Annelie Luthman;53;K;Sundsvall;Jurist, 53 år, Alnö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;5;J;J;I;J;49208;Alex Nilsson;20;M;Sundsvall;Studerande, 20 år, Sallyhill;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;6;J;J;I;J;277271;Ingeborg Wiksten;55;K;Sundsvall;Konsult, 55 år, Njurunda;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;7;J;J;I;J;277231;Lars Holmgren;66;M;Sundsvall;Marknadsekonom, 66 år, Bydalen;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;8;J;J;I;J;277225;Ina Lindström Skandevall;37;K;Sundsvall;Statsvetare, 37 år, Skönsberg;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;9;J;J;I;J;277233;Martin Liljeros;45;M;Sundsvall;Civilekonom, 45 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;10;J;J;I;J;277836;Maria Lilja;46;K;Sundsvall;Handläggare, 46 år, Kvissleby;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;11;J;J;I;J;277222;Arne Engholm;70;M;Sundsvall;Pensionär, 70 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;12;J;J;I;J;277838;Jeanette Lozanovski;42;K;Sundsvall;Kommunikatör, 42 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;13;J;J;I;J;277839;Mistiresilassie Tewolde;32;K;Sundsvall;Studerande, 32 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;14;J;J;I;J;277255;Stefan Westman;30;M;Sundsvall;Ambulanssjuksköterska, 29 år, Haga;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;15;J;J;I;J;277841;Elise Backman;25;K;Sundsvall;Studerande, 24 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;16;J;J;I;J;277238;Marcus Hellström;37;M;Sundsvall;Kock/studerande, 37 år, Bosvedjan;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;17;J;J;I;J;277843;Maria Räfsbäck;46;K;Sundsvall;Handläggare, 46 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;18;J;J;I;J;277844;Zdenko Cabrajic;35;M;Sundsvall;Projektledare, 35 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;19;J;J;I;J;277845;Ebba Ädel;20;K;Sundsvall;Butiksbiträde, 20 år, Gångviken;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;20;J;J;I;J;277242;Mathias Lindwe;31;M;Sundsvall;Testledare, 31 år, Sallyhill;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;21;J;J;I;J;277847;Ulla Grelsson;67;K;Sundsvall;Ingenjör, 67 år, Holm;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;22;J;J;I;J;277848;Michael Jonsson;33;M;Sundsvall;Skattehandläggare, 33 år, Haga;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;23;J;J;I;J;277849;Ulla Norgren;80;K;Sundsvall;Senior, 80 år, Stöde;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;24;J;J;I;J;277850;Dominic Nordenberg;22;M;Sundsvall;Kommunikatör, 22 år, Södermalm;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;25;J;J;I;J;349496;Inga-Lill Hägglund;67;K;Sundsvall;Distriktssköterska, 67 år, Alnö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;26;J;J;I;J;277851;Sigge Godin;80;M;Sundsvall;F.d riksdagsledamot, 80 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;27;J;J;I;J;277260;Jakob Machuca;36;M;Sundsvall;Advokat, 36 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;28;J;J;I;J;277853;Göte Stenlund;80;M;Sundsvall;Företagsekonom, 80 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;29;J;J;I;J;277854;Anders Odmark;44;M;Sundsvall;Jurist, 44 år, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Liberalerna (tidigare Folkpartiet);L;3;S;14481;30;J;J;I;J;277855;Leif Carlsson;73;M;Sundsvall;Senior, 73 år, Alnö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Medborgerlig Samling;MED;1296;S;15350;1;J;J;I;J;128554;Daniel Lundin;49;M;Sundsvall;49 år, snickare och byggnadsvårdare;12000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;1;J;J;I;J;368517;Johanna Thurdin;47;K;Sundsvall;47år, civilingenjör, Alnö;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;2;J;J;I;J;368290;Maria Algotsson;46;K;Sundsvall;46 år, vik skola-vård-omsorg, Njurunda;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;3;J;J;I;J;368302;Magnus Bylund;40;M;Sundsvall;40 år, socialarbetare, Sundsbruk;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;4;J;J;I;J;368301;Sabina Mattsson;28;K;Sundsvall;28 år, leg psykolog, Sundsvall;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;5;J;J;I;J;373110;Wiltrud Daniels;42;K;Sundsvall;42 år, gymnasie- och högskolelärare, Kvissleby;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;6;J;J;I;J;368311;Mathias Rex;33;M;Sundsvall;33 år, servicetekniker, Haga;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;7;J;J;I;J;373112;Cecilia Dahlbäck;51;K;Sundsvall;51 år, fil mag, Sallyhill;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;8;J;J;I;J;368296;Angel Villaverde;55;M;Sundsvall;55 år, lärare, Sundsbruk;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;9;J;J;I;J;373114;Titti Pettersson;54;K;Sundsvall;54 år, aktivitetsledare, Södermalm;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;10;J;J;I;J;368304;Sverker Ottosson;52;M;Sundsvall;52 år, socialarbetare, Bergsåker;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;11;J;J;I;J;373116;Johanna Simonsson;26;K;Sundsvall;26 år, projektledare, Matfors;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;12;J;J;I;J;373117;Erik Sönegård;29;M;Sundsvall;29 år, civilingenjör, Vinkeltået;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;13;J;J;I;J;373118;Britt-Inger Eriksson;69;K;Sundsvall;69 år, pensionär, Alnö;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;14;J;J;I;J;368309;Per-Olof Swing;38;M;Sundsvall;38 år, kyrkomusiker och civilekonom, Sundsvall;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;15;J;J;I;J;373120;Harriet Olsén;48;K;Sundsvall;48 år, undersköterska, Sallyhill;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;16;J;J;I;J;373121;Gunnar Farm;66;M;Sundsvall;66 år, egenföretagare, Norrmalm;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;17;J;J;I;J;373122;Monica Engqvist;67;K;Sundsvall;67 år, lärare, Matfors;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;18;J;J;I;J;373123;Mattias Ekhem;48;M;Sundsvall;48 år, verksamhetsarkitekt, Hemmanet;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;19;J;J;I;J;373124;Jan-Olof Tedebrand;73;M;Sundsvall;73 år, pensionär, Nacksta;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;20;J;J;I;J;373125;Torbjörn Forsman;51;M;Sundsvall;51 år, konstruktör, Alnö;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;21;J;J;I;J;373126;Klas Forsman;81;M;Sundsvall;81 år, fd univ. lektor, Bydalen;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;22;J;J;I;J;373127;Dick Sörholm;57;M;Sundsvall;57 år, ingenjör, Stöde;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;23;J;J;I;J;373128;Kerstin Bagge;80;K;Sundsvall;80 år, pensionär, Granlo;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;24;J;J;I;J;373129;Holger Daniels;44;M;Sundsvall;44, lokförare, Kvissleby;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Miljöpartiet de gröna;MP;55;S;14954;25;J;J;I;J;373130;Runa Forsman;81;K;Sundsvall;81, fd apotekare, Bydalen;176000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;1;J;J;I;J;240708;Alicja Kapica;38;K;Sundsvall;38 år, Civilekonom, Övre Bredsand;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;2;J;J;I;J;269256;Viktoria Jansson;29;K;Sundsvall;29 år, Politisk sekreterare, Granlo;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;3;J;J;I;J;240706;Jörgen Berglund;44;M;Sundsvall;44 år, Oppositionsråd, Södermalm;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;4;J;J;I;J;269258;Patrik Gustavsson;50;M;Sundsvall;50 år, IT Solution Manager, Södermalm;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;5;J;J;I;J;269259;Bertil Kjellberg;65;M;Sundsvall;65 år, Advokat/fd. riksdagsledamot, Norrliden;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;6;J;J;I;J;269260;Lina Heidenbeck;29;K;Sundsvall;29 år, Konsult/feminist, Kovland;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;7;J;J;I;J;269261;Tom Emanuelz;70;M;Sundsvall;70 år, Pensionär, Haga;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;8;J;J;I;J;240710;Mikael Gäfvert;57;M;Sundsvall;57 år, Pol. mag., Stenstan;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;9;J;J;I;J;240712;Linda Strandfjäll;45;K;Sundsvall;45 år, Brottsutredare, Stenstan;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;10;J;J;I;J;269264;Fredrik Lohman;28;M;Sundsvall;28 år, Ambulanssjuksköterska, Ljustadalen;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;11;J;J;I;J;269265;Josefin Eurenius;34;K;Sundsvall;34 år, Säljare, Njurunda;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;12;J;J;I;J;269266;Habibollah Effati;62;M;Sundsvall;62 år, Civilingenjör, Södermalm;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;13;J;J;I;J;269267;Rodney Engström;70;M;Sundsvall;70 år, Ekonom, Haga;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;14;J;J;I;J;269268;Sven Bredberg;76;M;Sundsvall;76 år, Fd. officer, Haga;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;15;J;J;I;J;269269;Cecilia Backlund;32;K;Sundsvall;32 år, Företagare, Södermalm;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;16;J;J;I;J;269270;Marianne Oscarson;64;K;Sundsvall;64 år, Sjuksköterska/företagare, Centrum;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;17;J;J;I;J;269271;Margareta Engström;69;K;Sundsvall;69 år, Sjuksköterska/vårdlärare, Haga;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;18;J;J;I;J;269272;Per-Magnus Forsberg;50;M;Sundsvall;50 år, Civilingenjör, Sidsjö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;19;J;J;I;J;269273;Jan-Erik Iversen;57;M;Sundsvall;57 år, Företagare, Alnö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;20;J;J;I;J;269274;Jan Heijbel;78;M;Sundsvall;78 år, Pensionär, Stenstan;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;21;J;J;I;J;269275;Lars A.G. Carlsson;62;M;Sundsvall;62 år, Jur. kand., Södermalm;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;22;J;J;I;J;269276;Åsa Melander;38;K;Sundsvall;38 år, Administratör, Skönsberg;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;23;J;J;I;J;269277;Henrik Öhman;39;M;Sundsvall;39 år, Företagare, Alnö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;24;J;J;I;J;269278;Thomas Burman;71;M;Sundsvall;71 år, Fd. företagare, Bergsåker;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;25;J;J;I;J;269279;Per Lindstrand;71;M;Sundsvall;71 år, Fd. rektor, Skönsberg;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;26;J;J;I;J;269280;Signe Weiss;48;K;Sundsvall;48 år, Företagare, Håkanstået;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;27;J;J;I;J;269281;Peter Sjöbom;54;M;Sundsvall;54 år, Civilekonom/beteendevetare, Baggböle, Njurunda;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;28;J;J;I;J;269282;Per Wahlberg;51;M;Sundsvall;51 år, Oppositionsråd, Stenstan;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;29;J;J;I;J;269283;Bo-Göran Strandfjäll;56;M;Sundsvall;56 år, Polis, Stenstan;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;30;J;J;I;J;269284;Leif Hemmingsson;62;M;Sundsvall;62 år, Poliskommisarie, Ankarsvik;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;31;J;J;I;J;269285;Jan Sjöberg;38;M;Sundsvall;38 år, Butiksansvarig innesäljare, Alnö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;32;J;J;I;J;240715;Elisabeth Gisslin Burman;71;K;Sundsvall;71 år, Fil. kand. media o kommunikation/sociologi , Bergsåker;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;33;J;J;I;J;269287;Narges Pour Moradian Esfandabadi;43;K;Sundsvall;43 år, Företagare, Stenstan;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;34;J;J;I;J;269288;Bertil Swenson;73;M;Sundsvall;73 år, Tjänsteman, Kubikenborg;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;35;J;J;I;J;269289;Linus Johansson;39;M;Sundsvall;39 år, Innertaksmontör/säljare, Skönsmon;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;36;J;J;I;J;269290;Marcus Sällstedt;47;M;Sundsvall;47 år, Enhetschef IT, Haga;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;37;J;J;I;J;269291;Sigbritt Eriksson;76;K;Sundsvall;76 år, Pensionerad socionom, Norrliden;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;38;J;J;I;J;269292;Åse Johansson;71;K;Sundsvall;71 år, Fd. distriktschef läkemedelsindustri, Skatan;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;39;J;J;I;J;269293;Efva Åström;75;K;Sundsvall;75 år, Biomedicinsk analytiker/arbetsmiljökonsult, Selånger;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;40;J;J;I;J;269294;Ludvig Berggren;20;M;Sundsvall;20 år, Distriktsordförande MUF, Södermalm;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;41;J;J;I;J;269295;Sofie Henning;29;K;Sundsvall;29 år, Banktjänsteman, Övre Bredsand;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;42;J;J;I;J;269296;Marcus Stenborg;33;M;Sundsvall;33 år, Produktionsledare, Övre Bredsand;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;43;J;J;I;J;269297;Jonas Ivarsson;28;M;Sundsvall;28 år, Kommunikatör, Kvissleby;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;44;J;J;I;J;269298;Klara Skoglund;22;K;Sundsvall;22 år, Säljare, Centrum;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;45;J;J;I;J;269299;Tom Bergman;22;M;Sundsvall;22 år, Säljare, Nacksta;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Moderaterna;M;1;S;14406;46;J;J;I;J;240717;Gunilla Molin;54;K;Sundsvall;54 år, Fil. mag. Medie- och kommunikationsvetenskap, Södermalm;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sundsvallspartiet;SDL;1165;S;15271;1;J;J;I;J;433131;Else Ammor;56;K;Sundsvall;56, jurist;100000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sundsvallspartiet;SDL;1165;S;15271;2;J;J;I;J;433132;Anders Engqvist;72;M;Sundsvall;72, småföretagare;100000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sundsvallspartiet;SDL;1165;S;15271;3;J;J;I;J;433133;Krister Bäckstrand;37;M;Sundsvall;37, högskoleingenjör;100000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sundsvallspartiet;SDL;1165;S;15271;4;J;J;I;J;433134;MariAnne Andersson;55;K;Sundsvall;55, fotograf;100000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sundsvallspartiet;SDL;1165;S;15271;5;J;J;I;J;433135;Inga-Britta Karlsson;71;K;Sundsvall;71, pensionär;100000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sundsvallspartiet;SDL;1165;S;15271;6;J;J;I;J;433136;Karin Wassman;66;K;Sundsvall;66, distriktssköterska;100000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sundsvallspartiet;SDL;1165;S;15271;7;J;J;I;J;433137;Mikael Westman;44;M;Sundsvall;44, chaufför;100000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sundsvallspartiet;SDL;1165;S;15271;8;J;J;I;J;433138;Eva Wikner;63;K;Sundsvall;63, undersköterska;100000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sundsvallspartiet;SDL;1165;S;15271;9;J;J;I;J;433139;Tony Östergren;47;M;Sundsvall;47, studiestödsutredare;100000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sundsvallspartiet;SDL;1165;S;15271;10;J;J;I;J;433140;Åsa Sundqvist;68;K;Sundsvall;68, pensionär;100000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sundsvallspartiet;SDL;1165;S;15271;11;J;J;I;J;433142;Gunilla Lundström;74;K;Sundsvall;74, pensionär;100000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sundsvallspartiet;SDL;1165;S;15271;12;J;J;I;J;433143;Björn Östlund;37;M;Sundsvall;37, lärare;100000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sundsvallspartiet;SDL;1165;S;15271;13;J;J;I;J;433144;Lasse Lundström;74;M;Sundsvall;74, pensionär;100000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;1;J;J;I;J;360558;Johnny Skalin;40;M;Sundsvall;40, Kvissleby;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;2;J;J;I;J;360100;Olga Nordlund;29;K;Sundsvall;29, Njurunda;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;3;J;J;I;J;360097;Roland Persson;73;M;Sundsvall;72, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;4;J;J;I;J;360087;Mats Hellhoff;64;M;Sundsvall;64, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;5;J;J;I;J;360128;Anneli Lindholm;48;K;Sundsvall;47, Kovland;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;6;J;J;I;J;360120;Börje Mattsson;61;M;Sundsvall;60, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;7;J;J;I;J;360137;Lars Skoglund;71;M;Sundsvall;71, Matfors;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;8;J;J;I;J;360111;Svetlana Afanasyeva;51;K;Sundsvall;51, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;9;J;J;I;J;360143;Stig Bergström;71;M;Sundsvall;71, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;10;J;J;I;J;360105;Gunnar Jönsson;68;M;Sundsvall;68, Liden;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;11;J;J;I;J;360098;Carina Sjöström;60;K;Sundsvall;59, Kvissleby;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;12;J;J;I;J;360113;Hans-Olof Häggström;67;M;Sundsvall;67, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;13;J;J;I;J;360126;Marianne Eliasson;69;K;Sundsvall;69, Matfors;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;14;J;J;I;J;360115;Tomasz Baron;45;M;Sundsvall;44, Sundsbruk;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;15;J;J;I;J;360123;Eva-Lotta Söderström;46;K;Sundsvall;45, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;16;J;J;I;J;360135;Ove Skalin;71;M;Sundsvall;71, Kvissleby;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;17;J;J;I;J;360089;Annelie Henriksson;51;K;Sundsvall;50, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;18;J;J;I;J;360131;Jonas Lingdén;34;M;Sundsvall;34, Matfors;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;19;J;J;I;J;360132;Ulf Rydberg;67;M;Sundsvall;67, Njurunda;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;20;J;J;I;J;360129;Björn Andersson;73;M;Sundsvall;73, Kvissleby;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;21;J;J;I;J;360106;Erika Stenberg Raatikainen;43;K;Sundsvall;43, Sundsbruk;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;22;J;J;I;J;360117;Cristian Haglund;33;M;Sundsvall;33, Matfors;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;23;J;J;I;J;360140;Sven Dahl;66;M;Sundsvall;65, Njurunda;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;24;J;J;I;J;360145;Benny Westholm;57;M;Sundsvall;57, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;25;J;J;I;J;360583;Sven-Erik Sandström;58;M;Sundsvall;57, Kvissleby;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;26;J;J;I;J;360584;Solbritt Rydberg;62;K;Sundsvall;62, Njurunda;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;27;J;J;I;J;360585;Tobias Bringstål;43;M;Sundsvall;43, Alnö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;28;J;J;I;J;360586;Ulf Sawert;56;M;Sundsvall;56, Kvissleby;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;14875;29;J;J;I;J;360587;Sven-Olof Nordlund;85;M;Sundsvall;84, Sundsvall;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;1;J;J;I;J;360558;Johnny Skalin;40;M;Sundsvall;40, Kvissleby;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;2;J;J;I;J;360100;Olga Nordlund;29;K;Sundsvall;29, Njurunda;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;3;J;J;I;J;360097;Roland Persson;73;M;Sundsvall;72, Sundsvall;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;4;J;J;I;J;360087;Mats Hellhoff;64;M;Sundsvall;64, Sundsvall;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;5;J;J;I;J;360128;Anneli Lindholm;48;K;Sundsvall;47, Kovland;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;6;J;J;I;J;360120;Börje Mattsson;61;M;Sundsvall;60, Sundsvall;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;7;J;J;I;J;360137;Lars Skoglund;71;M;Sundsvall;71, Matfors;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;8;J;J;I;J;360111;Svetlana Afanasyeva;51;K;Sundsvall;51, Sundsvall;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;9;J;J;I;J;360143;Stig Bergström;71;M;Sundsvall;71, Sundsvall;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;10;J;J;I;J;360105;Gunnar Jönsson;68;M;Sundsvall;68, Liden;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;11;J;J;I;J;360098;Carina Sjöström;60;K;Sundsvall;59, Kvissleby;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;12;J;J;I;J;360126;Marianne Eliasson;69;K;Sundsvall;69, Matfors;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;13;J;J;I;J;360115;Tomasz Baron;45;M;Sundsvall;44, Sundsbruk;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;14;J;J;I;J;360123;Eva-Lotta Söderström;46;K;Sundsvall;45, Sundsvall;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;15;J;J;I;J;360135;Ove Skalin;71;M;Sundsvall;71, Kvissleby;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;16;J;J;I;J;360089;Annelie Henriksson;51;K;Sundsvall;50, Sundsvall;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;17;J;J;I;J;360131;Jonas Lingdén;34;M;Sundsvall;34, Matfors;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;18;J;J;I;J;360132;Ulf Rydberg;67;M;Sundsvall;67, Njurunda;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;19;J;J;I;J;360129;Björn Andersson;73;M;Sundsvall;73, Kvissleby;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;20;J;J;I;J;360106;Erika Stenberg Raatikainen;43;K;Sundsvall;43, Sundsbruk;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;21;J;J;I;J;360117;Cristian Haglund;33;M;Sundsvall;33, Matfors;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;22;J;J;I;J;360140;Sven Dahl;66;M;Sundsvall;65, Njurunda;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;23;J;J;I;J;360145;Benny Westholm;57;M;Sundsvall;57, Sundsvall;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;24;J;J;I;J;360583;Sven-Erik Sandström;58;M;Sundsvall;57, Kvissleby;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;25;J;J;I;J;360584;Solbritt Rydberg;62;K;Sundsvall;62, Njurunda;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;26;J;J;I;J;360585;Tobias Bringstål;43;M;Sundsvall;43, Alnö;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Sverigedemokraterna;SD;110;S;15823;27;J;J;I;J;360587;Sven-Olof Nordlund;85;M;Sundsvall;84, Sundsvall;120000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;1;J;J;I;J;114065;Christiane Rüdiger;44;K;Sundsvall;barnmorska, Alnö;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;2;J;J;I;J;114066;Niklas Evaldsson;37;M;Sundsvall;brevbärare, Skönsmon;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;3;J;J;I;J;114067;Jenny Karlstein;39;K;Sundsvall;socionom, Sundsbruk;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;4;J;J;I;J;114068;Hans Zetterkvist;57;M;Sundsvall;administratör, Kvissleby;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;5;J;J;I;J;114069;Ann Modin;68;K;Sundsvall;lärare, Allsta;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;6;J;J;I;J;114070;Åke Johansson;64;M;Sundsvall;tågmästare, Centrum;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;7;J;J;I;J;114071;Kim Ottosson;68;K;Sundsvall;miljöinspektör, Indal;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;8;J;J;I;J;114072;Hicham Elkahtib;61;M;Sundsvall;juridisk rådgivare, Hästhagen;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;9;J;J;I;J;114073;Karin Gustafsson;59;K;Sundsvall;socialsekreterare, Nacksta;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;10;J;J;I;J;114074;Martin Jägesten;64;M;Sundsvall;lärare, Skönsberg;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;11;J;J;I;J;114075;Isabell Mixter;29;K;Sundsvall;handläggare, Bergsåker;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;12;J;J;I;J;114076;Olle Granath;40;M;Sundsvall;socialarbetare, Granloholm;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;13;J;J;I;J;114077;Lotta Wesslén;54;K;Sundsvall;distriktssköterska, Granloholm;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;14;J;J;I;J;114078;Anders Fagerblom;55;M;Timrå;socionom, Östermalm;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;15;J;J;I;J;114079;Ulrika Sedlund;38;K;Sundsvall;fastighetsskötare, Korsta;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;16;J;J;I;J;114080;Ronny Fröwall;53;M;Sundsvall;kriminalvårdare, Nacksta;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;17;J;J;I;J;114081;Gull-May Gustafsson;79;K;Sundsvall;pensionär, Nacksta;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;18;J;J;I;J;114082;Niklas Högdahl;49;M;Sundsvall;entreprenör, Bydalen;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;19;J;J;I;J;114083;Paulina Jonsson;20;K;Sundsvall;arbetssökande, Nacksta;233000;;J
+K;2281;Sundsvall;02;Sundsvalls Andra;Vänsterpartiet;V;5;S;13142;20;J;J;I;J;114084;Thomas Jäärf;64;M;Sundsvall;elentreprenör, Centrum;233000;;J

@@ -1,0 +1,196 @@
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;1;J;J;I;J;101038;Kent Hansson;54;M;Strömstad;Controller, 54 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;2;J;J;I;J;101039;Lena Martinsson;56;K;Strömstad;Företagare, 56 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;3;J;J;I;J;101040;Ronnie Brorsson;62;M;Strömstad;Oppositionsråd, 62 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;4;J;J;I;J;101041;Marie Rask;50;K;Strömstad;Ombudsman, 50 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;5;J;J;I;J;101042;Mats Granberg;73;M;Strömstad;Pensionär, 73 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;6;J;J;I;J;101043;Helene Andersson Novela;63;K;Strömstad;Seniorrådgivare, 63 år, Sydkoster;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;7;J;J;I;J;101044;Bengt Simonsson Fröjd;59;M;Strömstad;Terminalchef, 59 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;8;J;J;I;J;101045;Merry Johansson;46;K;Strömstad;Undersköterska, 46 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;9;J;J;I;J;101046;Leif Andersson;65;M;Strömstad;Restaurangarbetare, 64 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;10;J;J;I;J;101047;Ligia Morales Ahlgren;52;K;Strömstad;Lärare, 52 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;11;J;J;I;J;101048;Lena Sundberg;67;K;Strömstad;Webbmaster, 67 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;12;J;J;I;J;101049;Johanna Ekeroth;36;K;Strömstad;Företagare, 36 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;13;J;J;I;J;101050;Jan Vidar Seljegren;42;M;Strömstad;Fritidsledare, 42 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;14;J;J;I;J;101051;Rolf Pettersson;58;M;Strömstad;Företagare, 58 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;15;J;J;I;J;101052;Terry Bergqvist;33;M;Strömstad;Väktare, 33 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;16;J;J;I;J;101053;Olle Westling;61;M;Strömstad;Företagare, 60 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;17;J;J;I;J;101054;Petra Hedström;34;K;Strömstad;Konferenskoordinator, 34 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;18;J;J;I;J;101055;Besnik Obertinca;33;M;Strömstad;Administratör, 33 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;19;J;J;I;J;101056;Rolf Rask;51;M;Strömstad;Styrkeledare, 51 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;20;J;J;I;J;101057;Lena Almén;52;K;Strömstad;Butiksmedarbetare, 51 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;21;J;J;I;J;101058;Pia Tysklind;64;K;Strömstad;Enhetschef, 63 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;22;J;J;I;J;101059;Lisbeth Johander;66;K;Strömstad;Lärare, 66 år, Nordkoster;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;23;J;J;I;J;101060;Marcus Palm;32;M;Strömstad;Driftansvarig, 32 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;24;J;J;I;J;101061;Anneli Ivarsson;51;K;Strömstad;Ombudsman, 51 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;25;J;J;I;J;101062;Alicia Aliaga;56;K;Strömstad;Kokerska, 56 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;26;J;J;I;J;101063;Ulf Gustafsson;61;M;Strömstad;Produktutvecklare, 61 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;27;J;J;I;J;101064;Pernilla Elgestål;47;K;Strömstad;Ekonomiansvarig, 47 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;28;J;J;I;J;101065;Peter Sövig;60;M;Strömstad;Plåtslagare, 60 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;29;J;J;I;J;101066;Birgit Lotsner;71;K;Strömstad;Pensionär, 71 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;30;J;J;I;J;101067;Thomas Kjerulf;33;M;Strömstad;Butiksmedarbetare, 33 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Arbetarepartiet-Socialdemokraterna;S;2;S;13023;31;J;J;I;J;101068;Bror-Willy Nilsson;75;M;Strömstad;Pensionär, 75 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;1;J;J;I;J;34789;Åsa Torstensson;60;K;Strömstad;socionom, Hogar Gård;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;2;J;J;I;J;1873;Anna-Lena Carlsson;59;K;Strömstad;distriktssköterska, Pilegården;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;3;J;J;I;J;34791;Andreas Hermansson;35;M;Strömstad;business analyzer, Karlsgatan;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;4;J;J;I;J;34792;Elisabeth Johansson;51;K;Strömstad;lantbruksföretagare, Risäng Gård;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;5;J;J;I;J;34793;Tore Lomgård;67;M;Strömstad;fd kriminalinspektör, Råsshult;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;6;J;J;I;J;1958;Hans-Inge Sältenberg;64;M;Strömstad;skogsbrukare, Sälten;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;7;J;J;I;J;34795;Elin Douglasson;33;K;Strömstad;polis, Stenlidsvägen;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;8;J;J;I;J;1867;Peter Heie;52;M;Strömstad;företagare, Stora Vässby;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;9;J;J;I;J;34797;Sveza Daceva Filipova;64;K;Strömstad;fil.dr. i etnologi, Smedjegränd;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;10;J;J;I;J;34798;Britt Eriksson;59;K;Strömstad;specialpedagog, Rossö;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;11;J;J;I;J;34799;Peter Dafteryd;53;M;Strömstad;ordf kom.styrelsen, Bergsliden;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;12;J;J;I;J;34800;Rikard Hermansson;37;M;Strömstad;skadedjurstekniker, Folkestad;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;13;J;J;I;J;34801;Morgan Gutke;68;M;Strömstad;ekonom, Tornstigen;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;14;J;J;I;J;34802;Monica Larsen;74;K;Strömstad;keramiker, Sydkoster;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;15;J;J;I;J;34803;Erland Lundqvist;59;M;Strömstad;entreprenör, Tånga;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;16;J;J;I;J;34804;Madeleine Nicholls;52;K;Strömstad;redovisningsassistent, Sundby;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;17;J;J;I;J;34805;Bo Tångefjord;70;M;Strömstad;logistic manager, Tånga;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;18;J;J;I;J;34806;Ulla Dafteryd;59;K;Strömstad;boendeassistent, Bergsliden;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;19;J;J;I;J;34807;Rutger Cavalli-Björkman;67;M;Strömstad;egenföretagare, Hiertagatan;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;20;J;J;I;J;34808;Ellinor Adolfsson;62;K;Strömstad;kock, Kuttervägen;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;21;J;J;I;J;34809;Martin Jansson;40;M;Strömstad;möbelsnickare, Knarrås;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;22;J;J;I;J;34810;Andreas Hansson;29;M;Strömstad;ambulanssjuksköterska, Kölstigen;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;23;J;J;I;J;34811;Hanna Lybeck;72;K;Strömstad;pensionär, Näsinge Mellangården;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;24;J;J;I;J;34812;Henrik Mattsson;46;M;Strömstad;lantbrukare, Skärje;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;25;J;J;I;J;34813;Stig Carlsson;71;M;Strömstad;pensionär, Rellen;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;26;J;J;I;J;34814;Fred Toftfelt;73;M;Strömstad;egenföretagare, Norra Öddö;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;27;J;J;I;J;34815;Tommy Midtsundstad;41;M;Strömstad;lantbrukare, Massleberg;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;28;J;J;I;J;34816;Isabella Hansson;62;K;Strömstad;förskollärare, Nösteröd;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;29;J;J;I;J;1900;Ingemar Edwardsson;73;M;Strömstad;egenföretagare, Nordkoster;31000;;J
+K;1486;Strömstad;00;Strömstad;Centerpartiet;C;4;S;12241;30;J;J;I;J;34818;Rune Sandin;59;M;Strömstad;skogsarbetare, Håltane;31000;;J
+K;1486;Strömstad;00;Strömstad;Feministiskt initiativ;FI;532;S;15756;1;N;J;J;I;509083;Marielle Alvdal;29;K;Strömstad;läkare, 29 år, Strömstad;5000;;J
+K;1486;Strömstad;00;Strömstad;Feministiskt initiativ;FI;532;S;15756;2;N;J;J;I;509084;Linda Nordin;28;K;Strömstad;barnskötare, 28 år, Strömstad;5000;;J
+K;1486;Strömstad;00;Strömstad;Feministiskt initiativ;FI;532;S;15756;3;N;J;J;I;509085;Joar Alvdal;34;M;Strömstad;läkare, 34 år, Strömstad;5000;;J
+K;1486;Strömstad;00;Strömstad;Feministiskt initiativ;FI;532;S;15756;4;N;J;J;I;237415;Johanna Johander;39;K;Strömstad;lärare, 39 år, Nordkoster;5000;;J
+K;1486;Strömstad;00;Strömstad;Feministiskt initiativ;FI;532;S;15756;5;N;J;J;I;509087;Bengt Edstam;38;M;Strömstad;fibertekniker, 38 år, Strömstad;5000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15736;1;N;J;J;I;418042;Anders Ekström;70;M;Strömstad;ekonom, Kebal;24000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15736;2;N;J;J;I;508494;David Holgersson;28;M;Strömstad;undersköterska, Nordby;24000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15736;3;N;J;J;I;418030;Rose-Marie Fagerberg;60;K;Strömstad;tågklarerare, Seläter;24000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15736;4;N;J;J;I;249190;Peter Nilsson;67;M;Strömstad;företagare, Strömstad;24000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15736;5;N;J;J;I;508497;Friedemann Hildebrand;44;M;Strömstad;pedagog, Skee;24000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15736;6;N;J;J;I;508498;Barbro Nilsson;79;K;Strömstad;pensionär, Strömstad;24000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15736;7;N;J;J;I;508499;Moa Aslan;47;M;Strömstad;företagare, Strömstad;24000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15736;8;N;J;J;I;508500;Hanne Bråthen Hjemgård;57;K;Strömstad;sjuksköterska, Kebal;24000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15736;9;N;J;J;I;508501;Alexander Weinehall;65;M;Strömstad;resurslärare, Strömstad;24000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15736;10;N;J;J;I;508502;Jan Dahlhielm;77;M;Strömstad;arkitekt, Strömstad;24000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15736;11;N;J;J;I;508503;Louise Ekström;42;K;Strömstad;kostekonom, Strömstad;24000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15864;1;N;J;J;I;418042;Anders Ekström;70;M;Strömstad;ekonom, Kebal;7000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15864;2;N;J;J;I;508494;David Holgersson;28;M;Strömstad;undersköterska, Nordby;7000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15864;3;N;J;J;I;418030;Rose-Marie Fagerberg;60;K;Strömstad;tågklarerare, Seläter;7000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15864;4;N;J;J;I;249190;Peter Nilsson;67;M;Strömstad;företagare, Strömstad;7000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15864;5;N;J;J;I;508497;Friedemann Hildebrand;44;M;Strömstad;pedagog, Skee;7000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15864;6;N;J;J;I;508498;Barbro Nilsson;79;K;Strömstad;pensionär, Strömstad;7000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15864;7;N;J;J;I;508499;Moa Aslan;47;M;Strömstad;företagare, Strömstad;7000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15864;8;N;J;J;I;508500;Hanne Bråthen Hjemgård;57;K;Strömstad;sjuksköterska, Kebal;7000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15864;9;N;J;J;I;508501;Alexander Weinehall;65;M;Strömstad;resurslärare, Strömstad;7000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15864;10;N;J;J;I;508502;Jan Dahlhielm;77;M;Strömstad;arkitekt, Strömstad;7000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15864;11;N;J;J;I;508503;Louise Ekström;42;K;Strömstad;kostekonom, Strömstad;7000;;J
+K;1486;Strömstad;00;Strömstad;Kristdemokraterna;KD;68;S;15864;12;N;J;J;I;513449;Bengt Magnusson;68;M;Strömstad;Präst, Strömstad;7000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;1;J;J;I;J;49164;Lars Tysklind;65;M;Strömstad;65 år, riksdagsledamot, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;2;J;J;I;J;240342;Kerstin Karlsson;67;K;Strömstad;67 år, redaktör, Stare;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;3;J;J;I;J;240343;Mette H Johansson;41;K;Strömstad;41 år, healer, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;4;J;J;I;J;240344;Hans-Robert Hansson;46;M;Strömstad;46 år, bokningskoordinator, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;5;J;J;I;J;240345;Helena L'Estrade;67;K;Strömstad;67 år, konsult, Nordkoster;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;6;J;J;I;J;240346;Jennie Persson;42;K;Strömstad;42 år, verksamhetschef, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;7;J;J;I;J;240347;Sandra Andersson;30;K;Strömstad;30 år, egen företagare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;8;J;J;I;J;240348;Claes Nabrink;72;M;Strömstad;71 år, ingenjör, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;9;J;J;I;J;240349;Johan Flodin;51;M;Strömstad;51 år, landslagschef i rodd, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;10;J;J;I;J;240350;Bengt Wedin;73;M;Strömstad;73 år, köpman, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;11;J;J;I;J;240351;Håkan Eriksson;71;M;Strömstad;71 år, skeppare, Sydkoster;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;12;J;J;I;J;240352;Erling Karlsson;70;M;Strömstad;70 år, redaktör, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;13;J;J;I;J;240353;Ingemar Nordström;64;M;Strömstad;64 år, konsult, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;14;J;J;I;J;240354;Anne-Lise Lindmark;66;K;Strömstad;66 år, arbetsförmedlare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;15;J;J;I;J;240355;Birgitta Laugmo;78;K;Strömstad;79 år, socionom, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;16;J;J;I;J;240356;Kerstin Svennarp-Hilmersson;66;K;Strömstad;66 år, utbildningskoordinator, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;17;J;J;I;J;240357;Joakim Möller;44;M;Strömstad;44 år, verksamhetschef, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;18;J;J;I;J;240358;Ulf Qvicklund;51;M;Strömstad;51 år, egen företagare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;19;J;J;I;J;240359;Sture Fredriksson;72;M;Strömstad;73 år, flygtekniker, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;20;J;J;I;J;240360;Åke Sundemar;78;M;Strömstad;78 år, arkitekt, Tjärnö;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;21;J;J;I;J;240361;Egon Fransson;90;M;Strömstad;90 år, ingenjör, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;22;J;J;I;J;240362;Elisabeth Tysklind;63;K;Strömstad;62 år, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;23;J;J;I;J;240363;Carina Wedin;65;K;Strömstad;66 år, socialarbetare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;24;J;J;I;J;240364;Mary Clovén;65;K;Strömstad;65 år speditör, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;25;J;J;I;J;240365;Margareta Fredriksson;70;K;Strömstad;70 år, platschef, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;26;J;J;I;J;240366;Anette Andersson;47;K;Strömstad;47 år, företagare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Liberalerna (tidigare Folkpartiet);L;3;S;14127;27;J;J;I;J;240367;Anders Olsson;57;M;Strömstad;57 år, företagare/entreprenör, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Miljöpartiet de gröna;MP;55;S;13411;1;J;J;I;J;146918;Karla Valdivieso;30;K;Strömstad;30 år, Lärare;20000;;J
+K;1486;Strömstad;00;Strömstad;Miljöpartiet de gröna;MP;55;S;13411;2;J;J;I;J;82468;Bengt Bivrin;61;M;Strömstad;62 år, Taxiförare/samtalsterapeut;20000;;J
+K;1486;Strömstad;00;Strömstad;Miljöpartiet de gröna;MP;55;S;13411;3;J;J;I;J;146920;Andreas Nikkinen;34;M;Strömstad;34 år, Studerande;20000;;J
+K;1486;Strömstad;00;Strömstad;Miljöpartiet de gröna;MP;55;S;13411;4;J;J;I;J;146921;Anders Karlsson;38;M;Strömstad;38 år, Podcaster;20000;;J
+K;1486;Strömstad;00;Strömstad;Miljöpartiet de gröna;MP;55;S;13411;5;J;J;I;J;146922;Sonia Kamrani;36;K;Strömstad;36 år, Ekonom;20000;;J
+K;1486;Strömstad;00;Strömstad;Miljöpartiet de gröna;MP;55;S;13411;6;J;J;I;J;146923;David Nikkinen;24;M;Strömstad;24 år, Kommunalarbetare;20000;;J
+K;1486;Strömstad;00;Strömstad;Miljöpartiet de gröna;MP;55;S;13411;7;J;J;I;J;146924;Mikael Johansson;50;M;Strömstad;50 år, Driftledare;20000;;J
+K;1486;Strömstad;00;Strömstad;Miljöpartiet de gröna;MP;55;S;13411;8;J;J;I;J;146925;Simon Hansson;33;M;Strömstad;33 år, It-entreprenör;20000;;J
+K;1486;Strömstad;00;Strömstad;Miljöpartiet de gröna;MP;55;S;13411;9;J;J;I;J;146926;Robin Brenna-Lund;30;M;Strömstad;30 år, Betongarbetare;20000;;J
+K;1486;Strömstad;00;Strömstad;Miljöpartiet de gröna;MP;55;S;13411;10;J;J;I;J;146927;Gert-Ove Nilsson;67;M;Strömstad;67 år, Bussförare;20000;;J
+K;1486;Strömstad;00;Strömstad;Miljöpartiet de gröna;MP;55;S;13411;11;J;J;I;J;146928;Per Nikkinen;32;M;Täby;32 år, Studerande;20000;;J
+K;1486;Strömstad;00;Strömstad;Miljöpartiet de gröna;MP;55;S;13411;12;J;J;I;J;146929;Liam Brenna-Lund;20;M;Strömstad;20 år, Betongarbetare/butiksbiträde;20000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;1;J;J;I;J;254212;Marie Edvinsson Kristiansen;46;K;Strömstad;Egen företagare, Näsinge;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;2;J;J;I;J;254208;Jörgen Molin;62;M;Strömstad;Sjuksköterska, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;3;J;J;I;J;418027;Mikael Cederbratt;63;M;Strömstad;f.d Poliskommissarie, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;4;J;J;I;J;418028;Dag Wersén;79;M;Strömstad;Advokat, Sydkoster;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;5;J;J;I;J;418029;Bengt-Göran Bergstrand;70;M;Strömstad;f.d Bilförsäljare/Officer, Nordkoster;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;6;J;J;I;N;418030;[inte lämnat förklaring];;;;;31000;;N
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;7;J;J;I;J;418031;Simone Fischer;43;K;[saknas i folkbokföringen];fil.kand Medievetenskap, Stömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;8;J;J;I;J;418032;Lars Erik Kristiansen;51;M;Strömstad;VD, Näsinge;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;9;J;J;I;J;418033;Eva Borg;75;K;Strömstad;f.d Kriminalinspektör, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;10;J;J;I;J;254234;Ola Persson;50;M;Strömstad;Centerchef, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;11;J;J;I;J;418035;Mikael Nabrink;64;M;Strömstad;Författare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;12;J;J;I;J;418036;Per Stade;70;M;Strömstad;Tandläkare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;13;J;J;I;J;418037;Marie Goksöyr;31;K;Strömstad;Sjuksköterska, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;14;J;J;I;J;418038;Mikael Sääf;53;M;Strömstad;, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;15;J;J;I;J;418039;Markus Hedlund;34;M;Strömstad;Butikschef, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;16;J;J;I;J;418040;Charlie Edvinsson;20;M;Strömstad;Kock, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;17;J;J;I;N;418041;[inte lämnat förklaring];;;;;31000;;N
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;18;J;J;I;J;418043;Sebastian Jansson;24;M;Tanum;Säljare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;19;J;J;I;J;418044;Moa Joutsimäki;22;K;Strömstad;Säljare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15208;20;J;J;I;J;418045;Kerstin Bergstrand;70;K;Strömstad;F.d arbetsförmedlare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;1;J;J;I;J;254212;Marie Edvinsson Kristiansen;46;K;Strömstad;Egen företagare, Näsinge;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;2;J;J;I;J;254208;Jörgen Molin;62;M;Strömstad;Sjuksköterska, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;3;J;J;I;J;418027;Mikael Cederbratt;63;M;Strömstad;f.d Poliskommissarie, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;4;J;J;I;J;418028;Dag Wersén;79;M;Strömstad;Advokat, Sydkoster;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;5;J;J;I;J;418029;Bengt-Göran Bergstrand;70;M;Strömstad;f.d Bilförsäljare/Officer, Nordkoster;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;6;J;J;I;J;418031;Simone Fischer;43;K;[saknas i folkbokföringen];fil.kand Medievetenskap, Stömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;7;J;J;I;J;418032;Lars Erik Kristiansen;51;M;Strömstad;VD, Näsinge;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;8;J;J;I;J;418033;Eva Borg;75;K;Strömstad;f.d Kriminalinspektör, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;9;J;J;I;J;254234;Ola Persson;50;M;Strömstad;Centerchef, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;10;J;J;I;J;418035;Mikael Nabrink;64;M;Strömstad;Författare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;11;J;J;I;J;418036;Per Stade;70;M;Strömstad;Tandläkare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;12;J;J;I;J;418037;Marie Goksöyr;31;K;Strömstad;Sjuksköterska, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;13;J;J;I;J;418038;Mikael Sääf;53;M;Strömstad;, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;14;J;J;I;J;418039;Markus Hedlund;34;M;Strömstad;Butikschef, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;15;J;J;I;J;418040;Charlie Edvinsson;20;M;Strömstad;Kock, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;16;J;J;I;N;418041;[inte lämnat förklaring];;;;;31000;;N
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;17;J;J;I;J;418043;Sebastian Jansson;24;M;Tanum;Säljare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;18;J;J;I;J;418044;Moa Joutsimäki;22;K;Strömstad;Säljare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Moderaterna;M;1;S;15576;19;J;J;I;J;418045;Kerstin Bergstrand;70;K;Strömstad;F.d arbetsförmedlare, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Sverigedemokraterna;SD;110;S;15469;1;N;J;J;I;167902;Mattias Gustafsson;34;M;Strömstad;34, Björneröd;31000;;J
+K;1486;Strömstad;00;Strömstad;Sverigedemokraterna;SD;110;S;15469;2;N;J;J;I;199423;Fredrik Eriksson;23;M;Strömstad;23, Skee;31000;;J
+K;1486;Strömstad;00;Strömstad;Sverigedemokraterna;SD;110;S;15469;3;N;J;J;I;199424;Ulf Johansson;52;M;Strömstad;52, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Sverigedemokraterna;SD;110;S;15469;4;N;J;J;I;199425;Morgan Gustafsson;59;M;Strömstad;59, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Sverigedemokraterna;SD;110;S;15469;5;N;J;J;I;199426;John Johansson;44;M;Strömstad;44, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Sverigedemokraterna;SD;110;S;15469;6;N;J;J;I;199427;Sven Nilsson;53;M;Strömstad;53, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Sverigedemokraterna;SD;110;S;15469;7;N;J;J;I;199428;Sanja Gohlke;29;K;Strömstad;29, Skee;31000;;J
+K;1486;Strömstad;00;Strömstad;Sverigedemokraterna;SD;110;S;15469;8;N;J;J;I;199429;Eugenia Eriksson;54;K;Strömstad;54, Skee;31000;;J
+K;1486;Strömstad;00;Strömstad;Sverigedemokraterna;SD;110;S;15469;9;N;J;J;I;199430;Gunnel Carlsson;59;K;Strömstad;59, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Sverigedemokraterna;SD;110;S;15469;10;N;J;J;I;199431;Annette Johansson;53;K;Strömstad;53, Strömstad;31000;;J
+K;1486;Strömstad;00;Strömstad;Sverigedemokraterna;SD;110;S;15469;11;N;J;J;I;199432;Annicka Stangebråten;27;K;Strömstad;27, Björneröd;31000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;1;J;J;I;J;234446;Lars Åke Karlgren;68;M;Strömstad;Snickare;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;2;J;J;I;J;237402;Mia Öster;68;K;Strömstad;Krokstrandsbo;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;3;J;J;I;J;235209;Stellan Nilsson;60;M;Strömstad;Tekniker;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;4;J;J;I;J;237404;Kerstin Eriksson;63;K;Strömstad;Butiksarbetare;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;5;J;J;I;J;234435;Katharina Meyer;53;K;Strömstad;Butiksarbetare;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;6;J;J;I;J;235204;Gunilla Hegardt;75;K;Strömstad;Läkare;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;7;J;J;I;J;237407;Ellen Meyer;20;K;Strömstad;Butiksarbetare;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;8;J;J;I;J;235203;Sten Brodén;68;M;Strömstad;Aktivist;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;9;J;J;I;J;237409;Anders Jernelius;68;M;Strömstad;Snickare;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;10;J;J;I;J;237410;Helge Lind;57;M;Strömstad;Ekonomichef;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;11;J;J;I;J;237411;Karin Askberger Jernelius;69;K;Strömstad;Skribent;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;12;J;J;I;J;237412;Lars Elshaug;61;M;Strömstad;Säljare;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;13;J;J;I;J;237413;Lars-Göran Karlsson;65;M;Strömstad;Byggnadsarbetare;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;14;J;J;I;J;237414;Marie Rosén;57;K;Strömstad;Obehörig lärare;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;15;J;J;I;J;237415;Johanna Johander;39;K;Strömstad;Lärare;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;16;J;J;I;J;237416;Lena Arulf;61;K;Strömstad;Lärare;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;17;J;J;I;J;237417;Lisbeth Jonsson;63;K;Strömstad;f.d. Marinbiolog;18000;;J
+K;1486;Strömstad;00;Strömstad;Vänsterpartiet;V;5;S;14101;18;J;J;I;J;237418;Sven Gunnar Lunneryd;62;M;Strömstad;Forskare;18000;;J

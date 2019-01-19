@@ -1,0 +1,166 @@
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;1;J;J;I;J;86698;Bo Pettersson;62;M;Stenungsund;Stora Höga;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;2;J;J;I;J;86699;Melisa Nilsson;34;K;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;3;J;J;I;J;86700;Morgan Andersson;64;M;Stenungsund;Jörlanda;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;4;J;J;I;J;86701;Carola Granell;64;K;Stenungsund;Jörlanda;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;5;J;J;I;J;86702;Lars-Ebbe Pettersson;64;M;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;6;J;J;I;J;86703;Katja Nikula;42;K;Stenungsund;Ucklum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;7;J;J;I;J;86704;Olof Lundberg;43;M;Stenungsund;Jörlanda;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;8;J;J;I;J;86705;Janette Olsson;44;K;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;9;J;J;I;J;86706;Jan Rudén;66;M;Stenungsund;Stora Höga;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;10;J;J;I;J;86707;Carin Oleryd;37;K;Stenungsund;Jörlanda;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;11;J;J;I;J;86708;Roger Andersson;69;M;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;12;J;J;I;J;86709;Pia Andell;66;K;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;13;J;J;I;J;86710;Claes Olsson;53;M;Stenungsund;Spekeröd;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;14;J;J;I;J;86711;Ritva Stubelius;63;K;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;15;J;J;I;J;86712;Himan Mojtahedi;33;M;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;16;J;J;I;J;86713;Gunnel Lundgren;76;K;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;17;J;J;I;J;86714;Fabian Gustafsson;22;M;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;18;J;J;I;J;86715;Sanida Okanovic;41;K;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;19;J;J;I;J;86716;Johnny Alexandersson;45;M;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;20;J;J;I;J;86717;Ida Melin;31;K;Stenungsund;Jörlanda;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;21;J;J;I;J;86718;Christer Svensson;68;M;Stenungsund;Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;22;J;J;I;J;86719;Martina Pettersson;33;K;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;23;J;J;I;J;86720;Göran Andtbacka;58;M;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;24;J;J;I;J;86721;Berith Svensson;71;K;Stenungsund;Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;25;J;J;I;J;86722;Ingemar Johansson;66;M;Stenungsund;Svenshögen;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;26;J;J;I;J;86723;Ann Christensen;57;K;Stenungsund;Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;27;J;J;I;J;86724;Ronnie Hjälm;52;M;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;28;J;J;I;J;86725;Doa al Saif;27;K;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;29;J;J;I;J;86726;Jimmy Fyrevik;32;M;Stenungsund;Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;30;J;J;I;J;86727;Marie Nilsson;54;K;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;31;J;J;I;J;86728;Thomas Hjelm;52;M;Stenungsund;Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;32;J;J;I;J;86729;Siv W Johansson;75;K;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;33;J;J;I;J;86730;Tommy Olsson;63;M;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;34;J;J;I;J;86731;Ingela Lovehammer;57;K;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;35;J;J;I;J;86732;Lars Göran Nilsson;63;M;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;36;J;J;I;J;86733;Samar al Hasson;40;K;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;37;J;J;I;J;86734;John Rundberg;81;M;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;38;J;J;I;J;86735;Eva-Lisa Birath Lindvall;72;K;Stenungsund;Stora Höga;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12957;39;J;J;I;J;86736;Staffan Vretborn;69;M;Stenungsund;Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;1;J;J;I;J;189933;Linda-Maria Hermansson;41;K;Stenungsund;41 år, oppositionsråd, Spekeröd;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;2;J;J;I;J;189934;Thomas Danielsson;66;M;Stenungsund;67 år, pensionär, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;3;J;J;I;J;189935;Camilla Pedersen;50;K;Stenungsund;50 år, företagare, Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;4;J;J;I;J;189936;Tomas Olsson;45;M;Stenungsund;45 år, byggnadsarbetare, Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;5;J;J;I;J;189937;Håkan Hermansson;48;M;Stenungsund;48 år, avdelningschef, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;6;J;J;I;J;189938;Roberth Ottosson;51;M;Stenungsund;51 år, arbetsledare, Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;7;J;J;I;J;189939;Mattias Vernberg;41;M;Stenungsund;41 år, matinspratör, Jörlanda;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;8;J;J;I;J;189940;Albin Otterhäll;22;M;Stenungsund;22 år, It-tekniker, Jörlanda;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;9;J;J;I;J;189941;Anders Hederström;55;M;Stenungsund;54 år, terapeut, Ucklum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;10;J;J;I;J;189942;Ingela Ström;68;K;Stenungsund;68 år, pensionär, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;11;J;J;I;J;189943;Kjell Bruhn;58;M;Stenungsund;58 år, logistiker, Jörlanda;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;12;J;J;I;J;189944;Madeleine Pontén;52;K;Stenungsund;53 år, företagare, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;13;J;J;I;J;189945;Nic Larson;47;M;Stenungsund;47 år, Stora Askerön;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;14;J;J;I;J;189946;Jacqueline Pontén;29;K;Stenungsund;29 år, fältinspektör, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;15;J;J;I;J;189947;Madeleine Ward;18;K;Stenungsund;18 år, student, Spekeröd;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;16;J;J;I;J;189948;Alexander Hermansson;18;M;Stenungsund;18 år, student, Spekeröd;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;17;J;J;I;J;189949;Linnea Karlberg;18;K;Stenungsund;18 år, student, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Centerpartiet;C;4;S;13742;18;J;J;I;J;189950;Hans Johansson;52;M;Stenungsund;52 år, lantbrukare, Jörlanda;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Kristdemokraterna;KD;68;S;15601;1;N;J;J;I;277360;Lena Hedlund;70;K;Stenungsund;sjuksköterska, Stenungsund;48000;;J
+K;1415;Stenungsund;00;Stenungsund;Kristdemokraterna;KD;68;S;15601;2;N;J;J;I;277373;Nedzad Deumic;30;M;Stenungsund;enhetschef äldreomsorg, Stenungsund;48000;;J
+K;1415;Stenungsund;00;Stenungsund;Kristdemokraterna;KD;68;S;15601;3;N;J;J;I;298130;Marie-Louise Ericsson;64;K;Stenungsund;musikpedagog, Stenungsund;48000;;J
+K;1415;Stenungsund;00;Stenungsund;Kristdemokraterna;KD;68;S;15601;4;N;J;J;I;500680;Jakob Hallman;44;M;Stenungsund;ombudsman, Stora Höga;48000;;J
+K;1415;Stenungsund;00;Stenungsund;Kristdemokraterna;KD;68;S;15601;5;N;J;J;I;500681;Uno Danielsson;56;M;Stenungsund;lastbilschaufför, Svenshögen;48000;;J
+K;1415;Stenungsund;00;Stenungsund;Kristdemokraterna;KD;68;S;15601;6;N;J;J;I;500682;Maria Bennsten;60;K;Stenungsund;sjuksköterska, Jörlanda;48000;;J
+K;1415;Stenungsund;00;Stenungsund;Kristdemokraterna;KD;68;S;15601;7;N;J;J;I;298121;Ingemar Porsefeldt;52;M;Stenungsund;företagare, Strandnorum;48000;;J
+K;1415;Stenungsund;00;Stenungsund;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;515008;Ahlin, Birgitta;67;K;Stenungsund;;0;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;1;J;J;I;J;277668;Lisbeth Svensson;59;K;Stenungsund;Kemiingenjör, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;2;J;J;I;J;277669;Göder Bergermo;70;M;Stenungsund;Företagare, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;3;J;J;I;J;277670;Martin Hollertz;44;M;Stenungsund;Forskningsingenjör, Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;4;J;J;I;J;277671;Lennart Svensson;62;M;Stenungsund;Marknadschef, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;5;J;J;I;J;277672;Maria Möller;46;K;Stenungsund;Banktjänsteman, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;6;J;J;I;J;277673;Magnus Bennsten;55;M;Stenungsund;Kemiingenjör, Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;7;J;J;I;J;277674;Hans Gillenius;71;M;Stenungsund;Ekonom, Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;8;J;J;I;J;277675;Ingemar Hadartz;71;M;Stenungsund;Projektledare, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;9;J;J;I;J;277676;Ronald Olausson;72;M;Stenungsund;F.d. tjänsteman, Spekeröd;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;10;J;J;I;J;277677;Linda Bergermo;43;K;Stenungsund;Marknadskommunikatör, Stora Höga;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;11;J;J;I;J;277678;Dick Pettersson;72;M;Stenungsund;Pensionär, Spekeröd;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;12;J;J;I;J;277679;Björn Ringnér;67;M;Stenungsund;Ekonom, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;13;J;J;I;J;277680;Rickard Bergermo;46;M;Stenungsund;Projektchef, Stora Höga;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;14;J;J;I;J;277681;Raoul Hector;68;M;Stenungsund;F.d. studie- och yrkesvägledare, Stora Askerön;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;15;J;J;I;J;277682;Erik Söderberg;62;M;Stenungsund;Företagare, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;16;J;J;I;J;277683;Lars Josefsson;62;M;Stenungsund;Projektledare, Stenungsön;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;17;J;J;I;J;277684;Jan Ramberg;82;M;Stenungsund;Båtsäljare, Svenshögen;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Liberalerna (tidigare Folkpartiet);L;3;S;14476;18;J;J;I;J;277685;Jan Glimstedt;71;M;Stenungsund;Advokat, Jörlanda;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Medborgerlig Samling;MED;1296;S;14363;1;J;J;I;J;257613;Göran Nevberg;67;M;Stenungsund;67 ingenjör Stenungsund;3000;;J
+K;1415;Stenungsund;00;Stenungsund;Medborgerlig Samling;MED;1296;S;14363;2;J;J;I;J;260153;Nicklas Ljungholm;47;M;Stenungsund;47 IT-arkitekt Stenungsund;3000;;J
+K;1415;Stenungsund;00;Stenungsund;Miljöpartiet de gröna;MP;55;S;12834;1;J;J;I;J;76155;Jimmy Lövgren;54;M;Stenungsund;54 år, Gymnasielärare, Stenungsund;39000;;J
+K;1415;Stenungsund;00;Stenungsund;Miljöpartiet de gröna;MP;55;S;12834;2;J;J;I;J;76156;Anneli Holmén;48;K;Stenungsund;48 år, Socionom, Spekeröd;39000;;J
+K;1415;Stenungsund;00;Stenungsund;Miljöpartiet de gröna;MP;55;S;12834;3;J;J;I;J;76157;Johan Thunberg;25;M;Stenungsund;25 år, Studerande, Stora Höga;39000;;J
+K;1415;Stenungsund;00;Stenungsund;Miljöpartiet de gröna;MP;55;S;12834;4;J;J;I;J;76158;Charlotte Edström;38;K;Stenungsund;38 år, Utbildningshandläggare, Jörlanda;39000;;J
+K;1415;Stenungsund;00;Stenungsund;Miljöpartiet de gröna;MP;55;S;12834;5;J;J;I;J;76159;Mats Thuresson;54;M;Stenungsund;54 år, Socialpedagog, Svenshögen;39000;;J
+K;1415;Stenungsund;00;Stenungsund;Miljöpartiet de gröna;MP;55;S;12834;6;J;J;I;J;76161;Fredrik Pihlström;48;M;Stenungsund;48 år, Programmerare, Jörlanda;39000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;1;J;J;I;J;254570;Maria Renfors;48;K;Stenungsund;48, Centrum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;2;J;J;I;J;254571;Michael Ernfors;60;M;Stenungsund;60, Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;3;J;J;I;J;253910;Sofia Westergren;43;K;Stenungsund;43, Ucklum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;4;J;J;I;J;253915;Johan Jönsson;44;M;Stenungsund;44, Centrum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;5;J;J;I;J;254574;Lillemor Arvidsson;75;K;Stenungsund;75, Kopper;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;6;J;J;I;J;254575;Wouter Fortgens;60;M;Stenungsund;60, Stenungsön;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;7;J;J;I;J;254576;Helena Nävergårdh;52;K;Stenungsund;52, Centrum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;8;J;J;I;J;254577;Martin Brink;34;M;Stenungsund;34, Hallerna;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;9;J;J;I;J;254185;Maggie Robertsson;70;K;Stenungsund;70, Hallerna;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;10;J;J;I;J;254579;Alex Ward Slotte;23;M;Stenungsund;23, Spekeröd;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;11;J;J;I;J;254581;Peter R Öberg;39;M;Stenungsund;39, Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;12;J;J;I;J;254582;Gunnar Lidén;71;M;Stenungsund;71, Centrum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;13;J;J;I;J;254583;Camilla Brocker;42;K;Stenungsund;42, Hallerna;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;14;J;J;I;J;254181;Torgny Wiking;57;M;Stenungsund;57, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;15;J;J;I;J;254585;Anna-Karin Vernberg;39;K;Stenungsund;39, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;16;J;J;I;J;254586;Krister Persson;45;M;Stenungsund;45, Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;17;J;J;I;J;254587;Martin Bergman;46;M;Stenungsund;46, Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;18;J;J;I;J;254588;Carl Brinkhoff;26;M;Stenungsund;26, Ucklum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;19;J;J;I;J;254196;Mats Gjertz;64;M;Stenungsund;64, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;20;J;J;I;J;254590;Eva Fredriksson;72;K;Stenungsund;72, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;21;J;J;I;J;254592;Robert Löfvendahl;69;M;Stenungsund;69, Ucklum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;22;J;J;I;J;254593;Charlotte Leismyr Ekenberg;40;K;Stenungsund;, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;23;J;J;I;J;254594;Daniel Söderström;43;M;Stenungsund;43, Strandnorum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;24;J;J;I;J;254595;Charlott Karlsson;32;K;Stenungsund;32, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;25;J;J;I;J;254596;Dan Westergren;64;M;Stenungsund;64, Ucklum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;26;J;J;I;J;254597;Pernilla Sandén;37;K;Stenungsund;37, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;27;J;J;I;J;254598;Patrick Hübinette;52;M;Stenungsund;52, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;28;J;J;I;J;254599;Claudia Söderström;40;K;Stenungsund;40, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;29;J;J;I;J;254600;Rolf Svensson;75;M;Stenungsund;75, Stora Höga;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;30;J;J;I;J;254601;Robert Bengtsson;45;M;Stenungsund;45, Centrum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;31;J;J;I;J;254602;Monica Ahlgren;48;K;Stenungsund;48, Stora Höga;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;32;J;J;I;J;254603;Per-Erik Thorson;50;M;Stenungsund;50, Ucklum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Moderaterna;M;1;S;14298;33;J;J;I;J;254604;Carl-G Finnskog;82;M;Stenungsund;82, Stenungsund;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;1;J;J;I;J;12984;Helena Järpsten;47;K;Stenungsund;47 år, Högenorum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;2;J;J;I;J;12985;Linda Ekdahl;44;K;Stenungsund;44 år, Centrum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;3;J;J;I;J;12986;Agneta Pettersson Bell;53;K;Stenungsund;53 år, Spekeröd;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;4;J;J;I;J;12990;Robert Engström;57;M;Stenungsund;57 år, Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;5;J;J;I;J;12991;Robert Jansson;48;M;Stenungsund;48 år, Strandnorum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;6;J;J;I;J;12992;Peter Modig;54;M;Stenungsund;54 år, Högenorum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;7;J;J;I;J;12993;Catarina Dunghed;43;K;Stenungsund;43 år, Ucklum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;8;J;J;I;J;12994;Sara Hohlfält;33;K;Stenungsund;33 år, Söbacken;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;9;J;J;I;J;12995;Jan Rollén;67;M;Stenungsund;67 år, Hasselbacken;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;10;J;J;I;J;12996;Ola Engström;77;M;Stenungsund;77 år, Jörlanda;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;11;J;J;I;J;12998;Gunnar Pettersson;86;M;Stenungsund;86 år, Centrum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;12;J;J;I;J;12999;Kjell Stahre;70;M;Stenungsund;70 år, Hallerna;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;13;J;J;I;J;13000;Magnus Ekdahl;43;M;Stenungsund;43 år, Centrum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;14;J;J;I;J;13002;Peter Johanson;39;M;Stenungsund;39 år, Hallerna;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;15;J;J;I;J;13003;Stefan Nibell;53;M;Stenungsund;53 år, Tegen;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;16;J;J;I;J;13004;Michael Ekdahl;35;M;Stenungsund;35 år, Hällesdalen;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;17;J;J;I;J;13005;Christina Engström;73;K;Stenungsund;73 år, Jörlanda;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;18;J;J;I;J;13006;Rune Järpsten;75;M;Stenungsund;75 år, Centrum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;19;J;J;I;J;13007;Erika Jonsson;55;K;Stenungsund;55 år, Hasselbacken;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;20;J;J;I;J;13008;Jarka Jansson;49;K;Stenungsund;49 år, Strandnorum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;21;J;J;I;J;13009;Marie-Louise Järpsten;73;K;Stenungsund;73 år, Centrum;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;22;J;J;I;J;13010;Lena Holmberg;47;K;Stenungsund;47 år, Stora Höga;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Stenungsundspartiet;St;1323;S;11925;23;J;J;I;J;13011;Torgny Odengard;56;M;Stenungsund;56 år, Ödsmål;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Sverigedemokraterna;SD;110;S;12788;1;J;J;I;J;61333;Otto Ericsson;72;M;Stenungsund;72 år, Pensionär;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Sverigedemokraterna;SD;110;S;12788;2;J;J;I;J;72068;Alexandra Odelsheim;29;K;Stenungsund;29 år, Undersköterska;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Sverigedemokraterna;SD;110;S;12788;3;J;J;I;J;72069;Håkan Larsson;52;M;Stenungsund;52 år, Egenföretagare;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Sverigedemokraterna;SD;110;S;12788;4;J;J;I;J;72070;John Hansson;55;M;Stenungsund;55 år, Specialpedagog;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Sverigedemokraterna;SD;110;S;12788;5;J;J;I;J;72071;Ulla Johansson;60;K;Stenungsund;60 år, Busschaufför;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Sverigedemokraterna;SD;110;S;12788;6;J;J;I;J;72072;Glenn Ottosson;60;M;Stenungsund;60 år, Driftledare Spårvägen Gbg;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Sverigedemokraterna;SD;110;S;12788;7;J;J;I;J;72073;Rolf Malmborg;54;M;Stenungsund;54 år, Ställningsbyggare;60000;;J
+K;1415;Stenungsund;00;Stenungsund;Sverigedemokraterna;SD;110;S;12788;8;J;J;I;N;72074;[inte lämnat förklaring];;;;;60000;;N
+K;1415;Stenungsund;00;Stenungsund;Vänsterpartiet;V;5;S;13945;1;J;J;I;J;160736;Emma Ramhult;42;K;Stenungsund;lärare, Ucklum, 42 år;40000;;J
+K;1415;Stenungsund;00;Stenungsund;Vänsterpartiet;V;5;S;13945;2;J;J;I;J;162907;Jan Alexandersson;64;M;Stenungsund;ombudsman, Stenungsund, 64 år;40000;;J
+K;1415;Stenungsund;00;Stenungsund;Vänsterpartiet;V;5;S;13945;3;J;J;I;J;162911;Birgit Lövkvist;70;K;Stenungsund;pensionär, Stenungsund, 70 år;40000;;J
+K;1415;Stenungsund;00;Stenungsund;Vänsterpartiet;V;5;S;13945;4;J;J;I;J;180737;Conny Nilsson;54;M;Stenungsund;behandlingsassistent, Stenungsund, 54 år;40000;;J
+K;1415;Stenungsund;00;Stenungsund;Vänsterpartiet;V;5;S;13945;5;J;J;I;J;213856;Annika Åberg Darell;51;K;Stenungsund;verksamhetschef hälso- och sjukvård, Stenungsund, 52 år;40000;;J
+K;1415;Stenungsund;00;Stenungsund;Vänsterpartiet;V;5;S;13945;6;J;J;I;J;213857;Annika Gustafsson;61;K;Stenungsund;lärarvikarie, Stenungsund, 61 år;40000;;J
+K;1415;Stenungsund;00;Stenungsund;Vänsterpartiet;V;5;S;13945;7;J;J;I;J;213858;Nabila Vedberg;45;K;Stenungsund;lärare, Stenungsund, 45 år;40000;;J
+K;1415;Stenungsund;00;Stenungsund;Vänsterpartiet;V;5;S;13945;8;J;J;I;J;284316;Gunilla Hallberg;65;K;Stenungsund;medicinsk sekreterare, Svenshögen, 65 år;40000;;J
+K;1415;Stenungsund;00;Stenungsund;Vänsterpartiet;V;5;S;13945;9;J;J;I;J;233267;Carl Ramhult;42;M;Stenungsund;lärare, Ucklum, 42 år;40000;;J
+K;1415;Stenungsund;00;Stenungsund;Vänsterpartiet;V;5;S;13945;10;J;J;I;J;213859;Ann Lundstedt;66;K;Stenungsund;socionom, Stenungsund, 66 år;40000;;J
+K;1415;Stenungsund;00;Stenungsund;Vänsterpartiet;V;5;S;13945;11;J;J;I;J;213860;Anette Gustafsson;49;K;Stenungsund;universitetslektor, Stora Höga, 49 år;40000;;J

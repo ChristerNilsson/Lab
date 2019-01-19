@@ -1,0 +1,160 @@
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;1;J;J;I;J;86776;Susanne Hansson;43;K;Strömsund;43, Kommunalråd, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;2;J;J;I;J;86777;Göran Bergström;63;M;Strömsund;63, Polis, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;3;J;J;I;J;86778;Elisabeth Lindholm;45;K;Strömsund;45, Utvecklingsledare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;4;J;J;I;J;86779;Lennart Oscarsson;72;M;Strömsund;72, Pensionär, Hammerdal;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;5;J;J;I;J;7447;Karin Näsmark;57;K;Strömsund;57, Djurskötare, Havsnäs;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;6;J;J;I;J;86781;Lars Andreasson;64;M;Strömsund;64, Reparatör, Norråker;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;7;J;J;I;J;86782;Ardis Lindman;69;K;Strömsund;69, Pensionär, Björkvattnet;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;8;J;J;I;J;86783;Oscar Hammar;28;M;Strömsund;28, Global IT-tekniker, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;9;J;J;I;J;6466;Lena Johansson;69;K;Strömsund;69, Pensionär, Lövberga;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;10;J;J;I;J;86785;Roger Kristofersson;57;M;Strömsund;57, Industriarbetare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;11;J;J;I;J;86786;Sara Edvardsson;39;K;Strömsund;39, Utbildningsledare, Hammerdal;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;12;J;J;I;J;86787;Roger Sannemo;64;M;Strömsund;64, Vårdare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;13;J;J;I;J;86788;Rebecca Sjöstedt;29;K;Strömsund;29, Undersköterska, Hoting;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;14;J;J;I;J;86789;Bertil Johansson;51;M;Strömsund;52, Snickare, Hammerdal;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;15;J;J;I;J;86790;Petra Monwell;55;K;Strömsund;55, Undersköterska, Flyn;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;16;J;J;I;J;86791;Lars-Åke Knutsson;48;M;Strömsund;48, Betongarbetare, Lövberga;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;17;J;J;I;J;89781;Marie Gabrielsson;56;K;Strömsund;56, Verksamhetsutvecklare, Ulriksfors;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;18;J;J;I;J;89782;Bertil Forsmark;39;M;Strömsund;39, Kock, Gäddede;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;19;J;J;I;J;89783;Angelica Johannesson;37;K;Strömsund;37, Yrkesvägledare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;20;J;J;I;J;6799;Bengt Bergqvist;53;M;Strömsund;53, Projektledare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;21;J;J;I;J;90859;Carina Andersson;56;K;Strömsund;56, Förskollärare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;22;J;J;I;J;90860;Bengt-Åke Persson;51;M;Strömsund;51, Industriarbetare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;23;J;J;I;J;8150;Ida Collin;39;K;Strömsund;39, Lanthandlare, Norråker;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;24;J;J;I;J;8227;Håkan Persson;52;M;Strömsund;52, Undersköterska, Kyrktåsjö;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;25;J;J;I;J;8137;Maud Fortuna;61;K;Strömsund;61, Distriktssköterska, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;26;J;J;I;J;90864;Jimmy Gustafsson;45;M;Strömsund;45, Snickare, Hammerdal;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;27;J;J;I;J;90865;Desirée Edin;57;K;Strömsund;57, Socionom, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;28;J;J;I;J;90866;Jörgen Olofsson;64;M;Strömsund;64, Projektledare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;29;J;J;I;J;99422;Lena Gjersvold;50;K;Strömsund;50, Undersköterska, Backe;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;30;J;J;I;J;90867;Månica Näslund;48;K;Strömsund;48, Verksamhetsutvecklare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;31;J;J;I;J;90868;Brynje Wikström;58;M;Strömsund;58, Egen företagare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;32;J;J;I;J;90869;Inga-Maj Persson;64;K;Strömsund;65, Socionom/kurator, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;33;J;J;I;J;90870;Curt Jonsson;61;M;Strömsund;61, Grönsaksodlare, Edet;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;34;J;J;I;J;90871;Elisabeth Hägglund;49;K;Strömsund;49, Undersköterska, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;35;J;J;I;J;90872;Mats Mårtensson;56;M;Strömsund;56, Bilförsäljare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;36;J;J;I;J;112013;Rawya Mohammed;27;K;Strömsund;27, Studiehandledare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;37;J;J;I;J;90873;Kristina Blomberg;39;K;Strömsund;39, Enhetschef, Hammerdal;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;38;J;J;I;J;90874;Bernth Nygren;76;M;Strömsund;76, Pensionär, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;39;J;J;I;J;90875;Isabella Bonér;27;K;Strömsund;27, Förskollärare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;40;J;J;I;J;147720;Bo-Göran Hedberg;68;M;Strömsund;68, Pensionär, Ulriksfors;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;41;J;J;I;J;99432;Maud Persson;73;K;Strömsund;73, Kulturarbetare, Tullingsås;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;42;J;J;I;J;90876;Per-Ingvar Wennberg;73;M;Strömsund;73, Pensionär, Norråker;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;43;J;J;I;J;74273;Christina Mårtensson;61;K;Strömsund;61, Ekonomiassistent, Öjarn;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;44;J;J;I;J;90878;Tomas Engström;38;M;Strömsund;38, Kock, Fagerdal;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;45;J;J;I;J;90879;Mona Boström Asserwall;63;K;Strömsund;63, Pensionär, Alanäset;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;46;J;J;I;J;99437;Ahmad Ramadan;56;M;Strömsund;56, Lärare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;47;J;J;I;J;90880;Irene Sundekvist;52;K;Strömsund;52, Lokalvårdare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;48;J;J;I;J;90881;Bo Wennberg;79;M;Strömsund;79, Pensionär, Svedje;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;49;J;J;I;J;90882;Annica Nyholm;50;K;Strömsund;50, Egen företagare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;50;J;J;I;J;90883;Tomas Jangenmalm;54;M;Strömsund;54, IT-tekniker, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;51;J;J;I;J;90884;Elsa Wennberg;67;K;Strömsund;67, Pensionär, Norråker;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;52;J;J;I;J;90885;Eva Holmgren;61;K;Strömsund;61, Småbrukare, Havsnäs;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;53;J;J;I;J;90886;Anna Ling Gustafsson;45;K;Strömsund;45, Elevassistent, Hammerdal;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;54;J;J;I;J;90887;Birgit Weisel Mårtensson;41;K;Strömsund;41, Brevbärare, Strömsund;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;55;J;J;I;J;90888;Deanne Edin;53;K;Strömsund;53, Administratör, Hammerdal;40000;;J
+K;2313;Strömsund;00;Strömsund;Arbetarepartiet-Socialdemokraterna;S;2;S;12809;56;J;J;I;J;90889;Pernilla Persson;45;K;Strömsund;45, Undersköterska, Kyrktåsjö;40000;;J
+K;2313;Strömsund;00;Strömsund;Basinkomstpartiet;;1372;;;;N;J;J;I;486478;Alvtegen Lundgren, August;27;M;Strömsund;;0;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;1;J;J;I;J;236969;Mats Gärd;54;M;Strömsund;företagare 54 år Fyrås;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;2;J;J;I;J;236970;Kerstin Engkvist;58;K;Strömsund;företagare 58 år Kyrktåsjö;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;3;J;J;I;J;236971;Göran Espmark;70;M;Strömsund;skogsbonde 70 år Äspnäs;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;4;J;J;I;J;236972;Maritha Granqvist;62;K;Strömsund;jurist 62 år Jormvattnet;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;5;J;J;I;J;236973;Magnus Svensson;48;M;Strömsund;gymnasieinstruktör 48 år Gåxsjö;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;6;J;J;I;J;236974;Nils-Bengt Nilsson;67;M;Strömsund;skadeinspektör 67 år Backe;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;7;J;J;I;J;236975;Eira Roos;56;K;Strömsund;boendestödjare 56 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;8;J;J;I;J;95773;Annakarin Olsson;44;K;Strömsund;projektkoordinator 44 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;9;J;J;I;J;236977;Lars Lindberg;61;M;Strömsund;verksamhetsansvarig 61 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;10;J;J;I;J;236978;Anna Andrée;55;K;Strömsund;skolsköterska 55 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;11;J;J;I;J;236979;Hassan Albittar;37;M;Strömsund;projektkoordinator 37 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;12;J;J;I;J;236980;Vanja Stjerna;45;K;Strömsund;grundskollärare/förstelärare 45 år Gåxsjö;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;13;J;J;I;J;236981;Lars Lif;47;M;Strömsund;boendeansvarig 47 år Kyrktåsjö;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;14;J;J;I;J;236982;Christina Åhrén;43;K;Strömsund;fil dr 43 år Backe;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;15;J;J;I;J;236983;Oskar Ahlstrand;24;M;Strömsund;leg. fysioterapeut 24 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;16;J;J;I;J;236984;Marianne Eriksson;70;K;Strömsund;f.d. lärare 70 år Solberg;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;17;J;J;I;J;236985;Leif Jonsson;48;M;Strömsund;bonde 48 år Görvik;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;18;J;J;I;J;236986;Inga-Brith Nilsson;76;K;Strömsund;pensionär 76 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;19;J;J;I;J;236987;Amin Mohammadi;24;M;Strömsund;studiehandledare 24 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;20;J;J;I;J;236988;Pernilla Persson;39;K;Strömsund;lärare/företagare 39 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;21;J;J;I;J;236989;Staffan Oscarsson;66;M;Strömsund;f.d. företagare 66 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;22;J;J;I;J;236990;Maria Grill;60;K;Strömsund;tandläkare/skogsägare 60 år Lövberga;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;23;J;J;I;J;236991;Jan-Gunnar Eliasson;75;M;Strömsund;företagare 75 år Hallviken;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;24;J;J;I;J;236992;Kristina Widborg-Ahlstrand;57;K;Strömsund;jurist 57 år Kyrktåsjö;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;25;J;J;I;J;236993;Åke Deffby;70;M;Strömsund;pensionär 70 år Strand;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;26;J;J;I;J;236994;Åse Ehnberg;60;K;Strömsund;företagare 60 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;27;J;J;I;J;236995;Sture Åhrén;69;M;Strömsund;renägare 69 år Backe;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;28;J;J;I;J;236996;Marie-Louise Oscarsson;67;K;Strömsund;f.d. områdeschef 67 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;29;J;J;I;J;236997;Tore Olofsson;66;M;Strömsund;pensionär 66 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;30;J;J;I;J;236998;Christine Nilsson Lif;69;K;Strömsund;pensionär 69 år Kyrktåsjö;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;31;J;J;I;J;236999;Mårten Jonsson;69;M;Strömsund;pensionär 69 år Gussvattnet;29000;;J
+K;2313;Strömsund;00;Strömsund;Centerpartiet;C;4;S;14094;32;J;J;I;J;237000;Kowsar Amiri;34;K;Strömsund;undersköterska 33 år Strömsund;29000;;J
+K;2313;Strömsund;00;Strömsund;Miljöpartiet de gröna;MP;55;S;14757;1;J;J;I;J;333562;Greger Rönnqvist;50;M;Strömsund;50, Kundtjänstmedarbeterare;4000;;J
+K;2313;Strömsund;00;Strömsund;Miljöpartiet de gröna;MP;55;S;14757;2;J;J;I;J;175345;Maja Ramström;50;K;Strömsund;50, Skogskonsulent;4000;;J
+K;2313;Strömsund;00;Strömsund;Miljöpartiet de gröna;MP;55;S;14757;3;J;J;I;J;333564;Göran Hellbergh;76;M;Strömsund;66, Småbrukare;4000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;1;J;J;I;J;39626;Simon Högberg;22;M;Strömsund;22 år, Bilförsäljare, egenföretagare, Strömsund;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;2;J;J;I;J;252631;Maria Sandberg;41;K;Strömsund;41 år, Förskolechef, Strömsund;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;3;J;J;I;J;39511;Jan Olof Olofsson;74;M;Strömsund;74 år, Pensionär, Hammerdal;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;4;J;J;I;J;252633;Lars Eric Bergman;57;M;Strömsund;57 år, Kultur-och fritidschef, Hoting;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;5;J;J;I;J;252634;Eskil Ehnberg;22;M;Strömsund;22 år, Undersköterska, Strömsund;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;6;J;J;I;J;252635;Eva Sjölander;67;K;Strömsund;67 år, Lärare, Rossön;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;7;J;J;I;J;252636;Lisa Nordström;22;K;Strömsund;22 år, Fibertekniker, Tullingsås;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;8;J;J;I;J;252637;Herman Holmkvist;72;M;Strömsund;72 år, Pensionär, Strömsund;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;9;J;J;I;J;39502;Catarina Espmark;54;K;Strömsund;54 år, Civilekonom, Äspnäs;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;10;J;J;I;J;252639;Håkan Espmark;67;M;Strömsund;67 år, Hemmansägare, Äspnäs;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;11;J;J;I;J;252640;JonHenric Andersson;46;M;Strömsund;46 år, Musiker, Tullingsås;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;12;J;J;I;J;252641;Marie Åhlstedt;51;K;Strömsund;51 år, Undersköterska, Strömsund;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;13;J;J;I;J;252642;Julia Rolandsson;21;K;Strömsund;21 år, Fibertekniker, Gisselås;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;14;J;J;I;J;252643;Daniel Eklund;33;M;Strömsund;33 år, Kärnborrare, Tåsjö;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;15;J;J;I;J;252644;Henrik Johansson;23;M;Strömsund;23 år, Studerande, Hammerdal;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;16;J;J;I;J;252646;Håkan Berglund;63;M;Strömsund;63 år, Naturbevakare, Gäddede;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;17;J;J;I;J;252647;Björn Stranne;71;M;Strömsund;71 år, Egenföretagare, Görvik;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;18;J;J;I;J;252648;Marian Stranne Österlund;67;K;Strömsund;67 år, Egenföretagare, Görvik;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;19;J;J;I;J;252649;Ludwig Faxén;22;M;Strömsund;22 år, Hästskötare, Strömsund;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;20;J;J;I;J;252650;Anders Andrée;63;M;Strömsund;63 år, Lärare, Strömsund;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;21;J;J;I;J;252651;Pia Backman;90;K;Strömsund;90 år, Pensionär, Strömsund;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;22;J;J;I;J;252652;Lars Rönnestrand;63;M;Strömsund;63 år, Försäljningschef, Strömsund;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;23;J;J;I;J;39518;Jan Rönngren;61;M;Strömsund;61 år, Gymnasielärare, Strömsund;39000;;J
+K;2313;Strömsund;00;Strömsund;Moderaterna;M;1;S;14279;24;J;J;I;J;252654;Barbro Larbring Rönngren;60;K;Strömsund;60 år, Gymnasielärare, Strömsund;39000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;1;J;J;I;J;110848;Göran Edman;68;M;Strömsund;målare;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;2;J;J;I;J;110849;Mona Bjurström;59;K;Strömsund;kassabiträde;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;3;J;J;I;J;110850;Ronja Mattsson;26;K;Strömsund;vårdbiträde;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;4;J;J;I;J;110851;Anders Bryntesson;62;M;Strömsund;entreprenör;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;5;J;J;I;J;110852;Johanna Rosén;24;K;Strömsund;undersköterska;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;6;J;J;I;J;110853;Kristina Andersson;52;K;Strömsund;dataregistrerare;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;7;J;J;I;J;110854;Joakim Mikaelsson;42;M;Strömsund;ambulanssjukvårdare;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;8;J;J;I;J;110855;Stefan Abrahamsson;53;M;Strömsund;vaktmästare;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;9;J;J;I;J;110856;Rolf Mårtensson;75;M;Strömsund;pensionär;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;10;J;J;I;J;110857;Hans Blom;64;M;Strömsund;vaktmästare;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;11;J;J;I;J;110858;Tore Hansson;63;M;Strömsund;regionombud;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;12;J;J;I;J;110859;Håkan Engström;51;M;Strömsund;biluthyrningstekniker;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;13;J;J;I;J;110860;Björn Lundin;73;M;Strömsund;teletekniker;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;14;J;J;I;J;110861;Synnöve Finn;67;K;Strömsund;pensionär;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;15;J;J;I;J;110862;Viveca Nilsson;55;K;Strömsund;barnskötare;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;16;J;J;I;J;110863;Siv Johansson;75;K;Strömsund;pensionär;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;17;J;J;I;J;110864;Clas-Göran Sundqvist;60;M;Strömsund;maskinförare;14000;;J
+K;2313;Strömsund;00;Strömsund;Rättvis Demokrati;rd;473;S;13097;18;J;J;I;J;110865;Tony Olofsson;74;M;Strömsund;egenföretagare;14000;;J
+K;2313;Strömsund;00;Strömsund;Sverigedemokraterna;SD;110;S;15519;1;N;J;J;I;105711;Hans Elmbjer;70;M;Strömsund;Pensionär;29000;;J
+K;2313;Strömsund;00;Strömsund;Sverigedemokraterna;SD;110;S;15519;2;N;J;J;I;105712;Steve Svensson;62;M;Strömsund;Civilekonom;29000;;J
+K;2313;Strömsund;00;Strömsund;Sverigedemokraterna;SD;110;S;15519;3;N;J;J;I;105713;Veronica Berglund;44;K;Strömsund;;29000;;J
+K;2313;Strömsund;00;Strömsund;Sverigedemokraterna;SD;110;S;15519;4;N;J;J;I;105714;Lars Gustafsson;82;M;Strömsund;Sjöingenjör;29000;;J
+K;2313;Strömsund;00;Strömsund;Sverigedemokraterna;SD;110;S;15519;5;N;J;J;I;493223;Christer Norden;56;M;Strömsund;;29000;;J
+K;2313;Strömsund;00;Strömsund;Sverigedemokraterna;SD;110;;;;N;J;J;I;515612;Säbom, Mikael;62;M;Strömsund;;0;;J
+K;2313;Strömsund;00;Strömsund;Sverigedemokraterna;SD;110;;;;N;J;J;I;515613;Eriksson, Sven-Ingvar;52;M;Strömsund;;0;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;1;J;J;I;J;362868;Peter Frost;67;M;Strömsund;67 år, Strömsund;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;2;J;J;I;J;300373;Kerstin Sjöberg;65;K;Strömsund;65 år, Strömsund;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;3;J;J;I;J;362870;Lina Bostedt;35;K;Strömsund;35 år, Strömsund;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;4;J;J;I;J;362871;Kerstin Andersson-Hedström;68;K;Strömsund;69 år, Backe;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;5;J;J;I;J;362872;Simon Eriksson;38;M;Strömsund;38 år, Rossön;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;6;J;J;I;J;253069;Aron Kjellgren;62;M;Strömsund;62 år, Strömsund;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;7;J;J;I;J;362874;Mona Olofsson;59;K;Strömsund;59 år, Strömsund;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;8;J;J;I;J;362875;Mårten Olofsson;35;M;Strömsund;35 år, Strömsund;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;9;J;J;I;J;362876;Pia Karlsson;61;K;Strömsund;61 år, Strömsund;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;10;J;J;I;J;362877;Leif Johansson;69;M;Strömsund;69 år, Strömsund;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;11;J;J;I;J;362878;Laila Söderberg;57;K;Strömsund;57 år, Hoting;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;12;J;J;I;J;362879;Ingmar Sethson;66;M;Strömsund;66 år, Hammerdal;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;13;J;J;I;J;362881;Mattias Orrell;44;M;Strömsund;44 år, Backe;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;14;J;J;I;J;362882;Kristina Ström;34;K;Strömsund;34 år, Strömsund;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;15;J;J;I;J;362883;Tovar Eriksson;72;M;Strömsund;72 år, Strömsund;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;16;J;J;I;J;362884;Per Hedström;70;M;Strömsund;70 år, Backe;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;17;J;J;I;J;368209;Nora Dahlström;49;K;Strömsund;49 år, Strömsund;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;18;J;J;I;J;252534;Gert Norman;57;M;Strömsund;57 år, Backe;15000;;J
+K;2313;Strömsund;00;Strömsund;Vänsterpartiet;V;5;S;14902;19;J;J;I;J;362886;Henrik Orrell;49;M;Strömsund;49 år, Backe;15000;;J

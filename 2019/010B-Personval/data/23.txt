@@ -1,0 +1,354 @@
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;20% skattepartiet;;1365;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Allians för Sverige;;1423;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;1;J;J;I;J;6798;Ann-Marie Johansson;61;K;Åre;61, Ombudsman, Konäs;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;2;J;J;I;J;6799;Bengt Bergqvist;53;M;Strömsund;53, Projektledare, Strömsund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;3;J;J;I;J;7441;Margareta Winberg;71;K;Östersund;71, Ambassadör, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;4;J;J;I;J;6462;Anders Frimert;45;M;Ragunda;45, Försäljningschef, Stugun;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;5;J;J;I;J;6464;Jenny Sellsve;27;K;Östersund;27, IT-tekniker, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;6;J;J;I;J;7444;Robert Uitto;53;M;Östersund;53, Dipl Homeopat, Frösön;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;7;J;J;I;J;7445;Kristina Holm;52;K;Härjedalen;52, Biståndshandläggare, Vemhån;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;8;J;J;I;J;7446;Anton Hammar;26;M;Östersund;26, Ombudsman, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;9;J;J;I;J;7447;Karin Näsmark;57;K;Strömsund;57, Djurskötare, Havsnäs;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;10;J;J;I;J;7448;David Adervall;39;M;Östersund;39, Folkhälsoutredare, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;11;J;J;I;J;6469;Martine Eng;30;K;Åre;30, Butiksmedarbetare, Åre;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;12;J;J;I;J;7450;Thomas Hägg;63;M;Åre;63, Egen företagare, Mörsil;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;13;J;J;I;J;7451;Britt Carlsson;69;K;Krokom;69, fd Barnskötare, Aspås;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;14;J;J;I;J;7452;Abbas Khanahmadi;66;M;Härjedalen;66, Folkhögskolerektor, Sveg;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;15;J;J;I;J;7453;Cathrine Blomqvist;49;K;Bräcke;49, Usk/Mentalskötare, Bräcke;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;16;J;J;I;J;7454;Tahar Khalfallah;65;M;Östersund;65, Integrationshandledare, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;17;J;J;I;J;7455;Maria Nerpin;54;K;Östersund;54, Egen företagare, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;18;J;J;I;J;6468;Jörgen Persson;52;M;Bräcke;52, Fritidsledare, Gällö;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;19;J;J;I;J;6461;Maria Jacobsson;56;K;Krokom;56, Egen företagare, Offerdal;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;20;J;J;I;J;6467;Niklas Rhodin;24;M;Krokom;24, Servicetjänsteman, Krokom;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;21;J;J;I;J;7459;Ella Wallberg;49;K;Östersund;49, Pedagog, Frösön;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;22;J;J;I;J;7460;Christer Nordqvist;62;M;Härjedalen;62, Vaktmästare, Sveg;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;23;J;J;I;J;8133;Marie Olofsson;49;K;Östersund;49, Enhetschef, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;24;J;J;I;J;8134;André Norlén;26;M;Östersund;26, Ombudsman, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;25;J;J;I;J;8135;Gudrun Olsson;69;K;Östersund;70, Socionom, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;26;J;J;I;J;8136;Roger Östlund;58;M;Ragunda;58, Kyrkvaktmästare, Bispgården;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;27;J;J;I;J;8137;Maud Fortuna;61;K;Strömsund;61, Distriktssköterska, Strömsund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;28;J;J;I;J;8138;Leif D Sivertsson;72;M;Berg;72, Pensionär, Klövsjö;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;29;J;J;I;J;8139;Diana Lindström;27;K;Östersund;27, Planeringsingenjör, Frösön;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;30;J;J;I;J;8140;Kent Wassdahl;57;M;Strömsund;57, Verksamhetsutvecklare, Tåsjö;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;31;J;J;I;J;8141;Carina Fröberg;51;K;Krokom;51, Fakturahandläggare, Nälden;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;32;J;J;I;J;8142;Leif Persson;75;M;Östersund;75, Socialpedagog, Lit;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;33;J;J;I;J;8143;Anitha Olofsson;72;K;Åre;72, Pensionär, Järpen;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;34;J;J;I;J;8144;Jan Jonsson;68;M;[saknas i folkbokföringen];68, Pensionär, Brynje;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;35;J;J;I;J;8145;Christina Westberg;62;K;Härjedalen;62, Undersköterska, Älvros;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;36;J;J;I;J;14885;Crister Leandersson;49;M;Bräcke;49, Undersköterska, Kälarne;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;37;J;J;I;J;8146;Gabriella Carlsson;48;K;Krokom;48, Kommunikatör, Krokom;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;38;J;J;I;J;8147;Anders Magnusson;54;M;Östersund;54, VD, Frösön;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;39;J;J;I;J;8148;Jenny Störvold;23;K;Östersund;23, Målare, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;40;J;J;I;J;8149;Nils Lindberg;18;M;Åre;18, Studerande, Såå;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;41;J;J;I;J;8150;Ida Collin;39;K;Strömsund;39, Egen företagare, Norråker;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;42;J;J;I;J;6470;Alf Larsson;73;M;Härjedalen;73, Pensionär/Egen företagare, Överhogdal;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;43;J;J;I;J;8152;Mona Modin Tjulin;44;K;Östersund;44, Politisk sekreterare, Frösön;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;44;J;J;I;J;8153;Kjell Grafström;70;M;Ragunda;70, Pedagog, Hammarstrand;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;45;J;J;I;J;8154;Erika Öhlin;35;K;Krokom;35, Studerande, Aspås;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;46;J;J;I;J;16258;Simon Teclehaimanot;47;M;Östersund;47, Lärare, Frösön;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;47;J;J;I;J;16259;Gunilla Larsson;65;K;Härjedalen;65, Kundtjänstmedarbetare, Älvros;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;48;J;J;I;J;8155;Johnny Jonsson;71;M;Bräcke;71, Pensionär, Kälarne;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;49;J;J;I;J;8156;Alvi Berglund;79;K;Östersund;79, Jordbrukare, Lit;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;50;J;J;I;J;8157;Elmer Andersson;72;M;Strömsund;73, Pensionär, Norråker;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;51;J;J;I;J;8158;Katarina Rosberg;56;K;Krokom;56, Undersköterska, Trångsviken;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;52;J;J;I;J;8160;Björn Sandal;59;M;Östersund;60, Folkhögskolelärare, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;53;J;J;I;J;8159;Henny Möhlnhoff-Lindkvist;69;K;Åre;69, fd Lärare, Vassnäs;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;54;J;J;I;J;8162;Julius Wallin;18;M;Krokom;18, Studerande, Ås;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;55;J;J;I;J;8161;Bendigt Eriksson;68;K;Östersund;68, Administratör, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;56;J;J;I;J;8164;Magnus Sundström;48;M;Östersund;48, Säljare, Kälarne;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;57;J;J;I;J;8163;Catharina Berg;37;K;Östersund;37, Bonde, Lit;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;58;J;J;I;J;8220;Jesper Inegård;39;M;Åre;39, Lärare, Mörsil;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;59;J;J;I;J;8219;Ida Asp;34;K;Östersund;34, Specialpedagog, Marieby;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;60;J;J;I;J;8222;Mikael Karlsson;53;M;Krokom;53, Grafisk designer, Kännåsen;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;61;J;J;I;J;8221;Susanne Persson;41;K;Östersund;41, Projektledare, Brunflo;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;62;J;J;I;J;8223;Maths Larsson;63;M;Åre;63, Lärare, Duved;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;63;J;J;I;J;16273;Kholod Mahmood;47;K;Östersund;42, Kontrollant, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;64;J;J;I;J;8225;Glenn Löfblad;51;M;Östersund;51, Städare, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;65;J;J;I;J;8224;Jaana Pålsson;49;K;Östersund;49, Ombudsman, Brunflo;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;66;J;J;I;J;8227;Håkan Persson;52;M;Strömsund;52, Undersköterska, Hoting;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;67;J;J;I;J;8226;Elin Hammar;18;K;Strömsund;18, Studerande, Strömsund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;68;J;J;I;J;8229;Ulf Wäjersten;61;M;Östersund;62, Elevassistent, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;69;J;J;I;J;8228;Eva Marcusdotter;58;K;Östersund;58, Handledare, Frösön;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Arbetarepartiet-Socialdemokraterna;S;2;S;11847;70;J;J;I;J;16282;Johanna Ångström;23;K;Uppsala;23, Vårdbiträde, Östersund;518000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;ASYL.NUPARTIET;;1420;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Basinkomstpartiet;;1372;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Bg-Demokrati;;1375;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;1;J;J;I;J;95771;Elin Lemon;35;K;Härjedalen;regionråd/folkhälsovetare 35 år Herrö;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;2;J;J;I;J;307483;Eva Hellstrand;61;K;Åre;politiker och bonde 61 år Undersåker;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;3;J;J;I;J;236969;Mats Gärd;54;M;Strömsund;företagare 54 år Fyrås;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;4;J;J;I;J;239464;Andreas Karlsson;51;M;Krokom;landsbygdsutvecklare 51 år Ås;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;5;J;J;I;J;239477;Cristine Persson;52;K;Krokom;ekonom/marknadsförare 52 år Krokom;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;6;J;J;I;J;242669;Thomas Andersson;46;M;Östersund;företagare 46 år Fåker;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;7;J;J;I;J;236996;Marie-Louise Oscarsson;67;K;Strömsund;fd områdeschef regionen 67 år Strömsund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;8;J;J;I;J;242677;Jörgen Larsson;51;M;Östersund;företagare 51 år Frösön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;9;J;J;I;J;95772;Håkan Larsson;68;M;Krokom;journalist 68 år Rödön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;10;J;J;I;J;307491;Britt-Inger Roos;56;K;Strömsund;bibliotekschef 56 år Tjärnnäset;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;11;J;J;I;J;307492;Gunnar Nilsson;61;M;Östersund;distriktsläkare 61 år Frösön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;12;J;J;I;J;283566;Mari Eriksson;41;K;Åre;projektledare 41 år Häljesund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;13;J;J;I;J;95776;Johannes Andersson;27;M;Östersund;skidåkare/egen företagare 27 år Frösön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;14;J;J;I;J;307495;Bogna Wojikiewicz Adolfsson;50;K;Östersund;biodlare 50 år Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;15;J;J;I;J;283587;Olle Christmansson;54;M;Åre;egenföretagare 54 år Hallen;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;16;J;J;I;J;283574;Ghulam Mustafa;29;M;Åre;modersmålslärare 29 år Duved;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;17;J;J;I;J;95773;Annakarin Olsson;44;K;Strömsund;projektkoordinator 44 år Strömsund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;18;J;J;I;J;95768;Tom Silverklo;43;M;Östersund;entreprenör 43 år Frösön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;19;J;J;I;J;283582;Olivia Widholm;26;K;Åre;undersköterska 26 år Järpen;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;20;J;J;I;J;283565;Daniel Danielsson;40;M;Åre;oppositionsråd 40 år Järpen;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;21;J;J;I;J;307502;Linn Aldén;23;K;Berg;mejeriarbetare 23 år Oviken;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;22;J;J;I;J;239476;Mathias Friman;39;M;Krokom;systemingenjör 39 år Ås;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;23;J;J;I;J;242690;Susanne Edfeldt Sjöling;48;K;Östersund;processledare 48 år Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;24;J;J;I;J;242665;Magnus Rönnerfjäll;42;M;Östersund;leg sjuksköterska/egenföretagare 42 år Frösön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;25;J;J;I;J;283568;Marie Rödemark;54;K;Åre;lärare/författare 54 år Duved;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;26;J;J;I;J;242685;Patrik Andersson;31;M;Östersund;banktjänsteman 31 år Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;27;J;J;I;J;307508;Helen Kindberg;57;K;Berg;kock 57 år Hackås;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;28;J;J;I;J;307509;Stefan Hallgren;50;M;Östersund;digital marknadsstrateg 50 år Frösön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;29;J;J;I;J;236978;Anna Andrée;55;K;Strömsund;skolsköterska 55 år Strömsund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;30;J;J;I;J;307511;Per-Johan Skoglund;61;M;Krokom;diversearbetare 61 år Rödön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;31;J;J;I;J;242662;Sara Wikman;33;K;Östersund;rektor 33 år Frösön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;32;J;J;I;J;307513;Peter Madsen;45;M;Östersund;produktionsstöd 45 år Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;33;J;J;I;J;95775;Lena Olsson;63;K;Berg;socionom 63 år Svenstavik;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;34;J;J;I;J;283714;Per Enzell;57;M;Krokom;företagare 57 år Rödön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;35;J;J;I;J;242671;Leif Hagberg;65;M;Östersund;pensionerad polis 65 år Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Centerpartiet;C;4;S;14647;36;J;J;I;J;188494;Örjan Eriksson;56;M;Härjedalen;projektledare 56 år Sveg;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Common sense in Sweden;CSIS;1318;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Demokraterna i Göteborg;;1426;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Demokrati Sverige;;1387;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Demokratirörelsen;;1314;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Det nya partiet;;1351;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Direktdemokraterna;DD;1150;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Europeiska Arbetarpartiet-EAP;EAP;29;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Feministiskt initiativ;FI;532;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Final Partiet;;1329;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;FN Parti art: 27;;1425;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Folkhemmet Sverige;;1388;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Folkhemmet Sverige;;1388;;;;N;J;J;I;515562;Agnar, Inger;66;K;Härjedalen;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Folkstyret;;1317;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Generation Utveckling;;1406;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Gula Partiet;Gup;1173;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Humandemokraterna;HumDe;1176;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;iGov.Direct®;;1316;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Initiativet;;1374;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;iP-IDROTTSPARTIET-Rädda Stadshagens IP!;iP;1416;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Klassiskt liberala partiet;KLP;638;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kosmopolitiska Partiet;;1405;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;1;J;J;I;J;205310;Lars-Erik Olofsson;60;M;Östersund;infektionsläkare, Frösön;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;2;J;J;I;J;205311;Margareta M Persson;53;K;Härjedalen;sjuksköterska, Sveg;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;3;J;J;I;J;205313;Stefan Nilsson;70;M;Ragunda;fd officer, Hammarstrand;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;4;J;J;I;J;205309;Linnéa Haggren;38;K;Åre;byggnadsinspektör, Hallen;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;5;J;J;I;J;205315;Karl-Erik Lundin;67;M;Ragunda;fd lärare, Hammarstrand;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;6;J;J;I;J;205316;Andrea Hedenborg;23;K;Östersund;kassörska, Östersund;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;7;J;J;I;J;205318;Lena Persson;57;K;Krokom;ITsamordnare, Alsen;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;8;J;J;I;J;285758;Stephen Jerand;63;M;Östersund;polismästare, Östersund;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;9;J;J;I;J;205317;Rasmus Ericsson;23;M;Krokom;student, Krokom;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;10;J;J;I;J;205319;Stig Andersson;66;M;Östersund;fd officer, Östersund;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;11;J;J;I;J;205314;Lena Östling;51;K;Östersund;tandhygienist, Östersund;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;12;J;J;I;J;205320;Emanuel Sandberg;81;M;Östersund;ingenjör, Östersund;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;13;J;J;I;J;205321;Lars-Olof Eliasson;72;M;Härjedalen;fd lärare, Sveg;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;14;J;J;I;J;205322;Karl-Göran Eriksson;71;M;Östersund;ingenjör, Östersund;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristdemokraterna;KD;68;S;13891;15;J;J;I;J;206005;Eva Lundin;66;K;Ragunda;fd administratör, Hammarstrand;300000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Kristna Värdepartiet;KrVP;1140;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Landsbygdspartiet Oberoende;LPo;1011;S;14526;1;J;J;I;J;203149;Per-Anders Tapper;59;M;Härjedalen;57 år, Snickare, Tännäs;25000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Landsbygdspartiet Oberoende;LPo;1011;S;14526;2;J;J;I;J;203510;Pär-Åke Eriksson;64;M;Härjedalen;64 år, Pensionär, Sveg;25000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Landsbygdspartiet Oberoende;LPo;1011;S;14526;3;J;J;I;J;203151;Berit Lindstedt;60;K;Härjedalen;59 år, Ambulanssjukvårdare, Sveg;25000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Landsbygdspartiet Oberoende;LPo;1011;S;14526;4;J;J;I;J;131844;Olle Larsson;64;M;Härjedalen;64 år, Industrirörläggare, Ränningsvallen;25000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Landsbygdspartiet Oberoende;LPo;1011;S;14526;5;J;J;I;J;203511;Frej Ollesson;27;M;Härjedalen;26 år, Pistvakt, Ränningsvallen;25000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;1;J;J;I;J;223106;Lennart Ledin;74;M;Östersund;fd revisionsdirektör,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;2;J;J;I;J;224892;Eva-Britt Boij;63;K;Härjedalen;vägledare,Sveg;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;3;J;J;I;J;223109;Kia Carlsson;71;K;Östersund;pensionär,Frösön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;4;J;J;I;J;223119;Mats E Nilsson;75;M;Östersund;fd överläkare,Frösön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;5;J;J;I;J;224895;Barbro Zetterlund;67;K;Strömsund;dist.sköterska,rehab.koordinator,Strömsund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;6;J;J;I;J;223103;Mireya Melander;33;K;Östersund;studerande,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;7;J;J;I;J;223100;Serhat Uzun;46;M;Östersund;egen företagare,studiehandledare,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;8;J;J;I;J;224898;Tord Jemteborn;75;M;Östersund;fd militär,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;9;J;J;I;J;223101;Annica Nordell;72;K;Östersund;egen företagare,Frösön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;10;J;J;I;J;223107;Ariane Briant Kjellson;44;K;Östersund;utredare,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;11;J;J;I;J;49200;Pär Löfstrand;48;M;Östersund;universitetslärare,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;12;J;J;I;J;223114;Finn Cromberger;73;M;Östersund;egen företagare,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;13;J;J;I;J;223113;Mats El Kott;69;M;Östersund;arbetsrättsjurist,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;14;J;J;I;J;223108;Bo Oscarsson;70;M;Östersund;jamska,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;15;J;J;I;J;223115;Henrik Loxell;32;M;Östersund;kommunjurist,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;16;J;J;I;J;223102;Joakim Åberg;50;M;Östersund;egen företagare,Frösön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;17;J;J;I;J;223104;Bengt Magnusson;65;M;Östersund;fd lärare, Frösön;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;18;J;J;I;J;199000;Håkan Borg;82;M;Åre;forskande läkare,Åre;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;19;J;J;I;J;223111;Thord Eric Nilsson;76;M;Östersund;redaktör,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;20;J;J;I;J;223110;Tomas Svanström;75;M;Östersund;pensionär,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;21;J;J;I;J;223118;Stina Johnsson;21;K;Östersund;studerande,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;22;J;J;I;J;223117;Kjell Ericson;77;M;Östersund;fd polis,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;23;J;J;I;J;223116;Torbjörn Ericson;54;M;Östersund;jur kand,Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Liberalerna (tidigare Folkpartiet);L;3;S;14011;24;J;J;I;J;182833;Per-Erik Wåglin;76;M;Berg;fd universitetslärare,Oviken;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;LOTTOKRATIN;;518;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;LÅNGEN&CO;;1345;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Medborgarresan;;1330;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Medborgerlig Samling;MED;1296;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;1;J;J;I;J;175337;Karin Thomasson;56;K;Östersund;56, Musiklärare, Frösön;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;2;J;J;I;J;175336;Anton Nordqvist;27;M;Östersund;27, Egen företagare, Brunflo;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;3;J;J;I;J;385928;Kerstin Hylén;57;K;Bräcke;57, Egen företagare, Revsund;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;4;J;J;I;J;175346;Anders Vikström Aloandersson;43;M;Östersund;43, Familjebehandlare, Torvalla by;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;5;J;J;I;J;385887;Jenny Persson;42;K;Östersund;42, Konstnär, fotograf, Frösön;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;6;J;J;I;J;175342;Florian Stamm;52;M;Östersund;52, Utredare,Frösön;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;7;J;J;I;J;175347;Lena Mackegård;54;K;Östersund;54, Egen företagare, Östersund;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;8;J;J;I;J;175340;Elon Wissing;18;M;Åre;18, Student, Åre;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;9;J;J;I;J;386015;Eva Ljungdahl;54;K;Krokom;54, Ekoingenjör, Dvärsätt;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;10;J;J;I;J;175345;Maja Ramström;50;K;Strömsund;50, Skogskonsulent, Strömsund;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;11;J;J;I;J;386060;David Bell;70;M;Östersund;70, Pensionär, Hackås;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;12;J;J;I;J;386017;Paul van den Brink;54;M;Krokom;54, Universitetslärare, Kälen;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;13;J;J;I;J;385919;Marie Christensson;32;K;Åre;32, Statsanställd, Konäs;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;14;J;J;I;J;175344;Thomas Dahlberg;34;M;Östersund;34, Programmerare, Hara;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;15;J;J;I;J;385895;Annelie Mattson-Djos;42;K;Östersund;42, Verksamhetscontroller, Östersund;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;S;15028;16;J;J;I;J;385915;Katrin Wissing;38;K;Åre;38, Administratör, Duved;60000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Miljöpartiet de gröna;MP;55;;;;J;J;I;N;515718;[inte lämnat förklaring];;;;;0;;N
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;1;J;J;I;J;39487;Elise Ryder Wikén;49;K;Berg;49 år, Skålan;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;2;J;J;I;J;39488;Jan-Olof Andersson;58;M;Strömsund;58 år, Trångmon;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;3;J;J;I;J;39489;Robert Hamberg;36;M;Östersund;36 år, Lillsjöhögen;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;4;J;J;I;J;39490;Amanda Jonsson;18;K;Östersund;18 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;5;J;J;I;J;39491;Lise Hjemgaard Svensson;65;K;Östersund;65 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;6;J;J;I;J;39492;Veronica Eklund;56;K;Bräcke;56 år, Bräcke;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;7;J;J;I;J;39493;Margareta Gladh;68;K;Härjedalen;68 år, Sveg;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;8;J;J;I;J;39494;Linus Kimselius;32;M;Östersund;32 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;9;J;J;I;J;39495;Karin Ekblom;65;K;Åre;65 år, Mörsil;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;10;J;J;I;J;39496;Pär Jönsson;59;M;Östersund;59 år, Frösön;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;11;J;J;I;J;39497;Pontus Nissblad;52;M;Härjedalen;52 år, Funäsdalen;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;12;J;J;I;J;39498;Joackim Ekroth;56;M;Östersund;56 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;13;J;J;I;J;39499;Knut Richardsson;71;M;Bräcke;71 år, Gällö;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;14;J;J;I;J;39500;Elisabet Sjöström;73;K;Östersund;73 år, Frösön;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;15;J;J;I;J;39501;Lars-Olof Mattsson;58;M;Härjedalen;58 år, Sveg;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;16;J;J;I;J;39502;Catarina Espmark;54;K;Strömsund;54 år, Äspnäs;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;17;J;J;I;J;39503;Kent Karlsson;56;M;Berg;56 år, Hackås;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;18;J;J;I;J;39504;Jannike Hillding;54;K;Krokom;54 år, Rödön;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;19;J;J;I;J;39505;Susanné Wallner;50;K;Östersund;50 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;20;J;J;I;J;39506;Joel Nordkvist;28;M;Östersund;28 år, Frösön;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;21;J;J;I;J;39507;Elisabet Forsgren Sandvold;55;K;Härjedalen;55 år, Hedeviken;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;22;J;J;I;J;39508;Marina Mellgren;67;K;Bräcke;67 år, Landsom;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;23;J;J;I;J;39509;Henrik Johansson;18;M;Krokom;18 år, Ås;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;24;J;J;I;J;39510;Andreas Köhler;39;M;Östersund;39 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;25;J;J;I;J;39511;Jan Olof Olofsson;74;M;Strömsund;74 år, Hammerdal;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;26;J;J;I;J;39512;Pär Fredriksson;38;M;Östersund;38 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;27;J;J;I;J;39513;Annika Hagen;49;K;Berg;49 år, Ljungdalen;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;28;J;J;I;J;39514;Björn Hammarberg;48;M;Krokom;48 år, Kaxås;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;29;J;J;I;J;39515;Irene Nyqvist;61;K;Åre;61 år, Hålland;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;30;J;J;I;J;39516;Stina Kimselius;49;K;Krokom;49 år, Ås;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;31;J;J;I;J;39517;Birgitta Franzon;74;K;Bräcke;74 år, Bräcke;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;32;J;J;I;J;39518;Jan Rönngren;61;M;Strömsund;61 år, Strömsund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;33;J;J;I;J;39519;Linnéa Wigg Victor;77;K;Östersund;77 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;34;J;J;I;J;39520;Elisabeth Svensson;63;K;Krokom;63 år, Dvärsätt;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;35;J;J;I;J;39521;Åke Mörtsell;86;M;Östersund;86 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;36;J;J;I;J;39522;Therese Dahlgren;43;K;Östersund;43 år, Svenstavik;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;37;J;J;I;J;39523;Lydia Bygdén;19;K;Härjedalen;19 år, Hede;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;38;J;J;I;J;39524;Salwa Fakr-Eddine;53;K;Östersund;53 år, Lit;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;39;J;J;I;J;39525;Johan Näslund;46;M;Berg;46 år, Svenstavik;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;40;J;J;I;J;39526;Ove Isacsson;70;M;Östersund;70 år, Frösön;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;41;J;J;I;J;39527;Jennie Klaesson;39;K;Berg;39 år, Hackås;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;42;J;J;I;J;39528;Leif Danielsson;65;M;Östersund;65 år, Brunflo;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;43;J;J;I;J;39529;Christer Sivertsson;67;M;Östersund;67 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;44;J;J;I;J;39532;Samuel Gilljam;19;M;Krokom;19 år, Alsen;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;45;J;J;I;J;39533;Torunn Saetre Holgersson;70;K;Berg;70 år, Åsarna;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;46;J;J;I;J;39534;Monica Hult;56;K;Krokom;56 år, Ås;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;47;J;J;I;J;39537;Daniel Danielsson;45;M;Berg;45 år, Tosåsen;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;48;J;J;I;J;39538;Anna Martin;44;K;Östersund;44 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;49;J;J;I;J;39539;Carl-Michael Sillström;37;M;Östersund;37 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;50;J;J;I;J;39540;Lars Olof Lignell;74;M;Östersund;74 år, Lit;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;51;J;J;I;J;39541;Mikael Hålén;58;M;Östersund;58 år, Frösön;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;52;J;J;I;J;39542;Marielle Hoflin Strindlund;41;K;Östersund;41 år, Tandsbyn;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;53;J;J;I;J;39543;Magnus Lenz;34;M;Östersund;34 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;54;J;J;I;J;39544;Sandra Leosson;32;K;Östersund;32 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;55;J;J;I;J;39545;Susanne Störvold;56;K;Östersund;56 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;56;J;J;I;J;39546;Hans Klaesson;43;M;Östersund;43 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Moderaterna;M;1;S;12323;57;J;J;I;J;39547;Per Svee;38;M;Östersund;38 år, Östersund;354000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Modern Sweden;;1380;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Nordiska motståndsrörelsen;NMR;1273;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Norrlandspartiet;;1378;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;NPP Nya Pensions Partiet;;1399;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;numen kärlekspartiet;;1415;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;NY REFORM;;1385;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Nya bjornska partiet;;1418;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;nya Ny Demokrati;;1391;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Papepartiet;;1408;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Partiet Folkomröstning;;1371;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Piratpartiet;PP;524;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;POPULISTERNA;;1347;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Raggarpartiet;;1389;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Reformist Neutral Partiet;RNP;1202;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Rosa Drömmar;;1409;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sjöbopartiet;SJP;172;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Skolpartiet Göteborg;;1397;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;SKÅNEPARTIET;SKÅ;54;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sociala Partiet (SP);;522;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;SOCIALLIBERALERNA;;1421;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Spektral demokrati;;1376;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Svensk Jobbdemokrati;;1414;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverige ut ur EU/Frihetliga Rättvisepartiet (FRP);;1384;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;1;J;J;I;J;106438;Peter Johansson;59;M;Östersund;Ombudsman, Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;2;J;J;I;J;278842;Anette Rangdag;56;K;Berg;Undersköterska, Berg;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;3;J;J;I;J;105599;Ronny Karlsson;49;M;Krokom;Produktionsplanerare, Krokom;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;4;J;J;I;J;278909;Bengt Åke Arendolf;70;M;Berg;Pensionär, Berg;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;5;J;J;I;J;106443;Alexandra Boije af Gennäs;48;K;Östersund;Fil.kand, Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;6;J;J;I;J;105602;Marcus Danielsson;40;M;Krokom;Studerande, Krokom;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;7;J;J;I;J;105713;Veronica Berglund;44;K;Strömsund;Strömsund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;8;J;J;I;J;106439;Stefan Sundberg;48;M;Östersund;IT-konsult, Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;9;J;J;I;J;106462;Ulla Vikander;61;K;Ragunda;Lokalvårdare, Ragunda;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;10;J;J;I;J;105603;Sune Sjöström;61;M;Krokom;Pensionär, Krokom;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;11;J;J;I;J;105604;Madeleine Reppe;55;K;Krokom;Hemmafru, Krokom;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;12;J;J;I;N;106441;[inte lämnat förklaring];;;;;306000;;N
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;13;J;J;I;J;105601;Claes Sundberg;72;M;Krokom;Företagare, Krokom;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;14;J;J;I;J;106442;Ginger Olofsson;70;K;Östersund;Pensionär, Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;15;J;J;I;J;106440;Christer Jonsson;73;M;Östersund;Företagare, Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;16;J;J;I;J;105712;Steve Svensson;62;M;Strömsund;Civilekonom, Strömsund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;17;J;J;I;J;278923;Kjell Åke Andersson;52;M;Berg;Mekaniker, Berg;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;18;J;J;I;J;278924;Tommy Jakobsson;53;M;Berg;Företagare, Berg;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;19;J;J;I;J;105714;Lars Gustafsson;82;M;Strömsund;Sjöingenjör, Strömsund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;20;J;J;I;J;105600;Jan Englund;66;M;Krokom;Pensionär, Krokom;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;21;J;J;I;J;278927;Dan-Olof Nilsson;61;M;Berg;Elektriker, Berg;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;22;J;J;I;J;106444;Lars Rindö;67;M;Östersund;Ingenjör, Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;23;J;J;I;J;278929;Tony Gunnarsson;57;M;Åre;Examinator, Åre;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;24;J;J;I;J;278930;Laila Fors;78;K;Berg;Pensionär, Berg;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;25;J;J;I;J;278931;Ulla Stolt;57;K;Berg;Vårdbiträde, Berg;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;26;J;J;I;J;106445;Stig Saether;52;M;Östersund;Samhall, Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;27;J;J;I;J;105169;Tomas Nordlund;42;M;Åre;Undersköterska, Åre;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;28;J;J;I;J;106446;Sebastian Bergman;30;M;Östersund;Handläggare, Östersund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigedemokraterna;SD;110;S;14489;29;J;J;I;J;105711;Hans Elmbjer;70;M;Strömsund;Pensionär, Strömsund;306000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sverigepartiet;;1396;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Sveriges Kommunistiska Parti (SKP);SKP;1063;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Technopartiet;;1400;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Tryggare Sverige;;1328;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;TRYGGHETSPARTIET;TRP;1309;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Utveckling och Progressiv för Sverige partiet (U.P.S);;1386;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;VALDI2018;;1422;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Valsamverkanspartiet;;1332;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vi Socialkonservativa;ViS;1349;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Visiona;;1417;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vårt land - Sverige;;1412;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vägvalet;VägV;1138;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;1;J;J;I;J;252538;Elin Hoffner;45;K;Östersund;45 år, behandlingsassistent, Hara;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;2;J;J;I;J;252540;Marie Svensson;46;K;Krokom;46 år, onkologisjuksköterska, Aspås;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;3;J;J;I;J;253060;Sonny Hoffman;57;M;Östersund;57 år, tjänsteman, Östersund;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;4;J;J;I;J;253073;Catarina Antán;65;K;Ragunda;65 år, pensionär, Fisksjölandet;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;5;J;J;I;J;252533;Jörgen Blom;45;M;Krokom;45 år, undersköterska, Alsen;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;6;J;J;I;J;253061;Svante Freij;54;M;Östersund;54 år, byggnadsantikvarie, Östersund;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;7;J;J;I;J;300369;Börje Lundin;62;M;Bräcke;62 år, undersköterska, Kälarne;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;8;J;J;I;J;253059;Helena Åsasdotter Nord;49;K;Berg;49 år, zonterapeut, Svenstavik;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;9;J;J;I;J;300371;Bo Danielsson;61;M;Härjedalen;61 år, teletekniker, Sveg;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;10;J;J;I;J;252539;Alf Lundin;63;M;Berg;63 år, egen företagare, Svenstavik;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;11;J;J;I;J;300373;Kerstin Sjöberg;65;K;Strömsund;65 år, undersköterska, Strömsund;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;12;J;J;I;J;253062;Jeannette Ek;44;K;Härjedalen;44 år, undersköterska, Sveg;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;13;J;J;I;J;252537;Nisse Sandqvist;32;M;Östersund;32 år, timvikarie LSS, Östersund;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;14;J;J;I;J;300376;Hanne Krogfjord;46;K;Östersund;46 år, sjukskriven, Östersund;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;15;J;J;I;J;300377;Delnia Mostafaee;34;K;Krokom;34 år, lärare, Nälden;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;16;J;J;I;J;253074;Stig Söderin;62;M;Östersund;62 år, byggnadssnickare, Östersund;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;17;J;J;I;J;300379;Agneta Lögdquist Eriksson;67;K;Östersund;67 år, pensionerad undersköterska, Östersund;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;18;J;J;I;J;252534;Gert Norman;57;M;Strömsund;57 år, behandlingsassistent, Backe;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;19;J;J;I;J;388748;Lina Ali;29;K;Krokom;29 år, cafébiträde, Nälden;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;20;J;J;I;J;253058;Nehro Mostafaee;37;M;Krokom;37 år, lärare, Nälden;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;21;J;J;I;J;300382;Alistair Cochrane;66;M;Östersund;66 år, pensionerad musiklärare, Östersund;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;22;J;J;I;J;300383;Hefal Ahmad;35;M;Krokom;35 år, bilmekaniker, Nälden;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;23;J;J;I;J;360991;Mohamed Ahmed Idris;32;M;Krokom;32 år, modersmålslärare, Krokom;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;24;J;J;I;J;253070;Anna Sonntag;72;K;Krokom;72 år, pensionerad sjuksköterska, Ås;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;25;J;J;I;J;300385;André Huck;73;M;Krokom;73 år, pensionär, Ås;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;26;J;J;I;J;300386;Märit Hildebrandsson;61;K;Strömsund;61 år, Yxskaftkälen;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;27;J;J;I;J;252535;Helena Larsson;35;K;Härjedalen;35 år, rektor, Överberg;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;28;J;J;I;J;300388;Idris Abdulla;29;M;Krokom;29 år, studiehandledare, Krokom;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;29;J;J;I;J;253063;Johan Flander;57;M;Östersund;57 år, boendehandledare/mentalskötare, Östersund;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;30;J;J;I;J;253072;Inger Jansson;72;K;Östersund;72 år, pensionerad behandlingsassistent, Östersund;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;31;J;J;I;J;300391;Sergio Diaz;55;M;Östersund;55 år, Östersund;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;32;J;J;I;J;253068;Emilia Blomqvist;38;K;Berg;38 år, skolsköterska, Oviken;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Vänsterpartiet;V;5;S;14608;33;J;J;I;J;252536;MonaLisa Norrman;64;K;Krokom;64 år, utredare, Nordannälden;150000;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Äkta demokrati;;1407;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+L;23;Jämtlands läns landsting;00;Jämtland/Härjedalen;Ändrings partiet revolution;;1404;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J

@@ -1,0 +1,218 @@
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;1;J;J;I;J;334664;Per-Ola Mattsson;56;M;Karlshamn;Karlshamn Industriarbetare 57 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;2;J;J;I;J;334669;Annika Westerlund;62;K;Karlshamn;Karlshamn Ingenjör 62 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;3;J;J;I;J;334983;Leif Håkansson;61;M;Karlshamn;Asarum Industrielektriker 61 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;4;J;J;I;J;334663;Marie Sällström;54;K;Karlshamn;Matvik 54 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;5;J;J;I;J;139672;Xhani Bardhi;20;M;Karlshamn;Karlshamn Student 20 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;6;J;J;I;J;334986;Ulla Sandgren;58;K;Karlshamn;Mörrum Undersköterska 58 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;7;J;J;I;J;334672;Jan Bremberg;66;M;Karlshamn;Asarum Pensionär 66 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;8;J;J;I;J;334988;Monica Nobach;66;K;Karlshamn;Svängsta Leg. Sjuksköterska 66 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;9;J;J;I;J;334989;Fredrik Nilsson;23;M;Karlshamn;Asarum Barnskötare 22 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;10;J;J;I;J;334990;Katrin Johansson;60;K;Karlshamn;Asarum Kundrådgivare 60 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;11;J;J;I;J;334991;Jan-Åke Berg;61;M;Karlshamn;Karlshamn Fabriksarbetare 60 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;12;J;J;I;J;334671;Susanne Olsson;57;K;Karlshamn;Asarum Undersköterska 57 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;13;J;J;I;J;334993;Kenneth Hake;72;M;Karlshamn;Karlshamn Fd Euresadviser 72 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;14;J;J;I;J;334994;Linda Winnetoft;43;K;Karlshamn;Karlshamn Undersköterska 42 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;15;J;J;I;J;334678;Tommy Persson;66;M;Karlshamn;Karlshamn Pensionär 65 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;16;J;J;I;J;139671;Lena Sandgren;61;K;Karlshamn;Karlshamn Förskollärare 60 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;17;J;J;I;J;334666;Anders Karlsson;69;M;Karlshamn;Svängsta Pensionär 69 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;18;J;J;I;J;334998;Sofie Dahlqvist;33;K;Karlshamn;Karlshamn Restaurangbiträde 34 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;19;J;J;I;J;334999;Johnny Persson;69;M;Karlshamn;Karlshamn Pensionär 69 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;20;J;J;I;J;334661;Christel Friskopp;63;K;Karlshamn;Karlshamn Undersköterska 62 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;21;J;J;I;J;334680;Ulf Gustavsson;56;M;Karlshamn;Karlshamn Maskintekniker 57 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;22;J;J;I;J;334667;Kerstin Gustafson;62;K;Karlshamn;Karlshamn 61 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;23;J;J;I;N;139663;[inte lämnat förklaring];;;;;77000;;N
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;24;J;J;I;J;139675;Kerstin Linde;63;K;Karlshamn;Svängsta Verksamhetsledare 63 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;25;J;J;I;J;335005;Göran Svensson;69;M;Karlshamn;Karlshamn Pensionär 69 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;26;J;J;I;J;335006;Inger Löfblom Sjöberg;68;K;Karlshamn;Asarum Undersköterska 68 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;27;J;J;I;J;334662;Andreas Saleskog;36;M;Karlshamn;Karlshamn Restauranglärare 36 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;28;J;J;I;J;335008;Elisabet Rosengren;63;K;Karlshamn;Karlshamn 63 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;29;J;J;I;J;335009;Patrik Engström;55;M;Karlshamn;Svängsta Processberedare 55 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;30;J;J;I;J;335010;Anki Hansson;58;K;Karlshamn;Karlshamn Diakoniassistent 58 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;31;J;J;I;J;335011;Momma Merzi;29;M;Karlshamn;Karlshamn Projektledare 28 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;32;J;J;I;J;335012;Barbro Olsson;67;K;Karlshamn;Mörrum Pensionär 67 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;33;J;J;I;J;334670;Magnus Dagmyr;45;M;Karlshamn;Karlshamn Handledare 45 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;34;J;J;I;J;334677;Siri Näslund;60;K;Karlshamn;Asarum Leg Sjuksköterska 60 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;35;J;J;I;J;211119;Tobias Folkesson;41;M;Karlshamn;Hällaryd Undersköterska 41 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;36;J;J;I;J;335016;Vivianne Andersson;64;K;Karlshamn;Långehall Försäkringshandl. 63 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;37;J;J;I;J;335017;Ismail Bardhi;29;M;Karlshamn;Karlshamn Entreprenör 29 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;38;J;J;I;J;335018;Ingrid Hagberg Hake;69;K;Karlshamn;Karlshamn Fd SYV och Lärare 68 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;39;J;J;I;J;335019;Ulf Månsson;56;M;Karlshamn;Asarum Processoperatör 56 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;40;J;J;I;J;335020;Ylva Eriksson;58;K;Karlshamn;Karlshamn Undersköterska 58 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;41;J;J;I;J;334676;Rune Andersson;68;M;Karlshamn;Karlshamn Pensionär 69 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;42;J;J;I;J;334679;Marie Bengtsson;59;K;Karlshamn;Mörrum Biomedicinsk analytiker 59 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;43;J;J;I;J;335023;Ingvar Andersson;64;M;Karlshamn;Karlshamn Industriarbetare 64 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;44;J;J;I;J;334681;Hillevi Carlsson;61;K;Karlshamn;Asarum Lokalvårdare 60 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;45;J;J;I;J;334682;Robert Sandelin;55;M;Karlshamn;Karlshamn Processoperatör 55 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;46;J;J;I;J;335026;Marlene Svensson;56;K;Karlshamn;Karlshamn Fritidsledare 57 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;47;J;J;I;J;335027;Diez Nobach;69;M;Karlshamn;Svängsta Fd Lärare 68 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;48;J;J;I;J;335028;Ann-Christine Svensson;51;K;Karlshamn;Mörrum 51 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;49;J;J;I;J;335029;Torgny Lindqvist;59;M;Karlshamn;Mörrum Vaktmästare 59 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;50;J;J;I;J;335030;Marina Jönsson;41;K;Karlshamn;Karlshamn 41 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;51;J;J;I;J;335031;Bo Sandgren;57;M;Karlshamn;Mörrum Montör 57 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;52;J;J;I;J;334674;Roland Olsson;69;M;Karlshamn;Mörrum Pensionär 70 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;53;J;J;I;J;335033;Leif Gummesson;68;M;Karlshamn;Mörrum Pensionär 68 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;54;J;J;I;J;335034;Yngve Svensson;64;M;Karlshamn;Mörrum Pensionär 63 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;55;J;J;I;J;335035;Stig Johansson;73;M;Karlshamn;Karlshamn Pensionär 73 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;56;J;J;I;J;335036;Bengt-Olof Björck;77;M;Karlshamn;Mörrum Fd Ombudsman 77 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;57;J;J;I;J;335037;Billy Månsson;77;M;Karlshamn;Karlshamn Egen företagare 76 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;58;J;J;I;N;335038;[inte lämnat förklaring];;;;;77000;;N
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;59;J;J;I;J;334683;Sten Wijkander;75;M;Karlshamn;Karlshamn Fd Rektor 74 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Arbetarepartiet-Socialdemokraterna;S;2;S;14761;60;J;J;I;J;335040;Kenneth Bengtsson;75;M;Karlshamn;Karlshamn Byggnadssnickare 75 år;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;1;J;J;I;J;179764;Mats Dahlbom;54;M;Karlshamn;54 år processtekniker Svängsta;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;2;J;J;I;J;179754;Marco Gustavsson;46;M;Karlshamn;46 år företagare Mörrum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;3;J;J;I;J;179751;Gertrud Ivarsson;67;K;Karlshamn;67 år f.d. lantbrukare Åryd;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;4;J;J;I;J;180525;Ola Persson;55;M;Karlshamn;55 år lantbrukare Tararp;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;5;J;J;I;J;180526;Lena Häggblad;72;K;Karlshamn;72 år pensionär Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;6;J;J;I;J;180527;Per-Ivar Johansson;52;M;Karlshamn;52 år styrsystemingenjör Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;7;J;J;I;J;180528;Sofie Ekenberg;38;K;Karlshamn;38 år civilekonom Svängsta;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;8;J;J;I;J;180529;Mats Bondesson;57;M;Karlshamn;57 år lantbrukare Asarum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;9;J;J;I;J;180530;Ankie Boklund;54;K;Karlshamn;54 år butiksanställd Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;10;J;J;I;J;180531;Henrik Häggblad;36;M;Karlshamn;36 år lantbrukare Asarum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;11;J;J;I;J;180532;Linnea Persson;26;K;Karlshamn;26 år markförvaltare Asarum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;12;J;J;I;J;180533;Staffan Olsson;68;M;Karlshamn;68 år pensionär Ringamåla;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;13;J;J;I;J;180534;Inger Åkesson;60;K;Karlshamn;60 år undersköterska Hällaryd;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;14;J;J;I;J;180535;Maria Hjelm Nilsson;46;K;Karlshamn;46 år egenföretagare Mörrum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;15;J;J;I;J;180536;Markus Lindberg;41;M;Karlshamn;41 år grundskolelärare Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;16;J;J;I;J;180537;Tomas Nilsson;64;M;Karlshamn;64 år lantbrukare, entreprenör Kölja;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;17;J;J;I;J;180538;Else-Britt Persson;68;K;Karlshamn;68 år sjuksköterska Hultet;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Centerpartiet;C;4;S;13649;18;J;J;I;J;180539;Mats Edvardsson;49;M;Karlshamn;49 år fritidsledare Ringamåla;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Feministiskt initiativ;FI;532;;;;N;J;J;I;441358;Claesson, Gudrun;59;K;Karlshamn;;0;;J
+K;1082;Karlshamn;00;Karlshamn;Feministiskt initiativ;FI;532;;;;N;J;J;I;441360;Andersson, Sofie;36;K;Karlshamn;;0;;J
+K;1082;Karlshamn;00;Karlshamn;Kommunistiska Partiet;K;471;S;14095;1;J;J;I;J;237061;Lars Jeppsson;66;M;Karlshamn;Mörrum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kommunistiska Partiet;K;471;S;14095;2;J;J;I;J;237062;Ulf Olsson;65;M;Karlshamn;Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kommunistiska Partiet;K;471;S;14095;3;J;J;I;J;237063;Leif Niklasson;63;M;Karlshamn;Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kommunistiska Partiet;K;471;S;14095;4;J;J;I;J;237064;Per-Gunnar Andersson;66;M;Karlshamn;Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kommunistiska Partiet;K;471;S;14095;5;J;J;I;J;237065;Rolf Axelsson;65;M;Karlshamn;Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kommunistiska Partiet;K;471;S;14095;6;J;J;I;J;237066;Lars Gagnesjö;65;M;Karlshamn;Hällaryd;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kommunistiska Partiet;K;471;S;14095;7;J;J;I;J;237067;Dan Lennartsson;65;M;Karlshamn;Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kommunistiska Partiet;K;471;S;14095;8;J;J;I;J;237068;Peter Schönström;70;M;Karlshamn;Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kommunistiska Partiet;K;471;S;14095;9;J;J;I;J;237069;Nils Lindgren;37;M;Karlshamn;Svängsta;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kommunistiska Partiet;K;471;S;14095;10;J;J;I;J;237070;Jan Johansson;68;M;Karlshamn;Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kommunistiska Partiet;K;471;S;14095;11;J;J;I;J;237071;Tomas Strömberg;51;M;Karlshamn;Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kommunistiska Partiet;K;471;S;14095;12;J;J;I;J;237072;Håkan Lorantz;72;M;Karlshamn;Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kristdemokraterna;KD;68;S;15322;1;J;J;I;J;453463;Britt Jämstorp;67;K;Karlshamn;Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kristdemokraterna;KD;68;S;15322;2;J;J;I;J;454624;Lars-Olof Larsson;65;M;Karlshamn;Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kristdemokraterna;KD;68;S;15322;3;J;J;I;J;454636;Laila Johansson;78;K;Karlshamn;Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kristdemokraterna;KD;68;S;15322;4;J;J;I;J;454637;Lennart Ung;79;M;Karlshamn;Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kristdemokraterna;KD;68;S;15322;5;J;J;I;J;454629;Aina Runsten;72;K;Karlshamn;Mörrum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kristdemokraterna;KD;68;S;15322;6;J;J;I;J;454639;Samuel Lindgren;52;M;Karlshamn;Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kristdemokraterna;KD;68;S;15322;7;J;J;I;J;454640;Dan Munther;62;M;Karlshamn;Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kristdemokraterna;KD;68;S;15322;8;J;J;I;J;454641;Agnetha Larsson;64;K;Karlshamn;Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kristdemokraterna;KD;68;S;15322;9;J;J;I;J;454642;Alf Nilsson;53;M;Karlshamn;Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kristdemokraterna;KD;68;S;15322;10;J;J;I;J;454643;Gunnar Bylund;73;M;Karlshamn;Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kristdemokraterna;KD;68;S;15322;11;J;J;I;J;457862;Berno Runsten;70;M;Karlshamn;Mörrum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Kristdemokraterna;KD;68;S;15322;12;J;J;I;J;454645;Carl-Gunnar Madestam;79;M;Karlshamn;Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;1;J;J;I;J;27770;Bodil Frigren-Ericsson;65;K;Karlshamn;Teknologie Doktor Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;2;J;J;I;J;66560;Emanuel Norén;40;M;Karlshamn;Versamhetsutvecklare Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;3;J;J;I;J;27774;Iman Omairat;41;K;Karlshamn;Socialpedagog Asarum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;4;J;J;I;J;66561;Stefan Sörensson;61;M;Karlshamn;Säljare Hällaryd;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;5;J;J;I;J;27789;Mohamed Albuhaisi;50;M;Karlshamn;Busschaufför Asarum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;6;J;J;I;J;264917;Anette Höglund;64;K;Karlshamn;Kulturintresserad pensionär Vettekulla;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;7;J;J;I;J;66557;Ros-Marie Strömblad;71;K;Karlshamn;fd.Chefssjuksköterska-vårdutvecklare  Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;8;J;J;I;J;66904;Ulf Elofzon;65;M;Karlshamn;Chaufför Mörrum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;9;J;J;I;J;264920;Kristin Lundberg;72;K;Karlshamn;fd.Arbetsförmedlare Asarum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;10;J;J;I;J;264921;Margareta Norander;75;K;Karlshamn;Pensionär Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;11;J;J;I;J;266328;Kjell Thörnqvist;80;M;Karlshamn;S.H.T Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;12;J;J;I;J;264922;Kenneth Svanberg;72;M;Karlshamn;fd.Skolledare Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;13;J;J;I;J;264923;Inger Wetterlundh-Tholén;69;K;Karlshamn;Lärare Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;14;J;J;I;J;264924;Rolf Hansson;79;M;Karlshamn;fd.Glasmästare Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;15;J;J;I;J;264925;Rolf Tholén;83;M;Karlshamn;fd.Kronokommisarie Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;16;J;J;I;J;264926;Tyrone Svärdh;65;M;Karlshamn;Revisor Mörrum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Liberalerna (tidigare Folkpartiet);L;3;S;12695;17;J;J;I;J;264927;Susanne Öström;63;K;Karlshamn;fd.Stadsdirektör Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;1;J;J;I;J;113366;Charlott Lorentzen;36;K;Karlshamn;Produktionschef, Mörrum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;2;J;J;I;J;113361;Claes Jansson;68;M;Karlshamn;Bok & skivhandlare, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;3;J;J;I;J;252009;Sofi Wennerberg;30;K;Karlshamn;Försäkringshandläggare, Svängsta;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;4;J;J;I;J;252010;Per Atmander;47;M;Karlshamn;Målaremästare, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;5;J;J;I;J;252011;Anna Atmander;44;K;Karlshamn;Fritidspedagog, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;6;J;J;I;J;252012;Ted Olander;37;M;Karlshamn;Kemist, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;7;J;J;I;J;252013;Fadia Aljazar;24;K;Karlshamn;Sjuksköterskestudent, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;8;J;J;I;J;252014;Gunnar Fastén;65;M;Karlshamn;Transportforskare, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;9;J;J;I;J;252015;Johanna Karlsson;44;K;Karlshamn;Socialsekreterare, Trensum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;10;J;J;I;J;252016;Jan Andersson;66;M;Karlshamn;Skogsarbetare, Ljungsjömåla;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;11;J;J;I;J;252017;Liz Wennerberg;29;K;Karlshamn;Juridikstuderande, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;12;J;J;I;J;252018;Bengt Jensen;59;M;Karlshamn;Levnadskonstnär, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;13;J;J;I;J;252019;Una Qvarnström;70;K;Karlshamn;Sjuksköterska, Stilleryd;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;14;J;J;I;J;252020;Jörgen Kronsell;55;M;Karlshamn;Civilingenjör, Ämneboda;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;15;J;J;I;J;252021;Veronica Blåder;31;K;Karlshamn;Undersköterska, Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;16;J;J;I;J;252022;Houssam Almassri;42;M;Karlshamn;Vagabond, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;17;J;J;I;J;252023;Ellen Kragh;82;K;Karlshamn;Pensionär, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;18;J;J;I;J;252024;Johan Wolgast;56;M;Karlshamn;Naturinventerare, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;19;J;J;I;J;252025;Liselott Jönsson;51;K;Karlshamn;Förskollärare, Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;20;J;J;I;J;264192;Jorge Guila;71;M;Karlshamn;Konstnär, Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;21;J;J;I;J;252026;Solvig Johansson;68;K;Karlshamn;Konstnär m.m, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;22;J;J;I;J;252027;Kristofer Borvall;39;M;Karlshamn;IT-tekniker, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;23;J;J;I;J;252028;Jasminka Turkanovic;64;K;Karlshamn;Arbetare, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;24;J;J;I;J;252029;Sten Hedlund;76;M;Karlshamn;Pensionär, Sternö;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;25;J;J;I;J;252030;Thomas Qvarnström;68;M;Karlshamn;Läkare, Stilleryd;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Miljöpartiet de gröna;MP;55;S;14272;26;J;J;I;J;252031;Pergunnar Carlson;68;M;Karlshamn;Kulturaktivist, Elleholm;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;1;J;J;I;J;313432;Magnus Gärdebring;48;M;Karlshamn;48, oppositionsråd, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;2;J;J;I;J;313433;Elin Petersson;25;K;Karlshamn;25, grupphandledare, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;3;J;J;I;J;313434;Magnus Sandgren;50;M;Karlshamn;50, egen företagare, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;4;J;J;I;J;313435;Iréne Ahlstrand Mårlind;74;K;Karlshamn;74, leg sjuksköterska, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;5;J;J;I;J;313436;Magnus Arvidsson;48;M;Karlshamn;48, administratör, Åryd;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;6;J;J;I;J;313437;Catarina Flod;51;K;Karlshamn;51, säljare energi, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;7;J;J;I;J;313438;Lars Hasselgren;72;M;Karlshamn;72, konsult, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;8;J;J;I;J;313439;Charlotta M Sjöqvist;46;K;Karlshamn;46, undersköterska, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;9;J;J;I;J;313440;Artur Hulu;27;M;Karlshamn;27, politisk tjänsteman, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;10;J;J;I;J;313441;Ulf Ohlsson;67;M;Karlshamn;67, pensionär, Torarp;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;11;J;J;I;J;313442;Anna Arlid;47;K;Karlshamn;47, rehabinstruktör, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;12;J;J;I;J;313443;Rickard Holmberg;51;M;Karlshamn;51, fastighetsförvaltare, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;13;J;J;I;J;313444;Ulla Olofsson;77;K;Karlshamn;77, ajdunkt, Svängsta;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;14;J;J;I;J;313445;Mats Olausson;46;M;Karlshamn;46, jägmästare, Asarum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;15;J;J;I;J;313446;Herman Falk;20;M;Karlshamn;20, studerande, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;16;J;J;I;J;313447;Britt Kilsäter;70;K;Karlshamn;70, kostekonom, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;17;J;J;I;J;313448;Magnus Olsson;48;M;Karlshamn;48, eltekniker, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;18;J;J;I;J;313449;Per Erlandsson;58;M;Karlshamn;58, teknisk doktor, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;19;J;J;I;J;313450;Cecilia Holmberg;78;K;Karlshamn;78, pensionär, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;20;J;J;I;J;313451;Julius Svensson;20;M;Karlshamn;20, studerande, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;21;J;J;I;J;313452;Stefan Nilsson;54;M;Karlshamn;54, försäljare , Asarum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;22;J;J;I;J;313453;Andreas Green;41;M;Karlshamn;41, butikschef, Åryd;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;23;J;J;I;J;313454;Ida Lindgren;36;K;Karlshamn;36, socionom, Asarum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;24;J;J;I;N;313455;[inte lämnat förklaring];;;;;77000;;N
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;25;J;J;I;J;313456;Carl Samuelsson;21;M;Karlshamn;21, politisk tjänsteman, Asarum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;26;J;J;I;J;313457;Olle Hallstedt;59;M;Osby;59, egen företagare, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;27;J;J;I;J;313458;Sara Helgefalk;44;K;Karlshamn;44, konstnär, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;28;J;J;I;J;313459;Johanna Ekberg;39;K;Karlshamn;39, sjuksköterska, Asarum;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;29;J;J;I;J;313460;Michael Andersson;47;M;Karlshamn;47, mediasäljare, Svängsta;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;30;J;J;I;J;313461;Joakim Ekevald;45;M;Karlshamn;45, driftschef, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;31;J;J;I;J;313462;Robert Elmstedt;56;M;Karlshamn;56, tulltjänsteman, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Moderaterna;M;1;S;14674;32;J;J;I;J;313463;Carin Erlandsson;58;K;Karlshamn;58, ombudsman, Karlshamn;77000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;1;N;J;J;I;32855;Björn Tenland Nurhadi;39;M;Karlshamn;civilingenjör, 38 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;2;N;J;J;I;32856;Gudrun Johansson;75;K;Karlshamn;affärsbiträde, 75 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;3;N;J;J;I;32857;Mona Wettergren;75;K;Karlshamn;assistent, 75 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;4;N;J;J;I;32858;Görgen Lennarthsson;58;M;Karlshamn;verktygsmakare, 58 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;5;N;J;J;I;32859;Tor Billing;72;M;Karlshamn;räddningsledare, 72 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;6;N;J;J;I;32860;Ulrika Berggren;67;K;Karlshamn;byggnadsingenjör, 67 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;7;N;J;J;I;32861;Ulf Lind;72;M;Karlshamn;byggnadsarbetare, 71 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;8;N;J;J;I;32862;Tommy Mikkelsen;66;M;Karlshamn;metallarbetare, 67 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;9;N;J;J;I;465374;Thor Ströberg;69;M;Karlshamn;ekonom, 69 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;10;N;J;J;I;32864;Jonas Lingvärn;37;M;Karlshamn;chaufför, 37 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;11;N;J;J;I;32865;Margaretha Lennarthsson;54;K;Karlshamn;pedagog, 54 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;12;N;J;J;I;32866;Håkan Abramsson;41;M;Karlshamn;anläggare, 41 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;13;N;J;J;I;32868;Dan Andersson;64;M;Karlshamn;vaktmästare, 64 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;14;N;J;J;I;32869;Britt Karlsson;52;K;Karlshamn;socialpedagog, 52 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;15;N;J;J;I;32870;Lars Olsson;53;M;Karlshamn;driftmaskinist, 53 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;16;N;J;J;I;32871;Maj Johansson;73;K;Karlshamn;pedagog, 72 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;17;N;J;J;I;32872;Anna Wihlstrand;51;K;Karlshamn;barchef, 51 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;18;N;J;J;I;32873;Peter Berggren;68;M;Karlshamn;byggnadsarbetare, 68 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;S;15419;19;N;J;J;I;32874;Kjell Eklund;66;M;Karlshamn;hotellägare, 66 år;137000;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;;;;N;J;J;I;32867;Nurhadi, Lisiana;36;K;Karlshamn;;0;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;;;;N;J;J;I;80366;Eloff, Bo;48;M;Haninge;;0;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;;;;N;J;J;I;313455;Pröjtz, Lars;66;M;Karlshamn;;0;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;;;;N;J;J;I;515608;Eriksson, Emma;34;K;Karlshamn;;0;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;;;;N;J;J;I;515609;Karlsson, Alexander;23;M;Karlshamn;;0;;J
+K;1082;Karlshamn;00;Karlshamn;Sverigedemokraterna;SD;110;;;;N;J;J;I;515610;Strannemalm, Tommy;58;M;Karlshamn;;0;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;1;J;J;I;J;296879;Tommy Larsson;66;M;Karlshamn;67 år, Byggnadsarbetare, Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;2;J;J;I;J;294487;Lena Johansson;46;K;Karlshamn;46 år, Kulturarbetare, Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;3;J;J;I;J;294490;Tony Viberg;60;M;Karlshamn;60 år, Gymnasielärare, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;4;J;J;I;J;297738;Veronika Hertelendy;31;K;Karlshamn;30 år, Kundtjänstmedarbetare, Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;5;J;J;I;J;296893;Tonnie Philipsson;50;M;Karlshamn;50 år, Biomedicinsk analytiker, Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;6;J;J;I;J;297740;Eva Alvhill;70;K;Karlshamn;Pensionerad områdeschef äldreomsorg, Hällaryd;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;7;J;J;I;J;297741;Jan-Olof Blom;58;M;Karlshamn;57 år, Ingenjör, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;8;J;J;I;J;297742;Ingrid Ericsson;63;K;Karlshamn;Distriktssköterska, Hällaryd;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;9;J;J;I;J;297743;Olle Gillberg;56;M;Karlshamn;Företagare, Mörrum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;10;J;J;I;J;297744;Helena Olofsson;33;K;Karlshamn;33år, Biomedicinsk analytiker, Asarum;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;11;J;J;I;J;297745;Simon Håkansson;27;M;Karlshamn;Fritidsledare, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;12;J;J;I;J;297746;Karin Johansson;80;K;Karlshamn;Pensionerad lärare, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;13;J;J;I;J;297747;Helen Hallberg;56;K;Karlshamn;Förtidspensionär, Karlshamn;50000;;J
+K;1082;Karlshamn;00;Karlshamn;Vänsterpartiet;V;5;S;15329;14;J;J;I;J;297748;Johanna Gillberg;33;K;Karlshamn;33 år, Serviceassistent, Mörrum;50000;;J

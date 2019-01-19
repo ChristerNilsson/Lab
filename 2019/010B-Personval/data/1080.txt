@@ -1,0 +1,906 @@
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;1;J;J;I;J;295810;Sandra Bizzozero;40;K;Karlskrona;Karlskrona upphandlare 39 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;2;J;J;I;J;298563;Rikard Jönsson;56;M;Karlskrona;Björkholmen ombudsman 56 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;3;J;J;I;J;298564;Eva-Lotta Altvall;56;K;Karlskrona;Trossö pedagog 56 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;4;J;J;I;J;298565;Roland Andreasson;58;M;Karlskrona;Trossö affärsbiträde 58 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;5;J;J;I;J;298566;Jeanette Petersson;46;K;Karlskrona;Trossö tågvärdinna 46 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;6;J;J;I;J;298567;Johan Ekström;41;M;Karlskrona;Långö undersköterska 41 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;7;J;J;I;J;298568;Shirin Sahebjamee;46;K;Karlskrona;Långö utredare 45 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;8;J;J;I;J;298569;Jimmy Pettersson;41;M;Karlskrona;Karlskrona lärare 41 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;9;J;J;I;J;296129;Camilla Persson;34;K;Karlskrona;Långö sömmerska 33 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;10;J;J;I;J;298571;Jörgen Estgren;53;M;Karlskrona;Trossö målare 53 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;11;J;J;I;J;298572;Annah Pripp;24;K;Karlskrona;Trossö studerande 24 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;12;J;J;I;J;298573;Sonny Bengtsson;23;M;Karlskrona;Trossö konsult 23 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;13;J;J;I;J;298574;Lotta Törnström;59;K;Karlskrona;Hästö undersköterska 55 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;14;J;J;I;J;298575;Lars Brissmalm;46;M;Karlskrona;Trossö folketshusföreståndare 46 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;15;J;J;I;J;298576;Ida Larsson;25;K;Karlskrona;Långö verksamhetsutvecklare 25 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;16;J;J;I;J;298577;Sven Siwe;60;M;Karlskrona;Trossö arbetssökande 60 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;17;J;J;I;J;298578;Lotta Holgersson;46;K;Karlskrona;Björkholmen statstjänsteman 46 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;18;J;J;I;J;298579;Jan Elmqvist;66;M;Karlskrona;Saltö pensionär 66 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;19;J;J;I;J;298580;Ann-Mari Sternulf;72;K;Karlskrona;Trossö fd avdelningschef 72 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;20;J;J;I;J;298581;Leif Egefur;69;M;Karlskrona;Karlskrona pensionär 69 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;21;J;J;I;J;139674;Birgitta Möller;70;K;Karlskrona;Karlskrona ekonom 69 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;22;J;J;I;J;298584;Eva Öman;62;K;Karlskrona;Saltö enhetschef 61 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;23;J;J;I;J;298585;Morgan Pettersson;45;M;Karlskrona;Karlskrona 44 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;24;J;J;I;J;298586;Lena Skoglöw;56;K;Karlskrona;Karlskrona telefonist 55 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;25;J;J;I;J;298587;Tommy Sternulf;72;M;Karlskrona;Trossö pensionär 72 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;26;J;J;I;J;298588;Ingrid Augustinsson Swennergren;66;K;Karlskrona;Trossö pensionär 66 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;27;J;J;I;J;298589;Eles Karahalilovic;18;M;Karlskrona;Karlskrona studerande 18 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;28;J;J;I;J;298590;Torsten Wiktorsson;71;M;Karlskrona;Trossö pensionär 71 år;66000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;1;J;J;I;J;139662;Elina Gustafsson;29;K;Karlskrona;Rosenholm verksamhetsutvecklare 29 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;2;J;J;I;J;139661;Lars Hildingsson;45;M;Karlskrona;Nättraby ombudsman 45 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;3;J;J;I;J;314023;Eva Strömqvist;64;K;Karlskrona;Nävragöl ombudsman 63 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;4;J;J;I;J;314024;Bassem Khalid;49;M;Karlskrona;Karlskrona egen företagare 49 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;5;J;J;I;J;314025;Hind Abdul Wahab;67;K;Karlskrona;Karlskrona personlig assistent 67 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;6;J;J;I;J;296131;Jonas Sandström;30;M;Karlskrona;Nättraby politisk sekreterare 30 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;7;J;J;I;J;296133;Lisbeth Bengtsson;51;K;Karlskrona;Rödeby undersköterska 51 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;8;J;J;I;J;314028;Åke Håkansson;49;M;Karlskrona;Holmsjö busschaufför 49 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;9;J;J;I;J;314029;Laila Karlsson;54;K;Karlskrona;Rödeby hotellanställd 50 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;10;J;J;I;J;314030;Björn Fries;67;M;Karlskrona;Nättraby fd regeringens narkotikapolitiska samordnare 67 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;11;J;J;I;J;314031;Anna Strömqvist Vollan;41;K;Karlskrona;Nävragöl civilekonom 40 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;12;J;J;I;J;314032;Mats Fagerlund;58;M;Karlskrona;Nättraby operatör 57 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;13;J;J;I;J;314033;Elizabeth Törngren;60;K;Karlskrona;Karlskrona pensionär 60 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;14;J;J;I;J;314034;Leo Azirovic;33;M;Karlskrona;Marieberg lokalvårdare 32 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;15;J;J;I;J;296130;Kerstin Ekberg Söderbom;72;K;Karlskrona;Hasslö f.d assistent 71 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;16;J;J;I;J;314036;Anders Björkander;57;M;Karlskrona;Fridlevstad account manager 57 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;17;J;J;I;J;314037;Susanne Öhrn;61;K;Karlskrona;Tving driftsmekaniker 61 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;18;J;J;I;J;314038;Tommy Brolin;65;M;Karlskrona;Backabo vaktmästare 65 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;19;J;J;I;J;314039;Cecilia Neuendorff;41;K;Karlskrona;Nättraby undersköterska 41 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;20;J;J;I;J;306463;Morgan Mattsson;72;M;Karlskrona;Holmsjö tekniker 71;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;21;J;J;I;J;314041;Inga-Lill Niklasson;68;K;Karlskrona;Nättraby pensionär 68 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;22;J;J;I;J;314042;Bo Svensson;50;M;Karlskrona;Nättraby ombudsman 50 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;23;J;J;I;J;314043;Eva Henningsson;75;K;Karlskrona;Karlskrona f.d skötare 75 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;24;J;J;I;J;314044;Bengt-Göran Hansson;53;M;Karlskrona;Nättraby operatör 53 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;25;J;J;I;J;296125;Lena Klintefors;61;K;Karlskrona;Hasslö barnsjuksköterska 60 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;26;J;J;I;J;296128;Muhamed Kadhim Abed Alyasiri;18;M;Karlskrona;Karlskrona studerande 18 år;51000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;1;J;J;I;J;310704;Peter Johansson;60;M;Karlskrona;Lyckeby Länsbildningskonsulent 60 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;2;J;J;I;J;310705;Selma Björk Matthiasdottir;41;K;Karlskrona;Jämjö Undersköterska 41 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;3;J;J;I;J;310706;Sattar Zad;55;M;Karlskrona;Hässlegården Trafik- & Projektansvarig 55 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;4;J;J;I;J;310707;Susanne Johansson;53;K;Karlskrona;Lyckeby Kock 48 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;5;J;J;I;J;310708;Jan-Anders Lindfors;62;M;Karlskrona;Lyckeby Samordnare 62 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;6;J;J;I;J;310709;Jeanette Håkansson;54;K;Karlskrona;Ramdala Arbetsledare 54 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;7;J;J;I;J;310710;Håkan Eriksson;42;M;Karlskrona;Jämjö Varvsarbetare 42 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;8;J;J;I;J;310711;Helene Gustafsson;54;K;Karlskrona;Nättraby Verksamhetsutvecklare 54 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;9;J;J;I;J;310712;Marcus Degerskär;35;M;Karlskrona;Hässlegården Industriarbetare 35 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;10;J;J;I;J;310713;Annica Blomstrand;55;K;Karlskrona;Jämjö Upphandlare 55 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;11;J;J;I;J;310714;Mats Ekberg;55;M;Karlskrona;Sturkö Boendeassistent 55 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;12;J;J;I;J;310715;Karin Daleke;44;K;Karlskrona;Jämjö Receptionsansvarig 44 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;13;J;J;I;J;310716;Dan Lundkvist;38;M;Karlskrona;Trummenäs Ombudsman 38 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;14;J;J;I;J;310717;Ann-Marie Kimenius;60;K;Karlskrona;Lyckeby Beteendevetare 60 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;15;J;J;I;J;139331;Magnus Manhammar;37;M;Karlskrona;Karlskrona Riksdagsledamot 37 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;16;J;J;I;J;310719;Karin Blomé;44;K;Karlskrona;Karlskrona Lokalvårdare 44 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;17;J;J;I;J;310720;Claes-Urban Persson;59;M;Karlskrona;Hässlegården Socionom 59 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;18;J;J;I;J;310721;Pia Eklund;50;K;Karlskrona;Karlskrona Industriarbetare 49 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;19;J;J;I;J;310722;Michael Holmberg;31;M;Karlskrona;Jämjö Statsanställd 31 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;20;J;J;I;J;296123;Egzonita Maxhuni;25;K;Karlskrona;Karlskrona Ombudsman 25 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;21;J;J;I;J;310724;Rami Alyousef;31;M;Karlskrona;Lyckeby Civilingenjör 30 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;22;J;J;I;J;310725;Inga-Lill Larsson;73;K;Karlskrona;Tjurkö Pensionär 73 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;23;J;J;I;J;310726;Oscar Dyberg;43;M;Karlskrona;Spandelstorp Ombudsman 43 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;24;J;J;I;J;310727;Hanna Fagerlund;29;K;Karlskrona;Jämjö Studerande 29 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;25;J;J;I;J;310728;John-Erik Danerklint;71;M;Karlskrona;Karlskrona Egen Företagare 71 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;26;J;J;I;J;310729;Carina Ernstsson;56;K;Karlskrona;Sturkö Undersköterska 55 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;27;J;J;I;J;310730;Jens Sjösten;40;M;Karlskrona;Senoren Tekniker 40 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;28;J;J;I;J;310731;Madeleine Karlsson;45;K;Karlskrona;Hästö Statstjänsteman 45 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;29;J;J;I;J;310732;Bo Blomqvist;67;M;Karlskrona;Backabo Skolkurator 67 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;30;J;J;I;J;310733;Markus Gadd;46;M;Karlskrona;Jämjö Ungdomsledare 46 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;31;J;J;I;J;310734;John Veneke;49;M;Karlskrona;Jämjö Elektriker 49 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;32;J;J;I;J;310735;Börje Nilsson;65;M;Karlskrona;Kristianopel Pensionär 65 år;54000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;1;J;J;I;J;179748;Magnus Larsson;51;M;Karlskrona;51 år ingenjör Torhamn;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;2;J;J;I;J;208196;Maria Persson;46;K;Karlskrona;46 år förskollärare Lyckeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;3;J;J;I;J;208236;Jörgen Johansson;55;M;Karlskrona;55 år lantbrukare Gåsamåla;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;4;J;J;I;J;8553;Ingrid Hermansson;54;K;Karlskrona;54 år förskollärare Nättraby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;5;J;J;I;J;179762;Johan Genestig;54;M;Karlskrona;54 år miljöräddningshandläggare Sturkö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;6;J;J;I;J;179755;Ingela Abramsson;52;K;Karlskrona;52 år sjuksköterska Ramdala;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;7;J;J;I;J;179770;Lars Karlsson;58;M;Karlskrona;58 år lant- och skogsbrukare Bettamåla;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;8;J;J;I;J;179757;Pernilla Persson;39;K;Karlskrona;39 år barnsjuksköterska Kättilsmåla;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;9;J;J;I;J;208206;Johan von Reis;39;M;Karlskrona;38 år medmänniska Nättraby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;10;J;J;I;J;208243;Britt-Marie Havby;72;K;Karlskrona;72 år skogsbonde Fridlevstad;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;11;J;J;I;J;208244;Fredrik Karlsson;43;M;Karlskrona;43 år museipedagog Lönnemåla;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;12;J;J;I;J;179759;Malin Wästfelt;46;K;Karlskrona;46 år entreprenör Nättraby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;13;J;J;I;J;208197;Roger Arvidsson;53;M;Karlskrona;53 år sjukvårdslärare Persmåla;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;14;J;J;I;J;208200;Sven Borén;46;M;Karlskrona;46 år forskare Karlskrona;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;15;J;J;I;J;208248;Cecilia Runesson;29;K;Karlskrona;29 år lärare Offamåla;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;16;J;J;I;J;208249;Ann-Louise Trulsson;52;K;Karlskrona;52 år präst, civilekonom Senoren;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;17;J;J;I;J;208192;Claes Gustavsson;62;M;Karlskrona;62 år företagare Tävetorp;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;18;J;J;I;J;179767;Agnetha Persson;72;K;Karlskrona;72 år f.d. lärare Karlskrona;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;19;J;J;I;J;208208;Nils Jedhammar;72;M;Karlskrona;72 år pensionär Holmsjö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;20;J;J;I;J;208203;Nasir Khaja Akmad;34;M;Karlskrona;34 år datatekniker, lärare Rödeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;21;J;J;I;J;208254;Gunilla Gustavsson;53;K;Karlskrona;53 år politisk sekreterare Senoren;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;22;J;J;I;J;208204;Yaman Masri;27;M;Karlskrona;27 år kemist, amnestyaktivist Karlskrona;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;23;J;J;I;J;208211;Per Pettersson;21;M;Karlskrona;21 år lantarbetare Torhamn;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;24;J;J;I;J;208257;Katarina Johansson;57;K;Karlskrona;57 år ekonom Torhamn;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;25;J;J;I;J;208201;Cecilia Nilsson;36;K;Karlskrona;36 år transportplanerare Holmsjö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;26;J;J;I;J;208259;Magnus Carlsson;28;M;Karlskrona;28 år egenföretagare Dragda;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;27;J;J;I;J;208260;Julia Johansson;24;K;Karlskrona;24 år kock Lönnemåla;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;28;J;J;I;J;208210;Jean Pierre Candiotti Bustamante;33;M;Karlskrona;33 år hållbarhetskonsult Karlskrona;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;29;J;J;I;J;179766;Kennet Henningsson;45;M;Karlskrona;45 år adjunkt, konsult Nättraby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;30;J;J;I;J;208207;Lena Kockum;62;K;Karlskrona;62 år undersköterska Sturkö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;31;J;J;I;J;208209;Eskil Johansson;60;M;Karlskrona;60 år verkstadsmekaniker Ramdala;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Centerpartiet;C;4;S;13901;32;J;J;I;J;208265;Anna Havby;74;K;Karlskrona;74 år pensionär Holmsjö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;1;J;J;I;J;454625;Billy Åkerström;59;M;Karlskrona;Brandmästare, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;2;J;J;I;J;454633;Bengt Jönsson;56;M;Karlskrona;Officer, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;3;J;J;I;J;457317;Per Nordensson;55;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;4;J;J;I;J;457318;Monica Schön;71;K;Karlskrona;Pensionär, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;5;J;J;I;J;456202;Carina Olsson;49;K;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;6;J;J;I;J;457320;Mikaela Andersson;36;K;Karlskrona;Undersköterska, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;7;J;J;I;J;457321;Rickard Löfqvist;49;M;Karlshamn;Kommunanställd, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;8;J;J;I;J;453461;Adam Jansson;26;M;Karlskrona;Soldat, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;9;J;J;I;J;457330;Isabelle Engström;25;K;Karlskrona;Rekryteringskoordinator, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;10;J;J;I;J;457340;Sokol Abdullahu;43;M;Karlskrona;Målarmästare, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;11;J;J;I;J;457341;Evy Andréasson;83;K;Karlskrona;Pedagog, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;12;J;J;I;J;456204;Niklas Andersson;29;M;Karlskrona;Egen Företagare, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;13;J;J;I;J;457343;Shpresa Abdullahu;38;K;Karlskrona;Frisörska, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;14;J;J;I;J;457344;Conny Strömberg;59;M;Karlskrona;Officer, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;15;J;J;I;J;454631;Inger Åkesson;62;K;Karlskrona;Sjuksköterska, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;16;J;J;I;J;456205;Lennart Svantesson;76;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;17;J;J;I;J;457583;Suzanne Garsten Schön;54;K;Karlskrona;Lärare, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;18;J;J;I;J;454627;Erik Lindborg;66;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;19;J;J;I;J;457585;Oscar Andersson;21;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;20;J;J;I;J;457586;Per Thorngren;62;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;21;J;J;I;J;457587;Maria Jönsson Schön;52;K;Karlskrona;Lärare, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;22;J;J;I;J;457588;Markus Karlström;35;M;Karlskrona;Befälhavare Färja, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;23;J;J;I;J;457589;Ulf Sennerlin;44;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;24;J;J;I;J;457590;Thobias Jemjeby;44;M;Karlskrona;Logistikstrateg, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Kristdemokraterna;KD;68;S;15335;25;J;J;I;J;457591;Carl Andersson;24;M;Karlskrona;Studerande, Karlskrona;70000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;1;J;J;I;J;27603;Börje Dovstad;58;M;Karlskrona;Kommunalråd 58år Hasslö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;2;J;J;I;J;27605;Gunilla Ekelöf;74;K;Karlskrona;f.d Rektor 74år Karlskrona;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;3;J;J;I;J;27606;Stefan Lundin;69;M;Karlskrona;Projektledare 70år Rödeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;4;J;J;I;J;27607;Marianne Ehn-Thorell;45;K;Karlskrona;Specialistsjuksköterska 45år Aspö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;5;J;J;I;J;27608;Tomas Pärlklo;63;M;Karlskrona;Kriminalinspektör 63år Karlskrona;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;6;J;J;I;J;27609;Katarina Skantze;40;K;Karlskrona;Lampfabrikör 41år Karlskrona;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;7;J;J;I;J;27610;Rolf Svensson;65;M;Karlskrona;Pensionär 63år Nättraby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;8;J;J;I;J;27611;Karin Dovstad;56;K;Karlskrona;Socionom 56år Hasslö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;9;J;J;I;J;27612;Bengt Jonsson;75;M;Karlskrona;Pensionär 75år Långö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;10;J;J;I;J;66629;Charlotta Kihlbert;54;K;Karlskrona;Lärare 54år Karlskrona;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;11;J;J;I;J;27685;Lars Fisher;72;M;Karlskrona;Byggnadsingenjör 72år Aspö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;12;J;J;I;J;66631;Agneta Möller;61;K;Karlskrona;Boendehandledare funktionstödsförvaltningen 62 år Lyckeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;13;J;J;I;J;27686;Peter Christensen;61;M;Karlskrona;Systemutvecklare 62år Nättraby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;14;J;J;I;J;27687;Eva Röder;76;K;Karlskrona;76år Hästö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;15;J;J;I;J;27688;Robin Kullberg;46;M;Karlskrona;46år Karlskrona;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;16;J;J;I;J;27689;Carola Olander;77;K;Karlskrona;Pensionär 78år Kristianopel;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;17;J;J;I;J;27690;Filip Issal;38;M;Karlskrona;Samhällsentrprenör 38år Karlskrona;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;18;J;J;I;J;66659;Candida Robelo;55;K;Karlskrona;Undersköterska 55år Ramdala;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;19;J;J;I;J;27691;Per Wimmerman;66;M;Karlskrona;Personlig assistent 66år Lyckeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;20;J;J;I;J;66661;Nicole Carlbäck;43;K;Karlskrona;Lärare 43år Karlskrona;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;21;J;J;I;J;27692;Christian Svensson;30;M;Karlskrona;Sjöofficer 31år Pantarholmen;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;22;J;J;I;J;27693;Hans-Göran Håkansson;76;M;Karlskrona;Administratör 76år Hästö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;23;J;J;I;J;27712;Olle Klein;67;M;Karlskrona;67år Lyckeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Liberalerna (tidigare Folkpartiet);L;3;S;12149;24;J;J;I;J;27713;Kent Lewén;71;M;Karlskrona;f.d Kommunalråd 71år Fridlevstad;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;1;J;J;I;J;113357;Olle Hilborn;33;M;Karlskrona;33, Verksamhetschef, Jämjö;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;2;J;J;I;J;252086;Yvonne Sandberg-Fries;67;K;Karlskrona;67, F.d.riksdagsledamot, Nättraby;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;3;J;J;I;J;252087;Tommy Andersson;69;M;Karlskrona;69, Pensionär, Torhamn;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;4;J;J;I;J;113362;Madeleine Norman;28;K;Karlskrona;28, Miljövetare, Ramdala;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;5;J;J;I;J;252089;Anders Lundberg;38;M;Karlskrona;38, Samhällsplanerare, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;6;J;J;I;J;252090;Rachael Gould;35;K;Karlskrona;35, Doktorand, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;7;J;J;I;J;252091;Rickard Barkeryd;31;M;Karlskrona;30, Biolog, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;8;J;J;I;J;252092;Mia Andersson;72;K;Karlskrona;72, Pensionär, Torhamn;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;9;J;J;I;J;252093;José Espinoza;65;M;Karlskrona;65, Undersköterska, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;10;J;J;I;J;252094;Anna Kindblad;41;K;Karlskrona;41, Lärare, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;11;J;J;I;J;252095;Ulf Svahn;70;M;Karlskrona;70, Pensionär, Lyckeby;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;12;J;J;I;J;252096;Ingela Gånedahl;66;K;Karlskrona;66, Pensionär, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;13;J;J;I;J;252097;Frode Jadbrant;40;M;Karlskrona;40, Områdeschef, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;14;J;J;I;J;252098;Anna-Lena Nilsson;62;K;Karlskrona;62, Leg.sjukgymnast, Hasslö;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;15;J;J;I;J;252099;Ulf Hellgren;48;M;Karlskrona;48, Lokalvårdare, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;16;J;J;I;J;252100;Jan-Olof Andersson;73;M;Karlskrona;73, Pensionär, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;17;J;J;I;J;252101;Björn Gustavsson;68;M;Karlskrona;68, Pensionär, Nättraby;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;18;J;J;I;J;113363;Mikael Auberg;56;M;Karlskrona;56, Undersköterska, Nättraby;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;19;J;J;I;J;252103;Thomas Gustafson;73;M;Karlskrona;73, Pensionär, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;20;J;J;I;J;252104;Anita Nilsson;76;K;Karlskrona;76, Pensionär, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Miljöpartiet de gröna;MP;55;S;14274;21;J;J;I;J;252105;Jerry Österholm;53;M;Karlskrona;53, Sjöingenjör, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;1;J;J;I;J;215968;Camilla Brunsberg;46;K;Karlskrona;46, oppositionsråd, Lyckeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;2;J;J;I;J;215969;Carl-Göran Svensson;65;M;Karlskrona;65, lantbrukare, Vallby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;3;J;J;I;J;215970;Emma Swahn Nilsson;46;K;Karlskrona;46, egen företagare, Bastasjö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;4;J;J;I;J;215971;Peter Glimvall;61;M;Karlskrona;61, överstelöjtnant, Saltö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;5;J;J;I;J;215972;Anna Ottosson;39;K;Karlskrona;39, controller, Ringö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;6;J;J;I;J;215973;Morgan Kullberg;41;M;Karlskrona;41, filosofie doktor, Bredäng;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;7;J;J;I;J;215974;Sophia Ahlin;34;K;Karlskrona;34, egen företagare, Trossö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;8;J;J;I;J;215975;Julia Melander;21;K;Karlskrona;21, bitr restaurangchef, Lyckeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;9;J;J;I;J;215976;Jan Åke Nordin;60;M;Karlskrona;60, leg sjuksköterska, Trossö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;10;J;J;I;J;215977;Jan Lennartsson;54;M;Karlskrona;54, egen företagare, Sturkö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;11;J;J;I;J;215978;Emina Cejvan;64;K;Karlskrona;64, ekonom, Trossö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;12;J;J;I;J;215979;Lars Göran Forss;68;M;Karlskrona;68, egen företagare, Nättraby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;13;J;J;I;J;215980;Hanna Ekblad;37;K;Karlskrona;37, politisk sekreterare, Bastasjö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;14;J;J;I;J;215981;Anders Ovander;74;M;Karlskrona;74, fd ekonomichef, Nättraby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;15;J;J;I;J;215982;Velia Ekström;64;K;Karlskrona;64, civilingenjör, Trossö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;16;J;J;I;J;215983;Bengt Fröberg;63;M;Karlskrona;63, sjöofficer, Hästö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;17;J;J;I;J;215984;Annicka Engblom;51;K;Karlskrona;51, riksdagsledamot, Rödeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;18;J;J;I;J;215985;Torsten Palmgren;58;M;Karlskrona;58, lantmästare, Inglatorp;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;19;J;J;I;J;215986;Camilla Hansson;37;K;Karlskrona;37, lärare, Höryda;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;20;J;J;I;J;215987;Johan Hjortsberg;53;M;Karlskrona;53, sjökapten, Galgamarken;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;21;J;J;I;J;215988;Charlotta Sahlin;61;K;Karlskrona;61, hudterapeut, Karlskrona;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;22;J;J;I;J;215989;Philip Årmann;28;M;Karlskrona;28, teknisk produktägare, Trossö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;23;J;J;I;J;215990;Katarina Nordin;25;K;Karlskrona;25, student, Trossö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;24;J;J;I;J;215991;Annika Hansson;62;K;Karlskrona;62, fd advokatsekreterare, Trossö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;25;J;J;I;J;215992;Anna Stridsjö;35;K;Karlskrona;35, ekonom, Rödeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;26;J;J;I;J;215993;Birgitta Petersson Gamélius;75;K;Karlskrona;75, pensionär, Fäjö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;27;J;J;I;J;215994;Thomas Nilsson;55;M;Karlskrona;55, lantmästare, Fridlevstad;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;28;J;J;I;J;215995;Lindy Olofsson;38;K;Karlskrona;38, jobbcoach, Lyckeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;29;J;J;I;J;215996;Thomas Zeidler;52;M;Karlskrona;52, civilingenjör, Björkholmen;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;30;J;J;I;J;215997;Anders Jonasson;68;M;Karlskrona;68, fd polis, Knösö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;31;J;J;I;J;215998;Marianne Nordin;76;K;Karlskrona;76, fd försvarsanställd, Trossö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;32;J;J;I;J;215999;Gerd Sjögren;78;K;Karlskrona;78, leg tandläkare, Nättraby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;33;J;J;I;J;216000;Björn Liljekrantz;74;M;Karlskrona;74, pensionär, Trossö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;34;J;J;I;J;216001;Ann-Marie Branje;79;K;Karlskrona;79, områdeschef, Saltö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;35;J;J;I;J;216002;Adam Liedholm;18;M;Karlskrona;18, studerande, Trossö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;36;J;J;I;J;216003;Per-Erik Karlsson;40;M;Karlskrona;40, speciallärare, Trossö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;37;J;J;I;J;216004;Britt-Marie Ammer Forss;67;K;Karlskrona;67, egen företagare, Nättraby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;38;J;J;I;J;216005;Patrik Zarén;49;M;Karlskrona;49, bilplåtslagare, Jämjö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;39;J;J;I;J;216006;Johan André;53;M;Karlskrona;53, egen företagare, Vinberga;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;40;J;J;I;J;216007;Ulf Danielsson;71;M;Karlskrona;71, civilingenjör, Rödeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;41;J;J;I;J;216008;Ingemar Sunesson;65;M;Karlskrona;65, ingenjör, Lyckeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;42;J;J;I;J;216009;Anders Jakobsson;63;M;Karlskrona;63, pensionerad officer, Lyckeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;43;J;J;I;J;216010;Karin Brunsberg;82;K;Karlskrona;82, filosofie doktor, Lyckeby;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;44;J;J;I;J;216011;Marie Meijer Dahl;43;K;Karlskrona;43, socialsekreterare, Hästö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;45;J;J;I;J;216012;Annelie Ivarsson;49;K;Karlskrona;49, lantbrukare, Hejetorp;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;46;J;J;I;J;216013;Camilla Mikler;55;K;Karlskrona;55, verksamhetsutvecklare, Arnö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;47;J;J;I;J;216014;Malin Klintin;48;K;Karlskrona;48, verksamhetsanalytiker, Verkö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;48;J;J;I;J;216015;Caroline Wessel;29;K;Karlskrona;29, beteendevetare, Karlskrona;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;49;J;J;I;J;216016;Sigrid Johansson;68;K;Karlskrona;68, pensionär, Bergåsa;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;50;J;J;I;J;216017;Sviatlana Leuchuk;41;K;Karlskrona;41, grafisk designer, Sturkö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;51;J;J;I;J;216018;Henrik Persson;39;M;Karlskrona;39, officer, Verkö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;52;J;J;I;J;216019;Johan Åkesson;42;M;Karlskrona;42, it-konsult, Galgamarken;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;53;J;J;I;J;216020;Charlotte Hauffman;62;K;Karlskrona;62, civilekonom, Kettilstorp;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Moderaterna;M;1;S;13959;54;J;J;I;J;216021;Björn Abramsson;71;M;Karlskrona;71, fd polis, Sturkö;155000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;1;J;J;I;J;32936;Christopher Larsson;41;M;Karlskrona;42, Key account manager, Rödeby;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;2;J;J;I;J;32937;Lotta Antman;54;K;Karlskrona;54, Rektor, Knösö;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;3;J;J;I;J;32938;Göran Eklund;64;M;Karlskrona;64, Officer, Skavkulla;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;4;J;J;I;J;32939;Åsa Larsson;48;K;Karlskrona;48, Boendeassistent, Rödeby;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;5;J;J;I;J;32940;Ronnie Nilsson;65;M;Karlskrona;65, Forskningsassistent, Lyckeby;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;6;J;J;I;J;32941;Camilla Karlman;49;K;Karlskrona;49, Politisk sekreterare, Fridlevstad;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;7;J;J;I;J;32942;Christer Leksell;66;M;Karlskrona;66, Officer, Backabo;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;8;J;J;I;J;32943;Margaretha Jonasson;40;K;Karlskrona;40, Barnskötare, Hasslö;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;9;J;J;I;J;32944;Robert Andersson;75;M;Karlskrona;75, Skogsentreprenör, Torhamn;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;10;J;J;I;J;32945;Patrik Hult;46;M;Karlskrona;46, Butiksanställd, Ramdala;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;11;J;J;I;J;32946;Pernilla Cederholm;48;K;Karlskrona;48, Undersköterska, Nättraby;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;12;J;J;I;N;32947;[inte lämnat förklaring];;;;;295000;;N
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;13;J;J;I;J;32948;Susanne Cederholm;54;K;Karlskrona;54, Administratör, Aspö;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;14;J;J;I;J;32949;Tove Håkansson;30;K;Karlskrona;30, Barnskötare, Holmsjö;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;15;J;J;I;J;32950;Paul Cederholm;47;M;Karlskrona;47, Egenföretagare, Nättraby;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;16;J;J;I;J;32951;Kenneth Johnsson;71;M;Karlskrona;72, Pensionär, Attanäs;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;17;J;J;I;J;32952;Mariane Johansson;57;K;Karlskrona;57, Administratör, Bränteknuva;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;18;J;J;I;J;32953;Mats Mattiasson;49;M;Karlskrona;49, Maskintekniker, Fridlevstad;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;19;J;J;I;J;32954;Bente Eklund;58;K;Karlskrona;58, Cirkelledare, Skavkulla;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;20;J;J;I;J;32955;Magnus Johansson;53;M;Karlskrona;53, Lastbilschaufför, Rödeby;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;21;J;J;I;J;32956;Jan Sjöholm;59;M;Karlskrona;59, Officer, Attanäs;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;22;J;J;I;J;32957;Sanna Svennesson;29;K;Karlskrona;29, Konditor, Nättraby;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;23;J;J;I;J;32958;Anette Ivekull;46;K;Karlskrona;46, Undersköterska, Rödeby;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;24;J;J;I;J;32959;Rose-Marie Leksell;65;K;Karlskrona;65, Sångerska, Backabo;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;25;J;J;I;J;32960;Lars-Eric Persson;70;M;Karlskrona;70, Byggnadssnickare, Rödeby;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;26;J;J;I;J;32961;Lars-Olov Stenborg;64;M;Karlskrona;64, Egenföretagare, Trossö;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;27;J;J;I;J;32962;Yvonne Svennesson;61;K;Karlskrona;61, Grafiker, Nättraby;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;28;J;J;I;J;32964;Bo Hugmark;75;M;Karlskrona;75, Systemutvecklare IT, Saltö;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;29;J;J;I;J;32965;Henrik Ljungkvist;46;M;Karlskrona;46, Egenföretagare, Hasslö;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;30;J;J;I;J;32967;Benny Berglund;70;M;Karlskrona;70, Pensionär, Rödeby;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;31;J;J;I;J;32968;Tommy Cyréus;58;M;Karlskrona;58, Företagsutvecklare, Jämjö;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;32;J;J;I;J;32969;Jennie Wilén;43;K;Karlskrona;43, Ungdomsbehandlare, Lyckeby;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;33;J;J;I;J;32970;Stefan Nilsson;41;M;Karlskrona;42, Elektriker, Lindesnäs;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;34;J;J;I;J;32972;Birgitta Stenberg;67;K;Karlskrona;67, Pensionär, Trossö;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;35;J;J;I;J;32973;Ingrid Andersson;65;K;Karlskrona;65, Pensionär, Fridlevstad;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;36;J;J;I;J;32974;Tina Ulvås;56;K;Karlskrona;56, Barnskötare, Holmsjö;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;37;J;J;I;J;32975;Johan Ulvås;61;M;Karlskrona;61, Chaufför, Holmsjö;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;38;J;J;I;J;32976;Anders Mattiasson;73;M;Karlskrona;73, Elingenjör, Fridlevstad;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;39;J;J;I;J;32977;Anne-Marie Lundmark;64;K;Karlskrona;64, Förvaltningssocionom, Hässlegården;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;40;J;J;I;J;32978;Jörgen Andersson;57;M;Karlskrona;57, Chaufför, Fridlevstad;295000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Sverigedemokraterna;SD;110;S;12224;41;J;J;I;N;33159;[inte lämnat förklaring];;;;;295000;;N
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;1;J;J;I;J;294494;Emma Hilborn;35;K;Karlskrona;Tandläkare, Jämjö;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;2;J;J;I;J;294482;Åsa Gyberg-Karlsson;47;K;Karlskrona;Biomedicinsk analytiker, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;3;J;J;I;J;296881;Ulf Hansson;59;M;Karlskrona;Handläggare, Lyckeby;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;4;J;J;I;J;294498;Desiree Hoberg;44;K;Karlskrona;Specialistundersköterska, Ramdala;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;5;J;J;I;J;301705;Markus Ottosson;39;M;Karlskrona;Butikschef, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;6;J;J;I;J;301706;Arto Valtonen;53;M;Karlskrona;Teknikinformatör, Lyckeby;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;7;J;J;I;J;294496;Anna-Kajsa Lundberg;28;K;Karlskrona;Specialistofficer, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;8;J;J;I;J;301708;Islam Qatesh;45;M;Karlskrona;Studiehandledare, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;9;J;J;I;J;301709;Caroline Skoglöw;37;K;Karlskrona;Tatuerare med eget företag, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;10;J;J;I;J;294501;Åke Stridh;67;M;Karlskrona;Egenföretagare,Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;11;J;J;I;J;301711;Camilla Persson;52;K;Karlskrona;Socionom, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;12;J;J;I;J;296885;Jan-Olof Wahllöf;73;M;Karlskrona;Pensionerad målare, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;13;J;J;I;J;301713;Anngelica Rosén;33;K;Karlskrona;Byggnadsadministratör, Fågelmara;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;14;J;J;I;J;301715;Katarina Vastamäki;55;K;Karlskrona;Förläggare, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;15;J;J;I;J;294499;Johan Eriksson;40;M;Karlskrona;Murare, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;16;J;J;I;J;301717;Anab Abdi-Mohammed;33;K;Karlskrona;Student, Karlskrona;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;17;J;J;I;J;301718;Roland Mattisson;73;M;Karlskrona;Pensionerad socionom, Holmsjö;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;18;J;J;I;J;294483;Sara Högelius;38;K;Karlskrona;Folkhögskolelärare, Hasslö;100000;;J
+K;1080;Karlskrona;01;Karlskrona Ö;Vänsterpartiet;V;5;S;15368;19;J;J;I;J;301720;Reine Svensson;50;M;Karlskrona;Gymnasielärare, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;1;J;J;I;J;295810;Sandra Bizzozero;40;K;Karlskrona;Karlskrona upphandlare 39 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;2;J;J;I;J;298563;Rikard Jönsson;56;M;Karlskrona;Björkholmen ombudsman 56 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;3;J;J;I;J;298564;Eva-Lotta Altvall;56;K;Karlskrona;Trossö pedagog 56 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;4;J;J;I;J;298565;Roland Andreasson;58;M;Karlskrona;Trossö affärsbiträde 58 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;5;J;J;I;J;298566;Jeanette Petersson;46;K;Karlskrona;Trossö tågvärdinna 46 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;6;J;J;I;J;298567;Johan Ekström;41;M;Karlskrona;Långö undersköterska 41 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;7;J;J;I;J;298568;Shirin Sahebjamee;46;K;Karlskrona;Långö utredare 45 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;8;J;J;I;J;298569;Jimmy Pettersson;41;M;Karlskrona;Karlskrona lärare 41 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;9;J;J;I;J;296129;Camilla Persson;34;K;Karlskrona;Långö sömmerska 33 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;10;J;J;I;J;298571;Jörgen Estgren;53;M;Karlskrona;Trossö målare 53 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;11;J;J;I;J;298572;Annah Pripp;24;K;Karlskrona;Trossö studerande 24 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;12;J;J;I;J;298573;Sonny Bengtsson;23;M;Karlskrona;Trossö konsult 23 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;13;J;J;I;J;298574;Lotta Törnström;59;K;Karlskrona;Hästö undersköterska 55 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;14;J;J;I;J;298575;Lars Brissmalm;46;M;Karlskrona;Trossö folketshusföreståndare 46 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;15;J;J;I;J;298576;Ida Larsson;25;K;Karlskrona;Långö verksamhetsutvecklare 25 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;16;J;J;I;J;298577;Sven Siwe;60;M;Karlskrona;Trossö arbetssökande 60 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;17;J;J;I;J;298578;Lotta Holgersson;46;K;Karlskrona;Björkholmen statstjänsteman 46 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;18;J;J;I;J;298579;Jan Elmqvist;66;M;Karlskrona;Saltö pensionär 66 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;19;J;J;I;J;298580;Ann-Mari Sternulf;72;K;Karlskrona;Trossö fd avdelningschef 72 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;20;J;J;I;J;298581;Leif Egefur;69;M;Karlskrona;Karlskrona pensionär 69 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;21;J;J;I;J;139674;Birgitta Möller;70;K;Karlskrona;Karlskrona ekonom 69 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;22;J;J;I;J;298584;Eva Öman;62;K;Karlskrona;Saltö enhetschef 61 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;23;J;J;I;J;298585;Morgan Pettersson;45;M;Karlskrona;Karlskrona 44 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;24;J;J;I;J;298586;Lena Skoglöw;56;K;Karlskrona;Karlskrona telefonist 55 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;25;J;J;I;J;298587;Tommy Sternulf;72;M;Karlskrona;Trossö pensionär 72 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;26;J;J;I;J;298588;Ingrid Augustinsson Swennergren;66;K;Karlskrona;Trossö pensionär 66 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;27;J;J;I;J;298589;Eles Karahalilovic;18;M;Karlskrona;Karlskrona studerande 18 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;28;J;J;I;J;298590;Torsten Wiktorsson;71;M;Karlskrona;Trossö pensionär 71 år;66000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;1;J;J;I;J;139662;Elina Gustafsson;29;K;Karlskrona;Rosenholm verksamhetsutvecklare 29 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;2;J;J;I;J;139661;Lars Hildingsson;45;M;Karlskrona;Nättraby ombudsman 45 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;3;J;J;I;J;314023;Eva Strömqvist;64;K;Karlskrona;Nävragöl ombudsman 63 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;4;J;J;I;J;314024;Bassem Khalid;49;M;Karlskrona;Karlskrona egen företagare 49 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;5;J;J;I;J;314025;Hind Abdul Wahab;67;K;Karlskrona;Karlskrona personlig assistent 67 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;6;J;J;I;J;296131;Jonas Sandström;30;M;Karlskrona;Nättraby politisk sekreterare 30 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;7;J;J;I;J;296133;Lisbeth Bengtsson;51;K;Karlskrona;Rödeby undersköterska 51 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;8;J;J;I;J;314028;Åke Håkansson;49;M;Karlskrona;Holmsjö busschaufför 49 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;9;J;J;I;J;314029;Laila Karlsson;54;K;Karlskrona;Rödeby hotellanställd 50 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;10;J;J;I;J;314030;Björn Fries;67;M;Karlskrona;Nättraby fd regeringens narkotikapolitiska samordnare 67 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;11;J;J;I;J;314031;Anna Strömqvist Vollan;41;K;Karlskrona;Nävragöl civilekonom 40 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;12;J;J;I;J;314032;Mats Fagerlund;58;M;Karlskrona;Nättraby operatör 57 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;13;J;J;I;J;314033;Elizabeth Törngren;60;K;Karlskrona;Karlskrona pensionär 60 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;14;J;J;I;J;314034;Leo Azirovic;33;M;Karlskrona;Marieberg lokalvårdare 32 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;15;J;J;I;J;296130;Kerstin Ekberg Söderbom;72;K;Karlskrona;Hasslö f.d assistent 71 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;16;J;J;I;J;314036;Anders Björkander;57;M;Karlskrona;Fridlevstad account manager 57 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;17;J;J;I;J;314037;Susanne Öhrn;61;K;Karlskrona;Tving driftsmekaniker 61 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;18;J;J;I;J;314038;Tommy Brolin;65;M;Karlskrona;Backabo vaktmästare 65 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;19;J;J;I;J;314039;Cecilia Neuendorff;41;K;Karlskrona;Nättraby undersköterska 41 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;20;J;J;I;J;306463;Morgan Mattsson;72;M;Karlskrona;Holmsjö tekniker 71;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;21;J;J;I;J;314041;Inga-Lill Niklasson;68;K;Karlskrona;Nättraby pensionär 68 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;22;J;J;I;J;314042;Bo Svensson;50;M;Karlskrona;Nättraby ombudsman 50 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;23;J;J;I;J;314043;Eva Henningsson;75;K;Karlskrona;Karlskrona f.d skötare 75 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;24;J;J;I;J;314044;Bengt-Göran Hansson;53;M;Karlskrona;Nättraby operatör 53 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;25;J;J;I;J;296125;Lena Klintefors;61;K;Karlskrona;Hasslö barnsjuksköterska 60 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;26;J;J;I;J;296128;Muhamed Kadhim Abed Alyasiri;18;M;Karlskrona;Karlskrona studerande 18 år;51000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;1;J;J;I;J;310704;Peter Johansson;60;M;Karlskrona;Lyckeby Länsbildningskonsulent 60 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;2;J;J;I;J;310705;Selma Björk Matthiasdottir;41;K;Karlskrona;Jämjö Undersköterska 41 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;3;J;J;I;J;310706;Sattar Zad;55;M;Karlskrona;Hässlegården Trafik- & Projektansvarig 55 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;4;J;J;I;J;310707;Susanne Johansson;53;K;Karlskrona;Lyckeby Kock 48 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;5;J;J;I;J;310708;Jan-Anders Lindfors;62;M;Karlskrona;Lyckeby Samordnare 62 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;6;J;J;I;J;310709;Jeanette Håkansson;54;K;Karlskrona;Ramdala Arbetsledare 54 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;7;J;J;I;J;310710;Håkan Eriksson;42;M;Karlskrona;Jämjö Varvsarbetare 42 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;8;J;J;I;J;310711;Helene Gustafsson;54;K;Karlskrona;Nättraby Verksamhetsutvecklare 54 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;9;J;J;I;J;310712;Marcus Degerskär;35;M;Karlskrona;Hässlegården Industriarbetare 35 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;10;J;J;I;J;310713;Annica Blomstrand;55;K;Karlskrona;Jämjö Upphandlare 55 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;11;J;J;I;J;310714;Mats Ekberg;55;M;Karlskrona;Sturkö Boendeassistent 55 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;12;J;J;I;J;310715;Karin Daleke;44;K;Karlskrona;Jämjö Receptionsansvarig 44 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;13;J;J;I;J;310716;Dan Lundkvist;38;M;Karlskrona;Trummenäs Ombudsman 38 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;14;J;J;I;J;310717;Ann-Marie Kimenius;60;K;Karlskrona;Lyckeby Beteendevetare 60 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;15;J;J;I;J;139331;Magnus Manhammar;37;M;Karlskrona;Karlskrona Riksdagsledamot 37 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;16;J;J;I;J;310719;Karin Blomé;44;K;Karlskrona;Karlskrona Lokalvårdare 44 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;17;J;J;I;J;310720;Claes-Urban Persson;59;M;Karlskrona;Hässlegården Socionom 59 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;18;J;J;I;J;310721;Pia Eklund;50;K;Karlskrona;Karlskrona Industriarbetare 49 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;19;J;J;I;J;310722;Michael Holmberg;31;M;Karlskrona;Jämjö Statsanställd 31 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;20;J;J;I;J;296123;Egzonita Maxhuni;25;K;Karlskrona;Karlskrona Ombudsman 25 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;21;J;J;I;J;310724;Rami Alyousef;31;M;Karlskrona;Lyckeby Civilingenjör 30 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;22;J;J;I;J;310725;Inga-Lill Larsson;73;K;Karlskrona;Tjurkö Pensionär 73 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;23;J;J;I;J;310726;Oscar Dyberg;43;M;Karlskrona;Spandelstorp Ombudsman 43 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;24;J;J;I;J;310727;Hanna Fagerlund;29;K;Karlskrona;Jämjö Studerande 29 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;25;J;J;I;J;310728;John-Erik Danerklint;71;M;Karlskrona;Karlskrona Egen Företagare 71 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;26;J;J;I;J;310729;Carina Ernstsson;56;K;Karlskrona;Sturkö Undersköterska 55 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;27;J;J;I;J;310730;Jens Sjösten;40;M;Karlskrona;Senoren Tekniker 40 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;28;J;J;I;J;310731;Madeleine Karlsson;45;K;Karlskrona;Hästö Statstjänsteman 45 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;29;J;J;I;J;310732;Bo Blomqvist;67;M;Karlskrona;Backabo Skolkurator 67 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;30;J;J;I;J;310733;Markus Gadd;46;M;Karlskrona;Jämjö Ungdomsledare 46 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;31;J;J;I;J;310734;John Veneke;49;M;Karlskrona;Jämjö Elektriker 49 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;32;J;J;I;J;310735;Börje Nilsson;65;M;Karlskrona;Kristianopel Pensionär 65 år;54000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;1;J;J;I;J;179748;Magnus Larsson;51;M;Karlskrona;51 år ingenjör Torhamn;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;2;J;J;I;J;208196;Maria Persson;46;K;Karlskrona;46 år förskollärare Lyckeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;3;J;J;I;J;208236;Jörgen Johansson;55;M;Karlskrona;55 år lantbrukare Gåsamåla;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;4;J;J;I;J;8553;Ingrid Hermansson;54;K;Karlskrona;54 år förskollärare Nättraby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;5;J;J;I;J;179762;Johan Genestig;54;M;Karlskrona;54 år miljöräddningshandläggare Sturkö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;6;J;J;I;J;179755;Ingela Abramsson;52;K;Karlskrona;52 år sjuksköterska Ramdala;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;7;J;J;I;J;179770;Lars Karlsson;58;M;Karlskrona;58 år lant- och skogsbrukare Bettamåla;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;8;J;J;I;J;179757;Pernilla Persson;39;K;Karlskrona;39 år barnsjuksköterska Kättilsmåla;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;9;J;J;I;J;208206;Johan von Reis;39;M;Karlskrona;38 år medmänniska Nättraby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;10;J;J;I;J;208243;Britt-Marie Havby;72;K;Karlskrona;72 år skogsbonde Fridlevstad;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;11;J;J;I;J;208244;Fredrik Karlsson;43;M;Karlskrona;43 år museipedagog Lönnemåla;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;12;J;J;I;J;179759;Malin Wästfelt;46;K;Karlskrona;46 år entreprenör Nättraby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;13;J;J;I;J;208197;Roger Arvidsson;53;M;Karlskrona;53 år sjukvårdslärare Persmåla;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;14;J;J;I;J;208200;Sven Borén;46;M;Karlskrona;46 år forskare Karlskrona;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;15;J;J;I;J;208248;Cecilia Runesson;29;K;Karlskrona;29 år lärare Offamåla;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;16;J;J;I;J;208249;Ann-Louise Trulsson;52;K;Karlskrona;52 år präst, civilekonom Senoren;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;17;J;J;I;J;208192;Claes Gustavsson;62;M;Karlskrona;62 år företagare Tävetorp;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;18;J;J;I;J;179767;Agnetha Persson;72;K;Karlskrona;72 år f.d. lärare Karlskrona;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;19;J;J;I;J;208208;Nils Jedhammar;72;M;Karlskrona;72 år pensionär Holmsjö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;20;J;J;I;J;208203;Nasir Khaja Akmad;34;M;Karlskrona;34 år datatekniker, lärare Rödeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;21;J;J;I;J;208254;Gunilla Gustavsson;53;K;Karlskrona;53 år politisk sekreterare Senoren;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;22;J;J;I;J;208204;Yaman Masri;27;M;Karlskrona;27 år kemist, amnestyaktivist Karlskrona;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;23;J;J;I;J;208211;Per Pettersson;21;M;Karlskrona;21 år lantarbetare Torhamn;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;24;J;J;I;J;208257;Katarina Johansson;57;K;Karlskrona;57 år ekonom Torhamn;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;25;J;J;I;J;208201;Cecilia Nilsson;36;K;Karlskrona;36 år transportplanerare Holmsjö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;26;J;J;I;J;208259;Magnus Carlsson;28;M;Karlskrona;28 år egenföretagare Dragda;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;27;J;J;I;J;208260;Julia Johansson;24;K;Karlskrona;24 år kock Lönnemåla;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;28;J;J;I;J;208210;Jean Pierre Candiotti Bustamante;33;M;Karlskrona;33 år hållbarhetskonsult Karlskrona;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;29;J;J;I;J;179766;Kennet Henningsson;45;M;Karlskrona;45 år adjunkt, konsult Nättraby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;30;J;J;I;J;208207;Lena Kockum;62;K;Karlskrona;62 år undersköterska Sturkö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;31;J;J;I;J;208209;Eskil Johansson;60;M;Karlskrona;60 år verkstadsmekaniker Ramdala;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Centerpartiet;C;4;S;13901;32;J;J;I;J;208265;Anna Havby;74;K;Karlskrona;74 år pensionär Holmsjö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;1;J;J;I;J;454625;Billy Åkerström;59;M;Karlskrona;Brandmästare, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;2;J;J;I;J;454633;Bengt Jönsson;56;M;Karlskrona;Officer, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;3;J;J;I;J;457317;Per Nordensson;55;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;4;J;J;I;J;457318;Monica Schön;71;K;Karlskrona;Pensionär, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;5;J;J;I;J;456202;Carina Olsson;49;K;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;6;J;J;I;J;457320;Mikaela Andersson;36;K;Karlskrona;Undersköterska, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;7;J;J;I;J;457321;Rickard Löfqvist;49;M;Karlshamn;Kommunanställd, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;8;J;J;I;J;453461;Adam Jansson;26;M;Karlskrona;Soldat, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;9;J;J;I;J;457330;Isabelle Engström;25;K;Karlskrona;Rekryteringskoordinator, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;10;J;J;I;J;457340;Sokol Abdullahu;43;M;Karlskrona;Målarmästare, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;11;J;J;I;J;457341;Evy Andréasson;83;K;Karlskrona;Pedagog, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;12;J;J;I;J;456204;Niklas Andersson;29;M;Karlskrona;Egen Företagare, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;13;J;J;I;J;457343;Shpresa Abdullahu;38;K;Karlskrona;Frisörska, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;14;J;J;I;J;457344;Conny Strömberg;59;M;Karlskrona;Officer, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;15;J;J;I;J;454631;Inger Åkesson;62;K;Karlskrona;Sjuksköterska, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;16;J;J;I;J;456205;Lennart Svantesson;76;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;17;J;J;I;J;457583;Suzanne Garsten Schön;54;K;Karlskrona;Lärare, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;18;J;J;I;J;454627;Erik Lindborg;66;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;19;J;J;I;J;457585;Oscar Andersson;21;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;20;J;J;I;J;457586;Per Thorngren;62;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;21;J;J;I;J;457587;Maria Jönsson Schön;52;K;Karlskrona;Lärare, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;22;J;J;I;J;457588;Markus Karlström;35;M;Karlskrona;Befälhavare Färja, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;23;J;J;I;J;457589;Ulf Sennerlin;44;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;24;J;J;I;J;457590;Thobias Jemjeby;44;M;Karlskrona;Logistikstrateg, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Kristdemokraterna;KD;68;S;15335;25;J;J;I;J;457591;Carl Andersson;24;M;Karlskrona;Studerande, Karlskrona;70000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;1;J;J;I;J;27603;Börje Dovstad;58;M;Karlskrona;Kommunalråd 58år Hasslö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;2;J;J;I;J;27605;Gunilla Ekelöf;74;K;Karlskrona;f.d Rektor 74år Karlskrona;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;3;J;J;I;J;27606;Stefan Lundin;69;M;Karlskrona;Projektledare 70år Rödeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;4;J;J;I;J;27607;Marianne Ehn-Thorell;45;K;Karlskrona;Specialistsjuksköterska 45år Aspö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;5;J;J;I;J;27608;Tomas Pärlklo;63;M;Karlskrona;Kriminalinspektör 63år Karlskrona;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;6;J;J;I;J;27609;Katarina Skantze;40;K;Karlskrona;Lampfabrikör 41år Karlskrona;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;7;J;J;I;J;27610;Rolf Svensson;65;M;Karlskrona;Pensionär 63år Nättraby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;8;J;J;I;J;27611;Karin Dovstad;56;K;Karlskrona;Socionom 56år Hasslö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;9;J;J;I;J;27612;Bengt Jonsson;75;M;Karlskrona;Pensionär 75år Långö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;10;J;J;I;J;66629;Charlotta Kihlbert;54;K;Karlskrona;Lärare 54år Karlskrona;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;11;J;J;I;J;27685;Lars Fisher;72;M;Karlskrona;Byggnadsingenjör 72år Aspö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;12;J;J;I;J;66631;Agneta Möller;61;K;Karlskrona;Boendehandledare funktionstödsförvaltningen 62 år Lyckeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;13;J;J;I;J;27686;Peter Christensen;61;M;Karlskrona;Systemutvecklare 62år Nättraby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;14;J;J;I;J;27687;Eva Röder;76;K;Karlskrona;76år Hästö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;15;J;J;I;J;27688;Robin Kullberg;46;M;Karlskrona;46år Karlskrona;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;16;J;J;I;J;27689;Carola Olander;77;K;Karlskrona;Pensionär 78år Kristianopel;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;17;J;J;I;J;27690;Filip Issal;38;M;Karlskrona;Samhällsentrprenör 38år Karlskrona;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;18;J;J;I;J;66659;Candida Robelo;55;K;Karlskrona;Undersköterska 55år Ramdala;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;19;J;J;I;J;27691;Per Wimmerman;66;M;Karlskrona;Personlig assistent 66år Lyckeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;20;J;J;I;J;66661;Nicole Carlbäck;43;K;Karlskrona;Lärare 43år Karlskrona;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;21;J;J;I;J;27692;Christian Svensson;30;M;Karlskrona;Sjöofficer 31år Pantarholmen;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;22;J;J;I;J;27693;Hans-Göran Håkansson;76;M;Karlskrona;Administratör 76år Hästö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;23;J;J;I;J;27712;Olle Klein;67;M;Karlskrona;67år Lyckeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Liberalerna (tidigare Folkpartiet);L;3;S;12149;24;J;J;I;J;27713;Kent Lewén;71;M;Karlskrona;f.d Kommunalråd 71år Fridlevstad;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;1;J;J;I;J;113357;Olle Hilborn;33;M;Karlskrona;33, Verksamhetschef, Jämjö;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;2;J;J;I;J;252086;Yvonne Sandberg-Fries;67;K;Karlskrona;67, F.d.riksdagsledamot, Nättraby;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;3;J;J;I;J;252087;Tommy Andersson;69;M;Karlskrona;69, Pensionär, Torhamn;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;4;J;J;I;J;113362;Madeleine Norman;28;K;Karlskrona;28, Miljövetare, Ramdala;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;5;J;J;I;J;252089;Anders Lundberg;38;M;Karlskrona;38, Samhällsplanerare, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;6;J;J;I;J;252090;Rachael Gould;35;K;Karlskrona;35, Doktorand, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;7;J;J;I;J;252091;Rickard Barkeryd;31;M;Karlskrona;30, Biolog, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;8;J;J;I;J;252092;Mia Andersson;72;K;Karlskrona;72, Pensionär, Torhamn;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;9;J;J;I;J;252093;José Espinoza;65;M;Karlskrona;65, Undersköterska, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;10;J;J;I;J;252094;Anna Kindblad;41;K;Karlskrona;41, Lärare, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;11;J;J;I;J;252095;Ulf Svahn;70;M;Karlskrona;70, Pensionär, Lyckeby;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;12;J;J;I;J;252096;Ingela Gånedahl;66;K;Karlskrona;66, Pensionär, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;13;J;J;I;J;252097;Frode Jadbrant;40;M;Karlskrona;40, Områdeschef, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;14;J;J;I;J;252098;Anna-Lena Nilsson;62;K;Karlskrona;62, Leg.sjukgymnast, Hasslö;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;15;J;J;I;J;252099;Ulf Hellgren;48;M;Karlskrona;48, Lokalvårdare, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;16;J;J;I;J;252100;Jan-Olof Andersson;73;M;Karlskrona;73, Pensionär, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;17;J;J;I;J;252101;Björn Gustavsson;68;M;Karlskrona;68, Pensionär, Nättraby;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;18;J;J;I;J;113363;Mikael Auberg;56;M;Karlskrona;56, Undersköterska, Nättraby;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;19;J;J;I;J;252103;Thomas Gustafson;73;M;Karlskrona;73, Pensionär, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;20;J;J;I;J;252104;Anita Nilsson;76;K;Karlskrona;76, Pensionär, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Miljöpartiet de gröna;MP;55;S;14274;21;J;J;I;J;252105;Jerry Österholm;53;M;Karlskrona;53, Sjöingenjör, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;1;J;J;I;J;215968;Camilla Brunsberg;46;K;Karlskrona;46, oppositionsråd, Lyckeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;2;J;J;I;J;215969;Carl-Göran Svensson;65;M;Karlskrona;65, lantbrukare, Vallby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;3;J;J;I;J;215970;Emma Swahn Nilsson;46;K;Karlskrona;46, egen företagare, Bastasjö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;4;J;J;I;J;215971;Peter Glimvall;61;M;Karlskrona;61, överstelöjtnant, Saltö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;5;J;J;I;J;215972;Anna Ottosson;39;K;Karlskrona;39, controller, Ringö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;6;J;J;I;J;215973;Morgan Kullberg;41;M;Karlskrona;41, filosofie doktor, Bredäng;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;7;J;J;I;J;215974;Sophia Ahlin;34;K;Karlskrona;34, egen företagare, Trossö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;8;J;J;I;J;215975;Julia Melander;21;K;Karlskrona;21, bitr restaurangchef, Lyckeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;9;J;J;I;J;215976;Jan Åke Nordin;60;M;Karlskrona;60, leg sjuksköterska, Trossö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;10;J;J;I;J;215977;Jan Lennartsson;54;M;Karlskrona;54, egen företagare, Sturkö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;11;J;J;I;J;215978;Emina Cejvan;64;K;Karlskrona;64, ekonom, Trossö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;12;J;J;I;J;215979;Lars Göran Forss;68;M;Karlskrona;68, egen företagare, Nättraby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;13;J;J;I;J;215980;Hanna Ekblad;37;K;Karlskrona;37, politisk sekreterare, Bastasjö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;14;J;J;I;J;215981;Anders Ovander;74;M;Karlskrona;74, fd ekonomichef, Nättraby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;15;J;J;I;J;215982;Velia Ekström;64;K;Karlskrona;64, civilingenjör, Trossö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;16;J;J;I;J;215983;Bengt Fröberg;63;M;Karlskrona;63, sjöofficer, Hästö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;17;J;J;I;J;215984;Annicka Engblom;51;K;Karlskrona;51, riksdagsledamot, Rödeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;18;J;J;I;J;215985;Torsten Palmgren;58;M;Karlskrona;58, lantmästare, Inglatorp;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;19;J;J;I;J;215986;Camilla Hansson;37;K;Karlskrona;37, lärare, Höryda;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;20;J;J;I;J;215987;Johan Hjortsberg;53;M;Karlskrona;53, sjökapten, Galgamarken;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;21;J;J;I;J;215988;Charlotta Sahlin;61;K;Karlskrona;61, hudterapeut, Karlskrona;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;22;J;J;I;J;215989;Philip Årmann;28;M;Karlskrona;28, teknisk produktägare, Trossö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;23;J;J;I;J;215990;Katarina Nordin;25;K;Karlskrona;25, student, Trossö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;24;J;J;I;J;215991;Annika Hansson;62;K;Karlskrona;62, fd advokatsekreterare, Trossö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;25;J;J;I;J;215992;Anna Stridsjö;35;K;Karlskrona;35, ekonom, Rödeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;26;J;J;I;J;215993;Birgitta Petersson Gamélius;75;K;Karlskrona;75, pensionär, Fäjö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;27;J;J;I;J;215994;Thomas Nilsson;55;M;Karlskrona;55, lantmästare, Fridlevstad;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;28;J;J;I;J;215995;Lindy Olofsson;38;K;Karlskrona;38, jobbcoach, Lyckeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;29;J;J;I;J;215996;Thomas Zeidler;52;M;Karlskrona;52, civilingenjör, Björkholmen;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;30;J;J;I;J;215997;Anders Jonasson;68;M;Karlskrona;68, fd polis, Knösö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;31;J;J;I;J;215998;Marianne Nordin;76;K;Karlskrona;76, fd försvarsanställd, Trossö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;32;J;J;I;J;215999;Gerd Sjögren;78;K;Karlskrona;78, leg tandläkare, Nättraby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;33;J;J;I;J;216000;Björn Liljekrantz;74;M;Karlskrona;74, pensionär, Trossö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;34;J;J;I;J;216001;Ann-Marie Branje;79;K;Karlskrona;79, områdeschef, Saltö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;35;J;J;I;J;216002;Adam Liedholm;18;M;Karlskrona;18, studerande, Trossö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;36;J;J;I;J;216003;Per-Erik Karlsson;40;M;Karlskrona;40, speciallärare, Trossö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;37;J;J;I;J;216004;Britt-Marie Ammer Forss;67;K;Karlskrona;67, egen företagare, Nättraby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;38;J;J;I;J;216005;Patrik Zarén;49;M;Karlskrona;49, bilplåtslagare, Jämjö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;39;J;J;I;J;216006;Johan André;53;M;Karlskrona;53, egen företagare, Vinberga;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;40;J;J;I;J;216007;Ulf Danielsson;71;M;Karlskrona;71, civilingenjör, Rödeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;41;J;J;I;J;216008;Ingemar Sunesson;65;M;Karlskrona;65, ingenjör, Lyckeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;42;J;J;I;J;216009;Anders Jakobsson;63;M;Karlskrona;63, pensionerad officer, Lyckeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;43;J;J;I;J;216010;Karin Brunsberg;82;K;Karlskrona;82, filosofie doktor, Lyckeby;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;44;J;J;I;J;216011;Marie Meijer Dahl;43;K;Karlskrona;43, socialsekreterare, Hästö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;45;J;J;I;J;216012;Annelie Ivarsson;49;K;Karlskrona;49, lantbrukare, Hejetorp;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;46;J;J;I;J;216013;Camilla Mikler;55;K;Karlskrona;55, verksamhetsutvecklare, Arnö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;47;J;J;I;J;216014;Malin Klintin;48;K;Karlskrona;48, verksamhetsanalytiker, Verkö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;48;J;J;I;J;216015;Caroline Wessel;29;K;Karlskrona;29, beteendevetare, Karlskrona;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;49;J;J;I;J;216016;Sigrid Johansson;68;K;Karlskrona;68, pensionär, Bergåsa;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;50;J;J;I;J;216017;Sviatlana Leuchuk;41;K;Karlskrona;41, grafisk designer, Sturkö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;51;J;J;I;J;216018;Henrik Persson;39;M;Karlskrona;39, officer, Verkö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;52;J;J;I;J;216019;Johan Åkesson;42;M;Karlskrona;42, it-konsult, Galgamarken;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;53;J;J;I;J;216020;Charlotte Hauffman;62;K;Karlskrona;62, civilekonom, Kettilstorp;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Moderaterna;M;1;S;13959;54;J;J;I;J;216021;Björn Abramsson;71;M;Karlskrona;71, fd polis, Sturkö;155000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;1;J;J;I;J;32936;Christopher Larsson;41;M;Karlskrona;42, Key account manager, Rödeby;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;2;J;J;I;J;32937;Lotta Antman;54;K;Karlskrona;54, Rektor, Knösö;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;3;J;J;I;J;32938;Göran Eklund;64;M;Karlskrona;64, Officer, Skavkulla;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;4;J;J;I;J;32939;Åsa Larsson;48;K;Karlskrona;48, Boendeassistent, Rödeby;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;5;J;J;I;J;32940;Ronnie Nilsson;65;M;Karlskrona;65, Forskningsassistent, Lyckeby;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;6;J;J;I;J;32941;Camilla Karlman;49;K;Karlskrona;49, Politisk sekreterare, Fridlevstad;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;7;J;J;I;J;32942;Christer Leksell;66;M;Karlskrona;66, Officer, Backabo;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;8;J;J;I;J;32943;Margaretha Jonasson;40;K;Karlskrona;40, Barnskötare, Hasslö;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;9;J;J;I;J;32944;Robert Andersson;75;M;Karlskrona;75, Skogsentreprenör, Torhamn;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;10;J;J;I;J;32945;Patrik Hult;46;M;Karlskrona;46, Butiksanställd, Ramdala;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;11;J;J;I;J;32946;Pernilla Cederholm;48;K;Karlskrona;48, Undersköterska, Nättraby;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;12;J;J;I;N;32947;[inte lämnat förklaring];;;;;295000;;N
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;13;J;J;I;J;32948;Susanne Cederholm;54;K;Karlskrona;54, Administratör, Aspö;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;14;J;J;I;J;32949;Tove Håkansson;30;K;Karlskrona;30, Barnskötare, Holmsjö;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;15;J;J;I;J;32950;Paul Cederholm;47;M;Karlskrona;47, Egenföretagare, Nättraby;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;16;J;J;I;J;32951;Kenneth Johnsson;71;M;Karlskrona;72, Pensionär, Attanäs;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;17;J;J;I;J;32952;Mariane Johansson;57;K;Karlskrona;57, Administratör, Bränteknuva;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;18;J;J;I;J;32953;Mats Mattiasson;49;M;Karlskrona;49, Maskintekniker, Fridlevstad;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;19;J;J;I;J;32954;Bente Eklund;58;K;Karlskrona;58, Cirkelledare, Skavkulla;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;20;J;J;I;J;32955;Magnus Johansson;53;M;Karlskrona;53, Lastbilschaufför, Rödeby;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;21;J;J;I;J;32956;Jan Sjöholm;59;M;Karlskrona;59, Officer, Attanäs;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;22;J;J;I;J;32957;Sanna Svennesson;29;K;Karlskrona;29, Konditor, Nättraby;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;23;J;J;I;J;32958;Anette Ivekull;46;K;Karlskrona;46, Undersköterska, Rödeby;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;24;J;J;I;J;32959;Rose-Marie Leksell;65;K;Karlskrona;65, Sångerska, Backabo;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;25;J;J;I;J;32960;Lars-Eric Persson;70;M;Karlskrona;70, Byggnadssnickare, Rödeby;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;26;J;J;I;J;32961;Lars-Olov Stenborg;64;M;Karlskrona;64, Egenföretagare, Trossö;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;27;J;J;I;J;32962;Yvonne Svennesson;61;K;Karlskrona;61, Grafiker, Nättraby;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;28;J;J;I;J;32964;Bo Hugmark;75;M;Karlskrona;75, Systemutvecklare IT, Saltö;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;29;J;J;I;J;32965;Henrik Ljungkvist;46;M;Karlskrona;46, Egenföretagare, Hasslö;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;30;J;J;I;J;32967;Benny Berglund;70;M;Karlskrona;70, Pensionär, Rödeby;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;31;J;J;I;J;32968;Tommy Cyréus;58;M;Karlskrona;58, Företagsutvecklare, Jämjö;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;32;J;J;I;J;32969;Jennie Wilén;43;K;Karlskrona;43, Ungdomsbehandlare, Lyckeby;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;33;J;J;I;J;32970;Stefan Nilsson;41;M;Karlskrona;42, Elektriker, Lindesnäs;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;34;J;J;I;J;32972;Birgitta Stenberg;67;K;Karlskrona;67, Pensionär, Trossö;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;35;J;J;I;J;32973;Ingrid Andersson;65;K;Karlskrona;65, Pensionär, Fridlevstad;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;36;J;J;I;J;32974;Tina Ulvås;56;K;Karlskrona;56, Barnskötare, Holmsjö;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;37;J;J;I;J;32975;Johan Ulvås;61;M;Karlskrona;61, Chaufför, Holmsjö;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;38;J;J;I;J;32976;Anders Mattiasson;73;M;Karlskrona;73, Elingenjör, Fridlevstad;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;39;J;J;I;J;32977;Anne-Marie Lundmark;64;K;Karlskrona;64, Förvaltningssocionom, Hässlegården;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;40;J;J;I;J;32978;Jörgen Andersson;57;M;Karlskrona;57, Chaufför, Fridlevstad;295000;;J
+K;1080;Karlskrona;02;Karlskrona V;Sverigedemokraterna;SD;110;S;12224;41;J;J;I;N;33159;[inte lämnat förklaring];;;;;295000;;N
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;1;J;J;I;J;294494;Emma Hilborn;35;K;Karlskrona;Tandläkare, Jämjö;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;2;J;J;I;J;294482;Åsa Gyberg-Karlsson;47;K;Karlskrona;Biomedicinsk analytiker, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;3;J;J;I;J;296881;Ulf Hansson;59;M;Karlskrona;Handläggare, Lyckeby;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;4;J;J;I;J;294498;Desiree Hoberg;44;K;Karlskrona;Specialistundersköterska, Ramdala;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;5;J;J;I;J;301705;Markus Ottosson;39;M;Karlskrona;Butikschef, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;6;J;J;I;J;301706;Arto Valtonen;53;M;Karlskrona;Teknikinformatör, Lyckeby;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;7;J;J;I;J;294496;Anna-Kajsa Lundberg;28;K;Karlskrona;Specialistofficer, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;8;J;J;I;J;301708;Islam Qatesh;45;M;Karlskrona;Studiehandledare, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;9;J;J;I;J;301709;Caroline Skoglöw;37;K;Karlskrona;Tatuerare med eget företag, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;10;J;J;I;J;294501;Åke Stridh;67;M;Karlskrona;Egenföretagare,Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;11;J;J;I;J;301711;Camilla Persson;52;K;Karlskrona;Socionom, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;12;J;J;I;J;296885;Jan-Olof Wahllöf;73;M;Karlskrona;Pensionerad målare, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;13;J;J;I;J;301713;Anngelica Rosén;33;K;Karlskrona;Byggnadsadministratör, Fågelmara;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;14;J;J;I;J;301715;Katarina Vastamäki;55;K;Karlskrona;Förläggare, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;15;J;J;I;J;294499;Johan Eriksson;40;M;Karlskrona;Murare, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;16;J;J;I;J;301717;Anab Abdi-Mohammed;33;K;Karlskrona;Student, Karlskrona;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;17;J;J;I;J;301718;Roland Mattisson;73;M;Karlskrona;Pensionerad socionom, Holmsjö;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;18;J;J;I;J;294483;Sara Högelius;38;K;Karlskrona;Folkhögskolelärare, Hasslö;100000;;J
+K;1080;Karlskrona;02;Karlskrona V;Vänsterpartiet;V;5;S;15368;19;J;J;I;J;301720;Reine Svensson;50;M;Karlskrona;Gymnasielärare, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;1;J;J;I;J;295810;Sandra Bizzozero;40;K;Karlskrona;Karlskrona upphandlare 39 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;2;J;J;I;J;298563;Rikard Jönsson;56;M;Karlskrona;Björkholmen ombudsman 56 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;3;J;J;I;J;298564;Eva-Lotta Altvall;56;K;Karlskrona;Trossö pedagog 56 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;4;J;J;I;J;298565;Roland Andreasson;58;M;Karlskrona;Trossö affärsbiträde 58 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;5;J;J;I;J;298566;Jeanette Petersson;46;K;Karlskrona;Trossö tågvärdinna 46 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;6;J;J;I;J;298567;Johan Ekström;41;M;Karlskrona;Långö undersköterska 41 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;7;J;J;I;J;298568;Shirin Sahebjamee;46;K;Karlskrona;Långö utredare 45 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;8;J;J;I;J;298569;Jimmy Pettersson;41;M;Karlskrona;Karlskrona lärare 41 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;9;J;J;I;J;296129;Camilla Persson;34;K;Karlskrona;Långö sömmerska 33 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;10;J;J;I;J;298571;Jörgen Estgren;53;M;Karlskrona;Trossö målare 53 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;11;J;J;I;J;298572;Annah Pripp;24;K;Karlskrona;Trossö studerande 24 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;12;J;J;I;J;298573;Sonny Bengtsson;23;M;Karlskrona;Trossö konsult 23 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;13;J;J;I;J;298574;Lotta Törnström;59;K;Karlskrona;Hästö undersköterska 55 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;14;J;J;I;J;298575;Lars Brissmalm;46;M;Karlskrona;Trossö folketshusföreståndare 46 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;15;J;J;I;J;298576;Ida Larsson;25;K;Karlskrona;Långö verksamhetsutvecklare 25 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;16;J;J;I;J;298577;Sven Siwe;60;M;Karlskrona;Trossö arbetssökande 60 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;17;J;J;I;J;298578;Lotta Holgersson;46;K;Karlskrona;Björkholmen statstjänsteman 46 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;18;J;J;I;J;298579;Jan Elmqvist;66;M;Karlskrona;Saltö pensionär 66 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;19;J;J;I;J;298580;Ann-Mari Sternulf;72;K;Karlskrona;Trossö fd avdelningschef 72 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;20;J;J;I;J;298581;Leif Egefur;69;M;Karlskrona;Karlskrona pensionär 69 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;21;J;J;I;J;139674;Birgitta Möller;70;K;Karlskrona;Karlskrona ekonom 69 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;22;J;J;I;J;298584;Eva Öman;62;K;Karlskrona;Saltö enhetschef 61 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;23;J;J;I;J;298585;Morgan Pettersson;45;M;Karlskrona;Karlskrona 44 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;24;J;J;I;J;298586;Lena Skoglöw;56;K;Karlskrona;Karlskrona telefonist 55 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;25;J;J;I;J;298587;Tommy Sternulf;72;M;Karlskrona;Trossö pensionär 72 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;26;J;J;I;J;298588;Ingrid Augustinsson Swennergren;66;K;Karlskrona;Trossö pensionär 66 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;27;J;J;I;J;298589;Eles Karahalilovic;18;M;Karlskrona;Karlskrona studerande 18 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14600;28;J;J;I;J;298590;Torsten Wiktorsson;71;M;Karlskrona;Trossö pensionär 71 år;66000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;1;J;J;I;J;139662;Elina Gustafsson;29;K;Karlskrona;Rosenholm verksamhetsutvecklare 29 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;2;J;J;I;J;139661;Lars Hildingsson;45;M;Karlskrona;Nättraby ombudsman 45 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;3;J;J;I;J;314023;Eva Strömqvist;64;K;Karlskrona;Nävragöl ombudsman 63 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;4;J;J;I;J;314024;Bassem Khalid;49;M;Karlskrona;Karlskrona egen företagare 49 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;5;J;J;I;J;314025;Hind Abdul Wahab;67;K;Karlskrona;Karlskrona personlig assistent 67 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;6;J;J;I;J;296131;Jonas Sandström;30;M;Karlskrona;Nättraby politisk sekreterare 30 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;7;J;J;I;J;296133;Lisbeth Bengtsson;51;K;Karlskrona;Rödeby undersköterska 51 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;8;J;J;I;J;314028;Åke Håkansson;49;M;Karlskrona;Holmsjö busschaufför 49 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;9;J;J;I;J;314029;Laila Karlsson;54;K;Karlskrona;Rödeby hotellanställd 50 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;10;J;J;I;J;314030;Björn Fries;67;M;Karlskrona;Nättraby fd regeringens narkotikapolitiska samordnare 67 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;11;J;J;I;J;314031;Anna Strömqvist Vollan;41;K;Karlskrona;Nävragöl civilekonom 40 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;12;J;J;I;J;314032;Mats Fagerlund;58;M;Karlskrona;Nättraby operatör 57 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;13;J;J;I;J;314033;Elizabeth Törngren;60;K;Karlskrona;Karlskrona pensionär 60 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;14;J;J;I;J;314034;Leo Azirovic;33;M;Karlskrona;Marieberg lokalvårdare 32 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;15;J;J;I;J;296130;Kerstin Ekberg Söderbom;72;K;Karlskrona;Hasslö f.d assistent 71 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;16;J;J;I;J;314036;Anders Björkander;57;M;Karlskrona;Fridlevstad account manager 57 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;17;J;J;I;J;314037;Susanne Öhrn;61;K;Karlskrona;Tving driftsmekaniker 61 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;18;J;J;I;J;314038;Tommy Brolin;65;M;Karlskrona;Backabo vaktmästare 65 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;19;J;J;I;J;314039;Cecilia Neuendorff;41;K;Karlskrona;Nättraby undersköterska 41 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;20;J;J;I;J;306463;Morgan Mattsson;72;M;Karlskrona;Holmsjö tekniker 71;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;21;J;J;I;J;314041;Inga-Lill Niklasson;68;K;Karlskrona;Nättraby pensionär 68 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;22;J;J;I;J;314042;Bo Svensson;50;M;Karlskrona;Nättraby ombudsman 50 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;23;J;J;I;J;314043;Eva Henningsson;75;K;Karlskrona;Karlskrona f.d skötare 75 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;24;J;J;I;J;314044;Bengt-Göran Hansson;53;M;Karlskrona;Nättraby operatör 53 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;25;J;J;I;J;296125;Lena Klintefors;61;K;Karlskrona;Hasslö barnsjuksköterska 60 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;14684;26;J;J;I;J;296128;Muhamed Kadhim Abed Alyasiri;18;M;Karlskrona;Karlskrona studerande 18 år;51000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;1;J;J;I;J;310704;Peter Johansson;60;M;Karlskrona;Lyckeby Länsbildningskonsulent 60 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;2;J;J;I;J;310705;Selma Björk Matthiasdottir;41;K;Karlskrona;Jämjö Undersköterska 41 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;3;J;J;I;J;310706;Sattar Zad;55;M;Karlskrona;Hässlegården Trafik- & Projektansvarig 55 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;4;J;J;I;J;310707;Susanne Johansson;53;K;Karlskrona;Lyckeby Kock 48 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;5;J;J;I;J;310708;Jan-Anders Lindfors;62;M;Karlskrona;Lyckeby Samordnare 62 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;6;J;J;I;J;310709;Jeanette Håkansson;54;K;Karlskrona;Ramdala Arbetsledare 54 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;7;J;J;I;J;310710;Håkan Eriksson;42;M;Karlskrona;Jämjö Varvsarbetare 42 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;8;J;J;I;J;310711;Helene Gustafsson;54;K;Karlskrona;Nättraby Verksamhetsutvecklare 54 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;9;J;J;I;J;310712;Marcus Degerskär;35;M;Karlskrona;Hässlegården Industriarbetare 35 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;10;J;J;I;J;310713;Annica Blomstrand;55;K;Karlskrona;Jämjö Upphandlare 55 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;11;J;J;I;J;310714;Mats Ekberg;55;M;Karlskrona;Sturkö Boendeassistent 55 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;12;J;J;I;J;310715;Karin Daleke;44;K;Karlskrona;Jämjö Receptionsansvarig 44 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;13;J;J;I;J;310716;Dan Lundkvist;38;M;Karlskrona;Trummenäs Ombudsman 38 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;14;J;J;I;J;310717;Ann-Marie Kimenius;60;K;Karlskrona;Lyckeby Beteendevetare 60 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;15;J;J;I;J;139331;Magnus Manhammar;37;M;Karlskrona;Karlskrona Riksdagsledamot 37 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;16;J;J;I;J;310719;Karin Blomé;44;K;Karlskrona;Karlskrona Lokalvårdare 44 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;17;J;J;I;J;310720;Claes-Urban Persson;59;M;Karlskrona;Hässlegården Socionom 59 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;18;J;J;I;J;310721;Pia Eklund;50;K;Karlskrona;Karlskrona Industriarbetare 49 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;19;J;J;I;J;310722;Michael Holmberg;31;M;Karlskrona;Jämjö Statsanställd 31 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;20;J;J;I;J;296123;Egzonita Maxhuni;25;K;Karlskrona;Karlskrona Ombudsman 25 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;21;J;J;I;J;310724;Rami Alyousef;31;M;Karlskrona;Lyckeby Civilingenjör 30 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;22;J;J;I;J;310725;Inga-Lill Larsson;73;K;Karlskrona;Tjurkö Pensionär 73 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;23;J;J;I;J;310726;Oscar Dyberg;43;M;Karlskrona;Spandelstorp Ombudsman 43 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;24;J;J;I;J;310727;Hanna Fagerlund;29;K;Karlskrona;Jämjö Studerande 29 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;25;J;J;I;J;310728;John-Erik Danerklint;71;M;Karlskrona;Karlskrona Egen Företagare 71 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;26;J;J;I;J;310729;Carina Ernstsson;56;K;Karlskrona;Sturkö Undersköterska 55 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;27;J;J;I;J;310730;Jens Sjösten;40;M;Karlskrona;Senoren Tekniker 40 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;28;J;J;I;J;310731;Madeleine Karlsson;45;K;Karlskrona;Hästö Statstjänsteman 45 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;29;J;J;I;J;310732;Bo Blomqvist;67;M;Karlskrona;Backabo Skolkurator 67 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;30;J;J;I;J;310733;Markus Gadd;46;M;Karlskrona;Jämjö Ungdomsledare 46 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;31;J;J;I;J;310734;John Veneke;49;M;Karlskrona;Jämjö Elektriker 49 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Arbetarepartiet-Socialdemokraterna;S;2;S;15432;32;J;J;I;J;310735;Börje Nilsson;65;M;Karlskrona;Kristianopel Pensionär 65 år;54000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;1;J;J;I;J;179748;Magnus Larsson;51;M;Karlskrona;51 år ingenjör Torhamn;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;2;J;J;I;J;208196;Maria Persson;46;K;Karlskrona;46 år förskollärare Lyckeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;3;J;J;I;J;208236;Jörgen Johansson;55;M;Karlskrona;55 år lantbrukare Gåsamåla;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;4;J;J;I;J;8553;Ingrid Hermansson;54;K;Karlskrona;54 år förskollärare Nättraby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;5;J;J;I;J;179762;Johan Genestig;54;M;Karlskrona;54 år miljöräddningshandläggare Sturkö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;6;J;J;I;J;179755;Ingela Abramsson;52;K;Karlskrona;52 år sjuksköterska Ramdala;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;7;J;J;I;J;179770;Lars Karlsson;58;M;Karlskrona;58 år lant- och skogsbrukare Bettamåla;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;8;J;J;I;J;179757;Pernilla Persson;39;K;Karlskrona;39 år barnsjuksköterska Kättilsmåla;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;9;J;J;I;J;208206;Johan von Reis;39;M;Karlskrona;38 år medmänniska Nättraby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;10;J;J;I;J;208243;Britt-Marie Havby;72;K;Karlskrona;72 år skogsbonde Fridlevstad;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;11;J;J;I;J;208244;Fredrik Karlsson;43;M;Karlskrona;43 år museipedagog Lönnemåla;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;12;J;J;I;J;179759;Malin Wästfelt;46;K;Karlskrona;46 år entreprenör Nättraby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;13;J;J;I;J;208197;Roger Arvidsson;53;M;Karlskrona;53 år sjukvårdslärare Persmåla;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;14;J;J;I;J;208200;Sven Borén;46;M;Karlskrona;46 år forskare Karlskrona;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;15;J;J;I;J;208248;Cecilia Runesson;29;K;Karlskrona;29 år lärare Offamåla;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;16;J;J;I;J;208249;Ann-Louise Trulsson;52;K;Karlskrona;52 år präst, civilekonom Senoren;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;17;J;J;I;J;208192;Claes Gustavsson;62;M;Karlskrona;62 år företagare Tävetorp;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;18;J;J;I;J;179767;Agnetha Persson;72;K;Karlskrona;72 år f.d. lärare Karlskrona;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;19;J;J;I;J;208208;Nils Jedhammar;72;M;Karlskrona;72 år pensionär Holmsjö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;20;J;J;I;J;208203;Nasir Khaja Akmad;34;M;Karlskrona;34 år datatekniker, lärare Rödeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;21;J;J;I;J;208254;Gunilla Gustavsson;53;K;Karlskrona;53 år politisk sekreterare Senoren;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;22;J;J;I;J;208204;Yaman Masri;27;M;Karlskrona;27 år kemist, amnestyaktivist Karlskrona;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;23;J;J;I;J;208211;Per Pettersson;21;M;Karlskrona;21 år lantarbetare Torhamn;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;24;J;J;I;J;208257;Katarina Johansson;57;K;Karlskrona;57 år ekonom Torhamn;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;25;J;J;I;J;208201;Cecilia Nilsson;36;K;Karlskrona;36 år transportplanerare Holmsjö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;26;J;J;I;J;208259;Magnus Carlsson;28;M;Karlskrona;28 år egenföretagare Dragda;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;27;J;J;I;J;208260;Julia Johansson;24;K;Karlskrona;24 år kock Lönnemåla;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;28;J;J;I;J;208210;Jean Pierre Candiotti Bustamante;33;M;Karlskrona;33 år hållbarhetskonsult Karlskrona;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;29;J;J;I;J;179766;Kennet Henningsson;45;M;Karlskrona;45 år adjunkt, konsult Nättraby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;30;J;J;I;J;208207;Lena Kockum;62;K;Karlskrona;62 år undersköterska Sturkö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;31;J;J;I;J;208209;Eskil Johansson;60;M;Karlskrona;60 år verkstadsmekaniker Ramdala;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Centerpartiet;C;4;S;13901;32;J;J;I;J;208265;Anna Havby;74;K;Karlskrona;74 år pensionär Holmsjö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;1;J;J;I;J;454625;Billy Åkerström;59;M;Karlskrona;Brandmästare, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;2;J;J;I;J;454633;Bengt Jönsson;56;M;Karlskrona;Officer, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;3;J;J;I;J;457317;Per Nordensson;55;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;4;J;J;I;J;457318;Monica Schön;71;K;Karlskrona;Pensionär, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;5;J;J;I;J;456202;Carina Olsson;49;K;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;6;J;J;I;J;457320;Mikaela Andersson;36;K;Karlskrona;Undersköterska, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;7;J;J;I;J;457321;Rickard Löfqvist;49;M;Karlshamn;Kommunanställd, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;8;J;J;I;J;453461;Adam Jansson;26;M;Karlskrona;Soldat, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;9;J;J;I;J;457330;Isabelle Engström;25;K;Karlskrona;Rekryteringskoordinator, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;10;J;J;I;J;457340;Sokol Abdullahu;43;M;Karlskrona;Målarmästare, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;11;J;J;I;J;457341;Evy Andréasson;83;K;Karlskrona;Pedagog, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;12;J;J;I;J;456204;Niklas Andersson;29;M;Karlskrona;Egen Företagare, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;13;J;J;I;J;457343;Shpresa Abdullahu;38;K;Karlskrona;Frisörska, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;14;J;J;I;J;457344;Conny Strömberg;59;M;Karlskrona;Officer, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;15;J;J;I;J;454631;Inger Åkesson;62;K;Karlskrona;Sjuksköterska, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;16;J;J;I;J;456205;Lennart Svantesson;76;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;17;J;J;I;J;457583;Suzanne Garsten Schön;54;K;Karlskrona;Lärare, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;18;J;J;I;J;454627;Erik Lindborg;66;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;19;J;J;I;J;457585;Oscar Andersson;21;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;20;J;J;I;J;457586;Per Thorngren;62;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;21;J;J;I;J;457587;Maria Jönsson Schön;52;K;Karlskrona;Lärare, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;22;J;J;I;J;457588;Markus Karlström;35;M;Karlskrona;Befälhavare Färja, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;23;J;J;I;J;457589;Ulf Sennerlin;44;M;Karlskrona;Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;24;J;J;I;J;457590;Thobias Jemjeby;44;M;Karlskrona;Logistikstrateg, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Kristdemokraterna;KD;68;S;15335;25;J;J;I;J;457591;Carl Andersson;24;M;Karlskrona;Studerande, Karlskrona;70000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;1;J;J;I;J;27603;Börje Dovstad;58;M;Karlskrona;Kommunalråd 58år Hasslö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;2;J;J;I;J;27605;Gunilla Ekelöf;74;K;Karlskrona;f.d Rektor 74år Karlskrona;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;3;J;J;I;J;27606;Stefan Lundin;69;M;Karlskrona;Projektledare 70år Rödeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;4;J;J;I;J;27607;Marianne Ehn-Thorell;45;K;Karlskrona;Specialistsjuksköterska 45år Aspö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;5;J;J;I;J;27608;Tomas Pärlklo;63;M;Karlskrona;Kriminalinspektör 63år Karlskrona;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;6;J;J;I;J;27609;Katarina Skantze;40;K;Karlskrona;Lampfabrikör 41år Karlskrona;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;7;J;J;I;J;27610;Rolf Svensson;65;M;Karlskrona;Pensionär 63år Nättraby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;8;J;J;I;J;27611;Karin Dovstad;56;K;Karlskrona;Socionom 56år Hasslö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;9;J;J;I;J;27612;Bengt Jonsson;75;M;Karlskrona;Pensionär 75år Långö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;10;J;J;I;J;66629;Charlotta Kihlbert;54;K;Karlskrona;Lärare 54år Karlskrona;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;11;J;J;I;J;27685;Lars Fisher;72;M;Karlskrona;Byggnadsingenjör 72år Aspö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;12;J;J;I;J;66631;Agneta Möller;61;K;Karlskrona;Boendehandledare funktionstödsförvaltningen 62 år Lyckeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;13;J;J;I;J;27686;Peter Christensen;61;M;Karlskrona;Systemutvecklare 62år Nättraby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;14;J;J;I;J;27687;Eva Röder;76;K;Karlskrona;76år Hästö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;15;J;J;I;J;27688;Robin Kullberg;46;M;Karlskrona;46år Karlskrona;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;16;J;J;I;J;27689;Carola Olander;77;K;Karlskrona;Pensionär 78år Kristianopel;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;17;J;J;I;J;27690;Filip Issal;38;M;Karlskrona;Samhällsentrprenör 38år Karlskrona;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;18;J;J;I;J;66659;Candida Robelo;55;K;Karlskrona;Undersköterska 55år Ramdala;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;19;J;J;I;J;27691;Per Wimmerman;66;M;Karlskrona;Personlig assistent 66år Lyckeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;20;J;J;I;J;66661;Nicole Carlbäck;43;K;Karlskrona;Lärare 43år Karlskrona;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;21;J;J;I;J;27692;Christian Svensson;30;M;Karlskrona;Sjöofficer 31år Pantarholmen;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;22;J;J;I;J;27693;Hans-Göran Håkansson;76;M;Karlskrona;Administratör 76år Hästö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;23;J;J;I;J;27712;Olle Klein;67;M;Karlskrona;67år Lyckeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Liberalerna (tidigare Folkpartiet);L;3;S;12149;24;J;J;I;J;27713;Kent Lewén;71;M;Karlskrona;f.d Kommunalråd 71år Fridlevstad;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;1;J;J;I;J;113357;Olle Hilborn;33;M;Karlskrona;33, Verksamhetschef, Jämjö;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;2;J;J;I;J;252086;Yvonne Sandberg-Fries;67;K;Karlskrona;67, F.d.riksdagsledamot, Nättraby;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;3;J;J;I;J;252087;Tommy Andersson;69;M;Karlskrona;69, Pensionär, Torhamn;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;4;J;J;I;J;113362;Madeleine Norman;28;K;Karlskrona;28, Miljövetare, Ramdala;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;5;J;J;I;J;252089;Anders Lundberg;38;M;Karlskrona;38, Samhällsplanerare, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;6;J;J;I;J;252090;Rachael Gould;35;K;Karlskrona;35, Doktorand, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;7;J;J;I;J;252091;Rickard Barkeryd;31;M;Karlskrona;30, Biolog, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;8;J;J;I;J;252092;Mia Andersson;72;K;Karlskrona;72, Pensionär, Torhamn;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;9;J;J;I;J;252093;José Espinoza;65;M;Karlskrona;65, Undersköterska, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;10;J;J;I;J;252094;Anna Kindblad;41;K;Karlskrona;41, Lärare, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;11;J;J;I;J;252095;Ulf Svahn;70;M;Karlskrona;70, Pensionär, Lyckeby;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;12;J;J;I;J;252096;Ingela Gånedahl;66;K;Karlskrona;66, Pensionär, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;13;J;J;I;J;252097;Frode Jadbrant;40;M;Karlskrona;40, Områdeschef, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;14;J;J;I;J;252098;Anna-Lena Nilsson;62;K;Karlskrona;62, Leg.sjukgymnast, Hasslö;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;15;J;J;I;J;252099;Ulf Hellgren;48;M;Karlskrona;48, Lokalvårdare, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;16;J;J;I;J;252100;Jan-Olof Andersson;73;M;Karlskrona;73, Pensionär, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;17;J;J;I;J;252101;Björn Gustavsson;68;M;Karlskrona;68, Pensionär, Nättraby;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;18;J;J;I;J;113363;Mikael Auberg;56;M;Karlskrona;56, Undersköterska, Nättraby;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;19;J;J;I;J;252103;Thomas Gustafson;73;M;Karlskrona;73, Pensionär, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;20;J;J;I;J;252104;Anita Nilsson;76;K;Karlskrona;76, Pensionär, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Miljöpartiet de gröna;MP;55;S;14274;21;J;J;I;J;252105;Jerry Österholm;53;M;Karlskrona;53, Sjöingenjör, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;1;J;J;I;J;215968;Camilla Brunsberg;46;K;Karlskrona;46, oppositionsråd, Lyckeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;2;J;J;I;J;215969;Carl-Göran Svensson;65;M;Karlskrona;65, lantbrukare, Vallby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;3;J;J;I;J;215970;Emma Swahn Nilsson;46;K;Karlskrona;46, egen företagare, Bastasjö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;4;J;J;I;J;215971;Peter Glimvall;61;M;Karlskrona;61, överstelöjtnant, Saltö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;5;J;J;I;J;215972;Anna Ottosson;39;K;Karlskrona;39, controller, Ringö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;6;J;J;I;J;215973;Morgan Kullberg;41;M;Karlskrona;41, filosofie doktor, Bredäng;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;7;J;J;I;J;215974;Sophia Ahlin;34;K;Karlskrona;34, egen företagare, Trossö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;8;J;J;I;J;215975;Julia Melander;21;K;Karlskrona;21, bitr restaurangchef, Lyckeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;9;J;J;I;J;215976;Jan Åke Nordin;60;M;Karlskrona;60, leg sjuksköterska, Trossö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;10;J;J;I;J;215977;Jan Lennartsson;54;M;Karlskrona;54, egen företagare, Sturkö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;11;J;J;I;J;215978;Emina Cejvan;64;K;Karlskrona;64, ekonom, Trossö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;12;J;J;I;J;215979;Lars Göran Forss;68;M;Karlskrona;68, egen företagare, Nättraby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;13;J;J;I;J;215980;Hanna Ekblad;37;K;Karlskrona;37, politisk sekreterare, Bastasjö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;14;J;J;I;J;215981;Anders Ovander;74;M;Karlskrona;74, fd ekonomichef, Nättraby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;15;J;J;I;J;215982;Velia Ekström;64;K;Karlskrona;64, civilingenjör, Trossö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;16;J;J;I;J;215983;Bengt Fröberg;63;M;Karlskrona;63, sjöofficer, Hästö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;17;J;J;I;J;215984;Annicka Engblom;51;K;Karlskrona;51, riksdagsledamot, Rödeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;18;J;J;I;J;215985;Torsten Palmgren;58;M;Karlskrona;58, lantmästare, Inglatorp;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;19;J;J;I;J;215986;Camilla Hansson;37;K;Karlskrona;37, lärare, Höryda;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;20;J;J;I;J;215987;Johan Hjortsberg;53;M;Karlskrona;53, sjökapten, Galgamarken;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;21;J;J;I;J;215988;Charlotta Sahlin;61;K;Karlskrona;61, hudterapeut, Karlskrona;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;22;J;J;I;J;215989;Philip Årmann;28;M;Karlskrona;28, teknisk produktägare, Trossö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;23;J;J;I;J;215990;Katarina Nordin;25;K;Karlskrona;25, student, Trossö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;24;J;J;I;J;215991;Annika Hansson;62;K;Karlskrona;62, fd advokatsekreterare, Trossö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;25;J;J;I;J;215992;Anna Stridsjö;35;K;Karlskrona;35, ekonom, Rödeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;26;J;J;I;J;215993;Birgitta Petersson Gamélius;75;K;Karlskrona;75, pensionär, Fäjö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;27;J;J;I;J;215994;Thomas Nilsson;55;M;Karlskrona;55, lantmästare, Fridlevstad;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;28;J;J;I;J;215995;Lindy Olofsson;38;K;Karlskrona;38, jobbcoach, Lyckeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;29;J;J;I;J;215996;Thomas Zeidler;52;M;Karlskrona;52, civilingenjör, Björkholmen;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;30;J;J;I;J;215997;Anders Jonasson;68;M;Karlskrona;68, fd polis, Knösö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;31;J;J;I;J;215998;Marianne Nordin;76;K;Karlskrona;76, fd försvarsanställd, Trossö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;32;J;J;I;J;215999;Gerd Sjögren;78;K;Karlskrona;78, leg tandläkare, Nättraby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;33;J;J;I;J;216000;Björn Liljekrantz;74;M;Karlskrona;74, pensionär, Trossö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;34;J;J;I;J;216001;Ann-Marie Branje;79;K;Karlskrona;79, områdeschef, Saltö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;35;J;J;I;J;216002;Adam Liedholm;18;M;Karlskrona;18, studerande, Trossö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;36;J;J;I;J;216003;Per-Erik Karlsson;40;M;Karlskrona;40, speciallärare, Trossö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;37;J;J;I;J;216004;Britt-Marie Ammer Forss;67;K;Karlskrona;67, egen företagare, Nättraby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;38;J;J;I;J;216005;Patrik Zarén;49;M;Karlskrona;49, bilplåtslagare, Jämjö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;39;J;J;I;J;216006;Johan André;53;M;Karlskrona;53, egen företagare, Vinberga;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;40;J;J;I;J;216007;Ulf Danielsson;71;M;Karlskrona;71, civilingenjör, Rödeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;41;J;J;I;J;216008;Ingemar Sunesson;65;M;Karlskrona;65, ingenjör, Lyckeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;42;J;J;I;J;216009;Anders Jakobsson;63;M;Karlskrona;63, pensionerad officer, Lyckeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;43;J;J;I;J;216010;Karin Brunsberg;82;K;Karlskrona;82, filosofie doktor, Lyckeby;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;44;J;J;I;J;216011;Marie Meijer Dahl;43;K;Karlskrona;43, socialsekreterare, Hästö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;45;J;J;I;J;216012;Annelie Ivarsson;49;K;Karlskrona;49, lantbrukare, Hejetorp;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;46;J;J;I;J;216013;Camilla Mikler;55;K;Karlskrona;55, verksamhetsutvecklare, Arnö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;47;J;J;I;J;216014;Malin Klintin;48;K;Karlskrona;48, verksamhetsanalytiker, Verkö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;48;J;J;I;J;216015;Caroline Wessel;29;K;Karlskrona;29, beteendevetare, Karlskrona;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;49;J;J;I;J;216016;Sigrid Johansson;68;K;Karlskrona;68, pensionär, Bergåsa;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;50;J;J;I;J;216017;Sviatlana Leuchuk;41;K;Karlskrona;41, grafisk designer, Sturkö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;51;J;J;I;J;216018;Henrik Persson;39;M;Karlskrona;39, officer, Verkö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;52;J;J;I;J;216019;Johan Åkesson;42;M;Karlskrona;42, it-konsult, Galgamarken;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;53;J;J;I;J;216020;Charlotte Hauffman;62;K;Karlskrona;62, civilekonom, Kettilstorp;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Moderaterna;M;1;S;13959;54;J;J;I;J;216021;Björn Abramsson;71;M;Karlskrona;71, fd polis, Sturkö;155000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;1;J;J;I;J;32936;Christopher Larsson;41;M;Karlskrona;42, Key account manager, Rödeby;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;2;J;J;I;J;32937;Lotta Antman;54;K;Karlskrona;54, Rektor, Knösö;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;3;J;J;I;J;32938;Göran Eklund;64;M;Karlskrona;64, Officer, Skavkulla;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;4;J;J;I;J;32939;Åsa Larsson;48;K;Karlskrona;48, Boendeassistent, Rödeby;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;5;J;J;I;J;32940;Ronnie Nilsson;65;M;Karlskrona;65, Forskningsassistent, Lyckeby;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;6;J;J;I;J;32941;Camilla Karlman;49;K;Karlskrona;49, Politisk sekreterare, Fridlevstad;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;7;J;J;I;J;32942;Christer Leksell;66;M;Karlskrona;66, Officer, Backabo;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;8;J;J;I;J;32943;Margaretha Jonasson;40;K;Karlskrona;40, Barnskötare, Hasslö;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;9;J;J;I;J;32944;Robert Andersson;75;M;Karlskrona;75, Skogsentreprenör, Torhamn;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;10;J;J;I;J;32945;Patrik Hult;46;M;Karlskrona;46, Butiksanställd, Ramdala;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;11;J;J;I;J;32946;Pernilla Cederholm;48;K;Karlskrona;48, Undersköterska, Nättraby;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;12;J;J;I;N;32947;[inte lämnat förklaring];;;;;295000;;N
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;13;J;J;I;J;32948;Susanne Cederholm;54;K;Karlskrona;54, Administratör, Aspö;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;14;J;J;I;J;32949;Tove Håkansson;30;K;Karlskrona;30, Barnskötare, Holmsjö;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;15;J;J;I;J;32950;Paul Cederholm;47;M;Karlskrona;47, Egenföretagare, Nättraby;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;16;J;J;I;J;32951;Kenneth Johnsson;71;M;Karlskrona;72, Pensionär, Attanäs;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;17;J;J;I;J;32952;Mariane Johansson;57;K;Karlskrona;57, Administratör, Bränteknuva;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;18;J;J;I;J;32953;Mats Mattiasson;49;M;Karlskrona;49, Maskintekniker, Fridlevstad;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;19;J;J;I;J;32954;Bente Eklund;58;K;Karlskrona;58, Cirkelledare, Skavkulla;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;20;J;J;I;J;32955;Magnus Johansson;53;M;Karlskrona;53, Lastbilschaufför, Rödeby;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;21;J;J;I;J;32956;Jan Sjöholm;59;M;Karlskrona;59, Officer, Attanäs;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;22;J;J;I;J;32957;Sanna Svennesson;29;K;Karlskrona;29, Konditor, Nättraby;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;23;J;J;I;J;32958;Anette Ivekull;46;K;Karlskrona;46, Undersköterska, Rödeby;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;24;J;J;I;J;32959;Rose-Marie Leksell;65;K;Karlskrona;65, Sångerska, Backabo;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;25;J;J;I;J;32960;Lars-Eric Persson;70;M;Karlskrona;70, Byggnadssnickare, Rödeby;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;26;J;J;I;J;32961;Lars-Olov Stenborg;64;M;Karlskrona;64, Egenföretagare, Trossö;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;27;J;J;I;J;32962;Yvonne Svennesson;61;K;Karlskrona;61, Grafiker, Nättraby;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;28;J;J;I;J;32964;Bo Hugmark;75;M;Karlskrona;75, Systemutvecklare IT, Saltö;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;29;J;J;I;J;32965;Henrik Ljungkvist;46;M;Karlskrona;46, Egenföretagare, Hasslö;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;30;J;J;I;J;32967;Benny Berglund;70;M;Karlskrona;70, Pensionär, Rödeby;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;31;J;J;I;J;32968;Tommy Cyréus;58;M;Karlskrona;58, Företagsutvecklare, Jämjö;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;32;J;J;I;J;32969;Jennie Wilén;43;K;Karlskrona;43, Ungdomsbehandlare, Lyckeby;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;33;J;J;I;J;32970;Stefan Nilsson;41;M;Karlskrona;42, Elektriker, Lindesnäs;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;34;J;J;I;J;32972;Birgitta Stenberg;67;K;Karlskrona;67, Pensionär, Trossö;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;35;J;J;I;J;32973;Ingrid Andersson;65;K;Karlskrona;65, Pensionär, Fridlevstad;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;36;J;J;I;J;32974;Tina Ulvås;56;K;Karlskrona;56, Barnskötare, Holmsjö;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;37;J;J;I;J;32975;Johan Ulvås;61;M;Karlskrona;61, Chaufför, Holmsjö;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;38;J;J;I;J;32976;Anders Mattiasson;73;M;Karlskrona;73, Elingenjör, Fridlevstad;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;39;J;J;I;J;32977;Anne-Marie Lundmark;64;K;Karlskrona;64, Förvaltningssocionom, Hässlegården;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;40;J;J;I;J;32978;Jörgen Andersson;57;M;Karlskrona;57, Chaufför, Fridlevstad;295000;;J
+K;1080;Karlskrona;03;Karlskrona C;Sverigedemokraterna;SD;110;S;12224;41;J;J;I;N;33159;[inte lämnat förklaring];;;;;295000;;N
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;1;J;J;I;J;294494;Emma Hilborn;35;K;Karlskrona;Tandläkare, Jämjö;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;2;J;J;I;J;294482;Åsa Gyberg-Karlsson;47;K;Karlskrona;Biomedicinsk analytiker, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;3;J;J;I;J;296881;Ulf Hansson;59;M;Karlskrona;Handläggare, Lyckeby;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;4;J;J;I;J;294498;Desiree Hoberg;44;K;Karlskrona;Specialistundersköterska, Ramdala;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;5;J;J;I;J;301705;Markus Ottosson;39;M;Karlskrona;Butikschef, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;6;J;J;I;J;301706;Arto Valtonen;53;M;Karlskrona;Teknikinformatör, Lyckeby;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;7;J;J;I;J;294496;Anna-Kajsa Lundberg;28;K;Karlskrona;Specialistofficer, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;8;J;J;I;J;301708;Islam Qatesh;45;M;Karlskrona;Studiehandledare, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;9;J;J;I;J;301709;Caroline Skoglöw;37;K;Karlskrona;Tatuerare med eget företag, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;10;J;J;I;J;294501;Åke Stridh;67;M;Karlskrona;Egenföretagare,Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;11;J;J;I;J;301711;Camilla Persson;52;K;Karlskrona;Socionom, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;12;J;J;I;J;296885;Jan-Olof Wahllöf;73;M;Karlskrona;Pensionerad målare, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;13;J;J;I;J;301713;Anngelica Rosén;33;K;Karlskrona;Byggnadsadministratör, Fågelmara;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;14;J;J;I;J;301715;Katarina Vastamäki;55;K;Karlskrona;Förläggare, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;15;J;J;I;J;294499;Johan Eriksson;40;M;Karlskrona;Murare, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;16;J;J;I;J;301717;Anab Abdi-Mohammed;33;K;Karlskrona;Student, Karlskrona;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;17;J;J;I;J;301718;Roland Mattisson;73;M;Karlskrona;Pensionerad socionom, Holmsjö;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;18;J;J;I;J;294483;Sara Högelius;38;K;Karlskrona;Folkhögskolelärare, Hasslö;100000;;J
+K;1080;Karlskrona;03;Karlskrona C;Vänsterpartiet;V;5;S;15368;19;J;J;I;J;301720;Reine Svensson;50;M;Karlskrona;Gymnasielärare, Karlskrona;100000;;J
