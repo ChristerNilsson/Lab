@@ -279,11 +279,13 @@ PartiPage = function (_Page) {
   _createClass(PartiPage, [{
     key: 'render',
     value: function render() {
+      var s;
       if (this.selected !== null) {
         push();
         textAlign(CENTER, CENTER);
         textSize(20); // 0.5 * pages.personer.h/17
-        text(dictionary[this.selected.title][0], pages.personer.x + pages.personer.w / 2, pages.personer.y + pages.personer.h / 34);
+        s = dictionary[this.selected.title][0] + ' (' + pages.personer.buttons.length + ' av ' + _.size(pages.personer.personer) + ')';
+        text(s, pages.personer.x + pages.personer.w / 2, pages.personer.y + pages.personer.h / 34);
         return pop();
       }
     }
@@ -319,7 +321,8 @@ PartiPage = function (_Page) {
               pages.letters.buttons = [];
               pages.personer.makePersons(this, partier[key]);
             }
-            return pages.typ.clickPartiButton(this);
+            pages.typ.clickPartiButton(this);
+            return pages.personer.personer = partier[key];
           }));
         }(key));
       }
@@ -375,7 +378,6 @@ LetterPage = function (_Page2) {
       w = this.w / 2;
       this.selected = button;
       this.buttons = [];
-      print(_.size(personer));
       i = 0;
       ref = gruppera(this.makeFreq(personer));
       results = [];
@@ -417,8 +419,9 @@ PersonPage = function (_Page3) {
       var _this6 = this;
 
       var N, h, j, k, key, keys, len, person, ref, results, w, x, y;
+      this.personer = personer;
       N = PERSONS_PER_PAGE;
-      w = 0.3 * width;
+      w = 0.36 * width;
       h = height / (PERSONS_PER_PAGE + 2);
       this.selected = button;
       button.pageNo = (button.pageNo + 1) % button.pages;
@@ -461,6 +464,7 @@ PersonPage = function (_Page3) {
       var _this7 = this;
 
       var N, h, j, k, key, keys, len, person, results, w, x, y;
+      this.personer = personer;
       N = 16;
       w = 0.3 * width;
       h = height / (PERSONS_PER_PAGE + 2);
@@ -508,27 +512,25 @@ TypPage = function (_Page4) {
     _this8.sbuttons = [];
     h = height / 51;
     _this8.yoff = [_this8.y + 0, _this8.y + 16 * h, _this8.y + 32 * h, _this8.y + 48 * h];
-    //print 'yoff',@yoff
     _this8.selectedPersons = {
       R: [],
       L: [],
       K: []
     };
-    _this8.addButton(new TypButton('R', 'Riksdag', _this8.x, _this8.yoff[0], _this8.w - 2, 3 * h - 2, function () {
+    _this8.addButton(new TypButton('R', 'Riksdag', _this8.x, _this8.yoff[0], _this8.w - 0, 3 * h - 3, function () {
       pages.partier.select(tree['R']);
       return this.page.selected = this;
     }));
-    _this8.addButton(new TypButton('L', dictionary[länskod], _this8.x, _this8.yoff[1], _this8.w - 2, 3 * h - 2, function () {
+    _this8.addButton(new TypButton('L', dictionary[länskod], _this8.x, _this8.yoff[1], _this8.w - 0, 3 * h - 3, function () {
       pages.partier.select(tree['L']);
       return this.page.selected = this;
     }));
-    _this8.addButton(new TypButton('K', dictionary[kommunkod], _this8.x, _this8.yoff[2], _this8.w - 2, 3 * h - 2, function () {
+    _this8.addButton(new TypButton('K', dictionary[kommunkod], _this8.x, _this8.yoff[2], _this8.w - 0, 3 * h - 3, function () {
       pages.partier.select(tree['K']);
       return this.page.selected = this;
     }));
-    _this8.addButton(new Button('Utskrift', _this8.x, _this8.yoff[3], _this8.w / 2 - 2, 3 * h - 2, function () {
+    _this8.addButton(new Button('Utskrift', _this8.x, _this8.yoff[3], _this8.w / 2 - 2, 3 * h - 3, function () {
       var qrcode;
-      //resizeCanvas windowWidth, windowHeight-256			
       pages.utskrift.active = true;
       qr = this.page.getQR();
       return qrcode = new QRCode(document.getElementById("qrcode"), {
@@ -540,7 +542,7 @@ TypPage = function (_Page4) {
         correctLevel: QRCode.CorrectLevel.L // Low Medium Q High
       });
     }));
-    _this8.addButton(new Button('Rensa', _this8.x + _this8.w / 2, _this8.yoff[3], _this8.w / 2 - 2, 3 * h - 2, function () {
+    _this8.addButton(new Button('Rensa', _this8.x + _this8.w / 2, _this8.yoff[3], _this8.w / 2 - 0, 3 * h - 3, function () {
       this.page.selectedPersons = {
         R: [],
         L: [],
@@ -647,8 +649,8 @@ TypPage = function (_Page4) {
           results1 = [];
           for (i = k = 0, len = persons.length; k < len; i = ++k) {
             person = persons[i];
-            x1 = this.x + 0.90 * this.w;
-            x2 = this.x + 0.95 * this.w;
+            x1 = this.x + 0.89 * this.w;
+            x2 = this.x + 0.945 * this.w;
             y1 = this.yoff[index] + 0.061 * height + i * h;
             y2 = this.yoff[index] + 0.061 * height + i * h - h / 2;
             results1.push(function (typ, i) {
@@ -714,6 +716,7 @@ TypPage = function (_Page4) {
       var button, i, j, k, l, len, len1, len2, o, person, ref, ref1, ref2, results, typ, y, y0;
       push();
       textAlign(LEFT, CENTER);
+      textSize(0.025 * height);
       ref = 'RLK';
       for (i = k = 0, len = ref.length; k < len; i = ++k) {
         typ = ref[i];
@@ -730,7 +733,7 @@ TypPage = function (_Page4) {
         if (i === 2) {
           fc(1);
         }
-        rect(this.x, y0 + 3 / 51 * height - 1, this.w - 2, 13 / 51 * height);
+        rect(this.x, y0 + 3 / 51 * height - 1, this.w - 0, 13 / 51 * height - 1);
         fc(0);
         sc();
         sw(0);
@@ -738,7 +741,6 @@ TypPage = function (_Page4) {
         for (j = l = 0, len1 = ref1.length; l < len1; j = ++l) {
           person = ref1[j];
           y = y0 + 80 + 40 * j;
-          textSize(20);
           text(j + 1 + '  ' + person[PARTIFÖRKORTNING] + ' - ' + person[NAMN], this.x + 10, y);
         }
       }
@@ -843,7 +845,7 @@ Button = function () {
     this.w = w1;
     this.h = h1;
     this.click = click1;
-    this.ts = 0.5 * this.h;
+    this.ts = 0.6 * this.h;
   }
 
   _createClass(Button, [{
@@ -949,7 +951,7 @@ LetterButton = function (_Button2) {
       results = [];
       for (k = 0, len = ref.length; k < len; k++) {
         i = ref[k];
-        if (i === this.pageNo) {
+        if (i === this.pageNo && this.page.selected === this) {
           fc(1);
         } else {
           fc(0);
@@ -1121,9 +1123,9 @@ setup = function setup() {
   readDatabase();
   print(tree);
   x0 = 0;
-  x1 = 0.2 * width;
-  x2 = 0.27 * width;
-  x3 = 0.57 * width;
+  x1 = 0.18 * width;
+  x2 = 0.28 * width;
+  x3 = 0.64 * width;
   x4 = 1.00 * width;
   pages.typ = new TypPage(x3, 0, x4 - x3, height);
   pages.partier = new PartiPage(0, 0, x1 - x0, height);

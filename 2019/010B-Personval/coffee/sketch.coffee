@@ -94,7 +94,8 @@ class PartiPage extends Page
 			push()
 			textAlign CENTER,CENTER
 			textSize 20 # 0.5 * pages.personer.h/17
-			text dictionary[@selected.title][0], pages.personer.x + pages.personer.w/2, pages.personer.y + pages.personer.h/34
+			s = "#{dictionary[@selected.title][0]} (#{pages.personer.buttons.length} av #{_.size pages.personer.personer})"
+			text s, pages.personer.x + pages.personer.w/2, pages.personer.y + pages.personer.h/34
 			pop()
 
 	select : (partier) ->
@@ -120,7 +121,8 @@ class PartiPage extends Page
 				else
 					pages.letters.buttons = []
 					pages.personer.makePersons @, partier[key]
-				pages.typ.clickPartiButton @				
+				pages.typ.clickPartiButton @	
+				pages.personer.personer = partier[key]			
 
 class LetterPage extends Page
 	render : ->
@@ -141,8 +143,6 @@ class LetterPage extends Page
 		@selected = button 
 		@buttons = []
 
-		print _.size personer
-
 		i = 0
 		for letters,n of gruppera @makeFreq personer
 			x = @x + w*(i//N)
@@ -158,8 +158,9 @@ class PersonPage extends Page
 	render : ->
 
 	clickLetterButton : (button,letters,personer) ->
+		@personer = personer
 		N = PERSONS_PER_PAGE
-		w = 0.3 * width
+		w = 0.36 * width
 		h = height/(PERSONS_PER_PAGE+2)
 		@selected = button
 		button.pageNo = (button.pageNo + 1) % button.pages
@@ -180,6 +181,7 @@ class PersonPage extends Page
 				j++
 
 	makePersons : (button, personer) ->
+		@personer = personer
 		N = 16
 		w = 0.3 * width 
 		h = height/(PERSONS_PER_PAGE+2)
@@ -206,21 +208,22 @@ class TypPage extends Page
 
 		h = height/51
 		@yoff = [@y+0,@y+16*h,@y+32*h,@y+48*h]
-		#print 'yoff',@yoff
 
 		@selectedPersons = {R:[], L:[], K:[]}
-		@addButton new TypButton 'R', 'Riksdag',             @x,@yoff[0],@w-2,3*h-2, -> 
+
+		@addButton new TypButton 'R', 'Riksdag',             @x,@yoff[0],@w-0,3*h-3, -> 
 			pages.partier.select tree['R']
 			@page.selected = @
-		@addButton new TypButton 'L', dictionary[länskod],   @x,@yoff[1],@w-2,3*h-2, ->
+
+		@addButton new TypButton 'L', dictionary[länskod],   @x,@yoff[1],@w-0,3*h-3, ->
 			pages.partier.select tree['L']
 			@page.selected = @
-		@addButton new TypButton 'K', dictionary[kommunkod], @x,@yoff[2],@w-2,3*h-2, ->
+
+		@addButton new TypButton 'K', dictionary[kommunkod], @x,@yoff[2],@w-0,3*h-3, ->
 			pages.partier.select tree['K']
 			@page.selected = @
-		@addButton new Button 'Utskrift',                    @x,@yoff[3],@w/2-2,3*h-2, ->
 
-			#resizeCanvas windowWidth, windowHeight-256			
+		@addButton new Button 'Utskrift',                    @x,@yoff[3],@w/2-2,3*h-3, ->
 			pages.utskrift.active = true
 
 			qr = @page.getQR()
@@ -231,7 +234,8 @@ class TypPage extends Page
 				colorDark : "#000000"
 				colorLight : "#ffffff"
 				correctLevel : QRCode.CorrectLevel.L # Low Medium Q High
-		@addButton new Button 'Rensa',                       @x+@w/2,@yoff[3],@w/2-2,3*h-2, -> 
+
+		@addButton new Button 'Rensa',                       @x+@w/2,@yoff[3],@w/2-0,3*h-3, -> 
 			@page.selectedPersons = {R:[], L:[], K:[]}
 			@page.sbuttons = [] 
 
@@ -291,8 +295,8 @@ class TypPage extends Page
 		for typ,persons of @selectedPersons
 			index = "RLK".indexOf typ
 			for person,i in persons
-				x1 = @x + 0.90 * @w
-				x2 = @x + 0.95 * @w
+				x1 = @x + 0.89 * @w
+				x2 = @x + 0.945 * @w
 				y1 = @yoff[index] + 0.061 * height + (i)*h
 				y2 = @yoff[index] + 0.061 * height + (i)*h-h/2
 				do (typ,i) =>
@@ -330,6 +334,7 @@ class TypPage extends Page
 	showSelectedPersons : ->
 		push()
 		textAlign LEFT,CENTER
+		textSize 0.025 * height
 		for typ,i in 'RLK'
 			sc()
 			sw 1 
@@ -338,13 +343,12 @@ class TypPage extends Page
 			if i == 0 then fc 1,1,0.5
 			if i == 1 then fc 0.5,0.75,1
 			if i == 2 then fc 1
-			rect @x,y0+3/51*height-1, @w-2, 13/51 * height
+			rect @x,y0+3/51*height-1, @w-0, 13/51 * height - 1
 			fc 0
 			sc()
 			sw 0
 			for person,j in @selectedPersons[typ]
 				y = y0 + 80 + 40*j
-				textSize 20
 				text "#{j+1}  #{person[PARTIFÖRKORTNING]} - #{person[NAMN]}",@x+10,y
 		pop()
 
@@ -393,7 +397,7 @@ class UtskriftPage extends Page
 
 class Button
 	constructor : (@title, @x,@y,@w,@h,@click = ->) ->
-		@ts = 0.5 * @h
+		@ts = 0.6 * @h
 	draw : ->
 		fc 0.5
 		push()
@@ -437,7 +441,7 @@ class LetterButton extends Button
 		if @pages <= 1 then return 
 		dx = @w//(@pages+1)
 		for i in range @pages
-			if i==@pageNo then fc 1 else fc 0
+			if i==@pageNo and @page.selected == @ then fc 1 else fc 0
 			circle @x + (i+1)*dx , @y+0.85*@h, 3  
 
 class PersonButton extends Button
@@ -529,9 +533,9 @@ setup = ->
 	print tree
 
 	x0 = 0
-	x1 = 0.2*width
-	x2 = 0.27*width
-	x3 = 0.57*width
+	x1 = 0.18*width
+	x2 = 0.28*width
+	x3 = 0.64*width
 	x4 = 1.00*width
 	pages.typ      = new TypPage     x3,0,x4-x3,height 
 	pages.partier  = new PartiPage    0,0,x1-x0,height 
