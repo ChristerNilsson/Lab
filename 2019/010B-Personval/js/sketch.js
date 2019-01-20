@@ -431,11 +431,11 @@ PersonPage = function (_Page3) {
         person = personer[key];
         if (ref = person[NAMN][0], indexOf.call(letters, ref) >= 0) {
           if (Math.floor(j / N) === button.pageNo) {
-            x = this.x;
-            y = this.y + h * (2 + j % N);
-            //print w,h
+            x = Math.floor(j / Math.floor(N / 2)) * w / 2;
+            x = x % w;
+            y = 2 * h * (1 + j % Math.floor(N / 2));
             (function (person) {
-              return _this6.addButton(new PersonButton(person, x, y, w - 2, h - 2, function () {
+              return _this6.addButton(new PersonButton(person, _this6.x + x, _this6.y + y, w / 2 - 2, 2 * h - 2, function () {
                 this.page.selected = this;
                 return pages.typ.clickPersonButton(person);
               }));
@@ -472,11 +472,11 @@ PersonPage = function (_Page3) {
       for (j = k = 0, len = keys.length; k < len; j = ++k) {
         key = keys[j];
         person = personer[key];
-        x = this.x;
-        y = this.y + h * (2 + j % PERSONS_PER_PAGE);
-        //print w,h
+        x = Math.floor(j / N) * w / 2;
+        x = x % w;
+        y = 2 * h * (1 + j % N);
         results.push(function (person) {
-          return _this7.addButton(new PersonButton(person, x, y, w - 2, h - 2, function () {
+          return _this7.addButton(new PersonButton(person, _this7.x + x, _this7.y + y, w / 2 - 2, 2 * h - 2, function () {
             this.page.selected = this;
             return pages.typ.clickPersonButton(person);
           }));
@@ -626,10 +626,11 @@ TypPage = function (_Page4) {
   }, {
     key: 'createSelectButtons',
     value: function createSelectButtons() {
-      var d, h, i, index, person, persons, ref, results, typ, w, x1, x2, y, y1, y2;
+      var dh, dw, h, i, index, person, persons, ref, results, typ, w, x1, x2, y, y1, y2;
       this.sbuttons = [];
       w = this.w;
-      d = 0.032 * height;
+      dw = 0.02 * width;
+      dh = 0.025 * height;
       h = height / 51;
       ref = this.selectedPersons;
       results = [];
@@ -643,18 +644,18 @@ TypPage = function (_Page4) {
           results1 = [];
           for (i = k = 0, len = persons.length; k < len; i = ++k) {
             person = persons[i];
-            x1 = this.x + 0.89 * this.w;
-            x2 = this.x + 0.945 * this.w;
-            y = this.yoff[index] + 4.5 * h + 13 * h / 5 * i;
-            y1 = y - 1.0 * h;
-            y2 = y - 2.3 * h;
+            x1 = this.x + dw;
+            x2 = this.x + 0.93 * this.w;
+            y = this.yoff[index] + 4.7 * h + 13 * h / 5 * i;
+            y1 = y - 2.3 * h;
+            y2 = y - 0.9 * h;
             results1.push(function (typ, i) {
               if (i > 0) {
-                _this9.addsButton(new Button('byt', x1, y2, d, d, function () {
+                _this9.addsButton(new Button('byt', x1, y1, dw, dh, function () {
                   return _this9.clickSwap(typ, i);
                 }));
               }
-              return _this9.addsButton(new Button(' x ', x2, y1, d, d, function () {
+              return _this9.addsButton(new Button(' x ', x2, y2, dw, dh, function () {
                 return _this9.clickDelete(typ, i);
               }));
             }(typ, i));
@@ -1043,11 +1044,16 @@ PersonButton = function (_Button3) {
 
     _classCallCheck(this, PersonButton);
 
-    var title;
-    title = person[NAMN] + ' - ' + person[VALSEDELSUPPGIFT];
+    var _this13 = _possibleConstructorReturn(this, (PersonButton.__proto__ || Object.getPrototypeOf(PersonButton)).call(this, person, x, y, w, h, click));
 
-    var _this13 = _possibleConstructorReturn(this, (PersonButton.__proto__ || Object.getPrototypeOf(PersonButton)).call(this, title, x, y, w, h, click));
-
+    _this13.title0 = person[NAMN];
+    _this13.title1 = person[VALSEDELSUPPGIFT];
+    if (_this13.title1 === '') {
+      _this13.title1 = {
+        M: 'Man',
+        K: 'Kvinna'
+      }[person[KÖN]] + ' ' + person[ÅLDER_PÅ_VALDAGEN] + ' \xE5r';
+    }
     _this13.person = person;
     return _this13;
   }
@@ -1057,10 +1063,12 @@ PersonButton = function (_Button3) {
     value: function draw() {
       fc(0.5);
       rect(this.x, this.y, this.w, this.h);
-      textSize(this.ts);
+      textSize(this.ts / 2);
       textAlign(LEFT, CENTER);
       fc(1);
-      return text(this.title, this.x + 2, this.y + 2 + this.h / 2);
+      text(this.title0, this.x + 2, this.y + 2 + 0.3 * this.h);
+      fc(0.75);
+      return text(this.title1, this.x + 2, this.y + 2 + 0.7 * this.h);
     }
   }]);
 

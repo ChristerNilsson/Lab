@@ -166,10 +166,10 @@ class PersonPage extends Page
 			person = personer[key]
 			if person[NAMN][0] in letters
 				if j // N == button.pageNo
-					x = @x
-					y = @y + h*(2+j%N)
-					#print w,h
-					do (person) => @addButton new PersonButton person,x,y,w-2,h-2, -> 
+					x = j//(N//2) * w/2
+					x = x % w
+					y = 2*h*(1+j%(N//2))
+					do (person) => @addButton new PersonButton person,@x+x,@y+y,w/2-2,2*h-2, -> 
 						@page.selected = @
 						pages.typ.clickPersonButton person
 				j++
@@ -186,11 +186,10 @@ class PersonPage extends Page
 		keys.sort (a,b) -> if a.slice(a.indexOf('-')) < b.slice(b.indexOf('-')) then -1 else 1
 		for key,j in keys
 			person = personer[key]
-			x = @x 
-			y = @y + h*(2 + j%PERSONS_PER_PAGE)
-			#print w,h
-
-			do (person) => @addButton new PersonButton person,x,y,w-2,h-2, -> 
+			x = j//N * w/2
+			x = x % w
+			y = 2*h*(1 + j%N)
+			do (person) => @addButton new PersonButton person,@x+x,@y+y,w/2-2,2*h-2, -> 
 				@page.selected = @
 				pages.typ.clickPersonButton person
 
@@ -287,20 +286,21 @@ class TypPage extends Page
 	createSelectButtons : ->
 		@sbuttons = []
 		w = @w
-		d = 0.032 * height
+		dw = 0.02 * width
+		dh = 0.025 * height
 		h = height/51
 
 		for typ,persons of @selectedPersons
 			index = "RLK".indexOf typ
 			for person,i in persons
-				x1 = @x + 0.89 * @w
-				x2 = @x + 0.945 * @w
-				y = @yoff[index] + 4.5*h + 13*h/5*i
-				y1 = y - 1.0 * h
-				y2 = y - 2.3 * h
+				x1 = @x + dw
+				x2 = @x + 0.93 * @w
+				y = @yoff[index] + 4.7*h + 13*h/5*i
+				y1 = y - 2.3 * h
+				y2 = y - 0.9 * h
 				do (typ,i) =>
-					if i>0 then @addsButton new Button 'byt',x1, y2,d,d, => @clickSwap   typ,i
-					@addsButton             new Button ' x ',x2, y1,d,d, => @clickDelete typ,i
+					if i>0 then @addsButton new Button 'byt',x1, y1,dw,dh, => @clickSwap   typ,i
+					@addsButton             new Button ' x ',x2, y2,dw,dh, => @clickDelete typ,i
 
 	clickPersonButton : (person) ->
 		persons = @selectedPersons[@selected.typ]
@@ -483,16 +483,20 @@ class LetterButton extends Button
 
 class PersonButton extends Button
 	constructor : (person, x,y,w,h,click = ->) ->
-		title = "#{person[NAMN]} - #{person[VALSEDELSUPPGIFT]}"
-		super title,x,y,w,h,click
+		super person,x,y,w,h,click
+		@title0 = person[NAMN]
+		@title1 = person[VALSEDELSUPPGIFT]
+		if @title1 == '' then @title1 = "#{{M:'Man', K:'Kvinna'}[person[KÖN]]} #{person[ÅLDER_PÅ_VALDAGEN]} år" 
 		@person = person
 	draw : ->
 		fc 0.5
 		rect @x,@y,@w,@h
-		textSize @ts
+		textSize @ts/2
 		textAlign LEFT,CENTER
 		fc 1
-		text @title,@x+2,@y+2+@h/2
+		text @title0,@x+2,@y+2+0.3*@h
+		fc 0.75
+		text @title1,@x+2,@y+2+0.7*@h
 
 class TypButton extends Button
 	constructor : (@typ, title,x,y,w,h,click = ->) ->
