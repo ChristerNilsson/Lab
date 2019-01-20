@@ -18,7 +18,6 @@ var ANMDELTAGANDE,
     Button,
     FOLKBOKFÖRINGSORT,
     FÖRKLARING,
-    GAP,
     GILTIG,
     KANDIDATNUMMER,
     KÖN,
@@ -57,12 +56,10 @@ var ANMDELTAGANDE,
     länskod,
     mousePressed,
     pages,
-    qr,
     readDatabase,
     setup,
     spara,
     tree,
-    utskrift,
     ÅLDER_PÅ_VALDAGEN,
     indexOf = [].indexOf;
 
@@ -116,8 +113,6 @@ GILTIG = 23;
 
 PERSONS_PER_PAGE = 32;
 
-GAP = 2;
-
 VOTES = 5;
 
 kommunkod = null;
@@ -126,17 +121,12 @@ länskod = null;
 
 tree = {};
 
-//qrcode = null
-qr = null;
-
 dictionary = {};
 
 // S -> Socialdemokraterna
 // 01 -> Stockholms läns landsting
 // 0180 -> Stockholm
 pages = {};
-
-utskrift = null;
 
 gruppera = function gruppera(letters) {
   var n = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 32;
@@ -510,6 +500,8 @@ TypPage = function (_Page4) {
     var _this8 = _possibleConstructorReturn(this, (TypPage.__proto__ || Object.getPrototypeOf(TypPage)).call(this, x, y, w, h, cols));
 
     _this8.sbuttons = [];
+    _this8.start = new Date().getTime();
+    _this8.qr = '0000000000';
     h = height / 51;
     _this8.yoff = [_this8.y + 0, _this8.y + 16 * h, _this8.y + 32 * h, _this8.y + 48 * h];
     _this8.selectedPersons = {
@@ -532,9 +524,10 @@ TypPage = function (_Page4) {
     _this8.addButton(new Button('Utskrift', _this8.x, _this8.yoff[3], _this8.w / 2 - 2, 3 * h - 3, function () {
       var qrcode;
       pages.utskrift.active = true;
-      qr = this.page.getQR();
+      pages.utskrift.stopMeasuringTime();
+      this.page.qr = this.page.getQR();
       return qrcode = new QRCode(document.getElementById("qrcode"), {
-        text: qr,
+        text: this.page.qr,
         width: 256,
         height: 256,
         colorDark: "#000000",
@@ -553,7 +546,8 @@ TypPage = function (_Page4) {
       pages.partier.clear();
       pages.letters.clear();
       pages.personer.clear();
-      return qr = '';
+      this.page.qr = '';
+      return this.page.start = new Date().getTime();
     }));
     return _this8;
   }
@@ -795,6 +789,25 @@ UtskriftPage = function (_Page5) {
   }
 
   _createClass(UtskriftPage, [{
+    key: 'stopMeasuringTime',
+    value: function stopMeasuringTime() {
+      this.crc = this.getCRC(pages.typ.qr);
+      return this.cpu = new Date().getTime() - pages.typ.start;
+    }
+  }, {
+    key: 'getCRC',
+    value: function getCRC(qr) {
+      var char, i, index, k, len, res;
+      res = 0;
+      for (i = k = 0, len = qr.length; k < len; i = ++k) {
+        char = qr[i];
+        index = '0123456789'.indexOf(char);
+        res += (i + 1) * (index + 1);
+        res %= 1000000;
+      }
+      return res;
+    }
+  }, {
     key: 'showSelectedPersons',
     value: function showSelectedPersons() {
       var i, j, k, l, len, len1, person, ref, ref1, typ, y;
@@ -821,10 +834,11 @@ UtskriftPage = function (_Page5) {
       textAlign(LEFT, CENTER);
       bg(1);
       fc(0);
-      text(qr, 20, height - 310);
       text('Riksdag', 10, 50 + 0);
       text(dictionary[länskod], 10, 50 + 260);
       text(dictionary[kommunkod], 10, 50 + 520);
+      //text pages.typ.qr,20,height-310
+      text('crc: ' + this.getCRC(pages.typ.qr.slice(10)) + ' ' + ('tid: ' + this.cpu), 20, height - 310);
       this.showSelectedPersons();
       return pages.typ.sbuttons = [];
     }
@@ -990,7 +1004,7 @@ PersonButton = function (_Button3) {
       textSize(this.ts);
       textAlign(LEFT, CENTER);
       fc(1);
-      return text(this.title, this.x + GAP, this.y + 2 + this.h / 2);
+      return text(this.title, this.x + 2, this.y + 2 + this.h / 2);
     }
   }]);
 

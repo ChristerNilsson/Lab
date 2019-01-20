@@ -25,8 +25,6 @@ VALBAR_PÅ_VALDAGEN = 22
 GILTIG = 23
 
 PERSONS_PER_PAGE = 32
-GAP = 2
-
 VOTES = 5
 
 kommunkod = null
@@ -34,16 +32,12 @@ länskod = null
 
 tree = {}
 
-#qrcode = null
-qr = null
-
 dictionary = {} 
 	# S -> Socialdemokraterna
 	# 01 -> Stockholms läns landsting
 	# 0180 -> Stockholm
 
 pages = {}
-utskrift = null
 
 gruppera = (letters,n=32) ->
 	res = {}
@@ -205,6 +199,8 @@ class TypPage extends Page
 	constructor : (x,y,w,h,cols=1) ->
 		super x,y,w,h,cols
 		@sbuttons = []
+		@start = new Date().getTime()
+		@qr= '0000000000'
 
 		h = height/51
 		@yoff = [@y+0,@y+16*h,@y+32*h,@y+48*h]
@@ -225,10 +221,11 @@ class TypPage extends Page
 
 		@addButton new Button 'Utskrift',                    @x,@yoff[3],@w/2-2,3*h-3, ->
 			pages.utskrift.active = true
+			pages.utskrift.stopMeasuringTime()
 
-			qr = @page.getQR()
+			@page.qr = @page.getQR()
 			qrcode = new QRCode document.getElementById("qrcode"),
-				text: qr
+				text: @page.qr
 				width: 256
 				height: 256
 				colorDark : "#000000"
@@ -243,7 +240,8 @@ class TypPage extends Page
 			pages.partier.clear()
 			pages.letters.clear()
 			pages.personer.clear()
-			qr = ''
+			@page.qr = ''
+			@page.start = new Date().getTime()
 
 	addsButton : (button) -> 
 		button.page = @
@@ -372,6 +370,18 @@ class UtskriftPage extends Page
 			pages.utskrift.active = false 
 			pages.typ.createSelectButtons()
 
+	stopMeasuringTime : ->
+		@crc = @getCRC pages.typ.qr
+		@cpu = new Date().getTime() - pages.typ.start
+
+	getCRC : (qr) ->
+		res = 0
+		for char,i in qr
+			index = '0123456789'.indexOf char
+			res += (i+1) * (index+1)
+			res %= 1000000
+		res
+
 	showSelectedPersons : ->
 		push()
 		textAlign LEFT,CENTER
@@ -388,10 +398,11 @@ class UtskriftPage extends Page
 		textAlign LEFT,CENTER
 		bg 1
 		fc 0
-		text qr,20,height-310
 		text 'Riksdag',            10,50+0
 		text dictionary[länskod],  10,50+260
 		text dictionary[kommunkod],10,50+520
+		#text pages.typ.qr,20,height-310
+		text "#{'crc: ' + @getCRC pages.typ.qr.slice 10} #{'tid: '+@cpu}",20,height-310
 		@showSelectedPersons()
 		pages.typ.sbuttons = []
 
@@ -455,7 +466,7 @@ class PersonButton extends Button
 		textSize @ts
 		textAlign LEFT,CENTER
 		fc 1
-		text @title,@x+GAP,@y+2+@h/2
+		text @title,@x+2,@y+2+@h/2
 
 class TypButton extends Button
 	constructor : (@typ, title,x,y,w,h,click = ->) ->
