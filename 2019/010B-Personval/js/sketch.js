@@ -705,6 +705,36 @@ TypPage = function (_Page4) {
       }
     }
   }, {
+    key: 'slumpa',
+    value: function slumpa() {
+      var name, partier, partyNames, person, results, rkl;
+      results = [];
+      for (rkl in tree) {
+        partier = tree[rkl];
+        this.selectedPersons[rkl] = [];
+        partyNames = _.sample(_.keys(partier), 5);
+        results.push(function () {
+          var k, len, results1;
+          results1 = [];
+          for (k = 0, len = partyNames.length; k < len; k++) {
+            name = partyNames[k];
+            if (random() < 0.2) {
+              person = [];
+              person[NAMN] = dictionary[name][0];
+              person[PARTIKOD] = dictionary[name][1];
+              person[PARTIFÖRKORTNING] = name;
+              person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart(4, '0');
+            } else {
+              person = _.sample(partier[name]);
+            }
+            results1.push(this.selectedPersons[rkl].push(person));
+          }
+          return results1;
+        }.call(this));
+      }
+      return results;
+    }
+  }, {
     key: 'showSelectedPersons',
     value: function showSelectedPersons() {
       var button, i, j, k, l, len, len1, len2, o, person, ref, ref1, ref2, results, typ, y, y0;
@@ -775,14 +805,22 @@ UtskriftPage = function (_Page5) {
 
     _this10.selected = null;
     _this10.buttons = [];
-    _this10.addButton(new Button('Utskrift', 100, height - 382, 270, 45, function () {
+    _this10.addButton(new Button('Utskrift', 50, height - 382, 270, 45, function () {
       return window.print();
     }));
-    _this10.addButton(new Button('Fortsätt', 400, height - 382, 270, 45, function () {
+    _this10.addButton(new Button('Fortsätt', 350, height - 382, 270, 45, function () {
       var myNode;
       myNode = document.getElementById("qrcode");
       myNode.innerHTML = '';
       pages.utskrift.active = false;
+      return pages.typ.createSelectButtons();
+    }));
+    _this10.addButton(new Button('Slump', 650, height - 382, 270, 45, function () {
+      var myNode;
+      myNode = document.getElementById("qrcode");
+      myNode.innerHTML = '';
+      pages.utskrift.active = false;
+      pages.typ.slumpa();
       return pages.typ.createSelectButtons();
     }));
     return _this10;

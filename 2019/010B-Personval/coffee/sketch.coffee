@@ -329,6 +329,21 @@ class TypPage extends Page
 			persons.push person 
 			@createSelectButtons()
 
+	slumpa : ->
+		for rkl,partier of tree
+			@selectedPersons[rkl] = []
+			partyNames = _.sample _.keys(partier),5
+			for name in partyNames
+				if random() < 0.2 
+					person = []
+					person[NAMN] = dictionary[name][0]
+					person[PARTIKOD] = dictionary[name][1]
+					person[PARTIFÖRKORTNING] = name
+					person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
+				else
+					person = _.sample partier[name]
+				@selectedPersons[rkl].push person
+	
 	showSelectedPersons : ->
 		push()
 		textAlign LEFT,CENTER
@@ -363,11 +378,17 @@ class UtskriftPage extends Page
 		super x,y,w,h
 		@selected = null
 		@buttons = []
-		@addButton new Button 'Utskrift', 100,height-382,270,45, -> window.print()
-		@addButton new Button 'Fortsätt', 400,height-382,270,45, -> 
+		@addButton new Button 'Utskrift', 50,height-382,270,45, -> window.print()
+		@addButton new Button 'Fortsätt', 350,height-382,270,45, -> 
 			myNode = document.getElementById "qrcode"
 			myNode.innerHTML = ''
 			pages.utskrift.active = false 
+			pages.typ.createSelectButtons()
+		@addButton new Button 'Slump', 650,height-382,270,45, -> 
+			myNode = document.getElementById "qrcode"
+			myNode.innerHTML = ''
+			pages.utskrift.active = false 
+			pages.typ.slumpa()
 			pages.typ.createSelectButtons()
 
 	stopMeasuringTime : ->
