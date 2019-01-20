@@ -705,27 +705,43 @@ TypPage = function (_Page4) {
       }
     }
   }, {
+    key: 'sample',
+    value: function sample(hash, n) {
+      var key;
+      return _.object(function () {
+        var k, len, ref, results;
+        ref = _.sample(_.keys(hash), n);
+        results = [];
+        for (k = 0, len = ref.length; k < len; k++) {
+          key = ref[k];
+          results.push([key, hash[key]]);
+        }
+        return results;
+      }());
+    }
+  }, {
     key: 'slumpa',
     value: function slumpa() {
-      var name, partier, partyNames, person, results, rkl;
+      var name, partier, parties, person, personer, results, rkl;
       results = [];
       for (rkl in tree) {
         partier = tree[rkl];
         this.selectedPersons[rkl] = [];
-        partyNames = _.sample(_.keys(partier), 5);
+        parties = this.sample(partier, 5);
         results.push(function () {
-          var k, len, results1;
+          var results1;
           results1 = [];
-          for (k = 0, len = partyNames.length; k < len; k++) {
-            name = partyNames[k];
+          for (name in parties) {
+            personer = parties[name];
             if (random() < 0.2) {
+              // Vote for a party
               person = [];
               person[NAMN] = dictionary[name][0];
               person[PARTIKOD] = dictionary[name][1];
               person[PARTIFÖRKORTNING] = name;
-              person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart(4, '0');
+              person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart(4, '0'); // Vote for a person
             } else {
-              person = _.sample(partier[name]);
+              person = _.sample(personer);
             }
             results1.push(this.selectedPersons[rkl].push(person));
           }

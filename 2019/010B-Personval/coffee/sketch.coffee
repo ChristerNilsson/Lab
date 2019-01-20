@@ -329,19 +329,21 @@ class TypPage extends Page
 			persons.push person 
 			@createSelectButtons()
 
+	sample : (hash,n) -> _.object ([key,hash[key]] for key in _.sample _.keys(hash),n)
+
 	slumpa : ->
 		for rkl,partier of tree
 			@selectedPersons[rkl] = []
-			partyNames = _.sample _.keys(partier),5
-			for name in partyNames
-				if random() < 0.2 
+			parties = @sample partier,5
+			for name,personer of parties
+				if random() < 0.2 # Vote for a party
 					person = []
 					person[NAMN] = dictionary[name][0]
 					person[PARTIKOD] = dictionary[name][1]
 					person[PARTIFÖRKORTNING] = name
 					person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
-				else
-					person = _.sample partier[name]
+				else # Vote for a person
+					person = _.sample personer
 				@selectedPersons[rkl].push person
 	
 	showSelectedPersons : ->
