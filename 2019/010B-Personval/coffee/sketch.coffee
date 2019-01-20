@@ -177,7 +177,7 @@ class PersonPage extends Page
 	makePersons : (button, personer) ->
 		@personer = personer
 		N = 16
-		w = 0.3 * width 
+		w = 0.36 * width 
 		h = height/(PERSONS_PER_PAGE+2)
 		@selected = button 
 		@buttons = []
@@ -286,17 +286,18 @@ class TypPage extends Page
 
 	createSelectButtons : ->
 		@sbuttons = []
-		h = height/30
 		w = @w
 		d = 0.032 * height
+		h = height/51
 
 		for typ,persons of @selectedPersons
 			index = "RLK".indexOf typ
 			for person,i in persons
 				x1 = @x + 0.89 * @w
 				x2 = @x + 0.945 * @w
-				y1 = @yoff[index] + 0.061 * height + (i)*h
-				y2 = @yoff[index] + 0.061 * height + (i)*h-h/2
+				y = @yoff[index] + 4.5*h + 13*h/5*i
+				y1 = y - 1.0 * h
+				y2 = y - 2.3 * h
 				do (typ,i) =>
 					if i>0 then @addsButton new Button 'byt',x1, y2,d,d, => @clickSwap   typ,i
 					@addsButton             new Button ' x ',x2, y1,d,d, => @clickDelete typ,i
@@ -358,12 +359,14 @@ class TypPage extends Page
 			if i == 0 then fc 1,1,0.5
 			if i == 1 then fc 0.5,0.75,1
 			if i == 2 then fc 1
-			rect @x,y0+3/51*height-1, @w-0, 13/51 * height - 1
+			h = height/51
+			rect @x, y0+3*h-1, @w, 13*h-1
 			fc 0
 			sc()
 			sw 0
+			
 			for person,j in @selectedPersons[typ]
-				y = y0 + 80 + 40*j
+				y = y0 + 4.5*h + 13*h/5*j
 				text "#{j+1}  #{person[PARTIFÖRKORTNING]} - #{person[NAMN]}",@x+10,y
 		pop()
 

@@ -456,7 +456,7 @@ PersonPage = function (_Page3) {
       var N, h, j, k, key, keys, len, person, results, w, x, y;
       this.personer = personer;
       N = 16;
-      w = 0.3 * width;
+      w = 0.36 * width;
       h = height / (PERSONS_PER_PAGE + 2);
       this.selected = button;
       this.buttons = [];
@@ -626,11 +626,11 @@ TypPage = function (_Page4) {
   }, {
     key: 'createSelectButtons',
     value: function createSelectButtons() {
-      var d, h, i, index, person, persons, ref, results, typ, w, x1, x2, y1, y2;
+      var d, h, i, index, person, persons, ref, results, typ, w, x1, x2, y, y1, y2;
       this.sbuttons = [];
-      h = height / 30;
       w = this.w;
       d = 0.032 * height;
+      h = height / 51;
       ref = this.selectedPersons;
       results = [];
       for (typ in ref) {
@@ -645,8 +645,9 @@ TypPage = function (_Page4) {
             person = persons[i];
             x1 = this.x + 0.89 * this.w;
             x2 = this.x + 0.945 * this.w;
-            y1 = this.yoff[index] + 0.061 * height + i * h;
-            y2 = this.yoff[index] + 0.061 * height + i * h - h / 2;
+            y = this.yoff[index] + 4.5 * h + 13 * h / 5 * i;
+            y1 = y - 1.0 * h;
+            y2 = y - 2.3 * h;
             results1.push(function (typ, i) {
               if (i > 0) {
                 _this9.addsButton(new Button('byt', x1, y2, d, d, function () {
@@ -753,7 +754,7 @@ TypPage = function (_Page4) {
   }, {
     key: 'showSelectedPersons',
     value: function showSelectedPersons() {
-      var button, i, j, k, l, len, len1, len2, o, person, ref, ref1, ref2, results, typ, y, y0;
+      var button, h, i, j, k, l, len, len1, len2, o, person, ref, ref1, ref2, results, typ, y, y0;
       push();
       textAlign(LEFT, CENTER);
       textSize(0.025 * height);
@@ -773,14 +774,15 @@ TypPage = function (_Page4) {
         if (i === 2) {
           fc(1);
         }
-        rect(this.x, y0 + 3 / 51 * height - 1, this.w - 0, 13 / 51 * height - 1);
+        h = height / 51;
+        rect(this.x, y0 + 3 * h - 1, this.w, 13 * h - 1);
         fc(0);
         sc();
         sw(0);
         ref1 = this.selectedPersons[typ];
         for (j = l = 0, len1 = ref1.length; l < len1; j = ++l) {
           person = ref1[j];
-          y = y0 + 80 + 40 * j;
+          y = y0 + 4.5 * h + 13 * h / 5 * j;
           text(j + 1 + '  ' + person[PARTIFÖRKORTNING] + ' - ' + person[NAMN], this.x + 10, y);
         }
       }
