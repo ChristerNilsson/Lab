@@ -1,187 +1,67 @@
-K;0513;Kinda;00;Kinda Kommun;20% skattepartiet;;1365;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Allians för Sverige;;1423;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;1;J;J;I;J;44666;Hans Måhagen;66;M;Kinda;kommunalråd, Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;2;J;J;I;J;44667;Ing-Britt Andersson;81;K;Kinda;f.d.undersköterska, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;3;J;J;I;J;44668;Ulf Johansson;54;M;Kinda;kommunanställd, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;4;J;J;I;J;44669;Conny Forsberg;57;M;Kinda;v. förbundsdirektör, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;5;J;J;I;J;44670;Else-Marie Frisk;76;K;Kinda;skötare, Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;6;J;J;I;J;44823;Roger Rydström;69;M;Kinda;pensionär, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;7;J;J;I;J;44824;Magnus Lidén;50;M;Kinda;företagare, Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;8;J;J;I;J;44825;Anna Eklund;44;K;Kinda;undersköterska, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;9;J;J;I;J;44826;Morgan Wass;50;M;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;10;J;J;I;J;44827;Göran Ulván;60;M;Kinda;Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;11;J;J;I;J;44828;Zara Hagström;31;K;Kinda;Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;12;J;J;I;J;44840;Torbjörn Mellgren;61;M;Kinda;kontrollant, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;13;J;J;I;J;44841;Emil Thuresson;31;M;Kinda;biblioteksassistent, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;14;J;J;I;J;44842;Susanne Karlsson;56;K;Kinda;ekonomiadministratör, Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;15;J;J;I;J;44843;Sigvard Olsson;79;M;Kinda;f.d. banktjänsteman, Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;16;J;J;I;J;78181;Marie Thuresson;60;K;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;17;J;J;I;J;78182;Bo Ohlsson;68;M;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;18;J;J;I;J;78183;Karin Almlöf;59;K;Kinda;konstnär, Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;19;J;J;I;J;78184;Nickolaus Tataridis;47;M;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;20;J;J;I;J;78185;Ingela Brixlin;61;K;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;21;J;J;I;J;78186;Linus Nilsson;27;M;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;22;J;J;I;J;78187;Ann Hultén Nygren;46;K;Kinda;fritidsledare, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;23;J;J;I;J;78188;Robert Wass;23;M;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;24;J;J;I;J;78189;Gisela Anderö;57;K;Kinda;maskinoperatör, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;25;J;J;I;J;78345;Risto Laine;68;M;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;26;J;J;I;J;78346;Jenny Leander;23;K;Kinda;teaterpedagog, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;27;J;J;I;J;78347;Evert Johansson;71;M;Kinda;VD, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12385;28;J;J;I;J;78348;Torbjörn Gustavsson;68;M;Kinda;pensionär, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;ASYL.NUPARTIET;;1420;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Basinkomstpartiet;;1372;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Bg-Demokrati;;1375;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;1;J;J;I;J;41673;Rickard Lindh;54;M;Kinda;54 år, Chaufför, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;2;J;J;I;J;41674;Karin Ekholm;51;K;Kinda;51 år, Lokalvårdare, Horn;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;3;J;J;I;J;14337;Joakim Klasson;51;M;Kinda;51 år, Verktygsmakare, Tidersrum;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;4;J;J;I;J;41678;Wolldurf Skallbom;56;M;Kinda;56 år, Hästentreprenör, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;5;J;J;I;J;12035;Anders Ljung;62;M;Kinda;62 år, Entreprenör, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;6;J;J;I;J;41680;Tore Olsson;69;M;Kinda;68 år, Pensionär, Gärdala;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;7;J;J;I;J;41679;Marita Wolf;59;K;Kinda;59 år, Lantbrukare, Hägerstad;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;8;J;J;I;J;72006;David Oscarsson;47;M;Kinda;47 år, Lantmästare, Årteryd;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;9;J;J;I;J;41681;Karin S Ljung;25;K;Kinda;25 år, Lärare, Horn;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;10;J;J;I;J;41676;Evelina Lindh;22;K;Kinda;22 år, Studerande, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;11;J;J;I;J;72009;Lottha Ed;56;K;Kinda;56 år, Undersköterska, Horn;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;12;J;J;I;J;72010;Magnus Peterson;51;M;Kinda;51 år, Områdeschef, Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;13;J;J;I;J;41682;Göran Nilsson;58;M;Kinda;58 år, Lantbrukare, Hycklinge;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;14;J;J;I;J;41683;Sven-Erik Lindholm;60;M;Kinda;60 år, Vårdbiträde, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;15;J;J;I;J;41684;Carl-Inge Gustafsson;69;M;Kinda;69 år, Hägerstad;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;16;J;J;I;J;41685;Britt-Marie Lindholm;71;K;Kinda;71 år, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;17;J;J;I;J;41686;Karl Ekholm;82;M;Kinda;82 år, Horn;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Centerpartiet;C;4;S;12354;18;J;J;I;J;41687;Göran Olsson;79;M;Kinda;79 år, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Common sense in Sweden;CSIS;1318;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Demokrati Sverige;;1387;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Demokratirörelsen;;1314;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Det nya partiet;;1351;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Europeiska Arbetarpartiet-EAP;EAP;29;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Feministiskt initiativ;FI;532;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Final Partiet;;1329;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Folkhemmet Sverige;;1388;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Folkstyret;;1317;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Generation Utveckling;;1406;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Gula Partiet;Gup;1173;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Humandemokraterna;HumDe;1176;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;iGov.Direct®;;1316;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Initiativet;;1374;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;iP-IDROTTSPARTIET-Rädda Stadshagens IP!;iP;1416;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Kosmopolitiska Partiet;;1405;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Kristdemokraterna;KD;68;S;14260;1;J;J;I;J;251065;Lena Käcker Johansson;53;K;Kinda;Distriktssköterska, Rimforsa;20000;;J
-K;0513;Kinda;00;Kinda Kommun;Kristdemokraterna;KD;68;S;14260;2;J;J;I;J;251066;Börje Karlsson;68;M;Kinda;Lantbrukare, Horn;20000;;J
-K;0513;Kinda;00;Kinda Kommun;Kristdemokraterna;KD;68;S;14260;3;J;J;I;J;251067;Minka Eriksson;69;K;Kinda;Arbetsterapeut, Kisa;20000;;J
-K;0513;Kinda;00;Kinda Kommun;Kristdemokraterna;KD;68;S;14260;4;J;J;I;J;251068;Ingevald Abrahamsson;70;M;Kinda;Forskningsingenjör, Rimforsa;20000;;J
-K;0513;Kinda;00;Kinda Kommun;Kristdemokraterna;KD;68;S;14260;5;J;J;I;J;251069;Marita Forsman;62;K;Kinda;Fritidsledare, Rimforsa;20000;;J
-K;0513;Kinda;00;Kinda Kommun;Kristdemokraterna;KD;68;S;14260;6;J;J;I;J;251070;Tobias Jansson;46;M;Kinda;Gymnasielärare, Rimforsa;20000;;J
-K;0513;Kinda;00;Kinda Kommun;Kristdemokraterna;KD;68;S;14260;7;J;J;I;J;251071;Anna Karlsson;58;K;Kinda;Undersköterska, Horn;20000;;J
-K;0513;Kinda;00;Kinda Kommun;Kristdemokraterna;KD;68;S;14260;8;J;J;I;J;251072;Kalle Sandell;65;M;Kinda;Bussförare, Kisa;20000;;J
-K;0513;Kinda;00;Kinda Kommun;Kristdemokraterna;KD;68;S;14260;9;J;J;I;J;251073;Elisabeth Landerholm;37;K;Kinda;Inredare, Rimforsa;20000;;J
-K;0513;Kinda;00;Kinda Kommun;Kristdemokraterna;KD;68;S;14260;10;J;J;I;J;251074;Anders Olaison;68;M;Kinda;Pastor, Kisa;20000;;J
-K;0513;Kinda;00;Kinda Kommun;Kristdemokraterna;KD;68;S;14260;11;J;J;I;J;251075;Brittinger Petersson;56;K;Kinda;Lantbrukare, Kisa;20000;;J
-K;0513;Kinda;00;Kinda Kommun;Kristdemokraterna;KD;68;S;14260;12;J;J;I;J;251076;Fredrik Topplund;37;M;Linköping;Politisk sekreterare, Linköping;20000;;J
-K;0513;Kinda;00;Kinda Kommun;Kristdemokraterna;KD;68;S;14260;13;J;J;I;J;251077;Asha Sandell;45;K;Kinda;Undersköterska, Kisa;20000;;J
-K;0513;Kinda;00;Kinda Kommun;Kristna Värdepartiet;KrVP;1140;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Landsbygdspartiet Oberoende;LPo;1011;S;13225;1;J;J;I;J;123803;Pierre Ländell;54;M;Kinda;54 år Underhållschef Hycklinge;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Landsbygdspartiet Oberoende;LPo;1011;S;13225;2;J;J;I;J;123837;David Wenhov;52;M;Kinda;52 år Företagare Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Landsbygdspartiet Oberoende;LPo;1011;S;13225;3;J;J;I;J;124127;Daniel Braat;40;M;Kinda;40 år Företagare Horn;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Landsbygdspartiet Oberoende;LPo;1011;S;13225;4;J;J;I;J;124128;Ulrik Saanum;56;M;Kinda;56 år Egenföretagare Björkfors;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Landsbygdspartiet Oberoende;LPo;1011;S;13225;5;J;J;I;J;124133;Tina Malm;44;K;Kinda;44 år Undersköterska Hycklinge;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Landsbygdspartiet Oberoende;LPo;1011;S;13225;6;J;J;I;J;124175;Helena Ringdahl;45;K;Kinda;45 år Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Landsbygdspartiet Oberoende;LPo;1011;S;13225;7;J;J;I;J;124176;Fredrik Rankleven;52;M;Kinda;52 år Handledare Hycklinge;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Liberalerna (tidigare Folkpartiet);L;3;S;14225;1;J;J;I;J;49184;Lars Karlsson;45;M;Kinda;oppositionsråd, 45 år;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Liberalerna (tidigare Folkpartiet);L;3;S;14225;2;J;J;I;J;248136;Mikael Österling;31;M;Kinda;fastighetsmäklare, 31 år;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Liberalerna (tidigare Folkpartiet);L;3;S;14225;3;J;J;I;J;248137;Veronica Gullbrandsson;42;K;Kinda;guldsmed, 42 år;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Liberalerna (tidigare Folkpartiet);L;3;S;14225;4;J;J;I;J;248138;Sofie Rydell;44;K;Kinda;privatrådgivare, 44 år;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Liberalerna (tidigare Folkpartiet);L;3;S;14225;5;J;J;I;J;248139;Nils-Gunnar Wenhov;76;M;Kinda;pastor, 76 år;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Liberalerna (tidigare Folkpartiet);L;3;S;14225;6;J;J;I;J;248140;Jörgen Nord;41;M;Kinda;civilekonom, 41 år;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Liberalerna (tidigare Folkpartiet);L;3;S;14225;7;J;J;I;J;248141;Maria Levin;41;K;Kinda;major, 41 år;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Liberalerna (tidigare Folkpartiet);L;3;S;14225;8;J;J;I;J;248142;Johan Henriksson;36;M;Kinda;träningskoordinator, 36 år;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Liberalerna (tidigare Folkpartiet);L;3;S;14225;9;J;J;I;J;248143;Jan Österling;41;M;Kinda;företagare, 41 år;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Liberalerna (tidigare Folkpartiet);L;3;S;14225;10;J;J;I;J;248144;Andy Finney;53;M;Kinda;maskinförare, 53 år;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Liberalerna (tidigare Folkpartiet);L;3;S;14225;11;J;J;I;J;248145;Mikael Karlsson;23;M;Kinda;montör, 23 år;24000;;J
-K;0513;Kinda;00;Kinda Kommun;LOTTOKRATIN;;518;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;LÅNGEN&CO;;1345;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Medborgarresan;;1330;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Miljöpartiet de gröna;MP;55;S;15224;1;J;J;I;J;415597;Pontus Wessman;52;M;Kinda;53, Företagare, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Miljöpartiet de gröna;MP;55;S;15224;2;J;J;I;J;419795;Christina Karlsson;57;K;Kinda;57, Kommunikatör, Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Miljöpartiet de gröna;MP;55;S;15224;3;J;J;I;J;419796;Claes Brandén;70;M;Kinda;70, Folkbildare, Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Miljöpartiet de gröna;MP;55;S;15224;4;J;J;I;J;419797;Margareta Holm;61;K;Kinda;61, Biolog, Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Miljöpartiet de gröna;MP;55;S;15224;5;J;J;I;J;419798;Markus Hall;46;M;Kinda;46, Programmerare, Oppeby;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Miljöpartiet de gröna;MP;55;S;15224;6;J;J;I;J;419799;Therese Görling;41;K;Kinda;41, Lärare, Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Miljöpartiet de gröna;MP;55;S;15224;7;J;J;I;J;419800;Per-Inge Ypevik;69;M;Kinda;69, Egenföretagare, Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Miljöpartiet de gröna;MP;55;S;15224;8;J;J;I;J;419801;Sanna Brynolf;41;K;Kinda;41, Arkitekt, Söderö;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Miljöpartiet de gröna;MP;55;S;15224;9;J;J;I;J;419802;Lena Runadotter;41;K;Kinda;41, Fritidsledare, Oppeby;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Miljöpartiet de gröna;MP;55;S;15224;10;J;J;I;J;419803;Jan Kindesjö;56;M;Kinda;56, Ekonom, Horn;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Miljöpartiet de gröna;MP;55;S;15224;11;J;J;I;J;419804;Charlotte Rydström;54;K;Kinda;54, Handledare, Horn;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;1;J;J;I;J;12899;Björn Hoflund;63;M;Kinda;Björkfors;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;2;J;J;I;J;12897;Mona Damm;57;K;Kinda;Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;3;J;J;I;J;3328;Christer Segerstéen;68;M;Kinda;Kättilstad;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;4;J;J;I;J;25688;Anne Bergman Gustavsson;63;K;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;5;J;J;I;J;25689;Göran Lindgren;75;M;Kinda;Horn;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;6;J;J;I;J;25690;Malin Svensson;50;K;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;7;J;J;I;J;25691;Gustav Svensson;39;M;Kinda;Horn;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;8;J;J;I;J;25692;Siw Nordin;73;K;Kinda;Tidersrum;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;9;J;J;I;J;25693;Johan Igheimer;50;M;Kinda;Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;10;J;J;I;J;25694;Charlotte Storckenfeldt;72;K;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;11;J;J;I;J;25695;Anders Vaernéus;45;M;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;12;J;J;I;J;25696;Ann-Kathrine Segersteén;67;K;Kinda;Kättilstad;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;13;J;J;I;J;25697;Mats Ödgård;68;M;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;14;J;J;I;J;25698;Thomas Fransson;59;M;Kinda;Rimforsa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;15;J;J;I;J;25699;Gösta Gustafsson;70;M;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Moderaterna;M;1;S;12114;16;J;J;I;J;25700;Carl-Henrik Nilsson;64;M;Kinda;Kisa;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Modern Sweden;;1380;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Norrlandspartiet;;1378;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;NPP Nya Pensions Partiet;;1399;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;numen kärlekspartiet;;1415;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;NY REFORM;;1385;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Nya bjornska partiet;;1418;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;nya Ny Demokrati;;1391;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Papepartiet;;1408;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Partiet Folkomröstning;;1371;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;POPULISTERNA;;1347;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Raggarpartiet;;1389;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Reformist Neutral Partiet;RNP;1202;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Rosa Drömmar;;1409;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Sjöbopartiet;SJP;172;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Skolpartiet Göteborg;;1397;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Sociala Partiet (SP);;522;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;SOCIALLIBERALERNA;;1421;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Spektral demokrati;;1376;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Svensk Jobbdemokrati;;1414;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Sverige ut ur EU/Frihetliga Rättvisepartiet (FRP);;1384;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Sverigedemokraterna;SD;110;S;12905;1;J;J;I;J;79784;Christina Nilsson;62;K;Kinda;62, beteendevetare;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Sverigedemokraterna;SD;110;S;12905;2;J;J;I;J;79785;Christian Nordin Olsson;30;M;Kinda;30, administratör;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Sverigedemokraterna;SD;110;S;12905;3;J;J;I;J;79786;Peter Nilsson;53;M;Kinda;53, kommunelektriker;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Sverigedemokraterna;SD;110;S;12905;4;J;J;I;J;79787;Mikael Lindell;52;M;Kinda;52, företagare;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Sverigedemokraterna;SD;110;S;12905;5;J;J;I;J;79788;Marcus Edgar;35;M;Kinda;35, mekaniker;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Sverigedemokraterna;SD;110;S;12905;6;J;J;I;J;79789;Mats Åsenfalk;45;M;Kinda;45, transmissionsingenjör;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Sverigedemokraterna;SD;110;S;12905;7;J;J;I;J;79790;Sigge Bergqvist;54;M;Kinda;54, byggnadsarbetare;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Sverigedemokraterna;SD;110;S;12905;8;J;J;I;J;79791;Tobias Ivarsson;31;M;Kinda;31, industriarbetare;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Sverigedemokraterna;SD;110;S;12905;9;J;J;I;J;79792;Annelie Striem;38;K;Kinda;38, maskinoperatör;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Sverigedemokraterna;SD;110;S;12905;10;J;J;I;J;79793;Bo Glännbring;54;M;Kinda;54, företagare;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Sverigedemokraterna;SD;110;S;12905;11;J;J;I;J;79794;Magnus Edgar;43;M;Kinda;43, CNC-operatör;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Sverigedemokraterna;SD;110;S;12905;12;J;J;I;J;160713;Reino Edgar;71;M;Kinda;71, pensionär;24000;;J
-K;0513;Kinda;00;Kinda Kommun;Sverigepartiet;;1396;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Sveriges Kommunistiska Parti (SKP);SKP;1063;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Technopartiet;;1400;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Tryggare Sverige;;1328;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Utveckling och Progressiv för Sverige partiet (U.P.S);;1386;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;VALDI2018;;1422;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Valsamverkanspartiet;;1332;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Vi Socialkonservativa;ViS;1349;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Visiona;;1417;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Vårt land - Sverige;;1412;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Vägvalet;VägV;1138;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Vänsterpartiet;V;5;S;12884;1;J;J;I;J;71575;Anders Lind;69;M;Kinda;68, Kisa;12000;;J
-K;0513;Kinda;00;Kinda Kommun;Vänsterpartiet;V;5;S;12884;2;J;J;I;J;78605;Kicki Stridh;64;K;Kinda;65, Kisa;12000;;J
-K;0513;Kinda;00;Kinda Kommun;Vänsterpartiet;V;5;S;12884;3;J;J;I;J;78606;Erik Andersson;32;M;Kinda;32, Kisa;12000;;J
-K;0513;Kinda;00;Kinda Kommun;Vänsterpartiet;V;5;S;12884;4;J;J;I;J;78607;Maj-Viol Thostrup;68;K;Kinda;68, Rimforsa;12000;;J
-K;0513;Kinda;00;Kinda Kommun;Vänsterpartiet;V;5;S;12884;5;J;J;I;J;78608;Delzar Kaf;33;M;Kinda;33, Kisa;12000;;J
-K;0513;Kinda;00;Kinda Kommun;Vänsterpartiet;V;5;S;12884;6;J;J;I;J;75522;Peter Wellerfors;65;M;Kinda;65, Rimforsa;12000;;J
-K;0513;Kinda;00;Kinda Kommun;Vänsterpartiet;V;5;S;12884;7;J;J;I;J;75521;Björn Morell;66;M;Kinda;66, Kisa;12000;;J
-K;0513;Kinda;00;Kinda Kommun;Vänsterpartiet;V;5;S;12884;8;J;J;I;J;78611;Monika Johansson;53;K;Kinda;53, Rimforsa;12000;;J
-K;0513;Kinda;00;Kinda Kommun;Vänsterpartiet;V;5;S;12884;9;J;J;I;J;78613;Axel Morell;22;M;Kinda;23, Kisa;12000;;J
-K;0513;Kinda;00;Kinda Kommun;Vänsterpartiet;V;5;S;12884;10;J;J;I;J;78614;Linus Stridh;31;M;Kinda;31, Rimforsa;12000;;J
-K;0513;Kinda;00;Kinda Kommun;Vänsterpartiet;V;5;S;12884;11;J;J;I;J;78615;Asad Mohamuud;19;M;Kinda;19, Kisa;12000;;J
-K;0513;Kinda;00;Kinda Kommun;Vänsterpartiet;V;5;S;12884;12;J;J;I;J;75524;Barbro Svensk;74;K;Kinda;74, Rimforsa;12000;;J
-K;0513;Kinda;00;Kinda Kommun;Vänsterpartiet;V;5;S;12884;13;J;J;I;J;78618;Roger Nyman;61;M;Kinda;61, Rimforsa;12000;;J
-K;0513;Kinda;00;Kinda Kommun;Äkta demokrati;;1407;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
-K;0513;Kinda;00;Kinda Kommun;Ändrings partiet revolution;;1404;;;;N;J;J;I;509130;Janssen, Marijn Ingmar Lorenzo;21;M;Kinda;;0;;J
+1365|509130
+1423|509130
+2|44666|44667|44668|44669|44670|44823|44824|44825|44826|44827|44828|44840|44841|44842|44843|78181|78182|78183|78184|78185|78186|78187|78188|78189|78345|78346|78347|78348
+1420|509130
+1372|509130
+1375|509130
+4|41673|41674|14337|41678|12035|41680|41679|72006|41681|41676|72009|72010|41682|41683|41684|41685|41686|41687
+1318|509130
+1387|509130
+1314|509130
+1351|509130
+29|509130
+532|509130
+1329|509130
+1388|509130
+1317|509130
+1406|509130
+1173|509130
+1176|509130
+1316|509130
+1374|509130
+1416|509130
+1405|509130
+68|251065|251066|251067|251068|251069|251070|251071|251072|251073|251074|251075|251076|251077
+1140|509130
+1011|123803|123837|124127|124128|124133|124175|124176
+3|49184|248136|248137|248138|248139|248140|248141|248142|248143|248144|248145
+518|509130
+1345|509130
+1330|509130
+55|415597|419795|419796|419797|419798|419799|419800|419801|419802|419803|419804
+1|12899|12897|3328|25688|25689|25690|25691|25692|25693|25694|25695|25696|25697|25698|25699|25700
+1380|509130
+1378|509130
+1399|509130
+1415|509130
+1385|509130
+1418|509130
+1391|509130
+1408|509130
+1371|509130
+1347|509130
+1389|509130
+1202|509130
+1409|509130
+172|509130
+1397|509130
+522|509130
+1421|509130
+1376|509130
+1414|509130
+1384|509130
+110|79784|79785|79786|79787|79788|79789|79790|79791|79792|79793|79794|160713
+1396|509130
+1063|509130
+1400|509130
+1328|509130
+1386|509130
+1422|509130
+1332|509130
+1349|509130
+1417|509130
+1412|509130
+1138|509130
+5|71575|78605|78606|78607|78608|75522|75521|78611|78613|78614|78615|75524|78618
+1407|509130
+1404|509130

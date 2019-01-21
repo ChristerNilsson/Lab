@@ -1,67 +1,7 @@
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;1;J;J;I;J;142606;Hans Jildesten;50;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;2;J;J;I;J;75685;Christina Skogström;33;K;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;3;J;J;I;J;142740;Glenn Aspnes;47;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;4;J;J;I;J;73960;Eva-Lotta Härdig Eriksson;51;K;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;5;J;J;I;J;142742;Thomas Backelin;67;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;6;J;J;I;J;142743;Ingrid Resare;74;K;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;7;J;J;I;J;142744;Lennart Johansson;67;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;8;J;J;I;J;142745;Desirée Lavén;31;K;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;9;J;J;I;J;142746;Christoffer Andersson;30;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;10;J;J;I;J;143019;Aurea Rioflorido Karlsson;59;K;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;11;J;J;I;J;143020;Steve Nilsson;76;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;12;J;J;I;J;76150;Birgitta Viberg;56;K;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;13;J;J;I;J;143022;Leif B Persson;62;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;14;J;J;I;J;143023;Cassandra Östlund;22;K;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;15;J;J;I;J;143024;Urban Lavén;61;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;16;J;J;I;J;143176;Janina Hjälm;61;K;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;17;J;J;I;J;143177;Thobias Backelin;40;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;18;J;J;I;J;143178;Natchaya Wirathoon;46;K;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;19;J;J;I;J;143360;Kenneth Hjälm;64;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;20;J;J;I;J;143361;Ann-Sofie Hofling;42;K;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;21;J;J;I;J;143362;Vidar Sandell;55;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;22;J;J;I;J;143363;George Nordin;69;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;23;J;J;I;J;77483;Asem Zaidan;49;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;24;J;J;I;J;143495;Mika Uutela;46;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;25;J;J;I;J;143496;Anders Sjöberg Backelin;22;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Arbetarepartiet-Socialdemokraterna;S;2;S;15414;26;J;J;I;J;143497;Patrik Hedenström;55;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Centerpartiet;C;4;S;14749;1;J;J;I;J;330090;Håkan Larsson;58;M;Storfors;Egenföretagare, Bjurtjärn;10000;;J
-K;1760;Storfors;00;Storfors;Centerpartiet;C;4;S;14749;2;J;J;I;J;330091;Ingrid Andersson;72;K;Storfors;Lärare, Bjurtjärn;10000;;J
-K;1760;Storfors;00;Storfors;Centerpartiet;C;4;S;14749;3;J;J;I;J;330092;Birgitta Hagström;74;K;Storfors;Elevassistent, Kväggeshyttan;10000;;J
-K;1760;Storfors;00;Storfors;Centerpartiet;C;4;S;14749;4;J;J;I;J;330093;Mikael Lind;49;M;Storfors;Skogsägare/Transportledare, Kväggen;10000;;J
-K;1760;Storfors;00;Storfors;Centerpartiet;C;4;S;14749;5;J;J;I;J;330097;Sebastian Holm;34;M;Storfors;Egenföretagare, Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Centerpartiet;C;4;S;14749;6;J;J;I;J;330094;Johan Järlestedt;59;M;Storfors;Instruktör, Kväggeshyttan;10000;;J
-K;1760;Storfors;00;Storfors;Centerpartiet;C;4;S;14749;7;J;J;I;J;330095;Britta Jansson;80;K;Storfors;Sjuksköterska, Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Centerpartiet;C;4;S;14749;8;J;J;I;J;330096;Hans Lindqvist;70;M;Storfors;Revisor/Lantbrukare, Lungsund;10000;;J
-K;1760;Storfors;00;Storfors;Kristdemokraterna;KD;68;S;14567;1;J;J;I;J;292386;Monica Ståhl;72;K;Storfors;adjunkt;3000;;J
-K;1760;Storfors;00;Storfors;Moderaterna;M;1;S;12838;1;J;J;I;J;76435;Andris Viduss;76;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Moderaterna;M;1;S;12838;2;J;J;I;J;76436;Peter Farrington;70;M;Storfors;Bjurtjärn;10000;;J
-K;1760;Storfors;00;Storfors;Moderaterna;M;1;S;12838;3;J;J;I;J;76437;Lars Johrin;74;M;Storfors;Lundsberg;10000;;J
-K;1760;Storfors;00;Storfors;Moderaterna;M;1;S;12838;4;J;J;I;J;76438;Emil Larsson;26;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Moderaterna;M;1;S;12838;5;J;J;I;J;76439;Stefan Larsson;51;M;Storfors;Storfors;10000;;J
-K;1760;Storfors;00;Storfors;Moderaterna;M;1;S;12838;6;J;J;I;J;76440;Marian Väpnargård;74;K;Storfors;Bjurtjärn;10000;;J
-K;1760;Storfors;00;Storfors;Moderaterna;M;1;S;12838;7;J;J;I;J;76441;Christopher Johrin;44;M;Storfors;Lundsberg;10000;;J
-K;1760;Storfors;00;Storfors;Storforsdemokraterna;StDe;1402;S;15842;1;N;J;J;I;125601;Urban Persson;61;M;Storfors;61 år, fastighetsförvaltare;10000;;J
-K;1760;Storfors;00;Storfors;Storforsdemokraterna;StDe;1402;S;15842;2;N;J;J;I;512544;Kjell Andbjörk;67;M;Storfors;67 år, åkare;10000;;J
-K;1760;Storfors;00;Storfors;Storforsdemokraterna;StDe;1402;S;15842;3;N;J;J;I;512545;Karl-Siverth Wallden;51;M;Storfors;51 år, lantarbetare;10000;;J
-K;1760;Storfors;00;Storfors;Storforsdemokraterna;StDe;1402;S;15842;4;N;J;J;I;512546;Erik Halldorf;47;M;Storfors;47 år, bergskolestudent;10000;;J
-K;1760;Storfors;00;Storfors;Storforsdemokraterna;StDe;1402;;;;N;J;J;I;37711;Hellblom, Kurt Göran;66;M;Storfors;;0;;J
-K;1760;Storfors;00;Storfors;Storforsdemokraterna;StDe;1402;;;;N;J;J;I;515988;Jonsson, Maria;50;K;Storfors;;0;;J
-K;1760;Storfors;00;Storfors;Storforsdemokraterna;StDe;1402;;;;N;J;J;I;515989;Andbjörk, Mattias;44;M;Storfors;;0;;J
-K;1760;Storfors;00;Storfors;Storforsdemokraterna;StDe;1402;;;;N;J;J;I;515990;Simmons, Staffan;54;M;Storfors;;0;;J
-K;1760;Storfors;00;Storfors;Storforsdemokraterna;StDe;1402;;;;N;J;J;I;515991;Bratt, Erik;67;M;Storfors;;0;;J
-K;1760;Storfors;00;Storfors;Sverigedemokraterna;SD;110;S;15845;1;N;J;J;I;512662;Juhani Verkkoperä;64;M;Storfors;64, Kemiingenjör, Kyrksten;4000;;J
-K;1760;Storfors;00;Storfors;Sverigedemokraterna;SD;110;S;15845;2;N;J;J;I;124886;Mikael Jegefalk;49;M;Storfors;49, Chaufför, Viviken;4000;;J
-K;1760;Storfors;00;Storfors;Sverigedemokraterna;SD;110;S;15845;3;N;J;J;I;125606;Anders Knudsen;65;M;Storfors;65, Pensionär, Bjurtjärn;4000;;J
-K;1760;Storfors;00;Storfors;Sverigedemokraterna;SD;110;S;15845;4;N;J;J;I;512670;Kristoffer Bjerge;36;M;Storfors;36, Fastighetsskötare, Storfors;4000;;J
-K;1760;Storfors;00;Storfors;Sverigedemokraterna;SD;110;;;;N;J;J;I;125601;Persson, Johan Urban;61;M;Storfors;;0;;J
-K;1760;Storfors;00;Storfors;Sverigedemokraterna;SD;110;;;;N;J;J;I;125602;Aho, Malin;35;K;Storfors;;0;;J
-K;1760;Storfors;00;Storfors;Sverigedemokraterna;SD;110;;;;N;J;J;I;125604;Aho, Leif;42;M;Storfors;;0;;J
-K;1760;Storfors;00;Storfors;Sverigedemokraterna;SD;110;;;;N;J;J;I;125605;Enkvist, Björn;50;M;Storfors;;0;;J
-K;1760;Storfors;00;Storfors;Vänsterpartiet;V;5;S;13343;1;J;J;I;J;30310;Kina Lindroos;42;K;Storfors;lokalvårdare, 41 år;10000;;J
-K;1760;Storfors;00;Storfors;Vänsterpartiet;V;5;S;13343;2;J;J;I;J;135427;Inger Nordström;62;K;Storfors;elevresurs, 62 år;10000;;J
-K;1760;Storfors;00;Storfors;Vänsterpartiet;V;5;S;13343;3;J;J;I;J;135428;Lars-Erik Karlsson;64;M;Storfors;pensionär, 64 år;10000;;J
-K;1760;Storfors;00;Storfors;Vänsterpartiet;V;5;S;13343;4;J;J;I;J;135429;Peter Högberg;62;M;Storfors;tjänsteman, 62 år;10000;;J
-K;1760;Storfors;00;Storfors;Vänsterpartiet;V;5;S;13343;5;J;J;I;J;135430;Bengteric Bergare;67;M;Storfors;pensionär, 67 år;10000;;J
-K;1760;Storfors;00;Storfors;Vänsterpartiet;V;5;S;13343;6;J;J;I;J;135431;Birgitta Hellberg;71;K;Storfors;pensionär, 71 år;10000;;J
-K;1760;Storfors;00;Storfors;Vänsterpartiet;V;5;S;13343;7;J;J;I;J;135432;Pontus Löfgren;41;M;Storfors;besiktningstekniker, 41 år;10000;;J
-K;1760;Storfors;00;Storfors;Vänsterpartiet;V;5;S;13343;8;J;J;I;J;135433;Monica Bergare;58;K;Storfors;personlig assistent, 58 år;10000;;J
+2|142606|75685|142740|73960|142742|142743|142744|142745|142746|143019|143020|76150|143022|143023|143024|143176|143177|143178|143360|143361|143362|143363|77483|143495|143496|143497
+4|330090|330091|330092|330093|330097|330094|330095|330096
+68|292386
+1|76435|76436|76437|76438|76439|76440|76441
+1402|125601|512544|512545|512546|37711|515988|515989|515990|515991
+110|512662|124886|125606|512670|125601|125602|125604|125605
+5|30310|135427|135428|135429|135430|135431|135432|135433

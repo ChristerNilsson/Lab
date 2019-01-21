@@ -1,62 +1,6 @@
-K;2303;Ragunda;00;Ragunda;Allt för Ragunda;AfR;497;S;15090;1;J;J;I;J;392947;Eva Sundin;51;K;Ragunda;Bispgården;13000;;J
-K;2303;Ragunda;00;Ragunda;Allt för Ragunda;AfR;497;S;15090;2;J;J;I;J;392948;Elisabeth Björklund;68;K;Ragunda;Utanede;13000;;J
-K;2303;Ragunda;00;Ragunda;Allt för Ragunda;AfR;497;S;15090;3;J;J;I;J;392949;Birgitta Orrebo;52;K;Ragunda;Utanede;13000;;J
-K;2303;Ragunda;00;Ragunda;Allt för Ragunda;AfR;497;S;15090;4;J;J;I;J;392950;Susanne Söderström;56;K;Ragunda;Böle;13000;;J
-K;2303;Ragunda;00;Ragunda;Allt för Ragunda;AfR;497;S;15090;5;J;J;I;J;392951;Jan Erik Westman;63;M;Ragunda;Bispgården;13000;;J
-K;2303;Ragunda;00;Ragunda;Allt för Ragunda;AfR;497;S;15090;6;J;J;I;J;392952;Kajsa Bernhold;29;K;Ragunda;Stugun;13000;;J
-K;2303;Ragunda;00;Ragunda;Allt för Ragunda;AfR;497;S;15090;7;J;J;I;J;392953;Emma Norberg;25;K;Ragunda;Bispgården;13000;;J
-K;2303;Ragunda;00;Ragunda;Allt för Ragunda;AfR;497;S;15090;8;J;J;I;J;392954;Alice Österslund;60;K;Ragunda;Bispgården;13000;;J
-K;2303;Ragunda;00;Ragunda;Allt för Ragunda;AfR;497;S;15090;9;J;J;I;J;392955;Eva Ocklind;59;K;Ragunda;Hammarstrand;13000;;J
-K;2303;Ragunda;00;Ragunda;Allt för Ragunda;AfR;497;S;15090;10;J;J;I;J;392956;Marie Palmroth;33;K;Ragunda;Fångsjöbacken;13000;;J
-K;2303;Ragunda;00;Ragunda;Allt för Ragunda;AfR;497;S;15090;11;J;J;I;J;392957;Anita Dorn;77;K;Ragunda;Moarna;13000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;1;J;J;I;J;16877;Jonas Andersson;32;M;Ragunda;32 år, Ammer;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;2;J;J;I;J;16878;Jenny Palmquist;46;K;Ragunda;46 år, Ammer;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;3;J;J;I;J;8136;Roger Östlund;58;M;Ragunda;58 år, Västerede;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;4;J;J;I;J;16880;Elisabet Yngström;69;K;Ragunda;69 år, Stugun;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;5;J;J;I;J;16881;Lennart Skoog;64;M;Ragunda;64 år, Stugun;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;6;J;J;I;J;16882;Gudrun Wikén;69;K;Ragunda;69 år, Ammer;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;7;J;J;I;J;6462;Anders Frimert;45;M;Ragunda;45 år, Stugun;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;8;J;J;I;J;16884;Karin Ungh;62;K;Ragunda;62 år, Torvalla by;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;9;J;J;I;J;8153;Kjell Grafström;70;M;Ragunda;70 år, Hammarstrand;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;10;J;J;I;J;16886;Annika Nilsson;50;K;Ragunda;50 år, Borglunda;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;11;J;J;I;J;16887;Johan Palmquist;48;M;Ragunda;49 år, Ammer;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;12;J;J;I;J;16888;Alva Nylander;18;K;Ragunda;18 år, Hammarstrand;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;13;J;J;I;J;16889;Bob M Jonsson;56;M;Ragunda;56 år, Eriksberg;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;14;J;J;I;J;16890;Gunilla Olsson;66;K;Ragunda;66 år, Österede;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;15;J;J;I;J;16891;Christer Backström;70;M;Ragunda;70 år, Bomsund;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;16;J;J;I;J;16892;Lena Holmgren;53;K;Ragunda;53 år, Strömsnäs;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;17;J;J;I;J;16893;Kjell Berg;36;M;Ragunda;36 år, Hammarstrand;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;18;J;J;I;J;16894;Linda Yngström;42;K;Ragunda;42 år, Stugun;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;19;J;J;I;J;16895;Bengt Olsson;39;M;Ragunda;39 år, Stugun;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;20;J;J;I;J;16896;Lisbeth Borefors;69;K;Ragunda;69 år, Hammarstrand;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;21;J;J;I;J;16897;Seppo Valli;62;M;Ragunda;62 år, Näset;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;22;J;J;I;J;16898;Maja Sahlin;30;K;Ragunda;30 år, Hasselmon;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;23;J;J;I;J;16899;Adhanom Fishaye;28;M;Ragunda;28 år, Hammarstrand;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;24;J;J;I;J;16900;Britt Danielsson;72;K;Ragunda;72 år, Hammarstrand;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;25;J;J;I;J;16901;Dennis Fredriksson;29;M;Ragunda;29 år, Bispfors;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;26;J;J;I;J;16902;Katarina Sahlin;48;K;Ragunda;48 år, Överammer;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;27;J;J;I;J;16905;Jim Salomonsson;75;M;Ragunda;75 år, Hammarstrand;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;28;J;J;I;J;16904;Carina Andersson;52;K;Ragunda;52 år, Rävanäset;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;29;J;J;I;J;16907;Henok Tewelde;22;M;Ragunda;24 år, Hammarstrand;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;30;J;J;I;J;16906;Brittinger Håkansson;70;K;Ragunda;70 år, Kompaniet;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;31;J;J;I;J;16909;Ato Kiflay;20;M;Ragunda;20 år, Stugun;17000;;J
-K;2303;Ragunda;00;Ragunda;Arbetarepartiet-Socialdemokraterna;S;2;S;11982;32;J;J;I;J;16908;Eva Lindholm;55;K;Ragunda;55 år, Hammarstrand;17000;;J
-K;2303;Ragunda;00;Ragunda;Centerpartiet;C;4;S;14848;1;J;J;I;J;356644;Mikael Westin;54;M;Ragunda;54 år Kullsta;13000;;J
-K;2303;Ragunda;00;Ragunda;Centerpartiet;C;4;S;14848;2;J;J;I;J;356645;Larz Danielsson;52;M;Ragunda;52 år Pålgård;13000;;J
-K;2303;Ragunda;00;Ragunda;Centerpartiet;C;4;S;14848;3;J;J;I;J;356646;Margareta Nordling;63;K;Ragunda;63 år Bispgården;13000;;J
-K;2303;Ragunda;00;Ragunda;Centerpartiet;C;4;S;14848;4;J;J;I;J;356647;Håkan Lindström;64;M;Ragunda;64 år Västerede;13000;;J
-K;2303;Ragunda;00;Ragunda;Centerpartiet;C;4;S;14848;5;J;J;I;J;356648;Annica Lindström;53;K;Ragunda;53 år Hammarstrand;13000;;J
-K;2303;Ragunda;00;Ragunda;Centerpartiet;C;4;S;14848;6;J;J;I;J;356649;Karl Borglund;66;M;Ragunda;66 år Trefoten;13000;;J
-K;2303;Ragunda;00;Ragunda;Centerpartiet;C;4;S;14848;7;J;J;I;J;356650;Isak Andersson Lexner;18;M;Ragunda;18 år Hammarstrand;13000;;J
-K;2303;Ragunda;00;Ragunda;Centerpartiet;C;4;S;14848;8;J;J;I;J;356651;Håkan Schüberg;53;M;Ragunda;53 år Bispgården;13000;;J
-K;2303;Ragunda;00;Ragunda;Centerpartiet;C;4;S;14848;9;J;J;I;J;356652;Karl-Axel Andersson;56;M;Ragunda;56 år Krokvåg;13000;;J
-K;2303;Ragunda;00;Ragunda;Centerpartiet;C;4;S;14848;10;J;J;I;J;356653;Ingrid Alf;76;K;Ragunda;76 år Stugun;13000;;J
-K;2303;Ragunda;00;Ragunda;Centerpartiet;C;4;S;14848;11;J;J;I;J;356654;Birger Ajax;67;M;Ragunda;67 år Ammer;13000;;J
-K;2303;Ragunda;00;Ragunda;Centerpartiet;C;4;S;14848;12;J;J;I;J;356655;Lennart Dahlström;51;M;Ragunda;51 år Krokvåg;13000;;J
-K;2303;Ragunda;00;Ragunda;Kristdemokraterna;KD;68;S;13906;1;J;J;I;J;205313;Stefan Nilsson;70;M;Ragunda;Krångede;5000;;J
-K;2303;Ragunda;00;Ragunda;Kristdemokraterna;KD;68;S;13906;2;J;J;I;J;205315;Karl-Erik Lundin;67;M;Ragunda;Krokvåg;5000;;J
-K;2303;Ragunda;00;Ragunda;Kristdemokraterna;KD;68;S;13906;3;J;J;I;J;206005;Eva Lundin;66;K;Ragunda;Krokvåg;5000;;J
-K;2303;Ragunda;00;Ragunda;Kristdemokraterna;KD;68;S;13906;4;J;J;I;J;208712;Birgitta Strid;64;K;Ragunda;Bispgården;5000;;J
-K;2303;Ragunda;00;Ragunda;Sverigedemokraterna;SD;110;S;15437;1;N;J;J;I;106462;Ulla Vikander;61;K;Ragunda;61 år;13000;;J
-K;2303;Ragunda;00;Ragunda;Sverigedemokraterna;SD;110;S;15437;2;N;J;J;I;150262;Peter Sandström;45;M;Ragunda;45 år;13000;;J
-K;2303;Ragunda;00;Ragunda;Vänsterpartiet;V;5;;;;N;J;J;I;253073;Raswill Antan, Catarina;65;K;Ragunda;;0;;J
+497|392947|392948|392949|392950|392951|392952|392953|392954|392955|392956|392957
+2|16877|16878|8136|16880|16881|16882|6462|16884|8153|16886|16887|16888|16889|16890|16891|16892|16893|16894|16895|16896|16897|16898|16899|16900|16901|16902|16905|16904|16907|16906|16909|16908
+4|356644|356645|356646|356647|356648|356649|356650|356651|356652|356653|356654|356655
+68|205313|205315|206005|208712
+110|106462|150262
+5|253073

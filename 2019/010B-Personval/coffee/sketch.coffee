@@ -554,8 +554,10 @@ readDatabase = ->
 		if valtyp == 'R'                           then spara [valtyp, parti], "#{knr}-#{namn}", cells
 		if valtyp == 'L' and områdeskod==länskod   then spara [valtyp, parti], "#{knr}-#{namn}", cells
 		if valtyp == 'K' and områdeskod==kommunkod then spara [valtyp, parti], "#{knr}-#{namn}", cells
-	print dictionary
-	print partikoder
+
+	#print dictionary
+	#print partikoder
+
 	#print partier
 	#for key,parti of partier
 	#	if 1 < _.size parti then print key,parti
@@ -578,10 +580,10 @@ setup = ->
 	x2 = 0.28*width
 	x3 = 0.64*width
 	x4 = 1.00*width
-	pages.typ      = new TypPage     x3,0,x4-x3,height 
 	pages.partier  = new PartiPage    0,0,x1-x0,height 
 	pages.letters  = new LetterPage  x1,0,x2-x1,height 
 	pages.personer = new PersonPage  x2,0,x3-x2,height 
+	pages.typ      = new TypPage     x3,0,x4-x3,height 
 	pages.utskrift = new UtskriftPage 0,0,x4,height
 	pages.utskrift.active = false 
 

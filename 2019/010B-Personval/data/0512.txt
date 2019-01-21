@@ -1,62 +1,7 @@
-K;0512;Ydre;00;Ydre Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12069;1;J;J;I;J;23335;Anna-Lena Svensson;54;K;Ydre;biträdande förskolechef, 54 år;12000;;J
-K;0512;Ydre;00;Ydre Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12069;2;J;J;I;J;23339;Jonas Fingalsson;48;M;Ydre;industriarbetare, 48 år;12000;;J
-K;0512;Ydre;00;Ydre Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12069;3;J;J;I;J;23340;Gunilla Armsköld;58;K;Ydre;undersköterska inom psykiatrin, 58 år;12000;;J
-K;0512;Ydre;00;Ydre Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12069;4;J;J;I;J;23341;Willy Ahlberg;68;M;Ydre;pensionär, 68 år;12000;;J
-K;0512;Ydre;00;Ydre Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12069;5;J;J;I;J;23342;Lars-Göran Svensson;60;M;Ydre;platschef, 60 år;12000;;J
-K;0512;Ydre;00;Ydre Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12069;6;J;J;I;J;23343;Ann-Charlotte Svennberg;54;K;Ydre;integrationspedagog, 54 år;12000;;J
-K;0512;Ydre;00;Ydre Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12069;7;J;J;I;J;23344;Fredrik Asp;51;M;Ydre;formpressare, 51 år;12000;;J
-K;0512;Ydre;00;Ydre Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12069;8;J;J;I;J;23345;Leif Johansson;61;M;Ydre;industriarbetare, 61 år;12000;;J
-K;0512;Ydre;00;Ydre Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12069;9;J;J;I;J;23346;Therese F Svanberg;39;K;Ydre;undersköterska inom psykiatrin, 39 år;12000;;J
-K;0512;Ydre;00;Ydre Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12069;10;J;J;I;J;23347;Robert Rydberg;45;M;Ydre;kock, 45 år;12000;;J
-K;0512;Ydre;00;Ydre Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12069;11;J;J;I;J;23348;Tina Strandh;53;K;Ydre;fru, 53 år;12000;;J
-K;0512;Ydre;00;Ydre Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12069;12;J;J;I;J;23349;Joakim Gustavsson;43;M;Ydre;betongarbetare, 43 år;12000;;J
-K;0512;Ydre;00;Ydre Kommun;Arbetarepartiet-Socialdemokraterna;S;2;S;12069;13;J;J;I;J;23350;Lennart Hjalmarsson;60;M;Ydre;verkstadschef, 60 år;12000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;1;J;J;I;J;76068;Sven-Inge Karlsson;67;M;Ydre;Kommunalråd;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;2;J;J;I;J;76069;Nina Vissing;48;K;Ydre;Redovisningskonsult;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;3;J;J;I;J;76070;Anders Andersson;58;M;Ydre;Landsbygdsföretagare;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;4;J;J;I;J;76071;Astrid Rydberg;62;K;Ydre;Kock;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;5;J;J;I;J;76072;Lena Gunnarsson;58;K;Ydre;Egen företagare;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;6;J;J;I;J;76073;Gunnar Emanuelsson;66;M;Ydre;Ingenjör;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;7;J;J;I;J;76074;Åke Svahn;52;M;Ydre;Egen företagare;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;8;J;J;I;J;76075;Wilhelm Ydrestål;28;M;Ydre;Egen företagare;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;9;J;J;I;J;76076;Elisabet Hagström;59;K;Ydre;Sjuksköterska;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;10;J;J;I;J;76077;Anders Gunnar;70;M;Ydre;Pensionär;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;11;J;J;I;J;76078;Karolin Andersson;19;K;Ydre;Studerande;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;12;J;J;I;J;76079;Per Segersson;55;M;Ydre;Lantbrukare;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;13;J;J;I;J;76080;Bengt Adelsköld;72;M;Ydre;Fastighetskonsult;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;14;J;J;I;J;12036;Inga Arnell Lindgren;70;K;Ydre;Distriktssköterska;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;15;J;J;I;J;76082;Jörgen Martinsson;51;M;Ydre;Säljare;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Centerpartiet;C;4;S;12833;16;J;J;I;J;76083;Jonas Cleveson;41;M;Ydre;Lantbrukare/Egen företagare;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Kristdemokraterna;KD;68;S;14259;1;J;J;I;J;251039;Linda Masman;41;K;Ydre;Undersköterska, Ydre;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Kristdemokraterna;KD;68;S;14259;2;J;J;I;J;251040;Peter Gustavsson;55;M;Ydre;Ekonomiassistent, Ydre;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Kristdemokraterna;KD;68;S;14259;3;J;J;I;J;251041;Jenny-Sofia Gustafsson;38;K;Ydre;Sjuksköterskestuderande, Ydre;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Kristdemokraterna;KD;68;S;14259;4;J;J;I;J;251042;Bengt Malm;82;M;Ydre;Pensionär, Ydre;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Kristdemokraterna;KD;68;S;14259;5;J;J;I;J;251043;Barbro Malm;80;K;Ydre;Lågstadielärare, Ydre;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Kristdemokraterna;KD;68;S;14259;6;J;J;I;J;251044;Karl-Erik Hagström;53;M;Ydre;Företagsledare, Ydre;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Kristdemokraterna;KD;68;S;14259;7;J;J;I;J;251045;Johan Fälth;55;M;Ydre;Landsbyggdsentreprenör, Ydre;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Miljöpartiet de gröna;MP;55;S;15217;1;J;J;I;J;419239;René Mraule;38;M;Ydre;38, snickare & sågverksarbetare, Rydsnäs;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Miljöpartiet de gröna;MP;55;S;15217;2;J;J;I;J;419240;Åsa Scharff;51;K;Ydre;51, gymnasielärare & journalist, Hestra;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Miljöpartiet de gröna;MP;55;S;15217;3;J;J;I;J;419241;Martin Dreber;43;M;Ydre;43, agronom, Ydre;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Moderaterna;M;1;S;12115;1;J;J;I;J;3337;Henrik Isacsson;40;M;Ydre;Kommunalråd/Chaufför, 40 år;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Moderaterna;M;1;S;12115;2;J;J;I;J;25849;Simon Spaak;23;M;Ydre;Säljare/Ekonom, 23 år;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Moderaterna;M;1;S;12115;3;J;J;I;J;25852;Peter Bergquist;54;M;Ydre;Företagare, 54 år;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Moderaterna;M;1;S;12115;4;J;J;I;J;25850;Camilla Kall Gunnarsson;38;K;Ydre;Företagare, 38 år;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Moderaterna;M;1;S;12115;5;J;J;I;J;53536;Christer Wiström;74;M;Ydre;Pensionär, 74 år;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Moderaterna;M;1;S;12115;6;J;J;I;J;25848;Louise Bergquist;52;K;Ydre;Företagare, 52 år;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Moderaterna;M;1;S;12115;7;J;J;I;J;53538;Klas Pettersson;44;M;Ydre;Entreprenör, 44 år;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Moderaterna;M;1;S;12115;8;J;J;I;J;53539;Nathalie Nilsson;38;K;Ydre;HR-konsult, 38 år;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Moderaterna;M;1;S;12115;9;J;J;I;J;53540;Jakob Winblad;28;M;Ydre;Robotoperatör, 28 år;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Moderaterna;M;1;S;12115;10;J;J;I;J;53541;Karl-Gunnar Palmgren;70;M;Ydre;Pensionär/fd lantbrukare, 70 år;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Moderaterna;M;1;S;12115;11;J;J;I;J;25851;Jakob Ydrén;27;M;Ydre;Skogsmästare, 27 år;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Moderaterna;M;1;S;12115;12;J;J;I;J;25853;Bengt-Göran Gustafsson;77;M;Ydre;Pensionär, 77 år;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Moderaterna;M;1;S;12115;13;J;J;I;J;53544;Nathalie Höglund;26;K;Ydre;Undersköterska, 26 år;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Sverigedemokraterna;SD;110;S;13087;1;J;J;I;J;109642;Claes Norrby;80;M;Ydre;;9000;;J
-K;0512;Ydre;00;Ydre Kommun;Vänsterpartiet;V;5;S;15670;1;N;J;J;I;505854;Olle Forsell;65;M;Ydre;65,Småföretagare;4000;;J
-K;0512;Ydre;00;Ydre Kommun;Vänsterpartiet;V;5;S;15670;2;N;J;J;I;505855;Kalle Hildebrand;43;M;Ydre;43, It-arkitekt;4000;;J
-K;0512;Ydre;00;Ydre Kommun;Vänsterpartiet;V;5;S;15670;3;N;J;J;I;505856;Gunilla Berg;57;K;Ydre;undersköterska;4000;;J
-K;0512;Ydre;00;Ydre Kommun;Vänsterpartiet;V;5;S;15670;4;N;J;J;I;505857;Albin Ydrefelt;45;M;Ydre;Sjuksköterska;4000;;J
-K;0512;Ydre;00;Ydre Kommun;Vänsterpartiet;V;5;S;15670;5;N;J;J;I;505858;Barbro Hermansson Lindvall;59;K;Ydre;59, Lärare;4000;;J
-K;0512;Ydre;00;Ydre Kommun;Vänsterpartiet;V;5;S;15670;6;N;J;J;I;505859;Charlie Åström;54;M;Ydre;54, Kulturarbetare;4000;;J
-K;0512;Ydre;00;Ydre Kommun;Vänsterpartiet;V;5;S;15670;7;N;J;J;I;505860;Hedy Hoogkamer;59;K;Ydre;59, Hemtjänst;4000;;J
-K;0512;Ydre;00;Ydre Kommun;Vänsterpartiet;V;5;S;15670;8;N;J;J;I;505861;Peter Wallin;63;M;Ydre;63, Gårdskarl;4000;;J
-K;0512;Ydre;00;Ydre Kommun;Vänsterpartiet;V;5;S;15670;9;N;J;J;I;505862;Kristina Svanberg;52;K;Ydre;52, Sjuksköterska;4000;;J
+2|23335|23339|23340|23341|23342|23343|23344|23345|23346|23347|23348|23349|23350
+4|76068|76069|76070|76071|76072|76073|76074|76075|76076|76077|76078|76079|76080|12036|76082|76083
+68|251039|251040|251041|251042|251043|251044|251045
+55|419239|419240|419241
+1|3337|25849|25852|25850|53536|25848|53538|53539|53540|53541|25851|25853|53544
+110|109642
+5|505854|505855|505856|505857|505858|505859|505860|505861|505862

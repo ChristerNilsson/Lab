@@ -1,309 +1,76 @@
-K;2380;Östersund;00;Östersund;20% skattepartiet;;1365;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Allians för Sverige;;1423;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;1;J;J;I;J;72980;AnnSofie Andersson;62;K;Östersund;62, Kommunalråd, Lugnvik;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;2;J;J;I;J;72981;Anders Edvinsson;51;M;Östersund;51, Kommunalråd, Marielund;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;3;J;J;I;J;7455;Maria Nerpin;54;K;Östersund;54, Företagare, Centrum;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;4;J;J;I;J;72983;Niklas Daoson;34;M;Östersund;34, Polis, Odenslund;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;5;J;J;I;J;8152;Mona Modin Tjulin;44;K;Östersund;44, Politisk sekreterare, Mjälle;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;6;J;J;I;J;8160;Björn Sandal;59;M;Östersund;60, Folkhögskolelärare, Blomängen;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;7;J;J;I;J;8219;Ida Asp;34;K;Östersund;34, Specialpedagog, Fugelsta;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;8;J;J;I;J;73666;Anton Waara;34;M;Östersund;34, Ombudsman, Blomängen;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;9;J;J;I;J;16273;Kholod Mahmood;47;K;Östersund;47,Kontrollant, Odensala;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;10;J;J;I;J;73668;Stefan Fax;63;M;Östersund;63, Politisk sekreterare, Odenslund;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;11;J;J;I;J;73669;Elisabet Fjellström;26;K;Östersund;26, Studerande, Centrum;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;12;J;J;I;J;6465;Jean Luc Kabisa;37;M;Östersund;37, Socionom, Frösön;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;13;J;J;I;J;73671;Pernilla Ingelsson;49;K;Östersund;49, Universitetslektor, Odensala;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;14;J;J;I;J;73672;Ertugrul Gencturk;58;M;Östersund;58, Bildlärare, Centrum;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;15;J;J;I;J;16779;Kata Nilsson;25;K;Östersund;25, Skribent, Remonthagen;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;16;J;J;I;J;73673;Jonny Malmsten;41;M;Östersund;41, Industriarbetare, Fjällmon;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;17;J;J;I;J;8161;Bendigt Eriksson;68;K;Östersund;68, Administratör, Odenslund;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;18;J;J;I;J;73750;Jason O'Halloran;32;M;Solna;32, Socionom, Centrum;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;19;J;J;I;J;8228;Eva Marcusdotter;58;K;Östersund;58, Handledare, Hornsberg;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;20;J;J;I;J;73752;Kjell Svantesson;75;M;Östersund;75, Pensionär, Ängsmon;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;21;J;J;I;J;73753;Rosi Hoffer;38;K;Östersund;38, Projektledare, Valla;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;22;J;J;I;J;73754;Per-Olof Wallberg Persson;54;M;Östersund;54, Kooperatör, Valla;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;23;J;J;I;J;8148;Jenny Störvold;23;K;Östersund;23, Målare, Centrum;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;24;J;J;I;J;73756;Mathias Christensen;27;M;Östersund;27, Säljare, Hornsberg;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;25;J;J;I;J;96890;Annmari Sandberg;66;K;Östersund;66, Socionom, Lugnvik;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;26;J;J;I;J;73757;Thomas Andersson;60;M;Östersund;60, Samhällsmedicinsk sekr, Odensala;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;27;J;J;I;J;73758;Maria Gerdin;45;K;Östersund;45, Förskollärare, Björkbacka;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;28;J;J;I;J;8147;Anders Magnusson;54;M;Östersund;54, VD, Frösön;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;29;J;J;I;J;73760;Bodil Laxvik;67;K;Östersund;67, Pensionär, Norr;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;30;J;J;I;J;16258;Simon Teclehaimanot;47;M;Östersund;47, Lärare, Frösön;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;31;J;J;I;J;73856;Sara Bengtlars;45;K;Östersund;45, Undersköterska, Husås;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;32;J;J;I;J;73857;Pontus Persson;39;M;Östersund;39, Elektriker, Odensala;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;33;J;J;I;J;73858;Maria Larm;55;K;Östersund;54, Enhetschef, Brunflo;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;34;J;J;I;J;174058;Andreas Sundelin;33;M;Östersund;33, Byggnadsinspektör, Lugnvik;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;35;J;J;I;J;84097;Ida Roos;29;K;Östersund;29, Arbetsförmedlare, Lit;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;36;J;J;I;J;73859;Tommy Winter;38;M;Östersund;38, Alpin chef, Lillsjön;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;37;J;J;I;J;7441;Margareta Winberg;71;K;Östersund;71, Ambassadör, Söder;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;38;J;J;I;J;96901;Dag Wassdahl;60;M;Östersund;60, Systemtekniker, Fjällmon;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;39;J;J;I;J;8221;Susanne Persson;41;K;Östersund;41, Projektledare, Brunflo;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;40;J;J;I;J;73861;Anders Frederiksen;51;M;Östersund;51, Ombudsman, Karlslund;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;41;J;J;I;J;160265;Emma Mikaelsson;23;K;Östersund;23, Socionom, Centrum;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;42;J;J;I;J;8134;André Norlén;26;M;Östersund;26, Ombudsman, Marielund;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;43;J;J;I;J;73863;Britt Wikman;70;K;Östersund;70, Pensionär, Marielund;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;44;J;J;I;J;84103;Bobo Sollander;33;M;Östersund;33, Social coach, Frösön;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;45;J;J;I;J;73864;Jessica Rundberg;64;K;Östersund;64, Kvinnofridsrådgivare, Centrum;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;46;J;J;I;J;96908;Peter Sidén;31;M;Östersund;31, Arbetsmiljöingenjör, Fjällmon;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;47;J;J;I;J;8135;Gudrun Olsson;69;K;Östersund;69, Socionom, Marielund;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;48;J;J;I;J;73866;Tomas Frank;63;M;Östersund;63, Lärare, Valla;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;49;J;J;I;J;73867;Jessica Amarouche;47;K;Östersund;47, Egen företagare, Lugnvik;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;50;J;J;I;J;73868;Staffan Hillström;68;M;Östersund;68, Jur.kand, Karlslund;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;51;J;J;I;J;8163;Catharina Berg;37;K;Östersund;37, Bonde, Nyby;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;52;J;J;I;J;73870;Jan Frid;49;M;Östersund;49, Banktjänsteman, Odenslund;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;53;J;J;I;J;73871;Anne-Marie Salomonsson;72;K;Östersund;72, Specialpedagog, Körfältet;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;54;J;J;I;J;73872;Shah Hosein;45;M;Östersund;45, Egen företagare, Skogsmon;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;55;J;J;I;J;73873;Lena Svegare;58;K;Östersund;58, Undersköterska, Marielund;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;56;J;J;I;J;73874;Tommy Pettersson;71;M;Östersund;71, Fd slakteriarbetare, Körfältet;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;57;J;J;I;J;74024;Johanna Pålsson;20;K;Östersund;20, Personlig assistent, Brunflo;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;58;J;J;I;J;74025;Björn Karlsson;74;M;Östersund;74, Pensionär, Centrum;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;59;J;J;I;J;74026;Helena Lassen;52;K;Östersund;52, Kvinnofridsrådgivare, Centrum;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;60;J;J;I;J;112124;Roland Sundström;74;M;Östersund;74, Ekonom, Ängsmon;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;61;J;J;I;J;74027;Solveig Danielsson;73;K;Östersund;73, Pensionär, Fjällmon;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;62;J;J;I;J;74028;Kjell Karlsson;77;M;Östersund;77, Pensionär, Frösön;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;63;J;J;I;J;74029;Agnetha Danielsson;66;K;Östersund;66, Fd vårdare, Lövudden;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;64;J;J;I;J;7454;Tahar Khalfallah;65;M;Östersund;65, Integrationshandledare, Odenslund;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;65;J;J;I;J;96926;Liisa Liljekvist;37;K;Östersund;37, Butiksmedarbetare, Blomängen;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;66;J;J;I;J;7448;David Adervall;39;M;Östersund;39, Utredare, Norr;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;67;J;J;I;J;74032;Gertrud Nygren;76;K;Östersund;76, Pensionär, Centrum;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;68;J;J;I;J;74033;Mohammad Gholamy;24;M;Östersund;24, Integrationsvägledare, Körfältet;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;69;J;J;I;J;8224;Jaana Pålsson;49;K;Östersund;49, Ombudsman, Vamsta;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;70;J;J;I;J;74035;Nicklas Lindahl;37;M;Östersund;37, Kommunikatör, Frösödal;300000;;J
-K;2380;Östersund;00;Östersund;Arbetarepartiet-Socialdemokraterna;S;2;S;12795;71;J;J;I;J;74036;Majlis Ek;64;K;Östersund;64, Kontorist, Brunflo;300000;;J
-K;2380;Östersund;00;Östersund;ASYL.NUPARTIET;;1420;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Basinkomstpartiet;;1372;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Bg-Demokrati;;1375;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;1;J;J;I;J;242657;Bosse Svensson;58;M;Östersund;konsult 58 år Brunflo;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;2;J;J;I;J;242658;Kerstin Arnemo;59;K;Östersund;egenföretagare 59 år Brunflo;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;3;J;J;I;J;242659;Magnus Andersson;50;M;Östersund;lantbrukare 50 år Lit;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;4;J;J;I;J;8554;Hanna Wagenius;29;K;Östersund;jurist 29 år Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;5;J;J;I;J;95768;Tom Silverklo;43;M;Östersund;entreprenör 43 år Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;6;J;J;I;J;242662;Sara Wikman;33;K;Östersund;rektor 33 år Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;7;J;J;I;J;242663;Per Lundgren;55;M;Östersund;idrottslärare/företagare 55 år Optand;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;8;J;J;I;J;242664;Kristina Grahn Persson;45;K;Östersund;chef affärsstöd 45 år Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;9;J;J;I;J;242665;Magnus Rönnerfjäll;42;M;Östersund;leg sjuksköterska/egenföretagare 42 år Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;10;J;J;I;J;242666;Sol Vikström;38;K;Östersund;it-strateg och kulturproducent 38 år Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;11;J;J;I;J;95776;Johannes Andersson;27;M;Östersund;skidåkare/företagare 27 år Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;12;J;J;I;J;242668;Li Zakrisson;41;K;Östersund;entreprenör 41 år Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;13;J;J;I;J;242669;Thomas Andersson;46;M;Östersund;företagare 46 år Fåker;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;14;J;J;I;J;242670;Linda Petersson;42;K;Östersund;kulturarbetare/företagare 42 år Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;15;J;J;I;J;242671;Leif Hagberg;65;M;Östersund;pensionerad poliskommissarie 65 år Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;16;J;J;I;J;242672;Carolina Schönbeck;44;K;Östersund;utredare 44 år Brunflo;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;17;J;J;I;J;242673;Stefan K. O. Strömmer;40;M;Östersund;ingenjör 40 år Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;18;J;J;I;J;242674;Margareta Lindhagen;57;K;Östersund;agr. dr. 57 år Hegled;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;19;J;J;I;J;242675;Magnus Schalin;48;M;Östersund;företagare 48 år Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;20;J;J;I;J;242676;Monica Persson;48;K;Östersund;handläggare 48 år Fåker;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;21;J;J;I;J;242677;Jörgen Larsson;51;M;Östersund;företagare 51 år Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;22;J;J;I;J;242678;Marianne Norin;47;K;Östersund;beteendevetare 47 år Brunflo;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;23;J;J;I;J;242679;Anders Granbom;74;M;Östersund;pensionär 74 år Brunflo;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;24;J;J;I;J;242680;Brigitta K Engelsberger;54;K;Östersund;mjölkbonde 54 år Tandsbyn;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;25;J;J;I;J;242681;Sven Nilsson;60;M;Östersund;ingenjör 60 år Namn/Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;26;J;J;I;J;242682;Pernilla Karlsson;30;K;Östersund;personlig assistent 30 år Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;27;J;J;I;J;242683;Per Ericsson;61;M;Östersund;företagare/akademiker 61 år Nyby;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;28;J;J;I;J;242684;Gunilla Lindgren;56;K;Östersund;sjukpensionär 56 år Fåker;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;29;J;J;I;J;242685;Patrik Andersson;31;M;Östersund;banktjänsteman 31 år Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;30;J;J;I;J;242686;Irene Göransson;71;K;Östersund;pensionär 71 år Brunflo;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;31;J;J;I;J;242687;Michael Nassar;33;M;Östersund;egen företagare 33 år Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;32;J;J;I;J;242688;Ann Helene Lindroos;69;K;Östersund;pensionär 69 år Haga/Brunflo;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;33;J;J;I;J;242689;Frank Nilsson;66;M;Östersund;egen företagare 66 år Öd/Brunflo;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;34;J;J;I;J;242690;Susanne Edfeldt Sjöling;48;K;Östersund;processledare 48 år Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;35;J;J;I;J;242691;Tamim Alisade;35;M;Östersund;vårdbiträde 35 år Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;36;J;J;I;J;242692;Anne Catrine Hedman;48;K;Östersund;gymnasielärare 48 år Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;37;J;J;I;J;242693;Morgan Byström;45;M;Östersund;kärnborrare 45 år Orrviken;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;38;J;J;I;J;242694;Björn Sandin;47;M;Östersund;lärare 47 år Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;39;J;J;I;J;242695;P-G Bergqvist;47;M;Östersund;säljare 47 år Tandsbyn;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;40;J;J;I;J;242696;Stefan Machnov;51;M;Östersund;konsult 51 år Marieby;148000;;J
-K;2380;Östersund;00;Östersund;Centerpartiet;C;4;S;14155;41;J;J;I;J;242697;Martin Nordman;34;M;Östersund;enhetschef 34 år Lit;148000;;J
-K;2380;Östersund;00;Östersund;Common sense in Sweden;CSIS;1318;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Demokraterna i Göteborg;;1426;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Demokrati Sverige;;1387;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Demokratirörelsen;;1314;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Det nya partiet;;1351;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Direktdemokraterna;DD;1150;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Europeiska Arbetarpartiet-EAP;EAP;29;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Feministiskt initiativ;FI;532;S;15874;1;N;J;J;I;513716;Marie Wiktorsson;42;K;Östersund;42 år, utvärderare Naturvårdsverket;10000;;J
-K;2380;Östersund;00;Östersund;Feministiskt initiativ;FI;532;S;15874;2;N;J;J;I;513717;Emily Dernfors;23;K;Östersund;23 år, student;10000;;J
-K;2380;Östersund;00;Östersund;Feministiskt initiativ;FI;532;S;15874;3;N;J;J;I;219327;Ingrid Mårtensson;56;K;Östersund;56 år, ekonom;10000;;J
-K;2380;Östersund;00;Östersund;Feministiskt initiativ;FI;532;S;15874;4;N;J;J;I;513719;Nova Hamrén;18;K;Östersund;18 år, student;10000;;J
-K;2380;Östersund;00;Östersund;Feministiskt initiativ;FI;532;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Final Partiet;;1329;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;FN Parti art: 27;;1425;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Folkhemmet Sverige;;1388;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Folkstyret;;1317;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Generation Utveckling;;1406;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Gula Partiet;Gup;1173;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Humandemokraterna;HumDe;1176;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;iGov.Direct®;;1316;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Initiativet;;1374;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;iP-IDROTTSPARTIET-Rädda Stadshagens IP!;iP;1416;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Klassiskt liberala partiet;KLP;638;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Kosmopolitiska Partiet;;1405;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Kristdemokraterna;KD;68;S;13910;1;J;J;I;J;285758;Stephen Jerand;63;M;Östersund;polismästare, Östersund;130000;;J
-K;2380;Östersund;00;Östersund;Kristdemokraterna;KD;68;S;13910;2;J;J;I;J;205319;Stig Andersson;66;M;Östersund;fd officer, Lugnvik;130000;;J
-K;2380;Östersund;00;Östersund;Kristdemokraterna;KD;68;S;13910;3;J;J;I;J;205314;Lena Östling;51;K;Östersund;tandhygienist, Östersund;130000;;J
-K;2380;Östersund;00;Östersund;Kristdemokraterna;KD;68;S;13910;4;J;J;I;J;205320;Emanuel Sandberg;81;M;Östersund;ingenjör, Östersund;130000;;J
-K;2380;Östersund;00;Östersund;Kristdemokraterna;KD;68;S;13910;5;J;J;I;J;205316;Andrea Hedenborg;23;K;Östersund;affärsbiträde, Östersund;130000;;J
-K;2380;Östersund;00;Östersund;Kristdemokraterna;KD;68;S;13910;6;J;J;I;J;209046;Dennis Blom;61;M;Östersund;företagare, Körfältet;130000;;J
-K;2380;Östersund;00;Östersund;Kristdemokraterna;KD;68;S;13910;7;J;J;I;J;209047;Gertrud Hagman;67;K;Östersund;ekonom, Torvalla By;130000;;J
-K;2380;Östersund;00;Östersund;Kristdemokraterna;KD;68;S;13910;8;J;J;I;J;205310;Lars-Erik Olofsson;60;M;Östersund;överläkare, Frösön;130000;;J
-K;2380;Östersund;00;Östersund;Kristdemokraterna;KD;68;S;13910;9;J;J;I;J;209049;Maria Flink Opoku;53;K;Östersund;teaterpedagog, Östersund;130000;;J
-K;2380;Östersund;00;Östersund;Kristdemokraterna;KD;68;S;13910;10;J;J;I;J;205322;Karl-Göran Eriksson;71;M;Östersund;ingenjör, Östersund;130000;;J
-K;2380;Östersund;00;Östersund;Kristna Värdepartiet;KrVP;1140;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Landsbygdspartiet Oberoende;LPo;1011;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;1;J;J;I;J;49200;Pär Löfstrand;48;M;Östersund;universitetslärare,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;2;J;J;I;J;223099;Margareta Widell;71;K;Östersund;veterinär,Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;3;J;J;I;J;223100;Serhat Uzun;46;M;Östersund;egen företagare,studiehandledare,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;4;J;J;I;J;223101;Annica Nordell;72;K;Östersund;egen företagare,Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;5;J;J;I;J;223102;Joakim Åberg;50;M;Östersund;egen företagare,Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;6;J;J;I;J;223103;Mireya Melander;33;K;Östersund;studerande,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;7;J;J;I;J;223104;Bengt Magnusson;65;M;Östersund;fd lärare,Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;8;J;J;I;J;223105;Eva Jönsson;52;K;Östersund;lärare i förskolan,Brunflo;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;9;J;J;I;J;223106;Lennart Ledin;74;M;Östersund;fd revisionsdirektör,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;10;J;J;I;J;223107;Ariane Briant Kjellson;44;K;Östersund;utredare,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;11;J;J;I;J;223108;Bo Oscarsson;70;M;Östersund;jamska,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;12;J;J;I;J;223109;Kia Carlsson;71;K;Östersund;pensionär,Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;13;J;J;I;J;223110;Tomas Svanström;75;M;Östersund;pensionär,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;14;J;J;I;J;223111;Thord Eric Nilsson;76;M;Östersund;redaktör,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;15;J;J;I;J;223112;Ulf Pettersson;54;M;Östersund;kyrkogårdschef,Brunflo;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;16;J;J;I;J;223113;Mats El Kott;69;M;Östersund;arbetsrättsjurist,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;17;J;J;I;J;223114;Finn Cromberger;73;M;Östersund;egen företagare,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;18;J;J;I;J;223115;Henrik Loxell;32;M;Östersund;kommunjurist,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;19;J;J;I;J;223116;Torbjörn Ericson;54;M;Östersund;jur kand,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;20;J;J;I;J;223117;Kjell Ericson;77;M;Östersund;fd polis,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;21;J;J;I;J;223118;Stina Johnsson;21;K;Östersund;studerande,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;22;J;J;I;J;223119;Mats E Nilsson;75;M;Östersund;fd överläkare,Frösön;148000;;J
-K;2380;Östersund;00;Östersund;Liberalerna (tidigare Folkpartiet);L;3;S;13999;23;J;J;I;J;223120;Mehmet Akdag;47;M;Östersund;egen företagare,Östersund;148000;;J
-K;2380;Östersund;00;Östersund;LOTTOKRATIN;;518;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;LÅNGEN&CO;;1345;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Medborgarresan;;1330;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Medborgerlig Samling;MED;1296;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;1;J;J;I;J;175342;Florian Stamm;52;M;Östersund;52, Utredare;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;2;J;J;I;J;385882;Linda Andersson;40;K;Östersund;40, Ekonom;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;3;J;J;I;J;175344;Thomas Dahlberg;34;M;Östersund;34, Programmerare;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;4;J;J;I;J;385884;Elin Stenberg;39;K;Östersund;39, Utredare;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;5;J;J;I;J;175339;Angelika Lindahl;50;K;Östersund;50, Universitetslärare;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;6;J;J;I;J;175346;Anders Vikström Aloandersson;43;M;Östersund;43, Familjebehandlare;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;7;J;J;I;J;385887;Jenny Persson;42;K;Östersund;42, Konstnär, fotograf;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;8;J;J;I;J;175348;Ann-Sofie Karlsson;40;K;Östersund;40, Lärare;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;9;J;J;I;J;385889;Lars Johan Bodin;47;M;Östersund;47, Biografanställd;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;10;J;J;I;J;385890;Karin Österberg;38;K;Östersund;38, Hållbarhetschef;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;11;J;J;I;J;385891;Ingela Jagne;58;K;Östersund;58, Hortonom;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;12;J;J;I;J;175347;Lena Mackegård;54;K;Östersund;54, Egen företagare;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;13;J;J;I;J;385893;Lovisa Roos;21;K;Östersund;21, Studerande;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;14;J;J;I;J;385894;Daniel Liljendahl;43;M;Östersund;43, Statsvetare;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;15;J;J;I;J;385895;Annelie Mattson-Djos;42;K;Östersund;42, Verksamhetscontroller;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;16;J;J;I;J;175336;Anton Nordqvist;27;M;Östersund;27, Egen företagare;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;17;J;J;I;J;385897;Lisa Bois;34;K;Östersund;34, Handläggare;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;18;J;J;I;J;175337;Karin Thomasson;56;K;Östersund;56, Musiklärare;40000;;J
-K;2380;Östersund;00;Östersund;Miljöpartiet de gröna;MP;55;S;15021;19;J;J;I;J;385899;Anders Österholm;37;M;Östersund;37, Systemutvecklare;40000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;1;J;J;I;J;39496;Pär Jönsson;59;M;Östersund;Kommunalråd, Valla;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;2;J;J;I;J;39489;Robert Hamberg;36;M;Östersund;Verksamhetsutvecklare, Lillsjöhögen;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;3;J;J;I;J;39491;Lise Hjemgaard Svensson;65;K;Östersund;Specialistsjuksköterska, Solliden;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;4;J;J;I;J;39498;Joackim Ekroth;56;M;Östersund;Kommunikationschef, Centrum;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;5;J;J;I;J;39506;Joel Nordkvist;28;M;Östersund;Skribent, Hornsberg;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;6;J;J;I;J;39510;Andreas Köhler;39;M;Östersund;Statstjänsteman, Körfältet;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;7;J;J;I;J;39512;Pär Fredriksson;38;M;Östersund;Samordnare, Odenslund;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;8;J;J;I;J;39490;Amanda Jonsson;18;K;Östersund;Studerande, Karlslund;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;9;J;J;I;J;39543;Magnus Lenz;34;M;Östersund;Statstjänsteman, Centrum;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;10;J;J;I;J;39494;Linus Kimselius;32;M;Östersund;Företagare, Remonthagen;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;11;J;J;I;J;39538;Anna Martin;44;K;Östersund;Ekonom, Söder;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;12;J;J;I;J;39519;Linnéa Wigg Victor;77;K;Östersund;Leg.psykolog, Centrum;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;13;J;J;I;J;253477;Ulla-Karin Näs;64;K;Östersund;Företagare, Torvalla;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;14;J;J;I;J;253478;Sverker Jonsson;72;M;Östersund;Köpman, Mo;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;15;J;J;I;J;39524;Salwa Fakr-Eddine;53;K;Östersund;Företagare/tolk, Lit;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;16;J;J;I;J;39539;Carl-Michael Sillström;37;M;Östersund;Statstjänsteman, Centrum;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;17;J;J;I;J;39540;Lars Olof Lignell;74;M;Östersund;Pensionär, Lit;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;18;J;J;I;J;253482;Lars Carlsson;62;M;Östersund;Förskollärare, Södra Söre;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;19;J;J;I;J;39544;Sandra Leosson;32;K;Östersund;Kund- och ekonomiansvarig , Remonthagen;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;20;J;J;I;J;253484;Johnny Holmfors;40;M;Östersund;Statstjänsteman, Odensala;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;21;J;J;I;J;39542;Marielle Hoflin Strindlund;41;K;Östersund;Egen företagare, Tandsbyn;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;22;J;J;I;J;39528;Leif Danielsson;65;M;Östersund;Fritidspolitiker, Brunflo;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;23;J;J;I;J;39526;Ove Isacsson;70;M;Östersund;Fd. Byggentreprenör, Valla;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;24;J;J;I;J;39546;Hans Klaesson;43;M;Östersund;Chaufför, Optand;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;25;J;J;I;J;39547;Per Svee;38;M;Östersund;Statstjänsteman, Söder;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;26;J;J;I;J;39545;Susanne Störvold;56;K;Östersund;Undersköterska, Karlslund;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;27;J;J;I;J;39541;Mikael Hålén;58;M;Östersund;Företagare, Östberg;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;28;J;J;I;J;253492;Ragna Unger;75;K;Östersund;Pensionär, Karlslund;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;29;J;J;I;J;253493;Mikael Nässén;61;M;Östersund;Busschaufför, Fritzhem;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;30;J;J;I;J;253494;Leif Westergren;77;M;Östersund;Pensionär fd controller, Söder;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;31;J;J;I;J;253495;Göran Andersson;65;M;Östersund;Verksamhetschef, Odensala;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;32;J;J;I;J;253496;Anna Malgorzata Larsson;46;K;Östersund;Undersköterska, Brittsbo;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;33;J;J;I;J;253497;Gunnar Hjelm;81;M;Östersund;Pensionär, Körfältet;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;34;J;J;I;J;253498;Iréne Carlsson;67;K;Östersund;Ekonom, Palleråsen;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;35;J;J;I;J;253499;Gustav Törnroos;18;M;Östersund;Studerande, Lövsta;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;36;J;J;I;J;253500;David Carlsson;36;M;Östersund;Miljöinspektör, Centrum;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;37;J;J;I;J;253501;Ingeborg Sahlin;70;K;Östersund;Pensionär, Blomängen;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;38;J;J;I;J;253502;Lars Funseth;61;M;Östersund;Köpman, Fillsta;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;39;J;J;I;J;253503;Anders Ohlson;37;M;Östersund;Industriarbetare, Odensala;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;40;J;J;I;J;253504;Johan Karlsson Fridlund;23;M;Östersund;Studerande, Odenslund;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;41;J;J;I;J;253505;Robert Mårtensson;51;M;Östersund;IT-konsult, Berge;196000;;J
-K;2380;Östersund;00;Östersund;Moderaterna;M;1;S;14284;42;J;J;I;J;253506;Tomas Jonsson;43;M;Östersund;Taxichaufför, Torvalla;196000;;J
-K;2380;Östersund;00;Östersund;Modern Sweden;;1380;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Nordiska motståndsrörelsen;NMR;1273;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Norrlandspartiet;;1378;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;NPP Nya Pensions Partiet;;1399;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;numen kärlekspartiet;;1415;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;NY REFORM;;1385;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Nya bjornska partiet;;1418;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;nya Ny Demokrati;;1391;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Papepartiet;;1408;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Partiet Folkomröstning;;1371;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Piratpartiet;PP;524;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;POPULISTERNA;;1347;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Raggarpartiet;;1389;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Reformist Neutral Partiet;RNP;1202;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Rosa Drömmar;;1409;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Sjöbopartiet;SJP;172;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Skolpartiet Göteborg;;1397;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;SKÅNEPARTIET;SKÅ;54;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Sociala Partiet (SP);;522;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;SOCIALLIBERALERNA;;1421;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Spektral demokrati;;1376;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Svensk Jobbdemokrati;;1414;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Sverige ut ur EU/Frihetliga Rättvisepartiet (FRP);;1384;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Sverigedemokraterna;SD;110;S;13058;1;J;J;I;J;106438;Peter Johansson;59;M;Östersund;Ombudsman;148000;;J
-K;2380;Östersund;00;Östersund;Sverigedemokraterna;SD;110;S;13058;2;J;J;I;J;106439;Stefan Sundberg;48;M;Östersund;IT-konsult;148000;;J
-K;2380;Östersund;00;Östersund;Sverigedemokraterna;SD;110;S;13058;3;J;J;I;J;106440;Christer Jonsson;73;M;Östersund;Företagare;148000;;J
-K;2380;Östersund;00;Östersund;Sverigedemokraterna;SD;110;S;13058;4;J;J;I;N;106441;[inte lämnat förklaring];;;;;148000;;N
-K;2380;Östersund;00;Östersund;Sverigedemokraterna;SD;110;S;13058;5;J;J;I;J;106442;Ginger Olofsson;70;K;Östersund;Pensionär;148000;;J
-K;2380;Östersund;00;Östersund;Sverigedemokraterna;SD;110;S;13058;6;J;J;I;J;106443;Alexandra Boije af Gennäs;48;K;Östersund;Fil kand;148000;;J
-K;2380;Östersund;00;Östersund;Sverigedemokraterna;SD;110;S;13058;7;J;J;I;J;106444;Lars Rindö;67;M;Östersund;Ingenjör;148000;;J
-K;2380;Östersund;00;Östersund;Sverigedemokraterna;SD;110;S;13058;8;J;J;I;J;106445;Stig Saether;52;M;Östersund;Samhall;148000;;J
-K;2380;Östersund;00;Östersund;Sverigedemokraterna;SD;110;S;13058;9;J;J;I;J;106446;Sebastian Bergman;30;M;Östersund;Handläggare;148000;;J
-K;2380;Östersund;00;Östersund;Sverigedemokraterna;SD;110;S;13058;10;J;J;I;J;150121;Arne Johansson;67;M;Östersund;Jurist;148000;;J
-K;2380;Östersund;00;Östersund;Sverigepartiet;;1396;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Sveriges Kommunistiska Parti (SKP);SKP;1063;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Technopartiet;;1400;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Tryggare Sverige;;1328;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;TRYGGHETSPARTIET;TRP;1309;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Utveckling och Progressiv för Sverige partiet (U.P.S);;1386;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;VALDI2018;;1422;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Valsamverkanspartiet;;1332;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Vi Socialkonservativa;ViS;1349;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Visiona;;1417;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Vårt land - Sverige;;1412;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Vägvalet;VägV;1138;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;1;J;J;I;J;343740;Lotta Blomberg;46;K;Östersund;46 år, enhetschef, Erikslund;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;2;J;J;I;J;253061;Svante Freij;54;M;Östersund;54 år, byggnadsantikvarie, Karlslund;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;3;J;J;I;J;343742;Antonia Savva;29;K;Östersund;29 år, studerande, Östersund;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;4;J;J;I;J;252537;Nisse Sandqvist;32;M;Östersund;32 år, timvikarie LSS, Torvalla;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;5;J;J;I;J;300379;Agneta Lögdquist Eriksson;67;K;Östersund;67 år, pensionerad undersköterska, Körfältet;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;6;J;J;I;J;253063;Johan Flander;57;M;Östersund;57 år, boendehandledare/mentalskötare, Frösön;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;7;J;J;I;J;252084;Christina Hedin;41;K;Östersund;41 år, utbildningssamordnare, Norderön;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;8;J;J;I;J;343747;Anna Hallqvist;45;K;Östersund;45 år, handledare för pedagogiskt stöd, Torvalla;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;9;J;J;I;J;343748;Anne Svensson;36;K;Berg;36 år, statstjänsteman, Brunflo;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;10;J;J;I;J;252538;Elin Hoffner;45;K;Östersund;45 år, behandlingsassistent, Hara;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;11;J;J;I;J;253074;Stig Söderin;62;M;Östersund;62 år, byggnadssnickare, Marielund;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;12;J;J;I;J;300376;Hanne Krogfjord;46;K;Östersund;46 år, sjukskriven, Torvalla;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;13;J;J;I;J;343752;Claes Malmquist;76;M;Östersund;76 år, egen företagare, Orrviken;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;14;J;J;I;J;343753;Nazanin Oladi;50;K;Östersund;50 år, lärare, Frösön;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;15;J;J;I;J;343754;Petter Stugvard;52;M;Östersund;52 år, mejeriarbetare, Torvalla by;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;16;J;J;I;J;343755;Emil Kristiansson;32;M;Östersund;32 år, distriktssköterska, Husås;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;17;J;J;I;J;343756;Inga-Karin Bergman;80;K;Östersund;80 år, pensionerad lärare, Blomängen;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;18;J;J;I;J;343757;Karin Stjernefeldt;68;K;Östersund;68 år, pensionerad socionom, Odensala;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;19;J;J;I;J;253060;Sonny Hoffman;57;M;Östersund;57 år, tjänsteman, Lugnvik;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;20;J;J;I;J;343759;Reidar Lunde;58;M;Östersund;58 år, lärare, Odensala;70000;;J
-K;2380;Östersund;00;Östersund;Vänsterpartiet;V;5;S;14813;21;J;J;I;J;343760;Anders Lundgren;43;M;Östersund;43 år, studentombud, Häggenås;70000;;J
-K;2380;Östersund;00;Östersund;Äkta demokrati;;1407;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
-K;2380;Östersund;00;Östersund;Ändrings partiet revolution;;1404;;;;N;J;J;I;513996;Festin, Karl;61;M;Östersund;;0;;J
+1365|513996
+1423|513996
+2|72980|72981|7455|72983|8152|8160|8219|73666|16273|73668|73669|6465|73671|73672|16779|73673|8161|73750|8228|73752|73753|73754|8148|73756|96890|73757|73758|8147|73760|16258|73856|73857|73858|174058|84097|73859|7441|96901|8221|73861|160265|8134|73863|84103|73864|96908|8135|73866|73867|73868|8163|73870|73871|73872|73873|73874|74024|74025|74026|112124|74027|74028|74029|7454|96926|7448|74032|74033|8224|74035|74036
+1420|513996
+1372|513996
+1375|513996
+4|242657|242658|242659|8554|95768|242662|242663|242664|242665|242666|95776|242668|242669|242670|242671|242672|242673|242674|242675|242676|242677|242678|242679|242680|242681|242682|242683|242684|242685|242686|242687|242688|242689|242690|242691|242692|242693|242694|242695|242696|242697
+1318|513996
+1426|513996
+1387|513996
+1314|513996
+1351|513996
+1150|513996
+29|513996
+532|513716|513717|219327|513719|513996
+1329|513996
+1425|513996
+1388|513996
+1317|513996
+1406|513996
+1173|513996
+1176|513996
+1316|513996
+1374|513996
+1416|513996
+638|513996
+1405|513996
+68|285758|205319|205314|205320|205316|209046|209047|205310|209049|205322
+1140|513996
+1011|513996
+3|49200|223099|223100|223101|223102|223103|223104|223105|223106|223107|223108|223109|223110|223111|223112|223113|223114|223115|223116|223117|223118|223119|223120
+518|513996
+1345|513996
+1330|513996
+1296|513996
+55|175342|385882|175344|385884|175339|175346|385887|175348|385889|385890|385891|175347|385893|385894|385895|175336|385897|175337|385899
+1|39496|39489|39491|39498|39506|39510|39512|39490|39543|39494|39538|39519|253477|253478|39524|39539|39540|253482|39544|253484|39542|39528|39526|39546|39547|39545|39541|253492|253493|253494|253495|253496|253497|253498|253499|253500|253501|253502|253503|253504|253505|253506
+1380|513996
+1273|513996
+1378|513996
+1399|513996
+1415|513996
+1385|513996
+1418|513996
+1391|513996
+1408|513996
+1371|513996
+524|513996
+1347|513996
+1389|513996
+1202|513996
+1409|513996
+172|513996
+1397|513996
+54|513996
+522|513996
+1421|513996
+1376|513996
+1414|513996
+1384|513996
+110|106438|106439|106440|106441|106442|106443|106444|106445|106446|150121
+1396|513996
+1063|513996
+1400|513996
+1328|513996
+1309|513996
+1386|513996
+1422|513996
+1332|513996
+1349|513996
+1417|513996
+1412|513996
+1138|513996
+5|343740|253061|343742|252537|300379|253063|252084|343747|343748|252538|253074|300376|343752|343753|343754|343755|343756|343757|253060|343759|343760
+1407|513996
+1404|513996

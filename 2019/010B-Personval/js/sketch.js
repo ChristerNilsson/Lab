@@ -1107,7 +1107,7 @@ spara = function spara(lista, key, value) {
 };
 
 readDatabase = function readDatabase() {
-  var arr, cells, k, knr, kommun, len, line, lines, namn, område, områdeskod, parti, partikoder, valtyp;
+  var arr, cells, k, knr, kommun, len, line, lines, namn, område, områdeskod, parti, partikoder, results, valtyp;
 
   var _getParameters = getParameters();
 
@@ -1123,6 +1123,7 @@ readDatabase = function readDatabase() {
   //partier = {}
   lines = db.split('\n');
   //clowner = getClowner lines
+  results = [];
   for (k = 0, len = lines.length; k < len; k++) {
     line = lines[k];
     cells = line.split(';');
@@ -1161,12 +1162,16 @@ readDatabase = function readDatabase() {
       spara([valtyp, parti], knr + '-' + namn, cells);
     }
     if (valtyp === 'K' && områdeskod === kommunkod) {
-      spara([valtyp, parti], knr + '-' + namn, cells);
+      results.push(spara([valtyp, parti], knr + '-' + namn, cells));
+    } else {
+      results.push(void 0);
     }
   }
-  print(dictionary);
-  return print(partikoder);
+  return results;
 };
+
+//print dictionary
+//print partikoder
 
 //print partier
 //for key,parti of partier
@@ -1205,10 +1210,10 @@ setup = function setup() {
   x2 = 0.28 * width;
   x3 = 0.64 * width;
   x4 = 1.00 * width;
-  pages.typ = new TypPage(x3, 0, x4 - x3, height);
   pages.partier = new PartiPage(0, 0, x1 - x0, height);
   pages.letters = new LetterPage(x1, 0, x2 - x1, height);
   pages.personer = new PersonPage(x2, 0, x3 - x2, height);
+  pages.typ = new TypPage(x3, 0, x4 - x3, height);
   pages.utskrift = new UtskriftPage(0, 0, x4, height);
   pages.utskrift.active = false;
   sc();

@@ -1,47 +1,6 @@
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;1;J;J;I;J;192114;Fred Stövset;55;M;Sorsele;55 år, Arbetsförmedlare, Sorsele;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;2;J;J;I;J;196672;Pia Sjöberg;52;K;Sorsele;52 år, Ekonom, Stensund;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;3;J;J;I;J;196673;Daniel Grundström;59;M;Sorsele;58 år, Egen företagare, Ammarnäs;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;4;J;J;I;J;193018;Katarina Lövgren;57;K;Sorsele;57 år, Ammarnäs;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;5;J;J;I;J;196675;Jan Lövgren;65;M;Sorsele;65 år, Pensionär, Ammarnäs;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;6;J;J;I;J;193003;Bo Brydsten;69;M;Sorsele;69 år, Pensionär, Kraddsele;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;7;J;J;I;J;196677;Viveca Lindbom;64;K;Sorsele;64 år, Undersköterska, Sorsele;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;8;J;J;I;J;196678;Sven-Åke Nilsson;68;M;Sorsele;68 år, Pensionär, Blattnicksele;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;9;J;J;I;J;196679;Erika F.Hedman;50;K;Sorsele;50 år, Barnskötare, Blattnicksele;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;10;J;J;I;J;193026;Styrbjörn Lind;73;M;Sorsele;73 år, Pensionär, Gargnäs;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;11;J;J;I;J;196681;Ulla Strömgren-Karlberg;68;K;Sorsele;68 år, Pensionär, Ammarnäs;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;12;J;J;I;J;196682;Marcus Eriksson;34;M;Sorsele;34 år, Egen företagare, Ammarnäs;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;13;J;J;I;J;196683;Ann Marie Fjellström;53;K;Sorsele;Behandlingsassistent, Sorsele;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;14;J;J;I;J;196684;Lars-Göran Holmlund;73;M;Sorsele;73 år, Pensionär, Gargnäs;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;15;J;J;I;J;196685;Melker Sjöström;65;M;Sorsele;65 år, Pensionär, Sorsele;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;16;J;J;I;J;196686;Isak Jonsson;35;M;Sorsele;35 år, Undersköterska, Sorsele;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;17;J;J;I;J;196687;Sven-Erik Lindbom;67;M;Sorsele;68 år, Undersköterska, Sorsele;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;18;J;J;I;J;196688;Martin Harr;60;M;Sorsele;60 år, Vägmästare, Storbränna;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;19;J;J;I;J;196689;Barbro Fjellner Olofsson;67;K;Sorsele;67 år, Pensionär, Sorsele;8000;;J
-K;2422;Sorsele;00;Sorsele;Arbetarepartiet-Socialdemokraterna;S;2;S;13816;20;J;J;I;J;196690;Ulrik Thureson;51;M;Sorsele;50 år, Egen företagare, Sorsele;8000;;J
-K;2422;Sorsele;00;Sorsele;Centerpartiet;C;4;S;12761;1;J;J;I;J;55743;Kristina Axelsson;50;K;Sorsele;;7000;;J
-K;2422;Sorsele;00;Sorsele;Centerpartiet;C;4;S;12761;2;J;J;I;J;70705;Ingemar Johansson;70;M;Sorsele;;7000;;J
-K;2422;Sorsele;00;Sorsele;Centerpartiet;C;4;S;12761;3;J;J;I;J;70706;Carina Selbrand;64;K;Sorsele;;7000;;J
-K;2422;Sorsele;00;Sorsele;Centerpartiet;C;4;S;12761;4;J;J;I;J;70707;Jan Axelsson;52;M;Sorsele;;7000;;J
-K;2422;Sorsele;00;Sorsele;Centerpartiet;C;4;S;12761;5;J;J;I;J;70708;Nina Häreskog-Linder;54;K;Sorsele;;7000;;J
-K;2422;Sorsele;00;Sorsele;Centerpartiet;C;4;S;12761;6;J;J;I;J;48818;Alexandra Wermelin;33;K;Sorsele;;7000;;J
-K;2422;Sorsele;00;Sorsele;Centerpartiet;C;4;S;12761;7;J;J;I;J;70710;Maj Borg;65;K;Sorsele;;7000;;J
-K;2422;Sorsele;00;Sorsele;Centerpartiet;C;4;S;12761;8;J;J;I;J;70711;Gunnar Borg;66;M;Sorsele;;7000;;J
-K;2422;Sorsele;00;Sorsele;Moderaterna;M;1;S;14889;1;J;J;I;J;361248;Lillian Holloway;69;K;Sorsele;69, Ammarnäs;7000;;J
-K;2422;Sorsele;00;Sorsele;Moderaterna;M;1;S;14889;2;J;J;I;J;361249;Thomas Forsvall;44;M;Sorsele;44, Ammarnäs;7000;;J
-K;2422;Sorsele;00;Sorsele;Moderaterna;M;1;S;14889;3;J;J;I;J;361250;Daniela Olsson;38;K;Sorsele;38, Sorsele;7000;;J
-K;2422;Sorsele;00;Sorsele;Moderaterna;M;1;S;14889;4;J;J;I;J;361251;Rune Tovetjärn;72;M;[saknas i folkbokföringen];72, Sorsele;7000;;J
-K;2422;Sorsele;00;Sorsele;POPULISTERNA;;1347;;;;N;J;J;I;509134;Persson, Fritjof;48;M;Sorsele;;0;;J
-K;2422;Sorsele;00;Sorsele;Sverigedemokraterna;SD;110;S;14278;1;J;J;I;J;71267;Petter Nilsson;34;M;Umeå;Distriktsordförande;7000;;J
-K;2422;Sorsele;00;Sorsele;Vänsterpartiet;V;5;S;14968;1;J;J;I;J;374897;Kjell Öjeryd;57;M;Sorsele;Kommunalråd/lantbrukare, Sandsjön;4000;;J
-K;2422;Sorsele;00;Sorsele;Vänsterpartiet;V;5;S;14968;2;J;J;I;J;374898;Maria Broberg;41;K;Sorsele;Skribent, Nedre Saxnäs;4000;;J
-K;2422;Sorsele;00;Sorsele;Vänsterpartiet;V;5;S;14968;3;J;J;I;J;374899;Urban Isaksson;41;M;Sorsele;Yrkesförare, Sorsele;4000;;J
-K;2422;Sorsele;00;Sorsele;Vänsterpartiet;V;5;S;14968;4;J;J;I;J;374900;Inger Stenlund;65;K;Sorsele;Pensionär, Blattnicksele;4000;;J
-K;2422;Sorsele;00;Sorsele;Vänsterpartiet;V;5;S;14968;5;J;J;I;J;374901;Oscar Öjeryd;32;M;Sorsele;Tjänsteman, Sorsele;4000;;J
-K;2422;Sorsele;00;Sorsele;Vänsterpartiet;V;5;S;14968;6;J;J;I;J;374902;Robin Fransson;59;M;Sorsele;Skogsarbetare, Sorsele;4000;;J
-K;2422;Sorsele;00;Sorsele;Vänsterpartiet;V;5;S;14968;7;J;J;I;J;374903;Kjellan Grundström;52;M;Sorsele;Spårkalle, Sorsele;4000;;J
-K;2422;Sorsele;00;Sorsele;Vänsterpartiet;V;5;S;14968;8;J;J;I;J;374904;Lennart Sjöberg;60;M;Sorsele;Nedre Saxnäs;4000;;J
-K;2422;Sorsele;00;Sorsele;Vänsterpartiet;V;5;S;14968;9;J;J;I;J;374905;Marita Westlund;68;K;Sorsele;Pensionär, Sorsele;4000;;J
-K;2422;Sorsele;00;Sorsele;Vänsterpartiet;V;5;S;14968;10;J;J;I;J;374906;Bengt Abrahamsson;68;M;Sorsele;Pensionär, Sorsele;4000;;J
-K;2422;Sorsele;00;Sorsele;Vänsterpartiet;V;5;S;14968;11;J;J;I;J;374907;Tord Karlsson;57;M;Sorsele;Skogsarbetare, Giltjaur;4000;;J
-K;2422;Sorsele;00;Sorsele;Vänsterpartiet;V;5;S;14968;12;J;J;I;J;374908;Bert Efraimsson;79;M;Sorsele;Pensionär, Sorsele;4000;;J
-K;2422;Sorsele;00;Sorsele;Vänsterpartiet;V;5;S;14968;13;J;J;I;J;374909;Inga-Lill Stenmark;58;K;Sorsele;Undersköterska, Sorsele;4000;;J
+2|192114|196672|196673|193018|196675|193003|196677|196678|196679|193026|196681|196682|196683|196684|196685|196686|196687|196688|196689|196690
+4|55743|70705|70706|70707|70708|48818|70710|70711
+1|361248|361249|361250|361251
+1347|509134
+110|71267
+5|374897|374898|374899|374900|374901|374902|374903|374904|374905|374906|374907|374908|374909
