@@ -3,13 +3,13 @@ class UtskriftPage extends Page
 		super x,y,w,h
 		@selected = null
 		@buttons = []
-		@addButton new Button 'Utskrift', 0.02*width,0.4*height,270,45, -> window.print()
-		@addButton new Button 'Fortsätt', 0.02*width,0.5*height,270,45, -> 
+		@addButton new Button 'Utskrift', 0.02*width,0.6*height,270,45, -> window.print()
+		@addButton new Button 'Fortsätt', 0.02*width,0.7*height,270,45, -> 
 			myNode = document.getElementById "qrcode"
 			myNode.innerHTML = ''
 			pages.utskrift.active = false 
 			pages.typ.createSelectButtons()
-		@addButton new Button 'Slump', 0.02*width,0.6*height,270,45, -> 
+		@addButton new Button 'Slump', 0.02*width,0.8*height,270,45, -> 
 			myNode = document.getElementById "qrcode"
 			myNode.innerHTML = ''
 			pages.utskrift.active = false 
@@ -34,12 +34,12 @@ class UtskriftPage extends Page
 		myNode = document.getElementById 'qrcode'
 		myNode.style.position = 'absolute' 
 		myNode.style.left = "#{int 0.02*width}px"
-		myNode.style.top = "#{int 0.1*height}px"
+		myNode.style.top = "#{int 0.02*height}px"
 		textAlign LEFT,CENTER
 		bg 1
 		fc 0
 		# text pages.typ.qr,20,0.9*height
-		text "#{'crc: ' + @getCRC pages.typ.qr.slice 10} #{'tid: '+@cpu}",0.02*width,0.7*height
+		text "#{'crc: ' + @getCRC pages.typ.qr.slice 10} #{'tid: '+@cpu}",0.02*width,0.9*height
 
 		push()
 		sc()
@@ -54,12 +54,12 @@ class UtskriftPage extends Page
 					personnamn = ''
 				else
 					personnamn = dbPersoner[typ][knr][2]
-				y = [0,0.25*h,0.5*h][i] + 0.05*h + 0.04*h*j
+				y = [0,0.3*h,0.6*h][i] + 0.04*h + 0.05*h*j
 				if j==0 
 					textSize 28
-					text dbName[typ],0.2*width,y 
+					text dbName[typ],0.31*width,y 
 				textSize 20
-				text "#{j+1}  #{partinamn} - #{personnamn}",0.2*w,y+0.04*h
+				text "#{j+1}  #{partinamn} - #{personnamn}",0.3*w,y+0.05*h
 		pop()
 
 		pages.typ.sbuttons = []
