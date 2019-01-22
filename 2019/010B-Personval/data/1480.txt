@@ -1,22 +1,559 @@
-2|201221|201222|201223|200507|201225|201226|201227|201228|200506|201230|201231|200521|201233|201234|201235|201236|200512|201238|200520|201240|201241|201242|200514|201244|201245|201246|201247|201248|201249|201250|200518|201252|201253|201254|200508|200513|201257|201258|201259|201260|201261|201262|201263|200519|201265|200515|201267|201268|201269|201270|201271|201272|201273|201274|201275|201276|201277|201278|201279|201280|201281|201282|201283|201284|201285|201286|201287|201288|201289|201290|201291|202666
-1372|486475
-4|1888|36656|36657|1882|36659|36660|36661|36662|36663|36664|36666|36667|36668|36669|36670|36671|36672|6159|36674|36675|36676|36677|36678|36679|36680|36681|36682|36683|36684|36685|36686|36687|36688|36689
-1297|281046|281047|281048|281049|281050|281051|281052|281053|281054|281055|281056|281057|281058|281059|281060|281061|281062|281063|281064|281065|281066|281067|281068|281069|281070|281071|281072|281073|281074
-1150|365282|514817
-1136|469730|469731|469732|469733
-532|188461|219308|185389|188425|276374|276375|219336|219296|276415|276488|276489|276490|276491|219337|276555|276556|276557|276558|276559|276560|276561
-638|515695
-471|285720|285721|285722|285723|285724|285725|285726|285727|285728|285729|285746|285731|285732|285733|285734|285735|285736|285747|285738|285739|285740|285749|285748|285743|285744|285745
-68|31814|199936|199941|198314|199947|202796|202797|199935|198303|198306|199940|199951|198301|202804|199944|198308|202807|199955|202809|198304|202811|198307|198316|202814|202815|199958
-1140|480151|480113|507625|480104|507627
-3|234031|234032|234033|234034|234035|234036|234037|234038|234039|234040|234041|234042|234043|233751|233767|234046|234047|234048|233764|234050|234051|234052|234053|233759|234055|234056|234057|234058|234059|234060|234061
-1296|128550|128529|128568|257615|259798
-55|306672|304610|306674|304591|304594|304615|304602|304601|304592|306681|304612|306683|74064|304600|304603|82462|306689|304596|304605|306692|306693|306694|306695|306696|306697|306698|152587|306700|306701|306702|304599|306704|82469|74084
-1|864|865|866|867|868|869|870|871|872|873|874|875|876|877|878|879|880|881|882|883|884|885|886|887|255751|254013|255753|255754|255755|255756|242940|255758|255759|255760|255761|255762|255763|255764|255765|255766|242934|255768|255769|255770|255771|255772|242942|255774|255775|255776|255777|255778|255779|255780|255781|255782|255783|255784|255786|255787|255788|255789
-524|395217|395220|395221|395222|395223|395219
-131|275100|275101|275102|275103|275104|275105|275106|275107|275108|275109|275110|275111|275112|312897|275113|275114|275115|275116|275117|275118
-470|35238
-1397|512055|512056|512057
-110|126755|126756|126757|126758|126759|126760|126761|126762|126763|126764|126765|126766|126767|126768|126769|126770|126771|126772|126773|126774|126775|126776|126777|126778|126779|126780|126781|126782|126783|126784|126785|126786|126787|126788|126790|126791|126792|126793|126794|126795|126796|126797|126798|126799|126800|126801|59828|126803|126804|126805|126807|126808|126809|126810|126811|6167
-1138|188426|188427|188428|188429|188430|188431|188432|188433|188434|188435|188436|91951|188438|188439|188440|188441|188442|188443|188444|188445|188446|188447|188448|188449|188450|188451|188452|188453|188454|188455|188456|188457|188458|188459|188460
-5|139240|139241|139242|139243|94380|139245|94367|139180|94370|94366|139250|139251|94372|139253|139254|94369|139165|139167|139177|139048|94375|94374|139278|94373|139280|94378|94382|139283|94379|139285|139175|94368|139319|139320|139321|139322|139179|139324|139325|139326|139327
+T|Göteborg
+A|2|201221|201222|201223|200507|201225|201226|201227|201228|200506|201230|201231|200521|201233|201234|201235|201236|200512|201238|200520|201240|201241|201242|200514|201244|201245|201246|201247|201248|201249|201250|200518|201252|201253|201254|200508|200513|201257|201258|201259|201260|201261|201262|201263|200519|201265|200515|201267|201268|201269|201270|201271|201272|201273|201274|201275|201276|201277|201278|201279|201280|201281|201282|201283|201284|201285|201286|201287|201288|201289|201290|201291|202666
+A|1372|486475
+A|4|1888|36656|36657|1882|36659|36660|36661|36662|36663|36664|36666|36667|36668|36669|36670|36671|36672|6159|36674|36675|36676|36677|36678|36679|36680|36681|36682|36683|36684|36685|36686|36687|36688|36689
+A|1297|281046|281047|281048|281049|281050|281051|281052|281053|281054|281055|281056|281057|281058|281059|281060|281061|281062|281063|281064|281065|281066|281067|281068|281069|281070|281071|281072|281073|281074
+A|1150|365282|514817
+A|1136|469730|469731|469732|469733
+A|532|188461|219308|185389|188425|276374|276375|219336|219296|276415|276488|276489|276490|276491|219337|276555|276556|276557|276558|276559|276560|276561
+A|638|515695
+A|471|285720|285721|285722|285723|285724|285725|285726|285727|285728|285729|285746|285731|285732|285733|285734|285735|285736|285747|285738|285739|285740|285749|285748|285743|285744|285745
+A|68|31814|199936|199941|198314|199947|202796|202797|199935|198303|198306|199940|199951|198301|202804|199944|198308|202807|199955|202809|198304|202811|198307|198316|202814|202815|199958
+A|1140|480151|480113|507625|480104|507627
+A|3|234031|234032|234033|234034|234035|234036|234037|234038|234039|234040|234041|234042|234043|233751|233767|234046|234047|234048|233764|234050|234051|234052|234053|233759|234055|234056|234057|234058|234059|234060|234061
+A|1296|128550|128529|128568|257615|259798
+A|55|306672|304610|306674|304591|304594|304615|304602|304601|304592|306681|304612|306683|74064|304600|304603|82462|306689|304596|304605|306692|306693|306694|306695|306696|306697|306698|152587|306700|306701|306702|304599|306704|82469|74084
+A|1|864|865|866|867|868|869|870|871|872|873|874|875|876|877|878|879|880|881|882|883|884|885|886|887|255751|254013|255753|255754|255755|255756|242940|255758|255759|255760|255761|255762|255763|255764|255765|255766|242934|255768|255769|255770|255771|255772|242942|255774|255775|255776|255777|255778|255780|255781|255782|255783|255784|255786|255787|255788|255789
+A|524|395217|395220|395221|395222|395223|395219
+A|131|275100|275101|275102|275103|275104|275105|275106|275107|275108|275109|275110|275111|275112|312897|275113|275114|275115|275116|275117|275118
+A|470|35238
+A|1397|512055|512056|512057
+A|110|126755|126756|126757|126758|126759|126760|126761|126762|126763|126764|126765|126766|126767|126768|126769|126770|126771|126772|126773|126774|126775|126776|126777|126778|126779|126780|126781|126782|126783|126784|126785|126786|126787|126788|126790|126791|126792|126793|126794|126795|126796|126797|126798|126799|126800|126801|59828|126803|126804|126805|126807|126808|126809|126810|126811|6167
+A|1138|188426|188427|188428|188429|188430|188431|188432|188433|188434|188435|188436|91951|188438|188439|188440|188441|188442|188443|188444|188445|188446|188447|188448|188449|188450|188451|188452|188453|188454|188455|188456|188457|188458|188459|188460
+A|5|139240|139241|139242|139243|94380|139245|94367|139180|94370|94366|139250|139251|94372|139253|139254|94369|139165|139167|139177|139048|94375|94374|139278|94373|139280|94378|94382|139283|94379|139285|139175|94368|139319|139320|139321|139322|139179|139324|139325|139326|139327
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1372||Basinkomstpartiet
+B|4|C|Centerpartiet
+B|1297|DEM|Demokraterna
+B|1150|DD|Direktdemokraterna
+B|1136|DjuP|Djurens parti
+B|532|FI|Feministiskt initiativ
+B|638|KLP|Klassiskt liberala partiet
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|524|PP|Piratpartiet
+B|131|RS|Rättvisepartiet Socialisterna
+B|470||Seniorpartiet
+B|1397||Skolpartiet Göteborg
+B|110|SD|Sverigedemokraterna
+B|1138|VägV|Vägvalet
+B|5|V|Vänsterpartiet
+C|201221|53|K|Ann-Sofie Hermansson|53, fd. Industriarbetare
+C|201222|55|M|Ali Reza Moeeni Taghavi|55, Processoperatör
+C|201223|40|K|Mariya Voyvodova|40, Statsvetare
+C|200507|50|M|Jonas Attenius|50, Byggnadssnickare
+C|201225|57|K|Ingrid Andreae|57, Ombudsman LO
+C|201226|38|M|Shahbaz Khan|38, Kommunalråd
+C|201227|47|K|Marina Johansson|47, Barnskötare
+C|201228|54|M|Aslan Akbas|54, Admin. koordinator
+C|200506|51|K|Shadiye Heydari|51, Enhetschef
+C|201230|51|M|Håkan Hallengren|51, Terminalarbetare
+C|201231|32|K|Viktoria Tryggvadottir|32, Kommunikatör
+C|200521|46|M|Patrick Gladh|46, Rektor
+C|201233|67|K|Lena Landén Olsson|67, Utredare
+C|201234|26|M|Admir Ramadanovic|26, Kredithandläggare
+C|201235|64|K|Susanne Sillberg Ligander|64, HR-specialist
+C|201236|26|M|Roshan Yigit|26, Juridikstudent
+C|200512|40|K|Camilla Widman|40, Postarbetare
+C|201238|33|M|Reger Shafik|33, Handläggare
+C|200520|25|K|Amalia Rud Pedersen|25, Student
+C|201240|55|M|Mats Arnsmar|55, Murare
+C|201241|36|K|Sofi Bringsoniou|36, Förhandlare
+C|201242|46|M|Robert Hammarstrand|46, Studerande
+C|200514|40|K|Saida Hussein|40, Pedagog
+C|201244|49|M|Magnus Kindmark|49, Elektriker
+C|201245|23|K|Jennifer Cardell|23, Miljöekonom
+C|201246|45|M|Staffan Lindström|45, Kommunikatör
+C|201247|44|K|Anna Jivén|44, Miljövetare
+C|201248|50|M|Anders Moberg|50, Fabriksarbetare
+C|201249|45|K|Parisa Rezaeivar|45, Undersköterska
+C|201250|21|M|David Akrad|21, Student
+C|200518|50|K|Anneli Eriksson|50, Lagerarbetare
+C|201252|45|M|Joakim Hagberg|45, Industriarbetare
+C|201253|41|K|Claudia Pedrini|41, Undersköterska
+C|201254|25|M|Alfred Johansson|25, Student
+C|200508|48|K|Floid Gumbo Strandvik|48, Artist
+C|200513|75|M|Sören Björkman|75, Pensionär
+C|201257|65|K|UllaKarin Näslund|65, Barnskötare
+C|201258|55|M|Bahman Esmail Nejad|55, Förskollärare
+C|201259|18|K|Elsa Alm|18, Student
+C|201260|37|M|Kristofer Bergman|37, Industriarbetare
+C|201261|51|K|Annelie Schagerström|51, Handläggare
+C|201262|55|M|Willy Kiela|55, Undersköterska
+C|201263|49|K|Nina Forsberg|49, Livsmedelsarbetare
+C|200519|31|M|Rikard Ledin da Rosa|31, Managementkonsult
+C|201265|73|K|Anita Edman|73, Pensionär
+C|200515|23|M|Jesper Eneroth|23, Student
+C|201267|27|K|Luwam Ghebremichael|27, Myndighetsanställd
+C|201268|61|M|Ronny Svensson|61, Ombudsman IF Metall
+C|201269|22|K|Emelie Markianos|22, Studerande
+C|201270|51|M|Claes Söderling|51, Brevbärare
+C|201271|64|K|Radmila Stefanovic|64, Pensionär
+C|201272|34|M|Gustav Öberg|34, Ombudsman HRF
+C|201273|36|K|Gabriella Köster|36, Student
+C|201274|24|M|Viktor Stenlöf|24, Ombudsman
+C|201275|41|K|Sara Waldenfors|41, Präst
+C|201276|38|M|Cristian Delgado Sandoval|38, Underhållstekniker
+C|201277|62|K|Birgitta Adler|62, Processledare
+C|201278|67|M|Ulf Johansson|67, Rörläggare
+C|201279|60|K|Gladys Velarde|60, Stödassistent
+C|201280|35|M|Christian Steingrüber|35, Managementkonsult
+C|201281|27|K|Sofia Hvittfeldt|27, Fred-och utvecklingsvetare
+C|201282|38|M|Parham Pour Bayramian|38, Ombudsman Byggnads
+C|201283|46|K|Katarina Sjöberg|46, Butikssäljare
+C|201284|73|M|Cenab Turunc|73, Socionom
+C|201285|53|K|Gazali Sörensen|53, Fritidspedagog
+C|201286|75|M|Ulf Ahlstedt|75, Advokat
+C|201287|43|K|Dragana Todorovic|43, Svetsmontör
+C|201288|33|M|Daniel Brandt|33, Projektledare
+C|201289|50|K|Sara Teclezion Woldemariam|50, Boendepedagog
+C|201290|53|M|Mattias Hallberg|53, SFI-lärare
+C|201291|19|K|Hanna Moradi|19, Student
+C|202666|62|M|Alaedin Hedayati|62, Arbetsförmedlare
+C|486475|43|M|Ali Tabrizi|43 år, Hållbarhetsstrateg, Västra Frölunda
+C|1888|30|K|Emmyly Bönfors|30 år, tjänsteman
+C|36656|23|M|Naod Habtemichael|23 år, studerande
+C|36657|32|K|Sabina Music|32 år, byggingenjör
+C|1882|44|K|AnnaSara Perslow|44 år, organisationsutvecklare
+C|36659|56|K|Ajsela Bruncevic|56 år, montessorilärare, jurist
+C|36660|33|M|Hayder Tariq|33 år, studerande
+C|36661|60|M|Gunne Steen|60 år, egenföretagare
+C|36662|24|K|Dana Pourkomejlian|24 år, jurist
+C|36663|50|K|Didar Zuta|50 år, marknadsekonom
+C|36664|35|K|Louise Pettersson|35 år, kampanj- och organisationsledare
+C|36666|47|K|Karin Östring Bergman|47 år, teknikkonsult
+C|36667|30|K|Emina Music|30 år, beräkningsingenjör
+C|36668|53|K|Katarina Lundin|53 år, civilekonom, projektledare
+C|36669|29|M|Max Törnqvist|29 år, politisk sekreterare
+C|36670|39|K|Lina M. Eriksson|39 år, filosofie doktor i statsvetenskap
+C|36671|27|K|Amanda Hoffström|27 år, utvecklare, egenföretagare, studerande
+C|36672|38|M|Wissam Chaabi|38 år, entreprenör
+C|6159|63|M|Mats Brännström|63 år, IT-samordnare
+C|36674|35|K|Cecilia Haraldsson|35 år, managementkonsult
+C|36675|74|M|Dan Öjvind Gasstorp|74 år, pensionär
+C|36676|64|M|Resad Bruncevic|64 år, civilingenjör
+C|36677|76|M|Roland Norlén|76 år, sjökapten
+C|36678|56|M|Hans Arby|56 år, civilingenjör
+C|36679|33|M|Daniel Svensson|33 år, journalist
+C|36680|46|M|Peter Hedberg|45 år, elektroingenjör
+C|36681|53|M|Fredrik Nilsson|53 år, översättare
+C|36682|25|M|Daniel Augustsson|25 år, montör
+C|36683|40|M|Henrik Ragnevi|40 år, egenföretagare
+C|36684|44|K|Linda Mathiasson|44 år, socionom
+C|36685|46|M|Robert Nordman|46 år, ordningsvakt
+C|36686|42|K|Marie Åhs|42 år, produktionschef
+C|36687|39|M|Jakob Edshage|39 år, läkare
+C|36688|47|K|Irene Nettéus|47 år, projektledare
+C|36689|43|K|Sofia Gustavsson|43 år, habiliteringspedagog
+C|281046|51|M|Martin Wannholt|civilingenjör, kommunalråd
+C|281047|47|K|Jessica Blixt|grundskollärare
+C|281048|61|M|Ulf Boström|integrationspolis
+C|281049|51|K|Anna Karin Hammarstrand|företagare
+C|281050|38|M|Jahja Zeqiraj|stadsdelsnämndsordförande
+C|281051|50|K|Mariette Risberg|leg. sjuksköterska
+C|281052|44|M|Henrik Munck|stadsdelsnämndsordförande
+C|281053|71|K|Iréne Sjöberg-Lundin|kulturproducent
+C|281054|60|M|Peter Danielsson|produktplanerare
+C|281055|38|K|Karin Lindberg|företagare
+C|281056|56|M|Bengt-Åke Harrysson|fastighetskonsult
+C|281057|58|K|Åse Victorin|barn- och skolläkare
+C|281058|60|M|Jan-Olof Ekelund|kommunikationsstrateg
+C|281059|45|K|Veronica Öjeskär|projektledare
+C|281060|79|M|Per Anders Örtendahl|ekonomie doktor
+C|281061|56|K|Birgitta Lindgren Karlsson|förskolechef
+C|281062|60|M|Torkel Bergström|IT-projektledare
+C|281063|46|K|Karin Alfredsson|småföretagare
+C|281064|49|M|Mikael Sjöholm|creative director
+C|281065|63|K|Lillemor Williamsson|egenföretagare
+C|281066|65|M|Thomas Hedberg|företagare
+C|281067|58|K|Anna Thunes|administratör
+C|281068|73|M|Charlie Karlsson|professor emeritus
+C|281069|69|K|Marianne Aase|ergonom
+C|281070|66|M|Thomas Lingefjärd|docent
+C|281071|82|K|Eva Jonsson|farmaceut
+C|281072|32|M|Christer Oxien|mediesäljare
+C|281073|72|K|Birgitta Wästlund|leg. sjukgymnast
+C|281074|67|M|Roy Glimström|utbildningskonsult
+C|365282|44|M|Niklas Enström|
+C|514817|32|M|Christian Olsson|
+C|469730|39|K|Anna Mezarlis|Göteborg, barnskötare, 38 år
+C|469731|30|K|Yllka Sheqiri Albrektson|Göteborg, projektledare, 30 år
+C|469732|52|K|Heléne Olivegren|Göteborg, sjukgymnast och dansinspiratör, 52 år
+C|469733|73|K|Berit Westin|Göteborg, pensionär, 74 år
+C|188461|48|K|Stina Svensson|48, stödassistent, Göteborg
+C|219308|31|K|Teysir Subhi|31år, Försäkringsrådgivare/lärarstudent /frilanskommunikatör, Göteborg
+C|185389|44|M|Martin Jordö|44år, Kommunikatör, Göteborg
+C|188425|28|K|Stina Sewén|28år, Sjuksköterska, Göteborg
+C|276374|50|M|Masoud Vatankhah|50, Sociolog
+C|276375|31|K|Louise Thörnqvist|31, Socialsekreterare
+C|219336|36|M|Pelle Hällje|36år, Biståndsarbetare, Göteborg
+C|219296|62|K|Denise Cresso-Nydén|62år, Utbildningsledare, Göteborg
+C|276415|39|K|Fereshta Ziai|39, statsvetare, Göteborg
+C|276488|38|K|Tove Adlerberth|38, jurist, Göteborg
+C|276489|34|K|Matilda Skön|34, sångpedagog, Göteborg
+C|276490|37|M|Johan Abrahamsson|37, Kundtjänst
+C|276491|47|K|Åsa Nilsen|46, Socialsekreterare
+C|219337|73|K|Gudrun Tiberg|73år, Journalist/Fritidspolitiker, Göteborg
+C|276555|37|K|Alexandra Angelbratt|37, Projektledare
+C|276556|28|K|David Berglind|28, studerande, Göteborg
+C|276557|38|K|Ulrika Centerwall|38, Doktorand
+C|276558|32|K|Linda Fahl|32, lärare, Göteborg
+C|276559|29|K|Stina Ogbonnaya|29, Integrationshandläggare
+C|276560|69|K|Lisbeth Larsson|69, professor emeritus, Vrångö
+C|276561|51|K|Johanna Marseille|51, Grafisk, Designer
+C|515695|57|M|Claes-Bertil Lewau|
+C|285720|65|M|Ulf Nilsson|byggnadsplåtslagare
+C|285721|33|K|Ingrid Frejd|undersköterska
+C|285722|30|M|Povel Johansson|lokförare
+C|285723|38|K|Helena Gunnarsson|pol. oberoende, fotvårdstekniker
+C|285724|54|M|Tito Rojas|pol. oberoende, spårvagnsförare
+C|285725|31|K|Leonora Lundvall|sjuksköterska
+C|285726|70|M|Bengt Frejd|idrottsledare
+C|285727|22|K|Nadja Lundberg|postarbetare
+C|285728|71|M|Håkan Lundqvist|pensionär
+C|285729|42|K|Jenny Tedjeza|chefredaktör
+C|285746|28|M|Alexander Alvarado|pol. oberoende, behandlingsassistent
+C|285731|32|K|Hanna Jadenius|fysioterapeut
+C|285732|65|M|Hans Pollak|banarbetare
+C|285733|69|K|Inger Johansson|pensionär
+C|285734|32|M|Axel Lyckberg|IT-ingenjör
+C|285735|24|K|Moa Hamark|spårvagnsförare
+C|285736|52|M|Stevan Tomulevski|SKF-arbetare
+C|285747|59|K|Ann-Christine Karlsson|kock
+C|285738|63|M|John Näsman|Volvo-arbetare
+C|285739|72|K|Vera Peterson|pensionär
+C|285740|68|M|Bo Johansson|pensionerad hamnarbetare
+C|285749|79|K|Sri Nimpuno|jourkvinna på kvinnojour
+C|285748|34|M|Abdihakim Ahmed Gabow|Volvo-arbetare
+C|285743|62|K|Ingrid Nilsson|specialpedagog
+C|285744|29|M|Mikael Ekvall|landslagslöpare
+C|285745|62|K|Inga-Lill Atterlöf|sjuksköterska
+C|31814|44|M|David Lega|44, Kommunalråd, Göteborg
+C|199936|43|K|Maria Berntsson|43, Statsvetare, Göteborg
+C|199941|33|M|Kalle Bäck|33, Kommunikationskonsult, Göteborg
+C|198314|72|M|Jörgen Knudtzon|72, Journalist, Billdal
+C|199947|27|K|Karolina Mildgrim|27, Ombudsman, Göteborg
+C|202796|61|M|Martin Kurzwelly|61, Ledarskapskonsult, Göteborg
+C|202797|52|K|Kristina Norén Lallo|52, Handläggare , Torslanda
+C|199935|31|M|Hampus Hagman|31, Stadssekreterare, Göteborg
+C|198303|28|K|Linnea Klingström|28, Statstjänsteman, Göteborg
+C|198306|61|M|Olof Jacobson|61, Områdeschef, Styrsö
+C|199940|34|K|Matilda Granberg Stålbert|34, Bitr.rektor, Göteborg
+C|199951|53|M|Augin Marawgeh|53, Förskollärare, Angered
+C|198301|64|K|Rita Stålbert|64, Chef äldreomsorgen, Västra Frölunda
+C|202804|62|M|Henrik Orrbeck|62, Utvecklingsledare, Västra Frölunda
+C|199944|66|K|Marianne Andréas|66, Pastor, Göteborg
+C|198308|30|M|Tobias Sandell|30, Student, Göteborg
+C|202807|24|M|Pontus Fransson|24, Student, Västra Frölunda
+C|199955|67|K|Anne Holmdahl|67, Socionom, Göteborg
+C|202809|36|M|Erik Wickstrand|36, Pastor, Västra Frölunda
+C|198304|57|M|Sören Runsteen|57, VD, Västra Frölunda
+C|202811|36|M|Erik Granberg|35, Egen företagare, Göteborg
+C|198307|71|K|Inga-Lill Adolfsson|71, Sjuksköterska, Göteborg
+C|198316|27|M|Mathias Axelsson|27, Kommunikationskonsult, Göteborg
+C|202814|74|K|Eva Thörn|73, Pensionär, Göteborg
+C|202815|64|M|Peter Löfgren|64, Pensionär, Torslanda
+C|199958|65|K|Marianne Bergman|65, Rederitjänsteman, Donsö
+C|480151|58|M|Stefan Pehrson|tidningsbud/skribent, 58, Göteborg
+C|480113|26|M|Charbel Rizk|student/teknisk analytiker, 26, Göteborg
+C|507625|34|K|Sara Kling|butiksansvarig, 34, Angered
+C|480104|41|K|Anette Westöö|fil.mag/lärare, 41, Göteborg
+C|507627|33|M|Stefan Paradis|restaurangbiträde, 33, Angered/Göteborg
+C|234031|53|K|Helene Odenjung|53 år, Skeppsmäklare
+C|234032|64|K|Ann Catrine Fogelgren|64 år, Socionom
+C|234033|36|M|Axel Darvik|36 år, Civilingenjör
+C|234034|55|K|Eva Flyborg|55 år, f.d. Riksdagsledamot
+C|234035|35|M|Pär Gustafsson|35 år, Tjänsteman
+C|234036|45|K|Kristina Bergman Alme|45 år, Rektor
+C|234037|56|M|Bo Anderssen|56 år, Behandlingsassistent
+C|234038|27|K|Hanna Linnea Wettermark|27 år, Sjuksköterskestudent
+C|234039|44|K|Mariah ben Salem Dynehäll|44 år, VD
+C|234040|38|M|Sivert Aronsson|38 år, Skatterevisor
+C|234041|45|K|Kristina Palmgren|45 år, Ekonom
+C|234042|41|M|Jens Adamik|41 år, Socialsekreterare
+C|234043|30|M|Björn Wikman|30 år, Integrationssamordnare
+C|233751|56|K|Lotta Nachemson|56 år, Stiftelseansvarig
+C|233767|50|M|Patrik Krantz|50 år, Företagare
+C|234046|54|K|Birgitta Granquist|54 år, Egenföretagare
+C|234047|53|M|Mats Rahmberg|53 år, Civilingenjör
+C|234048|51|K|Åsa Keim|51 år, COO
+C|233764|25|K|Gabriella Toftered|25 år, Masterstudent
+C|234050|77|M|Lars Nordin|77 år, Byggnadsingenjör
+C|234051|74|K|Birgitta Friberg|74 år, f.d. Lärare
+C|234052|62|M|Björn Jedvert|62 år, Civilekonom
+C|234053|25|M|Sharoken Hanna|25 år, CMO
+C|233759|23|K|Victoria Viklund|23 år, Juriststudent
+C|234055|54|K|Ewa Jablonska|54 år, Lärare
+C|234056|49|M|Ingvar Gräns|49 år, Jurist
+C|234057|72|K|Birgitta Jakosjin|72 år, Speciallärare
+C|234058|56|K|Ann-Sofie Lagerstedt|56 år, Personalvetare
+C|234059|76|K|Ulla Palmgren|76 år, f.d. Postkassör
+C|234060|62|K|Ditte Nörby|62 år, Civilekonom
+C|234061|31|M|David Skansholm|31 år, Medicinsk sekreterare
+C|128550|35|M|Robin Ristander|35, Patentingenjör, Göteborg
+C|128529|56|M|Karl Haargaard|56, Chaufför, Göteborg
+C|128568|35|K|Alice Pernevi|35, Jurist, Göteborg
+C|257615|29|M|Fredrik Dellby|29 Teknologie kandidat Göteborg
+C|259798|39|M|Anders Hansson|39 brandman Göteborg
+C|306672|55|M|Ulf Kamne|55 år, Majorna-Linné, miljökommunalråd
+C|304610|56|K|Karin Pleijel|56 år, Östra Göteborg, lärare
+C|306674|33|K|Emmali Jansson|33 år, Hisingen, ordförande byggnadsnämnden
+C|304591|51|M|Bosse Parbring|51 år, Majorna, kommunikatör
+C|304594|45|K|Åse-lill Törnqvist|45 år, Örgryte-Härlanda, kanslichef
+C|304615|51|M|Martin Nilsson|51 år, Lundby, systemförvaltare
+C|304602|32|K|Derya Gözde-Tumayer|32 år, Lundby, entreprenadingenjör
+C|304601|62|M|Ulf Carlsson|62 år, Örgryte-Härlanda, politisk sekreterare
+C|304592|26|K|Klara Holmin|26 år, Kålltorp, förvaltningsstudent
+C|306681|60|M|Lars-Olof Karlsson|60 år, Kungsladugård, kommunikatör
+C|304612|41|K|Elisabeth Undén|41 år, Högsbohöjd, miljövetare
+C|306683|23|M|Abdullahi Mohamed|22 år, Hisingen, student
+C|74064|24|K|Hanna Bernholdsson|24 år, Kommunikatör, Göteborg
+C|304600|53|K|Helena Norin|53 år, Masthugget, civilingenjör
+C|304603|62|M|Dalibor Eminefendic|62 år, Askim-Frölunda-Högsbo, integrationssamordnare/journalist
+C|82462|28|K|AnnaSofia Alexandersson|28 år, Örgryte-Härlanda, genusvetare
+C|306689|32|M|Daniel Edvinsson|32 år, Centrum, jurist
+C|304596|19|K|Rebecka Forsberg|19 år, Västra Frölunda, student
+C|304605|42|M|Jesper Jonsteg|42 år, Linné, VD
+C|306692|36|K|Sara-Linnea Östervall|36 år, Björkekärr, civilingenjör
+C|306693|65|M|Stig Andersson|65 år, Hammarkullen, familjebehandlare
+C|306694|54|K|Annika Johansson|53 år, civilekonom
+C|306695|58|M|Ali Yaghoubvand|58 år, Lundby, civilingenjör
+C|306696|64|K|Anna Ericson|63 år, Billdal, Pensionär/fd skolledare
+C|306697|32|M|David Hammarsten|32 år, Majorna, arkitekt
+C|306698|21|K|Amanda Wykman|21 år, Kviberg, student
+C|152587|19|M|Lucas Henriksson|19 år, Lundby, student
+C|306700|72|K|Soili Brunberg|72 år
+C|306701|57|M|Ronnie Ljungh|56 år, Västra Göteborg, lärare
+C|306702|20|K|Tuba Zengin|20 år, Västra Frölunda, statsvetarstudent
+C|304599|29|M|Elias Ytterbrink|29 år, Biskopsgården, föreningskonsulent
+C|306704|35|K|Kristina Belfrage|35 år, affärsutvecklare, Örgryte-Härlanda
+C|82469|55|K|Anna Sibinska|55, egenföretagare, Göteborg
+C|74084|32|K|Madeleine Jonsson|32 år, Centrum, ekonomichef
+C|864|46|M|Jonas Ransgård|46, Civilekonom
+C|865|34|M|Hampus Magnusson|34, Civilekonom
+C|866|53|K|Anneli Rhedin|53, Statsvetare
+C|867|47|M|Axel Josefson|47, Projektledare
+C|868|23|K|Hanna Friberg|23, Juriststudent
+C|869|44|M|Toni Orsulic|44, Målare
+C|870|57|K|Kristina Tharing|57, Evenemangsledare/DIHM
+C|871|27|M|Mattias Tykesson|27, Väktare
+C|872|49|K|Marie-Louise Hänel Sandström|49, Specialistläkare
+C|873|57|M|Anders Sundberg|57, Managementkonsult
+C|874|33|K|Sofie Gyllenwaldt|33, Finansanalytiker
+C|875|40|M|Anders Svensson|40, Rektor
+C|876|45|K|Nina Miskovsky|45, Fitnessinstruktör
+C|877|73|M|Christer Holmgren|73, Pensionär
+C|878|55|K|Åsa Hartzell|55, Företagare
+C|879|45|M|Hakan Önal|45, Ingenjör
+C|880|27|M|Ahmed Salih|27, Fritidsledare
+C|881|34|M|Joel Wickman|34, Jurist
+C|882|61|M|Åke Björk|61, Banktjänsteman
+C|883|45|M|Bruno Tiozzo|45, Biträdande Jurist
+C|884|32|K|Emma Karlsson|32, socionom
+C|885|56|K|Cecilia Magnusson|56, Riksdagsledamot
+C|886|53|M|Claes Johansson|53, Civ ing Civ Ek
+C|887|39|M|Tomas Nilsson|39, Civilekonom och systemvetare
+C|255751|24|K|Sofie Bichler|24, Logistiker
+C|254013|44|K|Monika Beiring|44, Personalvetare
+C|255753|55|K|Margareta Broang|55, Småföretagare
+C|255754|50|M|Peter Mattiasson|50, IT-konsult
+C|255755|45|M|Magnus Nylander|45, Jurist - rådman
+C|255756|66|K|Lena Olinder|66, Aukt. Redovisningskonsult
+C|242940|55|M|Henrik Sjöstrand|55, Brandman
+C|255758|28|K|Judith Nielsen|28, Group Controller
+C|255759|41|M|Rickard Eriksson|41, Advokat
+C|255760|53|K|Christina Hjort Bröndt|53, Administratör
+C|255761|76|K|Britt Olsson|76, F.d. Rektor/Pensionär
+C|255762|46|K|Lena Ferm|46, Ekonom
+C|255763|36|K|Elin Chorzynski|36, Förskolechef
+C|255764|38|M|Börje Nilsson|38, Marknadsförare/Kommunikatör
+C|255765|55|K|Helena Lidh|55, Egenföretagare
+C|255766|34|M|Johan Löfgren|34, Lärare/Civilingenjör
+C|242934|24|M|Gustaf Göthberg|24, Studerande
+C|255768|45|K|Doa Al-Kattan|45, Specialist i Allmänmedicin
+C|255769|47|M|Henrik Ryberg|47, Sjukhuskemist
+C|255770|64|M|Anders Hyllander|64, Pensionerad Officer/Major
+C|255771|31|M|Jonas Berg|31, Politisk sekreterare
+C|255772|28|M|Mathias Wrångelin|28, Civilekonom
+C|242942|36|M|Fredrik Biörnerud|36, Finansiell rådgivare
+C|255774|57|K|Christina Backman|57, Konsult/styrelseproffs
+C|255775|57|M|Sverker Cassberg|57, Fastighetsmäklare
+C|255776|59|M|Lars Lorentzon|59, Ekonom
+C|255777|40|K|Erjola Pere Poci|40, Ekonom
+C|255778|68|M|Olof Ström|68, Företagare
+C|255780|39|M|Emmanuel Ay|39, IT-Entreprenör
+C|255781|48|M|Joakim Dahl|48, Affärsutvecklare
+C|255782|61|M|Lars O Carlsson|61, Göteborgsförfattare
+C|255783|53|M|Johan Gente|53, Affärsområdeschef
+C|255784|52|K|Eva Garbacka Jansson|52, Bussförare
+C|255786|21|M|Hugo Boccara|21, Student
+C|255787|61|M|Kenneth Bernting|61, Egenföretagare
+C|255788|29|M|Daniel Brath|29, Supervisor
+C|255789|19|M|Zagros Hama|19, Studerande
+C|395217|45|M|Magnus Andersson|45, Göteborg
+C|395220|49|M|Stefan Roudén|49, Göteborg
+C|395221|32|M|Christoffer Olssson|32, lärare
+C|395222|23|M|Magnus Hulterström|23, IT-konsult
+C|395223|29|M|Francisco Blas Izquierdo Riera|29, IT-säkerhetskonsult
+C|395219|60|M|Jacob Hallén|60, Göteborg
+C|275100|35|M|Kristofer Lundberg|lokalredaktör Offensiv, 35 år
+C|275101|26|K|Minela Mahmutovic|socionom, 26 år
+C|275102|33|M|Johannes Lundberg|teamledare, 33 år
+C|275103|31|K|Sara Juaniquina Berlin|stationsvärd, 31 år
+C|275104|30|M|Amer Mohammed Ali|ordf. RS Väst, 30 år
+C|275105|44|K|Christel Rosengren|hemsjukvårdare, 44 år
+C|275106|52|M|Patrik Hooghwinkel|butiksanställd, 52 år
+C|275107|53|K|Jemila Hussen|vårdbiträde, 53 år
+C|275108|28|M|Jir Kahraman|socialpedagog, 28 år
+C|275109|44|K|Laura Betancourth|stödassistent, 44 år
+C|275110|28|M|Ari Amin|ungdomsledare, 28 år
+C|275111|58|K|Anna-Lena Norberg|bussförare, 58 år
+C|275112|35|M|Jimmy Lied|personlig assistent, 35 år
+C|312897|34|M|Joel Eriksson|badmästare, 34 år
+C|275113|63|K|Carmen Broberg|förskolelärare, 63 år
+C|275114|36|M|Joakim Berlin|industriarbetare, 36 år
+C|275115|21|K|Linnea Wimmer|arbetssökande, 21 år
+C|275116|59|M|Morad Shekhanzai|pensionär, 59 år
+C|275117|35|K|Derya Areb|vårdbiträde, 35 år
+C|275118|54|M|Reza Yekezare|taxiförare, 54 år
+C|35238|79|M|Christer Möller|Senior
+C|512055|35|K|Lisa Isaksson|
+C|512056|35|M|Finn Hallgren|
+C|512057|37|M|Johan Bergkvist|
+C|126755|45|M|Jörgen Fogelklou|Politisk sekreterare, Göteborg
+C|126756|55|M|Björn Tidland|Civilingenjör, Göteborg
+C|126757|42|M|Jimmy Ståhl|Hamnarbetare, Göteborg
+C|126758|28|K|Pernilla Börjesson|Student, Göteborg
+C|126759|36|M|Karl Robbjens|Språkvetare, Göteborg
+C|126760|48|K|Agneta Kjaerbeck|Butikssäljare, Göteborg
+C|126761|49|M|Christer Hätting|
+C|126762|68|K|Yvonne Stafrén|Konsult, Göteborg
+C|126763|48|M|Andreas Holmlund|Företagsledare, Göteborg
+C|126764|24|M|Rasmus Ragnarsson|Statsvetare, Göteborg
+C|126765|66|K|Krista Femrell|Anestesisjuksköterska, Göteborg
+C|126766|24|M|Alexander Berggren|Högskolestudent, 24, Göteborg
+C|126767|46|M|Marcus Lüthje|Miljötekninker, 46, Göteborg
+C|126768|48|K|Anna Silvén|Väktare, 47, Göteborg
+C|126769|54|M|Håkan Lösnitz|Tolk, Göteborg
+C|126770|32|M|Robert Nyström|Ingenjör, Göteborg
+C|126771|77|M|Björn Watz|Ingenjör, 76, Göteborg
+C|126772|50|M|Stefan Dahlén|Fil.Kand,50,Gunnilse
+C|126773|23|M|Finn Lundström|VD, 22, Göteborg
+C|126774|68|M|Per-Håkan Eklund|Egenföretagare, 67, Göteborg
+C|126775|57|M|Peter Wennerholm|Systemutvecklare, 57, Göteborg
+C|126776|46|K|Martina Lundquist|Undersköterska, 46, Västra frölunda
+C|126777|61|M|Leif Lindblom|Spec. Sjuksköterska, 60, Göteborg
+C|126778|49|M|Lars Lindroth|Försäkringstjänsteman, 48, Göteborg
+C|126779|66|K|Eleonore Gren|Jurist, 66, Göteborg
+C|126780|31|M|Jakob Viebke|Högskoleingenjör, 30, Torslanda
+C|126781|59|M|Peter Ekberg|IT-Konsult, 59, Göteborg
+C|126782|44|K|Veronica Oxklint|Lärare, 44, Göteborg
+C|126783|52|M|Bengt Hansves|Fil. Mag, 52, Torslanda
+C|126784|35|M|Rolands Saniks|Försäljare, 35, Torslanda
+C|126785|70|M|Grigori Rozenblioum|Professor Emeritus, 69, Göteborg
+C|126786|57|K|Sylvia Håkansson|Ekonomiadministratör, 57, Göteborg
+C|126787|61|M|Lars-Åke Nilsson|Civilekonom, 60, Hovås
+C|126788|70|M|Arne Steen|Pensionär, 70, Askim
+C|126790|49|M|Richard Devcic|IT-Konsult, 49, Göteborg
+C|126791|71|M|Lennart Willemoth|Pensionär, 71, Västra Frölunda
+C|126792|56|M|Mikael Sjökvist|Tekniker, 56, Hisings Backa
+C|126793|76|K|Jutta Kjaerbeck|Pensionär, 75, Göteborg
+C|126794|50|M|Roger Andrén|Riggoperatör, 50, Göteborg
+C|126795|63|K|Marie Strannerdahl|Servitris, 63, Göteborg
+C|126796|51|M|Olle Hagberg|Socionom, 50, Göteborg
+C|126797|63|M|Leslie Thorén|Ekonom, 62, Göteborg
+C|126798|64|M|Dennis Josefsson|Fotograf, 64, Västra Frölunda
+C|126799|69|K|Anna Borgström|Statsvetare, 68, Göteborg
+C|126800|62|M|Bengt Rehn|Bussförare, 62, Angered
+C|126801|67|M|Bernt Gustafsson|Pensionär, 66, Västra Frölunda
+C|59828|47|K|Katarina Andersson|Tågmästare, 47, Göteborg
+C|126803|50|M|Michael Olsson|Sjuksköterska, 49, Hisings backa
+C|126804|34|M|Lars Blomberg|Styrman, 35, Västra Frölunda
+C|126805|38|M|David Larsson|Pensionär, 38, Göteborg
+C|126807|53|K|Eva Olsson|53, Göteborg
+C|126808|67|M|Jan Hermfelt|66, Göteborg
+C|126809|54|K|Jill Olofsson|53, Västra Frölunda
+C|126810|64|M|Leif Grönstedt|64, Göteborg
+C|126811|38|M|Andreas Hilding|Underhållstekniker, 38, Torslanda
+C|6167|62|M|Danny Raucci|
+C|188426|72|M|Claes Westberg|72 år Västra Frölunda
+C|188427|51|K|Catarina Pettersson|51 år Önnered
+C|188428|30|M|Martin Forsell|30 år Lunden
+C|188429|60|K|Marie-Louise Bergström|60 år Lundby
+C|188430|43|M|Theo Papaioannou|43 år Hisings Backa
+C|188431|38|K|Carita Jansson Tsiantes|39 år Landala
+C|188432|40|M|Anders Torwald|40 år Hisings Backa
+C|188433|41|K|Frida Westler|41 år Haga
+C|188434|70|M|Ove Bregeus|70 år Långedrag
+C|188435|55|M|Roger Andersson|55 år Centrum
+C|188436|43|M|Carl Heldtander|43 år Johanneberg
+C|91951|78|M|Henry Törnqvist|Företagsekonom,                                    Medborgarpartiet Göteborg
+C|188438|46|M|Lars Andréasson|46 år Västra Frölunda
+C|188439|71|M|Bertil Zetherström|71 år Billdal
+C|188440|64|M|Göran Brink|64 år Hisings Backa
+C|188441|26|K|Maria Berjaoui|27 år Majorna
+C|188442|69|M|Olle Noord|69 år Haga
+C|188443|55|M|Anders Åkvist|55 år Örgryte
+C|188444|51|K|Eva Smedberg|50 år Lundby
+C|188445|69|K|Anna-Karin Johnson Saner|68 år Johanneberg
+C|188446|64|M|Peter Forsell|64 år Askim
+C|188447|57|M|Håkan Andersson|57 år Majorna
+C|188448|37|M|Joakim Eriksson|37 år Kortedala
+C|188449|59|K|Mona Jonasson|60 år Johanneberg
+C|188450|49|M|James Holming|50 år Johanneberg
+C|188451|66|K|Lisbeth Heneborn-Krantz|66 år Centrum
+C|188452|61|M|Tommy Fransson|61 år Lundby
+C|188453|34|M|Bengt Vänerhall|34 år Lundby
+C|188454|55|M|Anders Börjesson|55 år Önnered
+C|188455|66|M|Thomas Sahlmén|66 år Hisings Backa
+C|188456|72|K|Anne-Catrine Heldtander|72 år Örgryte
+C|188457|56|K|Annica Melander|56 år Örgryte
+C|188458|74|K|Helene Gustavsson|74 år Hisings Backa
+C|188459|78|M|Jan Kopperud|78 år Hisings Backa
+C|188460|67|M|Kent Mattsson|67 år Säve
+C|139240|35|M|Daniel Bernmar|Kommunalråd, 35 år, Björkekärr
+C|139241|54|K|Bettan Andersson|Behandlingassistent, 54 år, Redbergslid
+C|139242|41|K|Jenny Broman|Grundskollärare, 42 år, Stigberget
+C|139243|42|M|Mikael Wallgren|Trafikledare Taxi, 42 år, Backa
+C|94380|65|K|Gertrud Ingelman|Gymnasielärare, 65 år, Masthugget
+C|139245|33|M|Håkan Eriksson|Handläggare, 33 år, Norra Biskopsgården
+C|94367|35|K|Hanna Klang|Bartender, 34 år, Stigberget
+C|139180|42|M|Johan Zandin|Programmerare, 42 år, Guldheden
+C|94370|42|K|Johanna Eliasson|Handläggare, 42 år, Kålltorp
+C|94366|29|M|Tony Haddou|Regional Samordnare, 29 år, Rambergsstaden
+C|139250|36|K|Helen Edenryd|Socialsekreterare, 35 år, Norra Kortedala
+C|139251|49|M|Erik Norén|Student, 49 år, Rambergsstaden
+C|94372|29|K|Frida Tånghag|Kock, 29 år, Södra Kortedala
+C|139253|58|M|Urban Junevik|Fastighetsskötare, 58 år, Ängås
+C|139254|36|K|Sara Carlsson Hägglund|Skolkurator, 36 år, Rambergsstaden
+C|94369|43|M|Finn Hellman|Journalist, 43 år, Majorna
+C|139165|29|K|Louise Jeppson|Doktorand, 29 år, Björkekärr
+C|139167|69|M|José Arévalo|Pensionerad Undersköterska, 69 år, Gamlestaden
+C|139177|41|K|Sara Lindalen|Lärare, 41 år, Kvillebäcken
+C|139048|44|K|Yasmine Posio|Stödassistent, 44 år, Länsmansgården
+C|94375|38|M|Jesper Berglund|Högstadielärare, 38 år, Backa
+C|94374|65|K|Yvonne Palm|Förskollärare, 64 år, Linnarhult
+C|139278|31|M|Gustav Landström|Spårvagnsförare, 31 år, Landala
+C|94373|33|M|Christian Forsman|Bartender, 34 år, Majorna
+C|139280|22|K|Aftab Soltani|Projektledare, 22 år, Södra Biskopsgården
+C|94378|31|K|Mia Sundkvist|Skolkurator, 31 år, Södra Biskopsgården
+C|94382|39|M|Daniel Carlenfors|Bostadspolitisk Aktivist, 40 år, Högsbohöjd
+C|139283|40|K|Mia Mårtensson|Utbildningsadministratör, 40 år, Guldheden
+C|94379|33|M|Patrik Helgeson|Lärare, 33 år, Södra Biskopsgården
+C|139285|52|K|Homeira Tari|Ungdomshandledare, 52 år, Backa
+C|139175|34|M|Robert Karlsson|Hamnarbetare, 35 år, Nolered
+C|94368|39|K|Monika Djurner|Sjuksköterska, 39 år, Kyrkbyn
+C|139319|53|K|Candan Gürcan|Förskollärare, 53 år, Kannebäck
+C|139320|31|M|Martin Fahlén|Metallarbetare, 31 år, Landala
+C|139321|36|K|Moa Lindh|Byggsamordnare, 36 år, Hammarkullen
+C|139322|26|M|John Edström|Kommunikatör, 26 år, Kvillebäcken
+C|139179|37|K|Emily Muthén|Förbundssamordnare, 37 år, Bagaregården
+C|139324|80|K|Ingbritt Holst|Pensionerad Barnskötare, 80 år, Grevegården
+C|139325|65|K|Lena Hammarström|Pensionär, 65 år, Önnered
+C|139326|72|M|Bengt Bivall|Pensionär, 71 år, Skälltorp
+C|139327|36|K|Adriana Aires|Programmerare, 36 år, Skälltorp

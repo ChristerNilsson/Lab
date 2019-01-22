@@ -1,11 +1,230 @@
-2|20002|20003|20004|20005|20006|20007|20008|20009|20010|20011|20012|20013|20016|20015|20018|20017|20020|20019|20022|20021|20024|20023|20026|20025|20028|20027|20030|20029|20032|20031|20034|20033|20036|20035|20038|20037|20040|20039|20042|20041|20044|20043|20046|20045|20048|20047|20050|20049|20052|20051
-4|15850|137396|15857|137399|137400|137401|137402|137403|137404|137405|137406|137407|15864|137409|137410|137411|137412|137413|137414|137415|137416|137417|137418|137419|137397|137624|137628|137630|284220
-471|235349|235350|235351|235352|235353|235354|235355|235356|235357|235358|235359|235360|235361|235362|235363
-68|77623|77624|77625|77626|77627|77628|77629|77630|77631|77632|77633|77634|77636|77637|77638|77639
-1011|512898|512899
-3|204182|212915|240073|240074|240075|240076|240077|240078|240079|212923|212919
-55|374693|374694|374695|374696|374697|369410|374699|374700|374701|233324
-1|68776|1651|68778|68779|68780|68781|68782|68783|68784|68785|68786|68787|68788|68789|68790|68791|68792|68793|68794|68795|68796|68797|68798|68799|68800|68801|68802|68803|68804|68805|68806|68807|68808|68809
-110|44168|44169|44170|44171|44172|44173|44174|44440|44441|44442|44443|44444|44445|44446|44447|44448|44449|44450
-5|167708|167709|167710|167711|167712|167713|167714|167715|167716|167717|167718
-1335|309521|309522|309523|309524|309525|309526|309527|309528|309529|309530|309531|309532
+T|Gislaved
+A|2|20002|20003|20004|20005|20006|20007|20008|20009|20010|20011|20012|20013|20016|20015|20018|20017|20020|20019|20022|20021|20024|20023|20026|20025|20028|20027|20030|20029|20032|20031|20034|20033|20036|20035|20038|20037|20040|20039|20042|20041|20044|20043|20046|20045|20048|20047|20050|20049|20052
+A|4|15850|137396|15857|137399|137400|137401|137402|137403|137404|137405|137406|137407|15864|137409|137410|137411|137412|137413|137414|137415|137416|137417|137418|137419|137397|137624|137628|137630|284220
+A|471|235349|235350|235351|235352|235353|235354|235355|235356|235357|235358|235359|235360|235361|235362|235363
+A|68|77623|77624|77625|77626|77627|77628|77629|77630|77631|77632|77633|77634|77636|77637|77638|77639
+A|1011|512898|512899
+A|3|204182|212915|240073|240074|240075|240076|240077|240078|240079|212923|212919
+A|55|374693|374694|374695|374696|374697|369410|374699|374700|374701|233324
+A|1|68776|1651|68778|68779|68780|68781|68782|68783|68784|68785|68786|68787|68788|68789|68790|68791|68792|68793|68794|68795|68796|68797|68798|68799|68800|68801|68802|68803|68804|68805|68806|68807|68808|68809
+A|110|44168|44169|44170|44171|44172|44173|44174|44440|44441|44442|44443|44444|44445|44446|44447|44448|44449|44450
+A|5|167708|167709|167710|167711|167712|167713|167714|167715|167716|167717|167718
+A|1335|309521|309522|309523|309524|309525|309526|309527|309528|309529|309530|309531|309532
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|1335|WeP|Westbopartiet
+C|20002|55|K|Marie Johansson|55,Gislaved
+C|20003|47|M|Fredrik Johansson|47 år,Industriarbetare,Gislaved
+C|20004|56|K|Ylva Samuelsson|56 år, Innesäljare,Burseryd
+C|20005|59|M|Jörgen Karlsson|59,Anderstorp
+C|20006|26|K|Josefine Dinäss|26 år, Student,Anderstorp
+C|20007|75|M|Hasse Johansson|75,Hestra
+C|20008|50|K|Naile Azizi|50,Smålandsstenar
+C|20009|39|M|Djuro Vrsajkovic|39 år, Ombudsman,Gislaved
+C|20010|60|K|Marie-Louise Dinäss|60,Gislaved
+C|20011|56|M|Pelle Gullberg|56,Broaryd
+C|20012|54|K|Suzana Bahtanovic|53,Gislaved
+C|20013|46|M|Evagelos Varsamis|46 år, Industriarbetare,Anderstorp
+C|20016|57|K|Rose-Mari Moden|57,Gislaved
+C|20015|68|M|Kjell Thelin|68,Smålandsstenar
+C|20018|51|K|Lotten Flodström|51,Burseryd
+C|20017|36|M|Marcus Holmbom|36,Gislaved
+C|20020|63|K|Sara-Lena Bengtsdotter Bogren|63,Gislaved
+C|20019|56|M|Tomas Töreland|56,Anderstorp
+C|20022|27|K|Valendona Dobra|27 år, Administratör,Gislaved
+C|20021|67|M|Tommy Stensson|67,Burseryd
+C|20024|48|K|Charlotta Saras Skarphagen|49 år, Undersköterska,Anderstorp
+C|20023|55|M|Lars Nilsson|55,Hestra
+C|20026|42|K|Verónica Olmos Oscarsson|42 år, Undersköterska,Anderstorp
+C|20025|57|M|Kjell Davidsson|57 år, Metallindustriarbetare,Gislaved
+C|20028|65|K|Gunilla Westerholm|65,Broaryd
+C|20027|46|M|Frank Josefsson|46,Hestra
+C|20030|30|K|Johanna Wärme|30 år, Maskinoperatör,Gislaved
+C|20029|40|M|Osamaa Sharafi|40,Anderstorp
+C|20032|38|K|Christina Lindqvist|39,Hestra
+C|20031|48|M|Dejan Stamenkovic´|48,Gislaved
+C|20034|53|K|Katri Strömberg|53,Gislaved
+C|20033|41|M|Hans Oscarsson|42 år, Undersköterska,Anderstorp
+C|20036|44|K|Gunilla Holmgren|44,Smålandsstenar
+C|20035|65|M|Ove Gustavsson|65,Anderstorp
+C|20038|59|K|Julia Jensen|59,Gislaved
+C|20037|41|M|Bilal Almasri|41,Anderstorp
+C|20040|47|K|Jessica Flod Malmgren|47,Anderstorp
+C|20039|40|M|Pauli Bark|40,Gislaved
+C|20042|62|K|Ewa Wilander Axelsson|62,Gislaved
+C|20041|70|M|Kjell Olsson|70,Burseryd
+C|20044|55|K|Eva Eliasson|56 år, Socialarbetare,Gislaved
+C|20043|73|M|Thure Andersson|74,Gislaved
+C|20046|18|K|Moa Wallentin|18,Smålandsstenar
+C|20045|68|M|Thomas Johnsson|67,Skeppshult
+C|20048|62|K|Britt-Inger Gustavsson|62,Anderstorp
+C|20047|49|M|Rune Johansson|49,Skeppshult
+C|20050|71|K|Lena Åsberg|72,Gislaved
+C|20049|58|M|Thomas Wallentin|58,Smålandsstenar
+C|20052|70|K|Laila Andersson|70,Gislaved
+C|15850|53|K|Carina Johansson|53, Omsorgshandledare, Anderstorp
+C|137396|66|M|Bengt Petersson|66, Lantbrukare, Sunnaryd
+C|15857|52|M|Håkan Josefsson|52, Lantbrukare, Reftele
+C|137399|57|K|Inga-Maj Eleholt|57, Civilekonom, Smålandsstenar
+C|137400|67|M|Lars-Ove Bengtsson|67, Pensionär, Gislaved
+C|137401|61|M|Kenneth Magnusson|61, Marknadschef, Ås
+C|137402|51|M|Anders Martinsson|51, Lantbrukare, Öreryd
+C|137403|71|M|Lars Larsson|71, Ingenjör, Smålandsstenar
+C|137404|32|M|Joakim Olausson|32, Industriarbetare, Gislaved
+C|137405|48|M|Johan Larsson|48, Lantbrukare, Reftele
+C|137406|51|M|Henrik Hallberg|51, Produktchef, Ås
+C|137407|47|K|Malin Hermansson|47, Lärare, Smålandsstenar
+C|15864|56|M|Urban Nilsson|56, Idrottslärare, Ås
+C|137409|55|M|Anders Ingemarsson|55, Föreningsaktiv, Burseryd
+C|137410|46|M|Torbjörn Gustafsson|46, Platschef, Hestra
+C|137411|69|K|Gunvor Nygren|69, Nykterist, Reftele
+C|137412|64|K|Berith Ollhage|64, Företagare, Gislaved
+C|137413|70|M|Björn Martinsson|70, Pensionär, Sunnaryd
+C|137414|53|M|Kenth Johansson|53, Säljare, Anderstorp
+C|137415|55|M|Magnus Sjöberg|55, Ingenjör, Reftele
+C|137416|56|K|Ann Nilsson|56, Behandlingspedagog, Ås
+C|137417|39|M|Carl-Henrik Rehn|39, Lantbrukare, Smålandsstenar
+C|137418|52|M|Sven Andersson|52, Lärare, Reftele
+C|137419|60|M|Wåge Johansson|60, Kyrkvaktmästare, Båraryd
+C|137397|46|K|Linda Strömblad|46, Sjuksköterska, Reftele
+C|137624|25|K|Evelina Nyström|25, Lärarstudent, Hestra
+C|137628|53|M|Jan-Erick Hursti|53, Kock, Gislaved
+C|137630|44|K|Elisabeth Lisa Johansson|44, Lärare/Företagare, Sunnaryd
+C|284220|51|M|Knut Venholen|51, Avdelningschef, Reftele
+C|235349|66|M|Erik Anderson|Tidningsbud och Kommunfullmäktigeledamot
+C|235350|66|M|Curt Vang|Enhetschef socialförvaltningen
+C|235351|65|M|Claes Arlid|Fritidsledare/Vaktmästare
+C|235352|66|M|Kent Heijel|Verktygsarbetare
+C|235353|55|K|Kerstin Elg|Träindustriarbetare
+C|235354|63|M|Jörgen Johansson|Lärare
+C|235355|19|K|Elin Edvardsson|Studerande
+C|235356|33|M|Tommy Elg|Distributionselektriker
+C|235357|54|M|Kari Soininen|Socialarbetare
+C|235358|64|M|Kjell Blomquist|Personlig assistent
+C|235359|67|K|Birgitta Björk|Pensionär
+C|235360|62|M|Benny Elg|Metallarbetare
+C|235361|44|M|Christer Weidman|Metallarbetare
+C|235362|54|M|René Jepsen|Sjukpensionär
+C|235363|65|M|Sture Lagerbratt|Projektbeställare
+C|77623|55|M|Lennart Kastberg|Bussförare, Gislaved
+C|77624|41|K|Pia Skogsberg|Lärare, Gislaved
+C|77625|55|K|Charlotte Ström|HR & marknadsföringschef, Gislaved
+C|77626|59|M|Mattias Fjellander|Präst, Anderstorp
+C|77627|47|M|Torbjörn Dyeson|Säljare, Reftele
+C|77628|61|M|Emanuel Larsson|Arbetsledare, Gislaved
+C|77629|67|M|Börje Malmborg|Entreprenör, Broaryd
+C|77630|46|K|Lill Hege Pettersson|Apotekstekniker, Hestra
+C|77631|65|M|Åke Wernvik|Ingenjör, Anderstorp
+C|77632|61|K|Ethel Nyström|Egenföretagare, Hestra
+C|77633|66|K|Elisabeth Andersson|Fd musiklärare, Gislaved
+C|77634|48|M|Lars Rubensson|Försäljningschef, Gislaved
+C|77636|60|K|Elisabeth Torstensson|Förskollärare, Hestra
+C|77637|54|K|Monica Håkansson|Fsk.lärare, Smålandsstenar
+C|77638|64|K|Barbro Ekholm Nestander|SFI-lärare, Gislaved
+C|77639|67|M|Jan-Evert Edwardsson|Egenföretagare, Hestra
+C|512898|44|M|Robert Jönsson|
+C|512899|50|K|Anna-Carin Jönsson|
+C|204182|48|M|Fredrik Sveningson|48, Fastighetsskötare, Anderstorp
+C|212915|60|M|Lars Park|
+C|240073|62|K|Elisabeth Lindroth|Smålandsstenar
+C|240074|65|K|Ewy Olsson|Gislaved
+C|240075|61|M|Ola Viktorsson|Hestra
+C|240076|47|M|Tommy Andersson|Anderstorp
+C|240077|72|M|Per Catoni|Reftele
+C|240078|60|K|Ingmarie Josefsson|Anderstorp
+C|240079|50|M|Fredrik Eurén|Anderstorp
+C|212923|63|M|Per Liljeqvist|Anderstorp
+C|212919|69|M|Björn Olsson|
+C|374693|62|M|Peter Bruhn|62 år
+C|374694|24|K|Fathi Muse Farah|24 år
+C|374695|63|M|Khaldoun Al Salek|63 år
+C|374696|33|K|Therese Andersson|33 år
+C|374697|54|M|Volker Kelm|54 år
+C|369410|32|M|Lukas Yassin|32 år, projektledare, Gislaved
+C|374699|22|M|Ayuub Mohammadin|22 år
+C|374700|21|M|Mohamed Sulayman|21 år
+C|374701|28|M|Owen Höyhtyä Kayira|28 år
+C|233324|42|M|Mihai Banica|42 år, lärare, Anderstorp
+C|68776|42|M|Anton Sjödell|42 år, Officer, Reftele
+C|1651|52|K|Maria Gullberg Lorentsson|52 år, Kommunalråd, Gislaved
+C|68778|64|K|Agneta Karlsson|64 år, Lärarassistent, Smålandsstenar
+C|68779|43|M|Björn Björkman|43 år, Produktionsplanerare, Anderstorp
+C|68780|40|M|Markus Lewintus|40 år, Sälj- och projektledare, Hestra
+C|68781|52|K|Lisbeth Andersson|52 år, Handledare psykiatri, Smålandsstenar
+C|68782|24|M|Jonas Ericson|24 år, Teknikkonsult, Gislaved
+C|68783|35|K|Magdalena Holm|35 år, Produktionsledare, Smålandsstenar
+C|68784|54|M|Ulf Jiretorn|54 år, Rektor, Gislaved
+C|68785|50|M|Jörg Neumann|50 år, Busschaufför, Smålandsstenar
+C|68786|52|M|Fredrik Claar|52 år, Servicetekniker, Gislaved
+C|68787|26|M|Simon Petersson|26 år, Produktionstekniker, Gislaved
+C|68788|53|M|Patric Bergman|53 år, Personalchef, Burseryd
+C|68789|63|M|Jan-Erik Pohl|63 år, Servicetekniker, Kållerstad
+C|68790|21|K|Lina Ingvarsson|21 år, Telefonförsäljare, Smålandsstenar
+C|68791|36|M|Jonas Andreasson|36 år, Teamledare logistik, Broaryd
+C|68792|53|M|Dennis Ernst|53 år, Skoltekniker, Gislaved
+C|68793|19|K|Filippa Lagerkvist|19 år, Butiksbiträde, Anderstorp
+C|68794|51|M|Lars Karlsson|51 år, Automationsingenjör, Burseryd
+C|68795|53|M|Bertil Valfridsson|53 år, Produktionsledare, Smålandsstenar
+C|68796|49|K|Anne Muhonen|49 år, Teamledare, Anderstorp
+C|68797|64|M|Kjell Eberstål|64 år, Civilingenjör, Hestra
+C|68798|52|M|Börje Eriksson|52 år, Teknisk säljare, Gislaved
+C|68799|28|K|Pauline Stenwall|28 år, Lantbrukare, Smålandsstenar
+C|68800|52|M|Per Lorentsson|52 år, Företagare, Gislaved
+C|68801|76|M|Sven Göte Bolmenius|76 år, Pensionär, Reftele
+C|68802|57|M|Glenn Gustafsson|57 år, Produktionschef, Smålandsstenar
+C|68803|52|M|Zuhidin Bahtanovic|52 år, Företagare, Gislaved
+C|68804|67|M|Bengt-Anders Johansson|67 år, Fd riksdagsledamot, Båraryd
+C|68805|67|M|Anders Larsson|67 år, Senior advisor, Reftele
+C|68806|38|K|Malin Sjöblom|38 år, Försäljningskoordinator, Gislaved
+C|68807|68|M|Stellan Paulsson|68 år, Pensionär, Smålandsstenar
+C|68808|77|K|Kerstin Johnsson|77 år, Sjuksköterska, Hestra
+C|68809|19|M|Elliott Björkman|19 år, Maskinförare, Anderstorp
+C|44168|45|M|Mattias Johansson|45, Sågverksoperatör, Gislaved
+C|44169|44|M|Stefan Nylén|Skorstensfejartekniker, Smålandsstenar
+C|44170|29|M|Ulf Poulsen|Fastighetsingenjör, Gislaved
+C|44171|54|M|Sören Axelsson|54, Smidesarbetare, Skeppshult
+C|44172|49|M|Glenn Hummel|49, Svetsare, Reftele
+C|44173|43|K|Linda Petersson|43, Undersköterska, Smålandsstenar
+C|44174|64|M|Hannu Ruokola|64, Pensionär, Burseryd
+C|44440|49|M|Anders Gustafsson|49, Vaktmästare, Anderstorp
+C|44441|41|M|Simon Sowa|41 , Metallarbetare, Anderstorp
+C|44442|54|M|Ronny Andersson|Produktionstekniker, Anderstorp
+C|44443|58|M|Stefan Gunnarsson|Chaufför, Reftele
+C|44444|34|K|Lisa Nilsson|Personlig assistent, Burseryd
+C|44445|67|M|Kennet Andersson|67, Lantmästare
+C|44446|25|M|Pierre Svanström|41 , Metallarbetare, Anderstorp
+C|44447|55|M|Kjell Poulsen|Metallarbetare, Smålandsstenar
+C|44448|62|M|Anders Nilsson|Pensionär, Smålandsstenar
+C|44449|54|K|Rosita Hummel|53, Undersköterska, Reftele
+C|44450|65|M|Anders Fransson|Pensionär, Gislaved
+C|167708|55|K|Abirina Silva|kommersiell sekreterare, Hestra
+C|167709|68|M|Bengt-Ove Eriksson|socionom, Villstad
+C|167710|58|K|Mona Bergqvist|skötare, Anderstorp
+C|167711|61|M|Ronny Johansson|industriarbetare, Gislaved
+C|167712|58|K|Gun Gärdsell|förtidspensionär, Gislaved
+C|167713|33|K|Kelly Abdulrahman|barnmorska, Gislaved
+C|167714|59|K|Helena Jönebratt|lärare, Gislaved
+C|167715|69|K|Ursula Frylestam|pensionär, Nennesmo
+C|167716|50|M|Ingemar Uvhagen|tandsköterska, Gislaved
+C|167717|67|K|Berith Engström|civilingenjör, Gislaved
+C|167718|60|M|John Andersen|transportarbetare, Hestra
+C|309521|40|M|Sven Johansson|Gislaved
+C|309522|59|M|Tommy Östring|Gislaved
+C|309523|63|M|Thomas Johansson|Smålandsstenar
+C|309524|60|M|Kian Anderson|Gislaved
+C|309525|61|M|Mikael Kindbladh|Hestra
+C|309526|56|M|Robert Knutsson|Gislaved
+C|309527|18|M|Milosz Jablonski|Reftele
+C|309528|36|M|Jonas Svanberg|Gislaved
+C|309529|55|K|Jenny-Ann Gustafsson|Anderstorp
+C|309530|43|M|David Meza Howes|Gislaved
+C|309531|26|K|Pharvinee Chitsathaporn|Gislaved
+C|309532|44|M|Nicklas Westerholm|Smålandsstenar

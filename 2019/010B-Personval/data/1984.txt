@@ -1,9 +1,169 @@
-2|26679|6351|26681|26682|26683|6366|6373|6378|6196|28622|6343|28624|6367|28626|28627|28628|28629|28630|28631|28632|28633|28634|28635|28636|28637|28638|28639|28640|28641|28642|28643|28644|28645|28646|28647|28648|6348|28650
-4|236192|236193|236194|236195|236196|236197|236198|236199|236200
-68|185446|186920|310330|310331|310332|310333|310334|310335|310336|310337|310338|310339|310340|310341|310342|310343|310344|310345
-3|287831|291043|287828|291045|287832|291047|291048|291049|291050|291051|291052|291053|291054|291055
-55|281626|281627|281628|281629|281631|281630|281632
-1|89|37|91|2046|2047|2048|90|70|2051|2052|2053|2054|2055|2056|2057|2058|2059|33975|2060|2061|2062|2063|2064|2065|2066|2067|2068|33941
-335|293|294|295|296
-110|134853|134854|134855|134856|134857|134858|513409|513065|515671|515672|515673|515674|515714
-5|16738|16750|16592|80650|80651|56616|56617|80654|56618|56619|56620|56621|56622|56623|16757|56625|56626|56627|56628|56629
+T|Arboga
+A|2|26679|6351|26681|26682|26683|6366|6373|6378|6196|28622|6343|28624|6367|28626|28627|28628|28629|28630|28631|28632|28633|28634|28635|28636|28637|28638|28639|28640|28641|28642|28643|28644|28645|28646|28647|28648|6348|28650
+A|4|236192|236193|236194|236195|236196|236197|236198|236199|236200
+A|68|185446|186920|310330|310331|310332|310333|310334|310335|310336|310337|310338|310339|310340|310341|310342|310343|310344|310345
+A|3|287831|291043|287828|291045|287832|291047|291048|291049|291050|291051|291052|291053|291054|291055
+A|55|281626|281627|281628|281629|281631|281630|281632
+A|1|89|37|91|2046|2047|2048|90|70|2051|2052|2053|2054|2055|2056|2057|2058|2059|33975|2060|2061|2062|2063|2064|2065|2066|2067|2068|33941
+A|335|293|294|295|296
+A|110|134853|134854|134856|134857|134858|513409|513065|515671|515672|515673|515674|515714
+A|5|16738|16750|16592|80650|80651|56616|56617|80654|56618|56619|56620|56621|56622|56623|16757|56625|56626|56627|56628|56629
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|335|OPA|Omsorgspartiet i Arboga
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|26679|34|M|Andreas Silversten|34 år, Besiktningstekniker
+C|6351|53|M|Joakim Rönnberg|53 år, Arboga
+C|26681|19|K|Klara Sparv|19 år, Barnskötare
+C|26682|44|K|Sara Axelsson|44 år, Socionom
+C|26683|51|M|Ola Eriksson|51 år, Tekniker
+C|6366|59|K|Lena Träff|59 år, Arboga
+C|6373|54|M|Bo Molander|54 år, Arboga
+C|6378|63|K|Kerstin Rosenkvist|63 år, Arboga
+C|6196|21|M|Razmus Schagerström|21 år, Arboga
+C|28622|66|K|Karin Cladin|66 år, Kantor
+C|6343|55|M|Joakim Sparv|55 år, Arboga
+C|28624|59|K|Anna-Lena Rehnman|59 år, Servitris
+C|6367|69|M|Kjell Persson|69 år, Arboga
+C|28626|23|K|Gulgun Eminbeili|23 år, Student
+C|28627|71|M|Karl-Bertil Eklund|71 år, Fd Förhandlingsledare
+C|28628|57|K|Susanne Andersson|57 år, Praktiksamordnare
+C|28629|73|M|Kjell Cladin|73 år, Redaktör
+C|28630|55|M|Mikael Hedberg|55 år, Herr
+C|28631|66|M|Ove Janse|66 år, Verktygsmakare
+C|28632|70|M|Åke Rosendahl|70 år, Fd Lastbilschaufför
+C|28633|47|K|Lena Thunell|47 år, Egen företagare
+C|28634|81|K|Yvonne Viitanen|81 år, Fd. Banktjänsteman
+C|28635|65|M|Björn von Walden|65 år, Pensionär
+C|28636|49|K|Helene Molander|49 år, Vårdbiträde
+C|28637|64|M|Bernt Johansson|64 år, Egen företagare
+C|28638|32|M|Markus Andersson|32 år, Gymnasielärare
+C|28639|73|M|Krister Rydberg|73 år, Fd Busschaufför
+C|28640|48|M|Per Landén|48 år, Stålarbetare
+C|28641|55|K|Aleksandra Janse|55 år, Undersköterska
+C|28642|69|M|Stefan Carlsson|69 år, Fd Vaktmästare
+C|28643|63|K|Pia Östlund|63 år, Undersköterska
+C|28644|85|M|Arto Viitanen|85 år, Fd Arbetsförmedlare
+C|28645|30|K|Martina Fransson|30 år, Nätverkstekniker
+C|28646|57|M|Lars Lindén|57 år, Provningsingenjör
+C|28647|63|K|Inger Persson|63 år, Butiksbiträde
+C|28648|66|M|Bo Reinholdsson|66 år, Kvalitetstekniker
+C|6348|52|K|Ann-Charlotte Karlsson|52 år, Arboga
+C|28650|73|M|Börje Blomkvist|73 år, Fd. Telemontör
+C|236192|59|M|Hans Ivarsson|Egenföretagare, Arboga
+C|236193|65|K|Marie-Louise Söderström|Götlunda
+C|236194|58|M|Tomas Karlsson|Tyringe
+C|236195|48|M|Karl-Erik Magnusson|Medåker
+C|236196|57|M|Lars Löfgren|Kemisorterare, Arboga
+C|236197|66|M|Lars-Göran Nyberg|Lunger
+C|236198|72|K|Gun Järling Aspås|Götlunda
+C|236199|59|K|Anne-Mari Ivarsson|Tyringe
+C|236200|65|M|Lars-Erik Ivarsson|Tyringe
+C|185446|51|M|Jonas Stenzelius|51, Ingenjör
+C|186920|67|M|Kjell Wendin|67, Chaufför, Arboga
+C|310330|70|K|Britt Lundberg|Specialpedagog
+C|310331|67|M|Roland Magnusson|Pensionär
+C|310332|39|K|Janina Isaksson|Barnskötare
+C|310333|46|K|Sara Stengård|Grundskollärare
+C|310334|38|M|Mikael Gustafsson|Ingenjör
+C|310335|81|K|Ulla Wäfors|Pensionär
+C|310336|39|M|Eddy Nzeyimana|Familjebehandlare
+C|310337|49|K|Anneli Eriksson|Lokalvårdare
+C|310338|50|M|Daniel Stengård|Systemutvecklare
+C|310339|54|M|Mikael Skott|Industriarbetare
+C|310340|64|M|Lars-Eric Nilsson|Språkpedagog
+C|310341|44|M|Daniel Edenholm|VD
+C|310342|75|M|Hans Lundberg|Pastor
+C|310343|62|M|Bengt-Göran Rosdahl|Verkstadsmekaniker
+C|310344|82|M|Bengt Bergenbrant|Lärare
+C|310345|74|M|Torbjörn Åhs|Lärare
+C|287831|71|M|Anders Cargerman|71, egenföretagare, Arboga
+C|291043|67|K|Marianne Samuelsson|förvaltningsassistent
+C|287828|39|M|Richard Fallqvist|39, installatör, Arboga
+C|291045|51|K|Gulshan Eminbeili|vårdanställd
+C|287832|71|M|Ingemar Johansson|71, elektroingenjör, Arboga
+C|291047|45|K|Carin Sandberg|lärare
+C|291048|73|M|Ove Nyberg|pensionär
+C|291049|39|M|Alexander Knutsson|egenföretagare
+C|291050|69|K|Maud Cargerman|f.d. distriktssköterska
+C|291051|68|M|Håkan Sandberg|docent
+C|291052|27|K|Louise Rickardsson|student
+C|291053|61|M|Erik Jirovsky|lärare
+C|291054|76|M|Göran Svanborg|pensionär
+C|291055|81|M|Sixten Öhman|f.d. adjunkt
+C|281626|64|M|Mikael von Melsted|64 år, Civilingenjör
+C|281627|43|K|Charlotte Ahlgren|43 år, Miljö och hälsoskyddsinspektör
+C|281628|52|M|Anders Frants|52 år, Lärare
+C|281629|39|K|Anna Åbom|39 år, Kock
+C|281631|77|K|Karin Nilsson|77 år, Leg.tandsköterska, USK/MESK
+C|281630|79|M|Sven Nilsson|79 år, Pensionär
+C|281632|52|M|Bruno Kaufmann|52 år, Statsvetare och Journalist
+C|89|66|M|Anders Röhfors|Kommunalråd, Arboga
+C|37|54|K|Jonna Lindman|Personalplanerare, Arboga
+C|91|46|M|Håkan Tomasson|Avdelningschef, Arboga
+C|2046|38|K|Anette Gunnarsson Nordin|
+C|2047|24|M|Gustav Isaksson|
+C|2048|48|K|Annelie Persson|
+C|90|68|M|Mats Öhgren|Pensionär, Arboga
+C|70|64|M|Tommy Karlsson|Officer, Arboga
+C|2051|55|M|Mikael Söderlund|
+C|2052|35|M|Harmen Rebel|
+C|2053|54|M|Stefan Bäck|
+C|2054|54|K|Marie Bäck|
+C|2055|60|K|Maritha Pettersson|
+C|2056|60|K|Eva Dahlén|
+C|2057|34|K|Tina Viitala Joelsson|
+C|2058|60|M|Arne Henriksson|
+C|2059|54|K|Monika Bergman|
+C|33975|46|K|Yvette Folin|
+C|2060|51|K|Åsa Feldin|
+C|2061|49|M|Peter Wahlström|
+C|2062|49|M|Carl Egegren|
+C|2063|72|K|Eva Holstein|
+C|2064|68|K|Tove Grenzdorf|
+C|2065|72|M|Anders Bjurström|
+C|2066|53|M|Matz Persson|
+C|2067|69|K|Gunilla Sigge|
+C|2068|67|M|Bo Björn|
+C|33941|56|M|Staffan Lindman|
+C|293|61|M|Carl-Erik Almskoug|
+C|294|59|M|Sune Gustavsson|
+C|295|62|M|Andreas Rosén|
+C|296|61|M|Stefan Hjalmarsson|
+C|134853|58|M|Tony Pehrsson|58 år, Företagare, Götlunda
+C|134854|54|M|Martin Nyqvist|54 år, Entreprenör, Arboga
+C|134856|67|M|Stefan Gunnarsson|entreprenör, Arboga, 67 år
+C|134857|58|M|Tommy Andersson|projektchef, Arboga, 58 år
+C|134858|64|M|Leif Gustafsson|instruktör, Arboga, 64 år
+C|513409|50|K|Katariina Sartesuo Sahlqvist|
+C|513065|69|M|Lars Falck|
+C|515671|54|M|Ulf Johansson|
+C|515672|55|K|Marita Kvarnström|
+C|515673|55|M|Anders Johansson|
+C|515674|42|K|Iryna Olesh|
+C|515714|42|K|Malin Nygren|
+C|16738|67|M|Dan Avdic Karlsson|67, socialsekreterare, Arboga
+C|16750|65|K|Inga-Lill Frössman|65, leg sjuksköterska, Arboga
+C|16592|33|K|Hanna Ericsson Franzén|33, förskollärare, Arboga
+C|80650|56|M|Rodrigo Melara|industriarbetare
+C|80651|20|K|Ronja Eriksson|studerande
+C|56616|68|M|Manuel Huerta|socionom
+C|56617|63|K|Kicki Hedström|socionom
+C|80654|50|M|Balmore De La Cruz|svetsare
+C|56618|46|K|Anna Windahl|förskollärare
+C|56619|45|M|Esmat Kanbar|cnc-operatör
+C|56620|71|K|Ann Avdic|familjerådgivare
+C|56621|73|M|Christer Löwenhamn|pensionär
+C|56622|65|K|Lizzie Hultqvist|lärare
+C|56623|67|M|Henry Pettersson|pensionär
+C|16757|56|K|Airi Andersson|56, barnskötare, Arboga
+C|56625|32|K|Malin Helgesson|stödassistent
+C|56626|77|K|Christina Hartin Silvergran|talpedagog
+C|56627|60|M|Agustin Sanchez Cruz|assistent på skola
+C|56628|53|K|Guadalupe Zalazar|skötare
+C|56629|63|K|Dora Cruz Sanchez|assistent på skola

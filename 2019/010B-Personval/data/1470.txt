@@ -1,12 +1,202 @@
-2|43458|43459|43460|43461|43462|43463|43464|43465|43466|43467|43468|43469|43470|43471|43472|43473|43474|43475|43476|43477|43478|43479|43480|43481|43482|43483|43484|43485|43486|43487|43488|43489|43490|43491|43492|43493|43494|43495|43496|43497|43498|43499|43500|43501|43502|43503|43504|43505|43506
-4|3209|3198|3257|3253|27558|27559|3229|27561|3215|27563|27564|27565|3275|27567|27568|27569|27570|27571|27572|27573|27574|27575|27576|27577|27578
-1150|347970|347971
-532|515848
-1342|168479|168514|168515|168516|168517|168518|168519|168520|168521|168522|168523|168524|168525|168526|168527|168528|168529
-68|491787
-1011|190220
-3|25033|31028|27262|31030|31031|31032|31033|31034|343270|31037|31036|31035
-55|66256|67937
-1|253985|255594|254345|255596|255597|255598|255599|255600|255601|255602|255603|253995|255605|255606|255607|255608|255609|253976|254322|254003|255613|255614|255615|255616|255617|255618|255619|255620|255621|255622|255623|255624|255625|255626
-110|66428|66429|66430|66431|66432|66499|66500|66501|66502|66503|66504|66505|66506|126692|509095|509099|509101|509102|510757|515537|515538|515539|515540
-5|64244|64245|64246|64247|64248|64249|64250|64251|64252|64253|64254|64255|64256
+T|Vara
+A|2|43458|43459|43460|43461|43462|43463|43464|43465|43466|43467|43468|43469|43470|43471|43472|43473|43474|43475|43476|43477|43478|43479|43480|43481|43482|43483|43484|43485|43486|43487|43488|43489|43490|43491|43492|43493|43494|43495|43496|43497|43498|43499|43500|43501|43502|43503|43504|43505|43506
+A|4|3209|3198|3257|3253|27558|27559|3229|27561|3215|27563|27564|27565|3275|27567|27568|27569|27570|27571|27572|27573|27574|27575|27576|27577|27578
+A|1150|347970|347971
+A|532|515848
+A|1342|168479|168514|168515|168516|168517|168518|168519|168520|168521|168522|168523|168524|168525|168526|168527|168528|168529
+A|68|491787
+A|1011|190220
+A|3|25033|31028|27262|31030|31031|31032|31033|31034|343270|31036|31035
+A|55|66256|67937
+A|1|253985|255594|254345|255596|255597|255598|255599|255600|255601|255602|255603|253995|255605|255606|255607|255608|255609|253976|254322|254003|255613|255614|255615|255616|255617|255618|255619|255620|255621|255622|255623|255624|255625|255626
+A|110|66428|66429|66430|66431|66432|66499|66501|66502|66503|66504|66505|66506|509095|509099|509101|509102|510757|515537|515538|515539|515540
+A|5|64244|64245|64246|64247|64248|64249|64250|64251|64252|64253|64254|64255|64256
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|532|FI|Feministiskt initiativ
+B|1342|hvkb|Hela Vara kommuns bästa
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|43458|49|M|Fredrik Nelander|49 år, Vara
+C|43459|45|K|Heidi Hansen|Arentorp, 45 år, socionom
+C|43460|52|M|Carl-Uno Olsson|Kvänum, 52 år, företagare
+C|43461|48|K|Malin Andersson|Stora Levene, 48 år, företagare
+C|43462|42|M|Fredrik Pettersson|Vedum, 42 år, maskinoperatör
+C|43463|50|K|Åsa Olsson|Ryda, 50 år, skolresurs
+C|43464|61|M|Peter Persson|Vara, 61 år, vaktmästare
+C|43465|60|K|Ros-Marie Persson|Vara, 60 år, undersköterska
+C|43466|61|M|Bengt Karlsson|Naum, 61 år, servicerådgivare
+C|43467|47|K|Anneli Persson|Norra Vånga, 47 år, butiksbiträde
+C|43468|58|M|Mohamad Rezkar|58 år, Vara
+C|43469|68|K|Toril Korsvik Jevås|Kvänum, 68 år, pensionär
+C|43470|49|M|Gert Andersson|Ryda, 49 år, lastbilschaufför
+C|43471|51|K|Liselotte Nelander|Arentorp, 51 år, socionom
+C|43472|24|M|Carl Nelander|Vara, 24 år, avdelningsansvarig
+C|43473|51|M|Lars Åke Karlsson|Vedum, 51 år, maskinoperatör
+C|43474|49|M|Jan Erlandsson|Vara, 49 år, betongarbetare
+C|43475|41|M|Anders Palm Lundin|Stora Levene, 41 år, lärare
+C|43476|21|M|Emil Fremäng|Vara, 21 år, simlärare
+C|43477|38|M|Uno Gunterberg|Vara, 37 år, företagare
+C|43478|59|M|Jan Erik Idsjö|Sparlösa, 59 år, ugnsmurare
+C|43479|51|K|Pernilla Carlsson|Vara, 51 år, undersköterska
+C|43480|69|M|Inge Pettersson|Vedum, 68 år, pensionär
+C|43481|70|M|Karl-Gustav Karlsson|Helås, 70 år, redovisningskonsult
+C|43482|43|M|Mikael Hernborg|Vara, 43 år, industriarbetare
+C|43483|27|M|Herman Ingvarsson|Arentorp, 27 år, betongarbetare
+C|43484|50|K|Helene Bäck|Tråvad, 50 år, socialpedagog
+C|43485|83|M|Anders Nilsson|Kvänum, 83 år, pensionär
+C|43486|64|K|Ing Gun Odin|Vara, 64 år, pensionär
+C|43487|41|M|Mikael Zetterström|Vara, 41 år, företagare
+C|43488|63|K|Ann-Louise Svensson|Kvänum, 63 år, handläggare
+C|43489|48|M|Johan Magnusson|Vara, 48 år, lärare
+C|43490|33|K|Alexandra Gustafsson|Kvänum, 33 år, personalvetare
+C|43491|48|M|Jörgen Kjellqvist|Vara, 48 år, fritidsledare
+C|43492|67|K|Britt-Mari Jörgensen|Larv, 67 år, pensionär
+C|43493|48|M|Stig-Olof Friberg|Vara, 48 år, ombudsman
+C|43494|68|K|Ann-Katrin Andersson|Kvänum, 68 år, pensionär
+C|43495|70|M|Stig Svenssson|Kvänum, 70 år, företagare
+C|43496|66|K|Rose-Marie Garyd|Stora Levene, 65 år, pensionär
+C|43497|71|M|Per-Olof Thörn|Håkantorp, 71 år, pensionär
+C|43498|67|M|Reino Garyd|Stora Levene, 67 år, pensionär
+C|43499|69|M|Oluf Jörgensen|Larv, 69 år, pensionär
+C|43500|73|M|Karl-Gustav Johansson|Vara, 73 år, pensionär
+C|43501|52|M|Stefan Andersson|Arentorp, 52 år, industriarbetare
+C|43502|69|M|Ove Karlsson|Vara, 69 år, pensionär
+C|43503|68|M|Hans Elof Brolin|Vara, 68 år, pensionär
+C|43504|36|M|Robert Andersson|Vara, 35 år, ombudsman
+C|43505|22|M|Eric Nelander|Arentorp, 22 år, industriarbetare
+C|43506|58|M|Bengt Åke Svensson|Vara, 58 år, materialplanerare
+C|3209|55|M|Ulf Genitz|Lantbruksföretagare, Vara, 55 år
+C|3198|25|K|Louise Grabo|Statsvetare, Vara, 25 år
+C|3257|70|M|Elof Jonsson|Lantmästare/Pensionär, Vara, 70 år
+C|3253|42|M|Martin Strandholm|It-konsult, Vara, 42 år
+C|27558|58|M|Ingemar Gruvaeus|Agronom, 59 år, Kvänum
+C|27559|63|K|Irene Karlsson|Företagare, 64 år, N.Vånga
+C|3229|40|M|Magnus Fridén|Egenföretagare, Vara, 40 år
+C|27561|63|K|Inger Gustafsson|Administratör, 63 år,Vedum
+C|3215|28|M|David Gustafsson|Behandlingsassistent, Vara, 28 år
+C|27563|72|M|Kjell Gustafsson|Eko lantbrukare,72 år, Bitterna
+C|27564|20|K|Moa Karlsson|Studerande, 20 år, Jung
+C|27565|63|M|Carl-Axel Olsson|Företagare, 63 år, Vedum
+C|3275|55|M|Ulf Bohlin|Säljare, Vara, 55 år
+C|27567|67|K|Ulla Johansson|Pensionär, 67 år, Kvänum
+C|27568|57|M|Thomas Larsson|Lantbrukare, 57 år, S.Kedum
+C|27569|29|M|Anton Torgnysson|Företagare, 30 år, Vara
+C|27570|22|K|Anna Genitz|Skidlärare, 22 år, Önum
+C|27571|72|M|Harry Stenermark|Pensionär, 72 år, Skarstad
+C|27572|47|K|Åsa Grönberg|Teknisk säljare, 47 år, Kvänum
+C|27573|67|K|Lisbeth Jonsson Holm|Farmaceut, 67 år, Vara
+C|27574|70|M|Bengt-Olof Fredén|Seniorkonsult, 70 år, Fyrunga
+C|27575|81|M|Håkan Brander|Pensionär, 81 år, Levene
+C|27576|37|K|Lina Irwe|Studerande, 38 år, Öttum
+C|27577|67|M|Rune Fridén|Lantbrukare, 67 år, Larv
+C|27578|53|K|Gunilla Genitz|Undersköterska, 53 år, Önum
+C|347970|28|M|Damien Terry|
+C|347971|31|M|Timmie Bodehed Karlsson|byggnadsarbetare
+C|515848|27|K|Lovisa Larsson|
+C|168479|46|M|Mattias Andersson|46 år, Agronom, Vara
+C|168514|50|K|Susanne Lundgren|50 år, Usk/Skötare, Vedum
+C|168515|72|M|Hans Lundmark|72 år, Lantmästare, Larv
+C|168516|35|M|Carl Hellqvist|35 år, Ekonom, Vara
+C|168517|37|K|Sabina Karlsson|37 år, Sjuksköterska, Vara
+C|168518|62|M|Anders Ekdén|62 år, Vaktmästare, Vara
+C|168519|57|M|Camille Maamari|57 år, Försäljare, Vara
+C|168520|58|K|Ingegerd Thorsell|58 år, Egen företagare, Skarstad
+C|168521|55|M|Mourad Jaballah|55 år, Kock, St. Levene
+C|168522|45|K|Mona Larsson|45 år, Undersköterska, Emtunga
+C|168523|38|M|Rickard Svensson|38 år, Industriarbetare, Södra Lundby
+C|168524|37|M|Mikael Karlsson|37 år, Egen företagare, Vara
+C|168525|46|K|Teresa Kalisky|46 år, Enhetschef, Vara
+C|168526|72|M|Mikael Lidén|72 år, Egen företagare, Vara
+C|168527|75|M|Sven-Olof Eriksson|75 år, Egen företagare, Norra Vånga
+C|168528|65|M|Magnus Lidén|65 år, Civilekonom, Larv
+C|168529|61|M|Anders Mann|61 år, Lantbrukare, Kvänum
+C|491787|37|M|Fredrik Payedar|37, Civilekonom, Stora Levene
+C|190220|42|M|Michael Olofsson|42 år, Småföretagare, Öttum
+C|25033|66|M|Tommy Åkerstedt|66 Kvänum
+C|31028|27|K|Veronica Persson-Lilja|studerande, Kvänum
+C|27262|57|M|Per-Olof Persson-Lilja|57, Vara
+C|31030|81|K|Maritha Jacobson|fd.kanslist, Längjum
+C|31031|80|M|Stig Gleisner|apotekare, Vara
+C|31032|44|K|Annette Engström|gymnasielärare, Längjum
+C|31033|54|M|Pierre Zaarour|bagare, Vara
+C|31034|58|K|Anngärd Persson-Lilja|egenföretagare, Vara
+C|343270|34|M|Mohamed Dalaa|tekniker, Vedum
+C|31036|82|K|Inga Jönsson|pensionär, Vara
+C|31035|77|M|Ingvar Lund|fd.säljare, Vedum
+C|66256|46|M|Sten Sundvall|46 år,Pedagog,Vara
+C|67937|80|K|Solveig Andersson|80 år, Pensionär, Vara
+C|253985|36|K|Gabriela Bosnjakovic|36, Kulturvetare, Vara
+C|255594|52|M|Per Gunnarsson|Ingenjör, Naum
+C|254345|54|M|Lars Gezelius|54, Lantmästare, Vara
+C|255596|60|K|Agneta Edvardsson|f.d. Egen Företagare, Längjum
+C|255597|54|M|Peter Jonsson|Inköpschef, Vara
+C|255598|47|M|Erik Lindström|Major, Ulvstorp
+C|255599|68|M|Johannes Lundén|f.d Säljare, Vara
+C|255600|61|K|Marie Pehrsson|Administratör, Vara
+C|255601|76|M|Leif Sandberg|Pensionär, Håkantorp
+C|255602|62|M|Roland Edvardsson|Förrättningslantmätare, Längjum
+C|255603|57|M|Torbjörn Falk|Entreprenör, Tråvad
+C|253995|38|K|Anna Jäderström|38, Politisk sekreterare, Vara
+C|255605|35|M|Refaat Ibrahim|Egen Företagare, Stora Levene
+C|255606|46|M|Herman Bynke|Egen Företagare, Skarstad
+C|255607|71|M|Lennart Haglund|Lantbrukare , Vedum
+C|255608|79|M|Håkan Svensson|f.d. Kvarnägare, Vara
+C|255609|54|M|Mikael Plate|Logistiker, Håkantorp
+C|253976|44|K|Cecilia Widegren|44, Riksdagsledamot, Vara
+C|254322|65|M|Jan Erik Wallin|65, VD, Vara
+C|254003|36|M|Ronnie Brolin|36, Entreprenör, Vara
+C|255613|82|M|Göran Persson|Lantmästare, Kvänum
+C|255614|45|M|Fredrik Sjökvist|Koordinator, Vara
+C|255615|65|M|Ingemar Jonsson|Banktjänsteman, Vara
+C|255616|36|K|Anna-Stina Wikström Hansson|Lantbrukare, Vedum
+C|255617|42|M|Jon Sandkvist|Banktjänsteman, Vara
+C|255618|64|M|Bengt Onsjö|Pensionär, Larv
+C|255619|75|M|Sven Olof Johansson|Lantbrukare, Fyrunga
+C|255620|55|M|Sören Eriksson|Entreprenör, Long
+C|255621|20|M|Felix Hansson|Studerande, Vedum
+C|255622|76|M|Alf Bonander|Ingenjör, Larv
+C|255623|69|M|Onni Vehviläinen|Major, Ulvstorp
+C|255624|19|M|Carl Lund|Studerande, Vara
+C|255625|22|M|Abed Hegaze|Hantverkare, Vara
+C|255626|53|M|Anderz Erlandson|Entreprenör, Larv
+C|66428|47|M|Peter Björk|Chaufför, Larv
+C|66429|29|K|Hannyah Jörtoft|29, Studerande, Vara
+C|66430|38|K|Therese Wellbrant|38 år, Undersköterska, Vedum
+C|66431|33|K|Elin Härling|33, Personlig assistent, Vara
+C|66432|46|M|Peter Romlén|Cnc-operatör, Tråvad
+C|66499|35|M|Franz Wellbrant|35 år, Underhållstekniker, Vedum
+C|66501|36|M|Tresphore Mpundu|Lokalvårdare, Kvänum
+C|66502|23|K|Moa Tamrell|23 år, Högskolestudent, Tråvad
+C|66503|18|M|Martin Romlén|18 år, Studerande, Tråvad
+C|66504|53|K|Hillie Jörtoft|53 år, Undersköterska, Larv
+C|66505|45|K|Anna Nyman|45 år, Personlig assistent, Kvänum
+C|66506|44|M|Sonny Hansson|44 år, Skogsmaskinförare, Emtunga
+C|509095|52|K|Christina Richardsson|53 år, fd kriminalvårdare, Long
+C|509099|65|M|Håkan Andersén|65 år,civilingenjör, Larv
+C|509101|41|K|Sofia Ohlsén|41 år,undersköterska, Kvänum
+C|509102|42|K|Anna-Lena Andersson|42 år,undersköterska, Håkantorp
+C|510757|41|M|Fredrik Andersson|
+C|515537|23|K|Mimmi Köpsén|
+C|515538|22|M|Philip Köpsén|
+C|515539|66|M|Charles Eriksson|
+C|515540|65|M|Ray Johansson|
+C|64244|61|M|Egon Frid|Vara, Socionom
+C|64245|66|K|Åsa Heij Bengtegård|Vara, Pensionär
+C|64246|65|M|Claes Eriksson|Lärare, 55 år
+C|64247|53|K|Christina Hagberg|Personligt ombud, 54 år
+C|64248|45|M|Daniel Westin|Präst, 46 år
+C|64249|43|K|Sara Hansson|Administratör, 43 år
+C|64250|67|M|Kjell Beglert|Egen företagare, 67 år
+C|64251|63|K|Solbritt Wallin|Stödpersonal, 63 år
+C|64252|57|M|Lars-Olof Malmborg|Ugnsmurare, 57 år
+C|64253|43|K|Anna Lindh|Kock, 44 år
+C|64254|72|M|Klas Jakobsson|Pensionär, 72 år
+C|64255|76|K|Ulla Bengtegård|Pensionär, 76 år
+C|64256|78|K|Rigmor Andersson|Pensionär, 78 år

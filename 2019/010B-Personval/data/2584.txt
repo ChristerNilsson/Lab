@@ -1,14 +1,259 @@
-2|6843|6844|6845|6846|6847|6848|6849|6850|6851|6852|6853|6854|6855|6856|6857|6858|6859|6860|6861|6862|6863|6864|6865|6866|6869|6868|6871|6870|6873|6872|6874|6875|6876|6877|6878|6879|6880|6881|6882|6883|6884|6885|6886|6887|6888
-4|343061|343062|343063|343064|343065|343066|343067|343068|343069|343070|343071|343072|343073|343074|343075|343076|343077|343078|343079|343080|343081|343082|343083|343084|343085|343086|343087|343088|343089|343090|343091|343092|343093|343094|343095|343096|343097|343098|343099|343100|343101|343102
-532|344884|344885|344886|219320|344888|344889|344890|344891|344892|344893|344894|344895|344896|344897|344898|344899|344900
-1168|515802
-68|152807|152808|152809|152810|152811|152812|152813|152814|152815|152816|152817|152818|152819|152820|152821|152822
-3|223490|210369|49191|210375|223494|211691|231447|231448|231449|231450|231452|231453
-55|241915|241916|241917|241918|241919|241920|241921
-1|42995|207272|43199|207274|207275|207276|43200|207278|207279|207280|207281
-1326|224552|224553|224554|224555|224556|224557|224558|224559|224560|224561|224562|224563|224564|224565|224566|224567
-1073|178345|178346|178347|178348|178349|178350|178351|178352|178353|178354|178355|178356|178357|178358|178359|178360|178361
-193|4923|4903|4893|4913|4943|4933|4961|5084|4953|5089|63529|5086|5088
-110|119461|121657|121658|278371
-1410|511132|511133|515377
-5|205757|205758|205759|185280|205761|205762|205763|205764|185196|206200|206201|206202|30011|206204|206205|206206|206569|206570|30050|243570|206572|206826|206827|206828|206829|402542
+T|Kiruna
+A|2|6843|6844|6845|6846|6847|6848|6849|6850|6851|6852|6853|6854|6855|6856|6857|6858|6859|6860|6861|6862|6863|6864|6865|6866|6869|6868|6871|6870|6873|6872|6874|6875|6876|6877|6878|6879|6880|6881|6882|6883|6884|6885|6886|6887|6888
+A|4|343061|343062|343063|343064|343065|343066|343067|343068|343069|343070|343071|343072|343073|343074|343075|343076|343077|343078|343079|343080|343081|343082|343083|343084|343085|343086|343087|343088|343089|343090|343091|343092|343093|343094|343095|343096|343097|343098|343099|343100|343101|343102
+A|532|344884|344885|344886|219320|344888|344889|344890|344891|344892|344893|344894|344895|344896|344897|344898|344899|344900
+A|1168|515802
+A|68|152807|152808|152809|152810|152811|152812|152813|152814|152815|152816|152817|152818|152819|152820|152821|152822
+A|3|223490|210369|49191|210375|223494|211691|231447|231448|231449|231450|231452|231453
+A|55|241915|241916|241917|241918|241919|241920|241921
+A|1|42995|207272|43199|207274|207275|207276|43200|207278|207279|207280|207281
+A|1326|224552|224553|224554|224555|224556|224557|224558|224559|224560|224561|224562|224563|224564|224565|224566|224567
+A|1073|178345|178346|178347|178348|178349|178350|178351|178352|178353|178354|178355|178356|178357|178358|178359|178360|178361
+A|193|4923|4903|4893|4913|4943|4933|4961|5084|4953|5089|63529|5086|5088
+A|110|119461|121657|121658|278371
+A|1410|511132|511133|515377
+A|5|205757|205758|205759|185280|205761|205762|205763|205764|185196|206200|206201|206202|30011|206204|206205|206206|206569|206570|30050|243570|206572|206826|206827|206828|206829|402542
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|1168|KNEG|Knegarkampanjen
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1326|NKP|Nya Kirunapartiet
+B|1073|SL|Sámelistu/Samelistan Partipolitiskt obunden
+B|193|SJV|Sjukvårdspartiet
+B|110|SD|Sverigedemokraterna
+B|1410||VÅRT KIRUNA
+B|5|V|Vänsterpartiet
+C|6843|59|M|Mats Taaveniku|58 år, Kiruna
+C|6844|54|K|Sirpa Bäckström|53 år, Kiruna
+C|6845|37|M|Jonas Stålnacke|37 år, Svappavaara
+C|6846|69|K|Elisabeth Persson Holmdén|68 år, Kiruna
+C|6847|53|M|Sten Nylén|53 år, Kiruna
+C|6848|60|K|Siv Gunillasson-Sevä|60 år, Kiruna
+C|6849|69|M|Roger Suup|68 år, Kiruna
+C|6850|66|K|Marianne Baas|66 år, Vittangi
+C|6851|68|M|Kenneth Nilsson|67 år, Vittangi
+C|6852|72|K|Viveca Kohkoinen|71 år, Kiruna
+C|6853|67|M|Lars Törnman|66 år, Kurravaara
+C|6854|36|K|Hanna Rannerud|36 år, Kiruna
+C|6855|56|M|Mats Niemi|56 år, Kiruna
+C|6856|66|K|Ann Kristin Nilsson|66 år, Kiruna
+C|6857|58|M|Håkan Bäckström|58 år, Kiruna
+C|6858|33|K|Emilia Töyrä|Kiruna, 33 år
+C|6859|59|M|Anders Tano|58 år, Kiruna
+C|6860|51|K|Annicka Bohm|50 år, Kiruna
+C|6861|42|M|Ashkan Ekhtiari|41 år, Kiruna
+C|6862|66|K|Barbro Olofsson|66 år, Kiruna
+C|6863|43|M|Johan Thorneus|43 år, Kurravaara
+C|6864|49|K|Helene Rundgren|48 år, Kiruna
+C|6865|49|M|Magnus Hilmér|49 år, Kiruna
+C|6866|76|K|Majken Klippmark|76 år, Vittangi
+C|6869|40|M|Andreas Kemi|39 år, Kiruna
+C|6868|33|K|Mari Zakariasson|33 år, Vittangi
+C|6871|23|M|Hamid Niyazi|22 år, Kiruna
+C|6870|78|K|Barbro Tano|78 år, Kiruna
+C|6873|50|M|Robert Ylitalo|50 år Kiruna
+C|6872|56|K|Ann-Christin Jernerlöf|55 år, Kiruna
+C|6874|35|M|Idris Abdulwhab|36 år, Kiruna
+C|6875|51|M|Peter Granberg|50 år, Kiruna
+C|6876|67|M|Lars Björkenvall|66 år, Kiruna
+C|6877|54|M|Mats Sidmalm|53 år, Kiruna
+C|6878|70|M|Roland Holmdén|69 år, Kiruna
+C|6879|55|M|Patrik Friberg|55 år, Kiruna
+C|6880|70|M|Reino Krank|69 år, Kiruna
+C|6881|61|M|Jan Sydberg|61 år, Kiruna
+C|6882|51|M|Tony Tukala|51 år, Kiruna
+C|6883|56|M|Yngve Thornberg|56 år, Kiruna
+C|6884|65|M|Leif Pesonen|65 år, Kiruna
+C|6885|75|M|Hugo Haara|74 år, Masugnsbyn
+C|6886|66|M|Gustaf Waerner|66 år, Kiruna
+C|6887|66|M|Per-Olof Ohlsson|66 år, Kiruna
+C|6888|77|M|Sten Karppinen|76 år, Kiruna
+C|343061|59|M|Gunnar Selberg|Kiruna
+C|343062|45|K|Annica Henelund|
+C|343063|75|M|Thore Johansson|
+C|343064|52|K|Katarina Hjertell|
+C|343065|63|M|Rune Lans|
+C|343066|54|K|Kärstin Gustafsson|
+C|343067|50|M|Mats Holmström|
+C|343068|38|K|Agneta Björnström|
+C|343069|54|M|Kenneth Paulsson|
+C|343070|70|K|Birgitta Stålnacke|Kiruna
+C|343071|31|M|Magnus Gustafsson|
+C|343072|54|K|Monica Sundberg|
+C|343073|19|M|Mattias Timander|Studerande, Kiruna
+C|343074|49|K|Maria Ryytty|
+C|343075|60|M|Thorbjörn Fosseng|
+C|343076|78|K|Karin Uusitalo|
+C|343077|30|M|Jimmy Johansson|
+C|343078|52|K|Elisabeth Fors|
+C|343079|40|M|Magnus Stålnacke|
+C|343080|74|K|Ulla Olsson|
+C|343081|40|M|Stanislav Kall|
+C|343082|50|K|Elin Fors|
+C|343083|52|M|Ingemar Aho|
+C|343084|60|K|Mirja Niva|
+C|343085|41|M|Peter Göransson|
+C|343086|42|K|Jennie Martinez|
+C|343087|70|M|Göran Johansson|
+C|343088|33|K|Anna Lans|
+C|343089|25|M|Jonas Fors|
+C|343090|24|K|Emilia Selberg|
+C|343091|46|M|Roger Aitomäki|
+C|343092|62|K|Åsa Holmdal|
+C|343093|69|K|Mirja Björkman|
+C|343094|34|M|Andreas Wahlberg|
+C|343095|51|K|Anna Egwall|
+C|343096|60|M|Bengt Niva|
+C|343097|81|M|Tyko Lampa|
+C|343098|55|M|Per Esko|
+C|343099|78|M|Ragnar Fängvall|
+C|343100|41|M|Roger Siik|
+C|343101|61|M|Ingemar Waara|
+C|343102|53|M|Jens Nuksujärvi|
+C|344884|31|K|Ann Christine Brännvall|
+C|344885|36|M|Peter Ludvig Alex|
+C|344886|32|K|Malin Järvinen|32 år, taxichaufför
+C|219320|35|K|Lisa Ryhänen|35år, Barnskötare, Kiruna
+C|344888|32|K|Zainab Kassem|32 år, kommunikatör och språkstödjare
+C|344889|32|K|Emma Bergman|32 år, integrationssamordnare
+C|344890|37|K|Emma Taube|37 år, projektledare Integrationsenheten
+C|344891|33|M|Peder Nutti|33 år, elektriker
+C|344892|32|K|Frida Kullebjörk|32 år, advokatsekreterare
+C|344893|59|K|Karin Nilsson|59 år, kvartersvärd KBAB
+C|344894|44|K|Malin Brännvall|44 år, avdelningschef hållbarhet
+C|344895|67|K|Gunilla Kangas|67 år, pensionär
+C|344896|64|K|Kari Hahne-Lundström|64 år, läkare
+C|344897|49|K|Laila Rolfsdottir|49 år, integrationspedagog
+C|344898|22|K|Agnes Pounu|22 år, studerande
+C|344899|36|K|Hilda Hahne|36 år, läkare
+C|344900|32|K|Elin Hietanen|32 år, ungdomshandläggare
+C|515802|35|M|Jari Tapani Söyrinki|
+C|152807|34|M|Krister Pounu|projektledare, Kiruna
+C|152808|55|M|Peter Stenberg|turistguide, 55år
+C|152809|29|K|Jenny Esberg|undersköterska, Kiruna
+C|152810|66|M|Isak Töyrä|pensionär, 65år
+C|152811|50|K|Ruth Thylin|förskolelärare, 50år
+C|152812|39|M|Tommy Vasara-Hammare|installatör, 39år
+C|152813|51|K|Ann-Helen Alajärvi|barnskötare, 51år
+C|152814|33|K|Anna Monlund|sjuksköterska, Kiruna
+C|152815|65|M|Svante Pounu|fritidsforskare, Kuttainen
+C|152816|54|K|Ingegerd Hetta|verksamhetsled. Kiruna
+C|152817|51|M|Roger Kemi|fastighetsskötare, 51år
+C|152818|39|M|Mattias Messner|mekaniker, 39år
+C|152819|54|K|Laila Hetta|undersköterska, Kuttainen
+C|152820|25|K|Cecilia Pounu|sjuksköterska, 25år
+C|152821|55|K|Lena Törelid|vårdpersonal/företagare, 55år
+C|152822|35|K|Maria Vasara-Hammare|lärare, 35år
+C|223490|56|K|Margareta Törnblom|Arbetsledare, 56 år, Kiruna
+C|210369|26|M|Martin Forss|Mekaniker, Kiruna
+C|49191|55|K|Anne Kotavuopio Jatko|enhetschef, Jukkasjärvi
+C|210375|38|M|Anders Björne|Företagare, Kiruna
+C|223494|36|K|Josefine Nilsson|36 år, Kiruna
+C|211691|61|K|Anne-Maria Pekkari|Diakonassistent, Parakka
+C|231447|65|K|Grazyna Hangas|65 år, Kiruna
+C|231448|74|M|Per Wideholm|74 år, Kiruna
+C|231449|43|K|Dharma Johansson|43 år, Kiruna
+C|231450|82|K|Ulla Olofsson|82 år, Kiruna
+C|231452|85|M|Alf Josefsson|85 år, Vittangi
+C|231453|93|M|Bengt Jernelöf|93 år, Kiruna
+C|241915|40|M|Anders Bältsjö|Tekniker, Kiruna
+C|241916|35|M|Johan Granberg|Ingenjör
+C|241917|26|M|Elias Lundberg Gripenberg|Handläggare
+C|241918|26|K|Anna Lindqvist|Driftoperatör
+C|241919|20|K|Matilda Harju|Guide
+C|241920|25|M|Linus Gunnarsson|Studerande
+C|241921|35|M|Lars Pettersson|ingenjör
+C|42995|38|M|Stefan Sydberg|38 år, Yrkesofficer, Kiruna
+C|207272|51|M|Lars-Johan Dalhägg|
+C|43199|51|M|Tord Eliasson|51 år, Säljare, Kurravaara
+C|207274|62|K|Elisabeth Andersson|
+C|207275|50|M|Mattias Abrahamsson|
+C|207276|51|K|Carina Kauppila|
+C|43200|31|K|Veronica Wahlström|31 år, Sjuksköterska, Kiruna
+C|207278|50|M|Rickhard Lantto|
+C|207279|29|K|Therese Alsterdal|
+C|207280|49|K|Anette Isaksen|
+C|207281|22|K|Paulina Hägg|
+C|224552|58|M|Kenneth Stålnacke|
+C|224553|67|K|Lilly Rönnebro|
+C|224554|58|M|Ingemar Uusitalo|
+C|224555|24|K|Wilma Krook|
+C|224556|64|M|Per-Erik Tapani|
+C|224557|61|K|Astrid Kuhmunen|
+C|224558|57|M|Stefan Jakobsson|
+C|224559|74|K|Margaretha Haapalahti|
+C|224560|72|M|Ingvar Dagfjäll|
+C|224561|56|K|Gunnel Jakobsson|
+C|224562|65|M|Kenneth Olofsson|
+C|224563|63|M|Kenneth Ruokamo|
+C|224564|58|M|Tony Bernestedt|
+C|224565|67|M|Dan Lundström|
+C|224566|79|M|Bruno Haapalahti|
+C|224567|83|M|Kurt Törmä|
+C|178345|68|M|Per Gustav Idivuoma|Lannavaara
+C|178346|38|K|Åsa Larsson Blind|Kiruna
+C|178347|60|M|Matti Berg|Puoltsa
+C|178348|62|M|Lars Jonas Kemi|Idivuoma
+C|178349|24|K|Sara Parfa Svonni|Kiruna
+C|178350|56|M|Håkan Enoksson|Kiruna
+C|178351|56|M|Bertil Blind|Övre Soppero
+C|178352|49|M|Lars Göran Marainen|Karesuando
+C|178353|22|K|Karen Ann Hurri|Karesuando
+C|178354|38|M|Aslat Simma|Idivuoma
+C|178355|48|M|John Tomas Påve|Övre Soppero
+C|178356|44|M|Per Ola Blind|Vittangi
+C|178357|52|M|Raymond Wasara|Karesuando
+C|178358|79|K|Kajsa Lena Blind|Kiruna
+C|178359|52|M|Per Olof Nutti|Karesuando
+C|178360|66|K|Britta Marakatt Labba|Övre Soppero
+C|178361|71|M|Lars Erik Kuhmunen|Rensjön
+C|4923|69|M|Dick Vånsjö|F.d. Officer, Kiruna
+C|4903|84|M|Bo Ek|Pensionär, Kiruna
+C|4893|73|K|Doris Messner|Läkare, Kiruna
+C|4913|76|M|Sören Sidér|F.d. Ingenjör, Kiruna
+C|4943|59|K|Birgitta Pounu|Administratör, Kiruna
+C|4933|69|K|Ulla Isaksson|Distriktssjukköterska, Vittangi
+C|4961|60|M|Ulf Isaksson|Väderobservatör, Vittangi
+C|5084|55|M|Jörgen Ek|Tekniker, Kiruna
+C|4953|64|M|Arne Esberg|Pensionär, Kiruna
+C|5089|30|K|Hanna Fredriksson|Besiktningstekniker, Kiruna
+C|63529|48|M|Per Eriksson|Projektledare, Kiruna
+C|5086|81|M|Lars Larsson|Musiker, Kiruna
+C|5088|86|M|Eilert Wanhatalo|Pensionär, Kiruna
+C|119461|53|M|Mats Fredlund|Yrkeschaufför, 54, Kiruna
+C|121657|62|M|Kjell Paulsson|yrkeschaufför, 63, Kiruna
+C|121658|65|K|Agneta Paulsson|egenföretagare, 65, Kiruna
+C|278371|51|K|Madeleine Vestling|lokalvårdare, 51, Kiruna
+C|511132|65|M|PER NILSSON|Kirunabo
+C|511133|64|M|HENRY EMMOTH|Yrkeslärare
+C|515377|60|K|Gun Britt Emmoth|
+C|205757|40|M|Gunnar Bergman|
+C|205758|59|K|Siv Henriksson|
+C|205759|46|K|Lisbet Isaksson|
+C|185280|74|M|Sten Stridsman|Kiruna
+C|205761|33|K|Sanna Inga Poromaa|
+C|205762|26|M|August Tapojärvi|
+C|205763|58|K|Monika Vanberg|
+C|205764|73|M|Sigurd Pekkari|
+C|185196|72|K|Doris Söderberg|Kiruna
+C|206200|39|M|Roger Norman|
+C|206201|73|K|Birgitta Fernström|
+C|206202|62|M|Bengt Keisu|
+C|30011|44|K|Carolina Gustafsson|Kiruna
+C|206204|44|M|Roger Fors|
+C|206205|52|K|Paulina Eriksson|
+C|206206|81|M|Kurt Sundkvist|
+C|206569|59|K|Maj-Britt Torneus|
+C|206570|52|M|Henrik Falck|
+C|30050|61|K|Kristina Nilsson|Kiruna
+C|243570|61|M|Ove Åström|
+C|206572|75|K|Edla Lantto|
+C|206826|37|M|Martin Olsson|
+C|206827|38|K|Birgitta Henriksson Lindmark|
+C|206828|70|M|Lars Öhman|
+C|206829|44|K|Nina Nicklasson|
+C|402542|58|M|Arne Bengtsson|

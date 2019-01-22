@@ -1,12 +1,183 @@
-2|28276|57863|66062|28291|66064|66065|66066|66067|57850|66069|66070|66071|66072|66073|66074|66075|66076|66077|66078|66079|66080|66081|66082|66083|66084|66085|66086|57845|66088|66089|66090|66091
-4|416227|79259|79260|79261|35334|35327|79264|79265|79266|79267|79268|79269|39481|35340|79273|79274|79275|79276|79277|79278|79279|79280|79281|79282|79283|79284|79285|79286|79287|79288|79289|79290|79291|79292
-532|515316
-68|95570|95571|95572|95573|95574|95575
-3|263629|263630|261551|261684|263633|263634
-55|21557|21558|21549|89756|21559|89758|89759|89760|89761|104440|89762|19566
-1|62168|62169|62170|62171|62172|62173|62174|62175|62176|62178|62180|62181|62182|62184|62185|62186|62187|62188|62189|62190|62191|62192|62193|62194|62195|62196|62197|322127
-107|448738|448739|448740|448741|448742|448743|448744
-110|112645|112646|112647|112648|112649|112650|112653|112654|112655|112656|112657|112658|112659
-1334|448981|448982|515328
-1309|431296|431563|432298|432299|431310|432301
-5|124134|124135|124136|124137|124138|124139|124140|124141|124142|124143
+T|Tomelilla
+A|2|28276|57863|66062|28291|66064|66065|66066|66067|57850|66069|66070|66071|66072|66073|66074|66075|66076|66077|66078|66079|66080|66081|66082|66083|66084|66085|66086|57845|66088|66089|66090|66091
+A|4|416227|79259|79260|79261|35334|35327|79264|79265|79266|79267|79268|79269|39481|35340|79273|79274|79275|79276|79277|79278|79279|79280|79281|79282|79283|79284|79285|79286|79287|79288|79289|79290|79291|79292
+A|532|515316
+A|68|95570|95571|95572|95573|95574|95575
+A|3|263629|263630|261551|261684|263633|263634
+A|55|21557|21558|21549|89756|21559|89758|89759|89760|89761|104440|89762|19566
+A|1|62168|62169|62170|62171|62172|62173|62174|62175|62176|62178|62180|62181|62182|62184|62185|62186|62187|62188|62189|62190|62191|62192|62193|62194|62195|62196|62197|322127
+A|107|448738|448739|448740|448741|448742|448743|448744
+A|110|112645|112646|112647|112648|112649|112650|112653|112654|112655|112656|112657|112658|112659
+A|1334|448981|448982|515328
+A|1309|431296|431563|432298|432299|431310|432301
+A|5|124134|124135|124136|124137|124138|124139|124140|124141|124142|124143
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|107|SPI|SPI Välfärden
+B|110|SD|Sverigedemokraterna
+B|1334|TomP|Tomelillapartiet
+B|1309|TRP|TRYGGHETSPARTIET
+B|5|V|Vänsterpartiet
+C|28276|31|K|Sara Anheden|Nämndsekreterare, Tomelilla
+C|57863|60|M|Torgny Larsson|Lärare, Tomelilla
+C|66062|39|K|Ida Bornlykke|39 år, Smedstorp
+C|28291|33|M|Sejdi Karaliti|Industriarbetare, Tomelilla
+C|66064|66|K|Tina Bergström Darell|66 år, Tomelilla
+C|66065|53|M|Anders Throbäck|53 år, Ramsåsa
+C|66066|70|K|Inger Åbonde|70 år, Lunnarp
+C|66067|58|M|Peter Boström|58 år, Sälshög
+C|57850|75|K|Anne-Maj Råberg|Vårdlärare/gymnasielärare, Tomelilla
+C|66069|67|M|Jan-Erik Andersson|67 år, Tomelilla
+C|66070|56|K|Helén Bladh|56 år, Smedstorp
+C|66071|21|M|Kevin Ekvall|21 år, Tomelilla
+C|66072|47|K|Kristin Skoog|47 år, Benestad
+C|66073|43|M|Axel Olsson|43 år, Tomelilla
+C|66074|67|K|Britt-Marie Liljeholm|67 år, Tomelilla
+C|66075|45|M|Roger Persson|45 år, Tryde
+C|66076|67|K|Karin Arvidsson|67 år, Tomelilla
+C|66077|48|M|Henrik Nilsson|48 år, Sälshög
+C|66078|68|K|Ulla-Christina Lindberg|68 år, Tomelilla
+C|66079|56|M|Per Larsson|56 år, Spjutstorp
+C|66080|49|K|Gunilla Eriksson|49 år, Tryde
+C|66081|65|M|Walter Borggren|65 år, Tomelilla
+C|66082|71|K|Elsy Larsson|71 år, Tryde
+C|66083|72|M|Hans Larsson|72 år, Tryde
+C|66084|74|K|Britt-Marie Olofsson|74 år, Tomelilla
+C|66085|64|M|Kenth Bergström|64 år, Tomelilla
+C|66086|75|K|Else-Marie Lindgren|75 år, Tryde
+C|57845|51|M|Per Skoog|Specialpedagog, Tomelilla
+C|66088|60|K|Ann-Sofie Lind|60 år, Tomelilla
+C|66089|49|M|Mikael Rosén|49 år, Tomelilla
+C|66090|77|K|Margit Olsson|77 år, Tryde
+C|66091|73|M|Tomas Talik|73 år, Brösarp
+C|416227|50|M|Leif Sandberg|50, Kommunalråd, Everöd
+C|79259|39|K|Maria Mickelåker|39, Agronom, Eljaröd
+C|79260|42|M|Magnus Nilsson|42, Lantmästare, Torasteröd
+C|79261|53|K|Charlotte Rosdala|53, Butikssäljare, Tomelilla
+C|35334|45|M|Christer Yrjas|Agronom, 45, Brösarp
+C|35327|33|M|Fatlum Avdullahu|Redovisningskonsult, 33, Tomelilla
+C|79264|54|K|Anette Thoresson|54, Redovisningskonsult, Lönhult
+C|79265|60|M|Anders Larsson|60, Plaståtervinnare, Tomelilla
+C|79266|61|K|Gunvor Olsson|61, Apotekschef, Sälshög
+C|79267|18|K|Alice Jönsson|18, Studerande, Brösarp
+C|79268|58|M|Christian Björkqvist|57, Kanslichef, Sillaröd
+C|79269|61|M|Bengt Högborg|61, Lantmästare, Tomelilla
+C|39481|47|K|Lena Eriksson|Sektionschef, 47, Brösarp
+C|35340|39|K|Boel Holm|Socionom, 39, Tomelilla
+C|79273|65|M|Per Håkanson|65, Lantmästare, Andrarum
+C|79274|57|K|Erica Toft|57, Innovations- och företagskonsult, Lönhult
+C|79275|61|M|Håkan Jönsson|61, Gymnasielärare, Norra Björstorp
+C|79276|70|K|Inger Johanson-Thor|70, Egenföretagare, Ramsåsa
+C|79277|70|M|Jan-Erik Broomé|70, Pensionär, Brösarp
+C|79278|63|K|Eva Gustavsson|63, Speciallärare, Bondrum
+C|79279|55|M|Nesib Haskic|54, Yrkeslärare/brandman, Tomelilla
+C|79280|74|M|Bengt Lydén|73, Ingenjör, Tunby
+C|79281|78|K|Agneta Nilsson|77, Fil.kand/konstnär, Tomelilla
+C|79282|26|M|Tobias Högborg|26, Lantmästare, Tomelilla
+C|79283|18|K|Matilda Björk|18, Studerande, Tomelilla
+C|79284|63|M|Sven-Anders Gustavsson|63, Lantbrukare, Bondrum
+C|79285|60|K|Carina Ivarsson|59, Ekonomichef, Tryde
+C|79286|68|M|Thomas Leandersson|68, Auktionsförrättare, Tomelilla
+C|79287|48|K|Marie Ljungdahl|48, Diversearbetare/författare, Tomelilla
+C|79288|48|M|Tobias Mirvéus|48, Produktionsteknisk chef, Tomelilla
+C|79289|57|K|Siv Nilsson|57, Butiksbiträde, Tunby
+C|79290|59|M|Gert-Åke Mårtensson|59, Verksamhetsledare, Illstorp
+C|79291|56|K|Lena Persson|55, Socionom, Munka Tågarp
+C|79292|56|M|Ingvar Karlsson|55, Lantmästare, Tryde
+C|515316|60|M|Sven Eriksson|
+C|95570|65|M|Bo Herou|65 år, Jurist, Onslunda
+C|95571|65|K|Susanne Balczar Herou|65 år, Biomed.analytiker, Onslunda
+C|95572|74|M|Kjell Persson|74 år, Verkstadschef, Tomelilla
+C|95573|74|M|Stig Johansson|74 år, Pensionär, Smedstorp
+C|95574|52|K|Helene Nilsson|52 år, Kenellägare, Smedstorp
+C|95575|72|K|Annika Johansson|72 år, Pensionär, Smedstorp
+C|263629|49|K|Carina Persson|Brösarp
+C|263630|51|M|Conny Thoresson|Brösarp
+C|261551|50|K|Charlotte Larkin|Tomelilla
+C|261684|68|M|Anders Albäck|Brösarp
+C|263633|66|K|Bitte Ahrland Bocz|Illstorp
+C|263634|79|M|Anders Cederberg|Brösarp
+C|21557|44|M|Mikael Holmberg|Projektledare, 44 år, Tomelilla
+C|21558|63|K|Solveig Falk|Egenföretagare, 63 år, Skåne Tranås
+C|21549|67|M|Jerry Bergström|Pensionär, 67 år, Skåne Tranås
+C|89756|38|K|Vilda Rosenblad|Författare, Onslunda
+C|21559|55|M|Claes Melin|Egenföretagare, 55 år, Tomelilla
+C|89758|58|K|Zuzanne Ljungblad|Lärare, Tomelilla
+C|89759|38|M|Erik Rosenblad|Hållbarhetssamordnare, Onslunda
+C|89760|49|K|Misao Melin|Lärare, Kverrestad
+C|89761|77|M|Sven-Gunnar Hultman|Egen företagare, Brösarp
+C|104440|20|K|Emili Melin|Diversearbetare, Kverrestad
+C|89762|63|M|Johan Rosenblad|Författare, Onslunda
+C|19566|62|K|Lotta Hedström|Egenföretagare, 62 år, Andrarum
+C|62168|51|M|Per-Martin Svensson|51 år, ingenjör, Gärarp
+C|62169|69|K|Ewa Carnbrand|69 år, egen företagare, Brösarp
+C|62170|46|M|Sander Dijkstra|46 år, lantbrukare , Ramsåsa
+C|62171|74|K|Gunnel Andersson|74 år, leg. sjuksköterska, Brösarp
+C|62172|71|K|Marianne Åkerblad|71 år, filosofie magister, Tomelilla
+C|62173|67|M|Bertil Fredlund|67 år, professor, Skåne-Tranås
+C|62174|34|M|Emil Ekstrand|35 år, civilingenjör lantmäteri, Nedraby
+C|62175|74|K|Margith Svensson|74 år, f.d. upphandlingschef, Smedstorp
+C|62176|57|M|Kenneth Strömbeck|57 år, jur. kand., Brösarp
+C|62178|23|M|Alexander Verweij Svensson|23 år, bartender, Gärarp
+C|62180|46|M|Paul Hallgren|46 år, projektledare, Tomelilla
+C|62181|72|M|Lennart Johansson|72 år, lantmästare, Ramsåsa
+C|62182|39|K|Ade Inarwanty|39 år, butiksbiträde, Ramsåsa
+C|62184|41|K|Janet ten Have|41 år, egen företagare, Ramsåsa
+C|62185|57|M|Per Jepsson|57 år, lantmästare, Ullstorp
+C|62186|70|M|Bo Claëson|70 år, advokat, Tomelilla
+C|62187|54|M|Mats Andersson|54 år, egen företagare, Brösarp
+C|62188|52|K|Elizabeth Nilsson|52 år, leg. sjuksköterska, Brösarp
+C|62189|51|K|Pia Turtiainen|51 år, jurist, Brösarp
+C|62190|20|K|Johanna Andersson|20 år, studerande, Brösarp
+C|62191|37|K|Marie Schuman|37 år, ekonom, Tomelilla
+C|62192|44|M|Simon Blixt|44 år, VD , Bollerup
+C|62193|25|M|Maximilian Bengtsson|25 år, VVS-montör, Ingelstad
+C|62194|55|M|Göran Hansson|54 år, gårdsmästare, Nedraby
+C|62195|18|K|Linnea Henningsson|18 år, studerar, Ramsåsa
+C|62196|30|M|Andreas Svensson|29 år, egen företagare, Everöd
+C|62197|46|K|Marie Ståhlbrand|45 år, enhetschef, Tomelilla
+C|322127|52|M|Jonas Borg|52 år, egenföretagare, Onslunda
+C|448738|77|M|Egon Hansson|Lantbrukare
+C|448739|77|M|Arne Lilja|Pensionär
+C|448740|75|K|Gun Fisker|Pensionär
+C|448741|73|K|Inga-Lill Themsen|Pensionär
+C|448742|79|M|Lars-Erik Ottosson|Pensionär
+C|448743|72|M|Bertil Nilsson|Pensionär
+C|448744|79|K|Ann Harrysson|Pensionär
+C|112645|48|M|Per Gustafsson|Fordonsmekaniker, 48 år
+C|112646|40|M|Paul Lennartsson|smed
+C|112647|51|M|Peo Örnsved|Ekonomichef, 51 år
+C|112648|48|M|Anders Rosengren|Byggnadsmålare, 48 år
+C|112649|75|M|Kent Olofsson|pensionär
+C|112650|34|K|Tina Malm|målare
+C|112653|42|M|Martin Åkesson|yrkeschaufför
+C|112654|49|M|Thony Blomgren|fastighetsförvaltare
+C|112655|47|M|Jonas Olsson|CNC-operatör
+C|112656|63|M|Kent Gustafsson|pensionär
+C|112657|68|M|Birger Hörberger|egenföretagare
+C|112658|66|K|Zofia Prokopczyk|pensionär
+C|112659|56|M|Jan Gustafsson|bilförsäljare
+C|448981|61|M|Håkan Malmgren|Alternativ för Sverige
+C|448982|49|M|Göran Andersson|Tomelilla
+C|515328|52|K|Anki Lundberg|
+C|431296|40|M|Christian Stridh|Tomelilla
+C|431563|59|K|Birgitta Clarholm|Tomelilla
+C|432298|38|M|Tommy Falk|Tomelilla
+C|432299|34|K|Josefin Lindholm|Undersköterska, Tomelilla
+C|431310|40|M|Linus Mattisson|Svetsare, Tomelilla
+C|432301|43|M|Jonny Wohlin|Smedstorp
+C|124134|55|K|Mona Nihlén|behandlingspedagog, Tomelilla
+C|124135|36|K|Linda Ekelund|handledare HVB, Skåne Tranås
+C|124136|65|M|Figge Bergquist|fotograf, Tomelilla
+C|124137|86|K|Britta Berg|pensionär, Tomelilla
+C|124138|56|M|Esad Smajic|CHC-operatör, 56 år, Tomelilla
+C|124139|70|M|Frans Berg|pensionär, 70 år, Tomelilla
+C|124140|70|K|Anna Axelsson|socionom, 70 år, Smedstorp
+C|124141|68|M|Bengt Magnusson|socionom, 58 år, Smedstorp
+C|124142|30|M|Shaban Spahiu|värdetransportör, 30 år, Tomelilla
+C|124143|86|K|Ingegärd Larsson|f d studieorganisatör, Brösarp

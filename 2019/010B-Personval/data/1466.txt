@@ -1,10 +1,160 @@
-2|87882|87885|140920|140921|140922|140923|140924|140925|140926|87875|140928|140929|140930|140931|140932|140933|140934|140935|140936|140937|140938|140939|140940|140941|140942|140943|140944|140945|140946|450708
-4|2954|2949|8463|2964|8465|8466|8467|8468|8469|8470|8471|8472|8473|8474|8475|8476|8477|3126|8479|8480|8481|8482|8483
-532|513995
-526|50353|50354|178871|178872|178873|178874|178875|178876|178877|178878|178879|178880|178881|178882|178883|178884|178885|178886|178887|178888
-68|274484|274485|274486|274487|274488|274489|274490|274491|274492|274493|274494
-3|49177|193028|193029|193030|193031|193032|193033|193034|193035|193036|193037|193038|193039|193040|193041|193042|193043|193044|193045
-55|118625|118626|118627|118628
-1|253900|253905|253888|255580|255581|255582|254313|255584|255585|255586|255587|255588|255589|255590|255591|255592
-110|66210|66211|66212|66213|178877|515837|515838|515839|515840
-5|5384|5385|5386|5387|5388|5389|5390
+T|Herrljunga
+A|2|87882|87885|140920|140921|140922|140923|140924|140925|140926|87875|140928|140929|140930|140931|140932|140933|140934|140935|140936|140937|140938|140939|140940|140941|140942|140943|140944|140945|140946|450708
+A|4|2954|2949|8463|2964|8465|8466|8467|8468|8469|8470|8471|8472|8473|8474|8475|8476|8477|3126|8479|8480|8481|8482|8483
+A|532|513995
+A|526|50353|50354|178871|178872|178873|178874|178875|178876|178877|178878|178879|178880|178881|178882|178883|178884|178885|178886|178887|178888
+A|68|274484|274485|274486|274487|274488|274489|274490|274491|274492|274493|274494
+A|3|49177|193028|193029|193030|193031|193032|193033|193034|193035|193036|193037|193038|193039|193040|193041|193042|193043|193044|193045
+A|55|118625|118626|118627|118628
+A|1|253900|253905|253888|255580|255581|255582|254313|255584|255585|255586|255587|255588|255589|255590|255591|255592
+A|110|66210|66211|66212|66213|178877|515837|515838|515839|515840
+A|5|5384|5385|5386|5387|5388|5389|5390
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|526|KVäl|Kommunens Väl
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|87882|57|M|Mats Palm|
+C|87885|51|K|Anette Rundström|
+C|140920|54|M|Björn Wilhelmsson|Herrljunga
+C|140921|69|K|Kerstin Johansson|Herrljunga
+C|140922|56|M|Bert-Åke Johansson|Herrljunga
+C|140923|65|K|Lise-Lotte Hellstadius|Herrljunga
+C|140924|67|M|Jan Bengtsson|Herrljunga
+C|140925|42|K|Marie Frost|Eggvena
+C|140926|64|M|Thomas Svennberg|Herrljunga
+C|87875|65|K|Kari Dokka Hellstadius|
+C|140928|56|M|Kurt Hallberg|Herrljunga
+C|140929|67|K|Kitty Andersson|Eggvena
+C|140930|20|M|Alexander Rahm|Herrljunga
+C|140931|55|K|Carina Fredriksen|Remmene
+C|140932|60|M|Magnus Fredriksen|Remmene
+C|140933|47|K|Armina Dzananovic|Herrljunga
+C|140934|48|M|Ronny Norman|Eggvena
+C|140935|52|K|Katarina Andersson|Hudene
+C|140936|34|M|Axel Roselius|Od
+C|140937|53|K|Susanne Ström|Herrjunga
+C|140938|48|M|Jarl Barkenfelt|Herrljunga
+C|140939|55|K|Ann-Mari Olsson|Jällby
+C|140940|27|M|Sebastian Lotjärn|Herrljunga
+C|140941|74|K|Birgitta Larsson|Bergagärde
+C|140942|47|M|Mikael Källström|Herrljunga
+C|140943|24|K|Linnea Johansson|Hudene
+C|140944|71|K|Ulla Wendel|Ljung
+C|140945|70|M|Bengt-Åke Hellstadius|Herrljunga
+C|140946|76|M|Harry Nilsson|Herrljunga
+C|450708|74|M|Jan Bengtsson|
+C|2954|63|M|Johnny Carlsson|63 år, Herrljunga
+C|2949|47|M|Andreas Molin|47 år, Mollaryd
+C|8463|45|K|Cecilia Frändberg|45 år, Tarsled
+C|2964|19|M|Simon Fredriksson|19 år, Herrljunga
+C|8465|37|K|Jessica Pehrson|36 år, Herrljunga
+C|8466|51|M|Thorbjörn Holgersson|51 år, Vesene
+C|8467|35|K|Brita Hårsmar|35 år, Herrljunga
+C|8468|51|M|Christer Amnehammar|51 år, Eggvena
+C|8469|51|K|Susanne Marstorp|51 år, Vesene
+C|8470|76|M|Uno Sanfridsson|76 år, Skölvene
+C|8471|53|M|Niclas Emanuelsson|53 år, Mjälldrunga
+C|8472|71|M|Rune Johansson|71 år, Eggvena
+C|8473|59|K|Ulla Lennartsson|59 år, Skölvene
+C|8474|41|M|Thomas Örn Karlsson|41 år, Fåglavik
+C|8475|58|K|Lena Martinsson|57 år, Tarsled
+C|8476|47|K|Eva Larsson|48 år, Vreta
+C|8477|72|M|Henri Andreasson|72 år, Hov
+C|3126|40|K|Pia Bondesson|40 år, Herrljunga
+C|8479|74|K|Laila Palmén|73, år, Hudene
+C|8480|61|M|Sune Johansson|61 år, Bråttensby
+C|8481|66|K|Agneta Svensson|66 år, Od
+C|8482|86|M|Ragnar Emanuelsson|86 år, Mjälldrunga
+C|8483|52|K|Marita Einarsson|52 år, Eggvena
+C|513995|65|K|Helen Borhammar|
+C|50353|61|M|Ronnie Rexwall|61, Jur kand, Västra Götaland
+C|50354|51|K|Christina Glad|Od
+C|178871|61|M|Börje Aronsson|Bråttensby
+C|178872|49|K|Gun Carlsson|Annelund
+C|178873|68|M|Lennart Ottosson|Annelund
+C|178874|69|M|Kent Johansson|Ljung
+C|178875|59|M|Jan Knudsen|Annelund
+C|178876|43|M|Jonny Johansson|Ljung
+C|178877|48|M|Marco Glad|Od
+C|178878|66|K|Christina Johansson|Ljung
+C|178879|66|M|Kenny Öst|Ebbared
+C|178880|21|K|Katharina Agvén|Annelund
+C|178881|73|M|Kjell Karletorp|Herrljunga
+C|178882|60|K|Diana Landén|Broddarp
+C|178883|78|M|Ronny Andreasson|Annelund
+C|178884|82|K|Ann-Britt Josefsson|Södra Björke
+C|178885|59|K|Anne Karlsson-Hoff|Herrljunga
+C|178886|85|M|Göte Josefsson|Södra Björke
+C|178887|59|M|Jan-Olof Johansson|Od
+C|178888|41|K|Katarina Johansson|Ljung
+C|274484|52|M|Ingemar Kihlström|52, Inköpare, Herrljunga
+C|274485|51|M|Fredrik Svensson|Jällby
+C|274486|69|M|Staffan Setterberg|69, Egenföretagare, Herrljunga
+C|274487|54|M|Ove Severin|53, Säljare, Herrljunga
+C|274488|69|K|Kerstin Setterberg|69, Pensionär, Herrljunga
+C|274489|79|M|Åke Henningsson|Källunga
+C|274490|42|M|Johannes Luiga|Herrljunga
+C|274491|61|K|Anna-Maria Johansson|Bråttensby
+C|274492|39|M|Andreas Markusson|Vesene
+C|274493|51|M|Henrik Max|Södra Björke
+C|274494|74|K|Maj Henningsson|Källunga
+C|49177|31|K|Elin Alavik|marknadskoordinator, Herrljunga
+C|193028|69|M|Håkan Körberg|69, civilekonom, Herrljunga
+C|193029|38|K|Charlotta Norén|38, Musiker
+C|193030|45|M|Anders Lennartsson|45, Logistiker
+C|193031|78|K|Inger Gustavsson|78, specialpedagog, Herrljunga
+C|193032|71|M|Jan-Olof Brorson|71, F.d. skogsvårdskonsulent
+C|193033|65|K|Anette Aleryd|66, enhetschef, Herrljunga
+C|193034|50|M|Finn Svensson|50, Försäljningschef
+C|193035|51|K|Helene Sandqvist|52, Utvecklingschef
+C|193036|40|M|Jonas Holm Pileborg|40, IT-specialist
+C|193037|45|M|Andreas Falk|45, Egenföretagare
+C|193038|72|K|Ulla Andreasson|73, Kontorist
+C|193039|34|M|Erik Alavik|34, Konsultchef
+C|193040|65|M|Rolf Aleryd|65, Lärare
+C|193041|72|K|Gunilla Blomdahl|72, Undersköterska
+C|193042|38|M|Mikael Norén|38, Verkstadschef
+C|193043|44|K|Lena Paulsson|45, Busschaufför
+C|193044|34|M|Christian Reimer|34, Projektledare
+C|193045|63|M|Gunnar Marcusson|63, Undersköterska
+C|118625|72|M|Börje Lundgren|Södra Björke
+C|118626|30|K|Elin Hegg|Vesene
+C|118627|68|M|Kjell Johansson|Bråttensby
+C|118628|42|M|Daniel Rupertsson|Molla
+C|253900|65|M|Gunnar Andersson|65, Egenföretagare, Herrljunga
+C|253905|62|K|Christina Abrahamsson|62, Företagare, Herrljunga
+C|253888|43|M|Andreas Johansson|43, Samordnare missbruksvård, Herrljunga
+C|255580|63|K|Karin Carlsson|63, Administratör, Sämsholm
+C|255581|67|M|Osborn Eklundh|67, Företagare, Sverkelstorp
+C|255582|35|K|Carin Martinsson|35, Lärare, Stenunga
+C|254313|49|M|Magnus Lennartsson|49, Säljare, Herrljunga
+C|255584|66|K|Lili-Ann Grindsiö|66, Pensionär, Mjäldrunga
+C|255585|77|K|Gudrun Gustafsson|77, Hanväverska, Herrljunga
+C|255586|43|M|Johan Sundberg|43, Åkeriägare, Källeryd
+C|255587|23|K|Mathilda Ohlsson Larsson|23, Studerande , Alboga
+C|255588|64|M|Bengt Ottosson|64, Lantbrukare, Ölanda
+C|255589|67|M|Göran Lindgren|67, fil.mag., Mjäldrunga
+C|255590|61|M|Bengt Abrahamsson|61, Företagare, Stenunga
+C|255591|69|M|Birger Lundell|69, f.d Sim- och idrottshalls chef, Herrljunga
+C|255592|72|M|Nils-Åke Johansson|72, Pensionär, Herrljunga
+C|66210|43|M|Jimmie Stranne|Busschaufför, Herrljunga
+C|66211|45|M|Jacob Brendelius|järnvägstjänsteman, 45 år
+C|66212|52|M|Tommy Thulin|52, Fastighetstekniker
+C|66213|57|K|Auli Karnehed|sjuksköterska, 57 år
+C|515837|33|M|Emil Thorin|
+C|515838|56|M|Erling Einar Erland Lindberg|
+C|515839|26|K|Cherelyn Henriksson|
+C|515840|35|M|Peter Müller|
+C|5384|29|K|Terese Eneman|fritidspedagog, 29 år
+C|5385|42|M|Magnus Jonsson|lokförare, 42 år
+C|5386|68|K|Lilian Tanneby|pensionerad socionom, 68 år
+C|5387|64|M|Bo Naumburg|fd enhetschef, 64 år
+C|5388|64|K|Lillemor Fritioff|65 år, pensionerad tågklarerare, Herrljunga
+C|5389|28|M|Mats Heden|tandläkare, 28 år
+C|5390|60|K|Eva Hammarén|pensionär, 60 år

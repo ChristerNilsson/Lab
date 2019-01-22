@@ -1,11 +1,415 @@
-2|73733|73767|28515|50643|73791|30329|22209|22206|73827|22214|73925|73945|22207|73960|73975|50638|74123|74124|74125|74264|74265|74266|26760|76465|22217|74765|74766|74859|74860|74923|28489|22204|75056|75057|50640|22208|26762|75121|22070|75216|75217|75312|75313|75314|52734|75365|22203|75367|22213|75369|75682|22218|75684|75685|75686|30335|75688|75913|75914|75915|75916|76010|76011|50772|76013|22216|76149|76150|76151|76152|76153|76154
-4|27436|27490|27271|27508|42124|27270|324618|27491|27379|27382|49566|30105|42114|27441|30097|27278|42673|325714|30122|27182|27405|27515|27384|24546|27438|24547|27450|42678|42693|27186|27385|24548
-532|219335|283378|312407
-68|293309|293316|293317|293320|292386|293307|293311|293323|301985|293313|293319|293324|293315|293325|293331|295091|293333|293312|301996|293326|293329|293330|293332|293334|302002|293310
-1011|510819|513512
-3|31349|28195|28190|28194|28193|35483|31351|28153|28205|31345|35488|31339|28202|28197|35492|35493|28200|28196|31343|28199|35498|31340|31350|35501|35502|28204|35504|31341|35506|31348
-55|433851|433808|414518|414513|414516|414519|414479|414472|433841|414515|414565|414514|433863|433843|433835|414493|311134|414522|414517|414556|433809|433872|433837|433840|414483|433824|414558|414526
-1|625|626|627|628|615|630|631|632|634|607|614|604|638|639|608|606|642|643|613|618|619|647|648|649|650|651|652|653|617|655|656|657|658|659|660|661|662|663|664|623
-250|404579|435871|435872|435873|435874|435875|404582|404580|435878|404581|435880|404575|404592|435883|435884|404590|435886|435887|435888|435889|435890|435891|435892|404597|435894|435895|435896|435897|404585|435899|435900|435901|404577|435903|435904|404599|435906|435907|404602|435909|435910|404586|435912|404584|435914|435915|404578|435917|435918|404589|435920|435921|404593|452667
-110|121077|124855|95599|94461|121080|124859|121615|124861|124862|124863|95597|95777|115978|121078|95600|124869|115878|124871|115540|94939|121082|124875|124876|115414|95601|115879|94462|115881|124882|124883|94463|121617|124886|124887|94936|124889|115541|124890|124891|121616|94938|121081|124895|95604|115543|124898|124899|115979|121619|124902|94466|95605|124905|121084|115545|124908|121618|115882|121095|94468|95603|124914|121621|124916|124917|121620|94465|124920|121093|124922|124923|115885|94464|125711|127274|127275|489634|512906|514919|514925|516002
-5|30296|30466|30467|9826|30294|30470|30471|30472|9824|30475|30297|30312|30307|30299|30322|30318|30310|30483|30484|30316|30306|30323|30320|30489
+T|Värmlands läns landsting
+A|2|73733|73767|28515|50643|73791|30329|22209|22206|73827|22214|73925|73945|22207|73960|73975|50638|74123|74124|74125|74264|74265|74266|26760|76465|22217|74765|74766|74859|74860|74923|28489|22204|75056|75057|50640|22208|26762|75121|22070|75216|75217|75312|75313|75314|52734|75365|22203|75367|22213|75369|75682|22218|75684|75685|75686|30335|75688|75913|75914|75915|75916|76010|76011|50772|76013|22216|76149|76150|76151|76152|76153|76154
+A|4|27436|27490|27271|27508|42124|27270|324618|27491|27379|27382|49566|30105|42114|27441|30097|27278|42673|325714|30122|27182|27405|27515|27384|24546|27438|24547|27450|42678|42693|27186|27385|24548
+A|532|219335|283378|312407
+A|68|293309|293316|293317|293320|292386|293307|293311|293323|301985|293313|293319|293324|293315|293325|293331|295091|293333|293312|301996|293326|293329|293330|293332|293334|302002|293310
+A|1011|510819|513512
+A|3|31349|28195|28190|28194|28193|35483|31351|28153|28205|31345|35488|31339|28202|28197|35492|35493|28200|28196|31343|28199|35498|31340|31350|35501|35502|28204|35504|31341|35506|31348
+A|55|433851|433808|414518|414513|414516|414519|414479|414472|433841|414515|414565|414514|433863|433843|433835|414493|311134|414522|414517|414556|433809|433872|433837|433840|414483|433824|414558|414526
+A|1|625|626|627|628|615|630|631|632|634|607|614|604|638|639|608|606|642|643|613|618|619|647|648|649|650|651|652|653|617|655|656|657|658|659|660|661|662|663|664|623
+A|250|404579|435871|435872|435873|435874|435875|404582|404580|435878|404581|435880|404575|404592|435883|435884|404590|435886|435887|435888|435889|435890|435891|435892|404597|435894|435895|435896|435897|404585|435899|435900|435901|404577|435903|435904|404599|435906|435907|404602|435909|435910|404586|435912|404584|435914|435915|404578|435917|435918|404589|435920|435921|404593|452667
+A|110|121077|124855|95599|94461|121080|124859|121615|124861|124862|124863|95597|95777|115978|121078|95600|124869|115878|124871|115540|94939|121082|124875|124876|115414|95601|115879|94462|115881|124882|124883|94463|121617|124886|124887|94936|124889|115541|124890|124891|121616|94938|121081|124895|95604|115543|124898|124899|115979|121619|124902|94466|95605|124905|121084|115545|124908|121618|115882|121095|94468|95603|124914|121621|124916|124917|121620|94465|124920|121093|124922|124923|115885|94464|125711|127274|127275|489634|512906|514919|514925|516002
+A|5|30296|30466|30467|9826|30294|30470|30471|30472|9824|30475|30297|30312|30307|30299|30322|30318|30310|30483|30484|30316|30306|30323|30320|30489
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|250|SjvV|Sjukvårdspartiet i Värmland
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|73733|61|M|Ulric Andersson|61 år, Munkfors
+C|73767|41|K|Åsa Johansson|41 år, Hagfors
+C|28515|59|M|Mats Sandström|59 år, Kil
+C|50643|55|K|Monica Gundahl|55 år, Karlstad
+C|73791|34|M|Erik Olsson|35 år, Karlstad
+C|30329|62|K|Ann-Katrin Järåsen|63 år, Torsby
+C|22209|42|M|Thomas Andersson|42 år, Kristinehamn
+C|22206|60|K|Ann Mlakar|60 år, Säffle
+C|73827|60|M|Per Gruvberger|60 år, Filipstad
+C|22214|36|K|Malin Hagström|36 år, Grums
+C|73925|43|M|Peter Söderström|43 år, Arvika
+C|73945|60|K|Marian Gustavsson|61 år, Forshaga
+C|22207|35|M|Tobias Eriksson|35 år, Sunne
+C|73960|51|K|Eva-Lotta Härdig Eriksson|52 år, Storfors
+C|73975|44|M|Daniel Schützer|44 år, Årjäng
+C|50638|37|K|Linda Larsson|37 år, Karlstad
+C|74123|52|M|Leif Haraldsson|53 år, Grums
+C|74124|63|K|Ann-Marie Larsson|63 år, Skoghall
+C|74125|61|M|Göran Eriksson|61 år, Hagfors
+C|74264|42|K|Linda Johansson|43 år, Sunne
+C|74265|62|M|Bjarne Olsson|62 år, Kristinehamn
+C|74266|39|K|Jessica Larsson|39 år, Hagfors
+C|26760|62|M|Hans-Peter Jessen|62 år, Eda
+C|76465|51|K|Susanne Kielba|52 år, Karlstad
+C|22217|21|M|Alexander Johansson Pettersson|22 år, Skoghall
+C|74765|62|K|Monica Bergkvist Andersson|62 år, Karlstad
+C|74766|26|M|Jomark Polintan|26 år, Filipstad
+C|74859|51|K|Lisa Levin|51 år, Arvika
+C|74860|32|M|Nicklas Hartwig|32 år, Munkfors
+C|74923|65|K|Gerd Karlsson|65 år, Arvika
+C|28489|59|M|Mikael Johansson|59 år, Kil
+C|22204|62|K|Eva-Lena Gustavsson|62 år, Torsby
+C|75056|27|M|Stefan Jonsson|27 år, Karlstad
+C|75057|69|K|Inga-Lill Röhr|69 år, Kristinehamn
+C|50640|38|M|Anders Tallgren|38 år, Karlstad
+C|22208|43|K|Ulrika Nilsson|43 år, Grums
+C|26762|47|M|Jens Ericsson|48 år, Eda
+C|75121|61|K|Pia Falk|61 år, Munkfors
+C|22070|56|M|Gert Björnvall|56 år, Forshaga
+C|75216|66|K|Tina Springer|67 år, Hammarö
+C|75217|43|M|Mathias Lindquist|44 år, Munkfors
+C|75312|40|K|Olga Ljung|41 år, Säffle
+C|75313|66|M|Tomas Riste|66 år, Karlstad
+C|75314|53|K|Kristina Kristiansson|54 år, Årjäng
+C|52734|37|M|Andreas Johansson|37 år, Karlstad
+C|75365|52|K|Ann-Sofie Ronacher|52 år, Hagfors
+C|22203|49|M|Kenneth Johannesson|49 år, Arvika
+C|75367|58|K|Marina Isaksson|57 år, Filipstad
+C|22213|19|M|Alexander Paulsson|19 år, Hagfors
+C|75369|47|K|Lena Kandergård|47 år, Arvika
+C|75682|40|M|Jerry Andergrahn|40 år, Kristinehamn
+C|22218|39|K|Jessica Hildèn|39 år, Kil
+C|75684|57|M|Lars-Ove Jansson|57 år, Arvika
+C|75685|33|K|Christina Skogström|33 år, Storfors
+C|75686|54|M|Göran Persson|54 år, Eda
+C|30335|42|K|Zenita Bäck|43 år, Torsby
+C|75688|22|M|Erivan Waysi|23 år, Grums
+C|75913|72|K|Agneta Dagoberth|72 år, Säffle
+C|75914|53|M|Per Aspengren|53 år, Skoghall
+C|75915|55|K|Myrna Labusan-Jönsson|56 år, Forshaga
+C|75916|49|M|Johan Olsson|49 år, Säffle
+C|76010|65|K|Kajsa Adolfsson|66 år, Kristinehamn
+C|76011|48|M|Birger Pettersson Wiik|48 år, Årjäng
+C|50772|41|K|Anna Dahlén Gauffin|41 år, Karlstad
+C|76013|34|M|Samuel Carlén|34 år, Kristinehamn
+C|22216|25|K|Nathalie Björfeldt|25 år, Karlstad
+C|76149|50|M|Tomas Pettersson|51 år, Hagfors
+C|76150|56|K|Birgitta Viberg|56 år, Storfors
+C|76151|64|M|Tommy Glader|65 år, Eda
+C|76152|64|M|Mats Thunér|64 år, Filipstad
+C|76153|42|K|Linda Hansen Grundel|43 år, Arvika
+C|76154|54|M|Thomas Rehn|54 år, Karlstad
+C|27436|63|K|Jane Larsson|Kristinehamn, 63 år, Landstingsråd
+C|27490|64|M|Ola Persson|V. Ämtervik, 64 år, Lantbrukare
+C|27271|45|M|Erik Evestam|Säffle, 45 år, Verksamhetsutvecklare
+C|27508|50|K|Anna-Lena Carlsson|Torsby, 50 år, Näringslivsutvecklare
+C|42124|60|M|Ulf Jonsson|Arvika, 60 år, Platschef
+C|27270|33|K|Madeleine Andersson|Långserud, 33 år, Socialsekreterare
+C|324618|49|M|Jens Östergren|Karlstad, 49 år, Politisk sekreterare
+C|27491|71|M|Karl-Johan Adolfsson|V. Ämtervik, 71 år, Skogsbonde
+C|27379|64|M|Göran Adrian|Forshaga, 64 år, Marknadschef
+C|27382|56|K|Marita Ögren|Olsäter, 56 år, Lärare
+C|49566|33|M|David Bildtsén|Ekshärad, 33 år, Jurist
+C|30105|65|M|Benny Ahremark Persson|Karlstad, 65 år, Tjänsteman
+C|42114|31|M|Anders Bergfjord|Gunnarskog, 31 år, Lantbrukare
+C|27441|58|M|Erik Ågren|Kristinehamn, 58 år, Lantbrukare
+C|30097|69|K|Anita Hall|Karlstad, 68 år, F.d. Undersköterska
+C|27278|43|K|Jenny Evestam|Säffle, 43 år, Projektledare
+C|42673|60|K|Johanna Söderberg|Koppom, 60 år, Sjuksköterska
+C|325714|67|M|Erik Eriksson|Väse, 67 år, Egenföretagare
+C|30122|70|M|Stellan Andersson|Uddeholm, 69 år, Lärare
+C|27182|57|K|Eva Frykenberger|Kil, 57 år, Personligt ombud
+C|27405|68|M|Kent Norman|Årjäng, 69 år, Revisor
+C|27515|65|K|Monica Olsson|Stöllet, 65 år, Administratör
+C|27384|71|K|Maria Lindquist|Hällekil, 71 år, Hemmansägare
+C|24546|72|K|Eva Sidenvall|Värmskog, 73 år, Socionom
+C|27438|64|K|Monika Gustavsson|Kristinehamn, 64 år, f.d. Banktjänsteman
+C|24547|69|K|Birgit Sturesson|Segmon, 68 år, Företagare
+C|27450|63|K|Diana Nilsson|Kristinehamn, 63 år, Svetsare
+C|42678|53|M|Carl-Olov Sjöstedt|Eda, 53 år, Mjölkproducent
+C|42693|40|K|Jannika Bergström|Köla, 40 år, Sjuksköterska
+C|27186|64|K|Berith Larsson|Kil, 63 år, HR-konsult
+C|27385|68|M|Lars Emilson|Deje, 68 år, Seniorkonsult
+C|24548|68|M|Lars-Åke Engdahl|Liljedal, 68 år, Pensionär
+C|219335|60|M|Mikael Gabrielsson|60år, Rytm- och samtalsterapeut, Ransäter
+C|283378|36|K|Sara Falkstad|36 år, Klässbol
+C|312407|65|K|Anita Glavå Svanström|65 år, Karlstad
+C|293309|60|K|Elisabeth Kihlström|landstingsråd, Karlstad
+C|293316|45|M|Mattias J Fröding|gymnasielärare, Karlstad
+C|293317|67|K|Agneta Nilsson|distriktssköterska, Årjäng
+C|293320|67|M|Kenth Carlsson|civilingenjör, Hammarö
+C|292386|72|K|Monica Ståhl|adjunkt, Storfors
+C|293307|43|M|Kjell-Arne Ottosson|lärare, Töcksfors
+C|293311|42|K|Susanne Engstad Clarke|butikschef, Arvika
+C|293323|73|M|Jonny Mattsson|överste, Karlstad
+C|301985|36|K|Sara Kihlström|lärare, Karlstad
+C|293313|48|M|Mattias Joelsson|projektledare, Skoghall
+C|293319|54|M|Stefan Moberg|företagare, Töcksfors
+C|293324|69|K|Catharina Hellgren|socionom, Karlstad
+C|293315|60|M|Rolf Örnborg|ljudtekniker, Sunne
+C|293325|40|M|Johan Lokander|platschef, Skattkärr
+C|293331|68|M|Anders Gustafsson|undersköterska, Charlottenberg
+C|295091|46|K|Catarina Jansson|enhetschef, Åmotfors
+C|293333|66|K|Ellen Skaare Håkansson|administratör, Kristinehamn
+C|293312|36|M|Erik Nilsson|kommunalråd, Karlstad
+C|301996|56|M|Jan Länsberg|gymnasielärare, Karlstad
+C|293326|32|M|Fredrik Roos|lärare, Karlstad
+C|293329|69|K|Marie Ullenius|socionom, Karlstad
+C|293330|72|M|Kjell Gillberg|teol. kand., fil. kand., Karlstad
+C|293332|64|K|Marianne Carlsson|upphandlingskonsult, Hammarö
+C|293334|74|M|Sten-Ove Jönsson|sjöingenjör, Skoghall
+C|302002|66|M|Mogens Nielsen|pastor, Töcksfors
+C|293310|37|M|Peter Kullgren|bitr. partisekreterare, Karlstad
+C|510819|26|M|Henrik Svensson|
+C|513512|61|M|Lennart Skoog|
+C|31349|59|K|Eva Julin Dombrowe|egenföretagare, 59 år, Kristinehamn
+C|28195|44|M|Niklas Lehresjön|gymnasielärare, 44 år, Karlstad
+C|28190|60|K|Marianne Åhman|leg tandhygienist, 60 år,Sunne
+C|28194|75|M|Gösta Frödin|fd tandläkare, 75 år, Arvika
+C|28193|71|K|Eva Wikström Hallonstén|fd rektor, 71 år, Karlstad
+C|35483|66|K|Anna-Lena Knutsson|arbetsteurapeut, 66 år, Årjäng
+C|31351|65|M|Henrik Lindblom|fd kommunalråd, 65 år, Karlstad
+C|28153|25|K|Sara Gunnarsson|statsvetare, 25 år, Karlstad
+C|28205|71|K|Ulla Olsson|byggnadsingenjör, 71 år, Filipstad
+C|31345|30|K|Emma Koskelainen|jurist, 30 år, Hagfors
+C|35488|65|M|Thomas Hallgren|överläkare och docent, 65 år, Karlstad
+C|31339|41|M|Peter Johansson|IT-konsult, 42 år, Hammarö
+C|28202|75|K|Anita Karmteg|leg sjuksköterska, 75 år, Kil
+C|28197|25|M|Dan-Aria Sucuri|kommunikatör, 25 år, Kristinehamn
+C|35492|54|M|Magnus Jansson|civilingenjör, 54 år, Säffle
+C|35493|63|K|Ann-Katrin Gyllsten|lärare, 64 år, Karlstad
+C|28200|68|K|Ann-Katrin Uppvall|företagare, 69 år, Torsby
+C|28196|47|K|Malin Hedberg|KMA-samordnare, 47 år, Karlstad
+C|31343|66|K|Barbro Dolling|fd distriktssköterska, 66 år, Sunne
+C|28199|25|M|Anton Sjöstedt|gymnasielärare, 25 år, Arvika
+C|35498|68|M|Bengt Kihlström|gymnasielärare, 68 år, Karlstad
+C|31340|61|K|Maud Jennemo-Olsson|projektledare, 61 år, Forshaga
+C|31350|75|M|Per Scheutz|socionom, 76 år, Karlstad
+C|35501|26|K|Linnea Bjurström|student, 27 år, Karlstad
+C|35502|63|M|Magnus Tuneld|ingenjör, 64 år, Karlstad
+C|28204|39|M|Robin Karlsson|SFI-lärare, 39 år, Årjäng
+C|35504|65|K|Wiktoria Granath|sjuksköterska, 66 år, Karlstad
+C|31341|68|M|Kjell Åke Holdar|socionom, 68 år, Arvika
+C|35506|55|M|Michael Hamberg|projektledare 55 år, Hammarö
+C|31348|74|M|Uno Halfvardsson|lärare, 75 år, Årjäng
+C|433851|46|M|Jesper Johansson|46 år, landstingsråd och språkrör, Borgvik
+C|433808|67|K|Eva Hallström|67 år, energi- och miljöingenjör, Sunne
+C|414518|36|M|Robert Halvarsson|36 år, kooperativ företagare, Karlstad
+C|414513|42|K|Monika Bubholz|42 år, civilingenjör, Karlstad
+C|414516|53|M|Torbjörn Nilsson|53 år, biolog, Karlstad
+C|414519|55|K|Birgitta Kahn|55 år, barnskötare, Karlstad
+C|414479|46|M|Lars-Ola Westerlund|46 år, advokatsekreterare, Deje
+C|414472|25|K|Alina Koltsova|25 år, arkivarie, Arvika
+C|433841|42|M|Tony Nilsson|42 år, säljare, Töcksfors
+C|414515|57|K|Anna Wilén|57 år, företagare, Karlstad
+C|414565|71|K|Agnes Utter|71 år, holistiker, Kristinehamn
+C|414514|59|M|Per-Inge Lidén|59 år, pastor, Karlstad
+C|433863|52|K|Camilla Kylin|52 år, universitetslektor, Karlstad
+C|433843|67|M|Lennart Bryntesson|67 år, företagare, Årjäng
+C|433835|60|K|Birgitta Karstensson|59 år, informatör, Likenäs
+C|414493|46|M|Mikael Jern|46 år, utbildningsadministratör, Hammarö
+C|311134|59|K|Stina Bergström|59, riksdagsledamot, Kil
+C|414522|64|M|Ulrik Scheller|64 år, integrationshandledare, Karlstad
+C|414517|38|K|Cecilia Lindström|38 år, lärare, Väse
+C|414556|42|M|Bertil Ahlin|42 år, miljösamordnare, Karlstad
+C|433809|60|K|Tina Bok|60 år, folkhögskolelärare, Sunne
+C|433872|61|M|Asso Zand|61 år, tolk, Karlstad
+C|433837|77|K|Ann Hagström|77 år, speciallärare, Likenäs
+C|433840|59|M|Peter Lustig|59 år, agronom, Årjäng
+C|414483|74|M|Jan Gustavsson|74 år, f d byrådirektör, Forshaga
+C|433824|35|M|Henrik Ahlgren|35 år, intergrationshandledare, Säffle
+C|414558|38|K|Christina Larsson|38 år, personlig assistent, Kristinehamn
+C|414526|51|M|Faisal Osman|51 år, jobbcoach, Karlstad
+C|625|46|M|Fredrik Larsson|lantbrukare/landstingsråd, Säffle
+C|626|47|K|Stina Höök|lärare/regionråd, Säffle
+C|627|59|M|Per-Samuel Nisser|lantbrukare/kommunalråd, Karlstad
+C|628|49|K|Marie Oudin|undersköterska/kommunalråd, Kristinehamn
+C|615|46|K|Johanna Larsson|lärare, Karlstad
+C|630|73|M|Henrik Samuelsson|leg. läkare/pensionär, Arvika
+C|631|62|M|Leif Sandberg|handläggare, Hammarö
+C|632|18|M|Anton Bengtsson|studerande, Sunne
+C|634|50|M|Patrik Fornander|egenföretagare, Filipstad
+C|607|49|K|Fereshteh Jalayer|egenföretagare, Karlstad
+C|614|33|M|Robin Olsson|mediakonsult, Årjäng
+C|604|48|M|Daniel Berghel|produktionsingenjör, Karlstad
+C|638|64|K|Margareta Nisser Larsson|civilingenjör, Karlstad
+C|639|81|M|Lars Österdahl|pensionerad byråchef, Karlstad
+C|608|23|M|Alexander Torin|politisk sekreterare, Karlstad
+C|606|51|K|Ulrika Jacobs|egenföretagare, Grums
+C|642|55|M|Håkan Axelsson|brandingenjör, Arvika
+C|643|73|K|Helene Torvaldsdotter Dehring|leg. Distriktssköterska, Karlstad
+C|613|50|M|Mikael Persson|utbildningsledare, Torsby
+C|618|53|M|Anders Ljungsten|väktare, Forshaga
+C|619|47|M|Roger Brodin|arbetsförmedlare, Hagfors
+C|647|22|K|Rebecka Ingsmy|studerande, Karlstad
+C|648|67|M|Börje Wahlund|civilingenjör/pensionär, Arvika
+C|649|67|M|Johnny Lundgren|vägmästare/pensionär, Eda
+C|650|76|M|Stellan Jansson|pensionerad överstelöjtnant, Kristinehamn
+C|651|52|M|Thomas Österdahl|gymnasielärare, Hammarö
+C|652|59|M|Göran Nilsson|tekniker, Karlstad
+C|653|74|M|Ulf Söhrman|civilingenjör/pensionär, Filipstad
+C|617|53|K|Maria Ohlsson|områdeschef, Karlstad
+C|655|70|M|Göran Frödin|företagare, Karlstad
+C|656|72|K|Anita Albertsson|utvecklingschef, Karlstad
+C|657|56|K|Lena Palmehn|depåchef, Karlstad
+C|658|66|K|Annika Bjelvert|pensionerad egenföretagare, Kil
+C|659|73|M|Gunnar Ordell|pensionerad byråchef, Karlstad
+C|660|65|K|Kerstin Jönsson|civilingenjör, Karlstad
+C|661|76|M|Thorsten Björkehed|pensionerad planeringschef, Hammarö
+C|662|64|M|Stefan Silfver|egenföretagare, Karlstad
+C|663|74|K|Siv Wittengård|fil.kand, Karlstad
+C|664|67|K|Eva Närva Eickenrodt|ekonom, Filipstad
+C|623|46|M|Kaj Johansson|distriktskonsulent, Karlstad
+C|404579|53|K|Marianne Utterdahl|Landstingsråd, Säffle
+C|435871|52|M|Jan Carling|Leg. Kiropraktor, Edsvalla
+C|435872|81|K|Birgitta Wessmark|fd Byrådirektör, Karlstad
+C|435873|67|K|Görel Hopman|Undersköterska akutsjukvård, Kristinehamn
+C|435874|58|M|Hans Nilsson|Kommunalråd Eda/ Vit älgfotograf, Koppom
+C|435875|66|K|Berit Larsson|Naturmedicinare / Folkhälsostrateg, Karlstad
+C|404582|49|K|Helena Granvik|Leg. Psykoterapeut, Säffle
+C|404580|69|K|Ingalill Rosell|Leg. Sjuksköterska, Säffle
+C|435878|66|K|Birgitta Sjögren|fd Ekonom, Torsby
+C|404581|32|M|Sebastian Hidén|Projektledare, Säffle
+C|435880|66|K|Mona Noreklint|Psykiatrisamordnare, Karlstad
+C|404575|47|K|Hèléne Agdén|Socialpedagog / Socialnämndsordf, Säffle
+C|404592|69|M|Kjell Rosell|fd Systemutvecklare, Säffle
+C|435883|51|K|Annica Tollén|Entreprenör / Marknadsekonom, Hammarö
+C|435884|71|K|Anna-Stina Persson|Pensionär, Torsby
+C|404590|41|K|Katja Gyllensteen Hahn|Undersköterskestudent, Säffle
+C|435886|75|M|Arnold Jonsson|fd Industriarbetare, Torsby
+C|435887|72|K|Märta Bodén|Egen företagare, Torsby
+C|435888|53|K|Nina Karlsson|Sjukpensionär, Väse
+C|435889|23|M|Oscar Karlsson|Försäljare, Torsby
+C|435890|60|M|Lars Ryman|Ordförande lokalförening Länkarna, Karlstad
+C|435891|39|M|Henrik Nilsson|Osteopat, Arvika
+C|435892|49|K|Ann-Sofie Aronsson|fd Kökschef, Hagfors
+C|404597|33|M|Lukas Geberetensae|Undersköterska, Säffle
+C|435894|57|K|Yvonne Kristoffersen|Undersköterska, Kristinehamn
+C|435895|77|M|Walter Christofferson|Journalist / Stenkake-DJ, Töcksfors
+C|435896|36|K|Malin Larsson|Holistisk behand- och samtalspartner, Deje
+C|435897|59|K|Carina Rhönstad Nilsson|Sjuksköterska, Brunskog
+C|404585|49|K|Asema Dzafic|Ingenjör, Säffle
+C|435899|73|M|Gullmar Johansson|Teletekniker, Torsby
+C|435900|51|K|Maria Hartman|Leg. Sjuksköterska, Säffle
+C|435901|73|M|Yngve Ericsson|fd Busschaufför servicelinjen, Sunne
+C|404577|75|K|Ingegerd Welin Fogelberg|Ingenjör, Säffle
+C|435903|43|K|Marika Sjögren|Undersköterska, Hammarö
+C|435904|43|K|Lovisa Månsson|Dipl. Hypnoanalytiker, Karlstad
+C|404599|82|M|Hans Kringstad|Civilingenjör, Säffle
+C|435906|73|K|AnnSofi Bengtsson|LCHF inspiratör, Karlstad
+C|435907|55|K|Ulrika Ungman|Ingenjör, Kristinehamn
+C|404602|61|M|Lennart Berg|Författare i livskunskap, Säffle
+C|435909|63|K|Annelie Ericsson|Egenföretagare, Sunne
+C|435910|76|K|Ulla Holmström|fd Psykiatrisjuksköterska, Karlstad
+C|404586|70|K|Maria Skogh|fd Sjukresehandläggare, Säffle
+C|435912|79|M|Bengt Ankerfeldt|Ingenjör, Forshaga
+C|404584|51|K|Carin Wernberger Dahlin|Bibliotekarie, Säffle
+C|435914|53|K|Wiveca Ericsson|Undersköterska, Sunne
+C|435915|72|K|Gunvor Ralling Kullgren|Universitetsadjunkt, Forshaga
+C|404578|55|M|Mats Ahlstrand|Brandmästare, Säffle
+C|435917|71|K|Anita Månsson|Zonterapeut, Karlstad
+C|435918|76|K|Berit Castor|Vårdlärare, Kristinehamn
+C|404589|66|K|Monica Johansson|Behandlingsper. / Entreprenör, Säffle
+C|435920|41|K|Malin El Fhaily|Socionom, Karlstad
+C|435921|66|M|Bertil Börjeson|Ordför. Vård- och stöd Eda, Skillingmark
+C|404593|31|K|Linnea Utterdahl|Vårdlärare, Säffle
+C|452667|66|K|Helena Emanuelsson|Undersköterska, Grums
+C|121077|42|K|Ljubica Jasic Modin|Undersköterska, Karlstad
+C|124855|49|M|Mikael Strifors|Utryckningsväktare, Årjäng
+C|95599|47|M|Johnny Grahn|47, Busschafför/Personlig assistent, Filipstad
+C|94461|54|M|Anders Skogberg|54, Civilingenjör, Arvika
+C|121080|63|K|Lena Monsén|63, Undersköterska, Karlstad
+C|124859|66|M|Paul Brännlund|Egenföretagare, Kristinehamn
+C|121615|53|M|Lars-Åke Berg|Produktionsledare, Kil
+C|124861|45|M|Marcus Karlsson|46, Egen företagare, Forshaga
+C|124862|64|K|Lisbet Jarnbro|Egenföretagare, Arvika
+C|124863|37|M|Anders Anderberg|Field Service Engineer, Säffle
+C|95597|61|M|Urban Pettersson|Civilingenjör, Filipstad
+C|95777|61|K|Anne-Louise Kron|61, Civilekonom/Egen företagare, Grums
+C|115978|57|K|Eva Söderström|57, Undersköterska, Torsby
+C|121078|75|K|Synnöve Aronsson|75, Pensionär, Karlstad
+C|95600|65|K|Eva Eriksson|65, Undersköterska, Filipstad
+C|124869|54|K|Gunilla Persson|Undersköterska, Kristinehamn
+C|115878|49|M|Jonas Bergström|49, Industrimekaniker, Sunne
+C|124871|61|M|Jonny Tegelaar|61, Målare, Kristinehamn
+C|115540|64|K|Yadviha Löf|64, Advokatjurist, Hagfors
+C|94939|47|K|Helena Ringstrand|47, Ekonomiansvarig, Eda
+C|121082|64|M|Kjell Örnberg|64, Pensionär/IntervjuareKarlstad
+C|124875|28|M|Niklas Ottosson|28, Verkstadsarbetare, Hagfors
+C|124876|58|M|Jan-Erik Tjärngård|58, Tekniker, Forshaga
+C|115414|54|M|Runar Filper|Riksdagsledamot, Sunne
+C|95601|63|M|Tord Johansson|63, Resemontör, Filipstad
+C|115879|65|K|Margaretha Geeske Den Hollander|65, Lektor, Sunne
+C|94462|74|K|Caisa Antonsson|74, Pensionär, Arvika
+C|115881|46|M|Hans Arnkvist|Byggnadsarbetare, Sunne
+C|124882|43|K|Johanna Moheim|43, Undersköterska, Årjäng
+C|124883|70|M|Ingemar Sundström|70, Pensionär, Säffle
+C|94463|57|K|Ann Garin|57, Kockstewart, Arvika
+C|121617|28|M|Johan Olsson|28, Inköpare, Kil
+C|124886|49|M|Michael Jegefalk|49, Chaufför, Storfors
+C|124887|48|M|Johnny Brustuen|48, Verkstadsarbetare, Årjäng
+C|94936|44|M|Stefan Nilsson|Egenföretagare, Eda
+C|124889|44|M|Rickard Karlsson|44, Resemontör, Forshaga
+C|115541|51|M|Jan Klarström|51, Programmerare, Hagfors
+C|124890|77|M|Håkan Björfeldt|77, Pensionär, Hammarö
+C|124891|43|K|Linda Svensson|43, Undersköterska, Kristinehamn
+C|121616|55|M|Tage Johansson|54, Datalärare/Pensionär, Kil
+C|94938|68|M|Per-Olof Larsson|68, Pensionär, Eda
+C|121081|50|M|Patrik Johansson|50, Egen företagare, Karlstad
+C|124895|48|K|Camilla Lind|48, Egen Företagare, Årjäng
+C|95604|72|M|Börje Andersson|72, Pensionär, Filipstad
+C|115543|49|M|Mikael Edvardsson|49, Skogsarbetare, Hagfors
+C|124898|30|M|Andreaz Wincent|30, Arbetssökande, Hammarö
+C|124899|45|K|Theres Tenman|45, Montör, Årjäng
+C|115979|38|M|Erik Wennerström|38, Lastbilschaufför, Torsby
+C|121619|59|M|Pierre Lidmalm|59, Projektledare bygg, Kil
+C|124902|28|M|Christoffer Edèn|28, Svetsare, Kristinehamn
+C|94466|68|K|Eva Nilsson|68, Pensionär, Arvika
+C|95605|46|K|Helena Örbom|46, Hemtjänst/Stödperson, Filipstad
+C|124905|28|K|Helena Birkeland Kilgren|28, Lokalvårdare, Forshaga
+C|121084|49|M|Mattias Tanner|49, HMS-koordinator, Karlstad
+C|115545|74|M|Kjell Löf|74, Pensionär, Hagfors
+C|124908|57|M|Gunnar Ohlsson|57, Väktare, Hammarö
+C|121618|69|M|Leif G Andersson|69, Pensionär, Kil
+C|115882|70|M|Bengt Dahlèn|70, Pensionär, Sunne
+C|121095|72|M|Kenneth Andersson|72, Pensionär, Karlstad
+C|94468|52|K|Lena Skogberg|52, Ekonomiansvarig, Arvika
+C|95603|25|K|Ida Petersson|25, Studerande, Filipstad
+C|124914|69|M|Bernt Olof Karlsson|69, Pensionär, Hammarö
+C|121621|46|K|Petra Schullström|46, Busschaufför, Kil
+C|124916|77|K|Margit Björfeldt|77, Pensionär, Hammarö
+C|124917|26|K|Hanna Larsson|26, Studerande, Hammarö
+C|121620|71|M|Paul Creller|71, Pensionär, Kil
+C|94465|23|K|Michaela Jakobsson|23, Svetsare, Arvika
+C|124920|55|K|Ann-Christine Tegelaar|55, Processoperatör, Kristinehamn
+C|121093|82|M|Ulf Månsson|82, Pensionär, Karlstad
+C|124922|55|M|Jan-Erik Carlsson|55, Metallarbetare, Kristinehamn
+C|124923|47|M|Lars-Göran Karlsson|47, Resemontör, Hammarö
+C|115885|20|M|Joakim Arnkvist|20, Studerande, Gräsmark
+C|94464|29|K|Frida Hagström|
+C|125711|54|M|Heinz Willi Flamm|
+C|127274|43|M|Anders Ahl|
+C|127275|49|M|Marek Andersson|
+C|489634|36|M|[saknas i folkbokföringen]|
+C|512906|44|M|Daniel Brosius|
+C|514919|47|M|Jonas Chongera|
+C|514925|58|M|Per Olov Olsen|
+C|516002|43|M|Tony Sörensen|
+C|30296|35|K|Anna Hammar|35 år, Hagfors, budget- och skuldrådgivare
+C|30466|31|K|Elisabeth Björk|31 år, Karlstad, ombudsman
+C|30467|74|M|Gert Raiml|73 år, Arvika, förvaltare
+C|9826|30|K|Bodil Murås|30 år, Forshaga, barnsjuksköterska
+C|30294|58|K|Parvane Assadbegli|58 år, Karlstad, förskolepedagog
+C|30470|68|M|Anders Zadik|68 år, Kristinehamn, pensionär
+C|30471|53|K|Annelie Ulfvenstierna|52 år, Arvika, vårdbiträde
+C|30472|37|M|Daniel Johansson|36 år, Kil, säljare
+C|9824|26|K|My Funcke|26 år, Forshaga, student
+C|30475|65|K|Karina Nykvist|65 år, Arvika, MAS
+C|30297|31|K|Susanna Göransdotter|30 år, Karlstad, kommunsekreterare
+C|30312|63|K|Eva Alfredsson Olsson|63 år, Grums, universitetslektor
+C|30307|46|M|Patric Carlsson|46 år, Charlottenberg, undersköterska
+C|30299|32|K|Madeleine Nyvall|31 år, Karlstad, utredare
+C|30322|70|K|Gun-Britt Scherp|69 år, Karlstad, lärare/pensionär
+C|30318|58|M|Håkan Olsson|57 år, Karlstad, ombudsman
+C|30310|42|K|Kina Lindroos|42 år, Storfors, lokalvårdare
+C|30483|59|M|Jan Eliasson|58 år, Högboda, säljare
+C|30484|33|K|Mina Jakobsson|32 år, Karlstad, säljare
+C|30316|36|M|Anders Hammarström|36 år, Karlstad, terminalchef
+C|30306|74|K|Maria Sandgren Loa|73 år, Munkfors, pensionär
+C|30323|65|M|Urban Olsson|65 år, Karlstad, socionom
+C|30320|46|K|Liselott Lindberg|45 år, Karlstad, SFI-lärare
+C|30489|55|M|Mikael Wiman|54 år, Karlstad, chaufför

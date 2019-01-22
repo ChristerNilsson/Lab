@@ -1,9 +1,163 @@
-2|9530|9531|9532|9533|9534|9535|9536|9537|9538|9539|9540|9541|9542|9543|9544|9545|9546|9547|9548|9549|9550|9551|9552|9553|9554|9555|9556|9557|9558|9559|9560|9561|9562|9563|9564|9565|9566|9567|9568|9569|9570|9571|9572|9573|9574|9575|9576|9577|9578|9579|9580
-4|51209|52632|52633|52634|52635|52636|52637|52638|52639|52640|52641|52642|52643
-68|20908|21002|20910|31393|21005|31395|31396|31397|31398|31399|31400|31401|31402|31403|31404
-1011|201007|493847
-3|277234|277753|277251
-1|268237|240716|268239|268240|268241|268242|268243|268244|268245|268246|268247|268248|268249|268250
-110|74792|74793|74794|74795|74796|360157|74797|74799|74800|74801|74802|74803|74804
-1166|395411|395412|395413|395414|395415|395416|395417|395418|395419|395420|395421|395422|395423|395424|395425|395426|395427|395428|395429|395430|395431|395432|395433|395434|395435|395436|395437
-5|113672|113673|113674|113675|113677|113678|113679
+T|Ånge
+A|2|9530|9531|9532|9533|9534|9535|9536|9537|9538|9539|9540|9541|9542|9543|9544|9545|9546|9547|9548|9549|9550|9551|9552|9553|9554|9555|9556|9557|9558|9559|9560|9561|9562|9563|9564|9565|9566|9567|9568|9569|9570|9571|9572|9573|9574|9575|9576|9577|9578|9579|9580
+A|4|51209|52632|52633|52634|52635|52636|52637|52638|52639|52640|52641|52642|52643
+A|68|20908|21002|20910|31393|21005|31395|31396|31397|31398|31399|31400|31401|31402|31403|31404
+A|1011|201007
+A|3|277234|277753|277251
+A|1|268237|240716|268239|268240|268241|268242|268243|268244|268245|268246|268247|268248|268249|268250
+A|110|74792|74793|74794|74795|74796|360157|74797|74799|74800|74801|74802|74803|74804
+A|1166|395411|395412|395413|395414|395415|395416|395417|395418|395419|395420|395421|395422|395423|395424|395425|395426|395427|395428|395429|395430|395431|395432|395433|395434|395435|395436|395437
+A|5|113672|113673|113674|113675|113677|113678|113679
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1166|VFÅ|Vår Framtids politiska utskott
+B|5|V|Vänsterpartiet
+C|9530|63|M|Sten-Ove Danielsson|63 år, Alby
+C|9531|55|K|Birgitta Sjögren|55 år, Östavall
+C|9532|50|M|Jan Filipsson|50 år, Ånge
+C|9533|56|K|Irene Melin|56 år, Ånge
+C|9534|58|M|Per-Anders Andersson|58 år, Torpshammar
+C|9535|54|K|Catharina Karlsson|54 år, Ånge
+C|9536|48|M|Mikael Johansson|48 år, Ånge
+C|9537|60|K|Ingeborg Torung|60 år, Ånge
+C|9538|60|M|Åke Nylén|60 år, Ljungaverk
+C|9539|37|K|Eldina Melez|37 år, Ånge
+C|9540|37|M|Jimmy Lundgren|37 år, Ljungaverk
+C|9541|71|K|Gun Olofsson|71 år, Fränsta
+C|9542|64|M|Leif Byqvist|64 år, Ånge
+C|9543|59|K|Eva Mörk Månsson|59 år, Östavall
+C|9544|64|M|Stiven Wiklund|65 år, Fränsta
+C|9545|46|K|Anna Arvidson|46 år, Ånge
+C|9546|38|M|Mikael Ahnström|38 år, Ånge
+C|9547|50|K|Veronica Mohlin|50 år, Ljungaverk
+C|9548|66|M|Mats Karlsson|66 år, Ljungaverk
+C|9549|48|K|Jenny Ahlström|48 år, Ånge
+C|9550|44|M|Conny Holmberg|44 år, Fränsta
+C|9551|33|K|Anna-Marie Wieslander|33 år, Ånge
+C|9552|61|M|Sven Sandelius|62 år, Ånge
+C|9553|37|K|Ina Beckman|37 år, Ånge
+C|9554|48|M|Mikael Granlund|48 år, Ånge
+C|9555|42|K|Elisabeth Rönnlund|42 år, Fränsta
+C|9556|55|M|Leif Jonsson|55 år, Ånge
+C|9557|24|K|Sara Månsson|24 år, Östavall
+C|9558|60|M|Rune Hammarberg|60 år, Ånge
+C|9559|33|K|Linda Häreby|33 år, Östavall
+C|9560|53|M|Anders Berkestedt|53 år, Erikslund
+C|9561|62|K|Iris Andersson|62 år, Ånge
+C|9562|64|M|Leif Lindström|64 år, Ånge
+C|9563|65|K|Birgitta Bolin|65 år, Ånge
+C|9564|64|M|Alf Hallén|64 år, Torpshammar
+C|9565|58|K|Marie Lorentzon|58 år, Fränsta
+C|9566|57|M|Jörgen Hafstad|57 år, Fränsta
+C|9567|62|K|Marianne Eklind|62 år, Ånge
+C|9568|63|M|Givi Tsikurishvili|63 år, Ånge
+C|9569|60|K|Görel Nylén|60 år, Ljungaverk
+C|9570|57|M|Stig Åke Nordström|57 år, Östavall
+C|9571|61|K|Galina Nordström|61 år, Östavall
+C|9572|50|M|Anders Arvidson|50 år, Ånge
+C|9573|56|K|Gullbritt Engström|56 år, Östavall
+C|9574|60|M|Jonas With|60 år, Erikslund
+C|9575|52|K|Karin Dahlstedt|52 år, Ånge
+C|9576|60|M|Sture Eriksson|60 år, Torpshammar
+C|9577|46|K|Mona Filipsson|46 år, Ånge
+C|9578|56|M|Tord Johansson|56 år, Ånge
+C|9579|72|K|Sonja Martinsson|72 år, Erikslund
+C|9580|53|K|Karin Strandberg|53 år, Ljungaverk
+C|51209|52|K|Magdalena Flemström|lärare, 52 år, Ånge
+C|52632|46|M|Joakim Lindström|Torpshammar
+C|52633|56|K|Elisabet Larsson|Fränsta
+C|52634|70|M|Björn Magnusson|Fränsta
+C|52635|57|K|Anne Öberg|Erikslund
+C|52636|51|K|Aina Sundbaum|lokförare, 51 år, Ånge
+C|52637|51|K|Helena Elfvén|Fränsta
+C|52638|21|K|Rebecka Westerlund|Torpshammar
+C|52639|71|K|Birgitta Vistrand Elfvén|Torpshammar
+C|52640|54|M|Ola Persson|Fränsta
+C|52641|55|K|Anna Lena Löfgren|Fränsta
+C|52642|73|M|Ingemar Eriksson|Erikslund
+C|52643|54|K|Ann-Kristin Edin|Ånge
+C|20908|61|M|Kjell Grip|Fränsta
+C|21002|33|M|Carl-Olof Svensson|Fränsta
+C|20910|68|K|Mona Hammarstedt|Fränsta
+C|31393|52|M|Benoit Rugumaho|51, Integration
+C|21005|47|K|Gunilla Thornberg|Fränsta
+C|31395|64|M|Kjell Svedman|64, Skola/teknik
+C|31396|49|M|Dan Thornberg|49, Barn/ungdom
+C|31397|49|K|Lamia Yousif|49, Utbildning/integration
+C|31398|28|M|Asif Hakimi|28, Skola
+C|31399|70|K|Ulla Palm|70, Skola
+C|31400|80|K|Gunn Thornberg|80, Omsorg
+C|31401|20|M|Houman Daneshfar|20, Fritid/idrott
+C|31402|59|K|Inga-Lill Grip|58, Näringsliv/bistånd
+C|31403|23|K|Ebba Näslund|23, Barn/ungdom
+C|31404|79|M|Jöns-Erik Olsson|79, Infrastruktur
+C|201007|60|M|Christer Sandin|60 år, Vaktmästare, Hermanboda
+C|277234|72|M|Göran Jonsson|Försäkringsrådgivare, 72 år, Ånge
+C|277753|71|K|Birgitta Jonsson|Undersköterska, 71 år, Ånge
+C|277251|50|M|Thomas Jonsson|Egenföretagare, 50 år, Ånge
+C|268237|62|M|Anders Mjärdsjö|62 år, Företagsledare, Ånge
+C|240716|57|M|Hans-Erik Beck|57 år, Företagare, Ånge
+C|268239|51|K|Anna-Carin Lögdahl|51 år, Administratör, Alby
+C|268240|65|M|Tomas Milling|65 år, Företagare, Ånge
+C|268241|27|M|Erik Andersson|27 år, Elevassistent, Ånge
+C|268242|50|M|Hans Karlsson|50 år, Företagare, Fränsta
+C|268243|64|M|Sven Helmersson|64 år, Företagare, Parteboda
+C|268244|66|K|Bodil Sundin|66 år, Hemmansägare, Erikslund
+C|268245|64|M|Stefan Pålsson|64 år, Företagare, Ånge
+C|268246|26|M|Adam Semb|26 år, Lokförare, Ånge
+C|268247|64|M|Per Anders Sundin|64 år, Åkare, Erikslund
+C|268248|63|M|Christer Eriksson|63 år, Företagare, Ånge
+C|268249|64|K|Gun Mattsson|64 år, Redovisningskonsult, Ånge
+C|268250|78|M|Tord Sundqvist|78 år, Fd. officer/rektor, Alby
+C|74792|63|M|Stig Malmberg|Ånge
+C|74793|62|M|Erik Thunefors|Åkeriägare/lantbrukare, Ånge
+C|74794|53|K|Eva Eriksson|53, Ånge
+C|74795|52|M|Tony Jensén|Erikslund
+C|74796|49|M|Sven-Olof Sällström|Riksdagsledamot, Ånge
+C|360157|40|M|Dennis Hjalmarsson|40, Ånge
+C|74797|18|K|Lina Persson|Östavall
+C|74799|66|M|Gunnar Jansson|Ånge
+C|74800|44|M|Peter Edbom|Fränsta
+C|74801|38|K|Anna Pieda|Alby
+C|74802|49|M|Dennis Elfvén|48, Ånge
+C|74803|28|K|Annika Flor|Östavall
+C|74804|50|M|Sebastian Wennerberg|Alby
+C|395411|44|K|Linda Mattsson Bolin|Fränsta
+C|395412|50|M|Leif Edh|Hallsta
+C|395413|49|M|Lars-Olof Larsson|Munkbysjön
+C|395414|46|M|Paul Pakkala|Erikslund
+C|395415|53|M|Per-Erik Persson|Ånge
+C|395416|47|M|Joakim Bäckström|Ljungaverk
+C|395417|37|K|Carolina Sandholm|Ön
+C|395418|63|K|Kerstin Henriksson|Överturingen
+C|395419|65|K|Mai Karlsson|Fränsta
+C|395420|40|K|Lisa Reiser|Storboda
+C|395421|45|K|Kajsa Högbom|Fränsta
+C|395422|20|K|Agnes Gunnarsson|Haverövallen
+C|395423|40|M|Per-Arne Forsberg|Ön
+C|395424|44|M|Kjell-Göran Thornberg|Fränsta
+C|395425|42|K|Margareth Bäck|Säter
+C|395426|45|K|Märta-Lisa Norgren|Klöstre
+C|395427|38|K|Jannice Eklöf|Alby
+C|395428|26|M|Rasmus Simonsson|Borgsjöbyn
+C|395429|53|K|Ann-Louise Göransson|Ånge
+C|395430|51|M|Nicklas Lundin|Ånge
+C|395431|41|K|Anna Buhler|Parteboda
+C|395432|56|M|Anders Öberg|Östby
+C|395433|46|K|Camilla Norman|Ånge
+C|395434|52|K|Britt-Louise Högberg|Säter
+C|395435|37|M|Erik Lögdahl|Ånge
+C|395436|50|K|Monica Berglund|Ånge
+C|395437|56|K|Karin Elfvén|Tälje
+C|113672|51|M|Örjan Olsson|Ljungaverk
+C|113673|48|K|Eva Persson Wernström|Torpshammar
+C|113674|70|K|Birgitta Liivlaid|Torpshammar
+C|113675|42|K|Jessica Liivlaid|gymnasielärare, Ånge
+C|113677|45|M|Stefan Åsén|Fränsta
+C|113678|43|M|Tomas Eriksson|glesbygdsinvecklare, Ljungaverk
+C|113679|63|M|Bernt Källman|Erikslund

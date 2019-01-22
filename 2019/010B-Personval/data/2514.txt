@@ -1,10 +1,161 @@
-2|7689|7690|7691|7692|7693|7694|7695|7696|7697|7698|7067|7700|7701|7060|7703|7704|7705|7706|7707|7708|7709|7710|7711|7712|7713|7714|7715|7716|7717|7718|7719|7720|7721|7722|7723|7724|7725|7726|7727|7728|7729
-4|343025|343026|343027|343028|343029|343030|343031|343032|343033|343034|343035|343036|343037|343038|343039
-1164|496387|496388|496389|496390|496391|496392|496393|496394
-141|415119|415120|415121|415122|415123|415124|415125|415157
-1011|132418|132596
-3|193316|193317|193318|193319|193320|193321|193322|193323|193324|193325|193326
-55|239971|239972|239973|239974|239975|239976|239977|239978|239979|239980|239981|239982|239983|239984|239985
-1|43178|212619|212620|212621|212622|212623|212624|212625|212626|212627|212628|212629|212630|212631|212632|212633|212634|212635|43004|212637|212638|212639|212640
-110|119446|119436|119450|127007|127008|127009
-5|45909|45910|394942|163696|163698|395017|395018|185273|395019|395021|395088|395089|395090
+T|Kalix
+A|2|7689|7690|7691|7692|7693|7694|7695|7696|7697|7698|7067|7700|7701|7060|7703|7704|7705|7706|7707|7708|7709|7710|7711|7712|7713|7714|7715|7716|7717|7718|7719|7720|7721|7722|7723|7724|7725|7726|7727|7728|7729
+A|4|343025|343026|343027|343028|343029|343030|343031|343032|343033|343034|343035|343036|343037|343038|343039
+A|1164|496387|496388|496389|496391|496392|496393|496394
+A|141|415119|415120|415121|415122|415123|415124|415125|415157
+A|1011|132418
+A|3|193316|193317|193318|193319|193320|193321|193322|193323|193324|193325|193326
+A|55|239971|239972|239973|239974|239975|239976|239977|239978|239979|239980|239981|239982|239983|239984|239985
+A|1|43178|212619|212620|212621|212622|212623|212624|212625|212626|212627|212628|212629|212630|212631|212632|212633|212634|212635|43004|212637|212638|212639|212640
+A|110|119446|119436|119450|127007|127008|127009
+A|5|45909|45910|394942|163696|163698|395017|395018|185273|395019|395021|395088|395089|395090
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1164|FRAK|Framtid i Kalix
+B|141|KXP|Kalixpartiet
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|7689|58|M|Tommy Nilsson|Bondersbyn
+C|7690|42|K|Ellinor Söderlund|Sören
+C|7691|57|M|Jan Nilsson|Rolfs
+C|7692|34|K|Viktoria Vikström|Kalix
+C|7693|47|M|Magnus Mörtling|Kalix
+C|7694|72|K|Anna-Lena Larsson|Nyborg
+C|7695|72|M|Stig Karlsson|Karlsborgsverken
+C|7696|29|K|Nadja Ståhl|Kalix
+C|7697|66|M|Reinhold Andefors|Pålänge
+C|7698|43|K|Ulrika Rönnqvist Paavola|Kalix
+C|7067|27|M|Adam Dahlberg|Kalix, 27 år
+C|7700|56|K|Anette Wernersson|Bondersbyn
+C|7701|48|M|Joakim Paavola|Kalix
+C|7060|55|K|Susanne Andersson|Karlsborgsverken, 55 år
+C|7703|67|M|Bertil Sundqvist|Kalix
+C|7704|69|K|Maud Lundbäck|Innanbäcken
+C|7705|62|M|Thomas Hasselborg|Töre
+C|7706|48|K|Camilla Engström Degerlund|Ryssbält
+C|7707|76|M|Lennart Nyman|Nyborg
+C|7708|57|K|Rose-Marie Henriksson|Sangis
+C|7709|40|M|Johan Lambertsson|Kalix
+C|7710|72|K|Britt-Inger Nordström|Kalix
+C|7711|72|M|Erling Lundh|Grytnäs
+C|7712|77|K|Ulla Granström|77 år, Kalix
+C|7713|68|M|Erik Söderlund|68 år, Kalix
+C|7714|61|K|Britt-Marie Vikström|Nyborg
+C|7715|57|M|Agne Nilsson|Töre
+C|7716|76|K|Ethel Björkman|Kalix
+C|7717|63|M|Håkan Nyman|Kalix
+C|7718|55|K|Susanne Martinsson|Pålänge
+C|7719|58|M|Dan Brännmark|Kalix
+C|7720|52|K|Maria Eklund|Risögrund
+C|7721|49|M|Peder Andersson|Sangis
+C|7722|51|K|Helena Laestadius|Sangis
+C|7723|66|M|Jan Bergendorff|Kalix
+C|7724|56|K|Cecilia Lindgren Parviainen|Kalix
+C|7725|30|M|Tom Johansson|Storträsk
+C|7726|75|K|Astrid Karbin|Morjärv
+C|7727|70|M|Karl-Erik Johansson|Karlsborgsverken
+C|7728|70|K|Vappa Vuokila Pönkkö|Grytnäs
+C|7729|61|M|Erik Ström|Töre
+C|343025|64|K|Inga-Lis Samuelsson|
+C|343026|69|M|Henrik Eriksson|
+C|343027|54|M|Stefan Granström|Behandlingsassistent, Kalix
+C|343028|57|M|Kurt-Åke Andersson|Kalix
+C|343029|75|K|Annie-Marie Morin Eriksson|
+C|343030|52|M|Thomas Lindbäck|
+C|343031|21|K|Emily Lindh|
+C|343032|49|K|Ann-Sofi Esperi|
+C|343033|50|M|Robert Fredriksson|
+C|343034|50|K|Rose-Marie Nilsson|
+C|343035|76|M|Valter Lindh|
+C|343036|46|K|Jessica Sandberg|
+C|343037|64|M|Bengt Esperi|
+C|343038|67|K|Kristina Henriksson|
+C|343039|70|M|Jan Gustafsson|
+C|496387|63|M|Carl Otto Gählman|Kalix
+C|496388|72|M|Per-Erik Sångberg|Karlsborgsverken
+C|496389|69|K|Doris Lilian Kerttu|Kalix
+C|496391|77|M|Dan Stenberg|Kalix
+C|496392|72|M|Gunnar Kerttu|Kalix
+C|496393|47|K|Åsa Bäckman|Sangis
+C|496394|30|K|Johanna Söderman|Kalix
+C|415119|55|M|Aimo Suomela|Vårdare
+C|415120|40|M|Mika Räisänen|Samtal och drogterapeut
+C|415121|61|M|Bjarne Nilsson|Chaufför
+C|415122|69|M|Thorsten Lakso|Lärare
+C|415123|67|K|Karin Gunnarsson|Pensionär
+C|415124|31|K|Tarja Hedman-Lampinen|Frisör
+C|415125|36|K|Anna-Paulina Räisänen|Rehabiliteringsassistent
+C|415157|34|M|Gustav Strömbäck|Teaterdirektör
+C|132418|32|M|Mattias Johansson|Industriarbetare, Norrbotten
+C|193316|53|M|Rickard Mohss|Lärare/biträdande rektor, Kalix
+C|193317|50|K|Solveig Ingelund|Lärare, 50 år, Kalix
+C|193318|50|M|Tomas Johsund|Gymnasielärare, 50 år, Kalix
+C|193319|49|K|Carina Sundström|Verksamhetsutvecklare, Töre
+C|193320|38|M|Robert Johansson|Företagare, 38 år, Kalix
+C|193321|74|K|Marianne Sundvall|f.d Verksamhetschef Landstinget, 74 år, Näsbyn
+C|193322|81|M|Åke Bergbäck|Pensionär, 81 år, Kalix
+C|193323|66|K|Birgitta Spets|Pensionär, 66 år, Bondersbyn
+C|193324|82|M|Mårten Englund|f.d Företagare, 82 år, Kalix
+C|193325|40|K|Carola Johsund|Specialpedagog, 40 år, Kalix
+C|193326|53|K|Ingela Resin|Skolsköterska, 53 år, Risögrund
+C|239971|54|M|Sven Nordlund|Kvalitetsansvarig, Kalix
+C|239972|54|K|Maria Nilsson|Påläng
+C|239973|31|M|Martin Östling|Lärare, Kalix
+C|239974|64|K|Kristina Enholm|företagare, Kalix
+C|239975|62|M|Kenneth Sandberg|byggnadsarbetare,Kalix
+C|239976|57|K|Ulla Wikström|lärare,Korpikå
+C|239977|66|M|Assar Silverplatz|Börjelsbyn
+C|239978|30|K|Sandra Eriksson|Studerande,Ytterbyn
+C|239979|68|M|Janne Stenman|Påläng
+C|239980|42|K|Svetlana Knysh|lärare,Töre
+C|239981|73|M|Karl-Erik Nordmark|Gammelgården
+C|239982|71|K|Gita Isaksson|Påläng
+C|239983|53|M|Tony Mörk|Töre
+C|239984|63|K|Irene Silverplatz|Börjelsbyn
+C|239985|71|M|Bo Wallsten|Töre
+C|43178|41|K|Linda Frohm|41 år, Företagare, Kalix
+C|212619|35|M|Jimmy Väyrynen|35 år
+C|212620|55|K|Catarina Nordin|55 år
+C|212621|65|M|Reijo Tarkkonen|65 år
+C|212622|30|K|Sandra Bergström|30 år
+C|212623|20|M|Linus Häggström|20 år
+C|212624|44|K|Petra Sandberg|44 år
+C|212625|75|M|Johnny Braun|75 år
+C|212626|39|K|Sara Cave|39 år
+C|212627|46|M|Mats Andersson|46 år
+C|212628|66|K|Irma Spårman|66 år
+C|212629|54|M|Jan Johansson|54 år
+C|212630|74|K|Birgitta Evling|74 år
+C|212631|18|K|Anna Zaletaeva|18 år
+C|212632|21|M|Christian Frohm|21 år
+C|212633|67|K|Hanne Tarkkonen|67 år
+C|212634|20|K|Alexandra Fransson|20 år
+C|212635|34|M|Christoffer Blombäck|34 år
+C|43004|27|K|Alexandra Strömbäck|27 år, Studerande, Kalix
+C|212637|51|M|Anders Nordqvist|51 år
+C|212638|73|K|Monika Ljung|73 år
+C|212639|70|M|Kjell Andersson|70 år
+C|212640|70|K|Britt Hjort Andersson|70 år
+C|119446|57|K|Kristina Karlsson|Undersköterska, 57, Kalix
+C|119436|38|K|Marianne Sandström|Advokat, 38, Kalix
+C|119450|48|K|Susanne Darengren|Administratör, 48, Kalix
+C|127007|49|M|Patrik Svanberg|49, Lagerarbetare, Sangis
+C|127008|70|M|Bertil Sandström|70, Pensionär, Kalix
+C|127009|51|K|Maria Paxborn|51, Administratör, Sangis
+C|45909|55|K|Katarina Burman|Kalix
+C|45910|58|M|Lauri Korpela|maskinoperatör, Djuptjärn
+C|394942|51|K|Carina Strand|vårdbiträde, Kalix-Nyborg
+C|163696|32|M|Gustaf Rutström|Kalix
+C|163698|38|K|Linn Liljedahl Johansson|Kalix
+C|395017|37|M|Anders Johansson|studie- och yrkesvägledare, Kalix
+C|395018|73|K|Gerd Strand|pensionär, Kalix-Nyborg
+C|185273|70|M|Bo Goding|Kalix
+C|395019|43|K|Maria Andersson|kurator, Kalix
+C|395021|54|M|Robert Krook|vaktmästare, Kalix
+C|395088|48|K|Ingela Bergenstråhle|telefonist, Kalix
+C|395089|76|K|Majvi Juntti|pensionär, Rian
+C|395090|81|K|Vivi Pettersson|pensionär, Kalix

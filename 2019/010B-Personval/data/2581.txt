@@ -1,10 +1,203 @@
-2|6912|6913|6914|6915|6916|6917|6918|6919|6920|6921|6922|6923|6924|6925|6926|6927|6928|6929|6930|6931|6932|6933|6934|6935|6936|6937|6938|6939|6940|6941|6942|6943|6944|6945|6946|6947|6948|6949|6950|6951|6952|6953|6954|6955|6956|6957|6958|6959|6960|6961|6962|6963|6964|6965|6966|6967|6968|6969|6970
-4|343298|343299|343300|343301|343302|343303|343304|343305|343306|343307|343308|343309|343310|343311|343312|343313|343314|343315
-68|141238|141239|141240|141241|141242|141243|141244|141245|141246|141247|141248|141249|141250|141251|141252
-3|184717|184718|184719|184720|184721|184722|184723|184724|184725|184726
-55|273874|273875|273876|273877|273878|273879|273880|273881|273882
-1|43001|42997|75585|43003|43006|75588|75589|75590|75591|43182|75593|75594|75595|75596|75597|75598|75599
-193|4894|4909|4919|4929|5061|4939|5063|5064|5065|5066|5067|4899|4949
-1216|15425|15426|15427|15430|217356|15429|15431|15432|15428|514966
-110|48257|48258|48259|48260|48261|48262|48264|48265
-5|343971|30052|163701|343974|343975|163688|343982|343983|163697|343985|343986|344022|344023|344024|344025|344026|163695|344045|344046|344047|344048|344049|344050|344051
+T|Piteå
+A|2|6912|6913|6914|6915|6916|6917|6918|6919|6920|6921|6922|6923|6924|6925|6926|6927|6928|6929|6930|6931|6932|6933|6934|6935|6936|6937|6938|6939|6940|6941|6942|6943|6944|6945|6946|6947|6948|6949|6950|6951|6952|6953|6954|6955|6956|6957|6958|6959|6960|6961|6962|6963|6964|6965|6966|6967|6968|6969|6970
+A|4|343298|343299|343300|343301|343302|343303|343304|343305|343306|343307|343308|343309|343310|343311|343312|343313|343314|343315
+A|68|141238|141239|141240|141241|141242|141243|141244|141245|141246|141247|141248|141249|141250|141251|141252
+A|3|184717|184718|184719|184720|184721|184722|184723|184724|184725|184726
+A|55|273874|273875|273876|273877|273878|273879|273880|273881|273882
+A|1|43001|42997|75585|43003|43006|75588|75589|75590|75591|43182|75593|75594|75595|75596|75597|75598|75599
+A|193|4894|4909|4919|4929|5061|4939|5063|5064|5065|5066|5067|4899|4949
+A|1216|15425|15426|15427|15430|217356|15429|15431|15432|15428
+A|110|48257|48258|48259|48260|48261|48262|48264|48265
+A|5|343971|30052|163701|343974|343975|163688|343982|343983|163697|343985|343986|344022|344023|344024|344025|344026|163695|344045|344046|344047|344048|344049|344050|344051
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|193|SJV|Sjukvårdspartiet
+B|1216|SkolP|Skol och Landsbygdspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|6912|47|K|Helena Stenberg|Klubbgärdet, 47 år
+C|6913|60|M|Anders Lundkvist|Klubbgärdet, 60 år
+C|6914|63|K|Ruth Rahkola|Sjulsmark, 63 år
+C|6915|55|M|Sven-Gösta Pettersson|Öjebyn,55 år
+C|6916|60|K|Agnetha Eriksson|Bergsviken, 60 år
+C|6917|46|M|Stefan Askenryd|Klubbgärdet, 46 år
+C|6918|40|K|Frida Söderberg|Jävre, 40 år
+C|6919|52|M|Lars U Granberg|Kopparnäs, 52 år
+C|6920|46|K|Nina Bladh|Piteå, 46 år
+C|6921|44|M|Jonas Lindberg|Durrnäs, 44 år
+C|6922|29|K|Jessica Hjelte|29 år, Piteå
+C|6923|75|K|Maj-Britt Lindström|Roknäs, 75 år
+C|6924|36|M|Ferid Letic|Piteå, 36 år
+C|6925|55|K|Lena Vikberg|Durrnäs, 55 år
+C|6926|73|M|Roland Olofsson|Piteå, 73 år
+C|6927|52|K|Elisabeth Vidman|Munksund, 52 år
+C|6928|34|M|Cristian Bergvall|Hemmingsmark, 34 år
+C|6929|51|K|Marianne Hedkvist|Öjebyn, 51 år
+C|6930|31|M|Ken Åman|Piteå, 31 år
+C|6931|31|K|Emmeli Persson|Öjebyn, 31 år
+C|6932|77|M|Rune Berglund|Jävre, 77 år
+C|6933|65|K|Marita Björkman Forsman|Hortlax, 65 år,
+C|6934|42|M|Jonas Vikström|42 år, Piteå
+C|6935|25|K|Louise Mörk|Blåsmark, 25 år
+C|6936|23|M|Adrian Johansson|Hortlax, 23 år
+C|6937|52|K|Mojgan Azari|Djupviken, 52 år
+C|6938|41|M|André Bengtson|Munksund, 41 år
+C|6939|70|K|Maria Truedsson|Piteå, 70 år
+C|6940|60|M|Peter Eriksson|60 år, Piteå
+C|6941|48|K|Carola Bergman|Annelund, 48 år
+C|6942|37|M|Lennart Sundberg|Klubbgärdet, 37 år
+C|6943|59|K|Lena Jarblad|Bondön, 59 år
+C|6944|65|M|Peter Roslund|Djupviken, 65 år
+C|6945|72|K|Ann-Katrine Sämfors|Piteå, 72 år
+C|6946|27|M|Mattias Eriksson|Öjebyn, 27 år
+C|6947|34|K|Evelina Grenemark|Djupviken, 34 år
+C|6948|56|M|Peter Forss|Hortlax, 56 år
+C|6949|64|K|Harriet Leppäniemi|Rosvik, 64 år
+C|6950|28|M|Alexander Mörk|Blåsmark, 28 år
+C|6951|39|K|Sara Lagesen Lundgren|Öjebyn, 39 år
+C|6952|47|M|Peter Thelin|Annelund, 47 år
+C|6953|60|K|Annica Lundgren|Piteå, 60 år
+C|6954|65|M|Dan Nilsson|Piteå, 65 år
+C|6955|43|K|Carola Eichwurzel Wilhelm|Roknäs, 43 år
+C|6956|33|M|Niklas Lundgren|Piteå, 33 år
+C|6957|59|K|Sara Larsson|Klubbgärdet, 59 år
+C|6958|54|M|Hans-Olov Ullberg|Klubbgärdet, 54 år
+C|6959|68|M|Anders Wikström|Rosvik, 68 år
+C|6960|70|K|Christina Sandkvist|Rosvik, 70 år
+C|6961|64|M|Regis Cabral|Piteå, 64 år
+C|6962|71|K|Inga-Britt Hällström|Lillpite, 71 år
+C|6963|64|M|Anders Nyström|64 år, Piteå
+C|6964|79|K|Yvonne Häggström|Lillpite, 79 år
+C|6965|73|M|Lars-Eric Lindgren|Munksund, 73 år
+C|6966|70|K|Inga-Märta Larsson|Djupviken, 70 år
+C|6967|63|M|Stig Rönnbäck|Stockbäcken, 63 år
+C|6968|74|K|Margit Johansson|Strömnäs, 74 år
+C|6969|59|K|Anita Gustavsson|59 år, Piteå
+C|6970|40|K|Ida Johansson|40 år, Piteå
+C|343298|57|K|Majvor Sjölund|Piteå
+C|343299|46|K|Marika Risberg|Fastighetsförvaltare, Piteå
+C|343300|32|M|Johannes Johansson|31 år, Servicetekniker, Höglandsnäs
+C|343301|51|M|Torgny Långström|51 år, Agronom, Långnäs
+C|343302|62|K|Britt-Louise Nyman|61 år, Företagare, Piteå
+C|343303|63|M|Bo Andersson|62 år, Företagare, Långnäs
+C|343304|29|M|Anton Nilsson|29 år, Polis, Norra Pitholm
+C|343305|30|K|Kristin Jonsson|29 år, Brandingenjör, Jävre
+C|343306|48|M|Erik Lundström|47 år, Studierektor, Djupviken
+C|343307|55|K|Agneta Ehlin|55 år, Kock, Arnemark
+C|343308|52|M|Erik Isaksson|52 år, Hemmingsmark
+C|343309|66|K|Britta Lysholm|66 år, Pensionär, Svensbyn
+C|343310|39|M|Samuel Ökvist|Piteå
+C|343311|27|K|Lisa Samuelsson|27 år, Egenföretagare, Jävrebyn
+C|343312|45|M|Jan Lundström|45 år, Lastbilsförare, Sjulnäs
+C|343313|72|K|Gudrun Berglund|72 år, Diakon, Hemmingsmark
+C|343314|72|M|Allan Samuelsson|71 år, Entreprenör, Jävre
+C|343315|74|K|Gunnel Jonsson|75 år, Pensionär, Lakafors
+C|141238|67|K|Helén Lindbäck|präst, Piteå
+C|141239|41|M|Daniel Bylund|svetsare Rosvik
+C|141240|69|K|Anne Bjernhagen|egenföretagare, Piteå
+C|141241|74|M|Nils-Olof Nilsson|lärare, Piteå
+C|141242|38|K|Christina Lund|frisörsäljare Rosvik
+C|141243|65|M|Berndt Essebro|Haraholmen
+C|141244|67|K|Helena Burvall|distriktssköterska, Piteå
+C|141245|58|M|Leif Berglund|universitetslektor, Piteå
+C|141246|72|K|Ingrid Nilsson|lärare, Piteå
+C|141247|75|M|Olof Hammarbäck|sjuksköterska, Piteå
+C|141248|50|K|Eva Salomonsson|undersköterska Långträsk
+C|141249|72|M|Börje Andersson|lärare Hortlax
+C|141250|37|K|Louise Bylund|undersköterska Rosvik
+C|141251|81|M|Rickard Brännström|f d lagman, Piteå
+C|141252|56|K|Eva Söderström|konstnär författare teolog Rosvik
+C|184717|56|M|Ulf Lindström|Officer, Piteå
+C|184718|42|K|Jenny Bjuhr|Socionom, Piteå
+C|184719|48|M|Peter Arffman|Skötare, Piteå
+C|184720|35|M|Stellan Ragnarsson|Väktare, Piteå
+C|184721|69|M|Jan Westerberg|Gymnasielärare, Piteå
+C|184722|41|K|Margaretha Berglund|Djurskötare, Svensbyn
+C|184723|80|M|Ivar Gustafsson|Adjunkt, Öjebyn
+C|184724|70|M|Erik Nilsson|Rektor, Piteå
+C|184725|77|K|Ulla Persson|Studieorganisatör, Svensbyn
+C|184726|66|K|Britta Berglund|Verksamhetsutvecklare, Svensbyn
+C|273874|46|M|Mats Dahlberg|Arbetsförmedlare, Piteå
+C|273875|37|M|Simon Granberg|snickare, Piteå
+C|273876|36|K|Anna Åström|Arbetsförmedlare, Piteå
+C|273877|29|M|Petter Fredriksson|29 år, Högskoleingenjör
+C|273878|42|K|Linda Utterheim|Studerande, Piteå
+C|273879|36|K|Emeli Lundström|37 år, Pedagog
+C|273880|30|M|Jonas Fjällström|30 år, Slöjdlärare
+C|273881|40|M|Salam Abdi Hadi|40 år, Egenföretagare
+C|273882|45|M|Daniel Westerberg|45 år, Barnskötare
+C|43001|56|M|Håkan Johansson|56 år, VD, Norrfjärden
+C|42997|67|K|Ellinor Sandlund|67 år, Skohandlare / Agent, Öjebyn
+C|75585|18|K|Cornelia Johansson|18 år, Strömnäs
+C|43003|41|M|Daniel Bergman|41 år, Ekonom, Piteå
+C|43006|52|K|Charlotte Elworth|52 år, Verksamhetsutvecklare, Norrfjärden
+C|75588|76|M|Karl-Erik Jonsson|76 år, Bergsviken
+C|75589|20|M|William Sandberg|20 år, Hortlax
+C|75590|38|K|Malin Stenvall Viksten|38 år, Djupviken
+C|75591|57|K|Åsa Nordmark|57 år, Norra Pitholm
+C|43182|71|K|Gunilla Wallstén|71 år, Företagare, Piteå
+C|75593|66|M|Jan-Eric Sandberg|66 år, Norrmalm
+C|75594|61|K|Margareta Hägglöf|61 år, Centrala Piteå
+C|75595|58|M|Jonny Eriksson|58 år, Hemmingsmark
+C|75596|54|K|Kerstin Lundqvist|54 år, Munksund
+C|75597|38|M|Michael Bieri|38 år, Munksund
+C|75598|50|K|Ulrica Pettersson|50 år, Hemlunda
+C|75599|71|M|Christer Larsson|71 år, Annelund
+C|4894|72|M|Johnny Åström|Maskintekniker, Piteå
+C|4909|35|M|Martin Åström|Bergmaterialingenjör, Piteå
+C|4919|53|K|Monika Karlsson|Undersköterska, Piteå
+C|4929|45|K|Malin Markström|Undersköterska, Piteå
+C|5061|20|M|Anton Markström|Metallarbetare, Piteå
+C|4939|66|K|Ewa Åström|Affärsbiträde, Rosvik
+C|5063|51|M|Peter Sundström|Snickare, Piteå
+C|5064|18|K|Olivia Markström|Studerande, Piteå
+C|5065|73|M|Tommy Bjernhagen|Personlig assistent, Rosvik
+C|5066|32|K|Jeanette Åström|Teknisk konsult, Rosvik
+C|5067|76|M|Henry Larsson|Pensionär, Piteå
+C|4899|56|K|Ann-Christin Åström|Specialistsjuksköterska, Piteå
+C|4949|54|K|Karin Andersson|Sjuksköterska, Rosvik
+C|15425|69|M|Anders Nordin|Småbrukare och skribent
+C|15426|35|K|Petra Fojtikova|Norrfjärden
+C|15427|45|M|Joel Wiklund|Asfaltarbetare
+C|15430|73|K|Margareta Tjernkvist|Ekologisk grönsaksodlare
+C|217356|40|M|Niklas Dimeus|Account Manager
+C|15429|70|K|Karin Svedberg|Psykolog
+C|15431|81|M|Mauritz Haglund|f.d. Yrkeslärare
+C|15432|74|M|Lars-Erik Forsgren|Debattör, Skribent
+C|15428|39|M|Leon Bollerup|IT Entreprenör
+C|48257|37|K|Elin Håkansson|Vårdbiträde, 37, Piteå
+C|48258|40|M|Robert Håkansson|Distriksordförande, 40, Piteå
+C|48259|43|M|Magnus Häggblad|Metallarbetare
+C|48260|74|M|Lage Hortlund|Lärare, 74 Piteå
+C|48261|54|M|Ulf Lindeberg|Hamnarbetare, 54, Piteå
+C|48262|76|K|Marlene Källström|Pensionär
+C|48264|73|K|Anne-Christine Esberg|Lärare
+C|48265|73|K|Ingrid Öhlund|Pensionär
+C|343971|66|K|Brith Fäldt|socionom
+C|30052|66|K|Maria Holmquist-Ek|Piteå
+C|163701|73|M|Per Lönnberg|Piteå
+C|343974|48|K|Helena Nilseriksdotter|receptionist
+C|343975|53|M|Mikael Borgh|chaufför/anläggningsarbetare
+C|163688|42|K|Anna Bergström|Piteå
+C|343982|40|K|Elin Johansson|egenföretagare
+C|343983|47|M|Benny Söderberg|integrationspedagog
+C|163697|44|K|Nina Lindström|Piteå
+C|343985|54|K|Maria Platni|leg fysioterapeut
+C|343986|55|M|Per Göran Gustafsson|väktare
+C|344022|61|M|Kenneth Lundström|parkarbetare
+C|344023|45|K|Maria Wikslund|chaufför
+C|344024|54|M|Mats Eriksson|byggnadsarbetare
+C|344025|63|K|Berit Bergstedt|pensionär
+C|344026|48|K|Monica Lindmark|lokalvårdare
+C|163695|32|K|Sanna Berggren|Piteå
+C|344045|64|K|Berit Berglund|psykiatrisjuksköterska
+C|344046|63|M|Stefan Bergstedt|drifttekniker
+C|344047|46|K|Maria Fäldt|fotograf
+C|344048|37|M|John Andersson|musiker
+C|344049|53|K|Elaine Marklund|undersköterska
+C|344050|52|M|Lars Vikström|ingenjör
+C|344051|64|K|Ann-Charlotte Oscarsson-Hansson|leg psykoterapeut

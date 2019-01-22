@@ -1,8 +1,181 @@
-2|6467|6461|85345|85346|8222|8154|85349|85350|85351|85352|85353|8158|85355|85356|85357|8146|85359|85360|85361|85362|85363|85364|85365|8141|8162|85368|85493|85494|85495|85496|85497|7451|85499|85500|85501|85502|85504|85505|85506|85507|85508
-4|239459|239460|239461|239462|239463|239464|239465|239466|239467|239468|239469|239470|239471|239472|239473|239474|239475|239476|239477|239478|239479|95772|239481|239482|283709|283710|283711|283712|283713|283714|283715|283716|283717|283718|283719|283720|283721|283722|283723|283724|283725|283726|283727|283728|283729|283730|283731|283732|286891|286892|286893|286894|286895|286896|286897|286898
-1312|229991|229992|229993|229994|229995|229996|229997|345901|229999|230000|230001
-68|208507|205317
-55|175338|386015|386016|423593|386017|423595
-1|39514|39504|39520|212349|212350|39516|212352|212353|212354|212355|212356|212357|212358|212359|39509
-110|105599|105600|105601|105602|105603|105604|105605
-5|252533|252540|253058|360980|360981|300383|360983|360984|300377|360986|360987|252082|388748|360989|253066|360991|252083|300388|360994|360995|360996|360997|253070|360999|361000|252536
+T|Krokom
+A|2|6467|6461|85345|85346|8222|8154|85349|85350|85351|85352|85353|8158|85355|85356|85357|8146|85359|85360|85361|85362|85363|85364|85365|8141|8162|85368|85493|85494|85495|85496|85497|7451|85499|85500|85501|85502|85504|85505|85506|85507|85508
+A|4|239459|239460|239461|239462|239463|239464|239465|239466|239467|239468|239469|239470|239471|239472|239473|239474|239475|239476|239477|239478|239479|95772|239481|239482|283709|283710|283711|283712|283713|283714|283715|283716|283717|283718|283719|283720|283721|283722|283723|283724|283725|283726|283727|283728|283729|283730|283731|283732|286891|286892|286893|286894|286895|286896|286897|286898
+A|1312|229991|229992|229993|229994|229995|229996|229997|345901|229999|230000|230001
+A|68|208507|205317
+A|55|175338|386015|386016|423593|386017|423595
+A|1|39514|39504|39520|212349|212350|39516|212352|212353|212354|212355|212356|212357|212358|212359|39509
+A|110|105599|105600|105601|105602|105603|105604|105605
+A|5|252533|252540|253058|360980|360981|300383|360983|360984|300377|360986|360987|252082|388748|360989|253066|360991|252083|300388|360994|360995|360996|360997|253070|360999|361000|252536
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1312|JVK|Jämtlands Väl Krokom
+B|68|KD|Kristdemokraterna
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|6467|24|M|Niklas Rhodin|24, Servicetjänsteman, Krokom
+C|6461|56|K|Maria Jacobsson|56, Egen företagare, Offerdal
+C|85345|67|M|Sture Hernerud|67 år, Värmon
+C|85346|43|K|Annika Hansson|43 år, Kougsta
+C|8222|53|M|Mikael Karlsson|53, Grafisk designer, Kännåsen
+C|8154|35|K|Erika Öhlin|35, Studerande, Aspås
+C|85349|64|M|Leif Jonsson|64 år, Aspås
+C|85350|41|K|Jenny Palin|41 år, Rödön
+C|85351|26|M|Yohannes Zenawi Teklealfa|26 år, Nälden
+C|85352|61|K|Yvonne Rosvall|61 år, Föllinge
+C|85353|55|M|Peter Grundström|55 år, Krokom
+C|8158|56|K|Katarina Rosberg|56, Undersköterska, Trångsviken
+C|85355|71|M|Claes-Göran Bergh|71 år, Ås
+C|85356|68|K|Pia Hernerud|68 år, Värmon
+C|85357|75|M|Birger Backlund|75 år, Kännåsen
+C|8146|48|K|Gabriella Carlsson|48, Kommunikatör, Krokom
+C|85359|58|M|Göran Eleklint|58 år, Dvärsätt
+C|85360|46|K|Helena Wiktorsson|46 år, Rödön
+C|85361|49|M|Sven Höckert|49 år, Krokom
+C|85362|58|K|Carina Grahn Hellberg|58 år, Krokom
+C|85363|70|M|Rolf Lilja|70 år, Kougsta
+C|85364|53|K|Monica Dahlén|53 år, Storåbränna
+C|85365|62|M|Kjell Nilsson|62 år, Ås
+C|8141|51|K|Carina Fröberg|51, Fakturahandläggare, Nälden
+C|8162|18|M|Julius Wallin|18, Studerande, Ås
+C|85368|68|K|Maj Söderström|68 år, Kougsta
+C|85493|72|M|Alf Edfeldt|72 år, Alsen
+C|85494|64|K|Ulla Jönsson|64 år, Änge
+C|85495|71|M|Ove Norrman|71 år, Trångsviken
+C|85496|59|K|Gunnel Persson|59 år, Dvärsätt
+C|85497|77|M|Göran Carlsson|77 år, Aspås
+C|7451|69|K|Britt Carlsson|69, fd Barnskötare, Aspås
+C|85499|57|M|Stig-Olov Persson|57 år, Alsen
+C|85500|71|K|Ylwa Salomonsson|71 år, Tulleråsen
+C|85501|65|M|Pär-Erik Berglund|65 år, Krokom
+C|85502|50|K|Anne-Christine Syversen|50 år, Alsen
+C|85504|70|K|Maj-Britt Edfeldt|70 år, Kougsta
+C|85505|67|K|Helène Wikner|67 år, Nälden
+C|85506|62|K|Britt-Inger Blad Sörensdotter|62 år, Offerdal
+C|85507|68|K|Maidie Wiklund|68 år, Nordannälden
+C|85508|69|K|Viveka Asproth|69 år, Landön
+C|239459|42|K|Malin Bergman|socialnämndens ordförande/enhetschef 42 år Ås
+C|239460|68|M|Gunnar Hellström|68 år Aspås
+C|239461|52|K|Karin Jonsson|52 år Kännåsen
+C|239462|61|M|Hans Åsling|61 år Trångsviken
+C|239463|37|K|Karin Häggqvist|37 år Tulleråsen
+C|239464|51|M|Andreas Karlsson|landsbygdsutvecklare 51 år Ås
+C|239465|67|K|Astrid Lönn Jern|67 år Häggsjövik
+C|239466|30|M|Peter Johansson|30 år Kännåsen
+C|239467|60|K|Karin Wallén|60 år Valne
+C|239468|55|M|Bengt Nord|55 år Grötom Offerdal
+C|239469|60|K|Lena Andersson|60 år Dvärsätt
+C|239470|38|M|Harot Basil|38 år Krokom
+C|239471|26|K|Sarah Lundmark|26 år Valne
+C|239472|65|M|Tommy Lennartsson|65 år Röde Alsen
+C|239473|63|K|Maria Söderberg|63 år Rödön
+C|239474|62|M|Morgan Moverare|62 år Nälden
+C|239475|19|K|Wilma Engelin|19 år Krokom
+C|239476|39|M|Mathias Friman|systemingenjör 39 år Ås
+C|239477|52|K|Cristine Persson|ekonom/marknadsförare 52 år Krokom
+C|239478|43|M|Andreas Axelsson|43 år Alsen
+C|239479|48|K|Malin Sundqvist|48 år Laxsjö
+C|95772|68|M|Håkan Larsson|tidigare riksdagsledamot 68 år Rödön
+C|239481|46|M|Thomas Pålsson|46 år Skavbränna
+C|239482|70|M|Olof Wallgren|70 år Nälden
+C|283709|50|M|Vilhelm Nyh|50 år Trångsviken
+C|283710|58|M|Jonas Gabrielsson|58 år Krokom
+C|283711|49|M|Mats Mathiasson|49 år Alsen
+C|283712|49|K|Mia Bixo Svedberg|49 år Tulleråsen
+C|283713|66|M|Björn Skogh|66 år Vaplan
+C|283714|57|M|Per Enzell|företagare 57 år Rödön
+C|283715|38|K|Jenny Haugskott|38 år Föllinge
+C|283716|59|M|Mats Andersson|59 år Föllinge
+C|283717|38|M|Jonas Arnsten|38 år Dvärsätt
+C|283718|40|M|Pär-Anders Andersson|40 år Åflo
+C|283719|61|K|Ingrid Zakrisson|61 år Byskogen
+C|283720|74|M|Bernt Söderman|74 år Ås
+C|283721|56|M|Urban Wiklund|56 år Huvulsviken
+C|283722|54|K|Elisabeth Gärdin|54 år Aspås
+C|283723|74|M|Örjan Ernehed|74 år Kälom
+C|283724|67|M|Nils Gunnar Nilsson|67 år Dille
+C|283725|38|M|Martin Ohlsson|38 år Rödön
+C|283726|28|M|Billy Nord|29 år Grötom Offerdal
+C|283727|37|M|Karl Lindman Komstedt|37 år Vejmon
+C|283728|22|M|Andreas Sjöqvist|22 år Rödön
+C|283729|54|K|Helena Jenssen|54 år Kännåsen
+C|283730|31|M|Erik Lögdberg|31 år Kälen
+C|283731|62|M|Affe Jonsson|62 år Ås
+C|283732|70|K|Bendikt Andersson|70 år Föllinge
+C|286891|62|M|Mikael Sjödin|62 år Rödön
+C|286892|73|M|Kurt-Olov Göransson|73 år Dvärsätt
+C|286893|74|M|Henrik Munck af Rosensköld|74 år Ås
+C|286894|68|M|Lars Olsson|68 år Ås
+C|286895|51|M|Håkan Persson|51 år Tullus
+C|286896|63|M|Stig Wallén|62 år Valne
+C|286897|45|M|Mahmoud Addas|44 år Föllinge
+C|286898|31|M|Erik Nilsson|31 år Ås
+C|229991|39|K|Eva-Lena Blom|utbildningschef, Aspås
+C|229992|54|M|Niclas Höglund|affärsutvecklare, Aspås
+C|229993|76|M|Evert Jonsson|fd kommunalråd, Krokom
+C|229994|41|K|Hanna Stenmark|coach, Krokom
+C|229995|38|M|Jasem Alshih|maskinförare, Alsen
+C|229996|67|K|Ewa Lundberg|pensionär, Ås
+C|229997|79|M|Åke Ringdahl|pensionär, Krokom
+C|345901|39|K|Ulrika Wassberg|undersköterska, Aspåsnäset
+C|229999|64|M|Gunnar Hellberg|maskinförare, Krokom
+C|230000|49|K|Karin Alexandersson|kommunanställd, Dvärsätt
+C|230001|70|M|Johnny Hellberg|fd entreprenör, Krokom
+C|208507|51|M|Kjell Sundholm|Trångsviken
+C|205317|23|M|Rasmus Ericsson|student, Krokom
+C|175338|70|M|Jan Runsten|70, Lantbrukare, Alsen
+C|386015|54|K|Eva Ljungdahl|54, Ekoingenjör, Dvärsätt
+C|386016|48|M|Dmitar Savic´|48, Skogstekniker, Krokom
+C|423593|71|K|Marianne Hallsten|71, Pensionär, Föllinge
+C|386017|54|M|Paul van den Brink|54, Universitetslärare, Kälen
+C|423595|69|K|Annkristin Holmberg|69, Folkbildare, Rödön
+C|39514|48|M|Björn Hammarberg|48, Kaxås
+C|39504|54|K|Jannike Hillding|54 år, Rödön
+C|39520|63|K|Elisabeth Svensson|63 år, Dvärsätt
+C|212349|50|M|Bengt Olofsson|50 år, Aspåsnäset
+C|212350|20|M|Carl-Oscar Fransson|20 år, Ås
+C|39516|49|K|Stina Kimselius|49 år, Ås
+C|212352|53|M|Leif Holm|53 år, Nälden
+C|212353|66|M|Roland Larsamo|66 år, Alsen
+C|212354|38|K|Frida Skoog|38 år, Ås
+C|212355|55|M|Ulf Wärdell|55 år, Ås
+C|212356|49|M|Anders Berglund|49 år, Rödön
+C|212357|66|M|Roger Nilsson|66 år, Trångsviken
+C|212358|42|M|Marcus Färnström|42 år, Trångsviken
+C|212359|73|M|Leo Olofsson|73 år, Dvärsätt
+C|39509|18|M|Henrik Johansson|18, Ås
+C|105599|49|M|Ronny Karlsson|Produktionsplanerare, Krokom
+C|105600|66|M|Jan Englund|Pensionär, Krokom
+C|105601|72|M|Claes Sundberg|Företagare, Krokom
+C|105602|40|M|Marcus Danielsson|Studerande, Krokom
+C|105603|61|M|Sune Sjöström|Pensionär, Krokom
+C|105604|55|K|Madeleine Reppe|Hemmafru, Krokom
+C|105605|64|M|Johnny Olofsson|Företagare
+C|252533|45|M|Jörgen Blom|45 år, undersköterska, Alsen
+C|252540|46|K|Marie Svensson|46 år, onkologisjuksköterska, Aspås
+C|253058|37|M|Nehro Mostafaee|37 år, lärare, Nälden
+C|360980|49|K|Mona Puttick|49 år, församlingspedagog, Tångeråsen
+C|360981|70|K|Ulla-Greta Rexner|70 år, pensionerad beteendevetare, Ås
+C|300383|35|M|Hefal Ahmad|35 år, bilmekaniker, Nälden
+C|360983|48|K|Anna Mattiasson|48 år, butiksbiträde, Krokom
+C|360984|55|M|Krister Lundström|55 år, utställningstekniker, Hissmofors
+C|300377|34|K|Delnia Mostafaee|34 år, lärare, Nälden
+C|360986|37|M|Daniel Nyström|37 år, lärare, Finnsäter
+C|360987|64|K|Rigmor Wassberg|64 år, studie- och yrkesvägledare, Aspåsnäset
+C|252082|41|M|Fredrik Olofsson|41 år, gymnasielärare, Ås
+C|388748|29|K|Lina Ali|29 år, cafébiträde, Nälden
+C|360989|68|M|Ronnie Staaf|68 år, pensionär, Nälden
+C|253066|40|K|Maria Isberg|40 år, handläggare, Ås
+C|360991|32|M|Mohamed Ahmed Idris|32 år, modersmålslärare, Krokom
+C|252083|46|K|Jessika Spångberg|46 år, utredare, Krokom
+C|300388|29|M|Idris Abdulla|29 år, studiehandledare, Krokom
+C|360994|64|K|Monica Kullenberg|64 år, barnskötare, Kougsta
+C|360995|72|M|Sture Marklund|72 år, pensionär, Ås
+C|360996|59|K|Eva-Britt Jonsson|59 år, handledare, Tångeråsen
+C|360997|68|M|Roger Meijer|68 år, skogsbonde, Kluk
+C|253070|72|K|Anna Sonntag|72 år, pensionerad sjuksköterska, Ås
+C|360999|66|M|Lennart Wadensjö|66 år, pensionär, Ås
+C|361000|57|M|Lars Grabler|57 år, metallarbetare, Trångsviken
+C|252536|64|K|MonaLisa Norrman|64 år, utredare, Nordannälden

@@ -1,9 +1,181 @@
-2|236843|236844|236845|236846|236847|236848|236849|236850|236853|236852|236855|236854|236857|236856|236859|236858|236861|236860|236863|236862|236865|236864|236867|236866|236868|236869|236870|236871|236872|236873|236874|236875|236876|236877|236878|236879|236880|236881|236882|236883|236884|236885|236886|236887|236888
-4|33541|204423|33555|204425|33536|204427|204428|204429|204430|204431|204432|204433|204434|204435|204436|204437|204438|204439|204440|204441|204442
-68|9158|9164|64442|64443|64444|64445|64446|64447|64448|64449|64450|64451|64452|64453
-1140|480109
-3|156314|165984|165985|165986|165987|165988|165989|165990|165991|165992|165993|165995|165997|165998
-55|94976|94977|94978|94979|94980|94981|94982|94983|94984|94985
-1|35828|36202|40991|40992|36168|40994|40995|40996|40997|40998|40999|41000|41001|41002|41003|41004|41005|41006|41007|41008|41009|41010|41011|41012|41013|41014|41015|41016|41017|41018|41019|41020|41021|41022|41023
-110|125831|125832|125833|125834|125835|125836|125837|125838|125839|125840|182117
-5|359281|359282|359283|359284|359285|359286|359287|359288|359289|359290|359291|359292
+T|Avesta
+A|2|236843|236844|236845|236846|236847|236848|236849|236850|236853|236852|236855|236854|236857|236856|236859|236858|236861|236860|236863|236862|236865|236864|236867|236866|236868|236869|236870|236871|236872|236873|236874|236875|236876|236877|236878|236879|236880|236881|236882|236883|236884|236885|236886|236887|236888
+A|4|33541|204423|33555|204425|33536|204427|204428|204429|204430|204431|204432|204433|204434|204435|204436|204437|204438|204439|204440|204441|204442
+A|68|9158|9164|64442|64443|64444|64445|64446|64447|64448|64449|64450|64451|64452|64453
+A|1140|480109
+A|3|156314|165984|165985|165986|165987|165988|165989|165990|165991|165992|165993|165995|165997|165998
+A|55|94976|94977|94978|94979|94980|94981|94982|94983|94984|94985
+A|1|35828|36202|40991|40992|36168|40994|40995|40996|40997|40998|40999|41000|41001|41002|41003|41004|41005|41006|41007|41008|41009|41010|41011|41012|41013|41014|41015|41016|41017|41018|41019|41020|41021|41022|41023
+A|110|125831|125832|125833|125834|125835|125836|125837|125838|125839|125840
+A|5|359281|359282|359283|359284|359285|359286|359287|359288|359289|359290|359291|359292
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|236843|48|M|Lars Isacsson|Avesta
+C|236844|47|K|Susann Berger|47 år, Avesta
+C|236845|59|M|Mikael Westberg|Avesta
+C|236846|38|K|Maria Andersson|Avesta
+C|236847|69|M|Kurt Kvarnström|Brunnbäck
+C|236848|30|K|Blerta Krenzi|30 år, Avesta
+C|236849|50|M|Patrik Sundin|Krylbo
+C|236850|74|K|Laila Borger|Avesta
+C|236853|52|M|Stefan Palm|Karlbo
+C|236852|52|K|Anna Perman|Avesta
+C|236855|73|M|Lars Levahn|Avesta
+C|236854|46|K|Charlotta Engström|Horndal
+C|236857|37|M|Henrik Väyrynen|Krylbo
+C|236856|37|K|Åsa Lövgren|Avesta
+C|236859|41|M|Daniel Brogedahl|Krylbo
+C|236858|77|K|Ruth Johansson|Avesta
+C|236861|75|M|Göran Edström|Avesta
+C|236860|32|K|Emma Autio|Fors
+C|236863|34|M|Tom Andersson|34 år, Avesta
+C|236862|40|K|Malin Bäckebo|Avesta
+C|236865|49|M|Patrik Engström|49 år, Avesta
+C|236864|68|K|Kirsti Andersson|Fornby
+C|236867|71|M|Håkan Bengtsson|Horndal
+C|236866|70|K|Gerd Svedberg|Avesta
+C|236868|48|M|Jonas Wells|Karlbo
+C|236869|47|K|Eva Blixt|Avesta
+C|236870|50|M|Thomas Lidström|Högbo
+C|236871|52|K|Eva Lidström|Högbo
+C|236872|54|M|Anders Westman|Krylbo
+C|236873|67|K|Irja Tofvesson|Krylbo
+C|236874|73|M|Hans Danielsen|Avesta
+C|236875|67|M|Lars-Olov Eriksson|Krylbo
+C|236876|74|K|Elisabet Palmkvist|Nyhyttan
+C|236877|60|M|Peter Kotipelto|Avesta
+C|236878|67|K|Inger Engström|By Kyrkby
+C|236879|68|M|Anders Eriksson|Skogsbo
+C|236880|70|M|Sven-Olof Hirsch|Folkärna
+C|236881|37|M|Fredrik Andersson|Avesta
+C|236882|45|M|Patrik Kvarnström|Krylbo
+C|236883|42|M|Daniel Vargas|Haltarsbo
+C|236884|51|M|Ola Aspgren|Avesta
+C|236885|47|M|Martti Hirvelä|Avesta
+C|236886|36|M|Mattias Johansson|Avesta
+C|236887|53|M|Stefan Steen|Avesta
+C|236888|53|M|Kennet Mattson|Krylbo
+C|33541|57|K|Gunilla Berglund|Avesta
+C|204423|51|K|Annika Johansson|Enhetschef, Byås
+C|33555|71|M|Jan-Olof Källström|Avesta
+C|204425|62|K|Karin Perers|Skribent, Mörtarbo
+C|33536|28|K|Sara Persson|Avesta
+C|204427|78|M|Lars-Åke Carlsson|Pensionär, Skogsbo
+C|204428|44|K|Malin Sundmark|Köttproducent, Rotfallet
+C|204429|53|M|Erik Ingvarsson|Byggnadssnickare, Fors
+C|204430|44|K|Pernilla Eklund|Egenföretagare, Alsbo
+C|204431|58|K|Kristina Ohls|Grönsaksodlare, Norr Nävde
+C|204432|70|K|Kerstin Kalin|Lärare, Horndal
+C|204433|61|M|Per Perers|Systemutvecklare, Avesta,
+C|204434|69|M|Böril Jonsson|Vattenvårdskonsult, Fors
+C|204435|56|K|Mia Lindmark|Ekonom, Horndal
+C|204436|59|K|Lea Malmivirta|Utbildare, Kvarnbro
+C|204437|48|K|Charlotta Arielsson|Kock, Räfsbo
+C|204438|71|M|Ingemar Eriksson|Lantbrukare, Knallasbenning
+C|204439|74|M|Jerry Harrysson|Pensionär, Karlbo
+C|204440|70|K|Iris Johansson|Undersköterska, Kvarnbro
+C|204441|66|K|Iva Morelius|Undersköterska, Digeräng
+C|204442|69|M|Jörgen Jåfs|Pensionär, Bergshyttan
+C|9158|59|M|Curt-Åke Larsson|rektor, Avesta
+C|9164|69|M|Roy Uppgård|företagare, Avesta
+C|64442|43|K|Jeannie Lundqvist|musiklärare, Korskrogen
+C|64443|50|M|Roland Lindén|enhetschef, Fors
+C|64444|62|K|Maivor Holm Adolfsson|barnskötare, Avesta
+C|64445|63|M|Amin Dahdouh|lärare, Brunnbäck
+C|64446|62|K|Elisabeth Kotschy|Dalsberga
+C|64447|61|M|Kjell Holm|företagare, Avesta
+C|64448|61|K|Annika Larsson|behandlingsassistent, Karlbo
+C|64449|82|M|Sven Nyman|pensionär, Avesta
+C|64450|76|K|Kenny Eriksson|pensionär, Bengtsbo
+C|64451|60|M|Roland Hedström|säljare, Igeltjärna
+C|64452|48|M|Mirracle Lucau|busschaufför, Avesta,
+C|64453|83|M|Natanael Lönn|pensionär, Brunnbäck
+C|480109|56|M|Bengt-Olov Söderkvist|IT-ingenjör/elektriker, Avesta
+C|156314|63|M|Bo Brännström|Adjunkt, 63 år, Avesta
+C|165984|30|M|Ahmad Moujawaz|Jurist, Avesta
+C|165985|48|M|Daniel Henriksson|Verksamhetsutvecklare, Nordanö
+C|165986|57|K|Lis Linnberg|Områdessamordnare, Skogsbo
+C|165987|52|M|Lars Stolt|Platschef, Karlbo
+C|165988|70|K|Christina Kaloinen|Pensionär, Karlbo
+C|165989|78|M|Kurt Liljegren|Tandläkare, Horndal
+C|165990|46|M|Mikael Forsberg|Inköpare, Skogsbo
+C|165991|50|M|Jerker Olofsson|Rektor, Krylbo
+C|165992|57|K|Eleonor Brännström|Röntgensjuksköterska, Avesta
+C|165993|70|M|Kjell Nyman|F.d. poliskommissarie, Avesta
+C|165995|71|M|Lennart Hammargren|Gymnasielärare, Karlbo
+C|165997|79|K|Maisie Edman Hollman|Konstnär, Pellbo
+C|165998|78|M|Gösta Söderberg|Pensionär, Karlbo
+C|94976|50|K|Heidi Sjungargård|Avesta
+C|94977|21|M|Linus Fransson|Avesta, juriststudent
+C|94978|73|K|Lillebil Lundkvist|pedagog, 73 år
+C|94979|50|M|Carl Sjungargård|verkstadsarbetare 50 år
+C|94980|52|K|Anna Riseby|förskollärare, 52 år
+C|94981|73|M|Gert Lundqvist|Avesta, läkare
+C|94982|76|K|Gunvor Månsson|pensionär, 76 år
+C|94983|79|M|Gunnar Månsson|pensionär, 79 år
+C|94984|74|K|Marianne Norén|pensionär, 74 år
+C|94985|54|M|Qutaiba Tumma|handledare, 53 år
+C|35828|49|M|Johan Thomasson|49 år, oppositionsråd, Avesta
+C|36202|65|K|Maarit Hessling|65 år, statstjänsteman, Avesta
+C|40991|38|M|Johannes Kotschy|Avesta
+C|40992|54|K|Susanne Holmberg|Åkersbyn
+C|36168|61|M|Ulf Berg|61 år, oppositionsråd,polis, Avesta
+C|40994|57|K|Katarina Andersson|Krylbo
+C|40995|63|M|Rolf Rickmo|Avesta
+C|40996|65|M|Peter Albinsson|Sjövik
+C|40997|24|K|Gabriella Persdahl|Avesta
+C|40998|26|M|Özena Gölpuhar|Avesta
+C|40999|23|M|Eric Karlsson|Avesta
+C|41000|40|K|Helena Bergkvist|Skogsbo
+C|41001|41|M|Henrik Hästbacka|Horndal
+C|41002|57|M|Tom Hansen|Avesta
+C|41003|65|K|Madeleine Ingmarstedt|Avesta
+C|41004|43|M|Henric Schef|Karlbo
+C|41005|53|K|Anna-Karin Persdahl|Horndal
+C|41006|44|M|Mats Sundstedt|Månsbo
+C|41007|83|K|Hanne Ivarsson|Tillfället
+C|41008|37|M|Fredrik Mattsson|Avesta
+C|41009|18|K|Michelle Seger|Fors
+C|41010|80|M|Håkan Backhuvud|Horndal
+C|41011|26|K|Julia Eriksson|Storbyn
+C|41012|67|M|Jörgen Eriksson|Avesta
+C|41013|73|K|Riitta Nilsson|Horndal
+C|41014|76|M|Henry Jönsson|Hyttbäcken
+C|41015|78|K|Måna Hesselrud|Grönsinka
+C|41016|73|M|Bror Nilsson|Horndal
+C|41017|77|K|Birgitta Westermark|Hyttbäcken
+C|41018|40|M|Claes Nilsson Sörebo|Sörbäck
+C|41019|24|M|Fredrik Wohlfart|Skogsbo
+C|41020|49|M|Tomas Svedberg|Skogsbo
+C|41021|66|M|Lennart Karlsson|Fors
+C|41022|75|M|Anders Kellin|Gåsbo
+C|41023|50|K|Annelie Esselin|Hyttbäcken
+C|125831|46|M|Per-Ola Ahlström|Säljare, Avesta
+C|125832|77|M|Martti Hopponen|Målare, Horndal
+C|125833|71|K|Margareta Lindgren|Bussförare, Avesta
+C|125834|50|M|Christer Karlsson|Projektledare, Avesta
+C|125835|74|K|Anita Vytlacil|Pensionär, Rutbo
+C|125836|72|M|Göte Lindgren|Bussförare, Avesta
+C|125837|53|M|Tony Femtler|Säljare, Avesta
+C|125838|75|M|Karl Vytlacil|Pensionär, Rutbo
+C|125839|47|M|Tomi Sandvik|Produktsäkerhetsingenjör, Avesta
+C|125840|46|M|David Larsson|Produktutvecklare, Avesta
+C|359281|67|K|Pia Aronsson|
+C|359282|38|K|Erika Bengtsson|
+C|359283|52|M|Thomas Hedberg|
+C|359284|30|M|Mikael Moen|
+C|359285|63|M|Tord Birgersson|
+C|359286|36|M|Marcus Tarvainen|
+C|359287|50|M|Johan Tillenius|
+C|359288|30|M|Daniel Holmberg|
+C|359289|80|M|Leif Eriksson|
+C|359290|37|M|Nedhal Mresha|
+C|359291|49|M|Stefan Ekdahl|
+C|359292|41|K|Johanna Lundgren|

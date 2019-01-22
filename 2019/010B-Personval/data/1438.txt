@@ -1,7 +1,96 @@
-2|40495|40496|40497|40498|40499|40500|40501|40502|40503|40504|40505|40506|40507|40508|40509|40510|40511|40512|40513|49116|49117|49118|49119|49120|49121
-4|7667|7668|1874|7670|7671|7672|7673|7674|7675|7676|7677|7678|7679|7680|7681|7682|7683|7684|7685|7686|7687|7688
-68|248817|248806|485609|485610|485611|485612|485613|485614|485615|485616|485617
-3|211854|211855|211856|211857|211858|211859|211860|211861
-1|254944|254945|254946|254947|254948|254949|254950|254951|254952
-110|117892|117893|117894|117895|117896
-5|241229
+T|Dals-Ed
+A|2|40495|40496|40497|40498|40499|40500|40501|40502|40503|40504|40505|40506|40507|40508|40509|40510|40511|40512|40513|49116|49117|49118|49119|49120|49121
+A|4|7667|7668|1874|7670|7671|7672|7673|7674|7675|7676|7677|7678|7679|7680|7681|7682|7683|7684|7685|7686|7687|7688
+A|68|248817|248806|485609|485610|485611|485612|485613|485614|485615|485616|485617
+A|3|211854|211855|211856|211857|211858|211859|211860|211861
+A|1|254944|254945|254946|254947|254948|254949|254950|254951|254952
+A|110|117892|117893|117894|117895|117896
+A|5|241229
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|40495|62|M|Per-Erik Norlin|Livsstilscoach, 62 år, Dals-Ed
+C|40496|55|K|Carina Halmberg|Undersköterska, 55 år, Dals-Ed
+C|40497|66|M|Larsinge Fahlén|
+C|40498|75|K|Yvonne Simonsson|
+C|40499|57|M|Börje Holmqvist|
+C|40500|55|K|Maria Celik|
+C|40501|55|M|Öyvind Höiberg|
+C|40502|43|K|Muna Roumieh|
+C|40503|51|M|Tim Karlsson|
+C|40504|72|K|Lena Zakariasson|
+C|40505|73|M|Jan Gunnar Eliasson|
+C|40506|50|K|Erika Martinsson|
+C|40507|71|M|Curt Åke Sandberg|
+C|40508|68|K|Monica Sandström|
+C|40509|43|M|Jonas Eriksson|
+C|40510|54|K|Paula Holmqvist|Undersköterska, 54 år, Dals-Ed
+C|40511|78|M|Gunnar Simonsson|
+C|40512|58|K|Annika Engen Henke|
+C|40513|54|K|Elisabeth Theolin|
+C|49116|66|M|Allan Oskarsson|
+C|49117|67|M|Jan Norén|
+C|49118|57|M|Lars Anders Hermansson|
+C|49119|62|K|Anita Andersson|
+C|49120|70|M|Roger Olsson|
+C|49121|52|K|Kajsa Aloandersson|
+C|7667|53|M|Martin Carling|Rölanda
+C|7668|45|K|Anna Johansson|Ed
+C|1874|50|M|Kenneth Gustavsson|försäljningschef, 50 år, Dals-Ed
+C|7670|64|K|Eva A Johansson|Gäserud
+C|7671|64|M|Ingvar Johannesson|Kårslätt
+C|7672|51|K|Elisabet Forsdahl|Rölanda
+C|7673|53|M|Morten Johnsen|Nössemark
+C|7674|58|K|Christina Larsson|Vångsjö
+C|7675|30|M|Mattias Munther|Bråten
+C|7676|59|K|Catherine M Rundqvist|Ed
+C|7677|66|M|Christer Jörgensen|Klevmarken
+C|7678|67|M|Ture Olsson|Nössemark
+C|7679|75|M|Åke Jansson|Ed
+C|7680|43|M|Niklas Johansson|Ökna
+C|7681|67|M|Lennart Lundgren|Håbol
+C|7682|31|K|Lizbet S Galle|Håbol
+C|7683|72|M|Christer Olsson|Rölanda Högen
+C|7684|70|M|Göran Fernström|Rävmarken
+C|7685|73|K|Britta Carlén|Böle
+C|7686|62|M|Noel Pickett|Ed
+C|7687|48|M|Anders Forsdahl|Rölanda
+C|7688|20|M|Adam Pickett|Ed
+C|248817|64|M|Tommy Olsson|Egen företagare, Dals Ed
+C|248806|52|M|Jan-Stefan Karlsson|Tekniker, Dals Ed
+C|485609|59|K|Kerstin Molander|Rehabassistent
+C|485610|46|M|Henrik Andersson|Försäljare
+C|485611|54|K|Lena Kunéll|Leg. receptarie
+C|485612|41|M|Emil Ljungkvist|Musiklärare
+C|485613|76|M|Ingemar Bäckman|Pensionär
+C|485614|75|M|Göran Andersson|Snickare
+C|485615|35|M|Sven-Erling Sjölie|Röntgensjuksköterska
+C|485616|77|M|Bengt Johansson|Fastighetsägare
+C|485617|60|K|Rose-Marie Åkerlundh|Lärare
+C|211854|53|M|Patrik Högfelt|53, ekonom, Dals-Ed
+C|211855|62|K|Britt Olsson|leg. sjuksköterska och psykoterapeut, Ed
+C|211856|54|M|Samir Rizkallah|54, tolk, Dals-Ed
+C|211857|71|K|Mona-Lisa Lundberg|Undersköterska, Nössemark
+C|211858|60|M|John Kral|Socionom, Ed
+C|211859|46|K|Lena Högfelt|44, lärare, Dals-Ed
+C|211860|73|M|Stefan Lundberg|Pensionär, Nössemark
+C|211861|69|K|Kerstin Sandqvist|Pensionär, Håbol
+C|254944|53|M|Andreas Nilsson|53, Ed
+C|254945|39|K|Annika Lännhult|39, Ed
+C|254946|57|K|Britt-Marie Johansson|57, Ed
+C|254947|38|M|Henrik Johansson|38, Ed
+C|254948|36|M|Stefan Svensson|36, Nössemark
+C|254949|29|M|Jonathan Åkesson|29, Ed
+C|254950|56|M|Jan Johansson|56, Ed
+C|254951|39|M|Linus Lännhult|39, Ed
+C|254952|52|M|Kenneth Bergslätt|52, Ed
+C|117892|44|M|Anders Bengtsson|Montör, 44, Ed
+C|117893|30|M|Mattias Petranyi|30, Ed
+C|117894|30|M|Niclas Bergendal|Busschaufför, 30, Ed
+C|117895|58|M|Bertil Bergendal|Pensionär, 58, Ed
+C|117896|72|M|Johnny Andreasson|Pensionär, 72, Ed
+C|241229|69|M|Per Normark|69 år

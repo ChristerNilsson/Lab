@@ -1,10 +1,244 @@
-2|36333|36334|36335|36336|36337|36338|36339|36340|36341|36342|36343|36344|36345|36346|36347|36348|36349|36350|36351|36354|36353|36356|36355|36358|36357|36360|36359|36362|36361|36364|36363|36366|36365|36368|36367|36371|36369|36373|36370|36374|36372|36375|36376|36377|36378|36379|36380|36381
-4|15853|131264|131265|131266|131267|15861|131271|284027|131270|131272|131274|131269|284033|131276|131277|131278|131279|284038|131280|131281|131282|131283
-68|77938|77939|77940|77941|77942|77943|77944|77945|77946|77947|77948|77949|77950|77951|77952|77953|77954|77955|77956|77957|77958|77959|77960|77961|77962|77964
-1140|480108
-3|239360|216857|216858|239363|239364|216861|216871|239367|239368|239369|239370|239371|204185|239373|239374|239375|239376|239377|239378
-55|233323|233325|233326|369409|369415|375277|375278|375279|375280|375281|375282|375283|375284|375285|375286|375287|375288|375289
-1|137847|137848|137849|137850|137851|137852|137853|1563|137855|137856|137857|137858|137859|137860|137861|137862|137863|137864|137865|137866|137867|137868|137869|137870|137871|137872
-174|318162|318163|318164|318165|318166|318167|318168|318169|318170|318171|318172|318173|318174|318175|318176|318177|318178|318179|318180|318181|318182|318183|318184|318185|318186|318187|318188|318189|318190
-110|126218|126219|126220|126221|126222|126223|126224|126225|126226|126227|126228|126229|126230|126231|126232|126233|126234|126235|126236|126237|126238|126239|126240|126242|126241|126243
-5|172050|172051|172052|172053|172054|172055|172056|172057
+T|Nässjö
+A|2|36333|36334|36335|36336|36337|36338|36339|36340|36341|36342|36343|36344|36345|36346|36347|36348|36349|36350|36351|36354|36353|36356|36355|36358|36357|36360|36359|36362|36361|36364|36363|36366|36365|36368|36367|36371|36369|36373|36370|36374|36372|36375|36376|36377|36378|36379|36380|36381
+A|4|15853|131264|131265|131266|131267|15861|131271|284027|131270|131272|131274|131269|284033|131276|131277|131278|131279|284038|131280|131281|131282|131283
+A|68|77938|77939|77940|77941|77942|77943|77944|77945|77946|77947|77948|77949|77950|77951|77952|77953|77954|77955|77956|77957|77958|77959|77960|77961|77962|77964
+A|1140|480108
+A|3|239360|216857|216858|239363|239364|216861|216871|239367|239368|239369|239370|239371|204185|239373|239374|239375|239376|239377|239378
+A|55|233323|233325|233326|369409|369415|375277|375278|375279|375280|375281|375282|375283|375284|375285|375286|375287|375288|375289
+A|1|137847|137848|137849|137850|137851|137852|137853|1563|137855|137856|137857|137858|137859|137860|137861|137862|137863|137864|137865|137866|137867|137868|137869|137870|137871|137872
+A|174|318162|318163|318164|318165|318166|318167|318168|318169|318170|318171|318172|318173|318174|318175|318176|318177|318178|318179|318180|318181|318182|318183|318184|318185|318186|318187|318188|318189|318190
+A|110|126218|126219|126220|126221|126222|126223|126224|126225|126226|126227|126228|126229|126230|126231|126232|126233|126234|126235|126236|126237|126238|126239|126240|126242|126241|126243
+A|5|172050|172051|172052|172053|172054|172055|172056|172057
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|174|SAFE|Solidaritet, Arbete, Fred, Ekologi, SAFE
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|36333|60|K|Anna-Carin "Anci" Magnusson|61 år,Kommunalråd, Nässjö
+C|36334|68|M|Kurt Johansson|69 år,Skolledare, Nässjö
+C|36335|20|K|Anna Franzén|20 år, Studerande,Grimstorp
+C|36336|62|M|Leif Ternstedt|62 år, Brandmästare,Nässjö
+C|36337|27|K|Angelica Weber|28 år, Butiksmedarbetare,Malmbäck
+C|36338|62|M|Ibrahim Hajdarevic|62 år, Tågvärd,Nässjö
+C|36339|50|K|Sara Lindberg|50 år, Arbetsmiljökonsult,Nässjö
+C|36340|33|M|Erik Wågman|33 år, Barnskötare,Nässjö
+C|36341|41|K|Lindha Hjälm|41 år,Arbetsförmedlare, Nässjö
+C|36342|65|M|Tommy Broholm|66 år,Brandmästare, Nässjö
+C|36343|70|K|Anita Sjöberg|70 år, Pensionär,Nässjö
+C|36344|68|M|Håkan Gustafsson|68 år,Arbetsförmedlingschef, Nässjö
+C|36345|66|K|Barbro Svensson|67 år,Verksamhetsassistent, Nässjö
+C|36346|49|M|Per Svenberg|49 år, Träindustriarbetare,Bodafors
+C|36347|71|K|Helen Stolper|71 år,Lärare, Nässjö
+C|36348|55|M|Farshid Ardabili-Farshi|55 år,Socialsekreterare, Nässjö
+C|36349|55|K|Gunilla Andersson|55 år, Läkarsekreterare,Nässjö
+C|36350|59|M|Sylve Jergefelt|60 år,Insatsledare,Nässjö
+C|36351|30|K|Igran Hussein|31 år,Egenföretagare, Nässjö
+C|36354|59|M|Mats Andersson|60 år,,Lokförare, Nässjö
+C|36353|33|K|Emma Henning|33 år, Studerande,Ormaryd
+C|36356|56|M|Johan Slättberg|56 år,Idrottslärare, Nässjö
+C|36355|60|K|Gabriella Mohlin|61 år, Systemutvecklare,Nässjö
+C|36358|46|M|Patric Cronvall|46 år,Driftstekniker, Nässjö
+C|36357|45|K|Carla Habib|45 år,Arbetsförmedlare, Nässjö
+C|36360|72|M|Ronnie Dovskog|73 år,Egenföretagare, Solberga
+C|36359|56|K|Galiba Hajdarevic|56 år,Trädgårdsarbetare, Nässjö
+C|36362|42|M|Peter Bruno|42 år,Bemanningssamordnare, Bodafors
+C|36361|63|K|Doris Nilsson|63 år,Socialsekreterare, Nässjö
+C|36364|25|M|Mohamad Marie|25 år,Studerande, Nässjö
+C|36363|69|K|Jeanette Söderström|70 år, Pensionär,Nässjö
+C|36366|44|M|Mattias Sundqvist|45 år,Arbetsterapeut, Nässjö
+C|36365|59|K|Jane Wågman|59 år,Utvecklingschef, Nässjö
+C|36368|70|M|Jan-Olof Krona|70 år,Stensjön
+C|36367|65|K|Sue Frykman|65 år,Egenföretagare, Nässjö
+C|36371|21|M|Isak Öhrlund|21 år, Studerande,Malmbäck
+C|36369|62|K|Ann-Britt Wollsén|63 år,Undersköterska, Nässjö
+C|36373|72|M|Bengt Holmgren|73 år,Lärare, Nässjö
+C|36370|57|K|Katrin Ekdahl|58 år,Administratör, Nässjö
+C|36374|71|M|Lars Lang-Green|71 år,Lantbrukare, Malmbäck
+C|36372|47|K|Malin Malmkvist|47 år,Samhällsvägledare, Nässjö
+C|36375|78|M|Tofte Frykman|78 år,Ekonom, Nässjö
+C|36376|58|M|Rolf Sjöstrand|58 år,Ombudsman, Nässjö
+C|36377|68|M|Göran Dehlin|69 år,Fritidspedagog, Solberga
+C|36378|59|M|Åke Ekdahl|59 år,Säljare, Nässjö
+C|36379|61|M|Hans Ström|61 år,Personlig Assistent, Malmbäck
+C|36380|50|M|Issa Alahmad|51 år,Civilingenjör, Nässjö
+C|36381|44|M|Roger Steén|44 år,Lagerarbetare, Nässjö
+C|15853|56|M|Anders Karlsson|56, Kommunalråd, N Sandsjö
+C|131264|67|K|Ann-Cathrin Gunnar|67, Pensionär, Flisby
+C|131265|60|M|Ronnie Johansson|60, Lantbrukare, Hattsjöhult Grimstorp
+C|131266|48|K|Sofia Holm Storme|48, Fastighetsekonom, Nässjö
+C|131267|46|K|Anette Andersson|Sjuksköterska, Nässjö
+C|15861|52|M|Per Eriksson|52, Säljare, Stensjön
+C|131271|34|M|Abdi Aadan Ismail|34, Projektledare o Busschaufför, Nässjö
+C|284027|63|M|Morten Lindh|63, Företagare, Solberga Säteri, Nässjö
+C|131270|37|M|Erik Wagner|37, Teknikkonsult, Esperyd, Barkeryd
+C|131272|71|M|Lars-Ivan Fransson|71, Lantbrukare, Säveda, Bodafors
+C|131274|62|M|Anders Sjölander|62, Verkstadsarbetare, Bodafors
+C|131269|44|K|Cecilia Persson|44, Sjuksköterska, Margrevehult, Bodafors
+C|284033|49|M|Göran Danielsson|49, Musiker o Kantor, Fintorp, Forserum
+C|131276|42|M|Patrik Andersson|42, Byggmästare, Malmbäck
+C|131277|31|M|Daniel Johansson|31, Elektriker, Nässjö
+C|131278|71|K|Barbro Carlberg Klang|71, Företagare, Ormaryd
+C|131279|60|M|PerÅke Carlsson|60, Datakonsult, Skullaryd, Flisby
+C|284038|50|K|Åsa Friman|50, Juristassistent, Ormaryd
+C|131280|81|M|Gustaf Antonsson|81, fd Kyrkvaktmästare, Malmbäck
+C|131281|72|M|Roland Persson|72, Verkstadsarbetare, Nässjö
+C|131282|31|M|Hampus Wallentinsson|31, Administratör, Nässjö
+C|131283|83|K|Sonja Sjölander|83, Senior, Nässjö
+C|77938|57|K|Laila Norss|Kommunalråd, Flisby
+C|77939|24|M|Anton Axelsson|Civilekonom, Nässjö
+C|77940|70|K|Annika Arlbrandt|Fd Rektor, Nässjö
+C|77941|73|M|Sigvard Karlsson|Fd Lantbrukare, Flisby
+C|77942|63|K|Margareta Andersson|Lantbrukare, Nässjö
+C|77943|62|M|Conny Dahnson|Biomedicinsk analytiker, Anneberg
+C|77944|50|K|Pernilla Mårtensson|Distriktssköterska, Stensjön
+C|77945|69|M|Paul Snälls|Målare, Nässjö
+C|77946|51|K|Annika Karlsson|Handledare, Skullaryd
+C|77947|48|M|Samuel Korpegård|Administrativ chef, Malmbäck
+C|77948|20|K|Jessica Hafström|Optikerassistent, Nässjö
+C|77949|59|M|Bo Gunnarsson|Poliskommissarie, Malmbäck
+C|77950|31|K|Frida Bergenholm|Leg Sjuksköterska, Flisby
+C|77951|49|M|Stefan Hylander|Lärare, Bodafors
+C|77952|59|K|Siw Damberg|Redovisningsekonom, Forserum
+C|77953|34|M|Andreas Hjälmkvist|Snickare, Malmbäck
+C|77954|64|K|Ann-Cristin Simonsson|Kurator, Nässjö
+C|77955|61|M|Ted Sandstedt|Musiker, Bodafors
+C|77956|68|K|Gazali Aydin|Företagare, Nässjö
+C|77957|75|M|Helmuth Zechel|Pensionär, Nässjö
+C|77958|57|K|Anneli Isaksson|Familjepedagog, Nässjö
+C|77959|33|M|Jimmy Martinez Escobar|Montör, Forserum
+C|77960|47|K|Josefin Gunnargård|Lärarstudent, Malmbäck
+C|77961|57|M|Per-Olof Östlund|Kriminalkommissarie, Nässjö
+C|77962|60|K|Karin Petersson|Gymnasielärare, Nässjö
+C|77964|45|M|Per Ewert|Direktor, Forserum
+C|480108|63|K|Karin Hansson Lindgren|socialarbetare, 63, Nässjö
+C|239360|72|M|Kjell Skålberg|Pensionär
+C|216857|23|K|Ervisa Dani|
+C|216858|67|K|Agneta Svensson|
+C|239363|70|K|Elisabeth Skålberg|Pensionär
+C|239364|40|M|Martin Rofors|Företagare
+C|216861|65|K|Anne-Marie Olofsgård|
+C|216871|66|M|Bengt Karlsson|
+C|239367|71|M|Lars Svensson|Byggkonsult
+C|239368|78|M|Bo Almqvist|
+C|239369|33|M|Henrik Brodd|
+C|239370|66|M|Bengt Ydrefors|Civilingenjör
+C|239371|51|M|Anders Hjälmdahl|Grundskolelärare
+C|204185|55|K|Ann-Chatrine Jonsson|55, Nässjö
+C|239373|70|M|Jan Andersson|
+C|239374|58|M|Lars Bjerhem|
+C|239375|50|M|Mattias Wändahl|
+C|239376|79|M|Sven-Erik Olsson|
+C|239377|59|M|Erik Fröjmark|Diakon
+C|239378|84|M|Ingvar Milvert|Pensionär
+C|233323|37|M|Rikard Salander|37 år, SFI-lärare, Nässjö
+C|233325|54|K|Etelka Huber|54 år, kommunikatör, Bodafors
+C|233326|23|M|Mert Cimen|23 år, planerare, Forserum
+C|369409|64|K|Märit Strindberg|64 år, informatör, Nässjö
+C|369415|70|M|Michael Wallin|70 år, pensionär, Nässjö
+C|375277|34|K|Karin Larsson Salander|34 år, möbelsnickare, Bodafors
+C|375278|74|M|Jörgen Stiernborg|74 år, pensionär, Nässjö
+C|375279|62|K|Britt-Marie Jurlén|62 år, socionom, Nässjö
+C|375280|31|M|Tarek Ahmad Ahmad Abo Ahmad|31 år, SO-kommunikatör, Nässjö
+C|375281|52|K|Maria Salomonsson|52 år, frisör, Nässjö
+C|375282|31|M|Eric Karnöskog|31 år, hussäljare, Havsjö
+C|375283|56|K|Olivia Olga Andersson|56 år, undersköterska, Nässjö
+C|375284|60|M|Jozef Varga|60 år, möbeltapetserare, Bodafors
+C|375285|26|K|Johanna Stenvall|26 år, säljare, Nässjö
+C|375286|37|M|John Lennartsson|37 år, undersköterska, Bodafors
+C|375287|45|M|Kenneth Karlsson|45 år, socialsekreterare, Nässjö
+C|375288|75|M|Alf Nilsson|75 år, pensionär, Bodafors
+C|375289|59|K|Gisela Nilsson|59 år, undersköterska, Nässjö
+C|137847|52|K|Ann-Charlotte Ekman Hellman|52 år, HR-chef, Nässjö
+C|137848|50|K|Anna Gerebo|50 år, Aktiveringsledare, Nässjö
+C|137849|41|K|Jennie Arvidsson|41 år, Barnmorska, Nässjö
+C|137850|69|M|Hans-Christer Hellman|69 år, Pensionär, Nässjö
+C|137851|18|K|Argjira Morina|18 år, Studerande, Nässjö
+C|137852|56|M|Carl Dohlsäter|56 år, Ingenjör, Nässjö
+C|137853|66|M|Anders Karlgren|66 år, Kommunalråd, Nässjö
+C|1563|50|K|Malin Olsson|50 år, Regionråd, Nässjö
+C|137855|69|M|Bengtlennart Larson|69 år, Pensionär, Anneberg
+C|137856|61|M|Torgny Tilstam|61 år, Försäljningschef, Nässjö
+C|137857|38|M|Stefan Karlsson|38 år, Verksamhetschef, Nässjö
+C|137858|51|K|Carina Larsson|51 år, Undersköterska, Nässjö
+C|137859|80|M|Anders Andrée|80 år, Fd fastighetsförvaltare, Ormaryd
+C|137860|38|K|Sofi Demolli|38 år, Behandlingsassistent, Nässjö
+C|137861|80|M|Urban Persson|80 år, Marknadsekonom, Nässjö
+C|137862|76|M|Leif Brusberg|76 år, Senior, Nässjö
+C|137863|37|K|Sanna Bjelke|37 år, Rektor, Nässjö
+C|137864|40|K|Nina Beckman|40 år, Backoffice, Äng
+C|137865|38|M|Tommie Ekered|38 år, Jurist, Nässjö
+C|137866|64|M|Tomas Söderberg|64 år, Pensionär, Nässjö
+C|137867|58|K|Sanije Selmon|58 år, Lärare, Nässjö
+C|137868|71|M|Hannu Honkimaa|71 år, Pensionär, Grimstorp
+C|137869|46|K|Catrin Nors|46 år, Ekonom, Nässjö
+C|137870|68|K|Helena Bergman|68 år, Pensionär, Nässjö
+C|137871|51|M|Thomas Sparr|51 år, Systemutvecklare, Nässjö
+C|137872|71|K|Gudrun Torstensson|71 år, Pensionerad distriktssköterska, Solberga
+C|318162|62|M|Anders Hansen|Nässjö
+C|318163|59|M|Uno Kenstam|Nässjö
+C|318164|77|K|Maj Widäng|Anneberg
+C|318165|66|M|Thomas Erixzon|Nässjö
+C|318166|77|K|Anita Adam|Nässjö
+C|318167|75|K|Marianne Broman|Nässjö
+C|318168|77|M|Erkki Mustonen|Anneberg
+C|318169|63|K|Eva-Lill Brännström|Nässjö
+C|318170|64|K|Birgitta Askehag|Nässjö
+C|318171|74|M|Wilhelm Brüggemann|Nässjö
+C|318172|52|M|Kjell Larsson|Nässjö
+C|318173|76|M|Pelle Söderlund|Bodafors
+C|318174|65|K|Berit Claesson|Nässjö
+C|318175|63|M|Nils Sjöstedt|Nässjö
+C|318176|23|K|Anna Korsberg|Nässjö
+C|318177|58|M|Peter Hensvik|Nässjö
+C|318178|61|M|Bernt Persson|Bodafors
+C|318179|79|M|Lars Hellström|Nässjö
+C|318180|66|K|Rita Martel|Nässjö
+C|318181|63|K|Margot Johansson|Nässjö
+C|318182|76|M|Alf Öhling|Fredriksdal
+C|318183|55|M|Kjell Alfredsson|Nässjö
+C|318184|75|K|Ann-Marie Hellström|Nässjö
+C|318185|74|M|Rolf Nilsson|Nässjö
+C|318186|81|M|Pelle Månsson|Nässjö
+C|318187|57|M|Ingemar Karlsson|Nässjö
+C|318188|53|M|Görgen Svahn|Nässjö
+C|318189|62|K|Elize Erlandsson|Nässjö
+C|318190|63|K|Kristina Karlsson|Nässjö
+C|126218|26|M|Viktor Karlsson|26, Studerande, Nässjö
+C|126219|54|M|Magnus Hellström|54, Byggnadsarbetare, Bodafors
+C|126220|61|M|Anders Warell|61, Ekonom, Nässjö
+C|126221|52|K|Maria Högberg|52, Undersköterska, Bodafors
+C|126222|71|M|Lennart Forsberg|72, Jurist, Norra Sandsjö
+C|126223|52|M|Teddie Jönsson|52, Maskinoperatör, Nässjö
+C|126224|46|M|Samuel Godrén|46, Gruppledare, Nässjö
+C|126225|78|K|Gerd Lagerqvist|78, Pensionär, Nässjö
+C|126226|50|M|Mats Trägårdh|50, Maskinoperatör, Nässjö
+C|126227|59|M|Arne Bülow|59, Järnvägsarbetare, Nässjö
+C|126228|60|M|Roger Johansson|60, Byggnadsarbetare, Sandsjöfors
+C|126229|44|K|Malin W. Arréhn|44, Undersköterska, Nässjö
+C|126230|69|M|Torleif Sandgren|69, Pensionär, Anneberg
+C|126231|78|K|Lillemor Forsberg|77, Pensionär, Norra Sandsjö
+C|126232|56|M|Per Gunninge|55, Sotare, Nässjö
+C|126233|46|M|Björn Wollsén|46, Maskinoperatör, Nässjö
+C|126234|60|K|Lena Torp|60, Lärare, Nässjö
+C|126235|54|K|Ann Andersen|54, Sjuksköterska, Bodafors
+C|126236|64|M|Willy Lax|64, Lantbrukare, Malmbäck
+C|126237|47|M|Thomas A. Johansson|47, Servicetekniker, Anneberg
+C|126238|49|M|Robert Vennerstrand|49, Målare, Anneberg
+C|126239|49|M|Johan Carlsten|49, Chaufför, Bodafors
+C|126240|68|M|Stellan Lind|68, Anneberg
+C|126242|31|M|Peter Tellgren|31, Nässjö
+C|126241|64|M|Boine Valberg|63, Egenföretagare, Stensjön
+C|126243|68|M|Erkki Svensson|68, Pensionär, Stensnäs
+C|172050|35|K|Kim Strand|familjebehandlare, Fredriksdal
+C|172051|41|K|Sandra Nilsson|HVB-föreståndare, Nässjö
+C|172052|61|K|Lena Björnholm|socionom, Nässjö
+C|172053|73|K|Monica Jönsson|Flisby
+C|172054|69|M|Kenny Jönsson|pensionerad chaufför, Flisby
+C|172055|76|M|Lennart Karlefur|Malmbäck
+C|172056|62|K|Wiveka Forell Karlsson|Ormaryd
+C|172057|65|M|Manfred Gebhart|Norra Sandsjö

@@ -1,10 +1,154 @@
-2|10110|158326|19571|10115|158329|10121|158331|158332|158333|158334|10118|158336|158337|158338|158339|158340|158341|19588|158343|158344|158345|158346|158347|158348|158349|158350|158351|158352|158353
-1366|513148
-4|360916|363898|333991|333987|333990|333996|363903|363904|363905|363906|363907|363908|363909|363910|363911|363912|334000|363914|363915|363916|363917|363918|363919|363920|363921|363922
-68|37566|25239|25249|48248|48252|48250|37575|48253|48254|37571|48256|37563
-3|316659|316660|316661|316662|316663|316664|316665|316666|316667|316668|316669|316670|316671|316672|316673|316674
-1296|258241|258242|258243|258244|258245|258246|258247
-55|515525|515526
-1|158895|163704|163705|163706|163707|163708|163709|163710|163711|163712|163713|163714|163715|163716|163717|163718|160585
-110|61193|68640|65713|65615|65709|65723|65720|68646|512894|512893|513684
-5|332781|332782|332783|332784|332785|332786|332787|332788|332789|332790|332791|332792
+T|Torsås
+A|2|10110|158326|19571|10115|158329|10121|158331|158332|158333|158334|10118|158336|158337|158338|158339|158340|158341|19588|158343|158344|158345|158346|158347|158348|158349|158350|158351|158352|158353
+A|1366|513148
+A|4|360916|363898|333991|333987|333990|333996|363903|363904|363905|363906|363907|363908|363909|363910|363911|363912|334000|363914|363915|363916|363917|363918|363919|363920|363921|363922
+A|68|37566|25239|25249|48248|48252|48250|37575|48253|48254|37571|48256|37563
+A|3|316659|316660|316661|316662|316663|316664|316665|316666|316667|316668|316669|316670|316671|316672|316673|316674
+A|1296|258241|258242|258243|258244|258245|258246|258247
+A|55|515525|515526
+A|1|158895|163704|163705|163706|163707|163708|163709|163710|163711|163712|163713|163714|163715|163716|163717|163718|160585
+A|110|61193|68640|65713|65615|65709|65723|65720|68646|512894|512893|513684
+A|5|332781|332782|332783|332784|332785|332786|332787|332788|332789|332790|332791|332792
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1366|B-ALT|Bästa Alternativet
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|10110|43|M|Henrik Nilsson Bokor|kommunalråd, Söderåkra, 43 år
+C|158326|62|K|Ann-Britt Mårtensson|Leg sjuksköt, Bergkvara, 62 år
+C|19571|36|M|Björn Petersson|ombudsman, Torsås, 36 år
+C|10115|62|K|Christina Lönnqvist|fritidspedagog, Torsås, 62 år
+C|158329|60|M|Sören Bondesson|Egenföretagare, Bergkvara, 60 år
+C|10121|53|K|Jill Jonsson|omsorgsassistent, Torsås, 53 år
+C|158331|71|M|Roland Swedestam|Skogsbrukare, Tjärekulla, 71 år
+C|158332|55|K|Susanne Rosén|Områdeschef, Stuvehyltan, 55 år
+C|158333|51|M|Hans Larsson|Metallarbetare/egenföretagare, Torsås, 51 år
+C|158334|27|K|Maja Heller|Medlemsutvecklare,Kvilla, 27 år
+C|10118|62|M|Lars Häggbring|enhetschef, Torsås, 62 år
+C|158336|76|K|Barbro Englund|Pensionär,Torsås, 76 år
+C|158337|66|M|Bernt Nykvist|Pensionär, Bergkvara, 66 år
+C|158338|52|K|Monica Anderberg|Undersköterska, Torsås, 52 år
+C|158339|66|M|Kåre Holgersson|Konstnär, Bergkvara, 65 år
+C|158340|61|K|Anne Ivholm|Banktjm, Bidalite, 61 år
+C|158341|59|M|Peter Ludvigsson|Anläggningsarbetare, Ragnabo, 59 år
+C|19588|41|K|Emöke Bokor|skolkurator, Söderåkra, 41 år
+C|158343|58|M|Ulf Appelquist|Producent/musiker, Torsås, 58 år
+C|158344|62|K|Agnetha Eriksson|Lärare, Bergkvara, 62 år
+C|158345|28|M|Ghiath Al Bitar|Tandläkare, Torsås, 28 år
+C|158346|77|K|Siv Eriksson|Pensionär, Påboda, 77 år
+C|158347|68|M|Tomas Holgersson|Pensionär, Bergkvara, 68 år
+C|158348|71|K|Inga-Britt Karlsson|Pensionär, Bergkvara, 71 år
+C|158349|69|M|Tommie Sigvardsson|fd Teknisk chef, Bergkvara, 69 år
+C|158350|65|K|Marie-Louise Aspernäs|Präst, Bergkvara, 65 år
+C|158351|79|M|Ingemar Larsson|Pensionär, Påboda, 79 år
+C|158352|77|M|Kjell Arvidsson|Modellsnickare, Söderåkra, 77 år
+C|158353|77|M|Ove Hagstrand|Pensionär, Ekaryd, 77 år
+C|513148|56|M|Roger Isberg|Entreprenör
+C|360916|38|M|Christofer Johansson|38 år, lärare, Torsås
+C|363898|54|K|Frida Portin|54 år, civilekonom, Bergkvara
+C|333991|69|M|Sten Bondesson|69 år, skogsbrukare, Gullabo
+C|333987|62|K|Eva-Kristina Berg|62 år, omsorgsassistent, Torsås
+C|333990|44|K|Linda Eriksson|44 år, omsorgsassistent, Gullabo
+C|333996|42|K|Maria Karlsson|42 år, förskolechef, Bergkvara
+C|363903|47|M|Marcus Johansson|47 år, ica-handlare, Gullabo
+C|363904|40|M|Tony Schäfer|40 år, vd, Karsbo
+C|363905|37|K|Lisa Klasson|37 år, stadsingenjör, Kyrkebomåla
+C|363906|61|M|Jörgen Johansson|61 år, revisor, Norra Tång
+C|363907|61|M|Jan-Olof Olsson|61 år, lantbrukare, Torsås
+C|363908|39|K|Malin Mårtensson|38 år, undersköterska, Ugglemad
+C|363909|69|M|Nils Gustling|69 år, pensionär, Strömby
+C|363910|81|K|Elsie Ludwig|81 år, pensionär, Söderåkra
+C|363911|33|M|Stefan Nilsson|33 år, egen företagare, Torsås
+C|363912|56|K|Helena Kalmteg|56 år, lärare, Torsås
+C|334000|36|M|Jonas Fransson|34 år, yrkeschaufför, kock, Bergkvara
+C|363914|72|M|Östen Barrdahl|72 år, egen företagare, Bergkvara
+C|363915|67|M|Hans Thörn|67 år, chaufför, Torsås
+C|363916|73|M|Ronny Ramberg|73 år, skogsbrukare, Torsås
+C|363917|56|K|Ingela Övgård|56 år, lantbruksföretagare, Torsås
+C|363918|27|M|Mattis Andersson|26 år, redaktör, Torsås
+C|363919|73|K|Irma Folkesson|73 år, pensionär, Kallemåla
+C|363920|50|K|Cecilia Sjögren|50 år, socionom, Torsås
+C|363921|55|K|Ing-Marie Fridolfsson|55 år, undersköterska, Slätafly
+C|363922|59|K|Christina Svensson|59 år, gymnasielärare, Torsås
+C|37566|61|M|Mats Olsson|maskinförare, Bergkvara
+C|25239|31|K|Anna Olausson|socionomstuderande, Bergkvara
+C|25249|74|M|Sven Söderbom|ingenjör, Söderåkra
+C|48248|71|M|Kjell Mattsson|chaufför, Gullabo
+C|48252|31|K|Sigrid Blomberg|översättare, Norra Tång
+C|48250|36|M|Robert Blomberg|it-tekniker, Norra Tång
+C|37575|60|K|Ewa Bonér|distriktssköterska, Söderåkra
+C|48253|61|K|Birgitta Andrén Olsson|kantor, Bergkvara
+C|48254|72|K|Laila Söderholm|distriktssköterska, Torsås
+C|37571|72|M|Christer Söderholm|förläggare, Torsås
+C|48256|72|M|Bo Nilsson Johnér|konstnär, Torsås
+C|37563|62|M|Ronny Fransson|präst, Torsås
+C|316659|47|M|Johan Petersson|Snickare, Söderåkra
+C|316660|77|K|Margareta Ohlin|Pensionär, Söderåkra
+C|316661|33|M|Joshua Ssebandeke|Socionom, nationalekonom, Söderåkra
+C|316662|72|K|Elsa Jannert|Pensionerad lärare, Söderåkra
+C|316663|67|M|Leif Spångberg|Söderåkra
+C|316664|53|K|Cecilia Dalberg|53 år, massageterapeut, Söderåkra
+C|316665|52|M|Youssef Lamiri|Vårdbiträde, Djursvik
+C|316666|37|K|Svenja Flottmann|Undersköterska, Fagerhyltan
+C|316667|28|M|Behram "Ricky" Mehrabi|Byggnadsingenjör/byggtekniker, Torsås
+C|316668|55|K|Ann-Charlotte Gustavsson|Undersköterska, Hulebäck
+C|316669|48|M|Kent Gullin|Chaufför, Torsås
+C|316670|55|K|Hormat Abdollahi|Kallskänka, Torsås
+C|316671|21|M|Haeilum Futoui|Studerande/industriteknik, Söderåkra
+C|316672|31|K|Renata Kazlauska|Livsmedelsarbetare, Söderåkra
+C|316673|71|M|Jan Petersson|Företagare, Söderåkra
+C|316674|25|M|Iseyas Gidey|Studerande, Söderåkra
+C|258241|71|M|Kent Freij|
+C|258242|66|M|Per-Olov Karlsson|
+C|258243|77|M|Sven-Erik Torneus|
+C|258244|70|K|Ulla Freij|
+C|258245|63|M|Ulf-Peter Rosenblad|
+C|258246|76|M|Sune Andersson|
+C|258247|79|K|Gun-Britt Torneus|
+C|515525|74|M|Lars Sjöholm|
+C|515526|42|M|Mikael Nilsson|
+C|158895|62|K|Mona Magnusson|62 år, Teknisk handläggare, Torsås
+C|163704|65|M|Staffan Kromnow|Administratör, Söderåkra
+C|163705|52|M|Anders Palmér|Tekniker, Bergkvara
+C|163706|62|M|Magnus Nilsén|Lantbrukare, Söderåkra
+C|163707|52|M|Patrik Rejneborg|Företagare, Bergkvara
+C|163708|75|K|Evy Svensson|Pensionär, Slätafly
+C|163709|76|M|Bengt Rydahl|Pensionär, Djursvik
+C|163710|73|M|Björn Ekelund|Konditor, Söderåkra
+C|163711|52|M|Peter Nielsen|Företagare, Bergkvara
+C|163712|55|K|Marie Johansson|Lärare, Bergkvara
+C|163713|48|M|Magnus Svensson|Lantmästare, Bergkvara
+C|163714|63|K|Marie Palm|Studie- & yrkesvägledare, Torsås
+C|163715|51|M|Povel Varga|Key account manager, Söderåkra
+C|163716|76|K|Ulla Borgius|Lärare, Torsås
+C|163717|76|K|Gunilla Ekelund|Pensionär, Söderåkra
+C|163718|76|K|Ingegerd Tornegård|F.d. managementkonsult, Slätafly
+C|160585|67|K|Tuulikki Åkesson|67 år, Konsult, Bergkvara
+C|61193|50|K|Janita Kirchberg|ekonomikonsult, Torsås
+C|68640|64|M|Thomas Axelsson|civilingenjör, Bergkvara
+C|65713|54|M|Roger Nilsson|företagare, Torsås
+C|65615|50|M|Martin Kirchberg|Civilingenjör, Torsås
+C|65709|61|K|Eva Axelsson|leg. barnmorska, Torsås
+C|65723|67|M|Kenneth Kinberg|Pensionär, Torsås
+C|65720|50|M|Mikael Petersson|trädgårdsarbetare, Bergkvara
+C|68646|54|M|Melker Lyth|f.d. undersköterska, Torsås
+C|512894|49|K|Yvonne Karlsson|elektronikmontör, Gullabo
+C|512893|55|M|Kent Inge Engström|bilmekaniker, Bergkvara
+C|513684|54|K|Maria Petersson|
+C|332781|67|K|Lena Gustafsson|Torsås, Pensionär
+C|332782|67|K|Elwira Wiefel|Bergkvara
+C|332783|46|K|Eleonore Strand|Gata, Bergkvara
+C|332784|67|M|Hans Gustafsson|Torsås, Pensionär
+C|332785|63|K|Gunilla Modin|Torsås
+C|332786|65|M|Hans-Göran Axelsson|Torsås, Pensionär
+C|332787|40|M|Sacha Wiefel|Bergkvara
+C|332788|64|K|Karin Carlsson|Hallagärde, Torsås
+C|332789|60|M|Tomas Holesäter|Appelrums by, Torsås
+C|332790|70|K|Aino Pakarinen|Gökalund, Bergkvara
+C|332791|70|K|Astrid Boman|Ilingetorp, Torsås
+C|332792|69|M|Jürgen Wiefel|Bergkvara

@@ -1,10 +1,144 @@
-2|6495|6496|6497|6500|6499|6502|6501|6504|6503|6506|6505|6508|6507|6509|6511|6510|6513|6512|6515|6514|6516|6517|6518|6519
-4|365363|365364|365365|365366|365367|365368
-1361|281121|281122|281123|281124|281125|281126|281127|281128|281129|281130|281131|281132|281133|281134|281135|281136|281137|281138|281139|281140|281141|281142|281143|281144|281145|281146
-1168|515801
-68|134922|134923|134924|134925|134926|134927|134928|134929|134930|134931|134932|134933|134934|134935|134936|134937
-3|181972|181973|181974|181975
-1|43010|43005|217268|217269|217270|302563|217271|217272|217273|217274|217275|297523|217276|217277|217278|217279
-193|5070|4930|4925|5073|4940|4950|5076
-110|48258
-5|45800|30054|369894|369895|370329|370330|30010|370707|370708|370709|370710|372976|372977|372978|372979|402558|373862|373863|373864|373865|373866|373867|373868|373869|373870
+T|Pajala
+A|2|6495|6496|6497|6500|6499|6502|6501|6504|6503|6506|6505|6508|6507|6509|6511|6510|6513|6512|6515|6514|6516|6517|6518|6519
+A|4|365363|365364|365365|365366|365367|365368
+A|1361|281121|281122|281123|281124|281125|281126|281127|281128|281129|281130|281131|281132|281133|281134|281135|281136|281137|281138|281139|281140|281141|281142|281143|281144|281145|281146
+A|68|134922|134923|134924|134925|134926|134927|134928|134929|134930|134931|134932|134933|134934|134935|134936|134937
+A|3|181972|181973|181974|181975
+A|1|43010|43005|217268|217269|217270|302563|217271|217272|217273|217274|217275|297523|217276|217277|217278|217279
+A|193|5070|4930|4925|5073|4940|4950|5076
+A|110|48258
+A|5|45800|30054|369894|369895|370329|370330|30010|370707|370708|370709|370710|372976|372977|372978|372979|402558|373862|373863|373864|373865|373866|373867|373868|373869|373870
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1361||Framtid S
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|193|SJV|Sjukvårdspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|6495|43|K|Ulrica Hammarström|43 år, Tärendö
+C|6496|47|M|Leif Smedkvist|46 år, Junosuando
+C|6497|41|K|Jenny Eriksson|41 år, Korpilombolo
+C|6500|66|M|Roland Karlsson|66 år, Pajala
+C|6499|35|K|Birgitta Rantatalo|35 år, Korpilombolo
+C|6502|58|M|Erling Fredriksson|58 år, Tärendö
+C|6501|52|K|Marina Smedqvist|52 år, Junosuando
+C|6504|56|M|Hans Sundqvist|57 år, Korpilombolo
+C|6503|27|K|Beatrice Svarvare|27 år, Pajala
+C|6506|52|M|Anders Lehtipalo-Nilsson|52 år, Tärendö
+C|6505|31|K|Sanna Jatko|31 år, Korpilombolo
+C|6508|43|M|Robert Hammarström|42 år, Tärendö
+C|6507|46|K|Tina Mukka|45 år, Junosuando
+C|6509|62|M|Stefan Brandlöv|62 år, Korpilombolo
+C|6511|65|M|Lars Fjordström|65 år, Junosuando
+C|6510|75|K|Inger Karlsson|74 år, Tärendö
+C|6513|52|M|Kjell-Åke Nedlund|52 år, Tärendö
+C|6512|55|K|Karin Svarvare|55 år, Erkheikki
+C|6515|77|M|Vesa Hiltunen|77 år, Junosuando
+C|6514|41|K|Hanna Lehtipalo|41 år, Tärendö
+C|6516|37|M|Henric Danielsson|37 år, Kangos
+C|6517|60|M|Lars-Göran Tervahauta|59 år, Tärendö
+C|6518|64|M|Birger Willman|55 år, Junosuando
+C|6519|69|M|Åke Johdet|69 år, Junosuando
+C|365363|24|K|Malin Nygren|
+C|365364|51|M|Mikael Mäki|
+C|365365|65|K|Ulla Ylivainio|
+C|365366|83|M|Kurt Haapala|
+C|365367|66|M|Kauko Lustig|
+C|365368|80|K|Gun Haapala|
+C|281121|58|M|Johny Lantto|57 år Kaunisvaara
+C|281122|50|K|Maria Törmä-Lindmark|50 år Koiranranta
+C|281123|35|M|Gustaf Karvonen|35 år Pajala
+C|281124|39|K|Veronica Andersson|38 år Pajala
+C|281125|68|M|Göran Mörtlund|67 år Kangos
+C|281126|31|K|Anna Taavola|30 år Korpilombolo
+C|281127|70|M|Owe Pekkari|70 år Pajala
+C|281128|44|K|Britt-Inger Fagervall|43 år Pajala
+C|281129|59|M|Anders Aasa|58 år Pajala
+C|281130|57|K|Laila Mäki|56 år Kardis
+C|281131|65|M|Martin Zingmark|64 år Pajala
+C|281132|38|K|Eva-Lena Henriksson|37 år Pajala
+C|281133|69|M|Gösta Kostenius|69 år Kardis
+C|281134|58|K|Anne Niska|57 år Pajala
+C|281135|51|M|Peter Johansson|51 år Kangos
+C|281136|62|K|Lena Jatko|62 år Anttis
+C|281137|53|M|Peter Hurula|52 år Pajala
+C|281138|58|K|Maud Zingmark|58 år Pajala
+C|281139|18|M|Elias Kalla|18 år Pajala
+C|281140|66|K|Berit Öström|66 år Pajala
+C|281141|66|M|Ragnar Uusitalo|66 år Jarhois
+C|281142|46|K|Eva Svarvare|46 år Pajala
+C|281143|80|M|Gotthard Patomella|80 år Muodoslompolo
+C|281144|75|K|Karin Magnström|75 år Norra Kengis
+C|281145|69|M|Ove Ylipää|68 år Pajala
+C|281146|70|K|Irmeli Svarvare|70 år Kengis
+C|134922|65|K|Irene Lundholm|distriktssköterska, Pajala
+C|134923|74|M|Leif Gramner|egenföretagare, Pajala
+C|134924|47|M|Peter Ericsson|snickare, Korpilombolo
+C|134925|62|M|Stig Töyrä|lärare, Pajala
+C|134926|54|M|Håkan Kero|tekniker, Pajala
+C|134927|55|K|Eva Esberg|lärare, Pajala
+C|134928|65|K|Solveig Lindfors-Lehmivaara|pedagog, Pajala
+C|134929|44|M|Karl-Johan Thiger|Pajala
+C|134930|27|K|Sonja Esberg|Erkheikki
+C|134931|48|M|Christer Eriksson|Tärendö
+C|134932|72|K|Stina Rova|Kangos
+C|134933|71|K|Inger Ylipää|Juhonpieti
+C|134934|30|M|Emil Wahlberg|Sattajärvi
+C|134935|54|K|Kerstin Esberg|Juhonpieti
+C|134936|50|M|Stefan Ericsson|Korpilombolo
+C|134937|56|M|Bengt Larsson|Sattajärvi
+C|181972|79|M|Sören Niva|Pensionär, Pajala
+C|181973|56|K|Agneta Heikki|Ekonom, Lovikka
+C|181974|42|M|Mats Isaksson|Försäljningschef, Tärendö
+C|181975|64|K|Rebecca Norrman|Gymnasielärare, Korpilombolo
+C|43010|76|K|Anita Sköld|76 år, Företagare, Tärendö
+C|43005|49|M|Björn Sohlberg|49 år, Egenföretagare, Pajala
+C|217268|67|M|Rudolf Lundholm|
+C|217269|48|M|Christer Liminka|
+C|217270|54|K|Elaine Björnfot|
+C|302563|71|M|Ingemar Lundholm|
+C|217271|72|M|Roland Fredrickson|
+C|217272|43|K|Sandra Parkkila|
+C|217273|58|M|Mikael Wahlberg|
+C|217274|18|K|Erica Engrund Sohlberg|
+C|217275|71|M|Jan-Erik Micko|
+C|297523|70|M|Per-Enok Kero|
+C|217276|77|M|Rolf Ylipää|
+C|217277|47|M|Patric Rosén|
+C|217278|33|M|Thomas Fors|
+C|217279|42|M|Juha Parkkila|
+C|5070|79|K|Anita Weinz|Pensionär, Kangos
+C|4930|56|M|Mats Bodmark|Fil. Magister, Tärendö
+C|4925|52|K|Ann-Sofie Henriksson|Distriktssköterska, Tärendö
+C|5073|67|M|Karl-Johan Ylivainio|Pensionär, Kangos
+C|4940|78|K|Alice Videkull|F.d. Idrottslärare, Junosuando
+C|4950|80|M|Holger Videkull|Skogsinspektor, Junosuando
+C|5076|79|K|Birgitta Kauppi|Pensionär, Kangos
+C|48258|40|M|Robert Håkansson|Distriksordförande, 40, Piteå
+C|45800|45|K|Anna Kumpula-Kostet|Kaalamakoski
+C|30054|38|K|Linda Jonsson|Pajala
+C|369894|42|K|Maria Alldén|Pajala
+C|369895|65|M|Hans-Erik Fors|Pajala
+C|370329|64|K|Eva Alldén|Junosuando
+C|370330|37|M|Karl Lauri|Pajala
+C|30010|53|M|Birger Lahti|Pajala
+C|370707|64|M|Bengt-Ola Mörtlund|Pajala
+C|370708|64|K|Inga-Lis Brånin|Narken
+C|370709|64|K|Inga-Lill Ängsund|Pajala
+C|370710|56|K|Ruth Seul|Mukkakangas
+C|372976|61|M|Sixten Olli|Pajala
+C|372977|60|K|Pirkko Heikkilä|Kaunisvaara
+C|372978|29|M|David Forsberg|Pajala
+C|372979|34|K|Marika Solgevik Svala|Anttis
+C|402558|45|M|André Buchheim|Pajala
+C|373862|76|M|Daniel Jysky|Pajala
+C|373863|40|K|Carolina Suikki|Aareavaara
+C|373864|34|M|Marcus Mustikka|Pajala
+C|373865|67|K|Barbro Nygård|Kolari
+C|373866|44|M|Marcus Suikki|Huuki
+C|373867|31|K|Ida Nordmark Haapala|Pajala
+C|373868|38|M|Simon Fors|Pajala
+C|373869|69|K|Thea-Maria Rantatalo|Pajala
+C|373870|65|M|Kurt Jakobsson|Korpilombolo

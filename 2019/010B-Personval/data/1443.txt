@@ -1,9 +1,143 @@
-2|76809|76810|76811|76812|76813|76814|76815|76816|76817|76818|76819|76820|76821|76822|76823|76824|76825|76826|76827|76830|76829|76828|76831|76832|76833|76834|76835|76836|76837|76838|76839|76840
-4|57192|57193|2966|57195|2948|3113|57198|57199|57200|57201|57202|57203|57204|57205|57206
-1265|45847|390300|390301|390302|390303|390304|390305|390306|390307|390308|390309|390310|390311
-68|274718|274722|274924|491771|491772|491773|491774|491775
-3|278528|278778|368282|368283|368284|368285|368286|368287
-55|74065|74882|74885|79776|79777|74074|74085|79780|79781|79782|79783
-1|255103|254292|255105|255106|255107|255108|255109|255110|255111|255112|255113|255114|255115|255116|255117|255118|255119|255120|255121|254277
-110|49283|49284|49285|49286|49287|49288|49289|49290|49291|49292|49293|49294|49295|49309|49310|49311
-5|72978|72979
+T|Bollebygd
+A|2|76809|76810|76811|76812|76813|76814|76815|76816|76817|76818|76819|76820|76821|76822|76823|76824|76825|76826|76827|76830|76829|76828|76831|76832|76833|76834|76835|76836|76837|76838|76839|76840
+A|4|57192|57193|2966|57195|2948|3113|57198|57199|57200|57201|57202|57203|57204|57205|57206
+A|1265|45847|390300|390301|390302|390303|390304|390305|390306|390307|390308|390309|390310|390311
+A|68|274718|274722|274924|491771|491772|491773|491774|491775
+A|3|278528|278778|368282|368283|368284|368285|368286|368287
+A|55|74065|74882|74885|79776|79777|74074|74085|79780|79781|79782|79783
+A|1|255103|254292|255105|255106|255107|255108|255109|255110|255111|255112|255113|255114|255115|255116|255117|255118|255119|255120|255121|254277
+A|110|49283|49284|49285|49286|49287|49288|49289|49291|49292|49293|49294|49295|49309|49310|49311
+A|5|72978|72979
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1265|FR|Folkets Röst
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|76809|60|M|Peter Rosholm|
+C|76810|43|K|Emma Isfeldt|Bollebygd
+C|76811|60|M|Lars-Erik Olsson|Barnskötare, Olsfors
+C|76812|38|K|Helena Thelin|Ekonom, Bollebygd
+C|76813|49|M|Ulf Rapp|Erikstorp
+C|76814|53|K|Carina Lundgren|Undersköterska, Bollebygd
+C|76815|68|M|Otto Andreasson|Petared
+C|76816|45|K|Åsa René|Jordås
+C|76817|48|M|Roger Svensson|
+C|76818|69|K|Barbro Orrestrand|Pensionär, Bollebygd
+C|76819|54|M|Glenn Zetterlind|Tubbared
+C|76820|72|K|Christina Hein|Bollebygd
+C|76821|52|M|Jonny Svensson|Bollebygd
+C|76822|53|K|Maja Rosholm|Bollebygd
+C|76823|45|M|Edmundo Jakobsson|Erikstorp
+C|76824|46|K|Jenny Johansson|Försäkringstjänsteman, Bollebygd
+C|76825|47|M|Niklas Hjelte|Bollebygd
+C|76826|44|K|Pernilla Rapp|Erikstorp
+C|76827|40|M|Torbjörn Bolin|Bollebygd
+C|76830|33|K|Hilja Lust|Rinna
+C|76829|57|M|Kent Persson|Bollebygd
+C|76828|44|K|Beatrice Ekelund|Bollebygd
+C|76831|61|M|Ralph Utbult|Bollebygd
+C|76832|73|M|Morgan Ohlsén|Olsfors
+C|76833|48|M|Jonas Ahlgren|Erikstorp
+C|76834|49|M|Bengt Fosling|Bollebygd
+C|76835|56|M|Ronny Karlsson|Olsfors
+C|76836|69|M|Ingemar Wallin|Kyrkbyn
+C|76837|52|M|Niklas Isfeldt|Bollebygd
+C|76838|26|M|Jakob Engelbrektsson|Örehult
+C|76839|37|K|Linnéa Johansson|Olsfors
+C|76840|50|M|Jan Köster|Jordås
+C|57192|56|K|Yvonne Andrén|Bollebygd
+C|57193|49|M|Fredrik Olofsson|Gesebol
+C|2966|66|M|Roland Andersson|66 år, Töllsjö
+C|57195|38|K|Madeleine Andersson|Töllsjö
+C|2948|33|K|Sandra Eliasson|33 år, Bollebygd
+C|3113|55|K|Agneta Andersson|55 år, Töllsjö
+C|57198|72|M|Göran Eriksson|Erikstorp
+C|57199|79|M|Elving Johansson|Horsared
+C|57200|66|M|Börje Harrysson|Gränne
+C|57201|51|K|Lisbritt Rosenhvit|Töllsjö
+C|57202|57|K|Asta Olsson|Mellomgärde
+C|57203|79|M|Bertil Frost|Bollebygd
+C|57204|65|K|Käthe Andersson|Björkred
+C|57205|72|M|Börje Karlsson|Gantarås
+C|57206|79|K|Birgitta Albrecht|Nissaråsen
+C|45847|57|M|Michael Plogell|Advokat, Bollebygd
+C|390300|30|K|Alexandra Larsson|Tatuerare, 30 år
+C|390301|43|M|Mathias Carlzon|Ingenjör, 44 år
+C|390302|48|M|Stefan Edvardsson|Ambulanssjukskötare, 48 år
+C|390303|45|K|Anna Lind|Apotekstekniker, 45 år
+C|390304|49|M|Stefan Larsson|Rörläggare, 50 år
+C|390305|45|M|Mattias Tellander|Snickare, 46 år
+C|390306|68|M|Kenneth Andersson|Elektriker, 68 år
+C|390307|69|M|Tommy Larsson|Pensionär, 70 år
+C|390308|32|M|Thomas Falk|Säljare, 33 år
+C|390309|42|M|Carl Pålsson|Servicekoordinator, 42 år
+C|390310|54|M|Kenneth Johansson|Affärssystemutvecklare, 54 år
+C|390311|26|M|Jesper Berens|Egenföretagare, 26 år
+C|274718|44|M|Patrik Karlsson|43, Egenföretagare, Bollebygd
+C|274722|70|K|Eivor Carlsson|70, Socionomkonsult, Bollebygd
+C|274924|60|M|Rune Kennborn|59, Affärsanalytiker, Bollebygd
+C|491771|65|M|Krister Schwartz|65, Pensionär, Hultafors
+C|491772|52|K|Elisabet Tönsgård|52, Lärarvikarie, Bollebygd
+C|491773|73|K|Eva Svantesson|73, Adjunkt, Bollebygd
+C|491774|70|M|Lars-Åke Larsson|70, Pensionär, Töllsjö
+C|491775|67|M|Ulf Wahlne|66, Snickare, Hultafors
+C|278528|63|M|Hannu Sutinen|63, ekonomichef, Bollebygd
+C|278778|20|M|Alec Sintorn|20, check in-agent, Bollebygd
+C|368282|59|K|Susanne Schultz|59, habilitetspersonal, Hultafors
+C|368283|59|K|Kerstin Sutinen|59, mentalskötare, Olsfors
+C|368284|71|M|Kenneth Schultz|71, pensionär, Hultafors
+C|368285|81|K|Eira Caarp|81, pensionär, Bollebygd
+C|368286|71|M|Lars Afzelius|71, pensionär, Bollebygd
+C|368287|79|M|Jan Smith|79, pensionär, Bollebygd
+C|74065|52|M|Sassi Wemmer|52 år, Ekoturismresearrangör, Hultafors
+C|74882|58|K|Rose-Marie Grune|58 år, Förstelärare, Bollebygd
+C|74885|34|M|Peter Berg|34 år, Skogsinspektör, Olsfors
+C|79776|48|M|Mattias Ekenberg|48 år, Samtalsterapeut, Hultafors
+C|79777|67|K|Elisabeth Thudén|66 år, Pensionär, Bollebygd
+C|74074|38|K|Katarina Östergren|38 år, Teamchef bank, Bollebygd
+C|74085|53|M|Gary Lång|53 år, Lärare, Bollebygd
+C|79780|66|K|Helena Pokka|66 år, Psykolog, Bollebygd
+C|79781|44|M|Johan Eklöf|44 år, Fladdermusforskare, Bollebygd
+C|79782|66|M|Anders Grune|66 år, Egenföretagare, Bollebygd
+C|79783|50|K|Maria Michailidou|50 år, Undersköterska, Bollebygd
+C|255103|66|K|Ingrid Anderén|Barn-och ungdomsutvecklare, Bollebygd
+C|254292|58|M|Bengt Classon|58, Skogsarbetare, Hedgärde
+C|255105|34|M|Tomas Andersson|Byggnadsingenjör, Töllsjö
+C|255106|71|M|Peter Hemlin|Ekonom, Bollebygd
+C|255107|25|M|Erik Classon|Elitidrottare, Hedgärde
+C|255108|68|M|Stefan Waldeholt|Fastighetsmäklare, Bollebygd
+C|255109|51|K|Anneli Virenhem|Beteendevetare, Töllsjö
+C|255110|70|M|Sverre Fredriksson|Egen företagare, Bollebygd
+C|255111|39|M|Michael Rahm|Ingenjör/sektionschef, Olsfors
+C|255112|49|M|Göran Augustsson|Elektriker, Bollebygd
+C|255113|54|M|Anders Olsson|Lagerarbetare, Jordås
+C|255114|46|M|Fredrik Drugge|Ingenjör, Bollebygd
+C|255115|67|M|Ulf Lundin|IT-specialist, Jordås
+C|255116|49|M|Martin Bengtsson|Arbetsmiljöingenjör, Bollebygd
+C|255117|72|K|Margaretha Almqvist-Malmsjö|Egen företagare, Olsfors
+C|255118|71|K|Gun-Britt Ottosson|Sexolog, Jordås
+C|255119|72|M|Åke Lindqvist|Pensionär, Jordås
+C|255120|23|K|Elin Classon|Student,Hedgärde
+C|255121|55|K|Elisabeth Jonasson|Barnskötare,Hedgärde
+C|254277|65|K|Bente Johansson|65, Egenföretagare, Bollebygd
+C|49283|38|K|Caroline Nordengrip|Riksombudsman, Bollebygd
+C|49284|35|M|Daniel Persson|byggnadssnickare, 35 år
+C|49285|53|K|Caroline Frodin|Nämndeman, Bollebygd
+C|49286|53|K|Lisette Vermeulen|53 år, ekonom, Lunkebäcken
+C|49287|54|K|Monika Svensson|Lokförare, Bollebygd
+C|49288|67|M|Peter Hellberg|67 år, pensionär, Bollebygd
+C|49289|34|K|Helena Carlsson|34 år, chaufför, Bollebygd
+C|49291|54|M|Peter Andersson|54 år, tekniker, Geskeby
+C|49292|49|M|Fredrik Lind|49 år, säkerhetskonsult, Olsfors
+C|49293|44|M|Andreas Nordengrip|44 år, installationschef, Bollebygd
+C|49294|49|K|Eva Hee Rasmussen|49 år, undersköterska, Bollebygd
+C|49295|48|K|Annika Karlsson|48 år, pedagog, Töllsjö
+C|49309|73|K|Lena Stanicki|73 år, pensionerad leg. sjuksköterska, Olsfors
+C|49310|53|M|Anders Lundberg|53 år, rörmontör, Bollebygd
+C|49311|53|M|Jörgen Karlsson|53 år, byggnadsarbetare, Töllsjö
+C|72978|61|M|Tomas Ridell|busschaufför
+C|72979|60|K|Barbro Ridell|IT-inköpare

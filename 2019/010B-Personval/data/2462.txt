@@ -1,9 +1,139 @@
-2|197024|193016|197026|197027|193011|197029|197030|197031|197032|197033|193007|197035|197036|197037|197038|193014|197040|193000|193022|197043|197044|197045|197046|193023|197048|197049|197050|197051|197052|197053|197054
-4|48806|70934|55748|70936|70937|70938|70939|70940|70941|48794|70943|70945|70946|70947|70948|55751|70950|70951|70952|70953|70954|70955|70957|70958|83586
-532|393351|394064|394065|394066|394067|394068|394069|394070|219294
-68|70250|70251|41289|70253|197088|41286|70255|5832|70257|70258|70259|70260|70261|70262|70263|70264|70265|70266|70267|70268|70270|70271|70272|70273|41297|41294
-55|379779
-1|360827|360828|360829|360830|408470
-983|428523|428524|428525|428526|428527|428528|428529|428530|428531|428532|428533|428534|428535
-110|122794|122795|122796|122797
-5|375227|366413|375229|375230|375231|375232|375233
+T|Vilhelmina
+A|2|197024|193016|197026|197027|193011|197029|197030|197031|197032|197033|193007|197035|197036|197037|197038|193014|197040|193000|193022|197043|197044|197045|197046|193023|197048|197049|197050|197051|197052|197053|197054
+A|4|48806|70934|55748|70936|70937|70938|70939|70940|70941|48794|70943|70945|70946|70947|70948|55751|70950|70951|70952|70953|70954|70955|70957|70958|83586
+A|532|393351|394064|394065|394066|394067|394068|394069|394070|219294
+A|68|70250|41289|70253|197088|41286|70255|5832|70257|70258|70259|70260|70261|70262|70263|70264|70265|70266|70267|70268|70270|70271|70272|70273|41297|41294
+A|55|379779
+A|1|360827|360828|360829|360830|408470
+A|983|428523|428524|428525|428526|428527|428528|428529|428530|428531|428532|428533|428534|428535
+A|110|122794|122795|122796|122797
+A|5|375227|366413|375229|375230|375231|375232|375233
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|983|PA|Politiskt Alternativ
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|197024|49|M|Magnus Johansson|49 år,Saxnäs
+C|193016|54|K|Annika Wibrell|54 år, Arkivassistent, Vilhelmina
+C|197026|70|M|K G Abramsson|70 år, Vilhelmina
+C|197027|38|K|Ulrica Johansson|38 år, Lövliden
+C|193011|53|M|Mikael Österberg|53 år, Kanslist, Vilhelmina
+C|197029|65|K|Viveka Abramsson|65 år, Vilhelmina
+C|197030|27|M|Andreas Eliasson|27 år, Vilhelmina
+C|197031|56|K|Gunilla Prång|56 år, Dikanäs
+C|197032|58|M|Mikael Danielsson|58 år, Saxnäs
+C|197033|52|K|Lillemor Jonsson|52 år, Järvsjöby
+C|193007|60|M|Ulf Hansson|60 år, Bilskadereparatör, Vilhelmina
+C|197035|51|K|Maria Bäckström|51 år, Saxnäs
+C|197036|46|M|Per Vedbring|46 år, Vilhelmina
+C|197037|32|K|Tina Larsson|32 år, Saxnäs
+C|197038|51|M|Kenna Lindström|51 år, Vilhelmina
+C|193014|64|K|Suzanne L Sellin|64 år, Teaterkonsulent, Vilhelmina
+C|197040|54|M|Hans Eriksson|54 år, Vilhelmina
+C|193000|71|K|Agneta Lindström-Berg|71 år, Undersköterska, Vilhelmina
+C|193022|20|M|Rasmus Molander|20 år, Studerande, Vilhelmina
+C|197043|23|K|Jasmine Jonsson|23 år, Vilhelmina
+C|197044|31|M|Nimer Iglesias|31 år, Vilhelmina
+C|197045|70|K|Ewa Hed|70 år, Klimpfjäll
+C|197046|46|M|Joakim Sandqvist|46 år, Fianberg
+C|193023|68|K|Inga Jonsson|68 år, Pensionär, Vilhelmina
+C|197048|79|M|Willy Nilsson|79 år, Strömnäs
+C|197049|58|K|Kristina Norman|58 år, Vilhelmina
+C|197050|62|M|Tony Mannelqvist|62 år, Vilhelmina
+C|197051|77|K|Anita Johansson|77 år, Sandvik
+C|197052|68|M|Erland Jonsson|68 år, Marsliden
+C|197053|68|K|Ann-Kristin Norman|68 år, Vilhelmina
+C|197054|41|K|Ingela Johansson|41 år, Vilhelmina
+C|48806|33|K|Annika Andersson|33 år, Kanslist, Vilhelmina
+C|70934|69|M|Ivan Larsson|68 år, Stornäs
+C|55748|48|K|Marita Stinnerbom|48 år, Renägare, Kittelfjäll, Vilhelmina
+C|70936|50|M|Mattias Ihrström|50 år, Storgranberg
+C|70937|55|K|Monika Gebart|55 år, Vilhelmina
+C|70938|48|M|Niklas Andersson|48 år, Saxnäs
+C|70939|75|K|Else Westerlund|75 år, Klimpfjäll
+C|70940|53|K|Liselotte Hermansson|53 år, Stornäs
+C|70941|31|K|Emily Stighall|31 år, Nästansjö
+C|48794|56|K|Maria Kristoffersson|56 år, Organisationsutvecklare, Vilhelmina
+C|70943|49|K|Mona Malmbo|49 år, Vilhelmina
+C|70945|46|M|Fredrik Malmbo|46 år, Vilhelmina
+C|70946|42|M|Michael Haglund|42 år, Nästansjö
+C|70947|65|M|Greger Olofsson|65 år, Grytsjö
+C|70948|35|K|Sara Eriksson|35 år, Vilhelmina
+C|55751|67|M|Ulf Grahn|67 år, Egenföretagare, Vilhelmina
+C|70950|50|M|Robert Svensson|50 år, Vilhelmina
+C|70951|70|M|Lars Sjölin|70 år, Vilhelmina
+C|70952|31|M|Mattias Nilsson|31 år, Saxnäs
+C|70953|74|K|Eva Ahlberg|74 år, Nästansjö
+C|70954|68|K|Ingrid Ericsson|68 år, Lövliden
+C|70955|68|M|Stellan Ericsson|68 år, Lövliden
+C|70957|74|M|Kjell Appelqvist|74 år, Vilhelmina
+C|70958|76|M|Sune Lindh|76 år, Vilhelmina
+C|83586|77|K|Gunilla Söder|77 år, Marsliden
+C|393351|64|K|Monica Nilsson|64, lärare, Vilhelmina
+C|394064|45|K|Veronica Holzkämper|45, aktivitetssamordnare
+C|394065|53|K|Ann-Louice Kubbelöv|53, jourbiträde
+C|394066|23|K|Rebbeca Wennberg|23, lärare
+C|394067|44|K|Gulzhan Aitbayeva|46, studerande
+C|394068|22|M|Gustav Bergqvist|22, pistvakt
+C|394069|61|M|Bo Olsson|61, hemmaman
+C|394070|50|K|Marion Fjällström|51, psykiatri usk
+C|219294|57|K|Inez Abrahamsson|57år, Biträdande rektor/medielärare, Latikberg/Vilhelmina
+C|70250|43|M|Rickard Norberg|företagare/lärare, Malgovik
+C|41289|57|K|Olga Makarycheva|lärare, Vilhelmina
+C|70253|41|M|Lennart Fjällman|undersköterska, Svannäs
+C|197088|37|K|Malin Lundqvist|butiksbiträde, Henriksfjäll
+C|41286|60|M|Jonny Kärkkäinen|idrottslärare, Vilhelmina
+C|70255|62|K|Gunilla Billman|distriktssköterska, Nästansjö
+C|5832|60|M|Max Fredriksson|läkare, Vilhelmina
+C|70257|57|K|Ewa Larsson|utbildare/handledare, Vilhelmina
+C|70258|47|M|Patrik Marthin|maskiningenjör, Vilhelmina
+C|70259|51|K|Katarina Norberg|församlingspedagog, Malgovik
+C|70260|47|M|Pär Svensson|företagare, Vilhelmina
+C|70261|28|K|Amanda Jonsson|företagare, Vilhelmina
+C|70262|28|K|Sofia Ingemarsdotter|fritidsledare, Vilhelmina
+C|70263|73|M|Johnny Holmgren|musiker, Storholmen
+C|70264|38|K|Stina Nordlöf|undersköterska, Malgovik
+C|70265|61|M|Hans-Åke Pettersson|byggsäljare, Vilhelmina
+C|70266|47|K|Linda Abrahamsson Norman|undersköterska, Vilhelmina
+C|70267|69|K|Agneta Thellbro|studie-och yrkesvägledare, Vilhelmina
+C|70268|45|K|Karolina Lif|Kyrkomusiker, Vilhelmina
+C|70270|36|M|Radi Toutounji|ekonom, Vilhelmina
+C|70271|64|M|Lars-Arne Abrahamsson|pensionär, Vilhelmina
+C|70272|65|K|Christine Svensson|fritidspedagog, Skog
+C|70273|62|M|Roger Jönsson|reservkapten FA, Vilhelmina
+C|41297|65|K|Inga-Lena Larsson|kyrkomusiker, Dikanäs
+C|41294|72|M|Ronny Thellbro|präst, Vilhelmina
+C|379779|72|M|Per-Axel Persson|72 år, Pensionär, Dorotea
+C|360827|61|M|Lars Eliasson|61, Vilhelmina
+C|360828|46|K|Anette Von Walden Nilsson|46, Vilhelmina
+C|360829|50|M|Patrik Nilsson|50, Vilhelmina
+C|360830|53|K|Mona Johansson|53, Bäsksele
+C|408470|50|K|Nina von Walden|50, Vilhelmina
+C|428523|46|K|Åsa Össbo|Dikanäs
+C|428524|62|M|Gunder Lindgren|Storsele
+C|428525|35|K|Anna-Leena Danielsson|Lillgranberg
+C|428526|62|M|Ronny Svarto|Vardofjäll
+C|428527|61|K|Gunilla Eliasson-Lindgren|Storsele
+C|428528|69|M|Kenneth Jacobson|Skansholm
+C|428529|76|M|Sixten Westlin|Lövåsen
+C|428530|32|K|Maria Lundqvist|Vilhelmina
+C|428531|63|M|Bo-Lennart Danielsson|Vilhelmina
+C|428532|65|K|Inga Lena Hallin Pettersson|Storsele
+C|428533|67|M|Douglas Pettersson|Storsele
+C|428534|42|M|Jörgen Norman|Lövåsen
+C|428535|76|M|Malte Nilsson|Vilhelmina
+C|122794|28|M|Eric Axelsson|Personlig assistent, Vilhelmina
+C|122795|44|K|Jenny Markgren|Sjuksköterska, Vilhelmina, 43
+C|122796|65|M|Kjell Rune Hagström|Pensionär, 65
+C|122797|28|M|Johan Brännström|27
+C|375227|68|M|Rune Andersson|Saxnäs
+C|366413|63|K|Margaretha Löfgren|63, trafikplanerare, Vilhelmina
+C|375229|67|M|Ulf Larsson|Vilhelmina
+C|375230|74|M|Kaj Sund|Djupdal
+C|375231|64|K|Ingrid Karlsson|Lövliden
+C|375232|66|K|Karin Sund|Djupdal
+C|375233|58|K|Inger Danvind|Vilhelmina

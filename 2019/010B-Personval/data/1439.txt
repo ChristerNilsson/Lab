@@ -1,8 +1,114 @@
-2|40317|40318|40319|40320|40321|40322|40323|40324|40325|40326|40327|40328|40329|40330|40331|40332|40333|40334|40335|40336|40337|40338|40339|40340|40341|40342|40343
-4|1865|5627|5628|5629|5630|5631|5632|5633|5634|5635|5636|5637|5638|5639|1944|5641|5642|5643|5644|5646|5647|5648|5649|5650|5651|1990
-532|515001
-3|212199|212200|212201|212202|212203|212204|212205|212206|212207|212208|212209|212210|212211
-55|82485|431164
-1|254199|254954|254233|254956|254957|254958|254959|254960|254961|254962|254963|254964|254965
-110|66518|66519|66520|66521|66522|249205|513818|513819
-5|238656|238657|238658|238659|238660|238661|238662
+T|Färgelanda
+A|2|40317|40318|40319|40320|40321|40322|40323|40324|40325|40326|40327|40328|40329|40330|40331|40332|40333|40334|40335|40336|40337|40338|40339|40340|40341|40342|40343
+A|4|1865|5627|5628|5629|5630|5631|5632|5633|5634|5635|5636|5637|5638|5639|1944|5641|5642|5643|5644|5646|5647|5648|5649|5650|5651|1990
+A|532|515001
+A|3|212199|212200|212201|212202|212203|212204|212205|212206|212207|212208|212209|212210|212211
+A|55|82485|431164
+A|1|254199|254954|254233|254956|254957|254958|254959|254960|254961|254962|254963|254964|254965
+A|110|66518|66519|66520|66521|66522|249205|513818|513819
+A|5|238656|238657|238658|238659|238660|238661|238662
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|40317|60|K|Ulla Börjesson|Företagsekonom, 60 år, Ödeborg
+C|40318|55|M|Edgardo Varas|Färgelanda
+C|40319|64|K|Kerstin Fredriksson|Stigen
+C|40320|64|M|Tommy Larsson|Konsult, 64 år, Färgelanda
+C|40321|59|K|Lilian Borg-Hansen|Ödeborg
+C|40322|50|M|Urban Henriksson|Fabriksarbetare, 50 år, Färgelanda
+C|40323|52|M|Peter Höög|Färgelanda
+C|40324|64|M|Kent Carlsson|Färgelanda
+C|40325|56|K|Eva-Lena Johansson|Ödeborg
+C|40326|54|M|Per-Olof Magnusson|Färgelanda
+C|40327|33|K|Paula Carlson|Färgelanda
+C|40328|50|M|Magnus Fröberg|Skolvärd, 50 år, Färgelanda
+C|40329|44|M|Tony Bratt-Nilsson|Färgelanda
+C|40330|35|K|Jenny Johansson|Färgelanda
+C|40331|74|M|Håkan Ekman|Färgelanda
+C|40332|65|M|Rune Månsson|Stigen
+C|40333|67|K|Eva Nör|Ödeborg
+C|40334|68|K|Aina Skoglund|Stigen
+C|40335|59|K|Anna-Greta Wall|Högsäter
+C|40336|35|K|Mimoza Zhubi|Stigen
+C|40337|70|K|Mona Grundberg|Högsäter
+C|40338|73|M|Jan Grundberg|Högsäter
+C|40339|64|K|Ann-Charlotte Hallberg-Johansson|Färgelanda
+C|40340|73|M|Gunnar Hagstedt|Ödeborg
+C|40341|56|K|Anna-Karin Stråle-Börjesson|Färgelanda
+C|40342|75|K|Barbro Fröberg|Färgelanda
+C|40343|71|M|Bo Johansson|Högsäter
+C|1865|26|M|Tobias Bernhardsson|oppositionsråd, 26 år, Färgelanda
+C|5627|59|M|Thor-Björn Jakobsson|lantbrukare, 59 år, Järbo
+C|5628|38|K|Louise Blom|egenföretagare, 38 år, Högsäter
+C|5629|31|K|Sandra Hallberg|sjuksköterska, 31 år, Färgelanda
+C|5630|39|M|Magnus Bandgren|produktionsplanerare, 39 år, Hjärtsäter
+C|5631|41|M|Tomasz Galbas|behandlingsassistent, 41 år, Brasäter
+C|5632|50|K|Kristina Ivarsson|kock, 50 år, Rådanefors
+C|5633|28|K|Karin Snapp|lärare, 28 år, Ödeborg
+C|5634|67|K|Marion Pelli|pensionär, 67 år, Ellenö
+C|5635|54|K|Carina Tihane|behandlingsassistent, 54 år, Råggärd
+C|5636|56|K|Birgitta Mehamedi Örn|pedagog, 56 år, Färgelanda
+C|5637|56|K|Ann Blomberg|systemvetare, 56 år, Högsäter
+C|5638|59|M|Håkan Melin|egenföretagare, 59 år, Rännelanda
+C|5639|23|M|Fredrik Gustafsson|snickare, 23 år, Färgelanda
+C|1944|56|K|Ann-Marie Jacobsson|ekonom, 56 år, Färgelanda
+C|5641|47|M|Leif Söderqvist|elingenjör, 47 år, Järbo
+C|5642|57|M|Nils Karlsson|egenföretagare, 57 år, Högsäter
+C|5643|67|K|Maino Svensson|pensionär, 67 år, Stigen
+C|5644|69|M|Lennart Hansson|pensionär, 69 år, Färgelanda
+C|5646|48|K|Suzanna Sandberg|adm. konsult, 48 år, Strand
+C|5647|73|K|GullBritt Johansson|pensionär, 73 år, Färgelanda
+C|5648|18|M|Daniyal Ahmadi|studerande, 18 år, Färgelanda
+C|5649|56|K|Susanne Malm Zetterberg|biodlare,56 år, Järbo
+C|5650|29|K|Maria Andersson|kranoperatör, 29 år, Ödeborg
+C|5651|19|M|Emanuel Karlsson|fritidsledare, 19 år, Färgelanda
+C|1990|60|K|Elisabeth Örn|verksamhetsutvecklare, 60 år, Högsäter
+C|515001|68|M|Dionisio Camacho|
+C|212199|65|M|Kenneth Carlsson|65, konsult, Färgelanda
+C|212200|52|M|Ingo Asplund|Ellenö
+C|212201|70|M|Håkan Gusteus|Ödeborg
+C|212202|73|M|Olle Hagström|Färgelanda
+C|212203|63|M|Bernt Johansson|Färgelanda
+C|212204|65|K|Astrid Berggren|Färgelanda
+C|212205|68|M|Bo Ljung|Högsäter
+C|212206|74|K|Birgit Hagström|Färgelanda
+C|212207|71|M|Åke Högberg|Högsäter
+C|212208|71|K|Inger Andersson|Södra Högsäter
+C|212209|37|M|Anas Barbour|Högsäter
+C|212210|55|M|Anders Bennersten|Färgelanda
+C|212211|59|M|Morgan Andersson|Färgelanda
+C|82485|69|M|Sven Hansson|69 år, Tekniker, Färgelanda
+C|431164|72|M|Tommy Wanglert|Pensionär
+C|254199|49|K|Linda Jansson|49, Lantbrukare, Färgelanda
+C|254954|53|M|Per Krokström|Skgstjänsteman, Järbo
+C|254233|50|M|Hans Göran Palmqvist|50, Gymnasielärare, Ödeborg
+C|254956|63|K|Christina Svedberg|Behandlingsassistent, Stigen
+C|254957|50|M|Tomas Andersson|Ingenjör, Rännelanda
+C|254958|65|M|Bengt Svedberg|Polis, Stigen
+C|254959|71|M|Jan Öhman|Ingenjör, Rådanefors
+C|254960|61|M|Bengt Melin|Projektledare, Råggärde
+C|254961|53|M|Tony Mattsson|Målare, Järbo
+C|254962|18|M|Kim Doan|Student, Högsäter
+C|254963|71|M|Hugo Hultgren|Lantbrukare, Högsäter
+C|254964|86|M|Arne Andersson|Lantbrukare, Högsäter
+C|254965|81|M|Bengt Bonander|VD, Ödeborg
+C|66518|52|M|Jörgen Andersson|52 år, bilmekaniker, Järbo
+C|66519|74|M|Owe Qvick|74 år, pensionär, Ödeborg
+C|66520|62|K|Jane Glamér|62 år, undersköterska, Färgelanda
+C|66521|29|K|Jessica Olsen|29 år, sjuksköterska, Ödeborg
+C|66522|59|K|Maj Andersson|59 år, butiksföreståndare, Järbo
+C|249205|59|M|Karl-Erik Segersax|Pensionär, Färgelanda
+C|513818|41|M|Hans Johansson|
+C|513819|39|M|Pontus Westerman Hansson|
+C|238656|47|K|Inger Bäcker|Frivårdsinspektör, Färgelanda
+C|238657|51|M|Lars Karlsson|Programmerare, Järbo
+C|238658|64|K|Ywonne Jansson|Lärare/Samtalsterapeut, Färgelanda
+C|238659|56|K|Iréne Pettersson|Författare, Stigen
+C|238660|55|M|Michael Holster|Förtidspensionär, Stigen
+C|238661|30|M|Fredrik Zidek|Resurspedagog, Färgelanda
+C|238662|29|K|Andréa Zidek|Förrättningslantmätare, Färgelanda

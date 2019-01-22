@@ -1,11 +1,203 @@
-2|35240|35241|35242|35243|35244|35245|35246|35247|35248|35249|35250|35251|35252|35253|35254|35255|35256|35257|35258|35259|35260|35261|35262|35263|35264|35265|35266|35267|35268|35269|35270|35271|35272|35273|35274|35275|35276|35277|35278|35279|35280|35281|35282|35283|35284|35285|35286|35287|35288|35289|35290|35291|35292|35293|35294|35295
-4|3210|3216|3272|13015|13016|3231|13018|13019|13020|13021|13022|13023|13024|13025|13026|13027|13028|13029|13030|13031|13032|13033|13034|13035|13036|13037
-532|515548
-94|2911|415095|415096|415097|415098|415099|415100|415101|415102|415103|415104|415105|415106|415107|415108
-68|274383|274384|274385|274386|274387|274388|274389
-3|17977|17978|17979|17980|17981|17982|17983|17984|17985|17986|17987|17988|17989|17990|17992|17993|17994
-55|238732|148028|148029|66244|148031|148032|148033|148034|148035|148036|148037|148038|148039|148040|148041
-1|255627|254010|255629|255630|255631|255632|255634|255636|482577|482578|255633|255635|255637|255638
-524|513404
-110|66214|66215|66216|66217|66219|496308|496309|126716|66220|66221|66222|514818|515543|515544
-5|84182|89641|89642|89643|89644|89645|89646|89647|89648|89649|89650|89651|89652|89653|89654
+T|Götene
+A|2|35240|35241|35242|35243|35244|35245|35246|35247|35248|35249|35250|35251|35252|35253|35254|35255|35256|35257|35258|35259|35260|35261|35262|35263|35264|35265|35266|35267|35268|35269|35270|35271|35272|35273|35274|35275|35276|35277|35278|35279|35280|35281|35282|35283|35284|35285|35286|35287|35288|35289|35290|35291|35292|35293|35294|35295
+A|4|3210|3216|3272|13015|13016|3231|13018|13019|13020|13021|13022|13023|13024|13025|13026|13027|13028|13029|13030|13031|13032|13033|13034|13035|13036|13037
+A|532|515548
+A|94|2911|415095|415096|415097|415098|415099|415100|415101|415102|415103|415104|415105|415106|415107|415108
+A|68|274383|274384|274385|274386|274387|274388|274389
+A|3|17977|17978|17979|17980|17981|17982|17983|17984|17985|17986|17987|17988|17989|17990|17992|17993|17994
+A|55|238732|148028|66244|148031|148032|148033|148034|148035|148036|148037|148038|148039|148040|148041
+A|1|255627|254010|255629|255630|255631|255632|255634|255636|482577|482578|255633|255635|255637|255638
+A|524|513404
+A|110|66214|66215|66216|66217|66219|496308|496309|126716|66220|66221|66222|514818|515543|515544
+A|5|84182|89641|89642|89643|89644|89645|89646|89647|89648|89649|89650|89651|89652|89653|89654
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|94|GÖF|Götenes framtid
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|524|PP|Piratpartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|35240|56|K|Åsa Karlsson|56 år, Götene
+C|35241|66|M|Björn Cavalli Björkman|66 år, pensionär, Götene
+C|35242|49|K|Ulrika Karlsson|49 år, livsmedelsarbetare, Källby
+C|35243|18|M|Samuel Lundell|18 år, studerande, Sil
+C|35244|39|K|Anna Widell|39 år, livsmedelsarbetare, Kinne-Kleva
+C|35245|61|M|Conny Petersson|61 år, administratör,Sil
+C|35246|62|K|Ann-Charlotte Granander|62 år, förskollärare, Sil
+C|35247|69|M|Kent Selmosson|69 år, Götene
+C|35248|70|K|Maritha Hellqvist|70 år, pensionär, Källby
+C|35249|61|M|Åke Fransson|61 år, livsmedelsarbetare, Hällekis
+C|35250|57|K|Ulrika Durk|57 år, livsmedelsarbetare, Källby
+C|35251|27|M|Linus Karlsson|27 år, förskollärare, Götene
+C|35252|66|K|Margareta Holmberg|66 år, fd rektor, Källby
+C|35253|33|M|Tobias Davidsson|33 år, civilekonom, Sil
+C|35254|57|K|Susanne Löfgren Frost|57 år, samordnare fritid-ungdom, Götene
+C|35255|63|M|Mats Larsson|63 år, mejeriarbetare, Källby
+C|35256|62|K|Gun Gustafsson|62 år, undersköterska, Götene
+C|35257|59|M|Lars-Inge Bly|59 år, ekonom, Holmestad
+C|35258|56|K|Ann-Cathrine Johansson|56 år, livsmedelsarbetare, Sil
+C|35259|43|M|Fredrik Larsson|43 år, Götene
+C|35260|46|K|Henrietta Ekberg|46 år, processoperatör, Götene
+C|35261|43|M|Thomas Hjalmarsson|43 år, fastighetsskötare, Källby
+C|35262|51|K|Evor Fagerlind|51 år, lokalvårdare, Götene
+C|35263|60|M|Ove Karlsson|60 år, kontorsvaktmästare, Sil
+C|35264|44|K|Louise Tidblom|44 år, livsmedelsarbetare, Källby
+C|35265|57|M|Peter Legendi|57 år, Götene
+C|35266|75|M|Kjell-Åke Hansson|75 år, pensionär, Husaby
+C|35267|64|K|Orietta Hinojosa Farias|64 år, gymnasielärare, Götene
+C|35268|38|M|Christopher Johansson|38 år, underhållsledare-livsmedel, Källby
+C|35269|64|K|Lisbeth Persson|64 år, pensionär, Vättlösa
+C|35270|73|M|Roland Johansson|73 år, pensionär, Götene
+C|35271|34|K|Pernilla Bergman|34 år, lärare, Götene
+C|35272|60|M|Per Torstensson|60 år, mekaniker, Hällekis
+C|35273|62|K|Mona Arneson|62 år, teamledare, Vättlösa
+C|35274|20|M|Linus Karlsson Adamsson|20 år, arbetsledare, Götene
+C|35275|59|K|Marie-Louise Viktor Gerhardsson|59 år, lagerarbetare, Lundsbrunn
+C|35276|68|M|Lennart Borg|68 år, pensionär, Götene
+C|35277|63|K|Liv Gerding|63 år, livsmedelsarbetare, Källby
+C|35278|52|M|Anders Olsson|52 år, mejeriarbetare, Götene
+C|35279|73|K|Ulla Andrén|73 år, pensionär, Kinne Vedum
+C|35280|69|M|Bo Hellqvist|69 år, pensionär, Källby
+C|35281|56|K|Gunilla Karlsson|56 år, undersköterska, Götene
+C|35282|76|M|Olof Andrén|76 år, pensionär, Kinne Vedum
+C|35283|53|K|Solweig Larsson|53 år, ombudsman, Götene
+C|35284|49|M|Timo Niskanen|49 år, fastighetsägare, Götene
+C|35285|79|K|Christina Raud|79 år, pensionär, Götene
+C|35286|69|M|Kenneth Wiklund|69 år, pensionär, Husaby
+C|35287|72|K|Ingrid Carlson|72 år, socionom, Götene
+C|35288|56|M|Mikael Larsson|56 år, mejeriarbetare, Götene
+C|35289|52|K|Marie Andersson|52 år, cafébiträde, Sil
+C|35290|82|M|Karl-Gustav Andersson|82 år, pensionär, Sil
+C|35291|80|K|Kerstin Karlsson|80 år, fd förskollärare, Sil
+C|35292|72|M|Lars-Olof Carlson|71 år, socionom, Götene
+C|35293|73|K|Inger Kindberg|73  år, pensionär, Götene
+C|35294|44|M|Roger Börjesson|44 år, teamledare/stödassistent, Götene
+C|35295|45|K|Ingela Bly|45 år, lärare, Göttorp
+C|3210|59|K|Susanne Andersson|Oppositionsråd,Götene, 59 år
+C|3216|47|K|Anna Dalström|Förskollärare, Götene, 47 år
+C|3272|69|M|Kjell Gustafsson|Agronom,Götene, 69 år
+C|13015|47|K|Christina Friberg|Förskollärare, Götene, 47 år
+C|13016|65|M|Johnny Johansson|Lantbrukare, Vättlösa, 65 år
+C|3231|43|K|Pernilla Frick|Församlingsvärdinna,Götene, 42 år
+C|13018|47|K|Susanna Lundgren|Landsbygdsföretagare, Broby, 47 år
+C|13019|72|M|Olof Janson|Ekobonde, Kinne-Vedum, 72 år
+C|13020|39|K|Carola Kjellén|Personlig assistent, Källby, 39 år
+C|13021|39|K|Mimmi Fredriksson|Naturbrukslärare, Kestad, 39 år
+C|13022|59|M|Torbjörn Larm|Lantbrukare, Hangelösa, 59 år
+C|13023|26|K|Ida Lindh|Egenföretagare, Broby, 26 år
+C|13024|46|K|Anna-Karin Gagnemyr|Leg. Djursjukskötare, Kinne-Vedum, 46 år
+C|13025|71|M|Bengt Johansson|Pensionär, Götene, 71 år
+C|13026|65|K|Mariana Frankén|Kommunsekreterare, Forshem, 65 år
+C|13027|69|M|Jan-Olof Karlsson|Lantbrukare, Broby, 69 år
+C|13028|23|K|Louise Friberg|Studerande, Götene, 23 år
+C|13029|67|M|Ingemar Tuvehagen|Pensionär, Husaby, 67 år
+C|13030|50|M|Sven-Otto Svensson|Lantbrukare, Kinne-Vedum, 50 år
+C|13031|75|M|Leif Andersson|Pensionär, Holmestad, 75 år
+C|13032|20|K|Malin Friberg|Barnskötare, Götene, 20 år
+C|13033|60|M|Mats Andersson|Anläggare, Hangelösa, 60 år
+C|13034|34|M|Andreas Forsberg|Personlig assistent, Götene, 34 år
+C|13035|22|M|Oskar Lundgren|Studerande, Broby, 22 år
+C|13036|53|M|Lars Olsmark|Mångsysslare, Götene, 53 år
+C|13037|67|K|HildSophie Gustafsson|Pensionär, Husaby, 67 år
+C|515548|62|K|Birgitta Karlsson|
+C|2911|56|M|Anders Månsson|Mättekniker Lundsbrunn,               Götenes Framtid
+C|415095|56|M|Clemens Nordentoft|57 år, snickare, Hällekis
+C|415096|26|M|Johan Månsson|26 år, säljare/skribent, Källby
+C|415097|59|M|Håkan Ernklev|59 år, egenföretagare, Lundsbrunn
+C|415098|73|K|Gunilla Sundbeck|73 år, distriktssköterska, Fullösa
+C|415099|67|M|Lars Jansson|67 år, ämneslärare, Götene
+C|415100|65|M|Bengt Karlsson|65 år, pensionär, Kinne-Kleva
+C|415101|44|K|Ylva Werjefelt|44 år personlig assistent, Husaby
+C|415102|53|K|Karin Ernklev|52 år, lärare, Lundsbrunn
+C|415103|53|K|Titti Fabritius|52 år, kommunikationsvetare, Götene
+C|415104|48|M|Henrik Arvidsson|48 år, besiktningstekniker, Lundsbrunn
+C|415105|37|K|Catherine Strand|36 år, ämneslärare, Lundsbrunn
+C|415106|57|K|Lilian Svensson|57 år, kontorist, Ledsjö
+C|415107|31|K|Emelie Jonsson|31 år, tandsköterska, Källby
+C|415108|41|M|Jimmy Karlsson|41 år, mejeriarbetare, Forshem
+C|274383|47|K|Isabella Carlén|47, Enhetschef funktionshind., Götene
+C|274384|72|M|Arnold Cedving|72, Biståndsarbetare, Götene
+C|274385|42|K|Hanna Bertilsson|41, Förskollärare, Götene
+C|274386|67|M|Ronny Gunnarsson|66, Ingenjör, Götene
+C|274387|57|M|Kristian Ribberheim|57, Ekonom, Götene
+C|274388|44|M|Daniel Klasson|44, Byggnadssnickare, Götene
+C|274389|51|K|Monica Sanfridsson|51, Förskollärare, Götene
+C|17977|59|M|Andreas Wändahl|Götene
+C|17978|56|K|Monica Holm|56 Lundsbrunn
+C|17979|70|M|Lars Holmberg|70, Källby
+C|17980|62|K|Charlotta Karlsdotter|62 Götene
+C|17981|27|M|Edvin Wändahl|Götene
+C|17982|33|M|Magnus Kling|Lundsbrunn
+C|17983|60|K|Carina Wändahl|Götene
+C|17984|66|M|Claes-Göran Holm|Lundsbrunn
+C|17985|67|K|Kristina Jonegård|Kinne-Kleva
+C|17986|56|M|Gunnar Bergqvist|Holmestad
+C|17987|75|K|Anna Dicander|Lundsbrunn
+C|17988|76|M|Lars Jonegård|Kinne-Kleva
+C|17989|78|K|Birgitta Walfridson|Götene
+C|17990|73|M|Stig Hermansson|Ledsjö
+C|17992|80|K|Terttu Milton|Götene
+C|17993|77|M|Gunnar Walfridson|Götene
+C|17994|77|K|Margareta Palmquist|Lundsbrunn
+C|238732|51|M|Magnus Fredricson|51 år, Strateg hållbar samhällsutveckling, Husaby
+C|148028|66|K|Kirsten Callander Junker|66 år, Socionom, Götene
+C|66244|38|K|Helene Havsöga|38 år, Lärare- Ma/No/Teknik, Hällekis
+C|148031|58|M|Anders Johansson|58 år, Personlig assistent, Källby
+C|148032|69|M|Peter Callander|69 år, Passionerad biodlare, Götene
+C|148033|73|K|Marianne Kling|73 år, Pensionär, Kinnekulle
+C|148034|65|K|Kerstin Wiklund|65 år, Pensionär, Götene
+C|148035|58|M|Svante Lindqvist|58 år, Ekobonde
+C|148036|51|K|Bèatrice Falsen|51 år, Psykolog
+C|148037|76|M|Bengt Kling|76 år, Biodlare, Kinnekulle
+C|148038|37|M|Daniel Wiklund|37 år, Materialhanterare, Götene
+C|148039|36|M|Björn Havsöga|36 år, Apotekare, Hällekis
+C|148040|67|K|Elisabet Brandt|67 år, F,d Folkhälsoplanerare, Hällekis
+C|148041|65|M|Knut Wiklund|65 år, Pensionär, Götene
+C|255627|48|K|Charlotte Bertilsson|Sjuksköterska, Götene
+C|254010|42|K|Niina Stenander|42, HR-chef, Götene
+C|255629|35|M|Rinor Xhemshiti|Arbetsterapeut, Götene
+C|255630|69|M|Morgan Öhman|Egenföretagare, Götene
+C|255631|75|M|Lars Waldefeldt|Pensionär, Götene
+C|255632|69|M|Jan Fahlgren|Egenföretagare, Årnäs
+C|255634|56|M|Anders Wretman|Inköpare, Götene
+C|255636|19|K|Carolina Wretman|Studerande, Götene
+C|482577|19|K|Wiktoria Dziwak|Studerande, Götene
+C|482578|33|K|Elin Olsson|Undersköterska/Studerande, Hällekis
+C|255633|75|M|Lennart Skarp|Pensionär, Götene
+C|255635|44|M|Magnus Johansson|Egenföretagare, Lundsbrunn
+C|255637|55|M|Ove Rydberg|Egenföretagare, Kinnekleva
+C|255638|76|M|Per Rådmark|Tandläkare, Götene
+C|513404|38|M|Adrian Braekke|
+C|66214|56|K|Helene Granbom Angerheim|57, Personlig assistent, Götene
+C|66215|51|M|Jimmy Friberg|51, Egenföretagare, Götene
+C|66216|60|K|Anne Andersson|60, Pensionär, Götene
+C|66217|51|M|Stefan Fagerlund|51, CNC-operatör, Hällekis
+C|66219|50|K|Annika Fagerlund|49 år, Kinnekulle
+C|496308|20|M|Hampus Fagerlund|20 år, Kinnekulle
+C|496309|74|K|Agneta Johansson|74 år, Götene
+C|126716|72|M|Peder Evhage|72, Pensionär, Götene
+C|66220|64|M|Sven-Inge Karlsson|64 år, Götene
+C|66221|48|K|Joanna Arvidsson|47 år, Årnäs
+C|66222|57|M|Hans Andersson|56 år, Lundsbrunn
+C|514818|38|K|Lorena Friberg|
+C|515543|59|M|Lars Lundmark|
+C|515544|65|K|Gun-Britt Lund|
+C|84182|52|K|Evalena Öman|Götene, Landskapsarkitekt
+C|89641|56|M|Magnus Ekblad|Österäng
+C|89642|29|K|Sofia Ohlin|Götene
+C|89643|66|M|Roger Karlén|Hällekis
+C|89644|60|K|Yvonne Andersson|Holmestad
+C|89645|50|M|Magnus Kling|Källby
+C|89646|65|K|Monika Ekblad|Österäng
+C|89647|43|M|Jonas Liveröd|Holmestad
+C|89648|36|K|Ylva Borg Svensson|Holmestad
+C|89649|21|M|Eirik Öhrnell|Hällekis
+C|89650|72|K|Kerstin Cederqvist|Källby
+C|89651|75|K|Anita Hellman|Hällekis
+C|89652|58|M|Gunnar Jacobsson|Gössäter
+C|89653|72|K|Suzanne Rasmussen|Hällekis
+C|89654|63|K|Karina Fasth|Lundsbrunn

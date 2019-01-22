@@ -1,10 +1,206 @@
-2|80158|80159|80160|80161|80162|80163|80164|80165|80166|80167|80168|80169|80170|80171|80172|80173|80174|80175|80176|80177|80178|80179|80180|80181|80182|80183|80184|80185|80186|80187|80188|80189
-4|2945|2957|2956|2951|2946|2960|3121|5238|2952|3118|5241|5242|5243|5244|5245|5246|5247|5248|3127|5250|5251|5252|5253|3120|5255|5256|5257|5258|5259|5260|5261|5262|3122|5264|5265|5266|5267
-68|274720|274727|274732|275294|275295|275296|274939|275298|275299|275300
-1011|515615
-3|196100|196101|196102|196103|196104|196105|196106|196107|196108|196109|196110|196111|196112|196113|196114|196115|196116|196117|196118|196119|196120|196121|196122|196123
-55|74063|74874|80834|80835|80836|80837|80838|80839|80840|80841|80842
-1|254286|256338|256339|256340|254276|256342|256343|256344|256345|253892|256347|256348|253898|256350|256351|256352|256353|256354|256355|256356|256357|256358
-1157|442952|442955|442956|442957|442958|442959|442960|459343|491935|459344|459698|491343|459699|459703|459701|459700|459702|460067|460068|460086|460087
-110|49994|49995|49996|49997|49998|49999|50000|50001|50002|216328
-5|24722|16796|76979|76980|76981|76982|76983|76984|76985|76986|76987|16801|76989|76990|76991|76992|76993|76994
+T|Ulricehamn
+A|2|80158|80159|80160|80161|80162|80163|80164|80165|80166|80167|80168|80169|80170|80171|80172|80173|80174|80175|80176|80177|80178|80179|80180|80181|80182|80183|80184|80185|80186|80187|80188|80189
+A|4|2945|2957|2956|2951|2946|2960|3121|5238|2952|3118|5241|5242|5243|5244|5245|5246|5247|5248|3127|5250|5251|5252|5253|3120|5255|5256|5257|5258|5259|5260|5261|5262|3122|5264|5265|5266|5267
+A|68|274720|274727|274732|275294|275295|275296|274939|275298|275299|275300
+A|1011|515615
+A|3|196100|196101|196102|196103|196104|196105|196106|196107|196108|196109|196110|196111|196112|196113|196114|196115|196116|196117|196118|196119|196120|196121|196122|196123
+A|55|74063|74874|80834|80835|80836|80837|80838|80839|80840|80841|80842
+A|1|254286|256338|256339|256340|254276|256342|256343|256344|256345|253892|256347|256348|253898|256350|256351|256352|256353|256354|256355|256356|256357|256358
+A|1157|442952|442955|442956|442957|442958|442959|442960|459343|491935|459344|459698|491343|459699|459703|459701|459700|459702|460067|460068|460086|460087
+A|110|49994|49995|49996|49997|49998|49999|50000|50001|50002
+A|5|24722|16796|76979|76980|76981|76982|76983|76984|76985|76986|76987|16801|76989|76990|76991|76992|76993|76994
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1157|NU|Nya Ulricehamn
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|80158|43|M|Mattias Josefsson|Ulricehamn
+C|80159|65|K|Inga-Kersti Skarland|Ulricehamn
+C|80160|46|M|Celso Silva Goncalves|
+C|80161|70|K|Aira Eriksson|Pensionär, Ulricehamn
+C|80162|54|M|Leif Dahl|Industriarbetare, Gällstad
+C|80163|28|K|Emma Magnusson|Tvärred
+C|80164|39|M|Klas Redin|Hökerum
+C|80165|56|K|Catharina Ståhl Lind|Ulricehamn
+C|80166|42|M|Per Gustavsson|Teamleader, Hökerum
+C|80167|37|M|Mattias Remar|Dalum
+C|80168|61|M|Tommy Mårtensson|Jurist, Ulricehamn
+C|80169|58|M|Per-Ola Johansson|Vegby
+C|80170|49|M|Mattias Green-Andersson|Dalum
+C|80171|23|K|Amke Hector|Blidsberg
+C|80172|74|M|Jan Forsman|Gällstad
+C|80173|18|K|Hanna Schoultz|Ulricehamn
+C|80174|60|M|Jan Brobjer|Ulricehamn
+C|80175|43|K|Jenny Kvist|Tvärred
+C|80176|37|M|Daniel Claesson|Tvärred
+C|80177|66|M|Börje Enander|Ulricehamn
+C|80178|72|M|Bengt Klasson|Ulricehamn
+C|80179|60|M|Tommy Johansson|Älmestad
+C|80180|56|M|Peter Edström|Ulricehamn
+C|80181|50|K|Anna-Lena Friberg|Ulricehamn
+C|80182|71|M|Eije Holm|Timmele
+C|80183|82|K|Gerd Anell|Ulricehamn
+C|80184|68|M|Rolf Davidsson|Timmele
+C|80185|44|K|Stina Josefsson|Ulricehamn
+C|80186|70|M|Stig Persson|Ulricehamn
+C|80187|68|K|Inger Persson|Ulricehamn
+C|80188|46|M|Mattias Andersson|Hökerum
+C|80189|62|K|Ingrid Isaksson|Dalum
+C|2945|58|M|Roland Karlsson|58 år, Tvärred
+C|2957|46|M|Mikael Dahl|46 år, Götåkra
+C|2956|40|K|Hanna Brunnegård|40 år, Tvärred
+C|2951|55|M|Anders Andersson|55 år, Ulricehamn
+C|2946|29|K|Emma-Klara Arnell|29 år, Dalum
+C|2960|59|M|Jan-Åke Claesson|59 år, Ulricehamn
+C|3121|64|K|Liselotte Andersson|64 år, Blidsberg
+C|5238|67|K|Ann Stockzelius|67 år, planingenjör, Marbäck
+C|2952|22|M|Victor Sund|22 år, Ulricehamn
+C|3118|64|M|Börje Eckerlid|64 år, Möne
+C|5241|76|M|Bengt Leander|76 år, pensionär, Marbäck
+C|5242|50|M|Ziad Makrous|50 år, företagare, Ulricehamn
+C|5243|38|M|Erik Öhlund|39 år, företagare, Hökerum
+C|5244|25|M|Shabir Noori|25 år, studerande, Ulricehamn
+C|5245|65|K|Inger Broberg|65 år, undersköterska, Liared
+C|5246|62|M|Gunnar Andersson|62 år, ekonomiansvarig, Blidsberg
+C|5247|58|M|Bengt Johansson|58 år, IT-projektledare, Töve
+C|5248|49|M|Fredrik Skattberg|49 år, utbildningssamordnare/brandman, Vegby
+C|3127|70|M|Tommy Johansson|70 år, Hökerum
+C|5250|67|K|Eva-Lena Åström Söderlind|67 år, hälsosköterska, Ulricehamn
+C|5251|79|K|Ing-Marie Andersson|79 år, informatör, Trädet
+C|5252|42|M|Johan Björkelund|42 år, lantbrukare, Götåkra
+C|5253|40|M|Per-Erik Lennartsson|40 år, lantbrukare, Hökerum
+C|3120|46|M|Jan-Åke Svenningsson|46 år, Grönahög
+C|5255|42|K|Kajsa Nilsson|49 år, VD, Ulricehamn
+C|5256|38|K|Ann-Charlotte Andersson|38 år, hygientekniker, Grönahög
+C|5257|49|M|Robert Skansebo|49 år, företagare, Varnum
+C|5258|58|K|Christina Lindman|58 år, leg. arbetsterapeut, Ulricehamn
+C|5259|31|K|Rebecca Wernberg|31 år, leg. logoped, Ulricehamn
+C|5260|37|M|Emil Boman|37 år, industriarbetare, Torsbo
+C|5261|74|M|Gerhard Wichers|74 år, pensionär, Hössna
+C|5262|44|K|Anna Kjerrulf|44 år, familjebehandlare, Fästeredsund
+C|3122|21|M|Oscar Dahl|21 år, Götåkra
+C|5264|53|K|Ann Janette Allbäck|53 år, fönsterhantverkare, Timmele
+C|5265|70|M|Tomas Jacov|70 år, pensionär, Kölingared
+C|5266|27|M|Christoffer Brolin|27 år, personlig assistent, Marbäck
+C|5267|72|M|Håkan Dahl|72 år, pensionär, Ulricehamn
+C|274720|61|K|Cristina Bernevång|60, Politiker, pers. ass, Ulricehamn
+C|274727|39|K|Eva B Arnesson|39, Hemmaförälder, Ulricehamn
+C|274732|35|K|Frida Edberg|34, Ingenjör, Ulricehamn
+C|275294|52|M|Per-Ove Ståhlbrand|52, Företagare, Ulricehamn
+C|275295|61|K|Ingela Widell|60, Musikdirektör, Ulricehamn
+C|275296|73|M|Bengt Andelius|73, Civilingenjör, Ulricehamn
+C|274939|72|M|Mats Alfredsson|71, Pensionär, Ulricehamn
+C|275298|82|K|Elisabet Hjalmarsson|81, Volontär, Ulricehamn
+C|275299|57|M|Rid Heinin|57, Fastighetsägare, Ulricehamn
+C|275300|71|M|Allan Olsson|71, Slöjdlärare, Ulricehamn
+C|515615|71|K|Birgitta Lindqvist|
+C|196100|51|K|Adela Brkic Carlsson|51, företagare, Ulricehamn
+C|196101|69|M|Roland Eriksson|69 år, skogsbrukare, Timmele
+C|196102|70|K|Birgit Andersson|70, bitr. kommunalråd, Ulricehamn
+C|196103|25|M|Torbjörn Brandhill|25, statsvetare, Ulricehamn
+C|196104|67|K|Iréen Wolter|67 år, f.d. enhetschef, Ulricehamn
+C|196105|55|K|Annelie Fischer|56, förvaltningschef, Ulricehamn
+C|196106|55|M|Peder Danesved|55, blocksekreterare, Ulricehamn
+C|196107|37|K|Ingegerd Andersson|37, SFI-lärare, Ulricehamn
+C|196108|49|M|Sten Selin|49, företagare, Ulricehamn
+C|196109|73|K|Gulli Håkansson|74, f.d. rektor, Ulricehamn
+C|196110|29|M|Martin Brandhill|29, samordnare, Ulricehamn
+C|196111|19|K|Ingrid Geeraedts|19 år, studerande, Ulricehamn
+C|196112|73|K|Lisbeth Gustafsson|74 år, företagare, Gällstad
+C|196113|46|K|Helena Rask|46 år, gymnasielärare, Ulricehamn
+C|196114|36|M|Rami Alnakib|36 år, lärarassistent, Ulricehamn
+C|196115|18|K|Linda Käll|19 år, studerande, Timmele
+C|196116|40|K|Marina Andersson|40 år, kyrkvaktmästare, Vegby
+C|196117|74|M|Ulf Lindskog|74 år, företagare, Ulricehamn
+C|196118|50|K|Victoria Selin|50 år, lärare, Ulricehamn
+C|196119|69|K|Eva Orrbeck|69 år, konstnär, Gällstad
+C|196120|39|K|Alma Tahan|39 år, stödlärare, Ulricehamn
+C|196121|72|K|Ulla-Lena Tjäder|72, pensionär, Ulricehamn
+C|196122|31|K|Pamela Ntamukunzi|31 år, undersköterska, Ulricehamn
+C|196123|70|M|Arne Björling|70 år, ingenjör, Ulricehamn
+C|74063|61|M|Ingemar Basth|61 år, Kommunikationsvetare, Ulricehamn
+C|74874|53|K|Kerstin Berggren|53 år, Lärare, Dalum
+C|80834|59|M|Mikael Odhage|Ulricehamn
+C|80835|48|K|Pernilla Udnæs|Timmele
+C|80836|67|M|Thomas Hjalmarsson|Ulricehamn
+C|80837|38|K|Hanna Gundberg|Marbäck
+C|80838|38|M|Georg Andersson|Murum
+C|80839|18|K|Erika Basth|Timmele
+C|80840|73|M|Arne Fransson|Ulricehamn
+C|80841|77|K|Ingvor Carlander|Ulricehamn
+C|80842|57|M|Domingo Bravo|Ulricehamn
+C|254286|45|M|Sebastian Gustavsson|45, Träindustriarbetare, Ulricehamn
+C|256338|46|K|Katrin Lorentzon|46, Företagare, Ulricehamn
+C|256339|26|M|Wiktor Öberg|26, Egenföretagare, Ulricehamn
+C|256340|40|K|Catharina Örtendahl Rylid|40, Gymnasielärare, Ulricehamn
+C|254276|42|M|Lars Holmin|42, Regionråd, Ulricehamn
+C|256342|19|M|Emil Gustafsson|19, Studerande, Ulricehamn
+C|256343|59|K|Eva Grönbäck|59, lärare, Ulricehamn
+C|256344|61|M|Sören Johansson|61, Ingenjör, Ulricehamn
+C|256345|73|K|Margareta Juliusson|73, Leg. sjuksköterska, Vegby
+C|253892|66|M|Richard Hallifax|66, Pensionär, Ulricehamn
+C|256347|49|M|Eduard Piper|49, Informatör, Ulricehamn
+C|256348|45|M|Per Bergman|45, VD, Ulricehamn
+C|253898|67|M|Ingvar Ideström|67, Jur.Kand/Civilekonom, Ulricehamn
+C|256350|53|K|Anette Hellqvist|53, Distriktssköterska, Liared
+C|256351|73|M|Jan Holmin|73, Pensionär, Ulricehamn
+C|256352|51|K|Anne-Lie Öberg|51, Stödassistent, Ulricehamn
+C|256353|39|M|Leif Lemke|39, IT-teamchef, Ulricehamn
+C|256354|19|M|Axel Niklasson|19, Student, Tvärred
+C|256355|38|M|Christer Örni|38, ,
+C|256356|41|M|David Molarin|41, Kafferostare, Ulricehamn
+C|256357|26|K|Linda Johansson|26, Säljare, Ulricehamn
+C|256358|50|M|Magnus Velén|50, Distriktschef, Ulricehamn
+C|442952|45|M|Mikael Levander|45 år, grundskollärare 1-7, Ulricehamn
+C|442955|45|M|Tobias Torsborn|45 år, försäljningschef/egenföretagare, Ulricehamn
+C|442956|49|M|Mats Bogren|49 år, biträdande rektor, Ulricehamn
+C|442957|47|K|Annie Faundes|47 år, grundskollärare 7-9, Ulricehamn
+C|442958|36|M|Dario Mihajlovic|36 år, grundskollärare F-6, Ulricehamn
+C|442959|36|K|Elisabeth Stålbrand|36 år, undersköterska, Ulricehamn
+C|442960|61|K|Bella Cotter|61 år, speciallärare/konstnär, Ulricehamn
+C|459343|43|M|Armel Hombessa|43 år, hyresadministratör, Ulricehamn
+C|491935|65|K|Teresa Benkarcik|65 år, kurator, Ulricehamn
+C|459344|41|K|Therese Westman|41 år, behandlingsassistent, Ulricehamn
+C|459698|59|K|Inga-Maj Larsson|59 år, rektor och förskolechef, Dalum
+C|491343|43|M|Mario Malnar|43 år, specialist i allmänmedicin, Ulricehamn
+C|459699|36|K|Lisa Åkesson|36 år, förskollärare, Ulricehamn
+C|459703|37|M|Nils-Werner Claesson|37 år, mjukvaruutvecklare, Ulricehamn
+C|459701|40|K|Charlotta Sunding|40 år, enhetschef äldreomsorgen, Ulricehamn
+C|459700|61|M|Johan Helmrot|61 år, utvecklingschef, Marbäck
+C|459702|74|M|Bernt Carlsson|74 år, pensionär, Ulricehamn
+C|460067|50|K|Chatarina Staafjord|50 år, sjuksköterska/produktspecialist, Ulricehamn
+C|460068|44|K|Veronika Varggårdh|44 år, egenföretagare/distriktssköterska, Vegby
+C|460086|73|K|Eva Wridell|73 år, pensionär, Ulricehamn
+C|460087|77|M|Åke Wallgren|77 år, pensionär, Grönahög
+C|49994|53|M|Niclas Sunding|Egenföretagare, Ulricehamn
+C|49995|75|K|Aila Kiviharju|pensionär, 75 år
+C|49996|41|M|Mattias Bengtsson|41 år, Byggnadsarbetare
+C|49997|46|M|Martin Berg|46 år, Lärare
+C|49998|63|M|Peter Nilsson|63 år, Yrkeschaufför
+C|49999|69|K|Elisabeth Nilsson|undersköterska, 69 år
+C|50000|64|M|Bengt Bogren|pensionär, 64 år
+C|50001|55|M|Alf Flodin|59 år, Egenföretagare
+C|50002|70|M|Gert Kvarnstrand|70 år, Pensionär
+C|24722|67|M|Jan-Olof Sundh|67 år, fd lärare, Ulricehamn
+C|16796|32|K|Evelina Karlsson|31 år, PC-tekniker, Hökerum
+C|76979|65|M|Dan Ljung|64 år, snickare, Älmestad
+C|76980|39|K|Helene Fast|39 år, lokalvårdare, Ulricehamn
+C|76981|46|M|Roger Andersson|46 år, socionom, Ulricehamn
+C|76982|68|K|Ing-Britt Jonsson|68 år, specialpedagog, Ulricehamn
+C|76983|73|M|Arne Sjögren|74 år, fd yrkeslärare, Ulricehamn
+C|76984|54|K|Erin Winslow|53 år, textilkonstnärinna, Ulricehamn
+C|76985|62|M|Stefan Höglund|63 år, pensionär, Ulricehamn
+C|76986|75|K|Erica Grenås|75 år, apotekare/pensionär, Ulricehamn
+C|76987|70|M|Bo Larsson|70 år, lärare, Tvärred
+C|16801|48|K|Susanne Arneborg|48 år, civilingenjör, Ulricehamn
+C|76989|51|M|Christer Grandin|50 år, musiker/fritidsledare, Hökerum
+C|76990|34|K|Elisa Brånin|34 år, lärare, Varnum
+C|76991|30|M|Jonathan Öberg|30 år, lagerarbetare, Ulricehamn
+C|76992|48|M|Patrik Strömbom|48 år, civilekonom, Ulricehamn
+C|76993|40|M|Carl-Johan Alsing|39 år, truckförare, Ulricehamn
+C|76994|64|M|Alf Fast|64 år, fd egenföretagare, Ulricehamn

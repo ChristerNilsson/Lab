@@ -1,9 +1,177 @@
-2|231898|231899|231900|231901|231902|231903|231904|231905|231906|231907|231908|231909|231910|231911|231912|231913|231914|231915|231916|231917|231918|231919|231920|231921|231922|231923|231924|231925|231926|231927|231928|231929|231930|231931|231932|231933|231934
-4|123039|8552|123041|123042|123043|123044|123045|123046|123047|123048|123049|123050|123051|123052|123053|123054|123055|123056|123057|123058|123059|123060|123061|123062|123063|123064|123065|123066|123067|123068|123069|123070|123071|123072|123073|123074|123075|123076|123077|123078|123079|123080|123081|123082
-68|184949|184950|184951|184952|184953|184954|184955|184956|184957|184958|184959|184960|184961
-1011|395973|283555|395975
-3|298498|298499|298500|298501|298502|298503|298504|298505
-55|365554|363998|365556|365557|365558|365559|365560|365658
-1|45932|46343|46344|46345|46346|45916|46348|46349|46350|46351|46352|45934|46354|46355|46009|46357|46358|46359|46360|46361|46362|46363|46364|46365|46366|46367|46368
-110|47226|47227|47228|47229|47230|47231|166022|47232|513435
-5|247202|104864|247204|247205|247206|246050|247208|247209|247210|247211|247212|247213
+T|Älmhult
+A|2|231898|231899|231900|231901|231902|231903|231904|231905|231906|231907|231908|231909|231910|231911|231912|231913|231914|231915|231916|231917|231918|231919|231920|231921|231922|231923|231924|231925|231926|231927|231928|231929|231930|231931|231932|231933|231934
+A|4|123039|8552|123041|123042|123043|123044|123045|123046|123047|123048|123049|123050|123051|123052|123053|123054|123055|123056|123057|123058|123059|123060|123061|123062|123063|123064|123065|123066|123067|123068|123069|123070|123071|123072|123073|123074|123075|123076|123077|123078|123079|123080|123081|123082
+A|68|184949|184950|184951|184952|184953|184954|184955|184956|184957|184958|184959|184960|184961
+A|1011|395973|283555|395975
+A|3|298498|298499|298500|298501|298502|298503|298504|298505
+A|55|365554|363998|365556|365557|365558|365559|365560|365658
+A|1|45932|46343|46344|46345|46346|45916|46348|46349|46350|46351|46352|45934|46354|46355|46009|46357|46358|46359|46360|46361|46362|46363|46364|46365|46366|46367|46368
+A|110|47226|47227|47228|47230|47231|166022
+A|5|247202|104864|247204|247205|247206|246050|247208|247209|247210|247211|247212|247213
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|231898|36|K|Eva Ballovarre|Distriktssköterska, 36, Diö
+C|231899|59|M|Stefan Jönsson|Svetsare, 59, Älmhult
+C|231900|55|K|Monica Haider|Riksdagsledamot, 55, Eneryda
+C|231901|65|M|Lars Ingvert|66, pensionär, Älmhult
+C|231902|50|K|Helen Bengtsson|Kokerska, 50, Älmhult
+C|231903|42|M|Mattias Lindqvist|Informationschef, 42, Älmhult
+C|231904|48|K|Petra Karlsson|48, projektledare, Älmhult
+C|231905|38|M|Kent Ballovarre|38, elektriker, Diö
+C|231906|68|K|Birgitta Bengtsson|68, pensionär, Älmhult
+C|231907|68|M|Tommy Lövquist|68, yrkeslärare, Älmhult
+C|231908|62|K|Ann Johansson|62, facklig förtroendevald, Älmhult
+C|231909|41|M|Håkan Pettersson|42, industriarbetare, Virestad
+C|231910|53|K|Kristina Spjut Sahlberg|53, undersköterska, Diö
+C|231911|52|M|Anton Härder|Informatör, 52, Diö
+C|231912|35|K|Patricia Schooner|Lärare, 35,  Älmhult
+C|231913|68|M|Staffan Ferm|68,  pensionär, Älmhult
+C|231914|66|K|Silvia Lobos|66, pensionär, Möckelsnäs
+C|231915|24|M|Filip Akaronka|24, studievägledare, Älmhult
+C|231916|74|K|Britta Crona|75, läkarsekreterare, Delary
+C|231917|49|M|Tommy Sahlberg|49, chaufför, Diö
+C|231918|66|K|Irene Svensson|66, socionom,  Älmhult
+C|231919|72|M|Einar Holmqvist|72, pensionär, Möckeln
+C|231920|70|K|Birgitta Nilsson|71, förskollärare, Älmhult
+C|231921|66|M|Ingemar Almkvist|Pensionär, 66, Älmhult
+C|231922|31|K|Elin Nilsson|31, socionom, Älmhult
+C|231923|76|M|Åke Karlsson|76, pensionär, Älmhult
+C|231924|46|K|Maria Snaula|46, undersköterska,  Diö
+C|231925|44|M|Fredrik Ekstrand|45, ombudsman, Eneryda
+C|231926|56|K|Mina Zilkic|56, Älmhult
+C|231927|74|M|Roland Johansson|75, pensionär, Hallaryd
+C|231928|53|K|Monika Nilsson|54, undersköterska, Älmhult
+C|231929|69|M|Lars Wegendal|69, pensionär, Älmhult
+C|231930|41|K|Indira Ruiz Lundgren|42, socialsekreterare, Råshult
+C|231931|72|M|Kurt Olausson|72, pensionär,  Älmhult
+C|231932|62|K|Hillevi Wegendal|62, Älmhult
+C|231933|70|M|Björn Dellenmark|70, pensionär,  Älmhult
+C|231934|74|K|Kerstin Bengtsson|75, pensionär, Eneryda
+C|123039|53|K|Elizabeth Peltola|Kommunalråd, Diö
+C|8552|28|M|Gusten Mårtensson|28 år, Redovisningskonsult, Älmhult
+C|123041|48|K|Marie Olofsson|Aukt. Redovisningskonsult, Älmhult
+C|123042|50|M|Tomas Harrysson|50, Småföretagare, Virestad
+C|123043|62|K|Yvonne Jonsson|62, Kommunikatör, Liatorp
+C|123044|67|M|Vidar Lundbäck|67, Musiker, Hallaryd
+C|123045|45|M|Pontus Haglund|45, Företagare, Älmhult
+C|123046|41|K|Sofia Herbertsson|41, Enhetschef, Diö
+C|123047|48|M|John-Arne Sandström|48, Entreprenör, Virestad
+C|123048|43|K|Selin Hult|43, Projektledare, Älmhult
+C|123049|63|M|Anders Mårtensson|63, Bonde, Göteryd
+C|123050|52|K|Nusreta Kurtanovic Nilsson|52, Undersköterska, Gemön
+C|123051|66|M|Claes Lindahl|67, Pensionär, Virestad
+C|123052|52|M|Tobias Herz|52, Pedagog, Pjätteryd
+C|123053|74|M|Lars Henriksson|74, Egenföretagare, Älmhult
+C|123054|34|K|Ida Ekdahl|34, Civilingenjör, Delary
+C|123055|61|M|Ola Willhammar|61, Processkonsult, Diö
+C|123056|67|M|Ingemar Nilsson|67, Egenföretagare, Långasjömåla
+C|123057|45|K|Jessica Wihlborg|45, Kommunikationsansvarig, Älmhult
+C|123058|52|M|Jonny Johansson|52, Kyrkvaktmästare, Älmhult
+C|123059|66|K|Anita Håkansson|66, Pensionär, Tiakölna
+C|123060|51|M|Peter Niklasson|51, Kundcenterchef, Älmhult
+C|123061|66|M|Knut Lange|66, Pensionär, Apelhult
+C|123062|48|M|Mouhamad Bassam Al Omari|48, Vaktmästare, Älmhult
+C|123063|72|M|Bengt Håkansson|71, Fd. bankdirektör, Hallaryd
+C|123064|54|M|Iain Mackie|54, Finanschef, Älmhult
+C|123065|58|M|Anders Eriksson|58, Bonde, Pjätteryd
+C|123066|70|K|Laila Hult|70, Företagare, Liatorp
+C|123067|59|K|Annelie Olin|59, Lärare/Personlig assistent, Arveka
+C|123068|72|M|Tryggve Eriksson|72, Egenföretagare, Virestad
+C|123069|48|M|Niklas Petersson|48, Polis, Ryfors
+C|123070|41|K|Agneta Andersson|41, Leg. Veterinär, Eneryda
+C|123071|51|M|Peter Sandberg|51, Egenföretagare, Nedraön
+C|123072|61|K|Elisabet Gunnarsson|61, Lanthandlare, Uthövdan
+C|123073|65|M|Lennart Pettersson|65, Företagssköterska, Pjätteryd
+C|123074|57|M|Jan-Åke Johannesson|58, Byggmästare, Lindö
+C|123075|67|M|Bo Göransson|67, Jordbrukare, Tiakölna
+C|123076|39|M|Hassan Abdulwahab|39, Koordinator, Älmhult
+C|123077|62|K|Greta Ivarsson|62, Lantbrukare, Eneryda
+C|123078|61|M|Krister Svensson|62, Bonde, Göteryd
+C|123079|64|K|Ingegärd Lundbäck|64, Musiker, Hallaryd
+C|123080|66|M|Ulf Olin|66, Skogsföretagare, Arveka
+C|123081|73|M|Ingemar Johnsson|73, Civilekonom, Stenbrohult
+C|123082|65|M|Leif Nilsson|65, Pensionär, Älmhult
+C|184949|71|K|Gun-Britt Cedergren|F.d. rektor, Älmhult
+C|184950|41|M|Karl-Henrik Wallerstein|Kyrkoherde, Diö
+C|184951|53|K|Livia Martinsson|Montör, Älmhult
+C|184952|40|K|Hilda Aramayes Ardash|Tolk, Älmhult
+C|184953|73|M|Krister Martinsson|f.d. Golvläggare, Älmhult
+C|184954|74|M|Ingvar Svensson|f.d. Riksdagsledamot, Älmhult
+C|184955|42|K|Karoline Karlén|Säljare, Älmhult
+C|184956|59|K|Madeleine Lideberg|Adm. handläggare, Diö
+C|184957|56|M|Magnus Strandberg|Skogstekniker, Älmhult
+C|184958|71|M|Hans Cedergren|Fil. mag., Älmhult
+C|184959|37|M|Jakob Sträng|Rektor, Virestad
+C|184960|73|M|Dan Bülow|Fil. mag., Älmhult
+C|184961|43|K|Maria Cedergren|Lärare, Häradsbäck
+C|395973|59|M|Olle Tillemark|Metallarbetare, Virestad
+C|283555|61|M|Jens Hermansson|Båtman, Häradsbäck
+C|395975|41|M|Stefan Hörberg|Bonde & IT-konsult, Diö
+C|298498|39|K|Senada Hodzic|Älmhult
+C|298499|67|M|Bo Bergsjö|Älmhult
+C|298500|22|K|Lina Yosefi|Älmhult
+C|298501|54|M|Jan Gustavsson|Älmhult
+C|298502|52|K|Maria Gustafsson|Älmhult
+C|298503|73|M|Lars Janson|Älmhult
+C|298504|72|K|Ingegerd Lennartsson|Liatorp
+C|298505|72|K|Gulli Janson|Älmhult
+C|365554|65|M|Jan Fagerberg|65 år, Arbetsledare, Älmhult
+C|363998|49|M|Michael Öberg|49 år, Personalvetare, Älmhult
+C|365556|37|M|Jamil Ahmad Nazar|37 år, Logistiker, Älmhult
+C|365557|67|K|Ulla Rundlöf|67 år, Naturguide, Diö
+C|365558|36|M|Mohammed Al Heswani|36 år, Säljare, Älmhult
+C|365559|65|M|Roni Salomonsson|65 år, Senior, Älmhult
+C|365560|54|K|Eva Dickner|54 år, Gymnasielärare, Älmhult
+C|365658|76|M|Göran Johansson|76 år, Senior, Älmhult
+C|45932|65|K|Sonja Emilsson|65 år, Redovisningskonsult, Liatorp
+C|46343|73|M|Bo Mazetti-Nissen|Hallaryd
+C|46344|69|M|Tomas Simonsson|Älmhult
+C|46345|74|K|Inga Karlsson|Abborraslätt
+C|46346|42|M|Jakob Willborg|Hormeshult
+C|45916|27|M|Viktor Emilsson|27 år, Snickare, Älmhult
+C|46348|38|M|Daniel Stenvall|Älmhult
+C|46349|56|M|Dan Blixt|Älmhult
+C|46350|75|M|Tord Åkesson|Älmhult
+C|46351|69|K|Marie Rosenquist|Boastad
+C|46352|34|M|Fredrik Danielsson|Diö
+C|45934|22|M|Erik Ederfors|22 år, Student, Älmhult
+C|46354|38|M|Elof Danielsson|Göteryd
+C|46355|71|M|Roland Johansson|Damsnäs
+C|46009|63|K|Soili Lång-Söderberg|63 år, Jurist, Älmhult
+C|46357|67|M|Göran Widing|Älmhult
+C|46358|54|K|Ann-Sofie Sune|Älmhult
+C|46359|66|M|Anders Stigsson|Diö
+C|46360|52|M|Niclas Rarysson|Göteryd
+C|46361|57|M|Bengt-Eric Ericsson|Stenbrohult
+C|46362|73|K|Birgit Käll Andersson|Stenbrohult
+C|46363|67|M|Bengt Adolfsson|Liatorp
+C|46364|26|M|Claes Moberg|Älmhult
+C|46365|65|K|Rumiana Miteva De Reyes|Älmhult
+C|46366|74|M|Jens J.Jörgensen|Älmhult
+C|46367|50|M|Anders Håkansson|Eneryda
+C|46368|75|M|Staffan Wyke|Älmhult
+C|47226|63|M|Börje Tranvik|63, Älmhult, Lantbrukare
+C|47227|60|K|Gull-Britt Tranvik|60, Älmhult, Vårdbiträde
+C|47228|58|M|Lennart Strand|58, Älmhult
+C|47230|55|M|Tord Helle|55 år, Svetsare
+C|47231|63|M|Carl-Gustaf Hansson|62 år, Pensionär
+C|166022|67|M|Göran Johansson|Älmhult, Pensionär
+C|247202|50|K|Ulla-Britt Andreasson|50 år, enhetsassistent, Häradsbäck
+C|104864|58|M|Predrag Jankovic|58 år, HVB-anställd, Älmhult
+C|247204|54|K|Ann-Louise Ljung|55 år, fritidspedagog, Diö
+C|247205|74|M|Karl-Bertil Bertilsson|74 år, pensionär, Älmhult
+C|247206|37|K|Shanti Maria Persson|37 år, boendeassistent, Älmhult
+C|246050|50|M|Jerker Nilsson|50 år, Älmhult
+C|247208|47|K|Annika Andersson|47 år, Liatorp
+C|247209|69|K|Karin Dellenmark|69 år, pensionär, Älmhult
+C|247210|66|M|Michael Haider|65 år, sjuksköterska, Eneryda
+C|247211|56|K|Christina Lennarthsson|56 år, undersköterska, Häradsbäck
+C|247212|36|M|Karl-Henrik Johansson|36 år, Häradsbäck
+C|247213|60|K|Anette Nilsson|60 år, Älmhult

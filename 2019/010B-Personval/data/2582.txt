@@ -1,13 +1,294 @@
-1373|402380|402381|402382|402383|402384|6128|402386|402387|402393|402389|402390|402391|402392|402388|402394|402395|402396|402397|402398|513961|515625
-2|6088|6089|6090|6091|6092|6093|6094|6095|6096|6097|6098|6099|6100|6101|6102|6103|6104|6105|6106|6107|6108|6109|6110|6111|6112|6113|6115|6116|6117|6118|6119|6120|6121|6122|6123|6124|6125|6126|6127|6129|6130|6131|6132|6133|6134|6135|6136|6137|6138|6139|6140|6141|6142|6143|6144|6145|6146|6147|6148|6149|6150|6151|6152|6153|6154|6155
-4|341772|341773|341774|341775|341776|341777|341778|341779|341780|341781|341782|341783|341784|341785
-1318|22796
-532|504423|504792|504793|219298|504795|504796|504797
-68|437392|190101|437394|437395|437396|437397|437398|428315
-3|204152|204153|204154|204155|204156|204157|204158|204159|204160|204161|204162|204163|204164|204165|204167|204169
-55|242154|242155|242156|242157|242158|242159|242160|242161|242162|242163|242164|242165|242166|242167|242168|242169|242170|242171|242172|242173
-1|45633|45634|43201|45636|45637|45638|45639|45640|45641|45642|45643|43192|45645|43195|45647|45653|45649|43007|45651|43181|45654|45655|43189|45657|45658|45659|45660|45661|45662
-1273|394201|431576
-193|4892|4897|4902|4960|4912|5107|4907|4952|4956|4917|5112|5113|4937|5115|4947|4927|4963|4959|5120|5121|4942|5123|5124|5125|5126|5127|4932|5129|5130|5131|5132|5133|5134|5135|5136|5137
-110|47860|47861|47862|47864|47865|47866|47867|47868|47869|47870|47871|47872|47874|47875|47876
-5|45857|236595|236596|236597|163689|236599|236600|236601|236782|236783|236784|236785|185074|236787|236788|237177|237178|163694|237180|237181|237182|237183|237558|237559|237560|237561|237562|237563|237564|237764|237765|237766
+T|Boden
+A|1373|402380|402381|402382|402383|402384|6128|402386|402387|402393|402389|402390|402391|402392|402388|402394|402395|402396|402397|402398|513961|515625
+A|2|6088|6089|6090|6091|6092|6093|6094|6095|6096|6097|6098|6099|6100|6101|6102|6103|6104|6105|6106|6107|6108|6109|6110|6111|6112|6113|6115|6116|6117|6118|6119|6120|6121|6122|6123|6124|6125|6126|6127|6129|6130|6131|6132|6133|6134|6135|6136|6137|6138|6139|6140|6141|6142|6143|6144|6145|6146|6147|6148|6149|6150|6151|6152|6153|6154|6155
+A|4|341772|341773|341774|341775|341776|341777|341778|341779|341780|341781|341782|341783|341784|341785
+A|1318|22796
+A|532|504423|504792|504793|219298|504795|504796|504797
+A|68|437392|190101|437394|437395|437396|437397|437398|428315
+A|3|204152|204153|204154|204155|204156|204157|204158|204159|204160|204161|204162|204163|204164|204165|204167|204169
+A|55|242154|242155|242156|242157|242158|242159|242160|242161|242162|242163|242164|242165|242166|242167|242168|242169|242170|242171|242172|242173
+A|1|45633|45634|43201|45636|45637|45638|45639|45640|45641|45642|45643|43192|45645|43195|45647|45653|45649|43007|45651|43181|45654|45655|43189|45657|45658|45659|45660|45661|45662
+A|1273|394201|431576
+A|193|4892|4897|4902|4960|4912|5107|4907|4952|4956|4917|5112|5113|4937|5115|4947|4927|4963|4959|5120|5121|4942|5123|5124|5125|5126|5127|4932|5129|5130|5131|5132|5133|5134|5135|5136|5137
+A|110|47860|47861|47862|47864|47865|47866|47867|47868|47869|47870|47871|47872|47874|47875|47876
+A|5|45857|236595|236596|236597|163689|236599|236600|236601|236782|236783|236784|236785|185074|236787|236788|237177|237178|163694|237180|237181|237182|237183|237558|237559|237560|237561|237562|237563|237564|237764|237765|237766
+B|1373||Aktiv samling - Bodenalternativet
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1318|CSIS|Common sense in Sweden
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1273|NMR|Nordiska motståndsrörelsen
+B|193|SJV|Sjukvårdspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|402380|60|M|Anders Pettersson|N:a Svartbyn
+C|402381|67|K|Seija Fallemark|Unbyn
+C|402382|38|M|Daniel Rönnbäck|Torpgärdan
+C|402383|49|K|Suzanne Ahlman|Heden
+C|402384|72|M|Inge Andersson|Rensundet
+C|6128|74|M|Ingemar Karlsson|Svartlå
+C|402386|68|M|Gunnar Halin|Ubbyn
+C|402387|47|K|Camilla Sundqvist|Trångfors
+C|402393|66|M|Leif Engström|Svartbjörnsbyn
+C|402389|66|K|Ann-Kristin Viklund|S:a Harads
+C|402390|70|M|Bengt-Göran Gustavson|Forsnäs
+C|402391|37|M|Nils Pettersson|Centrum
+C|402392|51|M|Peter Öqvist|Rörån
+C|402388|63|M|Michael Engström|Gunnarsbyn
+C|402394|66|K|Marie-Louise Grill|Harads
+C|402395|73|M|Per-Olof Planting|Sävast
+C|402396|35|K|Evelina Pettersson|N:a Svartbyn
+C|402397|57|M|Ola Enoksson|Lombäcken
+C|402398|79|M|Stig Öhman|Kusån
+C|513961|39|K|Johanna Söderholm|
+C|515625|38|M|Kristian Engström|
+C|6088|41|M|Claes Nordmark|41 år, Södra Svartbyn
+C|6089|48|K|Sara Bruun|48 år, Bodforsen
+C|6090|41|M|Johan Lund|41 år, Södra Svartbyn
+C|6091|51|K|Béatrice Öman|51 år, Torpgärdan
+C|6092|68|M|Glenn Blom|68 år, Skogså
+C|6093|28|K|Evelina Harr|28 år, Nedre stadsdelen
+C|6094|40|M|Stefan Mella|40 år, Boden
+C|6095|63|K|Margith Hannu Dyrander|63 år, Heden
+C|6096|72|M|Arne Pettersson|72 år, Hedsvedjan
+C|6097|51|K|Lena Goldkuhl|51 år, Torpgärdan
+C|6098|41|M|Robert Andersson|41 år, Nedre stadsdelen
+C|6099|52|K|Anna-Karin Nylund|52 år, Södra Svartbyn
+C|6100|51|M|Mikael Midbjer|51 år, Harads
+C|6101|35|K|Ewelina Edenbrink|35 år, Sveafältet
+C|6102|70|M|Kurt Pettersson|70 år, Sävast
+C|6103|71|K|Eivy Blomdahl|71 år, Boden
+C|6104|72|M|Lars Nilsson|72 år, Centrum
+C|6105|44|K|Beatrice Jarblad|44 år, Hedsvedjan
+C|6106|22|M|Emil Norén|22 år, Centrum
+C|6107|52|K|Ann-Charlotte Kassberg|52 år, Hamptjärmoran
+C|6108|46|M|Jan-Åge Mikalsen|46 år, Heden
+C|6109|40|K|Sara Johansson|40 år, Svartbjörnsbyn
+C|6110|71|M|Torbjörn Lidberg|71 år, Svartbjörnsbyn
+C|6111|39|K|Nina Huotari|39 år, Boden
+C|6112|59|M|Lennart Synnergren|59 år, Boden
+C|6113|71|K|Eva Westlund|71 år, Rågraven
+C|6115|61|K|Berit Ekervhén|61 år, Unbyn
+C|6116|69|M|Håkan Berg|69 år, Centrum
+C|6117|53|K|Anna-Carin Aaro|Boden, 53 år
+C|6118|32|M|Peter Strand|33 år, Heden
+C|6119|27|K|Julia Engström|27 år, Boden
+C|6120|35|M|Robert Lejon|35 år, Sävast
+C|6121|18|K|Emina Heljo|18 år, Nedre stadsdelen
+C|6122|39|M|Tomi Kovero|39 år, Boden
+C|6123|50|K|Pricilla Brasse Berg|50, Centrum
+C|6124|61|M|Jim Öman|61 år, Boden
+C|6125|60|K|Catinka Löfgren|60 år, Nedre stadsdelen
+C|6126|35|M|Fredrik Lovag|35 år, Bredåker
+C|6127|75|K|Åsa Lindström|75 år, Centrum
+C|6129|35|K|Veronica Svalenström|35 år, Svartbäcken
+C|6130|62|M|Roger Larsson|63 år, Heden
+C|6131|51|K|Anna Öhrling|51 år, Sanden
+C|6132|54|M|Hans-Lennart Bruun|54 år, Boden
+C|6133|34|K|Alina Maglic|34 år, Sveafältet
+C|6134|64|M|Peter Öhlund|65 år, Södra Svartbyn
+C|6135|70|K|Margareta Rönnberg|70 år, Sävast
+C|6136|64|M|Leif Ekervhén|64 år, Unbyn
+C|6137|70|K|Birgit Blombäck|70 år, Sävast
+C|6138|75|M|Urban Sundbom|75 år, Södra Svartbyn
+C|6139|50|K|Christina Nissinen|50 år, Nedre stadsdelen
+C|6140|68|M|Christer Åhl|68 år, Centrum
+C|6141|36|K|Maria Vilhelmsson|35 år, Sävast
+C|6142|66|M|Harry Hannu|66 år, Heden
+C|6143|58|K|Lena Nilsson|58 år, Nedre stadsdelen
+C|6144|28|M|Niklas Lindbäck|29 år, Centrum
+C|6145|70|K|Inger Mattsson|70 år, Centrum
+C|6146|46|M|Patric Gustafsson|47 år, Inbyn
+C|6147|70|K|Birgitta Rensfeldt|70 år, Björkelund
+C|6148|60|M|Albert Muya|60 år, Sveafältet
+C|6149|65|K|Hjördis Hansén|63 år, Erikslund
+C|6150|59|M|Anders Ahlin|59 år, Erikslund
+C|6151|52|K|Maria Almqvist|52 år, Fagernäs
+C|6152|69|M|Lars-Olov Nygård|69 år, Sävast
+C|6153|47|K|Magdalena Ek|47 år, Fagernäs
+C|6154|54|M|Jan-Olov Bäcklund|54 år, Torpgärdan
+C|6155|68|M|Per-Erik Sandling|68 år, Unbyn
+C|341772|47|M|Johan Gröhn|Officer, Boden
+C|341773|67|K|Ann-Christine Rutqvist|Vuxenlärare 67 år Sanden
+C|341774|20|M|John Öberg|Ungdomskonsulent 20 år Sävast
+C|341775|65|M|Helge Stålnacke|Präst 65 år Sävastön
+C|341776|73|K|Eva-Britt Larsson|Pensionär 73 år Harads
+C|341777|65|K|Astrid Sundström Lindström|Rektor 65 år Nedre stadsdelen
+C|341778|53|K|Lili-Marie Lundström|Förvaltningsledare 53 år S Bredåker
+C|341779|49|M|Anders Lundström|Trafikledare 49 år Nedre stadsdelen
+C|341780|31|K|Matilda Lundström|Undersköterska 30 år S Bredåker
+C|341781|72|K|Britt-Marie Sandström|Ladugårdsförman 72 år S Svartlå
+C|341782|57|M|Stefan Lindbäck|Lantbrukare 57 år S Bredåker
+C|341783|57|M|Per-Erik Karlsson|Behandlingsassistent 56 år Svartbjörnsbyn
+C|341784|45|M|Åke Schylander|Elinstallatör 45 år Gunnarsbyn
+C|341785|68|M|Roland Hemphälä|Kyrkoherde Emeritus 68 år Unbyn
+C|22796|47|M|Pontus Johansson|47 år Boden
+C|504423|38|K|Lizah Lund|38, Landskapsingenjör
+C|504792|43|K|Linda-Marie Gabrielsson|
+C|504793|25|M|Jonathan Berg|25, Resurs skola/fritids
+C|219298|60|M|Stefan Mikaelsson|60år, Renägare, Harads
+C|504795|38|K|Catharina Melander|38, Leg. sjuksköterska, doktorand
+C|504796|62|K|Ann Lou Lundberg|62, Personlig assistent
+C|504797|41|K|Ida Enqvist|41, Leg. barnmorska
+C|437392|49|M|Bror Esberg|signalingenjör
+C|190101|46|K|Annika Berglund|diakon, Boden
+C|437394|28|M|Niklas Vallgren|lastbilsförare
+C|437395|60|M|Per-Erik Johansson|VVS-tekniker
+C|437396|39|M|Timo-Tuomas Sinikumpu|stationschef
+C|437397|73|K|Eva Wälivaara|pensionär
+C|437398|76|M|Kjell Larsson|ingenjör
+C|428315|73|M|Roland Wälivaara|präst, Boden
+C|204152|45|M|Hendrik Andersson|Företagare, Boden
+C|204153|61|M|Lars Karlsson|Företagare, 61år, Brobyn
+C|204154|50|K|Helene Nilsson|Butikssäljare, 49 år, Flarken
+C|204155|71|M|Leif Nordström|f.d.Fritidschef, 70 år, Centrum
+C|204156|65|K|Ann-Charlotte Furberg|Barnsjuksköterska, 64 år, Sävast
+C|204157|50|M|Jörgen Johansson|Kontrollansvarig Bygg, S.Svartbyn
+C|204158|75|K|Kerstin Hübinette|Pensionär, Svartlå
+C|204159|42|M|Anders Lund|Kock, Sävast
+C|204160|70|K|Carola Larsson|Pensionär, Boden
+C|204161|66|M|Bengt-Göran Furberg|Företagare, 66 år, Sävast
+C|204162|54|M|Sven-Olov Grenholm|Officer, 54 år, Övre Stadsdelen
+C|204163|50|M|Göran Stjärnholm|Barnläkare, Boden
+C|204164|74|M|Bo Jakobsson|Pensionär, 73 år, Svartlå
+C|204165|37|M|Andreas Näslund|Officer, 36 år, Sanden
+C|204167|59|M|Jan Larsson|Tjänsteman, 58 år, N.Svartbyn
+C|204169|75|M|Ulf Klasson|f.d Läkare, Boden
+C|242154|52|K|Catarina Ask|sjuksköterska, Boden
+C|242155|79|M|Gösta Eriksson|miljökonsult, Boden
+C|242156|63|K|Ann Carlberg|Pensionär
+C|242157|37|M|Johan Johansson|Billots, Boden
+C|242158|63|K|Agneta Granström|universitetsadjunkt, Boden
+C|242159|65|M|Håkan Andersson|Busschaufför
+C|242160|50|K|Ylva Isaksson|undersköterska, Boden
+C|242161|59|M|Mats Nordström|Hemmansägare
+C|242162|27|K|Ida Ask|Studerande
+C|242163|71|M|Matts Engvall|Läkare
+C|242164|59|K|Lena Mari Johansson|Socionom
+C|242165|35|M|Christoph Schleifenbaum|Dataingenjör
+C|242166|38|K|Linn Wahlberg|
+C|242167|46|M|Heiko Petelinc|Affärsbiträde
+C|242168|42|K|Maeda Lisnic|Studerande
+C|242169|63|K|Hjördis Lindström|
+C|242170|71|K|Ingbritt Päiviö Vahlberg|Förskollärare, Harads
+C|242171|22|K|Fanny Johansson|SSAB
+C|242172|67|K|Pirjo Rönnkvist|fd. mentalskötare
+C|242173|62|K|Ingegerd Sundvall|Vuxenlärare
+C|45633|82|M|Olle Lindström|Boden
+C|45634|64|K|Maria Von Schantz|Boden
+C|43201|66|K|Rigmor Åström|66 år, Pensionär, Boden
+C|45636|69|M|Göran Ahlman|Råbäcken
+C|45637|64|M|Egon Palo|Trångfors
+C|45638|73|M|Hans B Nilsson|Torpgärdan
+C|45639|60|K|Karin Palovaara|Torpgärdan
+C|45640|60|M|Johan Sellin|Boden
+C|45641|68|K|Inger Lundström|Sävastön
+C|45642|70|M|Åke Eltoft|Boden
+C|45643|61|K|Eva Mattisson Öhman|Boden
+C|43192|68|K|Helena Nordvall|68 år, Med Dr, Specialistsjukgymnast, Boden
+C|45645|33|M|André Lund Wizelius|Boden
+C|43195|77|M|Bo Hultin|77 år, Egenföretagare, Boden
+C|45647|72|M|Per Sandström|Boden
+C|45653|72|M|Knut Larsson|Boden
+C|45649|54|M|Henrik Lindqvist|Hedsvedjan
+C|43007|70|M|Åke Carlsson|70 år, Pensionär, Boden
+C|45651|76|M|Ebert Gustafsson|Boden
+C|43181|23|M|Henrik Wikström|23 år, Läkarstudent, Boden
+C|45654|75|K|Gunilla Lantz|Boden
+C|45655|74|M|Bo Lindström|Hedsvedjan
+C|43189|66|M|Robert von Schantz|66 år, Jurist, Boden
+C|45657|86|M|Bertil Lundström|Sävastön
+C|45658|66|K|Ewa Öhman Björkman|Boden
+C|45659|58|M|Hasan Delen|Boden
+C|45660|27|M|Ibrahim Delen|Boden
+C|45661|78|K|Vivian Boström|Boden
+C|45662|68|M|Benneth Boström|Boden
+C|394201|71|M|Bo Nilsson|71 år, pensionerad byggnadsarbetare, Boden
+C|431576|24|M|David Nilsson|24 år, diversearbetare, Boden
+C|4892|67|M|Kenneth Backgård|Leg. Psykolog, Boden
+C|4897|68|M|Anders Sundström|Fritidspolitiker, Boden
+C|4902|41|K|Erika Sjöö|Administratör, Boden
+C|4960|42|K|Tina Kotkaniemi|Sjuksköterska, Boden
+C|4912|61|M|Sead Maglic|Lantmätare/Kriminalvårdare, Boden
+C|5107|52|M|Ulf Helin|Operatör, Svartbjörnsbyn
+C|4907|43|K|Terese Falk Carolin|Frisör, Boden
+C|4952|40|K|Jessica Pettersson|Undersköterska, Boden
+C|4956|60|K|Siv Hjort Lindstedt|Verksamhetschef, Boden
+C|4917|74|M|Christer Bergdahl|Företagare, Boden
+C|5112|71|K|Karin Vikström Eklund|Vårdlärare, Hamptjärnmoran
+C|5113|43|K|Åsa Vahlström|Barnmorska, Sanden
+C|4937|45|M|Niclas Sjöö|Operatör, Boden
+C|5115|72|M|Kjell Åström|Konsult, Heden
+C|4947|48|K|Ulrika Lundmark|Sjuksköterska, Boden
+C|4927|63|M|Roland Dahlqvist|Kock, Boden
+C|4963|20|K|Vanessa Franzén Lennestål|Administratör, Boden
+C|4959|45|K|Sara Bjerregaard|Handledare, Boden
+C|5120|62|M|Torbjörn Eriksson|Tandläkare, Hamptjärnmoran
+C|5121|71|M|L Christer Eklund|Kapten, Hamptjärnmoran
+C|4942|38|M|Edwin Mirell|Yrkeschaufför, Boden
+C|5123|44|M|Mattias Hansson|Platschef, Vittjärv
+C|5124|59|K|Eva Pettersson|Butiksbiträde, Grönland
+C|5125|62|M|Lars Lundberg|Fastighetsskötare, Hamptjärnmoran
+C|5126|75|M|Åke Lidberg|F.d. Postiljon, Centrum
+C|5127|19|M|Timothy Sjöö|Maskinförare, Hamptjärnmoran
+C|4932|39|M|Adrian Mirell|Kvalitetstekniker, Boden
+C|5129|35|M|David Rolén|Undersköterska, Torpgärdan
+C|5130|46|M|Robert Enberg|Maskinförare, Trångfors
+C|5131|61|M|Tommy Pettersson|Företagare, Grönland
+C|5132|41|K|Ulrika Söderholm|Undersköterska, Trångfors
+C|5133|70|K|Veronica Lundberg|Medicinsk sekreterare, Trångfors
+C|5134|72|M|Börje Enberg|Chaufför, Vitträsk
+C|5135|78|K|Siri Åström|Pensionär, Centrum
+C|5136|80|K|Siv Nordberg|Pensionär, Åskogen
+C|5137|84|K|Sigrid Söderström|Pensionär, Brobyn
+C|47860|63|M|Bernt Drugge|Handläggare, Boden
+C|47861|30|K|Linda Lund|Vårdbiträde
+C|47862|66|K|Susanne Ström|Sjukgymnast, 66, Boden
+C|47864|62|K|Elisabet Nilsson|Sjuksköterska, 62, Boden
+C|47865|70|M|Christer Fjellström|Pensionär
+C|47866|64|M|Lars-Åke Vikström|fd. Officer, 64, Boden
+C|47867|59|K|Barbro Ljungberg|Personlig rådgivare, 59, Boden
+C|47868|65|M|Kurt-Åke Lindqvist|Pensionär, 65, Boden
+C|47869|62|M|Erling Degerlund|Entreprenör
+C|47870|66|M|Sigvard Hedman|Mekaniker
+C|47871|67|M|Erik Hedberg|Bilmekaniker, 66, Boden
+C|47872|40|M|Robert Lund|Tjänsteman, Boden
+C|47874|59|K|Agneta Drugge|Undersköterska
+C|47875|72|M|Håkan Lingbro|Pensionär, 72, Boden
+C|47876|66|M|Göran Fellermark|Pensionär
+C|45857|72|M|Bosse Strömbäck|
+C|236595|38|K|Anna Karlsson|
+C|236596|47|M|Tony Karlsson|
+C|236597|62|K|Inger Westman Arvesen|
+C|163689|27|M|Conny Sundkvist|Boden
+C|236599|66|K|Inga-Lill Engström Öhman|
+C|236600|65|M|Rasmus Joneland|
+C|236601|24|K|Ellen Eriksson|
+C|236782|28|M|Oskar Nordström|
+C|236783|41|K|Annica Essén|
+C|236784|59|M|Jouni Salonen|
+C|236785|72|K|Gunnel Notelid|
+C|185074|71|M|Bo Engström|Boden
+C|236787|64|K|Lena Joneland|
+C|236788|62|M|Bo Englund|
+C|237177|49|M|Anders Stridsman|
+C|237178|56|K|Kerstin Englund|
+C|163694|64|M|Eilert Tallenhed|Boden
+C|237180|59|M|Kent Eriksson|
+C|237181|51|K|Åsa Berg|
+C|237182|74|M|Ragne Holmström|
+C|237183|60|M|Göran Sundström|
+C|237558|54|K|Marie Gustafsson|
+C|237559|46|M|Kheraldin Hasan|
+C|237560|65|M|Robert Brännström|
+C|237561|80|M|Gert Rutström|
+C|237562|76|M|Max Aldrin|
+C|237563|73|M|Hans Hansson|
+C|237564|77|M|Youssef Nissan|
+C|237764|59|K|Marie Widmark|
+C|237765|27|K|Evelina Pettersson|
+C|237766|69|M|Bertil Rensfeldt|

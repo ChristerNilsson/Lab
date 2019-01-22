@@ -1,10 +1,282 @@
-2|34395|34396|34397|28219|34399|34402|34401|34404|28206|34406|34405|34408|34407|34410|34409|34412|34411|34414|34413|34739|34738|34741|34740|34743|34742|34745|34744|34747|34746|34749|34748|34751|34750|34753|34752|34755|34754|34757|34756|35041|35040|35043|35042|35045|35044|35047|35046|35049|35048|35051|35050|35053|35052|35055|35054|35057|35056|35059|35058|35061|35060|35063|35062|35064|35065|35066|35067|35068|35069|35070|35071
-4|38892|39189|37738|49522|49523|49524|49525|49526|49527|39197|49529|49530|49531|49532|49533|49534|49535|49536|49537|49538
-532|219315|417994|417995|417996|417997|417998|417999|418000|418001|418002|418003
-68|515703|515704|515953
-3|49166|106630|106631|38842|38840|106634|38847|106636|106637|106638|106639|106640|106641|106642|38846|106644|106645|106646|106647|106648|106649|106650|106651|106652|106653|38857|106657|106661|106658|106654|106655|106659|106660|106662|106663|106664|106665|106666|106667|106668|106669|106670|106671|106672|106673|106674|106675|106676|106677|106678|106679|106680|106681|106682|106683|106684|106685|153313|106686|106687|106688|106689|106690|106691|106692|106693|106694|106695|106696|106697|106698|106699
-55|19812|92145|19808|20823|92148|92149|92150|92151|92152|92153|92154|92155
-1|56921|56922|56923|56924|56925|56926|56927|56928|56929|56930|56931|56932|56933|56934|56935|56936|56937|56938|56939|56940|56941|56942|56943|56944|56945
-110|83997|83998|83999|84000|84001|84002|84003|84004|84005|84006|84007|84008|84009|84010|84011|84012|84013|84014|84015|84016|84017|84018|84019|84020|84021|84022|84023|84024|84025|84026|84027|513778
-1309|431293|431301|431305|431311|431323|431320
-5|110194|110195|110196|110197|110198|110199|110200|110201|110202|110203
+T|Landskrona
+A|2|34395|34396|34397|28219|34399|34402|34401|34404|28206|34406|34405|34408|34407|34410|34409|34412|34411|34414|34413|34739|34738|34741|34740|34743|34742|34745|34744|34747|34746|34749|34748|34751|34750|34753|34752|34755|34754|34757|34756|35041|35040|35043|35042|35045|35044|35047|35046|35049|35048|35051|35050|35053|35052|35055|35054|35057|35056|35059|35058|35061|35060|35063|35062|35064|35065|35066|35067|35068|35069|35070|35071
+A|4|38892|39189|37738|49522|49523|49524|49525|49526|49527|39197|49529|49530|49531|49532|49533|49534|49535|49536|49537|49538
+A|532|219315|417994|417995|417996|417997|417998|417999|418000|418001|418002|418003
+A|68|515703|515704|515953
+A|3|49166|106630|106631|38842|38840|106634|38847|106636|106637|106638|106639|106640|106641|106642|38846|106644|106645|106646|106647|106648|106649|106650|106651|106652|106653|38857|106657|106661|106658|106654|106655|106659|106660|106662|106663|106664|106665|106666|106667|106668|106669|106670|106671|106672|106673|106674|106675|106676|106677|106678|106679|106680|106681|106682|106683|106684|106685|153313|106686|106687|106688|106689|106690|106691|106692|106693|106694|106695|106696|106697|106698|106699
+A|55|19812|92145|19808|20823|92148|92149|92150|92151|92152|92153|92154|92155
+A|1|56921|56922|56923|56924|56925|56926|56927|56928|56929|56930|56931|56932|56933|56934|56935|56936|56937|56938|56939|56940|56941|56942|56943|56944|56945
+A|110|83997|83998|83999|84000|84001|84002|84003|84004|84005|84006|84007|84008|84009|84010|84011|84012|84013|84014|84015|84016|84017|84018|84019|84020|84021|84022|84023|84024|84025|84026|84027
+A|1309|431293|431301|431305|431311|431323|431320
+A|5|110194|110195|110196|110197|110198|110199|110200|110201|110202|110203
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1309|TRP|TRYGGHETSPARTIET
+B|5|V|Vänsterpartiet
+C|34395|43|M|Jonas Esbjörnsson|Kommunalråd, Landskrona
+C|34396|49|K|Jenny Tillander|Ombudsman
+C|34397|55|M|Fatmir Azemi|Banktjänsteman
+C|28219|42|K|Cecilia Hallberg|Undersköterska, Landskrona
+C|34399|56|M|Roger Lindskog|Servicetekniker
+C|34402|70|K|Eva Örtgren|Administratör
+C|34401|68|M|Anders Kjellström|Universitetslärare
+C|34404|48|K|Jessica Kronvall|Kundtjänstarbetare
+C|28206|44|M|Niklas Karlsson|Riksdagsledamot, Landskrona
+C|34406|46|K|Anna Fernebro|Metallindustriarbetare
+C|34405|42|M|Aqba Ar-Rawi|Kriminolog, Landskrona
+C|34408|38|K|Susanne Andersen|Barnskötare
+C|34407|45|M|Jonas Karlsson|Arbetsledare, Landskrona
+C|34410|65|K|Annbritt Andersson|Egen Företagare
+C|34409|65|M|Jörn Jönsson|Pensionär
+C|34412|55|K|Mecide Özer|Biståndshandläggare, Landskrona
+C|34411|70|M|Lars Svensson|Ingenjör
+C|34414|23|K|Cornelia Ennefors|Studerande
+C|34413|31|M|Conny Lavin|Presslinjeoperatör
+C|34739|42|K|Annette Nilsson|Säljare, Landskrona
+C|34738|57|M|Joakim Sander|Enhetschef
+C|34741|57|K|Christel Nilsson|Arbetsledare
+C|34740|32|M|Rafael Bakrawi|Affärsutvecklare
+C|34743|34|K|Madelene Johnn|Barnskötare
+C|34742|46|M|John-Olle Niklasson|Taxi Chaufför
+C|34745|62|K|Lena Fischer|Undersköterska
+C|34744|63|M|Anders Lindblom|Studie och Yrkesvägledare, Landskrona
+C|34747|67|K|Carin Blomberg|Administratör
+C|34746|58|M|Felix Denyo|Företagare, Landskrona
+C|34749|63|K|Carina Hugogård|Barnskötare
+C|34748|63|M|Stefan Jakobsson|Industriarbetare
+C|34751|41|K|Lamees Ar-Rawi|Handläggare
+C|34750|62|M|Claes Glader|LSS-handläggare
+C|34753|24|K|Sara Andersson|Elevassistent
+C|34752|30|M|David Wasberger|Studerande
+C|34755|64|K|Ingrid Bengtsson|Församlingsassistent
+C|34754|64|M|Bengt Karlsson|Fabriksarbetare
+C|34757|49|K|Ros-Marie Andersson|Bussförare
+C|34756|30|M|Johan Berndtsson|Sjukvårdsbiträde
+C|35041|66|K|Ann Persson|Undersköterska
+C|35040|75|M|Birger Sölverud|Konsult Miljöteknik
+C|35043|72|K|Hellin Taskinen|Undersköterska
+C|35042|32|M|Etem Gegic|Fastighetsskötare
+C|35045|62|K|Anita Möller|Pensionär
+C|35044|56|M|Håkan Andersson|Arbetsledare
+C|35047|57|K|Henna Christensson|Kontorist
+C|35046|42|M|Henrik Ingelström|Ekonom
+C|35049|39|K|Lena-Karin De Carvalho|Ombudsman Kommunal
+C|35048|46|M|Herje Schagerlöf|Konsult Miljöteknik
+C|35051|32|K|Diana Al Karmo|Personlig Assistent
+C|35050|63|M|Abbas Abdulla|Lärarassistent
+C|35053|49|K|Qamile Haliti|Biblioteksassistent
+C|35052|69|M|Simon Andrijevski|Pensionär
+C|35055|58|K|Siv-Inger Aune|Affärsbiträde
+C|35054|42|M|Alfred Wolniak|Busschaufför
+C|35057|42|K|Susanne Örtegren|Undersköterska
+C|35056|44|M|Adis Heldic|Team Ledare
+C|35059|68|K|Alicja Strömgren|Leg.Sjuksköterska
+C|35058|35|M|Anders Ekström|Servicetekniker
+C|35061|68|K|Teresa Wilander|Undersköterska
+C|35060|64|M|Hans Wilander|Vaktmästare
+C|35063|71|K|Anna Jönsson|Pensionär
+C|35062|38|M|Rickard Persson|Handledare
+C|35064|45|M|Håkan Andersson|Egen Företagare
+C|35065|66|M|Torsten Nyman|Pensionär
+C|35066|74|M|Bjarne Andersson|Pensionär, Landskrona
+C|35067|40|M|Mikael Blomberg|Lärare
+C|35068|42|M|Fredrik Augustsson|Lärare
+C|35069|76|M|Bertil Jönsson|Murare
+C|35070|77|M|Bengt Rosengren|Civilingenjör
+C|35071|73|M|Jan Jönsson|Pensionär
+C|38892|71|M|Sven Svederberg|Sankt Ibb, Läkare, 71
+C|39189|33|M|Daniel Nylander|33, Egenföretagare, Glumslöv
+C|37738|38|K|Carina Markert|Asmundtorp, Personlig assistent/butikssäljare, 38
+C|49522|74|K|Inger Björsing|74, Landskrona, Sjuksköterska
+C|49523|49|K|Erika Nilsson|49, Annelöv, Ingenjör
+C|49524|19|K|Linnea Liljedahl|18, Häljarp, Student
+C|49525|48|M|Henric Molin|48, Ven, Egenföretagare
+C|49526|68|M|Gert Franzén|68, Häljarp, Lärare
+C|49527|36|M|Marko Huttunen|36, Landskrona, Pol.kand
+C|39197|46|M|Ronald Gummesson|46, Egenföretagare, Landskrona
+C|49529|65|M|Ola Lindgren|65, Härslöv, VD
+C|49530|66|M|Sven Åke Persson|66, Ålabodarna, Pensionär
+C|49531|64|K|Margareta Robinsson|64, Glumslöv, Ekonom
+C|49532|75|K|Anita Svärdh|75, Landskrona, Pensionär
+C|49533|78|M|Evert Johansson|78, Tullstorp, Växtförädlare
+C|49534|43|M|Christoffer Röstlund|43, Landskrona, Juriststudent
+C|49535|71|M|Jan Persson|71, Asmundtorp, Företagare
+C|49536|56|M|Bo Nylander|57, Glumslöv, Lantbrukare
+C|49537|41|M|Mikael Markert|41, Asmundtorp, CNC-operatör
+C|49538|85|M|Per-Olof Bengtsson|85, Landskrona, Pensionär
+C|219315|44|K|Johanna Ivarsson|44år, Socionom, Landskrona
+C|417994|49|K|Anette Bergmasth|49 år, Förskolechef
+C|417995|63|K|Carina Tegnér|63 år, Socionom
+C|417996|46|M|Jonas Persson|46 år, Präst
+C|417997|18|K|Maja Rosenlind|18 år, Studerande
+C|417998|85|K|Birgitta Falk|85 år, Psykolog
+C|417999|51|K|Jasna Kumric|51 år, Förskollärare/dramapedagog
+C|418000|47|K|Ameli Frostell|47 år, Kommunikatör
+C|418001|38|K|Kristina Westman|38 år, Förändringsledare
+C|418002|32|K|Kiki Nilsenius|32 år, Äldrepedagog
+C|418003|47|M|Fredrik Ivarsson|47 år, Bitr.Rektor
+C|515703|47|M|Allan Dahlqvist|
+C|515704|60|K|Paula Asperkull|
+C|515953|29|K|Malin Klausson|
+C|49166|48|M|Torkild Strandberg|kommunstyrelsens ordförande, Landskrona
+C|106630|39|K|Lisa Flinth|Hven, 39 år
+C|106631|63|M|Bosse Lundgren|Centrum, 63 år
+C|38842|43|K|Camilla Knobblock|Landskrona
+C|38840|22|M|Karl Philip Nilsson|Landskrona
+C|106634|75|K|Gunlög Stenfelt|Väster, 75 år
+C|38847|56|K|Lena Benediktsson|Landskrona
+C|106636|47|M|Christian Roslander|Glumslöv, 47 år
+C|106637|42|K|Stina Hyltmark|Fäladen, 42 år
+C|106638|66|M|Jan Allan Beer|Centrum, 66 år
+C|106639|64|M|Mark Sarnik|Drottningen, 64 år
+C|106640|50|K|Line Hovrind Aslaksen|Borstahusen, 50 år
+C|106641|42|K|Malin Wikerberg|Borstahusen, 42 år
+C|106642|51|M|Tony Petersson|Västervång, 51 år
+C|38846|35|K|Jelena Dojcinovic|Landskrona
+C|106644|59|M|Martin C Hegardt|Landskrona
+C|106645|53|K|Liliana Bubalo|Fäladen, 53 år
+C|106646|51|M|Tage Olsin|Annelöv, 51 år
+C|106647|48|M|Per Eriksson|Borstahusen, 48 år
+C|106648|35|K|Helena Veraeus|Häljarp, 35 år
+C|106649|38|M|Asmir Emrovic|Öster, 38 år
+C|106650|45|K|Tina Olsson|Väster, 45 år
+C|106651|70|M|Håkan Andersson|Strandvägen, 70 år
+C|106652|48|K|Janica Andersson|Norra Borstahusen, 48 år
+C|106653|72|M|Anders G Lindblom|Centrum, 72 år
+C|38857|61|M|Bengt Petersson|Landskrona
+C|106657|55|K|Carina Jörgensdotter|Nyhamn, 55 år
+C|106661|53|M|Per Mejborn|Väster, 53 år
+C|106658|38|K|Jasminka Radevic|Väster, 38 år
+C|106654|44|M|Mattias Adolfsson|Fäladen, 44 år
+C|106655|27|K|Caroline Kamph|Borstahusen, 27 år
+C|106659|59|M|Peter Thunholm|Väster, 59 år
+C|106660|57|K|Ann-Kristin Sarnik|Drottningen, 57 år
+C|106662|55|K|Annica Egvärn|Fäladen, 55 år
+C|106663|48|M|Bashkim Jashari|Karlslund, 48 år
+C|106664|64|K|Birgitta Wettersand|Centrum, 64 år
+C|106665|79|M|Ingvar Olsson|Centrum, 79 år
+C|106666|41|K|Charlotta Manderius|Borstahusen, 41 år
+C|106667|43|K|Sara Anthonsen|S:t Olof, 43 år
+C|106668|62|K|Gunilla Berthagen|Glumslöv, 62 år
+C|106669|53|M|Anders Holmander|Esperanza, 53 år
+C|106670|46|K|Alenka Cernec|Svaneholm, 46 år
+C|106671|51|K|Eija Viitasaari|Glumslöv, 51 år
+C|106672|43|M|Carl-Johan Nordeklint|Fäladen, 43 år
+C|106673|49|K|Marie Holmander|Sandvången, 49 år
+C|106674|40|K|Mastibegim Milikbekova|Springaren, 40 år
+C|106675|69|K|Ingrid Sjögren|Nyhamn, 69 år
+C|106676|71|M|Leif Arne Linné|Strandvägen, 71 år
+C|106677|46|K|Mirjana Nedeljkovic|Centrum, 46 år
+C|106678|25|K|Maria Beer|Centrum, 25 år
+C|106679|74|K|Sigyn Nilsson Broberg|Sundvik, 74 år
+C|106680|58|M|Håkan Löfgren|Nyhamn, 58 år
+C|106681|74|K|Rose- Marie Ahrén|Nyhamn, 74 år
+C|106682|56|K|Carina Lehrecke|Borstahusen, 56 år
+C|106683|37|M|Christian Andersson|Nyvång, 37 år
+C|106684|41|K|Krisztina Csiki Helg|Centrum, 41 år
+C|106685|69|K|Monica Möller|Nyhamn, 69 år
+C|153313|64|M|Mats Wilhelmsson|Strandvägen, 64 år
+C|106686|73|K|Karin Strandberg|Centrum, 73 år
+C|106687|53|M|Tony Christensen|Centrum, 53 år
+C|106688|63|K|Marita Granström|Häljarp, 63 år
+C|106689|52|M|Krister Olsson|Västra Fäladen, 52 år
+C|106690|56|K|Carina Jeppsson|Centrum, 56 år
+C|106691|59|M|Stefan Bieder|Öster, 59 år
+C|106692|72|K|Eva Zachrisson|Tornet, 72 år
+C|106693|65|M|Björn Lilja|Fäladen, 65 år
+C|106694|36|K|Jenny Hedelin|Centrum, 36 år
+C|106695|76|M|Ola Stenfelt|Väster, 76 år
+C|106696|72|M|Alf-Erik Bondesson|Väster, 72 år
+C|106697|75|M|Christer Strandberg|Centrum, 75 år
+C|106698|74|M|Bo Bjesse|Hven, 74 år
+C|106699|54|K|Susann Cardell|Centrum, 54 år
+C|19812|34|M|Elvir Mesanovic|Kommunalråd, 34 år, Landskrona
+C|92145|71|K|Lilian Håkansson|Pensionär, 71 år
+C|19808|23|M|Jesper Olsson|Studerande, 23 år, Landskrona
+C|20823|67|K|Angelika Andersson|Distriktssköterska, 67 år, Landskrona
+C|92148|23|M|Robin Theander|Studerande, 23 år
+C|92149|42|K|Emira Ramic|Lärare, 42 år
+C|92150|78|M|Gerrit Hoogendoorn|Pensionär, 78 år
+C|92151|31|K|Vildana Basic|Lärare, 31 år
+C|92152|61|K|Ingrid Thörnblad Persson|Tidningsbud, 61 år
+C|92153|23|M|Liridon Shefketi|Kock, 23 år
+C|92154|50|M|Abdulfatah Abdi|Personligt ombud, 50 år
+C|92155|65|K|Marie Hultqvist|Pensionär, 65 år
+C|56921|47|M|Torbjörn Brorsson|47 år, kommunalråd, Landskrona
+C|56922|23|K|Martina Roslund|23 år, socionom, Landskrona Väster
+C|56923|49|M|Peder Keiller Alberoth|49 år, försäljningschef, Landskrona
+C|56924|74|K|Ingrid Jerlsten|74 år, f.d. enhetschef, Borstahusen
+C|56925|62|M|Sven Persson|62 år, f.d. VD, Landskrona Centrum
+C|56926|37|K|Annika Segerlund|37 år, verksamhetschef, Asmundtorp
+C|56927|63|M|Hans Raita|63 år, civilekonom, Landskrona
+C|56928|73|M|Peder Weibull|73 år, prof. emeritus, Landskrona Centrum
+C|56929|72|K|Birgitta Persson|72 år, f.d. personlig assistent, Landskrona
+C|56930|69|M|Leif Thorsell|69 år, ingenjör, Vadensjö
+C|56931|74|M|Ole Maathz|74 år, inspektör, Landskrona Väster
+C|56932|71|M|Lennart Pettersson|71 år, f.d. socialchef, Glumsöv
+C|56933|52|M|Johan Sten|52 år, ekonom, Asmundtorp
+C|56934|75|K|Bodil Möller|75 år, f.d. terminalchef, Landskrona
+C|56935|75|M|Jan-Åke Lindström|75 år, f.d. enhetschef, Landskrona
+C|56936|52|M|Pelle Persson|52 år, ingenjör, Landskrona Centrum
+C|56937|39|M|Karl-Johan Bergstrand|39 år, forskare, Asmundtorp
+C|56938|20|K|Fredrika Viberg|20 år, entreprenör, S:t Ibb
+C|56939|73|M|Björn Persson|73 år, civilingenjör, Häljarp
+C|56940|28|K|Johanna Raita|28 år, skolpsykolog, Landskrona
+C|56941|44|M|Martin Ström|44 år, lärare, Landskrona
+C|56942|59|K|Ewa Löfvendahl|59 år, medicinsk sekreterare, Landskrona
+C|56943|76|M|John Kristoffersson|76 år, hortonom, Landskrona
+C|56944|60|M|Göran Allan Näsström|60 år, kontorist, Landskrona
+C|56945|70|M|Lennart Söderberg|70 år, företagare, Landskrona Centrum
+C|83997|52|M|Stefan Olsson|52, Kommunalråd
+C|83998|30|M|Daniel Engström|Teknologie magister, Landskrona
+C|83999|67|K|Kerstin Stein Sandell|66, Pensionär
+C|84000|67|K|Britta Hellström|67, Ekonom
+C|84001|30|M|Daniel Petersson|Kommunpolitiker, Landskrona
+C|84002|73|M|Bengt Hellström|73, Ingenjör
+C|84003|32|M|Emil Fennstam|31, Anbudsingenjör
+C|84004|58|M|Ulf Karlsson|58, Projektledare
+C|84005|44|M|Fredrik Löfberg|44, Idrottsledare
+C|84006|38|M|Fredrik Malm|Ekonom, 38 år
+C|84007|68|M|Olov Stråmark|Lantmästare, 68 år
+C|84008|80|M|Curt-Erik Jansson|79, Lärare
+C|84009|71|K|Mona Andersson|70, Kanslist
+C|84010|53|M|Lars Ekvall|53, Digitaliserare
+C|84011|70|M|Lennart Nilsson|69, Säljare
+C|84012|53|K|Pia Törncrantz|52, Projektledare
+C|84013|77|M|Alf Andersson|77, Utbildningsledare
+C|84014|31|K|Tina Söderberg|31, Köksbiträde
+C|84015|70|M|Christer Björklund|70, Snickare
+C|84016|68|M|Lennart Carlsson|68, Pensionär
+C|84017|31|K|Mia Lisetth Hagerman|31, Sanitetstekniker
+C|84018|57|M|Per Olsen|57, Skeppsbyggare
+C|84019|61|K|Mila Ottosson|60, Personlig assistent
+C|84020|70|K|Kristina Drwiega Magnusson|70, Sjukgymnast
+C|84021|65|M|Gunnar Ottosson|64, Ekonom
+C|84022|45|K|Lise-Lotte Jönsson|45, Köksansvarig
+C|84023|51|M|Anders Kristensson|51, Konsult
+C|84024|31|M|Andrée Mitrovic|31, Tvätteriarbetare
+C|84025|71|K|Katarina Elsässer|71, Ekonom
+C|84026|57|K|Anette Olsson|57, Undersköterska
+C|84027|88|M|Gert Nevhagen|88, Företagsledare
+C|431293|69|M|Erling Hansen|Landskrona
+C|431301|70|M|Thord Lindblom|Landskrona
+C|431305|69|M|Jan-Åke Sajewicz|Landskrona
+C|431311|69|M|Ronny Lindberg|Landskrona
+C|431323|77|M|Rolf Jönsson|Landskrona
+C|431320|68|K|Elsa Hansen|Landskrona
+C|110194|48|K|Christine Lenander|socialarbetare, Landskrona
+C|110195|33|M|Magnus Roslund|kundtjänstmedarbetare, Landskrona
+C|110196|62|K|Jelica Pejkic|förtidspensionär
+C|110197|28|M|David Bergström|elevresurs
+C|110198|64|K|Maja Anselius|pensionär, Sankt Ibb
+C|110199|66|M|Kjell Anselius|pensionär, Sankt Ibb
+C|110200|52|M|Ali Hadrous|lärare
+C|110201|30|K|Emelie Helin|verksamhetsutvecklare
+C|110202|44|M|Frederick Linderos|järnvägsarbetare, Landskrona
+C|110203|24|M|Vinzent Lenander|student

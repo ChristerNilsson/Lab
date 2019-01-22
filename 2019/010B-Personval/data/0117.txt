@@ -1,11 +1,244 @@
-2|194577|71214|97716|97703|97720|194582|194583|97713|97714|194586|194587|194588|194589|194590|194591|194592|194593|194594|194595|194596|194597|194598|194599|194600|194601|194602|194603|194604|194605|194606|194607|194608|194609|194610|194611|194612|194613
-4|86904|113681|113682|113683|76958|113685|113686|113687|113688|113689|113690|113691|113692|113693|113694|113695|113696|113697|113698|113699
-68|158088|158089|158090|158091|158092|158093|158094|158095|158096|158097|158098|158099|158100|158101|158102|158103|158104|158105|158106|158107|158108|158109
-3|23090|23091|23092|23093|23094|23095|23096|23097|23098|23099|23100|23101|23102|23103|23104|23105|23106|23107|23108|23109|23110|23111|23112|23113|23114
-55|238630|238631|238632|238633|238634|238635|238636|238637|238638|238639|238640|238641|238642|238643|238644|238645
-1|20148|20149|12795|20151|20152|20153|20154|20155|12801|20157|20158|20159|20160|20161|20162|20163|20164|20165|20166|20167|20168|20169|20170|20171|20172|20173|20174|20175|20176|20177|20178|20179|20180|20181|20182|20183|20184|20185|20186
-524|510704
-465|157586|157587|157588|157589|157590|157591|157592|157593|157594|157595|157597|157598|157599|157600|157601|157602|157603|157604|157605|157606|157607|157608|157609|157610
-110|150572|150566|281164|281165|150589|281167|150622|281169|281170|281171|281190|281191|281172
-5|217468|217469|217470|217471|217472|217473|217474|217475|217476|217477|217478|217479|217480|217481|217482
-150|313160|313159|313158|313157|313156|313155|313154|313153|313152|313151|313150
+T|Österåker
+A|2|194577|71214|97716|97703|97720|194582|194583|97713|97714|194586|194587|194588|194589|194590|194591|194592|194593|194594|194595|194596|194597|194598|194599|194600|194601|194602|194603|194604|194605|194606|194607|194608|194609|194610|194611|194612|194613
+A|4|86904|113681|113682|113683|76958|113685|113686|113687|113688|113689|113690|113691|113692|113693|113694|113695|113696|113697|113698|113699
+A|68|158088|158089|158090|158091|158092|158093|158094|158095|158096|158097|158098|158099|158100|158101|158102|158103|158104|158105|158106|158107|158108|158109
+A|3|23090|23091|23092|23093|23094|23095|23096|23097|23098|23099|23100|23101|23102|23103|23104|23105|23106|23107|23108|23109|23110|23111|23112|23113|23114
+A|55|238630|238631|238632|238633|238634|238635|238636|238637|238638|238639|238640|238641|238642|238643|238644|238645
+A|1|20148|20149|12795|20151|20152|20153|20154|20155|12801|20157|20158|20159|20160|20161|20162|20163|20164|20165|20166|20167|20168|20169|20170|20171|20172|20173|20174|20175|20176|20177|20178|20179|20180|20181|20182|20183|20184|20185|20186
+A|524|510704
+A|465|157586|157587|157588|157589|157590|157591|157592|157593|157594|157595|157597|157598|157599|157600|157601|157602|157603|157604|157605|157606|157607|157608|157609|157610
+A|110|150566|281165|150589|281167|150622|281169|281170|281171|281190|281191|281172
+A|5|217468|217469|217470|217471|217472|217473|217474|217475|217476|217477|217478|217479|217480|217481|217482
+A|150|313160|313159|313158|313157|313156|313155|313154|313153|313152|313151|313150
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|524|PP|Piratpartiet
+B|465|ROSP|Roslagspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|150|ÖP|Österåkerspartiet
+C|194577|61|K|Ann-Christine Furustrand|61 Oppositionsråd
+C|71214|38|M|Anas Abdullah|38, Egenföretagare, Österåker
+C|97716|73|K|Margareta Olin|73, Fd kommunalråd, Fd kanslichef, Österåker
+C|97703|66|M|Mats Larsson|66,Pensionär,Österåker
+C|97720|69|K|Rosita Olsson Palmberg|69, Österåker
+C|194582|55|M|Jörgen Palmberg|55 Kriminalvårdare
+C|194583|56|K|Ingela Westerlund|57 Förskolelärare
+C|97713|58|M|Lars Frid|58, Kock,  Österåker
+C|97714|68|K|Kristina Embäck|68, Pensionär, Österåker
+C|194586|65|M|Anders Pettersson|65 Konsult
+C|194587|26|K|Amanda Ringstedt|26 Förskolelärare
+C|194588|64|M|Hans Boström|64 Verkställande direktör
+C|194589|65|K|Eva Börjesson|65 Vårdare
+C|194590|62|M|Tommy Rindvall|62 IT-tekniker
+C|194591|50|K|Cecilia Ringstedt|50 Förskolelärare
+C|194592|69|M|Carl-Henrik Lekman|70 Projektledare
+C|194593|36|K|Reband Raza|35 Utvecklingshandläggare
+C|194594|54|M|Klas-Göran Wändesjö|54 Civilanställd
+C|194595|76|K|Gunilla Niss|76 Psykolog
+C|194596|38|M|Krister Wicander|37 Ombudsman
+C|194597|58|K|Elisabeth Karlstedt|58 Ekonomibiträde
+C|194598|43|M|Daniel Lundin|43 Ombudsman
+C|194599|69|K|Hilda Gonzales|68 Samordnare
+C|194600|66|M|Kjell Eliasson|66 Pensionär
+C|194601|47|K|Frida Hultqvist Wård|47 Chefssjuksköterska
+C|194602|68|M|Kjell Johansson|68 fd. Kommundirektör
+C|194603|72|K|Majvor Tidbeck|73 Pensionär
+C|194604|43|M|Dan Jonsson|44 Kriminalvårdare
+C|194605|59|K|Birgitta Karlsson|59 Kriminalvårdare
+C|194606|63|M|Rikard Hervidsson|5, Chafför
+C|194607|76|K|Birgitta Agervi|76 fd. Arbetsförmedlingschef
+C|194608|62|M|Roger Lindahl|61 Kordinator
+C|194609|79|M|Carlos Nunez|78 Pensionär
+C|194610|75|M|Leif Pettersson|75 Pensionär
+C|194611|73|M|Berndt Johansson|72 Polis pensionär
+C|194612|76|M|Reynoldh Furustrand|76 Pensionär
+C|194613|74|M|Kurt Berntsson|73 fd. VD
+C|86904|39|K|Michaela Haga|39, Österåker, Civilekonom
+C|113681|45|K|Anne-Li Hilbert|45, Österåker, Fotograf
+C|113682|74|M|Björn Pålhammar|74, Åkersberga, Mentor
+C|113683|61|K|Monica Hinders|Pensionär Ingmarsö
+C|76958|60|K|Christine Segard|61, Österåker, Ekonomiansvarig
+C|113685|39|M|Pontus Löfstrand|Entreprenör förnybar energi Hagbyhöjden
+C|113686|44|K|Tove Eriksson|Integrationsstrateg Hästängsudd
+C|113687|42|M|Henrik Olson|Företagare Tuna
+C|113688|31|M|Joakim Ekelund|Lantbrukare/Civilingenjör Ljusterö
+C|113689|51|M|Magnus Wallerå|PR-konsult Lappdal
+C|113690|48|K|Carina Robin Siljebro|Assistent Hacksta-Berga
+C|113691|48|M|Lars Rutgersson|Yrkesofficer Smedby
+C|113692|73|M|Clas Boström|Jägmästare Roslags-Kulla
+C|113693|74|M|Mats Ifvarsson|Statsvetare Åkersberga
+C|113694|47|M|Per Le Mon|Elektriker Margeretelund
+C|113695|20|M|Isac Kopsch|Butiksbiträde Åkersberga
+C|113696|43|K|Nada Kotob|Apotekare Tuna
+C|113697|40|M|Gustav Löfgren|Verksamhetsplanering/Styrning Lilla Säby/Norrö
+C|113698|69|K|Marie-Louise Brännfors|Pensionär Ekbacken
+C|113699|68|M|Bo Lundin|68, Österåker, Företagare
+C|158088|69|M|Arne Ekstrand|69, Senior, Österåker
+C|158089|59|M|Mikael Ottosson|59, Brevbärare, Österåker
+C|158090|53|M|Magnus Hultgren|Skärgårdsstad
+C|158091|74|K|Kerstin Sundberg|Österskär
+C|158092|52|K|Kajsa Hellstedt|Margaretelund
+C|158093|36|K|Magdaléne Ottosson|Flaxenvik
+C|158094|52|M|Kenneth Drake Af Hagelsrum|Åkersberga
+C|158095|73|K|Sandra Korse|Åkersberga
+C|158096|50|M|Ulf Nyman|Margaretelund
+C|158097|77|M|Jan Winberg|Tuna
+C|158098|32|M|Robin Ardell|Margaretelund
+C|158099|72|K|Elisabeth Toller|Isätraviken
+C|158100|73|M|Fred Ståhlgren|Söra
+C|158101|52|K|Carina Öberg|Österskär
+C|158102|77|M|Lars Andersson|Skånsta
+C|158103|40|K|Maria Olin|Margaretelund
+C|158104|51|M|Mats Dalenbring|Margaretelund
+C|158105|75|M|Lars-Erik Korse|Åkersberga
+C|158106|49|K|Marie Samuelsson|Sjökarby
+C|158107|39|M|Andreas Rosengren|Täljö
+C|158108|54|M|Clas Sundberg|Åkersberga
+C|158109|59|M|Tommy Bernevång-Forsberg|59, Politisk sekreterare, Österåker
+C|23090|44|M|Mathias Lindow|kommunalråd, Österåker
+C|23091|41|K|Jenny Nordström|42 år, Rektor, Skärgårdsstad
+C|23092|53|M|Peter Bilow|53 år, Säljare, Skärgårdsstad
+C|23093|67|K|Monica Kjellman|leg sjukgymnast, Österskär
+C|23094|70|K|Ritva Elg|pensionär, Åkersberga
+C|23095|32|K|Sofia Almgren|32 år, Leg. Sjuksköterska, Berga
+C|23096|68|M|Thomas Kjellman|68 år, Fd. gymnasieadjunkt i kemi och biologi, Österskär
+C|23097|59|M|Jörgen E. Berglund|59 år, Civilekonom, Österskär
+C|23098|58|M|Björn Winnerfeldt|egen företagare, Åkersberga
+C|23099|65|K|Kerstin Lidman|socialchef, Österskär
+C|23100|54|K|Birgitta Johansson|53 år, Nämnd- och chefsekreterare, Svinninge
+C|23101|46|M|Johan Dagerhamn|skyddsvakt, Åkersberga
+C|23102|71|K|Karin Piehl Aulin|70 år, Läkare, Åkerstorp
+C|23103|82|M|Sven Hugosson|82 år, Pensionerad överingenjör, Margretelund
+C|23104|72|M|Åke Thomasson|72 år, Pensionär/tidigare musiker, Österskär
+C|23105|70|M|Gunnar Widforss|70 år, Pensionär, Östra Kanalstaden
+C|23106|34|K|Linn Muhr|34 år, Broadcastchef, Österskär
+C|23107|69|M|Peter Lander|69 år, Civilekonom, Österskär
+C|23108|19|M|Rasmus Bilow|19 år, Studerande, Skärgårdsstad
+C|23109|48|K|Anna Karbelius|48 år, Arbetssökande, Österskär
+C|23110|71|M|Lennart Elg|71 år, Pensionär, Berga
+C|23111|75|M|Olle Broman|53 år, Ekonom, Byvik
+C|23112|71|K|Kerstin Nilsson|70 år, Egenföretagare, Rydbo
+C|23113|76|M|Bertil Olin|76 år, Pensionär, Söra
+C|23114|74|M|Bengt Svensson|75 år, Fd. kommunalråd, Berga
+C|238630|51|M|Jonas Jonsson|universitetsadjunkt, Söra
+C|238631|58|M|Michael Solander|försäljare, Lervik
+C|238632|54|M|Svante Johansson|programmerare, Tuna Gård
+C|238633|42|M|Ronny Ekström|servicetekniker, Österskär
+C|238634|51|M|Andreas Grünewald|egenföretagare och yogalärare, Svinninge
+C|238635|44|K|Heidi Stapf Ekström|socionom, Österskär
+C|238636|48|M|Mattias Lafvas|maskiningenjör, Hacksta
+C|238637|51|K|Eva-Lena Rodrigo|leg. distriktssköterska, Smedby
+C|238638|48|M|Kenneth Johansson|personlig assistent, Hacksta
+C|238639|41|K|Immaculate Kolo Okello|tolk och översättare, Margretelund
+C|238640|41|K|Sara Kjernholm|ekonom, Söra
+C|238641|41|K|Gabrielle Solander|specialistundersköterska inom psykiatri, Hacksta
+C|238642|24|M|Douglas Albinsson|montör, Österskär
+C|238643|48|K|Monique Stalås Hörnsten|49, frilansjournalist, Österåker
+C|238644|75|M|Lars Magnusson|tekniker, Storhagen
+C|238645|74|K|Britt-Marie Loddby|lärare, Storhagen
+C|20148|52|K|Michaela Fletcher|52, Kommunstyrelseordförande, Åkersberga
+C|20149|53|M|Hampe Klein|53, Överstelöjtnant, Margretelund
+C|12795|40|K|Eliza Roszkowska Öberg|40, Affärsområdeschef
+C|20151|66|M|Johan Boström|66, fd Marknadschef, Östanå
+C|20152|70|K|Christina Funhammar|70, Ekonom, Ljusterö
+C|20153|74|K|Ingela Gardner|74, Rektor, Rydbo
+C|20154|73|M|Kenneth Netterström|73, fd Överstelöjtnant, Åkersberga
+C|20155|43|K|Isabelle Ankarfjärd Jäger|43, Primärvårdchef, Bammarboda
+C|12801|30|K|Jeanette Widén|30, Politisk sekreterare
+C|20157|63|M|Conny Söderström|63, Bevakningschef, Solhaga
+C|20158|51|M|Fredrik Rosengren|51, Båtbyggare
+C|20159|55|K|Anneli Hogreve|55, Lärare
+C|20160|67|M|Conny Ling|67, Överstelöjtnant, Margretelund
+C|20161|52|K|Camilla Grimsby Klein|52, leg. Sjuksköterska, Margretelund
+C|20162|63|K|Lotta Holmgren|63, Författare, Söra
+C|20163|24|K|Josefine Radonné|24, Marknadsförare, Åkersberga
+C|20164|65|K|Anneli Widén|65, Verksamhetssamordnare, Söra
+C|20165|77|M|Bror Jansson|77, Egenföretagare, Söra
+C|20166|65|M|Berndt Hogreve|65, IT-Konsult, Täljö
+C|20167|64|M|Mats Höjbrant|64, Civilingenjör
+C|20168|74|M|Gunnar Hallberg|74, fd Controller
+C|20169|73|K|Birgitta Netterström|73, fd Barnskötare, Åkersberga
+C|20170|61|M|Gunnar Fristedt|61, Ekonomidirektör, Skärgårdsstad
+C|20171|34|M|Richard Orgård|34, HR-chef, Margretelund
+C|20172|46|K|Annika Lööv|46, Inköpschef, Skärgårdsstad
+C|20173|57|M|Johan Carselind|57, Avdelningschef, Österskär
+C|20174|42|M|Kim Skerving|42, Samhällsvetare
+C|20175|43|M|Peter Rönnlund|43, Officer
+C|20176|60|K|Mia Hinndal Bellander|60, Historiker
+C|20177|53|K|Anna Maria Tipper|53, Civilekonom, Rydbo
+C|20178|58|M|Claes Robell|58, Redovisningskonsult, Österskär
+C|20179|74|M|Bengt Holm|74, Projektledare, Skånsta
+C|20180|81|M|Göran Enwall|81, fd Förvaltningschef, Söra
+C|20181|85|M|Ulf Ellnebrant|85, Pensionär, Åkersberga
+C|20182|47|M|Jens Jäger|47, Polisinspektör, Bammarboda
+C|20183|57|K|Eva-Lena Axelsson|57, Ekonom, Åkersberga
+C|20184|71|K|Marie-Louise Sund Dütsch|71, Sjuksköterska, Lervik
+C|20185|74|K|Ann-Katrine Flodén|74, Informatör, Ljusterö
+C|20186|67|K|Catharina Hellberg|67, Chefsassistent, Stava
+C|510704|65|M|Bror Richard Valdemar Ledin|
+C|157586|66|M|Hans Hellberg|
+C|157587|75|M|Björn Molin|
+C|157588|65|M|Roger Johansson|
+C|157589|72|M|Ivar Horst|
+C|157590|61|M|Peter Nummert|
+C|157591|73|M|Staffan Lundmark|
+C|157592|45|M|Erik Lorinder|
+C|157593|66|M|Thomas Klementsson|
+C|157594|73|M|Sven Ragnelid|
+C|157595|58|K|Madeleine Höckenström|
+C|157597|78|M|Nils Boström|
+C|157598|66|M|Benny Hansen|
+C|157599|73|M|Per Johannisson|
+C|157600|44|M|Johan Selenius Rosengren|
+C|157601|73|M|Jan Thörnholm|
+C|157602|69|M|Håkan Fastesson|
+C|157603|79|M|Leif Svensson|
+C|157604|62|M|Lars Samuelsson|
+C|157605|66|K|Anne-Louise Wikingbro|
+C|157606|71|K|Laila Selkälä|
+C|157607|73|K|Lena Molin|
+C|157608|67|K|Heidie Hellberg|
+C|157609|74|K|Karin Powell Lundmark|
+C|157610|74|K|Birgitta Halling|
+C|150566|44|M|Erik De Rouville|44, internrevisor, Österåker
+C|281165|46|K|Ulrika Hillgren|46 år, Undersköterska
+C|150589|35|M|Thomas Rapola|35, platschef, Österåker
+C|281167|58|M|Bo Blomgren|58 år, leg. Läkare, ph.D.
+C|150622|71|M|Lennart Ljungqvist|71, pensionär, Österåker
+C|281169|77|K|Karin Granström|77 år, Pensionär
+C|281170|57|M|Anders Borelid|57 år, Lastbilschaufför
+C|281171|71|M|Leif Karlsson|71 år, Pensionär
+C|281190|56|K|Carina Rosengren|56 år, Sjukskriven
+C|281191|65|M|Leif Hermansson|65 år, Pensionär
+C|281172|72|M|Peter Markum|72 år
+C|217468|47|M|Francisco Contreras|Statstjänsteman
+C|217469|24|M|Andreas Lennkvist Manriquez|Österåker, statsvetarstudent
+C|217470|42|K|Norma Aznar|Rektor
+C|217471|68|K|Christina Wulff|Rektor
+C|217472|35|K|Josefina Fogelin|Kommunikatör
+C|217473|65|M|Nils Edspång|Kriminalvårdare
+C|217474|29|K|Aline Rojas Österlind|Studievägledare
+C|217475|20|M|Aliagha Ahmadi|Studerande
+C|217476|36|K|Malin Nikunlassi|Vårdare inom LSS
+C|217477|43|M|Daniel Lagunas|Fritidsledare
+C|217478|31|M|Peter Schön|Aktiv i Tillsammans Åkersberga
+C|217479|44|M|Daniel Estius|Sjöman
+C|217480|43|M|Luis Rojas Aravena|Kriminalvårdare
+C|217481|67|M|Urban Dunell|Folkhögskollärare
+C|217482|72|K|Eva Mindesparr|Hem- och konsumentlärare
+C|313160|68|M|Lennart Berneklint|
+C|313159|67|K|Maria Ullenius|
+C|313158|74|M|Franz Heinel|
+C|313157|71|M|Lars Nilsson|
+C|313156|64|M|Lennart Janefalk|
+C|313155|64|K|Margareta Janefalk|
+C|313154|70|M|Björn Gerz'en|
+C|313153|58|K|Halina Berneklint|
+C|313152|71|M|Bert Niska|
+C|313151|54|K|Elzbieta Heinel|
+C|313150|57|K|Carola Larsson|

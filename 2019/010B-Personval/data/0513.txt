@@ -1,67 +1,265 @@
-1365|509130
-1423|509130
-2|44666|44667|44668|44669|44670|44823|44824|44825|44826|44827|44828|44840|44841|44842|44843|78181|78182|78183|78184|78185|78186|78187|78188|78189|78345|78346|78347|78348
-1420|509130
-1372|509130
-1375|509130
-4|41673|41674|14337|41678|12035|41680|41679|72006|41681|41676|72009|72010|41682|41683|41684|41685|41686|41687
-1318|509130
-1387|509130
-1314|509130
-1351|509130
-29|509130
-532|509130
-1329|509130
-1388|509130
-1317|509130
-1406|509130
-1173|509130
-1176|509130
-1316|509130
-1374|509130
-1416|509130
-1405|509130
-68|251065|251066|251067|251068|251069|251070|251071|251072|251073|251074|251075|251076|251077
-1140|509130
-1011|123803|123837|124127|124128|124133|124175|124176
-3|49184|248136|248137|248138|248139|248140|248141|248142|248143|248144|248145
-518|509130
-1345|509130
-1330|509130
-55|415597|419795|419796|419797|419798|419799|419800|419801|419802|419803|419804
-1|12899|12897|3328|25688|25689|25690|25691|25692|25693|25694|25695|25696|25697|25698|25699|25700
-1380|509130
-1378|509130
-1399|509130
-1415|509130
-1385|509130
-1418|509130
-1391|509130
-1408|509130
-1371|509130
-1347|509130
-1389|509130
-1202|509130
-1409|509130
-172|509130
-1397|509130
-522|509130
-1421|509130
-1376|509130
-1414|509130
-1384|509130
-110|79784|79785|79786|79787|79788|79789|79790|79791|79792|79793|79794|160713
-1396|509130
-1063|509130
-1400|509130
-1328|509130
-1386|509130
-1422|509130
-1332|509130
-1349|509130
-1417|509130
-1412|509130
-1138|509130
-5|71575|78605|78606|78607|78608|75522|75521|78611|78613|78614|78615|75524|78618
-1407|509130
-1404|509130
+T|Kinda
+A|1365|509130
+A|1423|509130
+A|2|44666|44667|44668|44669|44670|44823|44824|44825|44826|44827|44828|44840|44841|44842|44843|78181|78182|78183|78184|78185|78186|78187|78188|78189|78345|78346|78347|78348
+A|1420|509130
+A|1372|509130
+A|1375|509130
+A|4|41673|41674|14337|41678|12035|41680|41679|72006|41681|41676|72009|72010|41682|41683|41684|41685|41686|41687
+A|1318|509130
+A|1387|509130
+A|1314|509130
+A|1351|509130
+A|29|509130
+A|532|509130
+A|1329|509130
+A|1388|509130
+A|1317|509130
+A|1406|509130
+A|1173|509130
+A|1176|509130
+A|1316|509130
+A|1374|509130
+A|1416|509130
+A|1405|509130
+A|68|251065|251066|251067|251068|251069|251070|251071|251072|251073|251074|251075|251076|251077
+A|1140|509130
+A|1011|123803|123837|124127|124128|124133|124175|124176
+A|3|49184|248136|248137|248138|248139|248140|248141|248142|248143|248144|248145
+A|518|509130
+A|1345|509130
+A|1330|509130
+A|55|415597|419795|419796|419797|419798|419799|419800|419801|419802|419803|419804
+A|1|12899|12897|3328|25688|25689|25690|25691|25692|25693|25694|25695|25696|25697|25698|25699|25700
+A|1380|509130
+A|1378|509130
+A|1399|509130
+A|1415|509130
+A|1385|509130
+A|1418|509130
+A|1391|509130
+A|1408|509130
+A|1371|509130
+A|1347|509130
+A|1389|509130
+A|1202|509130
+A|1409|509130
+A|172|509130
+A|1397|509130
+A|522|509130
+A|1421|509130
+A|1376|509130
+A|1414|509130
+A|1384|509130
+A|110|79784|79785|79786|79787|79788|79789|79790|79791|79792|79793|79794|160713
+A|1396|509130
+A|1063|509130
+A|1400|509130
+A|1328|509130
+A|1386|509130
+A|1422|509130
+A|1332|509130
+A|1349|509130
+A|1417|509130
+A|1412|509130
+A|1138|509130
+A|5|71575|78605|78606|78607|78608|75522|75521|78611|78613|78614|78615|75524|78618
+A|1407|509130
+A|1404|509130
+B|1365||20% skattepartiet
+B|1423||Allians för Sverige
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1420||ASYL.NUPARTIET
+B|1372||Basinkomstpartiet
+B|1375||Bg-Demokrati
+B|4|C|Centerpartiet
+B|1318|CSIS|Common sense in Sweden
+B|1387||Demokrati Sverige
+B|1314||Demokratirörelsen
+B|1351||Det nya partiet
+B|29|EAP|Europeiska Arbetarpartiet-EAP
+B|532|FI|Feministiskt initiativ
+B|1329||Final Partiet
+B|1388||Folkhemmet Sverige
+B|1317||Folkstyret
+B|1406||Generation Utveckling
+B|1173|Gup|Gula Partiet
+B|1176|HumDe|Humandemokraterna
+B|1316||iGov.Direct®
+B|1374||Initiativet
+B|1416|iP|iP-IDROTTSPARTIET-Rädda Stadshagens IP!
+B|1405||Kosmopolitiska Partiet
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|518||LOTTOKRATIN
+B|1345||LÅNGEN&CO
+B|1330||Medborgarresan
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1380||Modern Sweden
+B|1378||Norrlandspartiet
+B|1399||NPP Nya Pensions Partiet
+B|1415||numen kärlekspartiet
+B|1385||NY REFORM
+B|1418||Nya bjornska partiet
+B|1391||nya Ny Demokrati
+B|1408||Papepartiet
+B|1371||Partiet Folkomröstning
+B|1347||POPULISTERNA
+B|1389||Raggarpartiet
+B|1202|RNP|Reformist Neutral Partiet
+B|1409||Rosa Drömmar
+B|172|SJP|Sjöbopartiet
+B|1397||Skolpartiet Göteborg
+B|522||Sociala Partiet (SP)
+B|1421||SOCIALLIBERALERNA
+B|1376||Spektral demokrati
+B|1414||Svensk Jobbdemokrati
+B|1384||Sverige ut ur EU/Frihetliga Rättvisepartiet (FRP)
+B|110|SD|Sverigedemokraterna
+B|1396||Sverigepartiet
+B|1063|SKP|Sveriges Kommunistiska Parti (SKP)
+B|1400||Technopartiet
+B|1328||Tryggare Sverige
+B|1386||Utveckling och Progressiv för Sverige partiet (U.P.S)
+B|1422||VALDI2018
+B|1332||Valsamverkanspartiet
+B|1349|ViS|Vi Socialkonservativa
+B|1417||Visiona
+B|1412||Vårt land - Sverige
+B|1138|VägV|Vägvalet
+B|5|V|Vänsterpartiet
+B|1407||Äkta demokrati
+B|1404||Ändrings partiet revolution
+C|509130|21|M|Marijn Ingmar Lorenzo Janssen|
+C|44666|66|M|Hans Måhagen|kommunalråd, Rimforsa
+C|44667|81|K|Ing-Britt Andersson|f.d.undersköterska, Kisa
+C|44668|54|M|Ulf Johansson|kommunanställd, Kisa
+C|44669|57|M|Conny Forsberg|v. förbundsdirektör, Kisa
+C|44670|76|K|Else-Marie Frisk|skötare, Rimforsa
+C|44823|69|M|Roger Rydström|69 år, pensionär, Kinda
+C|44824|50|M|Magnus Lidén|företagare, Rimforsa
+C|44825|44|K|Anna Eklund|undersköterska, Kisa
+C|44826|50|M|Morgan Wass|Kisa
+C|44827|60|M|Göran Ulván|Rimforsa
+C|44828|31|K|Zara Hagström|Rimforsa
+C|44840|61|M|Torbjörn Mellgren|61 år, kontrollant, Kinda
+C|44841|31|M|Emil Thuresson|biblioteksassistent, Kisa
+C|44842|56|K|Susanne Karlsson|ekonomiadministratör, Rimforsa
+C|44843|79|M|Sigvard Olsson|f.d. banktjänsteman, Rimforsa
+C|78181|60|K|Marie Thuresson|Kisa
+C|78182|68|M|Bo Ohlsson|Kisa
+C|78183|59|K|Karin Almlöf|konstnär, Rimforsa
+C|78184|47|M|Nickolaus Tataridis|Kisa
+C|78185|61|K|Ingela Brixlin|Kisa
+C|78186|27|M|Linus Nilsson|Kisa
+C|78187|46|K|Ann Hultén Nygren|fritidsledare, Kisa
+C|78188|23|M|Robert Wass|Kisa
+C|78189|57|K|Gisela Anderö|maskinoperatör, Kisa
+C|78345|68|M|Risto Laine|Kisa
+C|78346|23|K|Jenny Leander|teaterpedagog, Kisa
+C|78347|71|M|Evert Johansson|VD, Kisa
+C|78348|68|M|Torbjörn Gustavsson|pensionär, Kisa
+C|41673|54|M|Rickard Lindh|54 år, Chaufför, Kisa
+C|41674|51|K|Karin Ekholm|51 år, Lokalvårdare, Horn
+C|14337|51|M|Joakim Klasson|51 år, Verktygsmakare, Kisa
+C|41678|56|M|Wolldurf Skallbom|56 år, Hästentreprenör, Kisa
+C|12035|62|M|Anders Ljung|62 år, Entreprenör, Kinda
+C|41680|69|M|Tore Olsson|68 år, Pensionär, Gärdala
+C|41679|59|K|Marita Wolf|59 år, Lantbrukare, Hägerstad
+C|72006|47|M|David Oscarsson|47 år, Lantmästare, Årteryd
+C|41681|25|K|Karin S Ljung|25 år, Lärare, Horn
+C|41676|22|K|Evelina Lindh|22 år, Studerande, Kisa
+C|72009|56|K|Lottha Ed|56 år, Undersköterska, Horn
+C|72010|51|M|Magnus Peterson|51 år, Områdeschef, Rimforsa
+C|41682|58|M|Göran Nilsson|58 år, Lantbrukare, Hycklinge
+C|41683|60|M|Sven-Erik Lindholm|60 år, Vårdbiträde, Kisa
+C|41684|69|M|Carl-Inge Gustafsson|69 år, Hägerstad
+C|41685|71|K|Britt-Marie Lindholm|71 år, Kisa
+C|41686|82|M|Karl Ekholm|82 år, Horn
+C|41687|79|M|Göran Olsson|79 år, Kisa
+C|251065|53|K|Lena Käcker Johansson|Distriktssköterska, Rimforsa
+C|251066|68|M|Börje Karlsson|Lantbrukare, Horn
+C|251067|69|K|Minka Eriksson|Arbetsterapeut, Kisa
+C|251068|70|M|Ingevald Abrahamsson|Forskningsingenjör, Rimforsa
+C|251069|62|K|Marita Forsman|Fritidsledare, Rimforsa
+C|251070|46|M|Tobias Jansson|Gymnasielärare, Rimforsa
+C|251071|58|K|Anna Karlsson|Lantbrukare, Horn
+C|251072|65|M|Kalle Sandell|Bussförare, Kisa
+C|251073|37|K|Elisabeth Landerholm|Inredare, Rimforsa
+C|251074|68|M|Anders Olaison|Pastor, Kisa
+C|251075|56|K|Brittinger Petersson|Lantbrukare, Kisa
+C|251076|37|M|Fredrik Topplund|Politisk sekreterare, Linköping
+C|251077|45|K|Asha Sandell|Undersköterska, Kisa
+C|123803|54|M|Pierre Ländell|Underhållschef, Östergötland
+C|123837|52|M|David Wenhov|Företagare, Rimforsa
+C|124127|40|M|Daniel Braat|Företagare, Horn
+C|124128|56|M|Ulrik Saanum|Egenföretagare, Östergötland
+C|124133|44|K|Tina Malm|Undersköterska, Horn
+C|124175|45|K|Helena Ringdahl|Östergötland
+C|124176|52|M|Fredrik Rankleven|Handledare, Horn
+C|49184|45|M|Lars Karlsson|oppositionsråd, Kinda
+C|248136|31|M|Mikael Österling|fastighetsmäklare, Kinda
+C|248137|42|K|Veronica Gullbrandsson|guldsmed, Kinda
+C|248138|44|K|Sofie Rydell|privatrådgivare bank och försäkr., Kinda
+C|248139|76|M|Nils-Gunnar Wenhov|pastor, Kinda
+C|248140|41|M|Jörgen Nord|civilekonom, Kinda
+C|248141|41|K|Maria Levin|major, Kinda
+C|248142|36|M|Johan Henriksson|träningskoordinator, Kinda
+C|248143|41|M|Jan Österling|företagare, Kinda
+C|248144|53|M|Andy Finney|maskinförare, 53 år
+C|248145|23|M|Mikael Karlsson|montör, Kinda
+C|415597|52|M|Pontus Wessman|53, Företagare, Kisa
+C|419795|57|K|Christina Karlsson|57, Kommunikatör, Rimforsa
+C|419796|70|M|Claes Brandén|70, Folkbildare, Rimforsa
+C|419797|61|K|Margareta Holm|61, Biolog, Rimforsa
+C|419798|46|M|Markus Hall|46, Programmerare, Oppeby
+C|419799|41|K|Therese Görling|41, Lärare, Kisa
+C|419800|69|M|Per-Inge Ypevik|69, Egenföretagare, Rimforsa
+C|419801|41|K|Sanna Brynolf|41, Arkitekt, Söderö
+C|419802|41|K|Lena Runadotter|41, Fritidsledare, Oppeby
+C|419803|56|M|Jan Kindesjö|56, Ekonom, Horn
+C|419804|54|K|Charlotte Rydström|54, Handledare, Horn
+C|12899|63|M|Björn Hoflund|Kinda
+C|12897|57|K|Mona Damm|Kinda
+C|3328|68|M|Christer Segerstéen|Skogsbrukare, 68 år, Kinda
+C|25688|63|K|Anne Bergman Gustavsson|Kisa
+C|25689|75|M|Göran Lindgren|Horn
+C|25690|50|K|Malin Svensson|Kisa
+C|25691|39|M|Gustav Svensson|Horn
+C|25692|73|K|Siw Nordin|Tidersrum
+C|25693|50|M|Johan Igheimer|Rimforsa
+C|25694|72|K|Charlotte Storckenfeldt|Kisa
+C|25695|45|M|Anders Vaernéus|Kisa
+C|25696|67|K|Ann-Kathrine Segersteén|Kättilstad
+C|25697|68|M|Mats Ödgård|Kisa
+C|25698|59|M|Thomas Fransson|Rimforsa
+C|25699|70|M|Gösta Gustafsson|Kisa
+C|25700|64|M|Carl-Henrik Nilsson|Kisa
+C|79784|62|K|Christina Nilsson|Beteendevetare,Kinda
+C|79785|30|M|Christian Nordin Olsson|30, administratör
+C|79786|53|M|Peter Nilsson|53, kommunelektriker, Kinda
+C|79787|52|M|Mikael Lindell|52, företagare, Kinda
+C|79788|35|M|Marcus Edgar|35, mekaniker
+C|79789|45|M|Mats Åsenfalk|45, transmissionsingenjör, Kinda
+C|79790|54|M|Sigge Bergqvist|54, byggnadsarbetare
+C|79791|31|M|Tobias Ivarsson|31, industriarbetare, Kinda
+C|79792|38|K|Annelie Striem|38, maskinoperatör
+C|79793|54|M|Bo Glännbring|54, företagare
+C|79794|43|M|Magnus Edgar|43, CNC-operatör
+C|160713|71|M|Reino Edgar|71, pensionär
+C|71575|69|M|Anders Lind|68, Kisa
+C|78605|64|K|Kicki Stridh|65, Kisa
+C|78606|32|M|Erik Andersson|32, Kisa
+C|78607|68|K|Maj-Viol Thostrup|68, Rimforsa
+C|78608|33|M|Delzar Kaf|33, Kisa
+C|75522|65|M|Peter Wellerfors|65, Rimforsa
+C|75521|66|M|Björn Morell|66, Kisa
+C|78611|53|K|Monika Johansson|53, Rimforsa
+C|78613|22|M|Axel Morell|23, Kisa
+C|78614|31|M|Linus Stridh|31, Rimforsa
+C|78615|19|M|Asad Mohamuud|19, Kisa
+C|75524|74|K|Barbro Svensk|74, Rimforsa
+C|78618|61|M|Roger Nyman|61, Rimforsa

@@ -1,8 +1,248 @@
-2|83160|83161|83162|83163|83164|83165|83166|83167|83168|83169|83170|83171|83172|83173|83174|83175|83176|83177|83178|83179|83180|83181|83182|83183|83184|83185|83256|83257|83258|83259|83260|83261|83262|83263|83264|83265|83266|83267|83268|83269|83270|83271|83272|83273|83274
-4|124420|124421|124422|124423|124424|124425|124426|124427|124428|124429|124430|124431|124432|124433|124434|124435|124436|124437|124438|124439|15868|124441|124475|124476|124477|124478|124479|124480|124481|124482|124483|124484|124485|124486|124487|124488|124489|124490|124491|124492|124493|124494|124495|124522|124523|124524|124525|124526|124527|124528|124529|124530|124531|124532|124533|124534|124535|124536|124537|124538|124539|124540|124541|124542
-68|78269|78270|78271|78272|78273|78274|78275|78276|78277|78278|78279|78280|78281|78282|78283|78284|78285|78286|78288|78289|78290|78291|78292|78293|78294|78295|78287|78305|78313|78314|78315|78316|78318|78320
-3|204176|212921|230324|212914|230326|230327|212913|230329|230330|212927|212924|230333|230334|230335|230336|230337|230338|230339|230340|230341|230342|212918|230344|230345|230346
-55|233331|374583|374584|374585|374586|374587|374588|374589|374590|374591
-1|68833|1562|68835|68836|68837|68838|68839|68840|68841|68842|68843|68844|68845|68846|68847|1661|68849|68850|68851|68852|68853|68854|68855|68856|68857|68858|68859|68860|68861|68862
-110|126165|126166|126167|126168|126169|126170|126171|126172|126173|126174|274089|126175|126176|126177|126178|126179|126180|274096
-5|230785|487776|487777|487778|487779
+T|Värnamo
+A|2|83160|83161|83162|83163|83164|83165|83166|83167|83168|83169|83170|83171|83172|83173|83174|83175|83176|83177|83178|83179|83180|83181|83182|83183|83184|83185|83256|83257|83258|83259|83260|83261|83262|83263|83264|83265|83266|83267|83268|83269|83270|83271|83272|83273|83274
+A|4|124420|124421|124422|124423|124424|124425|124426|124427|124428|124429|124430|124431|124432|124433|124434|124435|124436|124437|124438|124439|15868|124441|124475|124476|124477|124478|124479|124480|124481|124482|124483|124484|124485|124486|124487|124488|124489|124490|124491|124492|124493|124494|124495|124522|124523|124524|124525|124526|124527|124528|124529|124530|124531|124532|124533|124534|124535|124536|124537|124538|124539|124540|124541|124542
+A|68|78269|78270|78271|78272|78273|78274|78275|78276|78277|78278|78279|78280|78281|78282|78283|78284|78285|78286|78288|78289|78290|78291|78292|78293|78294|78295|78287|78305|78313|78314|78315|78316|78318|78320
+A|3|204176|212921|230324|212914|230326|230327|212913|230329|230330|212927|212924|230333|230334|230335|230336|230337|230338|230339|230340|230341|230342|212918|230344|230345|230346
+A|55|233331|374583|374584|374585|374586|374587|374588|374589|374590|374591
+A|1|68833|1562|68835|68836|68837|68838|68839|68840|68841|68842|68843|68844|68845|68846|68847|1661|68849|68850|68851|68852|68853|68854|68855|68856|68857|68858|68859|68860|68861|68862
+A|110|126165|126166|126167|126168|126169|126170|126171|126172|126173|126174|274089|126175|126176|126177|126178|126179|126180|274096
+A|5|230785|487776|487777|487778|487779
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|83160|31|K|Azra Muranovic|30 år, Kursutvecklare,Värnamo
+C|83161|66|M|Pär A.J. Persson|66 år, Prost, Värnamo
+C|83162|54|K|Susanne Andersson|54 år,Industriarbetare,Värnamo
+C|83163|60|M|Åke Vilhelmsson|61 år, Pensionär,Värnamo
+C|83164|28|K|Ardita Berisha Cani|28 år, Personlig handläggare,Värnamo
+C|83165|71|M|Anders Jansson|71 år, Pensionär,Värnamo
+C|83166|39|K|Anette Myrvold|40 år, Ombudsman,Värnamo
+C|83167|54|M|David Huynh|54 år,Verktygsmakare,Värnamo
+C|83168|39|K|Seima Dedic|39 år, Socialsekreterare,Värnamo
+C|83169|46|M|Mikael Andersson|46 år,LSS-utredare,Värnamo
+C|83170|60|K|Milka Cado|60 år,Industriarbetare,Värnamo
+C|83171|21|M|Dardan Rizani|21 år,Student,Värnamo
+C|83172|19|K|Matilda Kauppinen|20 år,Studerande,Värnamo
+C|83173|48|M|Stefan Svensson|48 år,Metallarbetare,Värnamo
+C|83174|53|K|Milena Delic|53 år, Ungdomsledare,Värnamo
+C|83175|18|M|Khalid Poricanen|18 år,Studerande,Värnamo
+C|83176|55|K|Susanne Abrahamsson|55 år,Undersköterska,Värnamo
+C|83177|60|M|Håkan Nilsson|60 år,Chaufför,Värnamo
+C|83178|57|K|Senada Besic|57 år,Lärare,Värnamo
+C|83179|61|M|Billy Mähler|62 år,Metallarbetare,Värnamo
+C|83180|57|K|Anja Johansson|57 år,Ekonom,Bor
+C|83181|66|M|Erik Gerdin|66 år,Pensionär,Värnamo
+C|83182|34|K|Anna Ståhl|33 år,Länssamordnare ANDT,Värnamo
+C|83183|75|M|Krister Johansson|75 år,Pensionär,Värnamo
+C|83184|43|K|Armanda Mehmeti|43 år, Arbetssökande,Värnamo
+C|83185|71|M|Leif Persson|72 år,Pensionär,Värnamo
+C|83256|64|M|Bo Svedberg|64 år,Produktionsansvarig/Svetsspeciallist,Bredaryd
+C|83257|69|K|Britt-Marie Sellén Nilsson|69 år,Pensionär,Rydaholm
+C|83258|66|M|Anders Ferngren|66 år,Ingenjör,Bredaryd
+C|83259|72|K|Gun-Britt Klingberg|72 år,Pensionär,Bor
+C|83260|72|K|Birgit Hof|72 år, Pensionär,Värnamo
+C|83261|43|M|Mattias Åberg|43 år,Metallarbetare,Värnamo
+C|83262|58|M|Tero Väisänen|57 år,Verktygsmakare,Bor
+C|83263|36|K|Sandra Adesund|36 år, Verksamhetssamordnare,Bredaryd
+C|83264|64|M|Lennart Palm|64 år,Byggnadsarbetare,Dannäs
+C|83265|63|K|Susanna Ekström|63 år,Barnmorska,Bor
+C|83266|83|M|Tore Almgren|83 år, Pensionär,Rydaholm
+C|83267|63|K|Ann-Christine Nordlander|63 år,Måltidsbiträde,Bor
+C|83268|72|M|Brendan Holden|72 år, Folkbildare, Bor
+C|83269|59|K|Lena Blomgren|60 år, Tågvärd,Bor
+C|83270|32|M|Jonas Nilsson|32 år,Miljöarbetare,Värnamo
+C|83271|56|K|Anette Hedin|46 år,Industriarbetare,Bor
+C|83272|76|M|Lars Ekblad|76 år,Civilekonom,Dannäs
+C|83273|60|M|Jörgen Ståhl|60 år,Kvalitetschef,Horda
+C|83274|53|M|Pär Elmgren|53 år,Industriarbetare,Rydaholm
+C|124420|60|M|Hans-Göran Johansson|Kommunalråd/Polis, Maramö
+C|124421|58|K|Inger Axelsson|Universitetsadjunkt, Bor
+C|124422|55|M|Haris Sibonjic|55, Områdeschef, Värnamo
+C|124423|19|K|Maja Ljungqvist|Studerande, Drömminge
+C|124424|59|M|Stefan Widerberg|Skogsbrukslärare, Rydaholm
+C|124425|70|M|Bengt Einarsson|70, Egenföretagare, Rydaholm
+C|124426|55|K|Katarina Landin|55, Koordinator, Bredaryd
+C|124427|38|K|Susanne Linell|38, Entreprenör, Tånnö
+C|124428|54|M|Stefan Bjällsjö|Företagare, Värnamo
+C|124429|70|K|Kerstin Smedenfors|Informatör, Tånnö
+C|124430|50|M|Göran Pettersson|Lantbrukare, Drömminge
+C|124431|51|M|Peter Lagerman|51, Projektledare, Värnamo
+C|124432|20|M|Axel Pettersson|Studerande, Värnamo
+C|124433|54|K|Jane Gikandi|Undersköterska, Rydaholm
+C|124434|49|M|Thomas Petersson|Vaktmästare, Forsheda
+C|124435|40|M|Razvan-Ionut Nichitelea|40, Läkare, Värnamo
+C|124436|55|M|Magnus Backstig|55, F d egenföretagare, Värnamo
+C|124437|50|M|Tommy Sjöström|Banktjänsteman, Bor
+C|124438|68|M|Hans Artursson|Pensionär, Gällaryd
+C|124439|53|M|Mickael Hurtig|53, Kommunvägledare, Värnamo
+C|15868|54|M|Åke Faust|Maskintekniker, Maramö
+C|124441|62|M|Bengt Ljungberg|62, Utbildare, Bor
+C|124475|63|K|Maria Johansson|63, Vårdadministratör, Tånnö
+C|124476|51|K|Laila Sedin|Inköpare, Värnamo
+C|124477|42|M|Johan Hilding|42, Lantbrukare, Hånger
+C|124478|44|K|Rania Khalil|Kommunikatör/Tolk, Värnamo
+C|124479|24|K|Qendresa Cani|Studerande, Tånnö
+C|124480|51|M|Torbjörn Egerhag|Företagare, Bor
+C|124481|45|K|Theresa Eriksson|Verksamhetsutvecklare, Värnamo
+C|124482|34|K|Malin Eriksson|Lantbrukare, Bredaryd
+C|124483|72|M|Jan-Olof Karlsson|Naturvårdare, Värnamo
+C|124484|56|M|Stefan Källberg|Projektledare, Horda
+C|124485|55|K|Maria Harrysson|F d byggingenjör, Tånnö
+C|124486|46|K|Anna Thorén|Lantbrukare, Ulås
+C|124487|51|K|Maria Fransson|Löneadministratör, Bredaryd
+C|124488|55|M|Lars Lejon|55, Företagsledare, Rydaholm
+C|124489|65|K|Gull-Britt Andersson|Kock, Forsheda
+C|124490|54|M|Bengt Hallgard|Konstruktör, Bor
+C|124491|49|M|Magnus Berggren|Chaufför, Gällaryd
+C|124492|37|K|Hanna Karlsson|Undersköterska/bonde, Hamra
+C|124493|72|M|Lars Einarsson|Pensionär, Horda
+C|124494|74|K|Hildegard Ek|Pensionär, Värnamo
+C|124495|71|M|Lars-Olof Svensson|Lantbrukare, Hånger
+C|124522|53|M|Mikael Karlsson|Näringslivsutvecklare, Värnamo
+C|124523|48|K|Gabrielle Davidsson|48, Bankrådgivare, Värnamo
+C|124524|41|K|Nermina Smajlovic|Socionomstudent, Värnamo
+C|124525|74|M|Leif Nygren|Pensionär, Gällaryd
+C|124526|60|K|Eva Eriksson|60, Servicechef, Bredaryd
+C|124527|60|M|Göran "Wille" Johansson|Fastighetsuthyrare, Tånnö
+C|124528|66|M|Klas Uvebrant|Entreprenör, Dannäs
+C|124529|66|M|Bengt KR Johansson|Skoglig rådgivare, Tånnö
+C|124530|56|M|Raymond Pettersson|56, Gymnasielärare, Värnamo
+C|124531|75|K|Helena Berntsson|Pensionär, Hånger
+C|124532|69|M|Tommy Sörensen|Musiker, Värnamo
+C|124533|18|M|Vigan Ibrahimi|Studerande, Värnamo
+C|124534|52|K|Remzije Berisha|Administratör, Värnamo
+C|124535|63|M|Åke Forsberg|Regionchef, Värnamo
+C|124536|35|K|Sofia Ljungkvist|Lean ledare, Värnamo
+C|124537|53|M|Thomas Carlzon|Föreståndare, Lerdala
+C|124538|38|M|Christian Emilsson|Lantbrukare, Rydaholm
+C|124539|62|K|Ing-Marie Karlsson|62, Barnmorska, Hamra
+C|124540|80|M|Stig Fransson|80, Pensionär, Värnamo
+C|124541|49|M|Christer Ljungqvist|Lantbrukare, Drömminge
+C|124542|53|K|Susanne Ericsson|Maskinskötare, Forsheda
+C|78269|49|K|Camilla Rinaldo Miller|Frisör, Värnamo
+C|78270|57|M|Håkan Johansson|Studie- & yrkesvägledare, Värnamo
+C|78271|50|K|Xhilda Bushati|Kemist, Värnamo
+C|78272|68|M|Gunnar Crona|Senior, Värnamo
+C|78273|66|K|Lena Freij|Kokerska, Hjälshammar
+C|78274|56|M|Ibrahim Candemir|PA-systemkonsult, Värnamo
+C|78275|63|K|Margareta Svensson|Lärare, Värnamo
+C|78276|64|M|Arnold Carlzon|Lärare, Värnamo
+C|78277|45|K|Zamira Hansen|Fritidsledare, Värnamo
+C|78278|66|M|Stig Claesson|Företagare, Nöbbele
+C|78279|54|K|Sanja Mikulic|Modersmålslärare, Värnamo
+C|78280|33|M|Isak Torebrand|Polis, Ulås
+C|78281|72|K|Gunnel Youngström|Senior, Värnamo
+C|78282|25|M|Gustav Eek|VVS-konsult, Värnamo
+C|78283|72|M|Christer Fjordevik|Präst, Värnamo
+C|78284|71|K|Margareta Lindahl|Distriktssköterska, Värnamo
+C|78285|53|M|Leif Bäckrud|Tekniskt säljstöd, Rydaholm
+C|78286|55|M|Tomas Backnäs|Klassassistent, Värnamo
+C|78288|66|M|Bertil Isaksson|Banktjänsteman, Bredaryd
+C|78289|63|M|Peter Johnson|Begravningsentreprenör, Värnamo
+C|78290|61|M|Alf Svensson|Säljare, Värnamo
+C|78291|50|K|Evanjeline Eriksson|Arbetsförmedlare, Värnamo
+C|78292|53|M|Robert Tedenby|Verksamhetsledare, Värnamo
+C|78293|50|M|Arben Murati|Fritidsledare, Värnamo
+C|78294|55|M|Håkan Fransson|Företagare, Värnamo
+C|78295|48|M|Patrik Ekwall|Företagare, Värnamo
+C|78287|68|M|Mats Eriksson|Volontär, Åminne
+C|78305|66|M|Thomas Wilhelmsson|Fd revisor, Skärvälla
+C|78313|66|M|Lennart Swerlander|Ekonom, Värnamo
+C|78314|75|M|Lennart Johansson|Pensionär, Värnamo
+C|78315|85|K|Karin Rylander|Fd skolsköterska, Värnamo
+C|78316|67|M|Bo Bengtsson|Lantbrukare, Tånnö
+C|78318|75|M|Per-Åke Eriksson|Ingenjör, Värnamo
+C|78320|64|M|Lars-Evert Jonsson|Pastor, Värnamo
+C|204176|46|K|Malin Ekman|47, Värnamo
+C|212921|68|M|Runar Eldebo|
+C|230324|45|K|Marie Skogefors|45, Studerande, Värnamo
+C|212914|69|M|Karl-Magnus Svensson|
+C|230326|59|K|Karen Wahlin|59, Läkare, Värnamo
+C|230327|26|M|Viktor Petersson|26, Finsnickare, Värnamo
+C|212913|69|K|Eva Bengtsson|
+C|230329|41|M|Fredrik Lingeskog|40, Egenföretagare, Värnamo
+C|230330|29|K|Sue-Ellen Njekwa|28, Studerande, Värnamo
+C|212927|27|M|Anders Petersson|Undersköterska
+C|212924|71|K|Ann-Marie Lindman|
+C|230333|65|M|Anders Thorén|64, Civilingenjör, Värnamo
+C|230334|52|K|Eva Petersson|52, Egenföretagare, Forsheda
+C|230335|72|M|Anders Nordangård|71, Företagare, Värnamo
+C|230336|75|K|Ann-Margreth Liljeqvist|75, Specialpedagog, Värnamo
+C|230337|68|M|Ingemar Lindman|67, Egenföretagare, Vrigstad
+C|230338|65|K|Åsa Svensson|64, Förskolelärare, Bor
+C|230339|74|M|Paul Finnhult|74, Systemvetare, Värnamo
+C|230340|41|K|Jenny Bergström|41, Personalvetare, Värnamo
+C|230341|73|M|Rolf Zimmergren|72, Företagare, Forsheda
+C|230342|77|K|Birgitta Andersson|76, Förskolelärare, Värnamo
+C|212918|68|K|Monica Lembke|Pensionär
+C|230344|63|K|Jytte Halvordsson|63, Sjuksköterska, Värnamo
+C|230345|69|M|Rune Larsson|69, Säljare, Värnamo
+C|230346|79|M|Håkan Andersson|79, Ingenjör, Värnamo
+C|233331|61|M|Jörgen Skärin|61 år, kemiingenjör, Värnamo
+C|374583|76|K|Kajsa Carlsson|76 år, f d rektor, Värnamo
+C|374584|46|M|Peter Thorén|46 år, biolog, Värnamo
+C|374585|58|M|Zeljko Radetic|58 år, arkitekt, Värnamo
+C|374586|53|M|Anders Lundqvist|53 år, produktchef, Värnamo
+C|374587|76|K|Britt Bergström|76 år, folkbildare, Näsbyholm
+C|374588|36|M|Mikael Skillmark|36 år, socionom, Värnamo
+C|374589|70|M|Walter Soares|70 år, vårdare, Rydaholm
+C|374590|86|M|Per Gussarsson|86 år, tandläkare, Värnamo
+C|374591|80|K|Inger Peterson|80 år, pensionär, Värnamo
+C|68833|63|M|Gottlieb Granberg|63 år, Maskinentreprenör, Rydaholm
+C|1562|25|M|Tobias Pettersson|25 år, Gymnasielärare, Värnamo
+C|68835|56|K|Carina Källman|56 år, Vårdadministratör, Värnamo
+C|68836|23|K|Agnes Johansson|23 år, Skoladministratör, Värnamo
+C|68837|45|M|Terje Freij|45 år, Verktygsmakare, Bor
+C|68838|71|K|Eva Törn|71 år, Danspedagog, Värnamo
+C|68839|65|M|Glenn Lund|65 år, Säljare, Rydaholm
+C|68840|54|M|Thomas Sköld|54 år, Företagare, Bredaryd
+C|68841|56|K|Maria Nyström|56 år, Biträdande Rektor, Värnamo
+C|68842|62|M|Karl-Mats Bodestad|62 år, Metallarbetare, Värnamo
+C|68843|18|K|Dalila Alibasic|18 år, Studerande, Värnamo
+C|68844|50|M|Dieter Wagner|50 år, Lantmästare, Forsheda
+C|68845|51|M|Ulf Dovhammar|51 år, Servicechef, Forsheda
+C|68846|73|M|Kaj Larsson|73 år, Klubbchef, Värnamo
+C|68847|64|K|Sidsel Waern|64 år, Gymnasielärare, Värnamo
+C|1661|59|M|Michael Andersson|59 år, VD, Värnamo
+C|68849|69|M|Lars Carlborg|69 år, Samhällsvetare, Värnamo
+C|68850|60|K|Ann Andersson|60 år, Ekonomichef, Värnamo
+C|68851|72|M|Lars Holmström|72 år, Företagare, Rydstorp, Bor
+C|68852|64|M|Torbjörn Ohlsson|64 år, Civilekonom, Dannäs
+C|68853|56|M|Thomas Elmgren|56 år, Verktygsmakare, Rydaholm
+C|68854|59|M|Kjell Karlsson|59 år, Elektriker, Rydaholm
+C|68855|49|M|David Wernow|49 år, Gymnasielärare, Bredaryd
+C|68856|77|M|Arne Ekegren|77 år, Ingenjör, Bor
+C|68857|66|M|Thomas Lundqvist|66 år, Sportchef, Värnamo
+C|68858|76|M|Ingvar Björk|76 år, Adjunkt, Värnamo
+C|68859|74|M|Arne Lennartsson|74 år, Adjunkt, Värnamo
+C|68860|72|M|Arne Arvidsson|72 år, Byggnadsingenjör, Värnamo
+C|68861|77|M|Yngve Törn|77 år, Köpman, Värnamo
+C|68862|67|K|Margaretha Fransson|67 år, Företagare, Värnamo
+C|126165|60|K|Anne Karlsson|Webadmin, Värnamo
+C|126166|57|M|Boo Karlsson|57, Värnamo
+C|126167|71|M|Bengt Lundström|71, Egenföretagare
+C|126168|29|M|Johan Nissinen|Riksdagsledamot, Värnamo
+C|126169|62|K|Sylvia Friberg|62, Fritidsresurs, Rydaholm
+C|126170|65|M|Jerker Friberg|65, Tjänsteman
+C|126171|78|M|Sven-Evert Gunnarsson|78, Egenföretagare, Värnamo
+C|126172|45|K|Katja Ganekind|45, Kommunalarbetare, Värnamo
+C|126173|53|M|Johnny Hornbrink|53, Maskinoperatör, Värnamo
+C|126174|54|M|Jan Cherek|54, Egenföretagare, Värnamo
+C|274089|41|M|Martin Alvsveden|41, Forsheda
+C|126175|62|M|Hans-Olof Karlsson|62, Fil.kand, Bor
+C|126176|56|M|Mikael Skogström|57, Värnamo
+C|126177|47|M|Stefan Andersson|47, Arbetare
+C|126178|56|M|Jan Andersson|56, Egenföretagare
+C|126179|26|M|Fredrik Garpenholm|26, IT-tekniker, Rydaholm
+C|126180|81|M|Jan Nilsson|80, Naturvårdare
+C|274096|62|M|Mikael Jerkin|62, Illustratör
+C|230785|32|K|Paula Dahlberg|CAD-konsult, Värnamo
+C|487776|31|M|David Kolström|Värnamo
+C|487777|44|K|Linda Svensson|Bor
+C|487778|44|M|Niclas Petersson|Värnamo
+C|487779|76|M|Svante Olson|Värnamo

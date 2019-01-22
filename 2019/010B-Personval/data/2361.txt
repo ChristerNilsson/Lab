@@ -1,11 +1,163 @@
-2|74269|74460|141423|230168|6463|141425|141426|74462|7460|74464|74465|179213|74466|84314|74467|74468|74469|84318|74470|7445|179222|74472|74473|141441|74474|179227|6470|16259|179230|8145|74475|179233|74476|179235|237921|84328|74477|74478
-4|95774|188483|188484|188485|188486|188487|188488|188489|188490|188491|188492|188493|188494|95771|188496|188497|188498|188499|188500|188501|188502|188503|188504|188505|188506|188507|188508|188509
-119|474470|474471|474472|474473|474474|474475|474476
-1388|515562
-68|205311|208389|205321|208391|208392|208393|208394
-1011|131844|203147|203148|203149|203150|203151|203152|203510|203511|203512|203513|203514|203515|203516|203517
-3|224892|254686|254687|254688|254689|254690|254691|254692|254693
-55|515718
-1|39630|39497|39501|247780|39523|39493|247783|39636|247786|247787|247788|247789|247790|247791|247792|247793|247794|247795|247796|247797|247798|247799|247800
-110|278921|511959|511960
-5|358873|252535|300371|253062|358877|358878|304587|358880
+T|Härjedalen
+A|2|74269|74460|141423|230168|6463|141425|141426|74462|7460|74464|74465|179213|74466|84314|74467|74468|74469|84318|74470|7445|179222|74472|74473|141441|74474|179227|6470|16259|179230|8145|74475|179233|74476|179235|237921|84328|74477|74478
+A|4|95774|188483|188484|188485|188486|188487|188488|188489|188490|188491|188492|188493|188494|95771|188496|188497|188498|188499|188500|188501|188502|188503|188504|188505|188506|188507|188508|188509
+A|119|474470|474471|474472|474473|474474|474475|474476
+A|1388|515562
+A|68|205311|208389|205321|208391|208392|208393|208394
+A|1011|131844|203147|203148|203149|203150|203151|203152|203510|203511|203512|203513|203514|203515|203516|203517
+A|3|224892|254686|254687|254688|254689|254690|254691|254692|254693
+A|55|515718
+A|1|39630|39497|39501|247780|39523|39493|247783|39636|247786|247787|247788|247789|247790|247791|247792|247793|247794|247795|247796|247797|247798|247799|247800
+A|110|278921|511959|511960
+A|5|358873|252535|300371|253062|358877|358878|304587|358880
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|119|VOXH|Folkets röst - VOX humana
+B|1388||Folkhemmet Sverige
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|74269|42|M|Lars-Gunnar Nordlander|42 år, Sveg
+C|74460|53|K|Gunilla Zetterström Bäcke|54 år, Lillhärdal
+C|141423|48|M|Magnus Karlsson|48 år, Vemdalen
+C|230168|56|K|Cristina Åhs|56 år, Ängersjö
+C|6463|42|M|Pelle Johansson|42, Fastighetstekniker, Funäsdalen
+C|141425|47|K|Pernilla Heijdenbeck Persson|47 år, Sveg
+C|141426|58|M|Torbjörn Bergman|57 år, Sveg
+C|74462|54|K|Helén Westfält|54 år, Vemhån
+C|7460|62|M|Christer Nordqvist|62, Vaktmästare, Sveg
+C|74464|68|K|Agneta Ohlsson|68 år, Funäsdalen
+C|74465|32|M|Mahmoud Alkwas|32 år, Lillhärdal
+C|179213|19|K|Johanna Grip|19 år, Ytterhogdal
+C|74466|70|M|Gottfrid Jonsson|70 år, Funäsdalen
+C|84314|25|K|Mimmie Stålhandske|25 år, Sveg
+C|74467|75|M|Sune Halvarsson|76 år, Hedeviken
+C|74468|42|K|Maria Olsson|42 år, Funäsdalen
+C|74469|64|M|Göran Påhlson|64 år, Sveg
+C|84318|38|K|Linda Bergström|38 år, Sveg
+C|74470|68|M|Elving Forsström|68 år, Sveg
+C|7445|52|K|Kristina Holm|52, Biståndshandläggare, Vemhån
+C|179222|75|M|Östen Andersson|75 år, Ytterhogdal
+C|74472|68|K|Inger Forsström|68 år, Sveg
+C|74473|48|M|Ismail Kizilkaya|48 år, Sveg
+C|141441|73|K|Inger Larsson|73 år, Ytterhogdal
+C|74474|65|K|Maj Lis Larsson|65 år, Hede
+C|179227|74|M|Leif Nilsson|74 år, Ytterhogdal
+C|6470|73|M|Alf Larsson|73, Pensionär, Överhogdal
+C|16259|65|K|Gunilla Larsson|65, Kundtjänstmedarbetare, Älvros
+C|179230|54|M|Anders Olofsson|54 år, Ytterhogdal
+C|8145|62|K|Christina Westberg|62, Undersköterska, Älvros
+C|74475|75|M|Jan Svensson|74 år, Sveg
+C|179233|79|K|Gerd Jonsson|79 år, Ytterhogdal
+C|74476|66|M|Nils-Erik Norderud|67 år, Sveg
+C|179235|73|K|Inger Malm|73 år, Ytterhogdal
+C|237921|46|M|Stefan Törnberg|46 år, Sveg
+C|84328|69|K|Gunilla Hedin|69 år, Lillhärdal
+C|74477|71|M|Gustav Höglund|71 år, Ljusnedal
+C|74478|68|K|Elsie Jonsson|68 år, Funäsdalen
+C|95774|54|M|Anders Häggkvist|skogvaktare 54 år Vemdalen
+C|188483|22|K|Sandra Sime|22 år Hede
+C|188484|52|M|Mats Eriksson|52 år Tännäs
+C|188485|38|K|Jenny Hansen|38 år Hede
+C|188486|68|M|Gunnar Hedin|68 år Överberg
+C|188487|34|M|Mikael Jonasson|34 år Hedeviken
+C|188488|68|K|Maj-Britt Halvarsson|68 år Linselsjön
+C|188489|20|K|Elina Grubb|20 år Hede
+C|188490|59|M|Jan-Erik Svensson|59 år Hede
+C|188491|66|M|Stig Holm|66 år Sveg
+C|188492|48|K|Anneli Fundin|48 år Funäsdalen
+C|188493|51|M|Thomas Rihpa|51 år Funäsdalen
+C|188494|56|M|Örjan Eriksson|projektledare 56 år Sveg
+C|95771|35|K|Elin Lemon|regionråd/folhälsovetare 35 år Herrö
+C|188496|50|M|Torbjörn Andersson|50 år Sveg
+C|188497|50|M|Tommy Svensson|50 år Ytterberg
+C|188498|18|K|Karolina Sokolowska|18 år Sveg
+C|188499|51|M|Patrik Hellström|51 år Vemdalen
+C|188500|18|K|Nora Rihpa|18 år Funäsdalen
+C|188501|56|K|Åsa Rutfjäll|56 år Funäsdalen
+C|188502|34|M|Sebastian Hedin|34 år Sveg
+C|188503|32|K|Therese Martinsson|32 år Sveg
+C|188504|51|K|Annika Myhr|distriktsledare 51 år Bruksvallarna
+C|188505|34|K|Emma Olsson|34 år Hedeviken
+C|188506|29|K|Amira Mohamad|27 år Hede
+C|188507|20|M|Taher Alizadeh|20 år Sveg
+C|188508|69|M|Ernst Halvarsson|70 år Hede
+C|188509|59|K|Carina Subäck|59 år Sveg
+C|474470|59|K|Karin Holmin|Sveg
+C|474471|70|M|Roger Lindén|Storån
+C|474472|54|K|Kicki Jonasson|Sveg
+C|474473|63|M|Roland Persson|Älvros
+C|474474|29|M|Sune Åkerlund|Huskölen
+C|474475|69|M|Erik Persson|Ytterhogdal
+C|474476|46|M|Erik Åsén|Yterhogdal
+C|515562|66|K|Inger Agnar|
+C|205311|53|K|Margareta M Persson|sjuksköterska, Sveg
+C|208389|69|M|Matz Bylund|Hede
+C|205321|72|M|Lars-Olof Eliasson|fd lärare, Sveg
+C|208391|76|K|Ulla Britt Åslund|Lofsdalen
+C|208392|71|K|Eva Fahlcrantz|Sveg
+C|208393|61|K|Karin Eliasson|Sveg
+C|208394|73|K|Inger Lundström|Sveg
+C|131844|64|M|Olle Larsson|Industrirörläggare, Jämtland
+C|203147|62|M|Billy Anklew|62 år, Lillhärdal
+C|203148|71|M|Nils-Olof Friberg|70 år, Vemdalen
+C|203149|59|M|Per-Anders Tapper|57 år, Snickare, Tännäs
+C|203150|49|M|Jonas Lövnord|48 år,Hede
+C|203151|60|K|Berit Lindstedt|59 år, Ambulanssjukvårdare, Sveg
+C|203152|21|K|Madelene Lövnord|21 år, Hede
+C|203510|64|M|Pär-Åke Eriksson|64 år, Pensionär, Sveg
+C|203511|27|M|Frej Ollesson|26 år, Pistvakt, Ränningsvallen
+C|203512|32|M|Gustav Anklew|32 år, Lillhärdal
+C|203513|46|M|Lars Busk|45 år, Lillhärdal
+C|203514|36|K|Ellen Weinemacher|36 år, Lillhärdal
+C|203515|60|M|Tommy Lindstedt|60 år, Sveg
+C|203516|46|K|Marie Lövnord|46 år, Hede
+C|203517|58|M|John Arvid Fundin|58 år, Tännäs
+C|224892|63|K|Eva-Britt Boij|vägledare,Sveg
+C|254686|40|K|Maria Nordkvist|Sveg
+C|254687|62|M|Bengt-Arne Baben Persson|Sveg
+C|254688|65|M|Torbjörn Rensberg|Funäsdalen
+C|254689|68|K|Kerstin Weimer|Sveg
+C|254690|24|M|Jawad Mohammadi|Sveg
+C|254691|42|M|Mauritz Nordkvist|Sveg
+C|254692|43|K|Bodil Jonsson|Glissjöberg
+C|254693|75|M|Jöns-Erik Halvarsson|Sveg
+C|515718|61|M|Bo Magnusson|
+C|39630|67|M|Thomas Wiklund|67, Sveg
+C|39497|52|M|Pontus Nissblad|52 år, Funäsdalen
+C|39501|58|M|Lars-Olof Mattsson|58 år, Sveg
+C|247780|47|M|Johan Fredholm|47 år, Funäsdalen
+C|39523|19|K|Lydia Bygdén|19, Hedeviken
+C|39493|68|K|Margareta Gladh|68 år, Sveg
+C|247783|44|M|Jon Wagenius|44 år, Funäsdalen
+C|39636|62|K|Anita Thuresson|62, Tännäs
+C|247786|60|M|Hans Olof Törnberg|60 år, Funäsdalen
+C|247787|62|K|Kerstin Nystedt|62 år, Ytterhogdal
+C|247788|58|M|Leif Lindström|58 år, Sveg
+C|247789|54|K|Agneta Roberts|54 år, Tännäs
+C|247790|47|M|Magnus Ruhedorfer|47 år, Funäsdalen
+C|247791|73|M|Jan Zetterlund|73 år, Funäsdalen
+C|247792|56|M|Karl-Arne Wagenius|56 år, Funäsdalen
+C|247793|59|M|Benny Larsson|59 år, Vemdalen
+C|247794|40|M|Björn Groth|40 år, Sveg
+C|247795|37|K|Julia Larsson|37 år, Funäsdalen
+C|247796|55|K|Gunilla Renfelt Myhr|55 år, Bruksvallarna
+C|247797|43|M|Henrik Brandén|43 år, Funäsdalen
+C|247798|67|K|Christina Thernsjö|67 år, Sveg
+C|247799|19|K|Prasamsa Aryal|19 år, Sveg
+C|247800|31|M|Patrik Larsson|31 år, Tännäs
+C|278921|71|K|Ingegärd Fjällgärde|Musiker/poet
+C|511959|82|K|Anne Bünsow|
+C|511960|44|M|Ted Michael Länsberg|
+C|358873|33|M|Åke Remén|33 år, Sveg
+C|252535|35|K|Helena Larsson|35 år, rektor, Överberg
+C|300371|61|M|Bo Danielsson|61 år, teletekniker, Sveg
+C|253062|44|K|Jeannette Ek|44 år, undersköterska, Sveg
+C|358877|37|K|Karin Kers|37 år, Sveg
+C|358878|64|K|Lillemor Norling|64 år, Sveg
+C|304587|67|M|Hans Bergström|67 år, Vemhån
+C|358880|71|K|Catharina Ek|71 år, Ytterhogdal

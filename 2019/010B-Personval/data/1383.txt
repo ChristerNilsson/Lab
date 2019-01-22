@@ -1,11 +1,317 @@
-1394|39921|39923|505109|505110|505111|505112|505113
-2|118798|118799|11214|11217|118802|118803|118804|118805|118806|118807|7613|118809|118810|118811|118812|118813|118814|11219|118816|118817|118818|118819|118820|118821|118822|118823|11216|118825|118826|118827|118828|118829|118830|118831|118832|118833|118834|118835|118836|118837|118838|118839|118840|118841|118842|118843|118844|118845|118846|118847|118848|11209|118850|118851|118852|118853|118854|11221|118856|11211|118858
-4|23833|23828|30856|30857|30858|30859|30860|30861|23820|30863|30864|30865|23822|31108|31109|31110|31111|31112|31113|31114|31115|31116|49615|31117|28945|31119|31120|31121|31122|49622|31123|31124|31125|28974|31127|31128
-471|238369|238370|238371|238372|238373|238374|238375|238376|238377|238378|238379|238380|238381|238382|238383|238384|238385|238386|238387|238388|238389|238390|238391|238392
-68|221785|221792|380827|232200|221781|232206|380831|380832|380833|380834|380835|380836|380837|380838|380839|380840|221801|380842
-3|158811|158812|158813|158814|158815|158816|158817|158818|158819|158820|158821|158822|158823|158824|158825|158826|158827|158828|158829|158830|158831|158832|158833|158834
-55|168235|168236|168237|168238|168239|168240|168241
-1|240938|240939|160381|160369|240942|240943|240944|160376|160374|240947|240948|240949|240950|240951|160389|240953|160391|240955|240956|160384|240958|240959|240960|240961|240962|240963|240964|240965|240966|240967|240968|240969|240970|160409|240972|240973|240974|240975|160402|240977|240978|240979|240980|240981|240982|240983|240984|240985|240986|240987|240988|240990|240991|240992|240993|240994|240995
-107|237364|237365|237366|237367|237368|237369|237370|237371
-110|39922|39924|39925|39926|39927|39928|39929|39930|39941|39942|39943|39944|39945|39946|39947|39948|39949|39950|39971|39972|39973|39974|39975|39976|39977
-5|14201|14202|13450|13444|14206|14207|14208|13319|13327|13244|14212|14213|13331|14215|13329|14217|14218|13454|14220|14221|14222|14223|230667|14224|14225|14226|14227
+T|Varberg
+A|1394|39921|39923|505109|505110|505111|505112|505113
+A|2|118798|118799|11214|11217|118802|118803|118804|118805|118806|118807|7613|118809|118810|118811|118812|118813|118814|11219|118816|118817|118818|118819|118820|118821|118822|118823|11216|118825|118826|118827|118828|118829|118830|118831|118832|118833|118834|118835|118836|118837|118838|118839|118840|118841|118842|118843|118844|118845|118846|118847|118848|11209|118850|118851|118852|118853|118854|11221|118856|11211|118858
+A|4|23833|23828|30856|30857|30858|30859|30860|30861|23820|30863|30864|30865|23822|31108|31109|31110|31111|31112|31113|31114|31115|31116|49615|31117|28945|31119|31120|31121|31122|49622|31123|31124|31125|28974|31127|31128
+A|471|238369|238370|238371|238372|238373|238374|238375|238376|238377|238378|238379|238380|238381|238382|238383|238384|238385|238386|238387|238388|238389|238390|238391|238392
+A|68|221785|221792|380827|232200|221781|232206|380831|380832|380833|380834|380835|380836|380837|380838|380839|380840|221801|380842
+A|3|158811|158812|158813|158814|158815|158816|158817|158818|158819|158820|158821|158822|158823|158824|158825|158826|158827|158828|158829|158830|158831|158832|158833|158834
+A|55|168235|168236|168237|168238|168239|168240|168241
+A|1|240938|240939|160381|160369|240942|240943|240944|160376|160374|240947|240948|240949|240950|240951|160389|240953|160391|240955|240956|160384|240958|240959|240960|240961|240962|240963|240964|240965|240966|240967|240968|240969|240970|160409|240972|240973|240974|240975|160402|240977|240978|240979|240980|240981|240982|240983|240984|240985|240986|240987|240988|240990|240991|240992|240993|240994|240995
+A|107|237364|237365|237366|237367|237368|237369|237370|237371
+A|110|39922|39924|39925|39926|39927|39928|39929|39930|39941|39942|39943|39944|39945|39946|39947|39948|39949|39950|39971|39972|39973|39974|39975|39976|39977
+A|5|14201|14202|13450|13444|14206|14207|14208|13319|13327|13244|14212|14213|13331|14215|13329|14217|14218|13454|14220|14221|14222|14223|230667|14224|14225|14226|14227
+B|1394|ALFS|Allians för Frihet
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|107|SPI|SPI Välfärden
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|39921|34|M|Andreas Feymark|teknologie doktor, 34 år
+C|39923|36|K|Johanna Palmelid|beteendevetare, 36 år
+C|505109|28|K|Hanna Götz|undersköterska, 28 år
+C|505110|24|K|Annelie Sinander|studerande, 24 år
+C|505111|28|M|Alexander Ivarsson|mjölnare, 28 år
+C|505112|58|K|Kristin Karlsson|skogsbrukare, 58 år
+C|505113|82|K|Edit Nilsson|pensionär, 82 år
+C|118798|58|M|Jana Nilsson|58, Varberg
+C|118799|49|K|Jeanette Qvist|49, Södra Näs
+C|11214|26|M|Lukas Axelsson Nord|26, Grimeton
+C|11217|63|K|Turid Ravlo Svensson|63, Träslövsläge
+C|118802|61|M|Tomas Johansson|61, Varberg
+C|118803|47|K|Linda Berggren|47, Träslövsläge
+C|118804|52|M|Anders Friebe|53, Derome
+C|118805|38|K|Jenny Bolgert|38, Varberg
+C|118806|23|M|Anton El Raai|23, Varberg
+C|118807|45|K|Malin Kjellberg|45, Bua
+C|7613|61|M|Lennart Johansson|61, Varberg
+C|118809|22|K|Julia Nord Axelsson|22, Varberg
+C|118810|63|M|Lennart Isaksson|63, Varberg
+C|118811|55|K|Ann-Britt Jansson Bensköld|55, Tvååker
+C|118812|67|M|Håkan Johannesson|67, Träslövsläge
+C|118813|54|K|Katarina Eiderbrant|54, Träslövsläge
+C|118814|58|M|Peter Stoltz|58, Kungssäter
+C|11219|71|K|Birgitta Sagdahl Wildtberg|71, Bua
+C|118816|51|M|Kent Norberg|51, Varberg
+C|118817|68|K|Rita Wiberg|68, Getterön
+C|118818|18|M|Samuel Molin|18, Åskloster
+C|118819|66|K|Ing-Marie Berggren|66, Varberg
+C|118820|65|M|Roland Ryberg|65, Varberg
+C|118821|75|K|Vivi-Anne Karlsson|75, Tvååker
+C|118822|26|M|Robin Svensson|26, Varberg
+C|118823|50|K|Aida Mulalic|50, Varberg
+C|11216|59|M|Carlos Paredes|59, Varberg
+C|118825|46|K|Marika Andersson|46, Varberg
+C|118826|33|M|Simon Söderberg|33, Varberg
+C|118827|59|K|Suada Avdic|59, Varberg
+C|118828|65|M|Morgan Fagerström|65, Träslövsläge
+C|118829|66|K|Ann-Christine Rosengren|66, Varberg
+C|118830|40|M|Mattias Svensson|39, Rolfstorp
+C|118831|70|K|Karin Sandström|70, Varberg
+C|118832|74|M|Gösta Johansson|74, Tvååker
+C|118833|72|K|Marianne Johansson|72, Varberg
+C|118834|18|M|Kim Nilsson|18, Veddige
+C|118835|58|K|Margareta Torkelsson|58, Bua
+C|118836|66|M|Per Olsson|66, Varberg
+C|118837|68|K|Viveca Haugness|68, Bua
+C|118838|67|M|Leif Rehbinder|67, Tvååker
+C|118839|60|K|Ewy Wilhelmsson|60, Grimeton
+C|118840|58|M|Lars-Göran Karlèn|58, Varberg
+C|118841|59|K|Lena Karlsson|59, Kungssäter
+C|118842|62|M|Lars-Inge Andell|62, Varberg
+C|118843|62|K|Ann-Louise Ekholm|62, Varberg
+C|118844|66|M|Hassan Haki|66, Veddige
+C|118845|67|K|Ingela Axelsson|67, Bua
+C|118846|38|M|Erik Rask|38, Tofta
+C|118847|67|K|Ulla Svensson|67, Rolfstorp
+C|118848|67|M|Lars-Bertil Nilsson|67, Bua
+C|11209|57|K|Ewa Klang|57, Varberg
+C|118850|55|M|Björn Johansson|56, Varberg
+C|118851|57|K|Agneta Thulin|57, Varberg
+C|118852|29|M|Niklas Svensson|29, Varberg
+C|118853|68|K|Inger Andersson|68, Trönninge
+C|118854|34|M|Andreas Rudeström|34, Varberg
+C|11221|47|K|Karolina Mårtensson|47, Varberg
+C|118856|70|M|Kjell-Ove Cederholm|70, Rolfstorp
+C|11211|57|K|Anne Sjölund|57, Limbacka
+C|118858|74|M|Rune Andersson|74, Trönninge
+C|23833|43|M|Christofer Bergenblock|43 år, Gymnasielärare, Varberg
+C|23828|52|K|Lena Språng|52 år, Projektledare, Varberg
+C|30856|65|K|Eva Pehrsson-Karlsson|65 år, Trädgårdsarbetare, Väröbacka
+C|30857|43|M|Christian Persson|44 år, Fastighetsmäklare/Egenföretagare, Tvååker
+C|30858|52|K|Katarina Sundvall|52 år, Kock/Entreprenör, Sibbarp
+C|30859|62|M|Stefan Stenberg|62 år, Kommunpolitiker, Stråvalla
+C|30860|49|M|Calle Wikelund|49 år, Kyl- och ventilationstekniker, Varberg
+C|30861|75|K|ViviAnne Johansson|75 år, Lantbrukare/Senior, Veddige
+C|23820|49|M|Harald Lagerstedt|49 år, Lantmästare, Varberg
+C|30863|58|K|Anna-Karin Gustafsson|58 år, Förskolelärare, Sibbarp
+C|30864|38|K|Marie Bengtsson|38 år, Ingenjör, Träslövsläge
+C|30865|69|M|Olof Helmersson|69 år, Konsult/Egenföretagare, Varberg
+C|23822|24|K|Emilia Lindgren|24 år, Valsamordnare, Varberg
+C|31108|47|K|Susanna Thunberg|47 år, Teknikinformatör, Norr Näs
+C|31109|40|K|Victoria Wiman-Dragstedt|40 år, Tjänsteman, Väröbacka
+C|31110|43|M|Andreas Täckholm|43 år, Enhetschef, Himle
+C|31111|42|K|Louise Blixt Modée|43 år, Undersköterska, Skällinge
+C|31112|73|K|Ulla Öhman|73 år, Arkitekt/Senior, Varberg
+C|31113|31|M|Mikael Karlsson|31 år, Skogsinspektör, Kungsäter
+C|31114|37|K|Ganimete B. Sadiku|37 år, Studerande, Varberg
+C|31115|71|M|Erling Andersson|71 år, Lantbrukare, Tvååker
+C|31116|19|M|Victor Bergenblock|19 år, Studerande, Träslövsläge
+C|49615|44|K|Karolina Mourou|44 år, Ingenjör, Varberg
+C|31117|57|M|Mikael Karlsson|57 år, Egenföretagare, Åskloster
+C|28945|64|K|Helén Andersson|64 år, Egenföretagare, Varberg
+C|31119|41|M|Michael Fransson|41 år, Projektledare, Varberg
+C|31120|46|M|Roger Nolsa|46 år, VD, Skällinge
+C|31121|44|K|Anu Majkvist|44 år, Företagare, Varberg
+C|31122|43|M|Mikael Andersson|43 år, Egenföretagare, Varberg
+C|49622|19|M|Kevin Bengtsson|19 år, Studerande, Skällinge
+C|31123|46|K|Nina Wikstrand Petersson|46 år, Gymnasielärare, Träslövsläge
+C|31124|62|K|May Johansson|62 år, Bicomterapeut, Varberg
+C|31125|44|K|Carin Lagerstedt|44 år, Taxiförare, Valinge
+C|28974|72|M|Morgan Skantz|72 år, F.d. Sjökapten/Journalist, Varberg
+C|31127|54|M|Magnus Sundin|54 år, Elektriker, Varberg
+C|31128|55|M|Heinz Martini|55 år, Kvalitets- och miljöansvarig, Varberg
+C|238369|61|M|Bengt Johansson|Grafiker, 61 år
+C|238370|67|K|Ulla Ohlsson|Sjuksköterska, 67 år
+C|238371|59|M|Ingemar Ericsson|Stödassistent, 59 år
+C|238372|38|K|Jenneli Pedersen|Beteendevetare, 38 år
+C|238373|61|M|Tomas Dahl|Chaufför, 61 år
+C|238374|57|K|Hilda Quezada Alvarado|Stödassistent, 57 år
+C|238375|68|M|Carl-Erik Rydell|Pensionär, 68 år
+C|238376|56|K|Kajsa Nielsen Nord|Sjukhusvaktmästare, 56 år
+C|238377|58|M|Daniel Alvarado|Lagerarbetare, 58 år
+C|238378|66|K|Marie Freyholtz|Undersköterska, 66 år
+C|238379|21|M|Andreas Verdin|Undersköterska, 21 år
+C|238380|30|K|Heidi Levin|Fabriksarbeterska, 30 år
+C|238381|30|M|Sebastian Dalhed|Personlig assistent, 30 år
+C|238382|20|M|Jakob Nord Axelsson|Lokalvårdare, 20 år
+C|238383|22|M|David Sörensen|Studerande, 22 år
+C|238384|34|M|Christoffer Lyckberg|Sjuksköterska, 34 år
+C|238385|47|M|Christian Melo|Ungdomshandledare, 47 år
+C|238386|70|M|Ulf Pedersen|Pensionerad socialarbetare, 70 år
+C|238387|52|M|Kenneth Svenring|Byggnadsarbetare, 52 år
+C|238388|34|M|Patrik Friberg|Taksanerare, 34 år
+C|238389|55|M|Raul Chavez|Egen företagare, 55 år
+C|238390|53|M|Heinz Pettersson|Trädgårdsmästare, egen företagare, 53 år
+C|238391|62|M|Humberto Garcia|Elektriker, 62 år
+C|238392|59|M|Juan Zelaya|Konstnär, 59 år
+C|221785|67|M|Morgan Börjesson|67, f.d. Arbetsmiljöingenjör, Varberg
+C|221792|66|M|Roger Kardemark|66, Senior, Varberg
+C|380827|49|K|Ann-Kristin Herdell|49, Förskollärare, Veddige
+C|232200|52|K|Renée Ljung|52, Sjuksköterska, Varberg
+C|221781|61|M|Karl-Gunnar Svensson|61, Präst, Varberg
+C|232206|57|K|Susanne Enger|56, Barnmorska, Varberg
+C|380831|55|M|Gunnar Lyngsaa|55, Elevassistent, Veddige
+C|380832|52|K|Susann Lindahl|51, Sjuksköterska, Träslövsläge
+C|380833|69|M|Pelle Johansson|69, f.d. Egen företagare, Veddige
+C|380834|42|M|Boris Melvås|42, Jurist, Varberg
+C|380835|31|K|Jennie Lindroos|30, Sjuksköterska, Tvååker
+C|380836|51|M|Niclas Gustafsson|51, Processtekniker, Varberg
+C|380837|59|M|Lars Oskarsson|59, IT-Konsult, Veddige
+C|380838|28|M|Robin Tholander|27, Elektriker, Varberg
+C|380839|61|K|Ewa Kardemark|60, Frisör, Varberg
+C|380840|62|M|Per-Erik Eriksson|62, Usk/skötare, Varberg
+C|221801|70|M|Paul Willner|70, f.d. Personalsekreterare, Varberg
+C|380842|71|M|Björn Jonasson|71, f.d Distriktssköterska, Träslövsläge
+C|158811|50|M|Tobias Carlsson|50, gymnasielärare, Varberg
+C|158812|38|K|Cecilia Rönn|38, lean manager, Varberg
+C|158813|70|K|Marianne Nord Lyngdorf|70 år, gymnasielärare, Varberg
+C|158814|62|M|Mikael Bonde|62 år, försäljningschef, Trönninge
+C|158815|71|M|Karl-Johan Wiktorp|71 år, egen företagare, Hamra Tvååker
+C|158816|72|K|Lena Persson|72, medicinsk sekreterare, Varberg
+C|158817|18|M|Samuel Lithner|18 år, studerande, Varberg
+C|158818|72|K|Margareta Bernås|72, gymnasielärare, Varberg
+C|158819|18|M|Carl-Johan Hollesen|18 år, studerande, Trönninge
+C|158820|30|M|Joel Söderberg|30 år, anläggare, Varberg
+C|158821|52|K|Inger Brosved|52, arbetsförmedlare, Varberg
+C|158822|47|M|Mattias Ahlström|47, ingenjör, Varberg
+C|158823|18|K|Michaela Burström|18 år, studerande, Väröbacka
+C|158824|72|M|Gösta Gustafsson|72, företagsledare, Varberg
+C|158825|72|K|Gunilla Glücksman|72, hälsoföretagare, Varberg
+C|158826|39|M|Magnus Flysjö|40 år, företagare, Bua
+C|158827|41|M|Peter Månelin|41 år, IT-tekniker, Varberg
+C|158828|19|M|William Östby|19 år, studerande, Varberg
+C|158829|56|M|Mats Balkerud|57 år, COO, Kungsäter
+C|158830|77|M|Claes Göran Bengtsson|78 år, konsult resebranschen, Varberg
+C|158831|25|M|Victor Hermansson|25 år, studerande, Bua
+C|158832|63|M|Per-Olof Andersson|25 år, trädgårdsanläggare, Tofta
+C|158833|50|M|Otto Georgsson|50 år, lagledare, Träslövsläga
+C|158834|82|K|Gunnel Wandel|82 år, rektor, Varberg
+C|168235|36|M|Johan Rosander|36 år, förskollärare, Spannarp
+C|168236|25|K|Linnea Sandahl|25 år, jämställdhets- och mångfaldssamordnare, Veddige
+C|168237|34|M|Samuel Lindh|34 år, statsvetare, Varberg
+C|168238|41|K|Sophia Nilsson|41 år, marknadsförare, Varberg
+C|168239|53|M|Peter Rudhager|53 år, barnskötare, Breared
+C|168240|38|M|Peter Björck|38 år, butikschef, Karlberg
+C|168241|52|M|Stefan Edlund|52 år, lärare, Varberg
+C|240938|64|K|Ann-Charlotte Stenkil|64 år, Civilekonom, Varberg
+C|240939|61|M|Peter Sjöholm|61 år, Företagare, Rolfstorp
+C|160381|35|K|Hanna Netterberg|35 år, Planeringscontroller, Derome
+C|160369|70|M|Erland Linjer|70 år, Med. dr, Varberg
+C|240942|53|M|Micael Åkesson|53 år, Försäkringstjänsteman, Stråvalla
+C|240943|55|K|Anette Lofjärd|55 år, Ekonom, Getterön
+C|240944|62|M|Reine Antonér|62 år, Egenföretagare, Trönninge
+C|160376|54|K|Anne Tano|54 år, Verksamhetschef, Varberg
+C|160374|52|K|Ulrika Ericsson|52 år, Projektledare, Varberg
+C|240947|59|M|Sven Andersson|59 år, Fil. mag, Varberg
+C|240948|43|K|Nevrie B. Suleyman|43 år, Civilekonom, Bläshammar
+C|240949|43|M|Andreas Björklund|43 år, Civilekonom, Varberg
+C|240950|69|M|Gösta Bergenheim|69 år, Fd. kriminalinspektör, Varberg
+C|240951|20|K|Hannah Björnerhag|20 år, Studerande, Varberg
+C|160389|36|M|David Sandrén|36 år, HR-specialist, Varberg
+C|240953|72|K|Annsofi Aurell|72 år, Leg. sjukgymnast, Varberg
+C|160391|47|K|Madelene Thomsen|47 år, Socialpedagog, Träslövsläge
+C|240955|72|M|Lennart Andrén|72 år, Arkitekt, Väröbacka
+C|240956|72|M|Arne Kastberg|72 år, Ingenjör, Varberg
+C|160384|71|M|Håkan Olsson|71 år, Chefsrekryterare, Varberg
+C|240958|70|K|Margit Kastberg|70 år, Florist, Varberg
+C|240959|71|M|Göran Dahl|71 år, Pensionär, Varberg
+C|240960|68|M|Bengt Leek|68 år, Rådgivare, Varberg
+C|240961|36|M|Kristian Wallman|36 år, Undersköterska, Tvååker
+C|240962|59|M|Håkan Gullberg|59 år, Regionchef, Träslövsläge
+C|240963|68|K|Ingrid Dahl|68 år, Leg. fysioterapeut, Varberg
+C|240964|61|K|Eva Gullberg|61 år, HR-specialist, Träslövsläge
+C|240965|35|M|Thom Ericsson|35 år, Entreprenör, Varberg
+C|240966|36|K|Marina Akkerman|36 år, Fil. kand, Veddige
+C|240967|25|M|Johan Leek|25 år, Projektekonom, Varberg
+C|240968|59|M|Göran Jarhult|59 år, Ekonom, Varberg
+C|240969|26|K|Jonna Büchert|26 år, Egenföretagare, Varberg
+C|240970|64|M|Ralph Jirander|64 år, Ekonom, Varberg
+C|160409|46|K|Åse Craft Aronsson|46 år, Ekonom, Träslövsläge
+C|240972|60|M|Stefan Bengtsson|60 år, Verksamhetsutvecklare, Varberg
+C|240973|69|K|Lenor Andersson|69 år, Pensionär, Kärradal
+C|240974|67|M|Kåge Johansson|67 år, Partiombudsman emeritus, Varberg
+C|240975|66|M|Tomas Ödeslätt|66 år, Civilekonom, Åskloster
+C|160402|39|M|Darek Nilsson|39 år, Småföretagare, Tvååker
+C|240977|45|K|Yvette Diaz|45 år, Kokerska, Veddige
+C|240978|32|M|Kent Andersson|32 år, Handläggare, Brunnsberg
+C|240979|42|K|Chenay Mutlu|42 år, Leg. sjuksköterska, Varberg
+C|240980|58|M|Kjell Langmo|58 år, Herr, Varberg
+C|240981|61|M|Antonio Diaz|61 år, Eltekniker, Veddige
+C|240982|64|M|Lennart Karlsson|64 år, Egenföretagare, Träslövsläge
+C|240983|75|M|Per Fåhraeus|75 år, Civilingenjör, Varberg
+C|240984|57|M|Sandor Olah|57 år, Frilansgrafiker, Veddige
+C|240985|58|K|Marita Johansson|58 år, Boendekonsult, Varberg
+C|240986|48|K|Camilla Jarhult|48 år, Lokaltekniker, Varberg
+C|240987|72|M|Knut Aurell|72 år, Fil. kand, Varberg
+C|240988|57|M|Peter Friis|57 år, Chaufför, Skällinge
+C|240990|54|M|Gert Okén|54 år, Egenföretagare, Trönninge
+C|240991|76|M|Lars-Ingvar Lindblom|76 år, Produktionsingenjör, Varberg
+C|240992|61|K|Ghada Meldhav|61 år, Undersköterska, Varberg
+C|240993|70|K|Birgit Hagebrand Lindblom|70 år, Pensionär, Varberg
+C|240994|64|M|Robert Bornefalk|64 år, Verkställande direktör, Varberg
+C|240995|74|K|Elinor Modelius|74 år, Pensionär, Varberg
+C|237364|69|M|Lennart Liljegren|Senior, Varberg
+C|237365|73|K|Anita Svensson|Sjuksköterska, Varberg
+C|237366|71|K|Margareta Käll|Pers.ass., Åskloster
+C|237367|82|M|Arne Richardsson|Ingenjör, Varberg
+C|237368|68|K|Rosemary Liljegren|Senior, Varberg
+C|237369|74|M|Göran Karlsson|Brandmästare, Tvååker
+C|237370|79|M|Ingvar Ohlsson|Egen Företagare, Valinge
+C|237371|78|M|Jan Käll|Senior, Åskloster
+C|39922|46|M|Olle Hällnäs|Företagare, 46 år, Varberg
+C|39924|46|K|Anna Vilfalk|major account manager, 46 år, Varberg
+C|39925|34|M|Erik Hellsborn|Undersköterska, Varberg
+C|39926|88|K|Ingrid Jordebo|Rektor, 88 år, Tofta
+C|39927|31|M|Andreas Havasi|Snickare, 31 år, Rolfstorp
+C|39928|60|K|Christina Fermhede|fastighetsmäklare, 60 år, Varberg
+C|39929|40|M|Fredrik Gustafsson|civilingenjör, 40 år, Varberg
+C|39930|56|M|Jörgen Pejle|Brevbärare, 56 år, Varberg
+C|39941|27|M|Tobias Havasi|svetsare, 27 år, Varberg
+C|39942|82|M|Björn Lindström|bergsingenjör, 82 år, Varberg
+C|39943|52|K|Helen Alexborn|djurskötare, 52 år, Varberg
+C|39944|63|M|Stig Bentsson|Trädgårdsmästare, 63 år, Väröbacka
+C|39945|53|M|Patrick Nathanson|Båtmekaniker, 53 år, Varberg
+C|39946|42|M|Robert Petersson|Arbetare, 42 år, Varberg
+C|39947|51|M|Lilleman Vilfalk|Snickare, 51 år, Åskloster
+C|39948|61|M|Mats Larsson|hamnarbetare, 61 år, Varberg
+C|39949|68|M|Ulf Gunnarsson|Sjöbefäl, 68 år, Varberg
+C|39950|65|M|Clarence Jarlow|brunnsborrare, 65 år, Varberg
+C|39971|73|M|Jan-Olof Skoglund|Pensionär, 73 år, Bua
+C|39972|28|M|Andreas Jalmestam|Skyddsvakt, 28 år, Bua
+C|39973|66|M|Nils Eknell|Pensionär, 66 år, Varberg
+C|39974|78|M|Tore Johansson|pensionär, 78 år, Varberg
+C|39975|56|M|Peter Ingemarsson|Kontorist, 56 år, Varberg
+C|39976|53|K|Marie Petzäll|fotograf, 53 år, Varberg
+C|39977|32|M|Christian Bengtsson|ceremonimästare, 32 år, Varberg
+C|14201|45|M|Lars-Åke Erlandsson|lärare, 45 år, Varberg
+C|14202|48|K|Kajsa Lissel|stödassistent, 48 år, Varberg
+C|13450|69|M|Gerhard Eriksson|pensionär, 69 år, Varberg
+C|13444|72|M|Kjell-Erik Karlsson|pensionär, 72 år, Varberg
+C|14206|63|K|Ingela Svensson|kammaråklagare, 63 år, Varberg
+C|14207|65|M|Björn Mellquist|egenföretagare, 65 år, Tångaberg
+C|14208|26|M|Simon Bengtsson|industrielektriker, 26 år, Varberg
+C|13319|65|K|Lena Måvholm|leg. psykoterapeut/sjuksköterska, 65 år, Väröbacka
+C|13327|70|M|Peter Särnvald|pensionär, 70 år, Varberg
+C|13244|45|K|Agnes Hulthén|student, 45 år, Sibbarp
+C|14212|19|M|Tor Hylander|lokalvårdare, 19 år, Varberg
+C|14213|27|K|Cherry Jane Sander|fotograf, 27 år, Varberg
+C|13331|56|M|Hans Abbas|trädgårdsingenjör/pedagog, 56 år, Varberg
+C|14215|51|K|Nina Sjölund|elkonstruktör, 51 år, Varberg
+C|13329|33|K|Anny Berglin|administratör, 33 år, Varberg
+C|14217|54|M|Bahman Mirtorabi|metallarbetare, 54 år, Varberg
+C|14218|41|K|Sara Mineur|studerande, 41 år, Derome
+C|13454|70|M|Lars-Ivar Starkenberg|pensionär, 70 år, Varberg
+C|14220|25|K|Sofie Alm|arbetssökande, 25 år, Tvååker
+C|14221|54|K|Johanna Friberg|keramiker, 54 år, Veddige
+C|14222|56|M|Kjell Andersson|studiesekreterare, 56 år, Träslövsläge
+C|14223|64|K|Ingmari Carlsson|lärare, 64 år, Varberg
+C|230667|44|M|Robert Banck|slöjdlärare, 44 år, Åskloster
+C|14224|68|K|Kristina Börjesson|pensionär, 68 år, Träslövsläge
+C|14225|73|M|Christer Sandberg|f.d. gymnasielärare, 73 år, Varberg
+C|14226|72|M|Gert Börjesson|pensionär, 72 år, Träslövsläge
+C|14227|66|M|Benny Söhrström|fritidspedagog, 66 år, Varberg

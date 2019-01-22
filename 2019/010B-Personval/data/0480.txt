@@ -1,9 +1,259 @@
-2|149990|149991|149992|149993|149994|149995|149996|149997|149998|149999|150000|150001|150002|150003|150004|150005|150006|151362|151363|151364|151365|151366|151367|151368|151369|151370|151371|151372|151373|151374|151375|151376|151377|151893|151894|151895|151896|151897|151898|151899|151900|151901|151902|151903|151904|151905|151906|151907|151908|151909|151910|151911|151912|151913|151914|151915|151916|151917|151918|152072|152073|152074|152075|152076|152077|152078|152079|152080|152081|152082
-4|196478|196495|196485|198390|196482|198392|198393|198394|196486|197697|197678|198398|198399|197703|196477|198402
-532|314005|314470|314471|314472|314473
-68|166584|166871|166579|166592|166874|166875|166876|166877|166878|166879|166880|166881|166882|209594|166883|166884|166885|166886|166596|166888|166889
-3|2179|2408|2183|2189|2409|2412|2200|2492|2204|2494|2413|2414|2415|2416|2417|2418|2419|2420|2421
-55|167424|167425|167493|167494|167495|167496|167497|167498|167499|167500|167501|167502|167503|167504|167505|167506|167508|167509|167510|167511|167512
-1|9986|10133|140143|10173|10139|10168|10179|9997|140149|140150|140151|140152|10165|140154|140155|140156|140157|140158|10175|140160|140161|140162|10159|10008|140165|10147|140167|10182|140169|140170|140171|140172|140173|140174|140175|140176|140177|140178|140179
-110|16062|16063|16064|16065|16066|16067|16068|16069|16070|16071|16072|16073|16087|16074|83345|16075|16076|16077|16078|16079|16080|16081|16082|16083|16084|16085|141531
-5|48724|48725|12101|48727|48728|12087|12088|48731|48732|48733|48734|48735|207013|48736|48737|48738|48739|48740|48741|48742|48743|48744
+T|Nyköping
+A|2|149990|149991|149992|149993|149994|149995|149996|149997|149998|149999|150000|150001|150002|150003|150004|150005|150006|151362|151363|151364|151365|151366|151367|151368|151369|151370|151371|151372|151373|151374|151375|151376|151377|151893|151894|151895|151896|151897|151898|151899|151900|151901|151902|151903|151904|151905|151906|151907|151908|151909|151910|151911|151912|151913|151914|151915|151916|151917|151918|152072|152073|152074|152075|152076|152077|152078|152079|152080|152081|152082
+A|4|196478|196495|196485|198390|196482|198392|198393|198394|196486|197697|197678|198398|198399|197703|196477|198402
+A|532|314005|314470|314471|314472|314473
+A|68|166584|166871|166579|166592|166874|166875|166876|166877|166878|166879|166880|166881|166882|209594|166883|166884|166885|166886|166596|166888|166889
+A|3|2179|2408|2183|2189|2409|2412|2200|2492|2204|2494|2413|2414|2415|2416|2417|2418|2419|2420|2421
+A|55|167424|167425|167493|167494|167495|167496|167497|167498|167499|167500|167501|167502|167503|167504|167505|167506|167508|167509|167510|167511|167512
+A|1|9986|10133|140143|10173|10139|10168|10179|9997|140149|140150|140151|140152|10165|140154|140155|140156|140157|140158|10175|140160|140161|140162|10159|10008|140165|10147|140167|10182|140169|140170|140171|140172|140173|140174|140175|140176|140177|140178|140179
+A|110|16062|16063|16064|16065|16066|16067|16068|16069|16070|16071|16072|16073|16087|16074|83345|16075|16076|16077|16078|16079|16080|16081|16082|16083|16084|16085|141531
+A|5|48724|48725|12101|48727|48728|12087|12088|48731|48732|48733|48734|48735|207013|48736|48737|48738|48739|48740|48741|48742|48743|48744
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|149990|45|M|Urban Granström|45 år Kommunalråd
+C|149991|53|K|Carina Wallin|53 år Yrkes- och studievägledare
+C|149992|62|M|Carl-Åke Andersson|62 år Förtroendevald
+C|149993|60|K|Marjo Gustafsson|60 år Undersköterska
+C|149994|50|M|Kent Pettersson|50 år Lärare
+C|149995|56|K|Veronica Andersson|56 år Servicebiträde
+C|149996|26|M|Ludwig Gustafsson|26 år Elevassistent
+C|149997|49|K|Gunilla Andersson|49 år Vårdbiträde
+C|149998|46|M|Andreas Ekstrand|46 år Verksamhetsassistent Nyköping
+C|149999|32|K|Sofia Amloh|32 år Stålverksarbetare Nyköping
+C|150000|54|M|Salah Aljamal|54 år Sociolog
+C|150001|56|K|Mette Hesselgren|56 år Biträdande enhetschef
+C|150002|67|M|Leif Berg|67 år Ideell arbetare
+C|150003|46|K|Karin Johansson|46 år Verksamhetsledare
+C|150004|72|M|Leif Karlsson|72 år Senior
+C|150005|26|K|Emma Larsson|26 år Personlig assistent Nyköping
+C|150006|60|M|Håkan Sipos|59 år Laboratorieingenjör
+C|151362|23|K|Sahro Hashi|23 år Studerande Nyköping
+C|151363|44|M|Robert Bergkvist|44 år Kriminalvårdare
+C|151364|78|K|Gunilla Nordén|78 år F.d. Rektor
+C|151365|36|M|Torbjörn Kock|36 år Projektledare
+C|151366|69|K|Rauni Ringberg|69 år Leg.Arbetsterapeut
+C|151367|48|M|Ibrahim Ben Alaya|48 år Undersköterska
+C|151368|63|K|Lilliann Wirström|63 år Undersköterska
+C|151369|75|M|Harry Malmqvist|75 år Fastighetsskötare
+C|151370|67|K|Ulla Jansson|67 år Socionom
+C|151371|68|M|Sten Friberg|68 år Fordonsmekaniker
+C|151372|33|K|Linda Forså|33 år Järnverksarbetare
+C|151373|62|M|Lennart Halvarsson|62 år Präst Nyköping
+C|151374|59|K|Elisabeth Sjödelius|59 år Café-värdinna
+C|151375|49|M|Pär Rådstam|49 år Verksamhetsledare
+C|151376|60|K|Karin Jonsson|60 år Barnskötare
+C|151377|46|M|Michael Nygren|46 år Betongarbetare Nyköping
+C|151893|25|K|Emmelie Österberg|25 år Personlig assistent
+C|151894|58|M|Fekade Gebremichael|58 år Verkstadsarbetare
+C|151895|68|K|Monica Hedén Krusell|68 år F.d. Distriktssjuksköterska
+C|151896|44|M|Marcus Pehrsson|44 år Kommunikatör
+C|151897|69|K|Ingrid Forssberg|69 år Ekonom
+C|151898|65|M|Ali Abdullahi Dubet|65 år Egen företagare
+C|151899|57|K|Zahra Sezavar|57 år Köksmästare
+C|151900|38|M|Damon Nikyar|38 år Gränskontrollant
+C|151901|45|K|Halimo Hassan|45 år Undersköterska
+C|151902|48|M|Peter Soilander|48 år Samhälls- och kulturanalytiker
+C|151903|47|K|Sussie Ekstrand|47 år Hantverkare
+C|151904|43|M|Aar Düalgärnäin|43 år Lärarassistent
+C|151905|41|K|Anna Schönbeck|41 år Folkhögskolelärare
+C|151906|62|M|Per Norrhäll|62 år Socialarbetare
+C|151907|59|K|Lena Ödén|59 år Butiksbiträde
+C|151908|68|M|Lennart Hagerström|68 år Civilekonom
+C|151909|47|K|Lena Östh|47 år Skolkurator
+C|151910|51|M|Albert Iselsson|51 år Studerande
+C|151911|53|K|Lena O´Connor|53 år Biträdande rektor
+C|151912|46|M|Mohammed Tarif Taha|46 år Ingenjör
+C|151913|57|K|Christina Södling|57 år Undersköterska Nyköping
+C|151914|66|M|Svante Fjällbäck|66 år Personlig assistent
+C|151915|75|K|Boel Carlsson|75 år Pensionär
+C|151916|64|M|Stefan Kindeborg|64 år Ingenjör
+C|151917|62|K|Elisebeht Markström|62 år Förtroendevald
+C|151918|74|M|Håkan Ödling|74 år Senior
+C|152072|63|K|Christine Gilljam|63 år Senior Nyköping
+C|152073|71|M|Lars Fernvall|71 år Civilingenjör Nyköping
+C|152074|63|K|Lotta Larsson|63 år Administratör
+C|152075|53|M|Per Eriksson|53 år Säljare
+C|152076|65|K|Agneta Lindstrand|65 år Senior
+C|152077|66|M|Jan Ekström|F.d. Personalchef
+C|152078|73|M|Lars-Göran Pettersson|73 år F.d. Ombudsman
+C|152079|64|M|Jan Hallberg|63 år Senior
+C|152080|51|M|Kjell Strömlind|51 år Byggnadsarbetare
+C|152081|57|M|Ingemar Sandberg|57 år Lagerarbetare
+C|152082|45|M|Jacob Sandgren|45 år Gymnasielärare Nyköping
+C|196478|47|K|Martina Hallström|47 år,Företagare,Ålberga
+C|196495|54|M|Hans Andersson|54 år,Lantbrukare,Nyköping
+C|196485|34|K|Emma Fahlstedt|34 år,Kommunikationsstrateg,Nyköping
+C|198390|35|M|Mohammed Mouaid|35år,Nyköping
+C|196482|46|M|Conny Steisjö|46 år,Kock,Nyköping
+C|198392|41|K|Erika Nyman|41år,Nyköping
+C|198393|69|K|Eva Andersson|69år,Nyköping
+C|198394|62|M|Kjell Johansson|62år,Jönåker
+C|196486|53|M|Anders Eriksson|53 år,Redovisningskonsult,Nyköping
+C|197697|53|K|Helén Biörklund Gustafsson|53 år,Konstnär,Nyköping
+C|197678|48|K|Sofia Aktergård|48 år,Verksamhetsutvecklare,Nyköping
+C|198398|67|M|Jan-Eric Carlsson|67 år,Nyköping
+C|198399|24|K|Natalie Karlsson|24 år,Nyköping
+C|197703|48|K|Jessika Keereweer|48 år,Lärare,Nyköping
+C|196477|20|K|Louise Hallström|20 år,Aupair,Ålberga
+C|198402|67|K|Elisabeth Sandberg|67år,Runtuna
+C|314005|37|K|Kristin Källströmer|Lärare, 37 år
+C|314470|55|M|Panda Sognewig|Diversearbetare/skötare, 55 år
+C|314471|18|K|Olivia Nielsen|Studerande, 18 år
+C|314472|28|K|Josefine Andersson|Studerande/vårdbiträde, 28 år
+C|314473|51|M|Håkan Rosén|Undersköterska, 51 år
+C|166584|66|K|Marita Göransson|
+C|166871|51|M|Lars Lundqvist|51, högstadielärare, Nyköping
+C|166579|63|M|Stefan Landmark|
+C|166592|64|M|Erik Häggblom|
+C|166874|64|K|Maud Wachtmeister|64, civilekonom, Nyköping
+C|166875|48|M|Peter Öjert|48, reg.säljare, Nyköping
+C|166876|73|K|Margareta Eriksson|72, leg.sjuksköterska, Nyköping
+C|166877|21|M|Kristian Divander|21, student, Nyköping
+C|166878|69|M|Sven Bengtsson|68, rektor, Nyköping
+C|166879|73|M|Gerhard Georgsson|72, ingenjör, Vrena
+C|166880|61|K|Annika Bengtsson|61, undersköterska, Nyköping
+C|166881|37|M|Joachim Ärlebrant|37, rektor, Jönåker
+C|166882|35|K|Rebecca Saltell|36, leg.sjuksköterska, Nyköping
+C|209594|43|K|Malin Ljunggren|44, projektadministratör, Nyköping
+C|166883|59|M|Paul Johansson|59, åkeriägare, Spelvik
+C|166884|40|K|Josefin Boberg|40, verksamhetschef, Nyköping
+C|166885|66|M|Lars Gustafsson|66, tekniker, Jönåker
+C|166886|63|K|Carina Hedin Eriksson|63, leg.sjuksköterska, Nyköping
+C|166596|56|M|Guillaume Kanyana|
+C|166888|60|K|Laila Bäckström-Mörby|60, kyrkomusiker, Nyköping
+C|166889|66|M|Lars-Göran Göransson|66, skogsentreprenör, Nyköping
+C|2179|31|K|Sofia Hallgren Remnert|upphandlare, Nyköping
+C|2408|41|M|Patrik Ivarsson|lärare, 41
+C|2183|54|K|Jessica Johansson|specialistundersköterska, Nyköping
+C|2189|70|M|Hans Lindberg|pensionär, Nyköping
+C|2409|72|M|Johan Munthe|pensionär, 72
+C|2412|74|K|Marianne Nordblom|sjuksköterska, 74
+C|2200|72|M|Bo Arvidsson|fd. skattedirektör, Nyköping
+C|2492|34|M|Tomas Ekermo Karlsson|säkerhetsvakt, 34
+C|2204|77|M|Anders Bjurström|fd. landstingsfullmäktiges ordförande, Nyköping
+C|2494|31|M|Max Remnert|lärare/fritidspedagog, 31
+C|2413|38|M|Andreas Hagberg|inköpare, 38
+C|2414|74|M|Christer Sävensjö|säkerhetschef, 74
+C|2415|48|K|Caroline Slottenäs|entreprenör, 48
+C|2416|60|K|Anna-Karin Enetjärn Magnusson|sjuksköterska, 60
+C|2417|75|M|Jan-Åke Gunnarsson|jur. kand., 75
+C|2418|66|M|Göran Silfverling|skogskonsulent, 66
+C|2419|81|M|Hans Nilsson|pensionär, 81
+C|2420|58|K|Brittmarie Lind Wikblom|socialsekreterare, 58
+C|2421|23|M|Christopher Moberg|marknadsförare, 23
+C|167424|42|K|Malin Hagerström|42 år, socialsekreterare
+C|167425|55|M|Marco Venegas|55 år, socialarbetare
+C|167493|47|K|Karina Josevski|47 år, administratör
+C|167494|32|M|Ibrahim Mohamud|32 år, integrationspedagog
+C|167495|62|K|Ylva Franzén|62 år, fru
+C|167496|31|M|Jonas Augustsson|32 år, VD, ideel superhjälte
+C|167497|42|K|Malin Holmgren|32 år, socialsekreterare
+C|167498|70|M|Gunnar Åsell|arkitekt, 70 år, Nyköping
+C|167499|69|K|Monica Bengtsson|69 år, frivilligarbetare
+C|167500|38|M|Johannes Krunegård|PR-konsult, 38 år, Nyköping
+C|167501|42|K|Michelle Rodriguez|42 år, spanskalärare
+C|167502|65|M|Kenneth Bjurström|fritidsledare, 65 år, Nyköping
+C|167503|56|K|Mie Nilsson|boendestödjare, 56 år, Nyköping
+C|167504|52|M|Dimce Josevski|52 år, egenföretagare
+C|167505|58|K|Helene Lundström|kyrkvaktmästare, 58 år, Nyköping
+C|167506|66|M|Björn Wadström|66 år, pensionär
+C|167508|62|M|Björn Åslund|62 år, journalist
+C|167509|73|K|Ulla-Karin Skoghag|73 år, kulturarbetare
+C|167510|57|M|Nadim Hassen|arkitekt, 57 år, Nyköping
+C|167511|45|M|Oskar Reimer|egenföretagare, 45 år, Nyköping
+C|167512|54|M|Jan-Evan Fredriksson|54 år, fritidsledare
+C|9986|42|K|Anna af Sillén|oppositionsråd, Nyköping
+C|10133|36|M|Petter Söderblom|kommunikationsansvarig, Ålberga
+C|140143|68|M|Jan Bonnier|lantbrukare, Stigtomta
+C|10173|50|M|Tommy Jonsson|civilingenjör, Vrena
+C|10139|38|K|Maria Gilstig|distriktssköterska, Nyköping
+C|10168|61|K|Anniola Nilsson|restauratör, Nävekvarn
+C|10179|64|M|Johan Schenström|civilekonom, Nyköping
+C|9997|32|K|Klara Olander|kvalitetscontroller, Nyköping
+C|140149|80|M|Kaj Nilsson|projektledare, Nyköping
+C|140150|46|K|Karin Eriksson|kommunikatör, Nyköping
+C|140151|52|K|Maija Söderberg|egenföretagare, Jönåker
+C|140152|49|M|Fredrik Sjöberg|lantbrukare, Jönåker
+C|10165|47|K|Madelaine Clason Laxmi|egenföretagare, Nyköping
+C|140154|36|M|Thomas Böhlmark|politisk tjänsteman, Nyköping
+C|140155|59|M|Peter Howard|projektledare, Nyköping
+C|140156|78|M|Orvar Windisch|civilingenjör, Nyköping
+C|140157|65|M|Göran Nilsson|fd kommissarie, Nyköping
+C|140158|33|M|Ahmad Eid|företagsledare, Nyköping
+C|10175|71|K|Inger Sjulsson|lärare, Nyköping
+C|140160|56|M|Per Grönberg|apotekare, Nyköping
+C|140161|41|M|Jonas Carlsson Malm|restaurangägare, Stavsjö
+C|140162|64|K|Eva Sjöström|samordnare, Koppartorp
+C|10159|33|M|Martin Kildén Smith|sociolog, Nyköping
+C|10008|43|M|Mohamed Ali|maskingenjör, Nyköping
+C|140165|71|K|Kerstin Windisch|fd enhetschef, Nyköping
+C|10147|60|M|Kjell Ericson|lantbrukare, Nyköping
+C|140167|70|M|Tommy Ljung|fd VD, Nyköping
+C|10182|52|M|Johan Stenberg|mekaniker, Nyköping
+C|140169|75|K|Birgitha Andersson|fd postmästare, Nyköping
+C|140170|62|K|Lana Lannecel|musikpedagog, Nyköping
+C|140171|74|M|Christer Carmonius|företagare, Nyköping
+C|140172|63|K|Ann-Christine Hartmann|marknadsekonom, Nyköping
+C|140173|69|M|Andreas Herlitz|företagare, Runtuna
+C|140174|64|M|Claes Hagerström|civilekonom, Nyköping
+C|140175|58|K|Therese Wachtmeister|ekonom, Nyköping
+C|140176|32|M|David Ekblad|flygteknisk inspektör, Nyköping
+C|140177|74|M|Allan Ejeblad|egenföretagare, Svärta
+C|140178|69|M|Johnny Roos|egenföretagare, Jönåker
+C|140179|47|M|Christer Persson|undersköterska, Nyköping
+C|16062|44|M|Thom Zetterström|44 år, Ombudsman
+C|16063|39|K|Malin Karlsson|39 år, Yrkeschaufför
+C|16064|54|M|Ulf Hansen|54 år, Egenföretagare
+C|16065|56|M|Anders Eberhardt|56 år, Kriminalvårdare
+C|16066|46|M|Tomas Edenius|46, Yrkeschaufför, Stigtomta
+C|16067|42|K|Marianne Sohlman Zetterström|42 år, Undersköterska
+C|16068|56|M|Peter Engström|56, Systemspecialist, Jönåker
+C|16069|50|K|Isabel Gustavsson|50 år, Anestesi sjuksköterska
+C|16070|28|M|Olof Österberg|28, Tekniker, Nyköping
+C|16071|62|M|Raymond Mroczek|61, Materialman, Stigtomta
+C|16072|51|K|Eva Källström|51 år, Barnskötare
+C|16073|27|K|Sara Lejonklou|27, Egen företagare, Tystberga
+C|16087|28|K|Jannike Zetterman|28 år, Ämneshanterare
+C|16074|58|M|Hans Hedlund|58, Psykiatrisjuksköterska, Ålberga
+C|83345|59|K|Ann-Sophie Nygren|59 år, Säljare
+C|16075|59|M|Markko Piippo|59, Pensionär, Nyköping
+C|16076|61|M|Ole Thronborg|61, Pensionär, Stigtomta
+C|16077|50|K|Christina Rehn|50, Leg. Lärare, Nyköping
+C|16078|31|M|Hans Österberg|30 år, Strålskyddsingenjör
+C|16079|62|K|Jeanette Zetterström Österberg|62, Pensionär, Horn
+C|16080|55|M|Timo Blennlid|55, Tekniker, Nyköping
+C|16081|43|M|Lars Österdahl|43, Säljare, Nyköping
+C|16082|70|M|Per Olof Forsell|70, Pensionär, Tystberga
+C|16083|54|M|Roger Bejholt|54, Sjukpensionär, Jönåker
+C|16084|71|M|Bo Ahlstrand|71, Pensionerad Polisinspektör, Nyköping
+C|16085|76|M|Kurt Andersson|76, Entreprenör, Nyköping
+C|141531|42|M|Björn Berggren|42, Undersköterska, Nyköping
+C|48724|48|M|Nicklas Franzén|48, Kommunalråd, Nyköping
+C|48725|30|K|Linn Jonsson|30, Socionom, Nyköping
+C|12101|33|M|Johannes Andersson|33, Egenföretagare, Nyköping
+C|48727|46|K|Lotten Båvik|46, Sjukpensionär, Nyköping
+C|48728|55|K|Helena Dahlström|55, Undersköterska, Nyköping
+C|12087|64|M|Conny Jacobsson|63 Personlig assistent Nyköping
+C|12088|50|K|Ulrika Wirvén|50, Trafiklärare, Nyköping
+C|48731|60|M|Curt Ohlson|60, Skådespelare, Nyköping
+C|48732|51|K|Charlotte Krüger|51, Folkhögskollärare, Nyköping
+C|48733|71|M|Håkan Johansson|71, Pensionär, Nyköping
+C|48734|40|K|Elinor Sundén|40, Politisk sekreterare, Nyköping
+C|48735|68|M|Per Andersson|68, F.d. folkhögskollärare, Nyköping
+C|207013|19|K|Nora Franzén|18, Studerande, Nyköping
+C|48736|58|M|Anders Nilsson|58, Egenföretagare, Nyköping
+C|48737|65|M|Hadar Nordblom|65, Arkitekt, Nyköping
+C|48738|57|K|Monica Jernström|57, Lärare, Nyköping
+C|48739|51|M|Ola Wennerström|51, Metallarbetare, Nyköping
+C|48740|35|K|Sofia Lenninger|35, Läkare, Vrena
+C|48741|71|M|Jan-Ulf Andersson|71, Pensionär, Nyköping
+C|48742|72|K|Ingrid Sjölander|72, Pensionär, Nyköping
+C|48743|35|M|Thomas Lenninger|35, Egenföretagare, Vrena
+C|48744|88|K|Gun Karlsson|88, Pensionär, Nyköping

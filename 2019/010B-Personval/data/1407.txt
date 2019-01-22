@@ -1,9 +1,182 @@
-2|86296|86154|86155|86156|86157|86158|86159|86160|86161|86162|86163|86164|86165|86166|86167|86168|86169|86170|86171|86172|86173|86174|86175
-1413|515698
-4|75315|75316|75317
-68|226850|226851|226852|226853|226854|226855|226856|226857|226858|226859|226860|226861|226862|226863|226864|226865|226866|226867|226868|226869|226870|226871|226872|226873|226874|226875|226876|226877|226878|226879|226880|226881|226882|226883|226884|226885|226886|226887|199939
-3|278253|49173|385088|385089|385090|278091|385092|278248|385094|385095|385096|385097|385098|385099|385100|385101|385102|385103|385104|385105|385106|385107|385108|385109|385110|385111|385112
-55|119620|119621|119622|82470|119624|119625|119626|119628|119629|119630|119631|119632|119633|119634|119635|119636
-1|254531|254532|254533|254157|254535|254536|254537|254538|254539|254540|254541|254542|254543|254544|254545|254546|254547|254548|254550|253930|254552|254554|254555|254556|254557|254558|254559|254560|254561|254562|254563|254564|254565|254566|254567|254568|254569
-110|121889|121890|121891|121892|121893|121895|121894
-5|160741|162921|162918|213402|213403|213404|213405|213406|213407|213408
+T|Öckerö
+A|2|86296|86154|86155|86156|86157|86158|86159|86160|86161|86162|86163|86164|86165|86166|86167|86168|86169|86170|86171|86172|86173|86174|86175
+A|1413|515698
+A|4|75315|75316|75317
+A|68|226850|226851|226852|226853|226854|226855|226856|226857|226858|226859|226860|226861|226862|226863|226864|226865|226866|226867|226868|226869|226870|226871|226872|226873|226874|226875|226876|226877|226878|226879|226880|226881|226882|226883|226884|226885|226886|226887|199939
+A|3|278253|49173|385088|385089|385090|278091|385092|278248|385094|385095|385096|385097|385098|385099|385100|385101|385102|385103|385104|385105|385106|385107|385108|385109|385110|385111|385112
+A|55|119620|119621|119622|82470|119624|119625|119626|119628|119629|119630|119631|119632|119633|119634|119635|119636
+A|1|254531|254532|254533|254157|254535|254536|254537|254538|254539|254540|254541|254542|254543|254544|254545|254546|254547|254548|254550|253930|254552|254554|254555|254556|254557|254558|254559|254560|254561|254562|254563|254564|254565|254566|254567|254568|254569
+A|110|121889|121890|121891|121892|121893|121895|121894
+A|5|160741|162921|162918|213402|213403|213404|213405|213406|213407|213408
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1413||Brobyggarpartiet
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|86296|52|K|Maria Brauer|oppositionsråd, Öckerö
+C|86154|51|M|Ronnie Bryngelsson|kock, Öckerö
+C|86155|65|M|Ronald Caous|Hälsö
+C|86156|58|K|Monika Eriksen|Hönö
+C|86157|70|M|Jan Åke Simonsson|Öckerö
+C|86158|63|M|Thomas Wijk|Hönö
+C|86159|59|M|Göran Olsson|Hönö
+C|86160|69|M|Jan-Ivar Ivarsson|Hönö
+C|86161|27|M|Mathias Jedborg|Öckerö
+C|86162|50|M|Lars-Mikael Andersson|Hönö
+C|86163|69|K|Lena Berglund|Hönö
+C|86164|68|M|Bert Corneliusson|Fotö
+C|86165|35|K|Ågot Watne|Öckerö
+C|86166|66|M|Tommy Andersson|Öckerö
+C|86167|42|K|Johanna Nydelius|Öckerö
+C|86168|52|M|Paul Magnusson|Hälsö
+C|86169|67|M|Morgan Simonsson|Öckerö
+C|86170|39|K|Caisa Wiberg|Hyppeln
+C|86171|46|K|Malin Bryngelsson|Hönö
+C|86172|69|M|Olle Ludvigsson|Hälsö
+C|86173|56|K|Pia Åhlund|Hälsö
+C|86174|73|K|Anita Olsson|Rörö
+C|86175|78|M|Dan Eriksson|Hönö
+C|515698|56|M|Jörgen Johansson|
+C|75315|45|K|Ulrika Engmér Sandström|45 år, Fotograf
+C|75316|67|K|Berit Gullbransson|67 år, civilingenjör, Öckerö
+C|75317|73|M|Peter Gullbransson|73år, Revisor
+C|226850|48|M|Jan Utbult|Läromedelsförfattare, Öckerö
+C|226851|47|K|Martina Kjellqvist|Företagare, Rörö
+C|226852|45|M|Claes Sandros|45 år, Verksamhetsarkitekt, Hönö
+C|226853|46|K|Johanna Bagleborn|46 år, Controller, Öckerö
+C|226854|22|M|Isak Strömblad|22 år, Truckförare, Öckerö
+C|226855|51|K|Eva Wallin|Civilingenjör, Öckerö
+C|226856|37|M|Robertho Settergren|37 år, Julgransodlare, Öckerö
+C|226857|27|K|Deborah Jacobsson|27 år, Ekonomistuderande, Hönö
+C|226858|43|M|Henrik Karlsson|43 år, Grävmaskinist, Hönö
+C|226859|50|K|Martina Lindqvist|50 år, Projektledare, Öckerö
+C|226860|42|M|Fredrik Gustavsson|42 år, Smed, Hönö
+C|226861|65|K|Anne-Lie Sundling|65 år, Undersköterska, Öckerö
+C|226862|56|M|Michael Sjögren|55 år, Leg. sjukgymnast, Öckerö
+C|226863|51|K|Anna Bertrandsson|51 år, Sjöräddare, Rörö
+C|226864|42|M|Emil Beijer|42 år, Läkare, Fotö
+C|226865|52|M|Hans Wickstrand|52 år, Elmontör, Öckerö
+C|226866|55|K|Anette Zälter|55 år, Diakonistuderande, Hönö
+C|226867|53|M|Henrik Börjesson|53 år, Datoringenjör, Öckerö
+C|226868|40|K|Erica Tengroth|Sjuksköterska, Öckerö
+C|226869|69|M|Åke Nyström|69 år, Byggkonsult, Hönö
+C|226870|20|K|Evelina Wallin|20 år, Studerande, Öckerö
+C|226871|70|M|Håkan Olsson|70 år, Läkare, Hälsö
+C|226872|55|K|Christina Sundström|55 år, Barnskötare, Öckerö
+C|226873|53|M|Hans-Klaus Weiler|53 år, Mjukvaruingenjör, Kalvsund
+C|226874|75|K|Lisbeth Lindquist|75 år, Pensionär, Öckerö
+C|226875|54|M|Peter Johansson|54 år, Möbelhandlare, Hönö
+C|226876|67|M|Bengt Lardmo|66 år, Produktionsledare, Öckerö
+C|226877|47|K|Birgitta Anhage|47 år, Lärare, Hönö
+C|226878|26|M|Michael Bossen|26 år, Båtbyggare, Öckerö
+C|226879|48|K|Maria Utbult|48 år, Lärare, Öckerö
+C|226880|51|M|Jan-Olof Nilsson|51 år, Sektionschef, Öckerö
+C|226881|76|M|Bertil Adolfsson|76 år, F.d. fiskare, Öckerö
+C|226882|72|K|Ulla Cronqvist|73 år, Pensionär, Hyppeln
+C|226883|19|M|Daniel Johansson|19 år, Studerande, Hönö
+C|226884|73|M|Lars Henriksson|73 år, VD, Björkö
+C|226885|69|K|Gunilla Englund|69 år, Undersköterska, Hönö
+C|226886|61|M|Lars-Gunnar Jörnestrand|61 år, Företagare, Fotö
+C|226887|44|M|Johan Hamnebo|44 år, Befälhavare, Hönö
+C|199939|67|M|Roland Utbult|Riksdagsledamot, Öckerö
+C|278253|73|M|Göran Ohlsson|73, senior, Öckerö
+C|49173|47|K|Annika Westh|gymnasielärare, Öckerö
+C|385088|48|M|Hans Alveros|Björkö
+C|385089|74|K|Vera Molin|Hönö
+C|385090|71|M|Peter Domini|Björkö
+C|278091|74|K|Marianne Lönn|74, f.d. personalsekreterare, Öckerö
+C|385092|24|M|Philip Bryngelsson|Hönö
+C|278248|71|K|Helena Larsson|71, pensionär, Öckerö
+C|385094|45|M|Erik Johansson|Öckerö
+C|385095|19|K|Zara Ohlsson|Öckerö
+C|385096|68|M|Gunnar Ånskog|Hönö
+C|385097|61|K|Eva Wennström|Björkö
+C|385098|64|M|Pierre Åman|Fotö
+C|385099|77|K|Margareta Nyqvist Asker|Hönö
+C|385100|45|M|David Forneheim|Hönö
+C|385101|73|M|Urban Jemtsjö|Hönö
+C|385102|60|K|Karin Bergqvist|Björkö
+C|385103|68|M|Anders Post|Öckerö
+C|385104|50|K|Helena Cadario Hellberg|Hönö
+C|385105|54|M|Ola Alexandersson|Björkö
+C|385106|48|K|Anna Ahlsell|Öckerö
+C|385107|72|M|Gösta Aronsson|Hönö
+C|385108|63|K|Gudrun Unander|Björkö
+C|385109|74|K|Veronica Kronhamn|Hälsö
+C|385110|72|K|Birgitta Gustavsson|Fotö
+C|385111|73|K|Birgitta Svensson|Källö-Knippla
+C|385112|74|M|Leif Larsson|Björkö
+C|119620|68|K|Boel Lanne|68 år, Biokemist, Grötö
+C|119621|45|M|Björn Wahll|45 år, IT-konsult, Hönö
+C|119622|46|K|Anna Skrapste|46 år, Miljövetare, Hönö
+C|82470|44|M|Nicklas Attefjord|44 år, Organisationsutvecklare, Öckerö
+C|119624|42|K|Cecilia Wergeni|43 år, Lärare fritidshem, Björkö
+C|119625|20|M|Adrian Pettersson|20 år, Vaktgående maskinbefäl, Björkö
+C|119626|52|K|Birgitta Abrahamsson|52 år, Folkhögskollärare, Hönö
+C|119628|53|K|Anna-Lena Helling|54 år, Kurator, Björkö
+C|119629|77|M|Jan Asplund|77 år, Pensionär, Hönö
+C|119630|47|K|Angelica Mattsson|47 år, Restaurangarbetare, Björkö
+C|119631|71|M|Göran Tortensson|71 år, Pensionär, Hyppeln
+C|119632|39|K|Linnéa Jägrud|39 år, Biolog, Björkö
+C|119633|47|M|Anton Abrahamsson|47 år, Historielärare, Hönö
+C|119634|78|K|Margareta Jaksch|78 år, Pensionär, Hönö
+C|119635|66|K|Harriet Karlsson|66 år, Läkarsekreterare, Öckerö
+C|119636|77|K|Sylke Sandberg|77 år, Fredspedagog, Hälsö
+C|254531|33|K|Jennie Wernäng|Öckerö
+C|254532|54|M|Anders Kjellgren|Hönö
+C|254533|28|K|Sandra Svensson|Öckerö
+C|254157|58|M|Kent Lagrell|58, Entreprenör, Öckerö
+C|254535|44|K|Andrea Ohlsson|Öckerö
+C|254536|68|M|Björn Johanson|Bohus-Björkö
+C|254537|67|M|Ingvar Svensson|Källö-Knippla
+C|254538|60|M|Peter Jörnestrand|Fotö
+C|254539|63|M|Christer Holmer|Bohus-Björkö
+C|254540|64|M|Tommy Wallhult|Öckerö
+C|254541|60|M|Alf Benson|Öckerö
+C|254542|23|M|Max Lagrell|Öckerö
+C|254543|74|K|Kerstin Sterner|Öckerö
+C|254544|69|M|Claes Danielsson|Hönö
+C|254545|72|M|Michael Necke|Hönö
+C|254546|39|K|Helene Berntsson|Hönö
+C|254547|57|M|Tonny Yngvesson|Hönö
+C|254548|61|M|Christer Alexandersson|Öckerö
+C|254550|65|M|Lennart Pettersson|Hälsö
+C|253930|44|M|Andreas Rydbo|44, VD, Öckerö
+C|254552|42|K|Susanne Hultner|Hönö
+C|254554|61|M|Lennart Samuelsson|Hönö
+C|254555|49|M|Mattias Johannesson|Öckerö
+C|254556|71|M|Stig Ottosson|Fotö
+C|254557|68|M|Jim Adolfsson|Hälsö
+C|254558|58|M|Martin Lindberg|Bohus-Björkö
+C|254559|59|K|Karin Karlsson|Källö-Knippla
+C|254560|74|M|Bengt Olausson|Bohus-Björkö
+C|254561|42|K|Carolina Linderhav|Hönö
+C|254562|48|M|Per Utbult|Hönö
+C|254563|20|K|Alice Larsson|Hönö
+C|254564|29|M|Dick Lagrell|Öckerö
+C|254565|68|M|Stefan Granstav|Bohus-Björkö
+C|254566|72|M|Håkan Beskow|Fotö
+C|254567|38|M|Hans Bryngelhed|Öckerö
+C|254568|61|M|Åke Johansson|Källö-Knippla
+C|254569|73|M|Jan Hansson|Öckerö
+C|121889|68|M|Jan Ek|68 år, Grafiker
+C|121890|58|M|Mats Plahn|58 år, Färjepersonal
+C|121891|57|M|Staffan Dahlbäck|57 år, Tjänsteman
+C|121892|55|M|Dick Wendesten|55 år, Brevbärare
+C|121893|70|M|Kjell Lindström|70 år, Pensionär
+C|121895|56|M|Thomas Alvhult|56 år, Underhållsingenjör
+C|121894|52|M|Stefan Gustafsson|52 år, Kriminalvården
+C|160741|63|K|Annika Andersson|timvikarie, Öckerö, 63 år
+C|162921|75|M|Göran Billvall|socionom, Öckerö, 75 år
+C|162918|63|K|Annkie Fridström|leg. sjuksköterska, Öckerö, 64 år
+C|213402|68|K|Mona Ljung|Hönö
+C|213403|77|M|Ingemar Schmid|Hönö
+C|213404|74|K|Kerstin Hirmas|Öckerö
+C|213405|70|K|Ulla Gyllensten|Öckerö
+C|213406|64|M|Gunnar Stensson|Kalvsund
+C|213407|34|K|My Linder|Öckerö
+C|213408|74|K|Viveka Schmid|Hönö

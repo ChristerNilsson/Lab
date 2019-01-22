@@ -1,9 +1,220 @@
-2|8376|8381|8384|8375|155704|8383|8378|8377|137358|137359|8385|8379|137362|9146|8382|137365|137366|137367|137368|137369|137370|137371|8380|137373|19574|137375|137376|137377|137378|137379|137380|137381|137382|137383|137384|137385|137386|137387|137388|137389|137390|137391|137392|137393|137394
-4|8550|347478|347479|300668|300671|347482|300664|300669|300658|347486|347487|300666|347489|300670|300675|300673|347493|300672|347495|347496|300662|347498|347499|347500|300660|347502|347503|300674|347505|347506|347507|347508|347509|347510|347511|347512|347513|347514|347515|347516|347517|347518|347519
-68|36719|25227|25246|36721|36736|36722|80026|36733|80028|80029|36728|80031|80032|80033|80034|80035|80036|80037|80038|80039|80040|80041|80042|80043|36738|80044|80045|36731|80049|80050|80051|80052|80053
-1011|131432|131451|131472|131506|166334
-3|318375|318376|318377|318378|318379|318381|318382
-55|320103|320104|320105|320106|320107|320108
-1|160445|163801|160451|163803|163804|163805|163806|158893|163808|163809|163810|163811|163812|163813|163814|163815|163816|163817|163818|163819
-110|61051|61052|61053|61054|61055|61056|61057|61058|61059|61060|61061|61062|510362|510363|512889
-5|322968|322969|322970|322971|322972|322973|322974|322975|322976|322977|322978|322979|322980|322981|322982|322983|322984|322985|322986|322987|322988|322989|322990|322991|322992|322993|322994
+T|Vimmerby
+A|2|8376|8381|8384|8375|155704|8383|8378|8377|137358|137359|8385|8379|137362|9146|8382|137365|137366|137367|137368|137369|137370|137371|8380|137373|19574|137375|137376|137377|137378|137379|137380|137381|137382|137383|137384|137385|137386|137387|137388|137389|137390|137391|137392|137393|137394
+A|4|8550|347478|347479|300668|300671|347482|300664|300669|300658|347486|347487|300666|347489|300670|300675|300673|347493|300672|347495|347496|300662|347498|347499|347500|300660|347502|347503|300674|347505|347506|347507|347508|347509|347510|347511|347512|347513|347514|347515|347516|347517|347518|347519
+A|68|36719|25227|25246|36721|36736|36722|80026|36733|80028|80029|36728|80031|80032|80033|80034|80035|80036|80037|80038|80039|80040|80041|80042|80043|36738|80044|80045|36731|80049|80050|80051|80052|80053
+A|1011|131432|131451|131472|131506|166334
+A|3|318375|318376|318377|318378|318379|318381|318382
+A|55|320103|320104|320105|320106|320107|320108
+A|1|160445|163801|160451|163803|163804|163805|163806|158893|163808|163809|163810|163811|163812|163813|163814|163815|163816|163817|163818|163819
+A|110|61051|61052|61053|61054|61055|61056|61057|61058|61059|61060|61061|61062|510362|510363|512889
+A|5|322968|322969|322970|322971|322972|322973|322974|322975|322976|322977|322978|322979|322980|322981|322982|322983|322984|322985|322986|322987|322988|322989|322990|322991|322992|322993|322994
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|8376|60|K|Helen Nilsson|kommunalråd, Vimmerby, 60 år
+C|8381|71|M|Lennart Nygren|f d utredningsingenjör, Vimmerby, 71 år
+C|8384|65|K|Eva Berglund|behandlingsassistent, Vimmerby, 65 år
+C|8375|49|M|Peter Högberg|landstingspolitiker, Vimmerby, 49 år
+C|155704|59|K|Lis-Astrid Andersson|Fritidspedagog, 58 år
+C|8383|62|M|Kenneth Björklund|industriarbetare, Gullringen, 62 år
+C|8378|47|K|Cissi Hammar|handläggare, Vimmerby, 47 år
+C|8377|22|M|Daniel Nestor|fotograf, Vimmerby, 22 år
+C|137358|49|K|Pernilla Eriksson|Sågverksarbetare, 49 år
+C|137359|44|M|Mats Genfors|Skådespelare, 44 år
+C|8385|46|K|Emily Palenzuela|undersköterska, Tuna, 46 år
+C|8379|50|M|Michael Svensson|industriarbetare, Vimmerby, 50 år
+C|137362|63|K|Ann-Marie Blomgren|Processoperatör, 63 år
+C|9146|72|M|Stig Jaensson|ingenjör, Vimmerby, 72 år
+C|8382|29|K|My Eriksson|undersköterska, Vimmerby, 29 år
+C|137365|55|M|Anders Enqvist|Diverse, 55 år
+C|137366|51|K|Maria Wisberg|Ombudsman, 51 år
+C|137367|57|M|Erik Bouvin|Industriarbetare, 57 år
+C|137368|31|K|Maria Modig|Leg. Sjuksköterska, 32 år
+C|137369|64|M|Mustafa Badran|Lärare, 64 år
+C|137370|31|K|Malin Elvingsson|Bryggeriarbetare, 31 år
+C|137371|51|M|Håkan Koran|Ombudsman, 51 år
+C|8380|26|K|Mikaela Hallberg|behandlingspedagog, Vimmerby, 26 år
+C|137373|51|M|Ted Conrad|Industriarbetare, 51 år
+C|19574|40|K|Camilla Stridh|ombudsman, Vimmerby, 40 år
+C|137375|66|M|Ronny Persson|Musiker, 66 år
+C|137376|58|K|Anette Eriksson|Kvalitetstekniker, 58 år
+C|137377|58|M|Anders Sundberg|Metallarbetare, 58 år
+C|137378|48|K|Eva Kindstrand-Drie|Industriarbetare, 48 år
+C|137379|47|M|Per-Erik Lyggemark|NC-operatör, 48 år
+C|137380|51|K|Annika Högberg|Kommunikatör, 51 år
+C|137381|43|M|Sutan M Khwaja|Fältskydd, 43 år
+C|137382|55|K|Maja W Enqvist|Lärare, 55 år
+C|137383|75|M|Lars-Inge Green|Pensionär, 75 år
+C|137384|40|K|Anna Björklund|Ombudsman, 40 år
+C|137385|34|M|Senad Prekadini|Industriarbetare, 34 år
+C|137386|44|K|Marie Ståhl|Boendestödjare, 44 år
+C|137387|39|M|Jerry Söderqvist|Ombudsman, 39 år
+C|137388|42|K|Teresia Bogren|Metallarbetare, 42 år
+C|137389|62|M|Kjell Bülow|VA-tekniker, 63 år
+C|137390|60|K|Maria Bälter Stridh|Industriarbetare, 60 år
+C|137391|60|M|Rune Nilsson|Chaufför, 60 år
+C|137392|58|K|Anita Westerback|Industriarbetare, 58 år
+C|137393|72|M|Bo Stigstedt|Pensionär, 73 år
+C|137394|60|K|Lena Rydersten|Undersköterska, 60 år
+C|8550|52|K|Ingela Nilsson Nachtweij|52 år, Oppositionsråd, Vimmerby
+C|347478|52|M|Peter Karlsson|52 år, bonde, Södra Vi
+C|347479|49|M|Magnus Danlid|49 år, studie- och yrkesvägledare, Vimmerby
+C|300668|46|K|Anna Svensson|46 år, civilingenjör, Rumskulla
+C|300671|39|M|Erik Paulsson|39 år, företagare, Vimmerby
+C|347482|62|K|Lisbeth Karlsson|62 år, tandhygienist, Frödinge
+C|300664|45|M|Marcus Jonmyren|45 år, it-supporttekniker, Vimmerby
+C|300669|52|M|Lars Sandberg|52 år, bygg- och målerichef, Djursdala
+C|300658|63|M|Leif Larsson|63 år, regionpolitiker, Vimmerby
+C|347486|69|M|Bo Svensson|68 år, pensionär, Frödinge
+C|347487|64|M|Jacob Käll|64 år, landsbygdsutvecklare, Djursdala
+C|300666|68|K|Eva Svensson|68 år, fru, Frödinge
+C|347489|54|M|Kent Skaate|54 år, bankman, Vimmerby
+C|300670|65|M|Curt Tyrberg|65 år, företagare, Frödinge
+C|300675|64|M|Bertil Carlsson|64 år, produktchef, Frödinge
+C|300673|38|M|Dennis Lindström|38 år, projektledare, Locknevi
+C|347493|28|M|Christoffer Cederstrand|28 år, sågverksarbetare, Vimmerby
+C|300672|73|M|Rein Soovik|73 år, naprapat, Vimmerby
+C|347495|55|M|Birger Andersson|55 år, skogsinspektör, Vimmerby
+C|347496|56|M|Ulf Svensson|56 år, taxichaufför, Tuna
+C|300662|22|K|Maja Danlid|22 år, hr-konsult, Vimmerby
+C|347498|68|K|Marita Lindström|68 år, fd förskollärare, Vimmerby
+C|347499|64|M|Bo Lennstam|64 år, civilingenjör, Frödinge
+C|347500|45|M|Krister Bergqvist|45 år, taxiföretagare, Vimmerby
+C|300660|54|K|Anna-Karin Cederstrand Karlsson|54 år, verksamhetsutvecklare, Vimmerby
+C|347502|47|M|Mario Tesanovic|47 år, tekniker, Frödinge
+C|347503|68|M|Lennart Falk|68 år, pensionär, Vimmerby
+C|300674|51|M|Jimmy Alexandersson|50 år, väktare, Vimmerby
+C|347505|75|M|Kenneth Karlsson|75 år, pensionär, Vimmerby
+C|347506|52|M|Jan Carlsson|52 år, chaufför, Vimmerby
+C|347507|68|M|Peter Hultqvist|68 år, pensionär, Frödinge
+C|347508|38|K|Tatiana Paulsson|38 år, redovisningskonsult, Locknevi
+C|347509|26|M|Magnus Blomberg|26 år, kyrkogårdsarbetare, Locknevi
+C|347510|34|K|Angelika Gunnarsson|34 år, simlärare, Gullringen
+C|347511|35|K|Sandra Carlsson|35 år, lärare, Södra Vi
+C|347512|48|K|Vesna Tesanovic|48 år, livsmedelsarbetare, Frödinge
+C|347513|59|M|Göran Nachtweij|59 år, fritidsledare, Vimmerby
+C|347514|44|K|Marina Edberg|44 år, egen företagare, Vimmerby
+C|347515|76|M|Harry Carlsson|76 år, fd köpman, Rumskulla
+C|347516|45|K|Åsa Johansson|45 år, upp och ner plockning, Storebro
+C|347517|42|M|Melker Karlsson|41 år, livsmedelsarbetare, Frödinge
+C|347518|42|K|Sofia Nilsson|42 år, egen företagare, Gullringen
+C|347519|18|K|Maleka Hemat Khil|18 år, studerande, Vimmerby
+C|36719|43|M|Ola Gustafsson|civilekonom, Vimmerby
+C|25227|60|K|Gudrun Brunegård|oppositionslandstingsråd och leg sjuksköterska, Vimmerby
+C|25246|53|M|Tino Åberg|undersköterska, Frödinge
+C|36721|46|K|Nina Gustafsson|lokalvårdare, Vimmerby
+C|36736|50|M|Torbjörn Sandberg|studie- och yrkesvägledare, Djursdala
+C|36722|38|K|Hanna Weckfors|ungdomsledare, Rumskulla
+C|80026|53|M|Jaroslav Sranka|tekniker, Vimmerby
+C|36733|68|K|Christina Sorsa|studie- och yrkesvägledare, Vimmerby
+C|80028|56|K|Clara Castelblanco|jurist/undersköterska, Vimmerby
+C|80029|46|K|Ann-Sofi Henriksson|leg förskollärare, Vimmerby
+C|36728|67|M|Thomas Karlsson|pensionär, Vimmerby
+C|80031|52|M|Roland Nilsson|lantbrukare, Vimmerby
+C|80032|53|K|Genevie Kpoto|undersköterska, Vimmerby
+C|80033|30|K|Johanna Karlsson|egen företagare, Pelarne
+C|80034|51|M|Cristian Olivestam|folkhögskollärare, Södra Vi
+C|80035|65|K|Annelie Eglin|socialpedagog, Vimmerby
+C|80036|22|M|Joel Sandberg|resurspedagog, Djursdala
+C|80037|44|K|Malin Eliasson|förskollärare, Vimmerby
+C|80038|69|M|Sven Weckfors|delgivningsman, Rumskulla
+C|80039|47|K|Christina Nyman|leg sjukgymnast Vimmerby
+C|80040|63|K|Ann-Cathrine Weckfors|leg sjuksköterska, Rumskulla
+C|80041|64|M|Bernt Kristoffersson|träindustriarbetare, Rumskulla
+C|80042|57|K|Marleny Correa|kock, Vimmerby
+C|80043|77|K|Ingbritt Carlsson|lärare, Vimmerby
+C|36738|62|M|Anders Brunegård|distriktsläkare, Vimmerby
+C|80044|44|M|Richard Eliasson|ekonomichef, Vimmerby
+C|80045|67|K|Elisabeth Steigård|leg sjuksköterska, Vimmerby
+C|36731|42|M|David Freedeke|ambulanssjuksköterska, Vimmerby
+C|80049|59|K|Eva Petersson|egenföretagare/tapetserare, Vimmerby
+C|80050|46|K|Åsa Åberg|sjuksköterska, Frödinge
+C|80051|59|M|Kjell Davidsson|lantbrukare, Tuna
+C|80052|70|K|Gunilla Samuelsson|pensionär, Vimmerby
+C|80053|66|K|Britt-Sofi Forss|barnmorska, Storebro
+C|131432|52|M|Conny Gunnarsson|Industriarbetare, Kalmar
+C|131451|51|K|Annica Johansson|Lantbrukare, Kalmar
+C|131472|33|K|Ann-Louise Mårth Stenman|Butikschef, Kalmar
+C|131506|59|K|Anne Cathrine Sporre|Lantmästare, Kalmar
+C|166334|45|K|Jessica Hederud|Bibliotekarie, Ålhult, Gullringen
+C|318375|59|M|Johan Rosén|59 år, advokat, Vimmerby
+C|318376|72|M|Börje Forss|Ingenjör, Vimmerby
+C|318377|33|M|Dukagjin Nykvist|33 år, musiklärare, Vimmerby
+C|318378|52|M|Senhabib Sauma|52 år, egen företagare, Vimmerby
+C|318379|56|M|Bassam Yousef|56 år, journalist, Vimmerby
+C|318381|81|K|Berna Karlsson|81 år, pensionerad musiklärare, Södra Vi
+C|318382|79|M|Jan Karlsson|79 år, veteran, Södra Vi
+C|320103|31|K|Annika Fundin|31 år, Vimmerby
+C|320104|61|M|Peder Legell|62 år, Vimmerby
+C|320105|38|K|Caroline Axelsson|38 år, Storebro
+C|320106|42|M|Roger Fundin|42 år, Pelarne
+C|320107|70|M|Per Nilsson|70 år, Vimmerby
+C|320108|46|M|Stein Irvall|46 år, Storebro
+C|160445|41|K|Marie Nicholson|41 år, Lärare, Vimmerby
+C|163801|65|M|Tomas Peterson|65 år, Toverum
+C|160451|52|M|Claes Wetterström|52 år, Officer, Vimmerby
+C|163803|31|K|Maria Lundmark|31 år, Vimmerby
+C|163804|34|M|Niklas Gustafsson|34 år, Södra Vi
+C|163805|56|M|Håkan Nyström|56 år, Vimmerby
+C|163806|64|M|Johan Blomberg|64 år, Gullringen
+C|158893|35|K|Hannah Gånge|35 år, Lärare, Vimmerby
+C|163808|66|M|Kjell Alexandersson|66 år, Vimmerby
+C|163809|72|M|Sören Sjöholm|72 år, Södra Vi
+C|163810|27|M|Aron Sortelius|27 år, Vimmerby
+C|163811|73|M|Bert Lindesfeldt|73 år, Tuna
+C|163812|73|M|Bjarne Lynbech|73 år, Gullringen
+C|163813|76|M|Inge Teodorsson|76 år, Storebro
+C|163814|54|M|Morgan Esping|54 år, Djursdala
+C|163815|53|M|Claes Roos|53 år, Vimmerby
+C|163816|48|K|Sofia Velinder|48 år, Vimmerby
+C|163817|66|M|Peter Andrae|66 år, Rumskulla
+C|163818|21|K|Linnea Fasth|21 år, Vimmerby
+C|163819|73|M|Björn Swedborg|73 år, Tuna
+C|61051|58|K|Anneli Jakobsson|vårdare, Västervik
+C|61052|50|K|Petra Anemyr|medicinsk sekreterare, Vimmerby
+C|61053|31|M|Emil Larsson|laborant, Vimmerby
+C|61054|33|M|Jimmy Rödin|miljöarbetare, Vimmerby
+C|61055|55|M|Stefan Silverek|CNC-operatör, Vimmerby
+C|61056|55|M|Peter Bengtsson|ingenjör, Vimmerby
+C|61057|61|M|Kjell Jakobsson|div.arbetare, Västervik
+C|61058|60|M|Mats Hennestig|div.arbetare, Vimmerby
+C|61059|45|M|Krister Gunnarsson|gjuteriarberare, Storerbo
+C|61060|61|M|Roger Liljegren|skyddsvakt, Storebro
+C|61061|29|M|Fredrik Jakobsson|grafiker, Storebro
+C|61062|72|M|Hans Anemyr|entreprenör, Storebro
+C|510362|57|M|Andy Sallova|it-tekniker, Storebro
+C|510363|55|M|Tomas Rintala|fastighetsägare, Södra Vi
+C|512889|56|M|Anders Bohlin|Hultsfred
+C|322968|38|M|Lars Johansson|Vimmerby, Egenföretagare
+C|322969|59|K|Pia Young|59 år, Frödinge
+C|322970|59|M|Peter Fjällgård|Vimmerby, Undersköterska
+C|322971|29|K|Johanna Cederstrand|Vimmerby, Undersköterska
+C|322972|35|M|Jacob Kant|35 år, Vimmerby
+C|322973|29|K|Malin Pettersson|29 år, Tuna
+C|322974|43|M|Peter Lindeteg|43 år, Södra Vi
+C|322975|31|K|Sandra Sjöbolm|31 år, Gullringen
+C|322976|48|M|Jens af Ekenstam Stenman|Vimmerby, Demokratiutvecklare
+C|322977|59|K|Annelie Ojala|59 år, Vimmerby
+C|322978|52|M|Jerry Pettersson|52 år,Vimmerby
+C|322979|38|K|Stina Holstad|38 år, Rumskulla
+C|322980|65|M|Kjell Jonasson|65 år, Vimmerby
+C|322981|82|K|Erna Heelge|82 år, Vimmerby
+C|322982|32|M|Jacob Paulsson|32 år, Södra Vi
+C|322983|73|K|Agneta Regell|74 år, Södra Vi
+C|322984|46|M|Erland Karlsson|46 år, Södra Vi
+C|322985|63|K|Lise-Lotte Bertilsson|63 år, Vimmerby
+C|322986|25|K|Sofia Ahlstrand|25 år, Djursdala
+C|322987|38|M|Peter Dahlin|38 år, Tuna
+C|322988|24|K|Bodil Hansson|24 år, Locknevi
+C|322989|38|M|Kadrija Husic|38 år, Vimmerby
+C|322990|57|K|Salud Cabalquinto|57 år, Vimmerby
+C|322991|75|M|Agne Regell|75 år, Södra Vi
+C|322992|36|K|Merima Husic|Vimmerby
+C|322993|44|M|Fredrik Strömdahl|44 år, Vimmerby
+C|322994|36|K|Hanna Stefansson|36 år, Gullringen

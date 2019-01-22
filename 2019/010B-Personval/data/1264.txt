@@ -1,11 +1,216 @@
-2|54040|54041|54042|28163|54044|54045|54046|54047|54048|54049|54050|54051|54052|54053|54054|54055|54056|54057|54058|54059|54060|54061|54062|54063|54064|54065|54066|54067|54068|54069|54070|54071|54072|54073|54074|54075|54076|54077|54078|54079|54080|54081|54082|54083|54084|54085
-4|37075|37102|39485|79213|79214|79215|37097|79217|39467|79219|79220|79221|79222|79223|79224|79225|79226|79227|79228|79229
-502|425182|425183|425184|425185|425186|425187|425188|425189|425190|425191|425192|425193|425194|425195|425196|425197|425198|425199|425200
-68|512185|515941|515945
-3|261683|263251|261157|263253|263254|263255|263256|263257|263258|263259|263260|263261|263262|263263
-55|20772|225713|157279|157280|157281|157282|157283|235325
-1|60486|60487|60488|60489|60490|60491|60492|60493|60494|60495|60496|60497|60498|60499|60500|60501|60502|60503|60504|60505|60506|60507|60508|60509|60510
-524|449287
-1285|429093|429094|429095|429096|429097|429098|429099|429100|429101|429102|429103|429104|429105|429106|429107|429108|429109|429110|429111|429112|429113
-110|66876|66877|66878|66879|66880|66881|66882|66883|66884|66885|66886|66887|66888|66889|66890|66891|66892|66893|66894|66895|66897
-5|510367|510368|510421|510422|54074|510424|510425|510426|510427|510428|510429|510430|510431|510432|510433|510434
+T|Skurup
+A|2|54040|54041|54042|28163|54044|54045|54046|54047|54048|54049|54050|54051|54052|54053|54054|54055|54056|54057|54058|54059|54060|54061|54062|54063|54064|54065|54066|54067|54068|54069|54070|54071|54072|54073|54075|54076|54077|54078|54079|54080|54081|54082|54083|54084|54085
+A|4|37075|37102|39485|79213|79214|79215|37097|79217|39467|79219|79220|79221|79222|79223|79224|79225|79226|79227|79228|79229
+A|502|425182|425183|425184|425185|425186|425187|425188|425189|425190|425191|425192|425193|425194|425195|425196|425197|425198|425199|425200
+A|68|512185|515941|515945
+A|3|261683|263251|261157|263253|263254|263255|263256|263257|263258|263259|263260|263261|263262|263263
+A|55|20772|225713|157279|157280|157281|157282|157283|235325
+A|1|60486|60487|60488|60489|60490|60491|60492|60493|60494|60495|60496|60497|60498|60499|60500|60501|60502|60503|60504|60505|60506|60507|60508|60509|60510
+A|524|449287
+A|1285|429093|429094|429095|429096|429097|429098|429099|429100|429101|429102|429103|429104|429105|429106|429107|429108|429109|429110|429111|429112|429113
+A|110|66876|66877|66878|66879|66880|66881|66882|66883|66884|66885|66886|66887|66888|66889|66890|66891|66892|66893|66894|66895|66897
+A|5|510367|510368|510421|510422|54074|510424|510425|510426|510427|510428|510429|510430|510431|510432|510433|510434
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|502|KVS|Kommunens Väl
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|524|PP|Piratpartiet
+B|1285|SkuP|SkurupsPartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|54040|39|M|Magnus Alm|Ombudsman, Skurup
+C|54041|58|K|Lena Axelsson|Designer, Skurup
+C|54042|57|M|Roland Hansson|Handläggare
+C|28163|39|K|Jessica Möller|Undersköterska, Skurup
+C|54044|76|M|Sylve Qvillberg|Pensionär
+C|54045|55|K|Maritha Johansson|Undersköterska
+C|54046|56|M|Bengt Andersson|Servicetekniker
+C|54047|71|K|Anncristin Svensson|Barnskötare
+C|54048|64|M|Kent Johansson|Maskinoperatör
+C|54049|49|K|Camilla Westerdahl|Elevassistent
+C|54050|45|M|Björn Ljungdahl|Byggnadsarbetare
+C|54051|73|K|Gertrud Ekman|Pensionär
+C|54052|56|M|Göran Leander|Anläggningstekniker
+C|54053|40|K|Helena Samuelsson|Affärsområdeschef
+C|54054|67|M|Angelo Lo Presti|Grafiker
+C|54055|64|K|Anne-Lise Nielsen|Pensionär
+C|54056|65|M|Conny Axtelius|Tekniker
+C|54057|72|K|Margaretha Anderberg|Pensionär
+C|54058|44|M|Fredrik Roström|Planeringssekreterare, Skurup
+C|54059|67|K|Yvonne Nilsson|Undersköterska
+C|54060|67|M|Bengt Nilsson|Pensionär
+C|54061|47|K|Maria Nyman Stjärnskog|Ombudsman, Skurup
+C|54062|74|M|Albin Karlsson|Fd ombudsman
+C|54063|64|K|Birthe Thomsen|Pensionär
+C|54064|65|M|Mats Anderberg|Lärare
+C|54065|56|K|Eva Roslund|Administratör
+C|54066|62|M|Bertil Axelsson|Maskinförare
+C|54067|65|K|Yvonne Nilsson|Sjuksköterska
+C|54068|74|M|Tommy Göransson|Fd ombudsman
+C|54069|24|K|Amal Hussein|Studerande
+C|54070|56|M|Jörgen Mathisson|Ventilationsmontör
+C|54071|46|K|Izdihaar Elsman|Elevassistent
+C|54072|73|M|Lennart Larsson|Pensionär
+C|54073|46|K|Hana Majdi|Barnskötare
+C|54075|46|K|Åsa Andersson|Undersköterska
+C|54076|78|M|Rolf Kajrup|Pensionär
+C|54077|49|K|Christina Sjöberg|Undersköterska
+C|54078|75|M|Bengt Å Nilsson|Byggnadsarbetare
+C|54079|69|K|Marianne Larsson|Redovisningsekonom
+C|54080|52|M|Folke Richardt|Barn- och ungdomssamordnare
+C|54081|74|K|Inger Wennhall|Tandläkare
+C|54082|57|M|Holger Rank|Förskollärare
+C|54083|74|K|Ingrid Ljungberg|Pensionerad lärare
+C|54084|56|M|Johnny Östberg|Elektriker
+C|54085|59|K|Marie-Louise Anderberg|Undersköterska
+C|37075|49|M|Jörgen Sjöslätt|Speditör, 49, Skurup
+C|37102|56|K|Ann-Helen Nilsson|Fastighetsförvaltare, 56, Skurup
+C|39485|62|K|Solbritt Lundgren|Redovisningsekonom, 62, Rydsgård
+C|79213|73|M|Ingemar Johansson|Pensionär, Skurup, 73 år
+C|79214|61|M|Roland Persson|Lantbrukare, Skivarp, 62 år
+C|79215|38|K|Emma Ljunggren|Säljare, Skivarp, 38 år
+C|37097|66|M|Hasse Månsson|Egenföretagare, 66, Skurup
+C|79217|67|M|Sven-Åke Malmström|F.d.parkchef, Skurup, 67 år
+C|39467|67|M|Claes-Göran Kullberg|Egenföretagare, 67, Skivarp
+C|79219|76|M|Hans-Inge Persson|Pensionär, Skurup, 76 år
+C|79220|54|K|Liselott Nilsson|Administratör, Skurup, 54 år
+C|79221|20|M|Jonatan Sjöslätt|Studerande, Skurup, 20 år
+C|79222|28|K|Pernilla Gandskog|Undersköterska, Skivarp, 28 år
+C|79223|58|M|Rolf-Håkan Persson|Lantbrukare, Rydsgård, 58 år
+C|79224|80|M|Sven-Bertil Persson|Kyrkvärd, Rydsgård, 79 år
+C|79225|48|M|George Bica|Undersköterska, Skivarp, 48 år
+C|79226|36|M|Per-Ola Kullberg|Hamnarbetare, Skurup, 36 år
+C|79227|74|M|Bengt-Olof Andersson|F.d.åkare, Skurup, 74 år
+C|79228|31|M|Mats Jonsson|Studerande, Skurup, 31 år
+C|79229|46|M|Michael Andersson|Chaufför, Skurup, 47 år
+C|425182|65|M|Sven Åke Strandberg|Entreprenör
+C|425183|72|K|Marie Louise Frödin|
+C|425184|75|M|Jan Erik Persson|Trädgårdsmästare
+C|425185|48|K|Jane Brandt|
+C|425186|73|M|Lars Åke Nilsson|Chaufför
+C|425187|82|K|Inger Steinbichler|Pensionär
+C|425188|49|M|James Brocka|
+C|425189|63|K|Harriet Andersson|
+C|425190|72|M|Thomas Holmgren|Pensionär
+C|425191|47|K|Annica Brehmer-Nilsson|Elevassistent
+C|425192|32|M|Artan Kraja|Chaufför
+C|425193|57|K|Helen Ljungqvist-Holmgren|Fritidspedagog
+C|425194|50|M|Håkan Andersson|Entreprenör
+C|425195|50|K|Helen Andersson|Elevassistent
+C|425196|74|M|Stig Svensson|Pensionär
+C|425197|45|K|Camilla Nilsson|
+C|425198|75|M|Kurt Erik Jönsson|Pensionär
+C|425199|56|K|Lisbeth Johannessen|Logistik
+C|425200|73|K|Jersey Brandt|Pensionär
+C|512185|76|M|Arnold Olsson|
+C|515941|53|K|Sonja Monika Iréne Andersson|
+C|515945|56|M|Anders Ekvall|
+C|261683|67|K|Eva Hallmer Lindahl|Abbekås
+C|263251|55|K|Jeanette Bohman|Företagare
+C|261157|67|K|Kerstin Peterson-Brodda|Skurup
+C|263253|48|M|Björn Aidemark|Gymnasielärare
+C|263254|69|M|Anders Bengtsson|Civ. ingenjör
+C|263255|66|K|Inger Ekelund|Förskolelärare
+C|263256|74|M|Lars Lindahl|Arkitekt
+C|263257|57|M|Johan Bohman|Företagare
+C|263258|74|K|Bodil Fagerberg|Maskör
+C|263259|72|K|Yvonne Jandréus|Studie-yrkesvägledare
+C|263260|73|M|Per Olof Borgström|Pensionär
+C|263261|62|K|Gunilla Kling|Grundskollärare
+C|263262|70|K|Marie Krasse|Speciallärare
+C|263263|67|K|Gunilla Adolfsson|Speciallärare
+C|20772|41|K|Maria Ivansson|Projektledare, 41 år, Rydsgård
+C|225713|61|M|Göran Pettersson|vigselförrättare, Skivarp
+C|157279|44|K|Jenny Larsson|socionom, Abbekås
+C|157280|59|M|Richard Bergendahl|miljövetare, Kläggeröd
+C|157281|49|M|Göran Larsson|lärare, Abbekås
+C|157282|35|K|Linda Wolski|miljöstrateg, Lindby
+C|157283|35|M|Jonatan Olofsgård|arkivarie, Skurup
+C|235325|33|M|Martin Haksten|organist, Rydsgård
+C|60486|36|M|Johan Bolinder|36 år, marknadschef, Rydsgård
+C|60487|34|K|Åsa Ekblad|34 år, statsvetare, Skivarp
+C|60488|37|M|Nicklas Olsson|37 år, egen företagare, Skurup
+C|60489|67|M|Björn Hortevall|67 år, företagare, Skivarp
+C|60490|42|K|Bianka Mårtensson|42 år, chefsstöd, Skurup
+C|60491|28|M|Martin Hansson|28 år, avdelningsledare, Skurup
+C|60492|45|K|Loubna Augemar Stensåker-Göransson|45 år, tågvärd, Skurup
+C|60493|72|M|Sten Hamberg|72 år, f.d. IT-chef, Skurup
+C|60494|33|M|Pontus Axgart|33 år, företagare, Rydsgård
+C|60495|60|K|Kristina Andersson|60 år, grundskollärare, Skivarp
+C|60496|67|K|Lis-Lott Hortevall|67 år, f.d. säljare, Skivarp
+C|60497|37|M|Andreas Oskarsson|37 år, verksamhetschef, Skurup
+C|60498|33|K|Annelie Malmström Oskarsson|34 år, lärare, Skurup
+C|60499|63|M|Tommy Elofsson|63 år, chokladfabrikör, Skivarp
+C|60500|70|M|Steffen Brumer Pind|70 år, fotograf, Skurup
+C|60501|30|M|Linus Andersson|30 år, ekonom, Skurup
+C|60502|38|K|Linda Hedin Liljegren|38 år, ekonomiansvarig, Skurup
+C|60503|49|K|Marie Louise Fridolf|49 år, kanslist, Skurup
+C|60504|67|M|Håkan Hansson|68 år, f.d. byggsäljare, Abbekås
+C|60505|35|K|Ninette Bolinder|35 år, skadereglerare, Rydsgård
+C|60506|51|M|Kent Ekblad|51 år, egen företagare, Skivarp
+C|60507|18|M|Rasmus Licazzo Olofsson|18 år, student, Skivarp
+C|60508|25|K|Jill Malmborg|25 år, butikssäljare, Skurup
+C|60509|60|K|Cecilia Svensson|60 år, egen företagare, Skivarp
+C|60510|74|M|Bertil Nordström|74 år, f.d. officer, Skurup
+C|449287|23|M|Kevin Nilsson|
+C|429093|70|M|Kent Olsson|71 år, Civilekonom, Rydsgård
+C|429094|72|M|Sven Rosengren|72 år, Egen företagare, Abbekås
+C|429095|18|K|Madeleine Sjöberg|18 år, Studerande, Skurup
+C|429096|70|M|Anders Kristiansen|70 år, Managementkonsult, Bingsmarken
+C|429097|45|K|Anne Måneng|45 år, Elevassisten, Skurup
+C|429098|75|M|Per Tistad|75 år, Civilekonom, Skivarp
+C|429099|27|M|Arben Rama|27 år, Säljare, Skurup
+C|429100|33|M|Torbjörn Persson|33 år, Assistent, Skivarp
+C|429101|66|K|Eva Olsson|66 år, Egen företagare, Rydsgård
+C|429102|54|M|Niklas Sjöberg|54 år, Egen företagare, Skurup
+C|429103|66|M|Stefan Taiban|66 år, Assistent, Skurup
+C|429104|79|M|Bo Bergquist|79 år, Egen företagare, Slimminge
+C|429105|52|K|Ann-Marie Sjöberg|52 år, Administrativ chef, Skurup
+C|429106|73|M|Jan Thorsson|73 år, Redaktör, Skivarp
+C|429107|75|M|Claes-Ebbe Alwén|75 år, Reservofficer, Ö Vemmenhög
+C|429108|30|M|Valon Uka|30 år, Chaufför, Skurup
+C|429109|72|M|Anders Kjörning|72 år, Tekniker, Solberga
+C|429110|70|K|Birgitta Jönsson|70 år, Ekonomiassistent, Skurup
+C|429111|46|M|Mattias Thorlid|46 år, Försäljare, Skurup
+C|429112|41|M|Jörgen Måneng|41 år, Personlig assistent, Skurup
+C|429113|74|M|Sven-Allan Jönsson|74 år, Egen företagare, Skurup
+C|66876|46|M|Lars Nyström|Eldriftingenjör, 47 år
+C|66877|48|K|Pernilla Lidfeldt|Egen företagare, 48 år
+C|66878|56|M|Lars Dekan|56 år, tatuerare, Skivarp
+C|66879|49|M|Jimmy Nilsson|Egen företagare, 49 år
+C|66880|50|M|Jörgen Lidfeldt|Egenföretagare, Skurup
+C|66881|67|M|Arne Nilsson|Reseproducent, 67 år
+C|66882|68|M|Ingvar Wennersten|Jurist, 68 år
+C|66883|69|M|Göran Lindahl|69 år, pensionär, Skurup
+C|66884|68|K|Monica Svensson|68 år, pensionär, Abbekås
+C|66885|54|M|Håkan Levau|54 år, byggsäljare, Skivarp
+C|66886|61|K|Monica Larsson|60 år, konsulent, Rydsgård
+C|66887|34|M|Magnus Book|33 år, beteendevetare, Skurup
+C|66888|52|K|Paula Bengtsson|52 år, egenföretagare, Skivarp
+C|66889|60|M|Karl Kårebrant|Ingenjör, 61 år
+C|66890|69|K|Ingrid Book|68 år, pensionär, Skivarp
+C|66891|62|M|Christer Nilsson|61 år, vice VD, Skurup
+C|66892|48|M|Claes Danebod|48 år, lagerchef, Rydsgård
+C|66893|68|K|Roswitha Wennersten|68 år, pensionär, Skurup
+C|66894|37|M|Hooman Safaei|37 år, byggnadsingenjör, Skurup
+C|66895|59|M|Stig Åhlander|58 år, egenföretagare, Skivarp
+C|66897|70|K|Barbara Demorit|Pensionär, 70 år  år
+C|510367|47|K|Kristina Wieslander|projektledare
+C|510368|44|K|Ann-Charlott Madsen Söderberg|butiksbiträde
+C|510421|50|M|Babak Rahimi|etableringscoach
+C|510422|47|M|Joakim Arnsberger|HR-konsult
+C|54074|82|M|Erik Renfors|ingenjör
+C|510424|31|M|Robin Jönsson|systemutvecklare
+C|510425|44|M|Pär Moberg|musiker
+C|510426|46|M|Marcus Gustafsson|lärare
+C|510427|50|K|Maria-Therese Christensson|undersköterska
+C|510428|37|M|Mårten Dahlrot|lärare och författare
+C|510429|42|K|Lisen Hendeberg|trädgårdsingenjör
+C|510430|34|M|Hossam Kitmitto|
+C|510431|40|M|Johan Ring|lärare och författare
+C|510432|30|K|Linn Bergheim|socialsekreterare
+C|510433|46|M|Måns Wieslander|musiker
+C|510434|37|K|Anna Fredriksson|grafisk formgivare

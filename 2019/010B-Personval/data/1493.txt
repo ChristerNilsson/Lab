@@ -1,9 +1,230 @@
-2|40659|40660|40661|40662|40663|40664|40665|40666|40667|40668|40669|40670|40671|40672|40673|40674|40675|40676|40677|40678|40679|40680|40681|40682|40683|40684|40685|40686|40687|40688|40689|40690|40691|40692|40693|40694|40695|40696|40697|40698|40699|40700|40701|40702|40703|40704|40705|40706
-4|3854|3202|3224|3268|3258|3859|3860|3861|3862|3863|3864|3865|3866|3867|3868|3869|3870|3871|3872|3873|3874|3875|3876
-68|275572|275573|274608|275575|275576|275577|275578|275579|275580|275581|275582|275583|275584|275585
-3|40061|46536|46537|46538|46539|46540|46541|46542|46543|46544|46545|25036|46547|46548|46549|46550
-331|464079|464080|464081|464082|464083|464084|464085|464086|464087|464088|464089|464090|464091|464092|464093|464094|464095|464096|464097|464098|464099|464100|464101|464102
-55|6156|91357|91358|66260|91360|91361
-1|254319|254326|256909|253992|254363|253974|256913|254366|256915|256916|256917|256918|256919|256920|256921|256922|256923|256924|256925|256926|256927|256928|256929|256930|256931|254349|256933|256934|256935|256936|256937|256938|256939|256940|256941|256942|256943|256944|256945|256946|256947|256948|256949|256950|256951|256952|256953|256954|256955|256956|256957
-110|217112|217113|61136|217115|217116|217117|217118|510969|510970|513712
-5|70511|70512|70513|70514|70515|70516|70517|70518|70519|70520|70521|70522|70523|70524|70525|70526|70527|70528|70529
+T|Mariestad
+A|2|40659|40660|40661|40662|40663|40664|40665|40666|40667|40668|40669|40670|40671|40672|40673|40674|40675|40676|40677|40678|40679|40680|40681|40682|40683|40684|40685|40686|40687|40688|40689|40690|40691|40692|40693|40694|40695|40696|40697|40698|40699|40700|40701|40702|40703|40704|40705|40706
+A|4|3854|3202|3224|3268|3258|3859|3860|3861|3862|3863|3864|3865|3866|3867|3868|3869|3870|3871|3872|3873|3874|3875|3876
+A|68|275572|275573|274608|275575|275576|275577|275578|275579|275580|275581|275582|275583|275584|275585
+A|3|40061|46536|46537|46538|46539|46540|46541|46542|46543|46544|46545|25036|46547|46548|46549|46550
+A|331|464079|464080|464081|464082|464083|464084|464085|464086|464087|464088|464089|464090|464091|464092|464093|464094|464095|464096|464097|464098|464099|464100|464101|464102
+A|55|6156|91357|91358|66260|91360|91361
+A|1|254319|254326|256909|253992|254363|253974|256913|254366|256915|256916|256917|256918|256919|256920|256921|256922|256923|256924|256925|256926|256927|256928|256929|256930|256931|254349|256933|256934|256935|256936|256937|256938|256939|256940|256941|256942|256943|256944|256945|256946|256947|256948|256949|256950|256951|256952|256953|256954|256955|256956|256957
+A|110|217112|217113|61136|217115|217116|217117|217118|510969|510970|513712
+A|5|70511|70512|70513|70514|70515|70516|70517|70518|70519|70520|70521|70522|70523|70524|70525|70526|70527|70528|70529
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|331|MaP|MariestadsPartiet
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|40659|27|K|Ida Ekeroth|27 år, Mariestad
+C|40660|49|M|Janne Jansson|49 år, industriarbetare
+C|40661|58|K|Linnéa Wall|58 år, Mariestad
+C|40662|36|M|Sebastian Clausson|36 år, Mariestad
+C|40663|65|K|Anita Olausson|65 år, kock
+C|40664|59|M|Leif Udéhn|59 år, arbetshandledare
+C|40665|68|K|Tuula Ojala|68 år, personlig assistent
+C|40666|63|M|Ola Bertilsson|63 år, metallarbetare
+C|40667|61|K|Catarina Åkerblad|61 år, jurist
+C|40668|58|M|Sture Pettersson|58 år, snickare
+C|40669|44|K|Lillemor Ågren|44 år, Mariestad
+C|40670|60|M|Björn Nilsson|60 år, pappersbruksarbetare
+C|40671|68|K|Gun-Britt Alenljung|68 år, personlig assistent
+C|40672|44|M|Nils Farken|44 år, Mariestad
+C|40673|68|K|Marianne Johansson|68 år, pensionär
+C|40674|66|M|Leif Andersson|66 år, pensionär
+C|40675|50|K|Marina Smedberg|50 år, undersköterska
+C|40676|43|M|Mathias Törnblom|43 år, Mariestad
+C|40677|66|K|Ninni Larsson|66 år, pensionär
+C|40678|65|M|Leif Johansson|64 år, pensionär
+C|40679|63|K|Marie Molin|63 år, assistent
+C|40680|58|M|Håkan Fernström|58 år, underhållsingenjör
+C|40681|66|K|Elisabeth Ljungqvist|66 år, pensionär
+C|40682|21|M|Anas Alkharat|21 år, studerande
+C|40683|70|K|Eva Heistola|70 år, pensionär
+C|40684|62|M|Arne Andersson|62 år, fastighetsingenjör
+C|40685|62|K|Lena Johansson|62 år, pensionär
+C|40686|76|M|Fred Bruns|76 år, pensionär
+C|40687|37|K|Eva-Lotta Hadzimuratovic|37 år, undersköterska
+C|40688|54|M|Jens Söder|54 år, elektriker
+C|40689|59|K|Louise Max|59 år, undersköterska
+C|40690|71|M|Roger Åkerblad|71 år, pensionär
+C|40691|58|K|Katarina Udéhn|58 år, verksamhetsansvarig
+C|40692|33|M|Mattias Rydin|33 år, reparatör
+C|40693|73|K|Mari-Ann Wallander|73 år, docent
+C|40694|65|M|Kenneth Nygren|65 år, pensionär
+C|40695|69|K|Sylvia Gustafsson|69 år, pensionär
+C|40696|79|M|Bosse Eksell|79 år, pensionär
+C|40697|59|K|Inga-Lill Bertilsson|59 år, undersköterska
+C|40698|60|M|Anders Edgren|60 år, ombudsman
+C|40699|72|K|Marianne Kjellquist|72 år, pensionär
+C|40700|68|M|Lars Svensson|68 år, pensionär
+C|40701|69|K|Inger Frånberg|69 år, förskollärare
+C|40702|67|M|Börje Alenljung|67 år, pensionär
+C|40703|67|K|Ann-Britt Olsson|67 år, pensionär
+C|40704|67|M|Bror Amell|67 år, pensionär
+C|40705|56|K|Eva Edgren|56 år, undersköterska
+C|40706|80|K|Berit Sjögren|80 år, pensionär
+C|3854|46|M|Anders Karlsson|Lantbrukare, Färed, 46 år
+C|3202|65|M|Jan Wahn|Präst, Mariestad, 65 år
+C|3224|52|K|Helena Hallerhed|Rektor, Mariestad, 52 år
+C|3268|59|M|Leif Andersson|Egenföretagare, Mariestad, 59 år
+C|3258|42|M|Emil Gullbrantz|Undersköterska, Mariestad, 42 år
+C|3859|39|K|Agneta Larsson|Projektledare, Mariestad, 39 år
+C|3860|52|M|Torbjörn Forsell|Verksamhetschef, Mariestad, 52 år
+C|3861|19|M|Adam Pallin|Cnc-operatör, Mariestad, 19 år
+C|3862|55|K|Therése Boman Nordlie|Förskolepedagog, Mariestad, 55 år
+C|3863|74|K|Inger Dernroth|Exjournalist, Mariestad, 74 år
+C|3864|66|K|Ann-Christine Gustafsson|Pensionär, Sjötorp, 66 år
+C|3865|28|K|Amanda Henrysson|Utredare, Ekby, 29 år
+C|3866|75|M|Rune Skogsberg|Lantbrukare, Ullervad, 75 år
+C|3867|52|M|Gunnar Carlsson|Förvaltningschef, Torsö, 52 år
+C|3868|71|K|Birgitta Svensson|Lärare, Sjötorp, 71år
+C|3869|66|M|Karl-Arne Gustafsson|Pensionär, Sjötorp, 67 år
+C|3870|69|M|Anders Johansson|Verksamhetskonsult, Torsö, 69 år
+C|3871|80|M|Sune B Jansson|Fd företagsledare, Mariestad, 80 år
+C|3872|65|M|Sören Larsson|Pensionär, Lugnås, 65 år
+C|3873|80|K|Maj-Britt Jansson|Fd barnskötare, 80 år
+C|3874|75|M|Kjell Karlsson|Pensionär, Lyrestad, 75 år
+C|3875|68|M|Sven-Erik Månsson|Fd polis, Mariestad, 68 år
+C|3876|74|K|Gunilla Strindevall|Pensionär, Lugnås, 74 år
+C|275572|42|M|Morgan Forsberg|42, Gymnasielärare, Mariestad
+C|275573|40|K|Emma Sjögren|40, Socionom, Mariestad
+C|274608|60|M|Sven-Inge Eriksson|60, Inköpare, Mariestad
+C|275575|53|M|Lars Alfredsson|53, Enhetschef, Mariestad
+C|275576|72|M|Göran Sagen|71, Präst, Sjötorp
+C|275577|38|K|Lotta Forsberg|37, Beteendevetare, Björsäter
+C|275578|32|K|Nina Fransson|32, Frisör, Mariestad
+C|275579|63|M|Magnus Landgren|62, Docent, Mariestad
+C|275580|36|K|Miriam Wahlström Svensson|35, Leg sjuksköterska, Lugnås
+C|275581|61|K|Gunilla Landgren|61, Lärare, Mariestad
+C|275582|48|M|Anders Svärd|48, Butiksarbetare, Mariestad
+C|275583|67|K|Margareta Alexandersson|66, Personlig assistent, Mariestad
+C|275584|61|M|Peter Thörn|61, Pensionär, Mariestad
+C|275585|83|M|Josef Sabel|83, Pensionär, Lyrestad
+C|40061|51|M|Jan Hallström|51 Mariestad
+C|46536|66|M|Göran Hellström|Företagare
+C|46537|43|K|Wassen Abdul|Integrationscoach
+C|46538|34|M|Johan Gotthardsson|Företagare
+C|46539|65|K|Brita Kvicklund|Lärare
+C|46540|58|M|Lennart Bäckman|Teknisk konsult
+C|46541|72|M|Bengt-Olof Aronsson|Revisor
+C|46542|37|K|Fateen Alassad|Hemspråkslärare
+C|46543|72|M|Leif Jonegård|Fil. magister
+C|46544|18|M|Arvid Hallström|Studerande
+C|46545|33|M|Viktor Bergström|IT-Teletekniker
+C|25036|73|K|Birgitta Sjö|73 Mariestad
+C|46547|71|M|Lars Idunger|Civilingenjör
+C|46548|77|M|Lars Larsson|Pastor
+C|46549|77|M|Kauko Hokkinen|Fd.Skattehandläggare
+C|46550|34|M|Markus Karlsson|Företagare
+C|464079|27|M|Henrik Andersson|Egenföretagare nöjesbranschen
+C|464080|40|M|Henrik Claesson|Egenföretagare entreprenadbranschen
+C|464081|43|M|Jerry Kullberg|
+C|464082|36|M|Johan Jansson|
+C|464083|47|K|Birgit Selmosson|
+C|464084|65|M|Christer Dalvik|Pensionär
+C|464085|53|M|Peter Selmosson|
+C|464086|51|M|Juha Sarajärvi|
+C|464087|64|K|Anna Stenlund|Assistent
+C|464088|48|M|Francois "Frankie" Tadros|Kock/servitör
+C|464089|39|K|Jurgita Tadros|Hemmafru
+C|464090|48|M|Kenneth "Nenne" Larsson|Ullervad
+C|464091|37|M|Henrik Heij|Väghyvelförare
+C|464092|60|M|Karl-Gunnar Sandström|Säljare
+C|464093|68|K|Siw Persson|Pensionär
+C|464094|48|M|Spiros Agorastas|
+C|464095|36|M|Ronny Jansson|Maskinförare
+C|464096|45|M|Gunnar Karlsson|Elektriker
+C|464097|82|M|Matz Erlandsson|Pensionär
+C|464098|37|M|Emil Nordlander|Lyrestad
+C|464099|65|K|Anita Dalvik|Butiksbiträde
+C|464100|27|M|Patrik Dalvik|Resurspedagog
+C|464101|49|M|Joacim Jansson|
+C|464102|65|M|Lars-Åke Stenlund|Pensionär
+C|6156|64|M|Mats Karlsson|
+C|91357|61|K|Wera Lycken|Förskolelärare, Mariestad
+C|91358|74|M|Bengt Erik Askerlund|74 år, Pensionär
+C|66260|73|K|Inger Farken|73 år,Pensionär,Mariestad
+C|91360|59|M|Jan Bertilsson|59 år, Lärare, Torsö
+C|91361|43|M|Tommy Appelgren|44 år, Gymnasielärare, Mariestad
+C|254319|47|M|Johan Abrahamsson|47, Kommunalråd, Mariestad
+C|254326|57|K|Anette Karlsson|57, Barnmorska, Mariestad
+C|256909|52|M|Henrik Karlsson|52, Polis, Lyrestad
+C|253992|43|M|Erik Ekblom|43, Produktchef, Mariestad
+C|254363|23|K|Sandra Magnusson|23, Studerande, Mariestad
+C|253974|53|M|Sten Bergheden|riksdagsledamot, Västra Götalands östra
+C|256913|61|K|Anna Mossberg|61, Företagare, Mariestad
+C|254366|40|M|Göte Andersson|40, Tjänsteman, Mariestad
+C|256915|68|M|Anders Bredelius|68, Fd polis, Låstad
+C|256916|32|M|Ola Jonegård|32, Islamolog, Ullervad
+C|256917|57|K|Yvonne Gogolin|57, Ekonom, Säby
+C|256918|34|M|Richard Thorell|34, Lärare, Mariestad
+C|256919|68|K|Cathrine Kronberg|68, Redovisningskonsult, Mariestad
+C|256920|74|M|Björn Fagerlund|74, Byggnadsingenjör, Mariestad
+C|256921|65|M|Urban Claesson|65, Läkare, Odensåker
+C|256922|77|M|John-Gunnar Nilsson|77, Företagare, Lyrestad
+C|256923|70|M|Rolf Rutgersson|70, Chaufför, Mariestad
+C|256924|18|K|Elin Abrahamsson|18, Studerande, Hassle
+C|256925|75|K|Anita Ahl|75, Administratör, Mariestad
+C|256926|67|K|Liselotte Andersson|67, Administratör, Mariestad
+C|256927|71|M|Jonny Odhner|71, General Manager, Ullervad
+C|256928|78|K|Margareta Berggren|78, Fil.mag, Mariestad
+C|256929|49|M|Johan Magnusson|49, Företagare, Mariestad
+C|256930|47|K|Katarina Brydzinski|47, Kriminalvårdare, Mariestad
+C|256931|80|K|Hannelore Fredriksson|80, HR ansvarig, Mariestad
+C|254349|61|M|Björn Mossberg|61, Företagare, Mariestad
+C|256933|67|M|Börje Andersson|67, Säljare, Mariestad
+C|256934|70|K|Gunnila Norrman|70, Sjuksköterska, Mariestad
+C|256935|71|K|Elvi Fagerlund|71, Företagare, Mariestad
+C|256936|72|K|Ing-Britt Andersson|72, Lärare, Mariestad
+C|256937|66|M|Stefan Eriksson|66, Försäkringstjänsteman, Mariestad
+C|256938|39|K|Jennie Fröjd|39, Telefonist, Mariestad
+C|256939|77|M|Bo Larsson|77,Fd Kriminalvårdare,Ullervad
+C|256940|56|M|Björn Andersson|56, Banktjänsteman, Mariestad
+C|256941|60|M|Magnus Runersjö|60, Lantbrukare, Lugnås
+C|256942|63|M|Lars Carlsson|63, Lantbrukare, Björsäter
+C|256943|24|K|Annelie Bergheden|24, Försäkringssäljare, Mariestad
+C|256944|34|K|Madelaine Karlsson|34, Säljledare, Lyrestad
+C|256945|55|K|Gunilla Hellsten Boman|55, Civilekonom, Mariestad
+C|256946|74|K|Marita Lundqvist|74, Företagare/Konsult, Ullervad
+C|256947|76|K|Monika Öhlund|76, Pensionär, Mariestad
+C|256948|74|K|Siv Samuelsson|74, Lärare, Sjötorp
+C|256949|74|K|Anita Nilsson|74, Pensionär, Lyrestad
+C|256950|73|K|Susanne Johansson|73, Konstnär, Mariestad
+C|256951|22|K|Diana Bergheden|22, Studerande, Björsäter
+C|256952|40|K|Elisabet Ekblom|40, Kriminalvårdare, Mariestad
+C|256953|47|K|Malin Abrahamsson|47, Undersköterska, Hassle
+C|256954|85|M|Lars Samuelsson|85, Pensionär, Sjötorp
+C|256955|22|K|Fanny Carlsson|22, Säljare, Mariestad
+C|256956|27|M|Gustaf Johansson|27, Studerande, Mariestad
+C|256957|74|M|Thomas Dynesius|74,Pedagog, Mariestad
+C|217112|64|M|Carl-Gunnar Sand|65 år, Pensionär/f d advokat
+C|217113|66|K|Riitaa Holmblad|65 år, Pensionär
+C|61136|75|M|Per-Olof Henningsson|pensionerad sjökapten, Helgenäs
+C|217115|23|M|Joar Strid|23 år, Snickare
+C|217116|38|M|Per Johansson|38 år, Träindustriarbetare
+C|217117|54|M|Tomas Dahlén|54 år, Egenföretagare åkeri
+C|217118|49|K|Beatrice Barck|49 år, Återvinningsarbetare
+C|510969|19|M|Nicklas Fernström|19, egenföretagare
+C|510970|48|K|Susanna Dahlén|48, företagare
+C|513712|42|M|Ulf Andersson|
+C|70511|65|K|Marie Engström Rosengren|Redovisningskonsult
+C|70512|67|M|Per Rosengren|Mariestad, Lärare
+C|70513|37|K|Britta Wänström|Mariestad, Miljöinspektör
+C|70514|68|K|Chris Nygren|Sjuksköterska
+C|70515|47|K|Monika Kindberg|
+C|70516|79|M|Bernt Ekström|
+C|70517|45|K|Sara Wallmon|Mariestad, Undersköterska
+C|70518|20|K|Jonna Evertsson Kindberg|Undersköterska
+C|70519|42|M|Mika Schroderus|Naturvetare
+C|70520|53|K|Anna Hjalmarsson|
+C|70521|34|M|Staffan Haugland|Studerande
+C|70522|40|K|Jane Rosenlind|Kulturutvecklare
+C|70523|35|M|Jonny Bång|
+C|70524|78|M|Bengt Johansson|Pensionär
+C|70525|47|K|Charlotta Mellberg|Socialpedagog
+C|70526|32|M|Erik Pettersson|Murare
+C|70527|58|M|Erik Nilsson|Boendestödjare
+C|70528|61|M|Jan Hagberg|
+C|70529|66|M|Michael Hellström|

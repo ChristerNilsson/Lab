@@ -1,9 +1,169 @@
-2|167761|167799|167800|179372|31566|179374|179375|179376|179377|31541|179379|179380|179381|179382|179383|179384|179385|179386|179864|179865|179866|179867|179868|179869|179870|179871|179872|179873|179874|179875
-4|12033|12041|12237|12234|24278|24279|24280|24281|12239|24283|12241|24285|24286|24287
-1258|395674|395675|395676|395677|395678|395679|395680|395681|395682|395683|395684|395685|395686|395687|395688|395689|395690|395691|395692|395693|395694|395695|395696|395697|395698|395699|395700|395701|395702|395703|395704|395705|395706|395707|395708|395709
-68|258548|258549|258550|258551|258552|258553|258554|258555|258556|258557|258558|258559
-3|250131|249289|250133|250134
-55|416008|419444|419445|419446|419447|419448|419449|419450|419451|419452|419453|419454
-1|25854|25855|25856|3332|12907|25859|12912|25861|25862|25863|25864|25865|25866|25867|12915|25869|34002|12914|25871|25872|25873|25874|25875|25876
-110|409785|409786|512184|127405
-5|77644|119150|77645|77646|119153|71571|77648|119156|119157|119158|119159|119160|119162|119163
+T|Vadstena
+A|2|167761|167799|167800|179372|31566|179374|179375|179376|179377|31541|179379|179380|179381|179382|179383|179384|179385|179386|179864|179865|179866|179867|179868|179869|179870|179871|179872|179873|179874|179875
+A|4|12033|12041|12237|12234|24278|24279|24280|24281|12239|24283|12241|24285|24286|24287
+A|1258|395674|395675|395676|395677|395678|395679|395680|395681|395682|395683|395684|395685|395686|395687|395688|395689|395690|395691|395692|395693|395694|395695|395696|395697|395698|395699|395700|395701|395702|395703|395704|395705|395706|395707|395708|395709
+A|68|258548|258549|258550|258551|258552|258553|258554|258555|258556|258557|258558|258559
+A|3|250131|249289|250133|250134
+A|55|416008|419444|419445|419446|419447|419448|419449|419450|419451|419452|419453|419454
+A|1|25854|25855|25856|3332|12907|25859|12912|25861|25862|25863|25864|25865|25866|25867|12915|25869|34002|12914|25871|25872|25873|25874|25875|25876
+A|110|409785|409786|512184|127405
+A|5|77644|119150|77645|77646|119153|71571|77648|119156|119157|119158|119159|119160|119162|119163
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1258|Kons|Konsensus - För Vadstenas Bästa
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|167761|70|M|Anders Hedeborg|70, organisationskonsult
+C|167799|61|K|Desirée Forsén|61, arbetsledare
+C|167800|32|M|Fabian Thun|32, boendehandledare
+C|179372|47|K|Jenny Bytander|47, administrativ samordnare
+C|31566|58|M|Magnus Gustafsson|58 år, socionom, Vadstena
+C|179374|71|K|Jane Råsten|71, turismentreprenör
+C|179375|57|M|Göran Fältgren|57, egenföretagare
+C|179376|45|K|Victoria Gustafsson|45, förskollärare
+C|179377|59|M|Jan-Inge Printz|59, skötare
+C|31541|58|K|Yvonne Gustafsson|58 år, personlig assistent, Vadstena
+C|179379|40|M|Bashar Abboud|40, vårdare
+C|179380|45|K|Sabina Grandin|45, biståndshandläggare
+C|179381|60|M|Per-Arne Pettersson|60, lantarbetare
+C|179382|72|K|Ann-Chatrin Kristiansson|72, pensionär
+C|179383|67|M|Bo Ludvigsson|67, journalist
+C|179384|31|K|Rozanna Pettersson|31, lokalvårdare
+C|179385|66|M|Roger Durlind|66, grafiker
+C|179386|69|K|Karin Fornander Sundberg|69, cirkelledare
+C|179864|76|M|Anders Ahl|76, pensionär
+C|179865|58|M|Peter Hallin|58, vaktmästare
+C|179866|45|K|Ulrika Sköld|46, HR-administratör
+C|179867|73|M|Bob Råsten|73, f.d. företagsledare
+C|179868|40|K|Elin Österberg|40, yrkeslärare
+C|179869|74|M|Leif Jernér|74, pensionär
+C|179870|77|K|Lena Savoca|77, f.d. bibliotekarie
+C|179871|56|M|Jörgen Aldrin|55, väktare
+C|179872|75|K|Lena Svenaeus|75, arbetsrättsjurist
+C|179873|70|M|Matz Gerdin|70, pensionär
+C|179874|60|K|Marita Pettersson|60, sjukpensionär
+C|179875|83|M|Göran Söderström|83, författare
+C|12033|44|K|Camilla Westling|44 år, Arkivarie, Vadstena
+C|12041|69|M|Bo Johansson|69 år, Lantmästare, Vadstena
+C|12237|76|K|Margit Berggren Silvheden|76 år, Teolog, Hagebyhöga
+C|12234|78|M|Anders Agnemar|78 år, Företagare/pensionär, Borghamn
+C|24278|60|K|Lena Davidsson|Administratör, Vadstena
+C|24279|73|M|Jan Engholm|Adjunkt, Hov
+C|24280|22|K|Ellen Lundström|Barnskötare, Vadstena
+C|24281|70|K|Gun Jansson|Undersköterska, Vadstena
+C|12239|54|K|Lotta Falkhede Elf|54 år, Egen företagare, Vadstena
+C|24283|75|M|Hans Kälvesten|Agronom, Hagebyhöga
+C|12241|69|M|Göran Tunemar|69 år, Lantbrukare, Vadstena
+C|24285|70|M|Karl-Erik Forssell|Fd arbetsterapeut, Vadstena
+C|24286|72|K|Kerstin Bertilsson|Fd företagare, Hagebyhöga
+C|24287|87|M|Lennart Silvheden|Fd direktör, Hagebyhöga
+C|395674|39|K|Frida Edholm|39, Behandlingspedagog
+C|395675|68|M|Lars Ekström|68, F.d. enhetschef
+C|395676|62|K|Eva Mattsson|62, Företagare
+C|395677|49|M|Carl-Henrik Juhlin|49, Friskvårdssamordnare
+C|395678|48|K|Malin Löfstedt|48, HR Konsult
+C|395679|69|M|Bengt-O Petersson|69, Företagare
+C|395680|66|M|Mats Wahrén|66, Företagare
+C|395681|41|M|Johan Lindell|41, Arbetsledare
+C|395682|21|K|Moa Bjärestrand-Lindqvist|21, Barnskötare
+C|395683|42|K|Ing-Marie Fagrell|42, Socialpedagog
+C|395684|67|M|Kenneth Rydenlund|67, Fil dr. forskare / vårdutv
+C|395685|45|M|Markus Gustafsson|45, Enhetschef
+C|395686|62|M|Lars Murling|63, Behandlingssekreterare
+C|395687|47|K|Ida Olai|47, Verksamhetsutvecklare
+C|395688|33|M|Jonas Lindholm|33, KBT-terapeut
+C|395689|31|K|Elena Ekman|31, Undersköterska
+C|395690|47|M|Fredrik Almcrantz|47, Verkställande direktör
+C|395691|34|K|Helga Averby|34, Städledare
+C|395692|45|K|Therese Granberg|45, Undersköterska / Skötare
+C|395693|39|K|Sofia Falk|39, Husmor / Deltidsbrandman
+C|395694|58|M|Jan Ove Pettersson|58, Konsult
+C|395695|38|K|Gisela Tapper|38, Behandlingspedagog
+C|395696|46|K|Ann-Marie Nilsson|46, Kriminalvårdare
+C|395697|63|K|Lena Linde|63, Pedagog / Kulturarbetare
+C|395698|69|M|Ulf Augustsson|69, Pensionär
+C|395699|65|M|Stefan Båverud|65, Företagare
+C|395700|55|K|Nada Tendzeric|55, Kulturarbetare
+C|395701|67|M|Kenneth Ragneby|67, Pensionär
+C|395702|67|M|Urban Linde|67, Pensionär / God man
+C|395703|37|M|Cristoffer Larsson|37, Fjärrvärmetekniker
+C|395704|70|K|Anna Harder|70, Leg. psykoterapeut
+C|395705|72|M|Lars-Erik Andersson|72, Pensionär
+C|395706|67|M|Leif Johansson|67, Pensionär
+C|395707|72|M|Rune Lemon|72, Aukt. Guide
+C|395708|66|M|Peter Hallin|66, Frilansare
+C|395709|50|K|Mona Hillman|50, Logistiker
+C|258548|77|K|Gunilla Sjösten|Sjukgymnast, Vadstena
+C|258549|68|M|Urban Tellström|Sjuksköterska, Vadstena
+C|258550|75|M|Kennerth Sjösten|Posttjänsteman, Vadstena
+C|258551|53|M|Mikael Wängestam|Lantbrukare, Vadstena
+C|258552|26|K|Desirée Johansson|Jurist, Vadstena
+C|258553|72|M|Klas Sjögren|IT-ansvarig, Vadstena
+C|258554|74|M|Sven-Olof Thellström|Pensionär, Vadstena
+C|258555|71|K|Margareta Sjögren|Pensionär, Vadstena
+C|258556|36|M|Christopher Skoglund|Pastor, Vadstena
+C|258557|68|K|Elisabeth Jivegård|Kantor, Vadstena
+C|258558|78|M|Åke Gustafsson|Griftegårdsföreståndare, Vadstena
+C|258559|66|K|Elisabeth Forsstedt|Diakon, Vadstena
+C|250131|57|K|Heidi Segrell|Lärare
+C|249289|44|K|Susanna Makstin|svinhusförman, Vadstena
+C|250133|64|M|Sam Uhlin|Kyrkvaktmästare
+C|250134|73|M|Christer Beijer|Präst
+C|416008|68|M|Tommy Kennberg|68, Egenföretagare, Vadstena
+C|419444|50|K|Julia Bernzen|50 år, Läkare
+C|419445|65|M|Sten Mattsson|65 år, Bibliotekarie
+C|419446|77|K|Eivor Folkesson|Pensionär, leg. Sjuksköterska
+C|419447|41|M|Peter Asthamn|41 år, Driftsansvarig Bed and breakfast, bagare
+C|419448|48|K|Monika Eriksson Lindgren|48 år, Lärare
+C|419449|55|M|Lennart Wallstedt|55 år, Gymnasielärare, biologi, kemi och hållbar utveckling
+C|419450|46|K|Malin Granlund-Freldt|46 år, Biolog
+C|419451|45|M|Andreas Wallgård|46 år, Arkivarie
+C|419452|76|M|Giancarlo Savoca|Pensionär
+C|419453|50|M|Jesper Liljefors|50 år, Egenföretagare
+C|419454|51|M|Johan Liljefors|51 år, Egenföretagare
+C|25854|57|M|Peter Karlsson|Valla
+C|25855|69|M|Arne Sjöberg|Vadstena
+C|25856|65|K|Kerstin Ramå|Vadstena
+C|3332|51|M|Jan Sundström|Ingenjör, 51 år, Vadstena
+C|12907|75|M|Gary Sparrborn|Vadstena
+C|25859|65|M|Lars Öhman|Stavlösa
+C|12912|29|M|Carl-Johan Sommar|Vadstena
+C|25861|41|K|Camilla Anneflod|Vadstena
+C|25862|43|M|Emil Carlsson Ramö|Vilseberga
+C|25863|51|M|Patrik Vidarsson|Vadstena
+C|25864|67|K|Eva Sparrborn|Vadstena
+C|25865|41|M|Daniel Nord|Åsberga
+C|25866|57|M|Ilija Lozancic|Vadstena
+C|25867|67|K|Barbro Henricson|Vadstena
+C|12915|79|M|Christer Casell|Vadstena
+C|25869|70|K|Inger Mattsson|Vadstena
+C|34002|22|K|Emma Åberg|Vadstena
+C|12914|75|M|Per Ginning|Vadstena
+C|25871|29|K|Josefin Rosén|Vadstena
+C|25872|18|M|Carl-William Franzén|Vadstena
+C|25873|47|K|Karin Ceder|Hageby
+C|25874|71|M|Karl-Gunnar Dybing|Vadstena
+C|25875|36|M|Niklas Johansson|Bårstad
+C|25876|59|M|Thomas Malmström|Herrestad
+C|409785|50|M|Dan Olsson|50 år, Chaufför
+C|409786|60|M|Thomas Strandberg|60 år, Taxiförare
+C|512184|35|M|Björn Sandberg|35 år, Skiftledare
+C|127405|52|K|Rita Törnqvist|52, undersköterska, Vadstena
+C|77644|66|M|Dag Källman|Boendehandledare, Vadstena
+C|119150|70|K|Eva Skoog|Underhållstekniker, Vadstena
+C|77645|72|K|Gun Möller|Sjuksköterska, Vadstena
+C|77646|64|K|Anita Källman|Sjuksköterska, Vadstena
+C|119153|54|K|Ingela Nilsson|Redovisningsekonom, Vadstena
+C|71571|68|M|Ingvar Frid|Yrkeslärare, Vadstena
+C|77648|69|K|Emöke Heim|Folkhögskollärare, Vadstena
+C|119156|37|M|Rasmus Sköld|Konstnär, Vadstena
+C|119157|59|K|Yvonne Sandberg|Boendehandledare, Vadstena
+C|119158|37|K|Maria Segersäll|Konstnär, Vadstena
+C|119159|73|M|Herman Donnér|Arkitekt, Vadstena
+C|119160|77|K|Monica Lantz|Antikvariatsbokhandlare, Vadstena
+C|119162|37|K|Linn Carlehed|Konstnär, Vadstena
+C|119163|72|M|Bengt Möller|Journalist, Vadstena

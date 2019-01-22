@@ -1,12 +1,228 @@
-2|78349|78548|78549|78550|78551|78552|78553|78554|78555|78556|78557|78558|78559|78560|78561|78562|78563|78564|78565|78566|78567|78568|78569|78570|78571|78572|78573|78574|78575|78576|78577|78578|78579|78580|78581|78582|78583|78584|78585|78586|78587|78588|78589|78590|78591|78592|78593|78594|78595|78596|78597|78598|78599|78600|78601|78602
-4|159089|197321|197322|159111|197324|197325|197326|197327|197328|197329|197330|197331|197332|159441|197334|197335|197336|197337|197338|197339|197340|197341|159456|197343|197344|197345|197346|197347|197348|197349|197350
-68|356876|359098|359096|356891|365225|359107|365227|365228|359100|359111|365231|365232|365233|365234
-1140|480105
-1011|164995|164996|164997|165041|165042|165043|165044
-3|53547|54014|53551|54016|54017|121664|54019|54020|54021|54022|54023|54024|54025|54026|121674|54029|53552
-667|478266|478267|478268|478269|478270|478271|478272|478273|478274|478275|478276|478277|478278|478279
-55|382641|382668|383014|392772|382663|392774|392775|392776|383036|392778
-1|135339|135340|135341|132930|133556|135344|133534|135346|135347|135348|135349|135350|135351|135352|133580|133569|135355|135356|135357|133547|135359|135361|135362
-1382|503106|503107|503108|501412|501413|502017
-110|138317|138318|138319|138320|138321|138322|138323|138324|138325|138326|145482|138327|138328|138889
-5|385259|385260|385261|385262|385263|385264|385265|385266|385267|385268
+T|Östhammar
+A|2|78349|78548|78549|78550|78551|78552|78553|78554|78555|78556|78557|78558|78559|78560|78561|78562|78563|78564|78565|78566|78567|78568|78569|78570|78571|78572|78573|78574|78575|78576|78577|78578|78579|78580|78581|78582|78583|78584|78585|78586|78587|78588|78589|78590|78591|78592|78593|78594|78595|78596|78597|78598|78599|78600|78601|78602
+A|4|159089|197321|197322|159111|197324|197325|197326|197327|197328|197329|197330|197331|197332|159441|197334|197335|197336|197337|197338|197339|197340|197341|159456|197343|197344|197345|197346|197347|197348|197349|197350
+A|68|356876|359098|359096|356891|365225|359107|365227|365228|359100|359111|365231|365232|365233|365234
+A|1140|480105
+A|1011|164995|164996|164997|165041|165042|165043|165044
+A|3|53547|54014|53551|54016|54017|121664|54019|54020|54021|54022|54023|54024|54025|54026|121674|54029|53552
+A|667|478266|478267|478268|478269|478270|478271|478272|478273|478274|478275|478276|478277|478278|478279
+A|55|382641|382668|383014|392772|382663|392774|392775|392776|383036|392778
+A|1|135339|135340|135341|132930|133556|135344|133534|135346|135347|135348|135349|135350|135351|135352|133580|133569|135355|135356|135357|133547|135359|135361|135362
+A|1382|503106|503107|503108|501412|501413|502017
+A|110|138317|138318|138319|138320|138321|138322|138323|138324|138325|138326|145482|138327|138328|138889
+A|5|385259|385260|385261|385262|385263|385264|385265|385266|385267|385268
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|667|BoA|Lokalpartiet BoA
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1382|OF|Ostkustens Framtid
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|78349|61|K|Margareta Widén Berggren|61 år, Undersköterska, Gimo
+C|78548|56|M|Tomas Bendiksen|56 år, Metallarbetare, Östhammar
+C|78549|30|K|Sanne Lennström|30 år, Gymnasielärare, Östhammar
+C|78550|55|M|Roger Lamell|55 år, Metallarbetare, Alunda
+C|78551|43|K|Lisa Norén|43 år, Musikpedagog, Östhammar
+C|78552|36|M|Jonas Lennström|36 år, Industriarbetare, Östhammar
+C|78553|53|K|Anna Frisk|53 år, Lärare, Österbybruk
+C|78554|51|M|Jonas Svensson|51 år, Elinstallatör, Alunda
+C|78555|44|K|Caroline Schnell|44 år, Socionom, Östhammar
+C|78556|49|M|Mika Muhonen|49 år, Metallarbetare, Österbybruk
+C|78557|27|K|Suzan Karagöz|27 år, Boendeassistent, Östhammar
+C|78558|71|M|Örjan Mattsson|71 år, Pensionär, Alunda
+C|78559|56|K|Ann Charlotte Grehn|56 år, Lärare, Gimo
+C|78560|47|M|Tomas Näslund|47 år, Lärare, Gimo
+C|78561|70|K|Desiree Mattsson|70 år, Pensionär, Alunda
+C|78562|51|M|Linus Westin|51 år, Samordnare, Alunda
+C|78563|64|K|Kristina Woxdahl-Pihl|64 år, Ombudsman, Hargshamn
+C|78564|68|M|Matts Eriksson|68 år, Pensionär, Gräsö
+C|78565|68|M|Olle Olsson|68 år, Pensionär, Österbybruk
+C|78566|71|K|Lisbeth Persson|71 år, Socionom, Östhammar
+C|78567|61|M|Lennart Norén|61 år, Pensionär, Östhammar
+C|78568|70|K|Raili Karjalainen|70 år, Pensionär, Gimo
+C|78569|47|M|Per Malmsten|47 år, Metallarbetare, Östhammar
+C|78570|62|M|Erik Rudolfsson|62 år, Drifttekniker, Östhammar
+C|78571|48|M|Roger Jansson|48 år, Metallarbetare, Gräsö
+C|78572|64|M|Ingvar Skönstrand|64 år, Pensionär, Dannemora
+C|78573|45|M|Mattias Lundqvist|45 år, Rektor, Alunda
+C|78574|47|M|Thomas Ohlström|47 år, Metallarbetare, Österbybruk
+C|78575|68|M|Lars Sandberg|68 år, Socionom, Alunda
+C|78576|55|M|Thomas Eriksson|55 år, Metallarbetare, Östhammar
+C|78577|53|M|Mats Ingmarsson|53 år, Metallarbetare, Östhammar
+C|78578|65|K|Annika Källén|65 år, Pensionär, Gräsö
+C|78579|41|M|Robert Ek|41 år, Metallarbetare, Österbybruk
+C|78580|37|M|Peter Lydell|37 år, Ombudsman, Alunda
+C|78581|47|K|Marie Hägerbaum|47 år, Metallarbetare, Öregrund
+C|78582|51|M|Peter Jansson|51 år, Metallarbetare, Östhammar
+C|78583|53|K|Maria Bohlin-Smed|53 år, Biståndshandläggare, Östhammar
+C|78584|66|M|Hans Lagenius|66 år, Studie-och yrkesvägledare, Gimo
+C|78585|60|K|Ann-Marie Åström|60 år, Städare, Gimo
+C|78586|73|K|Eivor Landberg|73 år, Pensionär, Gimo
+C|78587|45|K|Helene Fröjd Forsberg|45 år, Enhetschef, Österbybruk
+C|78588|58|M|Ingemar Eriksson|58 år, Ingenjör, Gimo
+C|78589|54|K|Kerstin Söderberg|54 år, Gimo
+C|78590|28|M|Christian Bonde|28 år, Pedagog, Östhammar
+C|78591|48|K|Eva-Lena Grannas|48 år, Utredningsadministratör, Östhammar
+C|78592|37|K|Jessica Smedjegård|37 år, Metallarbetare, Östhammar
+C|78593|40|M|Peter Svedin|40 år, Metallarbetare, Gimo
+C|78594|31|K|Sara Andersson|32 år, Metallarbetare, Gimo
+C|78595|66|M|Harri Lundgren|66 år, Metallarbetare, Alunda
+C|78596|69|K|Siv Westerberg|69 år, Pensionär, Östhammar
+C|78597|56|M|Sverker Brundin|56 år, Metallarbetare, Östhammar
+C|78598|56|M|Mårten Karlsson|56 år, Metallarbetare, Gimo
+C|78599|28|M|Robin Eriksson|28 år, Butiksanställd, Gimo
+C|78600|45|K|Amera Mohammedin Silman|45 år, Undersköterska, Gimo
+C|78601|53|K|Monica B Eriksson|53 år, Verksamhetschef, Östhammar
+C|78602|56|M|Thomas Andersson|56 år, Metallarbetare, Alunda
+C|159089|64|M|Jacob Spangenberg|64 år, kommunalråd, Östhammar
+C|197321|71|M|Bertil Alm|71 år, kretsordförande, Skogsvägen, Alunda
+C|197322|62|K|Inger Abrahamsson|62 år, företagare, Öster Mörtarö, Gräsö
+C|159111|50|M|Håkan Dannberg|49 år, anläggare, Österbybruk
+C|197324|68|K|Cecilia Bernsten|68 år, apotekare, Skolvägen, Hargshamn
+C|197325|44|K|Lisa Landberg|44 år, administratör, Solbovägen, Norrskedika, Östhammar
+C|197326|32|K|Josefine Nilsson|32 år, banktjänsteman, Solbovägen, Norrskedika, Östhammar
+C|197327|30|K|Emma Helén|30 år, skyddsvakt, Vamsta, Österbybruk
+C|197328|63|K|Gunnel Wahlgren|63 år, lantbrukare, Nordangärde, Östhammar
+C|197329|64|K|Camilla Strandman|64 år, lantmästare, Örvik, Östhammar
+C|197330|63|M|Olle Rehn|63 år, kommunpolis, Snesslinge, Östhammar
+C|197331|37|M|Tommy Runarsson|37 år, lantbrukare, Gamla vägen, Norrskedika, Östhammar
+C|197332|60|K|Lotta Karlsson|60 år, sjuksköterska, Hallmansgatan, Östhammar
+C|159441|66|K|Inga Alm|66 år, kassör, Alunda
+C|197334|63|M|Inge Gustafsson|63 år, skogsentreprenör, Uppsalavägen, Gimo
+C|197335|69|K|Katarina Ståhlbrand|69 år, IT-tekniker, Åstorp, Alunda
+C|197336|66|M|Roine Johansson|66 år, företagare, Långalma, Östhammar
+C|197337|31|M|Krister Gunnarsson|31 år, lantbrukare, Hamra, Alunda
+C|197338|41|M|Martin Hagstedt|41 år, logistikchef, Skolvägen, Hargshamn
+C|197339|72|K|Elisabeth Wedholm Mattsson|72 år, leg. arbetsterapeut, Tranbyn, Alunda
+C|197340|60|K|Ann Söderberg Jansson|60 år, arbetshandledare, Rådmansgatan, Östhammar
+C|197341|38|M|Martin Herdin|38 år, kock/charkuterist, Ekeby, Alunda
+C|159456|70|M|Anders Beckman|70 år, IT-säkerhetskonsult, Hargshamn
+C|197343|67|K|Ann Wendel|67 år, apotekare, Näsudden, Östhammar
+C|197344|70|K|Marie-Louise Strandborg|70 år, byggnadsingenjör, Nyhem, Gräsö
+C|197345|76|K|Maj-Britt Nilsson|76 år, diakon, Vamsta, Österbybruk
+C|197346|66|K|Christina Eriksson|66 år, kontorist, Moxboda, Hargshamn
+C|197347|64|K|Nina Iversen|64 år, handläggare, Hantverksvägen, Östhammar
+C|197348|32|M|Christoffer Hiller|32 år, lantbrukare, Söderlövsta, Alunda
+C|197349|69|M|Iver Jensen|69 år, snickare, Kavaröbrovägen, Öregrund
+C|197350|32|K|Sandra Hansson|32 år, församlingass./undersköterska, Väddika, Gimo
+C|356876|55|K|Lena Hagman|55, Elevassistent, Österbybruk
+C|359098|47|K|Madelene Alpsjö|46, Naturhälsopedagog, Österbybruk
+C|359096|68|K|Eva Fredriksson|67, Undersköterska, Alunda
+C|356891|43|K|Maria Nyström|43, Undersköterska, Östhammar
+C|365225|54|M|Sören Carlsson|54, Ambulanssjukvårdare, Österbybruk
+C|359107|28|K|Sabina Stål|27, Undersköterska, Alunda
+C|365227|55|K|Ulrica Melin|55, Barnskötare, Alunda
+C|365228|60|K|Anneli Vinsa|59, Lärare, Gimo
+C|359100|47|M|Sören Axelsson|47, Lantbrukare, Östhammar
+C|359111|56|K|Christina Carlsson|56, Undersköterska, Österbybruk
+C|365231|19|M|Erik Helén|19, Studerande, Gimo
+C|365232|42|M|Johan Borchert|41, Sjuksköterska, Alunda
+C|365233|30|M|Jonatan Carlsson|30, Lantbrukare, Österbybruk
+C|365234|68|M|Conny Fredriksson|67, Pensionär, Alunda
+C|480105|47|M|André Juthe|lärare/Ph.D, 47, Uppsala
+C|164995|32|M|Emil Söderberg|Lastbilschaufför, Östhammar
+C|164996|27|K|Emilia Brantedal|Studerande, Östhammar
+C|164997|48|K|Anna-Maria Brantedal|Administratör, Östhammar
+C|165041|56|M|Michael Brantedal|Maskinoperatör, Östhammar
+C|165042|39|M|Patrik Westerberg|38 år,Bonde,Nolsterby
+C|165043|68|M|Kenneth Berglind|69 år,Innovatör,Alunda
+C|165044|71|M|Åke Siikavaara|70 år,Travtränare,Östhammar
+C|53547|24|K|Julia Andersson|administratör, Östhammar, 24 år
+C|54014|69|K|Irmeli Bellander|69 år, adjunkt, Österbybruk
+C|53551|73|M|Christer Bohlin|konsult, Östhammar, 73 år
+C|54016|39|K|Carolin Hagstedt|39 år, resurslärare, Hargshamn
+C|54017|76|M|Rune Nilsson|76 år, civilingenjör, Östhammar
+C|121664|42|K|Maria Arvidsson|42 år, speciallärare, Gimo
+C|54019|82|M|Ingemar Nordin|82 år, musiker, Österbybruk
+C|54020|72|K|Kerstin Nilsson|72 år, socionom, Östhammar
+C|54021|68|M|Anders Molin|68 år, pensionär, Österbybruk
+C|54022|51|M|Håkan Frödén|51 år, egen företagare, Alunda
+C|54023|82|K|Sonja Bromark|82 år, pensionär, Österbybruk
+C|54024|82|K|Nisette Appelqvist|81 år, pensionär, Östhammar
+C|54025|62|M|Jan Ola Helmersson|62 år, ingenjör, Östhammar
+C|54026|57|K|Kristina Andersson|57 år, grundskolelärare, Österbybruk
+C|121674|66|K|Gunvi Åhlén|66 år, medicinsk sekreterare, Alunda
+C|54029|81|M|Helmut Müssener|81 år, professor emeritus, Östhammar
+C|53552|70|M|Mats Sjöborg|psykolog, Östhammar, 70 år
+C|478266|57|M|Lars O. Holmgren|Snesslingeberg
+C|478267|75|M|Ingemar Adén|Söderön
+C|478268|46|M|Fredrik Jansson|Johannisfors
+C|478269|64|M|Jan-Olof Ahlinder|Öregrund
+C|478270|77|M|Sune Berglund|Hargshamn
+C|478271|88|M|Lars Alm|Gimo
+C|478272|59|M|Ronny Innala|Östhammar
+C|478273|36|M|Andreas Eriksson|Östhammar
+C|478274|50|K|Anna K. Göransson|Öregrund
+C|478275|69|M|Sven Olof Carlsson|Gimo
+C|478276|66|M|Sören Engberg|Öregrund
+C|478277|70|M|Håkan Karlsson|Gimo
+C|478278|21|M|Jonatan Tapper|Österbybruk
+C|478279|57|K|Lena Karlsson|Gimo
+C|382641|46|K|Kerstin Dreborg|Lärare, 46 år, Österbybruk
+C|382668|70|M|Freddie Eriksson|Fil. kand., 70 år, Österbybruk
+C|383014|42|K|Malin Aldal|Organisationsutvecklare, 42 år, Alunda
+C|392772|57|M|Sten Hallberg|57 år, Socionom, Alunda
+C|382663|63|K|Ylva Lundh|Ingenjör, 63 år, Öregrund
+C|392774|70|M|Lars Wallgren|70 år, Pensionär, Östhammar
+C|392775|55|K|Anneli Svending|55 år, Fritidspedagog, Östhammar
+C|392776|31|K|Isa Wallin|31 år, Biolog, Östhammar
+C|383036|60|K|Yvonne Bertilsdotter Wahlbeck|Socionom, 60 år, Österbybruk
+C|392778|68|M|Arno Unge|68 år, Pensionär, Hargshamn
+C|135339|63|M|Pär-Olof Olsson|Kommunalråd, Österbybruk
+C|135340|68|M|Lennart Owenius|Pensionär, Söderön
+C|135341|71|K|Gunilla Delwall|Ekonom, Östhammar
+C|132930|19|M|Fabian Sjöberg|19 år, Student, Östhammar
+C|133556|71|K|Anna-Lena Söderblom|71 år, kamrer, Östhammar
+C|135344|70|M|Christer Lindström|Ingenjör, Gimo
+C|133534|77|M|Allan Kruukka|77 år, Ingenjör/företagare, Östhammar
+C|135346|56|M|Jan Holmberg|Företagare, Östhammar
+C|135347|56|K|Katarina Asplunden|Undersköterska, Söderön
+C|135348|62|M|Mikael Holmkvist|Brandman, Östhammar
+C|135349|33|M|Niklas Ekström|Gruppchef, Östhammar
+C|135350|60|M|Anders Kjellgren|Ingenjör, Gräsö
+C|135351|77|M|Sune Pettersson|Länsflygchef FFK, Östhammar
+C|135352|78|M|Reinhold Delwall|Ingenjör, Östhammar
+C|133580|78|M|Anders Bäckström|78 år, Säkerhetsingenjör, Öregrund
+C|133569|29|K|Julia Ekström|Sjukgymnast, Östhammar
+C|135355|75|K|Mona Lundin|Undersköterska, Östhammar
+C|135356|70|M|Bjarne Tötterman|Företagare, Gräsö
+C|135357|66|M|Lennart Brolin|Företagare, Snesslinge
+C|133547|47|K|Jessica Kumlin|47 år, Behandlare, Gimo
+C|135359|21|M|Filip Uthammar|Processoperatör , Gimo
+C|135361|71|M|Dick Ahlström|Företagare, Johannisfors
+C|135362|45|K|Ann-Charlotte Wellsten|Kyrkoherde, Hökhuvud
+C|503106|41|K|Åsa Lindstrand|Redovisningskonsult, 41, Johannisfors
+C|503107|18|K|Emma Lindstrand|Studerande, 18, Johannisfors
+C|503108|18|K|Molly Tomtex|Student, 18, Östhammar
+C|501412|72|K|Eva Lindstrand|Pensionerad ingenjör, 72, Vamsta
+C|501413|61|K|Yvonne Ahtaanluoma-Pettersson|Egenföretagare, 61, Öregrund
+C|502017|62|K|Tina Kahn|Pensionär, 62, Östhammar
+C|138317|23|M|Martin Wahlsten|Anläggningsarbetare, Östhammar
+C|138318|60|M|Mats Olsson|60, bilmekaniker, Alunda
+C|138319|52|M|Hans Westerman|52, chaufför, Alunda
+C|138320|61|M|Bo Persson|61, god man, Östhammar
+C|138321|72|M|Håkan Sjöblom|72, tullmästare, Östhammar
+C|138322|63|K|Sirlis Persson|63, biomedicinsk analytiker, Hargshamn
+C|138323|75|M|Lennart Dahlberg|75, f.d. driftingenjör, Östhammar
+C|138324|49|M|Stefan Larsson|49, it-tekniker, Österbybruk
+C|138325|71|M|Kjell-Åke Glarke|71, f.d. elektriker, Östhammar
+C|138326|22|M|Jonathan Andersson|22, student, Öregrund
+C|145482|60|K|Ylva Lundin|60, jurist, Alunda
+C|138327|69|K|Ywonne Lindgren|69, barnsköterska, Gräsö
+C|138328|21|K|Melinda Leufstadius|21, elektriker, Alunda
+C|138889|28|M|Richard Halvarsson|28, chaufför, Östhammar
+C|385259|54|M|Mohammad Sabur|54, civilingenjör teknisk fysik, Östhammar
+C|385260|73|K|Ingeborg Sevastik|73, bibliotekarie, Östhammar
+C|385261|65|K|Elisabeth Karlsson|65, författare, Östhammar
+C|385262|56|K|Inger Arvidsson|förskollärare
+C|385263|75|K|Gun Fjellner|74, pensionär/pastor, Östhammar
+C|385264|39|K|Farzana Akter Urmi|studerande
+C|385265|69|M|Tommy Dahlin|pensionerad lärare
+C|385266|48|M|Yacoub Ramdande|sanerare
+C|385267|67|M|Alborz Sigrevi|lärare
+C|385268|70|K|Kertin Stenudd-Caselunghe|lärare

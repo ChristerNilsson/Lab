@@ -1,9 +1,133 @@
-2|38134|38135|38136|38137|38138|38139|38140|38141|38142|38143|38144|38145|38146|38147|38148|38149|38150|38151|38152|38153|38154|38155|38156|38157|38158|38159|38160
-4|15856|136294|136295|136296|136297|136298|136299|136300|136301|136302|136303|136304|136305|136306|136307|136308|136309
-68|72181|72182|72183|72184|72185|72186|72187|72188|72189|72190|72191|72192|72193|72194|72195|72196
-1140|480119|508325|508326|508327|508328|508329
-3|212928|204174|243064|243065|243066|243067|243068|243069|376416|376417|376418
-55|233336|373242|369399|373244
-1|1657|1664|149322|149323|149324|149325|149326|149327|149328|149329|149330|149331|149332
-110|126042|126043|126044|386192|515647|515648|515649|515650|515907|515908|515982|515983
-5|230793|490663|490664|490665|490666|490667|490668|342532
+T|Aneby
+A|2|38134|38135|38136|38137|38138|38139|38140|38141|38142|38143|38144|38145|38146|38147|38148|38149|38150|38151|38152|38153|38154|38155|38156|38157|38158|38159|38160
+A|4|15856|136294|136295|136296|136297|136298|136299|136300|136301|136302|136303|136304|136305|136306|136307|136308|136309
+A|68|72181|72182|72183|72184|72185|72186|72187|72188|72189|72190|72191|72192|72193|72194|72195|72196
+A|1140|480119|508325|508326|508327|508328|508329
+A|3|212928|204174|243064|243065|243066|243067|243068|243069|376416|376417|376418
+A|55|233336|373242|369399|373244
+A|1|1657|1664|149322|149323|149324|149325|149326|149327|149328|149329|149330|149331|149332
+A|110|126042|126043|126044|386192|515647|515648|515649|515650|515907|515908|515982|515983
+A|5|230793|490663|490664|490665|490666|490667|490668|342532
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|38134|46|K|Arijana Jazic|47 år, Arbetsförmedlare,Aneby
+C|38135|26|M|Niklas Lindberg|26 år, Verksamhetssamordnare,Aneby
+C|38136|62|K|Birgitta Svensson|62,Aneby
+C|38137|41|M|Fredrik Bodin|41 år, Lärare,Aneby
+C|38138|61|K|Annki Stark|62 år, Undersköterska,Aneby
+C|38139|66|M|Tommy Gustafsson|66,Aneby
+C|38140|40|K|Lena Valencia|40,Aneby
+C|38141|51|M|Roger Ljungkvist|52 år, Metallarbetare,Aneby
+C|38142|54|K|Åsa Lundqvist|53,Aneby
+C|38143|71|M|Per-Magnus Svensson|71,Aneby
+C|38144|74|M|Lars-Erik Widell|73,Aneby
+C|38145|70|M|Jan-Åke Leo|69,Fågelkärr
+C|38146|72|K|Kerstin Karlsson|71,Frinnaryd
+C|38147|25|M|Tobias Andreasson|26 år, Försäljare,Aneby
+C|38148|40|K|Sofie Thuresson|39,Aneby
+C|38149|63|M|Sune Svensson|63,Aneby
+C|38150|42|K|Malin Andersson|42,Aneby
+C|38151|68|M|Tommy Olausson|68,Sunhultsbrunn
+C|38152|54|K|Annelie Franzen|54,Aneby
+C|38153|25|M|Joakim Dacke|25,Aneby
+C|38154|52|K|Yvonne Hjelm|52,Aneby
+C|38155|71|M|Evert Lax|70,Aneby
+C|38156|50|K|Mana Lajmiri|51,Aneby
+C|38157|65|M|Sven Magnfält|64,Målen
+C|38158|73|M|Leif Åberg|73,Sunhultsbrunn
+C|38159|43|M|Daniel Stensson|43,Sunhultsbrunn
+C|38160|67|M|Bernt-Åke Svensson|68,Sunhultsbrunn
+C|15856|52|K|Beata Allen|52, Landsbygdsutvecklare, Aneby
+C|136294|36|M|Tobias Kreuzpointner|Samordnare, Bälaryd
+C|136295|47|M|Karl-Gustaf Fransson|47, Lantbrukare, Askeryd
+C|136296|66|K|Gudrun Andersson|66, Undersköterska, Sunhultsbrunn
+C|136297|61|K|Carina Linderfalk|61, Läkare, Askeryd
+C|136298|67|M|Lars-Erik Fälth|Kommunalråd, Lommaryd
+C|136299|61|M|Lars-Inge Hansson|61, Yrkeslärare, Askeryd
+C|136300|70|M|Uno Svensson|70, Företagare, Askeryd
+C|136301|70|K|Birgitta Kellner|70, Pensionär, Frinnaryd
+C|136302|55|M|Peter Lindahl|55, Undersköterska, Vireda
+C|136303|46|M|Claes Källner|46, Lantbrukare, Marbäck
+C|136304|64|M|Jan Andersson|64, Lantbrukare, Frinnaryd
+C|136305|70|M|Karl-Magnus Johansson|70, Företagare, Lommaryd
+C|136306|65|K|Inga-Lill Lindh|65, Undersköterska, Frinnaryd
+C|136307|69|K|Birgitta Kåberger|69, Receptionist, Bälaryd
+C|136308|49|K|Maria Johansson|49, Ekonomibiträde, Björkenäs
+C|136309|60|M|Karl-Johan Spånberger|60, Busschaufför, Aneby
+C|72181|53|K|Irene Oskarsson|Kommunpolitiker, Aneby
+C|72182|60|M|Bengt Samuelsson|Distr.ansv. säljare, Aneby
+C|72183|44|M|Jörgen Svärd|Försäljningschef, Aneby
+C|72184|51|K|Maria Lundblom Bäckström|Sjuksköterska, Aneby
+C|72185|64|M|Berndt Dahnson|Orderadministratör, Aneby
+C|72186|68|K|Margareta Wier|Fd vårdlärare, Vireda
+C|72187|21|M|Linus Bäckström|Servicetekniker, Vireda
+C|72188|50|K|Åsa Engdahl|Förskollärare, Aneby
+C|72189|71|M|Roberth Johansson|Kompositör, Aneby
+C|72190|53|K|Marie Persson|Personlig assistent, Aneby
+C|72191|32|M|Henning Lööv|Inköpare, Aneby
+C|72192|65|M|Anders Göransson|Pensionär, Lommaryd
+C|72193|54|K|Helén Johansson|Textillärare, Aneby
+C|72194|60|K|Barbro Fransson|Resursperson, Aneby
+C|72195|51|M|Stellan Gustafsson|Affärsområdeschef, Vireda
+C|72196|51|K|Annika Torstensson|Marknadsassistent, Aneby
+C|480119|51|M|Roger Gillberg|svetsare/deltidsbrandman, 51, Aneby
+C|508325|52|K|Catarina Gunnarsson|soldathemsföreståndare, 52, Aneby
+C|508326|39|M|David Spånberger|journalist/språklärare, 39, Aneby
+C|508327|47|K|Karin Lindén|personlig assistent/undersköterska, 47, Aneby
+C|508328|58|M|Isak James|58, Aneby
+C|508329|52|K|Gunnel James|sjuksköterska, 52, Aneby
+C|212928|42|M|Jimmy Ekström|
+C|204174|36|K|Anna Ekström|36, Församlingsherde/präst, Aneby
+C|243064|52|M|Dan-Åke Andersson|IT-konsult 52 år
+C|243065|25|M|Carl Jager|IT-driftansvarig 25 år
+C|243066|67|K|Marianne Törngren|tandläkare 67 år
+C|243067|51|M|Ulf Svensson|präst 52 år
+C|243068|69|M|Christer Flygt|läkare 69 år
+C|243069|25|M|Rasmus Rehn|teknisk support/deltidsbrandman 25 år
+C|376416|63|K|Siw Bränsvik|vårdadministratör 64 år
+C|376417|49|M|Thomas Johansson|ambulanshelikopterpilot 49 år
+C|376418|68|M|Anders P Fjordmark|möbelhandlare 67 år
+C|233336|71|M|Jan-Olof Adolfsson|71 år, arbetsförmedlare, Aneby
+C|373242|74|M|Stellan Ölmskog|74 år, civilingenjör
+C|369399|51|K|Sibylla Jämting|51 år, distriktsläkare, Aneby
+C|373244|58|M|Paul Forssander|58 år, diakon
+C|1657|55|M|Mats Hansson|55 år, VD HR-företag, Aneby
+C|1664|58|K|Caroline Von Wachenfelt|58 år, Agronom, Aneby
+C|149322|59|M|Ulf Lundberg|59 år, Kock, Bredestad
+C|149323|32|M|Rickard Svärd|32 år, Industriarbetare, Aneby
+C|149324|71|K|Birgit Andersson|71 år, Specialistsjuksköterska, Aneby
+C|149325|42|M|Erik Gustafsson|42 år, Teknologie licentiat, Aneby
+C|149326|20|M|Edvin Göransson|20 år, Lastbilschaufför, Askeryd
+C|149327|73|K|Anita Walfridsson|73 år, Studiehandledare, Aneby
+C|149328|68|M|Lars Asklöf|68 år, Ingenjör, Aneby
+C|149329|50|M|Joacim Ember|50 år, Företagare, Aneby
+C|149330|54|K|Anna-Lena Bohman|54 år, Lärare, Aneby
+C|149331|42|K|Ida Persson|42 år, Lärare, Aneby
+C|149332|45|K|Sandra Bergqvist|45 år, Civilekonom, Lommaryd
+C|126042|42|K|Kristin Apsey|42 år
+C|126043|52|M|Jerry Berggren|52, Key account manager, Aneby
+C|126044|58|M|Peter Sörensson|58, Chaufför, Aneby
+C|386192|49|M|Kent Olsson|
+C|515647|65|M|Arne Torbjörn Johansson|
+C|515648|19|M|Love Berggren|
+C|515649|54|M|Nils-Johan Magnus Nors|
+C|515650|47|M|Gerald Apsey|
+C|515907|49|M|Peter Eliasson|
+C|515908|70|M|Kenneth Svensson|
+C|515982|22|M|Dante Pettersson|
+C|515983|62|K|Marianne Gustavsson|
+C|230793|50|K|Helen Karlsson|socionom, Aneby
+C|490663|60|M|Gustavo Castro|fordonslackerare, Aneby
+C|490664|58|K|Pia Eliasson|undersköterska/skötare, Bälaryd
+C|490665|22|K|Sanna Modin|socionomstudent, Aneby
+C|490666|43|K|Ana-Lucia Rodriguez|undersköterska, Aneby
+C|490667|62|K|Berit Petersson|drama- och teaterlärare, Haurida
+C|490668|62|M|Håkan Lindström|krukmakare, Lommaryd
+C|342532|53|M|Jan Å Johansson|politisk funktionär och författare, Frinnaryd

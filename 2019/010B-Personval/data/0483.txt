@@ -1,8 +1,195 @@
-2|154824|154825|154826|154827|154828|154829|154830|154831|154832|154833|154834|154835|154836|154837|154838|154839|154840|154841|154842|154843|154844|154845|154846|154847|154848|154849|154850|154851|154852|154853|154854|154855|154856|154857|155824|155825|155826|155827|155828|155829|155830|155831|155832|155833|155834|155835|155836|155837|155838|155839|155840|155841|155842|155843|155844|155845|155846|155847|155848|155849
-4|197698|198277|196479|198279|198280|8544|197690|196502|198284|197671|198286|198287|197696|198289|198290|196474|198292|198293|198294|198295
-68|89216|89217|89218|89219|89220|89221|89222|89223|89224|89225|89226|89227|89228
-3|2590|225063|225064|2173|225066|225067|2195|2194|2186|225071|2201|225073|225074|2191|225076|225077|225078|225079|225333|225081
-55|179489|179490|179491|179492|179493|179494|179495|179496|179497|179498
-1|305362|9990|305364|10000|10154|305367|305368|305369|305370|305371|305372|305373|10006|305375|305376|305377|305378|305379|305380|305382|305383|305384|305385|10186|305387|305388|305389|305390|305391|305392
-110|82766|32704|82768|82769|82770|82771|82772|82773|82774|82775|82776|82777|82778|82779
-5|11415|11416|11417|11418|11419|11420|11421|11422|11423|11424|11425|11426
+T|Katrineholm
+A|2|154824|154825|154826|154827|154828|154829|154830|154831|154832|154833|154834|154835|154836|154837|154838|154839|154840|154841|154842|154843|154844|154845|154846|154847|154848|154849|154850|154851|154852|154853|154854|154855|154856|154857|155824|155825|155826|155827|155828|155829|155830|155831|155832|155833|155834|155835|155836|155837|155838|155839|155840|155841|155842|155843|155844|155845|155846|155847|155848|155849
+A|4|197698|198277|196479|198279|198280|8544|197690|196502|198284|197671|198286|198287|197696|198289|198290|196474|198292|198293|198294|198295
+A|68|89216|89217|89218|89219|89220|89221|89222|89223|89224|89225|89226|89227|89228
+A|3|225063|225064|2173|225066|225067|2195|2194|2186|225071|2201|225073|225074|2191|225076|225077|225078|225079|225333|225081
+A|55|179489|179490|179491|179492|179493|179494|179495|179496|179497|179498
+A|1|305362|9990|305364|10000|10154|305367|305368|305369|305370|305371|305372|305373|10006|305375|305376|305377|305378|305379|305380|305382|305383|305384|305385|10186|305387|305388|305389|305390|305391|305392
+A|110|82766|32704|82768|82769|82770|82771|82772|82773|82774|82775|82776|82777|82778|82779
+A|5|11415|11416|11417|11418|11419|11420|11421|11422|11423|11424|11425|11426
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|154824|67|M|Göran Dahlström|Kommunalråd Katrineholm
+C|154825|49|K|Anneli Hedberg|Kommunpolitiker Katrineholm
+C|154826|45|M|Fredrik Olovsson|45 år Riksdagsledamot Katrineholm
+C|154827|66|K|Cecilia Björk|Arkitekt Julita
+C|154828|51|M|Tony Karlsson|Metallarbetare Katrineholm
+C|154829|60|K|Marie-Louise Karlsson|Verksamhetsutvecklare Katrineholm
+C|154830|42|M|Johan Söderberg|Civilekonom Katrineholm
+C|154831|50|K|Ulrica Truedsson|50 år Gymnasielärare Katrineholm
+C|154832|53|M|Abdulahi Hassan|53 år Processledare Katrineholm
+C|154833|43|K|Åsa Thorell Russell|Lärare Katrineholm
+C|154834|64|M|Michael Hagberg|F.d.riksdagsledamot Katrineholm
+C|154835|39|K|Linda Thompson|Lärare Katrineholm
+C|154836|64|M|Gunnar Ljungqvist|Anläggningsarbetare Valla
+C|154837|74|K|Karin Frisk|74 år Pensionär Katrineholm
+C|154838|64|M|Christer Ekstrand|F.d. metallarbetare Katrineholm
+C|154839|28|K|Martina Henke|Fastighetsmäklare Katrineholm
+C|154840|28|M|Tommy Ljungberg|Terminalarbetare Katrineholm
+C|154841|72|K|Torgerd Jansson|Pastor Katrineholm
+C|154842|58|M|Roger Ljunggren|58 år Förste Ombudsman Katrineholm
+C|154843|66|K|Gunilla Magnusson|Nämndeman Katrineholm
+C|154844|64|M|Zeljko Klemse|Ombudsman Katrineholm
+C|154845|19|K|Mariam Yassin Mahi|Studerande Katrineholm
+C|154846|38|M|Fredrik Malmström|Livsmedelsarbetare Katrineholm
+C|154847|33|K|Linda Rosenlund|Sjuksköterska Katrineholm
+C|154848|61|M|Börje Söderström|Pensionär Katrineholm
+C|154849|39|K|Johanna Karlsson|Personlig assistent Katrineholm
+C|154850|71|M|Leif Hanberg|Pensionär Katrineholm
+C|154851|67|K|Anne Hagberg|Personligt ombud Valla
+C|154852|64|M|Stefan Blomkvist|Väktare Katrineholm
+C|154853|54|K|Berit Örtell|Ombudsman Katrineholm
+C|154854|48|M|Magnus Esko|Regionchef Katrineholm
+C|154855|78|K|Ing-Britt Pettersson|Pensionär Katrineholm
+C|154856|72|M|Claes Dahlqvist|Pensionär Katrineholm
+C|154857|72|K|Christina Simonsen|Pensionär Katrineholm
+C|155824|57|M|Osman Haji Abdikarim|Tolk Katrineholm
+C|155825|63|K|Britt-Inger Karlsson|Administratör Katrineholm
+C|155826|80|M|Alf Andersson|Pensionär Katrineholm
+C|155827|55|K|Katarina Rosenlund Svensson|55 år Undersköterska Katrineholm
+C|155828|48|M|Martin Alm|Upphandlare Katrineholm
+C|155829|66|K|Barbro Skogberg|Pensionär Katrineholm
+C|155830|68|M|Franca Baban|Pensionär Katrineholm
+C|155831|78|K|Gunnel Bergh|Pensionär Valla
+C|155832|73|M|Bengt Eriksson|Pensionär Katrineholm
+C|155833|54|K|Marita Sundqvist|Assistent Bie
+C|155834|68|M|Lennart Olsson|Pensionär Katrineholm
+C|155835|47|K|Anna Ringdahl|Konditor Katrineholm
+C|155836|20|M|Max Truedsson|20 år Studerande Katrineholm
+C|155837|73|K|Lilian Lunde|Sjuksköterska Katrineholm
+C|155838|20|M|Ahmed Musse|20 år Studerande Katrineholm
+C|155839|68|K|Britt Ejdvinsson|Fru Katrineholm
+C|155840|59|M|Ajrula Ismailji|Kommunalarbetare Katrineholm
+C|155841|59|K|Christin Hagberg|59 år Laboratorieassistent Katrineholm
+C|155842|68|M|Anders Forss|Pensionär Valla
+C|155843|26|K|Ida Svensson|Studerande Katrineholm
+C|155844|54|M|Basim Hussain|Livsmedelsarbetare Katrineholm
+C|155845|62|K|Mari-Ann Lundin|Aktivitetshandledare Sköldinge
+C|155846|75|M|Håkan Björndahl|Ingenjör Julita
+C|155847|69|K|Kerstin Engman|Pensionär Katrineholm
+C|155848|64|M|Dan Jonsson|Pensionär Katrineholm
+C|155849|60|K|Ann-Christine Sandell|Stödassistent Katrineholm
+C|197698|73|M|Sten Holmgren|73 år,Lantbrukare,Katrineholm
+C|198277|59|K|Ann-Charlotte Olsson|Tandsköterska, Ändebol
+C|196479|50|K|Claudia Grathwohl|50 år,Företagare,Katrineholm
+C|198279|36|K|Victoria Barrsäter|Kvarnmedarbetare,Katrineholm
+C|198280|65|M|Anders Gölevik|Polisintendent,Katrineholm
+C|8544|56|K|Inger Fredriksson|56 år, Journalist , Katrineholm
+C|197690|66|M|Leif Strand|66 år,Företagare,Granhed Katrineholm
+C|196502|71|M|Bertil Carlsson|71 år,Pensionerad Tekniker,Katrineholm
+C|198284|41|K|Maria Brantö|Studerande,Katrineholm
+C|197671|38|K|Emilia Tennmyr|38 år,Trafikinformatör,Katrineholm
+C|198286|74|M|Hans Linke|F.d Lärare, Sköldinge
+C|198287|18|M|Emil Söderstierna|Undersköterska,Floda
+C|197696|34|M|Ferdi Youssein|34 år,Biträde,Katrineholm
+C|198289|37|K|Mays Sabbagh|Barnskötare,Katrineholm
+C|198290|66|M|Ingvar Kylestorp|Lantbrukare, Floda
+C|196474|48|M|Mattias Claesson|48 år,Landstingsråd,Katrineholm
+C|198292|59|K|MarieLouise Ankarsten|Mentalskötare,Katrineholm
+C|198293|62|M|Thorbjörn Eriksson|Säljare,Sköldinge
+C|198294|68|M|Örjan Lindgren|Yrkeslärare, Bie
+C|198295|72|M|Hans-Gunnar Karlsson|Lantbrukare, Julita
+C|89216|59|M|Joha Frondelius|59, företagare, Katrineholm
+C|89217|65|K|Marian Loley|65, kyrkobokföringsassistent, Valla
+C|89218|45|M|Ceith Landin|45, krögare, Katrineholm
+C|89219|53|M|John Ogenholt|sjuksköterska, Katrineholm
+C|89220|41|K|Anna-Maria Wiklund|barnskötare, Julita
+C|89221|62|M|Dag Dunås|ekonom, Katrineholm
+C|89222|39|K|Malin Andersson|hygientekniker, Julita
+C|89223|79|M|Carl-Johan Forss|lektor, Katrineholm
+C|89224|24|K|Miriam Rogers|videobloggare, Katrineholm
+C|89225|72|M|Ingemar Björklund|f.d. säljare , Katrineholm
+C|89226|76|K|Margareta Eriksson|lärare, Valla
+C|89227|53|M|Robert Persson|driftledare, Katrineholm
+C|89228|73|K|Inger Björklund|leg.sjuksköterska, Katrineholm
+C|225063|73|K|Inger Hult|lärare, Lerbo
+C|225064|70|M|Lars Levin|ingenjör, Katrineholm
+C|2173|62|K|Ewa Callhammar|polisinspektör, Katrineholm
+C|225066|62|M|Björn Wahlund|verksamhetsutvecklare, Brebol
+C|225067|75|K|Marianne Körling-Ström|pensionär, Katrineholm
+C|2195|59|M|Lennart Halvardsson|ordförande RFHL Södermanland, Katrineholm
+C|2194|63|K|Alma Ahlam Rabei|studiehandledare, Katrineholm
+C|2186|78|M|Bengt Hult|pensionerad VD, Katrineholm
+C|225071|78|K|Agneta Emanuelsson|lärare/redaktör, Katrineholm
+C|2201|44|M|Jesper Ek|lärare, Katrineholm
+C|225073|70|M|John-Erik Nyman|tandläkare, Katrineholm
+C|225074|69|K|Marie-Louise Nyman|fysioterapeut/uroterapeut, Katrineholm
+C|2191|56|M|Stefan Käll|jurist, Katrineholm
+C|225076|65|K|Sylvia Clason|förskolelärare, Katrineholm
+C|225077|57|M|Mats Karlsson|beslutsfattare, Katrineholm
+C|225078|36|K|Lisa Callhammar Carpman|barnskötare, Katrineholm
+C|225079|58|M|Christer Tak|tågmästare, Katrineholm
+C|225333|74|K|Barbro Blomqvist|pensionär, Valla
+C|225081|67|M|Jan-Olof Blomster|f.d. ombudsman, Björkvik
+C|179489|61|K|Ylva G Karlsson|textilkonstnär
+C|179490|52|M|Nicklas Adamsson|samhälls- och kulturanalytiker, 52 år, Katrineholm
+C|179491|58|K|Gunvor G Ericson|sjuksköterska
+C|179492|69|K|Ami Rooth|fritidsbonde
+C|179493|27|M|Ismail Abukar|modersmålslärare, studiehandledare
+C|179494|69|K|Whera Nyvell|beteendevetare, psykoterapeut
+C|179495|64|K|Sanna Cronhielm|naturbevakare
+C|179496|70|M|Karl Källander|ekologisk lantbrukare
+C|179497|61|M|Roger Karlsson|civilingenjör
+C|179498|55|M|Anders Ericsson|fritidsledare
+C|305362|65|M|Lars Härnström|konsult, Katrineholm
+C|9990|59|M|Christer Sundqvist|brandmästare, Katrineholm
+C|305364|50|K|Mirjana Cvrkalj|sjuksköterska, Katrineholm
+C|10000|37|M|Christoffer Öqvist|inköpare, Katrineholm
+C|10154|67|K|Birgitta Carlheim-Gyllensköld|barnmorska, Katrineholm
+C|305367|62|M|Carl-Magnus Fransson|VD, Bie
+C|305368|64|K|Helena Gärtner|administrativ chef, Floda
+C|305369|49|M|Fredrik Ahlman|brandmästare, Katrineholm
+C|305370|71|M|Johan Hartman|bergsingenjör, Katrineholm
+C|305371|61|K|Christina Granberg|veterinär, Bie
+C|305372|42|M|Milos Smitran|konstruktör, Katrineholm
+C|305373|62|M|Anders Karlsson|it-konsult, Valla
+C|10006|53|M|Ismaail Mahamed Mahamuud|ekonom, Katrineholm
+C|305375|38|M|Martin Edgélius|partiombudsman, Katrineholm
+C|305376|33|M|Fredrik Norén|företagare, Katrineholm
+C|305377|18|M|Mohamad Kouja|studerande, Katrineholm
+C|305378|68|M|Bo Johansson|företagare, Katrineholm
+C|305379|58|M|Torbjörn Jonsson|företagare, Floda
+C|305380|73|K|Ingrid Westman|fd lärare, Katrineholm
+C|305382|67|M|Christer Johansson|platschef, Valla
+C|305383|49|M|Anders Larsson|redovisningsassistent, Katrineholm
+C|305384|53|M|Birger Viding|säkerhetstekniker, Bie
+C|305385|76|K|Annie-Marie Carlsson|reklamkonsult, Katrineholm
+C|10186|40|M|Oscar Dieden|lantbrukare, Katrineholm
+C|305387|78|M|Bo Sivars|rektor, Katrineholm
+C|305388|53|M|Fredrik Hermelin|lantbrukare, Björkvik
+C|305389|74|M|Björn Lindeberg|VD, Katrineholm
+C|305390|77|K|Margareta Palmgren|marknadsekonom, Sköldinge
+C|305391|18|M|Kent Nguyen|studerande, Katrineholm
+C|305392|79|M|Lars F Eriksson|lantbrukare, Floda
+C|82766|30|M|Filip Lindahl|Underhållstekniker, Katrineholm
+C|32704|47|M|Mica Vemic|SM&T Leader, Katrineholm
+C|82768|55|M|Jan Lilja|55 år, Företagare
+C|82769|74|M|Jan-Åke Asp|73 år, Musiker
+C|82770|63|M|Ingvar Larsson|62 år, Gymnasielärare
+C|82771|70|K|Elsie Egestål|70 år, Socionom
+C|82772|68|K|Britt Gustafsson|67 år, Pensionär
+C|82773|34|K|Camilla Hermansson|34 år, Studerande
+C|82774|51|M|Anders Karlsson|51 år, Lastbilschaufför
+C|82775|57|M|Per-Ola Fransson|57 år, Lastbilschaufför
+C|82776|77|M|Jimmy Peppas|77 år, Pensionär
+C|82777|79|K|Berit Olming|78 år, Pensionär
+C|82778|58|M|Per-Åke Lindahl|57 år, Hantverkare
+C|82779|46|K|Sara Åberg|46 år, Företagare
+C|11415|50|M|Tony Rosendahl|50, Ombudsman, Katrineholm
+C|11416|42|M|Thomas Selig|42, Egenföretagare, Katrineholm
+C|11417|66|K|Anita Johansson|66, Pensionär
+C|11418|41|K|Rue Lindkvist|41, Hotellreceptionist
+C|11419|70|M|Göran Svenningson|70, Socionom
+C|11420|34|K|Elin Selig|34, Projektkoordinator
+C|11421|43|M|Jöran Mathiesen|43, Studerande
+C|11422|26|K|Linn Vennerholm|26, Biolog
+C|11423|29|M|Fredrik Dahlström|29, Sjuksköterska
+C|11424|44|M|Soubhi Alsaied|44, Studerande
+C|11425|60|M|Thomas Halvarsson|60, Verkstadsarbetare
+C|11426|65|M|Olof Carlsson|65, Personlig assistent

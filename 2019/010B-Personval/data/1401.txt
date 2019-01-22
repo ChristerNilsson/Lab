@@ -1,11 +1,195 @@
-2|147868|147869|147870|147871|147872|147873|147874|147875|147876|147877|147878|147879|147880|147881|147882|147883|147884|147885|147886|147887|147888|147889|147890|147891|147892|147893|147894|147895|147896|147897|147898|147899|147900|147901
-4|167814|167815|167816|167817|167818|167819|167820|167821|167822|167823|167824|167825|167826|167827|167828|167829|167830
-532|503553|503554
-546|45686|476230|476231|476232|476233|476347|476348|476349|476350|476351|476352|476381|476353|476354
-68|343574|277371|343576|343577|277365|343579|343580|343581|343582|343583|343584|343585|343586
-3|276137|276138|276139|276140|276141|276142|276143|276144|276145|276146|276147|276148|276149|276150|276151|276152|276153|276154|276155|276156|276157
-55|242461|242462|242463|242464|6172|242466|242467|242468|242469|242470
-1|254150|254417|254418|254419|254420|254176|253929|254189|254188|254425|254426|254427|254428|254429|254430|254431|254432|254433|254434|254435|254436|254437|254438|254439|254440|254441|254443|254444
-998|415009|415010|415011|415012|415013|415014|415015|415016|415017|415018
-110|57901|57902|57903|57904|57905|57906|57907|57908|57909|57910|57911|57912|57913|57914|57915
-5|183152|183153|183154|183155|183156|183157|183158|183159
+T|Härryda
+A|2|147868|147869|147870|147871|147872|147873|147874|147875|147876|147877|147878|147879|147880|147881|147882|147883|147884|147885|147886|147887|147888|147889|147890|147891|147892|147893|147894|147895|147896|147897|147898|147899|147900|147901
+A|4|167814|167815|167816|167817|167818|167819|167820|167821|167822|167823|167824|167825|167826|167827|167828|167829|167830
+A|532|503553|503554
+A|546|45686|476230|476231|476232|476233|476347|476348|476349|476350|476351|476352|476381|476353|476354
+A|68|343574|277371|343576|343577|277365|343579|343580|343581|343582|343583|343584|343585|343586
+A|3|276137|276138|276139|276140|276141|276142|276143|276144|276145|276146|276147|276148|276149|276150|276151|276152|276153|276154|276155|276156|276157
+A|55|242461|242462|242463|242464|6172|242466|242467|242468|242469|242470
+A|1|254150|254417|254418|254419|254420|254176|253929|254189|254188|254425|254426|254427|254428|254429|254430|254431|254432|254433|254434|254435|254436|254437|254438|254439|254440|254441|254443|254444
+A|998|415009|415010|415011|415012|415013|415014|415015|415016|415017|415018
+A|110|57901|57902|57903|57904|57905|57906|57907|57908|57909|57910|57911|57912|57913|57914|57915
+A|5|183152|183153|183154|183155|183156|183157|183158|183159
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|546|KomP|Kommunpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|998|SPP|Sportpartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|147868|38|M|Patrik Linde|lärare, Härryda
+C|147869|72|K|Gunilla Wathne|Landvetter
+C|147870|65|M|Björn Magnusson|pensionär, Härryda
+C|147871|72|K|Siw Hallbert|Mölnlycke
+C|147872|36|M|Mikael Hallén|Landvetter
+C|147873|62|K|Ulla-Karin Johansson|undersköterska, Härryda
+C|147874|37|M|Robert Langholz|Härryda
+C|147875|60|K|Monica Bengtsson|Härryda
+C|147876|30|M|Oskar Sköld|ledningsoperatör, Härryda
+C|147877|70|K|Wiwiann Niklasson|pensionär, Härryda
+C|147878|67|M|Mats Werner|Rävlanda
+C|147879|69|K|Lena Fredriksson|Mölnlycke
+C|147880|43|M|Jonas Andersson|Mölnlycke
+C|147881|70|K|Ellen Svensson|Härryda
+C|147882|44|K|Ulrika Öst|Mölnlycke
+C|147883|56|K|Varinder Bajwa|Mölnlycke
+C|147884|68|M|Rolf Vestman|Landvetter
+C|147885|61|K|Agneta Svensson|Mölnlycke
+C|147886|74|K|Ingegerd Helén|Mölnlycke
+C|147887|64|M|Mustafa Jamil|Mölnlycke
+C|147888|50|K|Lena Gustavsson|Rävlanda
+C|147889|49|K|Anna Palmér-Hallén|Landvetter
+C|147890|74|K|Britt Dovmyr|Landvetter
+C|147891|69|M|Thomas Gustavsson|Rävlanda
+C|147892|73|K|Birgitta Berntsson|pensionär, Härryda
+C|147893|39|M|Adrian Avdullahu|Mölnlycke
+C|147894|71|K|Ing-Marie Samuelsson|Mölnlycke
+C|147895|67|K|Britt-Marie Nordin|pensionär, Härryda
+C|147896|47|K|Petra Wåhlstedt|Mölnlycke
+C|147897|43|M|Joakim Bernhardsson|Hindås
+C|147898|49|K|Kristin Arplöw|Mölnlycke
+C|147899|78|K|Ingrid Duwe|Landvetter
+C|147900|71|K|Ing-Britt Magnusson|Mölnlycke
+C|147901|70|K|Birgitta Eriksson|Mölnlycke
+C|167814|65|K|Maria Kornevik Jakobsson|65 år, kurator, Härryda
+C|167815|51|M|Ronny Sjöberg|aktiveringspedagog, Härryda
+C|167816|64|K|Gun Wågsjö|lärare, Mölnlycke
+C|167817|43|M|Fredrik Mossmark|43, tekn.dr. hydrogeolog, Härryda
+C|167818|58|M|Tony Wahl|säljare, Rävlanda
+C|167819|33|K|Elin Germgård|lärare, Mölnlycke
+C|167820|35|K|Julia Barske|35, säljare detaljhandel, Härryda
+C|167821|52|M|Martin Helgegren|hemmansägare, Rävlanda
+C|167822|29|M|Peter Börjesson|student, Mölnlycke
+C|167823|45|K|Pernilla Sjöberg|kostekonom, Härryda
+C|167824|51|M|Christer Holmberg|anläggningstekniker,Landvetter
+C|167825|58|K|Ingun Rönnborn|specialpedagog, Pixbo
+C|167826|70|M|Hans Jakobsson|IT-konsult, Mölnlycke
+C|167827|66|K|Margareta Söderström Thor|sjuksköterska,Landvetter
+C|167828|39|K|Frida Lindström|beteendevetare, Mölnlycke
+C|167829|76|M|Lars Thomsson|ingenjör, Mölnlycke
+C|167830|79|K|Kitt Rehn-Magnusson|med.fotvårdsspecialist,Mölnlycke
+C|503553|52|K|Tina Lundberg|52 år, sakkunnig rättsväsende/brottsoffer, Härryda
+C|503554|33|K|Nathalie Sundgren|34 år, behandlingsassistent, Landvetter
+C|45686|75|M|Steinar Walsö-Kanstad|Bankekonom,Härryda
+C|476230|72|K|Brita Dermark|Fd församlingsassistent
+C|476231|55|M|Jan Gustafsson|Inredare
+C|476232|38|M|Johan Wistrand|KAM
+C|476233|45|K|Linda Kristiansson|Frisör
+C|476347|81|M|Göran Falk|Fd marknadschef
+C|476348|74|M|Gunnar Palm|Fd polisinspektör
+C|476349|72|K|Eva Dermark|Fd vårdbiträde
+C|476350|71|M|Conny Wickberg|Fotograf
+C|476351|73|K|Inga-Lill Björklund|Fd undersköterska
+C|476352|82|M|Bo Berner|Fd byggnadsinspektör
+C|476381|54|M|Saeed Sorkhabi|Företagare
+C|476353|62|M|Christian Dahlqvist|Virkesmätare
+C|476354|93|M|Nils Bengtsson|Professor
+C|343574|60|M|Håkan Eriksson|Egenföretagare, Mölnlycke
+C|277371|50|K|Madeleine Söderlund|Lärare, Mölnlycke
+C|343576|37|M|Patrik Nordgren|Polis, Härryda
+C|343577|67|K|Inger Axelsson|Pensionär, Hällingsjö
+C|277365|50|M|Lars Landrö|Jurist, Härryda
+C|343579|81|K|Anna-Carin Bromander|Textilhantv., Mölnlycke
+C|343580|68|M|Rolf Jigfelt|Pensionär, Landvetter
+C|343581|74|K|Birgitta Jigfelt|Pensionär, Landvetter
+C|343582|68|M|Leif Johansson|Pensionär, Mölnlycke
+C|343583|75|K|Anne-Marie Söderlund|Pensionär, Mölnlycke
+C|343584|77|K|Eva Hvarfvén|Pensionär, Mölnlycke
+C|343585|72|M|Peter Wågsjö|Musikdirektör, Mölnlycke
+C|343586|70|M|Leif-Ove Bohlin|Bussförare, Mölnlycke
+C|276137|33|M|David Dinsdale|33, civilekonom, Härryda
+C|276138|72|K|Ing-Marie Rydén Höök|Fysioterapeut, Hindås
+C|276139|65|M|Anders Halldén|Organisationspsykolog, Pixbo
+C|276140|63|K|Anita Anger|Distriktschef, Landvetter
+C|276141|57|M|Lars-Magnus Frisk|Revisor, Mölnlycke
+C|276142|72|M|Erik Lagerström|Civilingenjör, Pixbo
+C|276143|37|K|Valentina Vokshi|Projektledare, Mölnlycke
+C|276144|47|M|Marcus Tonell|Civilingenjör, Mölnlycke
+C|276145|42|M|Peter Herrmann|Ingenjör, Mölnlycke
+C|276146|65|M|Claes Anger|Ekonomikonsult, Landvetter
+C|276147|40|K|Sofie Krall|Ekonom, Mölnlycke
+C|276148|67|M|Roger Treutiger|Civilekonom, Mölnlycke
+C|276149|40|M|Pär Lundqvist|40, ekonom, Härryda
+C|276150|67|K|Inger Hildén|Talpedagog, Landvetter
+C|276151|62|M|Per Löveröd|Energiingenjör, Landvetter
+C|276152|72|K|Bodil Lindgren|Kostekonom, Landvetter
+C|276153|83|K|Inger Lerén|Förskollärare, Mölnlycke
+C|276154|71|M|Thomas Lindgren|HR-konsult, Landvetter
+C|276155|46|K|Therese Blom|Civilekonom, Hindås
+C|276156|63|M|Hans Hofflander|Civilingenjör, Mölnlycke
+C|276157|70|M|Göran Hildén|Civilekonom, Landvetter
+C|242461|68|M|Roland Jonsson|68år, Miljökonsult
+C|242462|55|K|Marie Strid|54år, Arkitekt
+C|242463|42|M|Marcus Berggren|42år, Utredare
+C|242464|39|K|Ida Rosengren|39år, Enhetschef
+C|6172|63|M|Ahmad Ahmadi Daghdar|
+C|242466|49|M|Christian Schmitt|49år, Läkare
+C|242467|24|K|Annahita Ahmadi|23år, Student
+C|242468|37|M|Karl Holmström|37år, Ingenjör
+C|242469|33|K|Katarina Kristiansson|33år, Ekonom
+C|242470|42|M|Neil St John|43år, Personlig assistent
+C|254150|50|M|Per Vorberg|50, Kommunstyrelsens ordförande, Härryda
+C|254417|53|K|Eva-Lotta Liljenzin|53, Distriktssköterska, Hällingsjö
+C|254418|60|M|Grim Pedersen|60, Ingenjör, Hindås
+C|254419|66|K|Kersti Lagergren|66, Kvalitets- och miljösamordnare, Mölnlycke
+C|254420|76|M|Hans Larsson|76, Ingenjör, Mölnlycke
+C|254176|47|M|Roger Nordman|47, Sektionschef, Mölnlycke
+C|253929|58|M|Mikael Johannison|58, Entreprenör/Företagare, Härryda
+C|254189|57|M|Sven Karlsson|57, Senior Adviser, Härryda
+C|254188|20|M|Rickard Rosengren|20, Studerande, Härryda
+C|254425|59|K|Kristina Andrén|59, Projektledare, Mölnlycke
+C|254426|82|M|Gunnar Häggström|82, Senior, Mölnlycke
+C|254427|52|M|Jan Andersson|52, Säljare, Landvetter
+C|254428|54|K|Ulrika Nordenstam|54, Entreprenör/Lärare, Hällingsjö
+C|254429|73|M|Ingemar Lindblom|73, Civilingenjör,civ.ek, Hindås
+C|254430|70|M|Bengt Johansson|70, VD, Hindås
+C|254431|64|K|Eva Karlsson|64, Fil kand, Landvetter
+C|254432|48|K|Hengameh Mokhtari Madjd|48, fil mag Psykologi, Landvetter
+C|254433|69|M|Weine Samuelsson|69, Ekonom, Mölnlycke
+C|254434|79|M|Anders Norlin|79, Företagsrådgivare, Hindås
+C|254435|79|K|Karin Wickman|79, Spec.lär/Pensionär, Mölnlycke
+C|254436|51|K|Katia Petkova|51, Lärare, Hindås
+C|254437|34|M|Thomas Anderberg|34, Företagare, Landvetter
+C|254438|55|K|Anna-Karin Andersson|55, Förskollärare, Landvetter
+C|254439|62|K|Britt Nedestam|62, Gymnasielärare, Mölnlycke
+C|254440|32|K|Matina Dureesèn|32, Exportchef, Mölnlycke
+C|254441|67|M|Håkan Söderström|67, Civilingenjör, Mölnlycke
+C|254443|61|M|Tommy Brundin|61, Inköpschef, Hindås
+C|254444|76|M|Owe Willingskär|76, Driftingenjör, Hindås
+C|415009|53|M|Jan Inge Forsberg|53, Egen företagare, Mölnlycke
+C|415010|59|M|Kent Samuelsson|59, Fysioterapeut, Hindås
+C|415011|47|K|Cecilia Grebart Flatow|47, Inköpare, Landvetter
+C|415012|52|M|Henrik Thyselius|52, Advokat, Mölnlycke
+C|415013|50|M|Martin Tengfjord|50, Säljare, Hindås
+C|415014|40|M|Martin Kronvall|41, Projektledare, Landvetter
+C|415015|66|M|Lennart Vinqvist|66 Egen företagare, Landvetter
+C|415016|60|M|Kalevi Pessi|60, Docent, Mölnlycke
+C|415017|55|M|Martin Lamprecht|54, Konsult, Landvetter
+C|415018|34|K|Maria Skoglund|34, Grafisk design, Mölnlycke
+C|57901|26|M|Calle Johansson|Servicerådgivare, Härryda
+C|57902|65|M|Boris Leimar|Pensionär, Härryda
+C|57903|56|M|Patrik Strömsten|56, Mölnlycke
+C|57904|30|M|Leo Welter|30, Speldesigner, Mölnlycke
+C|57905|44|M|Peter Arvidsson|44, Benareby
+C|57906|38|K|Nina Sjöstedt|38, Landvetter
+C|57907|69|M|Anders Johansson|69, Hindås
+C|57908|67|M|Bengt Hellgren|67, Hindås
+C|57909|21|K|Nathalie Löfgren|21, Mölnlycke
+C|57910|59|K|Regina Strömsten|59, Mölnlycke
+C|57911|67|K|Inga-Lill Hellgren|67, Hindås
+C|57912|69|M|Reine Wahlberg|69, Härryda
+C|57913|52|K|Danuta Wahlberg|52, Härryda
+C|57914|54|M|Hans Lundqvist|53, Mölnlycke
+C|57915|24|M|Oscar Robertsson|24, Mölnlycke
+C|183152|55|M|Bengt Andersson|byggnadsarbetare
+C|183153|66|K|Kerstin Sandberg|distriktssköterska
+C|183154|67|M|Bengt Johansson|pensionär
+C|183155|64|M|Björn Mattsson|pensionär
+C|183156|49|K|Åsa Garberg|miljökonsult
+C|183157|68|M|Kaj Andersson|pensionär
+C|183158|77|K|Inga Edwertz|socionom
+C|183159|63|K|Eva Kraft|illustratör

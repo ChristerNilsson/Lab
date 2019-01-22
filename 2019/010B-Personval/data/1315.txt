@@ -1,9 +1,173 @@
-2|11959|11960|11971|11962|7607|11964|11963|11974|11586|11585|11973|11972|11977|11970|11967|11982|11979|11976|7615|11984|11582|11978|11588|11980|11983|11968|11989|11999|11981|11593|11596|11988|11991|11990|11993|11992|11994|116048|11996|11995|11998|11997|12000|12001|12002|12003|12004|12005|12006|12007|12008|11589|116063|12010|12011|12012|12013|12014|11985|12016|11594|116072|12018|12019|12020
-4|23824|29987|29988|29989|29990|29991|29992|28962|29994|29995|29996|29997|29998|29999|30000|30001|30002|28995|30004|28951|30006|30007|30008|30009
-503|99975|99976|99977|99978|99979|99980|99981|99982|99983|99984|99985
-3|90628|90629|90630|90631|90632|90633|90634|90635|90636
-55|131359|131360|131361
-1|161590|161591|161592|161593|161594|161595|161596|161597
-107|394632|394633
-110|39810|39811|39812|39813|39814|39815|39816|39817|39818|39819|39820|39821|39822|39823
-5|13317|13332|13330|13446|14288|14289|13438|232814|265115|14291|58403|14292|232818|232819|232820|232821|14293|14294
+T|Hylte
+A|2|11959|11960|11971|11962|7607|11964|11963|11974|11586|11585|11973|11972|11977|11970|11967|11982|11979|11976|7615|11984|11582|11978|11588|11980|11983|11968|11989|11999|11981|11593|11596|11988|11991|11990|11993|11992|11994|116048|11996|11995|11998|11997|12000|12001|12002|12003|12004|12005|12006|12007|12008|11589|116063|12010|12011|12012|12013|12014|11985|12016|11594|116072|12018|12019|12020
+A|4|23824|29987|29988|29989|29990|29991|29992|28962|29994|29995|29996|29997|29998|29999|30000|30001|30002|28995|30004|28951|30006|30007|30008|30009
+A|503|99975|99976|99977|99978|99979|99980|99981|99982|99983|99984|99985
+A|3|90628|90629|90630|90631|90632|90633|90634|90635|90636
+A|55|131359|131360|131361
+A|1|161590|161591|161592|161593|161594|161595|161596|161597
+A|107|394632|394633
+A|110|39810|39811|39812|39813|39814|39815|39816|39817|39818|39819|39820|39821|39822|39823
+A|5|13317|13332|13330|13446|14288|14289|13438|232814|265115|14291|58403|14292|232818|232819|232820|232821|14293|14294
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|503|Komv|Kommunens Väl
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|107|SPI|SPI Välfärden
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|11959|43|M|Ronny Löfquist|Unnaryd, 43
+C|11960|27|K|Maria Hedin|Hyltebruk, 27
+C|11971|62|M|Micael Arnström|Rydöbruk, 62
+C|11962|45|K|Malin Thydén Kärrman|Rydöbruk, 45
+C|7607|59|M|Krister Mattsson|59, Unnaryd
+C|11964|55|K|Birgitta Årzen|Torup, 55
+C|11963|33|M|Abdiasiis Dahir|Hyltebruk, 33
+C|11974|63|K|Maria Johansson Arnström|Rydöbruk, 63
+C|11586|27|M|Johan Fahlén|26, Landeryd
+C|11585|50|K|Ann-Christin Wendpaap|50, Hyltebruk
+C|11973|68|M|Göran Edberg|Hyltebruk,68
+C|11972|72|K|Gunnel Johansson|Torup, 72
+C|11977|56|M|Roger Andersson|Långaryd, 56
+C|11970|53|K|Marie Louice Lindström|Hyltebruk, 53
+C|11967|50|M|Jari Brinkell|Torup, 50
+C|11982|51|K|Katrin Karlsson|Rydöbruk, 51
+C|11979|66|M|Lars Sundberg|Hyltebruk, 66
+C|11976|58|K|Monika Albrecht|Hyltebruk, 58
+C|7615|61|M|Rune Gunnarsson|61, Hyltebruk
+C|11984|26|K|Hanna Arvidsson|Hyltebruk, 26
+C|11582|67|M|Per Yngve Bengtsson|66, Torup
+C|11978|41|K|Fakhria Hamidi|Hyltebruk, 41
+C|11588|23|M|Mustafe Ahmed|23, Hyltebruk
+C|11980|27|K|Matilda Wahlström|Hyltebruk, 27
+C|11983|30|M|Fredrik Artursson|Hyltebruk, 30
+C|11968|44|K|Malin Taipaleenmäki|Hyltebruk, 44
+C|11989|27|M|Sami Hindi|Hyltebruk, 28
+C|11999|43|K|Anna Larsson|Hyltebruk, 43
+C|11981|58|M|Tommy Andersson|Hyltebruk, 58
+C|11593|69|K|Ingrid Johansen|69, Landeryd
+C|11596|34|M|Hamza Hussein|34, Torup
+C|11988|75|K|Birgit Gabrielsson|Unnaryd, 75
+C|11991|57|M|Palle Edelved|Hyltebruk, 57
+C|11990|49|K|Camilla Göransson|Kinnared, 49
+C|11993|70|M|Ole Rasmusen|Landeryd, 70
+C|11992|45|K|Helena Kozan|Hyltebruk, 45
+C|11994|26|M|Mohammed Kabawa|Hyltebruk, 26
+C|116048|66|K|Susann Edhe Larsson|Hyltebruk, 66
+C|11996|30|M|Alexander Andersson|Torup, 30
+C|11995|72|K|Monica Bengtsson|Hyltebruk, 72
+C|11998|50|M|Magnus Gullberg|Långaryd, 50
+C|11997|44|K|Carin Nielsen|Hyltebruk, 44
+C|12000|64|M|Ingemar Lund|Hyltebruk, 64
+C|12001|35|K|Hanna Alexandersson Kjellin|Torup, 35
+C|12002|31|M|Tobias Thelander|Torup, 31
+C|12003|48|K|Marzena Frisk|Unnaryd, 48
+C|12004|67|M|Kjell Larson|Hyltebruk, 67
+C|12005|71|K|Silva Hafström|Hyltebruk, 71
+C|12006|69|M|Niels Sörensen|Unnaryd, 67
+C|12007|37|K|Caroline Thorsen|Hyltebruk, 37
+C|12008|75|M|Ingemar Andersson|Hyltebruk, 75
+C|11589|70|K|Kristina Johansson|70, Hyltebruk
+C|116063|41|M|Ingemar Johansson|Jälluntofta, 41
+C|12010|65|K|Ann-Kristine Petersson|Unnaryd, 65
+C|12011|60|M|Leif Smith|Rydöbruk, 60
+C|12012|46|K|Paula Andersson|Hyltebruk, 46
+C|12013|47|M|Christian Andersson|Torup, 47
+C|12014|47|K|Kristina Kamstedt|Unnaryd, 47
+C|11985|46|M|John Sundling|Torup, 46
+C|12016|49|K|Victoria Strand|Torup, 49
+C|11594|63|M|Göran Johansson|63, Landeryd
+C|116072|45|K|Tina Hildesjö-Persson|Torup, 45
+C|12018|51|M|Amin Hamidi|Hyltebruk, 52
+C|12019|58|M|Michael Frisk|Unnaryd, 58
+C|12020|55|M|Mikael Andersson|Unnaryd, 55
+C|23824|40|K|Anna Roos|40 år, Kommunråd/Enhetschef, Hylte
+C|29987|47|M|Andreas Algerbo|47 år, VD, Långaryd
+C|29988|43|K|Malin Svan|43 år, Ekonom, Hyltebruk
+C|29989|43|K|Martina Philip Carlsson|43 år, Byggrådgivare, Kinnared
+C|29990|73|M|Lennart Ohlsson|73 år, Pensionär, Hyltebruk
+C|29991|59|M|Håkan Bengtsson|59 år, Ingenjör/Försäljare, Torup
+C|29992|47|M|Bo Eriksson|47 år, Civilingenjör, Långaryd
+C|28962|33|M|Anwar Hassan|33 år, Administratör, Hylte
+C|29994|32|K|Linnea Somero|33 år, Butiksmedarbetare, Landeryd
+C|29995|67|M|Ingemar Steneteg|67 år, Entreprenör, Hyltebruk
+C|29996|66|K|Maj Brodin Johansson|66 år, fd.Polisinspektör/pensionär, Unnaryd
+C|29997|62|M|Lennart Erlandsson|62 år, Entreprenör, Långaryd
+C|29998|39|K|Lama Alshihabi|40 år, Personligassistent, Hyltebruk
+C|29999|49|M|Per Andersson|49 år, Entreprenör, Torup
+C|30000|45|M|Henrik Hagström|45 år, Logistikchef, Långaryd
+C|30001|62|M|Bengt Svensson|62 år, Skogsbrukare, Kinnared
+C|30002|70|K|Birgitta Åkesson|70 år, Pensionär, Unnaryd
+C|28995|66|M|Erik Karlsson|66 år, Skogstekniker, Hylte
+C|30004|42|M|Zaher Hamed|43 år, Studiehandledare, Hyltebruk
+C|28951|44|M|Henrik Erlingson|44 år, Skogsbrukare, Hylte
+C|30006|72|M|Bruno Granath|72 år, Lantbrukare, Unnaryd
+C|30007|69|M|Karl-Göran Carlsson|69 år, Entreprenör, Hyltebruk
+C|30008|73|M|Uno Sjöberg|73 år, Pensionär, Långaryd
+C|30009|51|K|Maj-Britt Lillieberg|51 år, Tjänsteman, Unnaryd
+C|99975|69|K|Gunilla Magnusson|Allég., Hyltebruk
+C|99976|63|M|Tommy Edenholm|Skogsv., Hyltebruk
+C|99977|66|M|Ray Alexén|Lingonv., Hyltebruk
+C|99978|66|M|Harri Kytöharju|Mossg., Hyltebruk
+C|99979|75|K|Gunnel Lindgren|Kolareg., Hyltebruk
+C|99980|51|M|Lirim Mazreku|Nygat., Hyltebruk
+C|99981|79|M|Karl-Gustav Lindbäck|Nyarp, Långaryd
+C|99982|73|M|Jan-Christer Lindgren|Kolareg., Hyltebruk
+C|99983|41|K|Therése Alexén|Sutarebo, Hyltebruk
+C|99984|67|M|Per Johansson|Ekg., Hyltebruk
+C|99985|53|M|Jens-Åke Olofsson|Håknaryd, Långaryd
+C|90628|76|M|Bengt-Åke Torhall|Ingenjör, Torup
+C|90629|24|M|Alexander Engman|24, gymnasieekonom, Hylte
+C|90630|48|K|Åsa Engberg|48, förskollärare, Hylte
+C|90631|48|M|Fredrik Engberg|48, logistiksupport, Hylte
+C|90632|45|K|Agneta Johansson|45, förskollärare, Hylte
+C|90633|72|K|Ingegerd Torhall|72, distriktssköterska, Hylte
+C|90634|66|M|Lars Johansson|Företagare, Kinnared
+C|90635|63|K|Maria Mattsson Linde|Gymnasielärare, Torup
+C|90636|77|M|Stigert Winterqvist|F.d. företagare, Hyltebruk
+C|131359|52|K|Lisa Rimestad|52 år, statsvetare, Hyltebruk
+C|131360|56|M|Thomas Magnusson|56 år, företagare, Hästhult
+C|131361|62|K|Elisabeth Falkhaven|62, projektledare, Hylte
+C|161590|69|M|Bo Gunnar Åkesson|69 år, Kyrkoherde, Hyltebruk
+C|161591|52|M|Rolf Näslund|52 år, Försäljningsansvarig, Torup
+C|161592|63|M|Christer Johansson|63 år, Fritidschef, Torup
+C|161593|52|K|Nina Regnér|52 år, Pedagog, Långaryd
+C|161594|74|K|Désirée Hultberg|74 år, Pensionär, Torup
+C|161595|70|M|Bo Larsson|70 år, Billackerare, Nissaryd
+C|161596|45|M|Calle Larsson|45 år, Skogsinköpare, Kinnared
+C|161597|23|K|Rebecca Bäckman|23 år, Militär, Långaryd
+C|394632|56|M|Anders Bertilsson|
+C|394633|71|K|Sylvia Sjöö|
+C|39810|35|K|Stina Isaksson|35 år, Studerar statsvetenskap, Rydö
+C|39811|48|K|Monica Grönroos|undersköterska, 48 år, Hylte
+C|39812|42|M|Thomas Johansson|sågverksoperatör, 42 år, Hylte
+C|39813|63|K|Kerstin Alexén|63 år, Företagare, Hylte
+C|39814|66|M|Lars Svensson|66 år, Pensionär, Kinnared
+C|39815|62|K|Ewa Gunnarsson|62 år, Pensionär, Långaryd
+C|39816|64|M|Johnny Winther|matdistributör, 64 år, Hylte
+C|39817|48|M|Mihaly Thorman|48 år, Chaufför, Hylte
+C|39818|39|M|Martin Isaksson|39 år, Industriarbetare, Torup
+C|39819|67|M|Bo Brandt Nielsen|67 år, Byggnadsarbetare, Torup
+C|39820|50|M|Jens Bäckman|50 år, Servicetekniker, Långaryd
+C|39821|55|M|Anders Nyvelius|55 år, Chaufför, Brännögård
+C|39822|27|M|Bjarne Gunnarsson|27 år, Praktik, Långaryd
+C|39823|37|K|Malin Hedenberg|37 år, Egenföretagare, Kinnared
+C|13317|44|K|Lisa Mogren|socialsekreterare, 44 år, Rydöbruk
+C|13332|68|M|Bo Wahlén|fotograf, 68 år, Torup
+C|13330|31|K|Julia Kabell|frilansande illustratör, 32 år, Unnaryd
+C|13446|52|M|Jonny Wester|musiker/musiklärare, 52 år, Torup
+C|14288|28|K|Åsa Söderberg|studerande, Unnaryd
+C|14289|75|M|Claes-Göran Östlund|lärare, Kinnared
+C|13438|65|K|Svetlana Svensson|blivande pensionär, 64 år, Hyltebruk
+C|232814|32|M|Gustav Ivarsson|lärare, Lilla Rönnskog
+C|265115|41|M|Hisham Albarghash|tolk, Rydöbruk
+C|14291|66|M|Per-Åke Eriksson|pensionär, Torup
+C|58403|42|K|Antonia Liess|universitetslektor i miljövetenskap, 42 år, Rydöbruk
+C|14292|27|K|Turid Brodin|biolog, Bäck
+C|232818|54|M|Wolfgang Dreyer-Suhr|ingenjör och kulturarbetare, Piggebo Gröneslätt
+C|232819|27|M|Jonathan Kabell|musiker, Unnaryd
+C|232820|36|K|Evelina Håkansson|konstnär, Sävsås
+C|232821|37|M|Petter Eriksson|musiker/producent, Unnaryd
+C|14293|52|M|Esmail Hashem|civilingenjör, Unnaryd
+C|14294|44|M|Daniel Lif|personlig assistent, Hyltebruk

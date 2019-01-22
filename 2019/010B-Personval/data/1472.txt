@@ -1,8 +1,168 @@
-2|42338|42339|42340|42341|42342|42343|42344|42345|42346|42347|42348|42349|42350|42351|42352|42353|42354|42355|42356|42357|42358|42359|42360|42361|42362|42363|42364|42365|42366|42367|42368|42369|42370|42371|42372|42373|42374|42375|42376|42377|42378|42379|42380|42381|42382|42383|42384
-4|3228|20884|3207|20886|20887|20888|20889|20890|20891|20892|3233|20894|20895|20896|20897|20898|20899|20900|20901|20902
-68|274603|274610|274614|274604|275054|275055|275056|275057|275058|275059|275060|275061|275062|275063|275064|275065|275066|275067
-3|17512|17513|17514|17515|17516|17517|17518|19902|17519|17520|17521|17522|17523|17524|17525|17526|17527|17528|17529|17530|17531|17532
-55|515376
-1|255936|255937|254341|255939|255940|255941|255942|255943|255944|253997|255946|255947|255948|255949|255950|255951
-110|66304|66305|66306|66307|66308|66309|66310|66311|66312|161531|66313|66314|161534|161535|161536|218428|266712|266713|488293|488294
-5|41666|41667|41668|41669|41670|41671|41672
+T|Tibro
+A|2|42338|42339|42340|42341|42342|42343|42344|42345|42346|42347|42348|42349|42350|42351|42352|42353|42354|42355|42356|42357|42358|42359|42360|42361|42362|42363|42364|42365|42366|42367|42368|42369|42370|42371|42372|42373|42374|42375|42376|42377|42378|42379|42380|42381|42382|42383|42384
+A|4|3228|20884|3207|20886|20887|20888|20889|20890|20891|20892|3233|20894|20895|20896|20897|20898|20899|20900|20901|20902
+A|68|274603|274610|274614|274604|275054|275055|275056|275057|275058|275059|275060|275061|275062|275063|275064|275065|275066|275067
+A|3|17512|17513|17514|17515|17516|17517|17518|19902|17519|17520|17521|17522|17523|17524|17525|17526|17527|17528|17529|17530|17531|17532
+A|55|515376
+A|1|255936|255937|254341|255939|255940|255941|255942|255943|255944|253997|255946|255947|255948|255949|255950|255951
+A|110|66304|66305|66306|66307|66308|66309|66310|66311|66312|161531|66313|66314|161534|161535|161536|218428|266712|266713|488293|488294
+A|5|41666|41667|41668|41669|41670|41671|41672
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|42338|65|M|Rolf Eriksson|65 år, Tibro
+C|42339|57|K|Anne-Marie Wahlström|57 år, Tibro
+C|42340|33|M|Rasmus Hägg|33 år, Resurspedagog
+C|42341|39|K|Lina Dahm|39 år, Förvaltningsassistent
+C|42342|32|M|Jan Hanna|32 år, Tibro
+C|42343|70|M|Bengt Ferm|69 år, F.d. Fastighetsförvaltare
+C|42344|59|K|Susanne Johansson|59 år, F.d. Industriarbetare
+C|42345|55|M|Jörgen Strende|55 år, Tibro
+C|42346|70|K|Gunnel Johansson|70 år, F.d. Undersköterska
+C|42347|57|M|Thomas Carlsson|57 år, Träarbetare
+C|42348|44|K|Ingela Lager|43 år, Industriarbetare
+C|42349|27|M|Christoffer Johansson|27 år, Tibro
+C|42350|56|K|Maria Sundqvist|56 år, Egenföretagare
+C|42351|73|M|Hans Dahm|73 år, F.d. Ombudsman
+C|42352|36|K|Améle Jaiem|37 år, Socialsekreterare
+C|42353|58|M|Mats Folcker|58 år, Kock
+C|42354|55|K|Christina Granath Friberg|55 år, Undersköterska
+C|42355|41|M|Andreas Rännare|41 år, Mekaniker
+C|42356|65|K|Lena-Karin Zander|65 år, Skötare
+C|42357|38|M|Fredrik Wahlberg|38 år, Socialarbetare
+C|42358|23|K|Zenab Altawil|23 år, Studerande
+C|42359|65|M|Roger Magnusson|65 år, Idrottskanslist
+C|42360|54|K|Liselott Nydén|54 år, Stödassistent
+C|42361|59|M|Leif Sundqvist|59 år, Metallarbetare
+C|42362|66|K|Erlinda Andersson|66 år, F.d. Fabriksarbetare
+C|42363|51|M|Per Fridehäll|51 år, Väktare
+C|42364|38|K|Pernilla Hagstedt|38 år, Undersköterska
+C|42365|36|M|Mohamad Eiad Al Horani|37 år, Apotekare
+C|42366|54|K|Mahira Delalic|54 år, Undersköterska
+C|42367|50|M|Anders Hallgren|40 år, Lastbilschaufför
+C|42368|51|K|Marita Jalonen|51 år, Myndighetshandläggare
+C|42369|71|M|Gunnar Hägg|71 år, F.d. Träindustriarbetare
+C|42370|56|K|Eva Ivarsson|56 år, Undersköterska
+C|42371|58|M|Mikael Johansson|58 år, Bussförare
+C|42372|69|K|Agneta Dahm|69 år F.d. Lågstadielärare
+C|42373|62|M|Jan Holm|62 år, Mekaniker
+C|42374|55|M|Mikael Krantz|55 år, Fabriksarbetare
+C|42375|59|M|Göran Kornestedt|59 år, Kommunikatör
+C|42376|63|K|Anita Eriksson|63 år, Rektor
+C|42377|61|M|Daniel Vieira|61 år, Industriarbetare
+C|42378|59|K|Carina Holm|59 år, Arbetsledare
+C|42379|42|M|Rami Lubbad|42 år, Kock
+C|42380|22|M|Marcus Kjellberg|22 år, Arbetssökande
+C|42381|68|M|Bengt Andersson|68 år, F.d. Metallarbetare
+C|42382|69|K|Eva-Maj Johansson|69 år, F.d. Lokalvårdare
+C|42383|74|M|Leif Olin|74 år, F.d. Skolchef
+C|42384|25|M|Nils Broman|25 år, Butiksbiträde
+C|3228|42|K|Anna-Karin Johansson|Handlare, Tibro, 42 år
+C|20884|43|M|Stefan Grad|43år,Dräng,Gravafors skola
+C|3207|41|M|Micael Algotsson|Stf.avdelningschef, Tibro, 41 år
+C|20886|49|K|Carola Sundvall|49 år,Socionom,Kronkvarn
+C|20887|67|K|Irene Söderberg|67 år,Pensionär,Kyrkogatan
+C|20888|55|M|Thomas Henrysson|55 år,Lantbrukare,Friggesby Gård
+C|20889|35|K|Hanna Ward|35 år,Lärare,Grönhult Sofiero
+C|20890|35|M|Kenneth Gradh|35 år,ArbetsledareKårtorp Haga
+C|20891|50|M|Mattias Johansson|50 år,Lantbrukare,Flottebo
+C|20892|22|K|Linnéa Broman|22 år,Undersköterska,Kvarnvägen
+C|3233|55|M|Jan Henningsson|Administrativ chef, Tibro, 57 år
+C|20894|61|M|Staffan Gustafsson|61år,Församlingspedagog,Häggetorps Allé
+C|20895|44|K|Maria Hammar|44 år,Fastighetsmäklare,Grönhult
+C|20896|61|M|Ingemar Löf|61 år,Brevbärare,Ådalsvägen
+C|20897|61|M|Håkan Gustafsson|61 år,Lantbrukare,Blankås
+C|20898|57|K|Birgitta Ivarsson|57 år,Elevassistent,Aprilgatan
+C|20899|71|K|Kerstin Sjöhem|71 år,Pensionär,Lyckebo Sånna
+C|20900|46|K|Cecilia Axelsson|46 år,Affärsutvecklare,Fröstorp
+C|20901|72|K|Birgitta Petersson|72 år,Pensionär,Allégatan
+C|20902|58|M|Uno Karlén|58 år,Chaufför,Gravafors Tidafors
+C|274603|39|K|Maria Maric|39, Statsvetare, Tibro
+C|274610|59|M|Kjell-Åke Johanson|59, Stödassistent, Tibro
+C|274614|59|M|Jan Lundqvist|59, Produktionstekniker, Tibro
+C|274604|59|M|Peter Eclund|58, Säljare, Tibro
+C|275054|52|K|Mouna Eskandar|52, Egenföretagare
+C|275055|69|M|Kjell Hultsten|69, Legitimerad läkare
+C|275056|57|K|Annika Eclund|56, Riksdagsledamot, lärare, Tibro
+C|275057|55|K|Annika Singleton|55, Lärare
+C|275058|40|M|Ninos Adam|40, Entreprenör
+C|275059|56|K|Anna Ohlsson|55, Bibliotekarie
+C|275060|53|M|Toma Kanoun|53, Präst
+C|275061|56|K|Lillemor Johanson|55, Medicinsk fotterapeut
+C|275062|71|M|Orvar Andersson|70, Elingenjör
+C|275063|70|K|Barbro Lund|70, Diakon
+C|275064|65|M|Anders Larsson|64, Kyrkogårdsföreståndare
+C|275065|64|K|Marianne Forsberg|64, SFI-lärare
+C|275066|55|K|Lena Andersson|54, Barnskötare
+C|275067|59|K|Reidun Karlsson|59, Familjepedagog
+C|17512|38|K|Alda Danial|38 Tibro
+C|17513|56|M|Peter Söderlund|56,Tibro
+C|17514|58|K|Ann Ohlsson|Frejgatan
+C|17515|37|M|Andreas Dahlborg|Möllersgatan
+C|17516|32|K|Hannah Karlsson|Tistelgatan
+C|17517|68|M|Claes Jägevall|68 Tibro
+C|17518|47|K|Lena Åberg|Ranestigen
+C|19902|42|M|Torbjörn Andersson|Gärdesvägen
+C|17519|68|K|Ewa Jägevall|Bergmans gata
+C|17520|50|M|Leonard Sabiyumva|Södra Långgatan
+C|17521|75|K|Siw Malmsten|Stigstaholmsvägen
+C|17522|61|M|Inge Fransson|Ågatan
+C|17523|75|K|Inger Strand|Marsgatan
+C|17524|68|M|Ingemar Ryefalk|Rosenbergsgatan
+C|17525|77|K|Agneta Leffler Larsson|Östra Långgatan
+C|17526|67|M|Claes-Gunnar Almestål|Bergmans gata
+C|17527|69|K|Anna-Britt Uhrbom|Rosenbergsgatan
+C|17528|26|M|Trolle Söderlund|Anderstorp/Rosenholm
+C|17529|80|K|Margareta Holmberg|Fredsgatan
+C|17530|77|M|Janeric Dahlin|Marsgatan
+C|17531|79|K|Laila Gröhn|Storgatan
+C|17532|31|M|Dani Betyo|Skövdevägen
+C|515376|51|M|Lars Dahlqvist|Tibro
+C|255936|61|M|Per-Olof Andersson|
+C|255937|65|K|Ann Britt Danielsson|
+C|254341|52|M|Mikael Faleke|52, Projektledare, Tibro
+C|255939|68|M|Per-Olof Qvick|
+C|255940|25|M|Hampus Borg|
+C|255941|75|K|Bodil Olsson|
+C|255942|48|M|Mathias Kyller|
+C|255943|67|K|Marie Louise von Essen|
+C|255944|34|M|Michael Krusell|
+C|253997|68|M|Ronny Wennerström|68, Pensionerad polis, Fagersanna
+C|255946|67|M|Thomas Danielsson|
+C|255947|55|M|Michael Hallgren|
+C|255948|63|M|Peter Larsson|
+C|255949|65|M|Lars Birger Johansson|
+C|255950|72|M|Kenth Wengholm|
+C|255951|77|M|Ove Emanuelsson|
+C|66304|49|K|Åse Nicklasson|Undersköterska, Tibro
+C|66305|60|M|Thomas Morell|Sakkunnig yrkestrafik, Tibro
+C|66306|70|M|Heinz Barath|70, Åkare, Tibro
+C|66307|71|M|Lennart Thunborg|70 år, ingenjör
+C|66308|62|K|Marianne Karlsson|61 år, affärsbiträde
+C|66309|79|M|Per-Olof Lilja|78 år, pensionär
+C|66310|61|K|Eva-Lena Laskay|60 år, undersköterska
+C|66311|43|M|Stefan Eriksson|43 år, avdelningschef
+C|66312|85|M|Stig Svenberg|85 år, pensionär
+C|161531|69|M|Sven Arne Ferm|70 år, pensionär
+C|66313|30|M|Kristoffer By|30, CNC-operatör, Tibro
+C|66314|61|K|Ingegerd Ferm|60 år, undersköterska
+C|161534|52|M|Ulf Lindström|52 år, egen företagare
+C|161535|64|M|Bosse Samuelsson|64 år, chaufför
+C|161536|48|M|Bjarne Grahn|48 år, Kyrkogårdsarbetare
+C|218428|69|M|Åke Sahlén|69 år, chaufför
+C|266712|55|M|Stefan Larsson|55 år, egenföretagare
+C|266713|56|K|Ing-Mari Barath|56 år, egenföretagare
+C|488293|71|K|Irena Gustafsson|71 år, pensionär
+C|488294|47|K|Mary Thunborg|47 år, undersköterska
+C|41666|39|M|Martin Toresson|Arkeolog 39 år.
+C|41667|47|K|Eva Hallberg|Arbetsledare, personlig assistent 47 år.
+C|41668|31|M|Christopher Fridehäll|Fabriksarbetare 31 år.
+C|41669|36|K|Maria Flygare|Socialpsykolog 36 år.
+C|41670|25|M|John Johansson|Diversearbetare 25 år.
+C|41671|69|K|Ingalill Edström Edman|Pensionär 69 år.
+C|41672|60|M|Anders Loft|Fastighetsskötare 60 år.

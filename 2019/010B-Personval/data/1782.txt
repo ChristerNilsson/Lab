@@ -1,8 +1,118 @@
-2|73827|75367|201010|201065|74766|201067|201068|22202|201132|201133|201134|201303|201304|201305|76152|201490|201491|201492|201493|201943|201946|201945|201948|201947|201950|201949|201952|201951|202425|202741|202742|202743|202744|202925|202926|202927
-4|27548|27549|27550|27551|27552|27553|27554
-68|381183|381184|381185|381186
-3|62051|28205|62053|212999|213000|213001|213002|213003
-55|414454|414455
-1|37692|653|37694|610|634|37697|37698|37699|37700|37701|37702|37703|37704|664|37706|37707|37708|37709|37710|37711
-110|95597|95598|95599|95600|95601|95602|95603|95604|95605|95606|95607|253267|514133
-5|30298|109856|109857|109858|109859|109860|109861|109862|109863|109864|109865
+T|Filipstad
+A|2|73827|75367|201010|201065|74766|201067|201068|22202|201132|201133|201134|201303|201304|201305|76152|201490|201491|201492|201493|201943|201946|201945|201948|201947|201950|201949|201952|201951|202425|202741|202742|202743|202744|202925|202926|202927
+A|4|27548|27549|27550|27551|27552|27553|27554
+A|68|381183|381184|381185|381186
+A|3|62051|28205|62053|212999|213000|213001|213002|213003
+A|55|414454|414455
+A|1|37692|653|37694|610|634|37697|37698|37699|37700|37701|37702|37703|37704|664|37706|37707|37708|37709|37710|37711
+A|110|95597|95598|95599|95600|95601|95602|95603|95604|95605|95606|95607|253267|514133
+A|5|30298|109856|109857|109858|109859|109860|109861|109862|109863|109864|109865
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|73827|60|M|Per Gruvberger|60 år, Filipstad
+C|75367|58|K|Marina Isaksson|57 år, Filipstad
+C|201010|63|M|Torbjörn Parling|Filipstad
+C|201065|66|K|Britt-Marie Wall|Nykroppa
+C|74766|26|M|Jomark Polintan|26 år, Filipstad
+C|201067|70|K|Heléne Larsson Saikoff|Brattfors
+C|201068|44|M|Henric Forsberg|Filipstad
+C|22202|48|K|Åsa Hååkman Felth|48 år, Filipstad
+C|201132|67|M|Olle Engström|Filipstad
+C|201133|62|K|Ann-Marie Rosö|Horrsjön
+C|201134|66|M|Claes-Eric Ericsson|Horrsjön
+C|201303|33|K|Rima Shams Al-Deen|Filipstad
+C|201304|73|M|Torgeir Pettersen|Filipstad
+C|201305|51|K|Louise Eriksson|Filipstad
+C|76152|64|M|Mats Thunér|64 år, Filipstad
+C|201490|69|K|Lillvor Eriksson|Filipstad
+C|201491|35|M|Johan Larsson|Filipstad
+C|201492|22|K|Stefanie Maultasch|Filipstad
+C|201493|53|M|Stefan Andersson|Lesjöfors
+C|201943|63|K|Kerstin Svensson|Lesjöfors
+C|201946|77|M|Sune Frisk|Nykroppa
+C|201945|66|K|Monika Samuelsson|Prästbacken
+C|201948|57|M|Håkan Engström|Lesjöfors
+C|201947|75|K|Iréne Frisk|Nykroppa
+C|201950|73|M|Per-Åke Sandberg|Lesjöfors
+C|201949|19|K|Elisabeth Maultasch|Nordmarkshyttan
+C|201952|77|M|Paul Andersson|Lesjöfors
+C|201951|31|K|Yasmin Adam Isaaq|Filipstad
+C|202425|18|M|Mahdi Mohammadi|Filipstad
+C|202741|68|K|Britta Wikström|Nykroppa
+C|202742|70|M|Bertil Nilsson|Lesjöfors
+C|202743|58|K|Birgitta Geijer|Filipstad
+C|202744|18|M|Qeyam Amini|Filipstad
+C|202925|71|K|Britta Lundbäck|Nykroppa
+C|202926|56|M|Urban Granfeldt|Filipstad
+C|202927|37|K|Lena Andersson Dahlberg|Lesjöfors
+C|27548|69|M|Nils-Erik Mellström|69 år, Filipstad
+C|27549|55|M|Peter Johansson|55 år, Filipstad
+C|27550|68|K|Monica Mellström|68 år, Filipstad
+C|27551|67|M|Eilert Eriksson|67 år, Brattfors
+C|27552|33|M|Andreas Kårén|33 år, Gåsborn
+C|27553|72|K|Gudrun Henriksson|73 år, Brattfors
+C|27554|74|M|Rolf Christoffersson|74 år, Långban
+C|381183|66|M|Göran Andersson|
+C|381184|47|M|Peter Nylund|
+C|381185|66|M|Karl-Erik Brobäck|
+C|381186|67|M|Ulf Hedman|
+C|62051|54|M|Michael Helmersson|Brattfors
+C|28205|71|K|Ulla Olsson|byggnadsingenjör, 71 år, Filipstad
+C|62053|78|K|Simone Hullström|Nykroppa
+C|212999|52|M|Göran Helmersson|Brattfors
+C|213000|70|K|Ebba Jonegård-Berggren|Filipstad
+C|213001|80|K|Ingegerd Lindström|Filipstad
+C|213002|71|K|Inger Abrahamsson Edwertz|Filipstad
+C|213003|93|M|Bengt Olsson|Filipstad
+C|414454|69|M|Alfred Maultasch|energiomställningskonsult, Nordmarkshyttan
+C|414455|73|K|Kerstin Chrunak|kyrkomusiker, Nykroppa
+C|37692|60|M|Christer Olsson|Leg. Sjuksköterska, Filipstad
+C|653|74|M|Ulf Söhrman|civilingenjör/pensionär, Filipstad
+C|37694|42|K|Lotta Jonsson|Styrkeledare, Filipstad
+C|610|45|M|Marcos Ciscar|musikproducent, Filipstad
+C|634|50|M|Patrik Fornander|egenföretagare, Filipstad
+C|37697|19|M|Filip Dahlöv|Elevassistent, Filipstad
+C|37698|30|K|Sofie Svensson|Undersköterska, Nordmarkshyttan
+C|37699|65|K|Lena Olsson|Leg. Sjuksköterska, Filipstad
+C|37700|59|M|Mark Morén|Säljare, Nykroppa
+C|37701|77|M|Ottfried Eickenrodt|Ekonom, Lesjöfors
+C|37702|74|K|Christina Söhrman|Fd. Lärare, Filipstad
+C|37703|31|K|Frida Olsson|Undersköterska, Filipstad
+C|37704|53|M|Per Hero|Fastighetsskötare, Filipstad
+C|664|67|K|Eva Närva Eickenrodt|ekonom, Filipstad
+C|37706|73|M|Håkan Eriksson|Affärsområdeschef, Paradis
+C|37707|37|K|Lina Eriksson|Assistent, Filipstad
+C|37708|50|K|Camilla Nyqvist|Handledare, Filipstad
+C|37709|32|K|Caroline Lundberg|Undersköterska, Filipstad
+C|37710|66|M|Jerry Rothin|Egen företagare, Filipstad
+C|37711|66|M|Kurt Göran Hellblom|
+C|95597|61|M|Urban Pettersson|Civilingenjör, Filipstad
+C|95598|40|K|Helena Halvarsson|40, Industriarbetare, Lesjöfors
+C|95599|47|M|Johnny Grahn|47, Busschafför/Personlig assistent, Filipstad
+C|95600|65|K|Eva Eriksson|65, Undersköterska, Filipstad
+C|95601|63|M|Tord Johansson|63, Resemontör, Filipstad
+C|95602|44|M|Roger Göransson|44, Grävmaskinist, Filipstad
+C|95603|25|K|Ida Petersson|25, Studerande, Filipstad
+C|95604|72|M|Börje Andersson|72, Pensionär, Filipstad
+C|95605|46|K|Helena Örbom|46, Hemtjänst/Stödperson, Filipstad
+C|95606|72|M|Kenneth Rydén|72, Gruvnörd, Nykroppa
+C|95607|30|M|Robert Spector|30, Studerande, Filipstad
+C|253267|37|M|Corey Andersson|37, Undersköterska/Studerande, Filipstad
+C|514133|52|K|Catarina Jansson|
+C|30298|57|M|Anders Nilsson|57 år, Nykroppa, behandlingsassistent
+C|109856|58|K|Christel Iversen|Nordmarkshyttan, personligt ombud, 58 år
+C|109857|67|M|Percy Bok Fallgren|Persberg, pensionär, 67 år
+C|109858|65|K|Karin Löfstrand|Nykroppa, arbetande pensionär, 65 år
+C|109859|32|M|Robin Hedlund|Filipstad, maskinoperatör, 32 år
+C|109860|26|K|Ayla Iversen|Filipstad, student, 25 år
+C|109861|63|K|Helena Viitakangas|Lesjöfors, pensionär, 63 år
+C|109862|52|M|Anders Andersson|Lesjöfors, ombudsman, 53 år
+C|109863|61|K|Anne-Marie Nilsson|Nykroppa, undersköterska, 62 år
+C|109864|36|M|Håkan Stange|Filipstad, CNC-operatör, 36 år
+C|109865|70|M|Jens Buskas|Nordmarkshyttan, pensionär, 70 år

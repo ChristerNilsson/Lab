@@ -1,7 +1,108 @@
-2|6521|6522|6523|6524|6525|6526|6527|6528|6529|6530|6531|6532|6533|6534|6535|6536|6537|6538|6539|6540|6541|6542|6543|6544|6545|6546|6547|6548|6549
-4|343505|343506|343507|343508|343509|343510|343511|343512|343513|461922|343515|343516|343517|343518|343519|343520|343521|343522
-3|210365|222132|222133|222134|222135|222136|222137|222138|222139|222140
-55|494494|494495|494496|494497|494498
-1|213595|42996|213597|213598|213599|213600|213601|213602|213603
-110|121650|121651|119436
-5|149158|149159|149425|149426|149427|149428|149429|149430|149431|149432|149160|149665|149666|149667|149668|149785|149786|149923|149924
+T|Överkalix
+A|2|6521|6522|6523|6524|6525|6526|6527|6528|6529|6530|6531|6532|6533|6534|6535|6536|6537|6538|6539|6540|6541|6542|6543|6544|6545|6546|6547|6548|6549
+A|4|343505|343506|343507|343508|343509|343510|343511|343512|343513|461922|343515|343516|343517|343518|343519|343520|343521|343522
+A|3|210365|222132|222133|222134|222135|222136|222137|222138|222139|222140
+A|55|494494|494495|494496|494497|494498
+A|1|213595|42996|213597|213598|213599|213600|213601|213602|213603
+A|110|121650|121651|119436
+A|5|149158|149159|149425|149426|149427|149428|149429|149430|149431|149432|149160|149665|149666|149667|149668|149785|149786|149923|149924
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|6521|61|K|Anne Jakobsson|61 år, Jockfall
+C|6522|66|M|Leif Nilsson|66 år, Svartbyn
+C|6523|54|K|Kristina Åhl|54 år, Svartbyn
+C|6524|67|M|Bengt-Erik Rolfs|67 år, Överkalix
+C|6525|52|K|Susanna Karlsson|52 år, Nybyn
+C|6526|53|M|Niclas Hökfors|52 år, Tallvik
+C|6527|38|K|Maria Listerman Nilsson|38 år, Grelsbyn
+C|6528|22|K|Charlie Hansson Rojas|21 år, Svartbyn
+C|6529|56|K|Sara Söderberg|56 år, Kangis
+C|6530|28|M|Robert Larsson|28 år, Hedensbyn
+C|6531|65|K|Tea Pahikka-Aho|65 år, Storbäcken
+C|6532|69|M|Lennart Holm|69 år, Överkalix
+C|6533|57|K|Birgitta Persson|Överkalix, 57 år
+C|6534|46|M|Leif Johansson|45 år, Svartbyn
+C|6535|40|K|Veronica Andersson|39 år, Furunäs
+C|6536|57|M|Cenneth Pettersson|57 år, Nybyn
+C|6537|51|K|Carina Tornberg|51 år, Kangis
+C|6538|54|M|Robert Karlsson|54 år, Nybyn
+C|6539|26|K|Camilla Ek|26 år, Nybyn
+C|6540|58|M|Dan-Christer Nilsson|58 år, Svartbyn
+C|6541|58|K|Maria Edfast|58 år, Bränna
+C|6542|72|M|Otto Larsson|72 år, Grelsbyn
+C|6543|36|K|Caroline Sjödin|36 år, V:a Rödupp
+C|6544|62|K|Anette Landin-Hansson|62 år, Hultet
+C|6545|30|K|Helena Henriksson|30 år, Kälvudden
+C|6546|72|M|Ove Enhult|72 år, Hedensbyn
+C|6547|75|K|Berith Drugge|75 år, Tvärån
+C|6548|65|K|Karin Åström|65 år, Grelsbyn
+C|6549|50|K|Ann-Louise Larsson|50 år, Hedensbyn
+C|343505|37|K|Sarah Karlsson|Kommunalråd, Överkalix
+C|343506|60|M|Per-Erik Olofsson|Brännaberget
+C|343507|61|K|Christina Hjelm|Kypasjärvi
+C|343508|64|M|Gunnar Liljebäck|Stråkan
+C|343509|64|M|Håkan Andersson|Allsån
+C|343510|33|K|Anna Henriksson Hjelm|Svartbyn
+C|343511|52|M|Peter Modig|Gyljen
+C|343512|66|M|Bertil Larsson|Allsån
+C|343513|31|M|Stefan Granlund|Kypasjärvi
+C|461922|70|K|Kristina Isaksson|Bränna
+C|343515|42|M|Lars Jönsson|Svartbyn
+C|343516|30|K|Jessica Malmgren|Nybyn
+C|343517|45|M|Jonas Persson|Hultet
+C|343518|57|K|Silvana Leverone|Brännaberget
+C|343519|66|M|Sture Persson|Boheden
+C|343520|56|M|Roger Nilsson|Nybyn
+C|343521|61|M|Leif Nilsson|Bredseludden
+C|343522|70|M|Georg Hjelm|Kypasjärvi
+C|210365|49|K|Mariana Olausson|Student/lagerarbetare, Överkalix
+C|222132|56|M|Göran Larsson|Datatekniker, Allsån
+C|222133|64|K|Monica Eliasson|Verksamhetsutvecklare, Kangis
+C|222134|57|M|Thomas Nilsson|Utbildare, Rödupp
+C|222135|29|K|Amanda Nilsson|Hundnörd, Rödupp
+C|222136|64|M|Hans Forsman|Pensionär, Nybyn
+C|222137|53|K|Ulrika Nilsson|Undersköterska, Rödupp
+C|222138|39|K|Marie Karlsson|Reseadministratör, Tallvik
+C|222139|65|K|Maria Maudsdotter|Företagare, Tallvik
+C|222140|62|K|Inga-Britt Grenstrand|Leg. Sjuksköterska, Kangis
+C|494494|43|M|Hussein Seifour|företagare
+C|494495|32|M|Dan Andersson|lärarvikarie/elevassistent
+C|494496|25|K|Erika Rönnlund|studerande
+C|494497|74|M|Kennerth Moberg|pensionär/revisor
+C|494498|69|M|Hans Lönnelid|pensionär/lärare
+C|213595|59|M|Peter Larsson|Vårdbiträde
+C|42996|39|K|Karin Forsman|39 år, Utvecklingsledare, Överkalix
+C|213597|57|M|Matz Flink|Företagare
+C|213598|44|K|Malin Nyberg|Gymnasielärare, egen företagare
+C|213599|59|K|Maria Nilsson|Undersköterska
+C|213600|55|K|Susanne Grape|Undersköterska
+C|213601|59|M|Jan-Erik Larsson|Mekaniker
+C|213602|64|M|Leif Grape|Pensionär
+C|213603|76|M|Yngve Hjerpe|Företagare
+C|121650|67|M|Roland Andersson|pensionär, 67
+C|121651|66|K|Ethel Landström|pensionär, 66
+C|119436|38|K|Marianne Sandström|Advokat, 38, Kalix
+C|149158|48|M|Mikael Larsson|Överkalix
+C|149159|49|K|Kristina Olofsson|Överkalix
+C|149425|66|M|Leif Larsson|66 år, Bränna
+C|149426|42|K|Sofie Hällström|41 år, Notträsk
+C|149427|31|M|Daniel Henriksson|31 år, Nybyn
+C|149428|69|K|Anneli Nilsson|69 år, Tallvik
+C|149429|68|M|Per-Arne Heneryd|69 år, Tallvik
+C|149430|68|K|Eva Persson|67 år, Vännäsberget
+C|149431|72|M|Sven Nordmark|Överkalix
+C|149432|66|K|Marianne Jakobsson|Överkalix
+C|149160|37|M|Dan Hagström|37 år, Gyljen
+C|149665|63|K|Gunilla Nilsson Suikki|63 år, Vislakt
+C|149666|84|M|Ingemar Hagström|83 år, Norra Sandsjärv
+C|149667|72|K|Vivi-Ann Andersson|72 år, Överkalix
+C|149668|82|M|Gunnar Henriksson|82 år, Norra Sandsjärv
+C|149785|42|K|Lillemor Johansson Larsson|42 år, Lomträsk
+C|149786|69|M|Sivert Jakobsson|68 år, Grelsbyn
+C|149923|71|M|Göte Jakobsson|72 år, Jockfall
+C|149924|45|K|Annica Larsson|45 år, Bränna

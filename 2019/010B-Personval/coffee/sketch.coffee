@@ -30,9 +30,12 @@ VOTES = 5
 kommunkod = null
 länskod = null
 
-tree = {}
+dbName     = {} # T Områdesnamn
+dbTree     = {} # A
+dbPartier  = {} # B 
+dbPersoner = {} # C
 
-dictionary = {} 
+#dictionary = {} 
 	# S -> Socialdemokraterna
 	# 01 -> Stockholms läns landsting
 	# 0180 -> Stockholm
@@ -88,13 +91,13 @@ class PartiPage extends Page
 			push()
 			textAlign CENTER,CENTER
 			textSize 20 # 0.5 * pages.personer.h/17
-			s = "#{dictionary[@selected.title][0]} (#{pages.personer.buttons.length} av #{_.size pages.personer.personer})"
+			s = "#{@selected.title} (#{pages.personer.buttons.length} av #{_.size pages.personer.personer})"
 			text s, pages.personer.x + pages.personer.w/2, pages.personer.y + pages.personer.h/34
 			pop()
 
-	select : (partier) ->
+	select : (rkl,partier) ->
 		N = 16
-		w = @w/2
+		w = @w #/2
 		h = @h/(N+1)
 		keys = _.keys partier
 		keys.sort (a,b) -> _.size(partier[b]) - _.size(partier[a])
@@ -105,32 +108,33 @@ class PartiPage extends Page
 		pages.personer.clear()
 
 		for key,i in keys
+			if i>=N then continue
 			x = @x + w*(i//N)
 			y = @y + h*(1+i%N)
-			do (key) => @addButton new PartiButton key,x,y,w-2,h-2, -> 
+			do (key) => @addButton new PartiButton rkl,key,x,y,w-2,h-2, -> 
 				@page.selected = @
 				if PERSONS_PER_PAGE < _.size partier[key]
-					pages.letters.makeLetters @, partier[key]
+					pages.letters.makeLetters rkl, @, partier[key]
 					pages.personer.buttons = []
 				else
 					pages.letters.buttons = []
-					pages.personer.makePersons @, partier[key]
+					pages.personer.makePersons rkl, @, partier[key]
 				pages.typ.clickPartiButton @	
 				pages.personer.personer = partier[key]			
 
 class LetterPage extends Page
 	render : ->
 
-	makeFreq : (personer) ->
+	makeFreq : (rkl,personer) -> # personer är en lista
 		res = {}
-		keys = (person[NAMN] for key,person of personer)
-		keys.sort()
-		for key in keys
-			letter = key[0]
+		names = (dbPersoner[rkl][key][2] for key in personer)
+		names.sort()
+		for name in names
+			letter = name[0]
 			res[letter] = if res[letter] == undefined then 1 else res[letter] + 1
 		res
 
-	makeLetters : (button, personer) ->
+	makeLetters : (rkl, button, personer) ->
 		N = 16
 		h = @h/(N+1)
 		w = @w/2
@@ -138,33 +142,35 @@ class LetterPage extends Page
 		@buttons = []
 
 		i = 0
-		for letters,n of gruppera @makeFreq personer
+		for letters,n of gruppera @makeFreq rkl,personer
 			x = @x + w*(i//N)
 			y = @y + h*(1+i%N)
 			title = if letters.length == 1 then letters else "#{letters[0]}-#{_.last letters}"
 			do (letters,title) => @addButton new LetterButton title,x,y,w-2,h-2,n, -> 
 				@page.selected = @
-				pages.personer.clickLetterButton @, letters, personer
+				pages.personer.clickLetterButton rkl, @, letters, personer
 			i++
 
 class PersonPage extends Page
 
 	render : ->
 
-	clickLetterButton : (button,letters,personer) ->
-		@personer = personer
+	clickLetterButton : (rkl,button,letters,knrs) ->
+		@personer = knrs
 		N = PERSONS_PER_PAGE
 		w = 0.36 * width
 		h = height/(PERSONS_PER_PAGE+2)
 		@selected = button
 		button.pageNo = (button.pageNo + 1) % button.pages
 		@buttons = []
-		keys = _.keys personer 
-		keys.sort (a,b) -> if a.slice(a.indexOf('-')) < b.slice(b.indexOf('-')) then -1 else 1
+		#knrs = _.keys personer 
+		#keys.sort (a,b) -> if a.slice(a.indexOf('-')) < b.slice(b.indexOf('-')) then -1 else 1
+		knrs.sort (a,b) -> if dbPersoner[rkl][a][2] < dbPersoner[rkl][b][2] then -1 else 1
 		j = 0
-		for key in keys
-			person = personer[key]
-			if person[NAMN][0] in letters
+		for knr in knrs
+			#person = personer[key]
+			person = dbPersoner[rkl][knr]
+			if person[2][0] in letters
 				if j // N == button.pageNo
 					x = j//(N//2) * w/2
 					x = x % w
@@ -174,18 +180,17 @@ class PersonPage extends Page
 						pages.typ.clickPersonButton person
 				j++
 
-	makePersons : (button, personer) ->
-		@personer = personer
+	makePersons : (rkl, button, knrs) -> # personer är en lista med knr
+		@personer = knrs
 		N = 16
 		w = 0.36 * width 
 		h = height/(PERSONS_PER_PAGE+2)
 		@selected = button 
 		@buttons = []
 
-		keys = _.keys personer
-		keys.sort (a,b) -> if a.slice(a.indexOf('-')) < b.slice(b.indexOf('-')) then -1 else 1
-		for key,j in keys
-			person = personer[key]
+		knrs.sort (a,b) -> if dbPersoner[rkl][a][2] < dbPersoner[rkl][b][2] then -1 else 1
+		for knr,j in knrs
+			person = dbPersoner[rkl][knr]
 			x = j//N * w/2
 			x = x % w
 			y = 2*h*(1 + j%N)
@@ -206,19 +211,19 @@ class TypPage extends Page
 
 		@selectedPersons = {R:[], L:[], K:[]}
 
-		@addButton new TypButton 'R', 'Riksdag',             @x,@yoff[0],@w-0,3*h-3, -> 
-			pages.partier.select tree['R']
+		@addButton new TypButton 'R', 'Riksdag',@x,@yoff[0],@w-0,3*h-3, -> 
+			pages.partier.select 'R',dbTree.R
 			@page.selected = @
 
-		@addButton new TypButton 'L', dictionary[länskod],   @x,@yoff[1],@w-0,3*h-3, ->
-			pages.partier.select tree['L']
+		@addButton new TypButton 'L', dbName.L, @x,@yoff[1],@w-0,3*h-3, ->
+			pages.partier.select 'L',dbTree.L
 			@page.selected = @
 
-		@addButton new TypButton 'K', dictionary[kommunkod], @x,@yoff[2],@w-0,3*h-3, ->
-			pages.partier.select tree['K']
+		@addButton new TypButton 'K', dbName.K, @x,@yoff[2],@w-0,3*h-3, ->
+			pages.partier.select 'K',dbTree.K
 			@page.selected = @
 
-		@addButton new Button 'Utskrift',                    @x,@yoff[3],@w/2-2,3*h-3, ->
+		@addButton new Button 'Utskrift',       @x,@yoff[3],@w/2-2,3*h-3, ->
 			pages.utskrift.active = true
 			pages.utskrift.stopMeasuringTime()
 
@@ -268,9 +273,9 @@ class TypPage extends Page
 			textSize 20
 			sc()
 			[x,y] = [pages.partier.x+pages.partier.w/2, pages.partier.y+pages.partier.h/34]
-			if @selected.typ == 'R' then text 'Riksdag',            x,y
-			if @selected.typ == 'L' then text dictionary[länskod],  x,y
-			if @selected.typ == 'K' then text dictionary[kommunkod],x,y
+			if @selected.typ == 'R' then text 'Riksdag',x,y
+			if @selected.typ == 'L' then text dbName.L, x,y
+			if @selected.typ == 'K' then text dbName.K, x,y
 			pop()
 		@showSelectedPersons() # 750,100-20
 
@@ -317,9 +322,9 @@ class TypPage extends Page
 		persons = @selectedPersons[@selected.typ]
 		# Finns partiet redan? I så fall: ersätt denna person med den nya.
 		person = []
-		person[NAMN] = dictionary[button.title][0]
-		person[PARTIKOD] = dictionary[button.title][1]
-		person[PARTIFÖRKORTNING] = button.title
+		person[NAMN] = dbPartier[@selected.typ][button.partikod][0]
+		person[PARTIKOD] = button.partikod # dictionary[button.title][1]
+		person[PARTIFÖRKORTNING] = dbPartier[@selected.typ][button.partikod][0] # button.title
 		person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
 
 		for p,i in persons 
@@ -424,9 +429,9 @@ class UtskriftPage extends Page
 		textAlign LEFT,CENTER
 		bg 1
 		fc 0
-		text 'Riksdag',            10,50+0
-		text dictionary[länskod],  10,50+260
-		text dictionary[kommunkod],10,50+520
+		text 'Riksdag',10,50+0
+		text dbName.L, 10,50+260
+		text dbName.R, 10,50+520
 		#text pages.typ.qr,20,height-310
 		text "#{'crc: ' + @getCRC pages.typ.qr.slice 10} #{'tid: '+@cpu}",20,height-310
 		@showSelectedPersons()
@@ -449,14 +454,20 @@ class Button
 	inside : -> @x < mouseX < @x+@w and @y < mouseY < @y+@h
 
 class PartiButton extends Button 
+	constructor : (@rkl,@partikod,x,y,w,h,click = ->) ->
+		super '', x,y,w,h,click
 	draw : ->
 		fc 0.5
 		rect @x,@y,@w,@h
 		#textSize if @title in 'S C MP L M V SD KD'.split ' ' then 28 else 20
-		textSize @ts
-		textAlign CENTER,CENTER
+		textSize @ts/2
+		textAlign LEFT,CENTER
 		if @page.selected == @ then fc 1,1,0 else fc 1
-		text @title,@x+@w/2,@y+@h/2
+
+		partinamn = dbPartier[@rkl][@partikod][0]
+		if partinamn == '' then partinamn = dbPartier[@rkl][@partikod][1]
+
+		text partinamn,@x,@y+@h/2
 
 class LetterButton extends Button 
 	constructor : (title,x,y,w,h,@antal,click) ->
@@ -484,10 +495,10 @@ class LetterButton extends Button
 class PersonButton extends Button
 	constructor : (person, x,y,w,h,click = ->) ->
 		super person,x,y,w,h,click
-		@title0 = person[NAMN]
-		@title1 = person[VALSEDELSUPPGIFT]
-		if @title1 == '' then @title1 = "#{{M:'Man', K:'Kvinna'}[person[KÖN]]} #{person[ÅLDER_PÅ_VALDAGEN]} år" 
-		@person = person
+		@title0 = person[2]
+		@title1 = person[3]
+		if @title1 == '' then @title1 = "#{{M:'Man', K:'Kvinna'}[person[1]]} #{person[0]} år" 
+		#@person = person
 	draw : ->
 		fc 0.5
 		rect @x,@y,@w,@h
@@ -502,58 +513,53 @@ class TypButton extends Button
 	constructor : (@typ, title,x,y,w,h,click = ->) ->
 		super title, x,y,w,h,click
 
-spara = (lista,key,value) ->
-	current = tree
-	for name in lista
-		a = current[name]
-		if a == undefined then current[name] = {}
-		current = current[name]
-	current[key] = value
-readDatabase = ->
+# spara = (lista,key,value) ->
+# 	current = tree
+# 	for name in lista
+# 		a = current[name]
+# 		if a == undefined then current[name] = {}
+# 		current = current[name]
+# 	current[key] = value
+# readDatabase = ->
 
-	{kommun} = getParameters()
-	print kommun
-	kommunkod = kommun
-	if not kommunkod then kommunkod = '0180'
-	länskod = kommunkod.slice 0,2	
 
-	partikoder = {}
-	#partier = {}
-	lines = db.split '\n'
+# 	partikoder = {}
+# 	#partier = {}
+# 	lines = db.split '\n'
 
-	#clowner = getClowner lines
+# 	#clowner = getClowner lines
 
-	for line in lines
-		cells = line.split ';'
-		valtyp = cells[VALTYP]
-		områdeskod = cells[VALOMRÅDESKOD]
-		område = cells[VALOMRÅDESNAMN]
-		parti = cells[PARTIFÖRKORTNING]
-		#if parti=='' then parti = cells[PARTIKOD]
-		knr = cells[KANDIDATNUMMER]
-		namn = cells[NAMN]
+# 	for line in lines
+# 		cells = line.split ';'
+# 		valtyp = cells[VALTYP]
+# 		områdeskod = cells[VALOMRÅDESKOD]
+# 		område = cells[VALOMRÅDESNAMN]
+# 		parti = cells[PARTIFÖRKORTNING]
+# 		#if parti=='' then parti = cells[PARTIKOD]
+# 		knr = cells[KANDIDATNUMMER]
+# 		namn = cells[NAMN]
 
-		partikoder[cells[PARTIKOD]]=parti
+# 		partikoder[cells[PARTIKOD]]=parti
 
-		#if knr in clowner then continue
-		if namn == undefined then continue
-		if parti == '' then continue
+# 		#if knr in clowner then continue
+# 		if namn == undefined then continue
+# 		if parti == '' then continue
 
-		dictionary[parti] = [cells[PARTIBETECKNING],cells[PARTIKOD]]
-		dictionary[områdeskod] = område # hanterar både kommun och landsting
-		# S -> ['Socialdemokraterna','1234']
-		# 01 -> '01 - Stockholms läns landsting'
-		# 0180 -> Stockholm
+# 		dictionary[parti] = [cells[PARTIBETECKNING],cells[PARTIKOD]]
+# 		dictionary[områdeskod] = område # hanterar både kommun och landsting
+# 		# S -> ['Socialdemokraterna','1234']
+# 		# 01 -> '01 - Stockholms läns landsting'
+# 		# 0180 -> Stockholm
 
-		arr = namn.split ', '
-		if arr.length == 2
-			namn = arr[1] + ' ' + arr[0] 
-			cells[NAMN] = namn
+# 		arr = namn.split ', '
+# 		if arr.length == 2
+# 			namn = arr[1] + ' ' + arr[0] 
+# 			cells[NAMN] = namn
 
-		if parti == '' or namn == '[inte lämnat förklaring]' then continue
-		if valtyp == 'R'                           then spara [valtyp, parti], "#{knr}-#{namn}", cells
-		if valtyp == 'L' and områdeskod==länskod   then spara [valtyp, parti], "#{knr}-#{namn}", cells
-		if valtyp == 'K' and områdeskod==kommunkod then spara [valtyp, parti], "#{knr}-#{namn}", cells
+# 		if parti == '' or namn == '[inte lämnat förklaring]' then continue
+# 		if valtyp == 'R'                           then spara [valtyp, parti], "#{knr}-#{namn}", cells
+# 		if valtyp == 'L' and områdeskod==länskod   then spara [valtyp, parti], "#{knr}-#{namn}", cells
+# 		if valtyp == 'K' and områdeskod==kommunkod then spara [valtyp, parti], "#{knr}-#{namn}", cells
 
 	#print dictionary
 	#print partikoder
@@ -569,11 +575,48 @@ getParameters = (h = window.location.href) ->
 	if arr[1] == '' then return {}
 	_.object(f.split '=' for f in arr[1].split '&')		
 
+getTxt = (rkl,filename) ->
+	$.ajax
+		url : filename
+		error : () -> print 'error'
+		success : (data) -> 
+			dbTree[rkl] = {}
+			dbPartier[rkl] = {}
+			dbPersoner[rkl] = {}
+			lines = data.split '\n'
+			for line in lines
+				line = line.trim()
+				cells = line.split '|'
+				if cells[0]=='T' # T|Arjeplog
+					dbName[rkl] = cells[1]
+				if cells[0]=='A' # kandidaturer # A|3|208509|208510|208511|208512|208513|208514
+					dbTree[rkl][cells[1]] = cells.slice 2
+				if cells[0]=='B' # partier # B|4|C|Centerpartiet
+					dbPartier[rkl][cells[1]] = cells.slice 2 
+				if cells[0]=='C' # personer # C|10552|53|K|Britta Flinkfeldt|53 år, Arjeplog
+					dbPersoner[rkl][cells[1]] = cells.slice 2 
+			print _.size dbTree[rkl]
+			print _.size dbPartier[rkl]
+			print _.size dbPersoner[rkl]
+			pages.typ.buttons[1].title=dbName.L
+			pages.typ.buttons[2].title=dbName.K
+
+preload = ->
+	{kommun} = getParameters()
+	print kommun
+	kommunkod = kommun
+	if not kommunkod then kommunkod = '2506'
+	länskod = kommunkod.slice 0,2	
+
+	getTxt 'R','data\\00.txt'
+	getTxt 'L','data\\25.txt'
+	getTxt 'K','data\\2506.txt'
+
 setup = ->
 	createCanvas windowWidth,windowHeight
 
-	readDatabase()
-	print tree
+	# readDatabase()
+	# print tree
 
 	x0 = 0
 	x1 = 0.18*width

@@ -1,10 +1,206 @@
-2|171287|71219|96777|171290|171291|171292|171293|96780|171295|171297|171298|171300|171301|171302|171303|171304|171305|171306|171307|171308|96789|171310|171311|171312|171313|171314|171315|171316|171317|171318|171319|171320|171321|171322|171323|171324|171325|171326|171327|171328|171329|171330|171331|171332|171333|171334
-4|113746|76948|113748|113749|113750|113751|113752|113753|76930|113755|113756|113757|113758|113759
-68|162525|162527|162528|162530|162529|162531|162532|162533|162534|162535|162536|162537
-3|244836|244837|244838|244839|244840|244841|244842|244843|244844|244845|244846|244847|244848|244849|244850|244851|244852
-55|123404|123405|123406|123407|123408|123409|123410|123411|123412|123413
-1|12803|20268|20269|20270|20271|20272|20273|20274|20275|20276|20277|20278|20279|20280|20281|20282|20283|100356|20284|20285|20287|20288|20289|20290
-527|409314|409315|409316|409317|409318|409319|409320|409321|409322|409323
-519|418966|418967|418968|418969|418970|418971|418972|418973|418974|418975|418976|418977|418978|418979|418980|418981|418982|418983|418984|418985|418986|418987|418988|418989|418990|418991
-110|67141|67142|67143|67144|67145|67146|67149|67150|67151|67152|67153|67154|67155|67156
-5|184905|184906|184907|184908|184909|184910|184911|184912|184913|184914|360009|360010
+T|Nynäshamn
+A|2|171287|71219|96777|171290|171291|171292|171293|96780|171295|171297|171298|171300|171301|171302|171303|171304|171305|171306|171307|171308|96789|171310|171311|171312|171313|171314|171315|171316|171317|171318|171319|171320|171321|171322|171323|171324|171325|171326|171327|171328|171329|171330|171331|171332|171333|171334
+A|4|113746|76948|113748|113749|113750|113751|113752|113753|76930|113755|113756|113757|113758|113759
+A|68|162525|162527|162528|162530|162529|162531|162532|162533|162534|162535|162536|162537
+A|3|244836|244837|244838|244839|244840|244841|244842|244843|244844|244845|244846|244847|244848|244849|244850|244851|244852
+A|55|123404|123405|123406|123407|123408|123409|123410|123411|123412|123413
+A|1|12803|20268|20269|20270|20271|20272|20273|20274|20275|20276|20277|20278|20279|20280|20281|20282|20283|100356|20284|20285|20287|20288|20289|20290
+A|527|409314|409315|409316|409317|409318|409319|409320|409321|409322|409323
+A|519|418966|418967|418968|418969|418970|418971|418972|418973|418974|418975|418976|418977|418978|418979|418980|418981|418982|418983|418984|418985|418986|418987|418988|418989|418990|418991
+A|110|67141|67142|67143|67144|67145|67146|67149|67150|67151|67152|67153|67154|67155|67156
+A|5|184905|184906|184907|184908|184909|184910|184911|184912|184913|184914|360009|360010
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|527|PP(N)|Pensionärspartiet i Nynäshamns kommun
+B|519|SN|Sorundanet Nynäshamns kommunparti
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|171287|45|M|Patrik Isestad|45, Skorstensfejarmästare, Ösmo
+C|71219|39|K|Anna Ullström|39, Tjänsteman, Nynäshamn
+C|96777|64|M|Ola Hägg|65, Nynäshamn
+C|171290|70|K|Inger Andersson|70, Pensionär, Nynäshamn
+C|171291|29|M|Johan Augustsson|29, Elektriker, Nynäshamn
+C|171292|55|K|Helen Sellström Edberg|55, Redovisningskonsult, Nynäshamn
+C|171293|44|M|Henrik Persson|44, Trädgårdsmästare, Nynäshamn
+C|96780|47|K|Liselott Vahermägi|47, Ledarskapkonsult, Nynäshamn
+C|171295|73|M|Johnny Edholm|73, Pensionär, Nynäshamn
+C|171297|67|M|Roland Junerud|67, Kapten, Nynäshamn
+C|171298|60|K|Gill Lagerberg|60, Lärare, Nynäshamn
+C|171300|19|K|Inez Åkerbäck|19, Studerande, Ösmo
+C|171301|43|M|Johan Forsman|42, Tjänsteman, Nynäshamn
+C|171302|69|K|Janice Bojie Junerud|69, Lärare, Nynäshamn
+C|171303|45|M|Daniel Jobark|45, Elevassistent, Nynäshamn
+C|171304|21|K|Amanda Hedström|21, Barnskötare, Ösmo
+C|171305|74|M|Anders Lindeberg|74, Statistiker, Nynäshamn
+C|171306|52|K|Eva-Lena Persson|52, Lärare, Nynäshamn
+C|171307|68|M|Lars-Åke Lundin|67, Målare, Ösmo
+C|171308|53|K|Susanne Wiik|54, Lärare, Ösmo
+C|96789|61|M|Thomas Johansson|61, Behandlingsassistent, Nynäshamn
+C|171310|61|K|Kate Nilsson|61, Lagerarbetare, Ösmo
+C|171311|76|M|Göran Karlsson|76, Arkitekt, Nynäshamn
+C|171312|65|K|Ie Frisén|63, HR-konsult, Nynäshamn
+C|171313|69|M|Whille Karlsson|69, Pensionär, Ösmo
+C|171314|30|K|Khloud Alrefai|30, Undersköterska, Nynäshamn
+C|171315|49|M|Lars Karlsson|49, Arkitekt, Nynäshamn
+C|171316|67|K|Yvonne Lundin|67, Sjuksköterska, Ösmo
+C|171317|72|M|Lars Lindberg|73, Lärare, Nynäshamn
+C|171318|70|K|Maud Pettersson|70, Lärare, Nynäshamn
+C|171319|79|M|Ove Forsberg|79, Pensionär, Ösmo
+C|171320|65|K|Monica Lundstedt|63, Tjänsteman, Nynäshamn
+C|171321|23|M|Sajad Adel Katea|24, Studerande, Ösmo
+C|171322|77|K|Mona Rudenfeldt|77, Pensionär, Nynäshamn
+C|171323|74|M|Kjell Andersson|74, Systemutvecklare, Nynäshamn
+C|171324|70|K|Doris Åkerbäck|70, Pensionär, Nynäshamn
+C|171325|67|M|Anders Engström|67, Kooperatör, Nynäshamn
+C|171326|65|K|Lena Öman|65, fd. Polis, Nynäshamn
+C|171327|71|M|Sven Fälldin|71, Pensionär, Nynäshamn
+C|171328|71|K|Gullevi Karlsson Pehrsson|71, Pensionär, Nynäshamn
+C|171329|78|M|Björn Svanquist|78, Pensionär, Nynäshamn
+C|171330|51|K|Maria Schneider|51, Fil. Kand, Nynäshamn
+C|171331|77|M|Ove Landelius|77, Pensionär, Nynäshamn
+C|171332|79|K|Jane Wiik|79, Pensionär, Nynäshamn
+C|171333|67|K|Lill-Britt Fälldin|71, Pensionär, Nynäshamn
+C|171334|84|M|Bo Schagerberg|84, Pensionär, Nynäshamn
+C|113746|58|K|Maria Gard Günster|58, Förskollärare, Ösmo
+C|76948|58|K|Eva Wennerberg|58, Sorunda, Undersköterska/egen företagare
+C|113748|22|M|Anton Gunnarsson|22, Elektriker, Nynäshamn
+C|113749|59|K|Maud Sjödén|58, Kyrkoskrivare, Sorunda
+C|113750|50|M|Lars Hjelmskog|49, Egen företagare, Nynäshamn
+C|113751|62|M|Peter Wennerberg|62, Egen företagare, Sorunda
+C|113752|58|K|Marianne Adolfsson|57, Ekonom, Sorunda
+C|113753|45|M|Lars-Petter Bergendahl|45, Egen företagare, Sorunda
+C|76930|49|K|Theresia Bergendahl|49, Sorunda, Socionom
+C|113755|71|K|Christina Bergendahl|71, Sorunda, Fastighetsförvaltare
+C|113756|29|K|Nathalie Sjödin|28, Student, Nynäshamn
+C|113757|84|K|Barbro Gard Wihlén|84, Pensionär, Ösmo
+C|113758|80|K|Britt Olsson|80, Pensionär, Sorunda
+C|113759|75|M|Kjell Gustafsson|73, Fotograf, Sorunda
+C|162525|57|K|Antonella Pirrone|57, Förbundssekreterare, Nynäshamn
+C|162527|53|K|Noomi Hertzberg-Öberg|Specialistsjuksköterska, Nynäshamn
+C|162528|54|M|Bengt-Göran Pettersson|Försäkringsförmedlare, Sorunda
+C|162530|55|M|David Öberg|Egenföretagare, Nynäshamn
+C|162529|66|K|Christin Spetz|Undersköterska, Nynäshamn
+C|162531|56|K|Carina Kiejstut|Egenföretagare, Nynäshamn
+C|162532|56|K|Eva-Lena Nordberg|Friskvårdspedagog, Nynäshamn
+C|162533|59|M|Robert Kiejstut|Egenföretagare, Nynäshamn
+C|162534|77|K|Ulla Norman|Nämndeman, Ösmo
+C|162535|74|K|Margareta Reinholdsson|Lärare, Nynäshamn
+C|162536|72|M|Olov Åkerman|Socionom, Nynäshamn
+C|162537|88|K|Aliz Serafin|Musiklärare, Nynäshamn
+C|244836|41|M|Daniel Adborn|Kommunalråd, 41, Nynäshamn
+C|244837|37|K|Sophia Stureson|Leg. lärare, 37, Ösmo
+C|244838|23|M|Nicholas Nikander|politisk sekreterare, Nynäshamn
+C|244839|47|K|Anna Eklund|VD, 47, Nynäshamn
+C|244840|73|M|Bo Persson|ingenjör, Sorunda
+C|244841|73|K|Kaisa Persson|socionom, Sorunda
+C|244842|38|M|Johan Harding|Konsult, 39, Segersäng
+C|244843|45|K|Eva Hartell|Fil.dr, Leg. lektor i grundskolan, Nynäshamn
+C|244844|42|M|Mikael Persson|PR-konsult, 43, Nynäshamn
+C|244845|64|K|Panayota Pontikis|lärare, Nynäshamn
+C|244846|72|M|Leif Öbrink|företagare, Nynäshamn
+C|244847|55|K|Maria Bengtsson Hurtig|Lärare, 55, Segersäng
+C|244848|35|M|Tobias Östring|Brandkonsult, 35, Sorunda
+C|244849|66|K|Helena Göransson|Leg. sjukgymnast, 66, Nynäshamn
+C|244850|74|K|Inga-Lill Friberg|Pensionerad projektledare,74, Nynäshamn
+C|244851|76|K|Inger Schmiedhofer|Fd. planarkitekt, 76, Nynäshamn
+C|244852|85|M|Bernt Wåhleman|Senior pastor, 85, Sorunda
+C|123404|38|K|Emma Solander|företagare, Nynäshamn
+C|123405|73|M|Bengt Holwaster|73, seniorkonsult, Nynäshamn
+C|123406|56|M|Bernt Månsson|IT-ansvarig, Nynäshamn
+C|123407|51|M|Rodrigo-Germán Araya de Castilla|51, leg. barnmorska, Nynäshamn
+C|123408|67|K|Monica Stålborg Billberg|projektledare, Nynäshamn
+C|123409|33|M|Mohamed Jimale|KTH-student, Nynäshamn
+C|123410|40|K|Karen Marie Elvström|kroppsterapeut, Nynäshamn
+C|123411|67|M|Anders Jangö|civilingenjör, Ösmo
+C|123412|47|M|Anders Eriksson|systemutvecklare, Segersäng
+C|123413|34|K|Xhesika Araya de Castilla|administratör, Nynäshamn
+C|12803|62|M|Harry Bouveng|62, Oppositionsråd
+C|20268|71|K|Agneta Tjärnhammar|Företagare, Nynäshamn
+C|20269|64|K|Bodil Toll|Egenföretagare, Sorunda
+C|20270|40|M|Marcus Svinhufvud|40, Affärschef
+C|20271|63|M|Håkan Svanberg|Civilekonom, Nynäshamn
+C|20272|71|K|Agneta Hagström|Handelsexpert, Nynäshamn
+C|20273|70|M|Per Malmsten|Musiker, Nynäshamn
+C|20274|48|M|Fredrik Sönnergren|Officer, Ösmo
+C|20275|70|K|Gunnel Jonsson|Undersköterska, Sorunda
+C|20276|35|M|Jimmy Norell|35, Brandman
+C|20277|21|K|Annie Östlingsson|Kundservicemedarbetare, Nynäshamn
+C|20278|60|K|Ginger Eriksson|Fru, Ösmo
+C|20279|39|M|Johan Gillqvist|Platschef, Nynäshamn
+C|20280|47|M|Fredrik Brodin|Undersköterska, Nynäshamn
+C|20281|40|M|Anders Karlsson|40, Verksamhetskonsult
+C|20282|49|M|Johan Söderström|Journalist, Nynäshamn
+C|20283|54|M|Georgios Tsiouras|54, Egenföretagare
+C|100356|21|M|Tommy Wagner|Hamnarbetare, Nynäshamn
+C|20284|47|K|Christina Sönnergren|Handläggare, Ösmo
+C|20285|60|M|Otto Svedenblad|Pensionär, Ösmo
+C|20287|82|M|Rolf Gradin|Pensionär, Nynäshamn
+C|20288|53|K|Susanne Sohlberg|53, Egenföretagare
+C|20289|72|M|Jan Rundqvist|Spårvagnskonduktör, Sorunda
+C|20290|76|M|Carl-Gerhard Hagström|Pensionär, Nynäshamn
+C|409314|86|K|Greta Olin Landström|
+C|409315|80|M|Rolf Hofsten|
+C|409316|73|K|Britt-Marie Jacobsson|
+C|409317|83|M|Robert Norberg|
+C|409318|70|K|Susanne Hedberg|
+C|409319|74|M|Stig-Ove Söderlund|
+C|409320|79|K|Ingrid Ekecrantz|
+C|409321|72|M|Bo Eriksson|
+C|409322|78|K|Margareta Johansson|
+C|409323|78|M|Göran Andersson|
+C|418966|60|K|Lena Dafgård|pedagogisk utvecklare, Grödby
+C|418967|59|M|Per Ranch|civilingenjör, Ristomta
+C|418968|72|M|Jan-Erik Ljusberg|pol.mag., Natvik
+C|418969|68|M|Hans-Ove Krafft|byggtekniker, Ösmo
+C|418970|40|K|Aline Varre|egenföretagare, Segersäng
+C|418971|51|M|Micael Kaarlenkaski|ingenjör, Nickstahöjden
+C|418972|61|K|Irene Ångström|banktjänsteman, Ristomta
+C|418973|40|M|Håkan Falk|egenföretagare, Grödby
+C|418974|63|K|Lou-Lou Hillstad|bibliotekarie, Lyngsta
+C|418975|69|M|Björn Tapper|utbildare, Grödby
+C|418976|70|M|Acke Rising|företagare, Frölunda
+C|418977|64|M|Rolf Åberg|egenföretagare, Gröndal
+C|418978|50|K|Elliina Tammiksaare|dekoratör, Backlura
+C|418979|61|K|Lena Carlsson|företagskonsult, Stora Lundby
+C|418980|60|M|Bengt-Inge "Binge" Hertzman|företagare, Frölunda
+C|418981|48|K|Anne-Li Larsson|HR-studerande, Sundsta
+C|418982|42|K|Lise Hagen|företagare, Ulvesta
+C|418983|69|M|Anders Järnemar|maskiningenjör, Sunnerby
+C|418984|26|K|Maja Ångström Swärd|brevbärare, Kullsta
+C|418985|69|M|Kjell Flink|pensionär, Ristomta
+C|418986|76|K|Luzzi Herzog|redaktör, Ottersta
+C|418987|66|M|Kent Dahlin|elektriker, Ristomta
+C|418988|26|K|Malin Ångström Swärd|sjuksköterska, Djursnäs
+C|418989|83|K|Barbro Rising|egenföretagare, Frölunda
+C|418990|60|M|Lars Swärd|egenföretagare, Ristomta
+C|418991|44|K|Monica Jansson|civilekonom, Grödby
+C|67141|41|M|Donald Löfving|41, båtsman, Nynäshamn
+C|67142|33|K|Emilia Orpana|33, tjänsteman, Nynäshamn
+C|67143|40|M|Jean-Claude Menot|40, områdeschef, Nynäshamn
+C|67144|38|M|Klas Rydström|företagare,Nynäshamn
+C|67145|58|M|Björn Larsson|58, maskinoperatör, Nynäshamn
+C|67146|39|M|Erik Runeborg|chaufför, Nynäshamn
+C|67149|61|M|Johan Wolf|61, mångsysslare, Nynäshamn
+C|67150|69|M|Lars Herling|ålderspensionär, Nynäshamn
+C|67151|56|K|Wiweca Stålbrandt Åhlund|Nynäshamn
+C|67152|52|M|Joacim Nieminen|Nynäshamn
+C|67153|33|K|Elin Jederyd|33, vårdbiträde, Nynäshamn
+C|67154|44|M|Carl Marcus|chaufför,Nynäshamn
+C|67155|53|K|Ulrika Ekengren|ekonom, Nynäshamn
+C|67156|64|K|Karin Ferm|undersköterska, Nynäshamn
+C|184905|31|K|Elenore Österberg|elevassistent, 31 år
+C|184906|44|K|Miriam Malm|gruppchef, 44 år
+C|184907|54|K|Eva Westin Gustafsson|lärare, 54 år
+C|184908|33|K|Madeleine Sloot|butiksbiträde, 33 år
+C|184909|35|K|Sofie Sandin|undersköterska, 35 år
+C|184910|41|M|Tony Nicander|personlig assistent/fackligt ombud, 41 år
+C|184911|36|M|Oscar Witt|chaufför, 36 år
+C|184912|36|K|Erika Nilsson|pedagog 37 år
+C|184913|58|M|Bengt Dahlby|terminalarbetare, 58 år
+C|184914|75|K|Maj-Lis Carlsson|pensionär, 75 år
+C|360009|41|M|Recep Erdal|pizzabagare, 41 år
+C|360010|25|M|Harald Gärdek|servicetekniker, 25 år

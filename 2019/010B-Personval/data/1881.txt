@@ -1,8 +1,217 @@
-2|118859|118860|118861|118862|118863|118864|118865|118866|118867|118868|118869|118870|118871|118872|118873|118874|118875|118876|118877|118878|118879|118880|118881|118882|118883|118884|118885|118886|118887|118888|118889|118890|118891|118892|118893|118894|118895|118896|118897|118898|118899|118900|118901|118902|118903|118904|118905|118906|118907|118908|118909|118910|118911|118912|118913|118914|118915|118916|118917|118918|118919|118920|118921|118922
-4|57884|362312|362313|362314|362315|362316|362317|362318|362319|57872|362321|362322|362323|362324|362325|362326|362327|362328|362329|362330|362331|362332|362333|362334|362335|362336|362337|362338
-68|216354|216355|216356|216357|216358|216359|216360|216361|216362|216363|216364|216365|216366|216367|216368|216369|216370
-3|26945|26924|26951|26936|28864|26960|26963|26978|28868|28869|28871|28872|28873|28874|28875|28876|28877|28878|28879|28880|28881
-55|123489|251737|122948|251739|251740|251741|251742|251743|251744|251745|123494|251747|275923
-1|26493|26497|26496|26505|35663|35664|26507|35666|35667|26500|35669|26502|35671|35672|35673|35674|35675|35676|35677|35678|35679|35680|35681|35682|35683|35684
-110|75842|75843|75844|75845|75846|75847|75848|75849|75850|75851|75852|75853|75854|75855|75856
-5|363561|363562|363563|363564|363565|363566|363567|363568|363569|363570|363571|363572|363573|363574|363575|363576|363577
+T|Kumla
+A|2|118859|118860|118861|118862|118863|118864|118865|118866|118867|118868|118869|118870|118871|118872|118873|118874|118875|118876|118877|118878|118879|118880|118881|118882|118883|118884|118885|118886|118887|118888|118889|118890|118891|118892|118893|118894|118895|118896|118897|118898|118899|118900|118901|118902|118903|118904|118905|118906|118907|118908|118909|118910|118911|118912|118913|118914|118915|118916|118917|118918|118919|118920|118921|118922
+A|4|57884|362312|362313|362314|362315|362316|362317|362318|362319|57872|362321|362322|362323|362324|362325|362326|362327|362328|362329|362330|362331|362332|362333|362334|362335|362336|362337|362338
+A|68|216354|216355|216356|216357|216358|216359|216360|216361|216362|216363|216364|216365|216366|216367|216368|216369|216370
+A|3|26945|26924|26951|26936|28864|26960|26963|26978|28868|28869|28871|28872|28873|28874|28875|28876|28877|28878|28879|28880|28881
+A|55|123489|251737|122948|251739|251740|251741|251742|251743|251744|251745|123494|251747|275923
+A|1|26493|26497|26496|26505|35663|35664|26507|35666|35667|26500|35669|26502|35671|35672|35673|35674|35675|35676|35677|35678|35679|35680|35681|35682|35683|35684
+A|110|75842|75843|75844|75845|75846|75847|75848|75849|75850|75851|75852|75854|75855|75856
+A|5|363561|363562|363563|363564|363565|363566|363567|363568|363569|363570|363571|363572|363573|363574|363575|363576|363577
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|118859|49|K|Katarina Hansson|49 år,Kumla
+C|118860|36|M|Andreas Brorsson|36 år,Kumla
+C|118861|44|K|Annica Sjöqvist|44 år,Kumla
+C|118862|49|M|Thomas Andersson|49 år,Kumla
+C|118863|62|K|Gunnel Kask|62 år,Kumla
+C|118864|49|M|Stefan Svensson|49 år,Integrationshandläggare
+C|118865|56|K|Jeanette Widström|56 år, Kumla
+C|118866|64|M|Carl-Gustav Thunström|64 år,Ombudsman
+C|118867|42|K|Dzeneta Ribic|42 år,Arbetsförmedlare
+C|118868|52|M|Lars Malmberg|52 år, Kumla
+C|118869|37|K|Ellinor Falk|36 år, Kumla
+C|118870|59|M|Thomas Bäck|58 år,Kommunalarbetare
+C|118871|63|K|Annica Moberg|63 år, Kumla
+C|118872|27|M|Björn Grönqvist|27 år,Kumla
+C|118873|64|K|Ulla Engqvist-Gullberg|64 år,Förskollärare
+C|118874|70|M|Lars-Göran Johnsson|70 år,Pensionär
+C|118875|47|K|Eva Palmqvist|47 år,Kumla
+C|118876|53|M|Majeed Ahmed Rauf|53 år, Kumla
+C|118877|71|K|Marianne Arvidsson|71 år, Kumla
+C|118878|43|M|Erik Jönsson|43 år, Kumla
+C|118879|43|K|Charlotta Edfalk-Sundler|43 år, Kumla
+C|118880|34|M|Robert Roos|34 år,Kumla
+C|118881|57|K|Carina Bäck|57 år, Kumla
+C|118882|52|M|Roger Arvidsson|52 år, Kumla
+C|118883|47|K|Malin Lillhannus|47 år,Enhetschef
+C|118884|19|M|Sam Mubarak|19 år,Student
+C|118885|48|K|Petra Olausson|48 år,Sjuksköterska
+C|118886|60|M|Magnus Grönvall|60 år, Kumla
+C|118887|42|K|Veronica Ulfgren|42 år,Kumla
+C|118888|50|M|Johan Erlandsson|50 år,Kommunalarbetare
+C|118889|55|K|Marie Eriksson|55 år,Projektadministratör
+C|118890|50|M|Tomas Sköld|50 år,Kommunalarbetare
+C|118891|46|K|Marie Strömberg|45 år,Undersköterska
+C|118892|27|M|Sebastian Widström|27 år,Militärpolis
+C|118893|21|K|Mary Gustafsson|21 år,Barnskötare
+C|118894|67|M|Tage Arvidsson|67 år,Konsult
+C|118895|63|K|Ing-Marie Andersson|63 år, Kumla
+C|118896|69|M|Lennart Eriksson|69 år,Byggnadsarbetare
+C|118897|36|K|Anna Brorsson|36 år,Måltidschef
+C|118898|24|M|Andreas Svensson|23 år,Barnskötare
+C|118899|37|K|Tahere Haidari|36 år,Undersköterska
+C|118900|18|M|Petter Kulhuset|18 år,Student
+C|118901|76|K|Gun-Britt Anderson|76 år,Pensionär
+C|118902|41|M|Nicklas Wilhelmsson|41 år, Kumla
+C|118903|31|K|Rebecca Voss|31 år,Verksamhetsassistent
+C|118904|75|M|Dan-Åke Moberg|75 år,Murare
+C|118905|70|K|Anneli Roos|70 år,Pensionär
+C|118906|77|M|Sten Persson|77 år,Pensionär
+C|118907|57|K|Lisbet Björklund|57 år,Löneadministratör
+C|118908|54|M|Stefan Hall|54 år,Lagerarbetare
+C|118909|70|K|Ulla Lundberg|70 år,Pensionär
+C|118910|44|M|Thomas Holm|44 år,Transportledare
+C|118911|63|K|Eva Wilhelmsson|63 år,Administratör
+C|118912|58|M|Kenneth Svärd|57 år,Ombudsman för Byggnads
+C|118913|68|K|Eva-Lena Arneback|68 år,Pensionär
+C|118914|60|M|Peter Franzen|60 år,Folkbildare
+C|118915|66|K|Agneta Eriksson|66 år,Pensionär
+C|118916|65|M|Staffan Göransson|65 år, Kumla
+C|118917|75|K|Vanja Björsson|75 år,Pensionär
+C|118918|66|M|Mats Gullberg|66 år,Pensionär
+C|118919|74|K|IngaLill Eriksson|74 år,Fd.sjukvårdslärare
+C|118920|42|M|Stefan Hven|42 år,Målare
+C|118921|45|K|Carina Franzen|45 år,Barnskötare
+C|118922|77|M|Hans Sjöqvist|77 år,Pensionär
+C|57884|65|M|Jan Engman|65 år, civilingenjör, Kumla
+C|362312|49|K|Maria Lannhard|lärare, Hardemo
+C|362313|38|M|Cristoffer Stockman|tjänsteman, Kumla
+C|362314|53|M|Frank Tholfsson|civilekonom, Kumla
+C|362315|40|M|Magnus Claesson|polis, Hällabrottet
+C|362316|47|K|Anna Markström|kanslichef, Kumla
+C|362317|41|M|Jonas Andersson Wellermo|administratör, Kumla
+C|362318|68|M|Bengt Friman|f.d.lärare, Ekeby
+C|362319|68|K|Anette Friman|läkarsekreterare, Ekeby
+C|57872|66|M|Torbjörn Ahlin|66 år, oppositionsråd, Kumla
+C|362321|28|K|Nathalie Svärd|företagare/fritidspedagog, Hardemo
+C|362322|57|M|Syla Racaj|maskinoperatör, Kumla
+C|362323|24|K|Elisabet Johansson|studerande, Hardemo
+C|362324|72|M|Per-Arne Mårstad|lantbrukare, Hardemo
+C|362325|48|K|Anna-Lena Johansson|arbetsterapeut, Kumla
+C|362326|51|K|Vjollca Racaj|undersköterska, Kumla
+C|362327|45|M|Thorbjörn Johnson|lantbrukare, Hardemo
+C|362328|61|M|Ingemar Johansson|lantbrukare, Kumla
+C|362329|79|M|Anders Svärd|f.d. riksdagsman, Kumla
+C|362330|75|M|Anders Lannhard|f.d. lärare, Hardemo
+C|362331|52|K|Anna Martinson|kyrkomusiker, Kumla
+C|362332|68|K|Gudrun Persson|f.d. banktjänsteman, Ekeby
+C|362333|57|K|Marie Olsson|kyrkvaktmästare, Kumla
+C|362334|72|K|Zitha Ahlin|f.d. enhetschef, Hardemo
+C|362335|54|M|Erik Johansson|flygfältsman, Kumla
+C|362336|71|M|Karl-Erik Pettersson|lantbrukare, Hardemo
+C|362337|68|K|Monica Gustafsson|pensionär, Kumla
+C|362338|66|K|Karin Åkesson|undersköterska, Ekeby
+C|216354|44|K|Camilla Valfridsson|Lärare, Smedstorp
+C|216355|29|M|Albin Hellström|Lärare, Kumla
+C|216356|65|K|Inga-Lill Roswall|Sekreterare, Kumla
+C|216357|18|M|Oscar Toftling|Studerande, Kumla
+C|216358|47|K|Anna Rönning|Projektledare, Smedstorp
+C|216359|61|M|Lars Karlsson|Yrkeschaufför, Kumlaby
+C|216360|28|M|Joel Soikari|Yrkeschaufför, Kumlaby
+C|216361|75|K|Berit Jacobson|Pensionär, Kumla
+C|216362|78|M|Per-Olof Ericsson|Pensionär, Kumla
+C|216363|39|K|Frida Öberg|Studerande, Smedstorp
+C|216364|77|K|Siv Jerlström|Socionom, Åbytorp
+C|216365|85|M|Rune Jansson|Pensionär, Kumla
+C|216366|52|M|Amjad Toma|Lärare, Kumla
+C|216367|46|M|Stefan Valfridsson|Företagare, Smedstorp
+C|216368|42|M|Nicklas Log|Kumla
+C|216369|79|M|Maths Jerlström|Ekonom, Åbytorp
+C|216370|64|M|Christer Fallén|Hardemo
+C|26945|29|M|Christian Lahesalu|29 år, oppositionsråd, Kumla
+C|26924|28|K|Kajsa Rosén|29 år, politisk sekreterare, Kumla
+C|26951|36|M|Magnus Ivarsson|36 år, kvalitetskoordinator, Örebro
+C|26936|39|K|Christina Örnebjär|riksdagsledamot, Kumla
+C|28864|46|M|Henrik Andersen|47 år, reperatör
+C|26960|23|M|Emil Pettersson|23 år, däckmontör, Kumla
+C|26963|21|K|Hanna Aronsson|21 år, butiksanställd, Kumla
+C|26978|35|K|Ida Särnholm|35 år, lärare
+C|28868|45|M|Paulo Boskär|47 år, undersköterska
+C|28869|69|K|Carin Thaning|69 år, sjuksköterska
+C|28871|38|M|Dennis Örnebjär|39 år, senior software designer
+C|28872|18|K|Rim Winssi|18 år, student
+C|28873|22|K|Veronica Majersky|23 år, barnskötare
+C|28874|81|K|Katrin Tensmyr|81 år,  personalkonsulent
+C|28875|52|M|Fredrik Hellman|52 år, strategisk inköpare, Ekeby
+C|28876|68|M|Curt-Arne Gisleskog|68 år, trafikplanerare
+C|28877|55|M|Ouro Esso-Nimini|55 år, egenföretagare
+C|28878|79|K|Kerstin Lundqvist-Eriksson|79 år, vårdlärare
+C|28879|32|M|Håkan Sjölinder|32 år, virkesekonom
+C|28880|75|K|Barbro Backlund|75 år, farmaceut
+C|28881|71|K|Birgitta Daréus|72 år, rektor/pensionär
+C|123489|43|K|Carina Riberg|43 år, processtekniker och partiföreträdare, Kumla
+C|251737|71|K|Britt Eklöf|71 år, tidigare utomhuspedagog, Hagaby
+C|122948|56|M|Mats Gunnarsson|56 år, regionråd och organisationssekreterare, Kumla
+C|251739|26|K|Elin Riberg|26 år, teknisk support, Kumla
+C|251740|68|M|Jan Nilsson|68 år, Kumla
+C|251741|44|M|Mattias Bäckström|44 år, lektor, Kumla
+C|251742|69|M|Lars Axelsson|69 år, pensionär, Åbytorp
+C|251743|29|M|Sebastian Steckl|29 år, servicemedarbetare, Kumla
+C|251744|52|M|Thomas Berglund|54 år, säljare, Kumlaby
+C|251745|70|M|Bosse Werner|70 år, pensionerad produktionstekniker, Kumla
+C|123494|41|K|Ulrika Svärd|41 år, undersköterska, Kumla
+C|251747|20|M|Elias Riberg|20 år, elektriker, Kumla
+C|275923|63|M|Berth Andersson Hagel|64 år, universitetsadjunkt, Kumla
+C|26493|22|M|Oskar Svärd|kommunalråd, Kumla
+C|26497|45|K|Åsa Windahl Alin|utredare, Kumla
+C|26496|60|K|Margareta Engman|skatterevisor, Kumla
+C|26505|66|M|Lennarth Helgesson|fd försäkrings/placeringsrådgivare., Kumla
+C|35663|72|M|Göran Andersson|Fd. Ekonom
+C|35664|48|K|Karin Jonsson|Ekonom
+C|26507|73|K|Berry Keller|fd sjuksköterska, Kumla
+C|35666|54|M|Thomas Vuolo|Maskinist
+C|35667|43|M|Jens Björkander|IT-konsult
+C|26500|51|M|Jari Kurttio|handläggare, Kumla
+C|35669|66|M|Aimo Pekkala|Fd. Förhandlare
+C|26502|32|M|Elvir Vehabovic|platschef, Kumla
+C|35671|44|M|Roger Pekkala|Lärare
+C|35672|46|M|Jonas Langell|Rektor
+C|35673|36|M|Samuel Hambre|Företagare
+C|35674|80|M|Martin Östlund|Fd. Förbundsdirektör
+C|35675|36|M|Robert Gustavsson|Säljare
+C|35676|70|K|Inger Pettersson|Fd. Kontorist
+C|35677|28|M|Alexander Hallblom|Egenföretagare
+C|35678|67|M|Reine Persson|Företagare
+C|35679|67|M|Thomas Jungenäs|Fd. Lärare
+C|35680|48|M|Patrik Bergman|Regionchef
+C|35681|18|M|Lucas Holmberg|Studerande
+C|35682|76|K|Elisabet Ekestubbe|Fd. Apotekare
+C|35683|37|K|Marlene Tivemark|Företagare
+C|35684|62|K|Lena Fryxell|Chefssekreterare
+C|75842|51|M|Greger Persson|Administratör, Kumla
+C|75843|79|M|Börje Magnusson|79 år, Pensionär, Kumla
+C|75844|68|M|Sven Erik Kilsten|68 år, Pensionär, Kumla
+C|75845|48|M|Patrik Fermby|Montör, 48 år
+C|75846|23|K|Josephine Svanberg|Lastbilschaufför, 23 år
+C|75847|56|K|Lise-Lotte Karlsson|Barnskötare, 56 år
+C|75848|39|M|Tobias Svensson|Entreprenör, 40 år
+C|75849|69|K|Jeanine Magnusson|Pensionär, 69 år
+C|75850|31|M|Patrik Nyberg|31 år, Säljare, Kumla
+C|75851|24|M|Henrik Wallgren|24 år, Studerande, Kumla
+C|75852|60|M|Per-Erik Karlsson|Drifttekniker, 60 år
+C|75854|46|K|Veronika Eriksen|Mekaniker, 46 år
+C|75855|49|M|Micael Svanberg|50 år, Brunnsborrare, Kumla
+C|75856|56|M|Stefan Petersen|56 år, Kumla
+C|363561|67|K|Lena Rosborg|f.d. Undersköterska, Kumla
+C|363562|53|M|John Leonard|Målare, Kumla
+C|363563|62|K|Kristina Arvidsson|Livsmedelsarbetare, Kumla
+C|363564|33|M|Georg Bivall Hölseth|Banktjänsteman, Kumla
+C|363565|64|K|Charlotte Uhlin|Behandlingsassistent, Kumla
+C|363566|34|M|Mewlid Kalinrich|Beteendevetare, Kumla
+C|363567|69|K|Maj-Britt Jonsson|Rektor, Kumla
+C|363568|28|K|Angelica Eriksson|Studerande, Kumla
+C|363569|65|K|Elisabeth Berglund|pol.mag, Kumla
+C|363570|69|M|Mårten Franzson|Pensionär, Kumla
+C|363571|20|M|Mustafa Akrami|Studerande, Kumla
+C|363572|62|K|Margaretha Hultman Brikell|Distriktssköterska, Kumla
+C|363573|58|M|Suleiman Bekit|Lärare, Kumla
+C|363574|68|K|Harriet Elfström|Vårdbiträde, Kumla
+C|363575|57|M|Per Olsson|Betongarbetare, Kumla
+C|363576|66|M|Anders Brikell|Pensionär, Kumla
+C|363577|60|M|Rolf Östman|Verksamhetschef, Kumla

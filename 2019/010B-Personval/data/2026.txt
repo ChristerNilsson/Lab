@@ -1,9 +1,135 @@
-2|237343|237344|237345|237346|237347|237348|237349|237350|237351|237352|237353|237354|237355|237356|237357|237358|237359|237360|237361|237362
-4|38939|33538|55372|55373|55374|55375|55376|55377|55378|55379|55380|55381|33528|55384|55385|55386|55387|55388|55389|55390|55391|55392|55393|55394|55395|55396|55397|55398|55399|203182
-1121|426998|426999|427000|427001|427002|427003|427004|427005|427006|427007|427008|427009|427010|427011|427012|427013|427014|427015|427016|427017|427018
-68|9178|116702|9151|116704|9192|116706|116708|116709|116710|9156|116712
-3|165063|156326|188477|188478|188479|188480|188481
-55|114105|114106|114107|114108|114109|114110
-1|35816|36198|36464|36465|36466|36467|36210|36470|36471|36203|36474|36475|36220|36477|36478|36479|36480
-110|125910
-5|511902|511903|515119|515120
+T|Gagnef
+A|2|237343|237344|237345|237346|237347|237348|237349|237350|237351|237352|237353|237354|237355|237356|237357|237358|237359|237360|237361|237362
+A|4|38939|33538|55372|55373|55374|55375|55376|55377|55378|55379|55380|55381|33528|55384|55385|55386|55387|55388|55389|55390|55391|55392|55393|55394|55395|55396|55397|55398|55399|203182
+A|1121|426998|426999|427000|427001|427002|427003|427004|427005|427006|427007|427008|427009|427010|427011|427012|427013|427014|427015|427016|427017|427018
+A|68|9178|116702|9151|116704|9192|116706|116708|116709|116710|9156|116712
+A|3|165063|156326|188477|188478|188479|188480|188481
+A|55|114105|114106|114107|114108|114109|114110
+A|1|35816|36198|36464|36465|36466|36467|36210|36470|36471|36203|36474|36475|36220|36477|36478|36479|36480
+A|110|125910
+A|5|511902|515119|515120
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1121|KOSA|Kommunal Samling
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|237343|64|K|Irene Homman|Gagnef
+C|237344|35|M|Daniel Bergman|Gagnef
+C|237345|54|K|Christina Walles|Gagnef
+C|237346|36|M|Magnus Eriksson|Mockfjärd
+C|237347|46|K|Eva-Lotta Törnblom Nises|Dala-Floda
+C|237348|76|M|Alf Johansson|Gagnef
+C|237349|58|K|Anne-Christine Karlsson|Djurmo
+C|237350|70|M|Tomas Fredén|Dala-Floda
+C|237351|61|K|Yvonne Soneson|Djurås
+C|237352|45|M|Fredrik Kvarnström|Djurås
+C|237353|71|K|Margreth Göransdotter|Gagnef
+C|237354|38|M|Anders Söderlund|Gagnef
+C|237355|68|K|Ingegerd Hägg|Gagnef
+C|237356|50|M|Bengt Andersson|Gagnef
+C|237357|68|M|Thomas Gruhs|Björbo
+C|237358|65|M|Kent Karlsson|Djurmo
+C|237359|58|K|Susanne Behning|Gagnef
+C|237360|69|M|Åke Sandberg|Djurås
+C|237361|52|M|Tomas Jansson|Djurås
+C|237362|77|K|Ann-Gret Olsson|Dala-Floda
+C|38939|42|M|Fredrik Jarl|Gagnef
+C|33538|24|K|Johanna Hallin|Gagnef
+C|55372|62|M|Erik Warg|62 år, Mockfjärd
+C|55373|53|K|Kerstin Stenquist|53 år, Dala-Floda
+C|55374|47|M|Fredrik Andersson|47 år, Gagnef
+C|55375|52|K|Maria Svensson|52 år, Björbo
+C|55376|42|M|Jonas Hellsten|42 år, Bäsna
+C|55377|62|M|Ola Hebert|62 år, Djurmo
+C|55378|52|K|Kristina Bolinder|52 år, Sifferbo
+C|55379|29|M|Johan Elfsberg|29 år, Mockfjärd
+C|55380|55|K|Birgitta Floresjö|55 år, Dala-Floda
+C|55381|53|K|Lena Fröyen|53 år, Djurås
+C|33528|40|K|Sofia Jarl|Gagnef
+C|55384|54|M|Ola Erkers|54 år, Björbo
+C|55385|52|K|Anette Kotilainen|52 år, Gagnef
+C|55386|67|M|Hans-Erik Bergman|67 år, Mockfjärd
+C|55387|52|M|Pål Fröyen|52 år, Djurås
+C|55388|36|K|Sofia Lorentzon|36 år, Gagnef
+C|55389|71|M|Börje Lindvall|72 år, Bodarna
+C|55390|24|K|Elin Erkers|24 år, Björbo
+C|55391|72|M|Kjell Andersson|72 år, Bodarna
+C|55392|38|K|Annelie Wiman|38 år, Mockfjärd
+C|55393|62|M|Bernth Eriksson|62 år, Dala-Floda
+C|55394|41|K|Annelie Westman|42 år, Gagnef
+C|55395|75|M|Göran Pers|75 år, Mockfjärd
+C|55396|36|K|Karin Karlsson|36 år, Dala-Floda
+C|55397|36|K|Goar Mirzoyan|36 år, Mockfjärd
+C|55398|33|M|Jonas Andersson|33 år, Djurås
+C|55399|44|K|Viktoria Liss|44 år, Gagnef
+C|203182|35|M|Per Karlsson|35 år, Dala-Floda
+C|426998|68|M|Lars-Erik Granholm|
+C|426999|73|M|Svante Hanses|
+C|427000|49|M|Patrik Andersson|
+C|427001|70|K|Agneta Finn|
+C|427002|71|K|Ingegerd Kull Hanses|
+C|427003|71|M|Pelle Källs|
+C|427004|71|M|Gunnar Östberg|
+C|427005|73|M|Curt Svärd|
+C|427006|68|M|Göran Westling|
+C|427007|65|M|Ulf Haglund|
+C|427008|77|M|Jaak Kerstell|
+C|427009|65|M|Tomas Neijbert|
+C|427010|79|M|Lars Ljungman|
+C|427011|61|M|Tomas Pelleberg|
+C|427012|61|M|Bengt Ohlsson|
+C|427013|50|M|Mourad "Murre" Khasib|
+C|427014|80|K|Ulla Envall|
+C|427015|66|K|Marianne Östlund|
+C|427016|73|M|Rune Karis|
+C|427017|65|M|Ola Granath|
+C|427018|83|M|Lennart Finn|
+C|9178|53|M|Anders Bengtsson|socionom, Gagnef
+C|116702|43|K|Catharina Karlhager|speciallärare
+C|9151|20|M|Mathias Bengtsson|studerande, Gagnef
+C|116704|62|K|Marianne Hjort|särskolepedagog
+C|9192|45|M|Daniel Caesar|butikssäljare, Gagnef
+C|116706|52|M|Jari Paananen|projektingenjör
+C|116708|38|M|Olof Silverdahl|deltidsbrandman
+C|116709|40|K|Linda Lejdemark|lärare
+C|116710|58|M|Simon Johnston|civilingenjör
+C|9156|40|K|Caroline Caesar|affärsutvecklare, Gagnef
+C|116712|56|M|Mikael Persson|lastningsledare
+C|165063|69|M|Christer Iversen|69 år Egenföretagare, Gagnef
+C|156326|42|M|Andreas Hållberg|Plåtslagare, 42 år, Gagnef
+C|188477|57|K|Marie Karlsson|Mockfjärd
+C|188478|60|M|Björn Kruse|Dala-Floda
+C|188479|64|M|Göran Strandberg|Gagnef
+C|188480|73|M|Bengt Löfgren|Sifferbo
+C|188481|80|M|Per Bergman|Sifferbo
+C|114105|44|M|Jonas Wittink|administratör, Djurmo
+C|114106|53|K|Maria Alfredsson|Gagnef, rektor
+C|114107|52|M|Anders Eriksson|lokförare, Djurmo
+C|114108|40|K|Lina Wittink|teckenspråkstolk, Djurmo
+C|114109|61|M|Ulf-Göran Redhe|konsult, Dala-Floda
+C|114110|69|M|Peter Lindholm|civilingenjör, Mockfjärd
+C|35816|51|M|Stefan Eriksson|51 år, digital strateg, Gagnef
+C|36198|58|M|Jan Wiklund|58 år, informatör, Gagnef
+C|36464|67|K|Birgitta Ihlis|Gagnef
+C|36465|43|M|Erik Bergman|Djurås
+C|36466|42|K|Petra Wiklund|Gagnef
+C|36467|73|K|Barbro Wallin|Björbo
+C|36210|34|M|Patrick Svärd|34 år, projektingenjör, Gagnef
+C|36470|18|K|Alma Eriksson|Djurmo
+C|36471|40|M|Samuel Källman|Djurås
+C|36203|62|M|Peter Vogt|62 år, partiombudsman, Gagnef
+C|36474|69|K|Annika Winlöf|Gagnef
+C|36475|76|M|Jan Wallin|Björbo
+C|36220|60|K|Eva Vogt|60 år, specialpedagog, Gagnef
+C|36477|66|M|Bengt Rosén|Mockfjärd
+C|36478|75|M|Per-Erik Larsson|Dala-Floda
+C|36479|53|K|Anna Söderberg|Djurmo
+C|36480|69|M|Pär Sixtensson|Djurås
+C|125910|61|M|Benny Rosengren|Linkontrollör, Ludvika
+C|511902|48|M|Robert Österlund|Gagnef
+C|515119|71|M|Conney Åkerklint|
+C|515120|25|M|Jonatan Åkerklint|

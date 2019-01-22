@@ -1,8 +1,189 @@
-2|121448|121449|57847|57844|121452|121453|121454|121455|28160|121457|121458|121459|57859|121461|121462|121463|57865|121465|121466|121467|121468|57856|121470|121471|121472|121473|121474|121475|121476|121477|121478|57860|121480|121481|121482|121483|121484|121485|121486|121487|149827|149828|149829|149830|149831|149832
-4|37078|39469|79722|79723|79724|39476|79726|79727|37091|79729|79730|79731|79732|39483|79734|79735|39477|79737|79738|37093|79740
-68|31697|31691|31701|63069|63070|31728|63072|63073|63074|63075|63076
-3|112533|112534|112535|112536|112537|112539|112540|112541|112542|112543|112544|112545
-55|126079|126080|126081|126082|126083|126084|21560|126086|20743|126088
-1|63077|63078|63079|63080|63081|63082|63083|63084|63085|63086|63087|63088|63089|63090|63091|63092|63093|63094|63095|63096|63097|63098|63099|63100|63101|63102|63103|63104|63105|63106|63107|63108|63109|63110|63111|63112|63113|63114|63115
-110|66989|66990|66991|66992|66993|66994|66995|66996|66997|66998|66999|67000|67001|67002|67003|67004|67005|67006|67007|67008|67009|67010|67011|67012
-5|124681|124682|124683|124684|124685|124686|124687|124688|124689
+T|Ystad
+A|2|121448|121449|57847|57844|121452|121453|121454|121455|28160|121457|121458|121459|57859|121461|121462|121463|57865|121465|121466|121467|121468|57856|121470|121471|121472|121473|121474|121475|121476|121477|121478|57860|121480|121481|121482|121483|121484|121485|121486|121487|149827|149828|149829|149830|149831|149832
+A|4|37078|39469|79722|79723|79724|39476|79726|79727|37091|79729|79730|79731|79732|39483|79734|79735|39477|79737|79738|37093|79740
+A|68|31697|31691|31701|63069|63070|31728|63072|63073|63074|63075|63076
+A|3|112533|112534|112535|112536|112537|112539|112540|112541|112542|112543|112544|112545
+A|55|126079|126080|126081|126082|126083|126084|21560|126086|20743|126088
+A|1|63077|63078|63079|63080|63081|63082|63083|63084|63085|63086|63087|63088|63089|63090|63091|63092|63093|63094|63095|63096|63097|63098|63099|63100|63101|63102|63103|63104|63105|63106|63107|63108|63109|63110|63111|63112|63113|63114|63115
+A|110|66989|66990|66991|66992|66993|66994|66995|66996|66997|66998|66999|67000|67001|67002|67003|67004|67005|67006|67007|67008|67009|67010|67011|67012
+A|5|124681|124682|124683|124684|124685|124686|124687|124688|124689
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|121448|65|M|Kent Mårtensson|Kommunalråd
+C|121449|48|K|Anja Edvardsson|Gymnasielärare
+C|57847|47|M|Roger Jönsson|Arbetsförmedlare, Ystad
+C|57844|54|K|Cecilia Magnusson-Svärd|Kurator, Ystad
+C|121452|49|M|Mårten Mårtensson|Affärsanställd
+C|121453|60|K|Ingrid Ek|Arbetsförmedlare
+C|121454|43|M|Kevin Rasmussen|Hamnarbetare
+C|121455|64|K|Lisbeth Karlsson|Säljare
+C|28160|23|M|Adrian Magnusson|Juriststuderande, Ystad
+C|121457|27|K|Terese Grahn|Tjänsteperson
+C|121458|72|M|Lars Wollin|Pensionär
+C|121459|53|K|Shukrije Pllashniku|Jurist/Lärare
+C|57859|27|M|Mike Enocksson|Statsvetare, Ystad
+C|121461|71|K|Ros-Marie Johansson|Fd. Nattportier
+C|121462|34|M|Per-Ola Nilsson|Elektriker
+C|121463|19|K|Isabelle Strandhagen|Studerande
+C|57865|67|M|Lars Toftemar|Fd. Systemkonsult, Ystad
+C|121465|62|K|Lena Andersson|Frisör
+C|121466|45|M|Thomas Micha|Lantmätare
+C|121467|32|K|Kerstin Jönsson|Lokalvårdare
+C|121468|74|M|Jan-Erik Jönsson|Fd.Undersköterska
+C|57856|76|K|Lillian Borén|Fd Undersköterska, Ystad
+C|121470|49|M|Kenny Fransson|Marknadsförare
+C|121471|71|K|Doris Möller|Koordinator
+C|121472|29|M|Riccard Axtelius|Väktare/Fotograf
+C|121473|67|K|Eva Setréus|Fd. Personalhandläggare
+C|121474|74|M|Kaj Jönsson|Pensionär
+C|121475|76|K|Gunilla Olsson|Fd. Undervisningsråd
+C|121476|22|M|Rickard Axtelius|Träarbetare
+C|121477|58|K|Birgitta Cestrone Nyman|Leg.sjuksköterska
+C|121478|58|M|Dan-Peter Nilsson|Personlig assistent
+C|57860|65|K|Jasenka Mauzer Åkerlund|Elektriker, Ystad
+C|121480|64|M|Allan Waktmar|Projektsamordnare
+C|121481|52|K|Kim Grahn|Barnskötare
+C|121482|65|M|Cerny Balksäter|Personlig assistent
+C|121483|59|K|Inger Alm|Lärare
+C|121484|39|M|Magnus Arling|Murare/ombudsman
+C|121485|51|K|Elisabeth Carlsson|Undersköterska
+C|121486|67|M|Kurt Westlund|Konsult
+C|121487|71|K|Lena-Karin Larsson|Pensionär
+C|149827|81|M|Hardy Persson|Pensionär
+C|149828|70|K|Ann-Chrestin Saedén|Entreprenör
+C|149829|54|M|Niklas Grahn|Arbetsförmedlare
+C|149830|70|M|Lars Holmgren|Fd. Personalledare
+C|149831|64|M|Tommy Persson|Distriktssköterska
+C|149832|54|M|Thomas Karlsson|Elsäkerhetsansvarig
+C|37078|55|K|Elisabeth Håkansson|Enhetschef, 55, Nybrostrand
+C|39469|53|M|Jan Erlandsson|Redovisningskonsult, 53, Ystad
+C|79722|66|M|Börje Andersson|Lantbrukare, Ingelstorp
+C|79723|55|K|Eva Bramsvik Håkansson|Måltidschef, Bromma
+C|79724|41|M|Martin Andersson|Lantmästare, Löderup
+C|39476|50|M|Henrik Berven|Enhetschef, 50, Ystad
+C|79726|64|K|Madeleine S.Hägg|Småföretagare, Löderup
+C|79727|70|M|Nils-Evert Erlandsson|Lantmästare, Hunnestad
+C|37091|67|M|Håkan Eriksson|Konsult, 67, Ystad
+C|79729|57|K|Carina Gustavsson|Verksamhetschef, Glemmingebro
+C|79730|66|M|Hans Christerson|Lantbrukare, Kåseberga
+C|79731|73|M|Ingmar Ljunggren|Överstelöjtnant, Ystad
+C|79732|53|K|Christina Christensson|Produktspecialist, Svarte
+C|39483|69|M|Ronny Persson|Pensionär, 69, Ystad
+C|79734|37|M|Martin Forsberg|Apotekare, Ystad
+C|79735|53|K|Eva Olsson|HR, Sövestad
+C|39477|42|M|Per-Ove Forsberg|Jur. kand, 42, Ystad
+C|79737|45|M|Jerry Nilsson|Bitr.fastighetsförvaltare, Ystad
+C|79738|30|M|Sebastian Glifberg|Målare, Ystad
+C|37093|56|M|Ewert Andersson|Egenföretagare, 56, Löderup
+C|79740|52|M|Benny Rosdahl|Sjukpensionär, Ystad
+C|31697|67|M|Göran Göransson|67 år, Företagare, Ystad
+C|31691|18|M|Mohammad Omran|19 år, Student, Ystad
+C|31701|41|K|Sofia Damm|41 år, Riksdagsledamot, Ystad
+C|63069|59|M|Anders Mårtensson|Projektkoordinator, Sövestad
+C|63070|48|K|Hanan Tanash|Docent överläkare, Ystad
+C|31728|18|M|Kishor Peneff|19 år, Student, Ystad
+C|63072|43|M|Håkan Thorén Damm|Projektledare, Ystad
+C|63073|46|K|Renée Lindhe|Inspiratör, Ystad
+C|63074|74|M|Bo Frense Ekenstierna|Filosofie doktor, Ystad
+C|63075|73|K|Kersti Olsson|Pensionär, Ystad
+C|63076|72|M|Sven Wollmer|Pensionär, Ystad
+C|112533|63|M|Per-Olof Lind|Ystad
+C|112534|63|M|Urban Fasth|Ystad
+C|112535|74|K|Karin Olsson Lindström|Ystad
+C|112536|65|K|Anne-Marie Fasth|Ystad
+C|112537|70|K|Agneta van Toor|Ystad
+C|112539|57|K|Ingeborg Pålsson|Sövestad
+C|112540|76|K|Ulla Winberg|Ystad
+C|112541|47|M|Måns Axkull|Ystad
+C|112542|70|M|Bengt Nilsson|Ystad
+C|112543|67|K|Saga Bitkover-Norman|Ingelstorp
+C|112544|69|K|Lena Nilsson|Ystad
+C|112545|70|M|Bengt Olof Fernerud|Löderup
+C|126079|33|K|Malin Nilsson|33 år, Livsmedelstekniker
+C|126080|50|M|Marcus Bräutigam|50 år, Analytiker på Skatteverket
+C|126081|44|K|Marina Nilsson|44 år, Personlig assistent
+C|126082|53|M|Magnus Hörnblad|53 år, Socionom
+C|126083|48|K|Ketty Hagmann|48 år, Leg. Psykolog, Leg. Psykoterapeut
+C|126084|51|M|Mikael Cadier|51 år, Personligt ombud, Arbetskonsulent
+C|21560|48|K|Sonja Valtonen Sköld|Socionom, 48 år, Ystad
+C|126086|63|M|Henrik von Görtz-Wrisberg|63 år, Företagare
+C|20743|34|K|Emma Nilsson|Miljöstrateg, 34 år, Ystad
+C|126088|41|M|Fredrik Ellberg|41 år, Programmerare
+C|63077|46|K|Kristina Bendz|46 år, företagare, Glemmingebro
+C|63078|39|M|Sverker Meyer|39 år, gymnasielärare, Ystad
+C|63079|61|K|Gunilla Andersson|61 år, företagare, Ystad
+C|63080|44|M|Christian Persson|44 år, utvecklingschef, Svarte
+C|63081|68|M|Henrik Plantin|68 år, ekonom, Bellevue, Ystad
+C|63082|61|K|Cecilia Fahlborg|61 år, arbetsmarknadshandläggare, Ystad
+C|63083|29|M|Magnus Anderberg|29 år, polis, Västra Sjöstaden, Ystad
+C|63084|74|M|Bo Sterner|74 år, överstelöjtnant, Edvinshem, Ystad
+C|63085|40|M|Johan Wahlgren|40 år, snickare, Källesjö
+C|63086|54|K|Paula Larsson Jarl|54 år, upphandlingshandläggare, Köpingebro
+C|63087|66|M|Ingemar Andersson|66 år, VD, Gamla staden, Ystad
+C|63088|44|M|Olof Jolom|44 år, entreprenör, Lilla Köpinge
+C|63089|68|M|Stefan Engdahl|68 år, konteramiral, Östra villaområdet, Ystad
+C|63090|30|K|Charlotte Åhman Persson|30 år, studerande, Gamla staden, Ystad
+C|63091|61|M|Curt Hansson|61 år, försäljningsanalytiker, Köpingebro
+C|63092|67|M|Lennart Johansson|67 år, säljledare, Solbacken, Ystad
+C|63093|72|M|Tommy Andersson|72 år, företagare, Gamla staden, Ystad
+C|63094|31|M|Clifford Härstedt|31 år, administratör, Gamla staden, Ystad
+C|63095|59|M|Mats Nilsson|59 år, VD, Hälsobacken, Ystad
+C|63096|47|K|Paula Nilsson|47 år, biträdande rektor, Ystad
+C|63097|54|M|Jan Axlund|54 år, säljare, Glemmingebro
+C|63098|59|M|Kent Svensson|59 år, jordbrukare/specialpedagog, Nybrostrand
+C|63099|62|M|Jimmy Andersson|62 år, förvaltningschef/driftschef, Hörup
+C|63100|68|M|Per-Einar Larsson|68 år, VD, Edvinshem, Ystad
+C|63101|65|K|Lykke Palme|65 år, speciallärare, Marsvinsholm
+C|63102|38|M|John Axelsson|38 år, ekonom, Nybrostrand
+C|63103|72|K|Gunilla Björklund|72 år, programmerare, Svarte
+C|63104|54|M|Peter Diurhuus-Gundersen|54 år, gymnasielärare, Solbacken, Ystad
+C|63105|45|K|Sara Wahlgren|45 år, stationschef, Bärområdet, Ystad
+C|63106|76|M|Bertil Borgström|76 år, polis, Bellevue, Ystad
+C|63107|77|K|Lena Månsson|77 år, rektor, Gamla staden, Ystad
+C|63108|67|M|Billy Nielsen|67 år, fil. kand., Surbrunn, Ystad
+C|63109|72|K|Eva-Kristina Ellesson|72 år, lärare, Edvinshem, Ystad
+C|63110|77|M|Bo Lönnerblad|77 år, civilingenjör, Svarte
+C|63111|34|M|Johan Lammer|34 år, key account manager, Svarte
+C|63112|71|M|Christer Bartholdi|71 år, civilekonom, Svarte
+C|63113|18|M|Hugo Kvist|18 år, studerande, Bärområdet, Ystad
+C|63114|73|M|Christer Carlsson|73 år, officer, Edvinshem, Ystad
+C|63115|18|M|Milton Pechmann|18 år, studerande, Åkesholm, Ystad
+C|66989|53|M|Jan-Åke Isaksson|Lantbrukare, Ystad
+C|66990|50|M|Paul Svensson|Egenföretagare, Ystad
+C|66991|56|M|Michael Michaelsen|Admin. konsult, 56 år
+C|66992|50|K|Anna Sjöland|Sjuksköterska, 50 år
+C|66993|52|M|Göran Björk|Egen företagare, 52 år
+C|66994|62|M|Leif Olsson Svensson|62 år, fd lärare, Svenstorp
+C|66995|70|M|Thomas Heinrich|70 år, sjökapten, Ystad
+C|66996|42|K|Susan Berg|42 år, medicinsk sekreterare, St Herrestad
+C|66997|51|M|Tomas Landgren|Tekniker, 51 år
+C|66998|60|M|Peter Lindhe|60 år, chaufför, Ystad
+C|66999|75|M|Klas Nilsson|75 år, frisörmästare, Nybrostrand
+C|67000|59|M|Lars-Erik Larsson|Bussförare, 59 år
+C|67001|61|M|Bengt Gunnarsson|60 år, lantarbetare, Löderup
+C|67002|68|M|Kenneth Andersson|Pensionär, 68 år
+C|67003|72|M|Bo Lasson|72 år, fotograf, Ystad
+C|67004|50|K|Helen Stahre|50 år, högskolestuderande, Ystad
+C|67005|68|M|Tommy Bengtsson|68 år, pensionär, Svarte
+C|67006|64|K|Berit Bengtsson|64 år, beroendeterapeut, Svarte
+C|67007|57|M|Peter Linder|57 år, chaufför, Ystad
+C|67008|52|M|Peter Lundgren|Egen företagare, 52 år
+C|67009|60|K|Kerstin Persson|60 år, djurskötare, Skårby
+C|67010|66|M|Kent Andersson|66 år, fd undersköterska, Ystad
+C|67011|54|K|Susanne Söderberg|54 år, frisörska, Svenstorp
+C|67012|45|M|Roger Andersson|45 år, sjukpensionär, Ystad
+C|124681|67|M|Göran Brante|pensionär, Löderup
+C|124682|58|K|Vicki Svedrell|konstnär, Ystad
+C|124683|42|M|Anders Hansson|socialsekreterare, Ystad
+C|124684|39|K|Annika Weitner|socionom, Ystad
+C|124685|49|M|Jonas Pettersson|transkriberare, Ystad
+C|124686|59|K|Maria Tipp Weiss|medicinsk sekreterare, 59 år
+C|124687|47|K|Mariana Nilsson|servicetekniker, 48 år
+C|124688|61|M|Dick Lindström|fotograf, 61 år
+C|124689|70|K|Mona Olsson|pensionär, Ystad

@@ -1,8 +1,251 @@
-2|97710|70617|126489|126490|126491|126492|126493|126494|126495|126496|126497|126498|126499|126500|126501|126502|126503|126504|97718|126506|126507|126508|126509|126510|126511|126512|126513|97701|126515|126517|126518
-4|71142|71143|71144|71145|71146|71147|71148|71149|71150|71151|71152|71153|71154|71155|71156|71157|71158|71159|71160|71161|71162|71163|71164|71165|71166
-68|164159|164160|164161|164162|164163|164164|164165|164166|164167|164168|164169|164170|164171|164172|164173|164174|164175|164176|164177
-3|14993|14994|14995|14996|14998|14999|15000|15001|15002|15003|15004|15005|15006|15007|15008|15009|15010|15011|15012|15013|15014|15015|15016|15017|15018|15019|15020|15021|15022|15023|15024|15025|15026|15027|15028|15029|15030|15031|15032|15033|15034|15035|15036|15037|15038|15039|15040|15041|15042|15043|15044|15045|15046|15047|15048|15049
-55|123360|123361|123362|123363|123364|123365|123366|123367|123368|123369|123371|123372|123373|123374|123375|123376|123377
-1|12785|94744|94745|94746|23161|23172|23167|94750|94751|94752|23201|94754|12791|12804|94757|94758|94759|23187|94761|23176|23209|94764|94765|94766|94767|94768|94769|94770|94771|23191|94773|94774|94775|94776|94777|94778|94779|94780|94781|94782|94783|94784|94785|94786|94787|94788|94789|94790|94791|94792|94793|23197|94795|94796|94797|94798|94799|94800|94801|23183|94803|94804|94805
-110|81559|81560|81561|81562|81563|81564|81565|81566|81567|81568|81569|81570|81571|81572|81573|81574|81575|81576
-5|215962|215963|215964|215965|215966|215967
+T|Täby
+A|2|97710|70617|126489|126490|126491|126492|126493|126494|126495|126496|126497|126498|126499|126500|126501|126502|126503|126504|97718|126506|126507|126508|126509|126510|126511|126512|126513|97701|126515|126517|126518
+A|4|71142|71143|71144|71145|71146|71147|71148|71149|71150|71151|71152|71153|71154|71155|71156|71157|71158|71159|71160|71161|71162|71163|71164|71165|71166
+A|68|164159|164160|164161|164162|164163|164164|164165|164166|164167|164168|164169|164170|164171|164172|164173|164174|164175|164176|164177
+A|3|14993|14994|14995|14996|14998|14999|15000|15001|15002|15003|15004|15005|15006|15007|15008|15009|15010|15011|15012|15013|15014|15015|15016|15017|15018|15019|15020|15021|15022|15023|15024|15025|15026|15027|15028|15029|15030|15031|15032|15033|15034|15035|15036|15037|15038|15039|15040|15041|15042|15043|15044|15045|15046|15047|15048|15049
+A|55|123360|123361|123362|123363|123364|123365|123366|123367|123368|123369|123371|123372|123373|123374|123375|123376|123377
+A|1|12785|94744|94745|94746|23161|23172|23167|94750|94751|94752|23201|94754|12791|12804|94757|94758|94759|23187|94761|23176|23209|94764|94765|94766|94767|94768|94769|94770|94771|23191|94773|94774|94775|94776|94777|94778|94779|94780|94781|94782|94783|94784|94785|94786|94787|94788|94789|94790|94791|94792|94793|23197|94795|94796|94797|94798|94799|94800|94801|23183|94803|94804|94805
+A|110|81559|81560|81562|81563|81564|81565|81566|81567|81568|81569|81570|81571|81572|81573|81574|81575|81576
+A|5|215962|215963|215964|215965|215966|215967
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|97710|47|K|Annica Gryhed|47, Kommunalråd, Täby
+C|70617|39|M|Markus Selin|39, Civilingenjör, Civilekonom, Täby
+C|126489|58|K|Agneta Lundahl|58, Egen företagare, Täby Kyrkby
+C|126490|79|M|Janne Boman|79, fil.kand, Gribbyholm
+C|126491|50|K|Camilla Henriksson Bajas|50, Administratör, Viggbyholm
+C|126492|56|M|Nick Rejimand|56, Undersköterska, Skarpäng
+C|126493|22|K|Paulina Orrego|22, Studerande, Grindtorp
+C|126494|53|M|Stefan Andersson|54, Controller, Täby Centrum
+C|126495|55|K|Ghodsi Zolfagarbegi|55, Labratorieenhetschef, Lahäll
+C|126496|26|M|Aksel Nordin|26, Barnskötare, Grindtorp
+C|126497|70|K|Eva Lindau|70, Journalist, Täby Centrum
+C|126498|75|M|John van den Tempel|75, Aktiv pensionär, Hägernäs
+C|126499|52|K|Rigmor Svaneberg|52, Samhällsplanerare, fil. kand, NäsbyPark
+C|126500|70|M|Rajender Joshi|70, fd Projektledare, Civilingenjör, Täby Kyrkby
+C|126501|55|K|Renate Minas|55, Lektor, Täby Kyrkby
+C|126502|43|M|Magnus Kortell|43, Förvaltningsledare, NäsbyPark
+C|126503|22|K|Viktoria Tomsson|22, Juriststudent, NäsbyPark
+C|126504|62|M|Alf Bjälnäs|62, Leg. lärare, Viggbyholm
+C|97718|67|K|Barbro Lindberg|67, Ekonom, NäsbyPark
+C|126506|66|M|Jan Jacobsson|66, Styrelseledamot, Grindtorp
+C|126507|58|K|Gunilla Lundberg|57, Socionom, Visinge
+C|126508|56|M|Tomas Korpi|56, Universitetslärare, Täby Kyrkby
+C|126509|26|K|Natalie Larsson|26, Jurist, Hägernäs
+C|126510|33|M|Viktor Andersén|33, Arbetsledare, Vallatorp
+C|126511|75|K|Ylva Blomkvist|75, Pensionär, Hägernäs
+C|126512|59|M|Michael Lundahl|59, Försäljningschef, Hägernäs
+C|126513|61|K|Åsa Hallström|61, Grundskollärare, Täby Centrum
+C|97701|58|M|Conny Fogelström|58, Egenföretagare, Täby
+C|126515|46|K|Eva Björkman|46, Ombudsman, Roslags Näsby
+C|126517|51|K|Towe Fogelström|51, Sjuksköterska, Gribbylund
+C|126518|78|M|Bo Gustavsson Grip|78, Fd oppositionsråd, Grindtorp
+C|71142|56|K|Annica Nordgren|56, Täby, Kommunalråd
+C|71143|50|K|Benita Funke|Kulturråd ambassad, Gribbylund
+C|71144|41|M|Daniel Wemmergård|41, Täby, Lokförare
+C|71145|56|M|Stefan Norell|Auktoriserad revisor, Täby kyrkby
+C|71146|40|M|Roger Björkbacka|Nationalekonom, Gribbylund
+C|71147|59|M|Pietro Marchesi|59, Täby, Projektledare
+C|71148|49|K|Lena Kvarnström|Ingenjör, Vallatorp
+C|71149|44|M|Örjan Lundberg|Systemvetare, Täby centrum
+C|71150|61|M|Mats Wilhelmsson|Egen företagare, Roslags Näsby
+C|71151|74|M|Gösta Rappe|Civilekonom, konsult, Ella park
+C|71152|75|M|Per Åke Evén|75, Täby, Pol. Mag.
+C|71153|48|M|Thomas Dansk|Civ.ing, Ella gård
+C|71154|65|K|Britt Engdahl|Skolintendent, Täby kyrkby
+C|71155|73|K|Cecilia Silfwerbrand|Rektor och företagare, Skarpäng
+C|71156|20|K|Vilma Björk|20, Täby, Studerande
+C|71157|72|M|Stefan Wångstedt|72, Täby, Egen företagare
+C|71158|77|K|Siv-Mari Skarp Andersson|77, Täby, Pensionär
+C|71159|52|M|Johan Söderberg|Ingenjör,Täby centrum
+C|71160|70|K|Gunnel Eriksson|Pensionerad sköterska, Ella gård
+C|71161|49|M|Andreas Funke|Civ.ing, Gribbylund
+C|71162|66|M|Urban Thornberg|Kyrkokamrer, Viggbyholm
+C|71163|74|M|Kurt Göran Eriksson|74, Täby, Pol. Mag.
+C|71164|63|M|Anders Eriksson|Civ.ing, Ella gård
+C|71165|61|K|Heli Thornberg|Jur. kand., Viggbyholm
+C|71166|81|K|Kerstin Gräns|Pensionär, Täby kyrkby
+C|164159|39|K|Camilla Brodin|39, Kommunalråd, Täby
+C|164160|40|M|Tobias Karlström|40, VD, Täby
+C|164161|55|M|Christer Swaretz|55, COO, Täby
+C|164162|63|K|Rut Casselbrant Ludwig|63, Ämneslärare
+C|164163|46|K|Gunilla Törnkvist|46, Förskollärare
+C|164164|37|M|David Nilsson|37, Säljare
+C|164165|46|K|Eva von Wowern|46, Kanslichef, Täby
+C|164166|20|M|Olof Kvernvik|20, Juriststudent, Täby
+C|164167|77|M|Rolf Åbjörnsson|77, Advokat, fd. riksdagsledamot, Täby
+C|164168|61|M|Peter Ludwig|61, Tjänsteman
+C|164169|76|M|Allan Nilsson|76, Pensionär
+C|164170|74|M|Bengt G Nilsson|74, Fil.lic
+C|164171|45|K|Maria Lindqvist|45, Egenföretagare/Journalist
+C|164172|73|M|Imad Abbawi|73, Tolk
+C|164173|68|K|Lilian Halvarsson|68, Fil.mag
+C|164174|70|M|Ragnar Lundgren|70, Ekonom
+C|164175|88|K|Inga Davisson|88, Fd. speciallärare
+C|164176|79|M|Sigvard Beck-Friis|79, Fd. marknadsdirektör
+C|164177|54|M|Mikael Hollmark|54, VD
+C|14993|61|M|Hans Ahlgren|kommunalråd, Täby
+C|14994|44|K|Camilla Ifvarsson|dr arbetsvetenskap, Täby
+C|14995|57|M|Robert Stopp|Evenemangsproducent, Ella Park, 57 år
+C|14996|37|K|Susan El Hark|politisk sekreterare, Täby
+C|14998|56|M|Mats Nordström|marknadsekonom,Täby
+C|14999|23|K|Saga Bowallius|Fil.kand. Statsvetenskap, Hägernäs, 23 år
+C|15000|47|M|Ulf Schyldt|Författare, Näsbydal, 47 år
+C|15001|68|K|Carin Wiklund Jörgensen|Fd. Rådman, Löttingelund, 68 år
+C|15002|50|M|Thomas Helleday|Marknadsanalytiker, Näsbypark, 50 år
+C|15003|49|K|Maria Bratt|Konsult, Näsbypark, 49 år
+C|15004|61|M|Lars Lindberg|Civilingenjör, Viggbyholm, 61 år
+C|15005|75|K|Barbro Richter Steene|Fil.kand., Grindtorp, 75 år
+C|15006|49|M|Örjan Winkvist|VD, Näsbypark, 49 år
+C|15007|29|K|Elin Ekeroth|leg psykolog, Täby
+C|15008|62|M|Lars Tunberg|civilingenjör, Täby
+C|15009|36|K|Sandra Barouta Elvin|säkerhetschef, Täby
+C|15010|30|M|Alexander Eriksson|Civilingenjör, Storstugan, 30 år
+C|15011|86|K|Lena Dahl|Fd. Rektor, Täby Centrum, 86 år
+C|15012|30|K|Josefine Friman|Jurist, Täby Kyrkby, 30 år
+C|15013|52|M|Petter Norrthon|Gymnasielärare, Ella Park, 52 år
+C|15014|22|M|Johannes Sjölund|Lärarstudent, Täby Centrum, 22 år
+C|15015|71|K|Gun-Britt Wattenström|leg sjuksköterska, Täby
+C|15016|80|M|Sven Fjelkestam|Arkitekt, Ensta, 80 år
+C|15017|53|K|Ann-Marie Malmsten|Verksamhetschef, Ensta, 53 år
+C|15018|18|M|Simon Höxter|Studerande, Skarpäng, 18 år
+C|15019|72|M|Leif Odselius|senior, Täby
+C|15020|45|K|Katarina Lorenz|Digital projektledare, Näsbydal, 45 år
+C|15021|42|M|Alexander Wallentin|Högstadielärare, Täby Kyrkby, 42 år
+C|15022|62|M|Jan-Åke Willumsen|Ställverksmontör, Hägernäs, 62 år
+C|15023|61|K|Caroline Magnusson|Civilingenjör, Täby, 61 år
+C|15024|49|K|Tove Skytt|Gymnasielärare, Näsbypark, 49 år
+C|15025|51|M|Stefan Andersson|Affärsutvecklare, Teknisk Dr, Visinge, 51 år
+C|15026|24|K|Ida Arnstedt|Kontorsansvarig, Viggbyholm, 24 år
+C|15027|45|M|Martin Åleheim|Rektor, Näsbydal, 45 år
+C|15028|47|K|Kerstin Dejemyr|Polis, Verksamhetsspecialist, Täby Centrum, 47 år
+C|15029|19|M|Philip Von Scheele|Student, Ella Park, 19 år
+C|15030|74|M|Johan Pohl|Fil.Kand, Skarpäng, 74 år
+C|15031|63|M|Staffan Söderlund|Civilingenjör, Ensta, 63 år
+C|15032|76|K|Carin Håkansson|Veterinär, Ensta, 76 år
+C|15033|74|M|Göran Mandeus|Egenföretagare, Viggbyholm, 74 år
+C|15034|76|M|Lars Fond|Pensionär, Västra Vallabrink, 76 år
+C|15035|72|K|Britt-Louise Rappe|Civilekonom, Jur.Kand, Ella Park, 72 år
+C|15036|44|M|Esbjörn Nyström|Fil.Dr, Viggbyholm, 44 år
+C|15037|63|M|Keivan Ashhami|arkitekt, Täby
+C|15038|81|M|Jan Anderstedt|Pensionerad, Hägernäs Strand, 81 år
+C|15039|47|M|Christian Ifvarsson|Ek.Dr, Täby Krykby, 47 år
+C|15040|72|M|Hans Wånander|Pensionist, Hägernäs Strand, 72 år
+C|15041|89|M|Per Bergenholm|Civiljägmästare, Täby Centrum, 89 år
+C|15042|54|M|Mridul Bhattacharjee|Civilekonom, Vallatorp, 54 år
+C|15043|80|M|Georges Barré|Biodlare, Täby Centrum, 80 år
+C|15044|73|K|Gunilla Partenius Olsson|Pensionär, Grindtorp, 73 år
+C|15045|53|M|Mats Bernö|Banktjänsteman, Täby, 53 år
+C|15046|29|M|Vladan Lausevic|Debattör, Näsbypark, 29 år
+C|15047|49|M|Max Mennfort|Chefsjurist, Ensta, 49 år
+C|15048|70|M|Kenth Edström|Pensionär, Täby Centrum, 70 år
+C|15049|75|M|Mikael Zuhr|Företagare, Täby centrum, 75 år
+C|123360|53|K|Eva Pethrus|51, vd, Täby
+C|123361|70|K|Kerstin Espman|70 år, Gribbylund, fd leg sjukgymnast, fil. kand
+C|123362|29|M|Bill Öberg|29 år, Ensta, lärare i svenska och textilslöjd
+C|123363|66|K|Elisabeth Johansson|66 år, Täby kyrkby, fd kanslichef
+C|123364|41|M|Niclas Evén|41 år, Näsbydal, provkonstruktör
+C|123365|72|K|Lisl Giertz|72 år, Täby centrum - storstugan, fd lärare
+C|123366|52|M|Didi Shin|52 år, Skarpäng, konsult/student
+C|123367|26|K|Amanda Pethrus|26 år, Täby kyrkby, education sales manager
+C|123368|57|M|Erling Almstrand|57 år, Täby kyrkby, civ ek
+C|123369|66|K|Barbro Kristianson|66 år, Gribbylund, pensionär, fd statlig handläggare, fil. kand.
+C|123371|66|M|Rolf Öberg|66 år, Åkerby, fd lärare
+C|123372|67|K|Susanne Ellis|67 år, Skarpäng, fd lärare
+C|123373|79|M|Gunnar Zettersten|79 år, Gribbylund, pensionär
+C|123374|63|M|Lars Hallström|63 år, Täby centrum - åkerby, säljare
+C|123375|63|K|Ann Wennström|63 år, Täby kyrkby, med. sekr
+C|123376|74|M|Thomas Elevant|74 år, Näsbypark, tekn. dr.
+C|123377|23|M|Anton Pethrus|23 år, Täby kyrkby, spelutvecklare/student
+C|12785|43|M|Erik Andersson|43, Riksdagsledamot
+C|94744|47|M|Johan Algernon|47, Kommunalråd, Lahäll
+C|94745|54|K|Birgitta Kaasik|54, Egenföretagare, Vallatorp
+C|94746|41|K|Anna Gustafsson|41, Sektionschef, Hägernäs
+C|23161|50|K|Iréne Svenonius|50, Finanslandstingsråd
+C|23172|61|M|Thomas Nilsonne|61, Företagare
+C|23167|50|K|Sofia Paulsson|50, Egenföretagare
+C|94750|28|M|Carl Henrik Svenson|28, Landstingsrådssekreterare, Täby Centrum
+C|94751|51|K|Filippa Reinfeldt|51, Affärsutvecklingschef, Näsbypark
+C|94752|59|M|Patric Hamilton|59, Jurist, Hägernäs
+C|23201|56|K|Eva Strand|56, leg. Fysioterapeut
+C|94754|63|M|Mikael Jensen|63, Egenföretagare, Näsbypark
+C|12791|36|M|Fredrik Schulte|36, Riksdagsledamot
+C|12804|24|M|Viktor Norén|24, Juriststudent
+C|94757|80|M|Rolf E Ericsson|80, Egenföretagare, Näsbypark
+C|94758|39|M|Björn Ohlsson|39, Egenföretagare, Gribbylund
+C|94759|75|K|Solveig Ericsson Beckard|75, fd Egenföretagare, Näsbypark
+C|23187|59|M|Stefan Oesman|59, Jur. kand
+C|94761|21|K|Charlotte Törnstrand|21, Student, Näsbypark
+C|23176|28|M|Peter Carlström|28, Samordnare
+C|23209|48|K|Jessica Jevrém|48, Civilekonom
+C|94764|41|M|Stefan Flöjt|41, leg. Grundskollärare, Täby Centrum
+C|94765|52|K|Maria Dahlin|52, t.f Rektor, Täby Centrum
+C|94766|55|M|Thomas Öster|55, Civilingenjör, Täby Kyrkby
+C|94767|69|K|Gunilla Eldebro|69, Fil. mag, Täby Centrum
+C|94768|72|K|Marie Sjölund|72, Pensionär, Grindtorp
+C|94769|75|M|Gerhard Makowsky|75, Fastighetskonsult, Ella gård
+C|94770|61|K|Britt-Marie Axelsson|61, leg. Sjuksköterska, Grindtorp
+C|94771|38|K|Izabelle By|38, Ekonomichef, Täby Centrum
+C|23191|46|K|Line Wennberg|46, Verksamhetsutvecklare
+C|94773|44|K|Ann Andersson|44, Socionom, Skarpäng
+C|94774|67|M|Lars Hagström|67, Civilingenjör, Skarpäng
+C|94775|24|K|Cecilia Falk|24, Studerande, Grindtorp
+C|94776|59|M|Mats Källqvist|59, Managmentkonsult, Viggbyholm
+C|94777|41|M|Andreas Gustafsson|41, leg. Sjukgymnast, Hägernäs
+C|94778|46|M|Oskar Malmquist|46, Jurist, Skarpäng
+C|94779|65|M|Gunnar Göranson|65, fd. Administrativ Chef, Hägernäs
+C|94780|41|K|Sherine Dulski|41, Senior Projektledare, Vallabrink
+C|94781|77|M|Bo Klasmark|77, fd Ekonomichef, Vallabrink
+C|94782|63|M|Curt Ögren|63, Civilekonom, Grindtorp
+C|94783|46|M|Eric Gyllenberg|46, IT-chef, Täby Kyrkby
+C|94784|59|M|Stefan Flemström|59, Advokat, Skarpäng
+C|94785|78|K|Karin Rönnberg|78, Kyrkvärd, Näsbypark
+C|94786|68|K|Lisbeth Sämå|68, Socialpedagog, Hägernäs
+C|94787|74|M|Lars Edvall|74, Pensionär, Täby Centrum
+C|94788|51|M|Pontus Kyrk|51, Jurist, Gribbylund
+C|94789|43|M|Sven Hagström|43, Dataingenjör, Skarpäng
+C|94790|40|M|Arash Kashani|40, Egenföretagare, Viggbyholm
+C|94791|73|M|Torbjörn Rindås|73, Jur. kand, Hägernäs
+C|94792|50|M|Ulf Larsson|50, Civilingenjör, Skarpäng
+C|94793|27|M|Kristofer Magnusson|27, Tv-tekniker, Gribbylund
+C|23197|62|M|Jörgen Appelgren|62, Egenföretagare
+C|94795|38|M|Andreas Mathiesen|38, Inköpschef , Vallabrink
+C|94796|45|M|Reza Dehban|45, Frilansfilmare, Vallatorp
+C|94797|29|M|Mikael Jönsson|29, Civilingenjör, Näsbypark
+C|94798|77|K|Margaretha Kjellstrand|77, fd Gruppchef, Gribbylund
+C|94799|25|M|Fredrik Wohlfahrt|25, Studerande, Täby Centrum
+C|94800|29|K|Malin Magnusson|29, Mediakonsult, Gribbylund
+C|94801|53|M|Jan Svenonius|53, Civilekonom, Näsbypark
+C|23183|46|M|Joachim Holmqwist|46, Politisk sekreterare
+C|94803|20|M|Pärham Riahi|20, Studerande, Gribbylund
+C|94804|68|M|Karl Johan Kjellander|68, Konsult, Ensta
+C|94805|53|K|Sandra Åberg|53, Personaladministratör, Täby Kyrkby
+C|81559|76|M|Thore Wiberg|76, civilingenjör, Täby
+C|81560|41|M|Kristofer Nyström|41, läkare, Täby
+C|81562|63|M|Steven Jörsäter|Docent/egenföretagare, Skarpäng
+C|81563|65|M|Peeter Pihelgas|65, egenföretagare, Täby
+C|81564|46|K|Angelica Andersson|Fritidsledare, Täby Kyrkby
+C|81565|37|M|Per Rosengren|Mjukvaruingenjör, Täby Kyrkby
+C|81566|38|K|Julia Kronlid|Riksdagsledamot, Täby
+C|81567|53|K|Lena Ljungbäck|53, administratör, Täby
+C|81568|65|M|Klas Lund|Polis, Löttingelund
+C|81569|58|M|Lars Magnusson|Civilingenjör, Vallabrink
+C|81570|73|K|Gunnel Henriksson|Civilekonom, Näsby Park
+C|81571|51|M|Jörgen Backlund|Mekanikkonstruktör, Vallabrink
+C|81572|65|M|Alexei Chikish|65, elektriker, Täby
+C|81573|23|M|Rasmus Pihelgas|Studerande, Näsby Park
+C|81574|73|K|Birgitta Wiberg|Förskolelärare, Skarpäng
+C|81575|50|K|Natalia Spitari|Bussförare, Näsby Park
+C|81576|69|M|Stefan Drugge|Pensionär, Hägernäs
+C|215962|50|K|Susanne Fallqvist|dramalärare
+C|215963|73|M|Göran Larsson|pensionär
+C|215964|70|K|Elisabeth Faxelid|Täby, barnmorska och professor
+C|215965|65|M|Lasse Gottfriedz|musiklärare
+C|215966|80|K|Kerstin Fagerholm Söderberg|pensionär
+C|215967|67|M|Staffan Burvall|pensionär

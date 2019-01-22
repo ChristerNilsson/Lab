@@ -1,14 +1,340 @@
-2|64257|28167|64259|64260|64261|28155|64263|64264|64265|64266|54752|54763|54760|64270|64271|64272|54756|64274|28170|64276|64277|54765|64279|64280|64281|64282|54764|64284|64285|64286|64287|64288|64289|64290|64291|64292|64293|429488|64295|64296|64297|64298|64299|64300|64301|64302|64303|64304|64305|64306|64307|64308|64309|64310|64311|64312|64313
-4|35614|79569|37083|37077|79572|79573|79574|37089|37098|79577|79578|79579|79580|79581|39309|79583|39316|79585|79586|79587|79588|79589|79590|79591
-1136|448841
-638|515112
-471|244995|244996|244997|244998|244999|245000|245001|245002|245003
-68|32066|32067|31855|32069|32070|32071|32072|32073|32074|32075|32076|32077|32078|32079|32080|32081|32082|32083|32084|32085|32086|515954
-3|163003|163004|163005|163006|163007|163008|163009|163010|163011|163012|163013|163014|163015|163016|163017|163018|163019|163020|163021|163022|163023
-1296|150664|150665|150666|150667|150668
-55|20742|111829|21522|21523|21519|20779|111834|111835|20798|111837|111838|111839|111840|111841|154923|111842|111843
-1|62528|62529|62530|62531|62532|62533|62534|62535|62536|62537|62538|62539|62540|62541|62542|62543|62544|62545|62546|62547|62548|62549|62550|62551|62552|62553|62554|62555|62556|62557|62558|62559|62560|62561|62562|62563|62564|62565|62566|62567|62568|62569|62570|62571|62572|62573|62574|62575|62576|62577|62578|62579|62580|62581|62582|62583|62584|62585|62586|62587|62588|62589|62590|384043
-110|127568|127569|127570|127571|127572|127573|127574|127575|127576|127577|127578|127579|127580|127581|127582|127583|127584|127585|127586|127587|127588|127589|127590|127591|127592|127593|127594|127595|127596|127597|127598|127599|127600|127601|127602|127603|515948
-1006|429189|429190|429191|429192|429193|429194|429195|429196|429197|429198|429199|429200|429201|429202|429203|429204|429205|429206|429207|429208|429209|429210|429211|429212|429213|429214|429215|429216|429217|429218|429219|429220|429221|429222|429223|429224|429225
-1309|431317|431292|431324|431313
-5|124653|124654|124655|124656|124657|124658|124659|124660|124661|124662|124663|124664|124665|124666
+T|Trelleborg
+A|2|64257|28167|64259|64260|64261|28155|64263|64264|64265|64266|54752|54763|54760|64270|64271|64272|54756|64274|28170|64276|64277|54765|64279|64280|64281|64282|54764|64284|64285|64286|64287|64288|64289|64290|64291|64292|64293|429488|64295|64296|64297|64298|64299|64300|64301|64302|64303|64304|64305|64306|64307|64308|64309|64310|64311|64312|64313
+A|4|35614|79569|37083|37077|79572|79573|79574|37089|37098|79577|79578|79579|79580|79581|39309|79583|39316|79585|79586|79587|79588|79589|79590|79591
+A|1136|448841
+A|638|515112
+A|471|244995|244996|244997|244998|244999|245000|245001|245002|245003
+A|68|32066|32067|31855|32069|32070|32071|32072|32073|32074|32075|32076|32077|32078|32079|32080|32081|32082|32083|32084|32085|32086
+A|3|163003|163004|163005|163006|163007|163008|163009|163010|163011|163012|163013|163014|163015|163016|163017|163018|163019|163020|163021|163022|163023
+A|1296|150664|150665|150666|150667|150668
+A|55|20742|111829|21522|21523|21519|20779|111834|111835|20798|111837|111838|111839|111840|111841|154923|111842|111843
+A|1|62528|62529|62530|62531|62532|62533|62534|62535|62536|62537|62538|62539|62540|62541|62542|62543|62544|62545|62546|62547|62548|62549|62550|62551|62552|62553|62554|62555|62556|62557|62558|62559|62560|62561|62562|62563|62564|62565|62566|62567|62568|62569|62570|62571|62572|62573|62574|62575|62576|62577|62578|62579|62580|62581|62582|62583|62584|62585|62586|62587|62588|62589|62590|384043
+A|110|127568|127569|127570|127571|127572|127573|127574|127575|127576|127577|127578|127579|127580|127581|127582|127583|127584|127585|127586|127587|127588|127589|127590|127591|127592|127593|127594|127595|127596|127597|127598|127599|127600|127601|127602|127603
+A|1006|429189|429190|429191|429192|429193|429194|429195|429196|429197|429198|429199|429200|429201|429202|429203|429204|429205|429206|429207|429208|429209|429210|429211|429212|429213|429214|429215|429216|429217|429218|429219|429220|429221|429222|429223|429224|429225
+A|1309|431317|431292|431324|431313
+A|5|124653|124654|124655|124656|124657|124658|124659|124660|124661|124662|124663|124664|124665|124666
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1136|DjuP|Djurens parti
+B|638|KLP|Klassiskt liberala partiet
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1006|SÖS|Söderslättspartiet
+B|1309|TRP|TRYGGHETSPARTIET
+B|5|V|Vänsterpartiet
+C|64257|53|M|Torbjörn Karlsson|Kommunalråd, 53 år
+C|28167|44|K|Anna Nordstrandh|Avgiftshandläggare, Trelleborg
+C|64259|67|M|Sven Lindkvist|F.d. Ombudsman, 67 år
+C|64260|37|K|Veronica Larsson|Turismutvecklare, 37 år
+C|64261|63|M|Johnny Nilsson|Metallarbetare, 63 år
+C|28155|59|K|Marianne Pettersson|Undersköterska, Riksdagsledamot, Trelleborg
+C|64263|37|M|Andreas Persson|Produktionsledare, 37 år
+C|64264|68|K|Birgitta Lanér Sjöström|Fil. Mag., 68 år
+C|64265|53|M|Ismet Dedic|Kontorsvaktmästare, 53 år
+C|64266|44|K|Eva Höckert|Grundskolelärare, 44 år
+C|54752|52|M|Lennart Höckert|Verksamhetsutvecklare, Trelleborg
+C|54763|33|K|Layal Chidiac|Arbetsförmedlare, Trelleborg
+C|54760|69|M|Jan Lundgren|Konsult, Trelleborg
+C|64270|46|K|Cecilia Dahl Andersson|Folkbildare, 46 år
+C|64271|45|M|Paul Lövdahl|Industriarbetare, 45 år
+C|64272|75|K|Lizian Kyreus|Förskolelärare, 75 år
+C|54756|53|M|Hans Björklund|Byggnadssnickare, Trelleborg
+C|64274|73|K|Anitha Lata|Socionom, 73 år
+C|28170|48|M|Thomas Westman|Ombudsman, Trelleborg
+C|64276|75|K|Gerd Klein|Grundskolelärare, 75 år
+C|64277|37|M|Linus Pernum|Projektledare, 37 år
+C|54765|34|K|Hanna Skånberg|Personlig assistent, Trelleborg
+C|64279|68|M|Stefan Berglinden|Lärare, 68 år
+C|64280|63|K|Kerstin Johansson|Skolsköterska, 63 år
+C|64281|67|M|Anders Yngve|Svetsare, 67 år
+C|64282|70|K|Monica Nordbladh|Affärsbiträde, 70 år
+C|54764|64|M|Anders Söderberg|Tjänsteman, Trelleborg
+C|64284|65|K|Ann Lindqvist|F.d. Arbetsförmedlingschef, 65 år
+C|64285|68|M|Kenneth Johansson|Pensionär, 68 år
+C|64286|21|K|Felicia Nordstrandh|Student, 21 år
+C|64287|39|M|John Thörnlund|Verksamhetsansvarig, 39 år
+C|64288|30|K|Sini Ala|Undersköterska, 30 år
+C|64289|77|M|Sten Björk|Sjöofficer, 77 år
+C|64290|62|K|Ann-Christin Dahlgren|Undersköterska, 62 år
+C|64291|37|M|Kouder Mere|Elektriker, 37 år
+C|64292|69|K|Vita Åstrand|Pensionär, 69 år
+C|64293|56|M|Göran Hansson|Industriarbetare, 56 år
+C|429488|67|K|Yvonne Svensson|Pensionär, 67 år
+C|64295|36|M|Robert Horvath|Ombudsman, 37 år
+C|64296|34|K|Kerstin Pernum|Förskollärare, 34 år
+C|64297|71|M|Jan Ahlkvist|Pensionär, 71 år
+C|64298|70|K|Kerstin Zetterman|Pensionär, 70 år
+C|64299|48|M|Dennis Ispiroglu|Socialpedagog, 48 år
+C|64300|42|K|Zabia Alhamwi|Veterinär, 42 år
+C|64301|47|M|Malik Sesay|Enhetschef, 46 år
+C|64302|72|K|Anita Widerberg|Pensionär, 72 år
+C|64303|77|M|Geza Maté|Pensionär, 77 år
+C|64304|59|K|Anitha Ljung|Samordnare, 59 år
+C|64305|65|M|Robert Borg|Pensionär, 66 år
+C|64306|58|K|Jalila Polus|Modersmålslärare, 58 år
+C|64307|66|M|Alf Rosengren|Nämndeman, 66 år
+C|64308|38|K|Emelie Elwing|Leg. Sjuksköterska, 38 år
+C|64309|55|M|Rolf Almroth|Administratör, 55 år
+C|64310|66|K|Jelena Simic|Pensionär, 66 år
+C|64311|50|M|Roger Thell|Studerande, 50 år
+C|64312|59|K|Yvonne Borg|Verksamhetsansvarig, 59 år
+C|64313|39|K|Anna Andersson|Socionom, 39 år
+C|35614|51|M|Patrik Holmberg|51, Socialpedagog
+C|79569|51|K|Mariann Sjöström|Redovisningskonsult, Östra Värlinge, 51 år
+C|37083|46|M|Mats Sjöslätt|Försäkringstjänsteman, 46, Klagstorp
+C|37077|30|M|Ola Olsson|Ekonom/Controller, 30, Trelleborg
+C|79572|29|K|Mette Hansson|Specialistsjuksköterska, Fjärdingslöv, 29 år
+C|79573|39|K|Pernilla Linde|Landskapsingenjör, Fuglie, 39 år
+C|79574|57|K|Christina S Björklund|Aukt. redovisningskonsult, Källstorp, 57 år
+C|37089|35|K|Johanna Sjögren|Lärare, 35, Anderslöv
+C|37098|27|M|Philip Andersson|Teamleader, 27, Trelleborg
+C|79577|55|M|Mats Ingvarsson|Distriktsrepresentant, Smygehamn, 55 år
+C|79578|61|M|Kenneth Nilsson|Egenföretagare, Gislöv Läge, 61 år
+C|79579|59|M|Lars-Ingvar Andersson|Lantmästare, Maglarp, 59 år
+C|79580|70|M|Leif Sjögren|Pensionär, Fuglie, 70 år
+C|79581|67|M|Olof Rempe|Lantmästare, Gylle, 67 år
+C|39309|70|K|Birgitta Sjögren|70, Fd. kyrkokamrer, Trelleborg
+C|79583|72|M|Rolf Stridsberg|Entreprenör, Önnarp, 72 år
+C|39316|71|M|Bo Andersson|71, Lantbrukare, Trelleborg
+C|79585|52|K|Maj-Lis Fredriksson|Undersköterska, Beddingestrand, 52 år
+C|79586|49|M|Ola Palmblad|Byggprojektledare, Gislöv Läge, 49 år
+C|79587|39|M|Andreas Andersson|Sjökapten, Simmermarken, 39 år
+C|79588|51|K|Anna Wild|Marknadsförare, Smygehamn, 51 år
+C|79589|68|K|Christel Sund|Nämndeman, Trelleborg, 68 år
+C|79590|85|K|Kerstin Gahne|Företagare, Anderslöv, 85 år
+C|79591|58|K|Marie Hammar|Lärare, Grönby, 58 år
+C|448841|39|M|Andreas Ekfrost|Trelleborg, vaktmästare, 39 år
+C|515112|44|M|Daniel Palmqvist|
+C|244995|42|M|Dennis Andersson|Byggnadsarbetare
+C|244996|46|K|Valeria Holm|Målare
+C|244997|56|M|Krister Rehn|Kock
+C|244998|36|M|Daniel Larsson|IT-tekninker
+C|244999|88|M|Torsten Nilsson|Pensionär
+C|245000|52|K|Birgitte Jensen|Kontorsassistent
+C|245001|67|M|Roland Lindahl|Pensionär
+C|245002|67|M|Kaj Mortensen|Pensionär
+C|245003|45|M|Thomas Holm|Byggnadsarbetare
+C|32066|50|M|Erik Lundström|VD
+C|32067|71|M|Hans Noren|71 år, Tulltjänsteman, Smygehamn
+C|31855|69|K|Karin Jönsson|69 år, Studie- och Yrkesvägledare, Trelleborg
+C|32069|56|M|Thomas Nilsson|Brevbärare
+C|32070|62|K|Estrid Nimåker|62 år, Ekonomiassistent, Trelleborg
+C|32071|58|M|Mats Svensson|58 år, Säljansvarig, Trelleborg
+C|32072|75|K|Monica Edström|75 år, Pensionär, Trelleborg
+C|32073|80|K|Birgitta Svensson|80 år, Sekreterare, Trelleborg
+C|32074|49|M|Joakim Freiman|Pastor
+C|32075|82|M|Åke Svensson|Ämneslärare
+C|32076|38|K|Erika Kuusenjärvi|Optical dispenser
+C|32077|72|M|Johnny Svensson|Säljare
+C|32078|41|K|Ann Lundström|Egenföretagare
+C|32079|58|M|Mark Huisman|Landskapsarkitekt
+C|32080|63|M|Bengt Larsson|Enhetschef
+C|32081|65|K|Christina Nilsson|Förskollärare
+C|32082|48|M|Ingmar Aronson|Pastor
+C|32083|46|M|Fredrik Jönsson|Enhetschef
+C|32084|35|M|Daniel Svensson|Trafikledare
+C|32085|69|M|Christer Nelander|Speditör
+C|32086|45|K|Tina Aronsson|Pedagog
+C|163003|51|M|Henrik Silfverstolpe|Klagstorp
+C|163004|67|K|Inger Persson|Specialpedagog, Västra Alstad, 67 år
+C|163005|20|M|Kristoffer Lindstrii|Studerande, Trelleborg, 20 år
+C|163006|68|K|Lotta Belstad|Ekonom, Klagstorp, 68 år
+C|163007|51|M|Hans Jeppsson Berg|Trelleborg
+C|163008|43|M|Jonas Ralving|Anderslöv
+C|163009|71|K|Ylva Ekstrand|Trelleborg
+C|163010|39|K|Emma Lindstrii|Civilekonom, Trelleborg, 39 år
+C|163011|20|M|Oskar Spetz|Trelleborg
+C|163012|72|K|Ann-Christine Seehusen|Kriminalvårdare, Gislövs läge, 72 år
+C|163013|41|M|Sverrir Valgeirsson|Civilingenjör, Smygehamn, 41 år
+C|163014|66|M|Gustaf Centervall|Präst, Trelleborg, 66 år
+C|163015|45|M|Henrik Antonio Monés|Trelleborg
+C|163016|21|M|Nils Christensson|Student, Alstad, 21 år
+C|163017|42|K|Tina Järvenpää|Trelleborg
+C|163018|74|M|Bert Ekstrand|Skadeförebyggare, Trelleborg, 74 år
+C|163019|76|K|Margaretha Blennhede|Ekonom, Trelleborg, 76 år
+C|163020|77|M|Olof Blennhede|Butiksanställd, Trelleborg, 77 år
+C|163021|68|M|Klas Regland|Ingenjör, Fru Alstad, 68 år
+C|163022|40|K|Carina Nertlinge|Civilekonom, Trelleborg, 40 år
+C|163023|19|M|Timmy Hulst|Trelleborg, 19 år
+C|150664|50|M|Fredrik Körner|50, institutionsmäklare, Gylle
+C|150665|44|M|Dejan Milivojevic|44, statlig tjänsteman, Skegrie
+C|150666|46|K|Jessica Lilja|46, sjuksköterska, Skegrie
+C|150667|45|M|Jonas Lilja|44, IT-chef, Skegrie
+C|150668|69|M|Lars Andersson|69, pensionär, Trelleborg
+C|20742|37|M|Emil Samnegård|Politisk sekreterare, 37 år, Trelleborg
+C|111829|60|K|Maria Wilhelms|Fairtradesamordnare, 60 år, Trelleborg
+C|21522|51|M|Tomas Tigerschiöld|Bilarbetare, 51 år, Trelleborg
+C|21523|45|K|Salomé San Miguel|Civilingenjör, 45 år, Trelleborg
+C|21519|30|K|Anne-Sophie Samnegård|Sjuksköterskestudent, 30 år, Trelleborg
+C|20779|41|M|Johannes Book|Civilingenjör, 41 år, Trelleborg
+C|111834|72|K|Christine Stafström|Socionom, 72 år, Grönby
+C|111835|36|M|Simon Yngve|Civilingenjör, 36 år, Trelleborg
+C|20798|68|K|Aina Andersson|Pensionär, 68 år, Trelleborg
+C|111837|76|M|Rolf Olsson|Vingårdsarbetare, 76 år, Anderslöv
+C|111838|75|K|Britten Morän Jystrand|Pensionär, 75 år, Anderslöv
+C|111839|73|M|Kjell Forsberg|Pensionär, 73 år, Trelleborg
+C|111840|76|M|Kai Regnell|Pensionerad lärare, 76 år, Trelleborg
+C|111841|54|K|Ingrid Wallin|Domstolshandläggare, 54 år, Klagstorp
+C|154923|56|M|Bo Hansson|Entreprenör, 56 år, Stora Jordberga
+C|111842|70|K|Gull-Britt Persson|Studie och yrkesvägledare, 70 år, Beddingestrand
+C|111843|42|M|Carl Hall Karlström|Arkitekt, 42 år, Trelleborg
+C|62528|54|M|Mikael Rubin|54 år, oppositionsråd, Trelleborg
+C|62529|65|M|Lars Mikkelä|65 år, IT-konsult, Smygehamn
+C|62530|69|K|Marianne Ohrlander|leg. sjuksköterska, Dalköpinge
+C|62531|67|M|Jan Isaksson|ingenjör, Smygehamn
+C|62532|60|M|Göran Gärtner|60 år, IT-administratör, Trelleborg
+C|62533|65|M|Håkan Sjöberg|65 år, projektledare, Trelleborg
+C|62534|66|K|Catharina von Blixen-Finecke|f.d. regionråd, Gärdslöv
+C|62535|27|M|Ib Rundqvist|27 år, studerande, Trelleborg
+C|62536|68|M|Otto von Arnold|landsbygdsentreprenör, Klagstorp
+C|62537|44|M|Fredrik Schlyter|44 år, projektledare, Trelleborg
+C|62538|61|M|Roger Persson|61 år, specialidrottstränare, Trelleborg
+C|62539|45|M|Jonas Bjunö|45 år, kurator, Trelleborg
+C|62540|70|M|Mårten Bönnemark|företagare, Böste
+C|62541|21|K|Sophie Gärtner|destinationschef, Kurland
+C|62542|63|M|Gunnar Hedin|inspektör, Trelleborg
+C|62543|71|M|Eric Samuelson|civiling., civilek., Beddingestrand
+C|62544|55|K|Ann Kajson Carlqvist|egen företagare, Solvik
+C|62545|53|M|Carl Knutsson|ekonomichef, Fjärdingslöv
+C|62546|70|K|Britta Brinck-Nehlin|fastighetskonsult, Smygehuk
+C|62547|23|M|Tim Lundgren|studerande, Trelleborg
+C|62548|41|K|Linda Hägg|nätdriftsingenjör, Trelleborg
+C|62549|45|M|Per Jönsson|yrkeslärare, Smygehamn
+C|62550|66|M|Nils Svensson|lantmästare, V Vemmerlöv
+C|62551|65|M|Lars G Olsson|egen företagare, Beddingestrand
+C|62552|68|K|Inger Persson|personlig assistent, Trelleborg
+C|62553|62|M|Venzel Rosqvist|områdeschef, Trelleborg
+C|62554|72|M|Lars Raneke|konsult, Lilla Beddinge
+C|62555|52|K|Susana Apostolovska|kundassistent, Trelleborg
+C|62556|74|M|Clas Jönsson|frivårdsinspektör, Smygehamn
+C|62557|76|M|Bengt Nilmo|ingenjör, Smygehamn
+C|62558|71|K|Marianne Ahlgren|leg. sjuksköterska, Trelleborg
+C|62559|64|M|Clarence Lindgren|major, projektledare, Trelleborg
+C|62560|49|K|Christel Holmberg|kvalitetskontrollant, Trelleborg
+C|62561|72|M|Sten Andersson|ingenjör, Trelleborg
+C|62562|71|M|Göran Persson|f.d. fastighetschef, Trelleborg
+C|62563|72|K|Mona Persson-Palotai|sjukmassör, Trelleborg
+C|62564|66|M|Gunnar Grafström|civilekonom/kapten, Gislövs läge
+C|62565|71|K|Anita Lindgren|tulltaxerare, Trelleborg
+C|62566|73|M|Anastasios Manetopoulos|rättssociolog, Trelleborg
+C|62567|73|K|Birgitta Nilsson|ekonom, Beddingestrand
+C|62568|32|M|Mikael Månsson|geograf, Simremarken
+C|62569|63|M|Lennart Larsson|lantmästare, Norra Åby
+C|62570|73|K|Jane Kristerson|lärare, Minnesberg
+C|62571|70|M|Torbjörn Lanker|business manager, Beddingestrand
+C|62572|18|M|Carl Rubin|studerande, Trelleborg
+C|62573|70|K|Eva Ekström|militär trafiklärare, Trelleborg
+C|62574|74|M|Staffan Svensson|f.d. personalchef, Beddingestrand
+C|62575|68|K|Lena Bönnemark|sekreterare, Böste
+C|62576|50|M|Peter Nilsson|fastighetsförvaltare, Trelleborg
+C|62577|45|K|Veronica Rubin|45 år, gymnasielärare, Trelleborg
+C|62578|53|M|Joakim Sydvart|temleader/distriktschef, Trelleborg
+C|62579|73|K|Ina Liljeberg|ekonom, Trelleborg
+C|62580|75|M|Leif Malmstein|bankrevisor, Trelleborg
+C|62581|81|K|Marina Thelandersson|sekreterare, Trelleborg
+C|62582|32|K|Maxine Jönsson|speditör, Trelleborg
+C|62583|77|M|Roland Larsson|lyftledare, Trelleborg
+C|62584|19|M|Patrik Adzievski|studerande, Trelleborg
+C|62585|55|K|Marie Sandholm|foderkonsulent, Trelleborg
+C|62586|50|M|Anders Henriksson|kvalitets och miljöchef, Trelleborg
+C|62587|69|M|Stefan Bergström|konsult vårdorganisation, Skåre
+C|62588|39|K|Emma Carlbom|egen företagare, Maglarp
+C|62589|84|K|Anita Pettersson|lärare, Trelleborg
+C|62590|69|K|Christina Hilding|distriktssköterska, Trelleborg
+C|384043|70|M|Lars-Olof Flink|egen företagare, Trelleborg
+C|127568|63|M|Helmuth Petersen|Oppositionsråd, 63 år
+C|127569|58|K|Anita Persson|
+C|127570|53|M|Per Klarberg|Lokförare, Trelleborg
+C|127571|35|M|Mathias Andersson|Speciailärare, 35 år
+C|127572|63|M|Ken Karlsson|
+C|127573|71|M|Bengt Andersson|
+C|127574|21|M|Wictor Olsson|
+C|127575|31|M|Fredrik Karlsson|
+C|127576|35|M|Fredrik Trulsson|Fibertekniker, 35 år
+C|127577|69|M|Mats Andersson|
+C|127578|66|M|Bo Jönsson|
+C|127579|73|M|Ulf Carlsten|Tandläkare, 74 år
+C|127580|60|M|Thomas Malmqvist|
+C|127581|27|K|Anna Holst|
+C|127582|69|M|Christer Jönsson|
+C|127583|59|M|Håkan Lerstorp|Processoperatör, 59 år
+C|127584|43|M|Magnus Isgren|
+C|127585|42|M|Tomas Olsson|
+C|127586|51|M|Andrzej Krugly|
+C|127587|58|K|Eva Karlsson|
+C|127588|25|M|Oliver Weiland|Fastighetsskötare, 25 år
+C|127589|50|M|Dragan Vukoicic|
+C|127590|41|M|Tony Jönsson|
+C|127591|46|M|Christer Leo|
+C|127592|67|M|Manne Olsson|
+C|127593|60|K|Biserka Petersén|
+C|127594|56|M|Jan Holst|
+C|127595|58|K|Lena Andersson|
+C|127596|47|K|Therése Gynnstam|Egenföretagare, 47 år
+C|127597|26|K|Emelie Karlsson|Historiestudent, 29 år
+C|127598|73|M|Sven Ekström|
+C|127599|22|M|Jesper Mohlin|Hemvårdare, 22 år
+C|127600|83|K|Sonja Persson|
+C|127601|72|K|Ulla Åkerlund|
+C|127602|31|K|Linda Olsson|
+C|127603|41|M|Daniel Olin|
+C|429189|66|M|Anders Ahvander|Företagare, Skegrie
+C|429190|66|M|Christer Dahlberg|Inköp/logistik, Trelleborg
+C|429191|68|M|Bertil Larsson|Företagskonsult, Maglarp
+C|429192|73|M|Christian Ottergren|Civilingenjör, Gislövs Strandmark
+C|429193|66|K|Ann-Marie Flink|Bank/ekonom, Gislövs Läge
+C|429194|61|M|Sven Tilly|Miljöingenjör, Trelleborg
+C|429195|65|M|Tom Magnusson|Företagare, Skåre
+C|429196|64|M|Kenneth Lundgren|Sjökapten, Skåre
+C|429197|67|M|Alf E Christensson|Företagare, Gislövs Strandmark
+C|429198|57|M|Lars Hemzelius|Lärare, Klagstorp
+C|429199|60|M|Fredrik Winge|Fysiker, Trelleborg
+C|429200|44|M|Lejnor Jawad|Företagare, Trelleborg
+C|429201|54|M|Rickard Johansson|Ingenjör, Trelleborg
+C|429202|77|M|Rolf Andersson|fd Tillsynslärare, Trelleborg
+C|429203|54|M|Thomas Nehlin|Skattehandläggare, Trelleborg
+C|429204|66|M|Bo Vejmarker|Företagare, Trelleborg
+C|429205|61|K|Marianne Bengtsson|Musikadjunkt, Trelleborg
+C|429206|49|M|Joakim Hillman Szabo|Botaniker, Trelleborg
+C|429207|54|K|Annika Williamsson|Utvecklingskonsult, Trelleborg
+C|429208|58|M|Mikael Areskoug|Enhetschef/VA, Trelleborg
+C|429209|68|M|Eilert Andersson|Företagare, Trelleborg
+C|429210|81|M|Göte Nilsson|Miljötekniker, Trelleborg
+C|429211|70|K|Gisela Ahvander|Redaktionssekreterare, Skegrie
+C|429212|56|K|Karin Munthe|Lärare, Skåre
+C|429213|52|M|Mikael Malmqvist|Trafikledare/Chaufför, Trelleborg
+C|429214|73|K|Lena Göransson|Advokat, Gislövs Strandmark
+C|429215|56|M|Peter Ingvarsson|Musiker, Trelleborg
+C|429216|56|K|Åsa Persson|Ekonom, Trelleborg
+C|429217|58|M|Anders Hagberg|Sektionschef, Trelleborg
+C|429218|67|M|Roland Hallengren|Affärsbiträde, Dalköpinge
+C|429219|51|M|Sven-Ingvar Kristersson|Chaufför, Gislövs Strandby
+C|429220|67|K|Birgitta Nogeman|Tandläkare, Gylle
+C|429221|73|M|Leif Kristoffersson|Pensionär, Trelleborg
+C|429222|64|K|Lilliane Andersson|Smyckedesigner, Gislövs Strandmark
+C|429223|68|K|Mona Svärd|Laboratorieingenjör, Trelleborg
+C|429224|36|M|Adnan Pajic|Ingenjör, Trelleborg
+C|429225|76|M|Sven-Ingvar Göransson|Civilekonom, Gislövs Strandmark
+C|431317|45|K|Fia Nilsson|Studerande, Trelleborg
+C|431292|66|K|Lisbeth Nilsson|Pensionär, Trelleborg
+C|431324|45|K|Malin Palmqvist|Trelleborg
+C|431313|30|K|My Larsson|Vårdbiträde, Trelleborg
+C|124653|64|M|Mats Sjölin|ekonom, Trelleborg
+C|124654|74|K|Kersti Engström|socionom, Trelleborg
+C|124655|28|K|Emmy Sartell|statsvetare, Trelleborg
+C|124656|66|M|Bo Nylander|kemist, Grönby
+C|124657|55|K|Eva Lindstedt|undersköterska, Beddingestrand
+C|124658|56|K|Susanne Möller|arbetsterapeut, Anderslöv
+C|124659|35|K|Sofi Magableh|medicinsk sekreterare, Trelleborg
+C|124660|27|K|Debora Svensson|konstnär, Trelleborg
+C|124661|67|M|Rolf Nilsson|lärare, Södra Åby
+C|124662|67|K|Vera Pedersen|hushållslärare, Trelleborg
+C|124663|41|K|Linda Nilsson|kurator, Anderslöv
+C|124664|60|M|Peter Forssell|pensionär, Trelleborg
+C|124665|63|K|Berit Sjölin|förskollärare, Trelleborg
+C|124666|73|M|Christian Gisselquist|bibliotekarie, Trelleborg

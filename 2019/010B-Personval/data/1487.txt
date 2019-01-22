@@ -1,11 +1,223 @@
-2|44208|44209|44210|44211|44212|44213|44214|44215|44216|44217|44218|44219|44220|44221|44222|44223|44224|44225|44226|44227|44228|44229|44230|44231|44232|44233|44234|44235|44236|44237|44238|44239|44240|44241|44242|44243|44245|44246|44247|44248
-4|1868|1884|5173|5174|5175|5176|5177|5178|1872|5181|5182|5183|5184|5185|5186|5187|5188|5189|5190|5191|5192|5193|5194|5195
-1318|21479
-68|249602|248802|248798|248816|249606|249607|249608|249609|249610|249611|249612|249201|249614|249615|249616|249617|249618|249619|249620|249621|249622|249623
-1140|480127
-3|246768|246769|246770|246771|246772|246773|246774|246776|246777|246778|246779|246780|246781|246782|246783|246784
-505|56563|370427|56999|370429|370430|370431|370432|370433|57004|56993|370436|370437|370438|57001|370440|56997|370442|370443|57006
-55|77706|77707|77708|77709|77710|77711|77712|21961|77714|77715|77716|77717|77718|77719
-1|243433|254202|256061|254207|254215|243431|256065|256066|254219|256068|256069|256070|243442|256072|256073|256074|256075|256076|256077|256078|256079|256080|256081
-110|68528|68627|68628|68629|68630|68631|68632|68633|68634|68635|68636|68637|68638
-5|234442|240582|240583|240584|240585|240586|240587|240588|235208|240590|240591|240592|240593|240594|240595|240596|240597|240598|240599|240600|240601|240602|240603|240604|240605|240606|240607
+T|Vänersborg
+A|2|44208|44209|44210|44211|44212|44213|44214|44215|44216|44217|44218|44219|44220|44221|44222|44223|44224|44225|44226|44227|44228|44229|44230|44231|44232|44233|44234|44235|44236|44237|44238|44239|44240|44241|44242|44243|44245|44246|44247|44248
+A|4|1868|1884|5173|5174|5175|5176|5177|5178|1872|5181|5182|5183|5184|5185|5186|5187|5188|5189|5190|5191|5192|5193|5194|5195
+A|1318|21479
+A|68|249602|248802|248798|248816|249606|249607|249608|249609|249610|249611|249612|249201|249614|249615|249616|249617|249618|249619|249620|249621|249622|249623
+A|1140|480127
+A|3|246768|246769|246770|246771|246772|246773|246774|246776|246777|246778|246779|246780|246781|246782|246783|246784
+A|505|56563|370427|56999|370429|370430|370431|370432|370433|57004|56993|370436|370437|370438|57001|370440|56997|370442|370443|57006
+A|55|77706|77707|77708|77709|77710|77711|77712|21961|77714|77715|77716|77717|77718|77719
+A|1|243433|254202|256061|254207|254215|243431|256065|256066|254219|256068|256069|256070|243442|256072|256073|256074|256075|256076|256077|256078|256079|256080|256081
+A|110|68528|68627|68628|68629|68630|68631|68632|68633|68634|68635|68636|68637|68638
+A|5|234442|240582|240583|240584|240585|240586|240587|240588|235208|240590|240591|240592|240593|240594|240595|240596|240597|240598|240599|240600|240601|240602|240603|240604|240605|240606|240607
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1318|CSIS|Common sense in Sweden
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|505|Vfp|Medborgarpartiet
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|44208|54|K|Marie Dahlin|53 år
+C|44209|57|M|Benny Augustsson|57 år
+C|44210|54|K|Madelaine Karlsson|54 år
+C|44211|67|M|Dan Nyberg|Egenföretagare, 67 år, Vänersborg
+C|44212|57|K|Anneli Guilotte|Stödassistent, 57 år, Vänersborg
+C|44213|43|M|Joakim Sjöling|Arbetsförmedlare, 43 år, Vargön
+C|44214|68|K|Christin Slättmyr|68 år
+C|44215|68|M|Kenneth Borgmalm|Pensionär, 68 år, Vänersborg
+C|44216|25|K|Amanda Roos|25 år
+C|44217|18|M|Jonathan Svensson|Studerande, 18 år, Vänersborg
+C|44218|57|K|Ann-Mari Jonasson|Distriktssköterska, 57 år, Vänersborg
+C|44219|66|M|Reidar Eriksson|f.d Behandlingsassist., 66 år, Vänersborg
+C|44220|52|K|Elisabeth Bohlin|52 år
+C|44221|69|M|Bo Dahlberg|69 år
+C|44222|47|K|Maria Abrahamsson|47 år
+C|44223|67|M|Kjell Nilsson|Pensionär, 67 år, Vänersborg
+C|44224|68|K|Birgitta Persson|68 år
+C|44225|61|M|Benny Jonasson|61 år
+C|44226|54|K|Angelica König-Cassel|54 år
+C|44227|78|M|Bengt Larsson|77 år
+C|44228|41|K|Johanna Olsson|41 år
+C|44229|52|M|Hans Norén|52 år
+C|44230|45|K|Sandra Stegeröd|45 år
+C|44231|67|M|Leif Höglund|67 år
+C|44232|52|K|Merja Niemi|Undersköterska, 52 år, Vänersborg
+C|44233|49|M|Peter Ojala|49 år
+C|44234|62|K|Annika Larsson-Lindlöf|62 år
+C|44235|50|M|Stefan Larsson|50 år
+C|44236|31|K|Malin Tell|31 år
+C|44237|59|M|Zdenko Petrusic|59 år
+C|44238|86|K|Kerstin Johansson|86 år
+C|44239|60|M|Anders Gunn|60 år
+C|44240|53|M|Tomas Öberg|53 år
+C|44241|64|M|Lennart Melin|64 år
+C|44242|63|M|Kjell Sunnerdahl|63 år
+C|44243|67|M|Jacob Ceder|67 år
+C|44245|47|M|Magnus Johansson|47 år
+C|44246|65|M|Dan Eriksson|65 år
+C|44247|76|M|Dag Jerndal|76 år
+C|44248|46|M|Roland Stegeröd|46 år
+C|1868|48|M|Mats Andersson|verksamhetsutvecklare, 48 år, Vänersborg
+C|1884|68|M|Bo Carlsson|lantbrukare, 68 år, Vänersborg
+C|5173|45|K|Annalena Levin|projektledare,Västra Tunhem, 45 år
+C|5174|68|K|Ann-Britth Fröjd|fd. larmoperatör, Vänersborg, 68 år
+C|5175|43|K|Marie Robertsson|stödpedagog, Brålanda, 43 år
+C|5176|68|M|Ingvar Håkansson|fd. metallarbetare, Brålanda, 68år
+C|5177|62|K|Marianne Karlsson|diversearbetare, Gestad, 62 år
+C|5178|56|K|Åsa Edvardsson|galopptränare, Brålanda, 56 år
+C|1872|41|M|Henrik Jansson|lantbrukare, 41 år, Vänersborg
+C|5181|68|K|Barbro Fridell|fd. kostekonom, Frändefors, 68år
+C|5182|40|M|Daniel Tesfay|lärare, Vänersborg, 40 år
+C|5183|69|K|Eva Foldemark|fd. skattedirektör, Frändefors, 69år
+C|5184|52|M|Ulf Johansson|planerare, Vänersborg, 52 år
+C|5185|19|K|Alma Håkansson|studerande, Gestad, 19 år
+C|5186|66|M|Lars-Erik Karlsson|lantbrukare, Gestad, 66år
+C|5187|60|K|Marita Högberg|undersköterska, Frändefors, 60 år
+C|5188|58|K|Christina Larsson|kanslist, Frändefors, 58 år
+C|5189|68|K|Doris Rudén|civilekonom, Frändefors, 68 år
+C|5190|34|K|Sara Hersi|studerande, 34 år
+C|5191|54|M|Pär-Anders Söderberg|lantbrukare, Vänersborg, 54 år
+C|5192|71|K|Inga-Maj Andersson|fd. domstolssekr., Vargön, 71 år
+C|5193|63|K|Birgit Lindqvist|bemanningscontroller, Brålanda, 63 år
+C|5194|60|M|Jonas Larsson|ingenjör, Vänersborg, 60 år
+C|5195|56|K|Carina Blomqvist Liljegren|diakon, Frändefors, 56 år
+C|21479|35|M|Kim Alexander Alfredsson|35 år Vänersborg
+C|249602|38|M|Robert Johansson|Företagare, Vänersborg
+C|248802|68|K|Marie-Louise Bäckman|Leg. sjuksköt., Vänersborg
+C|248798|51|K|Maria Nilsson|Lärare, Vänersborg
+C|248816|52|K|Anette Taimory|Pers. assistent, Vänersborg
+C|249606|60|M|Bengt Fridh|Banktjänsteman, Vargön
+C|249607|54|M|Magnus Ekström|Lärarvikarie, Vargön
+C|249608|66|M|Carl-Ewert Berg|Pensionär, Brålanda
+C|249609|18|K|Lisen Ekdahl|Studerande, Vänersborg
+C|249610|68|M|Gunnar Bäckman|Pensionär, Vargön
+C|249611|39|K|Jenny Hjorth|Medicinsk sekreterare, Vänersborg
+C|249612|48|M|Elias Yachouh|Lärarassistent, Vänersborg
+C|249201|59|K|Gunilla Fridh|Lärare, Vänersborg
+C|249614|52|M|Johan Lundgren|Arbetsledare, Vargön
+C|249615|38|K|Lovisa Kavander|Idrottslärare, Vänersborg
+C|249616|67|M|Hans-Peter Nielsen|Kontrollant, Vänersborg
+C|249617|71|K|Birgitta Odalgård|Pensionär, Frändefors
+C|249618|58|M|Alf Ydenius|Ingenjör, Brålanda
+C|249619|43|M|Torgny Hjorth|Spec. sjuksköt. psykiatri, Vänersborg
+C|249620|45|K|Elisabeth Johansson|Socialsekreterare, Vänersborg
+C|249621|76|M|S-O Magnusson|Kyrkomusiker, Vänersborg
+C|249622|74|K|Elisabet Wallengren Alinder|Distriktssköterska, Vargön
+C|249623|68|M|Orvar Carlsson|Verksamhetsledare, Brålanda
+C|480127|55|K|Susanne Rogesund|författare/teol.master, 55, Vänersborg
+C|246768|50|M|Peter Göthblad|50, kriminalvårdstjänsteman, Vänersborg
+C|246769|42|K|Tove af Geijerstam|42, teol. stud., Vargön
+C|246770|75|M|Gunnar Henriksson|Rektor, Vänersborg
+C|246771|72|K|Bibbi Aspmark Henriksson|Talpedagog, Vänersborg
+C|246772|63|M|Jan Carlstein|Ekonom, Vargön
+C|246773|70|K|Kerstin Andersson|Lekmannapredikant, Vänersborg
+C|246774|71|M|Kurt Liljekvist|Civilekonom, Vänersborg
+C|246776|80|M|Ingvar Kleinert|Uppfinnare, Vargön
+C|246777|83|K|Gunilla Döse|Antikhandlare, Vänersborg
+C|246778|24|M|Bruno Ojdanic|Studerande, Vänersborg
+C|246779|51|K|Elisabeth Wessel|IT-administratör, Vänersborg
+C|246780|25|M|Daniel Bengtsson|25, IT-tekniker, Vänersborg
+C|246781|51|K|Annica Bergendal|Hemsamarit, Vänersborg
+C|246782|77|M|Franco Landini|Företagare, Västra Tunhem
+C|246783|62|K|Seija Marita Wistbacka|Undersköterska, Vargön
+C|246784|76|K|Christina Rosell|Arkeolog, Vänersborg
+C|56563|70|M|Morgan Larsson|Företagare,                                              Medborgarpartiet Vänersborg
+C|370427|62|M|Göran Svensson|fd Brandman, Vänersborg
+C|56999|85|M|Gunnar Johansson|Köpman,Medborgarpartiet Vänersborg
+C|370429|78|K|Christina Lindegren|Regionsekreterare, Vänersborg
+C|370430|72|K|Margareta Bengtsson|Pensionär, Vänersborg
+C|370431|49|K|Magdalena Hansson|Affärsbiträde, Frändefors
+C|370432|72|M|Bengt Bengtsson|Bygglärare, Vänersborg
+C|370433|56|K|Maria Dackeberg|Kanslist, Vänersborg
+C|57004|34|M|Thomas Larsson|Vaktmästare,Medborgarpartiet Vänersborg
+C|56993|66|K|Anita Kamperin|Verksamhetschef,Medborgarpartiet Vänersborg
+C|370436|49|K|Isabell Bergman|VD, Vargön
+C|370437|49|M|Magnus Bäckström|Truckförare, Frändefors
+C|370438|80|M|Sven-Gunnar Larsson|Musiker, Vänersborg
+C|57001|62|M|Jan-Erik Strid|Kommunanställd,Medborgarpartiet Vänersborg
+C|370440|77|M|Lennart Ekbäck|Grafiker, Vänersborg
+C|56997|81|M|Karl-Axel Ekdahl|Företagare,Medborgarpartiet Vänersborg
+C|370442|73|M|Lars Källman|Pensionär, Vargön
+C|370443|75|M|Stig Engman|Köksmästare, Vänersborg
+C|57006|74|M|Bengt Rydholm|Företagare,Medborgarpartiet Vänersborg
+C|77706|56|M|Anders Wiklund|57 år, Gymnasielärare, Vänersborg
+C|77707|49|K|Marika Isetorp|49 år, Teaterpedagog, Vänersborg
+C|77708|52|K|Anna-Karin Sandberg|52 år, Socialsekreterare, Vänersborg
+C|77709|62|M|Per Sjödahl|62 år, Fritidspedagog, Vargön
+C|77710|55|K|Gunilla Bogren|55 år, Ekonomichef, Vänersborg
+C|77711|66|M|Christer Bogren|66 år, Egenföretagare, Vänersborg
+C|77712|42|K|Laila Haglund|41 år, Handläggare, Vänersborg
+C|21961|30|M|Thony Andreasson Aderum|30 år, Kanslichef, Vänersborg
+C|77714|55|K|Susanne Meuller|55 år, Gymnasielärare, Vänersborg
+C|77715|73|M|Lave Thorell|73 år, Civilekonom, Vänersborg
+C|77716|60|K|Gunnel Dirsäter|60 år, Läkarsekreterare, Vänersborg
+C|77717|68|M|Nils Wramner|68 år, Barnläkare, Vänersborg
+C|77718|71|M|Sten-Ove Hermansson|71 år, Pensionär, Vänersborg
+C|77719|44|M|Martin Odalgård|44 år, Miljö- och hälsoskyddsinspektör, Vänersborg
+C|243433|58|M|Gunnar Lidell|58, Oppositionsråd/Lantbrukare, Vänersborg
+C|254202|62|M|Dan Åberg|62, Kanslichef, Vänersborg
+C|256061|52|K|Jeanette Dahlbom|52, Socionom
+C|254207|50|M|Henrik Josten|50, Lärare, Vänersborg
+C|254215|44|M|Henrik Harlitz|44, Förbättringsledare, Vänersborg
+C|243431|49|K|Lena Eckerbom Wendel|49, Ingenjör, Vänersborg
+C|256065|24|M|Jonathan Axelsson|24, Handläggare
+C|256066|68|K|Ann-Helen Selander|68, Pensionär fd.områdeschef
+C|254219|54|M|Tor Wendel|54, Ingenjör, Vänersborg
+C|256068|25|M|Filip Jakobsson|25, Studerande
+C|256069|22|M|Anton Lidell|22, Studerande
+C|256070|55|M|Tommy Christensson|55, Företagare
+C|243442|46|M|Piotr Gabrys|46, Informatiker, Vänersborg
+C|256072|27|K|Sofia Jakobsson|27, Leg. Sjuksköterska
+C|256073|55|K|Kristina Edvinsson|55, Kvalitetstekniker
+C|256074|70|K|Lisbeth Brodin|70, Ingenjör
+C|256075|23|M|Elias Jonsson|23, Studerande
+C|256076|44|M|Johan Feldtmann Lobrant|44, Institutionschef
+C|256077|67|M|Lennart Bergh|67, Pensionär
+C|256078|19|K|Pernilla Wikström|19, Studerande
+C|256079|72|K|Gunnel Ymefors|72, Pensionär
+C|256080|63|M|Ingemar Fredriksson|63,
+C|256081|59|M|Peter Jacobsson|59, Företagare
+C|68528|50|M|Ola Wesley|Mättekniker, Vänersborg
+C|68627|51|M|Anders Strand|Teknikinformatör, Vänersborg
+C|68628|71|M|Kurt Karlsson|71 år, Socionom
+C|68629|46|M|Mathias Olsson|46, Programmerare, Vänersborg
+C|68630|47|K|Lena Mjörnell|IT-tekniker, Vänersborg
+C|68631|69|M|Kurt Wahlgren|69, Pensionär, Vänersborg
+C|68632|59|M|Torbjörn Moqvist|58 år, Handläggare
+C|68633|59|M|Jan Appelqvist Palmqvist|59, Skötare Rättspsyk, Vänersborg
+C|68634|33|M|Kenny Sandhöj|33 år, CNC-operatör
+C|68635|70|M|Stig Göran Nilsson|70 år, Pensionär
+C|68636|39|M|Jimmy Lindkvist|39 år, Mattläggare
+C|68637|65|M|Christer Gyllander|65 år, Pensionär
+C|68638|74|M|Christer Zimmergren|74 år, Pensionär
+C|234442|65|K|Marianne Ramm|Socialpedagog, 65 år, Vänersborg
+C|240582|64|M|Stefan Kärvling|Leg. lärare
+C|240583|53|K|Kate Giaever|Undersköterska
+C|240584|77|M|Lutz Rininsland|f.d. studievägledare
+C|240585|53|K|Monica Andersson|Handledare
+C|240586|52|M|James Bucci|Förvaltare
+C|240587|72|K|Gunnel Boman|f.d. frivårdsinspektör
+C|240588|65|M|Magnus Kesselmark|Ingenjör
+C|235208|68|K|Eva Lindgren|fd. adjunkt, 68 år, Vänersborg
+C|240590|51|M|Magnus Lilja|Vaktmästare
+C|240591|74|K|Eldbjörg Bryntesson|Pensionär
+C|240592|61|M|Göran Stenman|Rådman
+C|240593|46|K|Pia Sturm Nordh|Personlig assistent
+C|240594|38|M|Martin Foldemark|Trafikledare
+C|240595|67|K|Elisabeth Eliasson Eklund|f.d. gymnasielärare
+C|240596|71|M|Kenneth Allblom|Uppfinnare
+C|240597|34|K|Ninja Balaj|Boendestödjare
+C|240598|38|M|Pontus Gläntegård|Ingenjör
+C|240599|55|K|Gittan Kollberg|Biokemist
+C|240600|53|M|Peter Lénberg|jur. kand.
+C|240601|39|K|Andréa Warrebo|Sjuksköterska
+C|240602|40|M|Christian Stern|Studerande
+C|240603|37|K|Jenny Lassila|Socionom
+C|240604|39|M|Adam Frändelid|Fritidsledare
+C|240605|68|K|Ann-Christine Wollny|Pensionär
+C|240606|31|M|Robert Zackrisson|Fritidspedagog
+C|240607|93|K|Ebon Rhedin|Pensionär

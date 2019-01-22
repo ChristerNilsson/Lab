@@ -1,12 +1,243 @@
-2|28161|28158|125377|57843|125379|125380|125381|125382|125383|125384|57852|125386|125387|125388|125389|125390|125391|125392|125393|125394|125395|125396|125397|125398
-4|35329|78060|78061|78062|39473|78064|78065|78066|37088|78068|78069|78070|78071|78072|78073|78074|78075|78076|78077|78078|78079|78080
-532|418019|418020|418021|418022|418023|418024
-68|31680|31690|31689|32001|32002|31693|31698|32005|31729|32007|32008|32009|32010|32011|32012|31696|31695|32015|32016|32017|31700|32019|32020|31699|32022|32023|32024
-1011|513504|513505
-3|55288|55289|55290|55291|55292|55293|55294|55295
-55|20799|21561|53830|21556|53832|53833|53834
-1|60171|60172|60173|60174|60175|60176|60177|60178|60179|60180|60181|60182|60183|60184|60185|60186|60187|60188|60189|60190|60191|60192|60193|60194|60195|60196|60197|60198|60199|60200|60201|60202|60203|60204|60205|60206|60207|60208|60209|60210|60211|60212
-172|427420|427421|427422|427423|427424|427425|427426|427427|427428|427429|427430
-110|106792|106793|106794|106795|106796|106797|106798|106799|106800|106801|106802|106803|106804|106805|106806|106807|106808|106809|106810|106811|106812|106813|106814|106815|106816|106817|106818|106819|106820|106821|106822|106823|106824|106825|106826|106827|106828|106829|106830|106832|106833|106834|106835|106836|106837|106838|106839
-1309|507797|507798|507799
-5|225955|225956|225957|225958|225959|225960|225961|225962|225963|225964|225965|225966|225967|225968|225969|225970|225971|225972|225973|225974
+T|Sjöbo
+A|2|28161|28158|125377|57843|125379|125380|125381|125382|125383|125384|57852|125386|125387|125388|125389|125390|125391|125392|125393|125394|125395|125396|125397|125398
+A|4|35329|78060|78061|78062|39473|78064|78065|78066|37088|78068|78069|78070|78071|78072|78073|78074|78075|78076|78077|78078|78079|78080
+A|532|418019|418020|418021|418022|418023|418024
+A|68|31680|31690|31689|32001|32002|31693|31698|32005|31729|32007|32008|32009|32010|32011|32012|31696|31695|32015|32016|32017|31700|32019|32020|31699|32022|32023|32024
+A|1011|513504|513505
+A|3|55288|55289|55290|55291|55292|55293|55294|55295
+A|55|20799|21561|53830|21556|53832|53833|53834
+A|1|60171|60172|60173|60174|60175|60176|60177|60178|60179|60180|60181|60182|60183|60184|60185|60186|60187|60188|60189|60190|60191|60192|60193|60194|60195|60196|60197|60198|60199|60200|60201|60202|60203|60204|60205|60206|60207|60208|60209|60210|60211|60212
+A|172|427420|427421|427422|427423|427424|427425|427426|427427|427428|427429|427430
+A|110|106792|106793|106794|106795|106796|106797|106798|106799|106800|106801|106802|106803|106804|106805|106806|106807|106808|106809|106810|106811|106812|106813|106814|106815|106816|106817|106818|106819|106820|106821|106822|106823|106824|106825|106826|106827|106828|106829|106830|106832|106833|106835|106836|106837|106838|106839
+A|1309|507797|507798|507799
+A|5|225955|225956|225957|225958|225959|225960|225961|225962|225963|225964|225965|225966|225967|225968|225969|225970|225971|225972|225973|225974
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|172|SJP|Sjöbopartiet
+B|110|SD|Sverigedemokraterna
+B|1309|TRP|TRYGGHETSPARTIET
+B|5|V|Vänsterpartiet
+C|28161|46|K|Cecilia Olsson Carlsson|Lärare, Sjöbo
+C|28158|40|M|Roland Wiking|Träarbetare, Sjöbo
+C|125377|50|K|Lise-Lotte Nilsson|
+C|57843|64|M|Christer Hovbrand|Föreståndare, Sjöbo
+C|125379|67|K|Gull-Britt Kristersson|fd. Kock
+C|125380|49|M|Jörgen Carlsson|Besiktningstekniker
+C|125381|69|K|Liz-Beth Persson|Pensionär
+C|125382|67|M|Bo Jersling|68 år, Kranförare
+C|125383|48|K|Camilla Windh|Administratör
+C|125384|46|M|Joachim Mattson|Snickare
+C|57852|66|K|Ulla Valldén|Statsanställd, Sjöbo
+C|125386|65|M|Bengt Ohlsson|IT-Pedagog
+C|125387|70|K|Sonya Jonasson|Pensionär
+C|125388|18|M|Jacob Olsson|Student
+C|125389|64|K|Kerstin Nilsson|Företagare
+C|125390|74|M|Hans Carlsson|
+C|125391|53|K|Zaara Mohmand|Köksbiträde
+C|125392|63|M|Thord Svensson|
+C|125393|35|K|Marie Andersson|
+C|125394|47|M|Dan Zorn|Anläggningsarbetare
+C|125395|72|K|Christina Carlsson|
+C|125396|69|M|Rolf Lindblad|Pensionär
+C|125397|68|M|Mats Nilsson|Vaktmästare
+C|125398|54|M|Nils Tykesson|
+C|35329|50|K|Ulrika Axelsson|Fritidspedagog, 50, Sjöbo
+C|78060|57|M|Jörgen Jönsson|57,Civilingenjör, Sjöbo
+C|78061|33|K|Cornelia Lovfeldt|33, Undersköterska, Vallarum
+C|78062|46|M|Jörgen Ny|46, Sjukskötare, Sjöbo
+C|39473|64|K|Camilla Osterman|Civilekonom, 64, Blentarp
+C|78064|47|M|Tommy Lövgren|47, VVS-säljare, Sjöbo
+C|78065|51|K|Karin Olsson|51, Leg. arbetsterapeut, Sjöbo
+C|78066|72|M|Ingemar Persson|72, Lantmästare, Sjöbo
+C|37088|36|M|Henric Sjöstrand|Projektledare, 36, Sjöbo
+C|78068|72|M|John-Erik Ottosson|72, Lantmästare, Vallingsdal/Vallarum
+C|78069|72|M|Inge Fröjd|72, Pensionär, Sjöbo
+C|78070|63|K|Bodil Persson|63, Administratör, Södra Åsum
+C|78071|51|M|Johan Hendlertz|50, Maskinförare, Sjöbo
+C|78072|62|K|Barbro Landell|62, Verksamhetskonsult, Blentarp
+C|78073|63|M|Lars Lundgren|63, Pensionär, Vollsjö
+C|78074|67|M|Arne Axelsson|67, Pensionär, Sjöbo
+C|78075|38|M|Erik Adolfsson|38, Maskinförare, Heinge
+C|78076|65|M|Jonny Jönsson|65, F.d. lantbrukare, Sjöbo
+C|78077|58|K|Inger Jönsson|58, Säljare, Sjöbo
+C|78078|60|K|Johanna Klingspor|60, Pedagog, Elestorp
+C|78079|50|K|Pernilla Berlin|50, Jurist, Blentarp
+C|78080|55|M|Ingvar Lydén|55, Lantmästare, Äsperöd
+C|418019|47|K|Anna Broström|47 år, geolog, Öved
+C|418020|41|M|Matts Anvin|41 år, butikssäljare, Lövestad
+C|418021|38|K|Ida Persson|38 år, administratör, Sjöbo
+C|418022|32|K|Josefin Granqvist|32 år, konstnär, Öved
+C|418023|33|K|Josefin Barup|33 år, civilingenjör, Omma
+C|418024|27|M|Oliver Wallertoft|27 år, stödbiträde, Sjöbo
+C|31680|57|M|Lars Lundberg|57 år, Lantmästare/Lärare, Sjöbo
+C|31690|55|K|Katarina Ståhlberg|55 år, Leg. Sjuksköterska, Sjöbo
+C|31689|38|M|Carl-Anders Lillås|38 år, Lantmästare, Sjöbo
+C|32001|56|M|Fredrik Hellwig|56 år, Kyrkovaktmästare, Tolånga
+C|32002|43|M|Joakim Westesson|43 år, Ingenjör, Sjöbo
+C|31693|26|M|Simon Larsson|26 år, Målare, Lövestad
+C|31698|47|K|Jozefine Nybom|47 år, Lantmästare/Forskare, Sjöbo
+C|32005|42|K|Susanne Lillås|42 år, Sjuksköterska, Lillås gård Sjöbo
+C|31729|31|M|Henrik Gavelin|31 år, Ekomjölkproducent, Lövestad
+C|32007|72|M|Lars Damm|72 år, Pensionär, Blentarp
+C|32008|52|K|Ingrid Dahlström|52 år, Kyrkomusiker, Blentarp
+C|32009|73|M|Bengt-Ola Rydberg-Vidbäck|73 år, Pensionär, Sjöbo
+C|32010|62|M|Thomas Fyledal|62 år, Yrkeslärare, Sövdeborg
+C|32011|43|K|Victoria Westesson|43 år, Egenföretagare, Sjöbo
+C|32012|63|M|Stefan Larsson|63 år, Målarmästare, Lövestad
+C|31696|28|M|Gustav Hellwig|28 år, Student, Sjöbo
+C|31695|25|K|Elinor Diaz|25 år, Sjuksköterska, Lövestad
+C|32015|34|M|Johan Helmersson|34 år, Egenföretagare, Tolånga
+C|32016|79|M|Ove Johansson|79 år, fd Åkeriägare, Åsum
+C|32017|58|M|Jan Nyström|58 år, Maskinist, Tolånga
+C|31700|19|M|Oscar Räng Olsson|19 år, Student, Sjöbo
+C|32019|61|M|Tommy Andersson|61 år, Lantbrukare, Tolånga
+C|32020|72|M|Svante Kjellén|72 år, Präst, Röddinge
+C|31699|24|M|Anders Jönsson|24 år, Chaufför, Sjöbo
+C|32022|50|K|Helene Lundberg|50 år, Kontorist, Lövestad
+C|32023|45|K|Therese Friberg|45 år, Sjuksköterska, Sjöbo
+C|32024|84|M|Gösta Olsson|84 år, Pensionär, Vanstad
+C|513504|47|K|Sophie Holst|
+C|513505|47|M|Bonne Joachim Holst|
+C|55288|66|K|Charlotte Ramel-Andersson|Sjöbo
+C|55289|56|M|Jonas Nordling|Omma
+C|55290|75|K|Ingrid Sandelin|Sjöbo
+C|55291|72|M|Christer Nicklasson|Sjöbo
+C|55292|46|K|Jessica Hermann|Sjöbo
+C|55293|71|K|Rosita Holst|Blentarp
+C|55294|75|M|Alf Jivéke|Blentarp
+C|55295|67|M|Bengt Fredriksson|Bjälkhult
+C|20799|76|M|Jan Friheden|Ekoodlare, 76 år, Sjöbo
+C|21561|65|M|Sven Åkerblom|Ekobonde, 65 år, Vollsjö
+C|53830|51|K|Kamilla Vidkälla|psykolog, Blentarp
+C|21556|63|K|Margareta Fries|Distanslärare, 63 år, Röddinge
+C|53832|66|M|Per Odenrick|professor, Vallarum
+C|53833|80|M|Nils Eric Cerne|lärare, Sjöbo
+C|53834|78|K|Gunvor Cerne|lärare, Sjöbo
+C|60171|48|M|Magnus Weberg|48 år, kommunalråd, Sjöbo
+C|60172|63|K|Cecilia Rosenqvist Perry|63 år, sjuksköterska, Öved
+C|60173|67|M|Kent Ivan Andersson|67 år, officer, Sjöbo
+C|60174|56|K|Berit Lundström|56 år, undersköterska, Sjöbo
+C|60175|66|M|Stefan Lundgren|66 år, egenföretagare, Blentarp
+C|60176|72|M|Thomas Quist|72 år, civilingenjör, Blentarp
+C|60177|73|K|Ann-Christine Kullgren|73 år, rektor, Blentarp
+C|60178|56|M|Magnus Hammarskjöld|56 år, egen företagare, Lövestad
+C|60179|40|M|Göran Fröjd|40 år, civilingenjör, Sjöbo
+C|60180|22|M|Patrick Nielsen|22 år, gränskontrollant, Branstad
+C|60181|45|K|Susan Melsen|44 år, projektledare, Sjöbo
+C|60182|68|M|Bror Ahlin|68 år, lantbrukare/ingenjör, Vollsjö
+C|60183|66|K|Lena Blennow Andersson|66 år, sjuksköterska, Eggelstad
+C|60184|72|K|Gunilla Quist Lundin|72 år, ekonom, Blentarp
+C|60185|30|K|Ylva Karlsson|30 år, studerande, Vallarum
+C|60186|23|M|Kristian Lundström|23 år, studerande, Sjöbo
+C|60187|52|M|Lars-Åke Roos|52 år, projektledare, Sjöbo
+C|60188|76|M|Wiggo Wrangborg|76 år, egen företagare, Äsperöd
+C|60189|69|M|Cornelius Hermus|69 år, egen företagare, Blentarp
+C|60190|54|M|Bo Olsson|54 år, civilingenjör, Sjöbo
+C|60191|65|K|Gunborg Johansson|65 år, undersköterska, Lövestad
+C|60192|59|M|Michael Smedberg|59 år, egen företagare, Sjöbo
+C|60193|71|M|Staffan Birkegård|71 år, lantbrukare, Vollsjö
+C|60194|46|K|Martina Tuvesson|46 år, personaladministratör, Sjöbo
+C|60195|21|M|Olof Knutsson|21 år, kundserviceansvarig, Sövde
+C|60196|33|K|Caroline Segerfeldt|33 år, skolsköterska, Sjöbo
+C|60197|67|K|Elisabeth Sandell Larsson|67 år, undersköterska, Lövestad
+C|60198|71|K|Margaretha Olsson|71 år, skolledare, Sjöbo
+C|60199|48|M|Robert Karlsson|48 år, egen företagare, Sjöbo
+C|60200|68|M|Bertil Hultén|68 år, professor, Blentarp
+C|60201|34|M|Roger Undenius|34 år, kalkylchef, Sjöbo
+C|60202|44|M|Mårten Persson|44 år, ingenjör/projektledare, Sjöbo
+C|60203|68|M|Lennart Holst|68 år, lantbrukare, Frenninge
+C|60204|73|K|Pia Almgren|73 år, handläggare, Sjöbo
+C|60205|55|M|Fredrik Janson|55 år, civilingenjör, Ågerup
+C|60206|48|M|Rickard Sjöholm|48 år, områdeschef, Sjöbo
+C|60207|83|M|Bengt Persson|83 år, byggmästare, Sövde
+C|60208|59|M|Ingemar Nilsson|59 år, egen företagare, Lövestad
+C|60209|46|M|Tomas Widén|46 år, officer, Sjöbo
+C|60210|69|M|Rainier Greitans|69 år, direktör, Lövestad
+C|60211|72|M|Thomas Johansson|72 år, linjemontör, Äsperöd
+C|60212|63|M|Thomas Nilsson|62 år, servicetekniker, Vollsjö
+C|427420|37|M|Johan Söderlin|Lantbrukare
+C|427421|42|K|Christine Andersson|Företagare
+C|427422|58|M|Roger Karlsson|Anläggare
+C|427423|46|M|Magnus Olsson|Lantbrukare
+C|427424|51|M|Per Ekberg|Arbetsledare
+C|427425|75|K|Britt Leksell|Företagare
+C|427426|50|M|Ingvar Maurizon|Företagare
+C|427427|31|M|Robert Björk|Verkmästare
+C|427428|65|K|Ann-Margreth Assarsson|Lantbrukare
+C|427429|49|M|Henrik Sonesson|Företagare
+C|427430|72|M|Sven-Erik Andersson|Chaufför
+C|106792|54|K|Monica Rörstam|54, Massageterapeut
+C|106793|32|M|André af Geijerstam|Företagare, 33 år
+C|106794|60|M|Lars Norrman|60, Kontrollant
+C|106795|55|M|Leif Jönsson|56, Ordningsvakt
+C|106796|56|K|Titti Swenson|Socionom, 57 år
+C|106797|72|M|Krister Persson|72, Pensionär
+C|106798|71|M|Lars Svärd|71, Elinstallatör
+C|106799|31|K|Maria Larsson|Undersköterska, 32 år
+C|106800|52|M|Kent Borgström|52, Pedagog
+C|106801|52|M|Joakim Folkesson|52, Grovarbetare
+C|106802|53|K|Susann Gustafsson|53, Djurvårdare
+C|106803|57|M|Staffan Olenskjöld|57, Trafikledare
+C|106804|76|M|Lennart Holm|76, Pensionär
+C|106805|62|M|Preben Keldebäk|62, Sjukpensionär
+C|106806|56|M|Mats Pålsson|56, Rangeroperatör
+C|106807|31|M|Linus Nilsson|31
+C|106808|48|K|Ann-Sofie Pedersen|48, Undersköterska
+C|106809|70|K|Jolanta Anderberg|70, Pensionär
+C|106810|75|M|Bengt Ohlsson|75, Sjökapten
+C|106811|57|M|Denny Gansler|57, Regionschef
+C|106812|22|M|Emil Berggren|22, Arbetsledare
+C|106813|90|K|Doris Cych|91, Pensionär
+C|106814|28|M|Nicklas Knöös|28
+C|106815|52|M|Lars Tilly|53, Egenföretagare
+C|106816|52|M|Magnus Nilsson|52, Egenföretagare
+C|106817|73|M|Gert Ask|Ingenjör, 73 år
+C|106818|70|M|Roland Andersson|71, Pensionär
+C|106819|59|M|Karl-Erik Andersson|59, Montör
+C|106820|74|M|Jonny Karlsson|75, Pensionär
+C|106821|56|M|Lars Wilhelm Larsson|Maskinförare, 57 år
+C|106822|49|K|Maria Kettisen|49
+C|106823|68|M|Bengt Mårtensson|68, Chaufför
+C|106824|55|M|Bo Göran Nilsson|55, Chaufför
+C|106825|59|K|Carina Holmberg|59, Undersköterska
+C|106826|56|K|Carina Nilsson|56, Chaufför
+C|106827|50|M|Claes Åkesson|50, Montör
+C|106828|33|M|Dennis Rosengren|34, Maskinist
+C|106829|61|M|Anders Söberg|62, Småbrukare
+C|106830|41|M|Joakim Hansson|41, Djurskötare
+C|106832|66|K|Marion Magnom|66, Pensionär
+C|106833|28|M|Niklas Håkansson|28, Murare
+C|106835|59|M|Peter Nilsson|59, Arbetsledare
+C|106836|55|M|Pär Kettisen|55, Maskinförare
+C|106837|36|M|Ted Persson|36, Egenföretagare
+C|106838|39|M|Tomas Wachner|39, Sprängare
+C|106839|53|M|Erik Gårdenhag|Mekaniker, 54 år
+C|507797|62|K|Mariana Ramelius|Sjöbo
+C|507798|55|M|Fredrik Jönsson|Blentarp
+C|507799|51|M|Patrik Ramelius|Sjöbo
+C|225955|43|M|Lucas Lennartsson|lärare, Sjöbo
+C|225956|76|M|Dragan Tanasejevic|Karup, Företagare, 76 år
+C|225957|43|M|Daniel Krondahl|försäljare, Sjöbo
+C|225958|72|M|Sven Ternov|läkare, Blentarp
+C|225959|42|M|Jon Bolmstedt|Sjöbo, Automatiseringsingenjör, 41 år
+C|225960|55|K|Åse Eriksson|kassabiträde, Lövestad
+C|225961|43|K|Anna-Maria Eklöw|Lövestad, Kulturarbetare, 42 år
+C|225962|42|M|Nicke Olofsson|Sjöbo, Pedagog, 41 år
+C|225963|37|M|Kristian Schön|Tolånga, Undersköterska, 37 år
+C|225964|29|K|Jennifer Andersson|Sjöbo, Kulturarbetare, 28 år
+C|225965|56|M|Wali Ahmadi|lärare, Sjöbo
+C|225966|60|K|Maria Szcencz Lind|Sjöbo, Sjuksköterska, 59 år
+C|225967|19|M|Erfam Laiq|Vollsjö, Student, 19 år
+C|225968|59|K|Christina Berggren|Sjöbo, Förtidspensionär, 58 år
+C|225969|23|M|Joel Eriksson Sinclair|Lövestad, Kassabiträde,  22 år
+C|225970|54|K|Christina Sjömark|Sjöbo, Behandlingsassistent, 54 år
+C|225971|21|M|Måns Eriksson|Sjöbo, Byggnadsarbetare, 20 år
+C|225972|49|M|Magnus Johansson|Sjöbo, Byggnadsarbetare, 49 år
+C|225973|47|M|Jonas Lövgren|Sjöbo, Rådgivare, 47 år
+C|225974|58|M|Tony Jeppsson|Sjöbo, Försäkringshandläggare, 58 år

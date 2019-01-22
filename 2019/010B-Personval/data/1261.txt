@@ -1,9 +1,196 @@
-2|28159|34287|34288|34291|34290|34293|34292|34295|34294|34297|34296|34299|34298|34301|34300|34303|34302|34305|34304|34307|34308|34309|34310|34311|34312|34313|34314|34315|34316|34317|34318|34319|34320|34321|34322|34323
-4|8531|39192|39186|49840|37086|49842|49843|49844|49845|49846|49847|49848|49849|49850|49851|49852|49853|49854|49855|49856|49857|49858|49859|35634
-1150|515748
-68|59436|31810|59442|62307|62308
-3|38839|69064|69065|69066|38851|69068|38853|38854|69071|69072|69073|38855|69075|69076|69077|69078|69079|69080|69081|69082|69083|69084|69085
-55|59329|21591|59331|59529|59530|59531|59532|59533|59534|59535|59536|59537|59538|59539|59540|59541|59624|59625|59626|59627|59628|59629
-1|56787|56788|56789|56790|56791|56792|56793|56794|56795|56796|56797|56798|56799|56800|56801|56802|56803|56804|56805|56806|56807|56808|56809|56810|56811|56812|56813|56814|56815|56816|56817|56818|56819|56820|56821|56822|56823|56824|56825|56826|56827|56828|56829|56830|56831|56832
-110|85110|85111|85112|85113|85115|85116|85117|85119|85120|85121|85122|85123|85124|192051|85114
-5|109939|109940|109941|109942|109943
+T|Kävlinge
+A|2|28159|34287|34288|34291|34290|34293|34292|34295|34294|34297|34296|34299|34298|34301|34300|34303|34302|34305|34304|34307|34308|34309|34310|34311|34312|34313|34314|34315|34316|34317|34318|34319|34320|34321|34322|34323
+A|4|8531|39192|39186|49840|37086|49842|49843|49844|49845|49846|49847|49848|49849|49850|49851|49852|49853|49854|49855|49856|49857|49858|49859|35634
+A|1150|515748
+A|68|59436|31810|59442|62307|62308
+A|3|38839|69064|69065|69066|38851|69068|38853|38854|69071|69072|69073|38855|69075|69076|69077|69078|69079|69080|69081|69082|69083|69084|69085
+A|55|59329|21591|59331|59529|59530|59531|59532|59533|59534|59535|59536|59537|59538|59539|59540|59541|59624|59625|59626|59627|59628|59629
+A|1|56787|56788|56789|56790|56791|56792|56793|56794|56795|56796|56797|56798|56799|56800|56801|56802|56803|56804|56805|56806|56807|56808|56809|56810|56811|56812|56813|56814|56815|56816|56817|56818|56819|56820|56821|56822|56823|56824|56825|56826|56827|56828|56829|56830|56831|56832
+A|110|85110|85111|85112|85113|85115|85116|85117|85119|85120|85121|85122|85123|85124|192051|85114
+A|5|109939|109940|109941|109942|109943
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|28159|50|K|Catrin Tufvesson|Nationell samordnare, Kävlinge
+C|34287|71|M|Roland Palmqvist|71 år, Adjunkt
+C|34288|66|K|Gunilla Tornqvist|Socialarbetare, Kävlinge
+C|34291|64|M|Rune Sandström|64 år, Projektledare
+C|34290|70|K|Gunni Gustafsson Nilsson|fd Verksamhetschef, Kävlinge
+C|34293|60|M|Peter Blom|60 år, Företagsekonom
+C|34292|73|K|Birgitta Dahlén Mårtensson|73 år, Jur. kand.
+C|34295|65|M|Jimmy Runesson|65 år, Psyk. Skötare
+C|34294|55|K|Susanne Lund|55 år, Verksamhetsutvecklare
+C|34297|28|M|Markus Nordqvist|28 år, Kanslist
+C|34296|45|K|Veronica Wikner|45 år, Frivårdsinspektör
+C|34299|65|M|Jan Kronberg|66 år, Administrativ chef
+C|34298|18|K|Caisa Tufvesson|18 år, Studerande
+C|34301|71|M|Lars Johansson|70 år, Kriminalvårdare
+C|34300|68|K|Ulla Svensson|68 år, Affärsbiträde
+C|34303|51|M|Ulf Persson|52 år, Byggnadsarbetare
+C|34302|56|K|Anna Landin|56 år, Undersköterska
+C|34305|50|M|Lars-Eric Jönsson|50 år, Test Engeneer
+C|34304|61|K|Karin Andersson|61 år, Kanslist
+C|34307|76|M|Mats Malmström|76 år, Reprotekniker
+C|34308|60|K|Karin Lindell|59 år, Barnskötare
+C|34309|48|M|Anders Landin|48 år, Undersköterska
+C|34310|70|K|Anne-lis Paulsson|70 år, Postkassörska
+C|34311|42|M|David Mikhail|42 år, Studerande
+C|34312|59|K|Gun Sandqvist|59 år, Barnskötare
+C|34313|45|M|Anders Malmsjö|45 år, Tjänsteman
+C|34314|63|K|Pia Ahnfelt|63 år, Skötare
+C|34315|43|M|Daniel Barteg|43 år, Elektronikingenjör
+C|34316|57|K|Susanne Blom|57 år, Ombudsman Hotell och restaurang
+C|34317|74|M|Gert Malmros|74 år, Polis
+C|34318|73|K|Marianne Möllerstedt|73 år, Gymnasielärare
+C|34319|69|M|Dan Schiebler|69 år, Byggnadsarbetare
+C|34320|55|K|Elise Nordqvist|55 år, Samordnare RSMH
+C|34321|76|M|Carsten Rosquist|75 år, Charketurist
+C|34322|51|K|Agneta Sjöfors|51 år, Civilekonom
+C|34323|67|M|Dennys Tornqvist|67 år, Anläggare
+C|8531|41|K|Stina Larsson|41 år, Företagare, Kävlinge
+C|39192|38|K|Johanna Laurell|38, Sjuksköterska, Kävlinge
+C|39186|51|M|Lennart Hansson|51, Lantmästare, Kävlinge
+C|49840|46|M|Martin Båfält|Civilingenjör, 46, Löddeköpinge
+C|37086|40|K|Helen Thyter|Bitr. rektor, 40, Dösjebro
+C|49842|18|K|Emma Adler|Studerande, 18, Löddeköpinge
+C|49843|43|M|Mikael Brandt|Projektledare, 43, Hofterup
+C|49844|57|M|Magnus Bagewitz|Projektledare, 57, Lilla Harrie
+C|49845|33|K|Pia-Maria Bondesson|Civilingenjör, 33, Furulund
+C|49846|62|M|Bengt-Arne Andersson|Ekonomirådgivare, 62, Dösjebro
+C|49847|63|K|Margareta Ottmer Svensson|Specialpedagog, 62, Dösjebro
+C|49848|39|K|Elise Georgson|Marknadsförare, 39, Dagstorp
+C|49849|42|M|Christian Radby|Företagare, 42, Stävie
+C|49850|54|M|Peter Lackegård|Lantmästare,54, Lackalänga
+C|49851|60|M|Erik Christensson|Lantbrukare, 60, Löddeköpinge
+C|49852|68|M|Per-Göran Andersson|Konsult, 68, Löddeköpinge
+C|49853|67|K|Bodil Persson|Lågstadielärare, 67, Virke
+C|49854|72|M|Gert Johansson|Civilingenjör, 72, Södervidinge
+C|49855|66|K|Ingrid Björk|Lågstadielärare, 66, Kävlinge
+C|49856|53|K|Isabelle Rodriguez|Community manager, 52, Hofterup
+C|49857|45|M|Magnus Nilsson|Konstruktör, 45, Dösjebro
+C|49858|61|M|Michal Wieloch|Köpman, 62, Barsebäck
+C|49859|73|M|Sven-Erik Olsson|Lantbrukare, 73, Lackalänga
+C|35634|25|M|Sebastian Petersen|25, Kommunikatör
+C|515748|58|M|Magnus Bäckström|
+C|59436|66|M|Peter Rugarn|66 år, Konsult, Löddeköpinge
+C|31810|31|K|Jessica Presits|31 år, Lingvist, Kävlinge
+C|59442|63|M|Ingvar Nordh|63 år, Marknadsekonom, Furulund
+C|62307|71|M|Olle Sjöklint|71 år, Leg. Läkare, Löddeköpinge
+C|62308|72|M|Göran Brandin|72 år, Företagare, Furulund
+C|38839|48|K|Camilla Mårtensen|livsmedelskonsult, Kävlinge
+C|69064|51|K|Anette Bååth|jurist, Barsebäck, 51 år
+C|69065|58|K|Carina Ingelsson|projektkoordinator, Tostarp, 58 år
+C|69066|68|M|Lars Dahlvid|projektledare, Löddeköpinge, 68 år
+C|38851|47|K|Sonja Ivkovic|Kävlinge
+C|69068|71|K|Ann-Britt Svensson|undersköterska, Löddeköpinge, 71 år
+C|38853|59|M|Mikael Juul Sörensen|Kävlinge
+C|38854|65|K|Eva Bengtsson|Barsebäck
+C|69071|34|M|Kim Roos|busschaufför, Kävlinge, 34 år
+C|69072|26|M|Markus Elmberg|lärare, Kävlinge, 26 år
+C|69073|75|M|Sune Bengtsson|rådgivare, Barsebäck, 75 år
+C|38855|67|M|Göran Larsson|Löddeköpinge
+C|69075|66|M|Lars Carlsson|pensionär, Kävlinge, 66 år
+C|69076|49|M|Jan Hemphälä|projektkoordinator, Vikhög, 49 år
+C|69077|61|M|Seppo Niskanen|elevassistent/fritidsledare, Hofterup, 61 år
+C|69078|53|K|Helen Ek|gymnasielärare, Löddeköpinge, 53 år
+C|69079|68|M|Dan Gillheim|företagare, Furulund, 68 år
+C|69080|50|M|Jonas Bååth|projektchef, Barsebäck, 50 år
+C|69081|21|M|Axel Mårtensen|politisk sekreterare, Vikhög, 21 år
+C|69082|46|M|Peter Gustafsson|avdelningschef, Furulund, 46 år
+C|69083|62|M|Lars Falk|art director, Vikhög, 62 år
+C|69084|70|M|Ragnar Tryggvason|produktutvecklare, Löddeköpinge, 70 år
+C|69085|20|M|Simon Bååth|studerande, Barsebäck, 20 år
+C|59329|42|K|Ann-Kristin Drevnor|42 år, leg. förskollärare, Furulund
+C|21591|65|M|Lars Lundström|Civilingenjör, 65 år, Barsebäck
+C|59331|64|K|AnnaPeri Erlandsson|64 år, leg. biomedicinsk analytiker, Löddeköpinge
+C|59529|38|M|Anders Sjöholm|38 år, trafikplanerare, Kävlinge
+C|59530|63|K|Eva-Carin Rask|63 år, leg. förskollärare, Kävlinge
+C|59531|48|M|Olof Cerne|48 år, kemist och miljökonsult, Kävlinge
+C|59532|18|K|Vivianne Olsson|18 år, studerande, Barsebäck
+C|59533|77|M|Nils Nyberg|77 år, folkskollärare, Dösjebro
+C|59534|44|K|Nina Lenngren|43 år, medmänniska, Löddeköpinge
+C|59535|36|M|Gregor Gullwi|36 år, programmerare, Löddeköpinge
+C|59536|58|K|Anne Ekberg|58 år, socionom, Lilla Harrie
+C|59537|41|M|Oscar Drevnor|41 år, fastighetsförvaltare, Furulund
+C|59538|56|K|Jamileh Alyasein Fält|56 år, tolk, Furulund
+C|59539|63|M|Per-Åke Rask|63 år, driftstekniker, Kävlinge
+C|59540|72|K|Boel Martinsson|72 år, byggnadsingenjör, Löddeköpinge
+C|59541|34|M|Daniel Norrby|34 år, elevassistent, Kävlinge
+C|59624|69|K|Irena Persson|69 år, ekonom, Kävlinge
+C|59625|73|M|Göte Gullstrand|73 år, reservdelsman, Kävlinge
+C|59626|47|K|Marit Engquist|47 år, landskapsingenjör, Ålstorp
+C|59627|77|M|Ebbe Pehrsson|77 år, ingenjör, Furulund
+C|59628|41|M|Jonas Eriksson|41 år, kemiingenjör, Kävlinge
+C|59629|68|M|Ole Persson|68 år, svagströmstekniker, Kävlinge
+C|56787|49|K|Boriana Åberg|riksdagsledamot, Skåne läns södra
+C|56788|63|K|Pia Almström|63 år, kommunstyrelsens ordförande, Hofterup
+C|56789|50|M|Johan Ericsson|50 år, egen företagare, Virke
+C|56790|45|K|Annsofie Thuresson|45 år, civilekonom, Loddekopinge
+C|56791|50|M|Thomas Lövskog|50 år, egen företagare, Kävlinge
+C|56792|46|M|Christian Lindblom|46 år, säljare, Barsebäck
+C|56793|57|M|Anders Lindvall|57 år, administratör, Kävlinge
+C|56794|73|M|Ulf Nordström|73 år, leg. psykolog, Hofterup
+C|56795|20|M|Erik Åberg|20 år, studerande, Kävlinge
+C|56796|43|M|Patrik Bengtsson|43 år, IT-företagare, Kävlinge
+C|56797|18|K|Alexandra Wallin|18 år, studerande, Kävlinge
+C|56798|30|K|Julia Stala|30 år, leg. psykolog, Furulund
+C|56799|73|K|Ulla Nordström|73 år, rehabkonsult, Hofterup
+C|56800|42|M|Mikael Elmvik|42 år, säljare, Furulund
+C|56801|66|M|Kjell-Arne Ohlsson|66 år, ingenjör, Hofterup
+C|56802|73|K|Catharina Thott|73 år, lärare, Hofterup
+C|56803|25|M|Johan Westin|25 år, studerande, Kävlinge
+C|56804|45|K|Maria Karlberg|45 år, verksamhetsutvecklare, Kävlinge
+C|56805|72|K|Margreth Holmström|72 år, pedagog, Kävlinge
+C|56806|41|K|Anna Elmvik|41 år, sjuksköterska, Furulund
+C|56807|63|M|Gunnar Wiederhielm|63 år, fil. mag., Furulund
+C|56808|43|K|Josefin Hylander|43 år, biomedicinsk analytiker, Kävlinge
+C|56809|43|M|Navid Ghannad|43 år, universitetslektor, Löddeköpinge
+C|56810|54|M|Mats Henriksson|54 år, behandlingsassistent, Löddeköpinge
+C|56811|65|M|Jan Oldén|65 år, personalansvarig, Löddeköpinge
+C|56812|49|M|Magnus Netterheim|49 år, IT-support, Kävlinge
+C|56813|64|M|Jan Wikhall|64 år, polis, Löddeköpinge
+C|56814|22|M|Max Mellander|22 år, studerande, Hofterup
+C|56815|42|M|Stefan Sandor|42 år, VD, Hofterup
+C|56816|74|M|Göran Garmer|74 år, pol. mag., Barsebäckshamn
+C|56817|45|M|Magnus Hylander|45 år, byggkonsult, Kävlinge
+C|56818|26|K|Natali Klosterling|26 år, planarkitekt, Löddeköpinge
+C|56819|49|K|Jennie Metz-Abrahamsson|49 år, jurist, Löddeköpinge
+C|56820|45|M|Magnus Thuresson|45 år, IT-arkitekt, Löddeköpinge
+C|56821|19|M|Pontus Salenbo|19 år, studerande, Kävlinge
+C|56822|55|K|Marléne Hassel|55 år, centrumutvecklare, Kävlinge
+C|56823|41|K|Ulrika Ericsson|41 år, civilingenjör, Virke
+C|56824|32|M|Konstantin Jaroslavtsev|32 år, logistics service manager, Furulund
+C|56825|52|K|Catarina Nilsson|52 år, företagsrådgivare, Furulund
+C|56826|44|M|Johan Sandström|44 år, handläggare kriminalvården, Kävlinge
+C|56827|22|K|Lovisa Svensson|22 år, studerande, Kävlinge
+C|56828|30|K|Joy Nilsson|30 år, kategorichef, Hofterup
+C|56829|74|M|Ulf Arvidsson|73 år, tryckeritekniker, Hofterup
+C|56830|63|K|Rigel Arvidsson|62 år, förskollärare, Hofterup
+C|56831|66|M|Jan Söderberg|56 år, brevbärare, Kävlinge
+C|56832|78|M|Tommy Almström|78 år, teletekniker, Hofterup
+C|85110|53|M|Lars Andersson|Politisk tjänsteman, Kävlinge
+C|85111|53|K|Helene Torhaug|egenföretagare, 53 år
+C|85112|35|M|Henrik Ekberg|byggnadsarbetare, 34 år
+C|85113|70|M|Christer Andersson|fd åkeriägare, 70 år
+C|85115|74|M|Lennart Ekström|åkeriägare, 74 år
+C|85116|26|M|Robin Persson|Patient, 26 år
+C|85117|63|M|Thomas Salomon|fd, projekingenjör, 62 år
+C|85119|36|M|Jens Larsson|servicetekniker, 37 år
+C|85120|63|M|Håkan Wallinder|fd VD, 62 år
+C|85121|60|M|Thomas Borg|60 år
+C|85122|73|K|Halina Erichson|fd ekonom, 73 år
+C|85123|44|M|Jan-Erik Jonas Pettersson|byggtekniker, 44 år
+C|85124|44|M|Glenn Malmquist|kyltekniker, 44 år
+C|192051|29|M|Stefan Palm|rekonditionerare, 29 år
+C|85114|28|M|Christoffer Jönsson|väktare, 27 år
+C|109939|65|M|Jan Persson|Kävlinge
+C|109940|44|M|Claes Gullberg|44 år, Kävlinge
+C|109941|46|M|Dan Svensson|46 år, Furulund
+C|109942|36|K|Maria Gagnesjö|lärare, 36 år, Kävlinge
+C|109943|38|M|Jon Rosenlöf|tf verksamhetsledare, 38 år, Dösjebro

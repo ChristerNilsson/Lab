@@ -1,9 +1,172 @@
-2|78901|24962|78903|78904|78905|78906|78907|78908|78909|24884|78921|78922|78923|78937|78938|24672|82744|82745|82746|82747|82748|82749|83052|83053|83054|83055|83056|83057|83058|83059|83060|83061|83062|83063|83064|83246|83247|83248|83249|83250|83251|83252|83253|83254|83255
-4|33074|14677|33076|33077|33078|12205|33080|33081|33082|33083|14668|89596|33086|33087|33088
-1136|471747
-68|250568|250569|250570|250571|250572|250573|250574|250575|250576|250577
-3|248760|283520|249306|354318|283522|249284|283524|334337|334333|283525|380232|336079|334332|334336|283526
-55|415599|418516|416001|418518|418519|418520|418521
-1|15133|12921|12918|15136|15140|12928|12925|15137|15141|15142|15143|15146|15145|3335|15147|15148|15149|15150|15151|15152|15153|15154|15155|15156|15157|15158|53424
-110|79408|79409|79411|79412|79413|79414|79415|79416|79417|79418|79419
-5|57269|57270|57271|57272|57273|57274|57275|57276|57277|57278|57279|57280|57281|57282|57283|57284|57285|57286|57287|57288|57289|57290
+T|Finspång
+A|2|78901|24962|78903|78904|78905|78906|78907|78908|78909|24884|78921|78922|78923|78937|78938|24672|82744|82745|82746|82747|82748|82749|83052|83053|83054|83055|83056|83057|83058|83059|83060|83061|83062|83063|83064|83246|83247|83248|83249|83250|83251|83252|83253|83254|83255
+A|4|33074|14677|33076|33077|33078|12205|33080|33081|33082|33083|14668|89596|33086|33087|33088
+A|1136|471747
+A|68|250568|250569|250570|250571|250572|250573|250574|250575|250576|250577
+A|3|248760|283520|249306|354318|283522|249284|283524|334337|334333|283525|380232|336079|334332|334336|283526
+A|55|415599|418516|416001|418518|418519|418520|418521
+A|1|15133|12921|12918|15136|15140|12928|12925|15137|15141|15142|15143|15146|15145|3335|15147|15148|15149|15150|15151|15152|15153|15154|15155|15156|15157|15158|53424
+A|110|79408|79409|79411|79412|79413|79414|79415|79416|79417|79418|79419
+A|5|57269|57270|57271|57272|57273|57274|57275|57276|57277|57278|57279|57280|57281|57282|57283|57284|57285|57286|57287|57288|57289|57290
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1136|DjuP|Djurens parti
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|78901|65|K|Berit Martinsson|Finspång, 65 år
+C|24962|45|K|Ulrika Jeansson|45 år, kommunstyrelseordförande, Finspång
+C|78903|49|M|Patrik Karlsson|49 år, gruppchef, Finspång
+C|78904|56|M|Jonny Persson|Finspång, 56 år
+C|78905|57|K|Riitta Leiviskä-Widlund|57 år, skötare, Finspång
+C|78906|63|M|Jan-Erik Svenblad|Hällestad, 64 år
+C|78907|34|K|Frida Granath|Finspång, 34 år
+C|78908|64|M|Jan-Erik Heintze|Rejmyre, 64 år
+C|78909|20|K|Emma Christiansen|Finspång, 20 år
+C|24884|49|M|Mats Annerfeldt|49 år, ingenjör, Finspång
+C|78921|64|K|Ann-Britt Wrenner Karlsson|Finspång, 64 år
+C|78922|47|M|Magnus Moberg|Finspång, 47 år
+C|78923|67|K|Britt-Marie Jahrl|67 år, Finspång
+C|78937|49|M|Thomas Larsson|Finspång, 49 år
+C|78938|61|K|Lena Lindberg|Finspång, 61 år
+C|24672|46|M|Anders Härnbro|46 år, Finspång
+C|82744|51|K|Helena Berg|Rejmyre, 51 år
+C|82745|73|M|Bengt Eriksson|Igelfors, 73 år
+C|82746|21|K|Josefina Leo|Finspång, 21 år
+C|82747|25|M|Khajroullah Karimi|25 år, Finspång
+C|82748|72|K|Birgit Svärd|72 år, Finspång
+C|82749|67|M|Reine Hansson|Finspång, 67 år
+C|83052|70|K|Ingrid Ström|Finspång, 70 år
+C|83053|18|M|Per Leander|Finspång, 18 år
+C|83054|35|K|Eleonore Engström|Lotorp, 35 år
+C|83055|68|M|Bill Johansson|Finspång, 68 år
+C|83056|74|K|Solvig Svensson|Finspång, 74 år
+C|83057|39|M|Johan Lennartsson|39 år, IT-forensiker, Finspång
+C|83058|46|K|Amela Bosnjakovic|Finspång, 46 år
+C|83059|46|M|Jouni Grönborg|Finspång, 46 år
+C|83060|47|K|Carola Persson|Finspång, 47 år
+C|83061|44|M|Magnus Andersson-Lindwall|Finspång, 44 år
+C|83062|41|K|Mersiha Hasanacevic|Finspång, 41 år
+C|83063|30|M|Anders Larsson|Finspång, 30 år
+C|83064|59|K|Anne Kron|Regna, 59 år
+C|83246|65|M|Kenneth Nyberg|Finspång, 65 år
+C|83247|49|K|Annelie Olsson|Finspång, 49 år
+C|83248|41|M|Sead Bosnjakovic|Finspång, 41 år
+C|83249|69|K|Laila Ringqvist|Finspång, 69 år
+C|83250|51|M|Per-Anders Sjöberg|Finspång, 51 år
+C|83251|65|K|Ing-Marie Jeansson|Finspång, 65 år
+C|83252|56|M|Mazen Bairam|Finspång, 56 år
+C|83253|48|M|Lars Thulin|Finspång, 48 år
+C|83254|72|M|Hans-Erik Svensson|Finspång, 72 år
+C|83255|76|M|Bent Pedersen|Finspång, 76 år
+C|33074|67|M|Hugo Andersson|67 år, Företagare, Skäftesfall
+C|14677|50|K|Åsa Johansson|50 år, Sjuksköterska, Finspång
+C|33076|64|M|Sune Horkeby|64 år, Civilingenjör, Klinttorp
+C|33077|37|K|Kristin Yderfors|37 år, Lantmästare, Skärvinge
+C|33078|46|K|Kristina Carlsson|46 år, Företagare, Hejtorp
+C|12205|51|K|Anna Creutz|51 år, Sjuksköterska,Finspång
+C|33080|65|M|Göran Gustavsson|65 år, Företagare, Grytgöl
+C|33081|58|K|Kerstin Andersson|58 år, Lärare, Ölmetorp
+C|33082|71|M|Örjan Andersson|71 år, Lantbrukare, Regna
+C|33083|44|K|Karin Sjöholm Svensson|45 år, Verksamhetsutv., Ragnetorp
+C|14668|48|M|Pontus Slottner|48 år, Civilingenjör, Finspång
+C|89596|72|M|Jan Anders Thornell|72 år, Brandförman, Sonstorp
+C|33086|58|M|Anders Karlsson|58 år, Bussförare, Finspång
+C|33087|68|M|Johan Yderfors|68 år, Lantbrukare, Skärvinge
+C|33088|77|M|Denny Lawrot|77 år, Pensionär, Doverstorp
+C|471747|51|K|Annelie Bondesson|Finspång, undersköterska, 50 år
+C|250568|52|K|Marie Johansson|Lärare, Finspång
+C|250569|48|M|Stefan Ackeryd|Bevakningsföreståndare, Finspång
+C|250570|70|K|Edite Järpehag|Pensionerad lärare, Ljusfallshammar
+C|250571|40|K|Kristine Andersson|Boendeansvarig, Finspång
+C|250572|24|M|Andreas Rydh|Ungdomsledare, Sonstorp
+C|250573|69|K|Siv Harrysson|Pensionär, Finspång
+C|250574|69|M|Owe Järpehag|Omsorgspastor, Ljusfallshammar
+C|250575|81|M|Börje Wåhleman|Pensionär, Ljusfallshammar
+C|250576|56|M|Christian Johansson|Busschaufför, Finspång
+C|250577|73|M|Leif Jonsson|Pensionär, Finspång
+C|248760|65|K|Britt-Marie Hamnevik Söderberg|amb.sjukv, Finspång
+C|283520|60|M|Tommy Jacobsson|Finspång
+C|249306|37|M|Mikael Wallin|trebarnspappa, Finspång
+C|354318|66|M|Åke Kinnander|Finspång
+C|283522|59|K|Elisabet Rehn|Finspång
+C|249284|62|K|Ann-Britt Johansson|HR-handläggare, Finspång
+C|283524|57|K|Birgitta Jacobsson|Finspång
+C|334337|69|M|Christer Lundström|Rejmyre
+C|334333|69|K|Berit Ramlöv|Finspång
+C|283525|77|M|Hakon Fältström|Finspång
+C|380232|73|K|Ulrike Åkesson|Finspång
+C|336079|86|M|Torbjörn Falkeby|Finspång
+C|334332|42|M|Andreas Ramlöv|Finspång
+C|334336|70|M|Larseric Ramlöv|Finspång
+C|283526|45|M|Björn Asserhed|Finspång
+C|415599|42|M|Herman Vinterhjärta|42, Miljö- och samhällsbyggnadråd, Finspång
+C|418516|60|K|Ingrid Ahlström|60 år, Lärare, Finspång
+C|416001|64|K|Gudrun Skoog|64, Leg. fysioterapeut, Rejmyre
+C|418518|51|K|Ingela Billström|51 år, Tjänseman, Igelfors
+C|418519|69|K|Monica Brodén|69 år, Ekonomie doktor, Finspång
+C|418520|51|M|Bengt Nordström|51 år, Egenföretagare, Igelfors
+C|418521|75|M|Göran Hellqvist|75 år, Pensionär, Rejmyre
+C|15133|72|M|Carl-Gustaf Mörner|Sonstorps Bruk
+C|12921|67|M|Inge Jacobsson|Oppositionsråd, Rejmyre
+C|12918|66|K|Ritha Andersson|Sjuksköterska, Finspång
+C|15136|67|M|Rune Larsson|Solberga
+C|15140|60|K|Christina Dahl|Lämneå
+C|12928|52|M|Ralf Kronholm|Illustratör, Finspång
+C|12925|54|M|Jonas Andersson|Industriarbetare, Säterhyddan
+C|15137|59|M|Stig Jansson|Hällestad
+C|15141|68|M|Christer Forsshéll|Borggård
+C|15142|75|K|Lilian Bressler|Finspång
+C|15143|60|M|Bert Egnell|Hällestad
+C|15146|65|M|Jan-Erik Andersson|Finspång
+C|15145|23|K|Ann-Charlotte Thuresson|Malmstorp
+C|3335|46|M|Erik Mildh|Företagare, 46 år, Finspång
+C|15147|25|M|Oliver Kronholm|Finspång
+C|15148|46|K|Tina Englund|Rejmyre
+C|15149|45|M|Johan Jardstål|Sonstorp
+C|15150|51|M|Niclas Lilliehöök|Finspång
+C|15151|46|K|Petra Hansen|Regna
+C|15152|67|M|Håkan Karlsson|Rejmyre
+C|15153|44|M|Fredrik Folkesson|Hällestad
+C|15154|78|M|Bernt Johansson|Hällestad
+C|15155|57|M|Fredrik Bergström|Frängsäter
+C|15156|76|M|Leif Johanneson|Finspång
+C|15157|59|M|Anders Lindgren|Finspång
+C|15158|78|K|Kerstin Johansson|Hällestad
+C|53424|69|M|Arne Ohlzon|Finspång
+C|79408|52|M|Torgny Maurer|gruppledare, 52 år, Finspång
+C|79409|37|K|Nathalie Pettersson|37, administratör, Finspång
+C|79411|52|K|Ulla-Britt Edengren|redovisningsekonom, 52 år, Grytgöl
+C|79412|68|M|Kai Hallgren|68, konsult, Finspång
+C|79413|31|K|Åsa Gustafsson|administratör, 31 år, Finspång
+C|79414|69|K|Gerd Femerström|undersköterska, 69 år, Ljusfallshammar
+C|79415|63|M|Börje Axelsson|63 år, Finspång
+C|79416|77|M|Lennart Bodling|ingenjör, 76 år, Hällestad
+C|79417|71|M|Sven-Inge Eriksson|stenmontör, 71 år, Ljusfallshammar
+C|79418|38|K|Anne-Sofie Olsson|38, undersköterska, Finspång
+C|79419|53|M|Stefan Edengren|53 år, Grytgöl
+C|57269|48|M|Stefan Carlsson|48, Utbildningsråd, Finspång
+C|57270|69|K|Ingrid Westlund|70, Docent, Finspång
+C|57271|58|M|Conny Lindgren|58, Lärare, Finspång
+C|57272|59|K|Maud Karlsson|59,  Stödpedagog, Regna
+C|57273|71|M|Christer Nyberg|72, Egenföretagare, Regna
+C|57274|63|K|Leila Martiila|63, Undersköterska, Finspång
+C|57275|28|M|Joakim Randy Hansen|28, Elevassistent
+C|57276|28|K|Linda Thyselius|28, Socialpedagog, Gomma
+C|57277|24|M|Mohamad Tarek Jalbot|24, Studerande, Finspång
+C|57278|53|K|Anna Hellerstedt|53, Lärare
+C|57279|57|M|Stefan Gustafsson|58, Metallarbetare
+C|57280|34|K|Nina Öberg|34, Beredskapssamordnare
+C|57281|63|M|Leif Sundström|64, Systemutvecklare,  Hällestad
+C|57282|20|K|Lina Persson|21, Frisör, Finspång
+C|57283|58|M|Dennis Olsen|58, Förrådsarbetare
+C|57284|67|K|Margareta Bengtsson|67, Förskollärare
+C|57285|30|M|Jesper Lövgren|31, Elektriker
+C|57286|69|K|Inger Sandberg|69, Pensionär
+C|57287|61|M|Bert-Åke Pocky Karlsson|61, Egenföretagare, Regna
+C|57288|70|M|Bengt-Göran Klintberg|70, Bagare
+C|57289|78|M|Åke Persson|79, Pensionär
+C|57290|69|M|Per-Åke Andersson|69, Aktivist

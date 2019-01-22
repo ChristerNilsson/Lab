@@ -1,7 +1,126 @@
-2|70959|70960|70961|70962|70963|70964|70225|70966|70967|29350|29157|70970|70971|70972|97998|70973|70974|70975|70976|70977|70978|70979|70980|70981|70982|70983|70984|98011|98012|70985|70986|70988|70987|70989|71057
-4|297983|300021|300022|300023|300024|300025|300026|300027|300028|300029|300030|300031|300032|300033|300034|300035|300036|300037|300039|300040|300041|300042|300043|300044
-68|32802|32803|32804|32805|32806
-55|189786|189787|189788|189789
-1|168417|168418|168419|168420|168421|168422|168423|168424
-110|340245|340246|340247|340248|340249|340250|340251|340252|340253|340254|340255|340256|340257|340258|340259|340260|340261|340262|340263|340264|340265|340266|340267|340268|340269|500910|488436|514267|514268|503567
-5|339886|339887|339888|339889|339890
+T|Ockelbo
+A|2|70959|70960|70961|70962|70963|70964|70225|70966|70967|29350|29157|70970|70971|70972|97998|70973|70974|70975|70976|70977|70978|70979|70980|70981|70982|70983|70984|98011|98012|70985|70986|70988|70987|70989|71057
+A|4|297983|300021|300022|300023|300024|300025|300026|300027|300028|300029|300030|300031|300032|300033|300034|300035|300036|300037|300039|300040|300041|300042|300043|300044
+A|68|32802|32803|32804|32805|32806
+A|55|189786|189787|189788|189789
+A|1|168417|168418|168419|168420|168421|168422|168423|168424
+A|110|340245|340246|340247|340248|340249|340250|340251|340252|340253|340254|340255|340256|340257|340258|340259|340260|340261|340262|340263|340264|340265|340266|340267|340268|340269|500910|488436|514267|514268|503567
+A|5|339886|339887|339888|339889|339890
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|70959|46|M|Magnus Jonsson|46 år, Ombudsman, Lingbo
+C|70960|56|K|Anna Schönning|56 år, Anbudsansvarig, Ockelbo
+C|70961|48|M|Patrik Jonsson|49 år, Metallarbetare, Ockelbo
+C|70962|42|K|Anna Engblom|42 år, Lärare, Lingbo
+C|70963|46|M|Jonas Tholén|46 år, NC-operatör, Åmotsbruk
+C|70964|73|K|Elsie-Britt Eriksson|73 år, Pensionär, Ockelbo
+C|70225|43|M|Anders Öquist|43 år, Ockelbo
+C|70966|63|K|Ann-Christin P Georgsdotter|63 år, Pensionär, Ockelbo
+C|70967|18|M|Ghaith Al-Tameemi|18 år, Student, Ockelbo
+C|29350|66|K|Irene Bogren|66 år, Ockelbo
+C|29157|36|M|Jamill Barikzey|37 år, Ockelbo
+C|70970|35|K|Anna Lindahl|35 år, Undersköterska, Ockelbo
+C|70971|46|M|Torbjörn Nyholm|46 år, CNC-operatör, Ockelbo
+C|70972|61|K|Inger Norell Prepula|62 år, Undersköterska, Ockelbo
+C|97998|70|M|Staffan Nordqvist|70 år, Pensionär, Ockelbo
+C|70973|63|K|Kerstin Hellberg|63 år, Apotekstekniker, Lingbo
+C|70974|63|M|Anders Olsson|63 år, Pensionär, Lingbo
+C|70975|36|K|Sara Faghihzadeh|36 år, Livsmedel- o teknikingenjör, Ockelbo
+C|70976|69|M|Tord Horn|69 år, Pensionär, Lingbo
+C|70977|71|K|Eva Pettersson|71 år, Pensionär, Ockelbo
+C|70978|48|M|Mussie Haile|48 år, Personlig assistent, Ockelbo
+C|70979|72|K|Yvonne Wendelius|72 år, Grafiker, Ockelbo
+C|70980|67|M|Göran Ström|67 år, Pensionär, Ockelbo
+C|70981|66|K|Karin Vistmyr|66 år, Undersköterska, Åmotsbruk
+C|70982|55|M|Jawad Nahi Hamad|55 år, Journalist, Ockelbo
+C|70983|62|K|Ann-Christine Tillman|62 år, Affärsbiträde, Ockelbo
+C|70984|47|M|Johnny Östling|48 år, Chaufför, Ockelbo
+C|98011|56|K|Carina Nordén|56 år, Funktionschef, Jädraås
+C|98012|35|M|Christian Stark|35 år, Platschef/arbetsledare, Ockelbo
+C|70985|39|K|Maria Öquist|39 år, Undersköterska, Ockelbo
+C|70986|64|M|Jörgen Alkberg|63 år, Pensionär, Ockelbo
+C|70988|74|K|Ann-Britt Wikman|74 år, Pensionär, Ockelbo
+C|70987|74|M|Sune Lang|74 år, Pensionär, Ockelbo
+C|70989|55|K|Rosita Hedström|55 år, Barnskötare, Ockelbo
+C|71057|75|K|Gunilla Persson|75 år, f.d. Lärare, Ockelbo
+C|297983|58|K|Marit Rempling|systemutvecklare, Ockelbo
+C|300021|71|M|Birger Larsson|snickare, Ulvsta
+C|300022|53|K|Lena Schenström|arbetsterapeut, Ockelbo
+C|300023|60|M|Per-Olof Uhrus|bonde, Mo
+C|300024|52|K|Carin Engblom|rektor, Lingbo
+C|300025|73|K|Birgitta Åstrand|tandhygienist, Lingbo
+C|300026|49|M|Magnus Hålén|lantbrukare, Klockarbacken
+C|300027|79|M|Thorsten Åstrand|pensionär, Lingbo
+C|300028|71|K|Inger Högberg Kalmering|sjuksköterska, Lingbo
+C|300029|33|K|Malin Helperin|lantmätare, Ockelbo
+C|300030|59|M|Lars-Erik Wickberg|avdelningschef, Sunnanåsbo
+C|300031|32|M|Gebriel Tewelde|lärare, Ockelbo
+C|300032|76|M|Staffan Åkesson|maskinist, Wijberget
+C|300033|38|K|Anna Andersson|distriktssköterska, Lingbo
+C|300034|51|M|Per-Olov Olsson|ingenjör, Östby
+C|300035|42|K|Jessica Simonsson|undersköterska, Åbyggeby
+C|300036|53|M|Torbjörn Pant|ingenjör, Åbyggeby
+C|300037|45|K|Anette Larsson|lärare, Ulvsta
+C|300039|62|M|Tommy Stigenberg|behandlingsassistent, Brattfors
+C|300040|72|K|Annica Jonsson|undersköterska, Mo
+C|300041|59|K|Karin Öhlund|ekonom, Sunnanåsbo
+C|300042|73|M|Lars-Ola Östling|busschaufför, Stenbäcken
+C|300043|61|M|Anders Bohlin|automationstekniker, Ulvsta
+C|300044|77|M|Stig Wickström|pensionär, Åbyggeby
+C|32802|60|M|Dan Brodin|Skogsbonde, Mörtebo
+C|32803|70|K|Mari-Ann Dahlstedt|Köpman, Ockelbo
+C|32804|78|K|Eila Kekarainen|Lärare, Gammelfäbodarna
+C|32805|76|M|Osmo Kekarainen|Metallarbetare, Gammelfäbodarna
+C|32806|73|K|Anna-Greta Hofvenstam-Lindgren|Lärare, Jädraås
+C|189786|72|M|Niels Hebert|71 år, Ockelbo
+C|189787|33|K|Madelene Håkansson|33 år, Åmot
+C|189788|37|M|Christoffer Carstens|37 år, Åmot
+C|189789|70|K|Inga Bergström|70 år, Ockelbo
+C|168417|71|M|Anders Nordlander|71 år, distriktschef, Ockelbo
+C|168418|33|M|Linus Gunnarsson|33 år, konsult, Ockelbo
+C|168419|46|M|Alexander Olers|46 år, företagare/konsult, Ockelbo
+C|168420|29|M|Rickard Lindstrand Levin|29 år, civilingenjör, Ockelbo
+C|168421|61|K|Elisabeth Nordlander|61 år, distriktssköterska, Ockelbo
+C|168422|46|K|Ulrica Norling|46 år, studerande/konsult, Ockelbo
+C|168423|59|M|Björn Östberg|59 år, företagare, Ockelbo
+C|168424|50|M|Kjell-Arne Persson|50 år, företagare, Ockelbo
+C|340245|37|M|Jonny Lindblom|Yrkeschaufför/förman, Ockelbo
+C|340246|27|K|Liz Zachariasson|27, undersköterska, Ockelbo
+C|340247|32|M|Joel Strömner|33, fastighetsskötare, Ockelbo
+C|340248|44|K|Maria Lenander|
+C|340249|34|M|Marcus Hellman|35, säljare, Ockelbo
+C|340250|27|K|Matilda Hålén|28, undersköterska, Ockelbo
+C|340251|30|M|Patrik Herou|
+C|340252|74|K|Lena Lundqvist|74, pensionär, Ockelbo
+C|340253|35|M|Marcus Bertilsson|
+C|340254|31|K|Petra Wetterstrand|31, undersköterska, Ockelbo
+C|340255|29|M|Jonas Lundberg|
+C|340256|32|M|Mattias Palm|
+C|340257|54|M|Mats Söderlund|
+C|340258|54|M|Conny Malmgren|54, sjukpensionär, Ockelbo
+C|340259|31|K|Jeanette Bergqvist|
+C|340260|67|M|Mats-Åke Ingvar Lundberg|
+C|340261|62|M|Leif Lundquist|
+C|340262|67|M|Evald Larsson|68, brobyggare, Åmotsbruk
+C|340263|63|K|Ann-Katrin Zachrisson|
+C|340264|52|K|Kanyarat Wankhunthod|52, salladsskördare, Ockelbo
+C|340265|33|M|Tommy Hillgren|34, företagare, Ockelbo
+C|340266|51|M|Per-Erik Östling|
+C|340267|27|M|Anders Lindblom|28, fastighetsskötare, Ockelbo
+C|340268|28|K|Fanny Härdin-Larsson|28, bagare, Ockelbo
+C|340269|44|M|Daniel Sjöblom Eriksson|
+C|500910|25|M|Linus Lindgren|26, Ockelbo
+C|488436|50|K|Katarina Bolander|50, lantmästare, Ockelbo
+C|514267|61|M|Rune Eriksson|62, fordonsförare, Ockelbo
+C|514268|69|M|Vladimir Topcheev|69, pensionär, Ockelbo
+C|503567|47|K|Therese Karlsson|
+C|339886|66|K|Anna Lindmark|
+C|339887|37|M|Martin Sund Svensson|
+C|339888|70|M|Bertil Rutström|70, pensionär, Ockelbo
+C|339889|63|M|Anders Hallman|
+C|339890|66|M|Markku Kalliokoski|

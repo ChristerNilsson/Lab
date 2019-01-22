@@ -1,9 +1,190 @@
-2|35754|35755|35756|35757|35758|35759|35760|35761|35762|35763|35764|35765|35766|35767|35768|35769|35770|35771|35772|35773|35774|35775|35776|35777|35778|35779|35780|35781|35782|35783|35784|35785|35786|35787|35788|35789|35790|35791|35792|35793|35794|35795|35796|35797|35798|35799|35801|35802|35803|35804|35805|35806|35807
-4|15858|15967|15964|15969|15966|15972|130270|15965|15971|130273|130274|15866|15975|15977|130278|15979|130280|15963|15973|130283|130284|15974|15984|130287|130288|130289|15986|130291|130292|130293|130294
-68|78506|167992|78513|167994|78378|167996|167997|167998|167999|168000|168001|168002|78517|168004|168005
-3|216862|216869|242494|242495|242496|216865
-1296|144853
-55|233334|233337|374116|374117|374119|374120
-1|1654|1650|68812|68813|68814|68815|68817|68816|68818|68819|68820|1658|68822|68823|68824|68825|68826|68827|68828|68829|68830|68831|68832|80622
-110|126069|126070|126071|126072|126073|126074|126076|126077|126078|126075|515565|515566|515567|515568|515569|515570|515571|515572|515573
-5|491122|491123|491124|491125|491126|230794|491128|491129|493411|491130|491131|491132|491133|491134|493417|491135
+T|Eksjö
+A|2|35754|35755|35756|35757|35758|35759|35760|35761|35762|35763|35764|35765|35766|35767|35768|35769|35770|35771|35772|35773|35774|35775|35776|35777|35778|35779|35780|35781|35782|35783|35784|35785|35786|35787|35788|35789|35790|35791|35792|35793|35794|35795|35796|35797|35798|35799|35801|35802|35803|35804|35805|35806|35807
+A|4|15858|15967|15964|15969|15966|15972|130270|15965|15971|130273|130274|15866|15975|15977|130278|15979|130280|15963|15973|130283|130284|15974|15984|130287|130288|130289|15986|130291|130292|130293|130294
+A|68|78506|167992|78513|167994|78378|167996|167997|167998|167999|168000|168001|168002|78517|168004|168005
+A|3|216862|216869|242494|242495|242496|216865
+A|1296|144853
+A|55|233334|233337|374116|374117|374119|374120
+A|1|1654|1650|68812|68813|68814|68815|68817|68816|68818|68819|68820|1658|68822|68823|68824|68825|68826|68827|68828|68829|68830|68831|68832|80622
+A|110|126069|126070|126071|126072|126073|126074|126076|126077|126078|126075|515565|515566|515567|515568|515569|515570|515571|515572|515573
+A|5|491122|491123|491124|491125|491126|230794|491128|491129|493411|491130|491131|491132|491133|491134|493417|491135
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|35754|46|K|Diana Laitinen Carlsson|46 år, Oppositionsråd,Eksjö
+C|35755|27|M|Sebastian Hörlin|27 år,Upphandlingschef, Eksjö
+C|35756|60|M|Johan Stark|61 år, Försäkringstjänsteman,Hult
+C|35757|66|K|Ingegerd Axell|66 år,Pensionär, Eksjö
+C|35758|71|K|Birgitta Johansson|71 år, Projektledare,Mariannelund
+C|35759|73|M|Kjell Axell|73 år,Pensionär, Eksjö
+C|35760|50|K|Christina Bladh|50 år,Undersköterska, Eksjö
+C|35761|72|M|Stig Axelsson|72 år,Pensionär, Eksjö
+C|35762|34|M|Jonas Nilsson|34 år, Omvårdare,Eksjö
+C|35763|70|M|Bertil Granman|70 år,Pensionär, Eksjö
+C|35764|66|K|GunBritt Henning|66 år,Fd. ombudsman, Eksjö
+C|35765|66|M|Lars Aronsson|66 år,Pensionär, Eksjö
+C|35766|23|M|Simon Nordin|23 år, Studerande,Eksjö
+C|35767|54|K|Ingrid Ottosson|55 år, Undersköterska,Mariannelund
+C|35768|52|M|Mikael Andréasson|52 år, Ombudsman,Eksjö
+C|35769|71|M|Bo Bergvall|71 år,Pensionär, Eksjö
+C|35770|57|K|Carina Stende|56 år, Administratör,Eksjö
+C|35771|27|M|Benjamin Jangenfält|27 år,Träindustriarbetare, Mariannelund
+C|35772|72|M|Lennart Gustavsson|72 år,Pensionär, Eksjö
+C|35773|52|K|Vernisa Gazibara|52 år,Administratör, Eksjö
+C|35774|51|K|Maria Österberg|51 år,Lärarassistent, Mariannelund
+C|35775|71|K|Britt-Marie Palm|71 år, Pensionär,Eksjö
+C|35776|66|M|Lars Persson|66 år,Destinationsutvecklare, Eksjö
+C|35777|79|M|Alf Nordell|79 år,Pensionär, Eksjö
+C|35778|43|M|Joakim Blomqvist|43 år,Behandlingspedagog, Eksjö
+C|35779|37|K|Seda Grigoryan|37 år,Tandsköterska, Eksjö
+C|35780|43|K|Malin Nordell|43 år,Undersköterska, Eksjö
+C|35781|51|M|Johan Andersson|51 år,Målare, Eksjö
+C|35782|71|K|Ulla Hägg|71 år, Pensionär,Eksjö
+C|35783|69|M|Leif Fransson|69 år,Pensionär, Eksjö
+C|35784|74|M|Bahram Kouchakpour|74 år,Pensionär, Eksjö
+C|35785|41|M|Farhan Maroufpour|41 år,Lokalvårdare, Eksjö
+C|35786|68|M|Per-Olof Bjarnbäck|68 år,Herr, Eksjö
+C|35787|63|K|Pia Schelin|63 år,Undersköterska, Eksjö
+C|35788|49|M|Abedmunem Idris|49 år,Elektriker, Eksjö
+C|35789|63|K|Ann-Charlotte Käck-Karlsson|63 år,Socionom, Eksjö
+C|35790|66|M|Leif Alervall|66 år,Pensionär, Hult
+C|35791|54|M|Ingemar Skälemark|54 år,Sågverksarbetare, Ingatorp
+C|35792|38|M|Mattias Granath|38 år,IT-tekniker, Eksjö
+C|35793|20|M|Kasper Dam Larsen|20 år,Konsult, Eksjö
+C|35794|65|M|Peter Lindholm|65 år,Pensionär, Mariannelund
+C|35795|32|K|Rooda Hassan|32 år,Undersköterska, Eksjö
+C|35796|76|M|Kent Björk|76 år,Pensionär, Eksjö
+C|35797|49|M|Timmy Nordell|49 år,Arbetsledare, Eksjö
+C|35798|59|M|Mikael Kyllenbeck|59 år,CNC-operatör, Mariannelund
+C|35799|66|M|Anders Sääv|66 år,Pensionär, Eksjö
+C|35801|60|K|Helene Starck|60 år,Undersköterska, Hult
+C|35802|54|M|Sven-Åke Säll|54 år,Sågverksarbetare, Mariannelund
+C|35803|19|M|Oskar Ekman|19 år,Student, Eksjö
+C|35804|22|M|Hassan Salameh|22 år,Student, Eksjö
+C|35805|79|M|Stig Andersson|79 år,Pensionär, Eksjö
+C|35806|74|K|Lillemor Eisen|74 år,Pensionär, Eksjö
+C|35807|64|M|Lars-Erik Brandt|64 år,Pensionär, Eksjö
+C|15858|44|K|Annelie Hägg|44, Kommunalråd, Mellby
+C|15967|60|M|Bo-Kenneth Knutsson|Verksamhetschef, Eksjö
+C|15964|51|K|Maria Havskog|Massageterapeut, Hult
+C|15969|59|M|Lennart Nilsson|Lantbrukare, Ingatorp
+C|15966|69|K|Ingbritt Martinsson|Specialpedagog, Höreda
+C|15972|67|M|Ulf Bardh|Socionom, Eksjö
+C|130270|35|K|Julia Liderfelt|HR-konsult, Eksjö
+C|15965|45|M|Stellan Johnsson|Skolledare, Eksjö
+C|15971|54|K|Sandra Mulaomerovic|Överläkare, Eksjö
+C|130273|62|M|Tommy Ingvarsson|Lantbrukare, Bruzaholm
+C|130274|56|M|Jan Nilsson|Skog- och Lantbrukare, Mariannelund
+C|15866|31|M|Erik Johansson|Lantbrukare, Hult
+C|15975|81|M|Erling Johansson|Kapten, Eksjö
+C|15977|40|K|Emeli Olaison|Jurist och Verksamhetsutvecklare, Hult
+C|130278|55|M|Micael Frisk|Skogsbrukare, Mellby
+C|15979|56|M|Sven-Inge Ågren|Landsbygdsföretagare, Eksjö
+C|130280|43|K|Martina Nord|Församlingspedagog, Eksjö
+C|15963|68|M|Per Sixtensson|Skogsbrukare, Eksjö
+C|15973|51|K|Lena Carlsson|Studerande, Eksjö
+C|130283|24|M|Marigon Berisha|24, Studerande, Eksjö
+C|130284|18|K|Linnea Bäckmark|Studerande, Eksjö
+C|15974|54|M|Vedad Mulaomerovic|Jurist och Civilekonom, Eksjö
+C|15984|76|M|Arne Ullman|Ingenjör, Eksjö
+C|130287|68|M|Jan-Erik Wahlström|Företagare, Hult
+C|130288|66|M|Bengt Jacobsson|It-Konsult, Eksjö
+C|130289|65|K|Elna Ström|Handläggare, Eksjö
+C|15986|33|M|Simon Johansson|Lantbrukare, Hult
+C|130291|61|M|Sten Eriksson|Lantmästare, Eksjö
+C|130292|60|K|Karin Eriksson|Lantbrukare, Höreda
+C|130293|19|K|Hilda Ingvarsson|Studerande, Bruzaholm
+C|130294|46|M|Jimmy Brorsson|Säljare, Ingatorp
+C|78506|67|M|Bo Ljung|Enhetschef, Eksjö
+C|167992|52|M|Magnus Berglund|Egen företagare, Ingatorp
+C|78513|58|M|Roddy Brun|Läkare, Eksjö
+C|167994|65|K|Birgitta Liljerås Larm|Leg. sjuksköterska, Eksjö
+C|78378|44|M|Mattias Ingeson|Bitr. generalsekreterare, Eksjö
+C|167996|68|M|Anders Pansell|Optiker, Eksjö
+C|167997|49|K|Carola Kullberg|Barnskötare, Eksjö
+C|167998|59|M|Stellan Streiffert|Teknikchef, Höreda
+C|167999|49|M|Magnus Kullberg|Platschef, Eksjö
+C|168000|65|K|Britt-Marie Svensson|Distriktssköterska, Eksjö
+C|168001|65|M|Gunnar Svensson|Sjuksköterska, Eksjö
+C|168002|55|K|Marina Hedengren|Lärare, Eksjö
+C|78517|59|M|Conny Hedengren|Pastor, Eksjö
+C|168004|34|M|Kristofer Martinsson|Lageransvarig, Eksjö
+C|168005|73|M|Lars-Göran Lind|IT-pensionär, Mariannelund
+C|216862|51|M|Micael Carlsson|
+C|216869|76|M|Christer Ljung|
+C|242494|39|M|Magnus Alm|39, Säljare, Eksjö
+C|242495|58|M|Arne Carlsson|58, Vårdare, Eksjö
+C|242496|74|M|Sven-Olov Lindahl|74, Läkare, Eksjö
+C|216865|70|M|Bo Thorsander|
+C|144853|36|K|Sandra Hila|36, marknadskommunikatör
+C|233334|62|K|Lea Petersson|62 år, kontorist, Eksjö
+C|233337|62|K|Eva Ekenberg|62 år, f d områdeschef, Eksjö
+C|374116|46|M|Jonas Håkansson|46 år, elektriker
+C|374117|35|K|Linda Pilefelt|35 år, sömmerska
+C|374119|61|M|Tapio Sulasalmi|61 år, f d officer
+C|374120|87|K|Henny Utsi-Åhlin|87 år, författare
+C|1654|45|K|Carina Lindström|45 år, Kommunalråd, Eksjö
+C|1650|45|M|Tomas Erazim|45 år, Rektor, Hult
+C|68812|49|K|Annelie Sjöberg|49 år, Bredbandssamordnare, Eksjö
+C|68813|69|M|Anders Gustafsson|69 år, Skogsbrukare, Eksjö
+C|68814|69|K|Marie-Louise Gunnarsson|69 år, Sjuksköterska, Eksjö
+C|68815|70|M|Ulf Björlingson|70 år, Civilingenjör, Eksjö
+C|68817|60|M|Mats Danielsson|60 år, Företagare, Eksjö
+C|68816|71|M|Jes Suhr|71 år, Civilekonom, Bruzaholm
+C|68818|52|M|Mikael Lindström|52 år, Projektkoordinator, Eksjö
+C|68819|65|K|Kristina Carlo|65 år, F.d. affärsinnehavare, Eksjö
+C|68820|51|M|Lars Ugarph|51 år, Evenemangskoordinator, Eksjö
+C|1658|30|K|Sofia Ridderstad|30 år, Ryttare, Änkarp
+C|68822|54|M|Markus Kyllenbeck|54 år, Företagare, Mariannelund
+C|68823|68|M|Ronnie Gustafsson|68 år, Konstnär, Eksjö
+C|68824|68|M|Jan Hall|68 år, F.d. officer, Eksjö
+C|68825|65|K|Karin Elardt|65 år, F.d. chefsadministratör, Björka
+C|68826|63|M|Bo Anders Jansson|63 år, Eksjö
+C|68827|68|M|Rolf Abelsson|68 år, Revisor, Eksjö
+C|68828|75|M|Björn Alm|75 år, Samhällsplanerare, Eksjö
+C|68829|52|M|Raoul Adolfsson|52 år, Mediasäljare, Eksjö
+C|68830|77|M|Claes-Göran Stelpe|77 år, F.d. officer, Eksjö
+C|68831|45|M|Robin Kihlbaum|45 år, Läkare, Eksjö
+C|68832|71|K|Monika Mimer|71 år, Jurist, Eksjö
+C|80622|70|M|Lars Jansson|70 år, Kemist, Eksjö
+C|126069|55|M|Ulf Svensson|Entreprenör, Eksjö
+C|126070|54|K|Elisabeth Werner|Travhästuppfödare, Eksjö
+C|126071|48|M|Mats Svensson|48, CNC-operatör, Hult
+C|126072|68|K|Helena Möller|
+C|126073|52|M|Urban Svensson|52, Vvs-montör, Eksjö
+C|126074|20|K|Lulu Andersen|Eksjö
+C|126076|87|M|Claes Blomqvist|87, Pensionär, Eksjö
+C|126077|30|K|Alexandra Åhlfeldt|30, Undersköterska, Eksjö
+C|126078|24|M|Axel Augustsson|24, Lantbrukare, Eksjö
+C|126075|69|M|Göran Augustsson|69 år, Eksjö
+C|515565|66|K|Britt Axelsson|
+C|515566|55|K|Gun Andersson|
+C|515567|74|M|Lennart Ljunggren|
+C|515568|72|M|Lars Erik Brolén|
+C|515569|73|K|Anita Birgitta Karlsson|
+C|515570|40|K|Anna Backman|
+C|515571|40|M|Rolf Peter Niklas Schiöld|
+C|515572|49|K|Charlotte Nykvist|
+C|515573|30|M|Adam Hasth|
+C|491122|53|M|Johan Ragnarsson|53 år, psykolog, Eksjö
+C|491123|42|K|Ulrica Andrae|42 år, lärare, Eksjö
+C|491124|57|K|Ami Fagrell|57 år, datatekniker, Hjältevad
+C|491125|65|M|Jürgen Beck|65 år, utvecklingschef, Eksjö
+C|491126|29|M|Jonas Lindgren|29 år, ölbryggare, Eksjö
+C|230794|38|M|Alexander Lowejko|integrationsstrateg, Eksjö
+C|491128|42|M|Mattias Stendahl|42 år, IT-ingenjör, Eksjö
+C|491129|59|M|Jan Pilefelt|59 år, lärare, Eksjö
+C|493411|56|K|Birgitta Eek|56 år, informatör, Eksjö
+C|491130|47|M|Christer Gustafsson|47 år, kock/behandlingsassistent, Eksjö
+C|491131|41|M|Christoffer Neese|41 år, egenföretagare, Eksjö
+C|491132|56|M|Magnus Wassborg|56 år, konstnär, Eksjö
+C|491133|67|M|Thomas Lindström|67 år, begravningsentreprenör, Hjältevad
+C|491134|53|M|Joakim Andersson|53 år, administratör, Eksjö
+C|493417|50|M|Pierré Bengtsson|50 år, sågverksarbetare, Hult
+C|491135|53|K|Liselott Bjurgard|53 år, konstnär, Eksjö

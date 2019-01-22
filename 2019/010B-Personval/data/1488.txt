@@ -1,9 +1,281 @@
-2|101161|101162|101163|101164|101165|101166|101167|101168|101169|101170|101171|101172|101173|101174|101175|101176|101177|101178|101179|101180|101181|101182|101183|101184|101185|101186|101187|101188|101189|101190|101191|101192|101193|101194|101195|101196|101197|101198|101199|101200|101201|101202|101203|101204|101205|101206|101207|101208|101209|101210|101211|101212|101213|101214|101215|101216|101217|101218|101219|101220|101221|101222|101223|101224|101225|101226|101227|101228|101229|101230|101231|101232
-4|1866|11639|11640|1980|1876|11643|11644|11645|11646|11647|11649|11650|11651|11652|1879|1966|11655|11656|11657|1889|11659|11660|11661|162590|11663|11664|11665|11666|11667
-68|248796|248804|248807|493094|493095|249189|493097|493098|493099|493100|493101|249192
-3|245499|245500|245501|245502|245503|245504|245505|245506|245507|245508|245509|245510|245511|245512|245513|245514|245515|245516|245517|245518
-55|77486|77487|77488|77489|77490|77491|77492|77493|77494|77495|77496|77497|77498
-1|243432|243429|256141|243436|256143|256144|256145|256146|254200|256148|254210|256150|256151|256152|256153|256154|256155|256156|256157|256158|256159|254235|256161|256162|256163|256164|256165|256166|256167|256168|256169|256170|256171|256172|256173|256174|256175|256176|256177|256178|256179|256180|256181|256182|256183
-110|68438|68439|68440|68441|68442|68443|68444|68445|68446|68447|68448|68449|68450|68451
-1278|2922|2823|3879|2921|3881|3887|2916|3889|3890|3900|3901|3991|14803|2913|28040|3919|2923|4015|14975|28045|3921|4045|14979|4018|4097|4047|4043|2915|4019|4046|4042|4048|3920|4017|2912
-5|313305|234444|234427|234433|313309|234441|313311|235210|234437|313314|313315|313316|313317|313318|313319|313320|313321|313322|313323|313324|313325|313326|313327
+T|Trollhättan
+A|2|101161|101162|101163|101164|101165|101166|101167|101168|101169|101170|101171|101172|101173|101174|101175|101176|101177|101178|101179|101180|101181|101182|101183|101184|101185|101186|101187|101188|101189|101190|101191|101192|101193|101194|101195|101196|101197|101198|101199|101200|101201|101202|101203|101204|101205|101206|101207|101208|101209|101210|101211|101212|101213|101214|101215|101216|101217|101218|101219|101220|101221|101222|101223|101224|101225|101226|101227|101228|101229|101230|101231|101232
+A|4|1866|11639|11640|1980|1876|11643|11644|11645|11646|11647|11649|11650|11651|11652|1879|1966|11655|11656|11657|1889|11659|11660|11661|162590|11663|11664|11665|11666|11667
+A|68|248796|248804|248807|493094|493095|249189|493097|493098|493099|493100|493101|249192
+A|3|245499|245500|245501|245502|245503|245504|245505|245506|245507|245508|245509|245510|245511|245512|245513|245514|245515|245516|245517|245518
+A|55|77486|77487|77488|77489|77490|77491|77492|77493|77494|77495|77496|77497|77498
+A|1|243432|243429|256141|243436|256143|256144|256145|256146|254200|256148|254210|256150|256151|256152|256153|256154|256155|256156|256157|256158|256159|254235|256161|256162|256163|256164|256165|256166|256167|256168|256170|256171|256172|256173|256174|256175|256176|256177|256178|256179|256180|256181|256182|256183
+A|110|68438|68439|68440|68441|68442|68443|68444|68445|68446|68447|68448|68449|68450|68451
+A|1278|2922|2823|3879|2921|3881|3887|2916|3889|3890|3900|3901|3991|14803|2913|28040|3919|2923|4015|14975|28045|3921|4045|14979|4018|4097|4047|4043|2915|4019|4046|4042|4048|3920|4017|2912
+A|5|313305|234444|234427|234433|313309|234441|313311|235210|234437|313314|313315|313316|313317|313318|313319|313320|313321|313322|313323|313324|313325|313326|313327
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1278|ThnF|Trollhättans Framtid
+B|5|V|Vänsterpartiet
+C|101161|58|M|Paul Åkerlund|kommunalråd, Sandhem, 58 år
+C|101162|60|K|Monica Hanson|Kommunalråd, 60 år, Trollhättan
+C|101163|56|M|Mats Wiking|Familjerådgivare, 56 år, Trollhättan
+C|101164|23|K|Sofia Andersson|Studerande, 23 år, Trollhättan
+C|101165|60|M|Bengt Karlsson|Ombudsman, 60 år, Trollhättan
+C|101166|65|K|Ann-Christin Holgersson|pensionär, Sylte, 65 år
+C|101167|40|M|Mussa Selim|Sjuksköterska, 40 år, Trollhättan
+C|101168|67|K|Margreth Johnsson|Pensionär, 67 år, Trollhättan
+C|101169|47|M|Mikael Sundström|sjuksköterska, Centrum, 47 år
+C|101170|63|K|Carina Lorentzon|ombudsman, Upphärad, 63 år
+C|101171|68|M|Gert-Inge Andersson|pensionär, Centrum, 68 år
+C|101172|49|K|Malin Johansson|Frivårdsinspektör, 49 år, Trollhättan
+C|101173|39|M|Tony Georgiou|business controller, Torsred, 39 år
+C|101174|51|K|Nina Ljungqvist|integrationspedagog, Halvorstorp, 51 år
+C|101175|30|M|Jonas Nilsson|byggnadsarbetare, Centrum, 30 år
+C|101176|68|K|Patricia Valeria|pensionär, Lextorp, 68 år
+C|101177|41|M|Andreas Parkås|industriarbetare, Lextorp, 42 år
+C|101178|34|K|Lisa Thornadtsson|Studerande, 34 år, Trollhättan
+C|101179|25|M|Robin Mashallah|Projektledare, 25 år, Trollhättan
+C|101180|39|K|Jennie Olsson-Örn|butiksmedarbetare, Centrum, 39 år
+C|101181|56|M|Peter Johnsson|fd riksdagsman, Lextorp, 56 år
+C|101182|60|K|Maud Bengtsson|verksamhetsassistent, Skogshöjden, 60 år
+C|101183|63|M|Tallat Abdel Mallak|studievägledare, Kronogården, 63 år
+C|101184|64|K|Annelie Fredriksson|personligt ombud, Hjortmossen, 64 år
+C|101185|71|M|Lars-Gunnar Andersson|pensionär, Kronogården 71 år
+C|101186|55|K|Jolanta Walkow|butiksmedarbetare, Skoftebyn, 55 år
+C|101187|56|M|Sven-Åke Möll|skatterevisor, Centrum, 56 år
+C|101188|71|K|Hilkka Andersson|pensionär, Lextorp, 71 år
+C|101189|25|M|Alexander Myllyharju|lärare, Centrum, 25 år
+C|101190|56|K|Lillewi Forsberg|undersköterska, Hjortmossen, 56 år
+C|101191|26|M|Moez Dharsani|politisk sekreterare, Centrum, 26 år
+C|101192|57|K|Agnetha Andersson|Politisk sekreterare, 57 år, Trollhättan
+C|101193|51|M|Anders Rapp|målare, Skogshöjden, 51 år
+C|101194|20|K|Malin Stål|ombudsman, Hjulkvarn, 20 år
+C|101195|56|M|Peter Andersson|försäkringsutredare, Dannebacken, 56 år
+C|101196|20|K|Sabina Dharsani|Studerande, 20 år, Trollhättan
+C|101197|68|M|Stenåke Kjell|pensionär, Centrum, 68 år
+C|101198|52|K|Pia Östh Gustavsson|universitetsadjunkt, Sandhem, 52 år
+C|101199|67|M|Jorge Pereira|pensionär, Lextorp, 67 år
+C|101200|80|K|Solveig Ullholm|pensionär, Karlstorp, 80 år
+C|101201|31|M|Mohamed Muqtaar Mohamoud|lärare, Kronogården, 31 år
+C|101202|57|K|Eva Andersson|ekonomibiträde, Sjuntorp, 57 år
+C|101203|43|M|Daniel Hilmér|tidningsbud, Hjortmossen, 43 år
+C|101204|49|K|Jeanette Sundström|handelsanställd, Centrum, 49 år
+C|101205|72|M|Sune Svensson|pensionär, Skoftebyn, 72 år
+C|101206|29|K|Rezarta Hoxhaj|integrationspedagog, Lextorp, 29 år
+C|101207|61|M|Stefan Björkenstam|ombudsman, Halvorstorp, 61 år
+C|101208|80|K|Inga-Lill Hansson|pensionär, Centrum, 80 år
+C|101209|46|M|Abdiqafar A Ereg|modersmålslärare, Kronogården, 46 år
+C|101210|76|K|Aina Andersson|pensionär, Norra Björke, 76 år
+C|101211|51|M|Hans Gunnarsson|CAD-ritare, Sylte, 51 år
+C|101212|43|K|Åsa Andersson|elevassistent, Stavre, 43 år
+C|101213|65|M|Jan Ove Berntson|arbetsmark.konsulent, Centrum, 65 år
+C|101214|25|K|Samira Hassan|bosamordnare, Kronogården, 25 år
+C|101215|42|M|Said Osman|enhetschef, Hjortmossen, 42 år
+C|101216|56|K|Carina Bergman|assistent, Stavre, 56 år
+C|101217|38|M|Henrik Carlsson|ekonom, Centrum, 38 år
+C|101218|56|K|Venke Ludviksen|undersköterska, Sandhem, 56 år
+C|101219|47|M|Robert Ottosson|vaktmästare, Sjuntorp, 47 år
+C|101220|54|K|Agneta Stroh|försäkringsutredare, Centrum, 54 år
+C|101221|50|M|Jan Andersen|maskinoperatör, Centrum, 50 år
+C|101222|62|K|Lena Nilsson|ombudsman, Centrum, 62 år
+C|101223|61|M|Kjell Andersson|folkbildare, Stavre, 61 år
+C|101224|68|K|Gunilla Pettersson|pensionär, Sandhem, 68 år
+C|101225|47|M|Simon Cicek|modersmålslärare, Kronogården, 47 år
+C|101226|30|K|Victoria Berg|sjuksköterska, Hjortmossen, 30 år
+C|101227|39|M|Andreas Lundh|elmontör, Stavre, 39 år
+C|101228|58|K|Rose-Marie Eriksson|stödassistent, Sjuntorp, 58 år
+C|101229|63|M|Börje Kvist|kranförare, Skoftebyn, 63 år
+C|101230|73|K|Monica Larsson|pensionär, Karlstorp, 73 år
+C|101231|33|M|John Wetterling|elektriker, Hjortmossen, 33 år
+C|101232|31|K|Erika Kesse Wiking|lärare, Sandhem, 31 år
+C|1866|40|K|Sofia Lindholm|miljöinspektör, 40 år, Trollhättan
+C|11639|50|M|Niklas Edvinsson|50 år, ingenjör, Halvorstorp
+C|11640|38|K|Ida Karlsson|38 år, enhetschef, Norra Björke
+C|1980|35|M|Mikael Arvemark|inköpsanalytiker, 35 år, Trollhättan
+C|1876|66|M|Kent Almkvist|köpman, 66 år, Trollhättan
+C|11643|54|K|Karin Grahn|54 år, biomedicinsk analytiker, Velanda
+C|11644|56|M|Sven-Olov Johansson|51 år, entreprenör, Lindveden
+C|11645|55|K|Pia Dahlén|55 år, kriminalvårdare, Hjortmossen
+C|11646|46|M|Robert Bavington|46 år, samordnare, Kronogården
+C|11647|21|M|Gustav Andersson|21 år, lärarvikarie, Centrum
+C|11649|41|M|Jörgen Almkvist|41 år, byggnadsarbetare, Åsaka
+C|11650|38|M|Berkant Mestan|38 år, logistiker, Lextorp
+C|11651|61|K|Ann-Marie Wennerberg|61 år, undersköterska, Gärdhem
+C|11652|59|M|Magnus Johansson|59 år, ingenjör, Gärdhem
+C|1879|55|M|Mats Häggner|lantbrukare, 55 år, Trollhättan
+C|1966|69|K|Britt-Mari Axelsson-Palmestål|pensionär, 69 år, Trollhättan
+C|11655|62|M|Christer Wennerberg|62 år, verks.utvecklare, Gärdhem
+C|11656|45|K|Galina Obertaylo|45 år, tandsköterska, Gärdhem
+C|11657|51|M|Johan Sävhage|51 år, vd, Upphärad
+C|1889|31|M|Anders Dahlberg|revisor, 31 år, Trollhättan
+C|11659|47|M|Sven-Arne Karlsson|47 år, riskcontroller, Skogshöjden
+C|11660|26|M|Yusuf Abdullahi|26 år, lärare, Kronogården
+C|11661|76|M|Bengt Karlsson|76 år, pensionär, Åsaka
+C|162590|61|K|Gunilla Karlsson|61 år, undersköterska, Lagmansered
+C|11663|45|M|Johan Axelsson|45 år, bonde, Åsaka
+C|11664|64|K|Ingegerd Kallioniemi|64 år, diakon, Sandhem
+C|11665|72|M|Bengt Ohlsson|72 år, pensionär, Upphärad
+C|11666|78|M|Eric Johansson|78 år, pensionär, Upphärad
+C|11667|20|M|Anton Hägglund|20 år, student, Stavre
+C|248796|54|K|Penilla Gunther|Riksdagsledamot, Trollhättan
+C|248804|53|M|Bedros Cicek|Bussförare, Trollhättan
+C|248807|39|K|Dana Blomster|SFI lärare, Trollhättan
+C|493094|55|M|Toni Naim|Tolk, Kronogården
+C|493095|45|M|Mikael Svantesson|Lärare, Lindveden
+C|249189|79|K|Margaretha Jansson|Pensionär, Trollhättan
+C|493097|72|M|Anders Karlzon|Veteranarbetare, Centrum
+C|493098|47|K|Dalida Naim|Ekonomihandläggare, Kronogården
+C|493099|54|M|Egil Aasgaard|Kommunikatör, Trollhättan
+C|493100|37|M|Ricky Karlsson|Odlare/arbetsmiljöing., Strömslund
+C|493101|79|K|Rode Samuelsson|Pensionär, Centrum
+C|249192|63|M|Håkan Deleskog|Civilingenjör, Trollhättan
+C|245499|42|K|Rita Paulsson Svensson|42 år, kurator
+C|245500|68|M|Anders Castberger|68, pensionär, Trollhättan
+C|245501|39|M|Erik Steiner|39 år, lärare
+C|245502|32|K|Noelia Johansson|32 år, socionom/socialsekreterare
+C|245503|68|M|Ulrik Hammar|68, pensionär, Trollhättan
+C|245504|53|K|Christina Johansson|53, undersköterska, Trollhättan
+C|245505|31|M|Marcus Larinen|31 år, studiecirkelledare
+C|245506|64|M|Greger Samuelsson|64 år, snickare/lärare
+C|245507|21|K|Julia Carmelina Johansson|21 år, student/vikarie
+C|245508|37|M|Anders Bodin|37 år, egen företagare
+C|245509|48|M|Raul Eriksson|49, fastighetstekniker, Trollhättan
+C|245510|53|K|Annika Johansson|53 år, tjänstepensionsrådgivare
+C|245511|60|M|Johan Svalbacke|60 år, läkare
+C|245512|53|M|Claes Edgren|53 år, ingenjör
+C|245513|66|K|Monica Rodriguez|66 år, verksamhetsutvecklare
+C|245514|27|M|Jesper Söder|27 år, föreläsare/författare
+C|245515|35|M|Binyam Paulos|35 år, konstruktör
+C|245516|30|K|Angelica Koskelainen|30 år, undersköterska
+C|245517|58|M|Jean Youhanna|58 år, arbetsförmedlare
+C|245518|68|K|Eva Castberger|68 år, årsrik
+C|77486|59|K|Esther O'Hara|59 år, Arkeolog, Trollhättan
+C|77487|30|M|Jens Jönsson|30 år, Kock
+C|77488|50|K|Camilla Andersson|50 år, Egenföretagare
+C|77489|18|M|Leon Viking|18 år, Studerande, Trollhättan
+C|77490|37|K|Ikram Mahamood|37 år, Tolk
+C|77491|46|M|Ali Yüksel Gül|47 år, Lärare, Trollhättan
+C|77492|54|M|Mohamed Horchani Lamjed|54 år, Språklärare
+C|77493|35|M|Duran O'Hara|34 år, Konståkningstränare
+C|77494|45|K|Tina Ivarsson|45 år, Projektledare
+C|77495|69|M|Sten Andreasson|69 år, Pensionerad lokförare
+C|77496|59|M|Peter Broqvist|59 år, Kvalitetsingenjör
+C|77497|61|M|Peter Rådberg|61, ämneslärare, fd riksdagsledamot, Trollhättan
+C|77498|29|K|Hani Mahamoud|28 år, Hälsovetare
+C|243432|43|M|Peter Eriksson|43, Oppositionsråd, Trollhättan
+C|243429|46|K|Cecilia Gustafsson|46, Verksamhetsutvecklare, Trollhättan
+C|256141|62|M|Remigiusz Bielinski|62, Ingenjör
+C|243436|36|K|Jennie Bergius Eriksson|36, Gruppchef, Trollhättan
+C|256143|52|K|Sari Samuelsson|52, Kundansvarig
+C|256144|68|M|Ulf Rörstad|68, Ingenjör
+C|256145|32|K|Carolina Cederlund|32, HR
+C|256146|56|K|Marie-Louise Coon|56, Lärare
+C|254200|38|K|Angelica Lundgren Bielinski|38, Leg. Arbetsterapeut, Trollhättan
+C|256148|55|M|Michael Meijer|55, Butiksmedarbetare
+C|254210|52|K|Annicka Johansson|52, Sjuksköterska, Trollhättan
+C|256150|20|M|William Arkemar|20, Försäljare
+C|256151|26|K|Aaliyah Faduma Hassan|26, Modersmålslärare
+C|256152|51|K|Pia Fogelberg|51, Administratör
+C|256153|68|M|Lars Muregård|68, Socionom
+C|256154|45|K|Anna Rudebou Svedung|45, Sjuksköterska
+C|256155|52|M|Mousa Younis|52, CNC opertatör
+C|256156|66|K|Ann Eriksson Nordqvist|66, Pensionär
+C|256157|53|M|Jan-Erik Herranen|53, Assistent
+C|256158|78|K|Ingrid Almén|78, Pensionär/f.d sjuksköterska
+C|256159|34|M|Erik Wallin|34, Projektledare
+C|254235|63|M|Jörgen Nylén|63, Egenföretagare, Trollhättan
+C|256161|36|K|Caroline Åberg|36, Elevassistent/ musikpedagog
+C|256162|33|M|Daniel Söderström|33, Exploateringsingenjör
+C|256163|48|M|Mattias Furskog|48, Riskansvarig
+C|256164|31|K|Melissa Teperi|31, Statsvetare
+C|256165|19|M|Jonas Andersson|19, Studerande
+C|256166|27|K|Kajsa Enero Riquelme|27, Butiksansvarig
+C|256167|82|M|Hans Hoffman|82, Ingenjör
+C|256168|33|M|Patric Byström|33, Ingengör
+C|256170|26|K|Malekeh Ahmadi|26, Studerande
+C|256171|27|M|Abdul Farah|27, Arbetsförmedlare
+C|256172|79|M|Theodor Ahrenberg|79, f.d Idrottslärare, Pensionär
+C|256173|57|K|Nettan Larsson|57, Regionchef
+C|256174|19|M|Axel Nåbo|19, Regionservice lokalvård
+C|256175|50|M|Björn Brovik|50, Miljöchef
+C|256176|20|M|Simon Glemring|20, Projketledare
+C|256177|41|M|Artur Bielinski|41, Egen företagare
+C|256178|48|K|Maysoon Murad|48, Vårdlärare
+C|256179|54|K|Katarina Lennvinge|54, stf. avd. chef Rättspsykiatri
+C|256180|74|M|Carl-Johan Karlsson|74, Bonde
+C|256181|47|M|Martin Engman|47, Lärare
+C|256182|77|M|Bengt Cederlund|77, Pensionär
+C|256183|40|M|Johan Engman|40, IT-konsult
+C|68438|61|M|Lasse Henriksen|61, Fd. Chaufför, Trollhättan
+C|68439|72|M|Sonny Larsson|72 år, Pensionär
+C|68440|52|M|Thor Sjöberg|52, Projektledare, Trollhättan
+C|68441|58|M|Erland Larsson|58, Konsult, Trollhättan
+C|68442|64|K|Mari Bergh|64, Undersköterska, Sjuntorp
+C|68443|44|K|Ingela Lundberg|44, Trollhättan
+C|68444|67|M|Bert-Ove Bonta|67 år
+C|68445|56|K|Monica Tenberg|56 år, Stödassistent
+C|68446|44|M|Jarno Vallius|44 år
+C|68447|70|M|Paul Öhman|70, Pensionär, Trollhättan
+C|68448|77|M|Leo Stridh|77 år, Kommunalarbetare
+C|68449|46|M|Magnus Martinsson|Försäljningschef, Trollhättan
+C|68450|78|K|Maj-Lis Stridh|78 år
+C|68451|42|K|Anneli Borgelid|42 år
+C|2922|50|M|Dan-Axel Möllengård|Politisk entreprenör,           Trollhättans Framtid
+C|2823|67|K|Maj-Britt Elmvik|Apotekare,Öresjö,                        Trollhättans Framtid
+C|3879|63|M|Björn Skagerstam|Diversearbetare,Egna Hem
+C|2921|79|K|Britt Hallgren|Pensionär,                                     Trollhättans Framtid
+C|3881|50|M|Björn-Inge Lindblad|Undersköterska,Sylte
+C|3887|53|K|Annika Hallberg|Undersköterska,Trollhättan
+C|2916|52|M|Roger Gutke|Betongarbetare, Undersköterska,Trollhättans Framtid
+C|3889|56|K|Jamileh Niazi|Barnmorska,Centrum
+C|3890|39|M|Robert Söderberg|Centrum
+C|3900|46|K|Hanna Tolge|Läkare,Veterinär,                           Trollhättans Framtid
+C|3901|49|M|Ronny Holthe|Arbetsledare,Torsered
+C|3991|41|K|Sachragul (Sara) Soinova|Undersköterska,Kronogården
+C|14803|55|M|Michael Gustafsson|Delägare Eletronikhuset
+C|2913|79|K|Anita Stridvall|fd Lärare,Trollhättans Framtid
+C|28040|50|M|Patrik Sandberg|Försäljningschef
+C|3919|74|K|Monica Hellborg|Lantbrukare,Väne-Åsaka
+C|2923|38|M|Lars Jonasson|Personlig assistent,Trollhättans Framtid
+C|4015|76|K|Kristina Nadelius|Förskollärare,Trollhättan
+C|14975|51|M|Conny Ljungsfors|Egenföretagare,Åsaka
+C|28045|43|M|Robert Trei|Verkställande direktör
+C|3921|74|M|Olof Hellborg|Lantbrukare,Trollhättan
+C|4045|63|K|Marjo Syri|fd Distriktssköterska,Lextorp
+C|14979|38|M|Michael Öhlund|Undersköterska,Trollhättan
+C|4018|60|M|Anders Norman|Egenföretagare,Dannebacken
+C|4097|52|K|Kerstin Stråhlesköld|Lärare/svets o industriteknik,Upphärad
+C|4047|50|K|Susanne Möllengård|Stödpedagog,Trollhättan
+C|4043|59|K|Gunilla Norman|Egenföretagare,Dannebacken
+C|2915|66|M|Morgan Karlsson|Skogsbrukare, Civiling,Trollhättans Framtid
+C|4019|73|K|Britt-Marie Lindstrand|fd Lärare,Skoftebyn
+C|4046|69|K|Eva Elmgren|Rullstolsburen Beteendevetare
+C|4042|70|M|Lajos Rofusz|Pensionär,Trollhättan
+C|4048|31|M|Jonny Nyqvist|Butiksbiträde,Väne-Åsaka
+C|3920|51|M|Pål Höglund|Kundansvarig/Assistent,Trollhättan
+C|4017|64|K|Ewa Skoglund|Seminör,Trollhättan
+C|2912|78|K|Margaretha Molius|N. Björke, Trollhättans Framtid
+C|313305|41|M|Mattias Foldemark|41 år, Egen företagare
+C|234444|37|K|Lina Fryk Granat|Elevassistent, 38 år, Trollhättan
+C|234427|29|M|Tobias Sandberg|Tjänsteman, 29 år, Trollhättan
+C|234433|60|K|Fahimeh Nordborg|Gymnasielärare, 60 år, Trollhättan
+C|313309|39|M|Tobias Hval|39 år, Stödassistent
+C|234441|42|M|Tobias Egerzon|Arbetsförmedlare, 42 år, Trollhättan
+C|313311|70|K|Eva Sandberg|70 år, Pensionär
+C|235210|63|K|Salima Daidan|Administratör, 63 år, Trollhättan
+C|234437|38|K|Anna Foldemark|Student, 38 år, Trollhättan
+C|313314|59|M|Kent Hörnlund|59 år, Förrådsarbetare
+C|313315|63|K|Viveca Lundahl|63 år, Folkhälsoutvecklare
+C|313316|64|M|Bengt Johansen|64 år, Elevassistent
+C|313317|70|K|Maiwor Grundh|70 år, Pensionär
+C|313318|34|M|Mikael Foldemark|34 år, Sjuksköterska
+C|313319|63|K|Kokab Faris|63 år, Lärare
+C|313320|67|M|Karl-Gustav Elf|67 år, Pensionär
+C|313321|19|K|Hanna Nyberg|19 år, Student
+C|313322|62|M|Christer Bohm|62 år, Förskollärare
+C|313323|35|K|Elin Granat|35 år, Inköpare
+C|313324|30|K|Elena Miyawaki|30 år, Socionom
+C|313325|42|M|Omar Mahmoud|42 år, Arkitekt och gymnasielärare
+C|313326|31|K|Linda Hjalmarsson Berggren|31 år, Köksbiträde
+C|313327|35|M|Mattias Lundström|34 år, GIS-ingenjör

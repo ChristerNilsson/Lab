@@ -1,9 +1,178 @@
-2|88013|22212|22070|88016|22211|73945|88447|88448|88449|88450|88451|90738|90739|90740|90741|90742|90827|90828|90829|90830|90831|90832|90833|90834|90835|90836|90837|90838|91313|75915|91315|91316|91317|91318|96857|97032|97033|97034|97035|97036|97037|97038|97039|97040|97041|97042|97043|97044|97045|97046
-4|27379|27380|27381|27382|27383|27384|27385|27386|27387|27388|27389|27390|27391|27392|27393|27394|27395|27396|27397|27398|27399|27400|27401|27402|27403
-1107|496314|496315|496316|496317|496319|496318|496320|496321|496322|496323|496324
-68|507115|507116|507117|507118|507119
-3|31340|59370|59371|59372|59373|59374|59375|59376|59377|59378|59379
-55|414479|414480|414481|414482|414483
-1|618|39693|39694|39695|39696|39697|39698|39699|39700|39701|39702|39703|39704|39705|39706|39707|39708|39709
-110|124876|124905|253244|124889|125598|125599|125600|513643|513646|513644|513645|514919|515999|516001|516005|516006|516014
-5|9824|9825|9826|9827|9828|9829|9830|9831|9832|9833|9834|9835|9836|9837|9838|9839|9840
+T|Forshaga
+A|2|88013|22212|22070|88016|22211|73945|88447|88448|88449|88450|88451|90738|90739|90740|90741|90742|90827|90828|90829|90830|90831|90832|90833|90834|90835|90836|90837|90838|91313|75915|91315|91316|91317|91318|96857|97032|97033|97034|97035|97036|97037|97038|97039|97040|97041|97042|97043|97044|97045|97046
+A|4|27379|27380|27381|27382|27383|27384|27385|27386|27387|27388|27389|27390|27391|27392|27393|27394|27395|27396|27397|27398|27399|27400|27401|27402|27403
+A|1107|496314|496315|496316|496317|496319|496318|496320|496321|496322|496323|496324
+A|68|507115|507116|507117|507118|507119
+A|3|31340|59370|59371|59372|59373|59374|59375|59376|59377|59378|59379
+A|55|414479|414480|414481|414482|414483
+A|1|618|39693|39694|39695|39696|39697|39698|39699|39700|39701|39702|39703|39704|39705|39706|39707|39708|39709
+A|110|124876|124905|253244|124889|125598|125599|125600|513643|513646|513644|513645|514919|515999|516001|516005|516006|516014
+A|5|9824|9825|9826|9827|9828|9829|9830|9831|9832|9833|9834|9835|9836|9837|9838|9839|9840
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1107|KomBä|Kommunens Bästa
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|88013|53|M|Per Lawén|53 år, Forshaga
+C|22212|54|K|Maria Norell|54 år, Forshaga
+C|22070|56|M|Gert Björnvall|56 år, Forshaga
+C|88016|48|K|Ulrika Rodin|48 år, Forshaga
+C|22211|37|M|Aakash Budathoki|37 år, Forshaga
+C|73945|60|K|Marian Gustavsson|61 år, Forshaga
+C|88447|39|M|Anders Norbäck|38 år, Forshaga
+C|88448|57|K|Eva Ahlm|57 år, Deje
+C|88449|46|M|Roger Johansson|46 år, Forshaga
+C|88450|54|K|Maria Hedlund-Olsson|54 år, Deje
+C|88451|69|M|Kenneth Eriksson|69 år, Forshaga
+C|90738|46|K|Therese Andersson|46 år, Forshaga
+C|90739|34|M|Kim Gewert|35 år, Deje
+C|90740|60|K|Lill Andersson|61 år, Forshaga
+C|90741|67|M|Bertil Hagelin|67 år, Forshaga
+C|90742|66|K|Anneli Bodin|66 år, Deje
+C|90827|58|M|Per Asplund|58 år, Forshaga
+C|90828|71|K|Ingrid Holmberg|71 år, Deje
+C|90829|67|M|Sven-Erik Persson|67 år, Deje
+C|90830|64|K|Ingrid Forssten|63 år, Deje
+C|90831|52|M|Amin Alkusaibati|52 år, Forshaga
+C|90832|52|K|Gunilla Dahlqvist|52 år, Forshaga
+C|90833|51|M|Ingmar Larsson|51 år, Forshaga
+C|90834|39|K|Erika Svensson|38 år, Forshaga
+C|90835|47|M|Stig Björk|47 år, Deje
+C|90836|42|K|Linda Bååth|42 år, Forshaga
+C|90837|53|M|Mikael Andersson|54 år, Forshaga
+C|90838|42|K|Reem Abdul Sattar|42 år, Forshaga
+C|91313|72|M|Lars-Ove Carlsson|72 år, Forshaga
+C|75915|55|K|Myrna Labusan-Jönsson|56 år, Forshaga
+C|91315|66|M|Esbjörn Lindstedt|66 år, Forshaga
+C|91316|70|K|Anette Nilsson|70 år, Forshaga
+C|91317|53|M|Conny Antonsson|53 år, Deje
+C|91318|20|K|Hanna Lawén|20 år, Forshaga
+C|96857|37|M|Jonas Sjödén|38 år, Forshaga
+C|97032|73|K|Kristina Hakkarainen-Rådberg|73 år, Deje
+C|97033|67|M|Lars Ohlsson|67 år, Deje
+C|97034|74|K|Marianne Läckström|74 år, Forshaga
+C|97035|24|M|Marcus Björnvall|25 år, Forshaga
+C|97036|27|K|Elin Gustavsson|28 år, Forshaga
+C|97037|62|M|Per Norell|62 år, Forshaga
+C|97038|61|K|Anita Hagelin|61 år, Forshaga
+C|97039|74|M|Kenneth Rååd|75 år, Forshaga
+C|97040|52|K|Annelie Asplund|53 år, Forshaga
+C|97041|75|M|John-Erik Nilsson|76 år, Forshaga
+C|97042|67|K|Inger Stenström|67 år, Forshaga
+C|97043|75|M|Lennart Andersson|75 år, Forshaga
+C|97044|71|K|Berit Carlsson|71 år, Forshaga
+C|97045|66|M|Birger Jönsson|66 år, Forshaga
+C|97046|56|K|Maria Bull Sjöberg|56 år, Forshaga
+C|27379|64|M|Göran Adrian|Forshaga, 64 år, Marknadschef
+C|27380|47|K|Yvonne Thorén|Bergsäng, Utredningsledare
+C|27381|64|M|Sten Myreback|Forshaga, Maskintillverkare
+C|27382|56|K|Marita Ögren|Olsäter, 56 år, Lärare
+C|27383|56|M|Stefan Ögren|Olsäter, 56 år, Lärare
+C|27384|71|K|Maria Lindquist|Hällekil, 71 år, Hemmansägare
+C|27385|68|M|Lars Emilson|Deje, 68 år, Seniorkonsult
+C|27386|51|K|Maria Wikström|Olsäter, Ekonomiansvarig
+C|27387|64|M|Lars-Göran Carlsson|Rud, Kyrkogårdsföreståndare
+C|27388|57|K|Ewa Nilsson|Rud, Företagsrådgivare
+C|27389|72|M|Willy Eriksson|Forshaga, Köpman
+C|27390|61|K|Elisabeth Axelsson|Västsjö, Redovisningskonsult
+C|27391|71|M|Bertil Larsson|Mölnbacka, Pensionär
+C|27392|54|K|Birgitta Hyttring-Lundqvist|Forshaga, Förvaltningsassistent
+C|27393|74|M|Hans Lindquist|Hällekil, Geolog
+C|27394|61|K|Irma Heikkinen|Forshaga, Adjunkt
+C|27395|64|M|Lars Ullén|Deje, Lantmästare
+C|27396|64|M|Anders Moberg|Nordsjögård, Lantbrukare
+C|27397|60|M|Lars Edgren|Forshaga, Skogsbrukare
+C|27398|55|K|Margareta Oskarsson|Rudsheden, Undersköterska
+C|27399|69|M|Per-Åke Olsson|Deje, Åkare
+C|27400|51|M|Jan-Erik Hallberg|Kvarnbråten, Driftledare
+C|27401|68|M|Allan Axelsson|Rudsheden, Lantbrukare
+C|27402|75|M|Lennart Mattsson|Skogskonsulent
+C|27403|52|M|John Lundqvist|Forshaga, Konstnär
+C|496314|54|M|Peter Lingman|Företagare
+C|496315|61|M|Göran Olsson|Offshoretekniker
+C|496316|48|K|Åsa Gullberg Iderström|Personlig assistent
+C|496317|67|M|Magnus Heikenberg|Fartygsbefäl
+C|496319|40|K|Mikaela Blixt|Personalansvarig/personlig coach
+C|496318|73|K|Helga Brevik|Hudterapeut
+C|496320|66|K|Linnea Heikenberg|Lantbrukare
+C|496321|62|M|Eero Väisänen|Elektriker
+C|496322|62|M|Tony Gunnarsson|Personlig assistent
+C|496323|67|M|Malte Berglund|Montör
+C|496324|68|M|Sam Samuelsson|Elektriker
+C|507115|40|M|Magnus Sundholm|41 år, Forshaga
+C|507116|71|K|Maj Sundholm|71 år, Deje/Olsäter
+C|507117|64|M|Leif Forsberg|64 år, Deje
+C|507118|21|K|Zabrina Örnborg|21 år, Deje
+C|507119|50|M|Magnus Salander|50 år, Forshaga
+C|31340|61|K|Maud Jennemo-Olsson|projektledare, 61 år, Forshaga
+C|59370|50|M|Fredrik Erlandsson|
+C|59371|73|M|Gunnar Sundström|
+C|59372|51|K|Anita Erlandsson|
+C|59373|76|M|Roland Hammar|
+C|59374|66|K|Linda Pettersson|
+C|59375|72|M|Per-Olov Nilsson|
+C|59376|70|K|Amia Pierre|
+C|59377|73|M|Sven-Åke Asplund|
+C|59378|75|K|Ann-Margret Axelsson|
+C|59379|75|M|Lars Pierre|
+C|414479|46|M|Lars-Ola Westerlund|46 år, advokatsekreterare, Deje
+C|414480|37|M|Håkan Adolfsson|37 år, konsult, Forshaga
+C|414481|51|M|Lars Andersson|51 år, psykolog, Deje
+C|414482|71|K|Marja Rönnholm|71 år, pensionär, Forshaga
+C|414483|74|M|Jan Gustavsson|74 år, f d byrådirektör, Forshaga
+C|618|53|M|Anders Ljungsten|väktare, Forshaga
+C|39693|52|M|Thomas Nilsson|52 år, Lärare
+C|39694|59|K|Annie Lindberg|59 år, Silversmed
+C|39695|42|M|Mattias Op De Weegh|42 år, Egen företagare
+C|39696|42|K|Anna-Maria Nilsson|42 år, Ladugårdsförman
+C|39697|32|K|Tuva Nysaeter|32 år, Undersköterska
+C|39698|58|M|Per Hallström|58 år, IT-Konsult
+C|39699|33|K|Ira Ljungberg|33 år, Hudterapeut
+C|39700|39|K|Jennie Op De Weegh|39 år, Undersköterska
+C|39701|55|K|Annika Jarl Ljungsten|55 år, Avdelningschef/Sjuksköterska
+C|39702|36|M|Henrik Larsson|36 år, Väktare
+C|39703|37|K|Jennie Skogman|37 år, Bokningsansvarig
+C|39704|23|M|Carl Hallström|23 år, Studerande
+C|39705|43|K|Karin Andersson|43 år, Leg. Sjuksköterska
+C|39706|54|M|Mikael Resenius|54 år, Stenhuggare
+C|39707|41|M|Jimmy Skogman|41 år, Elinstallatör
+C|39708|33|M|Erik Nysaeter|33 år, Musiker
+C|39709|66|K|Monica Resenius|66 år, Pensionär
+C|124876|58|M|Jan-Erik Tjärngård|58, Tekniker, Forshaga
+C|124905|28|K|Helena Birkeland Kilgren|28, Lokalvårdare, Forshaga
+C|253244|50|M|Björn Engqvist|50, egenföretagare, Forshaga
+C|124889|44|M|Rickard Karlsson|44, Resemontör, Forshaga
+C|125598|57|M|Thomas Rindestrand|57, Byggnadsarbetare, Deje
+C|125599|44|M|Karl-Göran Näsström|44, VVS-tekniker, Forshaga
+C|125600|78|M|Lennart Johansson|78, Pensionär, Forshaga
+C|513643|47|M|Fredric Söderberg|47 år, Maskinoperatör, Forshaga
+C|513646|52|M|Lars Oskarsson|52 år, Egen företagare, Deje
+C|513644|56|K|Maritha Myrén|
+C|513645|41|K|Ellinor Forssten|
+C|514919|47|M|Jonas Chongera|
+C|515999|57|K|Tina Holmgren|
+C|516001|46|M|Magnus Hedström|
+C|516005|42|M|Dennis Wikenström|
+C|516006|28|M|Ludvig Delin|
+C|516014|37|M|Kristofer Bohlin|
+C|9824|26|K|My Funcke|26 år, Forshaga, student
+C|9825|53|M|Torbjörn Strömberg|53 år, ombudsman
+C|9826|30|K|Bodil Murås|30 år, Forshaga, barnsjuksköterska
+C|9827|49|M|Peter Rattfält|49 år, väktare
+C|9828|54|K|Agnetha Gustafsson|54 år, leg. förskolelärare
+C|9829|35|M|Stefan Lindstedt|34 år, leg. psykolog
+C|9830|36|K|Cecilia Kruse|36 år, förskolelärare
+C|9831|58|M|Göran Pettersson|58 år, yrkeslärare
+C|9832|29|K|Camilla Kruse|29 år, tjänsteman
+C|9833|31|K|Arazoo Ghali|31 år, socionom
+C|9834|21|M|Jonathan Strömberg|21 år, studerande
+C|9835|35|K|Ida Regin|35 år, lärare
+C|9836|33|M|David Öborn Regin|34 år, administratör
+C|9837|19|K|Maja Strömberg|19 år, student
+C|9838|51|M|Mikael Torstensson|51 år, leg. förskolelärare
+C|9839|35|K|Stina Palm|35 år, kommunikatör
+C|9840|33|M|Roger Sundholm|34 år, säljare

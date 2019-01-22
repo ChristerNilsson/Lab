@@ -1,8 +1,198 @@
-2|36081|36082|36083|36084|36085|36086|36087|36088|36089|36090|36091|36092|36093|36094|36095|36096|36097|36098|36099|36100|36101|36102|36104|36105|36106|36107|36108|36109|36110|36111|36112|36113|36114|36115|36116|36117|36118
-4|15849|129935|129936|129937|129938|15867|129940|129941|129942|129943|129944|129945|129946|129947|129948|129949|129950|129951|129952|129953|129954|129955|129956
-68|78115|78116|78117|78118|78119|78120|78121|78122|78123|78124|78125|78126|78127|78128|78129|78130|78131|78132|78133|78134|78135|78136|78137|78138|78139|78140
-3|204177|234120|216866|234122|234123|234124|216870|234126|234127|216867|234129|234130|234131|216860|234133|234134|234135|234136|234137|234138|234139|234140
-55|233340|233330|369417|375058|375059|375060|375061|375062|375063|375064|375065|375066|375067|375068|375069|375070
-1|218952|218953|218954|218955|218956|218957|218958|218959|1659|218961|218962|218963|218964|218965|218966|218967|218968|218969|218970|218971|218972|218973|218974|218975|218976|218977
-110|126244|126245|126246|126247|126248|126249|126250|126251|126252|126253|126254|126255|126256|126257|126258|126259|126260|126261|126262|126263|126264|126265|126266
-5|224813|224814|224815|224816|224817|224818|224819|224820
+T|Tranås
+A|2|36081|36082|36083|36084|36085|36086|36087|36088|36089|36090|36091|36092|36093|36094|36095|36096|36097|36098|36099|36100|36101|36102|36104|36105|36106|36107|36108|36109|36110|36111|36112|36113|36114|36115|36116|36117|36118
+A|4|15849|129935|129936|129937|129938|15867|129940|129941|129942|129943|129944|129945|129946|129947|129948|129949|129950|129951|129952|129953|129954|129955|129956
+A|68|78115|78116|78117|78118|78119|78120|78121|78122|78123|78124|78125|78126|78127|78128|78129|78130|78131|78132|78133|78134|78135|78136|78137|78138|78139|78140
+A|3|204177|234120|216866|234122|234123|234124|216870|234126|234127|216867|234129|234130|234131|216860|234133|234134|234135|234136|234137|234138|234139|234140
+A|55|233340|233330|369417|375058|375059|375060|375061|375062|375063|375064|375065|375066|375067|375068|375069|375070
+A|1|218952|218953|218954|218955|218956|218957|218958|218959|1659|218961|218962|218963|218964|218965|218966|218967|218968|218969|218970|218971|218972|218973|218974|218975|218976|218977
+A|110|126244|126245|126246|126247|126248|126249|126250|126251|126252|126253|126254|126255|126256|126257|126258|126259|126260|126261|126262|126263|126264|126265|126266
+A|5|224813|224814|224815|224816|224817|224818|224819|224820
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|36081|52|M|Mikael Stenquist|52 år, Oppositionsråd,Tranås
+C|36082|60|K|Agnetha Lantz|60 år,Verksamhetsledare, Tranås
+C|36083|50|M|Anders Karlsson|50 år,Socionom, Tranås
+C|36084|46|K|Veronica Holmstedt|46 år,Enhetschef, Tranås
+C|36085|72|M|Bengt E Carlsson|72 år,Senior, Tranås
+C|36086|69|K|Ingegerd Hellgren|69 år,Pensionär, Sommen
+C|36087|57|M|Björn Thiele|57 år, Fabriksarbetare,Tranås
+C|36088|46|K|Sofie Karlsson|45 år,Undersköterska, Tranås
+C|36089|71|M|Clas Lindell|71 år,Pensionär, Sommen
+C|36090|64|M|Lars Karlsson|64 år,Försäkringstjänsteman, Tranås
+C|36091|67|M|Krister Rosén|67 år,Asfaltarbetare, Tranås
+C|36092|46|K|Jenny Englund|46 år,CNC-operatör, Tranås
+C|36093|54|M|Nenad Lukic|54 år,Industriarbetare, Sommen
+C|36094|37|K|Carolina Schön|38 år,Ombudsman, Tranås
+C|36095|44|M|Jens Blom|44 år,Fastighetsskötare, Tranås
+C|36096|44|M|Tobias Gyllensten|44 år, CNC-operatör,Tranås
+C|36097|56|M|Christer Joelsson|57 år,Styckare, Tranås
+C|36098|40|K|Sarah Blom|40 år,Undersköterska, Tranås
+C|36099|71|M|Jan Borg|71 år,Pensionär, Tranås
+C|36100|62|M|John Barchow|62 år,Köttmästare, Tranås
+C|36101|62|M|Bertil Johansson|62 år,Chaufför, Tranås
+C|36102|23|M|Oskar Karlsson|23 år,Tidningsdistributör, Tranås
+C|36104|54|M|Per Malmsjö|54 år,Industriarbetare, Tranås
+C|36105|46|M|Klas Damne|46 år,Maskinoperatör, Tranås
+C|36106|53|K|Anna-Lena Andersson|53 år,Industriarbetare, Tranås
+C|36107|61|M|Nils-Henry Gren|61 år,Busschaufför, Tranås
+C|36108|39|M|Markus Isaksson|38 år,Industriarbetare, Tranås
+C|36109|64|M|Nils Lindqvist|64 år,Fastighetsskötare, Tranås
+C|36110|60|K|Anneli Barchow|60 år,Vaktmästare, Tranås
+C|36111|47|M|Anders Gustavsson|47 år,Personlig assistent, Tranås
+C|36112|52|K|Esma Handan|52 år,Industriarbetare, Tranås
+C|36113|41|M|Andreas Larsson|41 år,Livsmedelsarbetare, Tranås
+C|36114|36|M|Walid Omar|37 år,Lokalvårdare, Tranås
+C|36115|49|K|Marie Thiele|49 år,Skattehandläggare, Tranås
+C|36116|71|K|Viveca Lindström|71 år,Pensionär, Tranås
+C|36117|72|K|Monica Lago|72 år,Pensionär, Tranås
+C|36118|81|K|Barbro Ring|81 år,Vårdbiträde, Tranås
+C|15849|49|M|Leif Andersson|49, Organisationsutvecklare, Gripenberg
+C|129935|48|K|Carin Wallin|48 Försäljningschef Råssmark
+C|129936|52|K|Chatrine Schander Ljungquist|Småföretagare, Adelöv
+C|129937|66|M|Magnus Nordgren|66 Agronom Gripenberg
+C|129938|19|K|Nora Hultman|19 Studerande Stora Övrarp
+C|15867|58|K|Eva Engström|Projektutvecklare, Adelöv
+C|129940|38|K|Klara Ekengard|38 Hortonom Klosterås
+C|129941|43|M|David Hultman|43 Ekonom Stora Övrarp
+C|129942|66|K|Boel Lago|Sjuksköterska, Enåsa
+C|129943|48|M|Mikael Wik|48 Lantbrukare Adelöv
+C|129944|34|K|Dina Sacic|34 Affärsutvecklare Tranås
+C|129945|59|K|Bodil Nordgren|59 Verksamhetsutvecklare Gripenberg
+C|129946|57|M|Stefan Gustafsson|Lantbrukare, Adelöv
+C|129947|40|K|Malin Bengtsson|40 Hälsorådgivare Tranås
+C|129948|67|K|Inger Walleng|67 Specialpedagog Linderås
+C|129949|43|M|Patrik Lindgren|43 Företagare Tranås
+C|129950|36|M|Mikael Gustafsson|36 Civilingenjör Klosterås
+C|129951|41|K|Karin Andersson|41 Sjuksköterska Gripenberg
+C|129952|53|K|Maria Björk|53 Tandhygienist Smörstorp Aspa
+C|129953|65|M|Henric Folkesson|65 Lantbrukare Råssmark
+C|129954|69|M|Gösta Ripenås|69 Lantbrukare Råssmäte
+C|129955|75|M|Kenth Carlsson|75 Lantbrukare Röamålen
+C|129956|69|M|Sven-Olof Wahlström|70 Lantbrukare Falla
+C|78115|58|M|Mats Antonsson|Skattehandläggare, Tranås
+C|78116|57|M|Jimmy Rydé|Utbildare, Tranås
+C|78117|67|K|Karin Petersson|Senior, Ingefredarp
+C|78118|51|M|Tony Ståhl|Bank- & försäkr.säljare, Tranås
+C|78119|47|M|Mathias Thorberg|Tekniker/marknadsförare, Tranås
+C|78120|66|K|Anne-Christine Backlund|Säljare, Tranås
+C|78121|29|M|Carl Rydé|Snickare, Ulfsbo
+C|78122|44|K|Frida Leander|Konstnär, Tranås
+C|78123|57|M|Leif Osbeck|Säljare, Säby
+C|78124|61|K|Helena Karlsson|Chaufför, Adelöv
+C|78125|66|M|Kenneth Andersson|Hemmansägare, Adelöv
+C|78126|60|K|Britt Antonsson|Förskollärare, Tranås
+C|78127|48|M|Ulf Hellgren|Klövvårdare/företagare, Adelöv
+C|78128|30|K|Jenny Axell|Socionom, Magersjö
+C|78129|48|M|Anthony Chamoun|Egen företagare, Tranås
+C|78130|50|K|Therese Ottosson|Teamledare, Tranås
+C|78131|78|M|Trygve Lundblad|Senior, Tranås
+C|78132|37|K|Linda Engsén|Studerande, Taleryd
+C|78133|37|M|Mustafa Wahaj|Administratör, Tranås
+C|78134|61|K|Gunilla Bodemo Lindahl|Marknadskoordinator, Tranås
+C|78135|73|M|Gunnar Malmberg|Företagare, Tranås
+C|78136|74|K|Inger Edén|Senior, Tranås
+C|78137|55|K|Maiwor Hansson|Apotekstekniker, Axeryd
+C|78138|56|M|Stefan Höglund|Tranås
+C|78139|65|K|Karin Jäderberg|Specialpedagog, Tranås
+C|78140|72|M|Rolf Lindahl|Fd skolchef, Tranås
+C|204177|53|M|Erik Nygårds|53, Tranås
+C|234120|72|M|Kurre Carlson|72, Pensionär
+C|216866|47|K|Annette Bohman|Yrkeslärare
+C|234122|50|K|Annika Bergman|51, Konsultchef
+C|234123|67|M|Curt Carlsson|67, Företagsmäklare
+C|234124|70|M|Per Ulfsbo|70, Företagare
+C|216870|80|K|Inga Fingal|
+C|234126|60|M|Thomas Ehn|61, Entreprenör
+C|234127|58|K|Lotta Fischerström|59, Copywriter
+C|216867|73|M|Hans-Lennart Ydrenäs|
+C|234129|55|K|Gunilla Horgby|55, Lärare
+C|234130|79|M|Lars Ericson|79, Bankdirektör
+C|234131|56|K|Dorota Lesinska|56, Psykolog
+C|216860|76|M|Bernt Svensson|
+C|234133|37|M|Björn Rosenquist|37, Jägmästare
+C|234134|66|M|Björn-Allan Svensson|67, Miljöskyddsinspektör
+C|234135|71|K|Gunilla Ydrenäs|72, Undersköterska
+C|234136|75|K|Birgitta Ericson|75, Adjunkt
+C|234137|86|M|Jan Ehrlin|86, Företagare
+C|234138|77|M|Jerzy Lesinski|77, Professor
+C|234139|22|M|Sebastian Skoglund|22, Behandlingsassistent
+C|234140|70|M|Staffan Karlsson|70, Gymnastiklärare
+C|233340|68|M|Kew Nordqvist|67 år, solcellssäljare, Tranås
+C|233330|30|K|Matilda Forsärla|30 år, konsthantverkare, Tranås
+C|369417|68|K|Annica Nordqvist|67 år, specialpedagog, Tranås
+C|375058|48|M|Palle Rosén|48 år, driftledare, Tranås
+C|375059|36|M|Jon Forsärla|36 år, brandman, Tokarp
+C|375060|30|K|Magdalena Nehm|30 år, egenföretagare, Linderås
+C|375061|56|M|Bernd Reuber|56 år, trädgårdsmästare, Tranås
+C|375062|32|K|Njeri Olenkere|32 år, student, Tranås
+C|375063|51|M|Anders Winbladh|51 år, läkare, Tranås
+C|375064|50|M|Johan Holm|50 år, fjärrvärmechef, Tranås
+C|375065|71|K|Ingegerd Sundberg|71 år, lärare, Tranås
+C|375066|45|M|Anders Ring|46 år, personlig assistent, Tranås
+C|375067|80|M|Bevan Bertelsen|80 år, f d processtekniker, Tranås
+C|375068|57|K|Elisabeth Linderfalk|57 år, cirkellledare, Tranås
+C|375069|48|M|Magnus Eriksson|48 år, folkhögskolelärare, Tranås
+C|375070|55|M|Sören Hjalmar|55 år, föreståndare, Tranås
+C|218952|63|M|Anders Wilander|63 år, Kommunalråd, Tranås
+C|218953|41|K|Jennie Saxfeldt|41 år, Försäljningschef
+C|218954|61|M|Krister Rydholm|61 år, Egenföretagare
+C|218955|70|K|Gunnel Lind|70 år, Vårdlärare, Tranås
+C|218956|50|M|Mats Holmstedt|50 år, Försäljningschef, Tranås
+C|218957|33|K|Sanda Bosnjak|33 år, Egenföretagare
+C|218958|71|M|Per Samuelsson|71 år, Ingenjör
+C|218959|81|K|Siw Warholm|81 år, Sjuksköterska
+C|1659|38|M|Mirsad Puskar|38 år, Industritekniker, Tranås
+C|218961|69|M|Bernt Dahlgren|69 år, Journalist
+C|218962|31|M|Christoffer Nehm|31 år, Studerande
+C|218963|18|M|Jacob Cernvall|18 år, Studerande
+C|218964|43|K|Helen Uddenberg|43 år, Lärare
+C|218965|83|M|Lars Gärskog|83 år, Fastighetsägare
+C|218966|18|M|Emil Gustafsson|18 år, Studerande
+C|218967|69|K|Marianne Samuelsson|69 år, Ekonom
+C|218968|73|M|Winfried Baier|73 år, Småföretagare
+C|218969|81|M|Bo Falkenström|81 år, Pensionär
+C|218970|40|M|Edin Paradzik|40 år, Ekonomie magister
+C|218971|66|K|Susanna Alm-Alexandersson|66 år, Arkitekt
+C|218972|73|M|Peter Rittmark|73 år, Pensionär
+C|218973|65|M|Jan Gustafsson|65 år, Pensionär
+C|218974|76|M|Ingvar Jakobsson|76 år, Pensionär
+C|218975|51|M|Magnus Engström|51 år, Egen företagare
+C|218976|28|M|Adis Odzak|28 år, Studerande
+C|218977|41|M|Martin Dahlgren|41 år, Krögare
+C|126244|68|M|Björn Forsell|68, Egenföretagare, Tranås
+C|126245|53|M|Thorbjörn Johansson|53, Lantbrukare, Tranås
+C|126246|41|K|Hanna Forsell|Barnskötare, 41 år
+C|126247|39|M|Håkan Nyborg|39, Lagerarbetare, Tranås
+C|126248|40|M|Rickard Wallin|Arbetsledare, 40 år
+C|126249|32|K|Hedvig Lindqvist|Personlig assistent, 32 år
+C|126250|41|M|Niklas Karlsson|Lagerarbetare, 41 år
+C|126251|43|M|Andreas Svensson|Säljare, 43 år
+C|126252|34|K|Eva-Lott Ernfridsson|34, Transportledare, Tranås
+C|126253|78|M|Hans Albertsson|Gymnastikdirektör, 77 år
+C|126254|51|M|Roger Berglund|Fordonstekniker, 51 år
+C|126255|70|M|Birger Landebro|Chaufför, 66 år
+C|126256|50|M|Michael Bohman|Säkerhetslärare, 51 år
+C|126257|58|M|Bernt Karlsson|Egenföretagare, 58 år
+C|126258|72|M|Erling Andersson|Pensionär, 72 år
+C|126259|27|M|Rickard Johansson|CNC-operatör, 28 år
+C|126260|66|M|Christer Karlbom|66, Pensionär, Tranås
+C|126261|70|K|Ing-Marie Jacobsson|Personlig assistent, 70 år
+C|126262|66|M|Hans Backer|66, Bilmekaniker, Tranås
+C|126263|46|K|Agnetha Johansson|Gruppledare, 46 år
+C|126264|40|K|Jonna Frejd Eriksson|Receptionist, 40 år
+C|126265|72|M|Reinhold Theodorsson|Hemmansägare, 72 år
+C|126266|60|M|Fredrik S. Hermelin|Förvaltare, 60 år
+C|224813|62|K|Karin Sissek|
+C|224814|73|K|Suzanne Schöblom|pens personlig assistent, Tranås
+C|224815|72|M|Volker Sissek|
+C|224816|30|M|Ammar Hamdan Aldasouki|
+C|224817|60|K|Agneta Fransson|
+C|224818|71|M|Lars Levander|
+C|224819|29|K|Licen Wickström|
+C|224820|71|M|Karl-Arne Pettersson|

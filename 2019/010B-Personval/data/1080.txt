@@ -1,8 +1,317 @@
-2|295810|298563|298564|298565|298566|298567|298568|298569|296129|298571|298572|298573|298574|298575|298576|298577|298578|298579|298580|298581|139674|298584|298585|298586|298587|298588|298589|298590|139662|139661|314023|314024|314025|296131|296133|314028|314029|314030|314031|314032|314033|314034|296130|314036|314037|314038|314039|306463|314041|314042|314043|314044|296125|296128|310704|310705|310706|310707|310708|310709|310710|310711|310712|310713|310714|310715|310716|310717|139331|310719|310720|310721|310722|296123|310724|310725|310726|310727|310728|310729|310730|310731|310732|310733|310734|310735
-4|179748|208196|208236|8553|179762|179755|179770|179757|208206|208243|208244|179759|208197|208200|208248|208249|208192|179767|208208|208203|208254|208204|208211|208257|208201|208259|208260|208210|179766|208207|208209|208265
-68|454625|454633|457317|457318|456202|457320|457321|453461|457330|457340|457341|456204|457343|457344|454631|456205|457583|454627|457585|457586|457587|457588|457589|457590|457591
-3|27603|27605|27606|27607|27608|27609|27610|27611|27612|66629|27685|66631|27686|27687|27688|27689|27690|66659|27691|66661|27692|27693|27712|27713
-55|113357|252086|252087|113362|252089|252090|252091|252092|252093|252094|252095|252096|252097|252098|252099|252100|252101|113363|252103|252104|252105
-1|215968|215969|215970|215971|215972|215973|215974|215975|215976|215977|215978|215979|215980|215981|215982|215983|215984|215985|215986|215987|215988|215989|215990|215991|215992|215993|215994|215995|215996|215997|215998|215999|216000|216001|216002|216003|216004|216005|216006|216007|216008|216009|216010|216011|216012|216013|216014|216015|216016|216017|216018|216019|216020|216021
-110|32936|32937|32938|32939|32940|32941|32942|32943|32944|32945|32946|32947|32948|32949|32950|32951|32952|32953|32954|32955|32956|32957|32958|32959|32960|32961|32962|32964|32965|32967|32968|32969|32970|32972|32973|32974|32975|32976|32977|32978|33159
-5|294494|294482|296881|294498|301705|301706|294496|301708|301709|294501|301711|296885|301713|301715|294499|301717|301718|294483|301720
+T|Karlskrona
+A|2|295810|298563|298564|298565|298566|298567|298568|298569|296129|298571|298572|298573|298574|298575|298576|298577|298578|298579|298580|298581|139674|298584|298585|298586|298587|298588|298589|298590|139662|139661|314023|314024|314025|296131|296133|314028|314029|314030|314031|314032|314033|314034|296130|314036|314037|314038|314039|306463|314041|314042|314043|314044|296125|296128|310704|310705|310706|310707|310708|310709|310710|310711|310712|310713|310714|310715|310716|310717|139331|310719|310720|310721|310722|296123|310724|310725|310726|310727|310728|310729|310730|310731|310732|310733|310734|310735
+A|4|179748|208196|208236|8553|179762|179755|179770|179757|208206|208243|208244|179759|208197|208200|208248|208249|208192|179767|208208|208203|208254|208204|208211|208257|208201|208259|208260|208210|179766|208207|208209|208265
+A|68|454625|454633|457317|457318|456202|457320|457321|453461|457330|457340|457341|456204|457343|457344|454631|456205|457583|454627|457585|457586|457587|457588|457589|457590|457591
+A|3|27603|27605|27606|27607|27608|27609|27610|27611|27612|66629|27685|66631|27686|27687|27688|27689|27690|66659|27691|66661|27692|27693|27712|27713
+A|55|113357|252086|252087|113362|252089|252090|252091|252092|252093|252094|252095|252096|252097|252098|252099|252100|252101|113363|252103|252104|252105
+A|1|215968|215969|215970|215971|215972|215973|215974|215975|215976|215977|215978|215979|215980|215981|215982|215983|215984|215985|215986|215987|215988|215989|215990|215991|215992|215993|215994|215995|215996|215997|215998|215999|216000|216001|216002|216003|216004|216005|216006|216007|216008|216009|216010|216011|216012|216013|216014|216015|216016|216017|216018|216019|216020|216021
+A|110|32936|32937|32938|32939|32940|32941|32942|32943|32944|32945|32946|32948|32949|32950|32951|32952|32953|32954|32955|32956|32957|32958|32959|32960|32961|32962|32964|32965|32967|32968|32969|32970|32972|32973|32974|32975|32976|32977|32978
+A|5|294494|294482|296881|294498|301705|301706|294496|301708|301709|294501|301711|296885|301713|301715|294499|301717|301718|294483|301720
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|295810|40|K|Sandra Bizzozero|Karlskrona upphandlare 39 år
+C|298563|56|M|Rikard Jönsson|Björkholmen ombudsman 56 år
+C|298564|56|K|Eva-Lotta Altvall|Trossö pedagog 56 år
+C|298565|58|M|Roland Andreasson|Trossö affärsbiträde 58 år
+C|298566|46|K|Jeanette Petersson|Trossö tågvärdinna 46 år
+C|298567|41|M|Johan Ekström|Långö undersköterska 41 år
+C|298568|46|K|Shirin Sahebjamee|Långö utredare 45 år
+C|298569|41|M|Jimmy Pettersson|Karlskrona lärare 41 år
+C|296129|34|K|Camilla Persson|Långö sömmerska 33 år
+C|298571|53|M|Jörgen Estgren|Trossö målare 53 år
+C|298572|24|K|Annah Pripp|Trossö studerande 24 år
+C|298573|23|M|Sonny Bengtsson|Trossö konsult 23 år
+C|298574|59|K|Lotta Törnström|Hästö undersköterska 55 år
+C|298575|46|M|Lars Brissmalm|Trossö folketshusföreståndare 46 år
+C|298576|25|K|Ida Larsson|Långö verksamhetsutvecklare 25 år
+C|298577|60|M|Sven Siwe|Trossö arbetssökande 60 år
+C|298578|46|K|Lotta Holgersson|Björkholmen statstjänsteman 46 år
+C|298579|66|M|Jan Elmqvist|Saltö pensionär 66 år
+C|298580|72|K|Ann-Mari Sternulf|Trossö fd avdelningschef 72 år
+C|298581|69|M|Leif Egefur|Karlskrona pensionär 69 år
+C|139674|70|K|Birgitta Möller|Karlskrona Ekonom 70 år
+C|298584|62|K|Eva Öman|Saltö enhetschef 61 år
+C|298585|45|M|Morgan Pettersson|Karlskrona 44 år
+C|298586|56|K|Lena Skoglöw|Karlskrona telefonist 55 år
+C|298587|72|M|Tommy Sternulf|Trossö pensionär 72 år
+C|298588|66|K|Ingrid Augustinsson Swennergren|Trossö pensionär 66 år
+C|298589|18|M|Eles Karahalilovic|Karlskrona Studerande 18 år
+C|298590|71|M|Torsten Wiktorsson|Trossö pensionär 71 år
+C|139662|29|K|Elina Gustafsson|Rosenholm Verksamhetsutvecklare 29 år
+C|139661|45|M|Lars Hildingsson|Nättraby Ombudsman 45 år
+C|314023|64|K|Eva Strömqvist|Nävragöl Ombudsman 64 år
+C|314024|49|M|Bassem Khalid|Karlskrona egen företagare 49 år
+C|314025|67|K|Hind Abdul Wahab|Karlskrona personlig assistent 67 år
+C|296131|30|M|Jonas Sandström|Nättraby politisk sekreterare 30 år
+C|296133|51|K|Lisbeth Bengtsson|Rödeby undersköterska 51 år
+C|314028|49|M|Åke Håkansson|Holmsjö busschaufför 49 år
+C|314029|54|K|Laila Karlsson|Rödeby hotellanställd 50 år
+C|314030|67|M|Björn Fries|Nättraby fd regeringens narkotikapolitiska samordnare 67 år
+C|314031|41|K|Anna Strömqvist Vollan|Nävragöl civilekonom 40 år
+C|314032|58|M|Mats Fagerlund|Nättraby operatör 57 år
+C|314033|60|K|Elizabeth Törngren|Karlskrona pensionär 60 år
+C|314034|33|M|Leo Azirovic|Marieberg lokalvårdare 32 år
+C|296130|72|K|Kerstin Ekberg Söderbom|Hasslö fd assistent 71 år
+C|314036|57|M|Anders Björkander|Fridlevstad account manager 57 år
+C|314037|61|K|Susanne Öhrn|Tving driftsmekaniker 61 år
+C|314038|65|M|Tommy Brolin|Backabo vaktmästare 65 år
+C|314039|41|K|Cecilia Neuendorff|Nättraby undersköterska 41 år
+C|306463|72|M|Morgan Mattsson|Holmsjö tekniker 71 år
+C|314041|68|K|Inga-Lill Niklasson|Nättraby pensionär 68 år
+C|314042|50|M|Bo Svensson|Nättraby ombudsman 50 år
+C|314043|75|K|Eva Henningsson|Karlskrona f.d skötare 75 år
+C|314044|53|M|Bengt-Göran Hansson|Nättraby operatör 53 år
+C|296125|61|K|Lena Klintefors|Hasslö barnsjuksköterska 60 år
+C|296128|18|M|Muhamed Kadhim Abed|Alyasiri Karlskrona stud. 18 år
+C|310704|60|M|Peter Johansson|Lyckeby Länsbildningskonsulent 60 år
+C|310705|41|K|Selma Björk Matthiasdottir|Jämjö Undersköterska 41 år
+C|310706|55|M|Sattar Zad|Hässlegården Trafik & Projektansvarig 55 år
+C|310707|53|K|Susanne Johansson|Lyckeby Kock 48 år
+C|310708|62|M|Jan-Anders Lindfors|Lyckeby Samordnare 62 år
+C|310709|54|K|Jeanette Håkansson|Ramdala Arbetsledare 54 år
+C|310710|42|M|Håkan Eriksson|Jämjö Varvsarbetare 42 år
+C|310711|54|K|Helene Gustafsson|Nättraby Verksamhetsutvecklare 54 år
+C|310712|35|M|Marcus Degerskär|Hässlegården Industriarbetare 35 år
+C|310713|55|K|Annica Blomstrand|Jämjö Upphandlare 55 år
+C|310714|55|M|Mats Ekberg|Sturkö Boendeassistent 55 år
+C|310715|44|K|Karin Daleke|Jämjö Receptionsansvarig 44 år
+C|310716|38|M|Dan Lundkvist|Trummenäs Ombudsman 38 år
+C|310717|60|K|Ann-Marie Kimenius|Lyckeby Beteendevetare 60 år
+C|139331|37|M|Magnus Manhammar|Karlskrona Riksdagsledamot 37 år
+C|310719|44|K|Karin Blomé|Karlskrona Lokalvårdare 44 år
+C|310720|59|M|Claes-Urban Persson|Hässlegården Socionom 59 år
+C|310721|50|K|Pia Eklund|Karlskrona Industriarbetare 49 år
+C|310722|31|M|Michael Holmberg|Jämjö Statsanställd 31 år
+C|296123|25|K|Egzonita Maxhuni|Karlskrona ombudsman 24 år
+C|310724|31|M|Rami Alyousef|Lyckeby Civilingenjör 30 år
+C|310725|73|K|Inga-Lill Larsson|Tjurkö Pensionär 73 år
+C|310726|43|M|Oscar Dyberg|Spandelstorp Ombudsman 43 år
+C|310727|29|K|Hanna Fagerlund|Jämjö Studerande 29 år
+C|310728|71|M|John-Erik Danerklint|Karlskrona Egen Företagare 71 år
+C|310729|56|K|Carina Ernstsson|Sturkö Undersköterska 55 år
+C|310730|40|M|Jens Sjösten|Senoren Tekniker 40 år
+C|310731|45|K|Madeleine Karlsson|Hästö Statstjänsteman 45 år
+C|310732|67|M|Bo Blomqvist|Backabo Skolkurator 67 år
+C|310733|46|M|Markus Gadd|Jämjö Ungdomsledare 46 år
+C|310734|49|M|John Veneke|Jämjö Elektriker 49 år
+C|310735|65|M|Börje Nilsson|Kristianopel Pensionär 65 år
+C|179748|51|M|Magnus Larsson|51 år ingenjör Torhamn
+C|208196|46|K|Maria Persson|46 år förskollärare Karlskrona
+C|208236|55|M|Jörgen Johansson|55 år lantbrukare Gåsamåla
+C|8553|54|K|Ingrid Hermansson|54 år, Förskollärare, Karlskrona
+C|179762|54|M|Johan Genestig|54 år miljöräddningshandläggare Sturkö
+C|179755|52|K|Ingela Abramsson|52 år sjuksköterska Ramdala
+C|179770|58|M|Lars Karlsson|58 år lant- och skogsbrukare Bettamåla
+C|179757|39|K|Pernilla Persson|39 år barnsjuksköterska Kättilsmåla
+C|208206|39|M|Johan von Reis|38 år medmänniska Nättraby
+C|208243|72|K|Britt-Marie Havby|72 år skogsbonde Fridlevstad
+C|208244|43|M|Fredrik Karlsson|43 år museipedagog Lönnemåla
+C|179759|46|K|Malin Wästfelt|46 år entreprenör Nättraby
+C|208197|53|M|Roger Arvidsson|53 år sjukvårdslärare Persmåla
+C|208200|46|M|Sven Borén|46 år forskare Karlskrona
+C|208248|29|K|Cecilia Runesson|29 år lärare Offamåla
+C|208249|52|K|Ann-Louise Trulsson|52 år präst, civilekonom Senoren
+C|208192|62|M|Claes Gustavsson|62 år företagare Nättraby
+C|179767|72|K|Agnetha Persson|72 år f.d. lärare Karlskrona
+C|208208|72|M|Nils Jedhammar|73 år pensionär Holmsjö
+C|208203|34|M|Nasir Khaja Akmad|34 år datatekniker, lärare Karlskrona
+C|208254|53|K|Gunilla Gustavsson|53 år politisk sekreterare Senoren
+C|208204|27|M|Yaman Masri|27 år kemist, amnestyaktivist Karlskrona
+C|208211|21|M|Per Pettersson|21 år lantarbetare Torhamn
+C|208257|57|K|Katarina Johansson|57 år ekonom Torhamn
+C|208201|36|K|Cecilia Nilsson|36 år transportplanerare Holmsjö
+C|208259|28|M|Magnus Carlsson|28 år egenföretagare Dragda
+C|208260|24|K|Julia Johansson|24 år kock Lönnemåla
+C|208210|33|M|Jean Pierre Candiotti Bustamante|33 år hållbarhetskonsult Karlskrona
+C|179766|45|M|Kennet Henningsson|45 år adjunkt, konsult Kallinge
+C|208207|62|K|Lena Kockum|62 år undersköterska Sturkö
+C|208209|60|M|Eskil Johansson|60 år verkstadsmekaniker Ramdala
+C|208265|74|K|Anna Havby|74 år pensionär Holmsjö
+C|454625|59|M|Billy Åkerström|Karlskrona
+C|454633|56|M|Bengt Jönsson|Karlskrona
+C|457317|55|M|Per Nordensson|Karlskrona
+C|457318|71|K|Monica Schön|Pensionär, Karlskrona
+C|456202|49|K|Carina Olsson|Karlskrona
+C|457320|36|K|Mikaela Andersson|Undersköterska, Karlskrona
+C|457321|49|M|Rickard Löfqvist|Kommunanställd, Karlskrona
+C|453461|26|M|Adam Jansson|Karlskrona
+C|457330|25|K|Isabelle Engström|Rekryteringskoordinator, Karlskrona
+C|457340|43|M|Sokol Abdullahu|Målarmästare, Karlskrona
+C|457341|83|K|Evy Andréasson|Pedagog, Karlskrona
+C|456204|29|M|Niklas Andersson|Karlskrona
+C|457343|38|K|Shpresa Abdullahu|Frisörska, Karlskrona
+C|457344|59|M|Conny Strömberg|Officer, Karlskrona
+C|454631|62|K|Inger Åkesson|Karlskrona
+C|456205|76|M|Lennart Svantesson|Karlskrona
+C|457583|54|K|Suzanne Garsten Schön|Lärare, Karlskrona
+C|454627|66|M|Erik Lindborg|Karlskrona
+C|457585|21|M|Oscar Andersson|Karlskrona
+C|457586|62|M|Per Thorngren|Karlskrona
+C|457587|52|K|Maria Jönsson Schön|Lärare, Karlskrona
+C|457588|35|M|Markus Karlström|Befälhavare Färja, Karlskrona
+C|457589|44|M|Ulf Sennerlin|Karlskrona
+C|457590|44|M|Thobias Jemjeby|Logistikstrateg, Karlskrona
+C|457591|24|M|Carl Andersson|Studerande, Karlskrona
+C|27603|58|M|Börje Dovstad|Kommunalråd 58år Hasslö
+C|27605|74|K|Gunilla Ekelöf|f.d Rektor 74år Karlskrona
+C|27606|69|M|Stefan Lundin|Projektledare 70år Rödeby
+C|27607|45|K|Marianne Ehn-Thorell|Specialistsjuksköterska 45år Aspö
+C|27608|63|M|Tomas Pärlklo|Kriminalinspektör 63år Karlskrona
+C|27609|40|K|Katarina Skantze|Lampfabrikör 41år Karlskrona
+C|27610|65|M|Rolf Svensson|Pensionär 66år Nättraby
+C|27611|56|K|Karin Dovstad|Socionom 46år Hasslö
+C|27612|75|M|Bengt Jonsson|Pensionär 75år Långö
+C|66629|54|K|Charlotta Kihlbert|Lärare 54år Karlskrona
+C|27685|72|M|Lars Fisher|Byggnadsingenjör 72år Aspö
+C|66631|61|K|Agneta Möller|Boendehandlerare funktionsstödsförvaltningen 62år Lyckeby
+C|27686|61|M|Peter Christensen|Systemutvecklare 62år Nättraby
+C|27687|76|K|Eva Röder|76år Hästö
+C|27688|46|M|Robin Kullberg|46år Karlskrona
+C|27689|77|K|Carola Olander|Pensionär 78år Kristianopel
+C|27690|38|M|Filip Issal|Samhällsentrprenör 38år Karlskrona
+C|66659|55|K|Candida Robelo|Undersköterska 55år Ramdala
+C|27691|66|M|Per Wimmerman|Personlig assistent 66år Lyckeby
+C|66661|43|K|Nicole Carlbäck|Lärare 43år Nättraby
+C|27692|30|M|Christian Svensson|Sjöofficer 31år Pantarholmen
+C|27693|76|M|Hans-Göran Håkansson|Administratör 76år Hästö
+C|27712|67|M|Olle Klein|67år Lyckeby
+C|27713|71|M|Kent Lewén|f.d Kommunalråd 71år Fridlevstad
+C|113357|33|M|Olle Hilborn|Verksamhetschef, Karlskrona
+C|252086|67|K|Yvonne Sandberg-Fries|67, F.d.riksdagsledamot, Nättraby
+C|252087|69|M|Tommy Andersson|69, Pensionär, Torhamn
+C|113362|28|K|Madeleine Norman|Miljövetare, Karlskrona
+C|252089|38|M|Anders Lundberg|38, Samhällsplanerare, Karlskrona
+C|252090|35|K|Rachael Gould|35, Doktorand, Karlskrona
+C|252091|31|M|Rickard Barkeryd|30, Biolog, Karlskrona
+C|252092|72|K|Mia Andersson|Pensionär, Karlskrona
+C|252093|65|M|José Espinoza|Undersköterska, Karlskrona
+C|252094|41|K|Anna Kindblad|41, Lärare, Karlskrona
+C|252095|70|M|Ulf Svahn|70, Pensionär, Lyckeby
+C|252096|66|K|Ingela Gånedahl|66, Pensionär, Karlskrona
+C|252097|40|M|Frode Jadbrant|40, Områdeschef, Karlskrona
+C|252098|62|K|Anna-Lena Nilsson|Leg.sjukgymnast, Karlskrona
+C|252099|48|M|Ulf Hellgren|48, Lokalvårdare, Karlskrona
+C|252100|73|M|Jan-Olof Andersson|Pensionär, Karlskrona
+C|252101|68|M|Björn Gustavsson|Pensionär, Karlskrona
+C|113363|56|M|Mikael Auberg|Undersköterska, Karlskrona
+C|252103|73|M|Thomas Gustafson|73, Pensionär, Karlskrona
+C|252104|76|K|Anita Nilsson|Pensionär, Karlskrona
+C|252105|53|M|Jerry Österholm|53, Sjöingenjör, Karlskrona
+C|215968|46|K|Camilla Brunsberg|46, oppositionsråd, Lyckeby
+C|215969|65|M|Carl-Göran Svensson|65, lantbrukare, Ramdala
+C|215970|46|K|Emma Swahn Nilsson|46, egen företagare, Bastasjö
+C|215971|61|M|Peter Glimvall|61, överstelöjtnant, Saltö
+C|215972|39|K|Anna Ottosson|39, controller, Ringö
+C|215973|41|M|Morgan Kullberg|41, filosofie doktor, Bredäng
+C|215974|34|K|Sophia Ahlin|34, egen företagare, Trossö
+C|215975|21|K|Julia Melander|21, bitr restaurangchef, Lyckeby
+C|215976|60|M|Jan Åke Nordin|60, leg sjuksköterska, Trossö
+C|215977|54|M|Jan Lennartsson|54, egen företagare, Sturkö
+C|215978|64|K|Emina Cejvan|64, ekonom, Trossö
+C|215979|68|M|Lars Göran Forss|68, egen företagare, Nättraby
+C|215980|37|K|Hanna Ekblad|37, politisk sekreterare, Bastasjö
+C|215981|74|M|Anders Ovander|74, fd ekonomichef, Nättraby
+C|215982|64|K|Velia Ekström|64, civilingenjör, Trossö
+C|215983|63|M|Bengt Fröberg|63, sjöofficer, Hästö
+C|215984|51|K|Annicka Engblom|riksdagsledamot, Blekinge län
+C|215985|58|M|Torsten Palmgren|58, lantmästare, Inglatorp
+C|215986|37|K|Camilla Hansson|37, lärare, Höryda
+C|215987|53|M|Johan Hjortsberg|53, sjökapten, Galgamarken
+C|215988|61|K|Charlotta Sahlin|61, hudterapeut, Karlskrona
+C|215989|28|M|Philip Årmann|28, teknisk produktägare, Trossö
+C|215990|25|K|Katarina Nordin|25, student, Trossö
+C|215991|62|K|Annika Hansson|62, fd advokatsekreterare, Trossö
+C|215992|35|K|Anna Stridsjö|35, ekonom, Rödeby
+C|215993|75|K|Birgitta Petersson Gamélius|75, pensionär, Fäjö
+C|215994|55|M|Thomas Nilsson|55, lantmästare, Fridlevstad
+C|215995|38|K|Lindy Olofsson|38, jobbcoach, Lyckeby
+C|215996|52|M|Thomas Zeidler|52, civilingenjör, Björkholmen
+C|215997|68|M|Anders Jonasson|68, fd polis, Knösö
+C|215998|76|K|Marianne Nordin|76, fd försvarsanställd, Trossö
+C|215999|78|K|Gerd Sjögren|78, leg tandläkare, Nättraby
+C|216000|74|M|Björn Liljekrantz|74, pensionär, Trossö
+C|216001|79|K|Ann-Marie Branje|79, områdeschef, Saltö
+C|216002|18|M|Adam Liedholm|18, studerande, Trossö
+C|216003|40|M|Per-Erik Karlsson|40, speciallärare, Trossö
+C|216004|67|K|Britt-Marie Ammer Forss|67, egen företagare, Nättraby
+C|216005|49|M|Patrik Zarén|49, bilplåtslagare, Jämjö
+C|216006|53|M|Johan André|53, egen företagare, Vinberga
+C|216007|71|M|Ulf Danielsson|71, civilingenjör, Rödeby
+C|216008|65|M|Ingemar Sunesson|65, ingenjör, Lyckeby
+C|216009|63|M|Anders Jakobsson|63, pensionerad officer, Lyckeby
+C|216010|82|K|Karin Brunsberg|82, filosofie doktor, Lyckeby
+C|216011|43|K|Marie Meijer Dahl|43, socialsekreterare, Hästö
+C|216012|49|K|Annelie Ivarsson|49, lantbrukare, Hejetorp
+C|216013|55|K|Camilla Mikler|55, verksamhetsutvecklare, Arnö
+C|216014|48|K|Malin Klintin|48, verksamhetsanalytiker, Verkö
+C|216015|29|K|Caroline Wessel|29, beteendevetare, Karlskrona
+C|216016|68|K|Sigrid Johansson|68, pensionär, Bergåsa
+C|216017|41|K|Sviatlana Leuchuk|41, grafisk designer, Sturkö
+C|216018|39|M|Henrik Persson|39, officer, Verkö
+C|216019|42|M|Johan Åkesson|42, it-konsult, Galgamarken
+C|216020|62|K|Charlotte Hauffman|62, civilekonom, Kettilstorp
+C|216021|71|M|Björn Abramsson|71, fd polis, Sturkö
+C|32936|41|M|Christopher Larsson|42, Key account manager, Rödeby
+C|32937|54|K|Lotta Antman|54, Rektor, Knösö
+C|32938|64|M|Göran Eklund|Officer, Karlskrona
+C|32939|48|K|Åsa Larsson|48, Boendeassistent, Rödeby
+C|32940|65|M|Ronnie Nilsson|Forskningsassistent, 65 år
+C|32941|49|K|Camilla Karlman|Politisk sekreterare, Karlskrona
+C|32942|66|M|Christer Leksell|66, Officer, Backabo
+C|32943|40|K|Margaretha Jonasson|Barnskötare, Karlskrona
+C|32944|75|M|Robert Andersson|75, Skogsentreprenör, Torhamn
+C|32945|46|M|Patrik Hult|Butiksanställd, 46 år
+C|32946|48|K|Pernilla Cederholm|Undersköterska, 47 år
+C|32948|54|K|Susanne Cederholm|Administratör, Karlskrona
+C|32949|30|K|Tove Håkansson|30, Barnskötare, Holmsjö
+C|32950|47|M|Paul Cederholm|47, Egenföretagare, Nättraby
+C|32951|71|M|Kenneth Johnsson|Pensionär, 72 år
+C|32952|57|K|Mariane Johansson|57, Administratör, Bränteknuva
+C|32953|49|M|Mats Mattiasson|Maskintekniker, 49 år
+C|32954|58|K|Bente Eklund|Cirkelledare, 58 år
+C|32955|53|M|Magnus Johansson|Lastbilschaufför, 53 år
+C|32956|59|M|Jan Sjöholm|Officer, 59 år
+C|32957|29|K|Sanna Svennesson|Konditor, 29 år
+C|32958|46|K|Anette Ivekull|Undersköterska, 46 år
+C|32959|65|K|Rose-Marie Leksell|65, Sångerska, Backabo
+C|32960|70|M|Lars-Eric Persson|70, Byggnadssnickare, Rödeby
+C|32961|64|M|Lars-Olov Stenborg|64, Egenföretagare, Trossö
+C|32962|61|K|Yvonne Svennesson|61, Grafiker, Nättraby
+C|32964|75|M|Bo Hugmark|75, Systemutvecklare IT, Saltö
+C|32965|46|M|Henrik Ljungkvist|46, Egenföretagare, Hasslö
+C|32967|70|M|Benny Berglund|70, Pensionär, Rödeby
+C|32968|58|M|Tommy Cyréus|58, Företagsutvecklare, Jämjö
+C|32969|43|K|Jennie Wilén|43, Ungdomsbehandlare, Lyckeby
+C|32970|41|M|Stefan Nilsson|42, Elektriker, Lindesnäs
+C|32972|67|K|Birgitta Stenberg|67, Pensionär, Trossö
+C|32973|65|K|Ingrid Andersson|65, Pensionär, Fridlevstad
+C|32974|56|K|Tina Ulvås|56, Barnskötare, Holmsjö
+C|32975|61|M|Johan Ulvås|61, Chaufför, Holmsjö
+C|32976|73|M|Anders Mattiasson|73, Elingenjör, Fridlevstad
+C|32977|64|K|Anne-Marie Lundmark|64, Förvaltningssocionom, Hässlegården
+C|32978|57|M|Jörgen Andersson|57, Chaufför, Fridlevstad
+C|294494|35|K|Emma Hilborn|Tandläkare,Jämjö
+C|294482|47|K|Åsa Gyberg-Karlsson|Biomedicinskanalytiker,Karlskrona
+C|296881|59|M|Ulf Hansson|Handläggare, Lyckeby
+C|294498|44|K|Desiree Hoberg|Specialistundersköterska,Ramdala
+C|301705|39|M|Markus Ottosson|Butikschef, Karlskrona
+C|301706|53|M|Arto Valtonen|Teknikinformatör, Lyckeby
+C|294496|28|K|Anna-Kajsa Lundberg|Specialistofficer,Karlskrona
+C|301708|45|M|Islam Qatesh|Studiehandledare, Karlskrona
+C|301709|37|K|Caroline Skoglöw|Tatuerare med eget företag, Karlskrona
+C|294501|67|M|Åke Stridh|Egenföretagare,Karlskrona
+C|301711|52|K|Camilla Persson|Socionom, Karlskrona
+C|296885|73|M|Jan-Olof Wahllöf|Pensionerad målare, Karlskrona
+C|301713|33|K|Anngelica Rosén|Byggnadsadministratör, Fågelmara
+C|301715|55|K|Katarina Vastamäki|Förläggare, Karlskrona
+C|294499|40|M|Johan Eriksson|Murare,Karlskrona
+C|301717|33|K|Anab Abdi-Mohammed|Student, Karlskrona
+C|301718|73|M|Roland Mattisson|Pensionerad socionom, Holmsjö
+C|294483|38|K|Sara Högelius|Folkhögskolelärare,Hasslö
+C|301720|50|M|Reine Svensson|Gymnasielärare, Karlskrona

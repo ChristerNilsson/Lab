@@ -1,11 +1,320 @@
-2|156794|156795|156796|71217|156798|156799|71208|156801|156802|70622|100795|156805|100789|156807|100785|156809|156810|156811|156812|156813|100787|100790|156816|156817|156818|156819|156820|156821|100783|156823|156824|156825|156826|156827|156828|156829|156830|156831|156832|156833|156834|156835|156836|156837|156838|156839|100793|156841|156842|156843|156844|156845|156846|156847|156848|156849|156850|156851|156852|156853|156854
-1105|413245|413246|413247|413248|413249|413250|413251|413252|413253
-4|76927|76913|76940|77999|78000|78001|76945|78003|78004|78005|78006|78007|78008|78009|78010|78011|78012|78013|78014|78015|78016
-532|513812|513813
-68|155026|155027|155028|155029|155030|155031|155032|155033|155034|155035|155036|155037|155038|155039|155040|155041|155042|155043|155044
-3|219201|219202|219203|219204|219205|219206|219207|219208|219209|219210|219211|219212|219213|219214|219215|219216|219248|219249|219250|219251|219252|219253|219254|219255|219256|219257|219259|219260|219261|219262|219263|219264|219265|219266|219267
-55|111573|111574|111575|111576|111577|111578|111579|111580|111581|111582|111583|111584|111585|111586|111587|111588|111589|111590|111591|111592|111593|111594|111595|111596|111597|111598|111599|111600|111601|111602|111603|111604|111605
-1|22971|24965|22980|22986|22974|24969|12780|24971|12784|22990|24974|22987|22977|22983|24978|24979|24980|24981|24982|24983|24984|24985|24986|22997|24988|24989|24990|23001|22995|24993|24994|24995|24996|24997|24998|24999|22999|25001|25002|25003|25004|25005|25006|25007|25008|25009|25010|25011|25012|25013|25014|25015|25016|25017|25018
-1286|2879|270294|270295|270296|8034|270298|270299|297320|270300|2880|8035|285895|315955
-110|67189|67190|67191|67192|67193|67194|67195|67196|67197|215414
-5|211815|211816|211817|211818|211819|211820|211821|211822|211823|211824|211825|211826|211827|211828|211829|211830|211831|211832|211833|211834|211835|211836|211837|211838|211839|211840|211841|211842|211843|211844|211845|211846|211847|211848|211849|211850|211851|211852|211853
+T|Solna
+A|2|156794|156795|156796|71217|156798|156799|71208|156801|156802|70622|100795|156805|100789|156807|100785|156809|156810|156811|156812|156813|100787|100790|156816|156817|156818|156819|156820|156821|100783|156823|156824|156825|156826|156827|156828|156829|156830|156831|156832|156833|156834|156835|156836|156837|156838|156839|100793|156841|156842|156843|156844|156845|156846|156847|156848|156849|156850|156851|156852|156853|156854
+A|1105|413245|413246|413247|413248|413249|413250|413251|413252|413253
+A|4|76927|76913|76940|77999|78000|78001|76945|78003|78004|78005|78006|78007|78008|78009|78010|78011|78012|78013|78014|78015|78016
+A|532|513812|513813
+A|68|155026|155027|155028|155029|155030|155031|155032|155033|155034|155035|155036|155037|155038|155039|155040|155041|155042|155043|155044
+A|3|219201|219202|219203|219204|219205|219206|219207|219208|219209|219210|219211|219212|219213|219214|219215|219216|219248|219249|219250|219251|219252|219253|219254|219255|219256|219257|219259|219260|219261|219262|219263|219264|219265|219266|219267
+A|55|111573|111574|111575|111576|111577|111578|111579|111580|111581|111582|111583|111584|111585|111586|111587|111588|111589|111590|111591|111592|111593|111594|111595|111596|111597|111598|111599|111600|111601|111602|111603|111604|111605
+A|1|22971|24965|22980|22986|22974|24969|12780|24971|12784|22990|24974|22987|22977|22983|24978|24979|24980|24981|24982|24983|24984|24985|24986|22997|24988|24989|24990|23001|22995|24993|24994|24995|24996|24997|24998|24999|22999|25001|25002|25003|25004|25005|25006|25007|25008|25009|25010|25011|25012|25013|25014|25015|25016|25017|25018
+A|1286|2879|270294|270295|270296|8034|270298|270299|297320|270300|2880|8035|285895|315955
+A|110|67189|67190|67191|67192|67193|67194|67195|67196|67197|215414
+A|5|211815|211816|211817|211818|211819|211820|211821|211822|211823|211824|211825|211826|211827|211828|211829|211830|211831|211832|211833|211834|211835|211836|211837|211838|211839|211840|211841|211842|211843|211844|211845|211846|211847|211848|211849|211850|211851|211852|211853
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1105|BEP|Bergshamrapartiet
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1286||Solnapartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|156794|50|M|Arne Öberg|50, Processutvecklare
+C|156795|29|K|Sara Kukka-Salam|29, Ekonom
+C|156796|49|M|Georgios Kontorinis|49, Ombudsman
+C|71217|65|K|Eva Eriksson|65, Undervisningsråd, Solna
+C|156798|29|M|Payam Moula|29, Licentiat i filosofi
+C|156799|25|K|Hélène Sevastik|26, Studerande i statsvetenskap
+C|71208|31|M|Faradj Koliev|31, Forskare i statsvetenskap, Solna
+C|156801|29|K|Ajla Mehinovic|29, Personalvetare
+C|156802|69|M|Gösta Mårtensson|70, Fd. personalutvecklare
+C|70622|34|K|Sophia Andersson|34, Facklig ombudsman, Solna
+C|100795|45|M|Peter Rangwe|45, Key Accont Manager, Solna
+C|156805|74|K|Gunilla Åberg|74, Fd Hyresgästombudsman
+C|100789|71|M|Ebbe Adolfsson|71, Fd statstjänsteman, Solna
+C|156807|65|K|Rita Ghebreselassie|65, Undersköterska, Tolk, Ekonom
+C|100785|40|M|Johan Wahlstedt|40, Civilingenjör, Solna
+C|156809|58|K|Cecilia Bravo|58, Omsorgspedagog
+C|156810|36|M|Kalle Sönnergren|36, Statstjänsteman
+C|156811|66|K|Elisabet Brolin|66, Fd. Ombudsman
+C|156812|64|M|Per-Ove Nelstrand|64, Diakon
+C|156813|43|K|Katsiaryna Strachal|43, Förskolelärare, Fil. mag
+C|100787|25|M|Fredrik Johansson|25, Statstjänsteman, Solna
+C|100790|77|K|Signe Levin|77, Fd speciallärare, Solna
+C|156816|71|M|Sune Holmgren|71, Fd. Stormarknadschef
+C|156817|29|K|Felicia Giertta|30, Statstjänsteman
+C|156818|23|M|Danial Raoufi|23, Socionomstudent
+C|156819|26|K|Marie Sher|26, Juridikstudent
+C|156820|45|M|Joakim Edhborg|45, Politisk sekreterare
+C|156821|24|K|Firel Danho|24, Juriststudent
+C|100783|31|M|Alexander Canizares Dahlström|31, Business Process Modeller, Solna
+C|156823|38|K|Sabina Begovic Kovacevic|38, Handläggare
+C|156824|33|M|Ruben Wågman|34, Policy- och påverkanshandläggare
+C|156825|25|K|Parisa Khosravi|26, Entreprenör
+C|156826|61|M|Mikael Kullberg|61, Utredare
+C|156827|62|K|Besrat Tesfaye|63, Fil. Doktor
+C|156828|73|M|Jan Perers|63, Fd. Ekonomichef
+C|156829|56|K|Karima Lindberg|56, Kurator
+C|156830|56|M|Mats Haapanen|56, Socionom
+C|156831|57|K|Frida Azadi|58, Utredare
+C|156832|39|M|Frank Martin Engström|40, Projektledare
+C|156833|26|K|Merima Colak|27, Rekryteringskonsult
+C|156834|26|M|Alfred Esbjörnson|26, Student
+C|156835|51|K|Cyrene Martinsson Waern|51, Ombudsman
+C|156836|30|M|Simon Lundberg|31, Lärare
+C|156837|61|K|Nadja Mirghasemi|61, Författare
+C|156838|45|M|Niclas Vennström|46, Handläggare
+C|156839|72|K|Margareta Nordin|72, Diakon
+C|100793|28|M|Patrik Khosravi|28, Ombudsman, Solna
+C|156841|78|K|Birgitta Göransson|78, Fd. gymnasielärare
+C|156842|41|M|Chengis Rehman|41, Föreningschef
+C|156843|76|K|Anita Johansson|76, Fd. Marknadskoordinator
+C|156844|36|M|Davis Risberg|37, Assistent
+C|156845|69|K|Karin Perers|70, Fd. personalchef
+C|156846|67|M|Ouzine Kettane|67, Forskare
+C|156847|76|K|Anitha Pierre|76, Pensionär
+C|156848|70|M|Milan Todoran|70, Krögare
+C|156849|69|K|Gudrun Staf Torstensson|69, Socionom
+C|156850|53|M|Jan Ottosson|53, Lekvolontär
+C|156851|76|K|Britt Törnberg|76, Pensionär
+C|156852|26|M|Adam Josefsson|26, Handläggare
+C|156853|60|K|Ann Carlsson|61, Kanslist
+C|156854|45|M|Martin Eliasson|46, Arkitekt
+C|413245|26|K|Sandy Awada|entreprenör
+C|413246|71|M|Björn Bränngård|arkitekt
+C|413247|66|K|Lena Wehlin|ekonom
+C|413248|51|M|Ansgar Firsching|advokat
+C|413249|36|K|Frida Haglund|projektledare
+C|413250|71|M|Hendry Andersson|leg. sjukskötare
+C|413251|74|K|Lollo Spång|lärare
+C|413252|36|M|Fredrik Fermelin|konstnär
+C|413253|80|M|Per-Olov Engvall|pensionär
+C|76927|36|M|Magnus Persson|36, Solna, Tekonologie doktor
+C|76913|41|K|Anna Lasses|41, Solna, Agronomstatsvetare
+C|76940|35|M|Martin Karlsson|35, Solna, Mät- och kartchef
+C|77999|63|K|Marcela Arosenius|63 år, pensionär, Frösunda
+C|78000|33|M|Axel Östlund|33 år, säljare säkerhetsteknik, Huvudsta
+C|78001|35|M|André van der Kaay|35, Solna, Infrastrukturkonsult
+C|76945|61|M|Ingemar Andersson|61, Solna, Konsult i förnybart
+C|78003|68|K|Lena Westin|68 år, pensionär, Huvudsta
+C|78004|31|M|Christofer Sköld|31 år, finansekonom, Huvudsta
+C|78005|42|K|Malin Engvall|42, Solna, Politisk sekreterare
+C|78006|37|M|Tor Hiis|37 år, gruppchef gränspolisen, Haga norra
+C|78007|68|K|Eva-Britt Sandlund|68, Solna, Senior
+C|78008|36|M|Per Pettersson|36 år, kommunikatör, Frösunda
+C|78009|38|M|Marcus Nyman|38 år, civilekonom, Huvudsta
+C|78010|31|K|Lina Nord|31 år, specialistsjuksköterska, Hagalund
+C|78011|37|M|Per Forsberg|37, Solna, Studerande
+C|78012|45|M|Staffan Löfmark|45 år, undersköterska, Bergshamra
+C|78013|36|M|Mehdi Akhondi|35 år, civilingenjör, Ulriksdal
+C|78014|81|M|Anders Palm|81 år, pensionär, Skytteholm
+C|78015|39|M|Mikael Björn|39 år, busschaufför, Råsunda
+C|78016|70|K|Monica Eriksson|70 år, föreningsaktiv, Hagalund
+C|513812|33|K|Karin Pettersson|33, handläggare
+C|513813|42|M|Elias Rudberg|42, lärare
+C|155026|39|M|Samuel Klippfalk|39, Kommunalråd, Solna
+C|155027|37|K|Marie Bechara|37, Frisör
+C|155028|53|M|Ansgar Toscha|53, Egenföretagare
+C|155029|42|K|Nataliya Hulusjö|42, Kommunikationsstrateg
+C|155030|27|M|David Armér|27, Revisor
+C|155031|71|M|Kent-Rune Sjöholm|71, Fil. lic, Solna
+C|155032|72|K|Kerstin Höök|72, Pensionär
+C|155033|47|M|Andreas Hulusjö|47, Aktuarie, Solna
+C|155034|30|M|Christoffer Eriksson|30, Kustjägare
+C|155035|40|K|Petra Klippfalk|40, Samhällsvetare
+C|155036|74|M|Lars Gustaf Nordqvist|74, Nämndeman
+C|155037|52|M|Nils-Arne Modig|52, Säljare
+C|155038|47|M|Stefan Appelgren|47, Civilingenjör
+C|155039|73|M|Sune Olofson|73, Journalist
+C|155040|80|M|Roland Bjurling|80, Pensionerad ingenjör
+C|155041|69|M|Sture Eckeskog|69, Pensionär
+C|155042|32|M|Arvid Bothén|32, Sjuksköterska
+C|155043|34|K|Sarah Hummerdal|34, Presschef
+C|155044|29|M|Thomas Nordvall|29, Politiskt sakkunnig
+C|219201|61|K|Marianne Damström Gereben|Kommunalråd, Hagalund
+C|219202|56|M|Peter Edholm|kultur- och fritidskommunalråd, Solna
+C|219203|47|M|Martin Andreasson|senior utredare, Solna
+C|219204|38|K|Sara Stjärne|Affärsutvecklare, Bergshamra
+C|219205|61|M|Anders Ekegren|ombudsman, Solna
+C|219206|69|K|Birgitta Svensson|biomedicinsk analytiker, Solna
+C|219207|60|M|Lars Granath|utredare, Solna
+C|219208|38|M|Sukrî Demir|Enhetschef, Frösunda
+C|219209|68|M|Per Engström|Ledarskapskonsult, Råsunda
+C|219210|74|K|Anne Utter|agronom, Solna
+C|219211|47|M|Peter Hahne|sparekonom, Solna
+C|219212|55|K|Anna Attergren Granath|projektadministratör, Solna
+C|219213|71|K|Annica Wohlin Wottrich|univ adjunkt, fysioterapeut, Solna
+C|219214|49|M|Gustavo Caballero Cervantes|Leg. lärare, Frösunda
+C|219215|44|K|Sara Vinterhav|Arkitekt, Huvudsta
+C|219216|38|M|Carl Lagerqvist|Presschef, Skytteholm
+C|219248|38|K|Carin Wesslau|Exploateringsingenjör, Huvudsta
+C|219249|69|M|Nils Fredriksson|Pensionär, Råsunda
+C|219250|73|M|Curt Fredriksson|Fastighetsförvaltare, Vasalund
+C|219251|59|K|Anita Paradell|Vendor Manager, Råsunda
+C|219252|35|M|Gunnar Ihrén|Skatteutredare, Huvudsta
+C|219253|44|M|Anders Bergman|Författare, Bergshamra
+C|219254|72|K|Siri Wahlquist|leg biomedicinsk analytiker, Solna
+C|219255|60|M|Peter Thomasson|Projektledare, Råsunda
+C|219256|74|K|Louise Sinclair Fredriksson|Fd affärsresekonsult, Vasalund
+C|219257|47|M|Andreas Borgegård|Analytiker, Råsunda
+C|219259|37|M|Mikael Vannesjö|incident manager, Solna
+C|219260|61|M|Per-Olov Andersson|Systemare, Bergshamra
+C|219261|76|K|Ulla Westling|Pensionär, Solna Centrum
+C|219262|38|M|Emil Eriksson|Säljare, Huvudsta
+C|219263|73|M|Gustaf Lann|Väg- och vattenbyggnadsingenjör, Skytteholm
+C|219264|41|M|Pierre Karatzian|Kommunikatör, Norra Haga
+C|219265|50|M|Magnus Nordén|Systemutvecklare, Hagalund
+C|219266|82|M|Paul Zavrel|Pensionär, Bergshamra
+C|219267|73|K|Emma Nilsson Jacobsson|leg sjuksköterska, Solna
+C|111573|44|M|Bernhard Huber|44, kommunalråd, Solna
+C|111574|28|K|Victoria Johansson|28, miljövetare, Solna
+C|111575|48|M|Tobias Östberg|48 år, Pressekreterare, Bergshamra
+C|111576|36|K|Marie Cham|36 år, Processledare, Agnesberg
+C|111577|43|M|Martin Marmgren|43, polis, Solna
+C|111578|24|K|Semanur Taskin|24 år, Läkarstudent, Huvudsta
+C|111579|74|M|Jacques de Maré|74, professor emeritus, Solna
+C|111580|54|K|Susanne Nordling|54, landstingsråd, Solna
+C|111581|59|M|Terence Hales|59 år, Arkitekt, Bergshamra
+C|111582|52|K|Marina Peregonchuk|52 år, PTP-psykolog, Hagalund
+C|111583|27|M|Philip Lantz|27 år, Student, Råsunda
+C|111584|59|K|Nahid Ayazi Rouzbahani|59, lärare, Solna
+C|111585|39|K|Matilda Baraibar|39 år, Ekonomhistoriker, Bergshamra
+C|111586|41|M|Joar af Ekenstam|41 år, Kundansvarig, Råsunda
+C|111587|32|K|Yolanda Hedberg|32 år, Docent, Frösunda
+C|111588|43|M|Ola Håkansson|43 år, Lärare, Bergshamra
+C|111589|44|K|Rosie Nilsson Grenklo|44 år, Programsamordnare, Huvudsta
+C|111590|40|M|Jonas Berg|40 år, Strategikonsult, Skytteholm
+C|111591|39|K|Louisa Cheung|39, samordnare, Solna
+C|111592|33|M|Sebastian Lembke|33 år, Civilingenjör, Bergshamra
+C|111593|78|K|Margareta Randwall|78 år, Fd Kriminalvårdare, Råsunda
+C|111594|43|M|David Horwath|43 år, IT-specialist, Hagalund
+C|111595|45|K|Josefin Ström|45 år, Sjuksköterska, Råsunda
+C|111596|21|M|Henrik Almén|21 år, Student, Huvudsta
+C|111597|39|K|Mija Jansson|39 år, Gymnasielärare, Huvudsta
+C|111598|79|M|Kjell Nordenstam|79 år, Psykolog, Skytteholm
+C|111599|48|K|Maria Cosnier|49 år, Hållbarhetskonsult, Huvudsta
+C|111600|33|M|Holger Motzkau|33 år, Forskningsingenjör, Ritorp
+C|111601|50|K|Carola Åberg|50 år, Forskare, Hagalund
+C|111602|51|M|Staffan Halldin|51 år, Företagsekonom, Råsunda
+C|111603|56|M|Björn Sigurdsson|56 år, Klimatstrateg, Bergshamra
+C|111604|48|K|Agnetha Boström|48 år, Presschef, Hagalund
+C|111605|39|M|Viktor Leijon|39 år, Civilingenjör, Skytteholm
+C|22971|42|M|Pehr Granfalk|42, Kommunstyrelsordförande
+C|24965|34|K|Zanna Mårtensson|34, Civilingenjör
+C|22980|48|M|Arion Chryssafis|48, Kommunalråd
+C|22986|38|K|Veronica Nordström|38, Grafisk formgivare
+C|22974|37|M|Lars Rådén|37, Kommunalråd
+C|24969|67|K|Helene Ekegren|67, Projektkoordinator
+C|12780|37|M|Niklas Wykman|37, Riksdagsledamot
+C|24971|29|K|Veronika de Jonge|29, Politiskt sakkunnig
+C|12784|31|M|Hanif Bali|31, Programmerare
+C|22990|52|K|Monika Mannerström Skog|52, Operasångerska
+C|24974|68|M|Lars-Erik Salminen|68, Poliskommissarie
+C|22987|55|M|Torsten Svenonius|55, Civilingenjör
+C|22977|35|K|Catarina Ekeståhl|35, VD-assistent
+C|22983|58|M|Magnus Nilsson|58, Redaktör
+C|24978|65|M|Johan T. Sterndal|65, VD
+C|24979|75|M|Leif Hansson|75, Pensionär
+C|24980|37|M|Anton Vajk|37, Politisk sekreterare
+C|24981|42|M|Gustav Stark|42, Projektledare
+C|24982|33|M|Albin Falkmer|33, Kommunikationschef
+C|24983|38|M|Andreas Hultberg|38, Produktionsberedare
+C|24984|38|K|Alexandra Bosnjakovic|38, Egenföretagare
+C|24985|73|M|Lennart Hultqvist|73, Egenföretagare
+C|24986|31|M|Sebastian Östberg|31, Egenföretagare
+C|22997|39|K|Karin Westlin Sand|39, Konsult
+C|24988|54|K|Eva Gustavsson|54, Internationell chef
+C|24989|58|M|Klas Lindblom|58, Agronom
+C|24990|74|M|Thomas Wallin|74, Fil. kand
+C|23001|77|M|Göran Stark|77, Senior rådgivare
+C|22995|45|K|Sungmee Gundlegård|45, Ekonom
+C|24993|73|M|Egon Eriksson|73, Adjunkt
+C|24994|81|K|Eivor Wikholm|81, fd. Verksamhetscontroller
+C|24995|43|M|Jon Pettersson|43, Avdelningschef
+C|24996|77|K|Eva Holmqvist|77, Pensionär
+C|24997|51|K|Anna Hagberg Nilsson|51, Specialpedagog
+C|24998|46|M|Christopher Denker|46, Verksamhetsutvecklare
+C|24999|73|K|Ida Dahlgren|73, Journalist
+C|22999|54|M|Anders Westerlind|54, Fastighetsmäklare
+C|25001|55|K|Anna Carlström Lindblom|55, Agronom
+C|25002|44|M|Johan Salminen|44, Egenföretagare
+C|25003|49|M|Robert Gidehag|49, Nationalekonom
+C|25004|26|M|Amanuel Kflemariam|26, Samordnare
+C|25005|56|K|Eva Stein|56, aukt. Revisor
+C|25006|57|M|Stellan Schultz|57, Lärare
+C|25007|70|M|Sven Olof Sköld|70, Pensionär
+C|25008|52|M|Magnus Skog|52, Konsultchef
+C|25009|32|M|Martin Holmén|32, Politiskt sakkunnig
+C|25010|80|M|Per Stockhaus|80, fd Ekonom
+C|25011|56|M|Jianbiao Gao|56, Lärare
+C|25012|73|K|Christina Brang Nyrén|73, Fastighetsförvaltare
+C|25013|75|K|Sonja Leikrans|75, leg. Psykolog
+C|25014|52|M|Bo Nilsson|52, Civilingenjör
+C|25015|64|M|Pär-Thomas Axelsson|64, Fotograf
+C|25016|51|M|Sven-Erik Pettersson|51, Fil. kand
+C|25017|76|M|Lars Åkesson|76, Egenföretagare
+C|25018|73|M|Göran Thingwall|73, Läkare
+C|2879|64|M|Lars-Ove Löf|IT-strateg
+C|270294|46|K|Madeleine Frånberg|Civilingenjör
+C|270295|49|M|Andreas Arenander|Civilekonom
+C|270296|73|K|Ann Häggmark-Bell|Lärare
+C|8034|45|K|Lena Maripuu|Egenföretagare
+C|270298|69|K|Solveig Persson|Beteendevetare
+C|270299|49|M|Anton Ivanov|Kommunikatör
+C|297320|52|M|Jerker Widengren|Professor
+C|270300|49|M|Patrik Rehn|Säljare
+C|2880|54|K|Ann-Charlotte Willbach|Mentalskötare
+C|8035|56|M|Anders Fransson|Målarmästare
+C|285895|50|K|Åsa Holmius|Advokat
+C|315955|38|M|Daniel Karlsson|Byggnadsingenjör
+C|67189|38|M|Msciwoj Swigon|Statstjänsteman, Solna
+C|67190|50|K|Ingela Karlsson|50, byggnadsmålare, Solna
+C|67191|63|M|Kjell Johansson|63, arbetsledare, Solna
+C|67192|59|M|Mikael Andersson|59 år, drifttekniker, Skytteholm
+C|67193|54|M|Mats Fyhr|54 år, tjänsteman, Järva Krog
+C|67194|72|M|Thomas Stenrup|72, nämndeman, Solna
+C|67195|65|M|Åke Forslund|65, pensionär, Solna
+C|67196|60|K|Svetlana Lindberg|60 år, vårdlärare, Hagalund
+C|67197|28|M|Ludvig Grufman|27 år, presskommunikatör, Huvudsta
+C|215414|56|M|Stefan Nero|56 år, företagare, Huvudsta
+C|211815|27|K|Sandra Lindström|27 år, folkhögskollärare, Huvudsta
+C|211816|46|K|Linda Cigéhn|46 år, informatör, Råsunda
+C|211817|46|M|Atilla Yavuz|46 år, näringslivssamordnare, Hagalund
+C|211818|42|K|Tove Pehrsson|42 år, språklärare, Hagalund
+C|211819|47|M|Krister Collin|47 år, arkivarie, Råsunda
+C|211820|65|K|Kerstin Scheutz|65 år, handläggare, Råsunda
+C|211821|24|M|Erik Järvelä|24 år, student, Huvudsta
+C|211822|63|M|Thomas Magnusson|Solna, budgetrådgivare
+C|211823|74|M|Gunnar Ljuslin|74 år, pensionär, Bergshamra
+C|211824|73|K|Inger Grape-Olausson|73 år, pensionär, Bergshamra
+C|211825|46|M|Leif Åsbrink López|46 år, socialsekreterare, Frösunda
+C|211826|32|K|Rebecca Hedenstedt|33 år, socionom, Skytteholm
+C|211827|38|M|Ihsan Kellecioglu|Solna, samordnare
+C|211828|59|K|Kristina Boréus|59 år, forskare, Bergshamra
+C|211829|43|M|Babar Rehman|43 år, fotbollstränare, Rudviken
+C|211830|59|K|Annika Edman Olofsson|60 år, socionom, Bergshamra
+C|211831|74|M|Adi Anani|74 år, teknologie doktor, Skytteholm
+C|211832|54|K|Susanne Svärd|Solna, undersköterska
+C|211833|60|M|Stellan Hermansson|60 år, politisk sekreterare, Frösunda
+C|211834|54|K|Anette Meliane|55 år, kulturarbetare, Hagalund
+C|211835|32|M|Arash Gelichkan|32 år, journalist, Huvudsta
+C|211836|29|K|Therése Ekengren|29 år, genuspedagog, Bagartorp
+C|211837|65|M|Ulf Åsbrink|65 år, handläggare, Råsunda
+C|211838|58|K|Leonor Magnusson|58 år, banktjänsteman, Bergshamra
+C|211839|98|K|Herta Fischer|98 år, kulturarbetare, Råsunda
+C|211840|60|M|Bahram Davoudi|60 år, elevassistent, Centrala Solna
+C|211841|60|K|Maria Thiessen|60 år, teknologie doktor, Hagalund
+C|211842|41|K|Frida Ahlberg|41 år, butikschef, Råsunda
+C|211843|35|M|Victor Svärd|34 år, butikschef, Bagartorp
+C|211844|83|K|Barbro Björck|83 år, pensionär, Huvudsta
+C|211845|51|M|Fredrik Hertzberg|51 år, universitetslärare, Råsunda
+C|211846|34|K|Roya Hakimnia|34 år, läkare, Huvudsta
+C|211847|59|M|Bekir Yarar|59 år, skattehandläggare, Ritorp
+C|211848|79|K|Maria Henriksson Gillman|79 år, pensionär, Bagartorp
+C|211849|52|K|Ylva Famme|52 år, tolk, Hagalund
+C|211850|32|M|Roberto Castañeda Lozano|32 år, forskare, Huvudsta
+C|211851|72|K|Cecilia Hamilton|72 år, bibliotekarie, Hagalund
+C|211852|63|M|Gustav Olofsson|63 år, sekreterare, Bergshamra
+C|211853|56|K|Zuhal Iskir|56 år, fritidsledare, Bergshamra

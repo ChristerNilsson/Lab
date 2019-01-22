@@ -1,11 +1,300 @@
-2|26869|26870|26871|26872|26873|26874|26875|26991|26992|26993|26994|26995|26996|26997|26998|26999|27000|27001|27002|27003|27004|27005|27006|27007|27008|27009|27010|27011|27012|27013|27014|27015|27016|27017|27018|27019|27020|27021|27022|27023|27064|27065|27066|27067|27068|27069|27070|27071|27072|27073|27074|27075|27076|27077|27078
-4|44143|44144|44145|39142|44147|44148|35326|44150|39145|44152|44153|44154|44155|44156|44157|44158|44159|44160|44161|44162|44163|44164|44165|44166|44167
-126|119317|119318|119319|119320|119321|119322|119323|119324|119325|119326|119327|119328|119329|119330|119331|119332|119333|119334|119335|119336|119337|119338|119339|119340|119341|119342|119343
-1395|499524|499525|499526|499527|499528|499529|499530|499531|499532|499533|499534|499535|499536|499537|499538|499539|499540|515944
-68|31837|59416|61892|61893|61894|61895|61896|61897|61898|61899|61900|61901|61902|61903|61904|61905|61906|61907|61908|61909|61910|61911|61912|61913
-3|55139|55140|55141|55142|55143|55144|55145|55146|55147|55148|55149|55150|55151|55152|55153
-1299|495861|495862|495863|495864|495865|495866|495867|495868|495869|495870|495871|497719
-55|17329|53997|53998|20820|54000|54001|54002|54003|54004|54005|54006|54007|19564|54009|54010|54011|54012
-1|52792|52794|52785|52830|52800|52772|52769|52770|52771|52773|52774|52775|52776|52777|52778|52779|52780|52781|52782|52783|52784|52786|52787|52788|52789|52790|52793|52795|52796|52797|52798|52799
-110|103754|103755|103756|103757|103758|103759|103760|103761|103762|103763|103764|103765|103766|103767|103768|103769|103770|103771|103772|103773|103774|103775|103776|103777|103778|103779|103780|103781|103782|103783|103784|103785|103786|103787|103788|103789|103790|103791|103792|103793
-5|108883|108884|108885|108886|108887|108888|108889|108890|108891|108892|108893|108894
+T|Hässleholm
+A|2|26869|26870|26871|26872|26873|26874|26875|26991|26992|26993|26994|26995|26996|26997|26998|26999|27000|27001|27002|27003|27004|27005|27006|27007|27008|27009|27010|27011|27012|27013|27014|27015|27016|27017|27018|27019|27020|27021|27022|27023|27064|27065|27066|27067|27068|27069|27070|27071|27072|27073|27074|27075|27076|27077|27078
+A|4|44143|44144|44145|39142|44147|44148|35326|44150|39145|44152|44153|44154|44155|44156|44157|44158|44159|44160|44161|44162|44163|44164|44165|44166|44167
+A|126|119317|119318|119319|119320|119321|119322|119323|119324|119325|119326|119327|119328|119329|119330|119331|119332|119333|119334|119335|119336|119337|119338|119339|119340|119341|119342|119343
+A|1395|499524|499525|499526|499527|499528|499529|499530|499531|499532|499533|499534|499535|499536|499537|499538|499539|499540|515944
+A|68|31837|59416|61892|61893|61894|61895|61896|61897|61898|61899|61900|61901|61902|61903|61904|61905|61906|61907|61908|61909|61910|61911|61912|61913
+A|3|55139|55140|55141|55142|55143|55144|55145|55146|55147|55148|55149|55150|55151|55152|55153
+A|1299|495861|495862|495863|495864|495865|495866|495867|495868|495869|495870|495871|497719
+A|55|17329|53997|53998|20820|54000|54001|54002|54003|54004|54005|54006|54007|19564|54009|54010|54011|54012
+A|1|52792|52794|52785|52830|52800|52772|52769|52770|52771|52773|52774|52775|52776|52777|52778|52779|52780|52781|52782|52783|52784|52786|52787|52788|52789|52790|52793|52795|52796|52797|52798|52799
+A|110|103754|103755|103756|103757|103758|103759|103760|103761|103762|103763|103764|103765|103766|103767|103768|103769|103770|103771|103772|103773|103774|103775|103776|103777|103778|103779|103780|103781|103782|103783|103784|103785|103786|103787|103788|103789|103790|103791|103792|103793
+A|5|108883|108884|108885|108886|108887|108888|108889|108890|108891|108892|108893|108894
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|126|FOV|Folkets Väl
+B|1395|KRÖ|Kommunens Röst 
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1299|MedP|Medborgarpartiet
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|26869|59|K|Lena Wallentheim|Ombudsman Hässleholm
+C|26870|46|M|Joachim Fors|Industriarbetare Sösdala
+C|26871|59|K|Lena Nilsson|Hälsokonsult, Hässleholm
+C|26872|67|M|Christer Welinder|Pensionär Vinslöv
+C|26873|57|K|Irene Nilsson|Skötare, Hässleholm
+C|26874|35|M|Johan Lindman|Försäkringsrådgivare Hässleholm
+C|26875|55|K|Camilla Lindoff|Lärare Hässleholm
+C|26991|64|M|Benny Petersson|Pensionär Sösdala
+C|26992|63|K|Monica Ero|Administratör Tyringe
+C|26993|46|M|Andreas Dahlberg|Ombudsman Stoby
+C|26994|65|K|Connie Asterman|Pedagog Västra Torup
+C|26995|51|M|Ola Lindahl|Fabriksarbetare Sösdala
+C|26996|33|K|Anna Wallentheim|Lärare, Hässleholm
+C|26997|19|M|Omar Al-Ganas|Studerande Hässleholm
+C|26998|63|K|Ingrid Nyman|Ekonomiassistent Hästveda
+C|26999|33|M|Henrik Backlund|Systemutvecklare Hässleholm
+C|27000|57|K|Annelie Cederberg|Habiliteringsassistent, Hässleholm
+C|27001|64|M|Sven-Inge Persson|Verksamhetsassistent Hässleholm
+C|27002|71|K|Helena Malje|Fd.Lärare Vittsjö
+C|27003|44|M|Jonas Andersson|Industriarbetare Sösdala
+C|27004|34|K|Meta Jarl|Verksamhetsansvarig, Hässleholm
+C|27005|60|M|Anders Wallentheim|Skötare, Hässleholm
+C|27006|70|K|Marianne Nilsson|PRO Pensionär Vinslöv
+C|27007|74|M|Leif Nilsson|Pensionär Hässleholm
+C|27008|54|K|Marie Svensson|Lokalvårdare Bjärnum
+C|27009|49|M|Rickard Burman|Svetsare Vittsjö
+C|27010|44|K|Linda Ingvarsson|Medicinsk sekreterare, Hässleholm
+C|27011|69|M|Rolf Delcomyn|Egen företagare Hässleholm
+C|27012|64|K|Margareta Axelsson|Undersköterska Tormestorp
+C|27013|49|M|Jonny Holst|Kvalitets/Miljösamordnare, Hässleholm
+C|27014|52|K|Diana Hagman|Undersköterska Bjärnum
+C|27015|50|M|Andreas Visser|Metallarbetare Vittsjö
+C|27016|63|K|Ann Olausson|Verksamhetsansvarig ABF Hässleholm
+C|27017|62|M|Leif Nordin|Ombudsman, Hässleholm
+C|27018|54|K|Annette Badics|Skötare Tyringe
+C|27019|58|M|Elo Johannesen|Förrådsarbetare Sösdala
+C|27020|55|K|Margareta Rud|Fabriksarbetare Vankiva
+C|27021|72|M|Stig Hansson|Biodlare Hässleholm
+C|27022|72|K|Christina Hofvander|Pensionär Sösdala
+C|27023|65|M|Nils-Arne Petersson|Lågstadielärare Västra Torup
+C|27064|60|K|Lena N Andersson|Undersköterska Vinslöv
+C|27065|69|M|Greger Johnsson|Pensionär Finja
+C|27066|58|K|Pia Litbo|Montör Tyringe
+C|27067|67|M|Bo-Göran Larsson|Pensionär Bjärnum
+C|27068|68|K|Agneta Söderberg|Pensionär Stoby
+C|27069|52|M|Martin Pålsson|Maskinist Tyringe
+C|27070|48|K|Sara R Pettersson|Barnskötare Hässleholm
+C|27071|18|M|Jon Velin|Studerande Hästveda
+C|27072|19|K|Fatma Al-Ganas|Studerande Hässleholm
+C|27073|76|M|Lennart Westdahl|Pensionär Hässleholm
+C|27074|28|K|Sofia Svensson|Kock Bjärnum
+C|27075|42|M|Johnny Andersson|Industriarbetare Hässleholm
+C|27076|58|K|Åsa Borg|Pensionär Tormestorp
+C|27077|77|M|Per-Ingvar Önnevik|Driftingenjör Vittsjö
+C|27078|69|M|Bertil Olsson|Pensionär Tyringe
+C|44143|59|K|Lena Svensson|Tyringe, 59, Äldrepedagog
+C|44144|42|M|Johan Hammarqvist|Finja, 42, Kommunikationschef
+C|44145|37|M|Anders Edwall|Hässleholm, 37, Fastighetschef
+C|39142|52|K|Åsa Kull|52, Sjuksköterska, Hässleholm
+C|44147|50|M|Arne Persson|Hässleholm, 50, Företagare
+C|44148|66|K|Ann-Kristin Johnsson|Hässleholm, 66, Administratör
+C|35326|70|M|Lars-Ivar Ericson|Pensionär, 70, Tyringe
+C|44150|33|M|Emil Nilsson|Röke, 33, Redovisningskonsult
+C|39145|31|M|Gustaf Karlström|31, Skogstjänsteman, Bjärnum
+C|44152|60|M|Sven-Erik Andersson|Hässleholm, 60, Skolvaktmästare
+C|44153|72|M|Lars Olsson|Hässleholm, 72, Pensionär
+C|44154|47|K|Elisabet Ekwurtzel|Grantinge, 47, Verksamhetsledare
+C|44155|76|M|Agne Nilsson|Hästveda, 76, Pensionär
+C|44156|67|K|Eva Persson|Vinslöv, 67, Pensionär
+C|44157|69|M|Karl Axel Axelsson|Kolstrarp, 69, Lantmästare
+C|44158|70|K|Bodil Bramer|Tyringe, 70, Pensionär
+C|44159|36|M|Gustav Persson|Farstorp, 36, Lantbrukare
+C|44160|46|K|Anna Pålsson|Hässleholm, 46, Universitetadjunkt
+C|44161|72|M|Lars Johansson|Norra Sandby, 72, Pensionär
+C|44162|67|K|Barbro Fredholm|Öraholma, 67, Företagare
+C|44163|53|M|Tomas Nilsson-Glanby|Vinslöv, 53, Projektledare
+C|44164|50|K|Gisela Beckman|Norra Mellby, 50, Företagare
+C|44165|71|M|PO Bengtsson|Bjärnum, 71, Pensionär
+C|44166|36|M|Kristoffer Manno|Hässleholm, 36, IT-tekniker
+C|44167|21|M|Jens Pettersson|Farstorp, 21, Studerande
+C|119317|71|M|Björn Widmark|Vinslöv
+C|119318|38|M|Daniel Talmid|Sösdala
+C|119319|67|M|Ernst Herslow|Hästveda
+C|119320|64|M|Allan Ljungqvist|Hässleholm
+C|119321|33|M|Dan Karlsson|Hässleholm
+C|119322|33|K|Tina Talmid|Sösdala
+C|119323|68|K|Ulrika Widmark Barnekow|Vinslöv
+C|119324|69|M|Thom Nilsson|Brönnestad
+C|119325|67|K|Ann Jonsson|Finja
+C|119326|57|M|Mikael Björklund|Hässleholm
+C|119327|61|M|Per-Gunnar Andersson|Hässleholm
+C|119328|69|M|Assar Nilsson|Hörja
+C|119329|79|M|Ralf Stenroth|Bjärnum
+C|119330|60|M|Bertil Badics|Finja
+C|119331|65|K|Eva Fjordby|Vankiva
+C|119332|70|M|Lars Johnsson|Tormestorp
+C|119333|76|K|Eva Lundgren|Vinslöv
+C|119334|69|M|Mikael Kullberg|Hässleholm
+C|119335|76|M|Paul Nordström|Finja
+C|119336|75|K|Ewy Frohm|Ballingslöv
+C|119337|23|M|Lundrim Dreshaj|Hässleholm
+C|119338|54|M|Pär Svensson|Tyringe
+C|119339|76|K|Caisa Lundqvist|Vinslöv
+C|119340|47|M|Jonas Klein|Tyringe
+C|119341|86|K|Anna Jonsson|Bjärnum
+C|119342|61|M|Erling Kjellander|Vinslöv
+C|119343|50|M|Hebbe Härbst|Finja
+C|499524|41|M|Mathias Berglund|41 år, Företagare
+C|499525|46|K|Åsa Erlandsson|46 år, Distriktssköterska
+C|499526|44|M|Michael Strömberg|44 år, Lageransvarig
+C|499527|47|M|Ulf Erlandsson|47 år, Entreprenör
+C|499528|42|K|Görel Johansson|42 år, Socionom
+C|499529|49|M|Håkan Spångberg|49 år, Projektingenjör
+C|499530|75|K|Anita Johannesson|75 år, Skogsägare
+C|499531|25|M|Jacob Johansson|25 år, Stödassistent
+C|499532|41|M|Daniel Roslund|41 år, Safety & Security coordinator
+C|499533|39|M|Adam Ekholm|39 år, Företagsledare
+C|499534|32|K|Mona Ali|32 år, Affärsbiträde
+C|499535|38|M|Kayed Qasmiyeh|38 år, Företagsledare
+C|499536|51|M|Joakim Johannesson|51 år, Serviceingenjör
+C|499537|42|K|Stina Hedman|42 år, Undersköterska
+C|499538|21|M|Lukas Salmi|21 år, Studerande
+C|499539|47|M|Pär-Ola Eklund|47 år, Försäljningsingenjör
+C|499540|79|M|Evert Gustafsson|79 år, Företagare
+C|515944|73|K|Elin Bodil Sol-Britt Erlandsson|
+C|31837|75|M|Robin Gustavsson|75 år, fd Poliskommissarie, Hässleholm
+C|59416|68|M|Christer Caesar|68, Pensionär, Hässleholm
+C|61892|54|K|Gunnel Gustavsson|54 år, Lågstadielärare, Vittsjö
+C|61893|52|K|Maria Tennevi|52 år, Undersköterska, Sösdala
+C|61894|66|M|Stefan Svensson|66 år, fd Folkhögskolerektor, Hässleholm
+C|61895|46|K|Erika Heil-Utbult|46 år, Församlingspedagog, Tyringe
+C|61896|56|M|Roger Wirödal|56 år, Insatsledare, Hässleholm
+C|61897|67|K|Margaretha Lindquist|67 år, Pensionär, Hässleholm
+C|61898|41|M|Anders Hjärner|41 år, Företagare, Hässleholm
+C|61899|47|K|Ros-Marie Westmark|47 år, Sjuksköterska, Vittsjö
+C|61900|56|M|Samuel Ek|56 år, VD, Sösdala
+C|61901|58|M|Mikael Andersson|58 år, Företagare, Hässleholm
+C|61902|69|K|Gunnel Brännström|69 år, Diakon, Hästveda
+C|61903|71|M|Zidon Kristensson|71 år, Företagare, Bjärnum
+C|61904|53|M|Glenn Stolt|53 år, Bankman, Hässleholm
+C|61905|80|K|Berit Wirödal|80 år, fd Regionråd, Hässleholm
+C|61906|52|M|Daniel Cosma|52 år, Bilmekaniker, Hässleholm
+C|61907|47|M|Sigvard Gustavsson|47 år, Företagare, Vittsjö
+C|61908|65|M|Sam Larsson|65 år, Kyrkvaktmästare, Hässleholm
+C|61909|62|M|Lars-Göran Hjertqvist|62 år, Byggnadsingenjör, Hässleholm
+C|61910|51|M|Ingemar Westmark|51 år, Chaufför, Vittsjö
+C|61911|71|M|Ulf Brännström|71 år, Kyrkogårdsföreståndare, Hästveda
+C|61912|80|M|Kenneth Wirödal|80 år, fd Företagare, Hässleholm
+C|61913|72|M|Bengt-Arne Nilsson|72 år, Ingenjör, Bjärnum
+C|55139|58|K|Agneta Olsson Enochsson|Vankiva
+C|55140|56|M|John Bruun|Röinge
+C|55141|56|K|Marie Hult|Nävlinge
+C|55142|57|M|Mikael Koenen|Vankiva
+C|55143|65|M|Ingvar Bergman|Hässleholm
+C|55144|36|M|Tobias Vemmenby|Vittsjö
+C|55145|53|K|Marianne Littke|Ballingslöv
+C|55146|77|M|Sivert Aronsson|Vinslöv
+C|55147|74|K|Winnie Aronsson|Vinslöv
+C|55148|68|M|Hans J Werner|Tyringe
+C|55149|44|K|Sara Bruun|Hässleholm
+C|55150|51|M|Carl-Erik Littke|Ballingslöv
+C|55151|66|K|Linda Lindbeck|Bjärnum
+C|55152|60|M|Thomas Haraldsson|Vinslöv
+C|55153|63|M|Krister Aronsson|Hässleholm
+C|495861|79|M|Evert Storm|Hässleholm
+C|495862|72|M|Peter Alf|Hässleholm
+C|495863|65|K|Madeleine Rask|Hässleholm
+C|495864|57|M|Hans Rask|Hässleholm
+C|495865|55|K|Ulrika Bergström|Hässleholm
+C|495866|87|M|Sonje Björk|Tyringe
+C|495867|77|M|Ronny Larsson|Kvistalånga
+C|495868|70|M|Leif Sångberg|Vittsjö
+C|495869|68|M|Kjell-Gunnar Kristensson|Bjärnum
+C|495870|75|M|Kjell Mathiasson|Finja
+C|495871|71|K|Rosita Forsberg|Hässleholm
+C|497719|66|M|Glenn Eriksson|Ballingslöv
+C|17329|44|K|Dolores Öhman|Jurist och miljövetare, 44 år, Hässleholm
+C|53997|71|M|Hans-Göran Hansson|71 år, Teletekniker, Hässleholm
+C|53998|59|K|Solbritt Lindborg|59 år, Logistiker, Hässleholm
+C|20820|27|K|Arberesha Sabani|Lärare, 27 år, Hässleholm
+C|54000|69|K|Agnetha Karlsson|69 år, Pensionär, Ballingslöv
+C|54001|39|M|Håkon S Jansen|39 år, Lokförare, Tormestorp
+C|54002|34|M|Andreas Adersjö|34 år, Kvalitets- och miljökonsult, Hässleholm
+C|54003|39|K|Veronica Danielsson|39 år, Kock, Hässleholm
+C|54004|33|K|Desireé Larsson|33 år, Företagare, Hässleholm
+C|54005|71|M|Herbie Alsaad|71 år, Lärare, Hässleholm
+C|54006|49|K|Maria Larsson|49 år, Miljökonsult, Vinslöv
+C|54007|61|K|Anita Lennartsson|61 år, Socionom, Farstorp
+C|19564|29|K|Josefin Syri|Student, 29 år, Tyringe
+C|54009|52|M|Håkan Björk|52 år, Lots, Vittsjö
+C|54010|37|M|Martin Andersen|37 år, Elektriker, Vittsjö
+C|54011|61|K|Lou Adersjö|61 år, Arbetssökande, Hässleholm
+C|54012|45|K|Karin Enge|45 år, Lokalvårdare, Hässleholm
+C|52792|19|M|Erik Berg|19 år, egenföretagare, Hässleholm
+C|52794|20|M|Axel Heinonen|20 år, handläggare, Hässleholm
+C|52785|19|M|Axel Johnsson|19 år, studerande, Hästveda
+C|52830|24|K|Felicia Witte|24 år, egenföretagare, Hässleholm
+C|52800|28|M|Jon Bergner|28 år, specialistofficer, Hässleholm
+C|52772|22|M|Kenny Hansson|22 år, privatrådgivare, Hässleholm
+C|52769|54|M|Lars Johnsson|54 år, advokat, Hästveda
+C|52770|61|M|Stefan Larsson|61 år, förvaltningschef, Vittsjö
+C|52771|64|K|Karin Axelsson|63 år, socionom, Hässleholm
+C|52773|52|K|Kristina Lind|52 år, leg. arbetsterapeut, Tyringe
+C|52774|69|M|Douglas Roth|69 år, jur. kand., Hässleholm
+C|52775|68|M|Torsten Nilsson|68 år, lantbrukare, Norra Sandby
+C|52776|45|K|Lina Bengtsson|45 år, enhetschef, Farstorp
+C|52777|68|K|Margreth Segerstein|68 år, specialisttandläkare, Hässleholm
+C|52778|52|K|Tina Jensen|52 år, marknadsföring, Vinslöv
+C|52779|24|M|Andreas Novotny|24 år, studerande, Hässleholm
+C|52780|46|M|Joakim Karlsson|46 år, företagsledare, Tyringe
+C|52781|64|K|Karin Nilsson|64 år, pensionär, Vinslöv
+C|52782|36|M|Erik Åberg Linnér|36 år, anläggare, Hässleholm
+C|52783|70|M|Bengt Troedsson|70 år, entreprenör, Bjärnum
+C|52784|73|M|Göran Blomberg|73 år, meteorolog, Stoby
+C|52786|72|K|Maija-Liisa Grönn Mogensen|72 år, f.d. KV insp., Vankiva
+C|52787|45|M|Jörgen Nilsson|45 år, energitekniker, Bjärnum
+C|52788|53|M|Johan Berglund|53 år, leg. sjuksköterska, Tyringe
+C|52789|48|M|Urban Widmark|48 år, rektor, Hässleholm
+C|52790|36|K|Lynn Thulin|36 år, politisk sekreterare, Tyringe
+C|52793|46|K|Ann-Marie Hansson|46 år, personalchef, Hässleholm
+C|52795|58|M|Mats Erlingsson|58 år, chaufför, Röke
+C|52796|60|K|Márika Bernadt|60 år, tolk, Västra Torup
+C|52797|82|K|Viktoria Pehrsson|82 år, f.d. gymnasielärare, Hässleholm
+C|52798|75|M|Rolf Tronäss|75 år, pensionär, Sösdala
+C|52799|70|M|Anders Zachrisson|70 år, f.d. förvaltningschef, Sösdala
+C|103754|45|M|Patrik Jönsson|Regionråd, Hässleholm
+C|103755|32|K|Hanna Nilsson|32, Säljare, Vankiva
+C|103756|46|M|Ulf Berggren|47, Anläggningsarbetare, Tyringe
+C|103757|52|M|Sven Lundh|52, Lagermedarbetare, Hässleholm
+C|103758|34|M|Jerry Andersson|34, Säljare, Arkelstorp
+C|103759|39|M|Johan Kronquist|39, Säljare, Vankiva
+C|103760|80|M|Hans Bengtsson|80, Pensionär, Hästveda
+C|103761|40|K|Petra Johansson|40, Köksbiträde
+C|103762|26|K|Camilla Nordström|Undersköterska, 27 år
+C|103763|44|K|Johanna Hörgerud|44, Specialistundersköterska, Tyringe
+C|103764|56|K|Susanne Lottsfeldt|56, Egenföretagare, Sösdala
+C|103765|74|M|Lars Klees|73, Pensionär, Vinslöv
+C|103766|56|M|Jonny Dolkov|56, Vaktmästare, Bjärnum
+C|103767|41|K|Maria Jönsson|41, Trafikledare, Röke
+C|103768|72|K|Gunnel Bruhn|72, Pensionär, Vankiva
+C|103769|64|M|Jan Ringdahl|64, Pensionär, Hässleholm
+C|103770|53|K|Marie Carlson|53, Undersköterska, Hässleholm
+C|103771|53|K|Karina Olsson|53, Vårdbiträde, Bjärnum
+C|103772|32|K|Hanna Sjöstrand|32, Egenföretagare, Stoby
+C|103773|50|M|Mats Andersson|50, Ekonom, Bjärnum
+C|103774|43|M|Mattias Jönsson|43, Sågverksarbetare, Röke
+C|103775|50|M|Sverre Albinsson|50, Anläggningsmaskinförare, Vittsjö
+C|103776|34|M|Ken Andersson Breisch|Arbetssökande, 34 år
+C|103777|21|K|Felicia Delsmark|21, Säljare, Vittsjö
+C|103778|52|M|Paul Thurn|Egen företagare, 53 år
+C|103779|58|M|Lars Widigsson|59, Ingenjör, Sösdala
+C|103780|47|K|Malin Fransson|47, Pensionerad lärare, Ballingslöv
+C|103781|61|M|Lennart Lindell|61, Inköpare, Hässleholm
+C|103782|33|M|Carl-Johan Strand|33, Påbyggare, Tyringe
+C|103783|64|M|Lennart Nilsson|64, Saneringsarbetare, Farstorp
+C|103784|48|K|Ann Christiansen|48, Kontorist, Vinslöv
+C|103785|33|M|Patrik Persson|33, Egenföretagare, Hässleholm
+C|103786|68|M|Bo Göran Svensson|68, Musikant, Hörja
+C|103787|51|M|Henrik Christiansen|51, Lastbilschaufför, Vinslöv
+C|103788|44|K|Linda Granqvist|43, Undersköterska, Hässleholm
+C|103789|67|M|Thomas Björklund|68, Pensionär, Hässleholm
+C|103790|65|M|Yngve Jacobi|65, Pensionär, Mala
+C|103791|65|M|Kjell-Åke Lundin|65, Skötare, Hässleholm
+C|103792|57|M|Mats Ekvall|57, Reparatör, Nävlinge
+C|103793|81|M|Selwyn Gester|81, pensionär, Vittsjö
+C|108883|52|M|Magnus Åkeborn|skådespelare, Hässleholm
+C|108884|69|M|Per-Åke Purk|Hässleholm
+C|108885|73|K|Anita Peterson|pensionär, Hässleholm
+C|108886|38|M|Pierre Bäckman|konstnär, Sösdala
+C|108887|61|M|Kenneth Englund|grafisk formgivare, Hässleholm
+C|108888|63|K|Bertra Kullberg|undersköterska, Sösdala
+C|108889|49|K|Katarina Olsson|Hässleholm
+C|108890|45|M|Rickard Sjögaardh|handelsanställd, Hässleholm
+C|108891|27|K|Josefin Bäckman|Häglinge
+C|108892|55|K|Annika Sandberg|miljöinspektör, Hässleholm
+C|108893|46|K|Mariette Johansson|Hässleholm
+C|108894|60|K|Laila Smith|gymnasielärare, Sösdala

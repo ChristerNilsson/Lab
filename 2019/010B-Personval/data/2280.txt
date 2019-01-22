@@ -1,10 +1,241 @@
-2|92166|92167|92168|92169|67817|92171|92172|92173|92174|92175|92176|92177|92178|92179|92180|92181|92182|92183|92184|92185|67799|92187|92188|67804|92190|92191|92192|67820|67813|92196|92195|92198|92197|92200|92199|92202|92201|92204|92203|92206|92205|92208|92207|92210|92209
-4|51221|94582|94583|51229|94585|94586|94587|94588|51241|94590|94591|94592|94593|94594|94595|94596|231770|94597|94598|94599|94600|94601|94602|94603|94604|51239|94606|94607|94608|51208
-532|113155|113156|113157|113158|113159|113160|113161|113162|113163|113164
-68|20906|21081|20920|21083|20926|21085|21086|21087|20916|21089|21090|20923|21092
-1011|515398
-3|277221|277224|277241|277590|277248|277592|277253|277230|277595|277596|277597|277313|277256|277600|277601|277602|277603|277258|277605|277606|277607
-55|134819|134820|134821|134822|134823|134824|134825|134826|134827|134828|134829|134830|134831|134832|134833|134834|134835|134836|134837|134838|134839|134840|134841|134842|134843|134844|134845|134846|134847|134848|134849|134850|134851|134852
-1|240707|268912|268913|268914|240711|268916|268917|268918|268919|268920|268921|268922|240719|268924|268925|268926|268927|268928|268929|268930|268931|268932|268933|268934|268935|268936|268937|268938|268939|268940
-110|360134|360127|360095|360119|389655|360107|360133|360122|360130|360144|360692|360112
-5|164364|164365|164366|164367|164368|164369|164370|164371|164372|164373|164374|164375|164377|164378|164379|164380|164381|164382|164383|164384|164385|164386|164387|164388|164389|164390
+T|Härnösand
+A|2|92166|92167|92168|92169|67817|92171|92172|92173|92174|92175|92176|92177|92178|92179|92180|92181|92182|92183|92184|92185|67799|92187|92188|67804|92190|92191|92192|67820|67813|92196|92195|92198|92197|92200|92199|92202|92201|92204|92203|92206|92205|92208|92207|92210|92209
+A|4|51221|94582|94583|51229|94585|94586|94587|94588|51241|94590|94591|94592|94593|94594|94595|94596|231770|94597|94598|94599|94600|94601|94602|94603|94604|51239|94606|94607|94608|51208
+A|532|113155|113156|113157|113158|113159|113160|113161|113162|113163|113164
+A|68|20906|21081|20920|21083|20926|21085|21086|21087|20916|21089|21090|20923|21092
+A|1011|515398
+A|3|277221|277224|277241|277590|277248|277592|277253|277230|277595|277596|277597|277313|277256|277600|277601|277602|277603|277258|277605|277606|277607
+A|55|134819|134820|134821|134822|134823|134824|134825|134826|134827|134828|134829|134830|134831|134832|134833|134834|134835|134836|134837|134838|134839|134840|134841|134842|134843|134844|134845|134846|134847|134848|134849|134850|134851|134852
+A|1|240707|268912|268913|268914|240711|268916|268917|268918|268919|268920|268921|268922|240719|268924|268925|268926|268927|268928|268929|268930|268931|268932|268933|268934|268935|268936|268937|268938|268939|268940
+A|110|360134|360127|360095|389655|360107|360122|360130|360144|360692|360112
+A|5|164364|164365|164366|164367|164368|164369|164370|164371|164372|164373|164374|164375|164377|164378|164379|164380|164381|164382|164383|164384|164385|164386|164387|164388|164389|164390
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|92166|37|M|Andreas Sjölander|37 år, Härnösand
+C|92167|63|K|Ann-Charlotte Visén|63 år, Säbrå
+C|92168|56|M|Magnus Oskarsson|56 år, Härnösand
+C|92169|39|K|Nina Skyttberg|39 år, Härnösand
+C|67817|47|M|Krister F Mc Carthy|47 år, Viksjö
+C|92171|60|K|Monica Fahlén|60 år, Härnösand
+C|92172|50|M|Håkan Viklund|50 år, Härnösand
+C|92173|18|K|Ebba Hansson|18 år, Härnösand
+C|92174|72|M|Göran Norlander|72 år, Häggdånger
+C|92175|55|K|Anne-Cathrine Genberg|55 år, Utansjö
+C|92176|67|M|Björn Nordling|67 år, Viksjö
+C|92177|55|K|Katrin Sjödin|55 år, Ramvik
+C|92178|46|M|Johan Nilsson|46 år, Älandsbro
+C|92179|57|K|Susanne Forsberg|57 år, Viksjö
+C|92180|67|M|Lennart Mohlin|67 år, Härnösand
+C|92181|35|K|Marie-Charlotte Vidmark|35 år, Härnösand
+C|92182|51|M|Jasenko Omanovic|51 år, Härnösand
+C|92183|68|K|Agneta Jonsson|68 år, Älandsbro
+C|92184|32|M|Basel Aljamal|32 år, Härnösand
+C|92185|64|K|Eva Larsson|64 år, Härnösand
+C|67799|67|M|Mats Höglund|67 år, Härnösand
+C|92187|48|K|Mona Sundin|48 år, Häggdånger
+C|92188|76|M|Rune Danielsson|76 år, Härnösand
+C|67804|63|K|Monica Fällström|63 år, Härnösand
+C|92190|34|M|Fredrik Olsson|34 år, Älandsbro
+C|92191|59|K|Christina Gärdin|59 år, Nyland
+C|92192|66|M|Roland Strömqvist|66 år, Byåker
+C|67820|62|K|Ann-Kristine Elfvendal|62 år, Härnösand
+C|67813|64|M|Tomas Sundqvist|64 år, Härnösand
+C|92196|44|K|Malin Lövkvist|44 år, Härnösand
+C|92195|69|M|Lars Zetterlund|69 år, Härnösand
+C|92198|68|K|May Andersson|68 år, Härnösand
+C|92197|70|M|Anders Bergman|70 år, Härnösand
+C|92200|52|K|Ann-Catrin Sköld|52 år, Härnösand
+C|92199|48|M|Fredrik Lundgren|48 år, Älandsbro
+C|92202|66|K|Berit Jonsson|66 år, Älandsbro
+C|92201|52|M|Richard Kouaho|52 år, Härnösand
+C|92204|65|K|Eva Melander|65 år, Älandsbro
+C|92203|71|M|Sven Erik Landgren|71 år, Härnösand
+C|92206|80|K|Birgit Eldrot|80 år, Härnösand
+C|92205|75|M|Raymond Rinnan|75år, Härnösand
+C|92208|41|K|Junia Eriksson|41 år, Härnösand
+C|92207|61|M|Lars Vikberg|61 år, Härnösand
+C|92210|62|K|Anita Adolfsson|62 år, Härnösand
+C|92209|44|M|Krister Eriksson|44 år, Härnösand
+C|51221|57|K|Christina Lindberg|utredare, 57 år, Härnösand
+C|94582|55|M|Erik Hultin|vd, 55 år, Gådeåberget
+C|94583|63|M|Per-Eric Norberg|civilingenjör, 63 år, Älandsbro
+C|51229|53|K|Annette Nordin|skog- och lantbrukare, 53 år, Härnösand
+C|94585|19|M|Karl Rönnkvist|studerande, 19 år, Stigsjö
+C|94586|49|M|Sonny Andersson|jordbrukare, 48 år, Högsjö
+C|94587|28|K|Dunia Ali|personlig assistent, 28 år, Mellanholmen
+C|94588|50|K|Lillemor Andersson|kundansvarig, 50 år, Älandsbro
+C|51241|53|K|Ulrika Sundgren|civilingenjör, 53 år, Härnösand
+C|94590|29|M|Noah Juma Gul|integrationspedagog, 29 år, Granudden
+C|94591|48|K|Maria Norberg|spec undersköterska demens, 48 år, Högsjö
+C|94592|46|K|Lena Fassali|programansvarig, 46 år, Centrum
+C|94593|60|M|Alphonse Amoda|ekonom, 60 år, Härnösand
+C|94594|72|M|Sven Westerlund|jord-och skogsbrukare, 72 år, Häggdånger
+C|94595|47|K|Margareta Björner|försäkringssäljare, 47 år, Häggdånger
+C|94596|57|M|Jared Munter Wruor|sjuksköterska, 57 år, Murberget
+C|231770|54|K|Catharina Rosén|psykolog, 54 år, Brännan
+C|94597|70|M|Curt Johansson|fd.företagare, 70 år, Häggdånger
+C|94598|56|K|Carina Almgren|sjukpensionär, 56 år, Brännan
+C|94599|56|M|Fredrik Lundvall|vd, 56 år, Rotudden
+C|94600|57|K|Maja Carlgren|KBT-terapeut, 57 år, Hemsön
+C|94601|49|K|Birgitta Rönnkvist|lärare, 49 år, Stigsjö
+C|94602|57|M|Jan Gilliusson|teletekniker, 57 år, Högsjö
+C|94603|58|K|Eva Ekman|företagare, 58 år, Älandsbro
+C|94604|74|M|Carlos Gandâra|fd.arkitekt, 74 år, Brännan
+C|51239|50|M|Ola Svanqvist|tjänsteman, 50 år, Härnösand
+C|94606|47|M|Mathias Rönnkvist|tjänsteman, 47 år, Stigsjö
+C|94607|79|M|Staffan Nyström|fd. lektor, 79 år, Rotudden
+C|94608|66|K|Åsa Svanholm|fd. biblioteksassistent, 66 år, Älandsbro
+C|51208|47|M|Jonny Lundin|företagare, 47 år, Härnösand
+C|113155|45|K|Isedora Skogström|45, Egenföretagare, Solumshamn
+C|113156|39|K|Sara Marianne Lindberg|39, Biträdande skolledare, Härnösand
+C|113157|34|M|David Gürlet Häggström|35, Egenföretagare, Härnösand
+C|113158|43|K|Jessica Ögren|43, Informatör, Härnösand
+C|113159|41|K|Sara Selmros|41, Projektledare, Älandsbro
+C|113160|65|K|Birgitta Furudahl Rasmusson|
+C|113161|36|M|Daniel Myrén|36, Lärare, Härnösand
+C|113162|34|K|Helena Elfvendal|34, Kommunikationsansvarig, Härnösand
+C|113163|69|M|Gunne Furudahl|69, Pensionär, Häggdånger
+C|113164|57|K|Mona Bentsen|57, Personalkonsulent, Härnösand
+C|20906|69|M|Ingemar Wiklander|Härnösand
+C|21081|31|K|Mai Nahas|Härnösand
+C|20920|55|M|Anders Nordström|Älandsbro
+C|21083|33|K|Chantal Binua|Härnösand
+C|20926|32|M|Robert Barkéus|Härnösand
+C|21085|59|K|Lilian Krantz|Byn
+C|21086|68|K|Ulla Bylund|Starred
+C|21087|22|M|Gottfrid Krantz|Byn
+C|20916|68|K|Solveig Hamrin|Härnösand
+C|21089|74|M|Tryggve Nandorf|Härnösand
+C|21090|67|K|Birgitta Wiklander|Östanvik
+C|20923|60|M|Lars-Åke Krantz|Härnösand
+C|21092|71|K|Maud Nandorf|Härnösand
+C|515398|55|M|Nils Gunnar Michael Östman|
+C|277221|49|K|Eva Olstedt-Lundgren|Civilekonom, 50 år, Härnösand
+C|277224|39|M|Olle Löfgren|Lärare, 39 år, Härnösand
+C|277241|42|K|RosMarie Sandin|Arbetsterapeut, 42 år, Härnösand
+C|277590|33|M|Mathias Johansson|Företagare, 34 år, Härnösand
+C|277248|47|K|Camilla Nilsson|Egenföretagare/begravningsassistent, 47 år, Härnösand
+C|277592|53|M|Per Häggström|Personalchef, 53 år, Härnösand
+C|277253|35|M|Tomas Pålsson|Säljare, 35 år, Härnösand
+C|277230|37|K|Sarah Karlsson|Barnsjuksköterska, 37 år, Härnösand
+C|277595|61|M|Anders Nylander|Skogstekniker/fastighetsmäklare, 62 år, Härnösand
+C|277596|74|K|Anita Holmström|Lärare, 74 år, Härnösand
+C|277597|75|M|Mårten Holmström|Civilingenjör, 75 år, Härnösand
+C|277313|51|M|Mikael Schéele|Riskingenjör, 51 år, Härnösand
+C|277256|54|K|Ingrid Hedström|Personlig assistent, 54 år, Härnösand
+C|277600|66|M|Lars-Åke Falck|Tandläkare, 66 år, Härnösand
+C|277601|47|M|Olov Asplund|Ämneslärare högstadiet, 46 år, Härnösand
+C|277602|77|M|Lennart Jonsson|Rektor, 77 år, Älandsbro
+C|277603|64|M|Bengt Jansson|Lärare, 64 år, Härnösand
+C|277258|50|M|Jonas Lundgren|Konflikthanterare, 50 år, Härnösand
+C|277605|71|M|Lars Sjödin|Advokat, 71 år, Aspnäs
+C|277606|85|M|Per Hägglund|Socionom, 85 år, Härnösand
+C|277607|72|M|Sven-Åke Vest|Civilingenjör, 72 år, Härnösand
+C|134819|34|K|Knapp Britta Thyr|34, teckenspråkstolk, Härnösand
+C|134820|37|M|Göran Hådén|37, miljöskribent, Härnösand
+C|134821|40|K|Hibo Abdullahi|40, integrationspedagog, Härnösand
+C|134822|51|M|Per Sander|51, jägmästare, Härnösand
+C|134823|22|K|Saeida Noori|22, studerande, Härnösand
+C|134824|58|K|Myriam Estrella-Näslund|58, barnmorska, Härnösand
+C|134825|67|M|Göran Umefjord|67, läkare
+C|134826|38|K|Amanda Lind|38, partisekreterare, Härnösand
+C|134827|28|M|Mohamed Abdulwahab|28, undersköterska
+C|134828|29|K|Mikaela Edholm|29, IKT-pedagog
+C|134829|62|M|Lars Landström|62, journalist
+C|134830|68|K|Kersti Löfgren Östensson|68, pensionerad veterinär, Härnösand
+C|134831|49|M|Joakim Byström|49, solenergientreprenör, Härnösand
+C|134832|32|K|Anna Burenius|32, läkare
+C|134833|60|M|Måns Palmstierna|60, överläkare
+C|134834|60|K|Katarina Schiebe|60, rehabsamordnare
+C|134835|46|K|Ghaidaa Shihab|46, veterinär
+C|134836|62|M|Joakim Drejare|62, integrationspedagog
+C|134837|25|K|Claire Keza|25, integrationspedagog
+C|134838|26|M|Carsten Brosjö|26, ämneslärare
+C|134839|40|K|Christine Sprinzl|40, controller
+C|134840|56|M|Erik Norberg|56, drifttekniker
+C|134841|31|K|Ruth Lusevikueno|31, studerande
+C|134842|32|M|Benny Magnusson|32, lärare, Ramvik
+C|134843|29|K|Juliette Eshragi|29, datatekniker
+C|134844|37|M|Abdel Ben Salem|37, samhällskommunikatör
+C|134845|40|K|Carina Silva|40, kock
+C|134846|40|K|Rebecka Bjurhall|40, miljömålssamordnare
+C|134847|73|M|Jeff Forssell|73, alt hälsoentreprenör
+C|134848|26|K|Linn Olauson|26, aktivist
+C|134849|77|M|Rune Wikström|77 pensionerad lektor
+C|134850|39|K|Karin Frejarö|39, kommunalråd, Härnösand
+C|134851|43|M|Tomas Frejarö|43, bastuvärd, Härnösand
+C|134852|71|K|Eva Goës|71, fd språkrör
+C|240707|61|M|Anders Gäfvert|61 år, Kommunalråd, Härnösand
+C|268912|22|K|Ida Skogström|22 år, Arbetsledare, Härnösand
+C|268913|74|M|Lennart Bolander|74 år, Företagsekonom, Härnösand
+C|268914|70|K|Margareta Tjärnlund|70 år, Leg. sjukgymnast, Hemsön
+C|240711|34|M|Kristoffer Bodin|34 år, Revisor, Härnösand
+C|268916|48|K|Eva-Clara Viklund|48 år, Kontor/ekonomi, Härnösand
+C|268917|58|M|Christian Wasell|58 år, Affärsområdeschef, Härnösand
+C|268918|42|K|Linda Borg|42 år, Socionom, Älandsbro
+C|268919|73|M|Bengt Wallgren|73 år, Civilingenjör, Härnösand
+C|268920|42|K|Malin Plantin Sjöblom|42 år, Leg. sjuksköterska, Stigsjö
+C|268921|69|M|Ingemar Ljunggren|69 år, Fd. transportledare, Härnösand
+C|268922|72|M|Gunnar Westman|72 år, Fd. överstelöjtnant, Härnösand
+C|240719|45|K|Tina Sellgren|45 år, Kundrelationshandläggare, Härnösand
+C|268924|48|K|Anna Davis|48 år, Beteendevetare, Härnösand
+C|268925|69|M|Leif Jonsson|69 år, Driftledare kollektivtrafik, Härnösand
+C|268926|61|M|Ronny Larsson|61 år, Kökschef, Härnösand
+C|268927|57|M|Stefan Backlund|57 år, Arbetsförmedlare, Härnösand
+C|268928|51|M|Richard Viklund|51 år, Mekaniker, Härnösand
+C|268929|74|M|Karl Einar Björner|74 år, Fd. banktjänsteman, Häggdånger
+C|268930|59|M|Bill Lindgren|59 år, Försäkringstjänsteman, Älandsbro
+C|268931|77|M|Rolf Larsson|77 år, Pensionär, Härnösand
+C|268932|76|M|Önne Norberg|76 år, Entreprenör, Stigsjö
+C|268933|61|M|Lennart Böhlin|61 år, Civilingenjör, Härnösand
+C|268934|72|M|Roland Stenberg|72 år, Köpman, Härnösand
+C|268935|19|M|Albin Löfroth|19 år, Student, Älandsbro
+C|268936|28|M|Mikael Bäckman|28 år, Projektledare IT, Härnösand
+C|268937|49|M|Rasoul Zarar Ibrahim|49 år, Företagare, Härnösand
+C|268938|40|M|Fredrik Bäckman|40 år, Handläggare, Härnösand
+C|268939|78|K|Birgitta Bolander Lundström|78 år, Leg. sjukgymnast, Härnösand
+C|268940|57|K|Karin Andersson|57 år, Lärare, Härnösand
+C|360134|74|M|Bert Skoglund|74, Härnösand
+C|360127|63|M|Kenneth Lunneborg|62, Härnösand
+C|360095|72|M|Sven-Ingemar Vernersson|Fd polis, Härnösand
+C|389655|65|M|Lennart Bergström|Företagare, Härnösand
+C|360107|39|K|Ulrika Jonsson|38, Härnösand
+C|360122|64|M|Kent Steiner|64, Härnösand
+C|360130|56|K|Anette Åström|55, Härnösand
+C|360144|65|M|Bo Gunnar Gidmark|64, Härnösand
+C|360692|59|M|Glenn Sehlin|59, Driftstekniker
+C|360112|73|M|Göran Bergman|73, Härnösand
+C|164364|54|K|Ingrid Nilsson|verksamhetschef, Härnösand
+C|164365|41|M|Martin Neldén|41 år, beredskapshandläggare, Härnösand
+C|164366|33|K|Malin Lindroth|33 år, arbetsmarknadskonsulent, Härnösand
+C|164367|64|M|Åke Hamrin|64 år, Pensionär
+C|164368|68|K|Birgitta Alevård|68 år, Socionom, leg psykoterapeut
+C|164369|53|M|Anders Bergqvist|53 år, arbetsledare, Älandsbro
+C|164370|47|K|Christina Höj Larsen|utredare, riksdagsledamot, Härnösand
+C|164371|62|M|Michael Möller Christensen|62 år, Musiker
+C|164372|33|K|Helena Grönhagen|33 år, Integrationspedagog
+C|164373|49|M|Carl-Fredrik Edgren|49 år, Ekonom
+C|164374|71|K|Marita Björling|71 år, egen företagare, Stigsjö
+C|164375|49|M|Urban Bolander|49 år, Diversearbetare
+C|164377|54|M|Jakob Hedin|54 år, Singer/songwriter
+C|164378|34|K|Christine Stålberg|33 år, Socialsekreterare
+C|164379|26|M|Kenan Alfawal|26 år, Studerande
+C|164380|30|K|Sara Hultgren Näs|30 år, Integrationspedagog
+C|164381|72|M|Olof Burlin|72 år, Dataprogrammerare
+C|164382|74|K|Jonna Grimstoft|74 år, Pensionär, Överlevare, Konstnär
+C|164383|73|M|Jonas Lundqvist|73 år, Konstnär
+C|164384|69|K|Vibeke Marsling|69 år, Pensionär, fd psykolog
+C|164385|67|M|Keith Bryant|67 år, Egenföretagare
+C|164386|63|K|Janet Harling|63 år, Egenföretagare
+C|164387|75|M|Gustaf Kull|75 år, Fattigpensionär
+C|164388|35|K|Ida-Maria Hallstensson|35 år, Pedagog
+C|164389|72|K|Karin Lundqvist|71 år, Pensionär
+C|164390|80|M|Karl-Einar Borg|80 år, Pensionär

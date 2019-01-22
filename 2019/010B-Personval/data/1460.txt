@@ -1,8 +1,137 @@
-2|40384|40385|40386|40387|40388|33236|40390|40391|40392|40393|40394|40395|40396|40397|40398|40399|40400|40401|40402|40403|40404|40405|40406|40407|40408|40409|40410|40411|40412|40413|40414|40415
-4|1877|1869|5563|5564|5565|5566|5567|5568|5569|5570|5571|5572|5573|5574|5575|5576|5577|5578|5580|5581|5582|5583|5584|5585|5586|5587|5588|5589|5590|1901
-68|249184|248799|252513|252514|252515|252516
-3|211630|211631|211632|211633|211634|211635|211636|211637|211638|211639
-55|243404|516033
-1|258430|254209|258432|258433|258434|258435|258436|258437|258438|258439|258440|258441|258442|254217|258444|258445|258446|258447|258448|258449
-110|66507|66508|66509|66510|184155|66511|66512|66513|66514|66515|66517
-5|314404|234439|314406|314407|234434|314409|314410|314411|314412
+T|Bengtsfors
+A|2|40384|40385|40386|40387|40388|33236|40390|40391|40392|40393|40394|40395|40396|40397|40398|40399|40400|40401|40402|40403|40404|40405|40406|40407|40408|40409|40410|40411|40412|40413|40414|40415
+A|4|1877|1869|5563|5564|5565|5566|5567|5568|5569|5570|5571|5572|5573|5574|5575|5576|5577|5578|5580|5581|5582|5583|5584|5585|5586|5587|5588|5589|5590|1901
+A|68|249184|248799|252513|252514|252515|252516
+A|3|211630|211631|211632|211633|211634|211635|211636|211637|211638|211639
+A|55|243404|516033
+A|1|258430|254209|258432|258433|258434|258435|258436|258437|258438|258439|258440|258441|258442|254217|258444|258445|258446|258447|258448|258449
+A|110|66507|66508|66509|66510|184155|66511|66512|66513|66514|66515|66517
+A|5|314404|234439|314406|314407|234434|314409|314410|314411|314412
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|40384|49|M|Per Eriksson|Kommunalråd, 49 år, Bengtsfors
+C|40385|65|K|Christina Lundqvist|Pensionär, 65 år, Bengtsfors
+C|40386|34|M|Besnik Dautaj|Bengtsfors
+C|40387|47|K|Susanne Öhrn|PKC-operatör, 46 år, Bengtsfors
+C|40388|41|M|Kenneth Juhl|Billingsfors
+C|33236|29|K|Jenny Nieminen|Dals Långed
+C|40390|47|M|Christer Jakobsson|Gustavsfors
+C|40391|72|K|Lena Grönlund|Dals Långed
+C|40392|50|M|Johnny Eliasson|Bengtsfors
+C|40393|69|K|Torill Stjerndahl|Bengtsfors
+C|40394|44|M|Daniel Karlsson|Dals Långed
+C|40395|69|K|Solveig Nettelbo|Billingsfors
+C|40396|44|M|Mats Kruse|Bengtsfors
+C|40397|37|K|Marie Andersson|Dals Långed
+C|40398|67|M|Lennart Karlsson|Dals Långed
+C|40399|37|K|Sofia Thorn|Bengtsfors
+C|40400|27|M|Martin Lundqvist|Dals Långed
+C|40401|73|K|Carola Qvist|Bäckefors
+C|40402|53|M|Frank Hagman|Bengtsfors
+C|40403|54|K|Ivanka Uvalic|Bengtsfors
+C|40404|55|M|Lennart Jonasson|Ödskölt
+C|40405|43|K|Helena Weiland|Billingsfors
+C|40406|71|M|Göran Andréasson|Bengtsfors
+C|40407|44|K|Viktoria Gradin|Bengtsfors
+C|40408|76|M|Bo Thorn|Bengtsfors
+C|40409|46|K|Bim Lyrstrand|Billingsfors
+C|40410|76|M|Sten-Åke Jansson|Bengtsfors
+C|40411|62|K|Monica Gunnarsson|Skåpafors
+C|40412|60|M|Royne Karlsson|Gustavsfors
+C|40413|57|K|Gunilla Nolsten|Skåpafors
+C|40414|75|M|Karl-Erik Ågren|Dals Långed
+C|40415|72|K|Britt-Marie Almqvist|Bengtsfors
+C|1877|62|M|Per Jonsson|agronom, 62 år, Bengtsfors
+C|1869|56|K|Marie-Therese Harfouche|assistent, 56 år, Bengtsfors
+C|5563|72|M|Kåre Karlsson|Bäckefors
+C|5564|45|M|Erik Sandberg|Ärtemark
+C|5565|63|K|Marianne Ågren|Dingelvik
+C|5566|66|M|Jimmy Bjerkansmo|Ödskölt
+C|5567|43|K|Linda Höder Stenegren|Skåpafors
+C|5568|68|M|Kjell-Åke Andersson|Ärtemark
+C|5569|65|K|Ylva Jonsson|Torrskog
+C|5570|43|M|Jim Jakobsson|Ödskölt
+C|5571|75|M|Leif Johansson|Ödskölt
+C|5572|36|K|Matilda Olsson|Ärtemark
+C|5573|71|M|Donald Andersson|Ärtemark
+C|5574|55|K|Maria Lindqvist|Laxarby
+C|5575|67|M|Stefan Eliasson|Torrskog
+C|5576|66|K|Ewa Ljungberg|Ärtemark
+C|5577|79|K|Ann-Britt Danielsson|Bengtsfors
+C|5578|39|M|Markus Fredriksson|Ärtemark
+C|5580|65|M|Lennart Johansson|Ödskölt
+C|5581|75|M|Lars Larsson|Bäckefors
+C|5582|69|M|Lennart Eriksson|Bengtsfors
+C|5583|60|K|Irene Ottosson|Laxarby
+C|5584|65|M|Östen Karlsson|Steneby
+C|5585|66|M|Kenth-Eric Gustavsson|Ärtemark
+C|5586|41|M|Mattias Ågren|Steneby
+C|5587|58|K|Gunnel Svensson|Steneby
+C|5588|37|M|Mohammed Amin Othman|Bengtsfors
+C|5589|56|M|Anders Lennartsson|Tisselskog
+C|5590|68|M|Lars-Erik Olsson|Steneby
+C|1901|63|M|Jerker Johansson|lastbilskörande bonde, 63 år, Bengtsfors
+C|249184|77|M|Jan-Åke Jansson|Pensionär, Bengtsfors
+C|248799|72|K|Anna-Greta Strömberg|Ekonom, Bengtsfors
+C|252513|63|K|Lisbeth Wilsson|Undersköterska, Steneby
+C|252514|58|M|Göran Pettersson|Fabriksarbetare, Laxarby
+C|252515|69|M|Hans-Gunnar Lindström|Ekonom, Dals Långed
+C|252516|81|M|Stig Andersson|F.d. polis, Steneby
+C|211630|27|M|Adam Clason|Avdelningschef, Bäckefors
+C|211631|64|M|Jan Leander|Skogsbrukare, Laxarby
+C|211632|69|M|Carl Kullgren|69, psykolog, Bengtsfors
+C|211633|48|K|Linda Ericsson|Lärare, Bengtsfors
+C|211634|28|M|Mårten Lönn|Banktjänsteman, Bengtsfors
+C|211635|44|M|Joseph Hitti|Lärare, Bengtsfors
+C|211636|76|M|Bengt Jonsson|Lärare, Ärtemark
+C|211637|74|K|Margareta Olsson|Bengtsfors
+C|211638|76|M|Mats Martinsson|Billingsfors
+C|211639|73|M|Jan-Owe Olsson|Bengtsfors
+C|243404|72|M|Bernt Petzäll|Bengtsfors
+C|516033|50|K|Terése Karlsson|
+C|258430|68|M|Stig Bertilsson|Redaktör/Företagare, Bengtsfors
+C|254209|50|M|Krister Stensson|50, Beteendevetare, Bengtsfors
+C|258432|73|K|Yvonne Rudebou|Sjuksköterska/Pensionär, Gustavsfors
+C|258433|67|M|Gert Andersson|Företagare/Elektriker, Skåpafors
+C|258434|49|M|Anders Forsberg|Verksamhetsledare, Bengtsfors
+C|258435|53|K|Anna Johansson|Företagare, Ärtemark
+C|258436|39|M|Pontus Gyllenberg|Företagsledare, Ärtemark
+C|258437|40|M|Jesper Johansson|Lantbrukare, Laxarby
+C|258438|70|M|Ulf Nelson|Företagare, Bengtsfors
+C|258439|47|K|Marielle Johansson|Grundskolelärare, Laxarby
+C|258440|41|M|Owe Gustafsson|Ingenjör, Ärtemark
+C|258441|26|M|Patrik Forsberg|Drifttekniker, Dals-Långed
+C|258442|64|M|Kjell Johansson|Bonde/Entreprenör, Steneby
+C|254217|70|M|Mats Johansson|70, Pensionär, Ödskölt
+C|258444|23|M|Mikael Mohammad Ali|Studerande, Bengtsfors
+C|258445|62|K|May-Louise Bryngelsson|Butikschef, Bengtsfors
+C|258446|40|M|Nils Lindroth|Transportledare, Bengtsfors
+C|258447|76|M|Erik Larsson|Pensionär, Ärtemark
+C|258448|26|K|Erika Båld|Undersköterska, Dals-Långed
+C|258449|71|K|Maylis Svensson|Pensionär, Bäckefors
+C|66507|74|M|Christer Andréasson|75 år, Företagare, Dals Långed
+C|66508|74|M|Lars-Erik Molin|74 år, Civilingenjör, Bengtsfors
+C|66509|60|K|Ingegerd Venborg|60 år, Laborant, Billingsfors
+C|66510|65|M|Henning Venborg|65 år, Pappersarbetare, Billingsfors
+C|184155|62|M|Nore Johansson|62 år, Företagare, Dals Långed
+C|66511|62|K|Britt-Inger Sandström|62 år, Allt-i-allo, Dals Långed
+C|66512|40|M|Jim Grenander|40 år, Värmetekniker, Gustavsfors
+C|66513|35|M|Stefan Borgert|35 år, Mekaniker, Billingsfors
+C|66514|37|M|Ingleif Wangsmo|37 år, Produktionsarbetare, Bäckefors
+C|66515|66|M|Leif Johnsson|66 år, Sjöman, Dals Långed
+C|66517|62|K|Annika Skån|62 år, Frisör, Bengtsfors
+C|314404|68|K|Annette Ternstedt|68 år, Pensionär, Dals Långed
+C|234439|28|M|Emil Norén|Beteendevetarstudent, 28 år, Bäckefors
+C|314406|53|K|Anna Lena Ingemansson|53 år, Konstnär/Butikssäljare, Steneby
+C|314407|29|K|Anna Eriksson|29 år, Integrationspedagog, Dals Långed
+C|234434|28|M|Mats Berglund|Ombudsman, 28 år, Bengtsfors
+C|314409|28|K|Sara Norén|28 år, Socialsekreterare, Bäckefors
+C|314410|71|M|Jan-Olof Ternstedt|71 år, Halmslöjdare, Dals Långed
+C|314411|54|K|Marie Persson|54 år, Socialsekreterare, Dals Långed
+C|314412|68|M|Bo Nelin|68 år, Pensionär, Svarttjärn

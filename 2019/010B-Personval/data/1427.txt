@@ -1,8 +1,151 @@
-2|42294|42295|42296|42297|42298|42299|42300|42301|42302|42303|42304|42305|42306|42307|42308|42309|42310|42311|42312|42313|42314|42315|42316|42317|42318|42320|42321|42322|42323|42324|42325|42326|42327|42328|42329
-4|1883|4830|4831|4832|4833|1896|4835|4836|4837|4838|4839|4840|4841|4842|4843|4844|4845|4846|4847|4848|4849
-68|248815|249720|249721|249722|249723|249724|249725|249726
-3|234650|234651|234652|234653|234654|234655|234656|234657|234658|234659|234660|234661|234662|234663|234664|234665|234666|234667|234668|234669|234670|234671
-55|82484|84747|84731|243890|243891|243892|243893
-1|254201|254720|254721|254722|254723|254724|243434|254727|254728|254729|254730|254731|254732|254733|254734|254735|254736|254737|254738|254739|254740|254741|254742|254743|254744|254745|254746|254747|254748|254749|254750
-110|158929|158930|158931|158932|158933
-5|241759|241760|241761|241762|241763
+T|Sotenäs
+A|2|42294|42295|42296|42297|42298|42299|42300|42301|42302|42303|42304|42305|42306|42307|42308|42309|42310|42311|42312|42313|42314|42315|42316|42317|42318|42320|42321|42322|42323|42324|42325|42326|42327|42328|42329
+A|4|1883|4830|4831|4832|4833|1896|4835|4836|4837|4838|4839|4840|4841|4842|4843|4844|4845|4846|4847|4848|4849
+A|68|248815|249720|249721|249722|249723|249724|249725|249726
+A|3|234650|234651|234652|234653|234654|234655|234656|234657|234658|234659|234660|234661|234662|234663|234664|234665|234666|234667|234668|234669|234670|234671
+A|55|82484|84747|84731|243890|243891|243892|243893
+A|1|254201|254720|254721|254722|254723|254724|243434|254727|254728|254729|254730|254731|254732|254733|254734|254735|254736|254737|254738|254739|254740|254741|254742|254743|254744|254745|254746|254747|254748|254749|254750
+A|110|158929|158930|158931|158932|158933
+A|5|241759|241760|241761|241762|241763
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|42294|39|K|Therése Mancini|Undersköterska, 39 år, Hunnebostrand
+C|42295|68|M|Lars-Erik Knutsson|Hunnebostrand.
+C|42296|52|K|Annica Erlandsson|VD, 52 år, Sotenäs
+C|42297|49|M|Gerardo Alas|Livsmedelsarbetare, 49 år, Kungshamn
+C|42298|72|K|Birgitta Albertsson|Hunnebostrand
+C|42299|67|M|Jan Ulvemark|Smögen
+C|42300|30|K|Sanna Lundström Gustafsson|Hunnebostrand
+C|42301|70|M|Stellan Welin|Professor, 70 år, Sotenäs
+C|42302|68|K|Lotta Johansson|Kungshamn
+C|42303|66|M|Jan-Olof Larsson|Kungshamn
+C|42304|76|K|Vivianne Gustafsson|Hunnebostrand
+C|42305|74|M|Kenth Östergren|Väjern
+C|42306|33|K|Sarah Hedberg|Kungshamn
+C|42307|71|M|Bengt Sörensson|Bovallstrand
+C|42308|52|K|Petra Sundbladh|Kungshamn
+C|42309|62|M|Stig Roos|Väjern
+C|42310|56|K|Lise-Lotte Arvidsson|Kungshamn
+C|42311|35|M|Johnny Arvidsson|Hunnebostrand
+C|42312|64|K|Gunnel Berlin|Kungshamn
+C|42313|49|M|Mattias Larsson|Hunnebostrand
+C|42314|70|K|Kerstin Kjellberg|Hunnebostrand
+C|42315|50|M|Cristian Mattsson|Kungshamn
+C|42316|59|K|Ewa Gustafsson|Kungshamn
+C|42317|36|M|Patrik Henriksson|Kungshamn
+C|42318|47|K|Linda Arvidsson|Hunnebostrand
+C|42320|45|M|Joao Escudeiro|Kungshamn
+C|42321|67|M|Olle Törnqvist|Kungshamn
+C|42322|75|M|Hilbert Eliasson|Bohus-Malmön
+C|42323|73|M|Reinhold Karlsson|Bovallstrand
+C|42324|54|M|Ove Svanberg|Kungshamn
+C|42325|61|M|Mats Nilsson|Kungshamn
+C|42326|61|M|Torsten Bengtsson|Kungshamn
+C|42327|56|M|Stephan Karlsson|Kungshamn
+C|42328|82|M|Leif Gabrielsson|Smögen
+C|42329|69|M|Tommy Sjögren|Hunnebostrand
+C|1883|60|M|Olof Börjesson|egenföretagare, 60 år, Sotenäs
+C|4830|54|K|Britt Lindgren|undersköterska, Tossene
+C|4831|73|M|Gunnar Selstam|professor em., Hunnebostrand
+C|4832|73|M|Stig-Arne Helmersson|miljöingenjör, Kungshamn
+C|4833|70|K|Kerstin Johansson|produktutvecklare, Tången
+C|1896|49|M|Mikael Andersson|entreprenör, 49 år, Sotenäs
+C|4835|64|K|Kristina Bock Grahl|lärare, Smögen
+C|4836|36|K|Jenny Lundin|administratör, Hunnebostrand
+C|4837|70|M|Lennart Johansson|fiskare, Tången
+C|4838|64|M|Torgny Grahl|byggnadsingenjör, Smögen
+C|4839|58|K|Lena Ranehag|författare, Malmön
+C|4840|28|M|Daniel Lorentsson|snickare, Tossene
+C|4841|76|M|Rune Johansson|drifttekniker, Smögen
+C|4842|61|M|Pär Eriksson|företagsledare, Tången
+C|4843|76|M|Veikko Larsson|polisinspektör, Askum
+C|4844|55|M|Ove Lindgren|företagare, Tossene
+C|4845|73|M|Tomas Eldh|civilekonom, Kungshamn
+C|4846|77|M|Gösta Hansson|handlare, Smögen
+C|4847|33|M|Jonatan Kotschack|leg.Psykolog/Företagare, Bovallstrand
+C|4848|62|M|Mats Tillander|samhällsbyggnadschef, Hunnebostrand
+C|4849|76|M|Per-Åke Henriksson|lantbrukare, Västra Rörvik
+C|248815|51|M|Robert Yngve|Snickare, Sotenäs
+C|249720|50|K|Lill Grimani|Personlig assistent, Hunnebostrand
+C|249721|62|K|Inger Eckert|Egen företagare, Väjern
+C|249722|57|K|Elisabeth Pehrsson|Pensionär, Hunnebostrand
+C|249723|47|M|Christian Sporrong|Snickare, Smögen
+C|249724|70|K|Evy Berglund|Pensionär, Smögen
+C|249725|43|K|Ingela Ljungqvist|Butiksbiträde, Kungshamn
+C|249726|51|K|Karin Rasmussen|Arbetsled. pers. assist., Kungshamn
+C|234650|52|M|Michael Sandberg|52, föratagare, Sotenäs
+C|234651|55|M|Mikael Sternemar|56, företagare, Sotenäs
+C|234652|73|K|Gunilla Ohlin|Hunnebostrand
+C|234653|69|K|Anne Johansson|Hovenäset
+C|234654|45|M|Saied Mudarres|Tossene
+C|234655|74|K|Anette Thärnström|Ulebergshamn
+C|234656|47|M|Thomas Malm|Smögen
+C|234657|30|K|Hanna Axelsson|Kungshamn
+C|234658|67|K|Birgitta Lysell|Väjern
+C|234659|68|M|Håkan Hansson|Hovenäset
+C|234660|56|K|Marina Sternemar|Smögen
+C|234661|49|M|Magnus Hoglin|Hovenäset
+C|234662|76|K|Barbro Eriksson|Fisketången
+C|234663|78|M|Kenny Thärnström|Ulebergshamn
+C|234664|62|K|Inger Westerberg|Smögen
+C|234665|67|M|Peter Samuelson|Smögen
+C|234666|76|K|Kerstin Lorentzon|Kungshamn
+C|234667|72|M|Sture Karlsson|Smögen
+C|234668|73|K|Eivor Andersson|Smögen
+C|234669|76|M|Leif Stenman|Hasselösund
+C|234670|80|M|Stig Lorentsson|Kungshamn
+C|234671|75|K|Gunilla Stenman|Hasselösund
+C|82484|47|M|Yngve Johansson|47 år, Lantbrukare, Hunnebostrand
+C|84747|64|K|Lena Linke|64 år, Sjuksköterska, Hunnebostrand
+C|84731|58|K|Tina Ehn|58 år, fd. riksdagsledamot, Hunnebostrand
+C|243890|71|M|Bengt Sandberg|Byggnadsingenjör, Smögen
+C|243891|59|M|Peter Bohlin|Elektriker/Musiker, Bohus Malmön
+C|243892|58|K|Eva Niklaus|Egenföretagare,Lilla Askum
+C|243893|69|M|Björn Ström|Jur.kand, Hunnebostrand
+C|254201|55|M|Mats Abrahamsson|55, Kommunalråd, Smögen
+C|254720|65|K|Jeanette Loy|Behandlingsassistent, Kungshamn
+C|254721|72|M|Roland Mattsson|Förvaltningschef, Bovallstrand
+C|254722|67|K|Helene Stranne|Ekonom, Kungshamn
+C|254723|71|M|Nils Olof Bengtson|Företagsledare, Hunnebostrand
+C|254724|34|M|Daniel Nordström|Verksamhetsutvecklare, Smögen
+C|243434|54|K|Eva Abrahamsson|54, Cateringföretagare, Sotenäs
+C|254727|74|M|Ronald Hagbert|Elingenjör, Hunnebostrand
+C|254728|67|K|Susanne Bergholtz|Reseledare, Väjern
+C|254729|47|K|Kajsa Åkesson|Undersköterska, Kungshamn
+C|254730|36|M|Lars Kinnmalm|Egenföretagare, Smögen
+C|254731|32|M|Mathias Bruno|Marknadschef, Hunnebostrand
+C|254732|77|K|Ragnhild Selstam|Rektor, Hunnebostrand
+C|254733|54|M|Göran Hahne|Sjöbefäl, Väjern
+C|254734|32|M|Adam Finn|Studerande, Väjern
+C|254735|19|K|Amanda Andersson|Studerande, Väjern
+C|254736|65|K|Rosita Holmström|Undersköterska, Kungshamn
+C|254737|76|K|Verena Rodin|Barnskötare, Kungshamn
+C|254738|79|K|Christina Höij|Kemiingenjör, Hunnebostrand
+C|254739|60|K|Mona-Lisa Söderström|Undersköterska, Kungshamn
+C|254740|70|M|Gunnar Jacobsson|Projektledare, Ulebergshamn
+C|254741|77|M|Lasse Andersson|Överstelöjtnant, Väjern
+C|254742|59|M|Klaes Mattsson|Ekonom, Hunnebostrand
+C|254743|78|M|Nils Olsson|Pensionär, Kungshamn
+C|254744|56|M|Niclas Lundström|Ambulanssjuksköterska, Tossene
+C|254745|52|M|Richard Lundblad|Marknadschef, Hunnebostrand
+C|254746|22|M|Anton Abrahamsson|Studerande, Smögen
+C|254747|80|M|Gerry Ekgrund|Arbetsledare, Kungshamn
+C|254748|86|M|Gunnar Larsson|Köpman, Bovallstrand
+C|254749|72|M|Tommy Wik|Köpman, Kungshamn
+C|254750|73|M|Claes Brügge|Företagare, Bohus Malmön
+C|158929|55|M|Pål Ohlzon|55 år, VD, Tossene
+C|158930|48|K|Veronica Johansson|48 år, Undersköterska, Kungshamn
+C|158931|53|M|Torbjörn Johansson|54 år, Kantpressare, Kungshamn
+C|158932|31|M|Sebastian Andersson|31 år, Drifttekniker, Smögen
+C|158933|54|K|Cecilia Simonsson|Löneassistent, Sotenäs
+C|241759|66|K|Ewa Ryberg|66 år, Pensionär
+C|241760|47|M|Magnus Johansson|47 år, Undersköterska
+C|241761|60|M|Luis Morales Lopez|60 år, Nationalekonom
+C|241762|42|K|Sirikwan Buasena|42 år, Kock
+C|241763|40|M|Roger Karlsson|40 år, Taxichaufför

@@ -1,9 +1,275 @@
-2|174256|174257|174258|174259|174260|174261|174262|174263|174264|174265|174266|174267|174268|174269|174270|174271|174272|174273|174274|174275|174276|174277|174278|174279|174280|174281|174282|174283|174284|174285|174286|174287|174288|174289|174290|174291|174292|174293|174294|174295|174296|174297|174298|174299|174300|174301|174302|174303|174304|174305
-4|113629|113630|113631|113632|113633|113634|113635|113636|113637|8501|113639|113640|113641|113642|113643|113644|113645|113646|113647|113648|113649|113650|113651
-471|115821|115822|115823|115824|115825|115826|115827|115828|115829|115830|115831|115832|115833|115834
-68|277353|298111|298114|329179|277370|329181|329182|298127|329184|329185|329186|277367|329188|329189|329190|329191|329192|329193|329194|329195|329196|329197|329198|329718|329719
-3|275864|275865|275866|275867|275868|275869|275870|275871|275872|275873|275874|275875|49198|275877|275878|275879|275880|275881|275882|275883|275884|275885|275886|275887|275888|275889|275890|275891|275892|275893|275894|275895|275896|275897|275898|275899|275900|275901|275902|275903|275904|275905|275906|275907|275908|275909|275910
-55|76412|66341|76414|76415|76416|76417|76418|76419|76420|76421|76422|76423|76424|76425|76426|76427|76428|431048|431046|431047
-1|253916|256224|254175|256226|256227|254182|254161|253931|256231|256232|256233|256234|256235|256236|256237|256238|256239|256240|256241|256242|256243|256244|256245|256246|256247|256248|256249|256250|256251|256252|256253|256254|256255|256256|256257|256258|256259|256260|256261|256262|256263|256264|256265
-110|65873|65874|61353|61328|61340|65878|65879|65880|65883|65884|65885|65886|65881|508555|508556|510923|510924|510925|513823
-5|182594|160743|182596|182597|160750|182599|182600|182601|182602|182603|182604|182605|182606|182607|182608
+T|Alingsås
+A|2|174256|174257|174258|174259|174260|174261|174262|174263|174264|174265|174266|174267|174268|174269|174270|174271|174272|174273|174274|174275|174276|174277|174278|174279|174280|174281|174282|174283|174284|174285|174286|174287|174288|174289|174290|174291|174292|174293|174294|174295|174296|174297|174298|174299|174300|174301|174302|174303|174304|174305
+A|4|113629|113630|113631|113632|113633|113634|113635|113636|113637|8501|113639|113640|113641|113642|113643|113644|113645|113646|113647|113648|113649|113650|113651
+A|471|115821|115822|115823|115824|115825|115826|115827|115828|115829|115830|115831|115832|115833|115834
+A|68|277353|298111|298114|329179|277370|329181|329182|298127|329184|329185|329186|277367|329188|329189|329190|329191|329192|329193|329194|329195|329196|329197|329198|329718|329719
+A|3|275864|275865|275866|275867|275868|275869|275870|275871|275872|275873|275874|275875|49198|275877|275878|275879|275880|275881|275882|275883|275884|275885|275886|275887|275888|275889|275890|275891|275892|275893|275894|275895|275896|275897|275898|275899|275900|275901|275902|275903|275904|275905|275906|275907|275908|275909|275910
+A|55|76412|66341|76414|76415|76416|76417|76418|76419|76420|76421|76422|76423|76424|76425|76426|76427|76428|431048|431046|431047
+A|1|253916|256224|254175|256226|256227|254182|254161|253931|256231|256232|256233|256234|256235|256236|256237|256238|256239|256240|256241|256242|256243|256244|256245|256246|256247|256248|256249|256250|256251|256252|256253|256254|256255|256256|256257|256258|256259|256260|256261|256262|256263|256264|256265
+A|110|65873|65874|61353|61328|61340|65878|65879|65880|65883|65884|65885|65886|65881|508555|508556|510923|510924|510925|513823
+A|5|182594|160743|182596|182597|160750|182599|182600|182601|182602|182603|182604|182605|182606|182607|182608
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|174256|23|M|Simon Waern|Bebyggelseantikvarie
+C|174257|49|K|Maria B Nilsson|studerande, Alingsås
+C|174258|38|M|Anton César|Regionutvecklare
+C|174259|62|K|Anita Hedén Unosson|ekonomiadministratör, Alingsås
+C|174260|34|M|Björn Wallin Salthammer|Socionom
+C|174261|49|K|Camilla Stensson|Ungdomskoordinator
+C|174262|69|M|Pär-Göran Björkman|fd Major
+C|174263|42|K|Maria Katris|Enhetschef
+C|174264|72|M|Anders Sandberg|Pensionär
+C|174265|67|K|Birgitta Carlsson|Pensionär
+C|174266|69|M|Leif Hansson|pensionär, Alingsås
+C|174267|58|K|Karin Johansson|Kock
+C|174268|55|M|Ulf Carmesund|Internationell sekreterare
+C|174269|65|K|Birgitta Larsson|Pensionär
+C|174270|36|M|Sebastian Aronsson|lärare, Alingsås
+C|174271|46|K|Micaela Johansson|Ställföreträdande butikschef
+C|174272|48|M|Moheeb Jouda|Forskare i socialpsykologi
+C|174273|36|K|Josefine Werner Alm|Socialpedagog
+C|174274|42|M|Joakim Järrebring|ombudsman, Alingsås
+C|174275|52|K|Helena Carlström|Verksamhetschef
+C|174276|71|M|Roger Andersson|Pensionär
+C|174277|70|K|Birgit Börjesson|Undersköterska
+C|174278|40|M|Markus Olofsson|Ekonom
+C|174279|66|K|Ingela Lausen|Pensionär
+C|174280|52|M|Ljubisa Rankovic|Biträdande personalchef
+C|174281|66|K|Irene Jonsson|Pensionär
+C|174282|76|M|Lennart Allbro|Pensionär
+C|174283|65|K|Annika Olofsson|Pensionär
+C|174284|63|M|Ulf Unosson|Vikarie
+C|174285|51|K|Marie Sormunen|Enhetschef
+C|174286|76|M|Billy Westerholm|Pensionär
+C|174287|74|K|Margaretha Sjöberg|Pensionär
+C|174288|41|M|Albin Dahlin|Journalist
+C|174289|61|K|Margaretha Svensson|Verksamhetssamordnare
+C|174290|55|M|Martin Pehrsson|Ingenjör
+C|174291|26|K|Angelika Wais|Integrationspedagog
+C|174292|68|M|Lars Larsson|Pensionär
+C|174293|57|M|Khidir Salaei|Taxichaufför
+C|174294|32|M|Peter Norlander|Byggnadsarbetare
+C|174295|61|M|Göran Alexandersson|Utvecklingssekreterare IT
+C|174296|69|M|Thomas Olofsson|Pensionär
+C|174297|69|M|Jalel Ayeb|Pensionär
+C|174298|44|M|Anders Juhlin|Truckförare
+C|174299|64|M|Gunnar Tiselius|fd Metallarbetare
+C|174300|75|M|Jan-Erik Gustafsson|Pensionär
+C|174301|67|M|Greger Sandberg|Pensionär
+C|174302|74|M|Dimitris Diamantopoulos|Pensionär
+C|174303|72|M|Sven Helgesson|Pensionär
+C|174304|63|M|Jens Söderberg|Kemiingenjör
+C|174305|65|K|Margareta Gustafsson|Pensionär
+C|113629|39|M|Karl-Johan Karlsson|39 år, journalist, Alingsås
+C|113630|58|K|Susanna Nerell|landsbygdspedagog, Stora Mellby
+C|113631|52|M|Thomas Pettersson|52, dricksvattenforskare, Alingsås
+C|113632|39|M|Daniél Danno Nordh|småföretagare, Alingsås
+C|113633|63|K|Ingbritt Johansson|f.d. postanställd, Hemsjö
+C|113634|29|M|Ali Said|socialpedagog, Alingsås
+C|113635|19|M|Carl Adamsson|studerande, Alingsås
+C|113636|66|M|Staffan Albinsson|66, kulturekonom, Alingsås
+C|113637|73|M|Bo Lundbladh|pensionär, Kvarnabo
+C|8501|53|K|Annika Qarlsson|53 år, Riksdagsledamot, Alingsås
+C|113639|47|M|Henrik Öhrvall|civilingenjör, Hemsjö
+C|113640|55|K|Christina Carlsson|tandläkare, Alingsås
+C|113641|69|M|Leif Åkerblad|ekonom, Alingsås
+C|113642|67|K|Marita Unosson|undersköterska, Sollebrunn
+C|113643|75|M|Torbjörn Gustafsson|75, fd redaktör, Alingsås
+C|113644|51|K|Ulrica Larsson|ekonomiassistent, Hemsjö
+C|113645|64|M|Börje Björkqvist|byggsäljare, Långared
+C|113646|49|K|Ann Charlott Axelsson|49, undersköterska, Alingsås
+C|113647|38|M|Gustaf Melin|småföretagare, Alingsås
+C|113648|44|M|Marcus Lundbladh|IT-konsult, Kvarnabo
+C|113649|49|M|Patrik Fridh|trafikplanerare, Alingsås
+C|113650|76|M|Rolf Engman|pensionär, Alingsås
+C|113651|65|M|Sven-Erik Edvardsson|biodlare, Långared
+C|115821|68|K|Elsa-Lena Åström|Pensionerad Arbetsterapeut
+C|115822|54|M|Lars-Olof Törnberg|Undersköterska
+C|115823|64|K|Ingela Eriksson Thelin|Tvättbiträde
+C|115824|39|M|Robert Mathiasson|Partiordförande
+C|115825|38|K|AnnaClara Bäckerstam|Sjuksköterska
+C|115826|73|M|Morgan Melgaard|Pensionerad Socialarbetare
+C|115827|67|K|Birgitta Ödlund|Pensionerad Förskollärare
+C|115828|65|M|Jonny Freidlitz|Metallarbetare
+C|115829|37|K|Lisa Magnusson|Administratör
+C|115830|24|M|Sven Hellqvist|Sjuksköterska
+C|115831|35|K|Lena Krig|Lokalvårdare
+C|115832|72|M|Ingvar Andersson|Pensionerad Biolog
+C|115833|71|K|Maj-Britt Eliasson|Sjuksköterska
+C|115834|70|M|Lennart Sjögren|Pensionerad Universitetslektor
+C|277353|54|M|Stefan Svensson|Lärare, Alingsås
+C|298111|52|M|Niklas Hellgren|Lärare, Alingsås
+C|298114|41|K|Lady France Mulumba|Enhetschef, Alingsås
+C|329179|64|M|Kent Perciwall|kriminalinspektör, Alingsås
+C|277370|56|K|Ann-Lie Tulokas Olsson|Mångsysslare, Sollebrunn
+C|329181|73|M|Urban Eklund|f.d. civilingenjör, Alingsås
+C|329182|65|M|Björn Källhult|egenföretagare, Alingsås
+C|298127|31|K|Johanna Lövgren|Samordnare, Alingsås
+C|329184|52|M|Björn Albinsson|kvalitets- och miljörevisor, Alingsås
+C|329185|53|M|Magnus Martinsson|civilekonom, Alingsås
+C|329186|23|K|Noomi Hellgren|undersköterska, Alingsås
+C|277367|77|M|Bengt Eliasson|F.d. Distriktsläkare, Alingsås
+C|329188|49|M|Thomas Jensen|byggnadsmålare, Alingsås
+C|329189|40|M|David Skoog|regionchef, Alingsås
+C|329190|46|K|Eileen Wiksten Svan|enhetschef, Sollebrunn
+C|329191|45|M|Anders Svan|byggmaterialsäljare, Sollebrunn
+C|329192|44|M|Ghislain Kalombo|egenföretagare, Alingsås
+C|329193|80|K|Karin Johansson|författare, Alingsås
+C|329194|75|M|Arne Odell|pensionär, Alingsås
+C|329195|60|K|Erica Perciwall|säljare, Alingsås
+C|329196|76|M|Sven-Erik Dahlgren|leg. psykolog, Ingared
+C|329197|82|M|Evert Johansson|pensionär, Sollebrunn
+C|329198|48|K|Camilla Pettersson|skolledare, Alingsås
+C|329718|40|M|Erik Marklund|personlig assistent, Alingsås
+C|329719|39|M|Henrik Mattsson|säljare, Alingsås
+C|275864|69|K|Anita Brodén|Lärare, Gräfsnäs
+C|275865|46|M|Stefan Bedö|Insatsledare räddningstjänsten, Alingsås
+C|275866|35|K|Marie Mjörnvik|35, inköpare, Alingsås
+C|275867|47|M|Jens Christian Berlin|47, fil.kand., Alingsås
+C|275868|68|K|Kristina Grapenholm|68, lärare, Alingsås
+C|275869|68|M|Jan Kesker|Präst, Alingsås
+C|275870|62|M|Holger Andersson|Föreningssamordnare, Gendalen
+C|275871|61|K|Anne Gunnevik|Ämneslärare, Alingsås
+C|275872|71|M|Per Palm|Lektor, Alingsås
+C|275873|69|K|Ingela Andreen|Projektledare, Gräfsnäs
+C|275874|69|M|Elof Dimenäs|69, dr. med. vetenskap, Alingsås
+C|275875|46|K|Karin Josefsson|Processmedarbetare, Alingsås
+C|49198|26|M|Max Sjöberg|juriststudent, Alingsås
+C|275877|68|K|Heide Kamperin|Processledare, Alingsås
+C|275878|76|M|Lars Bolminger|Civilingenjör, Alingsås
+C|275879|51|K|Hanna Källberg|Pedagogisk utvecklingsledare, Alingsås
+C|275880|65|M|Jerry Brattåsen|65, utvecklingsstrateg, Alingsås
+C|275881|68|K|Kerstin Kristensson|Lärare, Långared
+C|275882|65|M|Per Andersson|Konsult, Långared
+C|275883|57|K|Kerstin Rudfeldt Tjus|Medicinsk sekreterare, Hemsjö
+C|275884|81|M|Elver Jonsson|F.d. riksdagsman, Alingsås
+C|275885|71|M|Sten-Åke Gustafsson|Ingenjör, Stora Mellby
+C|275886|41|K|Caroline Fåglum|Kurator, Långared
+C|275887|35|M|Ahmad Ali Ahmad|Banktjänsteman, Alingsås
+C|275888|45|M|Peter Sörstedt|Polis, Långared
+C|275889|38|K|Fazile Ibrahimi|Affärsbiträde, Alingsås
+C|275890|66|M|Sture Wängberg|Rektor, Vänga
+C|275891|72|M|Klas Åkerlund|Förändringsledare, Gräfsnäs
+C|275892|70|K|Barbro Svensson|Distriktssköterska, Loo
+C|275893|71|M|Gunno Wallmyr|Egenföretagare, Tollered
+C|275894|78|M|Hasse Lindwert|Folkhögskollärare, Alingsås
+C|275895|66|K|Christina Andersson|Ekonomiansvarig, Sollebrunn
+C|275896|48|M|Simon Youness|Egenföretagare, Sollebrunn
+C|275897|63|M|Jesper Lindahl|Företagare, Alingsås
+C|275898|42|M|Emil Arvidsson|Konstruktionsledare, Gräfsnäs
+C|275899|76|K|Ann Holmberg|F.d. skolchef, Alingsås
+C|275900|60|M|Per-Olof Karlsson|Dental specialist, Edsås
+C|275901|65|M|Lennart Mattsson|Civilingenjör, Alingsås
+C|275902|49|K|Helena Svantesson|Gymnasielärare, Alingsås
+C|275903|76|M|Hans O Andersson|Ingenjör, Alingsås
+C|275904|74|M|Hans Johansson|Bonde och pastor, Loo
+C|275905|70|M|Bengt Sernestrand|Konsult, Loo
+C|275906|72|M|Runar Kristensson|Ingenjör, Långared
+C|275907|74|K|Berit Hildén|Civilekonom, Alingsås
+C|275908|73|M|Ingvar Brodén|Lantbrukare, Gräfsnäs
+C|275909|56|M|Fredrik van den Broek|Företagare, Ingared
+C|275910|73|M|Jan-Olof Börjesson|Företagare, Alingsås
+C|76412|44|K|Janine Alm Ericson|44, riksdagsledamot, Allingsås
+C|66341|44|K|Anna Hansson|44 år, Alingsås, civilekonom
+C|76414|48|K|Emma Liljewall|48 år, Biolog, Hemsjö
+C|76415|34|M|Christian Wiberg|34 år, Lärare, Bäling
+C|76416|68|K|Britt-Marie Kuylenstierna|68 år, Socionom, Centrum
+C|76417|58|M|Tomas Hurtig|59 år, Ekonom, Centrum
+C|76418|25|K|Amanda Andersson|25 år, Student, Alingsås
+C|76419|72|K|Katarina Ekenger|71 år, Pensionerad lärare, Centrum
+C|76420|57|M|Novak Vasic|56 år, Egenföretagare, Brogården
+C|76421|60|K|Ulla Dalén|60 år, Lärare, Långared
+C|76422|54|K|Eva Pedersen|54 år, Civilingenjör, Kullingsberg
+C|76423|65|K|Birgitta Nyman|65 år, Sjuksköterska, Centrum
+C|76424|50|K|Helena Berglund|50 år, Boendestödjare, Centrum
+C|76425|67|K|Gunnel Adler|67 år, Sjuksköterska, Alingsås
+C|76426|37|M|Nicola Ambrosetti-Brolin|37 år, Systemutvecklare, Bolltorp
+C|76427|71|M|Bo Kuylenstierna|70 år, Läkare, Centrum
+C|76428|69|M|Gunnar Boija|69 år, Folkhögskolelärare, Tegelbruket
+C|431048|38|M|Martin Olson|38 år, Sjuksköterska/avdelningschef, Ängabo
+C|431046|49|M|Thomas Martinsson|49 år, Enhetschef Göteborgs fastighetskontor, Hedvigsberg
+C|431047|38|K|Lina Karle|38 år, Kommunikatör, Hedvigsberg
+C|253916|42|M|Daniel Filipsson|42, Kommunalråd, Alingsås
+C|256224|63|K|Karin Schagerlind|63, Flygledare, Alingsås
+C|254175|75|M|Per Tranberg|75, Egenföretagare, Alingsås
+C|256226|50|K|Eva Lotta Pamp|50, Egen företagare, Alingsås
+C|256227|42|K|Micaela Kronberg Thor|42, Medicinkt ansvarig sjuksköterska, Alingsås
+C|254182|67|M|Thorsten Larsson|67, Egenföretagare, Alingsås
+C|254161|54|M|Magnus Linde|54, Lärare, Alingsås
+C|253931|22|M|Jonathan Bessou|22, Studerande, Alingsås
+C|256231|45|K|Linda Espeving|45, Ekonom, Alingsås
+C|256232|35|M|Daniel Ringström|35, Egen företagare, Ödenäs
+C|256233|20|M|Philip Perdin|20, Valombudman, Alingsås
+C|256234|20|M|André Björkdahl|20, Tekniker, Alingsås
+C|256235|36|M|Robin Almanakis|36, Fastighetsmäklare, Alingsås
+C|256236|59|K|Britt Berggren|59, Administratör, Långared
+C|256237|68|M|Björn Dahlin|68, Småföretagare, Alingsås
+C|256238|52|M|Peter Martini|52, IT-Konsult, Sollebrunn
+C|256239|20|M|Viktor Edgren|20, Valombudsman, Alingsås
+C|256240|63|M|Johan Lindahl|63, Civilingenjör, Alingsås
+C|256241|72|M|Gunnar Henriksson|72, Civilekonom, Alingsås
+C|256242|66|K|Marianne Wikström|66, Konsult inom socialtjänsten, Sollebrunn
+C|256243|19|K|Alicia Haglund|19, Student, Sollebrunn
+C|256244|21|M|Dennis Alvdén|21, Kaffespecialist, Alingsås
+C|256245|71|M|PG Bernhult|71, Pensionär, Alingsås
+C|256246|31|K|Mary Aghaei|31, Gymnasielärare, Alingsås
+C|256247|36|M|Peter Poniatowski|36, Servicerådgivare, Alingsås
+C|256248|34|K|Lina Svensson|34, , Alingsås
+C|256249|75|M|Roland Salomonsson|75, Ingenjör, Alingsås
+C|256250|71|M|Björn Svennung|71, Civilingenjör, Alingsås
+C|256251|71|K|Christina Karén|71, Pensionär fd.sjuksköteraska, Alingsås
+C|256252|63|M|Evert Larsson|63, Civilingenjör, Alingsås
+C|256253|70|K|Inger Carlborg|70, Pensionär, Alingsås
+C|256254|28|M|Wictor Ringström|28, Egen företagare, Alingsås
+C|256255|21|M|Linus Agemo|21, , Alingsås
+C|256256|54|M|Johan Källvik|54, Elektronikingenjör, Gendalen
+C|256257|27|M|David Jerrestrand|27, , Alingsås
+C|256258|41|M|Jimmy Lanevik|41, Byggmästare, Bjärke
+C|256259|22|M|Viktor Linde|22, , Alingsås
+C|256260|68|M|Johnny Östh|68, Pensionär, Alingsås
+C|256261|70|M|Ove Ödestad|70, Elmontör, Alingsås
+C|256262|58|K|Carin Östh|58, , Alingsås
+C|256263|61|K|Kerstin Larsson|61, Civilingenjör, Alingsås
+C|256264|20|K|Natalie Andersson|20, Butikssäljare, Alingsås
+C|256265|63|K|Katarina Ramnerö Ödestad|63, Lärare, Alingsås
+C|65873|52|M|Boris Jernskiegg|Transportör
+C|65874|52|K|Agneta Grange Petrusson|Musikpedagog
+C|61353|49|M|Glenn Pettersson|Fastighetstekniker, Alingsås
+C|61328|49|K|Zandra Pettersson|Entreprenör, Alingsås
+C|61340|58|K|Gunilla Gomér|Sjuksköterska, Alingsås
+C|65878|70|M|Otto Stryhn|Pensionär
+C|65879|76|M|Lars-Olof Jaeger|Representant
+C|65880|61|K|Kristina Poulsen|Pensionär
+C|65883|51|K|Maria Wass|ERP koordinator
+C|65884|55|M|Dennis Andersson|Fastighetstekniker
+C|65885|56|K|Maria Kjelstad|Pensionär
+C|65886|55|M|Axel Fromberg Carlsen|Projektledare
+C|65881|57|M|Roger Svärd|
+C|508555|56|K|Elenor Klarström|
+C|508556|58|M|Rolf Svensson|
+C|510923|37|M|Marcus Granberg|
+C|510924|34|K|Tina Granberg|
+C|510925|30|M|Peter Larsson|
+C|513823|38|M|Alexander Spalding|
+C|182594|72|K|Vanja Larsson|pensionär, 73 år
+C|160743|34|M|Martin Lindberg|medicinsk sekreterare, Alingsås, 34 år
+C|182596|70|K|Stina Karlsson|bildlärare, 70 år
+C|182597|64|M|Tony Norman|psykoterapeut/familjerådgivare, 65 år
+C|160750|70|M|Jan Gustafsson|Alingsås, 70 år
+C|182599|54|K|Maria Adrell|Sjuksköterska, 54 år
+C|182600|27|M|Peter Dahl|studerande, 28 år
+C|182601|32|K|Karin Berg|utbildningshandläggare, 32 år
+C|182602|41|M|Tobias Wik|41 år
+C|182603|64|K|Gerd Skogholm|stödassistent, 64 år
+C|182604|73|K|Johanna Frisk|pensionär, 73 år
+C|182605|31|M|Jonatan Gustafsson|studerande, 31 år
+C|182606|51|M|Peter Rosén|sjuksköterska, 52 år
+C|182607|47|M|Mats Larsson|elkonsult, 47 år
+C|182608|53|M|Sanny Svensson|lagerman, 53 år

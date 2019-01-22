@@ -1,6 +1,90 @@
-2|74123|98257|75688|22208|98260|98463|98464|98465|98466|98467|98468|22214|98509|98714|98715|98716|98717|98718|98719|98720|98721|99052|99053|99054|99055|99056|99057|99058|99059|99060|99061
-4|24546|24547|24548|24549|24550|24551|24552|24553|24554|24555|24556|24557|24558
-55|433851|507840|507841|507842
-1|37380|606|37382|37383|37384|37385|37386|37387|37388|37389
-110|95777|512655|512652|512656|512654|512653|512690|515629|515740|515741|515742|515984|516007
-5|108681|108682|30312|108684|108685|108686
+T|Grums
+A|2|74123|98257|75688|22208|98260|98463|98464|98465|98466|98467|98468|22214|98509|98714|98715|98716|98717|98718|98719|98720|98721|99052|99053|99054|99055|99056|99057|99058|99059|99060|99061
+A|4|24546|24547|24548|24549|24550|24551|24552|24553|24554|24555|24556|24557|24558
+A|55|433851|507840|507841|507842
+A|1|37380|606|37382|37383|37384|37385|37386|37387|37388|37389
+A|110|95777|512655|512652|512656|512654|512653|512690|515629|515740|515741|515742|515984|516007
+A|5|108681|108682|30312|108684|108685|108686
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|74123|52|M|Leif Haraldsson|53 år, Grums
+C|98257|68|K|Gun-Britt Arvholm|68 år, Liljedal
+C|75688|22|M|Erivan Waysi|23 år, Grums
+C|22208|43|K|Ulrika Nilsson|43 år, Grums
+C|98260|72|M|Tore Ingman|72 år, Grums
+C|98463|53|K|Marianne Lidbäck|53 år, Ekonomibiträde, Slottsbron
+C|98464|65|M|Tomas Nilsson|65 år, Grums
+C|98465|45|K|Ylva Eklund Magnusson|45 år, Förskollärare, Grums
+C|98466|78|M|Frank Lassen|77 år, Grums
+C|98467|62|K|Agneta Andersson|62 år, Statstjänsteman, Värmskog
+C|98468|32|M|Rafi Mirza|32 år, Undersköterska, Slottsbron
+C|22214|36|K|Malin Hagström|36 år, Grums
+C|98509|77|M|Sune Ingman|78 år, Pensionär, Grums
+C|98714|53|K|Christine Jäger|53 år, Elevassistent, Grums
+C|98715|54|M|Juan Martinez|54 år, Pappersarbetare, Grums
+C|98716|44|K|Sara Emsevik|44 år, Skolkurator, Grums
+C|98717|74|M|Lars Fridén|74 år, Pensionär, Grums
+C|98718|45|K|Camilla Nilsson|45 år, Studerande, Grums
+C|98719|46|M|Jan-Anders Andersson|46 år, Processoperatör, Segmon
+C|98720|69|K|Margareta Bergman|70 år, Pensionerad lärare, Grums
+C|98721|50|M|Per-Åke Skååre|50 år, Lärare, Grums
+C|99052|58|K|Reneé Pettersson|59 år, Operatör, Grums
+C|99053|41|M|Anders Leander|41 år, Bussförare, Slottsbron
+C|99054|42|K|Therese Bood|42 år, Socialtjänsten, Grums
+C|99055|43|M|Patrik Nilsson|44 år, Processoperatör, Grums
+C|99056|54|K|Lena S Haraldsson|55 år, Fabriksarbetare, Grums
+C|99057|60|M|Morgan Jakobsson|61 år, Huvudskyddsombud, Grums
+C|99058|61|K|Ann-Marie N Olsson|61 år, Barnskötare, Grums
+C|99059|49|K|Monica Strandli|49 år, Administratör, Slottsbron
+C|99060|51|K|Annelie Ferm|51 år, Församlingsvärdinna, Segmon
+C|99061|37|M|Jörgen Hagström|37 år, Industriarbetare, Grums
+C|24546|72|K|Eva Sidenvall|Värmskog, 73 år, Socionom
+C|24547|69|K|Birgit Sturesson|Segmon, 68 år, Företagare
+C|24548|68|M|Lars-Åke Engdahl|Liljedal, 68 år, Pensionär
+C|24549|51|K|Maria Svedinger Andersson|51 år, Ås
+C|24550|70|M|Bo Johansson|70 år, Långsta
+C|24551|46|M|Göran Johnsen|46 år, Häggvik
+C|24552|44|M|Anders Johansson|45 år, Grums
+C|24553|71|M|Arne Sturesson|71 år, Uddersrud
+C|24554|26|M|Adam Andersson|26 år, Ås
+C|24555|25|K|Evelina Johansson|26 år, Grums
+C|24556|77|K|Karin Didriksson|77 år, Borgvik
+C|24557|74|K|Kerstin Olsson|74 år, Grums
+C|24558|70|K|Lena Ring Sjöbom|70 år, Malsjö
+C|433851|46|M|Jesper Johansson|46 år, landstingsråd och språkrör, Borgvik
+C|507840|46|K|Anne-Sophie Elwin|medicinsk fotvårdare, 46 år, Grums
+C|507841|38|K|Sanaa El Kharraz|butikschef, 38 år, Grums
+C|507842|39|K|Linnéa Abresparr|sjukpensionär, 39 år, Grums
+C|37380|64|K|Judith Kisch|64 år, Säljare
+C|606|51|K|Ulrika Jacobs|egenföretagare, Grums
+C|37382|20|K|Nicole Jacobs|20 år, Ekonomistuderande
+C|37383|79|K|Siri Johansson|79 år, Leg. sjuksköterska
+C|37384|38|K|Ann-Sofie Jansson|38 år, Vårdadministratör
+C|37385|33|K|Thea Kröger|33 år, Jurist
+C|37386|47|M|Per Fransson|47 år, Säljare
+C|37387|52|M|Tore Olsson|52 år, Inköpare
+C|37388|73|M|Jens Holm|73 år, Pensionär/företagare
+C|37389|31|M|Kristoffer Davidsson|31 år, Lantbrukare
+C|95777|61|K|Anne-Louise Kron|61, Civilekonom/Egen företagare, Grums
+C|512655|41|M|Ulf Björk|41, Egen företagare, Flokerud
+C|512652|64|K|Solveg Svendsen|64, Personlig assistent, Grums
+C|512656|62|M|Jan-Olof Karlsson|62, Busschaufför, Grums
+C|512654|53|K|Ann-Charlotte Kraft|53, Receptionist, Fallet
+C|512653|24|M|Robin Lennartsson|24, Studerande, Grums
+C|512690|44|M|Roy Vestli|44, Fordonsmekaniker, Segmon
+C|515629|40|K|Maria Smedman|
+C|515740|35|M|Michael Kihlgren|
+C|515741|39|M|Sebastian Olsson Lindberg|
+C|515742|34|K|Cecilia Heineman|
+C|515984|60|K|Izabell Olsen Gran|
+C|516007|63|M|Alf Haavik|
+C|108681|43|K|Jenny Kumm|43 år, lantbrukare och undersköterska, Långsta
+C|108682|63|M|Ken Rosén|63 år, byggnadsplåtslagare, operatör, Karlberg
+C|30312|63|K|Eva Alfredsson Olsson|63 år, Grums, universitetslektor
+C|108684|70|M|Pekka Perna|70 år, elektriker, Slottsbron
+C|108685|77|M|Björn Haffling|76 år, elektriker, Långsta
+C|108686|74|K|Marjatta Ylipeura|pappersarbetare, Slottsbron

@@ -1,9 +1,119 @@
-2|36537|28285|36539|36540|36541|36542|36543|36544|36545|36546|36547|36548|36549|36550|36551|36552|36553|36554|36555|36556|36557|36558|36559|36560|36561|36562|36563|36564
-4|35336|35343|76637|39147|76639|76640|76641|76642|76643|76644|76645|76646|76647|76648|76649
-68|31825|31790|80341|62758|62759
-3|512388|143583|512390|66849
-55|17259|19562|17257|53924|53925
-1|62959|62960|62961|62962|62963|62964|62965|62966|62967
-971|15791|15792|15793|15794|15795|15796|15797|15798|15799|15800|15801|15802|15803|15804|15805|15806|15807|15808|15809|15810|15811|15812|15813
-110|66849|66850|66851|66852|66853|66854|66855|66856|66857|66858|66859|510929
-5|128111
+T|Perstorp
+A|2|36537|28285|36539|36540|36541|36542|36543|36544|36545|36546|36547|36548|36549|36550|36551|36552|36553|36554|36555|36556|36557|36558|36559|36560|36561|36562|36563|36564
+A|4|35336|35343|76637|39147|76639|76640|76641|76642|76643|76644|76645|76646|76647|76648|76649
+A|68|31825|31790|80341|62758|62759
+A|3|512388|143583|512390|66849
+A|55|17259|19562|17257|53924|53925
+A|1|62959|62960|62961|62962|62963|62964|62965|62966|62967
+A|971|15791|15792|15793|15794|15795|15796|15797|15798|15799|15800|15801|15802|15803|15804|15805|15806|15807|15808|15809|15810|15811|15812|15813
+A|110|66849|66850|66851|66852|66853|66854|66855|66856|66857|66858|66859
+A|5|128111
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|971|PF|Perstorps Framtid
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|36537|53|K|Elisabeth Holmer|Undersköterska/Skötare, Perstorp
+C|28285|49|M|Ronny Nilsson|Processoperatör, Perstorp
+C|36539|61|K|Boel Rosdahl|Undersköterska, Perstorp
+C|36540|52|M|Thim Borg|
+C|36541|50|K|Veronicha Pettersson|
+C|36542|43|M|Mikael Malm|
+C|36543|58|K|Catharina Tann|Undersköterska, Perstorp
+C|36544|51|M|Krister Lundström|
+C|36545|61|K|Berith Lantz|
+C|36546|22|M|Tobias Lundström|
+C|36547|33|K|Annelie Rosdahl|
+C|36548|64|M|Valter Titusson|
+C|36549|60|K|Ljubica Marusic|
+C|36550|37|M|Joakim Ask|
+C|36551|30|K|Sabina Laitila|
+C|36552|51|M|Jörgen Persson|
+C|36553|50|K|Lotta Lundström|
+C|36554|82|M|Håkan Engström|
+C|36555|57|K|Helene Norrback|
+C|36556|84|M|Ibrahim Al-Joboory|
+C|36557|41|K|Jenny Malm|
+C|36558|79|M|Rolf Jansson|
+C|36559|43|K|Helene Svensson|
+C|36560|69|M|Lars Svensson|
+C|36561|34|K|Madelene Thörner|
+C|36562|77|M|Arne Malmgren|
+C|36563|64|K|Gulli Svensson|
+C|36564|75|M|Lars-Göran Thulin|
+C|35336|43|K|Marie Gärdby|Rektor, 43, Perstorp
+C|35343|64|M|Bengt Marntell|Ingenjör, 64, Perstorp
+C|76637|59|K|Kerstin Andersson|Egenföretagare, Skingeröd
+C|39147|66|K|Rose-Marie Jönsson|66, Lärare, Perstorp
+C|76639|36|K|Josefine Petersson|Studerande, Heljalt
+C|76640|61|M|Mats Ekedahl|Civilekonom, Dalshult
+C|76641|69|M|Christer Tingren|Herr
+C|76642|68|M|Nils-Börje Jönsson|Lärare
+C|76643|70|M|Arnold Andréasson|Herr
+C|76644|71|K|Margita Krätzer|Fru
+C|76645|52|K|Maria Österlin Rietz|Filialförest./lärare
+C|76646|79|M|Åke Petersson|Kamrer
+C|76647|67|M|Staffan Andreasson|Lantbrukare, Dalshult
+C|76648|76|K|Berit Petersson|F.d.informationsassistent
+C|76649|77|M|Lars-Inge Sjöholm|Civilekonom, Karsholm
+C|31825|74|K|Ulla-Britt Brandin|74 år, fd Rektor, Perstorp
+C|31790|75|M|Bengt Jarring|75 år, Pensionär, Perstorp
+C|80341|32|K|Ellinor Silwer|Undersköterska/Studerande
+C|62758|83|M|Erik Persson|Ingenjör
+C|62759|46|K|Biljana Fedoric|Lokalvårdare
+C|512388|78|M|Kaj Seger|
+C|143583|58|M|Nicola Rehnberg|
+C|512390|83|K|Ulla Myrbäck|
+C|66849|57|M|Lars Nilsson|Webdesigner, 57 år
+C|17259|61|K|Lis-Beth Wiberg|Företagare, 61 år, Perstorp
+C|19562|61|K|Kristina Hovander|61 år, Perstorp
+C|17257|44|K|Irena Långberg|Speciallärare, 44 år, Perstorp
+C|53924|30|K|Johanna Wiberg|
+C|53925|51|M|Patric Dahlin|
+C|62959|49|M|Patrik Ströbeck|49 år, civilekonom, Perstorp
+C|62960|45|K|Jenny Delén|45 år, präst, Oderljunga
+C|62961|49|M|Håkan Abrahamsson|49 år, leg. lärare, Oderljunga
+C|62962|45|K|Anette Lantz|45 år, lärare, Perstorp
+C|62963|20|M|Kasandro Murad|20 år, företagare, Perstorp
+C|62964|42|M|Armand Muriqi|42 år, transportkoordinator, Perstorp
+C|62965|54|M|Lars Holmström|54 år, , Perstorp
+C|62966|77|M|Jan-Eric Lindman|77 år, god man, nämndeman, Perstorp
+C|62967|67|K|Anna Wendt|67 år, pensionerad sjuksköterska, Perstorp
+C|15791|36|M|Torgny Lindau|Undersköterska
+C|15792|47|M|Ronny Olesen|Biträdande rektor
+C|15793|52|M|Lennart Johansson|Kanslichef
+C|15794|42|M|Kim Svitzer|Miljökonsult
+C|15795|70|M|Bo Dahlqvist|Murare
+C|15796|61|M|Lars Ottosson|Drifttekniker
+C|15797|74|M|Hans Stifors|Ombudsman
+C|15798|68|K|Viveca Dahlqvist|Maskinoperatör
+C|15799|67|M|Göran Långström|Skogsentreprenör
+C|15800|41|M|Håkan Abrahamsson|VVS-installatör
+C|15801|25|K|Desiré Hansson|Logistikadministratör
+C|15802|46|M|Thomas Johansson|NC-operatör
+C|15803|34|M|Jonny Silversand|Säljare
+C|15804|51|M|Tord Hansson|Produktionsassistent
+C|15805|69|M|Bo Nilsson|IT-strateg
+C|15806|64|K|Yvonne Långström|Vård- och omsorgsarbetare
+C|15807|57|M|Thomas Lindqvist|Idrottslärare
+C|15808|66|M|Birger Månsson|Chaufför
+C|15809|74|M|Jan Aronsson|Fastighetstekniker
+C|15810|69|K|Lena Björnstedt|Pensionär
+C|15811|71|M|Göran Strandqvist|IT-tekniker
+C|15812|65|K|Ingela Aronsson|Ekonomiassistent
+C|15813|80|M|Kjell Carlström|Mekaniker
+C|66850|50|K|Pia Galia|
+C|66851|40|M|Jack Henriksson|
+C|66852|57|M|Rickard Andersson|
+C|66853|19|M|Andreas Nilsson|
+C|66854|57|M|Putte Schüler|
+C|66855|38|K|Linda Holst|
+C|66856|53|M|Anders Jelander|
+C|66857|73|K|Gunilla Wouda|
+C|66858|52|M|Kent Ivarsson|Chaufför, 52 år
+C|66859|39|M|Jimmy Nilsson|
+C|128111|64|M|Sven-Erik Sjöstrand|föreningsarbetare, Perstorp

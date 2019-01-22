@@ -1,10 +1,298 @@
-2|96776|71218|70463|147167|96796|147169|96786|147171|147172|147175|147174|147177|147176|96791|96792|147181|147180|147183|147182|147185|147184|147187|147186|147189|147188|147191|147190|147193|147192|147195|147194|147197|147196|147199|147198|147201|147200|96779|147202|147205|147204|147207|147206|147211|147208|147213|147210|147215|147212|147217|147214|147219|147216|147221|147218|147223|147220|147222|147224|147225
-4|124332|76934|124335|150870|150872|37596|150874|150875|150876|76946|150879|150880|150881|150882|76949|124337|150885|150886
-1272|243255|243256|243257|243258|243259|243260|243261|243262|243263|243264|243266|243267|243268
-68|162111|162112|162113|162114|162115|162116|162117|162118|162119|162120|162121|162122|162123|162124|162125|162126|162127|162128|162129|162130|162131
-3|260896|262022|262023|262024|262025|262026|262027|262028|262029|262030|262031|262032|262033|262034|348276|262035|262036|262037|262038|262039|262484|262485|262486|262487|262488|262489|262490|262491|262492|262493|262494|262495|262496|262497|262498|262499|262500|262501
-55|237384|237385|237386|237387|237388|237389|237390|237391|237393|237394|237395|237396|237397|237673|237399|237400
-1|22826|12787|22833|22830|107054|107055|12811|107057|107058|107059|107060|22839|107062|22835|107064|107065|107066|107067|107068|107069|107070|107071|22842|107073|107074|107075|107076|107077|107078|107079|107080|107081|107082|107083|107084|107086|107087|107088|107089|107090|107091
-131|274981|274982|274983|274984|274985|274986|274987|274988|274989|274990|274991|274992|274993|274994|274995|274996|274997|274998|274999|275000|275001|275002
-110|127651|127652|127653|127654|127655|127656|127657|127658|127659|127660|127661|127662|127663|127664|127665|127666|127667|127668|127669|127670|127671|127672|127673|127674|127675|127676|127677
-5|182448|182449|182450|182451|182452|182453|182454|182455|182457|182458|182459|182460|182461|182462|182463|182464|182465|182466|182467|182468|182469|182470
+T|Haninge
+A|2|96776|71218|70463|147167|96796|147169|96786|147171|147172|147175|147174|147177|147176|96791|96792|147181|147180|147183|147182|147185|147184|147187|147186|147189|147188|147191|147190|147193|147192|147195|147194|147197|147196|147199|147198|147201|147200|96779|147202|147205|147204|147207|147206|147211|147208|147213|147210|147215|147212|147217|147214|147219|147216|147221|147218|147223|147220|147222|147224|147225
+A|4|124332|76934|124335|150870|150872|37596|150874|150875|150876|76946|150879|150880|150881|150882|76949|124337|150885|150886
+A|1272|243255|243256|243257|243258|243259|243260|243261|243262|243263|243264|243266|243267|243268
+A|68|162111|162112|162113|162114|162115|162116|162117|162118|162119|162120|162121|162122|162123|162124|162125|162126|162127|162128|162129|162130|162131
+A|3|260896|262022|262023|262024|262025|262026|262027|262028|262029|262030|262031|262032|262033|262034|348276|262035|262036|262037|262038|262039|262484|262485|262486|262487|262488|262489|262490|262491|262492|262493|262494|262495|262496|262497|262498|262499|262500|262501
+A|55|237384|237385|237386|237387|237388|237389|237390|237391|237393|237395|237396|237397|237673|237399|237400
+A|1|22826|12787|22833|22830|107054|107055|12811|107057|107058|107059|107060|22839|107062|22835|107064|107065|107066|107067|107068|107069|107070|107071|22842|107073|107074|107075|107076|107077|107078|107079|107080|107081|107082|107083|107084|107086|107087|107088|107089|107090|107091
+A|131|274981|274982|274983|274984|274985|274986|274987|274988|274989|274990|274991|274992|274993|274994|274995|274996|274997|274998|274999|275000|275001|275002
+A|110|127651|127652|127653|127654|127655|127656|127657|127658|127659|127660|127661|127662|127663|127664|127665|127666|127667|127668|127669|127670|127671|127672|127673|127674|127675|127676|127677
+A|5|182448|182449|182450|182451|182452|182453|182454|182455|182457|182458|182459|182460|182461|182462|182463|182464|182465|182466|182467|182468|182469|182470
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1272||HANINGEPARTIET
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|131|RS|Rättvisepartiet Socialisterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|96776|44|K|Meeri Wasberg|44, Kommunalråd, Haninge
+C|71218|51|M|Anders Nordlund|51, Enhetschef, Haninge
+C|70463|42|K|Åsa Westlund|42, Riksdagsledamot, Haninge
+C|147167|69|M|Göran Svensson|69, Pensionär, Västerhaninge
+C|96796|47|K|Maria Fägersten|48, Banktjänsteman, Haninge
+C|147169|54|M|Kenneth Forsberg|54, Målare, Vega
+C|96786|48|K|Annett Haaf|48, Kurator, Haninge
+C|147171|48|M|Niclas Lindberg|48, Ekonom, Jordbro
+C|147172|60|K|Ann-Christine Erlandsson|60, Ombudsman If Metall, Tungelsta
+C|147175|28|M|Joakim Spångberg|28, Ombudsman, Handen
+C|147174|70|K|Barbro Nordgren|70, Pensionär, Brandbergen
+C|147177|72|M|Christer Erlandsson|72, fd Ombudsman If Metall, Tungelsta
+C|147176|72|K|Anita Övelius|72, fd Småföretagare, Vendelsö
+C|96791|51|M|Mikko Svensson|51, Museipedagog, Haninge
+C|96792|60|K|Marina Andersson|60, Terapeut, Haninge
+C|147181|20|M|Vusal Quliyev|20, Studerande, Jordbro
+C|147180|56|K|Madeleine Palmgren|56, Pensionär, Brandbergen
+C|147183|60|M|Jorge Galvez|60, Lärare, Handen
+C|147182|69|K|Birgitta Malm Pettersson|69, fd Rektor, Västerhaninge
+C|147185|67|M|Per-Åke Tall|67, Rådgivare, Västerhaninge
+C|147184|65|K|Alette Marie Lindgren Sund|65, Pensionär, Muskö
+C|147187|60|M|Fernando Pereira|60, Undersköterska, Brandbergen
+C|147186|68|K|Marja Väisänen|68, Pensionär, Handen
+C|147189|45|M|Lars Berg|45, Ombudsman Byggnads, Vega
+C|147188|68|K|Kerstin Hedin|68, Pensionär, Handen
+C|147191|60|M|Goran Baban|60, Civilingenjör, Jordbro
+C|147190|74|K|Gerd Sandin|74, Pensionär, Handen
+C|147193|63|M|Lennart Stålnacke|63, Byggnadsarbetare, Tungelsta
+C|147192|65|K|Branislava Jovic|65, Vårdbiträde, Jordbro
+C|147195|52|M|Ulf Rova|52, Bevakningsoperatör/kriminalvårdare, Tungelsta
+C|147194|74|K|Christina Andersson|74, Företagare, Söderby
+C|147197|62|M|Kent Renen Johansson|62, Byggnadsarbetare, Vendelsö
+C|147196|54|K|Mona Mörtling|54, Studerande, Jordbro
+C|147199|66|M|Anders C Lindberg|66, Pensionär, Brandbergen
+C|147198|34|K|Madeleine Ingegård|34, Vårdbiträde, Handen
+C|147201|73|M|Hans Hagenius|73, Pensionär, Brandbergen
+C|147200|62|K|Gunilla Fredlund|62, Kanslist, Brandbergen
+C|96779|33|M|Tomas Jensen|33, Fastighetsskötare, Haninge
+C|147202|84|K|Siv Karlsson|84, fd Kanslichef, Jordbro
+C|147205|42|M|Jonas Pettersson|42, Tekniker, Västerhaninge
+C|147204|73|K|Gunnel Trelje|73, Pensionär, Vendelsö
+C|147207|35|M|Björn Nelson|35, Restaurangbiträde, Handen
+C|147206|26|K|Mona Miljeteig|26, Handläggare, Handen
+C|147211|67|M|Tommy Rådberg|67, Pensionär, Jordbro
+C|147208|60|K|Roja Isaksson|60, Äldrepedagog, Kvarntorp
+C|147213|59|M|Håkan Edeslätt|59, Servicetekniker, Brandbergen
+C|147210|47|K|Lena Berglund|47, Söderby
+C|147215|44|M|Mathias Darnelius|44, Byggnadsträarbetare, Handen
+C|147212|48|K|Jeanette Rova Tano|48, Socionom, Tungelsta
+C|147217|73|M|Bernt Karlborg|73, Pensionär, Handen
+C|147214|28|K|Michelle Liljegren|27, Socialsekreterare, Tungelsta
+C|147219|34|M|Olle Jirving|34, Handen
+C|147216|60|K|Birgitta Tångerby|60, Ordf. Kommunal Sydost, Brandbergen
+C|147221|41|M|Martin Axhusen|41, Pedagog, Jordbro
+C|147218|69|K|Margareta Bernhardsson|69, Pensionär, Ornö
+C|147223|37|M|Dimitrios Soulios|37, Aukt. Redovisningskonsult, Vega
+C|147220|60|K|Gunnel Karlén|60, Verksamhetsansvarig, Tungelsta
+C|147222|72|K|Carina Röjdner|72, Senior, Handen
+C|147224|23|K|Klara Lindgren|23, Cafébiträde, Handen
+C|147225|40|K|Piret Hammarbäck|40, HR generalist, Vega
+C|124332|42|M|Petri Salonen|42, Handen, Kommunalråd
+C|76934|65|K|Ulla-Britt Öhman|65, Haninge, Polis
+C|124335|53|K|Elisabet Sandberg|53, Vendelsö, Miljöinspektör
+C|150870|56|K|Marina Seinegård|56, Barnskötare, Muskö
+C|150872|25|K|Aylin Erdal|25, Civilekonom, Handen
+C|37596|27|M|Anthon Gyllensten|27, Haninge, Kriminalvårdare
+C|150874|54|K|Annica Ullhag|54, Egenföretagare, Västerhaninge-Häringe
+C|150875|33|M|Henning Karlsson|33, Arbetsledare, Västerhaninge
+C|150876|42|K|Viktoria Raft Klevby|42, Kommunikationskonsult, Dalarö
+C|76946|56|M|Peter Svanäng|56, Haninge, Lastbilschaufför
+C|150879|62|M|Håkan Persson|62, Strateg, Vendelsö
+C|150880|43|M|Ahmed Nur Khaire|43, Analytiker, Brandbergen
+C|150881|55|M|Torbjörn Sandberg|55, Försäljningsansvarig, Vendelsö
+C|150882|54|K|Margareta Wilbik|54, Polsk tolk, Handen
+C|76949|55|M|Sven-Olof Kåhre|55, Haninge, IT-tekniker
+C|124337|73|M|Ingwar Åhman-Eklund|73, Årsta havsbad, Skriftställare
+C|150885|69|M|Ronny Castlin|69, Instruktör, Vendelsö
+C|150886|65|M|Raymond Svensson|65, Verksamhetsutvecklare, Årsta Havsbad
+C|243255|49|K|Anna Ragnar|Grundskollärare och journalist
+C|243256|49|M|Anders Ekberg|Servicetekniker
+C|243257|51|K|Ann-Charlotte Pilarp|Redovisningsekonom
+C|243258|47|M|Per Ekström|Sjuksköterska och Egenföretagare
+C|243259|39|K|Marianne Reinemar|Grundskollärare
+C|243260|53|K|Katrin Johansson Uhlmann|Egenföretagare
+C|243261|74|K|Margareta Ekström|Ekonom
+C|243262|40|M|Sasa Draginic|Skiftförman
+C|243263|42|M|Evripidis Kyritsis|VVS-montör
+C|243264|74|M|Olle Ekström|Ingenjör
+C|243266|75|M|Lars Blom|Musiker
+C|243267|82|K|Siv Blixt|Pensionär
+C|243268|46|M|Martin Ragnar|Forskningsdirektör
+C|162111|26|M|Martin Strömvall|26, Politisk sekreterare, Haninge
+C|162112|54|M|Joachim Krylborn|54, Läkare, Västerhaninge
+C|162113|52|K|Kickan Suzanne Enman|52, Personlig assistent, Haninge
+C|162114|40|K|Sara Petersson|40, Lärare, Vendelsö
+C|162115|52|K|Mary Vel|52, Fritidsledare, Haninge
+C|162116|30|M|Patrik Romare|30, Högskoleingenjör, Handen
+C|162117|68|M|Hans Andersson|68, Pensionär, Handen
+C|162118|58|M|Kenth Martell|58, Lärare, Västerhaninge
+C|162119|25|M|Graham Vel|25, Student, Brandbergen
+C|162120|19|M|Sebastian Backman|19, Student, Norrby
+C|162121|21|K|Therese Enman|21, Säljare, Tungelsta
+C|162122|53|M|John Hedberg|53, Administratör, Vega
+C|162123|42|K|Anneli Ahl|42, Sjuksköterska, Jordbro
+C|162124|78|M|Carlo Taccola|78, Entreprenör, Vega
+C|162125|75|K|Berith Jansson|75, Fd. församlingspedagog, Vendelsö
+C|162126|35|K|Laiza Eriksson|35, Läkare, Norra Söderby
+C|162127|22|M|Niklas Enman|22, Elevassistent, Brandbergen
+C|162128|61|M|Lasse Franklin|61, Arbetsförmedlare, Vendelsö
+C|162129|49|M|Stefan Fredin|49, Financial manager, Vega
+C|162130|72|M|Claes Strömvall|72, Jurist, Handen
+C|162131|52|K|Marie Litholm|52, Egenföretagare, Haninge
+C|260896|46|M|Tobias Hammarberg|gymnasiesärskolerektor, Haninge
+C|262022|73|K|Pia Lublin|fd utvecklingschef, Handen
+C|262023|50|M|Göran Florén|företagare, Haninge
+C|262024|41|K|Nina Larsson|Fd. riksdagsledamot, 41, Dalarö
+C|262025|41|K|Josefina Sjöblom|Enhetschef, 41, Vendelsö
+C|262026|34|M|Patrik Lind|statsvetare, Haninge
+C|262027|43|K|Stina Hallberg|ombudsman, Dalarö
+C|262028|65|M|Kjell Bjerrehorn|Tandläkare, 65, Svartbäcken
+C|262029|48|K|Franka Kellermann|Marknadsansvarig, 47, Vega
+C|262030|72|M|Stig Sandahl|fd specialpedagog, Haninge
+C|262031|38|K|Jo-Anna Åkerman|Civilekonom, 38, Ornö
+C|262032|68|M|Björn Hammar|Företagsrådgivare arbetsmiljö och säkerhet, 68, Gålö
+C|262033|51|M|Karl-Anders Molin|Tjänsteman, 51, Västerhaninge
+C|262034|72|M|Matts Wallin|Pensionär, 72, Brandbergen
+C|348276|32|K|Anna Bergkvist|Egenföretagare, 32, Tungelsta
+C|262035|51|M|Teddy Gustafsson|Lärare, 51, Handen
+C|262036|18|K|Cornelia Sjöblom|Studerande, 18, Vendelsö
+C|262037|44|K|Isabella Sundin|Förskollärare, 44, Handen
+C|262038|38|K|Niina Nyström|Restaurangchef, 38, Vendelsö
+C|262039|33|M|Bobby Sundin|Skolkurator, 33, Brandbergen
+C|262484|44|M|Thomas Hultgren|Musikproducent, 44, Västerhaninge
+C|262485|37|M|Jesse Doverland|Säljare, 37, Vendelsömalm
+C|262486|38|K|Jessica Stafström|Trailerproducent, 38, Vega
+C|262487|38|M|Mattias Grundström|Fritidsledare, 38, Vendelsö
+C|262488|32|M|Timmy Sundin|Socialpedagog, 32, Vega
+C|262489|35|K|Maria Krüger|Förskollärare, 35, Herrmanstorp
+C|262490|58|M|Ola Thunqvist|Officer, 58, Västerhaninge
+C|262491|36|M|Elmir Palic|Lagerarbetare, 36, Handen
+C|262492|43|K|Ingrid Villanueva Hammarberg|redovisningsekonom, Haninge
+C|262493|40|M|Andreas Ribbefjord|Egenföretagare, 40, Handen
+C|262494|43|K|Maria Gylling|Kurator/Behandlare, 43, Jordbro
+C|262495|80|K|Kristina Hultgren|Senior frivilligarbetare, 81, Österhaninge
+C|262496|40|M|Mikael Sellberg|säljchef, Västerhaninge
+C|262497|75|M|Wulf Schroeder|Systemutvecklare, 75, Norrby
+C|262498|77|M|Ragnar Hultgren|Frivilligarbetare, 77, Österhaninge
+C|262499|64|K|Gertie Tibblin|Pensionär, 64, Brandbergen
+C|262500|84|M|Göran Asplund|Fd. förbundsombudsman, 84, Västerhaninge
+C|262501|46|M|Stefan Linderholm|Företagare, 46, Herrmanstorp
+C|237384|61|M|Sahir Drammeh|61, webmaster, Haninge
+C|237385|53|K|Annica Hjerling|53, socionom, Haninge
+C|237386|56|M|Mehmet Coksürer|55, egenföretagare, Haninge
+C|237387|48|K|Acer Tuncer|48, skattehandläggare
+C|237388|47|M|Ahmet Ugan|47, egenföretagare, Haninge
+C|237389|36|K|Adama Sowe|36, undersköterska
+C|237390|59|M|Abdelouahid Sofri|59, socialarbetare
+C|237391|69|K|Kerstin Andersson|69, konsult, Haninge
+C|237393|53|K|Elvira Gomero|53, förskollärare
+C|237395|65|K|Maria Björke|65, ekonom
+C|237396|53|M|Ebbe Pettersson|53, fastighetsskötare
+C|237397|55|M|Maher Habta|56, konsult
+C|237673|80|M|Ove Andersson|80, biodlare
+C|237399|38|M|Hussein Nur Siyad|38, bussförare
+C|237400|54|K|Sibel Kirpici|55, sjuksköterska
+C|22826|53|K|Martina Mossberg|53, Kommunalråd
+C|12787|43|K|Alexandra Anstrell|43, Civilekonom
+C|22833|52|M|Sven Gustafsson|52, Politisk sekreterare
+C|22830|67|K|Marietta de Pourbaix-Lundin|67, Pensionär
+C|107054|47|M|Michael Fridebäck|47, Entreprenör, Handen
+C|107055|42|K|Sara Sixten|42, Intendent, Västerhaninge
+C|12811|47|M|Sedat Dogru|47, Företagare
+C|107057|38|K|Veronica Pagard Salem|38, Lärare, Söderby
+C|107058|30|M|Linus Björkman|30, Politisk sekreterare, Vendelsö
+C|107059|55|M|Michael Axelsson|55, Egenföretagare, Vega
+C|107060|28|K|Nonna Karnova|28, Statstjänsteman, Handen
+C|22839|73|M|Kjell Larsson|73, Pensionär
+C|107062|46|K|Pernilla Kjellin|46, Egenföretagare, Norrby
+C|22835|34|M|Kristoffer Eriksson|34, Sälj/IT-ansvarig
+C|107064|74|M|Claus Trolle|74, Pensionär, Jordbro
+C|107065|74|M|Mats Mattsson|74, Pensionär, Tungelsta
+C|107066|74|M|Sverre Ekdahl|74, Pensionär, Västerhaninge
+C|107067|32|M|Joakim Goding|32, PR-Konsult, Handen
+C|107068|67|M|Lennart Törnberg|67, Pensionär, Jordbro
+C|107069|74|K|Charlotte Schröder|74, Guide , Utö
+C|107070|79|K|Birgitta Karlfeldt|79, Pensionär, Haninge
+C|107071|74|M|Lars Lindholm|74, Konsult, Jordbro
+C|22842|38|M|Aidin Philip Saradjzadeh|38, Gruppträningsinstruktör
+C|107073|64|M|Thomas Hjelm|64, Civilingenjör , Utö
+C|107074|26|K|Zandrah Svärd|26, Studerande, Brandbergen
+C|107075|78|M|Henry de Wendel|78, Pensionär, Tungelsta
+C|107076|52|K|Cecilia Ludvin|52, Egenföretagare, Tungelsta
+C|107077|27|M|Mattias Eriksson Mattsson|27, Läkarstudent, Tungelsta
+C|107078|27|K|Karin Eriksson Mattsson|27, Sommelier, Tungelsta
+C|107079|32|M|Kristofer Lundström|32, Student, Handen
+C|107080|32|K|Sabine Schäfer|32, Företagare, Vendelsö
+C|107081|52|M|Mikael Kjellin|52, Kategoriansvarig, Norrby
+C|107082|49|M|Sadik Akan|49, Småföretagare, Brandbergen
+C|107083|61|K|Inger Granberg|61, Undersköterska, Vendelsö
+C|107084|86|M|Lars Rosengren|86, Tandläkare, Handen
+C|107086|20|M|William Olofsson|20, Student, Vega
+C|107087|28|M|Jacob Henriksson|28, IT-tekniker, Västerhaninge
+C|107088|61|K|Yrsa Bringensparr|61, Administratör, Muskö
+C|107089|40|M|Daniel Lassnäs|40, Förskollärare, Jordbro
+C|107090|47|K|Ylva Thomasson|47, Polisinspektör, Årsta Havsbad
+C|107091|50|K|Rosita Larsson|50, Löneadministratör, Vega
+C|274981|38|M|Mattias Bernhardsson|kommunfullmäktigeledamot
+C|274982|31|K|Lina Rigney Thörnblom|kommunfullmäktigeledamot, studerande
+C|274983|32|M|Robert Bielecki|journalist tidningen Offensiv
+C|274984|43|K|Sadia Islam|behandlingsassistent kvinnojour
+C|274985|67|M|James Hogg|pensionär
+C|274986|29|K|Sherihan Hassan|skolkurator
+C|274987|27|M|Marco Maturana|terminalarbetare
+C|274988|48|K|Jamila Zrioui|lokalvårdare
+C|274989|27|M|Tommy Holmberg|tekniker
+C|274990|31|K|Ifrah Hassan|programansvarig våldsprevention
+C|274991|31|M|Stephen Rigney|socialsekreterare
+C|274992|38|K|Silvi Tipan|lokalvårdare
+C|274993|51|M|Mahir Koçak|taxichaufför
+C|274994|70|K|Mi Alforsen|pensionär
+C|274995|32|M|Youssef Boularbah|lärare
+C|274996|40|K|Selda Bicen|personlig assistent
+C|274997|60|M|Rolf Magnusson|köksmästare
+C|274998|58|K|Pari Bakhshi|barnskötare
+C|274999|50|M|Ali Mahmoudi|undersköterska
+C|275000|41|K|Patricia Tipan Leon|lokalvårdare
+C|275001|42|M|Jesper Johansen|vaktmästare
+C|275002|42|K|Katja Raetz|specialistsjuksköterska
+C|127651|42|M|Christian Lindefjärd|42, chaufför, Haninge
+C|127652|24|M|Dennis Askling|Politisk sekreterare, Haninge
+C|127653|58|K|Eva Karlsson|58, konsult, Haninge
+C|127654|75|M|Kennerth Valtersson|75 år, f.d. projektledare, Söderby
+C|127655|47|M|Magnus Malmberg|47, fastighetsförvaltare, Haninge
+C|127656|48|K|Catharina Alderskans|48 år, politisk sekreterare, Vendelsö
+C|127657|57|K|Yvonne Forsberg|57, undersköterska, Haninge
+C|127658|63|M|Thomas Broberg|63 år, projektledare, Vendelsö
+C|127659|65|M|Lage Öhlund|65, fd IT-SamO, Haninge
+C|127660|56|K|Margareta Brunner|56 år, undersköterska, Söderby
+C|127661|66|M|Peter Lindefjärd|66 år, säljare, Vendelsö
+C|127662|55|M|Hans-Johnny Hedström|55 år, ordningsvakt, Jordbro
+C|127663|54|M|Bosse Gaimer|54, IT konsult, Haninge
+C|127664|59|M|Kent Svensson|59 år, ingenjör, Vendelsö
+C|127665|51|K|Erika Olofsson|50 år, kredithandläggare, Tungelsta
+C|127666|64|M|Kjell Brolin|63 år, kriminalinspektör, Dalarö
+C|127667|54|M|Peter Ternström|54 år, ICT-direktör, Vendelsö
+C|127668|43|M|Andreas Hagman|43 år, lärare, Vendelsö
+C|127669|69|K|Annmari Nyzell|70 år, handläggare, Västerhaninge
+C|127670|75|M|Sven Granberg|74 år, fotograf, Vendelsö
+C|127671|18|M|Erik Gisselson|18 år, student, Söderby
+C|127672|46|M|Emil Fredin|46 år, kapten, Dalarö
+C|127673|71|K|Jeanette Muster|71, f.d. butikschef, Haninge
+C|127674|80|M|Göran Bostöm|80 år, ingenjör, Västerhaninge
+C|127675|45|K|Mikaela Andersson|45 år, arbetsrätt, Västerhaninge
+C|127676|69|M|Sixten Magnusson|70 år, f.d. skorstensfejarmästare, Handen
+C|127677|33|K|Therese Nilsson|32 år, växttekniker, Handen
+C|182448|32|M|Samuel Skånberg|Haninge, systemutvecklare
+C|182449|32|K|Sevim Celepli|Socialsekreterare
+C|182450|67|K|Åsa Bååth|Pensionerad undersköterska
+C|182451|30|M|William Friström|Student
+C|182452|62|M|Nafi Cilgin|Socionom
+C|182453|37|K|Pembegül Yilmaz|Lärare
+C|182454|41|K|Wida Rahimi|Biståndshandläggare
+C|182455|31|K|Ebru Genc|Förskollärare
+C|182457|49|K|Marie Nilsson|Facklig ombudsman
+C|182458|41|K|Frida Lyckinger|Optiker
+C|182459|52|K|Margareta Jonsson|Miljöinspektör
+C|182460|77|M|Göran Johansson|Pensionär
+C|182461|32|K|Ellen Skånberg|Folkbidare
+C|182462|64|M|Göran Berg|Betongarbetare
+C|182463|52|K|Anne-Catrin Eneroth|Folkbildare
+C|182464|72|M|Jan O Gustafsson|Fotograf
+C|182465|77|K|Inger Johansson|Pensionär
+C|182466|47|K|BrittLouise Eneroth|Administratör
+C|182467|71|M|Semmy Eld|Pensionär
+C|182468|82|M|Sven Johansson|Pensionär
+C|182469|54|M|Dennis Gustafsson|Egenföretagare
+C|182470|52|M|Harun Tütüncü|Lagerarbetare

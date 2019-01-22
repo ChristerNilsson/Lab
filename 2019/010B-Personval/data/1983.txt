@@ -1,8 +1,214 @@
-2|7152|7153|7154|7155|6346|6184|7158|6349|7160|7161|7162|7163|7164|6353|6360|7249|6370|7251|7252|7253|7254|7255|7258|7257|7260|7259|7262|7261|7264|7263|6374|6339|7268|7267|6356|7269|7272|7271|7274|7273|7276|7275|7277|7278|7279|7280|7281|7282|7283|7284|7285|108167
-4|237421|229276|237423|237424|237425|237426|237427|237428|229278|238672|238673|238674|238675|238676|238677|347640|238678|238679|238680|238681
-68|185433|187976|185452|186921|185456|187980|187981|187982|187983|187984|187985|187986|187987|186918|187989|187990|187991|187992|187993|187994|187995|187996|187997|187998|187999|188000|188001|188002|188004|188005|188006|188007|188008|188009|188010|188011
-3|293543|293544|293545|293546|293547|293548|293549|293550|293551|293552|293553|293554|293555
-55|282968|282969|282970|282971|282972|282973|282974|282975|282976|282977
-1|188|189|190|191|39|193|194|195|196|197|198|199|200|201|202|203|204|205
-110|166974|166993|495582|386431|386434|386435|166982|167014|386432|386438|386433|511276|386441|511282|511283|386439|511286|386440|512838|512845|513624|513720|515892
-5|16571|57496|16746|57498|57499|203542|57500|57501|57502|415077|57504|57505|57506|57507|57508|203552|57509|57510|57511|57512|57513|57514|57515|57516|57517
+T|Köping
+A|2|7152|7153|7154|7155|6346|6184|7158|6349|7160|7161|7162|7163|7164|6353|6360|7249|6370|7251|7252|7253|7254|7255|7258|7257|7260|7259|7262|7261|7264|7263|6374|6339|7268|7267|6356|7269|7272|7271|7274|7273|7276|7275|7277|7278|7279|7280|7281|7282|7283|7284|7285|108167
+A|4|237421|229276|237423|237424|237425|237426|237427|237428|229278|238672|238673|238674|238675|238676|238677|347640|238678|238679|238680|238681
+A|68|185433|187976|185452|186921|185456|187980|187981|187982|187983|187984|187985|187986|187987|186918|187989|187990|187991|187992|187993|187994|187995|187996|187997|187998|187999|188000|188001|188002|188004|188005|188006|188007|188008|188009|188010|188011
+A|3|293543|293544|293545|293546|293547|293548|293549|293550|293551|293552|293553|293554|293555
+A|55|282968|282969|282970|282971|282972|282973|282974|282975|282976|282977
+A|1|188|189|190|191|39|193|194|195|196|197|198|199|200|201|202|203|204|205
+A|110|166974|166993|495582|386431|386434|386435|166982|167014|386432|386438|386433|511276|386441|511282|511283|386439|511286|386440|512838|512845|513624|513720|515892
+A|5|16571|57496|16746|57498|57499|203542|57500|57501|57502|415077|57504|57505|57506|57507|57508|203552|57509|57510|57511|57512|57513|57514|57515|57516|57517
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|7152|65|K|Elizabeth Salomonsson|65 år, Kommunalråd
+C|7153|48|M|Roger Eklund|48 år, Kommunalråd
+C|7154|60|K|Anne Tjernberg|60 år, Enhetschef
+C|7155|70|M|Carl-Inge Westberg|70 år, Pensionär
+C|6346|52|K|Marie Brolin|52 år, Köping
+C|6184|51|M|Jonny Clefberg|52 år, Köping
+C|7158|61|K|Marie Oskarsson|61 år, Barnskötare
+C|6349|54|M|Abdul Qorbani|54 år, Köping
+C|7160|47|K|Anna Eriksson|47 år, Montör
+C|7161|60|M|Börje Eriksson|60 år, Montör
+C|7162|22|K|Shazia Qorbani|22 år, Studerande
+C|7163|29|M|Emil Thunberg|29 år, Ombudsman
+C|7164|67|K|Ritva Sjöholm|67 år, Pensionär
+C|6353|51|M|Per Ågren|51 år, Köping
+C|6360|52|K|Åse Ellingsen Vesper|52 år, Köping
+C|7249|20|M|Valon Pirraku|20 år, Studerande
+C|6370|66|K|Ann-Marie Lundin|66 år, Köping
+C|7251|63|M|Mats Landqvist|63 år, Distriktschef
+C|7252|57|K|Eivor Valcic|57 år, Teletekniker
+C|7253|75|M|Karl-Ivan Viklund|75 år, Pensionär
+C|7254|21|K|Dameana Binjamen|21 år, Ombudsman
+C|7255|32|M|Christian Nålberg|32 år, Industriarbetare
+C|7258|62|K|Lena Vilhelmsson|62 år, Leg Djursjukskötare
+C|7257|44|M|Niklas Nordlund|44 år, Ombudsman
+C|7260|44|K|Malin Åsén|44 år, Behandlingspedagog
+C|7259|46|M|Johan Jansson|46 år, Civilingenjör
+C|7262|57|K|Marie Forsberg|57 år, Köksbiträde
+C|7261|56|M|David Rutström|56 år, Kommunikationskonsult
+C|7264|68|K|Seija Eriksson|68 år, Pensionär
+C|7263|66|M|Taffere Abraha|66 år, Kyrkvaktmästare
+C|6374|30|K|Shabana Haider Amir|30 år, Köping
+C|6339|39|M|Shpetim Pirraku|39 år, Köping
+C|7268|69|K|Else-Marie Jonsson|69 år, Pensionär
+C|7267|34|M|Tobias Back|34 år, Förenings-o näringslivsutvecklare
+C|6356|38|K|Jenny Björklöv|38 år, Köping
+C|7269|48|M|Ulrik Larsson|48 år, Folkbildare
+C|7272|71|K|Gordana Jovanovic|71 år, Pensionär
+C|7271|61|M|Behxhet Ukelli|61 år, Elevassistent
+C|7274|39|K|Antigone Pirraku|39 år, Apotekstekniker
+C|7273|67|M|Hans Winberg|67 år, Pensionär
+C|7276|44|K|Åsa Sandberg|44 år, Arbetssökande
+C|7275|38|M|Torbjörn Eriksson|38 år, CNC-Operatör
+C|7277|55|M|Jan-Erik Karlsson|55 år, Metallarbetare
+C|7278|53|M|Thomas Smedberg|53 år, Truckförare
+C|7279|64|M|Ingvar Duán|64 år, Yrkeslärare
+C|7280|39|M|Salman Ghantaoui|39 år, Studerande
+C|7281|43|M|Jesper Eriksson|43 år, Kundgruppschef
+C|7282|73|M|Torbjörn Soneryd|73 år, Pensionär
+C|7283|72|M|Ingvar Olsson|72 år, Pensionär
+C|7284|65|M|Tommy Viklund|65 år, Applikationsingenjör
+C|7285|81|M|Arne Hedkvist|81 år, Pensionär
+C|108167|41|M|Markus Nyberg|41 år, Elevassistent
+C|237421|53|K|Jenny Adolphson|Butiksmedarbetare, Köping
+C|229276|48|M|Bernt Bergsten|Inspektionsansvarig, Köping
+C|237423|65|K|Silpa Laitio Karlsson|65 år, Egenföretagare, Munktorp
+C|237424|65|K|Birgitta Andersson|Regionråd, Köping
+C|237425|58|M|Lars Isaksson|59 år, Lantbrukare, Munktorp
+C|237426|57|K|Tarja Mikkilä-Pettersson|57 år, Controller, Köping
+C|237427|55|K|Mari Sjöblom|55 år, Lönekonsult, Kolsva
+C|237428|41|M|Niklas Mörth|IT-specialist, Köping
+C|229278|43|M|Patrik Bonér|Lantbrukare, Köping
+C|238672|50|K|Karin Jansson|50 år, Mathantverkare, Himmeta
+C|238673|60|M|Lars Andersson|60 år, Tågtekniker, Kolsva
+C|238674|52|K|Lena Ryberg Ericsson|Äppelodlare, Köping
+C|238675|66|M|Rune Jansson|66 år, Pensionär, Munktorp
+C|238676|66|K|Taina Malmgren|65 år, Arbetsledare, Köping
+C|238677|53|M|Sören Mårtensson|54 år, Egenföretagare, Kolsva
+C|347640|66|M|Juan Ponce|66 år, Maskinoperatör, Köping
+C|238678|28|M|Philip Hansson|28 år, Kock, Köping
+C|238679|24|K|Fanny Pettersson|24 år, Frisör, Köping
+C|238680|57|M|Gheorghe Cojocaru|58 år, Egenföretagare, Kolsva
+C|238681|71|M|Hans Malmgren|71 år, Bonde, Köping
+C|185433|52|K|Anna-Carin Ragnarsson|52, Förskollärare
+C|187976|45|M|Salah Rasho|Företagare, Skogshöjden
+C|185452|56|M|Per Norin|56, Leg. lärare
+C|186921|68|K|Ingrid Broman|68, Förskollärare, Köping
+C|185456|57|M|Kenth Lucas|57, Företagare
+C|187980|37|K|Ebtisam Ibrahim|Idrottslärare, Nygård
+C|187981|52|M|Ingvar Lundstedt|Behandlingsassistent, Östanås
+C|187982|44|K|Daysy Julieth Garay|Företagsekonom, Byjorden
+C|187983|27|K|Julia Bergdahl|Sjuksköterska, Ållesta
+C|187984|83|M|Edvard Ruin|Konsult, Centrum
+C|187985|50|K|Nada Boya|Barnskötare, Nyckelberget
+C|187986|37|M|Kristoffer Andersson|Företagare, Munktorp
+C|187987|61|K|Barbro Mörtzell|Skolsköterska, Himmeta
+C|186918|68|M|Bengt Fred|68, Pastor, Kolsva
+C|187989|52|K|Anna Stefaniak|Lärare, Skogsbrynet
+C|187990|36|M|Elias Karout|Tandtekniker, Nyckelberget
+C|187991|81|K|Inez Kronberg|F.d. gymnastikledare, Skogsbrynet
+C|187992|58|M|Kevork Yousef|Skräddare/Skomakare, Macksta
+C|187993|38|K|Christine Lindberg|Controller, Elund
+C|187994|77|M|Tommy Svanborg|Företagare, Sundänge
+C|187995|36|K|Dareen Lahdo|Montör, Nygård
+C|187996|71|M|Milan Vrbanc|Arbetsledare, Gamla stan
+C|187997|51|K|Ingrid Zetterström|Företagare, Odensvi
+C|187998|39|M|Moneer Jacob|Montör/Revisor, Nygård
+C|187999|43|K|Rim Ibrahim|Kock, Skogsbrynet
+C|188000|46|M|Hanna George|Bilmekaniker, Nygård
+C|188001|45|M|Alaa Mati|Chaufför, Hästhagen
+C|188002|55|K|Anna Jansson|Förtidspensionär, Nyckelberget
+C|188004|38|K|Vanda George|Barnskötare, Hästhagen
+C|188005|77|K|Ragnhild Norin|F.d. barnskötare, Tunadal
+C|188006|55|M|Christian Widera|Sjöman, Skogsbrynet
+C|188007|45|K|Georgina Sabbagh Ugurgel|Undersköterska, Ållesta
+C|188008|71|M|Naem Jakob|Pensionär, Nygård
+C|188009|33|K|Zina Rasho|Undersköterska, Skogshöjden
+C|188010|70|M|Pentti Varpalathi|Pensionär, Karlsdal
+C|188011|31|K|Matilda B Wichmann|Företagare, Himmeta
+C|293543|39|M|Karl Ingström|39, teknikchef
+C|293544|70|M|Iván Czitrom|70, pastor
+C|293545|53|K|Ann-Marie Düring|53, förskollärare
+C|293546|23|K|Joanna Bertilsson|23, undersköterska
+C|293547|50|M|Peter Zetterberg|50, lärare
+C|293548|76|M|Lennart Eriksson|76, fd systemingenjör
+C|293549|34|K|Jaquelin Ingström|34, personlig assistent
+C|293550|47|M|Niklas Holmström|47, projektledare
+C|293551|73|K|Siv Anedda|73, pensionär
+C|293552|66|K|Eva Leonardsson|66, fd utredare
+C|293553|61|K|Annika Bredberg|61, egenföretagare
+C|293554|67|K|Christina Czitrom|67, SFI-lärare
+C|293555|63|M|Viktor Apumaita Mayo|63, svetsare
+C|282968|33|K|Kristina Lindblad|33, lärarvikarie, Köping
+C|282969|57|M|Owe Enarsson|57, transportsamordnare, Köping
+C|282970|44|K|Mia Salminen|45 år, Byggnadsingenjör/Projektledare
+C|282971|69|M|Sune Hedenström|69 år, f.d Vaktmästare
+C|282972|63|K|Christina Wihman|63 år, Biomedicinsk analytiker
+C|282973|56|M|Birger Eriksson|56 år, Lärare
+C|282974|41|K|Hanna Wallstedt|41 år
+C|282975|70|M|Thomas Wihman|70 år, f.d Landstingsråd, Företagsekonom
+C|282976|66|K|Christina Eljansbo Hammarbäck|66, socionom, Köping
+C|282977|71|K|Eva Larspers|71 år, f.d Lärare
+C|188|70|M|Ola Saaw|
+C|189|76|K|Gunvor Sharp|
+C|190|53|M|Mats Lindgren|
+C|191|64|K|Agneta Sellholm|
+C|39|51|M|Mikael Gunnarsson|Produktionstekniker, Köping
+C|193|73|M|David Sharp|
+C|194|74|K|Gerd Holmström|
+C|195|76|M|Torbjörn Holmström|
+C|196|51|K|Cecilia Uggla|
+C|197|66|M|Kent Andersson|
+C|198|46|M|Robert Uggla|
+C|199|62|M|Kent Appelgren|
+C|200|46|K|Ulrika Porthén|
+C|201|46|K|Carina Appelgren|
+C|202|50|K|Pia Öberg|
+C|203|80|K|Marianne Stippich|
+C|204|79|K|Jacqueline Adolfsson|
+C|205|78|M|Svante Uggla|
+C|166974|44|K|Maria Liljedahl|44 år, Regionråd, Köping
+C|166993|35|K|Karolina Glogowska|35 år, Studerande, Köping
+C|495582|45|M|Joakim Öryd|Lastbilschaufför, 45
+C|386431|43|M|Robert Jansson|Transportplanerare, 43
+C|386434|55|M|Johan Filander|IT-tekniker, 55
+C|386435|26|M|Martin Kättström|Skog & Lantbrukare, 26
+C|166982|65|K|Monica Israelsson|65 år, Undersköterska, Kolsva
+C|167014|48|K|Maija Karresmaa Asplund|48 år, Vårdare LSS, Köping
+C|386432|45|M|Fredrik Andersson|Egenföretagare, 45
+C|386438|66|M|Börje Lindström|Egenföretagare, 66
+C|386433|65|M|Göran Eriksson|maskinoperatör, 65
+C|511276|32|M|Samuel Gustavsson|lärarstudent, 32
+C|386441|46|M|Per Andersson|personlig assistent
+C|511282|68|M|Sören Jakobsson|pensionär, 68 år.
+C|511283|76|M|Bo Liljedahl|pensionär, 76
+C|386439|33|M|Kenneth Söderberg|
+C|511286|57|K|Ulla Jakobsson|fd förskolelärare, 57
+C|386440|63|K|Lola Falk|assistent, 63
+C|512838|59|M|Erik Ahlholm|
+C|512845|52|M|Roger Olsson|
+C|513624|56|K|Susanne Arvidsson|
+C|513720|32|M|Johan Järlinge|
+C|515892|42|M|Sani Singh Huttunen|
+C|16571|42|M|Andreas Trygg|42, kommunalråd, Köping
+C|57496|37|K|Sara Sjöblom|37, samtalsterapeut
+C|16746|61|M|Stefan Lundborg|60, vårdare, Köping
+C|57498|47|K|Helen Lindblom|47, industriarbetare
+C|57499|45|M|Håkan Eklund|45, industriarbetare
+C|203542|47|K|Birgitta Hedblom|47, undersköterska
+C|57500|30|K|Alexandra Kivelä|30, maskinoperatör
+C|57501|23|M|Jalal Yosufi|23, statsvetare
+C|57502|53|K|Eva Enqvist-Olsson|53, fritidspedagog
+C|415077|54|M|Mehmet Tosun|54, företagare
+C|57504|59|K|Carina Eriksson|59, dramapedagog
+C|57505|70|M|Kent Enkvist|70, pensionär
+C|57506|60|K|Lena Enkvist|60, arbetslös
+C|57507|59|M|Remzi Tosun|59, egenföretagare
+C|57508|61|K|Yvonne Blücher-Svensson|61, verksamhetschef
+C|203552|38|M|Daniel Löthskog-Kluck|38, konstnär/poet
+C|57509|55|K|Sonia Sandoval-Fransson|55, grundskolelärare
+C|57510|49|M|Tomas Eklund|49, fabriksarbetare
+C|57511|56|K|Eva Andersson|56, enhetschef
+C|57512|68|M|Kenneth Nordberg|68, pensionär
+C|57513|64|M|Tomas Winther|64, tonsättare
+C|57514|65|K|Marianne Edman|65, socionom
+C|57515|45|M|Albert Alanko|45, arbetssökande
+C|57516|79|M|Ove Svensson|79, pensionär
+C|57517|68|M|Ulf Edman|68, pensionär

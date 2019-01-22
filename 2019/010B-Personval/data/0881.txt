@@ -1,11 +1,243 @@
-2|163599|19584|163601|163602|163603|163604|163605|163606|19579|163608|10111|10120|10123|163612|163613|163614|163615|163616|163617|163618|163619|163620|163621|10124|163623|163624|163625|163626|163627|163628|10117|163630|163631|163632|163633|163634|163635|163636|163637|10114|163639|163640|163641|163642|163643|163644|163645|163646|163647
-4|329783|329784|329785|329786|329787|329788|329789|329790|329791|329792|329793|329794|329795|329796|329797|329798|329799|329800|329801|329802|329803|329804|329805|329806|329807|329808|329809|329810|329811|329812|329813|329814|329815|329816|329817|329818|329819|329820|329821|329822|329823|329824|329825|329826|329827|329828
-1388|515662
-471|227052|227053|227054|227055|227056
-68|25226|37557|37572|49074|37573|49076|25236|37564|49079|49080|37568|49082|49083|49084|49085|49086|49087|49088|49089|37577|49091|37565|37578|49094|49095|37576
-3|356262|371918|371919|324681|371921|371922|371923|371924|371925|356267|356258|371928|371929
-55|320550|320551|320552|320553
-1|161704|161705|161706|158888|161708|161709|161710|161711|161712|161713|161714|161715|161716|161717|161718|161719|161720|161721|161722|161723|161724|161725|161726|161727|161728|161729
-107|185897|185898|185899|185900|185901|185902|185903|185904|185905
-110|60987|60988|60989|60990|60991|60992|60993|60994|60995|60996|60997|60998|60999|61000|61001|61002|61003|61004|61005|61006|61007|61008|61009
-5|335215|335216|335217|335218|335219|335221|335222|335223|335224|335225|335226|335227|335228|335229|335230|335232|335233|335234|335236
+T|Nybro
+A|2|163599|19584|163601|163602|163603|163604|163605|163606|19579|163608|10111|10120|10123|163612|163613|163614|163615|163616|163617|163618|163619|163620|163621|10124|163623|163624|163625|163626|163627|163628|10117|163630|163631|163632|163633|163634|163635|163636|163637|10114|163639|163640|163641|163642|163643|163644|163645|163646|163647
+A|4|329783|329784|329785|329786|329787|329788|329789|329790|329791|329792|329793|329794|329795|329796|329797|329798|329799|329800|329801|329802|329803|329804|329805|329806|329807|329808|329809|329810|329811|329812|329813|329814|329815|329816|329817|329818|329819|329820|329821|329822|329823|329824|329825|329826|329827|329828
+A|1388|515662
+A|471|227052|227053|227054|227055|227056
+A|68|25226|37557|37572|49074|37573|49076|25236|37564|49079|49080|37568|49082|49083|49084|49085|49086|49087|49088|49089|37577|49091|37565|37578|49094|49095|37576
+A|3|356262|371918|371919|324681|371921|371922|371923|371924|371925|356267|356258|371928|371929
+A|55|320550|320551|320552|320553
+A|1|161704|161705|161706|158888|161708|161709|161710|161711|161712|161713|161714|161715|161716|161717|161718|161719|161720|161721|161722|161723|161724|161725|161726|161727|161728|161729
+A|107|185897|185898|185899|185900|185901|185902|185903|185904|185905
+A|110|60987|60988|60989|60990|60991|60992|60993|60994|60995|60996|60997|60998|60999|61001|61002|61003|61004|61005|61006|61007|61008|61009
+A|5|335215|335216|335217|335218|335219|335221|335222|335223|335224|335225|335226|335227|335228|335229|335230|335232|335233|335234|335236
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1388||Folkhemmet Sverige
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|107|SPI|SPI Välfärden
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|163599|60|M|Mikael Svanström|Fastighetsskötare, 60år, Nybro
+C|19584|43|K|Martina Aronsson|systemförvaltare, Alsterbro, 43 år
+C|163601|69|M|Stig-Roland Fagergård|Pensionär, 69år, Nybro
+C|163602|65|K|Ann Arleklo|Sjuksköterska, 65år, Orrefors
+C|163603|73|M|Börje Slättman|Lantbrukare, 73år, Ekaryd
+C|163604|48|K|Ronja Ismail|Samverkansledare, 49år, Nybro
+C|163605|39|M|Tobias Fagergård|Avdelningschef, 39år, Nybro
+C|163606|59|K|Ann Hammenholt|Resurslärare, 59år, Alsjöholm
+C|19579|46|M|Anders Lundell|ombudsman, Nybro, 46 år
+C|163608|70|K|BrithLouise Fagerstrand|Pensionär, 70år, Alsterbro
+C|10111|52|K|Martina Andersson|socionom, Nybro, 52 år
+C|10120|58|M|Kaj Göransson|tågklarerare, Bäckebo, 58 år
+C|10123|45|K|Catarina Bentsrud|industriarbetare, Örsjö, 45 år
+C|163612|50|M|Markus Lund|Turistassistent, 50år, Nybro
+C|163613|56|K|Milla Dietrichson|Konsult, 56år, Nybro
+C|163614|63|M|Per-Olof Berg|Tjänsteman, 63år, Nybro
+C|163615|60|K|Ann-Christine Quist-Karlsson|Undersköterska, 60år, Nybro
+C|163616|54|M|Michael Vejrum|Ombudsman, 54år, Nybro
+C|163617|69|K|Wim Bengtsson|Pensionär, 69år, Bäckebo
+C|163618|32|M|Joakim Johansson|Ventilationstekniker, 32år, Nybro
+C|163619|40|K|Natasa Djurovic|Enhetschef, 40år, Nybro
+C|163620|67|M|Lennart Storm|Pensionär, 67år, Nybro
+C|163621|79|K|Ingegerd Lagercrantz|Pensionär, 79år, Alsterbro
+C|10124|62|M|Lennart Andersson|journalist/författare, Nybro, 62 år
+C|163623|75|K|Elsa Petersson|Kantor, 75år, Nybro
+C|163624|69|M|Kennet Eriksson|Pensionär, 69år, Nybro
+C|163625|40|K|Jenny Täck|Kanslist, 40år, Nybro
+C|163626|63|M|Börje Bäckström|Vaktmästare, 63år, Nybro
+C|163627|63|K|Tuija Solin|Undersköterska, 63år, Nybro
+C|163628|47|M|Conny Kolbrand|Cnc-operatör, 47år, Nybro
+C|10117|61|K|Christina Lund|boendestödjare, Nybro, 61 år
+C|163630|52|M|Jonas Karlsson|Industriarbetare, 52år, Nybro
+C|163631|66|K|Anita Engström|Pensionär, 66år, Bäckebo
+C|163632|60|M|Peter Harrysson|Fabriksarbetare, 60år, Nybro
+C|163633|68|K|Lena Jonsson|Pensionär, 68år, Bäckebo
+C|163634|41|M|Tobias Grundberg|IT-Tekniker, 41år, Nybro
+C|163635|79|K|Eva Karlsson|Pensionär, 79år, Orrefors
+C|163636|79|M|Bernt Jonsson|Pensionär, 79år, Nybro
+C|163637|61|K|Anneli Storm|Sjuksköterska, 61år, Nybro
+C|10114|66|M|Anders Oscarsson|tekniker, Bäckebo, 66 år
+C|163639|54|K|Mariana Svanström|Träindustriarbetare, 54år, Nybro
+C|163640|78|M|Börje Ståhl|Pensionär, 78år, Nybro
+C|163641|66|K|Gun-Britt Josefsson|Pensionär, 66år, Alsterbro
+C|163642|66|M|Tore Isaksson|Pensionär, 66år, Alsterbro
+C|163643|71|K|Maria Sundin|Socionom, 71år, Nybro
+C|163644|73|M|Christer Wedell|Pensionär, 73år, Orrefors
+C|163645|65|M|Tommy Karlsson|Arbetshandledare, 65år, Nybro
+C|163646|52|M|Per Petterström|Elevassistent, 52år, Nybro
+C|163647|75|M|Roland Larsson|Pensionär, 75år, Orrefors
+C|329783|58|K|Christina Davidson|58 år, kommunalråd, Nybro
+C|329784|63|M|Lars-Gunnar Hellström|63 år, lantbruksföretagare, Räggekulla
+C|329785|56|K|Bodil Johansson|lärare, Skedebäckshult
+C|329786|54|M|Urban Eliasson|egenföretagare, S:t Sigfrid
+C|329787|51|K|Ingeli Ivansson|landsbygdsföretagare, Rugstorp
+C|329788|42|M|Albert Madebjörk|42 år, drifttekniker, Spakstorp
+C|329789|65|M|Kenneth Petersson|pensionär, Skedebäckshult
+C|329790|59|M|Anders Johansson|undersköterska, Otteskruv
+C|329791|35|K|Anna Lundgren|35 år, administrativ chef, Nybro
+C|329792|36|M|Ismael Alabdullah Sharot|36 år, läkare, Nybro
+C|329793|45|M|Henrik Sandgren|skogsbrukare, Postgården
+C|329794|50|K|Helen Danielsson|planerare, Orrefors
+C|329795|35|M|Henric Gustavsson|gymnasielärare, Södra Bondetorp
+C|329796|52|K|Ann-Mari Johansson|förskollärare, Nybro
+C|329797|62|M|John Jensen|vaktmästare, Nybro
+C|329798|32|K|Emelie Sjöqvist|32 år, studerande, Nybro
+C|329799|34|M|John Averhäll|skogslärare, Parismåla
+C|329800|51|K|Kristina Meyer|församlingshemsvärdinna, Brånahult
+C|329801|44|K|Linda-Marie Erlandsson|farmaceut, Kråksmåla
+C|329802|38|M|Fredrik Bjarnehall|elektriker, Haltemåla
+C|329803|21|K|Matilda Erlandsson|student, Kråksmåla
+C|329804|53|M|Anders Petersson|företagare, Nybro
+C|329805|40|K|Ingrid Alriksson|studie- och yrkesvägledare, Rössbo
+C|329806|48|M|Mattias Edwardsson|egenföretagare, Nybro
+C|329807|34|K|Louise Dabäck|sjuksköterska, Persmåla
+C|329808|65|M|Hans-Åke Andersson|industrielektriker, Lillaverke
+C|329809|41|K|Jenny Johansson|kvalitetsingenjör, Överstatorp
+C|329810|57|M|Ingemar Nilsson|banktjänsteman, Nybro
+C|329811|18|K|Ammy Jonsson|studerande, Agebo
+C|329812|52|M|Johan Karlsson|lantbrukare, Stibbetorp
+C|329813|69|K|Anita Andersson|pensionär, Nybro
+C|329814|40|M|Jason Patterson|industriarbetare, Gullaskruv
+C|329815|53|K|Ing-Marie Rosén|52 år, lärare, Nybro
+C|329816|66|M|Karl-Gustaf Nilsson|lantbrukare, Skårebo
+C|329817|58|M|Göran Löfgren|ekonom, Kolstaden
+C|329818|61|K|Maria Stömne|sfi-lärare, Otteskruv
+C|329819|57|M|Magnus Svensson|egenföretagare, Norra Sävsjö
+C|329820|69|M|Bernt Nordlund|pensionär, Orrefors
+C|329821|54|M|Ingemar Gunnarsson|träarbetare, Nybro
+C|329822|56|K|Susanne Rundström|verksamhetsutvecklare, Nybro
+C|329823|55|M|Bosse Lennartsson|grovsmed, Nybro
+C|329824|64|M|Carl-Axel Hallberg|rektor, Madesjö
+C|329825|61|K|Maria Karlsson|lokalvårdare, Skårebo
+C|329826|20|M|Viktor Kovacs|studerande, Orrefors
+C|329827|56|M|Kjell-Åke Ohlsson|inköpsassistent/säljare, Riddaretorp
+C|329828|68|M|Per-Olof Olofsson|lantbrukare, Björnahult
+C|515662|43|M|Anders Mikael Robert Narkell|
+C|227052|33|M|Johan Karlsson|33 år, personlig assistent.
+C|227053|54|K|Erika Ström|54 år, butiksbiträde.
+C|227054|43|M|Jocke Nyström|43 år, arbetare.
+C|227055|65|M|Pierre Stjernfeldt|65 år, biolog.
+C|227056|27|K|Linnea Almgren|27 år, restaurangbiträde.
+C|25226|38|M|Jimmy Loord|förtroendevald politiker, Nybro
+C|37557|77|K|Bodil Bagert|fil mag, Nybro
+C|37572|37|M|Tobias Callenryd|it-strateg, Nybro
+C|49074|63|K|Ulla Eriksson|receptarie, Svalehult
+C|37573|69|K|Myrthel Tobiasson|sjuksköterska, Slättingebygd
+C|49076|70|K|Lisbeth Carlsson|verksamhetsledare, Flygsfors
+C|25236|52|M|Stefan Lagesson|kulturarbetare, Otteskruv
+C|37564|69|M|Jonny Andersson|civilekonom, Nybro
+C|49079|18|M|Erik Hultskog|studerande, Nybro
+C|49080|64|K|Monica Hugoson|leg sjuksköterska, Nybro
+C|37568|52|K|Karin Johansson|leg arbetsterapeut, Nybro
+C|49082|25|M|Anders Petersson|bibliotekarie, Svalehult
+C|49083|32|M|Jens Loord|produktchef, Nybro
+C|49084|67|K|Inger Andersson|fabriksarbetare, Nybro
+C|49085|82|M|Arnold Andersson|verksamhetsledare, Nybro
+C|49086|32|K|Hanna Loord|undersköterska/sjuksköterskestuderande, Nybro
+C|49087|56|M|Lars Johansson|skogsentreprenör, Skogsby
+C|49088|34|K|Malin Josefsson|receptarie, Resebo
+C|49089|77|M|Liebert Gustavsson|EMC engineer, Bäckebo
+C|37577|84|K|Eira Hultström|lab undersköterska, Nybro
+C|49091|73|M|Anders Duveskog|postiljon, Nybro
+C|37565|59|K|Britt-Marie Andersson|omsorgsassistent, Nybro
+C|37578|75|M|Roberth Duveskog|köpman, Nybro
+C|49094|86|M|Rune Hultström|f d räddningschef, Nybro
+C|49095|75|K|Kerstin Ekryd|förskollärare, Alsterbro
+C|37576|77|M|Sivert Hugosson|diakon, Västra Resebo
+C|356262|36|M|Ola Håkansson|36 år, lärare, Nybro
+C|371918|18|M|Jonathan Lilja|18 år, studerande, Nybro
+C|371919|18|M|Viktor Karlsson|18 år, studerande, Nybro
+C|324681|49|K|Maria Linnér|Speciallärare, ordförande Liberalerna Nybro, Nybro
+C|371921|41|K|Simona Lindgren|Jurist, Målerås
+C|371922|79|K|Birgit Andersson|Pensionär, Nybro
+C|371923|39|M|Mikael Bravin Karlsson|Företagare, personlig assistent, Målerås
+C|371924|55|M|Anders Karlsson|55 år, sågverksarbetare, Nybro
+C|371925|18|K|Nellie Albrektsson|18 år, studerande, Nybro
+C|356267|38|M|Niklas Persson|Nybro
+C|356258|67|K|Birgitta Gustafsson|Fd.biblotikarie, pensionär, Nybro
+C|371928|18|K|Tanja Sundman|18 år, studerande, Nybro
+C|371929|21|K|Elin Oskarsson|21 år, universitetsstudent, Nybro
+C|320550|61|M|John Green|Pedagog
+C|320551|33|K|Malin Ericson|Lärare
+C|320552|34|M|Per Ericson|Behandlingsassistent
+C|320553|63|K|Irmeli Green|Lärare
+C|161704|44|M|Daniel Lindvall|Omsorgspedagog, Kristvalla
+C|161705|68|M|Jan Enarsson|Skogsbrukare, Alsterbro
+C|161706|75|K|Mildred Persson|Rektor, Madesjö
+C|158888|65|K|Monica Ljungdahl|65 år, Leg. sjukgymnast, Nybro
+C|161708|43|K|Jessica Collman|Administratör, Madesjö
+C|161709|69|M|Jan-Olof Harmander|Ingenjör, Nybro
+C|161710|73|M|Sonny Lönngren|Produktchef, Nybro
+C|161711|70|M|Roger Stålbrand|Målarmästare, Nybro
+C|161712|54|M|Torgny Frööjdh|Industriarbetare, Örsjö
+C|161713|68|K|Ann Harmander|Ekonom, Nybro
+C|161714|72|M|Bruno Linnér|Ingenjör, Nybro
+C|161715|65|M|Håkan Fredriksson|Reparatör, Norra Sävsjö
+C|161716|53|K|Karin Heideman|Redovisningskonsult, Orrefors
+C|161717|54|M|Björn Engdahl|Stiftsskogvaktare, Madesjö
+C|161718|44|M|Björn Brosgård|Egen företagare, Madesjö
+C|161719|24|M|Pär Heideman|Butiksansvarig, Orrefors
+C|161720|80|M|Mats Gunnarsson|Egen företagare, Alsjöholm
+C|161721|67|K|Eva Bengtson|Byggnadsingenjör, Pukeberg
+C|161722|64|M|Jan-Åke Karlsson|Egen företagare, Göstorp
+C|161723|41|K|Jenny Andersson|Lärare, Alsjöholm
+C|161724|67|M|Hans I Ljungdahl|Civilekonom, Nybro
+C|161725|63|K|Birgitta Lundgren Enarsson|Skogsbrukare, Alsterbro
+C|161726|61|M|Anders Carlsson|Direktör, Ebbehult
+C|161727|75|K|Gerd Lilja|Förskollärare, Nybro
+C|161728|76|M|Linde Eriksson|Lantbrukare, Flerohopp
+C|161729|73|M|Stig Arvidsson|Ingenjör, Nybro
+C|185897|75|M|Magnus Jeansson|
+C|185898|69|M|Hans Bergström|
+C|185899|64|K|Carina Bergström|
+C|185900|68|M|Ljupco Kocovski|
+C|185901|61|M|Peter Engström|
+C|185902|64|K|Senka Kukobat|
+C|185903|84|M|Nils Duveborn|
+C|185904|64|K|Eva Olsson|
+C|185905|58|K|Vera Kocovska|
+C|60987|45|M|Boris Tomic|omsorgsassistent, Nybro
+C|60988|44|K|Liza Holmkvarn|administratör, Holmen
+C|60989|65|M|Göran Bågenholm|pensionär, Nybro
+C|60990|67|K|Ingegerd Karlsson|pensionär, Nybro
+C|60991|49|M|Johnny Svedin|spec. sjuksköterska, Nybro
+C|60992|56|K|Annette Lindholm|pensionär, Nybro
+C|60993|61|M|Bosse Lindahl|egenföretagare, Nybro
+C|60994|43|M|Angelo Vukasovic|egenföretagare, Nybro
+C|60995|51|K|Jaana Hietala|serviceentreprenör, Nybro
+C|60996|43|M|Patrik Aronsson|lastbilschaufför, Nybro
+C|60997|28|M|Robin Broman|leg. sjuksköterska, Gränö
+C|60998|44|K|Harriet Svedin|hemservice, Nybro
+C|60999|51|M|Mikael Jörgenstam|student, Nybro
+C|61001|55|M|Paul Adolfsson|maskinställare, Nybro
+C|61002|52|M|Lars Kahlbom|hygientekniker, Nybro
+C|61003|48|M|Anders Holmkvarn|elektriker, Holmen
+C|61004|62|K|Lena Johansen|omsorgsassistent, Nybro
+C|61005|69|M|Torgny Tagesson|pensionär, Nybro
+C|61006|39|M|Juan Vergara|omsorgsassistent, Nybro
+C|61007|24|K|Sibel Yakubova|undersköterska, Nybro
+C|61008|49|K|Ewa Lotta Sundström|fabriksarbetare, Nybro
+C|61009|51|M|Per Åkerlund|resemontör, Nybro
+C|335215|59|K|Pia Eriksson|Nybro, Trätekniker
+C|335216|60|M|Anders Svensson|Nybro, Fritidsledare
+C|335217|56|K|Carina Blom|Personlig Assistent
+C|335218|64|M|Jonny Andersson|Nyrbo, Pensionär
+C|335219|64|K|Paz Pizarro|Nybro, Integrationsassistent
+C|335221|45|K|Anita Strömberg|Nybro, Undersköterska
+C|335222|27|M|Anton Thorsson|Metallarbetare
+C|335223|69|K|Cissi Svärdström|Kulturarbetare
+C|335224|61|M|Nick Mobaraki|Omsorgsassistent
+C|335225|60|K|Elsebeth Eltorp|Undersköterska
+C|335226|42|M|Ola Keyser|Boendestödjare
+C|335227|76|K|Brigitte Gunnarsson|Pensionär
+C|335228|51|M|Ola Gullberg|Nybro, Industrielektriker
+C|335229|43|K|Ingela Hansson|43 år
+C|335230|38|M|Naaim Krenbeh|Fritidsledare
+C|335232|28|M|David Johansson|Kommunalarbetare
+C|335233|38|K|Anna Hummel|Lärare
+C|335234|57|M|Ali Mobaraki|Nybro, Lärare
+C|335236|44|M|Kaj Raving|Nybro, Metallarbetare/Politisk Sekreterare

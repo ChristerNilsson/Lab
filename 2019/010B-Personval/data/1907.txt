@@ -1,8 +1,101 @@
-2|31063|6340|31065|6187|31067|31068|6371|31070|6178|6376|31073|31074|6357|31076|31077|6369|31079|31080|31081|31082|31083|31084|31085|31086|31087|31088|31089|31090|6363|31092|31093|31094
-4|195419|195420|195421|195422|195423|195424|195425|195426|195427
-68|186922|193631|193632|193633|193634|193635
-3|297414|297415|297416|290611|297418
-55|401045|401046
-1|11518|11519|11520|11521|11522|11523|11524|11525|89663|11526|11527|11528
-110|75600|75601|75602|75603|75604|75605|75606|487762|149319|511302|514308
-5|16577|57641|334496|16752|57642|334499|334500
+T|Surahammar
+A|2|31063|6340|31065|6187|31067|31068|6371|31070|6178|6376|31073|31074|6357|31076|31077|6369|31079|31080|31081|31082|31083|31084|31085|31086|31087|31088|31089|31090|6363|31092|31093|31094
+A|4|195419|195420|195421|195422|195423|195424|195425|195426|195427
+A|68|186922|193631|193632|193633|193634|193635
+A|3|297414|297415|297416|290611|297418
+A|55|401045|401046
+A|1|11518|11519|11520|11521|11522|11523|11524|11525|89663|11526|11527|11528
+A|110|75600|75601|75602|75603|75604|75605|75606|487762|149319|511302|514308
+A|5|16577|57641|334496|16752|57642|334499|334500
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|31063|42|M|Tobias Nordlander|42 år, Surahammar
+C|6340|37|K|Johanna Skottman|37 år, Surahammar
+C|31065|47|M|Patrik Boström|47 år, Surahammar
+C|6187|30|K|Chatarina Ståhl|30 år, Surahammar
+C|31067|46|M|Rickard Lindblad|46 år, Surahammar
+C|31068|74|K|Christina Waster Jansson|74 år, Ramnäs
+C|6371|74|M|Leif Carlberg|74 år, Surahammar
+C|31070|72|K|Solveig Johansson|72 år, Surahammar
+C|6178|50|M|Olle Thorell|50 år, Surahammar
+C|6376|58|K|Seija Blefors Edqvist|58 år, Surahammar
+C|31073|56|M|Joakim Göransson|56 år, Virsbo
+C|31074|72|K|Inga-Lill Ohldin|72 år, Surahammar
+C|6357|41|M|Cristian Hidalgo|41 år, Surahammar
+C|31076|71|K|Regina Ericsson|71 år, Surahammar
+C|31077|49|M|Abdollah Abdi|49 år, Surahammar
+C|6369|49|M|Kennet Hedlund|49 år, Surahammar
+C|31079|76|M|Kjell Krüger|76 år, Ramnäs
+C|31080|65|K|Christina Kohlén|65 år, Surahammar
+C|31081|40|M|Claes Nilsson|40 år, Ramnäs
+C|31082|49|K|Cecilia Östergren|49 år, Surahammar
+C|31083|55|M|Markku Ollila|55 år, Surahammar
+C|31084|52|K|Ann-Sofie Hesselbäck|52 år, Surahammar
+C|31085|48|M|Jimmie Nilsson|48 år, Surahammar
+C|31086|72|M|Klas Edqvist|72 år, Ramnäs
+C|31087|46|M|Mikael Thesslund|46 år, Surahammar
+C|31088|51|M|Kai Forsgren|51 år, Surahammar
+C|31089|39|K|Hanna Trillkott|39 år, Surahammar
+C|31090|69|M|Lars Johansson|69 år, Surahammar
+C|6363|72|M|Anders Rydell|72 år, Surahammar
+C|31092|73|M|Yngve Ericson|73 år, Surahammar
+C|31093|40|K|Therese Nordlander|40 år, Surahammar
+C|31094|73|M|Anders Tollin|73 år, Surahammar
+C|195419|64|M|Erkki Visti|Ramnäs
+C|195420|62|M|Magnus Åstrand|Seglingsberg
+C|195421|81|M|Inge Larsson|Virsbo
+C|195422|57|K|Ylva Belin|Ramnäs
+C|195423|56|K|Gunilla Hofferek|Virsbo
+C|195424|51|M|Sönke Rickertsen|Seglingsberg
+C|195425|80|M|Alf Olsson|Surahammar
+C|195426|57|M|Sven Björk|Ramnäs
+C|195427|83|K|Inger Karlsson|Surahammar
+C|186922|62|M|Lars-Göran Bärling|62, Socionom, Ramnäs
+C|193631|26|K|Matilda Lööv|Barnskötare
+C|193632|65|M|Dan Haglund|Samhällsbyggnadschef
+C|193633|61|K|Ann-Britt Liljeström Haglund|Löneadministratör
+C|193634|68|K|Barbro Ådahl|Pensionär
+C|193635|73|M|Rodney Ådahl|Pensionär
+C|297414|57|K|Yvonne Gmeiner|57, elevassistent
+C|297415|41|M|Tomas Mood|41, tekniker
+C|297416|48|M|Jonas Rydstedt|48, chaufför
+C|290611|56|K|Marianne Möllerström|56, undersköterska, Surahammar
+C|297418|57|K|Carita Widjeskog|56, säkerhetschef
+C|401045|55|K|Martina Jarnuszak|55 år, Seglingberg
+C|401046|65|M|Kjell Hedlund|65 år, Surahammar
+C|11518|36|K|Johanna Olofsson|Undersköterska, Surahammar
+C|11519|41|M|Lucas Hed|
+C|11520|40|K|Theresé Karlsson|Sjuksköterska, Surahammar
+C|11521|63|K|Lise-Lott Johansson|
+C|11522|40|K|Greta Håkans|
+C|11523|62|M|Per Ahlström|
+C|11524|41|M|Jimmy Håkans|
+C|11525|65|M|Ralf Håkans|
+C|89663|52|K|Åsa Allöv|
+C|11526|61|M|Stefan Lundquist|
+C|11527|56|K|Christina Persson|
+C|11528|67|K|Inger Olofsson|
+C|75600|58|M|Stig Pettersson|58, egenföretagare
+C|75601|35|K|Marina Hedberg|35, undersköterska
+C|75602|40|K|Maria Ihrelius Hvid|39, försäljare
+C|75603|62|M|Conny Johansson|62 år, Jordbrukare, Surahammar
+C|75604|40|M|Milton Hvid|40, egenföretagare
+C|75605|68|M|Roger Elfving|68, pensionär
+C|75606|60|M|Sven Fallgren|60 år, Enhetschef, Surahammar
+C|487762|56|M|Kent Pettersson|41, egenföretagare
+C|149319|44|M|Jan Rissanen|44, produktionschef
+C|511302|61|M|Conny Öholm|
+C|514308|67|M|Jan Hagfors|
+C|16577|48|M|Peter Berg|48, ambulanssjukvårdare, Surahammar
+C|57641|37|M|Ola Olsson|fastighetstekniker
+C|334496|68|K|Tuula Jonasson|undersköterska
+C|16752|47|M|Peter Tuike|47, industriarbetare, Virsbo
+C|57642|50|K|Zdenka Mardetko|undersköterska
+C|334499|42|M|Kim Djursjö|socialpedagog
+C|334500|60|K|Ewa Thorsell|undersköterska

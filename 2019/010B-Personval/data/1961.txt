@@ -1,9 +1,154 @@
-2|74087|74088|74089|74090|74091|74092|6344|74094|74095|74096|74097|74098|74099|74100|74101|74102|74103|74104|74105|74106|74520|74521|74522|74523|74524|74525|74526|74527|6352|6359|74530|74531|74532|74533|74534|74535|74536|74537|74538|74539|74540|74541|74542|74544
-4|184813|184814|184815|184816|184817|184818|184819|184820|184821|184822|184823|184824
-68|185432|188336|186915|186919|188339|188341|185430|188343|185447|188345|188346|188347|188348|188349|188350
-3|290609|291850|291851|291852|291853|291854|291855|291856|291857|291858|291859|291860|291861
-1296|189152
-55|72075|72076|72077|72078|72079|72080|72081
-1|32|88|43|36|14733|14734|14735|48|14737|14738|14739|19928|14741|14742|23647|19932|14740
-110|166563|512250|512251|512252|512253|515680
-5|16584|16748|56917|81191|81192|56918|56919|56920|81196|81395|81197|81198|81199|81200|81201|81202|81203|81204|81205|81206
+T|Hallstahammar
+A|2|74087|74088|74089|74090|74091|74092|6344|74094|74095|74096|74097|74098|74099|74100|74101|74102|74103|74104|74105|74106|74520|74521|74522|74523|74524|74525|74526|74527|6352|6359|74530|74531|74532|74533|74534|74535|74536|74537|74538|74539|74540|74541|74542|74544
+A|4|184813|184814|184815|184816|184817|184818|184819|184820|184821|184822|184823|184824
+A|68|185432|188336|186915|186919|188339|188341|185430|188343|185447|188345|188346|188347|188348|188349|188350
+A|3|290609|291850|291851|291852|291853|291854|291855|291856|291857|291858|291859|291860|291861
+A|1296|189152
+A|55|72075|72076|72077|72078|72079|72080|72081
+A|1|32|88|43|36|14733|14734|14735|48|14737|14738|14739|19928|14741|14742|23647|19932|14740
+A|110|166563|512250|512251|512252|512253|515680
+A|5|16584|16748|56917|81191|81192|56918|56919|56920|81196|81395|81197|81198|81199|81200|81201|81202|81203|81204|81205|81206
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|74087|55|K|Catarina Pettersson|55 år, Strömsholm
+C|74088|71|M|Rolf Hahre|71 år, Hallstahammar
+C|74089|55|K|Mariette Sjölund|55 år, Hallstahammar
+C|74090|50|M|Kjell Ivemyr|50 år, Hallstahammar
+C|74091|70|K|Christina Aspenryd|70 år, Hallstahammar
+C|74092|67|M|Tony Frunk|67 år, Hallstahammar
+C|6344|41|K|Anna-Karin Folkesson|41 år, Hallstahammar
+C|74094|57|M|Rolf Korsbäck|57 år, Hallstahammar
+C|74095|39|K|Jenny Hödefors|39 år, Hallstahammar
+C|74096|51|M|Marijo Edlund|51 år, Hallstahammar
+C|74097|35|K|Elin Laakkonen|35 år, Hallstahammar
+C|74098|69|M|Lennart Andersson|69 år, Hallstahammar
+C|74099|72|K|Birgitta Westman|72 år, Hallstahammar
+C|74100|59|M|Roland Svangren|59 år, Hallstahammar
+C|74101|71|K|Ingvor Regnemer|71 år, Hallstahammar
+C|74102|71|M|Lennart Ahlström|71 år, Hallstahammar
+C|74103|43|K|Sara Frau Kallunki|43 år, Hallstahammar
+C|74104|67|M|Örjan Andersson|67 år, Kolbäck
+C|74105|69|K|Marieanne Matuszewski|69 år, Kolbäck
+C|74106|54|M|Niko Ljevar|54 år, Hallstahammar
+C|74520|52|K|Beate Kristofferson|52 år, Kolbäck
+C|74521|51|M|Lars Jonsson|51 år, Hallstahammar
+C|74522|64|K|Pia Håkansson|64 år, Hallstahammar
+C|74523|74|M|Claes G Aspenryd|74 år, Hallstahammar
+C|74524|51|K|Hayfaa Dabbagh|51 år, Hallstahammar
+C|74525|44|M|Niclas Widell|44 år, Hallstahammar
+C|74526|73|K|Margareta Sundin|73 år, Kolbäck
+C|74527|46|M|Mikael Andersson|46 år, Kolbäck
+C|6352|69|K|Claire Ahlström|69 år, Hallstahammar
+C|6359|76|M|Roger Pistol|76 år, Hallstahammar
+C|74530|70|K|Maria Helena Larsson|70 år, Hallstahammar
+C|74531|72|M|Owe Nilsson|72 år, Hallstahammar
+C|74532|62|K|Lisbeth Wallman|62 år, Hallstahammar
+C|74533|46|M|Stefan Pahlin|46 år, Hallstahammar
+C|74534|55|K|Katarina Söderlund|55 år, Kolbäck
+C|74535|70|M|Tommy Brunnstedt|70 år, Hallstahammar
+C|74536|75|M|Ingmar Sten|75 år, Hallstahammar
+C|74537|74|K|Tuula Koskela|74 år, Kolbäck
+C|74538|36|M|Mattias Bark|36 år, Hallstahammar
+C|74539|79|K|Milka Reljanovic|79 år, Hallstahammar
+C|74540|66|M|Ture Andersen|66 år, Hallstahammar
+C|74541|27|K|Magda Kauranen|27 år, Hallstahammar
+C|74542|52|M|Radwan Ahmad|52 år, Hallstahammar
+C|74544|82|M|Joze Ladic|82 år, Hallstahammar
+C|184813|40|K|Anna Gunstad Bäckman|Ekonomiansvarig, Hallstahammar
+C|184814|60|M|Anders Johannesson|Expert företagarvillkor, Hallstahammar
+C|184815|50|K|Sari Svanström|50 år, Kolbäck
+C|184816|53|K|Marie Westberg|53 år, Kolbäck
+C|184817|57|M|Ulf Olsson|57 år, Kolbäck
+C|184818|71|M|Lars Wilhelmsson|71 år, Hallstahammar
+C|184819|74|K|Marianne Avelin|74 år, Kolbäck
+C|184820|74|M|Lars Säfström|74 år, Kolbäck
+C|184821|68|K|Eva Wilhelmsson|68 år, Hallstahammar
+C|184822|37|K|Özlen Öserol Frejd|36 år, Kolbäck
+C|184823|54|K|Meriem Dürek|54 år, Kolbäck
+C|184824|42|K|Sara Karlberg|42 år, Kolbäck
+C|185432|66|M|Tommy Emterby|66, Chaufför
+C|188336|70|M|Kenth Rydén|Pensionär
+C|186915|69|K|Gun-Brith Rydén|69, Pensionär, Hallstahammar
+C|186919|50|K|Carina Byhlin|50, Undersköterska, Hallstahammar
+C|188339|69|M|Tommy Engström|Tandläkare
+C|188341|76|M|Ratko Peric|Pensionär
+C|185430|20|K|Johanna Ridderström|20, Pedagog
+C|188343|58|M|Mikael Ovesson|IT-konsult
+C|185447|81|K|Ingrid Öhman|81, Pensionär
+C|188345|81|M|Ivan Öhman|Tandläkare
+C|188346|29|K|Johanna Maletic|Studerande
+C|188347|77|M|Karl-Erik Fröjd|Pensionär
+C|188348|61|K|Inger Thuresson|Vaxoperatör
+C|188349|79|K|Margareta Malmström|Pensionär
+C|188350|61|K|Ann-Sofi Dahlgren|Specialpedagog
+C|290609|73|M|Sigge Synnergård|73, pensionär, Kolbäck
+C|291850|70|K|Barbara Kabacinski Hallström|70, konsult, Strömsholm
+C|291851|33|M|David Lindberg|33, logistikchef, Hallstahammar
+C|291852|58|K|Maria Blomberg|58, egenföretagare, Kolbäck
+C|291853|46|K|Maria Andersson Bahri|46, egenföretagare, Strömsholm
+C|291854|64|M|Torfi Sigurdsson|64, ingenjör, Hallstahammar
+C|291855|62|M|Reinder Nispeling|62, ingenjör, Kolbäck
+C|291856|36|M|Endre Rigstad|36, konsult, Hallstahammar
+C|291857|47|M|Richard Erikson|47, student, Hallstahammar
+C|291858|31|K|Julia Lindberg|31, student, Hallstahammar
+C|291859|44|M|Martin Gabrielsson|44, livsmedelsarbetare, Sörstafors
+C|291860|41|K|Anna Rickheden|41, bussförare, Hallstahammar
+C|291861|22|M|Latif Yosefi|22, metallarbetare, Kolbäck
+C|189152|44|M|Gary Johnsén|44 år, Fartygsinspektör, Kolbäck
+C|72075|51|K|Åsa Junkes Kfouri|50, ekonom, Hallstahammar
+C|72076|42|M|Peter Ristikartano|41, ekonom, Kolbäck
+C|72077|39|K|Eleonor Zeidlitz|39 år, Konsult avfall och miljö
+C|72078|39|M|Abdulmotal Suliman|39, undersköterska, Hallstahammar
+C|72079|36|K|Charlott Ristikartano|36 år, Biodlare
+C|72080|40|M|Mikael Zeidlitz|40 år, Lärare
+C|72081|37|M|Rickard Wessman|37 år, Ekonom
+C|32|37|K|Jenny Landernäs|Journalist, Hallstahammar
+C|88|68|M|Hans Strandlund|Företagare, Kolbäck
+C|43|33|K|Isabella Piva Hultström|Sjuksköterska, Hallstahammar
+C|36|65|M|Håkan Freijd|VD/Senior Advisor, Hallstahammar
+C|14733|40|M|Philip Jandovsky|Kommunikatör, Hallstahammar
+C|14734|74|M|Stieg Andersson|Metallurg, Hallstahammar
+C|14735|77|K|Anita Westin Brodd|Fastighetsmäklare, Hallstahammar
+C|48|58|M|Torbjörn Estelli|Verkstadsarbetare, Hallstahammar
+C|14737|40|M|Carl-Johan Hultström|Brandman, Strömsholm
+C|14738|33|K|Elinor Blomqvist|Undersköterska, Kolbäck
+C|14739|75|M|Bertil Bredin|Civilingenjör, Hallstahammar
+C|19928|73|M|Anders Randelius|Bergsingenjör, Hallstahammar
+C|14741|35|M|Fredrik Simonsson|Företagare, Hallstahammar
+C|14742|43|M|Jari Nokkosmäki|Sjökapten, Hallstahammar
+C|23647|73|M|Göran Persson|Pensionär, Kolbäck
+C|19932|65|M|Jan Erik Fallberg|Företagare, Kolbäck
+C|14740|71|K|Alicia Stenfors|Pensionerad läkare, Hallstahammar
+C|166563|50|K|Kirsten Lysgaard|50 år, svetsare, Hallstahammar
+C|512250|69|M|Claes Gustavsson|pensionär, Hallstahammar
+C|512251|66|K|Elisabeth Moser|pensionär, Hallstahammar
+C|512252|61|K|Sigrid Moser-Nyman|mediasäljare, Hallstahammar
+C|512253|61|K|Ewa Björkling|industriarbetare, Kolbäck
+C|515680|44|K|Johanna Thorsén|
+C|16584|67|M|Reijo Tarkka|67, pensionär, Hallstahammar
+C|16748|69|K|Annica Lindholm|68, pensionär/f d handläggare, Kolbäck
+C|56917|71|M|Christer Hansson|pensionerad rektor, Hallstahammar
+C|81191|22|K|Lorin Ismael|förskollärare, Hallstahammar
+C|81192|31|M|Armin Bajric|deltidsbrandman, Hallstahammar
+C|56918|57|K|Lillemor Larsson|vårdare, Kolbäck
+C|56919|75|M|Hans Petersson|pensionär, Hallstahammar
+C|56920|71|K|Inga-Lena Strömberg|leg sjuksköterska, Strömsholm
+C|81196|69|M|Bengt Hultin|pensionär, Kolbäck
+C|81395|59|K|Elisabeth Erngren|undersköterska, Hallstahammar
+C|81197|67|M|Ove Andersson|pensionär, Strömsholm
+C|81198|47|K|Hayat Vural|undersköterska, Hallstahammar
+C|81199|63|M|Kenth Erngren|ekonom, Hallstahammar
+C|81200|40|K|Nuray Serhatt|skolvikarie, Hallstahammar
+C|81201|75|M|Torbjörn Andersson|pensionär, Strömsholm
+C|81202|55|M|Ari Vanhamäki|föreståndare, Hallstahammar
+C|81203|55|M|Björn Westesson|fritidspedagog, Hallstahammar
+C|81204|69|K|Ann-Kristin Mårtensson|lärare, Hallstahammar
+C|81205|54|M|Rolf Mylläri|snickare, Kolbäck
+C|81206|79|K|Ellen Spett|pensionär, Hallstahammar

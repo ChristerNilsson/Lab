@@ -1,10 +1,213 @@
-2|37913|37914|37915|37916|37917|37918|37919|37920|37921|37922|37923|37924|37925|37926|37927|37928|37929|37930|37931|37932|37933|37934|37935|37936|37937|37938|37939|37940|37941|37942|37943|37944|37945|37946|37947|37948|37949|38019|38020|38021|38022|38023|38024|38025|38026|38027|38028|38029|38030|38031|38032|38033|38034|38035|38037|38038|38039|38040|38041
-4|127463|127464|127465|15855|127467|127468|127469|127470|127471|127472|127473|127474|127475|127476|127477|127478|127479|127480|127481
-1333|35233|35234|35235|35236|35237|508316|508317
-68|78141|78142|78143|78144|78145|78146|78147|78148|78149|78150|78151|78152|78153|78154|78155|78156|78157|78158|78159|78160|78161|78162|78163|78164|78165|480135
-1140|480135
-3|204179|234859|204184|234861|234862|212920|234864|234865|234866|234867|234868|234869|234870|234871|234872|234873|234874|234875
-55|374881|374882|374883|374884|374885|233335|374887|374888|374889|374890|374891|374892
-1|1653|149628|149629|149630|149631|149632|149633|149634|149635|149636|149637|149638|149639|149640|149641|149642|149643|149644|149645|149646|149647|149648|149649|149650|149651|149652|149653
-110|126267|126268|126269|126270|126271|126272|126273|126274|126276|126277|126278|126279|500033|508148|508695|508696|512919|515618|515909
-5|318145|230779|342873|230790|493869
+T|Vaggeryd
+A|2|37913|37914|37915|37916|37917|37918|37919|37920|37921|37922|37923|37924|37925|37926|37927|37928|37929|37930|37931|37932|37933|37934|37935|37936|37937|37938|37939|37940|37941|37942|37943|37944|37945|37946|37947|37948|37949|38019|38020|38021|38022|38023|38024|38025|38026|38027|38028|38029|38030|38031|38032|38033|38034|38035|38037|38038|38039|38040|38041
+A|4|127463|127464|127465|15855|127467|127468|127469|127470|127471|127472|127473|127474|127475|127476|127477|127478|127479|127480|127481
+A|1333|35233|35234|35235|35236|35237|508316|508317
+A|68|78141|78142|78143|78144|78145|78146|78147|78148|78149|78150|78151|78152|78153|78154|78155|78156|78157|78158|78159|78160|78161|78162|78163|78164|78165
+A|1140|480135
+A|3|204179|234859|204184|234861|234862|212920|234864|234865|234866|234867|234868|234869|234870|234871|234872|234873|234874|234875
+A|55|374881|374882|374883|374884|374885|233335|374887|374888|374889|374890|374891|374892
+A|1|1653|149628|149629|149630|149631|149632|149633|149634|149635|149636|149637|149638|149639|149640|149641|149642|149643|149644|149645|149646|149647|149648|149649|149650|149651|149652|149653
+A|110|126267|126268|126269|126270|126271|126272|126273|126274|126276|126277|126278|126279|500033|508148|508695|508696|512919|515618|515909
+A|5|318145|230779|342873|230790|493869
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1333|EMP|EMPA(R)TIET
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|37913|53|M|Kenth Williamsson|53 år, Oppositionsråd,Skillingaryd
+C|37914|52|K|Annelie Borgström|52, Ombudsman, Skillingaryd
+C|37915|64|M|Roger Ödebrink|64, Utbildningsansvarig, Vaggeryd
+C|37916|56|K|Carina Ödebrink|56 år, Regionråd,Vaggeryd
+C|37917|44|M|Marijo Corkovic|44, Metallarbetare, Skillingaryd
+C|37918|59|K|Christina Karlsson|60, Administratör, Skillingaryd
+C|37919|68|M|Berry Lilja|68 år, Pensionär,Vaggeryd
+C|37920|55|K|Nadira Kilim|55, Verksamhetsutvecklare, Skillingaryd
+C|37921|53|M|Tommy Ottosson|53, Metallarbetare, Grytås
+C|37922|65|K|Solweig Antonsson|65, Pensionär, Vaggeryd
+C|37923|37|M|Nexhat Shabani|37, Elevcoach, Vaggeryd
+C|37924|74|K|Anita Chestersson|74, Pensionär, Vaggeryd
+C|37925|52|M|Magnus Dauhn|52, Arbetsledare, Vaggeryd
+C|37926|26|K|Mathilda Andersson|26, Studerande, Vaggeryd
+C|37927|74|M|Erik Sjöberg|74, Pensionär, Skillingaryd
+C|37928|50|K|Joy Kanyange|50, Undersköterska, Vaggeryd
+C|37929|44|M|Roger Antonsson|45, Asfaltarbetare, Vaggeryd
+C|37930|67|K|Sonja Kling|67, Biblioteksassistent, Skillingaryd
+C|37931|59|M|Roland Svensson|59, Metallarbetare, Skillingaryd
+C|37932|33|K|Evelina Grimborg|33, Butiksmedarbetare, Skillingaryd
+C|37933|69|M|Bengt Fälth|69, Pensionär, Klevshult
+C|37934|54|K|Anette Petersson|55, Ombudsman, Skillingaryd
+C|37935|45|M|Michel Magnusson|45, Metallarbetare, Vaggeryd
+C|37936|57|K|Sonja Tencic|58, Undersköterska, Skillingaryd
+C|37937|35|M|Besim Matoshi|36, Industriarbetare, Vaggeryd
+C|37938|60|K|Ingegerd Olsson|60, Fanértekniker, Vaggeryd
+C|37939|58|M|Bo Junefjäll|58, Ombudsman, Skillingaryd
+C|37940|76|K|Monica Andersson|76, Pensionär, Skillingaryd
+C|37941|49|M|Patric Ahlberg|49, IT-systemsamordnare, Bratteborg
+C|37942|70|K|Inger Strandlund|70, fd Sjukvårdsbiträde, Hok
+C|37943|38|M|Omar Ahmed|38, Metallarbetare, Vaggeryd
+C|37944|57|M|Håkan Gustafsson|57, Företagare, Vaggeryd
+C|37945|70|M|Per Nord|70, Pensionär, Vaggeryd
+C|37946|75|M|Reine Frisk|75, Pensionär, Vaggeryd
+C|37947|55|M|Kjell Karlsson|55, Säljare, Skillingaryd
+C|37948|33|M|Bekim Matoshi|33, Produktionsledare, Vaggeryd
+C|37949|53|M|Göran Mukka|53, Pumpmaskinist, Skillingaryd
+C|38019|63|K|Tuula Ingner|63 ,Behandlingspedagog, Vaggeryd
+C|38020|63|M|Kenneth Åberg|63, fd Bankman, Vaggeryd
+C|38021|61|K|Anna-Karin Slunge|61, Studie- och yrkesvägledare, Vaggeryd
+C|38022|56|M|Robert Alkemark|55, Ingenjör, Skillingaryd
+C|38023|49|K|Helena Erlandsson|49, Församlingspedagog, Hok
+C|38024|64|M|Thomas Strand|64 år, Riksdagsledamot,Vaggeryd
+C|38025|77|M|Seth Andersson|77, fd Lagerchef, Rastad
+C|38026|72|M|Bengt Sandahl|73, fd Posttjänsteman, Vaggeryd
+C|38027|69|M|Kenneth Bergqvist|69, fd Arbetsmiljöinspektör, Bondstorp
+C|38028|41|M|Brahim Peci|41 år, Lärare,Vaggeryd
+C|38029|75|K|Maj-Britt Johansson|76, fd Undersköterska, Eckersholm
+C|38030|48|M|Claes Johansson|49, Montör, Skillingaryd
+C|38031|75|K|Inger Fröding|75, fd Undersköterska, Vaggeryd
+C|38032|23|M|Mousa Mousa Hussien|23, Fritidsledare, Vaggeryd
+C|38033|18|M|Victor Blixth|18, Studerande, Klevshult
+C|38034|65|M|Bo Josefsson|65, fd Elektriker, Vaggeryd
+C|38035|66|K|Ann-Britt Gustavsson|66, fd Undersköterska, Fagerhult
+C|38037|60|M|Torbjörn Gunnarsson|60, Stödassistent, Vaggeryd
+C|38038|74|K|Christina Gustavsson|74, fd Distriktssköterska, Vaggeryd
+C|38039|62|M|Jan-Erik Andersson|62, Busschaufför, Vaggeryd
+C|38040|79|K|Gullvi Alkemark|80, fd Lokalvårdare, Skillingaryd
+C|38041|78|M|Lars Erik Joakimson|78, fd Lärare, Vaggeryd
+C|127463|63|M|Ulf Abrahamsson|63, Egenföretagare, Vaggeryd
+C|127464|42|K|Anna-Maria Toftgård|42, Församlingsmusiker, Tofteryd
+C|127465|55|M|Jörgen Johansson|55, Egenföretagare, Skillingaryd
+C|15855|67|M|Pelle Philip|67, Egenföretagare, Hålabo
+C|127467|35|K|Ida Philip|35, Vårdadministratör, Bondstorp
+C|127468|58|K|Carina Stridh Bjurhager|58, Specialpedagog, Åker
+C|127469|68|M|Sverker Bernhardsson|68, Pensionär, Vaggeryd
+C|127470|55|M|Sven Samuelsson|55, Säljare, Skillingaryd
+C|127471|35|K|Johanna Malmborg|35, Redovisningskonsult, Tofteryd
+C|127472|61|M|Thomas Mörhed|61, Entreprenör, Mörhult
+C|127473|27|M|Frans Gunnarsson|27, Elektriker, Ljungberg
+C|127474|44|M|Henric Ulfsax|44, Präst, Skillingaryd
+C|127475|34|M|Olof Sjöholm|34, Entreprenadingenjör, Hagshult
+C|127476|54|K|Hillevi Andersson|54, Församlingspedagog, Skillingaryd
+C|127477|58|M|Jan Andersson|58, Lantbrukare, Svenarum
+C|127478|51|M|Fredrik Nord|51, Miljöarbetare, Vaggeryd
+C|127479|74|K|Gunnel Johansson|74, Pensionär, Skillingaryd
+C|127480|59|M|Ulf Berggren|59, Företagare, Åker
+C|127481|46|M|Jonas Rofors|46, Administratör, Byarum
+C|35233|73|M|Lennart Charlie Karlsson|74, Pensionerad Arbetsledare
+C|35234|44|M|Klas Gustavsson|44, Lagerarbetare
+C|35235|44|K|Eva Malmberg|44, Förskollärare
+C|35236|43|K|Jennie Lassen|43, Ekonom
+C|35237|66|K|Ewa Alexandra Karlsson|66, Vårdare
+C|508316|77|M|Rolf Olofsson|77, Kontrollingenjör
+C|508317|67|M|Mats Elmgren|67, Verktygsmakare
+C|78141|61|M|Thomas Axelsson|IT-affärskonsult, Vaggeryd
+C|78142|46|K|Jenny Larsen|IT-projektledare, Vaggeryd
+C|78143|56|K|Maritha Bengtsson|Ekonomiassistent, Skillingaryd
+C|78144|44|M|Christer Sandén|Lärare, Vaggeryd
+C|78145|31|K|Sofia Isaksson|Lärare, Vaggeryd
+C|78146|26|M|Nicklas Nordquist|Snickare, Svenarum
+C|78147|44|K|Viktoria Önneby|Leg. arbetsterapeut, Vaggeryd
+C|78148|46|K|Camilla Ohlsson|Förskollärare, Byarum
+C|78149|38|K|Anna Vingrahn|Redovisningskonsult, Vaggeryd
+C|78150|61|M|Per Pettersson|Processoperatör, Skillingaryd
+C|78151|61|K|Marianne Andersson|Undersköterska, Skillingaryd
+C|78152|46|M|Marcus Rombo|Lärare, Hok
+C|78153|54|K|Maria Ottosson|Distriktssköterska, Vaggeryd
+C|78154|38|K|Hanna Sandén|Tågvärd, Vaggeryd
+C|78155|32|M|Patrik Isaksson|Företagare, Hok
+C|78156|54|K|Monika Klingberg|Skolsköterska, Vaggeryd
+C|78157|53|M|Mats Wisth|Trafikchef, Skillingaryd
+C|78158|38|K|Elisabeth Blom|Barnskötare, Tofteryd
+C|78159|52|K|Birgitta Mellin|Kanslist/församl.musiker, Skillingaryd
+C|78160|54|M|Thomas Frankner|Elevassistent, Skillingaryd
+C|78161|58|K|Rose-Marie Axelsson|Företagare, Vaggeryd
+C|78162|54|M|Stefan Ottosson|Företagare, Vaggeryd
+C|78163|60|K|Gunnel Elg|Behandlingspedagog, Ålaryd
+C|78164|58|M|Kenneth Skoogh|Företagare, Skillingaryd
+C|78165|65|M|Johnny Wackt|Lantbrukare, Bratteborg
+C|480135|45|M|Mathias Johansson|byggmästare, 45, Skillingaryd
+C|204179|50|K|Ewa Magnusson|50, Vaggeryd
+C|234859|45|M|Atacha Adinda|Skillingaryd
+C|204184|33|M|Magnus Thelin|34, Skillingaryd
+C|234861|47|K|Malin Gustavsson|Ekhult
+C|234862|45|M|Kim Andersson|Vaggeryd
+C|212920|66|K|Ann-Christin Holmgren|
+C|234864|50|M|Bjarne Atlefur|Skillingaryd
+C|234865|35|K|Catharina Jalonen|Skillingaryd
+C|234866|44|M|Robert Gurbin|Skillingaryd
+C|234867|44|M|Jerry Karlsson|Skillingaryd
+C|234868|19|M|Abdirahman Mohammed Ahmed|Vaggeryd
+C|234869|59|M|Ken Frick|Hankabo
+C|234870|75|M|Thore Ohlsson|Vaggeryd
+C|234871|65|K|Ulla Hansson|Pålskog
+C|234872|81|M|Daniel Paulsson|Torp
+C|234873|83|M|Per-Olof Persson|Skillingaryd
+C|234874|80|K|Linnéa Hugosson|Skillingaryd
+C|234875|76|M|Sven-Olov Carlsson|Skillingaryd
+C|374881|64|M|Stig-Göran Hultsbo|64 år, egen företagare, Taglarp
+C|374882|38|K|Malin Rehnstedt|38 år, biomedicinsk analytiker, Vaggeryd
+C|374883|57|M|Michael Anderberg|57 år, projektsamordnare, Mölnarp
+C|374884|68|K|Kristin Stark|68 år, f.d. arbetsmarknadschef, Bäck
+C|374885|38|M|Mikael Wahss|38 år, utvecklingschef, Vaggeryd
+C|233335|69|K|Ulla-Carin Djerf|68 år, advokat, Vaggeryd
+C|374887|37|M|Björn Karlsson|37 år, möbelproduktionstekniker, Skillingaryd
+C|374888|34|M|Kristopher Pihlgren|34 år, transportledare, Skillingaryd
+C|374889|64|K|Kerstin Hultsbo|64 år, lärare, Taglarp
+C|374890|39|K|Lisa Andersson|39 år, veterinärassistent, Bäck
+C|374891|50|K|Anette Olsson|50 år, fritidsledare, Vaggeryd
+C|374892|37|K|Josefin Wahss|37 år, tandläkare, Vaggeryd
+C|1653|58|M|Gert Jonsson|58 år, Kommunalråd, Hok
+C|149628|64|K|Ann-Katrin Löfstedt|64 år, Gymnastikdirektör, Vaggeryd
+C|149629|72|K|Gunilla Otterberg|72 år, F.d. egen företagare/säljare, Skillingaryd
+C|149630|70|M|Allan Ragnarsson|Ingenjör, Vaggeryd
+C|149631|72|M|Christer Holmgren|Skolledare, Vaggeryd
+C|149632|53|M|Mats Oskarsson|Pilot, Vaggeryd
+C|149633|74|K|Britt Johansson|Distriktssköterska, Skillingaryd
+C|149634|31|M|Carl Johansson|Företagare, Vaggeryd
+C|149635|54|M|Lars Seger|54 år, Kreatör, Vaggeryd
+C|149636|73|M|Werner Andersson|Ingenjör, Ålaryd
+C|149637|30|M|Adis Begovic|Företagare, Vaggeryd
+C|149638|50|M|Andreas Orre|Exportchef, Skillingaryd
+C|149639|55|K|Linnea Graab|Jurist, Vaggeryd
+C|149640|52|K|Marita Wågesson-Sjöberg|52 år, Föreståndare, Skillingaryd
+C|149641|56|M|Peter Sjöberg|Säljare, Skillingaryd
+C|149642|58|K|Katarina Samuelsson|58 år, Undersköterska, Skillingaryd
+C|149643|56|M|Mats Jonsson|Byggnadsarbetare, Hagshult
+C|149644|53|K|Anita Jonsson|Äldresamordnare, Hok
+C|149645|40|M|Kristofer Flood|Företagare, Tofteryd
+C|149646|71|K|Monica Gabrielsson|Undersköterska, Skillingaryd
+C|149647|54|M|Anders Johansson|Tapetserare, Skillingaryd
+C|149648|36|M|Christian Glöckner|Egen företagare, Skillingaryd
+C|149649|63|K|Eva Arvidsson-Johansson|Ekonomichef, Klevshult
+C|149650|76|M|Sture Filipsson|Företagsledare, Skillingaryd
+C|149651|53|K|Kristina Staude|Ämneslärare, Skillingaryd
+C|149652|57|M|Bengt Staude|VD, Skillingaryd
+C|149653|74|M|Björn Otterberg|Ingenjör, Skillingaryd
+C|126267|63|M|Jan-Olof Svedberg|63, Busschaufför, Skillingaryd
+C|126268|70|M|Jan Sjögren|70, Pensionär, Vaggeryd
+C|126269|62|M|Jan-Erik Aronsson|63, Driftansvarig, Skillingaryd
+C|126270|31|M|Valter Hagström|31 , VVS-företagare, Vaggeryd
+C|126271|82|M|Lars Olof Hindersson|51, produktionstekniker, Vaggeryd
+C|126272|33|M|Niklas Oskarsson|33, CNC-operatör, Vaggeryd
+C|126273|48|M|Patrick Åhlin|48, Fastighetstekniker, Vaggeryd
+C|126274|30|M|Johan Oskarsson|30, svetsare, Vaggeryd
+C|126276|33|M|Christoffer Grimborg|34, Chaufför, Skillingaryd
+C|126277|53|M|Claes Nord|52, arbetsledare, Vaggeryd
+C|126278|70|M|Ingvar Larsson|70, Pensionär, Skillingaryd
+C|126279|30|M|Jan Bomberg|29, anläggare, Vaggeryd
+C|500033|52|M|Lars-Olof Hindersson|
+C|508148|72|M|Stig Svensson|
+C|508695|28|M|Ievgen Mazur|
+C|508696|25|M|Andreas Laszlo|
+C|512919|19|K|Michelle Petersson|
+C|515618|68|K|Monica Eriksson|
+C|515909|49|M|Ola Svensson|
+C|318145|28|M|Martin Damberg|avdelningsledare, Skillingaryd
+C|230779|54|K|Elizabeth Orellana Bravo|undersköterska, Vaggeryd
+C|342873|26|K|Linnéa Lundgren|processledare, Klevshult
+C|230790|61|K|Erica Gunnarsson Kibowa|pedagog, Skillingaryd
+C|493869|62|K|Petra Bertilsson|informatör, Ekeryd

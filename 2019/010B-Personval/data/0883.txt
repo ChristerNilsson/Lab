@@ -1,12 +1,283 @@
-2|177501|8324|8325|8318|19569|177506|177507|8332|177509|8326|8333|177512|177513|177514|8319|177516|177517|177518|8329|177520|177521|177522|177523|8322|177525|8320|177527|177528|177529|8330|177531|177532|177533|8328|177535|177536|177537|177538|177539|177540|177541|177542|177543|224246|177544
-4|299429|329297|329298|299430|299428|299427|299426|329303|329304|329305|299431|329307|329308|329309|299435|329311|329312|299432|329314|329315|329316|329317|329318
-68|30509|36038|36034|25240|36039|36035|25233|48348|36041|48350|36043|36045|48353|36050|36049|36044|36040|36042|36048|48360
-1011|131507|205638
-3|313118|313119|313120|204554|204551|313123|313124|204553|313126|313127
-55|373832|369119|369134|373835|373836|369127|373839|373840|373841|373842|373843|373844|369135
-1|158881|163870|163871|160454|163873|163874|158885|163876|163877|163878|163879|163880|163881|163882|163883|163884|160458|163886|160450|158883|163889|163890|163891|163892|163894|163895|163893|163896|163897|163898|163899|163900|163901|163902|163903|163904|163905|163906
-977|353988|353989|353990|353991|353992|353993|440320|353994|353995|353996|353997|353998|353999|354000|354001|354002|354003|354004|354005|354006|354007|354008|354009|354010|354011|354012|354013|354014|354015|354016|354017|354018|354019|354020|354021|354022|354023|354024
-110|61133|61134|61135|61136|61137|61138|61139|61140|61141|61142|61143|61144|61145|61146|61147|61148|61149|61150|61151|61152|61153|61154|65823
-1201|425032|425033|425034|425035|425036|425037|425038|425039|425040
-5|336759|336760|336761|336762|336763|336764|336765|336766|336767|336768|336769|336770|336771|336772|336773|336774|336775|336776|336777|336778|336779
-27|367636|367637|367638|367639|367640|367641|367642|367643|367644|367645|367646|447774|367648|367649|367650|367651
+T|Västervik
+A|2|177501|8324|8325|8318|19569|177506|177507|8332|177509|8326|8333|177512|177513|177514|8319|177516|177517|177518|8329|177520|177521|177522|177523|8322|177525|8320|177527|177528|177529|8330|177531|177532|177533|8328|177535|177536|177537|177538|177539|177540|177541|177542|177543|224246|177544
+A|4|299429|329297|329298|299430|299428|299427|299426|329303|329304|329305|299431|329307|329308|329309|299435|329311|329312|299432|329314|329315|329316|329317|329318
+A|68|30509|36038|36034|25240|36039|36035|25233|48348|36041|48350|36043|36045|48353|36050|36049|36044|36040|36042|36048|48360
+A|1011|131507|205638
+A|3|313118|313119|313120|204554|204551|313123|313124|204553|313126|313127
+A|55|373832|369119|369134|373835|373836|369127|373839|373840|373841|373842|373843|373844|369135
+A|1|158881|163870|163871|160454|163873|163874|158885|163876|163877|163878|163879|163880|163881|163882|163883|163884|160458|163886|160450|158883|163889|163890|163891|163892|163894|163895|163893|163896|163897|163898|163899|163900|163901|163902|163903|163904|163905|163906
+A|977|353988|353989|353990|353991|353992|353993|440320|353994|353995|353996|353997|353998|353999|354000|354001|354002|354003|354004|354005|354006|354007|354008|354009|354010|354011|354012|354013|354014|354015|354016|354017|354018|354019|354020|354021|354022|354023|354024
+A|110|61133|61134|61135|61136|61137|61138|61139|61140|61141|61142|61143|61144|61145|61146|61147|61148|61149|61150|61151|61152|61153|61154|65823
+A|1201|425032|425033|425034|425035|425036|425037|425038|425039|425040
+A|5|336759|336760|336761|336762|336763|336764|336765|336766|336767|336768|336769|336770|336771|336772|336773|336774|336775|336776|336777|336778|336779
+A|27|367636|367637|367638|367639|367640|367641|367642|367643|367644|367645|367646|447774|367648|367649|367650|367651
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|977|S-V|Socialisterna-Välfärdspartiet
+B|110|SD|Sverigedemokraterna
+B|1201|TJP|TJUSTPARTIET
+B|5|V|Vänsterpartiet
+B|27|VDM|Westerwikspartiet
+C|177501|42|M|Dan Nilsson|Västervik, Säljare, 42 år
+C|8324|25|K|Jessica Kristiansson|sjuksköterska, Västervik, 25 år
+C|8325|26|M|Marcus Fridlund|kontrollrumsingenjör, Västervik, 26 år
+C|8318|35|K|Angelica Katsanidou|administratör, Överum, 35 år
+C|19569|51|M|Tomas Kronståhl|kommunalråd, Hjorted, 51 år
+C|177506|68|K|Margareta Fredriksson|Västervik, Pensionär ,68 år
+C|177507|61|M|Ulf Jonsson|Gunnebo, Bruksarbetare, 61 år
+C|8332|61|K|Ewa Ståhl|undersköterska, Blackstad, 61 år
+C|177509|63|M|Gunnar Jansson|Västervik, Utbildningskoordinator, 63 år
+C|8326|58|K|Maud Lindqvist|undersköterska, Ankarsrum, 58 år
+C|8333|65|M|Krister Örnfjäder|riksdagsledamot, Västervik, 66 år
+C|177512|50|K|Malin Wimmerström|Västervik, Kriminalvårdare, 50 år
+C|177513|59|M|Sharad Bhatt|Västervik, Maskinoperatör, 59 år
+C|177514|65|K|Ann-Margret Knutsson|Västervik, Pensionär, 65 år
+C|8319|55|M|Saad Benatallah|projektledare, Västervik, 55 år
+C|177516|51|K|Gunilla Ekström|Västervik, Kanslist, 51 år
+C|177517|67|M|Pontus Larsson|Västervik, Pensionär, 67 år
+C|177518|42|K|Jenny Ringdahl Malmberg|Gamleby, Gymnasielärare, 42 år
+C|8329|58|M|Åke Jägerö|cnc-operatör, Överum, 58 år
+C|177520|66|K|Berit Tall|Västervik, Egen företagare, 66 år
+C|177521|63|M|Christer Wester|Loftahammar, Pensionär, 63 år
+C|177522|57|K|Katarina Lindberg|Västervik, Kock, 57 år
+C|177523|44|M|Lars Andersson|Västervik, Fritidspedagog/Lärare, 44 år
+C|8322|68|K|Katrin Stagnell|folkhögskolelärare, Västervik, 68 år
+C|177525|40|M|Andreas Johansson|Västervik, CNC-operatör, 39 år
+C|8320|62|K|Lena Segerberg|landstingsråd, Västervik, 62 år
+C|177527|62|M|Tomas Sundell|Västervik, Snickare, 62 år
+C|177528|35|K|Madelene Ståhl|Överum, Undersköterska, 35 år
+C|177529|30|M|Viktor Oskarsson|Västervik, Drifttekniker, 29 år
+C|8330|56|K|Anneli Lyberg|sjuksköterska, Ankarsrum, 56 år
+C|177531|64|M|Hans Söderberg|Gamleby, Studie- och yrkesvägledare, 64 år
+C|177532|63|K|Elisabeth Gunnarsson|Västervik, Ekonom, 63 år
+C|177533|66|M|Jan Björklund|Västervik, Pensionär, 66 år
+C|8328|66|K|Ruth Piatek-Wallin|pensionär, Gamleby, 66 år
+C|177535|45|M|Magnus Österlund|Västervik, Chafför, 39 år
+C|177536|38|K|Elisabeth Johansson|Edsbruk, Undersköterska/Egen företagare, 39 år
+C|177537|59|M|Kent Hirdeland|Västervik, Elevassistent, 59 år
+C|177538|74|K|Irmelie Thörn|Västervik, Pensionär, 74 år
+C|177539|71|M|Yngve Nilsson|Västervik, Pensionär, 71 år
+C|177540|83|K|Birgitta Hederberg|Västervik, Pensionär, 83 år
+C|177541|75|M|Håkan Blohm|Västervik, Pensionär, 75 år
+C|177542|74|K|Kajsa Andersson|Västervik, Pensionär, 74 år
+C|177543|73|M|Ronny Petersson|Ankarsrum, Pensionär, 74 år
+C|224246|26|K|Clara Leijonberg|Västervik, Elevassistent, 26 år
+C|177544|72|M|Torbjörn Segerberg|Västervik, Pensionär, 72 år
+C|299429|67|M|Conny Tyrberg|67 år, kommunalråd, Gladhammar
+C|329297|66|K|Annette Torstensson|66 år, specialpedagog, Gamleby/Hallingeberg
+C|329298|61|M|Kjell-Åke Larsson|61 år, försäljningschef, Solstadström
+C|299430|35|K|Emma Johansson|35 år, lantbruksrådgivare, Loftahammar
+C|299428|51|M|Fredrik Lindwall|51 år, vd välfärdsföretag, Västervik
+C|299427|33|K|Lena Svensson|34 år, förskollärare, Ankarsrum
+C|299426|68|M|Bo Jonsson|68 år, seniorkonsult, Västervik
+C|329303|61|K|Ingela Svensson|61 år, lantbrukare, Odensvi
+C|329304|54|M|Carl-Henrik Eriksson|54 år, reparatör, Dalhem
+C|329305|37|K|Anna Hertzog|37 år, lärare, Blackstad
+C|299431|58|M|Mats Hugosson|58 år, driftsledare/fd kommunalråd, Gamleby
+C|329307|64|M|Håkan Lundgren|63 år, lantbrukare, Gamleby
+C|329308|69|M|Thomas Svensson|69 år, lantbrukare, Loftahammar
+C|329309|38|M|Justin Cruseman|38 år, socialchef, Västervik
+C|299435|31|M|Adam Svensson|31 år, skogsmästare, Odensvi
+C|329311|53|M|Göran Lindberg|53 år, redovisningskonsult, Törnsfall
+C|329312|56|M|Håkan Olovsson|56 år, kyrkvaktmästare, Gladhammar
+C|299432|70|M|Björn Lansman|70 år, pensionär, Västervik
+C|329314|44|M|Otto Jacobsson|45 år, lantbrukare, Västra Ed
+C|329315|33|K|Johanna Skarin|33 år, skogsinspektör, Ukna
+C|329316|77|M|Sven Öberg|77 år, pensionär, Dalhem
+C|329317|37|M|Jonas Svensson|37 år, maskinsäljare, Ankarsrum
+C|329318|46|M|Tobias Keller|46 år, mba projektmanager, Västervik
+C|30509|59|K|Maud Ärlebrant|barnmorska, Västervik
+C|36038|60|M|Lars-Inge Karlsson|ingenjör, Gamleby
+C|36034|72|K|Violet Petersson|diakon, Västervik
+C|25240|55|M|Jorge Chávez|utvecklingsledare, Västervik
+C|36039|68|K|Gunnel Ohlin|socionom, Gamleby
+C|36035|67|M|Gert Gotin|egen företagare, Loftahammar
+C|25233|72|K|Kerstin Lahi|läkare, Västervik
+C|48348|81|M|Göran Juthe|f d typograf, Västervik
+C|36041|57|M|Kent Erlandsson|it-tekniker, Gamleby
+C|48350|34|M|Elias Besheri|egen företagare, Västervik
+C|36043|81|K|Ingrid Juthe|f d distriktssköterska, Västervik
+C|36045|32|K|Aleczandra Svefors|studerande, Västervik
+C|48353|64|K|Christina Jakobsson Chavez|musikpedagog, Västervik
+C|36050|22|M|Alexander Brännlund|studerande, Gamleby
+C|36049|57|K|Mariette Erlandsson|specialpedagog, Gamleby
+C|36044|58|M|Abood Aboode|civilingenjör, Västervik
+C|36040|34|K|Aida Montenegro Cháves|medicinsk sekreterare, Ankarsrum
+C|36042|66|M|Jan Tjörnbo|konsult, Gamleby
+C|36048|70|M|Mart Lahi|läkare, Västervik
+C|48360|63|M|Axel Ärlebrandt|fastighetsskötare, Västervik
+C|131507|41|M|Daniel Ottzen|Djurskötare, Kalmar
+C|205638|31|M|Linus Eriksson|Lantarbetare, Gamleby
+C|313118|63|M|Sverker Thorén|Miljöintresserad lärare, riksdagsledamot 2002-2006, Västervik
+C|313119|47|K|Nina Berge|Specialpedagog, 47 år, Västervik
+C|313120|49|M|Fredrik Lindström|Västervik
+C|204554|72|K|Eva Lindbom|Västervik
+C|204551|69|M|Björn Holgersson|Tandläkare, Västervik
+C|313123|74|M|Lars-Åke Larsson|74 år, nämndeman, fd. skolpsykolog
+C|313124|75|M|Fredrik Andrén|Västervik
+C|204553|71|M|Åke Aldman|Pensionerad överläkare, Västervik
+C|313126|78|K|Evy Knutsen Lindetorp|Västervik
+C|313127|78|M|Ivar Svensson|Företagare, Gamleby
+C|373832|49|K|Akko Karlsson|49 år, Lofta
+C|369119|40|K|Anna Bodjo|40 år, Västervik
+C|369134|46|M|Fredrik Zanton|45 år, Västervik
+C|373835|44|M|Jens Jakowski|44 år, Blackstad
+C|373836|37|K|Emma Blomqvist|37 år, Västervik
+C|369127|66|M|Göran Nordström|66 år, Västervik
+C|373839|58|M|Börje Lund|58 år, Västervik
+C|373840|69|M|Per Sverud|69 år, Västervik
+C|373841|38|M|Tomas Bovinder|38 år, Västervik
+C|373842|48|K|Åza Olofsdotter|48 år, Västervik
+C|373843|75|K|Elisabeth Billingskog-Wiström|75 år, Västervik
+C|373844|72|M|Johnny Wiman|72 år, Ankarsrum
+C|369135|36|M|Marcus Pettersson|36 år, Västervik
+C|158881|55|M|Harald Hjalmarsson|55 år, Oppositionsråd, Västervik
+C|163870|46|K|Christin Rampeltin Molin|46 år, Egen företagare, Västervik
+C|163871|42|M|Jon Sjölander|42 år, Projektledare, Västervik
+C|160454|28|K|Elin Landerdahl|28 år, Skattehandläggare, Västervik
+C|163873|44|K|Helena Sjöholm|44 år, Organisationskonsult, Västervik
+C|163874|55|K|Katarina Andersson|55 år, Egen företagare, Loftahammar
+C|158885|18|K|Alice Erlandsson|18 år, Studerande, Västervik
+C|163876|54|M|Peter Johansson|54 år, Leg. sjuksköterska, Västervik
+C|163877|65|K|Marie Stenmark|65 år, Kemiingenjör, Västervik
+C|163878|49|M|Hans Gustavsson|49 år, Enhetschef, Västervik
+C|163879|71|M|Jan Källmark|71 år, Segelmakare, Västervik
+C|163880|37|M|Gustaf Molin|37 år, Egen företagare, Västervik
+C|163881|77|M|Bertil Gyllenram|77 år, Speciallärare, Västervik
+C|163882|67|M|Erik Torbrand|67 år, Bankdirektör, Västervik
+C|163883|53|M|Jonas Törngård|53 år, Kulturarbetare, Västervik
+C|163884|38|K|Charlotta Svennberg|38 år, Undersköterska, Ankarsrum
+C|160458|60|K|Susanne Jahn Stackelberg|60 år, Kulturarbetare, Ukna
+C|163886|67|K|Mary Lundbäck|67 år, Undersköterska, Västervik
+C|160450|45|K|Magdalena Lidestam|45 år, Arbetsförmedlare, Överum
+C|158883|52|M|Jörgen Andersson|52 år, Riksdagsledamot, Västervik
+C|163889|18|K|Moa Markefjäll|18 år, Studerande, Västervik
+C|163890|67|M|Bo Andersson|67 år, Egen företagare, Västervik
+C|163891|78|K|Yvonne Nilsson|78 år, Pensionär, Västervik
+C|163892|52|M|Erik Synnerstad|52 år, Skogsbrukare, Västra Ed
+C|163894|29|K|Annika Rydberg|29 år, Vårdbiträde, Loftahammar
+C|163895|75|K|Birgitta Jansson|75 år, Pensionär, Västervik
+C|163893|76|K|Ingrid Sten|76 år, Pensionär, Loftahammar
+C|163896|44|M|Magnus Liljander|44 år, Företagare, Västervik
+C|163897|76|K|Tanja Pålsson|76 år, Pensionär, Gamleby
+C|163898|57|K|Mee Särneroth|57 år, Ingenjör, Västervik
+C|163899|60|M|Torbjörn Karlsson|60 år, VD, Ankarsrum
+C|163900|74|M|Bertil Lycke|74 år, Pensionär, Västervik
+C|163901|77|M|Tore Pålsson|77 år, Pensionär, Gamleby
+C|163902|75|M|Bengt Lennhammar|75 år, Byggnadsingenjör, Loftahammar
+C|163903|33|K|Daniella Schöld Jingåker|33 år, Undersköterska, Gamleby
+C|163904|38|K|Veronica Andersson|38 år, Studerande, Gamleby
+C|163905|54|M|Jonas Andersson|54 år, Grafiker, Gamleby
+C|163906|84|M|Åke Elgstrand|84 år, Senior, Gamleby
+C|353988|32|M|Johannes Regell|32 år, elektriker
+C|353989|39|K|Jenny Svensson|39 år, socialpedagog
+C|353990|29|M|Jacob Hoffsten|29 år, sjuksköterska
+C|353991|30|K|Alexandra Isaksson|30 år, sjuksköterska
+C|353992|34|M|Christian Fredriksson|34 år, sjuksköterska
+C|353993|30|K|Sara Rais|30 år, kock
+C|440320|56|M|Peter Iselau|56 år, lärare
+C|353994|63|M|Mats Molin|63 år, kulturarbetare
+C|353995|53|M|Örjan Brink|53 år, fritidsledare, oberoende
+C|353996|25|M|Albin Jansson|25 år, arbetslös elektriker
+C|353997|26|M|Jonathan Hoffsten|26 år, studerande
+C|353998|79|M|Ove Gustavsson|79 år, pensionär
+C|353999|52|M|Anders Södergren|52 år, brevbärare
+C|354000|23|M|August Asp|23 år, student
+C|354001|37|M|Lazgin Kurt|37 år, egenföretagare
+C|354002|25|M|Martin Dimpker|25 år, musiker
+C|354003|22|M|Adam Dimpker|22 år, musiker
+C|354004|23|K|Caroline Dimpker|23 år, butikssäljare
+C|354005|20|M|Daniel Winkler|20 år, personlig assistent
+C|354006|46|M|Stefan Nilsson|46 år, sjukpensionär
+C|354007|44|K|Asya Kondova-Randehed|44 år, barnskötare
+C|354008|70|M|Kjell Randehed|70 år, förvaltare
+C|354009|39|M|Erik Lundgren|39 år, tjänsteman
+C|354010|33|M|Marcus Molin|33 år, takläggare
+C|354011|57|M|Andreas Iordanidis|57 år, elevassistent
+C|354012|36|M|Mattias Johansson|36 år, sjuksköterska
+C|354013|69|M|Krister Mattsson|70 år, kulturarbetare
+C|354014|29|K|Felicia H.Prenne|29 år, student
+C|354015|23|M|Jakob Larsson|23 år, elevassistent
+C|354016|32|M|Pontus Karlsson|32 år, industriarbetare
+C|354017|40|M|Lennart Carlsson|40 år, stödperson
+C|354018|66|K|Babsan Kide|66 år, pensionär
+C|354019|30|M|Daniel Grönqvist|30 år, snickare
+C|354020|30|M|Robert Fröberg|30 år, byggnadsarbetare
+C|354021|41|K|Lonni Johansson|41 år, undersköterska
+C|354022|49|K|Kerstin Gullbrand|48 år, kriminalvårdare
+C|354023|33|M|Karl-Axel Florén|33 år, ventilationsmontör
+C|354024|22|M|Teodor Mattsson|22 år, lagerarbetare
+C|61133|57|M|Bo Karlsson|Politisk sekreterare, Törnsfall
+C|61134|79|M|Tommy Ivarsson|civilingenjör, Västervik
+C|61135|68|M|Christer Molin|egenföretagare, Västervik
+C|61136|75|M|Per-Olof Henningsson|pensionerad sjökapten, Helgenäs
+C|61137|70|K|Anne-Marie Norman|föreläsare, Västervik
+C|61138|68|K|Yvonne Edvardsson|pensionerad undersköterska, Hjorted
+C|61139|50|M|Dan Larsen|vårdarbetare, Västervik
+C|61140|32|M|Daniel Johnsson|mekanisk ingenjör, Västervik
+C|61141|63|M|Lage Henning|datatekniker, Västervik
+C|61142|70|K|Monica Hilmeryd|sjuksköterska, Västervik
+C|61143|57|M|Rashmikant Thakrar|tekniker, Västervik
+C|61144|71|M|Inge Edvardsson|lantbrukare, Hjorted
+C|61145|68|M|Tommy Karmbäck|chaufför, Västervik
+C|61146|70|K|Marianne Henningsson|pensionerad sjuksköterska, Helgenäs
+C|61147|50|M|Morgan Pettersson|f.d. militär, Ukna
+C|61148|56|M|Kenneth Siekas|egenföretagare, Överum
+C|61149|35|M|Leo Carlsson|studerande, Västervik
+C|61150|59|M|Conny Svensson|chaufför, Västervik
+C|61151|80|M|Jan-Eric Hjelmgren|pensionär, Västervik
+C|61152|53|K|Monica Lund|dietkock, Västervik
+C|61153|67|M|Sten Lander|turistassistent, Västervik
+C|61154|67|K|Ingalill Jonsson|lokalvårdare, Västervik
+C|65823|57|K|Kerstin Hellström|busschaufför, Västervik
+C|425032|67|M|Lennart Brewitz|Lärare
+C|425033|81|M|Stig Blomfeldt|Fil.mag./Lärare
+C|425034|72|K|Mona Schiller|Konstnär/Lärare
+C|425035|69|M|Torgny Kindh|Miljökonsult
+C|425036|74|M|Jan-Gunnar Johansson|Elektriker
+C|425037|67|M|Olle Hermansson|Kraftledningsprojektör
+C|425038|45|K|Jennifer Andersson|Studerande
+C|425039|72|M|Peter Wihlborg|Instrumentmakare
+C|425040|41|M|Fredrik Andersson|Biodlare
+C|336759|69|K|Mariann Gustafsson|Västervik
+C|336760|28|M|Andreas Rindbäck Wallin|Västervik, Skattehandläggare
+C|336761|68|M|Leif Svensson|Västervik, Egenföretagare
+C|336762|55|K|Carin Skoog|
+C|336763|28|M|Ludvig Werner|
+C|336764|22|K|Emmie Åberg|
+C|336765|30|M|Linus Källman|
+C|336766|59|K|Elisabet Sandgrim|
+C|336767|29|M|Jan Nilsson|
+C|336768|74|M|Staffan Folke|
+C|336769|39|M|Daniel Gynnerfelt|
+C|336770|52|M|Magnus Stavbom|Västervik, Trädgårdsmästare
+C|336771|41|M|Rickard Meijer|
+C|336772|51|K|Åsa Bertilsson|
+C|336773|75|M|Anders Sjöberg|
+C|336774|65|M|Per Karlsson|
+C|336775|73|K|Ann-Sofi Kronvall|
+C|336776|56|M|Astor Lundquist|
+C|336777|66|K|Marianne Carse|
+C|336778|69|M|Per-Gunnar Åberg|
+C|336779|49|K|Maria Andersson|
+C|367636|76|M|Hans Ellervik|
+C|367637|42|K|Jenny Broholm|
+C|367638|53|M|Jonas Jalkteg|
+C|367639|46|K|Susanne Rehorn|
+C|367640|49|M|Tobias Ahlstedt|
+C|367641|62|K|Mimmi Bäckman|
+C|367642|69|M|Kenneth Lind|
+C|367643|74|K|Kajsa Borg|
+C|367644|75|M|Lennart Engren|
+C|367645|60|K|Margareta Eriksdotter|
+C|367646|69|M|Börje Brorsson|
+C|447774|76|M|Anders Brandin|
+C|367648|74|M|Dan Wallin|
+C|367649|68|M|Kenneth Andersson|
+C|367650|52|M|Peter Holgersson|
+C|367651|79|M|Wello Ruisla|

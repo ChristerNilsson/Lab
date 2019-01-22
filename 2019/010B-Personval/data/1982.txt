@@ -1,8 +1,127 @@
-2|6188|28823|28824|28825|28826|28827|28828|28829|28830|28831|28832|28833|28834|6354|6365|28837|28838|28839|28840|28841|28842|28843|28844|28845|28846|28847|28848|28849|28850|28851|28852|28853|28854|28855|28856|28857|28858|28859
-4|198403
-3|291359|290608|291361|291362|291363|400489|291365
-55|283738|283739
-1|9842|9843|9844|9845|9846|9847|9848|9849|9850|9851|9852|9853|9854|9855|9856
-500|26634|26635|26636|26637|26638
-110|75015|75016|75017|75018|75019|75020|75021|75022|75023|75024|487708|513408|514943|513409|515716|515717|515902|515903|515904|515905
-5|16744|142435|56771|16578|56773|142439|56774|56775|142442|56776|56777|56778|56779|56780|56781|56782|56783|142451|142452|142453|56784|56785|56786
+T|Fagersta
+A|2|6188|28823|28824|28825|28826|28827|28828|28829|28830|28831|28832|28833|28834|6354|6365|28837|28838|28839|28840|28841|28842|28843|28844|28845|28846|28847|28848|28849|28850|28851|28853|28854|28855|28856|28857|28858|28859
+A|4|198403
+A|3|291359|290608|291361|291362|291363|400489|291365
+A|55|283738|283739
+A|1|9842|9843|9844|9845|9846|9847|9848|9849|9850|9851|9852|9853|9854|9855|9856
+A|500|26634|26635|26636|26637|26638
+A|110|75015|75016|75017|75018|75019|75020|75021|75022|75023|75024|487708|513408|514943|513409|515716|515717|515902|515903|515904|515905
+A|5|16744|142435|56771|16578|56773|142439|56774|56775|142442|56776|56777|56778|56779|56780|56781|56782|56783|142451|142452|142453|56784|56785|56786
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|500|SjvU|Sjukvårdspartiet - Västmanland
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|6188|42|M|Marino Wallsten|42 år, Fagersta
+C|28823|45|K|Åsa-Märta Sjöström|45 år, Samordnare
+C|28824|49|M|Niclas Bergström|49 år, CNC Operatör
+C|28825|68|K|Eleonor Wikman|68 år, Pensionär
+C|28826|47|M|Gustav El Rachidi|47 år, Senior Manager
+C|28827|52|K|Lena Eldståhl|52 år, Lokalvårdare
+C|28828|64|M|Sune Andersson|64 år, Elektriker
+C|28829|45|K|Ulrika Skoglund|45 år, Socionom
+C|28830|61|M|Bengt Lindgren|61 år, Metallarbetare
+C|28831|26|K|Tove Eldstål|26 år, Fritidsfröken
+C|28832|41|M|Rikard Eriksson|41 år, Folkbildare
+C|28833|72|K|Gertraude Bergström|72 år, Pensionär
+C|28834|41|M|Mikael Björlestrand|41 år, HR-administratör
+C|6354|70|K|Marjatta Nurmi|70 år, Fagersta
+C|6365|38|M|Tony Himmler|38 år, Fagersta
+C|28837|32|K|Anna Hynynen|32 år, Industriarbetare
+C|28838|31|M|Sadeq Abdi Ade|31 år, Integration samordnare
+C|28839|33|K|Birgitta Johansson|33 år, Måltidsbiträde
+C|28840|47|M|Kursat Kilickiran|47 år,
+C|28841|53|K|Eva Söderblom|53 år,
+C|28842|66|M|Erkki Lyly|66 år, Pensionär
+C|28843|68|K|Gunilla Sundberg|68 år, Pensionär
+C|28844|51|M|Stefan Strandberg|51 år, Säljare
+C|28845|53|K|Helena Nygårds|53 år, Dramapedagog
+C|28846|25|M|Andreas Hellström|25 år, Sågverksarbetare
+C|28847|51|K|Kerstin Jansson|51 år, Operatör
+C|28848|37|M|Robert Berggren|37 år, Stödboende ansvarig
+C|28849|48|K|Ann-Mari Söderberg|48 år, Logistiker
+C|28850|59|M|Lars Piirhonen|59 år, Metallarbetare
+C|28851|69|K|Sinikka Pesonen|69 år, Pensionär
+C|28853|38|K|Ann-Louise Ruutikainen|38 år, Operatör
+C|28854|56|M|Mikael Norman|56 år, Arbetsmiljösamordnare
+C|28855|19|K|Linnéa Costa Lindgren|19 år, Student
+C|28856|74|M|Arne Nordqvist|74 år, Pensionär
+C|28857|43|M|Stefan Nykvist|43 år, Huvudskyddsombud
+C|28858|74|M|Tom Selnes|74 år, Pensionär
+C|28859|42|M|Jesper Andersen|42 år, Metallarbetare
+C|198403|46|M|Hamse Omar|Lärare, Fagersta
+C|291359|73|M|Magnus Bohman|f.d. IT- och ekonomichef
+C|290608|72|K|Anita Lilja-Stenholm|72, f.d. rektor, Fagersta
+C|291361|75|K|Kristina Hellman|företagare
+C|291362|70|M|Rolf Rantala|företagare
+C|291363|68|K|Arja Alatalo|f.d. industriarbetare
+C|400489|33|K|Eden Woldeab|studerande
+C|291365|67|M|Göran Håkansson|f.d. avdelningschef
+C|283738|75|M|Jarl-Olof Lundstedt|74, hälsoekonom, Fagersta
+C|283739|74|M|Sten Muhammed Yussif Widhe|74 år f.d Överläkare
+C|9842|73|M|Jan Johansson|Produktchef
+C|9843|60|M|Dick Helsing|Bitr. avdelningsföreståndare
+C|9844|56|M|Christian Eriksson|Marketing Coordinator
+C|9845|22|K|Isabelle Helsing|Sjuksköterskestudent
+C|9846|31|M|Andreas Norgren|CNC-operatör
+C|9847|50|K|Maria Lang Larsson|Undersköterska
+C|9848|49|M|Kjell Granqvist|Entreprenör
+C|9849|75|K|Gunilla Molin|Gymnasielärare
+C|9850|75|M|Bo Johnsson|Konsult
+C|9851|45|M|Lennart Andersson|Företagare
+C|9852|53|K|Annelie Lindh|Kommunikatör
+C|9853|66|M|Leif Larsson|Ingenjör
+C|9854|23|M|Hampus Eriksson|Snickare
+C|9855|62|M|Stefan Cronberg|Sales Manager
+C|9856|66|K|Inger Lindahl Johansson|Ekonomibiträde
+C|26634|71|K|Barbro Norström|Sjuksköterska
+C|26635|40|M|Mats Olander|Säljledare
+C|26636|70|K|Solfrid Libäck-Lundstedt|Lärare
+C|26637|80|M|Gunnar Stenås|Bergsingenjör
+C|26638|81|K|Ingrid Asplund|Sjuksköterska
+C|75015|38|K|Anina Laroma|38, riksombudsman
+C|75016|66|K|Gunilla Dahlberg Malmén|66, egenföretagare
+C|75017|49|M|Håkan Karlström|48, CNC-tekniker
+C|75018|60|M|Bertil Fredriksson|61, boendestödjare
+C|75019|46|M|Christer Borg|46 år, Företagare, Fagersta
+C|75020|43|M|Johan Nilsson|43, rörmontör
+C|75021|54|M|Patrik Holm|54, bergarbetare
+C|75022|67|M|Rolf Malmén|67, ekonom
+C|75023|61|M|Bengt-Åke Jönsson|61, eltekniker
+C|75024|70|M|Christer Falk|70, pensionär
+C|487708|44|M|Walter Eduardo Gonsalez|44, chaufför
+C|513408|44|K|Jenny Persson|45, administratör
+C|514943|45|M|Niklas Eriksson|45, vicevärd
+C|513409|50|K|Katariina Sartesuo Sahlqvist|
+C|515716|39|M|Kimmo Silander|
+C|515717|19|K|Jenna Aarnio Olkkonen|
+C|515902|20|M|Alexander Kristensen|
+C|515903|45|M|Dennis Aarnio|
+C|515904|53|K|Marianne Nordin|
+C|515905|42|K|Jessika Eriksson|
+C|16744|57|M|Hans Granlund|57, projektledare, Fagersta
+C|142435|54|K|Linda Normann|speciallärare
+C|56771|63|M|Stig Henriksson|sjukgymnast
+C|16578|70|K|Elisabeth Hanning|70, pensionär, Fagersta
+C|56773|50|M|Stefan Johansson|industrimekaniker
+C|142439|48|K|Anna Ström|undersköterska
+C|56774|26|M|Marcus Carlsson|resurs
+C|56775|56|K|Nana Abdul Sater|journalist-lärare
+C|142442|18|M|Gabriel Johansson|studerande
+C|56776|47|K|Cali Qamar Xasan|lärare
+C|56777|72|M|Tomas Ulfborg|fd bankman
+C|56778|42|K|Marina Lundquist|sångerska
+C|56779|72|M|Hans-Åke Berlin|pensionär
+C|56780|69|K|Kristina Bergman|pensionär
+C|56781|46|M|Nedjo Todorovic|läkarkandidat
+C|56782|76|K|Majlise Svedemo|pensionär
+C|56783|51|M|Teemu Sulin|fritidsledare
+C|142451|72|M|Lars Nordström|fd målare
+C|142452|50|M|Umar Abu Chaqra|studiehandledare/egenföretagare
+C|142453|44|M|Mattias Välimaa|systemadministratör
+C|56784|78|M|Lennart Björk|pensionär
+C|56785|64|M|Shiro Biranvand|akupunktör
+C|56786|72|M|Martti Narkiniemi|pensionär

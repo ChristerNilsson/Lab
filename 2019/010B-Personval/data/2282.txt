@@ -1,11 +1,187 @@
-2|105262|67818|105273|160947|67819|160949|67811|160951|67797|67800|160954|67806|160956|160957|160958|105274|160960|160961|160962|160963|160964|160965|160966|160967|160968|163935|160969|160970|160971|160972|160973|160974|160975|160976|160977|160978|160979|67810|160981|160982|160983|160984|160985|160986|160987|160988|160989|160990|160991|160993|160992|160995|160994|160997|160996|160998|160999|161000|67805|161002|161003
-4|12859|12860|12861|12862|12863|12864|12865|12866|12867|12868|12869|12870|12871|12872|12873|12874|12875|12876|12877|12878|12879|12880|12881|12882|12883|12884|12885|12886|12887|12888
-532|515116|515117
-68|19402|19401|19403|19404|19405|19406|19407|19400
-1011|132657
-3|277652|277268|277236|277656|277257|277657|277658|277659
-55|130884|130885|130886|130887|130888|130889
-1|188698|188699|188700|188701|188702|188703|188704|188705|188706
-1378|515783|515784|515786|515788|515825|515826
-110|360717|360101|360104|360720|360124|360147|360148|510809|512644|514996|515900|515901
-5|113898|113899|113900|113901|113902|113903|113904|113905|113906|113907|113908|113909|113910|113911|113912|113913|113914|113915|113916|113917|113918
+T|Kramfors
+A|2|105262|67818|105273|160947|67819|160949|67811|160951|67797|67800|160954|67806|160956|160957|160958|105274|160960|160961|160962|160963|160964|160965|160966|160967|160968|163935|160969|160970|160971|160972|160973|160974|160975|160976|160977|160978|160979|67810|160981|160982|160983|160984|160985|160986|160987|160988|160989|160990|160991|160993|160992|160995|160994|160997|160996|160998|160999|161000|67805|161002|161003
+A|4|12859|12860|12861|12862|12863|12864|12865|12866|12867|12868|12869|12870|12871|12872|12873|12874|12875|12876|12877|12878|12879|12880|12881|12882|12883|12884|12885|12886|12887|12888
+A|532|515116|515117
+A|68|19402|19401|19403|19404|19405|19406|19407|19400
+A|1011|132657
+A|3|277652|277268|277236|277656|277257|277657|277658|277659
+A|55|130884|130885|130886|130887|130888|130889
+A|1|188698|188699|188700|188701|188702|188703|188704|188705|188706
+A|1378|515783|515784|515786|515788|515825|515826
+A|110|360717|360101|360104|360720|360124|360147|360148|510809|512644|514996|515900|515901
+A|5|113898|113899|113900|113901|113902|113903|113904|113905|113906|113907|113908|113909|113910|113911|113912|113913|113914|113915|113916|113917|113918
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1378||Norrlandspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|105262|27|M|Peter Hedberg|27 år, Kramfors
+C|67818|42|K|Malin Svanholm|42 år, Kramfors
+C|105273|65|M|Jan Sahlén|65 år, Bjärtrå
+C|160947|60|K|Eva Lygdman|60 år, Förskollärare, Väja
+C|67819|52|M|Thomas Näsholm|52 år, Kramfors
+C|160949|60|K|Gudrun Sjödin|59 år, Ekonomiassistent, Lugnvik
+C|67811|45|M|Jonne Norlin|45 år, Kramfors
+C|160951|64|K|Eleonora Asplund|64 år, Postanställd, Kramfors
+C|67797|39|M|Robert Larsson|39 år, Kramfors
+C|67800|50|K|Siw Sachs|50 år, Nordingrå
+C|160954|78|M|Rolf Eriksson|78 år, Pensionär, Skog
+C|67806|63|K|Kristina Löfroth|63 år, Sandöverken
+C|160956|49|M|Rainor Melander|49 år, Arbetare, Bollstabruk
+C|160957|71|K|Kerstin Frånlund|70 år, Pensionär, Nyland
+C|160958|60|M|Grels Johansson|60 år, Byggnadsträarbetare, Kramfors
+C|105274|41|K|Sofie Hellman|41 år, Bollstabruk
+C|160960|43|M|Martin Böhlenius|43 år, IF Metallare, Ullånger
+C|160961|33|K|Therese Gustafsson|33 år, Redovisningsassistent, Kramfors
+C|160962|49|M|Göran Molin|49 år, Truckförare, Bollstabruk
+C|160963|57|K|Susanne Viklund|57 år, Ombudsman, Sandslån
+C|160964|50|M|Carl-Gunnar Krooks|50 år, Försäkringstjänsteman, Nyland
+C|160965|64|K|Arlene Westin|64 år, Pensionär, Bollstabruk
+C|160966|71|M|Kurt Larsson|71 år, Pensionär, Kramfors
+C|160967|35|K|Linda Wester|35 år, Fabriksarbetare, Kramfors
+C|160968|47|M|Tomas Litström|47 år, Försäkringstjänsteman, Kramfors
+C|163935|64|K|Katariina Haukirauma|64 år, Lärare, Kramfors
+C|160969|69|M|Per Eric Larsson|69 år, Ekonom, Sandöverken
+C|160970|64|K|Ulla-Karin Hällström Sahlén|63 år, Enhetschef, Köja
+C|160971|29|M|Osman Saidabdala|28 år, Arbetsförmedlare, Kramfors
+C|160972|46|K|Jeanette Eriksson|46 år, Kock, Kramfors
+C|160973|60|M|Lars Göran Nordborg|60 år, Förskollärare, Bollstabruk
+C|160974|55|K|Susanne Jämtin|54 år, Arbetsförmedlare, Kramfors
+C|160975|47|M|Patrik Melander|48 år, Alkohol-Drogterapeut, Kramfors
+C|160976|70|K|Barbro Lindahl|70 år, Pensionär, Nyland
+C|160977|33|M|Fateh Arar|34 år, Ekonomicontroller, Kramfors
+C|160978|49|K|Veronica Litström|48 år, Kanslist, Kramfors
+C|160979|56|M|Per Nordlander|56 år, Lärare, Kramfors
+C|67810|42|K|Malin Åhman|42 år, Nyland
+C|160981|60|M|Tommy Swärdh|60 år, Förvaltare, Kramfors
+C|160982|28|K|Stina Hedberg|28 år, Lärare, Kramfors
+C|160983|60|M|Tommy Laurell|60 år, Projektsamordnare, Docksta
+C|160984|65|K|Lisbeth Boman|65 år, Projektledare, Sandöverken
+C|160985|57|M|Bo Berglund|57 år, Kriminalvårdare, Kramfors
+C|160986|49|K|Anna Zakrisson|49 år, Resursassistent, Bollstabruk
+C|160987|52|M|Mikael Henriksson|53 år, Slaktare, Sandöverken
+C|160988|53|K|Åsa Sjölander|53 år, Barnskötare, Kramfors
+C|160989|37|M|Jonathan Selmane|37 år, Lärare, Kramfors
+C|160990|51|K|Inger Pettersson|51 år, Lärare, Bollstabruk
+C|160991|54|M|Örjan Edström|54 år, Byggnadsarbetare, Kramfors
+C|160993|33|K|Emma Näsman|33 år, Undersköterska, Kramfors
+C|160992|65|M|Kjell Abrahamsson|65 år, Verkmästare, Rystrand
+C|160995|54|K|Susanne Dahlberg Lindqvist|54 år, Lärare, Kramfors
+C|160994|58|M|Sven-Erik Sandström|58 år, Verkstadsarbetare, Mjällom
+C|160997|46|K|Gabriella Lodin|46 år, Försäkringstjänsteman, Nyland
+C|160996|38|M|Anders Lundkvist|38 år, Enhetschef, Kramfors
+C|160998|55|M|Stefan Kanerva|55 år, Lärare, Kramfors
+C|160999|31|M|Björn Näsman|32 år, Kriminalvårdare, Kramfors
+C|161000|50|M|Tomas Braxenholm|50 år, Ingenjör, Frånö
+C|67805|45|M|Micael Melander|46 år, Kramfors
+C|161002|66|M|Erik Lindqvist|66 år, Ingenjör, Kramfors
+C|161003|77|M|Svante Nilsson|76 år, Pensionär, Kramfors
+C|12859|36|K|Ida Stafrin|oppositionsråd, 36 år, Ullånger
+C|12860|58|M|Hans Hedlund|fd.landstingsråd, 58 år, Kramfors
+C|12861|71|K|Birgitta Widerberg|fil.kand, 71 år, Kramfors
+C|12862|58|M|Robert Sandström|egen företagare, 58 år, Kramfors
+C|12863|52|K|Ann-Christine Näsholm|undersköterska, 52 år, Forsed
+C|12864|25|M|Peder Svensson|företagare, 25 år, Kramfors
+C|12865|54|K|Annika Östman|förskollärare, 56 år, Vibyggerå
+C|12866|74|M|Clyde Lindström|fd företagare, 74 år,, Bollstabruk
+C|12867|61|K|Inga-Britt Andersson|kanslist, 62 år, Kramfors
+C|12868|71|M|John Lundström|jord- och skogsbrukare, 71 år Kramfors
+C|12869|39|K|Jessica Ulander|civilekonom, 39 år, Kramfors
+C|12870|44|M|Daniel Medelberg|verktygsansvarig, 44 år, Bollstabruk
+C|12871|36|K|Catherine Diongu|arbetsförmedlare, 36 år, Kramfors
+C|12872|67|M|Bertil Böhlin|konsult, 67 år, Kramfors
+C|12873|64|K|Åsa Svensson|undersköterska, 64 år, Torsåker
+C|12874|73|M|Tord Nylén|åkeriägare, 73 år, Kramfors
+C|12875|54|K|Ann-Louise Zetterblad|SYV, 54 år, Noraström
+C|12876|56|M|Magnus Svensson|taxichaufför, 56 år, Kramfors
+C|12877|24|K|Jessica Larsson|restaurangchef, 24 år, Ullånger
+C|12878|67|M|Curt Svenson|fd vaktmästare, 67 år, Torsåker
+C|12879|76|K|Görel Thurdin|fd statsråd, 76 år, Nordingrå
+C|12880|75|M|Bernt Sahlberg|redaktör, 75 år, Kramfors
+C|12881|70|K|Ingrid Eriksson|Språklärare, 70 år, Dal
+C|12882|78|M|Sven-Oscar Lundgren|pensionär, 69 år, Bjärtrå
+C|12883|69|K|Anne-Marie Viberg|pensionär, 69 år, Ullånger
+C|12884|75|M|Kurt Eriksson|lantbrukare, 75 år, Dal
+C|12885|84|K|Maud Näsholm|fd företagare, 84 år, Kramfors
+C|12886|77|M|Anders Böhlin|lantmästare, 77 år, Ullånger
+C|12887|46|K|Sarita Sandström|egen företagare, 46 år, Skog
+C|12888|75|M|Lennart Wiberg|pensionär, 75 år, Vibyggerå
+C|515116|49|K|Evelyn Höglund|
+C|515117|34|M|Tobias Hermansson Batrapo|
+C|19402|68|M|Bo Grafström|Kramfors
+C|19401|72|K|Elisabeth Öhman|Nyland
+C|19403|26|K|Karin Köhnberg|Nyland
+C|19404|80|M|Rolf Wärja|Sandöverken
+C|19405|66|K|Eva Köhnberg|Nyland
+C|19406|74|M|Eije Öhman|Nyland
+C|19407|68|K|Karin Nordlund-Wiberg|Ullånger
+C|19400|68|M|Lars Köhnberg|Nyland
+C|132657|42|M|Mattias Tjernström|Sågverksarbetare, Västernorrland
+C|277652|75|M|Svante Ivarsson|Fil. Kand., Grössjö
+C|277268|69|M|Peter Andelid|Arbetsförmedlare, 69 år, Kramfors
+C|277236|65|M|Matts Söderberg|Processoperatör, 65 år, Lunde
+C|277656|72|M|Peter Edwall|Civilingenjör, Bollstabruk
+C|277257|74|K|Stina Ekbäck|Hemmansägare, 74 år, Alderskog
+C|277657|81|K|Miriam Swedengren|Kreatör, Skog
+C|277658|34|M|Kristofer Laukka|Lärare, Kramfors
+C|277659|79|M|Dan Wikner|Redaktör, Kramfors
+C|130884|67|M|Rolf Andersson|67, tekniker, Noraström
+C|130885|57|K|Christina Maydotter|57,lärare,Nordingrå
+C|130886|44|K|Baiba Vigante|44,lärare,Lugnvik
+C|130887|62|K|Eva Andersson|62,leg psykolog,Noraström
+C|130888|72|M|Thomas Holmberg|72, familjeläkare, Nordingrå
+C|130889|60|M|Peter Edholm|60,lantbrukare,Nordingrå
+C|188698|44|K|Anna Proos|44 år, Lärare, Kramfors
+C|188699|48|M|Khalid Bencherifa|48 år, Lärare, Kramfors
+C|188700|41|K|Johanna Sjöblom|41 år, Butiksbiträde, Kramfors
+C|188701|57|M|Mario Trümper|57 år, Kurator, Filitjärn
+C|188702|41|K|Johanna Zidén|41 år, Arbetsförmedlare, Herrskog
+C|188703|72|K|Lillemor Zidén|72 år, Fd. HVB-föreståndare, Salteå
+C|188704|74|M|Bengt Sundström|74 år, Fd. lantbrukare, Roted
+C|188705|53|M|Kenneth Axelsten|53 år, Provare, Herrskog
+C|188706|56|M|Thomas Tillström|56 år, Företagare, Sandslån
+C|515783|57|M|Kim Petersen|
+C|515784|44|M|Peter Westin Andersson|
+C|515786|47|M|Torbjörn Westerlund|
+C|515788|44|M|Mats Helenius|
+C|515825|45|M|Stefan Näslund|
+C|515826|28|M|Jonas Lundgren|
+C|360717|37|K|Sara Seppälä|Undersköterska, Kramfors
+C|360101|67|K|Gunnel Nordin|67, Kramfors
+C|360104|77|M|Björn Sjödin|77, Kramfors
+C|360720|63|M|Mark Collins|62, Nyland
+C|360124|62|M|Peter Qvarnström|61, Kramfors
+C|360147|78|M|Ove Källström|78, Kramfors
+C|360148|65|M|Stefan Bergman|65, Kramfors
+C|510809|50|M|Bengt Sörlin|
+C|512644|51|M|Kenneth Backlund|
+C|514996|48|M|Peter Nordin|
+C|515900|43|M|Peter Boman|
+C|515901|55|M|Håkan Tjärnberg|
+C|113898|47|M|Jon Björkman|förskollärare, Kramfors
+C|113899|34|K|Nina Orefjärd|34 år, jurist, Kramfors
+C|113900|34|K|Christina Olofsson|samordnare, Sandslån
+C|113901|51|M|Karl-Johan Rahm|lärare, 51 år
+C|113902|63|K|Eva Tånneryd|verksamhetsutvecklare, 63 år
+C|113903|72|K|Ulla Olofsson|72 år, leg sjuksköterska, Nyland
+C|113904|65|K|Ingmari Georgsson|65 år, psykoterapeut, Prästmon
+C|113905|27|M|Eliaz Nässén|supporttekniker, 27 år
+C|113906|66|M|Svante Jönsson|lärare, 66 år
+C|113907|71|M|Thomas Lundberg|läkare, 71 år
+C|113908|34|K|Camilla Öhresten|studie- och yrkesvägledare, Kramfors
+C|113909|35|M|Sebastian Gunnesson|35 år, pedagog, Svanö
+C|113910|75|K|Gun Larsson|pensionär, 75 år
+C|113911|73|K|Gunilla Sjölund|språklärare, åretruntcyklist, 72 år
+C|113912|75|M|Lennart Johansson|pensionär, 75 år
+C|113913|60|K|Monika Sundström|folkhögskollärare, 60 år
+C|113914|61|M|Torsten Berglund|konsult, 61 år
+C|113915|73|K|Inga-Britt Sparring Strömberg|bildmakare, 73 år
+C|113916|78|M|Leif Georgsson|socionom, 78 år
+C|113917|37|K|Jill Blomqvist|konstnärlig ledare, 37 år
+C|113918|66|M|Jan Wallin|fd pappersarbetare, 66 år

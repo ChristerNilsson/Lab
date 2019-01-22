@@ -1,10 +1,194 @@
-2|54766|54767|54768|54769|54770|54771|54772|28211|54774|54775|54776|40132|54778|54779|54780|54781|54782|54783|40101|54785|54786|54787|54788|54789|54790|54791|54792|54793|54794|54795
-4|8540|119583|37735|37747|39191|119587|119588|119589|37744|39185|119592|119593|119594|119595|119596|119597|119598|119599|119600|119601|119602|119603|119604|119605|119606|119607|119608|119609|119610|119611|119612|119613|119614|119615|119616|119617|119618|119619
-532|219311|418426|418427|418428|418429|418430|418431|418432|418433
-68|31771|59429|62996|62997|62998|62999|63000|63001
-1011|131508|507618|507619
-3|38841|55334|55335|55336|55337|55338|38852|55340|55341|55342|55343|55344|55345|55346|55347|55348|55349|55350|55351|55352|55353|55354|55355|55356|55357|55358
-55|112660|20826|112662|112663
-1|60751|60752|60753|60754|60755|60756|60757|60758|60759|60760|60761|60762|60763|60764|60765|60766|60767|60768|60769|60770
-110|86368|86369|86370|86372|86373|86374|86375|86376|86377|86378|86379|86380|86381|86382|86383|86384|86385|86386|86387|86388|86389|86390|86391|86392|86393|86394|86371
-5|112448|112449|112450|112451|112452|112453|112454|112455
+T|Svalöv
+A|2|54766|54767|54768|54769|54770|54771|54772|28211|54774|54775|54776|40132|54778|54779|54780|54781|54782|54783|40101|54785|54786|54787|54788|54789|54790|54791|54792|54793|54794|54795
+A|4|8540|119583|37735|37747|39191|119587|119588|119589|37744|39185|119592|119593|119594|119595|119596|119597|119598|119599|119600|119601|119602|119603|119604|119605|119606|119607|119608|119609|119610|119611|119612|119613|119614|119615|119616|119617|119618|119619
+A|532|219311|418426|418427|418428|418429|418430|418431|418432|418433
+A|68|31771|59429|62996|62997|62998|62999|63000|63001
+A|1011|131508|507618|507619
+A|3|38841|55334|55335|55336|55337|55338|38852|55340|55341|55342|55343|55344|55345|55346|55347|55348|55349|55350|55351|55352|55353|55354|55355|55356|55357|55358
+A|55|112660|20826|112662|112663
+A|1|60751|60752|60753|60754|60755|60756|60757|60758|60759|60760|60761|60762|60763|60764|60765|60766|60767|60768|60769|60770
+A|110|86368|86369|86370|86372|86373|86374|86375|86376|86377|86378|86379|86380|86381|86382|86383|86384|86385|86386|86387|86388|86389|86390|86391|86392|86393|86394|86371
+A|5|112448|112449|112450|112451|112452|112453|112454|112455
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|54766|59|M|Jan Zielinski|Ombudsman
+C|54767|61|K|Anneli Persson|Handläggare
+C|54768|56|M|Claes Hallberg|Säkerhetsansvarig
+C|54769|66|K|Annie Karlsson|Pensionär
+C|54770|49|M|Kent Kronqvist|Processoperatör
+C|54771|34|K|Emelie Lundgren|Medicinsk sekreterare
+C|54772|36|M|Marcus Donnerhag|Medicinsk sekreterare
+C|28211|52|K|Bedrija Halilovic|Byggnadsingenjör, Svalöv
+C|54774|46|M|Niclas Bohn|Elektriker
+C|54775|60|K|Anette Hallberg|Stödassistent
+C|54776|47|M|Julius Hansson|Möbelmontör
+C|40132|52|K|Lillemor Gisselbrecht|Studie- och yrkesvägledare, Svalöv
+C|54778|66|M|Krister Olsson|Pensionär
+C|54779|41|K|Anna Hed Roslund|Socialpedagog
+C|54780|62|M|Karl-Erik Kruse|Leg sjuksköt
+C|54781|55|K|Katarina Lundgren|Undersköterska
+C|54782|67|M|Göran Winér|Pensionär
+C|54783|71|K|Ulla Wallin|Leg Sjuksköterska
+C|40101|45|M|Anders Svärd|Ombudsman, Svalöv
+C|54785|69|K|Jouaquina Sanches Campos|Pensionär
+C|54786|76|M|Stig Lampa|Pensionär
+C|54787|44|K|Karina Terp|Anestesisjuksköterska
+C|54788|55|M|Afrim Goxhuli|Rådgivare
+C|54789|67|K|Lise-Lotte Karlsson|Pensionär
+C|54790|34|M|Daniel Zielinski|Transportledare
+C|54791|53|K|Ing-Marie Kruse|Stödpedagog
+C|54792|68|M|Knud Nörrelökke|Pensionär
+C|54793|62|K|Ann Böndergaard|Pensionär
+C|54794|78|M|Hans-Inge Svensson|Pensionär
+C|54795|51|K|Sonja Zielinski|Arbetsförmedlare
+C|8540|48|M|Fredrik Jönsson|48 år, Affärsutvecklare, Svalöv
+C|119583|54|K|Marie Irbladh|54, Lantmästare, Konga
+C|37735|66|M|Lennart Pettersson|Svalöv, Pensionär, 66
+C|37747|44|K|Eva Inhammar|Kågeröd, Produktionsplanerare, 44
+C|39191|62|M|Håkan Andersson|62, Miljökonsult, Svalöv
+C|119587|61|K|Ida Andersson|61, Företagare, Kågeröd
+C|119588|42|M|Johan Wigrup|42, Anläggare, Svalöv
+C|119589|42|K|Annelie Johnsson|42, Fotograf, Håstenslöv
+C|37744|74|M|Christer Laurell|Svalöv, Lantmästare, 74
+C|39185|59|K|Anneli Appelskog|59, Rektor, Billeberga
+C|119592|45|M|Patrik Wilhelmsson|45, Vård- och omsorgschef, Röstånga
+C|119593|34|K|Elisabeth Nilsson|34, Civilekonom, Kågeröd
+C|119594|44|M|Jan Rosengren|44, Tekniker, Teckomatorp
+C|119595|40|M|Martin Rosdahl|40, Säljare, Ask
+C|119596|20|K|Linnéa Irbladh|20, Skolinspiratör, Konga
+C|119597|23|M|Alireza Rezai|23, CNC-operatör, Svalöv
+C|119598|38|K|Caroline Laurell|38, Trädgårdsingenjör, Tarstad
+C|119599|67|M|Sven-Åke Nilsson|67, Pensionär, Svalöv
+C|119600|36|M|Ted Svedenborn|36, Brandman, Svalöv
+C|119601|37|K|Maria Svensson|37, Receptarie, Svalöv
+C|119602|48|M|Jörgen Esbjörnsson|48, Produktionschef, Svalöv
+C|119603|43|K|Ann-Charlotte Hansen|43, Husdjurstekniker, Halmstad By
+C|119604|18|M|Emanuel Kvist|18, Studerande, Kågeröd
+C|119605|37|K|Katja Wennerlund|37, Undersköterska, Röstånga
+C|119606|69|M|Lars-Göran Svensson|69, Pensionär, Kågeröd
+C|119607|62|K|Kate Haeggström|62, Administratör, Rävatofta
+C|119608|64|K|Ann-Margret Ringnér|64, Pensionär, Svalöv
+C|119609|61|K|Birgit Landquist|61, Agronom, Norrvidinge
+C|119610|42|M|Roger Nordin|43, Boendestödjare/deltidsbrandman, Svalöv
+C|119611|50|K|Catrine Svensson|49, Logistikassistent, Vittskövle
+C|119612|38|M|Omar Al Ismail|38, Trädgårdsmästare, Svalöv
+C|119613|73|K|Kristina Backe|73, Vissångerska, Trolleholm
+C|119614|54|M|Torbjörn Svensson|54, Försäljningschef, Kågeröd
+C|119615|64|K|Eva Olofsson|64, Förskollärare, Svalöv
+C|119616|51|M|Peter Strömblad|52, VD/rektor, Rävatofta
+C|119617|73|M|Arne Nordqvist|72, Reparatör, Felestad
+C|119618|41|K|Johanna Hedin|41, Planning & Admin Manager, Svalöv
+C|119619|70|M|Bengt Göran Grönvall|70, Lantbrukare, Södra Möinge
+C|219311|38|K|Linn Alenius Wallin|38år, Genusvetare, Svalöv
+C|418426|45|K|Kristina Carlsson|45 år, bibliotekarie och bryggare, Röstånga
+C|418427|50|K|Elisabeth Salonen Ripa|50 år, gymnasielärare, Röstånga
+C|418428|84|M|Sven-Åke Johansson|84 år, kemist mm, Konga
+C|418429|23|K|Amanda Ripa|23 år, musikstuderande, Röstånga
+C|418430|50|M|Christopher Ripa|50 år, verktygstekniker, Röstånga
+C|418431|63|K|Christa Gustafsson Ohlsson|63 år, psykiatrisjuksköterska, Kongaö
+C|418432|42|K|Yousra Qrayim|42 år, specialpedagog, Teckomatorp
+C|418433|44|K|Karin Larsarp|44 år, snickare och byggnadsantikvarie, Röstånga
+C|31771|63|K|Aase Jönsson|63 år, Adm.assistent, Svalöv
+C|59429|49|M|Åke Jonsson|49 år, Översättare, Svalöv
+C|62996|59|K|Sara Wergilis|59 år, Behandlare, Röstånga
+C|62997|67|M|Anders Bjerehjelm|67 år, Jur.kand., Svalöv
+C|62998|76|M|Karl-Erik Karlsson|76 år, Biolog, Svalöv
+C|62999|47|K|Camilla Terp|47 år, Socialsekreterare, Kågeröd
+C|63000|45|K|Cathy Lawson-Body|45 år, LSS-undersköterska, Svalöv
+C|63001|69|M|Bo G Jönsson|69 år, Ingenjör/Pensionär, Billeberga
+C|131508|47|K|Erika Sörengård|Trädgårdsmästare, Örebro
+C|507618|41|M|Nils-Erik Grönvall|42, Platschef, Tågarp
+C|507619|45|M|Markus Nilsson|45, Grävmaskinist, Tågarp
+C|38841|55|M|Torbjörn Ekelund|Teckomatorp
+C|55334|34|K|Sara B Selberg|Samordnare/Projektledare, Norrvidinge
+C|55335|36|M|Håkan Sträng|Elkraftsingenjör, Axelvold
+C|55336|47|K|Pernilla Ekelund|Pedagog, Teckomatorp
+C|55337|52|K|Birgitta Jönsson|Vårdbiträde, Tågarp
+C|55338|52|M|Tom Jensen|Svalöv
+C|38852|48|K|Elisabeth Andersson|Svalöv
+C|55340|43|M|Dennis Jönsson|Egenföretagare, Teckomatorp
+C|55341|73|K|Hjördis Nilsson|Företagare, Röstånga
+C|55342|28|K|Maria Rosvall|Chef i äldreomsorg, Svalöv
+C|55343|72|M|Leif Mårtensson|Optiker, Teckomatorp
+C|55344|72|K|Birgitta Zadenius|Fd resekonsult, Teckomatorp
+C|55345|37|M|Klaes Vilhelmsson|Restaurangbiträde, Teckomatorp
+C|55346|79|K|Margareta Mörck Åström|Bibliotekarie, Kågeröd
+C|55347|34|M|Philip Rosvall|Specialist Officer, Svalöv
+C|55348|42|M|Martin Gustafsson|Pedagog, Kågeröd
+C|55349|39|K|Emina Omerovic|Leg. Logoped, Tågarp
+C|55350|78|M|Tore Gardelin|Pensionär, Kågeröd
+C|55351|39|K|Åza Lundqvist|Egenföretagare, Teckomatorp
+C|55352|42|M|Jasmin Omerovic|Ingenjör, Tågarp
+C|55353|39|M|Göran Lundqvist|Systemutvecklare, Teckomatorp
+C|55354|70|M|Frank Urban Johansson|Företagsekonom, Svalöv
+C|55355|60|M|Mikael Karlsson|VD, Röstånga
+C|55356|51|M|Lars Magnusson|Egenföretagare, Axelvold
+C|55357|62|M|Bo Lindow|Fil kand., Billeberga
+C|55358|75|M|Gösta Nilsson|Företagare, Röstånga
+C|112660|53|K|Charlotta Eldh|grön företagare, 53 år, Källs-Nöbbelöv
+C|20826|57|M|Kjell Stjernholm|Utvecklingsledare, 57 år, Tågarp
+C|112662|47|K|Ann-Sofie Albrekt|forskningsingenjör, 47 år, Teckomatorp
+C|112663|41|M|Peter Öberg|skådespelare, 41 år, Teckomatorp
+C|60751|52|M|Olof Röstin|52 år, organisationskonsult, Billeberga
+C|60752|36|K|Angelie Fröjd|36 år, kommunikationskonsult, Svalöv
+C|60753|61|M|Stefan Pettersson|61 år, senior projektledare, Svalöv
+C|60754|76|K|Ann Pettersson|76 år, managementkonsult, Svalöv
+C|60755|31|K|Anna Berg von Linde|31 år, PR- och kommunikationskonsult, Tågarp
+C|60756|59|M|Claes Malmberg|59 år, chef näringslivsutveckling, Svalöv
+C|60757|58|M|Thomas Löfgren|58 år, psykolog, Stenestad
+C|60758|61|K|Agneta Sörensson|61 år, agronom, Teckomatorp
+C|60759|59|M|Sten Wendel|59 år, datakonsult, Billeberga
+C|60760|29|K|Naomi Theuri|30 år, kriminolog, Tågarp
+C|60761|57|M|Olof Christerson|57 år, agronom, Svalöv
+C|60762|62|K|Charlotte Wachtmeister|62 år, fil. kand., Kågeröd
+C|60763|55|K|Katarina Eichardt Mattsson|55 år, egenföretagere, Billeberga
+C|60764|71|M|Per-Olof Andersson|71 år, pensionär, Billeberga
+C|60765|59|M|Christer Esbjörnsson|59 år, lantbrukare, Kågeröd
+C|60766|57|M|Håkan Rosenqvist|57 år, docent, Billeberga
+C|60767|75|M|Leif Hägg|75 år, pensionär, Stenestad
+C|60768|43|M|Niclas Selberg|42 år, VVS-ingenjör, Norrvidinge
+C|60769|53|M|Per Bruhn|54 år, teknisk chef, Stenestad
+C|60770|61|M|Jörgen Mattsson|61 år, lantmästare, Billeberga
+C|86368|51|M|Teddy Nilsson|Ingenjör, Svalöv
+C|86369|62|K|Ingrid Ekström|Röntgensköterska, 62 år
+C|86370|40|M|Kim Hellström|41 år, fordonstekniker
+C|86372|47|K|Wioletta Kopanska Larsson|47 år, specialistundersköterska
+C|86373|49|M|Mikael Hellman|49 år, elektriker
+C|86374|54|M|René Olsson|54 år, trädgårdstekniker
+C|86375|67|M|Bo Persson|67 år, egenföretagare
+C|86376|53|M|Bengt Jönsson|53 år, egenföretagare
+C|86377|62|M|Hans Lindström|Utredare, 62 år
+C|86378|57|M|Mats Hannander|58 år, egenföretagare
+C|86379|70|K|Jenny Ulvin|70 år, historiker
+C|86380|43|M|Jörgen Persson|44 år, egenföretagare
+C|86381|55|M|Sten Schmidt|55 år, konstruktör
+C|86382|45|M|Sten Nilsson|45 år, mekaniker
+C|86383|65|M|Bertil Johansson|65 år, lokförare
+C|86384|61|M|Conny Törnkrantz|62 år, hantverkare
+C|86385|36|K|Jenny Hellström|37 år, fordonstekniker
+C|86386|49|K|Laila Söderlind|48 år, undersköterska
+C|86387|33|K|Sanna Brobeck|Besiktningstekniker, 33 år
+C|86388|67|M|Per-Erik Ulfvin|68 år, pensionär
+C|86389|75|K|Diana Davalon|75 år, pensionär
+C|86390|38|M|Marcus Svensson|39 år, industriarbetare
+C|86391|37|K|Alexandra Borg|36 år, anläggare
+C|86392|50|M|Mats Nilsson|51 år, egenföretagare
+C|86393|55|M|Anders Wall|55 år, mekanikchef
+C|86394|48|M|Jörgen Persson|49 år, egenföretagare
+C|86371|35|M|Andrej Nilsson|35 år, egenföretagare
+C|112448|47|M|Patrik Sjöstrand|projektledare, 47 år, Tågarp
+C|112449|72|K|Marika Jardert|fd fritidsledare samt etnolog, 72 år, Svalöv
+C|112450|56|K|Ann-Carolin Hansson|leg sjuksköterska, 56 år, Röstånga
+C|112451|48|M|David Lenander|fotograf, Röstånga
+C|112452|54|K|Agneta Lenander|sjuksköterska, Röstånga
+C|112453|42|K|Britta Abotsi|socionom, 42 år, Teckomatorp
+C|112454|52|K|Tove Lorentz|plattsättare, 52 år, Teckomatorp
+C|112455|38|K|Erika Lundvall|scenkonstkonsulent, 38 år, Svalöv

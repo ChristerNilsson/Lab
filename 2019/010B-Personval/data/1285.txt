@@ -1,10 +1,201 @@
-2|24408|24409|24410|24411|24412|24413|24414|24415|24416|24417|24418|24419|24420|24421|24422|24423|24424|24425|24426|24427|24428|24429|24430|24431|24432|24433|24434|24435|24436|24437|24438|24439|24440|24441|24444|24443|24446|24445|24448|24447|24450|24449|430602|24451
-4|37733|43095|43096|37740|43098|43099|39203|43101|43102|43103|43104|43105|43106|43107|43108|43109|43110|43111|43112|43113|43114
-532|515561
-68|61495|61497|512966|61494
-3|38850|55121|55122|55123|55124|55125|55126|55127|55128|55129|55130|55131|55132|55133|55134|55135|55136|55137|55138
-1296|512107
-55|188137|19815|19823|19819|188141|188142|188143|188144|188145|188146|188147
-1|59741|59742|59743|59744|59745|59746|59747|59748|59749|59750|59751|59752|59753|59754|59755|59756|59757|59758|59759|59760|59761|59762|59763|59764|59765|59766|59767|59768|59770|59771|59772
-110|52644|52645|52646|52647|52648|52649|52650|52651|52652|52653|52654|52655|52656|52657|52658|52659|52660|52662|52663|52664|52665|52666|52667|52668|52669|52670|52671|52672|52673|166396
-5|103308|103309|103310|103311|103312|103313|103314|103315|103316|103317|103318|103319|103320|103321|103322|103323|103324|103325
+T|Eslöv
+A|2|24408|24409|24410|24411|24412|24413|24414|24415|24416|24417|24418|24419|24420|24421|24422|24423|24424|24425|24426|24427|24428|24429|24430|24431|24432|24433|24434|24435|24436|24437|24438|24439|24440|24441|24444|24443|24446|24445|24448|24447|24450|24449|430602|24451
+A|4|37733|43095|43096|37740|43098|43099|39203|43101|43102|43103|43104|43105|43106|43107|43108|43109|43110|43111|43112|43113|43114
+A|532|515561
+A|68|61495|61497|512966|61494
+A|3|38850|55121|55122|55123|55124|55125|55126|55127|55128|55129|55130|55131|55132|55133|55134|55135|55136|55137|55138
+A|1296|512107
+A|55|188137|19815|19823|19819|188141|188142|188143|188144|188145|188146|188147
+A|1|59741|59742|59743|59744|59745|59746|59747|59748|59749|59750|59751|59752|59753|59754|59755|59756|59757|59758|59759|59760|59761|59762|59763|59764|59765|59766|59767|59768|59770|59771|59772
+A|110|52644|52645|52646|52647|52648|52649|52650|52651|52652|52653|52654|52655|52656|52657|52658|52659|52660|52662|52663|52664|52665|52666|52667|52668|52669|52670|52671|52672|52673|166396
+A|5|103308|103309|103310|103311|103312|103313|103314|103315|103316|103317|103318|103319|103320|103321|103322|103323|103324|103325
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|24408|50|M|Johan Andersson|Kommunalråd
+C|24409|61|K|Lena Emilsson|Tulltjänsteman, Eslöv
+C|24410|54|M|Tony Hansson|Företagare, Eslöv
+C|24411|61|K|Janet Andersson|Samordnande undersköterska
+C|24412|37|M|David Westlund|Systemadministratör, Eslöv
+C|24413|71|K|Marianne Svensson|Posttjänsteman
+C|24414|55|M|Lars Månsson|Driftreparatör
+C|24415|37|K|Jenny Pernton|Butikschef, Eslöv
+C|24416|49|M|Mats Löfström|Ombudsman
+C|24417|29|K|Naida Mahmutovic|Undersköterska, Eslöv
+C|24418|25|M|Naser Gohari|Student
+C|24419|50|K|Tina Löfström|Behandlingspedagog
+C|24420|34|M|Jörgen Håkansson|Undersköterska
+C|24421|59|K|Kerstin Ekoxe|Undersköterska
+C|24422|68|M|Istvan Barborg|Pensionär
+C|24423|61|K|Agneta Nilsson|Barnskötare
+C|24424|35|M|Henrik Månsson|Politisk sekreterare
+C|24425|59|K|Amila Pasic|Avfallsstrateg
+C|24426|56|M|Gabriel Barjosef|Klubbordför.IF Metall
+C|24427|54|K|Kamal Hathamuna Blyborg|Familjepedagog
+C|24428|58|M|Jan-Åke Larsson|Kundservice medarbetare
+C|24429|57|K|Anna Biegus Nilsson|Ek styrning och redovisning
+C|24430|52|M|Kire Gelevski|Produktionschef
+C|24431|61|K|Anette Palm|Statstjänsteman
+C|24432|31|M|Joakim Dahlin|Gymnasielärare
+C|24433|55|K|Hanna Barjosef|Ekonom
+C|24434|43|M|Mohammad Gulchin|Boendehandledare
+C|24435|50|K|Eva Bengtsson|Versamhetsutvecklare
+C|24436|53|M|Khalid El-Haj|Arbetsförmedlare
+C|24437|54|K|Diana Gustafsson|Sjukpensionär
+C|24438|51|M|Ingmar Fransson|Ombudsman
+C|24439|55|K|Ann Hansson|Skolkock
+C|24440|58|M|Jasmin Safic|Tjänsteman
+C|24441|59|K|Nora Hussein Biuk|Tolk
+C|24444|71|M|Bernt Nilsson|Pensionär
+C|24443|68|K|Marija Dimovska|Pensionär
+C|24446|31|M|Pleurat Gashi|Fackligt förtroendevald
+C|24445|53|K|Lina Barjosef|Kokerska
+C|24448|37|M|Moataz Hadher|Tolk
+C|24447|30|K|Jessica Pernton|Undersköterska
+C|24450|67|M|Kenneth Jönsson|Fd Ekonomidirektör
+C|24449|25|K|Sara Månsson|Förskollärare
+C|430602|54|M|Adam Barjosef|Automationsingenjör
+C|24451|56|K|Gabriele Goldhammer|Leg.Sjuksköterska
+C|37733|47|K|Annette Linander|Eslöv, Verksamhetsutvecklare, 47
+C|43095|55|M|Ingemar Jeppsson|55, Eslöv, Ekonomichef
+C|43096|50|K|Madeleine Atlas|50, Öslöv, Civilingenjör/egenföretagare
+C|37740|57|K|Jasmina Muric|Eslöv, Enhetschef, 57
+C|43098|79|M|Bertil Jönsson|79, Eslöv, Fd.kommunalråd
+C|43099|59|M|Anders Molin|59, Stockamöllan, Företagare
+C|39203|41|K|Sofia Hagerin|41, Redovisningskonsult, Löberöd
+C|43101|63|M|Mikael Sonander|63, Marieholm, Bonde
+C|43102|63|M|Krister Carlberg|62, Stehag, Pensionär
+C|43103|40|M|Peter Eberyd|40, Eslöv, Mediaproducent
+C|43104|51|K|Maria Jönsson|51, Stehag, Kyrkomusiker
+C|43105|58|K|Hanna-Mia Hellberg|58, Billinge, Skolsköterska
+C|43106|65|M|Anders Borgqvist|65, Billinge, Lantmästare
+C|43107|44|M|Mikael Esselius|44, Eslöv, Karriärscoach
+C|43108|72|M|Torsten Winther|72, Kungshult, Lantbrukare
+C|43109|50|K|Lena Åkesson|50, Eslöv, Redovisningskonsult
+C|43110|32|M|Per Rosenqvist|33, Eslöv, Landskapstekniker
+C|43111|55|K|Tine Markebo|55, Kungshult, Kosmetolog
+C|43112|58|M|Håkan Olsson|58, Hammarlunda, Lantbrukare
+C|43113|74|K|Ann-Christin Holmström|74, Marieholm, Pensionär
+C|43114|48|M|Lars Nilsson|48, Öslöv, Säljare
+C|515561|42|K|Tove Gladh|
+C|61495|49|M|Benjamin Ülger|49, Pedagog, Eslöv
+C|61497|30|M|Samuel Estenlund|30, Doktorand, Eslöv
+C|512966|48|K|Mirsen Ülger|48, Leg. Undersköterska, Eslöv
+C|61494|44|K|Charlotte Jönsson|44, Sjukvårdare LSS, Eslöv
+C|38850|36|K|Astrid Nilsson|Billinge
+C|55121|41|M|Daniel Rhodin|ingenjör, Örtofta
+C|55122|70|K|Margaretha Holmquist|inredningsarkitekt, Eslöv
+C|55123|74|M|Sven-Olov Wallin|speciallärare, Kungshult
+C|55124|70|M|Erik Holmquist|ingenjör, Eslöv
+C|55125|31|M|Nicklas Nilsson|ljusdesigner, Eslöv
+C|55126|45|M|John Fidler|miljökonsult, Slogstorp
+C|55127|72|M|Ingmar Larsson|säljare, Eslöv
+C|55128|53|M|Göran Frank|tekn. dr, Stehag
+C|55129|47|M|Tony Peltola|civilekonom, Kungshult
+C|55130|55|M|Svante Norrhem|universitetslektor, Skarhult
+C|55131|83|M|Henry Nilsson|civilekonom, Eslöv
+C|55132|40|M|Jörgen Thulin|säljare, Eslöv
+C|55133|60|K|Anna Lorentzson|konstnär, Högseröd
+C|55134|48|M|René Nilsson|civilingenjör, Eslöv
+C|55135|51|K|Cecilia Halldén|didaktiker, Eslöv
+C|55136|72|M|Stellan Nilsson|pensionerad rektor, Billinge
+C|55137|45|K|Cecilia Peltola|systemadministratör, Kungshult
+C|55138|67|K|Alice Gillander|kassörska, Eslöv
+C|512107|47|M|Jonas Falk|
+C|188137|37|M|Rickard Sallermo|37 år, Konsult, Stehag
+C|19815|45|K|Mona Baker|Lärare, 45 år, Eslöv
+C|19823|40|M|Lars Ahlfors|IT-konsult, 40 år, Eslöv
+C|19819|52|K|Mirjana Stakovska|Undersköterska, 52 år, Eslöv
+C|188141|67|M|Lennart Nielsen|67 år, Pensionär, Eslöv
+C|188142|26|K|Tina Trones|26 år, Undersköterska, Eslöv
+C|188143|56|M|Farid Al-bahadli|56 år, Lärare, Eslöv
+C|188144|64|K|Mona Alsalehi|64 år, Behandlingsassistent/Konstnär, Eslöv
+C|188145|53|M|Johan Nordfält|53 år, Systemadministratör, Harlösa
+C|188146|38|K|Nimo Abdullahi|38 år, Tolk, Eslöv
+C|188147|43|K|Anna Jackson|43 år, Undersköterska, Eslöv
+C|59741|57|K|Catharina Malmborg|57 år, jur. kand., Marieholm
+C|59742|63|M|Mikael Wehtje|63 år, företagare, Ellinge
+C|59743|56|M|Bengt Andersson|56 år, lantmästare, Kastberga
+C|59744|66|K|Christine Melinder|66 år, event-manager, Örtofta
+C|59745|33|M|Peter Sjögren|33 år, jur. stud., Eslöv
+C|59746|48|M|Bo-Göran Hansen|48 år, konsult, Eslöv
+C|59747|62|K|Leena Sundberg|62 år, leg. sjuksköterska, Eslöv
+C|59748|47|M|Marcus Quist|47 år, idrottsledare, Eslöv
+C|59749|53|M|Tony Ekblad|53 år, behandlingspedagog, Marieholm
+C|59750|53|M|Rikard Malmborg|53 år, gruppchef, Marieholm
+C|59751|55|M|Magnus Pålsson|55 år, plåtslagare, Bosarp
+C|59752|56|M|Jörgen Andersson|56 år, utbildningsansvarig, Eslöv
+C|59753|73|M|Claus-Göran Wodlin|73 år, rektor, Löberöd
+C|59754|19|M|Oliver Hansen|19 år, studerande, Eslöv
+C|59755|63|M|Håkan Bjelkengren|63 år, civilingenjör, Kastberga
+C|59756|57|M|Arvid Frandsen|57 år, programmerare, Gårdstånga
+C|59757|52|K|Liselott Svensson|52 år, säljare, Flyinge
+C|59758|29|K|Joosefin Tinglöf|29 år, studerande, Eslöv
+C|59759|22|K|Veronica Malmborg|22 år, studerande, Marieholm
+C|59760|51|K|Ann-Sofi Dahlgren|51 år, undersköterska, Bosarp
+C|59761|45|K|Camilla Mattisson|45 år, undersköterska, Eslöv
+C|59762|54|M|Gustaf Kvant|54 år, kronoinspektör, Stehag
+C|59763|67|M|Hans Ove Lunde|67 år, pensionär, Eslöv
+C|59764|77|M|Gert Björk|77 år, pensionär, Eslöv
+C|59765|48|M|Ola Jönsson|48 år, företagare, Eslöv
+C|59766|68|K|Karin Lunde|69 år, pensionär, Eslöv
+C|59767|49|M|Robin Leufvenius|49 år, fabriksarbetare, Harlösa
+C|59768|59|K|Yvonne Flodin|59 år, pensionshandläggare, Kastberga
+C|59770|18|M|Max Andersson|18 år, studerande, Eslöv
+C|59771|58|M|Michael Harding|58 år, företagare, Marieholm
+C|59772|54|K|Anette Thorp|55 år, företagare, Löberöd
+C|52644|32|M|Fredrik Ottesen|Ekonomiassistent, Eslöv
+C|52645|57|M|Ronny Thall|Eslöv, 57 år
+C|52646|29|K|Marlen Ottesen|Leg. sjuksköterska, 28 år
+C|52647|74|M|Göran Granberg|Eslöv, 73 år
+C|52648|70|M|Håkan Jölinsson|Harlösa, 69 år
+C|52649|49|M|Bo Broman|Ekonomichef, Eslöv
+C|52650|42|K|Andréa Wramfelt|VD, Eslöv
+C|52651|65|M|Axel Johansson|Eslöv, 64 år
+C|52652|50|M|Thomas Bondesson|Eslöv, 49 år
+C|52653|67|K|Cvetanka Bojcevska|Eslöv, 67 år
+C|52654|21|M|Ted Bondesson|Student civilingenjör, 21 år
+C|52655|38|M|Emil Eriksson|Eslöv, 38 år
+C|52656|31|M|Jimmie Ramquist|Marieholm, 31 år
+C|52657|53|M|Kari Kajén|Stehag, 52 år
+C|52658|38|M|Dennis Larsen|Servicetekniker, 38 år
+C|52659|54|M|Mats Andersen|Marieholm, 54 år
+C|52660|53|M|Patrik Olsson|Eslöv, 52 år
+C|52662|50|M|Kent Björk|Eslöv, 49 år
+C|52663|48|M|Kristian Zahtila|Eslöv, 47 år
+C|52664|60|M|Yngve Mark|Eslöv, 60 år
+C|52665|61|M|Per Fritz|Marieholm, 60 år
+C|52666|72|K|Kerstin Brink|Stehag, 72 år
+C|52667|67|M|Björn Noréus|Eslöv, 66 år
+C|52668|54|M|Peter Mörberg|Eslöv, 53 år
+C|52669|48|K|Ninni Bondesson|Eslöv, 47 år
+C|52670|49|M|Ronny Färnlöf|Eslöv, 48 år
+C|52671|24|M|Hampus Färnlöf|Eslöv, 24 år
+C|52672|77|M|Johnny Nilsson|Eslöv, 77 år
+C|52673|40|M|Miodrag Stanojlovic|Löberöd, 39 år
+C|166396|71|M|Göran Windén|Eslöv, 70 år
+C|103308|31|K|Umihana Rasovic Kasumovic|arbetsförmedlare, Eslöv
+C|103309|69|M|Lars Holmström|journalist, Väggarp
+C|103310|57|M|Mauricio Sanchez|socialarbetare, Eslöv
+C|103311|72|K|Eva Rebbling|arbetsterapeut, Hunneberga
+C|103312|73|M|Lars Dreja|kursföreståndare, Eslöv
+C|103313|56|K|Åsa Svensson|leg förskollärare, Marieholm
+C|103314|67|M|Jose Fleitas|röntgensjuksköterska, Väggarp
+C|103315|71|K|Laila Vedmar|skötare, Brödåkra
+C|103316|44|M|Stefan Karlsson|utvecklingsledare, Eslöv
+C|103317|62|K|Katja Laine|specialpedagog, Eslöv
+C|103318|25|M|Alexander Bergquist|lärare, Stehag
+C|103319|55|K|Christina Sejte|förlagsredaktör, Stehag
+C|103320|39|K|Johanna Rehn|sexolog, Tängelsås
+C|103321|74|M|Lars-Erik Björklund|skötare, Eslöv
+C|103322|39|M|Henning Rehn|systemingenjör, Tängelsås
+C|103323|57|K|Maria Lång|bibliotekarie, Harlösa
+C|103324|33|M|Max da Rocha|förskollärare, Stehag
+C|103325|63|M|Michael Andersen|pensionär, Eslöv

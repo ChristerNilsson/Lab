@@ -1,8 +1,186 @@
-2|66380|66381|66382|28164|66384|66385|66386|66387|54753|66389|54762|66391|66392|66393|66394|66395|66396|66397|66398|66399
-4|80377|80378|80379|80380|80381|80382|80383|80384|39312|80386|80387|80388|80389|80390|80391
-68|31850|92645|92646|92647|354210|354211
-3|263870|261148|261145|263873|178262|263875|263876|178256|263878|263879|261164|263881|178268|263883|178257|263886|263887|263888|263890|263891|263893|263894
-1296|124847|149396|149397|149398|149399|149400
-55|20741|21528|20777|21315|53912|53913|21525|53915|53916
-1|62686|62687|62688|62689|62690|62691|62692|62693|62694|62695|62696|62697|62698|62699|62700|62701|62702|62703|62704|62705|62706|62707|62708|62709|62710|62711|62712|62713|62714|62715|62716|62717|62718|62719|62720|62721|62722|62723|62724|62726|62727|62728|62729|62730|62731|62732|62733|62734|62735|62736|62737|62738|62739|62740|62741|62742|62743|62744|62745|62746|62747|62748|62749|62750|62751|62752|62753|62754|384245|62755
-110|162885|162886|162887|162888|162889|162890|162891|162892|162893|162894|162895|162896|162897|162898|162899|162900|162901|162902|162903|162905|162906
+T|Vellinge
+A|2|66380|66381|66382|28164|66384|66385|66386|66387|54753|66389|54762|66391|66392|66393|66394|66395|66396|66397|66398|66399
+A|4|80377|80378|80379|80380|80381|80382|80383|80384|39312|80386|80387|80388|80389|80390|80391
+A|68|31850|92645|92646|92647|354210|354211
+A|3|263870|261148|261145|263873|178262|263875|263876|178256|263878|263879|261164|263881|178268|263883|178257|263886|263887|263888|263890|263891|263893|263894
+A|1296|124847|149396|149397|149398|149399|149400
+A|55|20741|21528|20777|21315|53912|53913|21525|53915|53916
+A|1|62686|62687|62688|62689|62690|62691|62692|62693|62694|62695|62696|62697|62698|62699|62700|62701|62702|62703|62704|62705|62706|62707|62708|62709|62710|62711|62712|62713|62714|62715|62716|62717|62718|62719|62720|62721|62722|62723|62724|62726|62727|62728|62729|62730|62731|62732|62733|62734|62735|62736|62737|62738|62739|62740|62741|62742|62743|62744|62745|62746|62747|62748|62749|62750|62751|62752|62753|62754|384245|62755
+A|110|162885|162886|162887|162888|162889|162890|162891|162892|162893|162894|162895|162896|162897|162898|162899|162900|162901|162902|162903|162905|162906
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+C|66380|66|M|Björn Axtelius|
+C|66381|70|K|Birgitta Tengqvist|
+C|66382|74|M|Jörgen Nord|
+C|28164|57|M|Lars Klang|Ombudsman, Vellinge
+C|66384|63|M|Dick Stenberg|
+C|66385|63|M|Mats Tindberg|
+C|66386|74|M|Lars-Åke Andersson|
+C|66387|74|M|Orvar Turegård|
+C|54753|48|K|Petra Revemark|Lärare, Vellinge
+C|66389|58|K|Agneta Persson|
+C|54762|70|M|Jan Holmgren|f.d. Postiljon, Vellinge
+C|66391|30|K|Caroline Johansson|
+C|66392|48|M|Mats Ståhl|
+C|66393|72|K|Ann-Christin Lorentz Olsson|
+C|66394|74|M|Per-Erik Lundquist|
+C|66395|60|K|Katarina Ribbing|
+C|66396|59|M|Benny Wiklund|
+C|66397|74|K|Christina Skörvald|
+C|66398|78|M|Willy Olsson|
+C|66399|75|M|Bo-Göran Olsson|
+C|80377|47|K|Magdalena Nour|47, VD, Skanör
+C|80378|72|M|Rolf Erichs|72, Konsult, Falsterbo
+C|80379|46|M|Anders Johansson|46, Producent, Höllviken
+C|80380|64|K|Anina Söderlund|64, Läkare, Ljunghusen
+C|80381|33|K|Karin Petersson|33, Miljökonsult, Höllviken
+C|80382|59|M|Mikael Kinning|59, Hybridkreatör, Höllviken
+C|80383|66|M|Erik Campbell|66, Läkare, Höllviken
+C|80384|46|K|Madeleine Carlsson Ahnell|46, Trädgårdsarkitekt, Falsterbo
+C|39312|33|M|David Möller|33, Sjukpensionär, Vellinge
+C|80386|64|M|Peter Jonsson|64, Bolagsjurist, Falsterbo
+C|80387|49|M|Hans Hansson|49, Busschaufför, Vellinge
+C|80388|67|K|Kristin Roos|67, Pensionär, Ljunghusen
+C|80389|44|K|Jessica Cassland|44, Gymnasielärare, Vellinge
+C|80390|30|M|Linus Larsson|30, Byråchef, Hököpinge kyrkby
+C|80391|73|K|Anita Lilliecrantz Norén|73, Leg. Barnmorska, Höllviken
+C|31850|26|M|Fabian Sivnert|26 år, Student, Vellinge
+C|92645|78|M|Åke Hansson|77, egen företagare, Höllviken
+C|92646|74|M|Kjell Bornhager|73, fd speciallärare, Höllviken
+C|92647|77|K|Birgitta Wramling-Lundell|77, pensionär, Höllviken
+C|354210|18|K|Louise Ericson|18, studerande, Skanör
+C|354211|70|M|Christer Björkegren|70, egen företagare, Falsterbo
+C|263870|54|M|Henrik Thorsell|Ljunghusen
+C|261148|52|M|Anders Cnattingius|Höllviken
+C|261145|52|K|Annmari Paulcén|Vellinge
+C|263873|59|M|Ola Svantesson|Ljunghusen
+C|178262|32|M|Andreas Johansson|Vellinge
+C|263875|56|M|Mikael Dahlgren|Höllviken
+C|263876|75|M|Lennart Eriksson|Falsterbo
+C|178256|49|M|Måns Weimarck|Höllviken
+C|263878|66|M|Per Edeheim|Ljunghusen
+C|263879|73|K|Lilian Heier-Eriksson|Falsterbo
+C|261164|35|M|Christian Jensen|Vellinge
+C|263881|44|K|Linda Wejderot|Vellinge
+C|178268|73|M|Bertil Wilén|Höllviken
+C|263883|45|K|Jeanette Jensen Johansson|Hököpinge
+C|178257|31|K|Frida Svensson|Skanör
+C|263886|69|K|Phyllis Dyrvall|Ljunghusen
+C|263887|56|M|Magnus Bergström|Skanör
+C|263888|61|M|Roland Zlobeck|Ljunghusen
+C|263890|45|K|Ida Liedholm-Perulf|Skanör
+C|263891|67|M|Thord Meyerson|Ljunghusen
+C|263893|66|K|Boel Franzén Sveger|Skanör
+C|263894|78|K|Gunilla Selander|Höllviken
+C|124847|43|M|Mons Krabbe|43, Säkerhetspolitisk konsult, Skåne
+C|149396|39|M|Sten Ivarsson|38, bibliotekarie, Skanör
+C|149397|30|K|Magdalena Paulsson|30, bibliotekarie, Skanör
+C|149398|54|M|Johan Hegethorn|54, jurist, Höllviken
+C|149399|69|M|Anders Ekedahl|69, docent, Höllviken
+C|149400|37|M|Jacob Lerenius|37, civilingenjör, Stävie
+C|20741|60|K|Angela Everbäck|Marknadschef, 60 år, Höllviken
+C|21528|69|K|Ann Stenberg|Volontär, 69 år, Höllviken
+C|20777|53|M|Jan Björkman|Studerande, 53 år, Vellinge
+C|21315|53|K|Madeleine Arderup|Rektor, 53 år, Skanör
+C|53912|60|M|Håkan Bjerking|Höllviken
+C|53913|18|K|Anilya Jönsson|Höllviken
+C|21525|60|K|Sylvia Rådelius|Marknadsekonom, 61 år, Skanör
+C|53915|54|K|Lisbeth Jönsson|Höllviken
+C|53916|48|K|Ulrika Wahlgren|Höllviken
+C|62686|47|K|Carina Wutzler|47 år, kommunalråd, Skanör
+C|62687|42|M|Anders Hansson|42 år, brottsutredare, riksdagsledamot, Skanör
+C|62688|59|K|Anna Mannfalk|59 år, civilekonom, Höllviken
+C|62689|31|M|Gustav Schyllert|31 år, tjänsteman, Höllviken
+C|62690|62|K|Karin Lönnergård-Grevendahl|62 år, f.d. banktjänsteman, Falsterbo
+C|62691|50|M|Hans Cedergren|50 år, lantbrukare, Östra Grevie
+C|62692|41|K|Anna Tinglöf|41 år, COO, Vellinge
+C|62693|65|M|Eric Queckfeldt|65 år, företagare, Skanör
+C|62694|51|M|Lars Renhed|51 år, exportsäljchef, Höllviken
+C|62695|45|K|Ulrica Fors Stenmarck|45 år, politisk sekreterare, Skanör
+C|62696|59|K|Elisabeth Tedestål|59 år, civilekonom, Vellinge väster
+C|62697|27|M|Rasmus Tönning Hansson|27 år, jurist, Skanör
+C|62698|50|K|Synnøve Frick|50 år, hotelladministratör, Falsterbo
+C|62699|61|K|Marie-Louise Bergman|61 år, fastighetsförvaltare, Vellinge
+C|62700|19|K|Hannah Renhed|19 år, studerande, Höllviken
+C|62701|65|M|Lars-Ingvar Ljungman|65 år, tandläkare, Ljunghusen
+C|62702|67|M|Peter Jungbeck|67 år, VD, Skanör
+C|62703|51|K|Catarina Wictorsson|51 år, leg. sjuksköterska, Vellinge
+C|62704|31|M|Bob Ericsson|31 år, byggnadsinspektör, Höllviken
+C|62705|73|M|Göran Holm|73 år, konsult, Ljunghusen
+C|62706|75|M|Nils-Ola Roth|75 år, marknadssociolog, Skanör
+C|62707|38|K|Mavis Zander|38 år, leg. röntgensjuksköterska, Vellinge
+C|62708|59|M|Lars Olin|59 år, byggnadsingenjör, Höllviken
+C|62709|79|K|Ann-Margret Ohlsson|79 år, leg. sjukgymnast, Höllviken
+C|62710|70|K|Gisela Cavalli-Björkman Danred|70 år, f. d. barn- och förlossningssköterska, Östra Grevie
+C|62711|71|M|Lars Danred|71 år, kock, f.d. krögare, Östra Grevie
+C|62712|52|M|Ola Stenberg|52 år, marknadschef, Skanör
+C|62713|54|M|Per-Ola Stjernqvist|54 år, företagare, Höllviken
+C|62714|54|M|Martin von Gertten|54 år, brandmästare, Vellinge
+C|62715|65|M|Thommy Gransten|65 år, företagare, Höllviken
+C|62716|51|K|Christine Andersson|51 år, stadsjurist, Skanör
+C|62717|49|M|Jesper von Wowern|49 år, auktoriserad jurist, Vellinge
+C|62718|62|K|Pia Andersson|62 år, förskollärare, Höllviken
+C|62719|44|K|Charlotte Wannius-Falk|44 år, pedagog, Vellinge väster
+C|62720|30|M|Filip Hernsell|30 år, projektledare, Stora Hammar
+C|62721|50|K|Margaretha Olsson|50 år, skolsköterska, Hötofta
+C|62722|49|M|Ola Wemrin|49 år, polis, kriminaltekniker, Vellinge väster
+C|62723|72|M|Kjeld Steffensen|72 år, företagare, Falsterbo
+C|62724|65|M|Patrik Åkesson|65 år, advokat, Skanör
+C|62726|81|M|Lennart Willemo|81 år, f.d. skolchef, Skanör
+C|62727|70|M|Lars Hansson|70 år, ingenjör, Höllviken
+C|62728|19|K|Tove von Gertten|19 år, studerande, Gessie villastad
+C|62729|74|M|Olof Löfgren|74 år, med. dr, docent, Skanör
+C|62730|53|K|Pia Nyqvist|53 år, KAM, Höllviken
+C|62731|43|M|Karl Henrik Östberg|43 år, advokat, Eskilstorps kyrkby
+C|62732|48|K|Pia Lindgren|48 år, gruppchef inom äldreomsorg, Skanör
+C|62733|52|M|Krister Askaner|52 år, läkare, Höllviken
+C|62734|37|M|Rasmus Tinglöf|37 år, affärsutvecklare, Vellinge
+C|62735|66|K|Carina Gerthel|66 år, f.d. distriktssköterska, Falsterbo
+C|62736|58|M|Anders Arkenstedt|58 år, egenföretagare, Höllviken
+C|62737|18|M|Rickard Mårtensson|18 år, studerande, Vellinge
+C|62738|66|M|Göran Cronsioe|66 år, ingenjör, Höllviken
+C|62739|47|K|Anette Clair|47 år, egen företagare, Höllviken
+C|62740|54|M|Peter Gustafsson|54 år, VD, Skanör
+C|62741|67|K|Åsa Dahlbeck|67 år, f.d. kriminalkommissarie, Falsterbo
+C|62742|48|M|Nicklas Albing-Schweitz|48 år, statsvetare, Höllviken
+C|62743|54|M|Per Cedergren|54 år, egenföretagare, Vellinge
+C|62744|74|M|Stellan Carlson|74 år, ingenjör, Skanör
+C|62745|43|K|Malin Lindskog|43 år, entreprenör, Höllviken
+C|62746|35|K|M. May Qwinten Linné|35 år, platschef, Höllviken
+C|62747|66|K|Gerd Clair|66 år, företagare, Höllviken
+C|62748|65|M|Thorvald Lindhe|65 år, seniorkonsult, Höllviken
+C|62749|64|K|Monica Casparsson Hensfelt|64 år, jur. kand., Hököpinge
+C|62750|43|M|Martin Appelfeldt|43 år, affärsområdeschef, Höllviken
+C|62751|49|K|Filippa Wimmerstedt|49 år, studerande, Skanör
+C|62752|54|M|Stefan Jonasson|54 år, servicechef, Gessie villastad
+C|62753|35|M|Niklas Girvall|35 år, säljare, Höllviken
+C|62754|47|K|Ulrika Gustafsson|47 år, distriktssköterska, Vellinge
+C|384245|46|M|Måns Modéer|46 år, civilekonom, Skanör
+C|62755|80|M|Jan Nyberg|80 år, fil. och teol. kand., Skanör
+C|162885|39|M|Karl-Johan Persson|40 år, Processoperatör
+C|162886|41|M|Deniz Eryilmaz|Infrastrukturtjänsteman, 41 år
+C|162887|49|M|Kristian Svensson|49 år, Ingenjör
+C|162888|38|M|Pierre Carlström|IT-arkitekt, 38 år
+C|162889|34|M|Jimmy Lenander|35 år, Kategorichef
+C|162890|63|M|Mats Carlström|63 år, Kyltekniker
+C|162891|71|M|Jan Lexryd|72 år, Företagare
+C|162892|42|M|Jerry Bjelk|43 år, Byggnadssmed
+C|162893|66|M|Per-Erik Hennings|66 år, Fd. Tekniker
+C|162894|68|K|Lena Henrikson|68 år, Tandläkare/Dr
+C|162895|72|K|Lisbeth Kvist Hallgren|Pensionär, 72 år
+C|162896|65|K|Kristina Hansson|65 år, Undersköterska
+C|162897|59|M|Hans Erixon|59 år, Senior Konsult
+C|162898|67|K|Ann-Lis Lexryd|68 år, Revisor
+C|162899|72|K|Lena Jensen|72 år, Fd. Advokatsekreterare
+C|162900|60|K|Annika Carlström|60 år, Ekonomiansvarig
+C|162901|58|M|Kent Rönndahl|Administrationsassistent, 58 år
+C|162902|48|M|Ingemar Nilsson|48 år, Fordonstekniker
+C|162903|70|M|Jan Svensson|71 år, Pensionär
+C|162905|57|K|Elize Åkesson|57 år, Socionom
+C|162906|70|M|Claes Roos|71 år, Sjöingenjör

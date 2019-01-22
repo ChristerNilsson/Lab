@@ -1,9 +1,146 @@
-2|22207|74264|106720|106721|106722|106723|106960|106961|106962|106963|106964|107293|107294|107295|107296|107297|107298|107299|107300|107302|107301|107303|107304|107353|107354
-4|27483|27484|27485|27486|27487|27488|27489|27490|27491|27492|27493|27494|27495|27496|27497|27498|27499|27500|27501|27502|27503|27504|27505|27506|27507
-1113|406359|406360|406361|406362|406363|406364|406365|406366|406367|406368|406369|406370|406371|406372|406373|406374|406376
-68|293315|294925
-3|28190|31343|59189|59190|59191|59192|59193|59194|59195|59196|59197|59198|59199|59200|59201
-55|433808|433809|433810
-1|38346|38347|38348|632|38350|38351|38352|38353|38354|38355|38356|38357|38358|38359|38360|38361|38362|38363|38364|38365
-110|115414|115878|115879|115880|115881|115882|115883|115884|115885|115886|115887|115888|512663|512728|489774|516019
-5|107255|107256|107257|107258
+T|Sunne
+A|2|22207|74264|106720|106721|106722|106723|106960|106961|106962|106963|106964|107293|107294|107295|107296|107297|107298|107299|107300|107302|107301|107303|107304|107353|107354
+A|4|27483|27484|27485|27486|27487|27488|27489|27490|27491|27492|27493|27494|27495|27496|27497|27498|27499|27500|27501|27502|27503|27504|27505|27506|27507
+A|1113|406359|406360|406361|406362|406363|406364|406365|406366|406367|406368|406369|406370|406371|406372|406373|406374|406376
+A|68|293315|294925
+A|3|28190|31343|59189|59190|59191|59192|59193|59194|59195|59196|59197|59198|59199|59200|59201
+A|55|433808|433809|433810
+A|1|38346|38347|38348|632|38350|38351|38352|38353|38354|38355|38356|38357|38358|38359|38360|38361|38362|38363|38364|38365
+A|110|115414|115878|115879|115880|115881|115882|115883|115884|115885|115886|115887|115888|512663|512728|489774|516019
+A|5|107255|107256|107257|107258
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1113|HS|Hela Sunne
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|22207|35|M|Tobias Eriksson|35 år, Sunne
+C|74264|42|K|Linda Johansson|43 år, Sunne
+C|106720|62|M|Gert Dahlberg|Hemmansägare, 63 år Sunne
+C|106721|27|K|Sofie Setherberg|Försäkringshandläggare, 27 år, Lysvik
+C|106722|65|M|Lars-Åke Holmqvist|66 år, Västra Ämtervik
+C|106723|62|K|Agneta Carlsson|Affärsbiträde,62 år, Lysvik
+C|106960|60|M|Lars-Olov Eriksson|Uppdragstagare, 60 år, Östra Ämtervik
+C|106961|61|K|Kari Gjulem|Skötare, 61 år, Gräsmark
+C|106962|68|M|Kjell-Owe Larsson|Pensionär, 67 år, Sunne
+C|106963|44|K|Helena Anshammar|Byggingenjör, 44 år, Sunne
+C|106964|62|M|Björn Wennerström|62 år, Västra Ämtervik
+C|107293|59|K|Anette Sätherberg|HR-konsult, 59 år, Mallbacken
+C|107294|21|M|Robin Larsson|Studerande, 21 år, Sunne
+C|107295|68|K|Gerd Karlsson|68 år, Sunne
+C|107296|77|M|Karl-Erik Skoog|77 år, Lysvik
+C|107297|47|K|Maria Andersson|Undersköterska, 48 år, Östra Ämtervik
+C|107298|63|M|Svante Magnusson|Torpare, 62 år, Rottneros
+C|107299|51|K|Lena Halvarsson|Industriarbetare, 51 år, Sunne
+C|107300|65|M|Conny Carlsson|Egen företagare, 66 år, Lysvik
+C|107302|63|K|Lena Birkefjärd|Skötare, 63 år, Östra Ämtervik
+C|107301|68|M|Jan-Erik Eriksson|Pensionär, 69 år, Lysvik
+C|107303|63|M|Magnus Bergqvist|Fabriksarbetare, 62 år, Sunne
+C|107304|70|M|Arne Persson|70 år, Sunne
+C|107353|50|M|Dan Karlsson|Fabriksarbetare, 51 år, Rottneros
+C|107354|68|M|Sven Oskarsson|69 år, Sunne
+C|27483|60|K|Gunilla Ingemyr|Sunne, 60 år, Kommunalråd
+C|27484|50|M|Freddy Kjellström|Gräsmark, 49 år, Statsvetare
+C|27485|41|K|Sophie Janulf|Sunne, 41 år, Projektledare
+C|27486|26|M|Nils Ahlqvist|26 år, Statsvetare, Östra Ämtervik
+C|27487|54|M|Bengt Hedelin|54 år, Lantbrukare, Lysvik
+C|27488|32|K|Nour Aghy|32 år, Projektledare, Sunne
+C|27489|19|M|Emil Johansson|Sunne, 18 år, Lärarvikarie
+C|27490|64|M|Ola Persson|V. Ämtervik, 64 år, Lantbrukare
+C|27491|71|M|Karl-Johan Adolfsson|V. Ämtervik, 71 år, Skogsbonde
+C|27492|70|K|Mirja Lundström|71 år, Pensionär, Sunne
+C|27493|50|M|Svenne Andersson|50 år, Företagare, Östra Ämtervik
+C|27494|75|M|Bengt Gullström|75 år, Pensionär, Stöpafors
+C|27495|40|K|Theresa Falck|41 år, Sjuksköterska, Sunne
+C|27496|66|K|Kjerstin Persson|66 år, Pensionär, Gräsmark
+C|27497|55|M|Bengt Söderberg|55 år, Företagare, Östra Ämtervik
+C|27498|30|K|Ida Nilsson|30 år, Tjänsteman, Västra Ämtervik
+C|27499|60|M|Tomas Ögren|59 år, Lantbrukare, Västra Ämtervik
+C|27500|53|M|Toleif Högberg|53 år, Biblioteksassistent, Sunne
+C|27501|60|M|Mats Eriksson|60 år, Lantmästare, Gräsmark
+C|27502|48|M|Ivar Höök|48 år, Musiklärare, Sunne
+C|27503|19|M|Elias Andersson|18 år, Student, Östra Ämtervik
+C|27504|38|M|Henrik Emilsson|38 år, Skogsförvaltare, Lysvik
+C|27505|67|K|Barbro Kast|68 år, Pensionär, Sunne
+C|27506|32|M|Marcus Wahlstad|31 år, Lantbrukare, Lysvik
+C|27507|73|K|Lena Höök-Johansson|72 år, Kurator, Lysvik
+C|406359|45|M|Henrik Lagerlöf|butikschef, Skogsberg
+C|406360|75|M|Björn Gillberg|miljöforskare, Bäckalund
+C|406361|63|K|Jelena Krönström|grundskollärare, Mårbacka
+C|406362|61|K|Inger Grankvist|gymnasielärare, Rottneros
+C|406363|69|M|Karl-Erik Kulander|miljöforskare, Gräsmark
+C|406364|65|M|Hans-Olov Högberg|snickare, Råbäcken
+C|406365|64|M|Carl-Olov Fredriksson|bilplåtslagare, Bäckebron
+C|406366|65|K|Cecilia Hörnsten|hunduppfödare, Åmberg
+C|406367|42|K|Pernilla Casselbrant|operatör, Gräsmark
+C|406368|46|K|Céline Spoor|studerande, Stöpafors
+C|406369|59|M|Karl Grankvist|drifttekniker, Rottneros
+C|406370|26|M|Martin Berglund|pilot, Ivarsbjörke
+C|406371|30|K|Sandra Andersson|sjuksköterska, Bäckalund
+C|406372|30|K|Ida Högberg|butiksbiträde, Ingmår
+C|406373|46|K|Maria Gustavsson|lokalvårdare, Rottneros
+C|406374|61|M|Dan Andersén|snickare, Ingmår
+C|406376|47|M|Mikael Gustavsson|ventilationsmontör, Bäckalund
+C|293315|60|M|Rolf Örnborg|ljudtekniker, Sunne
+C|294925|63|K|Mariann Larsson|leg. sjukgymnast, Gräsmark
+C|28190|60|K|Marianne Åhman|leg tandhygienist, 60 år,Sunne
+C|31343|66|K|Barbro Dolling|fd distriktssköterska, 66 år, Sunne
+C|59189|24|K|Emma Pollack|24 år, socionomstuderande, S Borgeby
+C|59190|71|M|Tage Sohl|71 år, fd kriminalkommissarie, Sunne
+C|59191|46|K|Anna-Karin Sandell|46 år, egenföretagare, Sunne
+C|59192|41|M|Emanuel Olsson|41 år, lantbrukare, Angersby
+C|59193|39|K|Linn Sohl|39 år, ekonom, Sunne
+C|59194|64|K|Birgitta Holmquist|64 år, lärare, Sunne
+C|59195|59|M|Arne Arvidsson|59 år, redovisningskonsult, Sunne
+C|59196|61|K|Margareta Reinoldsson|61 år, enhetschef vård och omsorg, Sunne
+C|59197|64|K|Eva Michel Edgren|65 år, skolkurator, Sunne
+C|59198|69|M|Karl-Henrik Bergman|69 år, fd flygkapten, Gräsmark
+C|59199|52|K|Zara Karvala|52 år, egenföretagare, Sunne
+C|59200|57|M|Tomas Walfridsson|57 år, mekaniker, Bjälverud
+C|59201|52|K|Katarina Bjälvegård|53 år, förskollärare, Bjälverud
+C|433808|67|K|Eva Hallström|67 år, energi- och miljöingenjör, Sunne
+C|433809|60|K|Tina Bok|60 år, folkhögskolelärare, Sunne
+C|433810|71|M|Anders Hallström|civilekonom, Västra Ämtervik
+C|38346|43|M|Henrik Frykberger|By
+C|38347|49|K|Åsa Olsson|Västra Ämtervik
+C|38348|28|M|Fredrik Andersson|Sunne
+C|632|18|M|Anton Bengtsson|studerande, Sunne
+C|38350|72|K|Kerstin Johannesen|Sunne
+C|38351|19|M|Adam Schelin|Sunne
+C|38352|55|K|Anette Rhudin|Östra Ämtervik
+C|38353|44|M|Thomas Waldenström|Västra Ämtervik
+C|38354|69|K|Marion Bergsjö|Västra Ämtervik
+C|38355|52|M|Bo Eråker|Rottneros
+C|38356|66|M|Tomas Mogren|Sunne
+C|38357|65|K|Birgitta Olsson|Ivarsbjörke
+C|38358|18|M|Albert Vidfelt|Sunne
+C|38359|51|K|Åsa Rådhström|Norra Arneby
+C|38360|63|K|Gunilla Lundell Larsson|Sunne
+C|38361|72|K|Jane Andersson|Lysvik
+C|38362|41|M|Marcus Bergsjö|Västra Ämtervik
+C|38363|80|K|Solveig Nyqvist|Lysvik
+C|38364|81|M|Kjell Herbertsson|Sunne
+C|38365|57|M|Jan-Evert Rådhström|Norra Arneby
+C|115414|54|M|Runar Filper|Riksdagsledamot, Sunne
+C|115878|49|M|Jonas Bergström|49, Industrimekaniker, Sunne
+C|115879|65|K|Margaretha Geeske Den Hollander|65, Lektor, Sunne
+C|115880|65|M|Jan-Erik Annersand|65, Resesäljare, Lysvik
+C|115881|46|M|Hans Arnkvist|Byggnadsarbetare, Sunne
+C|115882|70|M|Bengt Dahlèn|70, Pensionär, Sunne
+C|115883|52|M|Patrik Bergström|52, Resemontör, Norra Näs
+C|115884|43|M|Per Nilsson|43, Hemmansägare, Hälserud
+C|115885|20|M|Joakim Arnkvist|20, Studerande, Gräsmark
+C|115886|50|M|Jan Johansson|50, Elektriker, Rottneros
+C|115887|49|M|Lars-Göran Hagström|49, Taxichaufför, Gräsmark
+C|115888|73|M|Håkan Abelsson|73, Företagare, Östra Ingersby
+C|512663|53|M|Michael Arnaboldi|53, Stödassistent, Västra Ämtervik
+C|512728|44|M|Carl Svensson|44, Butikschef, Lysvik
+C|489774|27|K|Alexandra Johansson|
+C|516019|71|M|Leif Hedman|
+C|107255|67|M|Lars-Erik Hedlund|Sunne, egenföretagare
+C|107256|52|M|Lars-Gunnar Johnson|Bäckalund, lantmätare
+C|107257|69|K|Ingegerd Holmqvist|Västra Ämtevik, pensionär
+C|107258|68|M|Leif Glavstedt|Västra Ämtevik, pensionär

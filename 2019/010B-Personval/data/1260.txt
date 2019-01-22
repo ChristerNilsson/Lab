@@ -1,8 +1,129 @@
-2|22482|22483|22484|22485|22486|22487|22488|22489|22490|22491|22492|22493|22494|22495|22496|22497|22498|22499|22500|22501|22502|22503|22504|22505|22506|22507|22508|22509|22510|22511|22512|22513|22514|22516|22517|22518|22520|22521|22522
-4|38904|37742|37749|38893|39442|39443|39444|39445|39446|39447|39448|39449|39450|39451|39452
-1226|422657|422658|422659
-68|31936|31685|31938|31939|31940|31941|31942|31943|31944|31945|31946|31947|31948|31949|31950
-3|261888|261889|261890|261891|261892|261893|261894|261895|261896
-1|50943|50944|50945|50946|50947|50948|50949|50950|50951|50952|50953|50954|50955|50956|50957|50958
-110|49692|49693|49694|49695|49696|49697|49698|49699|49700|49701|49702|49703
-5|510822|510823|510824
+T|Bjuv
+A|2|22482|22483|22484|22485|22486|22487|22488|22489|22490|22491|22492|22493|22494|22495|22496|22497|22498|22499|22500|22501|22502|22503|22504|22505|22506|22507|22508|22509|22510|22511|22512|22513|22514|22516|22517|22518|22520|22521|22522
+A|4|38904|37742|37749|38893|39442|39443|39444|39445|39446|39447|39448|39449|39450|39451|39452
+A|1226|422657|422658|422659
+A|68|31936|31685|31938|31939|31940|31941|31942|31943|31944|31945|31946|31947|31948|31949|31950
+A|3|261888|261889|261890|261891|261892|261893|261894|261895|261896
+A|1|50943|50944|50945|50946|50947|50948|50949|50950|50951|50952|50953|50954|50955|50956|50957|50958
+A|110|49692|49693|49694|49695|49696|49697|49698|49699|49700|49701|49702|49703
+A|5|510822|510823|510824
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1226|Fsteg|Framstegspartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|22482|51|M|Martin Fridehjelm|51 år säkerhetsrådgivare Ekeby
+C|22483|43|K|Ulrika Thulin|Ombudsman, Bjuv
+C|22484|63|M|Anders Månsson|63 år kommunalråd Bjuv
+C|22485|50|K|Ann-Sofie Fridehjelm|50 år specialpedagog Ekeby
+C|22486|46|M|Niklas Svalö|46 år VVS-montör Bjuv
+C|22487|71|K|Irena Alm|71 år fd.servitris Billesholm
+C|22488|67|M|Kenneth Bolinder|Egen företagare, Bjuv
+C|22489|70|K|Inga Bakken|70 år fd.undersköterska Bjuv
+C|22490|70|M|Christer Landin|70 år fd.arbetsförmedlare Ekeby
+C|22491|36|K|Caroline Wegner|36 år processoperatör Billesholm
+C|22492|81|M|Bert Roos|81 år pensionär Bjuv
+C|22493|58|K|Terhi Laine|58 år funktionsansvarig Bjuv
+C|22494|59|M|Stefan Svalö|59 år regionråd Bjuv
+C|22495|54|K|Liselott Ljung|Undersköterska, Bjuv
+C|22496|57|M|Walter Steffert|57 år operatör Ekeby
+C|22497|22|K|Denise Berendji|22 år studerande Bjuv
+C|22498|50|M|Peter Persson|50 år fabriksarbetare Bjuv
+C|22499|78|K|Gull-Britt Gren|78 år pensionär Bjuv
+C|22500|72|M|Lars Karlsson|72 år pensionär Bjuv
+C|22501|65|K|Else Flink Andersen|65 år lokalvårdare Bjuv
+C|22502|61|M|Lennart Wiberg|61 år verkstadsmekaniker Bjuv
+C|22503|62|M|Bo Blixt|62 år polis Bjuv
+C|22504|62|M|Kai Christiansen|62 år industrisnickare Billesholm
+C|22505|42|K|Madeleine Landin|46 år förskollärare Ekeby
+C|22506|66|M|Bo Hallqvist|66 år inköpare Bjuv
+C|22507|65|M|Alf Nilsson|66 år målarmästare Billesholm
+C|22508|80|M|Olle Lundgren|80 år pensionär Bjuv
+C|22509|60|M|Ronny Thomasson|60 år administratör Bjuv
+C|22510|44|M|Pär Andersson|44 år mekaniker Bjuv
+C|22511|52|M|Micael Ohlsson|52 år chaufför Bjuv
+C|22512|48|M|Mickael Persson|49 år instruktör Billesholm
+C|22513|72|M|Kjell Åke Johnsson|72 år fd.processkötare Bjuv
+C|22514|53|M|Lars Alm|53 år underhållsadministratör Billesholm
+C|22516|45|K|Agnetha Isakovic|45 år sitechef Bjuv
+C|22517|48|M|Håkan Olsson|48 år elektriker Billesholm
+C|22518|67|M|Rolf Olsson|67 år lärare Bjuv
+C|22520|50|M|Kim Karlsson|50 år processoperatör Bjuv
+C|22521|82|K|Gull Britt Hansson|82 år pensionär Ekeby
+C|22522|68|M|Hans-Åke Henningsson|68 år pensionär Ekeby
+C|38904|69|M|Nils Nilsson|Bjuv, Fd. lantbrukare, 69
+C|37742|55|M|Krister Nilsson|Bjuv, Lantbrukare, 55
+C|37749|61|K|Kerstin Persson|Billesholm, Ekonomibiträde, 61
+C|38893|80|M|Stig Lundblad|Bjuv, Egenföretagare, 80
+C|39442|41|M|Fredrik Nilsson|Servicetekniker, Ekeby, 41
+C|39443|41|K|Janeth Andersson|Miljökonsult, Ekeby, 41
+C|39444|38|K|Camilla Sjöberg|Sjukgymnast, Ekeby, 38
+C|39445|40|M|Magnus Sjöberg|Civilingenjör, Ekeby, 40
+C|39446|71|K|Birgitta Kulle|Pensionär, Ekeby, 71
+C|39447|55|K|Ann-Christin Ekberg|Försökstekniker, Billesholm, 55
+C|39448|74|K|Britt Nilsson|Frisör, Ekeby, 74
+C|39449|49|M|Hans Östring|Entrepenör, Ekeby, 49
+C|39450|39|K|Therese Gunnarsson|Arbetsledare, Ekeby, 39
+C|39451|78|M|Rolf Larsson|Pensionär, Billesholm, 78
+C|39452|81|M|Sigvard Östring|Entrepenör, Ekeby, 81
+C|422657|55|M|Allan Jönsson|Reparatör
+C|422658|51|M|Tomas Olsson|
+C|422659|53|M|Roger Strömpers|Truckförare
+C|31936|77|M|Urban Berglund|ingenjör, 77 år
+C|31685|40|K|Maria Berglund|40 år, Verksamhetschef, Bjuv
+C|31938|45|M|Jonas Lindqvist|it-konsult, 45 år
+C|31939|41|M|Fredrik Johansson|diakon, 41 år
+C|31940|76|K|Ann-Britt Lord|vårdare, 76 år
+C|31941|70|M|Ulf Lind|journalist, 70 år
+C|31942|83|M|Arne Holm|dövpastor, 82 år
+C|31943|78|K|Ingegärd Berglund|lärare, 78 år
+C|31944|57|K|Irene Lala Roos|konstnär, 57 år
+C|31945|53|M|Bo Berglund|företagare, 53 år
+C|31946|41|K|Jennie Malmgren|enhetschef, 41 år
+C|31947|59|M|Göran Roos|maskinreparatör, 59 år
+C|31948|61|K|Gunnel Ståhl|banktjänsteman, 61 år
+C|31949|78|K|Anita Larsson|fotograf, 78 år
+C|31950|76|M|Leo Due|företagare, 76 år
+C|261888|71|M|Krister Bergsten|Bjuv
+C|261889|80|M|Sven-Ingvar Blixt|Billesholm
+C|261890|44|M|Fredrik Andersson|Bjuv
+C|261891|23|M|Vladimir Lukic|Ekeby
+C|261892|50|M|David Feng|Bjuv
+C|261893|73|M|Per Rosvall|Billesholm
+C|261894|76|K|Anita Herder-Blixt|Billesholm
+C|261895|66|K|Elena Gordeeva|Billesholm
+C|261896|70|K|Gerd Bergsten|Bjuv
+C|50943|53|K|Ninnie Lindell|53 år, ekonomiansvarig, Ekeby
+C|50944|62|M|Bertil Olsson|62 år, chaufför, Bjuv
+C|50945|52|K|Ann-Charlotte Hammar Johnsson|52 år, skolledare, riksdagsledamot, Billesholm
+C|50946|47|M|Patric Fors|47 år, resursplanerare, Ekeby
+C|50947|51|M|Andrej Schönbäck|51 år, fastighetsingenjör, Bjuv
+C|50948|78|K|Margit Johansson|78 år, fil. kand., Bjuv
+C|50949|59|M|Jörgen Johnsson|59 år, livsmedelsarbetare, Billesholm
+C|50950|68|K|Lisbeth Madsen|68 år, pensionär, Bjuv
+C|50951|72|M|Niels Madsen|72 år, pensionär, Bjuv
+C|50952|71|K|Zofia Svensson|71 år, pensionär, Bjuv
+C|50953|70|M|Göran Palmkvist|70 år, pensionär, Bjuv
+C|50954|48|M|Ted Nilsson|48 år, yrkeslärare, Billesholm
+C|50955|46|M|Niklas Osslén|46 år, IT-chef, Ekeby
+C|50956|68|K|Bea Lundh|68 år, operationssköterska, Ekeby
+C|50957|42|M|Daniel Bryborn|42 år, säljare, Bjuv
+C|50958|35|K|Magdalena Rydståle|35 år, leg. sjuksköterska, Bjuv
+C|49692|46|M|Mikael Henrysson|45, Byggarbetare
+C|49693|51|K|Pia Trollehjelm|51, Kvalitetsingenjör
+C|49694|58|K|Christel Hedlund|58, Butikschef
+C|49695|55|M|Jim Gustavsson|55, Hantverkare
+C|49696|64|K|Lise-Lott Johansson|64, Butiksmedarbetare
+C|49697|62|M|Benny Trollehjelm|62, Lagerarbetare
+C|49698|72|M|Gert Liljenborg|72, Maskintekniker
+C|49699|61|M|Lars Hein|62, Varukontrollant
+C|49700|57|K|Anne Li Ullerholm|57, Hälsocoach/kostrådgivare
+C|49701|61|M|Börje Sjöstrand|61, Truckförare
+C|49702|48|K|Heidi Karlsson|49, Undersköterska
+C|49703|55|M|Roger Pettersson|55, Verkmästare Lastbilar
+C|510822|66|M|Leif Johansson|
+C|510823|39|M|Emil Lord|
+C|510824|63|K|Eva Roos Johansson|

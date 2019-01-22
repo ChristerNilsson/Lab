@@ -1,8 +1,118 @@
-2|43997|43998|43999|44000|44001|44002|44003|44004|44005|44006|44007|44008|44009|44010|44011|44012|44013|44014|44015|44016|44017|44018|44019|44020|44021|44022|44023|44024|44025
-4|21246|3235|21248|21249|21250|21251|21252|21253|21254|21255|21256|21257|21258|21259
-68|275628|275629|274615|275631|275632|275633
-3|18035|18036|18037|18038|18039|18040|18041|18042|18043|18044|18045
-55|63198|63199
-1|255176|255177|253989|255179|255180|253999|255182|255183|254359|255185|254375|255187|255188|255189|255190|255191|255192|255193|255194|255195|255196|255197|255198|255199|255200|255201
-110|245779|245780|509685|509686|506198|509688|502129|513465
-5|30324|30325|30326|30327|30328
+T|Essunga
+A|2|43997|43998|43999|44000|44001|44002|44003|44004|44005|44006|44007|44008|44009|44010|44011|44012|44013|44014|44015|44016|44017|44018|44019|44020|44021|44022|44023|44024|44025
+A|4|21246|3235|21248|21249|21250|21251|21252|21253|21254|21255|21256|21257|21258|21259
+A|68|275628|275629|274615|275631|275632|275633
+A|3|18035|18036|18037|18038|18039|18040|18041|18042|18043|18044|18045
+A|55|63198|63199
+A|1|255176|255177|253989|255179|255180|253999|255182|255183|254359|255185|254375|255187|255188|255189|255190|255191|255192|255193|255194|255195|255196|255197|255198|255199|255200|255201
+A|110|245779|245780|509685|509686|506198|509688|502129|513465
+A|5|30324|30325|30326|30327|30328
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|43997|40|M|Niclas Eringsfors|40 år, Jonslund
+C|43998|59|K|Maria Radivoj|59 år, Essunga
+C|43999|29|M|Kenth Henningsson|29 år, Essunga
+C|44000|67|K|Yvonne Mossberg|67 år, Nossebro
+C|44001|58|M|Bengt-Göran Henningsson|58 år, Krokstorp
+C|44002|70|K|Kerstin Johansson|70 år, Barne-Åsaka
+C|44003|47|M|Robert Hallin|47 år, Nossebro
+C|44004|36|K|Nour Ayan|36 år, Nossebro
+C|44005|68|M|Conny Svensson|68 år, Nossebro
+C|44006|55|K|Elisabeth Källblad|55 år, Främmestad
+C|44007|50|M|Tommy Jonsson|50 år, Nossebro
+C|44008|32|M|Sabor Joma Khan|32 år, Nossebro
+C|44009|70|K|Anita Persson|70 år, Nossebro
+C|44010|44|M|Peter Andréasson|44 år, Vägatorp
+C|44011|24|M|Felix Carlsson|24 år, Nossebro
+C|44012|48|M|Jan-Eirik Falk|48 år, Nossebro
+C|44013|55|K|Ulla Skön-Svensson|55 år, Nossebro
+C|44014|55|M|Jan Johansson|55 år, Främmestad
+C|44015|45|M|Kennet Johansson|45 år, Jonslund
+C|44016|67|M|Börje Andersson|67 år, Främmestad
+C|44017|50|K|Anette Hillström|50 år, Bäreberg
+C|44018|77|M|Lars Sahlin|77 år, Nossebro
+C|44019|46|M|Thomas Evjenth|46 år, Bäreberg
+C|44020|29|K|Marie Rundkvist-Eringsfors|29 år, Jonslund
+C|44021|62|M|Roland Melin|62 år, Bäreberg
+C|44022|79|K|Kerstin Karlberg|79 år, Främmestad
+C|44023|30|M|Linus Edlundh|30 år, Nossebro
+C|44024|76|M|Erik Mali|76 år, Nossebro
+C|44025|75|M|Bengt Lindberg|75 år, Jonslund
+C|21246|39|K|Maria Malmberg|Egen Företagare,Malma, 39 år
+C|3235|36|M|Tomas Johansson|Rektor, Essunga, 36 år
+C|21248|51|K|Helene Mohr|Kock, Nossebro, 51 år
+C|21249|63|M|Egon Gunnarsson|Lantbrukare, Essunga, 63 år
+C|21250|74|M|Stig Larsson|Pensionär, Främmestad, 74 år
+C|21251|73|K|Anita Carlsson|Pensionär, Barne-Åsaka, 73 år
+C|21252|47|M|Jörgen Lindh|Egen företagare, Essunga, 47 år
+C|21253|45|M|Ulf Johansson|Kyrkokamrer, Jonslund, 45 år
+C|21254|61|K|Pia Fahlgren|Undersköterska, Essunga, 61 år
+C|21255|59|M|Sören Fredlund|Lantbrukare, Malma, 59 år
+C|21256|61|M|Tore Karlsson|Lantbrukare, Lekåsa, 61 år
+C|21257|66|M|Thomas Fahlgren|Lantbrukare, Essunga, 67 år
+C|21258|67|M|Bengt Pettersson|Lantbrukare, Malma, 68 år
+C|21259|70|M|Jan-Olof Johansson|Pensionär,Främmestad, 70 år
+C|275628|54|M|Ralph Lundell|Reklamationsansvarig
+C|275629|39|K|Jessica Edberg|Administratör
+C|274615|73|K|Gunilla Hermansson|72, Fd lärare, Essunga
+C|275631|56|K|Agneta Lundell|Civilekonom
+C|275632|78|M|Ingvar Hermansson|Veterinär
+C|275633|73|M|Stig Dahlqvist|Ingenjör
+C|18035|76|K|Elsy Lundberg Östrand|76, Essunga
+C|18036|70|M|Curt Lindberg|administratör, Nossebro
+C|18037|63|K|Birgitta Friesjö|63, Nossebro
+C|18038|31|M|Pontus Malmberg|egenföretagare, Malma
+C|18039|22|K|Klara Karlsson|22 Essunga
+C|18040|78|K|Laila Strandberg|leg.sjukgymnast, Jonslund
+C|18041|65|M|Jan Därnemyr|civilingenjör, Nossebro
+C|18042|77|K|Kerstin Alin|lärare, Nossebro
+C|18043|78|M|Peråke Lundberg|fil.kand, Essunga
+C|18044|46|K|Anna Karlsson|habiliteringsassistent, Nossebro
+C|18045|84|M|Bengt Alin|ämneslärare, Nossebro
+C|63198|59|M|Mats Olsson|Essunga
+C|63199|56|M|Lars-Göran Andersson|56 år,Egenföretagare,Nossebro
+C|255176|40|M|Daniel Andersson|Kommunalråd, Bäreberg
+C|255177|51|K|Catharina Åslund|Verksamhetsekonom, Nossebro
+C|253989|46|M|Fredrik Almgren|46, Ansvarig Transportledare, Essunga
+C|255179|39|M|Peter Lundgren|Maskinsäljare, Barne-Åsaka
+C|255180|72|K|Barbro Gustafsson|Pensionär, Fåglum
+C|253999|62|M|Leif Avlskarl|62, Project Controller, Essunga
+C|255182|62|K|Marie-Louise Svensson|Musikdirektör, Nossebro
+C|255183|46|M|Tobias Wallin|Ekonomiansvarig, Bäreberg
+C|254359|55|K|Jill Schoultz|55, Sjuksköterska, Essunga
+C|255185|66|M|Jörgen Dimenäs|Docent, Lekåsa
+C|254375|38|M|Joakim Svensson|38, Servicemarknadschef, Essunga
+C|255187|44|K|Pernilla Jönsson|Redovisningsansvarig, Barne-Åsaka
+C|255188|57|M|Cliff Nyqvist|Hälsovetare, Malma
+C|255189|49|K|Pernilla Nilsson|Kommunutvecklare, Malma
+C|255190|31|K|Sophie Sundquist|Apotekschef, Främmestad
+C|255191|58|M|Stefan Algebäck|Företagare, Essunga
+C|255192|28|M|Pontus Aghamn|Elektriker, Lekåsa
+C|255193|34|K|Caroline Lundgren|Tekniker, Fåglum
+C|255194|37|M|Fredrik Karlsson|Mjölkproducent, Essunga
+C|255195|70|M|Åke Carlzon|Livsnjutare, Främmestad
+C|255196|51|K|Valeria Schulz|Administratör, Bäreberg
+C|255197|51|M|Peter Welin|Företagare, Essunga
+C|255198|70|M|Carl Dicander|Företagare, Kyrkås
+C|255199|28|M|Robert Johansson|Reservdelstekniker, Essunga
+C|255200|51|M|Lars Malmerström|Elektriker, Nossebro
+C|255201|49|M|Svante Andersson|Rådgivare, Essunga
+C|245779|47|K|Cristina Skogen|47, Personlig assistent
+C|245780|51|M|Niklas Skogen|51, Maskinförare
+C|509685|76|K|Eva Petterson|76, egenföretagare
+C|509686|22|M|Eddi Skogen|22, skötare
+C|506198|46|K|Carolina Fischer Fors|46, ekonom
+C|509688|52|K|Eva Forsberg|52, undersköterska
+C|502129|81|M|Rolf Dahlgren|81, småföretagare
+C|513465|47|M|Hans-Åke Bergqvist|
+C|30324|69|K|Birgitta Nielsen|Pensionerad lärare, 69 år
+C|30325|36|M|Jacob Johansson|Metallarbetare, 36 år
+C|30326|52|K|Carin Lundskog|Undersköterska, 52 år
+C|30327|47|M|Fredrik Augustsson-Andersson|Välfärdsarbetare, 48 år
+C|30328|62|K|Asima Velic|Undersköterska, 63 år

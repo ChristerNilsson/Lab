@@ -1,8 +1,181 @@
-2|110191|24573|24877|110514|31571|110516|110517|110518|110519|31542|110521|31572|110523|111472|111570|111571|111572|31568|31611|111800|111801|111802|111803|111946|111947|31679|111949|111950|111951|111952|112245|112246|112247|112248|112249|112404|112405|31534|112407|112522|112523|112524|112525
-4|12023|12240|12242|12042|33725|33726|33727|33728|33729|33730|33731|33732|33733|33734|33735
-68|251298|251299|251300|251301|255679|251303|251304|251305|251306|251307|251308|251309|251310
-3|249741|249307|249279|249744|249296|249312|249288|249748|249300|249750|249751|249752|249753|249754|249755|249756|249757|249758|249759|249760|249761|249762
-55|415601|418785|418786|418787
-1|3366|3367|3368|3369|3370|3371|3372|3334|3374|3375|3376|3377|3378|3379|3380|3381|3382|3383|3385|3386|3387|3388|3389|3390|3391|3392|3393
-110|80843|80844|80845|80846|80847|80848|80849|80850|80851|80852|80853|80855|80856|80857|80858|80860|80861|80862|80864|80865|80866|80867|80868
-5|71569|277030|78644|78645|78646|71578|71584|78649|78650|277038|78651|77647|277041|77651|78654|78655|78656
+T|Mjölby
+A|2|110191|24573|24877|110514|31571|110516|110517|110518|110519|31542|110521|31572|110523|111472|111570|111571|111572|31568|31611|111800|111801|111802|111803|111946|111947|31679|111949|111950|111951|111952|112245|112246|112247|112248|112249|112404|112405|31534|112407|112522|112523|112524|112525
+A|4|12023|12240|12242|12042|33725|33726|33727|33728|33729|33730|33731|33732|33733|33734|33735
+A|68|251298|251299|251300|251301|255679|251303|251304|251305|251306|251307|251308|251309|251310
+A|3|249741|249307|249279|249744|249296|249312|249288|249748|249300|249750|249751|249752|249753|249754|249755|249756|249757|249758|249759|249760|249761|249762
+A|55|415601|418785|418786|418787
+A|1|3366|3367|3368|3369|3370|3371|3372|3334|3374|3375|3376|3377|3378|3379|3380|3381|3382|3383|3385|3386|3387|3388|3389|3390|3391|3392|3393
+A|110|80843|80844|80845|80846|80847|80848|80849|80850|80851|80852|80853|80855|80856|80857|80858|80860|80861|80862|80864|80865|80866|80867|80868
+A|5|71569|277030|78644|78645|78646|71578|71584|78649|78650|277038|78651|77647|277041|77651|78654|78655|78656
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|110191|40|K|Cecilia Burenby|40 år, kommunalråd, Mjölby
+C|24573|66|M|Jörgen Oskarsson|66 år, f.d. kommunalråd, Mjölby
+C|24877|48|K|Anna Johansson|48 år, kommunalråd, Mjölby
+C|110514|52|M|Thony Andersson|52 år, integrationssamordnare, Mjölby
+C|31571|63|K|Elisabeth Moborg|63 år, skötare, Mjölby
+C|110516|61|M|Pelle Gustafsson|61 år, företagare, Mjölby
+C|110517|48|K|Ellinor Karlsson|48 år, fastighetsskötare, Mjölby
+C|110518|51|M|Lars-Göran Hjelm|51 år, industriarbetare, Väderstad
+C|110519|63|K|Jennifer Myrén|63 år, ärendehandläggare, Mjölby
+C|31542|22|M|Albert Lindell|22 år, student, Mjölby
+C|110521|64|K|Anna-Lena Sörenson|64 år, f.d. riksdagsledamot, Mjölby
+C|31572|64|M|Kjell Gustafsson|64 år, f.d. LO-ombudsman, Mjölby
+C|110523|62|K|Anne-Marie Pettersson|62 år, undersköterska, Mjölby
+C|111472|30|M|Tobias Rydell|30 år, industriarbetare, Skänninge
+C|111570|27|K|Cecilia Svensk|27 år, lärare, Mjölby
+C|111571|70|M|Kent Kärrlander|70 år, f.d. ombudsman, Väderstad
+C|111572|43|K|Elin Bäckström|43 år, skolbibliotekarie, Mjölby
+C|31568|69|M|Rainer Fredriksson|69 år, Mjölby
+C|31611|57|K|Birgitta Larson|57 år, undersköterska, Mjölby
+C|111800|53|M|Per-Arne Olsson|53 år, kulturarbetare, Mjölby
+C|111801|59|K|Emina Basic|58 år, specialistläkare, Mjölby
+C|111802|53|M|Nicklas Karlsson|53 år, industriarbetare, Skänninge
+C|111803|38|K|Nina Asklöf|38 år, sjuksköterska, Väderstad
+C|111946|62|K|Eva-Gun Carlson-Sincic|62 år, skötare, Mjölby
+C|111947|54|M|Mikael Karlborg|54 år, platschef, Mantorp
+C|31679|67|K|Kristina Selvin|67 år, skötare, Mjölby
+C|111949|80|M|Göran Hugo|80 år, f.d. elektriker, Mjölby
+C|111950|50|K|Marie Karlsson|50 år, undersköterska, Mantorp
+C|111951|63|K|Carina Kärrlander|63 år, produktionschef, Väderstad
+C|111952|68|K|Mariann Zäll|68 år, f.d. barnskötare, Mjölby
+C|112245|62|M|Lars Stoltz|62 år, bilmekaniker, Mjölby
+C|112246|34|K|Elin Blick|34 år, föräldraledig, Mjölby
+C|112247|77|M|Arne Svensson|77 år, f.d. arbetsförmedlare, Mantorp
+C|112248|70|K|Britt-Inger Pettersson|70 år, kontorist, Mantorp
+C|112249|61|M|Tomas Landberg|61 år, ombudsman, Mantorp
+C|112404|71|K|Ulla-Britt Fornell|71 år, barnskötare, Mantorp
+C|112405|35|M|Andreas Burenby|35 år, industriarbetare, Mjölby
+C|31534|28|K|Ebba Sörenson|28 år, undersköterska, Mjölby
+C|112407|72|M|Anders Ståhlgren|72 år, pensionär, Mjölby
+C|112522|64|K|Karin Andersson|64 år, lokalvårdare, Mjölby
+C|112523|65|M|Lennart Svensson|64 år, teknisk säljare, Skänninge
+C|112524|68|K|Rigmor Cederbom|68 år, f.d. verksamhetsledare, Skänninge
+C|112525|49|M|Håkan Johansson|49 år, produktionsberedare, Skänninge
+C|12023|50|K|Birgitta Gunnarsson|50 år, Kommunalråd, Mjölby
+C|12240|67|M|Anders Steen|67 år, Lantmästare, Mjölby
+C|12242|49|M|Claes Samuelsson|49 år, Tjänsteman, Mantorp
+C|12042|41|K|Viktoria Petré Lindholm|41 år, Ingenjör, Mjölby
+C|33725|62|M|Tony Lingeby|lantarbetare, 62 år, Normlösa
+C|33726|58|M|Jan-Erik Carlsson|lantmästare, 59, Mjölby
+C|33727|39|K|Maria Rosqvist|lärare, 39 år, Mjölby
+C|33728|62|K|Maria Gillberg|arbetsterapeut, 62 år, Mantorp
+C|33729|37|K|Frida Knutsson|företagare, 37 år, Västra Harg
+C|33730|81|K|Anna-Stina Palm|pensionär, 81år, Järstad
+C|33731|47|K|Anneli Sjöstrand|förskollärare, 47 år, Skänninge
+C|33732|68|K|Berith Greck Ånell|ingenjör, 68 år, Mantorp
+C|33733|57|K|Gunilla Carlsson|kock, 57 år, Mjölby
+C|33734|68|M|Leif Boreson|pensionär, 68 år, Skänninge
+C|33735|45|K|Maria Saxin|florist, 45 år, Hogstad
+C|251298|48|M|Tommy Engback|Svetsare, Mjölby
+C|251299|71|M|Birger Hagström|Teknikinformatör, Mantorp
+C|251300|23|M|Isac Gustafsson|Hotellvärd, Mantorp
+C|251301|71|M|Torgil Slatte|F.d Miljöchef, Västra Harg
+C|255679|48|K|Maria Petersson|Gymnasielärare, Mantorp
+C|251303|60|M|Bengt Olof Idmyr|Tandläkare, Mjölby
+C|251304|40|K|Therese Gustafsson|Badvärd, Mantorp
+C|251305|54|M|Henri Riccono|Förättningsassistent, Mantorp
+C|251306|51|M|Timo Kjellberg|Produktionschef, Mantorp
+C|251307|60|K|Ann Albrektsson|Sjuksköterska, Mjölby
+C|251308|45|M|Joakim Gustafsson|Industriarbetare, Mjölby
+C|251309|46|K|Mari Engback|Personlig assistent, Mjölby
+C|251310|41|M|Andreas Gransö|Butiksanställd, Mjölby
+C|249741|73|M|Curt Karlsson|f.d. universitetsdirektör, 73 år, Mjölby
+C|249307|38|K|Kristin Kellander|lärare, Mantorp
+C|249279|38|M|Tobias Josefsson|företagare, Mjölby
+C|249744|64|K|Gun-Inger Andersson|rektor, 64 år, Mjölby
+C|249296|28|M|Marcus Åhagen|statsvetare, Mjölby
+C|249312|53|K|Yvonne Mellberg Jakobsson|socialsekreterare, Mantorp
+C|249288|35|M|Mikael Östergren|butiksarbetare, Mjölby
+C|249748|45|K|Ilona Degermark|präst, 45 år, Skänninge
+C|249300|21|M|Adam Landberg|studerande, Mantorp
+C|249750|63|K|Carina Johansson|förhandlare, 63 år, Mantorp
+C|249751|53|M|Magnus Liwing|försäljningschef, 53 år, Östra Tollstad
+C|249752|62|K|Gunilla Brynell Johansson|VD MAIF Vätternrundan, 62 år, Väderstad
+C|249753|69|M|Bill Sjölund|f.d. speditör, 69 år, Mantorp
+C|249754|50|K|Ingela Karlsson|egenföretagare, 50 år, Mantorp
+C|249755|70|M|Bengt-Göran Göth|f.d. kriminalinspektör, 70 år, Mantorp
+C|249756|33|K|Maria Josefsson|ungdomshandläggare, 33 år, Mjölby
+C|249757|35|K|Linda Johansson|leg. sjuksköterska, 35 år, Mantorp
+C|249758|40|M|Oskar Svanberg|travtränare, 40 år, Mantorp
+C|249759|39|K|Jenny Egerborn|församlingspedagog, 39 år, Mjölby
+C|249760|59|M|Johan Zanderholm|ek. rådgivare, 59 år, Mantorp
+C|249761|71|K|Birgitta Jansson|beteendevetare, 71 år, Mantorp
+C|249762|70|M|Jim Kellander|pensionär, 70 år, Mantorp
+C|415601|30|M|Christoffer Sjögren|30, Förvaltningssekreterare, Mjölby
+C|418785|54|K|Kristina Post|54, Lärare
+C|418786|25|M|Abiola Laiyenfe|25, Undersköterska
+C|418787|73|M|Thomas Åkerblom|73, Frilansjournalist
+C|3366|60|M|Lars-Åke Pettersson|Västra Harg
+C|3367|57|K|Annette Ohlsson|Mjölby
+C|3368|57|M|Mats Allard|Västra Harg
+C|3369|69|K|Iréne Karlsson|Väderstad
+C|3370|50|K|Lindhia Petersson|Västra Harg
+C|3371|65|K|Margareta Toorell|Mjölby
+C|3372|40|K|Kristin Henrysson|Bjälbo
+C|3334|39|K|Jenni Bäck|Företagare/Studerande, 39 år, Mjölby
+C|3374|70|K|Ulla Karlsson|Mantorp
+C|3375|45|K|Pernilla Greibe|Mjölby
+C|3376|59|M|Tommy Borg|Mjölby
+C|3377|73|M|Lennart Karlsson|Väderstad
+C|3378|52|M|Fredrik Henrysson|Bjälbo
+C|3379|30|M|Michael Belfrage|Mjölby
+C|3380|40|K|Nina Stenmark|Mantorp
+C|3381|70|M|Per-Olof Lindelöf|Mjölby
+C|3382|69|M|Lars Adolfsson|Skänninge
+C|3383|64|K|Eva Lennartsson|Mjölby
+C|3385|61|M|Claes Andersson|Väderstad
+C|3386|37|K|Anna-Carina Hallström|Mjölby
+C|3387|45|M|Lars Lifh|Mjölby
+C|3388|59|M|Jan Ståhlberg|Mantorp
+C|3389|79|K|Karin Starkhammar|Mantorp
+C|3390|69|M|Jan-Erik Jeppsson|Normlösa
+C|3391|79|K|Birgitta Engholm|Mjölby
+C|3392|68|K|Chatarina Jeppsson|Normlösa
+C|3393|62|K|Monika Gideskog|Mjölby
+C|80843|53|M|Runar Öhman|Yrkesofficer, Mjölby
+C|80844|47|K|Jessica Miedl-Ohlsson|47, undersköterska, Mjölby
+C|80845|38|M|Andreas Östensson|38, kvalitetstekniker, Skänninge
+C|80846|45|M|Fredrik Bertilsson|45, civilingenjör, Mantorp
+C|80847|50|M|Patrick Forsman|50, egenföretagare, Mjölby
+C|80848|39|M|Anders Rothman|39, IT-specialist, Mjölby
+C|80849|63|K|Bodil Möller|63, utbildare/egenföretagare, Mjölby
+C|80850|65|K|Eva Thörnqvist|65, Mjölby
+C|80851|25|M|Martin Westergren|25, kontrollberedare, Mjölby
+C|80852|61|K|Suzan Harfouch|60, egenföretagare, Mjölby
+C|80853|67|K|Monika Eriksson|67, undersköterska, Mjölby
+C|80855|78|M|Lars Bodegård|78, läkare, Mjölby
+C|80856|52|M|Roger Larsson|52, lokförare/bantekniker, Mantorp
+C|80857|55|M|Urban Lysell|55, Mjölby
+C|80858|43|K|Helena Dössing|43, kock, Mjölby
+C|80860|52|M|Lennart Backlund|52, egenföretagare, Skänninge
+C|80861|56|M|Lars Magnusson|56, teletekniker, Mjölby
+C|80862|53|M|Peter Gabrielsson|54, egenföretagare, Skänninge
+C|80864|56|M|Kenneth Backlund|56, entreprenör, Mjölby
+C|80865|45|K|Sakuntala Buttho|45, massör, Mantorp
+C|80866|25|K|Mikaela Miedl-Ohlsson|25, undersköterska, Mjölby
+C|80867|42|M|Jens Andersen|42, svetsare, Mjölby
+C|80868|41|M|Johan Holmberg|41, säljare, Skänninge
+C|71569|64|M|Franco Sincic|64, Mjölby
+C|277030|46|M|Fredrik Rydberg|46, Mjölby
+C|78644|43|K|Patricia Barkö|Mjölby
+C|78645|54|M|Göran Lidemalm|54, Mjölby
+C|78646|46|M|Daniel Hermansson|46, Skänninge
+C|71578|52|M|Thorbjörn Andersson|51, Mjölby
+C|71584|42|K|Teresa Forsnacke|42, Vikingstad
+C|78649|43|M|Omar Vincevic|43, Mjölby
+C|78650|42|K|Frida Lindh|41, Mjölby
+C|277038|55|M|Michael Carlsson|55, Mjölby
+C|78651|64|K|Anette Lindh|64, Mjölby
+C|77647|46|M|Joakim Häggkvist|46, Skänninge
+C|277041|61|M|Tommy Ekman|62, Mjölby
+C|77651|50|M|Niklas Aus|50, Mjölby
+C|78654|68|K|Helena Strömbert|67,  Mjölby
+C|78655|58|M|Roger Max|58, Mjölby
+C|78656|48|M|Kristian Barkö|48, Mjölby

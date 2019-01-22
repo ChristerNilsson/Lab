@@ -1,9 +1,218 @@
-2|240266|240267|240268|240269|240270|240271|240272|240273|240274|240275|240276|240277|240278|240279|240280|240281|240282|240283|240284|240285|240286|240287|240288|240289|240290|240291|240292|240293|240294|240295|240296|240297|240298
-4|33531|187238|8507|33532|38946|187242|187243|187244|187245|187246|187247|187248|187249|33546|187251|187252|187253|187254|187255|187256|187257|187258|187259|187260|187261|187262|187263|187264|187265|187266|187267|187268|187269|187270|187271|187272|187273|187274|187275|187276|187277|187278|187279|187280|187281|187282|187283
-68|9149|126182|9173|9159|126185|126186|9188|126188|188317|126189|9189|126191|126192|126193|126194|126195|126196|126197|126198|126199|126200|126201|126202|126203|126204|126205
-3|156317|156319|156323|185080|251939|165070|185082
-55|123311|123312|123313|123315|123316
-1|35811|36995|36996|36997|36998|36999|37000|37001|37002|37003|37004|37005|36204|37007|37008|37009|35823|37011|37012|37013|37014|37015|37016
-197|490175|497985|503998|503999|504000|497979|504002|504003|504004|504005|490176|504007|490183|504009|504010|504011|504012|504013|504014|504015|504016|504017|504018|490191|504020|490180|504022|497988|504024|490198|504026|504027|504028|504029|504030|504031|504032|490201|504034|504035
-110|35149|35150|35151|35152|35153|35154|35155|217351
-5|63816|299618|299619|299620|299621|299622|299623|299624|299625|299626|299627|299676
+T|Mora
+A|2|240266|240267|240268|240269|240270|240271|240272|240273|240274|240275|240276|240277|240278|240279|240280|240281|240282|240283|240284|240285|240286|240287|240288|240289|240290|240291|240292|240293|240294|240295|240296|240297|240298
+A|4|33531|187238|8507|33532|38946|187242|187243|187244|187245|187246|187247|187248|187249|33546|187251|187252|187254|187255|187256|187257|187258|187259|187261|187262|187263|187264|187265|187266|187267|187268|187269|187270|187271|187272|187273|187274|187275|187276|187277|187278|187279|187280|187281|187282|187283
+A|68|9149|126182|9173|9159|126185|126186|9188|126188|188317|126189|9189|126191|126192|126193|126194|126195|126196|126197|126198|126199|126200|126201|126202|126203|126204|126205
+A|3|156317|156319|156323|185080|251939|165070|185082
+A|55|123311|123312|123313|123315|123316
+A|1|35811|36995|36996|36997|36998|36999|37000|37001|37002|37003|37004|37005|36204|37007|37008|37009|35823|37011|37012|37013|37014|37015|37016
+A|197|490175|497985|503998|503999|504000|497979|504002|504003|504004|504005|490176|504007|490183|504009|504010|504011|504012|504013|504014|504015|504016|504017|504018|490191|504020|490180|504022|497988|504024|490198|504026|504027|504028|504029|504030|504031|504032|490201|504034|504035
+A|110|35149|35150|35151|35152|35153|35154|35155|217351
+A|5|63816|299618|299619|299620|299621|299622|299623|299624|299625|299626|299627|299676
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|197|MOP|Morapartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|240266|65|M|Lennart Sohlberg|65 år, Mora
+C|240267|56|K|Anna-Karin Rydstedt|Mora
+C|240268|35|M|Ajdoan Muliqi|Utmeland
+C|240269|24|K|Emma Ljudén|Noret
+C|240270|66|M|Gunnar Nilsson|Hånåkni
+C|240271|70|K|Karin Blomberg Lübeck|Öna
+C|240272|67|M|Per Göransson|Mora
+C|240273|59|K|Bigitta Sohlberg|Mora
+C|240274|47|M|Johan Morell|Östnor
+C|240275|71|K|Eva Johansson|Kråkberg
+C|240276|72|M|Gösta Frost|Selja
+C|240277|37|K|Elina Silvennoinen|Sollerön
+C|240278|47|M|Hasan Kizil|Morkarlby
+C|240279|68|K|Anna-Riekje Niburg|Hånåkni
+C|240280|21|K|Johanna Karlén|Morkarlby
+C|240281|36|K|Karolina Treson|Mora
+C|240282|41|K|Maria Matsson|Våmhus
+C|240283|68|M|Olle Erlands|Noret
+C|240284|50|K|Nice Mattsson|Utmeland
+C|240285|71|M|Ingemar Larsson|Mora
+C|240286|64|K|Monica Erlands|Noret
+C|240287|46|M|Isa Bozdogan|Noret
+C|240288|35|K|Sofia Jonasson|Venjan
+C|240289|82|M|Arne Pettersson|82 år, Mora
+C|240290|64|K|Lisa Nilsson|Hånåkni
+C|240291|57|M|Inge Tomth|Kristineberg
+C|240292|49|K|Åsa Hinders|Östnor
+C|240293|79|M|Folke Thelin|Mora
+C|240294|65|K|Lizzy Gullo|Mora
+C|240295|67|K|Sonja Lindgren|Sollerön
+C|240296|35|M|Johan Olsson|Våmhus
+C|240297|32|K|Linnea Kax|Noret
+C|240298|66|K|Majvor Hellström Mases|Kättbo
+C|33531|47|K|Anna Hed|Mora
+C|187238|45|K|Rose-Mari Bogg|45 år, Gymnasielärare, Öna
+C|8507|56|M|Peter Helander|56 år, Riksdagsledamot, Mora
+C|33532|67|K|Christina Bröms|Mora
+C|38946|53|M|Joakim Holback|53 år, Bredbandskoordinator, Mora
+C|187242|44|M|Nicklas Lind|44 år, Avtal och inköpschef, Morkarlby
+C|187243|67|M|Lars Nises|67 år, Brandingenjör, Utmeland
+C|187244|65|K|Berit Olars|65 år, Fd journalist, Hånåkni
+C|187245|75|M|Bengt Jernhall|75 år, Pensionär, Klockarhagen
+C|187246|46|M|Johan Hed|46 år, Kommunpolis, Våmhus
+C|187247|72|M|Bert Persson|71 år, Fd skolledare, Sanda
+C|187248|75|M|Gunder Eriksson|75 år, Entreprenör, Morkarlby
+C|187249|76|M|Billy Ferm|76 år, Arbetsmiljöingenjör, Yvraden
+C|33546|42|M|Torbjörn Ulriksen|Mora
+C|187251|47|K|Åsa Lyhed|47 år, Lärare, Garsås
+C|187252|61|M|Lars Ambrosiusson|61år,Skogskonsulent, Våmhus
+C|187254|72|M|Kjell Hansson -Talu|72 år, Fotograf, Utmeland
+C|187255|35|M|Thomas Nielsen|35 år, Egen företagare, Sollerön
+C|187256|39|M|Joel Zackrisson|39 år, Egen företagare, Venjan
+C|187257|44|K|Maria Boork|44 år, Rektor, Sollerön
+C|187258|44|K|Åsa Eriksson|44 år, Sjuksköterska, Sollerön
+C|187259|23|K|Johanna Hed|23 år, Konstruktör, Våmhus
+C|187261|79|K|Mait Lindh|79 år, Fd sjuksköterska, Kråkberg
+C|187262|38|K|Anna Nises Borgström|38 år, HR-strateg, Mora
+C|187263|71|M|Lars-Olof Österström|71 år, Jägmästare, Utmeland
+C|187264|71|K|Gudrun Lindgren|71 år, Pensionär, Venjan
+C|187265|53|M|Anders Johansson|53 år, Virkesmätare, Mora
+C|187266|25|M|Jonathan Hed|25 år, Verkstadsarbetare, Våmhus
+C|187267|74|M|Bernd Janusch|74 år, Konstnär, Mora
+C|187268|70|M|Stefan Matsson|70 år, Fd polis, Isunda
+C|187269|65|M|Terje Andersson|65 år, Assistent, Bonäs
+C|187270|78|M|Mats Hanspers|78 år, Markkonsult, Nusnäs
+C|187271|70|M|Bo Wallin|70 år, Pensionär, Kråkberg
+C|187272|51|K|Anette Persson|41 år, Lärare/studerande, Färnäs
+C|187273|35|M|Bogg Daniel Nilsson|35 år, Näringslivsutvecklare, Sollerön
+C|187274|26|M|Hakan Celik|26 år, Egen företagare, Sanda
+C|187275|64|M|Kent Gustafson|64 år, Fd banktjänsteman, Mora
+C|187276|74|M|Nils Carlsson|74 år, Pensionär, Mora
+C|187277|52|K|Stefka Bylon|52 år, Pedagog, Mora
+C|187278|72|M|Ulf Jernberg|72 år, Pensionär, Våmhus
+C|187279|50|M|Anders Pettersson|50 år, Virkesköpare, Hemus
+C|187280|42|M|Anders Calder|42 år, Arbetsledare, Isunda
+C|187281|67|M|Karl-Erik Andersson|67 år, Platschef, Selja
+C|187282|66|M|Ronny Kansell|66 år, Fd gymnasielärare, Öna
+C|187283|54|K|Maria Melander|54 år, Socialpedagog, Utmeland
+C|9149|61|M|Lennart Sacrédeus|gymnasielärare, Mora
+C|126182|53|M|Göran Aronson|systemingenjör, Hånåkni
+C|9173|59|K|Birgitta Sacrédeus|landstingsråd, Mora
+C|9159|49|K|Kerstin Norlin|lärare, Mora
+C|126185|75|M|Anders Berg|f d major, Sollerön
+C|126186|49|K|Kristina Snäll|redovisningskonsult, Tuvan
+C|9188|67|M|Zbigniew Karczewski|lärare, Mora
+C|126188|71|M|Sven-Erik Larsson|ekonom, Saxnäs
+C|188317|48|K|Anneli Mattsson Kershaw|lärare, Östnor
+C|126189|48|M|Faiez Michail|musiklärare, Stranden
+C|9189|61|K|Elisabeth Svensdotter|barnmorska, Nusnäs
+C|126191|61|M|Kjell Arvidsson|lastbilschaufför, Färnäs
+C|126192|68|K|Sonja Tångring|barnsköterska, Morkarlby
+C|126193|54|K|Marita Robelin|barnmorska, Morkarlby
+C|126194|72|M|Björn Westin|fil dr, Stranden
+C|126195|64|K|Eva Engberg|undersköterska, Utmeland
+C|126196|79|M|Samuel Rombo|säljare, Utmeland
+C|126197|68|K|Ingrid Olow-Franzén|adjunkt, Morkarlby
+C|126198|58|K|Carina Renhall|kontorist, Stranden
+C|126199|68|M|Lars Olsson|sjuksköterska, Mora-Noret
+C|126200|68|K|Inger Holpers|mentalsköterska, Öna
+C|126201|78|K|Ursula Bartholdsson|småskollärare, Morkarlby
+C|126202|54|M|Anders Karlsson|företagare, Noret
+C|126203|51|K|Stikå Lena Hermansson Biliitski|företagare, Stormyren
+C|126204|85|M|Ingrid Hjertén|sjuksköterska, Stranden
+C|126205|78|K|Siv Sjögren|barnmorska, Bonäs
+C|156317|55|M|Jörgen Öhrström|Ingenjör, 55 år, Mora
+C|156319|57|M|Mats-Gunnar Eriksson|Verktygsmakare, 57 år, Mora
+C|156323|24|K|Hanna Romelin|Lärarstudent, 24 år, Mora
+C|185080|70|M|Jan Rova|70 år, Saxnäs
+C|251939|26|M|Mattias Stenholtz|26 år, Utmeland
+C|165070|68|K|Anna-Maria Norén|68 år Pensionär, Mora
+C|185082|40|M|Nils Österström|41 år, Vika
+C|123311|38|M|Fredrik Blom|Mora, varuhuschef
+C|123312|46|M|Leif Sandström|Mora, gymnasielärare
+C|123313|45|M|Pontus Bråmer|Mora, rektor
+C|123315|53|K|Åsa Berg|Mora, specialpedagog
+C|123316|33|K|Iréne Lilja|Mora, miljöinspektör
+C|35811|49|K|Malin Höglund|49 år, kommunalråd, Mora
+C|36995|65|M|Per Ericson|65 år, Broåkern
+C|36996|65|M|Sven-Anders Söderberg|66 år, Sollerön
+C|36997|67|M|Arne Grahn|67 år, Hemus
+C|36998|65|M|Lenny Törnqvist|66 år, Isunda
+C|36999|47|M|Joakim Turesson|47 år, Gesunda
+C|37000|34|K|Carina Jannesson|34 år, Stranden
+C|37001|39|M|Halim Meral|39 år, Morkarlby
+C|37002|31|K|Emelie Björck|31 år, Morkarlby
+C|37003|53|M|Stig Rusk|53 år, Selja
+C|37004|59|M|Lassä Bröms|59 år, Hemus
+C|37005|53|M|Johan Danielsson|53 år, Isunda
+C|36204|64|K|Gunnel Söderberg|64 år, keramiker, Mora
+C|37007|70|K|Agneta Ersson|70 år, Öna
+C|37008|48|M|Anders Nöjd|48 år, Broåkern
+C|37009|61|K|Christiane Djäken|62 år, Hånåkni
+C|35823|61|M|Lars Rydstedt|61 år, räddningschef, Mora
+C|37011|52|M|Hans-Göran Åhgren|52 år, Stranden
+C|37012|44|K|Marit Poutamo|45 år, Utmeland
+C|37013|51|K|Carina Mason|52 år, Tuvan
+C|37014|65|M|Kjell Karlsson|65 år, Öna
+C|37015|32|M|Joakim Engström|32 år, Utmeland
+C|37016|70|K|Helen Ekstam|70 år, Morkarlby
+C|490175|71|M|Ingvar "Nille" Niilimaa|Mora
+C|497985|50|K|Maria Frelin|Mora
+C|503998|48|M|Joakim Linder|Projektledare, Rödmyren
+C|503999|40|K|Naima Trogen|Vårdarinna, Sollerön
+C|504000|43|M|Johan Jansson|Engagerad, Finnsnäs
+C|497979|32|K|Marie Lund|Mora
+C|504002|63|M|Hans Åke "Gutte" Guth|Sociala frågor, Klockarhagen
+C|504003|52|K|Magdalena Kanz|Undersköterska, Stranden
+C|504004|52|M|Anders Ossmyr|Snickare, Våmhus
+C|504005|34|K|Anna Liljeberg|Undersköterska, Önaheden
+C|490176|76|M|Björn Hammarskjöld|
+C|504007|45|M|Stefan Olsson|Säljare, Broåker
+C|490183|55|K|Chatarina Nyström|Mora
+C|504009|54|M|Tomas Norell|Mekaniker, Ryssa
+C|504010|53|K|Yvonne Granath|Handledare, Broåkern
+C|504011|68|M|Hans Stolpe|Kock, Klockarhagen
+C|504012|61|K|Margaretha Frödin|Ekonom, Färnäs
+C|504013|42|M|Mikael Ågren|Industriarbetare, Nusnäs
+C|504014|50|K|Ingela Ossmyr|Barnskötare, Våmhus
+C|504015|54|M|Bengt Larsson|Hånåkni
+C|504016|46|M|Fredrik Schröder|Yrkeschaufför, Stormyren
+C|504017|79|K|Margareta Ahlström|Socionom, Sollerön
+C|504018|65|M|Sven Andersson|Arbetande pensionär, Rödmyren
+C|490191|68|K|Lena Hed Sandlund|Mora
+C|504020|74|M|Jan Norberg|Pensionär, Stranden
+C|490180|38|K|Jenny Back-Ågren|Mora
+C|504022|20|M|Lukas Persson|Kock, Färnäs
+C|497988|48|K|Maria Bäckström|Mora
+C|504024|75|M|Henry Frisk|Pensionär, Våmhus
+C|490198|61|K|Helena Hammarskjöld|Mora
+C|504026|77|M|Sören Linds|Hantverkare, Garsås
+C|504027|63|K|Solveig Roos|Undersköterska, Hånåkni
+C|504028|74|M|Karl-Erik Falk|Pensionär, Utmeland
+C|504029|67|K|Ulla Larsson|Barnskötare, Sollerön
+C|504030|19|M|Simon Berggren|Studerande, Färnäs
+C|504031|75|K|Ingrid Hammarström|Pensionär, Utmeland
+C|504032|68|M|Torbjörn Roos|Urmakare. Hånåkni
+C|490201|65|K|Birgit Nilsson|Mora
+C|504034|75|M|Göran Kans|Pensinär, Bonäs
+C|504035|23|M|Robin Andersson|Industriarbetare, Rödmyren
+C|35149|71|M|Bror Markus|Fritidsförvaltare, Sollerön
+C|35150|73|M|Lars-Erik Lohman|Byggnadsingenjör, Mora
+C|35151|23|M|Simon Granath|Elevassistent, Mora
+C|35152|70|M|Krister Eriksson|Styrreglertekniker, Sollerö-Björka
+C|35153|44|M|Pär Dalkvist|Sjuksköterska, Mora
+C|35154|39|K|Therese Mörk|Vårdare, Mora
+C|35155|66|M|Ingemar Björn|Fastighetsskötare, Ryssa
+C|217351|28|M|Joakim Jakobsen|Yrkesförare, Mora
+C|63816|54|M|David Örnberg|Mora, 54 år
+C|299618|68|M|Christer Johansson|
+C|299619|58|K|Maria Olofson-Thörnqvist|
+C|299620|69|K|Lisbeth Magnusson|
+C|299621|63|K|Monika Fredriksson|
+C|299622|64|K|Britt-Marie Jansson Meyer|
+C|299623|69|K|Mai Olofsson|
+C|299624|27|M|Martin O. Dahlin|
+C|299625|76|K|Margit Hielle|
+C|299626|56|K|Anna Calderón|
+C|299627|38|K|Marleén Gudru|
+C|299676|51|K|Susanne Halén|

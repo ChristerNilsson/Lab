@@ -1,8 +1,106 @@
-2|104402|104403|104404|104405|104406|104407|104408|104409|104410|104411|104412|104413|104414|104415|104416|104417|104418|104419|104420|104421|104422|104423|104424|104425|104426|104427
-4|301721|301722|301723|301724|301725|301726|301727|301728|301729
-68|515651
-3|26931|30043|30044|30045|30048|30046|30047
-55|124407|122975|124409|122953|124411|124412|124413
-1|11118|11119|11120|11121|11122|11123|11124|11125|11126
-110|76841|76842|76843|76844|76845|76846|76847|76848|76849|76850|76851|76852|76853|76854|76855
-5|180183|180184|180185|180186|180187|180188|180189|180190|180191|180192|180193|180194|180195|180196|180197
+T|Ljusnarsberg
+A|2|104402|104403|104404|104405|104406|104407|104408|104409|104410|104411|104412|104413|104414|104415|104416|104417|104418|104419|104420|104421|104422|104423|104424|104425|104426|104427
+A|4|301721|301722|301723|301724|301725|301726|301727|301728|301729
+A|68|515651
+A|3|26931|30043|30044|30045|30048|30046|30047
+A|55|124407|122975|124409|122953|124411|124412|124413
+A|1|11118|11119|11120|11121|11122|11123|11124|11125|11126
+A|110|76841|76842|76843|76844|76845|76846|76847|76848|76849|76850|76851|76852|76853|76854|76855
+A|5|180183|180184|180185|180186|180187|180188|180189|180190|180191|180192|180193|180194|180195|180196|180197
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|104402|56|K|Ewa-Leena Johansson|56 år,Ljusnarsberg
+C|104403|63|M|Ken Karlsson|63,Kopparberg
+C|104404|60|K|Ulla Kalander-Karlsson|60 år, Ljusnarsberg
+C|104405|60|M|Gert Stark|60 år, Ljusnarsberg
+C|104406|60|K|Maud Tsupukka|60,Bångbro
+C|104407|63|M|Antti Tsupukka|63 år,Ljusnarsberg
+C|104408|52|K|Susanne Hall|52,Kopparberg
+C|104409|43|M|Mattias Svedberg|43,Kopparberg
+C|104410|41|K|Sudaduang Pangkrathok|41,Kopparberg
+C|104411|73|M|Torgny Björn|73,Bångbro
+C|104412|70|K|Inger Willman|70,Kopparberg
+C|104413|32|M|Filip Stark|32,Kopparberg
+C|104414|75|K|Kitty Strandberg|75,Kopparberg
+C|104415|68|M|Kjell Eriksson|68,Kopparberg
+C|104416|60|K|Annika Renbro|60,Högfors
+C|104417|45|M|Jon Brossberg|45 år,Ljusnarsberg
+C|104418|83|K|Vania Karlsson|84,Kopparberg
+C|104419|35|M|Peter Lundberg|35,Kopparberg
+C|104420|31|K|Eva-Lotta Tsupukka|30,Kopparberg
+C|104421|87|M|Lars Strandberg|87,Kopparberg
+C|104422|35|K|Veronica Andersson|35,Kopparberg
+C|104423|37|M|Anders Styrbjörn Andersson|36,Kopparberg
+C|104424|37|K|Josefine Ovesson|37,Ställdalen
+C|104425|71|M|Arne Eklund|70,Kopparberg
+C|104426|57|K|Annelie Brossberg|57,Kopparberg
+C|104427|28|K|Denise Ljungström|27,Ställdalen
+C|301721|52|M|Niklas Hermansson|52 år, egen företagare
+C|301722|60|M|Janeric Björkman|60 år, bryggeriarbetare
+C|301723|50|M|Kai Pakola|50 år, platschef
+C|301724|74|M|Rolf Granberg|74 år, pensionär
+C|301725|26|M|Matti Pakola|26 år, undersköterska
+C|301726|72|M|Simon Sabith|72 år, pensionär
+C|301727|58|M|Håkan Bengtsson|58 år, lantbrukare
+C|301728|64|M|Mats Widercrantz|64 år, torpägare
+C|301729|81|M|Elof Eriksson|81 år, pensionär
+C|515651|64|M|Ove Törnemar|
+C|26931|57|M|Hendrik Bijloo|57 år, mentalskötare, Kopparberg
+C|30043|55|M|Ralf Nielsen|55 år, transportplanerare
+C|30044|41|K|Åsa Rosenberg|41 år, civilekonom
+C|30045|19|K|Isah Bijloo|19 år, elevassistent
+C|30048|27|M|Alsagher Abdulrahman|27 år, aktivitetssamordnare
+C|30046|78|M|Björn Johansson|78 år, pensionär
+C|30047|77|K|Siv Sjöstrand Önander|77 år, pensionär
+C|124407|44|M|Ronnie Edvardsson|44 år, grundskolelärare, Kopparberg
+C|122975|28|K|Linn Wennberg|28 år, vårdbiträde, Kopparberg
+C|124409|39|M|Kevin Peart|39 år, inköpsplanerare och brandman, Kopparberg
+C|122953|32|K|Natalie Peart|32 år, student, Kopparberg
+C|124411|23|M|Daniel Westman|23 år, bygghandelsarbetare, Kopparberg
+C|124412|27|K|Emma-Sofia Öderyd|27 år, student, Kopparberg
+C|124413|29|M|Per Wirén|29 år, personlig assistent, Kopparberg
+C|11118|34|M|Daniel Johansson|arbetsledare, Ljusnarsberg
+C|11119|71|M|Ulf Hildebrandt|71 år, Fil Kand, Kopparberg
+C|11120|35|M|Jörgen Hart|35 år, Egen företagare, Kopparberg
+C|11121|41|K|Maria Lönnberg|personalspecialist, Ljusnarsberg
+C|11122|58|M|Peter Johansson|58 år, Gruvarbetare, Kopparberg
+C|11123|77|M|Ingemar Kjellin|77 år, Lärare, Kopparberg
+C|11124|76|M|Ulf Hilding|civilekonom, Ljusnarsberg
+C|11125|72|K|Annika Granberg Knauss|72 år, Hemmansägare, Kopparberg
+C|11126|18|K|Hanna Dobric|18 år, Kommunanställd, Kopparberg
+C|76841|55|M|Mats Larsson|55, Företagare Bioenergitekniker
+C|76842|47|M|Mathias Eriksson|47, Operatör
+C|76843|43|M|Fredrik Heiser|43, Industriarbetare
+C|76844|48|M|Niklas Bäcker|48, Företagare
+C|76845|51|K|Åsa Vennberg|51, Personlig assistent
+C|76846|48|M|Thomas Totto Carlsson|48, Arbetsledare
+C|76847|46|K|Helena Heiser|46 år, Ekonomiassistent, Ljusnarsberg
+C|76848|43|M|Hans Karlsson|43, Grävmaskinist
+C|76849|37|M|Tomas Berntsson|37, Värmepumpstekniker
+C|76850|49|K|Anna-Lena Danielsson|49, Företagare
+C|76851|45|M|Kennet Axelsson|45, Ansvarig Tekniker
+C|76852|52|M|Erik Jansson|52, Företagare
+C|76853|45|M|Ronnie Wegerstedt|45, Företagare
+C|76854|21|M|Joakim Danielsson|21, Studerande
+C|76855|25|M|Johan Danielsson|25, Företagare
+C|180183|54|K|Eva Renberg|Pensionär, Ljusnarsberg
+C|180184|62|K|Ulla Diedrichsen|Politisk sekreterare, Bångbro
+C|180185|64|M|Göran Eriksson|Kommunanställd, Kopparberg
+C|180186|40|K|Jeanette Bergqvist|Undersköterska, Kopparberg
+C|180187|29|M|Dennis Persson Lundberg|Lärarstudent, Kopparberg
+C|180188|67|K|Ann Hollstedt|Socionom, Kopparberg
+C|180189|73|M|Sture Ekmark|Chaufför, Kopparberg
+C|180190|29|K|Emma Renberg|Undersköterska, Kopparberg
+C|180191|67|M|Sune Karlsson|Närradiotekniker, Kopparberg
+C|180192|75|K|Helena Ylitalo|Pensionär, Ljusnarsberg
+C|180193|70|M|Christer Lindström|Pensionär, Ställdalen
+C|180194|47|K|Madelene Lindkvist|Egen företagare, Bångbro
+C|180195|67|K|Astrid Dahl|Pensionär, Kopparberg
+C|180196|53|M|Bo Hellkvist|Skogsarbetare, Kopparberg
+C|180197|66|K|Lena Cederlund|Pensionär, Kopparberg

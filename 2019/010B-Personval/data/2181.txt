@@ -1,10 +1,215 @@
-2|29165|29156|29143|38486|38487|29360|38489|38490|38491|38492|38493|38494|38495|38496|38497|38498|38499|38500|29369|29342|38503|38504|38505|38506|29341|38508|38509|29338|38511|38512|38513|38514|29353|38516|38517|38518|38519|38520|38521|38522|38523|38524|29330|38526|38527
-4|345434|345435|345436|345437|345438|345439|345440|345441|345442|345443|345444|345445|345446|345447|345448|345449|345450|454541|345452|345453|345454|345455|345456|345457|345458|345459|345460|345461|345462|345463|345464
-1318|22794|147320
-68|24845|24846|24847|20292|20291|24850|24851|24852|24853|24854|24855
-1011|242651|242652
-3|148323|148335|156296|148339|156298|156299|148351|156301|148338|156303|148354|156305|148358|156308|156309|294067|294068|294070|156310
-55|14254|14407|14400|15422|14415|15424
-1|172860|181711|181712|181713|181714|172904|172896|181717|181718|181719|181720|181721|354120|181722|181723|172893|181725|181726|181727|181728
-110|303518|303519|303520|303521|303522|303523|303524|303525|303526|303527|303528|303529|303530|303531|303532|303533|303534|303535|303536|303537|303538|303539|303540|303541|303542|303543|303544|303545|499191|499192|500833|514464|514465|514477|514484|503604|510623
-5|340148|340149|340150|340151|340152|340153|340154|340155|340156|340157|340158|340159|340160|340161|340162|340163|340164|340165|340166|340167|340168|340169
+T|Sandviken
+A|2|29165|29156|29143|38486|38487|29360|38489|38490|38491|38492|38493|38494|38495|38496|38497|38498|38499|38500|29369|29342|38503|38504|38505|38506|29341|38508|38509|29338|38511|38512|38513|38514|29353|38516|38517|38518|38519|38520|38521|38522|38523|38524|29330|38526|38527
+A|4|345434|345435|345436|345437|345438|345439|345440|345441|345442|345443|345444|345445|345446|345447|345448|345449|345450|454541|345452|345453|345454|345455|345456|345457|345458|345459|345460|345461|345462|345463|345464
+A|1318|22794|147320
+A|68|24845|24846|24847|20292|20291|24850|24851|24852|24853|24854|24855
+A|1011|242651|242652
+A|3|148323|148335|156296|148339|156298|156299|148351|156301|148338|156303|148354|156305|148358|156308|156309|294067|294068|294070|156310
+A|55|14254|14407|14400|14415|15424
+A|1|172860|181711|181712|181713|181714|172904|172896|181717|181718|181719|181720|181721|354120|181722|181723|172893|181725|181726|181727|181728
+A|110|303518|303519|303520|303521|303522|303523|303524|303525|303526|303527|303528|303529|303530|303531|303532|303533|303534|303535|303536|303537|303538|303539|303540|303541|303542|303543|303544|303545|499191|499192|500833|514464|514465|514477|514484|503604|510623
+A|5|340148|340149|340150|340151|340152|340153|340154|340155|340156|340157|340158|340159|340160|340161|340162|340163|340164|340165|340166|340167|340168|340169
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1318|CSIS|Common sense in Sweden
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|29165|52|M|Peter Kärnström|52 år, Sandviken
+C|29156|55|K|Kerstin Almén|55 år, Sandviken
+C|29143|34|M|Patrik Lundqvist|34 år, Sandviken
+C|38486|68|K|Monica Jakobsson|68 år, Folkbildare
+C|38487|51|M|Robert Sten|51 år, Sandviken
+C|29360|55|K|Lena Erixon|55 år, Sandviken
+C|38489|49|M|Lars Karlsson|49 år, Industriarbetare
+C|38490|28|K|Frida Larsson|28 år, Servitris
+C|38491|66|M|Stefan Wigö|66 år, Pensionär
+C|38492|62|K|Renate Almén|62 år, Industriarbetare
+C|38493|32|M|Tommy Johansson|32 år, Personalvetare
+C|38494|51|K|Carina Westerberg|52 år, Undersköterska
+C|38495|67|M|Ulf Gillström|67 år, Pensionär
+C|38496|52|K|Mona Davik|52 år, Hälso- och säkerhetskoordinator
+C|38497|64|M|Hans Olof Frestadius|64 år, Pensionär
+C|38498|33|K|Emilie Eklund|33 år,Egen företagare
+C|38499|63|M|Hans-Erik Eriksson|63 år, Körskolelärare
+C|38500|57|K|Birgitta Johansson|57 år, Habiliterare
+C|29369|53|M|Mikael Berg|53 år, Sandviken
+C|29342|42|K|Linda Pettersson Lind|42 år, Sandviken
+C|38503|54|M|Reza Torkian|55 år, Inköpare
+C|38504|62|K|Signe Brockman|62 år, IT-utbildare
+C|38505|41|M|Johan Sällström|41 år, Arbetssökande
+C|38506|57|K|Lena Åman|58 år, Restaurangbiträde
+C|29341|47|M|Johan Hillborg|48 år, Sandviken
+C|38508|67|K|Margareta Wigren|67 år, Pensionär
+C|38509|44|M|Morgan Hanning|45 år, Undersköterska
+C|29338|28|K|Anna Frestadius|29 år, Sandviken
+C|38511|47|M|Andreas Almén|47 år, CNC-operatör
+C|38512|62|K|Gunilla Gillström|62 år, Lärare
+C|38513|48|M|Peter Almén|48 år, Industriarbetare
+C|38514|52|K|Darlene Kärnström|52 år, Civilingenjör
+C|29353|38|M|Fredric Bergstedt|39 år, Sandviken
+C|38516|56|K|Anncharlott Eimasdotter|56 år, Undersköterska
+C|38517|42|M|Mattias Åsell Backlund|42 år, Metallarbetare
+C|38518|60|K|Marie Lind|60 år, Integrationskonsult
+C|38519|52|M|Tomas Kärnström|52 år, Metallarbetare
+C|38520|43|K|Lina Abo Asaad|43 år, Frilansjournalist
+C|38521|30|M|Michael Lind|30 år, Lärare
+C|38522|73|K|Åsa Morberg|73 år,Docent
+C|38523|33|M|Johan Zetterlund|33 år,Arbetssökande
+C|38524|64|K|Inger Elisson Wigö|64 år, Integrationssamordnare
+C|29330|58|K|Marie Frestadius|58 år, Sandviken
+C|38526|56|K|Linnea Engman|57 år, Barnsköterska
+C|38527|65|K|Kjerstin Lundblad|65 år, Kulturarbetare/Frilans
+C|345434|67|M|Carl-Ewert Ohlsson|kommunalråd, Sandviken
+C|345435|65|K|Kerstin Nyström Hedvall|säkerhets- och hållbarhetschef, Sandviken
+C|345436|66|M|Mats Mattson|Gästrike-Hammarby, 66 år, entreprenör
+C|345437|34|M|Per-Ewert Ohlsson-Björk|politisk sekreterare, Österfärnebo
+C|345438|41|K|Maria Persson|Kungsgården, 40 år, handläggare
+C|345439|45|M|Johnny Sandgren|enhetschef, Sandviken
+C|345440|41|K|Jenny Karlsson|projektledare, Gysinge
+C|345441|22|M|Martin Eriksson|studerande, Järbo
+C|345442|61|K|Anki Bakke|Gästrike-Hammarby, 60 år, kvalitetssamordnare
+C|345443|37|M|Anders Lindberg|Årsunda, 37 år, brandman
+C|345444|42|K|Anna-Karin Zakrisson|Kungsgården, 41 år, biträdande rektor
+C|345445|43|M|Ahmed Koulala|Sandviken, 43 år, behandlingsassistent
+C|345446|51|M|Per Brykt|ekonom, Sandviken
+C|345447|47|K|Mia Eriksson|utbildningsledare, Sandviken
+C|345448|67|M|Olle Olsson|Sandviken, 66 år, pensionär
+C|345449|30|K|Isabel Mattsson|Sandviken, 30 år, energi- och miljökonsult
+C|345450|56|K|Carina Otterclou|Sandviken, 46 år, utbildningsledare
+C|454541|57|M|Richard Hainsworth|Årsunda, 57 år, konsult
+C|345452|68|K|Christina Klopstock|Kungsgården, 68 år, förskollärare
+C|345453|59|K|Anna-Greta Elfström-Ohlsson|fysioterapeut, Årsunda
+C|345454|65|M|Anders Östlund|Jäderfors, 65 år, företagare
+C|345455|45|M|Lars-Åke Strömberg|Sandviken, 44 år, företagare
+C|345456|63|K|Agneta Lennartsson|mjölkbonde, Österfärnebo
+C|345457|54|M|Patric Hellström|Jäderfors, 54 år, sotare
+C|345458|29|K|Felicia Järlstig|Sandviken, 28 år, socialsekreterare
+C|345459|67|K|Maria Vestlund|Österfärnebo, 67 år, lantbrukare
+C|345460|38|K|Veronica Lennartsson|Österfärnebo, 37 år, biträdande rektor
+C|345461|55|K|Eva-Lena Zachrisson|Sandviken, 55 år, företagare
+C|345462|48|M|Christer Sigvardsson|Kungsgården, 47 år, företagare
+C|345463|56|M|Hassan Baidoun|Sandviken, 55 år, byggnadsingenjör
+C|345464|55|M|Shiyar Ali|Sandviken, 55 år, företagare
+C|22794|31|M|Jakob Fichtelius|31 år Sandviken
+C|147320|61|M|Lars Severin|
+C|24845|60|K|Majvor Lisselg|Kurator, Sandviken
+C|24846|73|M|Leif Jönsson|Ingenjör, Sandviken
+C|24847|63|M|Nille Wiklander|Pensionär, Sandviken
+C|20292|42|M|Daniel Jönsson|Redovisningsekonom, Storvik
+C|20291|57|M|Benjamin Nordström|Administratör, Sandviken
+C|24850|68|K|Anna-Karin Grankvist|Distriktssköterska, Åshammar
+C|24851|80|K|Aino Blom|Barnmorska, Sandviken
+C|24852|68|M|Leif O Johansson|Polis, G-Hammarby
+C|24853|71|M|Björn Hägglund|Skogsbrukare, Västanfäbodarna
+C|24854|72|K|Kristina Karlberg|Pensionär, Sandviken
+C|24855|78|K|Astrid Wennerström|Arbetsterapibiträde, Sandviken
+C|242651|67|K|Margot Hansen|Pensionär
+C|242652|80|M|Aage Nedergaard Hansen|Pensionär
+C|148323|53|M|Per-Ola Grönberg|53,egen företagare,Sandviken
+C|148335|57|K|Behrokh Honarmand|57,HR-strateg,Sandviken
+C|156296|29|M|Zacharie Coste|lärare,Storvik
+C|148339|31|K|Dalia Goro|31,jurist,Sandviken
+C|156298|52|M|Patrick Sjöstedt|projektledare,Sandviken
+C|156299|49|K|Catrin Larsson|rehabkoordinator,Årsunda
+C|148351|45|M|Johan Källberg|45,systemutvecklare,Sandviken
+C|156301|42|K|Marie Öberg|förskolelärare/projketledare,Sandviken
+C|148338|70|M|Nils-Gunnar Kempe|69,gymnasielärare,Sandviken
+C|156303|69|K|AnnaKarin Modin|företagare,Kungsgården
+C|148354|72|M|Rolf Jägare|72,Pa/Officer,Sandviken
+C|156305|44|K|Karin Källberg|systemutvecklare,Sandviken
+C|148358|78|M|Olov Göransson|78,pensionerad vvs-ingenjör,Sandviken
+C|156308|74|M|Lars Åresund|lantbrukare,Årsunda
+C|156309|54|K|Ann-Christin Hegnell-Grönberg|egen företagare,Åshammar
+C|294067|51|M|Thomas Larsson|arb.marknad o integrationschef,Årsunda
+C|294068|28|K|Amanda Grönberg|hästmassör,Sandviken
+C|294070|25|K|Linda Larsson|butiksbiträde,Årsunda
+C|156310|61|M|Conny Grönberg|företagare,Sandviken
+C|14254|42|K|Rejn Karlgren|kommunalråd & företagare, 42 år, Kungsgården
+C|14407|41|M|Peter Perskull|biologilärare, 41 år, Kungsgården
+C|14400|39|K|Maria Hagström|kommunvägledare, 39 år, Sandviken
+C|14415|44|K|Elisabeth Blomgren|egen företagare, 44 år, Järbo
+C|15424|49|M|Daniel Karlgren|49, lokförare, Kungsgården
+C|172860|55|M|Hans Olsson|55 år, oppositionsråd, Sandviken
+C|181711|45|M|Jonny Bratberg|45 år, företagare, Sandviken
+C|181712|51|M|Jonas Klang|51 år, företagare, Storvik
+C|181713|45|M|Jan De la Rosa|45 år, IT security coordinator, Sandviken
+C|181714|69|K|Ann-Christine Lüdke|69 år, företagare, Kungsgården
+C|172904|73|K|Ann-Mari Bergström|73 år, företagare, Sandviken
+C|172896|45|M|Dragan Perkovic|45 år, elansvarig, Sandviken
+C|181717|46|K|Madeleine Hansson|46 år, IT operation manager, Kungsgården
+C|181718|36|K|Malin-Angelica Hessel|36 år, företagare, Sandviken
+C|181719|74|K|Kerstin Alm|74 år, f.d. gymnasielärare, Sandviken
+C|181720|55|M|Anders Hansson|55 år, ingenjör, Sandviken
+C|181721|64|M|Bo Wadström|64 år, väktare, Österfärnebo
+C|354120|45|M|David De la Rosa|45 år, IT project services, Sandviken
+C|181722|27|K|Amanda Olsson|27 år, butikschef, Sandviken
+C|181723|73|K|Monica Lundström|73 år, rektor, Järbo
+C|172893|68|M|Christer Bergman|68 år, f.d. lärare, Sandviken
+C|181725|76|M|Allan Lundström|77 år, elingenjör, Järbo
+C|181726|76|M|Lars-Olof Lindgren|76 år, pensionär, Åshammar
+C|181727|50|M|Urban Nilsson|50 år, systemutvecklare IT, Sandviken
+C|181728|39|M|Magnus Isomäki|38 år, teknisk utredare, Sandviken
+C|303518|52|M|Per Kihlgren|Oppositionsråd, Sandviken
+C|303519|26|K|Jessica Larsson|
+C|303520|71|M|Mats Westergren|71, f.d. IT-chef, Sandviken
+C|303521|72|M|Roger Bengtsson|72, pensionär, Storvik
+C|303522|73|M|Kenneth Andersson|
+C|303523|69|K|Annikki Bengtsson|Ekonom, Storvik
+C|303524|58|M|Mikael Hansén|
+C|303525|64|K|Karin Jensen|64, skötare, Gästrike-Hammarby
+C|303526|49|K|Therese Johanssson|50, sjuksköterska, Sandviken
+C|303527|55|M|Kent Persson|
+C|303528|52|M|Kent Karlsson|52, värmebehandlingsoperatör, Sandviken
+C|303529|68|M|Bengt Ove Lindblom|
+C|303530|42|K|Marie-Louise Rodin Olofsson|
+C|303531|72|M|Lennart Jäderberg|
+C|303532|54|K|Agneta Bär|54, industrisanerare, Kungsgården
+C|303533|52|M|Roland Åhlund|
+C|303534|39|M|Kent Ove Veglo|
+C|303535|57|M|Mats Hansson|
+C|303536|55|M|Rickard Norberg|
+C|303537|31|M|Micael Andersson|
+C|303538|61|K|Marie Anette Löfvén|
+C|303539|52|M|Jonas Florin|
+C|303540|60|K|Ingbritt Olsson|60, hotellstäderska, Storvik
+C|303541|63|M|Ulf Netsö|
+C|303542|54|M|Mikael Sundgren|
+C|303543|32|M|Patrik Delltorp|
+C|303544|29|M|Marcus Bleckert|
+C|303545|57|M|Martin Leppäkorpi|
+C|499191|44|M|Mattias Strandberg|43, svetsare, Sandviken
+C|499192|51|M|Kjell Persson|51, företagare, Sandviken
+C|500833|70|M|Kjell Lundberg|70, pensionär, Sandviken
+C|514464|42|K|Therése Göransson|42, bitr. enhetschef, Järbo
+C|514465|41|M|Kalle Olsson|41, företagare, Järbo
+C|514477|37|M|Henrik Olsson|37, maskinförare, Årsunda
+C|514484|25|M|Jesper Björk|25, maskinförare, Kungsgården
+C|503604|68|M|Seved Wahlman|
+C|510623|49|M|Konny Dannberg|
+C|340148|62|K|Lillemor Mauritzdotter Nylén|62, kulturarbetare/oppositionsråd, Sandviken
+C|340149|24|M|Alexander Lemoine|24, eventtekniker, Sandviken
+C|340150|70|K|Margareth Söderlund|70, förskollärare, Järbo
+C|340151|51|M|Zaradesth Bekir|51, egen företagare, Sandviken
+C|340152|50|M|Patric Nylén|medievetare, Gästrike-Hammarby
+C|340153|57|K|Gunilla Panae-Bodin|kanslist, Storvik
+C|340154|50|K|Ann Katrin Persson|informatör, Kungsgården
+C|340155|70|M|Bernt Jonsson|pensionär, Sandviken
+C|340156|19|K|Ayysha Badra|studerande, Sandviken
+C|340157|59|K|Annika Gabrielsson|samordnare, Sandviken
+C|340158|47|M|Mats Persson|Storvik
+C|340159|30|M|Andreas Broström|30, mjukvarutestare, Sandviken
+C|340160|29|K|Alexandra Tabeshnia Wistbacka|studerande, Sandviken
+C|340161|62|M|Bengt Eriksson|handledare, Sandviken
+C|340162|47|K|Charlotta Mossberg|förskollärare, Sandviken
+C|340163|42|M|Lars Eriksson|fiolbyggare, Sandviken
+C|340164|55|M|Håkan Svensson|55, undersköterska, Sandviken
+C|340165|19|K|Evelina Larsson|studerande, Kungsgården
+C|340166|28|M|Johan Ek|Sandviken
+C|340167|77|K|Anna Lena Wannberg|pensionär, Sandviken
+C|340168|62|M|Jan Annerborn|pedagog, konstnär, Sandviken
+C|340169|63|M|Ibrahim Özmen|Sandviken

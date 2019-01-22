@@ -1,8 +1,174 @@
-2|147104|147105|147106|147107|147108|147109|147110|147111|147112|147113|147114|147115|147116|147117|147118|147119|147120|147121|147122|147123|147124|147125|147126|147127|147128|147129|147130|147131|147132|147133|147134|434074|147136|147137|147138|147139|147140
-4|190061|190062|190063|190064|190065|190066|190067|190068|190069|190070|190071|190072
-68|277359|326191|277358|277372|326194|326195|326196|326197|326198|326199|326200
-3|277541|277542|277543|277544|277545|277546|277547|277548|277549|277550|277551|277552|277553|277554|277556
-55|244330|244331|244332|244333|244334|244335|244336|244337|244338|244339|244340|244341
-1|254148|254468|254153|254470|254471|254472|254473|254165|254475|253921|254477|254478|254479|254480|254481|254482|254483|254484|254485|253918|254180|253927|254489|254490|254195|253937|254493|254494|254495|254496|254497|254498|254499
-110|61329|61347|61344|71817|71818|61352|71820|71821|71822|71823|71824|71825|71826|515589|515687|515688
-5|160737|160734|213168|213169|213170|213171|160746|213173|213174|213175|213176|213177|213178|213179|213180|213181|213182|213183|213184|162925|213186
+T|Partille
+A|2|147104|147105|147106|147107|147108|147109|147110|147111|147112|147113|147114|147115|147116|147117|147118|147119|147120|147121|147122|147123|147124|147125|147126|147127|147128|147129|147130|147131|147132|147133|147134|434074|147136|147137|147138|147139|147140
+A|4|190061|190062|190063|190064|190065|190066|190067|190068|190069|190070|190071|190072
+A|68|277359|326191|277358|277372|326194|326195|326196|326197|326198|326199|326200
+A|3|277541|277542|277543|277544|277545|277546|277547|277548|277549|277550|277551|277552|277553|277554|277556
+A|55|244330|244331|244332|244333|244334|244335|244336|244337|244338|244339|244340|244341
+A|1|254148|254468|254153|254470|254471|254472|254473|254165|254475|253921|254477|254478|254479|254480|254481|254482|254483|254484|254485|253918|254180|253927|254489|254490|254195|253937|254493|254494|254495|254496|254497|254498|254499
+A|110|61329|61347|61344|71817|71818|61352|71820|71821|71822|71823|71824|71825|71826|515589|515687|515688
+A|5|160737|160734|213168|213169|213170|213171|160746|213173|213174|213175|213176|213177|213178|213179|213180|213181|213182|213183|213184|162925|213186
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|147104|62|K|Eva Carlsson|kommunalråd, Partille
+C|147105|61|M|Per-Åke Westlund|Husvärd
+C|147106|39|K|Katarina Bosetti Kristoffersson|Samordningslärare
+C|147107|51|M|Thorbjörn Carlsson|Organisationsansvarig Folksam
+C|147108|83|K|Märta Johansson|fd Rektor
+C|147109|44|M|Daniel Kristoffersson|förtroendevald IF Metall, Partille
+C|147110|25|K|Isabelle Asadian Falahieh|verksamhetscontroller, Partille
+C|147111|61|M|Bahaddin F Ali|Förtetagare
+C|147112|73|K|Christina Holmqvist|fd Ombudsman
+C|147113|61|M|Jan Norberg|lagerarbetare, Partille
+C|147114|50|K|Gunilla Palmgren|Butiksanställd
+C|147115|58|M|Jerry Johansson|livsmedelsarbetare, Partille
+C|147116|54|K|Marie Raask|försäkringstjänsteman, Partille
+C|147117|35|M|Daniel Dellenmark|Brevbärare
+C|147118|50|K|Susanne Carlsson|Leg sjukgymnast
+C|147119|38|M|Joakim Cederberg-Hake|Elektronikmontör
+C|147120|66|K|Kerstin Nilsson|Vårdbiträde
+C|147121|46|M|Robert Nilsson|Industriarbetare
+C|147122|58|K|Kaisa Blank Nordmark|Arkivredogörare
+C|147123|69|M|Bengt Odeholm|Socionom
+C|147124|47|K|Silvana Orlic|Koordinator
+C|147125|71|M|Zehaie Keleta|Ekonom
+C|147126|33|K|Tina Hansen|Metallarbetare
+C|147127|70|M|Dan Hansson|Präst
+C|147128|80|K|Siv Skog Åström|Leg sjuksköterska
+C|147129|55|M|Michael Jonasson|Montör
+C|147130|38|K|Carolina Eklöf|Projektledare
+C|147131|45|M|Martin Karlsson|Ombudsman LO
+C|147132|77|K|Gunnel Alderholm|Begravningsentreprenör
+C|147133|35|M|Daniel Larsson Tangfors|Undersköterska
+C|147134|66|M|Thomas Jägebratt|fd Radioloksreparatör
+C|434074|68|K|Heléne Hansson|Socionom
+C|147136|56|M|Roland Granbro|Civilingenjör
+C|147137|67|K|Irmeli Soikkeli Kjellgren|Pensionär
+C|147138|50|M|Jacob Nittinger|företagsutvecklare, Partille
+C|147139|72|M|Trygve Torstensson|Entreprenör
+C|147140|83|M|Bernardo Hörstrand|Pensionär
+C|190061|49|K|Anna Strand|49, enhetschef/projektledare, Partille
+C|190062|34|K|Anna Blomberg|kvalitets- och miljösamordnare, Kåbäcken
+C|190063|35|M|Turan Aliyev|35 år, vakt, Partille
+C|190064|61|M|Björn Byström|redovisningschef, Sörlyckan
+C|190065|81|M|Bengt-Olof Westerberg|rektor, Sävedalen
+C|190066|82|K|Britt Björkman|församlingspedagog, Jonsered
+C|190067|77|K|Gunvor Westerberg|sjuksköterska, Sävedalen
+C|190068|35|K|Ida Höglund|bolagsjurist, Ugglum/Sävedalen
+C|190069|76|K|Marita Dahl|sjuksköterska, Finngösa
+C|190070|78|M|Stig Olausson|företagare, Kåhög
+C|190071|91|M|Lennart Ternström|pensionär, Vallhamra
+C|190072|92|K|Anna Olsson|pensionär, Partille Centrum
+C|277359|54|M|Anders Midby|Advokat, Sävedalen
+C|326191|45|M|Markus Lund|civilekonom, Partille
+C|277358|55|K|Annette Nord|Vårdbiträde, Partille
+C|277372|66|K|Eva Wanther|Sjuksköterska, Sävedalen
+C|326194|67|K|Anne Björhag|barnmorska, Sävedalen
+C|326195|56|M|Per-Åke Wesley|lärare, Sävedalen
+C|326196|32|M|Jakob Normark|dataingenjör, Sävedalen
+C|326197|65|M|Arne Eskilsson|företagare, Sävedalen
+C|326198|68|M|Ebher Sandwing|f.d. verksamhetschef, Öjersjö
+C|326199|64|K|Inga-Lill Sandwing|sjuksköterska, Öjersjö
+C|326200|85|K|Marianne Janson|pensionär, Sävedalen
+C|277541|69|M|Kaj Nämvik|Brandmästare
+C|277542|69|K|Lotten Winström Carlsson|69, lärare, Partille
+C|277543|69|M|Kent Reinebrandt|Förhandlingschef
+C|277544|68|K|Eva-Christine Stenberg|Fil.kand.
+C|277545|70|M|Per-Gunnar Andersson|Lantmätare
+C|277546|73|M|Bengt Rundberg|Kronoinspektör
+C|277547|47|K|Larisa Bergroth|Controller
+C|277548|69|M|Per Carlsson|Civilingenjör
+C|277549|75|M|Lars Antonsson|Bankdirektör
+C|277550|74|K|Siv Kindholm|Pensionär
+C|277551|74|M|Hans Blomberg|Pensionär
+C|277552|53|M|Jonas Andersson|53, regionråd, Partille
+C|277553|81|K|Kerstin Andersson|Pensionär
+C|277554|76|K|Margareta Zettergren|Universitetsadjunkt
+C|277556|90|M|Sven Olofsson|Civilingenjör
+C|244330|31|M|Leonel Bylund|31 år, Handläggare, Partille
+C|244331|56|K|Pia Sundh|56 år, Lärare, Sävedalen
+C|244332|69|M|Kåge Wallner|69 år, Socionom, Furulund
+C|244333|73|K|Ulla Lindgren|73 år, fd. Lärare, Furulund
+C|244334|42|M|Mikael Lindquist|42 år, IT-konsult, Mellby
+C|244335|29|K|Jannike Hallonqvist|29 år, Transportplanerare, Partille
+C|244336|45|M|Tobias Henning|45 år, Lärare, Furulund
+C|244337|22|M|Oliver Hörberg|22 år, Student, Öjersjö
+C|244338|70|K|Raine Wallander|70 år, Pensionär, Sävedalen
+C|244339|44|K|Karin Olsson|44 år, Verksamhetsutvecklare, Mellby
+C|244340|39|K|Cecilia Tvingby|39 år, Brevbärare, Sävedalen
+C|244341|69|M|Arne Karyd|69 år, Trafikkonsult, Öjersjö
+C|254148|48|K|Marith Hesse|48, Besiktningsingenjör, Partille
+C|254468|40|M|Jonas Mårdbrink|40, Leg. sjukskötare
+C|254153|46|K|Angela Fast Torstensson|46, Företagare, Partille
+C|254470|32|M|Adam Algotsson|32, Inkassohandläggare
+C|254471|81|K|Inger René|81, Lärare
+C|254472|66|M|Hadar Kronberg|66, Musikant
+C|254473|47|M|Otto Natt och Dag|47, Pol.mag.
+C|254165|53|M|Björn Hesse|53, Egenföretagare, Partille
+C|254475|72|K|Greta Meller|72, Adjunkt
+C|253921|44|K|Rita Paparizou|44, Entrepenör, Partille
+C|254477|71|M|Jan Trönsdal|71, Marknadschef
+C|254478|40|M|Henrik Sjöqvist|40, Studerande
+C|254479|76|M|Tom Ekwall|76, Företagare
+C|254480|74|K|Eva Persson|74, Pensionär
+C|254481|65|M|Mats Lennartsson|65, Pensionerad Polis
+C|254482|40|M|Mattias Olsson Ruppel|40, Ekomomistrateg
+C|254483|42|M|Sven-Bertil Gärtner|42, Egen företagare
+C|254484|58|M|Jörgen Olsen|58, Socialarbetare
+C|254485|31|K|Kristina Söderberg|31, Förvaltningsekonom
+C|253918|32|M|Samuel Kaufman|32, Nämndsekreterare, Öjersjö
+C|254180|43|M|Mikael Granberg|43, IT-arkitekt, Partille
+C|253927|61|M|Lars Stålheim|61, Civilingenjör, Partille
+C|254489|81|K|Maj-Lis Mårtensson|81, Pensionär fd sekreterare
+C|254490|47|K|Martina Blazenin|47, Lärare
+C|254195|57|M|Jan Sjöö|57, Affärsutvecklare, Partille
+C|253937|47|K|Vida Johansson|47, Lärare, Partille
+C|254493|76|K|Margareta Lewander|76, Adjunkt
+C|254494|70|K|Rosemarie Trönsdal|70, Egenföretagare
+C|254495|46|K|Linda Fröberg|46, Jurist/Regionchef
+C|254496|73|K|Irma Ekwall|73, Chef äldreomsorg
+C|254497|38|M|Leon Raiszade|38, Civilekonom
+C|254498|45|M|Shahrokh Taghvamanesh|45, Affärsutvecklare
+C|254499|54|M|Michael Andersson|54, Projektledare och sakkunnig
+C|61329|64|M|Matz Dovstrand|64, Civilekonom, Partille
+C|61347|56|M|Timothy Tréville|Företagsledare, Partille
+C|61344|55|K|Cristina Skoog|55, Statligt anställd, Partille
+C|71817|42|M|Fredrik Eriksson|Riksdagsledamot, Partille
+C|71818|48|M|Flemming Ravn|IT-Konsult, Partille
+C|61352|55|M|Daniel Sernryd|55, Servicechef, Partille
+C|71820|49|M|Stefan Falktorp|49, Politisk Sekreterare
+C|71821|86|M|Björn Wolff|86, Pensionär
+C|71822|71|K|Gun Sjögren|71, Pensionär
+C|71823|73|M|Christer Sjögren|73, Pensionär
+C|71824|56|K|Helena Holmertz|56, Teknisk IT-strateg
+C|71825|19|M|Carl Thorell|19, Studerande
+C|71826|69|M|Per Waborg|69, Ekonom
+C|515589|66|M|Kenneth Kullberg|
+C|515687|37|M|Björn Johansson|
+C|515688|69|M|Sven-Erik Johansson|
+C|160737|33|K|Linda Jansson|montör, Partille, 33 år
+C|160734|53|K|Karin Jaxmark|Partille, 53 år
+C|213168|64|M|Lasse Selander|bussförare, pensionär, Partille, 64 år
+C|213169|45|M|Linus Johansson|grundskollärare, Partille, 44 år
+C|213170|50|K|Katarina Lindström|biomedicinsk analytiker, Partille, 51 år
+C|213171|61|K|Ylva Johansson|socialsekreterare, Partille, 61 år
+C|160746|51|K|Vasvija Licina-Medic|socialsekreterare, Partille, 50 år
+C|213173|49|M|Dick Andersson|egen företagare, Partille, 49 år
+C|213174|36|K|Johanna Kristensson|behandlingsassistent, Partille, 37 år
+C|213175|73|M|Lennart Björk|entreprenör, Partille, 73 år
+C|213176|43|K|Farrahnaz Farshgi Tabrizi|utvecklingsledare, Partille, 43 år
+C|213177|71|M|Lars Josefsson|författare, Partille, 72 år
+C|213178|65|K|Ingrid Höijer|professor, Partille, 65 år
+C|213179|73|M|Ingemar Bengtsson|fastighetsskötare, pensionär, Partille, 74 år
+C|213180|72|K|Birgitta Engvall|grafiker, pensionär, Partille, 72 år
+C|213181|50|M|Muraiz Medic|vårdarbetare, Partille, 50 år
+C|213182|71|K|Evy Öhrström|docent, Partille, 72 år
+C|213183|67|M|Sören Petersson|optiker, Partille, 67 år
+C|213184|61|M|Hamza Demir|riksdagsledamot, Partille, 62 år
+C|162925|70|K|Lena Jagers Bladini|pensionerad utvecklingsledare, Partille, 70 år
+C|213186|84|M|Leif Larsson|pensionär, Partille, 84 år

@@ -1,9 +1,234 @@
-2|198682|70468|97077|198685|198686|97080|198688|97098|198690|198691|198692|198693|198694|198695|198696|198697|97085|198699|198700|198701|198702|198703|198704|198705|198706|198707|198708|198709|198710|198711|97091|198713|198714|198715|198716|198717|198718|198719|198720|198721|198722|198723|198724|97096|198726|198727|198728|198729|198730|198731|198732|198733|198734|198735|198736|97090|198738|198739|198740|198741|198742|198743|198744|198745
-4|76936|86914|86924|113815|76942|113817|113818|113819|113820|113821|113823|113824|113825|86921|113827
-1136|471750
-68|155509|155510|155511|155512|155513|155514|155515|155516|155517|155518|155519|155520|155521|155522|155523|155524
-3|14300|14301|14302|14303|14304|14305|14306|14307|14308|14309|14310|14311|14312|14313|14314|14315|14316|14317|14318|14319|14320|14321|14322|14323|14324
-55|337059|337060|337061|337062|337063|337064|286278|249252|337067|286280|337069|337070|337071|337072
-1|22862|23379|22866|23381|23382|23383|23384|23385|22880|23387|23388|22874|23390|12806|12816|23393|23394|23395|22893|23397|23398|23399|23400|23401|23402|23403|23404|22890|23406|23407|23408|23409|23410|23411|23412|23413|23415|23416|23417|23418|23419|23420|23421|23422|23423|23424|23425|23426|23427
-110|67245|67247|67248|67249|67251|67255|67252|67253|67256|67257|67258|67259|67260|67261|67262
-5|215812|215813|215814|215815|215816|215817|215818|215819|215820|215821|215822|215823|215824|215825|215826|215827
+T|Tyresö
+A|2|198682|70468|97077|198685|198686|97080|198688|97098|198690|198691|198692|198693|198694|198695|198696|198697|97085|198699|198700|198701|198702|198703|198704|198705|198706|198707|198708|198709|198710|198711|97091|198713|198714|198715|198716|198717|198718|198719|198720|198721|198722|198723|198724|97096|198726|198727|198728|198729|198730|198731|198732|198733|198734|198735|198736|97090|198738|198739|198740|198741|198742|198743|198744|198745
+A|4|76936|86914|86924|113815|76942|113817|113818|113819|113820|113821|113823|113824|113825|86921|113827
+A|1136|471750
+A|68|155509|155510|155511|155512|155513|155514|155515|155516|155517|155518|155519|155520|155521|155522|155523|155524
+A|3|14300|14301|14302|14303|14304|14305|14306|14307|14308|14309|14310|14311|14312|14313|14314|14315|14316|14317|14318|14319|14320|14321|14322|14323|14324
+A|55|337059|337060|337061|337062|337063|337064|286278|249252|337067|286280|337069|337070|337071|337072
+A|1|22862|23379|22866|23381|23382|23383|23384|23385|22880|23387|23388|22874|23390|12806|12816|23393|23394|23395|22893|23397|23398|23399|23400|23401|23402|23403|23404|22890|23406|23407|23408|23409|23410|23411|23412|23413|23415|23416|23417|23418|23419|23420|23421|23422|23423|23424|23425|23426|23427
+A|110|67245|67247|67248|67249|67251|67255|67252|67253|67256|67257|67258|67259|67260|67261|67262
+A|5|215812|215813|215814|215815|215816|215817|215818|215819|215820|215821|215822|215823|215824|215825|215826|215827
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1136|DjuP|Djurens parti
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|198682|50|K|Anita Mattsson|50, Kommunalråd, Sofieberg
+C|70468|39|M|Mathias Tegnér|39, Civilekonom, Tyresö
+C|97077|36|K|Jannice Rockstroh|36, Lärare, Tyresö
+C|198685|33|M|Christoffer Holmström|33, Boendestödjare, Krusboda
+C|198686|20|K|Johanna Schaub|20, Simlärare, Trollbäcken
+C|97080|56|M|Alfonso Morales|56, Nationalekonom, Tyresö
+C|198688|45|K|Katarina Helling|45, Utredare, Trollbäcken
+C|97098|61|M|Anders Linder|61, Byggnadsingenjör, Tyresö
+C|198690|65|K|Susann Ronström|65, Äldreomsorgschef, Fårdala
+C|198691|56|M|Carl Johan Karlson|56, Chefsjurist, Fornudden
+C|198692|28|K|Sara Granestrand|28, Lärare, Lindalen
+C|198693|48|M|Martin Nilsson|48, Kanslichef, Sofieberg
+C|198694|51|K|Petra Reinholdsson|51, Kommunikatör, Skälsätra
+C|198695|76|M|Kristjan Vaigur|76, Fd. Internationell sekreterare, Sofieberg
+C|198696|48|K|Maria Alves Persson|48, Undersköterska, Bollmora
+C|198697|53|M|Niklas Wennergren|53, Lärare, Bollmora
+C|97085|67|K|Eija Räty|67, Org. Konsult, Tyresö
+C|198699|75|M|Jerry Svensson|75, Pensionär, Krusboda
+C|198700|29|K|Emelie Weski|28, Head of EU Affairs, Bollmora
+C|198701|49|M|Mikael Fallmo|49, Systemvetare, Trinntorp
+C|198702|32|K|Erisa Gul Khar|32, Studerande, Trollbäcken
+C|198703|70|M|Tomas Forsberg|70, Pensionär, Farmarstigen
+C|198704|74|K|Beatrice Rubeling|74, Organisationskonsult, Fornudden
+C|198705|43|M|David Westius|44, Gymnasielärare, Krusboda
+C|198706|40|K|Catrin Eriksson|39, Projektledare, Bollmora
+C|198707|35|M|Jesper McNae|35, Medlemsutvecklare, Bollmora
+C|198708|28|K|Karin Ljung|28, Förhandlare, Strandängarna
+C|198709|66|M|Lennart Jönsson|66, Systemvetare, Bollmora
+C|198710|60|K|Margitha Applegate|60, Förskolelärare, Fårdala
+C|198711|79|M|Bo Toresson|79, Pensionär, Bollmora
+C|97091|53|K|Gisela Jansson|53, Produktspecialist, Tyresö
+C|198713|37|M|Marcus Letterlöv|37, Ombudsman, Krusboda
+C|198714|31|K|Susanna Stjernenfall|30, Säljare, Trollbäcken
+C|198715|54|M|Anders Bergérus|54, Ombudsman, Krusboda
+C|198716|55|K|Maria Rey|55, Undersköterska, Bollmora
+C|198717|30|M|Julian Saliba|30, Skattehandläggare, Bollmora
+C|198718|73|K|Agneta Hallbeck|73, Pensionär, Bollmora
+C|198719|35|M|Henrik Enocsson Zotterman|35, Handläggare, Skälsätra
+C|198720|72|K|Patricia Fundeborg|72, Pensionär, Fårdala
+C|198721|50|M|Pål Keusch|50, Ekonom, Öringe
+C|198722|19|K|Angelika Jansson|19, Studerande, Strand
+C|198723|56|M|Markku Sandelin|56, Klubbordförande, Bollmora
+C|198724|47|K|Jazmin Rumie|47, Administratör, Bollmora
+C|97096|27|M|Håkan Ljung|27, Lantmätare, Tyresö
+C|198726|38|K|Charlotte Höckert|38, Undersköterska, Trollbäcken
+C|198727|70|M|Tommy Blomster|70, Pensionär, Strand
+C|198728|55|K|Ingela Carlsson|55, Kommunikationsrådgivare, Gudö
+C|198729|66|M|Thomas Henriksson|66, Ombudsman, Trinntorp
+C|198730|75|K|Anita Jonsson|75, Socionom, Krusboda
+C|198731|35|M|Fredrik Melin|35, Lärare, Bollmora
+C|198732|47|K|Mia Lindström|47, Lärarstudent, Skälsätra
+C|198733|45|M|Erik Reinholdsson|45, Lärare, Skälsätra
+C|198734|29|K|Frida Linder|28, Projektledare, Krusboda
+C|198735|55|M|Leif Holmgren|55, Ombudsman, Strand
+C|198736|41|K|Sarah Heidenborg|41, Borgarrådssekreterare, Bollmora
+C|97090|73|M|Bo Furugård|73, Pensionär, Tyresö
+C|198738|67|K|Marita Bertilsson|67, Verksamhetssamordnare, Öringe
+C|198739|76|M|Kurt Erik Thorild|76, Pensionär, Bollmora
+C|198740|75|K|Barbro Nordlöf|75, Pensionär, Hanviken
+C|198741|63|M|Mikael Löthen|63, Ombudsman, Ällmora
+C|198742|38|K|Maria Prinds Carstensen|38, Ekonomiassistent, Öringe
+C|198743|75|M|Bror Perjus|75, Journalist, Ällmora
+C|198744|71|K|Ulla Johansson|71, Biståndshandläggare, Bollmora
+C|198745|79|M|Börje Eriksson|79, Pensionär, Gudö
+C|76936|49|K|Ulrica Riis-Pedersen|49, Tyresö, Stödassistent
+C|86914|33|K|Johanna Björksten|33, Tyresö, Socionom
+C|86924|65|M|Tom Nilstierna|64, Tyresö, Samhällsekonom
+C|113815|44|M|Thomas Plahn|43 Fårdala
+C|76942|54|K|Helen Dwyer|54, Tyresö, Statsvetare
+C|113817|58|K|Anna Steele|58 Tyresö strand
+C|113818|51|M|Dan Grönstedt|50 Brevik
+C|113819|61|K|Annika Örtenstrand|60 Öringe
+C|113820|34|M|Richard Norin|33 Fornudden
+C|113821|39|M|Daniel Thorsell|38 Öringe
+C|113823|71|K|Ann-Katrin Ericsson|71 Bollmora
+C|113824|71|M|Lars-Ove Larsson|71 Bollmora
+C|113825|36|K|Marina Kero|37 Bollmora
+C|86921|79|M|Håkan Ericsson|79, Tyresö, Pensionär
+C|113827|80|K|Ingrid Nilsson|80 Bollmora
+C|471750|34|M|Christian Altmann|Tyresö, egen företagare, 34 år
+C|155509|50|K|Anna Lund|50, Kommunpolitiker, Tyresö
+C|155510|44|K|Marika Marklund|Butikschef
+C|155511|54|M|Per Lindén|It konsult
+C|155512|33|M|Emil Kennerberg|32, Projekteringsledare, Tyresö
+C|155513|57|M|Ulf Perbo|Näringspolitisk chef
+C|155514|72|M|Janis Salts|Pensionär
+C|155515|32|M|Amjad Mccool|Telekom ingenjör
+C|155516|54|K|Cecilia Perbo|Ekonom, Lärare
+C|155517|46|M|Mattias Eriksson|46, Gymnasielärare, Tyrseö
+C|155518|25|K|Amanda Kennerberg|Socionom
+C|155519|46|M|Jonas Borgman|Civilingenjör
+C|155520|27|K|Emelie Eklånge|Socionom
+C|155521|47|M|Freddy Marklund|Projektledare
+C|155522|72|K|Rode Kennerberg|Pensionär
+C|155523|68|M|Lars-Gustaf Ericson|Omsorgspastor
+C|155524|74|M|Leif Kennerberg|Ingenjör
+C|14300|53|M|Mats Lindblom|civilingenjör, Tyresö
+C|14301|44|K|Åsa de Mander|kommunikatör, Krusboda
+C|14302|40|M|Thomas Sundblad|banktjänsteman, Lindalen
+C|14303|59|K|Christina Melzén|ekonom, Tyresö
+C|14304|64|M|Tony Thorén|produktionschef, Tyresö
+C|14305|60|K|Agneta Hansson|skolledare, Trollbäcken
+C|14306|39|M|Leif Lanke|nationalekonom, Tyresö Strand
+C|14307|31|K|Angelica Vallén|vårdadministratör, Bollmora
+C|14308|25|M|Alexander Enkvist|lärarstudent, Krusboda
+C|14309|78|K|Margareta Ternstedt|fd tjänsteman, Fårdala
+C|14310|53|M|Martin Skjöldebrand|IT-konsult, Skälsätra
+C|14311|78|K|Marie-Louise Larsson|farmaceut, Trollbäcken
+C|14312|20|M|Jonatan Svensson Glad|kundservicemedarbetare, Bollmora
+C|14313|20|K|Saga Kindstrand|studerande, Bollmora
+C|14314|70|M|Mats Larsson|civilingenjör, Hanviken
+C|14315|41|M|Haralampos Karatzas|civilekonom, Tyresö Strand
+C|14316|80|K|Ragnhild Bohman|företagare, Lindalen
+C|14317|47|M|Anders Henjer|lärare, Trinntorp
+C|14318|23|K|Lilia Romanevitch|ombudsman, Trollbäcken
+C|14319|44|M|Henric Johansson|agil coach, Krusboda
+C|14320|59|K|Kristina Lindblom|förskollärare, Farmarstigen
+C|14321|20|M|Jakob Lindblom|studerande, Farmarstigen
+C|14322|72|M|Håkan Andersson|projektledare, Farmarstigen
+C|14323|22|M|Lukas Lindblom|studerande, Farmarstigen
+C|14324|81|M|Jan Larsson|ingenjör, Trollbäcken
+C|337059|28|K|Ajda Asgari|28, grundskolelärare, Öringe
+C|337060|33|M|Mikael Ordenius|33 år, IT-chef, Krusboda
+C|337061|80|K|Lilian Nylinder|79 år, bibliotikarie, Krusboda
+C|337062|45|M|Ingmar Jansson|46 år, familjebehandlare, Trollbäcken
+C|337063|38|M|Johan Rydén|38 år, datatekniker, Farmarstigen
+C|337064|37|M|Rickard Ljung|38 år, järnvägsingenjör, Strandängarna
+C|286278|38|M|Vasilis Mavroudis|38, IT-företagare, Tyresö
+C|249252|57|M|Peter Söderlund|57, social entreprenör, Tyresö
+C|337067|58|M|Lennart Berglund|58 år, gymnasielärare, Tyresö centrum
+C|286280|69|M|Gösta Evén|69, senior, Tyresö
+C|337069|68|M|Anders Nystedt|68 år, pedagog, Lindalen
+C|337070|88|K|Åsne Liedén|87 år, psykolog, Fårdala
+C|337071|77|K|Märta Berglund|77 år, mentalvårdare, Björkbacken
+C|337072|89|M|Lennart Liedén|89 år, läkare, Fårdala
+C|22862|40|M|Fredrik Saweståhl|40, Kommunalråd
+C|23379|59|K|Anki Svensson|59, Kommunalråd, Krusboda
+C|22866|60|M|Dick Bengtson|60, Egenföretagare
+C|23381|52|K|Annika Henningsson|52, Ekonomisk rådgivare, Brevikshalvön
+C|23382|57|M|Peter Freij|57, VD, Hanviken
+C|23383|32|K|Jeanette Hellmark|32, Egenföretagare, Tyresö Strand
+C|23384|67|K|Sonja Gustafson|67, fd Förskollärare, Tyresö Centrum
+C|23385|47|K|Lotta Stjernfeldt|47, Ekonom, Trollbäcken
+C|22880|37|M|Hampus Degramo|37, Koordinator
+C|23387|28|M|Fredrik Bergkuist|28, Platsansvarig, Tyresö Centrum
+C|23388|50|M|Chris Helin|50, Stadsutvecklare, Tyresö Centrum
+C|22874|38|M|Andreas Jonsson|38, Kommunalråd
+C|23390|39|M|Mikael Onegård|39, Politisk sekreterare, Tyresö Centrum
+C|12806|56|K|Eva von Vogelsang|56, Kriminalkommissarie
+C|12816|55|M|Mats Fält|55, Kommunfullmäktigeordförande
+C|23393|45|K|Anna Eriksson|45, tf Skolchef, Fornudden
+C|23394|47|K|Petra Nygren|47, Verksamhetschef, Trollbäcken
+C|23395|70|M|Erkki Vesa|70, Pensionär, Tyresö Centrum
+C|22893|55|M|Torbjörn Skarin|55, Utredare
+C|23397|74|K|Gerd Dufberg|74, fd Specialmatkokerska, Tyresö Centrum
+C|23398|18|M|Wilmer Roslund|18, Student, Brevikshalvön
+C|23399|38|M|Klas Torstensson|38, Ingenjör, Brevikshalvön
+C|23400|45|M|Henrik Oskarsson|45, IT-Strateg, Fornudden
+C|23401|58|M|Christer Flodfält|58, Brandman, Örninge
+C|23402|56|M|Jan-Åke Svensson|56, Hydrauliker, Krusboda
+C|23403|54|M|Peter Odelvall|54, Företagare, Raksta
+C|23404|18|M|Anton Gimle Hjelte|18, Student, Brevikshalvön
+C|22890|36|K|Ewelyn Schlossman|36, Undersköterska
+C|23406|80|K|Lillan Edberg|80, Företagare, Tyresö Centrum
+C|23407|56|M|Martin Johem|56, Affärsområdeschef, Hanviken
+C|23408|55|M|Örjan Hansson|55, Egenföretagare, Tyresö Centrum
+C|23409|55|K|Carina Freij|55, Steward, Hanviken
+C|23410|21|M|Dennis Bengtson|21, Student, Tyresö Strand
+C|23411|38|M|Erik Olm|38, Fil. Dr, Raksta
+C|23412|67|M|Tommy Karlsson|67, Jur. kand, Krusboda
+C|23413|46|K|Margareta Bylund|46, Chefsassistent, Tyresö Centrum
+C|23415|44|M|Roger Gusthage|44, Systemutvecklare, Tyresö Centrum
+C|23416|59|M|Olof Karlström|59, Egenföretagare, Fornudden
+C|23417|69|M|Bo Jakobsen|69, VD, Södergården
+C|23418|39|M|Dennie Roserell|39, Digitaliseringschef, Lindalen
+C|23419|29|M|Attila Fabian|29, Politisk sekreterare, Tyresö Centrum
+C|23420|52|M|Thomas Halvarsson|52, Servicecenterchef, Tyresö Strand
+C|23421|55|M|Nicklas Manns|55, Brevikshalvön
+C|23422|59|K|Maria Trus|59, Näsby Udde
+C|23423|25|M|Samuel Kihlberg Blom|25, Tyresö Strand
+C|23424|37|M|Martin Lavin|37, Tyresö Centrum
+C|23425|76|K|Gunilla Dahlberg|76, f.d. Marknadschef, Brevikshalvön
+C|23426|42|K|Ida Antonsson|42, Controller, Tyresö Strand
+C|23427|24|M|Ted Thorin|24, Tyresö Strand
+C|67245|75|M|Anders Wickberg|75, nämndeman, Tyresö
+C|67247|47|M|Per Carlberg|47, gruppledare SLL, Tyresö
+C|67248|49|M|Bjarne Vifell|49 år, IT chef, Skälsätra
+C|67249|30|M|Ronnie Norén|30 år, naturvårdare, Bollmora
+C|67251|25|M|Oliver Frimodig|25, säkerhetskonsult, Tyresö
+C|67255|54|M|Johan Carlsson|54 år, ingenjör, Tyresö Strand
+C|67252|47|M|Henrik Mellström|47, kanslichef, Tyresö
+C|67253|28|K|Sandra Ekengren|28 år, väktare, Brevik
+C|67256|23|M|Jonathan Fritzdorf|23, junior design, Tyresö
+C|67257|52|K|Maud Hemberg|52, konstnär, Tyresö
+C|67258|32|M|Daniel Johansson|32 år, ekonomiassistent, Bollmora
+C|67259|52|K|Helene Ekengren|52 år, receptionist, Brevik
+C|67260|60|M|Jörgen Nilsson|60 år, egenföretagare, Bollmora
+C|67261|63|K|Margareta Larssen|63 år, civilekonom, Bollmora
+C|67262|40|K|Camilla Wigestam|40 år, Trinntorp
+C|215812|42|M|Jairo Correa|Granängsringen, fritidsledare/politisk sekreterare
+C|215813|74|K|Inger Gemicioglu|Krusboda, pensionär
+C|215814|23|M|Marcus Obligado|Tyresö, vårdbiträde och student
+C|215815|55|K|Tina Rosén|Tyresö Brevik, socionom
+C|215816|66|K|Gunilla Andersson|Farmarstigen V, f.d. systemutvecklare
+C|215817|62|K|Tuula Tiilikainen|Nybodaberg, lönekonsult
+C|215818|30|K|Annie Lysholm|Graniten, barnskötare
+C|215819|53|K|Lena Hallberg|Trollbäcken, jurist
+C|215820|54|K|Yvonne Sternberg Taubert|Farmarstigen V, bokningsansvarig
+C|215821|67|M|Anders Erixon|Fårdala, lärare
+C|215822|72|K|Ann Hermansson|Trollbäcken, pensionär
+C|215823|77|K|Ulla Gribbe|Hanviken, f.d. lärare
+C|215824|75|K|Li Bustamante|Trollbäcken, f.d. lärare
+C|215825|57|K|Ann Ödlund|Nybodaberg, analytiker
+C|215826|76|K|Inger Diaz|Nybodaberg, administrativ sekreterare
+C|215827|76|M|Bengt Sommare|Öringe, pensionär

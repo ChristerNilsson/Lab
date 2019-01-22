@@ -1,8 +1,118 @@
-2|45549|45550|45551|45552|45553|45554|45555|45556|45557|45558|45559|45560|45561|45562|45563|45564|45565|45566|45568|45569|45570|45571|45572|45573
-4|3223|3205|27624|27625|3230|27627|27628|27629|27630|27631|27632|27633|27634|27635|27636|27637|27638|27639|27640|27641|27642|27643|27644|27645|27646|27647|27648|27649|27650
-68|274526|274527|274528|274530|274531|274532
-3|22046|22047|22048|22049|22050|22051|22052|22053|22054|22055|22056|22057
-55|515601
-1|253979|255203|253998|255205|255206|255207|254368|255209|255210|255211|254332|255213|255214|255215|255216|255218|255219|255220
-110|118603|118604|118605|118606|118607|118608|118609|118610|118611|118612
-5|146749|146750
+T|Karlsborg
+A|2|45549|45550|45551|45552|45553|45554|45555|45556|45557|45558|45559|45560|45561|45562|45563|45564|45565|45566|45568|45569|45570|45571|45572|45573
+A|4|3223|3205|27624|27625|3230|27627|27628|27629|27630|27631|27632|27633|27634|27635|27636|27637|27638|27639|27640|27641|27642|27643|27644|27645|27646|27647|27648|27649|27650
+A|68|274526|274527|274528|274530|274531|274532
+A|3|22046|22047|22048|22049|22050|22051|22052|22053|22054|22055|22056|22057
+A|55|515601
+A|1|253979|255203|253998|255205|255206|255207|254368|255209|255210|255211|254332|255213|255214|255215|255216|255218|255219|255220
+A|110|118603|118604|118605|118606|118607|118608|118609|118610|118611
+A|5|146749|146750
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|45549|63|M|Peter Lindroth|Karlsborg, kommunalråd
+C|45550|37|K|Lina Davidsson|37 år, Karlsborg
+C|45551|66|M|Stig Carlsson|66 år, Karlsborg
+C|45552|52|K|Anna Bruzell|Karlsborg, lärare
+C|45553|65|M|Leif Andersson|Karlsborg, pensionär
+C|45554|37|K|Elin Björserud|Mölltorp, lärare
+C|45555|64|M|Ulf Ahndersson|Forsvik, rektor
+C|45556|62|K|Anita Larsson|Karlsborg, lärare
+C|45557|47|M|Jonas Davidsson|Granvik, virkesmätare
+C|45558|30|K|Anna Westman|Granvik, telefonist
+C|45559|39|M|Peter Dahlqvist|Karlsborg, skolkurator
+C|45560|46|K|Helene Ahnell|Karlsborg, resurspedagog
+C|45561|27|M|Jesper Johansson|Karlsborg, elevassistent
+C|45562|63|K|Elise-Marie Samuelsson|Karlsborg, lokalvårdare
+C|45563|60|M|Peter Kornestedt|Karlsborg, målare
+C|45564|65|K|Ninnie Siderud|Mölltorp, undersköterska
+C|45565|58|M|Jan-Olof Säll|Forsvik, boendestödjare
+C|45566|45|K|Caroline Borg|Karlsborg, förskollärare
+C|45568|61|M|Ronny Siderud|Mölltorp, byggnadsmålare
+C|45569|63|M|Sven-Olof Gustavsson|Karlsborg, projektledare
+C|45570|67|M|Jan Dahlqvist|Karlsborg, pensionär
+C|45571|82|M|Bror Bruzell|Karlsborg, skribent
+C|45572|68|M|Staffan Rahm|Karlsborg, pensionär
+C|45573|66|M|Lennart Bergman|Karlsborg, pensionär
+C|3223|45|K|Catarina Davidsson|Oppositionsråd, Karlsborg, 45 år
+C|3205|65|M|Kjell Sjölund|Pensionär, Karlsborg, 65 år
+C|27624|56|K|Anita Eliasson|Masugnsvägen Mölltorp
+C|27625|63|M|Anders Lundgren|Stenkullen Mölltorp
+C|3230|61|M|Mats Mellblom|Skogsbruksplanläggare,Karlsborg, 61 år
+C|27627|45|K|Maria Stohlbin|Svalstigen Karlsborg
+C|27628|64|M|Jan Björk|Lindhult Undenäs
+C|27629|64|M|Peter Ambjörnsson|Klevensgård Brevik
+C|27630|24|K|Frida Gunnarsson|Arnekärr Mölltorp
+C|27631|70|M|Gunnar Lindberg|Mariestadsvägen  Undenäs
+C|27632|51|M|Mattias Gustavsson|Lingonstigen Karlsborg
+C|27633|45|K|Monica Staudinger|Björkbacken  Svanvik
+C|27634|42|K|Aviva Hansson|Svärtebäcken Brevik
+C|27635|71|M|Per-Olof Andersson|Vasabron Brevik
+C|27636|60|K|Eva Birath|Perstorp Svanvik
+C|27637|77|M|Jan-Erik Engqvist|Ebbanäsvägen Mölltorp
+C|27638|48|M|Örjan Kjellqvist|Fredrik Ådahlsväg Undenäs
+C|27639|67|K|Berit Ekstedt Gustavsson|Kyrkvägen Mölltorp
+C|27640|52|M|Joakim Carlsson|Vaberget Gärdhem Mölltorp
+C|27641|54|M|Pär Andersson|Bergås 1 Svanvik
+C|27642|51|K|Anette Stohlbin|Ljungstigen Karlsborg
+C|27643|52|M|Jarl Karlsson|Industrigatan Mölltorp
+C|27644|66|K|Mona Andersson|Villagatan Mölltorp
+C|27645|72|M|Enar Andersson|Kyrkebo Österbo Brevik
+C|27646|70|M|Åke Andersson|Bokstigen Karlsborg
+C|27647|65|M|Anders Engqvist|Axtorpsvägen Mölltorp
+C|27648|30|M|Robert Eriksson|Nygatan Mölltorp
+C|27649|53|M|Mats Jansson|Kvighult Mölltorp
+C|27650|67|M|Jan-Erik Gustavsson|Kyrkvägen Mölltorp
+C|274526|72|M|Björn Rubenson|71, Präst, Karlsborg
+C|274527|74|M|Ingvar Kärsmyr|Lärare, Mölltorp
+C|274528|59|K|Désirée Grönvall-Esplund|Präst, Mölltorp
+C|274530|26|M|Niklas Johansson|Studerande, Karlsborg
+C|274531|79|M|Sven Esplund|Senior rådgivare, Mölltorp
+C|274532|78|M|Gregor Allerth|Missionär, Mölltorp
+C|22046|60|M|Stig Palmqvist|59 Karlsborg
+C|22047|69|K|Inger Larsson|
+C|22048|66|M|Stig Larsson|
+C|22049|70|M|Anders Ståhl|
+C|22050|69|M|Anders Åkerstedt|
+C|22051|76|M|Gunnar Hagman|
+C|22052|71|K|Marianne Jägerström|
+C|22053|78|M|Albert Eriksson|
+C|22054|55|M|Saeed Ardane|55, Karlsborg
+C|22055|66|K|Britt-Marie Palmqvist|
+C|22056|64|K|Marianne Larsson|
+C|22057|80|M|Stig Paulsson|
+C|515601|75|K|Linnéa Elvesjö|75 år
+C|253979|55|M|Torbjörn Colling|55, Kommunikationsansvarig, Karlsborg
+C|255203|33|K|Sara Almqvist|Myndighetshandläggare, Karlsborg
+C|253998|49|M|Johan Persson|49, Project Manager, Götene
+C|255205|26|K|Petra Eggen|Studerande, Karlsborg
+C|255206|56|M|Christer Hoff|Företagare, Karlsborg
+C|255207|73|K|Britt Blom|Civilekonom, Karlsborg
+C|254368|61|M|Staffan Myrsell|61, Lantbrukare, Karlsborg
+C|255209|50|K|Magdalena Skiöld|Officer, Forsvik
+C|255210|46|M|Anders Gunnarsson|Produktionschef, Karlsborg
+C|255211|53|K|Christina Gustafsson|Företagare, Karlsborg
+C|254332|73|M|Lars Åke Carlsson|73, Förtroendevald, Karlsborg
+C|255213|64|K|Ulla Wallerstedt|Lärare, Karlsborg
+C|255214|68|M|Rolf Andersson|Företagare, Mölltorp
+C|255215|66|K|Kerstin Stureson|Företagare, Forsvik
+C|255216|59|M|Martin Artman|Tandläkare, Karlsborg
+C|255218|45|M|Henrik Fransson|Evenemangsansvarig, Karlsborg
+C|255219|74|M|Rolf Blom|Civilingenjör, Karlsborg
+C|255220|19|M|Tom Eklund|Studerande, Karlsborg
+C|118603|69|M|Stefan Hallberg|70, Pensionär
+C|118604|66|M|Jan Yngve Johansson|67, Pensionär
+C|118605|67|M|Hans Jansson|67, Pensionär
+C|118606|28|M|Robin Lind|28, Fastighetsskötare
+C|118607|50|K|Diana Goldhammer|50, Fabriksarbetare
+C|118608|53|K|Gudrun Hallberg|53, Undersköterska
+C|118609|35|K|Dara Sundqvist|35, Hemmafru
+C|118610|76|M|Sven-Erik Ferm|76, Pensionär
+C|118611|77|M|Bengt Berger|77, Pensionär
+C|146749|68|K|Berith Bohrén|Pensionär
+C|146750|63|M|Urban Eklöf|Lärare

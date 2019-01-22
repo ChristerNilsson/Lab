@@ -1,9 +1,135 @@
-2|29470|29151|29368|29473|29160|29475|29476|29477|29346|29479|29480|29481|29482|29483|29484|29485|29486|29371|29488|29489|29490|29337|29492|29493|29322|29495|29496|29497|29498|29499|29500|29501|29502|29503|29504|29505|29506|29507|29508|29509
-4|315712|316813|316814|316815|316816|316817|316818|316819|316820|316821|316822|316823|316824|316825|316826|316827|316828
-371|311907|311908|311909|311910|311911|311912
-1215|505745|505746|505747|505748|505749|505750|505752|505753|515930
-68|11127|11128|11129|11130|11131|11132|11133
-3|168734|168735|168736|168737|237306|211125
-1|168425|168426|168427|168428|168429|168430|168431|168432|168433|168434
-110|146133|146134|146135|146136|146137|514578|514580|514582|514583
-5|282114|282115|282116|282117|282118|282119|282120|282121|282122|282123|282124|282125
+T|Hofors
+A|2|29470|29151|29368|29473|29160|29475|29476|29477|29346|29479|29480|29481|29482|29483|29484|29485|29486|29371|29488|29489|29490|29337|29492|29493|29322|29495|29496|29497|29498|29499|29500|29501|29502|29503|29504|29505|29506|29507|29508|29509
+A|4|315712|316813|316814|316815|316816|316817|316818|316819|316820|316821|316822|316823|316824|316825|316826|316827|316828
+A|371|311907|311908|311909|311910|311911|311912
+A|1215|505745|505746|505747|505748|505749|505750|505752|505753|515930
+A|68|11127|11128|11129|11130|11131|11132|11133
+A|3|168734|168735|168736|168737|237306|211125
+A|1|168425|168426|168427|168428|168429|168430|168431|168432|168433|168434
+A|110|146133|146134|146135|146136|146137|514578|514580|514582|514583
+A|5|282114|282115|282116|282117|282118|282119|282120|282121|282122|282123|282124|282125
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|371|FHT|Folkhemmet i Hofors-Torsåker
+B|1215|HOP|Hoforspartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|29470|37|K|Linda-Marie Anttila|37 år, Ombudsman ABF
+C|29151|26|M|Daniel Johansson|26 år, Hofors
+C|29368|59|K|Diana Blomgren|59 år, Hofors
+C|29473|63|M|Kenneth Axling|63 år, Operatör Teknik Ringverket
+C|29160|35|K|Mari Rasjö|35 år, Hofors
+C|29475|54|M|Tomas Isaksson|54 år, Sektionschef
+C|29476|56|K|Tiina Kauppi|56 år, Hofors
+C|29477|74|M|Kjell Höglin|74 år, Pensionär
+C|29346|55|K|Remzija Kolasinac|56 år, Hofors
+C|29479|44|M|Robert Vestrin|44 år, Processoperatör
+C|29480|55|K|Anette Björk|55 år, Administratör
+C|29481|50|M|Tomas Fröjd|50 år, Servicetekniker
+C|29482|59|K|Eva Lindberg|59 år, Undersköterska
+C|29483|60|M|Torbjörn Jansson|60 år, Metallarbetare
+C|29484|34|K|Madelene Saletti|34 år, Vårdbiträde
+C|29485|65|M|Gunnar Bergkvist|65 år, Drifttekniker
+C|29486|68|K|Vigdis Nymo Löfgren|68 år, Pensionär
+C|29371|23|M|Hayat Karimi|23 år, Hofors
+C|29488|43|K|Theres Brend|43 år, Industriarbetare
+C|29489|66|M|Juha Könönen|66 år, Pensionär
+C|29490|48|K|Pia de Veen|48 år, Egen företagare/Personlig assistent
+C|29337|71|M|Hans Hellström|72 år, Hofors
+C|29492|77|K|Ing-Marie Möller Andersen|77 år, Pensionär
+C|29493|66|M|Roger Lövgren|66 år, Pensionär
+C|29322|56|K|Marie-Louise Dangardt|56 år, Hofors
+C|29495|33|M|Erik Wirén|33 år, Vaktmästare
+C|29496|34|K|Carolin Brännvall|34 år, Gruppordförande IF Metall
+C|29497|64|M|Erik Lundkvist|64 år, Vårdbiträde
+C|29498|76|K|Anita Drugge|76 år, Pensionär
+C|29499|40|M|Pontus Lundin|40 år, Industriarbetare
+C|29500|73|K|Birgitta Lööf|73 år, Pensionär
+C|29501|19|M|Jalil Mohammad Reza|19 år, Studerande
+C|29502|55|K|Marie Thunström|55 år, Lärarassistent
+C|29503|75|M|Leif Nylén|75 år, Pensionär
+C|29504|72|K|Sylvia Abramsson|72 år, Pensionär
+C|29505|58|M|Timo Viiperi|58 år, Industriarbetare IF Metall
+C|29506|48|K|Kristina Svedin|48 år, Lokalkontorschef Kommunal Bergslagen
+C|29507|80|M|Lars Westin|80 år, Pensionär
+C|29508|61|M|Berny Eriksson|61 år, Metallarbetare
+C|29509|72|M|Leif Nyström|72 år, Pensionär
+C|315712|63|M|Hans Larsson|traktorförare, Torsåker
+C|316813|41|M|Jakob Staland|projektledare, Berg
+C|316814|54|K|Ann-Sofie Stenbacka|ögonsjuksköterska, Torsåker
+C|316815|70|K|Alice Lindgren|pedagog, Gammelstilla
+C|316816|53|M|Per Berglund|lantbrukare, Eltebo
+C|316817|67|K|Iréne Johnsson|bonde, Hoo
+C|316818|49|K|Maria Brodin|fritidspedagog, Torsåker
+C|316819|56|M|Esbjörn Andersson|civilingenjör, Torsåker
+C|316820|67|K|Ingrid Andersson|pensionär, Råbacka
+C|316821|71|M|Staffan Berglind|pensionär, Kalvsnäs
+C|316822|76|M|Hans Berglund|pensionär, Eltebo
+C|316823|42|M|Jonny Rosenfeldt-Nielsen|fastighetsskötare, Hofors
+C|316824|54|K|Ewa Löfgren|egenföretagare, Torsåker
+C|316825|61|M|Lars Lindroth|åkeriägare, Solberga
+C|316826|75|M|Karl-Olof Andersson|bonde, Bodås gård
+C|316827|47|K|Helena Blom|personalansvarig, Torsåker
+C|316828|76|M|Arne Engström|författare, Hofors
+C|311907|72|M|Kent Olsson|Trafiklärare, Hofors
+C|311908|46|K|Anna Magnusson|Personligassistent, Gävle
+C|311909|62|M|Jyrki Malja|Stålverksarbetare
+C|311910|63|K|Anna-Lena Åsberg|traversförare
+C|311911|61|M|Tyrone Söderman|Stålversarbetare
+C|311912|67|K|Ulla Britt Magnusson|Pensionär
+C|505745|57|K|Anne Persson|57 år, Förvaltare, Hofors
+C|505746|40|M|Kent Andersson|40 år, Processtekniker, Hofors
+C|505747|47|K|Gry Sjöberg|47 år, Socialsekreterare, Hofors
+C|505748|41|M|Anders Björk|40 år, Chef IT, Hofors
+C|505749|32|K|Sanna Stenberg|31 år, Socialsekreterare, Hofors
+C|505750|71|M|Håkan Nelin|72 år, Sjöman, Hofors
+C|505752|50|M|Johan Ericsson|50 år, Företagare, Hofors
+C|505753|35|M|Daniel Modén|35 år, Brandman / Processtekniker, Hofors
+C|515930|35|M|Johan Stenberg|
+C|11127|42|K|Annika Norup|Undersköterska, Torsåker
+C|11128|69|M|Ingemar Kalén|Oppositionsråd, Hofors
+C|11129|81|K|Ninni Paavola|Pensionär, Hofors
+C|11130|60|K|Monica Klaussén|Specialpedagog, Hofors
+C|11131|72|M|Lauri Harjula|Yrkeschaufför, Hofors
+C|11132|69|M|Rolf Ekström|Reg. Fastighetsmäklare, Torsåker
+C|11133|70|K|Ann-Christine Sandgren|Lärare, Hofors
+C|168734|59|M|Arne Evertsson|59,butikschef,Hofors
+C|168735|62|M|Torbjörn Nordström|62,alkoholhandläggare, Hofors
+C|168736|51|K|Cia Norberg|51,lärare,Hofors
+C|168737|48|M|Peter Hillblom|48,rörverksarbetare,Hofors
+C|237306|24|K|Elin Evertsson|24,konsult, Hofors
+C|211125|80|K|Inga-Lisa Käll|80,pensionär,Hofors
+C|168425|42|K|Ziita Eriksson|42 år, intervjuare, Sälgsjönäs
+C|168426|70|M|Alf Persson|70 år, pensionär/konsult, Hofors
+C|168427|71|K|Eva Julin|71 år, lärare.fil.mag, Torsåker
+C|168428|44|M|Daniel Nyström|44 år, hovslagare, Hyen
+C|168429|26|M|Jonathan Klaussen|26 år, regionschef, Hyen
+C|168430|53|K|Leena Graaf|53 år, rekrytering, Bodås
+C|168431|75|K|Solveig Eriksson|75 år, pensionär, Sälgsjönäs
+C|168432|76|M|Per Tjerneld|76 år, lantbrukare, Hästbo
+C|168433|77|M|Johnny Eriksson|77 år, företagare, Sälgsjönäs
+C|168434|78|M|Björn Sylwan|78 år, civilingenjör, Långnäs
+C|146133|46|M|Margon Johansen|46, busschaufför, Hofors
+C|146134|50|M|Charlie Ahlholm|50, företagare, Hofors
+C|146135|63|M|Sten Pettersson|
+C|146136|24|M|Tomas Löfqvist|
+C|146137|19|M|Ian Jokinen|
+C|514578|29|K|Sara Oskarsson|29, tvättbiträde, Torsåker
+C|514580|66|K|Inger Johansson|66, teamledare, Hofors
+C|514582|59|M|Kenneth Bergkvist|59, montör, Hofors
+C|514583|59|M|Ilkka Konttaniemi|59,sjukpensionär, Hofors
+C|282114|35|M|Xamuel Gonzalez|35, brevbärare, Hofors
+C|282115|61|K|Carina Halfvars|61, distriktssköterska, Hofors
+C|282116|26|K|Olivia Drugge Wikman|Vårdbiträde/Musiker, 26 år
+C|282117|38|K|Susanna Wintherhamre|38, undersköterska, Hofors
+C|282118|40|K|Linda Lundberg|Medarbetare ABF, 40 år
+C|282119|45|M|Daniel Wintherhamre|Undersköterska, 45 år
+C|282120|25|K|Amanda Drugge Wikman|Timvikarie LSS/Förskola/Skola/Äldreomsorg, 25 år
+C|282121|33|K|Gabriella Eidhagen|33, timvikarie LSS, Hofors
+C|282122|68|M|Gunnar Halfvars|Pensionerad metallarbetare, 68 år
+C|282123|61|K|Gunilla Westling|Sjuksköterska, 61 år
+C|282124|61|K|Kristina Pettersson|Trafikledare, 61 år
+C|282125|23|M|Simon Ridderström|Vårdbiträde, 23 år

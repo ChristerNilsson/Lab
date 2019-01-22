@@ -1,12 +1,295 @@
-2|149251|97709|97702|149254|149255|149256|149257|149258|71207|149260|149261|149262|149263|149264|149265|97719|149267|149268|149269|149270|149271|149272|149273|149274|149275|149276|149277|191068|149279|149280|149281|149282|149283|149284|149285|149286|149287|149288|149289|149290|149291|149292|149293|149294|149295|149296|149297|149298|149299|149300|149301|149302|149303|149304|149305|149306|149307|149308|149309|149310
-4|78401|8525|78403|76918|78405|78406|78407|78408|76935|78410|78411|78412|76925|78414|78415|78416|78417|78418|78419|76941|78421|78422|78423|78424|78425|78426|78427|78428|78429|78430|78431|78432|78433|78434|78435|78436|78437|78438|78439|78440
-1150|383449|383450|365286|383452|383453|383454|383455
-532|513837|513838
-68|161004|161005|161006|161007|161008|161009|161010|161011|161012
-1011|131605|132598|157465|132417|157467
-3|45405|45406|45407|45408|45409|45410|45411|45412|45413|45414|45415|45416|45417|45418|45419|45420|45421|45422
-55|246827|246828|246829|246830|246831|246832|246833|246834|246835|246836|246837|246838|246839|246840|246841|246842|246843|246844|246845|246846|246847
-1|23164|108384|108385|23170|108387|23174|23182|108390|108391|12786|12815|23178|108395|23189|108397|108398|108399|108400|108401|23193|108403|108404|108405|108406|108407|23198|23205|108410|108411|23203|108413|108414|108415|108416|108417|108418|108419
-1128|15613|15614|15615|15616|15617|15618|15619|15622|15623|15624|15625|15626|15627|15628|15629|15630|15631|15632|15633
-110|67109|67110|67111|67112|67113|67114|67115|67116|67117|67118|67119|67120|67121|67122|67123|67124|67125|67126|67127|67128|67129|67130|67131|67132|67133|67134|67135|67136|67137|67138|67139|67140
-5|207221|207222|207223|207224|207225|207226|207227|207228|207229|207230|207231|207232|207233|207234|207236|207237|207238|207239|207240|207241|207242|207243|207244
+T|Norrtälje
+A|2|149251|97709|97702|149254|149255|149256|149257|149258|71207|149260|149261|149262|149263|149264|149265|97719|149267|149268|149269|149270|149271|149272|149273|149274|149275|149276|149277|191068|149279|149280|149281|149282|149283|149284|149285|149286|149287|149288|149289|149290|149291|149292|149293|149294|149295|149296|149297|149298|149299|149300|149301|149302|149303|149304|149305|149306|149307|149308|149309|149310
+A|4|78401|8525|78403|76918|78405|78406|78407|78408|76935|78410|78411|78412|76925|78414|78415|78416|78417|78418|78419|76941|78421|78422|78423|78424|78425|78426|78427|78428|78429|78430|78431|78432|78433|78434|78435|78436|78437|78438|78439|78440
+A|1150|383449|365286|383454|383455
+A|532|513837|513838
+A|68|161004|161005|161006|161007|161008|161009|161010|161011|161012
+A|1011|131605|132598|157465|132417|157467
+A|3|45405|45406|45407|45408|45409|45410|45411|45412|45413|45414|45415|45416|45417|45418|45419|45420|45421|45422
+A|55|246827|246828|246829|246830|246831|246832|246833|246834|246835|246836|246837|246838|246839|246840|246841|246842|246843|246844|246845|246846|246847
+A|1|23164|108384|108385|23170|108387|23174|23182|108390|108391|12786|12815|23178|108395|23189|108397|108398|108399|108400|108401|23193|108403|108404|108405|108406|108407|23198|23205|108410|108411|23203|108413|108414|108415|108416|108417|108418|108419
+A|1128|15613|15614|15615|15616|15617|15618|15619|15622|15623|15624|15625|15626|15627|15628|15629|15630|15631|15632|15633
+A|110|67109|67110|67111|67112|67113|67114|67115|67116|67117|67118|67119|67120|67121|67122|67123|67124|67125|67126|67127|67128|67129|67130|67131|67132|67133|67134|67135|67136|67137|67138|67139|67140
+A|5|207221|207222|207223|207224|207225|207226|207227|207228|207229|207230|207231|207232|207233|207234|207236|207237|207238|207239|207240|207241|207242|207243|207244
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1128|ROOP|Roslagens oberoende parti
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|149251|43|K|Ulrika Falk|43, Trästa
+C|97709|60|M|Olle Jansson|60, Kommunalråd, Norrtälje
+C|97702|47|K|Hanna Stymne Bratt|47, Förskolelärare, Norrtälje
+C|149254|55|M|Aleksandar Srndovic|55, Hallstavik
+C|149255|68|K|Lenneke Sundblom|68, Norrtälje Stad
+C|149256|57|M|Anders Jonsson|57, Vätö
+C|149257|56|K|Margareta Lundgren|57, Norrtälje Stad
+C|149258|47|M|Måns Nilsson|47, Norrtälje stad
+C|71207|28|K|Ingrid Markström|28, Arbetsterapeut, Norrtälje
+C|149260|66|M|Conny Andersson|66, Svanberga
+C|149261|76|K|Kerstin Bergström|76, Rosättra
+C|149262|46|M|Kristian Krassman|46, Bergshamra
+C|149263|50|K|Catharina Erdtman|50, Malsta
+C|149264|66|M|Lars Sundberg|66, Norrtälje Stad
+C|149265|79|K|Ethel Söderman Sandin|79, Blidö
+C|97719|30|M|Marcus Granström|30, Student, Norrtälje
+C|149267|60|K|Susanne Kjelldahl Almqist|60, Frötuna
+C|149268|49|M|Anders Lidén|49, Herräng
+C|149269|69|K|Christina Pettersson|69, Norrtälje stad
+C|149270|48|M|Björn von Born|49, Norrtälje Stad
+C|149271|67|K|Maija Kohtanen|68, Hallstavik
+C|149272|70|M|Andreas Hofbauer|70, Finsta
+C|149273|68|K|Margareta Sundström|68, Norrtälje Stad
+C|149274|66|M|Roger Berglund|66, Norrtälje Stad
+C|149275|52|K|Jaana Kuusisto|52, Hallstavik
+C|149276|74|M|Sverker Nyman|74, Riala
+C|149277|75|K|Ingrid Melin|74, Väddö
+C|191068|58|M|Sven-Olov Jansson|58, Hallstavik
+C|149279|49|K|Jenny Anne Höök|49, Söderbykarl
+C|149280|53|M|Stefan Åhman|53, Norrtälje Stad
+C|149281|68|K|Britt Storm|68, Norrtälje Stad
+C|149282|43|M|Martin Einarsson|43, Ortala
+C|149283|47|K|Jessica Blomdahl|48, Norrtälje Stad
+C|149284|69|M|Bo Djärf|70, Norrtälje Stad
+C|149285|44|K|Liselott Nilsson|44, Norrtälje Stad
+C|149286|33|M|Anton Spåre|33, Skebobruk
+C|149287|75|K|Kerstin Ericsson|74, Norrtälje Stad
+C|149288|54|M|Christer Hallingström|55, Herräng
+C|149289|80|K|Birgitta Elweskiöld|81, Lågarö
+C|149290|55|M|Poul Ahlgren|56, Finsta
+C|149291|61|K|Christina Hallingström|61, Norrtälje Stad
+C|149292|65|M|Stig-Olof Sandin|66, Hallstavik
+C|149293|74|K|Ulla Bratt|73, Finsta
+C|149294|38|M|Petter Hallegren|38, Flemmingsberg
+C|149295|62|K|Ulrika Enlund|62, Hallstavik
+C|149296|71|M|Tage Sundblom|71, Norrtälje Stad
+C|149297|78|K|Monica Norstedt Edvinsdotter|78, Norrtälje Stad
+C|149298|44|M|Roger Pettersson|44, Rimbo
+C|149299|57|K|Katrine Mattsson|57, Väddö
+C|149300|22|M|Lukas Drougge|22, Norrtälje Stad
+C|149301|54|K|Kristina Drotz|54, Yxlan
+C|149302|71|M|Per Olof Persson|71, Norrtälje Stad
+C|149303|61|K|Anneli Björck Andersson|61, Rådmansö
+C|149304|63|M|Taisto Hautala|64, Hallstavik
+C|149305|69|K|Marita Jeansson|69, Bergshamra
+C|149306|59|M|Kjell Drotz|59, Yxlan
+C|149307|66|K|Kerstin Karlström|67, Svanberga
+C|149308|72|M|Per-Åke Jeansson|72, Bergshamra
+C|149309|43|K|Helena Johansson|44, Ortala
+C|149310|64|M|Håkan Jonsson|64, Trästa
+C|78401|69|M|Anders Olander|69, Norrtälje, Kommunalråd
+C|8525|52|M|Per Lodenius|52 år, Riksdagsledamot, Norrtälje
+C|78403|46|K|Emelie Löthgren|47 år, Företagare, Bergshamra
+C|76918|51|M|Patrik Dahl|51, Norrtälje, Konsult
+C|78405|54|K|Åsa Wärlinder|54 år, Lantmästare, Estuna
+C|78406|68|M|Tommy Lundqvist|68 år, Entrprenör, Rimbo
+C|78407|69|K|Jane Trepp|69, Norrtälje, Medicinsekreterare, lantbrukare
+C|78408|63|M|Gunnar Englund|63, Norrtälje, Distriktschef på kommun
+C|76935|57|K|Karin Lundqvist Zelander|57, Norrtälje, Pedagog
+C|78410|45|K|Maria Lodenius|45 år, Speciallärare, Länna
+C|78411|79|M|Bengt Ericsson|79 år, Nämnds ordförande, Estuna
+C|78412|64|K|Karin Broström|64, Norrtälje, Lantbrukare
+C|76925|38|M|Henrik Eriksson|38, Norrtälje, Verksamhetschef
+C|78414|40|K|Sofia Händel|40 år, Projekledare, Söderby Karl
+C|78415|54|M|Ronny Jansson|54 år, Fastighetsansvarig, Roslagsbro
+C|78416|24|M|Anton Thorell|24 år, Studerande, Norrtälje
+C|78417|75|M|Kule Palstierna|75 år, Barnpsykiater, Norrtälje
+C|78418|54|K|Maud Johansson|54 år, Medicine Magister, Hallstavik
+C|78419|68|M|Stefan A Lindskog|68 år, IT-konsult, Rimbo
+C|76941|42|M|Anders Lehult|42, Norrtälje, Styrelseordförande
+C|78421|71|K|Britt-Marie Åhman|71 år, Norrtälje
+C|78422|46|M|Martin Gellerstedt|46 år, Furusund
+C|78423|35|K|Amalia Mattsson|35 år, Produktionstekniker, Edebo
+C|78424|49|K|Gina Forslund|49 år, Korrekturläsare, Malsta
+C|78425|18|M|David Säll|18 år, Studerande, Norrtälje
+C|78426|53|K|Eva Hindersson|53, Norrtälje, Controller
+C|78427|61|K|Lilja Olander|61 år, Administratör, Norrtälje
+C|78428|74|M|Clas Forsgren|74 år,Civilekonom, Hallstavik
+C|78429|31|M|Leif Karlsson|31 år, CNC-operatör, Hallstavik
+C|78430|71|K|Christina Ericsson|71 år, Banktjänsteman, Estuna
+C|78431|53|M|Ove Olsson|53 år, Fordonsmekaniker, Vätö
+C|78432|50|M|Bengt Jansson|50 år, Lantbrukare, Blidö
+C|78433|58|K|Karina Åberg|58, Norrtälje, Undersköterska
+C|78434|69|M|Gunnar Enlund|69 år, Skohandlare fd, Norrtälje
+C|78435|50|K|Helen Israelsson|50 år, Företagare, Häverö
+C|78436|68|M|Hans Jansson|68 år, Lantbrukare, Edebo
+C|78437|75|M|Torsten Jusslin|75 år, Pensionär, Häverödal
+C|78438|77|K|Anita Engdahl|77 år, Nämndeman, Norrtälje
+C|78439|31|M|Karl Karlsson|31 år, Tjänsteman, Hallstavik
+C|78440|74|M|Boris Andersson|74 år, Egenföretagare, Gottröra
+C|383449|46|M|Daniel Toresson|hantverkare
+C|365286|39|K|Daniel Toresson|
+C|383454|65|M|Jörgen Petersson|elektronikingenjör
+C|383455|42|M|Lars Eriksson|diversearbetare
+C|513837|32|K|Alexandra Lundholm|32, socialsekreterare
+C|513838|22|K|Tilda Andén|22, kundtjänstmedarbetare
+C|161004|78|M|Göte Vaara|78, Fil.mag, Norrtälje
+C|161005|66|M|Bengt Karlström|Furusund
+C|161006|20|K|Monali Rulander Egserius|Norrtälje
+C|161007|75|M|Leif Johansson|Rimbo
+C|161008|81|K|Linda Lundeborg|Rimbo
+C|161009|58|M|Lars Hasselfeldt|Norrtälje
+C|161010|71|K|Gun Åström|Rimbo
+C|161011|76|K|Eva Egserius|Norrtälje
+C|161012|79|M|Otto Carneheim|Norrtälje
+C|131605|58|M|Magnus Malmsten|Försäljare, Stockholm
+C|132598|47|M|Peter Johansson|Maskinförare, Stockholm
+C|157465|48|K|Ann-Sofie Hagberg|47 år, Cafébiträde, Norrtälje
+C|132417|55|M|Michael Bonnier|Matros, Stockholm
+C|157467|62|M|Curt Carlström|62 år, Lantbrukare, Rimbo
+C|45405|42|M|Robert Beronius|jurist, 42, Roslagsbro
+C|45406|55|K|Åsa Wennerfors|lärare, behandlingspedagog, 55, Riala
+C|45407|65|M|Hans Andersson|lantbrukare, Rimbo
+C|45408|64|K|Elisabet Ek|civilingenjör, 64, Norrtälje
+C|45409|34|M|Nicklas Salmin|lärare, 34, Norrtälje
+C|45410|45|K|Veronika Areskoug|ekolog, Bergshamra
+C|45411|23|M|Alexander Castman|studerande, 23, Norrtälje
+C|45412|46|K|Paula Christofidi Cederqvist|socionom, 46, Bergshamra
+C|45413|70|M|Rolf Nilsèn|sociolog, 70, Svanberga
+C|45414|72|K|Christina Frisk|pensionerad pedagog, 72, Norrtälje
+C|45415|33|M|Kristoffer Andersson|33, Norrtälje
+C|45416|76|K|Agneta Hedlundh|fd skolkonsulent, 76, Norrtälje
+C|45417|41|M|Martin Tengqvist|elektriker, 41, Rådmansö
+C|45418|78|K|Ingrid Tengve Lothe|psykolog, 78, Norrtälje
+C|45419|56|M|Ulf Zakrisson|ingenjör, 57, Väddö
+C|45420|75|K|Birgitta Bjuhr|fd försäkringsjurist, 75, Norrtälje
+C|45421|61|M|Mats Hållèn|försäkringstjänsteman, 61, Norrtälje
+C|45422|81|K|Birgitta Sämskar|fd lärare, 81, Norrtälje
+C|246827|54|K|Ingrid Landin|54, socionom, Norrtälje
+C|246828|71|M|Mats Wedberg|arkitekt, Veda
+C|246829|41|K|Camilla Rydstrand|civ.ing, hållbarhetsstrateg, Väddö
+C|246830|68|M|Mats Wilzén|lärare, Söderby-Karl
+C|246831|18|K|Tyra Blum|studerande, Norrtälje
+C|246832|46|M|Andreas Hagstedt|lärare, Norrtälje
+C|246833|55|K|Åsa Dufbäck|integrationsaktivist, Norrtälje
+C|246834|22|M|William Olsson|stud., organisationssekreterare, Björkö
+C|246835|64|K|Marie Larsén|journalist, Rörvik
+C|246836|73|M|Magnus Hellström|74, organisationskonsult, Norrtälje
+C|246837|70|K|Lisbeth Schoultz Káplár|pensionär, Norrtälje
+C|246838|55|M|Ulf Rosengren|hållbarhetschef, Edsbro
+C|246839|54|K|Helena Johansson|lantmäteriingenjör, Norrtälje
+C|246840|27|M|Peter Logård|vvs-konsult, Norrtälje
+C|246841|65|K|Bridget Wedberg|kooperativ rådgivare, Veda
+C|246842|71|M|Thord Ove Thordson|pensionär, Norrtälje
+C|246843|75|K|Inger Lund Jansson|pensionär, Bergshamra
+C|246844|69|M|Lars Thillman|pastor, Bergshamra
+C|246845|72|M|Bengt Annebäck|leg. läkare, Norrtälje
+C|246846|57|M|Kai Larsson|ingenjör, Bergshamra
+C|246847|69|M|Bo Blideman|Kooperatör, Norrtälje
+C|23164|36|M|Bino Drummond|36, Oppositionsråd
+C|108384|38|M|Staffan Tjörnhammar|38, Teknologie doktor , Rimbo
+C|108385|55|K|Ann Lewerentz|55, Marknadschef, Norrtälje
+C|23170|69|K|Lotta Lindblad Söderman|69, Ekonom
+C|108387|61|M|Roland Brodin|61, Fastighetsutvecklare, Norrtälje
+C|23174|58|M|Henrik Hedensiö|58, fd VD
+C|23182|51|K|Linda Hiort af Ornäs|51, Egenföretagare
+C|108390|25|K|Joanna Lewerentz Lundgren|25, Student, Norrtälje
+C|108391|55|K|Annette Tagesson|55, Logistiker, Väddö
+C|12786|58|M|Kjell Jansson|58, fd Kommunalråd
+C|12815|72|M|Nils Matsson|72, Egenföretagare
+C|23178|30|M|Hamed Abbasi|30, Studiehandledare
+C|108395|42|K|Nina Jones|42, Socionom, Norrtälje
+C|23189|72|M|Bo Wetterström|72, Ekonom
+C|108397|71|M|Sören Forslund|71, fd Företagare, Norrtälje
+C|108398|45|M|Jens Andersson|45, Egenföretagare, Norrtälje
+C|108399|48|M|Jörgen Jansson|48, Företagare, Norrtälje
+C|108400|31|M|Kenneth Hagström|31, IT-driftansvarig, Norrtälje
+C|108401|53|K|Åsa Malmström|53, Egenföretagare, Rimbo
+C|23193|51|K|Janeth Tjörnhammar|51, Ingenjör
+C|108403|52|K|Susanne Lippert Enquist|52, Kock, Blidö
+C|108404|42|M|Klas Zettergren|42, Företagare, Norrtälje
+C|108405|50|K|Eva Roxell|50, Regional försäljningschef, Blidö
+C|108406|40|M|Stefan Juhnell|40, Företagare, Norrtälje
+C|108407|41|K|Ganimete Kalludra|41, Enhetschef, Norrtälje
+C|23198|53|K|Malin Fredholm|53, Chefsassistent
+C|23205|46|M|Göran Jonsson|46, KBT-terapeut
+C|108410|64|K|Janet Gudmunds Burström|64, Jur. kand, Vätö
+C|108411|64|M|Mats Albrektsson|64, Busschaufför, Älmsta
+C|23203|73|M|Gail Watt|73, IT-konsult
+C|108413|51|K|Camilla Modenius|51, Lärare, Rö
+C|108414|71|M|Hans Burström|71, fd Finansdirektör , Vätö
+C|108415|33|M|Henrik Dahl|33, Byggnadsingenjör, Rådmansö
+C|108416|42|M|Daniel Ali|42, Busschaufför, Hallstavik
+C|108417|46|M|Johnny Pettersson|46, Affärsman, Norrtälje
+C|108418|56|K|Ann-Charlotte Unosson|56, Konsult, Norrtälje
+C|108419|72|M|Håkan Johansson|72, Konsult, Trästa
+C|15613|45|M|Magnus Jegréus|Bussförare Riala-Bergshamra
+C|15614|74|K|Yvonne Svensson|Coordinator Vätö
+C|15615|71|M|Johan Österberg|fd rektor/skolchef Norrtälje
+C|15616|60|K|Gunilla Lindgren|Veterinär Hallstavik
+C|15617|45|M|Björn Rudolfsson|IT-konsult Rimbo
+C|15618|46|K|Irene Brändström|Egen företagare Norrtälje
+C|15619|76|M|Håkan Stolt|Pensionär Björknäs-Frötuna
+C|15622|68|M|Kent Björklund|Pensionerad elektriker Roslagsbro
+C|15623|69|M|Lars Nilsson|Pensionerad företagare Skebobruk
+C|15624|63|M|Sven-Allan Edehamn|Kyrkvaktmästare Hallstavik
+C|15625|68|M|Olov Wiktorsson|Pensionär Norrtälje
+C|15626|46|M|Mattias Havnesköld|Trader Norrtälje
+C|15627|72|M|Bernt Svärd|Pensionär Hallstavik
+C|15628|60|M|Ulf Wallin|Bussförare Norrtälje
+C|15629|87|M|Gunnar Marstorp|Pastor Evangeliska Frikyrkan Hallstavik
+C|15630|55|M|Anders Fransson|Egen företagare Norrtälje
+C|15631|38|M|Tony Wrangell|Säljare Norrtälje
+C|15632|47|K|Åsa Blomqvist|Svanberga
+C|15633|66|M|Robert Johansson|Pensionär Frötuna.
+C|67109|52|M|Mikael Strandman|Civilingenjör, Norrtälje
+C|67110|33|K|Andrea Kronvall|33 år, inköpare, Riala
+C|67111|54|K|Britt-Mari Canhasi|54, operatör, Norrtälje
+C|67112|65|M|Karl-Göran Edberg|65 år, skärgårdsbo, Singö
+C|67113|56|M|Tommy Grönberg|56, busschaufför, Norrtälje
+C|67114|66|M|Sören Karlsson|66 år, fd statstjänsteman, Norrtälje
+C|67115|77|M|Ingmar Ögren|76 år, företagare, Väddö
+C|67116|68|K|Tina Sandberg|68 år, undersköterska, Hallstavik
+C|67117|47|M|Mikael Söderqvist|47, entreprenör, Norrtälje
+C|67118|40|M|Lóránt Alföldi|40, bryggmästare, Norrtälje
+C|67119|36|K|Malin Lundkvist|36, specialistundersköterska, Norrtälje
+C|67120|76|M|Sune Rehnberg|75 år, pensionär, Spillersboda
+C|67121|76|K|Helena Ekekihl|76, pens. diakon, Norrtälje
+C|67122|64|M|Roger Harvidsson|64, sjöofficer, Norrtälje
+C|67123|32|M|Jacob Heitmann|32 år, personlig assistent, Norrtälje
+C|67124|55|M|Thomas Högbom|54 år, företagare, Norrtälje
+C|67125|43|M|Morgan Kjelldahl|43 år, fastighetsskötare, Hallstavik
+C|67126|54|M|Ulf Gabrielsson|54 år, smed, Grisslehamn
+C|67127|75|M|Martin Olsson|74 år, chaufför, Norrtälje
+C|67128|74|M|Björn Sandberg|74 år, chaufför, Hallstavik
+C|67129|66|M|Ulf Sjunnesson|66, ingenjör, Norrtälje
+C|67130|18|M|Linus Myrberg|18 år, byggnadslärling, Skebobruk
+C|67131|66|M|Mikael Brunnberg|66 år, bussförare, Norrtälje
+C|67132|52|K|Lena Rehnberg|52, barnskötare, Norrtälje
+C|67133|64|K|Kerstin Eriksson|63 år, kallskänka, Norrtälje
+C|67134|75|M|Sune Skoglund|74 år, pensionär, Grovstanäs
+C|67135|78|M|Stig Jandrén|77 år, pensionär, Rö
+C|67136|78|M|Kjell Sandelin|77 år, pensionär, Bergshamra
+C|67137|77|M|Bo Tullberg|77 år, pensionär, Bergshamra
+C|67138|49|M|Kjell Adolfsson|48 år, chaufför, Norrtälje
+C|67139|57|M|Mikael Björnström|57 år, glasmästare, Väddö
+C|67140|47|K|Teresia Ekekihl|47, fritidspedagog, Norrtälje
+C|207221|51|K|Catarina Wahlgren|Norrtälje, doktorand i genusvetenskap
+C|207222|61|M|Ola Nordstrand|Norrtälje, lokförare
+C|207223|68|K|Britt-Mari Bardon|Väddö, lärare
+C|207224|65|M|Per Claesson|Norrtälje, lärare
+C|207225|38|M|Johannes Folkesson|Rimbo, butiksbiträde
+C|207226|46|K|Jessica Hilwëyn|Norrtälje, pedagog
+C|207227|53|K|Ingela Brinkefeldt|Gottröra, egen företagare
+C|207228|58|M|Lars Dalquist Öhlén|Malsta, fritidspedagog/facklig förtroendeman
+C|207229|70|M|Stefan Grath|Rånäs, plattsättare/egen företagare
+C|207230|46|K|Ghazaleh Karami|Norrtälje, kock
+C|207231|57|M|Roger Reinhold|Länna Hammarby, konsult
+C|207232|74|K|Christina Hamnö|Väddö, socionom
+C|207233|27|M|Rickard Hjalmarsson|Rö, transportplanerare
+C|207234|28|K|Malin Claesson|Norrtälje, student
+C|207236|68|K|Kicki Zandelin|Norrtälje, pedagog/egen företagare
+C|207237|25|K|Robin Gustafsson|Norrtälje, restaurangvärd
+C|207238|67|M|Anders Svensson|Norrtälje, musiklärare
+C|207239|78|K|Marianne Mathlein|Väddö, läromedelsförfattare/SFI-lärare
+C|207240|59|M|Kjell Lindberg|Norrtälje, redovisningskonsult
+C|207241|77|M|Christian Günther|Nysättra, pensionär
+C|207242|36|K|Anette Holgersson|Norrtälje, biblioteksassistent
+C|207243|65|M|Aghbal Safari|Norrtälje, politiker
+C|207244|85|M|Janviktor Wahlgren|Björkö, bildlärare

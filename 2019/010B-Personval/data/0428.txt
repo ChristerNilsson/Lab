@@ -1,9 +1,146 @@
-2|139328|139520|139580|139581|139611|139612|139613|139614|139645|139646|139647|139648|139649|139650|139651|139652|139653|139654|139655|139724|139725|139726|139727|139728|139729|139730|139731|139732|139733|139734|139735|139736|139737|139738|139739
-4|196501|196490|197700|198749|197681|198751|198752|198753|198754|198755|198756|198757|198758
-68|167098|167099|167100|167101|167102|166673|167104|167105|167106
-3|2591|2185|38711|38712|121295|121296|38713|38714
-55|185197|185198|185199|185200|185201|185202
-1|9991|10172|319745|319746|319747|319748|319749|319750|10146|319752|319753|319754|319755|319756|319757|10155|319759|319760|319761|319762|319763
-110|32711|79544|32720|79546|79547|79548|79549|79550|79551|79552
-301|226790|226791|226792|226793|226794|226795|226796|236042|226797|226798|226799
-5|12106|12930|12931|12084|12933|12934|12935|12936|12937|12938|12939|12940|12941|12942
+T|Vingåker
+A|2|139328|139520|139580|139581|139611|139612|139613|139614|139645|139646|139647|139648|139649|139650|139651|139652|139653|139654|139655|139724|139725|139726|139727|139728|139729|139730|139731|139732|139733|139734|139735|139736|139737|139738|139739
+A|4|196501|196490|197700|198749|197681|198751|198752|198753|198754|198755|198756|198757|198758
+A|68|167098|167099|167100|167101|167102|166673|167104|167105|167106
+A|3|2591|2185|38711|38712|121295|121296|38713|38714
+A|55|185197|185198|185199|185200|185201|185202
+A|1|9991|10172|319745|319746|319747|319748|319749|319750|10146|319752|319753|319754|319755|319756|319757|10155|319759|319760|319761|319762|319763
+A|110|32711|79544|32720|79546|79547|79548|79549|79550|79551|79552
+A|301|226790|226791|226792|226793|226794|226795|226796|236042|226797|226798|226799
+A|5|12106|12930|12931|12084|12933|12934|12935|12936|12937|12938|12939|12940|12941|12942
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|301|VTL|Vingåkerspartiet - VTL
+B|5|V|Vänsterpartiet
+C|139328|56|K|Anneli Bengtsson|56 år Kokerska
+C|139520|53|M|Robert Skoglund|53 år Personlig assistent Vingåker
+C|139580|42|K|Anna Åteg|42 år Säljare Vingåker
+C|139581|56|M|Jörgen Larsson|56 år Projektchef
+C|139611|54|K|Helena Edrenius|54 år Arbetsmarknadscoach
+C|139612|66|M|Viking Jonsson|66 år Pensionär
+C|139613|52|K|Monica Granström|52 år Företagare Vingåker
+C|139614|73|M|Håkan Persson|72 år Pensionär
+C|139645|55|K|Caroline Helmersson Olsson|55 år Riksdagsledamot Vingåker
+C|139646|56|M|Glenn Christensen|56 år Maskinoperatör
+C|139647|48|K|Caisa Sävheden Larsson|48 år Undersköterska Vingåker
+C|139648|57|M|Mensud Vrana|57 år Bussförare
+C|139649|44|K|Therese Palm|43 år Studerande
+C|139650|65|M|Olle Olsson|65 år Pensionär
+C|139651|68|K|Kristina Jonsson|67 år Pensionär
+C|139652|57|M|Abdelaziz Jaali|56 år Maskinoperatör
+C|139653|45|K|Erika Rask|45 år Lärare
+C|139654|75|M|Leif Skeppstedt|74 år Pensionär
+C|139655|73|K|Kaisa Komulainen-Nilsson|Förvaltningssocionom Vingåker
+C|139724|23|M|Jonathan Andersson|22 år Kock
+C|139725|70|K|Inger Lindfors|70 år Socionom Vingåker
+C|139726|46|M|Pierre Andersson|46 år Undersköterska
+C|139727|28|K|Mathilda Skoogh|28 år Lärarstuderande
+C|139728|61|M|Tomas Ring|60 år Gruppchef
+C|139729|69|K|Marion Stål Lindén|69 år Socionom
+C|139730|76|M|Sven-Arne Pettersson|76 år Pensionär
+C|139731|66|K|Marie-Louise Thyberg|66 år Pensionär
+C|139732|68|M|Kjell Lind|67 år Pensionär
+C|139733|53|K|Bodil Soldotter|53 år Elevassistent
+C|139734|54|M|Patrik Edrenius|54 år Mek.Konstruktör
+C|139735|51|K|Maria Olsson Ferm|51 år Undersköterska
+C|139736|49|M|Stefan Granetin Westin|48 år Maskinoperatör
+C|139737|62|M|Ola Lindgren|62 år Elektriker
+C|139738|74|K|Gärd Gustavsson|74 år Pensionär
+C|139739|69|M|Lars Olof Nilsson|69 år Mediaarkivarie
+C|196501|72|K|Ing-Mari Frössevi|72 år, f.d rektor,Vingåker
+C|196490|46|M|Robert Davidsson|46 år,Kommunikatör,Vingåker
+C|197700|74|M|Lars-Ove Winberg|74 år,f d Lantbrukare,Vingåker
+C|198749|53|K|Anna Lindner|53år,Enhetschef äldreomsorgen,Marsjö
+C|197681|64|K|Pia Windahl|64 år,Vårdbiträde,Vingåker
+C|198751|60|M|Tonny Adrelius|60år,Entreprenör,Öfre Vannala
+C|198752|66|M|Jan Öhman|66år,Pensionär,Österåker
+C|198753|76|M|Bertil Kristoffersson|76år,Lantbrukare,Baggetorp
+C|198754|63|M|Arne Persson|63år,Tjänsteman,Österåker
+C|198755|48|K|Elisabeth Gillerstrand|48år,Vaktmästare Sportcentrum,Vingåker
+C|198756|72|K|Monica Andersson|72år,Pensionär,Vingåker
+C|198757|58|M|Nils Vikman|58år,Egenföretagare,Mjälnäs
+C|198758|66|M|Gunnar Österberg|66år, Lantbrukare,Ö Vintergatan
+C|167098|72|M|Lennart Andersson|f.d. kontorschef, Vingåker
+C|167099|72|K|Marie-Louise Pedersen|lärare, Vingåker
+C|167100|60|K|Generose Nzojibwami|ekonom, Vingåker
+C|167101|40|M|Enrique Diaz|pastor, Vingåker
+C|167102|79|K|Gerd Johansson|barnmorska, Vingåker
+C|166673|77|M|Bo Sävhammar|77, leg. sjuksköterska, Vingåker
+C|167104|38|K|Esther Diaz|lärare, Vingåker
+C|167105|74|M|Johan Pedersen|lärare, Vingåker
+C|167106|45|K|Cathrine Filén|undersköterska, Vingåker
+C|2591|68|M|Lars-Gunnar Karlsson|lärare, Vingåker
+C|2185|62|K|Margareta Karlsson|distriktssköterska, Vingåker
+C|38711|73|M|Stefan Jäger|ingenjör
+C|38712|33|K|Caroline Pettersson|behandlingspersonal
+C|121295|57|K|Yvonne Granfors|sjukpensionär
+C|121296|56|K|Marie Magnusson|undersköterska
+C|38713|45|M|Jimmy Jonsson|bilmekaniker
+C|38714|53|K|Camilla Erlandsson|pedagogisk resurs
+C|185197|41|M|Linus Larsson|lärare, författare
+C|185198|72|M|Håkan Östlund|fd rektor
+C|185199|75|K|Christina H Hallin|textilkonstnär
+C|185200|77|M|Kjell Rosén|fd lärare
+C|185201|71|K|Lola Östlund|fd tandhygienist
+C|185202|59|M|Jörgen Andersson|personlig assistent
+C|9991|50|K|Charlotte Prennfors|oppositionsråd, Vingåker
+C|10172|47|M|Fredrik Andersson|förstelärare, Vingåker
+C|319745|60|M|Tommy Björkdal|enhetschef, Vingåker
+C|319746|52|K|Iréne Sandqvist|företagare, Vingåker
+C|319747|25|K|Anna Lejon|jurist, Julita
+C|319748|64|M|Roger Larsson|fd räddningschef, Vingåker
+C|319749|62|M|Björn Andersson|lantbrukare, Vingåker
+C|319750|70|M|Christer Nodemar|konsult, Vingåker
+C|10146|50|K|Marika Björkdal|sjuksköterska, Vingåker
+C|319752|51|M|Timo Granetin|elektriker, Österåker
+C|319753|73|M|Håkan Arvidsson|civilekonom, Högsjö
+C|319754|71|M|Tommy Persson|ekonomisk konsult, Vingåker
+C|319755|48|K|Susanna Ahnstrand|sjukpensionär, Vingåker
+C|319756|75|M|Kim Fröde|ekonom, Ålsäter
+C|319757|36|M|Anders Ljungström|företagare, Vingåker
+C|10155|66|K|Lotta Egeland|distriktssköterska, Vingåker
+C|319759|35|M|Carl-Adam Samuelsson|agronom, Vingåker
+C|319760|64|K|Britten Winström Nodemar|biomedicinsk analytiker, Vingåker
+C|319761|65|M|Agne Andersson|egenföretagare, Vingåker
+C|319762|45|K|Petra Andersson|administratör, Vingåker
+C|319763|37|M|Jim Lindström|företagschef, Vingåker
+C|32711|62|M|Lars-Göran Karlsson|62 år, Maskinförare
+C|79544|62|M|Mats Karlsson|62 år, VVS-ingenjör
+C|32720|59|K|Louise Karlsson|59 år, Undersköterska
+C|79546|63|M|Jan Karlsson|63 år
+C|79547|42|K|Ulrika Grave|42 år, undersköterska
+C|79548|54|K|Lilija Eriksson|54 år, socialsekreterare
+C|79549|51|M|Roger Eriksson|51 år, egenföretagare
+C|79550|68|M|Tony Lind|68 år, pensionär
+C|79551|60|M|Hans Wallentin|60 år, elektriker
+C|79552|59|M|Per-Erik Eriksson|59 år, chaufför
+C|226790|54|M|Martin Larsson|
+C|226791|66|M|Hans Averheim|
+C|226792|67|K|Agneta Skarp|
+C|226793|58|M|Fredrik Appelgren|
+C|226794|29|K|Linnea Skarp|
+C|226795|76|M|Anders Lundström|
+C|226796|20|K|Sanna Appelgren|
+C|236042|53|M|Håkan Dahlström|
+C|226797|47|K|Pernilla Andersson|
+C|226798|72|K|Ingegerd Rask|
+C|226799|77|M|Per-Erik Lif|
+C|12106|57|K|Tiina Rokka|57, Dramapedagog, Vingåker
+C|12930|61|M|Kameran Elgailani|60, Lärare
+C|12931|47|M|Mahmoud Nabil Alkhatib|47, Handledare
+C|12084|64|K|Märta Bolzek|64, Undersköterska, Vingåker
+C|12933|63|M|Sameh Kanan|63, Handledare
+C|12934|71|K|Inga Bengtsson|70, Pensionär
+C|12935|71|K|Britt-Marie Johansson|70, Pensionär
+C|12936|80|M|Bengt Tholin|79, Pensionär
+C|12937|70|K|Yvonne Olsson|70, Pensionär
+C|12938|59|M|Leif Svensson|59, Vaktmästare
+C|12939|47|K|Zeinab Morad|47, Förskollärare
+C|12940|71|K|Siri Olsson|71, Pensionär
+C|12941|74|M|Hans-Göran Olsson|74, Pensionär
+C|12942|70|K|Marianne Isaksson|69, Pensionär

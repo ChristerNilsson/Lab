@@ -1,11 +1,414 @@
-2|302589|152082|293691|154842|305010|286394|151913|141224|139647|285057|139865|144347|148978|155838|158973|140043|306482|306483|306484|158202|293685|306487|152072|306489|155841|306491|145511|307971|160920|141226|307974|140641|139580|144348|285050|158200|150005|308640|309827|309828|143855|151373|151362|285045|155827|139520|139725|311308|141227|152073|147812|151377|311312|144352|148980|141236|139613|155836|139655|146526
-4|196474|196483|196493|197667|197668|197669|196491|197671|197672|197673|197364|8513|196504|196489|197678|197371|196479|197681|196478|196497|196492|196485|197686|197368|197688|196503|197690|197691|197692|197693|196502|196505|197696|197697|197698|196480|197700|197701|197702|197703|197704
-68|166588|166580|166590|166656|166657|166595|166586|89217|166587|166662|89218|89216|166666|166667|166591|166579|166592|166672|166673|166674|166675
-1011|132318
-3|2173|2174|2175|2176|2177|2178|2179|2180|2181|2182|2183|2184|2185|2186|2187|2188|2189|2190|2191|2192|2194|2195|2196|2197|2198|2199|2200|2201|2202|2203|2204
-1296|188807|128531|188786
-55|190138|179490|188664|179249|185498|167510|179246|186299|167502|167511|179248|188662|185500|185797|188670|179244|190154|188666|190156|188665|185502|167498
-1|9993|10127|10005|10129|9990|10131|9991|10133|10134|10135|9983|9986|10138|10139|9985|9992|9982|10143|10144|10000|10146|10147|10148|9984|9996|10002|10011|10153|10154|10155|9994|10001|10158|10159|10160|9997|10162|10163|10164|10165|10166|10010|10168|10169|10170|10171|10172|10173|10174|10175|10176|10015|10179|10004|10181|10182|10183|10006|9988|10186
-110|32703|32704|8043|32706|32707|23648|32709|16087|32711|32712|32713|8046|16063|32716|32717|8048|16089|32720|32721|8049|83306|59124|16062|16065|59112|16086|59111|16069|59127|8053|67307|82769|59119|83319|8045|59118|59132|59123|59128|59110|82766|59122|59126|8054|83330|59129|59121|8050|59114|67308|59133|83337|8051|8052|59135|8057|67316|23650|16064|83345|83346|8058|16078|82768|83350|83351|16090|16072|83354|16067|5623
-1122|66147|66148|66149|66150|66151|66152|66153|66154|66155|66156|66157|66158|66159|66160|66161|66162|66163|66164|66165|66166|66167|66168|66169|66170|66171|66172|66173|66174|66175|66176|66177|66178|66179|66180|66181|66182|66183|66184|66185|66186|66187|66188|66189|66190|66191|66192|66193|66194|66195
-5|12073|12074|12075|11416|48734|79420|144860|12077|12078|12079|32988|12080|144866|12081|12082|11415|12084|12085|12086|12087|12088|79423|144876|32989|48728|144879|49667|49672|12089|12090|79435|12091|12092|12093
+T|Södermanlands läns landsting
+A|2|302589|152082|293691|154842|305010|286394|151913|141224|139647|285057|139865|144347|148978|155838|158973|140043|306482|306483|306484|158202|293685|306487|152072|306489|155841|306491|145511|307971|160920|141226|307974|140641|139580|144348|285050|158200|150005|308640|309827|309828|143855|151373|151362|285045|155827|139520|139725|311308|141227|152073|147812|151377|311312|144352|148980|141236|139613|155836|139655|146526
+A|4|196474|196483|196493|197667|197668|197669|196491|197671|197672|197673|197364|8513|196504|196489|197678|197371|196479|197681|196478|196497|196492|196485|197686|197368|197688|196503|197690|197691|197692|197693|196502|196505|197696|197697|197698|196480|197700|197701|197702|197703|197704
+A|68|166588|166580|166590|166656|166657|166595|166586|89217|166587|166662|89218|89216|166666|166667|166591|166579|166592|166672|166673|166674|166675
+A|1011|132318
+A|3|2173|2174|2175|2176|2177|2178|2179|2180|2181|2182|2183|2184|2185|2186|2187|2188|2189|2190|2191|2192|2194|2195|2196|2197|2198|2199|2200|2201|2202|2203|2204
+A|1296|188807|128531|188786
+A|55|190138|179490|188664|179249|185498|167510|179246|186299|167502|167511|179248|188662|185500|185797|188670|179244|190154|188666|190156|188665|185502|167498
+A|1|9993|10127|10005|10129|9990|10131|9991|10133|10134|10135|9983|9986|10138|10139|9985|9992|9982|10143|10144|10000|10146|10147|10148|9984|9996|10002|10011|10153|10154|10155|9994|10001|10158|10159|10160|9997|10162|10163|10164|10165|10166|10010|10168|10169|10170|10171|10172|10173|10174|10175|10176|10015|10179|10004|10181|10182|10183|10006|9988|10186
+A|110|32703|32704|8043|32706|32707|23648|16087|32711|32712|32713|8046|16063|32716|32717|8048|16089|32720|32721|8049|83306|59124|16062|16065|59112|16086|59111|16069|59127|8053|67307|82769|59119|83319|8045|59118|59132|59123|59128|59110|82766|59122|59126|8054|83330|59129|59121|8050|59114|67308|59133|83337|8051|8052|59135|8057|67316|23650|16064|83345|83346|8058|16078|82768|83350|83351|16090|16072|83354|16067
+A|1122|66147|66148|66149|66150|66151|66152|66153|66154|66155|66156|66157|66158|66159|66160|66161|66162|66163|66164|66165|66166|66167|66168|66169|66170|66171|66172|66173|66174|66175|66176|66177|66178|66179|66180|66181|66182|66183|66184|66185|66186|66187|66188|66189|66190|66191|66192|66193|66194|66195
+A|5|12073|12074|12075|11416|48734|79420|144860|12077|12078|12079|32988|12080|144866|12081|12082|11415|12084|12085|12086|12087|12088|79423|144876|32989|48728|144879|49667|49672|12089|12090|79435|12091|12092|12093
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1122|VåfP|Vård för Pengarna
+B|5|V|Vänsterpartiet
+C|302589|61|K|Monica Johansson|61 år Finanslandstingsråd Katrineholm
+C|152082|45|M|Jacob Sandgren|45 år Gymnasielärare Nyköping
+C|293691|49|K|Åsa Kratz|49 år Administratör Eskilstuna
+C|154842|58|M|Roger Ljunggren|58 år Förste Ombudsman Katrineholm
+C|305010|41|K|Camilla Holmgren|41 år Ekonomibiträde Eskilstuna
+C|286394|37|M|Daniel Flodkvist|37 år Lagerarbetare Eskilstuna
+C|151913|57|K|Christina Södling|57 år Undersköterska Nyköping
+C|141224|68|M|Leif Lindström|68 år Strängnäs
+C|139647|48|K|Caisa Sävheden Larsson|48 år Undersköterska Vingåker
+C|285057|72|M|Börje Johansson|72 år Senior Gnesta
+C|139865|64|K|Britta Bergström|64 år Arbetsterapeut Oxelösund
+C|144347|48|M|Daniel Danon|48 år Elevhandledare Flen
+C|148978|18|K|Ikram Mahmood|18 år Studerande Eskilstuna
+C|155838|20|M|Ahmed Musse|20 år Studerande Katrineholm
+C|158973|21|K|Stephanie Chramer Hagström|21 år Butiksmedarbetare Trosa
+C|140043|66|M|Inge Ståhlgren|66 år Pensionär Oxelösund
+C|306482|74|K|Inga-Lill Widlund|74 år Pensionär Eskilstuna
+C|306483|61|M|Ingvar Willing|61 år Lagerarbetare Eskilstuna
+C|306484|66|K|Solveig Persson|66 år Pensionär Strängnäs
+C|158202|63|M|Tommy Setzman|63 år Ombudsman Trosa
+C|293685|33|K|Maria Alias|33 år Verksamhetschef Eskilstuna
+C|306487|44|M|Hassan Almaghout|46 år Livsmedelsinspektör Nyköping
+C|152072|63|K|Christine Gilljam|63 år Senior Nyköping
+C|306489|54|M|Mikael Fältskog|55 år Ombudsman Nyköping
+C|155841|59|K|Christin Hagberg|59 år Laboratorieassistent Katrineholm
+C|306491|53|M|Börje Karlsson|53 år Betongarbetare Eskilstuna
+C|145511|64|K|Birgitta Andersson|64 år Undersköterska Flen
+C|307971|56|M|Hans Henriksson|56 år Brevbärare Eskilstuna
+C|160920|78|K|Siw Jansson|78 år Avdelningsdirektör Trosa
+C|141226|23|M|Sebastian CJ Rundqvist Marsico|23 år författare Strängnäs
+C|307974|46|K|Carina Ålander|46 år Processledare Eskilstuna
+C|140641|45|M|Jonas Widegren|45 år Undersköterska Oxelösund
+C|139580|42|K|Anna Åteg|42 år Säljare Vingåker
+C|144348|58|M|Torbjörn Jansson|58 år Verksamhetsassistent Flen
+C|285050|56|K|Jane Löfstrand|56 år Gnesta
+C|158200|48|M|Magnus Johansson|48 år Nationell samordnare Trosa
+C|150005|26|K|Emma Larsson|26 år Personlig assistent Nyköping
+C|308640|77|M|Ove Melin|77 år Pensionär Katrineholm
+C|309827|37|K|Shpresa Hajrizaj Lindberg|37 år Socionom Eskilstuna
+C|309828|45|M|Mikael Slagbrand|45 år Tekniker Strängnäs
+C|143855|68|K|Birgitta Brandt|68 år Pensionär Strängnäs
+C|151373|62|M|Lennart Halvarsson|62 år Präst Nyköping
+C|151362|23|K|Sahro Hashi|23 år Studerande Nyköping
+C|285045|37|M|Jesper Hammarlund|37 år Möbelsnickare Gnesta
+C|155827|55|K|Katarina Rosenlund Svensson|55 år Undersköterska Katrineholm
+C|139520|53|M|Robert Skoglund|53 år Personlig assistent Vingåker
+C|139725|70|K|Inger Lindfors|70 år Socionom Vingåker
+C|311308|56|M|Göran Johansson|56 år Ombudsman Eskilstuna
+C|141227|80|K|Maj-Britt Magnusson|80 år Pensionär Strängnäs
+C|152073|71|M|Lars Fernvall|71 år Civilingenjör Nyköping
+C|147812|71|K|Gunilla Cederfjord|71 år Pensionär Eskilstuna
+C|151377|46|M|Michael Nygren|46 år Betongarbetare Nyköping
+C|311312|50|K|Petra Lindqvist|50 år Kokerska Trosa
+C|144352|35|M|Adam Jamaal Adam|35 år Förskolechef Flen
+C|148980|66|K|Marianne Karlberg|66 år Pensionär Eskilstuna
+C|141236|69|M|Anders Brandt|68 år Pensionär Strängnäs
+C|139613|52|K|Monica Granström|52 år Företagare Vingåker
+C|155836|20|M|Max Truedsson|20 år Studerande Katrineholm
+C|139655|73|K|Kaisa Komulainen-Nilsson|Förvaltningssocionom Vingåker
+C|146526|36|M|Daniel Alexandersson|36 år Lastbilschaufför Eskilstuna
+C|196474|48|M|Mattias Claesson|48 år,Landstingsråd,Katrineholm
+C|196483|65|K|Marianne Andersson|65 år,Oppositionsråd,Strängnäs
+C|196493|55|K|Ann-Cathrin Rothlind|55 år, Konservator, Eskilstuna
+C|197667|37|M|Axel Wevel|37 år,Nämndsekterare,Vrena
+C|197668|24|K|Siri Wink|24 år, Ombudsman,Oxelösund
+C|197669|31|K|Elin Ekstrand|31 år,leg.sjuksköterska,Gnesta
+C|196491|57|M|Tomas Fors|57 år,Utvecklingschef,Mariefred
+C|197671|38|K|Emilia Tennmyr|38 år,Trafikinformatör,Katrineholm
+C|197672|40|K|Fifian Georgos|40 år,Personlig assisten,Trosa
+C|197673|21|M|Georg Örsbäcken|21 år,Statsvetare,Strängnäs
+C|197364|45|K|Karina Krogh|54 år,Verksamhetsutvecklare,Flen
+C|8513|43|K|Martina Johansson|43 år, Kommun- och landstingspolitiker, Trosa
+C|196504|54|K|Kjerstin Gustafsson|54 år,Vårdare,Flen
+C|196489|59|M|Håkan Ekstrand|59 år,Landsbygdsföretagare,Gnesta
+C|197678|48|K|Sofia Aktergård|48 år,Verksamhetsutvecklare,Nyköping
+C|197371|63|M|Anders Hermanson|63 år,Civilekonom,Flen
+C|196479|50|K|Claudia Grathwohl|50 år,Företagare,Katrineholm
+C|197681|64|K|Pia Windahl|64 år,Vårdbiträde,Vingåker
+C|196478|47|K|Martina Hallström|47 år,Företagare,Ålberga
+C|196497|38|M|John Carlsson|38 år,Kemiingenjör,Trosa
+C|196492|43|K|Anna-Maria Lindqvist Arrue|43 år,Journalist,Eskilstuna
+C|196485|34|K|Emma Fahlstedt|34 år,Kommunikationsstrateg,Nyköping
+C|197686|75|K|Ingalill Fredriksson|75 år,Lantbrukare,Gnesta
+C|197368|72|K|Ingegerd Branting|72år,Egen företagare,Sparreholm
+C|197688|46|K|Helene Carlind|46 år,Lärare,Trosa
+C|196503|53|K|Mia Nerby|53 år,HR-specialist,Mariefred
+C|197690|66|M|Leif Strand|66 år,Företagare,Granhed Katrineholm
+C|197691|61|K|Ingela Hylander Nilsson|61 år,Leg.sjukskötersak,Eskilstuna
+C|197692|69|K|Magdalena Jerlström|69 år,Fru,Nyköping
+C|197693|75|K|Inger Sköld|75 år,Lärare,Flen
+C|196502|71|M|Bertil Carlsson|71 år,Pensionerad Tekniker,Katrineholm
+C|196505|58|M|Stefan Gustafsson|58 år,Fastighetsutvecklare,Flen
+C|197696|34|M|Ferdi Youssein|34 år,Biträde,Katrineholm
+C|197697|53|K|Helén Biörklund Gustafsson|53 år,Konstnär,Nyköping
+C|197698|73|M|Sten Holmgren|73 år,Lantbrukare,Katrineholm
+C|196480|64|M|Bo Rundquist|64 år,Lantbrukare,Vagnhärad
+C|197700|74|M|Lars-Ove Winberg|74 år,f d Lantbrukare,Vingåker
+C|197701|73|K|Lena Rundberg|73 år,Fiskare,Stallarholmen
+C|197702|45|M|Olle Gibeck|45 år,Ekonom,Trosa
+C|197703|48|K|Jessika Keereweer|48 år,Lärare,Nyköping
+C|197704|63|M|Mats Klasson|63 år,Parkchef,Gnesta
+C|166588|61|K|Marie-Louise Forslund Mustaniemi|61, undersköterska, Mariefred
+C|166580|40|K|Anna Jernemalm|40, undersköterska, Flen
+C|166590|59|M|Johan Rudengren|59, aukt. revisor, Husby-Rekarne
+C|166656|69|K|Barbro Petersson|69, leg. sjuksköterska, Nyköping
+C|166657|48|M|Joacim Wäppling|48, kriminalvårdare, Bettna
+C|166595|53|K|Stina von der Esch|53, företagare, Västerljung
+C|166586|43|M|Fredrik Siösteen|43, banktjänsteman, Stallarholmen
+C|89217|65|K|Marian Loley|65, kyrkobokföringsassistent, Valla
+C|166587|65|M|Arne Karlsson|65, lantbrukare, Västerljung
+C|166662|66|K|Paula Laurokari Ehrlin|66, kanslist, Torshälla
+C|89218|45|M|Ceith Landin|45, krögare, Katrineholm
+C|89216|59|M|Joha Frondelius|59, företagare, Katrineholm
+C|166666|48|M|Niklas Lindholm|48, leg. sjuksköterska, Flen
+C|166667|25|M|Borhan Bajati|25, studerande, Eskilstuna
+C|166591|38|K|Miriam Tinglöf|38, apoteksassistent, Vagnhärad
+C|166579|63|M|Stefan Landmark|
+C|166592|64|M|Erik Häggblom|
+C|166672|58|M|Mats Johansson|58, produkttekniker, Trosa
+C|166673|77|M|Bo Sävhammar|77, leg. sjuksköterska, Vingåker
+C|166674|74|M|Östen Eriksson|73, ingenjör, Nyköping
+C|166675|32|M|Sebastian Grimhäll|32, trafiklärare, Mariefred
+C|132318|57|K|Eva von Heideken|Lantbruksföretagare, Södermanland
+C|2173|62|K|Ewa Callhammar|polisinspektör, Katrineholm
+C|2174|71|M|Christer Kax Sundberg|fd. rektor, Eskilstuna
+C|2175|69|K|Berit Hyllbrant|läkarsekreterare, Sparreholm
+C|2176|58|K|Lena Zeller|skolintendent, Strängnäs
+C|2177|69|M|Göran Hammarlund|pensionär, Trosa
+C|2178|65|M|Aziz Alis|biolog, Eskilstuna
+C|2179|31|K|Sofia Hallgren Remnert|upphandlare, Nyköping
+C|2180|22|M|Stefan Krstic|livsmedelsarbetare, Eskilstuna
+C|2181|76|K|Kerstin Grenthe|lärare, Stjärnhov/Gnesta
+C|2182|32|M|Jonathan Bejefalk|skyddsvakt, Malmköping
+C|2183|54|K|Jessica Johansson|specialistundersköterska, Nyköping
+C|2184|59|M|Anders S Svenson|gymnasielärare, Strängnäs
+C|2185|62|K|Margareta Karlsson|distriktssköterska, Vingåker
+C|2186|78|M|Bengt Hult|pensionerad VD, Katrineholm
+C|2187|53|K|Maria Buco|ekonom, Eskilstuna
+C|2188|54|K|Tiina Ihatsu-Harder|marknadsekonom, Strängnäs
+C|2189|70|M|Hans Lindberg|pensionär, Nyköping
+C|2190|51|K|Marieanne Blomberg|leg. arbetsterapeut, Malmköping
+C|2191|56|M|Stefan Käll|jurist, Katrineholm
+C|2192|66|K|Elisabeth Hammarlund|distriktssköterska, Trosa
+C|2194|63|K|Alma Ahlam Rabei|studiehandledare, Katrineholm
+C|2195|59|M|Lennart Halvardsson|ordförande RFHL Södermanland, Katrineholm
+C|2196|55|M|Abdulkadir Mohammed|jurist/etnolog, Nyköping
+C|2197|70|K|Gunilla Porsvant|volontär, Vingåker
+C|2198|71|M|Bengt-Eric Sandström|kommunpolitiker, Trosa
+C|2199|81|K|Gunilla Borg|sjukhustandläkare, Nyköping
+C|2200|72|M|Bo Arvidsson|fd. skattedirektör, Nyköping
+C|2201|44|M|Jesper Ek|lärare, Katrineholm
+C|2202|78|M|Robert Hållén|företagsledare, Eskilstuna
+C|2203|32|M|Tommy Linder|redovisningsekonom, Oxelösund
+C|2204|77|M|Anders Bjurström|fd. landstingsfullmäktiges ordförande, Nyköping
+C|188807|36|K|Iréne Larsson|36 år, sjuksköterska
+C|128531|42|K|Åsa Tallroth|42, Privattjänsteman, Södermanland
+C|188786|44|M|Fredrik Lindblad|43 år, egenföretagare
+C|190138|42|K|Anna Wåhlström|landstingsråd, 42 år, Nyköping
+C|179490|52|M|Nicklas Adamsson|samhälls- och kulturanalytiker, 52 år, Katrineholm
+C|188664|68|K|Greta Suvén|civilingenjör, 68 år, Flen
+C|179249|62|M|Ulf Isaksson|konsult, 62 år, Eskilstuna
+C|185498|44|K|Terese Askerstedt|konsult, 44 år, Strängnäs
+C|167510|57|M|Nadim Hassen|arkitekt, 57 år, Nyköping
+C|179246|61|K|Gladys Silva|civilekonom, 61 år, Eskilstuna
+C|186299|43|M|Carl Werner|fil kand, 43 år, Gnesta
+C|167502|65|M|Kenneth Bjurström|fritidsledare, 65 år, Nyköping
+C|167511|45|M|Oskar Reimer|egenföretagare, 45 år, Nyköping
+C|179248|43|K|Erica Hallenstam|personlig assistent, 43 år, Eskilstuna
+C|188662|51|K|Cecilia Friis|företagare, 51 år, Malmköping
+C|185500|57|M|Björn Siljeström|stadsvärd, 57 år, Strängnäs
+C|185797|61|M|Lars Pettersson|omsorgsassistent, 61 år, Oxelösund
+C|188670|72|M|Bo Sandgren|ingenjör, 72 år, Flen
+C|179244|40|K|Nina Hedenfeldt|järnsmed, egenföretagare, 40 år, Eskilstuna
+C|190154|84|M|Carl Frick|fd riksdagsledamot, 84 år, Katrineholm
+C|188666|67|K|Susanne Thibblin|lärare, 67 år, Flen
+C|190156|70|K|Gudrun Lindvall|fd riksdagsledamot, 70 år, Katrineholm
+C|188665|63|M|Ruben Bobadilla|leg förskolelärare, 63 år, Flen
+C|185502|37|K|Josefin Valham|gymnasielärare, 37 år, Strängnäs
+C|167498|70|M|Gunnar Åsell|arkitekt, 70 år, Nyköping
+C|9993|40|M|Magnus Leivik|landstingsråd, Tystberga
+C|10127|34|K|Maria Ehrnfelt|registrator, Stallarholmen
+C|10005|26|M|Filip Rundström|anestesisjuksköterska, Eskilstuna
+C|10129|70|K|Ingrid Jerneborg Glimne|senior, Gnesta
+C|9990|59|M|Christer Sundqvist|brandmästare, Katrineholm
+C|10131|47|M|Daniel Portnoff|kommunalråd, Trosa
+C|9991|50|K|Charlotte Prennfors|oppositionsråd, Vingåker
+C|10133|36|M|Petter Söderblom|kommunikationsansvarig, Ålberga
+C|10134|54|K|Helena Koch|sjuksköterska, Trosa
+C|10135|51|M|Stefan Johansson|VD, Oxelösund
+C|9983|49|M|Jari Puustinen|kommunalråd, Eskilstuna
+C|9986|42|K|Anna af Sillén|oppositionsråd, Nyköping
+C|10138|56|M|Abshir Osman|lärare, Skogstorp
+C|10139|38|K|Maria Gilstig|distriktssköterska, Nyköping
+C|9985|66|M|Magnus Stuart|entreprenör, Mariefred
+C|9992|55|K|Ann Larson|kommunikatör, Trosa
+C|9982|31|M|Erik Bengtzboe|riksdagsledamot, Nyköping
+C|10143|61|M|Björn Zetterqvist|lantbrukare, Flen
+C|10144|49|M|Ulf Westerberg|konsult, Eskilstuna
+C|10000|37|M|Christoffer Öqvist|inköpare, Katrineholm
+C|10146|50|K|Marika Björkdal|sjuksköterska, Vingåker
+C|10147|60|M|Kjell Ericson|lantbrukare, Nyköping
+C|10148|66|K|Ann Berglund|socionom, Eskilstuna
+C|9984|42|K|Ann-Sofie Lifvenhage|kommunalråd, Gnesta
+C|9996|64|K|Ursula Falkringe|tandläkare, Mariefred
+C|10002|64|M|Michael Swedberg|fil dr, Trosa
+C|10011|20|M|Marko Biscevic|studerande, Eskilstuna
+C|10153|44|M|Per Fermvik|undervisningsråd, Jönåker
+C|10154|67|K|Birgitta Carlheim-Gyllensköld|barnmorska, Katrineholm
+C|10155|66|K|Lotta Egeland|distriktssköterska, Vingåker
+C|9994|63|M|Dag Bergentoft|oppositionsråd, Oxelösund
+C|10001|50|K|Madeléne Tannarp|teamledare, Eskilstuna
+C|10158|38|M|Vasil Pema|distriktsläkare, Gnesta
+C|10159|33|M|Martin Kildén Smith|sociolog, Nyköping
+C|10160|60|K|Lena Isoz|sjuksköterska, Trosa
+C|9997|32|K|Klara Olander|kvalitetscontroller, Nyköping
+C|10162|41|K|Rebecka Sahlman|barnmorska, Gnesta
+C|10163|52|K|Susanne Henning Aihonen|marknadsförare, Eskilstuna
+C|10164|63|M|Jan Heiniö|ekonom, Mariefred
+C|10165|47|K|Madelaine Clason Laxmi|egenföretagare, Nyköping
+C|10166|43|M|Tomas Jönsson|civilekonom, Husby-Rekarne
+C|10010|41|M|Mattias Eldros|konsult, Gnesta
+C|10168|61|K|Anniola Nilsson|restauratör, Nävekvarn
+C|10169|52|M|Rafal Wisniewski|biobanksansvarig, Eskilstuna
+C|10170|72|M|Zeth Nyström|coach/mentor, Trosa
+C|10171|68|K|Majvor Gyllhamn|skolledare, Eskilstuna
+C|10172|47|M|Fredrik Andersson|förstelärare, Vingåker
+C|10173|50|M|Tommy Jonsson|civilingenjör, Vrena
+C|10174|36|M|Robin Karlsson|systemutvecklare, Strängnäs
+C|10175|71|K|Inger Sjulsson|lärare, Nyköping
+C|10176|61|M|Astor Pettersson|projektledare, Gnesta
+C|10015|20|M|Stefan Biscevic|studerande, Eskilstuna
+C|10179|64|M|Johan Schenström|civilekonom, Nyköping
+C|10004|50|M|David Dishart|molekylärbiolog, Eskilstuna
+C|10181|66|K|Eva Skansgård|koordinator, Trosa
+C|10182|52|M|Johan Stenberg|mekaniker, Nyköping
+C|10183|38|M|Magnus Eriksson|entreprenör, Eskilstuna
+C|10006|53|M|Ismaail Mahamed Mahamuud|ekonom, Katrineholm
+C|9988|25|M|Robin Tannarp|studerande, Eskilstuna
+C|10186|40|M|Oscar Dieden|lantbrukare, Katrineholm
+C|32703|32|M|Anton Berglund|Politisk gruppledare, Eskilstuna
+C|32704|47|M|Mica Vemic|SM&T Leader, Katrineholm
+C|8043|58|M|Björn Karlsson|Brandtekniker, Strängnäs
+C|32706|29|M|Kim Fredriksson|Oppositionsråd, Eskilstuna
+C|32707|78|M|Bertil Malmberg|78 år, F.d. Kommendörkapten
+C|23648|42|K|Pernilla Rydberg|42 år, Laboratorietekniker
+C|16087|28|K|Jannike Zetterman|28 år, Ämneshanterare
+C|32711|62|M|Lars-Göran Karlsson|62 år, Maskinförare
+C|32712|49|K|Pernilla Eriksson|49 år, Undersköterska
+C|32713|49|M|Mikael Nygren|Gymnasielärare, Eskilstuna
+C|8046|70|K|Maud Richthoff|70 år, Farmaceut
+C|16063|39|K|Malin Karlsson|39 år, Yrkeschaufför
+C|32716|42|K|Caroline Hansson|42 år, Distriktssköterska
+C|32717|49|M|Lars Bohlin|49 år, Egenföretagare
+C|8048|41|K|Åsa Hammare|41 år, Medicinsk sekreterare
+C|16089|43|K|Dagmara Mandrela|43 år, Sjuksköterska
+C|32720|59|K|Louise Karlsson|59 år, Undersköterska
+C|32721|43|K|Christine Hallinder|43 år, Administratör
+C|8049|43|K|Rose- Marie Söderlund|43 år, Ekonomiansvarig
+C|83306|35|K|Lisa Persson|35 år, Undersköterska
+C|59124|49|K|Carola Sunesson|49 år, Sekreterare
+C|16062|44|M|Thom Zetterström|44 år, Ombudsman
+C|16065|56|M|Anders Eberhardt|56 år, Kriminalvårdare
+C|59112|54|K|Anita Nygren|54 år, Ekonomiassistent
+C|16086|70|M|Jan-Eric Eriksson|70 år, Sjökapten
+C|59111|40|M|Seppo Vuolteenaho|Politisk sekreterare, Eskilstuna
+C|16069|50|K|Isabel Gustavsson|50 år, Anestesi sjuksköterska
+C|59127|46|K|Susanne Bergqvist|46 år, Tjänsteman
+C|8053|39|M|Lenny Söderlund|39 år, Egenföretagare
+C|67307|73|M|Göte Nilsson|73 år, Arbetsledare
+C|82769|74|M|Jan-Åke Asp|73 år, Musiker
+C|59119|47|K|Charlott Elf|47 år, Personalchef
+C|83319|58|M|Stefan Stridh|58 år, Mobilkransförare
+C|8045|43|M|Jan Kihlstenius|43 år, Verksamhetschef
+C|59118|49|K|Carina Åkeson|49 år, Produktionsplanerare
+C|59132|65|K|Aila Kangas|65 år, Socionom
+C|59123|43|M|Stefan Bergqvist|43 år, Egenföretagare
+C|59128|19|M|Simon Lindbäck|19 år, Studerande
+C|59110|29|K|Elin Blomberg|Redovisningsekonom, Eskilstuna
+C|82766|30|M|Filip Lindahl|Underhållstekniker, Katrineholm
+C|59122|49|M|Peter Laufer|49 år, Målare
+C|59126|43|M|Rikard Branting|43 år, Egenföretagare
+C|8054|44|M|Gunnar Hammare|44 år, Besiktningsingenjör
+C|83330|45|K|Camilla Granström Berard|45 år, Waldorfförskollärare
+C|59129|48|K|Susanne Östling|48 år, Företagare
+C|59121|44|M|Fredrik Elf|Supporttekniker, Eskilstuna
+C|8050|49|M|Finn Stavsbo|49 år, Vakt
+C|59114|38|M|Mikael Strömberg|38 år, Copywriter
+C|67308|49|M|Johan Hallinder|49 år, Yrkeslärare
+C|59133|58|M|Michael Wilhemsson|58 år, Projektledare
+C|83337|60|M|Bengt Nilsson|60 år, Konsult
+C|8051|73|M|Lars Strengnell|73 år, f.d. Datakonsult
+C|8052|60|M|Lennart Eriksson|60 år, Systemingenjör
+C|59135|61|K|Ann-Cathrine Kaup|61 år, Pensionär
+C|8057|42|M|Niclas Hörstam|42 år, Boendestödjare
+C|67316|42|K|Sara Johansson|42 år, Undersköterska
+C|23650|48|M|Tomas Ingberg|48 år, Byggentreprenör
+C|16064|54|M|Ulf Hansen|54 år, Egenföretagare
+C|83345|59|K|Ann-Sophie Nygren|59 år, Säljare
+C|83346|42|M|Fredrik Jonasson|42 år, Yrkeschaufför
+C|8058|45|K|Annica Lindholm|45 år, Undersköterska
+C|16078|31|M|Hans Österberg|30 år, Strålskyddsingenjör
+C|82768|55|M|Jan Lilja|55 år, Företagare
+C|83350|53|M|Mirko Pansera|53 år, Behandlingsassistent
+C|83351|36|K|Sofie Eklöf|36 år, Bygglovshandläggare
+C|16090|70|K|Ulla Hulkko|70 år, Pensionär
+C|16072|51|K|Eva Källström|51 år, Barnskötare
+C|83354|35|K|Maria Richthoff|35 år, Affärsutvecklare
+C|16067|42|K|Marianne Sohlman Zetterström|42 år, Undersköterska
+C|66147|46|M|Jonas Lindeberg|Läkare
+C|66148|46|K|Lorena Ramos|Undersköterska
+C|66149|50|M|Tomas Borin|Musikunderhållare
+C|66150|29|K|Fatima Jaber|Barnmorska
+C|66151|75|M|Lars Göran Jakobsson|Pensionerad ingenjör
+C|66152|47|K|Madeleine Forsberg|Läkare
+C|66153|54|M|Peter Hardö|Entreprenör
+C|66154|45|K|Veronica Duàn|Undersköterska
+C|66155|67|M|Rolf Eriksson|Pensionerad tjänsteman
+C|66156|57|K|Susanne Karlsson|Specialistsjuksköterska
+C|66157|69|M|Jan Callh|Pensionerad banktjänsteman
+C|66158|34|K|Sofie Holstein|Elevassistent
+C|66159|35|M|Tobias Eriksson|Specialistsjuksköterska
+C|66160|50|K|Louise Wiklund|Specialistsjuksköterska
+C|66161|70|M|Jan Norberg|Hantverkare
+C|66162|57|K|Kirsi Fransson|Rehabkoordinator
+C|66163|76|M|Lennart Svensson|Egenföretagare
+C|66164|58|K|Madeleine Andersson|Undersköterska
+C|66165|70|M|Hans Ljungkvist|Pensionerad ingenjör
+C|66166|61|K|Mona Ström|Specialistsjuksköterska
+C|66167|82|M|Carl-Gustaf Wennerholm|Pensionerad näringslivsman
+C|66168|47|K|Gunilla Ogenborg|Sjuksköterska
+C|66169|74|M|Bengt-Erik Karlsson|Pensionerad tjänsteman
+C|66170|49|K|Christina Arnstad|Barnskötare
+C|66171|71|M|Bo Jörstål|Pensionerad lärare
+C|66172|50|K|Anneli Kastås|Egenföretagare
+C|66173|71|M|Mats Ottoson|Pensionerad egenföretagare
+C|66174|65|K|Ylva Lyander|Sjuksköterska
+C|66175|46|K|Jenny Osanius|Sjuksköterska
+C|66176|33|M|Conny Karlsson|Läkare
+C|66177|72|K|Else-Britt Spångberg|Pensionerad barnmorska
+C|66178|36|M|Andreas Pihl|Läkare
+C|66179|56|K|Anneli Eriksson|Undersköterska
+C|66180|46|M|Andreas Kviby|Programmerare
+C|66181|53|K|Sara Englund|Egenföretagare
+C|66182|36|M|Augustin Chilian|Finsnickare
+C|66183|57|K|Susanne Lagnesten Cederin|Undersköterska
+C|66184|76|M|Krister Spångvall|Arkitekt
+C|66185|55|K|Katrin Erneby|Undersköterska
+C|66186|34|M|Petter Winblad von Walter|Sjuksköterska
+C|66187|80|K|Gunilla Wennerholm|Pensionerad fysioterapeut
+C|66188|78|M|Stig Söderström|Pensionerad ingenjör
+C|66189|48|K|Annica Franzén|Sjuksköterska
+C|66190|56|M|Bo Danielsson|Läkare
+C|66191|69|K|Karin Sköld|Pensionerad medicinsk sekreterare
+C|66192|68|M|Peter Lindvall|Pensionerad bilbärgare
+C|66193|47|K|Pia Berg|Egenföretagare
+C|66194|57|M|Staffan Englund|Egenföretagare
+C|66195|56|K|Carolina Kareliusson Ramos|Tjänsteman
+C|12073|52|K|Lotta Back|52, Psykiatrisjuksköterska, Flen
+C|12074|62|M|Tommy Fogelberg|62, Folkhögskollärare, Trosa
+C|12075|51|K|Roja Mahmoudi|51, Undersköterska, Eskilstuna
+C|11416|42|M|Thomas Selig|42, Egenföretagare, Katrineholm
+C|48734|40|K|Elinor Sundén|40, Politisk sekreterare, Nyköping
+C|79420|44|M|David Aronsson|44, Miljöinspektör, Strängnäs
+C|144860|37|K|Linnea Tillman|37, Studerande, Flen
+C|12077|61|M|Jukka Tahkävuori|60, Fordonstekniker, Eskilstuna
+C|12078|39|K|Lotta Sjögren|39, Trafikplanerare, Vingåker
+C|12079|43|M|Patrik Renfors|43, Industrielektriker, Oxelösund
+C|32988|74|K|Solveig Pohjola|74, Socionom, Eskilstuna
+C|12080|22|M|Jesper Karlsson|22, Industriarbetare, Strängnäs
+C|144866|66|K|Eeva Tolvanen|65, Leg. psykolog, Flen
+C|12081|33|M|Johan Sandberg|33, CNC-operatör, Eskilstuna
+C|12082|33|K|Ida Myrbäck|33, Leg. dietist, Eskilstuna
+C|11415|50|M|Tony Rosendahl|50, Ombudsman, Katrineholm
+C|12084|64|K|Märta Bolzek|64, Undersköterska, Vingåker
+C|12085|66|M|Alar Kuutmann|65, Kulturarbetare, Torshälla
+C|12086|62|K|Lotta Johnsson Fornarve|61, Riksdagsledamot, Oxelösund
+C|12087|64|M|Conny Jacobsson|63 Personlig assistent Nyköping
+C|12088|50|K|Ulrika Wirvén|50, Trafiklärare, Nyköping
+C|79423|63|M|Peter Hjukström|63, F.d projektledare, Mariefred
+C|144876|62|K|Eva Ohlsson Westin|62, Skådespelare, Nyköping
+C|32989|40|M|Elias Cataño|40, Facklig tågvärd, Eskilstuna
+C|48728|55|K|Helena Dahlström|55, Undersköterska, Nyköping
+C|144879|45|M|Peter Nilsson|45, Systemförvaltare, Flen
+C|49667|46|K|Ingela Wahlstam|47, Fritidsgårdsföreståndare, Oxelösund
+C|49672|55|K|Victoria Flores|55, Lärare, Oxelösund
+C|12089|46|M|Daniel Lundgren|46, Socialsekreterare, Oxelösund
+C|12090|42|K|Barbara Kreil Öhman|42, Frivårdsinspektör, Strängnäs
+C|79435|59|M|Olle Rådström|59, Kock, Mariefred
+C|12091|53|K|Catarina Hellmark|53, Undersköterska, Strängnäs
+C|12092|66|K|Sandrina Moretti|66, Pensionär, Strängnäs
+C|12093|72|K|Maud Ekman|72, Pensionär, Eskilstuna

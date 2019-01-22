@@ -1,11 +1,261 @@
-2|107573|81362|81377|110271|81371|110273|110274|110275|110276|110277|110278|110279|110280|110281|110282|110283|110284|110285|110286|110287|110288|110289|110290|110291|110292|110293|110294|153689|110295|101160|110297|110298|110299|110300|111314|101156|110302|110303|110304|101140|110306|110307|113206|110308|101145|110309|110310|113211|101149|110312|110313
-4|159098|202272|202273|202274|202275|202276|177551|159099|202279|202280|202281|202282|202283|202284|202285|202286|202287|202288|202289|202290|202291|202292|202293|202294|202295
-532|406488|508161
-68|359914|356890|359923|359919|359921|356900|361357|361358|359920|361360|359922|361362
-1011|164643|164872|164873|164874|164875
-3|53554|53742|66756|66757|66758|66759|66760|66761|66762|66763|66765|66766|66767|188077|66769|66770|66771
-55|382658|384626|384627|384628|382656|384630|384631|382643|384633|384634|382660|384636|384615|384638|384617|384640|384641|384642|384643|384644|384645|384646|384647|384648|383001
-1|133920|133921|133922|133528|133537|133925|133926|133927|133928|133542|133930|133931|133932|133554|133566|133935|133936|133937|133938|133939|133940|133941|133943|133944|133945|133946|133947|133948|133949|133950|133951|133952|133953|133954|133955|133956
-1143|130808|137249|137250|137251|137252|137253|137254|137255|137256|130870|137258|137259|137260|137261|137262|137263|137264|137265|130871|137267|137268|137269|137270|137271|137272|137273
-110|138030|138031|138032|138033|138034|138035|138036|138037|138038|138039|138040|138041|138042|138043|138044|138045|138046|138047|442518|138049|138050|138052|138053|138054|138055
-5|385653|385654|385655|385656|385657|385658|385659|385660|385661|385662|385663|385664|385665|385666
+T|Enköping
+A|2|107573|81362|81377|110271|81371|110273|110274|110275|110276|110277|110278|110279|110280|110281|110282|110283|110284|110285|110286|110287|110288|110289|110290|110291|110292|110293|110294|153689|110295|101160|110297|110298|110299|110300|111314|101156|110302|110303|110304|101140|110306|110307|113206|110308|101145|110309|110310|113211|101149|110312|110313
+A|4|159098|202272|202273|202274|202275|202276|177551|159099|202279|202280|202281|202282|202283|202284|202285|202286|202287|202288|202289|202290|202291|202292|202293|202294|202295
+A|532|406488|508161
+A|68|359914|356890|359923|359919|359921|356900|361357|361358|359920|361360|359922|361362
+A|1011|164643|164872|164873|164874|164875
+A|3|53554|53742|66756|66757|66758|66759|66760|66761|66762|66763|66765|66766|66767|188077|66769|66770|66771
+A|55|382658|384626|384627|384628|382656|384630|384631|382643|384633|384634|382660|384636|384615|384638|384617|384640|384641|384642|384643|384644|384645|384646|384647|384648|383001
+A|1|133920|133921|133922|133528|133537|133925|133926|133927|133928|133542|133930|133931|133932|133554|133566|133935|133936|133937|133938|133939|133940|133941|133943|133944|133945|133946|133947|133948|133949|133950|133951|133952|133953|133954|133955|133956
+A|1143|130808|137249|137250|137251|137252|137253|137254|137255|137256|130870|137258|137259|137260|137261|137262|137263|137264|137265|130871|137267|137268|137269|137270|137271|137272|137273
+A|110|138030|138031|138032|138033|138034|138035|138036|138037|138038|138039|138040|138041|138042|138043|138044|138045|138046|138047|442518|138049|138050|138052|138053|138054|138055
+A|5|385653|385654|385655|385656|385657|385658|385659|385660|385661|385662|385663|385664|385665|385666
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1143|NE|Nystart Enköping (NE)
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|107573|46|K|Helena Proos|46 år, Finanskommunalråd
+C|81362|26|M|Jesper Englundh|26 år, Arbetsanpassare, Enköping
+C|81377|31|K|Linda Johansson|31 år, Student, Enköping
+C|110271|56|M|Matz Keijser|56 år, Pedagogassistent
+C|81371|68|K|Solweig Sundblad|68 år, Pensionär, Enköping
+C|110273|64|M|Sverre Ahlbom|64 år, Förhandlingspedagog
+C|110274|33|K|Sabina Lindberg|32 år, Specialistofficer
+C|110275|29|M|Ali Kassim|29 år, Advokat
+C|110276|76|K|Solweig Eklund|76 år, F.d. Högskolelärare
+C|110277|71|M|Hasse Olsson|70 år, Byggnadsarbetare
+C|110278|36|K|Maria Bakas|36 år, Egen företagare/Redovisningskonsult
+C|110279|80|M|Rolf Carlsson|80 år, F.d. Skolchef
+C|110280|47|K|Åsa Andersson|47 år, Stödassistent
+C|110281|59|M|Sven Jansson|59 år, Rådgivare
+C|110282|53|K|Marié Karlström|53 år, Förskolelärare
+C|110283|44|M|Alija Abdi|44 år, Sociolog/Lärare i Sociologi
+C|110284|52|K|Katri Karlsson|52 år, Behandlingsassistent/Bolots
+C|110285|28|M|Robin Wesche|28 år, Industriarbetare
+C|110286|58|K|Anna-Lena Bäckwall|58 år, Samverkansstrateg
+C|110287|49|M|Johan Engwall|49 år, Egen företagare
+C|110288|63|K|Ros-Marie Bålöw|63 år, Kemist
+C|110289|40|M|Markus Lappi|40 år, Fastighetstekniker
+C|110290|72|K|Marie Ekberg|72 år, Utbildningsanordnare
+C|110291|78|M|Polychronis Polychronopoulos|78 år, Pensionär
+C|110292|38|K|Sari Martikainen|38 år, Värdetransportör
+C|110293|40|M|Prudence Irakoze|40 år, Busschaufför
+C|110294|56|K|Susanne Brofall|56 år, USK med psykiatrisk inrik
+C|153689|19|M|Yahia Abdirahman|19 år, Studerande
+C|110295|68|K|Laila Berglind|68 år, Pensionär
+C|101160|63|M|Erik Boman|63 år, Politisk sekreterare, Enköping
+C|110297|69|K|Marianne van Aller|69 år, F.d. behandlingsassistent
+C|110298|44|M|Pasi Ryynänen|44 år, Lagerarbetare
+C|110299|59|K|Ann Bakas|59 år, Redovisningsassistent
+C|110300|47|M|Mats Neselius|47 år, Besiktningsman
+C|111314|61|K|Anette Lindgren|61 år, Lokalvårdare
+C|101156|67|M|Torbjörn Andersson|67 år, Pensionär, Enköping
+C|110302|67|K|Gerd Sköldestig|67 år, Pensionär
+C|110303|68|M|Christer Toresäter|68 år, Dagledig
+C|110304|47|K|Marika Englundh|47 år, Husmor
+C|101140|22|M|Dabin Zarar|22 år, Supporttekniker, Enköping
+C|110306|38|K|Charlotte Ruckl|38 år, Fotograf
+C|110307|71|M|Christer Holm|71 år, Pensionär
+C|113206|37|K|Madeleine Lahti|37 år, Lärare
+C|110308|46|M|Joul Touma|46 år, Kulturassistent
+C|101145|74|K|Sigbritt Dahlberg|74 år, Pensionär, Enköping
+C|110309|54|M|Peter Ekström|54 år, Företagsledare
+C|110310|62|K|Ann-Cathrine Lövling|62 år, Handläggare
+C|113211|43|M|Rickard Sköldestig|43 år, Murare
+C|101149|65|K|Åsa Näs-Ahlbom|65 år, Pensionär, Örsundsbro
+C|110312|51|M|Tomas Hellsberg|51 år, Ombudsman
+C|110313|68|K|Ylva Jansson Grafling|68 år, Pensionär
+C|159098|46|K|Ulrika Ornbrant|46 år, lärare, Enköping
+C|202272|57|K|Elisabeth Norman|56 år, samhällsbyggare, Örsundsbro
+C|202273|29|K|Rebecka Lindström|28 år, agronom, Torstuna
+C|202274|43|M|Urban Wahlberg|42 år, flygkapten, Enköping
+C|202275|67|M|Jan Fredriksson|67 år, lantbrukare, Fjärdhundra
+C|202276|51|K|Susanna Gerhard|51 år, sjuksköterska, Frösthult, Gästre
+C|177551|68|K|Monica Hallgren|67 år, äldrepedagog, Enköping
+C|159099|46|M|Magnus Hellmark|46 år, IT-strateg, Enköping
+C|202279|51|M|Lars Olsson|51 år, departementsråd, Enköping
+C|202280|74|M|Lars-Olof Legnerfält|74 år, bonde, Fjärdhundra
+C|202281|56|K|Helena Jansson|56 år, rektor, Fjärdhundra
+C|202282|24|M|Oscar Parra Lopez|23 år, badvakt, Enköping
+C|202283|53|M|Samer Al Tabbaa|53 år, tekniker, Enköping
+C|202284|32|K|Amanda Florin|32 år, pressekreterare, Hacksta-Grillby
+C|202285|66|M|Göran Lacksell|65 år, bildpedagog, Grillby
+C|202286|49|K|Mona Örjes|49 år, förbundsordförande, Enköping
+C|202287|50|M|Mats Lundqvist|50 år, bonde, Fjärdhundra
+C|202288|67|K|Irene Löthegård|66 år, aktiv senior, Enköping
+C|202289|63|M|Erik Göthberg|63 år, vaktmästare, Enköping
+C|202290|73|K|Elisabeth Bodin|71 år, kokerska, Örsundsbro
+C|202291|40|M|Ahmed Ali|40 år, bussförare, Enköping
+C|202292|53|M|Tom Stråle|52 år, innovatör, Enköping
+C|202293|37|K|Anna Sager|36 år, ekonom, Fjärdhundra
+C|202294|67|M|Christer Löthegård|66 år, pensionär, Enköping
+C|202295|57|K|Anna-Karin Wetterström|57 år, beteendevetare, Enköping
+C|406488|34|M|Mikael Waldenmark|35 år, Egenföretagare
+C|508161|52|K|Anne Lenke|52 år, Gymnasielärare, Veckholm
+C|359914|74|M|Bo Reinholdsson|73, fd Rektor FHS, Enköping
+C|356890|44|M|Henrik Lindberg|43, Officer, Enköping
+C|359923|51|K|Kristina Eriksson|51, Lärare, Enköping
+C|359919|73|M|Heikki Tiitinen|73, fd Kvalitetschef, Enköping
+C|359921|63|M|Ulf Lundgren|62, Ingenjör, Enköping
+C|356900|19|M|Kevin Andersson|18, Studerande, Örsundsbro
+C|361357|55|M|Mikael Holmberg|54,, Enköping
+C|361358|45|K|Anna Karin Bye|45, Sjuksköterska, Enköping
+C|359920|59|K|Lisa Walén|58, Egen företagare, Enköping
+C|361360|69|K|Marja-Leena Tiitinen|68, Förskolelärare, Enköping
+C|359922|70|M|Roland Wallhuss|69, Skolledare, Grillby
+C|361362|75|M|Arne Nordfors|74, Lantbrukare, Enköping
+C|164643|52|M|Claes Eningsjö|Lantbruksföretagare, Enköping
+C|164872|50|K|Carine Millberg|50 år, Lokalvårdare, Boglösa
+C|164873|43|K|Erika Sjöberg|Egenföretagare, Uppsala
+C|164874|27|M|Björn Jakobsson|27 år, Maskinförare, Boglösa
+C|164875|44|K|Helena Wanné|Enhetschef Privat vårdftg., Enköping
+C|53554|41|K|Jenny Gavelin|statsvetare, Enköping, 41 år
+C|53742|48|K|Katarina Zeste|gymnasielärare, Enköping, 48 år
+C|66756|29|K|Amanda Forsberg|studerande, 29 år
+C|66757|23|M|Husein Vilic|studerande, 23 år
+C|66758|62|K|Inger Bertilsdotter|sjuksköterska, 62 år
+C|66759|64|M|Svante Forslund|integratör, 64 år
+C|66760|39|M|Salar Abed Morad|elevassistent/fritidsledare, 39 år
+C|66761|76|M|Stig Forshult|kemist, 76 år
+C|66762|72|M|Börje Isaksson|pensionär, tidigare lärare, 72 år
+C|66763|83|K|Anita Levander Dahrné|socionom, 83 år
+C|66765|44|M|Nino Uremovic|systemingenjör, 44 år
+C|66766|51|K|Minna Thunberg|handläggare, 51 år
+C|66767|36|K|Hanna Clefberg Brauer|specialpedagog, 36 år
+C|188077|67|K|Nina Hedenlund|pensionär, 67 år
+C|66769|69|M|Olle Lundberg|marknadsförare, 69 år
+C|66770|55|M|Håkan Mattsson|ingenjör, 55 år
+C|66771|83|K|Barbro Sandberg|pensionär, 83 år
+C|382658|68|M|Kenneth Hällbom|Fd. förskollärare, 68 år, Enköping
+C|384626|52|K|Susanne Fridh|Mjukvarutestare, Ekolsund
+C|384627|61|M|Tomas Rådkvist|Agronom, Veckholm
+C|384628|39|K|Soroor Moetazed|Modersmålslärare, Enköping
+C|382656|66|M|Georg Olsson|Lärare, 66 år, Enköping
+C|384630|62|K|Helena Andersson|Enhetschef, Enköping
+C|384631|67|M|Lars-Erik Skoglund|Systemvetare, Långtora
+C|382643|63|K|Gunnel Bergman|Kantor, 63 år, Enköping
+C|384633|42|M|Magnus Westerlund|Handläggare, Gröngarn
+C|384634|43|K|Åsa Tinnerholm|Verksamhetsledare, Hallarby
+C|382660|70|M|Tomas Lagerwall|Fd. generalsekreterare, 70 år, Enköping
+C|384636|79|K|Ulla Mellqvist|Pensionär, Svinnegarn
+C|384615|33|M|Nils Forssell|Administrativ handläggare, 33 år, Enköping
+C|384638|38|K|Nina Fritjofsson|Sjuksköterska, Svinnegarn
+C|384617|79|M|Dan Larsson|Författare, 79 år, Veckholm
+C|384640|71|K|Katarina Wall|Fd. fastighetsmäklare, Torstuna
+C|384641|77|K|Elisabeth Widstrand|Fil kand, Enköping
+C|384642|77|M|Rolf Ihrsén|Biodlarbonde, Sparrsätra
+C|384643|67|K|Agneta Willey|Speciallärare, Örsundsbro
+C|384644|72|M|Thord Andersson|Fd beteendevetare, Örsundsbro
+C|384645|43|K|Frida Rehn Drugge|Ombudsman, Enköping
+C|384646|85|M|Sune Säll|Skogsmästare, Enköping
+C|384647|52|K|Suzanne Juhlin|Trädgårdsarbetare, Enköping
+C|384648|53|M|Godefroid Ndayikengurukiye|GIS-ingenjör, Hummelsta
+C|383001|64|K|Annika Forssell|Studie- och yrkesvägledare, 64 år, Enköping
+C|133920|53|M|Ingvar Smedlund|53 år, Oppositionsråd , Enköping
+C|133921|69|K|Bitte Myrsell|69 år, Sjuksköterska, Grillby
+C|133922|63|M|Mats Flodin|63 år, IT-strateg, Boglösa
+C|133528|64|K|Monica Avås|64 år, Kvalitetssamordnare, Enköping
+C|133537|54|M|Peter Book|54 år, Utvecklingschef, Enköping
+C|133925|39|K|Viveca Räim|39 år, Enhetschef, Enköping
+C|133926|27|M|Oscar Widman|27 år, Fritidsledare, Enköping
+C|133927|48|K|Runa Larsson|48 år, Civilekonom, Fjärdhundra
+C|133928|18|M|Samuel Liljestrand|18 år, Studerande, Enköping
+C|133542|67|K|Yvonne Bromée|67 år, Sjuksköterska, Enköping
+C|133930|55|M|Magnus Johansson|55 år, Officer, Enköping
+C|133931|52|M|Christer Nyström|52 år, Officer, Enköping
+C|133932|41|K|Pernilla Åström|41 år, Företagare, Enköping
+C|133554|69|M|Staffan Karlsson|69 år, Projektledare, Enköping
+C|133566|33|K|Eleonora Stålenhag|33 år, Student, Enköping
+C|133935|50|M|Johan Westermark|50 år, Byggnadsingenjör, Örsundsbro
+C|133936|21|K|Märta Wässman|21 år, Student, Tillinge
+C|133937|54|M|Mats Jacobson|54 år, Civilekonom, Enköping
+C|133938|59|K|Margareta S:T Cyr|59 år, Fd lärare, Enköping
+C|133939|61|M|Robert Haijlen|61 år, Företagare, Örsundsbro
+C|133940|60|M|Krister Larsson|60 år, Officer, Enköping
+C|133941|80|K|Ritva Sunnanå-Ericson|80 år, fd Lärare, Härnevi
+C|133943|72|M|Jan Hannebo|72 år, Pensionär, Veckholm
+C|133944|54|M|Vassilios Ikonomidis|54 år, Civilekonom, Enköping
+C|133945|59|M|Stefan Forslund|59 år, Lastbilschaufför, Enköping
+C|133946|26|K|Madelene Hellström|26 år, Förskollärare, Enköping
+C|133947|18|M|Lucas Rörström|18 år, Studerande, Tillinge
+C|133948|68|M|Wilhelm Reuterswärd|68 år, Civilekonom, Grillby
+C|133949|51|M|Stefan Wahlund|51 år, Bygg- och projektledare , Enköping
+C|133950|76|K|Anita Ahlström|76 år, Socionom, Boglösa
+C|133951|38|M|Martin Jinnestrand|38 år, IT-säkerhetsexpert, Enköping
+C|133952|36|M|David Ringius|36 år, Ingenjör, Sparrsätra
+C|133953|46|K|Andréa Edwertz|46 år, Krönikör, Enköping
+C|133954|56|M|Peter Skansfelt|56 år, Brandman, Enköping
+C|133955|51|M|Måns Vilhelmsson|51 år, Platschef, Enköping
+C|133956|64|K|Inger Fjellner|64 år, Civilekonom, Enköping
+C|130808|59|M|Anders Wikman|59 år, kommunalråd, Fanna
+C|137249|69|M|Ingvar Magnusson|69 år, konsult, Bredsand
+C|137250|58|K|Agneta von Schoting|58 år, socialchef, Teda
+C|137251|72|M|Johnny Karlsson|72 år, arkitekt, Bergvreten
+C|137252|43|M|Kim Jämsä|43 år, IT-strateg, Örsundsbro
+C|137253|69|K|Agneta Malmgren|69 år, ekonom, Tillinge
+C|137254|43|M|Mikael Ågren|43 år, IT-konsult, Enköpings centrum
+C|137255|70|M|Martin Ancons|70 år, proj.manager, Enköpings centrum
+C|137256|64|M|Fred Raghall|64 år, terapeut, Fanna
+C|130870|25|M|Philip Vikman|25 år, studerande, Fanna
+C|137258|65|K|Karin Fjällström|65 år, leg.psykolog, Enköpings centrum
+C|137259|62|M|Thomas Ekblom|62 år, logistiker, Bergvreten
+C|137260|59|K|Tuija Rönnback|59 år, chef, Fanna
+C|137261|79|M|Björn Berg|79 år, ingenjör, Fanna
+C|137262|69|M|Bo Wannberg|69 år, pedagog, Enköpings centrum
+C|137263|71|M|Tord Enström|71 år, yrkeslärare, Härnevi
+C|137264|40|M|Per-Anders Staav|40 år, systemutvecklare, Gånsta
+C|137265|55|M|Håkan Odenring|55 år, företagare, Fanna
+C|130871|25|K|Isabelle Hållén|25 år, leg.fysioterapeut, Fanna
+C|137267|31|K|Emma von Schoting|31 år, stödpedagog, Fanna
+C|137268|30|M|Georgos Rönnback Karras|30 år, PT/fritidsledare, Fanna
+C|137269|71|K|Lena Spong|71 år, lärare, Bredsand
+C|137270|70|K|Anne-Marie Lindström|70 år,företagare,Enköpings centrum
+C|137271|58|K|Margareta Ekblom|58 år, ekonom, Bergvreten
+C|137272|72|K|Monica Håll|71 år, undersköterska, Lillsidan
+C|137273|68|M|Jan Clasénius|68 år, ingenjör, Bergvreten
+C|138030|49|M|Anders Lindén|49, entreprenör, Enköping
+C|138031|65|M|Kristjan Valdimarsson|65, geolog, Enköping
+C|138032|34|M|Joakim Lindholm|Undersköterska, Enköping
+C|138033|30|M|Benjamin Albertsson|30, målare, Enköping
+C|138034|66|M|Lars Frantzén|66, f.d. lantarbetare, Veckholm
+C|138035|53|M|Tommy Henriksson|52, logistikassistent, Enköping
+C|138036|49|K|Anneli Apelholm|49, entreprenör, Enköping
+C|138037|39|M|Peter Ring|39, entreprenör, Enköping
+C|138038|51|K|Angelika Bergfeldt|51, väktare, Sparrsätra
+C|138039|43|M|Mats Pettersson|43, stödassistent, Sparrsätra
+C|138040|66|K|Barbara Ciolek|66, f.d. undersköterska, Tillinge
+C|138041|50|M|Peter Lennvall|50, it-tekniker, Enköping
+C|138042|47|M|Ronny Holmberg|47, besiktningsman, Enköping
+C|138043|43|K|Jessica Lovéus|43, butiksanställd, Enköping
+C|138044|30|M|Fredrick Mistenius|30, drifttekniker, Enköping
+C|138045|45|K|Fredrika Hovberg|45, skogsingenjör, Enköping
+C|138046|65|K|Karin Nilsson|65, hemtjänsten, Fjärdhundra
+C|138047|65|M|Lars Jansson|65, försäljare, Grillby
+C|442518|64|K|Alice Fors Jansson|64, entreprenör, Grillby
+C|138049|59|M|Krister Ström|59, entreprenör, Enköping
+C|138050|57|M|Lars Ljung|57, busschaufför, Enköping
+C|138052|63|M|Rutger Muhr|63, entreprenör, Ekolsund
+C|138053|62|M|Henrik Åberg|62, besiktningsman, Fjärdhundra
+C|138054|26|M|Tomaz Muhr|26, student, Ekolsund
+C|138055|66|M|Christer Alexandersson|66, f.d. plåtslagare, Enköping
+C|385653|73|K|Britta Dalved|73, pensionerad lärare, Enköping
+C|385654|42|M|Magnus Ahlkvist|42, IT-konsult/egenföretagare, Enköping
+C|385655|31|K|Veronica Liljeberg|31, studerande, Enköping
+C|385656|39|M|Tor-Björn Mattsson|38, verkstadschef, Enköping
+C|385657|59|K|Anneli Porsaeus|58, ledsagare, Enköping
+C|385658|62|M|Lawrence Bishop|61, framtidsforskare/uppfinnare, Enköping
+C|385659|77|K|Monika Åberg|77, pensionär/f d teknikinformatör, Enköping
+C|385660|43|M|Neil Ormerod|43, kursadministratör, Enköping
+C|385661|62|K|Gunilla Jangard|62, socionom, Hummelsta
+C|385662|51|M|Fredrik Jeppsson|51, förtidspensionär, Enköping
+C|385663|71|K|Margareta Bengs Burmeister|71, pensionär, Enköping
+C|385664|71|M|Dietrich Burmeister|71, pensionär, Enköping
+C|385665|39|M|David Jenssen Bergkvist|39, kulturarbetare, Enköping
+C|385666|74|M|Björn Engberg|pensionär/trädgårdsarbetare, Enköping

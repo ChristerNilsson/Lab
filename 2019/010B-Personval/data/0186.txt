@@ -1,10 +1,263 @@
-2|97082|147962|147963|147964|97088|147966|147967|97093|147969|148262|147970|147971|147972|147973|147974|147975|147976|97101|147978|147979|147980|147981|147982|147983|147984|147985|147986|147987|147988|147989|147990|147991|147992|147993|147994|147995|147996|147997|147998|147999|148000|148001|148002|148003|70615|148005|148006|148007|148008|148009|148010
-4|76914|86911|86917|110742|110743|110744|86923|110746|110747|110748|110749|110750|86920|110752|110753|110754|110755|110756|110757|110758|110759|110761|110762|86926|110764|110765|110766|110767|110768|110769|110770|110771|110772|110773|110774|110775|76909
-1150|515775
-68|162861|162862|162863|162864|162865|162866|162867|162868|162869|162870|162871|162872|162873|162874|162875|162876|162877|162878|162879|162880|162881|162882|162883|162884
-3|49187|290234|293433|293437|349824|349825|349826|293430|349828|293441|349830|264802|349832|349833|349834|349835|349836|349837|349838|349839|349840|349841|349842|349843|349844|293447|293449|349847|49149|293443
-19|219917|40170|219919|219920|219921|219922|219923|219924|219925|219926|219927|219928|219929|219930|219931|219932|219933|219934|219935|219936|219937|219938|219939|219940|219941|219942|219943|219944|219945|219946
-55|249259|249272|335293|335294|335295|335296|335297|335298|335299|335300|335301|335302|335303|335304
-1|13038|13039|13040|13041|12805|13043|12807|13045|13046|13047|13048|13049|13050|13051|12788|13053|13054|13055|13056|13057|13058|13059|13060|13061|13062|13063|13064|13065|13066|13067|13069|13070|13071|13072|13073|13074|13075|13076|13077|13078|13079|13081
-110|150489|150492|150499|166472|166473|150530|166475|166476
-5|183771|183772|183773|183774|183775|183776|183777
+T|Lidingö
+A|2|97082|147962|147963|147964|97088|147966|147967|97093|147969|148262|147970|147971|147972|147973|147974|147975|147976|97101|147978|147979|147980|147981|147982|147983|147984|147985|147986|147987|147988|147989|147990|147991|147992|147993|147994|147995|147996|147997|147998|147999|148000|148001|148002|148003|70615|148005|148006|148007|148008|148009|148010
+A|4|76914|86911|86917|110742|110743|110744|86923|110746|110747|110748|110749|110750|86920|110752|110753|110754|110755|110756|110757|110758|110759|110761|110762|86926|110764|110765|110766|110767|110768|110769|110770|110771|110772|110773|110774|110775|76909
+A|1150|515775
+A|68|162861|162862|162863|162864|162865|162866|162867|162868|162869|162870|162871|162872|162873|162874|162875|162876|162877|162878|162879|162880|162881|162882|162883|162884
+A|3|49187|290234|293433|293437|349824|349825|349826|293430|349828|293441|349830|264802|349832|349833|349834|349835|349836|349837|349838|349839|349840|349841|349842|349843|349844|293447|293449|349847|49149|293443
+A|19|219917|40170|219919|219920|219921|219922|219923|219924|219925|219926|219927|219928|219929|219930|219931|219932|219933|219934|219935|219936|219937|219938|219939|219940|219941|219942|219943|219944|219945|219946
+A|55|249259|249272|335293|335294|335295|335296|335297|335298|335299|335300|335301|335302|335303|335304
+A|1|13038|13039|13040|13041|12805|13043|12807|13045|13046|13047|13048|13049|13050|13051|12788|13053|13054|13055|13057|13058|13059|13060|13061|13062|13063|13064|13065|13066|13067|13069|13070|13071|13072|13073|13074|13075|13076|13077|13078|13079|13081
+A|110|150489|150492|150499|166472|166473|150530|166475
+A|5|183771|183772|183773|183774|183775|183776|183777
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|19|LP|Lidingöpartiet
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|97082|50|M|Daniel Larson|50, Rehabassistent, Lidingö
+C|147962|62|K|Ewa Lantz|62, Verksamhetschef, Skärsätra
+C|147963|52|M|Niclas Svensson|52, Journalist, Lidingö Centrum
+C|147964|59|K|Gill Lindroos|59, Dietist, Vårdbiträde, Bodal
+C|97088|18|M|Alexander Meier|18, Student, Gåshaga
+C|147966|27|K|Linn Lundberg|27, Socionom, Torsvik
+C|147967|45|M|Anders Håkansson|45, Kyrkogårdsarbetare, Kottla
+C|97093|68|K|Marianne von Döbeln|68, Arbetsmiljöinspektör, Lidingö
+C|147969|40|M|Olof Tahlén|40, Enhetschef, Bergsätra
+C|148262|22|K|Israa Shakir|22, Student, Skärsätra
+C|147970|28|M|Rickard Stenman|28, Jurist, Larsberg
+C|147971|69|K|Malin Olsson|69, Pensionär, Skärsätra
+C|147972|80|M|Kenneth Larsson|80, Pensionär, Högsätra
+C|147973|75|K|Monica Hjerpe|75, Konsumentvägledare, Käppala
+C|147974|79|M|Claudio Crevatin|79, Ekonom, Ombudsman, Brevik
+C|147975|69|K|Ann Christina Tauberman|69, Pensionär, Skärsätra
+C|147976|43|M|Magnus Hallén|43, Handläggare, Dalénum
+C|97101|76|K|Eva Larsson|76, Barnmorska - Vårdlärare, Lidingö
+C|147978|76|M|Olof Tulin|76, Egenföretagare, Pensionär, Larsberg
+C|147979|69|K|Ulla Magnusson|69, Skolbibliotekarie, Herserud
+C|147980|72|M|Birger Eneroth|72, Pensionär, Skärsätra
+C|147981|56|K|Ingalill Hult|56, Polis, Islinge
+C|147982|72|M|Lars Olsson|72, Konsult, Kottla Strand
+C|147983|69|K|Torborg Wärn|69, Seniorkonsult, Skärsätra
+C|147984|76|M|Herje Larsson|76, Pensionär, Näset
+C|147985|56|K|Pia Meier|56, Jurist, Gåshaga
+C|147986|50|M|Usman Abdullahi|50, Kontorschef, Högsätra
+C|147987|23|K|Fatimah Hameed|23, Handläggare, Högsätra
+C|147988|64|M|Anders Lindroos|64, Civilingenjör, Bodal
+C|147989|82|K|May-Britt Tulin|82, Pensionär, Larsberg
+C|147990|73|M|Dag Elmér|73, Pensionär, Näset
+C|147991|36|K|Therese Greci Larson|36, Fritidsledare, Larsberg
+C|147992|59|M|Leo Muhola|59, Egenföretagare, Skärsätra
+C|147993|55|K|Aicha Jegham|55, Lärare, Baggeby
+C|147994|63|M|Terje Carlsson|63, Upphandlare, Stockby
+C|147995|69|K|Viveka Aveberg|69, Lärare, Stockby
+C|147996|71|M|Magnus Boström|71, Pensionär, Skärsätra
+C|147997|74|K|Kicki Nordström|74, Egenföretagare, Pensionär, Skärsätra
+C|147998|87|M|Karl-Ove Sundström|87, Pensionär, Näset
+C|147999|38|K|Elisabeth Ericsson|37, Student, Käppala
+C|148000|71|M|Leif A Nyström|71, Pensionär, Larsberg
+C|148001|67|K|Eva Jessen|67, Pensionär, Bo
+C|148002|70|M|Anders Åberg|70, Lantmätare, Herserud
+C|148003|40|K|Nasrin Turkmani|40, Modersmålslärare, Hersby åker
+C|70615|64|M|Anders Lönnberg|64, Generalkommissarie, Lidingö
+C|148005|66|K|Annie Wikenholm|66, Pensionär, Skärsätra
+C|148006|78|M|Ola Rask|78, fd. Riksdagsledamot, Näset
+C|148007|81|K|Marianne Öberg|81, Pensionär, Bodal
+C|148008|47|K|Biljana Djokic|47, Silviasyster, Högsätra
+C|148009|38|K|Karin Grées|38, Kansliassistent, Näset
+C|148010|80|K|Käte Diederichsen|80, Pensionär, Högsätra
+C|76914|30|M|Patrik Buddgård|30, Lidingö, Leg. gymnasielärare
+C|86911|26|K|Rebecka Öberg|25, Lidingö, Statsvetare
+C|86917|70|M|Tor von Sydow|69, Lidingö, VD
+C|110742|29|K|Kajsa Kronlund|29, Distriktssköterska, Högsätra
+C|110743|77|M|Ulf Weidling|76, Företagare, Skärsätra
+C|110744|74|K|Christina Wahlström|74, Lärare, Killinge
+C|86923|19|K|Caroline von Seth|19, Lidingö, Studerande
+C|110746|64|M|Rolf Hattenbach|64, Besiktnings-/värderingsman, Sticklinge
+C|110747|61|K|Carin Silferhielm Bauer|
+C|110748|46|M|Fredrik Wesslund|45, General Event Manager, Näset
+C|110749|72|M|Kent Björnberg|72, Senior bankman, Hersby
+C|110750|38|M|David Hild|38, Marknadskommunikatör, Brevik
+C|86920|22|M|Julian Kaijser|22, Lidingö, Juriststudent
+C|110752|59|K|Lotta Cavalli-Björkman|58, Fastighetsmäklare, Hersby
+C|110753|42|M|Scott Eric Moore|41, Finanskonsult, Rudboda
+C|110754|60|K|Lotta Morger|60, Fritidspedagog, Kyrkviken
+C|110755|24|M|Emanuel Örtengren|24, Samhällsvetare, Bo
+C|110756|41|K|Caroline Sandblom|41, Civilekonom, Hersby
+C|110757|43|M|Gabor Sebastiani|43, IT-Arkitekt, Rudboda
+C|110758|51|M|Joakim Jarnryd|51, Chef Stockholms Läns Landsting, Högberga
+C|110759|77|K|Lilian Becker|77, Ekonom, Kottla
+C|110761|60|M|Filip Svartengren|60, Golventreprenör, Näset
+C|110762|61|M|Anders Öhrström|61, Ambassadråd, Ekholmsnäs
+C|86926|61|K|Britt-Marie Lindblad|61, Lidingö, Kommunikationskonsult
+C|110764|74|M|Krister Forsberg|73, Ingenjör, Rudboda
+C|110765|46|M|Jan Söderman|46, Civilingenjör, Rudboda
+C|110766|74|K|Maylie Flodmark|74, Pensionär, Skärsätra
+C|110767|84|M|Orvar Blomberg|84, Pensionär, Käppala
+C|110768|65|K|Mona Ryberg|64, Journalist, Torsvik
+C|110769|82|M|Bernt Flodmark|81, Pensionär, Skärsätra
+C|110770|75|K|Margareta Van Den Bosch|75, Designer, Näset
+C|110771|77|M|Per-Olov Zethrin|77, Pensionär, Mosstorp
+C|110772|52|M|Henrik Pontén|52, Jurist, Killinge
+C|110773|61|K|Catharina Håkansson Boman|61, Konsult, Hersby
+C|110774|77|M|Hans Engman|77, Pensionär, Näset
+C|110775|75|M|Magnus Magnusson|75, Präst, Herserud
+C|76909|72|M|Kent Ivarsson|72, Lidingö, Sjukvårdspol.
+C|515775|26|M|Eric Lejon Ekenstedt|
+C|162861|28|M|Carl-Johan Schiller|28, Kommunalråd, Lidingö
+C|162862|74|M|Bo Brismar|74, Docent, Lidingö
+C|162863|73|K|Christina Rosenquist|73, Pensionär, Näset
+C|162864|18|M|Axel Göthberg|18, Student, Lidingö
+C|162865|41|M|Rickard Karlsson|41, Företagare, Torsvik
+C|162866|53|M|Fredrik Ekman|53, Statstjänsteman, Lidingö
+C|162867|28|K|Jessica Schedvin|28, Gymnasielärare, Larsberg
+C|162868|52|M|Harald Strömfelt|52, Företagare, Mosstorp
+C|162869|32|K|Therése Tollstam|32, Chefsjurist, Brevik
+C|162870|60|M|Thor-Björn Schiller|60, Lärare, Kyrkviken
+C|162871|19|M|Karl Brunnberg|19, Studerande, Hersby
+C|162872|26|K|Cornelia Crutze|27, Politisk sekreterare, Mosstorp
+C|162873|69|M|Kjell Lindgren|69, Företagare, Torsvik
+C|162874|37|K|Rebecca Grate|37, Bankanställd, Baggeby
+C|162875|80|K|Gunilla Dyfverman|80, Fil.mag, Skärsätra
+C|162876|18|M|Sebastian Olofsson|18, Studerande, Kottla
+C|162877|41|M|Henrik Kaarme|41, Jur.kand, Torsvik
+C|162878|64|K|Cecilia Versteegh|64, Civ.ek, Kyrkviken
+C|162879|21|M|Adam Corcoran|21, Butiksbiträde, Högsätra
+C|162880|25|M|Jacob Haendler|25, Ekonom, Näset
+C|162881|37|K|Emmeli Lundmark|37, Präst, Torsvik
+C|162882|63|M|Staffan Ringskog|63, Journalist, Hersby
+C|162883|77|M|Hans Henning Christner|77, Pensionär, Näset
+C|162884|80|M|Lennart Rinder|80, Läkare, Bodal
+C|49187|41|K|Amelie Tarschys Ingre|oppositionsråd, Lidingö
+C|290234|77|M|Göran Tegnér|trafikkonsult, Lidingö
+C|293433|63|K|Suzanne Liljegren|ekonom MBA, Lidingö
+C|293437|50|K|Nancy Mattsson|projektutvecklingschef, Lidingö
+C|349824|34|K|Hedwig Kastenholm|34 år, projektledare
+C|349825|45|M|Erik Öberg|45 år, företagare
+C|349826|28|K|Rebecka Hallerby|28 år, kommunikationsstrateg
+C|293430|56|M|Mattias Reinholdson|journalist, Lidingö
+C|349828|50|M|Carl Aschan|49 år, regionchef
+C|293441|42|K|Annika Persson|verksamhetssamordnare, Lidingö
+C|349830|45|M|Jesper Ingre|45 år, civilingenjör
+C|264802|62|M|José Kimenga|jurist, Lidingö
+C|349832|69|M|Bertil Östberg|70 år, VD
+C|349833|60|K|Kersti Johnson|60 år, administratör
+C|349834|27|M|Adam Alfredsson|27 år, pressekreterare
+C|349835|65|M|Lars Bolin|65 år, pensionär
+C|349836|76|K|Hildegard Keijer|75 år, leg sjuksköterska
+C|349837|21|K|Ebba Mattsson|21 år, politisk sekreterare
+C|349838|38|M|Alexander Alsén|38 år, lärare
+C|349839|69|K|Anna Poring|69 år, leg tandläkare
+C|349840|82|M|Bengt G Nilsson|81 år, jur kand, fd hovrättslagman
+C|349841|70|K|Carina Wallmark|70 år, socionom
+C|349842|79|M|Bo Göran Hellers|79 år, professor emeritus KTH/arkitektur
+C|349843|77|K|Elisabeth Sköldefors|77 år, leg läkare
+C|349844|78|K|Gunnel Eklöf|78 år, civilekonom
+C|293447|78|M|Carl-Anders Ifvarsson|jur kand. Lidingö
+C|293449|76|K|Helena Bargholtz|fd riksdagsledamot, Lidingö
+C|349847|81|M|Jan Weissenrieder|81 år, civilekonom
+C|49149|60|K|Maria Arnholm|riksdagsledamot, Lidingö
+C|293443|63|M|Torsten Engevik|småföretagare, Lidingö
+C|219917|63|K|Birgitta Sköld|Jur. kand. & Kommunalråd, Islinge
+C|40170|62|M|Lars H Ericsson|Säkerhetsdirektör, Skärsätra
+C|219919|51|K|Pia Wieck|Civilekonom, Hersby
+C|219920|62|M|Göran Grahn|Museiintendent, Käppala
+C|219921|74|K|Evelyn Lewandrowski|Projektkoordinator, Skärsätra
+C|219922|77|M|Hans Grundell|Pol. mag., Käppala
+C|219923|61|K|Elisabet Tiliander|Civilingenjör, Torsvik
+C|219924|35|M|Richard Gaestadius|Ekonom, Torsvik
+C|219925|30|M|Jacob Johansson Sköld|Fil. kand., Mosstorp
+C|219926|32|K|Cecilia Frosteus|Leg. arbetsterapeut, Torsvik
+C|219927|64|M|Christoffer Toll|Civilekonom, Dalénum
+C|219928|70|M|Thomas Wingstedt|Fotograf, Hersby
+C|219929|80|K|Siv Björkman|Fil. kand. & Gallerist, Bergsätra
+C|219930|69|M|Pär-Anders Pehrson|Organisationskonsult, Högberga
+C|219931|64|K|Helene Nietchajev Hansson|Leg. läkare, Mölna
+C|219932|63|M|Per Inge Zetterberg|VD & Civilekonom, Gåshaga
+C|219933|76|M|Sten af Klinteberg|Fil. kand., Bo - Askrike
+C|219934|74|K|Marianne Axelsson|Sjuksköterska, Islinge
+C|219935|37|M|Peo Engström|Civilingenjör, Torsvik
+C|219936|73|K|Margareta Borg|Nämndeman, Torsvik
+C|219937|75|M|Claes Axelsson|Leg. läkare, Islinge
+C|219938|69|K|Britt-Marie Björcke|Socionom, Käppala
+C|219939|76|M|Bo Knutsson|Ingenjör, Bo - Askrike
+C|219940|58|M|Sven Alrenius|Projektledare, Bergsätra
+C|219941|72|K|Siv-Marie Olofsson|F.d. försäkringshandläggare, Mosstorp
+C|219942|78|M|Bengt Barkman|F.d. lärare & rektor, Bodal
+C|219943|28|K|Kajsa Fernö Thomsson|Jurist, Sticklinge
+C|219944|85|M|Göran Ljungberg|F.d. teknikkonsult, Kottla
+C|219945|60|K|Helén Quarfot|Fotograf, Bergsätra
+C|219946|73|K|Marie-Louise Ögren|Docent, Larsberg
+C|249259|38|K|Sofia Hallström|38, civilekonom, Lidingö
+C|249272|53|M|Patrik Sandström|53, lärare, Lidingö
+C|335293|53|K|Anna Odén|Förläggare, Södra Sticklinge, 53 år
+C|335294|76|M|Jan Fjellander|Journalist, Hersby, 76 år
+C|335295|24|K|Sanne Welin|Biolog, Näset, 24 år
+C|335296|26|M|Sebastian Smidemo|Butiksbiträde, Skärsätra, 26 år
+C|335297|54|K|Lise-Lott Alsenius|Kommunikationsansvarig, Sticklinge, 54 år
+C|335298|34|M|Arvid Molin|Lärare, Baggeby, 34 år
+C|335299|23|K|Anja Månsson|Studerande, Islinge, 23 år
+C|335300|78|M|Christer Westermark|77, filosofie doktor, Lidingö
+C|335301|30|K|Stina Haglund|Handläggare, Larsberg, 30 år
+C|335302|41|M|Tomas Block|Lärare, Käppala, 41 år
+C|335303|52|K|Helena Lundberg|Kanslichef, Näset, 52 år
+C|335304|70|M|Michael ten Siethoff|Humanist, Östra Rudboda, 70 år
+C|13038|46|M|Daniel Källenfors|46, Bankdirektör, Käppala
+C|13039|65|K|Anna-Britta Bergman|65, Civilekonom, Gåshaga
+C|13040|65|M|Ulf Geijer|65, Civilekonom, Dalénum
+C|13041|71|M|Carl-Johan Gestrup|71, Fil. kand, Gångsätra
+C|12805|21|M|Erik Centerlind|21, Student
+C|13043|45|K|Christel Söderberg|45, Egenföretagare, Högberga
+C|12807|41|M|Fredrik Vinstock|41, Civilekonom
+C|13045|64|M|Hans Barje|64, Kommunalråd
+C|13046|45|K|Pauline Holst Blomqvist|45, Civilekonom, Hersby
+C|13047|21|M|Marcus Rajkowski|21, Student
+C|13048|48|M|Filip Svanberg|48, Företagare, Islinge
+C|13049|54|M|Björn Rosén|54, Civilekonom, Sticklinge
+C|13050|44|M|Carl Östring|44, Chefsjurist, Islinge
+C|13051|37|K|Antonia Gibson|37, Ekonom, Hersby
+C|12788|28|K|Ida Drougge|28, Riksdagsledamot
+C|13053|65|M|Peter Lönnqvist|65, Civilekonom, Brevik
+C|13054|49|M|Pontus Winqvist|49, Civilekonom, Elfvik
+C|13055|49|K|Charlotte Leman Hansson|49, Affärsjurist
+C|13057|40|M|Peder Hagen|40, Civilekonom, Hersby
+C|13058|43|K|Sofia Krigsman|43, Ansvarig Samhällskontakter
+C|13059|37|K|Therese Carlborg|37, Egenföretagare, Högberga
+C|13060|63|M|Nils-Henrik Tideberg|63, Investeringskonsult, Hersby
+C|13061|60|M|Christer Serenhov|60, Civilekonom, Hersby
+C|13062|71|M|Henrik Åkermark|71, Civilingenjör, Brevik
+C|13063|47|M|Patrik Björklund|47, Verkställande direktör, Högberga
+C|13064|64|M|Mats Gröndahl|64, Civilingenjör
+C|13065|27|M|Victor Ericsson|27, Projektledare, Lidingö
+C|13066|49|K|Sophia Barthelson|49, Högstadielärare, Rudboda
+C|13067|60|M|Staffan Strömbäck|60, Civilingenjör
+C|13069|65|K|Suzanne Fredborg|65, Kanslichef, Näset
+C|13070|71|M|Fredrik Kronberg|71, Pensionär, Högsätra
+C|13071|74|K|Solveig Fröberg|74, Pensionär, Herserud
+C|13072|63|M|Christer Åkerhielm|63, Civilingenjör, Högberga
+C|13073|62|M|Pål Jebsen|62, Kommunikationsrådgivare, Bergsätra
+C|13074|74|K|Helen Frenning|74, Pensionär, Sticklinge
+C|13075|82|M|Sven Broddner|82, Civilingenjör , Sticklinge
+C|13076|70|K|Kerstin Kronberg|70, Pensionär, Högsätra
+C|13077|51|M|Arvid Wallgren|51, Ekonomie licentiat, Hersby
+C|13078|50|M|Georg Frick|50, Arbetsgivarkonsult, Sticklinge
+C|13079|61|K|Birgitta Olsen|61, Ekonom, Hersby
+C|13081|77|M|Christer Björklund|77, Teknologie Doktor, Islinge
+C|150489|60|K|Iréne Borgenvik|60, administratör polisen, Lidingö
+C|150492|60|M|Göran Borgenvik|60, polis, Lidingö
+C|150499|62|M|Robert Leo|62, egenföretagare, Lidingö
+C|166472|26|M|Mathias Borenz|26 år, elevassistent, Högsätra
+C|166473|62|M|Leif Olsson|62 år, ingenjör, Högsätra
+C|150530|73|M|Jan Åke Ekström|73, egenföretagare, Lidingö
+C|166475|39|M|Kristoffer Larsson|39 år, pedagog/företagare, Bergsätra
+C|183771|27|M|Jonas Lundgren|politisk sekreterare
+C|183772|31|M|Olaf Koort|handläggare
+C|183773|71|M|Sven Erik Wånell|Lidingö, utredare
+C|183774|67|K|Marika Lundin|socionom
+C|183775|71|K|Helene Gate|pensionär
+C|183776|68|K|Vanja Forsberg|leg. psykoterapeut
+C|183777|74|M|Lasse Månsson|pensionär

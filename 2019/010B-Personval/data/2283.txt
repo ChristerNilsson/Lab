@@ -1,9 +1,187 @@
-2|68019|68020|68021|67801|68023|68024|67802|67815|67798|68028|68029|68030|68031|67807|68033|68034|67808|68036|68037|68038|68039|68040|68041|68042|68043|68044|68045|68046|68047|68048|68049|68050|67812|68052|68053|68054|68055|68056|68057|68058|68059|68060|68061|68062|68063|68064|68065|68066
-4|17554|17555|17556|17557|17558|17559|17560|17561|17562|17563|17564|17565|17566|17567|17568|17569|17570|17571|17572|17573|17574|17575|17576|17577|17578|17579
-68|20905|20918|255654|275941|255655
-3|277226|277252|277246|277664|277663|515140
-55|277347|277348|277349|277350|277351|277352
-1|268563|268564|268565|240720|268567|268568|268569|268570|268571|268572|268573|268574|268575|268576|268577|268578
-110|360091|360110|360118|360102|360139|360146|361150|510818|512622|514997|514998|515531|515899
-5|170307|170308|170309|170310|170311|170312|170313|170314|170315|170316|170317|170318|170319|170320|170321|170322|170323|170324|170325|170326
-1002|325350|275672|275667|275682|275669|329378|275678|329780|275673|329782|361161|361162|361264|361265|377638|275661|377730|377731|377732|378575|378576|378577|275670|379176|379177|379880|275658|379882|379883
+T|Sollefteå
+A|2|68019|68020|68021|67801|68023|68024|67802|67815|67798|68028|68029|68030|68031|67807|68033|68034|67808|68036|68037|68038|68039|68040|68041|68042|68043|68044|68045|68046|68047|68048|68049|68050|67812|68052|68053|68054|68055|68056|68057|68058|68059|68060|68061|68062|68063|68064|68065|68066
+A|4|17554|17555|17556|17557|17558|17559|17560|17561|17562|17563|17564|17565|17566|17567|17568|17569|17570|17571|17572|17573|17574|17575|17576|17577|17578|17579
+A|68|20905|20918|255654|275941|255655
+A|3|277226|277252|277246|277664|277663
+A|55|277347|277348|277349|277350|277351|277352
+A|1|268563|268564|268565|240720|268567|268568|268569|268570|268571|268572|268573|268574|268575|268576|268577|268578
+A|110|360091|360110|360118|360102|360139|360146|361150|510818|512622|514997|514998|515531|515899
+A|5|170307|170308|170309|170310|170311|170312|170313|170314|170315|170316|170317|170318|170319|170320|170321|170322|170323|170324|170325|170326
+A|1002|325350|275672|275667|275682|275669|329378|275678|329780|275673|329782|361161|361162|361264|361265|377638|275661|377730|377731|377732|378575|378576|378577|275670|379176|379177|379880|275658|379882|379883
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|1002|VSKB|Västra Initiativet
+C|68019|48|K|Åsa Sjödén|48 år, Näsåker
+C|68020|46|M|John Åberg|46 år, Sollefteå
+C|68021|52|K|Lillemor Edholm|52 år, Edsele
+C|67801|48|M|Mikael Sjölund|48 år, Helgum
+C|68023|45|K|Åsa Nilsson|45 år, Långsele
+C|68024|70|M|Gunder Lidén|70 år, Sollefteå
+C|67802|58|K|Susanne Lindahl|58 år, Junsele
+C|67815|74|M|Curt Noppa|74 år, Sollefteå
+C|67798|65|K|Elisabet Lassen|65 år, Sollefteå
+C|68028|57|M|Mikael Eriksson|57 år, Sollefteå
+C|68029|54|K|Marie Eriksson|54 år, Sollefteå
+C|68030|73|M|Nils-Gunnar Molin|73 år, Helgum
+C|68031|23|K|Malvina Falk Hamberg|23 år, Resele
+C|67807|40|M|Morgan Nordin|40 år, Sollefteå
+C|68033|67|K|Eva Fors|67 år, Ed
+C|68034|75|M|Sven-Göran Johansson|75 år, Sollefteå
+C|67808|39|K|Stina Holmberg|39 år, Sollefteå
+C|68036|70|M|Tommy Svensson|70 år, Sollefteå
+C|68037|68|K|Birgitta Forsberg|68 år, Sollefteå
+C|68038|65|M|Lennart Önblad|65 år, Sollefteå
+C|68039|60|K|Ingeli Andersson|60 år, Edsele
+C|68040|47|M|Peder Ragnarsson|47 år, Näsåker
+C|68041|60|K|Stina Näslund|60 år, Sollefteå
+C|68042|68|M|Torbjörn Persson|68 år, Sollefteå
+C|68043|33|K|My Larsson|33 år, Junsele
+C|68044|60|M|Kenneth Modén|60 år, Näsåker
+C|68045|47|K|Yvonne Eriksson|47 år, Edsele
+C|68046|61|M|Jan Lundberg|61 år, Sollefteå
+C|68047|28|K|Sandra Sjölander|28 år, Sollefteå
+C|68048|70|M|Per-Olof Girhagen|70 år, Sollefteå
+C|68049|29|K|Jasmine Öberg|29 år, Sollefteå
+C|68050|59|M|Ilkka Laamanen|59 år, Helgum
+C|67812|68|K|Elsy Lidblom|68 år, Långsele
+C|68052|51|M|Mohamed Idris Abdullah|51 år, Sollefteå
+C|68053|51|K|Helén Palm|50 år, Sollefteå
+C|68054|64|K|Anita Bergsten|64 år, Sollefteå
+C|68055|50|M|Peter Hagberg|50 år, Långsele
+C|68056|34|K|Therese Tjärnberg|34 år, Långsele
+C|68057|64|M|Per Olof Sjödin|64 år, Sollefteå
+C|68058|49|K|Gerd Ågren|49 år, Sollefteå
+C|68059|32|M|Jörgen Eriksson|32 år, Sollefteå
+C|68060|31|K|Karoline Planelid|31 år, Junsele
+C|68061|37|K|Madelené Holgersson|37 år, Långsele
+C|68062|76|M|Sten Lönn|76 år, Sollefteå
+C|68063|44|K|Cecilia Andersson|45 år, Sollefteå
+C|68064|75|M|Johnny Löfstrand|75 år, Sollefteå
+C|68065|71|K|Ulla-Britt Lindgren|71 år, Sollefteå
+C|68066|39|K|Maria Lindman|39 år, Sollefteå
+C|17554|30|M|Johan Andersson|oppositionsråd, 30 år, Sollefteå
+C|17555|60|K|Maria Wennberg|skribent, 60 år, Sollefteå
+C|17556|67|M|Paul Höglund|trädgårdsmästare, 68 år, Sollefteå
+C|17557|30|M|Joel Ölund|arbetsterapeut, 30 år, Sollefteå
+C|17558|24|M|Anton Ångman|biolog, 24 år, Sollefteå
+C|17559|37|M|Andreas Jonsson|försäljningschef, 37 år, Sollefteå
+C|17560|67|M|Ingemar Jonsson|skogsägare, 67 år, Sollefteå
+C|17561|34|M|Daniel Höglund|skogsmästare, 34 år, Resele
+C|17562|46|K|Monica Tirri|projektledare, 46 år, Långsele
+C|17563|65|M|Ulf Lhådö|chaufför, 66 år, Sollefteå
+C|17564|38|K|Kristina Eriksson|biolog, 38 år, Sollefteå
+C|17565|65|M|Mats Ola Vestin|egen företagare, 65 år, Forsmo
+C|17566|49|K|Maria Hellstrand|behandlingsassistent, 49 år, Sollefteå
+C|17567|45|K|Maggie Norlén|industriarbetare, 46 år, Junsele
+C|17568|40|M|Adam Bozan|företagare, 40 år, Sollefteå
+C|17569|59|M|Hugo Stefan Wennberg|konsult, 59 år, Sånga
+C|17570|32|M|Tomas Stattin|butikssäljare, 32 år, Sollefteå
+C|17571|65|M|Arne Eriksson|lantbrukare, 65 år, Junsele
+C|17572|78|K|Ingbritt Hedin|kanslist, 78 år, Resele
+C|17573|44|M|Fredrik Granholm|arkivarie, 45 år, Sollefteå
+C|17574|81|M|Lennart Norström|pensionär, 81 år, Ed
+C|17575|65|K|Lisa Lager|lokalvårdare, 65 år, Ramsele
+C|17576|73|K|Sonia Nilsson|pensionär, 73 år, Resele
+C|17577|60|K|Eva Lhådö|60 år, Undrom
+C|17578|60|M|Nils Johansson|biblioteksassistent, 61år, Resele
+C|17579|67|K|Ingegärd Andersson|internatföreståndare, 67 år, Sollefteå
+C|20905|62|K|Gunlög Jacobsson|Sollefteå
+C|20918|59|M|Göran Solsjö|Junsele
+C|255654|59|M|Ronnie Larsson|Österforse
+C|275941|34|K|Zandra Johansson|Sollefteå
+C|255655|79|M|Thord Carlsson|Sollefteå
+C|277226|71|M|Leif Palmberg|Tekniker, 71 år, Långsele
+C|277252|73|K|Ewa Palmberg|Förskollärare, 73 år, Långsele
+C|277246|71|M|Sture Törnstam|Drifttekniker, 71 år, Näsåker
+C|277664|40|M|Jonas Ekedahl|Civilingenjör, 40 år, Sollefteå
+C|277663|70|M|Leif Eriksson|Företagare, 70 år, Sollefteå
+C|277347|64|K|Brita Wessinger|64, bibliotekarie, Sollefteå
+C|277348|72|K|Ylva Bergstedt Johansson|speciallärare, Sollefteå
+C|277349|70|K|Margareta Alton|grön senior, Näsåker
+C|277350|64|K|Elisabet Norén|präst, Sollefteå
+C|277351|68|M|Carl-Göran Hansson|finsnickare, Boteå
+C|277352|53|K|Ingrid Norén|telefonrådgivare, Sollefteå
+C|268563|73|K|Kerstin Franzén|Adjunkt, Resele
+C|268564|61|K|Lena Asplund|61 år, Riksdagsledamot/Biomedicinsk analytiker, Sollefteå
+C|268565|73|M|Sven Olov Gradin|Adjunkt, Sollefteå
+C|240720|41|M|Daniel Fäldt|41 år, CFO, Sollefteå
+C|268567|58|K|Carina Eriksson|Förskollärare, Junsele
+C|268568|60|M|Folke Lindgren|Egenföretagare, Näsåker
+C|268569|39|K|Alexandra De Wall|Egenföretagare, Undrom
+C|268570|74|K|Kerstin Svensson|74 år, Adjunkt, Sollefteå
+C|268571|41|M|Peter Gustafsson|Kalkylingenjör, Undrom
+C|268572|18|M|Samuel Sennström|Studerande, Junsele
+C|268573|35|M|Taner Shaban|Egenföretagare, Junsele
+C|268574|42|M|Jonny Ohlsson|Kostchef, Sollefteå
+C|268575|53|M|Hans Tenglund|Bitr. platschef, Näsåker
+C|268576|41|M|Magnus Hägglund|Fastighetssamordnare, Sollefteå
+C|268577|40|M|Peter Oremo|Egenföretagare, Sollefteå
+C|268578|41|M|Sami Daoud|Egenföretagare, Sollefteå
+C|360091|66|M|Sven Erik Ragnarsson|66, Sollefteå
+C|360110|65|M|Roger Vesterlund|65, Sollefteå
+C|360118|68|M|Raymond Clancy|68, Sollefteå
+C|360102|73|M|Tommy Nilsson|73, Sollefteå
+C|360139|58|M|Lennart Andersson|57, Sollefteå
+C|360146|78|M|Hans Karlsson|77, Sollefteå
+C|361150|55|K|Zarah Månsson|54, Långsele
+C|510818|73|M|Sven Göran Knutsson|
+C|512622|34|M|Samuel Freiholtz|
+C|514997|38|M|Lennart Thomas Norlander|
+C|514998|28|K|Nicole Norlander|
+C|515531|60|M|Håkan Zetterlund|
+C|515899|56|M|Anders Strömberg|
+C|170307|62|M|Ulf Breitholtz|62 år, jordbrukare, Näsåker
+C|170308|60|K|Carin Collén|bibliotekskonsulent, Sollefteå
+C|170309|59|M|Kjell-Åke Sjöström|behandlingsassistent, Edsele
+C|170310|53|K|Marie Hansson|undersköterska, Näsåker
+C|170311|70|M|Lars Sahlén|70 år, pensionär, Graninge
+C|170312|37|K|Marie Pettersson|undersköterska, Helgum
+C|170313|34|M|Markus Spjuth|timmerman, deltidsbrandman, Näsåker
+C|170314|65|K|Ylva Segerström|dramapedagog, Näsåker
+C|170315|31|K|Emmy Bengtsson|undersköterska, Sollefteå
+C|170316|58|M|Cejko Kahteran|utbildare, Sollefteå
+C|170317|66|K|Inger Fängström|pensionär, Sollefteå
+C|170318|41|M|Jörgen Andersson|undersköterska, Sollefteå
+C|170319|59|K|Kärstin Sjögren|biblioteksassistent, Sollefteå
+C|170320|71|M|Olle Widerberg|pensionär, Sollefteå
+C|170321|30|M|Sebastian Nygren|säljare, Sollefteå
+C|170322|72|K|Britt-Marie Persson|distriktssköterska, Sollefteå
+C|170323|74|M|Karl-Erik Lundström|pensionär, Sollefteå
+C|170324|63|K|Eva-Lotta Breitholtz|hantverkare, Näsåker
+C|170325|68|K|Birgitta Lind|krukmakare, Lillterrsjö
+C|170326|73|M|Niklas Lind|krukmakare, Lillterrsjö
+C|325350|65|K|Gunilla Fluur|65 år, Näsåker, präst
+C|275672|54|M|Jörgen Åslund|54 år, Småföretagare, Sollefteå
+C|275667|55|K|Birgitta Häggkvist|55 år, Behandlingsassistent, Holafors
+C|275682|50|M|Mattias Ahlenhed|50 år, Rektor, Junsele
+C|275669|49|K|Ulrika Bergman|49 år, Kontorsarbetare, Undrom
+C|329378|28|M|Linus Källgren|28 år, Långsele, lokförare
+C|275678|54|M|Matz Sjöberg|54 år, Behandlingsassistent, Sollefteå
+C|329780|58|M|Roger Johansson|58 år,Kvarnå, företagare
+C|275673|53|K|Elisabeth Sjöström|53 år, Arbetsförmedlare, Långsele
+C|329782|23|M|Anton Molén|23 år, Sollefteå, lärarvikarie
+C|361161|56|K|Lena Sjödin|55 år, Ramsele, företagare
+C|361162|41|M|Niklas Blomqvist|40 år, Norrmoflo, kulturarb.
+C|361264|40|K|Maria Eriksson|40 år, Långsele, lärarstud.
+C|361265|23|K|Amanda Häggkvist|23 år, Örbäck, resurs
+C|377638|56|M|Anders Bergman|55 år, Sollefteå, civilingenjör
+C|275661|41|K|Annica Engström|41 år, Integrationspedagog, Långsele
+C|377730|40|M|Peter Grundström|40 år, Remsle, tekniker
+C|377731|41|K|Lotta Karlsson|41 år, Junsele, företagare
+C|377732|31|M|Linus Westerlund|32 år, Remsle, fabriksarb.
+C|378575|59|K|Ann-Christin Johansson|58 år, Junsele, förvaltn. ass
+C|378576|31|M|Rickard Westerlund|32 år, Sollefteå, maskinförare
+C|378577|64|K|Karin Lidén|64 år, Österforse, f.d. kostchef
+C|275670|54|M|Per Söderström|54 år, Projektledare, Långsele
+C|379176|33|M|Johan Harlestedt|33 år, Sollefteå, beh. ass
+C|379177|82|M|Lennart Sundkvist|82 år, Ramsele, pensionär
+C|379880|50|M|Michel Schmidt|50 år, Långsele, vårdbiträde
+C|275658|41|M|Mattias Rösberg|41 år, Civilingenjör, Sollefteå
+C|379882|68|M|Thommy Edlund|67 år, Helgum, f.d. lärare
+C|379883|72|M|Anders Hallin|72 år, Näsåker, f.d. socionom

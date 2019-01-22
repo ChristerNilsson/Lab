@@ -1,16 +1,389 @@
-2|64512|64513|5788|6437|64516|6730|6814|64519|7071|6969|6881|6202|7063|64525|64526|5793|6532|64529|6724|64531|6201|6117|6430|6835|64536|13294|5806|6252|64540|6726|64542|6240|64544|6970|5784|6103|64548|6856|6094|6238|6500|6111|7713|5795|64556|13284|6934|64559|64560|6119|6524|6922|10553|7712|13287|6258|6940|64571|6112|6246|6818|64575|6122|6232|6753|64579|6132|6963|6124
-4|8517|343505|343028|343298|342163|343187|343061|341434|342161|343027|341238|343070|343310|365839|343541|343073
-1318|22796
-532|219320|344884|344885|504792
-68|134926|428282|190100|141238|152807|426863|190097|141244|139866|134922|190102|168383|152814|134924|134923|150641|152816|150631|428299|134925|190105|141245|428303|426867|428305|426868|168381|426870|134927|141247|426882|426876|168380|426874|428315|428316|141246|152819|141241|141240|428321|141251|152809|134928|426888
-1011|132425|132596
-3|197824|49191|211678|204163|197800|193319|49210|210369|182252|182250|204157|211686|184718|204169|204158|197799|211691|184726|204159
-55|274333|273874|242158|241915|242154|239971|241520|274340|274341|274342|273876|242155|241541|239973|273878|242157|241536|274350|239974|241523|242170|274354|274355
-1|43178|43179|43180|43181|43182|43183|43002|43003|43186|43187|43010|43189|42997|42996|43192|43001|43194|43195|43008|43007|43011|43199|43005|43200|43201|43000
-1273|394201|431576
-1378|512568
-131|275302|275301|275388|275303|275304|275305|275306|275307|275308|275309|275311|275313|275312|275310|275316|275314|275315|275318|275317
-193|4892|4893|4894|4895|4896|4897|4898|4899|4900|4901|4902|4903|4904|4905|4906|4907|4908|4909|4910|4911|4912|4913|4914|4915|4916|4917|4928|4919|4920|4921|4922|4923|4924|4925|4926|4927|4938|4929|4930|4931|4932|4933|4934|4935|4936|4937|4948|4939|4940|4941|4942|4943|4944|4945|4946|4947|4957|4949|4950|4951|4952|4953|4954|4955|4956|7592|4958|4959|4960|4961|4962|4963
-110|48258|47903|119436|48026|47862|48260|48257|119441|119442|47866|47868|47864|119446|48027|119448|48031|119450|47867|47875|47871|47872|47860|119456|119457|119458|48261|119460|119461
-1411|511132|511133
-5|30049|30050|30051|30052|30053|30054|163689|163695|30013|45909|185070|163692|149432|30012|185188|185273|81094|185074|149431|163697|185076|163694|185280|184095|163701|149159|185196
+T|Norrbottens läns landsting
+A|2|64512|64513|5788|6437|64516|6730|6814|64519|7071|6969|6881|6202|7063|64525|64526|5793|6532|64529|6724|64531|6201|6117|6430|6835|64536|13294|5806|6252|64540|6726|64542|6240|64544|6970|5784|6103|64548|6856|6094|6238|6500|6111|7713|5795|64556|13284|6934|64559|64560|6119|6524|6922|10553|7712|13287|6258|6940|64571|6112|6246|6818|64575|6122|6232|6753|64579|6132|6963|6124
+A|4|8517|343505|343028|343298|342163|343187|343061|341434|342161|343027|341238|343070|343310|365839|343541|343073
+A|1318|22796
+A|532|219320|344884|344885|504792
+A|68|134926|428282|190100|141238|152807|426863|190097|141244|139866|134922|190102|168383|152814|134924|134923|150641|152816|150631|428299|134925|190105|141245|428303|426867|428305|426868|168381|426870|134927|141247|426882|426876|168380|426874|428315|428316|141246|152819|141241|141240|428321|141251|152809|134928|426888
+A|1011|132425|132596
+A|3|197824|49191|211678|204163|197800|193319|49210|210369|182252|182250|204157|211686|184718|204169|204158|197799|211691|184726|204159
+A|55|274333|273874|242158|241915|242154|239971|241520|274340|274341|274342|273876|242155|241541|239973|273878|242157|241536|274350|239974|241523|242170|274354|274355
+A|1|43178|43179|43180|43181|43182|43183|43002|43003|43186|43187|43010|43189|42997|42996|43192|43001|43194|43195|43008|43007|43011|43199|43005|43200|43201|43000
+A|1273|394201|431576
+A|1378|512568
+A|131|275302|275301|275388|275303|275304|275305|275306|275307|275308|275309|275311|275313|275312|275310|275316|275314|275315|275318|275317
+A|193|4892|4893|4894|4895|4896|4897|4898|4899|4900|4901|4902|4903|4904|4905|4906|4907|4908|4909|4910|4911|4912|4913|4914|4915|4916|4917|4928|4919|4920|4921|4922|4923|4924|4925|4926|4927|4938|4929|4930|4931|4932|4933|4934|4935|4936|4937|4948|4939|4940|4941|4942|4943|4944|4945|4946|4947|4957|4949|4950|4951|4952|4953|4954|4955|4956|7592|4958|4959|4960|4961|4962|4963
+A|110|48258|47903|119436|48026|47862|48260|48257|119441|119442|47866|47868|47864|119446|48027|119448|48031|119450|47867|47875|47871|47872|47860|119456|119457|119458|48261|119460|119461
+A|1411|511132|511133
+A|5|30049|30050|30051|30052|30053|30054|163689|163695|30013|45909|185070|163692|149432|30012|185188|185273|81094|185074|149431|163697|185076|163694|185280|184095|163701|149159|185196
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1318|CSIS|Common sense in Sweden
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1273|NMR|Nordiska motståndsrörelsen
+B|1378||Norrlandspartiet
+B|131|RS|Rättvisepartiet Socialisterna
+B|193|SJV|Sjukvårdspartiet
+B|110|SD|Sverigedemokraterna
+B|1411||VÅRT NORRBOTTEN
+B|5|V|Vänsterpartiet
+C|64512|54|M|Anders Öberg|54 år, Luleå
+C|64513|54|K|Elisabeth Lindberg|54 år, Piteå
+C|5788|30|M|Johannes Sundelin|Gällivare, 30 år
+C|6437|57|K|Helena Öhlund|57 år, Älvsbyn
+C|64516|65|M|Lennart Åström|65 år, Boden
+C|6730|27|K|Camilla Mattila|27 år, Övertorneå
+C|6814|69|M|Bengt Westman|69 år, Haparanda
+C|64519|63|K|Ia Uvberg|63 år, Luleå
+C|7071|41|M|Daniel Persson|Boden, 41 år
+C|6969|59|K|Anita Gustavsson|59 år, Piteå
+C|6881|61|M|Jan Sydberg|61 år, Kiruna
+C|6202|36|K|Farida Jamshidi|36 år, Luleå
+C|7063|57|M|Sven Holmqvist|Vuollerim, 57 år
+C|64525|53|K|Carina Strömbäck|53 år, Kalix
+C|64526|67|M|Lennart Thörnlund|67 år, Luleå
+C|5793|67|K|Gerd Siverhall|67 år, Gällivare
+C|6532|69|M|Lennart Holm|69 år, Överkalix
+C|64529|32|K|Ann-Sofie Isaksson|32 år, Pajala
+C|6724|49|M|Patrik Åman|49 år, Arvidsjaur
+C|64531|68|K|Maivor Johansson|68 år, Kiruna
+C|6201|32|M|Nils Harnesk|32 år, Luleå
+C|6117|53|K|Anna-Carin Aaro|Boden, 53 år
+C|6430|64|M|Thor Viklund|64 år, Älvsbyn
+C|6835|71|K|Eivor Olofsson|71 år, Haparanda
+C|64536|59|M|Anders Burman|59 år, Arjeplog
+C|13294|53|K|Birgitta Siljelöf|53 år, Jokkmokk
+C|5806|68|M|Roland Nirlén|68 år, Gällivare
+C|6252|28|K|Emmi-Lie Spegel|28 år, Luleå
+C|64540|46|M|Mashalla Mawlod|46 år, Boden
+C|6726|49|K|Bente Moen Åkerholm|Övertorneå, 49 år
+C|64542|65|M|Benny Edlund|65 år, Piteå
+C|6240|51|K|Maria Sjöberg|51 år, Luleå
+C|64544|45|M|Christer Lindström|45 år, Piteå
+C|6970|40|K|Ida Johansson|40 år, Piteå
+C|5784|67|M|Tomas Junkka|67 år, Gällivare
+C|6103|71|K|Eivy Blomdahl|71 år, Boden
+C|64548|63|M|Peter Sköld|53 år, Luleå
+C|6856|66|K|Ann Kristin Nilsson|66 år, Kiruna
+C|6094|40|M|Stefan Mella|40 år, Boden
+C|6238|34|K|Evelina Rydeker|34 år, Luleå
+C|6500|66|M|Roland Karlsson|66 år, Pajala
+C|6111|39|K|Nina Huotari|39 år, Boden
+C|7713|68|M|Erik Söderlund|68 år, Kalix
+C|5795|67|K|Gunnel Eriksson|67 år, Gällivare
+C|64556|28|M|Emil Granström|28 år, Luleå
+C|13284|58|K|Eva Näslund|58 år, Jokkmokk
+C|6934|42|M|Jonas Vikström|42 år, Piteå
+C|64559|71|K|Birgitta Gidblom|71 år, Gällivare
+C|64560|48|M|Mats Holmberg|48 år, Luleå
+C|6119|27|K|Julia Engström|27 år, Boden
+C|6524|67|M|Bengt-Erik Rolfs|67 år, Överkalix
+C|6922|29|K|Jessica Hjelte|29 år, Piteå
+C|10553|65|M|Mats Abrahamsson|65 år, Arjeplog
+C|7712|77|K|Ulla Granström|77 år, Kalix
+C|13287|50|M|Johan Agetoft|50 år, Jokkmokk
+C|6258|52|K|Sara Akan|Luleå, 52 år
+C|6940|60|M|Peter Eriksson|60 år, Piteå
+C|64571|44|K|Katarina Soutukorva|44 år, Pajala
+C|6112|59|M|Lennart Synnergren|59 år, Boden
+C|6246|65|K|Yvonne Bergqvist|65 år, Luleå
+C|6818|40|M|Per Eriksson|40 år, Haparanda
+C|64575|49|K|Helena Nordkvist|49 år, Piteå
+C|6122|39|M|Tomi Kovero|39 år, Boden
+C|6232|69|K|Eva Hedesand Lundqvist|69 år, Luleå
+C|6753|36|M|Johan Norberg|36 år, Övertorneå
+C|64579|72|K|Elisabeth Eriksson|72 år, Luleå
+C|6132|54|M|Hans-Lennart Bruun|54 år, Boden
+C|6963|64|M|Anders Nyström|64 år, Piteå
+C|6124|61|M|Jim Öman|61 år, Boden
+C|8517|69|M|Nils-Olov Lindfors|Luleå
+C|343505|37|K|Sarah Karlsson|Kommunalråd, Överkalix
+C|343028|57|M|Kurt-Åke Andersson|Kalix
+C|343298|57|K|Majvor Sjölund|Piteå
+C|342163|67|M|Perarne Kerttu|Haparanda
+C|343187|56|K|Carola Lidén|Fritidspedagog, Luleå
+C|343061|59|M|Gunnar Selberg|Kiruna
+C|341434|49|K|Kristina Bäckström|Bostadsförmedlare, Arvidsjaur
+C|342161|48|M|Sven Tornberg|Kökschef, Haparanda
+C|343027|54|M|Stefan Granström|Behandlingsassistent, Kalix
+C|341238|68|M|Ulf Ottosson|Arjeplog
+C|343070|70|K|Birgitta Stålnacke|Kiruna
+C|343310|39|M|Samuel Ökvist|Piteå
+C|365839|41|M|Jens Sundhall|Luleå
+C|343541|69|M|Börje Rytiniemi|Övertorneå
+C|343073|19|M|Mattias Timander|Studerande, Kiruna
+C|22796|47|M|Pontus Johansson|47 år Boden
+C|219320|35|K|Lisa Ryhänen|35år, Barnskötare, Kiruna
+C|344884|31|K|Ann Christine Brännvall|
+C|344885|36|M|Peter Ludvig Alex|
+C|504792|43|K|Linda-Marie Gabrielsson|
+C|134926|54|M|Håkan Kero|tekniker, Pajala
+C|428282|51|K|Maria Selin|gymnasielärare, Boden
+C|190100|45|M|Samuel Ek|frivårdsinspektör, Luleå
+C|141238|67|K|Helén Lindbäck|präst, Piteå
+C|152807|34|M|Krister Pounu|projektledare, Kiruna
+C|426863|21|M|Magnus Olsson|student, Luleå
+C|190097|45|K|Anette Asplund|civilingenjör, Luleå
+C|141244|67|K|Helena Burvall|distriktssköterska, Piteå
+C|139866|47|M|Peter Lundberg|informatör, Älvsbyn
+C|134922|65|K|Irene Lundholm|distriktssköterska, Pajala
+C|190102|65|M|Ivan Karlberg|kock, Arjeplog
+C|168383|57|K|Marita Wikberg|butiksmedarb. Haparanda
+C|152814|33|K|Anna Monlund|sjuksköterska, Kiruna
+C|134924|47|M|Peter Ericsson|snickare, Korpilombolo
+C|134923|74|M|Leif Gramner|egenföretagare, Pajala
+C|150641|65|M|Kent Alanentalo|hemm.ägare, Övertorneå
+C|152816|54|K|Ingegerd Hetta|verksamhetsled. Kiruna
+C|150631|45|M|Anders Wälivaara|socialpedagog, Övertorneå
+C|428299|42|M|Mikael Fältros|flygledare, Luleå
+C|134925|62|M|Stig Töyrä|lärare, Pajala
+C|190105|74|M|Erland Johansson|yrkeslärare, Kalix
+C|141245|58|M|Leif Berglund|universitetslektor, Piteå
+C|428303|80|K|Ingrid Isaksson|undersköterska, Piteå
+C|426867|68|M|Birger Isaksson|egenföretagare, Klöverträsk
+C|428305|50|K|Christina Palo|undersköterska, Luleå
+C|426868|75|M|Gunnar Nilsson|f d miljödirektör, Luleå
+C|168381|41|K|Elisabeth Nilsson|lärare, Haparanda
+C|426870|74|M|Conny Sundström|musiklärare, Luleå
+C|134927|55|K|Eva Esberg|lärare, Pajala
+C|141247|75|M|Olof Hammarbäck|sjuksköterska, Piteå
+C|426882|69|M|Christer Johansson|f d företagare, Luleå
+C|426876|58|K|Gunilla Lampa|egenföretagare, Luleå
+C|168380|30|K|Katarina Eneros|hemmaförälder, Haparanda
+C|426874|22|M|Jack Haking Junggren|student, Luleå
+C|428315|73|M|Roland Wälivaara|präst, Boden
+C|428316|76|M|Lars Palo|ingenjör, Luleå
+C|141246|72|K|Ingrid Nilsson|lärare, Piteå
+C|152819|54|K|Laila Hetta|undersköterska, Kuttainen
+C|141241|74|M|Nils-Olof Nilsson|lärare, Piteå
+C|141240|69|K|Anne Bjernhagen|egenföretagare, Piteå
+C|428321|62|K|Eva Töyrä|sjuksköterska, Luleå
+C|141251|81|M|Rickard Brännström|f d lagman, Piteå
+C|152809|29|K|Jenny Esberg|undersköterska, Kiruna
+C|134928|65|K|Solveig Lindfors-Lehmivaara|pedagog, Pajala
+C|426888|77|M|Erling Välivaara|fd riksdagsledamot, Luleå
+C|132425|61|M|Hans Eriksson|Distriktssäljare, Norrbotten
+C|132596|37|M|Johan Pettersson|Egenföretagare, Norrbotten
+C|197824|48|M|Jens Sundström|Regionråd, Luleå
+C|49191|55|K|Anne Kotavuopio Jatko|enhetschef, Jukkasjärvi
+C|211678|78|M|Erik Lundström|Socialliberal, Sikfors
+C|204163|50|M|Göran Stjärnholm|Barnläkare, Boden
+C|197800|43|K|Ingela Svalberg|Ombudsman (L) Norrbotten, Klöverträsk
+C|193319|49|K|Carina Sundström|Verksamhetsutvecklare, Töre
+C|49210|34|M|Thomas Söderström|produktionschef, Luleå
+C|210369|26|M|Martin Forss|Mekaniker, Kiruna
+C|182252|48|K|Maria Hortlund|Servicekoordinator, Älvsbyn
+C|182250|71|K|Inger Lundberg|Högstadielärare, Älvsbyn
+C|204157|50|M|Jörgen Johansson|Kontrollansvarig Bygg, S.Svartbyn
+C|211686|72|K|Siw Forslund|f.d Speciallärare, Hortlax
+C|184718|42|K|Jenny Bjuhr|Socionom, Piteå
+C|204169|75|M|Ulf Klasson|f.d Läkare, Boden
+C|204158|75|K|Kerstin Hübinette|Pensionär, Svartlå
+C|197799|52|M|Sten Tore Skare|Chaufför, Luleå
+C|211691|61|K|Anne-Maria Pekkari|Diakonassistent, Parakka
+C|184726|66|K|Britta Berglund|Verksamhetsutvecklare, Svensbyn
+C|204159|42|M|Anders Lund|Kock, Sävast
+C|274333|59|K|Annika Eriksson|Civilingenjör, Luleå
+C|273874|46|M|Mats Dahlberg|Arbetsförmedlare, Piteå
+C|242158|63|K|Agneta Granström|universitetsadjunkt, Boden
+C|241915|40|M|Anders Bältsjö|Tekniker, Kiruna
+C|242154|52|K|Catarina Ask|sjuksköterska, Boden
+C|239971|54|M|Sven Nordlund|Kvalitetsansvarig, Kalix
+C|241520|38|K|Malin Svedjeholm|Kommunikatör, Luleå
+C|274340|47|M|Per-Jonas Parffa|Renskötare, Jokkmokk
+C|274341|57|K|Natalia Korvi|Egenföretagare, Haparanda
+C|274342|40|M|Henrik Ölvebo|Projektledare, Gällivare
+C|273876|36|K|Anna Åström|Arbetsförmedlare, Piteå
+C|242155|79|M|Gösta Eriksson|miljökonsult, Boden
+C|241541|59|K|Margareta Landström|Socionom, Luleå
+C|239973|31|M|Martin Östling|Lärare, Kalix
+C|273878|42|K|Linda Utterheim|Studerande, Piteå
+C|242157|37|M|Johan Johansson|Billots, Boden
+C|241536|41|K|Nathalie Caron Elfgren|Lärare, Luleå
+C|274350|69|M|Sivert Mässing|Pensionär, Råneå
+C|239974|64|K|Kristina Enholm|företagare, Kalix
+C|241523|60|M|Lothar Bellgardt|Teknisk chef, Luleå
+C|242170|71|K|Ingbritt Päiviö Vahlberg|Förskollärare, Harads
+C|274354|41|M|Mattias Liinanki|Ingenjör, Gällivare
+C|274355|38|M|Andreas Pettersson|Civilingenjör, Gällivare
+C|43178|41|K|Linda Frohm|41 år, Företagare, Kalix
+C|43179|47|M|Anders Josefsson|47 år, Gruppledare, Gammelstad
+C|43180|72|K|Monika Hedström|72 år, Företagare, Gällivare
+C|43181|23|M|Henrik Wikström|23 år, Läkarstudent, Boden
+C|43182|71|K|Gunilla Wallstén|71 år, Företagare, Piteå
+C|43183|61|M|Roland Nordin|61 år, Egen företagare, Sangis
+C|43002|58|K|Birgit Meier Thunborg|58 år, Företagare, Porjus
+C|43003|41|M|Daniel Bergman|41 år, Ekonom, Piteå
+C|43186|58|K|Marina Eriksson|58 år, Vårdlärare, Gällivare
+C|43187|29|M|Nihad Zara|29 år, Försäkringstjänsteman, Luleå
+C|43010|76|K|Anita Sköld|76 år, Företagare, Tärendö
+C|43189|66|M|Robert von Schantz|66 år, Jurist, Boden
+C|42997|67|K|Ellinor Sandlund|67 år, Skohandlare / Agent, Öjebyn
+C|42996|39|K|Karin Forsman|39 år, Utvecklingsledare, Överkalix
+C|43192|68|K|Helena Nordvall|68 år, Med Dr, Specialistsjukgymnast, Boden
+C|43001|56|M|Håkan Johansson|56 år, VD, Norrfjärden
+C|43194|72|K|Anita Hammargren|72 år, Pensionär, Luleå
+C|43195|77|M|Bo Hultin|77 år, Egenföretagare, Boden
+C|43008|41|K|Annica Holmbom|41 år, Företagare, Jokkmokk
+C|43007|70|M|Åke Carlsson|70 år, Pensionär, Boden
+C|43011|34|M|Martin Sacko|34 år, Utesäljare, Södra Sunderbyn
+C|43199|51|M|Tord Eliasson|51 år, Säljare, Kurravaara
+C|43005|49|M|Björn Sohlberg|49 år, Egenföretagare, Pajala
+C|43200|31|K|Veronica Wahlström|31 år, Sjuksköterska, Kiruna
+C|43201|66|K|Rigmor Åström|66 år, Pensionär, Boden
+C|43000|49|K|Sana Suljanovic|49 år, Rektor, Luleå
+C|394201|71|M|Bo Nilsson|71 år, pensionerad byggnadsarbetare, Boden
+C|431576|24|M|David Nilsson|24 år, diversearbetare, Boden
+C|512568|61|M|Sune Norlin|
+C|275302|43|M|Jonas Brännberg|Gruppledare Luleå kommunfullmäktige
+C|275301|37|K|Liv Shange Moyo|Redaktör Offensiv
+C|275388|35|M|Raymond Ohlson|Fritidspedagog, Boden
+C|275303|34|K|Fatima Linna Trabelsi|Förtroendevald boskadsaktivist
+C|275304|55|M|Robert Lundqvist|Regionanställd
+C|275305|18|K|Siri Kjerrulf|Gymnasieelev, ordf LåtOssLeva-Luleå
+C|275306|29|M|Anton Lindbäck|Anläggningsarbetare
+C|275307|43|K|Britta Berggren|LSS-aktivist
+C|275308|20|M|Kalle Blomqvist|Vårdbiträde
+C|275309|65|K|Anna Eriksson|Pensionerad undersköterska
+C|275311|31|M|Ali Ghezeire|Industriarbetare
+C|275313|43|M|Josef Esberg|Elevassistent / Jordbrukare
+C|275312|22|K|Olivia Ace Rova|
+C|275310|47|M|Yonggang Cui|Politisk flykting
+C|275316|33|M|Obvious Moyo|Målare
+C|275314|66|M|Håkan Kask|Pensionär
+C|275315|19|K|Amanda Taavo Hellström|Studerande
+C|275318|47|M|Robert Halsius|Fritidsassistent
+C|275317|21|M|Abdulrahman Abdulwahab|Studerande
+C|4892|67|M|Kenneth Backgård|Leg. Psykolog, Boden
+C|4893|73|K|Doris Messner|Läkare, Kiruna
+C|4894|72|M|Johnny Åström|Maskintekniker, Piteå
+C|4895|68|M|Åke Fagervall|F.d. Lärare, Pello
+C|4896|74|M|Dan Ankarholm|Jur. kand./F.d. Kommunchef, Råneå
+C|4897|68|M|Anders Sundström|Fritidspolitiker, Boden
+C|4898|77|K|Margareta Henricsson|F.d. Kommunsekreterare, Malmberget
+C|4899|56|K|Ann-Christin Åström|Specialistsjuksköterska, Piteå
+C|4900|77|M|Lennart Ojanlatva|Ingenjör, Kangos
+C|4901|73|M|Anders Bohm|F.d. Brandman/Ambulanssjukvårdare, Luleå
+C|4902|41|K|Erika Sjöö|Administratör, Boden
+C|4903|84|M|Bo Ek|Pensionär, Kiruna
+C|4904|53|M|Jörgen Afvander|Undersköterska/Skötare, Älvsbyn
+C|4905|70|M|Anders Rönnqvist|Civilekonom, Haparanda
+C|4906|53|K|Anna Scott|IT-specialist, Luleå
+C|4907|43|K|Terese Falk Carolin|Frisör, Boden
+C|4908|68|M|Stig Nordqvist|Läkare, Gällivare
+C|4909|35|M|Martin Åström|Bergmaterialingenjör, Piteå
+C|4910|44|M|Tomas Vedestig|Handledare, Övertorneå
+C|4911|75|K|Margareta Dahlén|Sjuksköterska, Luleå
+C|4912|61|M|Sead Maglic|Lantmätare/Kriminalvårdare, Boden
+C|4913|76|M|Sören Sidér|F.d. Ingenjör, Kiruna
+C|4914|51|K|Lena Hedman|Undersköterska, Vidsel
+C|4915|62|K|Anne Stridsman|Distriktssköterskebarnmorska, Kangos
+C|4916|24|M|William Torikka|Studerande, Luleå
+C|4917|74|M|Christer Bergdahl|Företagare, Boden
+C|4928|54|M|Nicklas Johansson|Lärare, Gällivare
+C|4919|53|K|Monika Karlsson|Undersköterska, Piteå
+C|4920|70|K|Maire Nyström|Sjuksköterska, Övertorneå
+C|4921|72|M|Staffan Eriksson|Företagare, Luleå
+C|4922|45|K|Heli Valjus Helin|Specialistsjuksköterska, Boden
+C|4923|69|M|Dick Vånsjö|F.d. Officer, Kiruna
+C|4924|44|K|Veronica Afvander|Ekonomibiträde/Kokerska, Älvsbyn
+C|4925|52|K|Ann-Sofie Henriksson|Distriktssköterska, Tärendö
+C|4926|64|K|Lena Pallin|Administratör, Luleå
+C|4927|63|M|Roland Dahlqvist|Kock, Boden
+C|4938|72|M|Tommy Krigsman|F.d. Gruvarbetare, Palohuornas
+C|4929|45|K|Malin Markström|Undersköterska, Piteå
+C|4930|56|M|Mats Bodmark|Fil. Magister, Tärendö
+C|4931|62|M|Robert Edin|Ekonom, Luleå
+C|4932|39|M|Adrian Mirell|Kvalitetstekniker, Boden
+C|4933|69|K|Ulla Isaksson|Distriktssjukköterska, Vittangi
+C|4934|53|M|Mikael Hedman|Yrkeschaufför, Vidsel
+C|4935|76|M|Ole Lampinen|Ingenjör, Svanstein
+C|4936|80|K|Berit Vesterlund|F.d. Speciallärare, Luleå
+C|4937|45|M|Niclas Sjöö|Operatör, Boden
+C|4948|77|M|Göte Eriksson|Ekonom, Gällivare
+C|4939|66|K|Ewa Åström|Affärsbiträde, Rosvik
+C|4940|78|K|Alice Videkull|F.d. Idrottslärare, Junosuando
+C|4941|75|M|Fred Nyström|Ingenjör, Luleå
+C|4942|38|M|Edwin Mirell|Yrkeschaufför, Boden
+C|4943|59|K|Birgitta Pounu|Administratör, Kiruna
+C|4944|30|K|Sandra Pettersson|Receptionschef, Vidsel
+C|4945|51|K|Yvonne Kangas|Undersköterska, Juoksengi
+C|4946|73|M|Bengt-Åke Strand|Pensionär, Töre
+C|4947|48|K|Ulrika Lundmark|Sjuksköterska, Boden
+C|4957|77|K|Clary Eriksson|F.d. Lärare, Gällivare
+C|4949|54|K|Karin Andersson|Sjuksköterska, Rosvik
+C|4950|80|M|Holger Videkull|Skogsinspektor, Junosuando
+C|4951|81|M|Arvo Ahonen|Pensionär, N:a Gäddvik
+C|4952|40|K|Jessica Pettersson|Undersköterska, Boden
+C|4953|64|M|Arne Esberg|Pensionär, Kiruna
+C|4954|21|K|Sofia Hedman|Sjuksköterskestudent, Älvsbyn
+C|4955|64|K|Siv Maaherra|Distriktssjuksköterska, Övertorneå
+C|4956|60|K|Siv Hjort Lindstedt|Verksamhetschef, Boden
+C|7592|67|M|Bernt Nordgren|F.d. Lärare, Gällivare
+C|4958|74|M|Kjell Lundman|Pensionär, Piteå
+C|4959|45|K|Sara Bjerregaard|Handledare, Boden
+C|4960|42|K|Tina Kotkaniemi|Sjuksköterska, Boden
+C|4961|60|M|Ulf Isaksson|Väderobservatör, Vittangi
+C|4962|28|M|Samuel Hedman|Yrkeschaufför, Älvsbyn
+C|4963|20|K|Vanessa Franzén Lennestål|Administratör, Boden
+C|48258|40|M|Robert Håkansson|Distriksordförande, 40, Piteå
+C|47903|38|K|Paula Palmqvist|Sjuksköterska, 38, Gällivare
+C|119436|38|K|Marianne Sandström|Advokat, 38, Kalix
+C|48026|41|M|Per Göransson|Egenföretagare, 41 Luleå
+C|47862|66|K|Susanne Ström|Sjukgymnast, 66, Boden
+C|48260|74|M|Lage Hortlund|Lärare, 74 Piteå
+C|48257|37|K|Elin Håkansson|Vårdbiträde, 37, Piteå
+C|119441|71|M|Donald Sundh|Ingenjör, 71, Älvsbyn
+C|119442|32|K|Denise Magnusson|Egenföretagare, 32, Jokkmokk
+C|47866|64|M|Lars-Åke Vikström|fd. Officer, 64, Boden
+C|47868|65|M|Kurt-Åke Lindqvist|Pensionär, 65, Boden
+C|47864|62|K|Elisabet Nilsson|Sjuksköterska, 62, Boden
+C|119446|57|K|Kristina Karlsson|Undersköterska, 57, Kalix
+C|48027|50|M|Ilkka Isaksson|Metallarbetare, 50, Luleå
+C|119448|54|K|Carina Isaksson|Affärsbiträde, 54, Älvsbyn
+C|48031|75|M|Leslie Bailey|Egenföretagare, 75, Luleå
+C|119450|48|K|Susanne Darengren|Administratör, 48, Kalix
+C|47867|59|K|Barbro Ljungberg|Personlig rådgivare, 59, Boden
+C|47875|72|M|Håkan Lingbro|Pensionär, 72, Boden
+C|47871|67|M|Erik Hedberg|Bilmekaniker, 66, Boden
+C|47872|40|M|Robert Lund|Tjänsteman, Boden
+C|47860|63|M|Bernt Drugge|Handläggare, Boden
+C|119456|66|M|Dan Rautio|Fastighetsskötare, 66, Älvsbyn
+C|119457|77|M|Orvo Hannlöv|Konstnär, 77, Älvsbyn
+C|119458|72|M|Roland Segergren|Chaufför, 72, Älvsbyn
+C|48261|54|M|Ulf Lindeberg|Hamnarbetare, 54, Piteå
+C|119460|65|M|Tord Eklund|Pensionär, 83, Jokkmokk
+C|119461|53|M|Mats Fredlund|Yrkeschaufför, 54, Kiruna
+C|511132|65|M|PER NILSSON|Kirunabo
+C|511133|64|M|HENRY EMMOTH|Yrkeslärare
+C|30049|64|M|Glenn Berggård|Luleå
+C|30050|61|K|Kristina Nilsson|Kiruna
+C|30051|65|K|Elisabeth Bramfeldt|Arjeplog
+C|30052|66|K|Maria Holmquist-Ek|Piteå
+C|30053|58|K|Christina Snell-Lumio|Övertorneå
+C|30054|38|K|Linda Jonsson|Pajala
+C|163689|27|M|Conny Sundkvist|Boden
+C|163695|32|K|Sanna Berggren|Piteå
+C|30013|24|M|Erik Grähs|Arjeplog
+C|45909|55|K|Katarina Burman|Kalix
+C|185070|70|K|Gunnel Sandlund|Piteå
+C|163692|69|K|Kati Jääskeläinen|Luleå
+C|149432|66|K|Marianne Jakobsson|Överkalix
+C|30012|45|K|Nina Berggård|Luleå
+C|185188|19|M|Hampus Täikkö|Haparanda
+C|185273|70|M|Bo Goding|Kalix
+C|81094|56|M|Tomas Nordmark|Gällivare
+C|185074|71|M|Bo Engström|Boden
+C|149431|72|M|Sven Nordmark|Överkalix
+C|163697|44|K|Nina Lindström|Piteå
+C|185076|36|K|Hanna Goding|Luleå
+C|163694|64|M|Eilert Tallenhed|Boden
+C|185280|74|M|Sten Stridsman|Kiruna
+C|184095|72|K|Monica Carlsson|Luleå
+C|163701|73|M|Per Lönnberg|Piteå
+C|149159|49|K|Kristina Olofsson|Överkalix
+C|185196|72|K|Doris Söderberg|Kiruna

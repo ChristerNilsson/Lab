@@ -1,11 +1,291 @@
-2|146522|468503|146524|146525|146526|146527|146528|147063|147064|468395|147066|147067|147068|147069|147070|147071|147072|147073|147074|147075|147076|147812|147813|147814|147815|147816|147817|147818|147819|147820|147821|147822|147823|147824|147825|147826|147827|147828|148193|148194|148195|148196|148197|148198|148199|148974|148975|148976|148977|148978|148979|148980|148981|148982|148983|148984|148985|148986
-4|196476|196487|196481|199987|196496|199989|199990|199991|199992|199994|199995|196492|199997|199998|200000|200001|200002|200003|200004|396725|396726
-68|166582|166815|166593|166817|166590|166819|166820|166821|166822|166823|166824|166825|166826|166827|166667|166829|166830|166831
-1140|480106|515518
-1011|515667
-3|2180|2589|2584|2679|2680|2187|2682|2685|2686|2687|2688|2689|2690|2692|2693|2694|2695|2696|2697|2698|2699|2174
-1296|128531|188784|128579|188786|128559
-55|179239|179240|179241|179242|179243|179244|179245|179246|179247|179248|179249|179250|179251|179252|179253|179254|179255|179256|179257|179258|179259|179260|179261|179262|179263
-1|9983|325367|10001|325369|10148|9988|325372|10015|10138|325375|10169|10007|10144|10166|10011|325381|10004|9989|9999|325385|325386|10005|325388|325389|325390|325391|325392|325393|325394|10183|325396|325397|325398|325399|10177|325401|10163|325403
-110|32706|32713|32703|59109|59110|59111|59112|32709|59114|59115|59116|59118|59119|32717|59121|59122|59123|59124|32712|59126|59127|59128|59129|59130|32716|59132|59133|59134|59135|116136|83337|116138|116139|83346|116141|116142|116143|116145|116146|116147|116148|116149|116150|116151|116152|116153|116154|116155|116156
-5|12098|12107|12095|12081|32984|12085|12082|32987|32988|32989|12075|12103|32992|32993|32994|12077|32996|32997|32998|32999|33000|33001|12093|33003|33004|33005|33006|33007|33008|33009
+T|Eskilstuna
+A|2|146522|468503|146524|146525|146526|146527|146528|147063|147064|468395|147066|147067|147068|147069|147070|147071|147072|147073|147074|147075|147076|147812|147813|147814|147815|147816|147817|147818|147819|147820|147821|147822|147823|147824|147825|147826|147827|147828|148193|148194|148195|148196|148197|148198|148199|148974|148975|148976|148977|148978|148979|148980|148981|148982|148983|148984|148985|148986
+A|4|196476|196487|196481|199987|196496|199989|199990|199991|199992|199994|199995|196492|199997|199998|200000|200001|200002|200003|200004|396725|396726
+A|68|166582|166815|166593|166817|166590|166819|166820|166821|166822|166823|166824|166825|166826|166827|166667|166829|166830|166831
+A|1140|480106|515518
+A|1011|515667
+A|3|2180|2589|2584|2679|2680|2187|2682|2685|2686|2687|2688|2689|2690|2692|2693|2694|2695|2696|2697|2698|2699|2174
+A|1296|128531|188784|128579|188786|128559
+A|55|179239|179240|179241|179242|179243|179244|179245|179246|179247|179248|179249|179250|179251|179252|179253|179254|179255|179256|179257|179258|179259|179260|179261|179262|179263
+A|1|9983|325367|10001|325369|10148|9988|325372|10015|10138|325375|10169|10007|10144|10166|10011|325381|10004|9989|9999|325385|325386|10005|325388|325389|325390|325391|325392|325393|325394|10183|325396|325397|325398|325399|10177|325401|10163|325403
+A|110|32706|32713|32703|59109|59110|59111|59112|59114|59115|59116|59118|59119|32717|59121|59122|59123|59124|32712|59126|59127|59128|59129|59130|32716|59132|59133|59134|59135|116136|83337|116138|116139|83346|116141|116142|116143|116145|116146|116147|116148|116149|116150|116151|116152|116153|116154|116155|116156
+A|5|12098|12107|12095|12081|32984|12085|12082|32987|32988|32989|12075|12103|32992|32993|32994|12077|32996|32997|32998|32999|33000|33001|12093|33003|33004|33005|33006|33007|33008|33009
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|146522|40|M|Jimmy Jansson|40 år Grundskollärare Eskilstuna
+C|468503|47|K|Sarita Hotti|47 år Ekonom Eskilstuna
+C|146524|76|M|Lars Andersson|76 år Pensionär Eskilstuna
+C|146525|58|K|Ann-Sofie Wågström|58 år Förtroendevald Eskilstuna
+C|146526|36|M|Daniel Alexandersson|36 år Lastbilschaufför Eskilstuna
+C|146527|44|K|Marie Svensson|42 år Undersköterska Eskilstuna
+C|146528|56|M|Mikael Edlund|56 år Förtroendevald Eskilstuna
+C|147063|42|K|Majo Kuusikoski|42 år Socionom Eskilstuna
+C|147064|56|M|Björn Larsson|56 år Kriminalvårdare Eskilstuna
+C|468395|33|K|Lisa Friberg|33 år Gymnasielärare Eskilstuna
+C|147066|61|M|Geerth Gustavsson|61 år Ombudsman Eskilstuna
+C|147067|52|K|Nina Tuncer|52 år Arbetsförmedlare Eskilstuna
+C|147068|69|M|Lars-Göran Karlsson|69 år Egen företagare Torshälla
+C|147069|50|K|Teresa Laurén|50 år Enhetschef Eskilstuna
+C|147070|38|M|Owe Ek|38 år Lagerarbetare Eskilstuna
+C|147071|43|K|Theresia Jansson|43 år Ombudsman Kvicksund
+C|147072|32|M|Deria Ilia|32 år Egen företagare Eskilstuna
+C|147073|53|K|Mona Kanaan|53 år Utvecklingsstrateg Eskilstuna
+C|147074|43|M|Marko Grönfors|43 år Samhällsvägledare Eskilstuna
+C|147075|20|K|Josefine Helleday|20 år Juridikstuderande Eskilstuna
+C|147076|39|M|Magnus Hansson|39 år Folkbokföringsassistent Eskilstuna
+C|147812|71|K|Gunilla Cederfjord|71 år Pensionär Eskilstuna
+C|147813|62|M|Göran Andersson|62 år Handläggare Eskilstuna
+C|147814|51|K|Eine Ikonen|51 år Metallarbetare Torshälla
+C|147815|67|M|Clarence Palm|67 år Pensionär Eskilstuna
+C|147816|37|K|Karola Bast|37 år Statsvetare Eskilstuna
+C|147817|60|M|Lars-Göran Hammarberg|60 år Ombudsman Eskilstuna
+C|147818|18|K|Intisar Mahmood|18 år Studerande Eskilstuna
+C|147819|58|M|Viggo Hansen|58 år Ungdomsstödjare Eskilstuna
+C|147820|32|K|Nina Alexandersson|32 år Elektriker Ärla
+C|147821|65|M|Bert Eriksson|65 år Metallarbetare Kvicksund
+C|147822|71|K|Eva Johansson|71 år Pensionär Eskilstuna
+C|147823|66|M|Leif Andersson|66 år Pensionär Eskilstuna
+C|147824|70|K|Marianne Jonsson|70 år Pensionär Eskilstuna
+C|147825|38|M|Daniel Ekman|38 år Konstruktör Eskilstuna
+C|147826|20|K|Mandane Kakai|20 år Studerande Eskilstuna
+C|147827|56|M|Thomas Ackelid|56 år Marknadsförare Eskilstuna
+C|147828|61|K|Lena Blomkvist|61 år Grundskollärare Torshälla
+C|148193|67|M|Thomas Gustafsson|67 år Pensionär Skogstorp
+C|148194|64|K|Carin Zaric|64 år Assistent Eskilstuna
+C|148195|37|M|Magnus Carlsson|37 år Barnskötare Eskilstuna
+C|148196|36|K|Therése Huru|36 år Ombudsman Eskilstuna
+C|148197|73|M|Hans Bergström|73 år Pensionär Eskilstuna
+C|148198|56|K|Eva-Lena Plantin|56 år Vårdledare Eskilstuna
+C|148199|52|M|Ulf Rüdén|52 år Lärare Eskilstuna
+C|148974|58|K|Sirpa Mäkipää|58 år Metallarbetare Eskilstuna
+C|148975|55|M|Raino Kölhagen|55 år Snickare Eskilstuna
+C|148976|56|K|Marie Granlund|56 år Kurator Eskilstuna
+C|148977|57|M|Kent Sedin|57 år Ombudsman Eskilstuna
+C|148978|18|K|Ikram Mahmood|18 år Studerande Eskilstuna
+C|148979|52|M|Nicklas Karlsson|52 år Yrkeslärare Eskilstuna
+C|148980|66|K|Marianne Karlberg|66 år Pensionär Eskilstuna
+C|148981|60|M|Anders Kronqvist|60 år Metallarbetare Eskilstuna
+C|148982|32|K|Anna Mattsson|32 år Innovationsledare Ärla
+C|148983|56|M|Jonny Pettersson|56 år Inredningsarkitekt Torshälla
+C|148984|54|K|Marie-Jaqueline Hasselquist|54 år Sociologiutbildad Eskilstuna
+C|148985|74|M|Sonny Lundgren|74 år Pensionär Eskilstuna
+C|148986|61|K|Tine Bröns|61 år Metallarbetare Eskilstuna
+C|196476|72|M|Arne Jonsson|72 år,Redovisningskonsult,Eskilstuna
+C|196487|52|K|Lillemor Nordh|52 år,Universitetsadjunkt,Eskilstuna
+C|196481|35|M|Mattias Stjernström|35 år,Entreprenör,Eskilstuna
+C|199987|58|K|Maria Dahlin|58 år,Lantbrukare,Eskilstuna
+C|196496|54|M|Tommy Ellfolk|54 år,Företagare,Eskilstuna
+C|199989|49|K|Maria Hopstadius|49 år,Universitetsadjunkt, Eskilstuna
+C|199990|47|M|Carlos Costa|47 år,Advokat, Eskilstuna
+C|199991|56|K|Anna Bildt|56 år,Lokalsamordnare,Eskilstuna
+C|199992|61|M|Anders Nordin|61 år,Företagare,Eskilstuna
+C|199994|32|K|Sanna Mikkola|32 år,Marknadskommunikatör, Eskilstuna
+C|199995|33|M|Christofer Lindblad|32 år, Företagare,Eskilstuna
+C|196492|43|K|Anna-Maria Lindqvist Arrue|43 år,Journalist,Eskilstuna
+C|199997|60|M|Gunnar Bildt|60 år,Lantbrukare,Eskilstuna
+C|199998|46|K|Jenny Bergh|46 år,Konsult,Företagare,Eskilstuna
+C|200000|30|K|Ruwayda Ahmad Abdi|30 år,Studerande,Eskilstuna
+C|200001|31|M|Amer Solmaz|31 år,Studerande,Eskilstuna
+C|200002|74|M|Anders Kullstam|74 år,Entreprenör/ingejör,Eskilstuna
+C|200003|72|M|Gunnar Westermark|72 år,Lantmästare,Eskilstuna
+C|200004|63|M|Christer Dahlin|63år,Eskilstuna
+C|396725|54|M|Kulasegarampillai Sivakulam|54 år, Avancerad maskinoperatör, Eskilstuna
+C|396726|76|K|Margareta Grape-Lindblom|75 år, f.d.tandläkare, Eskilstuna
+C|166582|51|K|Lotta Jonsson|51, gruppledare, Ärla
+C|166815|65|M|Bo Hellmark|65, köpman, Eskilstuna
+C|166593|20|K|Alara Taher|20, studerande, Eskilstuna
+C|166817|57|M|Hans Öjemark|57, rådman, Ärla
+C|166590|59|M|Johan Rudengren|59, aukt. revisor, Husby-Rekarne
+C|166819|60|K|AnnChristin Liljeroos Grönås|60, barnmorska, Eskilstuna
+C|166820|51|M|Tomas Widin|51, systemutvecklare, Eskilstuna
+C|166821|37|K|Sevan Hovhannisyan|37, juristassistent, Eskilstuna
+C|166822|43|M|Tobias Nygren|43, projektledare, Ärla
+C|166823|40|K|Anna Newell|40, musiklärare, Eskilstuna
+C|166824|49|M|Samuel Deivard|49, transportsamordnare, Eskilstuna
+C|166825|33|K|Malin Persson|33, undersköterska, Eskilstuna
+C|166826|65|K|Kristina Gillberg|65, pensionär, Eskilstuna
+C|166827|75|M|Henry Aldrin|74, pensionär, Ärla
+C|166667|25|M|Borhan Bajati|25, studerande, Eskilstuna
+C|166829|37|K|Solomie Anghesom|37, undersköterska, Ärla
+C|166830|29|M|Christian Chitoleh Taura|29, barnskötare, Ärla
+C|166831|73|M|Karl-Erik Axelsson|73, pensionär, Ärla
+C|480106|50|K|Maria Brodd Hemmelin|egenföretagare, 50, Haninge
+C|515518|48|M|Hans-Olof Forsby|
+C|515667|82|M|Alf Karlman|
+C|2180|22|M|Stefan Krstic|livsmedelsarbetare, Eskilstuna
+C|2589|47|K|Erika Rydja Sandvik|gymnasielärare, Eskilstuna
+C|2584|41|M|Niklas Frykman|gruppledare, Eskilstuna
+C|2679|66|K|Helen Wretling|66, samordnare
+C|2680|42|M|Peter Harich|42, key account manager
+C|2187|53|K|Maria Buco|ekonom, Eskilstuna
+C|2682|22|M|Diyar Alis|22, socionomstudent
+C|2685|54|K|Irja Hökås|54, företagare
+C|2686|45|K|Jenny Dunberg|45, jur.kand.
+C|2687|42|M|Linus Björk|42, lärare
+C|2688|56|M|Aza Safari|56, installatör
+C|2689|74|K|Ulla Jilsmo|74, lärare
+C|2690|28|M|Mikael Eriksson|27, innovationsvetare
+C|2692|72|M|Thomas Stääv|72, f.d. personalchef
+C|2693|66|K|Anitha Wretling|66, kommunikatör
+C|2694|77|M|Per-Olof Eriksson|77, senior
+C|2695|78|K|Lahja Molin|78, senior
+C|2696|78|M|Gert Johansson|78, f.d företagsledare
+C|2697|54|K|Elisabeth Rytterström|54, controller
+C|2698|34|M|Victor Claesson|34, it support
+C|2699|76|M|Richard Karlsson|76, volontär
+C|2174|71|M|Christer Kax Sundberg|fd. rektor, Eskilstuna
+C|128531|42|K|Åsa Tallroth|42, Privattjänsteman, Södermanland
+C|188784|50|M|Kenth Reinelius|50 år, egenföretagare
+C|128579|65|K|Madeleine Forsgren|65, Agronom, Södermanland
+C|188786|44|M|Fredrik Lindblad|43 år, egenföretagare
+C|128559|47|M|Fredrik Sunnermark|47, Egenföretagare, Södermanland
+C|179239|49|K|Marielle Lahti|jurist, 49 år, Eskilstuna
+C|179240|41|M|Magnus Arreflod|41 år, folkhögskolelärare
+C|179241|29|K|Hanna Hessling|29 år, pressekreterare
+C|179242|35|M|Linus Lakso|35, ingenjör förnybar energi, Eskilstuna
+C|179243|31|M|Faisal Hassan|31 år, lärare
+C|179244|40|K|Nina Hedenfeldt|järnsmed, egenföretagare, 40 år, Eskilstuna
+C|179245|57|M|Stefan Sjöberg|57 år, VA-rådgivare
+C|179246|61|K|Gladys Silva|civilekonom, 61 år, Eskilstuna
+C|179247|38|M|Mohamed Abdukani|38 år, arbetsförmedlare
+C|179248|43|K|Erica Hallenstam|personlig assistent, 43 år, Eskilstuna
+C|179249|62|M|Ulf Isaksson|konsult, 62 år, Eskilstuna
+C|179250|67|K|Eva Johansson|pensionär, 67 år, Eskilstuna
+C|179251|48|M|Reynaldo Garcia Quinteros|lärare, 48 år, Eskilstuna
+C|179252|39|K|Theresia Hägglund|39 år, folkhögskolelärare
+C|179253|59|M|Ronny Ilhag|59 år, lastbilschaufför
+C|179254|57|K|Dinka Hodzic|57 år, civilekonom
+C|179255|53|M|Robert Lindberg|53 år, statsvetare
+C|179256|48|K|Sofia Michelson|48 år, bildlärare
+C|179257|31|M|Simon Larsson|31 år, studerande
+C|179258|34|K|Marjoriet Pezoa|34 år, arbetsförmedlare
+C|179259|61|M|Robert Forsman|61 år, lärare
+C|179260|67|K|Siv Aksila|67 år, f.d. Metallarbetare
+C|179261|43|M|Oscar Hedenfeldt|43 år, kanslichef
+C|179262|73|M|Jan Bergsten|73 år, egenföretagare
+C|179263|39|K|Tina Lindell|39 år, politisk sekreterare
+C|9983|49|M|Jari Puustinen|kommunalråd, Eskilstuna
+C|325367|54|M|Göran Gredfors|54 år, kommunalråd, Eskilstuna
+C|10001|50|K|Madeléne Tannarp|teamledare, Eskilstuna
+C|325369|72|M|Ulf Ståhl|72 år, sjöingenjör, Skogstorp
+C|10148|66|K|Ann Berglund|socionom, Eskilstuna
+C|9988|25|M|Robin Tannarp|studerande, Eskilstuna
+C|325372|75|M|Lars Olov Lundkvist|75 år, ingenjör, Ärla
+C|10015|20|M|Stefan Biscevic|studerande, Eskilstuna
+C|10138|56|M|Abshir Osman|lärare, Skogstorp
+C|325375|68|K|Gunilla Ternert|68 år, fd regionchef, Eskilstuna
+C|10169|52|M|Rafal Wisniewski|biobanksansvarig, Eskilstuna
+C|10007|57|K|Ulla Grip|chefssekreterare, Eskilstuna
+C|10144|49|M|Ulf Westerberg|konsult, Eskilstuna
+C|10166|43|M|Tomas Jönsson|civilekonom, Husby-Rekarne
+C|10011|20|M|Marko Biscevic|studerande, Eskilstuna
+C|325381|45|K|Anna Asklöf|45 år, åklagare, Torshälla
+C|10004|50|M|David Dishart|molekylärbiolog, Eskilstuna
+C|9989|40|M|Tony Meshko|frisör, Eskilstuna
+C|9999|20|K|Ilham Mahmood Ibrahim|studerande, Eskilstuna
+C|325385|27|M|Muhammed Tahsin|27 år, handläggare, Eskilstuna
+C|325386|67|M|Per Lundqvist|67 år, civilekonom, Stora Sundby
+C|10005|26|M|Filip Rundström|anestesisjuksköterska, Eskilstuna
+C|325388|68|M|Bernt Åke Edlund|68 år, pensionär, Eskilstuna
+C|325389|53|M|Patrick Sannetjärn|53 år, lagerarbetare, Eskilstuna
+C|325390|20|K|Louisa Fagarasan|20 år, studerande, Eskilstuna
+C|325391|52|M|Servat Barzangi|52 år, arbetsförmedlare, Eskilstuna
+C|325392|56|K|Ramona Grapenhielm|56 år, förbundschef, Eskilstuna
+C|325393|75|M|Erik Ternert|75 år, fd lagman, Eskilstuna
+C|325394|69|K|Ulla Stålberg|69 år, advokat, Torshälla
+C|10183|38|M|Magnus Eriksson|entreprenör, Eskilstuna
+C|325396|65|M|Håkan Linnskog|65 år, konsult, Eskilstuna
+C|325397|56|M|Torbjörn Andersson|56 år, affärsutvecklare, Eskilstuna
+C|325398|59|K|Ing-Marie Sandström|59 år, sjuksköterska, Hållsta
+C|325399|66|K|Gunnel Ristander|66 år, civilingenjör, Eskilstuna
+C|10177|62|M|Börje Lindqvist|62 år, kundansvarig, Eskilstuna
+C|325401|69|M|Torgny Zetterling|69 år, företagsledare, Eskilstuna
+C|10163|52|K|Susanne Henning Aihonen|marknadsförare, Eskilstuna
+C|325403|64|M|Mats Blomberg|64 år, småföretagare, Eskilstuna
+C|32706|29|M|Kim Fredriksson|Oppositionsråd, Eskilstuna
+C|32713|49|M|Mikael Nygren|Gymnasielärare, Eskilstuna
+C|32703|32|M|Anton Berglund|Politisk gruppledare, Eskilstuna
+C|59109|34|M|Adam Marttinen|Riksdagsledamot, Eskilstuna
+C|59110|29|K|Elin Blomberg|Redovisningsekonom, Eskilstuna
+C|59111|40|M|Seppo Vuolteenaho|Politisk sekreterare, Eskilstuna
+C|59112|54|K|Anita Nygren|54 år, Ekonomiassistent
+C|59114|38|M|Mikael Strömberg|38 år, Copywriter
+C|59115|40|K|Tatjana Gudmundsgårdh|Lärare, Eskilstuna
+C|59116|29|M|Tobias Gustafsson|29, Montör
+C|59118|49|K|Carina Åkeson|49 år, Produktionsplanerare
+C|59119|47|K|Charlott Elf|47 år, Personalchef
+C|32717|49|M|Lars Bohlin|49 år, Egenföretagare
+C|59121|44|M|Fredrik Elf|Supporttekniker, Eskilstuna
+C|59122|49|M|Peter Laufer|49 år, Målare
+C|59123|43|M|Stefan Bergqvist|43 år, Egenföretagare
+C|59124|49|K|Carola Sunesson|49 år, Sekreterare
+C|32712|49|K|Pernilla Eriksson|49 år, Undersköterska
+C|59126|43|M|Rikard Branting|43 år, Egenföretagare
+C|59127|46|K|Susanne Bergqvist|46 år, Tjänsteman
+C|59128|19|M|Simon Lindbäck|19 år, Studerande
+C|59129|48|K|Susanne Östling|48 år, Företagare
+C|59130|71|M|Sven-Göran Sigurd|71, Pensionär
+C|32716|42|K|Caroline Hansson|42 år, Distriktssköterska
+C|59132|65|K|Aila Kangas|65 år, Socionom
+C|59133|58|M|Michael Wilhemsson|58 år, Projektledare
+C|59134|59|M|Lars-Åke Phuthom|59, Väktare/Ordningsvakt
+C|59135|61|K|Ann-Cathrine Kaup|61 år, Pensionär
+C|116136|54|M|Tord Wall|54, IT-chef
+C|83337|60|M|Bengt Nilsson|60 år, Konsult
+C|116138|51|K|Marica Berger|51, Filialchef
+C|116139|54|M|Jan Larsson|54, Filialarbetare
+C|83346|42|M|Fredrik Jonasson|42 år, Yrkeschaufför
+C|116141|65|M|Tommy Kvarsell|65, Pensionär
+C|116142|41|K|Elisabeth Branting|41, Trädgårdsmästare
+C|116143|49|M|Johan Sundequist|49, Planerare
+C|116145|37|M|Daniel Blomqvist|37, Egenföretagare
+C|116146|58|M|Göran Kunstbergs|58, Musiklärare
+C|116147|49|K|Sirilak Phuthom|49, Lokalvårdare
+C|116148|56|M|Thomas Lindeberg|56, Chaufför
+C|116149|45|M|Admir Busbaher|45, Arbetsledare
+C|116150|61|M|Lars Gustafsson|61, Systemingenjör IT
+C|116151|47|M|Kim Seppälä|47, Yrkeschaufför
+C|116152|42|M|Sven Eriksson|42, Tjänsteman
+C|116153|59|M|Mats Klarin|59, Egenföretagare
+C|116154|23|M|Andreas Lillsjö|23, Student
+C|116155|59|M|Mikael Loberg|59
+C|116156|41|M|Johan Östman|41
+C|12098|45|K|Maria Chergui|45, Gruppledare, Eskilstuna
+C|12107|40|M|Jawad Zanganeh|40, VVS ingenjör, Eskilstuna
+C|12095|43|K|Maria Forsberg|43, Lärare, Eskilstuna
+C|12081|33|M|Johan Sandberg|33, CNC-operatör, Eskilstuna
+C|32984|51|K|Anette Stavehaug|51, Förskollärare, Eskilstuna
+C|12085|66|M|Alar Kuutmann|65, Kulturarbetare, Torshälla
+C|12082|33|K|Ida Myrbäck|33, Leg. dietist, Eskilstuna
+C|32987|59|M|Firat Nemrud|59, Verksamhetsutvecklare, Eskilstuna
+C|32988|74|K|Solveig Pohjola|74, Socionom, Eskilstuna
+C|32989|40|M|Elias Cataño|40, Facklig tågvärd, Eskilstuna
+C|12075|51|K|Roja Mahmoudi|51, Undersköterska, Eskilstuna
+C|12103|60|M|Rashid Azarå|59, Lärare, Eskilstuna
+C|32992|59|K|Monicka Larsson|59, Socionom, Eskilstuna
+C|32993|33|M|Marcus Helgstrand|33, Lagerarbetare, Eskilstuna
+C|32994|27|K|Veronika Jan|27, Leg. psykolog, Eskilstuna
+C|12077|61|M|Jukka Tahkävuori|60, Fordonstekniker, Eskilstuna
+C|32996|62|K|Carin Holmquist Kuutmann|62, Leg. psykolog, Eskilstuna
+C|32997|35|M|Joel Hamberg|35, Lärare, Eskilstuna
+C|32998|55|K|Irena Tyszko Tähkävuori|55, Lagerarbetare, Torshälla
+C|32999|66|K|Annika Goblirsch|65, Lärare, Eskilstuna
+C|33000|35|M|Anders Larsson|35, Animatör, Eskilstuna
+C|33001|54|K|Mirjam Abdulla-Poor|53, Boendestödjare, Eskilstuna
+C|12093|72|K|Maud Ekman|72, Pensionär, Eskilstuna
+C|33003|45|M|Naim Yusufi|45, Lärare, Eskilstuna
+C|33004|40|K|Karin Wretling|40, Statstjänsteman, Eskilstuna
+C|33005|67|M|Tommy Hamberg|67, Pensionär, Eskilstuna
+C|33006|66|K|Laima Hamberg|66, Pensionär, Eskilstuna
+C|33007|63|K|Kajsa Svärd|63, Lärare, Eskilstuna
+C|33008|69|M|Lennart Abrahamsson|69, Pensionär, Eskilstuna
+C|33009|77|K|Terhi Niemi|77, Pensionär, Eskilstuna

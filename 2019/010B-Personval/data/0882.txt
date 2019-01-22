@@ -1,8 +1,260 @@
-2|156919|19586|8252|19570|156923|156924|156925|8249|156927|156928|6595|156930|156931|156932|156933|156934|156935|156936|156937|156938|156939|156940|156941|156942|6603|156944|8254|156946|156947|8256|156949|156950|156951|156952|156953|156954|156955|156956|156957|156958|156959|156960|156961|156962|156963|156964|156965|156966|156967|156968
-4|206927|206928|206929|206930|206931|206932|206933|206934|206935|206936|206937|206938|206939|206940|206941|206942|206943|206944|206945|206946|206947|206948|206949|206950|206951|206952
-68|37420|25235|37429|25248|48173|48174|48175|25243|48177|48178|37414|37426|37424|37417|48183|48184|48185|48186|48187|37428|48189|48190
-3|49188|310063|310064|310065|310066|310067|310068|310069|310070|310071|310072|310073|310074|310075|310076|310077|310078|310079|310080|310081|310082|310083|310084|310085|310086
-55|158191|158192|158193|158194|158195|158196|158197|158198|158199
-1|163650|163651|163652|163653|163654|163655|163656|163657|163658|163659|163660|158890|160456|163663|158901|163665|160446|163667|163668|163669|163670|163671|163672|163673|163674|163675|163676|163677|163678|163679|163680|163681|163682|163683
-110|59851|60071|60072|60073|60074|60075|60076|60077|60078|60079|60080|60081|60082|60083|60084|60085|60086|60087|60088|60089|60090|60091|60092|60093|60094|60095|60096|60097|60098|60099|60100|60101|60102|60103|60104|60105
-5|342340|342341|342342|342343|342344|342345|342346|342347|342348|342349|342350|342351|342352|342353|342354|342355|342356|342357|342358|342359|342360|342361|342362|342363|342364|342365|342366|342367|342368|342369|342370|342371|342372|342373|342374|342375|342376|342377|342378|342379|342380|342381|342382
+T|Oskarshamn
+A|2|156919|19586|8252|19570|156923|156924|156925|8249|156927|156928|6595|156930|156931|156932|156933|156934|156935|156936|156937|156938|156939|156940|156941|156942|6603|156944|8254|156946|156947|8256|156949|156950|156951|156952|156953|156954|156955|156956|156957|156958|156959|156960|156961|156962|156963|156964|156965|156966|156967|156968
+A|4|206927|206928|206929|206930|206931|206932|206933|206934|206935|206936|206937|206938|206939|206940|206941|206942|206943|206944|206945|206946|206947|206948|206949|206950|206951|206952
+A|68|37420|25235|37429|25248|48173|48174|48175|25243|48177|48178|37414|37426|37424|37417|48183|48184|48185|48186|48187|37428|48189|48190
+A|3|49188|310063|310064|310065|310066|310067|310068|310069|310070|310071|310072|310073|310074|310075|310076|310077|310078|310079|310080|310081|310082|310083|310084|310085|310086
+A|55|158191|158192|158193|158194|158195|158196|158197|158198|158199
+A|1|163650|163651|163652|163653|163654|163655|163656|163657|163658|163659|163660|158890|160456|163663|158901|163665|160446|163667|163668|163669|163670|163671|163672|163673|163674|163675|163676|163677|163678|163679|163680|163681|163682|163683
+A|110|59851|60071|60072|60073|60074|60075|60076|60077|60078|60080|60081|60082|60083|60084|60085|60086|60087|60088|60089|60090|60091|60092|60093|60094|60095|60096|60097|60098|60099|60101|60102|60103|60104|60105
+A|5|342340|342341|342342|342343|342344|342345|342346|342347|342348|342349|342350|342351|342352|342353|342354|342355|342356|342357|342358|342359|342360|342361|342362|342363|342364|342365|342366|342367|342368|342369|342370|342371|342372|342373|342374|342375|342376|342377|342378|342379|342380|342381|342382
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|156919|41|M|Andreas Erlandsson|Kommunalråd, Rödsle, 41 år
+C|19586|60|K|Anita Hultgren|specialistundersköterska, Kristdala, 60 år
+C|8252|27|M|Anton Sejnehed|skattehandläggare, Oskarshamn, 27 år
+C|19570|36|K|Laila Naraghi|riksdagsledamot, Oskarshamn, 36 år
+C|156923|58|M|Sami Durmishi|CNC-operatör, Kristineberg, 58 år
+C|156924|41|K|Thina Andersson|Engagerad, Figeholm, 41 år
+C|156925|74|M|Åke Nilsson|Pensionär, Kristineberg, 74 år
+C|8249|61|K|Yvonne Bergvall|utbildare, Oskarshamn, 61 år
+C|156927|42|M|Jonas Brorsson|Tjänsteman, Vånevik, 42 år
+C|156928|70|K|Mona Tegel|Pensionär, Figeholm, 70 år
+C|6595|52|M|Peter Wretlund|politiker, Oskarshamn, 52 år
+C|156930|40|K|Catrin Alfredsson|Undersköterska, Svalliden, 40 år
+C|156931|39|M|Faig Osmanov|Arbetsförmedlare, Kristineberg, 39 år
+C|156932|58|K|Lena Blomander|Utbildare, Kristineberg, 58 år
+C|156933|53|M|Joakim Rylin|Fackligt förtroendevald, Södertorn, 53 år
+C|156934|56|K|Cornelia Stamer|Vårdbiträde, Gröndal, 56 år
+C|156935|72|M|Stellan Lindeberg|Enhetschef, Kristineberg, 72 år
+C|156936|42|K|Jenny Ilke Hjelm|Montör, Fårbo, 42 år
+C|156937|38|M|Elvis Prakatur|Industriarbetare, Svalliden, 38 år
+C|156938|38|K|Marie Holmgren|Skyddsvakt, Svalliden, 38 år
+C|156939|53|M|Dennis Rydh|Järnvägstjänsteman, Kristineberg, 53 år
+C|156940|25|K|Sara Malek|Timvikarie, Kristineberg, 25 år
+C|156941|36|M|Richard Dunsäter|Kontrollrumsingenjör, Tratten, 36 år
+C|156942|68|K|Katrina Lindeberg|Pensionär, Kristineberg, 68 år
+C|6603|43|M|Rickard Bäck|processledare, Oskarshamn, 43 år
+C|156944|48|K|Heléne Bolling|Personligt ombud, Fallebo, 48 år
+C|8254|46|M|Leine Johansson|industriarbetare, Oskarshamn, 46 år
+C|156946|22|K|Elin Sejnehed|Butiksmedarbetare, Norrtorn, 22 år
+C|156947|77|M|Berth Karlsson|Pensionär, Kristineberg, 77 år
+C|8256|20|K|Mikaela Alette|elevassistent, Oskarshamn, 20 år
+C|156949|45|M|Patrik Wahlström|Butiks- och lageransvarig, Kolberga, 45 år
+C|156950|78|K|Rigmor Eklind|Pensionär, Oskarshamn, 78 år
+C|156951|44|M|Firas Aburached|Modersmålslärare, Oskarshamn, 44 år
+C|156952|71|K|Monica Svensson|Pensionär, Norrtorn, 71 år
+C|156953|51|M|Dennis Bäckman|Fackordförande för Pappers avd 89, Oskarshamn, 51 år
+C|156954|34|K|Frida Bergvall|HR-ansvarig, Norrtorn, 34 år
+C|156955|70|M|Arne Nilsson|Pensionär, Gröndal, 70 år
+C|156956|58|K|Carina Freij Nolin|Material controller, Kristdala, 58 år
+C|156957|74|M|Lars-Olof Jonsson|Pensionär, Flinshult, 74 år
+C|156958|29|K|Sabina Vretlund|Studerande, Svalliden, 29 år
+C|156959|71|M|Kent Lundgren|Pensionär, Fårbo, 71 år
+C|156960|74|K|Marianne Erlandsson|Pensionär, Oskarshamn, 74 år
+C|156961|50|K|Paulin Susay|Undersköterska, Oskarshamn, 50 år
+C|156962|43|M|Yusuf Sheek|Ljustillverkare, Kristineberg, 43 år
+C|156963|58|K|Lis Lyrbo|Enhetsassistent,Oskarshamn, 58 år
+C|156964|68|M|Sven-Åke Johansson|Pensionär, Kristdala, 68 år
+C|156965|69|K|Anna-Lena Naraghi|Pensionär, Norrtorn, 69 år
+C|156966|70|M|Tormod Nesset|Pensionär, Oskarshamn, 70 år
+C|156967|68|M|Ingvar Jonasson|Pensionär, Oskarshamn, 68 år
+C|156968|80|M|Torgny Nilsson|Pensionär, Oskarshamn, 80 år
+C|206927|36|M|Magnus Larsson|36 år, ekonom, Kristdala
+C|206928|49|K|Charlotte Sternell|enhetschef, Oskarshamn
+C|206929|61|M|Tommy Skoog|60 år, egen företagare, Bråbo
+C|206930|39|M|Andréas Jarlstråle|40 år, projektledare, Oskarshamn
+C|206931|57|K|Anette Rogö|57 år, samtalsterapeut, Bockara
+C|206932|61|M|Thomas Björklund|61 år, försäljningsingenjör, Oskarshamn
+C|206933|22|M|Henning Håkansson|22 år, studerande, Mörtfors
+C|206934|76|K|Ingrid Brundin|76 år, leg. barnmorska, Oskarshamn
+C|206935|46|M|Khaled Al Aidee|46 år, veterinär, Kristdala
+C|206936|37|K|Malin Adolfsson|redovisningskonsult, Fårbo
+C|206937|56|K|Gudrun Arvidsson|vårdlärare, Östantorp
+C|206938|65|M|Tony Lindgren|lantbruksavbytare, Figeholm
+C|206939|58|K|Kerstin Karlsson|affärsbiträde, Fårbo
+C|206940|57|K|Miriam Karlsson|sjuksköterska, Bockara
+C|206941|74|M|Mårten Aronsson|pensionär, Bråbo
+C|206942|74|M|Claes Mark|pensionär, Gässhult
+C|206943|59|M|Mats Arvidsson|lärare, Östantorp
+C|206944|45|K|Chanette Lindrot|45 år, montör, Fårbo
+C|206945|42|M|Anders Danielsson|lärare, Kristdala
+C|206946|71|K|Margareta Wolf|sjuksköterska, Gässhult
+C|206947|81|M|Ivar Andersson|81 år, lantbrukare, Krokshult
+C|206948|79|M|Karl-Gunnar Karlsson|skogsbrukare, Figeholm
+C|206949|68|M|Nils-Åke Axelsson|lantbrukare, Ishult
+C|206950|65|M|Jan-Åke Erlandsson|lantbrukare, Tjuståsa
+C|206951|67|M|Lars Karlsson|lantbrukare, Skinshult
+C|206952|83|M|Fritz Axelsson|pensionär, Bockara
+C|37420|66|M|Ingemar Lennartsson|skogskonsult, Döderhult
+C|25235|27|K|Rebecka Englund|leg sjuksköterska, Oskarshamn
+C|37429|55|M|Per Tingström|brandman, Oskarshamn
+C|25248|26|M|Andreas Englund|gymnasielärare, Oskarshamn
+C|48173|65|M|Göran Öberg|ekonom, Kolberga
+C|48174|59|K|Annika Karlsson|lokalvårdare, Oskarshamn
+C|48175|73|M|Ulf Sjöö|civilingenjör, Ernemar
+C|25243|43|K|Belinda Luong|bankchef, Oskarshamn
+C|48177|78|M|Eino Blixt|pensionär, Kristdala
+C|48178|43|K|Magdalena Babinska|hjärtspecialist, Oskarshamn
+C|37414|63|M|Sven Gunnar Persson|f d rektor, Figeholm
+C|37426|63|K|Gudrun Camnerin|barnskötare, Oskarshamn
+C|37424|59|M|Stefan Håkansson|metallarbetare, Döderhult
+C|37417|75|K|Runa Liedén Karlsson|distriktsläkare, Bockara
+C|48183|53|M|Magnus Petersson|kvalitetsingenjör, Påskallavik
+C|48184|44|K|Anna Bredmar|högstadielärare, Oskarshamn
+C|48185|65|M|Leif Camnerin|musiklärare, Mockebo
+C|48186|63|M|Anders Lennartsson|måleriarbetare, Kristineberg
+C|48187|69|K|Berit Sjöö|barnmorska, Ernemar
+C|37428|51|M|Sven-Roland Danielsson|kanslist, Oskarshamn
+C|48189|58|K|Lena Håkansson|arbetsförmedlare, Döderhult
+C|48190|45|M|Patrick Tille|fotograf, Oskarshamn
+C|49188|44|M|Mathias Karlsson|företagare, Oskarshamn
+C|310063|75|K|Lena Tolander|Jurist, senior, Figeholm
+C|310064|28|M|Pontus Welin|Gymnasielärare, Oskarshamn
+C|310065|22|K|Johanna Wyckman|Universitetstudent, Oskarshamn
+C|310066|28|M|Johannes Lindberg|Fastighetsskötare, Oskarshamn
+C|310067|73|K|Lisbeth Karlsson|Administratör, Påskallavik
+C|310068|76|M|Karl-Erik Gustavsson|Pastor, Döderhult
+C|310069|32|M|Fredrik Eckerskog|32 år, snickare och friskvårdskonsulent, Oskarshamn
+C|310070|26|K|Lina Bobrovskij|26år, lärare, Oskarshamn
+C|310071|40|M|Jonas Andersson|40 år, Oskarshamn
+C|310072|34|M|Igor Trisic|Kärnkraftsingenjör, Oskarshamn
+C|310073|63|K|Annica Fransson|Undersköterska, Oskarshamn
+C|310074|35|M|Antonio Nicoli|Socionom, Oskarshamn
+C|310075|26|M|Johan Nilsson|25 år, lärare, Oskarhamn
+C|310076|45|M|Lukasz Czarnowski|46 år, läkare-psykiater, Oskarshamn
+C|310077|43|M|Nguyen Song Ha|Oskarshamn
+C|310078|76|K|Solweig Weber|Fd. informatör, Röda Korset, Kyrkorådet, Kyrkofullmäktig, Oskarshamn
+C|310079|34|M|Tobias Eriksson|34 år, inköpare, Oskarshamn
+C|310080|34|K|Olga Maskenskaya|Doktor i miljövetenskap, Oskarshamn
+C|310081|70|M|Roland Johansson|Figeholm
+C|310082|43|K|Anette Öckervall|Oskarshamn
+C|310083|65|M|Jörgen Karlsson|Entreprenör, Oskarshamn
+C|310084|74|K|Lisbeth Lindberg|Fil.Mag., Oskarshamn
+C|310085|40|M|Johan Jansson|Oskarshamn
+C|310086|38|M|Stefan Öckervall|Oskarshamn
+C|158191|59|K|Ingmarie Söderblom|59 år, Oskarshamn
+C|158192|43|K|Anna Lingman|Marinbiolog, Långsjömåla Oskarshamn
+C|158193|59|M|Gunnar Westling|Klimatrapportör, Svalliden Oskarshamn
+C|158194|56|K|Inger Landgren|Distriktsläkare, Svalliden Oskarshamn
+C|158195|45|K|Linda Högsander Lindqvist|Trädgårdsingenjör, Rotvik Oskarshamn
+C|158196|67|M|Stig Tomas Mark|Pastor emeritus, Figeholm
+C|158197|61|K|Susanne Tillman|Maskinoperatör, Vånevik Påskallavik
+C|158198|64|M|Stefan Larsson|Webbdesigner, Kristineberg Oskarshamn
+C|158199|83|K|Sif Strand-Rönnbäck|Fd kulturchef, Skuru Figeholm
+C|163650|52|K|Ingela Ottosson|Oskarshamn
+C|163651|55|K|Ylva Alexandersson|Oskarshamn
+C|163652|47|K|Carina Lind|Oskarshamn
+C|163653|64|M|Rolf Lindström|Oskarshamn
+C|163654|60|K|Elizabet Åström|Figeholm
+C|163655|43|K|Connéelia Lundin|Oskarshamn
+C|163656|41|M|Stefan Karlsson|Oskarshamn
+C|163657|74|K|Gudrun Gustafsson|Oskarshamn
+C|163658|66|M|Pär Örsta|Oskarshamn
+C|163659|55|M|Jonas Hasting|Oskarshamn
+C|163660|66|M|Pasquale Razzano|Oskarshamn
+C|158890|34|M|Lucas Lodge|34 år, Företagsrådgivare, Oskarshamn
+C|160456|63|M|Berndt Karlsson|63 år, Revisor, Oskarshamn
+C|163663|62|M|Stefan Pettersson|Oskarshamn
+C|158901|50|M|Lars Engsund|50 år, Civilingenjör, Oskarshamn
+C|163665|23|K|Felicia Åström|Oskarshamn
+C|160446|72|M|Lennart Hellström|72 år, Läkare, Oskarshamn
+C|163667|41|M|Richard Karlsson|Oskarshamn
+C|163668|52|M|Ken Stenman|Oskarshamn
+C|163669|19|M|Sandro Bedzetovic|Oskarshamn
+C|163670|72|K|Eva-Marie Hansson|Klintemåla
+C|163671|76|M|Lars-Göran Hansson|Klintemåla
+C|163672|64|K|Marie Erlandsson|Oskarshamn
+C|163673|55|M|Peter Ljung|Påskallavik
+C|163674|77|K|Livija Klintheim|Oskarshamn
+C|163675|72|M|Åke Sehammar|Oskarshamn
+C|163676|75|K|Ing-Mari Brunnsgård|Figeholm
+C|163677|68|K|Kerstin Pettersson|Bockara
+C|163678|43|M|Magnus Utterström|Oskarshamn
+C|163679|80|M|Göte Pettersson|Bockara
+C|163680|23|M|Simon Ternstål|Oskarshamn
+C|163681|52|M|Carl Johan Persson|Oskarshamn
+C|163682|61|K|Ewa Carlsson|Oskarshamn
+C|163683|61|M|Owe Carlsson|Oskarshamn
+C|59851|34|M|Michael Erlandsson|Montör, Oskarshamn
+C|60071|75|K|Britt-Marie Sundqvist|Miljösamordnare, Oskarshamn
+C|60072|56|M|Dan Bengtsson|egenföretagare, Oskarshamn
+C|60073|65|M|Leif Axelsson|verksamhetschef, Oskarshamn
+C|60074|76|M|Jan Johansson|Hälsocoach, Oskarshamn
+C|60075|62|M|Anders Svensson|elkonstruktör, Oskarshamn
+C|60076|33|M|Mattias Bäckström Johansson|Driftingenjör, Oskarshamn
+C|60077|26|M|Niklas Arvidsson|butikssäljare, Oskarshamn
+C|60078|32|K|Josefine Johansson|undersköterska, Oskarshamn
+C|60080|70|M|Peter Bohman|tandtekniker, Oskarshamn
+C|60081|55|K|Chahanna Olsson|företagare, Oskarshamn
+C|60082|48|M|Leif Holmberg|bryggmästare, Oskarshamn
+C|60083|76|M|Nils-Erik Jonsson|f.d. busschaufför, Oskarshamn
+C|60084|30|M|Andreas Bäckström|samordnare, Oskarshamn
+C|60085|38|M|Mattias Öhlin|saneringstekniker, Oskarshamn
+C|60086|76|K|Laila Johansson|f.d. företagare, Oskarshamn
+C|60087|47|K|Linda Ernström|personlig assistent, Påskallavik
+C|60088|63|K|Ulla Bengzon|biomedicinsk analytiker, Oskarshamn
+C|60089|45|M|Mounir Al Awil|bagare, Oskarshamn
+C|60090|31|M|Erik Giessel|operatör, Oskarshamn
+C|60091|74|K|Marie-Louise Svensson|f.d. lärare, Oskarshamn
+C|60092|81|M|Jonny Evaldsson|transportarbetare, Bockara
+C|60093|46|M|Marcus Karlsson|chaufför, Oskarshamn
+C|60094|29|M|Rickard Giessel|truckförare, Oskarshamn
+C|60095|47|K|Vassilica Danielsson|undersköterska, Figeholm
+C|60096|32|M|Stefan Samuelsson|logistikhanterare, Oskarshamn
+C|60097|51|K|Helena Johansson|undersköterska, Oskarshamn
+C|60098|87|M|Uno Josefsson|f.d. egenföretagare, Oskarshamn
+C|60099|75|M|Bo Lennart Nilsson|pensionär, Oskarshamn
+C|60101|72|M|Lars-Gunnar Johansson|sjuksköterska, Oskarshamn
+C|60102|71|K|Ing-Britt Svensson|pensionär, Oskarshamn
+C|60103|74|M|Jan Sverker Malmgren|brandmästare, Bockara
+C|60104|76|M|Klas Jonsson|pensionär, Oskarshamn
+C|60105|72|M|Jan Berkeskär|f.d. polis, Oskarshamn
+C|342340|41|K|Lena Granath|Oskarshamn, Butikschef
+C|342341|52|K|Lena Fyhr|Oskarshamn, Skötare/Behandlare
+C|342342|71|M|Ingmar Hjalmarsson|Oskarshamn, Pensionär
+C|342343|68|K|Veronika Guljas|Pensionär
+C|342344|73|M|Vidar Aldorsson|Oskarshamn, Svarvare
+C|342345|68|K|Marita Reinholdsson|Vårdare LSS
+C|342346|64|M|Stig Gustavsson|Pensionär
+C|342347|76|K|Monica Johansson|f.d. miljö-och hälsoskyddschef
+C|342348|46|M|Fredrik Jonasson|Truckförare
+C|342349|33|K|Angelika Ågren|Studerande
+C|342350|72|M|Claes Zachrisson|Oskarshamn, Socionom
+C|342351|67|K|Agneta Aldorsson|Domstolssekreterare
+C|342352|43|M|Andreas Lindgren|Oskarshamn, Industriarbetare
+C|342353|76|K|Ing-Britt Runermark|Bibliotikarie
+C|342354|43|M|Pierre Tornedal|Cirkelhandledare
+C|342355|61|K|Svetlana Andelova|Redovisningsekonom
+C|342356|22|M|Emil Fyhr|Målare
+C|342357|23|K|Alise Henriksson|Studerande
+C|342358|76|M|Matti Wahlström|El-ingenjör
+C|342359|27|K|Emelie Claesson-Roback|Industriarbetare
+C|342360|76|M|Herje Westrin|Pensionär
+C|342361|30|K|Sofia Hörnell|Undersköterska
+C|342362|72|M|Ulf Malmberg|Musiker
+C|342363|30|K|Charoline Älvsdahl|Trafiklärare
+C|342364|43|M|Richard Gustafsson|Finsnickare
+C|342365|52|K|Saga Lundberg|Truckförare
+C|342366|30|M|Emanuel Fyhr|Besiktningstekniker
+C|342367|54|K|Catarina Gustavsson|Emallagehanterare
+C|342368|43|M|Daniel Haeggström|Vårdare/Boendestödjare
+C|342369|65|K|Margareta Svensson|Pensionär
+C|342370|70|M|Cenneth Holmberg|Snickare
+C|342371|53|K|Annika Nilsson|
+C|342372|40|M|Mikael Johansson|Industriarbetare
+C|342373|70|K|Martina Holmberg|Sömmmerska
+C|342374|41|M|Johan Granath|Säljare
+C|342375|61|K|Sylvia Borg|Oskarshamn, Fotograf
+C|342376|51|M|Michael Nilsson|Chaufför
+C|342377|69|K|Kerstin Granath|Pensionär
+C|342378|54|M|Jerker Höggren|Truckförare
+C|342379|56|K|Carina Lundqvist|Vårdare
+C|342380|28|M|Magnus Runnsjö|
+C|342381|71|K|Gunilla Henriksson|f.d. Förskolelärare
+C|342382|65|M|Mats Rosén|Pensionär

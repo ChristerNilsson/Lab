@@ -1,6 +1,103 @@
-2|197825|193297|192104|197828|197829|192117|197831|197832|193290|197834|197835|197836|197837|197838|197839|197840|193302|197842|197843|197844|197845|197846|197847|197848|197849|193309|197851|197852|197853|197854
-4|48801|56631|56632|56633|55859|56635|56636|56637|56638|56639|56640|56641
-68|5830|24166|24167|24168|24169|24170|24171|24172|24173|24174|24175|24176|24177|24178|24179|24180|24181|24182|24183|24184|57493|24185
-3|157345|157346|157347|157348|157349|157350|157351|157352|157353|157354|157355|157356|157357|157358
-110|71267
-5|375179|353411|375181|353412|377688|375183|375184|375185|375186|375187|375188
+T|Norsjö
+A|2|197825|193297|192104|197828|197829|192117|197831|197832|193290|197834|197835|197836|197837|197838|197839|197840|193302|197842|197843|197844|197845|197846|197847|197848|197849|193309|197851|197852|197853|197854
+A|4|48801|56631|56632|56633|55859|56635|56636|56637|56638|56639|56640|56641
+A|68|5830|24166|24167|24168|24169|24170|24171|24172|24173|24174|24175|24176|24177|24178|24179|24180|24181|24182|24183|24184|57493|24185
+A|3|157345|157346|157347|157348|157349|157350|157351|157352|157353|157354|157355|157356|157357|157358
+A|110|71267
+A|5|375179|353411|375181|353412|377688|375183|375184|375185|375186|375187|375188
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|197825|57|M|Mikael Lindfors|Traktorförare, 57 år, Norsjö
+C|193297|48|K|Jeanette Berggren|48 år, Enhetschef, Fromheden
+C|192104|51|M|Isak From|51 år, Industriarbetare, Norsjö
+C|197828|44|K|Anna Lidén|Kontorist, 44 år, Bjursele
+C|197829|41|M|Mattias Degerman|Undersköterska, 41 år, Bastuträsk
+C|192117|31|K|Emma Lindfors|31 år, Ekonom, Norsjö
+C|197831|65|M|Anders Björk|Pensionär, 65 år, Risliden
+C|197832|67|K|Harrieth Sundström|Pensionär, 67 år, Norsjö
+C|193290|46|M|Magnus Eriksson|46 år, Ombudsman, Norsjö
+C|197834|75|K|Gun-Britt Jönsson|Pensionär, 75 år, Norsjö
+C|197835|73|M|Sam Venngren|Pensionär, 73 år, Bodberg
+C|197836|49|K|Astrid Nerdal|Bagare, 49 år, Kvarnåsen
+C|197837|61|M|Staffan Hjelte|Träindustriarbetare, 61 år, Norsjövallen
+C|197838|47|K|Linda Lidén|Administratör, 47 år, Finnäs
+C|197839|35|M|Conny Björkbacka|Turistguide, 35 år, Norsjö
+C|197840|27|K|Emelie Holmström|Fritidspedagog, 27 år, Norsjö
+C|193302|40|M|Robert Nerdal|40 år, Bagare, Kvarnåsen
+C|197842|52|K|Carina Lidén|Arbetscoach, 52 år, Norsjö
+C|197843|67|M|Lars Israelsson|f.d. Kultursekreterare, 67 år, Bastuträsk
+C|197844|54|K|Katarina Hjelte|Folkbildare, 54 år, Norsjö
+C|197845|57|M|Bengt Söderberg|Slöjdlärare, 57 år, Norsjö
+C|197846|49|K|Joanne Patricia Fraser|Undersköterska, 49 år, Bastuträsk
+C|197847|51|M|Peder Hallén|Projektledare, 51 år, Norsjö
+C|197848|63|K|Vanja Degerman|Kanslist, 63 år, Bastuträsk
+C|197849|41|M|John Scheutz-Nilsson|Produktutv., 41 år, Norsjövallen
+C|193309|46|K|Eva-Lena Björk|46 år, Undersköterska, Norsjö
+C|197851|51|M|Roger Albertsson|Näringslivsutvecklare, 51 år, Bjurträsk
+C|197852|65|K|Irene Väppling|Pensionär, 65 år, Norsjö
+C|197853|42|M|Almer Ordonez|Undersköterska, 42 år, Bastuträsk
+C|197854|75|K|Ulla Lundgren|Pensionär, 75 år, Bastuträsk
+C|48801|42|M|Robert Boström|42 år, Personlig assistent, Norsjö
+C|56631|46|K|Angelika Sejdner|46 år, Tjänsteman, Heden
+C|56632|45|M|Patrick Ström|45 år, Samordnare, Norsjö
+C|56633|33|K|Eva Almgren|33 år, Boendehandledare, Bjursele
+C|55859|49|M|Bo-Martin Alm|49 år, Hemmansägare, Norsjö
+C|56635|48|K|Sofi Fransson|48 år, Förskolechef, Norsjö
+C|56636|48|M|Jörgen Andersson|48 år, Boendehandledare, Norsjö
+C|56637|47|K|Gertrud van der Bor|47 år, Vårdbiträde, Bastuträsk
+C|56638|27|M|Hussein Husseini|27 år, Boendehandledare, Norsjö
+C|56639|75|K|Maud Stenmark|75 år, Pensionär, Båtfors
+C|56640|65|M|Gunnar Westermark|65 år, Egenföretagare, Bastuträsk
+C|56641|61|M|Olof Berglund|61 år, Grönsaksodlare, Svansele
+C|5830|57|M|Håkan Jansson|boendehandledare, Norsjö
+C|24166|62|M|Lars-Åke Holmgren|konsult, Norsjö
+C|24167|72|K|Lena Brännström|gruppledare, Norsjö
+C|24168|43|K|Martina Eriksson|lärare, Norsjö
+C|24169|41|K|Sara Eriksson|skolsköterska, Norsjö
+C|24170|19|K|Linnea Lind|studerande, Norsjö
+C|24171|48|M|Tesfa Gudeta|boendestödjare, Norsjö
+C|24172|59|K|Sofi Lind|begravningsombud, Norsjö
+C|24173|46|M|Per Selin|gymnasielärare, Norsjö
+C|24174|37|K|Inna Gudeta|ekonom, Norsjö
+C|24175|30|M|Henric Lind|bergarbetare, Norsjö
+C|24176|48|K|Maria Selin|förskollärare, Norsjö
+C|24177|60|M|Patrik Lindgren|företagare, Norsjö
+C|24178|19|K|Johanna Ask Jansson|barnskötare, Norsjö
+C|24179|53|K|Mimmi Larsson Sühl|områdeschef, Bjursele
+C|24180|65|M|Tewolde Tegegne|boendestödjare, Norsjö
+C|24181|68|K|Ingrid Johansson|leg. sjuksköterska, Norsjö
+C|24182|71|K|Inger Forssell|pensionär, Norsjö
+C|24183|64|M|Richard Malm|tekniker, Norsjö
+C|24184|67|K|Matilda Ek|mentalskötare, Petikträsk
+C|57493|21|M|Yowhans Bael|vårdbiträde, Norsjö
+C|24185|52|M|Anders Larsson|företagare, Bjursele
+C|157345|42|K|Jennie Norén-Thorgren|Gymnasielärare,Norsjö
+C|157346|41|M|Andreas Landin|Egenföretagare,Norsjö
+C|157347|57|M|Rickard Nilsson|Platschef,Norsjö
+C|157348|70|M|Stig Larsson|Egenföretagare,Norsjö
+C|157349|36|M|Anton Andersson|Egenföretagare,Norsjö
+C|157350|52|K|Lena Persson|Norsjö
+C|157351|73|M|Erik Grahn|Byggnadsarbetare,Norsjö
+C|157352|73|M|Martin Landin|Egenföretagare,Norsjö
+C|157353|32|M|Patrik Svensson|Studerande,Norsjö
+C|157354|90|K|Gerd Lundström|Pensionär,Norsjö
+C|157355|70|M|Lennart Landin|Egenföretagare,Norsjö
+C|157356|55|M|Peder Gustavsson|Boendehandledare,Norsjö
+C|157357|55|M|Erik Lundström|Grävmaskinist,Norsjö
+C|157358|82|M|Roland Holm|Pensionär,Norsjö
+C|71267|34|M|Petter Nilsson|Svetsare, Umeå
+C|375179|59|M|Hans Klingstedt|
+C|353411|31|K|Lina Hjelte|Brevbärare, Norsjö
+C|375181|37|K|Sandra Karlsson|
+C|353412|75|M|Gunnar Broström|Pensionär, Norsjö
+C|377688|37|M|Eddy Kalyango|
+C|375183|70|K|Anita Björk|
+C|375184|62|K|Gunilla Bergquist|
+C|375185|60|M|Roger Berggren|
+C|375186|64|M|Ulf Berggren|
+C|375187|35|K|Ida Broström|
+C|375188|49|K|Annika Holmström|

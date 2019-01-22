@@ -1,10 +1,178 @@
-124|245206|245207|245208|245209|245210|245211|245212|245213|245214|245215|245216|245217|245218|245219|245220|245221|245222|245223|245224|245225|245226|245227|245228|245229|245230|245231|245232|245233|245234
-2|227548|227549|227550|227551|227552|227553|227554|227555|227556|227557|227558|227559|227560|227561|227562|227563|227564|227565|227566|227567|227568|227569|227570|227571|227572|227573|227574|227575|227576|227577|227578|227579|227580|227581|227582|227583|227584|227585
-4|159274|183271|183284|183713|183714|183715|183242|183717|183264|183719|183720|183294|183722|183723|183724|183725|183726|183727|183728|183729|183730|183731|183732|183289|183734|183735|183736
-68|184214|184215|184216|184217|184218|304769|184219|184220
-1011|132316
-3|300204|394134|394135|394136|394137|394138|394139|394140
-55|247842|247843|247844|247845|247846
-1|45936|45917|45925|46028|46039|46043|46090|45931|46092|46057|46094|46095|45929|46097|46104|46098|46099|46100|46101|46102|46103|70249
-110|46426|46427|46428|46429|46430|46432|46433|46434|46435|502793
-5|104940|370636|246582|104932|245408|104860|360956|298610|360958
+T|Alvesta
+A|124|245206|245207|245208|245209|245210|245211|245212|245213|245214|245215|245216|245217|245218|245219|245220|245221|245222|245223|245224|245225|245226|245227|245228|245229|245230|245231|245232|245233|245234
+A|2|227548|227549|227550|227551|227552|227553|227554|227555|227556|227557|227558|227559|227560|227561|227562|227563|227564|227565|227566|227567|227568|227569|227570|227571|227572|227573|227574|227575|227576|227577|227578|227579|227580|227581|227582|227583|227584|227585
+A|4|159274|183271|183284|183713|183714|183715|183242|183717|183264|183719|183720|183294|183722|183723|183724|183725|183726|183727|183728|183729|183730|183731|183732|183289|183734|183735|183736
+A|68|184214|184215|184216|184217|184218|304769|184219|184220
+A|1011|132316
+A|3|300204|394134|394135|394136|394137|394138|394139|394140
+A|55|247842|247843|247844|247845|247846
+A|1|45936|45917|45925|46028|46039|46043|46090|45931|46092|46057|46094|46095|45929|46097|46104|46098|46099|46100|46101|46102|46103|70249
+A|110|46426|46427|46428|46429|46430|46432|46433|46434|46435|502793
+A|5|104940|370636|246582|104932|245408|104860|360956|298610|360958
+B|124|ALV|Alvesta Alternativet
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|245206|71|M|Lars-Olof Franzén|Hjortsberga
+C|245207|63|M|Jan-Erik Svensson|Alvesta
+C|245208|71|K|Isabel Barindelli|Alvesta
+C|245209|46|K|Suzanne Karlsson|Odensjö
+C|245210|63|M|Anders Sandgren|Alvesta
+C|245211|54|K|Flor De Maria Ticeran Vela|Alvesta
+C|245212|69|M|Jan Franzén|Alvesta
+C|245213|53|M|Mikael Nilsson|Benestad
+C|245214|73|M|Juan Carlos Moreno|Alvesta
+C|245215|56|M|Jan Johansson|Alvesta
+C|245216|65|K|Kerstin Svensson|Benestad
+C|245217|42|M|Magnus Svensson|Alvesta
+C|245218|64|K|Britt Karlsson|Alvesta
+C|245219|18|K|Stephanie Ticeran|Alvesta
+C|245220|65|K|Ingrid Lövgren|Torne
+C|245221|73|K|Margaretha Viridén|Alvesta
+C|245222|69|K|Solveig Nilsson|Moheda
+C|245223|58|M|Olof Haglund|Alvesta
+C|245224|63|K|Annica Svensson|Alvesta
+C|245225|66|M|Ulf Helmersson|Torne
+C|245226|60|M|Peter Johnsson|Alvesta
+C|245227|84|M|Lars-Olof Larsson|Alvesta
+C|245228|62|K|Irene Andersson|Hjortsberga
+C|245229|70|M|Hans Eriksson|Alvesta
+C|245230|68|M|Bo Nilsson|Moheda
+C|245231|60|K|Pia Karlsson|Hjortsberga
+C|245232|69|M|Kurt Eriksson|Alvesta
+C|245233|65|M|Boo Andersson|Hjortsberga
+C|245234|66|M|Erik Adamsen|Alvesta
+C|227548|46|M|Per Ribacke|Verksamhetsassistent, 46, Torne
+C|227549|41|K|Frida Christensen|Handläggare, 41, Alvesta
+C|227550|46|M|Sebastian Ohlsson|Metallarbetare, 46, Moheda
+C|227551|62|K|Edina Maslac|Fritidsassistent, 62, Alvesta
+C|227552|51|M|Lars-Olof Petersson|Betongarbetare, 51, Torne
+C|227553|67|K|Anita Lindstedt|Pensionär, 67, Alvesta
+C|227554|43|M|Robert Olesen|Regionråd, 43, Alvesta
+C|227555|36|K|Martina Lundström|37, montör, Vislanda
+C|227556|70|M|Tomas Hedevik|70, pensionär, Alvesta
+C|227557|41|K|Lavinia Strömberg|40, gymnasielärare, Alvesta
+C|227558|52|M|Peter Johansson|52, truckförare, Vislanda
+C|227559|31|K|Sofie Årdh|Personlig assistent, 31, Alvesta
+C|227560|27|M|Otto Berglund|27, ombudsman, Alvesta
+C|227561|36|K|Linda Gustavsson|36, måltidsutvecklare, Alvesta
+C|227562|70|M|Mats Martinsson|71, pensionär, Alvesta
+C|227563|59|K|Lisbeth Holmqvist|58, undersköterska, Lönashult
+C|227564|48|M|Torbjörn Svensson|48, tekniker, Moheda
+C|227565|65|K|Ros-Marie Larsson|Pensionär, 66, Alvesta
+C|227566|50|M|Peter Öhman-Danforth|50, maskinoperatör, Grimslöv
+C|227567|60|K|Yvonne Martinsson|61, förskollärare, Alvesta
+C|227568|41|M|Daniel Larsson|41, student, Grimslöv
+C|227569|69|K|Kristina Fransson|70, pensionär, Vislanda
+C|227570|72|M|Johnny Lundberg|72, pensionär, Moheda
+C|227571|65|K|Inger Johansson|65, pensionär, Torpsbruk
+C|227572|57|M|Roland Magnil|57, verkstadsarbetare, Vislanda
+C|227573|38|K|Nina Holmgren|38, kyrkvaktmästare, Torne
+C|227574|72|M|Tommy Mases|72, pensionär, Grimslöv
+C|227575|40|M|Tobias Johansson|40, socialsekreterare, Alvesta
+C|227576|38|M|Phlogy Ludiongo|39, bussförare, Alvesta
+C|227577|79|M|Bertil Olsson|79, pensionär, Vislanda
+C|227578|70|M|Jörgen Skantz|70, pensionär, Alvesta
+C|227579|64|M|Erik Olofsson|64, elmontör, Moheda
+C|227580|73|M|Per-Anders Nordahl|74, pensionär, Moheda
+C|227581|69|M|Hanseric Paulin|68, verktygsmakare, Alvesta
+C|227582|21|M|Fatlind Zullufi|21, studerande, Alvesta
+C|227583|77|M|Lasse Hermansson|76, pensionär, Vislanda
+C|227584|69|M|Per Hermansson|69, pensionär, Alvesta
+C|227585|71|M|Samir Alnatour|71, pensionär, Alvesta
+C|159274|32|M|Thomas Haraldsson|Kommunalråd, Vislanda
+C|183271|39|K|Cristina Haraldsson|40, Biträdande rektor, Grimslöv
+C|183284|75|M|Hagart Valtersson|75, Egenföretagare, Moheda
+C|183713|52|K|Heléne Andersson|Vårdbiträde, Vislanda
+C|183714|36|M|Kim Lindstedt|Kommunikatör, Alvesta
+C|183715|62|K|Monica Pihl|Skötare, Moheda
+C|183242|60|M|Sven Sunesson|60, Bonde/Regionråd, Lönashult
+C|183717|47|M|Jonas Engkvist|Företagare, Alvesta
+C|183264|42|M|David Johansson|42, Civilingenjör, Grimslöv
+C|183719|34|K|Nina Rydström|Pensionshandläggare, Blädingeås
+C|183720|67|M|Sven-Åke Berggren|Konsult, Moheda
+C|183294|44|M|Andreas Nilsson|44, Elinstallatör, Grimslöv
+C|183722|69|M|Mats Nilsson|Lärare, Vislanda
+C|183723|62|M|Mikael Lindberg|Företagare, Moheda
+C|183724|65|M|Ingemar Petersson|Banktjänsteman, Geramon
+C|183725|52|M|Anders Herwin|Moheda
+C|183726|58|K|Eva Nilsson|Handläggare, Alvesta
+C|183727|43|M|Olof Andersson|Lantbrukare, Slätthög
+C|183728|31|K|Åsa Kjellsson|Elevassistent, Grimslöv
+C|183729|70|M|Johny Haraldsson|Skogsbrukare, Skatelöv
+C|183730|67|K|Margareta Berggren|Fritidspedagog, Lönashult
+C|183731|77|M|Roland Axelzon|Skogsbrukare, Hjortsberga
+C|183732|66|K|Ingrid Salomonsson|Projektledare, Vislanda
+C|183289|73|M|Nils-Gunnar Skoglund|74, Egenföretagare, Lönashult
+C|183734|58|M|Thomas Rosell|Vårdare, Grimslöv
+C|183735|53|M|Anders Andersson|Montör, Vislanda
+C|183736|62|M|Mats Andersson|Skogsbrukare, Vislanda
+C|184214|52|M|Christer Brincner|God man, Älmhult
+C|184215|46|K|Roxana Sepulveda|Undersköterska, Alvesta
+C|184216|57|K|Britt-Marie Olsson|Undersköterska, Alvesta
+C|184217|46|K|Nova S Gyllensten|Undersköterska, Alvesta
+C|184218|64|M|Sten-Åke Carlsson|Ingenjör, Vislanda
+C|304769|29|M|Artur Vitt|IT, Alvesta
+C|184219|71|M|Karl-Johan Kronström|Företagare, Moheda
+C|184220|73|M|Bengt Kronström|Företagare, Moheda
+C|132316|33|K|Rebecca Blomdahl|Hovslagare, Kronoberg
+C|300204|63|M|Ulf Larsson|Alvesta
+C|394134|28|M|Tim Kamfjord-Karlsson|optometritekniker Alvesta
+C|394135|71|K|Britta Bünger|f.d projektledare Alvesta
+C|394136|62|M|Lars Andersson|lärare Alvesta
+C|394137|74|M|Bengt-Olof Söderström|trafikingenjör Moheda
+C|394138|75|M|Lars-Thure Bünger|företagare Alvesta
+C|394139|74|M|Stig Jacobsson|transportledare Alvesta
+C|394140|69|M|Sven Bünger|advokat Alvesta
+C|247842|69|K|Anita Thörn von Rosen|69 år, Jurist, Lönashult
+C|247843|32|K|Hanna Evelyndotter|32 år, Kultur och nöjesentreprenör, Blädingsås
+C|247844|64|M|Robert Öström|Alvesta
+C|247845|76|M|Kent Mandorff|76 år, Pensionär F.D IT-Konsult, Moheda
+C|247846|61|K|Birgit Andersson|61 år, Leg sjuksköterska, Alvesta
+C|45936|60|M|Thomas Johnsson|60 år, Företagare, Alvesta
+C|45917|34|K|Claudia Crowley Sörensson|34 år, Boendestödjare, Alvesta
+C|45925|34|M|Björn Tisjö|34 år, Företagare, Alvesta
+C|46028|66|M|Matz Athley|66 år, Företagare, Alvesta
+C|46039|52|K|Helén Gustavsson|52 år, Administratör, Alvesta
+C|46043|63|M|Tomas Öhling|63 år, Inköpare, Alvesta
+C|46090|62|K|Gunilla Gustafson|62 år, Områdeschef, Alvesta
+C|45931|43|M|Mikael Johansson|43 år, Sjuksköterska, Vislanda
+C|46092|69|M|Rune Gustavsson|69 år, Pensionär, Torpsbruk
+C|46057|53|K|Veronika Kobak|53 år, Civilingenjör, Alvesta
+C|46094|43|M|Niclas Salomonsson|43 år, Företagare, Vislanda
+C|46095|71|M|John-Erik Pettersson|71 år, Pensionär, Vislanda
+C|45929|39|K|Kajsa Sivertsson|39 år, Digital operator, Alvesta
+C|46097|71|K|Kia Johnsson|71 år, Pensionär, Vislanda
+C|46104|43|K|Katarina Tuneskog|43 år, Lärare, Alvesta
+C|46098|62|M|Anders Malmqvist|62 år, Projektledare, Västra Torsås
+C|46099|31|M|Rikard Gustafsson|31 år, Platschef, Moheda
+C|46100|22|K|Ida Ekman|22 år, Försäkringsrådgivare, Alvesta
+C|46101|57|M|Douglas Johansson|57 år, Yrkeschaufför, Villarp
+C|46102|21|M|William Tollstern|21 år, Bartender, Moheda
+C|46103|47|M|Stefan Johansson|47 år, Projektledare, Vislanda
+C|70249|61|M|Ingvar Eriksson|61 år, Revisor, Alvesta
+C|46426|46|M|David Kristiansson|46, Vislanda, Vaktmästare
+C|46427|52|K|Heléne Nydén|52, Slätthög, Snickare
+C|46428|55|K|Anette Lindström|55, Moheda, Administratör
+C|46429|27|M|Oskar Andersson|26, Vislanda, Dräng
+C|46430|65|K|Yvonne Erlandsson|65, Torpsbruk, Lokalvårdare
+C|46432|24|M|Robin Berg|24, Moheda, Sågverksarbetare
+C|46433|63|M|Ulf Gustafsson|63, Alvesta, Pensionär
+C|46434|33|K|Nellie Nieminen|32, Moheda, Vårdbiträde
+C|46435|37|M|Jens Arnebert|36, Moheda, Målare
+C|502793|44|M|Fredrik Jonsson|44, Vislanda, Projektledare
+C|104940|70|M|Hans Svensson|70 år, pensionär, Alvesta
+C|370636|36|M|Björn Nilsson|
+C|246582|65|M|Dumitru Drugas|
+C|104932|33|M|Fredrik Jakobsson|34 år, studerande, Alvesta
+C|245408|72|M|Börge Nielsen|72 år, pensionär, Alvesta
+C|104860|36|K|Janna Tisjö|36 år, studerande, Alvesta
+C|360956|49|M|Martin Estvall|
+C|298610|65|M|Ola Andersson|
+C|360958|70|M|Stefan Holst|

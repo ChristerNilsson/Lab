@@ -1,9 +1,157 @@
-2|230406|230407|230408|230409|230410|230411|230412|230413|230414|230415|230416|230417|230418|230419|230420|230421|230422|230423|230424|230425|230426|230427|230428|230429|230430|230431|230432|230433|230434|230435|230436|230437|230438|230439|230440|230441|230442|230443|230444|230445|230446|230447|230448|230449|230450|230451|230452|230453|230454|230455|230456
-4|112710|112711|395555|112713|112714|112715|112716|112717|112718|112719|112720|112721|112722
-68|354599|354600|354601|354602|354603|354604|354605|354606|354607|354608|354609|354610|354611|354612|354613|354614|354615|354616|354617|354618|354619|354620|354621|354622|354623|354624|354625|354626|354627|354628|354629|354630|354631|354632|354633|354634|354635|354636|354637|354638|354639
-1140|480121
-1011|132421|131584|166008|166009|166010
-55|382959|382960|384577|382961|382962
-1|46397|46398|46399|46400|46401|46402|46403|45921|46405
-110|46515|46516|46517|46518|46519|46520|46521|46522|46523|46524
-5|245411|246051|246998
+T|Markaryd
+A|2|230406|230407|230408|230409|230410|230411|230412|230413|230414|230415|230416|230417|230418|230419|230420|230421|230422|230423|230424|230425|230426|230427|230428|230429|230430|230431|230432|230433|230434|230435|230436|230437|230438|230439|230440|230441|230442|230443|230444|230445|230446|230447|230448|230449|230450|230451|230452|230453|230454|230455|230456
+A|4|112710|112711|395555|112713|112714|112715|112716|112717|112718|112719|112720|112721|112722
+A|68|354599|354600|354601|354602|354603|354604|354605|354606|354607|354608|354609|354610|354611|354612|354613|354614|354615|354616|354617|354618|354619|354620|354621|354622|354623|354624|354625|354626|354627|354628|354629|354630|354631|354632|354633|354634|354635|354636|354637|354638|354639
+A|1140|480121
+A|1011|132421|131584|166008|166009|166010
+A|55|382959|382960|384577|382961|382962
+A|1|46397|46398|46399|46400|46401|46402|46403|45921|46405
+A|110|46515|46516|46517|46518|46519|46520|46521|46522|46523|46524
+A|5|245411|246051|246998
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|230406|49|M|Joakim Pohlman|Oppositionsråd, 49, Markaryd
+C|230407|70|K|Ingrid Sundman|70, Pensionär, Timsfors
+C|230408|62|M|Berne Eliasson|62, Metallarbetare, Strömsnäsbruk
+C|230409|50|K|Katrin Petersson|50, Lärare, Markaryd
+C|230410|43|M|Joakim Reimerstam|43, Svetsare, Markaryd
+C|230411|28|K|Josefin Petersson|Handledare, 28, Markaryd
+C|230412|31|M|Robin Hansen|Lärare, 31, Markaryd
+C|230413|36|K|Tanja Hedegaard Jönsson|36, Markaryd
+C|230414|50|M|Martin Lindholm|50, Reparatör, Traryd
+C|230415|72|M|Ulf Engqvist|Pensionär, 72, Markaryd
+C|230416|68|K|Berit Nilsson|68, Pensionär, Markaryd
+C|230417|43|M|AlaaAldeen Almakmal|44, Flyktingguide, Markaryd
+C|230418|74|K|Vivian Graff|74, Pensionär, Axhult
+C|230419|34|M|David Svensk|Undersköterska, 34, Strömsnäsbruk
+C|230420|66|K|Siv Göransson|66, Pensionär, Strömsnäsbruk
+C|230421|74|M|Kenneth Cederfeldt|74, Pensionär, Markaryd
+C|230422|56|M|Hans Joakim Lindau|57, Maskintekniker, Markaryd
+C|230423|49|M|Carlos Boksjan|49, Industriarbetare, Markaryd
+C|230424|32|K|Elina Svensk|Kundservicemedarbetare, 32, Strömsnäsbruk
+C|230425|43|M|Nermin Dzihic|43, Svetsare, Strömsnäsbruk
+C|230426|38|K|Madelene Johansson|38, Arbetsledare, Strömsnäsbruk
+C|230427|51|M|Jonny Nilsson|52, Metallarbetare, Traryd
+C|230428|37|K|Sofie Holmstrand|37, Undersköterska, Markaryd
+C|230429|44|M|Andreas Holmgren|44, Mekaniker, Timsfors
+C|230430|39|K|Petra Svensson|39, Undersköterska, Strömsnäsbruk
+C|230431|74|M|Lars Selin|74, Pensionär, Markaryd
+C|230432|35|K|Rama Alrifae|34, Markaryd
+C|230433|45|M|Sven Svensson|45, Montör, Timsfors
+C|230434|59|K|Lisa Karlsson|59, Telefonist, Markaryd
+C|230435|36|K|Johanna Eliasson|36, Förvaltningsassistent, Markaryd
+C|230436|66|M|Jan Sögaard|66, Pensionär, Markaryd
+C|230437|20|K|Thea Larsen|20, Studerande, Strömsnäsbruk
+C|230438|44|M|Mikael Berglund|44, Montör, Markaryd
+C|230439|65|K|Eva Isaksson|65, Förskolechef, Skinnersböke
+C|230440|75|M|Kjell Arne Edvardsson|75, Pensionär, Markaryd
+C|230441|68|K|Karin Salomonsson|68, Pensionär, Strömsnäsbruk
+C|230442|73|M|Arne Holmgren|74, Pensionär, Markaryd
+C|230443|60|K|Karina Eliasson|60, Barnskötare, Strömsnäsbruk
+C|230444|31|K|Annie Hansen|31, Frisörmästare, Markaryd
+C|230445|54|M|Hans Hermansson|54, Reparatör, Strömsnäsbruk
+C|230446|42|K|Anita Tykesson|42, Skararp
+C|230447|67|M|Conny Isaksson|67, Målarmästare, Skinnersböke
+C|230448|80|M|Toni Turesson|80, Pensionär, Markaryd
+C|230449|40|K|Sandra Björk|40, Parkarbetare, Markaryd
+C|230450|50|M|Roger Plyhm|50, Svetsare, Markaryd
+C|230451|61|K|Marie Rosenqvist|61, Assistent, Strömsnäsbruk
+C|230452|38|M|Pär Petersson|37, Artikelanalytiker, Markaryd
+C|230453|75|K|Anitha Pohlman|75, Pensionär, Markaryd
+C|230454|53|M|Marco Vujic|53, Produktionsledare, Markaryd
+C|230455|41|K|Åsa Karlsson|41, Polis, Strömsnäsbruk
+C|230456|69|M|Per-Olof Göransson|68, Pensionär, Strömsnäsbruk
+C|112710|64|M|Sven Jansson|Lantbrukare, Traryd
+C|112711|24|K|Maria Asplund|24, Agronomstudent, Hannabad
+C|395555|35|M|Martin Bengtsson|35, Präst, Traryd
+C|112713|44|K|Benita Jansson|44, Undersköterska, Skararp
+C|112714|46|M|Martin Andersson|45, Egenföretagare, Bråthult
+C|112715|61|M|Lars-Åke Svensson|62, Montör, Markaryd
+C|112716|64|K|Helene Jansson|64, Gymnasielärare, Skararp
+C|112717|68|M|Tore Persson|68, Markaryd
+C|112718|60|M|Sune Jonasson|Skogsarbetare, Traryd
+C|112719|70|M|Torsten Johansson|70, Hemmansägare, Hinneryd
+C|112720|56|K|Karina Svensson|56, Övre Gällareböke
+C|112721|67|M|Lars-Göran Svensson|67, Aukt. Redovisningskonsult, Ängabäck
+C|112722|60|M|Göran Svensson|60, Skogsarbetare, Övre Gällareböke
+C|354599|61|M|Bengt Germundsson|Kommunalråd, Strömsnäsbruk
+C|354600|46|K|Maria Svensson Lundin|Designer, Markaryd
+C|354601|41|M|Samuel Wombell|Markaryd
+C|354602|77|M|Lars Blänning|Pensionär, Markaryd
+C|354603|71|K|Berit Larsson|Råstorp
+C|354604|59|K|Britt-Marie Stridh|Markaryd
+C|354605|45|K|Marie Nijimbere|Undersköterska, Strömsnäsbruk
+C|354606|81|M|Niels Af Trolle|Pensionär, Strömsnäsbruk
+C|354607|19|K|Chadia Uwamahoro|Student, Strömsnäsbruk
+C|354608|64|M|Bo Johanneryd|Komminister, Markaryd
+C|354609|73|K|Ingegerd Lenander|Markaryd
+C|354610|76|M|Carl-Eric Svensäter|Prost, Markaryd
+C|354611|70|M|Roland Andréasson|Timsfors
+C|354612|71|K|Eva Madestam|Socionom, Timsfors
+C|354613|57|M|Jackson Ndunge Kola|Markaryd
+C|354614|69|K|Ann-Marie Cedergren|Timsfors
+C|354615|61|K|Caroline Lindbergh|Markaryd
+C|354616|47|K|Sylvia Nilsson|Hinneryd
+C|354617|32|K|Malin Stadig Lundgren|Vigd Diakon, Markaryd
+C|354618|50|K|Ayse Vatansever|Markaryd
+C|354619|63|M|Jörgen Johansson|Markaryd
+C|354620|47|M|Zuhair Al Issa|Modersmålslärare, Kommunikatör, Markaryd
+C|354621|41|K|Linda Risell|Lärare, Markaryd
+C|354622|79|M|Rolf Bengtsson|Pensionär, Strömsnäsbruk
+C|354623|74|K|Ebba Svensäter|Sjuksköterska, Markaryd
+C|354624|29|K|Michaela Johansson|Markaryd
+C|354625|79|M|Kurt Persson|Strömsnäsbruk
+C|354626|68|K|Mona Gustafsson|Markaryd
+C|354627|56|K|Helen Alex|Servitris, Markaryd
+C|354628|36|M|David Borg|Sågverksarbetare, Strömsnäsbruk
+C|354629|33|M|Fredrik Eriksson|Markaryd
+C|354630|63|K|Yvonne Takvam|Markaryd
+C|354631|58|M|Anders Nordström|Takteknolog, Markaryd
+C|354632|62|M|Åke Arnesson|Markaryd
+C|354633|46|M|David Risell|Enhetschef HVB, Markaryd
+C|354634|63|M|Erland Engqvist|Markaryd
+C|354635|84|K|Ruth Dahlström|Markaryd
+C|354636|31|M|Mattias Lundgren|Psykologstudent, Markaryd
+C|354637|41|K|Sara Malmgren|Förskolechef, Markaryd
+C|354638|53|K|Mia Nordström|Markaryd
+C|354639|79|M|Lars Henningsson|Pensionär, Markaryd
+C|480121|75|K|Gullan Malmquist|socionom/konstnär, 75, Markaryd
+C|132421|52|M|Johan Barzel|Bigårdsarbetare, Kronoberg
+C|131584|71|M|Arne Gunnarsson|Skogsbrukare, Kronoberg
+C|166008|74|M|Lennart Svensson|74 år, Pensionär, Mjäryd
+C|166009|47|M|Andreas Svegard|47 år, Företagare, Markaryd
+C|166010|69|M|Tommy Hansson|69 år, f.d Servicemontör, Traryd
+C|382959|66|M|Lars-Peter Olsson|66 år, Strömsnäsbruk
+C|382960|69|M|Nobuaki Kudo|69 år, Civilingenjör/civilekonom, Markaryd
+C|384577|53|K|Lotta Blank|Undersköterska, Markaryd
+C|382961|72|M|Olle Lönn|Pensionär, Strömsnäsbruk
+C|382962|91|K|Bernice Nilsson|Pensionär, Markaryd
+C|46397|67|M|Tommy Andersson|Ekonomichef, Markaryd
+C|46398|62|M|Conny Gustafsson|Åkeriägare, Markaryd
+C|46399|20|K|Frida Rahmeloo|Psykologstudent, Markaryd
+C|46400|79|M|Rolf Lygård|Pensionär, Timsfors
+C|46401|39|K|Carina Gunnarsson|Undersköterska, Tannsjö
+C|46402|63|K|Kerstin Löndal|Sjuksköterska, Markaryd
+C|46403|51|M|Mikael Salomonsson|Egenföretagare, Tuthult
+C|45921|69|M|Göran Giselsson|69 år, Tandläkare, Markaryd
+C|46405|25|K|Victoria Gustafsson|Studerande, Markaryd
+C|46515|57|M|Kenth Lassen|57, Strömsnäsbruk, Inköps-strateg
+C|46516|75|K|Marianne Blomqvist|75 år, Fd lärare, Strömsnäsbruk
+C|46517|62|M|Heino Johannesson|62, Timsfors, Småföretagare
+C|46518|65|M|Ronny Fager|65, Strömsnäsbruk, Drift-tekniker
+C|46519|56|M|Gege Blank|56 år, Väktare, Markaryd
+C|46520|44|K|Erika Fernestam|44, Markaryd, Personlig assistent
+C|46521|37|M|Stefan Nilsson|37 år, Maskinförare, Strömsnäsbruk
+C|46522|74|M|Ingvar Walerholt|74 år, Fd murare, Markaryd
+C|46523|45|M|Johan Andersson|45, Markaryd, Betongarbetare
+C|46524|33|K|Iwona Kazmierczak|33, Strömsnäsbruk, Försäljare
+C|245411|49|K|Susanne Borgström|49 år, administratör, Markaryd
+C|246051|67|M|Christer Persson|68 år, pensionär, Markaryd
+C|246998|72|M|Ronnie Leander|

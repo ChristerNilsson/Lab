@@ -1,9 +1,129 @@
-2|243016|243017|243018|243019|243020|243021|243022|243023|243024|243025|243026|243027|243028|243029|243030|243031|243032|243033|243034|243036|243037|243038|243039|243040|243041|243042|243043
-4|33534|38957|38943|38959|38926|211700|211701|33549|211703|211704|211705|211706|211707|353980|211708|211709|211710|211711|211712|211713|211714|211715
-990|392144|392145|392146|392147|392148|392149|392150|392151|392152
-68|9153|64421|64422|9373|64424|64425|64426|64427|64428|64429|64430|64431|64432|64433|64434|64435|64436|64437|64438|64439
-1011|132656|132658|196929|197114|197115|197116|197487|197488|197489
-3|165071|190319|156328|190321|190322|190323|190324
-1|42331|42332|36207|42334|42336|42337
-110|125910
-5|292349|292350|292351|292352|292353|292354|292355|292356|292357
+T|Vansbro
+A|2|243016|243017|243018|243019|243020|243021|243022|243023|243024|243025|243026|243027|243028|243029|243030|243031|243032|243033|243034|243036|243037|243038|243039|243040|243041|243042|243043
+A|4|33534|38957|38943|38959|38926|211700|211701|33549|211703|211704|211705|211706|211707|353980|211708|211709|211710|211711|211712|211713|211714|211715
+A|990|392144|392145|392146|392147|392148|392149|392150|392151|392152
+A|68|9153|64421|64422|9373|64424|64425|64426|64427|64428|64429|64430|64431|64432|64433|64434|64435|64436|64437|64438|64439
+A|1011|132656|132658|196929|197114|197115|197116|197487|197488|197489
+A|3|165071|190319|156328|190321|190322|190323|190324
+A|1|42331|42332|36207|42334|42336|42337
+A|110|125910
+A|5|292349|292350|292351|292352|292353|292354|292355|292356|292357
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|990|Kp|Kommunpartiet - Vansbro
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|243016|30|M|Anders Edlund|Dala-Järna
+C|243017|62|K|Monica Ericsson|Dala-Järna
+C|243018|72|M|Nils-Erik Edlund|Dala-Järna
+C|243019|62|K|Karin Sjöberg|Dala-Järna
+C|243020|60|M|Nall Lars Göran Andersson|Vansbro
+C|243021|39|K|Renate Särnmo|Nås
+C|243022|22|M|Finns Andreas Eriksson|Nås
+C|243023|45|K|Ulrika Gärds Forsberg|Vansbro
+C|243024|61|M|Lennart Skansens|Nås
+C|243025|49|K|Zenita Hermansson|Vansbro
+C|243026|40|M|Johnny Gunnarsson|Dala-Järna
+C|243027|64|K|Yvonn Edlund|Vansbro
+C|243028|26|M|Lucas Zimmerman|Vansbro
+C|243029|39|K|Ingels Maria Stigsdotter|Äppelbo
+C|243030|19|M|Mohammad Mosavi|Vansbro
+C|243031|32|K|Jenny Hermansson|Vansbro
+C|243032|33|K|Jennie Johansson|Nås
+C|243033|72|M|Lars Johansson|Äppelbo
+C|243034|52|K|Monica Ähdel|Äppelbo
+C|243036|70|K|Annchristin Olofsson|Vansbro
+C|243037|56|K|Mariann Morén|Dala-Järna
+C|243038|59|M|Sten-Åke Holmberg|Dala-Järna
+C|243039|54|K|Inger Gelius|Nås
+C|243040|76|M|Gunnar Lindholm|Vansbro
+C|243041|64|K|Solveig Hellström|Vansbro
+C|243042|54|M|Peter Olsson|Dala-Järna
+C|243043|68|K|Christina Lindahl|Dala-Järna
+C|33534|44|K|Stina Munters|Vansbro
+C|38957|41|M|Lars-Olov Liss|Vansbro
+C|38943|47|K|Anneli Hultgren|Vansbro
+C|38959|72|M|Uwe Weigel|Vansbro
+C|38926|67|K|Annika Simm Eriksson|Vansbro
+C|211700|22|M|Gustav Tällberg|Dala-Järna
+C|211701|40|K|Ulrika Halvars|Vansbro
+C|33549|65|M|Anders Lundin|Vansbro
+C|211703|76|K|Gunilla Munters|Dala-Järna
+C|211704|51|M|Leif Nilsson|Dala-Järna
+C|211705|32|K|Lovisa Berglund|Nås
+C|211706|31|M|Michael Eriksson|Vansbro
+C|211707|40|M|Anders Karlsson|Vansbro
+C|353980|53|K|Margareta Lisspers|Dala-Järna
+C|211708|51|M|Henrik Säljgård|Dala-Järna
+C|211709|57|M|Sören Johansson|Äppelbo
+C|211710|70|M|Sven-Erik Andersson|Vansbro
+C|211711|78|M|Sven Blom|Dala-Järna
+C|211712|67|K|Anna Franzén Weigel|Vansbro
+C|211713|42|K|Fredrika Hult Pettersson|Nås
+C|211714|74|M|PA Bernt Andersson|Dala-Järna
+C|211715|60|K|Anki Lundin|Nås
+C|392144|74|M|Wahan Harutun|
+C|392145|60|M|Per Rostgaard Evald|
+C|392146|67|K|Grazyna Björklund|Vansbro
+C|392147|71|M|Bosse Engzell|
+C|392148|71|K|Elsmari Harutun|
+C|392149|62|K|Clary Ohlén|
+C|392150|71|M|Gösta Nordin|
+C|392151|69|K|Annika Nordin|
+C|392152|72|K|Birgit Almcrantz|
+C|9153|63|M|Torsten Larsson|ekonom, Dala-Järna
+C|64421|34|M|André Ihlar|Dala-Järna
+C|64422|27|K|Nathalie Larsson Berglund|undersköterska, 27 år, Nås
+C|9373|50|M|Christer Spett|lager/distributionsansvarig, Dala-Järna
+C|64424|49|M|Dan Hellenberg|projektchef, Dala-Järna
+C|64425|47|K|Lisen Svensson|Utsälje
+C|64426|45|M|Andreas Hedström|exportchef, 45 år, Vansbro
+C|64427|18|K|Klara Spett|18 år, Dala-Järna
+C|64428|78|M|Kjell Kvarnström|pensionär, Dala-Järna
+C|64429|76|K|Siv Hansson|coffehousemedarbetare, Nås
+C|64430|69|M|Mor Lennart Johansson|Dala-Järna
+C|64431|68|M|John Stenback|Skamhed
+C|64432|36|K|Anna F Runeson|medicinsk sekreterare, Dala-Järna
+C|64433|37|M|Anders Palm|socionomstudent, Dala-Järna
+C|64434|44|K|Jenny Spett|lärare, Dala-Järna
+C|64435|41|M|Samuel Johansson|Dala-Järna
+C|64436|66|K|Lisbeth Stenback|barnsjuksköterska, Skamhed
+C|64437|61|M|Bengt Lundkvist|projektledare, Skålö.
+C|64438|27|K|Josephine Bornlöf|barn/ungdomsledare, 27 år, Dala-Järna
+C|64439|54|M|Åke Johansson|gymnasielärare, Dala-Järna
+C|132656|33|M|Anders Hed|Anläggningschef, Dalarna
+C|132658|40|M|John A Säljgård|Skogsarbetare, Dalarna
+C|196929|33|K|Therese Henriksson|Personlig assistent, Dala-Järna
+C|197114|39|M|Mathias Johansson|Säljare, Nås
+C|197115|41|M|Mattias Berglund|Ställare, Nås
+C|197116|39|M|Jon Lind|Virkesmätare, Dala-Järna
+C|197487|55|M|Roland Holgersson|Vaktmästare, Dala-Järna
+C|197488|26|M|Philip Andersson|Distributör, Vansbro
+C|197489|19|M|Sakarias Nilsson|Lastbilschaufför, Dala-Järna
+C|165071|36|M|David Gustafsson|36 år Säljare, Vansbro
+C|190319|59|K|Maria Baier|Nås
+C|156328|34|M|Lars Kreigmark|Truckförare, 34 år, Vansbro
+C|190321|65|M|Börje Larsson|Dala-Järna
+C|190322|77|M|Ur Alf Nilsson|Dala-Järna
+C|190323|79|M|Per Jobs|Dala-Järna
+C|190324|80|K|Marja Kilpiö|Dala-Järna
+C|42331|49|M|Pär Skagerling|
+C|42332|58|M|Karl Björklund|
+C|36207|56|M|Stefan Olsson|56 år, inköpare, Vansbro
+C|42334|35|M|Jimmy Geschvind|
+C|42336|48|K|Magdalena Busk|
+C|42337|30|K|Eva Marcinkowska|
+C|125910|61|M|Benny Rosengren|Linkontrollör, Ludvika
+C|292349|69|K|Gunnel Gustafsson|69 år, Pensionär
+C|292350|32|M|Jonas Gustafsson|32 år, Lantbrukare
+C|292351|68|M|Kurt-Lennart Karlsson|70 år, Fastighetsskötare
+C|292352|62|K|Birgitta Karlsson|62 år, Lärare
+C|292353|50|M|Per Nilsson|50 år, Föreståndare
+C|292354|47|M|Petter Gustafsson|47 år, Gym- och simhallspersonal
+C|292355|69|K|Ann-Catrin Tennström|69 år, Undersköterska
+C|292356|72|M|Örjan Zars|72 år, Pensionär
+C|292357|19|M|Johannes Lindberg|19 år, Student

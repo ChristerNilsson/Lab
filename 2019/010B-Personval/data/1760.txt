@@ -1,7 +1,81 @@
-2|142606|75685|142740|73960|142742|142743|142744|142745|142746|143019|143020|76150|143022|143023|143024|143176|143177|143178|143360|143361|143362|143363|77483|143495|143496|143497
-4|330090|330091|330092|330093|330097|330094|330095|330096
-68|292386
-1|76435|76436|76437|76438|76439|76440|76441
-1402|125601|512544|512545|512546|37711|515988|515989|515990|515991
-110|512662|124886|125606|512670|125601|125602|125604|125605
-5|30310|135427|135428|135429|135430|135431|135432|135433
+T|Storfors
+A|2|142606|75685|142740|73960|142742|142743|142744|142745|142746|143019|143020|76150|143022|143023|143024|143176|143177|143178|143360|143361|143362|143363|77483|143495|143496|143497
+A|4|330090|330091|330092|330093|330097|330094|330095|330096
+A|68|292386
+A|1|76435|76436|76437|76438|76439|76440|76441
+A|1402|125601|512544|512545|512546|37711|515988|515989|515990|515991
+A|110|512662|124886|125606|512670|125601|125602|125604|125605
+A|5|30310|135427|135428|135429|135430|135431|135432|135433
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1|M|Moderaterna
+B|1402|StDe|Storforsdemokraterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|142606|50|M|Hans Jildesten|Storfors
+C|75685|33|K|Christina Skogström|33 år, Storfors
+C|142740|47|M|Glenn Aspnes|Storfors
+C|73960|51|K|Eva-Lotta Härdig Eriksson|52 år, Storfors
+C|142742|67|M|Thomas Backelin|Storfors
+C|142743|74|K|Ingrid Resare|Storfors
+C|142744|67|M|Lennart Johansson|Storfors
+C|142745|31|K|Desirée Lavén|Storfors
+C|142746|30|M|Christoffer Andersson|Storfors
+C|143019|59|K|Aurea Rioflorido Karlsson|Storfors
+C|143020|76|M|Steve Nilsson|Storfors
+C|76150|56|K|Birgitta Viberg|56 år, Storfors
+C|143022|62|M|Leif B Persson|Storfors
+C|143023|22|K|Cassandra Östlund|Storfors
+C|143024|61|M|Urban Lavén|Storfors
+C|143176|61|K|Janina Hjälm|Storfors
+C|143177|40|M|Thobias Backelin|Storfors
+C|143178|46|K|Natchaya Wirathoon|Storfors
+C|143360|64|M|Kenneth Hjälm|Storfors
+C|143361|42|K|Ann-Sofie Hofling|Storfors
+C|143362|55|M|Vidar Sandell|Storfors
+C|143363|69|M|George Nordin|Storfors
+C|77483|49|M|Asem Zaidan|Storfors
+C|143495|46|M|Mika Uutela|Storfors
+C|143496|22|M|Anders Sjöberg Backelin|Storfors
+C|143497|55|M|Patrik Hedenström|Storfors
+C|330090|58|M|Håkan Larsson|Egenföretagare, Bjurtjärn
+C|330091|72|K|Ingrid Andersson|Lärare, Bjurtjärn
+C|330092|74|K|Birgitta Hagström|Elevassistent, Kväggeshyttan
+C|330093|49|M|Mikael Lind|Skogsägare/Transportledare, Kväggen
+C|330097|34|M|Sebastian Holm|Egenföretagare, Storfors
+C|330094|59|M|Johan Järlestedt|Instruktör, Kväggeshyttan
+C|330095|80|K|Britta Jansson|Sjuksköterska, Storfors
+C|330096|70|M|Hans Lindqvist|Revisor/Lantbrukare, Lungsund
+C|292386|72|K|Monica Ståhl|adjunkt, Storfors
+C|76435|76|M|Andris Viduss|Storfors
+C|76436|70|M|Peter Farrington|Bjurtjärn
+C|76437|74|M|Lars Johrin|Lundsberg
+C|76438|26|M|Emil Larsson|Storfors
+C|76439|51|M|Stefan Larsson|Storfors
+C|76440|74|K|Marian Väpnargård|Bjurtjärn
+C|76441|44|M|Christopher Johrin|Lundsberg
+C|125601|61|M|Urban Persson|61 år, fastighetsförvaltare
+C|512544|67|M|Kjell Andbjörk|67 år, åkare
+C|512545|51|M|Karl-Siverth Wallden|51 år, lantarbetare
+C|512546|47|M|Erik Halldorf|47 år, bergskolestudent
+C|37711|66|M|Kurt Göran Hellblom|
+C|515988|50|K|Maria Jonsson|
+C|515989|44|M|Mattias Andbjörk|
+C|515990|54|M|Staffan Simmons|
+C|515991|67|M|Erik Bratt|
+C|512662|64|M|Juhani Verkkoperä|64, Kemiingenjör, Kyrksten
+C|124886|49|M|Michael Jegefalk|49, Chaufför, Storfors
+C|125606|65|M|Anders Knudsen|65, Pensionär, Bjurtjärn
+C|512670|36|M|Kristoffer Bjerge|36, Fastighetsskötare, Storfors
+C|125602|35|K|Malin Aho|
+C|125604|42|M|Leif Aho|
+C|125605|50|M|Björn Enkvist|
+C|30310|42|K|Kina Lindroos|42 år, Storfors, lokalvårdare
+C|135427|62|K|Inger Nordström|elevresurs, 62 år
+C|135428|64|M|Lars-Erik Karlsson|pensionär, 64 år
+C|135429|62|M|Peter Högberg|tjänsteman, 62 år
+C|135430|67|M|Bengteric Bergare|pensionär, 67 år
+C|135431|71|K|Birgitta Hellberg|pensionär, 71 år
+C|135432|41|M|Pontus Löfgren|besiktningstekniker, 41 år
+C|135433|58|K|Monica Bergare|personlig assistent, 58 år

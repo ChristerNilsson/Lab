@@ -1,10 +1,225 @@
-2|71225|146350|97712|146352|146353|146354|146355|146356|146357|146358|146359|97700|146361|146362|146363|146364|146365|146366|146367|146368|146369|146370
-4|332398|332399|76933|332401|122866|76956|332404|332405|332406|332407|332408|332409|332410|332411|332412|332413|332414|332415|332416|332417|332418|332419|332420|332421|332422|332423|332424|332425|332426|332427|332428|332429|332430|332431|332432|332433|332434|332435|332436|332437|8526|332439|332440|332441|332442|332443|332444
-532|513848
-68|186705|186706|186707|186709|186710|186711|186712|186713|186714|186716|186717|186718|186719|186720|186721|186722|186723|186724|186725|186726|186727|186728
-3|34040|34041|34042|34043|34044|34045|34046|34047|34048|34049|34050|34051|34052|34053|34054|34055|34056|34057|34058|34059|34060|34061|34062|34063|217829|34064|217828|217830|217831|217832|217833|217834|217835|34065|34066
-55|113277|113278|113279|113280|113281|113282|113283|113284|113285|113286|113287|113288|113289|113290|113291
-1|17672|12796|17674|17675|17676|17677|17678|17679|17680|17681|17682|17683|17684|17685|17686|17687|17688|17689|17690|17691|17692|17693|17694|17695|17696|17697|17698|17699|17700|17701|17702|17703|17704|17705|17706|17707|17708|17709|17710|17711|17712|17713
-1419|513743|513744|513745|515394|515395|515396
-110|127620|127621|127622|127623|127624|127625|127626|127627|127628
-5|182149|182150|182151|182152|182153
+T|Danderyd
+A|2|71225|146350|97712|146352|146353|146354|146355|146356|146357|146358|146359|97700|146361|146362|146363|146364|146365|146366|146367|146368|146369|146370
+A|4|332398|332399|76933|332401|122866|76956|332404|332405|332406|332407|332408|332409|332410|332411|332412|332413|332414|332415|332416|332417|332418|332419|332420|332421|332422|332423|332424|332425|332426|332427|332428|332429|332430|332431|332432|332433|332434|332435|332436|332437|8526|332439|332440|332441|332442|332443|332444
+A|532|513848
+A|68|186705|186706|186707|186709|186710|186711|186712|186713|186714|186716|186717|186718|186719|186720|186721|186722|186723|186724|186725|186726|186727|186728
+A|3|34040|34041|34042|34043|34044|34045|34046|34047|34048|34049|34050|34051|34052|34053|34054|34055|34056|34057|34058|34059|34060|34061|34062|34063|217829|34064|217828|217830|217831|217832|217833|217834|217835|34065|34066
+A|55|113277|113278|113279|113280|113281|113282|113283|113284|113285|113286|113287|113288|113289|113290|113291
+A|1|17672|12796|17674|17675|17676|17677|17678|17679|17680|17681|17682|17683|17684|17685|17686|17687|17688|17689|17690|17691|17692|17693|17694|17695|17696|17697|17698|17699|17700|17701|17702|17703|17704|17705|17706|17707|17708|17709|17710|17711|17712|17713
+A|1419|513743|513744|513745|515394|515395|515396
+A|110|127620|127621|127622|127623|127624|127625|127626|127627|127628
+A|5|182149|182150|182151|182152|182153
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1419||Nya Danderydspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|71225|45|K|Jenny Åkervall|45, Författare och Journalist, Danderyd
+C|146350|71|M|Karsten Inde|71, Entreprenör
+C|97712|64|K|Anette Jellve|64, Administratör, Danderyd
+C|146352|85|M|Olov Johansson|85, Byggnadsingenjör
+C|146353|68|M|Jan Lilja|68, Ingenjör
+C|146354|44|K|Ingrid Elmér|44, Socialsekreterare
+C|146355|44|M|Karl Stenqvist|44, Verkställande direktör
+C|146356|53|K|Taslima Moon Sheikh|53, Folkrättsjurist
+C|146357|86|M|Sivert Svärling|86, Socionom
+C|146358|84|K|Inger Ruin|84, fd. Universitetslektor
+C|146359|48|M|Ulf Bergman-Ekström|48, Socialsekreterare
+C|97700|47|K|Tove Sander|47, Advokat, Danderyd
+C|146361|80|M|Bernt Hofström|80, Ritare
+C|146362|52|K|Lotta Fogde|52, Kommunikationschef
+C|146363|70|M|Åke Johansson|70, fd. Chaufför
+C|146364|74|K|Ulla Lilja|74, Sjuksköterska
+C|146365|82|M|Åke Werner|82, fd. Transportledare
+C|146366|83|K|Inger Jerstedt Ahl|84, fd. Utbildnings- och informationschef
+C|146367|35|M|Hannes Hultcrantz|35, Kommunikationsstrateg
+C|146368|73|K|Pia Klint|72, fd. Postkassör, Journalist
+C|146369|52|K|Rozita Afkhami|51, Barnmorska, Barnsjuksköterska
+C|146370|73|K|Kerstin Eliasson|73, fd. Statssekreterare
+C|332398|82|K|Siv Sahlström|Kommunalråd, Danderyd
+C|332399|47|K|Lovisa Eriksson|Jur. Kand. LLM, Djursholm
+C|76933|54|M|Patrik Nimmerstam|54, Danderyd, Områdeschef
+C|332401|50|M|Christian Ljungdahl|Civilingenjör, Stocksund
+C|122866|77|K|Lena Ringstedt|77, Danderyd, Förenings- och projektordförande
+C|76956|46|M|Robert Bryhn|47, Enebyberg, VD
+C|332404|61|K|Inger Fabian|Dipl. socionom, Danderyd
+C|332405|50|M|Karl-Johan Nybell|Civilingenjör, Djursholm
+C|332406|55|K|Eva Lindman Marko|Psykolog, Djursholm
+C|332407|43|M|Lasse Camehagen|Marknadschef, Danderyd
+C|332408|69|K|Christina Strenger-Böös|Eg. företagare, Stocksund
+C|332409|20|M|Lukas Johannesson|Läkarstudent, Enebyberg
+C|332410|47|K|Sarah Korduner Izosimov|Eg. företagare, Djursholm
+C|332411|54|K|Maria Mandahl|Konsult, Djursholm
+C|332412|52|K|Anna Ohlén|Pedagog, Djursholm
+C|332413|60|M|Christer Lidgard|Civilingenjör, Djursholm
+C|332414|52|K|Kristin Eriksson|Geolog, Stocksund
+C|332415|63|K|Maja Bergquist|Stallansvarig, Djursholm
+C|332416|67|M|Jörgen Elfving|Eg. företagare, Enebyberg
+C|332417|42|M|Reza Farhang|Eg. företagare, Djursholm
+C|332418|51|K|Eva von Sydow|Trädgårdsmästare, Stocksund
+C|332419|29|K|Sandra Lindström|Statsvetare, Danderyd
+C|332420|47|M|Robert Swartling|Socionom, Djursholm
+C|332421|50|M|Patric Helje|Driftingenjör, Stocksund
+C|332422|75|M|Lennart Meldahl|Eg. företagare, Djursholm
+C|332423|65|K|Ingela Giljam Papinski|Socionom, Enebyberg
+C|332424|54|M|Michael Mandahl|Investerare, Djursholm
+C|332425|83|M|Tord Håkansson|Tandläkare, Djursholm
+C|332426|75|M|Folke Palmgren|Revisor, Danderyd
+C|332427|48|M|Pontus Dahlström|Entreprenör, Djursholm
+C|332428|49|K|Weronica Andersson|Projektledare, Stocksund
+C|332429|83|K|Anna-Karin Öhrström|Folkskollärare, Danderyd
+C|332430|78|K|Gunilla Stjernberg|Sjukgymnast, Djursholm
+C|332431|48|M|Mikael Sjöbeck|Företagare, Tranholmen
+C|332432|78|K|Eva Edling|Jur. kand., Djursholm
+C|332433|79|K|Agneta Zimmerman|Apotekare, Danderyd
+C|332434|81|K|Eva Wennmalm Eriksson|Fil. mag., Djursholm
+C|332435|21|K|Lina Lodenius|Studerande, Stocksund
+C|332436|73|K|Ingela Dahlberg|Pedagog, Danderyd
+C|332437|64|K|Laila Månsson|Florist, Stocksund
+C|8526|37|M|Alireza Akhondi|37 år, Arbetsmarknadsexpert, Danderyd
+C|332439|82|K|Marianne Pettersson|Fil. mag., Stocksund
+C|332440|28|M|Nils-Olov Olsson|Ekonom, Danderyd
+C|332441|41|K|Sara Lindström Akhondi|Sjuksköterska, Djursholm
+C|332442|48|K|Lilly Kristensen|Trädgårdsing., Danderyd
+C|332443|76|M|Dick Lindberg|Arkitekt, Danderyd
+C|332444|79|M|Gustaf Stjernberg|f.d.direktör, Djursholm
+C|513848|28|M|Viktor Scherman|28, personlig assistent
+C|186705|72|M|Håkan Johanson|72, Jur. kand, Danderyd
+C|186706|54|M|Joachim Gahm|54, Civilekonom, Danderyd
+C|186707|63|K|Eva Borelius Zätterström|Sjukgymnast/fil.kand, Stocksund
+C|186709|66|M|Anders Hultgren|66, Civilingenjör, Civilekonom, Danderyd
+C|186710|75|M|Milles Lindgren|75, Pol. mag, Danderyd
+C|186711|40|K|Erika Svanström|40, Kommunikationschef, Danderyd
+C|186712|63|M|Gunnar Liljegren|Civilingenjör, Danderyd
+C|186713|62|K|Ewa Bergman|Speciallärare, Stocksund
+C|186714|20|M|Carl Reutercrona|20, Tjänsteman, Danderyd
+C|186716|78|M|Peter Forssman|Direktör, Djursholm
+C|186717|19|M|Alexander Silwer|Student, Djursholm
+C|186718|53|M|Michael Guldstrand|Ekonom, Djursholm
+C|186719|73|M|Owe Svantegård|73, Fd. försäljningsdirektör, Danderyd
+C|186720|84|M|Sten Dybeck|Fd. överingenjör, Djursholm
+C|186721|76|K|Ingegerd Linton|Fd. försäkringstjänsteman, Djursholm
+C|186722|79|M|Gustaf Mårtensson|Pensionär, Djursholm
+C|186723|73|K|Christina Hermelin|Fd. byråassistent, Danderyd
+C|186724|81|M|Lars-Olof Ödlund|Tekn. mag/fil.kand, Djursholm
+C|186725|84|M|Olof Hermelin|Direktör, Danderyd
+C|186726|52|K|Thomasine von Essen|52, Civilekonom, Danderyd
+C|186727|94|M|Simon Liliedahl|Civilekonom, Djursholm
+C|186728|46|M|Stefan Svanström|46, Kommunikationschef, Danderyd
+C|34040|62|M|Bengt Sylvan|Enebyberg
+C|34041|69|K|Birgitta Lindgren|Enebyberg
+C|34042|39|K|Sara Göthlin|Danderyd
+C|34043|50|M|Magnus Stenflo|Danderyd
+C|34044|76|K|Elvy Svennerstål|Stocksund
+C|34045|53|M|Fredrik Palmquist|Djursholm
+C|34046|66|K|Monica Renstig|civilekonom, Danderyd
+C|34047|70|M|Tommy Lindgren|Enebyberg
+C|34048|74|M|Lars-Gunnar Wallin|Danderyd
+C|34049|51|K|Desirée Lindqvist|Djursholm
+C|34050|69|K|Charlotta Malm|Djursholm
+C|34051|60|M|Rolf Lundgren|Djursholm
+C|34052|54|M|Bengt Attling|konsult, Djursholm
+C|34053|51|K|Maarit Nordmark|civilingenjör, Stocksund
+C|34054|84|M|Peter Haas|Enebyberg
+C|34055|20|K|Kelin Taylor Lundgren|Djursholm
+C|34056|56|M|Fredrik Pallin|Enebyberg
+C|34057|22|M|Walter Deltin|Danderyd
+C|34058|78|M|Ingemar Ståhl|Djursholm
+C|34059|48|K|Ulrika Hektor|Enebyberg
+C|34060|76|M|Lennart Sundquist|Danderyd
+C|34061|68|K|Lisa Abrahamowicz|Djursholm
+C|34062|61|M|Henrik Lehmann|Danderyd
+C|34063|63|K|Birgitta Gottfries Dahlberg|företagsläkare, Danderyd
+C|217829|74|M|Jan Orest|Stocksund
+C|34064|70|K|Annika Linde|fd statsepidemiolog, Danderyd
+C|217828|46|K|Sophia Metelius|Djursholm
+C|217830|81|K|Marianne Andersson|Danderyd
+C|217831|53|M|David Nyström|Danderyd
+C|217832|42|K|Helena Lindberg|Enebyberg
+C|217833|56|M|Robert Roos|Stocksund
+C|217834|85|K|Agneta Aust Kettis|Djursholm
+C|217835|84|M|Ulf Uebel|Enebyberg
+C|34065|81|K|Torun Hegardt|Djursholm
+C|34066|80|K|Ulla Löwenhielm|Djursholm
+C|113277|67|K|Carolin Robson|Jurist
+C|113278|68|K|Ruby Rosén|Fil.mag., speciallärare
+C|113279|68|K|Gun-Britt Lindström|68, kommunikatör, Danderyd
+C|113280|69|M|Kjell Rosén|Miljösamordnare
+C|113281|55|M|Paul Fuehrer|Fil.Dr., universitetslektor
+C|113282|55|K|Erika Lunding|Forskare M.A.
+C|113283|75|M|Rolf Hansen|Jägmästare
+C|113284|51|M|Per Enarsson|Departementsråd
+C|113285|37|M|David Källman|Fil mag, biolog
+C|113286|36|K|Erika Baraldi|Leg.psykolog, doktorand
+C|113287|59|K|Anna Götlind|Professor
+C|113288|72|M|Sven Norén|Datakonsult
+C|113289|75|K|Meit Krakau|Läkare
+C|113290|31|K|Erika Kristo|Behandlingspedagog
+C|113291|91|K|Ann-Marie Sjölinder|Pensionär
+C|17672|48|M|Olle Reichenberg|48, Kommunalråd
+C|12796|58|M|Anders Paulsen|58, Egenföretagare
+C|17674|37|K|Hanna Bocander|37, Marknadschef
+C|17675|43|K|Johanna Hornberger|43, Politiskt sakkunnig
+C|17676|62|K|Carina Erlandsson|62, Småföretagare
+C|17677|79|M|Erik Hafström|79, Jur. kand
+C|17678|73|M|Boris von Uexküll|73, Överläkare
+C|17679|34|M|Ludvig Waldenström|34, Småföretagare
+C|17680|72|M|Anders Bergstrand|72, Jurist
+C|17681|22|K|Linnéa Sundman|22, Student
+C|17682|71|M|Torsten Sjögren|71, Pensionerad VD
+C|17683|66|K|Inger Ohlsson Blomberg|66, Pol. mag
+C|17684|68|K|Ulla Hurtig Nielsen|68, Ekonomichef
+C|17685|72|K|Lena Cronvall Morén|72, Civilekonom
+C|17686|73|M|Claës Breitholtz|73, fd Officer
+C|17687|52|K|Anna Sarkany|52, Jurist
+C|17688|70|M|Christer Bergquist|70, Bonde
+C|17689|60|M|Leo Smidhammar|60, Småföretagare
+C|17690|31|M|Richard Törnqvist af Ström|31, Ingenjör
+C|17691|52|K|Bigitta Sundman|52, Auktoriserad revisor
+C|17692|57|M|Robert Nibelius|57, Företagare
+C|17693|58|M|Jan Lindquist|58, Marknadschef
+C|17694|56|M|Johan Hjelmqvist|56, Civilekonom
+C|17695|77|M|Tord Kyhlstedt|77, Civilekonom
+C|17696|70|M|Mats Nilsson|70, Apotekare
+C|17697|22|M|Johan Henriques|22, Student
+C|17698|59|M|Andreas Tidström|59, Regionjurist
+C|17699|27|M|Fredrik Wevle|27, Stabschef
+C|17700|34|K|Sanna Tursunow|34, Statstjänsteman
+C|17701|60|M|Johan Gröndal|60, Banktjänsteman
+C|17702|52|K|Pia-Lena Moller|52, Civilekonom
+C|17703|62|K|Jolanta Kowalkowska|62, Projektledare
+C|17704|67|M|Richard Jansson Stiernblad|67, Civilekonom
+C|17705|52|M|Pär Norlander|52, Chefsarkitekt
+C|17706|51|M|Magnus Boman|51, VD
+C|17707|65|M|Sven Carlson|65, Egenföretagare
+C|17708|22|M|Carl Gustav Pfeiffer|22, Student
+C|17709|39|M|Erik Lunell|39, Statstjänsteman
+C|17710|57|M|Fredrik Näslund|57, Civilingenjör
+C|17711|56|K|Cecilia Ålander|56, leg. Fysioterapeut
+C|17712|50|K|Elisabeth Kotsinas|50, Banktjänsteman
+C|17713|57|K|Catrin Tidström|57, Kansliråd
+C|513743|40|M|Magnus Gottås|Tillväxtinvesterare (40)
+C|513744|44|K|Louise Hallmén|HR-partner (44)
+C|513745|45|M|Peder Gyllenberg|Entreprenör (45)
+C|515394|48|K|Carina Floser|Regionansvarig bank & finans (48)
+C|515395|45|M|Christian Søemod|Finanskonsult (45)
+C|515396|45|M|Tomas Majak|Utvecklingschef (45)
+C|127620|53|M|Christer Erestål|53, service manager, Danderyd
+C|127621|58|K|Eva Bergman|58, ekonomikonsult, Danderyd
+C|127622|42|M|Bo Lagerkrantz|42, Bolagsjurist, Djursholm
+C|127623|23|M|Deniz Norgren|22, Grafiker, Djursholm
+C|127624|24|M|Christian Krappedal|Tjänsteman, Danderyd
+C|127625|55|M|Rüdiger Glassing|55, Chaufför, Djursholm
+C|127626|72|M|Björn Waltré|72, f.d Fin.Dir, Danderyd
+C|127627|68|M|Erik Tiainen|67, Speciallärare, Stocksund
+C|127628|70|M|Hans-Olof Kullmer|70, tandläkare, Danderyd
+C|182149|63|K|Marina A Davidsdotter|Danderyd, kurator
+C|182150|59|M|Jamshid Ghassemi|produktionschef
+C|182151|25|K|Felicia Frennesson|studerande/samhällsanalytiker
+C|182152|76|M|Gunnar Blomquist|pensionär
+C|182153|43|M|Hossein Kavianipour|ingenjör

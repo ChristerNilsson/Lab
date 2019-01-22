@@ -1,11 +1,192 @@
-2|27857|27858|27859|27860|27861|27862|27863|27864|27865|27866|27867|27868|27869|27870|27871|27872|27873|27874|27875|27876|27877|27878|27879
-4|37746|37734|45526|45527|39193|45529|45530|45531|45532|45533|45534|45535|45536|45537|37753|45539|45540|45541|45542|45543|45544|45545|45546|45547|45548
-532|412586|412587|412588|219299
-68|31961|31784|31688|31964|31965|31966|31967|31968|31969|31970|31971|31972|31973|31974|31975|31976|31977
-3|56177|56178|56179|56180|38849|56182|56183|56184|56185|56186|56187|56188|56189
-1296|128525|187943|267668|267669|267670|267735
-55|113940|19809|17260|19813|113944|113945|113946|113947|113948|113949|113950|113951
-1|56532|56533|56534|56535|56536|56537|56538|56539|56540|56541|56542|56543|56544|56545|56546|56547|56548|56549|56550|56551|56552|56553|56554|56555|56556|56557|56558|56559|56560
-110|53788|53789|53790|53791|53792|53793|53794|53795|53796|53797|53798|53799|53800|53801|53802|53803
-1309|431295|431309|431366|431367|431368|431369
-5|109805|109806|109807|109808|109809|109810|109811|109812|109813|109814|109815|109816|109818|109819|109820|109821|109822|180051
+T|Höör
+A|2|27857|27858|27859|27860|27861|27862|27863|27864|27865|27866|27867|27868|27869|27870|27871|27872|27873|27874|27875|27876|27877|27878|27879
+A|4|37746|37734|45526|45527|39193|45529|45530|45531|45532|45533|45534|45535|45536|45537|37753|45539|45540|45541|45542|45543|45544|45545|45546|45547|45548
+A|532|412586|412587|412588|219299
+A|68|31961|31784|31688|31964|31965|31966|31967|31968|31969|31970|31971|31972|31973|31974|31975|31976|31977
+A|3|56177|56178|56179|56180|38849|56182|56183|56184|56185|56186|56187|56188|56189
+A|1296|128525|187943|267668|267669|267670|267735
+A|55|113940|19809|17260|19813|113944|113945|113946|113947|113948|113949|113950|113951
+A|1|56532|56533|56534|56535|56536|56537|56538|56539|56540|56541|56542|56543|56544|56545|56546|56547|56548|56549|56550|56551|56552|56553|56554|56555|56556|56557|56558|56559|56560
+A|110|53788|53789|53790|53791|53792|53793|53794|53795|53796|53797|53798|53799|53800|53801|53802|53803
+A|1309|431295|431309|431366|431367|431368|431369
+A|5|109805|109806|109807|109808|109809|109810|109811|109812|109813|109814|109815|109816|109818|109819|109820|109821|109822|180051
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1309|TRP|TRYGGHETSPARTIET
+B|5|V|Vänsterpartiet
+C|27857|65|M|Stefan Lissmark|Socionom, Höör
+C|27858|48|K|Susanne Asserfors|Egen företagare, Höör
+C|27859|65|M|Anders Magnhagen|Ombudsman, Höör
+C|27860|73|K|Maria Boström-Lambrén|
+C|27861|56|M|Lars Oscarsson|Förskolelärare, Höör
+C|27862|71|K|Gill Andersson|
+C|27863|68|M|Per-Olov Henriksson|Pensionär, Höör
+C|27864|65|K|Marianne Ragntoft|
+C|27865|62|M|Thomas Hult|
+C|27866|72|K|Ellinor Dahlgren|
+C|27867|51|M|Olof Asserfors|Tekniker, Höör
+C|27868|70|K|Lena Larsson|
+C|27869|73|M|Göran Dahlgren|
+C|27870|77|K|Anna-Greta Reinholdz|
+C|27871|65|M|Kent Staaf|
+C|27872|75|K|Anita Fransson|
+C|27873|65|K|Else Håkansson|
+C|27874|64|K|Ann-Marie Magnhagen|
+C|27875|60|M|Clas Paulsson|
+C|27876|51|K|Monica Jönsson|
+C|27877|57|M|Roger Persson|
+C|27878|55|M|Håkan Jönsson|
+C|27879|57|K|Marie Ferrari|
+C|37746|46|M|Lars-Olof Andersson|Höör, Skogsägare, 46
+C|37734|44|K|Hanna Ershytt|Höör, Ekologisk ekonom, 44
+C|45526|68|M|Arne Gustavsson|Agronom, Höör, 68
+C|45527|23|K|Miriam Steinwall|Student, Höör, 23
+C|39193|43|M|Martin Olsson|43, Lantbrukare, Snogeröd
+C|45529|61|K|Anette Roslund|Egenföretagare, Höör, 61
+C|45530|47|M|Fredrik Brobeck|Ekonom, Misseröd, 47
+C|45531|31|M|Daniel Mc Cabe|Civilingenjör, Höör, 31
+C|45532|47|M|Ingemar Kristensson|Civilekonom, Snogehall, 47
+C|45533|45|K|Henriette Avemarie|Lektor, Höör, 45
+C|45534|44|M|Ted Dÿring|IT-specialist, Ringsjöhöjden, 44
+C|45535|74|M|Lars Nihlén|Pensionär, Höör, 74
+C|45536|43|K|Kristina Haara|Logistiker, Höör, 43
+C|45537|52|M|Ola Kollén|Lärarstudent, Höör, 52
+C|37753|53|M|Greger Johansson Gadde|Höör, IT-tekniker, 53
+C|45539|47|K|Anna Ehnberg Simonsson|Administratör, Höör, 47
+C|45540|64|M|Lars Böök|Lantbrukare, Rolsberga, 64
+C|45541|74|M|Åke Johansson|Lantbrukare, Höör, 74
+C|45542|70|K|Britt-Marie Svensson|Pensionär, Höör, 70
+C|45543|56|M|Per-Arne Olsson|Entreprenör, Rolsberga, 56
+C|45544|65|M|Magnus Frostgård|Riskanalytiker, Fogdarp, 65
+C|45545|66|K|Carin Gustavsson|Distriktssköterska, Höör, 66
+C|45546|60|M|Sven Rundqvist|Lantmästare, Kulleberga, 60
+C|45547|59|M|Jan-Åke Roslund|Projektledare, Höör, 59
+C|45548|71|M|Rolf Svensson|Lantmästare, Höör, 71
+C|412586|53|K|Katarina Sebelius|53, Regionchef
+C|412587|83|M|Kjell Winberg|83, Personlig assistent
+C|412588|66|K|Blanca-Lilia Lozano|66, Fritidspedagog
+C|219299|57|M|Jaime Gomez Alcaraz|57år, Dataingenjör, Höör
+C|31961|71|M|Erik Mårtensson|71 år, Egenföretagare, Höör
+C|31784|68|K|Margareta Johansson|68 år, Socionom, Höör
+C|31688|65|M|Carl Malmqvist|65 år, Marknadsekonom, Höör
+C|31964|36|K|Kaiza Nilsson|36 år, Säljare, Höör
+C|31965|22|M|George Emilson|22 år, Student, Höör
+C|31966|63|K|Birgitta Molin|63 år, Läkare, Höör
+C|31967|65|M|Hans Johansson|65 år, Elingenjör, Höör
+C|31968|45|K|Viktoria Mårtensson|45 år, Lärare, Höör
+C|31969|67|M|Lennart Fredriksson|67 år, Socionom, Tjörnarp
+C|31970|25|K|Helena Pålsson|25 år, Administratör, Höör
+C|31971|59|M|Eilert Steinvall|59 år, Administratör, Höör
+C|31972|34|K|Natalja Forsberg|34 år, Hotellreceptionist, Höör
+C|31973|57|M|Per Pålsson|57 år, Manager, Höör
+C|31974|67|M|Anders Molin|67 år, Egenföretagare, Höör
+C|31975|44|M|Tomas Forsberg|44 år, Personlig assistent, Höör
+C|31976|49|K|Charlotta Fredriksson|49 år, Sjuksköterska, Höör
+C|31977|61|M|Jan Tunhav|61 år, Lantbrevbärare, Höör
+C|56177|45|M|Jörgen Ekman|Universitetslektor, 45 år
+C|56178|69|K|Christina Pehrson|Biomedicinsk analytiker, 69 år
+C|56179|68|K|Brita Edholm|Höör
+C|56180|59|K|Katarina Gisow|Egen företagare/Inredare, 59 år
+C|38849|46|M|Mikael Sparrhult|Höör
+C|56182|72|M|Pehr-Ove Pehrson|Nationalekonom, f.d. Kommunalråd, 72 år
+C|56183|51|M|Alexander Resic|Projektledare, 51 år
+C|56184|59|M|Wojciech Wlosinski|Förtidspensionär, f.d. VD, 59 år
+C|56185|53|K|Anna Ramberg|Civilingenjör, 53 år
+C|56186|58|M|Peter Liljekvist|Specialpedagog, 58 år
+C|56187|78|K|Birgitta Krüger|f.d. Leg. Arbetsterapeut, 78 år
+C|56188|85|M|Knut Kryger|f.d. Leg. Sjuksköterska, 85 år
+C|56189|78|M|Gunnar Sundström|f.d. Läkare, 78 år
+C|128525|45|K|Anna Jung|45, Landsbygdsföretagare, Skåne
+C|187943|68|M|Torsten Jönsson|69, sales manager, Höör
+C|267668|45|M|Patrik Dahl|45, beläggningsarbetare, Norra Rörum
+C|267669|45|K|Maria Persson|45, sjuksköterska, Höör
+C|267670|47|M|Magnus Lanner|47, börsmäklare, Rolsberga
+C|267735|69|M|Reinhold Håkansson|69, egenföretagare, Jularp
+C|113940|54|M|Kenneth Kallin|Miljöarbetare, 54 år, Jularp
+C|19809|47|K|Maria Truedsson|Arbetsterapeut, 48 år, Höör
+C|17260|38|M|Fredrik Hanell|Doktorand, 38 år, Höör
+C|19813|42|K|Elin Hyltén-Cavallius|Butiksbiträde, 42 år, Höör
+C|113944|29|M|Sven Stark|Civilingenjörstudent, 29 år, Jularp
+C|113945|29|K|Elin Vinblad|Logoped, 29 år, Jularp
+C|113946|49|M|Arno Werner|Gymnasielärare, 49 år, Höör
+C|113947|57|K|Anneli Elmelid|Präst, 57 år, Höör
+C|113948|30|M|Johan Magnusson|Personlig assistent, 30 år, Höör
+C|113949|61|K|Madeleine Jehpsson|Kulturpedagog, 61 år, Höör
+C|113950|75|K|Kerstin von Seth|Författare, 75 år, Höör
+C|113951|41|K|Lena Zetterström|Aukt. Socionom, 41 år, Höör
+C|56532|57|K|Anna Palm|57 år, kommunalråd, Höör
+C|56533|67|M|Anders Netterheim|67 år, f.d. säkerhetschef, Höör
+C|56534|51|K|Camilla Källström|52 år, civilingenjör, Gamla Boo
+C|56535|34|M|Johan Svahnberg|34 år, civilekonom, Höör
+C|56536|54|M|Lars-Håkan Persson|54 år, brandman, Höör
+C|56537|48|K|Camilla Kampf|48 år, företagare, Höör
+C|56538|64|K|Susanne Andersson|64 år, leg. sjuksköterska, Jularp
+C|56539|69|M|Jan Malmgren|69 år, pensionär, Höör
+C|56540|20|K|Hanna Dalhusen|20 år, studerande, Höör
+C|56541|54|K|Eva Iding|54 år, företagare, Höör
+C|56542|74|M|Per-Olof Ågren|74 år, pensionär, Höör
+C|56543|64|K|Gunilla Malmqvist|64 år, civilekonom, Höör
+C|56544|70|M|Bo Hansson|70 år, lärare, Munkarp
+C|56545|42|M|Daniel Ell|42 år, energiexpert, företagare, Gamla Boo
+C|56546|75|M|Tom Ström|75 år, ingenjör, Wrangelsborg
+C|56547|46|M|Fredrik Stålhandske|46 år, vice president logistics management, Höör
+C|56548|78|M|Hans-Göran Larsson|78 år, pensionär, Höör
+C|56549|75|M|Hans Clair|75 år, f.d. polis, Höör
+C|56550|53|M|Fredrik Tuvesson|53 år, klubbchef, Wrangelsborg
+C|56551|32|M|Morgan Karlsson|32 år, mark & va-projektör, Gamla Boo
+C|56552|53|K|Katarina Dyrssen|53 år, undersköterska, Höör
+C|56553|77|M|Leif Ohlin|76 år, frisör, Höör
+C|56554|65|M|Johan Hårleman|65 år, lantmästare, Höör
+C|56555|70|M|Christer Ekelund|70 år, ekonomie doktor, Ormanäs
+C|56556|61|M|Magnus Flink|61 år, f.d. lärare, Höör
+C|56557|57|K|Birgitta Andersson|57 år, rektor, Höör
+C|56558|46|M|Martin Månsson|46 år, teknisk chef, Höör
+C|56559|24|K|Hanna Fors|23 år, studerande, Höör
+C|56560|21|M|Johan Karlsson|21 år, studerande, Höör
+C|53788|73|M|Rolf Streijffert|Tågmästare
+C|53789|64|M|Stefan Liljenberg|Egenföretagare
+C|53790|53|K|Helena Ohlson|Hemmafru
+C|53791|49|M|Robert Nilsson|Maskinoperatör
+C|53792|65|M|Lars Andersson|Fil. kand, 65 år
+C|53793|82|M|Ismo Pääkkönen|Pensionär
+C|53794|59|M|Anders Nilsson|Egen företagare, 59 år
+C|53795|52|M|Roger Stenberg|Stödassistent
+C|53796|47|K|Rashida Nord Atac|Trafiklärare
+C|53797|63|K|Natalia Bengtsson|Lokalvårdare
+C|53798|43|K|Jennie Svensson|Undersköterska
+C|53799|54|M|Mikael Nathell|Egenföretagare
+C|53800|56|K|Kerstin Malmborg|Lantbrukare
+C|53801|59|M|Eskil Öhrn|Försäljare
+C|53802|50|M|Jacob Engnell|Byggnadsarbetare
+C|53803|44|M|Åke Lundström|Undersköterska
+C|431295|68|M|Holger Brede|Konsult, Höör
+C|431309|68|M|Sven Pettersson|Sjökapten, Höör
+C|431366|65|M|Per-Olof Steffert|Egen företagare
+C|431367|76|M|Sven Dahlman|revisor
+C|431368|83|K|Aina Nilsson|pensionär
+C|431369|85|K|Astrid Roos|pensionär
+C|109805|62|K|Christel Lindqvist|yrkesvägledare, Tjörnarp
+C|109806|69|M|Olle Krabbe|egen företagare, Höör
+C|109807|54|K|Maria Oscarsson|biomedicinsk analytiker, Höör
+C|109808|56|M|Johan Persson|specialistsjuksköterska, Höör
+C|109809|39|K|Karolina Frick|socionom, Ormanäs
+C|109810|69|M|Björn Lindqvist|pensionerad socialarbetare, Tjörnarp
+C|109811|33|K|Lisa Petersson|skogsekolog, Sätofta
+C|109812|61|M|Bengt Johansson|elevhandledare, Höör
+C|109813|72|K|Anita Tarkkonen|modersmålslärare, Höör
+C|109814|71|M|Agne Dahlqvist|pensionerad industriarbetare, Höör
+C|109815|66|K|Linda Björnman|egenföretagare, Norra Rörum
+C|109816|32|M|Erik Nilsson|maskintekniker, Norra Rörum
+C|109818|43|M|Claes Dahlqvist|bibliotekarie, Höör
+C|109819|51|K|Helena Johnsson|elevassistent, Munkarp
+C|109820|51|K|Marie Birch-Jensen|kultursamordnare, Tjörnarp
+C|109821|64|K|Annika Johansson|drogterapeut, Jularp
+C|109822|45|K|Linda Lindhé|sråktekniker, Höör
+C|180051|62|K|Cathrine Löfgren|socionom, Höör

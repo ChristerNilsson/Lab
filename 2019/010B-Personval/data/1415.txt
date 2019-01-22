@@ -1,11 +1,188 @@
-2|86698|86699|86700|86701|86702|86703|86704|86705|86706|86707|86708|86709|86710|86711|86712|86713|86714|86715|86716|86717|86718|86719|86720|86721|86722|86723|86724|86725|86726|86727|86728|86729|86730|86731|86732|86733|86734|86735|86736
-4|189933|189934|189935|189936|189937|189938|189939|189940|189941|189942|189943|189944|189945|189946|189947|189948|189949|189950
-68|277360|277373|298130|500680|500681|500682|298121
-1011|515008
-3|277668|277669|277670|277671|277672|277673|277674|277675|277676|277677|277678|277679|277680|277681|277682|277683|277684|277685
-1296|257613|260153
-55|76155|76156|76157|76158|76159|76161
-1|254570|254571|253910|253915|254574|254575|254576|254577|254185|254579|254581|254582|254583|254181|254585|254586|254587|254588|254196|254590|254592|254593|254594|254595|254596|254597|254598|254599|254600|254601|254602|254603|254604
-1323|12984|12985|12986|12990|12991|12992|12993|12994|12995|12996|12998|12999|13000|13002|13003|13004|13005|13006|13007|13008|13009|13010|13011
-110|61333|72068|72069|72070|72071|72072|72073|72074
-5|160736|162907|162911|180737|213856|213857|213858|284316|233267|213859|213860
+T|Stenungsund
+A|2|86698|86699|86700|86701|86702|86703|86704|86705|86706|86707|86708|86709|86710|86711|86712|86713|86714|86715|86716|86717|86718|86719|86720|86721|86722|86723|86724|86725|86726|86727|86728|86729|86730|86731|86732|86733|86734|86735|86736
+A|4|189933|189934|189935|189936|189937|189938|189939|189940|189941|189942|189943|189944|189945|189946|189947|189948|189949|189950
+A|68|277360|277373|298130|500680|500681|500682|298121
+A|1011|515008
+A|3|277668|277669|277670|277671|277672|277673|277674|277675|277676|277677|277678|277679|277680|277681|277682|277683|277684|277685
+A|1296|257613|260153
+A|55|76155|76156|76157|76158|76159|76161
+A|1|254570|254571|253910|253915|254574|254575|254576|254577|254185|254579|254581|254582|254583|254181|254585|254586|254587|254588|254196|254590|254592|254593|254594|254595|254596|254597|254598|254599|254600|254601|254602|254603|254604
+A|1323|12984|12985|12986|12990|12991|12992|12993|12994|12995|12996|12998|12999|13000|13002|13003|13004|13005|13006|13007|13008|13009|13010|13011
+A|110|61333|72068|72069|72070|72071|72072|72073
+A|5|160736|162907|162911|180737|213856|213857|213858|284316|233267|213859|213860
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1323|St|Stenungsundspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|86698|62|M|Bo Pettersson|Stora Höga
+C|86699|34|K|Melisa Nilsson|utvecklare, Stenungsund
+C|86700|64|M|Morgan Andersson|industriarbetare, Stenungsund
+C|86701|64|K|Carola Granell|Jörlanda
+C|86702|64|M|Lars-Ebbe Pettersson|pensionär, Stenungsund
+C|86703|42|K|Katja Nikula|Ucklum
+C|86704|43|M|Olof Lundberg|Jörlanda
+C|86705|44|K|Janette Olsson|lärare, Stenungsund
+C|86706|66|M|Jan Rudén|pensionär, Stenungsund
+C|86707|37|K|Carin Oleryd|Jörlanda
+C|86708|69|M|Roger Andersson|Stenungsund
+C|86709|66|K|Pia Andell|Stenungsund
+C|86710|53|M|Claes Olsson|Spekeröd
+C|86711|63|K|Ritva Stubelius|distriktssköterska, Stenungsund
+C|86712|33|M|Himan Mojtahedi|Stenungsund
+C|86713|76|K|Gunnel Lundgren|Stenungsund
+C|86714|22|M|Fabian Gustafsson|studerande, Stenungsund
+C|86715|41|K|Sanida Okanovic|pedagog, Stenungsund
+C|86716|45|M|Johnny Alexandersson|Stenungsund
+C|86717|31|K|Ida Melin|Jörlanda
+C|86718|68|M|Christer Svensson|Ödsmål
+C|86719|33|K|Martina Pettersson|Stenungsund
+C|86720|58|M|Göran Andtbacka|Stenungsund
+C|86721|71|K|Berith Svensson|Ödsmål
+C|86722|66|M|Ingemar Johansson|Svenshögen
+C|86723|57|K|Ann Christensen|Ödsmål
+C|86724|52|M|Ronnie Hjälm|Stenungsund
+C|86725|27|K|Doa al Saif|Stenungsund
+C|86726|32|M|Jimmy Fyrevik|Ödsmål
+C|86727|54|K|Marie Nilsson|Stenungsund
+C|86728|52|M|Thomas Hjelm|Ödsmål
+C|86729|75|K|Siv W Johansson|Stenungsund
+C|86730|63|M|Tommy Olsson|Stenungsund
+C|86731|57|K|Ingela Lovehammer|Stenungsund
+C|86732|63|M|Lars Göran Nilsson|Stenungsund
+C|86733|40|K|Samar al Hasson|Stenungsund
+C|86734|81|M|John Rundberg|Stenungsund
+C|86735|72|K|Eva-Lisa Birath Lindvall|Stora Höga
+C|86736|69|M|Staffan Vretborn|Stenungsund
+C|189933|41|K|Linda-Maria Hermansson|41, oppositionsråd, Stenungsund
+C|189934|66|M|Thomas Danielsson|67 år, pensionär, Stenungsund
+C|189935|50|K|Camilla Pedersen|50 år, företagare, Ödsmål
+C|189936|45|M|Tomas Olsson|45 år, byggnadsarbetare, Ödsmål
+C|189937|48|M|Håkan Hermansson|48 år, avdelningschef, Stenungsund
+C|189938|51|M|Roberth Ottosson|51 år, arbetsledare, Ödsmål
+C|189939|41|M|Mattias Vernberg|41, matinspiratör, Stenungsund
+C|189940|22|M|Albin Otterhäll|22 år, It-tekniker, Jörlanda
+C|189941|55|M|Anders Hederström|54 år, terapeut, Ucklum
+C|189942|68|K|Ingela Ström|68 år, pensionär, Stenungsund
+C|189943|58|M|Kjell Bruhn|58 år, logistiker, Jörlanda
+C|189944|52|K|Madeleine Pontén|53 år, företagare, Stenungsund
+C|189945|47|M|Nic Larson|47 år, Stora Askerön
+C|189946|29|K|Jacqueline Pontén|29 år, fältinspektör, Stenungsund
+C|189947|18|K|Madeleine Ward|18 år, student, Spekeröd
+C|189948|18|M|Alexander Hermansson|18 år, student, Spekeröd
+C|189949|18|K|Linnea Karlberg|18 år, student, Stenungsund
+C|189950|52|M|Hans Johansson|52 år, lantbrukare, Jörlanda
+C|277360|70|K|Lena Hedlund|Sjuksköterska, Stenungsund
+C|277373|30|M|Nedzad Deumic|Enhetschef äldreomsorg, Stenungsund
+C|298130|64|K|Marie-Louise Ericsson|Musikpedagog, Stenungsund
+C|500680|44|M|Jakob Hallman|ombudsman, Stora Höga
+C|500681|56|M|Uno Danielsson|lastbilschaufför, Svenshögen
+C|500682|60|K|Maria Bennsten|sjuksköterska, Jörlanda
+C|298121|52|M|Ingemar Porsefeldt|Företagare, Stenungsund
+C|515008|67|K|Birgitta Ahlin|
+C|277668|59|K|Lisbeth Svensson|59, kemiingenjör, Stenungsund
+C|277669|70|M|Göder Bergermo|Företagare, Stenungsund
+C|277670|44|M|Martin Hollertz|44, forskningsingenjör, Stenungsund
+C|277671|62|M|Lennart Svensson|Marknadschef, Stenungsund
+C|277672|46|K|Maria Möller|Banktjänsteman, Stenungsund
+C|277673|55|M|Magnus Bennsten|Kemiingenjör, Ödsmål
+C|277674|71|M|Hans Gillenius|Ekonom, Ödsmål
+C|277675|71|M|Ingemar Hadartz|Projektledare, Stenungsund
+C|277676|72|M|Ronald Olausson|F.d. tjänsteman, Spekeröd
+C|277677|43|K|Linda Bergermo|Marknadskommunikatör, Stora Höga
+C|277678|72|M|Dick Pettersson|Pensionär, Spekeröd
+C|277679|67|M|Björn Ringnér|Ekonom, Stenungsund
+C|277680|46|M|Rickard Bergermo|Projektchef, Stora Höga
+C|277681|68|M|Raoul Hector|F.d. studie- och yrkesvägledare, Stora Askerön
+C|277682|62|M|Erik Söderberg|Företagare, Stenungsund
+C|277683|62|M|Lars Josefsson|Projektledare, Stenungsön
+C|277684|82|M|Jan Ramberg|Båtsäljare, Svenshögen
+C|277685|71|M|Jan Glimstedt|Advokat, Jörlanda
+C|257613|67|M|Göran Nevberg|67 Ingenjör Stenungsund
+C|260153|47|M|Nicklas Ljungholm|47 IT-arkitekt Stenungsund
+C|76155|54|M|Jimmy Lövgren|54 år, Gymnasielärare, Stenungsund
+C|76156|48|K|Anneli Holmén|48 år, Socionom, Spekeröd
+C|76157|25|M|Johan Thunberg|25 år, Studerande, Stora Höga
+C|76158|38|K|Charlotte Edström|38 år, Utbildningshandläggare, Jörlanda
+C|76159|54|M|Mats Thuresson|54 år, Socialpedagog, Svenshögen
+C|76161|48|M|Fredrik Pihlström|48 år, Programmerare, Jörlanda
+C|254570|48|K|Maria Renfors|48, Centrum
+C|254571|60|M|Michael Ernfors|60, Ödsmål
+C|253910|43|K|Sofia Westergren|43, Företagare/Politiker, Stenungsund
+C|253915|44|M|Johan Jönsson|44, IT-Entreprenör, Stenungsund
+C|254574|75|K|Lillemor Arvidsson|75, Kopper
+C|254575|60|M|Wouter Fortgens|60, Stenungsön
+C|254576|52|K|Helena Nävergårdh|52, Centrum
+C|254577|34|M|Martin Brink|34, Hallerna
+C|254185|70|K|Maggie Robertsson|70, Pensionär, Stenungsund
+C|254579|23|M|Alex Ward Slotte|23, Spekeröd
+C|254581|39|M|Peter R Öberg|39, Ödsmål
+C|254582|71|M|Gunnar Lidén|71, Centrum
+C|254583|42|K|Camilla Brocker|42, Hallerna
+C|254181|57|M|Torgny Wiking|57, Egenföretagare, Stenungsund
+C|254585|39|K|Anna-Karin Vernberg|39, Stenungsund
+C|254586|45|M|Krister Persson|45, Ödsmål
+C|254587|46|M|Martin Bergman|46, Ödsmål
+C|254588|26|M|Carl Brinkhoff|26, Ucklum
+C|254196|64|M|Mats Gjertz|64, Senior Projektledare, Stenungsund
+C|254590|72|K|Eva Fredriksson|72, Stenungsund
+C|254592|69|M|Robert Löfvendahl|69, Ucklum
+C|254593|40|K|Charlotte Leismyr Ekenberg|, Stenungsund
+C|254594|43|M|Daniel Söderström|43, Strandnorum
+C|254595|32|K|Charlott Karlsson|32, Stenungsund
+C|254596|64|M|Dan Westergren|64, Ucklum
+C|254597|37|K|Pernilla Sandén|37, Stenungsund
+C|254598|52|M|Patrick Hübinette|52, Stenungsund
+C|254599|40|K|Claudia Söderström|40, Stenungsund
+C|254600|75|M|Rolf Svensson|75, Stora Höga
+C|254601|45|M|Robert Bengtsson|45, Centrum
+C|254602|48|K|Monica Ahlgren|48, Stora Höga
+C|254603|50|M|Per-Erik Thorson|50, Ucklum
+C|254604|82|M|Carl-G Finnskog|82, Stenungsund
+C|12984|47|K|Helena Järpsten|47 år, Högenorum
+C|12985|44|K|Linda Ekdahl|44 år, Centrum
+C|12986|53|K|Agneta Pettersson Bell|53 år, Spekeröd
+C|12990|57|M|Robert Engström|57 år, Ödsmål
+C|12991|48|M|Robert Jansson|48 år, Strandnorum
+C|12992|54|M|Peter Modig|54 år, Högenorum
+C|12993|43|K|Catarina Dunghed|43 år, Ucklum
+C|12994|33|K|Sara Hohlfält|33 år, Söbacken
+C|12995|67|M|Jan Rollén|67 år, Hasselbacken
+C|12996|77|M|Ola Engström|77 år, Jörlanda
+C|12998|86|M|Gunnar Pettersson|86 år, Centrum
+C|12999|70|M|Kjell Stahre|70 år, Hallerna
+C|13000|43|M|Magnus Ekdahl|43 år, Centrum
+C|13002|39|M|Peter Johanson|39 år, Hallerna
+C|13003|53|M|Stefan Nibell|53 år, Tegen
+C|13004|35|M|Michael Ekdahl|35 år, Hällesdalen
+C|13005|73|K|Christina Engström|73 år, Jörlanda
+C|13006|75|M|Rune Järpsten|75 år, Centrum
+C|13007|55|K|Erika Jonsson|55 år, Hasselbacken
+C|13008|49|K|Jarka Jansson|49 år, Strandnorum
+C|13009|73|K|Marie-Louise Järpsten|73 år, Centrum
+C|13010|47|K|Lena Holmberg|47 år, Stora Höga
+C|13011|56|M|Torgny Odengard|56 år, Ödsmål
+C|61333|72|M|Otto Ericsson|72, Pensionär, Stenungsund
+C|72068|29|K|Alexandra Odelsheim|29 år, Undersköterska
+C|72069|52|M|Håkan Larsson|52 år, Egenföretagare
+C|72070|55|M|John Hansson|55 år, Specialpedagog
+C|72071|60|K|Ulla Johansson|60 år, Busschaufför
+C|72072|60|M|Glenn Ottosson|60 år, Driftledare Spårvägen Gbg
+C|72073|54|M|Rolf Malmborg|54 år, Ställningsbyggare
+C|160736|42|K|Emma Ramhult|lärare, Stenungsund, 42 år
+C|162907|64|M|Jan Alexandersson|ombudsman, Stenungsund, 64 år
+C|162911|70|K|Birgit Lövkvist|pensionär, Stenungsund, 70 år
+C|180737|54|M|Conny Nilsson|Stenungsund, 54 år
+C|213856|51|K|Annika Åberg Darell|verksamhetschef hälso- och sjukvård, Stenungsund, 52 år
+C|213857|61|K|Annika Gustafsson|lärarvikarie, Stenungsund, 61 år
+C|213858|45|K|Nabila Vedberg|lärare, Stenungsund, 45 år
+C|284316|65|K|Gunilla Hallberg|medicinsk sekreterare, Svenshögen, 65 år
+C|233267|42|M|Carl Ramhult|lärare, Ucklum, 42 år
+C|213859|66|K|Ann Lundstedt|socionom, Stenungsund, 66 år
+C|213860|49|K|Anette Gustafsson|universitetslektor, Stora Höga, 49 år

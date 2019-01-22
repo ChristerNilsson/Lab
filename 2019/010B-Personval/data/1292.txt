@@ -1,9 +1,258 @@
-2|86647|86648|28277|28288|86653|86652|86655|44894|86657|86656|86659|86658|86661|86660|86663|86662|86665|86664|86667|44914|86669|86668|86671|86670|86673|86672|86675|86674|86677|86676|86679|86678|86681|86680|86683|86682|86685|86684|86687|86686|86689|86688|86691|86690|86693|86692|86695|86694|86697|86696
-4|81207|81208|35328|81210|38889|35338|38910|38907|81215|81216|81217|81218|81219|81220|81221|81222|81223|81224|81225|81226|81227|81228|81229|81230|81231|81232|81233|81234|81235
-986|437901|437902|437903|437904|437905|437906|437907|437908|437909|437910|437911|437912|437913|437914|437915|437916|437917|437918|437919|437920|437921|437922
-68|31770|32088|32089|32090|32091|32092|32093|32094|32095|32096|32097|32098|31779|32100|32101|32102|32103|32104|32105|32106|32107|32108|32109|32110|32111|32112|32113|187526|187527
-3|55400|55401|55402|55403|55404|55405|55406|55407|55408|55409|55410|55411|55412|55413
-55|91195|91196|91197|91198|91199|91200|22086|91202|91203|91204|91205|91206|91207
-1|63352|63353|63354|63355|63356|63357|63358|63359|63360|63361|63362|63363|63364|63365|63366|63367|63368|63369|63370|63371|63372|63373|63374|63375|63376|63377|63378|63379|63380|63381|63382|63383|63384|63385|63386|63387|63388|63389|63390|63391|63392|63393|63394|63395|63396|63397|63398|63399|63400|63401
-110|406571|67014|67015|67016|67017|67018|67019|67020|67021|67022|67023|67024|67025|67026|67027|67028|67029|67030|67031|67032|197437|197438|197439|197440
-5|248146|248147|248148|128105|128127|248151|248152|248153|248154
+T|Ängelholm
+A|2|86647|86648|28277|28288|86653|86652|86655|44894|86657|86656|86659|86658|86661|86660|86663|86662|86665|86664|86667|44914|86669|86668|86671|86670|86673|86672|86675|86674|86677|86676|86679|86678|86681|86680|86683|86682|86685|86684|86687|86686|86689|86688|86691|86690|86693|86692|86695|86694|86697|86696
+A|4|81207|81208|35328|81210|38889|35338|38910|38907|81215|81216|81217|81218|81219|81220|81221|81222|81223|81224|81225|81226|81227|81228|81229|81230|81231|81232|81233|81234|81235
+A|986|437901|437902|437903|437904|437905|437906|437907|437908|437909|437910|437911|437912|437913|437914|437915|437916|437917|437918|437919|437920|437921|437922
+A|68|31770|32088|32089|32090|32091|32092|32093|32094|32095|32096|32097|32098|31779|32100|32101|32102|32103|32104|32105|32106|32107|32108|32109|32110|32111|32112|32113|187526|187527
+A|3|55400|55401|55402|55403|55404|55405|55406|55407|55408|55409|55410|55411|55412|55413
+A|55|91195|91196|91197|91198|91199|91200|22086|91202|91203|91204|91205|91206|91207
+A|1|63352|63353|63354|63355|63356|63357|63358|63359|63360|63361|63362|63363|63364|63365|63366|63367|63368|63369|63370|63371|63372|63373|63374|63375|63376|63377|63378|63379|63380|63381|63382|63383|63384|63385|63386|63387|63388|63389|63390|63391|63392|63393|63394|63395|63396|63397|63398|63399|63400|63401
+A|110|406571|67014|67015|67016|67017|67018|67019|67020|67021|67022|67023|67024|67025|67027|67028|67029|67030|67031|67032|197437|197438|197439|197440
+A|5|248146|248147|248148|128105|128127|248151|248152|248153|248154
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|986|EP|EngelholmsPartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|86647|39|M|Lars Nyander|Munka-Ljungby
+C|86648|55|K|Åsa Larsson|Villan
+C|28277|55|M|Mikael von Krassow|Administratör, Ängelholm
+C|28288|39|K|Emma Yngvesson|Gymnasielärare, Ängelholm
+C|86653|56|M|Magnus Jonsson|Munka-Ljungby
+C|86652|57|K|Pia Radil|Epadalen
+C|86655|69|M|Lars Carlsson|Haradal
+C|44894|66|K|Susanne Jönsson|Undersköterska/arbetsledare, Ängelholm
+C|86657|71|M|Arne Jönsson|Skepparkroken
+C|86656|75|K|BrittMarie Hansson|Centrum
+C|86659|76|M|Lars-Olle Tuvesson|Villan
+C|86658|34|K|Karin Bergström|Skälderviken
+C|86661|34|M|Ale Holm|Ängelholm
+C|86660|33|K|Fanny Krumlinde Handreck|Nyhem
+C|86663|72|M|Tommy Jönsson|Höja
+C|86662|67|K|Anne Viljevik|Munka-Ljungby
+C|86665|69|M|Kjell-Arne Nilsson|Lerbäckshult
+C|86664|71|K|Birgitta Johansson|Sockerbruket
+C|86667|71|M|Roy Ekstrand|Centrum
+C|44914|67|K|Eva-Lena Lindell|Pensionär, Ängelholm
+C|86669|59|M|Klas Lundh|Bäckadal
+C|86668|22|K|Amanda Svensson|Sockerbruket
+C|86671|29|M|Ahmed Alshawahk|Ängelholm
+C|86670|25|K|Aylin Caglipamuk|Kungsgården
+C|86673|42|M|Johnny Dinh-Kien Nguyen|Haradal
+C|86672|35|K|Sofia Gunnarsson|Vejbystrand
+C|86675|70|M|Sven Dahlberg|Strövelstorp
+C|86674|49|K|Murvet Rama|Munka-Ljungby
+C|86677|74|M|Bengt Bengtson|Ängelholm
+C|86676|69|K|Kitty Olofsson|Össjö
+C|86679|30|M|Anton Nyroos|Nya torg
+C|86678|76|K|Gun Tillgren|Ängavången
+C|86681|57|M|Christian Hedman|Hjärnarp
+C|86680|41|K|Jessica Klingvall|Munka-Ljungby
+C|86683|54|M|Sten Carlsson|Sockerbruket
+C|86682|30|K|Albana Veseli|Villan
+C|86685|66|M|Gert Nilsson|Haradal
+C|86684|57|K|Yvonne Mollet-Bengtsson|Vejbystrand
+C|86687|80|M|Björn Owenmark|Ängelholm
+C|86686|51|K|Susanne Brodin Ahlberg|Gånarp
+C|86689|59|M|Jan Strand|Össjö
+C|86688|68|K|Eva Bergström|Skälderviken
+C|86691|55|M|José Atilo Mata Umanzor|Villan
+C|86690|78|K|Gun-Inger Sjögren|Sockerbruket
+C|86693|77|M|Stig Svensson|Munka-Ljungby
+C|86692|53|K|Eva Larsson|Munka-Ljungby
+C|86695|48|M|Dennis Andersson|Äspenäs
+C|86694|29|K|Madelene Thuse|Munka-Ljungby
+C|86697|40|M|Egon Yngvesson|Vejbystrand
+C|86696|43|K|Malin Pamp|Munka-Ljungby
+C|81207|56|K|Liss Böcker|56, Företagare, Ängelholm
+C|81208|66|M|Carl-Gustaf Gudmundsson|66, Glasstillverkare, Ängelholm
+C|35328|34|M|Rasmus Waak Brunkestam|Egenföretagare, 34, Ängelholm
+C|81210|58|M|Lennart Nilsson|58, Lantbrukare, Skälderviken
+C|38889|67|K|Ann Hörnebrant-Sturesson|Vejbystrand, Fd. företagare, 67
+C|35338|28|K|Linda Böcker|Måltidspedagog, 28, Strövelstorp
+C|38910|65|M|Hans-Åke Jönsson|Åstorp, Civilingenjör, 65
+C|38907|70|M|Staffan Broddesson|Ängelholm, Lantmästare, 70
+C|81215|71|K|Carin Olsson|71, F.d.Studie- och yrkesvägledare, Skälderviken
+C|81216|64|M|Sven Bergman|64, Företagare, Ängelholm
+C|81217|42|K|Karna Pommer|42, Administrativ chef, Össjö
+C|81218|52|M|Mats Widén|53, Civilekonom, Havsbaden
+C|81219|57|K|Annely Silfwerax|57, Fotograf, Hjärnarp
+C|81220|66|M|Ingemar Olsson|66, Ingenjör, Starby
+C|81221|51|M|Peter Hansson|51, Försäljningschef, Ängelholm
+C|81222|61|K|Britt Berlin|61, Medicinsk sekreterare, Ängelholm
+C|81223|24|M|Adam Kylberg|24, Säljare, Ängelholm
+C|81224|48|M|Anders Källström|48, Stationschef, Strövelstorp
+C|81225|53|M|Urban Lennartsson|53, Reseledare, Starby
+C|81226|40|K|Lotta Henrysson|40, Rådgivare, Munka-Ljungby
+C|81227|57|M|Berne Andersson|57, Idrottslärare, Munka-Ljungby
+C|81228|74|M|Ulf Mattsson|75, Journalist, Mardal
+C|81229|52|K|Birgitta Carlsson|53, Grafiker, Ängelholm
+C|81230|68|M|Carl-Axel Andersson|68, Pensionär, Ängelholm
+C|81231|58|K|Gunilla Persson|58, Företagare, Vejbystrand
+C|81232|60|K|Eva Ivansson|60, Lantbrukare, Ängelholm
+C|81233|35|M|Emil Henrysson|34, Lantbrukare, Ängelholm
+C|81234|28|K|Frida Rohman|27, Kundtjänstmedarbetare, Vejbystrand
+C|81235|71|M|Claes Assarsson|71, Pensionär, Vejbystrand
+C|437901|62|M|Jim Brithén|62 år, Utvecklingschef, Ängelholm
+C|437902|54|M|Anders Bengtsson|54år,Projektledare, Munka Ljungby
+C|437903|49|K|Pia Ohrberg|50 år, Läkemedelskonsult, Ängelholm
+C|437904|46|M|Måns Irhammar|46 år, Teknisk säljare, Ängelholm
+C|437905|66|K|Inger Rengstedt|66 år, Pensionär, Ängelholm
+C|437906|51|M|Lazze Ohrberg|51 år, Teknisk säljare, Ängelholm
+C|437907|52|M|Kimme Rosenqvist|52 år, Entreprenör, Hjärnarp
+C|437908|54|K|Helena Nettéus|54 år, Gymnasielärare, Ängelholm
+C|437909|73|M|Jan Anders Brundin|73 år, Civilingenjör, Höja
+C|437910|64|M|Karl-Eric Trobäck|64 år, Designer, Ängelholm
+C|437911|63|K|Britt-Marie Nyh|63 år, Pensionär, Ängelholm
+C|437912|68|M|Per-Olof Jansson|68 år, Upptäcksresande, Ängelholm
+C|437913|73|M|Rolf Ekberg|73 år, Yogainstruktör, Ängelholm
+C|437914|65|M|Magnus Jonsson|65 år, Lärare, Vejbystrand
+C|437915|40|M|Tim Brithén|40 år, Ishockeytränare, Ängelholm
+C|437916|74|M|Jan R Allerstam|74 år, Pensionär, Ängelholm
+C|437917|53|K|Elsa Babs Brithén|54 år, Hälso- & Datakonsulent, Ängelholm
+C|437918|70|M|Brian Walsh|70 år, Egen Företagare, Ängelholm
+C|437919|74|K|Eva Allerstam|74 år, Pensionär, Ängelholm
+C|437920|69|M|Anders Sönne|69 år, Lantbrukare, Össjö
+C|437921|25|K|Hannie Britén|25 år, Artist, Ängelholm
+C|437922|61|M|Peter Andersson|61 år, Kanslist, Strövelstorp
+C|31770|45|K|Linda Persson|45 år, Ekonomiassistent, Ängelholm
+C|32088|39|K|Petra Oddson|39 år, diakoniassistent, Hjärnarp
+C|32089|71|M|Lennart Engström|71 år, agronom, Tåstarp
+C|32090|49|M|Jan-Eric Andersson|49 år, företagare, Munka-Ljungby
+C|32091|70|K|Katarina Nilsson|70 år, pensionär, Havsbaden
+C|32092|56|M|Lars Rask|56 år, handledare daglig verksamhet, Starby
+C|32093|74|K|Gunilla Hildestrand|74 år, pensionär, Centrum
+C|32094|35|M|Peter Storgaard|35 år, lärare/deltidsbrandman, Centrum
+C|32095|53|K|Anne Petersson Strömbäck|53 år, byggnadsingenjör, Gånarp
+C|32096|42|M|Nicklas Oddson|42 år, produktionsledare, Hjärnarp
+C|32097|29|K|Alexandra Paulsson Prytz|29 år, sjuksköterska, Hjärnarp
+C|32098|28|M|Jona Albertsson|28 år, församlingspedagog, Centrum
+C|31779|25|K|Emmely Persson|25 år, Flygvärdinna, Ängelholm
+C|32100|20|M|Jakob Trägårdh|20 år, studerande, Centrum
+C|32101|44|K|Maria Hedman|44 år, sjuksköterska, Tåstarp
+C|32102|53|M|Johan Claesson|53 år, begravningsentreprenör,           Södra Utmarken
+C|32103|39|K|Lena Carmryd|39 år, förskollärare, Centrum
+C|32104|47|K|Kristina Henriksson|47 år, trädgårdsmästare, Luntertun
+C|32105|50|M|Carl Einarsson|50 år, säljare, Höja
+C|32106|77|M|Yngve Agnros|77 år, trädgårdsmästare, Stavershult
+C|32107|47|K|Tina Cherven|47 år, företagare, Munka-Ljungby
+C|32108|70|M|Jan-Olof Jönsson|70 år, maskiningenjör, Nyhem
+C|32109|38|K|Cynthia Andersson|38 år, ingenjör, Munka-Ljungby
+C|32110|70|M|Per-Anders Svedberg|70 år, pensionär, Centrum
+C|32111|54|K|Eva Bendroth|54 år, företagare, Munka-Ljungby
+C|32112|55|M|Lennart Albertsson|55 år, civilekonom, Centrum
+C|32113|56|K|Eva Rask|56 år, biomedicinsk analytiker, Starby
+C|187526|74|M|Sven-Arne Nilsson|74 år, pensionär, Havsbaden
+C|187527|75|M|Bertil Andersson|75år, pensionär, Södra Utmarken
+C|55400|63|K|Charlotte Engblom-Carlsson|Ängelholm
+C|55401|56|M|Eric Sahlvall|Ängelholm, 56 år
+C|55402|54|K|Anita Rosén|Ängelholm
+C|55403|21|M|Linus Eriksson|Ängelholm, 21 år
+C|55404|62|K|Kerstin Lingebrant|Ängelholm
+C|55405|69|M|Sonny Rosén|Ängelholm
+C|55406|77|K|Gunnel Aidemark|Skälderviken, 77 år
+C|55407|20|M|Simon Ericson|Björkhagen, 20 år
+C|55408|44|K|Lina Miremark|Ängelholm, 44 år
+C|55409|69|M|Thomas Jingskog|Ängelholm, 69 år
+C|55410|76|M|Sven Aidemark|Skälderviken, 76 år
+C|55411|80|M|Björn Vallin|Rebbelberga, 80 år
+C|55412|69|M|Hans Hammargren|Ängelholm, 69 år
+C|55413|71|K|Lisbet Enbjerde|Munka-Lungby, 71 år
+C|91195|60|K|Anne-Marie Lindén|Biolog/bonde, 60 år, Spannarp
+C|91196|43|M|Karl-Otto Rosenqvist|Tillgänglighetsutvecklare, 43 år, Magnarp
+C|91197|35|K|Helena Böcker|Miljöstrateg, 35 år, Munka Ljungby
+C|91198|57|M|Erik Säfsten|Civilingenjör, 57 år, Centrum
+C|91199|45|K|Anna Lonningen|Förskollärare, 45 år, Vejbystrand
+C|91200|48|M|Jesper Wendel|Produktutvecklare, 48 år, Adolfsfält
+C|22086|68|K|Ulla Magnusson|Lärare, 68 år, Ängelholm
+C|91202|63|M|Anders Lindén|Mjölkföretagare, 63 år, Spannarp
+C|91203|70|M|Conny Jansson|Agronom, 70 år, Roslunda
+C|91204|70|M|Rainer Jakobsson|Pensionär, 70 år, Ängelholm
+C|91205|72|M|Ingvar Rydberg|Pensionär, 72 år, Magnarp
+C|91206|44|K|Towe Rosenqvist|Egenföretagare, 44 år, Magnarp
+C|91207|56|K|Susanne Danielsson|Folkhögskolelärare, 57 år, Össjö
+C|63352|29|M|Robin Holmberg|29 år, kommunalråd, Ängelholm
+C|63353|51|M|Sven-Ingvar Borgquist|51 år, lantbrukare, Ängelholm
+C|63354|50|K|Christina Hanstål|50 år, förskolechef, Ängelholm
+C|63355|64|M|Tomas Fjellner|64 år, brigadgeneral (ret), Ängelholm
+C|63356|66|K|Elisabeth Kullenberg|66 år, barnläkare, Ängelholm
+C|63357|59|K|Ingela Sylwander|59 år, företagare, Ängelholm
+C|63358|41|M|Daniel Jönsson|41 år, sjökapten, Munka Ljungby
+C|63359|47|M|Ola Carlsson|47 år, skadeförebyggare, Axtorp
+C|63360|38|K|Maija Rampe|38 år, företagare, Vejbystrand
+C|63361|50|K|Erika Henningsson|50 år, skolsköterska, Ängelholm
+C|63362|58|M|Anders Davidsson|58 år, journalist, Ängelholm
+C|63363|78|M|Rune Johansson|78 år, ingenjör, Rebbelberga
+C|63364|67|M|Jan Sewring|67 år, företagare, Ängelholm
+C|63365|53|M|Johnny Hagman|53 år, egen företagare, Ängelholm
+C|63366|72|M|Karl-Erik Asp|72 år, företagare, Ängelholm
+C|63367|54|K|Susanne Resmark|54 år, operasångerska, Ängelholm
+C|63368|44|M|Magnus Nson-Engelbäck|44 år, regionchef, Skälderviken
+C|63369|76|M|Cornelis Huisman|76 år, sjökapten, Haradal
+C|63370|52|M|Per Skantz|52 år, sjukhusvaktmästare, Ängelholm
+C|63371|69|M|Ragnar Steen|69 år, egen företagare, Skepparkroken
+C|63372|21|M|Hannes Petersson|21 år, studerande, Ängelholm
+C|63373|74|M|Göran Larsson|74 år, f.d. byggmästare, Strövelstorp
+C|63374|24|M|Fredrik Thörning|24 år, studerande, Ausås
+C|63375|65|M|Alf Carlsson|65 år, byggmästare, Munka Ljungby
+C|63376|31|K|Maria Cronkvist|31 år, advokat, Ängelholm
+C|63377|71|K|Agneta Normann|71 år, fastighetsförvaltare, Hjärnarp
+C|63378|69|M|Maths Kjellin|69 år, tjänsteman, Hjärnarp
+C|63379|70|M|Anders Malm|70 år, egen företagare, Vanstad
+C|63380|28|K|Sandra Haak|28 år, arkitekt, Ängelholm
+C|63381|67|K|Wiveca Britzén|67 år, civilekonom, Ängelholm
+C|63382|70|K|Britt-Inger Tinnert|70 år, egenföretagare, Ängelholm
+C|63383|62|M|Per Dahlström|62 år, management konsult, Skälderviken
+C|63384|61|K|Katrina Dakouri|61 år, biomedicinsk analytiker, Ängelholm
+C|63385|38|K|Linda Liberg|38 år, projektledare, Munka Ljungby
+C|63386|83|K|Elisabeth Linstam|83 år, hörselpedagog, Vejbystrand
+C|63387|74|M|Nils-Göran Gisslén|74 år, läkare, Ängelholm
+C|63388|51|M|Jonas Stålhandske-Palovaara|51 år, marknadschef, Vegeholm
+C|63389|53|M|Patrik Lundgren|53 år, egen företagare, Gånarp
+C|63390|69|M|Hasse Persson|69 år, egenföretagare, Munka Ljungby
+C|63391|68|M|Owe Johanssohn|68 år, strateg, Ängelholm
+C|63392|51|M|Paul Hanstål|51 år, säkerhetshandläggare, Ängelholm
+C|63393|76|M|Per Neander|76 år, tandläkare, Ängelholm
+C|63394|64|K|Agnete Vollan-Banke|64 år, resebyråtjänsteman, Tåstarp
+C|63395|61|M|Staffan Laurell|61 år, civilingenjör, Ängelholm
+C|63396|64|M|Stephan Tyrling|64 år, flygofficer pensionerad, Ängelholm
+C|63397|61|M|Finn Brykt|61 år, egen företagare, Ängelholm
+C|63398|28|M|Rickard Holmberg|28 år, elektriker, Ängelholm
+C|63399|47|M|Claes Ingvarson|47 år, elevassistent, Rebbelberga
+C|63400|52|K|Anna Fjellner|52 år, pressansvarig, Skälderviken
+C|63401|53|M|Hans Wallmark|riksdagsledamot, Skåne läns norra och östra
+C|406571|50|M|Patrik Ohlsson|IT-tekniker, 50 år
+C|67014|48|M|Johan Wifralius|Distriktsombudsman, Ängelholm
+C|67015|47|K|Birgitta Markevärn|Författare, 47 år
+C|67016|44|K|Marie Wifralius|Butikschef, 44 år
+C|67017|41|M|Anders Ingvarsson|Försvarsmakten, 42 år
+C|67018|58|K|Karin Jansson|Egenföretagare, 58 år
+C|67019|56|M|Mats Sahlin|Bussförare, 56 år
+C|67020|51|K|Dorthe Sjöholm|Ekonimichef, 51 år
+C|67021|55|M|Pontus Myrenberg|Säljare, 55 år
+C|67022|41|M|Alexander Johnsson|Säljare, 41 år
+C|67023|53|K|Anette Huldtén|Ekonomichef, 53 år
+C|67024|21|M|Oscar Byberg|Studerande, 21 år
+C|67025|53|K|Rose-Marie Broman|Medicinsk sekreterare, 54 år
+C|67027|66|M|Bengt Bengtsson|Pensionär, 66 år
+C|67028|46|M|Niklas Andersson|Yrkeschaufför, 46 år
+C|67029|73|M|Bo Salomonsson|Slöjdlärare, 73 år
+C|67030|61|M|Sven-Erik Paulsson|Yrkeschaufför, 61 år
+C|67031|57|K|Tina Olsson|Redovisningskonsult, 57 år
+C|67032|53|K|Marie Svensson-Strandberg|Personlig assistent, 53 år
+C|197437|70|M|Kurth Engvall|Egenföretagare, 71år
+C|197438|59|M|Bert-Inge Olsson|Betongarbetare, 59 år
+C|197439|66|K|Hanna Larsson|Kock, 66 år
+C|197440|30|M|Rickard Larsson|Civilekonom, 30 år
+C|248146|48|K|Susanne Sandström|byggingenjör
+C|248147|29|K|Emelie Strömberg Lütgens|stödpedagog
+C|248148|41|M|Andreas Wandegren|musiker och vårdare
+C|128105|34|K|Sara Gígja|socionom, Ängelholm
+C|128127|64|M|Thord Kristiansson|Ängelholm
+C|248151|39|K|Jenny Öberg|kurator
+C|248152|52|M|Benny Persson|skötare
+C|248153|26|K|Louise Jönsson|studerande
+C|248154|33|M|Kristian Nordin|besiktningsman järnväg

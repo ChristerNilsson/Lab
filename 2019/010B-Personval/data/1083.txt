@@ -1,11 +1,214 @@
-2|341209|347873|139330|139673|341769|346920|346921|347879|346922|347881|347882|341470|346924|347885|341310|347887|341468|346927|347890|341466|346979|346772|346773|346774|347896|346931|346932|347899|347900|341763|341464|347903|347904|347905|347906|346934|346775|346936|346776|347911|346777|139666|346779|346941|346942|347917|346780|347919|347920|346781|341765
-4|179756|194322|179761|194324|194325|194326|194328|194330|194329|194331|194333|179768|194335|194336|194337|194338
-532|440205|440206|440207|440208|440209
-68|453464|454773|454774|454775|454776|454777|454778|454779
-1011|190006|190007|190008|190055|190056|190057|190058|190059|190060
-3|27784|264162|264163|264164|264165|264166
-55|113360|113365|264111|113367|264113|113359|264115
-1|259890|259891|259892|259893|259894|259895|259896|259897|259898|259899|259900|259901|259902|259903|259904|259905|259906|259907|259908|259909|259910|259911|259912|259913|259914|259915|259916|259917|259918|510762
-1257|451757|451758|451759|451760|451761|451762|451763|451764|451765|451766|451767|451768|451769
-110|268429|210668|268431|210691|268433|268434|210673|268436|59826|268438|210695|499042|268442|268437|210675|268441|499047|268444|268448|499050|499051|268447|499053|268450|268452|268449|268451|499058|268453|499060|499061|505361|268445|268446
-5|294497|294491|294486|294503|294504|294492|294493|294502|300745|294500|300747|300748|300749|300750|300751
+T|Sölvesborg
+A|2|341209|347873|139330|139673|341769|346920|346921|347879|346922|347881|347882|341470|346924|347885|341310|347887|341468|346927|347890|341466|346979|346772|346773|346774|347896|346931|346932|347899|347900|341763|341464|347903|347904|347905|347906|346934|346775|346936|346776|347911|346777|139666|346779|346941|346942|347917|346780|347919|347920|346781|341765
+A|4|179756|194322|179761|194324|194325|194326|194328|194330|194329|194331|194333|179768|194335|194336|194337|194338
+A|532|440205|440206|440207|440208|440209
+A|68|453464|454773|454774|454775|454776|454777|454778|454779
+A|1011|190006|190007|190008|190055|190056|190057|190058|190059|190060
+A|3|27784|264162|264163|264164|264165|264166
+A|55|113360|113365|264111|113367|264113|113359|264115
+A|1|259890|259891|259892|259893|259894|259895|259896|259897|259898|259899|259900|259901|259902|259903|259904|259905|259906|259907|259908|259909|259910|259911|259912|259913|259914|259915|259916|259917|259918
+A|1257|451757|451758|451759|451760|451761|451762|451763|451764|451765|451766|451767|451768|451769
+A|110|268429|210668|268431|210691|268433|268434|210673|268436|59826|268438|210695|268442|268437|210675|268441|499047|268444|268448|499050|268447|499053|268450|268452|268449|268451|499058|268453|499060|499061|505361|268445|268446
+A|5|294497|294491|294486|294503|294504|294492|294493|294502|300745|294500|300747|300748|300749|300750|300751
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1257|SoL|SoL-partiet Sölvesborg och Lister
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|341209|41|K|Johanna Beijer|Sandbäck Egenföretagare 41 år
+C|347873|19|M|Ayman Fares|Sölvesborg Studerande 19 år
+C|139330|45|K|Heléne Björklund|Sölvesborg Lärare 45 år
+C|139673|21|M|Alexander Nilsson|Sölvesborg Student 22 år
+C|341769|61|K|Viveka Olofsson|Falkvik Parkarbetare 61 år
+C|346920|44|M|Daniel Berg|Norje Vägarbetare 44 år
+C|346921|64|K|Hillevi Colliander|Sölve Lärare 64 år
+C|347879|44|M|Jörgen Englin|Tivoli Fritidsledare 44 år
+C|346922|51|K|Lena Ottosson|Falkvik Distriktssköterska 51 år
+C|347881|34|M|Christoffer Ekenberg|Sölvesborg Kundtjänstadm. 34 år
+C|347882|59|K|Nihada Kilim|Sölvesborg Maskinoperatör 59 år
+C|341470|58|M|Roine Olsson|Sölvesborg Skadeinspektör 58 år
+C|346924|37|K|Janina Andersson|Sölvesborg Undersköterska 37 år
+C|347885|64|M|Mats Svensson|Sölvesborg Boserviceansvarig 64 år
+C|341310|51|K|Annelie Rosenqvist|Sölvesborg Förskolelärare 51 år
+C|347887|28|M|Tobias Björklund|Sölvesborg Polis 28 år
+C|341468|45|K|Marion Lundh|Gammalstorp Egenföretagare 45 år
+C|346927|47|M|Jens Melander|Sölvesborg Ekonom 47 år
+C|347890|56|K|Faire Baubec|Sölvesborg Ekonomiassistent 56 år
+C|341466|68|M|Jan-Åke Persson|Mjällby Chaufför 68 år
+C|346979|62|K|Elisabeth Jönsson|Sölvesborg Barnskötare 62 år
+C|346772|71|M|Tommy Månsson|Sölvesborg Boxningsinstruktör 71 år
+C|346773|59|K|Christina Hedenram|Hällevik Bussförare 59 år
+C|346774|28|M|Raed Shahen|Sölvesborg Integrationsguide 28 år
+C|347896|36|K|Maria Lindros|Sölvesborg Stödassistent 36 år
+C|346931|75|M|Alve Olsson|Kylinge Senior 75 år
+C|346932|68|K|Bodil Nyström|Sölvesborg Företagssköterska 68 år
+C|347899|35|M|Tobias Nilsson Lindkvist|Falkvik Mekaniker 35 år
+C|347900|64|K|Gullvi Nilsson|Falkvik Lärare 64 år
+C|341763|77|M|Leif Nilsson|Falkvik Senior 77 år
+C|341464|55|K|Pia Carlsson|Sölvesborg IT-samordnare 55 år
+C|347903|60|M|Jörgen Larsson|Mörby Pappersarbetare 60 år
+C|347904|18|K|Malin Persson|Norje Studerande 18 år
+C|347905|39|M|Juan Robledo|Siretorp Fotbollstränare 39 år
+C|347906|68|K|Margitha Persson|Mjällby Leg. Arbetsterapeut 68 år
+C|346934|44|M|Emil Nordberg|Sölvesborg Verkstadsmekaniker 44 år
+C|346775|62|K|Ewonne Månsson|Gammalstorp Undersköterska 62 år
+C|346936|65|M|Jörgen Johansson|Falkvik Metallarbetare 65 år
+C|346776|46|K|Anna Johansson|Falkvik Affärsutvecklare 46 år
+C|347911|32|M|Fredrik Olofsson|Sölvesborg Egenföretagare 32 år
+C|346777|59|K|Olivia Costea|Pukavik Specialläkare 59 år
+C|139666|23|M|Albin Ottosson|Sölvesborg Student 23 år
+C|346779|67|K|Ann Olsson|Sölve Undersköterska 67 år
+C|346941|50|M|Peter Jeppsson|Hjortakroken Sjöofficer 50 år
+C|346942|54|K|Kristina Thomasson|Sölvesborg Administratör 54 år
+C|347917|33|K|Fanny Nilsson Lindkvist|Falkvik Kokerska 33 år
+C|346780|41|K|Karin Åström|Sölvesborg Studerande 41 år
+C|347919|67|K|Mona Hilbertsson|Norje Rådgivare 67 år
+C|347920|52|K|Anri Rillver|Kylinge Arbetsledare 52 år
+C|346781|45|K|Anna Svensson|Mjällby Undersköterska 45 år
+C|341765|39|K|Lina Jörnkrans|Lörby Undersköterska 39 år
+C|179756|60|M|Ulf Svensson|60 år gruppledare Norje
+C|194322|37|M|Pär Milton|37 år läkare Sölvesborg
+C|179761|29|K|Johanna Bengtsson|29 år sjuksköterska Sölvesborg
+C|194324|42|M|Ali Kader|42 år egenföretagare Sölvesborg
+C|194325|69|M|Ronny Berggren|69 år It-konsult Siretorp
+C|194326|69|M|Tomas Arvidsson|69 år företagare Siretorp
+C|194328|45|M|Jonas Robertsson|45 år egenföretagare Hällevik
+C|194330|33|K|Jenny Svensson|33 år medicinsk sekreterare Furumo
+C|194329|26|M|Erik Karlsson|26 år lärare Sölvesborg
+C|194331|40|M|Robin Mattisson|40 år arbetande förman Hörvik
+C|194333|59|M|Jesper Bengtsson|59 år lantbrukare Lörbyskog
+C|179768|39|M|Roger Toljamo|39 år yrkeschaufför Sölvesborg
+C|194335|56|M|Jörgen Harrysson|56 år minkbonde Skogshagen
+C|194336|56|K|Carina Ahlgren|56 år måltidsbiträde Sölvesborg
+C|194337|49|M|Lars-Magnus Knutsson|49 år minkbonde Hosa Björke
+C|194338|68|M|Nils-Rune Jansson|69 år lantbrukare Ysane
+C|440205|33|K|Lisa Axelsson|33 år, skolsköterska, Sölvesborg
+C|440206|42|K|Marie Eriksson|42 år, bibliotekarie, Lörby
+C|440207|39|K|Nina Åkesson|39 år, egen företagare, Mjällby
+C|440208|28|K|Hanna Petterson|28 år, lärare F-3, Sölvesborg
+C|440209|69|K|Ankie Persson|69 år, pensionerad socionom, Sölvesborg
+C|453464|45|M|Robert Manea|Sölvesborg
+C|454773|63|K|Christel Henningsson|Sölvesborg
+C|454774|40|K|Deborah Lind|Sölvesborg
+C|454775|66|M|Sten-Inge Henningsson|Sölvesborg
+C|454776|31|K|Desirée Nilsson|Sölvesborg
+C|454777|39|M|Andreas Svensson|Sölvesborg
+C|454778|46|K|Lidia Manea|Sölvesborg
+C|454779|59|M|Roger Tränk|Sölvesborg
+C|190006|57|K|Margareta Forslund|
+C|190007|54|M|Bengt Johnsson|Båtman, Sölvesborg
+C|190008|44|M|Daniel Hörvin|Fiskare, Krokås
+C|190055|59|K|Myrtel Pahlm|Ekonom, Lörby
+C|190056|66|K|Mona Wadin Nilsson|Undersköterska, Hällevik
+C|190057|62|K|Pia Andersson|Vårdbiträde, Mjällby
+C|190058|33|M|Dennis Andersson|Timmerbilschaufför, Mjällby
+C|190059|63|K|Cecilia Thörnquist|Elevassistent, Sölvesborg
+C|190060|26|M|Emil Andersson|Lantbruksarbetare, Norje
+C|27784|60|M|Lars Lamberg|Projektledare 60år Sölvesborg
+C|264162|46|K|Katarina Bergkvist|47år
+C|264163|44|M|Robert Lindman|Affärsutvecklare 43år Sölvesborg
+C|264164|52|K|Eva-Lena Schmidt|Distriktssköterska 51år Sölvesborg
+C|264165|66|K|Birgitta Bergström|66år
+C|264166|71|M|Sven Eng|Pensionär 71år
+C|113360|57|K|Eva-Lena Ulvsfält|Kontorist, Sölvesborg
+C|113365|40|M|David Skog|Lärare, Sölvesborg
+C|264111|71|K|Britt-Marie Jonsson|Pensionär, Sölvesborg
+C|113367|22|M|Pathawee Rattanasang|Studerande, Sölvesborg
+C|264113|79|K|Marianna Andersson|Sandviken
+C|113359|60|M|Øjvind Hatt|Åttabarnspappa, Sölvesborg
+C|264115|78|K|Gerd Martinsson|Sölvesborg
+C|259890|56|K|Kith Mårtensson|56, distriktssköterska, Krokås
+C|259891|35|K|Emilie Pilthammar|35, lärare/musiker, Hällevik
+C|259892|45|M|Nicklas Joelsson|45, minkbonde, Hällevik
+C|259893|68|M|Arne Bogren|68, byggnadsingenjör, Hällevik
+C|259894|49|M|Paul Andersson|49, kontorist, Sölvesborg
+C|259895|64|K|Inger Pilthammar|64, ambulanssjukvårdare, Hällevik
+C|259896|58|M|Anders Fransson|58, boendestödjare, Hosaby Björke
+C|259897|32|M|Mikael Törnberg|32, marknadschef, Sölvesborg
+C|259898|64|K|Mona Frigura|64, marknadskoordinator, Sölvesborg
+C|259899|63|M|Bengt Åke Karlsson|63, 1:e kustbevakningsinspektör, Sölvesborg
+C|259900|41|K|Nina Christensen Sturesson|41, barnskötare, Sölve
+C|259901|72|M|Lennart Nilsson|72, ingenjör, Norje
+C|259902|51|M|Mats Birgersson|51, säljare, Hällevik
+C|259903|36|K|Diana Sjöström|36, måltidschef, Krokås
+C|259904|42|M|Håkan Bengtsson Arrskog|42, ålfiskare/studerande, Hällevik
+C|259905|44|K|Åse Karlsson|44, vård- och omsorgslärare, Hällevik
+C|259906|29|M|Björn Mårtensson|29, byggnadsingenjör, Sölvesborg
+C|259907|58|K|Susanne Fransson|58, lärare, Hosaby Björke
+C|259908|43|K|Maria Bogren|43, grafisk designer, Hällevik
+C|259909|70|M|Jan-Erik Pilthammar|70, pensionär, Hällevik
+C|259910|25|M|Daniel Bogren|25, undersköterska, Sölvesborg
+C|259911|58|K|Lena Jönsson Cederblad|58, leg vårdlärare, Västra Näs
+C|259912|59|K|Maria Knutsson|59, egen företagare, Hällevik
+C|259913|34|M|William Arrhenius Leandersson|34, banktjänsteman, Hällevik
+C|259914|66|K|Ninni Bogren|66, pensionär, Hällevik
+C|259915|57|M|Alexandru Frigura|57, fabriksarbetare, Sölvesborg
+C|259916|57|K|Pernilla Flinthage|57, egen företagare, Hörvik
+C|259917|55|M|Lennart Nilsson|55, lantbrukare, Stiby
+C|259918|63|K|Eva Hörmarker|63, pedagog, Hörvik
+C|451757|68|M|Anders Jönsson|f.d. sjöräddare
+C|451758|69|M|Rolf Engström|f.d. artilleriofficer
+C|451759|65|M|Tomas Waltersson|fiskare
+C|451760|34|K|Ellen Waltersson|fritidspedagog
+C|451761|67|M|Carsten Johansson|entreprenör
+C|451762|77|M|Kenth Cronqvist|byggnadsingenjör
+C|451763|73|K|Irene Friberg-Johansson|kemist
+C|451764|54|M|Johnny Nilsson|mekaniker
+C|451765|73|K|Eivor Hermansson|egen företagare
+C|451766|36|K|Sara Zieme|caféföreståndare
+C|451767|23|M|David Sjöblom|mekaniker
+C|451768|75|M|Dan Boberg|pensionär
+C|451769|67|K|Marianne Midander|medicinsk sekreterare
+C|268429|39|M|Jimmie Åkesson|Partiledare, Sölvesborg
+C|210668|29|K|Louise Erixon|Samhällsutvecklare , 29 år
+C|268431|60|M|Benny Karlsson|60, personlig assistent, Lörby
+C|210691|71|M|Robert Lindén|Företagsledare, Sölvesborg
+C|268433|43|M|Casper Borgström|43, säljare, Sölvesborg
+C|268434|61|M|Peter Thyrén|Skoladministratör, Sölvesborg
+C|210673|40|K|Anna Borgström|Distriktssköterska, 39 år
+C|268436|57|M|Harald Olsson|57, säljare, Bjäraryd
+C|59826|39|K|Victoria Dahlqvist|Partitjänsteman, Kungälv
+C|268438|34|M|André Svensson|34, byggnadsarbetare, Norje
+C|210695|82|M|Rolf Hans Berg|Pensionär, 82 år
+C|268442|74|M|Percy Persson|73, pensionär, Sölvesborg
+C|268437|40|K|Andrea Axelsson|40, lantbrukare, Ryedal
+C|210675|24|M|Tobias Alm|Ambulansvårdare, 24 år
+C|268441|69|K|Gertrud Kärnerup|68, pensionär, Norje
+C|499047|64|M|Mats Blixt|63, projektledare, Sandviken
+C|268444|36|M|Jimmy Rask|35, betongarbetare, Sölvesborg
+C|268448|36|M|Marco Lindekvist|36, elektriker, Lörby
+C|499050|57|K|Lollo Blixt|56, egen företagare, Sandviken
+C|268447|40|M|Daniel Persson|40, butiksanställd, Sölvesborg
+C|499053|48|K|Monia Kress|48, omvårdnadsarbetare, Sölve
+C|268450|60|M|Leif-Åke Svensson|60, fastighetsskötare, Ryedal
+C|268452|62|M|Mats-Anders Larsen|61, egenföretagare, Norje
+C|268449|62|K|Ingrid Svensson|61, butiksbiträde, Ryedal
+C|268451|52|M|Anders Johansson|52, industriarbetare, Hosaby-Björke
+C|499058|74|M|Kjell Lindgren|74, pensionerad polis, Falkvik
+C|268453|44|K|Maria Larsson|43, yrkeschaufför, Lörby
+C|499060|71|M|Johnny Olsson|71, pensionär, Sölvesborg
+C|499061|66|M|Clas Johansson|65, revisor, Ysane
+C|505361|20|M|Hugo Hobring|19, yrkesmilitär, Sölvesborg
+C|268445|73|M|Sven-Åke Henriksson|
+C|268446|69|K|Ros-Marie Henriksson|
+C|294497|67|M|Willy Söderdahl|Speciallärare,Sölvesborg
+C|294491|47|K|Rebecka Wald|Legitimerad sjuksköterska,Sölvesborg
+C|294486|33|M|Erik Ohliv|Elektriker,Sölvesborg
+C|294503|47|M|Marcus Ekdahl|Butikssäljare,Sölvesborg
+C|294504|66|K|Ingegärd Andersson|Pensionär,Sölvesborg
+C|294492|65|K|Viveka Söderdahl|Specialpedagog,Sölvesborg
+C|294493|71|M|Peter Liendeborg|Smed,Sölvesborg
+C|294502|59|K|Ruza Mastilo|Socialpedagog, Sölvesborg
+C|300745|68|M|Lars Andersson Ivarsson|Solcellsinstallatör
+C|294500|67|K|Vibeke Lindberg|Sölvesborg
+C|300747|61|M|Zarko Mastilo|Busschaufför
+C|300748|51|K|Susanne Johansson|
+C|300749|72|M|Hans Sandberg|Socionom
+C|300750|32|K|Karin Falk|
+C|300751|66|K|Maja Kulldorf|Speciallärare

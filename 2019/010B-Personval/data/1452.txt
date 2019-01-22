@@ -1,9 +1,137 @@
-2|201794|87877|201796|201797|201798|201799|201800|91669|201802|201803|201804|201805|201806|201807|201808|201809|201810|201811|201812|201813|201814|201815|201816|201817|201818|201819|201820|201821|91658|201823|201824|201825|201826|201827|201828
-4|2959|114980|2963|114982|2962|114984|114985|114986|3116|2953|114989|114990|114991|114992|114993|114994|114995|114996|114997|114998|114999|115000|115001
-68|274927|275252|275253|275254|275255|275256|274938|275258|274731|275260|275261|275262|275263
-3|194614|194615|194616|194617|194618|194619
-1296|260154
-55|74873|74079|74066|291727|291728|291729
-1|255253|255254|253894|255256|255258|255259|255260|255261|255262|255263|253903|255265|255266|255267|255268|255269|255270
-110|49961|49962|49963|49964|49965|49966|49967|513466|513467|513994|515705
-5|74308|74309|16793|74311|74312|74313|7765
+T|Tranemo
+A|2|201794|87877|201796|201797|201798|201799|201800|91669|201802|201803|201804|201805|201806|201807|201808|201809|201810|201811|201812|201813|201814|201815|201816|201817|201818|201819|201820|201821|91658|201823|201824|201825|201826|201827|201828
+A|4|2959|114980|2963|114982|2962|114984|114985|114986|3116|2953|114989|114990|114991|114992|114993|114994|114995|114996|114997|114998|114999|115000|115001
+A|68|274927|275252|275253|275254|275255|275256|274938|275258|274731|275260|275261|275262|275263
+A|3|194614|194615|194616|194617|194618|194619
+A|1296|260154
+A|55|74873|74079|74066|291727|291728|291729
+A|1|255253|255254|253894|255256|255258|255259|255260|255261|255262|255263|253903|255265|255266|255267|255268|255269|255270
+A|110|49961|49962|49963|49964|49965|49966|513466|513467|513994|515705
+A|5|74308|74309|16793|74311|74312|74313|7765
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|201794|51|M|Tony Hansen|Uddebo
+C|87877|62|K|Eva-Karin Haglund|
+C|201796|70|M|Bo Haarala|Tranemo
+C|201797|62|K|Rose Torkelsson|Limmared
+C|201798|70|M|Göran Björk|Grimsås
+C|201799|66|K|Lena Eksberg|Limmared
+C|201800|70|M|Anders Brolin|Dalstorp
+C|91669|58|K|Tatjana Du Peterson|Tolk, Limmared
+C|201802|55|M|Thomas Elmgren|Uddebo
+C|201803|59|K|Marie Kockali|Limmared
+C|201804|66|M|Ulf Thifors|Tranemo
+C|201805|52|K|Kerstin Alf|Uddebo
+C|201806|53|M|Kent-Ove Karlsson|Tranemo
+C|201807|63|K|Eija Quist|Tranemo
+C|201808|69|M|Leif Gustavsson|Dalstorp
+C|201809|18|K|Isabelle Hansen|Uddebo
+C|201810|55|M|Johnny Ohlsson|Länghem
+C|201811|41|K|Pia Gustavsson|Limmared
+C|201812|34|M|Driton Bilalli|Tranemo
+C|201813|67|K|Marita Nordin|Tranemo
+C|201814|29|M|Andreas Ståhl|Limmared
+C|201815|64|K|Anita Georgsson|Länghem
+C|201816|67|M|Jan-Erik Svenningsson|Ljungsarp
+C|201817|48|K|Ingela Remstam|Grimsås
+C|201818|48|M|Joakim Ståhl|Limmared
+C|201819|39|K|Charlott Malm|Ambjörnarp
+C|201820|65|M|Sven-Olof Andersson|Sjötofta
+C|201821|70|K|Doris Lindgren Svensson|Limmared
+C|91658|34|M|Jonas Kristiansen Adelsten|Lärare, Länghem
+C|201823|66|K|Monica Fredin|Dalstorp
+C|201824|66|M|Åke Karlsson|Ambjörnarp
+C|201825|45|K|Amina Khalmatova|Tranemo
+C|201826|71|M|Leif Bengtsson|Tranemo
+C|201827|46|K|Jenny Rydin Johansson|Tranemo
+C|201828|42|M|Johny Tannous|Tranemo
+C|2959|58|M|Lennart Haglund|58 år, Nittorp
+C|114980|46|K|Karin Ljungdahl|46 år, Ambjörnarp
+C|2963|26|M|Christoffer Andersson|26 år, Länghem
+C|114982|56|K|Elisabeth Petersson|56 år, Tranemo
+C|2962|54|M|Torbjörn Edgren|54 år, Ljungsarp
+C|114984|44|K|Cecilia Valbrant|44 år, Grimsås
+C|114985|29|M|Fredrik Larsson|29 år, Limmared
+C|114986|32|K|Emelie Romland|32 år, Ambjörnarp
+C|3116|68|M|Crister Persson|68 år, Mossebo
+C|2953|64|K|Ann-Christine Simonsson|64 år, Dalstorp
+C|114989|66|M|Sören Karlsson|65 år, Månstad
+C|114990|69|K|Marianne Andersson|69 år, Sjötofta
+C|114991|49|M|Kent Sandquist|49 år, Tranemo
+C|114992|28|K|Alexandra Sindell|28 år, Tranemo
+C|114993|57|M|Tomas Theorin|57 år, Sjötofta
+C|114994|55|K|Tina Haglund|55 år, Nittorp
+C|114995|67|M|Göran Svensson|67 år, Dalstorp
+C|114996|67|M|Bengt Melkersson|67 år, Sjötofta
+C|114997|52|M|Lars-Erik Enoksson|52 år, Länghem
+C|114998|69|M|Karl-Johan Henriksson|69 år, Dalstorp
+C|114999|50|M|Svante Lundgren|50 år, Mossebo
+C|115000|73|M|Bengt-Anders Larsson|73 år, Månstad
+C|115001|68|K|Christina Brånell|68 år, Ambjörnarp
+C|274927|60|K|Erene Bertilsson|60, Sjuksköterska, Tranemo
+C|275252|36|M|Fredrik Risby|projektledare, Limmared
+C|275253|68|K|Birgitta Forslund|hudterapeut, Länghem
+C|275254|64|K|Ann Blomquist Ölander|hemvården, Länghem
+C|275255|70|K|Brigitte Barenfeld|pensionär, Ambjörnarp
+C|275256|33|M|Robert Bertilsson|VVS-konsult, Länghem
+C|274938|52|K|Marita Falk Axelsson|51, Familjebehandlare, Tranemo
+C|275258|47|M|Alireza Ashraf Vaghefi|läkare, Tranemo
+C|274731|68|M|Bo Erlandsson|68, Pensionär, Tranemo
+C|275260|41|K|EmmaCharlotta Magnusson|personlig assistent, Tranemo
+C|275261|74|M|Anders Forslund|pensionär, Länghem
+C|275262|63|K|Carita Gustafsson|undersköterska, Limmared
+C|275263|52|M|Patrik Axelsson|egenföretagare, Ambjörnarp
+C|194614|42|K|Ana Alvarez Björk|42, gymnasielärare, Tranemo
+C|194615|47|K|Johanna Persson|Universitetsadjunkt, Nittorp
+C|194616|18|M|Laban Persson|Studerande, Nittorp
+C|194617|74|K|Gunilla Blomgren|74, utbildare, Tranemo
+C|194618|47|M|Johannes Persson|Ämneslärare, Nittorp
+C|194619|40|M|Marcus Björk|Divisionschef, Tranemo
+C|260154|32|M|Alexander Torp|32 webbutvecklare Länghem
+C|74873|36|K|Caroline Bergmann|36 år, Socialt företagande, Uddebo
+C|74079|68|K|Marita Pahlén|68 år, Tranemo
+C|74066|39|K|Louise Bertilsson|39 år, Verksamhetsutvecklare, Tranemo
+C|291727|63|K|Ingela Karlsson|63 år
+C|291728|38|M|Pontus Frid|38 år
+C|291729|31|K|Sofia Kreutz|31 år
+C|255253|42|K|Karin Peterson|Socialsekreterare, Tranemo
+C|255254|70|M|Stephan Bergman|Företagare, Mossebo
+C|253894|68|K|ChrisTina Yngvesson|68, Konsult, Månstad
+C|255256|64|K|Birgitta Olander|Lageransvarig, Dalstorp
+C|255258|39|K|Valerija Sabo|Civilekonom, Tranemo
+C|255259|48|K|Kathleén Wireklev|Lärare, Tranemo
+C|255260|42|K|Ellinor Liljegren Kalmar|Yogainstruktör, Uddebo
+C|255261|58|M|Ulf Nyberg|Labtekniker, Länghem
+C|255262|29|M|Hänry Bengtsson|Elchef, Limmared
+C|255263|44|K|Malin Myrman|Jurist, Ambjörnarp
+C|253903|62|M|Stefan Hjertén|62, Polisinspektör, Limmared
+C|255265|53|M|Niklas Nilsson|Exportutvecklare, Nittorp
+C|255266|40|M|Niklas Gardewik|Företagare, Limmared
+C|255267|50|M|Fredrik Björkman|Ekonom, Länghem
+C|255268|70|M|Sven Sveningsson|Konsult, Mossebo
+C|255269|35|K|Ulrika Glans|Lärare, Tranemo
+C|255270|53|M|Ulf Tranefors Gustafsson|Bilmekaniker, Tranemo
+C|49961|54|M|Wajdi-Louis Azouri|statstjänsteman, 54 år
+C|49962|83|K|Evy Erlandsson|pensionär, 83 år
+C|49963|69|K|Anna Letth|69 år, Pensionär, Grimsås
+C|49964|37|M|Anders Ardalen|37 år, Glasbruksarbetare, Limmared
+C|49965|55|M|Jan Hagberg|väktare, 55 år
+C|49966|75|M|Ivan Letth|75 år, Pensionär, Grimsås
+C|513466|64|M|Ronny Benjaminsson|
+C|513467|48|M|Claes Hamngren|
+C|513994|67|K|Siv Benjaminsson|
+C|515705|52|M|Johnny Letth|
+C|74308|32|M|Robin Kaas|32 år, lärare
+C|74309|39|K|Kristina Kajaso|39 år, kultur/omsorgsarbetare
+C|16793|42|M|Jonas Blank|42 år, lagerarbetare, Tranemo
+C|74311|30|M|Robin Marunga|30 år, omsorgsarbetare
+C|74312|29|K|Malin Kaas|30 år, lärare
+C|74313|45|K|Anette Blank|45 år, behandlare
+C|7765|52|K|Christin Stormvall|52 år, personlig handläggare FK, Limmared

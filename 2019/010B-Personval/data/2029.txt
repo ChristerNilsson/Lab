@@ -1,8 +1,168 @@
-2|238220|238221|238222|238223|238224|238225|238226|238227|238228|238229|238230|238231|238232|238233|238234|238235|238236|238237|238238|238239|238240|238241|238242|238243|238244|238245|238246|238247
-1053|187948|187949|187950|187951|187952|187953|187954|187955|187956|187957|187958
-4|8538|212389|212390|212391|212392|38952|212394|212395|212396|212397|212398|212399|212400|212401|38930|212403|212405|212406|212407|212408|212409|212410|212411|212412|212413|212414
-68|9166|130149|130150|130151|130152|9167|130154|130155|134079|9184|130157|130158|134083|277621|130159|130160|276977|130161|130162|130163|130164|130165|130166|276984|130167|130168
-3|165055|216842|216843|156315|216845|216846|216847|216848|216849|216850|216851|216852|216853|216854|216855
-1|35818|41300|41301|41302|41303|41304|41305|41306|41307|41308|41309|41310|41311|41312|41313|41314|41315|41316|41317|41318|41319|41320|41321|41322
-110|36417|36418|36419|498820|498821|511228|511235|515578
-5|304874|304875|304876|64090|63811|304879|304880|304881|304882|304883|304884|304885|304886
+T|Leksand
+A|2|238220|238221|238222|238223|238224|238225|238226|238227|238228|238229|238230|238231|238232|238233|238234|238235|238236|238237|238238|238239|238240|238241|238242|238243|238244|238245|238246|238247
+A|1053|187948|187949|187950|187951|187952|187953|187954|187955|187956|187957|187958
+A|4|8538|212389|212390|212391|212392|38952|212394|212395|212396|212397|212398|212399|212400|212401|38930|212403|212405|212406|212407|212408|212409|212410|212411|212412|212413|212414
+A|68|9166|130149|130150|130151|130152|9167|130154|130155|134079|9184|130157|130158|134083|277621|130159|130160|276977|130161|130162|130163|130164|130165|130166|276984|130167|130168
+A|3|165055|216842|216843|156315|216845|216846|216847|216848|216849|216850|216851|216852|216853|216854|216855
+A|1|35818|41300|41301|41302|41303|41304|41305|41306|41307|41308|41309|41310|41311|41312|41313|41314|41315|41316|41317|41318|41319|41320|41321|41322
+A|110|36417|36418|36419|498820|498821|511228|511235|515578
+A|5|304874|304875|304876|64090|63811|304879|304880|304881|304882|304883|304884|304885|304886
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1053|ByP|Bygdepartiet
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|238220|36|M|Viktor Zakrisson|36 år, Leksand
+C|238221|64|K|Ingrid Rönnblad|64 år, Hjortnäs
+C|238222|50|M|Lars Halvarsson|Rättvik
+C|238223|66|K|Rose-Marie Svanborg|66 år, Tibble
+C|238224|54|M|Jan-Olof Karlsson|54 år, Rälta
+C|238225|57|K|Birgitta Jansson|57 år, Käringberget
+C|238226|29|M|Axel Agnas|29 år, Bodlindor
+C|238227|59|K|Karin Nyström|59 år, Tällberg
+C|238228|67|M|Kent Dahlqvist|Leksand
+C|238229|65|K|Siv Mattes Gärtner|65 år, Djura
+C|238230|56|M|Erik Varghans|56 år, Noret
+C|238231|72|K|Liv Lunde Andersson|Leksand
+C|238232|62|M|Mats Oscarsson|62 år, Siljansnäs
+C|238233|40|K|Åsa Hammarsten Tirus|40 år, Övermo
+C|238234|69|M|Mats Rönnblad|69 år, Hjortnäs
+C|238235|68|K|Beth Holzmann|68 år, Siljansnäs
+C|238236|66|M|Lennart Ljung|66 år, Noret
+C|238237|61|K|Louise Tysklind|61 år, Insjön
+C|238238|49|M|Krister Ellström|49 år, Häradsbygden
+C|238239|20|K|Fatima Palmcrantz|20 år, Källberget
+C|238240|62|M|Johan Palmcrantz|62 år, Åkerö
+C|238241|64|K|Suzanne Albihn|64 år, Fornby
+C|238242|42|M|Magnus Larsson|42 år, Siljansnäs
+C|238243|37|K|Susanne Mattes Gärtner|37 år, Rälta
+C|238244|51|M|Leif Hällberg|51 år, Käringberget
+C|238245|35|K|Maria Qvarnström|35 år, Plintsberg
+C|238246|84|K|Carin Palmcrantz|84 år, Åkerö
+C|238247|67|K|Klara Yvonne Klingspor|67 år, Sågmyra
+C|187948|63|M|Jimmy Karlsson|Leksand
+C|187949|48|K|Karin Lundström|Åhl-Sätra
+C|187950|57|M|Gunnar Fälldin|Källberget
+C|187951|60|M|Mats Blomqvist|Norr Bergsäng
+C|187952|38|M|David Edin|Leksand
+C|187953|62|M|Robin Malm|Tunsta
+C|187954|46|M|Johan Fändriks|Häradsbygden
+C|187955|60|K|Christina Arnesson|Insjön
+C|187956|64|M|Åke Arnesson|Insjön
+C|187957|59|M|Jonny Wikström|Siljansnäs
+C|187958|47|K|Rebecca Karlsson|Häradsbygden
+C|8538|49|K|Ulrika Liljeberg|49 år, Kammaråklagare, Leksand
+C|212389|51|M|Per-Erik Ingels|Tekniker, Tibble
+C|212390|51|K|Karin Byström|Jägmästare, Siljansnäs
+C|212391|70|M|Aarno Magnusson|F d rektor/landsbygdsutv, Rönnäs
+C|212392|39|K|Karin Andersson|Handläggare,Insjön
+C|38952|69|M|Kenneth Dahlström|Leksand
+C|212394|73|M|Rune Bröms|Pensionerad polis, Åkerö
+C|212395|49|K|Elisabeth Ingels|Auktoriserad teckenspråkstolk, Tibble
+C|212396|63|K|Ewa Fogelström|Egen företagare, Styrsjöbo
+C|212397|66|M|Roger Arvidsson|Sjuksköterska/teolog, Insjön
+C|212398|51|M|Mats Pettersson|Fordonschef, Torrberg
+C|212399|69|K|Eva Kempff|Fil lic, Laknäs
+C|212400|53|M|Mats Erkers|Sales operations manager, Hjortnäs
+C|212401|56|K|Marie Johansson Grop|Verksamhetsutvecklare, Alvik
+C|38930|62|M|Mats Fogelström|Leksand
+C|212403|64|M|Hans-Olof Bogren|Rekryterare/egen företagare, Tibble
+C|212405|59|M|Mats Backlund|Chaufför, Källberget
+C|212406|62|K|Kerstin Englund|Husmor, Insjön
+C|212407|55|M|Anders Lokgård|Egen företagare, Häradsbygden
+C|212408|35|M|Tomas Bergsten|Civilingenjör/företagare, Tibble
+C|212409|51|K|Gittan Lokgård|Förskollärare, Mjälgen
+C|212410|71|M|Anders Björklund|Företagsledare, Laknäs
+C|212411|66|K|Kristina Hollsten|Egen företagare, Insjön
+C|212412|68|K|Karin Qvicker|Pensionerad rektor, Noret
+C|212413|51|M|John Sund|Präst, Leksand
+C|212414|80|K|Dagny Martinsson|Pensionär, Tällberg
+C|9166|50|M|Mikael Kyller|tjänsteman, Leksand
+C|130149|47|K|Kia Rolands|Insjön, 47  år, Skolsköterska
+C|130150|63|M|Per Wiman|Smedby, 63 år, Ekonom
+C|130151|69|K|Margareta Jobs|Hjortnäs, 69 år, Anhörigsamordnare
+C|130152|49|M|Jan Danielsen|Siljansnäs, 49 år, Butikschef
+C|9167|23|K|Elina Olsen Huokko|studerande, Leksand
+C|130154|59|M|Göran Lundell|Leksand, 59 år, Egenföretagare
+C|130155|59|K|Siv Enqvist|Alvik, 59 år, Fritidspedagog
+C|134079|19|M|Oliver Rolands|Insjön, 19 år, Student
+C|9184|35|M|Johan Paulsen|läkare, Leksand
+C|130157|40|K|Mona Laurell|Siljansnäs, 40 år, Översättare
+C|130158|22|M|Anton Bergstrand|Insjön, 22 år, Studerande
+C|134083|25|M|Benjamin Kyller|Siljansnäs, 25 år, Arbetsledare butik
+C|277621|57|K|Sylvian Nygårds Fridborg|Siljansnäs, 57år, Familjepedagog
+C|130159|64|M|Maths Bolmstam|Leksand, 64 år, Administratör
+C|130160|35|K|Mirjam Ragnegård|Insjön, 35 år, Teaterpedagog
+C|276977|45|M|Mattias Sköldeberg|Siljansnäs, 45 år, Egenföretagare
+C|130161|50|K|Anneli Lundell|Leksand, 50 år, Yrkeslärare
+C|130162|58|M|Samuel Enqvist|Alvik, 58 år, Sälj- och marknadschef
+C|130163|58|M|Bengt Park|Insjön, 58 år, Företagare
+C|130164|62|K|Ulla-Brith Lundell|Leksand, 62 år, Förskollärare
+C|130165|52|M|Sven Påfvels|Västanvik, 52 år, IT-tekniker
+C|130166|80|M|Bruno Hopstadius|Heden, 80 år, Civilingenjör
+C|276984|48|M|Mattias Bergstrand|Insjön, 48 år, Lärare
+C|130167|73|K|Britt Marie Laurell|Siljansnäs, 73 år, Skolkurator
+C|130168|40|M|Sakarias Winberg|Tasbäck,40 år, Företagare
+C|165055|50|K|Lotten Kluck|50 år Utvecklingsledare, Leksand
+C|216842|62|M|Per Florén|Taxichaufför, Djura
+C|216843|68|K|Eva Jonasson|Socionom, Siljansnäs
+C|156315|19|M|Erik Berg|Studerande,19 år, Leksand
+C|216845|51|K|Ewa Hjort Axklint|Arbetsledare, Berg
+C|216846|79|M|Sven Eric Norman|Civilekonom, Leksand
+C|216847|64|K|Maria Park|Fd. skolledare, Pensionär, Djura
+C|216848|69|M|Ingemar Wiborgh|Pensionerad ingenjör, Insjön
+C|216849|71|M|Lars Henriksson|Pensionerad marknadsass. Insjön
+C|216850|53|M|Torbjörn Axklint|Servicecenterchef, Berg
+C|216851|47|K|Jenny Sandelin|Rektor, Åkerö
+C|216852|76|M|Anders Back|Pensionär, Rältlindor
+C|216853|81|M|Lennart Axelsson|Folkhögskolelärare, Siljansnäs
+C|216854|55|K|Maria Bröms|Frisör, Egenföretagare, Noret
+C|216855|84|M|Lars-Bertil Wiklund|Rektor, Edshult
+C|35818|25|M|Sebastian Larsson|25 år, VVS-montör, Leksand
+C|41300|53|K|Sara Shahryari|Edshult
+C|41301|56|M|Mats Aspemo|Grytnäs
+C|41302|71|M|Mats Stenmark|Edshult
+C|41303|54|M|Per Spik|Åkerö
+C|41304|75|K|Kerstin Marits|Västanvik
+C|41305|64|M|PG Gregard|Käringberget
+C|41306|49|K|Ulrica Granberg|Insjön
+C|41307|53|M|Roger Åström|Heden
+C|41308|56|K|Gunilla Klingh|Noret
+C|41309|31|K|Annie Danielsson|Noret
+C|41310|71|K|Inga-Lill Öhman|Källberget
+C|41311|38|K|Johanna Reichel|Insjön
+C|41312|23|M|Gustaf Halvarsson|Noret
+C|41313|61|K|Eva Hedvall|Lycka
+C|41314|59|K|Christina Schultz|Siljansnäs
+C|41315|75|K|Inger Taflin|Noret
+C|41316|76|K|Helena Klockaräng|Noret
+C|41317|67|M|Per Daniels|Noret
+C|41318|58|M|Martin Larshans|Käringberget
+C|41319|81|M|Lars Melin|Noret
+C|41320|34|M|Johan Jakobs|Insjön
+C|41321|67|K|Gunilla Johansson|Plintsberg
+C|41322|49|K|Liselotte Holmgren|Lisselby
+C|36417|52|M|Håkan Blomkvist|Elektriker, Laknäs
+C|36418|71|K|Inger Matsson|Pensionär, Leksand
+C|36419|45|K|Anna-Lena Blomkvist|Medicinsk sekreterare, Leksand
+C|498820|30|K|Lina Ruuth|Hästuppfödare, Tällberg
+C|498821|44|M|Andreas Ruuth|Egenföretagare, Tällberg
+C|511228|51|K|Eva-Karin Sandberg|Undersköterska, Kråkbodarna
+C|511235|68|M|Alf Matsson|Pensionär, Leksand
+C|515578|50|M|Benny Frödin|
+C|304874|65|K|Inga Westlund|Heden
+C|304875|71|K|Yvonne Ineteg|Insjön
+C|304876|45|M|Markus Kummu|Noret
+C|64090|60|K|Ewa Berglund|Leksand
+C|63811|56|K|Kajsa Fredholm|Leksand, 56 år
+C|304879|62|M|Olov Berglund|Noret
+C|304880|63|K|Lena Ilar|Noret
+C|304881|77|K|Elisabeth Lindqvist|Noret
+C|304882|76|K|Birgit Bååth|Djura
+C|304883|63|K|Inga Maria Didron|Tibble
+C|304884|63|K|Åsa Petri|Heden
+C|304885|47|K|Anna-Karin Wattberg|Tunsta
+C|304886|42|M|Lucas Stark|Siljansnäs

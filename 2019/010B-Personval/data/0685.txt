@@ -1,10 +1,225 @@
-2|86323|86324|86325|86326|86327|86328|86329|86330|86331|86332|86333|86334|86335|86336|86337|86338|86339|86340|86341|86342|86343|86344|86345|86346|86347|86348|86349|86350|86351|86352|86353|86354|86355|86356|86357|86358|86359|86360|86361|86362|86363
-4|136607|136608|136609|136610|136611|136612|136613|136614|136615|136616|136617|136618|136619|136620|136621|136622|136623|136624|136625|136626|136627|136628|136629|136630|136631|136632
-68|78190|78191|78192|78193|78194|78195|78196|78197|78198|78199|78200|78201|78202|78203|78204|78205|78206|78207|78208|78209|78210|78211|78212|78213|78214|78216
-3|230942|204187|230944|230945|216863|230947|230948|230949|230950|230951|230952|230953|230954|230955|230956
-1296|515412
-55|374804|374805|374806|374807|374808
-1|68863|68864|68865|68866|1655|68868|68869|68870|68871|68872|68873|68874|68875|68876|68877|68878|68879|68880|68881|68882|68883|68884|68885|68886|68887|68888|68889|68890|68891
-110|126280|126281|126282|126283|126284|126285|126286|126287|126288|126289|512903|515011|515012|515013|515707|515708|515709
-993|399724|399725|399726|399727|399728|399729|399730|399731|399732|399733|399734|399735|399736|399737|399738|399739|399740|399741|399742|399743|399744|399745|399746|399747|399748|399749|399750|399751|399752|399753
-5|230786|313006|313007|230776|313009|313010|314252|314253|314254|314255|314256|314621|314622|314623
+T|Vetlanda
+A|2|86323|86324|86325|86326|86327|86328|86329|86330|86331|86332|86333|86334|86335|86336|86337|86338|86339|86340|86341|86342|86343|86344|86345|86346|86347|86348|86349|86350|86351|86352|86353|86354|86355|86356|86357|86358|86359|86360|86361|86362|86363
+A|4|136607|136608|136609|136610|136611|136612|136613|136614|136615|136616|136617|136618|136619|136620|136621|136622|136623|136624|136625|136626|136627|136628|136629|136630|136631|136632
+A|68|78190|78191|78192|78193|78194|78195|78196|78197|78198|78199|78200|78201|78202|78203|78204|78205|78206|78207|78208|78209|78210|78211|78212|78213|78214|78216
+A|3|230942|204187|230944|230945|216863|230947|230948|230949|230950|230951|230952|230953|230954|230955|230956
+A|1296|515412
+A|55|374804|374805|374806|374807|374808
+A|1|68863|68864|68865|68866|1655|68868|68869|68870|68871|68872|68873|68874|68875|68876|68877|68878|68879|68880|68881|68882|68883|68884|68885|68886|68887|68888|68889|68890|68891
+A|110|126280|126281|126282|126283|126284|126285|126286|126287|126288|126289|512903|515011|515012|515013|515707|515708|515709
+A|993|399724|399725|399726|399727|399728|399729|399730|399731|399732|399733|399734|399735|399736|399737|399738|399739|399740|399741|399742|399743|399744|399745|399746|399747|399748|399749|399750|399751|399752|399753
+A|5|230786|313006|313007|230776|313009|313010|314252|314253|314254|314255|314256|314621|314622|314623
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|993|VF|Vetlanda framåtanda
+B|5|V|Vänsterpartiet
+C|86323|44|M|Henrik Tvarnö|44 år, Kommunalråd,Myresjö
+C|86324|38|K|Johanna Haraldsson|38 år, Riksdagsledamot,Vetlanda
+C|86325|56|M|Mikael Hahn|56 år,Bäckseda
+C|86326|42|K|Martina Jansson|42 år,Vetlanda
+C|86327|70|M|Nils-Erik Olofsson|70 år,Bäckseda
+C|86328|65|M|Lennart Lööw|65 år,Ekenässjön
+C|86329|51|K|Aneth Amundsson|51 år, Ombudsman,Holsbybrunn
+C|86330|54|M|Jan Bengtsson|54 år,Virkesmästare,Korsberga
+C|86331|69|M|Tommy Bohman|69 år,Vetlanda
+C|86332|59|K|Carina Strömbeck|59 år,Vetlanda
+C|86333|18|M|Caesar Friberg Jonsson|18 år, Studerande,Vetlanda
+C|86334|43|M|Andreas Granlöf|43 år,Sjunnen
+C|86335|26|K|Madelene Kohut|27 år, Ungsekreterare,Vetlanda
+C|86336|71|M|Rolf Axelsson|71 år, Veteran, Vetlanda
+C|86337|72|M|Percy Karlsson|72 år,Korsberga
+C|86338|26|K|Emma Eriksson|26 år,Vetlanda
+C|86339|18|M|Hugo Svensson|18 år, Studerande,Vetlanda
+C|86340|71|M|Conny Axelsson|71 år,Sjunnen
+C|86341|18|K|Liridona Gashi|18 år,Vetlanda
+C|86342|69|M|Sven-Åke Karlsson|69 år,Vetlanda
+C|86343|42|M|Daniel Lundström|42 år,Ekenässjön
+C|86344|39|K|Veronica Larsdotter Ek|39 år, Verksamhetssamordnare,Vetlanda
+C|86345|52|M|Ole Busse|52 år,Vetlanda
+C|86346|51|M|Mikael Engström|51 år,Ekenässjön
+C|86347|38|K|Klara Forsén|38 år,Vetlanda
+C|86348|47|M|Tomas Karlberg|47 år,Vetlanda
+C|86349|53|M|Michael Lönn|52 år,Vetlanda
+C|86350|57|K|Evy Henriksson|57 år,Holsbybrunn
+C|86351|73|M|Börje Andreasson|73 år,Holsbybrunn
+C|86352|55|M|Leif Brandt|55 år,Vetlanda
+C|86353|65|K|Eva-Karin Hjalmarsson|65 år,Björköby
+C|86354|51|M|Jonny Persson|51 år,Vetlanda
+C|86355|72|K|Monika Toll|72 år,Vetlanda
+C|86356|66|M|Lars-Ivan Petersson|66 år,Vetlanda
+C|86357|50|K|Ann Bengtsson|50 år,Bäckaby
+C|86358|30|M|Magnus Fagerholm|30 år,Landsbro
+C|86359|54|K|Veronica Brandt|54 år,Vetlanda
+C|86360|73|M|Bengt Jonzon|73 år,Bäckseda
+C|86361|65|K|Elisabeth Forsén|65 år,Ekekull
+C|86362|70|M|Sören Eriksson|69 år,Bjököby
+C|86363|72|K|Birgitta Waller|71 år,Vetlanda
+C|136607|60|M|Dan Ljungström|Oppositionsråd, Alseda
+C|136608|64|K|Pia Lindell|Sjukgymnast, Ekenässjön
+C|136609|45|M|Andreas Elamsson|Skogsinspektor, Björköby
+C|136610|62|K|Carina G Hördegård|Kulturgeograf, S. Solberga
+C|136611|45|K|Annica Brihall|Barnskötare, Skirö
+C|136612|60|K|Christina Moths|Enhetschef, Vetlanda
+C|136613|68|M|Stig-Göran Fransson|Informatör, Landsbro
+C|136614|72|M|Alf Tagesson|Företagare, Karlstorp
+C|136615|65|M|Per Stålhammar|Lantbrukare, Stenberga
+C|136616|70|K|Anita Gunnar Turesson|Barnmorska, Vetlanda
+C|136617|46|M|Erik Hjärtfors|46, Entreprenör, Näshult
+C|136618|45|M|Håkan Thydén|Lantbrukare, Skede
+C|136619|18|K|Elin Brihall|Studerande, Skirö
+C|136620|56|M|Jonny Palm|Snickare, Myresjö
+C|136621|64|M|Lennart Samefors|Byggnadsingenjör, Bäckseda
+C|136622|25|M|Mikael Persson|Metallarbetare, Vetlanda
+C|136623|70|K|Annalena Löfgren|Socionom, Näshult
+C|136624|55|M|Håkan Hjelm|Marknadscontroller, Vetlanda
+C|136625|62|M|Arne Hägg|Byggnadssnickare, Landsbro
+C|136626|49|M|Thomas Börjesson|Egenföretagare, Alseda
+C|136627|57|M|Staffan Eriksson|God man, Stenberga
+C|136628|62|M|Bo Karlsson|Lantbrukare, Näsby
+C|136629|75|M|Kjell-Egon Strandh|Ingenjör, Bäckaby
+C|136630|27|K|Marielle Almquist|27, Ingenjör, Myresjö
+C|136631|68|M|Gunnar Holm|Metallarbetare, Björköby
+C|136632|60|K|Birgitta Emilsson|Egenföretagare, Stenberga
+C|78190|72|M|Hans Svensson|Lärare, Vetlanda
+C|78191|48|K|Monica Samuelsson|Skribent, Vetlanda
+C|78192|57|M|Jan-Erik Josefsson|Servicetekniker, Myresjö
+C|78193|33|K|Madelene Palmgren|Musiker, Näsby
+C|78194|30|M|Anders Rodewald|Planerare, Ekenässjön
+C|78195|69|M|Ingemar Sturesson|Senior, Landsbro
+C|78196|31|M|Kristoffer Kaspersson|Elektriker, Bäckaby
+C|78197|75|K|Gun-Britt Sigfridsson|Senior, Vetlanda
+C|78198|48|M|Dan Borg|Husprojektör, Vetlanda
+C|78199|57|M|Francesc Morello Martinez|IT-tekniker, Vetlanda
+C|78200|66|K|Eva Bondesson|Undersköterska, Björköby
+C|78201|68|M|Kjell Enell|Personlig assistent, Vetlanda
+C|78202|71|M|Tommy Risarp|Senior, Björkeryd
+C|78203|66|M|Jan-Erik Aspegren|Metallarbetare, Myresjö
+C|78204|62|M|Adel Källkrans|Doktor i arbetsmiljö, Landsbro
+C|78205|84|K|Harrieth Andersson|Senior, Vetlanda
+C|78206|81|M|Göran Ivarsson|Senior, Vetlanda
+C|78207|60|M|Kenneth Petersson|Personlig assistent, Skede
+C|78208|78|M|Kjell Brolin|Ingenjör, Vetlanda
+C|78209|59|M|Lars Anderås|Egen företagare, Korsberga
+C|78210|50|M|Lars Råsberg|Administrativ chef, Vetlanda
+C|78211|75|K|Gunny Rostedt|Senior, Vetlanda
+C|78212|75|M|Lars-Göran Axelson|Ingenjör, Vetlanda
+C|78213|62|M|Anders Sturesson|Lagerman, Vetlanda
+C|78214|62|M|Mats Rendahl|Begravningsentreprenör, Vetlanda
+C|78216|37|M|Johan Cederholm|Butikschef, Landsbro
+C|230942|74|M|Rune Solid|Vetlanda
+C|204187|61|K|Siv Fransson|62, Avdelningschef, Vetlanda
+C|230944|55|M|Fikret Ulusoy|Vetlanda
+C|230945|78|M|Ejlon Johansson|Ekenässjön
+C|216863|60|M|Kjell Hörnstein|Metalarbetare
+C|230947|68|M|Jörgen Samuelsson|Vetlanda
+C|230948|38|M|Ola Axeland|Vetlanda
+C|230949|68|K|Anna-Maria Kvarnstrand|Ekenässjön
+C|230950|86|M|Karleric Eiderbrant|Planeringschef, Kvillsfors
+C|230951|72|M|Claes-Göran Nyrén|Ekenässjön
+C|230952|65|K|Inga-Lill Bardh|Vetlanda
+C|230953|71|M|Stefan Josefsson|Lantbrukare, Ramkvilla
+C|230954|72|M|Stig Sennerstrand|Ekenässjön
+C|230955|74|M|Conny Kvarnstrand|Björköby
+C|230956|71|M|Willis Josefsson|Ekenässjön
+C|515412|86|M|Anker Iskov Christensen|
+C|374804|49|M|Ibrahim Hajomar|49 år, Industrimålare, Vetlanda
+C|374805|31|K|Noraly (Nora) Kunkeler|31 år, Student, Vetlanda
+C|374806|66|M|Janne Åsander|66 år, Pensionär, Vetlanda
+C|374807|56|K|Elizabeth Kunkeler|56 år, Undersköterska, Landsbro
+C|374808|49|K|Madeleine Hermanson|49 år, Integrationspedagog, Vetlanda
+C|68863|61|K|Carina Bardh|61 år, Småföretagare, Vetlanda
+C|68864|20|M|Douglas Thor|20 år, Lärare, Vetlanda
+C|68865|48|M|Anders Bengtsson|48 år, Jobbcoach, Vetlanda
+C|68866|62|M|Kjell Sandahl|62 år, Lantbrukare, Nye
+C|1655|23|M|Robin Wallén Nilsson|23 år, Företagare, Vetlanda
+C|68868|43|K|Sofie Schiller|43 år, Verksamhetschef, Bäckseda
+C|68869|19|M|Oliwer Hultkvist|19 år, Butikssäljare, Vetlanda
+C|68870|63|K|Magdalena Andersson|63 år, Marknadsekonom, Korsberga
+C|68871|35|M|Henrik Freij|35 år, Verktygsmakare, Vetlanda
+C|68872|61|K|Gudrun Johansson|61 år, Socionom, Landsbro
+C|68873|20|M|Isac Almén|20 år, Truckförare, Vetlanda
+C|68874|66|K|Marianne Fagerberg|66 år, Pensionär, Vetlanda
+C|68875|19|M|Anton Sigfridsson|19 år, Butikssäljare, Myresjö
+C|68876|84|K|Lena Åhrén|84 år, Senior, Skirö
+C|68877|35|M|Fredrik Johansson|35 år, Operatör, Bäckseda
+C|68878|78|K|Gunnel Bjäde|78 år, Senior, Ekenässjön
+C|68879|19|M|Martin Thor|19 år, Student, Nävelsjö
+C|68880|59|K|Carina Wall|59 år, Banktjänsteman, Myresjö
+C|68881|69|K|Cajsa Håkanson|69 år, Senior, Ramkvilla
+C|68882|61|M|Sten Johansson|61 år, Lantbrukare, Skirö
+C|68883|60|M|Håkan Johansson|60 år, Lantbrukare, Landsbro
+C|68884|18|K|Julia Karlsson|18 år, Studerande, Vetlanda
+C|68885|61|M|Kjell Gunnarsson|61 år, Ekonom, Myresjö
+C|68886|53|M|Michael Petersson|53 år, Försäljningschef, Vetlanda
+C|68887|68|M|Klas Håkanson|68 år, Företagare, Ramkvilla
+C|68888|50|K|Linda Johansson|50 år, Undersköterska, Näshult
+C|68889|68|M|Kjell Åke Nottemark|68 år, Ekonom, Landsbro
+C|68890|76|K|Nanna Axelsson|76 år, Senior, Bäckseda
+C|68891|75|M|Carl-Axel Bengtsson|75 år, Nämndeman, Vetlanda
+C|126280|54|M|Björn Fälth|54, Egenföretagare, Farstorp
+C|126281|54|M|Arne Larsson|54, Distributör, Björköby
+C|126282|50|K|Pia Fälth|50 år, designer, Nye
+C|126283|67|K|Ingrid Holm|67, Nämndeman, Vetlanda
+C|126284|63|K|Jonna Andreasen|62, Pensionär, Kvillsfors
+C|126285|54|M|Mikael Loberg|54 år, produktionstekniker, Vetlanda
+C|126286|72|M|Bengt Allan Klang|72, Pensionär, Vetlanda
+C|126287|66|M|Arne Zetterberg|67 år, pensionär, Holsbybrunn
+C|126288|64|M|Donald Påhlsson|64, Konsult, Myresjö
+C|126289|45|M|Joakim Ottosson|45, Byggarbetare, Kvillsfors
+C|512903|62|M|Dick Gromer|
+C|515011|64|M|Mats Johansson|
+C|515012|51|M|Claes Karlberg|
+C|515013|37|M|Johan Löfgren|
+C|515707|61|M|Paul Borstam|
+C|515708|71|M|Bo Söderblom|
+C|515709|70|M|Rolf Ståhlgren|
+C|399724|69|M|Jan Johansson|Entreprenör,kom.råd Bäckseda
+C|399725|54|K|Lola Frödeberg|Demand Planner, Kvillsfors
+C|399726|58|M|Lars Brihall|Företagare, Skirö
+C|399727|56|K|Maria Forsberg Brihall|Lantbrukare, Skirö
+C|399728|53|M|Roger Eriksson|Egen Företagare, Kvillsfors
+C|399729|22|K|Malin Brihall|Målare, Vetlanda
+C|399730|69|M|Tommy Glans|IT-strateg, Björköby
+C|399731|54|K|Monica Högberg|Undersköterska, Vetlanda
+C|399732|62|M|Inge Bengtsson|Egen företagare, Korsberga
+C|399733|56|K|Petra Brannestam|Cirkelledare, Kvillsfors
+C|399734|64|M|Anders Gustavsson|Platschef,Vetlanda
+C|399735|45|M|Niklas Hugosson|Industriarb, Ungdsomsl Landsbro
+C|399736|59|K|Cathrine Löfstedt|Kulturarbetare,Vetlanda
+C|399737|64|M|Claes Sjöberg|Civilingenjör, Serarp, Näshult
+C|399738|70|M|Thor-Erik Rydén|Företagare, Stenberga
+C|399739|53|K|Cecilia Rylander|Undersköterska, Kvillsfors
+C|399740|73|M|Lars Inge Lundgren|Nämndeman, Bäckseda
+C|399741|68|M|Tony Racov|Entreprenör, Ekenässjön
+C|399742|64|K|Anna Sognefur|Förskollärare, Korsberga
+C|399743|48|M|Patrik Karlsson|Serviceledare, Skede
+C|399744|67|M|Per Johansson|Seniorkonsult, Björköby
+C|399745|53|K|Anneli Thylén|Redovisningskonsult, Nye
+C|399746|62|M|Göran Lundin|Chaufför, Kvillsfors
+C|399747|56|M|Thomas Thylén|Reperatör, Nye
+C|399748|57|M|Robert Selhorst|Egen företagare, S Solberga
+C|399749|55|M|Vithaya Loungkhot|Tvätteriarbetare, Vetlanda
+C|399750|24|M|Joakim Thylén|Lastbilschaufför, Nye
+C|399751|59|M|Husein Öksuz|Företagare, Vetlanda
+C|399752|36|K|Christina Liljerås|Bonde, Hörnebo
+C|399753|55|M|Kristian Andersson|Logistiker, Naglarp
+C|230786|52|M|Michael Hellqvist|ungdomspedagog, Kvillsfors
+C|313006|62|K|Viveka Jarflod|dramapedagog, Vetlanda
+C|313007|45|K|Jessica Nilsson|träindustri/måleri, Kvillsfors
+C|230776|70|M|Tommy Bengtsson|pensionerad metallarbetare, Vetlanda
+C|313009|58|K|Helen Läck|butiksförsäljare, Vetlanda
+C|313010|66|M|Roger Jonasson|Vetlanda
+C|314252|74|K|Monika Mörk|pensionär, Vetlanda
+C|314253|25|M|Philip Bergkvist|kyrkvaktmästare, Vetlanda
+C|314254|54|K|Maria Eriksson|undersköterska, Vetlanda
+C|314255|60|M|Musa Aljuhmani|farmaceut, Vetlanda
+C|314256|47|M|Mikael Nilsson|debattör, Kvillsfors
+C|314621|76|M|Göran Svensson|pensionär, Nye
+C|314622|53|K|Anna-Lena Klein|lärare, Vetlanda
+C|314623|44|M|Glenn Runström|industriarbetare, Vetlanda

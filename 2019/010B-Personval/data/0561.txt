@@ -1,9 +1,123 @@
-2|126551|126552|126555|126556|101477|101470|126559|101486|101481|126592|126593|126594|126595|126596|101485|126598|126599|126600|126601|126602|126603|126604|126605|126606|126607|126608|126635|126636|126637|126638|126639
-1372|486472
-4|12029|14336|14779|14328|14781|14782|14783|14784|14785|14786|14787|14788|14789|14790
-68|259950|259951|259952|259953
-3|249290|249699|249700|249701|249702|249703|249704|249705
-55|514967|513873|513910|509263
-1|12893|14843|14844|14845|14846|14847|14848|14849|14850|14851|14852|14853|14854|14855|14856|14857|14858|14859|14860|14861|14862|14863|14864|14865|14866
-110|82284|82285|82286|82287|82288|82289|82290|82291|82292|82293|82294|82295|82296|82297|82298|82299
-5|71573|119463|119464|119465|119466
+T|Åtvidaberg
+A|2|126551|126552|126555|126556|101477|101470|126559|101486|101481|126592|126594|126595|126596|101485|126598|126599|126600|126601|126602|126603|126604|126605|126606|126607|126608|126635|126636|126637|126638|126639
+A|1372|486472
+A|4|12029|14336|14779|14328|14781|14782|14783|14784|14785|14786|14787|14788|14789|14790
+A|68|259950|259951|259952|259953
+A|3|249290|249699|249700|249701|249702|249703|249704|249705
+A|55|514967|513873|513910|509263
+A|1|12893|14843|14844|14845|14846|14847|14848|14849|14850|14851|14852|14853|14854|14855|14856|14857|14858|14859|14860|14861|14862|14863|14864|14865|14866
+A|110|82284|82285|82286|82289|82290|82291|82292|82293|82294|82296|82297|82298|82299
+A|5|71573|119463|119464|119465|119466
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1372||Basinkomstpartiet
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|126551|57|M|Thomas Lidberg|Åtvidaberg
+C|126552|34|K|Emmelie Dahl Rexhell|Åtvidaberg
+C|126555|57|M|Lars-Åke Bergstrand|Grebo
+C|126556|48|K|Anki Sjöö Törner|Grebo
+C|101477|62|M|Peder Griph|62 år, försäkringshandläggare, Åtvidaberg
+C|101470|65|K|Elisabet Edlund|65 år, Åtvidaberg
+C|126559|72|M|Lennart Haraldsson|Åtvidaberg
+C|101486|60|K|Carin Palm|60 år, Åtvidaberg
+C|101481|64|M|Per Lundberg|64 år, Åtvidaberg
+C|126592|47|K|Malin Svensson|Åtvidaberg
+C|126594|69|K|Brittmari Svensson|Falerum
+C|126595|57|M|Sirvan Mostafaey|Björsäter
+C|126596|39|K|Chierin Ekrot|Åtvidaberg
+C|101485|66|M|Kenneth Hallberg|66 år, Åtvidaberg
+C|126598|65|M|Ulf Dahl|Åtvidaberg
+C|126599|53|K|Annette Bergstrand|Grebo
+C|126600|36|M|Jimmy Lock Jacobsson|Åtvidaberg
+C|126601|37|M|Daniel Asklöf|Åtvidaberg
+C|126602|42|K|Marina Wretman|Åtvidaberg
+C|126603|62|M|Jörgen Svensson|Åtvidaberg
+C|126604|41|K|Dima Gharib|Åtvidaberg
+C|126605|61|M|Christer Ekman|Åtvidaberg
+C|126606|68|K|Dorothée Adelswärd|Åtvidaberg
+C|126607|57|M|Per Johansson|Åtvidaberg
+C|126608|65|K|Ragnhild Sohlberg|Åtvidaberg
+C|126635|78|M|Arne Holmgren|Åtvidaberg
+C|126636|54|K|Gunnel Wilhelmsson|Björsäter
+C|126637|65|M|Willy Karlsson|Åtvidaberg
+C|126638|71|M|Jan Öhrling|Åtvidaberg
+C|126639|72|M|Sven Sjöö|Åtvidaberg
+C|486472|42|M|Joakim Ekberg|41 år, Folkhälsovetare, Medicine Doktor, Åtvidaberg
+C|12029|40|M|Joakim Magnusson|40 år, Oppositionsråd, Åtvidaberg
+C|14336|55|K|Ann Hemmingsson|55 år, Kock, Grebo
+C|14779|42|M|Dennis Edström|42 år, Sunnebo
+C|14328|57|K|Astrid-Marie Jonsson|57 år, Lanthandlare, Åtvidaberg
+C|14781|37|K|Jeanette Bolin|37 år, Åtvidaberg
+C|14782|51|M|Leif Lourie|51 år, Åtvidaberg
+C|14783|49|K|Anna Thuresson|49 år, Grebo
+C|14784|65|M|Knut-Magnus Simonsson|65 år, Åtvidaberg
+C|14785|66|M|Ulf Jönsson|66 år, Yxnerum
+C|14786|28|K|Ellenor Svensson|28 år, Grebo
+C|14787|65|M|Ulf Axelsson|65 år, Västerby
+C|14788|30|M|Emil Svensson|30 år, Grebo
+C|14789|69|M|Lars Carlsson|69 år, Hannäs
+C|14790|60|M|Lars-Åke Ståhlbom|60 år, Hannäs
+C|259950|24|M|Fredrik Hanström|CNC-operatör, Åtvidaberg
+C|259951|72|K|Eva Unnholm Odensåker|Pensionär, Åtvidaberg
+C|259952|73|M|Love Almquist|F.d Ekonomichef, Åtvidaberg
+C|259953|73|K|Berit Rodenteg|Pensionär, Åtvidaberg
+C|249290|58|M|Anders Byström|lärare, Åtvidaberg
+C|249699|71|M|Bertil Jonsson|pensionär, Åtvidaberg
+C|249700|79|K|Lillies Rydberg|pensionär, Åtvidaberg
+C|249701|72|K|Irene Jonsson|pensionär, Åtvidaberg
+C|249702|66|M|Rolf Skogh|Åtvidaberg
+C|249703|76|M|Lars A. Nilsson|Yxnerum
+C|249704|86|K|Inga-Britta Jungeström|Åtvidaberg
+C|249705|89|K|Mari-Anne Hanström|Fröjerum Östergård
+C|514967|34|K|Jenny Lindgren|34, Butikschef
+C|513873|46|K|Lotta Björkén|44, Matpedagog
+C|513910|41|K|Mia Götesdotter|41, Egen företagare
+C|509263|77|M|Rune Tessin|
+C|12893|43|K|Mira Wedenberg|Åtvidaberg
+C|14843|53|M|Jonas Palmqvist|
+C|14844|50|M|Kenneth Axelsson|
+C|14845|45|M|Fredrik Ebbestad|
+C|14846|65|M|Bo Hasselblad|
+C|14847|54|M|Mikael Wårhem|
+C|14848|56|M|Tommy Aarna|
+C|14849|39|M|Carl Donnér|
+C|14850|43|K|Åsa Merving|
+C|14851|62|M|Olle Persson|
+C|14852|65|M|Kjell Myrén|
+C|14853|35|M|David Sandborg|
+C|14854|19|K|Cornelia Wårhem|
+C|14855|28|M|Erik Carlsson|
+C|14856|54|K|Ulrika Klaar|
+C|14857|22|M|Abit Gjakova|
+C|14858|38|M|Björn Moum|
+C|14859|46|M|Douglas Wedenberg|
+C|14860|70|M|Anders Eskilsson|
+C|14861|69|K|Arja Moum|
+C|14862|44|M|Hakam Kujan|
+C|14863|26|K|Louise Kroon|
+C|14864|45|M|Johan Merving|
+C|14865|80|M|Carl G Nilsson|
+C|14866|73|M|Sverre Moum|
+C|82284|51|M|Jan Svensson|51, kanslichef, Åtvidaberg
+C|82285|27|M|Richard Svensson|Politisk sekreterare, Åtvidaberg
+C|82286|52|M|Joakim Gustavsson|52, företagare, Åtvidaberg
+C|82289|49|K|Michelle Svensson|49 år, sekreterare
+C|82290|56|M|Mikael Göransson|56, metallarbetare, Åtvidaberg
+C|82291|26|K|Sofia Karlsson|26, undersköterska, Åtvidaberg
+C|82292|69|M|Gösta Eriksson|68 år, pensionär
+C|82293|69|M|Göran Forslund|69, pensionär, Åtvidaberg
+C|82294|22|K|Erika Svensson|22 år, arbetsledare
+C|82296|25|M|Johan Nilsson|25 år, CNC-operatör
+C|82297|33|M|Carl Sääv|33 år, jurist
+C|82298|72|M|Göran Boson|72, pensionär, Åtvidaberg
+C|82299|21|M|Simon Gustavsson|21 år, snickare
+C|71573|58|M|Lennart Pettersson|58, Metallarbetare, Åtvidaberg
+C|119463|65|M|Roy Wasniowski|66, Åtvidaberg
+C|119464|64|K|Ninni Ahlf|65, Åtvidaberg
+C|119465|46|M|Henrik Samuelsson|47, Metallarbetare Åtvidaberg
+C|119466|50|M|Stefan Johansson|50 Dietist, Åtvidaberg

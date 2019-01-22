@@ -1,8 +1,217 @@
-2|156361|8247|156363|6596|156365|156366|156367|156368|156369|8255|156371|156372|156373|156374|156375|156376|156377|156378|156379|156380|156381|156382|156383|156384|156385|156386|156387|156388|8253|156390|8257|8250|156393|156394|156395|156396|156397|156398|156399|156400|156401|156402|156403|156404|156405|156406|156407|156408|156409|156410|156411|156412|156413|156414|156415|156416|156417|156418|156419|156420|156421|156422|156423|156424
-4|359570|359571|359572|359573|300872|359575|359576|359577|359578|359579|300878|300879|359582|359583|359584|359585|359586|359587|359588|300881|359590|359591|300875|359593|359594|359595|359596|300883|359598|359599|359600|359601|359602|359603|359604|359605|359606|359607|359608|359609|300885|359611|359612|359613|359614|359615|359616|359617|359618|359619|359620|359621|359622|359623|359624|359625|359626|359627|359628|359629|359630|359631|359632
-68|25231|37408|37423|118647|118649|118650|118648|118651|118652|118653|118654|118655|118656|118657|118658|118659|118660
-3|391777|391780|391785|391789|419246|419247|391773|419249
-55|319926|319927
-1|161430|160452|158898|161433|161434|161435|160449|161437|158889|161439|161440|161441|161442|161443|161444|161445|161446|161447|161448
-110|60812|60813|60814|60815|60816|60817|60818|60819|60820|60821|60822|60823|60824|60825|60826
-5|324333|324334|324335|324336|324337|324338|324339|324340|324342|324343|324344|324345
+T|Mönsterås
+A|2|156361|8247|156363|6596|156365|156366|156367|156368|156369|8255|156371|156372|156373|156374|156375|156376|156377|156378|156379|156380|156381|156382|156383|156384|156385|156386|156387|156388|8253|156390|8257|8250|156393|156394|156395|156396|156397|156398|156399|156400|156401|156402|156403|156404|156405|156406|156407|156408|156409|156410|156411|156412|156413|156414|156415|156416|156417|156418|156419|156420|156421|156422|156423|156424
+A|4|359570|359571|359572|359573|300872|359575|359576|359577|359578|359579|300878|300879|359582|359583|359584|359585|359586|359587|359588|300881|359590|359591|300875|359593|359594|359595|359596|300883|359598|359599|359600|359601|359602|359603|359604|359605|359606|359607|359608|359609|300885|359611|359612|359613|359614|359615|359616|359617|359618|359619|359620|359621|359622|359623|359624|359625|359626|359627|359628|359629|359630|359631|359632
+A|68|25231|37408|37423|118647|118649|118650|118648|118651|118652|118653|118654|118655|118656|118657|118658|118659|118660
+A|3|391777|391780|391785|391789|419246|419247|391773|419249
+A|55|319926|319927
+A|1|161430|160452|158898|161433|161434|161435|160449|161437|158889|161439|161440|161441|161442|161443|161444|161445|161446|161447|161448
+A|110|60812|60813|60814|60815|60816|60817|60818|60819|60820|60821|60822|60823|60824|60825|60826
+A|5|324333|324334|324335|324336|324337|324338|324339|324340|324342|324343|324344|324345
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|156361|37|M|Robert Rapakko|Lärare, Mönsterås, 38 år
+C|8247|54|K|Renée Solstad|fackligt förtroendevald, Mönsterås, 54 år
+C|156363|60|M|Lars Johansson|Affärsbiträde, Mönsterås, 59 år
+C|6596|40|K|Lejla Bajraktarevic|SIUS-konsulent, Mönsterås, 40 år
+C|156365|72|M|Lars Hollner|Ingenjör, Fliseryd, 72 år
+C|156366|46|K|Anne Blomqvist|Sjuksköterska, Fliseryd, 45 år
+C|156367|23|M|Martin Nilsson|Truckförare, Mönsterås, 23 år
+C|156368|56|K|Kristina Nyman|Handläggare, Timmernabben, 55 år
+C|156369|44|M|Daniel Williamsson|Underhållsledare, Mönsterås, 43 år
+C|8255|35|K|Martina Palmér|bitr. ombudsman, Fliseryd, 35 år
+C|156371|71|M|Owe Kåreberg|Fd svetsare, Fliseryd, 71 år
+C|156372|53|K|Ulrica Widesdotter|Vårdlärare, Mönsterås, 53 år
+C|156373|35|M|Martin Samuelsson|Ingenjör, Mönsterås, 34 år
+C|156374|31|K|Madelene Amberman|Studerande, Fliseryd, 30 år
+C|156375|65|M|Roland Pettersson|Pensionär, Ålem, 65 år
+C|156376|43|K|Alexandra Ekstrand|Undersköterska, Ålem, 43 år
+C|156377|37|M|Erik Jonsson|Sågverksarbetare, Mönsterås, 37 år
+C|156378|50|K|Ann Laakso|Undersköterska, Fliseryd, 50 år
+C|156379|57|M|Torsten Rundberg|Operatör, Mönsterås, 57 år
+C|156380|67|K|Britt-Marie Necke|Fd sekreterare, Blomstermåla, 66 år
+C|156381|55|M|Michael Pettersson|Ingenjör, Mönsterås, 55 år
+C|156382|68|K|Lene Hollner|Förskollärare, Fliseryd, 67 år
+C|156383|71|M|Håkan Johansson|Pensionär, Blomstermåla, 72 år
+C|156384|71|M|Göte Hägerström|Pensionär, Mönsterås, 70 år
+C|156385|24|K|Naemi Hammarstedt|Studerande, Mönsterås, 23 år
+C|156386|47|M|Michael Carlsson|Företagare, Mönsterås, 47 år
+C|156387|42|K|Anna Rapakko|Lärare, Mönsterås, 43 år
+C|156388|67|M|Jan Karlsson|Fd Socionom, Mönsterås, 67 år
+C|8253|43|K|Anna Rubio Lind|socionom, Ålem, 43 år
+C|156390|76|M|Björn Nilsson|Tekniker, Fliseryd, 76 år
+C|8257|70|K|Britt-Marie Ekstrand|pensionär, Fliseryd, 70 år
+C|8250|23|M|Martin Odén|svetsare, Mönsterås, 23 år
+C|156393|48|K|Linda Colbrand Johansson|Barnskötare, Mönsterås, 48 år
+C|156394|68|M|Kenth Sejnehed|Fd målare, Mönsterås, 68 år
+C|156395|41|K|Maria Jonsson|Butiksbiträde, Mönsterås, 40 år
+C|156396|36|M|Mikael Amberman|Skyddsvakt, Fliseryd, 35 år
+C|156397|73|K|Kate Nilsson|Undersköterska, Fliseryd, 73 år
+C|156398|41|M|Gustav Gustavsson|Tekniker, Ålem, 41 år
+C|156399|52|K|Nina Borg|Personlig assistent, Fliseryd, 52 år
+C|156400|56|M|Lars Hellberg|Chaufför, Mönsterås, 55 år
+C|156401|68|K|Annika Tengel|Fd handläggare, Mönsterås, 68 år
+C|156402|51|M|Peter Dahlberg|Arbetsledare, Mönsterås, 50 år
+C|156403|58|K|Iréne Holm|Sjuksköterska, Mönsterås, 57 år
+C|156404|72|M|Benny Svensson|Fd snickare, Timmernabben, 72 år
+C|156405|71|K|Christina Englund|Fd skolledare, Mönsterås, 71 år
+C|156406|74|M|Göran Sjögren|Pensionär, Fliseryd, 74 år
+C|156407|76|K|Anita Ericson|Pensionär, Fliseryd, 75 år
+C|156408|52|M|Magnus Klase|Säkerhetssamordnare, Mönsterås, 52 år
+C|156409|61|K|Britt Sunesson Karlsson|Undersköterska, Mönsterås, 60 år
+C|156410|38|M|Fredrik Berg|Materialhanterare, Mönsterås, 37 år
+C|156411|35|M|Christian Karlsson|Platsansvarig, Mönsterås, 35 år
+C|156412|51|M|Staffan Johansson|Tekniker, Mönsterås, 50 år
+C|156413|59|M|Per Magnusson|Senior adviser, Fliseryd, 59 år
+C|156414|58|M|Thomas Nilsson|Vaktmästare, Mönsterås, 58 år
+C|156415|64|M|Kenneth Larsson|Egen företagare, Mönsterås, 63 år
+C|156416|53|M|Roger Eriksson|Truckförare, Mönsterås, 53 år
+C|156417|55|M|Stefan Axelsson|Industriarbetare, Mönsterås, 55 år
+C|156418|50|K|Jeanette Suomela|Kyrkovaktmästare, Mönsterås, 50 år
+C|156419|65|M|Tommy Englund|Utredningssekr, Mönsterås, 65 år
+C|156420|46|K|Hanna Borrie Svensson|Bitr rektor, Mönsterås, 46 år
+C|156421|51|M|Roger Hägerström|Skiftledare, Mönsterås, 51 år
+C|156422|57|K|Tifa Dzafic|Affärsbiträde, Mönsterås, 57 år
+C|156423|60|M|Anders Solstad|Lackerare, Mönsterås, 60 år
+C|156424|78|K|Kerstin Beckman Danielsson|Fd apotekstekniker, Mönsterås, 78 år
+C|359570|48|M|Anders Johansson|kommunalråd, Mönsterås
+C|359571|73|K|Agnetha Landberg|lärare, Fliseryd
+C|359572|49|M|Jens Robertsson|49 år, kyrkogårdschef, Mönsterås
+C|359573|53|K|Ann Petersson|godkänd revisor, Mönsterås
+C|300872|64|M|Roland Åkesson|64 år, fd kommunalråd, Ålem
+C|359575|63|K|Carina Holmberg Olofsson|socioterapeut, Timmernabben
+C|359576|50|K|Jacqueline Doohan|50 år, handläggare, Mönsterås
+C|359577|46|M|Jimmy Persson|egenföretagare, Blomstermåla
+C|359578|66|M|Magnus Gustafsson|fastighetsförvaltare, Mönsterås
+C|359579|57|K|Katarina Johansson|strateg, Ålem
+C|300878|48|K|Sarah Johansson|48 år, agronom/egen företagare, Mönsterås
+C|300879|50|K|Maria Robertsson|49 år, språklärare, Mönsterås
+C|359582|66|M|Håkan Sjöborg|ordf. Ålem energi, Timmernabben
+C|359583|50|M|Håkan Spärlin|teknisk säljare, Mönsterås
+C|359584|41|K|Johanna Landbergh|informatör, Fliseryd
+C|359585|37|M|Daniel Backenius|enhetschef, Mönsterås
+C|359586|68|K|Anna-Lena Josefsson|undersköterska, Mönsterås
+C|359587|37|M|Anas Alsharif|agronom, Mönsterås
+C|359588|67|K|Reidun Ullström|pensionär, Timmernabben
+C|300881|49|M|Lars Magnusson|48 år, lärare, Mönsterås
+C|359590|28|K|Anna Isaksson|produktionsledare, Ålem
+C|359591|75|M|Lennart Karlsson|pensionär, Blomstermåla
+C|300875|37|K|Elin Backenius|37 år, distriktssköterska, Mönsterås
+C|359593|45|K|Sara Widerström|ekonom, Ålem
+C|359594|49|M|Martin Lagerwall|företagare, Fliseryd
+C|359595|38|M|Michael Erenius|servicechef, Mönsterås
+C|359596|50|K|Camilla Löfström|förskollärare, Mönsterås
+C|300883|44|K|Diana Axelsson Olsson|44 år, fakultetshandläggare, Timmernabben
+C|359598|72|M|Bo Larsen|pensionär, Mönsterås
+C|359599|49|K|Helena Rosenberg|bebyggelseantikvarie, Häggemåla/Ålem
+C|359600|48|M|Tomas Halkjaer|it-konsult, Mönsterås
+C|359601|54|M|Jusuf Causevic|gymnasielärare, Mönsterås
+C|359602|36|M|Tobias Jonsson|hamnarbetare, Tålebo
+C|359603|51|K|Christine Dahlgren|projektledare, Ålem
+C|359604|69|M|Ove Blomquist|pensionär, Mönsterås
+C|359605|30|K|Emma Sahlen|paralegal, Timmernabben
+C|359606|25|K|Linnea Ottosson|skogsinspektör, Mönsterås
+C|359607|74|M|Olle Larsson|pensionär, Mönsterås
+C|359608|66|M|Krister Kronzell|pensionär, Mönsterås
+C|359609|58|K|Inga Jonsson|egenföretagare, Fliseryd
+C|300885|22|M|Elias Foghagen|22 år, företagsekonom, Ålem
+C|359611|44|M|Tobias Josefsson|tekniker, Mönsterås
+C|359612|51|M|Juha Vuorijärvi|montageledare, Mönsterås
+C|359613|34|K|Amanda Dahlin|tandsköterska, Blomstermåla
+C|359614|74|M|Veine Backenius|pensionär, Mönsterås
+C|359615|76|M|Erling Petersson|pensionär, Timmernabben
+C|359616|21|M|Gustaf Johansson|studerande, Mönsterås
+C|359617|48|M|Mattias Fernström|maskinställare, Mönsterås
+C|359618|68|K|Lena Kalsson|pensionär, Blomstermåla
+C|359619|81|M|Sivert Carlsson|pensionär,Mönsterås
+C|359620|64|K|Kerstin Strand|samordnare, Timmernabben
+C|359621|59|K|Lotta Borg|företagare, Mönsterås
+C|359622|50|M|Karl-Henrik Widerström|lantbrukare, Ålem
+C|359623|66|M|Stefan Svensson|fd kriminaltekniker, Fliseryd
+C|359624|72|K|Barbro Holmquist|pensionär, Blomstermåla
+C|359625|66|M|Joel Persson|konsult, Ålem
+C|359626|74|K|Mona Håkansson|pensionär, Ålem
+C|359627|79|M|Jan-Erik Elvingsson|pensionär,Mönsterås
+C|359628|58|M|Tomas Bergstedt|ingenjör, Fliseryd
+C|359629|78|M|Lars-Erik Nilsson|pensionär, Mönsterås
+C|359630|64|K|Ann Svensson|key account manager, Fliseryd
+C|359631|54|M|Roger Karlsson|reparatör, Ålem
+C|359632|76|M|Nils-Bertil Johansson|pensionär, Mönsterås
+C|25231|53|K|Madeleine Rosenqvist|kommun- och landstingspolitiker, Fliseryd
+C|37408|71|K|Chatrine Pålsson Ahlgren|f d riksdagsledamot, Mönsterås
+C|37423|67|M|Anders Pettersson|ingenjör, Mönsterås
+C|118647|69|M|Rune Carlsson|projektledare, Pataholm
+C|118649|42|M|Ran Friedman|lektor i kemi, Timmernabben
+C|118650|32|K|Pauline Ottosson|administratör, Björnö
+C|118648|62|K|Carina Davidsson|undersköterska, Hammaglo
+C|118651|64|M|Bengt-Olof Davidsson|egen företagare,Hammarglo
+C|118652|77|K|Margareta Guldstrand|f d farmaceut, Fliseryd
+C|118653|75|K|Ingrid Lindwall|f d distriktssköterska, Timmernabben
+C|118654|58|K|Barbro Rudin|pedagogisk assistent, Gårö
+C|118655|57|K|Christina"Kinno" Reise|frisör, Timmernabben
+C|118656|68|K|Carina Pehrsson|f d förskollärare, Mönsterås
+C|118657|56|K|Åsa Arrhenius|säljare, Mönsterås
+C|118658|47|M|Jonas Andersson|fastighetsskötare, Oknö
+C|118659|70|K|MariAnn Pettersson|pensionär, Mönsterås
+C|118660|66|M|Ingemar Pehrsson|chaufför, Mönsterås
+C|391777|55|M|Torbjörn Uddén|Ingenjör, Mönsterås
+C|391780|53|K|Maria Björklund Strömberg|Företagare, Mönsterås
+C|391785|54|M|Håkan Strömberg|Skogsarbetare, Mönsterås
+C|391789|44|K|Jessica Björneteg|Mönsterås
+C|419246|76|M|Bill Björklund|Mönsterås
+C|419247|70|K|Inger Redborn Karlsson|Mönsterås
+C|391773|79|M|Sören Svensson|Senior, Mönsterås
+C|419249|78|M|Lars-Erik Holmqvist|Mönsterås
+C|319926|30|M|Dag Hansson|30 år, Ålem
+C|319927|45|K|Eva-Karin Holgersson|45 år, Lärare
+C|161430|65|M|Per Lindeberg|65 år, Egen företagare, Mönsterås
+C|160452|43|K|Åsa Ottosson|43 år, Egen företagare, Ålem
+C|158898|68|K|Britt-Marie Domeij|68 år, Lärare, Mönsterås
+C|161433|73|M|Curt Rune Roos|73 år, Egen företagare, Mönsterås
+C|161434|70|M|Conny Johansson|70 år, Mönsterås
+C|161435|48|M|Patrik Nilsson|48 år, Egen företagare, Ålem
+C|160449|63|K|Suzanne Gustafson|63 år, Barnskötare, Mönsterås
+C|161437|24|K|Felicia Söderlind|24 år, Studerande, Ålem
+C|158889|41|M|Emil Jörgensen|41 år, Kyrkoherde, Mönsterås
+C|161439|75|M|Tore Fridh|75 år, Mönsterås
+C|161440|75|M|Lennart Redborn|75 år, Fliseryd
+C|161441|73|K|Birgitta Englund|73 år, Mönsterås
+C|161442|74|M|Jan Englund|74 år, Mönsterås
+C|161443|64|K|Christina Cedergren|64 år, Diakon, Mönsterås
+C|161444|87|K|Inga Lena Wallén|87 år, Mönsterås
+C|161445|73|K|Christina Lundqvist|73 år, Mönsterås
+C|161446|55|K|Maud Cedergren|55 år, Egen företagare, Fliseryd
+C|161447|75|K|Mona Läggeberger|75 år, Egen företagare, Fliseryd
+C|161448|86|M|Arne Johansson|86 år, Mönsterås
+C|60812|52|M|Roger Sunesson|Skiftchef, Mönsterås
+C|60813|65|M|Conny Johansson|projektledare, Mönsterås
+C|60814|59|K|Anni Juhl Nielsen|läkare, Mönsterås
+C|60815|52|M|Mikael Karlsson|personlig assistent, Mönsterås
+C|60816|67|M|Christer Olsson|svetsare, Blomstermåla
+C|60817|50|K|Annika Mattila|fastighetsskötare, Mönsterås
+C|60818|51|M|Sören Boman|hamnarbetare, Mönsterås
+C|60819|75|M|Sven-Erik Svensson|förvaltare, Mönsterås
+C|60820|62|M|Urban Lindgren|beteendevetare, Mönsterås
+C|60821|30|M|Leonard Nicklasson|mellaningenjör, Timmernabben
+C|60822|58|M|Johnny Ivarsson|ställningsmontör, Mönsterås
+C|60823|56|M|Kent Sandholm|anläggningsarbetare, Timmernabben
+C|60824|69|M|Inge Karlsson|pensionär, Mönsterås
+C|60825|60|M|Lennart Jegerfalk|sjökapten, Mönsterås
+C|60826|42|K|Mia Luäng|personlig assistent, Mönsterås
+C|324333|59|K|Heléne Carlsson|Mönsterås
+C|324334|60|K|Kicki Olsson|Långserum
+C|324335|64|M|Ulf-Inge Rosander|Mönsterås
+C|324336|75|K|Irene Fleetwood|Mönsterås, Pensionär
+C|324337|58|M|Sven-Åke Alpfjord|Mönsterås
+C|324338|32|K|Jessica Johnsson|Mönsterås
+C|324339|31|M|Tobias Dahlqvist|Mönsterås
+C|324340|56|K|Angelique Orsvärn|Blomstermåla
+C|324342|66|K|Agneta Lindvall|Mönsterås
+C|324343|69|M|Karl-Erik Lööf|Timmersnabben
+C|324344|65|M|Bert Lindvall|Finsjö
+C|324345|33|M|Wajdi Alasaad|Mönsterås

@@ -1,10 +1,235 @@
-2|33201|33202|33203|33204|33205|33206|33207|33208|33209|33210|33211|33212|33213|33214|33215|33216|33217|33218|33219|33220|33221|33222|33223|33224|33225|33226|33227|33228|33229|33230|33231|33232|33233|33234|33235|33236|33237|33238|33239|33240|33241|33242|33243|33244|33245|33246|33247|33248|33249|33250|33251
-4|3200|3220|3204|24639|24640|24641|24656|24643|24644|24645|24646|24647|24648|24649|24650|24651|24652|24654|24655|24667|24657|24658|24659|24660|24661|24662|24663|24664|24665|24666|24668|24669
-532|512794|515847
-68|274258|274259|274260|274261|274262|274263|274264|274265|274266|274267|274268|274269|274270|274271|274272|274273|274274|274275|274276|274277|274278|274279|274280|274281|274282|274283|274284
-3|18020|18021|18022|18023|18024|18025|18026|18027|18028|18029|18030|18031|18032|18033|18034
-1296|257609
-55|6175|89950|66254|89952|89953|89954|89955|89956|89957|89958|89959
-1|253988|253990|254358|254352|256676|254346|256678|256679|256680|256681|256682|256683|256684|256685|256686|256687|256688|256689|256690|256691|256692|256693|256694|256695|256696|256697|254333|256699|256700|256701
-110|66277|66279|66280|66281|66282|66283|66284|66285|66286|66287|66288|507177|506455|506200|509378|504903|506495|508770|509374|510758|513463|515387|515552|515694
-5|71900|71901|71902|71904|71903|71905|71906|71907|71908|71909|71910|71911|71912|71913|71914|71915|71916|71917|71918|71919|71920|71921
+T|Falköping
+A|2|33201|33202|33203|33204|33205|33206|33207|33208|33209|33210|33211|33212|33213|33214|33215|33216|33217|33218|33219|33221|33222|33223|33224|33225|33226|33227|33228|33229|33230|33231|33232|33233|33234|33235|33236|33237|33238|33239|33240|33241|33242|33243|33244|33245|33246|33247|33248|33249|33250|33251
+A|4|3200|3220|3204|24639|24640|24641|24656|24643|24644|24645|24646|24647|24648|24649|24650|24651|24652|24654|24655|24667|24657|24658|24659|24660|24661|24662|24663|24664|24665|24666|24668|24669
+A|532|512794|515847
+A|68|274258|274259|274260|274261|274262|274263|274264|274265|274266|274267|274268|274269|274270|274271|274272|274273|274274|274275|274276|274277|274278|274279|274280|274281|274282|274283|274284
+A|3|18020|18021|18022|18023|18024|18025|18026|18027|18028|18029|18030|18031|18032|18033|18034
+A|1296|257609
+A|55|6175|89950|66254|89952|89953|89954|89955|89956|89957|89958|89959
+A|1|253988|253990|254358|254352|256676|254346|256678|256679|256680|256681|256682|256683|256684|256685|256686|256687|256688|256689|256690|256691|256692|256693|256694|256695|256696|256697|254333|256699|256700|256701
+A|110|66277|66279|66280|66281|66282|66283|66284|66285|66286|66287|66288|507177|506455|506200|509378|504903|506495|508770|509374|510758|513463|515387|515552|515694
+A|5|71900|71901|71902|71904|71903|71905|71906|71907|71908|71909|71910|71911|71912|71913|71914|71915|71916|71917|71918|71919|71920|71921
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|33201|49|M|Dan Gabrielsson|49 år, Falköping
+C|33202|59|K|Ingvor Bergman|59 år, Arbetsförmedlare
+C|33203|61|M|Patrik Björck|61 år, Falköping
+C|33204|45|K|Susanne Larsson|45 år, Falköping
+C|33205|46|M|Niclas Hillestrand|46 år, Verkstadschef
+C|33206|49|K|Johanna Svensson|49 år, Falköping
+C|33207|65|M|Roger Lundberg|65 år, Ekonom
+C|33208|23|K|Lina Ahl|23 år, Falköping
+C|33209|22|M|Kelesh Hussein|22 år, Studerande
+C|33210|52|K|Heléne Svensson|52 år, Undersköterska
+C|33211|32|M|Henric Hagberg|32 år, Yrkeslärare
+C|33212|32|K|Hanna Nord|32 år, Kock
+C|33213|44|M|Alex Bergström|44 år, Falköping
+C|33214|67|K|Anna-Bella Nordh Fahlqvist|68 år, Pensionär
+C|33215|65|M|Fredy Neüman|64 år, Pensionär
+C|33216|56|K|Lisbeth Ek|55 år, Parkeringsvakt
+C|33217|52|M|Thomas Svensson|52 år, Fastighetsskötare
+C|33218|59|K|Marie Post|59 år, Handelsanställd
+C|33219|63|M|Corry Thuresson|63 år, Kriminalvårdare
+C|33221|50|M|Jonas Karlsson|50 år, Slöjdlärare
+C|33222|67|K|Ingvor Arnoldsson|67 år, Pensionär
+C|33223|33|M|Kovan Akrawi|33 år, Kriminalvårdare
+C|33224|64|K|Inga-Lill Bergsten|64 år, Förskollärare
+C|33225|40|M|Hassan Hussein|40 år, Boendepersonal
+C|33226|73|K|Monica Janzon|73 år, Pensionär
+C|33227|70|M|Bengt Lundqvist|69 år, Pensionär
+C|33228|20|K|Sofia Selander|20 år, Musiklärare
+C|33229|45|M|Dawood Khalaf|45 år, Frivårdsinspektör
+C|33230|69|K|Ingrid Törnqvist|69 år, Pensionär
+C|33231|62|M|Kenneth Johansson|63 år, Lokförare
+C|33232|41|K|Esgul Eroglu|41 år, Personlig assistent
+C|33233|58|M|Krister Sjölin|58 år, Stödassistent
+C|33234|75|K|Solweig Ericsson|75 år, Pensionär
+C|33235|67|M|Gerth Bragnå|67 år, Kulturpedagog
+C|33236|29|K|Jenny Nieminen|Dals Långed
+C|33237|43|M|Mohamed Husein Mohamed|42 år, Arbetsledare
+C|33238|30|K|Erica Lustigh|30 år, Undersköterska
+C|33239|70|M|Arne Gunnarsson|70 år, Pensionär
+C|33240|36|K|Ann-Kristin Bergström Svahn|36 år, Undersköterska
+C|33241|52|M|Råhny Gustavsson|52 år, Träindustriarbete
+C|33242|38|K|Camilla Sjöberg|38 år, Barnskötare
+C|33243|51|M|Mikael Gustavsson|51 år, Träindustriarbetare
+C|33244|56|K|Anne-Marie Ahlin Johansson|56 år, Undersköterska
+C|33245|29|M|Ahmed Doski|28 år, Företagare
+C|33246|39|K|Yesim Göc|39 år, Undersköterska
+C|33247|56|K|Anette Andersson|56 år, Lageroperatör
+C|33248|54|K|Ann-Marie Ahl|53 år, Lågstadielärare
+C|33249|46|K|Linda Almberg|45 år, Specialistundersköterska
+C|33250|43|K|Linda Antonsson|43 år, Undersköterska
+C|33251|75|K|Ingegerd Darius Reinholdsson|75 år, Pensionär
+C|3200|49|K|Karola Svensson|Kommunalråd, Falköping, 49 år
+C|3220|42|M|Hans Johansson|Lärare, Falköping, 42 år
+C|3204|59|K|Wanja Wallemyr|Lantbrukare, Falköping, 59 år
+C|24639|54|M|Niclas Fällström|Hornborga, 54 år
+C|24640|68|M|Göte Andersson|Grolanda, Floby, 68 år
+C|24641|44|K|Lovisa Wennerholm|Vilske-Kleva, 45 år
+C|24656|54|K|Zahra Abdulahe Igal|Falköping, 54 år
+C|24643|66|M|Rune Lennartsson|Kinnarp, 67 år
+C|24644|34|K|Christiane Uhle|Falköping, 34 år
+C|24645|51|K|Helén Engström|Stenstorp, 51 år
+C|24646|70|M|Bengt Lennartsson|Östra Tunhem, 70 år
+C|24647|58|K|Ingrid Martens|Falköping, 58 år
+C|24648|31|K|Sofia Thuvesson|Floby, 31 år
+C|24649|63|M|Kjell-Åke Johansson|Falköping, 63 år
+C|24650|60|K|Inger Eriksson|Kinnarp, 61 år
+C|24651|28|M|Johan Aldén|Marka, 28 år
+C|24652|49|M|Morgan Eriksson|Åsarp, 49 år
+C|24654|31|M|Emil Larsson|Kinnarp, 32 år
+C|24655|52|M|Jonas Hagström|Falköping, 53 år
+C|24667|62|K|Ann-Britt Larsson|Luttra, 62 år
+C|24657|47|M|Ingemar Gustavsson|Falköping, 47 år
+C|24658|61|M|Börje Svensson|Broddetorp, 61 år
+C|24659|60|M|Sven Johansson|Kättilstorp, 60 år
+C|24660|53|M|Åke Högberg|Falköping, 53 år
+C|24661|56|K|Jeanette Svensson|Broddetorp, 56 år
+C|24662|71|K|Birgitta Lindh|Falköping, 71 år
+C|24663|71|K|Gunnel Bergqvist|Falköping, 71 år
+C|24664|57|M|Lars-Erik Karlsson|Borgunda, 57 år
+C|24665|63|K|Hillevi Wallgren|Falköping, 64 år
+C|24666|59|M|Staffan Gustavsson|Floby, 59 år
+C|24668|67|M|Kurt-Ola Svensson|Broddetorp, 67 år
+C|24669|62|M|Yngve Karlsson|Vårkumla, 62 år
+C|512794|30|K|Rebecka Grafström|30 år, studerande
+C|515847|35|M|Joel Grafström|
+C|274258|48|M|Dan Hovskär|48, Projektledare, Falköping
+C|274259|60|M|Allan Bjärkhed|60, Pastor, Åsarp
+C|274260|38|K|Debora Josefsson|37, Lärare för yngre åldrar, Falköping
+C|274261|52|M|Michael Kristiansson|52, Produktionstekniker, Kinnarp
+C|274262|60|K|Maria Bruckshaw|59, VD, Falköping
+C|274263|37|M|Gary Linneusson|37, Tekn. doktor, Falköping
+C|274264|55|K|Angela Joelsson|55, Undersköterska, Falköping
+C|274265|28|K|Anna-Sara Ståtenhag|27, Lärare, Vartofta
+C|274266|64|M|Carl-Magnus Folke|64, Fastighetsmäklare, Falköping
+C|274267|65|K|Britt-Marie Aronsson|65, Personlig assistent, Falköping
+C|274268|35|M|Andreas Möller|34, Säljare, Falköping
+C|274269|37|K|Karin Larsson|37, Verksamhetschef, Falköping
+C|274270|72|M|Conny Persson|72, Pensionär, Floby
+C|274271|64|K|Ann Liljebäck|64, Leg sjuksköterska, Falköping
+C|274272|64|M|Krister Tegehall|63, Revisor, Falköping
+C|274273|37|M|Johan Dahlström|37, Säljare, Falköping
+C|274274|53|K|Anna Jonsson|53, Projektledare, Falköping
+C|274275|51|M|Daniel Sigfridsson|50, Fabriksarbetare, Åsarp
+C|274276|53|M|Jan Eriksson|53, Arbetsledare pers ass., Falköping
+C|274277|57|K|Christina Johansson|57, Socialpedagog, Falköping
+C|274278|61|M|Thomas Fredriksson|60, Företagare, Åsarp
+C|274279|38|K|Karin Johansson|38, Förskollärare, Åsarp
+C|274280|39|M|Daniel Lindkvist|39, Undersköterska, Falköping
+C|274281|64|K|Vera Johansson|63, Förskollärare, Åsarp
+C|274282|33|M|Josef Samuelsson|33, Verktygskonstruktör, Falköping
+C|274283|69|M|Harald Enocksson|69, Lantbrukare, Falköping
+C|274284|70|K|Ulla-Britt Merkell|70, Pensionär, Falköping
+C|18020|47|K|Annika Carp|47 Falköping
+C|18021|70|K|Anna-Brita Fransson|Falköping
+C|18022|64|M|Dag Högrell|64, Falköping
+C|18023|56|K|Maria Jern|56, Falköping
+C|18024|33|K|Theres Björkehög|Vilske Kleva
+C|18025|70|K|Lena Arvidsson|Falköping
+C|18026|62|M|Bengt-Arne Medin|Trevattna
+C|18027|24|M|Josef Håkansson|Falköping
+C|18028|72|M|Lennart Falegård|Falköping
+C|18029|55|K|Katharina Thunander|Karleby
+C|18030|74|M|Ove Larsson|Falköping
+C|18031|66|M|Björn Perneborn|Falköping
+C|18032|54|M|Mikael Lundqvist|Falköping
+C|18033|80|M|Rune Brissman|Floby
+C|18034|71|K|IngMarie Larsson|71, Falköping
+C|257609|55|M|Åke Grönqvist|55 Sjukpensionär Falköping
+C|6175|66|M|Roland Wanner|66 år, Pensionär, Falköping
+C|89950|41|K|Camilla Funke|41 år, Energi-och klimatrådgivare, Floby
+C|66254|57|M|Anders Blom|67 år, Stiftspedagog-Sv K:a i skara stift, Falköping
+C|89952|37|K|Åsa Lidén|37 år, Behandlingsassistent, Falköping
+C|89953|31|M|Mattias Lindgren|39 år, Egenföretagare, Falköping
+C|89954|62|M|Håkan Gerenmark|62 år, Församlingspedagog, Vartofta
+C|89955|68|K|Helena Hallqvist|68 år, Spec.ped. Kälvene
+C|89956|73|M|Lars Nordgren|73 år, Ingenjör, Falköping
+C|89957|72|K|Ulla Torsrud|72 år, Lärare, Falköping
+C|89958|72|M|Christer Holm|72 år, Pensionär, Falköping
+C|89959|60|M|Alf Jacobsson|60 år, Skötare-psykvård, Stenstorp
+C|253988|22|M|Adam Johansson|22, Organisationschef, Falköping
+C|253990|49|M|Ed Kahrs|49, Enhetsansvarig, Falköping
+C|254358|67|K|Christina Jorméus|67, Företagare, Falköping
+C|254352|69|M|Sture Olsson|69, Medicinskt ansv. sjuksköterska, Falköping
+C|256676|58|M|Morgan Billman|58, Industritjänsteman, Falköping
+C|254346|63|K|Ingrid Adomeit Jarlsson|63, Administratör, Falköping
+C|256678|55|M|Anders Winlöf|55, Reklammakare, Falköping
+C|256679|55|M|Elias Assio|55, Elektroniker, Falköping
+C|256680|46|K|Pema Malmgren|46, Kultur och fritidschef, Vartofta
+C|256681|42|M|Johan Eriksson|42, Skogsentreprenör, Floby
+C|256682|71|M|Inge Persson|71, Officer, Falköping
+C|256683|53|K|Caroline Lundberg|53, Redovisningskonsult, Falköping
+C|256684|75|M|Roger Sjödahl|75, Pensionär, Broddetorp
+C|256685|40|K|Johanna Blad|40, ,
+C|256686|66|M|Peter Jorméus|66, Byggnadsingenjör, Falköping
+C|256687|51|K|Helene Odh|51, Egen företagare, Falköping
+C|256688|63|M|Per Halldén|63, Säljare, Falköping
+C|256689|34|M|Mohamed Dharar|34, Lärarassistent/tolk, Falköping
+C|256690|37|K|Emelie Brännmark|37, Logistik koordinator, Falköping
+C|256691|55|M|Tommy Karlsson|55, Säljutvecklare, Falköping
+C|256692|56|M|Larry Geszti|56, Ljudtekniker, Falköping
+C|256693|72|K|Margareta Warrén Stomberg|72, Lektor/Docent, Kättilstorp
+C|256694|53|M|Håkan Pettersson|53, Säljare, Falköping
+C|256695|43|M|Tobias Andersson|43, Företagare, Falköping
+C|256696|72|K|Irene Almsparre|72, Pensionär, Gudhem
+C|256697|21|M|Jacob Kahrs|21, Studerande, Floby
+C|254333|48|M|Sören Rafstedt|48, Kriminalvårdstjänsteman, Falköping
+C|256699|71|M|Håkan Arnesson|71, 0ppråd ( Lantbrukare), Falköping
+C|256700|62|M|Roland Svensson|62, Chaufför, Falköping
+C|256701|66|M|Kent Mossby|66, Pensionär, Falköping
+C|66277|61|M|Christopher Münch|Chaufför, Falköping
+C|66279|35|K|Johanna Johansson|Administratör, Floby
+C|66280|50|M|Tommy Almgren|50, Ekonom, Falköping
+C|66281|36|M|Jonas Larsson|36, Ekonom, Falköping
+C|66282|68|K|Marita Ljus|68, Pensionär, Falköping
+C|66283|68|K|Sonja Eriksson|67, Pensionär
+C|66284|55|K|Milada Wurm|55, Arkitekt SAR/MSA, Falköping
+C|66285|59|M|Gerhard Carlsson|58, Egenföretagare
+C|66286|65|M|Per Magnusson|64, Pensionär
+C|66287|53|M|Jörgen Larsson|52, Lantbrukare
+C|66288|58|M|Matti Qvist|58, Reparatör
+C|507177|34|M|Jens Larsson|34, chaufför
+C|506455|77|M|Frank Wurm|77, pensionär
+C|506200|70|M|Arild Svensgam|70, pensionär
+C|509378|77|M|Tord Ljus|77, pensionär
+C|504903|54|M|Michael Forsberg|
+C|506495|71|M|Erik Norén|
+C|508770|23|K|Rebecca Axelsson|
+C|509374|25|K|Linda Axelsson|
+C|510758|63|M|Börje Johansson|
+C|513463|25|M|Sebastian Zettersten Sanderbratt|
+C|515387|47|M|Joakim Gerasimov|
+C|515552|55|M|Peter Johansson|
+C|515694|54|M|Niclas Brorsson|
+C|71900|44|K|Jessica Thunander|Falköping, Lärare
+C|71901|46|M|Erik Kyrkander|Falköping, Solcellsentreprenör
+C|71902|39|K|Elisabeth Klang|Falköping, Kock
+C|71904|29|M|Emil Estebanez|Falköping, Skadedjurstekniker
+C|71903|56|M|Iowan Hedendahl|Falköping, Ingenjör
+C|71905|66|K|Alice Andersson|Falköping, Pensionerad med. sekreterare
+C|71906|36|M|Scott Schylander|Fritidspedagog, 36 år
+C|71907|35|K|Lena Schylander|VVS-projektör, 36 år
+C|71908|24|M|Adam Ahlin|Falköping, Ingenjör
+C|71909|62|K|Inger Lilja|Skötare, 62 år
+C|71910|35|M|Martin Andersson|Svetsare, 35 år
+C|71911|21|K|Amanda Svensson Almberg|Diversearbetare, 21 år
+C|71912|78|M|Göran Johansson|Murare, 78 år
+C|71913|57|K|Lena Karlsson|Skötare, 57 år
+C|71914|53|K|Christina Carlsson|Arbetstränar, 53 år
+C|71915|51|M|Gunnar Creutz|Arkeolog, 51 år
+C|71916|57|K|Margareta Johansson|Skötare, 57 år
+C|71917|76|M|Douglas Jansson|Pensionär, 76 år
+C|71918|72|M|Christer Svensson|Pensionär, 72 år
+C|71919|29|M|Adam Forsman|Elektriker, 29 år
+C|71920|72|M|Björn Therkelson|Konstnär, 71 år
+C|71921|68|M|Erling Öhrnell|Konstnär, Pedagog, 68 år

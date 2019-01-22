@@ -1,8 +1,155 @@
-2|25093|25094|25095|25096|25097|25098|25099|25100|25101|25102|25103|25104|25105|25106|25107|25417|25108|25109|25110|25111|25112|25113|25114|25115
-4|37737|45118|38903|45120|37750|45122|45123|37745|45125|45126|45127|45128|45129|45130|45131|45132|45133|45134|45135|45136|45137|45138|45139|45140|45141|45142
-68|31780|31788|31953|31954|31955|31785|31957|31958|31959|31960
-3|55154|55155|55156|55157|55158|55159|55160|55162|55163|55164|55165|55166|55168|55169|55170
-55|19820|155425|155426|155427|155428|22068|22088|155431|155432|155433
-1|54978|54979|54980|54981|54982|54983|54984|54985|54986|54987|54988|54989|54990|54991|54992|54993|54994|54995|54996|54997|54998|54999|55000|55001|55002|55003|55004|55005|55006|55007|55008|55009|55010|55011|55012|55013|55014|55015|55016|55017|55018
-110|53388|53389|53391|53392|53393|53394|53396
-5|109263|109264|109265|109266|109267|109268
+T|Höganäs
+A|2|25093|25094|25095|25096|25097|25098|25099|25100|25101|25102|25103|25104|25105|25106|25107|25417|25108|25109|25110|25111|25112|25113|25114|25115
+A|4|37737|45118|38903|45120|37750|45122|45123|37745|45125|45126|45127|45128|45129|45130|45131|45132|45133|45134|45135|45136|45137|45138|45139|45140|45141|45142
+A|68|31780|31788|31953|31954|31955|31785|31957|31958|31959|31960
+A|3|55154|55155|55156|55157|55158|55159|55160|55162|55163|55164|55165|55166|55168|55169|55170
+A|55|19820|155425|155426|155427|155428|22068|22088|155431|155432|155433
+A|1|54978|54979|54980|54981|54982|54983|54984|54985|54986|54987|54988|54989|54990|54991|54992|54993|54994|54995|54996|54997|54998|54999|55000|55001|55002|55003|55004|55005|55006|55007|55008|55009|55010|55011|55012|55013|55014|55015|55016|55017|55018
+A|110|53389|53391|53392|53393|53394|53396
+A|5|109263|109264|109265|109266|109267|109268
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|25093|58|M|Lennart Nilsson|Kommunalråd, Höganäs
+C|25094|74|K|Wivi-Anne Broberg|
+C|25095|47|M|Roger Nilsson|Politisk sekreterare, Höganäs
+C|25096|50|K|Anneli Eriksson|Facklig rådgivare, Höganäs
+C|25097|63|M|Reinhold Knutsson|
+C|25098|39|K|Carola Persson|
+C|25099|61|M|Peter Graff|
+C|25100|38|K|Gabriella Andersson|
+C|25101|58|M|Per-Erik Lundberg|
+C|25102|64|K|Ann-Margreth Larsson|
+C|25103|53|M|Gary Paulsson|
+C|25104|61|K|Kerstin Björkäng Wirehed|Utredningssekreterare, Höganäs
+C|25105|67|K|Elisabeth Sannerheim Brokopp|
+C|25106|51|M|Tony Petersson|
+C|25107|73|M|Lennart Lindblad|
+C|25417|69|K|Eva Nilsson|
+C|25108|32|K|Heléne Nyholm|
+C|25109|68|M|Peter Carlsson|
+C|25110|71|M|Maths Olsson|
+C|25111|76|K|Kerstin Persson|
+C|25112|50|K|Charlotte Stark|
+C|25113|72|M|Kjell Nilsson|
+C|25114|68|M|Hazze Brokopp|
+C|25115|30|K|Nora Abbas|
+C|37737|70|M|Ulf Molin|Jonstorp, Kommunalråd, 70
+C|45118|64|K|Gertrud Greén|Väsby, Kriminalinspektör, 64
+C|38903|60|K|Anna Hedbrant|Höganäs, Konsult, 60
+C|45120|47|M|Henrik Persson|Farhult, Brandmästare, 47
+C|37750|30|M|Safak Türkkan|Höganäs, Personlig assistent, 30
+C|45122|54|K|Katarina Sandén|Höganäs, Egenföretagare, 55
+C|45123|71|M|Kjell-Arne Greén|Väsby, Fastighetsskötare, 71
+C|37745|56|K|Ann-Christin Rydell|Jonstorp, Kanslist, 56
+C|45125|50|M|Tor Larsson|Jonstorp, Art Director, 50
+C|45126|18|M|Nils Nilsson Puronen|Nyhamnsläge, Studerande, 18
+C|45127|56|M|Knut Göransson|Väsby, Lantbrukare, 56
+C|45128|59|K|Carina Lövstedt|Lerberget, Fritidsledare, 59
+C|45129|67|M|Ingemar Erikson|Viken, Civilingenjör
+C|45130|19|K|Emelie Persson|Jonstorp, Studerande, 19
+C|45131|57|K|Susanne Mårtensson|Viken, Socionom, 58
+C|45132|77|M|Christer Gudmundsson|Svanshall, Agronom, 77
+C|45133|75|M|Claes Pettersson|Viken, Utredare, 75
+C|45134|59|M|Ulf Silfverström|Höganäs, Egenföretagare, 59
+C|45135|70|M|Kjell Klang|Höganäs, Fd.brandinspektör, 71
+C|45136|68|M|Ulf Peder Eklund|Viken, Egenföretagare, 68
+C|45137|57|K|Caroline Molin|Jonstorp, Silviasyster, 57
+C|45138|70|M|Jan-Eric Cronberg|Strandbaden, Lantmästare, 71
+C|45139|60|K|Inger Persson|Jonstorp, Undersköterska, 60
+C|45140|40|M|Emil Risberg|Höganäs, Utvecklingschef, 40
+C|45141|72|M|Jerker Nilsson|Jonstorp, Lantbrukare, 72
+C|45142|38|M|Henrik Holmkvist|Höganäs, Tekniker, 38
+C|31780|38|M|Fredrik Johannesson|38 år, Ekonom, Höganäs
+C|31788|59|K|Barbara Struglics Bogs|59 år, Social.ped./Diakon, Höganäs
+C|31953|72|K|Åsa Dencker|72 år, Sekreterare
+C|31954|62|K|Pia Lidwall|62 år, Socionom, Höganäs
+C|31955|48|K|Elisabeth Berg|48 år, Tandsköterska
+C|31785|21|M|Henrik Lindholm|21 år, Student, Höganäs
+C|31957|72|K|Inga-Maj Hult|72 år, Sjuksköterska
+C|31958|77|K|Febe Alfredsson|77 år, Sjuksköterska
+C|31959|49|K|Malin Gunnarsson|49 år, Förvaltningschef
+C|31960|64|K|Karin Fuhlendorf|64 år, Redovisningsassistent
+C|55154|45|K|Louise Stjernquist|Höganäs
+C|55155|64|K|Ros-Mari Paulsson|Skäret
+C|55156|37|M|Dervis Smajic|Lerberget
+C|55157|46|K|Ulrika Adsersen|Höganäs
+C|55158|44|M|Mikael Stjernquist|Väsby
+C|55159|35|K|Emilie Nilsson|Jonstorp
+C|55160|75|K|Aina Johansson|Höganäs
+C|55162|47|M|Mikael Bendz|Höganäs
+C|55163|63|K|Karin Ahlquist|Höganäs
+C|55164|45|K|Åsa Andersson|Viken
+C|55165|58|M|Per-Åke Nilsson|Södåkra
+C|55166|75|M|Lennart Johansson|Höganäs
+C|55168|61|M|Mårten Wennerholm|Höganäs
+C|55169|49|K|Hanna Werth|Arild
+C|55170|75|M|Harry Vagiström|Höganäs
+C|19820|40|M|Johan Ingvarson|Brandingenjör, 40 år, Nyhamnsläge
+C|155425|65|K|Barbro Stigsdotter|socionom, 65 år, Höganäs
+C|155426|69|M|Göran Lock|arkitekt, 69 år, Arild
+C|155427|64|K|Liselott Hansson Malmsten|administratör,         64 år, Höganäs
+C|155428|43|K|Maria Jönsson|civilekonom, 43 år, Höganäs
+C|22068|64|M|Ingemar Hertting|Rektor, 64 år, Lerberget
+C|22088|37|K|Ann-Cathrin Hellsén|Utvecklingsingenjör, 37 år, Höganäs
+C|155431|69|K|Kerstin Nilermark|arkitekt, 69 år, Höganäs
+C|155432|77|K|Ulla-Britt Ahlqvist|adjunkt, 77 år, Farhult
+C|155433|69|K|Karin Bagger|bibliotekarie, 69 år, Arild
+C|54978|50|M|Peter Schölander|50 år, Mölle
+C|54979|52|M|Péter Kovács|52 år, Höganäs
+C|54980|54|M|Anders Ståhl|54 år, politisk sekreterare, Lerberget
+C|54981|50|K|Pia Möller|50 år, Lerberget
+C|54982|42|K|Marie Holmstedt|42 år, Viken
+C|54983|62|M|Lars Linderot|62 år, Viken
+C|54984|54|K|Marie Tidedal|54 år, Höganäs
+C|54985|59|M|Göran Bengtsson|59 år, Äsperöd
+C|54986|66|K|Judith Melin|66 år, Jonstorp
+C|54987|70|M|Ingemar Narheim|70 år, läkare, Arild
+C|54988|68|M|Gustaf Wingårdh|68 år, Viken
+C|54989|64|K|Solweig Adam Stjernvall|64 år, Jonstorp
+C|54990|71|K|Britt-Inger Hillhammar Ekberg|71 år, Rekekroken
+C|54991|68|M|Olof Suneson|68 år, Nyhamnsläge
+C|54992|73|M|Anders Melin|73 år, Jonstorp
+C|54993|64|M|Bo Caperman|64 år, Höganäs
+C|54994|51|K|Anna Larsson|51 år, Jonstorp
+C|54995|60|K|Margareta Ölve|60 år, Viken
+C|54996|72|K|Gunilla Tengvall|72 år, Viken
+C|54997|34|K|Mira Gerxhaliu|34 år, Höganäs
+C|54998|77|K|Ann-Britt Strufve|77 år, Viken
+C|54999|34|M|Fredrik Walderyd|34 år, Viken
+C|55000|52|M|Christian Wadsworth|52 år, Viken
+C|55001|43|K|Natalie Svensson Ahlqvist|43 år, Jonstorp
+C|55002|45|M|Ville Felvin|45 år, Lerberget
+C|55003|44|K|Lina Östergren|44 år, Nyhamnsläge
+C|55004|60|M|Leif Örtendahl|60 år, Höganäs
+C|55005|76|M|Bertil Ziegler|76 år, Lerberget
+C|55006|71|M|Claes Kollberg|71 år, Viken
+C|55007|40|K|Charlotte Lewenhaupt|40 år, Lönhult
+C|55008|38|M|Mattias Borgström|38 år, Lerberget
+C|55009|73|K|Ewa Ericson|73 år, Viken
+C|55010|79|M|Bo Brantmark|79 år, Nyhamnsläge
+C|55011|69|M|Bengt Åström|69 år, Viken
+C|55012|51|M|Mats Möller|51 år, Lerberget
+C|55013|71|M|Lennart Ekberg|71 år, Rekekroken
+C|55014|68|M|Kjell Lundberg|68 år, Viken
+C|55015|26|K|Thea Enhörning|26 år, Höganäs
+C|55016|78|K|Inger Brantmark|78 år, Nyhamnsläge
+C|55017|35|M|Robert Otto|35 år, Viken
+C|55018|27|M|Max Bengtsson|27 år, Lerberget
+C|53389|26|M|Christian Johansson|Driftstekniker, Höganäs
+C|53391|60|M|Kjell Mårtensson|Montör, Buskeröd
+C|53392|79|M|Lars Håkansson|Projektledare, Lerberget
+C|53393|48|M|Sixten Paulsson|Elektriker, Höganäs
+C|53394|68|M|Ingemar Idegård|Teletekniker, 68 år
+C|53396|72|M|Hasse Johansson|Läkare, Jonstorp
+C|109263|40|K|Emma Wennerholm|barnskötare, Höganäs
+C|109264|66|K|Inger Nilsson|förskollärare
+C|109265|57|K|Gunilla Fruerlund|barnskötare
+C|109266|33|M|Gustaf Segerhammar|kontrolltekniker, Höganäs
+C|109267|65|K|Ann Ekelund|sjuksköterska, konstnär
+C|109268|50|M|Erik Edwardson|bibliotekarie

@@ -1,9 +1,130 @@
-2|30329|30330|22204|30332|30333|30334|30335|30336|30337|30338|30339|30340|30341|30342|30343|30344|30345|30346|30347|30348|30349|30350|30351|79173|30352|30353|30354|30355|30357|30356
-4|27508|27509|27510|27511|27512|27513|27514|27515|27516|27517|27518|27519|27520|27521|27522
-68|294505|294506|294507
-1011|510819
-3|28200|62142|62143|314417|62144|62146|62145
-55|433835|433836|433837|433838|433839
-1|613|32902|32903|32904|32905|32906|32907|32908|32909|32910|32911|32912|32913|32914|32915|32916|32917|32918|46424|32919|58979
-110|115978|115979|115981|115983|115984|115985|512665|512664|512681|504999|512906|514925|514927|515993|516017
-5|107890|107891|107892|107893|119912|107894|107895|107896|107897|107898|107899|107900|119920|107901
+T|Torsby
+A|2|30329|30330|22204|30332|30333|30334|30335|30336|30337|30338|30339|30340|30341|30342|30343|30344|30345|30346|30347|30348|30349|30350|30351|79173|30352|30353|30354|30355|30357|30356
+A|4|27508|27509|27510|27511|27512|27513|27514|27515|27516|27517|27518|27519|27520|27521|27522
+A|68|294505|294506|294507
+A|1011|510819
+A|3|28200|62142|62143|314417|62144|62146|62145
+A|55|433835|433836|433837|433838|433839
+A|1|613|32902|32903|32904|32905|32906|32907|32908|32909|32910|32911|32912|32913|32914|32915|32916|32917|32918|46424|32919|58979
+A|110|115978|115979|115981|115983|115984|115985|512665|512664|512681|504999|512906|514925|514927|515993|516017
+A|5|107890|107891|107892|107893|119912|107894|107895|107896|107897|107898|107899|107900|119920|107901
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|30329|62|K|Ann-Katrin Järåsen|63 år, Torsby
+C|30330|50|M|Peter Jonsson|Torsby
+C|22204|62|K|Eva-Lena Gustavsson|62 år, Torsby
+C|30332|66|M|Åke Gustavsson|Torsby
+C|30333|46|K|Annlouise Brodén|Torsby
+C|30334|62|M|Kjell-Erik Mattsson|Torsby
+C|30335|42|K|Zenita Bäck|43 år, Torsby
+C|30336|48|M|Jörgen Nilsson|Rinn,
+C|30337|74|K|Birgit Dahlgren|Likenäs
+C|30338|63|M|Lars-Håkan Karlsson|Likenäs
+C|30339|36|K|Katarzyna Oreziak|Sysslebäck
+C|30340|66|M|Tommy Olsson|Vägsjöfors
+C|30341|62|K|Yvonne Broberg|Torsby
+C|30342|77|M|Sture Persson|Sysslebäck
+C|30343|55|K|Cathrine Mattsson|Torsby
+C|30344|66|M|Gunde Haglund|Torsby
+C|30345|60|K|Marianne Olsson|Rådom
+C|30346|71|M|Björn Nilsson|Lekvattnet
+C|30347|62|K|Anna Karin Gustafsson|Ambjörby
+C|30348|47|M|Peo Brodén|Torsby
+C|30349|31|K|Emma Svedlund|Torsby
+C|30350|39|M|Daniel Höglund|Torsby
+C|30351|58|K|Annika Olsson|Torsby
+C|79173|56|M|Kent Westberg|Mårbacken
+C|30352|57|K|Ingela Johansson|Rådom
+C|30353|65|M|Jan-Erik Jönsson|Fensbol
+C|30354|58|K|Ysabel Hedenberg|Lekvattnet
+C|30355|54|M|Sven-Erik Engström|Torsby
+C|30357|48|K|Khadija Nassan|Rinn
+C|30356|38|K|Valeska Hartmann|Torsby
+C|27508|50|K|Anna-Lena Carlsson|Torsby, 50 år, Näringslivsutvecklare
+C|27509|57|M|Dag Nyström|Vestby
+C|27510|59|K|Anna Melin Nyström|Vestby
+C|27511|72|M|Claes Widell|Sysslebäck
+C|27512|18|K|Elin Carlsson|Sysslebäck
+C|27513|75|K|Inga-Britt Keck-Karlsson|Mårbacken
+C|27514|37|M|Björn Butendeich|Digerberget
+C|27515|65|K|Monica Olsson|Stöllet, 65 år, Administratör
+C|27516|74|M|Alf Larsson|Ransby
+C|27517|71|M|Bo Ynger|Sysslebäck
+C|27518|36|K|Anke Butendeich|Digerberget
+C|27519|50|M|Sven Täppers|Torsby
+C|27520|51|M|Jan-Olof Olsson|Lekvattnet
+C|27521|73|M|Lennart Myrenhill|Likenäs
+C|27522|61|M|Kenneth Löschke|Stöllet
+C|294505|53|M|Roger Larsson|maskinförare, Höljes
+C|294506|66|M|Sture Lindqvist|flygplatstjänsteman, Torsby
+C|294507|66|M|Sören Amiltoft|lantbrukare, Torsby
+C|510819|26|M|Henrik Svensson|
+C|28200|68|K|Ann-Katrin Uppvall|företagare, 69 år, Torsby
+C|62142|75|K|Inger Larén|Björnbysätern
+C|62143|66|M|Christer Lidström|Torsby
+C|314417|66|K|Gerd Persson|Torsby
+C|62144|80|M|Håkan Eles|Värnäs
+C|62146|74|M|Sture Larsson|Metbäcken
+C|62145|75|M|Olle Lundin|Ennarbol
+C|433835|60|K|Birgitta Karstensson|59 år, informatör, Likenäs
+C|433836|71|M|Karl-Erik Keck|lärare, Lekvattnet
+C|433837|77|K|Ann Hagström|77 år, speciallärare, Likenäs
+C|433838|51|M|Sven Hagström|historiker, Mörbacka
+C|433839|81|K|Karin Lindqvist|pensionär, Torsby
+C|613|50|M|Mikael Persson|utbildningsledare, Torsby
+C|32902|62|K|Lillemor Wass Ronge|62 år, handläggare
+C|32903|43|M|Jörgen Lundqvist|43 år, lärare
+C|32904|67|M|Tommy Persson|67 år, energitekniker
+C|32905|42|M|Håkan Bengtsson|42 år, ekonom
+C|32906|42|K|Victoria Jansson Mård|42 år, undersköterska
+C|32907|64|M|Bengt Jonsson|64 år, lärare
+C|32908|58|M|Jan Åke Löf|58 år, mekaniker
+C|32909|52|M|Ronny Walfridsson|52 år, sågverksarbetare
+C|32910|40|K|Natalia Carlsson|40 år, gymnasielärare
+C|32911|69|M|Ulf Ronge|69 år, pensionär
+C|32912|72|M|Roland Olsson|72 år, elingenjör
+C|32913|53|M|Sören Staf|53 år, svetsare
+C|32914|70|M|Allan Persson|70 år, pensionär
+C|32915|68|M|Lars Sätherberg|68 år, företagare
+C|32916|68|M|Ingemar Hansson|68 år, kyrkoherde emeritus
+C|32917|40|K|Lina Stenbäck|40 år, egen företagare
+C|32918|63|M|Per Gustafsson|63 år, chaufför
+C|46424|46|M|Stig Renhult|46 år, företagare
+C|32919|73|M|Anders Wiss|73 år, ingenjör
+C|58979|66|M|Per Ola Dungel|67 år, advokat
+C|115978|57|K|Eva Söderström|57, Undersköterska, Torsby
+C|115979|38|M|Erik Wennerström|38, Lastbilschaufför, Torsby
+C|115981|63|M|Kenneth Persson|63, Svetsare, Torsby
+C|115983|76|M|Håkan Höglund|76, Entreprenör, Torsby
+C|115984|56|M|Bengt Johansson|57, Resemontör, Persby
+C|115985|72|K|Marita Ryberg|72, Pensionär, Utterbyn
+C|512665|70|M|John Ryberg|70, Entreprenör, Torsby
+C|512664|69|M|Torbjörn Olsson|69, Ingenjör, Torsby
+C|512681|56|K|Susanne Sätterlund|56, Projektledare, Åsteby
+C|504999|61|M|Roland Jonsson|
+C|512906|44|M|Daniel Brosius|
+C|514925|58|M|Per Olov Olsen|
+C|514927|63|M|Åke Wåhlén|
+C|515993|74|M|Sverre Alvarsson|
+C|516017|56|M|Leif Arne Ingemar Larsson|
+C|107890|72|M|Bengt Berg|Fensbol
+C|107891|78|K|Gunilla Boquist|Likenäs
+C|107892|45|M|Andreas Meseke|Lekvattnet
+C|107893|60|K|Hanni Andersson|Järpliden Bograngen
+C|119912|52|K|Maria Carlsson Broberg|Sysslebäck
+C|107894|70|K|Maja Bergström|Likenäs
+C|107895|71|K|Siv Martinsson|Oleby Torsby
+C|107896|68|M|Dan Persvainen|Falltorp Bograngen
+C|107897|67|M|Hans Lindeberg|Torsby
+C|107898|65|K|Kerstin Andersson|Likenäs
+C|107899|71|K|Lillemor Lindgren|Ransby
+C|107900|73|K|Gun-Britt Karlsson|Fensbol
+C|119920|42|K|Emma-Karin Broman|Ransby
+C|107901|60|M|Martin Björnsson|Likenäs

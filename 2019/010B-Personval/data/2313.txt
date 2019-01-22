@@ -1,8 +1,177 @@
-2|86776|86777|86778|86779|7447|86781|86782|86783|6466|86785|86786|86787|86788|86789|86790|86791|89781|89782|89783|6799|90859|90860|8150|8227|8137|90864|90865|90866|99422|90867|90868|90869|90870|90871|90872|112013|90873|90874|90875|147720|99432|90876|74273|90878|90879|99437|90880|90881|90882|90883|90884|90885|90886|90887|90888|90889
-1372|486478
-4|236969|236970|236971|236972|236973|236974|236975|95773|236977|236978|236979|236980|236981|236982|236983|236984|236985|236986|236987|236988|236989|236990|236991|236992|236993|236994|236995|236996|236997|236998|236999|237000
-55|333562|175345|333564
-1|39626|252631|39511|252633|252634|252635|252636|252637|39502|252639|252640|252641|252642|252643|252644|252646|252647|252648|252649|252650|252651|252652|39518|252654
-473|110848|110849|110850|110851|110852|110853|110854|110855|110856|110857|110858|110859|110860|110861|110862|110863|110864|110865
-110|105711|105712|105713|105714|493223|515612|515613
-5|362868|300373|362870|362871|362872|253069|362874|362875|362876|362877|362878|362879|362881|362882|362883|362884|368209|252534|362886
+T|Strömsund
+A|2|86776|86777|86778|86779|7447|86781|86782|86783|6466|86785|86786|86787|86788|86789|86790|86791|89781|89782|89783|6799|90859|90860|8150|8227|8137|90864|90865|90866|99422|90867|90868|90869|90870|90871|90872|112013|90873|90874|90875|147720|99432|90876|74273|90878|90879|99437|90880|90881|90882|90883|90884|90885|90886|90887|90888|90889
+A|1372|486478
+A|4|236969|236970|236971|236972|236973|236974|236975|95773|236977|236978|236979|236980|236981|236982|236983|236984|236985|236986|236987|236988|236989|236990|236991|236992|236993|236994|236995|236996|236997|236998|236999|237000
+A|55|333562|175345|333564
+A|1|39626|252631|39511|252633|252634|252635|252636|252637|39502|252639|252640|252641|252642|252643|252644|252646|252647|252648|252649|252650|252651|252652|39518|252654
+A|473|110848|110849|110850|110851|110852|110853|110854|110855|110856|110857|110858|110859|110860|110861|110862|110863|110864|110865
+A|110|105711|105712|105713|105714|493223|515612|515613
+A|5|362868|300373|362870|362871|362872|253069|362874|362875|362876|362877|362878|362879|362881|362882|362883|362884|368209|252534|362886
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1372||Basinkomstpartiet
+B|4|C|Centerpartiet
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|473|rd|Rättvis Demokrati
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|86776|43|K|Susanne Hansson|43, Kommunalråd, Strömsund
+C|86777|63|M|Göran Bergström|63, Polis, Strömsund
+C|86778|45|K|Elisabeth Lindholm|45, Utvecklingsledare, Strömsund
+C|86779|72|M|Lennart Oscarsson|72, Pensionär, Hammerdal
+C|7447|57|K|Karin Näsmark|57, Djurskötare, Havsnäs
+C|86781|64|M|Lars Andreasson|64, Reparatör, Norråker
+C|86782|69|K|Ardis Lindman|69, Pensionär, Björkvattnet
+C|86783|28|M|Oscar Hammar|28, Global IT-tekniker, Strömsund
+C|6466|69|K|Lena Johansson|69, Pensionär, Lövberga
+C|86785|57|M|Roger Kristofersson|57, Industriarbetare, Strömsund
+C|86786|39|K|Sara Edvardsson|39, Utbildningsledare, Hammerdal
+C|86787|64|M|Roger Sannemo|64, Vårdare, Strömsund
+C|86788|29|K|Rebecca Sjöstedt|29, Undersköterska, Hoting
+C|86789|51|M|Bertil Johansson|52, Snickare, Hammerdal
+C|86790|55|K|Petra Monwell|55, Undersköterska, Flyn
+C|86791|48|M|Lars-Åke Knutsson|48, Betongarbetare, Lövberga
+C|89781|56|K|Marie Gabrielsson|56, Verksamhetsutvecklare, Ulriksfors
+C|89782|39|M|Bertil Forsmark|39, Kock, Gäddede
+C|89783|37|K|Angelica Johannesson|37, Yrkesvägledare, Strömsund
+C|6799|53|M|Bengt Bergqvist|53, Projektledare, Strömsund
+C|90859|56|K|Carina Andersson|56, Förskollärare, Strömsund
+C|90860|51|M|Bengt-Åke Persson|51, Industriarbetare, Strömsund
+C|8150|39|K|Ida Collin|39, Egen företagare, Norråker
+C|8227|52|M|Håkan Persson|52, Undersköterska, Hoting
+C|8137|61|K|Maud Fortuna|61, Distriktssköterska, Strömsund
+C|90864|45|M|Jimmy Gustafsson|45, Snickare, Hammerdal
+C|90865|57|K|Desirée Edin|57, Socionom, Strömsund
+C|90866|64|M|Jörgen Olofsson|64, Projektledare, Strömsund
+C|99422|50|K|Lena Gjersvold|50, Undersköterska, Backe
+C|90867|48|K|Månica Näslund|48, Verksamhetsutvecklare, Strömsund
+C|90868|58|M|Brynje Wikström|58, Egen företagare, Strömsund
+C|90869|64|K|Inga-Maj Persson|65, Socionom/kurator, Strömsund
+C|90870|61|M|Curt Jonsson|61, Grönsaksodlare, Edet
+C|90871|49|K|Elisabeth Hägglund|49, Undersköterska, Strömsund
+C|90872|56|M|Mats Mårtensson|56, Bilförsäljare, Strömsund
+C|112013|27|K|Rawya Mohammed|27, Studiehandledare, Strömsund
+C|90873|39|K|Kristina Blomberg|39, Enhetschef, Hammerdal
+C|90874|76|M|Bernth Nygren|76, Pensionär, Strömsund
+C|90875|27|K|Isabella Bonér|27, Förskollärare, Strömsund
+C|147720|68|M|Bo-Göran Hedberg|68, Pensionär, Ulriksfors
+C|99432|73|K|Maud Persson|73, Kulturarbetare, Tullingsås
+C|90876|73|M|Per-Ingvar Wennberg|73, Pensionär, Norråker
+C|74273|61|K|Christina Mårtensson|61, Ekonomiassistent, Öjarn
+C|90878|38|M|Tomas Engström|38, Kock, Fagerdal
+C|90879|63|K|Mona Boström Asserwall|63, Pensionär, Alanäset
+C|99437|56|M|Ahmad Ramadan|56, Lärare, Strömsund
+C|90880|52|K|Irene Sundekvist|52, Lokalvårdare, Strömsund
+C|90881|79|M|Bo Wennberg|79, Pensionär, Svedje
+C|90882|50|K|Annica Nyholm|50, Egen företagare, Strömsund
+C|90883|54|M|Tomas Jangenmalm|54, IT-tekniker, Strömsund
+C|90884|67|K|Elsa Wennberg|67, Pensionär, Norråker
+C|90885|61|K|Eva Holmgren|61, Småbrukare, Havsnäs
+C|90886|45|K|Anna Ling Gustafsson|45, Elevassistent, Hammerdal
+C|90887|41|K|Birgit Weisel Mårtensson|41, Brevbärare, Strömsund
+C|90888|53|K|Deanne Edin|53, Administratör, Hammerdal
+C|90889|45|K|Pernilla Persson|45, Undersköterska, Kyrktåsjö
+C|486478|27|M|August Alvtegen|26 år, Entreprenör Turism, Naturguide, Stora Blåsjön, Jämtland
+C|236969|54|M|Mats Gärd|företagare 54 år Fyrås
+C|236970|58|K|Kerstin Engkvist|företagare 58 år Kyrktåsjö
+C|236971|70|M|Göran Espmark|skogsbonde 70 år Äspnäs
+C|236972|62|K|Maritha Granqvist|jurist 62 år Jormvattnet
+C|236973|48|M|Magnus Svensson|gymnasieinstruktör 48 år Gåxsjö
+C|236974|67|M|Nils-Bengt Nilsson|skadeinspektör 67 år Backe
+C|236975|56|K|Eira Roos|boendestödjare 56 år Strömsund
+C|95773|44|K|Annakarin Olsson|projektkoordinator 44 år Strömsund
+C|236977|61|M|Lars Lindberg|verksamhetsansvarig 61 år Strömsund
+C|236978|55|K|Anna Andrée|skolsköterska 55 år Strömsund
+C|236979|37|M|Hassan Albittar|projektkoordinator 37 år Strömsund
+C|236980|45|K|Vanja Stjerna|grundskollärare/förstelärare 45 år Gåxsjö
+C|236981|47|M|Lars Lif|boendeansvarig 47 år Kyrktåsjö
+C|236982|43|K|Christina Åhrén|fil dr 43 år Backe
+C|236983|24|M|Oskar Ahlstrand|leg. fysioterapeut 24 år Strömsund
+C|236984|70|K|Marianne Eriksson|f.d. lärare 70 år Solberg
+C|236985|48|M|Leif Jonsson|bonde 48 år Görvik
+C|236986|76|K|Inga-Brith Nilsson|pensionär 76 år Strömsund
+C|236987|24|M|Amin Mohammadi|studiehandledare 24 år Strömsund
+C|236988|39|K|Pernilla Persson|lärare/företagare 39 år Strömsund
+C|236989|66|M|Staffan Oscarsson|f.d. företagare 66 år Strömsund
+C|236990|60|K|Maria Grill|tandläkare/skogsägare 60 år Lövberga
+C|236991|75|M|Jan-Gunnar Eliasson|företagare 75 år Hallviken
+C|236992|57|K|Kristina Widborg-Ahlstrand|jurist 57 år Kyrktåsjö
+C|236993|70|M|Åke Deffby|pensionär 70 år Strand
+C|236994|60|K|Åse Ehnberg|företagare 60 år Strömsund
+C|236995|69|M|Sture Åhrén|renägare 69 år Backe
+C|236996|67|K|Marie-Louise Oscarsson|fd områdeschef regionen 67 år Strömsund
+C|236997|66|M|Tore Olofsson|pensionär 66 år Strömsund
+C|236998|69|K|Christine Nilsson Lif|pensionär 69 år Kyrktåsjö
+C|236999|69|M|Mårten Jonsson|pensionär 69 år Gussvattnet
+C|237000|34|K|Kowsar Amiri|undersköterska 33 år Strömsund
+C|333562|50|M|Greger Rönnqvist|50, Kundtjänstmedarbeterare
+C|175345|50|K|Maja Ramström|50, Skogskonsulent, Strömsund
+C|333564|76|M|Göran Hellbergh|66, Småbrukare
+C|39626|22|M|Simon Högberg|22, Strömsund
+C|252631|41|K|Maria Sandberg|41 år, Förskolechef, Strömsund
+C|39511|74|M|Jan Olof Olofsson|74 år, Hammerdal
+C|252633|57|M|Lars Eric Bergman|57 år, Kultur-och fritidschef, Hoting
+C|252634|22|M|Eskil Ehnberg|22 år, Undersköterska, Strömsund
+C|252635|67|K|Eva Sjölander|67 år, Lärare, Rossön
+C|252636|22|K|Lisa Nordström|22 år, Fibertekniker, Tullingsås
+C|252637|72|M|Herman Holmkvist|72 år, Pensionär, Strömsund
+C|39502|54|K|Catarina Espmark|54, Äspnäs
+C|252639|67|M|Håkan Espmark|67 år, Hemmansägare, Äspnäs
+C|252640|46|M|JonHenric Andersson|46 år, Musiker, Tullingsås
+C|252641|51|K|Marie Åhlstedt|51 år, Undersköterska, Strömsund
+C|252642|21|K|Julia Rolandsson|21 år, Fibertekniker, Gisselås
+C|252643|33|M|Daniel Eklund|33 år, Kärnborrare, Tåsjö
+C|252644|23|M|Henrik Johansson|23 år, Studerande, Hammerdal
+C|252646|63|M|Håkan Berglund|63 år, Naturbevakare, Gäddede
+C|252647|71|M|Björn Stranne|71 år, Egenföretagare, Görvik
+C|252648|67|K|Marian Stranne Österlund|67 år, Egenföretagare, Görvik
+C|252649|22|M|Ludwig Faxén|22 år, Hästskötare, Strömsund
+C|252650|63|M|Anders Andrée|63 år, Lärare, Strömsund
+C|252651|90|K|Pia Backman|90 år, Pensionär, Strömsund
+C|252652|63|M|Lars Rönnestrand|63 år, Försäljningschef, Strömsund
+C|39518|61|M|Jan Rönngren|61, Strömsund
+C|252654|60|K|Barbro Larbring Rönngren|60 år, Gymnasielärare, Strömsund
+C|110848|68|M|Göran Edman|målare
+C|110849|59|K|Mona Bjurström|kassabiträde
+C|110850|26|K|Ronja Mattsson|vårdbiträde
+C|110851|62|M|Anders Bryntesson|entreprenör
+C|110852|24|K|Johanna Rosén|undersköterska
+C|110853|52|K|Kristina Andersson|dataregistrerare
+C|110854|42|M|Joakim Mikaelsson|ambulanssjukvårdare
+C|110855|53|M|Stefan Abrahamsson|vaktmästare
+C|110856|75|M|Rolf Mårtensson|pensionär
+C|110857|64|M|Hans Blom|vaktmästare
+C|110858|63|M|Tore Hansson|regionombud
+C|110859|51|M|Håkan Engström|biluthyrningstekniker
+C|110860|73|M|Björn Lundin|teletekniker
+C|110861|67|K|Synnöve Finn|pensionär
+C|110862|55|K|Viveca Nilsson|barnskötare
+C|110863|75|K|Siv Johansson|pensionär
+C|110864|60|M|Clas-Göran Sundqvist|maskinförare
+C|110865|74|M|Tony Olofsson|egenföretagare
+C|105711|70|M|Hans Elmbjer|Pensionär, Strömsund
+C|105712|62|M|Steve Svensson|Civilekonom, Strömsund
+C|105713|44|K|Veronica Berglund|Strömsund
+C|105714|82|M|Lars Gustafsson|Sjöingenjör, Strömsund
+C|493223|56|M|Christer Norden|
+C|515612|62|M|Mikael Säbom|
+C|515613|52|M|Sven-Ingvar Eriksson|
+C|362868|67|M|Peter Frost|67 år, Strömsund
+C|300373|65|K|Kerstin Sjöberg|65 år, undersköterska, Strömsund
+C|362870|35|K|Lina Bostedt|35 år, Strömsund
+C|362871|68|K|Kerstin Andersson-Hedström|69 år, Backe
+C|362872|38|M|Simon Eriksson|38 år, Rossön
+C|253069|62|M|Aron Kjellgren|62 år, arbetsförmedlare, Strömsund
+C|362874|59|K|Mona Olofsson|59 år, Strömsund
+C|362875|35|M|Mårten Olofsson|35 år, Strömsund
+C|362876|61|K|Pia Karlsson|61 år, Strömsund
+C|362877|69|M|Leif Johansson|69 år, Strömsund
+C|362878|57|K|Laila Söderberg|57 år, Hoting
+C|362879|66|M|Ingmar Sethson|66 år, Hammerdal
+C|362881|44|M|Mattias Orrell|44 år, Backe
+C|362882|34|K|Kristina Ström|34 år, Strömsund
+C|362883|72|M|Tovar Eriksson|72 år, Strömsund
+C|362884|70|M|Per Hedström|70 år, Backe
+C|368209|49|K|Nora Dahlström|49 år, Strömsund
+C|252534|57|M|Gert Norman|57 år, behandlingsassistent, Backe
+C|362886|49|M|Henrik Orrell|49 år, Backe

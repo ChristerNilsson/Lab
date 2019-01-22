@@ -1,10 +1,249 @@
-2|317510|317511|317512|101508|317514|101506|317516|317517|101493|317519|317520|317521|317522|317523|317524|317525|317526|317527|101505|101496|317530|317531|317532|317533|317534|317535|317536|317537|317538|317539|317540|317541|317542|317543|317544|317545|317546|317547|317548|317549|101511|317551|317552|317553|317556|317555|317558|317557|317560|317559|317562|317561|317564|317563|317566|317565|317568|317567|317570|317569|317571|70618
-4|291400|291401|291402|291403|123484|291405|123478|291407|291408|291409|291410|291411|291412|291413|86907|123483|291416|291417|291418|291419|291420|291421|291422
-68|158559|158560|158561|158562|158563|158564|158565|158566|158567|158568|158569|158570|158571|158572|158573|158574|158575
-3|13568|13569|13570|13572|13573|13574|181125|13576|13575|13577|13578|13579|13580|13581|13582|13583|13584|13586|13587
-1296|512866|513965|513966|514999
-55|245197|245198|245199|245200|245201|245202|245203|245204|245205
-1|22925|25427|12813|25429|22942|25431|25432|25433|25434|22944|22930|25437|22952|25439|25440|25441|25442|22959|25444|25445|25446|25447|25448|25449|25450|25451|25452|22963|25454|25455|25456|25457|25458|25459|25460|25461|25462|25463|25464|25465|25466|25467|25468
-9|415335|415336|415337|415338|415339|415340|415341|415342|415343|415344|415345|415346|415347|415348|415349|415350|415351|415352|415353|415354
-110|67157|67158|67159|67160|67161|67162|67164|67165|67167|67168|67169|67170|67171|67172|67173|67174|67163
-5|212182|212183|212184|212185|212186|212187|239446|212188|212189|239449|212190|212191|212192|212193|212194|212195|212196|212197|212198
+T|Sigtuna
+A|2|317510|317511|317512|101508|317514|101506|317516|317517|101493|317519|317520|317521|317522|317523|317524|317525|317526|317527|101505|101496|317530|317531|317532|317533|317534|317535|317536|317538|317539|317540|317541|317542|317543|317544|317545|317546|317547|317548|317549|101511|317551|317552|317553|317556|317555|317558|317557|317560|317559|317562|317561|317564|317563|317566|317565|317568|317567|317570|317569|317571|70618
+A|4|291400|291401|291402|291403|123484|291405|123478|291407|291408|291409|291410|291411|291412|291413|86907|123483|291416|291417|291418|291419|291420|291421|291422
+A|68|158559|158560|158561|158562|158563|158564|158565|158566|158567|158568|158569|158570|158571|158572|158573|158574|158575
+A|3|13568|13569|13570|13572|13573|13574|181125|13576|13575|13577|13578|13579|13580|13581|13582|13583|13584|13586|13587
+A|1296|512866|513965|513966|514999
+A|55|245197|245198|245199|245200|245201|245202|245203|245204|245205
+A|1|22925|25427|12813|25429|22942|25431|25432|25433|25434|22944|22930|25437|22952|25440|25441|25442|22959|25444|25445|25446|25447|25448|25449|25450|25451|25452|22963|25454|25455|25456|25457|25458|25459|25460|25461|25462|25463|25464|25465|25466|25467|25468
+A|9|415335|415336|415337|415338|415339|415340|415341|415342|415343|415344|415345|415346|415347|415348|415349|415350|415351|415352|415353|415354
+A|110|67157|67159|67160|67162|67164|67165|67167|67168|67169|67170|67171|67172|67173|67174
+A|5|212182|212183|212184|212185|212186|212187|239446|212188|212189|239449|212190|212191|212192|212193|212194|212195|212196|212197|212198
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|9|SFS|Sigtunapartiet Samling för Sigtuna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|317510|46|K|Marie Axelsson|47, Sigtuna
+C|317511|46|M|Steffen Oxenvad|46, Sigtuna
+C|317512|70|K|Gun Eriksson|69, Märsta Landsbygd
+C|101508|68|M|Lars Andersson|68, Sigtuna
+C|317514|39|K|Abir Karademir|39, Valsta
+C|101506|48|M|Ronnie Lundin|48, Inköpare, Sigtuna
+C|317516|19|K|Susan Jibran|18, Sigtuna
+C|317517|20|M|Ramo Hajdarovic|18, Valsta
+C|101493|55|K|Ann Bly Lässman|55, Sigtuna
+C|317519|25|M|Johan Bergsten|24, Märsta
+C|317520|51|K|Berit Starkenberg|51, Landsbygd
+C|317521|41|M|Ibrahim Khalifa|40, Valsta
+C|317522|50|K|Evalena Lindqvist|49, Märsta
+C|317523|62|M|Robin Walian|62, Valsta
+C|317524|24|K|Veronica Ytterberg|24, Valsta
+C|317525|81|M|Bruno Landstedt|80, Märsta
+C|317526|68|K|Gunilla Johansson|67, Sigtuna
+C|317527|41|M|Hasnain Hassanali|40, Valsta
+C|101505|53|K|Marianne Åslin|53, Ingenjör, Sigtuna
+C|101496|76|M|Thore Nyman|76, Sigtuna
+C|317530|51|K|Carina Henriksson Pearce|51, Märsta
+C|317531|53|M|Rolando Rosales|53, Rosersberg
+C|317532|56|K|Monica Gomez|56, Märsta
+C|317533|53|M|Jan-Erik Nilsson|52, Märsta
+C|317534|79|K|Märtha Lindberg|79, Sigtuna
+C|317535|28|M|Jesper Skullman|27, Rosersberg
+C|317536|47|K|Mia Hämäläinen Persson|46, Landsbygd
+C|317538|48|K|Anne Kuusinen|47, Märsta
+C|317539|46|M|Morgan Karlsson|46, Valsta
+C|317540|61|K|Eliisa Kytölä|60, Märsta
+C|317541|57|M|Dawit Hailegebrel|56, Märsta
+C|317542|60|K|Carina Hedin|60, Märsta
+C|317543|57|M|Mher Muradyan|56, Märsta
+C|317544|60|K|Birgitta Undin|60, Sigtuna
+C|317545|40|M|Dilyar Mohamad|39, Valsta
+C|317546|72|K|Anja Lampinen|71, Valsta
+C|317547|60|M|Leo Grubbström|59, Sigtuna
+C|317548|65|K|Helen Halling|65, Märsta
+C|317549|63|M|Sergio Urrutia|63, Sigtuna
+C|101511|54|K|Helene Mattsson|53, Valsta
+C|317551|55|M|Ulf Fjällborg|54, Märsta
+C|317552|68|K|Anja Nyman|67, Märsta
+C|317553|38|M|Gunnar Nordahl|64, Märsta
+C|317556|72|K|Gunilla Blidborg|72, Märsta
+C|317555|29|M|Samuel Kazen Orrefur|28, Märsta
+C|317558|73|K|Rakel Eklund|72, Valsta
+C|317557|48|M|Björn Stenutz|47, Märsta Landsbygd
+C|317560|88|K|Karen Salmose|87, Märsta
+C|317559|76|M|Jan Einebrant|76, Rosersberg
+C|317562|74|K|Erna Wallström|74, Märsta
+C|317561|77|M|Benny Andersson|77, Sigtuna
+C|317564|74|K|Marsel Yousef|74, Valsta
+C|317563|60|M|Krister Hurtig|59, Valsta
+C|317566|74|K|Birgitta Nodler|74, Rosersberg
+C|317565|74|M|Sven-Åke Olsson|73, Sigtuna
+C|317568|80|K|Kerstin Sundman|80, Sigtuna
+C|317567|54|M|Tom Forsman|53, Sigtuna
+C|317570|75|K|Monica Nilsson|75, Valsta
+C|317569|33|M|Oskar Lindskog|33, Märsta
+C|317571|61|M|Anders Lässman|60, Märsta
+C|70618|48|K|Marie Axelsson|48, Grundskollärare, Sigtuna
+C|291400|49|K|Gill Brodin|49 år, Gruppledare Centerpartiet, Skånela
+C|291401|32|K|Jennifer Grede|32 år, Upphandlare, Sigtuna
+C|291402|38|K|Petra Ullenius|38 år, Beteendevetare, Skånela
+C|291403|46|M|Fredrik Brodin|45 år, Företagsledare, Rosersberg
+C|123484|68|K|Marianne Holmberg|68, Sigtuna, Lärare
+C|291405|30|M|Andreas Karlsson|29 år, Fastighetsekonom, Kimsta
+C|123478|65|K|Marie Unander-Scharin|65, Sigtuna, Prevention- och säkerhetssamordnare
+C|291407|38|K|Rose-Mari Halme|38 år, Barn och boendesamordnare, Märsta
+C|291408|70|M|Rune Holmberg|70 år, IT-konsult, Skånela
+C|291409|53|M|Hamza Alsaadi|52 år, Företagare, Märsta
+C|291410|68|M|Owe Karlsson|68 år, Entreprenör, Rosersberg
+C|291411|53|K|Silva Budak|53 år, Beauty advisor, Valsta
+C|291412|49|M|Dragan Perkovic|48 år, Kurator, Märsta
+C|291413|69|K|Gunilla Karlsson|69 år, Pensionär, Rosersberg
+C|86907|67|M|Bosse Andersson|67, Märsta, Entreprenör
+C|123483|55|K|Eva Bergström Pettersson|55, Sigtuna, Samhällsentreprenör för hälsotjänster
+C|291416|70|M|Bertil Hammargren|70 år, f.d. Pilot, Odensala
+C|291417|81|M|Åke Ossmark|81 år, f.d. Lantbrukare, Odensala
+C|291418|52|K|Annica Roos|52 år, Organisationsutvecklare, Sigtuna
+C|291419|79|M|Gudmund Mattson|78 år, Bonde, Skepptuna
+C|291420|60|K|Anne Egnell|59 år, Samordnare, Märsta
+C|291421|78|K|Lilian Eriksson|78 år, Pensionär, Skepptuna
+C|291422|55|K|Darina Dimitrova Filipova|54 år, Lärare, Sigtuna
+C|158559|65|M|Karsten Bjärbo|65, Gruppledare, Sigtuna
+C|158560|63|K|Kerstin Eriksson|Förbundssekreterare, Märsta
+C|158561|63|M|Bengt Hellström|Säljare, Märsta
+C|158562|73|K|Britta Utbult-Pålsson|Lärare, Märsta
+C|158563|69|M|Kurt Pettersson|Entreprenör, Odensala
+C|158564|46|K|Maria Kostic|Fackligt ombud, Steninge
+C|158565|37|M|Maksim Issa|Ingenjör, Valsta
+C|158566|59|M|Olle Henriksson|Projektledare, Märsta
+C|158567|37|K|Jessica Hansson|Key account manager, Märsta
+C|158568|46|M|Georgios Makris|Platschef, Märsta
+C|158569|35|M|Markus Johnsen|Företagare, Skepptuna
+C|158570|66|M|Bo Eriksson|Konsult, Märsta
+C|158571|55|M|Ibrahim Ibrahim|Läkare, Märsta
+C|158572|29|K|Johanna Kankaanpää|Banktjänsteman, Valsta
+C|158573|69|M|Anders Forsman|Pensionär, Märsta
+C|158574|48|K|Veronica Kock|Projektledare, Märsta
+C|158575|59|M|Per-Olof Eurell|VD, Märsta
+C|13568|43|K|Pernilla Bergqvist|43, Statsvetare
+C|13569|58|M|Hendrik Nyman|ämneslärare,Märsta
+C|13570|42|K|Cia Bentele|42, LSS-handläggare
+C|13572|47|M|Lars-Göran Mellberg|högskoleingenjör, Sigtuna
+C|13573|41|M|Rodrigo Luna|41, Operativt kundansvarig
+C|13574|36|M|Daniel Andersson|ekonom, Märsta
+C|181125|36|K|Cicilia Hertzberg|37, Civilekonom
+C|13576|73|M|Lars Wedén|civilekonom, Sigtuna
+C|13575|79|M|Rolf Brunnberg|79, Pensionär, Fd avdelningschef
+C|13577|58|M|Rein Lallo|58, Organisationskonsult
+C|13578|39|M|Amin Ruhul|Städare
+C|13579|70|K|Meta Brolund|70, Sjuksköterska
+C|13580|77|M|Dag Reistad|77, Civilingenjör
+C|13581|82|K|Dora Kûndig|82, Pensionär
+C|13582|85|M|Sune Askaner|85, Fd Skolledare
+C|13583|84|K|Riita Hanski|84, Fd Forskningsbibliotekarie
+C|13584|65|M|Muammer Yalcin|65, Konstnär
+C|13586|79|M|Josef Gûven|79, Pensionär
+C|13587|77|K|Britt-Marie Treutiger|77, Leg psykoterapeut
+C|512866|67|M|Clas-Henrik Ivarsson|Civilekonom
+C|513965|47|M|Magnus Sjöström|
+C|513966|36|K|Laila Johansson|
+C|514999|40|K|Anna Kalles|
+C|245197|51|K|Karolina Windefalk|Lärare
+C|245198|61|M|Jan Franzén|Ekolog
+C|245199|53|M|Elwood Overholt|Folkhögskolelärare
+C|245200|50|M|Johannes Markström|Folkhögskolelärare
+C|245201|40|K|Karolina Lundberg|Folkhögskolelärare
+C|245202|23|K|Alexandra Wallin Änst|Butikschef
+C|245203|54|M|Anders Klasson|Bibliotekarie och Kulturvetare
+C|245204|32|K|Sonya Wallenius|Lärarstuderande
+C|245205|58|M|Mats Heymann|Egenföretagare
+C|22925|55|M|Olov Holst|55, Kommunstyrelseordförande
+C|25427|41|K|Anna Malm Kelfve|41, Kommunikatör
+C|12813|25|M|Mattias Askerson|25, Civilingenjörsstudent
+C|25429|71|M|Mats Weibull|71, Företagare
+C|22942|41|K|Josefin Brodd|41, Fil. kand
+C|25431|48|M|Johan Henrikson|48, Verkställande Direktör
+C|25432|66|K|Gunilla Holmgren|66, Pensionär
+C|25433|45|M|Henrik Kelfve|45, Kommunikationschef
+C|25434|70|M|Kjell Holmgren|70, Pensionär
+C|22944|48|K|Helle Nyman|48, Politisk sekreterare
+C|22930|67|M|Erik Langby|67, Egenföretagare
+C|25437|65|K|Lena Lindgren Ljungberg|65, fd Ekonom
+C|22952|51|M|Mårten Fintling|51, Pol. mag
+C|25440|77|M|Rolf Jangbratt|77, Marknadsekonom
+C|25441|76|M|Lars Lagerdahl|76, Egenföretagare
+C|25442|27|K|Karolina Holst|27, Receptionist
+C|22959|36|M|August Eriksson|36, Driftchef
+C|25444|76|M|Gunnar Balfe|76, Senior
+C|25445|23|M|Angelo Constantine|23, Fältarbetare
+C|25446|39|K|Jenny Ljungberg Book|39, Marknadskommunikatör
+C|25447|63|M|Ahmad Saberi|63, Tolk
+C|25448|65|K|Vibeke Eriksson|65, fd Rektor
+C|25449|43|M|Mattias Broman|43, Affärsutvecklare
+C|25450|43|M|Per Larsson|43, Kundkoordinator
+C|25451|58|K|Sihem Yilmaz|58, Hemmafru
+C|25452|64|M|Bo Raattamaa|64, Samhällsvetare
+C|22963|73|M|Lennart Eriksson|73, Sjuksköterska
+C|25454|56|M|Björne Olsson|56, Divisionschef
+C|25455|81|K|Louise Skeppare|81, Pensionär
+C|25456|65|M|Göran Norman|65, Produktutvecklare
+C|25457|56|K|Birgitta Petersson|56, Banktjänsteman
+C|25458|79|K|Grethe Balfe|79, Pensionär
+C|25459|47|M|Joachim Lotthagen|47, Egenföretagare
+C|25460|33|M|Gösta Ståhl|33, Egenföretagare
+C|25461|49|M|Roger Gripengren|49, Student
+C|25462|51|M|Johan Karlsson|51, Advokat
+C|25463|83|K|Berit Ernbacke Lindström|83, Pensionär
+C|25464|67|M|Sven Wretler|67, Lantbrukare
+C|25465|70|M|Lars-Göran Sörqvist|70, Pensionär
+C|25466|77|M|Mats Velander|77, Pensionär
+C|25467|53|M|Peter Fredriksson|53, Egenföretagare
+C|25468|77|M|Peter Kockum|77, Direktör
+C|415335|70|M|Lars Björling|Aludden
+C|415336|55|K|Kerstin Erholm Forssman|Prästängarna
+C|415337|71|K|Yvonne Degerman|Aludden
+C|415338|45|K|Cecilia Öhman|Björkbacka
+C|415339|38|K|Annah Boodh|Södertil
+C|415340|66|M|Karl Sandberg|Munkholmen
+C|415341|68|K|Birgitta Gyllenstierna Tivelius|Venngarn
+C|415342|47|M|Stefan Lindqvist|Prästängarna
+C|415343|47|K|Charlotta Wieland|Ropsten
+C|415344|53|M|Tomas Haag|Prästängarna
+C|415345|45|K|Anna-Carin Kitlas|Hällsbo
+C|415346|64|M|Björn Hazelius|Sjudargården
+C|415347|61|M|Bengt Fahlgren|Pilsbo
+C|415348|79|K|Christina Julin|Harberget
+C|415349|83|M|Lennart Sundberg|Centrala staden
+C|415350|88|K|Carin Wirell|Österby
+C|415351|83|M|Per Tiselius|Harberget
+C|415352|89|M|Finn Hultgren|Ropsten
+C|415353|83|K|Harriet Nadell|Brännbo
+C|415354|82|M|Bengt Stapelfeldt|Södertil
+C|67157|70|K|Inga-Lill Björkman|70, grafiker, Sigtuna
+C|67159|53|M|Peter Nilsson|industriarbetare, Valsta
+C|67160|84|M|Bo Thelin|fd rörmokare, Rosersberg
+C|67162|68|M|Gert Höglund|författare, Sigtuna
+C|67164|66|M|Sören Sundh|taxichaufför, Sigtuna
+C|67165|29|K|Emy Jörlin|kommunikatör, Märsta
+C|67167|54|K|Carina Viding|anhörigvårdare, Rosersberg
+C|67168|35|K|Rosanna Ternborg|vårdbiträde, Valsta
+C|67169|45|M|André Björkman|ekonom, Sigtuna
+C|67170|30|M|Bror Lundberg|säljare, Märsta
+C|67171|54|M|Joakim Bok|betongarbetare, Märsta
+C|67172|58|M|Tommy Olofsson|säkerhetsvakt, Sigtuna
+C|67173|72|M|Bruno Bergström|entreprenör, Sigtuna
+C|67174|39|M|Nils Persson|montör, Rosersberg
+C|212182|31|M|Niklas Andersson|Märsta, statistiker
+C|212183|43|K|Sofia Mir|43 år, socionom
+C|212184|25|M|Markus Andreassen|25 år, loungevärd
+C|212185|45|K|Marta Aguirre|Märsta, tågvärd
+C|212186|53|M|Omar Al-Askary|53 år, ingenjör
+C|212187|65|M|Emilio Callisaya Nina|65 år, jurist
+C|239446|47|M|Johan Eriksson|47 år, fackligt förtroendevald
+C|212188|66|K|Irma Pettersson|66 år, pensionerad psykolog
+C|212189|43|M|Petri Perälä|43 år, facklig ombudsman
+C|239449|64|M|Gachugu Makini|64 år, bussförare
+C|212190|47|K|Petrea Karlsson|47 år, förskollärare
+C|212191|61|M|Bengt Andersson|61 år, vaktmästare
+C|212192|35|M|Peter Stensson|35 år, boendestödjare
+C|212193|42|K|Hanna Wallenbro|42 år, teknisk kommunikatör
+C|212194|82|K|Lena Sundstedt|82 år, pensionär
+C|212195|86|M|Stig Olof Carlsson|86 år, pensionär
+C|212196|50|M|Janne Wallenius|50 år, professor
+C|212197|64|M|Bertil Jansson|64 år, pensionär
+C|212198|51|K|Lisa Wanjira Andersson|51 år, undersköterska

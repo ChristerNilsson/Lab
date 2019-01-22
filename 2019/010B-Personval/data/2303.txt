@@ -1,6 +1,75 @@
-497|392947|392948|392949|392950|392951|392952|392953|392954|392955|392956|392957
-2|16877|16878|8136|16880|16881|16882|6462|16884|8153|16886|16887|16888|16889|16890|16891|16892|16893|16894|16895|16896|16897|16898|16899|16900|16901|16902|16905|16904|16907|16906|16909|16908
-4|356644|356645|356646|356647|356648|356649|356650|356651|356652|356653|356654|356655
-68|205313|205315|206005|208712
-110|106462|150262
-5|253073
+T|Ragunda
+A|497|392947|392948|392949|392950|392951|392952|392953|392954|392955|392956|392957
+A|2|16877|16878|8136|16880|16881|16882|6462|16884|8153|16886|16887|16888|16889|16890|16891|16892|16893|16894|16895|16896|16897|16898|16899|16900|16901|16902|16905|16904|16907|16906|16909|16908
+A|4|356644|356645|356646|356647|356648|356649|356650|356651|356652|356653|356654|356655
+A|68|205313|205315|206005|208712
+A|110|106462|150262
+A|5|253073
+B|497|AfR|Allt för Ragunda
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|392947|51|K|Eva Sundin|Bispgården
+C|392948|68|K|Elisabeth Björklund|Utanede
+C|392949|52|K|Birgitta Orrebo|Utanede
+C|392950|56|K|Susanne Söderström|Böle
+C|392951|63|M|Jan Erik Westman|Bispgården
+C|392952|29|K|Kajsa Bernhold|Stugun
+C|392953|25|K|Emma Norberg|Bispgården
+C|392954|60|K|Alice Österslund|Bispgården
+C|392955|59|K|Eva Ocklind|Hammarstrand
+C|392956|33|K|Marie Palmroth|Fångsjöbacken
+C|392957|77|K|Anita Dorn|Moarna
+C|16877|32|M|Jonas Andersson|32 år, Ammer
+C|16878|46|K|Jenny Palmquist|46 år, Ammer
+C|8136|58|M|Roger Östlund|58, Kyrkvaktmästare, Bispgården
+C|16880|69|K|Elisabet Yngström|69 år, Stugun
+C|16881|64|M|Lennart Skoog|64 år, Stugun
+C|16882|69|K|Gudrun Wikén|69 år, Ammer
+C|6462|45|M|Anders Frimert|45, Försäljningschef, Stugun
+C|16884|62|K|Karin Ungh|62 år, Torvalla by
+C|8153|70|M|Kjell Grafström|70, Pedagog, Hammarstrand
+C|16886|50|K|Annika Nilsson|50 år, Borglunda
+C|16887|48|M|Johan Palmquist|49 år, Ammer
+C|16888|18|K|Alva Nylander|18 år, Hammarstrand
+C|16889|56|M|Bob M Jonsson|56 år, Eriksberg
+C|16890|66|K|Gunilla Olsson|66 år, Österede
+C|16891|70|M|Christer Backström|70 år, Bomsund
+C|16892|53|K|Lena Holmgren|53 år, Strömsnäs
+C|16893|36|M|Kjell Berg|36 år, Hammarstrand
+C|16894|42|K|Linda Yngström|42 år, Stugun
+C|16895|39|M|Bengt Olsson|39 år, Stugun
+C|16896|69|K|Lisbeth Borefors|69 år, Hammarstrand
+C|16897|62|M|Seppo Valli|62 år, Näset
+C|16898|30|K|Maja Sahlin|30 år, Hasselmon
+C|16899|28|M|Adhanom Fishaye|28 år, Hammarstrand
+C|16900|72|K|Britt Danielsson|72 år, Hammarstrand
+C|16901|29|M|Dennis Fredriksson|29 år, Bispfors
+C|16902|48|K|Katarina Sahlin|48 år, Överammer
+C|16905|75|M|Jim Salomonsson|75 år, Hammarstrand
+C|16904|52|K|Carina Andersson|52 år, Rävanäset
+C|16907|22|M|Henok Tewelde|24 år, Hammarstrand
+C|16906|70|K|Brittinger Håkansson|70 år, Kompaniet
+C|16909|20|M|Ato Kiflay|20 år, Stugun
+C|16908|55|K|Eva Lindholm|55 år, Hammarstrand
+C|356644|54|M|Mikael Westin|54 år Kullsta
+C|356645|52|M|Larz Danielsson|52 år Pålgård
+C|356646|63|K|Margareta Nordling|63 år Bispgården
+C|356647|64|M|Håkan Lindström|64 år Västerede
+C|356648|53|K|Annica Lindström|53 år Hammarstrand
+C|356649|66|M|Karl Borglund|66 år Trefoten
+C|356650|18|M|Isak Andersson Lexner|18 år Hammarstrand
+C|356651|53|M|Håkan Schüberg|53 år Bispgården
+C|356652|56|M|Karl-Axel Andersson|56 år Krokvåg
+C|356653|76|K|Ingrid Alf|76 år Stugun
+C|356654|67|M|Birger Ajax|67 år Ammer
+C|356655|51|M|Lennart Dahlström|51 år Krokvåg
+C|205313|70|M|Stefan Nilsson|fd officer, Hammarstrand
+C|205315|67|M|Karl-Erik Lundin|fd lärare, Hammarstrand
+C|206005|66|K|Eva Lundin|fd administratör, Hammarstrand
+C|208712|64|K|Birgitta Strid|Bispgården
+C|106462|61|K|Ulla Vikander|Lokalvårdare, Ragunda
+C|150262|45|M|Peter Sandström|45 år
+C|253073|65|K|Catarina Antán|65 år, pensionär, Fisksjölandet

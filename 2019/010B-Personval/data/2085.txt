@@ -1,12 +1,242 @@
-2|238747|238748|238749|238750|238751|238752|238753|238754|238755|238756|238757|238758|238759|238760|238761|238762|238763|238764|238765|238766|238767|238768|238769|238770|238771|238772|238773|238774|238775|238776|238777|238778|238779|238780|238781|238782|238783|238784|238785|238786|238787|238788|238789|238790|238791|238792|238793|238794|238795|238796|238797|238798
-4|33557|33544|107576|107577|107578|107579|107580|107581|107582|107583|107584|107585|107586|107587|107588|107589|107590|107591|33552|448470|107594|107595|38932|107597|107598|107599|107600|107601|107602
-285|423543|502132|502133|423544
-471|184833|184904|185001|185002|185003|185004|185005|185006
-68|67425|9163|67427|67428|67429|74832
-3|190221|156327|190223|190224|190225|190226|190227|190228|190229|190230|190231
-55|114196|114140|114145|122989|122990|122991|114200|122993|122994|122995|122996
-1|35813|36175|36185|41180|35830|41182|41183|41184|41186|41187|36209|41189|41190|41191|41192|41193|41194|41195|41196|41197|41198|41199|41200|41201|41202|41203|41204|41205|41206|41207|41208|41209|41210|41211|41212|41213|41215|41216|41217|41218|41219|41220|41221|41222|41223
-1273|393462|393463|393464|393465|393466|393467|393468|393469
-1389|512356
-110|125910|125911|125912|125913|125914|125915|125916|125917|125918|125919|125920|125921|125922|125923|125924|125925|125926|125927|125928
-5|63814|63819|63818|356234|64076|63825|356237|356238|356239|356240|356241|356242|356243|356244|356245|356246|356247|356248|356249|356250|356251|356252|356253
+T|Ludvika
+A|2|238747|238748|238749|238750|238751|238752|238753|238754|238755|238756|238757|238758|238759|238760|238761|238762|238763|238764|238765|238766|238767|238768|238769|238770|238771|238772|238773|238774|238775|238776|238777|238778|238779|238780|238781|238782|238783|238784|238785|238786|238787|238788|238789|238790|238791|238792|238793|238794|238795|238796|238797|238798
+A|4|33557|33544|107576|107577|107578|107579|107580|107581|107582|107583|107584|107585|107586|107587|107588|107589|107590|107591|33552|448470|107594|107595|38932|107597|107598|107599|107600|107601|107602
+A|285|423543|502132|502133|423544
+A|471|184833|184904|185001|185002|185003|185004|185005|185006
+A|68|67425|9163|67427|67428|67429|74832
+A|3|190221|156327|190223|190224|190225|190226|190227|190228|190229|190230|190231
+A|55|114196|114140|114145|122989|122990|122991|114200|122993|122994|122995|122996
+A|1|35813|36175|36185|41180|35830|41182|41183|41184|41186|41187|36209|41189|41190|41191|41192|41193|41194|41195|41196|41197|41198|41199|41200|41201|41202|41203|41204|41205|41206|41207|41208|41209|41210|41211|41212|41213|41215|41216|41217|41218|41219|41220|41221|41222|41223
+A|1273|393462|393463|393464|393465|393466|393467|393468|393469
+A|1389|512356
+A|110|125910|125911|125912|125913|125914|125915|125916|125917|125918|125919|125920|125921|125922|125923|125924|125925|125926|125927|125928
+A|5|63814|63819|63818|356234|64076|63825|356237|356238|356239|356240|356241|356242|356243|356244|356245|356246|356247|356248|356249|356250|356251|356252|356253
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|285|ffs|Folkkampanjen för sjukvården
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1273|NMR|Nordiska motståndsrörelsen
+B|1389||Raggarpartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|238747|55|M|Leif Pettersson|Landforsen
+C|238748|54|K|Maria Strömkvist|54 år, Ludvika
+C|238749|72|M|Ingvar Henriksson|Klenshyttan
+C|238750|48|K|Åsa Bergkvist|Ludvika
+C|238751|38|M|Henrik Samdahl|38 år, Ludvika
+C|238752|59|K|Yvonne Persson|Sörvik
+C|238753|61|M|Sören Grandelius|Klenshyttan
+C|238754|37|K|Hannah Söderholm|Sunnansjö
+C|238755|57|M|Mohammad Alkazhami|57 år, Ludvika
+C|238756|50|K|Anna-Lena Andersson|50 år, Ludvika
+C|238757|73|M|Hag Lasse Persson|Ludvika
+C|238758|63|K|Susanne Andersson|Fredriksberg
+C|238759|54|M|Jim Gavelin|Ludvika
+C|238760|73|K|Ulla-Britt Mikaelsson|Grängesberg
+C|238761|59|M|Peter Cyrillus|59 år, Ludvika
+C|238762|51|K|Ingrid Berg|Ludvika
+C|238763|63|M|Ivan Eriksson|Ludvika
+C|238764|42|K|Rafal Abdelqader|Ludvika
+C|238765|44|M|Bülent Kerpeten|Ludvika
+C|238766|53|K|Carina Gamisch|Ludvika
+C|238767|47|M|Sven-Erik Källman|Ludvika
+C|238768|68|K|Brittsiv Åsberg|Persbo
+C|238769|51|M|Mohammed Ouafi|Grangärde
+C|238770|51|K|Carina Lundberg Bergkvist|Fredriksberg
+C|238771|52|M|Roger Söderberg|Ludvika
+C|238772|50|K|Camilla Lönnqvist|Ludvika
+C|238773|69|M|Åke Henriksson|Ludvika
+C|238774|70|K|Maino Wohlfeil|Ludvika
+C|238775|46|M|Kenneth Bååth|Ludvika
+C|238776|65|K|Mona-Lisa Jansson Gleimar|Ludvika
+C|238777|72|M|Seppo Timonen|Ludvika
+C|238778|55|K|Marlene Otterborn|Ludvika
+C|238779|31|M|Magnus Pernils|Ludvika
+C|238780|58|K|Carina Melin|Ludvika
+C|238781|74|M|Kjell Stenberg|Ludvika
+C|238782|60|K|Inez Knudsen|Ludvika
+C|238783|72|M|Steen Jepsen|Nyhammar
+C|238784|58|K|Christina Larsson|Ludvika
+C|238785|40|M|Mustafe Elmi|Ludvika
+C|238786|71|K|Birgitta Nilsson|Ludvika
+C|238787|50|M|Håkan Anestedt|Ludvika
+C|238788|44|K|Annika Jaakola|Grangärde
+C|238789|73|M|Leif Lagerquist|Gonäs
+C|238790|28|M|Per-Olof Backström Sandblad|Ludvika
+C|238791|71|M|Kurt Josefsson|Ludvika
+C|238792|50|M|Thomas Nordström|Ludvika
+C|238793|67|M|Ingemar Abrahamsson|Fredriksberg
+C|238794|36|M|Anders Nohrstedt|Ludvika
+C|238795|44|M|Marko Langen|Ludvika
+C|238796|60|M|Sven Nordh|Ludvika
+C|238797|56|M|Lennart Wetterskog|Sunnansjö
+C|238798|75|M|Anders Hjalmar|Grängesberg
+C|33557|64|M|Jan Olof Karlsson|Ludvika
+C|33544|71|M|Mauritz Bropetters|Ludvika
+C|107576|52|K|Karin Sandström|Rektor, Ludvika
+C|107577|67|M|Hans Gleimar|Civilingenjör, Ludvika
+C|107578|49|K|Sarah Hjälm|Kommunikatör, Ludvika
+C|107579|73|M|Leif Lindgren|Ingenjör, Ludvika
+C|107580|76|K|Nadja Eriksson|Pensionär, Gräsberg
+C|107581|57|M|Arne Berglund|Ingenjör, Ulriksberg
+C|107582|68|K|Elsie-Marie Hörk Karlsson|Undersköterska, Grängesberg
+C|107583|79|K|Gun Andersson|Småföretagare, Ludvika
+C|107584|28|M|Alexander Larsson|konstruktionschef, Ludvika
+C|107585|31|K|Emma Bropetters|Fil. kand., Ludvika
+C|107586|49|M|Matts Spelmans|Egen företagare, Ludvika
+C|107587|19|K|Helena Virkelyst Sjödin|Studerande, Gonäs
+C|107588|52|M|Hans Westergren|Administrativ chef, Ludvika
+C|107589|55|K|Lena Högberg|Undersköterska, Grangärde
+C|107590|31|M|Joakim Odnegård|Civilingenjör, Ludvika
+C|107591|83|K|Siw Kniif|Konstnär, Gonäsheden
+C|33552|60|M|Torbjörn Högberg|Ludvika
+C|448470|74|K|Sonja Sandström|Pensionär, Sunnansjö
+C|107594|85|M|Rolf Högberg|Fil. mag., Rämshyttan
+C|107595|58|K|Anna-Karin Andersson|Egen företagare, Fröjdberget
+C|38932|58|M|Mohamed-deeq Barkhadle|Ludvika
+C|107597|77|K|Jut Anita Jernberg|Skogsbrukare, Västansjö
+C|107598|81|M|Jut Erik Jernberg|Skogsbrukare, Västansjö
+C|107599|58|M|Anders Räms|Ekonom, Saxhyttan
+C|107600|83|M|Olavi Timonen|Ingenjör, Ludvika
+C|107601|74|M|Jan-Ola Sandström|Pensionär, Sunnansjö
+C|107602|82|M|Rune Lindberg|Ingenjör, Ludvika
+C|423543|56|M|Ken Swedenborg|Partiordförande
+C|502132|55|K|Anni Andersson|Undersköterska
+C|502133|35|K|Rose-Marie Westerlund|Vårdstuderande
+C|423544|25|M|Daniel Gnalin|Studerande
+C|184833|28|M|Karl Gustav Nilsson|Slaktare, 28 år
+C|184904|61|M|Jorge Nunez|Metallarbetare, 61 år
+C|185001|34|M|Fredrik Hjälte|Svetsare, 33 år
+C|185002|63|M|Kenth Andersson|Sjuksköterska, 63 år
+C|185003|35|M|Joel Holmdahl|Bonde, 35 år
+C|185004|26|M|Marcus Wetterberg|Bryggeriarbetare, 26 år
+C|185005|71|M|Gabriel Capelli|Pensionär, 72 år
+C|185006|68|M|Nils Holmdahl|Pensionerad Idrottslärare, 68 år
+C|67425|35|M|Jonas Wide|civilingenjör
+C|9163|74|K|Bodil Sundquist|lärare, Ludvika
+C|67427|74|M|Lars-Göran Calleberg|lärare
+C|67428|77|M|Rune Danielsson|ingenjör
+C|67429|82|M|Jonny Persson|verkstadsarbetare
+C|74832|66|K|Ingrid Bjurlemyr Persson|undersköterska
+C|190221|62|K|Carita Holmgren|62 år, Gonäs
+C|156327|58|M|Johnny Karlsson|Ingenjör, 58 år, Ludvika
+C|190223|47|M|Morgan Norin|47 år, Stan
+C|190224|60|M|Rolf Långström|60 år, Notgården
+C|190225|37|M|Andreas Bergman|37 år, Stan
+C|190226|49|K|Monica Karlsson|49 år, Högberget
+C|190227|42|M|Benny Forssparre|42 år, Solsidan
+C|190228|72|M|Kjell Nyquist|72 år, Stan
+C|190229|72|M|Anders Berggren|72 år, Stan
+C|190230|74|K|Kirsten Sannan|74 år, Knutsbo
+C|190231|73|M|Kjell Carrander|73 år, Våghalsen
+C|114196|38|K|Åsa Wikberg|Ludvika, nationalekonom
+C|114140|34|M|Mikael Hjort|Ludvika, civilingenjör
+C|114145|33|M|Aron Knifström|Ludvika, distributör
+C|122989|31|M|Mohammed Ibrahim Warsame|arbetsförmedlare, 31 år
+C|122990|33|M|Christian Karlsson|civilingenjör rymdteknik, 33 år
+C|122991|31|M|Mohamed Osman Mohmoud|grundskolelärare, 31 år
+C|114200|66|K|Monika Utter|Ludvika, pensionerad lärare och undersköterska
+C|122993|63|K|Kerstin Holdo Nordström|församlingspedagog, 62 år
+C|122994|28|M|Henrik Axelsson|samhällsplanerare, 28 år
+C|122995|49|K|Maria Hellstrand|skattehandläggare, 49 år
+C|122996|78|K|Solveig Murray|pensionär, 78 år
+C|35813|45|M|HåGe Persson|45 år, oppositionsråd, lärare, Ludvika
+C|36175|63|M|Håkan Frank|63 år, skattedirektör, Ludvika
+C|36185|68|M|Kjell Israelsson|68 år, ekonom, pensionär, Ludvika
+C|41180|72|K|Rigmor Andersson|Fd sjuksköterska/verksamhetschef
+C|35830|24|M|Jesper Gustafsson|24 år, säljare, Ludvika
+C|41182|68|K|Karin V Johnsson|Fd områdeschef
+C|41183|26|M|Andreas Strandberg|Konsult
+C|41184|74|K|Irene Andersson|Fd varuhuschef
+C|41186|41|M|Anders Hellstrand|Ekonom
+C|41187|72|M|Torbjörn Tomtlund|Fd kriminalinspektör
+C|36209|43|K|Linda Kardell Broman|43 år, undersköterska, Ludvika
+C|41189|18|M|Hugo Abrahamsson|Studerande
+C|41190|43|M|Ted Hartman|Företagare
+C|41191|68|M|Bert Broman|Utbildningscoach
+C|41192|62|M|Ove Boman|Företagare
+C|41193|29|M|Markus Munkhammar|Arbetare
+C|41194|30|K|Jennie Rydelius|Undersköterska
+C|41195|21|M|Morteza Haidari|Projektkoordinator
+C|41196|61|K|Lena Hjalmarsson|Säljare
+C|41197|56|M|Magnus Erbing|Marknadsutvecklare
+C|41198|58|M|Jan Lindeberg|socionom
+C|41199|20|M|Linus Henriksson|Studerande
+C|41200|50|K|Maria Björk Svensson|Sjuksköterska
+C|41201|74|M|Hans Danielsson|Civilingenjör
+C|41202|71|K|Eva Marie Tomtlund|Fd produktionschef
+C|41203|61|M|Lars Strandberg|Produktchef
+C|41204|26|K|Nina Seppänen|Sjuksköterska
+C|41205|42|M|Andreas Lundgren|Entreprenör
+C|41206|20|M|Lucas Fritzon|Lärarvikarie
+C|41207|41|K|Anna Hellstrand|Socionom
+C|41208|64|M|Staffan Bruzelius|Försäljnings- och marknadschef
+C|41209|32|M|Christian Ahlholm|Ingenjör
+C|41210|68|K|Rose-Marie Andersson|Verksamhetschef
+C|41211|75|M|Bo Sundgren|Pensionär
+C|41212|65|K|Ingrid Broman|Sjuksköterska
+C|41213|30|M|Daniel Nyström|Jurist
+C|41215|51|M|Mats Bringås|Företagare
+C|41216|79|M|Jan Norrgo|Fd köpman
+C|41217|67|K|Annika Locander|Ekonom
+C|41218|18|M|Linus Pettersson|Studerande
+C|41219|86|K|Kerstin Sunnerby|Pensionär
+C|41220|84|K|Britt Åhgren|Bildlärare
+C|41221|58|M|Torleif Fallsdalen|Företagare
+C|41222|70|K|Gaby Back|Int ekonom egenföretagare
+C|41223|79|M|Bengt Andersson|Byggnadsingenjör
+C|393462|47|M|Pär Öberg|47 år, elektriker, Ludvika
+C|393463|38|M|Pär Sjögren|38 år, infrastrukturarbetare, Ludvika
+C|393464|39|M|Haakon Forwald|39 år, butiksarbetare
+C|393465|28|M|Nicklas Norling|28 år, VVS-montör, Ludvika
+C|393466|32|K|Emma Karlsson|31 år, barnskötare, Ludvika
+C|393467|35|M|Markus Nordh|35 år, civilingenjör, Ludvika
+C|393468|34|M|Jimmy Björk|34 år, snickare, Ludvika
+C|393469|50|K|Birgitta Sjögren|50 år, svetsare
+C|512356|55|M|Stefan Ekman|
+C|125910|61|M|Benny Rosengren|Linkontrollör, Ludvika
+C|125911|71|M|Roland Johansson|Ludvika
+C|125912|52|M|Fredrik Trygg|Bryggeriarbetare, Grängesberg
+C|125913|29|K|Mari Karlsson Björk|Undersköterska, Grängesberg
+C|125914|50|M|Torbjörn Norman|Montör, Grängesberg
+C|125915|68|M|Lahan Konov|Ludvika
+C|125916|40|M|Mattias Kron Eriksson|Bryggeriarbetare, Grängesberg
+C|125917|61|M|Lennart Jansson|Grängesberg
+C|125918|58|M|Tommy Eriksson|Grängesberg
+C|125919|55|K|Annkatrin Krainer|Undersköterska, Grängesberg
+C|125920|62|M|Lennart Sand|Ludvika
+C|125921|54|M|Mikael Johansson|Grängesberg
+C|125922|51|M|Jarmo Jokikari|Montör, Grängesberg
+C|125923|65|K|Gunilla Åsenlund|Ludvika
+C|125924|79|M|Åke Andersson|Ludvika
+C|125925|74|M|Rolf Hasslestål|Ludvika
+C|125926|20|K|Erika Trygg|Grängesberg
+C|125927|82|M|Norbert Krainer|Ludvika
+C|125928|42|K|Sumalai Trygg|Grängesberg
+C|63814|37|M|Lars Handegard|Ludvika, 37 år
+C|63819|44|K|Ida Friberg|Ludvika, 45 år
+C|63818|50|M|Hans Esselöv|Ludvika, 50 år
+C|356234|42|K|Nall Anneli Bringås|Lärare
+C|64076|70|M|Sten G Johansson|Ludvika
+C|63825|31|K|Audrina Handegard|Ludvika, 31 år
+C|356237|47|M|Tommy Håkansson|Småbrukare
+C|356238|25|K|Linda Hellstrand|Studerande
+C|356239|49|M|Per-Ragnar Fredriksson|Sektionschef
+C|356240|71|K|Ulla Cassel|Socionom
+C|356241|30|M|Pontus Larsson|Bryggeriarbetare
+C|356242|38|K|Jenny Nodén|Tekniker
+C|356243|75|M|Lennart Palo|Pensionär
+C|356244|46|K|Lena Högberg|Lärare
+C|356245|52|M|Steine Hammar|Omsorgsassistent
+C|356246|73|K|Maj-Lis Helg-Skog|fd folkhögskolelärare
+C|356247|46|M|Tommy Nyholm|
+C|356248|38|K|Sandra Christiansen|Arbetsförmedlare
+C|356249|64|M|Swen Söderman|Nöt- och fårbonde
+C|356250|77|K|Inga Karlsson|fd lärare
+C|356251|69|M|Bo Staaf|
+C|356252|79|K|Angela Tejde|Pensionär
+C|356253|67|M|Pär Mattson|Pensionär

@@ -1,9 +1,148 @@
-2|192109|195979|195980|193001|195982|195983|195984|195985|193004|195987|192996|195989|195990|193013|195992|195993|195994|195995|195996|195997|195998|195999|196000|196001|196002|196003|196004|196005|196006|196007|196008|196009|196010
-4|55749|48814|55734|48799|55737|56467|55752|56469|56470|56471|56472|56473
-68|5825|5842|5834|42638|451128|41283|42641|5831|42643|42644|42645|42646|42647|42648|42649|42650|42651|41291|42653|42654
-1011|513450
-3|60873|78882|78883|78884|60870|78886|78887|78888|78889|78890|78891|78892|78893|78894|78895|78896|78897|78898|78899|78900
-55|328411|328412|328413|328414|328415|328416|328417|328418|328419
-1|361024|7786|361026|361027|360635|360633|360637|361031|361032|360639|360645|361035|361036|361037|361038|360646|360647|361041|361042|361043
-110|122853
-5|375341|375340|375347|375345|375344|375342|375346|376058|376059|376060|376061|376062|376063
+T|Lycksele
+A|2|192109|195979|195980|193001|195982|195983|195984|195985|193004|195987|192996|195989|195990|193013|195992|195993|195994|195995|195996|195997|195998|195999|196000|196001|196002|196003|196004|196005|196006|196007|196008|196009|196010
+A|4|55749|48814|55734|48799|55737|56467|55752|56469|56470|56471|56472|56473
+A|68|5825|5842|5834|42638|451128|41283|42641|5831|42643|42644|42645|42646|42647|42648|42649|42650|42651|41291|42653|42654
+A|1011|513450
+A|3|60873|78882|78883|78884|60870|78886|78887|78888|78889|78890|78891|78892|78893|78894|78895|78896|78897|78898|78899|78900
+A|55|328411|328412|328413|328414|328415|328416|328417|328418|328419
+A|1|361024|7786|361026|361027|360635|360633|360637|361031|361032|360639|360645|361035|361036|361037|361038|360646|360647|361041|361042|361043
+A|110|122853
+A|5|375341|375340|375347|375345|375344|375342|375346|376058|376059|376060|376061|376062|376063
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|192109|62|K|Lilly Bäcklund|62 år, Kommunalråd, Lycksele
+C|195979|58|M|Stig-Lennart Karlsson|58 år, Förbundschef, Byssträsk
+C|195980|71|K|Gunilla Johansson|71 år, Pensionär, Lycksele
+C|193001|53|M|Lars Ohlsson|53 år, Ambulanssjukvårdare, Lycksele
+C|195982|57|K|Ingrid Ölmebäck|57 år, Undersköterska, Lycksele
+C|195983|47|M|Jamal Mouneimne|47 år, Energiingenjör, Lycksele
+C|195984|75|K|Marika Lindgren|75 år, Pensionär, Lycksele
+C|195985|55|M|Mikael Ölmebäck|55 år, Fastighetsskötare, Lycksele
+C|193004|66|K|Marita Fransson|66 år, Undersköterska, Lycksele
+C|195987|23|M|Simon Klasson|23 år, Säljare, Lycksele
+C|192996|55|K|Anna-Lena Danielsson|55 år, Avdelningschef, Lycksele
+C|195989|69|M|Krister Lundgren|69 år, Pensionär, Kristineberg
+C|195990|59|K|Maria Karlsson|59 år, Förskollärare, Byssträsk
+C|193013|56|M|Richard Söderlund|56 år, Boendehandledare, Lycksele
+C|195992|55|K|Laila Axelsson Jonsson|55 år, Avdelningschef, Lycksele
+C|195993|57|M|Joel Bäcklund|57 år, Vaktmästare, Lycksele
+C|195994|26|K|Sara Lindblom|26 år, Butiksanställd, Lycksele
+C|195995|75|M|Sven Roosqvist|75 år, Konsult, Lycksele
+C|195996|62|K|Lisbeth Aronsson|62 år, Pensionär, Kristineberg
+C|195997|39|M|Johan Juhlén|39 år, Tjänsteperson, Lycksele
+C|195998|60|K|Ann-Britt Edin|60 år, Gymnasielärare, Lycksele
+C|195999|72|M|Håkan Eleblad|72 år, Pensionär, Örträsk
+C|196000|41|K|Camilla Persson|41 år, Rektor, Lycksele
+C|196001|23|M|Yusuf Haidari|26 år, Student, Lycksele
+C|196002|54|K|Annelie Rydenfalk Lundholm|54 år, Tandsköt., Lycksele
+C|196003|77|M|Leopold Oddvall|77 år, f.d. Arbetsförmedlare, Lycksele
+C|196004|52|K|Anneli Jakobsson|52 år, Träindustriarbetare, Lycksele
+C|196005|72|M|Arne Hellström|72 år, Pensionär, Lycksele
+C|196006|76|K|Sonja Sandqvist|76 år, Pensionär, Lycksele
+C|196007|68|M|Sten Troberg|68 år, Pensionär, Lycksele
+C|196008|37|K|Inger-Ann Omma|37 år, Advokat, Lycksele
+C|196009|64|M|Rolf Pehrsson|64 år, Pensionär, Hedlunda
+C|196010|21|K|Fannie Karlsson|21 år, Säljare, Lycksele
+C|55749|35|M|Jon Essebro|35 år, Industriarbetare, Husbondliden, Lycksele
+C|48814|47|K|Petra Svedin|47 år, Företagare, Umgransele, Lycksele
+C|55734|57|K|Kerstin Olla Grahn|57 år, Socionom, Björksele, Lycksele
+C|48799|82|M|Kent Larsen|82 år, Turistföretagare, Lycksele
+C|55737|67|K|Rachel Stenberg|67 år, Sjuksköterska, Lycksele
+C|56467|37|M|Stefan Dafors|Butikschef, Lycksele
+C|55752|82|M|Hans Mårtensson|82 år, fd Gymnasielärare, Lycksele
+C|56469|51|M|Mattias Markusson|Studerande, Lycksele
+C|56470|80|M|Yngve Berg|Sågverksägare, Blåviksjön
+C|56471|76|K|Marice Jonsson|Pensionär, Lycksele
+C|56472|76|K|Annett Berg|Egenföretagare, Blåviksjön
+C|56473|85|M|John Carlsson|Fd Poliskommissarie, Lycksele
+C|5825|52|M|Roland Sjögren|personligt ombud, Lycksele
+C|5842|54|K|Betty-Ann Nilsson|ortoptist, Lycksele
+C|5834|59|M|Josef Nygren|företagare, Lycksele
+C|42638|41|K|Hanna Blomqvist|gymnasielärare, Lycksele
+C|451128|68|M|Kurt Forslund|konsult, Lycksele
+C|41283|30|K|Rebecka Nygren|läkare, Lycksele
+C|42641|31|M|Thomas Jacobsson|företagare, brandman, Rusksele
+C|5831|51|K|Anna-Carin Jonsson|ekonom, Lycksele
+C|42643|66|M|Håkan Lindgren|fastighetsskötare, Lycksele
+C|42644|51|K|Helen Jacobsson|Rusksele
+C|42645|69|M|Åke Lindgren|konsult, Lycksele
+C|42646|72|K|Gun-Karin Karlsson|administratör, Lycksele
+C|42647|56|M|Peder Nilsson|konsult, Bratten
+C|42648|73|K|Siw Engelbertsson|senior, Husbondliden
+C|42649|57|M|Umberto Bjuhr|kansliadministratör, Lycksele
+C|42650|51|K|Ann-Charlotte Jonsson|begravningsrådgivare, Lycksele
+C|42651|76|M|Sven-Olof Dahlgren|pensionär, Rusksele
+C|41291|51|K|Ellinor Målaredotter|verksamhetschef, Lycksele
+C|42653|31|M|Anton Israelsson|företagare, Rusksele
+C|42654|64|M|Samuel Jakobsson|företagare, Rusksele
+C|513450|80|M|Harald Holmberg|
+C|60873|51|M|Rickard Sundberg|Lycksele
+C|78882|42|K|Victoria Hvirfvel|Lycksele
+C|78883|36|M|Rickard Grad|Lycksele
+C|78884|68|K|Charlotta Öhrman|Örträsk
+C|60870|50|M|Per Dahlgren|Lycksele
+C|78886|49|K|Annette Staaf-Högberg|Lycksele
+C|78887|61|M|Martin Karlsson|Lycksele
+C|78888|51|K|Carina Broman|Lycksele
+C|78889|74|M|Kurt Fällman|Lycksele
+C|78890|44|K|Maria Staaf|Lycksele
+C|78891|21|M|Oskar Hvirfvel|Lycksele
+C|78892|43|K|Carola Olofsson|Rusksele
+C|78893|71|M|Jan-Åke Westman|Lycksele
+C|78894|40|K|Sandra Dahlgren|Lycksele
+C|78895|44|M|Krister Jonsson|Lycksele
+C|78896|41|K|Anna Dahlgren|Rusksele
+C|78897|49|M|Jörgen Olofsson|Rusksele
+C|78898|43|K|Louise Lindqvist-Renman|Lycksele
+C|78899|72|M|Jan-Erik Staaf|Lycksele
+C|78900|61|K|Ulrika Gustafsson|Jonstorp
+C|328411|60|K|Ann-Louise Hansson|60 år, Leg. Lärare, Lycksele
+C|328412|45|K|Eva Lycksell|45 år, Leg. Lärare, Lycksele
+C|328413|54|M|Kai Pärnänen|54 år, Leg. lärare
+C|328414|55|M|Curt Backteman|55 år, Boendehandledare
+C|328415|60|K|Ann-Marie Backteman|60 år, Personlig assistent
+C|328416|24|K|Halema Faisal Obeid|24 år, Undersköterska
+C|328417|83|M|Gustav Lindvåg|83 år, Pensionär
+C|328418|65|M|Rickard Hansson|65 år, Sjuksköterska, Lycksele
+C|328419|34|M|Petrus Nyberg|34 år, Personlig assistent
+C|361024|69|M|Christer Rönnlund|69, oppositionsråd, Lycksele
+C|7786|53|K|Elisabeth Björnsdotter Rahm|53, verksamhetschef, Lycksele
+C|361026|48|M|Christer Hedlund|48, entreprenör, Lycksele
+C|361027|35|K|Denice Nygren|35, arbetskonsulent, Lycksele
+C|360635|66|K|Ewa Stuge|66, barnsjuksöterska, Örträsk
+C|360633|71|K|Catharina Viktorsson|71, sjuksköterska, Lycksele
+C|360637|61|M|Michael Nilsson|61, företagare, Lycksele
+C|361031|61|M|Christer Näsström|61, företagare, Lycksele
+C|361032|48|K|Anna Ackemo|48, distriktssjuksköterska, Lycksele
+C|360639|65|M|Dick B Nyberg|65, diakon, Lycksele
+C|360645|60|K|Mona Bertheim|60, Lycksele
+C|361035|49|M|Morten Lund|49, Lycksele
+C|361036|52|K|Ingela H. Johansson|52, Lycksele
+C|361037|77|M|Håkan Carlström|77, pensionär, Lycksele
+C|361038|50|K|Sara Sikström|50, undersköterska, Lycksele
+C|360646|26|M|Pontus Nygren|26, bitr hotellchef, Lycksele
+C|360647|59|M|Inge Dahlgren|59, utbildare, Rusksele
+C|361041|75|M|Elis Ivarsson|75, ingenjör, Lycksele
+C|361042|86|M|Bert Sandström|86, pensionär, Lycksele
+C|361043|34|M|Johan Ekbäck|34, Vormsele
+C|122853|65|M|Thomas Palmblad|Pensionär, Lycksele, 65
+C|375341|59|M|Mikael Jakobsson|59, antikvarie, Lycksele
+C|375340|39|K|Anna Dahlén|39, förskollärare, Lycksele
+C|375347|72|M|Lars Andersson|72, lärare, Lycksele
+C|375345|50|K|Anna Hillman Forsberg|50, sjuksköterska, Lycksele
+C|375344|55|M|Mikael Pallin|56, systemutvecklare, Lycksele
+C|375342|59|K|Eve Högberg|59, lokalvårdare, Lycksele
+C|375346|40|M|Fredrik Holmgren|40, konsult, Lycksele
+C|376058|37|K|Louise Löfqvist|Doktorand, 37 år
+C|376059|72|M|Anders Dahlén|Pensionär, 72 år
+C|376060|36|K|Maria Länta|Läkare, 36 år
+C|376061|68|K|Lisa Persson-Dahlén|Pensionär, 68 år
+C|376062|28|M|Tobias Bäcklund|Industriarbetare, 28 år
+C|376063|41|K|Mariah Kanon|Redovisningskonsult, 41 år

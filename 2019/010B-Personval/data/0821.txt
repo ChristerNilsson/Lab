@@ -1,6 +1,130 @@
-2|6601|176147|176148|176149|8248|176151|176152|176153|19585|176155|176156|176157|176158|176159|176160|8251|176162|176163|176164|176165|176166|176167|176168|176169|176170|176171|176172|176173|176174|176175|176176|176177|176178|6602|176180|176181|176182|19576|176184
-4|291527|291528|291529|291530|291531|291532|291533|291534|291535|291536|291537|291538|291539|291540|291541|291542|291543|291544|291545|291546|291547|291548|291549|291550|291551|291552|291553|291554|291555|291556|291557|291558
-68|25238|37430|203694|37411|203696|37425|203698|203699|37418|203701|203702|203703|203704|203705|203706|203707|203708
-1|160453|160460|161165|161166|161167|161168|161169|161170|161171|161172|161173|161174
-110|60665|60666|60667|60668|60669|60670|60671|60672|60673|60674|60675|60676|508240|512895|515314
-5|367630|430818
+T|Högsby
+A|2|6601|176147|176148|176149|8248|176151|176152|176153|19585|176155|176156|176157|176158|176159|176160|8251|176162|176163|176164|176165|176166|176167|176168|176169|176170|176171|176172|176173|176174|176175|176176|176177|176178|6602|176180|176181|176182|19576|176184
+A|4|291527|291528|291529|291530|291531|291532|291533|291534|291535|291536|291537|291538|291539|291540|291541|291542|291543|291544|291545|291546|291547|291548|291549|291550|291551|291552|291553|291554|291555|291556|291557|291558
+A|68|25238|37430|203694|37411|203696|37425|203698|203699|37418|203701|203702|203703|203704|203705|203706|203707|203708
+A|1|160453|160460|161165|161166|161167|161168|161169|161170|161171|161172|161173|161174
+A|110|60665|60666|60667|60668|60669|60670|60671|60672|60673|60674|60675|60676|508240|512895|515314
+A|5|367630|430818
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|6601|45|M|Jonas Erlandsson|industriarbetare, Högsby, 45 år
+C|176147|61|K|Diana Bergeskans|Undersköterska, 61 år
+C|176148|59|M|Carl Axel Blom|Lantarbetare, 59 år
+C|176149|40|K|Linda Robertsson|Projektsamordnare,  40 år
+C|8248|38|M|Magnus Gabrielsson|beredare, Högsby, 38 år
+C|176151|53|K|Marinette Mållberg|Undersköterska, 53 år
+C|176152|56|M|Per Ola Herdinius|Plåtslagare, 56 år
+C|176153|52|K|Gith Wiksten|Handledare, 52 år
+C|19585|63|M|Åke Gustavsson|lärare, Långemåla, 63 år
+C|176155|57|K|Catarina Thunberg|Fritidspedagog, 58 år
+C|176156|55|M|Torbjörn Carlreus|Arbetsmarknadssekreterare, 55 år
+C|176157|75|K|Ingrid Axelsson|Pensionär, 76 år
+C|176158|46|M|Andreas Furuskog|Industriarbetare, 46 år
+C|176159|55|K|Heléne Josefsson|Undersköterska,55 år
+C|176160|67|M|Karl Axel Palmberg|Pensionär,67år
+C|8251|39|K|Sabina Bergeskans Skogh|lärare, Högsby, 39 år
+C|176162|64|M|Mats Persson|Verkstadsarbetare, 64 år
+C|176163|51|K|Susanne Björk|Enhetschef, 51 år
+C|176164|70|M|Lars Backlund|Pensionär, 70 år
+C|176165|63|K|Margareta Johansson|Socialarbetare, 63 år
+C|176166|55|M|Olle Andersson|Industriarbetare, 55 år
+C|176167|54|K|Marie Bjerkhaug|Undersköterska, 54 år
+C|176168|58|M|Kent Sören Bergström|Byggnadsarbetare, 58 år
+C|176169|22|M|Sebastian Karlsson|Vaktmästare, 22 år
+C|176170|59|M|Tommy Karlsson|Vårdare, 59 år
+C|176171|70|M|Hans Gustavsson|Pensionär, 73 år
+C|176172|39|M|Tobias Nordahl|Brandman, 39 år
+C|176173|48|K|Malin Jonsson|Försäljare, 48 år
+C|176174|63|M|Mats Thunberg|Arbetssökande, 63år
+C|176175|70|K|Inger Gustavsson|Pensionär, 68 år
+C|176176|49|M|Robert Bucht|Elektriker, 49 år
+C|176177|37|K|Josefin Wistermark|Barnskötare, 37 år
+C|176178|24|M|Albin Herdinius|Barnskötare, 24 år
+C|6602|60|K|Yvonne Hagberg|landstingspolitiker, Långemåla, 60 år
+C|176180|72|M|Roland Erlandsson|Pensionär, 72 år
+C|176181|33|K|Johanna Klang Shuker|Lärare, 33 år
+C|176182|73|M|Inge Robertsson|Pensionär,73år
+C|19576|60|K|Elisabeth Hultqvist|industriarbetare, Högsby, 60 år
+C|176184|73|K|Ylva Eriksson|Pensionär, 74 år
+C|291527|41|K|Stihna Johansson Evertsson|42 år, kommunstyrelsordförande, Högsby
+C|291528|60|M|Per Gröön|60år, bankman, Fagerhult
+C|291529|36|K|Lina Danlid Burke|36 år, entreprenör, Drageryd
+C|291530|70|M|Mikael Jonnerby|69 år, mångsysslare, Långemåla
+C|291531|58|K|Kerstin Karlström|58 år, leg. sjuksköterska, Högsby
+C|291532|66|M|Ingemar Svanström|66 år, pensionär, Högsby
+C|291533|28|K|Sara Gustafsson|28 år, studerande, Högsby
+C|291534|27|M|Martin Joelsson|27 år, civilekonom, Gilleberga
+C|291535|22|M|Mahmoud Al Mokdad|23 år, studerande, Högsby
+C|291536|40|M|David Karlsson|39 år, montageledare, Drageryd
+C|291537|53|M|Thomas Ivarsson|53 år, lantbrukare, Valåkra
+C|291538|52|K|Maggan Drottman|52 år, egen företagare, Sinnerbo
+C|291539|26|M|Rasmus Pettersson|26 år, konstruktör, Långemåla
+C|291540|34|M|Fouzi Eddin Melli|34 år, studerande, Högsby
+C|291541|69|K|Dea Carlsson|69 år, pensionär, Långemåla
+C|291542|56|M|Roger Gustafsson|57 år, vaktmästare, Högsby
+C|291543|60|K|Helene Carlsson|60 år, hudterapeut, Drageryd
+C|291544|74|M|Gunder Sandin|74 år, pensionär, Fågelfors
+C|291545|53|K|Ana Rosa Lopes|53 år, undersköterska, Högsby
+C|291546|43|M|Rickard Persson|43 år, transportledare, Högsby
+C|291547|52|K|Susanne Olsson|52 år, handläggare, Farshult
+C|291548|63|M|Stefan Karlsson|63 år, konsult, Drageryd
+C|291549|73|K|Marianne Ek|74 år, leg. sjuksköterska, Staby
+C|291550|22|M|Ahmed Al Mahamid|22 år, studiehandledare, Högsby
+C|291551|65|M|Lars Danlid|65 år, entreprenör, Drageryd
+C|291552|24|K|Linnea Evertsson|24 år, studerande, Långemåla
+C|291553|66|M|Lars-Willy Johansson|66 år, vvs-montör, Fagerhult
+C|291554|41|K|Kholud Gharib|41 år, egen företagare, Högsby
+C|291555|64|M|Lars-Magnus Ek|64 år, bonde, Hammarby
+C|291556|51|M|Anders Pettersson|51 år, lantbrukare, Grönskåra
+C|291557|86|M|Lars-Erik Hellgren|86 år, pensionär, Fågelfors
+C|291558|81|M|Einar Carlsson|81 år, skogsbrukare, Staby
+C|25238|62|M|Lars Elmborg|Högsby
+C|37430|60|K|Heléne Danielsson|arbetsförmedlare, Berga
+C|203694|47|K|Tuva Bojstedt|egen företagare och lärare, Högsby
+C|37411|61|M|Per-Eric Ohlsson|leg sjuksköterska, Berga
+C|203696|75|K|Berith Åberg Alsiö|pensionär, Högsby
+C|37425|63|K|Marita Björkvall|medicinsk sekreterare, Långemåla
+C|203698|60|K|Elisabet Olsson|leg sjuksköterska, Högsby
+C|203699|52|M|Tommy Hamnert|regionchef, Högsby
+C|37418|59|K|Melchora Palma De Chauca|språklärare, Högsby
+C|203701|63|M|Åke Nilsson|bussförare, Högsby
+C|203702|64|M|Okbamikael Redae|tolk, Högsby
+C|203703|59|M|Jan-Owe Olsson|bussförare, Högsby
+C|203704|60|M|Yorge Chauca|svetsare, Högsby
+C|203705|73|M|Eino Laakso|Ruda
+C|203706|67|M|Lambert Rusingiza Mutijima|företagare, Ruda
+C|203707|80|K|Solveig Karlsson|pensionär, Högsby
+C|203708|61|M|Jan Erlandsson|it-tekniker Berga
+C|160453|59|M|Anders Svensson|59 år, Företagare, Fagerhult
+C|160460|41|M|Marcus Schön|41 år, Snickare, Högsby
+C|161165|58|K|Kerstin Möller|58 år, Socialsekreterare, Högsby
+C|161166|29|M|John Friberg|29 år, Tekniker, Högsby
+C|161167|79|K|Monika Olsberg|79 år, Leg. sjuksköterska, Bohult
+C|161168|74|M|Wilhelm Alström|74 år, Civilingenjör, Berga
+C|161169|35|K|Åsa Danhall|35 år, Butiksbiträde, Fagerhult
+C|161170|45|K|Ulrica Rosvall|45 år, Ridlärare, Fagerhult
+C|161171|35|K|Josefin Gustafsson|35 år, Tomatodlare, Bjärshult
+C|161172|57|K|Yvonne Svensson|57 år, Undersköterska, Fagerhult
+C|161173|58|M|Inge Kastberg|58 år, Ingenjör, Basthult
+C|161174|41|M|Claes Birgersgård|41 år, Bonde, Ruda
+C|60665|67|M|Leif Gustavsson|Lantbrukare, Högsby
+C|60666|75|M|Sven Liljeblad|adjunkt, Högsby
+C|60667|73|M|Sune Olsson|pensionär, Högsby
+C|60668|63|M|Alf Adolfsson|företagare, Högsby
+C|60669|71|M|Curt Allerdahl|pensionär, Högsby
+C|60670|75|M|Jan-Erik Ek|trycktekniker, Högsby
+C|60671|58|K|Inger Johansson|sjukpensionär, Högsby
+C|60672|48|M|Patrick Baier|avfallstekniker, Högsby
+C|60673|65|M|Hans Gustavsson|pensionär, Högsby
+C|60674|68|K|Inga Riikonen|pensionär, Högsby
+C|60675|57|M|Evert Andersson|fabriksarbetare, Berga
+C|60676|46|K|Manee Liljeblad|lärare, Fågelfors
+C|508240|65|M|Lennart Persson|
+C|512895|75|M|Berndt Limegård|
+C|515314|71|M|Rolf Olof Tommy Green|
+C|367630|64|M|Tommy Palmgren|Ämneslärare
+C|430818|67|M|Ola Rosevall|f.d. Busschaufför, 67 år

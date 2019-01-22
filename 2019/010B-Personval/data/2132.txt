@@ -1,9 +1,153 @@
-2|29159|34371|34372|34373|34374|29356|34376|34377|34378|34379|34380|34381|34382|34383|34384|34385|34386|34387|34388|34389|34390|34391|34392|34393|34394
-4|295095|295096|295097|295098|295099|295100|295101|295102|295103|295104|295105|295106|295107|295108|295109|295110|295111|295112|295113
-68|19513|19514|19515|19516|19517|19518|19519|19520|19521|19522|19525|19524|19526|19523
-3|330334|330335|330336|330337|330338|330339|330340|480820
-55|113139|113140|113141|113142|113143
-1|168783|168784|168785|168786|168787|168788|168789|168790|168791|168792|168793|168794|168795|168796|168797|168798|168799|168800|168801|168802
-1343|194830|194831|194832|194833|194834|194835|194836|194837|194838|194839|194840
-110|341528|341591|342423|341553|342425|341579|342439|499215|342432|342427|342428|342429|342430|341595|342433|342434|342436|342437|342438|500775|514504|514510|514519|342421|342435|501396
-5|340285|340286|340287|340288|340289|340290|340291
+T|Nordanstig
+A|2|29159|34371|34372|34373|34374|29356|34376|34377|34378|34379|34380|34381|34382|34383|34384|34385|34386|34387|34388|34389|34390|34391|34392|34393|34394
+A|4|295095|295096|295097|295098|295099|295100|295101|295102|295103|295104|295105|295106|295107|295108|295109|295110|295111|295112|295113
+A|68|19513|19514|19515|19516|19517|19518|19519|19520|19521|19522|19525|19524|19526|19523
+A|3|330334|330335|330336|330337|330338|330339|330340|480820
+A|55|113139|113140|113141|113142|113143
+A|1|168783|168784|168785|168787|168788|168789|168790|168791|168792|168793|168794|168795|168796|168797|168798|168799|168800|168801|168802
+A|1343|194830|194831|194832|194833|194834|194835|194836|194837|194838|194839|194840
+A|110|341528|341591|342423|341553|342425|341579|342439|499215|342432|342427|342428|342429|342430|341595|342433|342434|342436|342437|342438|500775|514504|514510|514519|342421|342435|501396
+A|5|340285|340286|340287|340288|340289|340290|340291
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1343|nop|nordanstigspartiet.se
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|29159|40|M|Ola Wigg|40 år, Nordanstig
+C|34371|65|K|Anette Nybom|65 år, Lärare, Bergsjö
+C|34372|34|M|Erik Eriksson Neu|34 år, Ombudsman, Ilsbo
+C|34373|59|K|Sigbritt Persson|59 år, Leg.tandhygienist, Hassela
+C|34374|54|M|Kent Hammarström|54 år, Elkraftingenjör, Gnarp
+C|29356|66|K|Britt Sjöberg|66 år, Nordanstig
+C|34376|67|M|Sven-Erik Sjölund|66 år, Målare, Ilsbo
+C|34377|72|K|Carin Walldin|72 år, Pensionär, Gnarp
+C|34378|31|M|Oskar Lundin|31 år, Industriarbetare, Hassela
+C|34379|43|K|Svetlana Molberg|43 år, Sjuksköterska, Gnarp
+C|34380|41|M|Christoffer Johansson|41 år,Trafiklärare, Ilsbo
+C|34381|34|K|Mandy Eriksson Neu|34 år, Administratör, Ilsbo
+C|34382|36|M|Magnus Willing|36 år, Strömsbruk
+C|34383|44|M|Daniel Gunsth|44 år, Elkonsult, Gnarp
+C|34384|24|M|Abdirashid Mohamed Ali|24 år, Barnskötare, Bergsjö
+C|34385|24|M|Emil Thyr|24 år, Habiliteringspersonal, Ilsbo
+C|34386|73|M|Ulf Löfgren|73 år, Pensionär, Stocka
+C|34387|24|K|Teresia Olsson|24 år, Sjuksköterska, Gnarp
+C|34388|54|M|Lars Svensson|54 år, Bilmekaniker, Ilsbo
+C|34389|74|M|Boerje Bohlin|74 år, Pensionär, Bergsjö
+C|34390|41|K|Cecilia Persson|41 år, Butiksmedarbetare, Ilsbo
+C|34391|46|K|Anna Savolainen|46 år, Habiliteringspersonal, Jättendal
+C|34392|64|M|Stefan Nybom|64 år, Socionom, Bergsjö
+C|34393|73|K|Birgit Dahlström|73 år, Barnskötare, Gnarp
+C|34394|64|M|Bengt-Ola Olsson|64 år, Bergsjö
+C|295095|71|M|Stig Eng|lantbrukare, Harmånger
+C|295096|53|K|Lisa Bergman Östman|53 år, Gnarp, egenföretagare
+C|295097|54|K|Carina Ohlson|personlig assistent, Bergsjö
+C|295098|46|K|Pernilla Kardell|undersköterska, Jättendal
+C|295099|36|M|Martin Äng|Bygginformatör, Harmånger
+C|295100|51|M|Lars-Ove Gradin|51 år, Bergsjö, egenföretagare
+C|295101|52|M|Per-Åke Kardell|egenföretagare, Jättendal
+C|295102|19|M|Edvin Östlund-Quist|studerande, Bergsjö
+C|295103|73|K|Yvonne Kardell|73 år, Jättendal, pensionär/vårdbiträde
+C|295104|70|M|Anders Broberg|70 år, Gnarp, åkare
+C|295105|73|M|Sven-Åke Eriksson|74 år, Ilsbo, pensionär
+C|295106|32|M|Johan Åkerlund|32 år, Jättendal, egenföretagare
+C|295107|70|K|Monica Larsson|70 år, Ilsbo, undersköterska
+C|295108|77|M|Rolf Colling|77 år, Jättendal, egenföretagare
+C|295109|44|K|Camilla Karlsson|44 år, Gnarp, redovisningskonsult
+C|295110|55|K|Ann-Catrin Åsåker|55 år, Ilsbo, förskolllärare
+C|295111|74|K|Ingvor Silén|73 år, Harmånger, pensionär
+C|295112|82|M|Göte Larsson|82 år, Bergsjö, lantbrukare
+C|295113|70|M|Kjell Krans|70 år, Harmånger, pensionär
+C|19513|29|K|Magdalena Fagerhov|Samhällsvetare, Nordanstig
+C|19514|50|M|Patric Jonsson|Arbetsledare, Nordanstig
+C|19515|56|M|Victor Gbadegbe|Fabriksarbetare, Bergsjö
+C|19516|71|K|Eva Åkerblom|Lärare, Hassela
+C|19517|77|K|Siv Bergström|Barnmorska, Årskogen
+C|19518|36|M|Jakob Ceder|Ordningsvakt, Gnarp
+C|19519|87|K|Ethel Engberg|Pensionär, Bergsjö
+C|19520|26|M|William Svedberg|Lärare, Gnarp
+C|19521|40|K|Marie Lindgren|Egenföretagare, Gnarp
+C|19522|30|M|Emanuel Nilsson|Student/musiker, Gnarp
+C|19525|53|K|Marie Fridman-Andersson|Boendestödjare socialpsykiatrin, Älgered
+C|19524|90|M|Henrik Markgren|pensionär,Harmånger
+C|19526|83|K|Elisabeth Danneskog|Pensionär, Harmånger
+C|19523|72|M|Åke Berglund|Präst, Harmånger
+C|330334|55|M|Per-Ola Wadin|Egenföretagare, Bergsjö
+C|330335|37|K|Anna Sundin|Lärare, Bergsjö
+C|330336|53|M|Peter Åström|Egenföretagare, Bergsjö
+C|330337|62|K|Bozena Berglin|Lärare, Bergsjö
+C|330338|73|M|Börje Lindblom|Egenföretagare,Gnarp
+C|330339|54|M|Anders Elfgren|Egenföretagare,Bergsjö
+C|330340|78|K|Lisbeth Lagerborg|Fd Enhetschef, Bergsjö
+C|480820|53|K|Maria Berg|Fd Sjuksköterska, Gnarp
+C|113139|53|K|Annelie Persson Bäck|Ilsbo
+C|113140|45|K|Angelica Äng|Ilsbo
+C|113141|70|M|Kjell Bergström|Bergsjö
+C|113142|61|K|Catarina Qviberg|Bergsjö
+C|113143|55|M|Hans-Erik Hall|Hassela
+C|168783|50|M|Tor Tolander|50 år, astrolog, Hassela
+C|168784|41|K|Josefine Schmidt Sjöblom|41 år, företagare, Strömsbruk
+C|168785|48|M|Daniel Arenholm|48 år, tillväxtstrateg, Nordanstig
+C|168787|46|M|Michael Wallin|46 år, teknikinformatör/företagare, Gnarp
+C|168788|59|K|Annelie Åkerlund|59 år, undersköterska, Strömsbruk
+C|168789|37|M|Lars Hed|37 år, civilingenjör, Bergsjö
+C|168790|37|K|Tua Eurén|37 år, undersköterska/vårdkordinator, Bergsjö
+C|168791|22|M|Adrian Hellman|22 år, lärare/elevstöd, Bergsjö
+C|168792|62|K|Annika P Berglund|62 år, leg. barnmorska, Årskogen
+C|168793|67|M|Kaj Engström|67 år, ingenjör, Mellanfjärden
+C|168794|24|K|Saga Tolander|24 år, lärarstudent, Hassela
+C|168795|48|K|Berit Broberg Larsson|48 år, sjuksköterska, Hånick
+C|168796|73|K|Elisabet Westrin|73 år, pensionär, Gnarp
+C|168797|40|M|Michael Löfdahl|40 år, beroendeteapuet, Hassela
+C|168798|40|K|Anna Mattsson|40 år, sjuksköterska, Bergsjö
+C|168799|70|K|Britt-Marie Åström|70 år, företagare, Bergsjö
+C|168800|69|K|Leena Lindblom|69 år, sjuksköterska, Mellanfjärden
+C|168801|76|M|Håkan Larsson|76 år, lantmästare, Mellanfjärden
+C|168802|66|K|Anita Alm|66 år, sjuksköterska, Nordanstig
+C|194830|44|M|Stefan Bergh|Ilsbo, 44 år, Restaurangchef
+C|194831|46|K|Tina Torstensson|Bergsjö, 46 år, Lärare
+C|194832|27|M|Andreas Högdahl|Hassela, 27 år, Fastighetsskötare
+C|194833|56|K|Helena Andersson|Gnarp, 56 år, Butikschef
+C|194834|47|M|Natrix Öjemark|Ilsbo, 47 år, Teknisk konsult/Elektriker
+C|194835|34|K|Camilla Jakobsson|Harmånger, 34 år, Butiksägare
+C|194836|63|M|Bernt Larsson|Pensionär, Gnarp
+C|194837|32|K|Anne Strömstedt|Hassela, 32 år, Förskollärare
+C|194838|24|M|Daniel Jakobsson|Harmånger, 24 år, Butiksägare
+C|194839|47|K|Susanne Svensson|Ilsbo, 47 år, Kock/Kallskänka
+C|194840|18|M|Lucas Idén Åslin|Gnarp, 18 år, Studerande
+C|341528|29|K|Sandra Bjelkelöv|29, undersköterska, Jättendal
+C|341591|56|M|Michael Gradin|58, boendestödjare, Hassela
+C|342423|45|M|Johan Norrby|45, teletekniker, Gnarp
+C|341553|64|K|Suzanne Hedberg|64, ekonom, Strömsbruk
+C|342425|54|M|Thomas Hansson|
+C|341579|32|K|Camilla Wrangfalk|32, lastbilschaufför, Ilsbo
+C|342439|64|M|Kjell Eriksson|64, byggnadsingenjör, Bergsjö
+C|499215|59|K|Ann-Sofie Lind|
+C|342432|49|M|Roger Sjöblom|
+C|342427|55|M|Mikael Ahlbom|
+C|342428|51|K|Anneli Ödman|
+C|342429|59|M|Göran Persson|
+C|342430|44|M|Per Persson|
+C|341595|30|K|Marika Löf|30, chaufför, Bergsjö
+C|342433|74|M|Jan Ola Hall|
+C|342434|46|M|Roger Ödman|
+C|342436|72|K|Eva Kristina Andersson|
+C|342437|77|M|Valter Lööw|
+C|342438|59|K|Mona Nordin|59, undersköterska, Stocka
+C|500775|66|K|Lillemor Ersson|66, pensionär, Harmånger
+C|514504|23|M|Daniel Jabbari|23, bilmekaniker, Hassela
+C|514510|33|M|Patrik Svahn|34, personalchef, Ilsbo
+C|514519|53|K|Nina Ahlbom|53, personlig assistent, Harmånger
+C|342421|53|K|Solveig Wiberg|
+C|342435|70|M|Sven-Olof Nord|
+C|501396|29|M|Christoffer Nordström|
+C|340285|50|K|Petra Modée|biodlare, Nordanstig
+C|340286|42|M|Petter Bykvist|Lärare, Bergsjö
+C|340287|36|K|Ulrika Jonsäll|Lärare, Jättendal
+C|340288|62|M|Göran Thybäck|Författare, Mellanfjärden
+C|340289|57|K|Anette Nilsson|Kontorsarbetare, Gnarp
+C|340290|36|M|Per Dahlström|Rektor, Stocka
+C|340291|49|K|Hanna Tolander|astrolog, Nordanstig

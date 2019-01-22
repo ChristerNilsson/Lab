@@ -1,11 +1,158 @@
-2|44358|44359|44360|44361|44362|44363|44364|44365|44366|44367|44368|44369|44370|44371|44372|44373|44374|44375|44376|44377|44378|44379|44380|44381|44382|44383|44384|44385|44386|44387|44388|44389|44390|44391|44392|44393|44394|44395|44396
-4|1947|17091|17092|17093|17094|17095|17096|17097|1991|17099|17100|17101|17102|17103|17104|17105|17106|17107|17108|17109|32743
-1392|501129|501130
-68|249188|249199|249438|249439|249440|249441|248814|249443|249444|249445|249446|249447|249448|249449
-1353|395529|395530|395532|395533|395534|395535|395536
-3|237150|237151|237152|237153|237154|237155|237156|237157|237158|237159|237160
-55|82473|293145|293146|293147|293148|293149|293150
-1|418162|418163|418164|418165|418166|418167|418168|418169|418170|418171|418172|418173|418174|418175|418176|418177
-110|68681|68682|68683|68684|68685|68686
-1401|501129|501130|513457|513459|515685|515686
-5|234430|239229|239230|234443|239232|239233|239234|239235
+T|Åmål
+A|2|44358|44359|44360|44361|44362|44363|44364|44365|44366|44367|44368|44369|44370|44371|44372|44373|44374|44375|44376|44377|44378|44379|44380|44381|44382|44383|44384|44385|44386|44387|44388|44389|44390|44391|44392|44393|44394|44395|44396
+A|4|1947|17091|17092|17093|17094|17095|17096|17097|1991|17099|17100|17101|17102|17103|17104|17105|17106|17107|17108|17109|32743
+A|1392|501129|501130
+A|68|249188|249199|249438|249439|249440|249441|248814|249443|249444|249445|249446|249447|249448|249449
+A|1353|395529|395530|395532|395533|395534|395535|395536
+A|3|237150|237151|237152|237153|237154|237155|237156|237157|237158|237159|237160
+A|55|82473|293145|293146|293147|293148|293149|293150
+A|1|418162|418163|418164|418165|418166|418167|418168|418169|418170|418171|418172|418173|418174|418175|418176|418177
+A|110|68681|68682|68683|68684|68685|68686
+A|1401|501129|501130|513457|513459|515685|515686
+A|5|234430|239229|239230|234443|239232|239233|239234|239235
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1392|Få|Fucking Åmål
+B|68|KD|Kristdemokraterna
+B|1353|LibVÅ|Liberal Vision Åmål
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1401|TL|Tomas Lindström
+B|5|V|Vänsterpartiet
+C|44358|42|M|Michael Karlsson|Omvårdare, 42 år, Åmål
+C|44359|63|K|Ewa Arvidsson|Elevassistent, 63 år, Åmål
+C|44360|54|M|Mikael Norén|54 år
+C|44361|47|K|Cecilia Gustafsson|Studerande, 47 år, Åmål
+C|44362|51|M|Fredrik Bengtsson|51 år
+C|44363|43|K|Sofia Karlsson|43 år
+C|44364|68|M|Olof Eriksson|68 år
+C|44365|52|K|Maria Bertilsson|Enhetschef, 52 år, Åmål
+C|44366|48|M|Jerry Saxin|Behandlingssekreterare, 48 år, Åmål
+C|44367|70|K|Barbro Axelsson|70 år
+C|44368|60|M|Tommy Lerhman|60 år
+C|44369|71|K|Åsa Mohlin|71 år
+C|44370|58|M|Christer Örtegren|Verkstadsarbetare, 58 år, Åmål
+C|44371|71|K|Monica Lindstrand|71 år
+C|44372|71|M|Göran Karlsson|71 år
+C|44373|20|K|Ola Jaber|20 år
+C|44374|39|M|Hassan Dalo|39 år
+C|44375|55|K|Ann-Charlotte Örtegren|55 år
+C|44376|42|M|Tobias Holmberg|42 år
+C|44377|27|K|Abetare Lulaj|26 år
+C|44378|32|M|Michael Henriksson|32 år
+C|44379|52|K|Carina Carlsson|52 år
+C|44380|78|M|Rolf B Andersson|78 år
+C|44381|53|K|Eva Johansson|53 år
+C|44382|34|M|Joachim Örtegren|34 år
+C|44383|64|K|Ulla Petersson|64 år
+C|44384|57|M|Anders Hög|57 år
+C|44385|69|K|Linda Strand|69 år
+C|44386|48|M|Sahir ALDousari|48 år
+C|44387|38|M|Niklas Karlsson|38 år
+C|44388|63|M|Thord Gårdebratt|63 år
+C|44389|47|M|Niklas Larsson|47 år
+C|44390|62|M|Anders Hedin|62 år
+C|44391|53|M|Per Källvik|53 år
+C|44392|62|M|Bengt-Åke Karlsson|62 år
+C|44393|60|M|Bo-Göran Jonasson|60 år
+C|44394|22|M|Johan Kristoffersson|22 år
+C|44395|46|M|Nedal Jaber|46 år
+C|44396|57|K|Mariann Pettersen|57 år
+C|1947|67|K|Anne Sörqvist|sjuksköterska, 67 år, Åmål
+C|17091|62|M|Lars Ottosson|Tydje, 62 år, egenföretagare
+C|17092|66|M|Leif Aronsson|Ånimskog, 66 år, skogsbrukare
+C|17093|51|K|Anelia Dotcheva|Åmål, 51 år, personlig assistent
+C|17094|76|M|Kjell Kaså|Ånimskog, 75 år, företagsekonom
+C|17095|58|M|Anders Bäckström|Björkil, 58 år, lantbrukare
+C|17096|50|K|Mikaëla Thorén|Ånimskog, 50 år, arbetsförmedlare
+C|17097|56|M|Sven Callenberg|Tollebol, 56 år, lantbrukare
+C|1991|74|M|Kurt Svensson|pensionär, 74 år, Åmål
+C|17099|32|M|Toni Radanov|Åmål, 33 år, styrkelyftstränare
+C|17100|54|M|Emil Radanov|Åmål, 54 år, systemutvecklare
+C|17101|63|M|Kjell-Åke Wivatt|Mo, 63 år, egenföretagare
+C|17102|55|M|Bengt Wallin|Åmål, 55 år, projektledare
+C|17103|74|M|Holger Jonasson|Åmål, 75 år, pensionär
+C|17104|56|K|Anette Zetterlind Jansson|Åmål, 55 år, undersköterska
+C|17105|72|M|Bengt Olsson|Åmål, 71 år, fd byggmästare
+C|17106|79|M|Ulf Gärdensmo|Mo, 79 år, lantbrukare
+C|17107|52|M|Birol Yakoubov|Åmål, 52 år, operatör i plastindustrin
+C|17108|71|M|Tommy Brandin|Åmål, 71 år, pensionär
+C|17109|58|M|Nermin Pismo|Åmål, 58 år, bokhandlare
+C|32743|75|K|Birgitta Brandin|Åmål, 75 år, pensionär
+C|501129|60|M|Tomas Lindström|
+C|501130|76|M|Alf Lennart Alfredsson|
+C|249188|67|M|Christer Törnell|Fd lärare, Åmål
+C|249199|66|K|Lillemor Hårdstedt|Pensionär, Åmål
+C|249438|74|M|Harald Hårdstedt|Åmål
+C|249439|65|M|Bengt Hagström|Åmål
+C|249440|66|M|Rune Johansson|Åmål
+C|249441|65|M|Peter Landälv|Åmål
+C|248814|76|M|Charles MacWange|Pensionär, Åmål
+C|249443|62|K|Beryl Karlsson|Åmål
+C|249444|63|M|Per-Lennart Olsson|Åmål
+C|249445|60|K|Maria Ström|Åmål
+C|249446|38|M|Sergio Franco|Åmål
+C|249447|75|K|Inger Herfindal|Fengersfors
+C|249448|67|M|Bertil Karlsson|Åmål
+C|249449|57|K|Eva Lundgren|Fengersfors
+C|395529|57|K|Lisbeth Vestlund|57 år, säljare/egenföretagare, Mo
+C|395530|40|K|Paulette Olsson|39 år, undersköterska, Åmål
+C|395532|33|K|Louise Larsson|33 år, socialpedagog, Åmål
+C|395533|37|K|AnnaCarin Andersson|37 år, säljare, Mo
+C|395534|70|K|Britt-Inger Lund|70 år, f.d. högstadie- och gymnasielärare, Åmål
+C|395535|28|M|Jonas Karlsson|28 år, svetsare, Tösse
+C|395536|34|K|Susanne Pedersen|34 år, undersköterska, Åmål
+C|237150|63|M|Peter Stenberg|63, egenföretagare, Åmål
+C|237151|52|K|Lena Hesselroth|Åmål
+C|237152|86|K|Eivor Leander|Åmål
+C|237153|72|M|Klas Häggström|Tösse
+C|237154|48|K|Rebecca Asp Olson|Mo
+C|237155|53|M|Peter Vestlund|Mo
+C|237156|76|K|Gun-Britt Larsson|Fengersfors
+C|237157|57|M|Anders Hansson|Åmål
+C|237158|69|K|Nada Cvijanovic|Åmål
+C|237159|46|M|Erik Johansson|Åmål
+C|237160|65|M|Lennart Hansson|Åmål
+C|82473|44|K|Lotta Robertsson Harén|44 år, Arbetsterapeut, Fengersfors
+C|293145|39|M|Magnus Nilsson|39 år, Gymnasielärare
+C|293146|21|M|Eric Jakobsen|20 år, Studerande
+C|293147|46|K|Sara Vogel-Rödin|46 år, Kultur- och Fritidschef
+C|293148|33|K|Nina Nilsson|33 år, Gymnasielärare
+C|293149|40|K|Lisa Malm|40 år, Bagare/Egenföretagare
+C|293150|38|M|Jonatan Malm|38 år, Slöjdkonsulent
+C|418162|51|M|Michael Karlsson|51, Ingenjör, Tösse
+C|418163|67|K|Ulla Berne|67, Företagare, Åmål
+C|418164|47|M|Johan Paulsson|47, Säljare, Edsleskog
+C|418165|49|M|Morgan Sundkvist|49, Konsult, Åmål
+C|418166|23|M|Johan Bengtsson|23, Resurslärare, Åmål
+C|418167|18|K|Klara Sundkvist|18, Studerande, Åmål
+C|418168|46|K|Ann Ottosson|46, Administratör, Åmål
+C|418169|49|M|Jörgen Eliasson|49, Företagare, Åmål
+C|418170|40|M|Nicklas Runelid|40, Företagare, Åmål
+C|418171|45|M|Joachim Adolfsson|45, Företagare, Edsleskog
+C|418172|20|M|Olle Bring|20, Ungdomspolitiker, Åmål
+C|418173|58|M|Stig Elveljung|58, Enhetschef, Åmål
+C|418174|20|M|Dennis Hadzic|20, Studerande, Åmål
+C|418175|75|K|Barbro Spjuth|75, f.d Farmaceut, Åmål
+C|418176|43|M|Jerry Eliasson|43, Logistikchef, Åmål
+C|418177|54|M|Christer Lundberg|54, Företagare, Åmål
+C|68681|60|M|Ove Kaye|60, Egenföretagare, Ånimskog
+C|68682|40|M|Jimmy Zegolsson|40, CNC-operatör, Åmål
+C|68683|35|K|Susanne Carlsson|35, Kock, Åmål
+C|68684|40|M|Lars Wising|40, Egenföretagare, Åmål
+C|68685|28|K|Linda Stenberg|28, Lokalvårdare, Ånimskog
+C|68686|57|K|Anne Kaye|Undersköterska, Åmål
+C|513457|53|K|Elisabet Brodén|
+C|513459|67|M|Dick Göran Douglas Anderberg|
+C|515685|36|M|Bujar Sllamniku|
+C|515686|34|K|Nadin Tamim|
+C|234430|37|M|Peter Olsson|Socionom/Behandlingssekreterare, 37 år, Åmål
+C|239229|44|K|Ulrika Grundahl|Lärare, 44 år
+C|239230|65|M|Adil Lundberg|Pensionär, 65 år
+C|234443|51|M|Peter Sund|Chaufför, 51 år, Åmål
+C|239232|58|M|Osama Tamim|Parkarbetare, 59 år
+C|239233|57|K|Christina Johansson|Socialsekreterare, 57 år
+C|239234|31|M|Robbin Larsson|Boendestödjare, 31 år
+C|239235|59|M|Leif R Noaksson|Volontär, 58 år

@@ -1,11 +1,229 @@
-2|29155|29164|71424|71425|71426|71427|70213|71429|71430|29364|71432|71433|71434|71435|71436|71437|143757|143758|143759|71438|71439|143762|71440|71441|71442|71443|71444|71445|143769|71446|143772|71447|71448|143774|71449|71450|143778|143777|71451|71452
-4|344927|345259|345260|345261|345263|345264|345265|345266|345267|314217|345269|345270|345271|376242|345272|345273|345274|345275|345276|345277|345278|345279|376251|345280
-1331|316379|316380|316381|316382|316383|316384|316385|316386|316387|316388|316389|316390|316391|316392|316393|316394|316395|316396|316397|316398|316399
-68|26017|26018|113537|113538|26019|113540|113541|26020|113543
-1011|406539|406540
-3|169152|169153|169154|169155|169156|169157|148328|169159|169160|169161|169162|169163|169164|169165|169166|169167|169168
-535|148603|148604|148605|148606|148607|148608|148609|148610|148611|148612|148613|148614|148615|148616|148617|148618|148619|148620|148621|148622|164899|164900|164901
-55|14253|26395|26396|14256|26398|14410|14260|26401|26402|26403|26404|26405|26406|26407
-1|168488|180339|180340|180341|180342|168507|180344|172856|180346|180347|180348|180349|180350|180351|180352|180353|180354|180355|180356
-110|313893|313894|313895|313896|313897|313898|313899|313900|313901|313902|313903|313904|313905|489353|500751|514537|514538|514539|514540|514541|514542|503570
-5|340270|340271|340272|340273|340274|340275|340276|340277|340278|340279|340280|340281|340282|340283|340284
+T|Ljusdal
+A|2|29155|29164|71424|71425|71426|71427|70213|71429|71430|29364|71432|71433|71434|71435|71436|71437|143757|143758|143759|71438|71439|143762|71440|71441|71442|71443|71444|71445|143769|71446|143772|71447|71448|143774|71449|71450|143778|143777|71451|71452
+A|4|344927|345259|345260|345261|345263|345264|345265|345266|345267|314217|345269|345270|345271|376242|345272|345273|345274|345275|345276|345277|345278|345279|376251|345280
+A|1331|316379|316380|316381|316382|316383|316384|316385|316386|316387|316388|316389|316390|316391|316392|316393|316394|316395|316396|316397|316398|316399
+A|68|26017|26018|113537|113538|26019|113540|113541|26020|113543
+A|1011|406539|406540
+A|3|169152|169153|169154|169155|169156|169157|148328|169159|169160|169161|169162|169163|169164|169165|169166|169167|169168
+A|535|148603|148604|148605|148606|148607|148608|148609|148610|148611|148612|148613|148614|148615|148616|148617|148618|148619|148620|148621|148622|164899|164900|164901
+A|55|14253|26395|26396|14256|26398|14410|14260|26401|26402|26403|26404|26405|26406|26407
+A|1|168488|180339|180340|180341|180342|168507|180344|172856|180346|180347|180348|180349|180350|180351|180352|180353|180354|180355|180356
+A|110|313893|313894|313895|313896|313897|313898|313899|313900|313901|313902|313903|313904|313905|489353|500751|514537|514538|514539|514540|514541|514542|503570
+A|5|340270|340271|340272|340273|340274|340275|340276|340277|340278|340279|340280|340281|340282|340283|340284
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1331|DemRä|Demokratisk Rättvisa
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|535|LjP|Ljusdalsbygdens parti
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|29155|43|M|Markus Evensson|43 år, Ljusdal
+C|29164|44|K|Stina Bolin fd.Michelson|44 år, Ljusdal
+C|71424|74|M|Tommy Borg|74 år, Loos
+C|71425|68|K|Marit Holmstrand|68 år, Ljusdal
+C|71426|60|M|Per-Gunnar Larsson|60 år, Färila
+C|71427|38|K|Jenny Breslin|38 år, Loos
+C|70213|54|M|Ove Schönning|55 år, Ljusdal
+C|71429|47|K|Annelie Wallberg|47 år, Ljusdal
+C|71430|27|M|Cristoffer Ericson|27 år, Ljusdal
+C|29364|47|K|Irene Jonsson|48 år, Ljusdal
+C|71432|68|M|Peter Engdahl|68 år, Järvsö
+C|71433|40|K|Jessica Eriksson|40 år, Färila
+C|71434|61|M|Gunnar Eriksson|61 år, Hennan
+C|71435|61|K|Ann Eriksson|61 år, Ljusdal
+C|71436|69|M|Bertil Asplund|69 år, Ljusdal
+C|71437|50|K|Maria Fernmalm|50 år, Järvsö
+C|143757|30|M|Nouh Baravi|30 år, Ljusdal
+C|143758|52|K|Vanja Isaksson|52 år, Loos
+C|143759|50|M|Michael Robertsson|50 år, Järvsö
+C|71438|40|K|Camilla Englund|40 år, Färila
+C|71439|69|M|Johnny Svensson|69 år, Färila
+C|143762|42|K|Anna Korableva|42 år, Ljusdal
+C|71440|65|M|Lennart Canskog|65 år, Loos
+C|71441|61|K|Birgitta Backman|61 år, Ljusdal
+C|71442|66|M|Kjell Nilsson|66 år, Järvsö
+C|71443|72|K|Birgitta Ek|72 år, Järvsö
+C|71444|77|M|Kurt Ericsson|77 år, Ljusdal
+C|71445|56|K|Mariana Lindh|46 år, Ljusdal
+C|143769|55|M|Lars Engström|55 år, Loos
+C|71446|71|K|Siv Ramnitz|71 år, Järvsö
+C|143772|50|M|Ammar Almachhadani|50 år, Ljusdal
+C|71447|74|K|Ulla-Britt Gidemalm|74 år, Färila
+C|71448|72|M|Björn Mårtensson|72 år, Ljusdal
+C|143774|79|K|Laila Jonsson|79 år, Järvsö
+C|71449|63|M|Kjell-Inge Wennberg|63 år, Ljusdal
+C|71450|41|K|Therese Hallström|41 år, Järvsö
+C|143778|55|M|Sven Cahling|55 år, Ljusdal
+C|143777|78|K|Anna-Maria Winblad|78 år, Järvsö
+C|71451|44|M|Mattias Ravander|44 år, Ljusdal
+C|71452|54|M|Jan Nordlinder|54 år, Järvsö
+C|344927|69|M|Sören Görgård|företagare i gröna näringar, Järvsö
+C|345259|50|M|Ulf Nyman|studerande, Korskrogen
+C|345260|38|K|Solange Nordh|kommunikatör, Ljusdal
+C|345261|54|M|Olle Fack|destinationsutvecklare, Järvsö
+C|345263|59|K|Gunilla Brink|egenföretagare, Ljusdal
+C|345264|70|M|Tommy Olsson|ambulanssjukvårdare, Los
+C|345265|36|K|Hanna Görgård|lantmästare, Järvsö
+C|345266|18|M|William Våhlberg|studerande, Ljusdal
+C|345267|74|M|John Nyman|pensionär, Färila
+C|314217|38|M|Jonas Rask-Samuelsson|ombudsman, Järvsö
+C|345269|59|K|Jaana Hertzman|handläggare, Järvsö
+C|345270|65|M|Jörgen Brink|pensionär, Ljusdal
+C|345271|54|K|Susanna Samuelsson|undersköterska, Korskrogen
+C|376242|41|M|Jonas Larsson|Krögare, Tevsjö
+C|345272|65|K|Helena Emauelsson-Brink|Leg. arbetsterapeut, Färila
+C|345273|53|M|Martin Bjerke|företagare, Järvsö
+C|345274|51|K|Anna-Karin Zachrisson|lärare, Järvsö
+C|345275|42|M|Pär Nyberg|egenföretagare, Järvsö
+C|345276|73|M|Sören Eriksson|fd byggingenjör, Korskrogen
+C|345277|59|K|Monica Ingerhed|Järvsö
+C|345278|72|M|Sigurd Mattsson|pensionär, Västbacka
+C|345279|35|M|Per-Anders Stolt|integrationshandläggare, Ljusdal
+C|376251|47|M|Jakob Silén|verksamhetsledare, Järvsö
+C|345280|69|K|Barbro Andin Mattsson|pensionär, Västbacka
+C|316379|84|M|Leif Hansen|Kommunalarbetare, Ramsjö
+C|316380|65|M|Kjell Söderberg|Lärare, Ramsjö
+C|316381|78|M|Rolf Paulson|Psykoterapeut, Järvsö
+C|316382|71|M|Rolf Hjelm|Pappersindustriarbetare, Ramsjö
+C|316383|62|M|Torbjörn Åström|Behandlingsassistent, Järvsö
+C|316384|71|M|Hans Olov Vernersson|Industriarbetare, Järvsö
+C|316385|65|K|Eva-Liisa Hjelm|Vårdbiträde, Ramsjö
+C|316386|72|M|Kurt Frisk|Maskinförare, Hennan
+C|316387|44|K|Annika Englund|Lärare, Järvsö
+C|316388|66|K|Inger Åhström|Barnsköterska, Järvsö
+C|316389|56|K|Astrid Amré|Socionom, Ramsjö
+C|316390|77|M|Lars Göran Larsson|Lantbrukare, Ramsjö
+C|316391|76|M|Roland Jansson|Grafiker, Lillhamre, Loos
+C|316392|55|M|Ove Hansen|Integrationspedagog, Ljusdal
+C|316393|64|M|Håkan Ericson|Vaktmästare, Ljusdal
+C|316394|75|M|Karl Erik Eriksson|Träindustriarbetare, Ljusdal
+C|316395|79|K|Britt-Marie Larsson|Vårdbiträde, Ljusdal
+C|316396|83|M|Sören Larsson|Kontorist, Ljusdal
+C|316397|64|M|Ulf Valter|Bantekniker, Ramsjö
+C|316398|80|M|Gunnar Fransson|SJ-arbetare, Ramsjö
+C|316399|68|M|Per Fredriksson|Pensionär, Ljusdal
+C|26017|68|M|Roger Kastman|Företagare, Ljusdal
+C|26018|61|M|Lars Björkbom|Betongarbetare, Järvsö
+C|113537|76|K|Elsie-Marie Andersson|Pensionär, Ljusdal
+C|113538|50|M|Erik Samuelsson|Kostchef, Järvsö
+C|26019|60|K|Lena Estebring|Polis, Ljusdal
+C|113540|74|K|Monica Viklund|Pensionär, Ljusdal
+C|113541|81|M|Leif Viklund|Pensionär, Ljusdal
+C|26020|54|K|Eva Björkbom|Charkuterist, Järvsö
+C|113543|77|M|Olov Andersson|Pensionär Företagare, Ljusdal
+C|406539|27|K|Kim Magnusson|27 år, Tallåsen
+C|406540|64|M|Karl-Erik Envall|64 år, Tallåsen
+C|169152|66|K|Maud Jonsson|66,förskolelärare, Ljusdal
+C|169153|71|M|Harald Noreus|Ljusdal
+C|169154|68|M|Lasse Berqvist|Färila
+C|169155|51|K|Mia Sparrow|Ljusdal
+C|169156|60|M|Mats Nygårdh|Ljusdal
+C|169157|19|K|Alexandra Dahlberg|Ljusdal
+C|148328|51|M|Bertil Skoog|51,grundskolelärare,Ljusdal
+C|169159|70|K|Suzanne Blomqvist|Ljusdal
+C|169160|70|M|Roger Walter|Ljusdal
+C|169161|62|K|Berit Wikström|Korskrogen
+C|169162|22|M|Joachim Dahlberg|Ljusdal
+C|169163|80|K|Monika Sjögren|Ljusdal
+C|169164|79|M|Bengt Nyström|Ljusdal
+C|169165|80|K|Sonia Nyström|Ljusdal
+C|169166|51|M|Bennet Larsson|Ljusdal
+C|169167|81|M|Carl-Johan Sjögren|Ljusdal
+C|169168|60|M|Alf Hedman|Ljusdal
+C|148603|58|M|Jonny Mill|Slotte, Ljusdal
+C|148604|69|K|Bodil Eriksson|Ljusdal
+C|148605|58|K|Marie-Louise Hellström|Kallmyr, Ljusdal
+C|148606|73|K|Astrid Edlund|Sjuksköterska, Ljusdal
+C|148607|41|M|Fredrik Röjd|41 år, Färila
+C|148608|54|K|Marie Mill|Slotte, Ljusdal
+C|148609|71|M|Torsten Hellström|Kallmyr, Ljusdal
+C|148610|59|M|Roger Holt|Stenhamre, Ljusdal
+C|148611|59|M|Rolf Lind|Ygsbo, Färila
+C|148612|72|K|Elisabet Collin|Nore, Ljusdal
+C|148613|27|M|Lal Rem Thang Cinzah|Ljusdal
+C|148614|73|K|Sonia Jonsson|Kläppa, Ljusdal
+C|148615|57|M|Börje Larsson|Lillhaga, Ljusdal
+C|148616|76|M|Stig Almström|Kläppaåsen, Ljusdal
+C|148617|22|M|Kevin Mill|Slotte, Ljusdal
+C|148618|69|M|Leif Halvarsson|Hybo, Ljusdal
+C|148619|79|K|Ruth Sundström|Tevansjö, Ramsjö
+C|148620|67|M|Tommy Olsson|Holänna, Ljusdal
+C|148621|74|K|Gisela Sterner|Nore, Ljusdal
+C|148622|74|K|Elvy Almström|Kläppa, Ljusdal
+C|164899|68|K|Ingrid Höök|Ämbarbo, Ljusdal
+C|164900|73|M|Sven-Erik Sundqvist|Ljusdal
+C|164901|83|K|Kjerstin Sundqvist|Ljusdal
+C|14253|37|M|Kristoffer Hansson|utbildningsansvarig, 37 år, Järvsö
+C|26395|41|K|Lena Svahn|41 år, Musiklärare, Järvsö
+C|26396|35|M|Kristoffer Kavallin|35 år, Bonde, Sjövästa
+C|14256|63|K|Karin Jansson|regionråd/undersköterska, 63 år, Färila
+C|26398|64|M|Sune Frost|64 år, Krögare, Grönås
+C|14410|34|K|Olga Ilina|byggnadskonstruktör/jordbrukare, 34 år, Ljusdal
+C|14260|73|M|László Gönczi|pensionär, 72 år, Färila
+C|26401|38|K|Ingalill Fahlström|38 år, Järvsö
+C|26402|28|K|Linda Danung|28 år, Skidvärd, Järvsö
+C|26403|30|K|Alexandra Karjel|30 år, Jordbrukare, Södra Veckebo
+C|26404|67|M|Roland Johansson|67 år, Pensionär, Ljusdal
+C|26405|67|K|Margareta Bergkvist|67 år, Färila
+C|26406|68|M|Hans Bergkvist|68 år, Färila
+C|26407|62|K|Anna-Karin (Icka) Cavallin|62 år, Företagskonsult, Skarpå
+C|168488|46|K|Stina Berg|46 år, arbetsförmedlare, Ljusdal
+C|180339|72|M|Lars Molin|72 år, kommunalråd, Bjart
+C|180340|53|K|Pernilla Färlin|53 år, egenföretagare, Ljusdal
+C|180341|25|M|Jonas Wallgren Nordlander|25 år, kundservice, Järvsö
+C|180342|55|K|Helena Brink|55 år, undersköterska, Färila
+C|168507|61|M|Kennet Hedman|61 år, kanslist, Ljusdal
+C|180344|74|M|Allan Cederborg|74 år, projektledare/ingenjör, Nor Järvsö
+C|172856|48|K|Maria Molin|48 år, leg. sjukgymnast, Ljusdal
+C|180346|37|K|Victoria Andersson|37 år, habiliteringspersonal, Ljusdal
+C|180347|50|M|Anders Forselius|50 år, frilansjournalist, Ljusdal
+C|180348|44|K|Malin Berg|44 år, leg. förskolelärare, Ljusdal
+C|180349|44|M|Lennart Brolin|44 år, stödperson, Järvsö
+C|180350|51|K|Christina Sundell|51 år, konsulent, Ljusdal
+C|180351|30|K|Nathalie Häll|30 år, egenföretagare, Järvsö
+C|180352|72|M|Kjell Israelsson|72 år, pensionär, Järvsö
+C|180353|70|K|Desireé Eriksson|70 år, pensionär, Ljusdal
+C|180354|67|M|Erik Nygren|67 år, ingenjör, Järvsö
+C|180355|71|K|Kicki Olsson|71 år, ekonom, Ljusdal
+C|180356|71|M|Peo Persson|71 år, ingenjör, Järvsö
+C|313893|69|M|Lars Idon Andersson|69, f.d. köpman/officer, Ljusdal
+C|313894|53|M|Michael Michaelsen|Koordinator, Färila
+C|313895|69|M|Lars G Eriksson|69, jord- och skogsägare, Ljusdal
+C|313896|43|M|Per Andersson|43, programmerare, Ljusdal
+C|313897|63|M|Tomas Skogstjärn|
+C|313898|35|K|Charlotte Michaelsen|36, studerande, Färila
+C|313899|64|M|Stefan Andersson|64, hemmansägare, Korskrogen
+C|313900|55|M|Svend Aage Friis|
+C|313901|40|M|Mats Markusson|
+C|313902|28|M|Johan Wall|
+C|313903|58|M|Sven Persson|58, chaufför, Färila
+C|313904|43|M|Jens Skjødt Elsbøl|
+C|313905|48|K|Arima Bergstedt|49, terapeut, Järvsö
+C|489353|66|K|Karin Wallin-Hedman|66, egen företagare, Järvsö
+C|500751|62|M|Mats Eriksson|
+C|514537|45|K|Åsa Olsson|44, gyminstruktör, Ljusdal
+C|514538|47|M|Peter Larsson|47, vd, Ljusdal
+C|514539|44|K|Anna Thyrell|44, företagare, Järvsö
+C|514540|19|M|Tobias Hällgren-Ersgård|19, svetsare, Ljusdal
+C|514541|69|M|Bengt Olsson|69, pensionär, Ljusdal
+C|514542|43|M|Magnus Nyholm|43, verkstadsarbetare, Ljusdal
+C|503570|34|M|Jens Furuskog|
+C|340270|63|K|Yvonne Oscarsson|63, beroendeterapeut, Ljusdal
+C|340271|34|M|Oscar Löfgren|Administrativ assistent, Ljusdal
+C|340272|58|K|Ingela Gustavsson|Administrativ samordnare, Järvsö
+C|340273|48|M|Ronney Olsson|Processledare, Järvsö
+C|340274|52|K|Pia Hedblom|Trädgårdsmästare, Ljusdal
+C|340275|53|M|Torbjörn Melkersson|Integrationspedagog/fältsekreterare, Tallåsen
+C|340276|31|M|Ramin Maihanparast|Integrationspedagog/fältsekreterare, Ljusdal
+C|340277|32|M|Mårten Züchner|Yrkeschaufför, Ljusdal
+C|340278|51|M|Ghulam Akbal|Bovärd, Ljusdal
+C|340279|77|M|Stig Andersson|Pensionär, Ljusdal
+C|340280|27|M|Kanishka Shir Shah|Lärare, Ljusdal
+C|340281|65|M|Hans Gustavsson|Pensionär, Järvsö
+C|340282|76|M|Jan Anders Eliasson|Pensionär, Fågelsjö
+C|340283|77|M|Erik Wiger|Pensionär, Järsvö
+C|340284|53|M|Mikael Andersson Sellberg|Automationstekniker, Järvsö

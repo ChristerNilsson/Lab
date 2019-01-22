@@ -1,11 +1,352 @@
-2|87844|70703|88233|70466|88235|88722|88723|88724|88725|88726|88727|88728|90254|90255|90256|90257|90258|90259|71227|90261|90262|90263|90264|90265|90266|90267|90268|90269|90270|90271|90272|90273|90274|90275|90276|90277|90278|90279|90280|90281|90282|90283|90284|90285|90286|90287|90288|91091|91092|91093|91094|91095|91096|91097|91098|91099|91100|91101|91102|91103|91104|91105|91106|91107|92103|91108|91109|91110|91111|91112
-4|124398|76922|145725|145726|145727|145728|145729|145730|145731|145732|145733|145734|145735|145736|145737|145738|145739
-1374|415139
-68|149434|149435|149436|149437|149438|149439|149440|149441|149442|149443|149444|149445|149446|149447|149448|149449|149450|149451|149452|149453|149454|149455|149456|149457|149458|149459
-3|13956|13957|13958|13959|13960|13961|13962|13963|13964|13965|13966|13967|13968|13969|13970|13971|13972|13973|13974|13975|13976|13977|13978|13979
-1296|128563|200897
-55|278484|278485|278486|278487|278488|278489|278490|278491|278492|278493|278494|278495|278496|278497|278498|278499|278500|249269|278501|278502|278503|278504|278505|278506|278507|278508|278509|278510
-1|12798|12814|17646|17647|17648|17649|17650|17651|17652|17653|17654|17655|17656|17657|17658|17659|17660|17661|17662|17663|17664|17665|17666|17667|17668|17669|17670|17671
-110|67061|67062|67063|67064|67065|67066|67067|67068|67069|67070|67071|67072|67073|67074|67075|67076|67077|67078|67079|67080|67081|67082|67083|67085|67086|67087|67088|67089
-711|344211|343154|343155|343156|343157|343158|343159|343160|343161|343162|343163|343164|344814|344815|344816|317509|344162|344163|344164|344165|344166|344167|344168|344169|344170|344171|344172|344173|344174|344175|344176|344177|344178|344179|344180|344181|344182|344183|344184|315711|344186|344187|344188|344189|344190|344191|344192|344193|344194|344195|344196|344197|344198|344199|344200|344201|344202|344203|344204|344205|344206|344207|344208|344209|344210
-5|179876|179877|179878|179879|179880|179881|179882|179883|179884|179885|179886|179887|179888|179889|179890|179891|179892|179893|179894|179895|179896|179897|179898|179899|179900|179901|179902|179903|179904|179905|179906|179907|179908|179909|179910|179911|179912|179913|179914|179915
+T|Botkyrka
+A|2|87844|70703|88233|70466|88235|88722|88723|88724|88725|88726|88727|88728|90254|90255|90256|90257|90258|90259|71227|90261|90262|90263|90264|90265|90266|90267|90268|90269|90270|90271|90272|90273|90274|90275|90276|90277|90278|90279|90280|90281|90282|90283|90284|90285|90286|90287|90288|91091|91092|91093|91094|91095|91096|91097|91098|91099|91100|91101|91102|91103|91104|91105|91106|91107|92103|91108|91109|91110|91111|91112
+A|4|124398|76922|145725|145726|145727|145728|145729|145730|145731|145732|145733|145734|145735|145736|145737|145738|145739
+A|1374|415139
+A|68|149434|149435|149436|149437|149438|149439|149440|149441|149442|149443|149444|149445|149446|149447|149448|149449|149450|149451|149452|149453|149454|149455|149456|149457|149458|149459
+A|3|13956|13957|13958|13959|13960|13961|13962|13963|13964|13965|13966|13967|13968|13969|13970|13971|13972|13973|13974|13975|13976|13977|13978|13979
+A|1296|128563|200897
+A|55|278484|278485|278486|278487|278488|278489|278490|278491|278492|278493|278494|278495|278496|278497|278498|278499|278500|249269|278501|278502|278503|278504|278505|278506|278507|278508|278509|278510
+A|1|12798|12814|17646|17647|17648|17649|17650|17651|17652|17653|17654|17655|17656|17657|17658|17659|17660|17661|17662|17663|17664|17665|17666|17667|17668|17669|17670|17671
+A|110|67061|67062|67063|67064|67065|67066|67067|67068|67069|67070|67071|67072|67073|67074|67075|67076|67077|67078|67079|67080|67081|67082|67083|67085|67086|67087|67088|67089
+A|711|344211|343154|343155|343156|343157|343158|343159|343160|343161|343162|343163|343164|344814|344815|344816|317509|344162|344163|344164|344165|344166|344167|344168|344169|344170|344171|344172|344173|344174|344175|344176|344177|344178|344179|344180|344181|344182|344183|344184|315711|344186|344187|344188|344189|344190|344191|344192|344193|344194|344195|344196|344197|344198|344199|344200|344201|344202|344203|344204|344205|344206|344207|344208|344209|344210
+A|5|179876|179877|179878|179879|179880|179881|179882|179883|179884|179885|179886|179887|179888|179889|179890|179891|179892|179893|179894|179895|179896|179897|179898|179899|179900|179901|179902|179903|179904|179905|179906|179907|179908|179909|179910|179911|179912|179913|179914|179915
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1374||Initiativet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|711|TuP|Tullingepartiet
+B|5|V|Vänsterpartiet
+C|87844|47|K|Ebba Östlin|47, Tullinge, Kommunalråd
+C|70703|46|M|Gabriel Melki|46, Kommunalråd, Botkyrka
+C|88233|24|K|Yasemin Ergül|24, Alby, Juriststudent
+C|70466|41|M|Serkan Köse|42, Riksdagsledamot, Botkyrka
+C|88235|26|K|Juliana Lahdou|26, Projektledare, Botkyrka
+C|88722|27|M|Youbert Aziz|27, Kommunikatör, Botkyrka
+C|88723|78|K|Lena Ingren|78, Tullinge, Pensionär
+C|88724|45|M|Mattias Gökinan|45, Tumba, IT-strateg
+C|88725|39|K|Tuva Lund|39, Kommunalråd, Botkyrka
+C|88726|31|M|Emanuel Pettersson Ksiazkiewicz|31, Norsborg, Kommunalråd
+C|88727|46|K|Maria Gawell Skog|46, Norsborg, Facklig verksamhetsassistent
+C|88728|23|M|Thomas Vakili|23, Alby, Teknolog
+C|90254|58|K|Christina Zedell|58, Tullinge, Facklig ombudsman
+C|90255|40|M|Marcus Ekman|40, Tumba, Jurist
+C|90256|37|K|Diana Hildingsson|37, Alby, Jurist
+C|90257|38|M|Robert Aslan|38, Norsborg, Folkbildare
+C|90258|66|K|Inger Ros|66, Tumba, Förbundsordförande
+C|90259|56|M|Olle Westberg|56, Folkhögskolerektor, Botkyrka
+C|71227|32|K|Viktoria Wallén|32, Journalist, Botkyrka
+C|90261|42|M|Tobias Ginman|42, Forskare, Botkyrka
+C|90262|38|K|Nina Lehtola|38, Norsborg, Lärarstudent
+C|90263|47|M|Jens Sjöström|47, Landstingsråd, Botkyrka
+C|90264|41|K|Sara Sylvan|41, Tullinge, Analytiker
+C|90265|35|M|Shafqat Khatana|35, Fittja, Jurist
+C|90266|75|K|Taina Virta|75, Tumba, Pensionär
+C|90267|54|M|Adnan Issa|54, Fittja, Bussförare
+C|90268|24|K|Melissa Besara|23, Tumba, Student
+C|90269|45|M|Tomas Bergqvist|45, Tullinge, Marknadsförare
+C|90270|24|K|Fanny Larsson|24, Alby, Juridikstudent
+C|90271|64|M|Bo Johansson|64, Alby, Pensionär
+C|90272|78|K|Maria Mendoza|78, Alby, Pensionär
+C|90273|34|M|Johan Alkstål|34, Tumba, Programmerare
+C|90274|20|K|Kimiya Espahbodi|20, Tumba, Student
+C|90275|29|M|Elias Tony|29, Norsborg, Civilekonom
+C|90276|33|K|Leyla Öztürk|33, Hallunda, Socialpedagog
+C|90277|23|M|Arian Vassili|23, Tumba, Student
+C|90278|71|K|Åsa Bruto|71, Tullinge, Ekonom
+C|90279|72|M|Jean-Pierre Zune|72, Norsborg, Pensionär
+C|90280|39|K|Selda Elcim|39, Norsborg, Vårdare
+C|90281|74|M|Anders Gustafzon|74, Grödinge, Företagare
+C|90282|58|K|Eva Wedberg|58, Tumba, Civilekonom
+C|90283|47|M|Sargon Daoud|47, Undersköterska, Botkyrka
+C|90284|46|K|Ewa Ellis|46, Tullinge, Forskare
+C|90285|63|M|Björn Pettersson|63, Uttran, Metallarbetare
+C|90286|52|K|Maria Kindefält Trygg|52, Barnmorska, Botkyrka
+C|90287|45|M|Daniel Njuguna|46, Fittja, Undersköterska
+C|90288|40|K|Jelena Rudneva|40, Tumba, Arbetssökande
+C|91091|21|M|Christian Khouri|21, Norsborg, Butiksmedarbetare
+C|91092|40|K|Petra Nylund|40, Tullinge, Kock
+C|91093|39|M|Khalil Jalil|39, Norsborg, Metallarbetare
+C|91094|64|K|Carola Norén|64, Alby, Mentalskötare
+C|91095|60|M|Nirlep Singh|60, Tumba, IT-projektledare
+C|91096|41|K|Aylin Brimo|41, Norsborg, Undersköterska
+C|91097|57|M|Robert Nuse|57, Tullinge, Upphandlingsansvarig
+C|91098|50|K|Susanne Stangenberg|50, Tullinge, Facklig vägledare
+C|91099|53|M|Anders Lindqvist|53, Alby, Facklig företrädare
+C|91100|72|K|Inga-Lill Srömqvist|72, Tullinge, Pensionär
+C|91101|26|M|Johannes Nunez|26, Alby, Lärarstudent
+C|91102|70|K|Lotta Arnesson|70, Tumba, Pensionär
+C|91103|52|M|Malik Shahzad|52, Hallunda
+C|91104|42|K|Stephanie Larsen|42, Fittja, Lastbilschaufför
+C|91105|58|M|Aghnatios Soma|58, Norsborg, Lärare
+C|91106|63|K|Milojka Vratonjic|63, Alby, Butikschef
+C|91107|23|M|Makram Ben Dharir|23, Tullinge
+C|92103|54|K|Ayisha Farooq|54, Tumba, Förtidspensionär
+C|91108|44|M|Aftab Jaigirdar|44, Tumba, Lärare
+C|91109|60|K|Margaretha Holmqvist Ericson|60, Tullinge, Egen företagare
+C|91110|77|M|Rolf Garneij|77, Tullinge, Pensionär
+C|91111|34|K|Faya Lahdou|34, Tullinge, Vårdare
+C|91112|56|K|Jeanette Svensson|56, Tumba, Avdelningschef
+C|124398|53|M|Dag Ahlse|53, Botkyrka, Transport Manager
+C|76922|22|M|Robert Steffens|22, Tumba, Gruppledare
+C|145725|26|M|Fabian Rosdalen|Programmerare, Tumba
+C|145726|28|M|Johan Lunnelie|Student, Uttran
+C|145727|50|K|Camilla Eriksson|Kulturgeograf, Grödinge
+C|145728|37|K|Eva Lundholm|Systemförvaltare, Tullinge
+C|145729|67|M|Hans Lundberg|Pensionär, Tumba
+C|145730|72|K|Antra Johanson-Rantina|Pensionär, Alby
+C|145731|66|M|Pehr Martin Larsson|Lantmästare, Grödinge
+C|145732|35|K|Johanna Mäkinen|Ekonom, Grödinge
+C|145733|61|M|Nils Gustaf Gustafsson|Lantbrukare, Grödinge
+C|145734|69|M|Herbert Falck|Lantmästare, Grödinge
+C|145735|75|M|Björn Lundholm|Ingenjör, Tullinge
+C|145736|65|K|Annica Pettersson|Tågmästare, Grödinge
+C|145737|51|M|Peter Steffens|Konsult, Tumba
+C|145738|70|K|Sonja Jonasson|Läkare, Tullinge
+C|145739|78|K|Inger Brask|Diakon, Uttran
+C|415139|37|M|Namir Shamany|37, Integrationspedagog
+C|149434|64|M|Stefan Dayne|64, Gruppledare, Botkyrka
+C|149435|36|M|Yusuf Aydin|36, Gruppchef, Botkyrka
+C|149436|49|M|Aram El Khoury|49, Regionchef apotek, Botkyrka
+C|149437|40|K|Caroline Blom|Politisk sekreterare, Norsborg
+C|149438|46|M|Markus Rydell|46, Operations officer, Botkyrka
+C|149439|47|K|Ebtesam Zino|47, Egenföretagare, Botkyrka
+C|149440|73|M|Eber Vikström|Pastor, Tullinge
+C|149441|66|K|Leena-Karie Z Nilsson|Pensionär, Alby
+C|149442|66|M|Donald Eriksson|Redovisningskonsult, Hallunda
+C|149443|44|K|Camilla Frejman|44, Egenföretagare, Botkyrka
+C|149444|72|M|K. Credian Fernando|Hälsoinformatör, Fittja
+C|149445|79|K|Ewonne Ekmyr-Göransson|Pensionär, Tumba
+C|149446|45|M|David Lindberg|Distriktssköterska, Slagsta
+C|149447|46|M|Gabriel Izgi|Företagsmäklare, Norsborg
+C|149448|48|M|Daniel Sedman|Fastighetsmäklare, Tullinge
+C|149449|59|M|Rolf Ekström|IT-konsult, Tumba
+C|149450|66|K|Margaret Holm|Specialpedagog, Tumba
+C|149451|71|M|Leif Nilsson|Pensionär, Alby
+C|149452|51|M|Sabri Touma|Bygglovsarkitekt, Hallunda
+C|149453|36|M|Youssef Bchara|Tolk, Norsborg
+C|149454|79|M|Mats Dahlström|Ingenjör, Slagsta
+C|149455|25|M|Aday Bethkinne|25, Administratör, Botkyrka
+C|149456|79|M|Sven Frejman|Ingenjör, Alby
+C|149457|45|M|Necati Sertcanli|Företagsledare, Tumba
+C|149458|43|M|Ara Yanekian|Miljökonsult, Hallunda
+C|149459|73|M|Bo Claesson|Redovisningskonsult, Alby
+C|13956|54|M|Lars Johansson|fil kand, Botkyrka
+C|13957|24|K|Caroline Rhawi|ordf Liberala Ungdomsförbundet Sthlm, Tumba
+C|13958|59|K|Helene Wåhleman|biträdande rektor, Tumba
+C|13959|83|M|Stig Bjernerup|Uttran
+C|13960|40|K|Ing-Marie Viklund|Tullinge
+C|13961|58|K|Birgit Hellgren|lärare, Botkyrka
+C|13962|29|M|Andreas Froby|brevbärare, Tumba
+C|13963|26|K|Sofia Johansson|Tullinge
+C|13964|74|M|Peter Siebert|Tullinge
+C|13965|19|K|Hanna Gunnerhed Burt|Tullinge
+C|13966|71|M|Owe Lavin|Norsborg
+C|13967|33|K|Kidist Hamrén|Tullinge
+C|13968|61|K|Sirpa Humalisto|Alby
+C|13969|44|M|Benny Ferdinandsson|valutahandlare, Tullinge
+C|13970|70|M|Boje Ericson|Tullinge
+C|13971|57|K|Elsy Johansson|Tumba
+C|13972|63|K|Gunilla Wolfbrandt|Tullinge
+C|13973|49|M|Ceasar Beira da Silva|Tullinge
+C|13974|49|K|Titti Jardetun|Tullinge
+C|13975|41|M|Håkan Nilsson|Tumba
+C|13976|72|M|Kenneth Spångberg|Uttran
+C|13977|72|K|Lena Wiström|pensionär, Norsborg
+C|13978|77|K|Anita Nilsson|Tumba
+C|13979|60|M|Göran Pelarhagen|Grödinge
+C|128563|49|M|Martin Elmberg|49, Civilingenjör, Stockholms län
+C|200897|56|M|Kenneth Hermansson|56, Senior Manager
+C|278484|45|K|Myrna Persson|45 år, kommunalråd, Tumba
+C|278485|39|M|Deniz Bulduk|39 år, ekonom, Tullinge
+C|278486|44|K|Christina Karlsson|44 år, hotellreceptionist, Alby
+C|278487|26|M|Ali Khalil|26 år, egenföretagare, Alby
+C|278488|39|K|Shakhlo Altieva|39, statstjänsteman, Botkyrka
+C|278489|48|M|Niklas Gladh|48, lärare, Botkyrka
+C|278490|50|K|Kristina Dellrud|50 år, teamchef, Tullinge
+C|278491|68|M|Ali Khan|68 år, konsult, Alby
+C|278492|64|K|Inger Grönberg|64 år, förskolelärare, Tumba
+C|278493|19|M|Oskar Forsberg|19 år, studerande, Tullinge
+C|278494|21|K|Nihal Tozak|21 år, studerande, Alby
+C|278495|46|M|Pär Sargren|47 år, IT-konsult, Tullinge
+C|278496|39|K|Lisa Hellsing|39 år, systemutvecklare, Tumba
+C|278497|24|M|Rahand Kader|24 år, student, Norsborg
+C|278498|24|K|Embla Holmlid Kolenda|24 år, student, Tumba
+C|278499|51|M|Mats Dellrud|51 år, programmerare, Tullinge
+C|278500|48|K|Martina Wickham|48 år, utvecklingsledare, Tumba
+C|249269|54|M|James Jin|54, lärare, Botkyrka
+C|278501|49|K|Mariam Doukkali|48 år, ansvarig i kvinnoverksamhet, Alby
+C|278502|34|M|Frank Kanu|34 år, aktivitetssamordnare, Tumba
+C|278503|40|K|Yulia Usova|41 år, kontakttolk, Tumba
+C|278504|48|M|Isak Nobuoka|48 år, lärare, Tullinge
+C|278505|55|K|Eva Martin|55 år,  verksamhetschef, Tullinge
+C|278506|45|M|Lars Lenggquist|45 år, marknadschef, Tullinge
+C|278507|49|K|Elisabeth Nobuoka Nordin|49 år, egen företagare, Tullinge
+C|278508|24|M|Kim Viktor|24 år, student, Tullinge
+C|278509|23|M|Happy Chowdhurry|23 år, kollektivtrafiken, Fittja
+C|278510|19|K|Matilda Boden|19 år, caféanställd, Vårsta
+C|12798|42|M|Jimmy Baker|42, VD
+C|12814|48|K|Stina Lundgren|48, Oppositionsråd
+C|17646|41|M|Willy Viitala|41, Tullinge
+C|17647|74|K|Kia Hjelte|74, Egenföretagare
+C|17648|67|M|Yngve Jönsson|67, Företagare
+C|17649|22|M|Carl Baker|22, Student
+C|17650|71|M|Andrei Ignat|71, Tumba
+C|17651|44|M|Ufuk Sen|44, Polis
+C|17652|69|K|Solveig Nilsson|69, leg. Veterinär
+C|17653|24|K|Gül Serife Alci|24, Fittja
+C|17654|35|M|Mehmet Kulbay|35, Företagsförsäljare
+C|17655|52|M|Boban Pejcic|52, Tumba
+C|17656|62|M|Bengt Kring|62, Säkerhetschef
+C|17657|63|M|Michael Eriksson|63, Tumba
+C|17658|72|K|Helle Larsson|72, f.d. Gymnasiechef
+C|17659|71|M|Lennart Lauberg|71, Grödinge
+C|17660|59|K|Marie Spennare|59, Tullinge
+C|17661|44|M|Johan Fredin|44, Grödinge
+C|17662|55|M|Stefan Garpås|55, Tumba
+C|17663|77|K|Asta Holm|77, Grödinge
+C|17664|77|M|Sven Eric Holm|77, Grödinge
+C|17665|47|M|Stefan Bondesson|47, Tumba
+C|17666|41|M|Peter Forsberg|41, Tullinge
+C|17667|19|M|Alexander Jönsson Ghazar|19, Student
+C|17668|18|M|Filip Jönsson Ghazar|18, Student
+C|17669|45|K|Eva Blomqvist|45, Tumba
+C|17670|38|M|Faisal Gill|38, Alby
+C|17671|50|K|Nellie Eriksson|50, Norsborg
+C|67061|60|M|Robert Stenkvist|Fritidspedagog, Botkyrka
+C|67062|73|M|Östen Granberg|73, ombudsman emeritus, Botkyrka
+C|67063|34|M|Sebastian Lindqvist|34, energikonsult, Botkyrka
+C|67064|30|M|Martin Inglot|Politisk sekreterare, Botkyrka
+C|67065|47|M|Niklas Lekander|47, företagare, Botkyrka
+C|67066|30|M|Nils Ahlin|redovisningskonsult, 30, Norsborg
+C|67067|59|M|Sergius Himmelving|smed, 59, Fittja
+C|67068|32|K|Alexandra Tuvell|32, barnskötare, Botkyrka
+C|67069|48|K|Anneli Andersen|medicinsk sekreterare, 48, Tullinge
+C|67070|29|M|Johan Holmberg|civilingenjör, 29, Norsborg
+C|67071|24|M|Rasmus Henriksson|rivare, 24, Tullinge
+C|67072|58|M|Lars Holmberg|ingenjör, 58, Norsborg
+C|67073|62|K|Anne Rosensvärd|62, kemist, Botkyrka
+C|67074|62|M|Kristoffer Szubzda|biltekniker, 63, Hallunda
+C|67075|60|K|Inger Tuvell|60, busschaufför, Botkyrka
+C|67076|59|M|Stefan Andersen|egenföretagare, 59, Tullinge
+C|67077|63|M|Maroun Assaly|egenföretagare, 63, Norsborg
+C|67078|62|M|Michael Lejon|bilsäljare, 62, Tullinge
+C|67079|55|K|Lana Issakainen|egenföretagare, 55, Tullinge
+C|67080|22|K|Nataly Wright Fatouhiy|receptionist, 22, Tumba
+C|67081|71|M|Christer Isaksson|pensionär, 71, Tumba
+C|67082|71|K|Dana Platter|författare, 71, Tumba
+C|67083|65|K|Margareta Isaksson|pensionär, 66, Tumba
+C|67085|75|M|Endre Maté|pensionerad båtbyggare, 75, Tumba
+C|67086|70|K|Ann-Katrin Matar|pensionerad lärare, 70, Tumba
+C|67087|45|M|Richard Degeräng|arbetsledare, 45, Tullinge
+C|67088|67|M|Carl-Gustaf Rosensvärd|jur.kand, 67, Tumba
+C|67089|60|K|Agnes Szubzda|ekonomiassistent, 60, Hallunda
+C|344211|71|M|Anders Thorén|71 år, Tullinge Parkhem
+C|343154|51|K|Camilla Jägemalm|51 år, Tullinge Södra Lanthem
+C|343155|31|M|Carl Widercrantz|31 år, Tullingeberg
+C|343156|49|K|Karin Nakamura Lindholm|49 år, Tullinge Lanthem
+C|343157|43|M|Per Börjel|43 år, Tullinge Södra Lanthem
+C|343158|48|K|Åsa Karmteg|48 år, Riksten
+C|343159|55|M|Nils-Bertil Carlson-Estrada|55 år, Tullinge Södra Lanthem
+C|343160|65|K|Rita Ilomäki|65 år, Banslätt
+C|343161|60|M|Christian Wagner|60 år, Tullinge Parkhem
+C|343162|36|M|Fredrik Ahlinder|36 år, Tullinge Villastad
+C|343163|26|K|Josefin Norrgård|26 år, Riksten
+C|343164|66|M|Thomas Karlsson|66 år, Brantbrink
+C|344814|31|K|Pia Markie Ghareb|31 år, Hallunda
+C|344815|66|M|Roland Forsman|66 år, Tullinge Parkhem
+C|344816|76|K|Margareta Zethraeus|76 år, Tullinge Södra Lanthem
+C|317509|55|M|Michael Hansen|54 år, Banslätt
+C|344162|47|M|Robert Trifunovski|47 år, Tullinge Parkhem
+C|344163|38|K|Therese Lind|38 år, Tullinge Villastad
+C|344164|38|M|Tom Nielsen|38 år, Riksten
+C|344165|52|K|Agneta Hallberg|52 år, Tullinge Centrum
+C|344166|31|M|Vincent Freiman|31 år, Tullinge Centrum
+C|344167|49|K|Ulrika Bovin|49 år, Tullinge Skog
+C|344168|56|K|Anna Marmlind|56 år, Brantbrink
+C|344169|73|M|Staffan Teste|73 år, Tullinge Skog
+C|344170|71|K|Elisabet Thorén|71 år, Tullinge Parkhem
+C|344171|65|M|Dag Asplund|65 år, Banslätt
+C|344172|84|K|Dorothea Tingsborg|84 år, Tullinge Centrum
+C|344173|30|M|Mathias Bodner|30 år, Tullinge Parkhem
+C|344174|73|M|Sture Nordberg|73 år, Tullinge Lanthem
+C|344175|74|M|Larsgösta Almgren|74 år, Tullinge Centrum
+C|344176|29|K|Renée Luis|29 år, Tullingeberg
+C|344177|44|M|Jens Jenslin|44 år, Tullinge Lanthem
+C|344178|72|M|Dick Bergman|72 år, Brantbrink
+C|344179|65|K|Louise Linder|65 år, Tullinge Parkhem
+C|344180|65|M|Bo Carlsson|65 år, Tullinge Centrum
+C|344181|82|K|Kerstin Edman|82 år, Banslätt
+C|344182|77|M|Bertil Rolf|77 år, Tullinge Lanthem
+C|344183|52|M|Joachim Petersen|52 år, Tullinge Parkhem
+C|344184|74|M|Anders Markie|74 år, Tullinge Villastad
+C|315711|45|K|Elizabeth Bushby|45 år, Riksten
+C|344186|32|M|Johnny Mattsson|32 år, Tullinge Villastad
+C|344187|77|M|Björn Zethraeus|77 år, Tullinge Södra Lanthem
+C|344188|73|K|Inger Bergman|73 år, Brantbrink
+C|344189|66|M|Lennart Åslund|66 år, Tullinge Skog
+C|344190|73|K|Agneta Thyselius|73 år, Tullinge Centrum
+C|344191|76|M|Klas Bovin|76 år, Tullinge Lanthem
+C|344192|54|K|Anett Hansen|54 år, Banslätt
+C|344193|63|M|Stefan Linder|63 år, Tullinge Parkhem
+C|344194|84|K|Ulla-Britt Karlsson|84 år, Tullinge Centrum
+C|344195|20|M|Max Falck|20 år, Tullingeberg
+C|344196|71|M|Hans Reiman|71 år, Tullinge Parkhem
+C|344197|63|K|Ylva Berglund|63 år, Tullinge Parkhem
+C|344198|68|M|Bo Mogård|68 år, Tullinge Södra Lanthem
+C|344199|76|K|Sol-Britt Areschoug|76 år, Tullinge Centrum
+C|344200|82|M|Karl-Göran Karlsson|82 år, Tullinge Centrum
+C|344201|64|K|Britt Andersson|64 år, Tullinge Parkhem
+C|344202|60|M|Kenneth Gustafsson|60 år, Tullinge Parkhem
+C|344203|70|K|Maria Ericson|70 år, Tullinge Centrum
+C|344204|70|M|Gert Andersson|70 år, Tullinge Parkhem
+C|344205|66|K|Gunnel Mörkfors|66 år, Tullinge Villastad
+C|344206|73|M|Staffan Ericson|73 år, Tullinge Centrum
+C|344207|65|M|Dag Berglund|65 år, Brantbrink
+C|344208|80|K|Anita Löfgren|80 år, Tullinge Lanthem
+C|344209|71|M|Bo Endre|71 år, Tullinge Lanthem
+C|344210|73|M|Leif Svensson|73 år, Tullinge Centrum
+C|179876|58|M|Mats Einarsson|Tumba, 58 år, kommunalråd
+C|179877|55|K|Kerstin Amelin|Botkyrka, statistiker,
+C|179878|30|K|Yrsa Rasmussen|Botkyrka, förskollärarstudent
+C|179879|53|M|Bekir Uzunel|Botkyrka, konsult
+C|179880|68|K|Pia Carlsson|Fittja, 68 år, pensionär
+C|179881|68|M|Ronnie Anderson|Botkyrka, pensionär
+C|179882|53|K|Marit Normasdotter|Botkyrka, socialarbetare
+C|179883|60|K|Monica Brundin|Slagsta, 60 år, pensionär
+C|179884|28|M|Hampus Byström|Alby, 27 år, politisk sekreterare
+C|179885|37|K|Therese Karlsson|Tuna, 37 år, retoriker
+C|179886|35|M|Björn Pettersson|Storvreten, 35 år, butiksbiträde
+C|179887|42|K|Andrea Molin Storbjörk|Vårsta, 41 år, teknikinformatör
+C|179888|29|M|Fredrik Andersson|Tumba, 28 år, politisk sekreterare
+C|179889|44|M|Erik Jon-And|Hallunda, 44 år, arbetssökande
+C|179890|45|K|Anna Kristoffersson|Riksten, 45 år, barnskötare
+C|179891|33|K|Nooshi Dadgostar|Botkyrka, riksdagsledamot
+C|179892|66|M|Haider Raja|Norsborg, 66 år, pensionär
+C|179893|53|K|Kajsa Wingert|Uttran, 52 år, larmoperatör
+C|179894|59|M|Esmaeil Rabizadeh|Tullinge, 58 år, sjuksköterska
+C|179895|28|M|Erdal Kan|Hallunda, 28 år, egenföretagare
+C|179896|18|K|Hannah Amelin|Tullinge, 18 år, studerande
+C|179897|44|M|Juan Guzman|Hallunda, 44 år, psykolog
+C|179898|33|M|Elias Lodin|Tumba, 33 år, politisk sekreterare
+C|179899|30|K|Hanna Cederin|Alby, 29 år, producent
+C|179900|31|K|Jenny Karinsdotter|Tullinge, 30 år, inköpare
+C|179901|31|M|Daniel Söderström Berglund|Storvreten, 30 år, barnskötare
+C|179902|30|K|Amra Bajric|Alby, 29 år, bibliotekarie
+C|179903|88|M|Folke Olsson|Slagsta, 88 år, fd kulturadministratör
+C|179904|37|K|Anne-Li Lehnberg|Fittja, 36 år, politisk sekreterare
+C|179905|64|M|Paul Haarla|Alby, 64 år, boendestödjare
+C|179906|49|M|Anders Pemer|Vårsta, 49 år, NPF-konsult
+C|179907|62|K|Samira Österberg|Tullinge, 62 år, budget- och skuldrådgivare
+C|179908|53|K|Monica Einarsson|Tumba, 53 år, högskoleadjunkt
+C|179909|80|K|Rose-Marie Holmgren|Grödinge, 80 år, pensionär
+C|179910|31|M|Nahom Endale|Storvreten, 31 år, lagerplanerare
+C|179911|28|K|Emma Flodqvist|Tullinge, 27 år, student
+C|179912|47|K|Ann-Sofie Spångberg|Tullinge, 46 år, etableringslots
+C|179913|30|M|Joakim Envall|Alby, 30 år, fritidsledare
+C|179914|53|K|Kerstin Rauserk|Storvreten, 53 år, pedagog
+C|179915|43|M|Mattias Olsson|Alby, 42 år, sjuksköterska

@@ -1,8 +1,181 @@
-2|44897|44917|28282|139188|139189|139190|139191|139192|139193|139194|139195|139196|139197|139198|139199|139200|139201|139202|139203|139204|139205|139206|139207|139208|139209|139210|139211
-4|35335|80575|80576|38906|80578|38890|80580|38897|80582|80583|80585|80586|80587|80588|80589|80590|79258|80592|80593|80594|80595|80596|80597|80598
-68|31782|63284|31786|63286|63287|63250|63251|408313|63253|63254|63255|63256|63257|63258|63259|63260|63261|63262|63263|63264|63265|63266|63267|63268|63269|63270|63271|63272|63273|63274|63275|63276|121882|63277|63278|63279|63280|63281|63282
-3|63676|63677|63678|63679|63680|63681|63682|63683
-55|22069|181252|181253|181254|181255
-1|63885|63886|63887|63888|63889|63890|63891|63892|63893|63894|63895|63896|63897|63898|63899|63900|63901|63902|63903|63904|63905|63906|63907|63908|63909|63910|63911|63912|63913|63914|63915|63916|63917
-107|428615|428616|428617|428618|428619|428620|428621|428622|428623
-110|67033|67034|67035|67036|67037|67038|67039|67040|67041|67042|67043|67044|67045|67046|67047|67048|67049|67050|67051|67052
+T|Örkelljunga
+A|2|44897|44917|28282|139188|139189|139190|139191|139192|139193|139194|139195|139196|139197|139198|139199|139200|139201|139202|139203|139204|139205|139206|139207|139208|139209|139210|139211
+A|4|35335|80575|80576|38906|80578|38890|80580|38897|80582|80583|80585|80586|80587|80588|80589|80590|79258|80592|80593|80594|80595|80596|80597|80598
+A|68|31782|63284|31786|63286|63287|63250|63251|408313|63253|63254|63255|63256|63257|63258|63259|63260|63261|63262|63263|63264|63265|63266|63267|63268|63269|63270|63271|63272|63273|63274|63275|63276|121882|63277|63278|63279|63280|63281|63282
+A|3|63676|63677|63678|63679|63680|63681|63682|63683
+A|55|22069|181252|181253|181254|181255
+A|1|63885|63886|63887|63888|63889|63890|63891|63892|63893|63894|63895|63896|63897|63898|63899|63900|63901|63902|63903|63904|63905|63906|63907|63908|63909|63910|63911|63912|63913|63914|63915|63916|63917
+A|107|428615|428616|428617|428618|428619|428620|428621|428622|428623
+A|110|67033|67034|67035|67036|67037|67038|67039|67040|67041|67042|67043|67044|67046|67047|67048|67049|67050|67051|67052
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|107|SPI|SPI Välfärden
+B|110|SD|Sverigedemokraterna
+C|44897|71|M|Christer Olsson|F.d Anläggningsarbetare, Örkelljunga
+C|44917|62|M|Thomas Bjertner|F.d Museiarbetare, Örkelljunga
+C|28282|70|K|Agneta Lindau-Persson|Tandhygienist, Örkelljunga
+C|139188|44|M|Arne Silfvergren|taxichaufför, 44 år, Örkelljunga
+C|139189|63|K|Jane Holmström-Björkman|universitetsadjunkt, 63 år, Boalt
+C|139190|76|M|Ingemar Svensson|hovslagare, 76 år, Smedhult
+C|139191|74|M|Leif Svensson|adjunkt, 73 år, Örkelljunga
+C|139192|42|M|Patric Carlsson|personlig assistent, 42 år, Örkelljunga
+C|139193|60|K|Gunilla Karlsson|förskolechef, 60 år, Skånes Fagerhult
+C|139194|71|M|Tommy Håkansson|fd murare, 71 år, Örkelljunga
+C|139195|55|M|Nicklas Bencsik|sjuksköterska, 55 år, Åsljunga
+C|139196|64|M|Gert Ljunggren|fd metallarbetare, 64 år, Skånes Fagerhult
+C|139197|80|K|Betty Bencsik|pensionär, 80 år, Örkelljunga
+C|139198|73|M|Tyrone Stebner|pensionär, 72 år, Örkelljunga
+C|139199|25|K|Minette Jansson|enhetschef, 25 år, Skånes Fagerhult
+C|139200|72|M|Leif Sigbo|fd it-ansvarig, 72 år, Örkelljunga
+C|139201|63|M|Tommy Helgesson|logistiker 62 år Örkelljunga
+C|139202|67|K|Gunilla Edman|specialpedagog, 67 år, Skånes Fagerhult
+C|139203|65|M|Fredrik Kjellman|pensionär, 64 år, Harbäkshult
+C|139204|61|M|Arne Möllaström|lagerarbetare, 61 år, Skånes Fagerhult
+C|139205|34|M|Martin Olsson|verkstadsarbetare, 34 år, Skånes Fagerhult
+C|139206|79|K|Anny Månsson|pensionär, 78 år, Skånes Fagerhult
+C|139207|38|M|Christian Olsson|maskinist, 38 år, Skånes Fagerhult
+C|139208|48|M|Avni Cakolli|lärare, 47 år, Örkellljunga
+C|139209|31|K|Sandra Jansson|lärarresurs, 31 år, Skånes Fagerhult
+C|139210|63|K|Maicen Hermansson|produktrevisor, 62 år, Boalt
+C|139211|59|K|Anne Jansson|lokalvårdare, 58 år, Skånes Fagerhult
+C|35335|41|M|Martin Gustafsson|Key account manager, 41, Örkelljunga
+C|80575|61|M|Tomas Nilsson|60, Åkarp
+C|80576|35|M|Kenny Lärkevie|35, Skånes Värsjö
+C|38906|35|K|Therese Rosenlöf|Örkelljunga, Studerande, 35
+C|80578|36|M|Pontus Björk|36, Örkelljunga
+C|38890|35|K|Ingela Lärkevie|Örkelljunga, Enhetschef, 35
+C|80580|41|M|Andreas Johansson|41, Kyrkolycke
+C|38897|29|K|Anita Eriksson|Örkelljunga, Biståndshandläggare, 29
+C|80582|56|M|Thomas Johansson|56, Västra Språng
+C|80583|69|M|Sven Olof Hansson|70, Örkelljunga
+C|80585|33|K|Johanna Karlsson|32, Yxenhult
+C|80586|70|K|Siv Stoltenberg|70, Västra Ringarp
+C|80587|26|M|Martin Fredriksson|26, Bjärabygget
+C|80588|34|K|Tinette Sjöblom Andersson|34, Skånes Fagerhult
+C|80589|40|M|Rickard Johansson|40, Attarp
+C|80590|58|M|Jonas Borggren|58, Örkelljunga
+C|79258|52|M|Leif Fredriksson|52, Bjärabygget
+C|80592|40|M|Mattias Nilsson|40, Sånnestorp
+C|80593|69|K|Britt-Marie Lindén|69, Örkelljunga
+C|80594|52|M|Mikael Gustafsson|52, Ljungaskog
+C|80595|69|M|Bengt Andersson|69, Eket
+C|80596|72|M|Kjell Nilsson|72, Örkelljunga
+C|80597|67|M|Anders Eriksson|68, Skogen
+C|80598|63|M|Jan-Olof Nilsson|64, Sånnestorp
+C|31782|56|M|Gunnar Edvardsson|56 år, Entreprenör, Örkelljunga
+C|63284|54|M|Magnus Håkansson|Plåtslagare, Örkelljunga
+C|31786|70|M|Christer Unosson|70 år, Socionom, Örkelljunga
+C|63286|36|M|Måns Sjödahl|Säljare, Örkelljunga
+C|63287|48|K|Helena Lordhem|Rådgivare, Örkelljunga
+C|63250|67|M|Clas Engström|Pensionär, Åsljunga
+C|63251|47|K|Helena Vestman|Socionom, Örkelljunga
+C|408313|45|K|Sofia Nilsson|Speciallärare, Sjunkamossa
+C|63253|36|M|Daniel Engelbrekt|Folkhögskolelärare, Hjelmsjö
+C|63254|42|M|Linus Sjödahl|Civilekonom, Ljungaskog
+C|63255|59|M|Anders Larsson|Lantbrukare, Värsjöby
+C|63256|55|M|Stefan Sigvardsson|Snickare, Skånes Fagerhult
+C|63257|63|K|Lena Arvidsson-Artman|Förskollärare, Örkelljunga
+C|63258|56|M|Rolf Vestman|Elevassistent, Örkelljunga
+C|63259|76|K|Elisabeth Stjärne|Fil.mag., Skånes Fagerhult
+C|63260|68|M|Rune Nilsson|Platschef, Åsljunga
+C|63261|35|K|Marta Fjällström|Veterinär, Sjunkamossa
+C|63262|44|M|Erik Andersson|Missionsledare, Örkelljunga
+C|63263|19|M|Arvid Persson|Student, Örkelljunga
+C|63264|74|K|Ing-Britt Sjödahl|fd Rektor, Örkelljunga
+C|63265|42|M|Nils Bengtsson|Industriarbetare, Örkelljunga
+C|63266|55|K|Karin Tufvesson|Barnledare, Åsljunga
+C|63267|71|M|Kjell Ekelund|Pensionär, Örkelljunga
+C|63268|53|M|Torgny Yngvesson|Rektor, Örkelljunga
+C|63269|72|K|Eva Paulsson|Receptionist, Örkelljunga
+C|63270|53|M|Timo Lordhem|Pastor/Egenföretagere, Örkelljunga
+C|63271|44|M|Henrik Persson|Platschef, Örkelljunga
+C|63272|33|K|Anna Jansson|Lokalvårdare, Eket
+C|63273|70|K|Bente Unosson|Distriktssköterska, Ramnekärr
+C|63274|27|K|Rebecka Lordhem|Arbetscoach, Örkelljunga
+C|63275|21|M|Elias Trolin|Lärarvikarie, Skånes Fagerhult
+C|63276|77|K|Mona Nilsson|fd Frisör, Örkelljunga
+C|121882|21|M|Alexander Vestman|Studerande, Örkelljunga
+C|63277|77|M|Rolf Nilsson|Pensionär, Örkelljunga
+C|63278|72|M|Lars Johansson|Läkare, Östra Ringarp
+C|63279|53|K|Ann-Louise Håkansson|Socionom, Örkelljunga
+C|63280|57|M|Michael Wadenborg|Byggmästare, Harbäckshult
+C|63281|75|M|Stig Paulsson|Lärare, Örkelljunga
+C|63282|74|M|Bo Sjödahl|Skogsmästare, Örkelljunga
+C|63676|61|M|Pär Nilsson|Örkelljunga
+C|63677|64|M|Erkki Ekman|Skånes Fagerhult
+C|63678|36|M|Khaled Meare|Skånes Fagerhult
+C|63679|64|K|Ingrid Edman Nilsson|Örkelljunga
+C|63680|75|K|May Bengtsson|Örkelljunga
+C|63681|69|M|Stigolle Andersson|Örkelljunga
+C|63682|81|M|Curth Persson|Örkelljunga
+C|63683|85|M|Sten Bergman|Örkelljunga
+C|22069|44|K|Madeléne Ekelund|Socionomkonsult, 44 år, Örkelljunga
+C|181252|42|K|Veronika Kronnäs|42 år, doktorand, Stjärneholm
+C|181253|57|K|Birgit Svensson|57 år, studiecoach, Örkelljunga
+C|181254|26|K|Johanna Jansson|25 år, studerar till USK, Eket
+C|181255|86|K|Monica Werneman|86 år, fil. mag. idé- och lärdomshistoria, Örkelljunga
+C|63885|41|M|Christian Larsson|41 år, näringslivsutvecklare, Örkelljunga
+C|63886|47|M|Henrik Nilsson|47 år, ingenjör, Skånes Fagerhult
+C|63887|47|K|Theresa Lindahl|47 år, egen företagare, Skånes Fagerhult
+C|63888|49|M|Henrik Linderos|49 år, fastighetsmäklare, Örkelljunga
+C|63889|59|K|Annika Jönsson|59 år, verksamhetsledare, Eket
+C|63890|72|M|Henrik Hammar|72 år, senior rådgivare, Örkelljunga
+C|63891|73|M|Bengt Hammarstedt|73 år, företagare, Örkelljunga
+C|63892|68|M|Per-Uno Nilsson|68 år, företagare, Örkelljunga
+C|63893|38|M|Kristofer Nennestam|38 år, säkerhetsrådgivare, Fasalt
+C|63894|57|K|Madeleine Svinhufvud Roos|57 år, överläkare, Örkelljunga
+C|63895|70|M|Kenneth Jacobsson|70 år, elinstallatör, Åsljunga
+C|63896|56|K|Carina Zachau|56 år, kommunalråd, Örkelljunga
+C|63897|65|M|Lennart Svensson|65 år, säljare, Örkelljunga
+C|63898|33|M|Jon Strömberg|33 år, personlig assistent, Örkelljunga
+C|63899|33|M|Benjamin Baron|33 år, kundtjänstmedarbetare, Örkelljunga
+C|63900|38|M|Mattias Nirvén|38 år, företagare, Örkelljunga
+C|63901|48|M|Anders Danielsson|48 år, hantverkare, Örkelljunga
+C|63902|38|M|Andreas Odklev|38 år, signalingenjör, Örkelljunga
+C|63903|66|K|Monica Bencsik|66 år, behandlingsassistent, Örkelljunga
+C|63904|72|K|Britt-Marie Renström|72 år, fru, Örkelljunga
+C|63905|71|M|Anders Kristensson|71 år, pensionär, Åsljunga
+C|63906|45|M|Anders Ekelund|45 år, frivårdsinspektör, Rya
+C|63907|47|K|Elisabeth Dahlgren|47 år, landskapsingenjör, Örkelljunga
+C|63908|46|M|Nils Svensson|46 år, arbetsledare, Yxenhult
+C|63909|76|M|Magnus Kjellberg|76 år, ingenjör, Eket
+C|63910|60|M|Ivan Matuzovic|60 år, målare, Örkelljunga
+C|63911|62|M|Bengt Svensson|62 år, officer, Eket
+C|63912|44|M|Lars Malm|44 år, projektledare, Örkelljunga
+C|63913|40|K|Gitte Pedersen|40 år, registrator, Örkelljunga
+C|63914|54|M|Jörgen Krohn|54 år, smed, Örkelljunga
+C|63915|73|M|Bengt Gunnarsson|73 år, pensionär, Örkelljunga
+C|63916|56|M|Roger Lindahl|56 år, chaufför, Skånes Fagerhult
+C|63917|74|K|Christina Nilsson|74 år, f.d. rektor, Åsljunga
+C|428615|61|K|Kristina Söderlund|Trainmanager
+C|428616|79|M|Åke Sjörin|Pensionär
+C|428617|77|M|Kjell Jeppsson|Pensionär
+C|428618|72|K|Mary-Anne Persson|Pensionär
+C|428619|72|K|Nina Domancích|Pensionär
+C|428620|86|M|Kjell Söderlund|Pensionär
+C|428621|81|M|Bertil Frantz|Redaktör
+C|428622|79|K|Karin Frantz|Pensionär
+C|428623|58|M|Magnus Abrahamsson|Grosshandlare
+C|67033|41|M|Mikael Eskilandersson|Maskinförare, Örkelljunga
+C|67034|72|M|Tommy Brorsson|71 år, egenföretagare, Örkelljunga
+C|67035|53|M|Niclas Bengtsson|53 år, auktionsförrättare, Lemmeshult
+C|67036|39|K|Anneli Eskilandersson|Ekonomibiträde/samordnare, 39 år
+C|67037|56|M|Michael Bengtsson|IT-tekniker, 56 år
+C|67038|76|M|Matti Josefsson|76 år, jur.kand, Örkelljunga
+C|67039|74|K|May Bengtsson|74 år, pensionär, Örkelljunga
+C|67040|61|M|Lennart Anderberg|61 år, smed, Mattarp
+C|67041|65|M|Tommy Rosenqvist|65 år, nämndeman, Åsljunga
+C|67042|61|K|Blagoveska Poulsen|Redovisningsekonom, 61 år
+C|67043|24|K|Fariba Haydari|Statsvetarstudent, 24 år
+C|67044|59|M|Stefan Svensson|59 år, truckförare/brandman, Skånes Fagerhult
+C|67046|39|K|Lisa Björk|38 år, ekonomibiträde & student, Örkelljunga
+C|67047|51|M|Morgan Nilsson|52 år, byggföretagare, Skånes Värsjö
+C|67048|73|M|Sven Burchardt|73 år, pensionär, Skånes Fagerhult
+C|67049|57|M|Andreas Friberg|57 år, tulltjänsteman, Örkelljunga
+C|67050|49|M|Sven Gustafsson|49 år, egenföretagare lantbrukare/mekaniker, Drakabygget
+C|67051|70|M|Bill Schölin|70 år, lastbilschaufför, Örkelljunga
+C|67052|60|M|Jan Larsson|60 år, chaufför, Örkelljunga

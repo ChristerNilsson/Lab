@@ -1,10 +1,248 @@
-2|41688|41689|41690|41691|41692|41693|41694|41695|41696|41697|41812|41698|41699|41700|41701|41702|41703|41704|41705|41706|41707|41708|41709|41710|41711|41712|41713|41714|41715|41716|41717|41718|41719|41720|41721|41722|41723|41724|41725|41726|41727|41728|41729|41730|41731|41732|41733|41734|41735|41736|41737|41738|41739|41740|41741|41742|41743|41744
-4|3241|3196|32604|32605|32606|32607|32608|32610|32609|3227|32612|32613|32614|32615|32616|3254|32618|32619|32620|32621|32622|32623|32624|32625|32626|32627|32628|32629|32630|32631|32632|32633|32634|32635|32636|32637|32638
-532|96669|96670|96671|96672|96673|96674|96675|96676
-68|274617|198321|279683|274618|274613|280383|280384|280385|280386|280387|280388|280389|279702|280391
-3|22350|22351|22352|22353|22354|22355|22356|22357|27989|22358|22359|22360|22361|22362|22363|22364|22365|22366|22368|22369|22370|22371|22372
-1296|128543|260125
-55|66253|66233|66245|66242|77412|66251|149837|149838|66258|149840|66246|252055
-1|253986|253975|254325|256572|254001|256574|253996|254364|256577|256578|254362|256580|254350|254009|256583|256584|256585|254357|256587|256588|254007|256590|256591|256592|256593|256594|256595|254004|256597|256598|256599|256600|256601|256603|256604|256605|256606|256607|256608|256609
-110|247314|126699|126702|126683|247318|126681|247320|126706|247322|126696|126686|126704|247326|126680|126695|247329|126720|247331|247332|247333
-5|70592|70593|70594|70595|6165|6163|70598|70599|70600|70601|70602|70603|82968
+T|Skövde
+A|2|41688|41689|41690|41691|41692|41693|41694|41695|41696|41697|41812|41698|41699|41700|41701|41702|41703|41704|41705|41706|41707|41708|41709|41710|41711|41712|41713|41714|41715|41716|41717|41718|41719|41720|41721|41722|41723|41724|41725|41726|41727|41728|41729|41730|41731|41732|41733|41734|41735|41736|41737|41738|41739|41740|41741|41742|41743|41744
+A|4|3241|3196|32604|32605|32606|32607|32608|32610|32609|3227|32612|32613|32614|32615|32616|3254|32618|32619|32620|32621|32622|32623|32624|32625|32626|32627|32628|32629|32630|32631|32632|32633|32634|32635|32636|32637|32638
+A|532|96669|96670|96671|96672|96673|96674|96675|96676
+A|68|274617|198321|279683|274618|274613|280383|280384|280385|280386|280387|280388|280389|279702|280391
+A|3|22350|22351|22352|22353|22354|22355|22356|22357|27989|22358|22359|22360|22361|22362|22363|22364|22365|22366|22368|22369|22370|22371|22372
+A|1296|128543|260125
+A|55|66253|66233|66245|66242|77412|66251|149837|149838|66258|149840|66246|252055
+A|1|253986|253975|254325|256572|254001|256574|253996|254364|256577|256578|254362|256580|254350|254009|256583|256584|256585|254357|256587|256588|254007|256590|256591|256592|256593|256594|256595|254004|256597|256598|256599|256600|256601|256603|256604|256605|256606|256607|256608|256609
+A|110|247314|126699|126702|126683|247318|126681|247320|126706|247322|126696|126686|126704|247326|126680|126695|247329|126720|247331|247332|247333
+A|5|70592|70593|70594|70595|6165|6163|70598|70599|70600|70601|70602|70603|82968
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|41688|40|M|Johan Ask|40 år, Skövde
+C|41689|43|K|Maria Hjärtqvist|43 år, Skövde
+C|41690|62|M|Robert Ciabatti|62 år, Hentorp
+C|41691|58|K|Monica Green|58 år, Skövde
+C|41692|61|M|Jörgen Frödelius|61 år, Lerdala
+C|41693|60|M|Per Johansson|60 år, Östermalm
+C|41694|47|K|Malin Wadman|47 år, Skövde
+C|41695|33|M|Linus Sjöholm|33 år, Östermalm
+C|41696|65|K|Anita Löfgren|65 år, Skövde
+C|41697|65|M|Bjarne Medin|65 år, Ryd
+C|41812|66|K|Margaretha Åslund|66 år, Ekängen
+C|41698|52|M|Anders Grönvall|52 år, Östermalm
+C|41699|66|K|Eva Larsson|66 år, Ryd
+C|41700|73|M|Per-Erik Gustafsson|73 år, Ryd
+C|41701|58|K|Carina Pettersson|58 år, Norrmalm
+C|41702|53|M|Mikael Karlsson|53 år, Götlunda
+C|41703|18|K|Elin Hjärtqvist|18 år, Värsås
+C|41704|34|M|Kayda Lazar|34 år, Vasastan
+C|41705|31|K|Ida Eliasson|31 år, Säter
+C|41706|41|M|Joakim Nord|41 år, Hentorp
+C|41707|32|K|Emelie Wärn|32 år, Norrmalm
+C|41708|25|M|Sean Lager|25 år, Norrmlam
+C|41709|37|K|Emma Lundin|37 år, Lerdala
+C|41710|62|M|Göran Bergman|62 år, Östermalm
+C|41711|20|K|Felicia Lager|20 år, Norrmalm
+C|41712|68|M|Alf Norberg|68 år, Ulveket
+C|41713|40|K|Camilla Lindborg|40 år, Igelstorp
+C|41714|61|M|Tord Lindqvist|61 år, Simsjön
+C|41715|54|K|Inga Törmänen|54 år, Centrum
+C|41716|38|K|Sandra Ask|38 år, Stöpen
+C|41717|65|M|Kennet Eriksson|65 år, Dälderna
+C|41718|67|K|Margareta Lindh|67 år, Ryd
+C|41719|61|M|Thommy Johansson|61 år, Norrmalm
+C|41720|28|K|Maria Renner|28 år, Ryd
+C|41721|30|M|Mikael Rask|31 år, Ryd
+C|41722|60|K|Annica Falck|60 år, Värsås
+C|41723|69|M|Lars Larsson|69 år, Östermalm
+C|41724|69|K|Inger Gustafsson|69 år, Ryd
+C|41725|50|M|Ramin Rustami|50 år, Trädgårdsstaden
+C|41726|48|K|Ingela Mikanovic|48 år, Frösve
+C|41727|46|M|Björn Mikkelsen|46 år, Väring
+C|41728|52|K|Pia Lager|52 år, Norrmalm
+C|41729|41|M|Lars Gustavsson|41 år, Centrum
+C|41730|63|K|Dorota Johansson|63 år, Ryd
+C|41731|64|M|Christer Rönn|64 år, Ekängen
+C|41732|66|K|Asima Pasalic|66 år, Östermalm
+C|41733|66|M|Harry Svensson|66 år, Norrmalm
+C|41734|47|K|Pernilla Enarsson|47 år, Norrmalm
+C|41735|49|M|Anders Wiberg|48 år, Havstena
+C|41736|37|K|Kajsa-Liza Axdorff|37 år, Berget
+C|41737|52|M|Jonny Alfredsson|52 år, Locketorp
+C|41738|34|K|Emma Ohlson|34 år, Hentorp
+C|41739|47|M|Pontus Lundin|47 år, Centrum
+C|41740|31|K|Emma Andersson|31 år, Norrmalm
+C|41741|48|K|Linda Henricsson|48 år, Norrmalm
+C|41742|72|M|Lars-Erik Lindh|72 år, Ryd
+C|41743|75|K|Anita Andersson|75 år, Östermalm
+C|41744|66|M|Rickard Birath|66 år, Ryd
+C|3241|46|K|Ulrica Johansson|Kommunalråd, Skövde, 46 år
+C|3196|53|K|Ulrika Carlsson|53 år, Riksdagsledamot, Skövde
+C|32604|50|M|Klas Hedenberg|Universitetsadjunkt, Skövde, 50 år
+C|32605|64|K|Gunvor Kvick|Undersköterska, Varola, 64 år
+C|32606|68|M|Orvar Eriksson|Ingenjör, Väring, 68 år
+C|32607|63|M|Börje Johansson|Fd officer, Skövde, 63 år
+C|32608|34|M|Andreas Gustafsson|IT-företagare, Skövde, 34 år
+C|32610|41|K|Shorik Adam|Projektledare, Skövde, 41 år
+C|32609|28|M|Andreas Svensson|Ingenjör, Skövde, 28 år
+C|3227|47|K|Åsa Axelsson|Projektledare,Skövde, 47 år
+C|32612|48|M|Fredrik Andersson|Egenföretagare, Värsås, 48 år
+C|32613|45|K|Emilia Uvesten Gustafsson|Samtalsterapeut, Skövde, 45 år
+C|32614|40|K|Therese Qwarfordt|Elevcoach, Häggum, 40 år
+C|32615|78|M|Rune Kjernald|Fd Primärvårdschef, Skövde, 78 år
+C|32616|72|K|Birgitta Johansson|Gymnasielärare, Skövde, 72 år
+C|3254|66|M|Tommy Westerberg|Tjänsteman, Skövde, 66 år
+C|32618|35|K|Kimberly Freiman|Redovisningsekonom, Sventorp, 35 år
+C|32619|52|M|Anders Nordström|Skolledare, Tidan, 52 år
+C|32620|54|M|Jonny Nicklasson|Landsbygdsföretagare, Lerdala, 54 år
+C|32621|69|M|Göran Torstensson|Lantbrukare, Tidan, 69 år
+C|32622|62|K|Christina Nilsson|Samordnare, Tidan, 62 år
+C|32623|58|M|Malte Svensson|Enhetschef, Skövde, 58 år
+C|32624|65|K|Lena Andersson|Undersköterska, Tidan, 65 år
+C|32625|66|M|Gösta Kvick|Lantbrukare, Varola, 66 år
+C|32626|59|M|Stefan Svensson|Gymnasielärare, Skövde, 59 år
+C|32627|53|K|Lollo Persson|Verksamhetsledare, Böja, 53 år
+C|32628|65|M|Kent Wäring|Fd Butikschef, Tidan, 65 år
+C|32629|50|K|Karin Torstensson|Hudterapeut, Skövde, 50 år
+C|32630|48|M|Patrick Fredriksson|Ingenjör, Lerdala, 48 år
+C|32631|64|K|Brtih Mari Johansson|Handläggare, Skövde, 64 år
+C|32632|52|M|Anders Assarsson|Yrkeslärare, Väring, 52 år
+C|32633|63|M|Göran Johansson|Lantbrukare, Värsås, 63 år
+C|32634|68|M|Lars Ahlstrand|Lantbrukare, Frösve, 68 år
+C|32635|58|M|Mats Eliasson|Handläggare, Skövde, 58 år
+C|32636|69|M|Leif Karlsson|Ekonom, Skövde, 69 år
+C|32637|69|M|Bengt Olsson|Lantbrukare, Sventorp, 69 år
+C|32638|43|K|Titti Walterum|Regionutvecklare, Forsby, 43 år
+C|96669|40|K|Hilda Rolfsdotter|40 år Jämställdhetsutvecklare
+C|96670|28|K|Moa Mannesson|28, studie- och yrkesvägledare, Skövde
+C|96671|70|M|Kjell Ambertson|70, pensionär, Skövde
+C|96672|27|K|Béatrice Tamm|27 år Vårdbiträde/student
+C|96673|39|K|Sara Lund|39 år Förskollärare
+C|96674|68|K|Agnes Nelsson|68 år Pensionär/socionom
+C|96675|49|K|Maria Viklund|49 år Beteendevetare/skolkurator
+C|96676|31|K|Caroline Lennemar|32 år Kompetensförsörjningsstrateg
+C|274617|57|K|Marianne Gustafson|56, Sjuksköterska, Skövde
+C|198321|62|M|Conny Brännberg|62, Regionpolitiker, Skövde
+C|279683|27|K|Isabelle Waldenvik|26, Integrationsstrateg, Skövde
+C|274618|74|M|Göte Carling|74, Pensionär, Skövde
+C|274613|67|K|Mona Johansson|67, Vårdlärare, Skövde
+C|280383|52|M|Emad Hanna|52, Tolk, Södra Ryd
+C|280384|50|K|Nouhad Runesson|49, Rådgivare, Billingen
+C|280385|59|M|Per-Agne Rytter|59, Sporthandlare, Igelstorp
+C|280386|37|K|Ghoson Sawa|37, Samordnare, Skövde
+C|280387|77|M|Björn Carlsson|77, Pensionär, Vadden
+C|280388|66|M|Lennart Lindbäck|66, Fd tågmästare, Billingen
+C|280389|69|M|Stefan Hallström|69, Pensionär, Norrmalm
+C|279702|23|M|William Kajo|23, Student fastighetsvetare, Skövde
+C|280391|63|M|Toni Abi-Khalil|63, Företagsrådgivare, Hentorp
+C|22350|73|K|Ulla-Britt Hagström|73 Skövde
+C|22351|28|M|Petter Fahlström|Kriminalvårdare Käpplunda
+C|22352|52|K|Jacqueline Tjällman|52 Skövde
+C|22353|64|M|Christer Winbäck|64 Skövde
+C|22354|60|K|Louise Clausen|Kommunikatör S Ryd
+C|22355|75|M|Kaj-Eve Enroth|f.d. Överstelöjtnant Östermalm
+C|22356|42|K|Elin Elfverson|42 Skövde
+C|22357|75|M|Johan Ekström|75, Skövde
+C|27989|64|K|Elisabet Fläring|Legitimerad Lärare Hentorp
+C|22358|73|M|Björn Spetz|Pensionär S Ryd
+C|22359|75|K|Viola Lindén|f.d. Sjuksköterska/Vårdlärare Norrmalm
+C|22360|43|K|Birgitta Lövgren|Undersköterska S Ryd
+C|22361|67|M|Hans Clausen|Fotograf S Ryd
+C|22362|62|M|Anders Edeskär-Wennberg|Tekniker Billingsluttningen
+C|22363|85|M|Stig Larsson|Ingenjör Dälderna
+C|22364|58|M|Lars Wallberg|Konsult Simsjön
+C|22365|80|K|Marie Larsson|f.d. Ekonom Dälderna
+C|22366|40|M|Kay Henningsson|40 Skövde
+C|22368|79|K|Vanja Ekström|Pensionär Vasastaden
+C|22369|56|K|Ann Krantz|Bitr.Butikschef Gengåvan Norrmalm
+C|22370|57|M|Lars Lundgren|Universitetsstuderande, Direktör Lerdala
+C|22371|67|K|Margareta Elfverson|Sjuksköterska Timmersdala
+C|22372|39|K|Elisabeth Enroth|Sjuksköterska Norrmalm
+C|128543|63|M|Leif Svensson|63, Civilingenjör, Västra Götaland
+C|260125|31|M|Michael Dahlqvist|31 arbetsledare Skövde
+C|66253|48|K|Janette Leinonen|48 år, Mjukvaruutvecklare, Skövde
+C|66233|59|M|Peter Sögaard|59 år, M,dr, Skövde
+C|66245|25|M|Emil Forslund|25 år, Systemutvecklare, Skövde
+C|66242|53|K|Maj-Lis Lindholm|53 år, Lärare, Skövde
+C|77412|47|M|Johan Örnemar|47 år, Organisationsutvecklare, Skövde
+C|66251|39|K|Elisabet Brunnegård|39 år, Socionom-Lärare, Skövde
+C|149837|56|M|Mikael Franzèn|56 år, Systemutvecklare, Lunden
+C|149838|74|K|Marie-Louise Karlberg|74 år, Bibliotekarie
+C|66258|61|K|Eva-Lill Nilsson|61 år, Lärare, Skövde
+C|149840|77|M|Börje Johansson|77 år, Folkbildare, Pensionär, Väring
+C|66246|34|K|Amanda Nordell|
+C|252055|52|M|Roger Almgren|52 år, Räddningschef
+C|253986|53|K|Katarina Jonsson|53, Egen företagare, Skövde
+C|253975|46|M|Anders G Johansson|46, Officer, Skövde
+C|254325|43|K|Theres Sahlström|43, Leg. fysioterapeut, Skövde
+C|256572|38|M|Magnus Hammar|38, Verksamhetsansvarig, Skultorp
+C|254001|44|M|Torbjörn Bergman|44, Lantbrukare, Skövde
+C|256574|41|K|Anna Bergman|41, Lärare, Säter
+C|253996|46|M|Martin Odenö|46, Senior analytiker/Nationalekonom, Skövde
+C|254364|64|K|Marie Guhrén|64, Inköpare/upphandlare, Skövde
+C|256577|72|M|Claës Beckman|72, Pensionär, Stöpen
+C|256578|54|K|Gunilla K Löfvenborg|54, Egen företagare, Klåvasten
+C|254362|76|M|Rohland Peterson|76, Pensionär, f.d överstelöjtnant, Skövde
+C|256580|46|K|Anna Ljungberg|46, Lärare, Skövde
+C|254350|60|M|Bernt Mårtensson|60, Verkställande direktör, Skövde
+C|254009|57|M|Michael Nimstad|57, IT-entreprenör, Skövde
+C|256583|70|M|Philip Segell|70, F.d. överstelöjtnant, Skövde
+C|256584|69|M|Lars Ove Källman|69, Herr, Skövde
+C|256585|69|K|Ingrid Bäfman|69, F.d. socialchef, Skövde
+C|254357|52|K|Clary Starck|52, Chef inom offentlig verksamhet, Skövde
+C|256587|59|M|John Khalaf|59, Egenföretagare, Skövde
+C|256588|50|M|Erik Boström|50, Informatör, Skövde
+C|254007|48|M|Pär Bönnestig|48, Egenföretagare, Skövde
+C|256590|49|K|Eva Wärnå|49, Processledare inköp, Skövde
+C|256591|41|M|Timothy Walsh|41, Officer, Skultorp
+C|256592|78|M|Sven Sundberg|78, Företagare, Skövde
+C|256593|52|M|Göran Hjert|52, Officer, Skövde
+C|256594|73|M|Sven-Erik Söderlund|73, Pensionerad förvaltningschef, Skövde
+C|256595|68|M|Per Tenning|68, Civilekonom, Skövde
+C|254004|37|M|Sebastian Eriksson|37, Officer, Skövde
+C|256597|31|M|Markus Wästefors|31, Jurist, Skövde
+C|256598|41|M|Andreas Granander|41, Industriarbetare, Skövde
+C|256599|39|M|Anders Karlsson|39, Konsulent, Horn
+C|256600|44|M|Nicklas Johansson|44, Lärare, Skövde
+C|256601|56|M|Johan Fogelberg|56, Egenföretagare, Skövde
+C|256603|31|K|Elin Broberg|31, Leg. Tandhygienist , Timmersdala
+C|256604|54|K|Karin Malmsten|54, Officer, Skövde
+C|256605|61|M|Anders Löfvenborg|61, Verkställande direktör, Skövde
+C|256606|38|M|Joseph Nasob Tamasang|38, Ekonomichef, Skövde
+C|256607|65|M|Arne Lorentzon|65, Styr Entreprenör, Skövde
+C|256608|57|M|Leif Repo|57, Group Logistics Manager, Timmersdala
+C|256609|59|M|Lennart Bogren|59, Lantbrukare, Timmersdala
+C|247314|39|M|Josef Fransson|Högskoleingenjör, Skövde
+C|126699|22|M|Tobias Andersson|Ekonom, Skövde
+C|126702|64|M|Göran Segerstedt|64, Tekniker, Skövde
+C|126683|35|M|Jonas Eriksson|Civilekonom, Skövde
+C|247318|69|K|Maria Cidh Christensen|69, Journalist/Pensionär
+C|126681|52|M|Jerzy Kucier|Yrkesofficer, Skövde
+C|247320|29|M|Mikael Clarke|29, Sergeant
+C|126706|25|K|Hanna Vikström|25, Yrkeschaufför, Skövde
+C|247322|30|M|Per Henrik Hallberg|30, Fordonstekniker
+C|126696|25|K|Alva Orrenvade|25, Studerande, Skövde
+C|126686|72|K|Yvonne Eriksson Harlin|71, Pensionär, Skövde
+C|126704|20|M|David Sandberg|20, Personlig assistent, Skövde
+C|247326|58|M|Kenneth Källström|58, Yrkeschaufför
+C|126680|61|K|Beatrice Orrenvade|61, Leg. Sjuksköterska, Skövde
+C|126695|40|K|Anita Kucier|40, Personlig assistent, Skövde
+C|247329|67|M|Lennart Nilsson|68, Elingenjör/Pensionär
+C|126720|52|M|Stefan Larsson|52, CNC-operatör, Skövde
+C|247331|68|K|Lisbeth Åström|68, Frisör/Pensionär
+C|247332|60|K|Karin Sjölander|60, Lokalvårdare
+C|247333|52|M|Christer Bratt|52, Civilingenjör
+C|70592|34|M|Gabryjel Blom|Skövde, Industriarbetare
+C|70593|54|M|Dag Fredriksson|Skövde, Ekolog
+C|70594|52|K|Isabell Ankarström|Lärare
+C|70595|26|M|Rickard Ornblad|Elevassistent
+C|6165|69|K|Elizabeth Fierro Fredriksson|Skövde, Biolog
+C|6163|55|M|Carlos Bobadilla|Skövde, Lärare
+C|70598|41|K|Ida Gunnarsson|Förskollärare
+C|70599|29|K|Mia Nortunen|Förskollärare
+C|70600|55|M|Mats Kristiansson|Språkvetare
+C|70601|53|K|Hayat Hanan|Sjuksköterska
+C|70602|69|M|Erik Karlsson|Pensionär
+C|70603|20|K|Alicia Ankarström|Studerande
+C|82968|36|K|Marie Lindahl|Kurator

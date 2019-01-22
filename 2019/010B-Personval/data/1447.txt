@@ -1,10 +1,167 @@
-2|34566|34567|34568|34569|34570|34571|34572|34573|34574|34575|34576|34577|34578|34579|34580|34581|34582|34583|34584|34585|34586|34587|34588|34589|34590|34591|34592|34593|34594|34595|34596|34597|34598|34599|34600|34601|34602|34603|34604|34605|34606|34607|34608|34609|34610|34611
-4|3222|5899|3243|5901|5902|5903|5904|5905|5906|5907|5908|5909|5910|5911|5912|5913|5914|5915
-532|190086|190087|190088|190089|190090|190091|190092|190093|190094|190095
-1140|512401
-3|24676|24677|24678|24680|39982|24681|24684|39985|39986|24679|24682|24683|24685|24686|24687|39993|39995|39994|39996|24688
-55|64330|64331
-1|253978|254376|254378|255224|255225|254005|255227|255228|255229|255230|255231|255232|255233|255234|255235|255236|255237|255238|255239|255240|255241|255242|255243|255244|255245|255246|255247|255248|255249|255250|255251|255252
-1222|511968|511969|511970|511971|511972|511973|511974|511975|511976
-110|126690|246108|246109|246110|246111|508827|510760
-5|181951
+T|Gullspång
+A|2|34566|34567|34568|34569|34570|34571|34572|34573|34574|34575|34576|34577|34578|34579|34580|34581|34582|34583|34584|34585|34586|34587|34588|34589|34590|34591|34592|34593|34594|34595|34596|34597|34598|34599|34600|34601|34602|34603|34604|34605|34606|34607|34608|34609|34610|34611
+A|4|3222|5899|3243|5901|5902|5903|5904|5905|5906|5907|5908|5909|5910|5911|5912|5913|5914|5915
+A|532|190086|190087|190088|190089|190090|190091|190092|190093|190094|190095
+A|1140|512401
+A|3|24676|24677|24678|24680|39982|24681|24684|39985|39986|24679|24682|24683|24685|24686|24687|39993|39995|39994|39996|24688
+A|55|64330|64331
+A|1|253978|254376|254378|255224|255225|254005|255227|255228|255229|255230|255231|255232|255233|255234|255235|255236|255237|255238|255239|255240|255241|255242|255243|255244|255245|255246|255247|255248|255249|255250|255251|255252
+A|1222|511968|511969|511970|511971|511972|511973|511974|511975|511976
+A|110|126690|246108|246109|246110|246111|508827|510760
+A|5|181951
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|1140|KrVP|Kristna Värdepartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1222|Rättv|RÄTT VÄG för Gullspångs kommun
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|34566|54|K|Carina Gullberg|54 år, Gullspång
+C|34567|62|K|Monica Hall Fornander|Gårdsjö, 62, Vårdlärare
+C|34568|49|M|Jan Hassel|49 år, Gullspång
+C|34569|45|K|Anja Nyström|Gullspång, 45, Boendeassistent
+C|34570|60|M|Per-Arne Brandberg|Skagersvik, 60, Processadministratör
+C|34571|58|K|Ann-Christin Erlandsson|Gullspång, 57, Undersköterska
+C|34572|72|M|Roger Wiking|Hova, 72, Pensionär
+C|34573|53|M|Reine Hilding|Gullspång, 53, Stuveriarbetare
+C|34574|30|K|Evelina Eriksson|Södra Råda, 30, Undersköterska
+C|34575|64|K|Monika Högberg|Skagersvik, 64, Arbetsmarknadskonsulent
+C|34576|62|K|Margitha Dagobert|Gullspång, 62, Demensundersköterska
+C|34577|75|M|Lars-Göran Ytterberg|Hova, 75, Pensionär
+C|34578|64|K|Suzanne Michaelsen Gunnarsson|Gullspång, 64, Pensionär
+C|34579|23|M|Kristoffer Alexandersson|Gullspång, 23, Maskinist
+C|34580|56|K|Ghada Najm|Gullspång, 56, Boendeassistent
+C|34581|60|M|Christian Carlström|Gullspång, 60, Pensionär
+C|34582|54|M|Abdalla Idris|Gullspång, 54, Personlig assistent
+C|34583|69|M|Ulf Nilsson|Otterbäcken, 70, Pensionär
+C|34584|54|K|Pia Zimmerman|Gullspång, 54, Förtidspensionär
+C|34585|25|M|Gasmend Vukaj|Gullspång, 24, Folkhälsovetare
+C|34586|74|M|Sven-Erik Roslund|Hova, 74, Pensionär
+C|34587|69|K|Annika Granath|Gullspång, 69, Pensionär
+C|34588|81|K|Gun Svensson|Hova, 81, Pensionär
+C|34589|50|M|Peter Edén|Gårdsjö, 50, Vårdare
+C|34590|55|K|Catharina Tina Johansson|Gullspång, 55, Distriktsköterska
+C|34591|46|K|Dila Vukaj|Gullspång, 46, Undersköterska
+C|34592|70|K|Barbro Roslund|Hova, 71, Pensionär
+C|34593|45|M|Odd Karlsson|Gullspång, 45, Vårdare
+C|34594|49|M|Jimmy Gustafsson|Gullspång, 49, Förtidspensionär
+C|34595|57|M|Lars Pettersson|Skagersvik, 57, Lantarbetare
+C|34596|52|K|Marina Blomqvist|Hova, 52, Undersköterska
+C|34597|50|M|Mattias Karlsson|Skagersvik, 49, Smältverksarbetare
+C|34598|54|M|Keijo Wedin|Otterbäcken, 54, Mekaniker
+C|34599|73|M|Matti Niiranen|Gullspång, 72, Pensionär
+C|34600|76|M|Roland Vallin|Otterbäcken, 77, Pensionär
+C|34601|71|M|Martin Stenberg|Otterbäcken, 71, Pensionär
+C|34602|48|K|Annika Johansson|Hova, 48, Socialpedagog
+C|34603|55|M|Wolfgang Brauer|Skagersvik, 54, Kock
+C|34604|71|K|Inga-Lill Kjellgren|Gullspång, 71, Pensionär
+C|34605|40|M|Markus Karlsson|Skagersvik, 39, Egenföretagare
+C|34606|42|M|Jonaz Johansson|Hova, 43, Industriarbetare
+C|34607|66|K|Elisabet Elg|Skagersvik, 66, Psykiatrisjuksköterska
+C|34608|69|M|Olov Sandegård|Skagersvik, 69, Pensionär
+C|34609|69|M|Stig-Åke Hilding|Skagersvik, 69, Pensionär
+C|34610|78|K|Sirkka Rickardsson|Hova, 74, Pensionär
+C|34611|77|K|Laila Gustavsson|Södra Råda, 72, Pensionär
+C|3222|66|M|Bo Hagström|Lantbrukare, Gullspång, 66 år
+C|5899|71|M|Kjell Lindholm|Gullspång
+C|3243|58|K|Maritha Hagström|Undersköterska, Gullspång, 58 år
+C|5901|61|M|Torbjörn Jansson|Hova
+C|5902|30|K|Julia J Svensson|Södra Råda
+C|5903|71|M|Roland Karlsson|Hova
+C|5904|55|M|Albert Eriksson|Södra Råda
+C|5905|50|M|Anders Levahn|Hova
+C|5906|51|M|Sören Olofsson|Gårdsjö
+C|5907|35|M|Andreas Svensson|Södra Råda
+C|5908|53|K|Helena Svensson|Hova
+C|5909|71|K|Else-Marie Hägerstrand|Södra Råda
+C|5910|52|M|Mats Johansson|Torsvid
+C|5911|68|K|Yvonne Molinder|Gullspång
+C|5912|59|M|Jörgen Jansson|Hova
+C|5913|63|M|Jan Evertson|Gullspång
+C|5914|61|M|Bertil Andersson|Gullspång
+C|5915|66|M|Åke Andersson|Hova
+C|190086|47|M|Stefan Skärlund|Gymnasielärare/Skådespelare
+C|190087|29|K|Sarah Johansson|Stödpedagog
+C|190088|37|K|Lii Bergman|Snickare/Egenföretagare
+C|190089|30|K|Cecilia Gustavsson|Ungdomsvägledare
+C|190090|29|M|Elis Öquist Bergman|Personlig assistent
+C|190091|54|K|Maria von Krusenstierna|Föreståndare EKB
+C|190092|55|K|Annica Bengtzing|Förbundschef
+C|190093|18|K|Isabel von Krusenstierna|Studerande
+C|190094|31|K|Hanna Jansson|Miljöstrateg MTG
+C|190095|26|K|Johanna Svensson|Bibliotekarie
+C|512401|45|K|Linnea Einmaa|Biblioteksassistent, 45, Hova
+C|24676|56|M|Nour Beyed|56 Gullspång
+C|24677|57|K|Nillan Ramberg Kardéus|57 Legitimerad Lärare
+C|24678|37|M|Hawar Bazyan|38 Lärare
+C|24680|32|M|Idris Zain|32 Maskinförare
+C|39982|56|M|Mike Difrakhsh|56 Egenföretagare
+C|24681|48|K|Annica Difrakhsh|38
+C|24684|58|M|Elias Esber|58 Integrationskonsult
+C|39985|33|M|Saed Zain|33 Boendeassistent
+C|39986|26|K|Homeira Qazizadeh|26 Student
+C|24679|61|K|Carina Andersson|61 Familjepedagog
+C|24682|29|K|Ola Almasri|29
+C|24683|23|M|Khalid Mahmoud Salih|23 Student
+C|24685|21|M|Morshed Mohammed Omar|31 Student
+C|24686|18|M|Mohammed Hassen|18 Student
+C|24687|32|K|Elham Atmani|32
+C|39993|21|M|Mawyea Ishag|21 Fabriksarbetare
+C|39995|30|M|Wassem Alawad|30 Studiehandledare
+C|39994|20|M|Benjamin Kastrati|20 Behandlingsassistent
+C|39996|29|M|Sari Alhamdi|30 Studiehandledare
+C|24688|75|K|Anita Ahlgren|75 Socionom
+C|64330|60|K|Doris Karlsson|60 år,Sjuksköterska/Lärare,Gullspång
+C|64331|65|M|Christer Eriksson|Pensionär, Gullspång
+C|253978|54|M|Björn Thodenius|54, Oppositionsråd, Hova
+C|254376|57|K|Maria Gustafsson|57, Driftchef, Gullspång
+C|254378|22|M|Victor Albertsson Tidestedt|22, Lantbrukare/gymnasielärare, Gullspång
+C|255224|63|K|Kerstin Isaksson|63, Hova
+C|255225|70|M|Eric Mellberg|70, Skagersvik
+C|254005|54|K|Monica Joby|54, Ekonomiansvarig, Hova
+C|255227|21|M|Pontus Strid|21, Björstorp
+C|255228|71|M|Torbjörn Lööf|71, Otterbäcken
+C|255229|20|M|Alexander Olofsson|20, Åsebol
+C|255230|54|K|Kerstin Bäckerbo|54, Nunnestad
+C|255231|60|M|Anders Andersson|60, Fårbacken
+C|255232|54|M|Per Rang|54, Storhult
+C|255233|42|K|Therese Gustavsson|42, Flenstad
+C|255234|71|M|Gunnar Bohlin|71, Nuttebo
+C|255235|72|M|Pär Rittsel|72, Hova
+C|255236|81|M|Lennart Johnsson|81, Hova
+C|255237|69|K|Annicka Johansson|69, Gårdsjö
+C|255238|34|M|Emil Jansson|34, Grimstorp
+C|255239|33|K|Matilda Fröjd|33, Gullspång
+C|255240|62|M|Svante Syk|62, Bråta
+C|255241|23|K|Sofie Björnberg|23, Tefällan
+C|255242|68|M|Leif Dehlén|68, Bondetorp
+C|255243|54|K|Helen Frisk|54, Kroppfjell
+C|255244|48|M|Stefan Karlsson|48, Bråta
+C|255245|48|M|Ulrik Larsson|48, Ingelstorp
+C|255246|47|M|Patrik Holmberg|47, Rudbäcksdal
+C|255247|68|K|Harriet Persson|68, Hova
+C|255248|55|M|Ingemar Joby|55, Lilla Hederna
+C|255249|53|M|Rikard Frisk|53, Kroppfjell
+C|255250|66|M|Tommy Bergsten|66, Otterbäcken
+C|255251|72|K|Margareta Ros|72, Årås
+C|255252|77|M|Jan Persson|77, Hova
+C|511968|72|M|Hans Göran Larsson|f.d Kommunalråd, Gullspång
+C|511969|83|M|Bengt-Olov Hansson|Företagare, Otterbäcken
+C|511970|70|M|Per Arne Olofsson|Byggnadsingenjör, Otterbäcken
+C|511971|86|M|Ingvar Claesson|Ingenjör, Hova
+C|511972|62|M|Per Eriksson|Processoperatör, Råglanda
+C|511973|42|M|Emil Andersson|Säljare, Vattenberg S.Råda
+C|511974|80|M|Lars "Lången" Johansson|Pensionär, Gullspång
+C|511975|68|M|Jerry Gustavsson|Fastighetsskötare, Gunnarstorp
+C|511976|70|M|Sören Engström|Entreprenör, Alön Gullspång
+C|126690|58|M|Karl Schwed|59, Projektledare, Gullspång
+C|246108|76|M|Lennart Ardemo|76 år, Lantbrukare
+C|246109|70|M|Frank Ludvigsson|70 år, F.d. statstjänsteman
+C|246110|89|M|Stig Svensson|89 år, Pensionär
+C|246111|73|M|Lars Forsström|73 år, Entreprenör
+C|508827|68|K|Gudrun Sjöberg|68, ekonom
+C|510760|61|K|Britt-Marie Törfalk|
+C|181951|51|K|Maria Smedberg|Lärare

@@ -1,10 +1,164 @@
-2|28278|28281|37038|37039|37040|37041|37042|37043|37044|37045|37046|37047|37048|37049|430112|37051|37052|37053|37054|37055|37056|37057|37058|37059|54724|111078|111079|111080|111081|111082|111084|111085|111088|111090|111091
-4|8536|75719|35331|39151|75722|75723|75724|75725|75726|75727|75728|75729|75730|75731|75732|75733|75734|75735|75736|75737|75738|75739|75740|75741|75742|75743|75744|76537|76542
-1224|435473|59817|435475|435476|435477|435478|435479|435480|435481
-68|59410|62361|59417|62363|31834|62365|62366|62367|62368|62369|62370|62371|62372|62373|62374|62375|62376|62377
-1011|511306
-3|263164|143589|261553|263167|263168|263169|263170
-55|17331
-1|59806|59807|59808|59809|59810|59811|59812|59813|59814|59815|59816|59818|59819|59820|59821|59822|59823|59824
-110|127551|127552|127553|127554|127555|127556|127557|127558|127559|127560|127561|127562|127563|127564|127565|127566|127567
-5|124106|124107|124108|124109|124110|124111|124112|124113|124114
+T|Osby
+A|2|28278|28281|37038|37039|37040|37041|37042|37043|37044|37045|37046|37047|37048|37049|430112|37051|37052|37053|37054|37055|37056|37057|37058|37059|54724|111078|111079|111080|111081|111082|111084|111085|111088|111090|111091
+A|4|8536|75719|35331|39151|75722|75723|75724|75725|75726|75727|75728|75729|75730|75731|75732|75733|75734|75735|75736|75737|75738|75739|75740|75741|75742|75743|75744|76537|76542
+A|1224|435473|59817|435475|435476|435477|435478|435479|435480|435481
+A|68|59410|62361|59417|62363|31834|62365|62366|62367|62368|62369|62370|62371|62372|62373|62374|62375|62376|62377
+A|1011|511306
+A|3|263164|143589|261553|263167|263168|263169|263170
+A|55|17331
+A|1|59806|59807|59808|59809|59810|59811|59812|59813|59814|59815|59816|59818|59819|59820|59821|59822|59823|59824
+A|110|127551|127552|127553|127554|127555|127556|127557|127558|127559|127561|127562|127563|127564|127565|127566|127567
+A|5|124106|124107|124108|124109|124110|124111|124112|124113|124114
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1224||Framstegspartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|28278|41|K|Marika Bjerstedt Hansen|Socionom, Osby
+C|28281|45|M|Daniel Landin|Fackligt ombud, Osby
+C|37038|65|K|Agneta Malm|Pensionär, Osby
+C|37039|72|M|Ingmar Bernthsson|
+C|37040|41|K|Maria Reimer|
+C|37041|71|M|Kurth Stenberg|
+C|37042|68|K|Margot Malmqvist|
+C|37043|70|M|Johnny Ahlqvist|
+C|37044|23|K|Sandra Bahceci|
+C|37045|67|M|Fahrudin-Fajko Zulfic|
+C|37046|45|K|Nathalie Folkunger|
+C|37047|45|M|Mattias Petersson|
+C|37048|63|K|Yvonne Strömberg|
+C|37049|55|M|Michael Svensson|Lagerarbetare, Osby
+C|430112|38|K|Mirsada Hodzic|
+C|37051|76|M|Kjell Nilsson|
+C|37052|66|K|Maritha Forsberg|
+C|37053|72|M|Leif Wallenborg|
+C|37054|74|K|Ann-Britt Olsson|
+C|37055|70|M|Bengt-Åke Holmgren|
+C|37056|50|K|Songöl Özdemir|
+C|37057|59|M|Lennart Hansson|
+C|37058|43|K|Gabriella Folkunger Landin|
+C|37059|65|M|Lars Andreasson|
+C|54724|51|M|Tommy Augustsson|Metallarbetare, Osby
+C|111078|62|M|Knud Nielsen|
+C|111079|57|K|Karin Augustsson|
+C|111080|61|M|Arne Gustavsson|
+C|111081|44|K|Maria Ernstsson|
+C|111082|32|M|Kim Andersson|
+C|111084|60|M|Karl-Yngve Andersson|
+C|111085|55|K|Annelie Frostensson|
+C|111088|57|M|Merle Banks|
+C|111090|48|M|Benny Frostensson|
+C|111091|63|K|Rose-Marie Riling|
+C|8536|30|M|Niklas Larsson|30 år, Oppositionsråd, Osby
+C|75719|51|K|Lotte Melin|Lantbrukare, Malshult, Osby, 51 år
+C|35331|63|K|Ulla Ekdahl|Jurist, 63, Visseltofta
+C|39151|42|M|Jimmy Ekborg|42, Handelsutvecklare, Lönsboda
+C|75722|33|K|Ida Gustafsson|Socialsekreterare, Gullarp, Osby, 33 år
+C|75723|77|M|Ingvar Andrén|F.d.förrådsföreståndare, Osby, 77 år
+C|75724|66|K|Eva Bendz Johansson|F.d.kokerska, Killeberg, 66 år
+C|75725|58|M|Mats Ernstsson|Verksamhetsutvecklare, Osby, 58 år
+C|75726|51|K|Annika Pettersson|Lantbrukare, Gräsljunga, Visseltofta, 51 år
+C|75727|74|M|Henry Nilsson|Skogsentreprenör, Gisslaboda, Lönsboda, 74 år
+C|75728|41|K|Sofie Persson|Pedagogisk resurs, Visseltofta, 41 år
+C|75729|68|K|Kaarina Rantanen|Biomedicinsk analytiker, Osby, 68 år
+C|75730|42|M|Robert Persson|Behandlingsassistent, Visseltofta, 42 år
+C|75731|47|M|Anders Jeppsson|Mjölkproducent, Brunkelstorp, Osby, 47 år
+C|75732|54|K|Catharina Ohlsson|Elingenjör, Holmö, Osby, 54 år
+C|75733|45|M|Magnus Augustsson|Trädgårdsarbetare, Strönhult, Lönsboda, 45 år
+C|75734|72|M|Anders Pettersson|F.d.kommunalråd, Osby, 72 år
+C|75735|71|M|Bertil Nilsson|Byggnadssnickare, Ö. Flyboda, Lönsboda, 71 år
+C|75736|30|M|Robin Persson|Lantbrukare, Fornahässle, Killeberg, 30 år
+C|75737|70|K|Ann-Sofie Magnusson|Fru, Gisslaboda, Lönsboda, 70 år
+C|75738|37|M|Kristian Lundin|Lekplatsansvarig, Gullarp, Osby, 37 år
+C|75739|75|M|Krister Weidenmark|Överstelöjtnant, Visseltofta, 75 år
+C|75740|70|K|Agnhild G Elversson|Fru, Visseltofta, 70 år
+C|75741|61|M|Villy Nilsson|Projektbeställare, Hunshult, Lönsboda, 61 år
+C|75742|69|M|Bengt Cehlin|Pensionär, Vesljunga, Visseltofta, 69 år
+C|75743|63|K|Ann-Kristin Cehlin|Lagerarbetare, Vesljunga, Visseltofta, 63 år
+C|75744|35|M|Andreas Niklasson|Entreprenör, Fröatorp, Lönsboda, 35 år
+C|76537|33|M|Nils Lavesson|Mekaniker, Traneboda, Lönsboda, 33 år
+C|76542|53|M|Bengt Augustsson|Lantbrukare, Strönhult, Lönsboda, 53 år
+C|435473|71|M|Bengt Agne Lennart Ingvardsson|
+C|59817|57|M|Mikael Sjösten|
+C|435475|52|M|Håkan Norén|
+C|435476|61|M|Tom Georg Stefan Axelsson|
+C|435477|70|M|Esbjörn Hansson|
+C|435478|72|M|Eskil Martinsson|Produktionschef
+C|435479|31|K|My Maria Eva Katarina Dolkow|
+C|435480|51|M|Ola Lavesson|
+C|435481|67|M|Per Rune Sonny Andersson|
+C|59410|35|K|Maria Owiredu|35, VD-assistent, Killeberg
+C|62361|44|M|Andreas Andersson|44 år, Miljöinspektör, Osby
+C|59417|30|K|Elin Mannheimer|30, Teologistuderande, Osby
+C|62363|44|M|Martin Kroon|44 år, Professor, Osby
+C|31834|48|M|Pål Nilsson|48 år, Socialentreprenör, Osby
+C|62365|71|M|Roland Anvegård|71 år, Pensionär, Osby
+C|62366|81|M|Clas Frisk|81 år, Mentor, Osby
+C|62367|70|M|Stephan Hellqvist|70 år, Pensionär, Osby
+C|62368|69|M|Bertil Johansson|69 år, Ekonom, Osby
+C|62369|37|K|Cynthia Baffoe|37 år, Städerska, Osby
+C|62370|72|M|Staffan Häggström|72 år, Ekonom, Osby
+C|62371|69|K|Eivor Anvegård|69 år, Fru, Osby
+C|62372|82|M|Göran Johnsson|82 år, Kolportör, Osby
+C|62373|48|K|Lenita Olsson|48 år, Företagare, Visseltofta
+C|62374|75|M|Ewe Nilsson|75 år, Pensionär, Killeberg
+C|62375|78|K|Turid Svensson|78 år, Pensionär, Loshult
+C|62376|82|M|Assar Björkvald|82 år, Pensionär, Osby
+C|62377|53|K|Hillevi Böckman|53 år, Socialarbetare, Killeberg
+C|511306|64|M|Hans Jörgen Holmboe|
+C|263164|59|M|Erling Persson|företagare
+C|143589|74|M|Staffan Lutterdal|Osby
+C|261553|59|M|Pär-Henrik Björverud|Åryd
+C|263167|31|M|David Mannheimer|musiklärare
+C|263168|50|M|Niklas Blomkvist|idrottsterapeut
+C|263169|42|M|Lennart Growitz|datatekniker
+C|263170|49|M|Jörgen Rydén|försäkringsförmedlare
+C|17331|59|K|Margaret Engdahl|Humanekolog, 59 år, Osby
+C|59806|42|M|Lars-Anton Ivarsson|42 år, skogsförvaltare, Osby
+C|59807|76|K|Sonja Svenle-Pettersson|76 år, f.d. lärare
+C|59808|54|M|Lage Frej|54 år, IT-designer
+C|59809|66|M|Lars-Erik Svensson|66 år, logistikkonsult
+C|59810|75|M|Dag Ivarsson|75 år, företagare
+C|59811|33|M|Fredrik Johansson-Nord|33 år, teknisk support
+C|59812|35|K|Beatrix Fager|35 år, säljare
+C|59813|22|M|Kevin Fager|22 år, handläggare
+C|59814|51|M|Roy Svensson|51 år, entreprenör
+C|59815|61|M|Nils-Åke Caesar|61 år, företagare
+C|59816|65|M|Erling Karlsson|65 år, entreprenör
+C|59818|50|M|Magnus Dahlquist|50 år, marknadsekonom, Osby
+C|59819|72|M|Bengt Larsson|72 år, pensionär
+C|59820|77|K|Christine Ivarsson|77 år, nämndeman
+C|59821|71|M|Torsten Johansson|71 år, ingenjör
+C|59822|70|M|Oddbjörn Aasvold|70 år, pensionär
+C|59823|63|M|Per Berndtsson|63 år, företagare
+C|59824|51|M|Patrik Näslund|52 år, golvläggare
+C|127551|50|M|Carl Bejvel|Egenföretagare, Osby
+C|127552|75|K|Carolyn Thinnberger|75 år, Lönsboda
+C|127553|67|M|Hans Persson|66 år, Osby
+C|127554|38|K|Ewa Karlsson|Industriarbetare, Osby
+C|127555|55|M|Jörgen Nilsson|Logistikchef, 55 år
+C|127556|45|M|Johan Nilsson|45 år, Osby
+C|127557|78|M|Kristof Pall|77 år, Osby
+C|127558|42|M|Jonas Carlsson|41 år, Osby
+C|127559|62|M|Mikael Roslund|62 år, Osby
+C|127561|46|M|Jonas Mattsson|46 år, Lönsboda
+C|127562|36|M|Håkan Carlsson|36 år, Osby
+C|127563|57|M|Jan Kornemalm|56 år, Osby
+C|127564|48|M|Per-Ola Mattisson|48 år, Osby
+C|127565|71|M|Peter Dahlström|71 år, Osby
+C|127566|68|M|Jonny Eriksson|68 år, Osby
+C|127567|60|K|Marie-Louise Eriksson|60 år, Osby
+C|124106|46|K|Marie Winther|Killeberg
+C|124107|34|K|Therese Bengtsson|Killeberg
+C|124108|74|M|Göran Bengtsson|Lönsboda
+C|124109|37|K|Anna-Karin Niazi|Osby
+C|124110|56|K|Ewa Håkansson|Hökön
+C|124111|37|K|Emma Lundbeck|Osby
+C|124112|67|M|Kaj Mikkelsen|Hökön
+C|124113|57|K|Kerstin Holmquist-Rothsten|Lönsboda
+C|124114|83|K|Wanja Johnsson|Osby

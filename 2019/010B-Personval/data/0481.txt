@@ -1,8 +1,137 @@
-2|139863|139864|139865|139879|139880|140041|140042|140043|140630|140045|140046|140047|140048|140049|467576|140637|140638|140639|140640|140641|140642|140643|140644|468029|140646|140647|140648|140649|140650|140651
-4|196484|198534|197668|198536|198537|198538|198539
-68|166944|166945|166946|166947|166948|166949|166950
-3|16317|16318|16319|2203|16321
-55|185794|185795|185796|185797|185798|185799|185800|185801
-1|9994|313497|10135|313499|313500|313501|313502|313503|313504|313505|313506|313507|313508|313509|313510|313511|313512|313513|313514|313515|313516|313517|313518|313519|313520|313521|313522|313523|313524|313525|313526|313527
-110|16086|16087|16088|16089|16090
-5|12079|49667|12086|12089|49670|49671|49672|49673|49674|49675|49676|49677|49678|49679|49680|49681|49682|49683|49684|49685|49686|49687|49688|49689|49690|49691
+T|Oxelösund
+A|2|139863|139864|139865|139879|139880|140041|140042|140043|140630|140045|140046|140047|140048|140049|467576|140637|140638|140639|140640|140641|140642|140643|140644|468029|140646|140647|140648|140649|140650|140651
+A|4|196484|198534|197668|198536|198537|198538|198539
+A|68|166944|166945|166946|166947|166948|166949|166950
+A|3|16317|16318|16319|2203|16321
+A|55|185794|185795|185796|185797|185798|185799|185800|185801
+A|1|9994|313497|10135|313499|313500|313501|313502|313503|313504|313505|313506|313507|313508|313509|313510|313511|313512|313513|313514|313515|313516|313517|313518|313519|313520|313521|313522|313523|313524|313525|313526|313527
+A|110|16086|16087|16088|16089|16090
+A|5|12079|49667|12086|12089|49670|49671|49672|49673|49674|49675|49676|49677|49678|49679|49680|49681|49682|49683|49684|49685|49686|49687|49688|49689|49690|49691
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|139863|53|K|Catharina Fredriksson|53 år Handledare Oxelösund
+C|139864|45|M|Linus Fogel|44 år Lärare
+C|139865|64|K|Britta Bergström|64 år Arbetsterapeut Oxelösund
+C|139879|57|M|Tommy Karlsson|57 år Arbetsmiljötekniker
+C|139880|44|K|Linda Hägglund|43 år Avsnittschef
+C|140041|58|M|Claes-Göran Borrman|58 år Hamnarbetare
+C|140042|46|K|Nina Wikström-Tiala|46 år Industriarbetare
+C|140043|66|M|Inge Ståhlgren|66 år Pensionär Oxelösund
+C|140630|77|K|Solveig Lindblom|77 år Pensionär
+C|140045|31|M|Martin Bergström|31 år Gymnasielärare Oxelösund
+C|140046|33|K|Oheila Mozil|32 år Montör
+C|140047|66|M|Håkan Carlsson|66 år fd Stålverksarbetare
+C|140048|73|K|Birgitta Luoto|73 år fd Kokerska
+C|140049|51|M|Peter Karlsson|50 år Industriarbetare
+C|467576|71|K|Mayvor Lundberg|71 år Pensionär
+C|140637|70|M|Bror Sterner|70 år fd Metallarbetare
+C|140638|45|K|Ann-Sophie Nygren|44 år Undersköterska
+C|140639|51|M|Rune Tschemernjack|50 år Avsnittschef
+C|140640|40|K|Sofia Bergli|40 år Industriarbetare
+C|140641|45|M|Jonas Widegren|45 år Undersköterska Oxelösund
+C|140642|47|K|Charlotta Olson|47 år Servicehandläggare
+C|140643|58|M|Ferry Hagi|57 år Lastbilschaufför
+C|140644|65|K|Ann Svensson|66 år Pensionär
+C|468029|47|M|Ammar Darwish|47 år Studerande
+C|140646|64|K|Lena Svedlindh|63 år Förskollärare
+C|140647|73|M|Evert Melander|73 år Utbildare
+C|140648|71|K|Kristina Johansson|71 år Pensionär
+C|140649|65|M|Birger Svensson|65 år Pensionär
+C|140650|60|K|Lena Blomkvist|61 år Tjänsteman
+C|140651|75|M|Lennart Samuelsson|75 år Pensionär
+C|196484|63|M|Bo Höglander|63 år,Redaktör,Oxelösund
+C|198534|54|M|Joakim Öhman|54 år,Företagare,Oxelösund
+C|197668|24|K|Siri Wink|24 år, Ombudsman,Oxelösund
+C|198536|43|K|Ann Abrahamsson|43 år,Personlig assistent,Oxelösund
+C|198537|61|K|Agneta Höglander|61 år,Arkivarie,Oxelösund
+C|198538|62|K|Elisabeth Wink|62 år,Biodlare,Oxelösund
+C|198539|88|M|Ebbe Svartling|88 år,Pensionär, Oxelösund
+C|166944|66|M|Göran Bernhardsson|66, ekonom, Oxelösund
+C|166945|70|M|Gert Bennevall|70, byggkonsult, Oxelösund
+C|166946|30|K|Sophia Stenbäck|30, instruktör, Oxelösund
+C|166947|52|M|Tony Eklund|52, operatör, Oxelösund
+C|166948|69|K|Christine Bennevall|69, lärare, Oxelösund
+C|166949|58|M|Bastiampillai Veerasingam|58, mekaniker, Oxelösund
+C|166950|60|K|Anette Bernhardsson|60, distriktsköterska, Oxelösund
+C|16317|62|M|Klas Lundbergh|
+C|16318|76|M|Björn Wintler|
+C|16319|60|M|Lars Johansson|
+C|2203|32|M|Tommy Linder|redovisningsekonom, Oxelösund
+C|16321|62|K|Karin Paulsson|
+C|185794|43|K|Sandra Landin|ekologisk hudvårdsterapeaut, 43 år, Oxelösund
+C|185795|72|M|Björn Johansson|ingenjör, Centrum
+C|185796|45|K|Kristin Johansson|undersköterska, Centrum
+C|185797|61|M|Lars Pettersson|omsorgsassistent, 61 år, Oxelösund
+C|185798|40|K|Linda Bogne|stålverksarbetare, Ramdalshöjden
+C|185799|69|M|Peter Friberg|lärare, Stenvik
+C|185800|72|K|Margareta Friberg|lärare, Stenvik
+C|185801|73|M|Christer Sandström|pensionär, Sunda
+C|9994|63|M|Dag Bergentoft|oppositionsråd, Oxelösund
+C|313497|53|K|Katarina Berg|chef produktkvalitét
+C|10135|51|M|Stefan Johansson|VD, Oxelösund
+C|313499|70|K|Luiza Kaminska|pensionär
+C|313500|49|M|Mårthen Backman|lärare
+C|313501|62|M|Urpo Koivula|ingenjör
+C|313502|63|M|Bengt Björkhage|företagare
+C|313503|30|K|Haifaa Alkhaldi|förskolelärare
+C|313504|60|M|Tapio Helminen|IT-konsult
+C|313505|71|K|Eva Asthage|konsult
+C|313506|28|M|Zuber Sahi|sjökapten
+C|313507|64|M|Matti Koponen|språkvetare
+C|313508|61|K|Kirsten Bälldal Andersson|egen företagare
+C|313509|59|M|Stefan Andersson|IT-konsult
+C|313510|69|K|Anna-Maija Alajoki|filosofie magister
+C|313511|58|M|Odd Mattson|lagerarbetare
+C|313512|46|M|Magnus Råd|senior projektledare
+C|313513|73|M|Hans Molin|fd fastighetsskötare
+C|313514|27|M|Mikael Bälldal Andersson|lastbilschaufför
+C|313515|56|M|Thomas Toft|arbetsmiljöingenjör
+C|313516|41|M|Johan Hemmingson|handläggare
+C|313517|42|K|Lina Thor|järnverksarbetare/företagare
+C|313518|46|M|Anders Berglund|hamnarbetare
+C|313519|68|K|Margun Lundström|vårdlärare
+C|313520|38|M|Peter Martens|platschef
+C|313521|56|K|Heike Emmrich|lärare
+C|313522|79|M|Bo Jender|teknisk licentiat
+C|313523|83|K|Torbritt Bökman|handelslärare
+C|313524|80|K|Margaretha Jender|civilingenjör
+C|313525|74|M|Ingemar Urborn|ingenjör
+C|313526|68|K|Christina Holm|fd polisinspektör
+C|313527|72|M|Tonny Holm|sjöbefäl
+C|16086|70|M|Jan-Eric Eriksson|70 år, Sjökapten
+C|16087|28|K|Jannike Zetterman|28 år, Ämneshanterare
+C|16088|63|M|Leif Winnsberger|63, Pensionär
+C|16089|43|K|Dagmara Mandrela|43 år, Sjuksköterska
+C|16090|70|K|Ulla Hulkko|70 år, Pensionär
+C|12079|43|M|Patrik Renfors|43, Industrielektriker, Oxelösund
+C|49667|46|K|Ingela Wahlstam|47, Fritidsgårdsföreståndare, Oxelösund
+C|12086|62|K|Lotta Johnsson Fornarve|61, Riksdagsledamot, Oxelösund
+C|12089|46|M|Daniel Lundgren|46, Socialsekreterare, Oxelösund
+C|49670|57|K|Mariela Perez|57, Administratör
+C|49671|26|M|Viktor Johnsson|26, Butiksarbetare
+C|49672|55|K|Victoria Flores|55, Lärare, Oxelösund
+C|49673|63|M|Thomas Löfdahl|63, Pensionär
+C|49674|30|K|Tove Renfors|30, Järnverksarbetare
+C|49675|53|M|Emil Carlsson|53, Järnverksarbetare
+C|49676|66|M|Lasse Fornarve|66, Pensionär
+C|49677|40|M|Johan Renfors|40, Järnverksarbetare
+C|49678|55|K|Tova Famme|55, Undersköterska
+C|49679|65|K|Ulla Löfdahl|65, Pensionär
+C|49680|59|M|Håkan Gustafsson|59, Parkeringsvakt
+C|49681|53|K|Monica Mattsson|53, Lokalvårdare
+C|49682|38|M|Robert Söderström|38, Järnverksarbetare
+C|49683|79|K|Sinikka Famme|79, Pensionär
+C|49684|34|M|Robin Famme|34 Undersköterska
+C|49685|44|K|Jenny Zaloga|44, Barnskötare
+C|49686|33|M|Tommy Hummel|33, Förskolelärare
+C|49687|69|M|Aimo Konttinen|69, Pensionär
+C|49688|61|K|Anna-Lena Wennberg|61, Sjukpensionär
+C|49689|44|M|Mats Wahlstam|44, Industrielektriker
+C|49690|62|M|Fransisco Cruz Oyanedel|62, Verkstadsarbetare
+C|49691|71|M|Tomas Sohlgren|71, Pensionär

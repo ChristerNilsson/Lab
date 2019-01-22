@@ -1,9 +1,161 @@
-2|9636|19587|9634|230686|230687|230688|230689|230690|9638|230692|230693|230694|230695|230696|230697|230698|230699|230700|230701|9639|230703|230704|230705|230706|230707|230709|230711|230712|230713|230714|230715|230716|9641|230718
-4|361266|360922|361268|301053|361270|301057|361272|361273|361274|301055|301061|301051|361278|361279|361280|361281|361282|361283|361284|361285|361286|361287|361288|361289
-68|25228|37713|37719|195244|195245|37721|37720|195248|195249|195250
-3|82162|82163|82164|82165|82166|82167|82168
-55|478752|478753|478754
-1|160579|160582|158891|161601|161602|161603|160604|161605|161606|161607|161608|161609|161610|160594|161612|161613|161614|161615|161616|161617|161618|161619|161620|161621|161622|161623
-110|60932|60933|60934|60935|60936|60937|60938|60939|60940|60941|60942|60943|60944|60945
-1309|33312|33313|33314|33315|33316|33317|33318|33319|33320|33321|33322|33323|33324|33325
-5|337312|337313|337314|337315|337316|337317|337318|337319|337320|337321
+T|Mörbylånga
+A|2|9636|19587|9634|230686|230687|230688|230689|230690|9638|230692|230693|230694|230695|230696|230697|230698|230699|230700|230701|9639|230703|230704|230705|230706|230707|230709|230711|230712|230713|230714|230715|230716|9641|230718
+A|4|361266|360922|361268|301053|361270|301057|361272|361273|361274|301055|301061|301051|361278|361279|361280|361281|361282|361283|361284|361285|361286|361287|361288|361289
+A|68|25228|37713|37719|195244|195245|37721|37720|195248|195249|195250
+A|3|82162|82163|82164|82165|82166|82167|82168
+A|55|478752|478753|478754
+A|1|160579|160582|158891|161601|161602|161603|160604|161605|161606|161607|161608|161609|161610|160594|161612|161613|161614|161615|161616|161617|161618|161619|161620|161621|161622|161623
+A|110|60932|60933|60934|60935|60936|60937|60938|60939|60940|60941|60942|60943|60944|60945
+A|1309|33312|33313|33314|33315|33316|33317|33318|33319|33320|33321|33322|33323|33324|33325
+A|5|337312|337313|337314|337315|337316|337317|337318|337319|337320|337321
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1309|TRP|TRYGGHETSPARTIET
+B|5|V|Vänsterpartiet
+C|9636|40|K|Matilda Wärenfalk|lärare, Färjestaden, 40 år
+C|19587|30|M|Mattias Nilsson|barnskötare, Mörbylånga, 30 år
+C|9634|74|K|Margaretha Lööf-Johanson|distriktsläkare, Mörbylånga, 74 år
+C|230686|67|M|Per-Olof Johansson|Senior samhällsplanerare, Skogsby, 67 år
+C|230687|73|K|Henriette Koblanck|Professor, Albrunna, 73 år
+C|230688|44|M|Jerker Nilsson|Fastighetsskötare, Mörbylånga, 44 år
+C|230689|48|K|Elisabeth Fransén|Civilekonom, Ryd, 48 år
+C|230690|36|M|Fredrik Jämtin|VVS-tekniker, Färjestaden, 36 år
+C|9638|57|K|Kristina Sjöström|omsorgsassistent, Mörbylånga, 57 år
+C|230692|24|M|Javid Shirzad|Omsorgsassistent, Mörbylånga, 24 år
+C|230693|73|K|Ella-Britt Andersson|Pensionär, Södra Möckleby, 73 år
+C|230694|64|M|Bertil Johansson|Vaktmästare, Gunnarstorp, 64 år
+C|230695|54|K|Seita Riikonen|Omsorgsassistent, Mörbylånga, 54 år
+C|230696|75|M|Bength Andersson|Pensionär, Södra Möckleby, 75 år
+C|230697|42|K|Veronika Hildingsson|Vårdare, Färjestaden,  42 år
+C|230698|64|M|Stig Salebäck|Pensionär, Norra Möckleby, 64 år
+C|230699|58|K|Annika Willaume|Geolog, Södra Möckleby, 58 år
+C|230700|52|M|Morgan Nyberg|Ombudsman, Färjestaden, 52 år
+C|230701|54|K|Eva-Lena Karlsson|Socionom, Färjestaden, 54 år
+C|9639|73|M|Kurt Arvidsson|pensionär, Degerhamn, 73 år
+C|230703|42|K|Zandra Norén-Olsson|Ekonomiassistent, Färjestaden, 42 år
+C|230704|54|M|Bo Blad|Omsorgsassistent, Mörbylånga, 54 år
+C|230705|59|K|Carina Adolfsson-Elgestam|Egenföretagare, Bröttorp, 58 år
+C|230706|68|M|Björn Samuelsson|Kulturutvecklare, Skogsby, 68 år
+C|230707|48|M|Rickard Pontmark|Byggnadsarbetare, Färjestaden, 48 år
+C|230709|49|M|Håkan Lindqvist|Säljare, Färjestaden, 49 år
+C|230711|59|K|Lena Jönsson|Omsorgsassistent, Norra Möckleby, 59 år
+C|230712|73|M|Per Elgestam|Pensionär, Bröttorp, 73 år
+C|230713|29|M|Pontus Svensson|Teamleader, Mörbylånga, 29 år
+C|230714|56|K|Elisabeth Noresund|Undersköterska, Mörbylånga, 56 år
+C|230715|44|M|Mathias Karlsson|Analytiker, Färjestaden, 44 år
+C|230716|24|K|Amena Shirzad|Studerande, Mörbylånga, 24 år
+C|9641|48|M|Michael Granstedt|simhallschef, Färjestaden, 48 år
+C|230718|70|M|Lars-Göran Abrahamsson|Pensionär, Färjestaden, 70 år
+C|361266|55|K|Anna-Kajsa Arnesson|55 år, företagare, Hagby
+C|360922|47|M|Johan Åhlund|47 år, lantbrukare, Vickleby
+C|361268|64|K|Monika Löfvin Rosén|64 år, kulturvetare, Mörbylånga
+C|301053|69|M|Kjell Magnusson|69 år, pensionär, Algutsrum
+C|361270|68|K|Lena Petersen|68 år, frilansare, Mörbylånga
+C|301057|53|M|Hans Sabelström|53 år, egenföretagare, Degerhamn
+C|361272|50|M|Johan Sigvardsson|50 år, lantbrukare, Alby
+C|361273|65|K|Gunilla Karlsson|65 år, kontaktperson, Stenåsa
+C|361274|59|M|Per-Olov Johansson|59 år, egenföretagare, Gårdby
+C|301055|60|K|Annika Olsson|60 år, socionom, Norra Kvinneby
+C|301061|33|M|Marcus Persson|33 år, enhetschef, Färjestaden
+C|301051|49|K|Annika Henell|49 år, förvaltningsassistent, Albrunna
+C|361278|37|K|Emmy Ahlstedt|37 år, statsvetare, Gårdby
+C|361279|63|K|Gerd Åstrand|63 år, fd mjölkbonde, Mörbylilla
+C|361280|35|K|Jessica Jämtin|35 år, ekonom, Färjestaden
+C|361281|18|K|Kerstin Sigvardsson|18 år, Student, Alby
+C|361282|30|M|Niklas Petersson|30 år, lantbrukare, Degerhamn
+C|361283|36|M|Anders Eklöv|36 år, lantbrukare, Ekelunda
+C|361284|65|M|Johan Bjärkse|65 år, lantmästare, Mörbylånga
+C|361285|63|K|Gudrun Mo|63 år, vårdbiträde, Nedre Ålebäck
+C|361286|67|M|Christer Rosén|67 år, civilekonom/egen företagare, Mörbylånga
+C|361287|49|M|Magnus Björkegren|50 år, Egenföretagare, Algutsrum
+C|361288|58|M|Krister Petersson|58 år, platschef/säljare, Gårdby
+C|361289|43|M|Andreas Åström|43 år, universitets adjunkt, Färjestaden
+C|25228|29|M|Eric Dicksson|leg sjuksköterska, Färjestaden
+C|37713|55|K|Nina Åkesson Nylander|undersköterska, Färjestaden
+C|37719|72|K|Jeanette Lindh|senior, Mörbylånga
+C|195244|64|M|Bo Sjölin|senior, Färjestaden
+C|195245|33|M|Samuel Sigvardsson|ingenjörstuderande, Färjestaden
+C|37721|70|K|Ann-Marie Jeansson|Törnbotten
+C|37720|65|K|Margita Asén|senior, Törnbotten
+C|195248|28|K|Hanna Dicksson|leg sjuksköterska, Färjestaden
+C|195249|56|K|Marie Swedberg|leg sjuksköterska, Mörbylånga
+C|195250|25|M|Jonathan Nylander|simlärare, Färjestaden
+C|82162|38|M|Sebastian Hallén|38 år, Färjestaden
+C|82163|69|M|Berne Klysing|Egen företagare, Färjestaden
+C|82164|70|K|May-Britt Landin|70 år, pensionär, allas lika rätt i samhället, Mörbylånga
+C|82165|75|M|Sam Wadin|Pensionär, Degerhamn
+C|82166|72|K|Kerstin Lindgren|Civ.ing., Skogsby
+C|82167|63|K|Ingemo Eriksson|Gymnasielärare, Färjestaden
+C|82168|62|K|Birgitta Rolfsdotter|Socioterapeut, Mörbylånga
+C|478752|58|M|Ulf Elgehed|Företagare
+C|478753|63|K|Eva Traore Dahlberg|Agronom
+C|478754|58|K|Monica Orthagen|Beteendevetare
+C|160579|45|M|Henrik Yngvesson|45 år, Kommunalråd, Färjestaden
+C|160582|36|M|Carl Dahlin|36 år, Statsvetare, Södra Näsby
+C|158891|69|K|Eva Folkesdotter Paradis|69 år, Distriktssköterska, Mörbylånga
+C|161601|35|K|Elisabeth Schröder|Sjökapten, Arontorp
+C|161602|47|M|Günter Ruchatz|Polisinspektör, Färjestaden
+C|161603|72|K|Agneta Stjärnlöf|Lärare, Färjestaden
+C|160604|65|M|Pär Palmgren|65 år, Skogstekniker, Degerhamn
+C|161605|59|K|Ingela Fredriksson|Civilekonom, Färjestaden
+C|161606|75|M|Kent Ingvarsson|Pensionär, Färjestaden
+C|161607|31|K|Liv Stjärnlöf|Journalist, Färjestaden
+C|161608|39|M|Thomas Danielsson|Polis, Karlevi
+C|161609|49|M|Mikael Sundén|Lärare, Färjestaden
+C|161610|68|M|Hans-Ove Görtz|Överstelöjtnant, Färjestaden
+C|160594|50|M|Ulrik Brandén|50 år, Företagare, Mörbylånga
+C|161612|73|M|Stellan Ungerholm|Leg. läkare, Färjestaden
+C|161613|43|M|Joakim Sohlberg|Egen företagare, Färjestaden
+C|161614|44|M|Simon Sjöstedt|Kriminalvårdare, Färjestaden
+C|161615|59|K|Britta Palmgren|Socionom, Degerhamn
+C|161616|40|M|Martin Olsson|Officer, Färjestaden
+C|161617|48|M|Magnus Yngvesson|Egen företagare, Färjestaden
+C|161618|67|M|Lars Paradis|Pensionär, Karlevi
+C|161619|60|M|Sven Stenson|Polis, Isgärde
+C|161620|41|M|Thorbjörn Hagström|Lantbrukare, Kastlösa
+C|161621|74|M|Ludvig Hasselbom|Pensionär, Bjärby
+C|161622|73|K|Hedy Johansson|Företagare, Risinge
+C|161623|59|M|Christer Hävre|Kontorsansvarig, Degerhamn
+C|60932|78|M|Olof Nilsson|egen företagare, Färjestaden
+C|60933|46|K|Jessica Hellman|undersköterska, Mörbylånga
+C|60934|74|M|Curt Ekvall|pol. mag, Glömminge
+C|60935|72|M|Claus Zaar|F.d. Riksdagsman, Mörbylånga
+C|60936|70|M|Eric Rosenlund|civilingenjör, Norra Mörbylånga
+C|60937|61|M|Per-Gunnar Olsson|entreprenör, Mörbylånga
+C|60938|38|K|Monika Johansson|omsorgsassistent, Mörbylånga
+C|60939|34|M|Mikael Johansson|VVS-montör, Mörbylånga
+C|60940|76|M|Kenneth Nilsson|entreprenör, Algutsrum
+C|60941|71|M|Tore Andersson|lantbrukare, Mörbylånga
+C|60942|72|K|Louise Schalberg|fast.mäklare, Mörbylånga
+C|60943|71|M|Kenneth Plato|mekaniker, Mörbylånga
+C|60944|57|M|Raimo Mattsson|skötare, Färjestaden
+C|60945|56|M|Anders Åsenius|lantbrukare, Mörbylånga
+C|33312|76|M|Per Fredriksson|Marknadschef, Färjestaden
+C|33313|67|K|Pia Schröder|Journalist, Färjestaden
+C|33314|76|M|Jonny Berntsson|Teknisk chef, Färjestaden
+C|33315|56|K|Maria Pålhammar|Egen företagare
+C|33316|62|M|Peter Barvestad|Idrottslärare
+C|33317|67|K|Marie Jarleng|Egen företagare
+C|33318|45|M|Joakim Fredriksson|Chef tekn.förvaltn.
+C|33319|38|M|Tomas Hesselmark|Egen företagare
+C|33320|47|K|Marita Andersson|Servicechef
+C|33321|72|M|Arne Svensson|Friidrottstränare
+C|33322|51|M|Magnus Pålhammar|Leg. audionom
+C|33323|54|M|Peter Pagels|universitetslektor
+C|33324|73|M|Svante Wennberg|Tågmästare
+C|33325|73|M|Berth Ljungström|Tekn.chef
+C|337312|64|K|Elisabeth Cima Kvarneke|Ölands Skogsby, Biomedicinsk analytiker
+C|337313|73|M|Anders Wassbäck|Segerstad, Lärare
+C|337314|62|K|Agneta Sandvik|Törnbotten, Hotellreceptionist
+C|337315|27|M|Pontus Björk|Ullevi, Rivningstekniker
+C|337316|57|K|Karin Olsson|Mörbylånga, Egenföretagare
+C|337317|56|M|Erik Cardfelt|Mörbylånga, Grafisk Formgivare
+C|337318|81|K|Sonia Lindell|Mörbylånga, Pensionär
+C|337319|36|M|Josef Berlin|Mörbylånga, Verksamhetsutvecklare
+C|337320|63|K|Rita Backman Wassbäck|Segerstad, Undersköterska
+C|337321|73|M|Sten-Olof Söderlund|Nedra Ålebäck, Socialarbetare

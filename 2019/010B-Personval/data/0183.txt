@@ -1,10 +1,296 @@
-2|193569|193570|100797|100782|100800|193574|193575|193576|193577|100780|193579|193580|100791|71213|193583|70465|193585|71221|193587|193588|193589|100796|193591|193592|193593|193594|193595|193596|193597|193598|193599|193600|193601|193602|193603|193604|193605|193606|193607|193608|193609|193610|193611|193612|100779|193614|193615|193616|193617|193618|193619|193620|193621|193622|193623|193624|193627|193626|193629|193628
-4|86903|142931|142932|142933|123854|76951|142937|142939|142940|142942|142943|142944|142945|142946|142947|142948|142949|142950|142951|142952|142953|142954|142956|142957
-532|513852|513853|513854
-68|157087|157088|157089|157090|157091|157092|157093|157094|157095|157097|157098|157099|157100|157101|157102|157103|157104|157105|157106|157107|157108|157109|157110
-3|192035|49169|218225|218226|218227|218228|218229|218230|218231|218232|218233|218234|218235|218236|218237|218238|218239|218240|218241|218242|218243|218244|218245|218246|218247|218248|218249|218250|218251|238897|218252
-55|113338|77406|113340|113341|113342|113343|113344|113345|113346|113347|113348|113349|113350|113351|113352|113353|113354|113355
-1|22973|12789|22976|23602|23603|22978|23605|23606|22985|23608|22982|23610|23611|23612|23613|22994|23615|23616|23617|23618|23619|101811|23620|22989|23622|22991|23624|23625|23626|23627|23628|23629|23630
-1348|220214|220216|220217|220349|220350|273623|220351|220352|220353|220368|220371|220354|220357|220356|220360|220358|220359|220361|220355|220362|270749|339278|220363|220364|220365|220366|220367|270791|259944|220373
-110|67198|67199|67200|67201|67202|67203|67204|67205|67206|67207|67208|67209|67210|67211|67212
-5|213657|213658|213659|213660|213661|213662|213663|213664|213665|213666|213667|213668|213669|213670|213671|213672|213673|213674|213675|213676|213677|213678|213679|213680|213681|213682|213683|213684|213685|213686|213687|213688|213689|213690|213691|213692|213693|213694|213695
+T|Sundbyberg
+A|2|193569|193570|100797|100782|100800|193574|193575|193576|193577|100780|193579|193580|100791|71213|193583|70465|193585|71221|193587|193588|193589|100796|193591|193592|193593|193594|193595|193596|193597|193598|193599|193600|193601|193602|193603|193604|193605|193606|193607|193608|193609|193610|193611|193612|100779|193614|193615|193616|193617|193618|193619|193620|193621|193622|193623|193624|193627|193626|193629|193628
+A|4|86903|142931|142932|142933|123854|76951|142937|142939|142940|142942|142943|142944|142945|142946|142947|142948|142949|142950|142951|142952|142953|142954|142956|142957
+A|532|513852|513853|513854
+A|68|157087|157088|157089|157090|157091|157092|157093|157094|157095|157097|157098|157099|157100|157101|157102|157103|157104|157105|157106|157107|157108|157109|157110
+A|3|192035|49169|218225|218226|218227|218228|218229|218230|218231|218232|218233|218234|218235|218236|218237|218238|218239|218240|218241|218242|218243|218244|218245|218246|218247|218248|218249|218250|218251|238897|218252
+A|55|113338|77406|113340|113341|113342|113343|113344|113345|113346|113347|113348|113349|113350|113351|113352|113353|113354|113355
+A|1|22973|12789|22976|23602|23603|22978|23605|23606|22985|23608|22982|23610|23611|23612|23613|22994|23615|23616|23617|23618|23619|101811|23620|22989|23622|22991|23624|23625|23626|23627|23628|23629|23630
+A|1348|220214|220216|220217|220349|220350|273623|220351|220352|220353|220368|220371|220354|220357|220356|220360|220358|220359|220361|220355|220362|270749|339278|220363|220364|220365|220366|220367|270791|259944|220373
+A|110|67198|67199|67200|67201|67202|67203|67204|67205|67206|67207|67208|67209|67211|67212
+A|5|213657|213658|213659|213660|213661|213662|213663|213664|213665|213666|213667|213668|213669|213670|213671|213672|213673|213674|213675|213676|213677|213678|213679|213680|213681|213682|213683|213684|213685|213686|213687|213688|213689|213690|213691|213692|213693|213694|213695
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1348|SLP|Sundbybergs Lokalparti (SLP)
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|193569|49|M|Peter Schilling|49, Brotorp, Forskare
+C|193570|65|K|Christina Fjällström|65 år, Lilla Alby, Personalchef
+C|100797|36|M|Eric Vänerlöv|36, Jurist, Sundbyberg
+C|100782|23|K|Ayla Eftekhari|23, Studerande, Sundbyberg
+C|100800|33|M|Markus Jönsson|33, Gymnasielärare, Sundbyberg
+C|193574|58|K|Kajsa Adenbäck|58 år, Hallonbergen, Tjänsteman
+C|193575|54|M|Yoseph Yohannes|54 år, Hallonbergen, Bussförare
+C|193576|53|K|Beatrice Kindembe|53 år, Rissne, Kemist
+C|193577|69|M|Michael Spira|69 år, Storskogen, Rådgivare
+C|100780|36|K|Sofie Ågren|36, Ombudsman, Sundbyberg
+C|193579|41|M|Patrik Tengberg|41 år, Rissne, Strateg
+C|193580|61|K|Marie Lundman Völker|61 år, Centrala Sundbyberg, Leg, psykoterapeut
+C|100791|46|M|Michael Teklay|46, Tjänsteman, Sundbyberg
+C|71213|19|K|Esma Yagci|19, Student, Sundbyberg
+C|193583|66|M|Jörgen Silén|66 år, Ör, Pensionär
+C|70465|29|K|Alexandra Völker|29, Statsvetare, Sundbyberg
+C|193585|28|M|Jesper Lindholm|28 år, Storskogen, Kommunikatör
+C|71221|51|K|Anette Pettersson|51, Drifttekniker, Sundbyberg
+C|193587|29|M|Daniel Liljekvist|29 år, Centrala Sundbyberg, Kanslichef
+C|193588|62|K|Inger Lundberg|62 år, Rissne, Pastor
+C|193589|29|M|Samuel Pardon|29 år, Centrala Sundbyberg, Ekonom
+C|100796|31|K|Åsa Zetterberg|31, Politisk sekreterare, Sundbyberg
+C|193591|40|M|Bengt Wallman|40 år, Lilla Alby, Facklig rådgivare
+C|193592|18|K|Hanna Bocrestion|18 år, Storskogen, Student
+C|193593|20|M|Reine Persson|20 år, Rissne, Servitör
+C|193594|35|K|Cecilia Clausen|35 år, Centrala Sundbyberg, Ombudsman
+C|193595|53|M|Pa Sanyang|53 år, Rissne, Konsult
+C|193596|74|K|Berit Severin|74 år, Lilla Alby, Pensionär
+C|193597|68|M|Mats Johansson|68 år, Ör, Pensionär
+C|193598|64|K|Martha Prentell|64 år, Rissne, Lärarvikarie
+C|193599|36|M|Erik Gutiérrez-Aranda|36 år, Centrala Sundbyberg, Seniorkonsult
+C|193600|49|K|Faiza Rehbandi|49 år, Hallonbergen, Verksamhetsledare
+C|193601|33|M|Sten Mittermaier|33 år, Centrala Sundbyberg, Ekobrottsutredare
+C|193602|38|K|Frida Olsson|38 år, Centrala Sundbyberg, Ombudsman
+C|193603|67|M|Kjell Söderstam|67 år, Centrala Sundbyberg, Vaktmästare
+C|193604|50|K|Elsa Abraham|50 år, Storskogen, Undersköterska
+C|193605|64|M|Leif Elofsson|64 år, Storskogen, Tjänsteman
+C|193606|38|K|Helena Markstedt|38 år, Lilla Alby, Politisk sakkunnig
+C|193607|48|M|Joakim Johansson|48 år, Centrala Sundbyberg, Organisationschef
+C|193608|58|K|Berit Berggren|58 år, Centrala Sundbyberg, Projektledare
+C|193609|66|M|Bo Krogvig|66 år, Lilla Alby, Direktör
+C|193610|64|K|Lena Svahn|64 år, Hallonbergen, Socialsekreterare
+C|193611|64|M|Per Völker|64 år, Centrala Sundbyberg, Ledningssamordnare
+C|193612|18|K|Louisa Haidari|18 år, Storskogen, Student
+C|100779|52|M|Mikael Sundesten|52, Sundbyberg
+C|193614|25|K|Dorna Dehkhoda|25 år, Centrala Sundbyberg, IT-säkerhetsspecialist
+C|193615|32|M|Viktor Wikström|32 år, Centrala Sundbyberg, Brevbärare
+C|193616|75|K|Florence Borelius|75 år, Centrala Sundbyberg, Pensionär
+C|193617|59|M|Mohamad El-Marghichi|59 år, Centrala Sundbyberg, Ombudsman
+C|193618|36|K|Elin Nordmark|36 år, Rissne, Kanslichef
+C|193619|63|M|Anders Nordin|63 år, Ör, Dramalärare
+C|193620|49|K|Ulrika Clevesjö|49 år, Centrala Sundbyberg, Systemvetare
+C|193621|29|M|Robin Westberg Johansso|29 år, Storskogen, Servicerådgivare
+C|193622|75|K|Ulla Sällström|75 år, Lilla Alby, Pensionär
+C|193623|31|M|Jens Petersen|31 år, Centrala Sundbyberg, Pressekreterare
+C|193624|72|K|Kari Vikslätt|72 år, Lilla Alby, Pensionär
+C|193627|74|M|Oiva Kaarela|74 år, Hallonbergen, Pensionär
+C|193626|49|K|Ingunn Talleivsen|49 år, Rissne, Behandlingsassistent/hantverkspedagog
+C|193629|65|M|Kjell Sundin|65 år, Centrala Sundbyberg, Tjänsteman
+C|193628|89|K|Karin Olelind|89 år, Duvbo, Pensionär
+C|86903|53|M|Stefan Bergström|53, Sundbyberg, Stadsmiljökommunalråd
+C|142931|61|K|Christina Wilson|61 år, Tulemarken, arkitekt och teknikinformatör
+C|142932|40|M|Tom Wadegård|40 år, Ursvik, ekonom
+C|142933|63|K|Antina-Maria Hessel|64 år, Rissne, kommunikatör
+C|123854|44|M|Anders Pettersson|44, Sundbyberg, Hantverkare
+C|76951|46|M|Simon Trbojevic|46, Sundbyberg, Elektronikingenjör
+C|142937|58|M|Gunnar Carlsson|58 år, Centrala Sundbyberg, företagsledare
+C|142939|47|M|Jens Johansson|47 år, Brotorp, egenföretagare
+C|142940|47|M|Anders Ocklind|47 år, Duvbo, civilingenjör
+C|142942|42|M|Erik Engberg|42 år, Storskogen, musiker
+C|142943|51|K|Lena Sundén|51 år, Rissne, politisk sekreterare
+C|142944|25|M|Gustaf Fritz|25 år, Centrala Sundbyberg, politisk sekreterare
+C|142945|75|M|Ulf Landström|75 år, Rissne, ekonom
+C|142946|68|M|Hans-Lennart Thorin|68 år, Centrala Sundbyberg, pensionär
+C|142947|67|M|Gustaf Öbrink|67 år, Lilla Alby, präst
+C|142948|26|M|Olle Nykvist|26 år, Centrala Sundbyberg, tjänsteperson
+C|142949|59|K|IngMarie Bohmelin|59 år, Lilla Alby, egenföretagare
+C|142950|28|M|Pontus Olsson|28 år, Lilla Alby, brandingenjör
+C|142951|43|M|Henrik Holmberg|43 år, Storskogen, fotograf och konsult
+C|142952|34|M|Carl Helsing|34 år, Hallonbergen, jurist
+C|142953|30|K|Hanne Olsson|30 år, Lilla Alby, civilingenjör
+C|142954|65|M|Ronnie Larsson|65 år, Centrala Sundbyberg, receptionist
+C|142956|73|M|Berndt Eriksson|73 år, Centrala Sundbyberg, företagare
+C|142957|75|M|Anders Hallstan|75 år, Centrala Sundbyberg, pensionär
+C|513852|25|K|Madelene Eriksson|25, verksamhetsutvecklare
+C|513853|25|M|Henric Södergren|25, student
+C|513854|28|K|Svenja Herrmann|28, affärsutvecklare
+C|157087|64|K|Maria Bohman Kreij|64, Kommunalråd, Sundbyberg
+C|157088|38|M|Marcus Jonsson|38, Opinionsstrateg, Sundbyberg
+C|157089|48|M|Daniel Wiström|48, politisk sekreterare, Centrala Sbg
+C|157090|56|M|Bengt Sjöholm|56, IT-ingenjör, Ursvik
+C|157091|46|M|Jens Manell|46, IT-konsult, Rissne
+C|157092|73|M|Kjell Mattsson|73, Busschaufför, Lilla Alby
+C|157093|68|K|Maritta Hellström|68, Leg. sjuksköterska, Duvbo
+C|157094|48|M|Gustaf Joelsson|48, Spec. ssk psykiatri, Centrala Sbg
+C|157095|73|K|Hillevi Törnkvist|73, Ekonom, Ör
+C|157097|59|M|Bengt Benson|59, Civilingenjör, Centrala Sbg
+C|157098|29|K|Diana Ayoub|29, Sekreterare, Centrala Sbg
+C|157099|43|K|Gunhild Manell|43, Civilekonom, Rissne
+C|157100|20|K|Deborah Berhane|20, Studerande, Rissne
+C|157101|55|M|Heikki Soukka|55, Överläkare, Centrala Sbg
+C|157102|39|K|Lena Wiström|39, Trädgårdsmästare, Centrala Sbg
+C|157103|19|M|Josef Wiström|19, Snickare, Centrala Sbg
+C|157104|67|M|Tomas Kreij|67, Pensionär, Centrala Sbg
+C|157105|31|K|Annie Hao|31, IT-konsult, Ursvik
+C|157106|26|M|Paulos Abraha|26, IT-konsult, Hallonbergen
+C|157107|32|K|Anna-Maria Johansson|32, Ekonom, Centrala Sbg
+C|157108|57|K|Marie Orselius-Sjöholm|57, Leg. sjukgymnast, Ursvik
+C|157109|21|K|Kristina Wiström|21, Studerande, Centrala Sbg
+C|157110|69|K|Yvonne Åhlberg|69, Pensionär, Lilla Alby
+C|192035|44|M|Johan Storåkers|44, Centrala Sundbyberg, Kommunalråd
+C|49169|56|K|Nina Lundström|fil mag, Sundbyberg
+C|218225|66|K|Anna-Lena Hammarin|66, Lilla Alby, Mikrobiolog
+C|218226|68|K|Inger Gran|68, Stora Ursvik, Kompetensarkitekt
+C|218227|44|M|Henrik Persson|44, Lilla Ursvik, Projektledare
+C|218228|67|M|Nils-Ove Bohlin|67, Duvbo, Jurist-IBA
+C|218229|49|M|Reza Zarenoe|medicine doktor, Sundbyberg
+C|218230|47|K|Ilona Heikka|47, Stora Ursvik, Verksjurist, Skolverket
+C|218231|49|M|Mattias Lönnqvist|IT-konsult, Sundbyberg
+C|218232|70|M|Ulf Schröder|70, Lilla Alby, Docent
+C|218233|47|M|Axel Bernhult|finansstrateg, Sundbyberg
+C|218234|45|K|Cecilia Björndahl|44, Stora Ursvik, Affärsprojektledare
+C|218235|62|M|Per Håkansson|säljare, Sundbyberg
+C|218236|34|M|David Gotthold|34, Centrala Sundbyberg, Kemist
+C|218237|29|K|Natalie Selin|dataanalytiker, Sundbyberg
+C|218238|37|M|James McVeigh|37, Centrala Sundbyberg, Kommunikationsstrateg
+C|218239|18|K|Olivia Eliasson|18, Centrala Sundbyberg, Studerande
+C|218240|35|M|Jonas Arvidsson|managementkonsult, Sundbyberg
+C|218241|39|M|Hawar Ramazanali|38, Centrala Sundbyberg, Tekn dr, Civilingenjör
+C|218242|48|M|Marek Danielowski|transportledare, Sundbyberg
+C|218243|35|M|Måns Arnholm Östberg|35, Hallonbergen, Civilingenjör
+C|218244|43|M|Thomas Wadensten|43, Storskogen, Entreprenör
+C|218245|29|K|Maria Emilsson|29, Ör, Lärarstudent F-3
+C|218246|66|M|Olav Björk|66, Storskogen, Pensionär
+C|218247|70|K|Gunilla Ehrenhorn|70, Duvbo, Lärare
+C|218248|69|K|Lena Törnblom|69, Lilla Alby, Beteendevetare
+C|218249|20|M|Jacob Bohlin|20, Duvbo, Jur stud
+C|218250|58|M|Richard Nordfeldt|58, Rissne, Försäkringshandläggare
+C|218251|52|K|Maria Olsson|52, Tulemarken, Kundansvarig
+C|238897|72|K|Jane Gyllencreutz|72, Centrala Sundbyberg, Pensionär
+C|218252|87|K|Kerstin Ljunggren|87,Rissne, F.d. Samordnare
+C|113338|29|K|Annika Hirvonen Falk|29, riksdagsledamot, Sundbyberg
+C|77406|25|M|Martin Solberg|25, politisk rådgivare, Falköping
+C|113340|43|K|Emelie Tillegård|43 år, Projektkontorschef
+C|113341|38|M|Martin Kling|38 år, Statsvetare
+C|113342|29|K|Anna Clara Acevedo|29, politisk sekreterare, Sundbyberg
+C|113343|24|M|Anton Fendert|24, politisk rådgivare, Sundbyberg
+C|113344|47|K|Anna Sundberg|47 år, Lärare
+C|113345|36|M|Patric Tengström|36 år, Verksamhetsutvecklare
+C|113346|56|K|Anne Ahluwalia|56, servicehandläggare, Sundbyberg
+C|113347|36|M|David Sillén|36 år, Filmvetare
+C|113348|52|K|Andrea Bengtsson|52 år, Lärare
+C|113349|35|M|Jonas Forsslund|35 år, Teknisk doktor
+C|113350|56|K|Elisabeth Bergman|56 år, Biolog
+C|113351|36|M|Axel Naver|36 år, Kommunikatör
+C|113352|71|K|Kerstin Slåneteg|71 år, Trädgårdsingenjör
+C|113353|46|M|Anders Tillegård|46 år, Teknisk lantmätare
+C|113354|35|K|Lisa Greger|35 år, Miljövetare
+C|113355|37|M|Harald Enoksson|37 år, Doktorand i nationalekonomi
+C|22973|32|M|Mikael T. Eriksson|32, Kommunstyrelseordförande
+C|12789|31|K|Josefin Malmqvist|31, Kommunalråd
+C|22976|48|M|Morgan Lindqvist|48, Civilingenjör
+C|23602|25|K|Ina Djurestål|25, Civilingenjör
+C|23603|43|M|Fredrik Söderholm|43, Civilingenjör
+C|22978|68|K|Ritva Runestad|68, Pensionär
+C|23605|72|M|Jan Bojling|72, Pensionär
+C|23606|47|K|Sophie Silverryd|47, Arbetsrättsjurist
+C|22985|59|K|Annika Zetterlund|59, Informatör
+C|23608|46|K|Eva Pavoni|46, Ekonom
+C|22982|54|M|Hans Beckerman|54, Flygkapten
+C|23610|50|M|Alex Karlsson|50, Säljare
+C|23611|69|M|Hans Beausang|69, Taxiförare
+C|23612|24|M|Klas Vestergren|24, PR-konsult
+C|23613|66|K|Kerstin Hellsten|66, Pensionär
+C|22994|61|M|Göran Lööv|61, Egenföretagare
+C|23615|72|K|Elsa Pettersson|72, Pensionär
+C|23616|48|K|Tao Wen|48, Volontär
+C|23617|64|M|Olle Appelgren|64, Undersköterska
+C|23618|61|M|Max Jedevall Roseneld|61, Konsult
+C|23619|61|K|Jenny Segeljakt|61, Jurist
+C|101811|75|M|Staffan Sundén|75, Egenföretagare
+C|23620|49|K|Cicci Rikanovic|49, Exportkontrollchef
+C|22989|62|K|Lena Törner|62, Egenföretagare
+C|23622|32|M|Kristofer Björnström|32, Analyschef
+C|22991|41|M|Alireza Shokouhi|41, Egenföretagare
+C|23624|56|K|Lise-Lotte Vanler|56, Förskollärare
+C|23625|35|K|Josefine Mittermaier|35, Trafikplanerare
+C|23626|59|M|Jens Algotsson|59, IT-konsult
+C|23627|69|M|Kjell Israelsson|69, Civilekonom
+C|23628|45|K|Viktoria Nilsson|45, Detaljhandelskonsult
+C|23629|66|M|Saleh Rahman|66, Pensionär
+C|23630|26|K|Sofia Axelsson|26, Kommunikatör
+C|220214|45|M|Lars Lindgren|45 år, Personalchef, Centrala Sundbyberg
+C|220216|43|K|Elham Norouzi|43 år, Verksamhetschef, Rissne
+C|220217|46|M|Jo Smeets|46 år, Kabinchef, Ursvik
+C|220349|24|K|Adgar Amin|24 år, Studerande, Hallonbergen
+C|220350|66|M|Amal Lahlo|66 år, Universitetslärare, Ör
+C|273623|36|K|Emma Söderholm|36 år, Resurspedagog, Rissne
+C|220351|50|M|Alireza Abbasi|50 år, Byggnadsingenjör, Rissne
+C|220352|44|K|Pia Bergman|44 år, Journalist. Storskogen
+C|220353|20|M|Alex Andue|20 år, Fotbollspelare/Ungdomsambassadör, Rissne
+C|220368|69|K|Kokab Myrtin|69 år, Pensionär, Centrala Sundbyberg
+C|220371|73|M|Hans Klövstad|73 år, Pensionär, Centrala Sundbyberg
+C|220354|23|K|Sohna Sowe|23, Fritidsledare, Rissne
+C|220357|22|M|Ahmed Mohamed|22 år, Ungdomsambassadör, Rissne
+C|220356|39|K|Maria Eliasson|39 år, HR Business partner, Centrala Sundbyberg
+C|220360|26|K|Isabelle Rudgård|26 år, Undersköterska, Rissne
+C|220358|38|K|Anna Lindgren|38 år, Förstelärare, Centrala Sundbyberg
+C|220359|35|M|Richard Lundin|35 år, Säljare, Hallonbergen
+C|220361|44|K|Jenny Hellerstedt-Österlund|44 år, Modell/Artist, Rissne
+C|220355|49|M|Lars Henningsson|49 år, Säljare, Duvbo
+C|220362|51|K|Marie Bysäter|51 år, Administrativ assistent, Centrala Sundbyberg
+C|270749|41|K|Fatemeh Zomorod|41 år, Mentalskötare, Rissne
+C|339278|23|K|Natasha Papadopoulou|23 år Nagelteknolog, Rissne
+C|220363|48|K|Nina Kosunen|48 år, Revisor, Rissne
+C|220364|59|M|Ata Nazifishirayi|59 år, Psykoterapeut, Rissne
+C|220365|64|K|Parivash Saraji|64 år, Auktoriserad Tolk, Rissne
+C|220366|63|K|Roza Wennergren|63 år, Pensionär, Rissne
+C|220367|28|K|Roxan Nazifishirayi|28 år, Ungdomsterapeut, Rissne
+C|270791|47|K|Elena Kniazeva|47 år, Lärare, Ör
+C|259944|49|K|Susann Kindblom|49 år, Chef, Tulemarken
+C|220373|23|M|Robert Lindquist|23 år, Studerande, Rissne
+C|67198|64|M|Gary Aelius|64, läkarexamen, Sundbyberg
+C|67199|63|M|Stefan Buncic|63, politisk sekreterare, Sundbyberg
+C|67200|76|M|Jarmo Kärävä|76, egenföretagare, Sundbyberg
+C|67201|72|M|Lars Carlsson|72, pensionär, Sundbyberg
+C|67202|43|K|Carina Cortés|43, jurist, Sundbyberg
+C|67203|46|M|Richard Torsslow|46, företagare, Sundbyberg
+C|67204|65|M|Lars Gunnar Nilsson|65, tekniker, Sundbyberg
+C|67205|68|M|Anders Eklund|65, elingenjör, Centrala Sundbyberg
+C|67206|61|K|Susanne Buncic|61, butiksbiträde, Sundbyberg
+C|67207|57|M|Harald Matz|civilingenjör, Rissne
+C|67208|51|M|Riad Bahez|51, företagare, Ursvik
+C|67209|62|M|Nils G Olsson|62, elektriker, Ursvik
+C|67211|65|M|Peter Wargård|65, drifttekniker, Ör
+C|67212|70|M|Hans Rudin|70, socionom, Centrala Sundbyberg
+C|213657|39|M|Jesper Wiklund|Sundbyberg, facklig ombudsman och kommunalråd
+C|213658|55|K|Catja Kaloudis|55 år, lärare/projektledare, Rissne
+C|213659|34|M|Moisés Ubeira|Sundbyberg, jurist
+C|213660|46|K|Veronica Kallander|Sundbyberg, fil. kand. och kommunpolitiker
+C|213661|47|K|Roya Asadzadeh|Sundbyberg, socionom
+C|213662|67|M|Peter Laine|67 år, pensionär, Centrala Sundbyberg
+C|213663|19|K|Klara Wigur|19 år, resurslärare, Tulemarken
+C|213664|62|M|Sasan Kanani|62 år, kock, Rissne
+C|213665|28|M|Lukas Löfling|Sundbyberg, doktorand
+C|213666|43|K|Klara Ernemo|43 år, översättare, Centrala Sundbyberg
+C|213667|35|K|Yvette Rasch|35 år, kommunikatör, Lilla Alby
+C|213668|23|K|Lara Alsadi|23 år, studerande/stationsvärd, Rissne
+C|213669|43|M|Christer Bengtsson|kommunikatör/marknadsförare, 43 år, Ursvik
+C|213670|27|M|Salvador Perez|27 år, fil. mag./statsvetare, Ör
+C|213671|26|K|Amanda Möllenhoff|26 år, fritidshemslärare, Ör
+C|213672|66|M|Christer Ryd|Sundbyberg, pensionär
+C|213673|39|K|Carolina Yévenes|39 år, terapeut, Storskogen
+C|213674|43|M|Tobias Tengström|43 år, enhetsassistent, Rissne
+C|213675|47|K|Malin Junestav|47 år, analytiker/utredare, Centrala Sundbyberg
+C|213676|34|M|August Flensburg|Ör, vårdare
+C|213677|63|K|Eva Eklund Warnke|63 år, lärare, Centrala Sundbyberg
+C|213678|38|K|Sara Hamrin|38 år, brevbärare, Rissne
+C|213679|65|M|Karl Pearsson|65 år, pensionär, Rissne
+C|213680|33|K|Hanne Kristin Wolden|33 år, bibliotekarie, Centrala Sundbyberg
+C|213681|27|M|Pierre Sandbacka|27 år, barnskötare, Hallonbergen
+C|213682|60|K|Kina Löwenbrååt Koski|60 år, kultursekreterare, Lilla Ursvik
+C|213683|27|K|Rebecca Mafredas|27 år, studerande, Lilla Alby
+C|213684|68|K|Berit Axelsson|68 år, pensionär, Storskogen
+C|213685|19|K|Maja Palm|19 år, butikssäljare, Centrala Sundbyberg
+C|213686|68|K|Jean Anderson|68 år, pensionär, Hallonbergen
+C|213687|61|M|Hans Hamrin|61 år, projektledare, Lilla Alby
+C|213688|38|K|Ewa Brånin|38 år, studerande, Rissne
+C|213689|63|K|Karin Bylund|63 år, förskolechef, Centrala Sundbyberg
+C|213690|59|K|Tuija Kalliomäki|59 år, sekreterare, Centrala Sundbyberg
+C|213691|61|M|Martin Kaan|61 år, handläggare, Rissne
+C|213692|37|K|Hanna Carlsson|37 år, arbetsterapeut, Rissne
+C|213693|30|M|Jimmy Nordin|30 år, kock, Lilla Alby
+C|213694|71|K|Martha Omiste|71 år, pensionär, Rissne
+C|213695|68|K|Solveig Olsson|68 år, pensionär, Rissne

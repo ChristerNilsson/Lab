@@ -1,9 +1,191 @@
-2|17110|6469|17112|17113|8223|17115|17116|8159|7450|17119|17120|17121|17122|17123|8220|17125|17126|17127|17128|6798|17130|6459|8149|17133|17134|17135|17136|17137|17138|17139|17140|17141|17142|17143|17144|17145|17146|17147
-4|283565|283566|95769|283568|283569|283570|283571|283572|283573|283574|283575|283576|283577|283578|283579|283580|283581|283582|283583|283584|283585|283586|283587|283588|283589|283590|283591|283592|283593|283594|283595|283596|283597|283598|283599|283600|283601|283602|283603|283604|283605|283606|283607|283608|283609|283610|283611
-68|205309|208877|208878|208879|208880|208881
-3|198999|199000|199001
-55|385915|385916|175340|385918|385919|385920|385921|385922|385923|385924|385925|385926|385927
-1|253307|253308|253309|253310|253311|253312|253313|39515|253315|39625|253317|253319|253320|253321|253322|39495|253327|253329
-110|278929|105169
-5|513637|513638|513639|513640|513641|513642
-982|328923|328924|328925|328926|328927|328928|328929|328930|328931|328932|328933|328934|328935|328936|328937|328938|328939|328940|328941|328942|328943|328944|328945|328946|328947|328948|328949|328950|328951|328952|328953|328954|328955|328956|328957|328958|328959|328960|328961
+T|Åre
+A|2|17110|6469|17112|17113|8223|17115|17116|8159|7450|17119|17120|17121|17122|17123|8220|17125|17126|17127|17128|6798|17130|6459|8149|17133|17134|17135|17136|17137|17138|17139|17140|17141|17142|17143|17144|17145|17146|17147
+A|4|283565|283566|95769|283568|283569|283570|283571|283572|283573|283574|283575|283576|283577|283578|283579|283580|283581|283582|283583|283584|283585|283586|283587|283588|283589|283590|283591|283592|283593|283594|283595|283596|283597|283598|283599|283600|283601|283602|283603|283604|283605|283606|283607|283608|283609|283610|283611
+A|68|205309|208877|208878|208879|208880|208881
+A|3|198999|199000|199001
+A|55|385915|385916|175340|385918|385919|385920|385921|385922|385923|385924|385925|385926|385927
+A|1|253307|253308|253309|253310|253311|253312|253313|39515|253315|39625|253317|253319|253320|253321|253322|39495|253327|253329
+A|110|278929|105169
+A|5|513637|513638|513639|513640|513641|513642
+A|982|328923|328924|328925|328926|328927|328928|328929|328930|328931|328932|328933|328934|328935|328936|328937|328938|328939|328940|328941|328942|328943|328944|328945|328946|328947|328948|328949|328950|328951|328952|328953|328954|328955|328956|328957|328958|328959|328960|328961
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|982|VV|Västjämtlands Väl
+C|17110|53|M|Peter Bergman|53, Socionom, Järpen
+C|6469|30|K|Martine Eng|30, Butiksmedarbetare, Åre
+C|17112|38|M|Andreas Sihvonen|38, Egen företagare, Vik
+C|17113|35|K|Ulrika Andreasson|35, Personlig assistent, Kluk
+C|8223|63|M|Maths Larsson|63, Lärare, Duved
+C|17115|40|K|Ida Nilsson|40, Lärare, Hallen
+C|17116|37|M|Per Rosén Sjölund|37, Brandman/Vårdbiträde, Järpen
+C|8159|69|K|Henny Möhlnhoff-Lindkvist|69, fd Lärare, Vassnäs
+C|7450|63|M|Thomas Hägg|63, Egen företagare, Mörsil
+C|17119|39|K|Anna Linde|38, Kreatör, Järpen
+C|17120|18|M|Olle Moe|18, Studerande, Duved
+C|17121|39|K|Karolina Junel|39, Butiksbiträde, Duved
+C|17122|48|M|Per-Göran Skoog|48, Industriarbetare, Mattmar
+C|17123|18|K|Elin Nilsson|18, Studerande, Såå
+C|8220|39|M|Jesper Inegård|39, Lärare, Mörsil
+C|17125|71|K|Eva Nilsson|71, Fd textillärare, Hallen
+C|17126|39|M|Mohammad Alkhalid|39, Guldsmed, Järpen
+C|17127|39|K|Ida Johansson|39, Administratör, Duved
+C|17128|42|M|Jakob Eiserman|42, Ambulanssjuksköterska, Hälgesund
+C|6798|61|K|Ann-Marie Johansson|61, Ombudsman, Konäs
+C|17130|62|M|Björn Lindkvist|62, Möbelsnickare, Vassnäs
+C|6459|53|K|Anna-Caren Sätherberg|53, Bartender, Åre
+C|8149|18|M|Nils Lindberg|18, Studerande, Såå
+C|17133|46|K|Sara Bergman|46, Socionom, Järpen
+C|17134|45|M|Mikael Björk|45, Fritidsledare, Undersåker
+C|17135|40|K|Irina Hägg|40, Lärare, Mörsil
+C|17136|55|M|Sven Moe|56, Tekniker, Duved
+C|17137|42|K|Åsa Mölnhoff|42, Kök- och adm.ansvarig, Järpen
+C|17138|46|M|Björn Fredlund|47, Arbetsledare, Järpen
+C|17139|22|M|Martin Mårtensson|22, Undersköterska, Järpen
+C|17140|72|M|Per-Åke Gunnarsson|73, Pensionär, Järpen
+C|17141|19|M|Måns Olsson|18, Studerande, Mörsil
+C|17142|25|M|David Ekstrand Säterberg|25, Sjöingenjör, Åre
+C|17143|55|M|Mathias Ekstrand|56, Kock, Åre
+C|17144|37|M|Ahmad Salim|37, Industriarbetare, Undersåker
+C|17145|69|M|Kenneth Nilsson|69, Fd snickare, Hallen
+C|17146|40|M|Rickard Nordberg|40, Lokalvårdare, Järpen
+C|17147|37|M|Fredrik Ericsson|37, Kassaledare, Ullån
+C|283565|40|M|Daniel Danielsson|oppositionsråd 40 år Järpen
+C|283566|41|K|Mari Eriksson|projektledare 41 år Häljesund
+C|95769|51|M|Can Savran|företagare 51 år Duved
+C|283568|54|K|Marie Rödemark|lärare/författare 54 år Duved
+C|283569|60|M|Peter Jansson|processledare 60 år Åre
+C|283570|31|K|Stina Andersson|fembarnsmamma 31 år Hallen
+C|283571|51|M|Staffan Olovsson|företagare 51 år Brattland
+C|283572|37|K|Åse Bixo|medicinsk sekreterare 37 år Mattmar
+C|283573|35|M|Sebastian Blohm|företagare 35 år Såå
+C|283574|29|M|Ghulam Mustafa|modersmålslärare 29 år Duved
+C|283575|53|M|Greger Mårtensson|ekonomikonsult 53 år Kall
+C|283576|30|K|Matilda Romner|översättare 30 år Duved
+C|283577|50|M|Jörgen Brouwer|företagare 50 år Kallsedet
+C|283578|56|K|Annika Wallram|lönehandläggare 55 år Brattland
+C|283579|55|M|Anders Wiblom|företagare 55 år Duved
+C|283580|62|M|Leif Svedin|rörmontör 62 år Gärdsta
+C|283581|55|M|Mikael Jönsson|säljare 55 år Ågårdarna Böle
+C|283582|26|K|Olivia Widholm|undersköterska 26 år Järpen
+C|283583|42|M|Patrik Agerberg|företagare 42 år Myckelåsen
+C|283584|61|K|Ulla Tysk|distriktssköterska/barnmorska 61 år Huså
+C|283585|39|M|Mohammed Omar Rahmati|admin/verksamhetsutvecklare 28 år Järpen
+C|283586|47|K|Ann-Christine Alexius|ekonom 47 år Järpen
+C|283587|54|M|Olle Christmansson|egenföretagare 54 år Hallen
+C|283588|46|K|Marita Dahlkvist|handläggare 46 år Brasta
+C|283589|25|K|Johanna Widholm|sjuksköterskestud 25 år Hallen
+C|283590|53|K|Ann Mari Somberg|mathantverkare 53 år Mörsil
+C|283591|28|K|Mahnaz Mustafa|byggingenjör 27 år Duved
+C|283592|58|M|Olle Berling|arbetsledare 58 år Brattland
+C|283593|48|K|Sofia Bernhardsson|sjuksköterska 48 år Åre
+C|283594|62|M|Ingemar Ericsson|ekonom 62 år Arvesund
+C|283595|64|M|Reidar Nordfjäll|renägare 64 år Vålådalen
+C|283596|43|K|Anna-Lisa Hoflén|arkivarie 43 år Mårdsund
+C|283597|69|M|Jan Wennberg|pensionär 69 år Duved
+C|283598|53|K|Eva Svedin|chaufför 53 år Gärdsta
+C|283599|44|M|Muhammed Adem Omer|modersmålslärare 44 år Mörsil
+C|283600|43|M|John-Eric Lidenfelt|säljare/servicetekniker 43 år Storåsen
+C|283601|62|K|Kerstin Angantyr Nordfjäll|pensionär 62 år Vålådalen
+C|283602|44|M|Mikael Eriksson|företagare 44 år Myckelåsen
+C|283603|30|K|Emma Danielsson|sömmerska/elevassistent 30 år Kallrör
+C|283604|56|M|Mats Nilsson|lantbrukare 56 år Ocke
+C|283605|63|K|Elsa Lidén|organisationskonsult 63 år Kvitsle Mattmar
+C|283606|58|M|Torgny Widholm|lantbruksföretagare 58 år Hallen
+C|283607|53|K|Ann-Christin Helander|grundskollärare 53 år Krok
+C|283608|39|K|Liselott Thottmark|energitekniker 39 år Undersåker
+C|283609|52|K|Anna-Karin Lundmark|ekonom 52 år Björnänge
+C|283610|61|M|Jim Jonsson|gästvärd/guide 61 år Såå
+C|283611|60|K|Monica Henriksson|ekonomiassistent 60 år Kvitsle
+C|205309|38|K|Linnéa Haggren|byggnadsinspektör, Hallen
+C|208877|45|K|Elisabeth Rolandsson|vakt, Järpen
+C|208878|54|K|Christina Strandberg|sjuksköterska, Mörsil
+C|208879|22|K|Samira Mirzae|vårdbiträde, Järpen
+C|208880|41|M|Jonas Haggren|företagare, Hallen
+C|208881|19|M|Filip Englund|student, Mörsil
+C|198999|78|M|Jan Karlsson|Åre
+C|199000|82|M|Håkan Borg|forskande läkare,Åre
+C|199001|54|M|Anders Wasell|Mörsil
+C|385915|38|K|Katrin Wissing|38, Administratör, Duved
+C|385916|29|K|Matilda Pettersson|29, Miljöanalytiker
+C|175340|18|M|Elon Wissing|18, Student, Duved
+C|385918|65|M|Tomas Rydberg|65, Högskoleadjunkt, Gymnasielärare
+C|385919|32|K|Marie Christensson|32, Statsanställd, Konäs
+C|385920|18|M|Abdullah Adam|18, Student
+C|385921|20|K|Ella Wiksten|20, Student
+C|385922|28|M|Alexander Håkansson|28, Miljövetare
+C|385923|59|K|Arna Rydberg|59, Konstnär
+C|385924|27|M|Johan Reinklou|27, Miljöinspektör
+C|385925|35|M|Anders Håkansson|35, Polis
+C|385926|19|M|Rohulla Amiri|19, Student
+C|385927|63|K|Elsi Ljungdahl|63, Administratör
+C|253307|43|K|Karin Gydemo Granlöf|43 år, Projektchef, Björnänge
+C|253308|38|K|Emma Nordin|38 år, Civilingenjör, Mörsil
+C|253309|69|M|Carl Arne Bengtsson|69 år, Företagare, Undersåker
+C|253310|46|M|Fredrik Eliasson|46 år, Skogsmästare, Mörsil
+C|253311|46|M|Karl Dumky|46 år, Enhetschef, Mörsil
+C|253312|67|M|Lars-Gunnar Nilsson|67 år, Egen företagare, Undersåker
+C|253313|40|M|Per Nyberg|40 år, Egen företagare, Björnänge
+C|39515|61|K|Irene Nyqvist|61 år, Hålland
+C|253315|62|K|Ann Christine Tander Nord|62 år, Förskollärare, Undersåker
+C|39625|69|M|Håkan Karlsson|69, Hallen
+C|253317|73|M|Göran Jämting|73 år, Skogsbrukare, Mattmar
+C|253319|42|K|Cecilia Källbäck|42 år, Affärsområdeschef, Björnänge
+C|253320|18|K|Elna Nilsson|18 år, Student, Ocke
+C|253321|69|M|Åke Granlöv|69 år, Pensionär, Hallen
+C|253322|36|M|Kristoffer Eliasson|36 år, Polis, Mörsil
+C|39495|65|K|Karin Ekblom|65 år, Mörsil
+C|253327|47|M|Martin Warstedt|47 år, Säljare/projektledare, Mörsil
+C|253329|39|M|Olle Dumky|39 år, Kyrkvaktmästare, Hålland
+C|278929|57|M|Tony Gunnarsson|Examinator, Åre
+C|105169|42|M|Tomas Nordlund|Undersköterska, Åre
+C|513637|61|M|Jan Olof Jonsson|61 år, Tångböle
+C|513638|65|M|Sverre Launy|65 år, Ottsjö
+C|513639|39|M|Jonatan Lundberg|39 år, Hallen
+C|513640|57|K|Ulrika Hagelin|57 år, Duved
+C|513641|39|K|Therese Svensson|39 år, Järpen
+C|513642|57|K|Birgitta Pettersson Launy|58 år, Ottsjö
+C|328923|52|M|Mikael Sundman|företagare, Järpen
+C|328924|51|K|Ylva Edler|förskollärare, Järpen
+C|328925|47|M|Bo-Inge Engelbrektsson|företagare, Höla
+C|328926|45|K|Maria Stendotter|EU-programansvarig, Järpen
+C|328927|63|M|Egon Wikström|ekonom, Kall
+C|328928|54|K|AnnMari Landorf|turismekonom, Järpen
+C|328929|60|M|Bengt Persson|byvärd, Åre
+C|328930|48|M|Jörgen Encke|företagare, Järpen
+C|328931|70|M|Hans Åberg|it-chef, Brattland
+C|328932|47|K|Susanna Björkstrand|fastighetsmäklare, Grötom
+C|328933|53|M|Björn Nilsson|konsult, Björnänge
+C|328934|56|K|Birgitta Andersson|biblioteksassisent, Hallen
+C|328935|57|M|Pär Hedman|civilingenjör, Åre
+C|328936|58|M|Leif-Åke Lindeborg|företagare, Mörsil
+C|328937|59|K|Carina Edler|kock, Undersåker
+C|328938|40|M|Rickard Lindholm|butikschef, Hallen
+C|328939|36|K|Martina Höiem|företagare, Storlien
+C|328940|45|K|Maria Zetterström|butiksbiträde, Järpen
+C|328941|79|M|Jan-Ove Lindholm|ekonom, Järpen
+C|328942|39|K|Lena Johansson|lokalvårdare, Mörsil
+C|328943|57|M|Mats Bodin|företagare, Grötom
+C|328944|59|K|Kerstin Örbo|biblioteksutvecklare, Hålland
+C|328945|55|M|Peter Andersson|lärare, Järpen
+C|328946|46|K|Lena Flaten|företagare, Storlien
+C|328947|47|M|Patrik Danielsson|visionär, Undersåker
+C|328948|40|M|Jan Andersson|butiksmedarbetare, Brattland
+C|328949|21|K|Moa Kjellström|fjällvärd, Järpen
+C|328950|63|M|Lars-Göran Larsson|kock, Undersåker
+C|328951|61|K|Helen Toresson|barnskötare, Hallen
+C|328952|52|M|Micael Olsson|företagare, Järpen
+C|328953|53|M|Lars "Latti" Östlund|arenachef, Vålådalen
+C|328954|51|M|Roger Sundström|lastbilschaufför, Ocke
+C|328955|19|M|Jonathan Sundberg|studerande, Järpen
+C|328956|54|K|Marina Nordell|undersköterska, Vålådalen
+C|328957|81|M|Håkan Håkansson|sotarmästare, Järpen
+C|328958|53|K|Anette Nilsson|undersköterska, Järpen
+C|328959|55|M|Anders Stadigh|företagare, Edsåsen
+C|328960|49|K|Camilla Svedberg|skolresurs, Järpbyn
+C|328961|56|K|Agneta Sundberg|förskollärare, Järpen

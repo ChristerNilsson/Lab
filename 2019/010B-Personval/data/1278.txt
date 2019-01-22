@@ -1,8 +1,161 @@
-2|24288|24289|24290|24291|24292|24293|24294|24295|24296|24297|24298|24299|24300|24301|24302|24303|24304
-163|420530|420531|420532|420533|420534|420535|420536|420537|420538|420539|420540|420541|420542|420543|420544|420545|420546|420547|420548|420549|420550|420551|420552|420553|420554|420555|420556|420557|420558
-4|35322|42278|42279|42280|42281|42282|38898|38909|42285|42286|42287|42288|42289|42290|42291|42292|42293|42660|42661|42662|42663|42664|42665|42666|42667|42668|42669|42670|42671|42672
-68|114730|31787|114732|114733
-3|63563|63564|63565|63566|63567|63568|63569|63570|63571|63572|63573|63574|63575|63576|63577|63578|63579|63580|63581
-55|513502|513503|513501|513755|513756|513757|513758|513759|513760|513761|513762
-1|52486|79636|52488|52489|52490|52491|52492|52493|52494|52495|52496|52497|52498|52499|52500|52501|52502|52503|52504|52505|52506|52507|52508|52509|52510|52511|52512|52513|52514|52515
-110|255289|255290|255291|255292
+T|Båstad
+A|2|24288|24289|24290|24291|24292|24293|24294|24295|24296|24297|24298|24299|24300|24301|24302|24303|24304
+A|163|420530|420531|420532|420533|420534|420535|420536|420537|420538|420539|420540|420541|420542|420543|420544|420545|420546|420547|420548|420549|420550|420551|420552|420553|420554|420555|420556|420557|420558
+A|4|35322|42278|42279|42280|42281|42282|38898|38909|42285|42286|42287|42288|42289|42290|42291|42292|42293|42660|42661|42662|42663|42664|42665|42666|42667|42668|42669|42670|42671|42672
+A|68|114730|31787|114732|114733
+A|3|63563|63564|63565|63566|63567|63568|63569|63570|63571|63572|63573|63574|63575|63576|63577|63578|63579|63580|63581
+A|55|513502|513503|513501|513755|513756|513757|513758|513759|513760|513761|513762
+A|1|52486|79636|52488|52489|52490|52491|52492|52493|52494|52495|52496|52497|52498|52499|52500|52501|52502|52503|52504|52505|52506|52507|52508|52509|52510|52511|52512|52513|52514|52515
+A|110|255289|255290|255291|255292
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|163|BJP|Bjärepartiet
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+C|24288|54|K|Ingela Stefansson|Barnskötare, Båstad
+C|24289|57|M|Adem Qerimaj|Modersmålslärare, 58 år, Förslöv
+C|24290|53|K|Jessica Andersson|Fastighetsskötare, 54 år, Båstad
+C|24291|53|M|Niclas Svanberg|VVS-montör, Båstad
+C|24292|49|K|Ingrid Zäther|Integrationshandläggare, 49 år, Grevie
+C|24293|68|M|Ingvar Bengtsson|Pensionär, 69 år, Torekov
+C|24294|74|K|Irene Ebbesson|Sjuksköterska, 74 år, Förslöv
+C|24295|64|M|Göran Klang|Arbetsledare, Båstad
+C|24296|72|K|Ann-Margret Kjellberg|Socionom, 72 år, Båstad
+C|24297|36|M|Mikael Jalris|Maskinoperatör, Båstad
+C|24298|45|K|Linda Smit|Undersköterska, 46 år, Ramsjö
+C|24299|57|M|Isuf Asani|Chaufför, 57 år, Båstad
+C|24300|57|K|Ingrid Pihlsgård|Undersköterska, 57 år, Båstad
+C|24301|19|M|Jack Burgos|Studerande, 20 år, Slättaröd
+C|24302|86|M|Jan Ekelund|Folkskollärare, 86 år, Torekov
+C|24303|71|M|Mats Johansson|Byggnadsarbetare, 72 år, Förslöv
+C|24304|81|M|Roar Onsö|Pensionär, 81 år, Hov
+C|420530|65|M|Bo Wendt|65 år, Båstad
+C|420531|72|M|Eddie Grankvist|72 år, Erikstorp
+C|420532|55|M|Hans Grönqvist|55 år, Boarp
+C|420533|67|M|Inge Henriksson|67 år, Torekov
+C|420534|76|M|Håkan Mörnstad|76 år, Ängalag
+C|420535|40|M|Jonas Follin Persson|40 år, Hemmeslöv
+C|420536|66|K|Marianne Eriksson Mjöberg|66 år, Svenstad
+C|420537|49|K|Helena Stridh|49 år, Ö.Karup
+C|420538|70|M|Claes Sjögren|70 år, Båstad
+C|420539|78|M|Haakon Böcker|78 år, Ö.Karup
+C|420540|71|M|Ingemar Jönsson|71 år, Segelstorp
+C|420541|64|M|Göran Håkansson|64 år, Båstad
+C|420542|77|K|Karin Schmidt|77 år, Hemmeslöv
+C|420543|76|K|Anita Bäck|76 år, Slättaröd
+C|420544|60|M|Claes Sundin|60 år, Förslöv
+C|420545|60|K|Marie-Louise Nilsson|60 år, Häljarp
+C|420546|61|K|Ingrid Edgarsdotter|61 år, Grevie
+C|420547|83|M|Kjell Andersson|83 år, Förslöv
+C|420548|50|M|Kjell Stridh|50 år, Ö.Karup
+C|420549|65|K|Helén Barnekow|65 år, Båstad
+C|420550|77|M|Uno Henningsson|77 år, Båstad
+C|420551|70|M|Anders Bäck|70 år, Slättaröd
+C|420552|80|K|Gunnel Sebelius Böcker|80 år, Ö.Karup
+C|420553|63|K|Eva Maltesson|63 år, Båstad
+C|420554|79|K|Kerstin Johansson|79 år, Båstad
+C|420555|63|M|Christer Paulsson|63 år, Häljarp
+C|420556|67|M|Anders Barte|67 år, Förslöv
+C|420557|73|M|Anders Dahlkvist|73 år, Båstad
+C|420558|68|M|Roland Nelson|68 år, Båstad
+C|35322|41|K|Ebba Krumlinde|Fil. mag. i mänskliga rättigheter, 41, Båstad
+C|42278|68|M|Gösta Gebauer|68, Fd.företagare, Förslöv
+C|42279|56|M|Stefan Olsson|56, Lantbrukare, Hålarp
+C|42280|67|M|Uno Johansson|67, Företagare, Grevie
+C|42281|47|M|Ib Nilsson|45, Jur.kand, Stora Hult
+C|42282|43|K|Emma Jönsson|42, Hortonom, Segelstorp
+C|38898|63|M|Mats Sjöbeck|Båstad, Fd. personalchef, 63
+C|38909|69|K|Sonia Larsson|Förslöv, Medicinsk sekreterare, 69
+C|42285|32|K|Johanna Svensson|31, Sjukgymnast, Killebäckstorp
+C|42286|60|M|Eduardo Martinez|60, Lärare, Grevie
+C|42287|63|M|Tomas Kulneff|62, Lantbrukare, Killebäckstorp
+C|42288|30|K|Josefin Svensson|29, Bärodlare, Öllöv
+C|42289|57|M|Lennart Svensson|56, Lantbrukare, Ranarp
+C|42290|47|M|Nils-Bertil Nilsson|46, Lagerarbetare, Förslöv
+C|42291|42|M|Marcus Nilsson|41, Företagare, Ranarp
+C|42292|64|M|Kjell Jonsson|63, Socionom, Båstad
+C|42293|24|M|Oskar Olsson|23, Snickare, Grevie
+C|42660|50|M|Johan Arnoldsson|49, Lantbrukare, Svenstad
+C|42661|25|K|Linnea Gunnarsson|25, Leg.sjuksköterska, Västra Karup
+C|42662|53|M|Rune Andersson|52, Lantbrukare/chaufför, Grevie
+C|42663|26|M|Anton Karlsson|25, Industriarbetare, Västra Karup
+C|42664|59|K|Christel Eriksson|58, Seniorkonsult, Båstad
+C|42665|77|M|Arne Nilsson|76, Pensionär, Olastorp
+C|42666|57|M|Anders Gunnarsson|56, Lantbrukare, Glimminge
+C|42667|26|K|Stina Jansson|25, EU-praktikant, Torekov
+C|42668|74|M|Gunnar Hejll|73, Förvaltare, Lya
+C|42669|52|M|Daniel Nilsson|51, Montör, Olastorp
+C|42670|40|M|Magnus Nilsson|39, Företagare, Båstad
+C|42671|68|M|Rune Pålsson|67, Maskiningenjör, Östra Karup
+C|42672|75|M|Bertil Karlsson|74, Chaufför, Hemmeslöv
+C|114730|57|M|Krister Lilja|Taxichaufför
+C|31787|71|K|Kerstin Larsson|71 år, Fil.kand, Båstad
+C|114732|63|M|Peter Larsson|Pastor
+C|114733|18|M|Alex Dahlberg|Studerande
+C|63563|71|M|Thomas Andersson|pensionär, Båstad, 71 år
+C|63564|68|K|Birgitte Dahlin|egenföretagare, Båstad, 68 år
+C|63565|51|M|Mats Lundberg|Båstad
+C|63566|52|K|Catarina Fryland|systemförvaltare, Eskilstorp, 52 år
+C|63567|42|M|Jens Nygren|forskningsledare, Västra Karup, 42 år
+C|63568|43|K|Louise Dock|egenföretagare, Båstad, 43 år
+C|63569|69|M|Hans Ekwurtzel|egenföretagare, Båstad, 69 år
+C|63570|31|K|Solveig Strebel|ekonom, Troentorp, 31 år
+C|63571|73|M|Sven-Olof Bengtsson|pensionär, Båstad, 73 år
+C|63572|70|K|Ingrid Nygren|pensionär, Torekov, 70 år
+C|63573|72|M|Sten Moberg|pensionär, Båstad, 72 år
+C|63574|52|K|Jenny Hamringe|miljöinspektör, Östra Karup, 52 år
+C|63575|44|M|Christer Sjöö|generalsekreterare, Båstad, 44 år
+C|63576|58|K|Carina Ekwurtzel|sjuksköterska, Båstad, 58 år
+C|63577|71|M|Håkan Sandin|projektledare, Båstad, 71 år
+C|63578|58|K|Ina Angel|rektor, Dejarp, 58 år
+C|63579|56|K|Helene Muhola|konstnär/jurist, Boarp, 56 år
+C|63580|53|K|Anna Rosberg|egenföretagare, Förslöv, 53 år
+C|63581|72|K|Eva Andersson|pensionär, Båstad, 72 år
+C|513502|47|M|Jonas Nilsson|Målare, Båstad
+C|513503|54|K|Lina Andreasson|Redaktör, Båstad
+C|513501|38|K|Jenny Sjöholm|Arbetsmiljösamordnare, Förslöv
+C|513755|66|K|Birgitta Persson|Textilkonstnär, Öllöv
+C|513756|47|M|Jonas Holgersson|Biolog, Båstad
+C|513757|75|K|Eva Åkesson|Mentor, Torekov
+C|513758|70|M|Tomas Peterson|Caféidkare, Båstad
+C|513759|87|K|Eva Sterner Ranégie|Pensionerad sjukgymnast, Stora Hult
+C|513760|75|K|Gunilla Wickman|Taijimästare, Båstad
+C|513761|75|K|Lena Göranson|Bokhandlare, Båstad
+C|513762|75|M|Carlos Luna|Qigong/taijimästare, Båstad
+C|52486|41|M|Johan Olsson Swanstein|41 år, utvecklingschef, Båstad
+C|79636|64|M|Ulf Jiewertz|64 år, teolog, Västra Karup
+C|52488|70|K|Kerstin Gustafsson|70 år, ekonomichef, Torekov
+C|52489|28|K|Linda Ivarsson|29 år, lärare, Grevie
+C|52490|65|K|Ann Elofsson|65 år, lantbrukare, Rammsjö
+C|52491|54|M|Tony Ivarsson|54 år, lantbrukare, Ängelsbäck
+C|52492|48|M|Carl-Magnus Fröjdh|48 år, leg. psykolog, Båstad
+C|52493|68|M|Gösta Sandgren|68 år, f.d. personaldirektör, Förslöv
+C|52494|28|M|Viktor Törnqvist|28 år, egen företagare, Kattvik
+C|52495|59|M|Håkan Hagström|59 år, jurist, Öllövsstrand
+C|52496|66|K|Susanne Jung|66 år, egen företagare, Torekov
+C|52497|52|K|Anette Åkesson|52 år, civilekonom, riksdagsledamot, Båstad
+C|52498|75|K|Mona Källbäck|75 år, f.d. arbetsledare, Båstad
+C|52499|77|M|Marie-Louise Lindén|76 år, socionom, Båstad
+C|52500|79|K|Gunilla Linghoff|79 år, konsult, Båstad
+C|52501|68|M|Christer de la Motte|68 år, pensionerad socialchef, Båstad
+C|52502|19|M|Alexander Timmermans Eriksson|19 år, studerande, Grevie
+C|52503|60|K|Annika Fengved Stefansson|60 år, företagare, Torekov
+C|52504|68|M|Jan Ahlström|68 år, civ. ekonom, Segelstorpsstrand
+C|52505|71|M|Lars Elofsson|71 år, lantbrukare, Rammsjö
+C|52506|63|M|Carl Lilliehöök|63 år, civ. ing., Torekov
+C|52507|71|K|Lena Lindqvist Kello|71 år, VD, Hemmeslöv
+C|52508|60|K|Gunilla Klingspor|60 år, egen företagare, Båstad
+C|52509|63|K|Belisa Berglund|63 år, agronom, Torekov
+C|52510|58|K|Nicole Hagström|58 år, tolk, Öllövsstrand
+C|52511|66|K|Marie Louise Aaröe|66 år, PR-konsult, Båstad
+C|52512|67|K|Iréne Wikström|67 år, undersköterska, Båstad
+C|52513|62|M|Rustan Svensson|62 år, riskmanager, Båstad
+C|52514|69|K|Ninni Markow|69 år, leg. psykolog, Förslöv
+C|52515|48|M|Johan Wastensson|48 år, försäljningschef, Båstad
+C|255289|26|K|Carolin Gräbner|Köksbiträde, 26
+C|255290|61|K|Suzanne Kroksdotter|Egenföretagare, 61
+C|255291|59|M|Claes Wallin|Postiljon, 59
+C|255292|52|M|Joakim Gräbner|Sjöingenjör, 52 år

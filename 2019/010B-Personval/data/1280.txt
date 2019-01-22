@@ -1,18 +1,444 @@
-2|66434|28296|66436|66437|66438|28111|66440|28089|28100|28306|66444|66445|28297|66447|66448|28103|66450|66451|28102|66453|28108|66455|28106|66457|66458|66459|66460|66461|28110|66463|28315|66465|66466|66467|66468|28312|66470|66471|28311|66473|66474|66475|66476|28101|66478|66479|28327|66481|66482|66483|66484|28105|66486|66487|66488|66489|66490|66491|177055|177056
-4|8512|35607|35610|35609|35611|35613|8543|35615|39260|35608|39272|39254|35622|35624|35617|35629|35612|35616|39261|35626|39269|35633|39271
-532|219325|406790|406791|406792|219307|406794|219328|406796|219324|406798|406799|406800|219317|406802|406803|406804
-1388|515659
-1374|415128
-68|31794|31797|31801|31803|31733|62314|31808|62316|59409|62318|31812|62320|62322|62323|62324|62325|62326|59478
-3|38224|38223|27767|38225|40465|38744|38227|38228|38230|38233|38226|38232|40473|38231|38237|38235|38234|38752|38244|38236|38229|40483|40484|38241|38240|38763|40488|38762|40490|38239|38243|38246|40494
-1296|124844|128540|216030|187974|32979|216033|216034|188054|216141|216142|216143
-55|109305|109306|17215|109135|109144|109310|109141|109312|109146|109143|109134|109147|109138|20824|109319|109137|20829|109322|109148|109139|109149|109326|109327|109328|109329|109330|145920
-1|58086|58087|58088|58089|58090|58091|58092|58093|58094|58095|58096|58097|58098|58099|58100|58101|58102|58103|58104|58105|58106|58107|58108|58109|58110|58111|58112|58113|58114|58115|58116|58117|58118|58119|58120|58121|58122|58123|58124|58125|58126|58127|58128|58129|58130|58131|58132|58133|58134|58135|58136|58137|58138|58139|58140|58141|58142|58143
-524|449491|449492|449493|449494|449495
-54|428414|428415|428409|428410|428420|428417|428419|428413|428422|428418|428421|428425|428424|428427|428429|428605|428431|428428|428432
-110|66796|66797|66798|66799|66800|66801|66802|66803|66804|66805|66806|66807|66808|66809|66810|66811|66812|66813|66814|66815|66816|66817|66818|66819|66820|66821|66822|66823|66824|66825|66827|66828|66829|66830|66831|66832|66833|66834|66835|66836|66837|66838|66839|66840|66841|66842|66843|66844|66845|66846|66847|66848|515948
-1063|494056|494046|494058|494049|494060|494055|494062|494063|494053|494065|494066|494051|494068|494069|494070
-339|494204|494205
-1309|431298|431287|431303|431315|431319|431314|431987|431988|431312|431564
-1386|512174|512175|512176
-5|186242|186243|186244|186245|186246|186247|186248|186249|186250|186251|186252|186253|186254|186255|186256|186257|186258|186259|186260|186261|186262|186263|186264|186265|128121|186267|186268|186269|186270|186271|186272|186273|186274|186275|186276|186277|186278|186279|186280|186281|186282|186283|186284|186285|186286|186287|186288|186289|186290|186291|186292|186293|186294|186295
+T|Malmö
+A|2|66434|28296|66436|66437|66438|28111|66440|28089|28100|28306|66444|66445|28297|66447|66448|28103|66450|66451|28102|66453|28108|66455|28106|66457|66458|66459|66460|66461|28110|66463|28315|66465|66466|66467|66468|28312|66470|66471|28311|66473|66474|66475|66476|28101|66478|66479|28327|66481|66482|66483|66484|28105|66486|66487|66488|66489|66490|66491|177055|177056
+A|4|8512|35607|35610|35609|35611|35613|8543|35615|39260|35608|39272|39254|35622|35624|35617|35629|35612|35616|39261|35626|39269|35633|39271
+A|532|219325|406790|406791|406792|219307|406794|219328|406796|219324|406798|406799|406800|219317|406802|406803|406804
+A|1388|515659
+A|1374|415128
+A|68|31794|31797|31801|31803|31733|62314|31808|62316|59409|62318|31812|62320|62322|62323|62324|62325|62326|59478
+A|3|38224|38223|27767|38225|40465|38744|38227|38228|38230|38233|38226|38232|40473|38231|38237|38235|38234|38752|38244|38236|38229|40483|40484|38241|38240|38763|40488|38762|40490|38239|38243|38246|40494
+A|1296|124844|128540|187974|32979|216033|216034|188054|216141|216142|216143
+A|55|109305|109306|17215|109135|109144|109310|109141|109312|109146|109143|109134|109147|109138|20824|109319|109137|20829|109322|109148|109139|109149|109326|109327|109328|109329|109330|145920
+A|1|58086|58087|58088|58089|58090|58091|58092|58093|58094|58095|58096|58097|58098|58099|58100|58101|58102|58103|58104|58105|58106|58107|58108|58109|58110|58111|58112|58113|58114|58115|58116|58117|58118|58119|58120|58121|58122|58123|58124|58125|58126|58127|58128|58129|58130|58131|58132|58133|58134|58135|58136|58137|58138|58139|58140|58141|58142|58143
+A|524|449491|449492|449493|449494|449495
+A|54|428414|428415|428409|428410|428420|428417|428419|428413|428422|428418|428421|428425|428424|428427|428429|428605|428431|428428|428432
+A|110|66796|66797|66798|66799|66800|66801|66802|66803|66804|66805|66806|66807|66808|66809|66810|66811|66812|66813|66814|66815|66816|66817|66818|66819|66820|66821|66822|66823|66824|66825|66827|66828|66829|66830|66831|66832|66833|66834|66835|66836|66837|66838|66839|66840|66841|66842|66843|66844|66845|66846|66847|66848
+A|1063|494056|494046|494058|494049|494060|494055|494062|494063|494053|494065|494066|494051|494068|494069|494070
+A|339|494204|494205
+A|1309|431298|431287|431303|431315|431319|431314|431987|431988|431312|431564
+A|1386|512174|512175|512176
+A|5|186242|186243|186244|186245|186246|186247|186248|186249|186250|186251|186252|186253|186254|186255|186256|186257|186258|186259|186260|186261|186262|186263|186264|186265|128121|186267|186268|186269|186270|186271|186272|186273|186274|186275|186276|186277|186278|186279|186280|186281|186282|186283|186284|186285|186286|186287|186288|186289|186290|186291|186292|186293|186294|186295
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|1388||Folkhemmet Sverige
+B|1374||Initiativet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|524|PP|Piratpartiet
+B|54|SKÅ|SKÅNEPARTIET
+B|110|SD|Sverigedemokraterna
+B|1063|SKP|Sveriges Kommunistiska Parti (SKP)
+B|339||Sveriges Nationella Demokratiska Parti
+B|1309|TRP|TRYGGHETSPARTIET
+B|1386||Utveckling och Progressiv för Sverige partiet (U.P.S)
+B|5|V|Vänsterpartiet
+C|66434|44|K|Katrin Stjernfeldt Jammeh|Kommunstyrelsens ordförande
+C|28296|42|M|Andreas Schönström|Kommunalråd
+C|66436|39|K|Frida Trollmyr|Kommunalråd
+C|66437|54|M|Anders Rubin|Kommunalråd
+C|66438|59|K|Carina Nilsson|Kommunalråd
+C|28111|35|M|Sedat Arif|Kommunalråd
+C|66440|27|K|Elin Kramer|Ungdomssekreterare
+C|28089|35|M|Mubarik Mohamed Abdirahman|Sekreterare
+C|28100|63|K|Rose-Marie Carlsson|Undersköterska
+C|28306|74|M|Ilmar Reepalu|Arkitekt
+C|66444|42|K|Sofia Hedén|Lärare
+C|66445|57|M|Björn Gudmundsson|Ombudsman
+C|28297|59|K|Carina Svensson|Skötare
+C|66447|58|M|Juan-Tadeo Espitia|Fritidspedagog
+C|66448|74|K|Eva Sjöstedt|Pensionär
+C|28103|24|M|Arwin Sohrabi|Studerande
+C|66450|69|K|Christina Wessling|Pensionär
+C|66451|66|M|Jan Olsson|Ombudsman
+C|28102|28|K|Mediha Ahmadi Pir Hosseinian|Projektledare
+C|66453|47|M|Dündar Güngör|Egen företagare
+C|28108|60|K|Susanne Jönsson|Undersköterska
+C|66455|27|M|Harris Cheema|Studerande
+C|28106|34|K|Sanna Axelsson|Verksamhetsutvecklare
+C|66457|64|M|Anders Nilsson|Pensionär
+C|66458|37|K|Emilie Malm|Jurist
+C|66459|56|M|Peter Johansson|Kontorist
+C|66460|67|K|Birgit Hansson|VD
+C|66461|55|M|Mats Sjölin|Terminalarbetare
+C|28110|50|K|Anna-Karin Bengtsdotter|Fritidspedagog
+C|66463|66|M|Sven-Erik Rasmusson|Pensionär
+C|28315|23|K|Electra Ververidis|Ombudsman
+C|66465|45|M|Jean Pierre Denape|Forskarstuderande
+C|66466|61|K|Lirije Latifi|Administratör
+C|66467|32|M|Hasse Hajar|Fastighetsförvaltare
+C|66468|38|K|Vanja Andersson|Försäkringsutredare
+C|28312|38|M|Stefan Pinjefors|Tågvärd
+C|66470|61|K|Eva Jönsson|Familjebehandlare
+C|66471|43|M|Kostadin Cavdarovski|Industriarbetare
+C|28311|23|K|Teba Awni|Studerande
+C|66473|44|M|Jonas Michanek|Entreprenör
+C|66474|58|K|Gaby Wallström|Egen företagare
+C|66475|46|M|Nihad Pasalic|Tjänsteman
+C|66476|43|K|Therese Lindberg|Barnskötare
+C|28101|42|M|Johan Sjöstrand|Lagerarbetare
+C|66478|43|K|Neziya Rahman|Livsmedelsarbetare
+C|66479|57|M|Fehim Yilmas|Busschafför
+C|28327|21|K|Rifqa Al-Sammarraie|Studerande
+C|66481|55|M|Akeel Abdul-Amir|Lärare
+C|66482|74|K|Lilian Ekvall|Pensionär
+C|66483|43|M|Fredrik Egefur|Arkivarie
+C|66484|28|K|Linnea Jacobsson|Studerande
+C|28105|29|M|Rizwan Elahi|Studerande
+C|66486|68|K|Barbro Erlström|Pensionär
+C|66487|47|M|Martin Hjort|Ekonom
+C|66488|24|K|Alisar El-Haj|Lärare
+C|66489|53|M|Shaip Morina|Fritidsledare
+C|66490|52|K|Pernilla Hagen|Undersköterska
+C|66491|47|M|Joseph Prai|IT-tekniker
+C|177055|58|K|Anette Ellis|Divisionschef
+C|177056|42|M|Klas Abelson|Universitetslektor
+C|8512|40|M|Niels Paarup-Petersen|40 år, Konsult, Malmö
+C|35607|31|K|Charlotte Bossen|31, Statstjänsteman
+C|35610|24|M|Anton Sauer|24, Lärare
+C|35609|73|M|Kay Wictorin|73, Pensionär
+C|35611|30|K|Michaela Esseen|30, Försäkringstjänsteman
+C|35613|43|M|Adnan Bibic|43, Fysiker
+C|8543|23|K|Warda Fatih|23 år, Läkarstudent, Malmö
+C|35615|36|M|Joacim Ahlqvist|36, Statstjänsteman
+C|39260|54|M|Heinz Wellershaus|54, Civilingenjör
+C|35608|34|K|Nancy Diaz-Afzali|34, Enhetschef
+C|39272|35|M|Magnus Thulin|35, Civilekonom och egenföretagare
+C|39254|29|M|Martin Molin|29, Trafikplanerare
+C|35622|70|K|Gunnel Kristiansson|70, Leg. Sjuksköterska
+C|35624|23|M|Albin Westermark|23, Verksamhetskoordinator
+C|35617|22|K|Evelina Reuterfors|22, Verksamhetsledare
+C|35629|65|M|Bengt Svensson|65, Civilingenjör
+C|35612|38|M|Andreas Asker|38, Civilingenjör
+C|35616|42|K|Erika Hedblom|42, Projektledare
+C|39261|25|K|Hanna Edwards|25, Samhällsvetare
+C|35626|43|M|Rasmus Carlsson|43, IT-konsult
+C|39269|36|M|Sapko Sinani|36, VD/Myndighetsutövare
+C|35633|64|M|Halid Osman|64, Egenföretagare
+C|39271|55|K|Maria Ekstrand|55, Kommunikationsstrateg
+C|219325|28|K|Jonna Böhler|28år, Lärarstudent, Malmö
+C|406790|32|M|Reza Sharifi|32 år, Sektionschef
+C|406791|18|K|Tilde Sand|18 år, Student
+C|406792|24|K|Camilla Hidalgo Hernandez|24 år, Student
+C|219307|44|K|Toktam Jahangiry|44år, Projektledare/Utvecklingssekreterare, Malmö
+C|406794|22|K|Hanna Bergman|22 år, Student
+C|219328|57|M|Joel Boni|57år, Gymnasielärare, Malmö
+C|406796|19|K|Amanda Sköld|19 år, Student
+C|219324|51|K|Myriam Gomez Lattes|51år, Personlig assistent, Malmö
+C|406798|40|M|Ahmad Abonahleh|40 år, Kundresurs
+C|406799|28|K|Sanne Petersson|28 år, Arbetssökande
+C|406800|35|K|Lillian Bailey|35 år, Stödassistent inom LSS
+C|219317|19|K|Elham Ahmadi|19år, Studerande, Malmö
+C|406802|32|K|Veronika Rangin|32 år, Student/egenföretagare
+C|406803|38|M|Linus Fast|38 år, Bostadspolitisk utvecklare
+C|406804|28|K|Beata Sjöstedt|28 år, Student
+C|515659|35|M|Christopher Axelsson Horstmann|
+C|415128|41|M|Jakob Waller|41, Gymnasielärare
+C|31794|67|M|Torsten Elofsson|67 år, fd Polisintendent, Malmö
+C|31797|25|M|Martin Hallander|25 år, Politisk sekreterare, Malmö
+C|31801|37|K|Eleonor Vinciguerra|37 år, Informatör, Malmö
+C|31803|65|M|Lars Lindqvist|65 år, Senior advisor, Malmö
+C|31733|21|M|Robin Persson|21 år, Museivärd, Malmö
+C|62314|66|K|Monika Jensen|66 år, Pensionär, Dalaplan
+C|31808|34|M|Josef Ander|34 år, Polis, Malmö
+C|62316|82|K|Aina Ragnarp|82 år, Leg. Sjuksköterska, Gullvik
+C|59409|65|M|Tomas Ander|65, Redaktör, Malmö
+C|62318|45|M|Linus Owman|45 år, Pol.mag./Konsult, Fridhem
+C|31812|20|K|Adele Horn|20 år, Student, Malmö
+C|62320|78|M|Sven Steén|78 år, Posttjänsteman, Fosie
+C|62322|62|M|Richard Jensen|62 år, Professionell coach, Dalaplan
+C|62323|85|M|Lennart Henrysson|85 år, fd Universitetslektor, Lorensborg
+C|62324|28|K|Karolina Rados|28, teamledare, Klågerup
+C|62325|76|M|Ingvar Johansson|76 år, Pensionär, Tygelsjö
+C|62326|70|K|Anita Steén|70 år, fd Brevbärare, Dalaplan
+C|59478|70|M|Roger Sidestam|70 år, Leg. Läkare, Malmö
+C|38224|32|M|Roko Kursar|Statstjänsteman, 32 år
+C|38223|39|K|Louise Eklund|doktor i historia, Malmö
+C|27767|54|M|Allan Widman|riksdagsledamot, Malmö
+C|38225|46|K|Sara Wettergren|Politisk sekreterare, 46 år
+C|40465|40|M|Simon Chrisander|Marknadsförare, 40 år
+C|38744|70|K|Ewa Bertz|F.d. egen företagare, 70 år
+C|38227|41|M|Joel Laguna|Statstjänsteman, 41 år
+C|38228|25|K|Linda Eklund|Ämneslärarstudent, 25 år
+C|38230|53|K|Ulrika Rogland|Advokat, 53 år
+C|38233|37|M|Magnus Hulthe Andersson|Statsvetare, 37 år
+C|38226|65|K|Anneli Bojesson|Civilekonom, 65 år
+C|38232|77|K|Ulla Herbert|Lärare, 77 år,
+C|40473|50|M|Narcis Spahovic|Sektionschef, 50 år
+C|38231|69|M|Olle Schmidt|Tidigare EU-parlamentariker, 69 år
+C|38237|73|M|Tore Robertsson|Företagare, 73 år
+C|38235|24|K|Amanda Onsberg Brumark|Statsvetare, marknadsassistent, 24 år
+C|38234|55|M|Lars Hellström|Affärschef, 55 år
+C|38752|48|M|Jacob Branting|Samordnare, 48 år
+C|38244|65|K|Monica Hildingson|Civilingenjör, 65 år
+C|38236|28|M|Alexander Werne|Ingenjör i kemiteknik, 28 år
+C|38229|33|M|Sirwan Dabagh|Trafikingenjör, 33 år
+C|40483|67|M|Håkan Linné|Pensionär, 67 år
+C|40484|82|M|Bo Lindström|Leg. Tandläkare, 82 år
+C|38241|67|M|Arne Bojesson|Civilekonom, 67 år
+C|38240|33|M|Aram Mahmoud|Tjänsteman, 33 år
+C|38763|64|M|Stefan Pettersson|Civilekonom, 64 år
+C|40488|38|K|Marie Jacobsson|Socionom, 38 år
+C|38762|75|K|Ann Christin Gaskell-Brown|Yrkeslärare Gymnasium, 75 år
+C|40490|31|M|Ahmed Keita|Handläggare på Arbetsförmedlingen,31 år
+C|38239|62|K|Marianne Friedman|Kurator, 62 år
+C|38243|54|K|Sofia Borg|Kanslist på Liberalerna, 54 år
+C|38246|64|K|Gun Rosenlund Chrintz-Gath|Specialpedagog, 64 år
+C|40494|33|M|Max Hartler|Regionsäljare, 33 år
+C|124844|40|M|Ilan Sadé|40, Chefsjurist, Malmö
+C|128540|34|M|Andreas Nurbo|34, Egenföretagare, Malmö
+C|187974|44|M|Jonas Olsson|44, civilekonom, Malmö
+C|32979|63|M|Torsten Nurbo|63, projektledare, Husie
+C|216033|35|M|Leo Sundberg|35, ingenjör, Södra Innerstaden
+C|216034|50|K|Ann-Cathrine Björk|50, egenföretagare, Västra Hamnen
+C|188054|50|K|Helene Manger|50, administrativ chef, Malmö
+C|216141|55|K|Elisabeth Wass|56, civilekonom, Centrum
+C|216142|38|K|Sara Nilsson|38, VD, Limhamn
+C|216143|66|M|Greger Morin|65, pensionär, Kirseberg
+C|109305|42|K|Märta Stenevi|kommunalråd, 42 år, Djupadal
+C|109306|37|M|Bassem Nasr|37, politisk sekreterare, Malmö
+C|17215|33|K|Johanna Öfverbeck|socionom, 33 år, Värnhem
+C|109135|30|M|Måns Berger|politisk sekreterare, 30 år, Möllevången
+C|109144|31|K|Stefana Hoti|barnrättsstrateg, 31 år, Sorgenfri
+C|109310|36|M|Janne Grönholm|freds- och konfliktvetare, 36 år, Limhamn
+C|109141|38|M|Mohamed Yassin|projektledare, 38 år, Värnhem
+C|109312|24|K|Ellen Kasimir|lärarstudent, 24 år, Västra hamnen
+C|109146|29|K|Karolin Johansson|hållbarhetssamordnare, 28 år, Kulladal
+C|109143|30|M|Mårten Espmarker|arkitekt, 29 år, Sorgenfri
+C|109134|32|K|Louise Arndt|arbetsförmedlare, 32 år, Dammfri
+C|109147|42|M|Kami Petersen|politisk sekreterare, 42 år, Rådmansvången
+C|109138|51|K|Asma Saleh|biomedicinsk analytiker, 51 år, Fosie
+C|20824|37|M|Jouni Borglund|socionom, 37 år, Värnhem
+C|109319|42|K|Marie Ridell|socionom, 42 år, Limhamn
+C|109137|41|M|Lutfi Zuta|it-tekniker, 41 år, Rosengård
+C|20829|25|K|Isabella Iman Al khafaji|förskollärare, 25 år, Möllevången
+C|109322|47|M|Lucas Carlsson|systemutvecklare, 47 år, Fågelbacken
+C|109148|51|K|Kristina Aurell|socionom, 51 år, Västra hamnen
+C|109139|24|M|Malte Roos|24, språkrör Gröna Studenter, Malmö
+C|109149|28|K|Emelie Edström|planarkitekt, 28 år, Östra Sorgenfri
+C|109326|46|M|Andreas Holmgren|hållbarhetschef, 46 år, Kirseberg
+C|109327|33|K|Annika Elwert|forskare, 33 år, Östervärn
+C|109328|38|M|Gustav Svanborg Edén|skateboardsamordnare, 38 år, Rådmansvången
+C|109329|61|K|Liselotte Sigurd|kommunikatör, 61 år, Limhamn
+C|109330|62|M|Carl-Erik Flodmark|barnläkare, 62 år, Ribersborg
+C|145920|31|M|Michael-Jay Andersson|förskollärare, 31 år, Limhamn
+C|58086|36|M|Torbjörn Tegnhammar|36 år, oppositionsråd
+C|58087|27|K|Noria Manouchi|27 år, ledsagare
+C|58088|67|M|Håkan Fäldt|67 år, konsult
+C|58089|49|M|John Roslund|49 år, MaNo 4-9 lärare
+C|58090|26|K|Helena Nanne|26 år, personalvetare
+C|58091|31|M|Tony Rahm|31 år, civilekonom
+C|58092|27|M|John Eklöf|27 år, studerande
+C|58093|44|K|Anja Sonesson|44 år, jur. kand.
+C|58094|51|M|Nicola Rabi|51 år, marknadsekonom
+C|58095|59|M|Peter Ollén|59 år, publisher
+C|58096|34|K|Josefin Anselmsson|34 år, fil. master
+C|58097|45|M|David Blomgren|45 år, småföretagare
+C|58098|34|K|Helena Grahn|34 år, hovmästare
+C|58099|25|K|Farishta Sulaiman|25 år, studerande, Malmö
+C|58100|19|K|Linda Obiedzinski|19 år, studerande
+C|58101|50|M|Niclas Röhr|49 år, creative director
+C|58102|42|M|Olof Lavesson|42 år, riksdagsledamot
+C|58103|37|M|Andreas Bruzelius|37 år, civilekonom
+C|58104|69|K|Lilian Gerleman|69 år, f.d. kammaråklagare
+C|58105|30|M|Darko Simic|30 år, ombudsman
+C|58106|74|K|Ingrid Gunnarson|74 år, konsult
+C|58107|70|M|Göran Wiberg|70 år, revisor
+C|58108|58|M|Mohammad Mohammad|58 år, civilingenjör
+C|58109|21|K|Sasha Steneram|21 år, studerande, Malmö
+C|58110|56|M|Mats Brogren|56 år, företagare
+C|58111|32|K|Linda Dahlberg Wirje|32 år, pol. kand.
+C|58112|67|K|Anna Adell|67 år, leg tandläkare
+C|58113|48|K|Julija Radeson Lindeberg|48 år, biträdande rektor
+C|58114|62|K|Danica Srnic|62 år, lärare
+C|58115|60|M|Peter Langerbeck|60 år, ekonom
+C|58116|60|M|Peter J Olsson|60 år, redaktör
+C|58117|43|M|Henrik Jönsson|43 år, entreprenör
+C|58118|47|M|Petter Naef|47 år, fil. mag. informationslogistik
+C|58119|63|M|Roger Parmstrand|63 år, egen företagare
+C|58120|18|M|Oskar Månsson|18 år, studerande, Limhamn
+C|58121|71|M|Ulf Staafgård|70 år, fil. kand.
+C|58122|35|M|Carl Hammarström|35 år, företagare
+C|58123|19|M|Oscar Hill|19 år, studerande
+C|58124|70|K|Kerstin Svenonius|70 år, skattehandläggare
+C|58125|66|M|Peter Österlin|66 år, marknadsekonom
+C|58126|31|K|Katarina Kasmarvik|31 år, lärare
+C|58127|56|M|Robert Lenir|56 år, rekryterare
+C|58128|33|K|Tina Hill|33 år, projektledare
+C|58129|67|M|Bertil Lindberg|67 år, pensionär
+C|58130|49|M|Richard Nicander|49 år, civ. ek.
+C|58131|73|K|Ragnhild Ståleker|73 år, diplomerad projektledare
+C|58132|53|K|Cecilia Barwén|53 år, servicekoordinator
+C|58133|71|K|Viveka Hägg|71 år, ekonom
+C|58134|46|K|Pernilla Röjner|46 år, verksamhetschef
+C|58135|68|M|Haqvin Svensson|68 år, civilekonom
+C|58136|43|M|Ahmad Jaro|43 år, fritidspedagog
+C|58137|54|K|Åsa Nilsson|54 år, redovisningskonsult
+C|58138|46|M|Erik Herslow Bergman|46 år, ek. mag.
+C|58139|53|M|Claes Holmerup|53 år, serviceingenjör
+C|58140|74|K|Gull-Maj Banke|74 år, jur. kand.
+C|58141|43|M|Dejan Ecimovic|43 år, handläggare
+C|58142|29|K|Anastasia Permiakova|29 år, trafikutvecklare
+C|58143|56|M|Lars-Göran Jönsson|56 år, IT-konsult
+C|449491|28|M|Christoffer Eldengrip|28, Malmö
+C|449492|19|K|Michaela Ljungstrand|19, Malmö
+C|449493|35|M|Ronny Nord|36, Trafiktjänsteman, Malmö
+C|449494|23|K|Alicia Deodorson|24
+C|449495|26|M|Jerry Hjort|26
+C|428414|75|K|Maude Holmgren|Samtalsterapeut
+C|428415|80|M|Lennart Hoff|Datakonsult
+C|428409|76|K|Britt Borronha|Undersköterska
+C|428410|87|M|Horst Werder|Sjökapten
+C|428420|77|K|Britt Jönsson|Pensionär
+C|428417|63|K|Wanda Vesterberg|Affärsbiträde
+C|428419|73|K|Inger Johansson|Kontorist
+C|428413|35|M|Andreas Karlsson|Byggföretagare
+C|428422|68|K|Lisbeth Persson|Ekonomiassistent
+C|428418|86|M|José Borronha|Montör
+C|428421|82|M|Sven Nilsson|Förvaltare
+C|428425|78|M|Berthil Larsson|Försäljare
+C|428424|76|K|Marianne Månsson|Pensionär
+C|428427|82|K|Inga-Lill Kristoffersson|Kontorist
+C|428429|88|K|Rut Mårtensson|Pensionär
+C|428605|81|M|Sven Olsson|IT-företagare
+C|428431|71|K|Jane Brandin-Nielsen|Pensionär
+C|428428|81|K|Gunvor Walter|Undersköterska
+C|428432|71|M|Åke Johannesson|Representant
+C|66796|42|M|Magnus Olsson|Kommunalråd, 42 år
+C|66797|56|M|Jörgen Grubb|Projektledare, Malmö
+C|66798|66|K|Lisbeth Persson-Ekström|Systemförvaltare, Malmö
+C|66799|50|M|Anders Olin|Riksombudsman, 50
+C|66800|61|K|Eva Hallén|Undersköterska, 62
+C|66801|65|M|Rickard Åhman-Persson|Jur.kand, Malmö
+C|66802|36|M|Nima Gholam Ali Pour|Lärare, Malmö
+C|66803|48|M|Stefan Plath|Systemadministratör, Malmö
+C|66804|46|M|Lars-Johan Hallgren|Säljare, Malmö
+C|66805|57|M|Anders Pripp|Byggnadsarbetare, 57
+C|66806|71|M|Ilvars Hansson|Elektroingenjör/Egenföretagare, Malmö
+C|66807|31|K|Anna Isaksson|Tågvärd, 31
+C|66808|41|M|Michael Hård af Segerstad|Reparatör, 41 år
+C|66809|69|M|Stefan Claesson|Pensionär, 69 år
+C|66810|52|M|Håkan Ask|Brandman, 52
+C|66811|42|M|Patrick Angelin|Service agent, 42 år
+C|66812|73|K|Nadja Strand|Pensionär, 72
+C|66813|62|M|Christer Bengtsson|Socionom, 62 år
+C|66814|34|M|Alexander Lagerroth|Studerande, 34 år
+C|66815|48|K|Jane Olin|Stödassistent, 48
+C|66816|71|M|Christer Persson|Servicetekniker, 71
+C|66817|58|M|Stefan Greschner|Brandman, 58 år
+C|66818|47|M|Håkan Andersson|Maskiningenjör, 47 år
+C|66819|57|K|Britt-Marie Nilsson|Verksamhetsledare, 57 år
+C|66820|70|M|Rolf Hansson|Byggnadsingenjör, 70
+C|66821|40|M|Ola Johansson|Väktare, 40 år
+C|66822|70|M|Peter Edlund|Polisintendent, 70
+C|66823|59|M|Michael Pleym|Åklagare, 59 år
+C|66824|38|M|Ulf Blomström|Fabriksarbetare, 38 år
+C|66825|67|M|Staffan Appelros|Direktör, 67 år
+C|66827|78|M|Kurre Halvardsson|Ingenjör, 78
+C|66828|52|K|Åsa Ahnfeldt|Projektadministratör, 52 år
+C|66829|62|M|Christer Arkemyr|Pensionär, 62 år
+C|66830|54|K|Mette Lisberg|Verksamhetsassistent, 54 år
+C|66831|18|K|Hanna Grubb|Studerande, 18 år
+C|66832|74|M|Ortwin Lobbes|Tekniker, 74 år
+C|66833|58|M|Robert Nilsson|Flygtrafikplanerare, 58
+C|66834|59|K|Regina Harwigsson|Kock, 59
+C|66835|60|M|Bo-Eric Andersson|Bussförare, 61
+C|66836|61|M|Peter Jangbro|Undersköterska, 61 år
+C|66837|26|M|Nichodemus Nilsson|Förrådsarbetare, 26 år
+C|66838|43|M|Stefan Kramer|Sjukpensionär, 43 år
+C|66839|68|M|Bengt Metz|Elektronikingenjör, 68 år
+C|66840|28|M|George Florea|Teoretisk fysiker, 28
+C|66841|56|K|Marie Löfgren|Redovisningskonsult, 56
+C|66842|58|M|Lillebror Bruér|Tatuerare, 58
+C|66843|26|M|Gustav Kjellström|Pilot, 26
+C|66844|67|M|Jan Danielsson|Ekonom, 66
+C|66845|57|K|Jeanette Karlsson|Lagerarbetare, 57
+C|66846|60|M|Michell Milovansson|Parkeringsvakt, 60
+C|66847|39|M|Mikael Blomqvist|Egenföretagare, 39
+C|66848|81|M|Sven Sandram|Pensionär, 81
+C|494056|41|M|Victor Diaz de Filippi|rivningsarbetare, Malmö
+C|494046|73|M|Jan Jönsson|byggnadsarbetare, Malmö
+C|494058|71|M|Mohammad Nourozi|lagerarbetare
+C|494049|76|K|Lilliana De Filippi|lokalvårdare, Malmö
+C|494060|31|M|Charlie Paulsson|översättare
+C|494055|48|M|Ljubomir T. Devic|lärare, Malmö
+C|494062|62|K|Elisabeth Maturana|lokalvårdare
+C|494063|55|M|Ioannis Papadopoulos|plattsättare
+C|494053|72|M|Manoochecr Kiani|cykelreparatör, Malmö
+C|494065|39|M|Nahuel Treuquepán Pozo|elevassistent
+C|494066|34|M|Håkan Jönsson|byggnadsarbetare, Malmö
+C|494051|48|K|Omel Hussain Sahil|personligassistent, Malmö
+C|494068|40|M|Gürsel Karlidag|renhållningsarbetare
+C|494069|33|M|Peter Sjöholm|industriarbetare
+C|494070|74|M|Ivan Fouladvand|försäljare
+C|494204|58|M|Pawel Grunneholm|gymnasiumingenjör
+C|494205|55|M|Krzysztof Mazur|lagerarbetare
+C|431298|71|K|Sigbritt Sjöstrand|Civilutredare, Malmö
+C|431287|72|M|Jan O. Pålsson|Ingenjör, Malmö
+C|431303|78|M|Bertil Gyllencreutz|Ekonom, Malmö
+C|431315|78|K|Nancy Thern|Modedirektris, Malmö
+C|431319|74|M|Lennart Nilsson|Civilekonom, Malmö
+C|431314|79|M|Sonny Jenfjord|Konsult, Malmö
+C|431987|74|K|Kicki Lindgren|Dekoratör, Malmö
+C|431988|79|K|Siv Wiktorsson|Köpman, Malmö
+C|431312|68|K|Else Angeldorff|Sjuksköterska, Malmö
+C|431564|75|K|Margareta Ekstrand|Folkskollärare, Malmö
+C|512174|49|M|Tarik Bozbey|
+C|512175|30|M|Michael Belay Hagos|
+C|512176|57|M|Roddy Karlsson|
+C|186242|42|K|Hanna Thomé|kommunalråd, 41 år
+C|186243|33|K|Emma-Lina Johansson|kock, 33 år
+C|186244|56|M|Anders Skans|förskollärare, 56 år
+C|186245|42|M|Daniel Sestrajcic|aktivist, 43 år
+C|186246|37|K|Sadiye Altundal|utvecklingssamordnare, 37 år
+C|186247|70|K|Gunilla Ryd|pensionär, 70 år
+C|186248|57|M|Anders Andersson|undersköterska, 57 år
+C|186249|45|K|Boel Pettersson|lärare, 45 år
+C|186250|35|K|Carin Gustafsson|logoped, 35 år
+C|186251|29|M|Showan Shattak|verksamhetsutvecklare ABF, 29 år
+C|186252|35|K|Lisa Stolpe|lärare, 35 år
+C|186253|26|M|Joel Nordström|student, 26 år
+C|186254|28|K|Elisavet Johansson Tziampazis|projektledare, 28 år
+C|186255|38|M|Tobias Petersson|handläggare-internationellt bistånd, 38 år
+C|186256|67|M|Carlos González|lärare, 67 år
+C|186257|45|K|Susanne Adielsson|stödassistent LSS, 72 år
+C|186258|55|K|Ulrika Williamsson|fabriksarbetare, 55 år
+C|186259|73|K|Susanne Björkenheim|pensionär, 73 år
+C|186260|39|K|Busi Dimitriu|politisk sekreterare, 39 år
+C|186261|31|K|Mirjam Katzin|jurist, 31 år
+C|186262|57|K|Fiona Winders|utvecklingssamordnare, 57 år
+C|186263|36|K|Jeanette Stojic|svetsare/montör, 36 år
+C|186264|73|M|Anton Flink|pensionär, 73 år
+C|186265|70|M|Stephen Krauss|pensionär, 70 år.
+C|128121|43|K|Linda Sjöö|församlingspedagog, 43 år
+C|186267|73|K|Birgitta Ehlin|pensionär, 73 år
+C|186268|31|K|Gunnel Suneson|skolkurator, 31 år
+C|186269|54|M|Patrik Strand|undersköterska, 54 år
+C|186270|64|K|Bente Holmen|butiksbiträde, 64 år
+C|186271|60|M|Mikael Andersson|projektutvecklare, 43 år
+C|186272|43|K|Anna Angantyr|folkhögskolelärare, 43 år
+C|186273|39|M|Jerry Segerberg|skådespelare, 39 år
+C|186274|55|M|Mansour Kafi|tolk, 55 år
+C|186275|65|M|Mats Billberg Johansson|projektledare, 65 år
+C|186276|42|K|Matilda Gradin|naturguide, 42 år
+C|186277|42|K|Lorena Mariel Törnlycke|sjuksköterska, 42 år
+C|186278|60|K|Maria Kållberg|journalist, 60 år
+C|186279|24|K|Hedvig Lärka|student, 24 år
+C|186280|35|K|Sara Nilsson Mohammadi|psykolog, 35 år
+C|186281|55|M|Anders Neergaard|universitetslärare, 55 år
+C|186282|38|K|Ana Süssner Rubin|arbetsrättsjurist, 38 år
+C|186283|40|M|Ola Brunnström|lokförare, 40 år
+C|186284|26|M|Oliver Sneath|elektriker, 26 år
+C|186285|39|K|Alexandra Thomasson|folkhälsovetare, 39 år
+C|186286|27|K|Linn Fristedt|vårdbiträde, 27 år
+C|186287|30|K|Maria Persdotter|doktorand, 30 år
+C|186288|42|M|Momodou Malcolm Jallow|riksdagsledamot, 42 år
+C|186289|37|K|Lina Myritz|läkare, 37 år
+C|186290|41|M|Carl Aragón|ombudsman, 41 år
+C|186291|82|M|Lars-Göran Ahlström|pensionär, 82 år
+C|186292|43|K|Linda Svensson|ombudsman transport, 43 år
+C|186293|67|M|Mats Högelius|präst, 67 år
+C|186294|34|M|Ingemar Ekblad|lärare, 34 år
+C|186295|44|M|Pål Brunnström|historiker, 44 år

@@ -1,10 +1,228 @@
-2|55064|55065|55066|55067|55068|55069|55070|55071|55072|55073|55074|55075|55076|55077|55078|55079|55080|55081|55082|55083|55084|55085|55086|55087|55088|55089|55090|55091|55092|55093|55094|55095|55096|55097|55098|55099|55100|55101|55102|55103|55104|55105|55106|55107|55108|55109|55110|55111|55112|55113|55114|55115|55116|55117|55118|55119
-4|57873|205417|205418|205419|205420|205421|205422|205423|205424|205425|205426|205427|205428|205429|205430
-68|193667|193668|193669|193671|193672|193673|193674|193675|193676|193677|193678|193679|193680|193681|193682|193683
-3|17231|17232|17233|17234|17235|17236|17237|17238|17239|17240|17241|208387
-1383|470554|470555|470556|470557|470558|470559|470560
-55|122950|206544|122966|206546|206547|206548|206549|206550|206551|206552
-1|24110|24111|24112|24113|24114|24115|24116|24117|24118|24119|24120|24121|24122|24123|24124|24125|24126|24128|24129|24130|24131|24132|24133|24134|24135|24136|24137|24138|24139|24140|24141|24142|24143|24144|24145|24146|24147|24148|24149|24150|24151|24152|24153|24154|24155|24156|24157|24158|24159|24160|24161|24162|24163|24164
-107|393497|393498|393499|393500|393501|393502|393503|393504
-110|75532|75533|75534|75535|75536|75537|75538|75539|75540|75541|75542|75543|75544|75545|75546
-5|115488|49068|49070|49065|115492|49066|115494|49064|115497|115498|115499|115500|115501|115502|115503
+T|Karlskoga
+A|2|55064|55065|55066|55067|55068|55069|55070|55071|55072|55073|55074|55075|55076|55077|55078|55079|55080|55081|55082|55083|55084|55085|55086|55087|55088|55089|55090|55091|55092|55093|55094|55095|55096|55097|55098|55099|55100|55101|55102|55103|55104|55105|55106|55107|55108|55109|55110|55111|55112|55113|55114|55115|55116|55117|55118|55119
+A|4|57873|205417|205418|205419|205420|205421|205422|205423|205424|205425|205426|205427|205428|205429|205430
+A|68|193667|193668|193669|193671|193672|193673|193674|193675|193676|193677|193678|193679|193680|193681|193682|193683
+A|3|17231|17232|17233|17234|17235|17236|17237|17238|17239|17240|17241|208387
+A|1383|470554|470555|470556|470557|470558|470559|470560
+A|55|122950|206544|122966|206546|206547|206548|206549|206550|206551|206552
+A|1|24110|24111|24112|24113|24114|24115|24116|24117|24118|24119|24120|24121|24122|24123|24124|24125|24126|24128|24129|24131|24132|24133|24134|24135|24136|24137|24138|24139|24140|24141|24142|24143|24144|24145|24146|24147|24148|24149|24150|24151|24152|24153|24154|24155|24156|24157|24158|24159|24160|24161|24162|24163|24164
+A|107|393497|393498|393499|393500|393501|393502|393503|393504
+A|110|75532|75533|75534|75535|75536|75537|75538|75539|75540|75541|75542|75543|75544|75545|75546
+A|5|115488|49068|49070|49065|115492|49066|115494|49064|115497|115498|115499|115500|115501|115502|115503
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1383|Mdem|Miljödemokraterna
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|107|SPI|SPI Välfärden
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|55064|69|M|Anders Ohlsson|69år,Bregården
+C|55065|58|K|Liselotte Eriksson|58år,Rävåsen
+C|55066|62|M|Sven-Olov Axelsson|62år,Stackfallet
+C|55067|52|K|Yvonne Nilsson|52 år,Karlskoga
+C|55068|64|M|Matz Ericson|64år,Linnebäck
+C|55069|66|K|Christina Gustavsson|66år,Nedre Skranta
+C|55070|65|M|Göran Pettersson|65år,Bråten
+C|55071|69|K|Siv Björck Kjellgren|69år,Nedre Skranta
+C|55072|45|M|Urban Jonsson|45 år, Karlskoga
+C|55073|51|K|Maria Karlsson|51år,Stråningstorp
+C|55074|38|M|David Fridholm|38år,Övre Aggerud
+C|55075|39|K|Ida Edström|39 år, Karlskoga
+C|55076|58|M|Jan-Peter Bäckström|58år,Bråten
+C|55077|34|K|Liliana Benito Stenberg|33 år, Karlskoga
+C|55078|50|M|Mika Takamäki|50år,Karlberg
+C|55079|59|K|Ingrid Norrbäck|59år,Dalbackarna
+C|55080|69|M|Tomas Bergqvist|69 år, Karlskoga
+C|55081|58|K|Lena Hagström|58år,Karlberg
+C|55082|59|M|Ulf Rådesjö|59år,Stråningstorp
+C|55083|44|K|Maria Granlund|44år,Bråten
+C|55084|19|M|Erik Röjare|19 år,Karlskoga
+C|55085|58|K|Niina Slagner|58år,Karls-Åby
+C|55086|54|M|Tafiq Zaman|54år,Sandviken
+C|55087|68|K|Carola Sandberg|68 år, Karlskoga
+C|55088|57|M|Åke Andersson|57 år, Karlskoga
+C|55089|49|K|Anneli Andersson|57år,Bohult
+C|55090|72|M|Göran Ståhlberg|72år,Löten
+C|55091|25|K|Hafife Turgay|25år,Rävåsen
+C|55092|66|M|Jouni Slagner|66 år, Karlskoga
+C|55093|57|K|Lena Westberg|57 år, Karlskoga
+C|55094|68|M|Krister Kjellgren|68år,Nedre Skranta
+C|55095|72|K|Margaretha Ericson-Hägg|72år,Karlskoga
+C|55096|61|M|Mats Gren|61år,Ekeby
+C|55097|57|K|Annica Karlsson|57år,Övre Aggerud
+C|55098|55|M|Peter Andersson|55år,Bohult
+C|55099|32|K|Laura Sumanen|32år,Högåsen
+C|55100|61|M|Lennart Lind|61år,Övre Aggerud
+C|55101|19|K|Julia Dahlsberg|19 år, Karlskoga
+C|55102|69|M|Manfred Barenfeld|69år,Övre Aggerud
+C|55103|44|K|Jenny Bergström|44år,Rosendal
+C|55104|57|M|Bertil Forsebrink|57 år, Karlskoga
+C|55105|56|K|Lena Dahlsberg|56år,Bråten
+C|55106|51|M|Jari Viitakangas|51år,Bråten
+C|55107|64|K|Stina Lindbäck Olsson|64 år, Karlskoga
+C|55108|56|M|Håkan Talberg|56år,Backa
+C|55109|69|K|Lena Karlsson|69år,Valåsen
+C|55110|22|M|Filip Robertsson|22 år,Karlskoga
+C|55111|54|K|Filka Zaharieva Mitev|54år,Bregården
+C|55112|38|M|Ayaanleh Ismail|38år,Baggängen
+C|55113|45|K|Rania Abou Rabii|45år,Ekeby
+C|55114|75|K|Kerstin Andersson|75år,Labbsand
+C|55115|79|M|Rolf Lindberg|79år,Centrum
+C|55116|70|K|Ingegerd Bennysson|70år,Nedre Skranta
+C|55117|87|M|Sven Gadde|87år,Labbsand
+C|55118|72|K|Britt-Marie Karlsson|72år,Stråningstorp
+C|55119|49|K|Sofia Zaman|49år,Sandviken
+C|57873|48|K|Inga-Lill Andersson|48 år, innesäljare, Karlskoga
+C|205417|58|M|Thorbjörn Pettersson|58 år, entreprenör
+C|205418|35|M|Simon Jansson|35 år, speditör
+C|205419|46|M|Alf-Gunnar Enoch|46 år, chaufför
+C|205420|53|M|Tomas Alexandersson|53 år, officer
+C|205421|53|M|Per-Olof Södergren|53 år, lantbrukare
+C|205422|19|K|Alva Fernandez|19 år, undersköterska
+C|205423|31|M|David Petersen|31 år, servitör
+C|205424|73|K|Margareta Palonen|68 år, pensionär
+C|205425|44|M|Johan Karlsson|44 år, yrkeschaufför
+C|205426|19|K|Rebecka Undén|19 år, studerande
+C|205427|55|M|Hans Karlsson|55 år, entreprenör
+C|205428|39|K|Anna-Maria Alexandersson|39 år, resurspedagog
+C|205429|51|M|Berge Bekarian|51 år, lokalvårdare
+C|205430|78|K|Gerd Lagerqvist|78år, pensionär
+C|193667|26|K|Anna Blomquist|Studerande, Karlskoga
+C|193668|55|M|Thorbjörn Svensson|55, Distributör, Centrum
+C|193669|20|K|Katarina Herlitz|19, Studerande, Bohult
+C|193671|49|K|Ann-Catrin Örtquist|Administratör, Karlskoga
+C|193672|66|M|Sten Jonsson|65, Senior, Centrum
+C|193673|66|K|Maude Remmegård|Pensionär, Karlskoga
+C|193674|71|M|Tore Kjäll|71, Tjänsteman, Stackfallet
+C|193675|49|K|Zahra Shabani|49, Cirkelledare, Skranta
+C|193676|67|M|Bengt Eklund|67, Pensionär, Bregården
+C|193677|39|K|Linda Johansson|38, Civilingenjör, Carls Åby
+C|193678|65|K|Anneth Ståhl|65, Fru, Häsängen
+C|193679|56|M|Johan Idar|56, Företagare, Bregården
+C|193680|51|M|Torbjörn Bergvall|50, Vaktmästare, Karlberg
+C|193681|63|K|Ingrid Jonsson|63, Barnskötare, Centrum
+C|193682|84|M|Ola Seiver|84, Mäklare, Centrum
+C|193683|72|K|Kristina Borén|Pensionär, Karlskoga
+C|17231|60|K|Anneli Lyckeborn|60 år, administratör, Karlskoga
+C|17232|65|M|Lars Hultkrantz|65 år, professor, Karlskoga
+C|17233|56|K|Elaine E Lindblom|56 år, rektor, Karlskoga
+C|17234|85|M|Stig Ryhed|f.d. skolchef
+C|17235|74|K|Birgitta Malmberg|74 år, vårdlärare, Karlskoga
+C|17236|26|M|Simon Rahnasto|lead programmer
+C|17237|70|K|Solveig Forsberg|egenföretagare
+C|17238|41|M|Pontus Quick|41 år, personlig assistent, Karlskoga
+C|17239|78|K|Britta Angenete Gillberg|leg. psykolog
+C|17240|61|M|Claes-Göran Erlandsson|leg. fysioterapeut
+C|17241|68|M|Hans Malmberg|kemist
+C|208387|83|M|Lennart Eliasson|pensionär/f.d. yrkesvalslärare
+C|470554|54|M|Stefan Herlitz|Egenföretagare, 54 år
+C|470555|38|M|Mikael Hedström|Egenföretagare, 38 år
+C|470556|62|M|Sven-Åke Hedström|Pensionär, 62 år
+C|470557|73|M|Nils-Åke Eriksson|Pensionär, 73 år
+C|470558|36|K|Sofia Hedström|Civilingenjör, 36 år
+C|470559|47|K|Wanna Eriksson|Städare, 48 år
+C|470560|58|K|Birgitta Hedström|Pensionär, 58 år
+C|122950|39|M|Daniel Ekelund|39 år, oppositionsråd, Karlskoga
+C|206544|45|M|Staffan Dällerud|45 år, folkhögskolelärare, Karlberg
+C|122966|38|K|Bodil Lennartsdotter Eriksson|38 år, miljövetare, Karlskoga
+C|206546|53|K|Melissa Molnstrand|53 år, lärare, Sandviken
+C|206547|47|K|Ann Myhrman Lager|47 år, lärare, Flottnäset
+C|206548|69|K|Marketta Loiske|69 år, pensionär, Rävåsen
+C|206549|58|M|Jens Dahlbäck|58 år, parkarbetare, Ekeby
+C|206550|65|M|Göran Edel|65 år, feminist, Aggerud
+C|206551|40|M|Rico Melchert|39 år, lokförarstudent, Skranta
+C|206552|76|M|Bengt-Åke Johansson|76 år, pensionerad arkitekt, Skogsrundan
+C|24110|54|M|Tony Ring|54 år, kommunalråd i opposition, Bregården
+C|24111|61|K|Pia Renman|61 år, fil.lic., doktorand, Sandmo
+C|24112|48|K|Anneli Bramvehl|administratör, Bråten
+C|24113|52|M|Peter Wiklund|52 år, grafiker, Ekeby
+C|24114|62|K|Anna Danielsson|administratör, Karlskoga
+C|24115|64|K|Annica Wetterling|civilingenjör, Bofors
+C|24116|34|M|Martin Hårsmar|teologstudent, Karlberg
+C|24117|42|K|Linda Brunzell|vd, Aggerud
+C|24118|53|K|Anna Ragén|entreprenör, Karlskoga
+C|24119|37|M|Henric Leijder|37 år, Key Account Manager, Bohult
+C|24120|26|M|Ronnie Erhard|studerande, Skranta
+C|24121|72|M|Alf Rosberg|fd avdelningsdirektör, Granbergsdal
+C|24122|53|M|Jan Reuter|53 år, försäljningschef, Stråningstorp
+C|24123|46|K|Linda Eriksson|46 år, administratör, Bregården
+C|24124|55|K|Eva-Lena Lagerö|företagare, Karlskoga
+C|24125|18|M|David Öhrn|studerande, Skranta
+C|24126|71|K|Agneta Wästbjörk|fd lärare, Skranta
+C|24128|61|M|Nedim Karic|narkosläkare, Karlskoga
+C|24129|44|M|Jan Andersson|44 år, verkstadschef & musiker, Skranta
+C|24131|81|K|Ulla Averås|81 år, f.d. förvaltningschef, Bråten
+C|24132|82|K|Kerstin Gustavsson|82 år, brobyggare, Bohult
+C|24133|79|K|Barbro Davidson|79 år, f.d. distriktssköterska, Karlberg
+C|24134|57|M|Ola Karlsson|oppositionsråd, Granbergsdal
+C|24135|65|K|Kerstin Ekström|65 år, fil.kand., f.d. biomedicinsk analytiker, Bregården
+C|24136|43|M|Yusuf Hassan|43 år, trädgårdsskötare, Landa
+C|24137|68|K|AnneMarie Karlsson|68 år, distriktssköterska, Stråningstorp
+C|24138|49|M|Woril Turner|49 år, Senior Process Engineer, Stråningstorp
+C|24139|55|K|Lene Idar|55 år, vd, företagare, Bregården
+C|24140|46|M|Mikael Karlsson|46 år, affärsutvecklare, Aggerud
+C|24141|32|M|Joachim Collsén|32 år, gruppledare, Bråten
+C|24142|54|M|Christer Sjödin|54 år, sjuksköterska, Österleden
+C|24143|25|K|Rebecka Söderpalm Löhr|25 år, studerande, Ekeby
+C|24144|57|M|Micael Olsson|57 år, tjänsteman, Sandmo
+C|24145|33|M|Asmerom Embaye Bahta|33 år, lärare, Sandviken
+C|24146|41|M|Mahamed Abdaw|41 år, barn & ungdomsledare, Landa
+C|24147|73|K|Margareta Rosberg|fd förhandlare, Granbergsdal
+C|24148|82|M|Jan-Erik Averås|civilingenjör, Bråten
+C|24149|54|M|Kenneth Åhman|54 år, verksamhetsutvecklare, Karls-Åby
+C|24150|65|M|Stefan Skog|65 år, företagare, Stråningstorp
+C|24151|52|M|Omar Khatib|52 år, byggnadsingenjör, Sandmo
+C|24152|61|K|Anette Israelsson|avdelningschef, Bohult
+C|24153|43|K|Lina Khatib|43 år, lärare, Sandmo
+C|24154|74|M|Anders Wistedt|74 år, f.d. företagare, Aggerud
+C|24155|31|M|Ali Ahmed|31 år, arbetsförmedlare, Skranta
+C|24156|73|K|Marie-Louise Nauclér|73 år, f.d. informationssekreterare, Skranta
+C|24157|45|K|Pernilla Stolt|45 år, personlig assistent, Karls-Åby
+C|24158|69|M|Lars Lund|69 år, seniorkonsult, egenföretagare, Bregården
+C|24159|73|M|Olof Beckman|73 år, f.d. organisationskonsult, Stråningstorp
+C|24160|69|M|Sören Karlsson|69 år, f.d. mekanikkonstruktör, Stråningstorp
+C|24161|67|K|Gunilla Sundquist|67 år, f.d. socialpedagog, Karlberg
+C|24162|80|K|Eyvor Lundblad|80 år, f.d. läkarsekreterare, Stråningstorp
+C|24163|79|K|Christel Nilsson|79 år, f.d. barnmorska, Karls-Åby
+C|24164|73|M|Jan Stureborg|73 år, civilekonom, f.d. egenföretagare, Karls-Åby
+C|393497|73|M|Roland Källström|
+C|393498|64|M|Sten Iwersén|
+C|393499|45|M|Tomas Andersson|
+C|393500|36|M|Martin Lindell|
+C|393501|50|K|Veronica Andersson|
+C|393502|75|K|Yvonne Wärn|
+C|393503|84|M|Tore Källström|
+C|393504|58|K|Birgitta Källström|
+C|75532|45|M|Patrik Nyström|Produktionstekniker, Karlskoga
+C|75533|55|M|Taisto Tikkanen|Verkstadsarbetare, Karlskoga
+C|75534|55|M|Tord Werf|55 år, Egen företagare, Karlskoga
+C|75535|45|M|Peter Bäckman|45 år, Företagare, Karlskoga
+C|75536|38|M|Richard Sandström|38 år, Undersköterska, Karlskoga
+C|75537|31|M|Simon Sandström|31 år, Butiksmedarbetare, Karlskoga
+C|75538|37|M|Marcus Andersson|37 år, Processoperatör, Karlskoga
+C|75539|33|M|Daniel Erikols|34 år, Personlig assistent, Karlskoga
+C|75540|35|M|Jimmy Hedström|35 år, Personlig assistent, Karlskoga
+C|75541|72|K|Marianne Werf|71 år, F.d. Förskolelärare, Karlskoga
+C|75542|51|M|Lars-Göran Svensson|51 år, Servicetekniker, Karlskoga
+C|75543|28|M|Carl Hallberg|28 år, Akademiker, Karlskoga
+C|75544|61|M|Peter Reinholdsson|61 år, El- och instrumentkonstruktör, Karlskoga
+C|75545|56|K|Christine Bivefors|56 år, Massageterapeut, Karlskoga
+C|75546|30|M|Timmie Nilsson|30 år, Studerande, Karlskoga
+C|115488|49|K|Maria Nyberg|Arbetsmarknadssekreterare, Karlskoga
+C|49068|71|K|Yvonne Möllberg|Pensionär, Karlskoga
+C|49070|43|M|Tobias Isaksson|Habiliteringspersonal, Karlskoga
+C|49065|67|K|Ireen von Wachenfeldt|Pensionär, Karlskoga
+C|115492|45|K|Anette Pettersson|Lärare, Karlskoga
+C|49066|40|M|Jon Fredriksson|Handläggare, Karlskoga
+C|115494|39|K|Angelica Gustavsson|Verksamhetschef, Karlskoga
+C|49064|47|M|Charlie Jarl|Gymnasielärare, Karlskoga
+C|115497|45|K|Anna Lilja|Undersköterska, Karlskoga
+C|115498|32|M|Nicklas Karlsson|Digital handledare, Karlskoga
+C|115499|51|K|Gunsan Lundqvist-Karlsson|Koordinator, Karlskoga
+C|115500|53|M|Håkan Stenholm|Socionom Enhetschef, Karlskoga
+C|115501|39|K|Maja Ridell|Studerande, Karlskoga
+C|115502|51|M|Janne Henriksson|Driftchef, Karlskoga
+C|115503|43|M|Magnus Fredberg|f.d. Tjänsteman, Karlskoga

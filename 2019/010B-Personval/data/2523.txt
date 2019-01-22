@@ -1,11 +1,167 @@
-2|5781|5782|5783|5784|5785|5786|5787|5788|5789|5790|5791|5792|5793|5794|5795|5796|5797|5798|5799|5800|5801|5802|5803|5804|5805|5806|5807|5808|5809|5810|5811|5812|5813|5814|5815|5816|5817|5818|5819|5820|5821|5822
-4|340864
-1168|515963
-3|210372
-509|437882|437883|437884|437885|437886|437887|437888|437889|437890|437891|437892|437893|437894|437895|437896|437897|437898|437899|437900
-55|274342|274434|274354|274448|274437|274538|274355|274540|274541|274542|378302
-1|205061|205062|43180|205064|43186|205066|205067|42998|205069|205070|205071|205072|205073|205074|205075|205076|205077|205078|205079|205081|205082|205083|205084|205085|205086|205087|205088|205089|205090|205091
-1378|512568
-193|4898|4928|4908|5093|5096|4938|4948|4957|5100|5101
-110|47902|47903|47904|47905|47906
-5|71025|80419|80420|80421|80505|80506|80507|80508|80927|80928|80929|80930|80931|80932|80981|80982|81092|81093|81094|81095|81153|81154|81155
+T|Gällivare
+A|2|5781|5782|5783|5784|5785|5786|5787|5788|5789|5790|5791|5792|5793|5794|5795|5796|5797|5798|5799|5800|5801|5802|5803|5804|5805|5806|5807|5808|5809|5810|5811|5812|5813|5814|5815|5816|5817|5818|5819|5820|5821|5822
+A|4|340864
+A|1168|515963
+A|3|210372
+A|509|437882|437883|437884|437885|437886|437887|437888|437889|437890|437891|437892|437893|437894|437895|437896|437897|437898|437899|437900
+A|55|274342|274434|274354|274448|274437|274538|274355|274540|274541|274542|378302
+A|1|205061|205062|43180|205064|43186|205066|205067|42998|205069|205070|205071|205072|205073|205074|205075|205076|205077|205078|205079|205081|205082|205083|205084|205085|205086|205087|205088|205089|205090|205091
+A|1378|512568
+A|193|4898|4928|4908|5093|5096|4938|4948|4957|5100|5101
+A|110|47902|47903|47904|47905|47906
+A|5|71025|80419|80420|80421|80505|80506|80507|80508|80927|80928|80929|80930|80931|80932|80981|80982|81092|81093|81094|81095|81153|81154|81155
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1168|KNEG|Knegarkampanjen
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|509|MV|Malmfältens Väl
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1378||Norrlandspartiet
+B|193|SJV|Sjukvårdspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|5781|57|K|Birgitta Larsson|57 år, Gällivare
+C|5782|42|M|Magnus Johansson|42 år, Malmberget
+C|5783|50|K|Maria Åhlén|50 år, Gällivare
+C|5784|67|M|Tomas Junkka|67 år, Gällivare
+C|5785|68|K|Lena Lindberg|68 år, Gällivare
+C|5786|65|M|Roland Axelsson|65 år, Palohuornas
+C|5787|50|K|Helena Lillbro|50 år, Malmberget
+C|5788|30|M|Johannes Sundelin|Gällivare, 30 år
+C|5789|49|K|Anna Burman|49 år, Hakkas
+C|5790|34|M|Claes Danell|34 år, Gällivare
+C|5791|28|K|Elin Näslund|28 år, Gällivare
+C|5792|60|M|Ulf Normark|60 år, Koskullskulle
+C|5793|67|K|Gerd Siverhall|67 år, Gällivare
+C|5794|28|M|Tony Normark|28 år, Gällivare
+C|5795|67|K|Gunnel Eriksson|67 år, Gällivare
+C|5796|60|M|Mats Rantapää|60 år, Gällivare
+C|5797|71|K|Clary Persson|71 år, Gällivare
+C|5798|69|M|Steve Ärlebrand|69 år, Malmberget
+C|5799|67|M|Rolf Häggkvist|67 år, Malmberget
+C|5800|71|K|Birgitta Heldeskog|71 år, Gällivare
+C|5801|66|M|Tommy Nyström|66 år, Gällivare
+C|5802|65|M|Frank Öqvist|65 år, Koskullskulle
+C|5803|72|K|Monica Hellström|73 år, Gällivare
+C|5804|27|M|Stefan Bergström|27 år, Gällivare
+C|5805|54|M|Roland Bergström|54 år, Gällivare
+C|5806|68|M|Roland Nirlén|68 år, Gällivare
+C|5807|80|M|Thage Johansson|80 år, Malmberget
+C|5808|64|K|Gunnel Johansson Jänkänpää|64 år, Malmberget
+C|5809|58|M|Anders Olofsson|58 år, Gällivare
+C|5810|32|M|Christoffer Larsson|32 år, Gällivare
+C|5811|32|M|Stefan Kostenniemi|32 år, Gällivare
+C|5812|68|M|Bernd Lass|68 år, Gällivare
+C|5813|63|M|Mikael Alldén|63 år, Gällivare
+C|5814|72|K|Monika Eriksson|72 år, Gällivare
+C|5815|26|M|Oskar Enback Junkka|26 år, Nilivaara
+C|5816|77|K|Margareta Pohjanen|77 år, Gällivare
+C|5817|82|K|Laila Furskog|82 år, Gällivare
+C|5818|78|M|Lars-Erik Johansson|79 år, Gällivare
+C|5819|69|K|Vivi Eriksson|69 år, Gällivare
+C|5820|62|M|Tommy Karlsson|62 år, Hakkas
+C|5821|72|M|Jan-Erik Apelqvist|72 år, Gällivare
+C|5822|61|K|Brittmari Sandvärn|61 år, Muorjevaara
+C|340864|64|K|Berit Vennström|Gällivare
+C|515963|37|M|Markus Larsson|
+C|210372|19|M|Mattias Åkemalm|Student, Gällivare
+C|437882|42|M|Fredric Olofsson|Ungdomskonsulent
+C|437883|50|K|Anneli Isaksson|Administratör
+C|437884|80|M|Bror Wennström|Pensionär
+C|437885|78|K|Gun Isaxon|fd Läkarsekreterare
+C|437886|63|M|Kurt Björnfot|Byggnadsarbetare
+C|437887|44|K|Agneta Edin|Förskollärare
+C|437888|54|M|Lars-Eric Sandvärn|Företagare
+C|437889|24|K|Therese Skoglund|Vårdbiträde
+C|437890|60|M|Dick Lannerblad|Boendestödjare
+C|437891|61|K|Lena Falegren Wennström|Skoladministratör
+C|437892|42|K|Anneli Vänbjörk|Säljare
+C|437893|55|K|Angelica Karlsson|Barnskötare
+C|437894|68|K|Yvonne Falegren|fd Sjuksköterska
+C|437895|34|M|Christoffer Mukka|Svetsare
+C|437896|67|M|Dan Vintén|Pensionär
+C|437897|73|M|Ove Nilsson|Pensionär
+C|437898|46|K|Monica Jussi|Administratör
+C|437899|53|K|Monica Olofsson-Ranta|Truckförare
+C|437900|68|K|Rosmari Carlsson|fd Lärarassistent
+C|274342|40|M|Henrik Ölvebo|Projektledare, Gällivare
+C|274434|28|K|Sanna Nilsson Ylitalo|projektledare, Gällivare
+C|274354|41|M|Mattias Liinanki|Ingenjör, Gällivare
+C|274448|54|K|Dagmar Nyman|undersköterska, Gällivare
+C|274437|38|M|Stefan Ovrell|egen företagare, Pajala
+C|274538|38|K|Josefine Rynbäck|38 år, Socionom
+C|274355|38|M|Andreas Pettersson|Civilingenjör, Gällivare
+C|274540|32|K|Jenny Johansson Jänkänpää|32 år, Arbetsterapeut
+C|274541|36|K|Hanna Falksund|36 år, Civilingenjör
+C|274542|36|K|Sara Ölvebo|36 år, Processoperatör
+C|378302|33|M|Erhan Karaberg|33 år
+C|205061|62|M|Lars Alriksson|Kommunalråd
+C|205062|61|K|Eva Alriksson|Lärare
+C|43180|72|K|Monika Hedström|72 år, Företagare, Gällivare
+C|205064|67|M|Kjell Hansson|Företagare
+C|43186|58|K|Marina Eriksson|58 år, Vårdlärare, Gällivare
+C|205066|59|M|Benny Blom|Insatsledare
+C|205067|62|M|Per Wahlström|Polis
+C|42998|31|K|Anna Alriksson|31 år, Jurist, 1:a ers. riksdagen, Gällivare
+C|205069|67|M|Per Åke Liljergren|Företagare
+C|205070|67|M|Kjell-Åke Andersson|F.d Polis
+C|205071|29|M|Jon Sandin|Arbetsledare
+C|205072|69|M|Krister Nordmark|F.d Kamrer
+C|205073|63|M|Dick Sundström|Projektledare
+C|205074|32|K|Ann Wahlström|Arbetsledare
+C|205075|57|K|Susanne Forsberg|Leg. Optiker
+C|205076|63|M|Johan Barkman|Företagare
+C|205077|22|K|Josefine Blom|Ordförande MUF
+C|205078|47|M|Fredrik Nilsson|Lärare
+C|205079|48|K|Anna Maria Wahlström|Polis
+C|205081|44|K|Anna Klasson|Lärare
+C|205082|56|M|Jaime Romo|Chaufför
+C|205083|41|M|Kent Nedergård|Ambulanssjuksköterska
+C|205084|77|M|Rune Hedberg|Pensionär/Elingenjör
+C|205085|58|K|Anette Lindström|Sjuksköterska
+C|205086|30|M|Jan Hollström|Egen företagare
+C|205087|62|M|Jens-Olof Andersson|Företagare
+C|205088|56|K|Imelda Iran|Personlig assistent
+C|205089|77|K|Desirée Arvidsson Simonsson|Pensionär
+C|205090|34|M|Mikael Lundberg|Tjänsteman
+C|205091|67|M|Bo Olsson|Elinstallatör
+C|512568|61|M|Sune Norlin|
+C|4898|77|K|Margareta Henricsson|F.d. Kommunsekreterare, Malmberget
+C|4928|54|M|Nicklas Johansson|Lärare, Gällivare
+C|4908|68|M|Stig Nordqvist|Läkare, Gällivare
+C|5093|63|M|Torbjörn Sandin|F.d. Gruvarbetare, Gällivare
+C|5096|38|K|Anna Henriksson|Hälsorådgivare, Gällivare
+C|4938|72|M|Tommy Krigsman|F.d. Gruvarbetare, Palohuornas
+C|4948|77|M|Göte Eriksson|Ekonom, Gällivare
+C|4957|77|K|Clary Eriksson|F.d. Lärare, Gällivare
+C|5100|82|M|Gerhard Larsson|Pensionär, Gällivare
+C|5101|81|M|Bror Henricsson|F.d. Konsult, Malmberget
+C|47902|47|M|Eric Palmqvist|Yrkesförare, Gällivare
+C|47903|38|K|Paula Palmqvist|Sjuksköterska, 38, Gällivare
+C|47904|47|K|Mia Feldenius|47, Undersköterska
+C|47905|47|M|Carl Lundblad|47, Yrkesförare
+C|47906|60|M|Rory Blom|60, Egenföretagare
+C|71025|61|K|Jeanette Wäppling|60 år, pedagogisk handledare, Gällivare
+C|80419|61|M|Karl-Erik Taivalsaari|61 år, socialarbetare, Gällivare
+C|80420|36|K|Pernilla Fagerlönn|36 år, sångpedagog, Gällivare
+C|80421|34|M|David Väyrynen|34 år, diversearbetare, Gällivare
+C|80505|61|K|Katinka Sundqvist Apelqvist|61 år, grundskolelärare, Gällivare
+C|80506|62|M|Jan-Anders Perdahl|62 år, geolog, Malmberget
+C|80507|63|K|Iris Dimitri|63 år, lärare, Koskullskulle
+C|80508|39|M|Johannes Reinfors|39 år, truckförare, Malmberget
+C|80927|34|K|Isabelle Öderyd|33 år, enhetschef, Koskullskulle
+C|80928|79|M|Ove Haarala|79 år, pensionär, Koskullskulle
+C|80929|37|K|Margareta Höyås|37 år, kundansvarig, Alavaara
+C|80930|64|K|Elsa Häggqvist|64 år, lärare, Malmberget
+C|80931|69|M|Stig Eriksson|69 år, pensionär, Malmberget
+C|80932|56|K|Lis-Mari Hjortfors|55 år, etnolog/forskare, Koskullskulle
+C|80981|57|M|Ramiz Husakovic|57 år, försäljare, Gällivare
+C|80982|58|K|Britt-Marie Snell Perdahl|58 år, kostadministratör, Malmberget
+C|81092|62|M|Kurt Taivalsaari|62 år, gruvarbetare, Malmberget
+C|81093|61|K|Terttu Kult|61 år, inköpare, Gällivare
+C|81094|56|M|Tomas Nordmark|Gällivare
+C|81095|54|K|Kristina Forsberg|54 år, inköpare, Gällivare
+C|81153|75|M|Henrik Lehtipalo|75 år, pensionär, Markitta
+C|81154|67|K|Ann-Christin Lehtipalo|66 år, pensionär, Markitta
+C|81155|64|K|Ulla Vintén|64 år, administratör, Malmberget

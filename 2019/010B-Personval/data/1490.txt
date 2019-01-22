@@ -1,14 +1,408 @@
-2|87880|171125|171126|171127|91664|171129|171130|171131|171132|171133|171134|171135|171136|171137|171138|171139|171140|91661|171142|171143|171146|171145|87892|91659|171150|171149|171152|171151|171154|171153|171156|171155|171158|91653|171160|171159|171161|171162|171163|171164|171165|171166|91662|171168|171169|87873|171171|171172|171173|171174|171175|171176|171177|171178|171179|171180|171181|171182|171183|171184|171185|171186|171187|171188|171189|171190|171191|171192|171193|171194|171195|171196|171197|171198|171199|171200|171201|171202|171203|171204|171205|171206|171207|171208|171209|171210|171211|171212|171213|171214|171215|87888|171217|171218|171219|171220|171221|91680|171223|171224|171225|171226|171227|91672|171229|171230|171231|171232|171233|171234|171235|91682|171239|171240|171241|171242|171243|171244|171245|171246|171247|171248|87869
-4|2943|2971|3099|13802|3104|13804|13805|13806|3128|2967|13809|13810|13811|13812|13813|13814|13815|13816|2955|13818|13819|13820|13822|13823|13824|13825|2970|13827|13828|13829
-532|497461|515536|515699
-471|228066|228067|228068|228069|228070|228071
-68|274920|274723|280254|274925|274937|280257|274716|274734|280260|280261|280262|280263|280264|274934|274729|280267|280268|280269|280270|280271|280272|280273|280274
-1140|507638
-1011|515850|515851
-3|112685|112686|112687|112688|112689|112690|112691|112692|112693|112694|112695|112696|112697|112698|112699|112700|112701|112702|112703|112704|112705|112706|112707|112708|112709
-1296|257616|258805|257614|513711
-55|74080|74081|74082|232593|66241|74068|232596|232597|232598|232599|74075|74867|74069|74077|232604|232605|232606|232607|74067|232609|232610|232611|232612|232613|232614|232615|232616|232617|232618|232619|232620
-1|253899|253902|254302|256269|253890|253886|253895|254299|253884|256275|254284|256277|253906|256279|256280|256281|256282|256283|256284|256285|254287|254314|254289|256289|256290|256291|256292|256293|253907|256295|256296|256297|256298|256299|256300|256301|256302|256303|256304|256305|256306|256307|256308|256309|256310|256311|256312|254312|256314|256315|256316|256317|256318|256319|256320|256321|256322|256323
-524|395218
-110|49338|49339|49340|49341|49342|49343|49344|49345|49346|49347|49348|49349|49350|49355|49351|49352|49377|49354|49374|49386|49379|49375|49378|49380|49381|49382|49383|49384|49385|49353|85425|49387|49388|49422|49423|49424|49425|49426|49427|49428|49429
-5|5448|76034|16800|7761|76037|24732|76039|16798|76041|24730|76043|76044|76045|76046|76047|16797|76049|76050|5449|76052|24725|76054|76055|76056|76057|76058|76059|24729|76061|76062|24735|76064|76065|76066|76067
+T|Borås
+A|2|87880|171125|171126|171127|91664|171129|171130|171131|171132|171133|171134|171135|171136|171137|171138|171139|171140|91661|171142|171143|171146|171145|87892|91659|171150|171149|171152|171151|171154|171153|171156|171155|171158|91653|171160|171159|171161|171162|171163|171164|171165|171166|91662|171168|171169|87873|171171|171172|171173|171174|171175|171176|171177|171178|171179|171180|171181|171182|171183|171184|171185|171186|171187|171188|171189|171190|171191|171192|171193|171194|171195|171196|171197|171198|171199|171200|171201|171202|171203|171204|171205|171206|171207|171208|171209|171210|171211|171212|171213|171214|171215|87888|171217|171218|171219|171220|171221|91680|171223|171224|171225|171226|171227|91672|171229|171230|171231|171232|171233|171234|171235|91682|171239|171240|171241|171242|171243|171244|171245|171246|171247|171248
+A|4|2943|2971|3099|13802|3104|13804|13805|13806|3128|2967|13809|13810|13811|13812|13813|13814|13815|13816|2955|13818|13819|13820|13822|13823|13824|13825|2970|13827|13828|13829
+A|532|497461|515536|515699
+A|471|228066|228067|228068|228069|228070|228071
+A|68|274920|274723|280254|274925|274937|280257|274716|274734|280260|280261|280262|280263|280264|274934|274729|280267|280268|280269|280270|280271|280272|280273|280274
+A|1140|507638
+A|1011|515850|515851
+A|3|112685|112686|112687|112688|112689|112690|112691|112692|112693|112694|112695|112696|112697|112698|112699|112700|112701|112702|112703|112704|112705|112706|112707|112708|112709
+A|1296|257616|258805|257614
+A|55|74080|74081|74082|232593|66241|74068|232596|232597|232598|232599|74075|74867|74069|74077|232604|232605|232606|232607|74067|232609|232610|232611|232612|232613|232614|232615|232616|232617|232618|232619|232620
+A|1|253899|253902|254302|256269|253890|253886|253895|254299|253884|256275|254284|256277|253906|256279|256280|256281|256282|256283|256284|256285|254287|254314|254289|256289|256290|256291|256292|256293|253907|256295|256296|256297|256298|256299|256301|256302|256303|256304|256305|256306|256307|256308|256309|256311|256312|254312|256314|256315|256316|256317|256318|256319|256320|256321|256322|256323
+A|524|395218
+A|110|49338|49339|49340|49341|49342|49343|49344|49345|49346|49347|49348|49349|49350|49355|49351|49352|49377|49354|49374|49386|49379|49375|49378|49380|49381|49382|49383|49384|49385|49353|85425|49387|49388|49422|49423|49424|49425|49426|49427|49428|49429
+A|5|5448|76034|16800|7761|76037|24732|76039|16798|76041|24730|76043|76044|76045|76046|76047|16797|76049|76050|5449|76052|24725|76054|76055|76056|76057|76058|76059|24729|76061|76062|24735|76064|76065|76066|76067
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|524|PP|Piratpartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|87880|41|M|Per Carlsson|
+C|171125|41|K|Sara Andersson|41 år, Hässleholmen
+C|171126|59|M|Micael Svensson|59 år, Målsryd
+C|171127|20|K|Liridona Rexhepi|20 år, Hulta
+C|91664|41|M|Sead Omerovic|Skattehandläggare, Borås
+C|171129|51|K|Marie Samuelsson|51 år, Gånghester
+C|171130|63|M|Anders Jonsson|63 år, Svensgärde
+C|171131|67|K|Anja Liikaluoma|67 år, Hässleholmen
+C|171132|54|M|Muharrem Binaku|54 år, Boda
+C|171133|70|K|Raija Leppänen|70 år, Hässleholmen
+C|171134|59|M|Mohamed Farah|59 år, Borås
+C|171135|54|K|Emina Beganovic|54 år, Brämhult
+C|171136|39|M|Thomas Wingren|39 år, Dalsjöfors
+C|171137|57|K|Eva Axell|57 år, Målsryd
+C|171138|55|M|Martin Neuman|55 år, Målsryd
+C|171139|49|K|Camilla Kvibro Ståhl|49 år, Äspered
+C|171140|22|M|Bamma Sanneh|22 år, Hässleholmen
+C|91661|58|K|Eva Österlund Hjort|Socionom, Brämhult
+C|171142|37|M|Vishal Arora|37 år, Hulta
+C|171143|70|K|Eva Andersson|70 år, Rångedala
+C|171146|60|M|Ulf Samuelsson|60 år, Gånghester
+C|171145|53|K|Sahra Ali Osman|53 år, Borås
+C|87892|36|M|Ernad Suntic|
+C|91659|63|K|Marianne Gustafson|Assistent, Borås
+C|171150|42|M|Ramadhan Hashim|42 år, Hulta
+C|171149|51|K|Åsa Tobrant|51 år, Dalsjöfors
+C|171152|65|M|Tauno Haikara|65 år, Hässleholmen
+C|171151|69|K|Gunnel Österberg|69 år, Trandared
+C|171154|52|M|Petri Pitkänen|52 år, Dalsjöfors
+C|171153|48|K|Jenny Parmstrand|48 år, Målsryd
+C|171156|57|M|Agron Cela|57 år, Trandared
+C|171155|54|K|Marie Söderhagen|55 år, Äspered
+C|171158|53|M|Tomas Fernfelt|53 år, Rångedala
+C|91653|24|K|Jessica Eriksson|Student, Borås
+C|171160|69|M|Rolf Andersson|69 år, Brämhult
+C|171159|19|K|Alva Börjesson|19 år, Sörmarken
+C|171161|73|M|Björn Johansson|73 år, Hässleholmen
+C|171162|49|M|Tony Karlstedt|49 år, Äspered
+C|171163|46|M|Ulf Olsson|46 år, Hedvigsborg
+C|171164|70|K|Yvonne Persson|70 år, Lugnet
+C|171165|75|M|Per-Olof Höög|75 år, Centrum
+C|171166|27|K|Sofia Bohlin|27 år, Göta
+C|91662|44|M|Robert Sandberg|Personalvetare, Borås
+C|171168|69|K|Leila Pekkala|69 år, Svaneholm
+C|171169|54|M|Bengt Bohlin|54 år, Hedvigsborg
+C|87873|24|K|Therése Björklund|
+C|171171|43|M|Andreas Ekström|43 år, Hedvigsborg
+C|171172|50|K|Anethe Tolfsson|50 år, Bergdalen
+C|171173|48|M|Mohamed Ben Maaouia|48 år, Centrum
+C|171174|43|K|Cecilia Kochan|43 år, Seglora
+C|171175|57|M|Leif Johansson|57 år, Norrmalm
+C|171176|50|K|Helene Sandberg|50 år, Östermalm
+C|171177|20|M|Tobias Eng Strömberg|20 år, Östermalm
+C|171178|53|K|Christina Frisk|53 år, Seglora
+C|171179|45|M|Samir Muratovic|45 år, Viskafors
+C|171180|68|K|Ulla-Britt Möller|68 år, Kinnarumma
+C|171181|36|M|Burair Mahmood|36 år, Östermalm
+C|171182|73|K|Ulla-Britt Nordqvist|73 år, Funningen
+C|171183|55|M|Roger Olsson|55 år, Druvefors
+C|171184|52|K|Jaana Ben Maaouia|52 år, Centrum
+C|171185|27|M|Mattias Nyström|27 år, Östermalm
+C|171186|59|K|Annette Bjernhagen|59 år, Dammsvedjan
+C|171187|73|M|Tord Andersson|73 år, Kristineberg
+C|171188|78|K|Barbro Andersson|78 år, Norrmalm
+C|171189|48|M|Urban Åkervall|48 år, Östermalm
+C|171190|39|K|Kristina Nyberg Smahel|39 år, Druvefors
+C|171191|61|M|Björn Alexandersson|61 år, Norrmalm
+C|171192|65|K|Maria Oscarson|65 år, Östermalm
+C|171193|53|M|Per Alstermark|53 år, Dammsvedjan
+C|171194|32|K|Sarah Ali|32 år, Druvefors
+C|171195|54|M|Samir Karamovic|54 år, Furuberg
+C|171196|49|K|Erika Storme Martinger|49 år, Göta
+C|171197|53|M|Magnus Persson|53 år, Seglora
+C|171198|64|K|Ulla Krok|64 år, Norrmalm
+C|171199|53|M|Micael Emilsson|53 år, Göta
+C|171200|25|M|Anton Löberg|25 år, Göta
+C|171201|47|K|Malin Carlsson|47 år, Sjöbo
+C|171202|63|M|Kent Hedberg|63 år, Byttorp
+C|171203|68|K|Rose-Marie Liljenby-Andersson|68 år, Sjömarken
+C|171204|74|M|Lars-Åke Johansson|74 år, Sjöbo
+C|171205|73|K|Ninni Dyberg|73 år, Byttorp
+C|171206|27|M|Johan Dahlberg|27 år, Sjöbo
+C|171207|73|K|Gun-Britt Persson|73 år, Fristad
+C|171208|27|M|Mohamed Kossir|27 år, Sjöbo
+C|171209|37|K|Ylva Lengberg|37 år, Fristad
+C|171210|43|M|Abdullahi Warsame|43 år, Norrby
+C|171211|22|K|Jessica Eng Strömberg|22 år, Sjöbo
+C|171212|67|M|Leif Grahn|67 år, Sandhult
+C|171213|64|K|Marie Sandberg|64 år, Sandhult
+C|171214|59|M|Sören Björklund|59 år, Sjöbo
+C|171215|19|K|Paulina Hanafi|19 år, Sjöbo
+C|87888|44|M|Nicholas Gregory|
+C|171217|49|K|Maria Hanafi|49 år, Sjöbo
+C|171218|56|M|Mats Tolfsson|56 år, Tosseryd
+C|171219|69|K|Anki Amneskog|69 år, Sjöbo
+C|171220|47|M|Magnus Olofsson|47 år, Fristad
+C|171221|49|K|Pernilla Ohlsson|49 år, Sjöbo
+C|91680|22|M|Oscar Johansson|Student, Borås
+C|171223|46|K|Linda Ikatti|46 år, Hestra
+C|171224|47|M|Oskari Anundi|47 år, Fristad
+C|171225|60|K|Agneta Ahlgrand|60 år, Sjöbo
+C|171226|49|M|Johan Hallin|49 år, Sandared
+C|171227|41|K|Ismeta Dzafic|41 år, Norrby
+C|91672|22|M|Adam Löberg|Student, Borås
+C|171229|52|K|Melanja Nehme Duranec|52 år, Byttorp
+C|171230|34|M|Magnus Johansson|34 år, Sjöbo
+C|171231|21|K|Josefin Larsson|21 år, Norrby
+C|171232|49|M|Tinos Lappas|49 år, Hestra
+C|171233|66|K|Tuula Järvinen|66 år, Sjöbo
+C|171234|74|M|Väinö Östhult|74 år, Norrby
+C|171235|54|K|Liz Odqvist|54 år, Sandhult
+C|91682|35|M|Joakim Angervik|Projektör, Gingri
+C|171239|63|K|Anette Molarin|63 år, Hestra
+C|171240|59|M|Göran Holtstrand|59 år, Hestra
+C|171241|70|K|Anne Sandberg|70 år, Sandhult
+C|171242|58|M|Pavle Velcov|58 år, Viared
+C|171243|69|K|Bratica Lazovic|69 år, Norrby
+C|171244|64|M|Pentti Lindberg|64 år, Sjöbo
+C|171245|46|K|Erzulina Yngvesson|46 år, Hestra
+C|171246|70|M|Jan Patrikson|70 år, Hestra
+C|171247|57|K|Cathrine Jansson|57 år, Byttorp
+C|171248|56|M|Peder Backlund|56 år, Sjömarken
+C|2943|58|K|Kerstin Hermansson|58 år, Seglora
+C|2971|43|M|Mattias Danielsson|43 år, Borås
+C|3099|44|K|Cecilia Andersson|44 år, Borås
+C|13802|35|M|Alexander Andersson|35 år, lantbrukare, Dannike
+C|3104|59|K|Maj-Britt Eckerström|59 år, Vänga
+C|13804|47|K|Monika Hermansson Friedman|47 år, civilekonom, Fristad
+C|13805|71|M|Jan Idehed|71 år, organisatör, Borås
+C|13806|26|M|Oscar Undevall|26 år, kundrådgivare, Borås
+C|3128|65|M|Karl-Eric Nilsson|65 år, Tämta
+C|2967|36|K|Karla Kollberg|36 år, Borås
+C|13809|39|M|David Hårsmar|39 år, agronom, Dalsjöfors
+C|13810|66|K|Monica Johansson|66 år, organisatör, Bredared
+C|13811|32|K|Pernilla Tejemark|32 år, förvaltningsassistent, Fristad
+C|13812|68|K|Solveig Landegren|68 år, fd kriminalinspektör, Sjömarken
+C|13813|38|M|Emil Bertilsson|38 år, distriktschef, Målsryd
+C|13814|60|K|Catharina Rapp|60 år, verksamhetsutvecklare, Tosseryd
+C|13815|46|M|Johan Drotz|46 år, processledare, Borås
+C|13816|62|M|Lennart Brännmar|62 år, företagare, Borås
+C|2955|19|M|Elias Haqiqat|19 år, Borås
+C|13818|55|M|Johan Källén|55 år, truckförsäljare, Borås
+C|13819|67|M|Leif Olsson|67 år, snickare, Bredared
+C|13820|50|K|Maria Hermansson|50 år, sjuksköterska, Borås
+C|13822|46|M|Håkan Eriksson|46 år, konsulent, Målsryd
+C|13823|46|M|Jimmy Sjölund|47 år, innovationscoach, Borås
+C|13824|62|M|Bengt-Olof Olsson|63 år, projektledare, Bredared
+C|13825|68|M|Bengt Belfrage|69 år, företagare, Dalsjöfors
+C|2970|37|K|Olivia Schell|37 år, Seglora
+C|13827|74|M|Ulf Landegren|74 år, fd försäljningschef, Sjömarken
+C|13828|70|M|Håkan Torstensson|70 år, teknikkonsult, Borås
+C|13829|51|K|Christina Gustavsson|51 år, diakon, Gånghester
+C|497461|52|M|Patrik Rölander|
+C|515536|42|M|Sven Fallenius|
+C|515699|24|K|Emilia Vermelin|
+C|228066|66|K|Sonja Persson|förskollärare
+C|228067|34|M|Sergej Odström|arbetslös
+C|228068|41|M|Tobias Halldin|ortopedtekniker
+C|228069|69|M|Bengt Persson|möbelsnickare
+C|228070|65|M|Ronny Larsson|pensionär
+C|228071|34|M|Robert Wettersten|journalist
+C|274920|27|M|Niklas Arvidsson|27, Tjänsteman, Borås
+C|274723|33|K|Lisa Berglund|33, Biomedicinsk analytiker, Borås
+C|280254|69|M|Hans Gustavsson|69, Säljare, Brämhult
+C|274925|69|K|Else-Marie Lindgren|68, F.d. Riksdagsledamot, Borås
+C|274937|60|M|Magnus Sjödahl|59, Socionom, Borås
+C|280257|79|M|Åke Ekvad|78, Rektor, Borås
+C|274716|58|K|Valéria Kant|57, Kostrådgivare, Borås
+C|274734|79|K|Ingela Hallgren|79, Fil. magister, Borås
+C|280260|55|K|Gunilla Christoffersson|54, Lärare, Sjömarken
+C|280261|86|M|Sven Wergård|85, Överste, Viskafors
+C|280262|57|M|Per-Jonas Carlsson|57, Ekonom, Brämhult
+C|280263|30|M|Jonathan Tellbe|29, Lärare, Borås
+C|280264|56|M|Pär Sundbaum|56, Rektor, Brämhult
+C|274934|68|M|Bengt-Göran Persson|68, Ingenjör, Borås
+C|274729|73|M|Lars Lyborg|72, F.d. personalchef, Borås
+C|280267|69|M|Harald Finlöf|69, Lärare, Brämhult
+C|280268|50|M|Ronnie Friström|49, Systemtekniker, Sandared
+C|280269|62|K|Felicidad Vicei|61, Inköpsassistent, Borås
+C|280270|36|M|Daniel Henriksson|35, Produktutvecklare, Brämhult
+C|280271|67|M|Daniel Swedengren|67, Egenföretagare, Brämhult
+C|280272|68|M|Lennart Malmerfors|68, Fastighetschef, Borås
+C|280273|75|M|Sivert Oxelbark|75, Musikpedagog, Dalsjöfors
+C|280274|76|M|Lennart Gabre|76, Redovisningskonsult, Borås
+C|507638|31|K|Anna-Karin Möller|31, Borås
+C|515850|48|M|Ola Johansson|
+C|515851|38|M|Martin Svensson|
+C|112685|46|K|Anna Svalander|46, statsvetare och pedagog, Borås
+C|112686|55|M|Johan Wikander|55, ombudsman, Borås
+C|112687|24|M|Andreas Cerny|24, utredningssekreterare, Borås
+C|112688|71|K|Anne-Marie Ekström|71, egen företagare, Borås
+C|112689|21|M|Soroush Rezai|21, tjänsteman, Borås
+C|112690|71|M|Morgan Hjalmarsson|71, kommunalråd, Borås
+C|112691|71|K|Britt-Marie Halldén|71, lektor, Borås
+C|112692|25|M|Marcus Nilsen|25, universitetsstuderande, Borås
+C|112693|69|M|Lars Gustaf Andersson|69, konstnär/konsult, Borås
+C|112694|39|K|Linda Pålemo|39 år, designer
+C|112695|55|M|Patric Cerny|55, kyrkoherde, Borås
+C|112696|55|K|Lotta Preijde|55 år, rekryteringskonsult
+C|112697|47|M|Tage Carlsson|46, måltidsbiträde, Borås
+C|112698|54|K|Susanne Karlander|54 år, företagare
+C|112699|23|M|Tommy Ky|23 år, företagare
+C|112700|18|K|Emmy Scilaris|18, student, Borås
+C|112701|43|M|Reza Aghapoor|43 år, verksamhetsutvecklare
+C|112702|81|K|Hjördis Jonsson|81 år, f.d. företagare
+C|112703|82|M|Bengt Wahlgren|82 år, f.d. gymnasielärare
+C|112704|23|K|Cecilia Baggesen-Gyllunger|23, ombudsman, Borås
+C|112705|55|M|Jan Hyllstam|55 år, präst
+C|112706|38|K|Irene Gimmersta|39 år, egen företagare
+C|112707|70|M|Roland Steinick|70 år, pensionär
+C|112708|82|M|Bo W Jonsson|82 år, f.d. adjunkt
+C|112709|50|M|Hamid Fard|50 år, företagsrådgivare
+C|257616|37|M|Michel Johnsson|37 Åkare Kinnarumma
+C|258805|36|M|Magnus Hedén|36 psykolog Borås
+C|257614|62|M|Robert Nordgren|62 Pensionär Frufällan
+C|74080|64|M|Kjell Hjalmarsson|64 år, Administratör, Borås
+C|74081|61|K|Christina Waldenström|61 år, Leg. Sjuksköterska, Dannike
+C|74082|40|M|Tom Andersson|40 år, Kommunalråd, Borås
+C|232593|48|K|Anna-Karin Gunnarsson|48 år, Utvecklingsingenjör, Kinnarumma
+C|66241|50|M|Göran Larsson|50, leg. sjuksköterska, Borås
+C|74068|25|K|Sümeyya Gencoglu|25 år, Kulturstudent, Borås
+C|232596|39|M|Tim Gahnström|39 år, Systemutvecklare, Fristad
+C|232597|48|K|Maria Hyllstam|48 år, Psykolog, Sjömarken
+C|232598|22|K|Linnea Johansson Kläth|22 år, Bibliotekarie, Villastan
+C|232599|43|M|Erik Johnson|43 år, Projektledare, Gånghester
+C|74075|58|M|Mosa Roshangias|58 år, Sjuksköterska, Sparsör
+C|74867|69|K|Hanna Werner|69 år, Socionom, Borås
+C|74069|51|M|Dennis Söderberg|51 år, Entreprenör, Borås
+C|74077|77|K|Ellie Blickfors|77 år, Borås
+C|232604|34|M|Enock Akouele|34 år, Student, Hässleholmen
+C|232605|31|K|Anna Kjellberg|31 år, Egenföretagare, Hestra
+C|232606|32|M|Matti Oinas|32 år, Miljöanalytiker, Dalsjöfors
+C|232607|53|K|Tova Lidbeck|53 år, Verksamhetschef daglig verksamhet, Druvefors
+C|74067|56|M|Sam Siavashee|55 år, Integrationskonsult/Samhällsinformatör, Borås
+C|232609|37|K|Helen Ernits|37 år, Tjänsteman, Viskafors
+C|232610|71|M|Staffan Falk|70 år, Pensionär, Hestra
+C|232611|52|K|Madeleine Larsson|52 år, Personlig assistent, Brämhult
+C|232612|66|K|Eva Theen Johansson|66 år, Egenföretagare, Dalsjöfors
+C|232613|53|M|Kyan Tabrizi|52 år, Personlig assistent, Trandared
+C|232614|60|K|Ingrid Samuelsson|60 år, Humanekolog, Dannike
+C|232615|65|M|Lars Sigfridsson|65 år, Stödassistent, Lundaskog
+C|232616|72|K|Birgit Johansson|72 år, Pensionär, Bredared
+C|232617|62|M|Lasse Jutemar|62 år, Ultralöpare, Kinnarumma
+C|232618|48|M|Magnus Almström|48 år, Gymnasielärare, Trandared
+C|232619|56|M|Bo-Lennart Bäcklund|56 år, Ekonom, Sjöbo
+C|232620|72|M|Bo-Göran Gunnarsson|72 år, Pensionär, Aplared
+C|253899|56|K|Annette Carlson|56, Kommunalråd, Borås
+C|253902|28|M|Oliver Öberg|28, Säljare, Borås
+C|254302|59|K|Marie Fridén|59, Civilekonom, Borås
+C|256269|64|M|Ulf Sjösten|64, fd Polis, Brämhult
+C|253890|23|K|Amanda Wiktorsson|23, Student, Borås
+C|253886|55|M|Ulrik Nilsson|55, Sektionschef, Brämhult
+C|253895|23|M|Dennis Jernkrook|23, Student, Borås
+C|254299|42|M|Hasse Ikävalko|42, Möbeltapetserare, Borås
+C|253884|48|K|Cecilie Tenfjord Toftby|riksdagsledamot, Västra Götalands södra
+C|256275|46|M|Martin Nilsson|46, Företagare, Brämhult
+C|254284|74|K|Birgitta Bergman|74, Kulturvetare, Borås
+C|256277|40|K|Anna Christensen|40, Analytiker, Brämhult
+C|253906|22|K|Jolly Bou Rahal|22, Juriststudent, Borås
+C|256279|59|M|Lars-Gunnar Comén|59, Flyganalytiker/Egen företagare, Brämhult
+C|256280|68|M|Urban Svenkvist|68, fd Chefsåklagare, Borås
+C|256281|32|K|Pirita Isegran|32, Biståndshandläggare, Viskafors
+C|256282|61|K|Anna-Clara Stenström|61, Undersköterska, Borås
+C|256283|64|M|Nils-Åke Björklund|64, Ekonom, Borås
+C|256284|46|K|Annette Nordström|46, Distributör, Borås
+C|256285|68|M|Per Månsson|68, Pensionär, Fristad
+C|254287|50|M|Jonas Garmarp|50, Civilekonom, Borås
+C|254314|18|K|Lovisa Gustafsson|18, Studerande, Sjömarken
+C|254289|34|M|Mattias Karlsson|34, Kronoinspektör, Viskafors
+C|256289|46|K|Jessica Bjurén|46, Butikschef, Borås
+C|256290|68|M|Paul Andre Safko|68, Ingengör, Borås
+C|256291|71|K|Lotta Löfgren Hjelm|71, f.d Barnmorska, Fristad
+C|256292|64|M|Mikael Wickberg|64, Civilingenjör, Borås
+C|256293|76|K|Wiwi Roswall|76, Pensionär, Fristad
+C|253907|21|M|Daniel Nikolov|21, Student, Borås
+C|256295|20|K|Alva Mannberg|20, Studerande, Borås
+C|256296|55|M|Georg Guldstrand|55, IT Application Lead, Dalsjöfors
+C|256297|58|K|Marie Jöreteg|58, Regionchef, Borås
+C|256298|42|M|Anders Johansson|42, Lärare, Borås
+C|256299|67|M|Peter Wilhelmson|67, Utredningssekreterare, Borås
+C|256301|41|K|Sofia Sandänger|41, Samverkansansvarig, Borås
+C|256302|30|M|Alen Saric|30, Civilekonom, Brämhult
+C|256303|66|K|Saveta Olsén|66, Egenföretagare, Borås
+C|256304|19|M|Emil Ramezani Semnani Moghaddam|19, Studerande, Borås
+C|256305|44|M|Christian Ekström|44, Egen Företagare, Borås
+C|256306|80|K|Elsie Lundberg|80, Pensionär, Borås
+C|256307|47|M|Björn-Ola Kronander|47, Företagare, Dannike
+C|256308|63|K|Berit Johansson|63, Medicinsk sekreterare, Borås
+C|256309|55|M|Hakam Alakraa|55, Egenföretagare, Målsryd
+C|256311|19|K|Lina Nilsson|19, Studerande, Brämhult
+C|256312|22|M|Rasmus Kivinen|22, Ekonomistudent, Borås
+C|254312|79|K|Seija Noppa|79, Egenföretagare, Borås
+C|256314|73|K|Carin Brandt|73, Pensionär, f.d. arbetsförmedlare, Borås
+C|256315|72|M|Bill Johansson|72, Ingenjör, Borås
+C|256316|66|K|Christina Zetterstrand|66, f.d lärare, Borås
+C|256317|43|M|Andreas Tammjärv|43, Projektledare, Sparsör
+C|256318|70|K|Kristina Andersson|70, Specialpedagog, Bredared
+C|256319|18|M|Marcus Banér|18, Studerande, Borås
+C|256320|70|K|Birgit Åkerlund|70, Nämndeman, Borås
+C|256321|67|M|Bill Bakkemose|67, Lärare, Borås
+C|256322|70|K|Karin Grill|70, , Borås
+C|256323|75|K|Marie-Louise Hall|75, Pensionär, Brämhult
+C|395218|51|M|Henry Rouhivuori|51, Borås
+C|49338|54|M|Patric Silfverklinga|gruppledare, 54 år
+C|49339|47|M|Björn Qvarnström|undersköterska, 47 år
+C|49340|27|M|Andreas Exner|Ekonom, Borås
+C|49341|45|M|Leif Häggblom|Transportledre, Borås
+C|49342|45|M|Anders Alftberg|lärare, 45 år
+C|49343|37|M|Kristian Silbvers|VD, 37 år
+C|49344|69|M|Jan Nilsson|Pensionär, Borås
+C|49345|53|M|Jonas Ellerstrand|Account Manager, Borås
+C|49346|71|K|Ann-Charlotte Blomqvist|pensionär, 71 år
+C|49347|54|M|Crister Spets|Riksdagsman, Borås
+C|49348|46|M|Tomas Brandberg|Teknologie doktor, Borås
+C|49349|73|M|Olle Engström|f.d. företagsledare, 73 år
+C|49350|62|K|Eva Eriksson|egen företagare, 62 år
+C|49355|58|K|Maria Lindgren|socionom, 58 år
+C|49351|41|M|Robert Skånberg|bilskadetekniker, 41 år
+C|49352|44|M|Niklas Hallberg|IT-tekniker, 44 år
+C|49377|36|M|Martin Sörbom|logistiker, 36 år
+C|49354|57|M|Valter Kotsalainen|fil.kand, 57 år
+C|49374|67|M|Mark Warnberg|hovslagare, 67 år
+C|49386|65|M|Björn Malmquist|säkerhetssamordnare, 65 år
+C|49379|70|M|Lars-Erik Johansson|pensionär, 70
+C|49375|41|M|Daniel Assarsson|egen företagare, 41 år
+C|49378|62|M|Sven-Olof Johansson|chaufför, 62 år
+C|49380|67|K|Kathy Johansson|konsult, 67
+C|49381|77|M|Thor Henning Öhrn|pensionär, 77
+C|49382|58|M|Jovan Vuckovic|undersköterska, 58
+C|49383|54|M|Ronny Nyberg|försäljningsingenjör, 54
+C|49384|54|M|Reijo Jardekrans|arbetssökande, 54 år
+C|49385|53|K|Johanna Silfverklinga|stf. butikschef, 53 år
+C|49353|52|K|Susanne Karlsson|undersköterska, 52
+C|85425|82|M|Eike Jünke|trädgårdsmästare, 82 år
+C|49387|71|M|Jürgen Urbas|marknadschef, 71 år
+C|49388|50|M|Jan Stenberg|egen företagare, 50 år
+C|49422|52|K|Pia Larsson|pesonaladministratör, 52 år
+C|49423|57|M|Kjell Mårtensson|chaufför, 57 år
+C|49424|59|M|Peter Ohlsén|chaufför, 59
+C|49425|75|K|Irene Rosalie Eriksson|pensionär, 75
+C|49426|47|M|Patrik Hållpås|avdelningschef, 47
+C|49427|56|M|Pertti Merstrand|montör, 56
+C|49428|53|M|Magnus Andersson|snickare, 54
+C|49429|39|K|Zandra Johansson|servicepersonal, 39 år
+C|5448|37|K|Ida Legnemark|37 år, lärare, Borås
+C|76034|33|M|Stefan Lindborg|33 år, student, Norrmalm
+C|16800|62|K|Anne Rapinoja|62 år, förskollärare, Borås
+C|7761|73|M|Lennart Andreasson|73 år, pensionär, Borås
+C|76037|35|K|Gabriella Andersson|35 år, socionom, Norrmalm
+C|24732|40|M|Peter Wiberg|40 år, ombudsman, Borås
+C|76039|59|K|Inger Landström|59 år, arbetsterapeut, Dalsjöfors
+C|16798|67|M|Tommy Josefsson|67 år, pensionär/tekniklärare, Borås
+C|76041|55|K|Anita Spjuth|55 år, integrationskonsulent, Sjöbo
+C|24730|41|M|Peter Lund|41 år, callcenter-medarbetare, Dalsjöfors
+C|76043|34|K|Kim Lindberg|34 år, projektledare, Hässleholmen
+C|76044|51|M|Janne Elfstrand|51 år, boendestödjare, Sjöbo
+C|76045|60|K|Carina Kierdorf|60 år, teststrateg, Viskafors
+C|76046|45|M|Magnus Winblad|45 år, studerande, Viskafors
+C|76047|70|K|Ulla Stålhammar|70 år, pensionär, Bosnäs
+C|16797|63|M|Jasem Hardan|63 år, lärare, Borås
+C|76049|37|K|Leila Talmoudi|36 år, verksamhetsansvarig ABF, Östermalm
+C|76050|64|M|Gholamreza Abbasian|65 år, undersköterska, Sjöbo
+C|5449|49|K|Marjan Garmroudi|49 år, lärare, Borås
+C|76052|52|M|Peder Jonsson|51 år, miljöarbetare, Dalsjöfors
+C|24725|33|K|Sofia Andersson|33 år, bibliotekarie, Borås
+C|76054|73|M|Kjell Eliasson|73 år, fd metallarbetare, Äspered
+C|76055|34|K|Maryam Osman|33 år, studerande/pers assistent, Hulta
+C|76056|69|M|Ulf Hillermyr|69 år, träsnidare, Hulta
+C|76057|33|K|Anna Gustavsson|33 år, lärare, Bergsbo
+C|76058|35|M|Steve Liljekvist|35 år, applikationsspecialist, Fristad
+C|76059|66|K|Pari Mahinpour|66 år, pensionär, Hulta
+C|24729|39|M|Eyad Shehab|39 år, tolk, Borås
+C|76061|46|K|Angelica Vehmas|45 år, studerande, Trandared
+C|76062|25|M|Joel Carlberg-Torsell|25 år, kundservicemedarbetare, Norrby
+C|24735|62|K|Solveig Lindh-Josefsson|62 år, lärare, Borås
+C|76064|48|M|Mohamed Mohamoud|48 år, busschaufför/lärare, Norrby
+C|76065|34|M|Jonas Edberg|35 år, forskningshandläggare, Dannike
+C|76066|60|K|Anita Persson|60 år, ombudsman, Dammsvedjan
+C|76067|62|M|Matti Dahlbom|62 år, folkhögskolelärare, Norrmalm

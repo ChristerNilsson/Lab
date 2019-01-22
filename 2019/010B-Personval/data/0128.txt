@@ -1,9 +1,167 @@
-2|71224|155300|155301|155302|155303|155304|155305|155306|96643|96638|155309|155310|155311|155312|155313|155314|155315|155316|155317|155318|155319|155320|155321|155322|155323|155324|155325|155326|155327|155328
-4|124401|124392|297918|124396|297920|297921|297922|297923|297924|297925|297926|297927|297928|297929|297930|297931|297932|297933|297934
-68|158244|158245|158246|158247|158248|158249|158250|158251|158252|158253|158254
-3|242837|242838|242839|242840|242841|242842|242843|242844|242845|242846|242847|242848|242849|242850|242851|242852|242853|242854|242855|242856|242857|242858
-55|245649|245650|245651|245652|245653
-1|17846|17847|17848|17849|17850|17851|17852|17853|17854|17855|17856|17857|17858|17859|17860|17861|17862|17863|17864|17865|17866|17867|17868|17869|17870|17871|17872|17873|17874|17875|17876
-1080|318221|318222|318223|318224|318225|318226|318227|318228|318229|318230|318231|318232|318233|318234|318235|318236|318237|318238|318239|318240|318241
-110|76628|76629|76630|76631|76632|76633|76634|76635
-5|187664|187665|187666|187667|187668
+T|Salem
+A|2|71224|155300|155301|155302|155303|155304|155305|155306|96643|96638|155309|155310|155311|155312|155313|155314|155315|155316|155317|155318|155319|155320|155321|155322|155323|155324|155325|155326|155327|155328
+A|4|124401|124392|297918|124396|297920|297921|297922|297923|297924|297925|297926|297927|297928|297929|297930|297931|297932|297933|297934
+A|68|158244|158245|158246|158247|158248|158249|158250|158251|158252|158253|158254
+A|3|242837|242838|242839|242840|242841|242842|242843|242844|242845|242846|242847|242848|242849|242850|242851|242852|242853|242854|242855|242856|242857|242858
+A|55|245649|245650|245651|245652
+A|1|17846|17847|17848|17849|17850|17851|17852|17853|17854|17855|17856|17857|17858|17859|17860|17861|17862|17863|17864|17865|17866|17867|17868|17869|17870|17871|17872|17873|17874|17875|17876
+A|1080|318221|318222|318223|318224|318225|318226|318227|318228|318229|318230|318231|318232|318233|318234|318235|318236|318237|318238|318239|318240|318241
+A|110|76630|76631|76633|76634|76635
+A|5|187664|187665|187666|187667|187668
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1080|R|Rönningepartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|71224|50|M|Arne Närström|50, Salem
+C|155300|59|K|Maria Ridderstolpe|
+C|155301|71|M|Tommy Eklund|
+C|155302|18|K|Linnea Lundqvist|
+C|155303|47|M|Patrik Robbertte|
+C|155304|58|K|Berit Heidenfors|
+C|155305|49|M|Björn Wivallius|
+C|155306|19|K|Wilma Eklund|
+C|96643|24|M|Leutrim Kadriu|
+C|96638|69|K|Margaretha Häll Assarsson|69, Ekonom, Salem
+C|155309|67|M|Kjell Häggkvist|
+C|155310|77|K|Birgitta Rönnblad|
+C|155311|70|M|Mats Gustafsson|
+C|155312|73|K|Gunilla Kallio|
+C|155313|68|M|Siang Hok Lim|
+C|155314|77|K|Noomi Liljefors|
+C|155315|55|M|Kari Kurkisuo|
+C|155316|75|K|Britt-Marie Marklund|
+C|155317|68|M|Ray Olsson|
+C|155318|75|K|Lillemor Gladh|
+C|155319|75|M|Åke Fredriksson|
+C|155320|68|K|Katarina Lim|
+C|155321|51|M|Martin Lange|
+C|155322|46|K|Maria Eklund|
+C|155323|73|M|Håkan Dahlström|
+C|155324|43|K|Lisa Forsberg|
+C|155325|81|M|Till Mayer|
+C|155326|52|K|Katarina Närström|
+C|155327|79|M|Sören Gladh|
+C|155328|68|K|Azra Fredriksson|
+C|124401|70|K|Ankie Bosander|70, Salem, Fd. informatör
+C|124392|30|K|Raili Nilsson|30, Salem, Egen företagare
+C|297918|80|K|Gunny Jörlén|80, Fd. rektor
+C|124396|75|M|Leif Ståhl|75, Salem, Lärare
+C|297920|64|K|Maria Zitting-Nilsson|64, Egen företagare
+C|297921|46|M|Anders Karlsson|46, Servicesnickare
+C|297922|43|K|Wictoria Berglund|43, Kommunikatör
+C|297923|48|M|Torbjörn Ollas|48, Arkitekt
+C|297924|46|M|Joakim Falkeborn|46, Systemadministratör
+C|297925|82|M|Hans Jörlén|82, Egen företagare
+C|297926|72|K|Birgitta Wahlund-Hafström|72, Leg. Sjukgymnast
+C|297927|69|M|Björn Hafström|69, Åkare
+C|297928|72|M|Jan Bosander|72, Ingenjör
+C|297929|77|K|Barbro Eriksson|77, Fd. skattehandläggare
+C|297930|65|K|Monica Lundell Nilsson|65, Fd. skolassistent
+C|297931|79|K|Edda Struve|79, Sekreterare
+C|297932|79|M|Poul Poulsen|79, Hörselpedagog
+C|297933|33|M|Johan Björling|33, Ekonomistuderande
+C|297934|83|K|Kerstin Ansnes|83, Leg. sjuksköterska
+C|158244|77|M|Håkan Paulson|77, Civilingenjör, Salem
+C|158245|65|M|Bo Johansson|Busschaufför
+C|158246|32|K|Lina Mjörnheim|Nationalekonom
+C|158247|75|M|Torbjörn Åberg|Sjukskötare
+C|158248|69|K|Radhika Paulsson|Bitr. rektor
+C|158249|51|K|Annika Jennersjö|Lärare
+C|158250|70|K|Ulla Nilsson|Barnskötare
+C|158251|52|M|Johan Jennersjö|Busschaufför
+C|158252|69|K|Ann-Christin Eriksson|SFI-lärare
+C|158253|69|M|Mårten Nilsson|Ingenjör
+C|158254|67|M|Esbjörn Eriksson|Civilingenjör
+C|242837|47|K|Mia Franzén|jur kand, Salem
+C|242838|49|K|Kristina Bjureklev Netzell|verksamhetsutvecklare, Salem
+C|242839|55|M|Petter Liljeblad|55 år, kommunikationsstrateg
+C|242840|38|K|Johanna Liljedahl|38 år, Business Controller
+C|242841|38|K|Ylva Ledin|38 år, personalchef
+C|242842|44|K|Åsa Dahl|socionom, Rönninge
+C|242843|52|M|Mårten Landström|drifttekniker, Salem
+C|242844|35|K|Moa Klingsell|restaurangchef, Rönninge
+C|242845|67|M|Bo Eriksson|försäljare, Salem
+C|242846|60|K|Ingrid Kindahl|60 år, journalist
+C|242847|50|K|Marlene Ackland|50 år, redovisningskonsult
+C|242848|58|M|Ninos Garis|58 år, utredare
+C|242849|72|K|Birgitta Berg|72 år, fd fastighetsförvaltare
+C|242850|66|K|Gunilla Salo|66 år, rådgivare specialpedagogik
+C|242851|71|M|Håkan Berg|71 år, fd företagsekonom
+C|242852|67|K|Berith Eriksson|fd ombudsman, Salem
+C|242853|38|M|Magnus Ledin|38 år, idrottsutvecklare
+C|242854|76|K|Anita Franzén|76 år, pensionär, sjuksköterska
+C|242855|56|M|Robert Widlund|56 år, snickare
+C|242856|30|K|Emma Agenstam|30 år, projektledare
+C|242857|50|K|Liselotte Bessner|50 år, undersköterska, sångerska
+C|242858|82|M|Björn Möllersten|82 år, pigg pensionär
+C|245649|58|K|Berit Karlsson|Keramiker
+C|245650|44|M|Fredrik Ribbing|Arbetsmarknadsanalytiker
+C|245651|31|K|Maria Sundblad|Jurist
+C|245652|62|M|Bengt-Åke Pettersson|Skolvaktmästare
+C|17846|60|M|Lennart Kalderén|60, Kommunalråd
+C|17847|43|K|Farzana Khan|43, bitr. Enhetschef
+C|17848|31|M|Erik Glimvik|
+C|17849|73|K|Elisabeth Bovin Exner|
+C|17850|54|M|Björn Odelius|
+C|17851|70|M|Olle Glimvik|
+C|17852|51|M|Rickard Livén|51, Egenföretagare
+C|17853|70|M|Björn Kvist|
+C|17854|59|K|Jasmina Kosevic|
+C|17855|58|M|Stefan Almå|
+C|17856|74|M|Lennart Ejenäs|
+C|17857|76|K|Ulla Wickstein|76, Ledsagare
+C|17858|43|M|Andreas Lundvall|43, Enhetschef
+C|17859|72|K|Ilse Forsberg|
+C|17860|59|M|Sead Kosevic|
+C|17861|67|K|Gun Andersson|
+C|17862|52|K|Janina Stenlund|
+C|17863|58|M|Mats Röhr|
+C|17864|75|M|Mats Ershammar|
+C|17865|18|M|Hugo Löwegren|
+C|17866|68|K|Sonia Olsson|
+C|17867|79|M|Per-Erik Ekman|
+C|17868|78|M|Lars-Erik Linder|
+C|17869|70|K|Maria Horvath|
+C|17870|66|K|Solweig Byfeldt|
+C|17871|79|K|Irene Beckman|
+C|17872|74|M|Bo Selander|
+C|17873|50|M|Stefan Jacobson|
+C|17874|76|K|Elisabeth Jacobs|
+C|17875|77|M|Ulf Malmström|
+C|17876|64|K|Monica Lindborg|
+C|318221|58|M|Anders Klerkfors|Företagare och tennisentusiast
+C|318222|67|K|Maria Trap|Samhällsvetare och konstskapare
+C|318223|57|K|Anna-Carin Ehn|Specialpedagog och textilnörd
+C|318224|60|M|Rolf Fällström|Småföretagare och gästgivare
+C|318225|66|M|Bernd Priemer|Speciallärare och ledarskapsutvecklare
+C|318226|57|K|Karin Meyer|Lärare och hästivrare
+C|318227|54|M|Michael Lindahl|Engagerad och produktutvecklare
+C|318228|60|K|Nina Fällström|Barnmorska och byggnadsvårdsfreak
+C|318229|50|M|Fredrik Lindholm|Inköpare och paddelspelare
+C|318230|62|K|Lena Wallenius|Lektor och ljudakupunktör
+C|318231|58|M|Jonas Nienhüysen|Allkonstnär och friluftsmänniska
+C|318232|66|M|Christian Guldberg|Spårtrafiksäkerhetskonsult och fönsterrenoverare
+C|318233|49|K|Ada-Christina Dubois|Gruppchef och resefantast
+C|318234|51|M|Patrik Vejby|Ekonom och idrottande förälder
+C|318235|59|M|Göran Tjulin|Kommunikatör och ungdomsledare
+C|318236|46|M|Håkan Säfström|Snickare och fotbollsfantast
+C|318237|58|K|Lena Davy|Sjuksyster och Australienresenär
+C|318238|53|K|Helén Axelsson|Miljöchef och körsångare
+C|318239|60|M|Svante Biörnstad|Ljuddesigner och hemmakock
+C|318240|68|M|James Davy|Flygentusiast och händig
+C|318241|58|K|Anna Nienhüysen|Entreprenör och hästmänniska
+C|76630|25|M|Marcus von Wowern Lindgren|25, gravör, Salem
+C|76631|40|M|Zsolt Szabo|40, account manager, Salem
+C|76633|25|K|Lisa Hedberg|sjuksköterska, 25 år, Rönninge
+C|76634|45|K|Mona-Lisa Larsson|
+C|76635|48|M|Conny Wessberg|
+C|187664|41|K|Sanna Jansson Wiberg|Högstadielärare, 40 år
+C|187665|35|M|Daniel Hansson|Controller, 35 år
+C|187666|37|K|Itai Cabrera Fernández|Verksamhetsutvecklare, 35 år
+C|187667|52|M|Håkan Hultgren|Handläggare, 52 år
+C|187668|47|K|Paula Fuenzalida|Kulturarbetare/lärare, 47 år

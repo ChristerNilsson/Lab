@@ -1,8 +1,163 @@
-2|77039|74265|75057|77042|77043|77049|77050|76013|76010|77053|77145|77146|77147|77148|77149|77150|77299|22209|77301|77302|77303|75682|77376|77377|77378|77379|77380|77479|77480|77481|77482|77483|77484|77485|471319|77534|77535|77536|77537|77538
-4|27435|27436|27437|27438|27439|27440|27441|27442|27443|27444|27445|27446|27447|27448|27449|27450|27451|27452|27453|27454
-68|293333|301511|301512|301513|301514|301515|301516
-3|31349|28192|62100|62101|211036|31344|211038|211039|62103|62104|211042|28197|211044|211045|62106
-55|414558|414559|414560|414561|414562|414563|414564|414565
-1|628|39671|39673|39674|39675|39676|609|39678|39679|39680|39681|39682|39685|39686|650|39688|39689|39690|39691|56176
-110|124859|124869|126133|124871|126135|126136|124891|126138|126139|126141|126142|126143|124920|126145|124922|126147
-5|107207|107208|107209|107210|107211|107212|107213|107215|107216|107218|107219|107220|107221|107222|107223|107224|107225|107226|30470|107228
+T|Kristinehamn
+A|2|77039|74265|75057|77042|77043|77049|77050|76013|76010|77053|77145|77146|77147|77148|77149|77150|77299|22209|77301|77302|77303|75682|77376|77377|77378|77379|77380|77479|77480|77481|77482|77483|77484|77485|471319|77534|77535|77536|77537|77538
+A|4|27435|27436|27437|27438|27439|27440|27441|27442|27443|27444|27445|27446|27447|27448|27449|27450|27451|27452|27453|27454
+A|68|293333|301511|301512|301513|301514|301515|301516
+A|3|31349|28192|62100|62101|211036|31344|211038|211039|62103|62104|211042|28197|211044|211045|62106
+A|55|414558|414559|414560|414561|414562|414563|414564|414565
+A|1|628|39671|39673|39674|39675|39676|609|39678|39679|39680|39681|39682|39685|39686|650|39688|39689|39690|39691|56176
+A|110|124859|124869|126133|124871|126135|126136|124891|126138|126139|126141|126142|126143|124920|126145|124922|126147
+A|5|107207|107208|107209|107210|107211|107212|107213|107215|107216|107218|107219|107220|107221|107222|107223|107224|107225|107226|30470|107228
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|77039|70|K|Ingrid-Märta Grönlie|Sjöändan
+C|74265|62|M|Bjarne Olsson|62 år, Kristinehamn
+C|75057|69|K|Inga-Lill Röhr|69 år, Kristinehamn
+C|77042|56|M|Lars Nilsson|Villastaden
+C|77043|63|K|Helen Einarsson|Bäckhammar
+C|77049|57|M|Krister Nyström|Innerstan
+C|77050|72|K|Anita Johansson|Sunneberg
+C|76013|34|M|Samuel Carlén|34 år, Kristinehamn
+C|76010|65|K|Kajsa Adolfsson|66 år, Kristinehamn
+C|77053|27|M|Johannes Fransson|Södermalm
+C|77145|45|K|Karin Ardefelt|Innerstan
+C|77146|38|M|Ulf Engström|Sandfallet
+C|77147|63|K|Bisera Bucuk|Innerstan
+C|77148|66|M|Bo Andersson|Innerstan
+C|77149|63|K|Annika Karlsson|Kurlanda
+C|77150|58|M|Lars Andersson|Malmen
+C|77299|61|K|Cristina Hjalmarsson|Innerstan
+C|22209|42|M|Thomas Andersson|42 år, Kristinehamn
+C|77301|59|K|Camilla Andreasson|Ålkärr
+C|77302|74|M|Svante Persson|Östermalm
+C|77303|59|K|Helga Braathen|Östervik
+C|75682|40|M|Jerry Andergrahn|40 år, Kristinehamn
+C|77376|52|K|Dhuha Al-Azzawi|Östermalm
+C|77377|59|M|Per Gustafsson|Djurgården
+C|77378|39|K|Mikaela Lindberg|Innerstan
+C|77379|69|M|Ulf Granhagen|Karlsholm
+C|77380|66|K|Christine Sandström|Innerstan
+C|77479|36|M|Stefan Sjöström|Innerstan
+C|77480|66|K|Carina Johansson|Malmen
+C|77481|68|M|Lars Johansson|Sanna
+C|77482|74|K|Ann-Charlotte Halvarsson|Enserud
+C|77483|49|M|Asem Zaidan|Storfors
+C|77484|69|K|Rigmor Linne|Östermalm
+C|77485|62|M|Bo Bengtsson|Konsterud
+C|471319|77|M|Miguel Gil|Stenfallet
+C|77534|71|K|Christina Dellwik|Djurgården
+C|77535|73|M|Stig Persson|Björneborg
+C|77536|64|M|Ulf Persson|Strand
+C|77537|71|M|Tord Rosén|Malmen
+C|77538|68|M|Bo Adolfsson|Ölme
+C|27435|47|M|Adam Slottner|Kristinehamn, 47 år, Företagare
+C|27436|63|K|Jane Larsson|Kristinehamn, 63 år, Landstingsråd
+C|27437|45|M|Anders Ölmhult|45 år, Företagare, Ölme
+C|27438|64|K|Monika Gustavsson|Kristinehamn, 64 år, f.d. Banktjänsteman
+C|27439|77|M|Gert Cordes|77 år, Ingenjör, Björneborg
+C|27440|75|K|Marianne Cederhagen-Cordes|74 år, Projektledare, Björneborg
+C|27441|58|M|Erik Ågren|Kristinehamn, 58 år, Lantbrukare
+C|27442|37|K|Johanna Gustavsson|37 år, Undersköterska, Visnums-Kil
+C|27443|53|M|Göran Larsson|53 år, Företagare, Vike,
+C|27444|61|K|Ingrid Gustavsson|62 år, Undersköterska, Visnums-Kil
+C|27445|63|M|Lars Pehrson|63 år, Företagare, Rudskoga
+C|27446|18|K|Alva Slottner|18 år, Studerande, Vike
+C|27447|75|M|Roger Larsson|74 år, Pensionär, Kristinehamn
+C|27448|70|K|Annette Karlsson|70 år, Arbetsledare, Kristinehamn,
+C|27449|39|M|Andreas Larsson|39 år, Företagare, Ölme
+C|27450|63|K|Diana Nilsson|Kristinehamn, 63 år, Svetsare
+C|27451|28|M|Yunus Erol|28 år, Företagare, Kristinehamn
+C|27452|40|K|Anita Ingman-Erol|40 år, Kriminalvårdare, Bäckhammar
+C|27453|67|M|Bengt Salander|67 år, Pensionär, Kristinehamn
+C|27454|67|K|Gunnel Karlsson|67 år, Undersköterska, Visnum-Kil
+C|293333|66|K|Ellen Skaare Håkansson|administratör, Kristinehamn
+C|301511|54|K|Domitille Niyitegeka|lärare/forskare
+C|301512|51|M|Urban Svennberg|tekn. dr.
+C|301513|66|M|Jan-Björn Jenssen|bussförare
+C|301514|78|M|Lennart Nyqvist|miljöchef
+C|301515|61|K|Linnéa Kihlström|diakon
+C|301516|53|M|Fredrik Maxstad|nc-operatör
+C|31349|59|K|Eva Julin Dombrowe|egenföretagare, 59 år, Kristinehamn
+C|28192|36|M|Eric Hesselius|egenföretagare, 36 år, Kristinehamn
+C|62100|75|K|Ewa Wiklander|
+C|62101|68|M|Bo Olson|
+C|211036|74|K|Lisbeth Lönnberg|
+C|31344|34|M|Thomas Bäckman|restaurangchef, 34 år, Kristinehamn
+C|211038|38|K|Shila Rayankia|
+C|211039|32|M|Niklas Olsson|
+C|62103|74|K|Naeimy Blücher Johansson|
+C|62104|43|M|Morgan Mellgren|
+C|211042|49|K|Lena Halla-Aho|
+C|28197|25|M|Dan-Aria Sucuri|kommunikatör, 25 år, Kristinehamn
+C|211044|61|M|Tommy Gustavsson|
+C|211045|72|M|Jan Norin|
+C|62106|77|K|Lena Falch Andersen|
+C|414558|38|K|Christina Larsson|38 år, personlig assistent, Kristinehamn
+C|414559|49|M|Tommie Bodin|49 år, kriminalinspektör, Kristinehamn
+C|414560|68|K|Louise Hamilton|68 år, f d sjuksköterska
+C|414561|28|M|Oscar Askling|28 år, limnolog
+C|414562|58|K|Marianne Bodin|58 år, boendestödjare
+C|414563|30|K|Louise Böhm|30 år, administratör
+C|414564|19|K|Sara Kristoffersson|19 år, studerande
+C|414565|71|K|Agnes Utter|71 år, holistiker, Kristinehamn
+C|628|49|K|Marie Oudin|undersköterska/kommunalråd, Kristinehamn
+C|39671|76|K|Monica Marker|Kristinehamn
+C|39673|69|M|Mats Hahne|Kristinehamn
+C|39674|72|M|Lars Gustafson|Kristinehamn
+C|39675|72|K|Sonja Höglund|Kristinehamn
+C|39676|66|M|Hans Karlsson|Kristinehamn
+C|609|75|M|Torsten Bergstedt|pensionerad överstelöjtnant, Kristinehamn
+C|39678|19|K|Andrea Lundin-Johansson|Björneborg
+C|39679|75|M|Björn Nyström|Kristinehamn
+C|39680|62|M|Leif Andersson|Kristinehamn
+C|39681|47|M|Tommy Fredriksson|Kristinehamn
+C|39682|60|M|Mats Larsson|Kristinehamn
+C|39685|27|M|Lucas Sjors Reitsma|Kristinehamn
+C|39686|62|M|Stefan Udnie|Kristinehamn
+C|650|76|M|Stellan Jansson|pensionerad överstelöjtnant, Kristinehamn
+C|39688|74|M|Larsgöran Larsson|Kristinehamn
+C|39689|36|M|Andreas Stor|Kristinehamn
+C|39690|83|M|Åke Thörnesjö|Kristinehamn
+C|39691|73|M|Christian Sundby|Bäckhammar
+C|56176|46|M|Henrik Sjöberg|Kristinehamn
+C|124859|66|M|Paul Brännlund|Egenföretagare, Kristinehamn
+C|124869|54|K|Gunilla Persson|Undersköterska, Kristinehamn
+C|126133|73|M|Jörgen Wessman|73, Pensionär
+C|124871|61|M|Jonny Tegelaar|61, Målare, Kristinehamn
+C|126135|72|M|Lars Flykt|72, Pensionär
+C|126136|55|M|Kjell Jansson|55, Tjänsteman
+C|124891|43|K|Linda Svensson|43, Undersköterska, Kristinehamn
+C|126138|30|M|Niklas Johansson|30, Maskinoperatör
+C|126139|64|M|Håkan Vase Wickström|64, Marknadskonsult
+C|126141|51|M|Joakim Ektorp|51, Egen företagare
+C|126142|61|M|Jonny Jansson|61, Konsult
+C|126143|53|M|Mats Ridde|53, NC-operatör
+C|124920|55|K|Ann-Christine Tegelaar|55, Processoperatör, Kristinehamn
+C|126145|51|M|Mikael Lönn|51, Konsult
+C|124922|55|M|Jan-Erik Carlsson|55, Metallarbetare, Kristinehamn
+C|126147|66|M|Jan Fransson|66, Egen företagare
+C|107207|31|K|Therese Larsson|
+C|107208|68|M|Björn Johansson|
+C|107209|51|K|Anne-Marie Wallouch|
+C|107210|71|M|Magnus Wallengren|
+C|107211|40|K|Maria Moberg Stephenson|
+C|107212|24|M|Christoffer Persson Loiske|
+C|107213|66|K|Elisabeth Zadik|
+C|107215|72|K|Ginger Johansson|
+C|107216|65|M|Lars Östh|
+C|107218|64|M|Kenneth Jonsson|
+C|107219|60|K|AnnBritt Schmützer|
+C|107220|87|M|Drago Vasiljevic|
+C|107221|54|K|Monica Skan|
+C|107222|65|M|Qela Gjonbalaj|
+C|107223|60|K|Aryana Esfandiary|
+C|107224|38|M|Fode Bodian|
+C|107225|49|K|Annica Arvidsson|
+C|107226|55|K|Åsa Askeskär|
+C|30470|68|M|Anders Zadik|68 år, Kristinehamn, pensionär
+C|107228|68|K|Eva Wermelin|

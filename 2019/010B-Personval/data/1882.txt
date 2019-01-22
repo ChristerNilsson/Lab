@@ -1,9 +1,165 @@
-2|193736|193737|193738|193739|193740|193742|193743|193744|193745|193746|193747|193748|193749|193750|193751|193752|193753|193754|193755|193756|193757|193758|193759|193760|193761|193762|193763|193764|193765|193766|193767|193768|193769|193770|193771|193772|193773|193774|193775|193776|193777|193778|193779|193780|193781|193782
-4|57743|57744|57745|57746|57747|57748|57749|57750|57751|57752|57753|57754|57755|57756|57757|57758|57759|57760|57761|57762|57763|57764
-68|192816|192817|192818|192819|192820|192821|192822|192823|192824|192825|192826|192827|192828|192829|192830|192831
-1011|131525|191501
-3|26948|246037|26939|246039|246040
-55|122969|124280|124281|122960|124283|124284|124285
-1|26546|26508|26843|26844|26845|26492|26847|26848|26849|26501|26852|26853|26854|26855|26856|26509|26858|26859|26860|26862|26863|26864|26865|26867|26868
-110|72613|72614|72615|72616|72617|510624|512556|515611
-5|157492|157493|157494|157495|157496|157497|157498|157499|157500|157501|157502|157503|157504|157505|157506
+T|Askersund
+A|2|193736|193737|193738|193739|193740|193742|193743|193744|193745|193746|193747|193748|193749|193750|193751|193752|193753|193754|193755|193756|193757|193758|193759|193760|193761|193762|193763|193764|193765|193766|193767|193768|193769|193770|193771|193772|193773|193774|193775|193776|193777|193778|193779|193780|193781|193782
+A|4|57743|57744|57745|57746|57747|57748|57749|57750|57751|57752|57753|57754|57755|57756|57757|57758|57759|57760|57761|57762|57763|57764
+A|68|192816|192817|192818|192819|192820|192821|192822|192823|192824|192825|192826|192827|192828|192829|192830|192831
+A|1011|131525|191501
+A|3|26948|246037|26939|246039|246040
+A|55|122969|124280|124281|122960|124283|124284|124285
+A|1|26546|26508|26843|26844|26845|26492|26847|26848|26849|26501|26852|26853|26854|26855|26856|26509|26858|26859|26860|26862|26863|26864|26865|26867|26868
+A|110|72613|72614|72615|72616|72617|510624|512556|515611
+A|5|157492|157493|157494|157495|157496|157497|157498|157499|157500|157501|157502|157503|157504|157505|157506
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|193736|56|M|Per Eriksson|56 år, Askersund
+C|193737|60|K|Inger Trodell Dahl|60 år,Askersund
+C|193738|59|M|Ronny Larsson|58 år, Askersund
+C|193739|59|K|Siv Ahlstrand|59 år, Askersund
+C|193740|59|M|Johan Calais|59 år, Askersund
+C|193742|44|M|Tomas Vynge|44 år, Askersund
+C|193743|67|K|Solveig Samuelsson|67 år, Askersund
+C|193744|63|M|Rolf Karlsson|62 år, Askersund
+C|193745|51|K|Marina Carlsson|51 år, Askersund
+C|193746|58|M|Peter Thuresson|58 år, Mariedamm
+C|193747|52|K|Ylva Jönsson|52 år, Åsbro
+C|193748|76|M|Kurt Blomqvist|76 år, Askersund
+C|193749|53|K|Lotta Norling Larsson|53 år, Rönneshytta
+C|193750|56|M|Bo Pettersson|56 år, Askersund
+C|193751|48|K|Ann-Louise Karlsson|48 år, Nydalen
+C|193752|63|M|Kenneth Johansson|63 år, Skyllberg
+C|193753|64|K|Inger Larsson|63 år, Åmmeberg
+C|193754|58|M|Jan-Olov Carlsson|58 år, Askersund
+C|193755|72|K|Elisabeth Lennartsson|72 år, Olshammar
+C|193756|46|M|Tomas Olsson|46 år, Askersund
+C|193757|72|K|Margaret Englund|72 år, Askersund
+C|193758|68|M|Habib Slivo|68 år, Askersund
+C|193759|54|K|Anette Persson|55 år, Hammar
+C|193760|43|M|Faisal Alhaji Mustafa|43 år, Askersund
+C|193761|55|K|Siv Pettersson|55 år, Askersund
+C|193762|43|M|Per Hesse|43 år, Askersund
+C|193763|39|K|Linda Arndt|39 år, Skyllberg
+C|193764|76|M|Leif-Åke Johansson|75 år, Askersund
+C|193765|54|K|Viveka Karlsson|54 år, Åmmeberg
+C|193766|68|M|Ulf Eriksson|68 år, Askersund
+C|193767|40|K|Monika Andersson|40 år, Askersund
+C|193768|48|M|Frank von Grüner|48 år, Rönneshytta
+C|193769|77|K|Annhild Blomqvist|77 år, Askersund
+C|193770|52|M|Tomas Renström|52 år, Mariedamm
+C|193771|46|K|Åsa Pitkänen|46 år, Askersund
+C|193772|67|M|Kent Larsson|67 år, Åmmeberg
+C|193773|68|K|Elise-Marie Lövkvist-Sjödahl|68 år, Askersund
+C|193774|75|M|Lars Kullberg|75 år, Askersund
+C|193775|60|M|Leif Johansson|60 år, Askersund
+C|193776|75|M|Lennart Lindvall|75 år, Zinkgruvan
+C|193777|55|K|Susanne Hedelius|55 år, Åmmeberg
+C|193778|74|M|Kjell Ström|74 år, Skyllberg
+C|193779|55|M|Daniel Lundh|55 år, Åsbro
+C|193780|27|M|Emil Kaufelt|27 år, Hammar
+C|193781|72|M|Sven Samuelsson|72 år, Askersund
+C|193782|48|M|Erik König|48 år, Mariedamm
+C|57743|62|M|Billy Ludvigsson|62 år, arbetsledare, Askersund
+C|57744|58|M|Kjell Johansson|Aspa Bruk
+C|57745|70|K|Kerstin Svärd|Åmmeberg
+C|57746|55|M|Peter Danielsson|Askersund
+C|57747|30|M|Johan Danielsson|Askersund
+C|57748|74|K|Birgitta Fredriksson|Hammar
+C|57749|50|M|Nicklas Oskarsson|Snavlunda
+C|57750|57|K|Monika Davidsson|Askersund
+C|57751|49|K|Anna Oskarsson|Snavlunda
+C|57752|58|M|Per Willén|Askersund
+C|57753|18|K|Tindra Johansson|Aspa Bruk
+C|57754|75|M|Bengt Svärd|Åmmeberg
+C|57755|56|K|Gudrun Haglund-Eriksson|Närkesberg
+C|57756|79|M|Bo Björnberg|Mariedamm
+C|57757|52|K|Katarina Danielsson|Askersund
+C|57758|46|M|Magnus Johansson|Åsbro
+C|57759|69|M|Leif Bolling|Askersund
+C|57760|21|M|Erik Olsson|Askersund
+C|57761|66|K|Birgitta Lindblad|Snavlunda
+C|57762|73|M|Rolf Carlsson|Hammar
+C|57763|72|K|Birgitta Karlsson|Askersund
+C|57764|78|M|Bo Karlsson|Närkesberg
+C|192816|48|M|Klas Folenius|Egen företagare, Åsbro
+C|192817|37|K|Anna Lundbom Hermansson|Studerande, Rönneshytta
+C|192818|38|M|Mattias Hult|Konsult, Zinkgruvan
+C|192819|59|K|Ylva Lundbom|Arbetsledare, Rönneshytta
+C|192820|65|M|Erling Johansson|Elektriker, Askersund
+C|192821|75|M|Torsten Jacobsson|Pensionär, Askersund
+C|192822|64|K|AnnaMaj Björk|Butikschef, Askersund
+C|192823|59|M|Hans Sedström|Skolsköterska, Askersund
+C|192824|63|K|Elsie-Britt Elf|Distriktskonsultent, Askersund
+C|192825|66|M|Michael Brittenstrand|Undersköterska, Åsbro
+C|192826|59|K|Carola Mattsson|Sjuksköterska, Stora Forsa
+C|192827|37|M|Jason Yehan Shi|Handlare, Åsbro
+C|192828|81|K|Britta Eriksson|Pensionär, Åsbro
+C|192829|67|M|Håkan Elf|Pensionär, Askersund
+C|192830|60|M|Thomas Davidsson|Operativ chef, Askersund
+C|192831|70|M|Örjan Elf|Pensionär, Askersund
+C|131525|65|K|Ulla-Carin Grafström|Animatör, Örebro
+C|191501|71|M|Karl-Eric Möller|Skogs- och jordbrukare, Askersund
+C|26948|76|M|Staffan Korsgren|76 år, pensionär, Askersund
+C|246037|54|M|Fredrik Wernheden|58 år, tjänsteman, Åsbro
+C|26939|37|K|Jeanette Nilsson|37 år, USKA studerande, Åsbro
+C|246039|81|K|Gunilla Högberg|81år, konsult, Askersund
+C|246040|60|M|Lars Karlsson|60 år, jurist, Askersund
+C|122969|66|K|Margareta Widell|66 år, distriktssköterska, Askersund
+C|124280|57|K|Anne Helgesson|kommunikatör, Åsbro
+C|124281|43|K|Anna Gransten|gymnasielärare, Åsbro
+C|122960|69|K|Ingrid Fries Hansson|69 år, biologilärare och pensionär, Askersund
+C|124283|56|M|Tord Helgesson|gymnasielärare, Åsbro
+C|124284|73|K|Margaretha Ebbmar Berhin|pensionär, Svinnersta
+C|124285|40|M|Christian Karlsson|terminalarbetare, Askersund
+C|26546|44|K|Caroline Dieker|landskapsarkitekt, Askersund
+C|26508|67|M|Rene Francis|vd, Askersund
+C|26843|46|K|Johanna Martin|vik. lärare
+C|26844|46|M|Linus Thomas|säljare
+C|26845|72|K|Calill Ohlson|företagare
+C|26492|65|M|Arne Kumm|företagare, Askersund
+C|26847|45|K|Veronica Wiberg|leg. sjuksköterska
+C|26848|48|M|Per Johansson|skogsmästare
+C|26849|40|K|Sofia Härdvall Hansson|leg. sjuksköterska
+C|26501|63|M|René Rijns|verksamhetsutvecklare, Askersund
+C|26852|45|M|Andreas Hansson|gruvarbetare
+C|26853|46|K|Niina Iinatti|lärare
+C|26854|65|M|Jan-Åke Looström|begravningsentrepenör
+C|26855|33|M|Sebastian Andersson|processoperatör
+C|26856|69|K|Vivi-Anne Wellermo|undersköterska
+C|26509|50|K|Meliha Mehmed|undersköterska, Askersund
+C|26858|43|K|Beatrice Eklind|språklärare
+C|26859|34|M|Billy Gilbertsson|företagare
+C|26860|46|K|Tove Dieker|distriktssköterska
+C|26862|43|M|Håkan Dieker|lantmästare
+C|26863|73|M|Bo Sylwan|mikrobiolog
+C|26864|71|K|Christina Müntzing|ekonom
+C|26865|74|M|Gustaf Svensson|civilingenjör
+C|26867|76|M|Tord Sandgren|företagare
+C|26868|71|M|Per-Olof Thulin|projektledare
+C|72613|46|M|Jonas Bygdén|Ingenjör, 46 år
+C|72614|45|K|Karin Bygdén|Kock, 45 år
+C|72615|75|M|Carl-Eric Åneby|Pensionär, 75 år
+C|72616|76|M|Jan Gullstrand|Pensionär, 76 år
+C|72617|65|K|Elisabeth Petersson|65 år, Pensionär, Askersund
+C|510624|36|K|Lina Fogelqvist Särén|
+C|512556|36|K|Maria Lilja|
+C|515611|48|M|Peter Schmidt|
+C|157492|58|M|Rune Karlsson|f.d. Mekaniker, Askersund
+C|157493|53|K|Katarina Raneborn|Egen företagare, Askersund
+C|157494|43|M|Björn Naesje|It-konsult, Askersund
+C|157495|50|K|Annika Finnström|Pedagog, Askersund
+C|157496|58|M|Lars Åke Zettergren|Lokförare, Åsbro
+C|157497|56|K|Lena Östring|sjukpensionär, Askersund
+C|157498|43|K|Rana Kassem|Studerande, Askersund
+C|157499|35|K|Johanna Fälth|Administrativ assistent, Askersund
+C|157500|41|K|Sara Hägerås|Undersköterska, Askersund
+C|157501|59|K|Tiina Huhtala Fransson|Auktoriserad socionom, Askersund
+C|157502|43|K|Majdolin Alagbash|Barnskötare, Askersund
+C|157503|26|K|Linnea Zetterström|Industriarbetare, Askersund
+C|157504|72|K|Gunnel Ask|Pensionär, Askersund
+C|157505|61|K|Gunnel Zetterström|Lokalvårdare, Askersund
+C|157506|61|M|Gert Johansson|Svetsare, Askersund

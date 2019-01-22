@@ -1,10 +1,238 @@
-2|146953|146954|146955|146956|146957|146958|146959|146960|146961|146962|146963|146964|146965|146966|146967|146968|146969|146970|146971|146972|146973|173187|146974|146976|146977|146978|146979|146980|146981|146982|146983|146984|146985|146986|146987|146988|146989|146990|146991|146992|146993|146994|146995|146996|146997|146998
-4|178007|178008|178009|178010|178011|178012|178013|178014|178015|178016|178017|178018|178019|189770|189771|189772|189773|189774|189775|189776|189777|189778|189779|189780|189781|189782|189783|189784|189785
-68|278054|278055|278056|278057|278058|278145|278059|278060|278148|278061|278150|278151|278152|278062|278063|278064|277375|278066|278158|278067|278068|278069|278162|278163|278070|277361|278072
-3|277868|277869|277870|277871|277872|277873|277874|277875|277876|277877|277878|277879|277880|277881|277882|277883|277884|277885|277886|277887|277888|277889|277890|277891|277892|277893|277894|277895|277896|277897|277898|277899|277900|277901|277902|277903|277904|277905|277906|277907|277908
-1296|280077
-55|118785|118786|118787|118788|118789|118790|118791|118792|118793|118794|118795|118796|118797
-1|254170|253917|418147|418148|418149|418150|418151|418152|418153|418154|418155|418156|418157|418158|418159|418160|418161|426504|426505|426506|254155|426508|426509|426510|426511|426512|426513|426514|426515|426516|426517|426518|426519
-110|61327|216896|61346|216898|216899|216900|216901|216902
-1196|396119|396120|396121|396127|396126|396122|396124|396128|396129|396130|396125|396131|396123|512610|515744
-5|160739|160748|199370|199371|199372|284308
+T|Tjörn
+A|2|146953|146954|146955|146956|146957|146958|146959|146960|146961|146962|146963|146964|146965|146966|146967|146968|146969|146970|146971|146972|146973|173187|146974|146976|146977|146978|146979|146980|146981|146982|146983|146984|146985|146986|146987|146988|146989|146990|146991|146992|146993|146994|146995|146996|146997|146998
+A|4|178007|178008|178009|178010|178011|178012|178013|178014|178015|178016|178017|178018|178019|189770|189771|189772|189773|189774|189775|189776|189777|189778|189779|189780|189781|189782|189783|189784|189785
+A|68|278054|278055|278056|278057|278058|278145|278059|278060|278148|278061|278150|278151|278152|278062|278063|278064|277375|278066|278158|278067|278068|278069|278162|278163|278070|277361|278072
+A|3|277868|277869|277870|277871|277872|277873|277874|277875|277876|277877|277878|277879|277880|277881|277882|277883|277884|277885|277886|277887|277888|277889|277890|277891|277892|277893|277894|277895|277896|277897|277898|277899|277900|277901|277902|277903|277904|277905|277906|277907|277908
+A|1296|280077
+A|55|118785|118787|118788|118789|118790|118791|118792|118793|118794|118795|118796|118797
+A|1|254170|253917|418147|418148|418149|418150|418151|418152|418153|418154|418155|418156|418157|418158|418159|418160|418161|426504|426505|426506|254155|426508|426509|426510|426511|426512|426513|426514|426515|426516|426517|426518|426519
+A|110|61327|216896|61346|216898|216899|216900|216901|216902
+A|1196|396119|396120|396121|396127|396126|396122|396124|396128|396129|396130|396125|396123|512610|515744
+A|5|160739|160748|199370|199371|199372|284308
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1196|TJÖP|TJÖRNPARTIET
+B|5|V|Vänsterpartiet
+C|146953|61|M|Benny Andersson|ARÖD
+C|146954|70|K|Rosalie Sanyang|HAKENÄSET
+C|146955|49|M|Rikard Larsson|folkbildare, Tjörn
+C|146956|44|K|Christy Whiddon|HÖVIKSNÄS
+C|146957|59|M|Benny Halldin|KÅTORP
+C|146958|74|K|Maud Hultberg|KLÖVEDAL
+C|146959|62|M|Jan Berndtsson|SKÄRHAMN
+C|146960|61|K|Annica Johansson|SKÄRHAMN
+C|146961|28|M|Klaes Lundin Eide|KÅLLEKÄRR
+C|146962|52|K|Anette Johannessen|HAKENÄSET
+C|146963|30|M|Oscar Andersson|RÖNNÄNG
+C|146964|60|K|Birgitta Bengtsson|KYRKESUND
+C|146965|25|M|John Sporrong|elektriker, Tjörn
+C|146966|66|M|Bert-Inge Nordberg|LILLA ASKERÖN
+C|146967|52|K|Helena Jonsson|socionom, Tjörn
+C|146968|70|M|Björn Sporrong|HÖVIKSNÄS
+C|146969|77|K|Siv Ogeman|RÖNNÄNG
+C|146970|67|M|Lars-Olof Henriksson|HÖVIKSNÄS
+C|146971|22|K|Linnèa Vargadottra|HÖVIKSNÄS
+C|146972|72|M|Gerhard Bernhardsson|KLÖVEDAL
+C|146973|68|K|Barbro Leidzén|KÅTORP
+C|173187|67|M|Hans Strandberg|förskolelärare, Tjörn
+C|146974|28|K|Hanna Lilja|SIBRÄCKA
+C|146976|68|K|Ann-Mari Broberg|KLÖVEDAL
+C|146977|44|M|Per-Albin Halldin|HÖVIKSNÄS
+C|146978|44|K|Isabell Eriksson|KÅLLEKÄRR
+C|146979|42|M|Martin Jonsson|HJÄLTEBY
+C|146980|65|K|Lena Andersson|KYRKESUND
+C|146981|88|K|Mary Lottsson|SKÄRHAMN
+C|146982|71|M|Helge Andersson|KYRKESUND
+C|146983|71|K|Inger Bengtsson|SKÄRHAMN
+C|146984|49|M|Peter Bäcklund|SKÄRHAMN
+C|146985|80|K|Mona Olausson|SÄBY
+C|146986|64|M|Lars Lundin|SKÄRHAMN
+C|146987|74|K|Eva Bertilsson Styvén|RÖNNÄNG
+C|146988|30|M|Herman Gustafsson|SIBRÄCKA
+C|146989|68|M|Eskil Andreasson|HJÄLTEBY
+C|146990|55|M|Morgan Andersson|KÅLLEKÄRR
+C|146991|70|M|Jan-Evert Halldin|KÅTORP
+C|146992|63|M|Ove Berntsson|KLÖVEDAL
+C|146993|29|M|Stefan Lottsson|SKÄRHAMN
+C|146994|71|M|Magnus Claesson|pensionerad systemanalytiker, Tjörn
+C|146995|66|M|Mats Simonsson|KLÖVEDAL
+C|146996|85|M|Lars Käck|SKÄRHAMN
+C|146997|66|M|Christer Tegemo|KLÖVEDAL
+C|146998|66|M|Christer Olofsson|KYRKESUND
+C|178007|67|M|Henry Hermansson|Kärrslätt
+C|178008|84|K|Inga Olsson|Olsnäs
+C|178009|67|M|Bengt Andersson|Tolleby
+C|178010|66|M|Ulf Mellin|Höviksnäs
+C|178011|48|K|Jessica Bergstedt|Valsäng
+C|178012|55|M|Mikael Ribeck|Kålleskärr
+C|178013|65|K|Irene Gustavsson|Gåseknöde
+C|178014|44|M|Johan Sjöholm|Tyft
+C|178015|76|K|Märta Johansson|Bö
+C|178016|65|K|Karin Mattsson|Nordviksberg
+C|178017|76|M|Roger Karlsson|Halsbäck
+C|178018|75|K|Ulla Rutgersson|Haketorp
+C|178019|50|M|Bernt Berntsson|50 år, speditionschef, Tjörn
+C|189770|69|M|George Strömbom|Höviksnäs
+C|189771|72|M|Frank Holvik|Klädesholmen
+C|189772|26|K|Emelie Holgersson|26 år, försäkringsrådgivare, Tjörn
+C|189773|64|M|Anders Andersson|Rönnäng
+C|189774|49|K|Maria Holgersson|Skärhamn
+C|189775|74|M|Björn Eskilsson|Brok
+C|189776|75|K|Birgit Börjesson|Grinneröd
+C|189777|66|M|Robert Mattsson|Nordviksberg
+C|189778|58|M|Lars-Gunnar Andersson|Surdal
+C|189779|21|K|Camilla Olsson|Kålleskärr
+C|189780|79|M|Rolf Sillfors|Brok
+C|189781|52|M|Conny Johansson|Siröd
+C|189782|45|K|Sandra Olsson|Valsäng
+C|189783|74|M|Malte Johannisson|Utäng
+C|189784|50|M|Håkan Berntsson|Skärhamn
+C|189785|70|M|Robert Bull|Höviksnäs
+C|278054|68|M|Rolf Persson|Egenföretagare, Klövedal
+C|278055|68|M|Dan Gustafsson|Skärhamn
+C|278056|68|M|Magne Hallberg|Åstol
+C|278057|34|K|Martina Gullbrandsson|Rönnäng
+C|278058|60|M|Jörgen Myrberg|Skärhamn
+C|278145|68|M|Sivert Rutgersson|Klädesholmen
+C|278059|68|M|Berne Petersson|Dyrön
+C|278060|74|K|Barbro Johansson|Skärhamn
+C|278148|64|K|Marie Karlsson|Klädesholmen
+C|278061|55|M|Lars Andersson|Rönnäng
+C|278150|53|M|Anders Bråse|Klädesholmen
+C|278151|62|K|Liselotte Holmgren-Gadd|Rönnäng
+C|278152|63|K|Renée Lorentzon|Dyrön
+C|278062|44|K|Marie Bronedahl|Bleket
+C|278063|64|M|Per-Aste Persson|Klädesholmen
+C|278064|78|M|Lennart Olsson|Skärhamn
+C|277375|49|M|Kent Kihlberg|Servicechef, Myggenäs
+C|278066|64|K|Margith Hansson|Kållekärr
+C|278158|40|M|Daniel Ulmfelt|Skärhamn
+C|278067|54|K|Ann-Charlotte Axelsson|Rönnäng
+C|278068|59|M|Jan-Åke Axelsson|Klövedal
+C|278069|67|K|Annika Gullbrandsson|Rönnäng
+C|278162|30|M|Linus Ström|Klädesholmen
+C|278163|47|K|Sylvia Lorentsson Laitinen|Dyrön
+C|278070|66|K|Reidun Lorentzon|Dyrön
+C|277361|66|M|Roland Flyckt|Pensionär, Åstol
+C|278072|56|K|Annelie Myrberg|Skärhamn
+C|277868|47|M|Martin Johansen|47, kommunalråd, Tjörn
+C|277869|54|K|Gun Alexandersson Malm|54 år, Arbetsrättsjurist, Rönnäng
+C|277870|60|M|Gunnemar Olsson|60 år, Konstruktionsledare, Tångeröd
+C|277871|64|K|Inga-Lill Hast|65, jurist, Tjörn
+C|277872|54|M|Peter Andersson|54, chef, Tjörn
+C|277873|58|K|Ewa-Lena Svensson|58 år, Personalsekreterare, Skärhamn
+C|277874|69|M|Lennart Rosén|69 år, Civilekonom, Myggenäs
+C|277875|72|K|Benita Nilsson|72 år, Lärare, Nordvik
+C|277876|75|M|Hans Kristensson|75 år, Pensionär, Rönnäng
+C|277877|56|K|Elisabeth Hansson|56 år, Företagare, Skärhamn
+C|277878|27|M|Filip Malm|27 år, Advokat, Rönnäng
+C|277879|70|K|Birgitta Adolfsson|70, lärare, Tjörn
+C|277880|43|M|Daniel Hjerpe|43 år, Kommunpolis, Almösund
+C|277881|56|K|Annika Andersson|56 år, Redovisningsekonom, Hövik
+C|277882|50|M|Niklas Emilsson|50 år, Drifttekniker, Skärhamn
+C|277883|56|K|Aida Tegeltija|56 år, Enhetschef, Skärhamn
+C|277884|59|M|Morgan Bråse|59 år, Kvalitetschef, Klädesholmen
+C|277885|46|K|Christina Widlund|46 år, Utvecklingsingenjör, Skärhamn
+C|277886|65|M|Christer Hermansson|65 år, Pensionär, Gamla Höviksnäs
+C|277887|54|K|Lisa Nestorsson|54 år, Fotograf, Skärhamn
+C|277888|64|M|Leif Runesson|64 år, Arbetsledare, Skärhamn
+C|277889|58|K|Anette Wallin|58 år, Undersköterska, Kållekärr
+C|277890|75|K|Monica Pettersson|75 år, Tandsköterska, Skärhamn
+C|277891|53|M|Kenneth Hermansson|53 år, Inköpare, Kållekärr
+C|277892|38|K|Maria Farsén|38 år, Ekonomichef, Skärhamn
+C|277893|44|K|Amelie Jensnäs-Joäng|44 år, Barnmorska, Kållekärr
+C|277894|77|M|Lars Erik Petterson|77 år, Pensionär, Gamla Myggenäs
+C|277895|27|K|Isabelle Olsson|28 år, Personlig Assistent, Myggenäs
+C|277896|60|K|Ann Malmsten|60 år, Konsult, Gamla Höviksnäs
+C|277897|64|M|Göran Hast|64 år, Pensionär, Myggenäs
+C|277898|75|K|Birgitta Rutgersson|75 år, Pensionär, Valsäng
+C|277899|54|K|Carina Andersson|54 år, Enhetschef hemsjukvård, Hjälteby
+C|277900|62|M|Robert Hansson|62 år, Företagare, Skärhamn
+C|277901|47|K|Lisa Adolfsson|47 år, Rektor, Skärhamn
+C|277902|55|K|Anna Svahn|55 år, Förskollärare, Höviksnäs
+C|277903|34|M|Johan Rosén|34 år, Plåtslagare, Kyrkesund
+C|277904|43|K|Ewa Hjerpe|43 år, Sjuksköterska, Almösund
+C|277905|59|K|Marie Oscarsson|59 år, Ekonom, Bleket
+C|277906|46|M|Peter Nilsson|46 år, Läkare, Skärhamn
+C|277907|58|K|Margaretha Olsson|58 år, Frisör, Tångeröd
+C|277908|35|K|Anna Johansen|35 år, Gymnasielärare, Skärhamn
+C|280077|72|M|Thomas Jakobsson|72 pensionär Tjörn
+C|118785|40|K|Tanja Siladji|
+C|118787|41|K|Anna Wängborg|
+C|118788|44|K|Eva Hammar|
+C|118789|53|M|Anders Backensved|
+C|118790|39|M|Fredrik Dahne|
+C|118791|67|K|Elisabeth Halvfors|
+C|118792|83|M|Carl Bloom|
+C|118793|38|M|Kristian Littke|
+C|118794|53|M|Ingemar Wiklund|
+C|118795|43|M|Olle Wängborg|
+C|118796|31|M|Joakim Wenner|
+C|118797|51|K|Eva-Marie Bloom Ström|
+C|254170|64|M|Björn Möller|64, Tandläkare, Tjörn
+C|253917|22|M|Filip Gollungberg|22, Studerande, Tjörn
+C|418147|71|K|Marianne Möller|71, Rektor, Skärhamn
+C|418148|66|K|Anna-Margareta Haglund|66, Lärare, Fagerfjäll
+C|418149|45|M|Martin Tellblom|45, Företagare, Rönnäng
+C|418150|64|K|Kerstin Möller|64, Lärare, Tolleby
+C|418151|40|M|Daniel Magnusson|40, Sjökapten, Tolleby
+C|418152|19|M|Axel Måneskiöld|19, Studerande, Röra
+C|418153|46|K|Gunilla Engblom|46, Undersköterska, Klövedal
+C|418154|27|M|Filip Andersson|27, Grävmaskinist, Tolleby
+C|418155|44|K|Maria Tellblom|44, Civilingenjör, Rönnäng
+C|418156|62|M|Anders Jonsson|62, Forskningsledare, agronom, Klövedal
+C|418157|59|M|Stellan Samsson|59, Ingenjör, Skärhamn
+C|418158|59|K|Kerstin Samsson|59, Lärare, Skärhamn
+C|418159|70|M|Ralph Cedermalm|70, Egenföretagare, Skärhamn
+C|418160|50|M|Mikael Stoopendahl|50, Tekniker, Klövedal
+C|418161|74|K|Lisbeth Hansson|74, Hästuppfödare, Dyreby
+C|426504|57|M|Lars Carlsson|57, Egenföretagare, Kållekärr
+C|426505|52|K|Susanne Landgren Jansson|52, Entrepenör, Fagerfjäll
+C|426506|62|M|Bo Bertelsen|62, Fiskberedare, delägare, Skärhamn
+C|254155|72|M|Anders G Högmark|72, f.d Riksdagsledamot, Tjörn
+C|426508|65|M|Bengt-Arne Andersson|65, Säljare, Skärhamn
+C|426509|50|M|Robert Johansson|50, Fastighetskötare, Hjälteby
+C|426510|64|K|Yvonne Andersson|64, Montör, Skärhamn
+C|426511|77|K|Solveig Börjesson|77, Pensionär, Rönnäng
+C|426512|75|M|Håkan Bergstam|75, f.d Räddningschef, Klädesholmen
+C|426513|69|K|Inger Forsberg Bergstam|69, , Klädesholmen
+C|426514|31|M|Mike Hansson|31, Elektriker, Hjälteby
+C|426515|33|M|Christopher Gerhardsson|33, ,
+C|426516|80|M|Tony Jansson|80, Pensionär, Skärhamn
+C|426517|59|K|Carin Bertelsen|59, , Skärhamn
+C|426518|68|M|Berndt Grönlund|68, Pensionär, Bleket
+C|426519|69|K|Louise Marklund|69, Lärare, Röra Strand
+C|61327|46|M|Martin Johansson|Undersköterska, Tjörn
+C|216896|45|M|Rikard Simensen|45 år, Elektriker, Sibräcka
+C|61346|54|M|Thord Jansson|53, Egenföretagare, Rönnäng
+C|216898|43|M|Christer Olsson|43 år, Bilmekaniker, Myggenäs
+C|216899|70|M|Zaid Liveland|70 år, Pensionär, Hjälteby
+C|216900|57|K|Karin Weismark|57 år, Barnskötare, Skärhamn
+C|216901|71|M|Jenn Johansson|71 år, Civilingenjör, Kållekärr
+C|216902|46|K|Narirat Loeithaisong|45 år, Vårdbiträde, Rönnäng
+C|396119|51|M|Gert Kjellberg|Rönnäng
+C|396120|67|M|Cyril Esbjörnsson|Kållekärr
+C|396121|52|M|Magnus Gullbrandsson|Rönnäng
+C|396127|35|M|Andreas Hansson|Kuballe
+C|396126|35|K|Veronicka Eriksson|Klövedal
+C|396122|45|M|Robert Berntsson|Rönnäng
+C|396124|31|M|Peter Gustavsson|Skärhamn
+C|396128|34|M|Christofer Nicklasson|Valsäng
+C|396129|41|M|Daniel Eriksson|Klövedal
+C|396130|63|K|Marie Rössberger|Klädesholmen
+C|396125|62|M|Lars Hedlund|Klövedal
+C|396123|34|M|Jonas Gotlander|Bäckevik
+C|512610|57|K|Ingrid Hansson Ioannou|
+C|515744|46|M|Johan Jansson|
+C|160739|54|K|Alma Janeth Sibrian|undersköterska/administratör, Tjörn, 54 år
+C|160748|70|M|Percy Karlsson|pensionär, Tjörn, 70 år
+C|199370|69|M|Christer Wrangsten|före detta lärare, Höviksnäs, 70 år
+C|199371|58|K|Tuula Visala Karlsson|ombudsman, Fagerfjäll, 58 år
+C|199372|75|K|Christina Henricsson|pensionerad lärare, Klövedal, 75 år
+C|284308|62|M|Thomas Collberg|Valsäng, 62 år

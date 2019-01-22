@@ -1,14 +1,471 @@
-2|244922|244923|244912|245381|245382|244915|244875|244929|245386|244880|245388|244901|244885|245457|245458|244145|245460|245461|245462|245463|232021|402332|245466|232050|245468|232044|245470|232060|245472|245473|232028|245475|245476|245608|236844|245610|237829|236843|237833|237838|236862|245616|242575|237832|237859|236855|242573|236874|242572|245624|237847|245626|238763|238756|242077|242084|238787|245632|238755|245634|238767|245636|245637|238772|245639|242086|238761|238750|238781|238762|242091|242092|238773|238777|243589|240273|240896|243588|240272|240899|243632|240281|245714|243586|240266|240909|243603|240267|245720|243594|240285|240905|243595|240294|240917|245727|240289|243587|240293|238231|238983|237343|243020|241276|238220|243023|241275|238956|237344|238975|241283|238228|238957|237348|238222
-4|33528|33531|38913|38914|33532|38916|33530|33536|33543|38920|33537|33533|33539|33541|38925|38926|33553|33544|33542|38930|38931|38932|33546|8538|38935|33524|38937|33548|38939|33540|38941|38942|38943|33527|33545|33529|38948|33538|38950|38951|38952|33549|33555|33534|38957|38958|38960|38961|33551|33557|38964|38965|38966|184560|514161
-472|402853|490175|490176|402854|490178|402864|497979|490180|402855|490182|490183|490184|497985|402860|187948|497988|402858|497990|490188|490189|239770|490191|490192|490193|490194|490195|187952|490197|490198|392146|490200|490201|490202|497986
-68|9173|9153|9175|9150|9164|9178|9152|9180|9181|9154|9161|9184|9185|9186|9163|9188|9189|9190|9191|9192|9165|9195|9196
-1140|480109|507876
-1011|131867|514161
-3|156314|165055|49206|156313|165058|156317|156318|165061|156320|165063|156319|156323|156316|156322|156324|156325|165070|165071|156321|165073|165074|156329
-1367|420363|420364|420365|511055|511056|512275|511057|511058|511059|511060|511061|511062|511063|511065|511066|511067|511068|511064
-55|114139|114146|94833|94806|114189|94977|114147|94824|94976|94842|94561|114196|114145|114106|94981|94823|114200|114150|114140|114204|94825|114152|94840|94829|114155|114210|114156|114159|114214|94837|114216|94827|114154
-1|36168|35815|35814|36171|35812|35813|35810|36175|35818|36177|35825|35824|36180|36181|36182|35819|35821|36185|36186|36187|36188|36189|36190|36191|35827|36193|35820|36195|36196|35833|36198|36199|35829|36201|36202|36203|36204|36205|36206|36207|36208|36209|36210|36211|105442|36212|35832|36215|36216|35836|36218|35835|36220|36221|35834
-1273|393462|393463|393464|393465|393466|393467|393468
-1389|512356
-110|125910|125883|125901|125831|39801|36051|36741|125929|125881|125908|35149|125912|125889|125837|35153|125906|125934|125884|125907|125833|37233|35150|125913|125885|36990|125933|125880|125832|35151|125919|125903|125888|36419|125931|125914|125887|35154|101069|125922|125930|36989|125895|125916|125932|125897
-5|64068|63811|63816|63817|46775|64073|64074|63821|78665|78666|64076|63825|64078|64079|46795|46776|64082|63819|64084|64085|64094|46781|64087|63826|64089|64090|64091|46799|78685|78686|64093|514161
+T|Dalarnas läns landsting
+A|2|244922|244923|244912|245381|245382|244915|244875|244929|245386|244880|245388|244901|244885|245457|245458|244145|245460|245461|245462|245463|232021|402332|245466|232050|245468|232044|245470|232060|245472|245473|232028|245475|245476|245608|236844|245610|237829|236843|237833|237838|236862|245616|242575|237832|237859|236855|242573|236874|242572|245624|237847|245626|238763|238756|242077|242084|238787|245632|238755|245634|238767|245636|245637|238772|245639|242086|238761|238750|238781|238762|242091|242092|238773|238777|243589|240273|240896|243588|240272|240899|243632|240281|245714|243586|240266|240909|243603|240267|245720|243594|240285|240905|243595|240294|240917|245727|240289|243587|240293|238231|238983|237343|243020|241276|238220|243023|241275|238956|237344|238975|241283|238228|238957|237348|238222
+A|4|33528|33531|38913|38914|33532|38916|33530|33536|33543|38920|33537|33533|33539|33541|38925|38926|33553|33544|33542|38930|38931|38932|33546|8538|38935|33524|38937|33548|38939|33540|38941|38942|38943|33527|33545|33529|38948|33538|38950|38951|38952|33549|33555|33534|38957|38958|38960|38961|33551|33557|38964|38965|38966|184560
+A|472|402853|490175|490176|402854|490178|402864|497979|490180|402855|490182|490183|490184|497985|402860|187948|497988|402858|497990|490188|490189|239770|490191|490192|490193|490194|490195|187952|490197|490198|392146|490200|490201|490202|497986
+A|68|9173|9153|9175|9150|9164|9178|9152|9180|9181|9154|9161|9184|9185|9186|9163|9188|9189|9190|9191|9192|9165|9195|9196
+A|1140|480109|507876
+A|1011|131867|514161
+A|3|156314|165055|49206|156313|165058|156317|156318|165061|156320|165063|156319|156323|156316|156322|156324|156325|165070|165071|156321|165073|165074|156329
+A|1367|420363|420364|420365|511055|511056|512275|511057|511058|511059|511060|511061|511062|511063|511065|511066|511067|511068|511064
+A|55|114139|114146|94833|94806|114189|94977|114147|94824|94976|94842|94561|114196|114145|114106|94981|94823|114200|114150|114140|114204|94825|114152|94840|94829|114155|114210|114156|114159|114214|94837|114216|94827|114154
+A|1|36168|35815|35814|36171|35812|35813|35810|36175|35818|36177|35825|35824|36180|36181|36182|35819|35821|36185|36186|36187|36188|36189|36190|36191|35827|36193|35820|36195|36196|35833|36198|36199|35829|36201|36202|36203|36204|36205|36206|36207|36208|36209|36210|36211|105442|36212|35832|36215|36216|35836|36218|35835|36220|36221|35834
+A|1273|393462|393463|393464|393465|393466|393467|393468
+A|1389|512356
+A|110|125910|125883|125901|125831|39801|36051|36741|125929|125881|125908|35149|125912|125889|125837|35153|125906|125934|125884|125907|125833|37233|35150|125913|125885|36990|125933|125880|125832|35151|125919|125903|125888|36419|125931|125914|125887|35154|101069|125922|125930|36989|125895|125916|125932|125897
+A|5|64068|63811|63816|63817|46775|64073|64074|63821|78665|78666|64076|63825|64078|64079|46795|46776|64082|63819|64084|64085|64094|46781|64087|63826|64089|64090|64091|46799|78685|78686|64093
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|472|dsp|Dalarnas Sjukvårdsparti
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1367|MPPS|Medborgarnas Politiska Parti i Sverige
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1273|NMR|Nordiska motståndsrörelsen
+B|1389||Raggarpartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|244922|72|M|Kjell Persson|Falun
+C|244923|60|K|Suzanne Lazar|Falun
+C|244912|58|M|Krister Andersson|Falun
+C|245381|64|K|Inga-Britt Kronnäs|Falun
+C|245382|67|K|Majsan Willén|Falun
+C|244915|59|K|Annika Östling|Falun
+C|244875|57|K|Susanne Norberg|Falun
+C|244929|75|M|Karl-Erik Pettersson|Falun
+C|245386|65|K|Berit Fredriksson|Falun
+C|244880|67|M|Kenneth Wåhlberg|Falun
+C|245388|38|K|Elisabeth Gullarbergs|Falun
+C|244901|45|K|Charlotte Oster|Falun
+C|244885|54|K|Christina Knutsson|Falun
+C|245457|57|K|Kristina Svensson|Borlänge
+C|245458|63|M|Per Morelius|Borlänge
+C|244145|38|K|Camilla Andersson|38 år, Borlänge
+C|245460|34|M|Ahmed Bari|Borlänge
+C|245461|44|K|Linda Kvarnström|Borlänge
+C|245462|55|M|Anders Taavo|Borlänge
+C|245463|37|K|Sarah Tångring|Borlänge
+C|232021|59|M|Jan Boman|Borlänge
+C|402332|33|K|Najmo Abubakar|Borlänge
+C|245466|83|M|Göran Tägtström|Borlänge
+C|232050|18|K|Iza Renfjord|Borlänge
+C|245468|35|M|Eric Nyström Svensk|Borlänge
+C|232044|46|K|Monica Bodin|Borlänge
+C|245470|54|M|Roger Iversen|Borlänge
+C|232060|63|K|Ingrid Norberg|Borlänge
+C|245472|46|M|Jan Cederlund|Borlänge
+C|245473|53|M|Hans Salomonsson|Borlänge
+C|232028|60|K|Anita Nordström|Borlänge
+C|245475|62|M|Peter Jäderbrant|Borlänge
+C|245476|53|K|Eva Brossberg Andersson|Borlänge
+C|245608|53|M|Abbe Ronsten|Säter
+C|236844|47|K|Susann Berger|47 år, Avesta
+C|245610|58|M|Per-Inge Nyberg|Säter
+C|237829|69|K|Agneta Andreasson Bäck|Hedemora
+C|236843|48|M|Lars Isacsson|Avesta
+C|237833|68|K|Kajsa-Lena Fagerström|Hedemora
+C|237838|46|M|Stefan Norberg|Hedemora
+C|236862|40|K|Malin Bäckebo|Avesta
+C|245616|50|M|Johan Skoog|Avesta
+C|242575|25|K|Paulina Johansson|Säter
+C|237832|27|M|David Aura|Hedemora
+C|237859|50|K|Susanne Hoffman|Hedemora
+C|236855|73|M|Lars Levahn|Avesta
+C|242573|59|K|Annika Karlsson|Säter
+C|236874|73|M|Hans Danielsen|Avesta
+C|242572|71|M|Håkan Karlsson|Säter
+C|245624|52|K|Inger Körstig|Säter
+C|237847|74|K|Inger Persson|Hedemora
+C|245626|35|K|Elin Norén|Smedjebacken
+C|238763|63|M|Ivan Eriksson|Ludvika
+C|238756|50|K|Anna-Lena Andersson|50 år, Ludvika
+C|242077|54|M|Ingemar Hellström|54 år, Smedjebacken
+C|242084|51|K|Monica Forsgren|Smedjebacken
+C|238787|50|M|Håkan Anestedt|Ludvika
+C|245632|72|K|Eva De Marothy|Ludvika
+C|238755|57|M|Mohammad Alkazhami|57 år, Ludvika
+C|245634|73|K|Eira Henriksson|Smedjebacken
+C|238767|47|M|Sven-Erik Källman|Ludvika
+C|245636|65|K|Lise-Lotte Jansson|Smedjebacken
+C|245637|65|M|Jörgen Hammarin|Ludvika
+C|238772|50|K|Camilla Lönnqvist|Ludvika
+C|245639|56|M|Håkan Söderlund|Smedjebacken
+C|242086|69|K|Kerstin Ernebrink|Smedjebacken
+C|238761|59|M|Peter Cyrillus|59 år, Ludvika
+C|238750|48|K|Åsa Bergkvist|Ludvika
+C|238781|74|M|Kjell Stenberg|Ludvika
+C|238762|51|K|Ingrid Berg|Ludvika
+C|242091|45|M|Joacim Lundgren|Smedjebacken
+C|242092|73|K|Solweig Nyrede|Smedjebacken
+C|238773|69|M|Åke Henriksson|Ludvika
+C|238777|72|M|Seppo Timonen|Ludvika
+C|243589|63|M|Gunnar Barke|Älvdalen
+C|240273|59|K|Bigitta Sohlberg|Mora
+C|240896|50|M|Anders Rosell|Orsa
+C|243588|40|K|Mari Rustad|Älvdalen
+C|240272|67|M|Per Göransson|Mora
+C|240899|52|K|Maria Tapper|Orsa
+C|243632|76|M|Leo Persson|Älvdalen
+C|240281|36|K|Karolina Treson|Mora
+C|245714|47|K|Ingela Derkert|Orsa
+C|243586|75|K|Kerstin Knuts|Älvdalen
+C|240266|65|M|Lennart Sohlberg|65 år, Mora
+C|240909|68|K|Inger Jones-Eriksson|Orsa
+C|243603|58|M|Arne Jönsson|Älvdalen
+C|240267|56|K|Anna-Karin Rydstedt|Mora
+C|245720|66|M|Lars Andersson|Orsa
+C|243594|67|K|Berith Olsen|Älvdalen
+C|240285|71|M|Ingemar Larsson|Mora
+C|240905|66|K|Gunlis Olmats|Orsa
+C|243595|29|M|Viktor Barke|Älvdalen
+C|240294|65|K|Lizzy Gullo|Mora
+C|240917|64|K|Karin Herko|Orsa
+C|245727|68|M|Herbert Halvarsson|Älvdalen
+C|240289|82|M|Arne Pettersson|82 år, Mora
+C|243587|56|M|Kent Eriksson|Älvdalen
+C|240293|79|M|Folke Thelin|Mora
+C|238231|72|K|Liv Lunde Andersson|Leksand
+C|238983|66|M|Kurt Podgorski|Malung-Sälen
+C|237343|64|K|Irene Homman|Gagnef
+C|243020|60|M|Nall Lars Göran Andersson|Vansbro
+C|241276|68|K|Britt-Marie Essell|Rättvik
+C|238220|36|M|Viktor Zakrisson|36 år, Leksand
+C|243023|45|K|Ulrika Gärds Forsberg|Vansbro
+C|241275|76|M|Lars-Erik Kalles|Rättvik
+C|238956|68|K|Lilian Olsson|Malung-Sälen
+C|237344|35|M|Daniel Bergman|Gagnef
+C|238975|68|K|Britta Lindholm|Malung-Sälen
+C|241283|48|M|Peter Rousu|Rättvik
+C|238228|67|M|Kent Dahlqvist|Leksand
+C|238957|43|M|Jörgen Norén|Malung-Sälen
+C|237348|76|M|Alf Johansson|Gagnef
+C|238222|50|M|Lars Halvarsson|Rättvik
+C|33528|40|K|Sofia Jarl|Gagnef
+C|33531|47|K|Anna Hed|Mora
+C|38913|53|M|Jonny Jones|Rättvik
+C|38914|51|M|Göte Persson|Falun
+C|33532|67|K|Christina Bröms|Mora
+C|38916|43|K|Linda Zetterström|Borlänge
+C|33530|52|M|Mikael Thalin|Orsa
+C|33536|28|K|Sara Persson|Avesta
+C|33543|49|M|Pär Kindlund|Malung-Sälen
+C|38920|59|K|Anette Granegärd|Hedemora
+C|33537|24|M|Oscar Sjökvist|Borlänge
+C|33533|45|M|Joakim Storck|Falun
+C|33539|65|M|Kjell Tenn|Älvdalen
+C|33541|57|K|Gunilla Berglund|Avesta
+C|38925|47|M|Niclas Bodin|Säter
+C|38926|67|K|Annika Simm Eriksson|Vansbro
+C|33553|46|M|Tommy Hafvsdalen|Falun
+C|33544|71|M|Mauritz Bropetters|Ludvika
+C|33542|70|K|Agneta Ängsås|Falun
+C|38930|62|M|Mats Fogelström|Leksand
+C|38931|34|M|Adam Carlsson|Smedjebacken
+C|38932|58|M|Mohamed-deeq Barkhadle|Ludvika
+C|33546|42|M|Torbjörn Ulriksen|Mora
+C|8538|49|K|Ulrika Liljeberg|49 år, Kammaråklagare, Leksand
+C|38935|45|M|Daniel Drugge|Falun
+C|33524|71|M|Per-Anders Westhed|Falun
+C|38937|45|K|Joanna Stridh|Rättvik
+C|33548|45|M|Mathias Westin|Falun
+C|38939|42|M|Fredrik Jarl|Gagnef
+C|33540|66|M|Dan Westerberg|Falun
+C|38941|72|M|Owe Ahlinder|Hedemora
+C|38942|54|K|Karin Örjes|Borlänge
+C|38943|47|K|Anneli Hultgren|Vansbro
+C|33527|47|M|Michael Arvidsson|Säter
+C|33545|62|M|Jan Spånberg|Älvdalen
+C|33529|53|M|Mohamed Abdi Mohamoud|"Fanax", Borlänge
+C|38948|68|K|Lillemor Gunnarsson|Hedemora
+C|33538|24|K|Johanna Hallin|Gagnef
+C|38950|64|K|Kristina Lundgren|Hedemora
+C|38951|72|M|Jan Segerstedt|Orsa
+C|38952|69|M|Kenneth Dahlström|Leksand
+C|33549|65|M|Anders Lundin|Vansbro
+C|33555|71|M|Jan-Olof Källström|Avesta
+C|33534|44|K|Stina Munters|Vansbro
+C|38957|41|M|Lars-Olov Liss|Vansbro
+C|38958|70|M|Bernt Westerhagen|Orsa
+C|38960|66|K|Karin Bogg|Älvdalen
+C|38961|43|M|Mikael Gotthardsson|Hedemora
+C|33551|66|K|Agneta Åhs-Sivertsen|Malung-Sälen
+C|33557|64|M|Jan Olof Karlsson|Ludvika
+C|38964|62|M|Jan Gustafsson|Smedjebacken
+C|38965|69|M|Håkan Jansson|Smedjebacken
+C|38966|63|K|Britt-Marie Romlin|Falun
+C|184560|41|M|Anders Ors|Falun
+C|402853|64|K|Lisbet Mörk-Amnelius|Älvdalen
+C|490175|71|M|Ingvar "Nille" Niilimaa|Mora
+C|490176|76|M|Björn Hammarskjöld|
+C|402854|76|M|Östen Sjögren|Älvdalen
+C|490178|26|M|Mattias Eriksson|Orsa
+C|402864|64|K|Anitha Jerlerud|Älvdalen
+C|497979|32|K|Marie Lund|Mora
+C|490180|38|K|Jenny Back-Ågren|Mora
+C|402855|75|K|Birgitta Sjögren|Älvdalen
+C|490182|45|K|Madeleine Figgé|Borlänge
+C|490183|55|K|Chatarina Nyström|Mora
+C|490184|54|M|Johnny Larsson|Falun
+C|497985|50|K|Maria Frelin|Mora
+C|402860|72|K|Evy Lindén|Älvdalen
+C|187948|63|M|Jimmy Karlsson|Leksand
+C|497988|48|K|Maria Bäckström|Mora
+C|402858|79|M|Stig Amnelius|Älvdalen
+C|497990|55|K|Kristina Eriksson|Smedjebacken
+C|490188|53|M|Ola Storkitt|Borlänge
+C|490189|76|M|Gösta Sarholm|Rättvik
+C|239770|68|M|Per-Ola Sjödén|Malung-Sälen
+C|490191|68|K|Lena Hed Sandlund|Mora
+C|490192|44|K|Tatiana "Tanja" Krigsman|Säter
+C|490193|61|K|Lena Lorens|Avesta
+C|490194|73|K|Christina Morath|Vansbro
+C|490195|73|M|Lennart Hedberg|Rättvik
+C|187952|38|M|David Edin|Leksand
+C|490197|87|M|K. Ingemar Similä|Rättvik
+C|490198|61|K|Helena Hammarskjöld|Mora
+C|392146|67|K|Grazyna Björklund|Vansbro
+C|490200|80|K|Elg Kerstin Similä|Rättvik
+C|490201|65|K|Birgit Nilsson|Mora
+C|490202|50|M|Leif Arvidsson|Borlänge
+C|497986|72|K|[saknas i folkbokföringen]|
+C|9173|59|K|Birgitta Sacrédeus|landstingsråd, Mora
+C|9153|63|M|Torsten Larsson|ekonom, Dala-Järna
+C|9175|35|M|Jonas Hillerström|tjänsteman, Torsång
+C|9150|59|K|Carin Malm|statsvetare, Insjön
+C|9164|69|M|Roy Uppgård|företagare, Avesta
+C|9178|53|M|Anders Bengtsson|socionom, Gagnef
+C|9152|55|K|Lena Paajanen|undersköterska, Borlänge
+C|9180|64|K|Katarina Gustavsson|undersköterska, Falun
+C|9181|44|M|Daniel Ericgörs|CNC-operatör, Gustafs
+C|9154|43|K|Helena Vådegård|lärare, Säter
+C|9161|57|K|Lena Johansson|sfi-lärare, Rättvik
+C|9184|35|M|Johan Paulsen|läkare, Leksand
+C|9185|37|K|Heidi Löppönen|distriktssköterska, Borlänge
+C|9186|72|M|Bengt-Åke Svahn|Orsa
+C|9163|74|K|Bodil Sundquist|lärare, Ludvika
+C|9188|67|M|Zbigniew Karczewski|lärare, Mora
+C|9189|61|K|Elisabeth Svensdotter|barnmorska, Nusnäs
+C|9190|51|M|Robert Söderberg|marknadssamordnare, Orsa
+C|9191|73|K|Ilona Nyland|terapeut, Falun
+C|9192|45|M|Daniel Caesar|butikssäljare, Gagnef
+C|9165|42|K|Elin Åhman|grundskollärare, Borlänge
+C|9195|50|M|Roger Westlund|tentamenssamordnare, Falun
+C|9196|70|M|Lars Nilsson|Malung
+C|480109|56|M|Bengt-Olov Söderkvist|IT-ingenjör/elektriker, Avesta
+C|507876|57|M|Torbjörn Bergebrant|Skötare, 57, Stora Skedvi/Säter
+C|131867|62|K|Tjern Inga Wall|Fäbodägare, Dalarna
+C|514161|56|M|Bertil Johansson|
+C|156314|63|M|Bo Brännström|Adjunkt, 63 år, Avesta
+C|165055|50|K|Lotten Kluck|50 år Utvecklingsledare, Leksand
+C|49206|54|M|Svante Parsjö Tegnér|gymnasielärare, Falun
+C|156313|48|K|Anna Eling|Egenföretagare, 48 år, Hedemora
+C|165058|52|M|John Thornander|52 år Ombudsman/Bussförare, Borlänge
+C|156317|55|M|Jörgen Öhrström|Ingenjör, 55 år, Mora
+C|156318|20|K|Julia Hållberg|Studerande, 20 år, Borlänge
+C|165061|42|M|Jon Bylund|42 år Projektledare IT, Falun
+C|156320|57|K|Åsa Nilser|Civilekonom, 57 år, Falun
+C|165063|69|M|Christer Iversen|69 år Egenföretagare, Gagnef
+C|156319|57|M|Mats-Gunnar Eriksson|Verktygsmakare, 57 år, Mora
+C|156323|24|K|Hanna Romelin|Lärarstudent, 24 år, Mora
+C|156316|38|K|Martina Elfström|Lärare, 38 år, Malung-Sälen
+C|156322|63|M|Arne Lissmats|Elingenjör, 63 år, Borlänge
+C|156324|62|M|Tomas Grundell|Handledare/administratör, 62 år, Rättvik
+C|156325|51|K|Susanne Säbb Danielsson|Egenföretagare, 51 år, Rättvik
+C|165070|68|K|Anna-Maria Norén|68 år Pensionär, Mora
+C|165071|36|M|David Gustafsson|36 år Säljare, Vansbro
+C|156321|27|K|Jonna Stenberg|Lastbilschaufför, 27 år, Säter
+C|165073|58|M|Thomas Ericsson|58 år Företagare, Malung-Sälen
+C|165074|39|M|Tommie Lif|39 år Lastbilschaufför, Smedjebacken
+C|156329|79|M|Olle Jobs|Pensionär, 79 år, Orsa
+C|420363|57|M|Tony Nyberg|Egen företagare
+C|420364|77|M|Bernt Danielsson|Fd. egen företagare
+C|420365|65|M|Kjell Mosell|Mekaniker
+C|511055|72|K|Gudrun Thenander|Egen företagare
+C|511056|55|M|Tom Hartmeyer|Kock
+C|512275|57|K|Jeanette Eliasson|Undersköterska
+C|511057|42|K|Olga Sjödén|Sjuksköterska
+C|511058|57|M|Björn Morten Vestman|Trafiklärare
+C|511059|60|M|Franz Baumann|Egen företagare
+C|511060|35|K|Sandra Olsson|Studerande
+C|511061|32|K|Irina Basova|Ekonom
+C|511062|36|K|Sandra Koivu|Entreprenör
+C|511063|64|M|Kjell Jonsson|Travtränare
+C|511065|60|K|Nadejda Verlan|Ingenjör
+C|511066|61|M|Ulf Jonasson|Busschaufför
+C|511067|71|M|PA Börje A Eliasson|Entreprenör
+C|511068|73|M|Hans Andersson|Fd egen företagare
+C|511064|77|M|Sven Lindbom|Pensionär
+C|114139|36|M|Mursal Isa|36, landstingsråd, Borlänge
+C|114146|68|K|Kerstin Lundh|Hedemora, leg sjuksköterska
+C|94833|43|M|Jonas Åsenius|Falun, gymnasielärare
+C|94806|58|K|Maj Ardesjö|Falun, miljöhandläggare
+C|114189|55|K|Anneli Qvicker|Älvdalen, frisörföretagare
+C|94977|21|M|Linus Fransson|Avesta, juriststudent
+C|114147|32|M|Thor Draiby|Smedjebacken
+C|94824|33|K|Karolina Brosché|Falun, IKT- och språkpedagog
+C|94976|50|K|Heidi Sjungargård|Avesta
+C|94842|55|M|Niklas Henriksson|Falun, utredare kollektivtrafik
+C|94561|58|M|Magnus Gabrielson|Säter, IT-konsult
+C|114196|38|K|Åsa Wikberg|Ludvika, nationalekonom
+C|114145|33|M|Aron Knifström|Ludvika, distributör
+C|114106|53|K|Maria Alfredsson|Gagnef, rektor
+C|94981|73|M|Gert Lundqvist|Avesta, läkare
+C|94823|62|M|Mats Wiklund|Falun, leg sjukgymnast
+C|114200|66|K|Monika Utter|Ludvika, pensionerad lärare och undersköterska
+C|114150|51|K|Helena Andersson|Älvdalen, egenföretagare
+C|114140|34|M|Mikael Hjort|Ludvika, civilingenjör
+C|114204|33|K|Elina Brodén|Borlänge, samhällsplanerare
+C|94825|68|M|Kenth Carlson|Falun, hälsorådgivare
+C|114152|66|M|Calle Morgården|Smedjebacken, gårdskarl
+C|94840|69|K|Inger Jacobsson|Falun, leg sjuksköterska
+C|94829|73|M|Richard Holmqvist|Falun, civilingenjör
+C|114155|57|K|Ingmari Nilsson|Älvdalen, lärare
+C|114210|70|K|Krystyna Karlsson|Hedemora, pensionerad undersköterska
+C|114156|63|K|Barbro Gossas|Borlänge
+C|114159|35|M|Nicklas Vidlund Bjurman|Borlänge, lärare
+C|114214|62|M|Mikael Nilsson|Älvdalen, hållbarhetskonsult
+C|94837|71|M|Staffan Mild|Falun, leg sjuksköterska
+C|114216|65|M|Joep Meens|Orsa, teknisk fysiker, didaktiker
+C|94827|30|M|Linus Lindgren|Falun, omsorgsarbetare
+C|114154|63|M|Sven Fernlund Skagerud|Borlänge
+C|36168|61|M|Ulf Berg|61 år, oppositionsråd,polis, Avesta
+C|35815|54|M|Christer Carlsson|54 år, oppositionsråd, ambulanssjuksköterska, Falun
+C|35814|51|K|Charlotte Wiberg Gudmundsson|51 år, projektledare, Malung-Sälen
+C|36171|58|K|Gunilla Franklin|58 år, distriktssköterska, Falun
+C|35812|63|M|Mikael Rosén|63 år, advokat, Falun
+C|35813|45|M|HåGe Persson|45 år, oppositionsråd, lärare, Ludvika
+C|35810|48|M|Ulrik Bergman|48 år, civilekonom, Borlänge
+C|36175|63|M|Håkan Frank|63 år, skattedirektör, Ludvika
+C|35818|25|M|Sebastian Larsson|25 år, VVS-montör, Leksand
+C|36177|66|K|Carina Källström|66 år, verksamhetschef, tandläkare, Älvdalen
+C|35825|21|M|Martin Bergman|21 år, egenföretagare, Falun
+C|35824|33|K|Caroline Willfox|33 år, egenföretagare, Säter
+C|36180|38|K|Anna Granlund|38 år, biografanställd, Borlänge
+C|36181|64|K|Britt-Inger Remning|64 år, legitimerad sjukgymnast, Hedemora
+C|36182|70|K|Christina Brunell|70 år, fd polis, Smedjebacken
+C|35819|63|M|Nils-Åke Norman|63 år, oppositionsråd, Älvdalen
+C|35821|49|K|Catharina Enhörning|49 år, internationell handläggare, konsult, Falun
+C|36185|68|M|Kjell Israelsson|68 år, ekonom, pensionär, Ludvika
+C|36186|74|M|Leif Bergh|74 år, fd revisionschef, Falun
+C|36187|45|K|Lena Bertelsen|45 år, statsvetare, Älvdalen
+C|36188|27|M|Feasl Kheder Alyas|27 år, handläggare, Borlänge
+C|36189|58|M|Göran Forsén|58 år, landsbygdsutvecklare, Falun
+C|36190|59|M|Kent Svens|59 år, affärschef, Falun
+C|36191|65|K|Kerstin Borg|65 år, undersköterska, Borlänge
+C|35827|40|M|Mikael Östling|40 år, egenföretagare, Malung-Sälen
+C|36193|36|M|Mikael Sandy|36 år, advokat, Falun
+C|35820|56|K|Agneta Nyvall|56 år, oppositionsråd, Borlänge
+C|36195|73|M|Anders Bringborn|73 år, fil kand, Borlänge
+C|36196|65|M|Christer Juhlin|65 år, pensionär, Mora
+C|35833|23|K|Sofia Axelsson|23 år, student, Hedemora
+C|36198|58|M|Jan Wiklund|58 år, informatör, Gagnef
+C|36199|44|K|Cecilia Tomtlund|44 år, handledare AME, Smedjebacken
+C|35829|53|M|Erik Gustafsson|53 år, samordnare, Malung-Sälen
+C|36201|43|M|Erik Johansson|43 år, byggnadsplåtslagare, Rättvik
+C|36202|65|K|Maarit Hessling|65 år, statstjänsteman, Avesta
+C|36203|62|M|Peter Vogt|62 år, partiombudsman, Gagnef
+C|36204|64|K|Gunnel Söderberg|64 år, keramiker, Mora
+C|36205|54|M|Joakim Larsson|54 år, civilekonom, Orsa
+C|36206|64|M|Hans Moberg|64 år, VD, Borlänge
+C|36207|56|M|Stefan Olsson|56 år, inköpare, Vansbro
+C|36208|47|K|Malin Holmström|47 år, personlig assistent, Älvdalen
+C|36209|43|K|Linda Kardell Broman|43 år, undersköterska, Ludvika
+C|36210|34|M|Patrick Svärd|34 år, projektingenjör, Gagnef
+C|36211|19|M|Filip Jonsson|19 år, studerande, Falun
+C|105442|70|M|Kjell Gustafsson|70 år, pensionär, Sundborn
+C|36212|73|M|Håkan Nohrén|73 år, pensionär, Falun
+C|35832|41|M|Martin Tomtlund|41 år, ordningsvakt, väktare, Smedjebacken
+C|36215|63|M|Roger Siljeholm|63 år, marknadsekonom, Säter
+C|36216|72|K|Gunilla Frelin|72 år, egenföretagare, Orsa
+C|35836|37|M|Jimmy Pasanen|37 år, planerare, Borlänge
+C|36218|41|K|Lisa Larsbäck|41 år, ambulanssjuksköterska, Falun
+C|35835|43|M|Fredrik Ollén|43 år, lärare, Rättvik
+C|36220|60|K|Eva Vogt|60 år, specialpedagog, Gagnef
+C|36221|62|M|Ronnie Persson|62 år, yrkeschaufför, Orsa
+C|35834|57|M|Sten Hansson van Nes|57 år, egenföretagare, Orsa
+C|393462|47|M|Pär Öberg|47 år, elektriker, Ludvika
+C|393463|38|M|Pär Sjögren|38 år, infrastrukturarbetare, Ludvika
+C|393464|39|M|Haakon Forwald|39 år, butiksarbetare
+C|393465|28|M|Nicklas Norling|28 år, VVS-montör, Ludvika
+C|393466|32|K|Emma Karlsson|31 år, barnskötare, Ludvika
+C|393467|35|M|Markus Nordh|35 år, civilingenjör, Ludvika
+C|393468|34|M|Jimmy Björk|34 år, snickare, Ludvika
+C|512356|55|M|Stefan Ekman|
+C|125910|61|M|Benny Rosengren|Linkontrollör, Ludvika
+C|125883|53|M|Sonny Pettersson|Egenföretagare, Borlänge
+C|125901|60|M|Mats Nordberg|Skogsrådgivare, Falun
+C|125831|46|M|Per-Ola Ahlström|Säljare, Avesta
+C|39801|54|M|Roine Andersson|Service, Orsa
+C|36051|60|M|Inge Östlund|Byggmästare, Rättvik
+C|36741|50|K|Marie Jakobsson|Driftpersonal, Säter
+C|125929|33|M|Johan Persson|Industriarbetare, Smedjebacken
+C|125881|71|M|Kent Forschner-Hell|Egenföretagare, Borlänge
+C|125908|22|M|Matti Trogothsson|Personlig assistent, Svärdsjö
+C|35149|71|M|Bror Markus|Fritidsförvaltare, Sollerön
+C|125912|52|M|Fredrik Trygg|Bryggeriarbetare, Grängesberg
+C|125889|70|M|Anders Fredriksson|Pensionär, Borlänge
+C|125837|53|M|Tony Femtler|Säljare, Avesta
+C|35153|44|M|Pär Dalkvist|Sjuksköterska, Mora
+C|125906|58|M|Tony Källgren|Egenföretagare, Bjursås
+C|125934|43|K|Aleksandra Børgesen|Leg.tandhygienist, Söderbärke
+C|125884|68|M|Kenneth Tjernberg|Egenföretagare, Borlänge
+C|125907|33|M|Jim Aronsson|Servicetekniker, Falun
+C|125833|71|K|Margareta Lindgren|Bussförare, Avesta
+C|37233|54|M|Tomas Andersson|Företagare, Särna
+C|35150|73|M|Lars-Erik Lohman|Byggnadsingenjör, Mora
+C|125913|29|K|Mari Karlsson Björk|Undersköterska, Grängesberg
+C|125885|63|K|Anita Tjernberg|Kyrkvaktare, Borlänge
+C|36990|49|K|Marit Andersson|Restaurangbiträde, Hedemora
+C|125933|69|M|Jerry Jäger|Kiropraktor, Smedjebacken
+C|125880|77|M|Kjell Forslund|Pensionär, Borlänge
+C|125832|77|M|Martti Hopponen|Målare, Horndal
+C|35151|23|M|Simon Granath|Elevassistent, Mora
+C|125919|55|K|Annkatrin Krainer|Undersköterska, Grängesberg
+C|125903|75|M|Knut C.A. Scherman|Pensionär, Falun
+C|125888|47|M|Peter Karlsson|Industriarbetare, Borlänge
+C|36419|45|K|Anna-Lena Blomkvist|Medicinsk sekreterare, Leksand
+C|125931|53|K|Pia Johansson|Jurist, Storsand
+C|125914|50|M|Torbjörn Norman|Montör, Grängesberg
+C|125887|67|M|Benny Sjöblom|Assistent, Borlänge
+C|35154|39|K|Therese Mörk|Vårdare, Mora
+C|101069|60|M|Mats Larsson|Skogsmästare, Malungsfors
+C|125922|51|M|Jarmo Jokikari|Montör, Grängesberg
+C|125930|27|M|Tobias Johansson|Smörjare, Storsand
+C|36989|61|K|Gunilla Brandt Jonsson|Undersköterska, Hedemora
+C|125895|50|M|Stefan Andersson|Industriarbetare, Borlänge
+C|125916|40|M|Mattias Kron Eriksson|Bryggeriarbetare, Grängesberg
+C|125932|51|M|Per-Erik Hellström|Jord- och skogsbruk, Nyfors
+C|125897|63|K|Carina Sjöblom|Pensionär, Borlänge
+C|64068|69|K|Maja Gilbert Westholm|Falun
+C|63811|56|K|Kajsa Fredholm|Leksand, 56 år
+C|63816|54|M|David Örnberg|Mora, 54 år
+C|63817|31|K|Josefin Heed|Avesta, 31 år
+C|46775|33|M|Matts Hammarqvist|Borlänge
+C|64073|53|K|Zohreh Anhari|Falun
+C|64074|30|M|Mathias Edbäck|Falun
+C|63821|53|K|Fia Wikström|Säter, 53 år
+C|78665|67|M|Lars Holmgren|Smedjebacken
+C|78666|44|K|Jenny Axelson-Fisk|Borlänge
+C|64076|70|M|Sten G Johansson|Ludvika
+C|63825|31|K|Audrina Handegard|Ludvika, 31 år
+C|64078|42|M|David Steen|Falun
+C|64079|68|K|Lillebil Högberg Hermelin|Falun
+C|46795|71|M|Kenneth Petersson|Borlänge
+C|46776|34|K|Valida Cicen|Borlänge
+C|64082|42|M|Petri Stenport|Orsa
+C|63819|44|K|Ida Friberg|Ludvika, 45 år
+C|64084|66|K|Katrin Lohed Söderman|Rättvik
+C|64085|39|M|Patrik Liljeglöd|Falun
+C|64094|68|K|Monica Lindh|Falun
+C|46781|61|K|Maude Nordfeldt Holmqvist|Borlänge
+C|64087|62|M|Sten-Olof Eklund|Säter
+C|63826|59|K|Britt Marie Strömbäck|Malung-Sälen, 59 år
+C|64089|47|M|Robert Göransson|Smedjebacken
+C|64090|60|K|Ewa Berglund|Leksand
+C|64091|52|M|Thomas Sjöberg|Säter
+C|46799|68|K|Lena Angberg|Borlänge
+C|78685|25|M|Joel Bjurholm|Smedjebacken
+C|78686|62|M|Steve Rosén|Falun
+C|64093|32|M|Niclas Fors|Falun

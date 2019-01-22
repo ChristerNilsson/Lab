@@ -1,15 +1,444 @@
-2|36888|36889|36890|36891|36892|36893|36894|36895|36896|36897|36898|36899|36900|36901|36902|36903|36904|36905|36906|36910|36908|36912|36909|36916|36911|36920|36913|36922|36914|36924|36915|36926|36917|36919|36921|36923|36925|36927|37155|37156|37157|37158|37159|37160|37161|37162|37163|37164|37165|37166|37167|37168|37169|37170|37171|37172|37173|37174|37175|37176|37177|37178|37179|37180|37181|37182|37183|37184|37185|37186|37187|37188|37348|37349|37350|37351|37352|37353|37354|37355|37356|37357|37358|37359|37362|37361|37364|37363|37366|37365|37368|37367|37370|37369|37372|37371|37374|37373|37376|37375|37378|37377|37379
-4|8534|15862|168079|168080|168081|168082|168083|168084|168085|168086|168087|168088|168089|168090|168091|168092|168093|168094|168095|168096|168097|168098|168099|168100|15851|168102|15865|168104|168105|168106|168107|168108|168109|168110|168111|168112|168113|168114|168115|168116|168117|168118|168119|168120
-532|310324|310325|310326|310327
-1338|401778|401779|401780|401781|401782|401783|401784|401785|401786|401787|401788|401789|401790|401791|401792|401793
-471|229256|229257|229258|229259|229260|229261|229262|229263|229264|229265|229266|229267|229268|229269
-68|77837|77838|77839|77840|77841|77842|77843|77844|77845|77846|77847|77848|77849|77850|77851|77852|77853|77854|77855|77856|77857|77858|77859|77860|77861|77862|77863|77864|77865|77866|77867|77868|77869|77870|77871|77872|77873|77874|77876|77877|77878|77879|77880|77881|77882|77883|77884|77885|77886|77887|77888|77889|77890|77891|77892|77893|77894|77895|77896|77897|77898|243159|77899|77900
-1140|480131|508331|480125|508333
-1011|515916
-3|223293|204181|241969|223296|241971|241972|223300|241974|204188|223301|49204|204186|223291|241980|241981|241982|223297|241984|241985|241986|241987|241988|241989|223302|241991|241992|223303
-1296|184595|184592|184591|184593
-55|372650|369416|369407|372653|372654|372655|233322|372657|372658|372659|233328|372661|372662|369408|372664|372665|372666|372667|372668|233338|369402|233329|372672|372673|233333|372675|372676|372677|369400
-1|1652|1648|1656|68690|68691|68692|68693|68694|68695|68696|68697|1665|68699|68700|68701|68702|68703|68704|68705|68706|68707|68708|68709|68710|68711|68712|68713|68714|68715|68716|68717|68718|68719|68720|68721|68722|68723|68724|68725|68726|68727|68728|68729|68730|68731|68732|68733|68734|68735|68736|68737
-1421|515710
-110|45774|45851|45852|45853|45854|45855|45856|45971|45972|45973|45974|46206|46207|46208|46209|46210|46211|46212|46387|46388|46390|46391|46392|46393|46394|46395|46396
-5|195451|195452|195453|195454|195455|195456|195457|195458|195459|195460|195461|195462|195463|195464|195465|195466|195467|195468|195469|195470|195471|195472|195473|195474|195475
+T|Jönköping
+A|2|36888|36889|36890|36891|36892|36893|36894|36895|36896|36897|36898|36899|36900|36901|36902|36903|36904|36905|36906|36910|36908|36912|36909|36916|36911|36920|36913|36922|36914|36924|36915|36926|36917|36919|36921|36923|36925|36927|37155|37156|37157|37158|37159|37160|37161|37162|37163|37164|37165|37166|37167|37168|37169|37170|37171|37172|37173|37174|37175|37176|37177|37178|37179|37180|37181|37182|37183|37184|37185|37186|37187|37188|37348|37349|37350|37351|37352|37353|37354|37355|37356|37357|37358|37359|37362|37361|37364|37363|37366|37365|37368|37367|37370|37369|37372|37371|37374|37373|37376|37375|37378|37377|37379
+A|4|8534|15862|168079|168080|168081|168082|168083|168084|168085|168086|168087|168088|168089|168090|168091|168092|168093|168094|168095|168096|168097|168098|168099|168100|15851|168102|15865|168104|168105|168106|168107|168108|168109|168110|168111|168112|168113|168114|168115|168116|168117|168118|168119|168120
+A|532|310324|310325|310326|310327
+A|1338|401778|401779|401780|401781|401782|401783|401784|401785|401786|401787|401788|401789|401790|401791|401792|401793
+A|471|229256|229257|229258|229259|229260|229261|229262|229263|229264|229265|229266|229267|229268|229269
+A|68|77837|77838|77839|77840|77841|77842|77843|77844|77845|77846|77847|77848|77849|77850|77851|77852|77853|77854|77855|77856|77857|77858|77859|77860|77861|77862|77863|77864|77865|77866|77867|77868|77869|77870|77871|77872|77873|77874|77876|77877|77878|77879|77880|77881|77882|77883|77884|77885|77886|77887|77888|77889|77890|77891|77892|77893|77894|77895|77896|77897|77898|243159|77899|77900
+A|1140|480131|508331|480125|508333
+A|1011|515916
+A|3|223293|204181|241969|223296|241971|241972|223300|241974|204188|223301|49204|204186|223291|241980|241981|241982|223297|241984|241985|241986|241987|241988|241989|223302|241991|241992|223303
+A|1296|184595|184592|184591|184593
+A|55|372650|369416|369407|372653|372654|372655|233322|372657|372658|372659|233328|372661|372662|369408|372664|372665|372666|372667|372668|233338|369402|233329|372672|372673|233333|372675|372676|372677|369400
+A|1|1652|1648|1656|68690|68691|68692|68693|68694|68695|68696|68697|1665|68699|68700|68701|68702|68703|68704|68705|68706|68707|68708|68709|68710|68711|68712|68713|68714|68715|68716|68717|68718|68719|68720|68721|68722|68723|68724|68725|68726|68727|68728|68729|68730|68731|68732|68733|68734|68735|68736|68737
+A|1421|515710
+A|110|45774|45851|45852|45853|45854|45855|45856|45971|45972|45973|46206|46207|46208|46209|46210|46211|46212|46387|46388|46390|46391|46392|46393|46394|46395|46396
+A|5|195451|195452|195453|195454|195455|195456|195457|195458|195459|195460|195461|195462|195463|195464|195465|195466|195467|195468|195469|195470|195471|195472|195473|195474|195475
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|1338|KoDe|Kommundemokraterna
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1421||SOCIALLIBERALERNA
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|36888|48|M|Ilan De Basso|48 år,Kommunalråd,Huskvarna
+C|36889|53|K|Mona Forsberg|53 år,Kommunalråd,Jönköping
+C|36890|41|M|Andreas Persson|41 år,Försäkringstjänsteman,Månsarp
+C|36891|47|K|Anna Carlsson|47 år, Handläggare,Tenhult
+C|36892|69|M|Pelle Nordin|69 år,Fd skolledare,Jönköping
+C|36893|54|K|Carina Sjögren|54 år,Skötare,Jönköping
+C|36894|73|M|Rolf Wennerhag|73 år,Pensionär,Jönköping
+C|36895|32|K|Gabriella Sjöberg|32 år,Ombudsman,Jönköping
+C|36896|37|M|Henrik Andersson|37 år, Verksamhetsutvecklare,Jönköping
+C|36897|21|K|Lavin Adil|21 år,Undersköterska,Jönköping
+C|36898|48|M|Krister Johansson|48 år,Stoppmöbelarbetare,Norrahammar
+C|36899|42|K|Angelica Danielsson|42 år,Modellsnickare,Taberg
+C|36900|65|M|Gabriel Marko|65 år, Verksamhetssamordnare,Jönköping
+C|36901|51|K|Fatime Elezi|52 år,Försäkringshandläggare,Jönköping
+C|36902|70|M|Hans Holtz|70 år,Pensionär,Jönköping
+C|36903|49|K|Suwannee Wilhelmsson|49 år, Undersköterska,Jönköping
+C|36904|69|M|Tuma Vergili|69 år,Handlare,Jönköping
+C|36905|20|K|Sabina Dindic|20 år,Studerande,Jönköping
+C|36906|51|M|Magnus Johansson|51 år,Butiksarbetare,Jönköping
+C|36910|69|K|Inger Sjölander|69 år,Leg arbetsterapeut,Taberg
+C|36908|44|M|Amir Crnic|44 år,Industriarbetare,Jönköping
+C|36912|37|K|Sandra Klasson|37 år,Verksamhetsassistent,Jönköping
+C|36909|43|M|Johan Thorman|43 år,Jobbrådgivare,Jönköping
+C|36916|59|K|Inga-Maj Johansson|59 år,Förskollärare,Jönköping
+C|36911|61|M|Anders Gustafsson|61 år,Specialpedagog,Tenhult
+C|36920|68|K|Annika Nordin|68 år,Fd distriktssköterska,Jönköping
+C|36913|76|M|Bernt Lindqvist|76 år,Pensionär,Jönköping
+C|36922|74|K|Monica Ericson|74 år,Pensionär,Taberg
+C|36914|69|M|Elmoya Hargot|69 år,Lärare,Jönköping
+C|36924|65|K|Karin Malmborg Göransson|65 år,Keramiker,Jönköping
+C|36915|25|M|Tim Andersson|25 år,Lagerarbetare,Jönköping
+C|36926|23|K|Alexandra Östhed|23 år,Lagerarbetare,Lekeryd
+C|36917|26|M|Filip Edberg|26 år,Bussförare,Jönköping
+C|36919|56|M|Mats Hansson|56 år,Postiljon,Jönköping
+C|36921|28|M|Kenley Tran|28 år,Lagerarbetare,Jönköping
+C|36923|22|M|Filip Nyman|22 år,Distriktsutvecklare,Jönköpig
+C|36925|67|M|Bo Hjalmarsson|67 år, Pensionär,Jönköping
+C|36927|33|M|Johan Söderman|32 år,Socialarbetare,Jönköping
+C|37155|27|M|Niklas Sigvardsson|27 år,Lärare,Jönköping
+C|37156|64|K|Karin Widerberg|64 år, Verksamhetssamordnare,Jönköping
+C|37157|68|M|Hans-Lennart Stenqvist|68 år,Pensionär,Bankeryd
+C|37158|67|K|Harriet Roosquist|67 år,Pensionär,Jönköping
+C|37159|33|M|Dan Mattsson|33 år,Ombudsman,Jönköping
+C|37160|44|K|Madeleine Gustafsson|44 år,Enhetschef,Bankeryd
+C|37161|61|M|Tord Sundqvist|61 år,Statsstjänsteman,Jönköping
+C|37162|18|K|Edvina Palmcrantz|18 år,Student,Jönköping
+C|37163|39|M|Johnny Hartwig|39 år,Systemförvaltare,Jönköping
+C|37164|23|K|Elin Svensson|23 år,Student,Jönköping
+C|37165|41|M|Jakob Dolk|41 år, Servicetekniker,Jönköping
+C|37166|26|K|Linda Zogaj|26 år,Studerande,Jönköping
+C|37167|22|M|Shahram Behrouz|22 år,Ombudsman,Jönköping
+C|37168|68|K|Maj-Lis Wibring|68 år,Pensionär,Jönköping
+C|37169|73|M|Lars Stråth|73 år,Pensionär,Jönköping
+C|37170|68|K|Margareta Stråth|68 år,Administratör,Jönköping
+C|37171|68|M|Greger Svensson|68 år,Pastor,Jönköping
+C|37172|66|K|Elisabeth Fransson Malm|65 år,Lärare,Jönköping
+C|37173|31|M|Martin Karlsson|31 år,Byggnadsarbetare,Jönköping
+C|37174|45|K|Linda Vestman|46 år, Arbetsförmedlare,Jönköping
+C|37175|63|M|Per Hedberg|63 år,Egen företagare,Bankeryd
+C|37176|20|K|Carolina Salahova|20 år,Danslärare,Jönköping
+C|37177|67|M|Jens-Ove Isaksson|68 år,Pensionär,Jönköping
+C|37178|57|K|Irada Söderberg|57 år, Konsult,Jönköping
+C|37179|36|M|Tommie Fritzson|36 år,Processoperatör,Jönköping
+C|37180|72|K|Lenah Wendelius Andersson|72 år,Pensionär,Jönköping
+C|37181|67|M|Göte Wahlström|67 år,Drifttekniker,Bankeryd
+C|37182|61|K|Anette Höglund|61 år,Lärare,Jönköping
+C|37183|56|M|Mikael Eng|56 år,Försäljningschef,Jönköping
+C|37184|42|K|Ajla Crnic|42 år,Undersköterska,Jönköping
+C|37185|64|M|Christer Sjöberg|64 år,Lärare,Jönköping
+C|37186|26|K|Susanna Classon|26 år,Administratör,Huskvarna
+C|37187|34|M|Nils Helmersson|34 år,Ombudsman,Jönköping
+C|37188|43|M|Adam Starck|43 år, Verksamhetschef,Jönköping
+C|37348|45|M|Mikael Rydberg|45 år,Företagare,Huskvarna
+C|37349|58|K|Lynn Carlsson|58 år,Sektionschef,Gränna
+C|37350|31|M|Christopher Rydell|31 år,Ombudsman,Huskvarna
+C|37351|42|K|Elin Rydberg|42 år,Egen företagare,Huskvarna
+C|37352|41|M|Daniel Tornberg|41 år,Pressgjutare,Gränna
+C|37353|51|K|Katja Öz|51 år, Servitris,Huskvarna
+C|37354|74|M|Leif Regnér|74 år,Pensionär,Jönköping
+C|37355|61|K|Maria Hörnsten|61 år,Pensionär,Gränna
+C|37356|26|M|Joaquim Larsson|26 år,Ingenjörsstudent,Huskvarna
+C|37357|64|K|Ingalill Dahlgren Nyberg|64 år, Pastor,Huskvarna
+C|37358|43|M|Magnus G Rönnberg|43 år,Områdeschef,Huskvarna
+C|37359|50|K|Elisabeth Kangas|50 år,Undersköterska,Jönköping
+C|37362|36|M|Sami Belay|36 år,Projektledare,Huskvarna
+C|37361|30|K|Malin Sandgren|30 år,Undersköterska,Lekeryd
+C|37364|52|M|Atman Efrem|52 år,Vaktmästare,Huskvarna
+C|37363|42|K|Cristina Nichta|42 år,Verksamhetsassistent,Huskvarna
+C|37366|45|M|Edvin Jusufspahic|45 år,Verksamhetsassistent,Huskvarna
+C|37365|62|K|Åsa Liborn|63 år, Pensionär,Huskvarna
+C|37368|45|M|Nicklas Ödman|45 år,Folkhögskolelärare,Huskvarna
+C|37367|28|K|Mona Jaber|28 år,Områdesutvecklare,Huskvarna
+C|37370|54|M|Bo Rothzén|54 år,Lagerarbetare,Huskvarna
+C|37369|68|K|Ingrid Forsberg|68 år,Pensionerad lärare,Huskvarna
+C|37372|19|M|Noel Linder|19 år,Student,Gränna
+C|37371|18|K|Sila Demir|18 år, Studerande,Huskvarna
+C|37374|63|M|Kjell Pettersson|63 år,Mejeriarbetare,Huskvarna
+C|37373|40|K|Emma Kramer|40 år,Universitetsadjunkt,Huskvarna
+C|37376|65|M|Lennart Tehage|65 år,Herr,Huskvarna
+C|37375|70|K|Inga-May Klasson|70 år,Pensionär,Huskvarna
+C|37378|75|M|Leif Jonsson|75 år,Pensionär,Huskvarna
+C|37377|34|K|Anna Gunnarsson|34 år,Förskollärare,Huskvarna
+C|37379|36|K|Malin Scherlin|36 år,Lagerarbetare,Jönköping
+C|8534|57|K|Ann-Marie Nilsson|57 år, Kommunalråd, Jönköping
+C|15862|59|M|Anders Samuelsson|59, Civilekonom, Jönköping
+C|168079|35|K|Lena Sumedrea|35, Back office manager, Barnarp
+C|168080|21|M|Axel Lindquist|21, Snickare, Ölmstad
+C|168081|71|K|Ingegerd Hugosson|71, Frisör, Taberg
+C|168082|75|M|Carl Johan Stillström|75, Skyddsingenjör, Huskvarna
+C|168083|55|M|Sylve Gunnarsson|55, Upphandlare, Månsarp
+C|168084|68|M|Göran Bäckstrand|68, Civilingenjör, Jönköping
+C|168085|49|M|Stefan Gustavsson|49, Småföretagare, Bankeryd
+C|168086|67|M|Börje Svensson|67, Lantbrukare, Tenhult
+C|168087|21|M|William Fröding|21, Studerande, Jönköping
+C|168088|68|K|Eva Lundemo|68, Senior, Jönköping
+C|168089|50|M|Rikard Bunnvik|50, Jurist, Gränna
+C|168090|21|K|Nancy Karkouh|21, Studerande, Jönköping
+C|168091|28|M|Erik Axelsson|28, Mjukvaruutvecklare, Jönköping
+C|168092|47|K|Hanna Lupiner|47, Lammproducent, Gränna
+C|168093|38|M|Jakob to Baben|38, Läkare, Bankeryd
+C|168094|37|K|Mariana Morosanu|37, Jurist, Jönköping
+C|168095|55|M|Mats Petersson|55, Kommersiell chef, Jönköping
+C|168096|57|K|Annelie Hagstrand|57, Undersköterska, Angerdshestra
+C|168097|69|M|Leif Titusson|69, Läkare, Huskvarna
+C|168098|50|K|Marie Söderström|50, Administratör, Norrahammar
+C|168099|56|M|Ola Olsson|56, Utvecklingsstrateg, Huskvarna
+C|168100|64|K|Rosita Edfeldt|64, Ombudsman, Jönköping
+C|15851|68|M|Anders Råsberg|68, Lantmästare, Gränna
+C|168102|63|M|Göte Johansson|63, Diakon, Jönköping
+C|15865|38|K|Emilie Walfridsson|38, Distriktsläkare, Jönköping
+C|168104|71|M|Åke Haraldsson|71, Pensionär, Skärstad
+C|168105|35|M|Christian Holmeskär|35, Konsult, Jönköping
+C|168106|45|K|Maria Ekengard|45, Jurist, Gränna
+C|168107|79|M|Bengt Fischer|79, Pensionär, Tenhult
+C|168108|47|K|Ulrika Franke|47, Pedagog, Huskvarna
+C|168109|67|M|Arnold Sigonius|67, Socionom, Ölmstad
+C|168110|24|K|Ida Karlsson|24, Studerande, Jönköping
+C|168111|65|M|Bernt Legersjö|65, Chefsrekryteringskonsult, Jönköping
+C|168112|61|K|Anne Charlotte Nore|61, Leg. Sjuksköterska, Jönköping
+C|168113|39|M|Mikael Ekström|39, Områdeschef äldreomsorg, Jönköping
+C|168114|57|K|Agneta Sundgren|57, Hortonom, Gränna
+C|168115|68|M|Leif-Arne Andersson|68, Lantbrukare, Ödestugu
+C|168116|45|M|Magnus Sandberg|45, Socionom, Bankeryd
+C|168117|46|M|Anders Hjalmarsson|46, Maskiningenjör, Ölmstad
+C|168118|67|K|Marianne Söderlind|67, Frisör, Huskvarna
+C|168119|58|M|Mikael Andersson|58, Skogsägare, Bottnaryd
+C|168120|20|K|Ellen Sandberg|20, Studerande, Jönköping
+C|310324|40|K|Ewelina Axell|
+C|310325|48|K|Jenny Astner|48 år, Vårdare, Skärstad
+C|310326|37|K|Alexandra Jauhiainen|37 år, Maskinoperatör, Norrahammar
+C|310327|25|M|Jesper Persson|25 år, Studerande, Huskvarna
+C|401778|55|K|Carin Berggren|Studie- och yrkesvägledare
+C|401779|69|M|Anders Jörgensson|Ingenjör
+C|401780|63|K|Annemari Grennhag|Undersköterska
+C|401781|54|M|Ola Helt|Företagare
+C|401782|68|M|Peter Lundvall|Pensionär
+C|401783|75|K|Barbro Eng|Frisör
+C|401784|69|M|Bo Grennhag|Fotograf
+C|401785|66|K|Margaretha Jägsell|Socialsekreterare
+C|401786|58|M|Håkan Törnqvist|Adjunkt
+C|401787|50|M|Harry Schedrin|Marknadsförare
+C|401788|48|K|Margit Bogdanovic|Restaurangchef
+C|401789|49|M|Fredrik Rönneke|Civilingenjör
+C|401790|67|K|Maria Eres|Kallskänka
+C|401791|21|K|Joanna Helt|Studerande
+C|401792|30|M|Alexander Burman|Säljare
+C|401793|43|M|Lars-Erik Lindh|IT-Konsult
+C|229256|35|M|Erik Ottosson|truckförare
+C|229257|65|K|Annica Albertsson|förskollärare
+C|229258|33|M|Tom Svensson|guldsmed
+C|229259|65|K|Lone Möller|biolog
+C|229260|67|M|Rune Andersson|pensionär
+C|229261|24|K|Sam Malin Pettersson|vårdbiträde
+C|229262|68|M|Pelle Nordström|socionom
+C|229263|68|K|Margareta Ask|pensionär
+C|229264|26|M|Joel Assarsson|civilingenjör
+C|229265|70|K|Monica Ekström|pensionär
+C|229266|70|M|Mikael Ask|pensionär
+C|229267|38|K|Ylva Albertsson|bibliotekarie
+C|229268|66|M|Bernt Persson|lärare
+C|229269|67|M|Lars-Åke Johansson|pensionär
+C|77837|45|M|Andreas Sturesson|Kommunalråd, Gränna
+C|77838|51|K|Cecilia Hjorth Attefall|Projektledare, Jönköping
+C|77839|74|K|Margareta Strömberg|Internationell samordnare, G:a Råslätt
+C|77840|58|M|Björn Engvall|Affärsutvecklingschef, Huskvarna
+C|77841|26|K|Gabriella Lönn|Socionom, Jönköping
+C|77842|28|M|Emil Qvarnström|Restaurangchef, Ljungarum
+C|77843|71|M|Anders Hulusjö|Lantbrukare, Tenhult
+C|77844|51|K|Helén Krogell|Högskoleingenjör, Torpa
+C|77845|52|M|Carl Cunningham|Ombudsman, Hovslätt
+C|77846|53|K|Susanne Wismén|Studievägledare, Jönköping
+C|77847|50|M|Ola Nilsson|Bokförläggare, Bankeryd
+C|77848|64|K|Karin Hannus|Specialpedagog, Rosenlund
+C|77849|33|M|Simon Löfgren|Statsvetare, Jönköping
+C|77850|65|K|Eva Stråth|Sjukgymnast, Jönköping
+C|77851|25|M|Albin Björhag|Högskoleingenjör, Kristinedal
+C|77852|39|M|Hanns Boris|IT-tekniker, Hisingstorp
+C|77853|51|K|Maria Järviken|Ekonom, Bymarken
+C|77854|21|M|Simon Attefall|Studerande, Skänkeberg
+C|77855|39|M|Sarmad Yousif|Ekonom, Öxnehaga
+C|77856|38|K|Haykanush Vardanyan|Tolk, Jönköping
+C|77857|35|M|Olof Landgren|Statsvetare, Jönköping
+C|77858|45|K|Pernilla Freij|IT-administratör, Jönköping
+C|77859|49|M|Björn Deichmann|Egen företagare, Huskvarna
+C|77860|69|K|Gunborg Nygren|Senior, Barnarp
+C|77861|53|M|Tomas Tyngel|Företagare, Bankeryd
+C|77862|34|M|Merahi Ahferom|Arbetskonsulent, Jönköping
+C|77863|56|M|Stefan Bomberg|Frisör, Jönköping centrum
+C|77864|63|M|Werner Hilliges|Innovationsrådgivare, Bottnaryd
+C|77865|49|K|Gia Syraka|Personalchef, Huskvarna
+C|77866|52|K|Hillevi Lindström|Personalchef, Skänkeberg
+C|77867|53|M|Patrik Lägermo|Affärsenhetschef, Hovslätt
+C|77868|66|K|Ulla Gunnevik Sandstedt|Socialpedagog, Jönköping
+C|77869|29|M|Emanuel Foglander|IT-tekniker, Jönköping
+C|77870|43|M|Erik Arnalid|Affärschef, Torpa
+C|77871|63|K|Eva Berntsson|Leg. arbetsterapeut, Taberg
+C|77872|64|M|Göran Undevall|Pastor, Norrahammar
+C|77873|70|M|Göran Enell|Lantbrukare, Lekeryd
+C|77874|53|K|Susanne Agerbring|Bitr. verksamhetschef, Bankeryd
+C|77876|33|M|David Högberg|Programmerare, Öxnehaga
+C|77877|46|K|Sara Skagerö|Förskoleklasslärare, Mariebo
+C|77878|44|M|Mattias Oscarsson|Säljare, Bankeryd
+C|77879|52|K|Camilla Brinkmann|Samtalsterapeut, Angerdshestra
+C|77880|72|M|Kjell Olsson|Senior, Hovslätt
+C|77881|75|K|Astrid Johansson|Fd lärare, Bymarken
+C|77882|66|M|Erik Lagärde|Kriminalinspektör, Tenhult
+C|77883|56|K|Elisabeth Englund|Sjuksköterska, Gränna
+C|77884|51|M|Ercan Atasayar|Lärarassistent, Råslätt
+C|77885|30|K|Mariam Vardanyan|Barnskötare, Taberg
+C|77886|51|M|Jonas Lind|Läkare, Bankeryd
+C|77887|62|K|Ewa Nilsson|Löneadministratör, Skärstad
+C|77888|75|M|Lennart Edlund|Senior, Månsarp
+C|77889|42|K|Sara Duveskog|Barnsjuksköterska, Vättersnäs
+C|77890|52|M|Joakim Göransson|Säljare, Bäckalyckan
+C|77891|22|K|Ellen Brengesjö|Student, Torpa
+C|77892|66|M|Roland Malmberg|Boutredare, Ölmstad
+C|77893|33|K|Ida Samuelsson|Sjuksköterska, Taberg
+C|77894|72|M|Nils-Erik Emme|Senior, Jönköping
+C|77895|49|K|Annicka Ekstrand|Redovisningsassistent, Norrängen
+C|77896|58|M|Mats Grennborg|Gymnasielärare, Barnarp
+C|77897|70|M|Olof Darelid|Senior, Huskvarna
+C|77898|54|K|Maria Özmen|Företagare, Odensjö
+C|243159|26|M|Hannes Mårtensson|Lärare, Kålgården
+C|77899|81|M|Curt Ankarberg|Senior, Huskvarna
+C|77900|49|K|Mia Frisk|Regionråd, Tenhult
+C|480131|58|M|Bosse Vingren|lärare, 58, Huskvarna
+C|508331|34|M|Jakob Fluoré Alkes|ingenjör, 34, Huskvarna
+C|480125|25|M|Jonathan Eidering|studerande, 25, Jönköping
+C|508333|40|M|Frans Lindell|byggnadsingenjör, 40, Jönköping
+C|515916|54|M|Tommy Neij|
+C|223293|42|M|David Gerson|Egenföretagare
+C|204181|66|K|Ann-Marie Hedlund|66, Gymnasielärare, Bankeryd
+C|241969|72|M|Ingvar Åkerberg|f.d. Rektor, Jönköping
+C|223296|43|K|Angela Hafström|
+C|241971|75|M|Bertil Rylner|f.d. Personalchef, Visningsö
+C|241972|48|K|Annica Lind Nordberg|Jönköping
+C|223300|36|M|Fredrik Nordenankar|Resurslärare
+C|241974|36|M|Albert Söderlind|Ekonom, Jönköping
+C|204188|68|M|Stig-Arne Tengmer|68, Socialarbetare, Taberg
+C|223301|30|K|Rebecka Karlsson|
+C|49204|43|M|Jakob Olofsgård|pastor, Jönköping
+C|204186|37|M|Patrik Nzamba|38, Jönköping
+C|223291|27|K|Sascha Carlsson|Arbetsterapeut
+C|241980|65|M|Cjell Fransson|Journalist, Jönköping
+C|241981|49|K|Angelita Nooni|Tenhult
+C|241982|71|M|Christer Möller|Huskvarna
+C|223297|69|K|Inga-Maj Filipsson|Sjuksköterska
+C|241984|70|M|Lars-Erik Zackrisson|Bottnaryd
+C|241985|38|M|Jimmi Mohlin|Bottnaryd
+C|241986|62|K|Margareta Karlberg|Biomedicinsk analytiker, Bottnaryd
+C|241987|71|M|Rune Hultqvist|IT-arkitekt, Huskvarna
+C|241988|76|M|Anders Milerup|Gränna
+C|241989|58|K|Marjatta Nyfors|Norrahammar
+C|223302|74|M|Dag Jonasson|Pensionär
+C|241991|75|M|Jan Sidenvall|Jönköping
+C|241992|73|M|Jan-Olof Petersson|Pensionär, Hovslätt
+C|223303|69|K|Inger Gustafsson|
+C|184595|54|M|Torbjörn Gustafsson|54, järnvägskonsult
+C|184592|32|M|Mikael Jonsson|32, specialistofficer
+C|184591|62|K|Susanne Ritter-Nilsson|61, egenföretagare
+C|184593|24|K|Annica Sandstedt|24, student
+C|372650|70|K|Margareta Sylvan|projektledare, 69 år, Jönköping
+C|369416|54|M|Mats Weidman|53 år, alkohol-/drogbehandlare, Jönköping
+C|369407|67|K|Agneta Fransson|67 år, HR-konsult, Jönköping
+C|372653|37|M|David Jersenius|byggnadsingenjör, 37 år, Jönköping
+C|372654|18|K|Alissar Rajha|studerande, 18 år, Gränna
+C|372655|73|M|Christopher Stock|pensionerad stadsplanerare, 73 år, Jönköping
+C|233322|30|K|Emma Hult|30, riksdagsledamot, byggnadsingenjör, Jönköping
+C|372657|47|M|Bob Lind|biolog, 47 år, Norrahammar
+C|372658|28|K|Julia Lindahl|ombudsman/verksamhetsutvecklare, 28 år, Norrahammar
+C|372659|30|M|Peter Alsén|lärare, student, 30 år, Jönköping
+C|233328|70|K|Kerstin Lindberg|70 år, skolledare, Jönköping
+C|372661|69|M|Per-Åke Göransson|pensionerad gymnasielärare, 69 år, Gränna
+C|372662|55|K|Ådel Vestbö Franzén|antikvarie, Fil. Dr., 55 år, Jönköping
+C|369408|55|M|Hussein Abyan|55 år, god man/förvaltare, Jönköping
+C|372664|68|K|Ulla Hultberg|konstnär, 68 år, Jönköping
+C|372665|32|M|Victor Egerbo|insamlingskoordinator på Erikshjälpen Barnrättsorganisation, 32 år, Barnarp
+C|372666|84|K|Gunvor Ruhnström|pensionerad lärare, 84 år, Huskvarna
+C|372667|45|M|Claes Carlsson|kanslist, 45 år, Jönköping
+C|372668|77|K|Agneta Svennebring|lärare inom Vuxenutbildning, 77 år, Jönköping
+C|233338|32|M|Andreas Öggesjö|32 år, bibliotekarie, Jönköping
+C|369402|42|M|Jon Heinpalu|42 år, kulturarbetare, Jönköping
+C|233329|32|M|Linus Perlerot|32 år, läkare, Jönköping
+C|372672|73|M|John Erik Ottosson|leg. psykolog/leg. psykoterapeut, 73 år, Jönköping
+C|372673|62|M|John Hultberg|utbildningschef, 62 år, Jönköping
+C|233333|35|M|Rickard Almers|35 år, barnskötare, Jönköping
+C|372675|49|M|Robin Hansson|maskiningenjör, 49 år, Huskvarna
+C|372676|36|M|Erik Baubeta Fridh|läkare, 36 år, Huskvarna
+C|372677|53|M|Mats Rappe|programmerare, 53 år, Skirebo
+C|369400|38|M|Erik Hugander|38 år, egenföretagare, Jönköping
+C|1652|60|M|Peter Jutterström|60 år, Kommunalråd, Bankeryd
+C|1648|44|M|Kent Ly|44 år, Företagare, Jönköping
+C|1656|51|M|Carl-Johan Lundberg|51 år, Entreprenör, Bankeryd
+C|68690|63|K|Elisabet Mattsson|63 år, Försäljare, Kaxholmen
+C|68691|53|M|Hans Hellström|53 år, Företagare, Jönköping
+C|68692|72|K|Inger Grund|72 år, Lärare, Jönköping
+C|68693|65|M|Bert-Åke Näslund|65 år, Civiljägmästare, Jönköping
+C|68694|52|M|Anders Jarl|52 år, Småföretagare, Tenhult
+C|68695|61|M|Per Allan Axén|61 år, Civilingenjör, Jönköping
+C|68696|57|M|Bengt Regné|57 år, Gymnasielärare, Lekeryd
+C|68697|32|M|Josef Zetterberg|32 år, Säljare, Tenhult
+C|1665|75|M|Ulf Månsson|75 år, Pol.mag., Jönköping
+C|68699|38|M|Kristoffer Rasmussen|38 år, Civilekonom, Jönköping
+C|68700|68|M|Thomas Bäuml|68 år, Civilingenjör, Jönköping
+C|68701|77|M|Johnny Lilja|77 år, Marknadschef, Huskvarna
+C|68702|30|K|Christina Melle|30 år, Företagare, Jönköping
+C|68703|35|M|Kamran Sairafi|35 år, Civilekonom, Norrahammar
+C|68704|61|K|Christina Björkhag|61 år, HR-specialist, Jönköping
+C|68705|40|K|Maria Måhlberg|40 år, Företagare, Gränna
+C|68706|42|M|Joakim Dahlström|42 år, IT-konsult, Bankeryd
+C|68707|41|M|Tommy Nordman|41 år, Skattejurist, Jönköping
+C|68708|44|M|Vilbert Soleymanian|44 år, Entreprenör, Jönköping
+C|68709|60|M|Björn Johansson|60 år, Polis, Lekeryd
+C|68710|57|M|Janne Hedell|57 år, Företagsledare, Jönköping
+C|68711|31|M|Daniel Ihreborn|31 år, Analytiker, Jönköping
+C|68712|52|K|Helene Hellström|52 år, Företagare, Jönköping
+C|68713|73|M|Sven Enar Johansson|73 år, Officer, Jönköping
+C|68714|64|M|Hans Stam|64 år, Leg. läkare, Jönköping
+C|68715|45|K|Johanna Kindberg Bakos|45 år, Företagare, Huskvarna
+C|68716|74|M|Lars Hoving|74 år, Bergsingenjör, Jönköping
+C|68717|21|M|August Lusth|21 år, Studerande, Jönköping
+C|68718|78|M|Lars Hoel|78 år, Lektor, Jönköping
+C|68719|58|M|Michael Torndahl|58 år, Affärsingenjör, Jönköping
+C|68720|53|M|Per Skrealid|53 år, Civilingenjör, Jönköping
+C|68721|45|M|Henrik Larsen|45 år, Jur. kand., Jönköping
+C|68722|43|M|Hubertius Hugo Mench|43 år, Truckförare, Jönköping
+C|68723|74|K|Anita Larsson Johansson|74 år, Sjuksköterska, Jönköping
+C|68724|38|M|Magnus Crona|38 år, Förvaltare, Jönköping
+C|68725|40|M|Lars Bertilsson|40 år, Processansvarig, Jönköping
+C|68726|46|M|Jonas Hallin|46 år, Målaremästare, Jönköping
+C|68727|67|K|Anna Lena Näslund|67 år, Kostekonom, Jönköping
+C|68728|39|M|Eric Sjöberg|39 år, Konsultchef, Huskvarna
+C|68729|72|M|Peter Isoz|72 år, Civilingenjör, Huskvarna
+C|68730|39|M|Daniel Engström|39 år, Företagare, Bankeryd
+C|68731|52|M|Robert Franck|52 år, Gruppchef, Jönköping
+C|68732|69|K|Maria Magui|69 år, Undersköterska, Jönköping
+C|68733|63|M|Thomas Helleblad|63 år, Försäljningsingenjör, Norrahammar
+C|68734|47|M|Martin Hytting|47 år, Egen företagare, Jönköping
+C|68735|71|M|Ivan Högstedt|71 år, Pensionär, Huskvarna
+C|68736|49|K|Gun Lusth|49 år, Förskollärare, Gränna
+C|68737|35|K|Caroline Stendahl|35 år, Lärare, Tenhult
+C|515710|48|M|Valdi Ivancic|
+C|45774|57|M|Kristian Aronsson|57, Småföretagare, Taberg
+C|45851|69|K|Cristina Gustavsson|Vakthavande befäl, Jönköping
+C|45852|53|M|Staffan Eklöf|Fil. Dr cell- och molekylärbiologi, Jönköping
+C|45853|59|M|Jan-Ove Lipponen|IT-Konsult, Jönköping
+C|45854|46|K|Lizette Bülow|Flowplanner, Jönköping
+C|45855|60|M|Roland Hagström|60, Sjöman, Norrahammar
+C|45856|36|K|Ida Bengtsson|Jönköping
+C|45971|32|M|Marcus Aronsson|32, rörmokare, Taberg
+C|45972|61|K|Agnetha Lundberg|61, Sjuksköterska, Jönköping
+C|45973|43|M|Jonas Andersson|43, Besiktningstekniker, Jönköping
+C|46206|71|K|Mona Milton|71, Undersköterska, Jönköping
+C|46207|70|K|Lisbeth Wall|70, Pensionär, Huskvarna
+C|46208|27|K|Ekaterina Wetterbrandt|27, Ekonomiassistent, Jönköping
+C|46209|75|K|Anita Winberg|75, Pensionär, Jönköping
+C|46210|49|M|Stephan Wetterbrandt|48, IT manager, Jönköping
+C|46211|49|M|Johan Edvardsson|49, Egenföretagare, Barnarp
+C|46212|77|M|Sven-Erik Rolfson|77, pensionär, Gränna
+C|46387|70|K|Ingegerd Meller|70, Livsnjutare, Jönköping
+C|46388|54|M|Bengt Andersson|54, Pedagog, Norrahammar
+C|46390|51|M|Marcos Mallermo|51, danslärare, Jönköping
+C|46391|64|M|Olof G. Hedengren|64, pensionär, Jönköping
+C|46392|65|M|Reinhold Dahl|65, egenföretagare, Tenhult
+C|46393|66|M|Göran Malm|66, egenföretagare, Jönköping
+C|46394|67|M|Lennart Högberg|72, pensionär, Jönköping
+C|46395|26|M|Kevin Barthel|26, studerande, Jönköping
+C|46396|48|K|Helena Walkendorff|Assistent, Jönköping
+C|195451|64|M|Jerry Hansson|64, folkhögskolelärare
+C|195452|27|K|Michella Zayat|integrationsutvecklare, Jönköping
+C|195453|39|K|Moa-Sara Marakatt|39, undersköterska
+C|195454|31|M|Jonathan Frylén|lärare, Jönköping
+C|195455|44|K|Ciczie Weidby|butiksanställd, Jönköping
+C|195456|73|M|Bengt-Åke Berg|73, pensionerad lärare
+C|195457|25|K|Julia Löf|landsbygdsutvecklare, Jönköping
+C|195458|36|M|Pontus Pfeiffer|36, personlig handläggare
+C|195459|42|M|Kristoffer Wolke|42, praktiksamordnare
+C|195460|57|K|Elisabeth Töre|personlig handläggare, Huskvarna
+C|195461|62|M|Gunnar Friberg|industriarbetare, Jönköping
+C|195462|52|K|Yvonne Bladh|undersköterska, Huskvarna
+C|195463|60|M|Mats Kåremalm|undersköterska, Jönköping
+C|195464|65|K|Thordis Samuelsson|65, agronom
+C|195465|76|M|Kenneth Kindblom|76, pensionerad metallarbetare
+C|195466|58|K|Carina Davidsson|58, skattebrottsutredare
+C|195467|34|M|Johan Innab Tiger|musiker, Jönköping
+C|195468|62|K|Berith Svensson|62, ungdomscoach/socionom
+C|195469|46|M|Henrik Dinkel|46, egen företagare
+C|195470|65|K|Anne Falk|undersköterska, Jönköping
+C|195471|18|M|Gunnar Alveglim|18, studerande
+C|195472|61|K|Inga Jonasson|61, vårdlärare
+C|195473|28|M|Simon Brehmer|28, förhandlare
+C|195474|61|K|Mona Ragnarsson|61, socionom
+C|195475|61|K|Susanne Sax|61, metallarbetare

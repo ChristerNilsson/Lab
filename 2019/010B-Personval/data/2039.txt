@@ -1,9 +1,157 @@
-2|243583|244137|243585|243586|243587|243588|243589|243590|243591|243592|243593|243594|243595|243596|243597|243598|243599|243600|243601|243602|243603|243604|243605|243606|243607|243608|243609|243610|243611|243612|243613|243614|243615|243616|243617|243618|243619|243620|243621|243622|243623|243624|243625|243626|243627|243628|243629|243630|243631|243632
-4|33539|50327|33545|50329|50330|50331|50332|38960|50334|50335|50336|50337|50338|50339|50340|50341|50342|50343|50344|50345|50346|50347|50348|50349|50350|50351|50352|514161
-512|402853|402854|402855|402856|402857|402858|402859|402860|402861|402862|402863|402864|402865|402866
-1011|131867|514161
-3|156331|190401|190402|190403|190404
-55|114189|114150|114155|114337|114214|114339
-1|35819|36177|35826|37393|37394|36187|37396|36208|37398|37399|37400|37401|37402|37403|37404|37405|37406|37407
-110|37229|37230|37231|37234|37233|37232|37235|200926|200927|200928|200929
-5|506539|506540|506541|506543|506542|514161
+T|Älvdalen
+A|2|243583|244137|243585|243586|243587|243588|243589|243590|243591|243592|243593|243594|243595|243596|243597|243598|243599|243600|243601|243602|243603|243604|243605|243606|243607|243608|243609|243610|243611|243612|243613|243614|243615|243616|243617|243618|243619|243620|243621|243622|243623|243624|243625|243626|243627|243628|243629|243630|243631|243632
+A|4|33539|50327|33545|50329|50330|50331|50332|38960|50334|50335|50336|50337|50338|50339|50340|50341|50342|50343|50344|50345|50346|50347|50348|50349|50350|50351|50352
+A|512|402853|402854|402855|402856|402857|402858|402859|402860|402861|402862|402863|402864|402865|402866
+A|1011|131867|514161
+A|3|156331|190401|190402|190403|190404
+A|55|114189|114150|114155|114337|114214|114339
+A|1|35819|36177|35826|37393|37394|36187|37396|36208|37398|37399|37400|37401|37402|37403|37404|37405|37406|37407
+A|110|37229|37230|37231|37234|37233|37232|37235|200926|200927|200928|200929
+A|5|506539|506540|506541|506543|506542|514161
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|512|KL|Kommunlistan
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|243583|59|M|Peter Egardt|Östäng
+C|244137|50|K|Anette Eriksson|50 år, Älvdalen
+C|243585|66|M|Stig Olsson|Särna
+C|243586|75|K|Kerstin Knuts|Älvdalen
+C|243587|56|M|Kent Eriksson|Älvdalen
+C|243588|40|K|Mari Rustad|Älvdalen
+C|243589|63|M|Gunnar Barke|Älvdalen
+C|243590|60|K|Margareta Grabowska|Gåsvarv
+C|243591|53|K|Monica Jönsson Thollander|Idre
+C|243592|52|M|Åke Näslund|Sågliden
+C|243593|45|M|Mattias Högberg|Blyberg
+C|243594|67|K|Berith Olsen|Älvdalen
+C|243595|29|M|Viktor Barke|Älvdalen
+C|243596|51|K|Maria Hinders|Kyrkbyn
+C|243597|65|M|Leif Ekström|Kyrkbyn
+C|243598|84|K|Ulla-Britt Emanuelsson|Östäng
+C|243599|60|K|Siv Nilsson|Idre
+C|243600|63|K|AnnaMaria Bäckman|Särna
+C|243601|35|M|David Paulsson|Kåtilla
+C|243602|65|M|Bengt Jonsson|Evertsberg
+C|243603|58|M|Arne Jönsson|Älvdalen
+C|243604|52|K|Maria Åslund|Kåtilla
+C|243605|37|M|Carl-Arvid Dalrot|Västäng
+C|243606|60|K|Ulla Back|Särna
+C|243607|37|M|Andreas Garbergs|Kyrkbyn
+C|243608|44|K|Malin Pettersson Lindgren|Evertsberg
+C|243609|35|M|Emil Henning|Idre
+C|243610|32|K|Lina Frost|Klitten
+C|243611|54|M|Ken Järn|Östäng
+C|243612|37|K|Therese Hamrén|Särna
+C|243613|48|M|Per-Arne Pettersson|Evertsberg
+C|243614|44|K|Petra Aho|Västäng
+C|243615|61|K|Rose-Marie Löb|Idre
+C|243616|64|M|Lars Olsson|Kyrkbyn
+C|243617|64|M|Jan-Olof Heed|Östäng
+C|243618|73|K|Siri Hedlund|Särna
+C|243619|45|K|Jessica Haara|Kyrkbyn
+C|243620|63|M|Sam Risander|Näset
+C|243621|60|K|Molly Rolfsson|Idre
+C|243622|33|M|Jonas Eriksson|Liden
+C|243623|29|M|Jimmy Hinders Martinsson|Kyrkbyn
+C|243624|64|M|Frode Rolland Olsen|Särnaheden
+C|243625|30|M|Alexander Lovén|Östäng
+C|243626|79|M|Sten Kristoffersson|Loka
+C|243627|63|K|Ingalill LindWall|Drevdagen
+C|243628|65|M|Anders Björklund|Östäng
+C|243629|74|M|Carl-Axel Björkelid|Östäng
+C|243630|68|K|Molly Jensen|Gördalen
+C|243631|63|M|Lennart Hjelm|Idre
+C|243632|76|M|Leo Persson|Älvdalen
+C|33539|65|M|Kjell Tenn|Älvdalen
+C|50327|40|K|Maria Eriksson|Sjuksköterskestuderande, Västäng
+C|33545|62|M|Jan Spånberg|Älvdalen
+C|50329|50|K|Marica Leandersson|Specialpedagog, Kyrkbyn
+C|50330|40|M|Daniel Nyström|Fastighetsmäklare, Brunnsberg
+C|50331|66|K|Edita Pinxter|Samhällsstrateg, Gåsvarv
+C|50332|38|M|Henrik Skottheim|Jobbcoach, Storbrott, Kyrkbyn
+C|38960|66|K|Karin Bogg|Älvdalen
+C|50334|33|M|Patrik Samuelsson|Transportledare, Kyrkbyn
+C|50335|55|K|Kristina Wahlström|Hovslagare, Idre
+C|50336|59|M|Göran Olsson|Förskollärare, Kyrkbyn
+C|50337|43|K|Maria W Abrahamsson|Skolkurator, Holen
+C|50338|32|M|Patrik Skord|Butiksbiträde, Dysberg
+C|50339|67|K|Karita Graf|Diversearbetare, Lövnäs
+C|50340|51|M|Anders Lagerberg|Ekonom, Östäng
+C|50341|72|K|Kerstin Lagerberg|Pensionär, Östäng
+C|50342|45|M|Stig H Spånberg|Fjällbonde-Fäbodbrukare, Särna
+C|50343|26|K|Petra Samuelsson|Personlig assistent, Gåsvarv
+C|50344|73|M|Anders Högberg|Kyrkbyn, Älvdalen
+C|50345|38|K|Madelene Persson|Jobbcoach, Kyrkbyn
+C|50346|47|M|Uno Spånberg|Vårdbiträde, Särna
+C|50347|40|K|Ann-Sofie Upphagen|Lärarstuderande, Kyrkbyn
+C|50348|66|M|Tore Eriksson|Jordbrukare-Mjölkbonde, Östäng
+C|50349|53|K|Anita Tenn|Undersköterska-Demensvård, Evertsberg
+C|50350|64|M|Bo Olsson|Fabriksarbetare, Evertsberg
+C|50351|64|K|Birgitta Åslund-Jansson|Mångsysslare, Evertsberg
+C|50352|77|M|Roland Dahlström|Pensionär, Idre
+C|402853|64|K|Lisbet Mörk-Amnelius|Älvdalen
+C|402854|76|M|Östen Sjögren|Älvdalen
+C|402855|75|K|Birgitta Sjögren|Älvdalen
+C|402856|61|M|Per-Gunnar Jonsson|
+C|402857|76|M|Alf Karlsson|
+C|402858|79|M|Stig Amnelius|Älvdalen
+C|402859|56|M|Bo Olsson|
+C|402860|72|K|Evy Lindén|Älvdalen
+C|402861|76|M|Elon Andersson|
+C|402862|50|M|Olof Spånberg|
+C|402863|31|M|Thomas Olsson|
+C|402864|64|K|Anitha Jerlerud|Älvdalen
+C|402865|80|M|Lars-Erik Gråbergs|
+C|402866|60|K|Astrid Andersson|
+C|131867|62|K|Tjern Inga Wall|Fäbodägare, Dalarna
+C|514161|56|M|Bertil Johansson|
+C|156331|49|M|Stephan Erixon Knagg|Lärare, 49 år, Älvdalen
+C|190401|19|K|Kristina Karonen|19 år, Östäng
+C|190402|56|M|Toren Olsson|56 år, Åsen
+C|190403|54|M|Peter Nygren|54 år, Kyrkbyn
+C|190404|74|K|Vivi-Ann Andersson|74 år, Blyberg
+C|114189|55|K|Anneli Qvicker|Älvdalen, frisörföretagare
+C|114150|51|K|Helena Andersson|Älvdalen, egenföretagare
+C|114155|57|K|Ingmari Nilsson|Älvdalen, lärare
+C|114337|42|M|Jimmy Skord|fil. mag. biolog, Västermyckeläng
+C|114214|62|M|Mikael Nilsson|Älvdalen, hållbarhetskonsult
+C|114339|81|M|Ulf Segrell|pensionär, Östermyckeläng
+C|35819|63|M|Nils-Åke Norman|63 år, oppositionsråd, Älvdalen
+C|36177|66|K|Carina Källström|66 år, verksamhetschef, tandläkare, Älvdalen
+C|35826|41|M|Mattias Olsson|41 år, egenföretagare, Älvdalen
+C|37393|29|M|Mattias Jonsson|Idre
+C|37394|50|M|Christer Hed|Älvdalen
+C|36187|45|K|Lena Bertelsen|45 år, statsvetare, Älvdalen
+C|37396|55|K|Ann-Britt Larsson|Älvdalen
+C|36208|47|K|Malin Holmström|47 år, personlig assistent, Älvdalen
+C|37398|70|M|Kjell Landén|Idre
+C|37399|65|M|Roland Svensson|Idre
+C|37400|47|K|Jennie Tegnér|Älvdalen
+C|37401|51|K|Anna Höglund|Idre
+C|37402|78|M|Allan Pettersson|Älvdalen
+C|37403|75|M|Sven-Olov Åsberg|Älvdalen
+C|37404|74|M|Mats Hjort|Älvdalen
+C|37405|53|M|Jarl Spånberg|Särna
+C|37406|23|M|Viktor Aldén|Idre
+C|37407|27|K|Simone Larsson|Idre
+C|37229|68|M|Kenneth Upphagen|68, Fd företagare, Älvdalen
+C|37230|56|K|Birgitta Martinsson|56, Busschaufför, Älvdalen
+C|37231|65|M|Rolf Melén|65, Drifttekniker, Älvdalen
+C|37234|43|M|Jimmie Robertsson|43, Fönstersnickare, Älvdalen
+C|37233|54|M|Tomas Andersson|Företagare, Särna
+C|37232|64|M|Lauri Robertsson|64, Stenarbetare, Älvdalen
+C|37235|42|M|Johnny Wallström|42, Vaktmästare, Älvdalen
+C|200926|49|M|Erik Larsson|49, Vaktmästare, Älvdalen
+C|200927|69|M|Rolf Knuts|69, Fd egenföretagare, Älvdalen
+C|200928|56|K|Gisela Hed|57, Verkstadsarbetare, Älvdalen
+C|200929|52|K|Gertrud Larsson Sivertsen|52, Undersköterska, Särna
+C|506539|29|K|Kristina Mattsson|
+C|506540|57|M|Calle Jakobsson|
+C|506541|71|M|Leif Sörensen|
+C|506543|71|K|Ingrid Lagerlöf|
+C|506542|37|K|Linda Grannas|

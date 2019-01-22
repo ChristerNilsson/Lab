@@ -1,8 +1,110 @@
-2|33812|33813|33814|33815|33816|33817|33818|33819|33820|33821|33822|33823|33824|33825|33826
-4|3201|3217|3244|3270|5155|3226|5157|5158|5159|5160|5161|5162|5163|5164|5165|5166|5167|5168|5169|5170
-1388|515655
-68|503777|515375
-3|25029|30868|30869|30870|30871|30872|30873|30874|30875|30876|30877
-55|65384|65385|65386|65387|65388|65389|65391
-1|253982|253993|254356|255126|255127|255128|255129|255130|255131|255132|255133|255134|255135|255136|255137|255138|255139|255140|255141|255142|255143|255144|255145|255146|255147|255148|255149
-110|66290|66291|66292|66293|66294|225191|508809|508810|507176|508812
+T|Grästorp
+A|2|33812|33813|33814|33815|33816|33817|33818|33819|33820|33821|33822|33823|33824|33825|33826
+A|4|3201|3217|3244|3270|5155|3226|5157|5158|5159|5160|5161|5162|5163|5164|5165|5166|5167|5168|5169|5170
+A|1388|515655
+A|68|503777|515375
+A|3|25029|30868|30869|30870|30871|30872|30873|30874|30875|30876|30877
+A|55|65384|65385|65386|65387|65388|65389|65391
+A|1|253982|253993|254356|255126|255127|255128|255129|255130|255131|255132|255133|255134|255135|255136|255137|255138|255139|255140|255141|255142|255143|255144|255145|255146|255147|255148|255149
+A|110|66290|66291|66292|66293|66294|225191|508809|508810|507176|508812
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1388||Folkhemmet Sverige
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+C|33812|36|M|Petter Johansson|Stödassistent
+C|33813|54|K|Kristina Eriksson|Undersköterska/Skötare
+C|33814|61|M|Jens Persson|61 år, Grästorp
+C|33815|36|K|Emma Andersson|Medicinsk sekreterare
+C|33816|73|M|Göran Enström|Pensionär
+C|33817|45|K|Elisabeth Hansson Ohlsson|Stödassistent
+C|33818|65|M|Kenneth Wulcan|Vaktmästare
+C|33819|52|K|Ann-Helen Antonsson|Akademiker
+C|33820|25|M|Henrik Svensson|25 år, Grästorp
+C|33821|28|K|Ramona Karlsson|Personlig assistent
+C|33822|35|M|Anders Ehrnbecker|Produktionsplanerare
+C|33823|46|M|Keivan Moloudi|Student
+C|33824|66|M|Tore Emanuelsson|Pensionär
+C|33825|48|K|Kristina Augustsson|Administratör
+C|33826|52|M|Johan Augustsson|Drifttekniker
+C|3201|45|M|Tobias Leverin|Civilingenjör, Grästorp, 45 år
+C|3217|44|K|Maria Toll|Seniorsamordnare, Grästorp, 44 år
+C|3244|55|M|Svante Classon|Sjukhusdiakon,Grästorp, 55 år
+C|3270|42|K|Madeleine Vinberg|Pedagog, Grästorp, 42 år
+C|5155|46|M|Niclas Toll|Grästorp,Familjebehandlare,46 år
+C|3226|36|K|Johanna Ekekrantz|Landsbygdsutvecklare, Grästorp, 36 år
+C|5157|61|M|Gunnar Nyvaller|Grästorp,Tjänsteman,61 år
+C|5158|66|K|Rose-Marie Edvardsson|Sal,Pensionär,66 år
+C|5159|40|M|Joakim Andersson|Grästorp,Konsult,40 år
+C|5160|63|K|Inger Paulsson|Grästorp,Distributör,63 år
+C|5161|45|M|Stefan Andersson|Särestad,Civilingenjör,45 år
+C|5162|55|K|Petra Sahlén|Grästorp,Leg. sjuksköterska,55 år
+C|5163|66|M|Thomas Rigland|Håle,Pensionär,66 år
+C|5164|48|M|Krister Önnermalm|Grästorp,Civilingenjör,48 år
+C|5165|64|M|Inge Fransson|Tengene,Handlare,64 år
+C|5166|75|K|Christina Lindh|Grästorp,Pensionär,75 år
+C|5167|73|M|Roger Olofsson|Tun,Lantbrukare,73 år
+C|5168|69|K|Angela Rigland|Grästorp,Förvaltare,69 år
+C|5169|50|M|Clas-Göran Andersson|Håle,Lantbrukare,50 år
+C|5170|66|K|Elisabeth Hagberg|Längnum,Tapetserare,66 år
+C|515655|54|K|Katarina Bruzell|
+C|503777|20|K|Olivia Larsson|20, Matros/ungdomsledare, Grästorp
+C|515375|76|K|Anna-Marie Elisabeth Carlsson|
+C|25029|66|M|Dag Hardysson|67 Grästorp
+C|30868|49|K|Camilla Söljemo|49, Grästorp
+C|30869|71|M|Jan Emanuelsson|sjöingenjör
+C|30870|53|K|Katharina Larsson|företagare
+C|30871|69|M|Per Götell|fd. flygkapten
+C|30872|66|K|Anneli Götell|gymnasielärare
+C|30873|49|M|Stefan Söljemo|automationsingenjör
+C|30874|43|K|Dorina Hapenciuc|lokalvårdare
+C|30875|52|M|Peter Spetz|mekaniker
+C|30876|86|K|Gudrun Alfredssom|fd.företagare
+C|30877|88|M|Per Erik Wikstredt|fd.militär
+C|65384|21|M|Jonas Blomster|21 år, Student,Grästorp
+C|65385|31|K|Isabel Ferrer-Domenech|31 år, Lärare, Grästorp
+C|65386|75|K|Gunnel Lundmark|75 år, f,d.Agenda 21 samordnare, Grästorp
+C|65387|70|K|Ingela Kumar-Lidvall|70 år, Grästorp
+C|65388|50|M|Pär Lundmark|50 år, Försvarsanställd, Grästorp
+C|65389|40|M|Anders Ferrer|40 år, Bloggare, Grästorp
+C|65391|49|K|Linda Ernelid|49 år, Ingenjör, Grästorp
+C|253982|54|M|Kent Larsson|54, Kommunstyrelsens ordförande, Grästorp
+C|253993|52|K|Carina Torpenberg|52, Management konsult, Grästorp
+C|254356|68|M|Kent Hansson|68, Pensionär, Grästorp
+C|255126|56|K|Eva Tengeland|56 år, Personlig assistent
+C|255127|33|K|Stina Månsson|33 år, Hortonom
+C|255128|31|M|Robert Fransson|31 år, Officer
+C|255129|38|M|Thomas Johansson|38 år, Produktionschef
+C|255130|40|M|Michael Ruud|40 år, Systemingenjör
+C|255131|55|K|Annica Johansson|55 år, Revysömmerska
+C|255132|49|M|Henrik Svensson|49 år, Logistikchef
+C|255133|21|M|Leo Torpenberg|21 år, Egen företagare
+C|255134|81|K|Monia Persson|81 år, Pensionär
+C|255135|29|M|Dennis Månsson|29 år, Projektledare
+C|255136|49|K|Carin Vulkan|49 år, Undersköterska
+C|255137|37|M|David Holst|37 år, Egen företagare
+C|255138|62|K|Kristina Öhman|62 år, Banktjänsteman
+C|255139|55|M|Stefan Pettersson|55 år, Lantbrukare
+C|255140|59|K|Birgitta Karlsson|59 år, Undersköterska
+C|255141|59|M|Magnus Karlsson|59 år, Lantbrukare
+C|255142|43|K|Sofia Gustavsen|43 år, Processutvecklare
+C|255143|47|M|Leif Hermansson|47 år, Civilingenjör
+C|255144|52|M|Ulf Ojala|52 år, Serviceingenjör
+C|255145|36|M|Marcus Larsson|36 år, VD Radio Treby
+C|255146|38|K|Elin Ruud|38 år, Redovisningsekonom
+C|255147|36|M|Magnus Hofling|36 år, Skogsentreprenör
+C|255148|68|M|Kent Jonsson|68 år, Lantbrukare
+C|255149|68|M|Kjell Andersson|68 år, Lärare
+C|66290|43|M|Magnus Harjapää|Ekolog, behandlingsassistent, Grästorp
+C|66291|44|K|Linda Fridlund|Undersköterska, 44
+C|66292|62|K|Riona Hansson|62, Kock, Grästorp
+C|66293|47|M|Klas Hilmersson|47, Verktygsmakare, Grästorp
+C|66294|40|K|Marlene Hansson|Kock, 41
+C|225191|76|M|Sven-Olof Bergqvist|Tekniker/Pensionär, 77
+C|508809|50|M|Kai Wichers|50, officer
+C|508810|64|K|Maria Fridlund|64, pensionär
+C|507176|40|K|Malin Skoberne|40, vårdbiträde
+C|508812|79|K|Agnethe Hamrén|79, pensionär

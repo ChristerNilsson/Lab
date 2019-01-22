@@ -1,9 +1,176 @@
-2|158200|158201|158202|158203|158204|158205|158206|158967|158968|158969|158970|158971|158972|158973|158974|158975|158976|158977|158978|158979|158980|158981|158982|158983|158984|158985|160905|160906|160907|160908|160909|160910|160911|160912|160913|160914|160915|160916|160917|160918|160919|160920|163864|348657|160921|160922|160923
-4|196497|197688|199589|199590|199591|197702|199593|199594|199595|8513|199597|199598|196480|199600|199601|199602|199603|199604
-68|166587|166591|166595|166672|167080|167081|168744|168745|167082|167083
-3|2198|3078|2598|2177|3081|2192|3083|3084|3085|3086|3087
-1296|189186
-55|185328|185329|185330|185331|185332|185333|185334|185335|185336|185337
-1|10131|10134|200854|10160|10002|9992|200858|10009|200860|200861|200862|200863|200864|10170|200866|200867|200868|200869|200870|200871|200872|200873|200874|200875|200876|200877|200878|200879|200880|200881|200882|200883|200884|200885|200886|200887|200888|200889|200890|200891|200892|200893|200894|200895
-110|32707|102026|83351|83319|83350|102030
-5|12074|50605|50606|50607|12112|50609|50610|50611|50612|50613|50614
+T|Trosa
+A|2|158200|158201|158202|158203|158204|158205|158206|158967|158968|158969|158970|158971|158972|158973|158974|158975|158976|158977|158978|158979|158980|158981|158982|158983|158984|158985|160905|160906|160907|160908|160909|160910|160911|160912|160913|160914|160915|160916|160917|160918|160919|160920|163864|348657|160921|160922|160923
+A|4|196497|197688|199589|199590|199591|197702|199593|199594|199595|8513|199597|199598|196480|199600|199602|199603|199604
+A|68|166587|166591|166595|166672|167080|167081|168744|168745|167082|167083
+A|3|2198|3078|2598|2177|3081|2192|3083|3084|3085|3086|3087
+A|1296|189186
+A|55|185328|185329|185330|185331|185332|185333|185334|185335|185336|185337
+A|1|10131|10134|200854|10160|10002|9992|200858|10009|200860|200861|200862|200863|200864|10170|200866|200867|200868|200869|200870|200871|200872|200873|200874|200875|200876|200877|200878|200879|200880|200881|200882|200883|200884|200885|200886|200887|200888|200889|200890|200891|200892|200893|200894|200895
+A|110|32707|102026|83351|83319|83350|102030
+A|5|12074|50605|50606|50607|12112|50609|50610|50611|50612|50613|50614
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|158200|48|M|Magnus Johansson|48 år Nationell samordnare Trosa
+C|158201|34|K|Sandra Karlsson|34 år Objektledare Trosa
+C|158202|63|M|Tommy Setzman|63 år Ombudsman Trosa
+C|158203|74|K|Birgitta Danielsson|74 år Lärare
+C|158204|59|M|Anders Lindblad|59 år Avdelningschef
+C|158205|63|K|Lise-Lotte Jacobsson|63 år Specialistsjuksköterska
+C|158206|75|M|Sam Dandemar|75 år Ombudsman
+C|158967|63|K|Annika Lundström|63 år Klienthandläggare
+C|158968|69|M|Kjell G Johansson|69 år Lärare
+C|158969|69|K|Kerstin Alksäter|70 år Handläggare
+C|158970|70|M|Christer Påhlsson|70 år Lärare
+C|158971|36|K|Stina Sundfeldt|37 år Butiksmedarbetare
+C|158972|73|M|Ari Heikkilää|74 år Byggkonsult
+C|158973|21|K|Stephanie Chramer Hagström|21 år Butiksmedarbetare Trosa
+C|158974|61|M|Lennart Tällö|62 år Säljare
+C|158975|43|K|Karin Bråth|43 år Undersköterska
+C|158976|64|M|Greger Tidlund|65 år Konsult
+C|158977|54|K|AnnSofie Soleby-Eriksson|54 år Fil.mag i socialt arbete
+C|158978|36|M|Jon Åhlund|37 år Egen företagare
+C|158979|73|K|Rigmor Breidemalm|73 år Folkhögskolerektor
+C|158980|32|M|Fredrik Karlsson|32 år Underhållssamordnare
+C|158981|52|K|Pia Eriksson|53 år Socialarbetare
+C|158982|75|M|Per Insulander|75 år Viltvårdare
+C|158983|51|K|Pia Jonsson|52 år Systemförvaltare
+C|158984|43|M|Daniel Peres|45 år Business development manager
+C|158985|47|K|Susanna Windahl|48 år Egen företagare
+C|160905|70|M|Per-Olof Gustafsson|70 år Byggnadsarbetare
+C|160906|74|K|Britt Larsson-Gårdebäck|75 år Programassistent
+C|160907|37|M|Olof Hjortronberger|27 år Elevassistent
+C|160908|58|K|Solweig Jansson|58 år Ridinstruktör
+C|160909|43|M|Robleh Wilson|44 år Vårdare
+C|160910|74|K|Monica Lundquist|75 år Senior
+C|160911|42|M|Jan Gudmundson|42 år Projektledare
+C|160912|35|K|Awa Fofana|35 år Omvårdnadsassistent
+C|160913|71|M|Nils- Gunnar Gustafsson|71 år Affärsbiträde
+C|160914|59|K|Gunilla Friberg|59 år Försäkringstjänsteman
+C|160915|83|M|Torgny Nilsson|84 år Chaufför
+C|160916|74|K|Laila Nilsson-Scherp|74 år Studieledare
+C|160917|73|M|Bernt Andrén|73 år Maskinkonstruktör
+C|160918|53|K|Barbro Setzman|54 år Ledningsassistent
+C|160919|74|M|Claes Hedlund|74 år Lärare
+C|160920|78|K|Siw Jansson|78 år Avdelningsdirektör Trosa
+C|163864|62|M|Jari Linikko|62 år Universitetslektor
+C|348657|18|K|Fanta Bah|18 år Studerande
+C|160921|70|M|Lars Sjögren|70 år Polis
+C|160922|81|M|Bertil Arvidsson|81 år Metallarbetare
+C|160923|81|M|Yngve Hurtig|82 år Driftingenjör
+C|196497|38|M|John Carlsson|38 år,Kemiingenjör,Trosa
+C|197688|46|K|Helene Carlind|46 år,Lärare,Trosa
+C|199589|61|K|Louise Montgomery|61år, Egen företagare, Västerljung
+C|199590|61|M|Stefan Björnmalm|61 år, Ingenjör, Vagnhärad
+C|199591|58|K|Cristina Forssander|58år, Enhetschef, Vagnhärad
+C|197702|45|M|Olle Gibeck|45 år,Ekonom,Trosa
+C|199593|40|K|Fifian Georgos|40år, Jur.kand, Trosa
+C|199594|44|M|Anders Johansson|44år, Yrkeslärare, Västerljung
+C|199595|37|M|Svante Lindbäck|37år, Arbetsrättsjurist, Trosa
+C|8513|43|K|Martina Johansson|43 år, Kommun- och landstingspolitiker, Trosa
+C|199597|31|K|Monika Brandtberg|31år, Ekoentreprenör, Vagnhärad
+C|199598|68|M|David Montgomery|68år, Civilingenjör, Västerljung
+C|196480|64|M|Bo Rundquist|64 år,Lantbrukare,Vagnhärad
+C|199600|45|K|Sophie Aldén Czechowski|45år, Förvaltningsledare, Vagnhärad
+C|199602|76|M|Sten Linder|76år, Bergsingenjör, Trosa
+C|199603|34|K|Iuliana Carlsson|34år, Redovisningskonsult, Vagnhärad
+C|199604|65|K|Christa Fristedt|65år, Socialarbetare, Västerljung
+C|166587|65|M|Arne Karlsson|65, lantbrukare, Västerljung
+C|166591|38|K|Miriam Tinglöf|38, apoteksassistent, Vagnhärad
+C|166595|53|K|Stina von der Esch|53, företagare, Västerljung
+C|166672|58|M|Mats Johansson|58, produkttekniker, Trosa
+C|167080|73|M|Kenneth Tinglöf|pensionär, Trosa
+C|167081|38|K|Anja Pettersson|omsorgsassistent, Vagnhärad
+C|168744|61|K|Eva Karltorp|leg. läkare, Trosa
+C|168745|66|M|Staffan Malm|kriminalpolis, Vagnhärad
+C|167082|69|M|Sten Ottosson|säljare, Trosa
+C|167083|66|M|Åke Wallman|företagsekonom, Vagnhärad
+C|2198|71|M|Bengt-Eric Sandström|kommunpolitiker, Trosa
+C|3078|68|K|Ricken Svensson Nyquist|Trosa
+C|2598|49|K|Anette Avelin|familjehemskonsulent, Trosa
+C|2177|69|M|Göran Hammarlund|pensionär, Trosa
+C|3081|71|M|Carl-Gustaf Lidbaum|Trosa
+C|2192|66|K|Elisabeth Hammarlund|distriktssköterska, Trosa
+C|3083|62|M|Peter Ersin|Västerljung
+C|3084|32|K|Sofie Sandström|Trosa
+C|3085|51|M|Jonas Knutsson|Västerljung
+C|3086|42|M|Martin Snygg|Trosa
+C|3087|79|K|Anita Gustafsson|Trosa
+C|189186|37|M|Kelly Berg|37 år, process och ledarskapsutvecklare
+C|185328|64|K|Maria Arman|universitetslektor, 64 år, Gnesta
+C|185329|38|K|Ellinor Scheffer|38 år, politisk sekreterare
+C|185330|43|M|Crispian Norrie|43 år, ingenjör
+C|185331|80|M|Björn Kjellström|80 år, professor emeritus
+C|185332|69|M|Arne Rehnsfeldt|69 år, professor
+C|185333|72|K|Marina Fallai|72 år, pensionär
+C|185334|61|K|Yvonne Larsson|61 år, ledarskapskonsult
+C|185335|34|M|Robin Dall|34 år, it-konsult
+C|185336|69|K|Britta Eklund|69 år, forskare havsmiljö
+C|185337|39|M|Jonas Åkesson|39 år, ekonom
+C|10131|47|M|Daniel Portnoff|kommunalråd, Trosa
+C|10134|54|K|Helena Koch|sjuksköterska, Trosa
+C|200854|69|M|Tomas Landskog|69 år, försäkringsrådgivare
+C|10160|60|K|Lena Isoz|sjuksköterska, Trosa
+C|10002|64|M|Michael Swedberg|fil dr, Trosa
+C|9992|55|K|Ann Larson|kommunikatör, Trosa
+C|200858|76|M|Sune G Jansson|76 år, företagskonsult
+C|10009|25|K|Emma Koch|personlig assistent, Vagnhärad
+C|200860|46|M|Dan Larson|46 år, försäljningschef
+C|200861|72|K|Margareta Wallin|72 år, fd kommunalråd
+C|200862|47|M|Patrik Sundberg|47 år, företagare
+C|200863|19|K|Wilma Eliasson|19 år, studerande
+C|200864|54|K|Monica Lindberg|54 år, projektledare
+C|10170|72|M|Zeth Nyström|coach/mentor, Trosa
+C|200866|44|K|Linda Bernehjält|44 år, affärsområdeschef
+C|200867|69|K|Birgitta Pettersson|69 år, akupunktör
+C|200868|61|M|Stefan Odljung|61 år, säljare
+C|200869|39|K|Nina Isoz|39 år, egenföretagare
+C|200870|63|K|Ann Sofi Nyström|63 år, event- och utställningskoordinator
+C|200871|26|M|Robin Johansson|26 år, controller
+C|200872|18|M|Carl Löfgren|18 år, ordförande MUF Trosa
+C|200873|66|K|Kerstin Karlstedt|66 år, distriktssjuksköterska
+C|200874|48|M|Carl von der Esch|48 år, förbundsjurist
+C|200875|70|M|Esbjörn Eriksson|70 år, fotograf
+C|200876|72|M|Per Liljekvist|72 år, fd sjukhusdirektör
+C|200877|68|K|Carina Helenius Lindgren|68 år, pensionär
+C|200878|63|M|Jan Malmgren|63 år, egenföretagare
+C|200879|71|K|Anne-Lise Pallesen|71 år, utvecklingsledare
+C|200880|52|M|Ulf Struwe|52 år, servicechef
+C|200881|48|K|Katja Watts|48 år, civilingenjör
+C|200882|75|M|Roland Leek|75 år, pensionär
+C|200883|50|K|Susann Markow|50 år, stabschef
+C|200884|69|M|Bengt Larsson|69 år, pensionär
+C|200885|46|K|Anne Glimhester|46 år, manager
+C|200886|35|M|Joel Öhman|35 år, entreprenör
+C|200887|72|K|Kristina Gilbert|72 år, egenföretagare
+C|200888|43|M|Anders Markow|43 år, produktionsledare
+C|200889|40|K|Marta Karipidou|40 år, egenföretagare
+C|200890|76|M|Dag Örtqvist|76 år, pensionär
+C|200891|80|K|Carin Ljunggren|80 år, pensionär
+C|200892|64|M|Kent Tegel|64 år, egenföretagare
+C|200893|76|M|Gunnar Wrangby|76 år, pensionär
+C|200894|52|K|Kristin Boman|52 år, hotellägare
+C|200895|76|M|Rolf Hugert|76 år, jur kand
+C|32707|78|M|Bertil Malmberg|78 år, F.d. Kommendörkapten
+C|102026|55|M|Johan Rehnström|55, Lantbrukare
+C|83351|36|K|Sofie Eklöf|36 år, Bygglovshandläggare
+C|83319|58|M|Stefan Stridh|58 år, Mobilkransförare
+C|83350|53|M|Mirko Pansera|53 år, Behandlingsassistent
+C|102030|31|M|Jonas Ohlsson|31, Mekaniker
+C|12074|62|M|Tommy Fogelberg|62, Folkhögskollärare, Trosa
+C|50605|67|K|Gitte Jutvik|67, Utbildningskonsult, Trosa
+C|50606|47|K|Anna Wirmark|Socialpedagog, Vagnhärad
+C|50607|44|M|Joakim Engqvist|Ekonom, Trosa
+C|12112|66|K|Eva Nordlöf|67, Folkhögskollärare, Trosa
+C|50609|58|M|Torleif Malm|Marinbiolog, Vagnhärad
+C|50610|68|K|Catti Edfeldt|Filmarbetare, Vagnhärad
+C|50611|60|M|David Gottfridsson|Bussförare, Vagnhärad
+C|50612|67|K|Kerstin Östman|Pensionär, Västerljung
+C|50613|67|M|Sverker Frän|Radiolog, Trosa
+C|50614|78|M|Björn Torbiörnsson|Taxiförare, Trosa

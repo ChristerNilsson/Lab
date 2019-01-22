@@ -1,10 +1,260 @@
-2|202001|202002|202003|202004|202005|101497|202007|202008|202009|70616|101494|101501|202013|202014|101510|202016|202017|202018|202019|202020|202021|202022|202023|202024|202025|202026|202027|202028|202029|202030|202031|202032|202033|202034|202035|202036|202037|202038|202039|202040|202041|202042|202043|202044|202045|202046|202047|202048|202049|202050|202051
-4|76910|121794|121795|121796|121797|121798|121799|121800|121801|121802|121803|121804|121805|121806|121807
-68|156608|156609|156610|156611|156612|156613|156614|156615|156616|156617|156618|156619|156620|156621|156622|156623|156624|156625|156626|156627|156628|156629|301819
-3|164952|164953|164954|164955|164956|164957|164958|164959|164960|164961|164962|164963|164964|164965|164966|164967|164968|164969|164970|164971|164972|164973
-1296|119202|119203|119204|119205|119206
-55|123858|123859|123860|123861|123862|123863|123864|123865|109782|123867|123868|123869|123870|123871|123872|123873|123874|123875|123876|123877|123878|123879|123880|123881|123882|123883|123884
-1|12808|22927|104746|104747|104748|104749|104750|22935|12819|104753|104754|104755|104756|104757|22941|22950|104760|104761|104762|104763|22962|104765|104766|104767|22958|104769|104770|22967|104772|104773|104774|104775|104776|104777|104778|104779
-110|67276|67277|67278|67279|67280|67281|67282|67283|67284|67285
-5|216686|216687|216688|216689|216690|216691|216692|216693|216694|216695|216696|216697|216698|216699|216700|216701|216702|216703|216704|216705|216706|216707|216708|216709|216710|216711|216712|216713|216714
-1154|355041|355042|355043|355044|355045|355046|355047|355048|355049|355050|355051|355052|355053|355054|355055|355056|355057|355058|355059|355060|355061
+T|Upplands Väsby
+A|2|202001|202002|202003|202004|202005|101497|202007|202008|202009|70616|101494|101501|202013|202014|101510|202016|202017|202018|202019|202020|202021|202022|202023|202024|202025|202026|202027|202028|202029|202030|202031|202032|202033|202034|202035|202036|202037|202038|202039|202040|202041|202042|202043|202044|202045|202046|202047|202048|202049|202050|202051
+A|4|76910|121794|121795|121796|121797|121798|121799|121800|121801|121802|121803|121804|121805|121806|121807
+A|68|156608|156609|156610|156611|156612|156613|156614|156615|156616|156617|156618|156619|156620|156621|156622|156623|156624|156625|156626|156627|156628|156629|301819
+A|3|164952|164953|164954|164955|164956|164957|164958|164959|164960|164961|164962|164963|164964|164965|164966|164967|164968|164969|164970|164971|164972|164973
+A|1296|119202|119203|119204|119205|119206
+A|55|123858|123859|123860|123861|123862|123863|123864|123865|109782|123867|123868|123869|123870|123871|123872|123873|123874|123875|123876|123877|123878|123879|123880|123881|123882|123883|123884
+A|1|12808|22927|104746|104747|104748|104749|104750|22935|12819|104753|104754|104755|104756|104757|22941|22950|104760|104761|104762|104763|22962|104765|104766|104767|22958|104769|104770|22967|104772|104773|104774|104775|104776|104777|104778|104779
+A|110|67276|67277|67278|67279|67280|67281|67282|67283|67284|67285
+A|5|216686|216687|216688|216689|216690|216691|216692|216693|216694|216695|216696|216697|216698|216699|216700|216701|216702|216703|216704|216705|216706|216707|216708|216709|216710|216711|216712|216713|216714
+A|1154|355041|355042|355043|355044|355045|355046|355047|355048|355049|355050|355051|355052|355053|355054|355055|355056|355057|355058|355059|355060|355061
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|1154|VB|Väsbys Bästa
+C|202001|44|M|Mathias Bohman|44, Kommunstyrelsens ordförande, Centrala Väsby
+C|202002|54|K|Suzanne Granqvist Enell|53, Försäljningschef, Bollstanäs
+C|202003|39|M|Ibrahim Abdallah|39, Student, Grimsta
+C|202004|61|K|Barbro Brolin|61, Autismpedagog, Runby
+C|202005|62|M|Gert Lindström|62, Byggnadsarbetare, Centrala Väsby
+C|101497|65|K|Ann-Christin Jyttner|65, Mentalskötare, Upplands Väsby
+C|202007|65|M|Leif Berglund|65, Kommunfullmäktiges ordförande, Centrala Väsby
+C|202008|56|K|Erika Fransson|56, Socionom, Centrala Väsby
+C|202009|72|M|Björn Lundin|72, fd. Budgetchef, Väsbyskogen
+C|70616|32|K|Azadeh Rojhan Gustafsson|32, Upplands Väsby
+C|101494|37|M|Ali Kashefi|37, Egenföretagare, Upplands Väsby
+C|101501|29|K|Emelie Jansson|29, Brevbärare, Upplands Väsby
+C|202013|37|M|Lars Erik Rande|37, Butiksäljare, Sigma
+C|202014|24|K|Ellen Forsström|24, Student, Bollstanäs
+C|101510|31|M|Per Ola Hansson|31, Huvudskyddsombud, Upplands Väsby
+C|202016|27|K|Arezo Rojhan|27, Leg. Sjuksköterska, Väsbyskogen
+C|202017|52|M|Penahi Ghasemi|52, Tolk, Smedby
+C|202018|67|K|Charlotta Lind|66, HR-administratör, Runby
+C|202019|65|M|Bülent Curku|65, Samordnare, Runby
+C|202020|29|K|Helmi Nuutinen|29, Flyttsamordnare, Carlslund
+C|202021|43|M|Henrik Piehl|42, Träslöjdslärare, Sköldnora
+C|202022|35|K|Marie Åberg|35, Barnskötare, Centrala Väsby
+C|202023|22|M|Shahin Khosravi|21, Ingenjörstudent, Centrala Väsby
+C|202024|62|K|Gun-Britt Karlsson|61, Administrativassistent, Centrala Väsby
+C|202025|50|M|Thomas Klemetsson|50, Ombudsman, Sigma
+C|202026|75|K|Berit Brorsson Söderström|75, fd. överförmyndare, Prästgårdsmarken
+C|202027|76|M|Sam Sandberg|76, Pensionär, Centrala Väsby
+C|202028|48|K|Anneli Andersson Shamsizadeh|47, Kvalitetscontroller, Odenslunda
+C|202029|35|M|Jakob Gustafsson|35, Säljare, Fresta
+C|202030|57|K|Carina Halfvards|56, Pensionär, Carlslund
+C|202031|55|M|Joe Frans|55, VD, Fresta
+C|202032|75|K|Vanja Edwinson|74, fd. Kommunalråd, Sjukyrkoberget
+C|202033|64|M|Anders Bergström|64, Posttjänsteman, Bollstanäs
+C|202034|62|K|Eva Lindén|62, Försälningsassistent, Centrala Väsby
+C|202035|72|M|Gustav Ove Harld Gustafdsson|71, fd. ekonomichef, Centrala Väsby
+C|202036|68|K|Halina Norberg|68, Metallarbetare, Runby
+C|202037|75|M|Bo Sigurd Eklund|75, Elingenjör, Carlsund
+C|202038|76|K|Gun Görel Bohlin|77, Pensionär, Smedby
+C|202039|71|M|Lars Gerhard Ahl|71, Pensionär, Centrala Väsby
+C|202040|73|K|Gunilla Eriksson|73, fd. Chokladarbetare, Smedby
+C|202041|61|M|Per Bernt Åke Sundqvist|60, Arbetslös, Ekebo
+C|202042|76|K|Anita Andersson Vattman|76, Pensionär, Smedby
+C|202043|59|M|Erik Olof Rudolf Alphonse|56, Ekonom, Bollstanäs
+C|202044|52|K|Ulrika Forsström|51, Ekonom, Bollstanäs
+C|202045|64|M|Åke Tomas Maxe|63, Teletekniker, Runby
+C|202046|35|K|Sara Norberg|35, CAD-ritare, Rundby
+C|202047|30|M|Claudio Cerpa|29, Arbetsledare, Odenslunda
+C|202048|72|K|Anita Birgitta Bergqvist|71, fd. personalansvarig, Väsbyskogen
+C|202049|53|M|Johan Thidell|53, Projektledare, Brunnby-Vik
+C|202050|34|K|Jessica Persson Klemetsson|34, Barnskötare, Sigma
+C|202051|52|M|Torbjörn Jonsson|51, Ombudsman, Centrala Väsby
+C|76910|54|K|Ann-Christin L Frickner|54, Upplands-Väsby, Gruppledare
+C|121794|51|M|Johannes Wikman Franke|51, Upplands Väsby, Kommunikationschef
+C|121795|62|M|Anders Carne|Klubbchef, Brunnby Vik
+C|121796|35|M|Mikael Schmidt|35, Upplands Väsby, Enhetschef rättspsykiatri
+C|121797|46|K|Madeleine Svärd|Kundvägledare, Sjukyrkoberget
+C|121798|59|M|Ferit Pek|Egen företagare, Prästgårdsmarken
+C|121799|23|K|Sanna Tällberg|Statsvetarstudent, Upplands Väsby
+C|121800|71|M|Lennart Svensson|F.d. bankchef, Upplands Väsby
+C|121801|62|K|Iréne Eriksson|62, Upplands Väsby, Ekonomiassistent
+C|121802|29|M|Jimmy Borgvall|Butikschef, Östra Fresta
+C|121803|70|K|Margareta Olsson|Pensionär, Odenslunda
+C|121804|44|M|Ludwig Brogård|IT-chef, Bollstanäs
+C|121805|41|K|Gisela Magnusson|Nordic Contact Manager, Bollstanäs
+C|121806|74|K|Lillemor Svensson|Pensionär, Upplands Väsby
+C|121807|44|M|Johan Magnusson|Vice VD, Bollstanäs
+C|156608|55|K|Maria Fälth|55, Jurist, Upplands Väsby
+C|156609|58|K|Kristina Klempt|58, Adjunkt, Väsbyskogen
+C|156610|54|M|Ismo Salmi|54, Advokat, Bollstanäs
+C|156611|58|M|Lars Tunkrans|58, Systemingenjör, Smedby
+C|156612|65|K|Magda Ayoub|65, Fd. riksdagsledamot, Upplands Väsby
+C|156613|73|M|Kjell Rosenqvist|73, Pensionär, Centrala Väsby
+C|156614|70|M|Raouf Ayoub|70, IT-konsult, Sjukyrkoberget
+C|156615|49|K|Camilla Langell|49, Marknadsförare, Bollstanäs
+C|156616|68|M|Bo Rune Isacsson|68, Tentamensvakt, Smedby
+C|156617|43|K|Vivianne Mourad|43, Undersköterska, Upplands Väsby
+C|156618|21|M|Antonio Lindström|21, Medieanalytiker, Smedby
+C|156619|59|K|Anna-Karin Sundén|59, Brottsförebyggare, Sjukyrkoberget
+C|156620|70|M|Karl-Åke Isaksson|70, Pensionär, Apoteksskogen
+C|156621|42|K|Kristina Berg|42, Leg.optiker, Bollstanäs
+C|156622|69|M|Tord Jägerskog|69, Socionom, Bollstanäs
+C|156623|53|K|Cecilia Salmi|53, Farmaceut, Bollstanäs
+C|156624|71|M|Anders Roos|71, Prost, Centrala Väsby
+C|156625|20|K|Iris Yousefi|20, Studerande, Njursta
+C|156626|70|M|Göran Zetterlund|70, Mentalskötare, Smedby
+C|156627|31|M|Henrik Isaksson|31, Stödpedagog, Apoteksskogen
+C|156628|60|M|Tommy Fälth|60, Transportledare, Bollstanäs
+C|156629|64|K|Charlotte Rantanen|64, Leg. sjuksköterska, Centrala Väsby
+C|301819|70|M|Leif Jansson|70, Pensionär, Smedby
+C|164952|60|K|Margareta Hamark|projektledare, Upplands Väsby
+C|164953|50|M|Nils Eriksson|civilekonom, Upplands Väsby
+C|164954|48|M|Ola Amphan|Civilekonom, Odenslunda
+C|164955|74|K|Eila Bromme|F.d. kommunalråd, Bollstanäs
+C|164956|73|M|Torsten Hemph|årsrik, Upplands Väsby
+C|164957|75|K|Pia Barklund|skogspatolog, Sanda
+C|164958|56|M|Francis James Opondo|Trafikassistent, Bollstanäs
+C|164959|51|M|Per Nelson|Banktjänsteman, Brunnby-Vik
+C|164960|56|K|Lena Sahlén|Personalredogörare, Skälby
+C|164961|52|M|Patrick Harper|Assistent, Centrala Väsby
+C|164962|57|K|Kerstin Björnegren|Systemutvecklare, Runby
+C|164963|52|M|Jan Engfelt|Produktchef, Bollstanäs
+C|164964|48|M|Patric Brask|Lärare, Apoteksskogen
+C|164965|76|K|Ingrid Näsholm|Sekreterare, Sjukyrkoberget
+C|164966|60|M|Rasmus Palmqvist|Förstelärare, Centrala Väsby
+C|164967|64|M|Jaak Akker|Konsult, Bollstanäs
+C|164968|77|K|Marianne Surén|F.d. speciallärare, Väsbyskogen
+C|164969|76|M|Siegfried Fanslau|Pensionär, Sjukyrkoberget
+C|164970|77|K|Karin Hemph|Pensionär, Bollstanäs
+C|164971|75|M|Rolf Bromme|redaktör, Upplands Väsby
+C|164972|81|M|Sten Deutgen|Civilingenjör, Runby
+C|164973|73|M|Åke Barklund|jägmästare, Upplands Väsby
+C|119202|61|M|Robert Pettersson|61, Yrkesförare, Stockholms län
+C|119203|47|M|Fredrik Jonsson|47, Systemspecialist, Upplands Väsby
+C|119204|31|M|Alexander Eriksson|31, Egen företagare, Väsby
+C|119205|54|K|Maria Larsson|54, Controller, Bollstanäs
+C|119206|45|K|Sara Vallin|46, Ekonom
+C|123858|59|M|Lars Valtersson|59, kommunalråd, Upplands Väsby
+C|123859|45|K|Maria Tuvesson|Miljöutredare,Bollstanäs
+C|123860|53|K|Ingela Melkersson|Miljökonsult,Runby
+C|123861|29|M|Joakim Kroksson|Projektledare,Runby
+C|123862|22|M|Pontus Klasman Gustafsson|Studerande,Centrala Väsby
+C|123863|60|K|Margareta Oswald|Sjukvårdsadministratör,Bollstanäs
+C|123864|74|M|Lennart Olsen|Civilekonom,Harva
+C|123865|54|K|Susann Hedman Niemi|54, undersköterska, Upplands Väsby
+C|109782|36|M|Mudar Shakra|36, doktorand, Upplands Väsby
+C|123867|63|K|Eva Stenlund|Egenföretagare,Runby
+C|123868|73|M|Kjell Jonsson|Pensionär,Runby
+C|123869|57|K|Carina Hember|Lärare,Prästgårdsmarken
+C|123870|67|M|Stefan Löfgren|Egenföretagare, Bollstanäs
+C|123871|69|K|Eeva Kaplas|Dietist, Centrala Väsby
+C|123872|65|M|Andres Veide|Universitetslektor,Runby
+C|123873|47|K|Petra Palmqvist|Lärare, Runby
+C|123874|77|M|Kassim Kamara|Byggnadsingenjör, Smedby
+C|123875|35|K|Erika Tillnert|Programmerare, Odenslunda
+C|123876|50|M|Paul Niemi Lagerchef|Apoteksskogen
+C|123877|42|K|Christine Arrhenius|Socionom, Brunnby Vik
+C|123878|54|M|Michel Silvestri|Biomedicinsk analytiker, Torsåker
+C|123879|69|M|Henrik Davids Thomsen|Egenföretagare, Apoteksskogen
+C|123880|63|K|Eva Olovsdotter|Biomedicinsk analytiker, Apoteksskogen
+C|123881|61|M|Gunnar Andersson|Servicetekniker, Runby
+C|123882|67|K|Ann Gotting Veide|Socionom, Runby
+C|123883|76|K|Viva Bergman Andersson|Pensionär, Väsbyskogen
+C|123884|82|M|Lars-Göran Hillerslätt|Pensionär, Apoteksskogen
+C|12808|33|M|Oskar Weinmar|33, Oppositionsråd
+C|22927|51|K|Malin Lybecker|51, Produktledare
+C|104746|39|M|Per-Erik Kanström|39, Fastighetschef
+C|104747|40|K|Christine Hanefalk|40, Tjänsteman
+C|104748|74|K|Christina H Gardos|74, fd Egenföretagare
+C|104749|72|K|Lena Kanström|72, Pensionär
+C|104750|24|K|Joanna Masoura|24, Lärarstudent
+C|22935|46|K|Rahelé Ershad Sarabi|46, Egenföretagare
+C|12819|21|M|Tomas Kolbjer|21, Juriststudent
+C|104753|69|K|Ingabrit Halldén|69, Pensionär
+C|104754|69|K|Gunilla Ridström|69, Yrkesverksam pensionär
+C|104755|45|K|Camilla Sahlén|45, Byggkonsult
+C|104756|23|K|Michelle Khan|23, Student
+C|104757|20|K|Matilda Harar|20, Politisk tjänsteman
+C|22941|42|K|Sophie Eriksson|42, Senior säljare
+C|22950|19|M|Marcus Oljemark|19, Student
+C|104760|20|K|Sonya Khan|20, Studerande
+C|104761|63|K|Anitha Masoura|63, Ekonom
+C|104762|54|M|Stefan Hjort|54, Lobbyist
+C|104763|30|K|Alexandra Kallo|30, Studerande
+C|22962|51|M|Åke Roth|51, Verksamhetscontroller
+C|104765|22|K|Elin Böhlin|22, Juriststudent
+C|104766|30|M|Danilio Selin|30, IT-support
+C|104767|33|M|Olli Hakala|33, Jurist
+C|22958|35|M|Somar Koria|35, Civilingenjör
+C|104769|32|M|Olof Andersson|32, Ingenjör
+C|104770|26|M|Robin Sjöholm Lindström|26, Undersköterska
+C|22967|64|M|Sven-Arne Ryberg|64, IT-tekniker
+C|104772|61|K|Aija Henningsson|61, Kokerska
+C|104773|58|K|Marie Louise Böhm|58, Tjänsteman
+C|104774|74|M|Bo Callerhorn|74, Ingenjör
+C|104775|77|K|Christina Hansson|77, Pensionär
+C|104776|80|M|Lars Hansson|80, Pensionär
+C|104777|54|M|Filip Filipsson|54, Boendekonsulent
+C|104778|73|K|Jeanette Wiksten|73, Senior
+C|104779|81|M|Peter P Gardos|81, Pensionär
+C|67276|26|M|Samuel Stephan|26, projektledare, Upplands Väsby
+C|67277|47|M|Mikael Ingman|47, transporttekniker, Upplands Väsby
+C|67278|61|M|Peter Lindqvist|61, försäljningschef, Upplands Väsby
+C|67279|63|K|Liesel Sheerborn|63, personlig assistent, Upplands Väsby
+C|67280|65|M|Tommy Fjellström|logistiker, Bollstanäs
+C|67281|64|M|Inge Engström|säljare, Sigma
+C|67282|36|M|Joachim Simonsson|36, vakt, Upplands Väsby
+C|67283|50|M|Caj Johansson|elektriker, Fresta
+C|67284|70|M|Jan Björkebaum-Dahlén|70, politisk sekreterare, Upplands Väsby
+C|67285|46|M|Dagge Vuvvén|egenföretagare, Apoteksskogen
+C|216686|58|M|Anders Rosén|58 år, Kommunalråd/folkhögskollärare, Prästgårdsmarken
+C|216687|71|K|Karin Lindh|70 år, Pensionerad speciallärare, Prästgårdsmarken
+C|216688|53|K|Päivi Verdier|53 år, Facklig rådgivare, Centrum
+C|216689|44|M|Kamal Schtaye|44 år, Projektledare, Odenslunda
+C|216690|23|K|Sofia Kanestad|22 år, Student, Centrum
+C|216691|60|M|Leif Bejhed|60 år, Bagare/massör, Smedby
+C|216692|70|K|Flérida Amanda Martinez|69 år, Pensionär, Hagängen
+C|216693|51|M|Ali Bozorg Panah|50 år, Lärare, Apoteksskogen
+C|216694|34|K|Ulrika Mårtensson|33 år, Facklig rådgivare, Smedby
+C|216695|29|M|Magnus Krantz|29 år, Lärare, Runby
+C|216696|62|K|AnnMarie Johansson Sahlin|61 år, Socionom/företagare, Centrum
+C|216697|74|M|Yadollah Biglari|74 år, Pensionär, Vilunda
+C|216698|30|K|Morlin Schubert|30 år, Lärare, Runby
+C|216699|61|K|Ann-Sofie Ask|61 år, Undersköterska, Prästgårdsmarken
+C|216700|28|M|Simon Andersson|28 år, Socionom, Prästgårdsmarken
+C|216701|46|K|Maria Boman|45 år, E-arkivarie, Runby
+C|216702|53|M|Sartib Awde|52 år, Tolk, Sjukyrkoberget
+C|216703|68|K|Eva Larson|58,år, Förskollärare, Sjukyrkoberget
+C|216704|47|M|Tobbe Larsson|47 år, Elektriker, Centrum
+C|216705|27|K|Linnea Nieto|27 år, Kriminologstudent, Prästgårdsmarken
+C|216706|38|K|Féline Flodin|38 år, Politisk sekreterare, Runby
+C|216707|18|K|Danielle Schtaye|18 år, Student, Odenslunda
+C|216708|65|M|Anders Anagrius|65 år, Kommunaltjänsteman, Prästgårdsmarken
+C|216709|29|K|Tove Ovsiannikov|29 år, Koordinator, Centrum
+C|216710|74|K|Christina Amlert Gutiérrez|74 år, Filosofie magister, Centrum
+C|216711|71|K|Azizeh Vatandoust|70 år, Pensionär, Vilunda
+C|216712|60|M|Christer Ask|59 år, Arbetssökande, Prästgårdsmarken
+C|216713|60|K|Mina Rasti|60 år, Lärare, Prästgårdsmarken
+C|216714|63|K|Tove-Maria Bellander|63 år, Specialpedagog, Prästgårdsmarken
+C|355041|62|M|Roland Storm|62 år, kommunalråd, Bollstanäs
+C|355042|45|K|Andrea Möllerberg|45 år, affärsomr.chef, Centrala Väsby
+C|355043|68|M|Thomas Fäldt|68 år, egen företagare, Sigma
+C|355044|76|K|Ulla Barthelson|76 år, projektledare, Runby
+C|355045|34|M|Michael Kumi|34 år, fritidsledare, Smedby
+C|355046|64|K|Barbro Jansson-Hed|64 år, lärare, Runby
+C|355047|72|M|Roy Rosenback|72 år, idrottsledare, Centrala Väsby
+C|355048|61|K|Susanne Sundvall-Bergström|61 år, butikschef, Runby
+C|355049|42|M|Jesper Lundberg|43 år, fotograf, Runby
+C|355050|29|K|Maria Fäldt|30 år, tandsköterska, Sigma
+C|355051|20|M|Gustav Barthelson|21 år, mekaniker, Ekeby
+C|355052|75|K|Maria Björn|74 år, egen företagare, Runby
+C|355053|52|M|Karl-Gustav Niska|52 år, egen företagare, Centrala Väsby
+C|355054|34|K|Sara Hallén-Rezapour|33 år, socionom, Carlsund
+C|355055|65|M|Håkan Lindberg|65 år, lantmästare, Sättra
+C|355056|61|K|Anette Kvibäck|61 år, boendestödjare, Bollstanäs
+C|355057|66|M|Lars Hed|66 år, marknadsförare, Runby
+C|355058|63|K|Marianne Junell|64 år, pensionär, Sigma
+C|355059|69|M|Thore Lundström|69 år, egen företagare, Runby
+C|355060|60|K|Angela Mårtensson|60 år, eg.sjuksköterska, Bollstanäs
+C|355061|50|M|Andreas Barthelson|50 år, företagare, Ekeby

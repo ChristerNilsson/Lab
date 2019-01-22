@@ -1,10 +1,189 @@
-2|71363|71364|71365|71366|71367|71368|71369|71370|71371|71372|71373|71374|71375|71376|71377|71378|71379|71380|71381|71382|71383|71384|71385|71386|71387|71388|71389|71390|71391|71392|71393|71394|71395|71396|71397|71398|71399|71400|71401
-4|57880|57871|58648|57881|205019|205020|58658|205022|205023|205024|205025|205026|205027|205028|205029|205030|205031|205032|205033|205034|205035|205036|205037|205038|205039
-68|216673|216674|216675|216676|216677|216678|216679|216680|216681|216682|216683|216684|216685
-1011|57898|500695|192766|500697|192768|500699|192767
-3|17242|17243|17244|17245|17246|17250|17251|214763|17252|214765|17253
-55|122963|123553|124374|123508|124376|124377|124378|124379|124380|124381|124382|124383|124384
-1|26552|140359|140360|57613|57603|140363|140364|140365|57609|57606|57605|140369|140370|140371|140372|140373|57618|140375|140376|140377|57616|140379|140380|140381
-1389|508490
-110|65845|65846|65847|65848|65849|65850|65851|65852|65853|65854|65855|65856|65857|65858|510364|510365|512425|513066|514173|515332
-5|147508|147509|147510|147511|147512|147513|147514|147515|147516|147517|147518|147519|147520|147521|147522
+T|Lindesberg
+A|2|71363|71364|71365|71366|71367|71368|71369|71370|71371|71372|71373|71374|71375|71376|71377|71378|71379|71380|71381|71382|71383|71384|71385|71386|71387|71388|71389|71390|71391|71392|71393|71394|71395|71396|71397|71398|71399|71400|71401
+A|4|57880|57871|58648|57881|205019|205020|58658|205022|205023|205024|205025|205026|205027|205028|205029|205030|205031|205032|205033|205034|205035|205036|205037|205038|205039
+A|68|216673|216674|216675|216676|216677|216678|216679|216680|216681|216682|216683|216684|216685
+A|1011|57898|500695|192766|500697|192768|500699|192767
+A|3|17242|17243|17244|17245|17246|17250|17251|214763|17252|214765|17253
+A|55|122963|123553|124374|123508|124376|124377|124378|124379|124380|124381|124382|124383|124384
+A|1|26552|140359|140360|57613|57603|140363|140364|140365|57609|57606|57605|140369|140370|140371|140372|140373|57618|140375|140376|140377|57616|140379|140380|140381
+A|1389|508490
+A|110|65845|65846|65847|65848|65849|65850|65851|65852|65853|65854|65855|65856|65857|65858|510364|510365|512425|513066|514173|515332
+A|5|147508|147509|147510|147511|147512|147513|147514|147515|147516|147517|147518|147519|147520|147521|147522
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1389||Raggarpartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|71363|61|K|Irja Gustavsson|61,Enhetschef,Lindesberg
+C|71364|31|M|Daniel Andersson|31 år,Lindesberg
+C|71365|37|K|Linda Svahn|37 år,Lindesberg
+C|71366|48|M|Jonas Bernström|48,Utbildare,Lindesberg
+C|71367|61|K|Gunilla Carlsson|60 år, Lindesberg
+C|71368|49|M|John Omoomian|49 år, Lindesberg
+C|71369|61|K|Ingela Larsson|61 år, Lindesberg
+C|71370|66|M|Anders Ceder|66 år, Lindesberg
+C|71371|65|K|Ulla Lundqvist|64 år, Lindesberg
+C|71372|59|M|Nafih Mawlod|59 år, Lindesberg
+C|71373|75|K|Renate Hermansson|75,Pensionär,Frövi
+C|71374|61|M|Bengt Storbacka|61 år,Lindesberg
+C|71375|68|K|Margareta Ahlm|68,Pensionär,Storå
+C|71376|68|M|Arnold Bengtsson|68,Pensionär,Lindesberg
+C|71377|50|K|Lena Kallionpää|50,Kund/säljrådgivare,Fellingsbro
+C|71378|66|M|Lennart Olsson|66,Bilmekaniker,Fellingsbro
+C|71379|33|K|Sandra Olsson|33,Försäkringsrådgivare,Frövi
+C|71380|50|M|Joacim Hermansson|50,Pappersbruksarbetare,Frövi
+C|71381|33|K|Sofie Krantz|33,Industriarbetare,Lindesberg
+C|71382|67|M|Bo Stenberg|66 år, Lindesberg
+C|71383|48|K|Kristine Andersson|48 år,Lindesberg
+C|71384|67|M|Stefan Eriksson|67,Pensionär,Frövi
+C|71385|28|K|Victoria Johansson|28,Studerande,Frövi
+C|71386|36|M|Zaki Habib|36 år, Lindesberg
+C|71387|72|K|Birgitta Asp-Ericsson|72,Pensionär,Ramsberg
+C|71388|42|M|Tommy Kragh|42 år,Lindesberg
+C|71389|45|K|Linda Andersson|45,Undersköterska,Fellingsbro
+C|71390|25|M|Libaan Mohamud|25,Lärarassistens,Lindesberg
+C|71391|63|K|Maria Lagerman|63,Egenföretagare,Ramsberg
+C|71392|73|M|Göran Karlsson|76,Pensionär,Frövi
+C|71393|60|M|Kennet Wanberg|60,Montör,Ingelshyttan
+C|71394|49|M|Christer Pilblad|49,Kulturarbetare,Lindesberg
+C|71395|49|M|Carl-Johan Thysell|49,Lärare,Lindesberg
+C|71396|78|M|Hans Eriksson|78,Pensionär,Vedevåg
+C|71397|58|M|Hans Boström|58,Administratör,Lindesberg
+C|71398|60|M|Sören Fromell|60,Ambulanssjukvårdare,Frövi
+C|71399|65|M|Kjell Nilsson|64,Elektriker,Fellingsbro
+C|71400|73|M|Gunnar Landén|73,Pensionär,Fellingsbro
+C|71401|74|M|Jan Sahlin|74,Pensionär,Lindesberg
+C|57880|57|M|Jonas Kleber|57 år, lantbrukare, Fellingsbro
+C|57871|51|K|Susanne Karlsson|51 år, gymnasielärare, Lindesberg
+C|58648|43|M|Magnus Eriksson|43 år, chef, Vedevåg
+C|57881|56|K|Inga Ängsteg|56 år, verksamhetschef, Lindesberg
+C|205019|41|M|Johan Andersson|41 år, bonde, Fellingsbro
+C|205020|68|K|Tuula Marjeta|68 år, undersköterska, Rockhammar
+C|58658|70|K|Christina Pettersson|70 år, socionom, Guldsmedshyttan
+C|205022|37|K|Maria-Pia Karlsson|37 år, företagare, Spannarboda
+C|205023|76|M|Björn Pettersson|76 år, byggentreprenör, Rockhammar
+C|205024|68|K|Maud Segerstedt|68 år, skolkonsulent, Fellingsbro
+C|205025|52|M|Emmanuel Hakizimana|52 år, behandlingsassistent, Frövi
+C|205026|22|K|Linda Palm|22 år, studerande, Vedevåg
+C|205027|34|K|Jenny Larsson|34 år, lärare, Östra Öskevik
+C|205028|56|M|Mathz Eriksson|56 år, socionom, Uskaboda
+C|205029|46|K|Malin Rohde|46 år, lärare, Lindesberg
+C|205030|64|M|Ulf Lager|64 år, inköpare teknik, Löa
+C|205031|76|M|Karl-Arne Löthgren|76 år, lantbrukare, Fellingsbro
+C|205032|44|K|Anne Nyström|44 år, interimschef, Lindesberg
+C|205033|70|M|Roland Rohde|70 år, ekonom, Fellingsbro
+C|205034|57|M|Håkan Einarsson|57 år, företagare, Lindesberg
+C|205035|62|K|Gullan Bergdahl|62 år, massageterapeut, Fellingsbro
+C|205036|36|M|Anders Jansson|36 år, egen företagare, Frövi
+C|205037|64|K|Liesel Ivarsson|64 år, assistent, Fellingsbro
+C|205038|73|M|Arne Wikström|73 år, journalist, Fellingsbro
+C|205039|78|K|Kerstin Jönsson|78 år, pensionär, Guldsmedshyttan
+C|216673|44|M|Markus Lundin|Projektledare, Lindesberg
+C|216674|55|K|Margareta Andergard|Vårdbiträde, säljare, Lindesberg
+C|216675|68|M|Kent Hiding|Fd gymnasiechef, Lindesberg
+C|216676|62|M|Sven-Göran Holm|Vårdare, Guldsmedshyttan
+C|216677|74|M|Sven Öberg|Lärare, Stråssa
+C|216678|39|K|Helene Lundin|Specialpedagog, Lindesberg
+C|216679|27|M|Day Po Klet Day|Tidningsbud, Lindesberg
+C|216680|78|M|Hlödur Bjarnason|Läkare, Lindesberg
+C|216681|72|K|Gun Andersson|Sjuksköterska, Lindesberg
+C|216682|22|M|Tha Dah Tsee|Elektriker, Lindesberg
+C|216683|66|M|Lars-Åke Dammström|Pensionär, Fellingsbro
+C|216684|75|M|Lennart Åberg|Lärare, Lindesberg
+C|216685|73|K|Ingrid Åberg|Arbetsterapeut, Lindesberg
+C|57898|49|M|Anders Persson|Hemmansägare/reparatör, Löa
+C|500695|49|K|Åse Gustavsson|Tandhygienist, Löa
+C|192766|66|M|Mats Lagerman|Kulturarvskrigare, Ramsberg
+C|500697|65|K|Rose-Marie Eriksson|Rehabkonsult, Lindesberg
+C|192768|70|M|Bengt Nordqvist|Datakonsult, Mårdshyttan
+C|500699|58|K|Åsa Örterström|Klädkonstnär, Ramsberg
+C|192767|23|M|Fredrik Kemperyd|
+C|17242|23|K|Sanna Jansson|23 år, ordningsvakt/väktare, Lindesberg
+C|17243|62|M|Nils Detlofsson|62 år, jurist, Lindesberg
+C|17244|57|K|Ingrid Rörick Richter|57 år, förskollärare, Lindesberg
+C|17245|73|M|Carl-Henrik Ling|73 år, f.d. kraftverkschef, Lindesberg
+C|17246|52|K|Ulrika Krebser|52 år, medicinsk vårdadministratör, Lindesberg
+C|17250|40|M|Henrik Edlund|40 år, civilingenjör, Frövi
+C|17251|19|K|Tea Detlofsson|19 år, studerande, Lindesberg
+C|214763|34|M|Magnus Larsson|34 år, industriarbetare, Vedevåg
+C|17252|79|K|Margaretha Tillas|80 år, f.d. förskollärare, Lindesberg
+C|214765|88|M|Torbjörn Tillas|88 år, f.d. folkskollärare, Lindesberg
+C|17253|85|M|Göran Sjönneby|85 år, lärare/pensionär, Lindesberg
+C|122963|73|K|Inger Griberg|73 år, pensionerad folkhögskolelärare och lärarutbildare, Lindesberg
+C|123553|53|K|Agneta Nilsdotter|53 år, undersköterska, Lindesberg
+C|124374|51|M|Bengt Evertsson|teknisk chef, Storå
+C|123508|62|K|Marita Haraldson|62 år, företagare, Fellingsbro
+C|124376|58|K|Maria Berdén Evertsson|biolog, Storå
+C|124377|31|M|Stefan Andersson|snickare, Lindesberg
+C|124378|63|K|Shelagh Green|småbrukare, Gammelbo
+C|124379|46|M|Jens Råberg|miljöinspektör, Lindesberg
+C|124380|65|K|Annika Hickisch|vårdlärare, Lindesberg
+C|124381|69|K|Ingalill Lennartsdotter|socionom, Lindesberg
+C|124382|65|M|Bo Haraldson|ekologisk lantbrukare, Fellingsbro
+C|124383|59|K|Helén Uliczka Hallin|utvärderingskonsult, Vedevåg
+C|124384|84|M|Sivert Juneholm|pensionär, Lindesberg
+C|26552|53|M|Pär-Ove Lindqvist|oppositionsråd, Lindesberg
+C|140359|60|K|Lillemor Bodman|Gymnasielärare, Lindesberg
+C|140360|75|M|Jan Hansson|fd. Företagare, Frövi
+C|57613|80|K|Anniette Lindvall|Sjuksköterska, Nora
+C|57603|46|M|Tomas Klockars|arbetsledare, Lindesberg
+C|140363|44|M|Fredrik Lindmark|Gymnasielärare, Lindesberg
+C|140364|76|M|Sven Erik Larsson|Kapten, Lindesberg
+C|140365|18|M|Emil Wellander|Studerande, Lindesberg
+C|57609|61|M|Bertil Jansson|gymnasielärare, Lindesberg
+C|57606|48|M|Hassan Abdi Bidar|tolk, Lindesberg
+C|57605|69|M|Göran Gustafsson|fd inspektör, Lindesberg
+C|140369|30|K|Anna Öfverström|Banktjänsteman, Lindesberg
+C|140370|38|M|Christian Kokvik|leg. Psykolog, Lindesberg
+C|140371|72|M|Kenneth Danielsson|Civilingenjör, Fanthyttan
+C|140372|45|K|Maria Lindqvist|Fastighetsförvaltare, Torphyttan
+C|140373|55|M|Per Nordin|Trafikområdeschef, Storå
+C|57618|41|M|Johan Eriksson|byggingenjör, Lindesberg
+C|140375|74|K|Ingrid Hansson|fd. Ekonom, Frövi
+C|140376|85|M|Mats Melander|fd. Chefsåklagare, Lindesberg
+C|140377|29|M|Conny Ärlerud|Brevbärare, Storå
+C|57616|53|K|Monika Klockars|undersköterska, Lindesberg
+C|140379|45|M|Marcus Holmberg|Konsult, Järle
+C|140380|62|K|Marie Björklund|Röntgensköterska, Frövi
+C|140381|69|M|Bo Ringström|HR Konsult, Lindesberg
+C|508490|42|M|Tobias Kuru|
+C|65845|46|M|Per Söderlund|Datortekniker, Lindesberg
+C|65846|57|M|Mats Seijboldt|Busschaufför, Lindesberg
+C|65847|55|M|Jari Mehtäläinen|55 år, Redovisningskonsult, Lindesberg
+C|65848|70|M|Thord Durnell|Pensionär, Lindesberg, 70
+C|65849|72|M|Fredrik Rosenbecker|72 år, Ingenjör, Lindesberg
+C|65850|47|M|Björn Larsson|47 år, IT, Lindesberg
+C|65851|59|M|Anders Eriksson|59 år, Arbetssökande, Lindesberg
+C|65852|41|M|Tom Persson|41 år, Psykolog, Lindesberg
+C|65853|24|K|Amanda Funk|24 år, Yrkeschaufför, Lindesberg
+C|65854|53|M|Tommy Lönnström|53, Byggnadsarbetare, Lindesberg
+C|65855|80|K|Birgitta Duell|f.d. gymnasieadjunkt i NO, Lindesberg, 80
+C|65856|78|M|Roger Gilén|Pensionär, Fellingsbro, 78
+C|65857|69|K|Sheila Seijboldt|Hemmafru, Vedevåg, 69
+C|65858|51|M|Lars Ljunggren|Chaufför, Lindesberg, 51
+C|510364|52|M|Krister Jakobsson|
+C|510365|53|K|Marina Mehtäläinen|
+C|512425|42|M|Rickard Jirvelius|
+C|513066|71|M|Reidar Larsson|
+C|514173|70|K|Inger Margareta Karlsson|
+C|515332|43|K|Samreen Mohammad Malik|
+C|147508|73|M|Ulf Axelsson|f.d. Metallarbetare, Lindesberg
+C|147509|64|K|Gunilla Remnert|Egen företagare, Frövi
+C|147510|73|M|Hans Lindkvist|f.d. Planeringsingenjör, Lindesberg
+C|147511|69|K|Maria Odheim Nielsen|f.d. Undersköterska, Lindesberg
+C|147512|63|K|Inger Söderberg|f.d. Journalist, Lindesberg
+C|147513|44|K|Mari Fändrik|Anestesisjuksköterska, Guldsmedshyttan
+C|147514|72|K|Eva Samuelsson Persson|f.d. Lärare, Gusselby
+C|147515|35|M|Anders Blank|Behandlingsassistent, Lindesberg
+C|147516|75|K|Elsa Eklund|f.d. Narkossjuksköterska, Lindesberg
+C|147517|72|K|Agneta Lindqvist|f.d. Speciallärare, Lindesberg
+C|147518|39|M|Daniel Lind|Arbetsledare, Stråssa
+C|147519|24|M|Johannes Persson|Truckförare, Ramsberg
+C|147520|49|M|Tord Axelsson|Metallarbetare, Lindesberg
+C|147521|65|K|Irja Karlsson|Pensionär, Guldsmedshyttan
+C|147522|72|K|Birgitta Lind Axelsson|Pensionär, Lindesberg

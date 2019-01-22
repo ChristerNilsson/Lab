@@ -1,10 +1,152 @@
-2|231530|231531|231532|231533|231534|231535|231536|231537|231538|231539|231540|231541|231542|231543|231544|231545|231546|231547|231548|231549|231550|231551|231552|231553|231555|231556|231557|231558|231560|231561
-4|156263|156264|156265|156266|156267|156268|156269|156270|156271|156272|156273|156274|156275|156276|156277|156278|156279|156280|156281|156282|156283|156284|156285|156286|156287|156288|156289|156290|156291|156292|156293
-68|304462|304463|304464|304465|304466|304467|304468|304469|304470|304471
-1011|84533|84534|84535|84536|84537|84538|84539|84540|84541
-3|306382|306383|306384
-1296|164902|164903|164904|167087
-55|364010|505849|505850
-1|45933|46019|45920|46263|46264|46265|46266|46267|46050|46269|46270|46271
-110|47119|47120|47121|47122|47123|47124|47221|47222|47223|47224|47225|510277|510278|510279|510280|510281|512973|515559
-5|104931|104933|104939|246490|246491|104859|246493|246494|246495|246496|246497
+T|Uppvidinge
+A|2|231530|231531|231532|231533|231534|231535|231536|231537|231538|231539|231540|231541|231542|231543|231544|231545|231546|231547|231548|231549|231550|231551|231552|231553|231555|231556|231557|231558|231560|231561
+A|4|156263|156264|156265|156266|156267|156268|156269|156270|156271|156272|156273|156274|156275|156276|156277|156278|156279|156280|156281|156282|156283|156284|156285|156286|156287|156288|156289|156290|156291|156292|156293
+A|68|304462|304463|304464|304465|304466|304467|304468|304469|304470|304471
+A|1011|84533|84534|84535|84536|84537|84538|84539|84540|84541
+A|3|306382|306383|306384
+A|1296|164902|164903|164904|167087
+A|55|364010|505849|505850
+A|1|45933|46019|45920|46263|46264|46265|46266|46267|46050|46269|46270|46271
+A|110|47119|47120|47121|47122|47123|47124|47221|47222|47223|47224|47225|510277|510278|510279|510280|510281|512973|515559
+A|5|104931|104933|104939|246490|246491|104859|246493|246494|246495|246496|246497
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|231530|51|M|Niklas Jonsson|51, Åseda
+C|231531|71|K|Bodil Fager Bergqvist|72, Alstermo
+C|231532|62|M|Peter Danielsson|63, Alstermo
+C|231533|35|K|Marie Hammarström|36, Norrhult
+C|231534|49|M|Peter Skog Lindman|49, Åseda
+C|231535|56|K|Susanne Karlsson|57, Lenhovda
+C|231536|68|M|Jan Wernström|68, Åseda
+C|231537|59|K|Ingela Holgersson|59, Lenhovda
+C|231538|28|M|Jim Johansson|28, Åseda
+C|231539|54|K|Anette Vallentin|54, Åseda
+C|231540|73|M|Lars-Eric Hammarström|73, Norrhult
+C|231541|67|M|Bjarne Svensson|67, Åseda
+C|231542|76|M|Åke Axelsson|76, Älghult
+C|231543|67|M|Birger Johansson|67, Lenhovda
+C|231544|63|M|Peter Ekman|63, Åseda
+C|231545|41|M|Martin Sjöblom|41, Åseda
+C|231546|73|M|Kenth Bergqvist|73, Alstermo
+C|231547|70|M|Björn Bodén|70, Lenhovda
+C|231548|46|M|Tomas Sjögren|46, Fröseke
+C|231549|60|M|Peter Englén|60, Älghult
+C|231550|55|M|Anders Nyberg|55, Klavreström
+C|231551|69|M|Ernst Viksten|69, Åseda
+C|231552|50|M|Stephan Müller|50, Åseda
+C|231553|36|K|Emma Fager|37, Klavreström
+C|231555|41|M|Flavius Baltes|41, Åseda
+C|231556|27|M|Lukas Jonsson|27 , Åseda
+C|231557|24|K|Elin Johansson|24, Lenhovda
+C|231558|68|M|Berne Runemalm|68, Älghult
+C|231560|37|K|Kasia Musial Lilja|37, Lenhovda
+C|231561|21|M|Mubashar Amin Mohamed|21, Åseda
+C|156263|65|K|Ingrid Hugosson|Civilekonom, Åseda
+C|156264|25|M|Patrik Davidsson|Lantarbetare/Politiker, Alstermo
+C|156265|41|K|Viktoria Birgersson|Samverkansledare, Åseda
+C|156266|59|K|Eva Palmqvist|Distriktssköterska, Lenhovda
+C|156267|73|M|Thomas Lindberg|74, Pensionär, Norrhult
+C|156268|29|M|Sadiq Sahal|Undersköterska, Lenhovda
+C|156269|55|M|Magnus Gustafsson|Egenföretagare, Fröseke
+C|156270|36|K|Frida Sundqvist Hall|Socionomstuderande, Åseda
+C|156271|29|M|Erik Ragnarson|CNC-operatör, Lenhovda
+C|156272|71|M|Ingemar Hugosson|72, Projektingenjör, Åseda
+C|156273|62|K|Anne-Sofie Olofsson|Apotekstekniker, Åseda
+C|156274|62|M|Einar Håkansson|Mekaniker, Klavreström
+C|156275|45|K|Johanna Habbe|Leg. Veterinär, Åseda
+C|156276|75|M|Roland Cronholm|Skogsägare, Älghult
+C|156277|19|M|Oskar Löfsved|Studerande, Åseda
+C|156278|48|K|Sofia Cronholm|48, Familjehemsförälder, Lenhovda
+C|156279|34|M|Jonas Elmgren|Chaufför, Lenhovda
+C|156280|19|M|Linus Tover|Studerande, Åseda
+C|156281|67|M|Michal Kubiak|Egenföretagare, Alstermo
+C|156282|89|K|Wivi Johansson-Svanberg|Studieledare, Åseda
+C|156283|61|M|Anders Sjöstrand|Skogarbetare, Norrhult
+C|156284|77|K|Madeleine Gavelli Poulsen|Pensionär, Norrhult
+C|156285|71|M|Bengt-Göran Birgersson|71, Skogsbonde, Åseda
+C|156286|34|K|Anna-Carin Torstensson|Undersköterska, Lenhovda
+C|156287|44|K|Annicha Önnered|Socialsekreterare, Fröseke
+C|156288|56|M|Flemming Poulsen|Industriarbetare, Norrhult
+C|156289|35|M|Fredrik Hasselby|Inköpare, Åseda
+C|156290|64|M|Jan Bladh|64, Företagare, Alstermo
+C|156291|19|M|Daniel Cronholm|Servitör/Bartender, Lenhovda
+C|156292|56|M|Nils-Magnus Tover|Chaufför, Åseda
+C|156293|43|K|Sophie Palm|Kultur- och fritidskonsulent, Lenhovda
+C|304462|52|K|Christina Lindqvist|Lantbrukare, Åseda
+C|304463|61|M|Bertil Eriksson|Tekniker, Lenhovda
+C|304464|49|K|Kristina Moln Käck|Lärare, Hultanäs
+C|304465|62|M|Björn Dahlén|Veterinär, Klavreström
+C|304466|54|M|Perry Svensson|Företagare, Åseda
+C|304467|52|K|Helena Baardh|Lärare, Åseda
+C|304468|57|M|Krister Elbrink|Tekniker, Lenhovda
+C|304469|46|K|Catarina Isacsson|Konditor, Åseda
+C|304470|74|M|Arne Karlsson|Pastor, Lenhovda
+C|304471|46|K|Anna-Lena Gustafsson|Tekniker, Älghult
+C|84533|55|M|Kent Helgesson|Norrhult
+C|84534|70|M|Lennart Lundahl|Skäraskog, Lenhovda
+C|84535|71|M|Roger Karlsson|Skögle, Åseda
+C|84536|65|K|Christina Lundahl|Skäraskog, Lenhovda
+C|84537|67|M|Bengt Svensson|Ekhovra, Åseda
+C|84538|53|M|Lars Ulvesten|Hökhult
+C|84539|70|K|Ylva Rodvall|Skögle, Åseda
+C|84540|53|K|Charlotte Ulvesten|Hökhult
+C|84541|73|M|Janne Lundvall|Nottebäck, Norrhult
+C|306382|25|M|Albin Dahlén|Uppvidinge
+C|306383|45|M|Markus Sommer|Åseda, trafiklärare
+C|306384|57|M|Per Sandberg|Klavreström, ingenjör
+C|164902|67|M|Kennet Karlsson|Åseda, egenföretagare
+C|164903|52|M|Håkan Karlsson|Norrhult, motoringenjör
+C|164904|34|K|Sonja Karlsson|Norrhult, studerande
+C|167087|69|M|Jan Erik Karlsson|Åseda, lantmästare
+C|364010|72|K|Eva Fernandez Bjarnestam|72 år, f.d lärare, Åseda
+C|505849|70|M|Dan Stålsmeden|70 år, f.d. socialsekreterare, Åseda
+C|505850|69|K|Greta Johansson|69 år, f.d. industriarbetare, Lenhovda
+C|45933|68|M|Anders Käll|68 år, Förvaltningschef, Klavreström
+C|46019|67|K|Margareta Schlee|67 år, Musiklärare, Norrhult
+C|45920|64|M|Carl Krekola|64 år, HR-strateg, Klavreström
+C|46263|47|M|Mikael Thelander|Åseda
+C|46264|46|M|Fredrik Petersson|Åseda
+C|46265|79|M|Jan-Olof Fransson|Lenhovda
+C|46266|44|M|Jerker Blomqvist|Åseda
+C|46267|63|K|Solvig Käll Stigsson|Klavreström
+C|46050|69|M|Rolf Green|69 år, Pensionär, Korsberga
+C|46269|81|M|Bernt Björnberg|Norrhult
+C|46270|72|K|Kerstin Bjelkered|Åseda
+C|46271|74|M|William Andersson|Lenhovda
+C|47119|66|M|Anders Ljungqvist|66, Älghult
+C|47120|44|M|Rickard Revelj|44 år, Lenhovda
+C|47121|40|M|Simon Bring|40, Åseda, Småföretagare
+C|47122|65|K|Kerstin Ljungkvist|65 år, Älghult
+C|47123|30|M|Andréas Preschel|30, Norrhult
+C|47124|46|M|Robert Fredriksson|46, Hybo
+C|47221|67|M|Per Danhall|67 år, Åseda
+C|47222|40|M|Pierre Danhall|40 år, Norrhult
+C|47223|41|M|Mattias Karlsson|Riksdagsledamot, Uppvidinge
+C|47224|56|M|Lars-Gunnar Svensson|56, Norrhult
+C|47225|61|K|Hanne Geiger|61 år, Klavreström
+C|510277|59|M|Billy Lindvall|59 år, Lenhovda
+C|510278|35|M|Daniel Gren-Karlsson|35 år, Åseda
+C|510279|41|M|Daniel Danhall|41 år, Åseda
+C|510280|69|M|Bo Ingvarsson|69 år, Norrhult
+C|510281|69|M|Mogens Werner|69 år, Norrhult
+C|512973|28|K|Jennie Henriksson|
+C|515559|61|M|Börje Melin|
+C|104931|42|K|Mikaela Gross|41 år, egenföretagare, Uppvidinge
+C|104933|42|M|Matthias Sjöberg|42 år, undersköterska, Uppvidinge
+C|104939|67|K|Susanne Eriksson Andersson|61 år, pensionär, Uppvidinge
+C|246490|48|M|Jörgen Lundberg|48 år, byggare, Lenhovda
+C|246491|70|K|Susanne Engvall Tops|70 år, pensionär, Klavreström
+C|104859|50|M|Tobiaz Kowalski|50 år, IT-administratör, Uppvidinge
+C|246493|52|K|Gunilla Nikolausson|52 år, psykiatriskötare, Alstermo
+C|246494|68|M|Leif Hauge|68 år, glasarbetare, Älghult
+C|246495|71|K|AnnaLena Rosander|71 år, pensionär, Klavreström
+C|246496|72|M|Bo Magnusson|71 år, pensionär, Lenhovda
+C|246497|69|K|Lisbeth Nilsson|69 år, pensionär, Lenhovda

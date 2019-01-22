@@ -1,16 +1,368 @@
-2|231784|231785|231786|231787|231788|231789|231790|231791|231792|231793|231794|231795|231796|231797|231798|231799|231800|231801|231802|231803|231804|231805|231806|231807|231808|231809|231810|231811|231812|231813|231814|231815|231816|231817|231818|231819|231820|231821|231822|231823|231824|231825|231826|231827|231828|231829|231830|231831|231832|231833|231834|231835|231836|231837|231838|231839|231840|231841|231842|231843|231844
-4|215321|215322|159283|183266|159278|8521|183263|215328|215329|215330|215331|183261|215333|215335|215336|159287|215338|215339|215340|215341|183291|215343|215344|183287|183257|183285|183275|215349|215350|215351|215352|215353|215354|215355|215356|215357|215358|215359|215360|215361|215362|215363|159290|215365
-1150|515637
-532|357341|513146|515746|515961
-471|240862|240863|240864|240865|240866|240867|240868|240869|240870|240871
-68|335599|335600|335601|335602|335603|335604|335605|335606|335607|335608|335609|335610|335611|335612|335613|335614|335615|335616|360272|335617|335618|335619|335620|335621
-1011|283553
-3|297325|49196|297327|297328|297329|297330|297331|297332|297333|297334|297335|297336|297338|297339|297340|297341|297342|297343|297344|297345|297346|297347|297348|297349|297350|297351|297352|297353|297354|297355|297356|297357|297358|297359|297360|297361|297362|297363|297364
-1296|164876|164877|164878
-55|311125|273194|273195|273196|273197|273198|273199|273200|273339|273340|273341|355336|355337|355338|355339|355340|355837|355838|355839|355840|355841
-1|46272|46008|46274|45924|45922|46003|46006|46016|45923|45919|45930|46021|46284|46285|46286|45914|46288|46289|46052|46291|46292|46037|46294|46295|46296|46297|46298|46023|46300|46010|45912|46303|46304|46305|46032|46307|46024|46309|46310|46311|46033|46051|46314|46315|46316|46317|46318|46044|46320|46045|46322|46323|46324|46325|46326|46327|46328|46329|46330|46331|46332|46333|46334|46047|46336|46058|46338|46011|46340|46341
-1202|483941
-1362|396027|396028|396029|396030|396031|396032
-110|124830|124831|124832|124833|124834|124835|124836|124837|124838|124839|124840|124841|124842|124843
-5|104863|104861|105037|104943|104938|246305|105040|105041|105042|246309|105043|246311|246312|246313|246314|105044|246316|105045|105046|105047|246320|361065|105048|246322|246323|105049|246325|105050|105051|105052|246329|246330|105053|246332|246333|105054
-1403|506230
+T|Växjö
+A|2|231784|231785|231786|231787|231788|231789|231790|231791|231792|231793|231794|231795|231796|231797|231798|231799|231800|231801|231802|231803|231804|231805|231806|231807|231808|231809|231810|231811|231812|231813|231814|231815|231816|231817|231818|231819|231820|231821|231822|231823|231824|231825|231826|231827|231828|231829|231830|231831|231832|231833|231834|231835|231836|231837|231838|231839|231840|231841|231842|231843|231844
+A|4|215321|215322|159283|183266|159278|8521|183263|215328|215329|215330|215331|183261|215333|215335|215336|159287|215338|215339|215340|215341|183291|215343|215344|183287|183257|183285|183275|215349|215350|215351|215352|215353|215354|215355|215356|215357|215358|215359|215360|215361|215362|215363|159290|215365
+A|1150|515637
+A|532|357341|513146|515746|515961
+A|471|240862|240863|240864|240865|240866|240867|240868|240869|240870|240871
+A|68|335599|335600|335601|335602|335603|335604|335605|335606|335607|335608|335609|335610|335611|335612|335613|335614|335615|335616|360272|335617|335618|335619|335620|335621
+A|1011|283553
+A|3|297325|49196|297327|297328|297329|297330|297331|297332|297333|297334|297335|297336|297338|297339|297340|297341|297342|297343|297344|297345|297346|297347|297348|297349|297350|297351|297352|297353|297354|297355|297356|297357|297358|297359|297360|297361|297362|297363|297364
+A|1296|164876|164877|164878
+A|55|311125|273194|273195|273196|273197|273198|273199|273200|273339|273340|273341|355336|355337|355338|355339|355340|355837|355838|355839|355840|355841
+A|1|46272|46008|46274|45924|45922|46003|46006|46016|45923|45919|45930|46021|46284|46285|46286|45914|46288|46289|46052|46291|46292|46037|46294|46295|46296|46297|46298|46023|46300|46010|45912|46303|46304|46305|46032|46307|46024|46309|46310|46311|46033|46051|46314|46315|46316|46317|46318|46044|46320|46045|46322|46323|46324|46325|46326|46327|46328|46329|46330|46331|46332|46333|46334|46047|46336|46058|46338|46011|46340|46341
+A|1202|483941
+A|1362|396027|396028|396029|396030|396031|396032
+A|110|124830|124832|124833|124834|124835|124836|124837|124838|124839|124840|124841|124842|124843
+A|5|104863|104861|105037|104943|104938|246305|105040|105041|105042|246309|105043|246311|246312|246313|246314|105044|246316|105045|105046|105047|246320|361065|105048|246322|246323|105049|246325|105050|105051|105052|246329|246330|105053|246332|246333|105054
+A|1403|506230
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|532|FI|Feministiskt initiativ
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1202|RNP|Reformist Neutral Partiet
+B|1362|RRP|Rättvisa Rörelse Partiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|1403||Växjöpartiet
+C|231784|50|K|Malin Lauber|kommunalråd, 50, Norr
+C|231785|26|M|Pontus Samuelsson|Ombudsman, 26, Växjö
+C|231786|27|K|Julia Berg|Samordnare, 27, Växjö
+C|231787|39|M|Tomas Thornell|Förtroendevald, 38, Växjö
+C|231788|68|K|Rose-Marie Holmqvist|pensionär, 68, Ringsberg
+C|231789|47|M|Martin Edberg|Förtroendevald, 47, Åryd
+C|231790|26|K|Henrietta Serrate|Gymnasielärare, 26, Växjö
+C|231791|61|M|Gunnar Storbjörk|förtroendevald, 61, Araby
+C|231792|36|K|Arijeta Reci|Enhetschef, 36, Växjö
+C|231793|31|M|Otto Lindlöf|byggnadsarbetare, 31, Hov
+C|231794|27|K|Emelie Öberg|Politisk sekreterare, 27, Växjö
+C|231795|56|M|Tony Lundstedt|Förtroendevald, 56, Växjö
+C|231796|33|K|Martina Forsberg|omsorgsassistent, 33, Teleborg
+C|231797|42|M|Hugo Hermansson|Verksamhetsutvecklare, 42, Växjö
+C|231798|22|K|Lisa Larsson|personlig assistent, 22, Vederslöv
+C|231799|61|M|Kjell Olsson|kvalitetstekniker, 61, Hovshaga
+C|231800|73|K|Ann-Kristin Lindqvist|pensionär, 73, Teleborg
+C|231801|43|M|Marko Kosonen|industriarbetare, 43, Hov
+C|231802|65|K|Gullvi Strååt|pensionär, 65, Sandsbro
+C|231803|67|M|Alf Skogmalm|pensionär, 67, Lammhult
+C|231804|24|K|Tajma Sisic|student, 24, Campus
+C|231805|63|M|Yusuf Isik|gatudriftsarbetare, 63, Hovshaga
+C|231806|66|K|Marie-Louise Gustafsson|pensionär, 66, Rottne
+C|231807|39|M|Ola Löfqvist|ombudsman, 39, Öjaby
+C|231808|51|K|Anette Nerlie Anderberg|ekonomiassistent, 51, Öster
+C|231809|63|M|Anders Lindoff|entreprenadsamordnare, 63, Åryd
+C|231810|49|K|Cecilia Lundin Danielsson|Gymnasielärare, 49, Ingelstad
+C|231811|57|M|Michael Sjöö|Säljchef, 57, Växjö
+C|231812|59|K|Patricia Aguilera|barnskötare, 59, Araby
+C|231813|43|M|Henrik Vahldiek|IT-tekniker, 43, Växjö
+C|231814|38|K|Erika Lagergren|projektledare, 38, Norr
+C|231815|26|M|Karl Paine Huenupi|Byggnadsarbetare, 26, Växjö
+C|231816|22|K|Agna Beslija|student, 22, Campus
+C|231817|29|M|Per Hultman|IT-konsult, 29, Hovshaga
+C|231818|65|K|Marianne Paine Huenupi|Pensionär, 65, Växjö
+C|231819|42|M|Jonas Ek|skötare, 42, Gemla
+C|231820|61|K|Annette Åstrand|Speciallärare, 60, Växjö
+C|231821|34|M|Valon Rama|jurist, 34, Öster
+C|231822|28|K|Alije Mikullovci Kera|Studerande, 28, Växjö
+C|231823|39|M|José-Miguel Guzman Soriano|industriarbetare, 39, Teleborg
+C|231824|43|K|Bahtije Breznica|Lärare, 43, Växjö
+C|231825|20|M|Mattias Dahlberg|student, 20, Teleborg
+C|231826|73|K|Ann-Mari Häggsgård|pensionär, 73, Centrum
+C|231827|52|M|Lars-Ove Hedman|tekniker, 52, Väster
+C|231828|26|K|Iman Hussein|student, 26, Araby
+C|231829|55|M|Johan Jacobsson|industriarbetare, 55, Dädesjö
+C|231830|43|K|Giselle Iskandar|verksamhetsassistent, 43, Sandsbro
+C|231831|19|M|Marcus Karlén|student, 19, Campus
+C|231832|37|K|Lovisa Alm|Ombudsman, 37, Växjö
+C|231833|54|M|Roy Svalstad|industriarbetare, 54, Braås
+C|231834|22|K|Rebecca Esselgren|Studerande, 22, Växjö
+C|231835|32|M|Fitim Krasniqi|IT-tekniker, 32, Araby
+C|231836|38|K|Sara Löfqvist|förskolechef, 38, Rottne
+C|231837|51|M|Tobias Karlsson|Lärare, 51, Växjö
+C|231838|30|K|Olja Pekusic|Affärsutvecklare, 30, Växjö
+C|231839|40|M|Dennis Borglin|ombudsman, 40, Gemla
+C|231840|52|K|Cecilia Lindblom|lärare, 52, Teleborg
+C|231841|33|M|Jonas Danielsson|fastighetsskötare, 33, Hov
+C|231842|19|K|Daphne Lindberg Spångvall|student, 19, Öster
+C|231843|58|M|Dusan Jovicic|industriarbetare, 58, Väster
+C|231844|45|K|Jane Lundh|lokalvårdare, 45, Teleborg
+C|215321|68|K|Eva Johansson|Gruppledare, Jät
+C|215322|61|M|Anders Bengtsson|Projektledare, Rottne
+C|159283|29|M|Andreas Olsson|Lärare, Växjö
+C|183266|68|K|Margareta Jonsson|68, Pensionär, Växjö
+C|159278|27|M|Andreas Håkansson|Lärare, Växjö
+C|8521|55|M|Per Schöldberg|55 år, Kommunalråd, Växjö
+C|183263|65|K|Yvonne Ekaremål|65, Redovisningskonsult, Tjureda
+C|215328|65|M|Claes Bromander|Företagare, Högstorp
+C|215329|62|K|Annika Nilsson|Verksamhetsledare, Ör
+C|215330|65|M|Tomas Johansson|Socionom, Centrum
+C|215331|59|K|Gudrun Holmberg|Lärare, Furuby
+C|183261|64|K|Ann-Christin Norlander|64, Pensionär, Växjö
+C|215333|69|M|Sven Johansson|Skogsbrukare, Bergunda
+C|215335|71|M|Anders Franzén|Fd. Utvecklingschef, Öjaby
+C|215336|55|K|Tina Sturesson|Ombudsman, Söder
+C|159287|65|M|Birger Johnsson|Mjölkföretagare/Ekonom , Braås
+C|215338|42|K|Mirjam Rito|Marknadskommunikatör, Vederslöv
+C|215339|37|K|Cecilia Birgersson|Verksamhetsutvecklare, Sandsbro
+C|215340|68|M|Thomas Magnusson|Lantbrukare, Rinkaby
+C|215341|41|K|Mari Hrdina Friberg|Undersköterska, Teleborg
+C|183291|64|M|Anders Haggren|64, Civilingenjör, Växjö
+C|215343|55|K|Ingrid Johansson|Områdeschef, Braås
+C|215344|49|M|Jörgen Sten|Ingenjör, Tjureda
+C|183287|49|K|Birgitta Nilsson|50, Lärare, Växjö
+C|183257|72|M|Kjell Gustafsson|72, Specialpedagog/Kulturarbetare, Växjö
+C|183285|69|K|Anita Svensson|69, Frisör, Gemla
+C|183275|69|M|Sture Andersson|69, Fd Landstingsdir, Växjö
+C|215349|71|M|Berne Persson|Informationskonsult, Teleborg
+C|215350|72|M|Gunnar Petersson|Företagare, Centrum
+C|215351|25|K|Majja Almkvist|Entreprenör, Tävelsås
+C|215352|69|M|Sven Petersson|Pensionär, Rottne
+C|215353|21|M|Nils Fröhling|Student, Campus
+C|215354|51|M|Per Gustafsson|Platschef, Araby
+C|215355|23|K|Louise Arnesson|Statsvetare, Norr
+C|215356|71|M|Sven Pehrson|Pensionär, Åryd
+C|215357|25|M|Jacob Samuelsson|Student, Campus
+C|215358|58|M|Thomas Johansson|Chaufför, Uråsa
+C|215359|25|K|Annie Nilsson|Student, Campus
+C|215360|72|M|KarlErik Nedfors|Lantmästare, Ingelstad
+C|215361|22|M|Axel Davidsson|Industriarbetare, Rottne
+C|215362|71|M|Anders Johansson|Skogstekniker, Furuby
+C|215363|64|M|Nino Dalenfjäll|Braås
+C|159290|39|M|Nils-Erik Jonsson|Chaufför, Braås
+C|215365|65|M|Göran Johansson|Lantbrukare, Drev
+C|515637|30|M|Marcus Åberg|
+C|357341|66|K|Kerstin Staver Liljecrantz|65 år
+C|513146|65|K|Gunnel Kristina Stenung|
+C|515746|90|M|Bengt Carl Waldemar Denward|
+C|515961|37|M|Oskar Lindfors|
+C|240862|48|K|Gabriela Inostroza|undersköterska
+C|240863|44|M|Jan-Åke Karlsson|gymnasielärare
+C|240864|31|M|Joel Sandström|stödassistent
+C|240865|71|K|Gunnel Thörn|f.d. lärare
+C|240866|62|M|Juan Carlos Sepulveda|metallarbetare
+C|240867|31|M|David Peterson|fritidsledare
+C|240868|58|K|Susanna Eriksson|bibliotekarie
+C|240869|71|M|Jan-Olof Johansson|f.d. metallarbetare
+C|240870|44|K|Mirja Troberg|logoped
+C|240871|35|M|Erik Gustafsson|metallarbetare
+C|335599|45|M|Jon Malmqvist|Kommunpolitiker, Växjö
+C|335600|33|K|Anna Zelvin|Gymnasielärare, Växjö
+C|335601|31|M|Ricardo Chavez|LSS-samordnare, Växjö
+C|335602|52|M|Patrik Åkesson|Företagare, Växjö
+C|335603|59|K|Elisabeth Sigfridsson|Butiksbiträde, Tegnaby
+C|335604|50|M|Kaj-Mikael Petersson|Företagare, Växjö
+C|335605|33|M|Edvin Sjöstrand|Civilekonom, Växjö
+C|335606|38|M|Jonas Aronsson|Ämneslärare, Växjö
+C|335607|56|M|Göran Kannerby|Järnvägskonsult, Växjö
+C|335608|63|M|Per-Olof Hjälmefjord|Integrationsutvecklare, Väster
+C|335609|56|K|Gitten Öholm|Föreståndare, Öjaby
+C|335610|51|M|Gustaf Bergström|Ingenjör, Växjö
+C|335611|72|K|Birgit Malmkvist|Pensionär, Hovshaga
+C|335612|49|M|Vincent Hammarstedt|IT-tekniker, Växjö
+C|335613|63|M|Lennart Johnsson|Lektor, präst (Teol. dr.), Vederslöv
+C|335614|67|M|Bertil Olsson|Präst, Lammhult
+C|335615|37|M|Mattias Edlund|Student, Växjö
+C|335616|39|M|Stefan Zelvin|Fritidspedagog, musiker, Växjö
+C|360272|53|K|Anita Viksten|Säljare, Växjö
+C|335617|38|M|Daniel Ekerot|Systemutvecklare, Växjö
+C|335618|77|K|Ingrid Ekström|Diakon, Teleborg
+C|335619|54|M|Bradley Thornton|F.d. Amerikansk militärpolis, Teleborg
+C|335620|69|K|Åsa Björkman|F.d. Skolledare, Öster
+C|335621|33|M|Martin Claesson|Byggnadsingenjör,Teleborg
+C|283553|61|M|Birger Karlsson|Egenföretagare/Bonde,Växjö
+C|297325|53|M|Lennart Adell Kind|Civilekonom, Sandsbro
+C|49196|64|M|Gunnar Nordmark|grundskollärare, Växjö
+C|297327|21|K|Caroline Persson|Studerande, Campus
+C|297328|57|M|Torgny Klasson|Växjö
+C|297329|43|K|Susanna Röing|Ekonom, Norr
+C|297330|42|M|Rickard Karlsson|Växjö
+C|297331|62|M|Michael Färdig|Växjö
+C|297332|72|K|Ann-Margreth Willebrand|Växjö
+C|297333|33|M|Anders Landin|Lärare, Teleborg
+C|297334|65|M|Lars Rejdnell|Växjö
+C|297335|66|K|Annika Stacke|Lammhult
+C|297336|19|M|Matti Welin|Växjö
+C|297338|71|M|Sven Sandberg|Pensionär, Teleborg
+C|297339|65|M|Stanley Källner|Pastor, Teleborg
+C|297340|42|K|Annika Schilling|Universitetslektor, Sjöbågen
+C|297341|79|M|Stanley Ståhl|Företagsekonom, Lammhult
+C|297342|65|M|Ola Sennehed|Växjö
+C|297343|43|M|Magnus Stenbenke|Account manager, Araby
+C|297344|22|K|Rehina Ouro-Nimini|Växjö
+C|297345|32|M|Christoffer Petrén|VD, Biskopshagen
+C|297346|21|K|Amanda Nero|Studerande, Telestad
+C|297347|19|M|Elias Larsson|Studerande, Norr
+C|297348|24|K|Linnéa Khan|Samhällsvetare, Växjö
+C|297349|37|M|Jimmi Jonsson|Växjö
+C|297350|32|M|Bauer Kulaksiz|Sjuksköterska, Biskopsgården
+C|297351|22|M|Albert Sadiku|Psykologstudent, Campus
+C|297352|24|M|Victor Bolander|Växjö
+C|297353|27|M|Dennis Busch|Ombudsman, Campus
+C|297354|58|M|Magnus Hedin|Kyrkoherde, Väster
+C|297355|62|M|Mats Wahlsten|Rektor, Hovshaga
+C|297356|80|K|Barbro Tegström|Berättare, Teleborg
+C|297357|24|M|Christian Musselbrook Öberg|Lärarstudent, Campus
+C|297358|80|M|Nils-Ivar Köhlin|Pensionär, Högstorp
+C|297359|29|M|Anton von Zweibergk|Studerande, Biskopsgården
+C|297360|56|M|Lars Åke Brincner|Taxichaufför, Teleborg
+C|297361|69|M|Arne Johansson|Skogsbrukare, Eke, Braås
+C|297362|72|M|Stefan Bergström|Växjö
+C|297363|70|M|Nils Fransson|Växjö
+C|297364|84|K|Karin Sjöblom|Pensionär, Öster
+C|164876|46|K|Lotta Dalenius|Ingelstad, arbetsmiljöinspektör
+C|164877|31|M|Stefan Svensson|Gemla, egenföretagare
+C|164878|32|M|Max Villman|Ingelstad, stridspilot
+C|311125|47|M|Magnus P Wåhlin|47, skolpräst, Växjö
+C|273194|58|K|Cheryl Jones Fur|58, zoolog, Växjö
+C|273195|34|M|Tobias Adersjö|34 år, Kvalitets- och miljökonsult, Växjö
+C|273196|68|K|Gunnel Jansson|68 år, Pensionerad lärare, Växjö
+C|273197|27|M|Jonatan Rundqvist|27 år, Lärare, Växjö
+C|273198|74|K|Kerstin Kindstrand|74 år, f.d affärsrådgivare, Växjö
+C|273199|69|M|Erik Jansson|69 år, Pensionerad lärare, Växjö
+C|273200|40|K|Maria Unell|40 år, Doktor i mikrobiologi, Ör
+C|273339|42|M|Magnus Folcker|42 år, HR-strateg/folkbildare, Växjö
+C|273340|36|K|Agneta Carlsson|36 år, Miljövetare, Tolg
+C|273341|32|M|Edvin Arnby|32år, Verksamhetsutvecklare, Växjö
+C|355336|40|K|Jesserina Flores|40 år, Näringslivsutvecklare, Växjö
+C|355337|40|M|Mikael Svensson|40 år, Gymnasielärare/programmerare, Öjaby
+C|355338|65|K|Marita Bengtsson|65 år, Ekonom, Tolg
+C|355339|21|M|Albin Evertsson|21 år, Lärarstudent, Campus
+C|355340|70|K|Guje Larsson|70 år, Barnmorska, Söder
+C|355837|35|M|Abdikadir Ahmed Mohamoud|35 år, Verksamhetsansvarig, Växjö
+C|355838|25|K|Veronica Wihman|25 år, Beteendevetare, Berg
+C|355839|69|M|Per Stille|69 år, Docent, Växjö
+C|355840|76|K|Kerstin Axén Krag|76 år, Pensionerad lärare, Växjö
+C|355841|71|K|Birgitta Josefsson|71 år, Läkare, Växjö
+C|46272|40|K|Anna Tenje|40 år, Kommunalråd, Hov
+C|46008|26|M|Oliver Rosengren|26 år, Kommunalråd, Växjö
+C|46274|49|M|Ulf Hedin|49 år, Politiker, Hovshaga
+C|45924|53|K|Catharina Winberg|53 år, Politiker, Växjö
+C|45922|52|K|Sofia Stynsberg|52 år, Kantor, Växjö
+C|46003|40|K|Pernilla Tornéus|40 år, Lärare, Växjö
+C|46006|63|M|Bo Frank|63 år, Fd kommunalråd, Växjö
+C|46016|58|K|Irene Bladh|58 år, SOS-operatör, Växjö
+C|45923|40|M|René Jaramillo|40 år, Kommunikatör, Växjö
+C|45919|21|M|Anton Olsson|21 år, Ekonomistudent, Växjö
+C|45930|61|K|Lena Wibroe|61 år, Narkossköterska, Växjö
+C|46021|69|M|Sigvard Jakobsson|69 år, Ambulanssjukvårdare, Braås
+C|46284|56|M|Glenn Nilsson|56 år, Produktansvarig, Lammhult
+C|46285|29|M|Christoffer Nordmark|29 år, Säkerhetsrådgivare, Kalvsvik
+C|46286|75|M|Björn Svensson|75 år, Ingenjör, Teleborg
+C|45914|24|K|Ida Eriksson|24 år, Statsvetare, Växjö
+C|46288|50|M|Edwart Oguz|50 år, Försäkringsrådgivare, Östra Lugnet
+C|46289|60|M|Lars-Göran Svensson|60 år, Företagare, Tolg
+C|46052|49|M|Mikael Virdelo|49 år, Ekonom, Växjö
+C|46291|26|K|Anna Gustbée|26 år, Lärare, Väster
+C|46292|41|M|Andreas Lindström|41 år, Lärare, Norr
+C|46037|50|M|Andreas Ekman|50 år, Sociolog, Växjö
+C|46294|62|K|Pia Philipsson|62 år, Lärare, Teleborg
+C|46295|74|M|Cenneth Quick|74 år, Seniorkonsult, Lammhult
+C|46296|54|M|Hans-Eric Fransson|54 år, Lagerarbetare, Norr
+C|46297|38|K|Setareh Najafi|38 år, Ekonom, Öster
+C|46298|77|K|Agneta Nordlund G:son|77 år, Fotograf, Öjaby
+C|46023|72|M|Håkan Belin|72 år, Affärsutvecklare, Växjö
+C|46300|38|K|Delgash Ramadan|38 år, Enhetschef, Centrum
+C|46010|71|M|Ove Löfqvist|71 år, Civilekonom, Växjö
+C|45912|60|K|Suzanne Frank|60 år, Regionråd, Växjö
+C|46303|70|M|Tor Lejdfors|70 år, Företagare, Norr
+C|46304|69|K|Ingrid Stålne|69 år, Kulturskolechef, Öster
+C|46305|61|M|Thomas Denward|61 år, Företagare, Öjaby
+C|46032|19|M|Benjamin Stynsberg|19 år, Student, Växjö
+C|46307|78|K|Agneta Skoglund|78 år, Reseledare, Teleborg
+C|46024|27|K|Andrea Curtsby|27 år, Sjuksköterska, Växjö
+C|46309|61|K|Martha-Elena Arciniega Sandberg|61 år, Lärare, Centrum
+C|46310|56|K|Maria Strand Gustbée|56 år, Speciallärare, Teleborg
+C|46311|42|K|Lien Tran|42 år, Specialpedagog, Hovshaga
+C|46033|69|M|Thomas Nordahl|69 år, Företagsledare, Växjö
+C|46051|62|M|Tomas Jakopsohn|62 år, Företagare, Växjö
+C|46314|31|K|Josefine Wilson|31 år, Enhetschef, Hovshaga
+C|46315|64|K|Ewa Bergström|64 år, Sjuksköterska, Söder
+C|46316|48|K|Sophia Wikström|48 år, Lärare, Hovshaga
+C|46317|66|M|Olle Sundin|66 år, Företagare, Teleborg
+C|46318|68|M|Kent-Inge Henrixon|68 år, Kammarmusiker, Teleborg
+C|46044|59|K|Eva Christensen|59 år, Arbetsmiljöinspektör, Växjö
+C|46320|21|M|Filip Mathisson|21 år, Student, Teleborg
+C|46045|47|M|Robert Nordmark|47 år, Egenföretagare, Växjö
+C|46322|73|K|Sonia Carmelin-Hjelm|73 år, Förskollärare, Öster
+C|46323|45|M|Alexander Elmtoft|45 år, Förtroendevald, Söder
+C|46324|65|M|Hannington Lubwama|65 år, Företagare, Sandsbro
+C|46325|32|K|Ida Lidholt|32 år, Vattenstrateg, Hovshaga
+C|46326|74|M|Göran Widell|74 år, Kapten, Kampen
+C|46327|73|M|Berthold Fück|73 år, Kökschef, Åryd
+C|46328|72|M|Ronnie Kemner|72 år, Ekonom, Högstorp
+C|46329|72|K|Lina Sandell Belin|72 år, Butikschef, Söder
+C|46330|58|M|Budi Simic|58 år, Företagare, Centrum
+C|46331|58|M|Jörgen Pihlo|58 år, Lantbrukare, Vederslöv
+C|46332|32|M|Erik Sjömålen|32 år, Löjtnant, Sandsbro
+C|46333|68|M|Thomas Klüft|68 år, Senior Master Advisor, Hovshaga
+C|46334|68|M|Torsten Grundström|68 år, Pensionär, Vikaholm
+C|46047|68|M|Bengt Wellermark|68 år, Managementkonsult, Växjö
+C|46336|75|M|Hans Anderbjörk|75 år, Brandingenjör, Sandsbro
+C|46058|69|M|Carl Geijer|69 år, Civilekonom, Växjö
+C|46338|78|M|Magnus Jisborg|78 år, Jurist, Kampen
+C|46011|71|K|Pernilla Sjöberg|71 år, Sjuksköterska, Växjö
+C|46340|78|M|Benny Johansson|78 år, Överstelöjtnant, Teleborg
+C|46341|67|M|Christer Wånehed|67 år, Ingenjör, Tolg
+C|483941|65|K|Purificacion Spångberg|
+C|396027|37|M|Mohamed Abdi Elmi|Egenföretagare
+C|396028|64|M|Thomas Käll|Handledare
+C|396029|51|M|Sarchel Mohammad|Egenföretagare
+C|396030|27|K|Abeer Imad Mahsin|Tolk
+C|396031|19|M|Abdinasir Mohamed Ali|Student
+C|396032|22|K|Zahro Yusuf|Student
+C|124830|63|M|Per Nilimaa|63, Växjö, Tillgänglighetskonsult
+C|124832|48|M|Christer Svensson|48, Växjö, lndustriarbetare
+C|124833|50|K|Sara Johansson|50, Socionom
+C|124834|52|M|Conny Lindahl|51, Ingelstad, Mekaniker
+C|124835|21|M|Alexander Harréns|21, Cykelreparatör
+C|124836|20|M|Gustav Pettersson|20, Studerande
+C|124837|49|M|Hannes Jónsson|48, Ekonom
+C|124838|51|M|Mikael Ströberg|51, Åryd, Egenföretagare
+C|124839|54|M|Romeo Pettersson|54, Systemvetare
+C|124840|61|M|Kent Rosell|60, Lammhult, Truckförare
+C|124841|46|M|Pontus Nordfjell|46, Växjö, Chaufför
+C|124842|59|K|Carmen Alonso Prieto|58, Språklärare
+C|124843|53|K|Pernilla Wikelund|53, SFI-lärare
+C|104863|37|K|Maria Garmer|37 år, studerande, Växjö
+C|104861|37|M|Johnny Werlöv|37 år, ingenjör, Växjö
+C|105037|66|K|Elisabet Flennemo|66 år, Teleborg
+C|104943|37|M|Björn Kleinhenz|37 år, Växjö
+C|104938|73|K|Carin Högstedt|73 år, pensionär, Växjö
+C|246305|69|M|Håkan Frizén|70 år, Hovshaga
+C|105040|69|K|Ann-Christin Eriksson|69 år, Gemla
+C|105041|55|M|Mohammad Khaghani|55 år, Norr
+C|105042|58|K|Ylva Jönsson|58 år, Rottne
+C|246309|66|M|Anders Göranson|66 år, Hovshaga
+C|105043|62|K|Dalala Abdel-Gani Pettersson|62 år, Öster
+C|246311|44|M|Kristian Rappner|45 år, Centrum
+C|246312|39|K|Pia Johansson|39 år, Risinge
+C|246313|66|M|Mikael Karlsson|66 år, Centrum
+C|246314|31|K|Maria Svartberg|32 år, Hovshaga
+C|105044|37|M|Mikael Wester|38 år, Nydala
+C|246316|42|K|Monica Tengius|42 år, Berg
+C|105045|30|M|Jonathan Wanér Hedberg|30 år, Öster
+C|105046|52|K|Gertrud Andersson|52 år, Dädesjö
+C|105047|71|M|Örjan Mossberg|71 år, Östra Lugnet
+C|246320|70|K|Barbro Holmgren Lange|70 år, Norr
+C|361065|34|M|Peter Ström|34 år, Spetsamossen
+C|105048|72|K|Anna Bertland|72 år, Norr
+C|246322|62|K|Elisabeth Risedal|62 år, Hovshaga
+C|246323|69|M|Rickard Forsling|69 år, Norr
+C|105049|62|K|Lulu Andersen|63 år, Öster
+C|246325|58|K|Bodil Edvardsson|58 år, Gemla
+C|105050|61|K|Annika Karlsson Ströberg|61 år, Norr
+C|105051|61|M|Anders Tjäder|61 år, Danneborg
+C|105052|64|K|Lena Blomquist|64 år, Västeränga Braås
+C|246329|67|K|Elwy Löwall|68 år, Lammhult
+C|246330|67|K|Karin Green|67 år, Hovshaga
+C|105053|51|K|Gunilla Eriksson|
+C|246332|77|K|Eva Christiansson|51 år, Tjureda
+C|246333|69|K|Karin Wikström|69 år, Väster
+C|105054|59|M|Michael Östlund|59 år, Spetsamossen
+C|506230|46|M|Martin Gustavsson|

@@ -1,8 +1,130 @@
-2|26760|22210|26762|26763|26764|26765|26766|26767|26768|26769|26770|26771|26772|26773|26774|26775|26776|26777|26778|26779|26780|26781|26782|26783|26784
-4|42673|42674|42675|42676|42677|42678|42679|42680|42681|42682|42683|42684|42685|42686|42687|42688|42689|42690|42691|42692|42693|42694|42695|42696|42697|42698|42699|42700
-160|435874|435921|474243|474249|474276|474634|474593|474928|474635|474594|500083|502207|503635|474930|494966|474931|492486|495347|494954|500089|495631
-68|293331|295090|295091|295092|295093|295094
-3|31347|208563|208564|208565|208566|208567|208568
-1|611|37061|37062|37063|37064|37066|37067|37068|37070|37071
-110|94936|94937|94938|94939|109827|94940|515743
-5|108420|108421|30307|108423|108424|108425|108426|108427|108428
+T|Eda
+A|2|26760|22210|26762|26763|26764|26765|26766|26767|26768|26769|26770|26771|26772|26773|26774|26775|26776|26777|26778|26779|26780|26781|26782|26783|26784
+A|4|42673|42674|42675|42676|42677|42678|42679|42680|42681|42682|42683|42684|42685|42686|42687|42688|42689|42690|42691|42692|42693|42694|42695|42696|42697|42698|42699|42700
+A|160|435874|435921|474243|474249|474276|474634|474593|474928|474635|474594|500083|502207|503635|474930|494966|474931|492486|495347|494954|500089|495631
+A|68|293331|295090|295091|295092|295093|295094
+A|3|31347|208563|208564|208565|208566|208567|208568
+A|1|611|37061|37062|37063|37064|37066|37067|37068|37070|37071
+A|110|94936|94937|94938|94939|109827|94940|515743
+A|5|108420|108421|30307|108423|108424|108425|108426|108427|108428
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|160|HEL|Hela Edas Lista
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|26760|62|M|Hans-Peter Jessen|62 år, Eda
+C|22210|26|K|Sofia Andersson|27 år, Eda
+C|26762|47|M|Jens Ericsson|48 år, Eda
+C|26763|71|K|Birgitta Eklund|Skillingmark
+C|26764|69|M|Dan Säterman|Charlottenberg
+C|26765|57|K|Monica Aarholdt|Åmotfors
+C|26766|64|M|Odd Westby|Eda Glasbruk
+C|26767|43|K|Lena Olsson|Charlottenberg
+C|26768|59|M|Bengt Hansson|Charlottenberg
+C|26769|82|K|Marianne Torstensdotter|Charlottenberg
+C|26770|69|M|Björn Damperud|Charlottenberg
+C|26771|74|K|Astrid Lillevold|Charlottenberg
+C|26772|72|M|Bo Guldbrandsson|Åmotfors
+C|26773|64|K|Evy Andersson|Köla
+C|26774|71|M|Didrik Lillevold|Charlottenberg
+C|26775|54|K|Liselotte Kihlström|Charlottenberg
+C|26776|56|M|Jan Silverås|Charlottenberg
+C|26777|71|K|Ulla Sverrunger|Skillingmark
+C|26778|44|M|Angelo Khallo|Charlottenberg
+C|26779|58|K|Christina Säihke|Eda Kyrkbygd
+C|26780|58|M|Arne Guldbrandsson|Charlottenberg
+C|26781|39|K|Monica Andersson|Charlottenberg
+C|26782|85|M|Sven-Olof Hedell|Koppom
+C|26783|46|K|Mona Älvstrand Karlsson|Charlottenberg
+C|26784|46|M|Sven Arne Arvidsson|Charlottenberg
+C|42673|60|K|Johanna Söderberg|Koppom, 60 år, Sjuksköterska
+C|42674|32|M|Fredrik Karlsson|Klubbchef, Skarbol
+C|42675|64|K|Annika Hugne|Grisbonde, Lunden
+C|42676|72|M|Lars-Eric Andersson|Lantbrukare, Sjögervål
+C|42677|68|K|Sylvia Jonasson|Undersköterska, Lunden
+C|42678|53|M|Carl-Olov Sjöstedt|Eda, 53 år, Mjölkproducent
+C|42679|42|K|Linda Nordling|Sjuksköterska, Ås
+C|42680|63|K|Eva Magnusson Nilsson|Småbrukare, Västra Flogned
+C|42681|26|K|Elsa Badh|Civilekonom, Ås
+C|42682|29|K|Elisabeth Hugne|Agronom, Tollesbyn
+C|42683|75|M|Lennart Brunzell|Pensionär, Charlottenberg
+C|42684|68|K|Böret Segolsson-Knutsson|Företagare, Skarbol
+C|42685|54|M|Jan Brander|Skogsbonde, Lilla Hög
+C|42686|41|K|Amy Persson|Undersköterska, Lunden
+C|42687|77|M|John Badh|Pensionär, Koppom
+C|42688|73|K|Annette Johansson|Pensionär, Ås
+C|42689|68|M|Björn E Olsson|Lantbrukare, Bön
+C|42690|62|K|Annmarie Öjstrand|VA-tekniker, Slärteg
+C|42691|48|M|Jörgen Nilsson|Företagare, Lässerud
+C|42692|66|K|Vivi-Ann Belsing-Wargh|Lågstadielärare, Västra Gryttved
+C|42693|40|K|Jannika Bergström|Köla, 40 år, Sjuksköterska
+C|42694|61|M|Stig Bengtsson|Tekniker, Korsbyn
+C|42695|63|K|Maria Svala|Socionom, Söpple
+C|42696|66|M|Anders Persson|Lantbrukare, Bålstad
+C|42697|49|K|Maria Blomqvist|Handläggare, Flogned
+C|42698|76|M|Leif Johansson|Pensionär, Ås
+C|42699|69|M|Ragnar Eriksson|Pensionär, Kronan
+C|42700|58|K|Maud Nilsson|Chaufför, Västby
+C|435874|58|M|Hans Nilsson|Kommunalråd Eda/ Vit älgfotograf, Koppom
+C|435921|66|M|Bertil Börjeson|Ordför. Vård- och stöd Eda, Skillingmark
+C|474243|44|M|Bo-Inge Nilsson|ordf Kommunfullmäktige, ordf Bildning, signaltekniker, Adolfsfors
+C|474249|81|K|Birgitta Olsson|vice ordf Bildning, Åmotfors
+C|474276|61|K|Margaretha Persson|ordf Folkhälsorådet, ordf Valnämnden, Åmotfors
+C|474634|35|M|Mattias Lindgren|Rörmokare, Skillingmark
+C|474593|55|M|Muwafak Hamami|Bovärd Eda Integrationscenter, Åmotfors
+C|474928|50|M|Tony Persson|Entreprenör, Nolby
+C|474635|44|M|Håkan Olsson|Kyrkogårdsarbetare, Åmotfors
+C|474594|62|M|Kurt Emtman|Fiske- och naturguide, Sundshagen
+C|500083|30|M|Jon Erik Engevold|Nordmann, Koppom
+C|502207|29|K|Kari Staatsen|Verkställande direktör, Ånnebol
+C|503635|63|M|Runar Johansson|Marknadsansvarig, Häljeboda
+C|474930|83|M|Bo Lehresjön|Kulturarbetare, Lersjön
+C|494966|72|M|Arne Persson|Entreprenör, Mellbyn
+C|474931|60|M|Per-Magnus Andersson|Åkeriägare, Lerot
+C|492486|48|M|Tomas Olsson|Butiksmedarbetare bildelar, Koppom
+C|495347|49|M|Peter Lundaby|Lastbilsmekaniker, Älgestad
+C|494954|71|M|Tage Kutt|Pensionär, Gunnerud
+C|500089|72|M|Jens Normann Løvlie|Pensionär, Eda Glasbruk
+C|495631|83|M|Köla-Inge Lindqvist|Pensionär, Charlottenberg
+C|293331|68|M|Anders Gustafsson|undersköterska, Charlottenberg
+C|295090|64|M|Bengt Nilsson|Köla
+C|295091|46|K|Catarina Jansson|enhetschef, Åmotfors
+C|295092|73|M|Kenneth Bodin|Köla
+C|295093|61|M|Per Sjögren|Charlottenberg
+C|295094|37|M|Mikael Nilsson|Köla
+C|31347|67|M|Ola Dahlström|egenföretagare, 66 år, Eda
+C|208563|71|K|Eva Lanvald|Helgeboda
+C|208564|61|M|Sven Olof Sylven|Åmotfors
+C|208565|38|M|Kim Karlsson|Koppom
+C|208566|70|M|Björn Åke Bergman|Charlottenberg
+C|208567|79|M|Lennart Olsson|N:a Fjäll Åtmotfors
+C|208568|69|K|Swea Edman|S:a Fjäll Åmotfors
+C|611|43|K|Hanna Andersson|personskadereglerare, Eda
+C|37061|65|M|Mats-Åke Knutsson|65 år, Småföretagare
+C|37062|26|K|Jasmine Karlsson|26 år, Egen företagare Frisör
+C|37063|59|M|Owe Magnusson|59 år, Ekonomichef
+C|37064|69|K|Gun Andersson|69 år, Pedagog
+C|37066|69|M|Christer Danielsson|69 år, Pensionär
+C|37067|67|M|Tor Andersson|67 år, Egen företagare
+C|37068|60|K|Lotta Hedström|60 år, VD
+C|37070|32|K|Julija Vyte|32 år, Personalansvarig
+C|37071|68|M|Gunnar Andersson|68 år, Konsult
+C|94936|44|M|Stefan Nilsson|Egenföretagare, Eda
+C|94937|51|M|Mikael Johansson|51, Behandlingsassistent, Charlottenberg
+C|94938|68|M|Per-Olof Larsson|68, Pensionär, Eda
+C|94939|47|K|Helena Ringstrand|47, Ekonomiansvarig, Eda
+C|109827|70|M|Johnny Renström|71, Pensionär, Koppom
+C|94940|76|M|Uno Hultman|76, Egen företagare, Charlottenberg
+C|515743|68|M|Bent Kristiansen|
+C|108420|44|M|Nicklas Backelin|Pappersbruksarbetare, Åmotfors
+C|108421|55|K|Eva Aanerud Karlsson|Miljöansvarig, Eda Glasbruk
+C|30307|46|M|Patric Carlsson|46 år, Charlottenberg, undersköterska
+C|108423|61|M|Karl-Erik Backelin|Pappersbruksarbetare, Boda Åmotfors
+C|108424|44|M|Per Dahlman|Pappersbruksarbetare, Åmotfors
+C|108425|50|K|Jannica Jansson|Metallarbetare, Åmotfors
+C|108426|74|M|John Erik Carlsson|Fastighetsmäklare, Charlottenberg
+C|108427|42|M|Per Kullgren|Pappersbruksarbetare, Åmotfors
+C|108428|65|K|Elin Andersson|Undersköterska, Charlottenberg

@@ -1,8 +1,112 @@
-2|30750|6182|30752|30753|30754|30755|30756|30757|30758|30759|30760|30761|30762|30763|30764|30765|30766|30767|30768|30769|30770|6347|30818|30819|30820|30821|30822|30823|30824|30825|30826|30827|30828
-4|194526|194527|194528|194529|194530|194531|194532|194533|194534|194535
-68|314778|314779|314780|314781
-1011|132659|515675
-3|49209|294592|294593|287835|294595|294596|294597|294598|294599|297303|297304|297305|297306|297307|297308|297309|297310|297311|297312
-1|3189|3190|3191|59|3193|3194|3195
-110|75505|75506|75507|75508|75509|75510|75511|75512|75513|75514
-5|211433|16587|287539|211435|211436|211437|211438|211439|211440|211441
+T|Skinnskatteberg
+A|2|30750|6182|30752|30753|30754|30755|30756|30757|30758|30759|30760|30761|30762|30763|30764|30765|30766|30767|30768|30769|30770|6347|30818|30819|30820|30821|30822|30823|30824|30825|30826|30827|30828
+A|4|194526|194527|194528|194529|194530|194531|194532|194533|194534|194535
+A|68|314778|314779|314780|314781
+A|1011|132659|515675
+A|3|49209|294592|294593|287835|294595|294596|294597|294598|294599|297303|297304|297305|297306|297307|297308|297309|297310|297311|297312
+A|1|3189|3190|3191|59|3193|3194|3195
+A|110|75505|75506|75507|75508|75509|75510|75511|75512|75513|75514
+A|5|211433|16587|287539|211435|211436|211437|211438|211439|211440|211441
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|30750|55|K|Lena Lovén Rolén|55 år, Leg. Sjukgymnast
+C|6182|50|M|Tony Bölja|50 år, Skinnskatteberg
+C|30752|57|K|Charlotte Jansson|57 år, Lärare
+C|30753|41|M|Roger Ingvarsson|41 år, Verksamhetsledare
+C|30754|47|K|Eva Anderberg|47 år, Teaterpedagog
+C|30755|62|M|Lars-Göran Fammé|62 år, Elektriker
+C|30756|30|K|Sabine Thungren|30 år, HR-administratör
+C|30757|55|M|Rolf Sass|55 år, Lagerarbetare
+C|30758|67|K|Aneth Arvidsson|67 år, Pensionär
+C|30759|63|M|Klaus Jesse|63 år, Vårdbiträde
+C|30760|75|K|Kerstin Delfalk|75 år, Pensionär
+C|30761|69|M|Pentti Lahtinen|69 år, Pensionär
+C|30762|41|K|Ann-Christin Andersson|41 år, Montör
+C|30763|24|M|Gabriel Andersson|24 år, Kommunikatör
+C|30764|63|K|Helena Nykänen|63 år, Socionom
+C|30765|73|M|Elof Engman|73 år, Pensionär
+C|30766|57|K|Barbara Laaksonen|57 år, Områdeschef
+C|30767|54|M|Per Andersson|54 år, Arbetsmiljösamordnare
+C|30768|55|K|Laila Åberg|55 år, Sjuksköterska
+C|30769|67|M|Lars Andersson|67 år, Pensionär
+C|30770|61|K|Soili Raja-Aho|61 år, Sjuksköterska
+C|6347|69|M|Hans Eric Johansson|69 år, Skinnskatteberg
+C|30818|70|K|Ewa Wikström|70 år, Fd Bildlärare
+C|30819|69|M|Kenneth Ernebrink|69 år, Pensionär
+C|30820|43|K|Cecilia Karlsson|43 år, Lärare
+C|30821|56|M|Sune Bruhn|56 år, Fastighetsskötare
+C|30822|57|K|Rania Sado|57 år, Lokalvårdare
+C|30823|50|M|Ricky Sten|50 år, Industriarbetare
+C|30824|69|K|Monica Ladhman|69 år, Pensionär
+C|30825|48|K|Yvonne Ladman|48 år, Undersköterska
+C|30826|73|K|Katarina Holm|73 år, Pensionär
+C|30827|39|K|Karolina Pikkuaho|39 år. Leg. Sjuksköterska
+C|30828|68|K|Gun Karlsson|68 år, Pensionär
+C|194526|46|K|Helena Norrby|Småföretagare, Skinnskatteberg
+C|194527|69|M|Ulf Kjellin|Företagare, Skinnskatteberg
+C|194528|76|M|Rolf Andersson|Lantbrukare, Sillbo
+C|194529|62|K|Sonja Råberg|Barnskötare, Solmyra
+C|194530|62|K|Ylva Eriksson|Enhetschef, Skinnskatteberg
+C|194531|75|K|Gunilla Persson|Diakon, Uttersberg
+C|194532|44|M|Anders Andersson|Egenföretagare, Skinnskatteberg
+C|194533|77|M|Bengt Persson|f.d Lantbrukare, Uttersberg
+C|194534|76|K|Barbro von Walden|Egenföretagare, Bernshammar
+C|194535|78|M|Åke Fransson|Lantbrukare, Plöjningen
+C|314778|37|M|Johan Hådén|Entreprenör, Högfors
+C|314779|44|K|Cathy Karlsson|Maskinförare, Riddarhyttan
+C|314780|65|M|Veli-Matti Sorvari|Flyglärare, Hed
+C|314781|38|K|Kittika Wimon|Mammaledig, Högfors
+C|132659|52|M|Lars Matsson|Skogsinspektor, Västmanland
+C|515675|57|K|Irene Björklund|
+C|49209|47|K|Carina Sándor|kommunalråd, Skinnskatteberg
+C|294592|42|M|Tobias Jarstorp|Riddarhyttan
+C|294593|68|K|Elisabeth Åberg|Skinnskatteberg
+C|287835|78|M|Anders Nordenbris|78, pensionär, Skinnskatteberg
+C|294595|84|K|Vanja Leneklint|Skinnskatteberg
+C|294596|52|K|Susanne Karlsson|Färna
+C|294597|81|K|Solveig Hammarström|Färna
+C|294598|53|M|Warja Rafik|Skinnskatteberg
+C|294599|46|K|Anna-Lena Lundén|Skinnskatteberg
+C|297303|76|M|Jan Lejon|Skinnskatteberg
+C|297304|66|M|Kjell Andersson|Skinnskatteberg
+C|297305|73|K|Margareta Nordenbris|Skinnskatteberg
+C|297306|56|M|Roger Karlsson|Färna
+C|297307|25|M|Rasmus Karlsson|Färna
+C|297308|72|K|Kristina Bergstedt|Karmansbo
+C|297309|76|M|Hjalmar Hammarström|Färna
+C|297310|87|K|Aina Ek|Skinnskatteberg
+C|297311|84|K|Eva Turén|Skinnskatteberg
+C|297312|73|K|Anita Carlsson|Skinnskatteberg
+C|3189|61|M|Bo Öberg|Skinnskatteberg
+C|3190|56|M|Staffan Strid|Företagare, Skinnskatteberg
+C|3191|46|K|Angelique Nyström|Solmyra
+C|59|53|K|Pernilla Danielsson|Ekonom, Skinnskatteberg
+C|3193|47|M|Patric Gålbom|Solmyra
+C|3194|82|M|Sture Bäcklund|Godkärra
+C|3195|75|M|Björn Eijre|Getbro
+C|75505|55|K|Ewa Olsson Bergstedt|Egenföretagare, Skinskatteberg
+C|75506|37|M|Oscar Sjöstedt|Nationalekonom, Skinnskatteberg
+C|75507|59|K|Birgit Barchiesi|stansoperatör och egenföretagare
+C|75508|38|M|Jonny Emtin|egenföretagare
+C|75509|43|M|Pär Hultman|IT-tekniker
+C|75510|49|K|Sari von Walden|industriarbetare
+C|75511|69|M|Vesa Koskelainen|pensionär
+C|75512|19|K|Cecilia Olsson Bergstedt|studerande
+C|75513|28|K|Therese Lövdahl|konditor
+C|75514|64|M|Torgny Roxell|pensionär
+C|211433|46|M|Fredrik Skog|
+C|16587|52|K|Helena Cederberg|52, biståndshandläggare, Skinnskatteberg
+C|287539|25|K|Anna Werner|
+C|211435|68|K|Agneta C Lundberg|
+C|211436|70|M|Kent Abrahamsson|
+C|211437|40|K|Nettan Roth|
+C|211438|71|M|Jörgen Andersson|
+C|211439|65|K|Elisabeth Skog|
+C|211440|69|M|Bertil Skog|
+C|211441|65|K|Ingrid Sköldin|

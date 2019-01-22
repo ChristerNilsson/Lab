@@ -1,9 +1,140 @@
-2|285039|285040|285041|285042|285043|285044|285045|285046|285047|285048|285049|285050|285051|285052|285053|285054|285055|285056|285057|285058|285059|285060|285061|285062|285063|285064
-4|196489|197900|197901|197669|197903|197686|197704|197906|197907|197908|197909|197910|197911|197912|197913|197914|197915|197916|197917|197918
-532|504561|504562|504563|504564|504565
-68|515979
-3|2592|4820|11830|4821|4822|2181|4824|4825|4828
-55|186296|186297|186298|186299|186300|186301|186302|186303|186304
-1|9984|10129|97049|97050|97051|97052|97053|10010|9995|10162|10176|97058|97059|97060|97061|10158|97063|97064|97065|97066|97067|97068|97069|97070|97071|97072|97073|97074|515979
-110|23648|23649|23650|23651|23652|23653|23654|515979
-5|34024|12110|34026|34027|34028|34029|34030|34031|34032|34033|34034|34035|34036|34037|34038|34039
+T|Gnesta
+A|2|285039|285040|285041|285042|285043|285044|285045|285046|285047|285048|285049|285050|285051|285052|285053|285054|285055|285056|285057|285058|285059|285060|285061|285062|285063|285064
+A|4|196489|197900|197901|197669|197903|197686|197704|197906|197907|197908|197909|197910|197911|197912|197913|197914|197915|197916|197917|197918
+A|532|504561|504562|504563|504564|504565
+A|68|515979
+A|3|2592|4820|11830|4821|4822|2181|4824|4825|4828
+A|55|186296|186297|186298|186299|186300|186301|186302|186303|186304
+A|1|9984|10129|97049|97050|97051|97052|97053|10010|9995|10162|10176|97058|97059|97060|97061|10158|97063|97064|97065|97066|97067|97068|97069|97070|97071|97072|97073|97074
+A|110|23648|23649|23650|23651|23652|23653|23654
+A|5|34024|12110|34026|34027|34028|34029|34030|34031|34032|34033|34034|34035|34036|34037|34038|34039
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|285039|34|M|Johan Rocklind|34 år Kommunalråd Gnesta
+C|285040|42|K|Annika Eriksson|42 år Ombudsman Gnesta
+C|285041|45|M|Sami Smedberg|45 år Byggnadsarbetare
+C|285042|59|K|Therese Alwert|59 år Lärare
+C|285043|66|M|Anders Oscarsson|66 år Senior
+C|285044|65|K|Inger Johansson|65 år Specialpedagog
+C|285045|37|M|Jesper Hammarlund|37 år Möbelsnickare Gnesta
+C|285046|31|K|Linda Lundin|31 år Redovisningsekonom
+C|285047|47|M|Harke Steenbergen|47 år Rektor
+C|285048|66|K|Annette Furå|66 år Brevbärare
+C|285049|39|M|Leif Figaro|39 år Industriarbetare
+C|285050|56|K|Jane Löfstrand|56 år Gnesta
+C|285051|36|M|Peter Bernhardsson|37 år Lärare
+C|285052|47|K|Mirja E Sigfalk|47 år Föreningskonsulent
+C|285053|71|M|Jonny Karlsson|71 år Möbelsnickare
+C|285054|72|K|Ingrid Feldt|72 år Bibliotekarie
+C|285055|76|M|Ulf Bergner|76 år Ingenjör
+C|285056|47|K|Maria Nilsson|47 år Badmästare
+C|285057|72|M|Börje Johansson|72 år Senior Gnesta
+C|285058|75|K|Yvonne Norling Blomgren|75 år Husmor
+C|285059|33|M|Nicklas Rocklind|34 år Snickare
+C|285060|37|K|Petra Lindström|37 år Lärare
+C|285061|77|M|Bruno Jervfors|77 år Lantmäteriingenjör
+C|285062|32|K|Mari Åkerlind|32 år Butiksbiträde
+C|285063|70|M|Kjell Rimsberg|70 år Pensionär
+C|285064|72|K|Eva Johansson Schelin|72 år Volontär
+C|196489|59|M|Håkan Ekstrand|59 år,Landsbygdsföretagare,Gnesta
+C|197900|58|K|Mari Klasson|58år,Leg.sjuksköterska,Kalkbacken,Gnesta
+C|197901|38|M|Erik Granqvist|38år,Verkstadschef,Hällesta,Gnesta
+C|197669|31|K|Elin Ekstrand|31 år,leg.sjuksköterska,Gnesta
+C|197903|33|M|Andreas Andersson|33år,Lantbrukare,Blacksta,Gåsinge
+C|197686|75|K|Ingalill Fredriksson|75 år,Lantbrukare,Gnesta
+C|197704|63|M|Mats Klasson|63 år,Parkchef,Gnesta
+C|197906|54|M|Axel Bodin|54år,Företagare,Kyrkvägen,Stjärnhov
+C|197907|57|K|Lena Östling Andersson|57år,Kyrkoskrivare,Ekeby,Björnlunda
+C|197908|53|K|Anna Gunnarsson Ahlberg|53år,Familjestödjare,Yttervalla,Gnesta
+C|197909|61|M|Alf Hedlund|61år,Lantbrukare,Hässelby,Stjärnhov
+C|197910|51|M|Per Andersson|51år,Lantbrukare,Äspetorp,Stjärnhov
+C|197911|72|M|Sören Granberg|72år,Entreprenör,Hällesta,Gnesta
+C|197912|55|M|Anders G Pettersson|55år,Kemist,Smedsta,Gnesta
+C|197913|68|M|Dick Olausson|68år,Deltidspensionär,Avla By,Gåsinge
+C|197914|41|K|Miyako Soeda Thornton|41år,Head of Digital Marketing,Hallebro,Gnesta
+C|197915|59|K|Kerstin Pettersson|59år,Bildkonstnär,Laxne,Gåsinge
+C|197916|40|M|Jonas Öberg|40år,Företagare,Åsgatan,Gnesta
+C|197917|59|M|Per Dellrud|59år,Landsbygdsföretagare,Hallsta,Gåsinge
+C|197918|72|K|Lill Björk|72år,Gymnasielärare,Folkdansvägen,Gnesta
+C|504561|37|K|Anja Probst|Dramapedagog
+C|504562|49|M|Johan Wahlström|Managementkonsult
+C|504563|34|K|Kim Silow Kallenberg|Forskare och högskolelektor
+C|504564|40|K|Heidi Nousiainen|Ombudsman/förhandlare
+C|504565|31|K|Ebba Sellén|Miljökonsult
+C|515979|65|M|Per Lundin|
+C|2592|53|K|Camilla Lissner|kulturgeograf, Gnesta
+C|4820|74|K|Sarah Kinberg|samhällsbyggn.politiker, Stjärnhov
+C|11830|71|M|Christer Lagergren|civilekonom/fil.mag/författare, Jälund
+C|4821|52|K|Marie Mlakar Nyberg|rektor, Gnesta
+C|4822|47|M|Iraj Bagher Zadeh|lärare, Gnesta
+C|2181|76|K|Kerstin Grenthe|lärare, Stjärnhov/Gnesta
+C|4824|76|M|Anders Carlsson|datatekniker, Stjärnhov
+C|4825|74|M|Bengt Nordin|företagsledare, Stjärnhov
+C|4828|78|K|Marian Ahlberg|kyrkvärd, Ånhammar
+C|186296|40|M|Gustav Edman|småföretagare, Gnesta
+C|186297|50|K|Eva Skyllberg|arkeolog, Björnlunda
+C|186298|61|K|Gunilla Louwerens|handledare, Gnesta
+C|186299|43|M|Carl Werner|fil kand, 43 år, Gnesta
+C|186300|66|K|Marja Kiander|socialterapeut, Gnesta
+C|186301|34|M|Linus Källander|tjänsteman, Gnesta
+C|186302|58|M|Per Skyllberg|översiktsplanerare, Gnesta
+C|186303|53|K|Susanne Mihlberg|sjukskriven, Laxne
+C|186304|74|M|Lars-Göran Winqvist|pensionär, Stjärnhov
+C|9984|42|K|Ann-Sofie Lifvenhage|kommunalråd, Gnesta
+C|10129|70|K|Ingrid Jerneborg Glimne|senior, Gnesta
+C|97049|56|M|Kim Jarl|företagare
+C|97050|36|K|Anna Ekström|kundmarknadschef
+C|97051|72|M|Sven Andersson|pensionär
+C|97052|71|K|Sibylle Ekengren|lärare
+C|97053|47|K|Karin Braathen Gustavsson|kvalitetssamordnare
+C|10010|41|M|Mattias Eldros|konsult, Gnesta
+C|9995|71|M|Dan Glimne|speluppfinnare, Gnesta
+C|10162|41|K|Rebecka Sahlman|barnmorska, Gnesta
+C|10176|61|M|Astor Pettersson|projektledare, Gnesta
+C|97058|68|K|Anita Bell|barnmorska
+C|97059|42|K|Pernilla Lövström|småföretagare
+C|97060|46|K|Viktoria Dengg|försäkringsförmedlare
+C|97061|49|M|Thomas Gustavsson|företagare
+C|10158|38|M|Vasil Pema|distriktsläkare, Gnesta
+C|97063|81|M|Åke Nilsson|ingenjör
+C|97064|70|M|Anders Norström|agronom
+C|97065|68|M|Per Beskow|chaufför
+C|97066|73|M|Bo Eklund|försäljningschef
+C|97067|38|M|Mikael Sönner|läkare
+C|97068|24|K|Elin Schwerin|frisör
+C|97069|26|M|Martin Ahlstrand|mångsysslare
+C|97070|42|M|Johan Sahlman|key account manager
+C|97071|45|M|Peter Lifvenhage|lärare/brandmästare
+C|97072|30|M|Felix Jarl|produktionschef
+C|97073|68|K|Catharina Norberg|arbetsterapeut
+C|97074|60|M|Sten Hovmark|ingenjör
+C|23648|42|K|Pernilla Rydberg|42 år, Laboratorietekniker
+C|23649|44|M|Christian Tomtlund|43, Egenföretagare VVS, Gnesta
+C|23650|48|M|Tomas Ingberg|48 år, Byggentreprenör
+C|23651|52|M|Krister Ekberg|52, Teamledare, Stjärnhov
+C|23652|67|M|Krister Westman|67, Pensionär, Stjärnhov
+C|23653|63|M|Lars Allstadius|63, Chaufför, Gnesta
+C|23654|81|M|Göran Ehrenhorn|81, Pensionär, Malmsjöstugan
+C|34024|50|M|Anders Simme|50, Socialarbetare, Gnesta
+C|12110|71|K|Lena Staaf|71, Socialarbetare, Gnesta
+C|34026|70|M|Benny Åberg|71, Pensionär, Gnesta
+C|34027|68|K|Birgitta Fredriksson|68, F.d. lärare, Björnlunda
+C|34028|66|M|Alberto Castro|55, Arkitekt, Björnlunda
+C|34029|69|K|Kerstin Löfgren|69, F.d. handläggare, Gnesta
+C|34030|57|M|Sven Vestblom|57, Behandlingsassistent, Gnesta
+C|34031|66|K|Ann-Christine Höök|66, Folkbildare, Gnesta
+C|34032|54|M|Kent Eriksson|54, SYO-konsulent, Gnesta
+C|34033|38|K|Kristina Åberg|38, Waldorfförskollärare, Björnlunda
+C|34034|54|K|Monika Jansson|54, Utredare, Björnlunda
+C|34035|19|M|Haidar Radi|19, Egenföretagare, Gnesta
+C|34036|55|K|Carina Lundqvist|55, Receptionist, Gnesta
+C|34037|60|K|Annica Lundgren|60, Jourhemsförälder, Stjärnhov
+C|34038|67|K|Milica Brecevie|67, Pensionär, Gnesta
+C|34039|70|M|Rolf Hals|70, Pensionär, Björnlunda

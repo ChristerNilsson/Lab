@@ -1,9 +1,145 @@
-2|77179|77180|77181|77182|77183|77184|77185|77186|77187|77188|77189|77190|77191|77192|77193|77194|77195|77196|77197|77198|77199|77200|77201|77202
-4|2944|5414|5415|3115|2969|5418|5419|5420|5421|5422|5423|2968|5425|5426|5427|5428|5429|5430|5431|5432|5433|5434|5435|5436|5437|5438|5439|5440|5441|5442|5443|5444|5445|5446|5447
-68|274724|274733|491786|515392
-1011|131842|237105|237106|237107|237108|237109|237110|237111|237112|237113|237114|237115|237116|237117|237118|237119|237120|237121|237122|237123|237124|237125|237126|237127|237128
-3|237880|237881|237882|237883|237884|237885|237886
-55|74076|74876|493062
-1|253891|255474|254307|255476|253896|255478|255479|255480|255481|255482|255483|255485|255486|255487|255488|255490
-110|66223|66224|66225|66226|66227|66228|66229|66230|66231|66232
-5|24734|71308
+T|Svenljunga
+A|2|77179|77180|77181|77182|77183|77184|77185|77186|77187|77188|77189|77190|77191|77192|77193|77194|77195|77196|77197|77198|77199|77200|77201|77202
+A|4|2944|5414|5415|3115|2969|5418|5419|5420|5421|5422|5423|2968|5425|5426|5427|5428|5429|5430|5431|5432|5433|5434|5435|5436|5437|5438|5439|5440|5441|5442|5443|5444|5445|5446|5447
+A|68|274724|274733|491786|515392
+A|1011|131842|237105|237106|237107|237108|237109|237110|237111|237112|237113|237114|237115|237116|237117|237118|237119|237120|237121|237122|237123|237124|237125|237126|237127|237128
+A|3|237880|237881|237882|237883|237884|237885|237886
+A|55|74076|74876|493062
+A|1|253891|255474|254307|255476|253896|255478|255479|255480|255481|255482|255483|255485|255486|255487|255488|255490
+A|110|66223|66224|66225|66226|66227|66228|66229|66230|66231|66232
+A|5|24734|71308
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|77179|60|M|Stefan Karlsson|
+C|77180|67|K|Lisbeth Jacobsson|Hillared
+C|77181|70|M|Dan Franzén|Svenljunga
+C|77182|67|K|Mary-Ann Brimstedt|
+C|77183|64|M|Dag Forsström|Sexdrega
+C|77184|65|K|Kerstin Göss Lindh|Karkashult
+C|77185|43|M|Patrik Harrysson|Svenljunga
+C|77186|71|K|Ann-Marie Franzén Molin|Fotvårdsspecialist, Svenljunga
+C|77187|67|M|Torsten Lindh|Pensionär, Svenljunga
+C|77188|77|K|Birgitta Boo|Hillared
+C|77189|63|M|Per Bornefalk|Ullasjö
+C|77190|54|K|Anette Almgren|Svenljunga
+C|77191|72|M|Ingbert Haraldsson|Svenljunga
+C|77192|45|K|Helene Johnsson|Svenljunga
+C|77193|46|M|Tommy Falk|Svenljunga
+C|77194|54|K|Marie Hellstenius Flannagan|Mjöbäck
+C|77195|57|K|Gunnel Johansson|Svenljunga
+C|77196|77|M|Mauno Lundin|Svenljunga
+C|77197|32|K|Petra Berg|Mjöbäck
+C|77198|76|M|Gerhard Johansson|Svenljunga
+C|77199|62|M|Peter Bouvin|Svenljunga
+C|77200|66|K|Sidsel Kristiansen|Svenljunga
+C|77201|60|M|Jan Axell|Mjöbäck
+C|77202|79|M|Klas Göran Elvin|Kalv
+C|2944|59|K|Eva Johansson|59 år, Kalv
+C|5414|65|M|Bernt Andersson|65 år, bilreparatör, Håcksvik
+C|5415|62|K|Barbro Johansson|62 år, lantbrukare, Sexdrega
+C|3115|41|K|Petra Ojala|41 år, Örsås
+C|2969|52|M|Tommy Stensson|52 år, Håcksvik
+C|5418|52|K|Ann-Louise Karlsson|52 år, fritidsledare, Östra Frölunda
+C|5419|55|M|Inge Salomonsson|56 år, arbetsledare, Sexdrega
+C|5420|49|M|Christer Wolgner|49 år, kyrkogårdsvaktmästare, Svenljunga
+C|5421|54|K|Britt-Marie Stensson|53 år, företagare, Håcksvik
+C|5422|62|M|Ernst Gustafsson|62 år, verksamhetsutvecklare, Svenljunga
+C|5423|76|K|Anita Ottosson|76 år, pensionerad vårdlärare, Mårdaklev
+C|2968|41|K|Helene Jansson|41 år, Östra Frölunda
+C|5425|72|M|Anders Leijonhielm|72 år, f.d bankdirektör, Svenljunga
+C|5426|34|K|Manda Schillerås|34 år, landsbygdsutvecklare, Svenljunga
+C|5427|50|K|Susanne Pohl Lilja|50 år, busschaufför, Örsås
+C|5428|52|K|Catrin Wolgner|52 år, kultursekreterare, Svenljunga
+C|5429|54|M|Per Larsson|53 år, lantbrukare, Ullasjö
+C|5430|45|K|Therese Söderlind|44 år, fritidsledare, Holsjunga
+C|5431|75|M|Rune Peterson|70 år, pensionär, Svenljunga
+C|5432|45|M|Erik Johansson|46 år, vaktmästare, Håcksvik
+C|5433|47|M|Stefan Brorsson|47 år, konstruktör, Mjöbäck
+C|5434|50|M|Anders Selfors|50 år, affärsutvecklare, Mjöbäck
+C|5435|53|M|Anders Lennström|53 år, företagare, Östra Frölunda
+C|5436|44|M|Markus Bylander|44 år, fabrikschef, Svenljunga
+C|5437|72|M|Kaj Brorsson|72 år, pensionerad snickare, Mjöbäck
+C|5438|68|K|Anita Kristensson|67 år, pensionär, Östra Frölunda
+C|5439|70|K|Unni Eliasson|70 år, pensionär, Roasjö
+C|5440|28|M|Johan Samuelsson|29 år, banktjänsteman, Kalv
+C|5441|74|M|Lars Hedin|73 år, ingenjör, Holsjunga
+C|5442|49|M|Joakim Bengtsson|49 år, lastbilschaufför, Håcksvik
+C|5443|28|K|Mona Johansson|28 år, fritidspedagog, Sexdrega
+C|5444|24|M|Malte Svensson|23 år, studerande, Örsås
+C|5445|43|M|Fredrik Stenbäcken|43 år, lastbilschaufför, Holsjunga
+C|5446|54|M|Björn Johansson|54 år, skogsinspektör, Roasjö
+C|5447|57|K|Anita Sjöberg|56 år, barnskötare, Kalv
+C|274724|47|M|Fredrik Skott|47, Pastor, Svenljunga
+C|274733|62|M|Stig Nilsson|62, Lagerarbetare, Svenljunga
+C|491786|36|K|Caroline Pritchard Swedengren|35, Vårdlärare, Sexdrega
+C|515392|30|M|Robert Simonovic|
+C|131842|41|K|Monica Björsell|Egenföretagare, Västra Götaland
+C|237105|58|M|Bertil Hagström|Sexdrega
+C|237106|62|K|Ann Wallnedal|Mårdaklev
+C|237107|75|M|Jarl Bill|Karkashult
+C|237108|55|M|Thomas Carlsson|Revesjö
+C|237109|24|K|Susanna Johansson Ny|Ebbarp
+C|237110|61|M|Alain Waern|Svenljunga
+C|237111|66|M|Lennart Eriksson|Mjöbäck
+C|237112|55|K|Ann-Helene Cederholm|Svenljunga
+C|237113|47|M|Per Backlund|Roasjö
+C|237114|36|M|Lars-Erik Lundahl|Roasjö
+C|237115|38|K|Michaela Williamson|Hillared
+C|237116|47|M|Daniel Svensson|Ullasjö
+C|237117|46|K|Lone Holm Olesen|Håcksvik
+C|237118|72|M|Göran Andersson|Roasjö
+C|237119|42|M|Johan Björsell|Svenljunga
+C|237120|70|M|Bertil Johansson|Sexdrega
+C|237121|55|K|Angela Jönsson|Mjöbäck
+C|237122|78|M|Eckard Klug|Örsås
+C|237123|40|M|Christian Bengtsson|Holsljunga
+C|237124|23|K|Ida Eriksson|Mjöbäck
+C|237125|74|M|Gösta Johansson|Svenljunga
+C|237126|57|K|Lena Hammarstrand|Holsljunga
+C|237127|77|M|Claes Göran Claesson|Holsljunga
+C|237128|76|M|Lars-Erik Eriksson|Svenljunga
+C|237880|63|M|Peter Kobbe|64, företagare, Svenljunga
+C|237881|44|M|Jari Palo-oja|44, tryckare, Svenljunga
+C|237882|73|K|Eva Johansson|73 år, stödpersonal LSS, Svenljunga
+C|237883|75|M|Owe Lundin|75, egenföretagare, Svenljunga
+C|237884|65|K|Marita Karlsson|66, enhetschef, Svenljunga
+C|237885|59|M|Lars-Göran Rudin|59 år, undersköterska, Sexdrega
+C|237886|53|M|Nicklas Odéen|54 år, Svenljunga
+C|74076|69|K|Marianne Josefsson|69 år, Svenljunga
+C|74876|34|K|Johanna Westerlund|34 år, Undersköterska, Svenljunga
+C|493062|57|K|Annicka Kilberg|Kulturhantverkare, Gyminstruktör, Holsjunga
+C|253891|53|M|Johan Björkman|53, Provningsingenjör, Hillared
+C|255474|62|M|Kjell Persson|62, Hillared
+C|254307|73|K|Margaretha Bjälkemo|73, Pensionär, Svenljunga
+C|255476|18|M|Martin Due|18, Sexdrega
+C|253896|47|M|Jonas Alm|47, Affärsutvecklare, Svenljunga
+C|255478|68|M|Per Ekelund|68, Svenljunga
+C|255479|51|M|Bo Nordström|51, Svenljunga
+C|255480|47|M|Roger Axelsson|47, Svenljunga
+C|255481|50|M|Urban Nylén|50, Svenljunga
+C|255482|43|K|Malin Lundin|43, Holsljunga
+C|255483|50|K|Yvette Nordström|50, Svenljunga
+C|255485|71|M|Roger Edberg|71, Uddebo
+C|255486|72|M|Hans Lundin|72, Holsljunga
+C|255487|55|M|Christian Due|55, Sexdrega
+C|255488|62|M|Jan Uddgren|62, Svenljunga
+C|255490|78|K|Britt Marie Råvik|78, Svenljunga
+C|66223|67|M|Christer Schönander|67, Pensionär
+C|66224|43|M|Patrik Thorén|lantbrukstekniker, 43 år
+C|66225|58|K|Anna-Karin Örni|boendestödjare, 58 år
+C|66226|80|M|Roger Gyllensten|80, Pensionär
+C|66227|37|M|Peter Elofsson|37, Maskinförare
+C|66228|58|K|Susanne Lindström|57, Pensionär
+C|66229|62|M|Jan Örni|metallarbetare, 62 år
+C|66230|65|M|Lars-Åke Engström|taxichaufför, 65 år
+C|66231|75|M|Kjell Persson|75, Pensionär
+C|66232|62|M|Gert Månsson|62, egenföretagare
+C|24734|51|M|Robert Klerfors|51 år, idrottsplatsarbetare, Kalv
+C|71308|49|K|Emma Baster|49 år, personlig assistent, Svenljunga

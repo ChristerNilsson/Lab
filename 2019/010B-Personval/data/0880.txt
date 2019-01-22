@@ -1,10 +1,341 @@
-2|170205|19598|9069|170208|170209|170210|19573|19600|170213|170214|9073|170216|170217|170218|170219|170220|170221|170222|170223|170224|170225|19590|170227|9076|170229|170230|170231|170232|170233|170234|170235|170236|170237|170238|170239|9070|170241|170243|170244|170245|170246|170247|170248|170249|170250|170251|170252|170253|170254|170255|170256|170257|9072|170259|170260|170261|170262|170263|9074|170265|170266|170267|9078|170269|170270|170271|9080|170273|170274|170275|170276
-4|313799|313800|313801|313802|313803|313804|301052|313806|300933|313808|313809|313810|300927|300926|313813|313814|300922|313816|313817|313818|300928|313820|313821|313822|300920|313824|313825|313826|313827|313828|300925|313830|313831|313832|313833|313834|313835|300930|313837|313838|313839|313840|313841|300931|313843|313844|300924|313846|313847|313848|313849|300921|313851|313852|313853|313854|313855|313856|313857|313858
-1150|511140|515797
-532|219338|296373|296374|296375|296376|296377|296378|296379|296380
-68|25232|37689|25242|37681|47931|37684|47933|37682|25237|47936|37680|37686|47939|37683|47941|47942|25245|37688|37676|37690|47948|47949|47951|37558|37687
-3|235007|49207|201206|201211|235011|235012|201210|235014|201207|201213|235017|235018|201212|201218|235021|201214|201203|201215|235025|235026|201216|201217|201208|201219|235031
-55|161299|161300|161301|161302|161303|161305|161306|161307|161308|161309|161310|161311|161312|161313|161314|161315|161316|161317|161318|161319
-1|161320|161321|160597|161323|158886|161325|161326|161327|160602|161329|161330|161331|160595|158880|160587|158897|161336|161337|158899|161339|161340|161341|161342|160601|161344|161345|161346|161347|160580|161349|158902|161351|161352|161354|161355|161356|161357|161358|161359
-110|60719|60720|60721|60722|60723|60724|60725|60726|60727|60728|60729|60730|60731|60732|60733|60734|60735|60736|60737|60738|60739|60740|60741|60742|60743|60744|60745|60746|60747|60748|60749|60750
-5|368381|361089|368383|368384|361086|368386|368387|368388|407180|368390|368391|361083|368393|368394|368395|368396|368397|368398|368399|361087|442411|361091|368403|368404|368405|368406|361080|368408|368409|368410|368411|368412|368413|368414|368415|368416|368417|368418
+T|Kalmar
+A|2|170205|19598|9069|170208|170209|170210|19573|19600|170213|170214|9073|170216|170217|170218|170219|170220|170221|170222|170223|170224|170225|19590|170227|9076|170229|170230|170231|170232|170233|170234|170235|170236|170237|170238|170239|9070|170241|170243|170244|170245|170246|170247|170248|170249|170250|170251|170252|170253|170254|170255|170256|170257|9072|170259|170260|170261|170262|170263|9074|170265|170266|170267|9078|170269|170270|170271|9080|170273|170274|170275|170276
+A|4|313799|313800|313801|313802|313803|313804|301052|313806|300933|313808|313809|313810|300927|300926|313813|313814|300922|313816|313817|313818|300928|313820|313821|313822|300920|313824|313825|313826|313827|313828|300925|313830|313831|313832|313833|313834|313835|300930|313837|313838|313839|313840|313841|300931|313843|313844|300924|313846|313847|313848|313849|300921|313851|313852|313853|313854|313855|313856|313857|313858
+A|1150|511140|515797
+A|532|219338|296373|296374|296375|296376|296377|296378|296379|296380
+A|68|25232|37689|25242|37681|47931|37684|47933|37682|25237|47936|37680|37686|47939|37683|47941|47942|25245|37688|37676|37690|47948|47949|47951|37558|37687
+A|3|235007|49207|201206|201211|235011|235012|201210|235014|201207|201213|235017|235018|201212|201218|235021|201214|201203|201215|235025|235026|201216|201217|201208|201219|235031
+A|55|161299|161300|161301|161302|161303|161305|161306|161307|161308|161309|161310|161311|161312|161313|161314|161315|161316|161317|161318|161319
+A|1|161320|161321|160597|161323|158886|161325|161326|161327|160602|161329|161330|161331|160595|158880|160587|158897|161336|161337|158899|161339|161340|161341|161342|160601|161344|161345|161346|161347|160580|161349|158902|161351|161352|161354|161355|161356|161357|161358|161359
+A|110|60719|60720|60721|60722|60723|60724|60725|60726|60727|60728|60729|60730|60731|60732|60733|60734|60735|60736|60737|60738|60739|60741|60742|60743|60744|60745|60746|60747|60748|60749|60750
+A|5|368381|361089|368383|368384|361086|368386|368387|368388|407180|368390|368391|361083|368393|368394|368395|368396|368397|368398|368399|361087|442411|361091|368403|368404|368405|368406|361080|368408|368409|368410|368411|368412|368413|368414|368415|368416|368417|368418
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|170205|44|M|Johan Persson|Kommunalråd, Bjursnäs, 44 år
+C|19598|55|K|Dzenita Abaza|kommunalråd, Kalmar, 55 år
+C|9069|43|M|Mattias Adolfson|ombudsman, Rinkabyholm, 43 år
+C|170208|51|K|Marie Simonsson|Undersköterska, Kalmar, 51 år
+C|170209|54|M|Roger Holmberg|Controller, Malmen, 54 år
+C|170210|51|K|Marianne Dahlberg|Beteendevetare, Kalmar, 51 år
+C|19573|53|M|Michael Ländin|IT-företagare, Kalmar, 53 år
+C|19600|51|K|Annika Brodin|socionom, Kalmar, 51 år
+C|170213|65|M|Nasim Malik|Projektledare, Smedby, 65 år
+C|170214|30|K|Elisabeth Heimark Sjögren|Föräldraledig,Vassmolösa, 30 år
+C|9073|63|M|Steve Sjögren|politiker, Rinkabyholm, 63 år
+C|170216|58|K|Anette Lingmerth|Enhetschef, Påryd, 58 år
+C|170217|43|M|Lasse Johansson|Egen företagare, Kalmar, 43 år
+C|170218|37|K|Anna Thore|Hållbarhetsstrateg, Boholmarna, 37 år
+C|170219|73|M|Roger Kaliff|Kommunfullmäktigeordförande, Kalmar, 73 år
+C|170220|68|K|Mona Jeansson|Senior, Kalmar, 68 år
+C|170221|43|M|Ola Erlandsson|Tekniker, Rockneby, 43 år
+C|170222|69|K|Ann-Marie Engström|Kalmar, 69 år
+C|170223|40|M|Magnus Uhr|vd/skogsarbetare, Påryd, 40 år
+C|170224|69|K|Kristina Podolak-Andersson|Konstruktör, Kalmar, 69 år
+C|170225|69|M|Mats Nyblom|f.d. rektor, Drag, 69 år
+C|19590|28|K|Tove Jansson|lärare, Kalmar, 28 år
+C|170227|70|M|Magnus Lundén|f.d. radiojournalist, Smedby, 70 år
+C|9076|35|K|Helena Olsson|account manager, Rinkabyholm, 35 år
+C|170229|40|M|Daniel Abrahamsson|Kurator, Smedby, 40 år
+C|170230|45|K|Anna Johansson|Personlig assistent, Funkabo, 45 år
+C|170231|41|M|Fredrik Persson|Politisk sekreterare, Tegelviken, 41 år
+C|170232|51|K|Maria Kehagia|Mental coach, Kalmar, 51 år
+C|170233|59|M|Gunnar Nilsson|Operatör, Läckeby, 59 år
+C|170234|69|K|Gunilla Johansson|Pensionär, Drag, 69 år
+C|170235|44|M|Linus Hellman|Ombudsman/lärare, Norrgård, 44 år
+C|170236|48|K|Veronica Selén Eriksson|Undersköterska, Lindsdal, 48 år
+C|170237|45|M|Daniel Modée|Undersköterska, Kalmar, 45 år
+C|170238|53|K|Eva-Lena Österljung|Kontorschef Kommunal, Rinkabyholm, 53 år
+C|170239|61|M|Stig Persson|Säljare/jobbcoach, Bremerlyckan, 61 år
+C|9070|52|K|Marie Fransson|civilekonom, Berga, 52 år
+C|170241|50|M|Jussi Gröhn|Ombudsman, Berga, 50 år
+C|170243|26|M|Felix Brundin|Undersköterska, Kalmar, 26 år
+C|170244|52|K|Ylva Hällblad|Frisör, Funkabo, 52 år
+C|170245|74|M|Ingvar Nilsson|f.d. metallarbetare, Kalmar, 74 år
+C|170246|74|K|Inger Henriksson|Pensionär, Kalmar, 74 år
+C|170247|51|M|Peter Olofsson|HR, Norrliden, 51 år
+C|170248|72|K|Eva Jarstad|Specialpedagog, Kalmar, 72 år
+C|170249|29|M|Robin Dahlin Appelqvist|Verksamhetsutvecklare, Kalmar, 29 år
+C|170250|49|K|Pernilla Andersson|Undersköterska, Kalmar, 49 år
+C|170251|64|M|Jens Ison Thoor|Företagare, Kalmar, 64 år
+C|170252|51|K|Leila Perikala|Konstnär, Kalmar, 51 år
+C|170253|63|M|Sven-Erik Ekblad|Datatekniker, Kalmar, 63 år
+C|170254|44|K|Caroline Kamnert|Controller, Rockneby, 44 år
+C|170255|64|M|Nikolaos Strachinis|Pensionär, Oxhagen, 64 år
+C|170256|49|K|Charlotte Sandell|Beteendevetare/terapeut, Kalmar, 49 år
+C|170257|65|M|Mats Mårtensson|Svetsare, Lindsdal, 65 år
+C|9072|39|K|Emma Ahlin|säljare, Hagby, 39 år
+C|170259|70|M|Göran Wiegert|Pensionär, Kalmar, 70 år
+C|170260|57|K|Ilona Gustavsson|Beteendevetare, Kalmar, 57 år
+C|170261|56|M|Toni Lavi|HR-konsult, Kalmar, 56 år
+C|170262|58|K|Lillemor Setting|Butiksbiträde, Rockneby, 58 år
+C|170263|60|M|Leif Sverkersson|Kyrkvaktmästare, Kalmar, 60 år
+C|9074|51|K|Ing-Marie Karlsson|äldresamordnare, Påryd, 51 år
+C|170265|69|M|Kenneth Sjöström|Sjuksköterska, Kalmar, 69 år
+C|170266|68|K|Nura Mahmutagic|Pensionär, Kalmar, 68 år
+C|170267|53|M|Mikael Lindberg|Chaufför/trafikledare, Kalmar, 53 år
+C|9078|59|K|Åsa Lennartsdotter|undersköterska, Ljungbyholm, 59 år
+C|170269|58|M|Johan Torstensson|Elektriker, Kalmar, 58 år
+C|170270|53|K|Iwona Nasimi|Legitimerad sjuksköterska, Kalmar, 53 år
+C|170271|38|M|Stephan Quist Karlsson|Avdelningschef, Kalmar, 38 år
+C|9080|37|K|Sara-Lisa Ekedahl|sjuksköterska, Kalmar, 37 år
+C|170273|69|M|Christer Andersson|Pensionär, Kalmar, 69 år
+C|170274|73|K|Gunnel Akinder|Pensionär, Kalmar, 73 år
+C|170275|34|M|Fredrik Blomqvist|Kyrkvaktmästare, Kalmar, 34 år
+C|170276|46|K|Selma Atac|Miljö-, process- och språkkonsult, Kalmar, 46 år
+C|313799|61|M|Ingemar Einarsson|61 år, kommunalråd, Påryd
+C|313800|42|K|Johanna Petersson|42 år, egen företagare, Läckeby
+C|313801|45|M|Erik Ciardi|45 år, projektledare, Kalmar
+C|313802|59|M|Gunnar Olsson|59 år, byggnadsarbetare, Tvärskog
+C|313803|62|K|Anita Wollin|62 år, fastighetsförvaltare, Rockneby
+C|313804|23|M|Jaafar Al-Jabiri|23 år, studievägledare, Kalmar
+C|301052|48|K|Jessica Bergsjö|48 år, entreprenör, Kalmar
+C|313806|65|M|Anders Andersson|65 år, ordförande Kalmar Öland airport, Trekanten
+C|300933|47|M|Patric Vadman|47 år, driftavdelningschef, Kalmar
+C|313808|41|K|Anna Eskilsson|41 år, utbildningsledare, Kalmar/Södermöre
+C|313809|62|K|Lizzie Gandskog|62 år, politisk sekreterare, Kalmar
+C|313810|41|K|Anna Västerslät|41 år, företagare, Lindsdal
+C|300927|51|K|Gudrun Augustsson|51 år, undersköterska, Rockneby
+C|300926|52|M|Mikael Johansson|52 år, egen företagare, Trekanten
+C|313813|33|M|Christian Anderberg|33 år, företagare, Påryd
+C|313814|71|M|Bengt Skoog|71 år, pensionär, Kalmar
+C|300922|42|M|Pelle Skogberg|42 år, politisk sekreterare, Långaström
+C|313816|33|K|Alexandra Johansson|33 år, byggprojektör, Nickebo
+C|313817|59|M|Peter Ustrup|59 år, servicetekniker, Rockneby
+C|313818|36|K|Frida Jonsson|36 år, jägmästare, Påryd
+C|300928|35|M|Filip Qvarnström|35 år, projektledare, Kalmar
+C|313820|19|K|Ebba Wirblad|19 år, studerande, Kalmar
+C|313821|40|M|Johan Fredriksson|40 år, civilingenjör, Rinkabyholm
+C|313822|53|K|Ana Emilia Klasson|53 år, projektutvecklare, Kalmar
+C|300920|61|K|Ingegerd Petersson|61 år, projektledare, Kalmar
+C|313824|48|M|Niklas Hellström|48 år, egen företagare, Kalmar
+C|313825|66|M|Lennart Ohlsson|66 år, företagare, Nickebo
+C|313826|67|K|Ann-Cristin Fredriksson|67 år, pensionär, Rinkaby
+C|313827|68|M|Åke Petersson|68 år, civilingenjör, Rockneby
+C|313828|60|K|Chatarina Nordström|60 år, projektledare, Kalmar
+C|300925|75|K|Maj-Stin Alvarsson|75 år, fd röntgensjuksköterska, Smedby
+C|313830|45|M|Marcus Gunnarsson|45 år, skogsägare, Påryd
+C|313831|76|M|Kenneth Alvarsson|76 år, fd polisinspektör, Smedby
+C|313832|44|M|Jonas Danielsson|44 år, agronom, Ljungbyholm
+C|313833|59|K|Karin Nilsson|59 år, omsorgspedagog, Halltorp
+C|313834|79|M|Lars Larsson|79 år, skogsbrukare, Ålebo
+C|313835|70|K|Maivor Olsson|70 år, pensionär, Ljungbyholm
+C|300930|58|K|Anette Petersson Moberg|58 år, optiker, Kalmar
+C|313837|72|K|Lisbeth Petersson|72 år, pensionär, Läckeby
+C|313838|68|M|Curt Andersson|68 år, rörinstallatör, Påryd
+C|313839|29|M|Emil Andersson|29 år, församlingspedagog, Kalmar
+C|313840|28|M|Carl Kvarnholm|28 år, snickare, Påryd
+C|313841|57|K|Carina Sjögren|57 år, förskollärare, Hagby
+C|300931|68|K|Ingbritt Rosander|68 år, fd handläggare, Smedby
+C|313843|62|K|Kerstin Johansson|62 år, Kalmar
+C|313844|67|K|Marita Fransson|67 år, pensionär, Kalmar
+C|300924|24|M|Ali Sayed Hosseini|24 år, studerande, Kalmar
+C|313846|68|M|Anders Lundberg|68 år, företagare, Trekanten
+C|313847|66|M|Magnus Gustavsson|66 år, ingenjör, Ljungbyholm
+C|313848|64|M|Börje Sävmark|64 år, entreprenör, Påryd
+C|313849|66|M|Åke Rudolfsson|66 år, Lindsdal
+C|300921|65|M|Bengt Thörnblad|65 år, sjuksköterska, Rinkabyholm
+C|313851|73|M|Ronny Söderberg|73 år, pensionär, Påryd
+C|313852|67|M|Ulf Danielsson|67 år, Rinkabyholm
+C|313853|61|M|Sven Heiding|61 år, ekologisk lantbrukare, Ljungbyholm
+C|313854|57|M|Kurt Hallberg|57 år, lantmästare, Ljungbyholm
+C|313855|46|M|David Carlsson|46 år, elektriker, Ljungbyholm
+C|313856|67|M|Sven-Erick Andersson|67 år, pensionär, Kalmar
+C|313857|20|K|Ella Olsson|20 år, studerande, Kalmar
+C|313858|67|M|Håkan Gunnarsson|68 år, pensionär, Lindsdal
+C|511140|68|M|Thomas Stjernquist|
+C|515797|37|K|Jenny Rydhammer|
+C|219338|53|K|Birgitta Axelsson Edström|53år, Verksamhetsutvecklare/Teol. stud., Kalmar
+C|296373|46|K|Andrea Berg|
+C|296374|75|K|Kerstin Ljungberg|
+C|296375|18|K|Linnéa Hedin|
+C|296376|24|K|Malin Pettersson|lärarstudent
+C|296377|31|K|Isabel Andersson|barnskötare
+C|296378|69|K|Agneta Berg|förskollärare
+C|296379|18|M|Jonathan Sideström|
+C|296380|53|K|Caroline Elnéus|lärare
+C|25232|34|M|Christopher Dywik|deltidspolitiker/elevassistent, Kalmar
+C|37689|29|K|Carolina Almeborg|beteendevetarstuderande, Kalmar
+C|25242|32|M|Alexander Krasnov|arbetsförmedlare, Kalmar
+C|37681|29|M|Fredrik Sjömar|lärare, Kalmar
+C|47931|70|K|Karin Karlsson|specialpedagog, Getingen
+C|37684|48|K|Johanna Ingvarsson|företagare, Kalmar
+C|47933|27|M|Victor Almeborg|verktygsslipare, Lindsdal
+C|37682|65|M|Samuel Watanen|leg sjuksköterska Kalmar
+C|25237|61|K|Margreth Johansson|administratör, Kalmar
+C|47936|68|M|Lennart Lindstedt|senior adviser, Trekanten
+C|37680|75|K|Junita Karlsson|studie- och yrkesvägledare, Kalmar
+C|37686|42|M|Michael Ohlsson|trädgårdsarbetare, Kalmar
+C|47939|50|K|Nashreen Jan|undersköterska, Rockneby
+C|37683|83|M|Karl-Gustav Kyrk|pensionär, Kalmar
+C|47941|56|K|Malou Axelsson|skolsköterska, Krafslösa
+C|47942|37|M|Mats Wåhlin|teknisk support, Malmen
+C|25245|52|K|Marika Wulff|egen företagare, Kalmar
+C|37688|40|M|Oskar Feltenstedt|sjökapten, Kalmar
+C|37676|71|K|Gerd Lansler|senior, Kalmar
+C|37690|73|M|Ronny Jennersjö|pensionär, Kalmar
+C|47948|52|K|Marianne Lindstedt|lärare, Lindsdal
+C|47949|66|M|Kjell Hultman|pensionär/f d polisinspektör, Stensö
+C|47951|57|M|Martin Davidsson|säljare/ingenjör, Kolboda
+C|37558|63|M|Arne Sjöberg|leg läkare och verksamhetschef, Kalmar
+C|37687|88|K|Ruth Pahlm|pensionär, Kalmar
+C|235007|37|M|Carl-Henrik Sölvinger|37 år, oppositionsråd, Ljungbyholm
+C|49207|50|K|Lotta Wahlmino|gymnasielärare, Kalmar
+C|201206|38|M|Björn Brändewall|38 år, IT-utvecklare och skolpolitiker, Kalmar
+C|201211|43|K|Jennie Uller|Pedagogisk assistent, 43, år, Kalmar
+C|235011|27|M|Michael Bo Nilsson|Politisk sekreterare, Kalmar
+C|235012|29|K|Amanda Falk|Socionom, Kalmar
+C|201210|60|M|Kent Pettersson|60 år, ek.mag., Kalmar
+C|235014|73|K|Birgitta Nordlöw|Fd. språklärare, Kalmar
+C|201207|66|M|Lasse Karlsson|Läkare, Kalmar
+C|201213|26|M|Christoffer Saanum|studerande, Kinda
+C|235017|77|K|Anna-Britt Wejdsten|Senior, Lindsdal
+C|235018|37|K|Malin Johansson Östbring|37år, apotekare, intresserad småbarnsmamma med förnuft och känsla, Kalmar
+C|201212|21|K|Emma Wahlmino|21 år, personlig assistent, Kalmar
+C|201218|37|M|Joachim Almeke|Webbutvecklare, 37 år, Kalmar
+C|235021|39|M|Peter Olsson|38 år, kommunikatör, Kalmar
+C|201214|38|K|Karin Holmåker|38år,Kommunikatör, Kalmar
+C|201203|59|M|Pierre Edström|59 år, oppositionslandstingsråd, Kalmar
+C|201215|40|K|Johanna Mattsson|Ersättarledamot samhällsyggnadsnämnden i Kalmar, Kalmar
+C|235025|39|M|Christian H Lindström|39 år, landskapsingenjör, Norra Ölvingstorp
+C|235026|41|M|Jakob Nordin|41 år, Lindsdal
+C|201216|70|M|Lars Hamrin|Senior, Kalmar
+C|201217|47|K|Sahadet Mavraj|Tolk, Kalmar
+C|201208|66|K|Yvonne Sölvinger|Leg.sjuksköterska, fil.kand demens-geriatrik, låt proffsen vara proffs, Kalmar
+C|201219|84|K|Ingrid Thour|Företagsekonom, Läckeby
+C|235031|34|K|Lotta Lindström|Ekonom, Ljungbyholm
+C|161299|23|M|Max Troendlé|23, politiker, Kalmar
+C|161300|55|K|Annika Carlsson Wistedt|55 år, Kalmar
+C|161301|73|K|Daphne Thuvesson|73 år, Mortorp
+C|161302|21|M|Alexander Franzén|21 år, Kalmar
+C|161303|21|K|Elin Wällstedt|21 år, Skälby
+C|161305|44|M|Mark Hammar|44 år, Norrliden
+C|161306|60|K|Ann Y Hellenborg|60 år, Tegelviken
+C|161307|22|M|Emil Bladh|22 år, Norrgårdsgärdet
+C|161308|18|K|Miriam Holmgren|18 år, Kalmar
+C|161309|18|K|Maja Ellborg|18 år, Berga
+C|161310|30|M|Martin Arvidsson|30 år, Kalmar
+C|161311|19|K|Sam Fredricson|19 år, Kalmar
+C|161312|51|M|Jonas Löhnn|51 år, Malmen
+C|161313|47|M|Jacob Brideau|48 år, Stensberg
+C|161314|46|K|Jessica Rydell|46 år, Kalmar
+C|161315|47|K|Sofi Håkansson|47 år, Sandås
+C|161316|21|M|Love Sundeby|21 år, Kalmar
+C|161317|85|M|Lennart Eriksson|85 år, Bergavik
+C|161318|58|K|Camilla Nilsson|58 år, Bremerlyckan
+C|161319|57|M|Martin Carlsson|57 år, Kalmar
+C|161320|62|K|Christina Fosnes|62 år, Oppositionsråd, Kalmar
+C|161321|25|M|Måns Linge|25 år, Politisk sekreterare, Kalmar
+C|160597|42|K|Kajsa Hedin|42 år, Biomedicinsk analytiker, Kalmar
+C|161323|49|K|Lisa Jalmander|49 år, Företagare, Rockneby
+C|158886|47|M|Jonas Lövgren|47 år, Etableringsanalytiker, Kalmar
+C|161325|57|K|Susanne Eliasson|57 år, Entreprenör, Kalmar
+C|161326|62|M|Per-Olof Jonsson|62 år, Lantbrukare, Oppeboda
+C|161327|26|M|John Wahlgren|26 år, Jurist, Kalmar
+C|160602|40|M|Patrik Olsen|40 år, Undersköterska, Läckeby
+C|161329|55|M|Magnus Jernetz Gustavsson|55 år, Telefonist, Kalmar
+C|161330|48|M|Tobias Radhe|48 år, Statsanställd, Kalmar
+C|161331|18|K|Julia Jezior|18 år, Studerande, Kalmar
+C|160595|69|K|Kerstin Edvinsson|69 år, Senior, Kalmar
+C|158880|47|M|Jan R Andersson|riksdagsledamot, Kalmar län
+C|160587|72|K|Annica Portland Bengtsson|72 år, Läkare, Kalmar
+C|158897|45|M|Pär-Gustav Johansson|45 år, Journalist, Kalmar
+C|161336|31|M|Johan Krantz|31 år, Civilekonom, Ljungbyholm
+C|161337|31|M|Ted Nyberg|31 år, Företagare, Rockneby
+C|158899|48|M|Pelle Sederkvist|48 år, Egen företagare, Kalmar
+C|161339|59|M|Tord Gyllensten|59 år, Företagare, Kalmar
+C|161340|63|M|Jörgen Bödmar|63 år, Entreprenör, Kalmar
+C|161341|63|M|Per Dahl|63 år, Redaktör, Lindsdal
+C|161342|49|M|Anders Sjöblom|49 år, Privattjänsteman, Kalmar
+C|160601|66|M|Ole Torffvit|66 år, Läkare, Kalmar
+C|161344|53|M|Micael Nilsson|53 år, Fil.dr., Ljungbyholm
+C|161345|27|M|Alexander Critén|27 år, Sjöingenjör, Kalmar
+C|161346|18|M|Martin Karlsson|18 år, Studerande, Kalmar
+C|161347|69|M|Lennart Erlandsson|69 år, Direktör, Kalmar
+C|160580|75|M|Kaj Holst|75 år, Tandläkare, Rockneby
+C|161349|77|M|Göran Häggfors|77 år, Senior, Kalmar
+C|158902|28|K|Nikoletta Lettersson|28 år, Administratör, Kalmar
+C|161351|27|M|Anton Allgren|27 år, Snickare, Rockneby
+C|161352|53|M|Anders Nilsson|53 år, Egen företagare, Kalmar
+C|161354|83|M|Birger Jägtoft|83 år, Överste, Kalmar
+C|161355|24|M|Mohanad Al-hamalawi|24 år, Social media-konsult, Kalmar
+C|161356|35|M|Fredrik Lindström|35 år, Arbetsledare, Vassmolösa
+C|161357|19|K|Cassandra Jalmander|19 år, Studerande, Rockneby
+C|161358|45|M|Jesper Olsson|45 år, Busschaufför, Kalmar
+C|161359|26|K|Maria Stensby|26 år, Politisk sekreterare, Kalmar
+C|60719|60|M|Thoralf Alfsson|Politisk sekreterare, Kalmar
+C|60720|46|K|Linda Emma Kotanen|bildkonstnär, Kalmar
+C|60721|49|K|Carina Falkestad|Distributionskoordinator, Kalmar
+C|60722|45|M|Mika Kotanen|nätverkstekniker, Kalmar
+C|60723|51|K|Petra Gustafsson|Redovisningsekonom, Kalmar
+C|60724|71|M|Curt Gustafsson|socionom, Kalmar
+C|60725|55|M|Micael Foghagen|f.d. officer, Berga
+C|60726|58|M|Krister Thornberg|logistiker, Kalmar
+C|60727|62|K|Lillemor Marcus Jonsson|transportledare, Kalmar
+C|60728|54|M|Leif Holmberg|ingenjör, Kalmar
+C|60729|62|K|Lilith Lindgren|socialpedagog, Kalmar
+C|60730|46|M|Tomas Trossing|ekonom, Varvsholmen
+C|60731|18|M|Kalle Lundström|student, Kalmar
+C|60732|61|K|Monica Fältsjö|undersköterska, Lindsdal
+C|60733|62|M|Thomas Salonen|f.d. officer, Kalmar
+C|60734|61|M|Tommy Askerberg|snickare, Kalmar
+C|60735|72|M|Kalle Winner|pensionär, Malmen
+C|60736|57|M|Erik Van Dijk|produktionschef, Kalmar
+C|60737|59|M|Kent Petersson|civilingenjör, Fjölebro
+C|60738|20|K|Ellen Andersson|student, Kalmar
+C|60739|50|M|Johan Ragnarsson|butiksäljare/konsult, Kalmar
+C|60741|69|M|Jan Bäckström|pensionär, Kalmar
+C|60742|82|M|Björn Lindell|filosofie magister, Kalmar
+C|60743|84|M|Curt Ljungholm|pensionär, Kalmar
+C|60744|63|M|Tom Andersson|montör, Stensö
+C|60745|61|K|Irene Wertwein|specialistundersköterska, Malmen
+C|60746|55|M|Kent Lindholm|chaufför, Smedby
+C|60747|47|M|Joakim Spjuth|djurskötare, Vassmolösa
+C|60748|69|K|Inger Eriksson|pensionär, Malmen
+C|60749|48|M|Olof Johansson|mekaniker, Trekanten
+C|60750|71|M|Hans Eriksson|pensionär, Malmen
+C|368381|53|K|Liselotte Ross|Kalmar, Undersköterska/Politisk Sekreterare
+C|361089|30|M|Jens Körge|Kalmar, Sjöbefäl
+C|368383|50|K|Leila ben Larbi|Kalmar, Undersköterska
+C|368384|65|M|Bertil Dahl|Kalmar, Kommunalråd
+C|361086|54|K|Maria Persson Engman|Kalmar, Omsorgsassistent
+C|368386|24|M|Richard Deichmann|Kalmar, Statsvetare/Administrativ Sekreterare
+C|368387|33|K|Elsa Berg|Kalmar, Lärare
+C|368388|43|M|Joel Rydh|Polis
+C|407180|29|K|Josefin Hellvin|Kalmar, Undersköterska
+C|368390|57|M|Ragnar Olsson|Kalmar, Lärare
+C|368391|62|K|Cecilia Edholm|Kalmar, Lärare
+C|361083|70|M|Gylfi Saemundsson|Kalmar, Pensionär
+C|368393|60|K|Eva Söderberg|Handläggare
+C|368394|35|M|Jonas Friberg|Kommunikatör
+C|368395|42|K|Lisa Kindberg|Prejektledning integration
+C|368396|29|M|Jonas Ross|Student
+C|368397|56|K|Lillian Akthagen|Omsorgspedagog
+C|368398|49|M|Samim Ahmed|Intruduktionshandläggare
+C|368399|71|M|Lars Holmberg|Pensionär
+C|361087|49|M|Michael ben Larbi Palmquist|Kalmar, Industriarbetare
+C|442411|31|K|Agnes Berg|Kulturarbetare
+C|361091|37|M|Per Gawelund|Kalmar, Sjuksköterska
+C|368403|21|K|Felicia Dovblom|Butiksbiträde
+C|368404|61|M|Sören Hjertquist|Sjuksköterska
+C|368405|57|K|Jacqueline Dovblom|Socionom
+C|368406|29|M|Sebastian Hellvin|Lärare
+C|361080|51|K|Linda Fleetwood|Kalmar, Landstingsråd
+C|368408|65|M|Bo Hellström|Lärare
+C|368409|73|M|Kåre Eriksson|Pensionär
+C|368410|52|K|Anki Foss|Förskollärare
+C|368411|79|M|Giuseppe Padellaro|Pensionär
+C|368412|63|M|Kahthan Kadhim|Modersmålslärare
+C|368413|65|M|Jan Martinsson|Inernationell Strateg
+C|368414|70|M|Magnus Lundberg|Pensionär
+C|368415|20|K|Elin Ross|Sjuksköterskestudent
+C|368416|54|M|Omar Sallam|lärare
+C|368417|64|M|Jimmy Johansson|
+C|368418|67|M|Olle Svanström|Undersköterska

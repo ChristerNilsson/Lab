@@ -1,11 +1,325 @@
-2|210852|212021|212022|210853|212024|212025|210854|212027|212028|210855|210850|212031|212032|212033|212034|212035|212036|210857|212038|212039|212040|212041|210856|212043|212044|210859|212046|210851|212048|212049|212050|212051|212052|212053|212054|212055|212056|212057|212058|212059|212060|212061|212062|212063|402708|212065|212066|212067|210858|212069|212070|212071|212072|212073|212074|212075|212076|212077|212078|212079|212080|212081|212082|212083
-4|80998|46633|8555|46631|81002|8524|46639|46641|46642|81007|81008|46636|81010|46632|81012|46630|81014|81015|81016|81017|81018|81019|46634|81021|81022|81023|46638|81025|81026|81027|81028|81029|81030|81031|81032|81033|81034|81035|81036|81037|81038|81039|81040|81041|81042|81043|81044|81045|81046|81047|46645|46640|81050|81051
-1150|383493
-532|399616|399617|399618|399619|399620|399621|399622|399623|399624|399625|399626|399627|399628|399629|399630|399631|399632|399633
-68|219762|219763|219764|219765|219766|219767|219768|219769|219770|219772|219773|219774|219775
-1011|131654|225347|225348
-3|49202|364030|364037|366468|364033|364032|364036|364039|364038|364035|364034|366476|366477|366478|366479|366480|366481|366482
-55|311136|400492|400493|400494|400495|400496|400205|400204|400499|103083|400501|400207|400208|400504|400505|400506|400507|400508|400509|400510|400511|400512|400513|400514|400515|400516|400517
-1|350287|350290|350294|350291|350396|350288|350293|350399|350292|350286|350402|350403|350295|350405|350406|350297|350408|350409|350410|350411|350412|350413|350414|350298|350416|350417|350418|350419|350420|350296|350299|350424
-110|383487|383488|383489|383491|383493|383494|383495|383496|383497|383499|383501|383502|383503|383490|512823|512827|512828|512830|512833|383492|383498|383500|513911|513912|514362|515803
-5|358409|358410|358411|358412|358413|358414|358415|358416|358417|358418|358419|358420|358421|358422|358423|358424|358425|358426|358427|358428|358429|358430|358431|358432|358433|358434|358435|358436|358437|358438|358439|358440|358441|358442|358443|358444|358445|358446|358447|358448|358449|358450|358451|358452|358453|358454|358455|358456|358457|358458|358459
+T|Gotland
+A|2|210852|212021|212022|210853|212024|212025|210854|212027|212028|210855|210850|212031|212032|212033|212034|212035|212036|210857|212038|212039|212040|212041|210856|212043|212044|210859|212046|210851|212048|212049|212050|212051|212052|212053|212054|212055|212056|212057|212058|212059|212060|212061|212062|212063|402708|212065|212066|210858|212069|212070|212071|212072|212073|212074|212075|212076|212077|212078|212079|212080|212081|212082|212083
+A|4|80998|46633|8555|46631|81002|8524|46639|46641|46642|81007|81008|46636|81010|46632|81012|46630|81014|81015|81016|81017|81018|81019|46634|81021|81022|81023|46638|81025|81026|81027|81028|81029|81030|81031|81032|81033|81034|81035|81036|81037|81038|81039|81040|81041|81042|81043|81044|81045|81046|81047|46645|46640|81050|81051
+A|1150|383493
+A|532|399616|399617|399618|399619|399620|399621|399622|399623|399624|399625|399626|399627|399628|399629|399630|399631|399632|399633
+A|68|219762|219763|219764|219765|219766|219767|219768|219769|219770|219772|219773|219774|219775
+A|1011|131654|225347|225348
+A|3|49202|364030|364037|366468|364033|364032|364036|364039|364038|364035|364034|366476|366477|366478|366479|366480|366481|366482
+A|55|311136|400492|400493|400494|400495|400496|400205|400204|103083|400501|400207|400208|400504|400505|400506|400507|400508|400509|400510|400511|400512|400513|400514|400515|400516|400517
+A|1|350287|350290|350294|350291|350396|350288|350293|350399|350292|350286|350402|350403|350295|350405|350406|350297|350408|350409|350410|350412|350413|350414|350298|350416|350417|350418|350419|350420|350296|350299|350424
+A|110|383487|383488|383489|383491|383494|383495|383496|383497|383499|383501|383502|383503|383490|512823|512827|512828|512830|512833|383492|383498|383500|513911|513912|514362|515803
+A|5|358409|358410|358411|358412|358413|358414|358415|358416|358417|358418|358419|358420|358421|358422|358423|358424|358425|358426|358427|358428|358429|358430|358431|358432|358433|358434|358435|358436|358437|358438|358439|358440|358441|358442|358443|358444|358445|358446|358447|358448|358449|358450|358451|358452|358454|358455|358456|358457|358458|358459
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|210852|47|K|Meit Fohlin|Eskelhem
+C|212021|34|M|Filip Reinhag|Bro
+C|212022|48|K|Ylva Bendelin|Guldrupe
+C|210853|44|M|Thord Ingesson|Väskinde
+C|212024|67|K|Conny Kristensen Gahnström|Visby
+C|212025|18|M|Jonathan Carlsson|Visby
+C|210854|53|K|Aino Friberg Hansson|Väskinde
+C|212027|74|M|Bo Björkman|Visby
+C|212028|64|K|Anne Ståhl Mousa|Lummelunda
+C|210855|44|M|Linus Gränsmark|Endre
+C|210850|36|K|Hanna Westerén|Visby
+C|212031|64|M|Tommy Gardell|Vibble
+C|212032|66|K|Lena Eneqvist|Stånga
+C|212033|54|M|Tony Johansson|Slite
+C|212034|18|K|My Frändestrand|Visby
+C|212035|70|M|Håkan Ericsson|Visby
+C|212036|35|K|Linn Philip|Visby
+C|210857|44|M|Greger Eneqvist|Stånga
+C|212038|68|K|Anneli Klovsjö|Väskinde
+C|212039|76|M|Lennart Petersson|Stenkumla
+C|212040|44|K|Renée Lingström|Hörsne
+C|212041|45|M|Torgny Ammunet|Visby
+C|210856|37|K|Charlotte Andersson|Visby
+C|212043|56|M|Mikael Nilsson|Visby
+C|212044|56|K|Carin Rosell|Visby
+C|210859|48|M|Tony Ekman|Visby
+C|212046|56|K|Catarina Wahlström|Slite
+C|210851|23|M|David Lindvall|Visby
+C|212048|67|K|Gerty Holmstedt|Gothem
+C|212049|72|M|Mats Sundin|Gammelgarn
+C|212050|42|K|Jessica Palmgren|Visby
+C|212051|72|M|Eric Martell|Burgsvik
+C|212052|45|K|Jenny Larsson|Visby
+C|212053|20|M|André Friberg|Rute
+C|212054|64|K|Britt Andersson|Katthammarsvik
+C|212055|69|M|Per Gahnström|Visby
+C|212056|44|K|Janica Sörestedt|Halla
+C|212057|52|M|Kjell-Åke Wahlström|Slite
+C|212058|42|K|Wiola Öst|Etelhem
+C|212059|36|M|Magnus Ekström|Visby
+C|212060|63|K|Lilian Stenman|Tingstäde
+C|212061|52|M|Patrik Gardelin|Visby
+C|212062|23|K|Sabina Hansson|Vibble
+C|212063|79|M|Stigh Wessman|Visby
+C|402708|54|K|Maria Ahlstäde|Sanda
+C|212065|71|M|Bertil Eneqvist|Stånga
+C|212066|19|K|Tilde Granath|Vibble
+C|210858|19|K|Lina Karlsson|Vibble
+C|212069|24|M|Felix Jonsson|Klintehamn
+C|212070|24|K|Kiira Lujala Boman|Visby
+C|212071|33|M|Marcus Johansson|Alva
+C|212072|52|K|Pia Dyvander Johansson|Visby
+C|212073|60|M|Roger Möllerström|Visby
+C|212074|72|K|Ingvor Eriksson|Vänge
+C|212075|34|M|Jonas Ahlvin|Stenkumla
+C|212076|57|K|Carina Thomasson|Grötlingbo
+C|212077|49|M|Torbjörn Berg|Atlingbo
+C|212078|81|K|Brith Jones|Tofta
+C|212079|62|M|Thomas Klang|Roma
+C|212080|19|K|Emma Höggren|Follingbo
+C|212081|42|M|Mårten Lydahl|Visby
+C|212082|62|K|Boel Jormer|Kräklingbo
+C|212083|74|M|Bertil Eriksson|Katthammarsvik
+C|80998|55|K|Eva Nypelius|55 år, regionråd, Lokrume
+C|46633|52|M|Jonas Niklasson|52 år, lärare, Hablingbo
+C|8555|44|K|Gabriella Hammarskjöld|44 år, Miljöchef, Gotland
+C|46631|52|M|Stefan Nypelius|52 år, affärsrådgivare, Bro
+C|81002|23|K|Klara Blochmann|24 år, butiksmedarbetare, Fårö
+C|8524|54|M|Lars Thomsson|54 år, Vindkraftsamordnare, Gotland
+C|46639|52|K|Bibbi Olsson|52 år, fritidsledare, Ronehamn
+C|46641|51|M|Karl-Johan Boberg|51 år, officer, Stenkyrka
+C|46642|59|K|Eva Gahnström|59 år, lärare, Bro
+C|81007|62|M|Björn Dahlström|62 år, mjölkbonde, Lärbro
+C|81008|47|K|Eva Ahlin|47 år, ombudsman, Mästerby
+C|46636|50|M|Joakim Samuelsson|50 år, läkare, Träkumla
+C|81010|47|M|Johan Malmros|47 år, fastighetschef, Väskinde
+C|46632|64|K|Gunnel Lindby|65 år, kontorschef, Visby
+C|81012|35|M|Kristian Gustafsson|34 år, lantmästare/bonde, Grötlingbo
+C|46630|54|K|Eva Bofride|54 år, politisk chefredaktör, Visby
+C|81014|61|M|Anders Thomasson|61 år, företagare, Hamra
+C|81015|27|K|Malin Åberg|27 år, agronom, Ganthem
+C|81016|43|M|Fredrik Gradelius|43 år, systemutvecklare/bonde, Lärbro
+C|81017|50|M|Ola Hallvede|51 år, rörmontör/biovärmetekniker, Björke
+C|81018|59|K|Ann-Christin Wallin|59 år, systemadministratör, Sanda
+C|81019|54|K|Ingrid Engström|55 år, undersköterska/silviasyster, Grötlingbo
+C|46634|51|K|Rebeca Gajardo Angel|51 år, egen företagare, Källunge
+C|81021|19|M|Niklas Gahne|19 år, studerande, Björke
+C|81022|48|M|Hasan Özyurt|48 år, egen företagare, Roma
+C|81023|47|K|Irina Samsonova|47 år, läkare, Visby
+C|46638|63|M|Kjell Genitz|63 år, tjänsteman, Slite
+C|81025|35|M|Stellan Sigsarve|35 år, industriarbetare/student, Näs
+C|81026|44|K|Therese Olofsson|44 år, lärare, Roma
+C|81027|60|M|Arne Strandänger|60 år, egen företagare, Väskinde
+C|81028|37|M|Anders Hagström|37 år, speldesigner, Visby
+C|81029|49|K|Jessica Scheutz|49 år, civilekonom, Atlingbo
+C|81030|59|M|Stefan Edlund|59 år, ekonom, Gammelgarn
+C|81031|31|K|Linnéa Levin|31 år, webdesigner, Lärbro
+C|81032|69|M|Tjelvar Andersson|69 år, lantmästare/hästföretagare, Stenkyrka
+C|81033|52|M|Jesper Scheutz|53 år, brandman, Atlingbo
+C|81034|68|K|Lena Gardelin|68 år, pensionär, Gothem
+C|81035|68|M|Börje Bendelin|68 år, lantbrukare, Väte
+C|81036|37|M|Andreas Sorby|37 år, maskinsäljare/lantbrukare, Stenkyrka
+C|81037|63|K|Gunnel Nilsson|64 år, egen företagare, Hamra
+C|81038|45|M|Niklas Harlevi|45 år, fastighetsmäklare, Visby
+C|81039|18|K|Nathalie Scheutz|19 år, studerande, Atlingbo
+C|81040|54|K|Ursula Jacobsson|54 år, regionupplysare/telefonist, Hemse
+C|81041|67|M|Rolf Nirs Wahlgren|67 år, pensionär, Västerhejde
+C|81042|42|M|Jonas Henriksson|42 år, lantmästare/bonde, Rute
+C|81043|66|M|Bengt Wickman|66 år, lantmästare, Eskelhem
+C|81044|77|K|Anita Nordin|78 år, diakon, Rute
+C|81045|55|M|Jan Lundstein|55 år, försäljningsansvarig, Visby
+C|81046|48|M|Niklas Olsson|48 år, reservdelssäljare, Sanda
+C|81047|59|M|Stig Hansson|59 år, företagare, Öja
+C|46645|73|M|Mats Olofsson|73 år, pensionär, Atlingbo
+C|46640|31|M|Philip Eriksson|31 år, datakonsult, Visby
+C|81050|39|K|Sara Granath|39 år, lärare, Visby
+C|81051|56|M|Lars Jakobsson|57 år, lantbrukare, Eskelhem
+C|383493|72|K|Lena Svendén|
+C|399616|47|M|Tomas Pettersson|47år,advokat,Vamlingbo
+C|399617|37|K|Torun Ström|37år,socionom,Visby
+C|399618|65|K|Gerd Holmgren|65år,fd kvalitetsingenjör,Hangvar
+C|399619|23|K|Eira Werner|23år,studerande,Visby
+C|399620|57|K|Ann-Charlotte Lotta Persson|57år,socionom,Fårösund
+C|399621|28|M|Oscar Larsson|28år,lärarstudent,Visby
+C|399622|54|K|Ingrid Gustavsson|54år,utredare,Västerhejde
+C|399623|23|M|Martin Kolberg|23år,studerande,Visby
+C|399624|37|M|Jakob Berglund Rogert|37år,studierektor,Visby
+C|399625|26|K|Tove Jokiranta|26år,säljare,Visby
+C|399626|52|M|Stefan Wesley|52år,IT-samordnare,Visby
+C|399627|23|K|Emma Jernberg|23år,studerande,Visby
+C|399628|47|K|Cecilia Herdenstam|47år,biblioteksutvecklare,Visby
+C|399629|35|M|Johan Sten|35år,kundtjänstassistent,Visby
+C|399630|50|M|Patrik von Corswant|50år,livsmedlare,Barlingbo
+C|399631|62|K|Karin Palmenfeldt|62år,tandhygienist,Visby
+C|399632|66|K|Lisen Kebbe|66år,psykolog,Visby
+C|399633|32|K|Agnes Lundgren|32år,konstnär och förskollärarstudent,Lärbro
+C|219762|40|K|Sara Lidqvist|40 år, verksamhetsutvecklare, Hemse
+C|219763|67|M|Ola Björkqvist|67 år, lantbrukare, Tofta
+C|219764|39|K|Linnéa Högberg|39 år, sjuksköterska, Tingstäde
+C|219765|52|K|Anna Haack|52 år, redovisningskonsult, Tofta
+C|219766|67|K|Rut Smeds|67 år, socionom, Visby
+C|219767|18|M|Primus Falk|18 år, studerande, Visby
+C|219768|65|M|Peder Fohlin|65 år, lanthandlare, Fole
+C|219769|70|M|Inge Beckström|70 år, läkare, Stenkumla
+C|219770|78|M|Yngve Andersson|78 år, ingenjör, Visby
+C|219772|69|K|Helena Emilsson|69 år, VD, Visby
+C|219773|68|M|Gunnar Lindby|68 år, lantbrukare, Hejdeby
+C|219774|62|M|Johan Asplund|62 år, filmarbetare, Sproge
+C|219775|78|M|Johannes Offermans|78 år, pensionär, Visby
+C|131654|54|M|Bert Cedergren|Trafikinspektör, Gotland
+C|225347|58|M|Lasse Hagman|58 år, Pensionär, Halla
+C|225348|64|M|Hans Gutebring|65 år, Pensionär, Havdhem
+C|49202|56|M|Johan Thomasson|egen företagare, Visby
+C|364030|71|K|Lena Grund|71 år, Pensionär, Hemse
+C|364037|54|M|Claes Nysell|54 år, Ombudsman, Visby
+C|366468|62|K|Aina Mattsson|62 år, Visby
+C|364033|66|M|Mats-Ola Rödén|66 år, Sjuksköterska/Byggare, Fårö
+C|364032|18|K|Anna Hallbom|18 år, Studerande, Boge
+C|364036|51|K|Carin Hammerin|51 år, Visby
+C|364039|56|M|Frans Brozén|56 år, Ekobonde, Fårö
+C|364038|54|K|Caroline Thomasson|54 år, Visby
+C|364035|65|M|Adam Lagerstedt|65 år, Visby
+C|364034|64|K|Elisabeth Mörndal|64 år, Leg Barnmorska, Visby
+C|366476|31|M|Rikard Hagman|31 år, Burs
+C|366477|77|K|Ingalill Ringbom|77 år, Rute
+C|366478|32|M|Andreas Wiklund|32 år, Lau
+C|366479|72|K|Kristina Pellmer Wramner|72 år, Visby
+C|366480|22|M|Andrew Linander|22 år, Grötlingbo
+C|366481|58|M|Hans-Ivar Påhlsson|58 år, Visby
+C|366482|59|M|Leiph Berggren|59 år, Visby
+C|311136|43|K|Isabel Enström|43, biolog, Visby
+C|400492|42|M|Daniel Heilborn|41 år,arkitekt,Visby
+C|400493|55|K|Lena Stenström|54 år,personlig assistent,Visby
+C|400494|71|M|Wolfgang Brunner|miljöpedagog,Visby
+C|400495|46|K|Elisabeth Wanneby|45 år,lärare,Stånga
+C|400496|64|M|Karl-Allan Nordblom|64 år,kock,Västerhejde
+C|400205|56|K|Lisbeth Bokelund|56 år,boendestödjare,Fröjel
+C|400204|55|M|Robert Hall|55 år,nationalekonom,Västerhejde
+C|103083|58|M|Micke Seid|58, designer, Södermalm
+C|400501|49|K|Karin Stephansson|49 år,landskapsarkitekt,Visby
+C|400207|37|M|Nils-Erik Norrby|37 år,biolog,Västerhejde
+C|400208|64|K|Ylva Hammar|64 år,kulturstrateg,Visby
+C|400504|52|M|Ola Matthing|utredare,Tingstäde
+C|400505|36|K|Clara Andermo|36 år,musiklärare,Mästerby
+C|400506|63|M|Jörgen Renström|Visby
+C|400507|65|K|Karin Gardell|65 år,pensionär,Visby
+C|400508|54|M|Berne Appelqvist|54 år,lärare,Visby
+C|400509|45|K|Karin Sutare|45 år,församlingsassistent,Stånga
+C|400510|42|M|Svante Agnestig|42 år,systemutvecklare,Barlingbo
+C|400511|61|K|Katarina Krusell|61 år,fil.kand.Visby
+C|400512|49|M|Akram Ijla|50 år,arkitekt,Visby
+C|400513|72|K|Anita Jonsson|72 år,fd folkhögskolelärare,Fårösund
+C|400514|57|K|Beata Afzelius|56 år,företagsrådgivare,Västerhejde
+C|400515|37|K|Kristin Ekström|37 år,programhandläggare,Visby
+C|400516|69|K|Lena Lind|69 år,pensionerad distrikssköterska,Visby
+C|400517|52|M|Gunnar Bolin|52 år,lantbrukare,Eskelhem
+C|350287|51|K|Anna Hrdlicka|51, Visby
+C|350290|45|M|Stefan Wramner|45, Visby
+C|350294|49|M|Patrik Thored|49, Visby
+C|350291|69|K|Inger Harlevi|69, Visby
+C|350396|64|M|Roger Wärn|64, Stånga
+C|350288|63|M|Håkan Onsjö|63, Klintehamn
+C|350293|55|K|Charlotte Criwall|55, Stånga
+C|350399|18|M|Philip Swärd|18, Slite
+C|350292|47|M|Ayman Aboulaich|47, Visby
+C|350286|25|M|Jesper Skalberg Karlsson|riksdagsledamot, Gotlands län
+C|350402|60|M|Rolf Öström|60, Stånga
+C|350403|70|K|Monica Westfält-Nilsson|70, Visby
+C|350295|55|M|Nils Ingelmark|55, Visby
+C|350405|66|M|Ingemar Lundqvist|66, Klintehamn
+C|350406|69|K|Margareta Benneck|69, Visby
+C|350297|38|M|Robin Storm|38, Visby
+C|350408|60|K|Berit Cedergren Onsjö|60, Klintehamn
+C|350409|70|M|Lars-Erik Benneck|70, Visby
+C|350410|42|M|Andreas Unger|42, Visby
+C|350412|72|K|Margareta Persson|72, Havdhem
+C|350413|78|M|Mats Hedström|78, Slite
+C|350414|42|K|Ingela Gardelin|42, Visby
+C|350298|39|M|Aydin Akyuz|39, Visby
+C|350416|53|K|Susanne Redig|53, Havdhem
+C|350417|19|M|Elias Wyrsch|19,
+C|350418|48|M|Jimmy Larsson|48, Stånga
+C|350419|65|K|Madelene Gadd Wäss|65,
+C|350420|47|K|Malin Skalberg|47, Tingstäde
+C|350296|35|K|Michaela Challnius|35, Visby
+C|350299|68|M|Jari Karivainio|68, Visby
+C|350424|69|M|Per Österlund|69, Klintehamn
+C|383487|59|M|Lars Engelbrektsson|Företagare
+C|383488|58|K|Eva Pettersson|Kostekonom
+C|383489|18|K|Hilda Frick|Studerande
+C|383491|58|M|Håkan Lilja|Kommunanställd
+C|383494|52|M|Johan Pettersson|Gymnasielärare
+C|383495|60|M|Sören Söderholm|Byggarbetare
+C|383496|49|K|Marina Cederblad Segerheden|Veterinärassistent
+C|383497|61|M|Clas Strid|Lastbilschaufför
+C|383499|38|M|Reber Kala Min Shareef|
+C|383501|35|K|Renée Persson|Entreprenör/Stylist
+C|383502|57|M|Inge Eriksson|Entreprenör inom bygg
+C|383503|84|M|Åke Torsson|Pensionär
+C|383490|34|K|Tina Benthammar|Företagare
+C|512823|55|M|Lennart Modig Kihlberg|Mångsysslare
+C|512827|66|M|Peter Håård|Pensionär
+C|512828|30|M|Dennis Söderström|Trafikplanerare
+C|512830|54|M|Peter Larsson|Undersköterska
+C|512833|53|K|Marie Forsbäck|Företagare
+C|383492|55|M|Carl Björn Michael Stenberg|
+C|383498|52|M|Hans-Ola Hansson|
+C|383500|52|K|Mia Stenberg|
+C|513911|56|M|Joakim Möller|
+C|513912|73|M|Lennart Holger Hjalmar Pettersson|
+C|514362|42|M|Andreas Jakobsson|
+C|515803|41|M|Robert Stenegärd|
+C|358409|33|K|Saga Carlgren|33 Butikschef/Sömmerska Visby
+C|358410|45|M|Thomas Gustafson|45 Systemutvecklare Etelhem
+C|358411|54|K|Annamaria Bauer|54 Ombudsperson Visby
+C|358412|63|M|Per Edman|62 Lärare Visby
+C|358413|35|K|Victoria Öjefors Quinn|35 Skrivtolk/Sekreterare Hemse
+C|358414|53|M|Jörgen Benzler|53 Yrkeslärare Sjonhem
+C|358415|46|K|Katja Viklund|46 Ungkulturutvecklare Visby
+C|358416|63|M|Peter Barnard|63 Arbetsterapeut Hangvar
+C|358417|59|K|Brittis Benzler|59 Boendestödjare/Regionråd Sjonhem
+C|358418|70|M|Jan Svensson|70 Pensionär Visby
+C|358419|30|K|Rebeccah Eriksson|30 Förskollärare Träkumla
+C|358420|33|M|Joan Sundin|33 Socialpedagog Visby
+C|358421|39|K|Jennie Jarve|31 Boendestödjare Sanda
+C|358422|45|M|Torgny Landin|45 Systemtestare Visby
+C|358423|68|K|Heidi Plisch|67 Pedagog Visby
+C|358424|71|M|Lars Siggelin|71 Pedagog Visby
+C|358425|47|K|Carina Schüberg|47 Skolkurator Visby
+C|358426|45|M|Anders Holstensson|45 Enhetschef Visby
+C|358427|53|K|Helen Kristiansson|52 Trädgårdsmästare Väskinde
+C|358428|66|M|Tito Silva|67 Pensionär Visby
+C|358429|72|K|Monica Eriksson|72 Pensionär Väte
+C|358430|60|M|Kaj Boström|60 Byggare Visby
+C|358431|58|K|Lotta Nyborg|58 SFI-lärare Visby
+C|358432|63|M|Gillis Sätterström|62 Sjuksköterska Psykiatri Romakloster
+C|358433|32|K|Sixten Anna Johansson|32 Biolog Visby
+C|358434|19|M|Ludvig Holtze|19 Studerande Visby
+C|358435|34|K|Karin Wizén|34 Målare Västerhejde
+C|358436|46|M|Oscar Eriksson|45 Lärare Träkumla
+C|358437|55|K|Carina Norderäng|55 Bibliotikarie Visby
+C|358438|26|M|Erik Lindman Mata|25 Student Visby
+C|358439|41|K|Hatice Toprak|42 Receptionist Visby
+C|358440|62|M|Lars Åkerlund|62 Pedagog Vänge
+C|358441|55|K|Lotta Rodin Lundberg|55 Administratör Visby
+C|358442|53|M|Tomas Staflin|53 Handledare Hemse
+C|358443|47|K|Lotti Carlgren|47 Integrationshandläggare Visby
+C|358444|75|M|Bo Holm|75Bibliotikarie Östergarn
+C|358445|43|K|Filippa Maurin|43Kulturarbetare Visby
+C|358446|53|M|Johan Norrby|53Egen företagare Visby
+C|358447|52|K|Therese Mangard|53Husfru Fröjel
+C|358448|62|M|Tore Tillander|62Tekniker Slite
+C|358449|70|K|Elinor Edvardsson Stiwne|70 Pensionär Hamra
+C|358450|50|M|Kenneth Bergstedt|50Handledare Klintehamn
+C|358451|55|K|Agneta Högstedt|55 Behandlare Visby
+C|358452|61|M|Bengt Carlenfors|61 Arbetsförmedlare Visby
+C|358454|54|M|Christer Finn|54 Sjukpensionär Väte
+C|358455|66|K|Ingela Barnard|66 Egen företagare Hangvar
+C|358456|69|M|Anders R Johansson|69 Historiker Hellvi
+C|358457|66|K|Eva Nobling|65 Keramiker/Konstnär Visby
+C|358458|64|M|Peter Jankert|64 Skådespelare Silte
+C|358459|65|K|Carina Flodman-Andersson|65 Pensionär Visby

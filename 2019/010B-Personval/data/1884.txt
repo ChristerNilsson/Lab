@@ -1,11 +1,170 @@
-2|69274|69275|69276|69277|69278|69279|69280|69281|69282|69283|69284|69285|69286|69287|69288|69289|69290|69291|69292|69293|69294|69295|69296|69297|69298|69299|69300|69301|69302|69303|69304|69305|69306|69307|69308|69309|69310|69311|69312|71991|71992|71993|71994|71995|71996|71997|71998
-4|234558|234559|234560|234561|234562|234563|234564|234565|234566|8506|234568|234569|234570|234571|234572|234573|234574
-532|501764|501765
-68|193327|193328|193329|193330|193331|193332|193333|193334
-1011|131855|192296|192297|192298|192299|192300|192301|192302|192303|192304
-3|17148|17149|17150|17151|17152|17153|17154|17155
-55|122971|122973|123598|122970|122954|124419
-1|19099|19100|19101|19102|19103|19104|19105|19106|19107|19108|19109|19110|19111|19112|19113|19114|19115|19116|19117|19118|19119|19120
-985|392175|392176|392177|392178|392179|392180|392181|392182|392191
-110|65859|65860|508171|508172|510366|514360|514361|515333
-5|354569|251289|251290|251291|251292|251293|251294|251295|251296|251297
+T|Nora
+A|2|69274|69275|69276|69277|69278|69279|69280|69281|69282|69283|69284|69285|69286|69287|69288|69289|69290|69291|69292|69293|69294|69295|69296|69297|69298|69299|69300|69301|69302|69303|69304|69305|69306|69307|69308|69309|69310|69311|69312|71991|71992|71993|71994|71995|71996|71997|71998
+A|4|234558|234559|234560|234561|234562|234563|234564|234565|234566|8506|234568|234569|234570|234571|234572|234573|234574
+A|532|501764|501765
+A|68|193327|193328|193329|193330|193331|193332|193333|193334
+A|1011|131855|192296|192297|192298|192299|192300|192301|192302|192303|192304
+A|3|17148|17149|17150|17151|17152|17153|17154|17155
+A|55|122971|122973|123598|122970|122954|124419
+A|1|19099|19100|19101|19102|19103|19104|19105|19106|19107|19108|19109|19110|19111|19112|19113|19114|19115|19116|19117|19118|19119|19120
+A|985|392175|392176|392177|392178|392179|392180|392181|392182|392191
+A|110|65859|65860|508171|508172|510366|514360|514361|515333
+A|5|354569|251289|251290|251291|251292|251293|251294|251295|251296|251297
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|985|NOR|Norapartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|69274|60|K|Solveig Oscarsson|60 år, Nora
+C|69275|33|M|Jonas Åkerman|33 år, Leg Barnmorska, Nora
+C|69276|57|K|Ulla Bergström|57 år, Nora
+C|69277|51|M|Ulf Carlson|51 år,Nora
+C|69278|50|K|Camilla Sörman|50 år, Nora
+C|69279|53|M|Håkan Boman|53 år, Lärare, Nora
+C|69280|48|K|Eleonore Karlsson|48 år, Vårdbiträde, Nora
+C|69281|69|M|Kent Nilsson|69 år, F d svetsare, Gyttorp
+C|69282|60|K|Anna Karlsson|60 år, Fritidspedagog, Nora
+C|69283|52|M|Per Andreasson|52 år, Nora
+C|69284|71|K|Anita Rundqvist|71 år, F d förskollärare, Nora
+C|69285|72|M|Hans Knutsson|72 år, F d rektor, Ås
+C|69286|63|K|Ursula Steffensen|63 år, Samordnare, Ås
+C|69287|71|M|Bror-Erik Israelsson|71 år, Nora
+C|69288|47|K|Sofia Erlandsson|47 år, Lärare, Striberg
+C|69289|26|M|Mikael Wahlberg|26 år, Facklig förtroendeman, Nora
+C|69290|69|K|Monica Sundberg|69 år, F d Politisk redaktör, Nora
+C|69291|47|M|Abdo Haj Mohammad|47 år, Språkstödjare, Nora
+C|69292|54|K|Annelie Kammerland|54 år, Undersköterska/Boendestödjare, Nora
+C|69293|20|M|Mohammed Khir Bakkaya|20 år, Studerande, Nora
+C|69294|77|K|Berit Elgström|77 år, F d Kulturarbetare, Nora
+C|69295|64|M|Raimo Niskanen|64 år, F d Behandlingsassistent, Nora
+C|69296|54|K|Anna Pettersson|54 år, Kontorist, Pershyttan
+C|69297|47|M|Anders Karlsson|47 år, Fabriksarbetare, Nora
+C|69298|32|K|Emma Brodin|32 år, Lastbilschaufför, Nora
+C|69299|76|M|Enar Moberg|77 år, F d Vuxenutbildare, Gyttorp
+C|69300|55|K|Elisabeth Hoikkala|56 år, Löneadministratör, Gyttorp
+C|69301|44|M|Fredrik Munkvold|44 år, Förvaltningsledare IT, Nora
+C|69302|32|K|Erika Lindahl|33 år, Fabriksarbetare, Nora
+C|69303|75|M|Svenerik Werner|75 år, Pensionär, Nora
+C|69304|47|K|Elin Sörman|47 år, Kultursekreterare, Nora
+C|69305|47|M|Pierre Andersson|47 år, Lärare, Striberg
+C|69306|68|K|Gerd Erlandsson|68 år, Pensionär, Striberg
+C|69307|66|M|Lennart Axelsson|66 år, Riksdagsledamot, Pershyttan
+C|69308|62|K|Monika Andersson|62 år, Barnmorska, Nora
+C|69309|74|M|Lennart Israelsson|74 år, Pensionär, Klacka Lerberg
+C|69310|73|K|Anette Mallalieu-Sand|73 år, Pensionär, Nora
+C|69311|34|M|Anton Häggblom|34 år, Skådespelare, Nora
+C|69312|63|K|Ulla Lindström-Nilsson|63 år, Undersköterska, Gyttorp
+C|71991|74|M|Janåke Wildhammar|74 år, F d Lärare, Nora
+C|71992|32|K|Jennika Landin|32 år, Arbetsförmedlare, Nora
+C|71993|50|M|Greger Kammerland|50 år, Industriarbetare, Nora
+C|71994|63|K|Lisel Wulfstrand|63 år, Pensionär, Nora
+C|71995|66|M|Tommy Botström|66 år, F d Arbetsförmedlare, Nora
+C|71996|73|K|Anna-Kay Törnqvist|73 år, Pensionär, Nora
+C|71997|72|M|Tord Thuresson|72 år, F d svarvare, Nora
+C|71998|75|M|Kjell Olof Ericson|75 år, F d Väktare, Nora
+C|234558|52|K|Susanne Forsberg|ekonom
+C|234559|44|M|Jörgen Säteraas|lärare
+C|234560|55|K|Marita Simpson|ekonom
+C|234561|56|M|Christer Gustavsson|egen företagare
+C|234562|46|K|Sofie Semstrand|miljösamordnare
+C|234563|32|K|Elin Dahlbacka|undersköterska
+C|234564|59|M|Kenneth Eriksson|distriktrepresentant
+C|234565|53|K|Eva Stenquist|undersköterska
+C|234566|49|M|Magnus Eriksson|yrkeschaufför
+C|8506|53|K|Helena Vilhelmsson|53 år, Skogskonsulent, Nora
+C|234568|38|M|Peter Gräsberg|assistent
+C|234569|58|K|Anna-Carin Andersson|lantbrukare
+C|234570|58|M|Kolbjörn Kindströmer|skogsägare
+C|234571|39|K|Eva Gräsberg|officer supply chain
+C|234572|20|K|Edit Vilhelmsson|försäljare
+C|234573|59|K|Titti Hansson|radiopratare
+C|234574|86|K|Ingalisa Persson|f.d. sjuksköterska
+C|501764|44|M|William Grönlund|43 år, folkhögskollärare
+C|501765|41|K|Malena Frööjd|42 år, pedagog
+C|193327|75|M|John Sundell|Ingenjör, Nora
+C|193328|37|K|Parisse Ekman|Civilekonom, Nora
+C|193329|20|M|Gilite Rugerero|Studerande, Nora
+C|193330|55|K|Susanne Lindholm|Regionchef, Nora
+C|193331|24|K|Wivine Kayenga|Studerande, Nora
+C|193332|55|M|Klas Engholm|Hjälpmedelstekniker, Ås
+C|193333|74|K|Marianne Holmberg|Undersköterska, Nora
+C|193334|82|M|Nils Holmberg|Pastor, Nora
+C|131855|59|K|Pia-Maria Johansson|Socionom, Örebro
+C|192296|62|M|Bengt Magnusson|Psykolog, Nora
+C|192297|54|K|Maria Blomqvist|Lärare, Nora
+C|192298|55|K|Anna Berggren|55 år, Trädgårdstekniker
+C|192299|60|K|Klara Sandberg|61 år, Boendestödjare
+C|192300|54|K|Sirpa Fårhage|Entreprenör, Nora
+C|192301|65|M|Johnny Sandberg|65 år
+C|192302|55|M|Göran Berggren|55 år, Lantmästare
+C|192303|24|M|William Askerlund|24 år, Snickrande småbarnspappa
+C|192304|49|K|Susanna Almer|48 år, Egenföretagare/Massör
+C|17148|76|K|Birgitta Borg|76 år, leg. sjuksköterska/egenföretagare, Nora
+C|17149|69|M|Ulf Wilder|69 år, egenföretagare, Gyttorp
+C|17150|73|K|Gunilla Jackson|73 år, egenföretagare
+C|17151|43|M|Jens Mikael Larsson|43 år, studerande/nändeman
+C|17152|74|K|Ingegerd Kangert|74 år, vuxenlärare
+C|17153|72|M|Jan Ulfberg|72 år, leg. läkare
+C|17154|46|M|Johan Nordström|46 år, kvalitetsingenjör
+C|17155|73|M|Staffan Jackson|73 år, FRG-ansvarig
+C|122971|26|K|Jasmine Ivarsson|26 år, samhällsvetare, Nora
+C|122973|66|M|Jan Larsson|66 år, skogsägare, Nora
+C|123598|50|K|Petra Käller|50 år, industriarbetare, Nora
+C|122970|38|M|Jonatan Sandberg|38 år, psykolog, Nora
+C|122954|58|K|Monika Aune|58 år, kulturvetare, Nora
+C|124419|44|M|Ruben Wickenhäuser|44 år, författare
+C|19099|59|M|Tom Rymoen|företagare, Nora
+C|19100|57|M|Bengt Svensson|företagare, Nora
+C|19101|73|M|Håkan Kangert|civilekonom, Nora
+C|19102|31|K|Renate Larssen|politisk sekreterare, Nora
+C|19103|78|M|Ture Österberg|78 år, Säkerhetskonsult, Nora
+C|19104|32|M|Eric Viduss|partiombudsman, Nora
+C|19105|48|M|Frank Thörnqvist|säkerhetskonsult, Nora
+C|19106|61|K|Eija Ahonen Pettersson|61 år, Företagare, Hammarby
+C|19107|31|M|Henrik Karlsson|31 år, Civilingenjör, Nora
+C|19108|67|M|Christer Häggqvist|67 år, Företagare, Nora
+C|19109|75|K|Britt Alderholm|75 år, Fd Områdeschef, Nora
+C|19110|73|M|Morgan Hedlund|73 år, Entrepenör, Bröstorp
+C|19111|39|K|Therese Larsson|39 år, Lantbrukare, Järnboås
+C|19112|38|M|Torbjörn Pettersson|38 år, Säljare, Nora
+C|19113|83|K|Ingegärd Öhlin|83 år, Fd Hemtjänstinspektör, Nora
+C|19114|77|K|Gunilla Österberg|77 år, Fd Ekonom, Nora
+C|19115|65|K|Anna-Lena Persson|65 år, Företagare, Åkerby
+C|19116|46|K|Katrin Winarve|46 år, Personalvetare, Västgöthyttan
+C|19117|79|M|Henk Burgering|79 år, Revisor, Nora
+C|19118|62|K|Ewa Turesson|62 år, Lärare, Nora
+C|19119|80|M|Gary Dybeck|80 år, Företagare, Born
+C|19120|84|K|Hillevi Löwenberg|84 år, Fd Distriktssköterska, Nora
+C|392175|73|M|Rutger Ahlbeck|Aukt. ledarutvecklare
+C|392176|74|M|Bertil Roden|Datoringenjör och lärare
+C|392177|79|M|Jan Rylander|Bygg- och anläggningsingenjör
+C|392178|72|M|Lars-Erik Larsson|Jur kand
+C|392179|36|M|Joakim Wård|Miljötekniker
+C|392180|72|M|Gunnar Rosendahl|Pensionär
+C|392181|66|M|Anders Stigfur|Sjuksköterska
+C|392182|71|K|Weronica Ahlbeck|Redovisningskonsult
+C|392191|62|M|Boye Jonsson|Entertainer
+C|65859|35|M|Andreas Widlund|35 år, Egen företagare, Nora
+C|65860|65|M|Conny Alfredsson|Pensionär, Nora, 65
+C|508171|66|K|Margareta Larsson|
+C|508172|59|K|Birgitta Ahl|
+C|510366|55|M|Ove Göthlin|
+C|514360|65|M|Kaj Ahlblad|
+C|514361|55|M|Anders Edgren|
+C|515333|75|M|Börje Jansson|
+C|354569|32|K|Therese Hoikkala|Socialsekreterare, Nora
+C|251289|31|K|Camilla Andersson Larsson|Undersköterska, Nora
+C|251290|37|M|Jonatan Tjäder|Medlemsassistent, Nora
+C|251291|29|M|Björn Folkeson|Vårdbiträde, Nora
+C|251292|71|K|Eva Haldert|Skådespelare, Nora
+C|251293|32|M|Linus Gustafsson|Lärarstudent, Nora
+C|251294|27|K|Roxanne Pettersson|Nora
+C|251295|69|K|Ulrika Mogren|Psykolog, Nora
+C|251296|70|M|Lars Mogren|Psykolog, Nora
+C|251297|65|M|David Stansvik|Bokförläggare, Nora

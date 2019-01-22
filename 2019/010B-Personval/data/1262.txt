@@ -1,9 +1,175 @@
-2|36119|36120|36121|36122|36123|36124|36125|36126|36127|36128|36129|36130|36131|28166|36133|36134|36135|36136|36137|36138|36139|36140|36141|36142|36143|36144|36145
-4|50238|50239|37082|50241|50242|50243|50244|50245|50246|50247|37099|50249|50250|50251
-1344|422800|422801|422802|422803|422804|422805|422806|422807|422808
-68|31804|59641|62444|62445|62446|62447|62448
-3|69095|69096|69097|69098|69099|69100|69101|69102|69103|69104|69105|69106|69107|69108|69109|69110|69111
-55|21529|161059|161060|161061|161062
-1|57207|57208|57209|57210|57211|57212|57213|57214|57215|57216|57217|57218|57219|57220|57221|57222|57223|57224|57225|57226|57227|57228|57229|57230|57231|57232|57233|57234|57235|57236|57237|57238|57239|57240|57241|57242|57243|57244|57245|57246|57247|57248|57249|57250|57251|57252|57253|57254|57255|57256|57257|57258|57259|57260|57261|57262|57263|57264|57265|57266|57267|57268
-110|54031|54032|54033|54034|54035|54036|54037|54038|54039
-5|26917|26918|26919|26920|26921|26922
+T|Lomma
+A|2|36119|36120|36121|36122|36123|36124|36125|36126|36127|36128|36129|36130|36131|28166|36133|36134|36135|36136|36137|36138|36139|36140|36141|36142|36143|36144|36145
+A|4|50238|50239|37082|50241|50242|50243|50244|50245|50246|50247|37099|50249|50250|50251
+A|1344|422800|422801|422802|422803|422804|422805|422806|422807|422808
+A|68|31804|59641|62444|62445|62446|62447|62448
+A|3|69095|69096|69097|69098|69099|69100|69101|69102|69103|69104|69105|69106|69107|69108|69109|69110|69111
+A|55|21529|161059|161060|161061|161062
+A|1|57207|57208|57209|57210|57211|57212|57213|57214|57215|57216|57217|57218|57219|57220|57221|57222|57223|57224|57225|57226|57227|57228|57229|57230|57231|57232|57233|57234|57235|57236|57237|57238|57239|57240|57241|57242|57243|57244|57245|57246|57247|57248|57249|57250|57251|57252|57253|57254|57255|57256|57257|57258|57259|57260|57261|57262|57263|57264|57265|57266|57267|57268
+A|110|54031|54032|54033|54034|54035|54036|54037|54038|54039
+A|5|26917|26918|26919|26920|26921|26922
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1344|FBj|Fokus Bjärred
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|36119|64|K|Lisa Bäck|Lomma
+C|36120|36|M|Per Bengtsson|Lomma
+C|36121|63|K|Pia Johnson|Leg. Arbetsterapeut, Lomma
+C|36122|66|M|Rune Netterlid|Bjärred
+C|36123|29|K|Malin Stern|Lomma
+C|36124|68|M|Karl-Gustav Nilsson|Bjärred
+C|36125|60|K|Anne Wilhelmsson|Lomma
+C|36126|65|M|Lennart Nilsson|Fjelie
+C|36127|41|K|Alma Salcinovic|Lomma
+C|36128|39|M|Thomas Eneström|Lomma
+C|36129|64|K|Eva Netterlid|Bjärred
+C|36130|67|M|Conny Bäck|Ingenjör, Lomma
+C|36131|60|K|Karin Everlund|Lomma
+C|28166|45|M|Sebastian Merlöv|IT-entreprenör, Lomma
+C|36133|58|K|Christel Åkerman|Bjärred
+C|36134|49|M|Henri Gossé|Bjärred
+C|36135|58|K|Marie Sand|Lomma
+C|36136|43|M|Thomas Dahlbom|Bjärred
+C|36137|71|K|Mona Dahlskog|Lomma
+C|36138|69|M|Rune Setthammar|Lomma
+C|36139|63|M|Bengt Everlund|Lomma
+C|36140|73|K|Mari Brandt|Lomma
+C|36141|78|M|Åke Björkman|Lomma
+C|36142|74|M|Kjell Nilsson|Lomma
+C|36143|69|M|Karsten Bringmark|Lomma
+C|36144|67|M|Erik Cederbom|Lilla Lomma
+C|36145|78|K|Annemarie Björkman|Lomma
+C|50238|35|K|Martha Henriksson-Witt|35, Jurist, Önnerup
+C|50239|71|M|Lars-Göran Svensson|71, Civilekonom, Borgeby
+C|37082|66|K|Lena Svensson|Förskollärare, 66, Bjärred
+C|50241|47|K|Cecilia Edelborg Christensen|47, Ekonom, Bjärred
+C|50242|73|M|Bo Gunnarsson|73, Lantmästare, Lomma
+C|50243|31|M|Johan Brahme|31, Elektriker, Fjelie
+C|50244|70|M|Sven-Bernhard Brahme|70, Agronom, Fjelie
+C|50245|59|M|Rikard Hansson-Frostgård|59, Lantbrukare, Önnerup
+C|50246|18|M|Sigge Meurling|18, Studerande, Bjärred
+C|50247|23|M|Eric Luth|Egenföretagare, 23, Flädie
+C|37099|72|M|Tor-Björn Langåsen|Instrumenttekniker, 72, Bjärred
+C|50249|76|M|Curt Gelin|76, Limnolog, Bjärred
+C|50250|76|K|Gun Lindh|76, Fd.hemvårdare, Bjärred
+C|50251|78|K|Maj Ottosson|78, Pensionär, Habo Ljung
+C|422800|40|K|Kristina Thored|39, civilingenjör
+C|422801|41|M|Kristian Lindsjö|41, entreprenör
+C|422802|73|M|Lennart Nilsson|72, civilingenjör
+C|422803|42|K|Maria Anderson|42, lärare
+C|422804|41|M|Mikael Häggblad|40, affärsutvecklare
+C|422805|42|M|Staffan Åkerlind|42, säljare
+C|422806|43|M|Fredrik Sverkersten|43, marknadschef
+C|422807|40|K|Jenny Morau|40, projektledare
+C|422808|49|M|Hugo Carlsson|49, civilingenjör
+C|31804|50|K|Anna-Karin Davidsson|50 år, Lärare, Lomma
+C|59641|75|M|Christer Philipson|75 år, fd Polis, Bjärred
+C|62444|72|M|BG Svensson|Civilekonom, Bjärred
+C|62445|73|M|Urban Girhammar|Tekn. doktor, Bjärred
+C|62446|85|M|Eric Kamph|Pensionär, Lomma
+C|62447|53|M|Johan Davidsson|Civilingenjör, Bjärred
+C|62448|50|M|Peter Schön|Förvaltare, Lomma
+C|69095|38|K|Sandra Pilemalm|Lomma
+C|69096|57|K|Eva-Lotta Grantén|Bjärred
+C|69097|51|M|Jonas Benke|Bjärred
+C|69098|53|M|Mikael Pankko|Lomma
+C|69099|60|K|Gun Larsson|Bjärred
+C|69100|73|K|Britt Hjertqvist|Lomma
+C|69101|78|M|Bo Polsten|Lomma
+C|69102|46|M|Joachim Bengtsson|Bjärred
+C|69103|65|M|Remco Andersson|Bjärred
+C|69104|76|M|Anders Olsson|Bjärred
+C|69105|62|M|Peppe Pollack|Lomma
+C|69106|72|K|Gun-Britt Ohlsson|Bjärred
+C|69107|42|M|Pär Tufvesson|Flädie
+C|69108|59|K|Ann Pollack|Lomma
+C|69109|42|M|Christian Kampmann|Lomma
+C|69110|51|K|Carin Andersson|Lomma
+C|69111|84|M|Rune Larsson|Lomma
+C|21529|70|K|Ann-Marie Lundberg|Pensionär, 70 år, Lomma
+C|161059|72|K|Louise Herslow|leg. psykolog, kriminolog, 72 år, Bjärred
+C|161060|59|M|Mikael Lundqvist|företagare, 59 år, Bjärred
+C|161061|62|K|Viveka Berger Pålsson|agronom, 62 år, Lomma
+C|161062|63|K|Ingrid Ascard|konsult, 63 år, Lomma
+C|57207|50|M|Robert Wenglén|50 år, universitetslektor, Bjärred
+C|57208|62|M|Anders Berngarn|62 år, rektor, Lomma
+C|57209|52|K|Sofia Forsgren-Böhmer|52 år, civilekonom, Bjärred
+C|57210|64|K|Carin Hansson|64 år, servicerådgivare, Fjelie
+C|57211|54|M|Jerry Ahlström|54 år, rektor, Lilla Lomma
+C|57212|31|K|Emma Köster|31 år, gymnasielärare, Lomma
+C|57213|67|M|Lennart Månsson|67 år, ingenjör, Lomma
+C|57214|58|M|Bert Larsson|58 år, polisinspektör, Lomma
+C|57215|26|M|Oscar Magnusson|26 år, ekonomiassistent, Bjärred
+C|57216|48|K|Susanne Borgelius|48 år, verksamhetssamordnare, Lomma
+C|57217|43|K|Ann Haluzova|43 år, egen företagare, Flädie
+C|57218|41|M|Johan Danielsson|41 år, affärsutvecklare, Bjärred
+C|57219|43|M|Anders Olin|43 år, MDPhD leg. läkare, Habo Ljung
+C|57220|55|M|Leif Lindblad|55 år, egen företagare, Lomma
+C|57221|59|K|Lena Wahlgren|59 år, chefsassistent, Habo Ljung
+C|57222|34|M|Fredrik Axelsson|34 år, fil. kand., Borgeby
+C|57223|30|M|Jesper Wiman|30 år, drifttekniker, Lomma
+C|57224|39|K|Malin Taggu|39 år, civilekonomi, Lomma
+C|57225|45|M|Richard Jerneborg|45 år, informatör, Bjärred
+C|57226|54|M|Marc Schildt|54 år, affärsutvecklare, Bjärred
+C|57227|49|K|Charlott Enocson|49 år, HR-konsult, Lomma
+C|57228|54|K|Beatrice Palmgren|54 år, ambulanssjuksköterska, Lomma
+C|57229|56|M|Krister Wiman|56 år, produktionsledare, Bjärred
+C|57230|58|K|Marie Nilsson|58 år, egen företagare, Lomma
+C|57231|21|M|Hannes Pennsäter|21 år, student, Lomma
+C|57232|35|M|Oscar Remfors|35 år, civilekonom, Lomma
+C|57233|48|M|Peter Brobäck|48 år, egen företagare, Bjärred
+C|57234|46|M|Stefan Wojnicki|46 år, sales manager, Lomma
+C|57235|72|K|Christina Unell|72 år, leg. läkare, Bjärred
+C|57236|49|K|Jonna Ekström Tingberg|49 år, enhetschef, Bjärred
+C|57237|46|M|Magnus Björkman|47 år, områdeschef, Bjärred
+C|57238|46|M|Jens Thystrup|46 år, service manager, Lomma
+C|57239|42|M|Leslie Qvandrup|43 år, konsult, Bjärred
+C|57240|28|M|Aron Regnéll|28 år, rådgivare, Bjärred
+C|57241|50|K|Anna Ericson|50 år, receptionist, Lomma
+C|57242|72|M|Attila Beck|72 år, senior, Lomma
+C|57243|52|K|Eva Banheden Lindblad|52 år, leg. sjuksköterska, Lomma
+C|57244|49|M|Johan Cederfjäll|49 år, regionchef, Bjärred
+C|57245|22|K|Miriam Ahlström|22 år, logopedstudent, Lilla Lomma
+C|57246|49|K|Elisabeth Svensson|49 år, ekonomichef, Bjärred
+C|57247|54|M|Patrik Bystedt|54 år, tandtekniker, Lomma
+C|57248|75|K|Anita Fränninge|75 år, f.d. lärare, Bjärred
+C|57249|40|K|Caroline Lindberg|40 år, kommunikationskonsult, Bjärred
+C|57250|69|K|Monica Thomhave Jeding|69 år, pedagog, Bjärred
+C|57251|74|M|Tommy Nilsson|74 år, herr, Lomma
+C|57252|52|K|Åsa Ahlström|52 år, musiklärare, Lilla Lomma
+C|57253|70|M|Ola Ahlqvist|70 år, elingenjör, Bjärred
+C|57254|42|M|Karl Emanuelsson|42 år, CFO, Bjärred
+C|57255|69|K|Gunnel Holmqvist|69 år, socionom, Borgeby
+C|57256|53|K|Cecilia Wittrock Lindoff|53 år, adminstratör, Bjärred
+C|57257|66|K|Janina Pettersson|66 år, pedagog, Flädie
+C|57258|63|M|Bengt Göransson|63 år, pensionär, Lomma
+C|57259|68|M|Janeric Seidegård|68 år, klinisk forskare, Bjärred
+C|57260|71|M|Björn Haaland|71 år, läkare, Lomma
+C|57261|62|K|Gisela Lennbrant Oveby|62 år, senior, Lomma
+C|57262|62|K|Ingrid Strömgren|62 år, utbildningsansvarig, Lomma
+C|57263|57|M|Håkan Herrström|57 år, civilekonom, Lomma
+C|57264|64|M|Anders Sjögren|64 år, konsult, Bjärred
+C|57265|24|M|Henrik Ahlström|24 år, elektriker, Lilla Lomma
+C|57266|50|M|Sven Gunnarsson|50 år, civilekonom, Bjärred
+C|57267|66|K|Camilla Cronsjö|66 år, senior, Lomma
+C|57268|41|M|Peter Jansson|41 år, civilingenjör, Lomma
+C|54031|36|M|Jimmy Ringström|Elektriker, 36 år
+C|54032|52|K|Jeanette Larson|1966, Sekreterare
+C|54033|53|M|Anders Bergström|1964, Fd tjänsteman på polismyndigheten
+C|54034|20|M|Oscar Sedira|1997, Maskinoperatör
+C|54035|30|M|Jonas Olsson|1988, Drifttekniker
+C|54036|44|K|Natalia Engstedt|1973, Ekonom
+C|54037|52|K|Åsa Undrén-Nilsson|1966, Egenföretagare
+C|54038|54|M|Peter Nilsson|1964, Egenföretagare
+C|54039|53|M|Rickard Hansson|1965, Skogsarbetare
+C|26917|32|K|Erika Hjelm|folkhälsostrateg/sjuksköterska, 32 år, Lomma
+C|26918|42|M|Patrik Milton|medicinteknisk civilingenjör, Bjärred
+C|26919|65|K|Annika Ohlson|adjunkt, 65 år, Bjärred
+C|26920|64|M|Leslie Walke|egenföretagare, 64 år, Bjärred
+C|26921|54|K|Ulrika Lindgren|förskollärare, 54 år, Bjärred
+C|26922|64|M|Bengt Håkansson|hortonom, 64 år, Lomma

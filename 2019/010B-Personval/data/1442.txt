@@ -1,8 +1,151 @@
-2|70565|70566|70567|70568|70569|70570|70571|70572|70573|70574|70575|70576|70577|70578|70579|70580|70581|70582|70583|70584|70585|70586|70587|70588|70589|70590|70591
-4|2947|3125|8560|8561|2965|8563|8564|8565|8566|8567|3101|8569|3123|8571|8572|8573|8574|8575|8576|8577|8578|8579|8580|8581|8582|8583|8584|8585
-68|274725|274737|274940|274721|275342|275343|275344|275345|275346|275347|275348|275349|275350|275351|275352|275353|275354|275355|275356|275357|275358
-3|197501|197502|197503|197504|197505|197506|197507|197508|197509|197510|197511|197512|197513
-55|74070|121124|121125|121126|121127|121128|121129|121130|121131
-1|253904|253887|254283|255082|255083|255084|255085|255086|255087|255088|255089|253897|255091|255092|255093|255094|255095|255096|255097|255098|255099|255100|255101|255102
-110|66261|66262|66263|66264|66266|66267|66268|515841|515842|515843|515844|515845|515846
-5|74888|74889|24726|74891|74892|16795|74894
+T|Vårgårda
+A|2|70565|70566|70567|70568|70569|70570|70571|70572|70573|70574|70575|70576|70577|70578|70579|70580|70581|70582|70583|70584|70585|70586|70587|70588|70589|70590|70591
+A|4|2947|3125|8560|8561|2965|8563|8564|8565|8566|8567|3101|8569|3123|8571|8572|8573|8574|8575|8576|8577|8578|8579|8580|8581|8582|8583|8584|8585
+A|68|274725|274737|274940|274721|275342|275343|275344|275345|275346|275347|275348|275349|275350|275351|275352|275353|275354|275355|275356|275357|275358
+A|3|197501|197502|197503|197504|197505|197506|197507|197508|197509|197510|197511|197512|197513
+A|55|74070|121124|121125|121126|121127|121128|121129|121130|121131
+A|1|253904|253887|254283|255082|255083|255084|255085|255086|255087|255088|255089|253897|255091|255092|255093|255094|255095|255096|255097|255098|255099|255100|255101|255102
+A|110|66261|66262|66263|66266|66267
+A|5|74888|74889|24726|74891|74892|16795|74894
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|70565|47|M|Tony Willner|Larmtekniker, Vårgårda
+C|70566|53|K|Sirpa Bergenstoff|Ombudsman,Vårgårda
+C|70567|45|M|Daniel Andersson|Industriarbetare, Vårgårda
+C|70568|48|K|Marielle Palm|Socialsekreterare,Östadkulle
+C|70569|48|M|Johan Larsson|Kriminalvårdare, Vårgårda
+C|70570|62|K|Margareta Johansson|Montör,Vårgårda
+C|70571|52|M|Thomas Högberg|Prototypbyggare,Vårgårda
+C|70572|53|K|Bahrija Gafurovic|Produktionsledare,Vårgårda
+C|70573|64|M|Kenth Hulth|Tjänsteman,Vårgårda
+C|70574|43|K|Sonor Anvarizyaei|Undersköterska,Vårgårda
+C|70575|66|M|Christer Forsmark|Pensionär,Vårgårda
+C|70576|59|K|Annette Sjuenell|Högstadielärare,Ambjörntorp
+C|70577|65|M|Karl-Erik Johansson|Pensionär,Vårgårda
+C|70578|49|K|Greta Cojocaru|Arbetsledare,Vårgårda
+C|70579|50|M|Tommy Leandersson|Underhållschef,Vårgårda
+C|70580|48|K|Angela Graff|Studerande,Södra Härene
+C|70581|42|M|Henrik Sanddahl|Metallarbetare,Vårgårda
+C|70582|45|K|Sofia Jansson|Socialsekreterare, Vårgårda
+C|70583|46|M|Mohamad Rafiq Alsaddik|Farmaceut,Vårgårda
+C|70584|40|K|Maria Andersson Willner|
+C|70585|69|M|Lennart Larsson|Pensionär,Vårgårda
+C|70586|45|K|Monica Leandersson|Metalarbetare,Vårgårda
+C|70587|36|M|Patrik Rydelius|Kvalitetstekniker,Vårgårda
+C|70588|51|M|Glenn Bergenstoff|Arbetsmiljötekniker,Vårgårda
+C|70589|60|M|Ingvar Jerlehag|Metalarbetare,Vårgårda
+C|70590|70|M|Karl-Arne Larsson|Pensionär,Vårgårda
+C|70591|53|M|Jörgen Andersson|Servicetekniker,Kvinnestad
+C|2947|51|M|Bengt Hilmersson|51 år, Nårunga
+C|3125|66|K|Inga Olausson|66 år, Vårgårda
+C|8560|65|K|Anneli Hermansson|65 år, socionom, Vårgårda
+C|8561|23|M|Michael Johansson|23 år, VVS-konstruktör, Vårgårda
+C|2965|23|K|Fanny Lindberg|23 år, Vårgårda
+C|8563|55|M|Urban Arvidsson|55 år, konstruktör, Vårgårda
+C|8564|61|M|Anders Lennermo|61 år, butiksägare, Lena
+C|8565|46|M|Per Aholainen|46 år, kulturentreprenör, Vårgårda
+C|8566|69|K|Birgit Kullingsjö|69 år, fd. lärare, Bergstena
+C|8567|50|M|Christer Mårtensson|50 år, trädgårdsmästare, Siene
+C|3101|66|M|Stig-Olov Tingbratt|66 år, Vårgårda
+C|8569|55|K|Monika Arrnäs|55 år, enhetshef, Vårgårda
+C|3123|47|M|Peter Olofsson|47 år, Vårgårda
+C|8571|76|K|Marianne Andersson|76 år, mångsysslare, Vårgårda
+C|8572|76|K|Diana Johansson|76 år, leg. sjuksköterska, Hägrunga
+C|8573|60|M|Lennart Larsson|60 år, lantbrukare, Hol
+C|8574|66|K|Runa Eriksson|66 år, montör, Kvinnestad
+C|8575|52|M|Per Brorsson|53 år, chaufför, Vårgårda
+C|8576|53|M|Anders Lummander|53 år, lantbrevbärare, Vårgårda
+C|8577|64|M|Jan Olausson|64 år, driftsansvarig, Bergstena
+C|8578|50|K|Anna Benjaminsson Riis|50 år, undersköterska, Hägrunga
+C|8579|75|M|Leif Carlsson|75 år, lantbrukare, Årred
+C|8580|68|M|Urban Jansson|68 år, lantbrukare, Lagmansholm
+C|8581|54|M|Mikael Lindberg|54 år, tekniker, Högstorp
+C|8582|68|K|Mona Johansson|68 år, pensionär, Vårgårda
+C|8583|68|M|Egon Gårdesson|68 år, ingenjör, Horla
+C|8584|74|M|Evald Hermansson|74 år, lantbrukare, Södra Härene
+C|8585|56|M|Egon Stenseke|56 år, lantbruksekonom, Stenatorp
+C|274725|67|M|Arne Olsson|67, Lantbrukare, Vårgårda
+C|274737|50|K|Åsa Hallberg|50, Civilingenjör, Vårgårda
+C|274940|40|M|Daniel Dalén|39, Egenföretagare, Vårgårda
+C|274721|58|K|Agneta Janson|58, Sjuksköterska, Vårgårda
+C|275342|40|M|Kristian Olsson|Egenföretagare, Nårunga
+C|275343|47|M|Torbjörn Pettersson|Produktionschef, Siene
+C|275344|67|M|Hans Åke Max|Pensionär, Vårgårda
+C|275345|45|M|Rikard Martinsson|Projektledare, Vårgårda
+C|275346|66|K|Inga-Lena Tellström|Ekonom, Vårgårda
+C|275347|77|M|Kjell Korpås|Utbildningskonsult, Ornunga
+C|275348|40|M|Fredrik Wigell|Tjänsteman, Nårunga
+C|275349|37|M|Håkan Andreasson|Egenföretagare, Bergstena
+C|275350|43|K|Annika Andersson|Beteendevetare, Vårgårda
+C|275351|63|M|Samuel Janson|Bebyggelseantikvarie, Bergstena
+C|275352|75|K|Birgitta Eriksson|Ekonomibiträde, Skogsbygden
+C|275353|50|M|John Olofsson|Maskinuppsättare, Vårgårda
+C|275354|65|M|Sören Janson|Fastighetsskötare, Lagmansholm
+C|275355|56|K|Ann-Sofi Jonsson|Poliskommissarie, Bergstena
+C|275356|82|M|Tage Eriksson|Entreprenör, Skogsbygden
+C|275357|69|M|Birger Knutsson|Polis, Bergstena
+C|275358|54|M|Klas Nordgren|Gymnasielärare, Vårgårda
+C|197501|69|M|Christer Björnsson|Redovisningskonsult, Ornunga
+C|197502|49|M|Alf-Olav Nilsen|IT-specialist, Vårgårda
+C|197503|35|M|Magnus Carlsson|35, grävmaskinist, Vårgårda
+C|197504|47|K|Magdalena Eriksson|48, skogskonsult, Vårgårda
+C|197505|76|M|Leif Gunnarsson|Ingenjör, Vårgårda
+C|197506|77|M|Sven-Olov Vårhall|Försäljare, Ljurhalla
+C|197507|42|K|Stina Ekdahl|42, rektor, Vårgårda
+C|197508|75|M|Olof Rydler|Civilingenjör, Asklanda
+C|197509|72|K|Birgitta Olsson|Leg. sjuksköterska, Vårgårda
+C|197510|70|M|Henry Claesson|Företagare, Södra Härene
+C|197511|51|K|Eva Schröder|51, ekonomiassistent, Vårgårda
+C|197512|76|M|Evert Bergström|Lantbrukare, Hol
+C|197513|76|K|Kristina Gunnarsson|76, sjuksköterska, Vårgårda
+C|74070|51|K|Helen Persgren|52 år, Arbetsterapeut/Familjehem, Nårunga
+C|121124|64|M|Gunnar Lennermo|64 år, Solvärmekonsult
+C|121125|36|K|Sandra Magnusson|37 år, Kyrkogårdsarbetare
+C|121126|71|K|Karin Jennie Brockmann|71 år, Undersköterska
+C|121127|18|M|Adbi Ahmed|18 år, Studerande
+C|121128|74|M|Ingvar Svantesson|74 år, Vindkraftkonsult
+C|121129|48|M|Karl-Olof Ekdahl|47 år, Ortopedingenjör
+C|121130|87|K|Gunn Nordqvist|87 år, Fattigpensionär
+C|121131|62|M|Lars Persgren|62 år, Småbrukare
+C|253904|54|M|Kenneth Max|54, Lantbrukare, Vårgårda
+C|253887|27|K|Mikaela Engström|27, Säljare, Vårgårda
+C|254283|47|K|Åsa Olsson|47, Redovisningsekonom, Vårgårda
+C|255082|35|K|Anna Ljungquist|Enhetschef, Asklanda
+C|255083|57|M|Claes Hägermalm|Kyrkvaktmästare, Hägrunga
+C|255084|63|M|Lars Davidsson|Skogsmästare, Asklanda
+C|255085|71|K|Ingamaj Wallertz Olsson|Ekonom, Vårgårda
+C|255086|73|M|Tore Norén|Civilingenjör, Lagmansholm
+C|255087|47|M|Johan Hansson|Reparatör, Horla
+C|255088|44|K|Annelie Hastig|Textilekonom, Tubbetorp
+C|255089|35|M|Einar Ström|Elektriker, Eklanda
+C|253897|72|M|Mattias Olsson|72, Byggmästare, Vårgårda
+C|255091|46|M|Peter Eriksson|Fastighetsägare, Skogsbygden
+C|255092|47|M|Fredrik Davidsson|Byggmästare, Eklanda
+C|255093|48|M|Måns Reventberg|Företagare, Vårgårda
+C|255094|45|M|Marcus Olsson|Företagare, Tubbetorp
+C|255095|62|M|Sven Karlsson|Ingenjör, Siene
+C|255096|39|K|Anna-Lena Davidsson|Ambulanssjuksköterska, Vårgårda
+C|255097|66|M|Bertil Olsson|Byggmästare, Vårgårda
+C|255098|51|M|Håkan Claesson|Företagare, Ornunga
+C|255099|58|K|Gerd Davidsson|Tandsköterska, Asklanda
+C|255100|60|M|Kjell Gabrielsson|Lanthandlare, Ljur
+C|255101|63|M|Hans Davidsson|Skogsmästare, Asklanda
+C|255102|81|M|Leonard Mattsson|DJ/Pensionär, Vårgårda
+C|66261|68|M|Gunnar Göransson|pensionär,68 år
+C|66262|65|M|Pelle Eriksson|65 år, Pensionär
+C|66263|33|K|Dominika Larsson|33 år, Studerande
+C|66266|57|M|Krister Eriksson|57 år, Säkerhetstekniker brandlarm
+C|66267|51|K|Ratree Göransson|lokalvårdare, 51 år
+C|74888|48|M|Conny Rhedin|47 år, sjukpensionär, Klockarebolet
+C|74889|34|M|Patrik Dahlin Olofsson|34 år, sjuksköterska, Östadkulle
+C|24726|53|M|Johny Andersson|53 år, sjukpensionär, Vårgårda
+C|74891|37|M|Oskar Västfjäll|37 år, ungdomsbehandlare, Vårgårda
+C|74892|51|K|Thina Dahlin Olofsson|50 år, undersköterska, Östadkulle
+C|16795|33|M|Jeff Carlson|33 år, hamnarbetare, Vårgårda
+C|74894|52|K|Maria Huovelin|livsfilosof

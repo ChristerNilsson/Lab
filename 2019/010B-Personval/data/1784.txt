@@ -1,10 +1,189 @@
-2|73925|74859|109301|75369|75684|109304|109561|109562|109563|109564|109800|109801|22203|109803|109804|109850|109851|109852|109853|109854|109892|74923|109894|76153|109896|109969|109970|109971|110096|110264|110266|110267|110395|110396|110397|110398|110562|110563|110564|110691|110692|110693|110822|110823|110824|111066|111067|111068|111069|111070|111071|111072|111073|111074|111075
-4|42114|8541|42116|42117|42118|42119|42120|42121|42122|42123|42124|42125|42126|42128|42129|42130|42131|42132|42133|42134|42135
-532|283378|283379|283380|283381|283382|283383|283384|283385
-68|293311|299974|299975|299976
-1011|513512|516027
-3|28194|28199|58217|58218|58219|58220|31341|58222|58223|58224|58225|58226|58227|58228|58229|58230|58231
-55|414472|414473|414474|414475|414476|414477|414478
-1|45775|602|45777|648|642|45780|630|45782|45783|45784|45785|45786|45787|45788|45789|45790|45791|45792|45793|45794|45795|45796|45797|45798|45799
-110|94461|94462|94463|94464|94465|94466|94467|94468|94469|512651|514922|514923|514924|515326|515580|516004
-5|30309|119699|222285|119700|30475|119702|119703|171065|119704|30471|119706|119707|222473
+T|Arvika
+A|2|73925|74859|109301|75369|75684|109304|109561|109562|109563|109564|109800|109801|22203|109803|109804|109850|109851|109852|109853|109854|109892|74923|109894|76153|109896|109969|109970|109971|110096|110264|110266|110267|110395|110396|110397|110398|110562|110563|110564|110691|110692|110693|110822|110823|110824|111066|111067|111068|111069|111070|111071|111072|111073|111074|111075
+A|4|42114|8541|42116|42117|42118|42119|42120|42121|42122|42123|42124|42125|42126|42128|42129|42130|42131|42132|42133|42134|42135
+A|532|283378|283379|283380|283381|283382|283383|283384|283385
+A|68|293311|299974|299975|299976
+A|1011|513512|516027
+A|3|28194|28199|58217|58218|58219|58220|31341|58222|58223|58224|58225|58226|58227|58228|58229|58230|58231
+A|55|414472|414473|414474|414475|414476|414477|414478
+A|1|45775|602|45777|648|642|45780|630|45782|45783|45784|45785|45786|45787|45788|45789|45790|45791|45792|45793|45794|45795|45796|45797|45798|45799
+A|110|94461|94462|94463|94464|94465|94466|94467|94468|94469|512651|514922|514923|514924|515326|515580|516004
+A|5|30309|119699|222285|119700|30475|119702|119703|171065|119704|30471|119706|119707|222473
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|73925|43|M|Peter Söderström|43 år, Arvika
+C|74859|51|K|Lisa Levin|51 år, Arvika
+C|109301|37|M|Henrik Axelsson|Narkossköterska, Arvika
+C|75369|47|K|Lena Kandergård|47 år, Arvika
+C|75684|57|M|Lars-Ove Jansson|57 år, Arvika
+C|109304|26|K|Jenny Boquist|Student, Arvika
+C|109561|47|M|Jonas Ås|Industriarbetare, Brunskog
+C|109562|36|K|Maryna Bialesta Vilhelm|Sjuksköterska, Jössefors
+C|109563|61|M|Kenneth Wåhlund|Fd ombudsman, Gunnarskog
+C|109564|48|K|Sara Andersson|Förskollärare, Arvika
+C|109800|68|M|Sten Fransson|Pensionär, Agneteberg
+C|109801|63|K|Eva Svensson|Undersköterska, Arvika
+C|22203|49|M|Kenneth Johannesson|49 år, Arvika
+C|109803|44|K|Eva-Lisa Shala|Butikssäljare, Arvika
+C|109804|57|M|Håkan Jivesand|Verksamhetsutvecklare, Dottevik
+C|109850|65|K|Maria Rönnehäll|Dagbarnvårdare, Klässbol
+C|109851|68|M|Anders Söderström|Pensionär, Sulvik
+C|109852|63|K|Kerstin Svensson|Undersköterska, Gunnarskog
+C|109853|73|M|Nils-Gunnar Andersson|Lärare, Högvalta
+C|109854|49|K|Linda Hjalmarsson Fjeldstad|Lärare, Jössefors
+C|109892|34|M|Raghad Alghanem|Verksamhetsutvecklare, Arvika
+C|74923|65|K|Gerd Karlsson|65 år, Arvika
+C|109894|22|M|Walid Ahmed|Student, Arvika
+C|76153|42|K|Linda Hansen Grundel|43 år, Arvika
+C|109896|47|M|Leif Hammoud|Bussförare, Haga
+C|109969|72|K|Margareta Von Wachenfeldt|Pensionär, Arvika
+C|109970|38|M|Kristoffer Svensson|Administratör, Arvika
+C|109971|39|K|Sinziana Georgescu|Undersköterska, Arvika
+C|110096|64|M|Bengt Rönnehäll|Industriarbetare, Klässbol
+C|110264|67|K|Eva Ryman|Pensionär, Degerängen
+C|110266|40|K|Alejandra Restrepo|Servitris, Arvika
+C|110267|44|M|Stefan Åström|Industriarbetare, Arvika
+C|110395|70|K|Irene Söderström|Pensionär, Sulvik
+C|110396|58|M|Fleming Vilhelm|Pensionär, Jössefors
+C|110397|36|K|Sinem Edebali|Förskollärare, Arvika
+C|110398|48|M|Willy Tunér|Industriarbetare, Speked
+C|110562|43|M|Rikard Dahlin|Gjuteriarbetare, Brunskog
+C|110563|60|K|Märit Carlzon Magnusson|SFI lärare, Taserud
+C|110564|76|M|Hans Forssell|Pensionär, Arvika
+C|110691|55|K|Marika Jakobsson|Industriarbetare, Arvika
+C|110692|64|M|Bo Lundberg|Pensionär, Arvika
+C|110693|38|K|Elisabeth Restrepo|Kassörska, Dottevik
+C|110822|61|M|Lennart Markström|Gjuteriarbetare, Västra Sund
+C|110823|77|K|Inger Hjerpe|Pensionär, Dottevik
+C|110824|65|M|Roger Kolberg|Pensionär, Ottebol
+C|111066|69|K|Lisbeth Axelsson|Pensionär, Jössefors
+C|111067|49|M|Göran Andersson|IT-chef, Arvika
+C|111068|48|K|Camilla Nylander|Receptionist, Arvika
+C|111069|84|M|Bengt Bengtsson|Pensionär, Glava
+C|111070|63|M|Peter Eckman|Pensionär, Dottevik
+C|111071|52|M|Anders Nylander|VD, Arvika
+C|111072|55|M|Tony Eskilsson|Postarbetare, Minneberg
+C|111073|50|M|Roger Danielsson|Gjuteriarbetare, Brättne
+C|111074|72|M|Tommy Brever|Tekniker, Solvik
+C|111075|64|M|Henry Lindblom|Butiksråd, Arvika
+C|42114|31|M|Anders Bergfjord|Gunnarskog, 31 år, Lantbrukare
+C|8541|43|K|Mona Smedman|43 år, Organisationsutvecklare, Arvika
+C|42116|66|M|Per-Olov Ålander|Egenföretagare, 66 år, Gunnarskog
+C|42117|34|K|Camilla Gustafsson|Lärare, 34 år, Stavnäs
+C|42118|37|M|Robert Aronius|Lantbrukare, 38 år, Hillringsberg
+C|42119|60|K|Ingela Jonsson|Leg. Arbetsterapeut, 60 år, Sulvik
+C|42120|40|M|Andreas Strandberg|Lantbrukare, 40 år, Gunnarskog
+C|42121|29|K|Jina Beri Ochana|Studiehandledare, 29 år, Arvika
+C|42122|63|K|Helen Kensby|Undersköterska, 63 år, Mangskog
+C|42123|46|K|Eva Leander|Labchef, 46 år, Arvika
+C|42124|60|M|Ulf Jonsson|Arvika, 60 år, Platschef
+C|42125|39|M|Tomas Steno|Sågverksarbetare, 40 år, Mangskog
+C|42126|67|M|Kjell Bergquist|Ekonom, 67 år, Ny
+C|42128|35|M|Jonas Gustafsson|Kyrkogårdsarbetare, 35 år, Stavnäs
+C|42129|75|M|Leif Nauclér|Företagare, 75 år, Brunskog
+C|42130|52|M|Michael Carlsson|Inköpare, 52 år, Arvika
+C|42131|69|M|Bengt Olsson|Pensionär, 69 år, Sälboda
+C|42132|39|M|Henrik Eriksson|Industriarbetare, 39 år, Stavnäs
+C|42133|67|M|Rolf Nordling|Byggnadssnickare, 68 år, Gunnarskog
+C|42134|83|K|Margareta Gregow|Med. Kand., 83 år, Arvika
+C|42135|53|M|Robin Smedman|Inköpare, 53 år, Arvika
+C|283378|36|K|Sara Falkstad|36 år, Klässbol
+C|283379|34|K|Anna Feucht|34, redovisningskonsult
+C|283380|72|M|Sven Englund|72, inspiratör och glesbygdskosmopolit
+C|283381|25|K|Nathalie Österwald|25, studerande/personlig assistent
+C|283382|57|K|Anna Elgh|57, verksamhetsutvecklare
+C|283383|64|K|Mirja Jordan|64, dansledare
+C|283384|22|K|Ronja Grafström|22, musiklärarstudent
+C|283385|65|K|Carla Bergensand|65, undersköterska
+C|293311|42|K|Susanne Engstad Clarke|butikschef, Arvika
+C|299974|36|M|Daniel Kristensen|36 år, lärare
+C|299975|44|K|Maria Carlsson|44 år, präst
+C|299976|51|K|Cathrine Axelsson|51 år, volontär
+C|513512|61|M|Lennart Skoog|
+C|516027|50|M|Lars Skoglund|
+C|28194|75|M|Gösta Frödin|fd tandläkare, 75 år, Arvika
+C|28199|25|M|Anton Sjöstedt|gymnasielärare, 25 år, Arvika
+C|58217|34|K|Emma Lidholm|Öjerud
+C|58218|67|K|Lisbeth Öjstrand|Älgå
+C|58219|59|M|Andreas Martelius|Högerud
+C|58220|74|K|Birgitta Frödin|Bosebyn
+C|31341|68|M|Kjell Åke Holdar|socionom, 68 år, Arvika
+C|58222|64|K|Carin Martin|Arvika
+C|58223|64|M|Jan-Erik Lundberg|Arvika
+C|58224|51|K|Majbrit Sörensen|Säterud Gunnarskog
+C|58225|66|M|Johan Wästlund|Edane
+C|58226|72|K|Asta Blom|Arvika
+C|58227|62|M|Carl Wästlund|Edane
+C|58228|51|K|Jessica Andersson|Klässbol
+C|58229|82|M|Sven Wihk|Edane
+C|58230|66|K|Eva Holdar|Arvika
+C|58231|76|M|Curt Edenholm|Arvika
+C|414472|25|K|Alina Koltsova|25 år, arkivarie, Arvika
+C|414473|75|K|Barbara Hinsch|75 år, ekologisk jordbrukare, Gunnarskog
+C|414474|72|K|Kristina Nordström|71 år, distriktsläkare, Högvalta
+C|414475|60|K|Anneli Englund|60 år, skolsköterska, Edane
+C|414476|27|M|Filip Pontelius|27 år, studerande, Arvika
+C|414477|86|M|Erik Torstensson|86 år, fd högstadielärare, Styckåsen
+C|414478|79|M|Martin Peeters|79 år, pensionär, Taserud, Graninge
+C|45775|52|K|Kristina Bengtsson Nilsson|52 år, oppositionsråd
+C|602|46|M|Pål Jonson|riksdagsledamot, Värmlands län
+C|45777|70|M|Jan Wettmark|70 år, f.d oppositionsråd
+C|648|67|M|Börje Wahlund|civilingenjör/pensionär, Arvika
+C|642|55|M|Håkan Axelsson|brandingenjör, Arvika
+C|45780|19|K|Elin Rundin|19 år, studerande
+C|630|73|M|Henrik Samuelsson|leg. läkare/pensionär, Arvika
+C|45782|42|K|Åsa Öberg|42 år, beteendevetare
+C|45783|26|M|Sebastian Bäckström|26 år, egen företagare
+C|45784|65|M|Christer Bylund|65 år, entreprenör
+C|45785|79|M|Jan Rülcker|79 år, civilekonom
+C|45786|66|M|Jan Westergren|66 år, konsult
+C|45787|20|K|Alva Sjöberg|20 år, studerande
+C|45788|19|K|Maja Sveder|19 år, studerande
+C|45789|44|M|Vladimir Stacho|44 år, produktionsansvarig
+C|45790|66|M|Jonny Andersson|66 år, projektledare
+C|45791|54|M|Sven-Inge Eriksson|54 år, ekonomichef
+C|45792|61|K|Kristina Blakstad|61 år, designer
+C|45793|78|M|Bo Ekberg|78 år, f.d konsult
+C|45794|82|M|Uno Eriksson|82 år, konsult
+C|45795|76|M|Paul Stolt|77 år, musiker
+C|45796|64|M|Jan-Olof Johansson|64 år, fotograf
+C|45797|82|M|Roy Pettersson|82 år, hemmansägare
+C|45798|62|M|Anders Kisterud|62 år, egen företagare
+C|45799|61|M|Bengt Persson|61 år, egen företagare
+C|94461|54|M|Anders Skogberg|54, Civilingenjör, Arvika
+C|94462|74|K|Caisa Antonsson|74, Pensionär, Arvika
+C|94463|57|K|Ann Garin|57, Kockstewart, Arvika
+C|94464|29|K|Frida Hagström|
+C|94465|23|K|Michaela Jakobsson|23, Svetsare, Arvika
+C|94466|68|K|Eva Nilsson|68, Pensionär, Arvika
+C|94467|70|M|Leif Pettersson|70, Pensionär, Glava
+C|94468|52|K|Lena Skogberg|52, Ekonomiansvarig, Arvika
+C|94469|56|M|Per Johansson|56, Köpman, Arvika
+C|512651|59|K|Betty Engström|
+C|514922|66|M|Roger Antonsson|
+C|514923|42|M|Jens-Ove Ranta|
+C|514924|24|M|Johan Johansson|
+C|515326|37|M|Jimmy Forsman|
+C|515580|26|K|Emma Salomonsson Wester|
+C|516004|29|M|Patrik Jonsson|
+C|30309|43|K|Zara Hedelin|42 år, Arvika, doktorand
+C|119699|40|K|Anna-Maria Nykvist|40 år, lärare SFI
+C|222285|47|M|Patrik Ohlsson|47 år, restaurangbiträde
+C|119700|45|M|Lars Axelsson|44 år, butikssäljare
+C|30475|65|K|Karina Nykvist|65 år, Arvika, MAS
+C|119702|71|M|Claes Axelsson|71 år, pensionär
+C|119703|60|K|Eva Hilmersson|60 år, sjukpensionär
+C|171065|38|M|Erik Bäckström|38 år, butiksbiträde
+C|119704|74|K|Kersti Lundin|74 år, pensionerad informatör
+C|30471|53|K|Annelie Ulfvenstierna|52 år, Arvika, vårdbiträde
+C|119706|37|M|Sten-Ove Karlsson|37 år, industriarbetare
+C|119707|63|K|Birgitta Linge|63 år, lärare
+C|222473|57|K|Maria Strand|56 år, konstnär

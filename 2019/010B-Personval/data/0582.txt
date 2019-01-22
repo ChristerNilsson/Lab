@@ -1,9 +1,204 @@
-2|126721|25092|126723|101484|126816|126817|101471|126819|126820|126821|101479|126823|126824|126825|126826|126827|140216|101478|140218|140219|140220|101476|140222|140223|140224|140677|140678|140679|140680|140681|140682|140683|140684|140685|140686|140982|140983|140984|140985|140986|140987
-4|15703|14335|12031|15706|15707|12207|15709|15710|12204|15712|15713|15714|15715|15716|15717|15718|15719|14339|15721|15722|15743|15744|15745|15746|15747|15748|15749|15750|15751|15752|15753|15754|15755|15756|15757|15758|15759|15760|23466|15761
-68|258638|258639|258640|258641|258642|258643|258644|258645|258646|258647|258648|258649|258650|258651|258652|258653
-1011|493066|493067|493068|493069|493070|493071|493072|493073|493074|493075|493076
-3|283636|283637|250347|247470|250350|283641|283642|283643|283644|250342|283646|283647|283648|283649|283650|283651|283653
-55|512602|510928
-1|5916|5917|5918|5919|3323|5921|5922|5923|5924|5925|5926|5927|5928|3330|5930|5931|5932|5933|5934|5935|5936|5937|5938|5939|5940|5941|5942
-110|509132|509202|509754|509131|509753|82284|509752|510034|510539|512604|512810|513144
-5|71564|290527|71590|75520|290530|75518|290532|105708|290534|105709|290536|290537|105710|290539|290540|290541|290542|290543|290544
+T|Söderköping
+A|2|126721|25092|126723|101484|126816|126817|101471|126819|126820|126821|101479|126823|126824|126825|126826|126827|140216|101478|140218|140219|140220|101476|140222|140223|140224|140677|140678|140679|140680|140681|140682|140683|140684|140685|140686|140982|140983|140984|140985|140986|140987
+A|4|15703|14335|12031|15706|15707|12207|15709|15710|12204|15712|15713|15714|15715|15716|15717|15718|15719|14339|15721|15722|15743|15744|15745|15746|15747|15748|15749|15750|15751|15752|15753|15754|15755|15756|15757|15758|15759|15760|23466|15761
+A|68|258638|258639|258640|258641|258642|258643|258644|258645|258646|258647|258648|258649|258650|258651|258652|258653
+A|1011|493066|493067|493068|493069|493070|493071|493072|493073|493074|493075|493076
+A|3|283636|283637|250347|247470|250350|283641|283642|283643|283644|250342|283646|283647|283648|283649|283650|283651|283653
+A|55|512602|510928
+A|1|5916|5917|5918|5919|3323|5921|5922|5923|5924|5925|5926|5927|5928|3330|5930|5931|5932|5933|5934|5935|5936|5937|5938|5939|5940|5941|5942
+A|110|509132|509202|509754|509131|509753|82284|509752|510034|510539|512604|512810|513144
+A|5|71564|290527|71590|75520|290530|75518|290532|105708|290534|105709|290536|290537|105710|290539|290540|290541|290542|290543|290544
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|126721|48|M|Anders Bevemyr|socialsekreterare
+C|25092|59|K|Tuula Ravander|59 år, redovisningskonsult, Söderköping
+C|126723|68|M|Kjell Eriksson|företagsrådgivare
+C|101484|58|K|Pia Dingsten|58 år, vårdbiträde, Söderköping
+C|126816|60|M|Kenneth Johansson|pappersbruksarbetare
+C|126817|62|K|Gunweig Svensson|studie- och yrkesvägledare
+C|101471|63|M|Sonnie Knutling|63 år, ombudsman, Söderköping
+C|126819|50|K|Åsa Dahlin|undersköterska
+C|126820|68|M|Thomas Kihlberg|pensionerad präst
+C|126821|67|K|Karin Åkeby|undersköterska
+C|101479|40|M|Christian Karlsson|40 år, yrkesförare, Söderköping
+C|126823|37|K|Adisa Radovac|kurator
+C|126824|63|M|Peter Abrahamsson|vårdare
+C|126825|70|K|Ulla Karlsson|pensionär
+C|126826|60|M|Mats Fredriksson|brandmästare
+C|126827|60|K|Ingela Karlsson|undersköterska
+C|140216|69|M|Leif Appelquist|kapten
+C|101478|35|K|Malin Bager Hermansson|35 år, informatör, Söderköping
+C|140218|55|M|Lars-Inge Calderon|vårdare
+C|140219|33|K|Caroline Levin|undersköterska
+C|140220|61|M|Mikael Burgman|skogsmästare
+C|101476|65|K|Monica Malmqvist|65 år, behandlingsassistent, Söderköping
+C|140222|43|M|Joakim Fallman|verkstadsarbetare
+C|140223|58|K|Anette Larsson|undersköterska
+C|140224|37|M|Tobias Eklund|snickare
+C|140677|60|K|Ann-Helene Fernberg|biträdande verksamhetschef
+C|140678|50|M|Michael Björling|undersköterska
+C|140679|51|K|Ann-Christine Karlsson Aronsson|löneadministratör
+C|140680|73|M|Lars-Göran Lindblom|gymnasielärare
+C|140681|44|K|Maria Swanborg|ombudsman
+C|140682|65|M|Stig Eriksson|byggnadsarbetare
+C|140683|38|K|Caroline Skärlund|administrativ assistent
+C|140684|73|M|Sven-Olof Malmqvist|ingenjör
+C|140685|37|K|Sanna Fogelby|sjuksköterska
+C|140686|78|M|Olof Lindh|meteorolog
+C|140982|66|K|Ann-Britt Abrahamsson|receptionist
+C|140983|74|M|Rainer Lindquist|folkbildningskonsulent
+C|140984|58|K|Ann-Britt Karlsson|undersköterska
+C|140985|47|M|Tord Bengtsson|f.d. lagerarbetare
+C|140986|55|K|Katja Lahti|undersköterska
+C|140987|66|M|Lennart Filipsson|f.d. arbetsledare
+C|15703|64|M|Peter Karlström|Ingenjör, Stegeborg
+C|14335|65|K|Boel Holgersson|65 år, Egen företagare, Sankt Anna
+C|12031|45|M|Ulric Nilsson|45 år, Bonde, Söderköping
+C|15706|66|M|Bengt Johansson|Arlabonde, Västra Husby
+C|15707|53|M|Roger Bodin|Lantbrukare, Börrum
+C|12207|50|K|Annika Altnäs|50 år, Egen företagare, Söderköping
+C|15709|70|M|Roland Nilsson|fd skolchef, Söderköping
+C|15710|60|K|Ingegerd Wetterlind|Kock, Söderköping
+C|12204|59|M|Magnus Berge|59 år, Lantbrukare, Söderköping
+C|15712|66|K|Lena Karlström|Ingenjör, Stegeborg
+C|15713|40|M|Anton Fagerstedt|Pastor, Östra Ryd
+C|15714|63|K|Margareta Zackrisson|Volontär, Söderköping
+C|15715|53|M|Sverker Johansson|Murare, Östra Ryd
+C|15716|53|M|Nicklas Johansson|Arbetsledare, Söderköping
+C|15717|44|K|Caroline Gustavsson|Kostrådgivare, Östra Ryd
+C|15718|27|M|Marcus Pettersson|Lantbrukare, Drothem
+C|15719|60|M|Johan Lifvergren|Skolbibliotekarie, Skällvik
+C|14339|64|K|Katarina Karlberg|64 år, Lantbrukare, Söderköping
+C|15721|24|K|Yrsa Lifvergren|Studerande, Skällvik
+C|15722|53|K|Caroline Ottosson|Adjunkt, Söderköping
+C|15743|53|M|Lars Hansson|Familjehemssekreterare, Östra Ryd
+C|15744|48|K|Maria Karnebring|Skogsbrukare, Drothem
+C|15745|18|M|Erik Berge|Studerande, Drothem
+C|15746|67|M|Mats Hansson|Lantbrukare, Sankt Anna
+C|15747|55|M|Thorbjörn Nordborg|Lantbrukare, Börrum
+C|15748|54|M|Jan Nystedt|Entreprenör, Söderköping
+C|15749|79|M|Dag Svensson|Entreprenör, Södra Finnö
+C|15750|28|M|Erik Lifvergren|Studerande, Skällvik
+C|15751|49|M|Peter Othberg|Brobyförälder, Söderköping
+C|15752|65|M|Thomas Karlberg|Lantbrukare, Gårdeby
+C|15753|58|K|Ulla Gustavsson|Lärare, Mogata
+C|15754|60|K|Maria Everskog|Egenföretagare, Skönberga
+C|15755|60|M|Roger Holgersson|Elkonsult, Skönberga
+C|15756|30|K|Anna Kronqvist|Lärare, Mogata
+C|15757|59|M|Jörgen Filipsson|Entreprenör, Västra Husby
+C|15758|22|M|Oskar Johansson|Studerande, Östra Ryd
+C|15759|56|K|Ingrid Agebrink|Beteendevetare, Östra Ryd
+C|15760|55|K|Ullrica Lindberg-Rahm|Sankt Anna
+C|23466|43|K|Ann-Louise Baca|Lärare, Söderköping
+C|15761|65|K|Ulla Johansson|Fd undersköterska, Skönberga
+C|258638|56|M|Anders Eksmo|Gymnasielärare, Söderköping
+C|258639|65|M|Bengt-Ove Karlsson|Företagare, Söderköping
+C|258640|43|K|Evelina Nilsson|Undersköterska, Östra Ryd
+C|258641|62|M|Bengt Wastesson|Företagare, St:Anna
+C|258642|78|K|Lilian Vendel|Studie-och yrkesvägledare, Söderköping
+C|258643|50|M|Fredrik Weflö|Präst, Söderköping
+C|258644|70|M|Lennart Persson|Skärgårdsbo, St:Anna
+C|258645|67|K|Gretel Karlsson|Behandlingsassistent, Söderköping
+C|258646|38|K|Johanna Englund|Byggnadsingenjör, Söderköping
+C|258647|34|K|Ida Henriksson|Assistent, Söderköping
+C|258648|69|M|Kurt Enström|Präst, Söderköping
+C|258649|73|K|Anne Sophie Norlén|Fysioterapeut, Söderköping
+C|258650|27|M|Erik Jakobsson|Undersköterska, Söderköping
+C|258651|66|M|Tord Sandbladh|Undersköterska, Söderköping
+C|258652|74|M|Gunnar Norlén|Präst, Söderköping
+C|258653|39|K|Sandra Karlsson|Barnskötare, Söderköping
+C|493066|51|M|Nicklas Lindekrantz|Lantbrukare
+C|493067|58|M|Johan Bergström|Skogstekniker
+C|493068|36|K|Marie Nikander|Fastighetsmäklare
+C|493069|35|M|Fredrik Andersson|Entreprenör
+C|493070|27|M|Samuel Hartman|Skogsbrukare
+C|493071|27|K|Denise Andersson|Ekonomiassistent
+C|493072|48|M|Ove Bark|Målarmästare
+C|493073|33|M|David Andersson|Företagare
+C|493074|42|M|Marcus Harrström|Timmerbilschaufför
+C|493075|24|M|Emil Vallner|Lastbilschaufför
+C|493076|81|M|Gunnar Arvidsson|Lantbrukare
+C|283636|43|K|Ellen Friberg|utvecklingskonsulent/egenföretagare, 43 år
+C|283637|57|M|Patrik Wåtz|egenföretagare, 57 år
+C|250347|31|K|Lisa Andersson|studerande, Söderköping
+C|247470|69|K|Inga-Lill Östlund|oppositionsråd, Söderköping
+C|250350|72|M|Mikael Arosenius|pensionär, Söderköping
+C|283641|50|K|Anna Hjort|egenföretagare, 50 år
+C|283642|45|M|Lars Friberg|teleingenjör, 45 år
+C|283643|71|K|Kerstin Ekeström|beteendevetare, 70 år
+C|283644|63|M|Rolf Engwall|leg. tandläkare, 63 år
+C|250342|69|K|Monica Jönsson|socionom, Sankt Anna
+C|283646|70|M|John-Olof Lindqvist|pensionär/fastighetsmäklare, 70 år
+C|283647|58|K|Christina Forsman Nilsson|egenförtagare, 58 år
+C|283648|76|M|Krister Larsson|lärare, 76 år
+C|283649|37|K|Sara Almroth|cytodiagnostiker, 36 år
+C|283650|81|M|Björn Amneus|f.dadjunkt, 81 år
+C|283651|65|K|Christina Friberg|lärare, 65 år
+C|283653|85|K|Dagmar Wastesson|pensionär, 86 år
+C|512602|41|K|Åza Diaz Mägi|41, Lärare
+C|510928|62|K|Lillmarie Jonsson|62, Chefsstöd
+C|5916|64|M|Börje Natanaelsson|Söderköping
+C|5917|68|K|Edith Nielsen Åkerblom|Mogata
+C|5918|31|M|Martin Sjölander|Skönberga
+C|5919|35|M|Alexander Florman|Söderköping
+C|3323|33|K|Desireé Blichfeldt|Polis, 33 år, Söderköping
+C|5921|63|M|Michael Danielsson|Stegeborg
+C|5922|65|M|Bengt Svenson|S:t Anna
+C|5923|47|M|Anwar Samuelsson|Skönberga
+C|5924|59|M|Håkan Schede|S:t Anna
+C|5925|75|K|Gunvor Wissmar Skoog|Östra Ryd
+C|5926|63|M|Kjell Dåådheim|Västra Husby
+C|5927|32|M|Ola Jacobsson|Mogata
+C|5928|70|M|Björn Aldin|Söderköping
+C|3330|69|K|Eva Cox|Fil.kand/Socionom, 69 år, Söderköping
+C|5930|75|M|Åke Svensson|Söderköping
+C|5931|43|M|Robert Holmqvist|Söderköping
+C|5932|43|K|Caroline Svärd|Söderköping
+C|5933|48|M|Fredrik Wastesson|Mogata
+C|5934|68|K|Ingrid Thollander|Söderköping
+C|5935|56|K|Charlotta Hollertz Kreuger|S:t Anna
+C|5936|45|M|Jörgen Filipsson|Mogata
+C|5937|58|M|Björn Landström|Söderköping
+C|5938|55|K|Taina Salo|Stegeborg
+C|5939|68|K|Yvonne Persson|Söderköping
+C|5940|68|K|Gunilla Gernandt Bark|Söderköping
+C|5941|74|M|Benny Flyckt|Södra Finnö
+C|5942|67|M|Stig Sjölander|Fröberga
+C|509132|51|K|Annelie Sjöberg|Gymnasielärare, 51 år
+C|509202|51|K|Magdalena Jones|Specialistsjuksköterska, 51 år
+C|509754|50|K|Liselotte Dalén|Flygledare, 50 år
+C|509131|66|M|Roine Rehn|Målare, 66 år
+C|509753|68|M|Igge Fernstad|Gymnasielärare, 68 år
+C|82284|51|M|Jan Svensson|51, kanslichef, Åtvidaberg
+C|509752|62|M|Stefan Thollander|
+C|510034|76|M|Ingvar Agermo|
+C|510539|69|M|Christer Hedlund|
+C|512604|59|M|Stefan Åbrodd|
+C|512810|38|M|Oskar Olai|
+C|513144|37|M|Niklas Karlsson|
+C|71564|46|K|Malin Östh|46, Tjänsteman, Söderköping
+C|290527|71|M|Björn Grip|70, Folkhögskollärare, Söderköping
+C|71590|73|K|Marja Bergström|73, Journalist, Söderköping
+C|75520|76|K|Inga-Carin Landerö|75, Distriktsläkare, Söderköping
+C|290530|67|M|Björn Göransson|68, Industridesigner, Söderköping
+C|75518|68|K|Gunilla Zachrisson|69, Biomedicinsk analytiker, Söderköping
+C|290532|57|M|Ulf Martin|57, Renhållningsarbetare, Söderköping
+C|105708|60|K|Pia Axelsson|61, Kurator, Söderköping
+C|290534|21|M|Bagher Gholami|21, Studerande, Söderköping
+C|105709|43|K|Katrin Johansson|43, Kurator, Söderköping
+C|290536|66|M|Bernt Schneider|67, Rehabsamordnare, Söderköping
+C|290537|68|K|Birgitta Malm|68, Lågstadielärare, Söderköping
+C|105710|73|M|Anders Nyhlén|73, Konsthantverkare, Söderköping
+C|290539|61|M|Kjell Axelsson|61, CNC-tekniker, Söderköping
+C|290540|72|M|Karl-Gustav Olsson|72, Keramiker, Söderköping
+C|290541|72|K|Pia Inghamn|72, Pensionär, Söderköping
+C|290542|68|K|Christina Larsson|68, Socialarbetare, Söderköping
+C|290543|58|K|Birgitta Sjöström|58, Trädgårdsmästare, Söderköping
+C|290544|62|K|Soile Merilä|61, Förskollärare, Söderköping

@@ -1,9 +1,180 @@
-2|37601|37602|37603|37604|37605|37606|37607|37608|37609|37610|37611|37612|37613|37614|37615|37616|296022|37618|37619|37620|37621|37622|37623|37624|37625|37626|37627|37628|37629|37630|37631|37632|37633|37634|37635|37636|37637|37638|37639|37640|37641|37642|37643|37644|37645|37646|37647|37648|37649|37650|37651|37652|37653|37654|37655|37656|37657|37658|37659|37660|37661|37662|37663|37664|37666|37667|37668|37669
-4|57892|205180|205181|205182|205183|205184|205185|205186|205187|205188|205189|205190|205191|205192|205193|205194|205195|205196|205197|205198|205199|205200|205201
-532|251787
-68|323693|323694|323695|323696|323697|323698|312571
-3|16115|16116|16117|16118|16119|16120|16121|16122|16123
-55|122955|122972|187735|187736|286842
-1|26494|26491|69607|69608|69609|26503|69611|69612|26498|69614|69615|69616|69617|69618|69619|69620|69621|69622|69623|69625|69626|69628|69629
-110|75058|75059|75060|75061|75062|75063|75064|75066|75067|75068
-5|251779|251780|251781|251782|251783|251784|251785|251786|251787|251788|251789|251790|251791|251792|251793|251794
+T|Hallsberg
+A|2|37601|37602|37603|37604|37605|37606|37607|37608|37609|37610|37611|37612|37613|37614|37615|37616|296022|37618|37619|37620|37621|37622|37623|37624|37625|37626|37627|37628|37629|37630|37631|37632|37633|37634|37635|37636|37637|37638|37639|37640|37641|37642|37643|37644|37645|37646|37647|37648|37649|37650|37651|37652|37653|37654|37655|37656|37657|37658|37659|37660|37661|37662|37663|37664|37666|37667|37668|37669
+A|4|57892|205180|205181|205182|205183|205184|205185|205186|205187|205188|205189|205190|205191|205192|205193|205194|205195|205196|205197|205198|205199|205200|205201
+A|532|251787
+A|68|323693|323694|323695|323696|323697|323698|312571
+A|3|16115|16116|16117|16118|16119|16120|16121|16122|16123
+A|55|122955|122972|187735|187736|286842
+A|1|26494|26491|69607|69608|69609|26503|69611|69612|26498|69614|69615|69616|69617|69618|69619|69620|69621|69622|69623|69625|69626|69628|69629
+A|110|75058|75059|75060|75061|75062|75063|75064|75066|75067|75068
+A|5|251779|251780|251781|251782|251783|251784|251785|251786|251787|251788|251789|251790|251791|251792|251793|251794
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|37601|43|M|Magnus Andersson|44 år,Hallsberg
+C|37602|62|K|Siw Lunander|62 år,Hallsberg
+C|37603|67|M|Conny Larsson|67 år,Hallsberg
+C|37604|40|K|Veronica Wallgren|Kommunalråd,40år,Hallsberg
+C|37605|56|M|Ulf Ström|57 år, Hallsberg
+C|37606|69|K|Christina Johansson|69 år, Hallsberg
+C|37607|59|M|Börje Andersson|Verkstadsarbetare,59år,Pålsboda
+C|37608|72|K|Inga-Britt Ritzman|72 år, Hallsberg
+C|37609|70|M|Hans Karlsson|Förtroendevald,70år,Hallsberg
+C|37610|37|K|Catrin Rusthoi|Säljare,37år,Hallsberg
+C|37611|54|M|Thomas Larsson|Grafiker,57år,Pålsboda
+C|37612|47|K|Christel Forsberg|Habiliteringspersonal,47år,Vretstorp
+C|37613|65|M|Bengt-Åke Andersson|Ungdosmkonsulent,65år,Hallsberg
+C|37614|40|K|Theres Andersson|40 år, Hallsberg
+C|37615|46|M|Halmat Hosayn|46 år, Hallsberg
+C|37616|73|K|Birgitta Kumblad|fd Säljare,73år,Hallsberg
+C|296022|39|M|Jamal Bayazidi|39 år, Hallsberg
+C|37618|43|K|Victoria Rydén|Rangerplanerare,43år,Hjortkvarn
+C|37619|48|M|Toni Blanksvärd|Montör,48år,Hallsberg
+C|37620|65|K|Ewa-Rosa Sliwinska|Turistvärd,65år,Hallsberg
+C|37621|73|M|Kjell Rapp|Pensionär,73år,Östansjö
+C|37622|54|K|Anna-Karin Ryefalk|Habiliteringspersonal,54år,Hallsberg
+C|37623|59|M|Peter Hörlin|Arbetsförmedlare,59år,Hallsberg
+C|37624|34|K|Aminato Bello|Undersköterska,34år,Hallsberg
+C|37625|48|M|Joakim Hedelind|48 år, Hallsberg
+C|37626|74|K|Gunnel Hedström|74 år, Hallsberg
+C|37627|45|M|Andreas Svahn|45 år, Hallsberg
+C|37628|47|K|Lillemor Petterson|Undersköterska,47år,Hallsberg
+C|37629|71|M|Bernth Gahm|Egen företagare,71år,Hallsberg
+C|37630|65|K|Berit Larsson|Lokalvårdare,65år,Hjortkvarn
+C|37631|18|M|Linus Andersson|Studerande,18år,Hallsberg
+C|37632|41|K|Elisabeth Sandberg|Säljare,41år,Hallsberg
+C|37633|45|M|Mathias Sevesson|Skogsarbetare,45år,Hallsberg
+C|37634|45|K|Matilda Ernkrans|45 år, Hallsberg
+C|37635|67|M|Peranders Thor|Arbetskonsulent,67år,Hallsberg
+C|37636|40|K|Erika Persson|Lagerarbetare,40år,Östansjö
+C|37637|48|M|Krister Eklund|Lagerarbetare,48år,Vretstorp
+C|37638|73|K|Anita Hofman|Pensionär,73år,Hallsberg
+C|37639|69|M|Hans Bengtsson|Pensionär,69år,Hjortkvarn
+C|37640|41|K|Camilla Karlberg|Lagerarbetare,41år,Vretstorp
+C|37641|45|M|Thomas Pettersson|Lagerarbetare,45år,Hallsberg
+C|37642|68|K|Monica Spennare|Pensionär,67år,Hallsberg
+C|37643|69|M|Torbjörn Åkesson|Nöjeskonsult,69år,Vretstorp
+C|37644|71|K|Birgitta Billström|71 år, Hallsberg
+C|37645|33|M|Niklas Nilsson|33 år, Hallsberg
+C|37646|55|K|Marie Pettersson|Undersköterska,55år,Sköllersta
+C|37647|74|M|Arne Pettersson|Kontrollansvarig,74år,Hallsberg
+C|37648|65|K|Ingegerd SvahnKarlsson|Pensionär,65år,Hallsberg
+C|37649|50|M|Magnus Fahlström|Logistiker,50år,Vretstorp
+C|37650|63|K|Monica Hjälm|Folkets Hus föreståndare,63år,Pålsboda
+C|37651|38|M|Örjan Åberg|Lagerarbetare,38år,Hallsberg
+C|37652|67|K|Lotta Guldbrand|Pensionär,67år,Hallsberg
+C|37653|74|M|Hans Palmqvist|Pensionär,74år,Hallsberg
+C|37654|55|K|Sophie Nilsson|55 år, Hallsberg
+C|37655|77|M|Dan Åström|Pensionär,77år,Hallsberg
+C|37656|73|K|Siv Palmgren|Nämndeman,73år,Östansjö
+C|37657|59|M|Christer Thörner|Byggnadsarbetare,59år,Hallsberg
+C|37658|64|K|Kerstin Larsson|Måltidsbiträde,64år,Hallsberg
+C|37659|54|M|Jörgen Reh|Lokalvårdare,54år,Hjortkvarn
+C|37660|63|K|Alia Khalaf|Lärare,63år,Hallsberg
+C|37661|69|M|Kent Ekström|Pensionär,69år,Hallsberg
+C|37662|74|K|Siv Pettersson|Specialpedagog,74år,Hallsberg
+C|37663|66|M|Håkan Eriksson|Förtroendevald,66år,Hallsberg
+C|37664|52|K|KhinThin Kywe|Undersköterska,52år,Hallsberg
+C|37666|64|K|Irene Persson|Undersköterska,64år,Hallsberg
+C|37667|62|M|Roger Högberg|Handledare,62år,Östansjö
+C|37668|63|K|Elisabeth Andersson|Sjukpensionär,63år,Hallsberg
+C|37669|57|M|Sven-Olof Andersson|Mätingenjör,57år,Östansjö
+C|57892|68|M|Anders Lycketeg|68 år, skogstekniker, Hallsberg
+C|205180|70|K|Inger Hellqvist|70 år, f.d. personalchef, Hallsberg
+C|205181|63|M|Gösta Hedlund|63 år, bioenergientreprenör, Pålsboda
+C|205182|49|K|Ann-Sofie Johansson|49 år, arbetsterapeut, Pålsboda
+C|205183|24|M|Erik Teerikoski|24 år, lärarvikarie, Hallsberg
+C|205184|38|M|Andreas Zakrisson|38 år, företagare, Hallsberg
+C|205185|43|K|Ulrika Lycketeg|43 år, lärarvikarie, Hallsberg
+C|205186|38|M|Mattias Bjurenholt|38 år, personlig assistent, Pålsboda
+C|205187|56|M|Yngve Lindholm|56 år, företagare, Pålsboda
+C|205188|59|K|Doris Fröberg|59 år, mjölkproducent, Vretstorp
+C|205189|46|M|Clas Josefson|46 år, trafiklärare, Hallsberg
+C|205190|55|M|Hans Johansson|55 år, sjukpensionär, Pålsboda
+C|205191|38|K|Laura Hedlund|38 år, lärare, Pålsboda
+C|205192|41|M|Niklas Eriksson|41 år, egen företagare, Hallsberg
+C|205193|53|K|Maria Brånn|53 år, medicinsk vårdadministratör, Sköllersta
+C|205194|73|M|Berndt Pettersson|73 år, pensionär, Hallsberg
+C|205195|39|K|Katrin Nordenflyckt|39 år, beteendevetare, Hallsberg
+C|205196|74|K|Sonja Vörde|74 år, pensionär, Sköllersta
+C|205197|74|M|Rolf Hedén|74 år, f.d. verksamhetsutvecklare, Hallsberg
+C|205198|79|K|Ingeborg Drakenberg|79 år, pensionär, Sköllersta
+C|205199|60|M|Peter Fröberg|60 år, lantbrukare, Vretstorp
+C|205200|76|K|Kerstin Moberg|76 år, Vretstorp
+C|205201|72|K|Ulla Persson|72 år, pensionär, Hallsberg
+C|251787|64|M|Tomas Wetterberg|
+C|323693|48|M|Martin Pettersson|Svetsare, Hallsberg
+C|323694|60|K|Lena Gunnarsson|Förskollärare, Vretstorp
+C|323695|45|M|Andreas Glad|Arbetsledare, Hjortkvarn
+C|323696|62|K|Ingela Hagenfors|Skolkurator, Hallsberg
+C|323697|75|M|Daniel Karlsson|Senior, Vretstorp
+C|323698|53|K|Helena Pettersson|Lärare, Hallsberg
+C|312571|66|M|Tomas Hagenfors|Förläggare, Hallsberg
+C|16115|65|M|Erik Storsveden|65 år, civilekonom, Örebro
+C|16116|48|M|Fredrik Askhem|48 år, lärare, Pålsboda
+C|16117|51|K|Jaana Storsveden|51 år, personlig assistent, Östansjö
+C|16118|73|M|Gert Öhlin|73 år, pensionär, Hallsberg
+C|16119|68|K|Ingrid Grahn|69 år, undersköterska, Pålsboda
+C|16120|76|M|Göran Bergström|76 år, VD, Pålsboda
+C|16121|75|K|Kerstin Rennerfelt|75 år, fil.kand, Hallsberg
+C|16122|79|M|Per Back|79 år, pensionär, Hallsberg
+C|16123|76|M|Stig Linderum|76 år, pensionär, Sköllersta
+C|122955|28|M|Andreas Tranderyd|28 år, barnskötare, Hallsberg
+C|122972|58|K|Lotta Öhlund|58 år, nämndordförande och konduktör, Hallsberg
+C|187735|37|K|Linda Eng|37 år, barnmorska, Vadsbron
+C|187736|28|M|Markus Eriksson Nordkvist|28 år, kyrkvaktmästare, Hässleberg
+C|286842|19|M|Tobias Tranderyd|19 år, soldat
+C|26494|61|M|Torbjörn Appelqvist|oppositionsråd, Hallsberg
+C|26491|50|K|Ulrika Björklund|socionom, Hallsberg
+C|69607|60|M|Lennart Pettersson|Sköllersta
+C|69608|34|M|Rikard Arveden|Sköllersta
+C|69609|63|K|Ann-Christine Appelqvist|Östansjö
+C|26503|44|M|Mattias Björklund|civilingenjör, Hallsberg
+C|69611|31|M|Calin McQuillan|Hallsberg
+C|69612|45|M|Ingemar Hallberg|Pålsboda
+C|26498|31|K|Emelie Mc Quillan|konsult, Hallsberg
+C|69614|70|K|Ewa Unevik|Hallsberg
+C|69615|30|M|David Romell|Hallsberg
+C|69616|43|K|Sandra Hamilton|Hjortkvarn
+C|69617|71|M|Olle Isacsson|Sköllersta
+C|69618|24|M|Rikard Bergström|Sköllersta
+C|69619|18|K|Sandra Lennartsson|Vretstorp
+C|69620|21|M|Mathias Olsson|Pålsboda
+C|69621|71|K|Nina Lagemyr|Sköllersta
+C|69622|74|K|Ulla Gun Rehnvall|Pålsboda
+C|69623|81|M|Hans Nilsson|Hallsberg
+C|69625|25|K|Dilnya Bayazidi|Hallsberg
+C|69626|73|M|Jan Karlsson|Hallsberg
+C|69628|18|M|Isak Johansson|Hallsberg
+C|69629|60|K|Ågot Nordin|Vretstorp
+C|75058|44|M|Jimmy Olsson|44 år, Egen företagare, Hallsberg
+C|75059|37|M|Benny Albertsson|37 år, Entreprenör, Hallsberg
+C|75060|52|M|Jarmo Kurvinen|Fordonsförare, 51, Hjortkvarn
+C|75061|37|M|Jussi Rinne|37 år, Grovarbetare, Hallsberg
+C|75062|78|M|Lars-Ove Nilsson|Pensionär, 77 Hallsberg
+C|75063|24|M|Joakim Rosén|Lagerarbetare, 23, Hallsberg
+C|75064|27|M|Oscar Lundqvist|27 år, Militär skyddsvakt/soldat, Hallsberg
+C|75066|69|M|Dan Fredriksson|Pensionär, 68, Vretstorp
+C|75067|49|K|Elin Jensen|Ridinstruktör, Hallsberg
+C|75068|28|M|Christian Eriksson|Kommunanställd, 28, Hallsberg
+C|251779|49|K|Towe Jegeros|Studerande, Hallsberg
+C|251780|56|M|Tryggve Thyresson|Fastighetsförvaltare, Skogaholm
+C|251781|48|K|Veronica Löfling|Städare, Skogaholm
+C|251782|48|M|Peter Tillman|Arbetskonsulent, Vretstorp
+C|251783|57|K|Mia Sydow Mölleby|Riksdagsledamot, Hallsberg
+C|251784|66|M|Sören Pettersson|f.d. Lokförare, Hallsberg
+C|251785|72|K|Göril Thyresson|f.d. Bibliotikarie, Hallsberg
+C|251786|36|K|Camilla Karlsson|Enhetschef, Sköllersta
+C|251788|75|K|Birgitta Lindström Pettersson|f.d. Adjunkt, Vretstorp
+C|251789|75|K|Taina Honkonen Johansson|Pensionär, Hallsberg
+C|251790|82|M|Eero Korteniemi|f.d.Metallarbetare, Hallsberg
+C|251791|64|K|Ann Larsson|Städassistent LSS, Hallsberg
+C|251792|62|M|Göte Mölleby|Sjuksköterska, Hallsberg
+C|251793|70|K|Marita Olsson Bluum|Konstnär, Hallsberg
+C|251794|76|M|Sven-Arne Johansson|f.d. leveransansvarig, Hallsberg

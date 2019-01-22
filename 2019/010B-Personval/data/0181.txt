@@ -1,14 +1,339 @@
-2|194376|96627|70467|194379|194380|194381|194382|70619|194384|194385|194386|194387|71215|194389|194390|96635|194392|194393|194394|194395|96646|194397|194398|194399|194400|194401|194402|96633|194404|194405|194406|194407|194408|194409|194410|194411|194412|194413|194414|194415|464017|194417|194418|194419|96626|194421|194422|194423|194424|194425|194426|194427|194428|194429|194430|194431|194432|194433|194434|194435|194436|194437|194438|194439|194440|96647
-4|76916|118541|118542|76912|118544|118545|118546|118547|118548|118549|118550|118551|118552|118553|118554|118555|118556|8496|118558|118559|118560|118561|118562|118563|118564|118565|118566|118567|118568|118569
-1150|515773
-532|515968
-68|155953|31806|155955|155956|155957|155958|155959|155960|155961|155962|155963|155964|155965|155966|155967|155968|155969|155970|155971|155972|155973|155974|155975
-1140|480137|513469|513470|513471|513472|513473|513474|513475|513476|513477|513478|513479|513480|513481|513482|513483|513740
-1011|515805
-3|37431|37432|37433|37434|2244|37436|423215|37439|37440|37441|37442|37443|37444|37445|37446|37447|37448|37449|37450|37451|37452
-55|244180|244181|244182|244184|244183|244185|244186|244188|244189|244190|244191|244192|244193|244194|244195|244197|244198|244201|244200|244203|244202|244205|244204|498413|244187
-1|20600|20601|20602|20603|20604|20605|103569|20606|20607|20608|12820|20610|20611|20612|20613|20614|20615|20616|20617|20618|20619|20620|20621|20622|20623|20624|20625|20626|20627|20628|20629|20630|20631|20632
-1385|505863|505864
-1151|9841|113293|113294|113301|113295|392646|343173|113296|113297|343177|113305|344064|113306|351926|113299|113300|219700|113304|113303|113307|257450
-110|67217|4161|67219|67220|67221|67222|67223|67224|67225|67226|67227|67228|67229|67230|67231|67232|67233|67235|67236|67237|67239|67241|67243
-5|215518|215519|215520|215521|215522|215523|215524|215525|215526|215527|215528|215529|215530|215531|215532|215533|215534|215535|215536|215537|215538|215539|215540|215541|215542|215543|215544|215545|215546|215547|215548|215549|215550|215551|215552|215553|215554|215555|215556|215557|215558|215559|215560|215561|215562
+T|Södertälje
+A|2|194376|96627|70467|194379|194380|194381|194382|70619|194384|194385|194386|194387|71215|194389|194390|96635|194392|194393|194394|194395|96646|194397|194398|194399|194400|194401|194402|96633|194404|194405|194406|194407|194408|194409|194410|194411|194412|194413|194414|194415|464017|194417|194418|194419|96626|194421|194422|194423|194424|194425|194426|194427|194428|194429|194430|194431|194432|194433|194434|194435|194436|194437|194438|194439|194440|96647
+A|4|76916|118541|118542|76912|118544|118545|118546|118547|118548|118549|118550|118551|118552|118553|118554|118555|118556|8496|118558|118559|118560|118561|118562|118563|118564|118565|118566|118567|118568|118569
+A|1150|515773
+A|532|515968
+A|68|155953|31806|155955|155956|155957|155958|155959|155960|155961|155962|155963|155964|155965|155966|155967|155968|155969|155970|155971|155972|155973|155974|155975
+A|1140|480137|513469|513470|513471|513472|513473|513474|513475|513476|513477|513478|513479|513480|513481|513482|513483|513740
+A|1011|515805
+A|3|37431|37432|37433|37434|2244|37436|423215|37439|37440|37441|37442|37443|37444|37445|37446|37447|37448|37449|37450|37451|37452
+A|55|244180|244181|244182|244184|244183|244185|244186|244188|244189|244190|244191|244192|244193|244194|244195|244197|244198|244201|244200|244203|244202|244205|244204|498413|244187
+A|1|20600|20601|20602|20603|20604|20605|103569|20606|20607|20608|12820|20610|20611|20612|20613|20614|20615|20616|20617|20618|20619|20620|20621|20622|20623|20624|20625|20626|20627|20628|20629|20630|20631|20632
+A|1385|505863|505864
+A|1151|9841|113293|113294|113301|113295|392646|343173|113296|113297|343177|113305|344064|113306|351926|113299|113300|219700|113304|113303|113307|257450
+A|110|67217|4161|67219|67220|67221|67222|67223|67224|67225|67226|67227|67228|67229|67230|67231|67232|67233|67235|67236|67237|67239|67241|67243
+A|5|215518|215519|215520|215521|215522|215523|215524|215525|215526|215527|215528|215529|215530|215531|215532|215533|215534|215535|215536|215537|215538|215539|215540|215541|215542|215543|215544|215545|215546|215547|215548|215549|215550|215551|215552|215553|215554|215555|215556|215557|215558|215559|215560|215561|215562
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1385||NY REFORM
+B|1151|REAL|Realistpartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|194376|52|K|Boel Godner|Kommunalråd, Hagaberg, 52
+C|96627|37|M|Elof Hansjons|37, Kommunalråd, Södertälje
+C|70467|56|K|Ingela Nylund Watz|56, Riksdagsledamot, Södertälje
+C|194379|51|M|Håkan Buller|Stadsbyggnadsnämndens ordförande, Centrum, 52
+C|194380|31|K|Rua Dawood|Verksamhetsutvecklare, Lina Hage, 31
+C|194381|55|M|Yilmaz Kerimo|Socionom, Bergvik, 55
+C|194382|59|K|Pia Sjöstrand|Enhetschef, Järna, 60
+C|70619|26|M|Abraham Halef|26, Socionom, Södertälje
+C|194384|20|K|Alice Bitar|Student, Geneta, 20
+C|194385|50|M|Johan Schönbeck|Säljare, Enhörna, 50
+C|194386|47|K|Anna Bohman Enmalm|Statsvetare, Östertälje, 47
+C|194387|55|M|Tomas Kullberg|Snickare, Hölö, 55
+C|71215|46|K|Viktoria Hjulström|46, Pressekreterare, Södertälje
+C|194389|26|M|Nasif Kasarji|Resultatenhetschef, Glasberga, 27
+C|194390|76|K|Ulla Rygin|Pensionär, Glasberga, 76
+C|96635|64|M|Adnan Can|64, Södertälje
+C|194392|37|K|Caroline Andersson|Fritidspedagog, Mölnbo, 38
+C|194393|62|M|Peter Friström|IT-konsult, Hölö, 63
+C|194394|48|K|Marie Heikkinen|Facklig ombudsman, Centrum, 48
+C|194395|46|M|Christer Kronblad|Ombudsman, Centrum, 47
+C|96646|38|K|Katja Nilsson|38, Södertälje
+C|194397|38|M|David Strömberg|Kommunalrådssekreterare, Enhörna, 38
+C|194398|63|K|Rose-Marie Jacobsson|Försäkringsutredare, Centrum, 64
+C|194399|21|M|Sarkis Khatchadourian|Civilingenjörsstudent, Geneta, 21
+C|194400|52|K|Maha Chamoun|Ekonom, Högloft, 52
+C|194401|27|M|Tim Mårtensson|Kommunalrådssekreterare, Centrum, 28
+C|194402|26|K|Merna Kifork|Lärare, Geneta, 26
+C|96633|69|M|Tommy Zettervall|69, Journalist, Södertälje
+C|194404|65|K|Salwa Barsoum|Tolk, Centrum, 66
+C|194405|51|M|Robert Halef|Egen företagare, Geneta, 51
+C|194406|57|K|Heli Kärkkäinen|Servitris, Centrum, 58
+C|194407|38|M|Johan Can|Rehabiliteringsassistent, Centrum, 38
+C|194408|56|K|Nursel Awroum|Arbetslagsledare, Grusåsen, 56
+C|194409|49|M|Johan Andersson|Säljare, Enhörna, 49
+C|194410|56|K|Gunilla Andir|Metodutvecklare, Grusåsen, 56
+C|194411|55|M|Remon Shamuon|Verkstadsarbetare, Hovsjö, 56
+C|194412|55|K|Cani Younan|Handläggare, Geneta, 55
+C|194413|73|M|Claes Hellgren|Ekonom, Östertälje, 74
+C|194414|59|K|Susanne Bergström|Föreningskoordinator, Järna, 60
+C|194415|66|M|Per-Eric Nygren|Kommunanställd, Mölnbo, 66
+C|464017|27|K|Olivia Ünesi|Ingenjör, Lina Hage, 27
+C|194417|45|M|Thomas Witting|Handläggare, Järna, 45
+C|194418|70|K|Ingela Evegård|Konsult, Centrum, 71
+C|194419|43|M|Jacob Kiehn Jensen|Projektledare, Järna, 43
+C|96626|39|K|Linda Älegård|39, Lärare, Södertälje
+C|194421|21|M|Jakob Samoiel|Student, Geneta, 21
+C|194422|50|K|Susanna Persson|Ekonom, Högmohöjden, 50
+C|194423|31|M|Mattias Lundberg|Mäklare, Enhörna, 31
+C|194424|70|K|Barbro Hedlund|Pensionär, Centrum, 70
+C|194425|42|M|Kristian Sihlén|Försäkringstjänsteman, Enhörna, 42
+C|194426|71|K|Agneta Sommansson|Bibliotekarie, Östertälje, 71
+C|194427|39|M|Igor Videla Castillo|Ombudsman, Rosenlund, 39
+C|194428|68|K|Lena Åborg|Leg. veterinär, Östertälje, 68
+C|194429|51|M|Carl Doland|Mekaniker, Karlhov, 51
+C|194430|57|K|Liselotte Friström|Administratör, Geneta, 57
+C|194431|61|M|Göran Ording|Butiksarbetare, Rosenlund, 61
+C|194432|71|K|Ann-Louise Östling Lind|Fil. kand, Centrum, 72
+C|194433|55|M|Roger Brander|Väktare, Brunnsäng, 55
+C|194434|66|K|Märta Eriksson|Sjuksköterska, Östertälje, 66
+C|194435|72|M|Ahmad Adawi|Pensionär, Södra, 72
+C|194436|61|K|Christina Löfgren|Administratör, Bergvik, 61
+C|194437|18|M|Sami Rehman|Student, Hovsjö, 18
+C|194438|67|K|Viveka Ek|SFI-lärare, Centrum, 67
+C|194439|77|M|Risto Koskimies|Pensionär, Bergvik, 77
+C|194440|64|K|Lena Lindell|Skådespelerska, Glasberga, 64
+C|96647|64|M|Robert Ask|64, Målare, Södertälje
+C|76916|63|M|Tage Gripenstam|63, Södertälje, Politiker
+C|118541|51|M|Leif Åhlin|rektor, Södertälje, 51 år
+C|118542|50|K|Nina Wahlin|egenföretagare, Södertälje, 50 år
+C|76912|46|M|Robil Haidari|46, Södertälje, Utvecklingsstrateg
+C|118544|57|K|Lena Ljungqvist|VD/entreprenör, Enhörna, 57 år
+C|118545|74|M|Per-Anders Fritshammar|fd kriminalinspektör, Järna, 74 år
+C|118546|57|K|Fahima Madoson|57, Södertälje, Socialsekreterare
+C|118547|51|M|Björn Jonsson|51, Södertälje, Entreprenör
+C|118548|42|K|Johanna Sällberg|bonde, Hölö, 42 år
+C|118549|29|M|Daniel Danial|utredare, Södertälje, 29 år
+C|118550|46|K|Tina Karlsson|förskollärare, Järna, 46 år
+C|118551|56|K|Christine Liebendörfer|master of education, Oaxen, 56 år
+C|118552|18|M|Max Karlsson|student, Järna, 18 år
+C|118553|24|K|Hedda Sievers|civilekonom, Enhörna, 24 år
+C|118554|70|K|Karin Halldin|70, Södertälje, Pensionär
+C|118555|47|K|Linda Chalkias|lärare, Hölö, 47 år
+C|118556|72|M|Lars-Olov Collin|fd entreprenör, Södertälje, 72 år
+C|8496|63|K|Kerstin Lundgren|63 år, Riksdagsledamot, Södertälje
+C|118558|41|K|Annica Sundqvist|fil mag, teolog student, Södertälje 41 år
+C|118559|39|M|Patrik Arias|IT-konsult, Mörkö, 39 år
+C|118560|72|K|Christina Fritshammar|71, Järna, Sjuksköterska
+C|118561|70|M|Ove Lundgren|företagare, Hölö, 70 år
+C|118562|56|M|Christer Arakangas|ingenjör, Södertälje, 56 år
+C|118563|28|M|Nahro Mati|lärare, Södertälje, 28 år
+C|118564|73|K|Birgitta Rolander|pensionär, Södertälje, 72 år
+C|118565|78|K|Leila Haukkala|77, Södertälje, Pensionär
+C|118566|62|M|Bengt Tandberg|journalist, Södertälje, 62 år
+C|118567|47|K|Annelie Svingdal|lärare, Mölnbo, 47 år
+C|118568|57|K|Karin Westin-Granat|ekonom, Södertälje, 57 år
+C|118569|55|M|Richard Vingnäs|key account manager, Mörkö, 55 år
+C|515773|24|M|Erik Andersson|
+C|515968|36|K|Berolin Deniz|
+C|155953|45|M|David Karl Winerdal|45, Gruppledare, Södertälje
+C|31806|54|M|Robert Halef|54, Riksdagsledamot, Södertälje
+C|155955|56|M|Monir Isak|56, Dietist
+C|155956|29|K|Sofie Brånedal|29, Kundvärd
+C|155957|65|M|Martin Ahlman|65, Civilingenjör
+C|155958|68|K|Eva Molnár|68, Fd egenföretagare
+C|155959|40|M|Ibrahim Alshamani|40, Läkare
+C|155960|83|K|Nora Olander|83, Adjunkt
+C|155961|37|M|Gustaf Bengtsson|37, Civilingenjör
+C|155962|33|K|Anna Syrjänen|33, Decision analyst
+C|155963|33|M|Fadi Abdalahad|33, Socionom, Södertälje
+C|155964|33|K|Angelika Örnborg|33, Vårdbiträde
+C|155965|45|M|Peter Vesterberg|45, Mentalskötare
+C|155966|46|K|Elisabeth Schellhase|46, Sekreterare/assistent
+C|155967|28|M|Eisa Kandela|28, Jobbcoach
+C|155968|69|K|Ingrid Ahlman|69, Förskollärare
+C|155969|70|M|Lars-Göran Brånedal|70, Ekonomikonsult
+C|155970|48|K|Zara Hallström|48, Undersköterska
+C|155971|50|M|David Holm|50, Sektionschef
+C|155972|54|K|Maria Johansson|54, Hudvårdskonsult/Mary Kay
+C|155973|23|M|Guy Ndikuriyo|23, Student
+C|155974|64|K|Margareta Brånedal|64, Undersköterska
+C|155975|42|M|Rikard Hedelin|42, Telefonintervjuare
+C|480137|55|M|Nader Helawi|55, bussförare/ingenjör
+C|513469|52|M|Charles Wasswa|52, bussförare
+C|513470|40|M|Ulrik Karlsson|40, brevbärare
+C|513471|58|K|May Tofik|58, undersköterska
+C|513472|44|M|Hakam David|44, bussförare
+C|513473|40|M|Bassam Azzo|40, bussförare
+C|513474|30|K|Evan Habash|30, undersköterska
+C|513475|48|M|Laith Chalabi|48, målare
+C|513476|37|M|Rakan Yako|37, mekaniker
+C|513477|22|M|Aho Gabrial|22, fastighetsskötare
+C|513478|47|M|Duraid Hanna|47, tekniker
+C|513479|58|K|Sameerah Hamandi|58, studerande
+C|513480|35|M|Amjad Anaj|35, bussförare
+C|513481|65|M|Afif Yosif Ibrahim|65, pensionär
+C|513482|47|M|Fikri Budak|47
+C|513483|68|M|Nabil Abed Dawood|68, läkare
+C|513740|57|K|Hadar Said Abddhad|57, lärare
+C|515805|45|M|Jörgen Boström|
+C|37431|49|M|Metin Hawsho|lärare, Södertälje
+C|37432|63|K|Ann Westerberg|landskapsarkitekt, Södertälje
+C|37433|42|M|Sandro Banovac|fil kand, Södertälje
+C|37434|69|K|Karin Eklind|docent i kemi
+C|2244|25|M|Victor Zetterman|politisk sekreterare, Södertälje
+C|37436|63|M|Mats Siljebrand|leg. adjunkt/gruppledare
+C|423215|60|K|Sevina Salci|etnolog
+C|37439|73|K|Viveca Rabenius|pensionär
+C|37440|67|M|Håkan Ågren|förvaltare/egen företagare
+C|37441|54|K|Sibelle Colliander|barnmorska, Södertälje
+C|37442|74|M|Anders Rylander|hälsoekonom, Södertälje
+C|37443|60|M|Samir Saado|kommunvägledare
+C|37444|35|K|Ida Lagerqvist|konsult, Södertälje
+C|37445|71|M|Lars-Georg Bergkvist|redaktör
+C|37446|77|M|Harald Haapala|pensionär
+C|37447|81|K|Elinor Elmborg|fd. projektledare
+C|37448|75|M|Jan Helin|pensionär
+C|37449|77|K|Kristina Perols|fd. lärare
+C|37450|41|M|Mattias Göransson|resultatenhetschef
+C|37451|64|M|Bengt Jönsson|utbildningschef
+C|37452|67|M|Kjell Westerberg|jurist
+C|244180|38|K|Hanna Klingborg|38, Waldorflärare, Södertälje
+C|244181|33|M|Lars Greger|33 år, Södertälje
+C|244182|33|K|Naiara Pereira Cunha|33 år, Järna
+C|244184|45|M|Jonny El Zaouki|45, processoperatör, Södertälje
+C|244183|34|K|Emilia Pettersson|34, politisk sekreterare, Södertälje
+C|244185|63|M|Mats Pertoft|64 år, Mörkö
+C|244186|69|K|Karla Sand|69 år, Enhörna
+C|244188|67|K|Anna Hallström|67 år, Järna
+C|244189|62|M|Nils Carlsson Lundbäck|52, enhetschef, Södertälje
+C|244190|75|K|Ing-Marie Yang|75 år, Södertälje
+C|244191|42|M|Tomas Fogelqvist|42, statsvetare, Södertälje
+C|244192|61|K|Ingrid Waldenström|61 år, Vårdinge
+C|244193|56|M|Örjan Liebendörfer|56, rektor, Södertälje
+C|244194|66|K|Eva-Lotta Pettersson|66 år, Hölö
+C|244195|49|M|Ove Jansson|49, rådgivare, Södertälje
+C|244197|83|M|Erik Thomsen|83 år, Mörkö
+C|244198|40|M|Torbjörn Linnell|40 år, Södertälje
+C|244201|70|K|Marit Broman|70 år, Enhörna
+C|244200|76|M|Lars Evers|76 år, Järna
+C|244203|69|K|Auri Neideman|69 år, Järna
+C|244202|68|M|Patrik Waldenström|67 år, Vårdinge
+C|244205|65|K|Berit Greger Karlsson|65 år, Södertälje
+C|244204|45|M|Daniel Ängmo|46 år, Järna
+C|498413|69|M|Hasse Neideman|69 år, Järna
+C|244187|69|M|Roland Håkansson|69, jurist, Södertälje
+C|20600|30|M|Alexander Rosenberg|30, Entreprenör
+C|20601|46|M|Metin Ataseven|Jurist
+C|20602|30|M|Lukas Hållkvist|Student
+C|20603|64|K|Marita Lärnestad|Barnmorska
+C|20604|55|M|Göran Lundberg|Försäkringansvarig
+C|20605|66|K|Anne-Marie Larsson|66, Vårdlärare
+C|103569|64|M|Saad Said|IT-chef
+C|20606|63|M|Göran Karlsson|Ingenjör
+C|20607|53|M|Benny Hansen|IT-chef
+C|20608|44|K|Annika Tomberg|Teknisk rådgivare
+C|12820|77|M|Rudolph Benedek|77, Pensionär
+C|20610|36|K|Izla Markous|36, leg. Tandhygienist
+C|20611|47|M|Per Holmgren|47, Civilingenjör
+C|20612|35|K|Josephine Lindström|35, Kommunalrådssekreterare
+C|20613|22|M|Leonard Cilthe|MUF Ordförande
+C|20614|22|M|Christoffer Johansson|22, Copywriter
+C|20615|70|K|Siv Bosson|Egenföretagare
+C|20616|60|M|Andreas Wang Ellefsen|60, Egenföretagare
+C|20617|69|K|Marita Sörefjord|Pensionär
+C|20618|44|M|Daniel Thepper|44, Pilot
+C|20619|52|M|Richard Hoffman|52, Försäljare
+C|20620|55|M|Michael Andersson|Projektkoordinator
+C|20621|70|M|Curth Jacobsson|Administrativ chef
+C|20622|34|M|Kristian Hjertkvist|Sakkunnig
+C|20623|83|K|Birgitta Hammarlöf|Senior
+C|20624|46|M|Anders Karlsson|Drifttekniker
+C|20625|70|M|Håkan Larsson|Pensionär
+C|20626|51|M|Haiko Ratzburg|Ingenjör
+C|20627|73|M|Hans Ehlert|73, Frilansjournalist
+C|20628|72|M|Leif Gröndahl|Pensionär
+C|20629|67|M|Rolf Hansson|Senior rådgivare
+C|20630|77|M|Sven-Erik Hult|Pensionär
+C|20631|66|K|Regina Santos Bennergård|Lärare
+C|20632|62|M|Peter Zetterman|62, Egenföretagare
+C|505863|39|M|Waza-Kongo Ramazani|ordförande
+C|505864|37|M|Mika Ström Knuuttila|vice ordförande
+C|9841|53|M|Joakim Granberg|Partiledare
+C|113293|38|M|Marcus Haavisto|Krogbranschen
+C|113294|54|M|Lars-Göran Jonsson|Företagare
+C|113301|28|K|Ramona Grönberg|Ordf-Ungdomsförbundet
+C|113295|69|M|Ralph Andersson|Ingenjör/Ekonom-Pensionär
+C|392646|31|M|Jusmir Mille-Krantz|Vård/Omsorg
+C|343173|42|M|Simon Isso|Företagare
+C|113296|55|K|Lill Kindgren|Redovisningskonsult
+C|113297|70|M|Björn Eriksson|Bolagskonsult-Pensionär
+C|343177|52|M|Patrik Hacksell|Entreprenör
+C|113305|60|K|Aina Andersson|Äldreomsorg/Administratör
+C|344064|56|M|Ola Karlsson|Boendehandledare
+C|113306|52|M|Danie Smith|Entreprenör&Motorsport
+C|351926|57|K|Gunilla Östman|Undersköterska/Mentalvård
+C|113299|60|K|Annie Lander|Barnskötare
+C|113300|49|M|Johan Åberg|Fastighetsskötare
+C|219700|50|M|Kimmo Palonen|Småföretagare
+C|113304|62|M|Peter Wallin|Elektriker
+C|113303|48|K|Annika Dahlin|Vård/Omsorg
+C|113307|32|M|Niklas Norén|Stålarbetare
+C|257450|50|K|Maria Johansson|Vård/Omsorg
+C|67217|42|K|Beata Milewczyk|Arkivtjänsteman, Södertälje
+C|4161|29|M|Joachim Hagström|29, provingenjör, Södertälje
+C|67219|64|M|Mariusz Kawecki|Tolk, 64
+C|67220|66|M|Tommy Hansson|66, författare, Södertälje
+C|67221|31|M|Andreas Birgersson|31, statsvetare, Södertälje
+C|67222|73|M|Kjell Göte Bohman|Pensionär, 73
+C|67223|55|K|Monica Thorsell|55, undersköterska, Södertälje
+C|67224|25|M|Alex Nilsson|25, montör, Södertälje
+C|67225|61|M|Sven-Erik Järnberg|61, system manager, Södertälje
+C|67226|52|M|Mauri Voittonen|52, egenföretagare, Södertälje
+C|67227|43|K|Jennie Voittonen|Arbetsledare, 42
+C|67228|61|M|Robert Olsson|Marknadschef, 61
+C|67229|59|M|Hans Joglund|Egenföretagare, 58
+C|67230|56|K|Elena Tossavainen|Lönekonsult, 56
+C|67231|52|M|Rickard Graff|52, konsult, Södertälje
+C|67232|75|M|Stig Johansson|VVS-montör/Pensionär, 75
+C|67233|68|M|Robert Palm|67
+C|67235|39|K|Saima Johnson|Barnskötare, 39
+C|67236|49|M|Petri Rosenqvist|Snickare, 49
+C|67237|70|M|Rune Lyhrén|Busschaufför, 70
+C|67239|37|M|Dick Andén|Kandidat, 36
+C|67241|68|M|Lars-Ovar Åhlund|Pensionär, 68
+C|67243|56|M|Stefan Wallström|56, motorprovare, Södertälje
+C|215518|39|K|Linda Sjögren|Redovisningskonsult
+C|215519|63|K|Kerstin Pettersson|Södertälje, sjuksköterska
+C|215520|70|M|Ale Friberg|Pensionär
+C|215521|55|M|Sait Yildiz|Södertälje, lärare
+C|215522|48|K|Maria Ahumada|Södertälje, mentalskötare och student
+C|215523|62|M|Staffan Norberg|Södertälje, miljöinspektör och kommunalråd
+C|215524|27|M|Jimmy Sagar|Tekniker
+C|215525|42|K|Erika Murga|Ombudskvinna
+C|215526|72|K|Eva Bjurholm|Utredare
+C|215527|65|M|Lasse Jansson|Tjänsteman
+C|215528|49|M|Gabriel Bozyel|Lärare
+C|215529|34|K|Emmy Svärd|Lärare
+C|215530|63|K|Pia Bergkvist|HR-konsulent
+C|215531|19|K|Anhur Ghaiad|Studerande
+C|215532|77|M|Peder Edström|Pensionär
+C|215533|35|K|Bojana Dragojevic|Förskollärare
+C|215534|62|M|Jan Strannerud|Pensionär
+C|215535|64|M|Thomas Hägglund|Konsult
+C|215536|66|M|Bo Johansson|Speciallärare
+C|215537|58|M|Stefan Bengtsson|Socialsekreterare
+C|215538|35|M|Samuel Sandberg|Ekonomiassistent
+C|215539|79|K|Birgitta Johansson|Pensionär f.d. lärare
+C|215540|75|M|Jan Wattsgård|Södertälje, pensionär
+C|215541|67|K|Cerstin Sjölund|Pensionär
+C|215542|70|M|Erik Norlin|Regissör
+C|215543|72|K|Yvonne Hals Wattsgård|Pensionär
+C|215544|66|M|Lennart Rendik|Kommunalrådssekreterare
+C|215545|73|M|Ulf Eriksson|Pensionär
+C|215546|36|M|Patrik Holmqvist|Underhålloperatör
+C|215547|62|M|Per Norlin|Förskollärare och universitetsadjukt
+C|215548|70|M|Ingemar Oderstedt|Pensionär
+C|215549|67|K|Ylva Broström|Pensionär
+C|215550|68|M|Jiri Kminek|Studievägledare
+C|215551|72|K|Margareta Jonze|Pensionär
+C|215552|25|K|Linnea Lööf|Ekonomiansvarig
+C|215553|73|K|Solveig Hell|Leg. psykoterepeut
+C|215554|50|M|Cristian Vera Pulgar|Montör
+C|215555|66|K|Malin Friberg|Pensionär
+C|215556|71|M|Lennart Karlström|Folkhögskollärare
+C|215557|62|K|Elisabeth Björk|Kock
+C|215558|69|K|Marie Askerstam|Pensionär
+C|215559|64|K|Ing-Marie Nilsson|Boendestödjare
+C|215560|40|M|Marek Andreasson|Barnsjuksköterska
+C|215561|53|M|Moussa Salou|Behandlingsassistent
+C|215562|61|K|Anita Bäckström|Undersköterska

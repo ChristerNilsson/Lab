@@ -1,7 +1,108 @@
-2|44094|44095|44096|44097|44098|44099|44100|44101|44102|44103|44104|44105|44106|44107|44108|44109|44110|44111|44112|44113|44114|44115|44116|44117
-4|3211|21041|21042|21043|21044|21045|21046|21047|21048|21049|21050|21051|21052|21053|21054|21055|21056|21057|21058|3219
-1150|515856
-3|17505|17506|17507|17508|17509|17510|17511
-1|253987|255657|255658|254317|255660|255661|254377|255663|255664|255665|255666|255667|255668|255669|255670|255671|255672|255673|255674
-110|66379|66401|66402|66403|66404|66406|66407|510751|512045|515692|515693|515833
-5|119060|178951|84192|119059|178954|178955|178956|178957|178958|178959
+T|Töreboda
+A|2|44094|44095|44096|44097|44098|44099|44100|44101|44102|44103|44104|44105|44106|44107|44108|44109|44110|44111|44112|44113|44114|44115|44116|44117
+A|4|3211|21041|21042|21043|21044|21045|21046|21047|21048|21049|21050|21051|21052|21053|21054|21055|21056|21057|21058|3219
+A|1150|515856
+A|3|17505|17506|17507|17508|17509|17510|17511
+A|1|253987|255657|255658|254317|255660|255661|254377|255663|255664|255665|255666|255667|255668|255669|255670|255671|255672|255673|255674
+A|110|66379|66401|66402|66403|66404|66406|66407|510751|512045|515692|515693|515833
+A|5|119060|178951|84192|119059|178954|178955|178956|178957|178958|178959
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|44094|49|K|Karin Arvidsson|Töreboda, Undersköterska
+C|44095|70|M|Lars-Åke Bergman|Moholm, Pensionär
+C|44096|57|K|Ann-Charlott Karlsson|57 år, Töreboda
+C|44097|56|M|Johan Cord|Töreboda, Egenföretagare
+C|44098|53|K|Katarina Wikström|Töreboda, Parkarbetare
+C|44099|65|M|Bo Andersson|Moholm, Pensionär
+C|44100|43|K|Anna-Lena Rask|Töreboda, Undersköterska
+C|44101|36|M|Fawwaz Abbas|Töreboda, Jurist
+C|44102|66|K|Berit Bergman|Moholm, Skolmåltidsbiträde
+C|44103|57|M|Leif Börjesson|Töreboda, Livsmedelsarbetare
+C|44104|42|K|Ewa Ewaldson|Töreboda, Distriktsköterska
+C|44105|44|M|Johan Jacobsson|Töreboda, Träarbetare
+C|44106|42|K|Anna-Karin Holgersson|Töreboda, Enhetschef
+C|44107|65|M|Tommy Thelin|Töreboda, Pensionär
+C|44108|53|K|Yvonne Antonsson|Töreboda, Undersköterska
+C|44109|51|M|Hossein Mostafa|Töreboda, Undersköterska
+C|44110|38|K|Sara Torstensson|Töreboda, Sjuksköterska
+C|44111|67|M|Ulf Andersson|Moholm, Pensionär
+C|44112|54|M|Peter Granath|Töreboda, Egenföretagare
+C|44113|31|K|Malin Svantesson|Töreboda, Personlig assistent
+C|44114|61|M|Ulf Lindqvist|Töreboda, Bussförare
+C|44115|40|K|Daniella Friberg Särdqvist|Töreboda, Undersköterska
+C|44116|61|M|Tomas Karlsson|Moholm, Elektriker
+C|44117|57|K|Suzanne Lejon|Töreboda, Undersköterska/Personlig assistent
+C|3211|45|K|Pernilla Johansson|Lantbrukare,Töreboda, 45 år
+C|21041|62|M|Karl-Johan Gustafsson|Borreboda,Gymn.lärare
+C|21042|69|K|Marianne Asp-Henrysson|Borreboda,Spec.lärare
+C|21043|70|M|Allan Jakobsson|Ekeskog,Konditor
+C|21044|66|K|Wivie Thornell Johansson|Töreboda,Fritidsped
+C|21045|66|M|Sven Olsson|Halna,Chaufför
+C|21046|64|M|Per-Olof Pettersson|Uggletorp,Pensionär
+C|21047|83|M|Lars Frändberg|Bussahagen,Lantbrukare
+C|21048|72|M|Göran Johansson|Apetorp,Pensionär
+C|21049|65|M|Anders Gustafsson|Ängen,Lantbrukare
+C|21050|38|K|Stina Hjalmarssom|Mårby,Lärare
+C|21051|70|M|Stellan Ek|Bålerud,Pensionär
+C|21052|65|M|Roland Hjalmarsson|Älgarås,Lantbrukare
+C|21053|67|M|Anders Benjaminsson|Stenbäcken,Agronom
+C|21054|66|K|Ulla Henningsson|Mårby,Receptarie
+C|21055|64|M|Bengt Skagerstam|Halna,Skogsarbetare
+C|21056|72|K|Kerstin Henningsson|Larslund,Pensionär
+C|21057|73|M|Clas Evertsson|Moholm,Tekniker
+C|21058|29|M|Adrian Gustafsson|Borreboda,Doktorand
+C|3219|27|M|Daniel Nord|Civilingenjör, Töreboda, 27 år
+C|515856|41|M|Wali Hashmi|
+C|17505|51|K|Gunilla Fransson|51 Töreboda
+C|17506|47|M|Mattias Lindström|
+C|17507|50|K|Jaana Jansson|
+C|17508|33|M|Amer Abdulateef|
+C|17509|47|M|Semaan Makhoul|
+C|17510|74|M|Krister Dahl|
+C|17511|88|M|Arne Stöök|
+C|253987|65|M|Bengt Sjöberg|65, Kommunstyrelsens ordförande, Töreboda
+C|255657|59|K|Anne-Marie Lundin|Lantbrukare, Fägre
+C|255658|60|K|Marlene Näslin|Hästuppfödare, Fredsberg
+C|254317|43|K|Linn Brandström|43, Beteendevetare, Töreboda
+C|255660|67|M|Erland Gustavsson|Projektledare, Töreboda
+C|255661|72|M|Gunnar Welin|Veterinär, Töreboda
+C|254377|73|M|Jan Erik Sandegren|73, Pensionär, Töreboda
+C|255663|32|M|Gustaf Lexell|Projektledare/egenföretagare, Töreboda
+C|255664|62|M|Björn Lagerqvist|Pensionär, Älgarås
+C|255665|44|M|Jörgen Karlsson|Civilekonom, Töreboda
+C|255666|40|K|Marie Persson|Rektor, Töreboda
+C|255667|70|K|Ann Lindeberg|Redovisningskonsult, Moholm
+C|255668|57|M|Micael Hamilton|Greve, Moholm
+C|255669|62|M|Sören Lexell|Försäljningschef, Moholm
+C|255670|62|M|Tord Gustafsson|Programansvarig, Töreboda
+C|255671|74|K|Kerstin Bertilsson|Pensionär, Stenkälla
+C|255672|42|M|Per Brandström|vice Regionchef, Töreboda
+C|255673|62|M|Kjell Åke Gustavsson|Egenföretagare, Moholm
+C|255674|62|M|Lars Adolfsson|Lantbrukare, Moholm
+C|66379|57|M|Marco Terenziani|57 år, Pensionär
+C|66401|66|M|Bengt-Åke Johansson|66 år, Egenföretagare
+C|66402|55|K|Nina Terenziani|54, Undersköterska, Töreboda
+C|66403|68|M|Hans Persson|68, Överskötare Psykiatrin, Töreboda
+C|66404|67|M|Anders Löfgren|67 år, Pensionär
+C|66406|59|M|Peter Sporrong|58 år, Busschaufför
+C|66407|70|K|Jessica Sjöstrand|69 år, Pensionär
+C|510751|32|M|Gustav Svensson|32 år, försäljare
+C|512045|55|M|Simon Issa|55 år, pensionär
+C|515692|40|M|Håkan Andersson|
+C|515693|52|K|Marie Andersson|
+C|515833|18|M|Billy Andersson|
+C|119060|29|M|Mattias Faleke|Töreboda, Elektriker
+C|178951|45|K|Therése Göransson|Fritidsledare
+C|84192|50|K|Pernilla Almgren|Töreboda, Undersköterska
+C|119059|72|M|Jan-Erik Rosander|Töreboda, Pensionär
+C|178954|61|M|Lars-Göran Asp|Lärare
+C|178955|59|M|Thomas Magnusson|Undersköterska
+C|178956|56|K|Helene Engström|Skolkurator
+C|178957|57|K|Marita Asp|Kommunsekreterare
+C|178958|47|M|Niclas Ek|Datatekniker
+C|178959|80|K|Maj-Lis Asp|Pensionär

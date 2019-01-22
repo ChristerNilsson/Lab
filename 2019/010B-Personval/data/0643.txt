@@ -1,10 +1,154 @@
-2|35959|35960|35961|35962|35963|35964|35965|35966|35967|35968|35969|35970|35971|35972|35973|35974|35975|35976|35977|35978|35979|35980|35981|35982|35983|35984|35985|35986|35987|35988|35989
-4|123643|123644|123645|123646|123647|188782
-1287|392749|392750|392751|392752|392753|392754|392755|392756|392757|515910|515911|515912|515913|515914
-68|77793|77794|77795|77796|77797|77798|77799|77800|77801|77802|77803|113128|77804|77805|77806|113132|77807|77808|77809|77810|77811|77812
-3|200600|200601|200602|200603|200604|200605|200606|200607|200608|200609|200610|200611|200612|200613|200614|200615
-1296|138076
-55|233332|369405|374895|374896
-1|1564|71698|71699|71700|71701|71702|71703|71704|71705|71706|71707|71708|71709|71710|71711|71712|71713|71714|71715|71716|71717|71718|71719
-110|45112|45113|45114|45115|45116|512050|512051|512052|512902|512909|512910|512911|513800|515411|515978
-5|499230|499232|499231|501259|499233|515132
+T|Habo
+A|2|35959|35960|35961|35962|35963|35964|35965|35966|35967|35968|35969|35970|35971|35972|35973|35974|35975|35976|35977|35978|35979|35980|35981|35982|35983|35984|35985|35986|35987|35988|35989
+A|4|123643|123644|123645|123646|123647|188782
+A|1287|392749|392750|392751|392752|392753|392754|392755|392757|515910|515911|515912|515913|515914
+A|68|77793|77794|77795|77796|77797|77798|77799|77800|77801|77802|77803|113128|77804|77805|77806|113132|77807|77808|77809|77810|77811|77812
+A|3|200600|200601|200602|200603|200604|200605|200606|200607|200608|200609|200610|200611|200612|200613|200614|200615
+A|55|233332|369405|374895|374896
+A|1|1564|71698|71699|71700|71701|71702|71703|71704|71705|71706|71707|71708|71709|71710|71711|71712|71713|71714|71715|71716|71717|71718|71719
+A|110|45112|45113|45114|45116|512050|512051|512052|512902|512909|512910|512911|513800|515411|515978
+A|5|499230|499232|499231|501259|499233|515132
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1287|HaDem|Habodemokraterna
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|35959|61|M|Gunnar Pettersson|61 år,Gustav Adolf
+C|35960|68|K|Ewa Wettebring|68 år,Kärr
+C|35961|50|M|Nicklas Gustavsson|51 år,Bränninge
+C|35962|54|K|Jeanette Nyberg|54 år,Kråkeryd
+C|35963|42|M|Thomas Gustafsson|42 år, Ombudsman,Habo
+C|35964|61|K|Eva Damberg|61 år,Centrum
+C|35965|49|M|Kent Bjärkhed|49 år, Kommunalarbetare,Habo
+C|35966|57|K|Eva-Lis Svensson|57 år,Kärr
+C|35967|51|M|Mats Lindén|52 år,Bränninge
+C|35968|60|K|Carina Fritzon|60 år,Kråkeryd
+C|35969|37|M|Lenny Ödegården|38 år,Brandstorp
+C|35970|31|K|Sofia Johansson|32 år, Barnundersköterska,Habo
+C|35971|60|M|Imre Skrenya|60 år,Sjogarp
+C|35972|71|K|Berit Torstensson|71 år,Kärr
+C|35973|67|M|Vincent Bohm|68 år,Vätterbranten
+C|35974|36|K|Amela Johansson|37 år, Enhetschef,Habo
+C|35975|72|M|Jarl Karlsson|72 år,Bränninge
+C|35976|71|M|Robert Larsson|71 år,Holmen
+C|35977|73|M|Magnus Carlestav|73 år,Centrum
+C|35978|47|M|Marcus Eskdahl|47 år, Regionråd,Habo
+C|35979|72|M|Nils-Inge Carlsson|72 år,Sjogarp
+C|35980|57|M|Lars-Åke Johansson|57 år,Baskarp
+C|35981|53|K|Viveca Rydberg|53 år,Kråkeryd
+C|35982|34|M|Tobias Malmberg|34 år,Centrum
+C|35983|35|K|My Rydbeck|36 år,Centrum
+C|35984|58|M|Mikael Snarberg|58 år,Bränninge
+C|35985|34|K|Christine Rommedahl|34 år,Gustav Adolf
+C|35986|66|M|Karl-Fredrik Anner|66 år,Centrum
+C|35987|46|K|Karin Norman|47 år,Kråkeryd
+C|35988|46|K|Carina Gröndahl Sjöö|47 år, Lärare,Habo
+C|35989|73|K|Mary Eklund|73 år,Västerkärr
+C|123643|36|K|Hanna Englund|36, Undersköterska, Tunnbindargatan, Habo
+C|123644|57|M|Ulf H. Bertills|57, Telekom konsult, Habo
+C|123645|51|K|Helena Persson|51, Läkarsekreterare, Allégatan, Habo
+C|123646|30|K|Anna Miller|30, Teknisk projektledare, Kärrsvägen, Habo
+C|123647|65|M|Birger Lindström|65, Socionom, Övertorp, Mullsjö
+C|188782|63|M|Göran Rehn|63, Arbetsmiljörevisor, Habo
+C|392749|50|M|Morgan Malmborg|Egenföretagare
+C|392750|66|M|Lennart Karlsson|Pensionär
+C|392751|38|M|Johan Airaksinen|
+C|392752|53|M|Hans Martinsson|Industriarbetare
+C|392753|58|M|Sidney Karlsson|Anläggningsarbetare
+C|392754|62|M|Pirre Käll|Pensionär
+C|392755|23|K|Josefine Malmborg|Studerande
+C|392757|51|M|Per Svenhall|CNC operatör
+C|515910|48|K|Elisabeth Malmborg|
+C|515911|60|M|Jan Åke Larsson|
+C|515912|25|M|Erik Svensson|
+C|515913|72|M|Arpad Wickelgren Kacso|
+C|515914|41|M|Johan Skoglund|
+C|77793|60|M|Hans Jarstig|Kommunalråd, Habo
+C|77794|50|K|Maria Alfredsson|Socionom, Habo
+C|77795|45|M|Jon Harald Jonsson|Serviceman, Habo
+C|77796|51|K|Marie Lindholm|Montör, Habo
+C|77797|65|M|Jan Lenhammar|Egenföretagare, Habo
+C|77798|53|K|Karin Hultberg|Pastor, Furusjö
+C|77799|45|M|Rickard Lantz|Försäljningschef, Habo
+C|77800|64|K|AnnKristine Lund|Förvaltare, Habo
+C|77801|63|M|Johan Wållgren|Drifttekniker, Habo
+C|77802|27|M|Viktor Davidsson|Projektadministratör, Habo
+C|77803|70|K|Gerd Fåglefelt|Undersköterska, Habo
+C|113128|50|M|Lars Ramberg|Lärare, Krämmeskog
+C|77804|74|M|Ragnwald Ahlnér|Senior, Furusjö
+C|77805|62|K|Carina Andersson|Förskollärare, Habo
+C|77806|55|M|Jan Englöf|Egenföretagare, Habo
+C|113132|34|K|Susanna Hansen|Arbetsledare, Furusjö
+C|77807|80|M|Åke Lundgren|Senior, Habo
+C|77808|71|M|Lennart Blåberg|Volontär, Habo
+C|77809|69|M|Sten Unnerud|Adjunkt, Habo
+C|77810|79|M|Jan-Olof Glittrén|Senior, Habo
+C|77811|72|M|Leif Bloom|Volontär, Habo
+C|77812|79|M|Yngve Lundgren|Senior, Habo
+C|200600|51|M|Anders Rickman|51, Skolledare, Habo
+C|200601|51|K|Maria Alsén|52, Kurator, Habo
+C|200602|44|M|Anders Almfors|44, Ingenjör, Habo
+C|200603|53|K|Liselotte Heinonen|53, Administratör, Habo
+C|200604|58|M|Stefan Björk|58, Kriminalvårdschef, Habo
+C|200605|53|K|Mari Lindahl|53, Företagare, Habo
+C|200606|51|M|Roger Green|51, Sjukgymnast, Habo
+C|200607|67|M|Jerker Johansson|67, Företagare, Habo
+C|200608|72|K|Birgitta Ström|72, Lärare, Habo
+C|200609|18|M|Albin Rickman|18, Student, Habo
+C|200610|52|K|Ann-Charlotte Björk|52, Ekonom, Habo
+C|200611|54|M|Tomas Alsén|54, Servicetekniker, Habo
+C|200612|63|K|Eva Johansson|63, Butikschef, Habo
+C|200613|22|M|Victor Nordström|22, Undersköterska, Habo
+C|200614|48|K|Carina Rickman|48, Civilekonom, Habo
+C|200615|46|K|Marie Wärnbring|46, Fotograf, Habo
+C|233332|75|K|Margareta Fick|74 år, socionom, Habo
+C|369405|66|K|Kerstin Klasson|66 år, f d vårdlärare, Habo
+C|374895|70|K|Christina Källström|70 år, lärare, Habo
+C|374896|64|M|Lars Källström|64 år, konstruktör, Habo
+C|1564|45|K|Susanne Wahlström|45 år, Kommunikatör, Habo
+C|71698|49|M|Niklas Fungbrandt|49 år, Storhagen
+C|71699|42|M|Fredrik Wärnbring|42 år, Mogatan
+C|71700|56|K|Lisbet Bärenholdt|56 år, Kyrkbyn
+C|71701|69|M|Ingvar Briland|69 år, Fagerhult
+C|71702|61|K|Ann Charlotte Hoffback Kaljo|61 år, Gustav Adolf
+C|71703|48|M|Henrik Sporrong Esbjörnsson|48 år, Maden
+C|71704|64|M|Thomas Werthén|64 år, Företagare, Habo
+C|71705|39|K|Johanna Bergbom|39 år, Västra Solhöjden
+C|71706|41|M|Andreas Skiöld|41 år, Sjogarp
+C|71707|44|K|Mari Forsgård|44 år, St. Gölhult
+C|71708|61|M|Henrik Gillek|61 år, Håknarp
+C|71709|67|M|Ingemar Severin|67 år, Bränninge
+C|71710|71|M|Zaine Andersson|71 år, Mölekullen
+C|71711|39|M|Karl Bergbom|39 år, Västra Solhöjden
+C|71712|49|M|Mats Thorsén|50 år, Lundgatan
+C|71713|76|M|Lars Elwing|76 år, Vagnmakargatan
+C|71714|73|M|Rolf Westmar|73 år, Fexhult
+C|71715|74|M|Sven-Anders Nyström|74 år, Gustav Adolf
+C|71716|75|M|Per Henrik Persson|75 år, Nygatan
+C|71717|58|K|Anita Spaak|58 år, Brandstorp
+C|71718|60|M|Göran Carlstein|60 år, Brandstorp
+C|71719|65|M|Mats Werthén|65 år, Ringvägen
+C|45112|31|M|Olle Moln-Teike|Kock, Habo
+C|45113|52|M|Joakim Lindblom|52, Transporttekniker, Habo
+C|45114|59|K|Mari Larsson|59 år, samordnare, Furusjö
+C|45116|61|M|Conny Eriksson|61 år, chaufför, Ljunga
+C|512050|57|M|Kenneth Bock|
+C|512051|76|M|Hans Fröding|
+C|512052|48|M|Manjit Sandhu|
+C|512902|30|K|Emma Selldén|
+C|512909|56|M|Thomas Andersson|
+C|512910|22|M|David Eriksson|
+C|512911|50|K|Beata Zander|
+C|513800|52|M|Mikael Zander|
+C|515411|43|M|Fredrik Ekström|
+C|515978|17|M|Felix Åsell|
+C|499230|31|K|Johanna Rundlöf|31 år, socialsekreterare
+C|499232|69|M|Anders Thelin|69 år, läkare
+C|499231|62|M|Magnus Runnvall|62 år, lärare
+C|501259|65|K|Lena Danås|65 år, ombudsman
+C|499233|64|M|Per Green|64 år, präst
+C|515132|19|M|Emil Fröding|

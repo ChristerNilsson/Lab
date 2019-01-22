@@ -1,7 +1,130 @@
-2|28485|28486|28487|22218|28489|28490|28491|28492|28493|28494|28495|28496|28497|28498|28499|28500|28501|28502|28503|28504|28505|28506|28507|28508|28509|28510|28511|28512|28513|28514|28515
-4|27181|27182|27183|27184|27185|27186|27187|27188|27189|27190|27191|27192|27193|27194|27195|27196|27197|27198|27199|27200|27201|27202|27203|27204|27205
-3|28203|59894|59895|59896|59897|59898|59899|59900|28202
-55|414456|414457|414458|414459|311134|414465
-1|38666|38667|38668|38669|38670|38671|658|38673|38674|38675|38676|38677|38678|38679|38680|38681
-110|121615|121616|121617|121618|121619|121620|121621|121622|513651|513652|512661|513658|513659|513660|515582|515632
-5|30588|30589|30472|30591|30592|30483|30594|30595|30596|30597|30598|30599
+T|Kil
+A|2|28485|28486|28487|22218|28489|28490|28491|28492|28493|28494|28495|28496|28497|28498|28499|28500|28501|28502|28503|28504|28505|28506|28507|28508|28509|28510|28511|28512|28513|28514|28515
+A|4|27181|27182|27183|27184|27185|27186|27187|27188|27189|27190|27191|27192|27193|27194|27195|27196|27197|27198|27199|27200|27201|27202|27203|27204|27205
+A|3|28203|59894|59895|59896|59897|59898|59899|59900|28202
+A|55|414456|414457|414458|414459|311134|414465
+A|1|38666|38667|38668|38669|38670|38671|658|38673|38674|38675|38676|38677|38678|38679|38680|38681
+A|110|121615|121616|121617|121618|121619|121620|121621|121622|513651|513652|512661|513658|513659|513660|515582|515632
+A|5|30588|30589|30472|30591|30592|30483|30594|30595|30596|30597|30598|30599
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|28485|51|M|Anders Johansson|Kil
+C|28486|70|K|Rita Gunnarsson|Övre Bondestad
+C|28487|47|M|Robin Johansson|Kil
+C|22218|39|K|Jessica Hildèn|39 år, Kil
+C|28489|59|M|Mikael Johansson|59 år, Kil
+C|28490|68|K|Åse-Britt Falch|Högboda
+C|28491|63|M|Dragan Tesovic|Kil
+C|28492|30|K|Liselotte Siivonen|Kil
+C|28493|35|M|Carlmichael Leijon|Kil
+C|28494|70|K|Maj-Britt Tibo|Kil
+C|28495|59|M|Per Olof Nilsson|Kil
+C|28496|61|K|Pia Holmstrand|Kil
+C|28497|75|M|Dick Carling|Kil
+C|28498|49|K|Anneli Örtlund|Kil
+C|28499|46|M|Christian Sjöholm|Kil
+C|28500|76|K|Marianne Kjellström|Nilsby
+C|28501|62|K|Gun-Britt Johansson|Fagerås
+C|28502|46|M|Magnus Siljerud|Kil
+C|28503|26|M|Haidar Hamoda|Kil
+C|28504|38|K|Marika Vanneid|Kil
+C|28505|62|M|Thomas Grönberg|Kil
+C|28506|72|K|Maj-Britt Pihlström|Kil
+C|28507|54|M|Stefan Sjökvist|Kil
+C|28508|74|M|Kenneth Pihlström|Kil
+C|28509|54|K|Inger Sundin|Kil
+C|28510|64|M|Peter Savela|Högboda
+C|28511|74|M|Lennart Johansson|Högboda
+C|28512|39|M|Tobias Vikberg|Kil
+C|28513|55|M|Bert Holmqvist|Kil
+C|28514|71|M|Göran Andersson|Kil
+C|28515|59|M|Mats Sandström|59 år, Kil
+C|27181|68|M|Georg Forsberg|68 år, kommunalråd, Frykerud
+C|27182|57|K|Eva Frykenberger|Kil, 57 år, Personligt ombud
+C|27183|75|M|Björn Tolén|75 år, företagare,  Kil
+C|27184|30|K|Elin Lindahl Andersson|Kil, 31 år, Lärare
+C|27185|62|M|Berndt Björkman|62 år, lantbrukare, Frykerud
+C|27186|64|K|Berith Larsson|Kil, 63 år, HR-konsult
+C|27187|66|M|Inge Gustafsson|66 år, entreprenör, Boda
+C|27188|48|K|Marina Kedemark|48 år, lärare, Kil
+C|27189|66|M|Kenneth Bengtsson|66 år, företagskonsult,  Frykerud
+C|27190|73|M|Peter Pettersson|73 år, lantmästare, Kil
+C|27191|65|K|Inger Hansen Gustafsson|65 år, lantarbetare,  Boda
+C|27192|47|M|Torbjörn Karlström|47 år, chaufför, Frykerud
+C|27193|65|M|Johnny Skytte|65 år, lantbrukare, Kil
+C|27194|29|M|Johan Press|29 år, lantbruksarbetare, Frykerud
+C|27195|21|M|Oskar Krööse|21 år, markarbetare, Kil
+C|27196|72|K|Ulla-Britt Dagom|71 år, vårdlärare,  Boda
+C|27197|48|M|Henrik Ohlsson|48 år,  elektriker,  Kil
+C|27198|38|M|Erik Forsberg|38 år, lantbrukare,  Frykerud
+C|27199|59|K|Kerstin Press|59 år, chaufför, Frykerud
+C|27200|75|M|Björn Karlsson|75 år, byggnadsingenjör, Kil
+C|27201|75|M|Bertil Ottosson|75 år, företagare, Boda
+C|27202|41|M|Lars Eriksson|41 år, företagare, Frykerud
+C|27203|81|M|Tore Ohlsson|81 år, lantbrukare, Kil
+C|27204|67|M|Anders Dölerud|67 år, lantbrukare, Kil
+C|27205|66|M|Kenneth Kristoffersson|66 år, virkesmätare, Kil
+C|28203|25|M|Fredrik Karlsson|statsvetare, 25 år, Kil
+C|59894|52|K|Carola Nilsson|
+C|59895|24|K|Emma Örtlund|
+C|59896|72|M|Inge Bredin|
+C|59897|73|K|Gun-Britt Nilsson|
+C|59898|34|K|Maria Malm|
+C|59899|74|M|Mats Notini|
+C|59900|75|K|Miriam Tolvanen|
+C|28202|75|K|Anita Karmteg|leg sjuksköterska, 75 år, Kil
+C|414456|68|K|Eva Hammar|kanslist, Kil
+C|414457|56|M|Lars Nyberg|forskare, Kil
+C|414458|60|M|Bengt Karlsson|gymnasielärare, Boda
+C|414459|45|M|Johannes Wikström|stiftsingenjör, Kil
+C|311134|59|K|Stina Bergström|59, riksdagsledamot, Kil
+C|414465|48|K|Kristin Gustafsson|universitetslärare, Boda
+C|38666|62|M|Mats Stråhl|
+C|38667|63|M|Jan Fallström|
+C|38668|70|K|Christina Bertilsson|
+C|38669|62|K|Gudrun Larsson|
+C|38670|68|M|Hans Eriksson|
+C|38671|73|M|Torbjörn Tuback|
+C|658|66|K|Annika Bjelvert|pensionerad egenföretagare, Kil
+C|38673|69|M|Åke Lindberg|
+C|38674|60|K|Ingela Fallström|
+C|38675|70|M|Stig Bjelvert|
+C|38676|66|K|Eva Kjellberg|
+C|38677|74|M|Ivo Malmgren|
+C|38678|48|M|Anders Eriksson|
+C|38679|74|M|Torbjörn Holmqvist|
+C|38680|68|K|Virve Lindberg|
+C|38681|79|M|Ulf Sjödén|
+C|121615|53|M|Lars-Åke Berg|Produktionsledare, Kil
+C|121616|55|M|Tage Johansson|54, Datalärare/Pensionär, Kil
+C|121617|28|M|Johan Olsson|28, Inköpare, Kil
+C|121618|69|M|Leif G Andersson|69, Pensionär, Kil
+C|121619|59|M|Pierre Lidmalm|59, Projektledare bygg, Kil
+C|121620|71|M|Paul Creller|71, Pensionär, Kil
+C|121621|46|K|Petra Schullström|46, Busschaufför, Kil
+C|121622|51|M|Göran Berg|51, Montör, Kil
+C|513651|53|M|Lars Hed|Företagare, Kil
+C|513652|29|M|Kim Johansson|Logistiker, Kil
+C|512661|76|M|Esbjörn Persson|Pensionär, Kil
+C|513658|77|K|Lisbeth Berg|Pensionär, Kil
+C|513659|64|M|Ronny Gustavsson|Fartygsbefäl, Kil
+C|513660|77|M|Åke Berg|Pensionär, Kil
+C|515582|72|M|Stig Johansson|
+C|515632|50|M|Marko Nevalainen|
+C|30588|69|K|Ulla-Britt Mortensen|
+C|30589|51|M|Jonas Sjölin|
+C|30472|37|M|Daniel Johansson|36 år, Kil, säljare
+C|30591|25|M|Adam Maxe|
+C|30592|71|M|Johnny Nilsson|
+C|30483|59|M|Jan Eliasson|58 år, Högboda, säljare
+C|30594|39|M|Martin Solberg|
+C|30595|62|M|Leif Danielsson|
+C|30596|51|M|Lars Karlsson|
+C|30597|71|M|Johnny Johansson|
+C|30598|55|M|Sven-Olov Nilsson|
+C|30599|56|M|Peter Longén|

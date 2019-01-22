@@ -1,12 +1,280 @@
-2|49460|49461|49462|49463|49464|49465|49466|49467|49468|49469|49470|49471|49472|49473|49474|49475|49476|49477|49478|49479|49480|49481|49482|49483|49484|49485|49486|49487|49488|49489|49490|49491|49492|49493|49494|49495|49496|49497|49498|49499|49500|49501|49502|49503|49504|49505|49506|49507|49508|49509|49510|49511|49512|49513|49514|49515|49516|49517|49518
-4|1943|1970|1885|7642|7643|1898|1899|7646|1988|7648|1986|7650|7651|7652|7654|7655|7656|7657|1880|7659|7660|7661|7662|7663|7664|7665|7666|7758|11334
-532|513464|513709|513715
-68|248797|249625|249208|249627|249206|249629|248818|248803|249632|249633|249634|249635|249636|249637|249638|249639|249640|249641|249642|249643|249644|249645|249646|249647|249648|249649|249650|249651
-1140|507628|507629|480149
-3|246335|246336|246337|246338|246339|246340|246341|246342|246343|246344|246345|246346|246347|246348|246349|246350|246351|246352|246353
-1296|260322
-55|146637|146638|146639|146640|146641|146642|84741|82475|146645|82460|146647|146648|146649|84756|146651|146652|146653|146654|146655|146656|146657
-1|243430|254205|256009|256010|254213|256012|254220|256014|256015|256016|256017|243440|254229|243435|256022|256023|256024|256025|256026|256027|254211|256030|256032|256033|256034|256035
-110|68512|68513|68514|68515|68516|68517|68518|68519|495765|68520|68521|68522|68523|68524|68525|68526|68527|513708
-1076|9658|58832|2920|58834|58835|2924|58837|58838|15449|58840|2919|2918|2908|15451|2917|15455|58847|58848|58849|58850|58851|58852|58853|58854
-5|234428|324486|234436|234445|324489|324490|234429|324492|324493|324494|324495|324496|324497|234432|324499|234431|324501|324502|324503|324504|324505|324506|324507|412614
+T|Uddevalla
+A|2|49460|49461|49462|49463|49464|49465|49466|49467|49468|49469|49470|49471|49472|49473|49474|49475|49476|49477|49478|49479|49480|49481|49482|49483|49484|49485|49486|49487|49488|49489|49490|49491|49492|49493|49494|49495|49496|49497|49498|49499|49500|49501|49502|49503|49504|49505|49506|49507|49508|49509|49510|49511|49512|49513|49514|49515|49516|49517|49518
+A|4|1943|1970|1885|7642|7643|1898|1899|7646|1988|7648|1986|7650|7651|7652|7654|7655|7656|7657|1880|7659|7660|7661|7662|7663|7664|7665|7666|7758|11334
+A|532|513464|513709|513715
+A|68|248797|249625|249208|249627|249206|249629|248818|248803|249632|249633|249634|249635|249636|249637|249638|249639|249640|249641|249642|249643|249644|249645|249646|249647|249648|249649|249650|249651
+A|1140|507628|507629|480149
+A|3|246335|246336|246337|246338|246339|246340|246341|246342|246343|246344|246345|246346|246347|246348|246349|246350|246351|246352|246353
+A|1296|260322
+A|55|146637|146638|146639|146640|146641|146642|84741|82475|146645|82460|146647|146648|146649|84756|146651|146652|146653|146654|146655|146656|146657
+A|1|243430|254205|256009|256010|254213|256012|254220|256014|256015|256016|256017|243440|254229|243435|256022|256023|256024|256025|256026|256027|254211|256030|256032|256033|256034|256035
+A|110|68512|68513|68514|68515|68516|68517|68518|68519|495765|68520|68521|68522|68523|68524|68525|68526|68527|513708
+A|1076|9658|58832|2920|58834|58835|2924|58837|58838|15449|58840|2919|2918|2908|15451|2917|15455|58847|58848|58849|58850|58851|58852|58853|58854
+A|5|234428|324486|234436|234445|324489|324490|234429|324492|324493|324494|324495|324496|324497|234432|324499|234431|324501|324502|324503|324504|324505|324506|324507|412614
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1076|UddP|Uddevallapartiet
+B|5|V|Vänsterpartiet
+C|49460|56|K|Anna-Lena Heydar|Ekonom, 56 år, Uddevalla
+C|49461|60|M|Ingemar Samuelsson|kommunalråd, Centrum
+C|49462|53|K|Paula Berger|stödassistent, Herrestad
+C|49463|43|M|Stefan Skoglund|byggnadsarbetare, Tureborg
+C|49464|53|K|Annelie Högberg|Stödassistent, 53 år, Uddevalla
+C|49465|63|M|Kenneth Engelbrektsson|chaufför, Egersberg
+C|49466|52|K|Cecilia Sandberg|utvecklare, Fasseröd
+C|49467|71|M|Sonny Persson|f.d. ombudsman, Helenedal
+C|49468|45|K|Louise Åsenfors|Förskolelärare, 45 år, Uddevalla
+C|49469|46|M|Per-Erik Holmberg|processoperatör, Ljungskile
+C|49470|56|K|Susanne Grönvall|fil.mag., Sommarhemmet
+C|49471|60|M|Tobias Andreasson|omställare, Ljungskile
+C|49472|50|K|Susanne Börjesson|undersköterska, Centrum
+C|49473|46|M|Glenn Patriksson|Geolog, 46 år, Uddevalla
+C|49474|64|K|Carina Åström|Sjuksköterska, 64 år, Uddevalla
+C|49475|64|M|Tommy Strand|stödassistent, Skogslyckan
+C|49476|54|K|Marie-Louise Ekberg|butikssäljare, Bleket
+C|49477|56|M|Robert Wendel|socionom, Bratteröd
+C|49478|47|K|Veronica Vendel|stödassistent, Kurveröd
+C|49479|63|M|Jan-Olof Andersson|pensionstagare, Äsperöd
+C|49480|52|K|Margareta Wendel|behandlingspedagog, Forshälla
+C|49481|55|M|Taisir Ali Kassem|Boendehandledare, 55 år, Uddevalla
+C|49482|62|K|Catharina Hernod|stödassistent, Centrum
+C|49483|58|M|Åke Granath|truckförare, Fasseröd
+C|49484|55|K|Catarina Brorsson|socialrehabiliterare, Skogslyckan
+C|49485|67|M|Yngve Andersson|f.d. regionalt skyddsombud, Hogstorp
+C|49486|51|K|Anna-Karin Palm|personlig assistent, Ljungskile
+C|49487|66|M|Per-Arne Andersson|pensionär, Högås
+C|49488|49|K|Maria Nilsson|undersköterska, Tureborg
+C|49489|36|M|Josef Sannholm|egenföretagare, Dalaberg
+C|49490|53|K|Susanne Kellerman|arbetsmarknadsansvarig, Centrum
+C|49491|61|M|Kiomars Heydar|utvecklare, Dragsmark
+C|49492|44|K|Åsa Carlsson|verksamhetspedagog, Boxhult
+C|49493|33|M|Blerand Haliti|Lärare, 33 år, Uddevalla
+C|49494|48|K|Annette Adolfsson|överförmyndarhandläggare, Hässleröd
+C|49495|30|M|Marcus Johansson|byggnadsarbetare, Tureborg
+C|49496|31|K|Nora Åkare|barnskötare, Centrum
+C|49497|38|M|Tony Wall|lagerarbetare, Centrum
+C|49498|80|K|Edith Elbing|f.d. undersköterska, Unneröd
+C|49499|30|M|Sebastian Grip Nilsson|kock, Centrum
+C|49500|23|K|Tove Dahl|SSU-ombudsman, 23 år, Uddevalla
+C|49501|22|M|Philip Magnusson|studerande, Unneröd
+C|49502|43|K|Helena Hjelmqvist|stödpedagog, Skogslyckan
+C|49503|22|M|Joel Skoglycke|student, Bohusgården
+C|49504|39|K|Nadja Wickberg Zetterfors|handläggare, Forshälla
+C|49505|39|M|Sharif Baseey|undersköterska, Dalaberg
+C|49506|54|K|Carina Antonsson|Kock, 54 år, Uddevalla
+C|49507|58|M|Anders Jalakas|fil.mag., Bleket
+C|49508|39|K|Åsa Noord|undersköterska, Äsperöd
+C|49509|43|M|Jonas Karsna|kulturvetare, Bohusgården
+C|49510|57|K|Birgitta Pelli|undersköterska, Ljungskile
+C|49511|65|M|Ivan Svahn|pensionär, Helenedal
+C|49512|55|K|Agneta Larsson|skolsköterska, Herrestad
+C|49513|61|M|Klas-Göran Antonsson|mekaniker, Hogstorp
+C|49514|45|K|Ann-Catrin Wikblad|personalvetare, Äsperöd
+C|49515|69|M|Anders Fröjdö|pensionär, Centrum
+C|49516|29|M|Andreas Berggren|stödpersonal LSS, Tallvägen
+C|49517|59|M|Lennart Sköld|transportarbetare, Söder
+C|49518|39|M|Argjent Avollaj|ombudsman, Sunningen
+C|1943|65|M|Elving Andersson|gruppledare, 65 år, Uddevalla
+C|1970|51|K|Camilla Olsson|processledare, 51 år, Uddevalla
+C|1885|67|M|Torsten Torstensson|lantbrukare,67 år, Uddevalla
+C|7642|57|M|Stig Olsson|lantbrukare, Lane-Ryr
+C|7643|47|K|Marie Pettersson|verksamhetsutvecklare, Hogstorp
+C|1898|63|M|Mikael Bjuhr|leg.psykolog, 63 år, Uddevalla
+C|1899|54|M|Hosam Waarie|samhällsvägledare, 54 år, Uddevalla
+C|7646|53|K|Kristina Lind|universitetslektor, Ljungskile
+C|1988|35|M|Pierre Markström|kock, 35 år, Uddevalla
+C|7648|47|K|Torun Elgebäck|lärare, Ljungskile
+C|1986|65|M|Ulf Teghammar|ekonom, 65 år, Uddevalla
+C|7650|61|M|Babak Chalousi|läkare, Fasseröd
+C|7651|49|K|Katarina Rydberg|sjuksköterska, Uddevalla
+C|7652|60|K|Ewa Tillander|lärare, Skogslyckan
+C|7654|54|K|Anita Olsson|ekonom, Ljungskile
+C|7655|79|M|Willy Magnusson|konsult, Hogstorp
+C|7656|66|M|Bertil Sköld|pensionär, Lane-Ryr
+C|7657|61|M|Krister Olsson|verksamhetsledare, Bokenäs
+C|1880|55|K|Nina Andersson|biträdande enhetschef, 56 år, Uddevalla
+C|7659|56|M|Björn Sköldén|chaufför, Kurveröd
+C|7660|56|M|Erik Olsson|företagare, Hönseberget
+C|7661|76|K|Maud Hagelberg|distriktssköterska, Skogslyckan
+C|7662|27|M|Björn Andersson|rörmokare, Uddevalla
+C|7663|62|M|Olle Jonäng|regionutvecklare, Ljungskile
+C|7664|22|M|Matin Zabihullah|samhällsvägledare, Uddevalla
+C|7665|47|M|Martin Sjöberg|konsult, Bokenäs
+C|7666|49|M|Mattias Johansson|företagsledare, Buddeberg
+C|7758|48|M|Lennart Johansson|taxiförare, Herrestad
+C|11334|79|M|Lars Olsson|pensionär, Hovhult
+C|513464|44|K|Klara Puolakka|
+C|513709|23|K|Josefin Daouk|
+C|513715|48|K|Ulrica Wallin|
+C|248797|50|M|Magnus Jacobsson|Fil.kand. Historia, Uddevalla
+C|249625|46|K|Christina Nilsson|Sjuksköterska, Uddevalla
+C|249208|36|M|David Sahlsten|Fil. kand. Psykologi, Uddevalla
+C|249627|37|M|Jonas Sandwall|Konsult & kommunikationsspec. Ljungskile
+C|249206|66|K|Karin Johansson|Fd. pers. assistent, Uddevalla
+C|249629|53|M|Jerker Lundin|Egen företagare, Uddevalla
+C|248818|35|M|Anibal Rojas Jorquera|Lärare, Uddevalla
+C|248803|51|K|Marie Henriksen|Företagare, Uddevalla
+C|249632|50|M|Mikael Höglind|Företagare, Ljungskile
+C|249633|42|K|Linn Carlsson|Lärare, Uddevalla
+C|249634|40|M|Jonny Jansson|Arkitekt, Uddevalla
+C|249635|59|K|Fatima Ali Ismaiel|Undersköterska, Uddevalla
+C|249636|66|M|Erik Johansson|Ombudsman, Ljungskile
+C|249637|49|K|Joceline Haddad|Apotekstekniker, Uddevalla
+C|249638|42|M|Matthijs Klomp|Teknologie doktor, Ljungskile
+C|249639|31|M|Ahmed Bashir Omar|Egen företagare, Uddevalla
+C|249640|45|K|Susan Nader|Frisör, Uddevalla
+C|249641|40|M|Markus Thelén|Undersköterska, Uddevalla
+C|249642|31|K|Shankaron Abdulkadir|Undersköterska, Uddevalla
+C|249643|41|M|Eduardo Rojas Jorquera|Boendeassistent, Uddevalla
+C|249644|33|K|Lisa Vestergård|Pers. assistent, Uddevalla
+C|249645|59|M|Peter Dahlström|Försäljare, Ljungskile
+C|249646|19|M|Shafir Abdo|Studerande, Uddevalla
+C|249647|48|K|Eva-Lena Lundin|Administratör, Uddevalla
+C|249648|47|M|Robert Tammo|Egen företagare, Uddevalla
+C|249649|38|M|Markus Mattsson|Logistiker, Uddevalla
+C|249650|58|K|Karin Sundström-Oskarsson|Musiklärare, Ljungskile
+C|249651|29|M|Josua Jacobsson|Projektledare, Uddevalla
+C|507628|33|M|Martin Book|lärare, 33, Ljungskile/Uddevalla
+C|507629|50|M|Jörgen Allansson|läkare, 50, Uddevalla
+C|480149|61|M|Anders Ekman|systemutvecklare, 61, Ljungskile/Uddevalla
+C|246335|66|M|Rolf Jonsson|65, egenföretagare, Uddevalla
+C|246336|41|K|Maria Johansson|Jurist, Uddevalla
+C|246337|65|M|Roger Johansson|F.d. energiverkschef, Uddevalla
+C|246338|70|K|Gerd Andersson|Pensionär, Uddevalla
+C|246339|70|M|Claes Dahlgren|Revisor, Uddevalla
+C|246340|68|M|Carl-Johan Sernestrand|F.d. revisionschef, Ljungskile
+C|246341|61|K|Monica Bang Lindberg|61, HR-specialist, Uddevalla
+C|246342|53|K|Katarina Torstensson|Ekonomiadministratör, Uddevalla
+C|246343|68|M|Kalle Gustafsson|F.d. HR-chef, Uddevalla
+C|246344|40|M|Christian Bohlin|40, leg. sjuksköterska, Uddevalla
+C|246345|71|K|Annemaj Andersson|F.d. gymnasielärare, Uddevalla
+C|246346|53|M|Ulf Svensson|Sjukpensionär, Uddevalla
+C|246347|54|M|Esad Sukurica|Undersköterska, Uddevalla
+C|246348|71|M|Curt Nyman|Ingenjör, Uddevalla
+C|246349|76|K|Gun Berglund|F.d. lärare, Uddevalla
+C|246350|34|M|Johan Jonsson|IT-tekiniker, Uddevalla
+C|246351|77|K|Marianna Trogen|Kemiingenjör, Uddevalla
+C|246352|58|M|Berndt-Johan Lindberg|Lantbrukare, Bokenäs
+C|246353|77|M|Ralph Steen|Rektor emeritus, Uddevalla
+C|260322|43|K|Sabina Hult|44 account manager Uddevalla
+C|146637|62|M|Jarmo Uusitalo|Marinbiolog/IT-tekniker, Äsperöd
+C|146638|36|K|Karna Thomasdotter|
+C|146639|51|M|Lars Eide Andersson|50 år, Möbelsnickare, Uddevalla
+C|146640|60|K|Ann-Marie Viblom|59 år, lärare, Uddevalla
+C|146641|77|M|Ole Borch|Öster
+C|146642|66|K|Gunilla Magnusson|Biolog, Svenseröd
+C|84741|67|M|Stig Marklund|67 år, Socionom, Uddevalla
+C|82475|64|K|Vivian Fräknefjord|64 år, Speciallärare, Uddevalla
+C|146645|55|M|Torbjörn Larsson|55 år, Busschaufför, Hedegärde
+C|82460|40|K|AnnaTora Huss|40 år, Samordnare, Ljungskile
+C|146647|44|K|Johanna Ljung Abrahamsson|43 år, Kulturchef, Ljungskile
+C|146648|19|K|Arbesa Hoti|Studerande
+C|146649|58|K|Karin Molander|Arbetsterapeut, Äsperöd
+C|84756|50|K|Ewa Aronsson|50 år, Specialistsjuksköterska, Ljungskile
+C|146651|55|K|AnnSofi Sefton Johansson|
+C|146652|70|K|Lena Henriksson|Ljungskile
+C|146653|24|K|Katrina Uddén|25 år, Beteendevetare, Uddevalla
+C|146654|35|M|David Skälegård|35 år, Lärare, Boenäset
+C|146655|84|M|Thomas Görling|83 år, f.d Bibliotekarie
+C|146656|41|M|Andreas Ödman|41 år, Produktägare, Misteröd
+C|146657|45|M|Johannes Huss|45 år, Ljungskile
+C|243430|65|K|Carin Ramneskär|65, Oppositionsråd/Affärsrådgivare, Uddevalla
+C|254205|63|M|Mikael Staxäng|63, Lärare, Ljungskile
+C|256009|51|M|Roger Ekeroos|51, VD
+C|256010|75|K|Ingela Ruthner|75, Lågstadielärare
+C|254213|34|K|Johanna Ramneskär|34, Reservdelsförsäljare/Lantbrukare, Uddevalla
+C|256012|27|M|Niklas Moe|27, Undersköterska
+C|254220|69|M|Gösta Dahlberg|69, Företagare, Uddevalla
+C|256014|35|M|Jens Borgland|35, Civilingenjör
+C|256015|49|K|Camilla Josefsson|49, Enhetschef hemtjänst
+C|256016|35|M|Johan Augustsson|35, Snickare
+C|256017|76|M|Sture Svennberg|76, Ingenjör
+C|243440|60|M|Mikael Nyman|60, Affärsutvecklare , Uddevalla
+C|254229|44|M|Fredrik Södersten|44, Konsult, Uddevalla
+C|243435|45|M|Henrik Sundström|45, Advokat, Uddevalla
+C|256022|31|M|David Bertilsson|31, Säljare
+C|256023|33|M|Swen Stålros|33, FN-Soldat
+C|256024|74|M|Rolf Horsvik|74, Resekonsult
+C|256025|72|M|Nils-Erik Wangler|72, f.d Officer
+C|256026|32|M|Markus Klasson|32, Ingenjör
+C|256027|67|M|Said Olsson|67, Pensionär
+C|254211|64|M|Björn Skår|64, Egenföretagare, Uddevalla
+C|256030|54|K|Helen Andersson|54, Affärsutvecklare
+C|256032|40|M|Kristian Sandström|40, Bussförare
+C|256033|35|M|Christoffer Horsvik|35, Domstolshandläggare
+C|256034|39|M|Martin Otter|39, Civilingenjör
+C|256035|42|M|Jonas Winberg|42, Egen företagare
+C|68512|33|M|Martin Pettersson|Tjänsteman bygg, Uddevalla
+C|68513|71|M|Rolf Carlson|71 år, f.d. Fastighetsmäklare, Bokenäset
+C|68514|66|K|Rose-Marie Antonsson|Egenföretagare, Uddevalla
+C|68515|69|M|Thommy Karlin|69, Konsult, Uddevalla
+C|68516|51|K|Elena Tibblin|52 år, Kommuntjänsteman, Kurveröd
+C|68517|52|M|Stefan Eliasson|52 år, Projektledare, Jakobsberg
+C|68518|62|K|Marjut Laine|62 år, Administratör, Söder
+C|68519|38|M|Krzysztof Swiniarski|38 år, Företagsekonom, Bleket
+C|495765|38|K|Corinne Bergström|38 år, Apotekstekniker, Söder
+C|68520|28|M|John Alexandersson|28 år, Betongarbetare, Bokenäset
+C|68521|46|M|Mattias Forseng|46 år, Byggnadsarbetare, Karlsruhe
+C|68522|18|M|Teodor Winter|18 år, Studerande, Kuröd
+C|68523|39|M|Andreas Svensson|39 år, Servicearbetare, Bången
+C|68524|70|M|Anders Andersson|70 år, Pensionär, Centrum
+C|68525|70|M|Bo Antonsson|70, Politisk Sekreterare, Ljungskile
+C|68526|63|K|Dorota Hjoberg Carlson|63 år, Pensionär, Bokenäset
+C|68527|57|M|Alexander Blagojevic|57 år, Ramneröd
+C|513708|53|M|Leif Frisk|
+C|9658|61|K|Ann-Charlott Gustafsson|Företagare,           Uddevallapartiet
+C|58832|62|M|Christer Hasslebäck|Civilingenjör
+C|2920|61|K|Merja Henning|Överläkare,                                   Uddevallapartiet
+C|58834|73|M|Bjarne Rehnberg|Pensionär
+C|58835|45|K|Caroline Henriksson|Studerande
+C|2924|57|M|Kent Andreasson|Egenföretagare,Uddevallapartiet
+C|58837|76|K|Majvor Abdon|Rektor Emeritus
+C|58838|46|M|Lars Olsson|Undersköterska
+C|15449|37|K|Manal Keryo|Utredare,Uddevallapartiet
+C|58840|66|M|Kenth Johansson|Civilingenjör
+C|2919|38|M|Joakim Persson|Nätverkstekniker,Uddevallapartiet
+C|2918|66|M|Richard Bergström|Egen företagare,            Uddevallapartiet
+C|2908|74|M|Ingvar Lindsta|Byggnadsingenjör,Uddevallapartiet
+C|15451|70|K|Eva Johansson|Usk,Nordmanneröd, Uddevallapartiet
+C|2917|75|M|Thomas Eriksson|Överläkare
+C|15455|74|M|Kent Karlsson|Pensionär,Uddevallapartiet
+C|58847|68|M|Christer Lind|Pensionär
+C|58848|70|M|Kurt Hansson|Företagare
+C|58849|80|M|Lars Andréasson|Pensionerad Regementschef
+C|58850|50|M|Kimmo Holmqvist|Företagare
+C|58851|74|M|Leif Westbring|Pensionerad Överstelöjtnant
+C|58852|70|M|Hans Janson|Fastighetskonsult
+C|58853|80|M|Rune Johansson|Advokat
+C|58854|74|M|Christer Höij|Företagare
+C|234428|28|M|David Höglund Velasquez|Kriminalvårdare, 28 år, Uddevalla
+C|324486|57|K|Jaana Järvitalo|57 år, Socionom
+C|234436|60|K|Kerstin Joelsson-Wallsby|Undersköterska, 60 år, Uddevalla
+C|234445|30|M|Ilir Kastrati|Lärare, 30 år, Uddevalla
+C|324489|55|K|Anya Wrigman|55 år, Dramapedagog/Utvecklare
+C|324490|69|M|Lars-Olof Laxrot|69 år, Pensionär
+C|234429|56|K|Ewa Espling|Projektledare, 56 år, Uddevalla
+C|324492|28|M|Erdin Pirqe|28 år, Konsulent
+C|324493|57|M|Rickard Joelsson-Wallsby|57 år, Metallarbetare
+C|324494|66|M|Christer Johansson|66 år, Verksamhetsutvecklare
+C|324495|42|M|Stefan Kudryk|42 år, Utredare
+C|324496|27|K|Åsa Sjöström|28 år, Studerande
+C|324497|37|M|Leon Bergenart|37 år, Kock
+C|234432|56|M|Salah Abuarisheh|Boendehandledare, 56 år, Uddevalla
+C|324499|66|M|Morgan Olsson|65 år, Sjuksköterska
+C|234431|56|M|Ige Ahmed|Svetsare, 56 år, Uddevalla
+C|324501|52|K|Ulrika Lundström|52 år, Undersköterska
+C|324502|70|M|Lars-Göran Andersson|70 år, Pensionär
+C|324503|43|M|Abdurrahman Kartal|43 år, Egen företagare
+C|324504|62|M|Lennart Fagerberg|62 år, Besiktningsman
+C|324505|65|M|Christer Bertel|65 år, Pensionerad fastighetsskötare
+C|324506|65|M|Lännart Holm|65 år, Lärare
+C|324507|50|K|Marie Lundström|50 år, Fritidsledare
+C|412614|50|K|Annica Kallaste|51 år, Sjuksköterska

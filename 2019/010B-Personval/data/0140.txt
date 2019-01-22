@@ -1,9 +1,145 @@
-2|96632|71212|96640|121135|121136|121137|121138|121139|121140|121141|121142|121143|121144|121145|121146|121147|121148|121149|121150|121151|121152|121153|121154|121155|121156|121157|121158|121159|121160|121161
-4|77539|77540|77541|77542|77543|77544|77545|77546|77547|77548|77549
-68|163648|163649
-3|13333|13334|13335|13336|13337|13339|13340|13341
-55|106447|106448|106449|106450|106451
-1|20248|20249|20250|20251|20252|20253|20254|20255|20256|20257|20258|20259|20260|20261|20262|20263|20264|20265|20266
-123|409475|409476|409477|409478|409479|409480|409481|409482|409483|409484|409485|409486|409487|409488|409489|409490|409491|409492|409493|409494|409495|409496|409497|409498|409499|409500|409501|409502|409503|409504|409505|409506|409507|409508|409509|409510|409511|409512|409513|409514
-110|67213|67214|67215|67216|512537|512538|515095
-5|439177|439178|439179|439180|439181
+T|Nykvarn
+A|2|96632|71212|96640|121135|121136|121137|121138|121139|121140|121141|121142|121143|121144|121145|121146|121147|121148|121149|121150|121151|121152|121153|121154|121155|121156|121157|121158|121159|121160|121161
+A|4|77539|77540|77541|77542|77543|77544|77545|77546|77547|77548|77549
+A|68|163648|163649
+A|3|13333|13334|13335|13336|13337|13339|13340|13341
+A|55|106447|106448|106449|106450|106451
+A|1|20248|20249|20250|20251|20252|20253|20254|20255|20256|20257|20258|20259|20260|20261|20262|20263|20264|20265|20266
+A|123|409475|409476|409477|409478|409479|409480|409481|409482|409483|409484|409485|409486|409487|409488|409489|409490|409491|409492|409493|409494|409495|409496|409497|409498|409499|409500|409501|409502|409503|409504|409505|409506|409507|409508|409509|409510|409511|409512|409513|409514
+A|110|67213|67214|67215|67216|512538|515095
+A|5|439177|439178|439179|439180|439181
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|123|NP|Nykvarnspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|96632|64|K|Märtha Dahlberg|64, Kommunalråd, Nykvarn
+C|71212|60|M|Mikael Henriksson|60, Säljare, Nykvarn
+C|96640|53|K|Maria Salberg|53, Barnskötare, Nykvarn
+C|121135|51|M|Anders Önbäck|
+C|121136|69|K|Barbro Eriksson|
+C|121137|61|K|Matilda Drol|
+C|121138|75|M|Karl-Erik Johansson|
+C|121139|76|K|Lillemor Garbenius-Källström|
+C|121140|49|K|Joana Nilsson|
+C|121141|59|M|Sven Eklund|
+C|121142|55|K|Anna-Lena Hed|
+C|121143|41|M|Jordin Williams|
+C|121144|44|K|Kersti Stattin|
+C|121145|57|K|Susanne Lilja|
+C|121146|73|M|Krister Eriksson|
+C|121147|65|K|Birgitta Wikström|
+C|121148|47|K|Caroline Wenner|
+C|121149|64|M|Hans-Olof Berg|
+C|121150|50|K|Anna-Lena Setzman|
+C|121151|19|M|Adam Rosén Andersson|
+C|121152|52|K|Anneli Tornesque|
+C|121153|75|M|Jörgen Runholm|
+C|121154|62|K|Marie Fahlgren|
+C|121155|52|M|Håkan Tornesque|
+C|121156|70|K|Ulla Lammi|
+C|121157|75|M|Hans Persson|
+C|121158|47|K|Pernilla Westerberg|
+C|121159|52|M|Jan Eriksson|
+C|121160|73|K|Eva Johansson|
+C|121161|53|K|Kristina Rosén|
+C|77539|66|M|Börje Karlsson|Gruppledare
+C|77540|72|K|Kerstin Eriksson|Företagare
+C|77541|69|M|Lennart Ygstedt|69, Nykvarn, Lärare
+C|77542|41|M|Johan Grenfeldt|41, Nykvarn, Teknikexpert
+C|77543|76|K|Gunvor Strömbom|Dragspelare
+C|77544|37|M|Ola Berglund|Civilekonom
+C|77545|42|K|Kristina Svinhufvud|Miljöingenjör
+C|77546|43|M|Per Bergström|Projektledare
+C|77547|70|M|Börje Larsson|Företagare
+C|77548|66|K|Birgitta Grenfeldt|Undersköterska
+C|77549|71|M|Christer Koch|Arbetsförmedlare
+C|163648|37|K|Therese Holz|Butikschef
+C|163649|65|K|Eva Myrén|Pensionär
+C|13333|69|K|Anne-Marie Falk|handläggare, Nykvarn
+C|13334|71|K|Gunilla Lindell|
+C|13335|74|K|Yvonne Oward|
+C|13336|77|K|Inga Kammelid|
+C|13337|72|M|Lars-Erik Aili|
+C|13339|76|M|Roger Bäckström|
+C|13340|72|K|Christina Berlin|speciallärare, Nykvarn
+C|13341|74|K|Margareta Backlund|
+C|106447|57|K|Marie Martna|57 år, verksamhetscontroller
+C|106448|37|M|Patrik Grenfeldt|37 år, bioinformatiker
+C|106449|35|K|Alexandra Falk Claesson|35 år, projektutvecklare
+C|106450|68|M|Christer Olsson|68 år, civilingenjör
+C|106451|43|K|Melina Somers|43 år, boendestödjare
+C|20248|48|M|Johan Hägglöf|Försäljningschef
+C|20249|59|K|Britt-Marie Ellis Nygren|59, Försäkringsrådgivare
+C|20250|53|M|Cenneth Ålund|53, Generalsekreterare
+C|20251|46|M|Peter Olsson|46, Projektledare
+C|20252|48|K|Claudia Medina De Palmér|48, Säljare
+C|20253|64|M|Lembit Vilidu|Polisinspektör
+C|20254|69|M|Göran Nygren|69, Ekolantbrukare
+C|20255|74|M|Effe Östman|Överstelöjtnant
+C|20256|70|M|Bengt Johansson|Affärskonsult
+C|20257|54|M|Peter Palmér|Ingenjör
+C|20258|45|M|Anders Jönsson|Poliskommissarie
+C|20259|50|K|Lena Schulte-Austum|Projektledare
+C|20260|69|K|Sylvia Öhrn Andersson|fd Assistent
+C|20261|32|M|Jonas Tygesén|Egenföretagare
+C|20262|55|M|Peter Janthe|Egenföretagare
+C|20263|21|M|Kevin Nåtby|Säljare
+C|20264|45|M|Henrik Nordgren|Civilingenjör
+C|20265|59|M|Håkan Lindkvist|Administratör
+C|20266|59|M|Rolf Pettersson|Försäljningsansvarig
+C|409475|54|M|Bob Wållberg|
+C|409476|63|K|Karin Wallin|
+C|409477|39|M|Thomas Wiberg|
+C|409478|40|K|Gunilla Lindstedt|
+C|409479|70|M|Jan Brolund|
+C|409480|33|K|Sofia Cedergren|
+C|409481|50|M|Peter Nyman|
+C|409482|52|K|Mervi Niskanen Ulfbane|
+C|409483|75|M|Bertil Svensson|
+C|409484|43|K|Malin Westergren|
+C|409485|19|M|Rasmus Hillstedt|
+C|409486|38|K|Therese Kristiansson|
+C|409487|66|M|Leif Zetterberg|
+C|409488|55|K|Sanna Jensen Kangas|
+C|409489|73|M|Bengt Lindén|
+C|409490|61|M|Thorbjörn Wallin|
+C|409491|71|M|Urban Söder|
+C|409492|52|M|Per Salberg|
+C|409493|59|M|Anders Roos|
+C|409494|31|K|Malin Jensen|
+C|409495|38|M|Thomas Lindstedt|
+C|409496|40|M|Jonas Kristiansson|
+C|409497|68|M|Per Eklöf|
+C|409498|73|M|Jan Linderhielm|
+C|409499|74|K|Monika Westergren|
+C|409500|69|M|Jan Holmqvist|
+C|409501|48|M|Mart Pella|
+C|409502|66|M|Håkan Robertsson|
+C|409503|42|M|Mats Dahlensjö|
+C|409504|35|M|Mikael Fimmerstad|
+C|409505|75|M|Carl-Eric Olsson|
+C|409506|35|M|Nils Eidenberg|
+C|409507|62|M|Lars Karlsson|
+C|409508|35|M|Fredrik Johansson|
+C|409509|59|M|Mats Wallin|
+C|409510|78|M|Arne Källhus|
+C|409511|61|M|Jan-Erik Sandberg|
+C|409512|71|M|Dan Fagerlund|
+C|409513|75|M|Eino Long|
+C|409514|73|M|Runar Andersson|
+C|67213|24|M|Patrick Claesson|24, studerande, Nykvarn
+C|67214|59|M|Leonardo Horvat|Officer, 58
+C|67215|63|M|Kjell Lindberg|63, egenföretagare, Nykvarn
+C|67216|55|M|Kent Jansson|55, lagerarbetare, Nykvarn
+C|512538|58|M|Mats Claesson|Egenföretagare, 57
+C|515095|40|M|Rickard Öqvist|
+C|439177|66|K|Eva Wikenholm|hantverkare
+C|439178|70|K|Anneli Tikkanen-Rózsa|fil.mag
+C|439179|79|M|Allan Harju|pensionär
+C|439180|76|K|Pia Eriksson|företagare
+C|439181|79|K|Maija Harju|pensionär

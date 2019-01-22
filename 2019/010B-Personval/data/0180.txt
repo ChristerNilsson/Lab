@@ -1,23 +1,877 @@
-2|4366|4367|4368|4369|4370|4371|4372|4373|4374|4377|4376|4379|4378|4381|4380|4383|4382|4385|4384|4387|4386|4389|4388|4391|4390|4393|4392|4395|4394|4396|4397|4398|4399|4400|4401|4402|4403|4404|4405|4406|4407|4408|4409|4410|4411|4412|4413|4414|4415|4416|4417|4418|4419|4420|4421|4422|4423|4182|4425|4426|4427|4428|4429|4430|4431|4432|4433|4434|4435|4436|4437|4438|4439|4440|4441|4442|4443|4444|4445|4446|4447|4448|4449|4450|4451|4452|4453|4454|4455|4456|4457|4184|4459|4460|4461|4192|4209|4464|4221|4466|4467|4200|4469|4470|4471|4472|4473|4474|4475|4476|4477|4478|4479|4480|4481|4482|4483|4484|4485|4486|4487|4488|4489|4490|4491|4492|4493|4494|4495|4496|4188|4189|4499|4195|4501|4211|4503|4227|4505|4506|4194|4508|4509|4510|4511|4512|4513|4514|4208|4516|4204|4518|4519|4520|4521|4522|4523|4524|4525|4526|4527|4528|4529|4530|4288|4289|4290|4225|4292|4293|4294|4295|4296|4297|4298|4299|4302|4217|4304|4303|4306|4305|4308|4307|4310|4309|4312|4219|4314|4313|4316|4315|4318|4317|4320|4319|4322|4321|4324|4323|4326|4325|515640
-4|212892|175147|212894|212895|212896|175140|175120|175122|212900|175142|175116|175123|212904|212905|175114|212907|212908|212909|212910|212911|212912|213903|175135|175119|213907|213908|213910|213911|175138|213913|175129|175132|175134|175130|175144|215188|175124|175112|215191|248507|248508|248509|248510|248511|248512|248513|175127|175125|175136|175133|248553|248554|248555|175117|175137|248558|248592|248593|175126|248595|248596
-1318|508768
-1150|365283
-1136|471751
-532|30688|30689|30690|30691|30692|30693|30694|30695|30696|30697|30698|30699|30700|30701|30702|30703|30704|30705|30706|30707|30708|30709|30710|30711|30712
-1317|205527|515097
-1156|415681|415682
-1374|415131|415135|415136|415143|415144|415145|515772|515936
-1416|513155
-68|312912|313926|215614|312924|215621|312922|313931|312911|312929|313934|312930|313936|313937|313938|313939|313940|313941|313942|312915|313944|313945|313946|313947|313948|312921|313950|313951|312928|312926|313954|312935|313956|313957|313958|31805|312933|312934|312927|205312|312931|314396|314647|515807
-1140|480115|489528|480205|480142
-1011|132424
-3|277002|264782|264777|277005|277006|277007|277008|277009|277010|277011|277012|277013|277014|277015|277016|265972|277063|277064|277065|265974|277067|277068|277069|265978|264780|277284|264788|277286|277287|49195|266200|266199|277291|277292|266207|266201|278949|278950|264801|264787|279821|266206|279823|266203|279825|266208|279827|279828|280707|280708|280709|49161|280711|264778|280713|280714|271026|280716|280717|377233|280718|271028|271029|280721|280722|280723|280724|280725|281795|377735|264794|281797|281799|271051|281801|281802|281803|271046|281805|271050|271049|281808|281809|281810|281811|265967|264485|282465|282466|282467|282468|282469|282470|282471|282472|282473|282474|282475|282749|282750|282751|282752|282753|282754|271065|282756|282757|283358|283359|283360|49160|283362|271096|283364|283365|283366|271094|283368|283369|283370|271089|283372|271093|283374|377680|283375|271097|271091|515777
-1296|128128|128129|128130|128131|128132|128133|128134|128135|128136|128137|128138|128139|128140|128141|128142|128143|169239|169240|128574|169241|201156|515807
-55|103068|103069|103070|103071|103072|103073|103074|103075|103076|103077|103078|103079|103080|103081|103082|103083|103502|103503|103504|103505|103506|103507|103508|103509|103510|103511|103512|103513|103084|103515|103840|103841|103842|103843|103844|103847|103848|103086|103085|103852|103853|104334|104336|104337|104338|104339|104340|104341|104343|104345|104347|109210|109211|109212|109213|109214|109215|109287|109288|109289|109290|109291|109292|109294|109295|109298|103087|103088|103089|103090|103091|103092|103093|103094|103097|103096|493766
-1|20381|20382|20383|20384|20385|20386|20387|20388|20389|20390|20391|20392|13871|20394|13865|20396|20397|20398|20399|20400|20401|20402|20403|20404|20405|20406|20407|20408|20409|20410|20411|20412|20414|20415|20416|20417|20418|13864|20420|20421|13849|20423|20424|13862|20426|20427|20428|20429|20430|20431|20432|20433|20434|20435|20436|13853|20438|20440|20441|20442|20443|20444|20445|20446|20447|20448|20449|20450|20451|20452|20453|20454|20455|20456|20457|20458|20459|13856|20461|20462|20463|20464|20465|20466|20467|13870|20469|20470|20471|20472|20473|20474|20475|20476|20477|20478|20480|20481|13838|20483|20484|20485|13844|20487|20488|20489|20490|20491|13863|20493|20494|20495|20496|13850|20498|20499|20500|20501|20502|13860|20504|20505|20506|20507|20508|20509|20510|20511|20512|20513|20514|20573|20574|20575|13842|20577|20578|20579|13866|13852|20582|13855|20584|20585|20587|20588|20589|20590|20591|20592|20593|13869|20595|20596|20597|20598|20599|515807
-524|411620|411621|411622|411623|411624|411625|411626|411627
-1346|492906|492907
-555|513510|513964
-110|263951|263952|263953|263954|263955|263956|263957|263958|263959|263960|263961|263962|263963|263964|263965|263966|263967|263968|263969|263970|263971|263972|263973|263974|263975|263976|263977|263978|263979|263980|263981|263982|263983|263984|263985|263986|263987|263988|263989|263990|263991|263992|263993|263994|263995|4167|4162|5221|515807
-1349|11826
-5|236557|219006|218990|236560|236561|236562|218986|236564|218996|236566|218998|236568|236569|236570|236571|236572|219004|236574|236575|236576|236577|236578|236579|236580|236581|236582|236583|236584|236585|236586|236587|236588|236589|236590|236591|236592|236593
+T|Stockholm
+A|2|4366|4367|4368|4369|4370|4371|4372|4373|4374|4377|4376|4379|4378|4381|4380|4383|4382|4385|4384|4387|4386|4389|4388|4391|4390|4393|4392|4395|4394|4396|4397|4398|4399|4400|4401|4402|4403|4404|4405|4406|4407|4408|4409|4410|4411|4412|4413|4414|4415|4416|4417|4418|4419|4420|4421|4422|4423|4182|4425|4426|4427|4428|4429|4430|4431|4432|4433|4434|4435|4436|4437|4438|4439|4440|4441|4442|4443|4444|4445|4446|4447|4448|4449|4450|4451|4452|4453|4454|4455|4456|4457|4184|4459|4460|4461|4192|4209|4464|4221|4466|4467|4200|4469|4470|4471|4472|4473|4474|4475|4476|4477|4478|4479|4480|4481|4482|4483|4484|4485|4486|4487|4488|4489|4490|4491|4492|4493|4494|4495|4496|4188|4189|4499|4195|4501|4211|4503|4227|4505|4506|4194|4508|4509|4510|4511|4512|4513|4514|4208|4516|4204|4518|4519|4520|4521|4522|4523|4524|4525|4526|4527|4528|4529|4530|4288|4289|4290|4225|4292|4293|4294|4295|4296|4297|4298|4299|4302|4217|4304|4303|4306|4305|4308|4307|4310|4309|4312|4219|4314|4313|4316|4315|4318|4317|4320|4319|4322|4321|4324|4323|4326|4325
+A|4|212892|175147|212894|212895|212896|175140|175120|175122|212900|175142|175116|175123|212904|212905|175114|212907|212908|212909|212910|212911|212912|213903|175135|175119|213907|213908|213910|213911|175138|213913|175129|175132|175134|175130|175144|215188|175124|175112|215191|248507|248508|248509|248510|248511|248512|248513|175127|175125|175136|175133|248553|248554|248555|175117|175137|248558|248592|248593|175126|248595|248596
+A|1318|508768
+A|1150|365283
+A|1136|471751
+A|532|30688|30689|30690|30691|30692|30693|30694|30695|30696|30697|30698|30699|30700|30701|30702|30703|30704|30705|30706|30707|30708|30709|30710|30711|30712
+A|1317|205527|515097
+A|1156|415681|415682
+A|1374|415131|415135|415136|415143|415144|415145|515772|515936
+A|1416|513155
+A|68|312912|313926|215614|312924|215621|312922|313931|312911|312929|313934|312930|313936|313937|313938|313939|313940|313941|313942|312915|313944|313945|313946|313947|313948|312921|313950|313951|312928|312926|313954|312935|313956|313957|313958|31805|312933|312934|312927|205312|312931|314396|314647
+A|1140|480115|489528|480205|480142
+A|1011|132424
+A|3|277002|264782|264777|277005|277006|277007|277008|277009|277010|277011|277012|277013|277014|277015|277016|265972|277063|277064|277065|265974|277067|277068|277069|265978|264780|277284|264788|277286|277287|49195|266200|266199|277291|277292|266207|266201|278949|278950|264801|264787|279821|266206|279823|266203|279825|266208|279827|279828|280707|280708|280709|49161|280711|264778|280713|280714|271026|280716|280717|377233|280718|271028|271029|280721|280722|280723|280724|280725|281795|377735|264794|281797|281799|271051|281801|281802|281803|271046|281805|271050|271049|281808|281809|281810|281811|265967|264485|282465|282466|282467|282468|282469|282470|282471|282472|282473|282474|282475|282749|282750|282751|282752|282753|282754|271065|282756|282757|283358|283359|283360|49160|283362|271096|283364|283365|283366|271094|283368|283369|283370|271089|283372|271093|283374|377680|283375|271097|271091
+A|1296|128128|128129|128130|128131|128132|128133|128134|128135|128136|128137|128138|128139|128140|128141|128142|128143|169239|169240|128574|169241|201156
+A|55|103068|103069|103070|103071|103072|103073|103074|103075|103076|103077|103078|103079|103080|103081|103082|103083|103502|103503|103504|103505|103506|103507|103508|103509|103510|103511|103512|103513|103084|103515|103840|103841|103842|103843|103844|103847|103848|103086|103085|103852|103853|104334|104336|104337|104338|104339|104340|104341|104343|104345|104347|109210|109211|109212|109213|109214|109215|109287|109288|109289|109290|109291|109292|109294|109295|109298|103087|103088|103089|103090|103091|103092|103093|103094|103097|103096|493766
+A|1|20381|20382|20383|20384|20385|20386|20387|20388|20389|20390|20391|20392|13871|20394|13865|20396|20397|20398|20399|20400|20401|20402|20403|20404|20405|20406|20407|20408|20409|20410|20411|20412|20414|20415|20416|20417|20418|13864|20420|20421|13849|20423|20424|13862|20426|20427|20428|20429|20430|20431|20432|20433|20434|20435|20436|13853|20438|20440|20441|20442|20443|20444|20445|20446|20447|20448|20449|20450|20451|20452|20453|20454|20455|20456|20457|20458|20459|13856|20461|20462|20463|20464|20465|20466|20467|13870|20469|20470|20471|20472|20473|20474|20475|20476|20477|20478|20480|20481|13838|20483|20484|20485|13844|20487|20488|20489|20490|20491|13863|20493|20494|20495|20496|13850|20498|20499|20500|20501|20502|13860|20504|20505|20506|20507|20508|20509|20510|20511|20512|20513|20514|20573|20574|20575|13842|20577|20578|20579|13866|13852|20582|13855|20584|20585|20587|20588|20589|20590|20591|20592|20593|13869|20595|20596|20597|20598|20599
+A|524|411620|411621|411622|411623|411624|411625|411626|411627
+A|1346|492906|492907
+A|555|513510|513964
+A|110|263951|263952|263953|263954|263955|263956|263957|263958|263959|263960|263961|263962|263963|263964|263965|263966|263967|263968|263969|263970|263971|263972|263973|263974|263975|263976|263977|263978|263979|263980|263981|263982|263983|263984|263985|263986|263987|263988|263989|263990|263991|263992|263993|263994|263995|4167
+A|1349|11826
+A|5|236557|219006|218990|236560|236561|236562|218986|236564|218996|236566|218998|236568|236569|236570|236571|236572|219004|236574|236575|236576|236577|236578|236579|236580|236581|236582|236583|236584|236585|236586|236587|236588|236589|236590|236591|236592|236593
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1318|CSIS|Common sense in Sweden
+B|1150|DD|Direktdemokraterna
+B|1136|DjuP|Djurens parti
+B|532|FI|Feministiskt initiativ
+B|1317||Folkstyret
+B|1156|FS|Fria Stockholmare
+B|1374||Initiativet
+B|1416|iP|iP-IDROTTSPARTIET-Rädda Stadshagens IP!
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|524|PP|Piratpartiet
+B|1346||Solens Frihetsparti
+B|555||Stockholmspartiet
+B|110|SD|Sverigedemokraterna
+B|1349|ViS|Vi Socialkonservativa
+B|5|V|Vänsterpartiet
+C|4366|73|K|Inger Edvardsson|73, Bromma, f.d. skolledare
+C|4367|30|M|Arvid Vikman|30, Kungsholmen, bitr. enhetschef
+C|4368|30|K|Linda Agetoft|30, Kungsholmen, ombudsman
+C|4369|36|M|Fredrik Pettersson|36, Blackeberg, leg. sjuksköterska
+C|4370|72|K|Eva Risberg|72, Kungsholmen, bibliotekarie
+C|4371|19|M|Joel Tekle-Georgis|19, Bromma, student
+C|4372|30|K|Milla Järvelin|30, Blackeberg, samhällsvetare
+C|4373|47|M|Mårten Svensson Risdal|47, Kungsholmen, byråkrat
+C|4374|71|K|Maria Löfgren|71, Bromma, revisor/utredare
+C|4377|33|M|Dino Muhic|33, Kungsholmen, civilingenjör
+C|4376|74|K|Karin Hanqvist|74, Blackeberg, f.d. barnskötare
+C|4379|32|M|Erik Persson|32, Kungsholmen, brevbärare
+C|4378|69|K|Gunnel Horm|69, Kungsholmen, pensionär
+C|4381|75|M|Jan-Åke Porseryd|75, Kungsholmen, journalist
+C|4380|29|K|Julia Korkiakoski|29, Bromma, studerande
+C|4383|44|M|Juha Kilpi|44, Bromma, statsvetare
+C|4382|39|K|Noa Bilgic|39, Kungsholmen, account manager
+C|4385|31|M|André Bejnö|30, Kungsholmen, tjänsteman
+C|4384|77|K|Inger Grufman|77, Bromma, pensionär
+C|4387|35|M|Salim Tamimi|35, Bromma, läkare
+C|4386|34|K|Sandra Kastås|34, Kungsholmen, entreprenör
+C|4389|51|M|Pelle Johansson|51, Mariehäll, facilitator
+C|4388|64|K|Britt Dakhli|64, Bromma, mentor
+C|4391|46|M|Torbjörn Dalin|46, Kungsholmen, utredare
+C|4390|26|K|Sara Holmberg|26, Kungsholmen, statsvetare
+C|4393|72|M|Rolf Bergman|72, Kungsholmen, pensionär
+C|4392|46|K|Laila Abdallah|46, Stora Essingen, internationell sekreterare
+C|4395|80|M|Lars Olsson|80, Kungsholmen, f.d. bibliotekarie
+C|4394|70|K|Britt Rozental|70, Kungsholmen
+C|4396|60|M|Jan Valeskog|60, Norrmalm, stadsbyggnadsborgarråd
+C|4397|68|K|Ulla Sjöberg|68, Norrmalm, f.d. vice förbundsordförande
+C|4398|40|M|Stian Raneke|40, Östermalm, leg. sjuksköterska
+C|4399|26|K|Natalie Wredfors|26, Östermalm, järnvägsarbetare
+C|4400|41|M|Stefan Hell Fröding|41, Klara, pressekreterare
+C|4401|29|K|Katarina Krönenstedt|29, Norrmalm, statsvetare
+C|4402|67|M|Panagiotis Matiakis|67, Vasastan, civilekonom
+C|4403|73|K|Berit Nyberg|73, Östermalm, f.d. grafisk formgivare
+C|4404|34|M|Fredrik Boeke|34, Östermalm, målare
+C|4405|27|K|Sanna Eliasson|27, Östermalm, statsvetare
+C|4406|59|M|Johannes Hacker|59, Gamla stan, arbetslös
+C|4407|31|K|Hanaa Filali-Amil|31, Gamla stan, utredare
+C|4408|66|M|Magnus Waller|66, Norrmalm, utredare
+C|4409|28|K|Emelie Holm|28, Norrmalm, IT-projektledare
+C|4410|35|M|Jonas Nilsson|35, Östermalm, civilingenjör
+C|4411|72|K|Anita Lindskog|72, Norrmalm, f.d. arbetsförmedlingschef
+C|4412|61|M|Per Olof Scheutz Godin|61, Norrmalm, civilekonom
+C|4413|71|K|Birgit Marklund Beijer|71, Östermalm, f.d. bitr. avdelningschef
+C|4414|30|M|Per Strängberg|30, Norrmalm, avtalsansvarig
+C|4415|73|K|Mariana Penchansky De Buzaglo|72, Östermalm, leg. psykolog
+C|4416|63|M|Torbjörn Sundblad|63, Röda bergen, ledsagare
+C|4417|72|K|Susie de Ciutiis|72, Norrmalm, fil. kand.
+C|4418|24|M|Emil Bustos|24, Östermalm, doktorand
+C|4419|52|K|Carolina Gomez Lagerlöf|52, Norrmalm, patentingenjör
+C|4420|63|M|Robert Cloarec|63, Norra Djurgårdsstaden, jurist
+C|4421|55|K|Maria Sandgren|55, Östermalm, fil. dr/leg. psykolog
+C|4422|49|M|Claes Elmgren|49, Skarpnäck, tjänsteman
+C|4423|37|K|Rana Carlstedt|37, Bandhagen, leg. sjuksköterska
+C|4182|32|M|Alexander Lindholm|32, facklig ombudsman
+C|4425|41|K|Karin Gustafsson|41, Hammarbyhöjden, förtroendevald
+C|4426|42|M|Ulf Walther|42, Örby, jurist
+C|4427|53|K|Karin Lekberg|53, Sköndal, egen företagare
+C|4428|66|M|Lars Sundberg|66, Skarpnäck, pensionär
+C|4429|19|K|Suhur Salahyusuf|19, Bagarmossen, studerande
+C|4430|38|M|Mathias Tofvesson|38, Bandhagen, tjänsteman
+C|4431|56|K|Inga Näslund|56, Sköndal, översättare
+C|4432|37|M|Fredrik Stiernstedt|37, Skarpnäck, lektor
+C|4433|33|K|Maja Zachrisson|33, Hammarbyhöjden, samhällsplanerare
+C|4434|24|M|Sebastian Panzar|24, Bandhagen, studerande
+C|4435|19|K|Mahtab Sayady|19, Skarpnäck, studerande
+C|4436|54|M|Kjell Backman|54, Farsta, ingenjör
+C|4437|40|K|Aida Niang|40, Farsta, socionom
+C|4438|53|M|Mats Johansson|53, Hammarbyhöjden, tjänsteman
+C|4439|73|K|Ingela Håkansson|73, Farsta, pensionär
+C|4440|71|M|Birger Kato|71, Enskededalen, bussförare/pensionär
+C|4441|49|K|Jihan Jumha|49, Örby, undersköterska
+C|4442|29|M|Felix Finnveden|29, Skarpnäck, personlig assistent
+C|4443|50|K|Åsa Smedberg Östling|50, Sköndal, utredare
+C|4444|82|M|Wåge Johansson|82, Farsta, pensionär
+C|4445|41|K|Emelie Sundberg|41, Skarpnäck, tjänsteman
+C|4446|47|M|Claes Muschkin|47, Bagarmossen, kommunikatör
+C|4447|32|K|Sara Wahlberg|32, Hammarbyhöjden, systemförvaltare
+C|4448|71|M|Leif Strandberg|71, Bagarmossen, pensionär
+C|4449|51|K|Petra Hultenius|51, Bagarmossen, danspedagog
+C|4450|32|M|Johan Kovaniemi|32, Bandhagen, rekryteringsstrateg
+C|4451|36|K|Tove Skagerwall|36, Skarpnäck, tjänsteman
+C|4452|24|M|Nadab Abraha|24, Farsta, medieanalytiker
+C|4453|63|K|Monica Hallberg|63, Björkhagen, kansliansvarig
+C|4454|37|M|Olof Molander|37, Skarpnäck, leg. psykolog
+C|4455|53|K|Britt Klasson|53, Bagarmossen, sektionschef
+C|4456|43|M|Benjamin Martin|43, Skarpnäck, historiker
+C|4457|31|K|Emilia Bjuggren|31, Örnsberg, borgarråd
+C|4184|31|M|Salar Rashid|31, heltidspolitiker
+C|4459|72|K|Margaretha Stavling|72, Hägersten, pensionär
+C|4460|41|M|Stefan Hansson|41, Hammarby sjöstad, LO-ombudsman
+C|4461|33|K|Åsa Janlöv|33, Östberga, jurist
+C|4192|30|M|Stefan Johansson|30, målare
+C|4209|29|K|Emmelie Renlund|29, snickare
+C|4464|71|M|Sören Häggroth|71, Hägersten, generaldirektör
+C|4221|19|K|Mariam Asghari|19, studerande
+C|4466|32|M|Pontus Piazzolla|32, Västertorp, civilingenjör
+C|4467|41|K|Sara Gunnerud|41, Hägerstensåsen, språkkonsult
+C|4200|23|M|Daniel Vencu Velasquez Castro|23, retoriker
+C|4469|68|K|Katrin Nyström|68, Hägersten, egen företagare
+C|4470|26|M|Ola Palmgren|26, Bredäng, student
+C|4471|60|K|Annika Ödebrink|60, Hägersten, ombudsman
+C|4472|43|M|Thomas Högberg|43, Hägersten, socionom
+C|4473|19|K|Melisa Güner|19, Älvsjö, studerande
+C|4474|24|M|Anton Jägare|24, Gröndal, juriststudent
+C|4475|30|K|Maja Stilling|30, Hägersten, utredare
+C|4476|36|M|Kekke Valtersson|36, Fruängen, verksamhetsutvecklare
+C|4477|45|K|Marica Esentals|45, Aspudden, gymnasielärare
+C|4478|60|M|Nahman Hanna|60, Skärholmen, kyrkovaktmästare
+C|4479|23|K|Amanda Valldor|23, Hägersten, nationalekonomistudent
+C|4480|36|M|Daniel Gullstrand|36, Telefonplan, utredare
+C|4481|31|K|Ulrika Ström|31, Fruängen, socionom
+C|4482|34|M|Oskar Taxén|34, Gröndal, jurist
+C|4483|33|K|Eleonore Eriksson|33, Telefonplan, kanslichef
+C|4484|38|M|Mathias Rost|38, Skärholmen, verksamhetsledare
+C|4485|63|K|Eva Fagerhem|63, Hägersten, socionom
+C|4486|54|M|Lars Åsberg|54, Fruängen, egen företagare
+C|4487|37|K|Lina Pennlert|37, Hägersten, statsvetare
+C|4488|67|M|Robert Björkenvall|67, Nybohov, f.d. utredare/journalist
+C|4489|71|K|Margareta Malm|71, Fruängen, f.d. banktjänsteman
+C|4490|25|M|Jakob Sahlin|25, Hägersten, civilingenjör
+C|4491|38|K|Karin Steive|38, Ekensberg, socionom
+C|4492|40|M|Johan Rönnblom|40, Skärholmen, IT-konsult
+C|4493|33|K|Anna Werkelin Ahlin|33, Hägersten, sakkunnig hälso&sjukvård&jämställdhet
+C|4494|43|M|Richard Wiklander|43, Skärholmen, nationalekonom
+C|4495|79|M|Alexandros Asvestas|79, Hägersten, inredningsarkitekt
+C|4496|43|K|Karin Wanngård|43, Vällingby, finansborgarråd
+C|4188|36|M|Suleiman Said|36, energirådgivare
+C|4189|59|K|Mirja Räihä|59, undersköterska
+C|4499|44|M|Johan Sjölander|44, Hässelby, kommunsekreterare
+C|4195|39|K|Lisa Carlsson|39, lärare
+C|4501|28|M|Nassir Abdullahi Ali|28, Tensta, biomedicinare
+C|4211|30|K|Maria-Elsa Salvo|30, kommunikationsstrateg
+C|4503|69|M|Bengt Ohlsson|69, Akalla, f.d. sekretariatschef
+C|4227|51|K|Esme Güler|51, ekonom
+C|4505|25|M|Daniel Katebi|25, Akalla, ombudsman
+C|4506|76|K|Inger Lagerman|76, Vällingby, frilansjournalist
+C|4194|60|M|Moissis Nikolaidis|60, småföretagare
+C|4508|24|K|Lotten Hammar|24, Tensta, studerande
+C|4509|42|M|Ahmad Zia Lodin|42, Kista, ombudsman
+C|4510|26|K|Shabnam Bagheri Niko|26, Kista, statsvetare
+C|4511|31|M|Stefan Runfeldt|31, Vällingby, utredare
+C|4512|75|K|Gun Risberg|75, Vällingby, pensionär
+C|4513|63|M|Hans Kilsved|63, Bromsten, ekonom
+C|4514|30|K|Jenny Storm Gillberg|30, Tensta, lärare
+C|4208|21|M|Mario Chahrestan|21, studerande
+C|4516|54|K|Sara Tafere|54, Kista, studerande
+C|4204|70|M|Azad Hassan|70, pensionär
+C|4518|20|K|Lara Badinson|20, Vällingby, studerande
+C|4519|58|M|Celal Altun|58, Spånga, husvärd
+C|4520|72|K|Kyllikki Iroegbu|72, Husby, ekonom
+C|4521|52|M|Robert Fischer|52, Hässelby, civilingenjör
+C|4522|28|K|Jessica Persson|28, Hässelby, utvecklingssekreterare
+C|4523|47|M|Samir Sabri|47, Spånga, erfarenhetsexpert
+C|4524|49|K|Barbro Engdahl|49, Hässelby, utredare
+C|4525|23|M|David Persson|23, Akalla, ombudsman
+C|4526|69|K|Meherun Nessa Rahman|69, Kista, pensionär
+C|4527|37|M|Tobias Haglö|37, Vällingby, lärare
+C|4528|43|K|Shuta Bari|43, Hässelby, studerande
+C|4529|74|M|Peter Engberg|74, Vällingby, folkbildare
+C|4530|43|K|Tara Rasul Aziz|43, Akalla, musiker
+C|4288|43|M|Olle Burell|43, Södermalm, skolborgarråd
+C|4289|57|K|Ingela Edlund|57, Enskededalen, ombudsman
+C|4290|52|M|Anders Göransson|52, Södermalm,
+C|4225|30|K|Åsa Odin Ekman|30, utredare
+C|4292|35|M|Mattias Eriksson|35, Enskede, facklig-politisk sekreterare
+C|4293|35|K|Lisa Gustafsson|35, Hammarby sjöstad, mönsterkonstruktör
+C|4294|52|M|Jimmy Lindgren|52, Enskede, tidningsdistributör
+C|4295|78|K|Britten Lagerkvist Tranströmer|78, Södermalm, konsumentrepresentant
+C|4296|77|M|Måns Lönnroth|77, Södermalm, pensionär
+C|4297|28|K|Milischia Rezai|28, Årsta, statsvetare
+C|4298|49|M|Martin Engman|49, Södermalm, jurist
+C|4299|55|K|Lena Dahlström|55, Hammarby sjöstad, fotograf/småföretagare
+C|4302|68|M|Göran Dahlstrand|68, Södermalm, pensionär
+C|4217|61|K|Ewa Carlsson Hallberg|61, skådespelare
+C|4304|31|M|Eric Blomqvist|31, Årsta, arbetsledare
+C|4303|27|K|Ebba Ringborg|27, Årsta, utredare
+C|4306|21|M|Axel Hjelm|21, Södermalm, student
+C|4305|48|K|Fredrika Holm|48, Södermalm, undersköterska
+C|4308|67|M|Bo Hansson|67, Enskede, läxhjälpssenior
+C|4307|50|K|Nancy Lukic|50, Södermalm, säljare
+C|4310|48|M|Charn Ispa|48, Södermalm, ordningsvakt
+C|4309|59|K|Anna Forssell|59, Årsta, undervisningsråd
+C|4312|70|M|Harald Ullman|70, Katarina, småföretagare
+C|4219|57|K|Mia Sundelin|57, administrativ chef
+C|4314|75|M|Harry Vikner|75, Årsta, pensionär
+C|4313|70|K|Görel Strand|70, Hammarby sjöstad, socionom/arbetsrättsjurist
+C|4316|38|M|Pehr-Albin Edén|38, Södermalm, präst
+C|4315|44|K|Anna Sophie Liebst|44, Södermalm, projektledare
+C|4318|41|M|Richard Andersson|41, Hammarby sjöstad, ekonom
+C|4317|32|K|Eva Köhler|32, Södermalm, utredare
+C|4320|75|M|Ralf Örvi|75, Södermalm, pensionär
+C|4319|75|K|Anita Widlund|75, Södermalm, fil.mag.
+C|4322|62|M|Rustan Rydman|62, Södermalm, utredare
+C|4321|59|K|Kristina Salenstedt Linder|59, Södermalm, studie- och yrkesvägledare
+C|4324|52|M|Rolf Adolfsson|52, Södermalm, statistiker
+C|4323|30|K|Elin Lilijenbladh|30, Hammarby sjöstad, jurist
+C|4326|64|M|Per Key Björcke|64, Södermalm, affärsutvecklare/konsult
+C|4325|68|K|Yvonne Bernhardsson|68, Hammarby sjöstad, fotograf
+C|212892|32|K|Karin Ernlund|32 år, gruppledare, Liljeholmen
+C|175147|38|M|Jonas Naddebo|38 år, affärsutvecklare, Vasastan
+C|212894|42|M|Fredrik Lindstål|42 år, entreprenör, Södermalm
+C|212895|35|K|Banar Sabet|35 år, företagare, Norra djurgårdsstaden
+C|212896|60|K|Susanne Wicklund|61 år, civilingenjör, Norrmalm
+C|175140|36|M|Johan Fälldin|36 år, politiskt sakkunnig, Ormkärr
+C|175120|47|M|Claes Nyberg|47 år, presschef, Södermalm
+C|175122|41|K|Kristin Jacobsson|41 år, politiskt sakkunnig, Kungsholmen
+C|212900|25|K|Elin Larsson|statsvetare, Sandviken
+C|175142|36|M|John Kåberg|36 år, civilingenjör och lärare, Kungsholmen
+C|175116|28|K|Johanna Lundgren Gestlöf|28 år, konsult, Gärdet
+C|175123|55|K|Caroline Blomberg|55 år, event- och informationsansvarig, Östermalm
+C|212904|53|M|Fredrik Adolfsson|53 år, ekonom, Vasastan
+C|212905|35|M|Andreas Strömberg|35 år, jur. kand., Vasastan
+C|175114|48|K|Malin Björk|48 år, jurist, Gärdet
+C|212907|27|M|Gustav Karreskog|27 år, doktorand, Kungsholmen
+C|212908|24|K|Malin Johnson-Stampe|24 år, sekreterare, Östermalm
+C|212909|27|M|Emil Lilja Obroucka|27 år, student, Östermalm
+C|212910|19|K|Clara Silfverswärd Dahlgren|19 år, student, Västertorp
+C|212911|25|M|Christian Ekdahl|25 år, projektledare, Gärdet
+C|212912|34|M|Carl Steen|34 år, tjänsteman, Gärdet
+C|213903|57|K|Christina Peterson|57 år, kanslisekreterare, Gamla Enskede
+C|175135|41|M|Mathias Mellgren|41 år, projektledare, Hammarby sjöstad
+C|175119|27|K|Diana Van|27 år, public affairs manager, Södermalm
+C|213907|43|M|Niclas Boborg|43 år, affärsutvecklare, Södermalm
+C|213908|48|M|Svante Linusson|48 år, professor, Hornstull
+C|213910|41|K|Sofia Jöngren|41 år, kanslichef, Södermalm
+C|213911|68|K|Gudrun Råberg|68 år, fd. assistent, Södermalm
+C|175138|30|M|Niklas Svanlindh|30 år, PR-konsult, Södermalm
+C|213913|31|M|Markus Berensson|31 år, forskningsledare, Södermalm
+C|175129|26|M|Isak Trygg Kupersmidt|26 år, doktorand i nationalekonomi, Kungsholmen
+C|175132|37|K|Maria del Rocio Paniagua Dachner|37 år, Kungsholmen
+C|175134|32|K|Rebecka Pershagen|32 år, konstnär, Lilla Essingen
+C|175130|30|K|Anna Sandström|30 år, jurist, Kungsholmen
+C|175144|47|M|Fredrik Bojerud|48 år, egenföretagare, Kungsholmen
+C|215188|65|K|Catharina Knutsson|65 år, kartingenjör, Stora Essingen
+C|175124|33|M|Hamid Ershad Sarabi|33 år, content producer, Enskede
+C|175112|36|K|Maja Boström|36 år, byråchef, Kungsholmen
+C|215191|39|M|Daniel Sunesson|39 år, banktjänsteman, Kungsholmen
+C|248507|42|M|Gunnar Caperius|42 år, politiskt sakkunnig, Bagarmossen
+C|248508|68|K|Ellionor Moberg|68 år, projektledare, Stureby
+C|248509|53|K|Malena Liedholm Ndounou|52 år, programhandläggare, Farsta
+C|248510|34|K|Kristina Amnå|34 år, utredare, Sköndal
+C|248511|35|M|Patrik Kullman|35 år, chief technology officer, Örby
+C|248512|29|M|Niklas Dahlgren|29 år, IT-ansvarig, Farsta
+C|248513|34|K|Karin Fälldin|33 år, förbundssekreterare, Bandhagen
+C|175127|30|M|Johan Vesterlund|30 år, personalvetare, Hägersten
+C|175125|77|K|Evy Kjellberg|77 år, lärare i hem- och konsumentkunskap, Älsvjö
+C|175136|33|K|Emilie Johansson|33 år, pressekreterare, Hägersten
+C|175133|48|M|Erik Sarfors|48 år, företagare, Älsvjö
+C|248553|38|M|Erik Sihlberg|38 år, miljökommunikatör, Skärholmen
+C|248554|37|K|Daniela Sameland|37 år, kanslisekreterare, Skärholmen
+C|248555|31|M|Daniel Dudek|31 år, affärsområdeschef, Mälarhöjden
+C|175117|31|M|Karl Malmqvist|31 år, politiskt sakkunnig, Liljeholmen
+C|175137|54|K|Maria Christiernin|53 år, fil.dr., Älvsjö
+C|248558|33|M|Henrik Falk|33 år, projektledare, Älvsjö
+C|248592|38|K|Linn Bessner|38 år, utbildningsansvarig, Vällingby
+C|248593|68|K|Marianne Magnusson|68 år, administrativ sekreterare, Hässelby
+C|175126|53|K|Maria Bojerud|53 år, administratör, Hässelby Villastad
+C|248595|35|K|Hafize Cetin|35 år, skolkurator, Hässelby
+C|248596|27|K|Märta Martin-Åkesson|26 år, generalsekreterare, Farsta
+C|508768|42|M|Richard Wikström|
+C|365283|37|K|Hani Halilovic|
+C|471751|41|K|Rebecka Bernstone|Stockholm, administratör djurskyddsorganisation, 41 år
+C|30688|35|K|Anna Rantala Bonnier|35, Hägersten, socionom
+C|30689|30|K|Sissela Nordling Blanco|30, Sätra, ordförande Rådet för mänskliga rättigheter
+C|30690|26|K|Lisa Palm|26år, Fritidsledare/Gruppledare, Stockholm
+C|30691|50|K|Maria Jansson|50år, Docent i statsvetenskap/universitetslektor, Stockholm
+C|30692|33|K|Madeleine Kaharascho Fridh|33, Aspudden, rådgivare barnrättsfrågor
+C|30693|49|K|Malin Ericson|49, Stockholm, Språkvetare
+C|30694|26|M|Rojan Karakaya|26, Stockholm, Tjänsteperson
+C|30695|35|K|Jasminé Mehho|35, Tensta, nationell samordnare RFSL Newcomers
+C|30696|30|K|Sofia Lundin|30, Södermalm, konstvetare
+C|30697|21|K|Nimo Moalin|21, Östberga, student
+C|30698|23|K|Hedda Tingskog|23, Södermalm, journalist/talesperson Unga Feminister
+C|30699|34|K|Djuna Jangmyr|34, Stockholm, Transpolitisk aktivist
+C|30700|32|K|Johanna Andersson|32, Bagarmossen, handläggare
+C|30701|42|M|Andrés Esteche|42, Sätra, kulturproducent/projektledare
+C|30702|36|K|Katarzyna Katta Konkol|36år, Juridikstuderande, Stockholm
+C|30703|35|M|Erik Vallström|35, Stockholm, Socionom
+C|30704|31|K|Mona Camara Sylvan|31, Rågsved, statsvetare
+C|30705|40|M|Calle Öhlin|40, Stockholm, Samhällsplanerare
+C|30706|20|K|Alicia Nathanson Thulin|20, Kungsholmen, student feminism och miljörättvisa
+C|30707|55|K|Annika Nylén|55, Södermalm, förskolechef
+C|30708|60|K|Mimika Kirgios|60, Vasastan, matematiker/fotograf
+C|30709|48|K|Filippa Rinman|48, Bredäng, behandlare HVB
+C|30710|30|M|Jonas Göthner|30, Bredäng, institutionssekreterare
+C|30711|52|K|Anneli Åkesson|52, Fredhäll, studievägledare
+C|30712|50|M|Ian Horberry|50, Hägersten, stenhuggare
+C|205527|51|M|Mikael Ströberg|
+C|515097|50|M|Erik Thorén|
+C|415681|26|M|Theodor Smart Randquist|26, Vasastan
+C|415682|46|M|Per Vrethem|46, rätts- och beteendevetare, Kungsholmen
+C|415131|64|M|Hans Karlsson|63, Civilekonom
+C|415135|30|M|Martin Andersson|30, Grön utvecklingsledare
+C|415136|66|K|Kristina Mowald|66, Bibliotekarie
+C|415143|52|M|Niclas Ihrén|52, Civilingenjör
+C|415144|35|K|Sanna Rådelius|35, Egenföretagare
+C|415145|36|M|Michael Wernstedt|36, Jurist
+C|515772|45|K|Maria Ottoson|
+C|515936|46|M|Emil Vinterhav|
+C|513155|65|M|John Kilian Remmer|
+C|312912|38|M|Erik Slottner|38, Gruppledare, Stockholm
+C|313926|38|K|Michaela Hollis|38, Fil.mag., statsvetare , Hässelby
+C|215614|31|M|Christian Carlsson|31, Förbundsordförande KDU, Bromma
+C|312924|54|M|Mikael Valier|54, Kommunikationschef, Stockholm
+C|215621|48|K|Sofia Modigh|48, Teamchef, Farsta
+C|312922|21|K|Nike Örbrink|21, Student, Bromma
+C|313931|30|K|Ofelia Namazova Venneman|30, Pressekreterare, Stockholm
+C|312911|73|M|Ulf Lönnberg|73, Skribent, Stockholm
+C|312929|36|K|Johanna Hedin|36, Leg. psykolog, Stockholm
+C|313934|32|M|Steven Crosson|32, Leg. psykolog, Stockholm
+C|312930|33|M|David Fenerström|33, Statsvetenskapstudent, Stockholm
+C|313936|31|K|Disa Viljehammar|31, Socionom, Stockholm
+C|313937|18|M|Lucas Svärd Almenäs|18, Student, Stockholm
+C|313938|53|K|Carina Franke|53, Undersköterska, Hässelby
+C|313939|47|K|Annette Hultåker|47, Senior analytiker, Stockholm
+C|313940|63|K|Maria Sköld Wilhelmson|63, Politisk sekreterare, Stockholm
+C|313941|35|M|Maurice Forslund|35, Jurist, Spånga
+C|313942|52|K|Jessica Stjernström|52, Ombudsman, Vällingby
+C|312915|62|K|Britt Westerlind|62, Kulturvetare, Stockholm
+C|313944|51|M|Claes Karlsson|51, Socionom, Enskededalen
+C|313945|76|K|Kerstin Rossipal|76, Ekonom, Bromma
+C|313946|29|M|Emil Öberg|29, Auktoriserad revisor, Stockholm
+C|313947|52|K|Ewa-Marie Ås|52, Förvaltningsadministratör, Stockholm
+C|313948|64|M|Thomas Zakrisson|64, Lärare, Stockholm
+C|312921|20|K|Destiny Näslund|20, Marknadsförare, Spånga
+C|313950|40|M|Jonathan Lindgren|40, Handläggare, Skarpnäck
+C|313951|26|K|Ester Hedin|26, Student, Spånga
+C|312928|28|K|Sabina Jansson|28, Samhällsvetare, Stockholm
+C|312926|63|M|Joel Gren|63, Lärare, Hässelby
+C|313954|54|K|Lisbeth Friman|54, Leg. sjuksköterska, Stockholm
+C|312935|32|M|Fredrik Norberg|32, Tjänsteman, Hägersten
+C|313956|64|K|Ingrid Ljunggren|64, Leg. psykolog, Stockholm
+C|313957|30|M|Fredrik Bergström|30, Generalsekreterare, Stockholm
+C|313958|20|K|Evin Badrniya|20, Juriststudent, Vällingby
+C|31805|36|K|Caroline Szyber|36, Riksdagsledamot, jurist, Stockholm
+C|312933|27|K|Anna Ottosson|27, Socionom, Spånga
+C|312934|53|M|Mario Moya Jeldres|53, Vårdadministratör, Bromma
+C|312927|48|K|Mia Widell|48, Kommunikatör/journalist, Bromma
+C|205312|59|K|Désirée Pethrus|59, Riksdagsledamot, Socionom, Stockholm
+C|312931|24|K|Johanna Patricius|24, Vinbonde, Stockholm
+C|314396|55|K|Cecilia Holm|55, Master of fil., Stockholm
+C|314647|31|M|Kristian Cornell|31, Ombudsman, Enskededalen
+C|480115|44|M|Patrik Tikkanen|dekoratör/konstnär, 44, Stockholm
+C|489528|36|K|Nasrin Sjögren|skribent, 36, Enskede
+C|480205|69|K|Inger Borgström|pens.gymnasielärare, 69, Stockholm
+C|480142|80|K|Margareta Sundbom|bokhandlare/pens.rektor, 80, Stockholm
+C|132424|54|K|Åsa Gärdén|Kökschef, Stockholm
+C|277002|53|K|Lotta Edholm|oppositionsborgarråd, Vasastan
+C|264782|51|M|Patrik Silverudd|public affairschef, Södermalm
+C|264777|40|K|Anne-Lie Elfvén|politisk sekreterare, Södermalm
+C|277005|54|M|Peter Backlund|högstadielärare, Årsta
+C|277006|73|M|Ulf Fridebäck|fd kriminalinspektör, Södermalm
+C|277007|55|K|Caroline Silverudd Lundbom|controller, Södermalm
+C|277008|37|M|Jonas Uebel|tjänsteman, Gamla stan
+C|277009|19|K|Elin Hjelmestam|studerande,Södermalm
+C|277010|72|M|Per Hallerby|styrelseordförande, Södermalm
+C|277011|57|K|Madeleine Sjöstedt|kommunikationskonsult, Södermalm
+C|277012|27|M|Anton Johansson|studerande, Södermalm
+C|277013|30|K|Natalia Rylander|pressekreterare, Södermalm
+C|277014|63|M|Ulf Lindberg|företagare, Hammarby Sjöstad
+C|277015|57|M|Magnus Andersson|civilekonom, Södermalm
+C|277016|48|K|Johanna Elgenius|kanslichef, Södermalm
+C|265972|34|M|Johan Hjelm|regionutvecklare, Södermalm
+C|277063|63|K|Cecilia Söderman|arkivarie,Södermalm
+C|277064|42|M|Facundo Unia|journalist, Södermalm
+C|277065|72|K|Rosie Rothstein|egen företagare, Södermalm
+C|265974|61|M|Sergio Flores|registrator, Södermalm
+C|277067|74|K|Susanne Gaje|pensionär, Södermalm
+C|277068|48|M|Urban Rybrink|kommunikationschef, Årsta
+C|277069|69|K|Ylva Löfstrand|bibliotekarie, Årsta
+C|265978|73|M|Lars Fernqvist|pensionär, Södermalm
+C|264780|56|M|Björn Ljung|företagare, Kungsholmen
+C|277284|52|K|Isabel Smedberg-Palmqvist|jur kand, Bromma
+C|264788|37|M|Rasmus Jonlund|kommunikationschef, Kungsholmen
+C|277286|50|K|Hanna Wistrand|egen företagare,Bromma
+C|277287|25|M|Filip Björklund|studerande, Kungsholmen
+C|49195|50|K|Maria Johansson|projektledare, Kungsholmen
+C|266200|40|M|Olof Wallentin|sjöofficer, Bromma
+C|266199|56|K|Charlotta Schenholm|egen företagare, Kungsholmen
+C|277291|32|M|Fredrik Runesjö|jämställdhetsstrateg, Bromma
+C|277292|56|K|Anette Brifalk|kommunikationschef, Bromma
+C|266207|68|M|Tommy G Persson|civilekonom, Kungsholmen
+C|266201|42|K|Paulina Draganja|civilekonom, Kungsholmen
+C|278949|35|M|Johan Duvdal|utredare, Bromma
+C|278950|62|K|Carina Wellenius|civilingenjör, Bromma
+C|264801|52|M|Magnus Liljegren|mag public health, Kungsholmen
+C|264787|35|K|Amira Roula|säljansvarig, Kungsholmen
+C|279821|30|M|Carl Hellström|psykolog, Lilla Essingen
+C|266206|82|K|Ester Mogensen|universitetslektor, Bromma
+C|279823|58|M|Stefan Ennerfelt|konsult, Bromma
+C|266203|29|M|Daniel Thor|studerande, Bromma
+C|279825|27|K|Sigrid Rydell Johnson|landstingsrådssekreterare, Bromma
+C|266208|48|M|Lars Lundqvist|arkivarie, Kungsholmen
+C|279827|69|K|Pia Lindgren|egen företagare, Bromma
+C|279828|47|M|Martin Ängeby|generalsekreterare, Bromma
+C|280707|42|M|Daniele Fava|gymnasielärare, Östermalm
+C|280708|39|K|Emilie Fors|ekonom, Norrmalm
+C|280709|63|M|Mats Hasselgren|adjunkt, Östermalm
+C|49161|41|K|Gulan Avci|ordförande Liberala Kvinnor, Norrmalm
+C|280711|39|M|Erik Nordman|säkerhetschef, Norrmalm
+C|264778|33|K|Daisy Johansson|jur kand, Östermalm
+C|280713|55|M|Björn Hasselgren|teknologie doktor, Bromma
+C|280714|25|K|Amanda Bengtsson Jallow|statsvetarstuderande, Östermalm
+C|271026|69|M|Anders Schelin|civilingenjör, Norrmalm
+C|280716|78|K|Valeria Nagy-Seidel|kulturproducent, Östermalm
+C|280717|61|M|Staffan Simonsson|präst, Östermalm
+C|377233|53|K|Katharina Brummer|lektor, Östermalm
+C|280718|64|M|Anders Sandström|jur kand, Östermalm
+C|271028|71|K|Nina Dawidowicz|civilingenjör, Östermalm
+C|271029|47|M|Michael Kågström|egen företagare, Norrmalm
+C|280721|75|K|Inge-Britt Lundin|pensionär, Norrmalm
+C|280722|60|M|Göran Aspgren|lärare, Östermalm
+C|280723|39|K|Maria Karlman Noleryd|affärsutvecklare, Vasastan
+C|280724|27|M|Jonas Vedin Forsberg|jurist, Norra Djurgårdsstaden
+C|280725|32|K|Linnea Sandström Lange|pr-konsult, Vasastan
+C|281795|39|K|Hanna Gerdes|folkrättsjurist, Hammarby
+C|377735|33|K|Jessica Sjönell|ekonom, Bagarmossen
+C|264794|62|M|Peter Öberg|managementkonsult, Tallkrogen
+C|281797|31|K|Sabine Pettersson|gruppchef, Bagarmossen
+C|281799|20|K|Sarah Narrowe Danielsson|studerande, Skarpnäck
+C|271051|47|M|Rikard Werge|systemförvaltningsledare, Farsta
+C|281801|77|M|Douglas Hjalmarsson|fd rektor, Hagsätra
+C|281802|72|K|Gudrun Edvardsson|pensionär, Hagsätra
+C|281803|50|M|Jonas Aulin|bankchef, Stureby
+C|271046|53|K|Ulrika Strömberg|företagare, Enskede
+C|281805|34|M|Daniel Selenius|studerande, Skarpnäck
+C|271050|67|K|Lidia Ahlberg|förskollärare, Farsta
+C|271049|36|M|Alexander Berglund|logistiker, Skarpnäck
+C|281808|21|K|Pernilla Öberg|studerande, Tallkrogen
+C|281809|71|M|Björn Mickelson|pensionär, Gubbängen
+C|281810|77|K|Gunilla Thorsson|leg psykolog, Gubbängen
+C|281811|84|M|Hans Larsson|sjöingenjör, Stureby
+C|265967|42|K|Sara Svanström|lärare, Farsta
+C|264485|40|M|Jan Jönsson|rektor, Skärholmen
+C|282465|59|M|Abit Dundar|utredare, Hägersten
+C|282466|38|K|Pernilla Enebrink|nationalekonom, Älvsjö
+C|282467|57|K|Fisun Varhos|försäkringsassistent, Skärholmen
+C|282468|23|M|Tobias Berg|studerande, Skärholmen
+C|282469|35|K|Anna Engelbert|gruppledare stadsdelsämnd, Älvsjö
+C|282470|63|M|Stig Johnell|IT-administratör, Hägersten
+C|282471|47|K|Malin Strid|utredare, Hägersten
+C|282472|56|M|Zazan Sanli|busschaufför, Skärholmen
+C|282473|67|K|Elisabeth Ineheim|pensionär, Bredäng
+C|282474|50|M|Carl Tunberg|företagare, Älvsjö
+C|282475|53|K|Kari Malmström|kommunikatör, Älvsjö
+C|282749|44|M|Rikard Ehnsiö|översättare, Hägersten
+C|282750|73|M|Herje Larson|högre företagsekonom, Liljeholmen
+C|282751|46|K|Matilda Berg|förlagsredaktör, Bredäng
+C|282752|71|M|Jonas Haak|ekonom, Midsommarkransen
+C|282753|72|K|Inger Swahn|fil mag, Älvsjö
+C|282754|56|M|Per Bodén|gymnasielärare, Hägersten
+C|271065|74|K|Agneta Öhman Norelius|specialpedagog, Liljeholmen
+C|282756|81|M|Thorkel Åkesson|intendent, Skärholmen
+C|282757|65|K|Cecilia Carpelan|aktiv pensionär, Vårberg
+C|283358|67|K|Ann-Katrin Åslund|kommunfullmäktigeledamot, Spånga
+C|283359|28|M|Christoffer Jönsson|trafikingenjör, Hässelby Gård
+C|283360|44|K|Åsa Nilsson Söderström|projektledare, Bromsten
+C|49160|25|M|Joar Forssell|ungdomsförbundsordförande, Tensta
+C|283362|74|M|Lars-Åke Davidsson|egen företagare, Hässelby
+C|271096|71|K|Inga Osbjer|fil kand, Hässelby
+C|283364|63|M|Asi Rebbati|rättstolk, Kista
+C|283365|39|K|Carolina Rosén|handläggare, Spånga
+C|283366|70|M|Gunnar Würtz|trädgårdsmästare, Hässelby
+C|271094|73|K|Viveka Sundén|socionom, Spånga
+C|283368|54|M|Burhanettin Yildiz|samordnare, Rinkeby
+C|283369|41|M|Mikael Petersson|41 år, verksamhetstuvecklare, ledamot kommunstyrelsen Hultsfred, Bromma
+C|283370|55|K|Lena Esbro|ekonom, Vällingby
+C|271089|29|M|Tobias Davidsson|projektledare, Vällingby
+C|283372|55|M|Göran Håkansson|rektor, Vällingby
+C|271093|73|M|Kurt Sundén|präst, Spånga
+C|283374|77|K|Gunvor Johanson|gymnasielärare, Hässelby
+C|377680|52|M|Tahsin Shakif|pensionär, Hässelby
+C|283375|55|K|Ingela Gille Rausén|testledare, Hässelby
+C|271097|70|M|Bengt Porseby|fd datachef, Spånga
+C|271091|54|K|Katariina Güven|kommunikationsstrateg, Hässelby
+C|128128|39|M|Fredrik Clementz|39, Entreprenör, Stockholm
+C|128129|60|K|Lena Malmberg|60, Egenföretagare, Stockholm
+C|128130|78|M|Lennart Göranson|78, Fd stf generaldirektör, Stockholm
+C|128131|48|K|Helena Edlund|48, Präst, Stockholm
+C|128132|31|M|Jens Norell|31, Nationalekonom, Stockholms län
+C|128133|60|M|Tomas Lenke|60, Affärsutvecklare, Stockholm
+C|128134|21|M|Erik Rantzow|21, Kabinpersonal, Stockholm
+C|128135|53|M|Thomas Martinsson|53, Kriminalinspektör, Stockholms län
+C|128136|49|M|Tristan Tempest|49, Filosofilärare, Stockholms län
+C|128137|68|M|Åke Thörner|68, Läkare, Stockholm
+C|128138|77|M|Gunnar Löfvenberg|77, Pensionär, Stockholm
+C|128139|48|K|Anna Danieli|48, Senior corporate officer, Stockholm
+C|128140|47|M|Kjell Gunnarsson|47, Krögare, Stockholm
+C|128141|60|M|Per Möller|60, Företagare, Stockholm
+C|128142|27|M|Anders Grandell|27, Systemutvecklare, Stockholms län
+C|128143|50|M|Fredrik Sandblom|50, Egenföretagare, Stockholm
+C|169239|36|M|Petter Wennerström|36, Civilingenjör, Spånga
+C|169240|47|M|Björn Hultman|47, Ingenjör, Stockholm
+C|128574|33|K|Neda Valadi|33, Egenföretagare, Stockholm
+C|169241|76|M|Jan Gustafsson|76, Pensionerad utredare, Stockholm
+C|201156|36|M|Fredrik Sahlström|36, Civilekonom, Södermalm
+C|103068|45|K|Katarina Luhr|45, miljöborgarråd, Norrmalm
+C|103069|53|M|Daniel Helldén|53, trafikborgarråd, Enskede
+C|103070|38|K|Åsa Lindhagen|38, socialborgarråd, Enskede
+C|103071|40|M|Martin Hansson|40, gruppledare, Kungsholmen
+C|103072|40|K|Elin Olsson|40, landskapsarkitekt, Hammarbyhöjden
+C|103073|29|M|Anders Lindell|29, verksamhetschef, Bredäng
+C|103074|56|K|Cecilia Obermüller|56, miljöhandläggare, Bromma
+C|103075|28|M|Lorentz Tovatt|28, riksdagsledamot, Stockholm
+C|103076|26|K|Magda Rasmusson|26, studerande, Södermalm
+C|103077|27|M|Tamim Alameddine|27, förhandlare, Skarpnäck
+C|103078|33|K|Nila Vikhe Patil|33, civilekonom, Södermalm
+C|103079|74|M|Lennart Tonell|74, universitetslektor, Bromma
+C|103080|37|K|Mariana Moreira Duarte|37, gruppledare, Bandhagen
+C|103081|20|M|Tiemon Okojevoh|20, politisk sekreterare, student, Kista
+C|103082|66|K|Ewa Larsson|66, ordförande, Skarpnäck
+C|103083|58|M|Micke Seid|58, designer, Södermalm
+C|103502|29|K|Linnéa Joandi|29, lärare/biolog, Bromma
+C|103503|53|M|Richard Åkesson|53, musiker, Bromma
+C|103504|67|K|Ingegerd Akselsson Le Douaron|67, folkbildare, Kungsholmen
+C|103505|37|M|Anton Lindkvist|37, forskningschef, Kungsholmen
+C|103506|55|K|Petra Schagerholm|55, miljökonsult, Bromma
+C|103507|43|M|Jorge Lara Borges|43, statsvetare, Bromma
+C|103508|71|K|Marja Sandin-Wester|71, rektor, Kungsholmen
+C|103509|43|M|Nicklas Börjesson|43, utvecklare, Kungsholmen
+C|103510|58|K|Lena Falk|58, journalist, Bromma
+C|103511|33|M|Daniel Gustafsson|33, vindkraftingenjör, Kungsholmen
+C|103512|33|K|Elisabet Wallgren|33, projektledare, Kungsholmen
+C|103513|61|M|Rahmat Ali|61, lärare och tolk, Stockholm
+C|103084|56|K|Anna-Klara Müntzing|56, socionom, Södermalm
+C|103515|55|M|Svante Thorell|55, civilingenjör, Bromma
+C|103840|49|K|Maria Antonsson|49, egenföretagare, Östermalm
+C|103841|66|M|Clarence Bohlin|66, akademiker, Östermalm
+C|103842|73|K|Vivianne Gunnarsson|73, civilekonom, Östermalm
+C|103843|24|M|Johan Orrenius|24, teknolog, Gamla Stan
+C|103844|56|K|Anna Kers Hagberg|56, adjunkt, KTH, Östermalm
+C|103847|24|M|Joakim Söder|24, konsult, Farsta
+C|103848|38|K|Veronica Eriksson|38, stabschef, Hägersten
+C|103086|26|K|Olivia Nordell|26, student, Södermalm
+C|103085|31|M|Felix König|31, politiskt sakkunnig, Södermalm
+C|103852|51|K|Sus Andersson|51, teknikskribent, Spånga
+C|103853|35|M|Ahmet Music|35, arbetsförmedlare, Spånga
+C|104334|47|K|Ninozka Toro|47, journalist, Rågsved
+C|104336|51|K|Hengameh Ehsani|51, civilekonom, Farsta
+C|104337|52|M|Fotios Stathis|52, civilingenjör, Vantör
+C|104338|62|K|Maria Bergström|62, landskapsekolog, Skarpnäck
+C|104339|34|M|Haval Murad|34, arkitekt, Johanneshov
+C|104340|43|K|Erica Wright|43, organisationskonsult, Skarpnäck
+C|104341|33|M|Martin Sahlin|33, projektledare, Bagarmossen
+C|104343|45|M|Hampus Rubaszkin|45, naturresursvetare, Farsta
+C|104345|29|M|Michael Erik Svensson|29, student, Skarpnäck
+C|104347|65|M|Ola Gabrielson|65, pensionär, Enskede
+C|109210|35|M|Magnus Runsten|35, projektkoordinator, Hägersten
+C|109211|40|K|Jessica Jormtun|40, arbetskonsulent, Hägersten
+C|109212|49|M|Johan Faxér|49, systemutvecklare, Hägersten
+C|109213|49|K|Andrea Irving|49, kommunikatör, Liljeholmen
+C|109214|71|M|Urban Johansson|71, pensionär, Skärholmen
+C|109215|40|K|Minna Liewendahl|40, civilingenjör, Skärholmen
+C|109287|48|K|Claudia Calderon|48, barnskötare, Kista
+C|109288|72|M|Tomas Beer|72, fritidspedagog, Spånga
+C|109289|71|K|Gunilla Almén|71, distriktssköterska, Hässelby
+C|109290|31|M|Ahmed Abdulahi Mohamed|31, statsvetare, Tensta
+C|109291|66|K|Ann-Catrin Lofvars|66, jurist, Vällingby
+C|109292|38|M|Mansur Jama|38, undersköterska, Spånga
+C|109294|60|M|Ercan Sahin|60, enhetschef, Hässelby
+C|109295|47|M|Jakob Dencker|47, tolk, arabist, Spånga
+C|109298|62|M|Stephan Gullberg|62, diakon, Hjulsta
+C|103087|38|M|Ludvig Hubendick|38, ekonom, Södermalm
+C|103088|28|K|Elin Hylander|28, gymnasielärare, Södermalm
+C|103089|47|M|Dan Emil Guillou|47, biolog, Södermalm
+C|103090|38|K|Carin Hellström|38, folkhälsovetare, Södermalm
+C|103091|19|M|Tor Tove Persson|19, studerande, Södermalm
+C|103092|75|K|Else Lundin|75, leg sjukgymnast, Södermalm
+C|103093|39|M|Ulf Dernevik|39, politiskt sakkunnig, Södermalm
+C|103094|62|K|Yvonne Andersson|62, administratör, Södermalm
+C|103097|72|M|Ragnar von Malmborg|72, egenföretagare, Södermalm
+C|103096|35|K|Elin Mohlander|35, egenföretagare, Södermalm
+C|493766|53|M|Anders Trojenborg|53, statstjänsteman, Södermalm
+C|20381|40|K|Anna König Jerlmyr|40, Borgarråd
+C|20382|46|M|Joakim Larsson|46, Borgarråd
+C|20383|33|M|Christoffer Järkeborn|33, Distriktschef
+C|20384|46|K|Eva Solberg|46, Utbildningsledare
+C|20385|51|M|Jonas Nilsson|51, Ansvarig samhällskontakter
+C|20386|32|M|Filip Solsjö|32, Politiskt sakkunnig
+C|20387|67|M|Anders E. Karlsson|67, Projektledare
+C|20388|21|M|Savo Sevic|21, Studerande
+C|20389|28|M|Mattias Hallberg|28, Nationalekonom
+C|20390|54|K|Karin Callerud Blomstrand|54, Banktjänsteman
+C|20391|32|M|Christoffer Hökmark|32, Civilekonom
+C|20392|55|M|Karl Frostensson|55, Egenföretagare
+C|13871|47|M|Johan Frantz|47, IT-Projektledare
+C|20394|69|M|Johan Hyltenstam|69, Författare
+C|13865|45|M|Michael Sigge|45, Jurist
+C|20396|28|M|Henrik Bjerkhoel|28, Jurist
+C|20397|65|K|Tünde Kovach|65, Ämneslärare
+C|20398|69|M|Per Eckerbom|69, Byggmästare
+C|20399|48|M|Fredrik Sand|48, Fil. mag
+C|20400|48|M|Milton Palacios|48, Bitr. avdelningschef
+C|20401|40|M|Jens P. Ahl|40, Tjänsteman
+C|20402|40|M|Carl Höglund|40, Senior Rådgivare
+C|20403|53|M|Lars Höstbeck|53, Civilingenjör
+C|20404|71|K|Kerstin Gudmundson|71, Leg. läkare
+C|20405|23|M|Andreas Moilanen|23, Studerande
+C|20406|54|M|Stefan Axelsson|54, Leg. fysioterapeut
+C|20407|56|M|Kenneth Gehrke|56, VD
+C|20408|49|M|Robert Milovan Mosbach|49, Byggprojektledare
+C|20409|60|M|Stefan Blomquist|60, Officer
+C|20410|32|M|Luciano Ranieri|32, Nyckelkunds ansvarig
+C|20411|57|M|Matz Blidby|57, Civilekonom
+C|20412|19|M|Zackarias Fariss|19, Studerande
+C|20414|34|M|Johan Paccamonti|34, Civilingenjör
+C|20415|72|K|Yvonne Fernell-Ingelström|72, Socionom
+C|20416|76|M|Börje Häggman|76, fd Företagare
+C|20417|49|M|Peter Jönsson|49, Civilekonom
+C|20418|23|M|Fritz Lennaárd|23, Tjänsteman
+C|13864|71|M|Jan Tigerström|71, Jur. kand
+C|20420|68|K|Lou-Ann Wejke Norberg|68, fd Divisionschef
+C|20421|69|M|Christer H. Sjöblom|69, fd Kriminalkommissarie
+C|13849|74|K|Birgitta Thulin|74, fd Språkchef
+C|20423|29|K|Evelina Kogsta|29, Politisk sekreterare
+C|20424|60|M|Mikael Eskman|60, Civilekonom
+C|13862|58|K|Maryam Mostafalou|58, Egenföretagare
+C|20426|42|M|Fredrik Möller|42, Statstjänsteman
+C|20427|72|M|Bo Lindner|72, Ekonom
+C|20428|31|K|Roslana Cederhage|31, Statsvetare
+C|20429|66|M|Peter Salomon|66, Senior rådgivare
+C|20430|67|M|Erik Levlin|67, Docent
+C|20431|43|M|Niklas Sandstedt|43, IT-konsult
+C|20432|37|M|Jonas Jeppson|37, Verksjurist
+C|20433|51|M|Magnus Gutenberg|51, Pedagog
+C|20434|68|M|Bertil Johansson|68, Företagare
+C|20435|33|M|Jimmy Svensson|33, Projektledare
+C|20436|65|M|Mats Hedberg|65, Jur. kand
+C|13853|66|M|Kjell Åke Karlsson|66, Pensionär
+C|20438|76|K|Kim Lützén|76, Professor Emerita
+C|20440|27|K|Andréa Ström|27, Stabschef
+C|20441|32|K|Sophia Granswed Baat|32, Egenföretagare
+C|20442|45|M|Tom Hedrup|45, VD
+C|20443|59|K|Ulla Hamilton|59, VD
+C|20444|37|K|Anna Cederschiöld Stuart|37, Kommunikationsansvarig
+C|20445|46|K|Petra Gardos Ek|46, Jurist
+C|20446|44|K|Johanna Sjö|44, Verksamhetsexpert
+C|20447|55|K|Annika Elmlund|55, Projektledare
+C|20448|35|K|Alexandra Grimfors|35, Managementkonsult
+C|20449|59|K|Christina Huss|59, Förvaltningsledare
+C|20450|52|M|Magnus Granat|52, Sjöofficer
+C|20451|76|M|Bo E. L. Andersson|76, Pol. mag
+C|20452|51|K|Hanna Broberg|51, Chefsstrateg
+C|20453|33|K|Karin Franck|33, Konsult
+C|20454|32|K|Henrika Skott|32, Ansvarig investerarrelationer
+C|20455|26|K|Linda Jonsson|26, Fastighetsekonom
+C|20456|56|K|Theréz Randquist|56, Senior Advisor
+C|20457|23|K|Hanna Werner|23, Projektledare
+C|20458|23|K|Greta Eulau|23, Student
+C|20459|21|M|Douglas Ahlberg|21, Student
+C|13856|56|K|Cornilla Von Plomgren|56, Verksamhetschef
+C|20461|29|M|John Myhrman|29, Lärare
+C|20462|65|K|Madeleine Siöstéen Thiel|65, Civilekonom
+C|20463|49|K|Elisabeth Hellström|49, Marknadskommunikatör
+C|20464|63|M|Jan Larsén|63, VD
+C|20465|38|M|Martin Savén|38, Civilekonom
+C|20466|61|M|Peter Åhlander|61, Företagsrådgivare
+C|20467|61|K|Susanne Ericsson|61, f.d Företagare
+C|13870|36|M|Patrik Armandt Ljungman|36, Politisk sekreterare
+C|20469|28|M|Joacim Andersson|28, Processchef
+C|20470|43|K|Caroline Emene|43, Projektledare
+C|20471|20|M|Gustav Olsson|20, Studerande
+C|20472|75|K|Lillemor Sillén|75, Kommunikationsdirektör
+C|20473|53|M|Håkan Gabrielsson|53, Auktoriserad revisor
+C|20474|58|M|Hans Luthander|58, Officer
+C|20475|63|K|Marie Kjellner|63, Civilekonom
+C|20476|55|K|Eva Ekendahl|55, Egenföretagare
+C|20477|83|M|Bengt Lagerstedt|83, Ekonomidirektör
+C|20478|51|M|Charlie Medvedor Hahne|51, Egenföretagare
+C|20480|56|K|Cecilia Brinck|56, Borgarråd
+C|20481|46|K|Kristina Lutz|46, Statsvetare
+C|13838|72|M|Lars Jilmstad|72, Pensionär
+C|20483|57|M|Johan Brege|57, Skattebrottsutredare
+C|20484|35|M|Gustav Johansson|35, Högskolelärare
+C|20485|20|M|Olof Peterson|20, Student
+C|13844|44|K|Kristiina Katajikko|44, Civilekonom
+C|20487|68|K|Eva Ångström|68, fd Bankdirektör
+C|20488|74|K|Lisbeth Crabo Ljungman|74, Fil. dr
+C|20489|68|M|Billy Östh|68, Pensionär
+C|20490|74|M|Sten Edebäck|74, Civilingenjör
+C|20491|31|K|Joanna Ljunggren|31, Kommunikationsvetare
+C|13863|45|M|Oscar Andrén|45, Gymnasielärare
+C|20493|30|M|Robert Mellberg|30, Barnskötare
+C|20494|19|M|Gabriel Eid|19, Juriststudent
+C|20495|39|M|Johan Nilsson|39, Civilekonom
+C|20496|58|K|Anette Hellström|58, Marknadsekonom
+C|13850|60|M|Lars Svärd|60, Jur. kand
+C|20498|72|M|Berthold Gustavsson|72, fd Kriminalinspektör
+C|20499|63|M|Torbjörn Erbe|63, IT-konsult
+C|20500|62|K|Christina Elffors Sjödin|62, Rektor
+C|20501|66|M|Tomas Tetzell|66, fd Chefsjurist
+C|20502|35|M|Mikael Sundin|35, Tjänsteman
+C|13860|71|K|Anita Lundin|71, Fil. mag
+C|20504|60|M|Hans Breismar|60, Projektledare
+C|20505|39|M|Henrik Lundberg|39, Byggnadssmed
+C|20506|45|K|Lisa Degerman|45, Produktionsledare
+C|20507|64|M|Peter Odentun|64, Säkerhetsrådgivare
+C|20508|68|M|Sverker Sundmark|68, Civilekonom
+C|20509|74|M|Lennart Bengtsson|74, IT-konsult
+C|20510|60|M|Björn Gülich|60, Signalingenjör
+C|20511|66|M|Leif Berglund|66, Pensionär
+C|20512|61|K|Anita Gülich|61, Evenemangsvärd
+C|20513|76|K|Tita Bergqvist|76, Förskollärare
+C|20514|53|M|Christopher Nasser|53, Ämneslärare
+C|20573|30|M|Dennis Wedin|30, Politiskt sakkunnig
+C|20574|75|M|Bo Sundin|75, Ingenjör
+C|20575|31|K|Jennyfer Redin|31, Handläggare
+C|13842|45|M|Ole-Jörgen Persson|45, Organisationssekreterare
+C|20577|69|M|Bo Arkelsten|69, fd Fältassistent
+C|20578|47|K|Tatjana Kovacic|47, Egenföretagare
+C|20579|24|K|Helena Walentowicz|24, Kommunikationskonsult
+C|13866|59|K|Alicja Lindell|59, Enhetschef
+C|13852|49|M|Aleks Sakala|49, Projektledare
+C|20582|51|M|Jan Kjellegård|51, Konsult
+C|13855|61|M|Per Hallberg|61, Civilekonom
+C|20584|30|K|Büsra Kocatürk|30, Handläggare
+C|20585|24|M|Jean-Robert Nino|24, Programmerare
+C|20587|59|K|Elisabeth Bäckström|59, Handläggare
+C|20588|70|M|Arne Genschou|70, Konsult
+C|20589|24|M|Sinan Tayeb|24, Bokföringsekonom
+C|20590|55|M|Basit Choudhury|55, Socialarbetare
+C|20591|52|M|Per Hagwall|52, Postiljon
+C|20592|64|M|Basu Alam|64, Upphandlare
+C|20593|58|M|Zafar Choudhary|58, Tjänsteman
+C|13869|57|M|Göran Mellblom|57, Kapten
+C|20595|46|M|Elias Granqvist|46, Jur. kand
+C|20596|36|M|Ajowey Omagbemi|36, Entreprenör
+C|20597|69|M|Anders Sätterberg|69, Pensionär
+C|20598|51|M|Anders Granström|51, Egenföretagare
+C|20599|58|M|Nils Dalarsson|58, Teknologie doktor
+C|411620|36|K|Aveen Rowar Ismail|Expert inom datasäkerhet
+C|411621|53|M|Mats Philipson|
+C|411622|72|M|Anders Erkéus|Instrumentbyggepedagog
+C|411623|54|M|Gagarin Miljkovic|VD och IT-konsult
+C|411624|24|K|Isabelle Kokkalis Lindblad|Verksamhetsutvecklare
+C|411625|56|M|Hans Davidsson|Systemutvecklare
+C|411626|46|M|Carl Stenman|Fil.dr. i botanik
+C|411627|27|M|Otto Larsson|Försäljningskonsult
+C|492906|40|M|Aldo Colliander|
+C|492907|26|M|Filip Zetterlund|
+C|513510|83|K|Marianne Karin Birgitta Ressner|
+C|513964|69|K|Stina Elisabet Delang|
+C|263951|55|M|Peter Wallmark|Politisk sekreterare, Stockholm
+C|263952|22|K|Linnéa Vinge|22, Politisk sekreterare
+C|263953|39|M|Martin Westmont|Kommunpolitiker, Stockholm
+C|263954|50|K|Jeanette Malmström|Ekonomicontroller, Stockholm
+C|263955|41|M|Björn Larsson|41, Egenföretagare
+C|263956|51|M|Joakim Hedelin|VD, Stockholm
+C|263957|26|M|Felix Byström|Politisk sekreterare, Stockholm
+C|263958|64|M|Bengt Herke|64, Fastighetsförvaltare
+C|263959|53|K|Mona Wallsén|52, Business area manager
+C|263960|49|M|Mads Lundgaard|49, Statsvetare
+C|263961|19|K|Tove Wiberg|19, Butiksbiträde
+C|263962|31|K|Cecilia Risberg|31, Utbildningsproducent
+C|263963|52|M|Erik Cimini|52, Projektledare
+C|263964|66|M|Göran Ek|66, Managementkonsult
+C|263965|28|M|Gustaf Holmström|28, Kriminalvårdare
+C|263966|42|K|Cathrine Samuelsson|42, Ekonomiansvarig
+C|263967|42|M|Anders Lindman|42, Polis
+C|263968|39|K|Helena Karlsson|39, Resesäljare
+C|263969|45|M|Tapani Juntunen|Kemiingejör, Stockholm
+C|263970|71|M|Claes Carnö|71, Pensionerad kriminalpolis
+C|263971|74|M|Åke Nordström|74, f.d. Chefsjurist
+C|263972|62|M|Roine Löfgren|62, VD
+C|263973|35|K|Ghazal Saberian|Restaurangchef, Stockholm
+C|263974|51|M|Urban Emson|50, Egenföretagare
+C|263975|74|K|Marthine Elfvin|74, Butikschef
+C|263976|56|K|Kristina Stenberg|56, Sekreterare
+C|263977|43|K|Kristina Rizzardi|43, Kommunikatör
+C|263978|45|M|Mathias Karlsson|44, Sångare
+C|263979|46|M|Max Almflod|46, Egen företagare
+C|263980|47|M|Slawomir Rynkiewicz|47, Bilskadetekniker
+C|263981|21|M|Gabriel Kroon|21, Ekonom
+C|263982|55|K|Helen Shoultz|55, Rekryteringskonsult
+C|263983|57|K|Christina Wallmark|57, Politisk sekreterare
+C|263984|67|M|Roland Johansson|Pensionär, Stockholm
+C|263985|78|M|Ulf Wester|77, Pensionär
+C|263986|45|K|Lena-Karin Lifvenhjelm|45, Civilekonom
+C|263987|31|M|Henrik Åkerlund|31, Sjuksköterska
+C|263988|21|M|Simon Solberg|21, IT-ansvarig
+C|263989|67|K|Unni Björnefors|66, Egenföretagare
+C|263990|64|K|Karin Wallin|63, Ekonomikonsult
+C|263991|53|M|Anders Edin|53, Byggnadsarbetare
+C|263992|59|M|Ismo Pato|58, Byggsmed
+C|263993|65|M|Leif Söderström|Teknikkonsult, Stockholm
+C|263994|49|M|Tobias Karlsson|Ekonom, Stockholm
+C|263995|57|M|Carl Gustafsson|57, Åkare
+C|4167|51|M|Peter Söderberg|
+C|11826|61|M|Rickard Wall|
+C|236557|33|K|Clara Lindblom|Södermalm, äldre- och personalborgarråd
+C|219006|48|M|Rikard Warlenius|Hägersten, lektor
+C|218990|59|K|Torun Boucher|Södermalm, kommunpolitiker
+C|236560|32|K|Alexandra Mattsson Åkerström|Farsta, kurator
+C|236561|39|M|Sebastian Wiklund|Skärholmen, gruppledare
+C|236562|53|K|Tina Kratz|Skarpnäck, konstpedagog
+C|218986|44|K|Lorena Delgado Varas|Skärholmen, materialplanerare
+C|236564|39|M|Tobias Johansson|Södermalm, livsmedelsinspektör
+C|218996|37|M|Robert Mjörnberg|Högdalen, personlig assistent och regionalt fackligt ombud
+C|236566|43|K|Sara Stenudd|Hägersten, operationstandsköterska
+C|218998|57|M|Rashid Mohammed|Tensta, socialarbetare
+C|236568|41|K|Maria Ljuslin|Fruängen, frilansare
+C|236569|24|M|Arvand Mirsafian|Östermalm, student
+C|236570|51|K|Rose-Marie Rooth|Bromma, arbetsförmedlare
+C|236571|62|M|Lars Bäck|Farsta, pensionär
+C|236572|49|K|Jessica Nilsson|Skarpnäck, kanslichef
+C|219004|35|M|Hassan Jama|Högdalen, borgarrådssekreterare
+C|236574|19|K|Alva Katsoulis|Södermalm, student
+C|236575|57|M|Rodrigo Arce|Skarpnäck, rådgivare i demokrati och mänskliga rättigheter
+C|236576|54|K|Cicci Herrström|Rågsved, förskollärare
+C|236577|45|K|Maria Mustonen|Hammarbyhöjden, miljökonsult
+C|236578|61|M|Gerardo Berrios|Sköndal, postanställd
+C|236579|39|K|Marlene Karlén|Hägersten, arkivarie
+C|236580|39|M|Jonas Santesson|Älvsjö, miljö- och arbetsmiljösamordnare
+C|236581|70|M|Jackie Nylander|Södermalm, möbelsnickare
+C|236582|39|K|Anna Sehlin|Södermalm, projektledare
+C|236583|23|M|Ahmed Sharaf Abdi|Rinkeby, elevassistent
+C|236584|69|K|Inger Björk|Björkhagen, konsult och pensionär
+C|236585|39|M|Henric Axell|Hägersten, facklig ombudsman
+C|236586|68|K|Ann-Marie Strömberg|Hägersten, socionom
+C|236587|67|M|Thomas Ehrnström|Södermalm, pensionär
+C|236588|30|K|Zofia Laine|Råcksta, utbildningsadministratör
+C|236589|59|M|Babak Ghorani|Hässelby, tolk och översättare
+C|236590|33|K|Veronica Stiernborg|Husby, administrativ sekreterare och restaurangbiträde
+C|236591|39|M|Johan Norlin|Liljeholmen, arkitekt
+C|236592|67|K|Marja Hillerström|Södermalm, talpedagog
+C|236593|70|M|Jan Rödin|Hagsätra, f.d. vårdbiträde

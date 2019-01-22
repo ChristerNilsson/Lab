@@ -1,10 +1,248 @@
-2|88658|88659|88660|88661|88662|88663|88664|88665|88666|88667|88668|88669|88670|88671|88672|88673|88674|88675|88676|88677|88678|88679|88680|88681|88682|88683|88684|88685|88686|88687|88688|88689|88690|88691|88692|88693|88694|88695|88696|88697|88698|88699|88700|88701|88702|88703|88704|88705|88706|88707|88708|88709|88710|88711|88712|88713|88714|88715|88716
-4|133475|133476|133477|133478|133479|133480|133481|133482|133483|133484|133485|133486|37598|133488|133489|133490|515005
-532|324634
-68|178564|178565|178566|178567|178568|178718|178569|178570|178571|178572|446932|178574|178575|178576|178577|178578|178579|178580
-3|277380|277381|277382|277383|277384|277385|277386|277387|277388|277389|277390|277391|277392|277393|277394|277395|277396|277397|277398|277399|277400|277401|277402|277403|277404
-1296|259889
-55|118949|118950|66240|118952|82478|118954|118955|118956|118957|118958|118959|118960|118961|118962|118963
-1|253926|253924|253911|253923|255794|254166|254154|255797|255798|255799|255800|253936|254158|255803|255804|255805|254184|255807|253934|255809|255810|254057|253935|255813|255814|255815|255816|255817|253940|255819|255820|255821|255822|255823|255824|255825|255826|255827|255828
-110|71281|61336|71283|61348|61341|61355|71287|71288|71289|71290|71291|71292|71293|71294|71295|71296|71297|71298|71299|71300|71301|71302|71303|71304|71305|71306
-5|160744|198323|198324|160735|198326|198327|160747|198329|198330|198331|198332|198333|198334|181034|198336|198337|198338|198339|198340|198341|198342|198343|198344|198345|198346|198347|198527
+T|Mölndal
+A|2|88658|88659|88660|88661|88662|88663|88664|88665|88666|88667|88668|88669|88670|88671|88672|88673|88674|88675|88676|88677|88678|88679|88680|88681|88682|88683|88684|88685|88686|88687|88688|88689|88690|88691|88692|88693|88694|88695|88696|88697|88698|88699|88700|88701|88702|88703|88704|88705|88706|88707|88708|88709|88710|88711|88712|88713|88714|88715|88716
+A|4|133475|133476|133477|133478|133479|133480|133481|133482|133483|133484|133485|133486|37598|133488|133489|133490
+A|532|324634
+A|68|178564|178565|178566|178567|178568|178718|178569|178570|178571|178572|446932|178574|178575|178576|178577|178578|178579|178580
+A|3|277380|277381|277382|277383|277384|277385|277386|277387|277388|277389|277390|277391|277392|277393|277394|277395|277396|277397|277398|277399|277400|277401|277402|277403|277404
+A|1296|259889
+A|55|118949|118950|66240|118952|82478|118954|118955|118956|118957|118958|118959|118960|118961|118962|118963
+A|1|253926|253924|253911|253923|255794|254166|254154|255797|255798|255799|255800|253936|254158|255803|255804|255805|254184|255807|253934|255809|255810|254057|253935|255813|255814|255815|255816|255817|253940|255819|255820|255821|255822|255823|255824|255825|255826|255827|255828
+A|110|71281|61336|71283|61348|61341|61355|71287|71288|71289|71290|71291|71292|71293|71294|71295|71296|71297|71298|71299|71300|71301|71302|71303|71304|71305|71306
+A|5|160744|198323|198324|160735|198326|198327|160747|198329|198330|198331|198332|198333|198334|181034|198336|198337|198338|198339|198340|198341|198342|198343|198344|198345|198346|198347|198527
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|88658|55|K|Marie Östh Karlsson|Kikås
+C|88659|49|M|Stefan Gustafsson|kommunalråd, Mölndal
+C|88660|56|K|Pernilla Övermark|Åby
+C|88661|61|M|Ove Dröscher|Ryet
+C|88662|75|K|Gun Kristiansson|Brännås
+C|88663|70|M|Bernt A Runberg|kriminalvårdare, Mölndal
+C|88664|34|K|Elpida Georgitsi|Balltorp
+C|88665|60|M|Lennart Wallensäter|Kållered
+C|88666|26|K|Aylin Fazelian|statsvetare, Mölndal
+C|88667|55|M|Patrik Karlsson|Kikås
+C|88668|65|K|Shahla Alamshahi|Enerbacken
+C|88669|44|M|Tomas Angervik|montör, Mölndal
+C|88670|42|K|Therese Aronius|undersköterska, Mölndal
+C|88671|66|M|Sven-Ove Johansson|Kikås
+C|88672|53|K|Karin Vedlin|Ryet
+C|88673|20|M|Jacob Wihlborg|Bosgården
+C|88674|56|K|Solveig Hallin|fysioterapeut, Mölndal
+C|88675|53|M|Jonny Blomgren|Åby
+C|88676|40|K|Kristina Körnung|Kvarnbyn
+C|88677|52|M|Raymond Carlsson|Bölet
+C|88678|50|K|Maka Achalbedachvili|Bosgården
+C|88679|62|M|Kåre Widenqvist|Mölndal C
+C|88680|53|K|Elisabeth Andersson|Balltorp
+C|88681|56|M|Harri Ikonen|förtroendevald Kommunal, Mölndal
+C|88682|77|K|Estelle Hwatz|Mölndal C
+C|88683|32|M|Rikard Klasson|Stretered
+C|88684|64|K|Marita Gustafsson|nämndsekreterare, Mölndal
+C|88685|34|M|Dara Said Saber|studerande, Mölndal
+C|88686|50|K|Katrin Hakopian|verksamhetsledare, Mölndal
+C|88687|68|M|Kenth Bodin|Hällesåker
+C|88688|27|K|Sarah Hallin Rose|Krokslätt
+C|88689|32|M|Marcus Velickovic|Valås
+C|88690|55|K|Samira Zair|Mölndal C
+C|88691|72|M|Georges Absim|Krokslätt
+C|88692|73|K|Eva Johansson|Persgärde
+C|88693|76|M|Roland Alkvik|Åby
+C|88694|75|K|Mona Berglund Nilsson|Bifrost
+C|88695|44|M|Joakim Kahlman|ombudsman, Mölndal
+C|88696|70|K|Anna Maria Saastamoinen|Kyrkängen
+C|88697|33|M|Robin Håkansson|Åby
+C|88698|50|K|Åsa Jonsson Norvenius|Toltorp
+C|88699|60|M|Hasse Nygren|Bosgården
+C|88700|53|K|Anneli Wiklund|Barnsjön
+C|88701|29|M|Emil Forsberg|reperatör, Mölndal
+C|88702|32|K|Martina Enghart|Livered
+C|88703|73|M|Lars Möglebust|Dotegården
+C|88704|55|K|Ulla-Britt Thor|Långås
+C|88705|51|M|Maurits Segerholm|Espås
+C|88706|58|K|Lena Löfving|Enerbacken
+C|88707|35|M|Henrik Sörensson|Åby
+C|88708|50|K|Carina Pettersson|Bosgården
+C|88709|76|K|Birgitta Johansson|Vommedalen
+C|88710|62|M|Rolf Ros|Barnsjön
+C|88711|76|K|Berit Ahlström|Bifrost
+C|88712|80|M|Ingemar Malmberg|Gunnebodal
+C|88713|59|K|Anette Ek|Mölndal C
+C|88714|53|M|Fredrik Nordwall|Annestorp
+C|88715|74|M|Jan Åke Johansson|Persgärde
+C|88716|55|M|Magnus Ahlberg|vaktmästare, Mölndal
+C|133475|62|M|Ingemar Johansson|62 år, företagare, Mölndal
+C|133476|53|K|Maria Martini|53 år, hälsovetare, Mölndal
+C|133477|52|K|Sara Janhäll|52 år, forskare, Mölndal
+C|133478|32|M|Eric Nilsson|biståndshandläggare, 31 ,Lindome
+C|133479|54|K|Louise Weinreder|företagare, 54, Lindome
+C|133480|42|M|Christian Thomasson|lärare, 42, Mölndal
+C|133481|56|K|Elisabeth Gårdbäck|55 år, civilingenjör, Mölndal
+C|133482|75|M|Rolf Claesson|pensionär, 75, Mölndal
+C|133483|63|K|Carin Hedqvist|kemiingenjör, 63, Mölndal
+C|133484|33|M|Mikael Johansson|företagare, 33, Kållered
+C|133485|22|M|Jonathan Sarge|studerande, 21, Mölndal
+C|133486|55|M|Lennart Börjesson|arbetsledare, 54, Lindome
+C|37598|46|M|Anders Ådahl|46 år, teknisk doktor energi och miljö
+C|133488|72|K|Margareta Eklund-Jimar|fd. rektor, 72, Kållered
+C|133489|79|M|Ebbe Bergqvist|byggingenjör, 78, Kållered
+C|133490|74|M|Rune Larsson|pensionär, 74, Kållered
+C|324634|44|K|Kristin Sott|44, sjuksköterska, Mölndal
+C|178564|51|M|Adam F Laurén|Civilekonom, Mölndal
+C|178565|38|M|Anders Karlsson|Gymnasielärare, Mölndal
+C|178566|41|K|Johanna Karlsson Deucher|Medicinsk sekr., Mölndal
+C|178567|38|M|Peter Nyqvist|38 år, Ingenjör
+C|178568|42|K|Stina Lukassen|42 år, Art Director
+C|178718|44|K|Natasja Löfvendahl|43 år, Medicinsk sekr.
+C|178569|23|K|Miriam Lilja|Nationalekonom, Mölndal
+C|178570|53|M|André Zeidan|53 år, Leg. sjukgymnast
+C|178571|69|M|Kent Klarenius|69 år, Civilingenjör
+C|178572|66|K|Ulla Gustafsson|66 år, Diakon
+C|446932|33|M|Daniel Johansson|33 år, Försäljare
+C|178574|41|M|Jakob Mattsson|41 år, Civilingenjör
+C|178575|65|M|Sture Kuhlin|64 år, Diakon
+C|178576|59|K|Elisabeth Öfverholm|Läkare, Mölndal
+C|178577|72|M|Lars Karlsson|71 år, Busschaufför
+C|178578|66|M|Lars-Gunnar Pålsson|66 år, Pensionär
+C|178579|63|M|Göran Eriksson|63 år, Läkare
+C|178580|69|M|Ivar Gustafsson|Docent i matematik, Mölndal
+C|277380|46|M|Marcus Claesson|46, kommunalråd/programmerare, Östra Mölndal
+C|277381|36|K|Elin Andersson|36, civilingenjör, Mölndal
+C|277382|49|M|Glenn Grimhage|49, tek.kand., Mölndal
+C|277383|40|K|Delaram Esmaeili|40, fritidsledare/samordnare unga, Ö. Mölndal
+C|277384|71|K|Margareta Krakowski|71, ekonom, Lindhaga
+C|277385|50|K|Carina Ekedahl|50, grundskollärare, Balltorp
+C|277386|32|M|Fredrik Lesell|32, berg- och anläggningsingenjör, Mölndal
+C|277387|55|K|Catharina Benzel|55, hemkunskapslärare/instruktör, Kållered
+C|277388|19|M|Jakob Norrhall|19, student, Lindome
+C|277389|51|K|Anita Almqvist|51, fil.mag. socialt arbete/klinikchef, Ö. Mölndal
+C|277390|75|M|Lars Ramboldt|74, ekonom/lärarvikarie, Stensjön
+C|277391|74|M|Christer Schale|74, fil. lic./komvuxlärare, Bosgården
+C|277392|82|K|Anna-Lisa Hellsing|82, ergonom, Kållered
+C|277393|59|M|Christian Simmons|59, egenföretagare, Stensjön
+C|277394|46|K|Sarah Skogberg|46, företagssköterska, Kvarnby
+C|277395|60|M|Anders Kjellström|60, elektroingenjör, Toltorpsdalen
+C|277396|38|M|Marcus Hjalmarsson|38, kriminalvårdsinspektör, Kvarnbyvallen
+C|277397|75|K|Ulla Nilmander Jensen|75, kurator/familjeterapeut, Mölndals innerstad
+C|277398|35|M|Mikael R Svensson|35, egenföretagare, Lindome
+C|277399|37|K|Anna Aldrin|37, key account manager, Krokslätt
+C|277400|71|M|Bertil Levin|71, ekonom, Bosgården
+C|277401|79|K|Marita Aronson|79, barnpsykolog, Broslätt
+C|277402|73|M|Peter Österberg|73, ekonom/revisor, Kristinedal
+C|277403|56|M|Anders Folkesson|56, utbildare, Lindome
+C|277404|35|M|Cesar Mirzai|34, civilekonom/juridiklärare, Bifrost
+C|259889|63|M|Glenn Waldenstedt|63 adjunkt Mölndal
+C|118949|30|K|My Högfeldt|30 år, Socionom, Mölndal
+C|118950|35|K|Jennie Rodin|34 år, Civilingenjör kemiteknik, Kållered
+C|66240|48|K|Ulrika Frick|47 år, Grundskollärare, Mölndal
+C|118952|69|K|Annika Bjerrhede|69 år, Socionom, Kållered
+C|82478|65|M|Kader Hamakarim|65 år, Socialarbetare, Mölndal
+C|118954|36|M|Rasmus Draklander|36 år, Stödpedagog, Mölndal
+C|118955|49|K|Camilla Lagerqvist|49 år, Affärsutvecklare, Kvarnbyn
+C|118956|56|K|Ulla-Carin Moberg|56 år, Kommunikationschef, Krokslätt
+C|118957|24|K|Amanda Borneke|24 år, Miljövetare, Mölndal
+C|118958|69|M|Anders Dahlgren|69 år, Lärare, Krokslätt
+C|118959|71|M|Hans Lundin|72 år, Pensionär, Kållered
+C|118960|41|M|Christian Larsson|41 år, Ingenjör, Kållered
+C|118961|51|K|Roqiya Mooge|50 år, Lärare, Balltorp
+C|118962|65|M|Staffan Bjerrhede|65 år, Socionom, Kållered
+C|118963|77|M|Hans Sternlycke|77 år, Pensionär, Mölndal
+C|253926|59|M|Kristian Vramsten|59, Ekonom, Mölndal
+C|253924|41|K|Merjem Maslo|41, Tjänsteman, Mölndal
+C|253911|28|K|Johanna Rantsi|28, Gymnasielärare, Mölndal
+C|253923|32|M|Marcus Ewerstrand|32, Finansiell analytiker, Mölndal
+C|255794|52|M|Anders Enelund|52, Revisor, Mölndal
+C|254166|58|M|Johan Ahlsell|58, Verksamhetsledare, Mölndal
+C|254154|62|K|Kajsa Hamnén|62, Redovisningskonsult, Mölndal
+C|255797|53|M|Peter Librell|53, Projektledare, Mölndal
+C|255798|31|M|Linus Hedberg|31, Civilekonom, Mölndal
+C|255799|63|M|Per Malm|63, Egenföretagare, Lindome
+C|255800|61|K|Gabriela Nilsson|61, Grafisk formgivare, Mölndal
+C|253936|55|M|Bobby Bohlin|55, Behandlingsassistent, Mölndal
+C|254158|30|K|Amanda Brown Stjärnå|30, Enhetschef på Citysjukhuset, Mölndal
+C|255803|52|M|Peter Carlmark|52, Leg Sjukgymnast, Mölndal
+C|255804|71|M|Göran Isacsson|71, Civilingenjör, Mölndal
+C|255805|71|M|Gerhard Bengtsson|71, Ingenjör, Marknadsekonom, Kållered
+C|254184|44|M|Bengt Alsenvik|44, Banktjänsteman, Mölndal
+C|255807|69|K|Annikka Hedberg|69, Ekonom, Mölndal
+C|253934|42|M|Fredrik Lindqvist|42, Banktjänsteman, Mölndal
+C|255809|75|M|Ulf Bo Nilsson|75, Civilingenjör, Mölndal
+C|255810|24|K|Irma Kukuljac|24, Marknadsansvarig, Mölndal
+C|254057|19|M|Kristoffer Schill|19, Studerande
+C|253935|58|M|Leif Norberg|58, Civilingenjör, Egenföretagare, Mölndal
+C|255813|56|M|Per H Elofsson|56, Produktchef, Lindome
+C|255814|61|M|Kenneth Viberg|61, Egenföretagare, Mölndal
+C|255815|36|M|Alen Bejatovic|36, Undersköterska, Mölndal
+C|255816|48|K|Charlotte Carlmark|48, EU-konsult, Mölndal
+C|255817|44|M|Rolf Andersson|44, Läkare, Mölndal
+C|253940|56|M|Anders Eriksson|56, Säljare, Mölndal
+C|255819|80|K|Ingela Ohldin|80, Pianopedagog, Kållered
+C|255820|72|M|Stefan Engwall|72, Socionom, Lindome
+C|255821|48|K|Hacer Ok|48, Ingenjör, Mölndal
+C|255822|30|K|Isabelle Vramsten|30, Landskapsarkitekt, Lindome
+C|255823|58|K|Gun Edin|58, Handläggare, Mölndal
+C|255824|28|M|Joakim Wikström|28, Ekonom, Mölndal
+C|255825|49|M|Jakob Sellberg|49, , Lindome
+C|255826|52|M|Kevin Wesley|52, Egen företagare, Mölndal
+C|255827|79|M|Bertil Gardtman|79, Pensionär, Mölndal
+C|255828|34|M|Haris Maslo|34, , Mölndal
+C|71281|34|M|Fredrik Mellbin|34, Civilingenjör, Kållered
+C|61336|32|M|Joel Olsson|Studerande, Mölndal
+C|71283|57|M|Thomas Olin|57, Kvalitetsingenjör, Mölndal
+C|61348|52|M|Mikael Brodin|52, Väktare, Mölndal
+C|61341|54|M|Hans Wessberg|54, Gymnasielärare, Mölndal
+C|61355|77|M|Bo Jan Sjölin|77, Egenföretagare, Lindome
+C|71287|45|M|Nicklas Fredriksson|45, Säljare, Kållered
+C|71288|50|M|Håkan Andersson|50, Egenföretagare, Lindome
+C|71289|77|M|Jan Jacobsson|77, Chaufför, Kållered
+C|71290|50|M|Robert Engström|50, Fastighetschef, Lindome
+C|71291|36|M|Rashid Farivar|36, Fordonsingenjör, Mölndal
+C|71292|65|M|Kjell-Åke Jönsson|65, Egenföretagare, Mölndal
+C|71293|73|K|Ulla Godin|73, Sociolog, Kållered
+C|71294|60|M|Per-Erik Karlsson|60, Lärare, Lindome
+C|71295|58|M|Johnny Lago|58, Egenföretagare, Kållered
+C|71296|73|M|Per Erik Söderlund|73, Pensionär, Kållered
+C|71297|67|M|Lennart Bourdette|69, Pensionär, Lindome
+C|71298|54|M|Peter Nilsson|54, Chaufför, Mölndal
+C|71299|50|M|Tomas Dahlqvist|50, Tekniker, Lindome
+C|71300|61|M|Nick Pakpoor|61, Radiograf, Mölndal
+C|71301|71|M|Rustan Grundel|71, Pensionär, Mölndal
+C|71302|70|M|Magnus Johansson|70, Pensionär, Mölndal
+C|71303|31|K|Jiayi Zong|31, Logistiker, Kållered
+C|71304|66|M|Wiggo Gersson|66, Pensionär, Mölndal
+C|71305|62|M|Edgar Bjärkerud|62, Egenföretagare, Lindome
+C|71306|78|M|Rune Andersson|78, Pensionär, Lindome
+C|160744|48|K|Marie Lindqvist|habiliteringsassistent, Mölndal, 48 år
+C|198323|69|M|Lennart Svensson|pensionär, Lindome, 69 år
+C|198324|52|K|Marie Nyman|teaterchef, Mölndal, 52 år
+C|160735|68|M|Jerker Halling|socialarbetare, Mölndal, 69 år
+C|198326|44|K|Viktoria Eliasson|biomedicinsk analytiker, Mölndal, 44 år
+C|198327|64|M|Jan Kronberg|Mölndal, 64 år
+C|160747|65|K|Annika Svengren|föräldrahandledare, Mölndal 68 år
+C|198329|71|M|Ronny Lindqvist|skolvaktmästare, Mölndal, 71 år
+C|198330|41|K|Annalotta Mårland|pedagog/studiecoach, Kållered, 41 år
+C|198331|55|M|Joakim Ramberg|civilingenjör, Bifrost, 55 år
+C|198332|68|K|Annika Jansson|socionom, Mölndal, 68 år
+C|198333|60|M|Dylan Abdali|lärare, Lindome, 60 år
+C|198334|65|K|Eva Magnusson|fritidsledare, Mölndal, 64 år
+C|181034|67|M|Lars Selin|vårdlärare, 67 år
+C|198336|52|K|Gunilla Johansson|arbetssökande, Mölndal, 52 år
+C|198337|80|M|Jan Jonsson|pensionär, Mölndal, 80 år
+C|198338|25|K|Hannah Nyman|student, Mölndal, 25 år
+C|198339|37|M|Joakim Boström Elias|statistiker, Mölndal, 37 år
+C|198340|69|K|Ann-Charlotte Lindqvist|pensionär, Mölndal, 70 år
+C|198341|63|M|Ola Pripp|IKT-handledare, Mölndal, 63 år
+C|198342|59|K|Karina Gonzalez|förskollärare, Mölndal, 58 år
+C|198343|59|M|Goodarz Makvandi|värmepump- och kyltekniker, Mölndal, 59 år
+C|198344|32|K|Tilde Stern|utvecklare, Mölndal, 32 år
+C|198345|38|M|Alvaro Diaz|sjöbefäl, Lindome, 38 år
+C|198346|35|K|Andréa Otes|aktiverinsgpedagog/fritidspedagog, Mölndal, 35 år
+C|198347|68|K|Kristina Darenberg|pensionär, Mölndal, 68 år
+C|198527|61|K|Kerstin Jakobsen|logoped, Lindome, 62 år

@@ -1,8 +1,180 @@
-2|85798|85799|81383|81366|81373|85803|85804|81370|85806|85807|85808|81380|85810|85811|85812|85813|85814|85815|85816|85817|85818|85819|85820|85821|85822|85823|85824|85825|85826|85827|85828|85829|85830|85831|85832|85833|102682|85834|85835|85836|85837|85838|85839|85840|85841|85842|85843|85844|85845
-4|157828|157829|157830|157831|157832|157833|157834|157835|157836|157837|157838|157839|157840|157841|157842|157843|157844|157845|157846|157847|157848|157849|157850|182580|157851|157852|157853|157854|157855|157856|157857|157858|157859
-68|359095|359106|359109|359104|364023|356882|364025|364026|356898|364028
-3|53770|53805|53548|53809|53807|135558|53810|53811|53812|53813|53814|53815
-55|382650|383012|384873|384874|384875|383005|382638|384878|384879|384880|384881
-1|135566|135567|135568|135569|135570|135571|135572|135573|135574|135575|135576|135577|135579|133539|135581|135583|135584|135585|135586
-110|138056|138057|138058|138059|138060|138061|138062|138063|138065|138067|138068|138069|138070|138071|138072|138073|138074|138075
-5|396105|396118|396110|480169|480286|480170|480171|480289|480172|480173|480292
+T|Heby
+A|2|85798|85799|81383|81366|81373|85803|85804|81370|85806|85807|85808|81380|85810|85811|85812|85813|85814|85815|85816|85817|85818|85819|85820|85821|85822|85823|85824|85825|85826|85827|85828|85829|85830|85831|85832|85833|102682|85834|85835|85836|85837|85838|85839|85840|85841|85842|85843|85844|85845
+A|4|157828|157829|157830|157831|157832|157833|157834|157835|157836|157837|157838|157839|157840|157841|157842|157843|157844|157845|157846|157847|157848|157849|157850|182580|157851|157852|157853|157854|157855|157856|157857|157858|157859
+A|68|359095|359106|359109|359104|364023|356882|364025|364026|356898|364028
+A|3|53770|53805|53548|53809|53807|135558|53810|53811|53812|53813|53814|53815
+A|55|382650|383012|384873|384874|384875|383005|382638|384878|384879|384880|384881
+A|1|135566|135567|135568|135569|135570|135571|135572|135573|135574|135575|135576|135577|135579|133539|135581|135583|135584|135585|135586
+A|110|138056|138057|138058|138059|138060|138061|138062|138063|138065|138067|138068|138069|138070|138071|138072|138073|138074|138075
+A|5|396105|396118|396110|480169|480286|480170|480171|480289|480172|480173|480292
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|85798|65|K|Carina Schön|65 år, Skötare, Heby
+C|85799|54|M|Olof Nilsson|54 år, Systemutvecklare, Tärnsjö
+C|81383|58|K|Rose-Marie Isaksson|58 år, Barnskötare, Harbo
+C|81366|38|M|Per Sverkersson|38 år, Lärare, Tärnsjö
+C|81373|35|K|Emilie Jansson|35 år, Gymnasielärare, Heby
+C|85803|66|M|Anders Pettersson|66 år, Pensionär, Tärnsjö
+C|85804|70|K|Britt Nilsson|70 år, Fil. Magister, Östervåla
+C|81370|59|M|Jan Andersson|59 år, Byggnadsarbetare, Östervåla
+C|85806|28|K|Sanne Flink|28 år, Socialsekreterare, Tärnsjö
+C|85807|55|M|Jan Eriksson|55 år, Sågverksarbetare, Heby
+C|85808|63|K|Erzsébet Wollein|63 år, Lärare, Tärnsjö
+C|81380|68|M|Bernt-Erik Rutström|68 år, Chaufför, Runhällen
+C|85810|62|K|Carola Eriksson|62 år, Barn- och ungdomspedagog, Tärnsjö
+C|85811|69|M|Kenth Nilsson|69 år, Tandläkare, Östervåla
+C|85812|65|K|Ann-Christin Grattback Åkerblom|65 år, Heby
+C|85813|70|M|Håkan Collin|70 år, Pensionär, Heby
+C|85814|64|K|Anneli Eklöv|64 år, Heby
+C|85815|72|M|Leif Nilsson|71 år, Pensionär, Heby
+C|85816|70|K|Kerstin Karlsson|70 år, Pensionär, Heby
+C|85817|62|M|Torbjörn Ivarsson|62 år, Multimediaproducent, Östervåla
+C|85818|62|K|Gunilla Hamrin|62 år, Heby
+C|85819|38|M|Erik Backman|38 år, Byggchef, Harbo
+C|85820|59|K|Inga-Lill Hellgren|59 år, Morgongåva
+C|85821|70|M|Lars Persson|70 år, Pensionär, Östervåla
+C|85822|59|K|Eleonore Hägglund Sikström|59 år, Lärare, Östervåla
+C|85823|25|M|Wilhelm Bertilsson|25 år, Byggnadsarbetare, Östervåla
+C|85824|45|K|Marie Lindström|45 år, Lantbrukare, Kerstinbo
+C|85825|75|M|Carl-Eric Törngren|75 år, Pensionär, Buckarby
+C|85826|63|K|Kristina Pettersson|63 år, Pensionär, Tärnsjö
+C|85827|72|M|Nils-Göran Gustafsson|72 år, Heby
+C|85828|70|K|Maire Lautakoski|70 år, Pensionär Runhällen
+C|85829|45|M|Mattias Jonsson|45 år, Byggnadsarbetare, Morgongåva
+C|85830|54|K|Viveka Sigfridsdotter|54 år, Elevassistent, Östervåla
+C|85831|34|M|Kim Nilsson|34 år, Fastighetsarbetare, Morgongåva
+C|85832|62|K|Monika Sverkersson|62 år, Butikssäljare, Tärnsjö
+C|85833|61|M|Håkan Persson|61 år, Tärnsjö
+C|102682|52|K|Gunilla Skinnar|52 år, Heby
+C|85834|51|M|Anders Lund|51 år, Vårdare, Tärnsjö
+C|85835|68|K|Gunilla Persson|68 år, Pensionär, Östervåla
+C|85836|73|M|Per Rickman|73 år, Pensionär, Heby
+C|85837|87|K|Berit Parmsäter|87 år, Heby
+C|85838|51|M|Per Lund|51 år, Garveriarbetare, Tärnsjö
+C|85839|63|K|Yvonne Ingle|63 år, Östervåla
+C|85840|77|M|Richard Wennström|77 år, Enåker
+C|85841|37|K|Ivonne Arvidsson|37 år, Distriktssköterska, Harbo
+C|85842|51|M|Joakim Jansson|51 år, Byggnadsarbetare, Östervåla
+C|85843|39|K|Noria Popalzai|39 år, Heby
+C|85844|29|M|Henrik Ahlström|29 år, Platschef, Harbo
+C|85845|40|K|Jenny Lundin|40 år, Heby
+C|157828|57|K|Marie Wilén|57 år, kommunalråd, Littersbo, Heby
+C|157829|60|M|Per Möller|60 år, lantbrukare, Åby, Tärnsjö
+C|157830|57|K|Annika Krispinsson|57 år, leg. arbetsterapeut, Heby
+C|157831|69|M|Karl-Arne Larsson|69 år, rörmokare, Harbo
+C|157832|56|K|Gudrun Wängelin Lernskog|56 år, stödpedagog, Vittinge
+C|157833|64|M|Dick Pettersson|64 år, fastighetsskötare, Östervåla
+C|157834|55|M|Göran Hillbom|55 år, bonde/reseplanerare, Torp, Tärnsjö
+C|157835|48|M|Mats Olsén|48 år, egenföretagare, Heby
+C|157836|44|M|Thomas Österberg|44 år, samordnare, Östervåla
+C|157837|39|M|Andreas Källberg|39 år, egenföretagare, Harbo
+C|157838|56|M|Mats Joelsson|56 år, busschaufför, Östervåla
+C|157839|67|K|Berith Röjerås|67 år, pensionär, Huddungeby
+C|157840|29|K|Angelica Tegehall|29 år, doktorand, Runhällen
+C|157841|67|K|Gerd Carlsson|67 år, pensionär, Vittinge
+C|157842|35|K|Märta Ingvarsson|35 år, egenföretagare, Tärnsjö
+C|157843|47|M|Jan Larsson|47 år, Trafiklärare, Harbo
+C|157844|19|K|Esther Hillbom|19 år, studerande, Torp, Tärnsjö
+C|157845|54|M|Erik Torssander|54 år, skogsmästare, Vittinge
+C|157846|49|M|Sam Ericsson|49 år, egenföretagare, Östervåla
+C|157847|42|M|Daniel Röjerås|42 år, egenföretagare, Huddunge
+C|157848|56|M|Anders Johansson|56 år, mjölkbonde, Morgongåva
+C|157849|72|M|Ronny Orvendal|72 år, lantmästare, Orvenbo, Heby
+C|157850|36|K|Carin Bolander|36 år, agronom, Vittinge
+C|182580|63|K|Maipato Hognert Mothata|64 år, undersköterska, Östervåla
+C|157851|68|M|Bo Larsson|68 år, pensionär, Östa, Tärnsjö
+C|157852|31|M|Lars Wängelin|31 år, serviceman, Morgongåva
+C|157853|58|M|Bengt Gårdenborg|58 år, skogsentreprenör, Gårdsjö, Heby
+C|157854|56|K|Inger Ingstedt|56 år, ekonomi/socialarbetare, Tärnsjö
+C|157855|35|M|Robin Wickberg|35 år, studerande, Runhällen
+C|157856|76|K|Eivor Hoffman|76 år, gymnasielärare, Enåker
+C|157857|76|K|Ann-Britt Norberg|76 år, pensionär, Huddunge
+C|157858|72|M|Bengt-Olov Söderlund|71 år, lantbrukare, Gäddsjö, Tärnsjö
+C|157859|42|K|Amina Hussein|42 år, arbetsförmedlare, Morgongåva
+C|359095|57|K|Ingela Wikander|56, Pastor, Tärnsjö
+C|359106|75|M|Bernt Ove Stenmark|75, Lärare, Harbo
+C|359109|50|K|Florence Emma Anvo|49, Silviasyster, Heby
+C|359104|74|M|Anders Kihl|74, Överste 1, Östervåla
+C|364023|65|M|Sven-Erik Eriksson|65, Pensionär, Tärnsjö
+C|356882|60|M|Hans-Göran Björk|59, Konsult, Harbo
+C|364025|35|K|Frida Ahlezon|35, Företagare, Harbo
+C|364026|55|K|Annette Emilson|54, Redovisningskonsult, Huddungeby
+C|356898|35|M|Niklas Ahlezon|35, VD, Harbo
+C|364028|48|M|Jan-Olov Emilson|47, Egenföretagare, Huddungeby
+C|53770|52|M|Tomas Bergström|forskare, Heby, 52 år
+C|53805|55|K|Anne-Charlotte Mattsson|Flygvärdinna, 55 år
+C|53548|43|M|Niclas Vesterlund|säljare, Heby, 43 år
+C|53809|50|K|Monica Brode|Entreprenör, 50 år
+C|53807|49|K|Susann Stambolidou Tellebo|Verksamhetsansvarig kvinnojouren, 49 år
+C|135558|38|K|Henriette Widlundh|Lärare, 38 år
+C|53810|49|M|Olle Vahlberg|Egenföretagare, 49 år
+C|53811|42|K|Caroline Gille|HR-konsult, 42 år
+C|53812|46|M|Mats Köbin|Butiksägare, 46 år
+C|53813|56|K|Lisa Van Well|Forskare, 56 år
+C|53814|50|M|Mikael Myhr|Speciallärare, 50 år
+C|53815|73|M|Staffan Andersson|Pensionär, 73 år
+C|382650|41|M|Joel Lindh|Kulturentreprenör, 41 år, Heby
+C|383012|40|K|Elin Ångman|Forskare, 40 år, Vittinge
+C|384873|68|M|Carl-Åke Elmersjö|68 år, Fil. Dr., Heby
+C|384874|64|K|Anne Stockenberg|64 år, Kyrkvaktmästare, Enåker
+C|384875|36|M|Daniel Steinmo|36 år, Lärare, Östervåla
+C|383005|33|K|Jannie Teinler|Språkvetare, 33 år, Harbo
+C|382638|41|M|Emin Maskan|Arbetsmarknadssekreterare, 41 år, Heby
+C|384878|54|M|Mikael Forsberg|54 år, Gymnasielärare, Tärnsjö
+C|384879|68|K|Inga-Britt Persson|68 år, Lärare, Tärnsjö
+C|384880|68|K|Margareta Elmersjö|68 år, Socionom, Heby
+C|384881|39|M|Lars Norberg|39 år, Civilingenjör, Vittinge
+C|135566|66|K|Ewa Westling Olzon|Heby
+C|135567|77|K|Margaretha Gadde Jennische|Runhällen
+C|135568|38|M|Carl Pilblad|Morgongåva
+C|135569|77|M|Mats Jennische|Runhällen
+C|135570|49|K|Anneli Ellnebrant|Östervåla
+C|135571|18|K|Agnes Mattsson|Vittinge
+C|135572|71|M|Håkan Bengtzon|Tärnsjö
+C|135573|44|K|Linda Allfjord|Vittinge
+C|135574|56|M|Bo Andersson|Heby
+C|135575|67|K|Karin Wärnå Rydell|Harbo
+C|135576|71|K|Maud Plantin|Tärnsjö
+C|135577|72|K|Bodil Persson|Runhällen
+C|135579|21|M|Ludvig Almblad|Heby
+C|133539|62|M|Claes Erlandsson|62 år, Inredare, Heby
+C|135581|81|K|Monica Psilander|Runhällen
+C|135583|75|M|Paul Namerius|Heby
+C|135584|77|M|Sixten Larsson|Runhällen
+C|135585|61|M|Rickert Olzon|Heby
+C|135586|78|M|Gösta Persson|Runhällen
+C|138056|65|M|Michael Öhman|65, f.d. inköpare, Heby
+C|138057|75|M|Hans Viktorsson|75, pensionär, Huddunge
+C|138058|55|K|Monica Stjernholm|55, boendestödjare, Heby
+C|138059|31|M|Robert Ladyca|31, servicetekniker, Östervåla
+C|138060|44|M|Mattias Widén|44, taxichaufför, Heby
+C|138061|72|K|Marga Karttunen|F.d. Socionom, Heby
+C|138062|51|M|Isto Lahtinen|51, säkerhetsansvarig, Heby
+C|138063|43|M|Toni Hietakuja|43, lastbilschaufför, Harbo
+C|138065|56|M|Mikael Funseth|56, rörmokare, Heby
+C|138067|61|M|Timo Norrgård|61, metallarbetare, Tärnsjö
+C|138068|81|M|Jan Dagh|81, f.d. ingenjör, Huddunge
+C|138069|20|M|Niklas Norrgård|20, anläggare, Heby
+C|138070|56|K|Ingalill Ohlsson|56, försäljare, Östervåla
+C|138071|56|K|Ann-Mari Karlsson|56, försäljare, Östervåla
+C|138072|70|K|Helmi Viinamäki|70, f.d. ekonomibiträde, Tärnsjö
+C|138073|76|M|Göran Rolin|76, pensionär, Runhällen
+C|138074|59|M|Kent Sigfridsson|59, undersköterska, Morgongåva
+C|138075|33|M|Joakim Wicksell|33, entreprenör, Harbo
+C|396105|60|K|Salima Fahad|60, ekonom/barnskötare, Heby
+C|396118|71|M|Bengt Löfling|71, redovisningskonsult, Heby
+C|396110|67|K|Maj Wineström|67, sjuksköterska, Heby
+C|480169|68|M|Carl-Otto Bergqvist|socionom, Morgongåva
+C|480286|61|M|Azad Korshed|socialsekreterare, Morgongåva
+C|480170|54|M|Anders Johansson|undersköterska/kock, Heby
+C|480171|44|K|Cecilia Wineström|distriktssköterska, Heby
+C|480289|58|M|Ahmed Sevdan|kock, Heby
+C|480172|67|M|Bengt Thalin|pensionär, Vittinge
+C|480173|77|K|Kerstin Nyman|pensionär, Heby
+C|480292|34|K|Mary Grace Fredriksson|butikssäljare, Morgongåva

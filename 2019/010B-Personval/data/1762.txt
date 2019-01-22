@@ -1,6 +1,69 @@
-2|75217|75121|22215|178666|178667|178668|74860|178670|178671|178672|178673|179065|179066|179067|179068|179069|179070|179071|179072|179162|179163|179164|179286|179287|179288|179358|179359|179360|179361|179362|179363
-4|24502|30124|30125|30126|30127|30128|30129|30130|30131
-532|260151|219335|260150
-3|509701|515330|515583
-110|115613|115614|115615|115616|514132|515329|515581
-5|30306|106951|106952|106953
+T|Munkfors
+A|2|75217|75121|22215|178666|178667|178668|74860|178670|178671|178672|178673|179065|179066|179067|179068|179069|179070|179071|179072|179162|179163|179164|179286|179287|179288|179358|179359|179360|179361|179362|179363
+A|4|24502|30124|30125|30126|30127|30128|30129|30130|30131
+A|532|260151|219335|260150
+A|3|509701|515330|515583
+A|110|115613|115614|115615|514132|515329|515581
+A|5|30306|106951|106952|106953
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|75217|43|M|Mathias Lindquist|44 år, Munkfors
+C|75121|61|K|Pia Falk|61 år, Munkfors
+C|22215|35|M|Eric Henriksson|35 år, Munkfors
+C|178666|42|K|Jenny Blom|42 år, Folkhögskollärare
+C|178667|30|M|Mathias Andersson|29 år, Industriarbetare
+C|178668|50|K|Gunilla Sundqvist|50 år, Stödsamordnare
+C|74860|32|M|Nicklas Hartwig|32 år, Munkfors
+C|178670|70|K|Karin Jensen|69 år, Pensionär
+C|178671|28|M|Alexander Larsson|28 år, Fastighetsskötare
+C|178672|75|K|Sickan Persson|74 år, Pensionär
+C|178673|62|M|Eric Clifford|62 år, Integrationshandledare
+C|179065|24|K|Alexandra Persson|23 år, Undersköterska
+C|179066|51|M|Håkan Larsson|51 år, Fabriksarbetare
+C|179067|53|K|Cäthrin Jansson|52 år, Undersköterska
+C|179068|57|M|Hans Backström|57 år, Industriarbetare
+C|179069|48|K|Birgitta Nilsson|48 år, Kock
+C|179070|59|M|Torbjörn Thoren|58 år, Kyrkvaktmästare
+C|179071|62|K|Anna-Karin Byström|62 år, Undersköterska
+C|179072|45|M|Peter Larsson|45 år, Verksamhetssamordnare
+C|179162|36|K|Linda Högberg|37 år, Säljare
+C|179163|44|M|Peter Andersson|44 år, Verkstadsarbetare
+C|179164|50|K|Eva-Karin Nilsson|51 år, Avfallstekniker
+C|179286|58|M|Anders Henriksson|58 år, Ambulanssjukvårdare
+C|179287|56|K|Birgitta Andersson|56 år, Ekonomiassistent
+C|179288|77|M|Sture Persson|78 år, Pensionär
+C|179358|43|K|Rebekka Homilius|43 år, Folkhögskollärare
+C|179359|45|M|Anders Öjefelt|45 år, Industriarbetare
+C|179360|24|K|Jonna Ullenius|24 år, Personlig assistent
+C|179361|21|M|Victor Solberg|20 år, Arbetslös
+C|179362|78|K|Birgitta Carlgren|77 år, Medicinsk sekreterare
+C|179363|63|M|Jan-Olov Hagström|63 år, Pensionär
+C|24502|44|M|Urban Karlsson|Sågverksarbetare
+C|30124|39|K|Martina Nilsson|Samordnare
+C|30125|67|M|Jörgen Hedeås|Egenföretagare
+C|30126|62|K|Annika Zetterström|Lokalvårdare
+C|30127|40|M|Anders Örtendahl|Skoglig tjänsteman
+C|30128|58|M|Håkan Hagström|Montör
+C|30129|75|M|Tore Lennartsson|Pensionär
+C|30130|80|M|Sigge Svensson|Pensionär
+C|30131|79|M|Pauli Björklund|Pensionär
+C|260151|44|K|Frida Bergman|45, bibliotekarie
+C|219335|60|M|Mikael Gabrielsson|60år, Rytm- och samtalsterapeut, Ransäter
+C|260150|65|K|Britta Linell|65, pensionär
+C|509701|71|M|Mats Göran Almemark|
+C|515330|77|M|Ove Torbjörn Hedin|
+C|515583|59|M|Anders Sätterman|
+C|115613|72|M|Björn Bäckström|72, Elingenjör, Västanå
+C|115614|58|K|Ann Tiderman|58, Väktare, Munkfors
+C|115615|41|K|Anita Lothe|41, Undersköterska, Munkebol
+C|514132|51|M|Pär Tiderman|
+C|515329|67|M|Bert Larsson|
+C|515581|53|M|Wolfgang Czerny|
+C|30306|74|K|Maria Sandgren Loa|73 år, Munkfors, pensionär
+C|106951|81|M|Lars Olsson|
+C|106952|79|K|Kristina Saxerud|
+C|106953|49|M|Niklas Eliasson|

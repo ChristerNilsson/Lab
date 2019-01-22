@@ -1,9 +1,221 @@
-2|164448|71226|97704|97723|164452|97705|164454|164455|164456|164457|164458|164459|164460|164461|164462|164463|164464|164465|164466|70621|164468|164469|164470|164471|164472|164473|164474|164475|164476|97707|164478|164479|164480|164481|164482|164483|164484|164485|164486|164487|164488|164489|164490|164491|164492|164493|164494|164495|164496|164497|164498
-4|76906|117861|76924|117863|117864|117865|117866|117867|117868|117869|117870|117871|117872|117873|117874|117875|117876|117877|117878|117879|117880|117881|117882|117883|117884|117885|117886|117887|117888|117889|117890|117891
-1136|471748|471754
-68|186644|186645|186646|186647|186648|186649|186652|186653|186654|186656|186657
-3|218881|218882|218883|218884|218885|218886|218887|218888|218889|218890|218891|218892|218893|240410|218894|218895|218896|218897|218898|218899|218900|218901
-55|113447|113448|113449|113450|113451|113452|113453|113454|113455|113456|113457|113458|113459|113460
-1|94872|12821|94874|94875|23175|94877|94878|94879|94880|94881|23185|94883|94884|23200|94886|94887|94888|94889|94890|23206|94893|94894|23195|94896|94897|94898|94899|94900|94901|94902|94903|94904|94905|94906|94907|94908|94909|94910|94911|94912|94913|94914
-110|67286|67287|67288|67289|67290|67291|67292|67293|67294|67295|67296|67297|67298|67299|67300|67301|67302
-5|216935|216936|216937|216938|216939|216940|216941|216942|216943|216944|216945
+T|Vallentuna
+A|2|164448|71226|97704|97723|164452|97705|164454|164455|164456|164457|164458|164459|164460|164461|164462|164463|164464|164465|164466|70621|164468|164469|164470|164471|164472|164473|164474|164475|164476|97707|164478|164479|164480|164481|164482|164483|164484|164485|164486|164487|164488|164489|164490|164491|164492|164493|164494|164495|164496|164497|164498
+A|4|76906|117861|76924|117863|117864|117865|117866|117867|117868|117869|117870|117871|117872|117873|117874|117875|117876|117877|117878|117879|117880|117881|117882|117883|117884|117885|117886|117887|117888|117889|117890|117891
+A|1136|471748|471754
+A|68|186644|186645|186646|186647|186648|186649|186652|186653|186654|186656|186657
+A|3|218881|218882|218883|218884|218885|218886|218887|218888|218889|218890|218891|218892|218893|240410|218894|218895|218896|218897|218898|218899|218900|218901
+A|55|113447|113448|113449|113450|113451|113452|113453|113454|113455|113456|113457|113458|113459|113460
+A|1|94872|12821|94874|94875|23175|94877|94878|94879|94880|94881|23185|94883|94884|23200|94886|94887|94888|94889|94890|23206|94893|94894|23195|94896|94897|94898|94899|94900|94901|94902|94903|94904|94905|94906|94907|94908|94909|94910|94911|94912|94913|94914
+A|110|67286|67287|67288|67289|67290|67291|67292|67293|67294|67295|67296|67297|67298|67299|67300|67301|67302
+A|5|216935|216936|216937|216938|216939|216940|216941|216942|216943|216944|216945
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1136|DjuP|Djurens parti
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|164448|54|K|Jaana Tilles|54, Grundskollärare
+C|71226|58|M|Thomas Arctaedius|58, Fil. dr, VD, Vallentuna
+C|97704|57|K|Ing-Marie Elfström|57, Socialsekreterare, Vallentuna
+C|97723|74|M|Kenneth Bylund|74, Pensionär, Egenföretagare, Vallentuna
+C|164452|53|K|Agneta Westerberg|53, Avdelningschef
+C|97705|55|M|Jerri Bergström|55, Ingenjör, Vallentuna
+C|164454|48|K|Anette Karlsson|48, Assistent
+C|164455|26|M|Adam Westerberg|26, Studerande
+C|164456|49|K|Anna-Maria Valladolid|49, Äldrestödjande
+C|164457|32|M|Henrik Hedman|32, Elektriker
+C|164458|19|K|Dersim Esmaelzadeh|19, Studerande
+C|164459|30|M|Gustav Elfström|30, Samhällsplanerare
+C|164460|32|K|Sandra Rudeberg|32, Företagare
+C|164461|40|M|David Thell|40, Pilot
+C|164462|64|K|Parvin Amjadi|64, Företagare
+C|164463|78|M|Sven-Olof Ekström|78, Bussförare
+C|164464|39|K|Frida Ekberg|39, Kommunikationskonsult
+C|164465|65|M|Ulf Lundström|65, Omsorgsassistent
+C|164466|48|K|Catharina Fridén Hedrenius|48, Musiklärare
+C|70621|46|M|Daniel Färm|46, Tankesmedjechef, Vallentuna
+C|164468|67|K|Lena Lantz|67, Pensionär
+C|164469|37|M|Morgan Englund|36, Handledare
+C|164470|20|M|Martina Hedrenius|20, Studerande
+C|164471|71|M|Ulf Nordlinder|71, Pensionär
+C|164472|45|K|Malin Forslund|45, Djursjukvårdare
+C|164473|63|M|Hamdi Abazi|63, Kulturarbetare
+C|164474|72|K|Birgitta Hansson|72, Pensionär
+C|164475|39|M|Petter Mähler|39, v. Driftchef
+C|164476|56|K|Ingrid Karlsson|56, Anhörig- och frivilligsamordnare
+C|97707|51|M|Roland Ahl|51, Ombudsman, Vallentuna
+C|164478|72|K|Bonny Barkström|72, Reklamchef
+C|164479|54|M|Torbjörn Flygar|54, Drifttekniker
+C|164480|69|K|Marianne Forsner De Valladolid|69, Funtionshinderombud
+C|164481|60|M|Pär Elfström|60, Lärare
+C|164482|61|K|Ann Ejdervik|61, Tjänsteman
+C|164483|70|M|Jan Erik Forsberg|70, Diakon
+C|164484|72|K|Majvor Ingebrigtsen|72, Pensionär
+C|164485|78|M|Tommy Eckelöv|78, Pensionär
+C|164486|80|K|Gunilla Schwieler Boija|80, Pensionär
+C|164487|69|M|Sven Ljungberg|69, Ingenjör
+C|164488|64|K|Marita Ljunberg|64
+C|164489|77|M|Bengt Skogert|77, fd. Ombudsman
+C|164490|76|K|Birgitta Forsberg|76, Socionom
+C|164491|71|M|Jerry Gabrielsson|71, Datakonsult
+C|164492|46|K|Helena Insulander|46, leg. Barnmorska
+C|164493|79|M|Ove Larsson|79, Pensionär
+C|164494|74|K|Eivor Strömberg Skogert|74, Pensionär
+C|164495|73|M|Kjell Husberg|73, Grafiker
+C|164496|86|K|Milot Sköld|87, Pensionär
+C|164497|83|M|Bo Schylander|83, Pastor
+C|164498|79|K|Karin Dahl-Strandin|79, pens. Folkskollärare
+C|76906|22|K|Lovisa Kronsporre|22, Vallentuna, Juriststudent
+C|117861|46|M|Björn Furugren Beselin|46, Brottby, Gymnasielärare
+C|76924|50|M|Lars Carlsson|50, Vallentuna, Ingenjör
+C|117863|43|M|Torbjörn Einarsson|43, Vallentuna, Ek.Dr.
+C|117864|40|K|Jessica Einebrant|Varumärkesansvarig, Brottby, 40 år
+C|117865|59|K|Ewa Eriksson Tomaszewski|Verksamhetscontroller, Vallentuna, 59 år
+C|117866|48|M|Per-Everth Staff|48, Kårsta, Byggnadsingenjör
+C|117867|22|M|Emil Dahlin|22, Vallentuna, Kommunikatör
+C|117868|53|K|Jenny Stenberg|Försäkringstjänsteman, Brollsta, 53 år
+C|117869|54|K|Katrin Nörthen|Leg. Förskollärare, Kårsta, 54 år
+C|117870|71|M|Bengt Dahlbeck|Skogsägare, Ösby, 71 år
+C|117871|52|M|Ulrik Hansson-Mild|Major, Kårsta, 52 år
+C|117872|54|M|Arne Lithander|Lastbilschaufför, Stångberga, 54 år
+C|117873|36|M|Christian Castenskiold|Gymnasielärare, Lindholmen, 36 år
+C|117874|56|K|Monica Andersson|Mättekniker, Garns Ekskogen, 56 år
+C|117875|67|M|Åke Eriksson|Civilingenjör, Ormsta, 67 år
+C|117876|64|M|Peter Haking|Hästföretagare, Markim, 64 år
+C|117877|46|M|Mathias Karlsson|Egen företagare, Ledinge, 46 år
+C|117878|58|K|Anna-Karin Backman|Omsorgsassistent, Ösby, 58 år
+C|117879|77|K|Anne Spetz|Pensionär, Össeby, 77 år
+C|117880|76|M|Sven Karlsson|Fd. Poliskommissarie, Kårsta, 76 år
+C|117881|64|M|Lars-Elis Ekeberg|Pensionär, Brottby, 64 år
+C|117882|61|M|Mats Carsing|Civilingenjör, Sursta, 61 år
+C|117883|58|K|Susanne Andersson|Lantbrukare, Markim, 58 år
+C|117884|72|M|Ove Rick|Lantbrukare, Kragsta gård, 72 år
+C|117885|36|K|Matilda Johansson|Operationssjuksköterska, Markim, 36 år
+C|117886|55|K|Kersti Larsson|Vårdbiträde, Älgeby, 55 år
+C|117887|46|M|Ris-Peter Larsson|Drifttekniker, Stångberga, 46 år
+C|117888|54|M|Ulf Stenberg|Lagerchef, Brollsta, 54 år
+C|117889|63|M|Johan Lindgren|Lantbrukare, Kårsta, 63 år
+C|117890|83|M|Alf Sigling|Naturvetare, Vallentuna, 83 år
+C|117891|76|M|Björn Ek|Pensionär, Vallentuna, 76 år
+C|471748|51|K|Tess Hérisson|Vallentuna, analytiker, 50 år
+C|471754|18|K|Elsa Magnell|Vallentuna, studerande, 18 år
+C|186644|51|M|Michel Louis|IT-chef
+C|186645|50|K|Helena Klange|50, Kommunikatör, Vallentuna
+C|186646|42|M|Per Forssberg|42, Banktjänsteman, Vallentuna
+C|186647|48|M|Mattias Torkelsson|Civilingenjör, fil.kand.
+C|186648|67|K|Maud E Mellström|Informatör
+C|186649|46|M|Petter Eklund|Operativ chef
+C|186652|76|M|Clas-Robert von Post|Juris doktor
+C|186653|43|M|Markus Jägerskogh|Systemutvecklare
+C|186654|71|K|Sholeh Blom|Forskningsingenjör
+C|186656|86|K|Eleanor Rydén|Pedagog
+C|186657|75|M|Stig Nyman|Fd. landstingsråd
+C|218881|43|K|Ylva Mozis|kommunikationsrådgivare, Vallentuna
+C|218882|45|M|Mattias Dejke|46 år, Polischef, Gustavslund
+C|218883|47|K|Jessica Johnson|47 år, Egenföretagare, Västergården
+C|218884|73|M|Erik Ideström|73 år, Civ.ing., Bällstalund
+C|218885|52|K|Carin Saracco|52 år, Präst, Påtåker
+C|218886|46|M|Marcus Palm|46 år, Sjuksköterska, Kragstalund
+C|218887|71|K|Gunnel Orselius-Dahl|special- och talpedagog, Vallentuna
+C|218888|47|M|Robert Lee|47 år, Ingenjör solenergi, Östra Bällsta
+C|218889|42|K|Anna-Clara Nord Ekerling|42 år, Marknadskonsult, Näle
+C|218890|46|M|Mattias Lööv|46 år, inköpare, Rickeby
+C|218891|52|K|Karin Unnerstad|52 år, IT-projektledare, Brottby
+C|218892|75|M|Jimmy Ullgren|75 år, Företagare, Östra Bällsta
+C|218893|36|K|Felicia Liu|36 år, Tolk, Nyby
+C|240410|74|M|Karl-Erik Forsgren|74 år, Verksamhetsutvecklare, Rosendal
+C|218894|74|M|Ragnar Dahl|75 år, Byggnadsingenjör, Rosengården
+C|218895|51|K|Karina Liedberg|51 år, Marknadsekonom, Kragstalund
+C|218896|53|M|Jörgen Hellberg|53 år, Ek.kand., Västlunda
+C|218897|37|K|Jessica Cedervall|37 år, Forskare, Nyby
+C|218898|47|M|Pär Ideström|47 år, Marknadschef, Nyby
+C|218899|76|K|Gunilla Crabo|76 år, Speciallärare, Rosengården
+C|218900|47|K|Ylva Westlund|46 år, Chefredaktör, Östra Bällsta
+C|218901|81|M|Staffan Modig|81 år, F.d. miljöchef, Bällstaberg
+C|113447|46|M|Nicklas Steorn|47, projektledare, Vallentuna
+C|113448|39|K|Jenny Thörnberg|39 år, fotograf, Brottby
+C|113449|47|M|Timo Grönlund|47 år, arbetsrättslig rådgivare, Bällstaberg
+C|113450|61|K|Jennie Bergenholtz|61 år, redovisningsekonom, Kragstalund
+C|113451|49|M|Rasmus Neideman|49 år, gymnasielärare, Bällsta
+C|113452|79|M|Gunnar Lundgren|79 år, pensionerad präst, Lindholmen
+C|113453|47|K|Pernilla Grönlund|47, farmaceut, Vallentuna
+C|113454|44|M|Lars Nordesjö|44 år, bibliotekarie, Trädgårdsstaden
+C|113455|38|K|Elin Strid|37 år, studerande Bällstaberg
+C|113456|57|K|Katrin Brandberg|57 år, egen företagare, Vallentuna
+C|113457|69|M|Claes Bergenholtz|68 år, pensionär, Kragstalund
+C|113458|85|K|Ingrid Rost Rosander|85 år, pensionerad bibliotekarie, Östra Bällsta
+C|113459|43|M|Magnus Thörnberg|42 år, biograftekniker, Brottby
+C|113460|72|K|Margareta Lundberg|73 år, pensionär, Brottby
+C|94872|35|K|Parisa Liljestrand|35, Kommunstyrelseordförande
+C|12821|28|M|Johan Skog|28, Analytiker
+C|94874|72|M|Ray Idermark|72, Kommunfullmäktigeordförande
+C|94875|38|K|Anna Frisell|38, Frivårdsinspektör
+C|23175|57|M|Bengt-Åke Grip|57, Civilingenjör
+C|94877|31|K|Camilla Blacker Wallinsson|31, Jurist
+C|94878|65|K|Ewa Thorin|65, Företagsekonom
+C|94879|52|M|Tomas Kullström|52, Affärsutvecklare
+C|94880|71|M|Bengt Lindahl|71, Egenföretagare
+C|94881|43|K|Cecilia Brändström|43, Lärare
+C|23185|64|M|Tommy Schiött|64, Säljare
+C|94883|70|M|Lars Vargö|70, Fil. dr
+C|94884|69|K|Margareta Svanström|69, Pensionär
+C|23200|50|M|Per Haraldsson|50, Investeringscontroller
+C|94886|61|K|Christina Birger|61, Lantbruksföretagare
+C|94887|38|K|Maya Mallo|38, Jurist
+C|94888|73|K|Monica Emilsson|73, Pensionär
+C|94889|28|K|Zarah Sjökvist|28, Soldat
+C|94890|40|M|Fredrik Sundblad|40, Kvalitetschef
+C|23206|44|M|Peeter Nömm|44, VD
+C|94893|70|M|Lars Åsberg|70, Egenföretagare
+C|94894|55|K|Birgitta Skärborn|55, Koordinator
+C|23195|76|M|Göran Eriksson|76, Senior konsult
+C|94896|34|K|Petra Stålnacke|34, IT-specialist
+C|94897|54|K|Maria Beninati Östfalk|54, Kanslist
+C|94898|65|M|Fredrik Sehested-Preetzmann|65, Jurist
+C|94899|71|M|Ove Eriksson|71, Styrelseproffs
+C|94900|31|K|Alexandra Herlin|31, Administratör
+C|94901|71|M|Raimo Vuojärvi|71, Pensionär
+C|94902|44|M|Fredrik Carlsson|44, Tekn. dr
+C|94903|53|M|Hans Heneby|53, Företagare
+C|94904|67|K|Anneli Vuojärvi|67, Pensionär
+C|94905|38|M|Niklas Frisell|38, Försäljningschef
+C|94906|39|M|Anders Idermark|39, VVS Konsult
+C|94907|38|M|Mikael Karlstein|38, Teamledare
+C|94908|73|M|Göran Heidmark|73, Företagare
+C|94909|82|M|Gillis Weingarth|82, Pensionär
+C|94910|76|M|Sigurd Rahmqvist|76, Författare
+C|94911|68|M|Lars Filipoff|68, Pensionär
+C|94912|79|M|Lage Jansson|79, Pensionär
+C|94913|75|M|Elwe Nilsson|75, Pensionär
+C|94914|40|M|Peter Wieslander|40, Officer
+C|67286|31|M|Fredrik Lindahl|Kanslichef, Vallentuna
+C|67287|61|K|Mona Jansson|administratör, 61
+C|67288|44|M|Hans Jedlin|44, platschef, Vallentuna
+C|67289|64|K|Annika Fagerberg|64, civilingenjör, Vallentuna
+C|67290|55|K|Marie Garner|55, undersköterska, Vallentuna
+C|67291|31|M|Joakim Oskarsson|skyddsvakt, 31
+C|67292|70|K|Karin Nyblom|70, pensionär, Vallentuna
+C|67293|43|K|Jenny Laszlo|projektledare, 43
+C|67294|52|M|Martin Siltanen|IT-konsult, 52
+C|67295|49|M|Thomas Parker|statsvetare, 48
+C|67296|73|M|Willy Rosenqvist|pensionär, 73
+C|67297|76|M|Lars Stenling|ingenjör, 76
+C|67298|54|K|Susanna Kriström|egenföretagare, 54
+C|67299|70|M|Bo Brandt|ingenjör, 70
+C|67300|47|M|Mikael Löfdal Jylkkä|platschef, 47
+C|67301|19|K|Maryam Oidermaa|student, 19
+C|67302|68|K|Vivi-Anne Harryson|undersköterska, 68
+C|216935|36|M|Johan Fagerhem|Lärare, Vallentuna
+C|216936|67|M|Gunnar Bergström|Alkohol- och drogterapeut/utbildare, Vallentuna
+C|216937|35|K|Frida Lundin|Byggnadsingenjör, Vallentuna
+C|216938|31|M|Lars Svensson|Kontrollant, Vallentuna
+C|216939|65|M|Ulf Sellgren|Docent, Vallentuna
+C|216940|72|K|Inger Larsson|Socialpedagog, leg. psykoterapeut och pensionär, Brottby
+C|216941|59|M|Fredrik Ahlkvist|Musiker, Ormsta
+C|216942|67|K|Christina Ohlsson|Lärare och pensionär, Kragstalund
+C|216943|49|M|Johan Rönn|Anläggare, Västanberga
+C|216944|72|K|Lena Lundgren|Bibliotekarie, Brottby
+C|216945|42|K|Åsa Brunius|Sjuksköterska, Brottby

@@ -1,11 +1,196 @@
-2|6384|30212|6394|30214|6422|30216|6177|30218|6412|30220|6191|6190|30223|30224|6404|6409|30227|30228|30229|30230|30231|30232|30233|30234|30235|30236|30237|30238|30239|30240|30241|6423|30243|30244|30245|6405|30247|30248|30249|30250|30251
-4|197272|197273|197274|197275|8516|197277|197278|197279|197280|197281|197282|197283|197284|197285|197286|197287|197288|197289|197290|197291|197292
-532|136758|136759|136760|136761|136762|136763|136764|136765|136766|136767
-68|185448|185445|185451|185455|186033|185453|194819|194820|194821|194822|194823|194824|194825|194826|194827|194828|186037
-3|294264|294265|287826|294267|287834|294269|290618|294271|294272|294273|294274|294275|294276|294277
-1296|137699
-55|283340|283341|283342|283343|283344|283345|283346
-1|1|2|3|4|5|6|7|8|9|10|11|3933|12|13|5412|54551|54552|54553|178006
-973|277405|277406|277407|277408|277409|277410|277411|277412|277413|277414|277415|277416|277417|277418
-110|75392|75393|75394|75395|75396|75397|75398|75399|75400|75401|75402|75403|75404|75406|75407|75408|75409
-5|16590|16576|16760|16585|80396|57591|57592|57593|80400|16747|57596|57597
+T|Sala
+A|2|6384|30212|6394|30214|6422|30216|6177|30218|6412|30220|6191|6190|30223|30224|6404|6409|30227|30228|30229|30230|30231|30232|30233|30234|30235|30236|30237|30238|30239|30240|30241|6423|30243|30244|30245|6405|30247|30248|30249|30250|30251
+A|4|197272|197273|197274|197275|8516|197277|197278|197279|197280|197281|197282|197283|197284|197285|197286|197287|197288|197289|197290|197291|197292
+A|532|136758|136759|136760|136761|136762|136763|136764|136765|136766|136767
+A|68|185448|185445|185451|185455|186033|185453|194819|194820|194821|194822|194823|194824|194825|194826|194827|194828|186037
+A|3|294264|294265|287826|294267|287834|294269|290618|294271|294272|294273|294274|294275|294276|294277
+A|1296|137699
+A|55|283340|283341|283342|283343|283344|283345|283346
+A|1|1|2|3|4|5|6|7|8|9|10|11|3933|12|13|5412|54551|54552|54553|178006
+A|973|277405|277406|277407|277408|277409|277410|277411|277412|277413|277414|277415|277416|277417|277418
+A|110|75392|75393|75394|75395|75396|75397|75398|75399|75400|75401|75402|75403|75404|75406|75407|75408|75409
+A|5|16590|16576|16760|16585|80396|57591|57592|57593|80400|16747|57596|57597
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|973|SBÄ|Salas bästa
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|6384|43|K|Ulrika Spårebo|43 år, Sala
+C|30212|30|M|Emil Andersson Bleckert|30 år, Elektriker
+C|6394|44|K|Camilla Runerås|43 år, Sala
+C|30214|38|M|Viktor Kärvinge|38 år, Miljöinspektör
+C|6422|57|K|Eva Stenberg|57 år, Sala
+C|30216|68|M|Per-Olov Rapp|68 år, Legitimerad Gymnasielärare
+C|6177|56|K|Pia Nilsson|56 år, Sala
+C|30218|71|M|Bo Kihlström|71 år, Egen företagare
+C|6412|59|K|Kristina Nyberg|59 år, Sala
+C|30220|70|M|Glenn Andersson|70 år, Fd Landstingsråd
+C|6191|27|K|Amanda Lindblad|27 år, Sala
+C|6190|31|M|Carl Johansson|31 år, Sala
+C|30223|35|K|Fassika Gustavsson|35 år, Personlig assistent
+C|30224|60|M|Sven Frank|60 år, Undersköterska
+C|6404|38|K|Ann Kristin Lindgren|38 år, Sala
+C|6409|53|M|Alaittin Temur|53 år, Sala
+C|30227|51|K|Åsa Nilsson|51 år, Arbetshandledare
+C|30228|32|M|Niklas Hellstrand|32 år, Projektledare
+C|30229|54|K|Christina Forsgren|54 år, Lärare
+C|30230|55|M|Peter Bäckebo|55 år, Lärare
+C|30231|55|K|Eva-Lotta Nilsson|55 år, Beteendevetare
+C|30232|52|M|Tomas Jansson|52 år, Fastighetsskötare
+C|30233|30|K|Sanna Bleckert|30 år, Barnskötare
+C|30234|67|M|Tomas Calissendorff|67 år, Plåtslagare
+C|30235|23|K|Fatmeh Harrareh|23 år, Student
+C|30236|64|M|Anders Dahlström|64 år, Civilekonom
+C|30237|54|K|Eva Törnblom|54 år, Arbetsmiljöinspektör
+C|30238|45|M|Abdul Maujood Khalilzai|45 år, Fritidsledare
+C|30239|73|K|Birgitta Beiron|73 år, Leg. sjuksköterska
+C|30240|70|M|Alf Ekebom|70 år, Fabriksarbetare
+C|30241|52|K|Gulnaz Haci Mohammad|52 år, Tolk
+C|6423|67|M|Bengt Atthem|67 år, Sala
+C|30243|59|K|Anki Lugnér|59 år, Försäljningsansvarig
+C|30244|58|M|Bengt Juthberg|58 år, Drifttekniker
+C|30245|66|K|Kerstin Vindahl Jansson|66 år, Leg.Sjuksköterska
+C|6405|63|M|Kenneth Edvardsson|63 år, Chaufför
+C|30247|67|K|Karin Karlsson|67 år, Leg.Sjuksköterska
+C|30248|71|M|Lars-Evert Oskarsson|71 år, Leg.Sjuksköterska
+C|30249|38|K|Erika Hortans|38 år, Apotekstekniker
+C|30250|48|M|Magnus Nordlund|48 år, Ombudsman
+C|30251|67|K|Torgerd Stöpare Rapp|67 år, Lärare
+C|197272|43|M|Anders Wigelsbo|Sala
+C|197273|69|M|Sture Johansson|Lantbrukare, Sala
+C|197274|58|K|Elisabet Pettersson|Västerfärnebo
+C|197275|49|M|Anders Westin|Ransta
+C|8516|64|K|Carola Gunnarsson|64 år, Kommunalråd, Sala
+C|197277|47|K|Anna Gillerblad|Sala
+C|197278|35|M|Gustaf Eriksson|Öster Vrenninge
+C|197279|23|K|Jenny Eriksson|Ransta
+C|197280|62|M|Christer Gustafsson|Handläggare, Sala
+C|197281|56|M|Mårten Öhrström|Ölsta
+C|197282|28|K|Emma Andersson|Köksspecialist, Sala
+C|197283|63|M|Bengt Larsson|Broddbo
+C|197284|64|M|Hans Johansson|Tullsta
+C|197285|56|K|Barbro Larsson|Sjuksköterska, Sala
+C|197286|71|K|Elisabeth Nilsson|Öster Vrenninge
+C|197287|20|M|Tobias Karlsson|Sala
+C|197288|81|M|Sven-Olof Pettersson|Västerfärnebo
+C|197289|76|M|Sven-Erik Carlsson|Sörbäck
+C|197290|67|M|Sven-Erik Grahn|Kumla
+C|197291|50|K|Erika Wigelsbo Lähde|Ransta
+C|197292|62|M|Ove Andersson|Tärna
+C|136758|60|K|Marie Berglind|60 år
+C|136759|27|K|Chris Danielsson|27 år
+C|136760|27|K|Anna Danielsson|27 år
+C|136761|37|K|Sarah Svensson|37 år
+C|136762|33|M|Pascal Crépault Wibe|33 år
+C|136763|24|K|Marthina Serra Jansson|24 år
+C|136764|49|K|Camilla Sörblom|49 år
+C|136765|37|K|Sandra Boström|37 år
+C|136766|39|K|Sofie Lindmark|39 år
+C|136767|68|M|Mårten Näslund|68 år
+C|185448|51|M|Magnus Holm|51, Språkkonsult
+C|185445|56|K|Eva Axelsson|56, Diakon
+C|185451|74|M|Håkan Pettersson|74, Polispensionär
+C|185455|48|K|Anette Tofters|48, Kurator
+C|186033|65|M|Hanke Joneklav|65, Sjukhuspastor, Sala
+C|185453|70|K|Sickan Palm|70, Företagare
+C|194819|36|M|John Nordström|Leg. optiker
+C|194820|38|K|Sara Ulander|Familjekonsulent
+C|194821|76|M|Ingvar Johansson|Chaufför
+C|194822|52|K|Helena Pettersson|Undersköterska
+C|194823|51|M|Anders Sjöqvist|Gymnasielärare
+C|194824|65|K|Björg Sörensen|Diakon
+C|194825|75|M|Rolf Nordström|Konsult
+C|194826|63|K|Tanja-Birgit Söderström|Tolk
+C|194827|66|K|Monica Nordström|Pensionär
+C|194828|71|M|Per-Olof Palm|Kamrer
+C|186037|66|K|Lisa Joneklav|66, Grundskolelärare, Sala
+C|294264|49|M|Mårten Hemström|49, gymnasielärare, Ransta
+C|294265|49|K|Isa Österberg|49, kursansvarig, Sala
+C|287826|70|M|Agne Furingsten|70, ledarskapskonsult, Sala
+C|294267|36|K|Mona Johansson|36, socialsekreterare, Ransta
+C|287834|40|M|Jan Eriksson|40, renhållningsarbetare, Sala
+C|294269|62|K|Agneta Sonnebo|62, kantor, Sala
+C|290618|60|M|Peter Svensson|60, ingenjör, Sala
+C|294271|73|M|Lars Alderfors|73, pensionär, Sala
+C|294272|66|K|Anita Furingsten|66, förskollärare, Sala
+C|294273|72|M|Ola Rosengren|72, pensionär, Sala
+C|294274|68|M|Ronald Henriksson|68, diakon, Ransta
+C|294275|58|M|Roger Klasson|58, yrkesofficer, Sala
+C|294276|76|M|Peter Pollak|76, god man, Sala
+C|294277|57|K|Jonna Svensson|57, administratör, Sala
+C|137699|45|M|Christoffer Lernö|45 år, Spelutvecklare
+C|283340|46|K|Ingela Kilholm Lindström|46 år, Personlig assistent
+C|283341|67|M|Jan Babar|66, lärare, Sala
+C|283342|38|K|Beatrice Woldert|37, civilingenjör, Sala
+C|283343|69|M|Mats Hellstrand|69 år
+C|283344|69|K|Anna-Lena Svedjeman Elfving|69 år, Leg. sjuksköterska
+C|283345|56|M|Peter Kraft|56 år, Civilingenjör
+C|283346|55|M|Erik Åberg|55 år, Gymnasielärare
+C|1|39|M|Erik Hamrin|Projektledare, Sala
+C|2|53|M|Tomas Bergling|53, Sala
+C|3|57|M|Michael Pb Johansson|Handläggare, Sala
+C|4|47|M|Fredrik Larsson|Enhetschef, Sala
+C|5|32|M|Martin Eriksson|Handläggare, Sala
+C|6|43|K|Viveca Molin|43, Sala
+C|7|74|M|Gunnar Larsson|74, Sala
+C|8|28|K|Elin Johansson|Socialsekreterare, Sala
+C|9|39|M|Johan Widén|Företagare, Sala
+C|10|51|M|Jasin Arkavazi|Byggnadsingenjör, Sala
+C|11|31|K|Victoria Kihlström|31, Sala
+C|3933|40|K|Maria Marjamaa|40, Sala
+C|12|70|M|Peter Molin|70, Sala
+C|13|85|M|Allan Westin|85, Sala
+C|5412|66|M|Hans Hultén|66, Sala
+C|54551|67|M|Jörgen Lagberg|67, Sala
+C|54552|82|M|Jan Olof Eriksson|82, Sala
+C|54553|76|M|Martti Kirotar|76, Sala
+C|178006|65|M|Arne Eriksson|65, Sala
+C|277405|43|K|Hanna Westman|42, Marknadsekonom
+C|277406|48|M|Magnus Eriksson|48, Marknadskonsult
+C|277407|63|K|Carina Karlsson|63, Egenföretagare
+C|277408|66|M|Lars Sandberg|66, Pensionär
+C|277409|67|M|Ulf Westman|67, Lärare
+C|277410|42|M|Per Larsson|42, Förskolechef
+C|277411|46|M|Ralf Träskman|46, IT-tekniker
+C|277412|38|M|Daniel Ahlin|38, Verksamhetscontroller
+C|277413|37|M|Marcus Andersson|38, Egenföretagare
+C|277414|33|M|David Karlsson|34, Entreprenör
+C|277415|40|K|Marie Falestål|40, Butikschef
+C|277416|37|M|Peter Olofsson|37, Avdelningschef
+C|277417|83|M|Roland Eriksson|83, Pensionär
+C|277418|66|M|Sören Elfving|67, Konsult
+C|75392|59|M|Ingvar Jonsson|Företagare, Sala
+C|75393|46|M|Magnus Edman|Trädgårdsarbetare, Sala
+C|75394|55|K|Louise Eriksson|Egenföretagare, Sala
+C|75395|43|K|Ragnhild Jansson|
+C|75396|41|M|Emil Göransson|verkstadschef
+C|75397|27|M|Joel Liljekvist|studerande
+C|75398|25|M|Andreas Andersson|lastbilselektriker
+C|75399|70|M|Arne Engström|marknadschef
+C|75400|64|K|Carin Engström|Distriktssköterska, Sala
+C|75401|73|M|Sverre Lindqvist|pensionär
+C|75402|80|M|Ragge Jagero|pensionär
+C|75403|63|K|Liisa Juthberg|
+C|75404|63|K|Barbro Nyberg|
+C|75406|44|M|Restem Shikho|röntgensjuksköterska
+C|75407|44|K|Saji Hedvall Kalayil|
+C|75408|74|M|Hans Gehlin|pensionär
+C|75409|62|M|Arne Eriksson|mark/anläggningsarbetare
+C|16590|44|K|Åsa Forss|44, hästskötare, Ransta
+C|16576|48|K|Johanna Ritvadotter|49, f d teaterarbetare, Sala
+C|16760|67|M|Alberto Castellanos|67, pensionär, Sala
+C|16585|59|K|Maria Arvidsson|59, förskollärare, Sala
+C|80396|55|K|Eva Kampman|55, Varmsätra
+C|57591|49|M|Roger Forss|49, Ransta
+C|57592|56|K|Nishta Hassan|56, Sala
+C|57593|65|M|Sven-Erik Undhagen|65, Sala
+C|80400|60|K|Gunilla Fridemark|60, Sala
+C|16747|58|K|Bodil Hildemar|58, administratör, Sala
+C|57596|60|K|Eva Castellanos|60, Kappalbo
+C|57597|56|K|Lotta Johansson Arnqvist|56, Sala

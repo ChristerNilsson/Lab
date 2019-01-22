@@ -1,8 +1,129 @@
-2|28407|28408|28409|28410|28411|28412|28413|28414|28415|28416|28417|28418|28419|28420|28421|28422|28423|28424|28425|28426|28427|28428|28430|28431|28432|28433|28434|28435|28436|28437|28438|28439|28440|28441|28442|28443|28444|28445
-4|57886|58652|57900|57895|73930|73931|73932|73933
-68|193176|193177
-3|28755|28756|28757|28758|28759
-55|122962|124287|123554|124289
-1|26511|64170|64171|64172|64173|64174|64175|64176
-110|72623|74679|74680|74681|74682|74683|74684
-5|148042|148043|49067|148045|148046|148047|148048|148049|148050|148051|148052|49069|148054|148055|148056|148057|148058|148059|148060|148061|148062|148063|148064|148065|148066|148067|148068|148069|148070|148071|148072|148073|148074|148075|148076|148077|148078|148079|148080|148081|148082
+T|Degerfors
+A|2|28407|28408|28409|28410|28411|28412|28413|28414|28415|28416|28417|28418|28419|28420|28421|28422|28423|28424|28425|28426|28427|28428|28430|28431|28432|28433|28434|28435|28436|28437|28438|28439|28440|28441|28442|28443|28444|28445
+A|4|57886|58652|57900|57895|73930|73931|73932|73933
+A|68|193176|193177
+A|3|28755|28756|28757|28758|28759
+A|55|122962|124287|123554|124289
+A|1|26511|64170|64171|64172|64173|64174|64175|64176
+A|110|72623|74679|74681|74682|74683|74684
+A|5|148042|148043|49067|148045|148046|148047|148048|148049|148050|148051|148052|49069|148054|148055|148056|148057|148058|148059|148060|148061|148062|148063|148064|148065|148066|148067|148068|148069|148070|148071|148072|148073|148074|148075|148076|148077|148078|148079|148080|148081|148082
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|28407|54|M|Muris Beslagic|54 år, Degerfors
+C|28408|31|K|Johanna Svärd|30 år, Degerfors
+C|28409|62|M|Franz Maretta|62 år,Degerfors
+C|28410|58|K|Carina Sätterman|58 år,Degerfors
+C|28411|68|M|Örjan Samuelsson|68 år,Degerfors
+C|28412|69|K|Marianne Högberg|69 år, Degerfors
+C|28413|47|M|Patrik Renberg|47 år,Degerfors
+C|28414|57|K|Jeannette Rasko|57 år,Degerfors
+C|28415|69|M|Kent Gustafsson|69 år, Degerfors
+C|28416|54|K|Marina Åslund|54 år,Degerfors
+C|28417|70|M|Lennart Johansson|70 år,Degerfors
+C|28418|19|K|My Fröberg|19 år,Degerfors
+C|28419|62|M|Stig Hallstensson|62 år,Svartå
+C|28420|53|K|Anneli Granath-Öberg|53 år,Degerfors
+C|28421|56|M|Palle Hansen|55 år,Degerfors
+C|28422|69|K|Berit Lindqvist-Almen|69 år,Svartå
+C|28423|65|M|Fred Kiberu Mpiso|65 år, Degerfors
+C|28424|69|K|Ella Jansson|69 år,Degerfors
+C|28425|73|M|Lars-Erik Karlsson|73 år,Degerfors
+C|28426|70|K|Mary-Anne Landberg|70 år,Degerfors
+C|28427|60|M|Ove Gunnarsson|60 år,Degerfors
+C|28428|28|K|Felicia Nordqvist|28 år,Degerfors
+C|28430|40|K|Jenny Kron|40 år,Degerfors
+C|28431|66|M|Christer Larsson|66 år,Degerfors
+C|28432|74|K|Britt-Marie Svennberg|74 år,Degerfors
+C|28433|71|M|Abbas ParashPar|71 år,Degerfors
+C|28434|46|K|Cecilia Wikander|46 år,Degerfors
+C|28435|71|M|Benny Christensen|71 år,Degerfors
+C|28436|74|K|Antia Birath|74 år,Svartå
+C|28437|68|M|Alf Karlsson|68 år,Svartå
+C|28438|58|K|Laila Hirscher|58 år,Degerfors
+C|28439|63|M|Birger Vikander|63 år,Degerfors
+C|28440|58|K|Annika Blomgren|58 år,Åtorp
+C|28441|22|M|Karim Hosseini|22 år,Degerfors
+C|28442|38|M|Pär Norstedt|38 år,Degerfors
+C|28443|55|M|Stefan Öberg|55 år,Degerfors
+C|28444|55|M|Örjan Andersson|56 år,Degerfors
+C|28445|53|M|Muhammad Wilio|53 år,Degerfors
+C|57886|62|K|Birgitta Höijer|62 år, kundrådgivare, Degerfors
+C|58652|57|K|Ann Alvenfors|57 år, chaufför, Åtorp
+C|57900|41|M|Tommy Karlsson|41 år, industrimekaniker
+C|57895|41|K|Marléne Bråtner|41 år, kurator, Degerfors
+C|73930|62|K|Christina Larsson|lärare
+C|73931|74|M|Per-Gunnar Bråtner|lantbrukare
+C|73932|71|M|Karl Lichtermann|sågverksarbetare
+C|73933|42|M|Morgan Bråtner|lantbrukare
+C|193176|41|M|Jan Johansson|Undersköterska, Degerfors
+C|193177|50|K|Olga Svensson|Lärare, Strömtorp
+C|28755|70|M|Lars-Gunnar Hedenquist|copywriter
+C|28756|73|M|Leif Spånbo|konsult
+C|28757|66|M|Björn Björkroth|kvalitetstekniker
+C|28758|69|M|Göran Bäckelin|egenföretagare
+C|28759|79|M|Ulf Örtegren|tandläkare
+C|122962|39|K|Sofie Nordenhaag Law|39 år, skolbibliotekarie, Degerfors
+C|124287|62|K|Anette Jönsson|revisor
+C|123554|79|M|Björn Nordenhaag|79 år, ingenjör, Degerfors
+C|124289|78|M|Lasse Lidén|skribent
+C|26511|40|K|Anna Nordqvist|entreprenör, Degerfors
+C|64170|49|M|Johan Nordström|Åtorp
+C|64171|76|M|Björn Berglund|Åtorp
+C|64172|70|M|Robert Östberg|Åtorp
+C|64173|61|K|Ann Kristin Pettersson|Svartå
+C|64174|64|M|Lars Åke Bergsten|Svartå
+C|64175|34|M|Christian Rosqvist|Åtorp
+C|64176|71|K|Britt-Louise Hoberg|Degerfors
+C|72623|69|M|Peter Nyström|68 år, Pensionär, Degerfors
+C|74679|49|M|Thomas Ågren|49 år, Egenföretagare, Degerfors
+C|74681|54|M|Dan Brunzell|53 år, Småföretagare, Degerfors
+C|74682|56|K|Marie Hellström|55 år, Undersköterska, Degerfors
+C|74683|55|M|Christer Arvidsson|55 år, Egen företagare, Karlskoga
+C|74684|39|M|Robert Brattén|42 år, Småföretagare, Degerfors
+C|148042|64|M|Peter Pedersen|Kommunalråd, Degerfors
+C|148043|63|K|Anita Bohlin Neuman|Kommunalråd, Degerfors
+C|49067|38|M|Kim Bäckström|Kommunalråd, Degerfors
+C|148045|63|K|Cathrine Pedersen|Barnmorska, Degerfors
+C|148046|57|M|Torbjörn Holm|Socionom, Degerfors
+C|148047|65|K|Stina Borjo|Förskollärare, Degerfors
+C|148048|67|M|Roland Halvarsson|f.d. Kommunalråd, Degerfors
+C|148049|65|K|Monica Littorin|Socionom, Degerfors
+C|148050|65|M|Jan Ask|f.d. Redaktör, Degerfors
+C|148051|39|K|Caisa Arvidsson|Lärare, Degerfors
+C|148052|61|M|Eje Johansson|Lärare, Degerfors
+C|49069|56|K|Tuula Bäckman|Undersköterska, Degerfors
+C|148054|53|M|Per-Olow Linder|Metallarbetare, Degerfors
+C|148055|69|M|Gertowe Thörnros|Lantbrukare, Knutsbol
+C|148056|49|K|Anneli Mylly|Fritidsledare,Degerfors
+C|148057|40|M|Markus Sukuvaara|Säljare, Degerfors
+C|148058|32|M|Simon Petersson|Hantverkare, Åtorp
+C|148059|50|K|Lena Ekelöf|Stödassistent, Degerfors
+C|148060|63|M|Lars Littorin|Metallarbetare, Svartå
+C|148061|45|M|Juhani Sihvo|Orderadministratör, Degerfors
+C|148062|65|K|Lotta Nordahl Reimers|Barnskötare, Degerfors
+C|148063|62|K|Lena Carlsson Littorin|Mellanstadielärare, Svartå
+C|148064|30|M|Johan Linder|Lokförare, Degerfors
+C|148065|38|K|Lina Gustafson|Kock, Degerfors
+C|148066|67|M|Leif Grönberg|Pensionär, Degerfors
+C|148067|55|K|Marie Enarsdotter|Socionom, Degerfors
+C|148068|68|M|Mauri Sukuvaara|Pensionär, Degerfors
+C|148069|66|K|Elisabeth Sedeborn|Socionom, Degerfors
+C|148070|60|M|Jörgen Neuman|IT-samordnare, Degerfors
+C|148071|35|K|Mimmi Fischer|Sjuksköterska, Åtorp
+C|148072|66|M|Bengt Arvidsson|Lärare, Degerfors
+C|148073|50|K|Virpi Ljung|Lokalvårdare/vaktmästare, Degerfors
+C|148074|36|M|Martin Andreasson|Hantverkare, Åtorp
+C|148075|51|M|Peter Glavå|Servicepersonal/vaktmästare, Degerfors
+C|148076|27|K|Hannah Linder|Ämneslärare, Degerfors
+C|148077|62|M|Göran Myhrman|Valsverksarbetare, Degerfors
+C|148078|53|K|Ulrica Höglander Andersson|Lokalvårdare, Degerfors
+C|148079|62|M|Per-Olov Roos|Metallarbetare, Degerfors
+C|148080|63|K|Annmarie Lööv|Undersköterska, Knutsbol
+C|148081|63|M|Bo Qvist|Förtidspensionär, Degerfors
+C|148082|67|M|Tomas Nermark|VA-tekniker, Degerfors

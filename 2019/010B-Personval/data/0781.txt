@@ -1,10 +1,193 @@
-510|395862|395863|395864|395865|395866|395867|395868|395869|395940
-2|229110|229111|229112|229113|229114|229115|229116|229117|229118|229119|229120|229121|229122|229123|229124|229125|229126|229127|229128|229129|229130|229131|229132|229133|229134|229135|229136|229137|229138|229139|229140|229141|229142
-4|153912|153913|153914|153915|153916|153917|153918|153919|153920|153921|153922|153923|153924|153925|153926|153927|153928|153929|153930|153931|153932|153933|153934|153935|153936|153937|153938|153939
-638|304652
-68|336152|336153|336154|336155|336156|336157|336158|336159
-3|300205|300206|300212|300208|356439|300201|300213|356442|356443|356444|356445|356446|356447|356448|356449|356450|356451|356452
-55|247437|247438|247439|247440|247441
-1|46167|46029|45926|45928|46171|45947|46173|45913|46175|46176|46177|46178|46179|46180|46181|46182|46183|46048|46185|46186|46187|46188|46189|46190|46191|46053|46193|46194
-110|46481|46482|46483|46484|46485|46486|46487|46488|46489|46499|46500|46501|46502|46503|46504|46505|46506|46507|46508
-5|104862|246804|246054|104935|246807|104867|246068|104942|246811|246812|246813|246814|246815|246816|246817|246818|246819|246820|246822|246823|246824|246825|246826
+T|Ljungby
+A|510|395862|395863|395864|395865|395866|395867|395868|395869|395940
+A|2|229110|229111|229112|229113|229114|229115|229116|229117|229118|229119|229120|229121|229122|229123|229124|229125|229126|229127|229128|229129|229130|229131|229132|229133|229134|229135|229136|229137|229138|229139|229140|229141|229142
+A|4|153912|153913|153914|153915|153916|153917|153918|153919|153920|153921|153922|153923|153924|153925|153926|153927|153928|153929|153930|153931|153932|153933|153934|153935|153936|153937|153938|153939
+A|638|304652
+A|68|336152|336153|336154|336155|336156|336157|336158|336159
+A|3|300205|300206|300212|300208|356439|300201|300213|356442|356443|356444|356445|356446|356447|356448|356449|356450|356451|356452
+A|55|247437|247438|247439|247440|247441
+A|1|46167|46029|45926|45928|46171|45947|46173|45913|46175|46176|46177|46178|46179|46180|46181|46182|46183|46048|46185|46186|46187|46188|46189|46190|46191|46053|46193|46194
+A|110|46481|46482|46483|46484|46485|46486|46487|46488|46489|46499|46500|46501|46502|46503|46504|46505|46506|46507|46508
+A|5|104862|246804|246054|104935|246807|104867|246068|104942|246811|246812|246813|246814|246815|246816|246817|246818|246819|246820|246822|246823|246824|246825|246826
+B|510|ALTER|Alternativet
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|638|KLP|Klassiskt liberala partiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|395862|73|M|Roland Johansson|
+C|395863|74|K|Jonna Nielsen|
+C|395864|55|K|Maida Dzanic|
+C|395865|55|K|Anne-Charlotte Odén|
+C|395866|80|M|Peter Gera|
+C|395867|50|K|Madeleine Richthoff|
+C|395868|60|K|Susanne Stjerneklev|
+C|395869|57|M|Mikael Eklund|
+C|395940|53|M|Jonas Richthoff|
+C|229110|51|K|Anne Karlsson|Socionom, 51, Ljungby
+C|229111|54|M|Conny Simonsson|Kommunalarbetare, 54, Ljungby
+C|229112|20|K|Petra Ruzsa-Pal|20, projektledare, Ljungby
+C|229113|57|M|Magnus Carlsson|57, metallarbetare, Ljungby
+C|229114|30|K|Emma Johansson Gauffin|Gymnasielärare, 30, Ljungby
+C|229115|60|M|Håkan Bengtsson|60, montör, Ljungby
+C|229116|50|K|Liselotte Åhlander|50, undersköterska, Angelstad
+C|229117|38|M|Matija Rafaj|Egenföretagare, 38, Agunnaryd
+C|229118|42|K|Carolin Holmqvist-Henrysson|43, vårdare, Angelstad
+C|229119|50|M|Malekera Vital|51, agronom, Ljungby
+C|229120|43|K|Pia Johansson|43, textilslöjdslärare, Ljungby
+C|229121|78|M|JanEwert Johansson|78, pensionär, Ljungby
+C|229122|43|K|Ingela Rosén|43, lokalvårdare, Lidhult
+C|229123|59|M|Tomas Nielsen|59, metallarbetare, Ljungby
+C|229124|65|K|Margareta Andersson|66, löneekonom, Ljungby
+C|229125|25|M|Rashad Alasaad|26, språkstöd/utvecklare, Ljungby
+C|229126|53|K|Susanne Roubert|53, vårdare, Ljungby
+C|229127|40|M|Mattias Wanderoy|41, målare/yrkeslärare, Ljungby
+C|229128|74|K|Ulla-Britt Storck|Pensionär, 73, Ljungby
+C|229129|41|M|Jorge Rodriguez|41, ungdomspedagog, Ljungby
+C|229130|69|K|Gun Lindell|69, pensionär, Kvänslöv
+C|229131|44|K|Anita Wanderoy|44, förskollärare, Angelstad
+C|229132|60|M|Lars-Åke Långh|61, produktionsplanerare, Ljungby
+C|229133|50|K|Ann-Charlott Henrysson|50, metallarbetare, Ljungby
+C|229134|72|M|Göran Fransson|72, pensionär, Ljungby
+C|229135|54|K|Anette Bjers Gustavsson|Undersköterska, 54, Ryssby
+C|229136|43|M|Joakim Holmquist|43, lastbilschaufför, Angelstad
+C|229137|53|K|Piroska Ruzsa-Pal|53, barnskötare, Ljungby
+C|229138|66|M|Paul Kowalski|66, pensionär, Lagan
+C|229139|50|K|Christina Bertilfelt|Barnskötare, 50, Ljungby
+C|229140|47|M|Lars-Magnus Larsson|48, metallarbetare, Angelstad
+C|229141|51|M|Jerry Rogerstam|51, konsult, Vittaryd
+C|229142|59|M|Ulf Carlsson|60, metallarbetare, Ljungby
+C|153912|56|M|Lars-Ove Johansson|Skogs o Lantbrukare, Lagan
+C|153913|61|M|Kent Danielsson|60, Produktionsledare, Ljungby
+C|153914|53|K|Anneli Ahlqvist|54, Fritidspedagog, Ryssby
+C|153915|66|M|Karl-Gustaf Sundgren|67, Egenföretagare, Traryd
+C|153916|29|K|Jenny Anderberg|29, Butikssäljare, Lagan
+C|153917|56|K|Carina Bengtsson|Kommunalråd, Agunnaryd
+C|153918|64|M|Jan-Erik Andersson|64, Yrkeslärare, Vittaryd
+C|153919|60|K|Maryana Frisk-Holst|61, Egenföretagare, Lagan
+C|153920|20|M|Theodor Nielsen|20, Elmontör, Ljungby
+C|153921|52|K|Marie Karlsson|53, Vårdlärare, Ryssby
+C|153922|68|M|Arne Johansson|68, Pensionär, Lagan
+C|153923|56|K|Judit Svensson|Egenföretagare, Lagan
+C|153924|57|M|Anders Jannesson|58, Ekonom, Bolmsö
+C|153925|70|K|Gunnel Nilsson|70, Pensionär, Agunnaryd
+C|153926|57|M|Mikael Bengtsson|57, Egenföretagare o Skogsbonde, Annerstad
+C|153927|38|K|Linda Hellström|38, Lärare, Ljungby
+C|153928|20|M|Alexander Olsson|20, Angelstad
+C|153929|69|M|Jan-Erik Oxelborn|69, Pensionär, Vrå
+C|153930|20|M|Oscar Holmqvist|20, Elmontör, Angelstad
+C|153931|39|K|Jennie Uleskog|40, Lantbrukare, Kånna
+C|153932|67|M|Lennart Hansson|67, Pensionär, Angelstad
+C|153933|31|K|Sandra Carlsson|30, Butiksanställd, Bolmsö
+C|153934|55|M|Mikael Johansson|55, Trädgårdsarbetare, Hamneda
+C|153935|48|K|Susanne Nilsson|48, Elevassistent, Lagan
+C|153936|35|K|Elin Karlsson|35, Administratör, Södra Ljunga
+C|153937|47|M|Lewend Bakir|47, Ungdomspedagog, Dörarp
+C|153938|61|M|Anders Pettersson|60, Fastighetsskötare, Bolmsö
+C|153939|51|K|Irene Olofsson|Systemvetare, Bolmsö
+C|304652|56|K|Maria Alena Wedebrand|Hamneda. 56 år. Leg. Sjukgymnast
+C|336152|36|K|Susanna Tingbratt|Högskoleingenjör, Ljungby
+C|336153|51|K|Rut Björkström|Undersköterska, Ljungby
+C|336154|74|M|Bengt Carlsson|Företagare, Ljungby
+C|336155|63|M|Ingvar Palm|Företagare, Dörarp
+C|336156|73|M|Lennart Olsson|F.d. Företagare, Lagan
+C|336157|38|M|Josef Tingbratt|Projektledare, Ljungby
+C|336158|54|K|Lotta Ericsson|Undersköterska, Lagan
+C|336159|66|M|Percy Bergman|Musiklärare, Ljungby
+C|300205|60|M|Lars Solling|Ljungby
+C|300206|53|M|Tomas Johansson|Ljungby
+C|300212|40|K|Sabina Dzonlic|Ljungby
+C|300208|65|M|Carl-Gustav Arvidsson|Ljungby
+C|356439|59|K|Susann Diesner|personlig assistent, Ljungby
+C|300201|48|K|Maria Grans|Ljungby
+C|300213|72|M|Inge Nyberg|Ljungby
+C|356442|62|M|Hans Holmquist|skolområdeschef, Ljungby
+C|356443|51|M|Jan Hagfoss|gymnasielärare, Ljungby
+C|356444|40|M|Mattias Nilsson|samordnare, Ljungby
+C|356445|33|K|Mahdiyeh Kohnehchian|ekonom, Ljungby
+C|356446|26|M|Oskar Solling|statsvetare, Angelstad
+C|356447|53|M|Abdelkader Benchelh|ungdomspedagog, Ljungby
+C|356448|35|K|Maria Ingemansson|administratör, Bolmsö
+C|356449|39|M|Bora Mudahama|sociolog, Ljungby
+C|356450|69|M|Jim Vong|socialsekreterare, Ljungby
+C|356451|73|K|Gunilla Hult|psykolog, Ljungby
+C|356452|69|K|Bodil Ramshammar|pensionär, Angelstad
+C|247437|65|M|Christer Ivarsson|65 år, Ekonom, Ljungby
+C|247438|66|K|Elisabeth Lindström-Johannesson|66 år, Rektor/förskolechef, Lagan
+C|247439|66|M|Tommy Göransson|Civilingenjör, Lagan
+C|247440|65|M|Stefan Karlsson|VVS-montör, Lagan
+C|247441|77|M|Kjell Jormfeldt|Leg psykolog, Lidhult
+C|46167|51|M|Magnus Gunnarsson|51 år, Ljungby
+C|46029|66|K|Ann-Charlotte Wiesel|66 år, Förtroendevald, Ljungby
+C|45926|47|M|Marcus Walldén|47 år, Insatsledare, Ljungby
+C|45928|52|K|Gunilla Åström|52 år, Undersköterska, Lidhult
+C|46171|68|K|Ulla Hansson|68 år, Ljungby
+C|45947|22|K|Tilda Ragnarsson|22 år, Säljare, Ljungby
+C|46173|68|M|Bo Ederström|68 år, Ljungby
+C|45913|48|M|Thomas Ragnarsson|48 år, Ambulanssjuksköterska, Ljungby
+C|46175|57|M|Frederik Svärd|57 år, Ljungby
+C|46176|62|M|Lars Nordqvist|62 år, Lagan
+C|46177|19|K|Alma Svensson|19 år, Vrå
+C|46178|72|M|Stefan Bramstedt|72 år, Torpa
+C|46179|76|M|Thomas Jeppsson|76 år, Ljungby
+C|46180|59|M|Mats Karlsson|59 år, Annerstad
+C|46181|62|K|Ann-Kristin Petersson|62 år, Ljungby
+C|46182|70|M|Peter Berg|70 år, Ljungby
+C|46183|42|M|Daniel Svensson|42 år, Ljungby
+C|46048|34|K|Josefine Jernberg|34 år, Medicinsk sekreterare, Ljungby
+C|46185|52|K|Cecilia Löf|52 år, Ljungby
+C|46186|38|M|Joakim Wiesel|38 år, Ljungby
+C|46187|71|M|Bert Ove Orvnäs|71 år, Lidhult
+C|46188|24|M|Herman Nordqvist|24 år, Ljungby
+C|46189|43|M|Jimmie Nilsson|43 år, Ljungby
+C|46190|45|M|Johan Ederström|45 år, Ljungby
+C|46191|42|K|Erica Frohlund|42 år, Ljungby
+C|46053|27|K|Margareta Baecklund|27 år, Tandläkare, Ljungby
+C|46193|80|M|Jarl Gummesson|80 år, Vrå
+C|46194|70|M|Jan Sahlin|70 år, Tannåker
+C|46481|44|M|Krister Salomonsson|44 år, Industriarbetare, Torpa
+C|46482|64|M|Jan Lorentzon|64, Södra Ljunga, Montör
+C|46483|52|K|Melena Jönsson|Screentryckare, Ljungby
+C|46484|47|K|Martina Ericsson|47 år, Vårdare, Angelstad
+C|46485|39|M|Henrik Pettersson|39, Ryssby, VVS-montör
+C|46486|32|M|Dick Andersson|32 år, Linjemontör, Angelstad
+C|46487|21|M|Pär Augustsson|21 år, Montör, Annerstad
+C|46488|65|K|Doris Nickel|65 år, Undersköterska, Ljungby
+C|46489|32|M|Mats Josefsson|32 år, Lageransvarig, Lagan
+C|46499|29|K|Ellinor Jönsson|29, Lagan, Säljare
+C|46500|74|M|Rolf Kimnäs|74, Lidhult, fd Tekniklärare
+C|46501|66|M|Torgny Elmén|66, Ryssby, fd Industriarbetare
+C|46502|72|M|Lars Lindström|72, Ljungby, fd Tryckare
+C|46503|70|M|Leif Rogerstam|70, Ljungby, fd Chaufför
+C|46504|71|M|Lars Fröberg|71, Angelstad, fd Besiktningstekniker
+C|46505|72|M|Bernt Sjödahl|72 år, Egenföretagare, Hamneda
+C|46506|63|M|Christer Larsson|63, Vrå, fd Spelbutiksinnehavare
+C|46507|45|M|Anton Gera|46, Ljungby, Entreprenör
+C|46508|50|M|Rikard Vesterlund|51 år, Chaufför, Kånna
+C|104862|62|K|Kerstin Wiréhn|62 år, socionom, Ljungby
+C|246804|42|M|Christian Johansson|42 år, Kånna
+C|246054|34|K|Saga Sunniva Bergh|34 år, lärare, Ljungby
+C|104935|53|M|Per Åberg|54 år, Ljungby
+C|246807|73|K|Kiki Sandström|73 år, Ljungby
+C|104867|42|M|Morgan Karlsson|42 år, ledsagare, Ljungby
+C|246068|74|K|Margareta Lundblad|74 år, pensionär, Ljungby
+C|104942|72|M|Vinko Stifanic|72 år, pensionär, Ljungby
+C|246811|68|K|Maj-Britt Claesson|68 år, Lagan
+C|246812|57|M|Tony Bern|57 år, Ljungby
+C|246813|57|K|Fata Mlivic|57 år, Kånna
+C|246814|48|M|Peter Nielsen|48 år, Ljungby
+C|246815|31|K|Jenny Ahonen|31 år, Biskopsvara
+C|246816|30|M|Peter Malmberg|30 år, Hölminge
+C|246817|37|K|Linda Svensson|38 år, Ljungby
+C|246818|32|M|Emil Göransson|33 år, Biskopsvara
+C|246819|51|K|Bozana Foltin|52 år, Ljungby
+C|246820|72|M|Björn Gullander|72 år, Ljungby
+C|246822|58|K|Eva Nykvist Andersson|59 år, Hölminge
+C|246823|39|K|Belinda Karlsson|39 år, Ljungby
+C|246824|70|M|Hans Svensson|71 år, Annerstad
+C|246825|49|K|Marie-Louise Simonsson|49 år, Ljungby
+C|246826|30|K|Sonja Osap|30 år, Ljungby

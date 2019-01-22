@@ -1,8 +1,122 @@
-2|192121|196780|192998|196782|196783|196784|193020|196786|193025|193019|196789|196790|196791|193009|196793|196794|196795|196796|196797|196798|196799|196800|196801|196802|196803
-4|8545|70804|55745|70806|70807|70808|70809|70810|55733|70812|70813|70814|70815|70816|70817|70818
-742|439590|439591|439592|439593|439594|439595
-68|171950|41295|41292|82783|82784|82785|82786|82787|82788|82789|82791|82792|82793
-3|60876|67656|67657|67658|67659|67660|67661|67662|67663|67664|67665|67666
-1|229655|7792|229657|229658|229659|229660|229661|229662|229663|229664|229665
-110|122788|122789|122790|122791|122792|122793
-5|366412|377128|377129|375343|377131|377132|437457|377133|377134|377135|377136|377137|377138|377139|377140|377141
+T|Storuman
+A|2|192121|196780|192998|196782|196783|196784|193020|196786|193025|193019|196789|196790|196791|193009|196793|196794|196795|196796|196797|196798|196799|196800|196801|196802|196803
+A|4|8545|70804|55745|70806|70807|70808|70809|70810|55733|70812|70813|70814|70815|70816|70817|70818
+A|742|439590|439591|439592|439593|439594|439595
+A|68|171950|41295|41292|82783|82784|82785|82786|82787|82788|82789|82791|82792|82793
+A|3|60876|67656|67657|67658|67659|67660|67661|67662|67663|67664|67665|67666
+A|1|229655|7792|229657|229658|229659|229660|229661|229662|229663|229664|229665
+A|110|122788|122789|122790|122791|122792|122793
+A|5|366412|377128|377129|375343|377131|377132|437457|377133|377134|377135|377136|377137|377138|377139|377140|377141
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|742|SKL|Kommunlistan
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|192121|57|K|Kristina Fredriksson|57 år, Utbildningskonsulent, Storuman
+C|196780|43|M|Rickard From|43 år, Storuman
+C|192998|62|K|Karin Malmfjord|62 år, Arbetare, Tärnaby
+C|196782|41|M|Fredrik Boström|41 år, Storuman
+C|196783|26|K|Kajsa Forsberg|26 år, Storuman
+C|196784|63|M|Peter Åberg|62 år, Åskilje
+C|193020|66|K|Gunilla Lundgren|66 år, Pensionär, Storuman
+C|196786|67|M|Christian Andersson|67 år, Hemavan
+C|193025|61|K|Maria Gardfall|61 år, Ekonom, Storuman
+C|193019|63|M|Bo-Anders Johansson|62 år, Socionom, Ankarsund
+C|196789|26|K|Emma Eriksson|26 år, Storuman
+C|196790|57|M|Kurt Forsberg|57 år, Klippen
+C|196791|64|K|Gull-Britt Larsson|64 år, Boksjön
+C|193009|61|M|Sven-Åke Pennling|61 år, Föreståndare, Kaskeluokt
+C|196793|54|K|Elisabeth Olofsson|54 år, Storuman
+C|196794|68|M|Nils-Erik Dahlberg|68 år, Ström
+C|196795|51|K|Ann-Christine Jonsson|51 år, Laisbäck
+C|196796|55|M|Gunnar Andersson|55 år, Hemavan
+C|196797|74|K|Marietta Malmbo|76 år, Strömsund
+C|196798|65|M|Kent Eriksson|65 år, Åskilje
+C|196799|79|K|Barbro Lindgren|79 år, Tärnaby
+C|196800|36|M|Ninos Tomas|36 år, Storuman
+C|196801|57|M|Leif Karlsson|57 år, Slussfors
+C|196802|74|M|Bengt Dalemalm|76 år, Strömsund
+C|196803|66|M|Lennart Cohen|66 år, Övre Björknäs
+C|8545|49|M|Tomas Mörtsell|49 år, Kommunalråd, Storuman
+C|70804|33|K|Jessica Bergfors|33 år, Hemavan
+C|55745|52|M|Patrik Persson|52 år, Företagare, Storuman
+C|70806|36|K|Therese Granström|36 år, Grundfors
+C|70807|46|M|Anders Persson|46 år, Tärnaby
+C|70808|26|K|Klara Olofsson|26 år, Blaiken
+C|70809|52|M|Peder Wiklund|52 år, Storuman
+C|70810|49|K|Annika Mörtsell|49 år, Kaskeloukt
+C|55733|74|M|Jarl Folkesson|74 år, Civilekonom, Tärnaby
+C|70812|43|K|Eva-Sofie Jansson|43 år, Storuman
+C|70813|77|M|Jan-Elof Bergström|77 år, Laxnäs
+C|70814|62|K|Susanne Hansson|62 år, Tärnaby
+C|70815|72|M|Pereric Stenvall|72 år, Pauträsk
+C|70816|36|K|Sandra Holmner|36 år, Storuman
+C|70817|58|M|Mikael Fredriksson|58 år, Blaiken
+C|70818|73|K|Ella-Pia Lönnback|73 år, Slussfors
+C|439590|63|M|Erold Westman|63 år
+C|439591|65|M|Ronny Nyström|65 år
+C|439592|60|M|Håkan Fjell|60 år
+C|439593|62|M|Lars-Rune Arvidsson|62 år
+C|439594|57|M|Leif Samuelsson|57 år
+C|439595|65|M|Jerker Bergström|65 år
+C|171950|59|M|Roland Gustavsson|projektledare, Storuman
+C|41295|46|K|Ingela Forsman|yrkesförare, Barsele
+C|41292|60|M|Allan Forsberg|lärare, Tärnaby
+C|82783|47|K|Therese Mörtzell|socionom, Storuman
+C|82784|59|M|Per-Daniel Liljegren|projektledare, Storuman
+C|82785|62|K|Eva-Marie Stabbfors|undersköterska, Hemavan
+C|82786|38|M|Daniel Bergström|enhetschef, Storuman
+C|82787|50|K|Ulrika Andersson|arbetsledare, Gunnarn
+C|82788|51|M|Emanuel Arnfjell|vaktmästare, Storuman
+C|82789|65|K|Britt-Inger Ärlebrandt|senior, Långsjöby
+C|82791|77|K|Barbro Mörtzell|senior, Storuman
+C|82792|78|M|Bengt Andersson|senior, Gunnarn
+C|82793|82|M|Tom Persson|senior, Gunnarn
+C|60876|50|M|Hans-Peter Carlsson|Tärnaby
+C|67656|37|K|Ulla-Maria Åkerblom|Storuman
+C|67657|51|M|Per-Erik Sahlman|Driftstekniker,Stensele
+C|67658|52|K|Catarina Samuelsson|Fritidsgårdsföeståndare,Storuman
+C|67659|41|M|Karl-Anders Åkerblom|Egenföretagare,Forsvik
+C|67660|48|K|Anna Cederlund|Sjuksköterska,Hemavan
+C|67661|63|M|Johnny Holmgren|Terminalchef,Forsvik
+C|67662|78|M|Leif Semrén|Pensionär,Storuman
+C|67663|72|M|Bengt Johansson|Pensionär,Storuman
+C|67664|25|M|Alexander Tornberg|Hantverkare,Storuman
+C|67665|39|M|Reine Håkansson|Egenföretagare,Storuman
+C|67666|54|M|Joachim Tellström|Snickare,Tärnaby
+C|229655|58|M|Ulf Vidman|58, hotellchef, Tärnaby
+C|7792|46|K|Veronika Håkansson|46, ekonom, Storuman
+C|229657|75|M|Olle Wärnick|75, fd officer, Gunnarn
+C|229658|65|K|Eva Banstorp|65, fd företagare, Blaiken
+C|229659|66|M|Christer Bergfors|66, företagare, Slussfors
+C|229660|54|K|Karin Holmner|54, tjänsteman, Gunnarn
+C|229661|38|M|Michael Nederberg|38, arbetsledare, Tärnaby
+C|229662|74|K|Monica Beije|74, Barsele
+C|229663|68|M|Robin Ramstedt|68, fd åkeriägare, Skarvsjöby
+C|229664|78|K|Gun-Brith Stenvall|78, Storuman
+C|229665|73|K|Elisabeth Wärnick|73, Gunnarn
+C|122788|73|M|Bengt-Erik Åkebrand|Storuman, 73
+C|122789|66|M|Elving Karlsson|Slussfors, 65
+C|122790|67|K|Marie Berglund|Storuman, 67
+C|122791|73|M|Ali Rubertsson|Storuman, 72
+C|122792|58|K|Laila Löfdahl|Stensele, 57
+C|122793|44|M|Jonas Hestner|Slussfors, 44
+C|366412|35|M|Daniel Johansson|35, sjuksköterska, Storuman
+C|377128|36|K|Linda Glasin|36 år, receptionist/vårdadministratör Storuman
+C|377129|38|M|Torkel Stångberg|39 år, egenföretagare, Vallenäs
+C|375343|29|K|Emilia Ronnhed|28, boendestödjare, Storuman
+C|377131|62|M|Mats Eliasson|62 år, tågklarerare, Storuman
+C|377132|41|M|Johan Karlberg|41 år, enhetschef, Tärnaby
+C|437457|53|K|Ingela Viktorsson|52 år, boendestödjare, Storuman
+C|377133|60|M|Krister Näslund|60 år, elevassistent, Storuman
+C|377134|42|M|Marcus Glasin|42 år, vårdbiträde, Storuman
+C|377135|49|K|Erika Rönnholm|49 år, Storuman
+C|377136|56|K|Irene Walfridsson|56 år, lokalvårdare, Storuman
+C|377137|62|K|Inga Walfridsson|61 år, förskollärare, Storuman
+C|377138|37|K|Elin Eriksson|37 år, studerande, Tärnaby
+C|377139|59|K|Annika Lundin|58 år, butikssäljare, Storuman
+C|377140|64|M|Christer Johansson|64 år, pensionär, Mosekälla
+C|377141|76|M|Bengt-Göran Burman|77 år, pensionär, Tärnamo/Tärnaby

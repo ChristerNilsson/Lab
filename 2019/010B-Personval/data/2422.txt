@@ -1,6 +1,60 @@
-2|192114|196672|196673|193018|196675|193003|196677|196678|196679|193026|196681|196682|196683|196684|196685|196686|196687|196688|196689|196690
-4|55743|70705|70706|70707|70708|48818|70710|70711
-1|361248|361249|361250|361251
-1347|509134
-110|71267
-5|374897|374898|374899|374900|374901|374902|374903|374904|374905|374906|374907|374908|374909
+T|Sorsele
+A|2|192114|196672|196673|193018|196675|193003|196677|196678|196679|193026|196681|196682|196683|196684|196685|196686|196687|196688|196689|196690
+A|4|55743|70705|70706|70707|70708|48818|70710|70711
+A|1|361248|361249|361250|361251
+A|1347|509134
+A|110|71267
+A|5|374897|374898|374899|374900|374901|374902|374903|374904|374905|374906|374907|374908|374909
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1|M|Moderaterna
+B|1347||POPULISTERNA
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|192114|55|M|Fred Stövset|55 år, Arbetsförmedlare, Sorsele
+C|196672|52|K|Pia Sjöberg|52 år, Ekonom, Stensund
+C|196673|59|M|Daniel Grundström|58 år, Egen företagare, Ammarnäs
+C|193018|57|K|Katarina Lövgren|57 år, Barnskötare, Ammarnäs
+C|196675|65|M|Jan Lövgren|65 år, Pensionär, Ammarnäs
+C|193003|69|M|Bo Brydsten|69 år, Pensionär, Kraddsele
+C|196677|64|K|Viveca Lindbom|64 år, Undersköterska, Sorsele
+C|196678|68|M|Sven-Åke Nilsson|68 år, Pensionär, Blattnicksele
+C|196679|50|K|Erika F.Hedman|50 år, Barnskötare, Blattnicksele
+C|193026|73|M|Styrbjörn Lind|73 år, Pensionär, Gargnäs
+C|196681|68|K|Ulla Strömgren-Karlberg|68 år, Pensionär, Ammarnäs
+C|196682|34|M|Marcus Eriksson|34 år, Egen företagare, Ammarnäs
+C|196683|53|K|Ann Marie Fjellström|Behandlingsassistent, Sorsele
+C|196684|73|M|Lars-Göran Holmlund|73 år, Pensionär, Gargnäs
+C|196685|65|M|Melker Sjöström|65 år, Pensionär, Sorsele
+C|196686|35|M|Isak Jonsson|35 år, Undersköterska, Sorsele
+C|196687|67|M|Sven-Erik Lindbom|68 år, Undersköterska, Sorsele
+C|196688|60|M|Martin Harr|60 år, Vägmästare, Storbränna
+C|196689|67|K|Barbro Fjellner Olofsson|67 år, Pensionär, Sorsele
+C|196690|51|M|Ulrik Thureson|50 år, Egen företagare, Sorsele
+C|55743|50|K|Kristina Axelsson|50 år, Företagsutvecklare, Sorsele
+C|70705|70|M|Ingemar Johansson|
+C|70706|64|K|Carina Selbrand|
+C|70707|52|M|Jan Axelsson|
+C|70708|54|K|Nina Häreskog-Linder|
+C|48818|33|K|Alexandra Wermelin|33 år, Läkare, Sorsele
+C|70710|65|K|Maj Borg|
+C|70711|66|M|Gunnar Borg|
+C|361248|69|K|Lillian Holloway|69, Ammarnäs
+C|361249|44|M|Thomas Forsvall|44, Ammarnäs
+C|361250|38|K|Daniela Olsson|38, Sorsele
+C|361251|72|M|Rune Tovetjärn|72, Sorsele
+C|509134|48|M|Fritjof Persson|
+C|71267|34|M|Petter Nilsson|Svetsare, Umeå
+C|374897|57|M|Kjell Öjeryd|57, lantbrukare/kommunalråd, Sorsele
+C|374898|41|K|Maria Broberg|Skribent, Nedre Saxnäs
+C|374899|41|M|Urban Isaksson|Yrkesförare, Sorsele
+C|374900|65|K|Inger Stenlund|Pensionär, Blattnicksele
+C|374901|32|M|Oscar Öjeryd|Tjänsteman, Sorsele
+C|374902|59|M|Robin Fransson|Skogsarbetare, Sorsele
+C|374903|52|M|Kjellan Grundström|Spårkalle, Sorsele
+C|374904|60|M|Lennart Sjöberg|Nedre Saxnäs
+C|374905|68|K|Marita Westlund|Pensionär, Sorsele
+C|374906|68|M|Bengt Abrahamsson|Pensionär, Sorsele
+C|374907|57|M|Tord Karlsson|Skogsarbetare, Giltjaur
+C|374908|79|M|Bert Efraimsson|Pensionär, Sorsele
+C|374909|58|K|Inga-Lill Stenmark|Undersköterska, Sorsele

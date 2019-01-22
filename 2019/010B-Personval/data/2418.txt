@@ -1,8 +1,96 @@
-2|192124|193002|196509|196510|196511|193010|193017|196514|196515|196516|196517|196518|196519|196520|196521|196522|196523|196524|196525|196526|196527|193021|196529|196530|196531|196532|196533|196534|196535
-4|70627|70628|70629|70630|70631
-68|59304|70479|59305|59306
-3|60866|67451|67452|67453|67454|67455|67456|67457|67458|67459|67460|67461
-525|486232|486233|486234|486235|486236|486237|486238|486239|486240|486241|486242
-1|67759
-110|122854
-5|374592|374593|374594|374595|374596|374597|377834|374598|374599|374600|374601|374602|374603|374604|374605|374606
+T|Malå
+A|2|192124|193002|196509|196510|196511|193010|193017|196514|196515|196516|196517|196518|196519|196520|196521|196522|196523|196524|196525|196526|196527|193021|196529|196530|196531|196532|196533|196534|196535
+A|4|70627|70628|70629|70630|70631
+A|68|59304|70479|59305|59306
+A|3|60866|67451|67452|67453|67454|67455|67456|67457|67458|67459|67460|67461
+A|525|486232|486233|486234|486235|486236|486237|486238|486239|486240|486241|486242
+A|1|67759
+A|110|122854
+A|5|374592|374593|374594|374595|374596|374597|377834|374598|374599|374600|374601|374602|374603|374604|374605|374606
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|525|ML|Malålistan
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|192124|56|M|Mikael Abrahamsson|56 år, Gruvarbetare, Adak
+C|193002|40|K|Jeanette Hallin|40 år, Socionom, Adak
+C|196509|60|M|Roger Oskarsson|
+C|196510|56|K|Ylva Olofsson|
+C|196511|54|M|Joacim Eliasson|
+C|193010|56|K|Charlotte Hultdin|56 år, Handläggare, Malå
+C|193017|35|M|Emil Stråhle|35 år, Bergarbetare, Malå
+C|196514|61|K|Malena Önnerlöv|
+C|196515|74|M|Ove Stenlund|
+C|196516|53|K|Ulrika Bergstedt|
+C|196517|39|M|Tobias Renström|
+C|196518|53|K|Ulla-Britt Persson|
+C|196519|42|M|Jakob Stenlund|
+C|196520|73|K|Britt-Marie Sellman|
+C|196521|40|M|Alex Carreño|
+C|196522|73|M|Thomas Bergkvist|
+C|196523|60|K|Renée Noréhn|
+C|196524|68|M|Kurt-Lennart Öhman|
+C|196525|74|K|Monica Örnberg|
+C|196526|34|K|Emma Lundström|
+C|196527|39|M|Patrik Stenlund|
+C|193021|66|M|Håkan Stråge|66 år, Pensionär, Malå
+C|196529|30|K|Berna Stråhle|
+C|196530|63|M|Carl-Eric Gradin|
+C|196531|58|K|Annett Stenberg|
+C|196532|76|M|Rolf Örnberg|
+C|196533|29|M|Rashid Hussein|
+C|196534|51|K|Pisan Lindqvist|
+C|196535|75|M|Rolf Andersson|
+C|70627|64|M|Emil Högberg|Malå
+C|70628|51|M|Mats Jonsson|Rentjärn
+C|70629|49|M|Jörgen Norén|Ö.Fårträsk
+C|70630|69|K|Inga-Britt Hultmar|Rökå
+C|70631|63|K|Margaretha Högberg|Malå
+C|59304|51|M|Andrei Ossipov|företagare, Malå
+C|70479|41|M|Marcus Fransson|apputvecklare, Malå
+C|59305|63|K|Ethel Lundmark|omsorgsarbetare, Rökå
+C|59306|69|M|Valentin Lundmark|pensionär, Rökå
+C|60866|52|K|Cecilia Festin-Stenlund|Malå
+C|67451|44|M|Stefan Lundgren|Malå
+C|67452|56|K|Åsa Gustafsson|Malå
+C|67453|29|M|Erik Fängström|Malå
+C|67454|54|K|Eva Oskarsson|Malå
+C|67455|73|M|Ulf Wikman|Rökå
+C|67456|77|K|Kerstin Sjölund|Svedjan
+C|67457|60|M|Hans Örnberg|Malå
+C|67458|23|K|Sandra Eriksson|Malå
+C|67459|72|M|Stig Forsgren|Malå
+C|67460|80|M|Östen Lundquist|Springliden
+C|67461|48|M|Oskar Sjölund|Svedjan
+C|486232|69|M|Arne Hellsten|Ytterberg
+C|486233|50|M|Börje Stenlund|Släppträsk
+C|486234|50|M|Joakim Pettersson|Malå
+C|486235|59|M|Stefan Larsson|Setsele
+C|486236|40|M|Lars Holmqvist|Malå
+C|486237|45|K|Ethel Cavén|Näsberg
+C|486238|61|M|Fred Cederlund|Malå
+C|486239|54|M|Mikael Eriksson-Lind|Ytterberg
+C|486240|68|K|Ruth Hellsten|Ytterberg
+C|486241|41|M|Stefan Mayer-Thomassen|Malå
+C|486242|66|M|Tage Åström|Malå
+C|67759|52|K|Anna Maria Gunnerhell|52, vårdarinna, Malå
+C|122854|46|K|Jessica Höglund|Malå, 46
+C|374592|63|M|Lennart Gustavsson|
+C|374593|35|K|Anna Harr|
+C|374594|31|M|Petter Lundström|
+C|374595|71|K|Lena Nyström|
+C|374596|36|M|Kim Bergström|
+C|374597|73|K|Siv Stenberg|
+C|377834|36|M|Simon Morén|
+C|374598|62|K|Marjet Gustavsson|
+C|374599|71|M|Åke Wallgren|
+C|374600|52|K|Ingela Westerlund-Svahn|
+C|374601|71|M|Claes-Göran Wikström|
+C|374602|64|M|Kent Lindsköld|
+C|374603|51|M|Ralf Linder|
+C|374604|41|M|Fredrik Iderström|
+C|374605|64|M|Mikael Boman|
+C|374606|75|M|Roger Nilsson|

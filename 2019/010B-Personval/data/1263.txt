@@ -1,13 +1,217 @@
-2|54758|64455|28162|64457|64458|54761|54754|64461|64462|64463|64464|64465|64466|64467|64468|64469|64470|64471|64472|64473|64474|64475|64476|64477|64478|64479|64480|64481|64482
-1310|420166|420167|420168|420169|420170|420171|420172|420173|420174|420175|420176|420177|420178|420179|420180|420181|420182|420183|420184|420185|420186|420187
-4|79240|39311|79242|79243|39302|79245|79246|79247|79248|79249|79250|79251|79252|79253|79254|79255|79256|79257
-532|512576|513508|513950
-68|31858|283952|283953|283954|283955|62324
-3|263508|263509|263510|263511|263512|263513|263514|263519|266263|261160|178258|263518|263515|263520|263521|263522|263523
-1296|187972|515393|515590
-55|21314|113868|21520|21527|113871|113872|164362|164363
-1|60903|60904|60905|60906|60907|60908|60909|60910|60911|60912|60913|60914|60915|60916|60917|60918|60919|60920|60921|60922|60923|60924|60925|60926|60927|60928|60929|60930|60931
-110|66917|66918|66919|66920|66921|66922|66923|66924|66925|66926|66927|66928|66929|66930|66931|66932|66933|66934|66935|66936|66937|66938|66940|66941|66942|66943|66944|66945|66946|66947|66948|66949
-1309|431294|431442|431443|431444|431445|431446|431316|431448
-5|123909|123910|123911|123912|123913
-1379|513499|513782|513783|513784|515110|515111|515336|515337|515338|515339
+T|Svedala
+A|2|54758|64455|28162|64457|64458|54761|54754|64461|64462|64463|64464|64465|64466|64467|64468|64469|64470|64471|64472|64473|64474|64475|64476|64477|64478|64479|64480|64481|64482
+A|1310|420166|420167|420168|420169|420170|420171|420172|420173|420174|420175|420176|420177|420178|420179|420180|420181|420182|420183|420184|420185|420186|420187
+A|4|79240|39311|79242|79243|39302|79245|79246|79247|79248|79249|79250|79251|79252|79253|79254|79255|79256|79257
+A|532|512576|513508|513950
+A|68|31858|283952|283953|283954|283955|62324
+A|3|263508|263509|263510|263511|263512|263513|263514|263519|266263|261160|178258|263518|263515|263520|263521|263522|263523
+A|1296|187972|515393|515590
+A|55|21314|113868|21520|21527|113871|113872|164362|164363
+A|1|60903|60904|60905|60906|60907|60908|60909|60910|60911|60912|60913|60914|60915|60916|60917|60918|60919|60920|60921|60922|60923|60924|60925|60926|60927|60928|60929|60930|60931
+A|110|66917|66918|66919|66920|66921|66922|66923|66924|66925|66926|66927|66928|66929|66930|66931|66932|66933|66934|66935|66936|66937|66938|66940|66941|66942|66943|66944|66945|66946|66947|66948|66949
+A|1309|431294|431442|431443|431444|431445|431446|431316|431448
+A|5|123909|123910|123911|123912|123913
+A|1379|513499|513782|513783|513784|515110|515111|515336|515337|515338|515339
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1310|BAP|BARAPARTIET
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1309|TRP|TRYGGHETSPARTIET
+B|5|V|Vänsterpartiet
+B|1379||Älska Svedala
+C|54758|54|M|Ambjörn Hardenstedt|Oppositionsråd, Svedala
+C|64455|58|K|Hellen Boij-Ljungdell|
+C|28162|48|M|Leif Göthed|Metallarbetare, Svedala
+C|64457|48|K|Lise-Lott Gsaxner|
+C|64458|75|M|Björn Jönsson|
+C|54761|58|K|Heléne Hardenstedt|Socionom, Svedala
+C|54754|42|M|Jesper Sennertoft|Svedala
+C|64461|41|K|Ewa Bohlin|
+C|64462|62|M|Torbjörn Sköld|
+C|64463|32|K|Elin Westerberg|
+C|64464|43|M|Valentin Jovanovic|
+C|64465|52|M|Geir Hansen|
+C|64466|49|K|Ann-Charlotte Ziegenfeldt|
+C|64467|46|M|Göran Malmberg|
+C|64468|50|M|Håkan Dahmström|
+C|64469|44|K|Eva Ragnarsdotter Lantz Lindbro|
+C|64470|35|M|Jehad Hameed|
+C|64471|59|M|Per Thaagaard-Pedersen|
+C|64472|24|K|Emmy Hardenstedt|
+C|64473|51|M|Kiriakos Backis|
+C|64474|70|M|Karl-Erik Evgård|
+C|64475|34|K|Caroline Klapp|
+C|64476|48|M|Mats Isgren|
+C|64477|43|M|Andreas Johansson|
+C|64478|35|M|Christian Ljungdell|
+C|64479|72|M|Evert Jönsson|
+C|64480|76|M|Lennart Olsson|
+C|64481|39|M|Benny Andersson|
+C|64482|67|M|Gert-Åke Andersson|
+C|420166|72|K|Birgitta Delring|Klågerup
+C|420167|75|K|Carin Falck|Klågerup
+C|420168|43|M|Jonathan Wetterström|Bara
+C|420169|72|M|Bo Becking|Bara
+C|420170|58|M|Jan-Olof Nilsson|Klågerup
+C|420171|50|K|Carina Lindhe|Klågerup
+C|420172|54|K|Lena Holmström|Klågerup
+C|420173|71|K|Lena Becking|Bara
+C|420174|54|M|Mats Lindhe|Klågerup
+C|420175|43|K|Anna Malm|Bara
+C|420176|74|M|Bo-Göran Håkansson|Svedala
+C|420177|70|M|Anders Swahn|Svedala
+C|420178|69|M|Carl-Göran Sjöstedt|Bara
+C|420179|72|K|Rita Lindsjö|Klågerup
+C|420180|66|M|Bertil Lindberg|Bara
+C|420181|20|M|Oscar Falck|Klågerup
+C|420182|67|M|Christer Persson|Klågerup
+C|420183|71|K|Karin Palm|Bara
+C|420184|84|K|Ingrid Pettersson|Bara
+C|420185|61|K|Ing-Marie Persson|Klågerup
+C|420186|19|M|Carl Falck|Klågerup
+C|420187|18|M|Tim Lindhe|Klågerup
+C|79240|28|K|Sara Ripa|Privatrådgivare, Svedala, 28
+C|39311|57|K|Ingegerd Eriksson|57, Enhetschef, Svedala
+C|79242|52|M|Per Belander|Hortonom, Vinninge, 51
+C|79243|53|K|Camilla Nordén|Förskollärare, Vinninge, 53
+C|39302|31|M|Andreas Axelsson|31, Innesäljare, Svedala
+C|79245|34|M|Nicolaj Johannessen|Egenföretagare, Svedala, 34
+C|79246|64|K|Monica Linde|Värdinna, Vinninge, 64
+C|79247|59|M|Paul Petersson|Lantbrukare, Bara, 59
+C|79248|56|K|Ann-Kristin Andersson|Fotterapeut, Västra Kärrstorp, 56
+C|79249|30|K|Maria Eriksson|Agronom, Västra Kärrstorp, 31
+C|79250|33|M|Jonte Eckhardt|Tekniker, Svedala, 33
+C|79251|68|K|Ann-Kristin Persson|Apotekstekniker, Svedala, 68
+C|79252|42|M|Johan Pamp|Patentingenjör, Hyltarp, 42
+C|79253|72|M|Dave Servin|Agronom, Svedala, 72
+C|79254|20|K|Josefin Månsson|Studerande, Svedala, 20
+C|79255|48|K|Annette Månsson Jarl|Grundskollärare, Svedala, 48
+C|79256|71|M|Sven Jönsson|Busschaufför, Klågerup, 71
+C|79257|73|M|Nils Åke Åkesson|Lantbrukare, Hyltarp, 73
+C|512576|59|K|Pia Karlsson|
+C|513508|46|K|Christel Beckdahl|
+C|513950|51|K|Jessica Blom Larsson|
+C|31858|20|M|Stefan Sarmes|20 år, Student, Svedala
+C|283952|40|K|Anja Malmqvist|40, leg fysioterapeut, Holmeja
+C|283953|52|M|Björn Wennerlund|52, statsvetare, Svedala
+C|283954|38|M|Martin Pråme Malmqvist|39, egen företagare, Holmeja
+C|283955|56|M|Mats Ohlsson|56, säljare, Bara
+C|62324|28|K|Karolina Rados|28, teamledare, Klågerup
+C|263508|62|M|Per-Olof Lindgren|Agronom, V Kärrstorp, 62 år
+C|263509|19|K|Linn Rydberg|Studerande, Törringe, 19 år
+C|263510|42|M|Kristoffer Linné|Labbtekniker, Bara, 42 år
+C|263511|68|M|Christer Åkesson|Pensionär, Svedala, 68 år
+C|263512|30|K|Katrin Lydén|Arbetsledare LSS, Vismarlöv, 30 år
+C|263513|48|M|Patrik Büssow|Platschef, Svedala, 48 år
+C|263514|22|M|Emil Thorné|Studerande, Svedala, 22 år
+C|263519|55|K|Ana Paula Stålbalk|Perukmakare, Sjödiken, 55 år
+C|266263|44|K|Annika Hansdotter|Kommunikatör, Börringe, 44 år
+C|261160|32|M|Daniel Pamp|IT-pedagog, Svedala, 32 år
+C|178258|54|K|Anna-Karin Herbert Hwang|Bara
+C|263518|43|M|Fredrik Kristell|Stf. Räddningschef, Svedala, 43 år
+C|263515|32|K|Madeleine Nilsson|Handläggare, Svedala, 32 år
+C|263520|75|M|Örjan Ulfshagen|Pensionär, Svedala, 75 år
+C|263521|66|K|Ewa Bolanowski|Pensionär, Bara, 66 år
+C|263522|64|K|Ingrid Petersson|Pensionär, Svedala, 64 år
+C|263523|82|M|Bertil Bengtsson|Pensionär, Svedala, 82 år
+C|187972|44|M|Christian Lundmark|44, systemutvecklare, Bara
+C|515393|33|M|Martin Nordholts|
+C|515590|77|K|Gunnel Dahlbom Nelson|
+C|21314|41|M|Martin Gustafsson|Egenföretagare, 41 år, Bara
+C|113868|39|M|Daniel Forsberg|Dataingenjör, 39 år, Svedala
+C|21520|55|M|Peo Valastig|Speciallärare, 55 år, Holmeja
+C|21527|37|K|Therese Wallin|Miljöingenjör, 37 år, Bara
+C|113871|46|M|Nicklas Lindgren|Miljökonsult, 46 år, Bara
+C|113872|47|M|Patrik Ryd|Mjukvaruingenjör, 47 år, Svedala
+C|164362|45|M|Daniel Stern Swaning|Projektledare, 45 år, Klågerup
+C|164363|32|K|Johanna Ersborg|Jurist, 32 år, Roslätt
+C|60903|45|K|Linda Allansson Wester|45 år, kommunalråd, Bara
+C|60904|65|M|Hans Järvestam|65 år, f.d. polisintendent, Svedala
+C|60905|63|M|Per Mattsson|63 år, civilingenjör, Svedala
+C|60906|62|M|Lars Nordberg|62 år, företagare, Svedala
+C|60907|53|M|Erik Stoy|53 år, programmerare, Svedala
+C|60908|35|K|Karin Mårtensson|35 år, arbetsmiljösamordnare, Svedala
+C|60909|43|M|Dan Nilsson|43 år, kvalitetsansvarig, Klågerup
+C|60910|67|M|Sverker Nordgren|67 år, civilekonom, Svedala
+C|60911|69|M|Ulf Lennerling|69 år, kapten, Svedala
+C|60912|61|K|Gunilla Nordgren|61 år, civilekonom, Skabersjö
+C|60913|68|K|Ewa Lennerling|68 år, leg. sjuksköterska, Svedala
+C|60914|49|K|Erika Jeppsson|49 år, socionom, Svedala
+C|60915|60|M|Jan Holmerup|60 år, ingenjör, Holmeja
+C|60916|79|M|Göran Jeppsson|79 år, f.d. bankdirektör, Klågerup
+C|60917|66|K|Anne Jönsson|66 år, kock/företagare, Svedala
+C|60918|63|M|James Perlman|63 år, pensionär, Svedala
+C|60919|21|M|Pontus Fogelberg|21 år, studerande, miljöarbetare, Svedala
+C|60920|67|K|Eva Dahl|66 år, pensionär, Svedala
+C|60921|40|M|Daniel Bäckvall|40 år, fastighetsutvecklare, Svedala
+C|60922|71|M|Hans Mårtensson|71 år, företagare, Svedala
+C|60923|52|M|Patrik Lundblad|53 år, IT-arkitekt, Svedala
+C|60924|44|K|Anna Netterheim|45 år, chefssekreterare, Svedala
+C|60925|42|M|Rickard Göransson|42 år, försäljningschef, Svedala
+C|60926|64|M|Staffan Widell|65 år, företagare, Svedala
+C|60927|58|M|Kim Gustafsson|58 år, försäljningsingenjör, Bara
+C|60928|80|M|Bo Hallström|80 år, f.d. informationschef, Bara
+C|60929|40|M|Fredrik Nordberg|40 år, produktionsledare, Svedala
+C|60930|65|K|Yvonne Aulin|64 år, handläggare/utredare, Svedala
+C|60931|59|K|Karin Strandberg|59 år, socionom, Svedala
+C|66917|46|M|Ronny Johnsson|processexpert
+C|66918|35|M|Tobias Ström|lastbilschaufför
+C|66919|39|M|Henrik Corneliussen|egenföretagare
+C|66920|47|M|Magnus Lilja|lärare
+C|66921|46|M|Peter Frost Jensen|Polis, 46 år
+C|66922|63|M|Steen Salling|Veterinär, 63 år
+C|66923|55|M|Jörgen Persson|brandman
+C|66924|58|M|Anders Nilsson|vapensmed
+C|66925|79|K|lngrid Pedersen|Undersköterska, 79 år
+C|66926|68|M|Tommy Rosenberg|Projektör, 68 år
+C|66927|55|M|Lars Dahmström|Lastbilschaufför, 55 år
+C|66928|48|K|Kristina Fredlund|receptionist
+C|66929|66|M|Tonny Rosefors|busschaufför
+C|66930|64|K|Eva Borgelin|undersköterska
+C|66931|27|K|Caroline Gullstrand|undersköterska
+C|66932|68|M|Hans Bengtsson|köpman
+C|66933|38|M|Peter Andrén|markanläggare
+C|66934|48|M|Fredrik Bodensjö|produktionstekniker
+C|66935|32|M|Christoffer Andersson|säkerhetskonsult
+C|66936|46|M|Morgan Pedersen|undersköterska
+C|66937|24|M|Mikael Tornberg|plåtslagare
+C|66938|54|M|Mikael Carlstedt|företagare
+C|66940|50|M|Fredrik Frid|rörläggare
+C|66941|61|M|Bengt Jönsson|chaufför
+C|66942|49|K|Ingrid Landgren|undersköterska
+C|66943|38|K|Anna Ström|djurskötare
+C|66944|36|K|Anna Vestergaard|undersköterska
+C|66945|48|M|Jan Magnusson|montör
+C|66946|39|M|Daniel Möller|diversearbetare
+C|66947|52|M|Mats Karlsson|truckförare
+C|66948|34|K|Petra Hansson|kyrkogårdsvaktmästare
+C|66949|68|M|Kenneth Waderup|byggnadssnickare
+C|431294|72|M|Lennart Nilsson|Polis, Svedala
+C|431442|68|K|Christina Bengtsson|Posttjänsteman, Svedala
+C|431443|69|M|Thomas Appelgren|Murare, Svedala
+C|431444|79|K|Angela Lewin|Försäkringstjänsteman, Svedala
+C|431445|75|M|Kenth Dahlgren|Säkerhetschef, Bara
+C|431446|74|K|Elsbeth Linnar|Tandsköterska, Svedala
+C|431316|76|M|Peter Ratzburg|Pensionär, Svedala
+C|431448|72|K|Ann-Louise Dahlgren|Bara
+C|123909|69|M|Jörgen Persson|pensionerad facklig företrädare, Svedala
+C|123910|59|K|Janet Vibeke|lärare
+C|123911|67|M|Gustaf Törnqvist|socionom
+C|123912|32|K|Tina Vibeke|undersköterska
+C|123913|24|K|Louise Vibeke|samordnare Pusselbitenskolan
+C|513499|49|M|Christian Boy|
+C|513782|51|M|Folke Jörgen Rasmusson|
+C|513783|28|M|Alexander Nordström|
+C|513784|50|M|Peter Henriksson|
+C|515110|70|M|Per Harry Kenneth Uvgård|
+C|515111|44|K|Sabina Ovallius Holmgren|
+C|515336|57|K|Eva Brengdahl|
+C|515337|54|M|Per Erik Göran Almgren|
+C|515338|62|M|Mats Bentmar|
+C|515339|50|M|Johan Strömberg|

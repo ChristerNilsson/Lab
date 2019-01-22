@@ -1,11 +1,365 @@
-2|6337|6338|6339|6340|6341|6342|6343|6344|6188|6346|6347|6348|6349|6350|6351|6352|6353|6354|6192|6356|6357|6358|6359|6360|6361|6362|6363|6364|6365|6366|6367|6368|6369|6370|6371|6372|6373|6374|6375|6376|6377|6378|6379|6380|6381|6382|6383|6384|6385|6386|6387|6191|6389|6390|6391|6392|6393|6394|6395|6396|6397|6193|6399|6400|6401|6404|6403|6406|6407|6408|6409|6410|6411|6412|6413|6414|6415|6189|6417|6420|6419|6422|6421|6424|6423|6425|6426|6427
-4|197285|229271|229272|198403|184814|200529|229276|213840|229278|229279|212766|197280|212775|229283|229284|213826|242290|1691|229287|229288|229289|236196
-532|247897
-68|185439|186024|185443|186026|185442|185445|185434|186030|185430|185444|186033|185452|185427|185438|186037|186038|185440|9170|185431|185449|186043|186044|186045|185453|186047|186914|186915|185433|186918|186919|186920|186921|186922|185446
-1011|132660|508973|132659|515676
-3|290599|287826|287830|287828|290603|290604|290605|290606|290607|290608|290609|287831|290611|287823|287832|290614|287833|287834|287827|290618|49209
-1296|44|189152|137646|189155
-55|59277|59274|282205|72076|59269|283341|59273|59270|283342|59262|283516|72078|72075|282969|59261|309976|282968|283738|59275|59264|282976|59260|309983
-1|32|36|37|59|70|71|48|39|43|52|11520|90|89|14735|14734|91|11518|3190|146|30|148|149|150|45|152|4|154|51|8|157|28|159|160|63|54|163|164|9|50|167|46|169|1|171|172|5|64|49|177|3|60|180|10|58|183|184|185|186|187|260
-110|166974|75392|76165|75400|76167|75606|76180|75394|166982|75122|76170|76169|75019|76166|76172|134854|76168|76187|166993|76171|75603|75127|75125|76178|134915|76191|76192|75016|134913|76182|76177|76202|75607|167009|134853|134910|134912|134916|167014|76197|76186|76193|76179|511302|512845|513055|513065|513720|515672|515995
-5|16576|16732|16733|16575|16735|16586|16737|16738|16739|16577|16592|16573|16743|16744|16578|16746|16747|16748|16749|16750|16751|16752|16594|16754|16581|16756|16757|16593|16570|16760|16579|16591|16763|16588|16585|16595|16619|16768|16596|16770|16590|16599|16598|16597
+T|Västmanlands läns landsting
+A|2|6337|6338|6339|6340|6341|6342|6343|6344|6188|6346|6347|6348|6349|6350|6351|6352|6353|6354|6192|6356|6357|6358|6359|6360|6361|6362|6363|6364|6365|6366|6367|6368|6369|6370|6371|6372|6373|6374|6375|6376|6377|6378|6379|6380|6381|6382|6383|6384|6385|6386|6387|6191|6389|6390|6391|6392|6393|6394|6395|6396|6397|6193|6399|6400|6401|6404|6403|6406|6407|6408|6409|6410|6411|6412|6413|6414|6415|6189|6417|6420|6419|6422|6421|6424|6423|6425|6426|6427
+A|4|197285|229271|229272|198403|184814|200529|229276|213840|229278|229279|212766|197280|212775|229283|229284|213826|242290|1691|229287|229288|229289|236196
+A|532|247897
+A|68|185439|186024|185443|186026|185442|185445|185434|186030|185430|185444|186033|185452|185427|185438|186037|186038|185440|9170|185431|185449|186043|186044|186045|185453|186047|186914|186915|185433|186918|186919|186920|186921|186922|185446
+A|1011|132660|508973|132659|515676
+A|3|290599|287826|287830|287828|290603|290604|290605|290606|290607|290608|290609|287831|290611|287823|287832|290614|287833|287834|287827|290618|49209
+A|1296|44|189152|137646|189155
+A|55|59277|59274|282205|72076|59269|283341|59273|59270|283342|59262|283516|72078|72075|282969|59261|309976|282968|283738|59275|59264|282976|59260|309983
+A|1|32|36|37|59|70|71|48|39|43|52|11520|90|89|14735|14734|91|11518|3190|146|30|148|149|150|45|152|4|154|51|8|157|28|159|160|63|54|163|164|9|167|46|169|1|171|172|5|64|49|177|3|60|180|10|58|183|184|185|186|187|260
+A|110|166974|75392|76165|75400|76167|75606|76180|75394|166982|75122|76170|76169|75019|76166|76172|134854|76168|76187|166993|76171|75603|75127|75125|76178|134915|76191|76192|134913|76182|76177|76202|75607|167009|134853|134910|134912|134916|167014|76197|76186|76193|76179
+A|5|16576|16732|16733|16575|16735|16586|16737|16738|16739|16577|16592|16573|16743|16744|16578|16746|16747|16748|16749|16750|16751|16752|16594|16754|16581|16756|16757|16593|16570|16760|16579|16591|16763|16588|16585|16595|16619|16768|16596|16770|16590|16599|16598|16597
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|6337|54|M|Kenneth Östberg|54 år, Norberg
+C|6338|61|K|Annika Duàn|61 år, Köping
+C|6339|39|M|Shpetim Pirraku|39 år, Köping
+C|6340|37|K|Johanna Skottman|37 år, Surahammar
+C|6341|60|M|Per Strengbom|60 år, Kungsör
+C|6342|31|K|Tove Winqvist|31 år, Norberg
+C|6343|55|M|Joakim Sparv|55 år, Arboga
+C|6344|41|K|Anna-Karin Folkesson|41 år, Hallstahammar
+C|6188|42|M|Marino Wallsten|42 år, Fagersta
+C|6346|52|K|Marie Brolin|52 år, Köping
+C|6347|69|M|Hans Eric Johansson|69 år, Skinnskatteberg
+C|6348|52|K|Ann-Charlotte Karlsson|52 år, Arboga
+C|6349|54|M|Abdul Qorbani|54 år, Köping
+C|6350|33|K|Natalie Nordström|33 år, Kungsör
+C|6351|53|M|Joakim Rönnberg|53 år, Arboga
+C|6352|69|K|Claire Ahlström|69 år, Hallstahammar
+C|6353|51|M|Per Ågren|51 år, Köping
+C|6354|70|K|Marjatta Nurmi|70 år, Fagersta
+C|6192|52|M|Mikael Peterson|52 år, Kungsör
+C|6356|38|K|Jenny Björklöv|38 år, Köping
+C|6357|41|M|Cristian Hidalgo|41 år, Surahammar
+C|6358|62|K|Eva Hölke|62 år, Norberg
+C|6359|76|M|Roger Pistol|76 år, Hallstahammar
+C|6360|52|K|Åse Ellingsen Vesper|52 år, Köping
+C|6361|27|M|Akam Abdi|27 år, Surahammar
+C|6362|68|K|Gunilla A Aurusell|68 år, Kungsör
+C|6363|72|M|Anders Rydell|72 år, Surahammar
+C|6364|34|K|Sara Dahlin|34 år, Norberg
+C|6365|38|M|Tony Himmler|38 år, Fagersta
+C|6366|59|K|Lena Träff|59 år, Arboga
+C|6367|69|M|Kjell Persson|69 år, Arboga
+C|6368|45|K|Angelica Stigenberg|45 år, Kungsör
+C|6369|49|M|Kennet Hedlund|49 år, Surahammar
+C|6370|66|K|Ann-Marie Lundin|66 år, Köping
+C|6371|74|M|Leif Carlberg|74 år, Surahammar
+C|6372|56|K|Elisabeth Strengbom|56 år, Kungsör
+C|6373|54|M|Bo Molander|54 år, Arboga
+C|6374|30|K|Shabana Haider Amir|30 år, Köping
+C|6375|59|M|Ronny Moström|59 år, Kungsör
+C|6376|58|K|Seija Blefors Edqvist|58 år, Surahammar
+C|6377|68|M|Dan Stigenberg|68 år, Kungsör
+C|6378|63|K|Kerstin Rosenkvist|63 år, Arboga
+C|6379|25|K|Hadia Haider Amir|25 år, Köping
+C|6380|56|K|Denise Norström|56 år, Västerås
+C|6381|60|M|Tommy Levinsson|60 år, Västerås
+C|6382|48|K|Lena Johansson|48 år, Västerås
+C|6383|35|M|Arvid Hedeborg|35 år, Västerås
+C|6384|43|K|Ulrika Spårebo|43 år, Sala
+C|6385|50|M|Fehmi Paulus|50 år, Västerås
+C|6386|38|K|Karolina Myllergård|38 år, Västerås
+C|6387|55|M|Dennis Nilsson|55 år, Västerås
+C|6191|27|K|Amanda Lindblad|27 år, Sala
+C|6389|59|M|Robert Lennes|59 år, Västerås
+C|6390|49|K|Anna Rickman|49 år, Västerås
+C|6391|49|M|Jonas Persson|49 år, Västerås
+C|6392|46|K|Aurora Pirraku Eriksson|46 år, Västerås
+C|6393|37|M|Abdifatah Abdullahi Farah|37 år, Västerås
+C|6394|44|K|Camilla Runerås|43 år, Sala
+C|6395|78|M|Olof Walldén|78 år, Västerås
+C|6396|50|K|Carina Vallin|50 år, Västerås
+C|6397|25|M|Thommy Södergård Åkesson|25 år, Västerås
+C|6193|30|K|Josefine Bäckström|30 år, Västerås
+C|6399|34|M|Jan-Roman Dostál|34 år, Västerås
+C|6400|54|K|Ann-Christine Björkman|54 år, Västerås
+C|6401|57|M|Måns Gustafsson|57 år, Sala
+C|6404|38|K|Ann Kristin Lindgren|38 år, Sala
+C|6403|67|M|Kjell Henriksson|67 år, Västerås
+C|6406|52|K|Maria Nordberg|52 år, Västerås
+C|6407|24|M|Hmida Benatallah|24 år, Västerås
+C|6408|67|K|Elzbieta Norling|67 år, Västerås
+C|6409|53|M|Alaittin Temur|53 år, Sala
+C|6410|62|K|Barbara Bienkowska|62 år, Västerås
+C|6411|40|M|Robert Ringvall|40 år, Västerås
+C|6412|59|K|Kristina Nyberg|59 år, Sala
+C|6413|72|M|Per-Åke Olofsson|72 år, Västerås
+C|6414|48|K|Monika Sundlin|48 år, Västerås
+C|6415|38|M|Jan van der Horst|38 år, Västerås
+C|6189|47|K|Jazmin Pettersson|47 år, Västerås
+C|6417|41|M|Jakob Eriksson|41 år, Västerås
+C|6420|54|K|Vanja Ahlén|54 år, Västerås
+C|6419|73|M|Tomas Östling|73 år, Västerås
+C|6422|57|K|Eva Stenberg|57 år, Sala
+C|6421|79|M|Sten Helleng|79 år, Västerås
+C|6424|35|K|Lisa Pettersson|35 år, Västerås
+C|6423|67|M|Bengt Atthem|67 år, Sala
+C|6425|56|M|Bijan Pourian|56 år, Västerås
+C|6426|63|M|Håkan Jansson|63 år, Västerås
+C|6427|55|M|Per Pochat|55 år, Västerås
+C|197285|56|K|Barbro Larsson|Sjuksköterska, Sala
+C|229271|57|M|Magnus Ekblad|VD/Förvaltare, Västerås
+C|229272|41|K|Hanna Lostelius|Barnmorska, Västerås
+C|198403|46|M|Hamse Omar|Lärare, Fagersta
+C|184814|60|M|Anders Johannesson|Expert företagarvillkor, Hallstahammar
+C|200529|60|K|Eleonor Westlund|Undersköterska, Kungsör
+C|229276|48|M|Bernt Bergsten|Inspektionsansvarig, Köping
+C|213840|68|K|Christina Ulvede|Egenföretagare, Västerås
+C|229278|43|M|Patrik Bonér|Lantbrukare, Köping
+C|229279|46|K|Helena Köhl|Egenföretagare, Västerås
+C|212766|51|K|Indi Persson|Landsbygdsutvecklare, Västerås
+C|197280|62|M|Christer Gustafsson|Handläggare, Sala
+C|212775|46|M|Magnus Nystedt|Politisk sekreterare, Västerås
+C|229283|45|K|Karin Westlund|Civilingenjör, Västerås
+C|229284|49|K|Anna-Lena Jansson|Lärare, Köping
+C|213826|41|M|Fredrik Melin|Lantmästare, Västerås
+C|242290|55|K|Monica Stolpe-Nordin|Avdelningschef, Västerås
+C|1691|33|M|Petter Westlund|Kommunikatör, Kungsör
+C|229287|75|M|Hans Stergel|Projektledare, Västerås
+C|229288|63|K|Camilla Bohm Coleman|Verksamhetsutvecklare, Västerås
+C|229289|63|M|Basil Wakid|Universitetslärare, Västerås
+C|236196|57|M|Lars Löfgren|Kemisorterare, Arboga
+C|247897|42|M|Jonas Kullinger|
+C|185439|48|K|Malin Gabrielsson|48, Regionråd
+C|186024|48|M|Micael Larsson|48, Egenföretagare, Västerås
+C|185443|73|K|Elisabeth Wäneskog|73, Leg. sjuksköterska
+C|186026|71|M|Ingvar Nordén|71, Adjunkt, Västerås
+C|185442|32|M|Tobias Löfgren|32, Upphandlare
+C|185445|56|K|Eva Axelsson|56, Diakon
+C|185434|48|M|Magnus Agestav|48, Jur.kand.
+C|186030|48|K|Pauline Sturesson|48, Redovisningskonsult, Västerås
+C|185430|20|K|Johanna Ridderström|20, Pedagog
+C|185444|39|M|Jonatan Lönnqvist|39, Körpedagog
+C|186033|65|M|Hanke Joneklav|65, Sjukhuspastor, Sala
+C|185452|56|M|Per Norin|56, Leg. lärare
+C|185427|46|M|Samuel Stengård|46, Pastor
+C|185438|51|M|Joakim Widell|51, Politisk sekreterare
+C|186037|66|K|Lisa Joneklav|66, Grundskolelärare, Sala
+C|186038|51|M|Mats Westerlund|51, Projektledare, Västerås
+C|185440|52|M|Gabriel Ishak|52, Egenföretagare
+C|9170|31|M|Jesper Songer|31, Företagare
+C|185431|25|M|Per Nilsson|25, Lantbrukare
+C|185449|39|K|Viviane Mbumba Tshala|39, Omvårdnadspersonal
+C|186043|69|K|Marianne Severinsson|69, Pensionär, Norberg
+C|186044|77|M|Lars Carnbrand|77, Pensionär, Skinnskatteberg
+C|186045|76|M|Börje Hultin|76, Pensionär, Västerås
+C|185453|70|K|Sickan Palm|70, Företagare
+C|186047|52|M|Hannu Söderlund|52, Vårdlärare, Kungsör
+C|186914|48|M|Richard Eklund|48, Företagare, Västerås
+C|186915|69|K|Gun-Brith Rydén|69, Pensionär, Hallstahammar
+C|185433|52|K|Anna-Carin Ragnarsson|52, Förskollärare
+C|186918|68|M|Bengt Fred|68, Pastor, Kolsva
+C|186919|50|K|Carina Byhlin|50, Undersköterska, Hallstahammar
+C|186920|67|M|Kjell Wendin|67, Chaufför, Arboga
+C|186921|68|K|Ingrid Broman|68, Förskollärare, Köping
+C|186922|62|M|Lars-Göran Bärling|62, Socionom, Ramnäs
+C|185446|51|M|Jonas Stenzelius|51, Ingenjör
+C|132660|69|M|Anders Wetterholm|Pensionär, Västmanland
+C|508973|63|M|Peter Hennig|
+C|132659|52|M|Lars Matsson|Skogsinspektor, Västmanland
+C|515676|36|K|Jessica Törnkvist|
+C|290599|42|K|Helena Hagberg|42, regionråd, Västerås
+C|287826|70|M|Agne Furingsten|70, ledarskapskonsult, Sala
+C|287830|44|K|Anna Lundberg|44, projektledare, Västerås
+C|287828|39|M|Richard Fallqvist|39, installatör, Arboga
+C|290603|66|K|Karin Andersson|66, f.d. chef vård och omsorg, Västerås
+C|290604|49|M|Anders Duvkär|49, områdeschef utb., Västerås
+C|290605|46|K|Maria Vallgren Eriksson|46, egenföretagare, Västerås
+C|290606|69|M|Bengt-Åke Nilsson|69, civilekonom, Västerås
+C|290607|53|M|Sam Haddad|53, elektronikmontör, Västerås
+C|290608|72|K|Anita Lilja-Stenholm|72, f.d. rektor, Fagersta
+C|290609|73|M|Sigge Synnergård|73, pensionär, Kolbäck
+C|287831|71|M|Anders Cargerman|71, egenföretagare, Arboga
+C|290611|56|K|Marianne Möllerström|56, undersköterska, Surahammar
+C|287823|26|K|Lina Eriksson|26, kvalitetsledare, Västerås
+C|287832|71|M|Ingemar Johansson|71, elektroingenjör, Arboga
+C|290614|69|K|Birgitta Åkerberg|69, lärare, Västerås
+C|287833|61|M|Lars Jansson|61, gymnasielärare, Norberg
+C|287834|40|M|Jan Eriksson|40, renhållningsarbetare, Sala
+C|287827|37|K|Jenny Boström|37, projektledare IT, Västerås
+C|290618|60|M|Peter Svensson|60, ingenjör, Sala
+C|49209|47|K|Carina Sándor|kommunalråd, Skinnskatteberg
+C|44|39|K|Carina Sjölund|39 år, Företagare, Kungsör
+C|189152|44|M|Gary Johnsén|44 år, Fartygsinspektör, Kolbäck
+C|137646|40|M|Mattias Sjölund|40 år, Energi- och klimatrådgivare, Kungsör
+C|189155|50|K|Gisela Wallin|50 år, Dietist, Arboga
+C|59277|46|K|Pernilla Rinsell|46, ekoingenjör/regionråd, Västerås
+C|59274|43|M|Andreas Porswald|43, miljöekonom/regionråd, Västerås
+C|282205|50|K|Kerstin Åkesson|50, undersköterska, Valskog/Kungsör
+C|72076|42|M|Peter Ristikartano|41, ekonom, Kolbäck
+C|59269|35|K|Tove Engström|34, socionom, Västerås
+C|283341|67|M|Jan Babar|66, lärare, Sala
+C|59273|45|K|Anna Betz Mark|44, undersköterska, Munga/Västerås
+C|59270|31|M|Johannes Wretljung Persson|31, företagare, Västerås
+C|283342|38|K|Beatrice Woldert|37, civilingenjör, Sala
+C|59262|26|M|Kristofer Åberg|25, samhällsvetare, Västerås
+C|283516|66|K|Pieternella van Beek|66, leg psykoterapeut, Norberg
+C|72078|39|M|Abdulmotal Suliman|39, undersköterska, Hallstahammar
+C|72075|51|K|Åsa Junkes Kfouri|50, ekonom, Hallstahammar
+C|282969|57|M|Owe Enarsson|57, transportsamordnare, Köping
+C|59261|21|K|Anna Nematbakhsh|21, studerande, Västerås
+C|309976|59|M|Mikael Vilbaste|59, elkraftingenjör, Västerås
+C|282968|33|K|Kristina Lindblad|33, lärarvikarie, Köping
+C|283738|75|M|Jarl-Olof Lundstedt|74, hälsoekonom, Fagersta
+C|59275|65|K|Barbara Conte|65, ekologisk ekonom, Västerås
+C|59264|67|M|Håkan Wretljung|67, fotograf, Dingtuna
+C|282976|66|K|Christina Eljansbo Hammarbäck|66, socionom, Köping
+C|59260|34|M|Ariana Tanha|34, energi- och miljöingenjör, Västerås
+C|309983|41|K|Bahareh Wolde|40, dataingenjör, Västerås
+C|32|37|K|Jenny Landernäs|Journalist, Hallstahammar
+C|36|65|M|Håkan Freijd|VD/Senior Advisor, Hallstahammar
+C|37|54|K|Jonna Lindman|Personalplanerare, Arboga
+C|59|53|K|Pernilla Danielsson|Ekonom, Skinnskatteberg
+C|70|64|M|Tommy Karlsson|Officer, Arboga
+C|71|64|M|Yrjö Björkqvist|Pensionerad underhållsingenjör, Kungsör
+C|48|58|M|Torbjörn Estelli|Verkstadsarbetare, Hallstahammar
+C|39|51|M|Mikael Gunnarsson|Produktionstekniker, Köping
+C|43|33|K|Isabella Piva Hultström|Sjuksköterska, Hallstahammar
+C|52|53|K|Anna Kramer|Projektledare, Norberg
+C|11520|40|K|Theresé Karlsson|Sjuksköterska, Surahammar
+C|90|68|M|Mats Öhgren|Pensionär, Arboga
+C|89|66|M|Anders Röhfors|Kommunalråd, Arboga
+C|14735|77|K|Anita Westin Brodd|Fastighetsmäklare, Hallstahammar
+C|14734|74|M|Stieg Andersson|Metallurg, Hallstahammar
+C|91|46|M|Håkan Tomasson|Avdelningschef, Arboga
+C|11518|36|K|Johanna Olofsson|Undersköterska, Surahammar
+C|3190|56|M|Staffan Strid|Företagare, Skinnskatteberg
+C|146|64|M|Tomas Högström|Regionråd, Västerås
+C|30|30|M|Mikael Andersson Elfgren|Officer, Västerås
+C|148|54|K|Maria Dellham|Regionråd, Västerås
+C|149|30|K|Stephanie Bruksgård|Undersköterska, Västerås
+C|150|48|K|Anna Nygren|Sjuksköterska, Västerås
+C|45|46|M|Patrik Andrén|Tandläkare, Västerås
+C|152|30|M|Andreas Weiborn|Projektledare, Västerås
+C|4|47|M|Fredrik Larsson|Enhetschef, Sala
+C|154|66|K|Silvana Enelo-Jansson|F.d. skolchef, Västerås
+C|51|50|M|Gunnar Björnstad|Civilingenjör, Västerås
+C|8|28|K|Elin Johansson|Socialsekreterare, Sala
+C|157|57|M|Björn Svartsgård|Överläkare, Västerås
+C|28|40|K|Åsa Coenraads|Riksdagsledamot, Västerås
+C|159|67|K|Asta Matikainen Lecklin|Prost, Västerås
+C|160|50|K|Anna Gardeblad|Undersköterska, Västerås
+C|63|23|M|Tomas Martinsson|Studerande, Västerås
+C|54|36|K|Marie Brandstedt|Byggnadsingenjör, Västerås
+C|163|29|K|Veronica Samuelsson|Studerande, Västerås
+C|164|52|M|Thomas Frisk|Affärsutvecklare, Västerås
+C|9|39|M|Johan Widén|Företagare, Sala
+C|167|57|M|Mohammed Rashid|Projektledare, Västerås
+C|46|51|M|Stefan Oszák Bengtsson|Gymnasielärare , Västerås
+C|169|77|K|Gunnel Wallquist Gustafsson|Gymnastikdirektör, Västerås
+C|1|39|M|Erik Hamrin|Projektledare, Sala
+C|171|18|M|Victor Nilsson|Studerande, Västerås
+C|172|74|M|Leif Ringström|Pensionär, Västerås
+C|5|32|M|Martin Eriksson|Handläggare, Sala
+C|64|75|M|Stefano Suvero|Projektkonsult, Västerås
+C|49|65|M|Jan G Fäger|Civilingenjör, Västerås
+C|177|49|M|Johan Eriksson|E-handelsansvarig, Västerås
+C|3|57|M|Michael Pb Johansson|Handläggare, Sala
+C|60|57|M|Magnus Edman|Affärsutvecklare, Västerås
+C|180|47|M|Anders Olsson|Civilingenjör, Västerås
+C|10|51|M|Jasin Arkavazi|Byggnadsingenjör, Sala
+C|58|63|K|Anette Hult|Företagare, Västerås
+C|183|64|M|Frank Pettersson|Affärsutvecklare, Västerås
+C|184|47|M|Tomas Hedlund|Undersköterska, Västerås
+C|185|22|K|Cassandra Romo|Studerande, Västerås
+C|186|30|M|Emil Ytter|Handläggare, Västerås
+C|187|39|M|Henrik Calander|Civilingenjör, Västerås
+C|260|67|M|Jan-Erik Jansson|F.d. arbetsmarknadskonsulent, Västerås
+C|166974|44|K|Maria Liljedahl|44 år, Regionråd, Köping
+C|75392|59|M|Ingvar Jonsson|Företagare, Sala
+C|76165|49|M|Patric Sjölund|Undersköterska, Västerås
+C|75400|64|K|Carin Engström|Distriktssköterska, Sala
+C|76167|49|M|Jan Johansson|29 år, Motorbyggare/Systemprovare, Västerås
+C|75606|60|M|Sven Fallgren|60 år, Enhetschef, Surahammar
+C|76180|29|K|Nadja Axling|Områdeschef, Västerås
+C|75394|55|K|Louise Eriksson|Egenföretagare, Sala
+C|166982|65|K|Monica Israelsson|65 år, Undersköterska, Kolsva
+C|75122|50|K|Åsa-Lena Vestling|50 år, Ordningsvakt, Norberg
+C|76170|38|M|Erik Johansson|Trafikinspektör, Västerås
+C|76169|44|K|Janeth Persson|44 år, HR Administrator, Västerås
+C|75019|46|M|Christer Borg|46 år, Företagare, Fagersta
+C|76166|63|K|Anna Svensson|Pensionär, Västerås
+C|76172|42|K|Ewa Halvarsson|42 år, Redovisningsekonom, Västerås
+C|134854|54|M|Martin Nyqvist|54 år, Entreprenör, Arboga
+C|76168|69|M|Kenneth Nilsson|69 år, Pensionerad Företagare, Västerås
+C|76187|54|M|Per Blomström|54 år, Chaufför, Västerås
+C|166993|35|K|Karolina Glogowska|35 år, Studerande, Köping
+C|76171|49|M|Jerry Hagberg|49 år, Elevresurs/Musiklärare, Västerås
+C|75603|62|M|Conny Johansson|62 år, Jordbrukare, Surahammar
+C|75127|20|K|Felicia Vestling|20 år, Säljare, Norberg
+C|75125|38|K|Carolina Wallin|38 år, Vårdbiträde, Norberg
+C|76178|74|M|Stefan Handing|74 år, Ingenjör, Västerås
+C|134915|74|K|Britt-Marie Häggkvist Back|74 år, Skolassistent, Kungsör
+C|76191|25|M|Jimmy Gunstedt|25 år, VVS-montör, Västerås
+C|76192|55|M|Thomas Stridsman|54 år, Fondförvaltare, Västerås
+C|134913|57|M|Anders Frödin|57 år, Anläggningsarbetare, Kungsör
+C|76182|63|K|Nan Rummelhoff|63 år, Konstnär, Västerås
+C|76177|51|M|Tomas Söhr|51 år, Företagare, Västerås
+C|76202|40|M|Alexander Löfberg|40 år, Barnskötare, Västerås
+C|75607|42|M|Kent Pettersson|42 år, Företagare, Surahammar
+C|167009|57|M|Tommy Eriksson|57 år, Trafik- o Byggvakt, Virsbo
+C|134853|58|M|Tony Pehrsson|58 år, Företagare, Götlunda
+C|134910|65|M|Roland Jansson|65 år, Företagare, Kungsör
+C|134912|54|K|Annicka Eriksson|54 år, Personlig Assistent, Kungsör
+C|134916|77|M|Rune Broström|77 år, Pensionär, Kungsör
+C|167014|48|K|Maija Karresmaa Asplund|48 år, Vårdare LSS, Köping
+C|76197|70|M|Lars Sundqvist|70 år, Pensionär, Västerås
+C|76186|47|M|Robert Holmberg|47 år, Truckförare, Västerås
+C|76193|57|M|Sven Jonsson|57 år, Maskinist, Västerås
+C|76179|55|M|Håkan Gunstedt|55 år, Företagare/Konsult, Västerås
+C|16576|48|K|Johanna Ritvadotter|49, f d teaterarbetare, Sala
+C|16732|60|M|Hans Jansson|60, regionråd, Västerås
+C|16733|43|K|Heidi-Maria Wallinder|43, politisk sekreterare, Västerås
+C|16575|44|M|Fredrik Stockhaus|43, folkhögskollärare, Västerås
+C|16735|66|K|Pratima Åslund|66, arbetsmarknadshandläggare, Norberg
+C|16586|41|M|Niklas Strand|40, väktare, Västerås
+C|16737|25|K|Felicia Granath|25, människorättsrådgivare, Västerås
+C|16738|67|M|Dan Avdic Karlsson|67, socialsekreterare, Arboga
+C|16739|36|K|Maja Garpelin|36, sjukgymnast, Västerås
+C|16577|48|M|Peter Berg|48, ambulanssjukvårdare, Surahammar
+C|16592|33|K|Hanna Ericsson Franzén|33, förskollärare, Arboga
+C|16573|48|M|Eric Äras Simitko|48, rådgivare, Västerås
+C|16743|53|K|Sofia Telfer|52, administrativ sekreterare, Västerås
+C|16744|57|M|Hans Granlund|57, projektledare, Fagersta
+C|16578|70|K|Elisabeth Hanning|70, pensionär, Fagersta
+C|16746|61|M|Stefan Lundborg|60, vårdare, Köping
+C|16747|58|K|Bodil Hildemar|58, administratör, Sala
+C|16748|69|K|Annica Lindholm|68, pensionär/f d handläggare, Kolbäck
+C|16749|46|M|Fredrik Johansson|46, kontorsassistent, Norberg
+C|16750|65|K|Inga-Lill Frössman|65, leg sjuksköterska, Arboga
+C|16751|71|M|Christer Henriksson|71, pensionär, Kungsör
+C|16752|47|M|Peter Tuike|47, industriarbetare, Virsbo
+C|16594|63|K|Siw Sundberg|62, vårdlärare, Västerås
+C|16754|67|M|Kent Persson|67, pensionär, Norberg
+C|16581|46|K|Vicktoria Bagi|46, kommunikatör/programansvarig, Västerås
+C|16756|48|M|Andrew Morgan|48, drifttekniker, Västerås
+C|16757|56|K|Airi Andersson|56, barnskötare, Arboga
+C|16593|61|M|Lars Lithammer|61, specialpedagog, Västerås
+C|16570|38|K|Vasiliki Tsouplaki|38, riksdagsledamot, Skultuna
+C|16760|67|M|Alberto Castellanos|67, pensionär, Sala
+C|16579|33|K|Linn Wegemo|33, lagerarbetare, Västerås
+C|16591|39|M|Pär Lanninge|39, ombudsman, Västerås
+C|16763|73|K|Nancy Ibarra|72, civilekonom, Norberg
+C|16588|54|M|Daniel Guerra|53, illustratör, Västerås
+C|16585|59|K|Maria Arvidsson|59, förskollärare, Sala
+C|16595|40|M|Olle Kvarnryd|40, lärare, Västerås
+C|16619|38|K|Lisa Parland|38, journalist, Västerås
+C|16768|70|M|Billy Tungren|70, pensionerad socialsekreterare, Västerås
+C|16596|54|K|Catarina Eriksson|54, sjuksköterska, Västerås
+C|16770|34|M|Sebastian Housset|34, lärare, Västerås
+C|16590|44|K|Åsa Forss|44, hästskötare, Ransta
+C|16599|57|M|Bertil Svensson|57, civilingenjör, Västerås
+C|16598|30|K|Malin Larsson|30, studerande
+C|16597|42|M|Mohsen Ghobadipour|42, tågmontör, Västerås

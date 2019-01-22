@@ -1,5 +1,59 @@
-2|10552|10553|10554|10555|10556|10557|10558|10559|10560|10561|10562|10563|10564|10565|10566|10567|10568|10570|10571|10572
-4|341234|341235|341236|341237|341238|341239|341240|341241|341242
-3|208509|208510|208511|208512|208513|208514
-110|48258
-5|235326|30051|30013|245522|245523|245524|245525|245815|245816|245817|245818|245819
+T|Arjeplog
+A|2|10552|10553|10554|10555|10556|10557|10558|10559|10560|10561|10562|10563|10564|10565|10566|10567|10568|10570|10571|10572
+A|4|341234|341235|341236|341237|341238|341239|341240|341241|341242
+A|3|208509|208510|208511|208512|208513|208514
+A|110|48258
+A|5|235326|30051|30013|245522|245523|245524|245525|245815|245816|245817|245818|245819
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|10552|53|K|Britta Flinkfeldt|53 år, Arjeplog
+C|10553|65|M|Mats Abrahamsson|65 år, Arjeplog
+C|10554|44|K|Mari-Teres Ögren|44 år, Arjeplog
+C|10555|45|M|Görgen Åberg|45 år, Arjeplog
+C|10556|48|K|Veronica Burman|48 år, Slagnäs
+C|10557|64|M|Mauricio Puga|64 år, Arjeplog
+C|10558|71|K|Christina Wallström|71 år, Radnejaur
+C|10559|58|M|Rickard Jilläng|58 år, Änganäs
+C|10560|50|K|Anna-Lena Le Goascogne|50 år, Arjeplog
+C|10561|76|M|Kjell Marklund|78 år, Mellanström
+C|10562|33|K|Sonja Lundquist|33 år, Mellanström
+C|10563|77|M|Rolf Laestander|77 år, Arjeplog
+C|10564|41|K|Åsa Larsson|41 år, Arjeplog
+C|10565|77|M|Kurt Burman|77 år, Arjeplog
+C|10566|19|K|Elin Ögren|19 år, Arjeplog
+C|10567|75|M|John Sundström|75 år, Laisvall
+C|10568|52|K|Olga Rusinova|52 år, Arjeplog
+C|10570|75|K|Ulla Lindström|75 år, Mellanström
+C|10571|51|M|Jan Stenberg|51 år, Arjeplog
+C|10572|66|K|Ingmari Nykvist|66 år, Myrås
+C|341234|54|M|Sten-Åke Nilsson|
+C|341235|56|M|John Wennström|
+C|341236|46|K|Nina Lango|
+C|341237|53|M|Johan Hermansson|
+C|341238|68|M|Ulf Ottosson|Arjeplog
+C|341239|52|K|Laila Lundgren Sundström|
+C|341240|32|K|Stina Ederlöv|
+C|341241|52|M|Mikael Lejon|
+C|341242|56|K|Anette Wallström|
+C|208509|31|K|Jeanette Ranfjäll|31 år, Lärare
+C|208510|34|M|Joakim Renström|34 år, Lärare
+C|208511|36|M|Per Lampinen|36 år, Arbetsledare
+C|208512|62|M|Alf Sundström|62 år, Företagare
+C|208513|36|M|Michael Cermenius|36 år, Företagare
+C|208514|76|K|Ulla-Britt Nilsson|76 år, Pensionär
+C|48258|40|M|Robert Håkansson|Distriksordförande, 40, Piteå
+C|235326|65|M|Albert Lestander|
+C|30051|65|K|Elisabeth Bramfeldt|Arjeplog
+C|30013|24|M|Erik Grähs|Arjeplog
+C|245522|39|K|Inger Holgersen|
+C|245523|53|M|Robert Lundström|
+C|245524|56|M|Ola Holmström|
+C|245525|29|K|Sanna Nordin|
+C|245815|19|M|Andreas Marklund|
+C|245816|34|K|Sofa Nezíri|
+C|245817|59|K|Maud Lestander|
+C|245818|59|M|Ove Burman|
+C|245819|30|M|Tommy Marklund|

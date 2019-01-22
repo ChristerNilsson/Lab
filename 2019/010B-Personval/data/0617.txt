@@ -1,6 +1,112 @@
-2|86996|86997|86998|86999|87000|87001|87002|87003|87004|87005|87006|87007|87008|87009|87010|87011|87012|87013|87014|87015|87016|87017|87018|87019|87020|87021|87022|87023|87024|87025|87026|87027|87028|87029|87030|87031
-4|130985|130988|130987|130986|130993|130990|130991|130992|130989|130994|130995|130996|130997
-68|77752|77753|77754|77755|77756|77757|77758|77759|77760|77761|77762|77763|77764|77765|77766|77767|77768|77769
-1|1662|218005|218006|218007|218008|418132|218010|218011|218014|218013|218012|218015|218016|218021|218017|218018|218019|218020
-110|126109|126110|126111|126112|126113|126114|273719|273720|273721|126115|126116|126117
-5|504203|504204
+T|Gnosjö
+A|2|86996|86997|86998|86999|87000|87001|87002|87003|87004|87005|87006|87007|87008|87009|87010|87011|87012|87013|87014|87015|87016|87017|87018|87019|87020|87021|87022|87023|87024|87025|87026|87027|87028|87029|87030|87031
+A|4|130985|130988|130987|130986|130993|130990|130991|130992|130989|130994|130995|130996|130997
+A|68|77752|77753|77754|77755|77756|77757|77758|77759|77760|77761|77762|77763|77764|77765|77766|77767|77768|77769
+A|1|1662|218005|218006|218007|218008|418132|218010|218011|218014|218013|218012|218015|218016|218021|218017|218018|218019|218020
+A|110|126109|126110|126111|126112|126113|126114|273719|273720|273721|126115|126116|126117
+A|5|504203|504204
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|86996|45|M|Markus Kauppinen|45 år, Logistiker,Hillerstorp
+C|86997|43|K|Annie Fredriksen|43 år, Rektor,Gnosjö
+C|86998|55|M|Tomas Johansson|Kommunalarbetare,Kulltorp,55 år
+C|86999|45|K|Camilla Karlsson|Undersköterska,Gnosjö,45 år
+C|87000|55|M|Kari Parman|56 år, Produktutvecklare,Gnosjö
+C|87001|39|K|Ewa Einarsson|39 år, Gymnasielärare,Gnosjö
+C|87002|59|M|Bo-Göran Härestrand|59 år, Operatör,Gnosjö
+C|87003|62|K|Pia Lind|Lärare,Hillerstorp,63 år
+C|87004|53|M|Jörgen Johansson|Maskinoperatör,Nissafors,53 år
+C|87005|58|K|Ingela Mejenqvist-Heikkilä|Personlig assistent,Nissafors,58 år
+C|87006|47|M|Fredrik Francke|Industriarbetare,Gnosjö,47 år
+C|87007|68|M|Stig Axelsson|Pensionär,Gnosjö,68 år
+C|87008|30|M|Kristoffer Karlsson|Operatör,Gnosjö,30 år
+C|87009|19|M|Oscar Parman|Maskinoperatör,Gnosjö,20 år
+C|87010|34|M|Jimmy Emanuelsson|Operatör,Gnosjö,34 år
+C|87011|74|M|Sulo Koppelo|Pensionär,Hillerstorp,75 år
+C|87012|70|M|Bengt-Göran Johansson|Pensionär,Kulltorp,71 år
+C|87013|72|K|Yvonne Koppelo|Pensionär,Hillerstorp,73 år
+C|87014|29|M|Johan Mejenqvist|29 år, Verktygsmakare,Nissafors
+C|87015|64|K|Marita Axelsson|Pensionär,Gnosjö,65 år
+C|87016|34|M|Izet Causevic|Lageransvarig,Hillerstorp,34 år
+C|87017|69|M|Gert Carlsson|Pensionär,Gnosjö,70 år
+C|87018|65|K|Ing-Britt Petersson|Pensionär,Gnosjö,65 år
+C|87019|31|M|Micael Larsson|Socionom,Hillerstorp,32 år
+C|87020|58|K|Ann-Charlott Hilding|Montör,Gnosjö,58 år
+C|87021|32|M|Robin Dziobek|Metallarbetare,Hillerstorp,32 år
+C|87022|56|M|Kenneth Karlsson|Produktionsplanerare,Marieholmsbruk,56 år
+C|87023|40|K|Jessica Källberg|Badmästare,Gnosjö,41 år
+C|87024|54|M|Ulf Brandin|Trafikledare,Gnosjö,54 år
+C|87025|58|M|Peter Olausson|Undersköterska,Gnosjö,58 år
+C|87026|55|K|Helene Hjulfors|Barnskötare,Gnosjö,55 år
+C|87027|71|M|Kennet Josefsson|Pensionär,Gnosjö,71 år
+C|87028|71|K|Margareta Francke|Pensionär,Gnosjö,72 år
+C|87029|73|M|Klas-Uno Francke|Pensionär,Gnosjö,74 år
+C|87030|51|M|Michael Bucht|VA-Chef,Gnosjö,52 år
+C|87031|67|M|Markku Kauppinen|Pensionär,Gnosjö,68 år
+C|130985|43|M|Johan Malm|43, Lantbrukare, Hillerstorp
+C|130988|59|K|Lizbeth Johansson|59, Tim vikarie, Nissafors
+C|130987|73|M|Bengt-Göran Fransson|73, Senior, Törestorp, Hillerstorp
+C|130986|47|K|Anette Klasson|47, Gymnasielärare, Hädinge,Hillerstorp
+C|130993|47|M|Niclas Blomgren|47, Inköpare och säljare, Hagelstorp Framnäs, Nissafors
+C|130990|71|K|Gunnie Davidsson|71, Senior, Kulltorp
+C|130991|21|M|Philip Nilsson|21, Maskinoperatör, Kävsjö-Rudö, Hillerstorp
+C|130992|44|K|Jenny Malm|44, Förskollärare, Hädinge, Hillerstorp
+C|130989|46|M|Anders Johansson|46, Arbetsledare, Skärvhult, Åsenhöga
+C|130994|71|M|Gunnar Friberg|71, Pensionär, Näset, Åsenhöga
+C|130995|37|M|Josef Ideskog|37, Teknisk säljare, Österskog, Hillerstorp
+C|130996|40|M|Ola Johnsson|40, Sjöingenjör, Hädinge, Hillerstorp
+C|130997|75|K|Inga-lill Gustavsson|75, Företagare, Stråkeved, Hillerstorp
+C|77752|53|K|Maria Sandberg|Lärare, Gnosjö
+C|77753|53|K|Elisabeth Eklund-Svensson|Barnskötare, Kulltorp
+C|77754|48|M|Nicklas Huuva|Egenföretagare, Gnosjö
+C|77755|44|M|Samuel Davidsson|Företagare, Hillerstorp
+C|77756|55|M|Stefan Lundell|Begravningsrådgivare, Gnosjö
+C|77757|70|K|Liisa Svenningsson|Fd riksdagsled., Åsenhöga
+C|77758|32|M|Harun Odowa|Lärare, Gnosjö
+C|77759|61|M|LarsÅke Magnusson|Produktionschef, Gnosjö
+C|77760|28|M|Jakob Wendefors|Läkare, Gnosjö
+C|77761|43|M|Joakim Adriansson|Polis, Gnosjö
+C|77762|32|M|Thomas Pettersson|Prod.tekniker, Hillerstorp
+C|77763|27|M|Edvin Lindqvist|Företagare, Hillerstorp
+C|77764|60|K|Anita Magnusson|Boendestödjare, Gnosjö
+C|77765|76|M|Leif Ericsson|Pensionär, Åsenhöga
+C|77766|67|M|Ingemar Karlsson|Pensionär, Marieholm
+C|77767|46|M|Daniel Karlsson|Uppmuntrare, Hillerstorp
+C|77768|55|K|Pia Elmersson|Kock, Kulltorp
+C|77769|57|M|Håkan Emanuelsson|Entreprenör, Gnosjö
+C|1662|46|K|Kristine Hästmark|46 år, Kommunstyrelsens ordförande, Gnosjö
+C|218005|40|M|Jerry Jönsson|40 år, Koordinator, Hillerstorp
+C|218006|44|K|Senada Sacic|44 år, Undersköterska, Gnosjö
+C|218007|50|M|Rolf Davidsson|50 år, Egen företagare, Hillerstorp
+C|218008|36|M|Daniel Backstig|36 år, Affärsutvecklare, Hillerstorp
+C|418132|69|M|Ingmar Johansson|69 år, Pensionär, Gnosjö
+C|218010|65|M|Hans Uhlmann|65 år, Egen företagare, Gnosjö
+C|218011|67|M|Arne Ottosson|67 år, Pensionär, Gnosjö
+C|218014|26|M|Linus Sandberg|26 år, Byggsäljare, Gnosjö
+C|218013|63|M|Jan-Olof Bengtsson|63 år, Företagare, Gnosjö
+C|218012|69|M|Folke Johansson|69 år, Företagare, Söderby
+C|218015|70|M|Sture Jonsson|70 år, Företagare, Rannebo
+C|218016|50|K|Pia Thulin|50 år, Företagare, Österskog
+C|218021|19|K|Nasro Abdi Mahamud|19 år, Studerande
+C|218017|70|M|Bjarne Persson|70 år, Ingenjör, Gnosjö
+C|218018|39|M|Marcus Stacke|39 år, Företagare, Gnosjö
+C|218019|66|K|Margaretha Schneider Persson|66 år, Undersköterska, Gnosjö
+C|218020|58|M|Tomas Pettersson|58 år, Företagare, Gnosjö
+C|126109|47|M|Eric Westroth|Familjeföretagare, Gnosjö
+C|126110|54|M|Håkan Helgebring|54, Lantbrukare, Nissafors
+C|126111|52|K|Helena Elmqvist|Undersköterska, Gnosjö
+C|126112|47|M|Martti Steinmetz|47, Avdelningschef, Gnosjö
+C|126113|71|M|Iwan Hallström|71, Fd företagare
+C|126114|48|M|Daniel Elmqvist|48, Verktygskonstruktör
+C|273719|72|M|Kennert Sörensen-Munkholm|72, Företagare
+C|273720|54|M|Leif Gröhn|54, Produktionstekniker
+C|273721|40|M|Morgan Scammel|40, Mekaniker, Gnosjö
+C|126115|67|K|Ingela Hallström|67, Fd företagare
+C|126116|70|M|Olof Rydegård|70, Entreprenör
+C|126117|52|M|Tom Persson|52, Grafiker
+C|504203|32|M|Thinh Tran|socionom, Gnosjö
+C|504204|60|K|Anna-Karin Ramnemo|förskollärare, Åsenhöga

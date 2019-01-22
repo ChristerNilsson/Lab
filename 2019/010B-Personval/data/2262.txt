@@ -1,9 +1,203 @@
-2|68193|68194|68195|68196|68197|68198|67540|67523|68201|68202|67528|68204|68205|68206|68207|67535|67536|68210|67544|68212|68213|68214|67524|67531|68217|68218|68219|68220|68221|68222|68223|68224|67542|68226|68227|68228|68229|68230|68231|68232|68233|68234|68235|68236|68237|68238|68239|68240|68241|68242
-4|8672|8673|8674|9200|9201|9304|9305|9306|9307|9308|9309|9310|9311|9312|9313|9314|9315|9316|9317|9318|9319
-68|15581|15767|15583|15789|15764|31582|15765|15769|39831|31583|39833|15790|21021|16001|15768|31585|16000|31557
-3|277220|277240|277247|277250|277229|277239|277814|277244|277243|277227|277263|277267|277820|277259|277265|277254|277269|277261|277826
-55|179515|179516|179517|179518|179519|179520|179521|179522
-1|240714|268415|268416|268417|240718|268419|268420|268421|268422|268423|268424|268425|268426|268427|268428
-110|360096|361236|360092|360088|360136|360109|360114|361242|360121|361244|360152|361246|360138|511298|509203|515532|515533
-1322|392292|275660|392295|275683|392301|392302|392303|392304|395991|395992|392606|392607|392608|393676|393677|393678|393679|393680|393723|393724|393725|393726
-5|233307|233308|233309|233310|233311|233312|233313|233314|233315|233316|233317|233318|233319|233320|233321
+T|Timrå
+A|2|68193|68194|68195|68196|68197|68198|67540|67523|68201|68202|67528|68204|68205|68206|68207|67535|67536|68210|67544|68212|68213|68214|67524|67531|68217|68218|68219|68220|68221|68222|68223|68224|67542|68226|68227|68228|68229|68230|68231|68232|68233|68234|68235|68236|68237|68238|68239|68240|68241|68242
+A|4|8672|8673|8674|9200|9201|9304|9305|9306|9307|9308|9309|9310|9311|9312|9313|9314|9315|9316|9317|9318|9319
+A|68|15581|15767|15583|15789|15764|31582|15765|15769|39831|31583|39833|15790|21021|16001|15768|31585|16000|31557
+A|3|277220|277240|277247|277250|277229|277239|277814|277244|277243|277227|277263|277267|277820|277259|277265|277254|277269|277261|277826
+A|55|179515|179516|179517|179518|179519|179520|179521|179522
+A|1|240714|268415|268416|268417|240718|268419|268420|268421|268422|268423|268424|268425|268426|268427|268428
+A|110|360096|361236|360092|360088|360136|360109|360114|360121|361244|360152|361246|360138|511298|509203|515532|515533
+A|1322|392292|275660|392295|275683|392301|392302|392303|392304|395991|395992|392606|392607|392608|393676|393677|393678|393679|393680|393723|393724|393725|393726
+A|5|233307|233308|233309|233310|233311|233312|233313|233314|233315|233316|233317|233318|233319|233320|233321
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1322|TimP|Timråpartiet
+B|5|V|Vänsterpartiet
+C|68193|49|M|Lars-Erik Byström|49 år, Timrå
+C|68194|57|K|Mari Eliasson|57 år, Timrå
+C|68195|50|M|Stefan Dalin|50 år, Timrå
+C|68196|34|K|Johanna Bergsten|34 år, Sörberge
+C|68197|67|M|Jan-Christer Jonsson|67 år, Sörberge
+C|68198|68|K|Lisbeth Eklund|68 år, Söråker
+C|67540|72|M|Per Arne Frisk|72 år, Sörberge
+C|67523|64|K|Pirjo Jonsson|64 år, Timrå
+C|68201|45|M|Björn Könberg|45 år, Timrå
+C|68202|47|K|Anna-Lena Fjellström|47 år, Fagervik
+C|67528|31|M|Erik Bäckström Andersson|31 år, Söråker
+C|68204|45|K|Karina Nordgren|45 år, Timrå
+C|68205|70|M|Per-Arne Olsson|70 år, Bergeforsen
+C|68206|54|K|Annika Söderberg|54 år, Sörberge
+C|68207|67|M|Gunnar Grönberg|67 år, Söråker
+C|67535|56|K|Ann-Margret Bäckström|56 år, Söråker
+C|67536|32|M|Johan Engström Lockner|32 år, Timrå
+C|68210|46|K|Jeanette Nordin|46 år, Sörberge
+C|67544|51|M|Roger Öberg|51 år, Ljustorp
+C|68212|55|K|Sanna Wallin|55 år, Ljustorp
+C|68213|50|M|Lars Kempe|50 år, Söråker
+C|68214|54|K|Lena Lindh|54 år, Timrå
+C|67524|71|M|Bengt Nilsson|71 år, Söråker
+C|67531|45|K|Pernilla Karlsson|45 år, Timrå
+C|68217|49|M|Peter Persson|49 år, Söråker
+C|68218|49|K|Charlotte Evert|49 år, Ljustorp
+C|68219|48|M|Christer Andersson|48 år, Söråker
+C|68220|32|M|Patrik Eriksson|32 år, Söråker
+C|68221|67|M|Bo Sjödin|67 år, Bergeforsen
+C|68222|72|K|Lisbet Lundgren|72 år, Sörberge
+C|68223|51|M|Jim Karlsson|51 år, Timrå
+C|68224|46|K|Marie Granström Käll|46 år, Timrå
+C|67542|50|M|Patrik Norberg|50 år, Sörberge
+C|68226|48|M|Marcus Eriksson|48 år, Sörberge
+C|68227|45|M|Roger Lindell|45 år, Timrå
+C|68228|44|M|Robert Kalcik|44 år, Ljustorp
+C|68229|65|M|Sture Melin|65 år, Timrå
+C|68230|73|K|Lena Hallin|73 år, Timrå
+C|68231|76|M|Leif Söderberg|76 år, Timrå
+C|68232|53|K|Marie Lodin|53 år, Sörberge
+C|68233|40|M|Daniel Hansson|40 år, Bergeforsen
+C|68234|68|K|Marie Bergman|68 år, Timrå
+C|68235|58|M|Christer Brodén|58 år, Timrå
+C|68236|37|K|Nina Könberg|37 år, Timrå
+C|68237|47|M|Pierre Evert|47 år, Ljustorp
+C|68238|57|K|Lillian Åström|57 år, Timrå
+C|68239|44|M|Tomas Sellin|44 år, Timrå
+C|68240|71|K|Gunilla Nilsson|71 år, Timrå
+C|68241|56|M|Pär-Ove Eriksson|55 år, Fagervik
+C|68242|68|M|Kjell Olsson|68 år, Timrå
+C|8672|53|M|Niklas Edén|arkivarie, 53 år, Timrå
+C|8673|70|K|Anita Hellstrand|ekonom, 70 år, Timrå
+C|8674|40|M|Björn ter Bruggen|chefsjurist, 40 år, Timrå
+C|9200|46|K|Lilian Lagergren Johansson|pedagog, 46 år, Hässjö
+C|9201|40|K|Ida Lindström|företagskonsult, 40 år, Timrå
+C|9304|71|M|Sven-Olof Selander|egen företagare, 71 år, Timrå
+C|9305|38|M|Peter Engblom|butikschef, 38 år, Bergeforsen
+C|9306|41|K|Anna Eriksson|djurskötare, 41 år, Ljustorp
+C|9307|62|K|Marie Holm|egen företagare, 62 år, Hässjö
+C|9308|32|M|Tobias Pernu|fritidsledare, 32 år, Söråker
+C|9309|47|K|Åsa Eriksson|agronom, 47 år, Timrå
+C|9310|21|M|Oscar Westerlund|lantbrukare, 21 år, Ljustorp
+C|9311|45|K|Samar Balawy|civilingenjör, 45 år, Sörberge
+C|9312|75|M|Anders Lagerqvist|pensionär, 75 år, Tynderö
+C|9313|52|M|Ludvig Paulsson|restaurangarbetare, 52 år, Timrå
+C|9314|57|M|Stig Högberg|lantbrukare, 57 år, Söråker
+C|9315|73|M|Lars-Åke Lagergren|pensionär, 73 år, Hässjö
+C|9316|50|M|Robert Edén|mekaniker, 50 år, Ljustorp
+C|9317|71|M|Björn Andersson|pensionär, 71 år, Ljustorp
+C|9318|81|M|Ingvar Smedjegård|fd ingenjör, 80 år, Timrå
+C|9319|73|M|Lars Erik Nordin|pensionär, 73 år, Söråker
+C|15581|44|M|Henrik Sendelbach|Timrå
+C|15767|60|M|Sven-Åke Jacobson|Edsgården
+C|15583|65|K|Ingrid Sendelbach|Timrå
+C|15789|44|M|Roger Boork|Bergeforsen
+C|15764|78|K|Ulla Sjöström|Vivsta
+C|31582|55|M|Krister Jönsson|Stavreviken
+C|15765|50|K|Anastasie Mukabera|Sörberge
+C|15769|67|M|Sven-Åke Wahlberg|Hästudden
+C|39831|34|M|Martin Unger|Ny-Vivsta
+C|31583|64|K|Lisbeth Stenlund|Ny-Vivsta
+C|39833|43|M|Viktor Bengtson|Böleängen
+C|15790|51|M|Roger Henriksson|Vävland
+C|21021|33|K|Linda Unger|Timrå
+C|16001|80|M|Torsten Uppgård|Söråker
+C|15768|53|M|Jean-Néstor Lenga Ingoli|Tallnäs
+C|31585|74|K|Siv Zetterlund|Lilla Bandsjön
+C|16000|75|K|Gun Britt Uppgård|Söråker
+C|31557|71|M|Mats Lindén|Vivsta
+C|277220|42|K|Chatrine Nordlund|Administratör, 42 år, Bergeforsen
+C|277240|69|M|Björn Hellquist|Lärare, 69 år, Timrå
+C|277247|71|K|Megan Sandberg|Företagssäljare, 71 år, Timrå
+C|277250|33|K|Elin Eriksson|Projektledare, 33 år, Söråker
+C|277229|43|M|David Wallin|IT-tekniker, 43 år, Bergeforsen
+C|277239|69|K|Agneta Lindén|Näringslivsutvecklare, 69 år, Sörberge
+C|277814|68|K|Gunilla Ojala|Förskollärare, Tynderö
+C|277244|57|M|Peter Granåsen|Ekonomichef, 57 år, Timrå
+C|277243|70|K|Gudrun Molander|Socionom, 70 år, Sörberge
+C|277227|46|K|Jenny Lansink|Vice VD, 46 år, Sörberge
+C|277263|70|K|Agneta Johansson|Arkivsekreterare, 70 år, Krigsbyn
+C|277267|72|M|Bengt Molander|Lärare, 72 år, Sörberge
+C|277820|61|K|Gun Stefansson|Administratör, Timrå
+C|277259|81|K|Marianne Andersson|Läkarsekreterare, 81 år, Sörberge
+C|277265|66|M|Arne Perming|Egenföretagare, 66 år, Bergeforsen
+C|277254|82|K|Marianne Forzelius|Lärare, 83 år, Timrå
+C|277269|85|M|Sten-Eric Forzelius|Civilingenjör, 85 år, Timrå
+C|277261|65|M|Olof Markström|Redovisningskonsult, 67 år, Timrå
+C|277826|79|M|Olof Svensson|Teknologie licentiat, Söråker
+C|179515|62|K|Elisabet Zemturis|62, ekonom, Tynderö
+C|179516|37|K|Anna Mellberg|37, försäkringstjänsteman, Timrå
+C|179517|43|M|Staffan Rydblom|43, fil lic, Fagervik
+C|179518|71|M|Folke Nyström|71, fd utvecklingsledare, Söråker
+C|179519|65|K|Berit Mannberg|65, pensionär, Söråker
+C|179520|49|M|Sahwii Abdulloh|49, bussförare, Sörberge
+C|179521|69|M|Per-Olov Bergman|69, personlig assistent, Tallnäs
+C|179522|38|K|Sara Westin|38, IT-konsult, Fagervik
+C|240714|50|M|Tony Andersson|50 år, Företagare, Timrå
+C|268415|64|M|Göran Ljungblom|Reklamman, Bergeforsen
+C|268416|64|K|Zofia Henriksson|64 år, Lärare, Timrå
+C|268417|44|M|Markus Sjöström|Företagare, Timrå
+C|240718|19|M|Oskar Andersson|19 år, Studerande, Timrå
+C|268419|51|M|Mats Larsson|Teknisk säljare, Timrå
+C|268420|31|M|Marcus Kullin|Vaktmästare, Söråker
+C|268421|38|M|Jens Johansson|Innovationsledare, Timrå
+C|268422|50|M|Thomas Aune|Företagare, Bergeforsen
+C|268423|41|M|Håkan Svensson|Mekaniker, Söråker
+C|268424|42|M|Björn Henriksson|Försäkringsman, Timrå
+C|268425|63|M|Ernie Willysson|Traktorförare, Timrå
+C|268426|44|K|Veronica Berg|Butikschef, Söråker
+C|268427|48|M|Ali El-Najjar|IT konsult, Timrå
+C|268428|53|M|Naser Shiqwara|IT konsult, Timrå
+C|360096|33|M|Marcus Molinder|Maskintekniker, Timrå
+C|361236|55|M|Ulf Lindholm|55, Svetsare
+C|360092|29|M|Fredrik Bernblom|Hamnarbetare, Timrå
+C|360088|57|K|Marianne Larsson|Ekonomiadministratör, Timrå
+C|360136|28|M|Jonathan Lundin|28, Timrå
+C|360109|65|M|Mikael Sjöberg|65, Timrå
+C|360114|53|K|Angela Bodin|53, Timrå
+C|360121|62|M|Barry Cotz|62, Timrå
+C|361244|55|M|Tony Hedberg|55, Lastbilschaufför
+C|360152|55|M|Glenn Westling|55, Timrå
+C|361246|51|M|Kim Ahlstrand|50, Egen företagare
+C|360138|56|M|Håkan Sjöström|56, Timrå
+C|511298|63|K|Karin Sellén|63, Ekonom
+C|509203|41|K|Monika Norlin Hanberg|
+C|515532|38|K|Jessica Olsson|
+C|515533|58|M|Dan Nyström|
+C|392292|51|K|Lotta Borg|51 år, vårdare
+C|275660|31|M|Robert Thunfors|31 år, Rättslig samordnare, Timrå
+C|392295|34|K|Monica Persson|34 år, studiestödsutredare
+C|275683|28|M|David Forslund|28 år, Kriminalvårdare, Timrå
+C|392301|47|K|Monica Åberg|47 år, läkarsekreterare
+C|392302|60|M|Lennart "Dallas" Dahlin|60 år, maskinförare
+C|392303|58|K|Eva Centerstad|58 år, vårdare
+C|392304|20|M|Edvin Borg|20 år, studerande
+C|395991|69|K|Ann-Christine Bylund|69 år, pensionär
+C|395992|67|M|Conny Edelryd|67 år, pensionär
+C|392606|60|K|Ann-Christine Ekerhall|60 år, barnskötare
+C|392607|32|M|Oscar Selling|32 år, platschef
+C|392608|71|K|Yvonne Strömberg|70 år, pensionär
+C|393676|48|M|Roger Nordén|48 år, besiktningstekniker
+C|393677|34|K|Annelie Ekerhall|34 år, kock
+C|393678|34|M|Johan Persson|34 år, teknologie doktor
+C|393679|53|M|Anders Borg|53 år, elevassistent
+C|393680|57|M|Åke Norin|57 år, egenföretagare
+C|393723|18|M|Erik Borg|18 år, elektriker
+C|393724|72|M|Lennart Westin|72 år, pensionär
+C|393725|49|M|Magnus Rosenholm|49 år, maskinoperatör
+C|393726|73|M|Lars Linnsén|73 år, pensionär
+C|233307|37|K|Heidi Jacobsen|Lärare
+C|233308|47|K|Maritza Villanueva Contreras|Barnsjuksköterska
+C|233309|39|M|Lars Bergman|
+C|233310|47|M|Svante Sörmark|It-vaktmästare
+C|233311|63|M|Stig Lappen Svedin|Skogsarbetare
+C|233312|50|K|Lena Dahlin Klaar|Studerande
+C|233313|67|M|Eduardo Villanueva Pinto|Pensionär
+C|233314|45|K|Jessika Karlsson|
+C|233315|74|M|Jan Jennehag|Pensionär
+C|233316|69|K|Patricia Contreras Henry|Undersköterska(pensionär)
+C|233317|71|M|Tommy Klaar|Journalist
+C|233318|28|K|Sandra Fahlberg Fridh|Omsorgspersonal
+C|233319|46|M|Stefan Engblom|Lastbilschaufför
+C|233320|52|K|Ann-Chatrin Nordin|SPA-terapeut
+C|233321|80|M|Kjell Viklund|

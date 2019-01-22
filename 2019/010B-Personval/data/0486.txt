@@ -1,9 +1,259 @@
-2|140858|141218|141219|141220|141221|141222|141223|141224|141225|141226|141227|141228|141229|141230|141231|141232|141233|400027|141235|141236|141237|143854|143855|143856|143857|143858|143859|143860|143861|143862|143863|143864|143865|143866|143867|168863|143868|143869|143870|143871|143872|143873|143874|143875|143876|143877|143878|143879|143880|143881|328263|143882
-4|196503|197673|198542|198543|198544|196491|198546|196506|196483|196499|198550|198551|198552|198553|198554|198555|197701|198557|198558|198559|198560
-68|166585|166577|166675|167022|166588|167024|167025|167026|167027|166586|167029|166581|167031|167032|167033|167034
-3|2588|2752|2188|2754|2184|2757|2758|2759|2760|2761|2762|2763|2764|2765|2766|2767|2768
-55|185495|185496|185497|185498|185499|185500|185501|185502
-1|10285|9985|10127|10288|10289|10290|10291|10292|10293|10294|10295|10296|10164|10298|10299|10300|10301|10302|10303|10304|10305|10306|10307|10308|10310|10311|10312|10313|10314|10315|10316|10317|10318|10319|10320|10332|10321|10322|10323|10324|10325|10174|10003|10328|10329|10330|10331|10333
-176|278544|278545|278546|278547|278548|278549|278550|278551|278552|278553|278554|278555|278556|278557|278558
-110|8039|8040|8041|8042|8043|8044|8045|8046|8047|8048|8049|8050|8051|8052|8053|8054|8055|8056|8057|8058|8059|8060|8061|8062
-5|79420|12091|12090|79423|79424|79425|79426|79427|79428|12092|12080|79431|79432|79433|79434|79435|79436|79437|79438|79439|79440|79441|79442|79443|79444|79445|79446|79447|79448|79449|79450|79451|79452|79453|79454|79455|79456|79457|79458|79459|79460
+T|Strängnäs
+A|2|140858|141218|141219|141220|141221|141222|141223|141224|141225|141226|141227|141228|141229|141230|141231|141232|141233|400027|141235|141236|141237|143854|143855|143856|143857|143858|143859|143860|143861|143862|143863|143864|143865|143866|143867|168863|143868|143869|143870|143871|143872|143873|143874|143875|143876|143877|143878|143879|143880|143881|328263|143882
+A|4|196503|197673|198542|198543|198544|196491|198546|196506|196483|196499|198550|198551|198552|198553|198554|198555|197701|198557|198558|198559|198560
+A|68|166585|166577|166675|167022|166588|167024|167025|167026|167027|166586|167029|166581|167031|167032|167033|167034
+A|3|2588|2752|2188|2754|2184|2757|2758|2759|2760|2761|2762|2763|2764|2765|2766|2767|2768
+A|55|185495|185496|185497|185498|185499|185500|185501|185502
+A|1|10285|9985|10127|10288|10289|10290|10291|10292|10293|10294|10295|10296|10164|10298|10299|10300|10302|10303|10304|10305|10306|10307|10308|10310|10311|10312|10313|10314|10315|10316|10317|10318|10319|10320|10332|10321|10322|10323|10324|10325|10174|10003|10328|10329|10330|10331|10333
+A|176|278544|278545|278546|278547|278548|278549|278550|278551|278552|278553|278554|278555|278556|278557|278558
+A|110|8040|8041|8042|8043|8044|8045|8046|8047|8048|8049|8050|8051|8052|8053|8054|8055|8056|8057|8058|8059|8060|8061|8062
+A|5|79420|12091|12090|79423|79424|79425|79426|79427|79428|12092|12080|79431|79432|79433|79434|79435|79436|79437|79438|79439|79440|79441|79442|79443|79444|79445|79446|79447|79448|79449|79450|79451|79452|79453|79454|79455|79456|79457|79458|79459|79460
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|176|STRP|Strängnäspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|140858|48|K|Monica Lindell Rylén|48 år Kommunalråd Strängnäs
+C|141218|73|M|Leif Hård|73 år Pensionär Strängnäs
+C|141219|75|K|Ingrid Fäldt|Mariefred
+C|141220|59|M|Torbjörn Johansson|Åker
+C|141221|63|K|Wailith Edstein|Strängnäs
+C|141222|43|M|Sonny Johansson|Åker
+C|141223|63|K|Angela Andersson|Strängnäs
+C|141224|68|M|Leif Lindström|68 år Strängnäs
+C|141225|66|K|Mari Bohman|Strängnäs
+C|141226|23|M|Sebastian CJ Rundqvist Marsico|23 år författare Strängnäs
+C|141227|80|K|Maj-Britt Magnusson|80 år Pensionär Strängnäs
+C|141228|55|M|Peter Karlsson|Stallarholmen
+C|141229|48|K|Louise Nilsson|Åker
+C|141230|67|M|Magnus Brandel|Fogdö
+C|141231|64|K|Ragnhild Andersson|Åker
+C|141232|72|M|Krister Lumme|Mariefred
+C|141233|58|K|Maria Hammar|Mariefred
+C|400027|58|M|Mikael Andersson|Mariefred
+C|141235|67|K|Annica Hedengren|Strängnäs
+C|141236|69|M|Anders Brandt|68 år Pensionär Strängnäs
+C|141237|41|K|Jennie LarssonTjernström|Åker
+C|143854|32|M|Kim Jansson|Mariefred
+C|143855|68|K|Birgitta Brandt|68 år Pensionär Strängnäs
+C|143856|70|M|Christer Ståhl|Åker
+C|143857|60|K|Lena Kanevåg|Strängnäs
+C|143858|72|M|Anders Hellsing|Mariefred
+C|143859|70|K|Annica Gustavsson|Åker
+C|143860|70|M|Arne Stade|Mariefred
+C|143861|67|K|Cicela Johansson|Strängnäs
+C|143862|47|M|Jonas Ljung|Åker
+C|143863|69|K|Anja Klason|Åker
+C|143864|54|M|Christer Strömberg|Strängnäs
+C|143865|52|K|Hatice Göksen|Strängnäs
+C|143866|70|M|Peter Hellsten|Strängnäs
+C|143867|78|K|Laila Westerlund|Stallarholmen
+C|168863|67|M|Ingemar Lund|Stallarholmen
+C|143868|28|K|Evelina Fäldt|Mariefred
+C|143869|73|M|Mauno Rahikainen|Åker
+C|143870|72|K|Anette Lindered|Stallarholmen
+C|143871|70|M|Jan Haglund|Mariefred
+C|143872|36|K|Elin Tjernström|Stallarholmen
+C|143873|63|M|Kent Lindström|Strängnäs
+C|143874|64|K|Gunbritt Fransson|Strängnäs
+C|143875|73|M|Bo Johansson|Strängnäs
+C|143876|58|K|Cathrine Haglund|Mariefred
+C|143877|52|M|Robert Wastesson|Åker
+C|143878|61|K|Margareta Leonardsson|Strängnäs
+C|143879|48|M|Peter Rylén|Åker
+C|143880|70|K|Eva Strömberg|Strängnäs
+C|143881|73|M|Jan-Erik Andersson|Åker
+C|328263|53|K|Agneta Silfver Holst|Strängnäs
+C|143882|84|M|Göran Svärd|Strängnäs
+C|196503|53|K|Mia Nerby|53 år,HR-specialist,Mariefred
+C|197673|21|M|Georg Örsbäcken|21 år,Statsvetare,Strängnäs
+C|198542|47|M|Roger Steen|47år, Filialchef, Vansö
+C|198543|46|K|Hanna Drakengren|46år, Organist, Strängnäs
+C|198544|37|M|Erik Granbeck|37år, Företagare, Strängnäs
+C|196491|57|M|Tomas Fors|57 år,Utvecklingschef,Mariefred
+C|198546|43|K|Karin Gold Cox|43år, Kulturhistoriker, Mariefred
+C|196506|77|M|Hugo Rundberg|77 år, Fiskare, Strängnäs
+C|196483|65|K|Marianne Andersson|65 år,Oppositionsråd,Strängnäs
+C|196499|67|M|Bengt Johansson|67 år,Försäljningschef,Strängnäs
+C|198550|51|M|Kenneth Sjöstrand|51år, Seniorrådgivare, Strängnäs
+C|198551|70|M|Kjell Oretorp|70år, Kommunrevisor, Fogdö
+C|198552|55|K|Susanne Källgren|55år, Administratör, Strängnäs
+C|198553|31|M|Abbas-William Yaqubi|31år, Studerar, Strängnäs
+C|198554|58|K|Maria Printz|58år, Bagare, Stallarholmen
+C|198555|70|M|Bengt Eriksson|70år, Sågverksarbetare, Länna
+C|197701|73|K|Lena Rundberg|73 år,Fiskare,Stallarholmen
+C|198557|37|K|Jessica Davskog|37år, Översättare, Strängnäs
+C|198558|74|M|Anton Nordström|74år, Polis, Strängnäs
+C|198559|70|K|Elsy Hedlund|70år, Ekonom, Aspö
+C|198560|62|M|Christer Svedberg|62år, IT-arkitekt, Stallarholmen
+C|166585|71|K|Catharina De Geer|71, f.d skolledare, Strängnäs
+C|166577|46|K|Pia Steensland|46, forskare, Strängnäs
+C|166675|32|M|Sebastian Grimhäll|32, trafiklärare, Mariefred
+C|167022|39|M|Tomas Aldrin Walter|civilekonom, CFO, Strängnäs
+C|166588|61|K|Marie-Louise Forslund Mustaniemi|61, undersköterska, Mariefred
+C|167024|48|M|David Noreen|civilekonom, Strängnäs
+C|167025|51|K|Ulrika Nygren|vårdutvecklare, Åkers Styckebruk
+C|167026|35|M|Christoffer Sonesson|tjänsteman, Strängnäs
+C|167027|53|M|Stefan Pakh|företagare, Strängnäs
+C|166586|43|M|Fredrik Siösteen|43, banktjänsteman, Stallarholmen
+C|167029|68|K|Birgitta Karlsson|f.d. sjuksköterska, Strängnäs
+C|166581|39|M|Martin Kits|39, konsult, Mariefred
+C|167031|39|M|Michael Sabbagh|redovisningsekonom, Strängnäs
+C|167032|40|M|Johan Nordberg|mekaniker, Åkers Styckebruk
+C|167033|68|M|Gunnar Karlsson|tandläkare, Strängnäs
+C|167034|44|M|Peter Haraldsson|civilingenjör, Strängnäs
+C|2588|62|K|Margaretha Furustrand|ekonom, Strängnäs
+C|2752|45|M|Erik Wallenberg|systemförvaltare, Strängnäs
+C|2188|54|K|Tiina Ihatsu-Harder|marknadsekonom, Strängnäs
+C|2754|75|M|Jan Rudengren|ek. doktor, Strängnäs
+C|2184|59|M|Anders S Svenson|gymnasielärare, Strängnäs
+C|2757|51|K|Karin Larén Hallström|företagare, Mariefred
+C|2758|59|M|Ibrahim Hoseyni|geofysiker, Strängnäs
+C|2759|54|K|Marjut Johansson|hälsopedagog, Mariefred
+C|2760|78|M|Lennart Schweitz|civilingenjör, Mariefred
+C|2761|84|K|Birgitta Wennerberg|lärarpensionär, Sanda
+C|2762|64|M|Dennis Furustrand|ingenjör, Strängnäs
+C|2763|64|K|Ulrika Biltinge|volontär, Strängnäs
+C|2764|73|M|Lennart Wennberg|leg. läkare, Strängnäs
+C|2765|79|K|Sonja Våglin|pensionär, Strängnäs
+C|2766|74|M|Bruno Karlsson|pensionär, Strängnäs
+C|2767|68|M|Lars-Åke Gilander|logistiker/ingenjör, Norrlänna
+C|2768|73|M|Björn Lind|pensionär, Strängnäs
+C|185495|37|M|Ragnar Lindén|37 år, miljövetare
+C|185496|38|K|Jennie Engdahl|38 år, butikschef
+C|185497|42|M|Christoffer Zander|42 år
+C|185498|44|K|Terese Askerstedt|konsult, 44 år, Strängnäs
+C|185499|44|M|Ulf Wallin|44 år, kvalitets- och miljöledare
+C|185500|57|M|Björn Siljeström|stadsvärd, 57 år, Strängnäs
+C|185501|47|K|Ingela Bengtsson|47 år, personlig assistent
+C|185502|37|K|Josefin Valham|gymnasielärare, 37 år, Strängnäs
+C|10285|38|M|Jacob Högfeldt|kommunstyrelsens ordförande/ landsbygdsentreprenör, Stallarholmen
+C|9985|66|M|Magnus Stuart|entreprenör, Mariefred
+C|10127|34|K|Maria Ehrnfelt|registrator, Stallarholmen
+C|10288|59|M|Mikael Lagergren|säkerhetsdirektör, Strängnäs
+C|10289|42|K|Linda Strand|avdelningschef, Strängnäs
+C|10290|62|M|Sixten Skullman|verkstadsägare, Åkers Styckebruk
+C|10291|54|K|Anniqa Kronqvist|egen företagare, Stallarholmen
+C|10292|30|K|Charlotte Breyer|VD/marknadskommunikatör, Strängnäs
+C|10293|68|M|Gunnar Boman|kommunikatör, Mariefred
+C|10294|64|M|Kenneth Larsson|ingenjör, Strängnäs
+C|10295|59|M|Rabie Aldeeb|integrationssamordnare, Strängnäs
+C|10296|68|K|Anncharlotte Nilsson|kanslichef, Mariefred
+C|10164|63|M|Jan Heiniö|ekonom, Mariefred
+C|10298|67|M|Thore Berggren|journalist, Strängnäs
+C|10299|46|M|Tommy Strand|civilekonom, Strängnäs
+C|10300|75|K|Kerstin Dahlström|redovisningskonsult, Strängnäs
+C|10302|50|M|Jan Leiding|national account manager, Strängnäs
+C|10303|72|K|Inger Jansson|administrativ assistent, Stallarholmen
+C|10304|62|K|Diana von Rosen|rektor, Åkers Styckebruk
+C|10305|55|K|Christina Klingspor|beteendevetare/HR, Mariefred
+C|10306|22|M|Carl Lagergren|studerande, Strängnäs
+C|10307|63|M|Lars Larsson|företagskonsult, Strängnäs
+C|10308|80|M|Donald Wedel|örlogskapten, Strängnäs
+C|10310|78|K|Barbro Hedengren|koordinator, Mariefred
+C|10311|74|M|Bengt Hedengren|civilingenjör, Mariefred
+C|10312|53|M|Tony Raitis|entreprenör, Mariefred
+C|10313|73|M|Nils Gunnar Westerberg|redaktör, Strängnäs
+C|10314|70|M|Björn Sundfeldt|hamnkapten, Mariefred
+C|10315|55|M|Henrik Mörner|key account manager, Strängnäs
+C|10316|75|M|Jan Mimer|jur kand, Strängnäs
+C|10317|70|M|Stefan Hilmersson|projektledare, Strängnäs
+C|10318|71|K|Bibbi von Schéele|fd förskolechef/rektor, Åkers Styckebruk
+C|10319|73|M|Bengt Karlsson|fd polis, Stallarholmen
+C|10320|71|M|Aestan Orstadius|agronom, Strängnäs
+C|10332|59|K|Ewa Thalén Finné|ekonom/riksdagsledamot, Mariefred
+C|10321|19|M|Viktor Lundberg|studerande, Mariefred
+C|10322|52|K|Lilian Lagergren|larmoperatör, Strängnäs
+C|10323|63|M|Lasse Norin|kriminalinspektör, Strängnäs
+C|10324|73|M|Stefan Behrnetz|fil dr, Mariefred
+C|10325|69|K|Birgitta Öberg Boman|konsult, Mariefred
+C|10174|36|M|Robin Karlsson|systemutvecklare, Strängnäs
+C|10003|58|M|Per Hildebrand|leg. lärare, Åkers Styckebruk
+C|10328|73|M|Hans Andersson|ingenjör, Stallarholmen
+C|10329|72|M|Lennart Ahlström|guldsmed, Mariefred
+C|10330|72|K|Eva Sevdin|ekonomiassistent, Strängnäs
+C|10331|74|M|Lennart Sevdin|elinstallatör, Strängnäs
+C|10333|31|M|Nozhan Nikzad|statsvetare, Strängnäs
+C|278544|42|M|Niclas Samuelsson|Skribent och redaktör
+C|278545|45|K|Kristina Stimac|Gymnasielärare
+C|278546|65|M|Håkan Bertilsson|Gymnasielärare
+C|278547|64|K|Monika Eriksson Bertilsson|Socionom
+C|278548|48|K|Annika Skogsmo|Skolassistent
+C|278549|20|M|Tony Badlisi|Studerande
+C|278550|71|M|Carl-Henric Lange|Organisationskonsult
+C|278551|73|M|Erik Berg|Överstelöjtnant
+C|278552|73|M|Frank Backman|Konsult
+C|278553|78|M|Hans Noreen|Kulturarbetare
+C|278554|70|M|Magnus Edvinsson|Fil. kand.
+C|278555|69|K|Anita Säll|Pensionär
+C|278556|79|M|Stig Noord|Pensionär
+C|278557|72|M|Staffan Kullengren|Säkerhetskonsult
+C|278558|75|M|Ronnie Triumf|Lärare
+C|8040|43|M|Stefan Manninen|43 år, Servicetekniker, Åkers Styckebruk
+C|8041|30|K|Lina Boy|30 år, Valadministratör, Stallarholmen
+C|8042|69|M|Roger Richtoff|Riksdagsledamot, Strängnäs
+C|8043|58|M|Björn Karlsson|Brandtekniker, Strängnäs
+C|8044|30|K|Linda Hefvelin|Valorganisatör, Strängnäs
+C|8045|43|M|Jan Kihlstenius|43 år, Verksamhetschef
+C|8046|70|K|Maud Richthoff|70 år, Farmaceut
+C|8047|31|K|Emma Boy|31 år, Lokalvårdare, Stallarholmen
+C|8048|41|K|Åsa Hammare|41 år, Medicinsk sekreterare
+C|8049|43|K|Rose- Marie Söderlund|43 år, Ekonomiansvarig
+C|8050|49|M|Finn Stavsbo|49 år, Vakt
+C|8051|73|M|Lars Strengnell|73 år, f.d. Datakonsult
+C|8052|60|M|Lennart Eriksson|60 år, Systemingenjör
+C|8053|39|M|Lenny Söderlund|39 år, Egenföretagare
+C|8054|44|M|Gunnar Hammare|44 år, Besiktningsingenjör
+C|8055|39|M|Jimmy Bergvall|39 år, Testingenjör, Åkers Styckebruk
+C|8056|84|M|Lennart Ceder|84 år, fd Marknadschef, Mariefred
+C|8057|42|M|Niclas Hörstam|42 år, Boendestödjare
+C|8058|45|K|Annica Lindholm|45 år, Undersköterska
+C|8059|66|M|Anders Kroné|66 år, Egenföretagare, Strängnäs
+C|8060|41|M|Thomas Manninen|41 år, Mekaniker, Åkers Styckebruk
+C|8061|51|M|Patrik Björk|51 år, Lastbilschaufför, Åkers Styckebruk
+C|8062|78|M|Leif Hahn|78 år, fd Utbildningskonsult, Åkers Styckebruk
+C|79420|44|M|David Aronsson|44, Miljöinspektör, Strängnäs
+C|12091|53|K|Catarina Hellmark|53, Undersköterska, Strängnäs
+C|12090|42|K|Barbara Kreil Öhman|42, Frivårdsinspektör, Strängnäs
+C|79423|63|M|Peter Hjukström|63, F.d projektledare, Mariefred
+C|79424|58|K|Yvonne Knuutinen|58, Arkitekt, Stallarholmen
+C|79425|62|M|Gunnar Bjälkebring|63, Systemterapeut, Mariefred
+C|79426|49|M|Henrik Sjödahl|49, Färjkarl, Strängnäs
+C|79427|42|K|Vian Faili|42, Skolsköterska, Strängnäs
+C|79428|58|M|Thomas Fernström|58, Arbetsledare, Mariefred
+C|12092|66|K|Sandrina Moretti|66, Pensionär, Strängnäs
+C|12080|22|M|Jesper Karlsson|22, Industriarbetare, Strängnäs
+C|79431|55|K|Tuija Antin|54, Terapeut, Stallarholmen
+C|79432|71|M|Ulf Norström|71, Socionom, Mariefred
+C|79433|74|M|Åke Norell|74, Pensionär, Mariefred
+C|79434|70|K|Tanja Henriksson|70, Socionom, Stallarholmen
+C|79435|59|M|Olle Rådström|59, Kock, Mariefred
+C|79436|45|M|Guy Bungerfeldt|45, Leg. psykolog, Strängnäs
+C|79437|54|K|Lotta Grönblad|54, Projektledare, Mariefred
+C|79438|55|M|Thomas Dittrich|55, Egenföretagare, Mariefred
+C|79439|76|K|Eivor Johansson|76, F.d. bibliotekarie, Mariefred
+C|79440|67|M|Nils-Arne Andersson|67, Företagare, Strängnäs
+C|79441|37|K|Sandra Blanksvärd|37, Leg. psykolog, Strängnäs
+C|79442|59|K|Cecilia Fidler|60, Livscoach, Mariefred
+C|79443|73|M|Bo Eriksson|73, Socionom, Stallarholmen
+C|79444|46|K|Tina Gillberg|46, Arbetshandledare, Mariefred
+C|79445|57|K|Liz Gustavsson|57, Kock, Mariefred
+C|79446|46|K|Nina Danson|46, Studerande, Stallarholmen
+C|79447|68|K|Siw Bjurling|68, Pensionär, Mariefred
+C|79448|66|M|Marco Jeraldo|66, Pensionär, Mariefred
+C|79449|43|K|Ching-Pei Aronsson|43, Studerande, Strängnäs
+C|79450|59|K|Anette Larsson|59, Behandlingsassistent, Mariefred
+C|79451|65|K|Lena Edgren|65, Hygientekniker, Mariefred
+C|79452|35|M|Ted Danson|35, Egenföretagare, Stallarholmen
+C|79453|65|K|Margareta Qvist|65, Pensionär, Mariefred
+C|79454|47|M|Klas Gillberg|47, Svetsare, Mariefred
+C|79455|61|M|Sahverdi Polat|61, Lagerarbetare, Strängnäs
+C|79456|42|K|Maria Fernström|42, Studerande, Mariefred
+C|79457|59|M|Dan Plichta|59, Fabriksarbetare, Mariefred
+C|79458|62|M|Kent Johansson|62, Kock, Mariefred
+C|79459|76|K|Mona Gardell|76, Pensionär, Mariefred
+C|79460|46|M|Claudio Estrada|46, Facklig rådgivare, Mariefred

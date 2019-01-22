@@ -1,10 +1,255 @@
-2|30055|29145|29344|29367|29166|29323|29326|30062|30063|30064|30065|30066|29158|30068|29358|30070|30071|29363|30073|30074|30075|30076|30077|30078|30079|30081|30082|30083|30084|30085|30086|30087|30088|30089|30091|30092|30093
-1013|422074|419543|419544|419547|419546|419545|419548|419549|419550|419551|419552|419553|419554|419555|419556|419557|419558|419559|419560|419561|419562|419563|419564|419565|419566|419567|419568|419569|419570|419571|419573|419572|419574|419575|419576|419577|419578|419579|419580|419581|419582|419583|419584|419585|419586|426683
-4|288594|292125|292126|292127|292128|292129|292130|292131|292132|292133|292134|292135|292136|292137|292138|292139|292140|292141|292142|292143|292144|292145|292146|292147|292148|292149|292150|292151|292152|292153|292154|292155
-68|19449|19450|19451|19452|19453|19454|19455|19456|19457|19459|19460|19461|19462|19463
-3|148336|148333|148321|160558|149504|160560|148356|148329|160563|160564|160565|148349|148346|148344
-55|14265|27133|27080|27081|14404|27083|27084|27085|27086
-1|177629|177630|168502|177632|177633|177634|177635|177636|177637|177638|177639|172877|177641|177642|177643|177644|177645|177646|177647|177648|177649
-590|313609|313610|313613|313614|313615|313616|313617|313618|313619|313620|313621|313611|313612
-110|156226|156228|156229|156230|156231|156232|156233|156234|156235|488368|514595|514597|514601|514603|514604|514605|514607|514608|514609|514612|514613|156227|488369|515521|515971|515972|515975
-5|339815|339816|339817|339818|339819|339820|339821|339822|339823|339824|339825|339826|339827|339828|339829|339830|339831|339832|339833|339834|339835
+T|Bollnäs
+A|2|30055|29145|29344|29367|29166|29323|29326|30062|30063|30064|30065|30066|29158|30068|29358|30070|30071|29363|30073|30074|30075|30076|30077|30078|30079|30081|30082|30083|30084|30085|30086|30087|30088|30089|30091|30092|30093
+A|1013|422074|419543|419544|419547|419546|419545|419548|419549|419550|419551|419552|419553|419554|419555|419556|419557|419558|419559|419560|419561|419562|419563|419564|419565|419566|419567|419568|419569|419570|419571|419573|419572|419574|419575|419576|419577|419578|419579|419580|419581|419582|419583|419584|419585|419586|426683
+A|4|288594|292125|292126|292127|292128|292129|292130|292131|292132|292133|292134|292135|292136|292137|292138|292139|292140|292141|292142|292143|292144|292145|292146|292147|292148|292149|292150|292151|292152|292153|292154|292155
+A|68|19449|19450|19451|19452|19453|19454|19455|19456|19457|19459|19460|19461|19462|19463
+A|3|148336|148333|148321|160558|149504|160560|148356|148329|160563|160564|160565|148349|148346|148344
+A|55|14265|27133|27080|27081|14404|27083|27084|27085|27086
+A|1|177629|177630|168502|177632|177633|177634|177635|177636|177637|177638|177639|172877|177641|177642|177643|177644|177645|177646|177647|177648|177649
+A|590|313609|313610|313613|313614|313615|313616|313617|313618|313619|313620|313621|313611|313612
+A|110|156226|156228|156229|156230|156231|156232|156233|156234|156235|488368|514595|514597|514601|514603|514604|514605|514607|514608|514609|514612|514613|156227|488369|515521|515971|515972|515975
+A|5|339815|339816|339817|339818|339819|339820|339821|339822|339823|339824|339825|339826|339827|339828|339829|339830|339831|339832|339833|339834|339835
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1013|Bollp|Bollnäspartiet
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|590|SJVB|Sjukvårdspartiet Bollnäs
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|30055|53|K|Marie Centerwall|53 år, Sjuksköterska, Kilafors
+C|29145|26|M|Kristoffer Lindberg|26 år, Bollnäs
+C|29344|57|K|Erika Engberg|57 år, Bollnäs
+C|29367|41|M|Fredrik Skoglund|42 år, Bollnäs
+C|29166|57|K|Lena Sundh Berglund|57 år, Bollnäs
+C|29323|52|M|Jan Lahenkorva|52 år, Bollnäs
+C|29326|53|K|Shida Kinuka|53 år, Bollnäs
+C|30062|25|M|Fredrik Nilsson|24 år, Verksamhetsansvarig, Vallsta
+C|30063|67|K|Mona Thoresson|67 år, Pensionär, Bollnäs
+C|30064|57|M|Marzavan Arafat|57 år, Lärare, Bollnäs
+C|30065|50|K|Helena Englund|50 år, Nötköttsproducent, Östansjö Vallsta
+C|30066|73|M|Sven-Inge Hallström|73 år, Pensionär, Kilafors
+C|29158|35|K|Pia Sarstedt|36 år, Bollnäs
+C|30068|58|M|Jan-Olov Skoglund|57 år, Yrkeslärare Bygg, Kilafors
+C|29358|45|K|Ann-Katrin Samuelsson|46 år, Bollnäs
+C|30070|36|M|Abbe Caadani|36 år, Socialpedagog, Bollnäs
+C|30071|68|K|Marianne Wängelin|67 år, Förskollärare
+C|29363|47|M|Yohannes Michael Mehari|47år, Bollnäs
+C|30073|62|K|Birgitta Andersson|61 år, F.d Instruktör
+C|30074|57|M|Klas Tallvid|58 år, Bollnäs
+C|30075|38|K|Jessika Ljusner|38 år, Biomedicinsk analytiker, Bollnäs
+C|30076|51|M|Vitali Kinuka|50 år, Behandlingspedagog, Bollnäs
+C|30077|43|K|Ann-Sofie Johansson|43 år, Kommunal, Arbrå
+C|30078|45|M|Tomas Burvall|45 år, Integrationsutvecklare, Bollnäs
+C|30079|66|K|Elsy Burman|67 år, Pensionär, Bollnäs
+C|30081|29|K|Ida Engberg Sepänaho|29 år, Lokalvårdare, Bollnäs
+C|30082|61|M|Nuri Hajo|61 år, Bollnäs
+C|30083|42|K|Linda Björkner|42 år, Butiksbiträde, Segersta
+C|30084|72|M|Dick Helgesson|72 år, Pensionär, Kilafors
+C|30085|26|K|Maron Tasfay|26 år, Studerande, Bollnäs
+C|30086|38|M|Jonas Engberg|38 år, Bollnäs
+C|30087|69|K|KarinBirgit Holst|69 år, Studerande, Bollnäs
+C|30088|38|M|Magnus Alfredsson|38 år, Skötare, Kilafors
+C|30089|58|K|Ingrid Skoglund|57 år, Förskollärare, Kilafors
+C|30091|34|M|Mats Maselin|34 år, Maskinförare, Kilafors
+C|30092|43|K|Ulrika Rönn|43 år, Socionom, Kilafors
+C|30093|51|M|Lennart Näslund|52 år, Mjölkproducent, Kilafors
+C|422074|62|M|Benny Engberg|Hälsokonsult, Ren,62
+C|419543|62|K|Irene Frank|Lantbrukare/arrestvakt,Tönsen,62
+C|419544|22|M|Oskar Myrberg|Lärare, Brånan, 22
+C|419547|71|K|Cecilia Widéen|Pensionär, Höglunda, 71
+C|419546|39|M|Markus Wengelin|VD, Söräng, 39
+C|419545|46|K|Ann Zewgren|Ekonom, Kilafors, 47
+C|419548|64|M|Bengt-Olof Staffas|Primärvårdschef, Ren, 64
+C|419549|41|K|Sara Backan|Kundmottagare, Rengsjö, 40
+C|419550|75|M|Bengt Lindstedt|Senior konsult, Öster, 74
+C|419551|21|K|Erica Söderqvist|Hud- och nagelterapeut, Ren, 21
+C|419552|67|M|Charlie Östlund|Idrottslärare, Renskullen, 67
+C|419553|33|K|Nazan Hajo|Arbetssökande, Backsveden, 35
+C|419554|67|M|Alf Molin|VVS-konsult, Acktjära, 67
+C|419555|72|M|Ragnar Berglund|Byggmästare, Segersta, 73
+C|419556|66|M|Björn Hedberg|Elkonsult, Röste, 66
+C|419557|38|M|Anders Morin|Statstjänsteman, Brånan, 39
+C|419558|46|M|Emanuel Lindblom|Snickare, Kilafors, 46
+C|419559|65|M|Kai Nurmi|Fastighetsutvecklare,Höjen Rengsjö, 65
+C|419560|38|M|Rickard Eriksson|Poliskommissarie, Björktjära,38
+C|419561|66|M|Roger Lindblom|Elkonsult, Sunnerstaholm, 66
+C|419562|43|M|Osman Hajo|Affärsbiträde, Backsveden, 43
+C|419563|75|M|Börje Widéen|F.d Polis, Höglunda, 75
+C|419564|51|K|Catharina Pettersson|Arrestvakt/personlig assistent, Arbrå, 50
+C|419565|47|K|Monica Breed|Ekonomikonsult, Hamre, 46
+C|419566|37|M|Demin Tuza|Fritidsledare, Blomkransen, 37
+C|419567|34|M|Andreas Wengelin|Kläddesigner, Bolle,35
+C|419568|38|M|Mats Eriksson|Konstruktör, Björktjära, 39
+C|419569|55|M|Abdulla Rizk|Pizzabagare, Gärdet, 55
+C|419570|46|K|Madeléne Selander|Varuhuschef, Brånan, 46
+C|419571|36|M|Ahmad Abdullah|Fritidsledare, Backsveden, 36
+C|419573|34|M|Daniel Möller|Hälsocoach, Höglunda, 34
+C|419572|52|M|Patrik Alm|Jakt och äventyrskonsult, Söräng, 52
+C|419574|53|K|Marie Söderqvist|Ekonomikonsult, Ren, 53
+C|419575|60|M|Johnny Röstberg|Elkonsult, Ren, 60
+C|419576|59|M|Bosse Bruhn|Skogsmaskinsmekaniker, Åsbacka, 58
+C|419577|65|K|Izdehar Chick Aljabal|Modersmålslärare, Brånan, 64
+C|419578|64|M|Gert Askefjord|Turism och besöksnäring, Höglunda, 63
+C|419579|44|K|Sofia Nordell|Entreprenör/Affärsutvecklare, Brånan, 43
+C|419580|82|K|Inga-Lill Gustavsson|F.d. skolledare, Bollnäs centrum, 82
+C|419581|69|M|Bernhard Bökeler|Pensionär, Sjörgrå, 68
+C|419582|51|M|Urban Björklund|Sälj/marknadsansvarig, Ren, 50
+C|419583|35|M|Johan Bogg|Utbildningsledare, Hertsjö, 35
+C|419584|45|M|Per Backan|Säljare, Rengsjö, 44
+C|419585|45|M|Andreas Brink|Teknik säljare, Rengsjö, 44
+C|419586|59|M|Torsten Roos|Vaktmästare, Ren, 58
+C|426683|25|K|Therese Rodin|Kolonialansvarig ICA, Arbrå, 25
+C|288594|63|M|Bengt-Olov Renöfält|affärsrådgivare, Bollnäs
+C|292125|44|K|Marina Nilsson|44 år, egenföretagare, Bollnäs
+C|292126|62|M|Kenneth Nilshem|förbundsordförande, Arbrå
+C|292127|68|K|Elisabeth Johansson|fd. travbanechef, Bollnäs
+C|292128|58|M|Thomas Backan|landsbygdsföretagare, Rengsjö
+C|292129|40|K|Maria Olsson|40 år, miljöutvecklare, Bollnäs
+C|292130|70|M|Roger Kvarnäng|70 år, bonde, Kilafors
+C|292131|45|M|Nicklas Fredriksson|45 år, säljare, Rengsjö
+C|292132|47|M|Mark Boustedt|rådgivare, Bollnäs
+C|292133|67|K|Barbro Wåger|67 år, socionom, Bollnäs
+C|292134|50|M|Magdi Elhadi|handledare, Bollnäs
+C|292135|49|K|Sonja Westerlund|49 år, arbetsledare, Bollnäs
+C|292136|44|M|Samuel Friberg|44 år, företagare, Söräng
+C|292137|64|K|Lena Winterberg|64 år, lärare, Bollnäs
+C|292138|34|M|Alireza Motagi|34 år, handledare, Bollnäs
+C|292139|61|K|Lena Frisk|60 år, förskollärare, Herte
+C|292140|41|K|Ulrika Stark|41 år, kriminolog, Bollnäs
+C|292141|37|M|Efrem Habte|37 år, undersköterska, Bollnäs
+C|292142|41|K|Karin Wall Holm|41 år, egen företagare, Bollnäs
+C|292143|68|M|Lars-Olof Hed|68 år, skogsägare, Bollnäs
+C|292144|42|K|Azoda Karimhadzajeva|42 år, köksbiträde, Bollnäs
+C|292145|63|M|Gunnar Rylander|63 år, bonde, Vallsta
+C|292146|52|M|Olof Ekström|52 år, undersköterska, Bollnäs
+C|292147|47|K|Monika Näslund|47 år, redovisningsansvarig, Bollnäs
+C|292148|39|K|Ida Modig Westergren|39 år, egenföretagare, Bollnäs
+C|292149|66|M|Esbjörn Lindberg|66 år, ekonom, Bollnäs
+C|292150|38|M|Björn Pettersson|38 år, civilekonom, Bollnäs
+C|292151|32|M|Emil Larsson|32 år, brandman, Arbrå
+C|292152|49|K|Sahra Hussein|49 år, lärare, Bollnäs
+C|292153|75|M|Astor Wikberg|Källarmästare, Arbrå
+C|292154|37|K|Linda-Marie Åsberg|37 år, lärare, Bollnäs
+C|292155|62|M|Yahya Ahmadi|62 år, försäljare, Bollnäs
+C|19449|71|M|Anders Bergsten|Fil.kand, Bollnäs
+C|19450|39|K|Karin Hallberg|Lärare, Bollnäs
+C|19451|31|M|Andreas Sandsgård|Busschaufför, Bollnäs
+C|19452|60|M|Kent Ståhl|Fritidsledare fritidsgårdar, Bollnäs
+C|19453|62|K|Råsie Sigvardsson-Berbres|Lärare, Bollnäs
+C|19454|43|M|Magnus Hägglund|Mjölkbonde, Vallsta
+C|19455|72|K|Maj-Britt Kissner-Eliasson|Pensionär, Kilafors
+C|19456|67|M|Einar Ekström|Konsult, Kilafors
+C|19457|81|M|Roland Jonsson|Fd. verkmästare, Bollnäs
+C|19459|54|K|Rita Lauder-Håkansson|Lärare, Bollnäs
+C|19460|51|K|Susanne Wanzelius|Kock, Bollnäs
+C|19461|77|M|Roland Åkerlund|Glasmästare, Bollnäs
+C|19462|57|K|Karin Ståhl|Barnmorska, Bollnäs
+C|19463|77|M|Hans Pettersson|Företagare, Bollnäs
+C|148336|41|M|Daniel Didricksson|41,bussförare,Bollnäs
+C|148333|40|K|Yanina Westergren|40,samhällsvetare,Bollnäs
+C|148321|64|M|Peter Nordebo|64,journalist,Bollnäs
+C|160558|64|K|Carina Östansjö|regionråd i opposition,Bollnäs
+C|149504|67|M|Jan Karlsson|67,civilingenjör,Bollnäs
+C|160560|40|K|Charlotta Backström|sektionschef,Arbrå
+C|148356|78|M|Bo Hellberg|78,leg.veterinär,Bollnäs
+C|148329|72|K|Ulla Burman|71,direktor inom vård o omsorg,Bollnäs
+C|160563|72|M|Ulf Arbinger|pensionär,Arbrå
+C|160564|65|K|Eva Samskog|distriktssköterska,Bogården
+C|160565|30|M|Fredrik Nordebo|lagersäljare,Eriknäsbo
+C|148349|73|K|Saga Astner|73,psykosocial assistent,Bollnäs
+C|148346|76|M|Krister Swahn|76,lärare,Arbrå
+C|148344|75|M|Leif Jonsson|75,leg läkare,Arbrå
+C|14265|62|M|Johan Toll|rörmokare, 62 år, Bollnäs
+C|27133|47|K|Ulrika Dahlberg|47 år, Kilafors
+C|27080|50|M|Göran Bergqvist|50 år, lärare, Bollnäs
+C|27081|37|M|Anarbek Asylbashev|37, CNC-operatör, Bollnäs
+C|14404|60|K|Lena Jansson Sving|audionom, 60 år, Bollnäs
+C|27083|74|M|Göran Sjöstedt|74 år,  ekonom, Bollnäs
+C|27084|38|K|Gulmira Asylbekova|37 år, student, Bollnäs
+C|27085|34|M|Erik Toll|34 år, student, Bollnäs
+C|27086|63|K|Åsa Eriksson|62 år, pensionär, Bollnäs
+C|177629|58|K|Åsa Äng Eriksson|58 år, rektor, Bollnäs
+C|177630|47|M|Johan P Bång|47 år, företagare, Rengsjö
+C|168502|40|M|Mattias Ekström|40 år, säljchef, Bollnäs
+C|177632|51|K|Nanette Andersson|51 år, företagare, Vallsta
+C|177633|41|M|Tommy Winqvist|41 år, arbetsförmedlare, Kilafors
+C|177634|18|M|Olof Ceder Bång|18 år, studerande, Rengsjö
+C|177635|30|K|Jiaman Tang|30 år, företagare, Rengsjö
+C|177636|72|M|Curt Dybäck|72 år, bonde, Kilafors
+C|177637|74|M|Åke Strid|74 år, ingenjör, Bollnäs
+C|177638|30|K|Madelene Larsson|30 år, sjuksköterska, Vallsta
+C|177639|74|M|Jan Nordbakken|74 år, konsult, Hertsjö
+C|172877|56|M|Per Bång|56 år, säljare, Bollnäs
+C|177641|73|M|Ingvar Persson|73 år, fd bonde, Vallsta
+C|177642|45|M|Roy Vonborg|45 år, företagare, Arbrå
+C|177643|79|M|Lars Sonevik|79 år, pensionär, Rengsjö
+C|177644|37|M|Martin Edh|37 år, företagare, Segersta
+C|177645|85|K|Lillian Isaksson|85 år, pensionär, Bollnäs
+C|177646|18|M|Nicolai Takala Hjalmarsson|18 år, studerande, Arbrå
+C|177647|54|M|Kenneth Wallgren|54 år, specialistsjuksköterska, Vallsta
+C|177648|58|M|Sören Nilsson|58 år, entreprenör, Segersta
+C|177649|58|M|Jan Näslund|58 år, verkmästare, Vallsta
+C|313609|53|M|Sven-Åke von Veh|Entreprenör, Bollnäs
+C|313610|51|K|Yvonne Larsson|Undersköterska, Bollnäs
+C|313613|20|K|Jessica Larsson|Student, Bollnäs
+C|313614|46|M|Henrik Olofsson|Regionråd, Bollnäs
+C|313615|48|K|Ingrid Jonsson|Sjuksköterska, Bollnäs
+C|313616|58|K|Yvonne de Winter|Undersköterska, Kilafors
+C|313617|46|K|Ulrika Rosenqvist|Vårdpersonal, Bollnäs
+C|313618|53|M|Håkan Eriksson|Lokförare, Bollnäs
+C|313619|43|K|Malin Wilhelmsson|Företagre, Bollnäs
+C|313620|46|M|Anders Eriksson|Svetsare, Kilafors
+C|313621|53|M|Tony Nord|Servicerådgivare, Bollnäs
+C|313611|58|M|Peter Pettersson|
+C|313612|41|M|Görgen Oderstad|
+C|156226|38|M|Fredrik Hansson|39, psykosocial assistent, Kilafors
+C|156228|22|M|Jonatan Lindgren|23, handledare, Bollnäs
+C|156229|44|M|Kennet Nyman|44, boendestödjare, Bollnäs
+C|156230|52|K|Annika Netsö|52, laboratorieassistent, Kilafors
+C|156231|23|M|Andreas Modd|23, trädgårdsmästare, Bollnäs
+C|156232|58|M|Anders Bergman|
+C|156233|46|M|Dennis Linngård|
+C|156234|50|M|Bo Johansson|
+C|156235|65|M|Kjell Larsson|
+C|488368|66|M|Johnny Storrönning|65, egen företagre, Bollnäs
+C|514595|25|K|Ellinor Netsö|25, omvårdnadspersonal, Segersta
+C|514597|51|K|Maria Furustål-Lundin|51, undersköterska, Vallsta
+C|514601|57|K|Susanne Walther|57, ekonom, Kilafors
+C|514603|43|K|Jessica Isacsson|42, undersköterska, Rengsjö
+C|514604|27|M|Emil Segerkvist|27, billackerare, Segersta
+C|514605|65|M|Roland Lundgren|65, pensionär, Rengsjö
+C|514607|44|M|Andreas Stolt|44, snickare, Arbrå
+C|514608|62|M|Håkan Nylén|62, boendestödjare, Bollnäs
+C|514609|56|K|Ann-Christine Leijnegard|66, undersköterska, Bollnäs
+C|514612|27|M|Christoffer Bergström|27, anläggare, Bollnäs
+C|514613|58|K|Jane Olovsson|58, maskinoperatör, Arbrå
+C|156227|61|K|Margaretha Modin|
+C|488369|41|M|Jimmy Hansson|
+C|515521|53|K|Jeanette Norling|
+C|515971|47|M|Migue'l Eriksson|
+C|515972|53|M|Anders Lundin|
+C|515975|40|M|Andreas Sonefors|
+C|339815|51|K|Maria Mörk|konstruktör, Bollnäs
+C|339816|50|K|Anna-Lena Vestin|kock och mjölkproducent, Kilafors
+C|339817|66|M|Göran Jansson|sjuksköterska, Bollnäs
+C|339818|50|M|Ove Zäll|Arbrå, bryggeriarbetare
+C|339819|72|K|Annasara Svanteson|Kilafors, kurator
+C|339820|32|M|Kristoffer Löfgren|Rengsjö, nämndsekreterare
+C|339821|61|K|Liselotte Öhlén|Arbrå, sömmerska
+C|339822|64|M|Bengt Fahlgren|Bollnäs, fritidspedagog/bildlärare
+C|339823|59|K|Kari Sjöstrand|Undersvik, musiker
+C|339824|56|K|Halise Erdogan|Bollnäs, kock
+C|339825|49|M|Lars B Andersson|folkbildare, Kilafors
+C|339826|32|M|Joel Sundström|Bollnäs, fritidsledare
+C|339827|63|M|Rojan Ergeman|Bollnäs, lärare
+C|339828|53|K|Anneli Svärd|Arbrå, mjölkproducent
+C|339829|74|M|Kjell Liljeholm|Arbrå, pensionär
+C|339830|41|K|Brittis Bodin|Bollnäs, resurspedagog
+C|339831|38|M|Joakim Simonsson|Bollnäs, musiker
+C|339832|52|M|Rolf Hans-Ols|Bollnäs, träindustriarbetare
+C|339833|73|K|Annika Franzén|Hällbo, pensionär
+C|339834|81|M|Lars Stjernberg|Bollnäs, barnläkare
+C|339835|26|K|Natalie Almström Forsell|Bollnäs, studerande

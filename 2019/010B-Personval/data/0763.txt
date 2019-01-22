@@ -1,9 +1,157 @@
-2|231396|231397|231398|231399|231400|231401|231402|231403|231404|231405|231406|231407|231408|231410|231411|231412|231413|231414|231415|231416|231417|231418|231419|231420|231421|231422|231423|231424|231425|231426|231427|231428|231429|231430|231431|231432|231433|231434|231435|231436|231437|231438|231439|231440
-4|159279|183254|183277|185631|159281|183268|183255|183243|159286|185637|185638|185642|185640|185641|185643|185644|185645|185646|185639|185647|185648|185649|185650|183273
-68|360265|363238|363239|360267|387723|387724|363241|363242|363243|387728|363244|363245|363246|363247|363248|363249
-1011|283552|515635
-3|300217|509192|509195|509194|509193
-1|46240|45935|46040|46243|46244|46245|46246|46247|46248|46249|46250|46251|46252|46253|46254|46255|46256|46257|46258|46259
-110|46525|46526|46527|46528|46530|46531|46532|46533|46534
-1133|385701|385702|385703|385704|385705|515884|515885|515886|515887
-5|247237|247238|247239|247240|247241|247242|104865|247244|247245
+T|Tingsryd
+A|2|231396|231397|231398|231399|231400|231401|231402|231403|231404|231405|231406|231407|231408|231410|231411|231412|231413|231414|231415|231416|231417|231418|231419|231420|231421|231422|231423|231424|231425|231426|231427|231428|231429|231430|231431|231432|231433|231434|231435|231436|231437|231438|231439|231440
+A|4|159279|183254|183277|185631|159281|183268|183255|183243|159286|185637|185638|185642|185640|185641|185643|185644|185645|185646|185639|185647|185648|185649|185650|183273
+A|68|360265|363238|363239|360267|387723|387724|363241|363242|363243|387728|363244|363245|363246|363247|363248|363249
+A|1011|283552|515635
+A|3|300217|509192|509195|509194|509193
+A|1|46240|45935|46040|46243|46244|46245|46246|46247|46248|46249|46250|46251|46252|46253|46254|46255|46256|46257|46258|46259
+A|110|46525|46526|46527|46528|46530|46531|46532|46533|46534
+A|1133|385701|385702|385703|385704|385705|515884|515885|515886|515887
+A|5|247237|247238|247239|247240|247241|247242|104865|247244|247245
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1133|TIA|Tingsrydsalternativet
+B|5|V|Vänsterpartiet
+C|231396|55|M|Mikael Jeansson|Ungdomsbehandlare, 55, Urshult
+C|231397|54|K|Christel Blondin|53, Beteendevetare, Väckelsång
+C|231398|30|M|Magnus Carlberg|Förtroendevald, 30, Väckelsång
+C|231399|74|K|Gunilla Svensson|74, Pensionär, Linneryd
+C|231400|65|M|Tomas Blomster|Svetsare, 65, Urshult
+C|231401|46|M|Håkan Karlsson|46, Fastighetsskötare, Tingsryd
+C|231402|58|K|Gunilla Gustafsson|58, Administratör, Urshult
+C|231403|57|M|Åke Gummesson|57, Behandlingsassistent, Tingsryd
+C|231404|54|M|Johan Johansson|54, Metallarbetare, Tingsryd
+C|231405|22|K|Evelina Jeansson|22, Musiker, Urshult
+C|231406|64|M|Jan Preben Olsen|64, Smed, Konga
+C|231407|68|K|Ingrid Johansson|Pensionär, 68, Väckelsång
+C|231408|34|M|Christoffer Svensson|34, Undersköterska, Ryd
+C|231410|51|M|Lasse Heimlander|51, Journalist, Väckelsång
+C|231411|73|K|Barbro Svensson|73, Pensionär, Urshult
+C|231412|54|M|Anders Nilsson|54, Egenföretagare, Dångemåla
+C|231413|59|M|Jimmy Blondin|58, Socialpedagog, Väckelsång
+C|231414|72|M|Jan-Åke Cesar|71, Pensionär, Konga
+C|231415|92|K|Maj Ivarsson|92, Pensionär, Tingsryd
+C|231416|52|M|Nicklas Johansson|51, Industriarbetare, Konga
+C|231417|57|K|Birgitta Blomster|57, Förskolelärare, Tingsryd
+C|231418|32|M|Niklas Johansson|31, Maskinoperatör, Tingsryd
+C|231419|64|K|Åse Olsen|64, Undersköterska, Konga
+C|231420|71|M|Gunnar Fransson|71, Pensionär, Ryd
+C|231421|41|M|Torbjörn Blomster|41, Förvaltningsledare, Tingsryd
+C|231422|76|K|Gunilla Lundström|76, Pensionär, Väckelsång
+C|231423|43|M|Oskar Isaksson|43, Lastbilschaufför, Linneryd
+C|231424|55|M|Conny Söderquist|55, Yrkeslärare, Urshult
+C|231425|59|K|Birgitta Carlberg|59, Boendestödjare, Urshult
+C|231426|50|M|Håkan Belleny|50, Ombudsman Byggnads, Urshult
+C|231427|64|K|Karin Mette|64, Fd socialsekreterare, Blötvik
+C|231428|62|M|Claes Carlberg|62, Pensionär, Urshult
+C|231429|73|K|Ingrid Svensson|73, Pensionär, Ryd
+C|231430|68|M|Thomas Lundström|68, Pensionär, Väckelsång
+C|231431|55|M|Jan Hammerå|55, Boendestödjare, Grimsboda
+C|231432|57|K|Greenleaves Andersson|57, Egenföretagare, Urshult
+C|231433|81|M|Torsten Larsson|81, Pensionär, Ryd
+C|231434|66|M|Tommy Håkansson|65, Pensionär, Urshult
+C|231435|58|M|Jörgen Karlsson|58, Båtbyggare, Urshult
+C|231436|80|M|Allan Svensson|80, Pensionär, Linneryd
+C|231437|85|K|Birgit Ericsson|85, Pensionär, Tingsryd
+C|231438|55|M|Roger Lindahl|55, Boendestödjare, Urshult
+C|231439|73|M|Börje Johansson|73, Fd kyrkvaktmästare, Linneryd
+C|231440|78|M|Lars-Erik Svensson|78, Pensionär, Tingsryd
+C|159279|46|K|Anna Johansson|Förskollärare, Tingsryd
+C|183254|43|K|Cecilia Cato|43, Elevcoach, Linneryd
+C|183277|64|M|Lennart Fohlin|65, Försäljningsledare, Ryd
+C|185631|58|K|Eva Hagelberg|Väckelsång
+C|159281|41|M|Johan Karlson|Agronom, Älmeboda
+C|183268|52|M|Mikael Andersson|52, Behandlingsassistent, Ryd
+C|183255|73|K|Marie-Louise Hilmersson|73, Pensionär, Älmeboda
+C|183243|64|K|Britt-Louise Berndtsson|65, Projektsamordnare, Älmeboda
+C|159286|51|M|Björn Elmqvist|Lantmästare, Tingsryd
+C|185637|59|M|Mats Wembo|Väckelsång
+C|185638|41|K|Maria Petersén|Älmeboda
+C|185642|71|K|Ann-Christin Johansson|Urshult
+C|185640|73|M|Karl-Gustav Sjökvist|Kroksjöbo, Tingsryd
+C|185641|69|M|Lennart Karlsson|Järnemåla, Ryd
+C|185643|72|K|Ann-Charlott Cato|Kuppramåla, Linneryd
+C|185644|43|K|Annica Hägg-Johansson|Hössjömåla, Ryd
+C|185645|74|M|Mats Karlsson|Obbetorp, Linneryd
+C|185646|46|K|Ingrid Hagelberg|Väckelsång
+C|185639|67|M|Stefan Quick|Hönshylte, Ryd
+C|185647|48|M|Dag Runesson|Ulfsryd, Tingsryd
+C|185648|70|M|Kenneth Brorsson|Siggahult, Linneryd
+C|185649|67|M|Göran Petersson|Söftestorp, Väckelsång
+C|185650|71|M|Sven-Erik Svensson|Högagärde, Urshult
+C|183273|50|M|Lars Nilsson|50, Studie- och yrkesvägledare, Tingsryd
+C|360265|19|M|Stefan De Goede|Student, Ryd
+C|363238|59|M|Jan Popovski|Företagare
+C|363239|52|M|Anders Gustavsson|
+C|360267|56|K|Anette Weidenmark|Skolledare, Tingsryd
+C|387723|32|M|Alexander Nolin|
+C|387724|49|K|Annika Gustavsson|Företagare
+C|363241|72|K|Ingrid Thordsson|
+C|363242|79|K|Marianne Bergström|Pensionär
+C|363243|74|M|Gunnar Sandgren|
+C|387728|28|K|Elinor Gustavsson|
+C|363244|53|K|Jacqueline van Geene|Speciallärare
+C|363245|68|M|Bo Arvidsson|
+C|363246|73|K|Helena Sandgren|
+C|363247|59|K|Anna Isaksson|
+C|363248|72|K|Marianne Andréasson|Pensionerad diakon
+C|363249|74|M|Åke Olofsson|Pensionär
+C|283552|63|M|Peter Görtz|Linneryd
+C|515635|65|K|Elisabet Ivarsson|
+C|300217|73|M|Sven-Olof Karlborg|Tingsryd
+C|509192|56|K|Sabine Grönevik|Tingsryd
+C|509195|57|K|Helene Rosenqvist|Tingsryd
+C|509194|61|M|Görgen Pihlgren|Urshult
+C|509193|55|M|Kjell Hedblom|Urshult
+C|46240|43|M|Patrik Andersson|43 år, Polis, Tingsryd
+C|45935|60|M|Patrick Ståhlgren|60 år, Lantmätare, Tingsryd
+C|46040|61|K|Marie Fransson|61 år, Egenföretagare, Väckelsång
+C|46243|38|M|Christian Ward|38 år, Försäljningschef, Tingsryd
+C|46244|53|K|Marina Thyborn|53 år, Musiker/Undersköterska, Tingsryd
+C|46245|43|M|Donny Magnusson|43 år, Rörmokare, Linneryd
+C|46246|65|K|Karin Olsson|65 år, Fd Områdeschef, Tingsryd
+C|46247|57|M|Mikael Håkansson|57 år, Platschef, Tingsryd
+C|46248|63|M|Tommy Fransson|63 år, Lantbrukare, Väckelsång
+C|46249|60|M|Cemil Aygan|60 år, Industriarbetare, Tingsryd
+C|46250|40|M|Roger Wisberg|40 år, Utvecklingsstrateg, Linneryd
+C|46251|47|K|Yvonne Storm|47 år, Maskinoperatör, Urshult
+C|46252|31|K|Emma Wisberg|31 år, Studerande, Linneryd
+C|46253|19|M|Maximilian Eriksson|19 år, Studerande, Linneryd
+C|46254|68|K|Birgitta Söderlind Hörberg|68 år, Egenföretagare, Södra Sandsjö
+C|46255|69|M|Stig Olsson|69 år, Förvaltare, Tingsryd
+C|46256|70|M|Per-Axel Persson|70 år, Byggkonsult, Ryd
+C|46257|65|M|Inge Strandberg|65 år, Företagare, Väckelsång
+C|46258|73|M|Arne Karlsson|73 år, Pensionär, Ryd
+C|46259|63|M|Åke Nyberg|63 år, Bagare, Linneryd
+C|46525|47|K|Ann-Louise Viking|Ryd, Yrkeschaufför, 47 år
+C|46526|51|M|Roger Rydberg|Hensmåla, Arkivator, 51 år
+C|46527|74|K|Janita Ingegerd Karlsson|Ryd, Pensionär, 74 år
+C|46528|59|M|Allan Johansson|Urshult, Industriarbetare, 59 år
+C|46530|43|M|Jim Viking|43, Ryd, Egenföretagare
+C|46531|42|M|Martin Nord|Urshult, Träindustriarbetare, 42 år
+C|46532|67|M|Alf Augustsson|Ryd, Pensionär, 67 år
+C|46533|54|M|Ted Strand|54, Väckelsång, Idrottskonsult
+C|46534|48|M|Ronny Norén|Linneryd, Sågverksarbetare, 48 år
+C|385701|51|M|Björn Hvornum|Linneryd
+C|385702|44|M|Raine Olsson|Konga
+C|385703|54|K|Stina Steinvall|Urshult
+C|385704|37|M|Martin Uleskog|Dångebo
+C|385705|51|K|Maria Hvornum|Linneryd
+C|515884|46|M|Johan Eriksson|
+C|515885|40|K|Jessica Holmevi|
+C|515886|36|K|Emmeli Uleskog|
+C|515887|43|M|Michael Stjernfeldt|
+C|247237|40|K|Kristina Brovall|Tingsryd
+C|247238|72|M|Göran Mård|Grönadal Älmeboda
+C|247239|41|K|Fatemeh Ahmadi|Tingsryd
+C|247240|38|M|Joakim Olsson|Väckelsång
+C|247241|65|M|Jörgen Forsberg|Älmeboda
+C|247242|45|K|Sara Rydberg|Tingsryd
+C|104865|69|M|Anders Eklund|70 år, pensionär, Tingsryd
+C|247244|67|M|Leif Halls|Tingsryd
+C|247245|66|K|Eva Rydberg|Tingsryd

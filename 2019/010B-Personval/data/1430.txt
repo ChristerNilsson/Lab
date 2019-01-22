@@ -1,8 +1,137 @@
-2|42088|42089|42090|42091|42092|42093|42094|42095|42096|42097|42098|42099|42100|42101|42102|42103|42104|42105|42106|42107|42108|42109|42110|42111|42112|42113
-4|6889|1891|1893|6892|1875|1887|6895|6896|6897|6898|6899|6900|6901|6902|6903|6904|6905|6906|6907|6908|6909|6910|6911
-68|248812|249765|249766|249767|249768
-3|235554|235555|235556|235557|235558|235559|235560|235561
-55|84733|294953|294954|294955
-1|243427|254818|254819|243439|254822|254823|254824|254825|254826|254827|254828|254829|418765|254830|254831|254832|254833|254834|254835|254836|254837|254838|254839|254840|254842|254843|254847|254848|418782
-110|62513|62514|62516|62517|62518|62519|62520|62521|495912|62525|62523|495915|62524|495917|62527|62526
-5|315647|315648|315649|315650|315651|315652|315653|315654|315655
+T|Munkedal
+A|2|42088|42089|42090|42091|42092|42093|42094|42095|42096|42097|42098|42099|42100|42101|42102|42103|42104|42105|42106|42107|42108|42109|42110|42111|42112|42113
+A|4|6889|1891|1893|6892|1875|1887|6895|6896|6897|6898|6899|6900|6901|6902|6903|6904|6905|6906|6907|6908|6909|6910|6911
+A|68|248812|249765|249766|249767|249768
+A|3|235554|235555|235556|235557|235558|235559|235560|235561
+A|55|84733|294953|294954|294955
+A|1|243427|254818|254819|243439|254822|254823|254824|254825|254826|254827|254828|254829|418765|254830|254831|254832|254833|254834|254835|254836|254837|254838|254839|254840|254842|254843|254847|254848|418782
+A|110|62513|62514|62516|62517|62518|62519|62520|62521|495912|62525|62523|495915|62524|495917|62527|62526
+A|5|315647|315648|315649|315650|315651|315652|315653|315654|315655
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|42088|39|K|Liza Kettil|Folkbildare, 39 år, Munkedal
+C|42089|67|M|Rolf Berg|67 år, Hedekas/Söbbön
+C|42090|55|K|Maria Sundell|55 år, Håby/Smedberg
+C|42091|65|M|Per-Arne Brink|F.d Ombudsman, 65 år, Munkedal
+C|42092|27|K|Regina Johansson|27 år, Munkedal/Krokklev
+C|42093|59|K|Caritha Jacobsson|Enhetschef, 59 år, Munkedal
+C|42094|38|M|Johan Nilsson|38 år, Munkedal/Hede
+C|42095|56|K|Pia Hässlebräcke|56 år, Hedekas/Centrum
+C|42096|67|M|Leif Karlsson|67 år, Munkedal/Lilla Foss
+C|42097|40|K|Jenny Jansson|40 år, Håby/Lerberg
+C|42098|52|M|Håkan Bergqvist|52 år, Munkedal/Brudås
+C|42099|69|K|Yvonne Martinsson|69 år, Munkedal/Foss
+C|42100|28|M|Hisham Alamro|28 år, Munkedal/Centrum
+C|42101|62|K|Inger Orsbeck|62 år, Munkedal/Möe
+C|42102|40|K|Jennie Olsson|40 år, Dingle
+C|42103|65|M|Sten-Ove Niklasson|65 år, Munkedal/Dale
+C|42104|27|K|Else-Marie Grundberg|27 år, Håby/Lerberg
+C|42105|49|M|Ziya Yenigün|49 år, Munkedal/Brudås
+C|42106|30|K|Anette Tander|30 år, Munkedal/Lilla Foss
+C|42107|68|M|Rolf Bjelm|68 år, Dingle/Holma
+C|42108|44|K|Lene Matysiak|44 år, Håby/Gläborg
+C|42109|48|M|Raimo Norrgran-Kettil|48 år, Hedekas/Hult
+C|42110|56|K|Åsa Karlsson|Studie- och Yrkesvägledare, 56 år, Munkedal
+C|42111|57|M|Olle Strömberg|57 år, Munkedal/Lilla Foss
+C|42112|62|K|Yvonne Johansson|62 år, Hällevadsholm
+C|42113|48|K|Maria Hallenberg|48 år, Munkedal/Önnebacka
+C|6889|63|M|Karl-Anders Andersson|64 år, egenföretagare, Hällevadsholm
+C|1891|55|K|Carina Thorstensson|egenföretagare, 55 år, Munkedal
+C|1893|54|M|Christer Nilsson|elektriker, 54 år, Munkedal
+C|6892|39|K|Helena Hansson|39 år, lantbrukare, Svarteborg
+C|1875|49|M|Lars-Göran Sunesson|lärare, 49 år, Munkedal
+C|1887|21|K|Lovisa Svensson|verksamhetskoordinator, 21 år, Munkedal
+C|6895|80|M|Leif Svensson|80 år, pensionär, Hällevadsholm
+C|6896|26|M|Johan Ljungblad|26 år, rörmokare, Hedekas
+C|6897|76|K|Barbro Gustavsson|76 år, pensionär, Munkedal
+C|6898|72|M|Rolf Hansson|72 år, pensionär, Hällevadsholm
+C|6899|26|K|Caroline Ottermalm|26 år, egenföretagare, Dingle
+C|6900|49|K|Gisela Falck|49 år, regionchef, Dingle
+C|6901|74|M|Thomas Utbult|74 år, snickare, Dingle
+C|6902|62|M|Lars Svensson|62 år, säljare, Fisketorp
+C|6903|50|K|Eva-Lotta Olsson|50 år, undersköterska, Bärfendal
+C|6904|52|M|Bengt Olov Åkerlund|53 år, musiklärare, Munkedal
+C|6905|54|M|Ramadan Alili|54 år, modersmålslärare, Dingle
+C|6906|72|M|Claes Hedlund|72 år, pensionär, Hällevadsholm
+C|6907|68|M|Ulf Nilsson|68 år, pensionär, Bärfendal
+C|6908|71|M|Erland Erntell|71 år, lärare, Munkedal
+C|6909|63|K|Mona Nilsson|63 år, undersköterska, Bärfendal
+C|6910|77|M|Bengt Ryrmalm|77 år, rörmontör, Munkedal
+C|6911|35|K|Lotta Karlsson|35 år, webbredaktör, Dingle
+C|248812|46|M|Fredrik Olsson|Lärarstuderande, Munkedal
+C|249765|69|M|Rolf Jacobsson|
+C|249766|67|M|Olle Olsson|
+C|249767|71|K|Nina Andersson|
+C|249768|61|K|Gun-Britt Jacobsson|
+C|235554|61|K|Karin Blomstrand|61, verksamhetsutvecklare, Munkedal
+C|235555|40|K|Anna Höglind|40, egenföretagare, Munkedal
+C|235556|58|M|Johan Magnusson|58 år, Munkedal
+C|235557|65|M|Göran Nyberg|65 år, Munkedal
+C|235558|58|M|Thomas Högberg|58 år, Hällevadsholm
+C|235559|56|K|Leina Selinder|56 år, Munkedal
+C|235560|74|M|Per-Göran Ekeroos|74 år, Munkedal
+C|235561|39|K|Lena Gustafsson|39 år, Svarteborg
+C|84733|62|M|Hans-Joachim Isenheim|62 år, Egenföretagare, Munkedal
+C|294953|42|M|Ayman Shehadeh|42 år, Undersköterska
+C|294954|56|K|Nina Isenheim|56 år, Undersköterska
+C|294955|61|K|Ellen Werenskiöld-Solberg|61 år
+C|243427|46|K|Ann-Sofie Alm|46, Entreprenör, Munkedal
+C|254818|67|M|Jan Hognert|67, Munkedal
+C|254819|48|K|Ausra Karlsson|48, Fisketorp
+C|243439|20|M|Robin Karlsson Dahlgren|20, Processoperatör, Munkedal
+C|254822|41|M|Martin Svenberg Rödin|41, Munkedal
+C|254823|70|K|Ulla Gustafsson|70, Torreby
+C|254824|20|M|Dexter Gillberg|20, Munkedal
+C|254825|36|M|Johnny Ernflykt|36, Munkedal
+C|254826|43|K|Malin Corner|43, Munkedal
+C|254827|71|M|Gunnar Fredriksson|71, Torreby
+C|254828|39|M|Henrik Palm|39, Munkedal
+C|254829|44|K|Linda Wighed|44, Munkedal
+C|418765|50|M|Glenn Hammarström|50, Dingle
+C|254830|48|K|Camilla Espenkrona|48, Munkedal
+C|254831|63|M|Lars Olof Lyrdal|63, Hedekas
+C|254832|58|M|Lars Östman|58, Munkedal
+C|254833|31|M|Truls Koch|31, Torreby
+C|254834|39|M|Andreas Kårebrand|39, Munkedal
+C|254835|43|K|Johanna Espenkrona|43, Torreby
+C|254836|45|K|Siri Hammarström|45, Dingle
+C|254837|19|K|Wilma Espenkrona|19, Torreby
+C|254838|73|M|Rolf Henriksson|73, Munkedal
+C|254839|47|M|James Olofsson|47, Torreby
+C|254840|32|K|Frida Karlsson|32, Torreby
+C|254842|19|M|Filip Karlsson Dahlgren|19, Dingle
+C|254843|65|M|Gert Aldegren|65, Munkedal
+C|254847|80|M|Bertil Schewenius|80, Munkedal
+C|254848|20|M|Linus Svanberg Andersson|20, Hedekas
+C|418782|57|K|Inger Nilsson|57,Torreby
+C|62513|39|M|Matheus Enholm|Politisk sekreterare, Munkedal
+C|62514|35|M|Heikki Klaavuniemi|Regionråd, Munkedal
+C|62516|27|M|Christoffer Wallin|27, Lantbrukare, Hedekas
+C|62517|28|M|Pontus Reuterbratt|28, Sprängarbas, Hällevadsholm
+C|62518|64|M|Christer Börjesson|64, Lantbrukare, Berfendal
+C|62519|26|M|Tony Hansson|26, Byggnadsplåtslagare, Dingle
+C|62520|46|M|Mathias Johansson|46, Administrator, Hedekas
+C|62521|45|M|Marko Pasanen|45, Personbilstekniker, Munkedal
+C|495912|63|M|Bo Ericson|63, Leancoach, Valbo-Ryr
+C|62525|28|K|Linn Hermansson|28, Undersköterska, Dingle
+C|62523|46|M|Peter Andersson|46, Egenföretagare, Hedekas
+C|495915|35|K|Carolina Gedda|35, Industriarbetare, Hällevadsholm
+C|62524|55|M|Jan Peterson|55, Egenföretagare, Hedekas
+C|495917|48|K|Maria Pasanen|48, Undersköterska, Munkedal
+C|62527|57|M|Håkan Skenhede|58, Export Manager, Dingle
+C|62526|46|M|Jonas Rohman|46, Egenföretagare, Håby
+C|315647|27|K|Malin Svedjenäs|27 år, Undersköterska
+C|315648|71|M|Ove Göransson|71 år, Pensionär
+C|315649|60|K|Irene Barfoot Ekelund|60 år, Konstnär
+C|315650|33|K|Tiina Hemberg|33 år, Lärare
+C|315651|38|M|Kasper Gustafsson|38 år, Lärare
+C|315652|28|M|Gustaf Svedjenäs|28 år, Elevassistent
+C|315653|46|M|Niklas Hemberg|46 år, Pappersindustriarbetare
+C|315654|41|K|Marie Wallsby|41 år, Leg. Sjuksköterska
+C|315655|47|M|Håkan Berg|48 år, Gruppchef

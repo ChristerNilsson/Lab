@@ -1,8 +1,138 @@
-2|238955|238956|238957|238958|238959|238960|238961|238962|238963|238964|238965|238966|238967|238968|238969|238970|238971|238972|238973|238974|238975|238976|238977|238978|238979|238980|238981|238982|238983|238984|238985|238986|238987|238988
-4|33543|33551|165543|165544|165545|165546|165547|165548|165549|165550|165551|165552|165553|165554|165555|165556|165557|165558|165559
-68|9196
-1011|239770|239771|239772|239773|239774|239775|239776|239777|239778|239779|239780|239781
-3|165073|156316|217282|217283|217284|217285|217286|217287|217288|217289|217290|217291|217292|217293|217294|217295|217296
-1|36832|35827|35829|36835|36836|36837|36838|36839|36840|36841|36842|36843|36844|36845|36846
-110|101069|101070|101071|101072
-5|63827|290972|63826|290974|290975|290976|290977|290978|290979|290980|290981|290982|290983|63823|290985|290986|290987|290988|290989|290990
+T|Malung-Sälen
+A|2|238955|238956|238957|238958|238959|238960|238961|238962|238963|238964|238965|238966|238967|238968|238969|238970|238971|238972|238973|238974|238975|238976|238977|238978|238979|238980|238981|238982|238983|238984|238985|238986|238987|238988
+A|4|33543|33551|165543|165544|165545|165546|165547|165548|165549|165550|165551|165552|165553|165554|165555|165556|165557|165558|165559
+A|68|9196
+A|1011|239770|239771|239772|239774|239775|239776|239777|239778|239779|239780|239781
+A|3|165073|156316|217282|217283|217284|217285|217286|217287|217288|217289|217290|217291|217292|217293|217294|217295|217296
+A|1|36832|35827|35829|36835|36836|36837|36838|36839|36840|36841|36842|36843|36844|36845|36846
+A|110|101069|101070|101071|101072
+A|5|63827|290972|63826|290974|290975|290976|290977|290978|290979|290980|290981|290982|290983|63823|290985|290986|290987|290988|290989|290990
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|238955|48|M|Hans Unander|48 år, Malung-Sälen
+C|238956|68|K|Lilian Olsson|Malung-Sälen
+C|238957|43|M|Jörgen Norén|Malung-Sälen
+C|238958|49|K|Åsa Hedlöf|överförmyndare,Kittarna
+C|238959|46|M|Lars Nyman|virkesmätare,Lima
+C|238960|29|K|Elin Sandgren|skorstensfejartekniker,Yttermalung
+C|238961|65|M|Jan Öhman|fjällguide,Sälen
+C|238962|42|K|Sofia Söderström|sjukgymnast,Albacken
+C|238963|46|M|Jan Jespersen|ombudsman,Malung
+C|238964|46|K|Carina Albertsson|lärare,Malung
+C|238965|33|M|Artem Adylev|entreprenadingenjör,Malung
+C|238966|73|K|Birgitta Örjas|pensionär,Malung
+C|238967|48|M|Jörgen Eriksson|butiksäljare,Sörsjön
+C|238968|48|M|Ronny Larsson|chaufför,Malungsfors
+C|238969|50|K|Monica Landström|skoladministratör,Myckelbyn
+C|238970|76|M|Bengt Nilsson|pensionär,Grönland
+C|238971|48|K|Lena Aune|lärare,Malung
+C|238972|60|M|Lars-Göran Gustavsson|industriarbetare,Tällbyn
+C|238973|65|K|Anneli Johansson-Tauni|undersköterska,Grönland
+C|238974|50|M|Håkan Oskarsson|vaktmästare,Malungsfors
+C|238975|68|K|Britta Lindholm|Malung-Sälen
+C|238976|56|K|Eva Tranberg|arbetsförmedlare,Yttermalung
+C|238977|65|M|Kjell Jansson|VD,Grönland
+C|238978|60|K|Karin Eriksson|undersköterska,Grimsåker
+C|238979|72|M|Bengt Albertsson|pensionär,målare,Backbyn
+C|238980|69|K|Ulla-Britt Fahlström|pensionär,Horrmund
+C|238981|68|M|Bo Olsson|pensionär,Sillerö
+C|238982|52|K|Anna-Lena Jespersen|aktivitetssamordnare,Malung
+C|238983|66|M|Kurt Podgorski|Malung-Sälen
+C|238984|52|M|Mats-Olof Olsson|arbetstagare,Malung
+C|238985|67|M|Torbjörn Korssell|pensionär,Backbyn
+C|238986|67|M|Hans-Ove Wåström|pensionär,Rörbäcksnäs
+C|238987|50|M|Leif Isaksson|ombudsmanLO,Malung
+C|238988|43|M|Pär Unander|industriarbetare,Kittarna
+C|33543|49|M|Pär Kindlund|Malung-Sälen
+C|33551|66|K|Agneta Åhs-Sivertsen|Malung-Sälen
+C|165543|72|M|Tord Bergqvist|Tyngsjö
+C|165544|47|M|Janne Forsgren|Backbyn
+C|165545|59|M|Anders Westerlund|Hole
+C|165546|52|K|Elisabeth Lövsta|Malungsfors
+C|165547|44|M|Jonas Jonsson|Hjulslätt
+C|165548|45|K|Anna Eriksson|Transtrand
+C|165549|76|K|Birgit Gotthardsdotter-Wikström|Yttermalung
+C|165550|62|M|Sven-Olov Halvarsson-Lill|Biskopsbyn
+C|165551|74|K|Margaretha Steen|Romarheden
+C|165552|78|M|Hans Matsson|Myckelbyn
+C|165553|73|M|Göran Tenn|Orrmyrheden
+C|165554|78|K|Helga Berg|Böle
+C|165555|77|K|Karin Emilsson|Västra-Utsjö
+C|165556|68|K|Maine Holmström|Tyngsjö
+C|165557|54|K|Agneta Nielsen|Andersviksberg
+C|165558|75|M|Lars-Erik Åhman|Lillmon
+C|165559|79|M|Rune Carlstedt|Grönland
+C|9196|70|M|Lars Nilsson|Malung
+C|239770|68|M|Per-Ola Sjödén|Malung-Sälen
+C|239771|63|K|Maritha Eriksson|Malungsfors
+C|239772|51|M|Peter Melin|Malung
+C|239774|62|M|Claes Ahlén|Yttermalung
+C|239775|39|K|Jessica Lindqvist|Sälen
+C|239776|55|M|Lasse Olsson|Malung
+C|239777|67|M|Kalle Edvinsson|Vallerås
+C|239778|59|M|Leif Nilsson|Yttermalung
+C|239779|63|K|Inga Ahlén|Yttermalung
+C|239780|37|M|Patrik Eriksson|Malung
+C|239781|52|M|Peter Svensson|Malung
+C|165073|58|M|Thomas Ericsson|58 år Företagare, Malung-Sälen
+C|156316|38|K|Martina Elfström|Lärare, 38 år, Malung-Sälen
+C|217282|50|M|Daniel Johansson|50 år, Projektledare, Albacken
+C|217283|46|K|Helen Bäcke|47 år, Handläggare, Malungsfors
+C|217284|39|M|Pär Zars|39 år, Utredningsingenjör, Yttermalung
+C|217285|37|K|Jessica Hellström|37 år, Leg. barnmorska, Sörsjön
+C|217286|57|M|Johan Lisra|57 år, Adjunkt, Grönland
+C|217287|76|K|Ulla Matsson|76 år, Adjunkt, Malung
+C|217288|68|M|Rune Högberg|68 år, Konsult, Romarheden
+C|217289|53|K|Kristina Magnér|53 år, Adjunkt, Myckelbyn
+C|217290|67|M|Leif Nilsson|67 år, Seniorföretagare, Albacken
+C|217291|24|K|Ellie Pettersson|24 år, Mammaledig, Storbyn
+C|217292|49|M|Per-Lennart Gunnarsson|49 år, Trafikskolelärare, Idbäck
+C|217293|19|K|Elin Sjöö|19 år, Student, Yttermalung
+C|217294|81|M|Åke Bondjers|81 år, Personalman, Backbyn
+C|217295|79|M|Bengt Thorén|79 år, Adjunkt, Myckelbyn
+C|217296|49|M|Patrik Eriksson|48 år, Företagare, Holarna
+C|36832|57|K|Kristina Bäckman|Malung
+C|35827|40|M|Mikael Östling|40 år, egenföretagare, Malung-Sälen
+C|35829|53|M|Erik Gustafsson|53 år, samordnare, Malung-Sälen
+C|36835|64|K|Brita Sohlin|Malung
+C|36836|40|K|Elenor Svensk|Lima
+C|36837|43|M|Jörgen Lind|Sälen
+C|36838|78|M|Sören Bjurström|Malung
+C|36839|80|K|Gun Byttner|Malung
+C|36840|55|M|Lars Gudmundsson|Sälen
+C|36841|69|M|Ulf Andersson|Öje
+C|36842|29|M|Joakim Limberg|Lima
+C|36843|47|M|Mattias Johansson|Lima
+C|36844|55|M|Hans Lind|Sälen
+C|36845|41|K|Ann-Christin Tangen|Sälen
+C|36846|62|M|Ås Per Levin|Malung
+C|101069|60|M|Mats Larsson|Skogsmästare, Malungsfors
+C|101070|38|M|Johannes Jonsson|Elektriker, Malung
+C|101071|42|M|Andreas Möllenberg|Snickare, Malung
+C|101072|39|M|Anders Rosén|Elektriker, Malung
+C|63827|60|M|Lars-Erik Bech|Malung-Sälen, 60 år
+C|290972|47|K|Angelica Arthur|
+C|63826|59|K|Britt Marie Strömbäck|Malung-Sälen, 59 år
+C|290974|57|K|Anna Maria Busk|Undersköterska
+C|290975|58|M|Thomas Ferm|Alkoholhandläggare
+C|290976|74|K|Ann Cathrin Fernå|Pensionär
+C|290977|70|M|Bertil Helmersson|
+C|290978|66|K|Anne Marie Helmersson|
+C|290979|40|M|Lukas Löfstrand|Socionom/Verksamhetschef
+C|290980|52|K|Åsa Nilsson|Coach
+C|290981|45|M|Sebastian Kirppu|Skogsbiolog
+C|290982|65|K|Karin Ek Lissbol|Rektor
+C|290983|59|M|Gunnar "Bullen" Ohlsson|Förbundschef
+C|63823|54|K|Birgitta "Titti" Berg|Malung-Sälen, 54 år
+C|290985|70|M|Anders Ericsson|Pensionär
+C|290986|53|M|Vala Vazirdaftari|Integrationssamordnare
+C|290987|40|K|Christin Löfstrand|Rektor
+C|290988|71|M|Backa John Erik "Backis" Eriksson|Deltidspensionär
+C|290989|57|M|Lars-Åke "LÅK" Kristoffersson|Snickare
+C|290990|71|M|Kalle Almlöf|Pensionär

@@ -1,9 +1,125 @@
-2|81375|107018|107019|107020|99777|81364|107023|99781|99772|107026|99776|98781|107029|107030|107031|107032|99774|107034|107035|107036|99758|99761|107039|107040|107041|107042|107043|107044|107045|107046|107047|107048|107049
-4|155410|155411|155412|155413|155414|155415|155416|155417|155418|155419|155420|155421|155422|155423
-40|391422|391423|391424|391425|391426|391427|391428|391429|416424|391430|391431|391432|391433|391434|391435|391436|391437
-68|356884|359101|359112|359113|365014|365016
-3|53549|53994|53995
-55|382640|392639|392640
-1|133577|138364|138365|132931|138367|138368|138369|138370|138371|138372|138373
-110|138242|138243|138244|138245|138246|138247|138248|138250|138251|138252|138253
-5|394427|394428|394429|394430|394431|394432|394433|394434
+T|Älvkarleby
+A|2|81375|107018|107019|107020|99777|81364|107023|99781|99772|107026|99776|98781|107029|107030|107031|107032|99774|107034|107035|107036|99758|99761|107039|107040|107041|107042|107043|107044|107045|107046|107047|107048|107049
+A|4|155410|155411|155412|155413|155414|155415|155416|155417|155418|155419|155420|155421|155422|155423
+A|40|391422|391423|391424|391425|391426|391427|391428|391429|416424|391430|391431|391432|391433|391434|391435|391436|391437
+A|68|356884|359101|359112|359113|365014|365016
+A|3|53549|53994|53995
+A|55|382640|392639|392640
+A|1|133577|138364|138365|132931|138367|138368|138369|138370|138371|138372|138373
+A|110|138242|138243|138244|138245|138246|138247|138248|138250|138251|138252|138253
+A|5|394427|394428|394429|394430|394431|394432|394433|394434
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|40|KV|Kommunens Väl
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|81375|43|K|Marie Larsson|43 år, Integrationshandläggare, Skutskär
+C|107018|67|M|Björn Karlsson|67 år, Älvkarleby
+C|107019|62|K|Anett Aulin|62 år, Skutskär
+C|107020|50|M|Magnus Grönberg|50 år, Skutskär
+C|99777|45|K|Jenny Dahlberg|45 år, Integrationssamordnare, Skutskär
+C|81364|53|M|Mikael Ybert|53 år, Fabriksarbetare, Skutskär
+C|107023|39|K|Katrin Jakobsson|39 år, Skutskär
+C|99781|49|M|Roger Wilund|49 år, Processoperatör, Skutskär
+C|99772|66|K|Inga-Lil Tegelberg|66 år, Leg. sjuksköterska, Skutskär
+C|107026|65|M|Rolf Bejerfjord|65 år, Gårdskär
+C|99776|46|K|Pernilla Friman|46 år, Kanslist, Skutskär
+C|98781|66|M|Lars Skytt|66 år, Pensionär, Älvkarleby
+C|107029|71|K|Annika Forsberg|71 år, Älvkarleby
+C|107030|26|M|Sagar Bhatta|26 år, Skutskär
+C|107031|66|K|Hannele Kumpulainen|66 år, Skutskär
+C|107032|70|M|Tommy Jakobsson|70 år, Skutskär
+C|99774|36|K|Nathalie Lindén Olivefalk|36, Präst i Sv. kyrkan, Älvkarleby
+C|107034|67|M|Sven-Olof Melin|67 år, Skutskär
+C|107035|71|K|Ann-Cathrin Andersson|71 år, Marma
+C|107036|75|M|Kurt L Andersson|75 år, Skutskär
+C|99758|52|K|Anna-Karin Lidberg|52 år, Administratör, Älvkarleby
+C|99761|67|M|Jan-Åke Olsson|67 år, Pensionär, Skutskär
+C|107039|66|K|Gunvor Lugnfors|66 år, Älvkarleö
+C|107040|67|M|Mats Tegelberg|67 år, Skutskär
+C|107041|53|K|Åsa Strid Andersson|53 år, Skutskär
+C|107042|75|M|Kjell Grönberg|75 år, Marma
+C|107043|76|K|Rose-Marie Westerholm|76 år, Skutskär
+C|107044|44|M|Björn Larsson|44 år, Skutskär
+C|107045|59|K|Sonia Nilsson-Ullström|59 år, Skutskär
+C|107046|68|M|Jan erik Molander|68 år, Skutskär
+C|107047|64|K|Britta Gustavsson|64 år, Skutskär
+C|107048|71|M|Eino Hekkala|71 år, Skutskär
+C|107049|77|M|Bo Olsson|77 år, Skutskär
+C|155410|78|K|Clarrie Leim|78 år, företagare, Älvkarleby
+C|155411|56|K|Agneta Lundgren|undersköterska, Gårdskär
+C|155412|69|K|Gunn Johansson|69 år, tjänsteman, Skutskär
+C|155413|64|M|Gunnar Östlund|träarbetare, Gårdskär
+C|155414|75|K|Birgitta Thunholm|lärare, Älvkarleby
+C|155415|51|M|Nenne Jonsson|51 år, typograf, Skutskär
+C|155416|71|K|Kristina Freerks|71 år, leg. sjuksköterska, Älvkarleby
+C|155417|52|M|Mujo Ahmic|tågmästare, Skutskär
+C|155418|74|M|Hans-Erik Östlund|jordbrukare, Gårdskär
+C|155419|22|M|Viktor Östlund|barnskötare, Gårdskär
+C|155420|80|K|Inga Sandberg|lärare, Skutskär
+C|155421|41|M|Paul Wisén|egenföretagare, Skutskär
+C|155422|71|M|Agne Häggström|pensionär,  Skutskär
+C|155423|74|M|Gunnar Ohlsson|pensionär, Älvkarleby
+C|391422|74|M|Bengt Ahlqvist|Älvkarleby
+C|391423|64|K|Mona Hansson|Skutskär
+C|391424|64|M|Håkan Forsell|Älvkarleby
+C|391425|62|K|Annemon Piper|Långsand
+C|391426|67|M|Torbjörn Löfgren|Skutskär
+C|391427|36|M|Christian Eriksson|Skutskär
+C|391428|71|M|Hans Henriksson|Skutskär
+C|391429|58|M|Peder Magnusson|Skutskär
+C|416424|64|M|Börje Matsson|Skutskär
+C|391430|64|K|Carin Blomkvist|Skutskär
+C|391431|69|M|Rolf Haglund|Skutskär
+C|391432|75|K|Eva Eriksson|Skutskär
+C|391433|79|M|Per Leksén|Skutskär
+C|391434|66|K|Kerstin Löfgren|Skutskär
+C|391435|77|M|Lage Karlsson|Skutskär
+C|391436|77|M|Stig T Eriksson|Skutskär
+C|391437|70|M|Nils Hansson|Skutskär
+C|356884|71|M|Runar Höglund|70, Präst, Skutskär
+C|359101|83|K|Marianne Nygren|82, Fd Distriktssköterska, Skutskär
+C|359112|59|M|Georges Alsawiri|59, Gatuköksinnehavare, Skutskär
+C|359113|49|K|Hope Nkurunziza|49, Teologistudent, Älvkarleby
+C|365014|76|M|Thord Gillving|75, Kulturarbetare, Skutskär
+C|365016|73|K|Else-Marie Gillving|72, fd. Undersköterska, Skutskär
+C|53549|42|K|Ann-Charlotte Ågren|beteendevetare, Älvkarleby, 42 år
+C|53994|20|M|Alexander Löf|student, Älvkarleby, 20 år
+C|53995|50|M|Erik Hansson|förrådsarbetare, Skutskär, 50 år
+C|382640|50|M|Hans Wennberg|Grafisk formgivare, 50 år, Älvkarleby
+C|392639|75|M|Jan-Ola Lindberg|Socionom, 75 år, Skutskär
+C|392640|43|M|Mattias Boström|Undersköterska, 43 år, Skutskär
+C|133577|45|M|Roger Petrini|45 år, Kock, Skutskär
+C|138364|49|K|Eva Sidekrans|49 år, Företagare, Älvkarleby
+C|138365|54|M|Robert Boman Lindqvist|54 år, Företagare, Älvkarleby
+C|132931|52|K|Susanne Mastonstråle|52 år, Företagare, Älvkarleby
+C|138367|49|M|Patrick Ernesäter|49 år, Egen företagare, Skutskär
+C|138368|27|K|Erika Häggström|27 år, Arbetssökande, Skutskär
+C|138369|42|K|Ruth Pereira|42 år, Lärare, Skutskär
+C|138370|72|K|Monica Lindeberg|72 år, Speciallärare, Skutskär
+C|138371|76|M|Christer Lindeberg|76 år, Skattejurist, Skutskär
+C|138372|58|M|Mats Skoglund|58 år, Företagare, Älvkarleby
+C|138373|74|M|Kenneth Lundström|74 år, Pensionär, Skutskär
+C|138242|61|M|Kurt Törnblom|F.d. fastighetsskötare, Älvkarleby
+C|138243|28|K|Sandra Andersson|Lokalvårdare, Älvkarleby
+C|138244|22|K|Natalie Jansson|22, undersköterska, Skutskär
+C|138245|39|M|Roni Doumit|39, master i statskunskap, Älvkarleby
+C|138246|81|K|Maj-Britt Jakobsson|81, f.d. sjukvårdsbiträde, Älvkarleby
+C|138247|52|M|Glenn Grylin|52, entreprenör, Älvkarleby
+C|138248|68|M|Walter Löfman|68, elektriker, Älvkarleby
+C|138250|82|M|Rolf Sundström|82, f.d. reparatör, Skutskär
+C|138251|63|K|Eva Britt Löfman|63, f.d. montör, Älvkarleby
+C|138252|62|M|Roger Furuström|62, meckare, Skutskär
+C|138253|57|M|Mats Lennart Eriksson|57, processoperatör, Skutskär
+C|394427|62|M|Ulf Öman|62, renhållningsarbetare, Älvkarleby
+C|394428|77|K|Sigrid Bergström|77, pensionär, Älvkarleby
+C|394429|32|M|Håkan Thörnell|32, arbetslös, Älvkarleby
+C|394430|24|M|Joel Gordon Hultsjö|Skutskär
+C|394431|45|M|Rikard Hamrén|Skutskär
+C|394432|73|K|Anita Selander-Knapp|Skutskär
+C|394433|78|M|Börje Knapp|Skutskär
+C|394434|63|M|Mikael Othén|Älvkarleö bruk

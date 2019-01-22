@@ -1,11 +1,305 @@
-2|7614|7611|11872|12313|12314|12315|7602|12317|11876|12319|12320|12321|12322|12323|11874|12325|11868|12327|12330|12329|11870|12331|12334|12333|12336|12335|11866|12337|12340|11869|12342|12341|12344|12343|12346|11867|12348|11859|11862|12349|136464|12351|11875|11863|11861|11871|12356|12357
-4|29099|28944|29101|29102|23827|28971|23843|23839|23830|23841|29109|28953|29111|28961|29113|29114|29115|28994|29117|29118|29119|29120|28989|29122|29123|28992|28997|29126|29127|29128|28996|29130|29131|29132|29133|28955|29137|29138|28998|29140|29141|141593
-1150|514269
-68|221793|221784|221795|221779|221789|224798|221800|224800|224801|221798|224803|224804|224805|224806|224807|224808|221790|224810|224811|224812
-1036|197601|198798|198799|198800|199182|199183|199184|215269|215270|215271|215272|215273|215274|215275|215276|215277|215278|215279|215285|215281|215282|215283|215284|215286|215287|215289|215291|215288|215292|447586|447587|447588|447589
-3|328447|328448|328449|328450|328451|328452|328453|328454|328455|328456|328457|328458|328459|328460|328461|328462|328463|328464|328465|328466|328467|328468|328469|328470|328471|328472|328473|328474|328475
-1296|307262
-55|26640|131327|131328|131329|131330|131331|131332|131333|131334|131335|131336|131337|131338|131339|131340|131341|131342|131343|131344|131345|131346|131347|131348|131349|131350
-1|241619|160372|160367|241622|241623|241624|160373|241626|241627|241628|241629|241630|241631|241632|241633|241634|241635|241636|241637|241638|160392|241640|241641|241642|241643|241644|160390|160400|241647|241648|241649|241650|241651|241652|160397|241654|241655|160405|241658|241659|241660|241661|241662|241663|160396|241665|241666
-110|39879|39880|39881|39882|39883|39884|39885|39886|39887|39889|39890|39891|39892|39893|39909|39910|39911|39912|39913|39914|39915|39916|39917|39918|39919|39920
-5|19218|19219|13243|26607|19221|13326|19223|19224|19225|19226
+T|Kungsbacka
+A|2|7614|7611|11872|12313|12314|12315|7602|12317|11876|12319|12320|12321|12322|12323|11874|12325|11868|12327|12330|12329|11870|12331|12334|12333|12336|12335|11866|12337|12340|11869|12342|12341|12344|12343|12346|11867|12348|11859|11862|12349|136464|12351|11875|11863|11861|11871|12356|12357
+A|4|29099|28944|29101|29102|23827|28971|23843|23839|23830|23841|29109|28953|29111|28961|29113|29114|29115|28994|29117|29118|29119|29120|28989|29122|29123|28992|28997|29126|29127|29128|28996|29130|29131|29132|29133|28955|29137|29138|28998|29140|29141|141593
+A|1150|514269
+A|68|221793|221784|221795|221779|221789|224798|221800|224800|224801|221798|224803|224804|224805|224806|224807|224808|221790|224810|224811|224812
+A|1036|197601|198798|198799|198800|199182|199183|199184|215269|215270|215271|215272|215273|215274|215275|215276|215277|215278|215279|215285|215281|215282|215283|215284|215286|215287|215289|215291|215288|215292|447586|447587|447588|447589
+A|3|328447|328448|328449|328450|328451|328452|328453|328454|328455|328456|328457|328458|328459|328460|328461|328462|328463|328464|328465|328466|328467|328468|328469|328470|328471|328472|328473|328474|328475
+A|1296|307262
+A|55|26640|131327|131328|131329|131330|131331|131332|131333|131334|131335|131336|131337|131338|131339|131340|131341|131342|131343|131344|131345|131346|131347|131348|131349|131350
+A|1|241619|160372|160367|241622|241623|241624|160373|241626|241627|241628|241629|241630|241631|241632|241633|241634|241635|241636|241637|241638|160392|241640|241641|241642|241643|241644|160390|160400|241647|241648|241649|241650|241651|241652|160397|241654|241655|160405|241658|241659|241660|241661|241662|241663|160396|241665|241666
+A|110|39879|39880|39881|39882|39883|39884|39885|39886|39887|39889|39890|39891|39892|39893|39909|39910|39911|39912|39913|39914|39915|39916|39917|39918|39919|39920
+A|5|19218|19219|13243|26607|19221|13326|19223|19224|19225|19226
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|68|KD|Kristdemokraterna
+B|1036|Kbabo|Kungsbackaborna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|7614|59|K|Eva Borg|59, Kungsbacka
+C|7611|54|M|Johan Tolinsson|54, Kungsbacka
+C|11872|46|K|Magdalena Sundqvist|46, Kungsbacka
+C|12313|66|M|Lars Eriksson|66, Frillesås, Egen företagare
+C|12314|65|K|Elisabeth Lyckevall|65, Vallda, Undersköterska
+C|12315|42|M|Jonas Hjelte|42, Åsa, Civilekonom Företagare
+C|7602|32|K|Sara Heikkinen Breitholtz|32, Onsala
+C|12317|54|M|Rickard Wäst|54, Åsa, Senior Service Manager
+C|11876|78|K|Maj-Britt Rane Andersson|78, Vallda
+C|12319|70|M|Kent Stenhammar|70, Hede, Ombudsman
+C|12320|19|K|Dannie Schulz|19, Kungsbacka, Studerande
+C|12321|62|M|Gert Svensson|62, Kungsbacka, Fastighetstekniker
+C|12322|62|K|Britt Tönnberg|63, Åsa, Verksamhetsassistent
+C|12323|53|M|Anders Törnberg|53, Onsala, Datatekniker
+C|11874|35|K|Vanja Elsilä|35, Fjärås
+C|12325|48|M|Honore Lulendo Kangala|48, Åsa, Teknisk montör
+C|11868|55|K|Susann Petrusson|55, Fjärås
+C|12327|71|M|Jan Byvik|71, Hjälm, Murare
+C|12330|56|K|May-Louise Flyrin|57, Åsa, Undersköterska
+C|12329|37|M|Björn Ivarsson|38, Älvsåker, Fackligt förtroendevald
+C|11870|66|K|Ann-Louise Lundqvist|66, Kungsbacka
+C|12331|54|M|Thomas Johansson|54, Kungsbacka, arbetsmarknadssekreterare
+C|12334|56|K|Birgitta Litsegård|56, Fjärås, Folkhögskolelärare
+C|12333|80|M|Ingemar Lundin|80, Kungsbacka, Lärare
+C|12336|61|K|Ingela Hansson|61, Kungsbacka, Personlig assistent
+C|12335|22|M|Raissa Lulendo|22, Åsa, Montör
+C|11866|60|K|Åsa Andersson|60, Vallda
+C|12337|37|M|Eric Öbo|37, Kungsbacka, Möbelrenoverare
+C|12340|64|K|Hillevi Fredriksson Björk|64,Kungsbacka, Undersköterska
+C|11869|32|M|Karl Olsson Tapper|32, Kungsbacka
+C|12342|29|K|Mai El-Disoki|29, Kungsbacka, Lärare
+C|12341|43|M|Christian Skogholm|44, Kungsbacka, Samordnare arbetsmarknad
+C|12344|36|K|Frida Jansson|36, Fjärås, Undersköterska
+C|12343|59|M|Conny Loftander|59, Kungsbacka, Tekniker
+C|12346|57|K|Susanne Tolinsson|57, Kungsbacka, Undersköterska
+C|11867|64|M|Rasmus Petrusson|64, Fjärås
+C|12348|70|K|Elisabeth Östlund|70, Särö, Förskollärare/Specialpedagog
+C|11859|44|M|Jonas Strand|44, Kungsbacka
+C|11862|64|K|Maud Lanne|54, Fjärås
+C|12349|75|M|Alf Olofsson|75, Kungsbacka, Hamntjänsteman
+C|136464|68|K|Birgitta Tingdahl|68, Alslöv, Journalist
+C|12351|65|M|Felix Vidal|65, Kungsbacka, Däckmontör
+C|11875|78|M|Tore Andersson|78, Vallda
+C|11863|38|M|Martin Aronsson|38, Fjärås
+C|11861|54|M|Mikael Delin|54, Kungsbacka
+C|11871|75|M|Ingemar Ingemarsson|76, Fjärås
+C|12356|76|M|Bo Karlsing|77, Kungsbacka, Ekonom
+C|12357|69|M|Per Olof Östlund|69, Särö, Psykolog
+C|29099|42|M|Fredrik Hansson|43 år, Kommunalråd, Vallda
+C|28944|61|K|Kristina Karlsson|61 år, Fritidspedagog, Kungsbacka
+C|29101|65|M|Bengt Alderin|65 år, Gymnasielärare, Kungsbacka
+C|29102|55|K|Maria Andersson|55 år, Ekonom, Kungsbacka
+C|23827|41|M|Anders Eriksson|41 år, Företagare, Kungsbacka
+C|28971|58|K|Marie Andersson|58 år, Ungdomshandledare, Kungsbacka
+C|23843|69|M|Heinrich Kaufmann|69 år, Civ.ing./Företagare, Kungsbacka
+C|23839|55|K|Karin Green|55 år, Rederitjänsteman, Kungsbacka
+C|23830|48|M|Henrik Arnesson|48 år, Lantbrukare/Lantmästare, Kungsbacka
+C|23841|55|K|Annika Hedman|55 år, Egenföretagare, Kungsbacka
+C|29109|73|M|Ulf Persson|73 år, Lantmästare, Bröndome
+C|28953|41|K|Marie Björsell|41 år, Processledare, Kungsbacka
+C|29111|33|M|Mohamad Osama Mesto|32 år, Kemist, Kungsbacka
+C|28961|42|K|Sofie Sandell|42 år, Projektkoordinator, Kungsbacka
+C|29113|66|K|Charlotte Wennerberg Liljeblad|66 år, Arkitekt, Onsala
+C|29114|54|K|Maria Lundgren|55 år, Företagare, Vallda
+C|29115|48|M|Peter Fritzson|48 år, Företagare, Tölö
+C|28994|68|K|Christina Åkesson|68 år, Kanslisekreterare, Kungsbacka
+C|29117|68|M|Bengt Benke Karlsson|68 år, Journalist, Onsala
+C|29118|29|K|Evelina Grönlund|29 år, Fotograf, Förlanda
+C|29119|45|M|Richard Hansson|45 år, Fastighetsförvaltare, Vallda
+C|29120|62|M|Jan-Erik Lind|62 år, Företagare, Vallda
+C|28989|62|K|Lisbeth Andersson|62 år, Leg.psykolog, Kungsbacka
+C|29122|45|M|Magnus Andreasson|46 år, Företagare, Frillesås
+C|29123|67|K|Inga-Lill Kihlberg|67 år, Pensionär, Gällinge
+C|28992|75|M|Pär Olsson|75 år, Civ.ingenjör, Kungsbacka
+C|28997|49|M|Thomas Sahlström|49 år, Personlig assistent, Kungsbacka
+C|29126|50|K|Charlotta Hedqvist|50 år, Inköpare, Kungsbacka
+C|29127|50|M|Stefan Friberg|50 år, Entreprenör, Frillesås
+C|29128|78|M|Sven Fritzson|78 år, Civilingenjör, Gällinge
+C|28996|32|M|Martin Andreasson|32 år, Bussförare, Kungsbacka
+C|29130|41|M|Love Barkman|41 år, Husbesiktningsman, Onsala
+C|29131|38|M|Rickard Person|38 år, Säljare, Vallda
+C|29132|40|K|Petra Andersson|40 år, Ekonomichef, Vallda
+C|29133|48|M|Joakim Carlson|48 år, Butikschef, Onsala
+C|28955|59|M|Peter Lundin|59 år, Civilingenjör, Kungsbacka
+C|29137|33|K|Johanna Nordström|33 år, Verksamhetsutvecklare, Vallda
+C|29138|57|K|Kerstin Ohlsson|57 år, Administratör, Kungsbacka
+C|28998|52|M|Niklas Wellholt|52 år, Applikationsförvaltare, Kungsbacka
+C|29140|50|M|Leif Karlsson|50 år, Bussförare, Vallda
+C|29141|58|M|Roger Nordin|58 år, Säljare, Kungsbacka
+C|141593|35|M|Fabian Ruben|35 år, Läkare, Malevik
+C|514269|40|K|Johanna Helleberg|
+C|221793|48|M|Niklas Mattsson|47, Gruppledare Region, Kungsbacka
+C|221784|57|K|Marie Wadström|57, Pedagog, Kungsbacka
+C|221795|53|M|Peter Wesley|53, Redovisningskonsult, Kungsbacka
+C|221779|49|M|Larry Söder|48, Riksdagledamot, Kungsbacka
+C|221789|62|K|Ulrika Högstrand|61, Kyrkomusiker, Kungsbacka
+C|224798|42|K|Helena Nyborg|42, Resande säljare, Östra Villastaden
+C|221800|62|M|Benny Strandberg|62, Specialpedagog, Kungsbacka
+C|224800|27|K|My Clingston|27, Sjukgymnast, Särö
+C|224801|39|M|Daniel Kvist|39, Säljare, Åsa
+C|221798|64|M|Mats Nyberg|64, Marketing Officer, Kungsbacka
+C|224803|32|K|Jenny Thorbjörnsson|32, Jurist, Kullavik
+C|224804|39|M|Marcus Berntsson|38, Företagare, Åsa
+C|224805|52|K|Helene Engstrand|51, Undersköterska, Onsala
+C|224806|65|M|Ingvar Henriksson|64, Marknadsförare, Vallda
+C|224807|69|K|Lilli-Ann Lindgård|69, Banktjänsteman, Kungsbacka
+C|224808|80|M|Hans Engstrand|80, fd Regionschef, Onsala
+C|221790|66|K|Marianne Kronbäck|65, Röntgensköterska, Kungsbacka
+C|224810|69|K|Yvonne Kvist|68, Undersköterska, Onsala
+C|224811|58|K|Ann Breitfeld|57, Administratör, Onsala
+C|224812|69|M|Stefan Strömgren|68, Civilekonom, Kungsbacka
+C|197601|73|M|Roger Larsson|ingenjör, Hanhals
+C|198798|66|K|Agnetha Ernegård|mediakonsult, Hammerö
+C|198799|54|M|Stefan Sundberg|ingenjör, Kullavik
+C|198800|41|K|Mikaela Zackrisson|kvalitets/miljösamordnare, Gottskär
+C|199182|57|K|Marie Nordström|säljare, Kullavik
+C|199183|70|M|Christer Jorland|pensionär, Skällared
+C|199184|36|M|Christian Jonsson|projektledare, Presse
+C|215269|33|K|Evelyn Vikman|administrativ koordinator, Älvsåker
+C|215270|53|M|Mikael Neuman|tandläkare, Kullavik
+C|215271|65|M|Dan-Erik Jonsson|företagare, Iserås
+C|215272|81|K|Karin Westin|företagare, Presse
+C|215273|43|M|Jonas Zackrisson|entreprenör, Gottskär
+C|215274|63|M|Sven-Åke Pedersen|pensionär, Åsa
+C|215275|44|M|Joakim Thorbing|restaurangägare, Innerstaden
+C|215276|72|M|Leif Gullvert|företagare, Fors
+C|215277|69|K|Birgitta Melin|pensionär, Tingberget
+C|215278|81|M|Björn Johansson|företagare, Kolla
+C|215279|40|M|David Gunvik|larmtekniker, Västra Villastaden
+C|215285|62|M|Göran Haby|tandläkare, Vallda
+C|215281|52|K|Anna Molin|företagare, Åsa
+C|215282|92|M|Kurt "Chico" Johansson|journalist, Kolla
+C|215283|51|M|Michael Andersson|färdtjänstchaufför, Björkris
+C|215284|71|M|Lennart Kullbo|klassmorfar, Strannegården
+C|215286|74|M|Jürgen Koch|köksmästare, Presse
+C|215287|58|K|Åsa Nilsson|läkare, Vallda
+C|215289|51|M|Jonas Barkman|trädgårdsarbetare, Hammerö
+C|215291|45|M|Thorbjörn Leu|försäljning/affärsutveckling, Skällared
+C|215288|43|M|Johan Åkerlind|restaurangägare, Innerstaden
+C|215292|85|M|Rune Åsfalk|pensionär, Hammerö
+C|447586|47|K|Petra Persson|arkitektrådgivare, Signeskulle
+C|447587|46|M|Pär Rosengren|ljudtekniker, Innerstaden
+C|447588|67|M|Kent Lundkvist|fastighetstekniker, Anneberg
+C|447589|55|M|Roger Lindskog|försäkringsmäklare, Västra Villastaden
+C|328447|59|K|Ulrika Landergren|59, kommunalråd, Kullavik
+C|328448|58|M|Christian Haneson|58, egen företagare, Fjärås
+C|328449|60|K|Monica Neptun|60, gymnasielärare, Särö
+C|328450|68|M|Jan Eric Knutas|68, kommendörkapten, Älvsåker
+C|328451|35|K|Elin Hysén|35, intensivvårdssjuksköterska, Kungsbacka
+C|328452|52|K|Madelene Höök|52, undersköterska, Frillesås
+C|328453|37|M|Max Ramström|37, projektchef, Kungsbacka
+C|328454|27|M|Marcus Clarin|27, läkare, Kungsbacka
+C|328455|70|K|Elisabeth Kastman Krantz|70, f.d. regionchef, Särö
+C|328456|56|M|Anders Nilsson|56, projektledare, Kungsbacka
+C|328457|60|M|Peder Kirsten|60, projektledare, Kungsbacka
+C|328458|70|M|Tord du Hane|70, idrottspolitiker, Åsa
+C|328459|58|K|Birgitta Gustafsson|58, rektor, Kungsbacka
+C|328460|44|M|Eirik Langjord|44, civilingenjör, Kungsbacka
+C|328461|60|K|Marie-Louise Rolf|60, hästföretagare, Förlanda
+C|328462|56|K|Birgitta Grundell|57, elevvårdsassistent, Vallda
+C|328463|54|M|Lars Berntsson|54, ingenjör, Fjärås
+C|328464|73|K|Gunilla Rivle|73, distriktssköterska, Kungsbacka
+C|328465|58|M|Thomas Olsson|58, egen företagare, Fjärås
+C|328466|54|K|Carina Peleg|54, klubbdirektör, Onsala
+C|328467|53|M|Sadik Jusufi|52, kemiingenjör, Kungsbacka
+C|328468|59|K|Patricia Mellin|59, fotograf, Onsala
+C|328469|80|M|Kent Adolfsson|80, Malevik
+C|328470|50|M|Daniel Grefjord|50, författare, Kungsbacka
+C|328471|76|M|Thomas Lindqvist|76, civilingenjör, Kullavik
+C|328472|72|K|Inger Stigh|72, sjuksköterska, Frillesås
+C|328473|77|M|Lars-Ove Samuelsson|77, Malevik
+C|328474|39|K|Hanna Schölander|39, verksamhetschef, Åsa
+C|328475|75|M|Lennart Kollmats|75, pensionär, Kungsbacka
+C|307262|59|M|Bengt Löf|59 år, Account Manager, Kungsbacka
+C|26640|51|K|Maria Losman|51 år, företagare hållbarhet, Kungsbacka
+C|131327|65|M|Clas Rosander|65 år, pedagog, Kungsbacka
+C|131328|62|K|Elisabeth Sahlsten|marinbiolog, 62 år, Fjärås
+C|131329|60|M|Jan Riise|60 år, projektledare, Kungsbacka
+C|131330|57|K|Ingegärd Salmose|rektor, 57 år, Åsa
+C|131331|18|M|Anton Larsson|studerande, 18 år, Fjärås
+C|131332|30|K|Jessica Sternmarker|AT-läkare, 30 år, Kungsbacka
+C|131333|61|M|Thomas Lundberg|61 år, egenföretagare, Kungsbacka
+C|131334|68|K|Eva Ringdahl|67 år, Vallda
+C|131335|66|M|Per Nordström|sjöingenjör, 66 år, Kungsbacka
+C|131336|27|K|Emma Fagerberg|samhällsvägledare, 27 år, Åsa
+C|131337|54|M|Stefan Soyka|IT-konsult, 54 år, Kungsbacka
+C|131338|70|K|Christina Corin|70 år, samhällsvetare, Kungsbacka
+C|131339|41|K|Tanja Barrett|miljöstrateg, 41 år, Kullavik
+C|131340|73|M|Christer Engelbertsen|polis, 72 år, Kungsbacka
+C|131341|46|M|Emil Erdelius|fastighetstekniker, 46 år, Älvsåker
+C|131342|41|K|Anna Sjölin|leg. psykolog, 40 år, Kungsbacka
+C|131343|69|M|Hans-Christer Hansson|69 år, Kungsbacka
+C|131344|49|K|Annette Soyka|gymnasielärare, 49 år, Kungsbacka
+C|131345|50|K|Anna-Lena Engström|enhetschef, 50 år, Anneberg
+C|131346|63|K|Lena Rosander|lärare, 63 år, Gällinge
+C|131347|62|M|Harri Lötjönen|tekniker, 62 år, Kungsbacka
+C|131348|73|K|Charlotte Gärde|73 år, Vallda
+C|131349|82|K|Rigmor Jorkander Stjernedal|socionom, 82 år, Kungsbacka
+C|131350|75|M|Lars-Anders Lundberg|75 år, Hanhals
+C|241619|54|M|Hans Forsberg|54 år, Kommunalråd, Kungsbacka
+C|160372|49|K|Lisa Andersson|49 år, Trädgårdsmästare, Onsala
+C|160367|40|M|Christian Johansson|40 år, Trafikledare, Åsa
+C|241622|29|K|Maria Gathendahl|29 år, Politisk sekreterare, Onsala
+C|241623|73|M|Anders Ekström|73 år, Herr, Fjärås
+C|241624|51|K|Marianne Pleijel|51 år, Församlingspedagog, Onsala
+C|160373|48|M|Ulric Björck|48 år, Fil. dr, Kungsbacka
+C|241626|48|M|Kalle Sundvall|48 år, Administrativ chef, Onsala
+C|241627|70|M|Stephan Philipson|70 år, Konsult, Onsala
+C|241628|72|M|Thure Sandén|72 år, Herr, Särö
+C|241629|29|M|Hravn Forsne|29 år, Kommunikatör, Kullavik
+C|241630|59|K|Charlotte Wallenstein|59 år, Integrationshandläggare, Onsala
+C|241631|25|M|Axel Storckenfeldt|25 år, Marknadsföringskonsult, Kullavik
+C|241632|69|M|Peter Söderberg|69 år, Företagare, Onsala
+C|241633|73|M|Franklin Eck|73 år, Herr, Särö
+C|241634|71|K|Gunilla Apler|71 år, Fru, Kungsbacka
+C|241635|39|K|Berit Bergström|39 år, Kvalitetschef, Åsa
+C|241636|64|M|Börje Vikner|64 år, Civilekonom, Kullavik
+C|241637|48|M|Per Stenberg|48 år, Säljingenjör, Vallda
+C|241638|51|K|Ann-Helene Reimertz|51 år, Projektkoordinator, Kungsbacka
+C|160392|22|M|Filip Berndtsson|22 år, Studerande, Kungsbacka
+C|241640|22|M|Andreas Johansson|22 år, Studerande, Kungsbacka
+C|241641|61|M|Per-Axel Carlsson|61 år, Ingenjör, Fjärås
+C|241642|55|K|Marianne Wallengren|55 år, Fil. Mag, Onsala
+C|241643|49|M|Magnus Bodin|49 år, Krögare, Kungsbacka
+C|241644|71|M|Lars Thelén|71 år, Herr, Onsala
+C|160390|30|M|Emanuel Forsell|30 år, Enhetschef, Kungsbacka
+C|160400|63|M|Carl-Johan Aurell|63 år, Fil. dr, Onsala
+C|241647|56|K|Annika Carlsson|56 år, Marknadsekonom, Fjärås
+C|241648|49|M|Henrik Gradén|49 år, PhD, Kungsbacka
+C|241649|71|M|Lars Äng|71 år, Pensionär, Kungsbacka
+C|241650|43|K|Maria Svärd Wänt|43 år, Ekonom, Kungsbacka
+C|241651|61|K|Christina Äng|61 år, Civilekonom, Kungsbacka
+C|241652|58|M|Bengt Adolfsson|58 år, Taxiförare, Onsala
+C|160397|20|M|Carl Ekvall|20 år, Studerande, Kungsbacka
+C|241654|68|M|Bo Dahlström|68 år, Pensionär, Kungsbacka
+C|241655|90|M|Lennart Nellemark|90 år, Fd. direktör, Kungsbacka
+C|160405|64|M|Bo Barknertz|64 år, Skeppsklarerare, Åsa
+C|241658|52|M|Mats Lian|52 år, Projektledare, Vallda
+C|241659|44|K|Jenny Nilsson|44 år, Ekonom, Kungsbacka
+C|241660|50|M|James Kujansuu|50 år, Busschaufför, Kungsbacka
+C|241661|68|K|Anna Säve|68 år, Redovisningskonsult, Kungsbacka
+C|241662|87|M|Evert Jansson|87 år, Ingenjör, Onsala
+C|241663|69|K|Agnes Karlsson|69 år, Pensionär, Kullavik
+C|160396|50|M|Richard Hedmark|50 år, Egenföretagare, Fjärås
+C|241665|68|M|Bengt Söderberg|68 år, Pensionär, Frillesås
+C|241666|68|M|Bengt-Olof Nordblom|68 år, Speditör, Onsala
+C|39879|51|K|Carita Boulwén|säljare, 50 år, Onsala
+C|39880|49|M|Stefan Jägnert|49 år, Företagare, Onsala
+C|39881|67|M|Tommy Bech|pensionär, 67 år, Kungsbacka
+C|39882|51|K|Susanne Andersson|säljare, 50 år, Kungsbacka
+C|39883|46|M|Roger Krantz|tekniker, 47 år, Kungsbacka
+C|39884|66|M|Bengt Fransson|sjökapten, 65 år, Kungsbacka
+C|39885|76|M|Kenth Wallin|byggnadsingenjör, 76 år, Kungsbacka
+C|39886|45|M|Tobias Eriksson|vvs-tekniker, 45 år, Kungsbacka
+C|39887|47|M|Thord Brynielsson|ekonomichef, 46 år, Kungsbacka
+C|39889|18|K|Linnea Krantz|18 år, Student, Kungsbacka
+C|39890|54|M|Torbjörn Andersson|kanslist, 53 år, Kungsbacka
+C|39891|56|M|Stefan Vilumsons|rörmontör, 56 år, Kungsbacka
+C|39892|43|K|Christel Berggren|administratör, 42 år, Kungsbacka
+C|39893|18|M|Hampus Jägnert|student, 18 år, Kungsbacka
+C|39909|40|K|Ia Johansson|tjänsteman, 39 år, Kungsbacka
+C|39910|64|M|Lars Gallon|egenföretagare, 64 år, Kungsbacka
+C|39911|67|M|Lars Jonsson|66 år, Kustbevakningsinspektör, Fjärås
+C|39912|56|M|Ulf Svärdh|datatekniker, 56 år, Kungsbacka
+C|39913|65|M|Bo Regnér|ekonomikonsult, 64 år, Kungsbacka
+C|39914|50|M|Jens Ling|category manager, 50 år, Kungsbacka
+C|39915|76|M|Ingolf Johnsson|72 år, Pensionär, Fjärås
+C|39916|52|M|Roger Bäckstrand|52 år, Byggnadsplåtslagare, Kungsbacka
+C|39917|61|K|Elizabeth Carlsson|61 år, Tjänsteman, Kungsbacka
+C|39918|61|K|Ulla Assarson|61 år, Barnsköterska, Vallda
+C|39919|65|M|Gert Berntsson|golfbanearbetare, 65 år, Kungsbacka
+C|39920|55|M|Peder Olsen|54 år, Konsult, Onsala
+C|19218|42|K|Maria Rasmussen|42 år, socionom/social- sekreterare, Kungsbacka
+C|19219|52|K|Kristina Rasmussen|52 år, lärare, Kungsbacka
+C|13243|42|M|Jon Thorbjörnson|lärare, 42 år, Kungsbacka
+C|26607|55|M|Pabel Aguilar|55 år, ekonom, Kungsbacka
+C|19221|71|M|Hans Webeck|71 år, pensionär, Frillesås
+C|13326|71|M|Lothar Karnert|pensionär, 71 år, Kungsbacka
+C|19223|69|M|Jan-Christer Jansson|69 år, pensionär/              f.d. gymnasielärare, Åsa
+C|19224|64|K|Violet Dunér|63 år, speciallärare, Kungsbacka
+C|19225|57|K|Monica Karnert|57 år, musiklärare, Kungsbacka
+C|19226|71|M|Gunnar Frii Johansson|71 år, pensionär/          f.d. klassmorfar, Fjärås

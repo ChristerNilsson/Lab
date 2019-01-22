@@ -1,9 +1,151 @@
-1284|402022|402023|400766|400767|402026|400764|402028|402029|402030|402031|402032|400765|402034|402035|402036|400763|402038|402039|402040|402041|402042|402043
-2|22652|22653|22654|22655|22656|22657|22658|22659|22660|22661|22662|22663|22664|22666|22667|22668|22669|22670|22671|22672|22673|22674|22676|22677|22678|22679|22680|24213
-4|39152|39454|39455|39456|39457
-68|61491|506481|506482|61492|61493
-3|55019|55020|55021|55022|55023|55024|55025|55026|55027|55028
-55|86142|86143|86144|86145|86146|86147|19567|86149|86150|86151|86153
-1|51874|51875|51876|51877|51878|51879|51880|51881|51882|51883|71319|51885|51886|51887
-110|50558|50559|50560|50561|50562|50563|50564|50565|50566|50567|50568|50569|50570|50571|50572|50573|50574|50575|50576|50577|50578
-5|101294|101295|101296|101297|101298|101299|101300|101301|101302|101303|101304|101305|101306|101307|101308|101309
+T|Bromölla
+A|1284|402022|402023|400766|400767|402026|400764|402028|402029|402030|402031|402032|400765|402034|402035|402036|400763|402038|402039|402040|402041|402042|402043
+A|2|22652|22653|22654|22655|22656|22657|22658|22659|22660|22661|22662|22663|22664|22666|22667|22668|22669|22670|22671|22672|22673|22674|22676|22677|22678|22679|22680|24213
+A|4|39152|39454|39455|39456|39457
+A|68|61491|506481|506482|61492|61493
+A|3|55019|55020|55021|55022|55023|55024|55025|55026|55027|55028
+A|55|86142|86143|86144|86145|86146|86147|19567|86149|86150|86151|86153
+A|1|51874|51875|51876|51877|51878|51879|51880|51881|51882|51883|71319|51885|51886|51887
+A|110|50558|50559|50560|50561|50562|50563|50564|50565|50566|50567|50568|50569|50570|50571|50572|50573|50574|50575|50576|50577|50578
+A|5|101294|101295|101296|101297|101298|101299|101300|101301|101302|101303|101304|101305|101306|101307|101308|101309
+B|1284|Alt|Alternativet
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|402022|72|M|Stig Gerdin|Nymölla
+C|402023|41|M|Mathias Gerdin|Bromölla
+C|400766|48|K|Ann-Caroline Goldman|Bromölla
+C|400767|64|M|Christer Broman|Bromölla
+C|402026|48|M|Håkan Lindskog|Bromölla
+C|400764|67|M|Johnny Lundkvist|Bromölla
+C|402028|27|K|Simone Nilsson|Bromölla
+C|402029|42|M|Fredrik Thornström|Valje
+C|402030|45|M|Mattias Jönsson|Bromölla
+C|402031|57|M|Lars Nilsson|Bromölla
+C|402032|71|M|Bo-Eje Jönsson|Råby
+C|400765|43|K|Rut Sverrisdottir|Bromölla
+C|402034|60|M|Lars Andersson|Valje
+C|402035|58|M|Jörgen Svensson|Bromölla
+C|402036|74|K|Christina Persson|Bromölla
+C|400763|64|K|Solveig Andersson|Bromölla
+C|402038|54|M|Peter Nilsson|Bromölla
+C|402039|67|M|Leif Dufva|Valje
+C|402040|54|M|Thomas Bohlin|Ivetofta
+C|402041|62|M|Paul Andersson|Bromölla
+C|402042|67|K|Ann-Christin Jönsson|Råby
+C|402043|69|M|Inge Andersson|Näsum
+C|22652|42|K|Jenny Önnevik|42 år, Edenryd
+C|22653|71|M|Conny Svensson|71 år, Bromölla
+C|22654|63|K|Berit Lind|63 år, Gualöv
+C|22655|49|M|Peter Svensson|50 år, Bromölla
+C|22656|54|K|Annika Molldén|Undersköterska, Bromölla
+C|22657|67|M|Tommy Höppner|68 år, Bromölla
+C|22658|64|K|Elisabeth Stenberg Michalski|64 år, Gualöv
+C|22659|59|M|Lars Petersson|59 år, Bromölla
+C|22660|33|K|Engla Westlund|33 år, Bromölla
+C|22661|82|M|Kay Stark|82 år, Näsum
+C|22662|71|K|Eva Bergman|71 år, Bromölla
+C|22663|57|M|Ola Roskvist|57 år, Näsum
+C|22664|44|K|Åsa Hammarstedt|44 år, Bromölla
+C|22666|83|K|Elsie Lindh|83 år, Bromölla
+C|22667|53|M|Rickard Andersson|54 år, Bromölla
+C|22668|56|K|Kerstin Ilk|56 år, Bromölla
+C|22669|58|M|Thomas Kronkvist|58 år, Bromölla
+C|22670|61|K|Marianne Francke|61 år, Bromölla
+C|22671|40|M|Lennie Håkansson|40 år, Näsum
+C|22672|47|K|Monica Weinemo|47 år, Gualöv
+C|22673|55|M|Ibrahim Hashem|56 år, Bromölla
+C|22674|57|K|Susanne Nilsson|57 år, Bromölla
+C|22676|39|M|Peter Svensson|39 år, Bromölla
+C|22677|68|M|Jerry Persson|68 år, Bromölla
+C|22678|55|M|Bexhet Krasniqi|55 år, Bromölla
+C|22679|28|M|Dany Rezadost|28 år, Bromölla
+C|22680|70|M|Stig Johansson|70 år, Bromölla
+C|24213|39|M|Samuel Jarenil|40 år, Bromölla
+C|39152|55|M|Mats Jönsson|55, Lantmästare, Bromölla
+C|39454|45|M|Mats Adamsson|Lantbrukare, 45, Grödby
+C|39455|49|K|Ing-Marie Mattsson|Kokerska, 49, Näsum
+C|39456|78|M|Bengt Joelsson|Pensionär, 78, Bromölla
+C|39457|80|M|Ola Adamsson|Fd.Landbrukare, 80, Bromölla
+C|61491|41|K|Ellenor Liljestoft|41 år, Spec.Usk/LSS, Näsum
+C|506481|18|M|Anton Olsson|19 år, Yrkeschaufför, Näsum
+C|506482|19|K|Amanda Leijon|19 år, Florist, Edenryd
+C|61492|65|M|Bo Ljungberg|65 år, Regiontjänstemän, Bromölla
+C|61493|67|M|Sven-Erik Persson|67 år, Biståndsarbetare, Bromölla
+C|55019|46|K|Susanne Bäckman|Bromölla
+C|55020|74|M|Anders Nicander|Miljökonsult, 74 år
+C|55021|63|K|Elisabet Radeklev|Universitetsadjunkt, 63 år
+C|55022|49|K|Charlotte Söderlund|Förskolelärare, 49 år
+C|55023|73|M|Kenneth Lindgren|Chaufför, 73 år
+C|55024|56|K|Susanne Westerdahl|Ungdomscoach, 56 år
+C|55025|23|M|Diosmar Jardines Cuervo|Fritidsledare, 23 år
+C|55026|72|M|Lars Bergman|Ingenjör, 72 år
+C|55027|73|M|Lars-Bertil Ericson|Säljare, 73 år
+C|55028|76|K|Aina Nicander|Adjunkt, 76 år
+C|86142|66|K|Elisabet Knutsson|egenföretagare, Näsum
+C|86143|45|M|Joakim Engström|fil.mag. processindustriarbetare, Bromölla
+C|86144|52|M|Jalil Chigha|produktionsutvecklingschef, Bromölla
+C|86145|71|K|Karin Svensson|vårdlärare, Nymölla
+C|86146|70|M|Bo Jönsson|socionom, Näsum
+C|86147|71|K|Gunvor Jönsson|lärare, Bromölla
+C|19567|62|M|Lutz Dahmen|Marknadsföringskonsult, 62 år, Bromölla
+C|86149|54|K|Annika Winqvist|socialpedagog, Bromölla
+C|86150|78|M|Jan Andersson|f.d. lärare, biolog, Edenryd
+C|86151|77|K|Agneta Lindstein Andersson|f.d. lärare, Edenryd
+C|86153|45|K|Liselott Johansson|geovetare, Bromölla
+C|51874|48|M|Patrik Ottosson|48 år, account manager
+C|51875|58|M|Mikael Efverman|58 år, ekonomichef
+C|51876|75|M|Rolf Mårtensson|75 år, f.d. industritjänsteman
+C|51877|51|K|Malin Friberg|51 år, verksamhetschef, Bromölla
+C|51878|39|M|Stefan Sturesson|39 år, specialistsjuksköterska, Bromölla
+C|51879|50|M|Glenn Nilsson|50 år, processoperatör, Bromölla
+C|51880|49|M|Johan Larsson|49 år, fabrikschef
+C|51881|55|M|Sten-Yngve Södergren|55 år, ekonom/gymnasielärare
+C|51882|76|M|Gert-Åke Bengtsson|76 år, universitetslektor, Bromölla
+C|51883|71|K|Lillemor Ramsby|71 år
+C|71319|62|M|Domokos Denes|61 år, företagare
+C|51885|60|K|Hanne Kattem|60 år, socialsekreterare
+C|51886|35|K|Jeannette Nda Batuo|35 år, lärarestudent
+C|51887|46|M|Jesper Thelander|46 år, målaremästare
+C|50558|39|M|Eric Berntsson|Processoperatör, Bromölla
+C|50559|47|M|Magnus Persson|Byggnadsarbetare, Bromölla
+C|50560|62|K|Gudrun Bengtsson|Tvättbiträde, 62 år
+C|50561|41|K|Linda Väbro|Truckförare, 41
+C|50562|18|M|Filip Persson|Studerande, 18 år
+C|50563|44|K|Jennie Åfeldt|Resurspersonal, Bromölla
+C|50564|37|M|Ola Lorentzson|Processoperatör, 37 år
+C|50565|36|M|Andreas Ottosson|Väktare, 36 år
+C|50566|66|M|Bengt-Olof Bengtsson|Pensionär, 66 år
+C|50567|54|M|Morgan Jonsson|CNC tekniker, 55 år
+C|50568|34|M|Mattias Åkerman|Tekniker, 34 år
+C|50569|58|M|Mats Sjöström|Bemanning, 58 år
+C|50570|32|M|Ola Peters|Egenföretagare, 32 år
+C|50571|50|M|Patrik Nilsson|Fabriksarbetare, 51 år
+C|50572|63|M|Bengt Bjerstedt|Reparatör, 63 år
+C|50573|45|M|Kitte Persson|Processarbetare, 45 år
+C|50574|71|M|Jan Ramsby|Pensionär, 71 år
+C|50575|39|M|Andreas Väbro|Budbilschaufför, 39 år
+C|50576|53|M|Niclas Hägg|Byggnadsarbetare, 53 år
+C|50577|63|K|Laila Klasson|Undersköterska, 63 år
+C|50578|41|M|Emil Vinberg|Egenföretagare, 41 år
+C|101294|30|M|Samuel Johansson|logistiker, Bromölla
+C|101295|33|K|Emelie Nylander|33 år, Socialpedagog, Bromölla
+C|101296|51|M|Johan Karlsson|industriarbetare, Bromölla
+C|101297|70|K|Ros-Marie Törnqvist-Olsson|70 år, Pensionär, Bromölla
+C|101298|69|M|Bo Jönsson|pensionär, Bromölla
+C|101299|68|K|Kerstin Nylander|68 år, Pensionär, Bromölla
+C|101300|75|K|Marianne Könick|75 år, Pensionär, Bromölla
+C|101301|62|K|Iren Möller|undersköterska, Bromölla
+C|101302|77|M|Leif Pettersson|pensionär, Bromölla
+C|101303|51|K|Christina Hedlund|51 år, Biblioteksassistent, Bromölla
+C|101304|33|M|Tobias Karlsson|33 år, IT-tekniker, Bromölla
+C|101305|48|M|Uffe Sterner|48 år, Industriarbetare, Bromölla
+C|101306|38|K|Ulrika Lindahl|38 år, Personlig assistent, Gualöv
+C|101307|39|M|Reine Gunnarsson|39 år, Egen företagare, Bromölla
+C|101308|38|K|Maria Gunnarsson|38 år, Hjälpmedelskonsulent, Bromölla
+C|101309|74|M|Sven Olsson|74 år, Pensionär, Bromölla

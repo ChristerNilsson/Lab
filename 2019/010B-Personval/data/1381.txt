@@ -1,11 +1,210 @@
-2|11600|7610|11602|11603|11604|11605|11606|11607|11608|11609|11610|11611|11612|11613|11614|11615|11616|11617|11618|11619|11620|11621|11622|11623|11624|11625|11626|11627|11628|11629|7605|11631|11632|11633|11634|11635|11636|11637|120393
-4|23835|28948|28954|28969|23838|31150|31151|28960|31153|31154|31237|31238|23831|31240|31241|31242|31243|31244|31245|31246|31247|31248|23825|31250|31251|31252|31253|31254|31255|31256
-68|225145|221783|221796|221791|225149|225150|225151|225152|225153|225154|225155|225156|225157
-418|236356|236357|236358|236359|236360|236361
-3|93419|93420|93421|93422|93423|93424|93425|93426|93427|93428|93429
-1296|396701|396704|396955|396956|396957|396958|396959|396960|396961|396962|396963|396964|406695
-55|131351|131352|131353|131354|131355|131356|131357
-1|239782|160398|239784|239785|239786|239787|239788|239789|239790|239791|239792|239793|239794|239795|239796|239797|239798|160410|239800|239801|239802|239803|239804|239805|160383|239807|239808|239809|239810|239811
-110|167719|119808|119773|119766|119800|119790|119812|167726|167727|167728|167729|167730|167731|167732|167733|167734|119776|119825|167737|167738|167739|167740
-1309|119139|119140|119141|119142|119143|119144|119145|119146|119147|119148
-5|13318|233719|14298|13448|14299|233723
+T|Laholm
+A|2|11600|7610|11602|11603|11604|11605|11606|11607|11608|11609|11610|11611|11612|11613|11614|11615|11616|11617|11618|11619|11620|11621|11622|11623|11624|11625|11626|11627|11628|11629|7605|11631|11632|11633|11634|11635|11636|11637|120393
+A|4|23835|28948|28954|28969|23838|31150|31151|28960|31153|31154|31237|31238|23831|31240|31241|31242|31243|31244|31245|31246|31247|31248|23825|31250|31251|31252|31253|31254|31255|31256
+A|68|225145|221783|221796|221791|225149|225150|225151|225152|225153|225154|225155|225156|225157
+A|418|236356|236357|236358|236359|236360|236361
+A|3|93419|93420|93421|93422|93423|93424|93425|93426|93427|93428|93429
+A|1296|396701|396704|396955|396956|396957|396958|396959|396960|396961|396962|396963|396964|406695
+A|55|131351|131352|131353|131354|131355|131356|131357
+A|1|239782|160398|239784|239785|239786|239787|239788|239789|239790|239791|239792|239793|239794|239795|239796|239797|239798|160410|239800|239801|239802|239803|239804|239805|160383|239807|239808|239809|239810|239811
+A|110|167719|119808|119773|119766|119800|119790|119812|167726|167727|167728|167729|167730|167731|167732|167733|167734|119776|119825|167737|167738|167739|167740
+A|1309|119139|119140|119141|119142|119143|119144|119145|119146|119147|119148
+A|5|13318|233719|14298|13448|14299|233723
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|418|Lap|Laholmspartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1309|TRP|TRYGGHETSPARTIET
+B|5|V|Vänsterpartiet
+C|11600|69|M|Kjell Henriksson|Blåkulla
+C|7610|71|K|Annita Asplid|71, Laholm
+C|11602|65|M|Ove Bengtsson|Altona
+C|11603|69|K|Kristina Jönsson|Skummeslövsstrand
+C|11604|62|M|Magnus Johansson|Knäred
+C|11605|68|K|Siv Pålsson|Öringe
+C|11606|32|M|Stefan Fritzon|Skummeslövsstrand
+C|11607|55|K|Birgitta Fritzon|Våxtorp
+C|11608|71|M|Bo Tengqvist|Skummeslövsstrand
+C|11609|70|K|Rosita Antonsson|Blåkulla
+C|11610|40|M|Andreas Thid|Lejeby
+C|11611|53|K|Jeanette Örenmark|Hishult
+C|11612|46|M|Karl-Fredrik Tholin|Musikkvarteren
+C|11613|55|K|Valentina Johansson|Knäred
+C|11614|66|M|Bo Erlandsson|Lilla Tjärby
+C|11615|57|K|Anna-Lena Lövgren-Melin|Mellbystrand
+C|11616|55|M|Jonny Weinitz|Skogaby
+C|11617|35|K|Elina Berg|35, Våxtorp
+C|11618|72|M|Nils-Erik Johansson|72, Laholm
+C|11619|27|K|Sara Gunnarsson|Kornhult
+C|11620|52|M|Jörgen Johansson|52, Laholm
+C|11621|30|K|My Persson|Veinge
+C|11622|65|M|Christer Forsman|Knäred
+C|11623|31|K|Angelica Gustafsson|Ränneslöv
+C|11624|32|M|Abdul Hakim Alzoubi|Veinge
+C|11625|78|K|Stina Lindberg|Laholm
+C|11626|62|M|Mickael Kalnak|Ahla
+C|11627|56|K|Yvonne Persson|Genevad
+C|11628|79|M|Kane Bengtsson|Hishult
+C|11629|70|K|Villemo Ekman|70, Knäred
+C|7605|35|M|Jonas Påhlsson|35, Laholm
+C|11631|72|K|Monica Yngvesson|72, Hishult
+C|11632|73|M|Leif Sunesson|Knäred
+C|11633|59|K|Lillemor Landén Vepsä|Altona
+C|11634|68|M|Knut Andersson|Mellby
+C|11635|61|M|Micael Eliasson|Altona
+C|11636|44|M|Patrik Appelquist|Skogaby
+C|11637|57|M|Lars Fritzon|57, Våxtorp
+C|120393|66|M|Nils Danred|Laholm
+C|23835|60|M|Erling Cronqvist|60 år, Kommunråd, Laholm
+C|28948|55|M|Ove Bengtsson|55 år, Företagare, Laholm
+C|28954|53|K|Maria Bronelius|53 år, Lantbrukare, Laholm
+C|28969|43|K|Gudrun Pettersson|43 år, Korsordskonstruktör, Laholm
+C|23838|59|K|Majvor Persson|59 år, Undersköterska, Laholm
+C|31150|48|M|Fredrik Lindqvist|48 år, Företagare, Hishult
+C|31151|35|K|Lamis Al Nouri|35 år, Studiehandledare, Våxtorp
+C|28960|51|K|Annalena Emilsson|51 år, Lärare/Företagare, Laholm
+C|31153|68|M|Roland Gottfridsson|68 år, Lantbrukare, Ysby
+C|31154|72|M|Bo Brink|72 år, Pensionär/Tekniker, Skummeslöv
+C|31237|23|K|Kerstin Lindqvist|23 år, Studerande, Våxtorp
+C|31238|62|K|Lena Olofsdotter|62 år, Lantbrukare/Turistföretagare, Skogaby
+C|23831|25|K|Angeline Eriksson|25 år, Journalist/Bartender, Laholm
+C|31240|56|K|Gunilla Waldeman|56 år, Områdeschef/Pensionär, Hishult
+C|31241|41|K|Tiina Modée Väljä|41 år, Kundtjänst/Säljare, Genevad
+C|31242|73|M|Bernt Samuelsson|73 år, Pensionär, Lilla Tjärby
+C|31243|50|K|Boel Göransson|50 år, Undersköterska/Objektspecialist, Laholm
+C|31244|60|K|Harriet Einerborg|60 år, Omsorgschef, Knäred
+C|31245|71|K|Rhea Löfmark-Aspeheim|71 år, Advokat, Laholm
+C|31246|54|K|Charlotta Alsbjer|54 år, Planerare barn och utbildning, Laholm
+C|31247|48|M|Per Persson|48 år, Tekniker, Laholm
+C|31248|67|M|Bo Fritzson|67 år, Skogsbrukare/Pensionär, Laholm
+C|23825|26|K|Isabelle Pucher|26 år, Statsvetare, Laholm
+C|31250|30|M|John Nilsson|30 år, Kundtjänsthandläggare, Våxtorp
+C|31251|81|M|Gunnar Gullander|82 år, Lilla Tjärby
+C|31252|61|M|Sven Svensson|61 år, Företagare, Skogaby
+C|31253|46|M|Per Magnusson|46 år, Lagerarbetare, Veinge By
+C|31254|46|M|Ibrahim Mohamad|46 år, Affärsbiträde, Knäred
+C|31255|67|M|Jan-Erik Eriksson|67 år, Exportsäljare/Pensionär, Våxtorp
+C|31256|66|M|Gert Eriksson|66 år, Banktjänsteman, Lilla Tjärby
+C|225145|66|M|Lars Gustafsson|66, Företagare, Laholm
+C|221783|56|K|Helene Nilsson|56, Verksamhetschef, Laholm
+C|221796|44|M|Jörgen Nilsson|43, Åkeridelägare, Chaufför, Laholm
+C|221791|28|K|Sara Unosson|28, Undersköterska, Laholm
+C|225149|71|M|Lennart Hansson|71, Pensionär, Knäred
+C|225150|29|K|Malin Karlsson|28, Undersköterska, Laholm
+C|225151|69|M|Roland Davidsson|69, Brandman, Knäred
+C|225152|68|M|Levi Johansson|67, Fritidsfotograf, Skottorp
+C|225153|69|K|Lisbeth Davidsson|68,, Knäred
+C|225154|68|M|Anders Hansen|68, Företagare, Laholm
+C|225155|60|M|Christer Mikaelsson|60, Försäljare, Laholm
+C|225156|53|K|Elizabeta Kastratovic|52, Barnskötare, Knäred
+C|225157|49|K|Eva Strandberg|49, Förskollärare, Våxtorp
+C|236356|71|M|Bertil Johansson|Fritidspolitiker/Pensionär
+C|236357|60|M|Lars-Inge Johansson|Anläggare
+C|236358|45|K|Nicole Eierkus|Egen företagare
+C|236359|81|M|Ulf Johansson|Pensionär
+C|236360|55|K|Camilla Johansson|Utförsäkrad-Hemmafru
+C|236361|40|K|Jessica Andersson|Grafiker
+C|93419|66|M|Jan Gottfriedson|66, företagare, Laholm
+C|93420|73|K|Margareta Jonsson|73, f.d. gymnasielärare, Laholm
+C|93421|37|M|Elvis Begic|37 år, resurspedagog, Lilla Tjärby
+C|93422|31|K|Emma Gröndahl|31, projektledare integration, Laholm
+C|93423|29|K|Nura Muhamedbegovic|29 år, lärare, Lilla Tjärby
+C|93424|32|M|Anders Gröndahl|32 år, uppfinnare, Mellbystrand
+C|93425|65|K|Ann-Britt Ödman|65 år, leg. sjukgymnast, Mellbystrand
+C|93426|78|K|Britta Ramnemark|78 år, f.d. lärare, Hishult
+C|93427|38|M|Gareth Bush|38 år, lärare, Skummeslövsstrand
+C|93428|62|K|Anne Gottfriedson|62 år, socionom, Skummeslövsstrand
+C|93429|80|M|Göran Holmberg|80 år, f.d. lärare, Mellbystrand
+C|396701|37|M|Martin Lönnstam|37 år, Industriarbetare, Skottorp
+C|396704|54|M|Mikael Kahlin|54 år, Egen företagare, Laholm
+C|396955|65|M|Karl-Fredrik Klinker|65 år, Byggare, Nyby
+C|396956|67|K|Margareta Svensson|67 år, Mentalskötare, Skottorp
+C|396957|47|M|Kristian Einarsen|47 år, Redovisningskonsult, Laholm
+C|396958|68|M|Bo Birgersson|68 år, Lantbrukare, Åmot
+C|396959|56|M|Jan Norrman|56 år, Företagare, Knäred
+C|396960|52|M|Gerry Olsson|52 år, Montör, Genevad
+C|396961|56|K|Mona Eriksson|56 år, Ambulanssjukvårdare, Mellbystrand
+C|396962|58|K|Gun Olsson|58 år, Charkuterist, Knäred
+C|396963|71|M|Sven Karlberg|71 år, Lantbrukare, Mellbystrand
+C|396964|59|K|Eivor Persson|59 år, Mentalskötare, Nyby
+C|406695|55|M|Lars-Ingvar Persson|55 år, Bokbindare, Nyby
+C|131351|60|K|Eva M Larsson|60 år, undersköterska, Laholm
+C|131352|42|M|Martin Petersson|42 år, lärare, Våxtorp
+C|131353|78|M|Lutz Müller|77 år, konstnär, Laholm
+C|131354|66|K|Margareta Lindgren|66 år, miljöstrateg, Ålstorp
+C|131355|53|M|Kent-Ove Bengtsson|53 år, humanekolog, Laholm
+C|131356|67|K|Lena Angviken|67 år, bibliotekarie, Laholm
+C|131357|60|K|Eva Ågren Svensson|59 år, sjukpensionär, Veinge
+C|239782|65|M|Roland Norrman|65 år, Enhetschef, Mästocka
+C|160398|53|K|Maryam Barkadehi|53 år, Förstelärare, Laholm
+C|239784|46|M|Kenneth Camitz|46 år, Säljare, Laholm
+C|239785|46|M|Jonas Hellsten|46 år, Fastighetsskötare, Knäred
+C|239786|61|M|Knut Slettengren|61 år, Entreprenör, Säbyholm
+C|239787|53|M|Eric Semb|53 år, Verksamhetschef, Skottorp
+C|239788|20|M|Sten Candell|20 år, Studerande, Laholm
+C|239789|71|M|Jerker Jacobson|71 år, Civilekonom, Mellbystrand
+C|239790|62|K|Marit Schwerin|62 år, Rekryterare, Lilla Tjärby
+C|239791|53|M|Thor Gunnar Bjelland|53 år, Fastighetschef, Laholm
+C|239792|72|K|Angela Magnusson|72 år, Studie/yrkesvägledare, Mellbystrand
+C|239793|54|K|Lena Jogersten|54 år, Entreprenör, Skummeslövsstrand
+C|239794|20|M|Måns Kristiansson|20 år, Studerande, Hishult
+C|239795|38|M|Housam Dahbour|38 år, Egenföretagare, Laholm
+C|239796|75|M|Christer Sjöberg|75 år, Egenföretagare, Skummeslövsstrand
+C|239797|61|M|Milad Karam|61 år, Samhällskommunikatör, Skummeslövsstrand
+C|239798|60|K|Angela Johansson|60 år, Personlig assistent, Laholm
+C|160410|75|K|Ingrid Sjöberg|75 år, Pensionär, Skummeslövsstrand
+C|239800|64|K|Gunilla Karlsson|64 år, Marknadsförare, Mellbystrand
+C|239801|65|K|Anne-Lis Gemhagen|65 år, Undersköterska, Ränneslöv
+C|239802|58|M|Kennet Gertsson|58 år, Egenföretagare, Mellbystrand
+C|239803|34|K|Therese Norrman|34 år, Administrativ assistent, Mästocka
+C|239804|66|M|Gert Olsson|66 år, Exportsäljare, Skummeslövsstrand
+C|239805|36|M|Håkan Hallberg|36 år, Lagerarbetare, Ysby
+C|160383|55|K|Lena Drott|55 år, Civilekonom, Kövlinge
+C|239807|19|M|Alexander Golgeson|19 år, Studerande, Lilla Tjärby
+C|239808|71|M|Kenth Holmberg|71 år, Konsult, Ahla
+C|239809|66|M|Johan Johansson|66 år, Chaufför, Mellbystrand
+C|239810|75|M|Torkel Fagerström|75 år, Lärare, Laholm
+C|239811|64|M|Tommy Jacobson|64 år, Civilekonom, Laholm
+C|167719|74|M|Ingmar Rundberg|Egenföretagare, Skummeslövsstrand, 73 år
+C|119808|41|M|Thomas Lövenbo|lagerarbetare, 41 år, Laholm
+C|119773|64|M|Peter Berndtson|ingenjör, 64 år, Laholm
+C|119766|56|K|Ann-Heléne Djivjak|behandlingsassistent, 57 år, Laholm
+C|119800|59|M|Mikael Sandén|kock, 59 år, Laholm
+C|119790|54|K|Anita Folden|behandlingsassistent, 54 år, Laholm
+C|119812|32|M|Helge Wigforss|montör, 32 år, Laholm
+C|167726|60|M|Lars-Göran Jarl|Säljare, Vallberga, 60 år
+C|167727|37|K|Anna Nylander|Undersköterska, Vallberga, 37 år
+C|167728|38|M|Jimmy Grym|Platschef, Ränneslöv, 38 år
+C|167729|55|M|Conny Nilsson|Statsvetare, Bölarp, Laholm,
+C|167730|69|K|Karin Sjöström|Egenföretagare, Edenberga, Laholm, 69 år
+C|167731|55|M|Birger Bäkmark|Egenföretagare, Öringe. Laholm, 55 år
+C|167732|65|M|Lars Sjöström|Pensionär, Edenberga, Laholm, 65 år
+C|167733|48|M|Anders Larsson|Bilskadetekniker, Björnhult, Laholm, 49år
+C|167734|35|K|Ida Hård|Hemmafru, Våxtorp, 35 år
+C|119776|81|M|Gunnar Wiik|med. doktor, 81 år, Laholm
+C|119825|72|M|Per Lundén|fil kand, 72 år, Laholm
+C|167737|63|M|Boris Bergström|Pensionär, Laholm, 63 år
+C|167738|40|M|Stewe Sundin|Resurspedagog, Laholm, 41 år
+C|167739|58|K|Irene Bergström|Pensionär, Laholm, 59 år
+C|167740|81|M|Hans Hansson|Pensionär, Hishult, 81 år
+C|119139|67|K|Inger Reinfeldt|Lärare
+C|119140|66|K|Lena Åkesson|Enhetschef
+C|119141|84|K|Anna-Maria Sjöstrand|Gerontolog
+C|119142|57|K|Susanne Andreasson|Enhetschef
+C|119143|74|K|Inger Stenberg|Metodiklärare
+C|119144|73|M|Nils Perlhagen|Konsult
+C|119145|73|K|Elsie Henriksen|Egen företagare
+C|119146|56|M|Nils-Christian Andersson|Lantmästare
+C|119147|71|K|Birgitta Annerfors|Lärare
+C|119148|67|M|Arne Bengtsson|Butikschef
+C|13318|22|K|Ebba Ozolins|konstnär, 22 år, Laholm
+C|233719|66|M|Lennart Svensson|förskollärare, 66 år, Genevad
+C|14298|72|M|Mudhir Karmush|konstnär/pensionär/                 f.d. lärare, 72 år, Laholm
+C|13448|73|K|Susanne Gerstenberg|pensionär, 73 år, Laholm
+C|14299|64|M|Lennart Johansson|pensionär/f.d. lärare, 64 år, Veinge
+C|233723|65|K|Monica Schramm|lärare, 65 år, Laholm

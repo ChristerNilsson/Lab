@@ -1,14 +1,361 @@
-2|16324|16323|16328|16325|16326|16327|11773|16329|16330|7603|16332|16333|16334|16335|16336|16337|16338|16339|16340|16341|16342|16343|16344|16345|16346|16347|16348|16349|16350|16351|16352|16353|16354|16355|16356|16357|16358|16359|16360|16361|11765|16363|16364|16365|16366|16367|7612|16369|16370|16373|16372|16375|16374|16377|16376|16379|16378|16381|16380|11770|16382|16385|16384|16387|16386|16389|16388|16391|16390|16393|16392|153255
-4|23834|29587|23821|29589|29590|28990|29592|29593|29594|23836|29596|29597|29598|29599|29600|29601|23829|29603|29604|29605|29606|29607|29608|28985|29610|28958|29612|29613|29614|29615|29616|29617|29618|29619|29620|28988|29622|29623|29624|29625|29626|29627|29628|29629|29630|29631|29632|23840|29634|29635|29636|29637|29638|29639|29640|29641|29642|29643|29644|29645|29646|29647|29648
-1150|365275|515756
-68|221780|221797|221788|221794|221799|221786|223915|223916|223917|223918|223919|223920|223921|223922|223923|223924|223925
-1011|515599
-3|156090|156091|156092|156093|49193|156095|156096|156097|156098|156099|156100|156101|156102|156103|156104|156105|156106|156107|156108|156109|156110|156111
-1296|128526
-55|131362|131363|131364|131365|131366|131367|131368|131369|131370|131371|131372|131373|131374|190197|190198|190199|190200|190201
-1|240210|160382|240212|240213|160375|240215|160395|240217|160364|160380|240220|160368|160386|240223|160388|160378|240226|240227|240228|160371|240230|240231|240232|240233|240234|240235|240236|240237|240238|240239|240240|240241|160393|240243|160387|240245|240246|240247|160394|240249|160385|160377|160406|160401|240254|240255|240256|240257|240258|240259|240260|240261|240262|240263|240264|240265
-1202|490395
-107|392160|392161|392162|392163|392164
-110|119788|119757|119762|119774|119782|119778|119768|119770|119775|119785|125979|119759|119802|119820|125985|119794|119793|119765|119823|126328|125989|126330|119781|119813|119797|119791|126335|119815|126337|126338|126339|126340|126341|126342|126343|119809|126346|126347
-1309|23950|23951|25676|25677|25678|25679|25680|25681|25682|25683|25684
-5|13322|13245|13325|14270|14271|14272|14273|14274|13328|14275|14276|14277|234106|14278|14279|234109|13320|234111|234112|234113|14281|234115|14282|234117|13455
+T|Halmstad
+A|2|16324|16323|16328|16325|16326|16327|11773|16329|16330|7603|16332|16333|16334|16335|16336|16337|16338|16339|16340|16341|16342|16343|16344|16345|16346|16347|16348|16349|16350|16351|16352|16353|16354|16355|16356|16357|16358|16359|16360|16361|11765|16363|16364|16365|16366|16367|7612|16369|16370|16373|16372|16375|16374|16377|16376|16379|16378|16381|16380|11770|16382|16385|16384|16387|16386|16389|16388|16391|16390|16393|16392|153255
+A|4|23834|29587|23821|29589|29590|28990|29592|29593|29594|23836|29596|29597|29598|29599|29600|29601|23829|29603|29604|29605|29606|29607|29608|28985|29610|28958|29612|29613|29614|29615|29616|29617|29618|29619|29620|28988|29622|29623|29624|29625|29626|29627|29628|29629|29630|29631|29632|23840|29634|29635|29636|29637|29638|29639|29640|29641|29642|29643|29644|29645|29646|29647|29648
+A|1150|365275|515756
+A|68|221780|221797|221788|221794|221799|221786|223915|223916|223917|223918|223919|223920|223921|223922|223923|223924|223925
+A|1011|515599
+A|3|156090|156091|156092|156093|49193|156095|156096|156097|156098|156099|156100|156101|156102|156103|156104|156105|156106|156107|156108|156109|156110|156111
+A|1296|128526
+A|55|131362|131363|131364|131365|131366|131367|131368|131369|131370|131371|131372|131373|131374|190197|190198|190199|190200|190201
+A|1|240210|160382|240212|240213|160375|240215|160395|240217|160364|160380|240220|160368|160386|240223|160388|160378|240226|240227|240228|160371|240230|240231|240232|240233|240234|240235|240236|240237|240238|240239|240240|240241|160393|240243|160387|240245|240246|240247|160394|240249|160385|160377|160406|160401|240254|240255|240256|240257|240258|240259|240260|240261|240262|240263|240264|240265
+A|1202|490395
+A|107|392160|392161|392162|392163|392164
+A|110|119788|119757|119762|119774|119782|119778|119768|119770|119775|119785|125979|119759|119802|119820|125985|119794|119793|119765|119823|126328|125989|126330|119781|119813|119797|119791|126335|119815|126337|126338|126339|126340|126341|126342|126343|119809|126346|126347
+A|1309|23950|23951|25676|25677|25678|25679|25680|25681|25682|25683|25684
+A|5|13322|13245|13325|14270|14271|14272|14273|14274|13328|14275|14276|14277|234106|14278|14279|234109|13320|234111|234112|234113|14281|234115|14282|234117|13455
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1202|RNP|Reformist Neutral Partiet
+B|107|SPI|SPI Välfärden
+B|110|SD|Sverigedemokraterna
+B|1309|TRP|TRYGGHETSPARTIET
+B|5|V|Vänsterpartiet
+C|16324|45|K|Krissi Kristina Johansson|45, Bäckagård
+C|16323|27|M|Stefan Pålsson|27, Nyatorp
+C|16328|74|K|Ingegerd Sahlström|74, Centrum
+C|16325|32|M|Fredrik Luhanka|32, Gustavsfält
+C|16326|54|K|Fatma Hergül|54, Söndrum
+C|16327|52|M|Tony Stané|52, Centrum
+C|11773|50|K|Gun-Britt Löfdahl|50, Halmstad
+C|16329|60|M|Tord Johansson|60, Centrum
+C|16330|27|K|Sofia Levin|27, Centrum
+C|7603|26|M|Lars El Hayek|26, Fyllinge
+C|16332|49|K|Carin Söderberg|49, Söndrum
+C|16333|49|M|Micael Nilsson|49, Snöstorp
+C|16334|66|K|Christel Eriksson|66, Frennarp
+C|16335|60|M|Michael Svensson|60, Vallås
+C|16336|32|K|Sandra Löberg Erlandsson|32, Centrum
+C|16337|58|M|Kent Gustafsson|58, Getinge
+C|16338|52|K|Lenita Strandberg|52, Trönninge
+C|16339|80|M|Bengt Ekberg|80, Oskarström
+C|16340|51|K|Erika Olivares|51, Gustavsfält
+C|16341|51|M|Folke Alfredsson|51, Gullbranna
+C|16342|47|K|Eva-Marie Paulsson|47, Nyhem
+C|16343|56|M|Ante Hultin|56, Kvibille
+C|16344|74|K|Rose-Marie Henriksson|74, Vallås
+C|16345|51|M|Tommie Hägg|51, Furet
+C|16346|45|K|Anne Bergman|45, Vallås
+C|16347|62|M|Stefan Hansson|62, Mickedala
+C|16348|62|K|Rose-Marie Jönsson|62, Andersberg
+C|16349|68|M|Leif Grenlund|68, Furet
+C|16350|56|K|Maria Persdotter|56, Mickedala
+C|16351|55|M|Imre Gulyas|55, Fyllinge
+C|16352|42|K|Åsa Malmberg|42, Furet
+C|16353|23|M|Arber Gashi|23, Nyhem
+C|16354|67|K|Rose-Marie Edlund|67, Centrum
+C|16355|59|M|Anders Rosén|59, Centrum
+C|16356|72|K|Ulla Winblad|72, Bergsgård
+C|16357|63|M|Bertil Andersson|63, Vallås
+C|16358|30|K|Rebecca Nordström|30, Tolarp
+C|16359|50|M|Urban Landström|50, Nyhem
+C|16360|58|K|Pernilla Hultin|58, Kvibille
+C|16361|54|M|Peter Nofors|54, Stenhuggeriet
+C|11765|51|K|Jeanet Kjöller|51, Oskarström
+C|16363|35|M|Kim Petersson|35, Oskarström
+C|16364|60|K|Charlotte Olesen Rosén|60, Vallås
+C|16365|19|M|Jihad Radjab Adel|19, Nyhem
+C|16366|50|K|Amela Kara|50, Furet
+C|16367|39|M|Conny Jönsson|39, Trönninge
+C|7612|54|K|Eva-Lena Jakobsson|54, Halmstad
+C|16369|36|M|Magnus Jeppesen|36, Nyhem
+C|16370|29|K|Moa Petersson|29, Brogård
+C|16373|74|M|Jan Olof Johansson|74, Centrum
+C|16372|68|K|Inga-Lill Nilsberth|68, Strandhaga
+C|16375|43|M|Kemal Hadzalic|43, Oskarström
+C|16374|57|K|Irene Lindgren|57, Andersberg
+C|16377|42|M|Tony Kok|42, Linehed
+C|16376|26|K|Lina Paulsson|26, Linehed
+C|16379|58|M|Lars-Uno Kroon|58, Eldsberga
+C|16378|67|K|Anna-Grethe Sörensen|67, Slättåkra
+C|16381|40|M|Per Ihlström|40, Getinge
+C|16380|46|K|Jannike Karlsson|46, Söndrum
+C|11770|60|M|Ulf Johansson|60, Halmstad
+C|16382|46|K|Sawsan Al Akki|46, Centrum
+C|16385|41|M|Mathias Sörensen|41, Vallås
+C|16384|54|K|Anna Carlsson|54, Snöstorp
+C|16387|35|M|Ismail Akgun|35, Nyhem
+C|16386|53|K|Narine Gabrielyan|53, Nyhem
+C|16389|63|M|Staffan Albihn|63, Harplinge
+C|16388|53|K|Lilli Istenes|53, Oskarström
+C|16391|52|M|Bengt Arvidsson|52, Centrum
+C|16390|44|K|Perihan Karagöz|44, Snöstorp
+C|16393|40|M|Martin Johansson|40, Gullbrandstorp
+C|16392|30|K|Cathrin Ljungberg|30, Vallås
+C|153255|34|M|Ola Fritzon|34, Andersberg
+C|23834|44|K|Jenny Axelsson|44 år, Kommunråd, Halmstad
+C|29587|53|M|Yngve Kihlberg|53 år, Biodlingsföretagare, Kärleken
+C|23821|48|K|Jennie Wijk|48 år, Strateg/VD, Halmstad
+C|29589|58|M|Henrik Andersson|58 år, Agronom, Holm
+C|29590|39|K|Anna Ginstmark|39 år, Teknisk säljare, Getinge
+C|28990|50|M|Staffan Svensson|50 år, Egenföretagare, Halmstad
+C|29592|49|M|Håkan Björklund|49 år, Lärare, Vallås
+C|29593|29|K|Rebecca Bjällsjö|29 år, Förskollärare, Trönninge
+C|29594|31|M|Gzim Ramadani|31 år, Frisör, Nissastrand
+C|23836|25|M|Victor Rundqvist|25 år, Ingenjör, Halmstad
+C|29596|66|M|Lars-Roland Svensson|66 år, F.d. Polis, Oskarström
+C|29597|40|K|Sofie Karlsson|40 år, Civilekonom, Söndrum
+C|29598|39|M|Jimmie Tschander|39 år, Bokningskoordinator, Stenhuggeriet
+C|29599|42|M|Pierre Håkansson|42 år, Byggprojektledare, Getinge
+C|29600|39|K|Sandra Carlsson|39 år, Försäkringstjänsteman, Holm
+C|29601|44|M|Paul Barath|44 år, Verksamhetsansvarig KRIS, Slättåkra
+C|23829|38|M|Fisnik Nepola|38 år, Affärsrådgivare, Halmstad
+C|29603|46|K|Cathrine Sjölin|46 år, Företagare, Snöstorp
+C|29604|69|K|Ewy Henriksson|69 år, Förskolelärare, Kvibille
+C|29605|47|M|Ola Hidgård|47 år, Småföretagare, Tönnersjö
+C|29606|40|M|Erik Holmer|40 år, Läkare, Åled
+C|29607|46|K|Jessica Geijer|46 år, Gymnasielärare, Haverdal
+C|29608|42|K|Maria Blasek Jansson|42 år, Lärare försvarsmakten, Kvibille
+C|28985|41|K|Anna Ericsson|41 år, Lärare, Halmstad
+C|29610|46|M|Fredrik Johansson|46 år, Försäljningschef, Steninge
+C|28958|48|M|Petter Larron|48 år, Kyrkokamrer, Halmstad
+C|29612|43|K|Karin Ring|43 år, Administratör, Steninge
+C|29613|57|M|Christer Meuller|57 år, Egenföretagare, Eldsberga
+C|29614|62|M|Peter Feuerbach|62 år, Våtmarksexpert, Harplinge
+C|29615|46|M|Fredrik Jörgensen|46 år, Rektor, Slättåkra
+C|29616|41|M|Peter Uppman|41 år, Innovationsstrateg, Eldsberga
+C|29617|46|K|Jenny Grahn|46 år, Tapetserare, Simlångsdalen
+C|29618|50|M|Johan Karlsson|50 år, VD/Datoringenjör, Eldsberga
+C|29619|48|M|Jonas Wahlbeck|48 år, Egenföretagare, Vallås
+C|29620|54|K|Eva Wetterlund Cederholm|54 år, Lärare, Getinge
+C|28988|56|M|Torbjörn Johansson|56 år, Studerande, Halmstad
+C|29622|23|K|Malin Forsberg|23 år, Studerande, Nyhem
+C|29623|34|M|Lavdim Syla|34 år, Egenföretagare, Snöstorp
+C|29624|26|M|John-Wilhelm Pahlm|26 år, Kulturentreprenör, Halmstad
+C|29625|43|M|Christian Hertz|43 år, Egenföretagare, Simlångsdalen
+C|29626|60|M|Johan Pehrson|60 år, Företagsutvecklare, Halmstad
+C|29627|56|M|Dan Karlsson|56 år, Försäljare, Harplinge
+C|29628|46|M|Henrik Salomonsson|46 år, Serviceingenjör, Simlångsdalen
+C|29629|45|K|Ulrika Kjellberg|45 år, Förstelärare, Halmstad
+C|29630|44|M|Mattias Bengtsson|44 år, Lantbrukare, Rävinge
+C|29631|53|M|Torbjörn Ferdman|53 år, Civilingenjör, Särdal
+C|29632|68|M|Christer Henriksson|68 år, Lantmästare, Harplinge
+C|23840|37|M|Christian Lidén|37 år, Ambulanssjuksköterska, Halmstad
+C|29634|41|M|Anders Darelius|41 år, Teknologie doktor, Steninge
+C|29635|19|M|Hugo Lindqvist|19 år, Studerande, Gullbrandstorp
+C|29636|47|M|Rickard Bengtsson|47 år, Projektledare/Egenföretagare, Harplinge
+C|29637|68|M|Bengt Tönsgård|68 år, Civilingenjör, Halmstad
+C|29638|38|K|Cecilia Skjödt|38 år, Inköpschef, Stenhuggeriet
+C|29639|51|M|Ronny Bengtsson|51 år, Mejeriarbetare, Gullbrandstorp
+C|29640|58|M|Magnus Persson|58 år, Entreprenör, Onsjö
+C|29641|49|M|Hicham Andersson|49 år, Polisvolontär, Frösakull
+C|29642|39|M|Henrik Noord|39 år, Lastbilschaufför, Åled
+C|29643|49|M|Jörgen Jansson|49 år, Lärare, Harplinge
+C|29644|59|K|Christina Rödl|59 år, Socialpedagog, Särdal
+C|29645|54|M|Tomas Norlander|54 år, Ekonomikonsult, Steninge
+C|29646|33|M|Daniel Stanic|33 år, Säljare, Halmstad
+C|29647|76|M|Lennart Eriksson|76 år, Företagare, Kvibille
+C|29648|87|K|Lizzie Nilsson|87 år, Egenföretagare, Holm
+C|365275|61|M|Jan Isefalk|
+C|515756|48|M|Magnus Nyberg|
+C|221780|34|K|Ella Kardemark|34, Företagare, Halmstad
+C|221797|44|M|Henrik Östlund|44, Regionchef, Halmstad
+C|221788|46|M|Magnus Hedman|45, Civilekonom, Halmstad
+C|221794|54|K|Annette Nordén|54, Egenföretagare, Halmstad
+C|221799|31|M|Johnny Rosenberg Bodmar|31, Lärarstudent, Halmstad
+C|221786|19|M|Erik Golovtchenko|19, Student, Halmstad
+C|223915|64|K|Elisabeth Wetoft Petersson|64, Leg. Sjuksköterska, Halmstad
+C|223916|63|M|Hans Sjöblom|62, Guldsmedsmästare, Halmstad
+C|223917|34|M|Anders Centerwall|33, Ventilationstekniker, Holm
+C|223918|31|K|Linda Arrhenius|31, Löneadministratör, Halmstad
+C|223919|78|M|Kaj Danielsson|78, VVS Ingenjör, Åled
+C|223920|76|K|Lena Weibull|76, Hemkunskapslärare, Haverdal
+C|223921|69|M|Björn Ericson|68, f.d. Överåklagare, Halmstad
+C|223922|59|K|Helena Jämtestam Pedersen|58, f.d. Undersköterska, Halmstad
+C|223923|82|M|Lars-Olof Nilsson|81, f.d. Ämneslärare, Halmstad
+C|223924|70|K|Margareta Chibba|69, Företagare, Halmstad
+C|223925|71|M|Bertil Alhult|71, Pensionär, Halmstad
+C|515599|70|M|Lars Erik Johansson|
+C|156090|36|K|Lovisa Aldrin|36, tjänsteman EU, Halmstad
+C|156091|37|M|Per Carlsson|37, officer, Halmstad
+C|156092|69|K|Barbro Odelberg|69 år, f.d. journalist, Rotorp
+C|156093|20|M|Simon Karlsson|20, lärarvikarie, Halmstad
+C|49193|23|K|Ellen Österberg|maskiningenjör, Halmstad
+C|156095|62|M|Mikael Wendt|62, rektor, Halmstad
+C|156096|51|K|Annica Elvroth|51 år, försäkringsförmedlare, Frösakull
+C|156097|60|M|Anders Blomqvist|60 år, leg. ortopedingenjör, Frösakull
+C|156098|60|K|Ann-Christin Danielsson|60 år, yrkeslärare, Öster
+C|156099|56|M|Håkan Ramsén|56 år, guldsmed, Kärleken
+C|156100|36|K|Caroline Carlsson|36 år, konstvetare, Nyhem
+C|156101|32|M|Ronni Söderberg|32 år, lärarstudent, Furet
+C|156102|47|K|Anne Rosvall|47, VD/företagare, Halmstad
+C|156103|52|M|Zlatan Kesetovic|52 år, civilingenjör, Snöstorp
+C|156104|35|K|Catrin Stag|35 år, produktspecialist, Eldsberga
+C|156105|70|M|Lars Nordgren|70, docent/universitetslektor, Halmstad
+C|156106|21|K|Sanna Peters|21, studerande, Halmstad
+C|156107|20|M|Hannes Sjöberg|20 år, distriktsstyrelseledamot LUF Halland, Halmstad
+C|156108|64|K|Gunnel Fabricius|65 år, ämneslärare, Holm
+C|156109|53|M|Michael Hedlund|53 år, pedagog, Söndrum
+C|156110|61|M|Kenneth Mellåker|61 år, specialpedagog, Rotorp
+C|156111|82|K|Kerstin Persson|81 år, senior advisor, Söndrum
+C|128526|27|M|Milos Varcakovic|27, Statstjänsteman, Halland
+C|131362|49|M|Ola Nilsson|49 år, lärare, Halmstad
+C|131363|60|K|Tove Bergman|60 år, författare, Halmstad
+C|131364|50|M|Svein Henriksen|50 år, socionom, Halmstad
+C|131365|27|K|Ida Westin|27 år, socialsekreterare, Halmstad
+C|131366|36|M|Anders Bergh|36 år, förskollärarstudent, Särdal
+C|131367|30|K|Maria Söderberg|30 år, klimatstrateg, Centrum
+C|131368|61|M|Mikael Östman|61 år, arkitekt, Nyhem
+C|131369|55|M|Peter Holm|55 år, socionom, Centrum
+C|131370|51|K|Catrin Isaksson|51 år, handläggare, Rotorp
+C|131371|58|K|Kerstin Teutsch|58 år, landskapsarkitekt, Halmstad
+C|131372|67|K|Marie Ekholm|67 år, pensionär, f.d. barnläkare, Norr
+C|131373|23|M|Anton Bristav|23 år, miljö- och hälsoskyddshandläggare, Centrum
+C|131374|47|K|Elinor Gustafsson|48 år, socialpedagog, Oskarström
+C|190197|66|M|Anders Wirdheim|67 år, journalist, Halmstad
+C|190198|44|K|Mariam Younis Hussein|44 år, lärare, Bäckagård
+C|190199|44|M|Lionel Charrière|44 år, lärare, Furet
+C|190200|41|K|Marie Tönnberg|40 år, miljövetare, Furet
+C|190201|78|K|Barbro Toftgård|78 år, pensionär, Söndrum
+C|240210|45|M|Jonas Bergman|45 år, Systemutvecklare, Haverdal
+C|160382|50|M|Carl-Johan Berthilsson|50 år, Företagare, Halmstad
+C|240212|45|K|Mikaela Waltersson|45 år, Områdeschef, Kvibille
+C|240213|59|K|Ann-Charlott Mankell|59 år, Rekryterare, Halmstad
+C|160375|31|M|Christofer Lundholm|31 år, Gymnasielärare, Halmstad
+C|240215|64|M|Dag Hultefors|64 år, Länsveterinär, Halmstad
+C|160395|48|K|Josefin Green|48 år, Verksamhetschef, Halmstad
+C|240217|45|K|Louise Uvenfeldt|45 år, Politices magister, Steninge
+C|160364|52|M|Lars Püss|52 år, Civilekonom, Villshärad
+C|160380|39|M|Ardian Mazreku|39 år, Statsvetare, Halmstad
+C|240220|48|K|Camilla Berthilsson|48 år, VD, Halmstad
+C|160368|37|K|Jenny Petersson|37 år, Riksdagsledamot, Halmstad
+C|160386|38|M|Andreas Bergman|38 år, Åklagare, Halmstad
+C|240223|50|M|Conny Hansen|50 år, Överstelöjtnant, Halmstad
+C|160388|51|K|Anna Fallkvist|51 år, Administratör, Harplinge
+C|160378|39|K|Houda Axelsson|39 år, VD, Halmstad
+C|240226|22|M|Sebastian Stenbeck|22 år, Försäljare, Halmstad
+C|240227|42|K|Johanna Jansson|42 år, Universitetsadjunkt, Halmstad
+C|240228|31|K|Madelen Rossköld|31 år, Civilekonom, Steninge
+C|160371|40|K|Annika Svensson|40 år, Molekylärbiolog, Eldsberga
+C|240230|41|M|Daniel Gharavi|41 år, Företagare, Halmstad
+C|240231|31|M|Simon Lindgren|31 år, Civilingenjör, Halmstad
+C|240232|52|K|Nese Celebioglu|52 år, Ämneslärare, Halmstad
+C|240233|30|K|Emelie Hägerklint|30 år, Verksamhetsutvecklare, Halmstad
+C|240234|49|M|Magnus Uvenfeldt|49 år, Quality director, Steninge
+C|240235|30|K|Johanna Hjelmberg|30 år, Statsvetare, Getinge
+C|240236|62|M|Magnus Ackerot|62 år, Entreprenör, Halmstad
+C|240237|68|K|Ann-Kristin Nilsson|68 år, Pensionär, Halmstad
+C|240238|21|K|Sandra Oghlikhani|21 år, Konsult, Halmstad
+C|240239|73|M|Jan Prytz|73 år, Sjökapten, Halmstad
+C|240240|69|M|Lars-Erik Blank|69 år, Officer, Halmstad
+C|240241|47|M|Joakim Rask|47 år, Gymnasielärare, Halmstad
+C|160393|62|K|Ewa Sjögren|62 år, Verksamhetschef, Steninge
+C|240243|40|M|Johan Sutinen|40 år, Rekrythandläggare, Getinge
+C|160387|45|M|Shpetim Bujupi|45 år, Tandläkare, Halmstad
+C|240245|75|M|Sven Palmkvist|75 år, Civilingenjör, Halmstad
+C|240246|73|K|Barbro Henriksson|73 år, Tandsköterska, Haverdal
+C|240247|67|M|Lars-Ove Hägerroth|67 år, Lantmästare, Halmstad
+C|160394|61|M|Pehr Magnusson|61 år, Ekonom, Gullbrandstorp
+C|240249|75|K|Birgitta Mardell|75 år, Utbildare, Halmstad
+C|160385|48|M|Bengt Kjellgren|48 år, Universitetsadjunkt, Halmstad
+C|160377|49|M|Niclas Jansson|49 år, Fastighetsförvaltare, Halmstad
+C|160406|30|M|Samuel Åkesson|30 år, Säljare, Halmstad
+C|160401|56|K|Anne-Maria Smedberg|56 år, Egenföretagare, Påarp
+C|240254|70|K|Ann-Charlotte Westlund|70 år, Pensionär, Haverdal
+C|240255|43|M|Ola Johnsson|43 år, Ingenjör, Halmstad
+C|240256|75|M|Roland Malmenborn|75 år, Förvaltare, Halmstad
+C|240257|42|M|Magnus Axelsson|42 år, Byggnadsingenjör, Halmstad
+C|240258|57|K|Arife Yeniler|57 år, Leg. sjuksköterska, Halmstad
+C|240259|33|M|Leonard Von Wolcker|33 år, Verksamhetsutvecklare, Åled
+C|240260|42|K|Cristina Gegö|42 år, Lärare, Halmstad
+C|240261|45|M|Anders Eriksson|45 år, Trafiksäkerhetschef, Kvibille
+C|240262|30|M|Milot Thaci|30 år, Högskolestuderande, Halmstad
+C|240263|78|M|Lennart Germundsson|78 år, Civilingenjör, Halmstad
+C|240264|71|M|Lennart Ohlin|71 år, Pensionär, Halmstad
+C|240265|63|M|Henning Pipkorn|63 år, Ingenjör, Halmstad
+C|490395|49|K|Charlotte Persson|Undersköterska
+C|392160|78|M|Bo Fridolph|
+C|392161|66|M|Rutger Johannesson|
+C|392162|74|M|Torsten Nilsson|
+C|392163|27|M|Waseem Bakko|
+C|392164|86|M|Arnold Gustavsson|
+C|119788|35|M|Fabio Ishaq|vd, 34 år, Halmstad
+C|119757|25|M|Anton Nilsson|säljare, 24 år, Halmstad
+C|119762|52|M|Tor Ingels|läkare, 51 år, Halmstad
+C|119774|36|K|Andréa Skoglund|undersköterska, 35 år, Halmstad
+C|119782|60|M|Ulf Holmgren|vårdbiträde, 60 år, Halmstad
+C|119778|44|M|Andreas Ahlqvist|teamchef, 44 år, Halmstad
+C|119768|65|M|Lars Björk|pensionär, 64 år, Halmstad
+C|119770|53|M|Joacim Svensson|entreprenör, 53 år, Halmstad
+C|119775|67|M|Per Ove Andersson|pensionär, 66 år, Halmstad
+C|119785|47|K|Suzana Johansson|undersköterska, 47 år, Halmstad
+C|125979|26|M|Jacob Ravensberg|25 år, Säljare
+C|119759|72|M|Georg Cserti|pensionär, 71 år, Halmstad
+C|119802|42|M|Krister Karlsson|lagerarbetare, 41 år, Halmstad
+C|119820|44|M|Robert Lindgren|CNC-operatör, 43 år, Halmstad
+C|125985|53|M|Henrik Pejle|52 år, Egenföretagare
+C|119794|60|M|Dan Stigsson|chaufför, 59 år, Halmstad
+C|119793|46|M|Robert Grönberg|administratör, 45 år, Halmstad
+C|119765|74|M|Kjell Jönsson|pensionär, 74 år, Halmstad
+C|119823|22|K|Rebecca Lago|student, 22 år, Halmstad
+C|126328|55|M|John Andersen|54 år, Militär
+C|125989|67|M|Claes Söderlind|67 år, Pensionär
+C|126330|39|M|Fredrik Bunnstedth|38 år, Egenföretagare
+C|119781|23|M|Lars Larsson|student, 23 år, Halmstad
+C|119813|63|M|Conny Blad|pensionär, 63 år, Halmstad
+C|119797|65|M|Gert Hellström|avbytare stålverk, 65 år, Halmstad
+C|119791|20|M|Max Andréasson|soldat, 20 år, Halmstad
+C|126335|68|M|Leif Jönsson|67 år, Pensionär
+C|119815|42|M|Johan Josefsson|platschef, 42 år, Halmstad
+C|126337|21|M|Morgan Olsen|20 år, Soldat
+C|126338|73|M|Henry Berglund|72 år, Pensionär
+C|126339|54|M|Joachim Lundvall|53 år, Arbetsledare
+C|126340|67|M|Bruno Chmel|67 år, Tandläkare
+C|126341|74|M|Per Karlsson|74 år, Pensionär
+C|126342|52|M|Carl Magelius|51 år, Chaufför
+C|126343|74|M|Jan Andersson|73 år, Pensionär
+C|119809|21|M|Ludvig Andersson|student, 20 år, Halmstad
+C|126346|82|M|Bengt Höglund|82 år, Pensionär
+C|126347|76|M|Bo Hofvander|75 år, Pensionär
+C|23950|79|K|Ingeborg Oléni|Sjuksköterska/Vårdlärare
+C|23951|80|K|Maj-Lis Andersson|Banktjänsteman
+C|25676|69|M|Dan Nilsson|Elektroingenjör, Halmstad
+C|25677|72|M|Lennart Nyberg|Officer, Halmstad
+C|25678|67|K|Kerstin Nyberg|Biståndshandläggare
+C|25679|71|K|Anna-Carin Nilsson|Socionom, Halmstad
+C|25680|78|M|Alf Nilsson|Pensionär
+C|25681|71|M|Lennart Bild|Lastbilschaufför
+C|25682|73|M|Kåre Nielsen|Senior
+C|25683|87|M|Bo Göransson|Leg. Läk.
+C|25684|84|K|Inga Lindén Nilsson|Fil. mag. i konsthistoria
+C|13322|39|K|Tania Bengtsson|lärare, 39 år, Halmstad
+C|13245|23|M|Daniel Nilsson Brodén|förskollärare, 23 år, Halmstad
+C|13325|40|K|Maria Johansson|undersköterska, 40 år, Halmstad
+C|14270|50|M|Mikael Ekfeldt|socialpedagog, 50 år, Simlångsdalen
+C|14271|70|K|Mariann Norell|pensionär, 70 år, Frennarp
+C|14272|66|M|Patricio Fuentes-Orellana|ekonomiassistent, 66 år, Nyhem
+C|14273|35|K|Cleo Latifa Khaldi|undersköterska, 35 år, Haverdal
+C|14274|29|M|Kim Ljungcrantz|barnskötare, 29 år, Andersberg
+C|13328|39|K|Ulrika Wiland Sonesson|ombudsman/verksamhetsutvecklare, 39 år, Halmstad
+C|14275|71|M|Jan Berg|pensionär, 71 år, Centrum Väster
+C|14276|38|K|Charlott Zsoldos|lärare, 38 år, Bäckagård
+C|14277|22|M|Reza Sultani|stödassistent, 22 år, Andersberg
+C|234106|21|K|Nour Ataia|student/vårdbiträde, 21 år, Östra Stranden
+C|14278|43|M|Martin Marklund|musiklärare, 43 år, Frennarp
+C|14279|63|K|Carina Rosshed Renkert|förskollärare, 63 år, Nyhem
+C|234109|48|M|Jens Johansson|miljöarbetare, 48 år, Eldsberga
+C|13320|49|M|Pär Petersson|diakon, 49 år, Bockalt
+C|234111|40|K|Angeline Ewube Tabe|sociolog/student, 40 år, Bäckagård
+C|234112|35|K|Charlotte Hansson|personlig assistent, 35 år, Frennarp
+C|234113|42|K|Charlotte Drugge|barnmorska, 42 år, Marbäck
+C|14281|54|M|Willy F. Schütt|boendestödjare, 54 år, Frennarp
+C|234115|70|K|Ingrid Karlsson|f.d. högskolelärare, 70 år, Östra Stranden
+C|14282|73|M|Reino Renkert|pensionär, 73 år, Nyhem
+C|234117|36|K|Malin Engqvist|orderadministratör, 36 år, Centrum
+C|13455|64|M|Anders Lövgren|arbetssökande, 64 år, Halmstad

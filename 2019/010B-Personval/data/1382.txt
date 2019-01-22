@@ -1,8 +1,214 @@
-2|16146|7604|16152|16162|16148|16164|7609|16163|16155|16171|16143|16139|16154|11591|16174|7616|11598|11595|16179|16133|16138|16151|16160|16140|16170|191426|16168|16169|16181|16147|16158|16135|16166|16176|16184|175756|16137|16145|16187|11587|16141|16175|16173|11599|175765|11579|16172|16183|16177|16178|16188|11584|16149|11590|16165|16167|16182|16185|16186
-4|30358|23832|28983|30361|30362|28973|30364|30365|30366|30367|23842|23826|28956|30371|30372|30373|30374|28957|28968|30732|28975|30734|30735|28947|30737|30738|28987|28993|30741|30742|30743|30744|30745|30746|30747|30748|30749
-68|221782|223270|223271|223272|221787|223274|223275|223276|223277|223278|223279|223280|223281|223282|223283|223284|223285|223286|223287|223288
-3|92156|92157|92158|92159|92160|92161|92162|92163|92164|92165
-55|190160|190161|190162|190163|190164|190165|190166
-1|160365|160414|240620|240621|240622|240623|160370|240625|240626|240627|240628|240629|160412|240631|240632|240633|240634|240635|240636|240637|240638|240639|240640|240641|240642|240643|240644|240645|240646|240647|240648|240649|240650|240651|240652|240653|240654
-110|85616|85617|85618|85619|85620|85621|85624|85625|85626|85627|85622|85623|501256|512912|515594|515597|515598|515600
-5|58758|13316|13321|58760|13323|58762|58763|13437|13436|231168|58766|58767
+T|Falkenberg
+A|2|16146|7604|16152|16162|16148|16164|7609|16163|16155|16171|16143|16139|16154|11591|16174|7616|11598|11595|16179|16133|16138|16151|16160|16140|16170|191426|16168|16169|16181|16147|16158|16135|16166|16176|16184|175756|16137|16145|16187|11587|16141|16175|16173|11599|175765|11579|16172|16183|16177|16178|16188|11584|16149|11590|16165|16167|16182|16185|16186
+A|4|30358|23832|28983|30361|30362|28973|30364|30365|30366|30367|23842|23826|28956|30371|30372|30373|30374|28957|28968|30732|28975|30734|30735|28947|30737|30738|28987|28993|30741|30742|30743|30744|30745|30746|30747|30748|30749
+A|68|221782|223270|223271|223272|221787|223274|223275|223276|223277|223278|223279|223280|223281|223282|223283|223284|223285|223286|223287|223288
+A|3|92156|92157|92158|92159|92160|92161|92162|92163|92164|92165
+A|55|190160|190161|190162|190163|190164|190165|190166
+A|1|160414|240620|240621|240622|240623|160370|240625|240626|240627|240628|240629|160412|240631|240632|240633|240634|240635|240636|240637|240638|240639|240640|240641|240642|240643|240644|240645|240646|240647|240648|240649|240650|240651|240652|240653|240654
+A|110|85616|85617|85618|85619|85620|85621|85624|85627|85622|85623|501256|512912|515594|515597|515598|515600
+A|5|58758|13316|13321|58760|13323|58762|58763|13437|13436|231168|58766|58767
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|16146|35|M|Per Svensson|35, Oppositionsråd, Västra Gärdet
+C|7604|56|K|Marcelle Farjallah|56, Falkenberg
+C|16152|49|M|Peter Dygården|49, Anestesisjuksköterska, Östra Gärdet
+C|16162|63|K|Kerstin Rosell|63, Handelsanställd, Slätten
+C|16148|61|M|Bengt Hackberg|61, Förtroendevald, Vinbergs Kyrkby
+C|16164|56|K|Christina Johansson|56, Vårdare, Skogstorp
+C|7609|25|M|Marcus Dufwa|25, Falkenberg
+C|16163|33|K|Rebecka Kristensson|33, Miljöarbetare, Tröingeberg
+C|16155|42|M|Björn Jönsson|42, Butiksbiträde, Ullared
+C|16171|63|K|Yvonne Nilsson|63, Undersköterska, Arvidstorp
+C|16143|51|M|Mikael Svensson|51, Kvalitetstekniker, Slätten
+C|16139|66|K|Connie Kristensson|66, Fd. Undersköterska, Östra Gärdet
+C|16154|66|M|Dahn Persson|66, fd. Arbetsförmedlare, Tröingeberg
+C|11591|27|K|Gabriella Geertinger|27, Falkenberg
+C|16174|55|M|Mikael Salomonsgård|55, Utbildare, Askome
+C|7616|19|K|Aida Birinxhiku|19, Falkenberg
+C|11598|70|M|Jan Dickens|70, Falkenberg
+C|11595|58|K|Yen Gunnarsson|58, Falkenberg
+C|16179|50|M|Lars-Olof Nilsson|50, Hyvelarbetare, Älvsered
+C|16133|18|K|Miranda Bodiroza|18, Studerande, Glommen
+C|16138|55|M|Thomas Fagenheim|55, Studie/Yrkesvägledare, Hjortsberg
+C|16151|40|K|Caroline Sheela Karlsson|40, Enhetschef, Västra Gärdet
+C|16160|46|M|Fredrik Johansson|46, Industriarbetare, Tröingeberg
+C|16140|67|K|Sara Grimpe Wernersson|67, Lärare, Arvidstorp
+C|16170|38|M|Mattias Björding|38, Privatrådgivare, Grimsholmen
+C|191426|26|K|Isabell Leoson|26, Undersköterska, Centrum
+C|16168|36|M|Andreas Engebrethsen|36, Personlig assistent, Herting
+C|16169|68|K|Åsa Norberg|68, Pensionär, Skrea
+C|16181|49|M|Thomas Johansson|49, Ombudsman Kommunal, Östra Gärdet
+C|16147|69|K|Eva Bengtsson|69, Pensionär, Arvidstorp
+C|16158|61|M|Olle Torlycke|61, Maskinoperatör, Östra Gärdet
+C|16135|18|K|Meryem Özen|18, Studerande, Skogstorp
+C|16166|61|M|Joseph Farjallah|61, Tolk, Östra Gärdet
+C|16176|48|K|Maria Krantz|48, Undersköterska, Arvidstorp
+C|16184|25|M|Fatmir Muric|25, Servicehandläggare, Arvidstorp
+C|175756|32|K|Donjeta Mlinaku|32, Verksamhetschef, Arvidstorp
+C|16137|70|M|Björn Bengtsson|70, Pensionär, Skrea Strand
+C|16145|73|K|Kerstin Zander|73, Aktiv Pensionär, Centrum
+C|16187|56|M|Ulf Davidsson|56, Lagerarbetare, Olofsbo
+C|11587|67|K|Ulla Lindén|67, Falkenberg
+C|16141|57|M|Irhan Kasic|57, Gymnasielärare, Slätten
+C|16175|44|K|Ulrika Mullen|44, Socialpedagog, Vessigebro
+C|16173|39|M|Andreas Wihlborg|39, Folkhögskolelärare, Vessigebro
+C|11599|75|K|Majvor Wallin|75, Älvsered
+C|175765|23|M|Ali Abbas|23, Studerande, Östra Gärdet
+C|11579|71|K|Catharina Berghorn|71, Falkenberg
+C|16172|41|M|Andreas Lundberg|41, leg. Grundskolelärare, Skogstorp
+C|16183|58|K|Izabela Nanneson|59, Butiksbiträde, Heberg
+C|16177|72|K|Ingegerd Rönnbäck|72, Pensionär, Stafsinge Strand
+C|16178|25|M|Filip Erzmoneit|25, Murare, Skrea
+C|16188|41|K|Ellinor T. Nilsson|41, Verksamhetsassistent, Vessigebro
+C|11584|58|M|Kim Johansen|58, Falkenberg
+C|16149|70|M|Karl Gustaf Carlzon|70, fd. Kyrkvaktmästare, Skogstorp
+C|11590|62|M|Lars-Gunnar Strandling Berghorn|62, Falkenberg
+C|16165|82|M|Roy Pettersson|82, Pensionär, Skogstorp
+C|16167|70|M|Stig Bengtsson|70, fd. murare, Tröingeberg
+C|16182|66|M|Sven-Olof Myrén|67, fd. bryggeriarbetare, Tröingeberg
+C|16185|77|M|Runar Kaattari|77, Pensionär, Slöinge
+C|16186|27|M|Oscar Jogren|27, Logistikmedarbetare, Skreanäs
+C|30358|34|M|Per Johansson|34 år, Organisationsutvecklare, Falkenberg
+C|23832|59|M|Tore Holmefalk|59 år, Egenföretagare, Falkenberg
+C|28983|58|K|Anette Ivarsson|58 år, Egenföretagare, Falkenberg
+C|30361|50|K|Anneli Andelèn|50 år, VD Maa Såg, Skrea
+C|30362|75|M|Stig Agnåker|75 år, Fritidspolitiker, Falkenberg
+C|28973|47|K|Maria Larsson|47 år, Arbetsledare, Falkenberg
+C|30364|39|M|David Andersson|39 år, VD miljöinnovationsföretag/Lärare Chalmers, Falkenberg
+C|30365|45|K|Petra Eriksson|45 år, Historiker/Konstvetare, Vinberg
+C|30366|40|M|Martin Hafstrand|40 år, Egenföretagare/Grävmaskinist, Älvsered
+C|30367|43|K|Anna Andersson|43 år, Redovisningskonsult, Heberg
+C|23842|64|M|Shlomo Gavie|64 år, Lantbrukare/Egenföretagare, Falkenberg
+C|23826|53|K|Lena Carlbom|53 år, Verksamhetsledare, Falkenberg
+C|28956|53|M|Sven-Olof Lundin|53 år, Rektor, Falkenberg
+C|30371|53|M|Magnus Wernersson|53 år, Företagare, Tröingeberg
+C|30372|23|M|Daniel Boman Ivarsson|23 år, Maskinoperatör/Student, Falkenberg
+C|30373|60|K|Herdis Pixsjö|60 år, Undersköterska hemtjänsten, Stafsinge
+C|30374|51|K|Ulrika Persson|51 år, Grisföretagare, Ljungby
+C|28957|65|K|Ann-Margret Kristensson|65 år, Ombudsman, Falkenberg
+C|28968|72|K|Monica Hansson|72 år, Specialistsjuksköterska, Falkenberg
+C|30732|68|M|Ingmar Bengtsson|68 år, Pensionär, Skrea
+C|28975|51|K|Micheline Chahoud|51 år, Lärare/Samordnare, Falkenberg
+C|30734|47|K|Evelyn Saw-Kian Ooi|47 år, Civilekonom, Glommen
+C|30735|46|M|Peter Hultén|46 år, Enhetschef, Falkenberg
+C|28947|60|K|Agneta Åkerberg|60 år, Agronom/Företagare, Falkenberg
+C|30737|59|M|Claes Bertil Claesson|59 år, Företagsrådgivare bank, Skogstorp
+C|30738|43|M|Robert Isaksson|43 år, Skadetekniker/Egenföretagare, Vinberg
+C|28987|45|M|Kjell Andersson|45 år, Fritidspedagog/Idrottslärare, Falkenberg
+C|28993|47|K|Iris Erlingsdottir|47 år, Egenföretagare, Falkenberg
+C|30741|74|M|Bengt Mård|74 år, Fd bankchef, Falkenberg
+C|30742|61|M|Per-Gunnar Peggen Andersson|61 år, Fastighetsmäklare, Falkenberg
+C|30743|47|M|Samer Mahra|47 år, Upphandlingschef, Falkenberg
+C|30744|52|M|Patrik Hanell|52 år, Entreprenör/Hästbonde, Skrea
+C|30745|46|K|Berith Hultén|46 år, Begravningsentreprenör, Falkenberg
+C|30746|56|K|Eva Christiansson|56 år, Specialistundersköterska demens, Årstad
+C|30747|71|M|Ingvar Andersson|71 år, Egenföretagare, Falkenberg
+C|30748|70|M|Othmar Nekham|70 år, Egenföretagare, Skrea
+C|30749|68|M|Ingemar Johansson|68 år, Polisinspektör, Okome
+C|221782|36|K|Georgia Ferris|36, Innesäljare, Falkenberg
+C|223270|39|K|Emily Crowe|38, Studerande, Falkenberg
+C|223271|73|K|Anita Andersson|73, f.d. Verksamhetschef, Glommen
+C|223272|19|M|Samuel Hansson|19, Ordförande KDU Halland, Heberg
+C|221787|39|M|Daniel Bernhardt|39, Enhetschef, Falkenberg
+C|223274|69|K|Susan Pettersson|68, Lärare, Falkenberg
+C|223275|80|M|Gunnar Pettersson|79, Senior, Falkenberg
+C|223276|62|K|Katarina Castelius|62, Redovisningsekonom, Falkenberg
+C|223277|35|M|Jerk Jakobs|34, Soc ansvarig samordnare, Falkenberg
+C|223278|55|K|Carina Ejdestig|54, Förskollärare, Falkenberg
+C|223279|36|M|Charbel Haikal|36, Behandlingspedagog, Falkenberg
+C|223280|43|K|Monika Eriksson|42, Vårdbiträde, Falkenberg
+C|223281|59|M|Thomas Andrén|59, Civilingenjör, Falkenberg
+C|223282|38|K|Delmaree Alva Svensson|37, Tandsköterska, Falkenberg
+C|223283|33|M|Thomas Svensson|33, Biomedicinsk analytiker, Falkenberg
+C|223284|65|K|Elisabet Svensson|65, Lärare, Falkenberg
+C|223285|79|M|Harry Staaf|78, Ingenjör, Falkenberg
+C|223286|83|K|Kerstin Svensson|83, f.d. Läkarsekreterare, Falkenberg
+C|223287|54|K|Sofia Larzon|54, Familjehemsförälder, Falkenberg
+C|223288|75|K|Ester Lindstedt-Staaf|74, f.d. Läkare, Falkenberg
+C|92156|72|M|Lars Fagerström|72, lärare, Falkenberg
+C|92157|33|M|Jonathan Esbjörnsson|33, IT-konsult, Falkenberg
+C|92158|30|K|Lotta Johansson|30, företagare, Falkenberg
+C|92159|48|M|Niclas Erlandsson|47, ordf. Vuxenskolan, Falkenberg
+C|92160|75|K|Lena Engström|75 år, lärare, Falkenberg
+C|92161|51|M|Anders Malmström|51 år, officer, Falkenberg
+C|92162|25|K|Stefani Oklöv|25 år, Falkenberg
+C|92163|79|M|Kjell Birgersson|79 år, Falkenberg
+C|92164|38|K|Ilda Mahdi|38 år, arabisk tolk, Falkenberg
+C|92165|71|M|Antoine Ghantous|71 år, frisör, Falkenberg
+C|190160|36|M|Markus Jöngren|37 år, molekylärbiolog, Falkenberg
+C|190161|60|K|Susanne Råbius|59 år, lärare, Falkenberg
+C|190162|60|K|Lena Berglund|60 år, arkeolog, Falkenberg
+C|190163|68|M|Vagn Abel|68 år, företagare, Vessigebro
+C|190164|42|M|Tommy Nilsson|42 år, Falkenberg
+C|190165|60|K|Monika Törnwall|60 år, skolvärd, Falkenberg
+C|190166|56|K|Katja Geertinger|56 år, kurator, Falkenberg
+C|160414|58|K|Ninni Gustavsson|58 år, Inköpare, Ullared
+C|240620|62|K|Rie Boulund|62 år, Kulturvetare, Boberg
+C|240621|54|K|Karin Lundberg|54 år, Förstelärare, Falkenberg
+C|240622|65|M|Göran Janko|65 år, Försäljningschef, Falkenberg
+C|240623|31|K|Charlotta Jonson|31 år, Förskollärare, Falkenberg
+C|160370|23|M|Filip Bertilsson|23 år, Stadsplanerare, Skrea
+C|240625|67|K|Gun Marie Stenström|67 år, Kurator, Ugglarp
+C|240626|61|M|Gert Persson|61 år, Assistent, Falkenberg
+C|240627|69|M|Bo Gustafsson|69 år, Civilekonom, Tröinge
+C|240628|62|M|Lars Agbrant|62 år, Konsult, Falkenberg
+C|240629|52|M|Niklas Liljeroth|52 år, Verksamhetschef, Heberg
+C|160412|47|M|Johan Palmgren|47 år, Fastighetschef, Slöinge
+C|240631|51|K|Agnes Agnieszka Polak Ljung|51 år, Assistent, Fegen
+C|240632|78|K|Ragnhild Lundahl|78 år, Leg. sjuksköterska, Falkenberg
+C|240633|68|M|Göran Löfquist|68 år, Polisinspektör, Falkenberg
+C|240634|23|K|Fanny Nilsson|23 år, Student, Fagered
+C|240635|61|M|Mats Lundsgård|61 år, Regionchef, Vessigebro
+C|240636|33|M|Gustav Hellman|33 år, Egenföretagare, Skrea
+C|240637|48|M|Henrik Bertilsson|48 år, Försäkringsspecialist, Skrea
+C|240638|71|K|Margaretha Warnholtz|71 år, Handläggare, Falkenberg
+C|240639|67|M|Bengt Sundberg|67 år, Ingenjör, Olofsbo
+C|240640|67|M|Sven-Arne Rasmussen|67 år, Ekonomichef, Falkenberg
+C|240641|64|M|Anders Treschow|64 år, Civilekonom, Abild
+C|240642|68|M|Göran Paulsson|68 år, Säkerhetsinformatör, Skrea
+C|240643|73|M|Claës-L Ljung|73 år, Kommunråd, Fegen
+C|240644|33|M|Ghassan Ghaziri|33 år, Egenföretagare, Falkenberg
+C|240645|77|M|Rune Samuelsson|77 år, Egenföretagare, Falkenberg
+C|240646|57|K|Kristin Berg|57 år, Egenföretagare, Falkenberg
+C|240647|34|M|Sven Ohlson|34 år, Lantmästare, Långås
+C|240648|46|M|Kim Hallgren|46 år, Skandinavienchef, Falkenberg
+C|240649|62|M|Claes Lorentzon|62 år, Skogsbrukare, Ätran
+C|240650|72|K|Eva Agbrant|72 år, Lärare, Falkenberg
+C|240651|32|M|Marcus Gyllenstolpe|32 år, Arbetsmiljösamordnare, Falkenberg
+C|240652|49|M|Thomas Erixon|49 år, Produktionschef, Skrea
+C|240653|34|M|Olof Stenström|34 år, Skogsmästare, Årstad
+C|240654|57|M|Johan Idmark|57 år, Civilingenjör, Falkenberg
+C|85616|42|K|Sara-Lena Bjälkö|Riksdagsledamot, Falkenberg
+C|85617|57|M|Stefan Johansson|57, Plåtslagare
+C|85618|68|K|Kerstin Klang|68, Pensionär
+C|85619|45|M|Anders Jansson|45, Målarmästare
+C|85620|40|M|Daniel Bäckman|40, Behandlingsassistent
+C|85621|53|M|Christer Hedin|53, Fritidsledare
+C|85624|36|K|Josefin Hedin|35, Undersköterska
+C|85627|73|M|Sten Thid|73
+C|85622|65|M|Christer Jarlow|
+C|85623|64|M|Johnny Forsberg|
+C|501256|59|M|Lennart Nilsson|
+C|512912|40|M|Niklas Torpman|
+C|515594|75|M|Ingvar Johansson|
+C|515597|25|M|Daniel Bäck|
+C|515598|25|M|Tim Hedin|
+C|515600|53|M|Roger Valestam|
+C|58758|60|M|Mikael Hallberg|Östra Gärdet
+C|13316|58|K|Anita Gidén|kanslichef, 58 år, Falkenberg
+C|13321|59|M|Lennart Johnsson|platschef, 59 år, Falkenberg
+C|58760|39|K|Veronica Svensson|Falkagård
+C|13323|46|M|Åke Andersson|undersköterska, 45 år, Falkenberg
+C|58762|66|M|Tomas Jansson|Slätten
+C|58763|59|K|Li Hermansson|Ljungby
+C|13437|32|K|Lena Ludvigsson|kurator, 32 år, Falkenberg
+C|13436|49|K|Camilla Tilljander|utbildare, 49 år, Falkenberg
+C|231168|49|M|Reine Karlsson|Vessigebro
+C|58766|51|K|Gitte Palo|Långås
+C|58767|61|K|Kristina Hallberg|Östra Gärdet

@@ -1,9 +1,174 @@
-2|43267|43268|43269|43270|43271|43272|43273|43274|43275|43276|43277|43278|43279|43280|43281|43282|43283|43284|43285|43286|43287|43288|43289|43290|43291|43292|43293|43294|43295|43296|43297|43298|43299|43300|43301|43302|43303|43304|43305|43306|43307|43308|43309|43310|43311|43312|43313|43314|43315|43316|43317|43318|43319|43320|43321|43322
-4|26305|3269|3234|3260|26309|26310|26311|26312|26313|26314|26315|26316|3214|26318|26319|26320|26321|26322
-68|275068|274612|275070|275071|275072|275073|275074|275075|275076|275077|275078
-1011|515617
-3|17442|17443|17444|17445|17446|17447|17448|17449|17450|17451|17452|17453|17454|17455
-55|164437|66247|217776|363581|77427|245008|217778|217779
-1|256638|253994|253983|256641|256642|254008|256644|256645|254006|254002|256648|256649|256650|256651|256652|256653|256654|256655|256656|256657|256658|256659|256660|256661|256662
-110|66315|66316|66348|66349|508485|507653|515534|515689|515690|515691
-5|71090|71091|71092|71093|71094|71095|71096|71097|71098|71099|71100|71101
+T|Tidaholm
+A|2|43267|43268|43269|43270|43271|43272|43273|43274|43275|43276|43277|43278|43279|43280|43281|43282|43283|43284|43285|43286|43287|43288|43289|43290|43291|43292|43293|43294|43295|43296|43297|43298|43299|43300|43301|43302|43303|43304|43305|43306|43307|43308|43309|43310|43311|43312|43313|43314|43315|43316|43317|43318|43319|43320|43321|43322
+A|4|26305|3269|3234|3260|26309|26310|26311|26312|26313|26314|26315|26316|3214|26318|26319|26320|26321|26322
+A|68|275068|274612|275070|275071|275072|275073|275074|275075|275076|275077|275078
+A|1011|515617
+A|3|17442|17443|17444|17445|17446|17447|17448|17449|17450|17451|17452|17453|17454|17455
+A|55|164437|66247|217776|363581|77427|245008|217778|217779
+A|1|256638|253994|253983|256641|256642|254008|256644|256645|254006|254002|256648|256649|256650|256651|256652|256653|256654|256655|256656|256657|256658|256659|256660|256661|256662
+A|110|66315|66316|66348|66349|508485|507653|515534|515689|515690|515691
+A|5|71090|71091|71092|71093|71094|71095|71096|71097|71098|71099|71100|71101
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|43267|31|M|Erik Ezelius|31 år, Tidaholm
+C|43268|51|K|Anna-Karin Skatt|51 år, Tidaholm
+C|43269|65|M|Bengt Karlsson|65 år, konsulent
+C|43270|58|K|Lena Andersson|58 år, Tidaholm
+C|43271|63|M|Tony Pettersson|64 år, produktionsledare
+C|43272|51|K|Anna Zöögling|51 år, kriminalvårdsinspektör
+C|43273|26|M|Mattias Ezelius|26 år, Tidaholm
+C|43274|34|K|Zelal-Sara Yesildeniz|35 år, lärare
+C|43275|66|M|Othmar Fiala|67 år, produktionstekniker
+C|43276|52|K|Helena Qvick|52 år, arbetsledare
+C|43277|74|M|Lennart Rehn|74 år, metallarbetare
+C|43278|55|K|Monica Staadig|55 år, arbetsledare
+C|43279|69|M|Per-Erik Thurén|69 år, kommunalarbetare
+C|43280|22|K|Michelle Hjerp Holmén|23 år, studerande
+C|43281|56|M|Håkan Joelsson|56 år, snickeriarbetare
+C|43282|64|K|Kristina Spetz Larsson|64 år, enhetschef
+C|43283|52|M|Peter Ezelius|53 år, projektledare
+C|43284|71|K|Ulla Brissman|71 år, ekonom
+C|43285|50|M|Georgos Moschos|50 år, samordnare
+C|43286|39|K|Sara Hammar|39 år, arbetsledare
+C|43287|48|M|Fahad Almedane|48 år, företagare
+C|43288|74|K|Cathrine Karlsson|74 år, omvårdare
+C|43289|24|M|Henrik Lennartsson|24 år, nämndsekreterare
+C|43290|45|K|Mimmi Pirttilä|45 år, Tidaholm
+C|43291|44|M|Anders Johansson|45 år, kock
+C|43292|49|K|Monica Karlén|48 år, personlig assistent
+C|43293|70|M|Arne Andersson|70 år, plåtslagare
+C|43294|56|K|Susanne Lindgren|57 år, fritidspedagog
+C|43295|35|M|Emad Alshikha|35 år, snickeriarbetare
+C|43296|61|K|Gunilla Djurberg|61 år, omvårdare
+C|43297|33|M|Christoffer Axelsson|33 år, boendehandledare
+C|43298|33|K|Jessica Kjellgren|33 år, undersköterska
+C|43299|66|M|Ingvar Jansson|66 år, kriminalvårdare
+C|43300|26|K|Malin Andersson|26 år, omvårdare
+C|43301|67|M|Kent Persson|67 år, undersköterska
+C|43302|36|K|Emma Graaf|26 år, optikerassistent
+C|43303|70|M|Krister Wäring|70 år, metallarbetare
+C|43304|41|K|Lisa Öhgren|41 år, församlingspedagog
+C|43305|26|M|Emil Ekman|26 år, ungdomslots
+C|43306|57|K|Carola Karlsson|57 år, boendestödjare
+C|43307|36|M|Jesper Carlman|36 år, kriminalvårdsinspektör
+C|43308|45|K|Ulrika Storm|45 år, personlig assistent
+C|43309|77|M|Dick Broberg|78 år, vvs-ingenjör
+C|43310|55|K|Pia Blomqvist|55 år, omvårdare
+C|43311|45|M|Pär-Ola Olausson|46 år, reparatör
+C|43312|70|K|Marianne Gustafson|70 år, förvaltningskontorist
+C|43313|30|M|Ahmad Naveed Noorzad|30 år, boendestödjare
+C|43314|46|M|Jerker Johansson|47 år, snickeriarbetare
+C|43315|67|M|Nils Werner|67 år, tekniker
+C|43316|53|M|Jonas Kling|53 år, fabriksarbetare
+C|43317|30|M|Rickard Eriksson Häll|30 år, produktionstekniker
+C|43318|46|M|Jonas Ringqvist|47 år, jordbrukare
+C|43319|75|M|Berndt Gustafsson|75 år, byggnadsarbetare
+C|43320|56|M|Juha Weckman|56 år, produktionstekniker
+C|43321|51|M|Leif Hjelman|52 år, account manager
+C|43322|45|M|Nedal Ali|46 år, konstnär
+C|26305|71|M|Ulf Persson|Baltak, 71 år
+C|3269|62|K|Anneli Sandstedt|Godman,Tidaholm, 62 år
+C|3234|62|M|Lennart Axelsson|VVS-konsult, Tidaholm, 62 år
+C|3260|51|M|Mikael Hallin|Lantbrukare, Tidaholm, 51 år
+C|26309|49|M|Per-Inge Karlsson|Velinga, 49 år
+C|26310|69|K|Josette Rask|Fröjered, 69 år
+C|26311|76|M|Bengt Gunnarsson|Baltak, 76 år
+C|26312|32|M|Erik Andersson|Dimbo, 32 år
+C|26313|51|K|Katarina Persson Hill|Kungslena, 52 år
+C|26314|61|M|Stig Andersson|Fröjered, 61 år
+C|26315|69|K|Louise Wind|Pensionär, 69 år
+C|26316|72|M|Kjell Johansson|Velinga, 72 år
+C|3214|32|K|Sophia Breman|Lärare, Tidaholm, 32 år
+C|26318|68|M|Rolf Johansson|Agnetorp, 68 år
+C|26319|71|K|Lisbeth Wallgren|Vättak, 71 år
+C|26320|66|K|Ingela Johansson|Agnetorp,66 år
+C|26321|33|M|Christofer Breman|Ekedalen, 33 år
+C|26322|65|M|Torgny Sandstedt|Hångsdala, 66 år
+C|275068|72|M|Krister Rohman|72, Fd rektor, Tidaholm
+C|274612|58|M|Torgny Hedlund|57, Servicetekniker, Tidaholm
+C|275070|53|M|Claes Andersson|53, guldsmed, Suntak
+C|275071|53|M|Roger Lundvold|53, egenföretagare, Tidaholm
+C|275072|61|M|Håkan Daremark|61, gymnasielärare, Daretorp
+C|275073|41|K|Christel Larsson|41, undersköterska, Tidaholm
+C|275074|60|M|Jimmy Jubrant|60, målare/lantbrukare, Agnetorp
+C|275075|53|M|Leif Johansson|53, lantbrukare, Klämmesbo
+C|275076|58|K|Birgitta Yngvesson|58, kurator, Fröjered
+C|275077|62|M|Thomas Holst|62, TV-producent/filmare, Fröjered
+C|275078|55|K|Christina Daremark|55, SFI-lärare, Tidaholm
+C|515617|49|K|Christina Allansdotter|
+C|17442|49|M|Runo Johansson|49 Tidaholm
+C|17443|72|K|Birgitta Andersson|Landsbygdsutvecklare Agnetorp
+C|17444|59|M|Ingemar Johansson|Gymnasielärare Tidaholm
+C|17445|57|M|Mats Falk|Fritidsledare Tidaholm
+C|17446|30|K|Jenny Svensson|Frisör Agnetorp
+C|17447|44|M|Mathias Lundgren|Produktionstekniker Acklinga
+C|17448|64|K|Halina Gustavsson|64 Tidaholm
+C|17449|47|M|Thomas Wigholm|Egenföretagare Klämmesbo
+C|17450|54|K|Åsa Bergman|Folkbildningsarbetare Tidaholm
+C|17451|18|M|Jakob Jonsson|18, Tidaholm
+C|17452|71|K|Helena Nylén|Ordförande Rödakorset Tidaholm
+C|17453|75|M|Gunnar Alriksson|Posttjänsteman Kymbo
+C|17454|25|K|Isabell Harrstedt|Studerande Tidaholm
+C|17455|70|K|Ros-Mari Dygd|Leg.Sjuksköterska Tidaholm
+C|164437|76|K|Karin Olofsson|75 år, Kurator, Pensiononär, Tidaholm
+C|66247|51|K|Annica Snäll|51 år, Kommunikationschef,Tidaholm
+C|217776|34|M|Christopher Vipond|34 år, Lantbrukare, Klämmesbo
+C|363581|30|K|Anna Wik|30 år, Frisör, Tidaholm
+C|77427|80|M|Göran Olofsson|80 år, Ergonom, Tidaholm
+C|245008|37|M|Tobias Henning|37 år, Kommunikatör, Tidaholm
+C|217778|54|M|Mikael Snäll|Tidaholm
+C|217779|51|K|Anna-Karin Östlund|51 år, Egen företagare/Undersköterska, Tidaholm
+C|256638|63|M|Ambjörn Lennartsson|Klämmesbo
+C|253994|61|M|Peter Friberg|61, Metallarbetare, Tidaholm
+C|253983|37|K|Ida Davidsson|37, Projektledare, Tidaholm
+C|256641|73|K|Gunilla Dverstorp|Tidaholm
+C|256642|54|M|Johan Liljegrahn|Tidaholm
+C|254008|69|M|Jan-Olof Sandberg|69, Pensionär, Tidaholm
+C|256644|40|K|Maria Lackner|Klämmesbo
+C|256645|38|M|Henrik Granqvist|Klämmesbo
+C|254006|50|M|Ulf Alteg|50, Konsult, Tidaholm
+C|254002|34|M|Fredrik Kvist|34, Psykiatrisjuksköterska, Tidaholm
+C|256648|32|K|Camilla Graaf|Tidaholm
+C|256649|44|M|Richard Mellgren|Tidaholm
+C|256650|73|M|Per-Erik Vrang|Baltak
+C|256651|58|M|Jean Ahoniemi|Tidaholm
+C|256652|79|K|Kerstin Thuvesson|Tidaholm
+C|256653|72|K|Kristina Björling|Tidaholm
+C|256654|62|K|Elisabeth Alfredsson|Dimbo
+C|256655|53|M|Adnan Al-Haddad|Tidaholm
+C|256656|38|K|Lena Alteg|Folkabo
+C|256657|73|M|Bill Malm|Tidaholm
+C|256658|62|M|Per Bromander|Härja
+C|256659|52|M|Joseph Josef|Tidaholm
+C|256660|62|M|Birger Gustafsson|Dimbo
+C|256661|72|K|Helena Gustafsson|Ottravad
+C|256662|65|M|Michael Brisman|Tidaholm
+C|66315|65|K|Marianne Andersson|65, Pensionär, Tidaholm
+C|66316|60|M|Lennart Nilsson|60, Företagare, Tidaholm
+C|66348|62|M|Jan Andersson|63, Yrkeschaufför, Tidaholm
+C|66349|34|K|Marika Lund|34, Maskinoperatör, Tidaholm
+C|508485|48|M|Petri Niska|48, personbilstekniker
+C|507653|65|M|Per Nordström|65, pensionär
+C|515534|49|M|Stig-Erik Werner|
+C|515689|43|K|Anna Sheridan|
+C|515690|46|K|Pia Logård|
+C|515691|20|K|Aili Räisänen|
+C|71090|50|M|Hajrudin Abdihodzic|Tidaholm, Lärare
+C|71091|72|K|Lisbeth Ider|Tidaholm, Pensionär
+C|71092|41|M|Henrik Vang|Kriminalvårdsinspektör
+C|71093|44|K|Anna Ider|Grundskollärare
+C|71094|68|M|Lars-Ove Larsson|Pensionär
+C|71095|65|K|Solveig Henriksson|Pensionär
+C|71096|73|M|Kent Augustsson|Pensionär
+C|71097|82|K|Britt Norström|f.d. Bokhandlare
+C|71098|63|M|Per Wiklund|Fastighetsskötare
+C|71099|40|K|Jenny Larsson|Förskollärare
+C|71100|22|M|Daniel Jonasson|Butikssäljare
+C|71101|35|K|Hannah Storm|Leveransadministratör

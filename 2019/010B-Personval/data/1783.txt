@@ -1,8 +1,154 @@
-2|76149|75365|74125|84441|84442|74266|84444|84718|84719|84729|85059|73767|85061|85062|85063|85064|85275|85274|85277|85276|85279|85278|85305|85280|85307|85306|85554|85553|85556|85555|22213|85557|22201|85559|85562|85561|85564|85563|85740|85739|85742|85741|85743|85744|86078|85745|85746|85747|85748
-4|30122|49565|49566|49567|49568|49569|49570|49571|49572|49573|49574|49575|49576|49577|49578|49579
-3|59839|31345|59841|59842|59843|59844|59845|59846|59847|59848|59849|59850
-55|513150|513152
-1|619|46447|46448|46449|46450
-1305|188675|188676|188677|188678|188679|188680|188681|188682|188683|188684|188685|188686|188687|188688|188689|188690|188691|188692|188693|188694|188695|260285|334105|334106|188696|188697
-110|124875|127807|115540|115541|115542|115543|253106|115545|115544|512657|515985
-5|30303|109540|30296|109542|109543|109544|30317|109546|109547|109548|109549|109550|109551|109552|109553|109554
+T|Hagfors
+A|2|76149|75365|74125|84441|84442|74266|84444|84718|84719|84729|85059|73767|85061|85062|85063|85064|85275|85274|85277|85276|85279|85278|85305|85280|85307|85306|85554|85553|85556|85555|22213|85557|22201|85559|85562|85561|85564|85563|85740|85739|85742|85741|85743|85744|86078|85745|85746|85747|85748
+A|4|30122|49565|49566|49567|49568|49569|49570|49571|49572|49573|49574|49575|49576|49577|49578|49579
+A|3|59839|31345|59841|59842|59843|59844|59845|59846|59847|59848|59849|59850
+A|55|513150|513152
+A|1|619|46447|46448|46449|46450
+A|1305|188675|188676|188677|188678|188679|188680|188681|188682|188683|188684|188685|188686|188687|188688|188689|188690|188691|188692|188693|188694|188695|260285|334105|334106|188696|188697
+A|110|124875|127807|115540|115541|115542|115543|253106|115545|115544|512657|515985
+A|5|30303|109540|30296|109542|109543|109544|30317|109546|109547|109548|109549|109550|109551|109552|109553|109554
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1305|OR|OBEROENDE REALISTER
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|76149|50|M|Tomas Pettersson|51 år, Hagfors
+C|75365|52|K|Ann-Sofie Ronacher|52 år, Hagfors
+C|74125|61|M|Göran Eriksson|61 år, Hagfors
+C|84441|47|K|Pernilla Boström|Enhetschef, 47 år, Sunnemo
+C|84442|45|M|Håkan Lindh|Säljare, 45 år, Hagfors
+C|74266|39|K|Jessica Larsson|39 år, Hagfors
+C|84444|53|M|Erik Fröjel|Lärare, 53 år, Hagfors
+C|84718|28|K|Malin Ericsson|Verksamhetsledare, 28 år, Hagfors
+C|84719|49|M|Joakim Lander|Maskinoperatör, 49 år, Ekshärad
+C|84729|68|K|Lena Svensson|Fd Lärare, 68 år, Hagfors
+C|85059|71|M|Sten-Inge Olsson|Pensionär, 72 år, Råda
+C|73767|41|K|Åsa Johansson|41 år, Hagfors
+C|85061|63|M|Ingemar Tönnberg|Tjänsteman, 63 år, Gustavsfors
+C|85062|69|K|Ulla Lundh|Pensionär, 69 år, Hagfors
+C|85063|57|M|Jan Bergqvist|Metallarbetare, 56 år, Laggåsen
+C|85064|73|K|Margot Karlsson|Fd kontorschef, 73 år, Uddeholm
+C|85275|50|M|Jan Sandström|Handläggare, 50 år, Hagfors
+C|85274|23|K|Madelene Tönnberg|Resurslärare, 23 år, Hagfors
+C|85277|61|M|Anders Thörne|Lärare, 61 år, Råda
+C|85276|70|K|Margret Bergkvist|Pensionär, 70 år, Ekshärad
+C|85279|51|M|Jörgen Israelsson|Industriarbetare, 51 år, Hagfors
+C|85278|58|K|Anita Grundqvist Heikkinen|Undersköterska, 57 år, Ekshärad
+C|85305|66|M|Leif Andersson|Pensionär, 66 år, Ekshärad
+C|85280|20|K|Hanna Norring-Berg|Vårdbiträde, 20 år, Hagfors
+C|85307|24|M|Oliver Persson|Snickare, 24 år, Hagfors
+C|85306|68|K|Ingegärd Olsson|Pensionär, 69 år, Råda
+C|85554|66|M|Leif Andersson|Projektledare, 66 år, Lakene
+C|85553|74|K|Thordis Stålhandske|Fd Ekonom, 74 år, Hagfors
+C|85556|47|M|Jonny Andreasson|Järnverksarbetare, 47 år, Ekshärad
+C|85555|65|K|Iréne Runkvist-Karlsson|Ombudsman, 65 år, Hagfors
+C|22213|19|M|Alexander Paulsson|19 år, Hagfors
+C|85557|74|K|Inge-Marie Byström|Pensionär, 74 år, Hagfors
+C|22201|50|M|Mikael Dahlqvist|51 år, Hagfors
+C|85559|20|K|Nejat Mussa|Studerande, 20 år, Hagfors
+C|85562|29|M|Karl-Johan Cederstedt|Köksbiträde, 29 år, Hagfors
+C|85561|69|K|Anita Fridberg|Pensionär, 69 år, Hagfors
+C|85564|48|M|Peter Klint|Industriarbetare, 48 år, Hagfors
+C|85563|21|K|Frida Lindkvist|Järnverksarbetare, 21 år, Uddeholm
+C|85740|63|M|Peter Jansson|Busschaufför, 62 år, Hagfors
+C|85739|72|K|Ruth Köhler|Pensionär, 72 år, Sunnemo
+C|85742|60|M|Jan-Olov Holmström|Snickare, 61 år, Mjönäs
+C|85741|80|K|Siv Sundell Jansson|Pensionär, 80 år, Höje
+C|85743|63|M|Göran Haglund|Tjänsteman, 63 år, Ekshärad
+C|85744|78|M|Kjell Persson|Pensionär, 78 år, Sunnemo
+C|86078|40|M|Andreas Berglund|Industrimontör, 41 år, Hagfors
+C|85745|65|M|Kenneth Henriksson|Pensionär, 65 år, Hagfors
+C|85746|54|M|Håkan Finnkvist|Räddningschef, 54 år, Geijersholm
+C|85747|73|M|Bertil Köhler|Pensionär, 73 år, Sunnemo
+C|85748|67|M|Jan Bohlin|Pensionär,67 år, Hagfors
+C|30122|70|M|Stellan Andersson|Uddeholm, 69 år, Lärare
+C|49565|63|K|Anna-Karin Berglund|Östra Tönnet, Skogsägare
+C|49566|33|M|David Bildtsén|Ekshärad, 33 år, Jurist
+C|49567|59|M|Per-Håkan Häll|Byn, Projektledare
+C|49568|37|K|Hanna Isaksson|Gräs,  Församlingspedagog
+C|49569|49|K|Pernilla Henriksson Nykvist|Backa, Egenföretagare
+C|49570|34|K|Sofia Stenmark|Norra Råda, Sjuksköterska
+C|49571|77|M|Stig Hson Luth|Hagälven, Jurist
+C|49572|19|K|Alma Hallgren|Byn, Studerande
+C|49573|68|K|Ulla-Britt Björfeldt-Johansson|Mossberg
+C|49574|63|K|Lisbeth Svensson|Basterud, Undersköterska
+C|49575|58|M|Celal Aslan|Kyrkheden, Företagare
+C|49576|40|M|Andreas Tovefalk|Blinkenberg, Studerande
+C|49577|43|M|Ricard Engström|Norra Råda, AFIS-tjänsteman
+C|49578|61|M|Michael Kjellstrand|Stora Ullen, Jägmästare
+C|49579|43|M|Jan Emil Jansson|Mossberg, CreativeTech-Wiz
+C|59839|74|M|Hans Liljas|Hagfors
+C|31345|30|K|Emma Koskelainen|jurist, 30 år, Hagfors
+C|59841|36|M|Joakim Biehl|Hagfors
+C|59842|50|M|Anders Ekelund Karlsson|Hagfors
+C|59843|40|K|Jennie Sjögren|Hagfors
+C|59844|61|M|Ola Ekblom|Ekshärad
+C|59845|38|K|Maria Hög|Sunnemo
+C|59846|77|M|Kjell Sundström|Ekshärad
+C|59847|56|M|Carl-Henrik Johansson|Hagfors
+C|59848|75|K|Barbro Wallén|Hagfors
+C|59849|80|M|Magnus Hynell|Uddeholm
+C|59850|81|M|Lars T Stenson|Hagfors
+C|513150|49|M|Krister Sand|biolog
+C|513152|61|K|Annika Arnesdotter|parkarbetare
+C|619|47|M|Roger Brodin|arbetsförmedlare, Hagfors
+C|46447|68|M|Kenneth Olsson|
+C|46448|39|K|Helena Eriksson|
+C|46449|84|M|Bertil Ring|
+C|46450|82|K|Barbro Rülcker|
+C|188675|38|M|Jens Fischer|polischef, Hagfors
+C|188676|63|M|Peter Åkerström|poliskommissarie, Gunnerud
+C|188677|56|M|Boo Westlund|journalist, Åleby
+C|188678|58|K|Christina Axelsson|butiksmedarbetare, Bergsäng
+C|188679|35|K|Åsa-Kréstin Höglund|smed, N Skoga
+C|188680|52|K|Birgitta Söderlund|förskollärare, Myra
+C|188681|34|K|Katarina Carlsten|studerande, Råda
+C|188682|61|M|Peter Brunius|sälj-administratör, Hagfors
+C|188683|53|M|Jan Pfeiffer|järnverksarbetare, Geijersholm
+C|188684|25|K|Anna Oskarson|undersköterska, Hagfors
+C|188685|52|M|Bosse Söderlund|industriarbetare, Myra
+C|188686|73|M|Thor Millvik|pensionär, N Skoga
+C|188687|53|K|Nenne Westlund|ekonom, Åleby
+C|188688|56|M|Thony Liljemark|kommunsekreterare, Hagfors
+C|188689|26|M|William Åkerström|butikssäljare, Hagfors
+C|188690|23|M|Linus Köhler|industriarbetare, Sunnemo
+C|188691|54|K|Eva Johansson|undersköterska, Hagfors
+C|188692|51|M|Tomas Braneby|polisinspektör, Uddeholm
+C|188693|58|K|Annika Hagberg|egen företagare, Ekshärad
+C|188694|32|K|Linn Jensen|butiksbiträde, Hagfors
+C|188695|34|K|Marie Oskarson|studerande, Hagfors
+C|260285|57|M|Kerry Larsmalm|järnverksarbetare Hagfors
+C|334105|62|M|Benaoun "Ben" Hamaeid|krögare, Hagfors
+C|334106|51|M|Jeroen van Bussel|ingenjör, Berga
+C|188696|68|M|Torbjörn Hedlund|pensionär, Gunnerud
+C|188697|49|M|Patrik Eliasson|yrkeslärare, V Forshult
+C|124875|28|M|Niklas Ottosson|28, Verkstadsarbetare, Hagfors
+C|127807|67|M|Karl Persson|67, Pensionär, Hagfors
+C|115540|64|K|Yadviha Löf|64, Advokatjurist, Hagfors
+C|115541|51|M|Jan Klarström|51, Programmerare, Hagfors
+C|115542|68|M|Olof Bernt|68, Pensionär, Lakheden
+C|115543|49|M|Mikael Edvardsson|49, Skogsarbetare, Hagfors
+C|253106|76|M|Kjell Ottosson|76, Egen företagare, Hagfors
+C|115545|74|M|Kjell Löf|74, Pensionär, Hagfors
+C|115544|43|M|Anders Skogfält|Verkstadsarbetare, Hagfors
+C|512657|53|M|Lars Nordh|
+C|515985|28|M|Daniel Karlsson|
+C|30303|35|M|Kristoffer Ejnermark|25 år, Hagfors, lärare
+C|109540|25|K|Joline Hedell|behandlingsassistent, 25 år, Hagfors
+C|30296|35|K|Anna Hammar|35 år, Hagfors, budget- och skuldrådgivare
+C|109542|27|M|Daniel Tell|statsvetare, 27 år, Hagfors
+C|109543|80|K|Anna Lindén|pensionär, 80 år, Hagfors
+C|109544|49|M|Lars Östlund|gjuteriarbetare,49 år, Hagfors
+C|30317|37|K|Pernilla Blomberg-Vall|36 år, Ekshärad, byggnadsmålare
+C|109546|42|M|Thomas Wennerholm|bitr. säljchef, 42 år, Ekshärad
+C|109547|30|M|Niklas Hökenström|systemutvecklare, 30 år, Uddeholm
+C|109548|59|M|Hans Åkerlundh|personaladministratör, 60 år, Hagfors
+C|109549|60|K|Eva-Lena Hagman|undersköterska, 59 år, Hagfors
+C|109550|66|K|Bodil Tönnberg|pensionär, 65 år, Sunnemo
+C|109551|27|M|Daniel Jäger|butiksmedarbetare, 26 år, Hagfors
+C|109552|56|K|Gun Byström|barnskötare,56 år, Hagfors
+C|109553|33|M|Jonas Nilsson|butiksmedarbetare, 32 år, Hagfors
+C|109554|28|M|Staffan Holm Lervik|sjukgymnast, 28 år, Hagfors

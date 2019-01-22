@@ -1,9 +1,136 @@
-2|6192|6362|29057|29058|29059|6377|29061|6341|29063|6368|29065|29066|29067|29068|29069|29070|6372|6375|29073|29074|29075|29076|29077|29078|29079|29080|6350
-4|200522|1691|200524|200525|200526|200527|200528|200529|200530|200531|232372|200532|232374|200533|200534|200535|200536|200537|200538|232381|200539|200540
-68|185441|188171|188172|185450|186047|188175|188176|188177
-3|292481|292482|292483|292484|292485|292486|292487|292488|292489
-1296|44|137646
-55|282205|282206
-1|267|268|269|270|271|71|273|274|275|276|277|278|279|280|281|282|283|284|285|286|287|288|289|290|291|292
-110|134910|134912|134913|134914|134915|134916|134917|134918|134919|134920|134921|513023|513055|515016
-5|16751|141174|141176|293930|141173|141178|141177
+T|Kungsör
+A|2|6192|6362|29057|29058|29059|6377|29061|6341|29063|6368|29065|29066|29067|29068|29069|29070|6372|6375|29073|29074|29075|29076|29077|29078|29079|29080|6350
+A|4|200522|1691|200524|200525|200526|200527|200528|200529|200530|200531|232372|200532|232374|200533|200534|200535|200536|200537|200538|232381|200539|200540
+A|68|185441|188171|188172|185450|186047|188175|188176|188177
+A|3|292481|292482|292483|292484|292485|292486|292487|292488|292489
+A|1296|44|137646
+A|55|282205|282206
+A|1|267|268|269|270|271|71|273|274|275|276|277|278|279|280|281|282|283|284|285|286|287|288|289|290|291|292
+A|110|134910|134912|134913|134914|134915|134916|134917|134918|134919|134920|134921|513023|513055|515016
+A|5|16751|141174|141176|293930|141173|141178|141177
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|6192|52|M|Mikael Peterson|52 år, Kungsör
+C|6362|68|K|Gunilla A Aurusell|68 år, Kungsör
+C|29057|42|K|Linda Söder-Jonsson|42 år, Handläggare
+C|29058|67|K|Rigmor Åkesson|67 år, Pensionär
+C|29059|53|K|Monica Lindgren|53 år, Förskollärare
+C|6377|68|M|Dan Stigenberg|68 år, Kungsör
+C|29061|63|K|Elisabeth Kjellin|63 år, Enhetschef
+C|6341|60|M|Per Strengbom|60 år, Kungsör
+C|29063|64|K|Marita Pettersson|64 år, Maskinoperatör
+C|6368|45|K|Angelica Stigenberg|45 år, Kungsör
+C|29065|70|K|Margareta Johansson|70 år,
+C|29066|74|M|Rolf Lindgren|74 år, Pensionär
+C|29067|68|K|Gunilla Lindström|68 år, Pensionär
+C|29068|66|K|Marina Ribaric|66 år,
+C|29069|76|M|Urban Dahlgren|76 år,
+C|29070|51|K|Marie Norin Junttila|51 år, Enhetschef
+C|6372|56|K|Elisabeth Strengbom|56 år, Kungsör
+C|6375|59|M|Ronny Moström|59 år, Kungsör
+C|29073|64|K|Ann-Catrin Cederlund|64 år,
+C|29074|49|M|Mats Jonsson|49 år,
+C|29075|79|K|Barbro Jansson|79 år, Pensionär
+C|29076|70|M|Tauno Arbelius|70 år, Pensionär
+C|29077|47|K|Åse Verner|47 år, Skådespelare
+C|29078|69|M|Tonny Fernerud|69 år,
+C|29079|19|K|Haya Ababbili|19 år, Student
+C|29080|46|K|Siv Widberg|46 år, Utbildningskoordinator
+C|6350|33|K|Natalie Nordström|33 år, Kungsör
+C|200522|35|K|Madelene Fager|Oppositionsråd, Kungsör
+C|1691|33|M|Petter Westlund|Kommunikatör, Kungsör
+C|200524|66|K|AnneMarie Andersson|Pedagog
+C|200525|39|K|Lina Johansson|Praktiksamordnare
+C|200526|66|K|Monica Wastelius|Miljö- och hälsoskyddsinspektör
+C|200527|71|K|Margareta Barkselius|f.d. Biträdande rektor
+C|200528|46|M|Tomas Olsson|Lammproducent
+C|200529|60|K|Eleonor Westlund|Undersköterska, Kungsör
+C|200530|72|M|Gunnar Karlsson|CNC-operatör
+C|200531|62|K|Kristina Larsson-Sköld|Agronom, Kungsör
+C|232372|66|K|Agneta Andersson|f.d. Förskollärare
+C|200532|71|K|Lena Norstedt|Ekonom
+C|232374|36|K|Annelie Carlsson|Lärare
+C|200533|45|K|Ingrid Glan|Kantor
+C|200534|73|K|Ingegerd Karlsson|f.d. Undersköterska
+C|200535|46|K|Heidi Åkerman|Kundmottagare
+C|200536|78|M|Sivert Karlsson|f.d. Industritjänsteman
+C|200537|62|K|Marianne Sköld|Lantbrukare
+C|200538|65|K|Karin Jonsson|Undersköterska
+C|232381|64|K|Armi Qvist|f.d. Kronoinspektör
+C|200539|44|M|Mats Qvist|Verkstadscoach
+C|200540|42|K|Ylva Karlsson|Undersköterska
+C|185441|40|K|Jenny Andersson|40, Egenföretagare
+C|188171|56|M|Uno Gripenberth|Anläggningsarbetare
+C|188172|60|M|Kenneth Axelsson|Vårdare
+C|185450|51|M|Lars Gustavsson|51, Logistiker
+C|186047|52|M|Hannu Söderlund|52, Vårdlärare, Kungsör
+C|188175|77|M|Arne Olsson|Pensionär
+C|188176|53|K|Maria Gripenbert|Undersköterska
+C|188177|35|M|Christofer Sandberg|Lantbrukare
+C|292481|69|M|Olof Lindberg|69, pensionär
+C|292482|68|K|Gunilla Wolinder|68, distr. sköterska, företagare
+C|292483|33|K|Rebecca Burlind|33, trebarnsmamma
+C|292484|59|K|Eva-Carin Sandbom|58, administratör
+C|292485|67|K|Ulla Eriksson Berg|66, leg. sjuksköterska
+C|292486|67|M|Claes Wolinder|67,elingenjör
+C|292487|75|K|Barbro Olausson|75, pensionär/volontär
+C|292488|29|K|Sofia Axelsson|29, HR-konsult
+C|292489|33|M|Rickard Axelsson|33, planeringschef
+C|44|39|K|Carina Sjölund|39 år, Företagare, Kungsör
+C|137646|40|M|Mattias Sjölund|40 år, Energi- och klimatrådgivare, Kungsör
+C|282205|50|K|Kerstin Åkesson|50, undersköterska, Valskog/Kungsör
+C|282206|32|M|Peter Åkesson|32 år, Valskog
+C|267|72|M|Stellan Lund|Företagare
+C|268|57|K|Ewa Granudd|Apotekschef
+C|269|46|M|Niklas Magnusson|Civilekonom
+C|270|27|K|Ronja Lund - Wall|Studerande
+C|271|70|M|Hans Carlsson|Gymnasielärare
+C|71|64|M|Yrjö Björkqvist|Pensionerad underhållsingenjör, Kungsör
+C|273|70|K|Majvor Norgren|Administratör
+C|274|26|M|Niclas Lund|Montör
+C|275|70|K|Yvonne Eriksson|Pensionär
+C|276|45|M|Per Haldin|Reperatör
+C|277|48|M|Robert Andersson|Chaufför
+C|278|73|M|Staffan Norgren|Företagare
+C|279|44|K|Cecilia Von Alten - Brandt|Sjuksköterska
+C|280|40|M|Johan Sjögren|Produktionstekniker
+C|281|20|K|Anna Haldin|Studerande
+C|282|37|M|Jacob Hedberg|Säljare
+C|283|73|M|Christer Rydén|Idrottslärare
+C|284|28|M|Joakim Holm|Personlig assistent
+C|285|46|K|Magali Haldin|Studerande
+C|286|57|M|Jan-Erik Jansson|Företagare
+C|287|43|K|Annika Lund|Lokalvårdare
+C|288|22|M|Rasmus Lappeteläinen|Verkstadsarbetare
+C|289|49|K|Lena Lund|Personlig assistent
+C|290|20|K|Madelene Lund|Studerande
+C|291|70|M|Bo Olsson|Företagare
+C|292|43|K|Camilla Magnusson|Civilekonom
+C|134910|65|M|Roland Jansson|65 år, Företagare, Kungsör
+C|134912|54|K|Annicka Eriksson|54 år, Personlig Assistent, Kungsör
+C|134913|57|M|Anders Frödin|57 år, Anläggningsarbetare, Kungsör
+C|134914|51|M|Magnus Vidin|maskinoperatör, Kungsör, 51 år
+C|134915|74|K|Britt-Marie Häggkvist Back|74 år, Skolassistent, Kungsör
+C|134916|77|M|Rune Broström|77 år, Pensionär, Kungsör
+C|134917|61|M|Lars-Gunnar Andersson|verkstadsarbetare, Valskog, 61 år
+C|134918|48|K|Susanne Söderström|pensionär, Kungsör, 48 år
+C|134919|56|M|Ove Eriksson|anläggningsarbetare, Kungsör, 56 år
+C|134920|69|M|Robert Redenkvist|serviceingenjör, Kungsör, 69 år
+C|134921|58|M|Gunnar Uggelfors|
+C|513023|47|K|Sofia Jaanus|
+C|513055|51|M|Ari Jaanus|
+C|515016|64|M|Krister Häggkvist|
+C|16751|71|M|Christer Henriksson|71, pensionär, Kungsör
+C|141174|38|M|Joel Petersson|
+C|141176|35|K|Anna-Karin Tornemo|
+C|293930|39|M|Mattias Söderlund|
+C|141173|37|K|Annika Westling|
+C|141178|83|M|Sergio Estrada|
+C|141177|68|K|Märit Estrada|

@@ -1,10 +1,171 @@
-2|81719|81720|81721|81722|81723|81724|81725|81726|81727|81728|81729|81358|81731|81732|81733|81734|81735|81736|81737|81738|81739|81740|81741|81742|81743|81744|81745|81746|81747|81748|81749|81750|81751|81752|81753|81754|81755|81756
-184|70276|494692|494693|494694|494695|494696|494697|494698|494699|494700|494701
-4|297883|297884|297885|177555|297887|297888|297889|177549|297891|297892|297893|297894|159095|297896|297897|297898|297899|177550|297901|297902|297903|297904|297905|297906
-532|508162|508163
-68|356896|356878|359915|362306|362307|362308|362309
-3|53741|53778|66792|66793|66794|53738
-55|384608|382654|384936|384937|384938|384939|384940|384941
-1|134962|134963|132924|134965|134966|134967|134968|133532|134970|134971|133559|134973|134974|134975|134976|134977|134978|134980|134981|134982|134983|134984|134985|134986|134987|134988|134989|134990|134991|134992|134993
-110|138501|138502|138503|138504|138505|138506|138508|138509|138510|178119|178120|178121|178248|178123|178124|178125|178127|138894
-5|385021|385020|385023|385022|385024|385025
+T|Håbo
+A|2|81719|81720|81721|81722|81723|81724|81725|81726|81727|81728|81729|81358|81731|81732|81733|81734|81735|81736|81737|81738|81739|81740|81741|81742|81743|81744|81745|81746|81747|81748|81749|81750|81751|81752|81753|81754|81755|81756
+A|184|70276|494692|494693|494694|494695|494696|494697|494698|494699|494700|494701
+A|4|297883|297884|297885|177555|297887|297888|297889|177549|297891|297892|297893|297894|159095|297896|297897|297898|297899|177550|297901|297902|297903|297904|297905|297906
+A|532|508163
+A|68|356896|356878|359915|362306|362307|362308|362309
+A|3|53741|53778|66792|66793|66794|53738
+A|55|384608|382654|384936|384937|384938|384939|384940|384941
+A|1|134962|134963|132924|134965|134966|134967|134968|133532|134970|134971|133559|134973|134974|134975|134976|134977|134978|134980|134981|134982|134983|134984|134985|134986|134987|134988|134989|134990|134991|134992|134993
+A|110|138501|138502|138503|138504|138505|138506|138508|138509|138510|178119|178120|178121|178248|178123|178124|178125|178127|138894
+A|5|385021|385020|385023|385022|385024|385025
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|184|BÅP|Bålstapartiet
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|81719|67|K|Agneta Hägglund|67 år, Oppositionsråd, Bålsta
+C|81720|70|M|Werner Schubert|70 år, Chefspilot, Bålsta
+C|81721|48|K|Helene Cranser|48 år, Fritidsledare, Bålsta
+C|81722|41|M|Fredrik Anderstedt|41 år, Montör, Skokloster
+C|81723|25|K|Begonia Randhav|25 år, Juriststudent, Bålsta
+C|81724|75|M|Lars-Göran Bromander|75 år, Byggnadsarbetare, Bålsta
+C|81725|66|K|Inger Wallin|66 år, Boendecoach, Bålsta
+C|81726|58|M|Sven Erkert|58 år, Yrkeslärare, Skokloster
+C|81727|69|K|Eva Staake|69 år, Ombudsman, Bålsta
+C|81728|68|M|Sven-Olov Dväring|68 år, Ombudsman, Bålsta
+C|81729|56|K|Maria Annell|56 år, Säljare, Bålsta
+C|81358|53|M|Pyry Niemi|53 år, Riksdagsledamot, Bålsta
+C|81731|44|K|Anna Larsson|44 år, Verksamhetschef, Bålsta
+C|81732|62|M|Antonio Lopez|62 år, Ombudsman, Bålsta
+C|81733|25|K|Shiva Samadi|25 år, Studerande, Bålsta
+C|81734|58|M|Jonny Ekblom|58 år, Operatör, Bålsta
+C|81735|23|K|Carolina Cranser|23 år, Vårdbiträde, Bålsta
+C|81736|20|M|Gabriel Tidestav|20 år, Student, Bålsta
+C|81737|68|K|Irene Lundbäck|68 år, Pensionär, Bålsta
+C|81738|77|M|Sixten Nylin|77 år, Civilekonom, Bålsta
+C|81739|71|K|Solweig Lundkvist|71 år, Kock, Bålsta
+C|81740|78|M|Kurt Hedman|78 år, Pensionär, Bålsta
+C|81741|70|K|Lilly-Ann Strömberg|70 år, Pensionär, Bålsta
+C|81742|55|M|Joakim Ringvall|55 år, Ungdomssamordnare, Bålsta
+C|81743|73|K|Ulla Hedman|73 år, Pensionär, Bålsta
+C|81744|68|M|Harry Lövstav|68 år, Målare, Bålsta
+C|81745|69|K|Hariette Nordström|69 år, Pensionär, Bålsta
+C|81746|73|M|Jan Barrefors|73 år, Ingenjör, Bålsta
+C|81747|45|K|Linda Bernlind|45 år, Chef ekonomi, Bålsta
+C|81748|52|M|Magnus Palmgren|52 år, Ombudsman, Skokloster
+C|81749|63|K|Marie Roos|63 år, Purser, Bålsta
+C|81750|62|M|Marcus Carson|62 år, Docent i sociologi, Bålsta
+C|81751|67|K|Britt-Marie Dväring|67 år, Innesäljare, Bålsta
+C|81752|67|M|Stefan Petrusson|67 år, Utvecklingsledare, Bålsta
+C|81753|55|M|Christer Persson|55 år, Personalchef, Bålsta
+C|81754|54|M|Bertil Kinnunen|54 år, Regionråd, Bålsta
+C|81755|59|M|Rune Westerlund|59 år, Servicetekniker, Bålsta
+C|81756|79|M|Leif Hagelin|79 år, Pensionär, Bålsta
+C|70276|65|M|Owe Fröjd|Egen företagare
+C|494692|69|M|Sjunne Green|Egen företagare
+C|494693|68|M|Peter Björkman|Egen företagare
+C|494694|46|M|Farid Chibout|Koordinator
+C|494695|26|K|Cecilia Anna Rosrell|Ekonom
+C|494696|43|M|Andrea Moroni|Driftschef
+C|494697|70|K|Birgitta Green|Egen företagare
+C|494698|34|M|Niclas Ovekrans|Egen företagare
+C|494699|54|M|Stefan Ohlsson|Egen företagare
+C|494700|63|K|Ann Björkman|Socialarbetare
+C|494701|66|K|Birgitta Johansson|Säljare
+C|297883|69|M|Leif Zetterberg|69 år, samhällsbyggare, Övergran
+C|297884|50|K|Helen Zeland Bodin|50 år, lärare, Övergran
+C|297885|45|M|Johan Jakobsson|45 år, IT-konsult, företagare, Skokloster
+C|177555|73|K|Lisbeth Bolin|73 år, apotekare, Övergran
+C|297887|56|M|Per Widén|56 år, agronom, rådgivare, Bålsta
+C|297888|53|K|Inga Birath von Sydow|52 år, företagare, Hjälstavik
+C|297889|63|M|Christer Staaf|63 år, egenföretagare, Övergran
+C|177549|67|K|Jane Engelmark|67 år, leg. sjuksköterska och tandläkare, Häggeby, Håbo
+C|297891|65|M|Jan Norgren|65 år, egenföretagare, Bålsta
+C|297892|49|M|Bert Stenlund|49 år, företagare, Bålsta
+C|297893|54|M|Mats Lindewall|53 år, ekonomichef, Bålsta
+C|297894|39|K|Sara Ahlström|39 år, företagare, Övergran
+C|159095|75|M|Sven-Erik Svensson|75 år, aktiv senior/präst, Bålsta
+C|297896|70|M|Göran Eriksson|70 år, turistentreprenör, Brunnsta
+C|297897|40|M|Johan Tollstorp|40 år, IT-tekniker, Skokloster
+C|297898|42|M|Daniel Pettersson|42 år, lantbrukare, Häggeby
+C|297899|65|M|Bengt Carlsson|65 år, företagare, Yttergran
+C|177550|55|M|Anders Svensson Uggla|54 år, kvalitetsingenjör, Skokloster
+C|297901|54|K|Anita Ekström|54 år, personlig assistent, Häggeby
+C|297902|42|M|Andreas Backström|41 år, analytiker, Bålsta
+C|297903|48|K|Crista Maniscalco|48 år, företagare/eventarrangör, Skokloster
+C|297904|77|M|Sten-Åke Wengberg|77 år, ingenjör, Övergran
+C|297905|66|M|Mats Engelmark|65 år, egenföretagare, Häggeby
+C|297906|56|M|Ulf Jarl|56 år, maskiningenjör, Bålsta
+C|508163|70|K|Christina Olofsson|71 år, Sjukgymnast, Yttergran
+C|356896|62|M|Fred Rydberg|61, Lärare, Bålsta
+C|356878|56|K|Helen Embretsén|55, Lärare, Bålsta
+C|359915|72|M|Sven Rosendahl|71, Ingenjör, Bålsta
+C|362306|56|M|Carl-Adam Embretsén|56, IT-ansvarig, Bålsta
+C|362307|52|M|Kjell Wassholm|52, IT-konsult, Bålsta
+C|362308|69|K|Linnea Andersson|69, Pensionär, Bålsta
+C|362309|64|M|Per-Inge Andersson|63, Pastor, Bålsta
+C|53741|39|K|Anette Erling Jivenius|verksamhetsutvecklare, Håbo, 39 år
+C|53778|72|M|Kjell Dufvenberg|affärsutvecklare, Håbo, 72 år
+C|66792|69|K|Gunilla Alm|ekonom, 69 år
+C|66793|41|M|Roger Norin|innesäljchef, 41 år
+C|66794|55|K|Erika Cyrillus|präst, 55 år
+C|53738|66|M|Anders Cyrillus|elingenjör, Håbo, 66 år
+C|384608|74|K|Marie Nordberg|Förskollärare, 74 år, Bålsta
+C|382654|68|M|Christian Nordberg|Ingenjör, 68 år, Bålsta
+C|384936|64|K|Sabine Noresson|Pensionär, Övergran
+C|384937|56|M|Bakhtiar Aziz|Chef Coop-Bro Terminal, Övergran
+C|384938|51|K|Sofie Bergengren|Språklärare, Bålsta
+C|384939|30|M|David Forsberg|AT-läkare, Forskare, Övergran
+C|384940|34|K|Josephine Forsberg|Konditor, Övergran
+C|384941|77|K|Ingrid Bråkenhielm|Lärare, Terapeut, Bålsta
+C|134962|51|K|Liselotte Grahn Elg|51 år, Kommunalråd, Ullevi
+C|134963|39|M|Björn Erling|39 år, Jurist, Bålsta
+C|132924|24|M|Jan Sundling|24 år, Maskinuthyrare, Bålsta
+C|134965|63|M|Ulf Winberg|63 år, Företagare, Åkerby
+C|134966|47|M|Christofer Bonde|47 år, Banktjänsteman, Katrinedal
+C|134967|60|M|Carl-Johan Torstenson|60 år, Ingenjör, Eneby
+C|134968|60|M|Nils-Åke Mårheden|60 år, Ombudsman, Skokloster
+C|133532|74|M|Tommy Rosenkvist|74 år, Företagare, Bålsta
+C|134970|72|M|Bo Johnsson|72 år, Socionom, Väppeby
+C|134971|55|M|Björn Hedö|55 år, Redovisningskonsult, Bålsta
+C|133559|76|M|Per-Arne Öhman|76 år, Ingenjör, Eneby
+C|134973|48|M|Roger Von Walden|48 år, Omvärldsanalytiker, Väppeby
+C|134974|73|M|Björn Fredriksson|73 år, Teknisk chef, Eneby
+C|134975|75|M|Peter Kilger|75 år, F. d. företagare, Fånäs
+C|134976|70|M|Bertil Brifors|70 år, Ingenjör, Eneby
+C|134977|49|K|Susanna Kraftelid|49 år, Enhetschef äldreomsorg, Skörby
+C|134978|47|M|Stefan Häggmark|47 år, Företagare, Västerdalen
+C|134980|18|M|Emil Elg|18 år, Studerande, Ullevi
+C|134981|60|M|Anders Thonfors|60 år, Polisinspektör, Gillmarken
+C|134982|58|M|Gunnar Annell|58 år, Företagare, Mansängen
+C|134983|76|M|Ingvar Nilfjord|76 år, F. d. företagare, Västerängen
+C|134984|52|K|Helene Plahn|52 år, Företagare, Sågarbacken
+C|134985|44|M|Håkan Leijonqvist|44 år, Officer, Skörby
+C|134986|61|K|Pirjo Thonfors|61 år, Ekonom, Gillmarken
+C|134987|71|M|Lennart Karlsson|71 år, Officer, Gillmarken
+C|134988|81|M|Wello Roo|81 år, F. d. företagare, Bålsta
+C|134989|73|M|Franz Werber|73 år, Företagare, Gillmarken
+C|134990|44|K|Emma Häggmark|44 år, Företagare, Västerdalen
+C|134991|72|M|Bill Bladh|72 år, Företagare, Bålsta
+C|134992|31|K|Marlie Hallberg|31 år, Barnskötare, Frösundavik
+C|134993|73|M|Karl-Axel Boström|73 år, Sjökapten, Bålsta
+C|138501|37|M|Michael Rubbestad|Avdelningschef, Håbo
+C|138502|58|M|Anders Ekelöf|58, förpackningstekniker, Håbo
+C|138503|61|K|Ann-Sofi Borg|61, f.d. säljare, Håbo
+C|138504|50|M|Thomas Moore|50, servicetekniker, Håbo
+C|138505|57|M|Robert Kohlström|57, maskinförare, Skokloster
+C|138506|49|K|Carol Lundahl Moore|49, mentalskötare, Håbo
+C|138508|65|K|Zinaida Belonoshko|Matematiker, Bålsta
+C|138509|54|K|Tiina Fransson|54, undersköterska, Håbo
+C|138510|78|M|Erik Nylén|78, pensionär, Bålsta
+C|178119|27|K|Linnéa Leinonen|27, konferensvärdinna, Bålsta
+C|178120|34|M|Kristian Leinonen|35, projektledare, Bålsta
+C|178121|40|K|Maria Andersson|40, trafikledare, Krägga
+C|178248|63|M|Bo Nyman|63, copywriter, Bålsta
+C|178123|49|M|Johan Lönnqvist|49, egen företagare, Skokloster
+C|178124|48|M|Petri Piiroinen|48, chaufför, Övergran
+C|178125|71|K|Carola Ramstedt|71, pensionär, Bålsta
+C|178127|40|M|Magnus Selin|40, försvarsanställd, Häggeby
+C|138894|78|M|Sven Bertil Jansson|78, pensionär, Håbo
+C|385021|58|K|Charlotta Bjälkebring Carlsson|58, sociolog, Håbo
+C|385020|40|M|Robin Jande|40, inköpare, Bålsta
+C|385023|46|K|Maria Kolak Lundeqvist|46, lärare, Håbo
+C|385022|56|M|Ali Osman Yilmaz|56, terminalarbetare/fackligt aktiv, Bålsta
+C|385024|68|M|Bo Jansson|68, pensionär, Bålsta
+C|385025|64|M|Leif Lindkvist|64, pensionär, Håbo

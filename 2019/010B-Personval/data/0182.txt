@@ -1,13 +1,361 @@
-2|97078|97087|349329|349330|97092|349332|349333|349334|349335|349336|349337|97083|349339|349340|97084|349342|349343|349344|349345|349346|349347|71211|349349|349350|349351|349352|349353|349354|349355|70624|349357|349358|349359|97079|349361|349362|349363|349364|349365|349366|349367|349368|349371|349370|349373|349372|349375|349374|349377|349376|349379|349378|349381|349380|349383|349382|349385|349384|349386
-4|86913|86902|86929|76911|120799|76944|120801|120802|86932|120804|120805|120806|86928|76957|120809|120810|120811|120812|120813|86916|120815|120816|120817|120818|120819|86927|120821|120822|120823|120824
-532|513855|513856|513857|513858|513859|513860|513861|513862
-1374|415141
-68|149742|149743|149744|149745|149746|149747|149748|149749|149750|149751|149752|149753|149754|149755|149756|149757|149758|149759|149760|149761|149762|149763|149764|149765|149766|149767|149768|149769
-3|13872|13873|13874|13875|13876|13877|13878|13879|13880|13881|13883|13884|13885|13886|13887|13888|13889|13890|13891|13892|13893|13894|13895|13896|13897|13898|13899|13900|13901|13902|13903|13904|13905|13906|13907|13908|13909|13910|13911|13912|13913|13914
-1296|125942|125943|125944|125945|125946|125947|125948|125949
-55|247571|247572|247573|247574|247575|247576|247577|247578|247579|247580|247581|247582|247583|247584|247585|247586|247587|247588|247589|247590|247591|247592|247593|247594|247595|247596|247597|247598|247599|348877|247600|247601
-1|18301|18302|18303|18304|12799|12794|18307|18308|18309|18310|18311|18312|18313|18314|18315|18316|18317|18318|18319|18320|18321|18322|12792|18324|18325|18326|18327|18350|18328|18329|18330|18331|18332|18333|18334|18335|18336|18337|18338|18339|18354|18340|18341|18342|18343|18344|18345|18346|18347|18348|18351|18352|18353|18349
-543|364665|364666|364667|364668|364669|364670|364671|364672|364673|364674|364675|364676|364677|364678|364679|364680|364681|364682|364683|364684|364685|364686|364687|364688
-110|67091|67092|67093|67094|67095|67096|67097|67098|67099|67100|67101|67102|67103|67104|67105|67106|67107|67108
-1349|11827
-5|196627|196628|196629|196630|196631|196632|315835|196633|196634|196635|196636|196637|196638|196639|196640|218985|332354|196641|196642|196643|196644|196645|332360|196646|196647|196648|196649|196650|196651|196652|196653
+T|Nacka
+A|2|97078|97087|349329|349330|97092|349332|349333|349334|349335|349336|349337|97083|349339|349340|97084|349342|349343|349344|349345|349346|349347|71211|349349|349350|349351|349352|349353|349354|349355|70624|349357|349358|349359|97079|349361|349362|349363|349364|349365|349366|349367|349368|349371|349370|349373|349372|349375|349374|349377|349376|349379|349378|349381|349380|349383|349382|349385|349384|349386
+A|4|86913|86902|86929|76911|120799|76944|120801|120802|86932|120804|120805|120806|86928|76957|120809|120810|120811|120812|120813|86916|120815|120816|120817|120818|120819|86927|120821|120822|120823|120824
+A|532|513855|513856|513857|513858|513859|513860|513861|513862
+A|1374|415141
+A|68|149742|149743|149744|149745|149746|149747|149748|149749|149750|149751|149752|149753|149754|149755|149756|149757|149758|149759|149760|149761|149762|149763|149764|149765|149766|149767|149768|149769
+A|3|13872|13873|13874|13875|13876|13877|13878|13879|13880|13881|13883|13884|13885|13886|13887|13888|13889|13890|13891|13892|13893|13894|13895|13896|13897|13898|13899|13900|13901|13902|13903|13904|13905|13906|13907|13908|13909|13910|13911|13912|13913|13914
+A|1296|125942|125943|125944|125945|125946|125947|125948|125949
+A|55|247571|247572|247573|247574|247575|247576|247577|247578|247579|247580|247581|247582|247583|247584|247585|247586|247587|247588|247589|247590|247591|247592|247593|247594|247596|247597|247598|247599|348877|247600|247601
+A|1|18301|18302|18303|18304|12799|12794|18307|18308|18309|18310|18311|18312|18313|18314|18315|18316|18317|18318|18319|18320|18321|18322|12792|18324|18325|18326|18327|18350|18328|18329|18330|18331|18332|18333|18334|18335|18336|18337|18338|18339|18354|18340|18341|18342|18343|18344|18345|18346|18347|18348|18351|18352|18353|18349
+A|543|364665|364666|364667|364668|364669|364670|364671|364672|364673|364674|364675|364676|364677|364678|364679|364680|364681|364682|364683|364684|364685|364686|364687|364688
+A|110|67092|67093|67094|67095|67096|67097|67098|67099|67100|67101|67102|67103|67104|67105|67106|67107|67108
+A|1349|11827
+A|5|196627|196628|196629|196630|196631|196632|315835|196633|196634|196635|196636|196637|196638|196639|196640|218985|332354|196641|196642|196643|196644|196645|332360|196646|196647|196648|196649|196650|196651|196652|196653
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|1374||Initiativet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|543|NL|Nackalistan
+B|110|SD|Sverigedemokraterna
+B|1349|ViS|Vi Socialkonservativa
+B|5|V|Vänsterpartiet
+C|97078|41|M|Khashayar Farmanbar|41, Kommunalråd, Nacka
+C|97087|41|K|Maria Raner|41, Arbetsförmedlare, Nacka
+C|349329|42|M|Espen Bjordal Tollare|42, Socionom, Lärare
+C|349330|58|K|Gunnel Nyman Gräff|58, Kummelnäs, Ombudsman
+C|97092|28|M|Martin Hellströmer|28, Civilekonom, Nacka
+C|349332|73|K|Majvie Swärd|73, Orminge, Pensionär, fd. arbetsförmedlare
+C|349333|39|M|Mattias Qvarsell|39, Henriksdalsberget, Ombudsman
+C|349334|56|K|Helena Westerling|56, Finnberget, Organisationssekreterare
+C|349335|75|M|Carl-Magnus Grenninger|75, Henriksborg, Journalist
+C|349336|22|K|Alva Dahn|23, Fisksätra, Studerande, Ordförande
+C|349337|42|M|Andreas Falk|42, Finntorp, Tjänsteman
+C|97083|27|K|Ella Tegsten|27, Personlig assistent, Nacka
+C|349339|54|M|Erik Svanfeldt|54, Saltsjöbaden, Tjänsteman
+C|349340|39|K|Emelie Norberg Friberg|39, Saltsjö Duvnäs, Marknadschef
+C|97084|28|M|Viktor Ellström|28, Kommunikatör, Nacka
+C|349342|28|K|Hadia Mian|27, Fisksätra, Studerande, Projektledare
+C|349343|22|M|Andreas Andersson|22, Ektorp, Studerande
+C|349344|54|K|Zakia Mirza|54, Fisksätra, Lärare
+C|349345|51|M|Björn Andersson|51, Älta, Lärare
+C|349346|74|K|Lena Rönnerstam|74, Fisksätra, Tandläkare
+C|349347|64|M|Svanthe Hansson|64, Kvarnholmen, Egen företagare
+C|71211|41|K|Maja Fjaestad|41, Docent, Statssekreterare, Nacka
+C|349349|44|M|Henric Unosson|44, Sickla, Konsult
+C|349350|30|K|Johanna Kvist|30, Saltängen, Politisk sekreterare
+C|349351|30|M|Godwyll Osei-Amoako|30, Henriksdalsberget, Ombudsman
+C|349352|72|K|Lena Gonäs|72, Älta, Professor
+C|349353|46|M|Martin Rundkvist|46, Fisksätra, Arkeolog
+C|349354|20|K|Hina Khan|20, Boo, Studerande
+C|349355|55|M|Roger Hällhag|56, Skuru, Civilekonom
+C|70624|67|K|Åsa Norrman Grenninger|67, Seniorkonsult, Nacka
+C|349357|47|M|Magnus Olsson|47, Saltsjö-Duvnäs, Lärare
+C|349358|28|K|Lovisa Emanuelsson|28, Finntorp, Studerande
+C|349359|69|M|Håkan Ahtari Håkansson|69, Älta, fd Personalchef och Äldreomsorgschef
+C|97079|52|K|Maria Kjellsdotter Rydinger|52, Präst, projektledare, Nacka
+C|349361|37|M|Noor Rehman Sherzad|36, Henriksdalsberget, Journalist
+C|349362|61|K|Pia Ellström|63, Skuru, Lärare
+C|349363|64|M|Ole Forsberg|64, Mensättra, Skådespelare
+C|349364|52|K|Bushra Albazi|53, Fisksätra, Barnskötare
+C|349365|72|M|Jan Ekholm|72, Älta, Pensionär
+C|349366|71|K|Birgitta Högberg|70, Älta, fil. dr. Leg Psykolog
+C|349367|72|M|Thomas Josefsson|72, Saltsjöbaden, Civilingenjör
+C|349368|75|K|Mia Maria Rosenkvist|75, Saltsjöbaden, Docent i pedagogik
+C|349371|39|M|Daniel Moore|39, Björknäs, Säljare
+C|349370|49|K|Suzanne Weigl|49, Skuru, Kommunikatör
+C|349373|68|M|Kenneth Andersson|68, Hasseludden, Pensionerad försäkringstjänsteman
+C|349372|18|K|Alicia Savbäck Garcia|18, Gustavsvik, Studerande
+C|349375|65|M|Daniel Costa|65, Orminge, Systemadministratör
+C|349374|82|K|Gunilla Åberg|82, Saltsjökvarn, fd Sjukvårdsdirektör
+C|349377|51|M|Staffan Rehnström|51, Järla sjö, Sportchef
+C|349376|57|K|Maria Blom|57, Nacka, Kulturarbetare
+C|349379|72|M|Claes Borell|72, Björknäs, Ingenjör
+C|349378|86|K|Vera-Maj Torby|82, Saltsjöbaden, Pensionerad socionom
+C|349381|18|M|Alexander Onnela|18, Boo, Studerande
+C|349380|51|K|Salma Trosell|51, Fisksätra, Jurist
+C|349383|18|M|Yared Kassa|18, Fisksätra, Studerande
+C|349382|70|K|Margareta Huzelius|70, Lännersta, Förskollärare
+C|349385|55|M|Anders Paulsson|55, Fisksätra
+C|349384|56|K|Eva Hall|56, Hedvigslund, Älta, Butiksmedarbetare
+C|349386|78|K|Yvonne Wessman|78, Saltsjöbaden, Pensionerad högskoledirektör
+C|86913|57|M|Hans Peters|57, Nacka, Kommunalråd
+C|86902|36|K|Christine Lorne|36, Nacka, Ambulanssjuksköterska
+C|86929|54|M|Håkan Ekengren|54, Älta, Företagare
+C|76911|26|M|Johan Krogh|26, Nacka, Personalvetare
+C|120799|29|K|Linnea Strömberg|28 år, Verksamhetschef, Björknäs
+C|76944|38|M|Martin Alejandro Hedman|39, Nacka, Administratör
+C|120801|49|M|Tomas Hjort|49 år, VD Elektronikindustri, Saltsjöbaden
+C|120802|22|K|Olga Anikina|22 år, Ekonomistudent, Ekudden
+C|86932|58|K|Karima Penahi|58, Nacka, Boendestödjare
+C|120804|25|M|Alexi Strandberg|25 år, IT-tekniker, Älta
+C|120805|78|M|Björn Strehlenert|78 år, Pensionär, Igelboda
+C|120806|59|K|Maria Håård|59 år, Formgivare, Kummelnäs
+C|86928|29|K|Ylva Hedman|29, Saltsjöbaden, Destinationsutvecklare
+C|76957|65|M|Ingemar Sahlgren|65, Nacka, Busschaufför
+C|120809|55|K|Ulla Krogh|55 år, Polis, Saltsjöbaden
+C|120810|51|M|Kjell Stenudd|50 år, Affärsutvecklare, Kvarnholmen
+C|120811|52|M|Mattias Westling|52 år, Supply chain manager, Storängen
+C|120812|20|K|Reka Tolnai|20 år, Student, Fisksätra
+C|120813|22|M|John Lagerstedt|22 år, Studerande, Saltsjö-Boo
+C|86916|65|K|Elisabeth Därth|65, Älta, Pensionär
+C|120815|58|K|Kerstin Malmström|58 år, Ekonom, Björknäs
+C|120816|53|K|Carola Strand|53 år, Butikschef, Saltsjö-Boo
+C|120817|37|K|Karin Carlesten|37 år, Internationell sekreterare, Insjön
+C|120818|39|M|Hassan El Mahdi|39 år, Börsmäklare, Finnboda hamn
+C|120819|38|K|Emma Eide|38 år, Kommunikatör, Eriksvik
+C|86927|70|M|Hans Lenkert|70, Nacka, Pensionerad jurist
+C|120821|38|K|Petra Schultz|38 år, Ambulanssjuksköterska, Älta
+C|120822|39|M|Joel Stenberg|39 år, Studerande, Saltsjö-Boo
+C|120823|62|M|Ulf Erlingsjö|62 år, Logistiker, Järla Sjö
+C|120824|25|K|Hanna Granström|25 år, Ombudsman, Henriksdal
+C|513855|40|K|Jenny Vikman|40, utvecklingsledare
+C|513856|23|K|Melinda Riedel|23, lärarstudent
+C|513857|39|K|Malin Back|39, gymnasielärare
+C|513858|37|K|Maya Rios|37, civilingenjör inom huskonstruktion
+C|513859|59|K|Marie Nordquist-Kastling|59, socialsekreterare
+C|513860|51|K|Anna Schröder|51, personlig assistent
+C|513861|27|K|Maral Fayazian|27, socialantropolog
+C|513862|62|K|Åsa Wickberg|62, specialpedagog
+C|415141|48|M|Magnus Nordström|48, Diplomat
+C|149742|40|K|Karin Teljstedt|40, Civilekonom, Finnberget
+C|149743|68|M|Anders Tiger|68, Journalist, Alphyddan
+C|149744|48|K|Lydia Liu|48, Civilekonom, Nacka
+C|149745|52|M|Anders Wihk|52, Musiker, Älta
+C|149746|44|K|Malin Gunnesson|44, Fastighetsstrateg, Duvnäs utskog
+C|149747|33|M|Joakim Franklin|33, Samhällsplanerare, Järla sjö
+C|149748|57|K|Maryam Herlin|57, Förskolechef, Saltsjö-Boo
+C|149749|23|M|Jack Sjölund|23, Studerande, Saltsjö-Boo
+C|149750|62|K|Anna Maria Eiderbrant Uhrström|62, Civilekonom, Saltsjö-Duvnäs
+C|149751|52|M|Anders Myrbäck|52, Vd, Lännersta
+C|149752|61|K|Nana Amirajibi|61, Tolk, Nacka
+C|149753|43|M|Martin Gunnesson|43, Idéhistoriker, Duvnäs utskog
+C|149754|47|K|Karolina Johansson|47, Lärare, Skuru
+C|149755|57|M|Stefan Herczfeld|57, HR-chef, Krokhöjden
+C|149756|37|K|Karoline Jonasson|37, Paralegal, Ljuskärrsberget
+C|149757|41|M|Dennis Smidt|41, Bitr restaurangchef, Finntorp
+C|149758|52|K|Monica Sjölund|52, Egenföretagare, Nacka
+C|149759|24|M|Lukas Uhrström|24, Strategikonsult, Saltsjö-Duvnäs
+C|149760|55|K|Karin Avelin Romin|55, Konstvetare, Kvarnholmen
+C|149761|37|M|Ibrahim Habboush|37, Lärare, Lännersta
+C|149762|26|M|Mehretab Tesfai|26, Fritidsledare, Fisksätra
+C|149763|78|M|Rein Raukas|78, Ekonom, Saltsjöbaden
+C|149764|73|K|Inger Davidson|73, Fd. riksdagsledamot, Birka
+C|149765|70|M|Ulf G Johansson|70, Nämndeman, Finntorp
+C|149766|75|K|Birgitta Husén|75, Ekonom, Ljuskärrsberget
+C|149767|67|M|Stefan Kinert|67, Säkerhetskonsult, Tollare
+C|149768|22|M|Isak Rizell|22, Musiker, Orminge
+C|149769|83|M|Ulf Swenzén|83, Småföretagare, Saltsjöbaden
+C|13872|56|K|Gunilla Grudevall-Steen|56, Lärare, Saltsjö-Boo
+C|13873|46|K|Monica Brohede Tellström|personaladministratör, Nacka
+C|13874|61|M|Martin Sääf|61, Projektledare, Tollare
+C|13875|28|K|Louise Granath|28, Civilingenjör, Sickla
+C|13876|60|M|Mats Granath|verksamhetschef, Nacka
+C|13877|53|K|Lena Linnerborg|utredare, Nacka
+C|13878|53|K|Anna-Karin Boréus|systemansvarig, Nacka
+C|13879|59|M|Johan Kjellman|59, Egenföretagare, Saltsjö-Boo
+C|13880|41|K|Karin Bünger|41, Produktchef, Saltsjöbaden
+C|13881|43|M|Jonas Conradsson|43, Advokat, Saltsjöbaden
+C|13883|56|K|Helena Håkansson|agronom, Nacka
+C|13884|28|M|Taher Ebrahimzada|28, Studerande, Fisksätra
+C|13885|34|K|Sofia Hanner|34, Projektchef, Skogalund
+C|13886|37|M|Johan Norman|office manager, Nacka
+C|13887|44|K|Anna Nörby Gennerud|43, Kommunikationskonsult, Saltsjö-Duvnäs
+C|13888|29|M|Petter Strömberg|29, Jobbcoach, Björknäs
+C|13889|24|K|Rona Aksak|24, Statsvetare, Kvarnholmen
+C|13890|56|M|Ken McArthur|56, Solution manager, Järla sjö
+C|13891|59|K|Lotta Fryklund|59, Verksamhetschef, Lännersta
+C|13892|74|M|Göran Fredriksson|74, Kommunikationskonsult, Storängen
+C|13893|37|K|Jennie Knutsson|37, VD och PR-konsult, Älta
+C|13894|81|M|Peter Stare|jurist, Nacka
+C|13895|79|K|Gertrud Lindgren|79, Adjunkt, Skogsö
+C|13896|70|M|Bo Hjertstrand|70, Ingenjör, Sickla
+C|13897|72|K|Monia Sturén|72, Jur.kand, Sickla
+C|13898|74|M|Lennart Philip|74, Ekonom, Saltsjöbaden
+C|13899|70|K|Lilian Sandberg|70, Yrkeslärare, Saltsjö-Boo
+C|13900|51|M|Joakim Olofsson|51, Konsult, Jarlaberg
+C|13901|65|M|Kåre Jansson|65, Utredare, Sickla strand
+C|13902|73|K|Birgitta Westman|revisor, Nacka
+C|13903|75|M|Kjell Tormod|75, Lärare, Tollare
+C|13904|76|M|Mikael Sandberg|76, Arkitekt SAR/MSA, Finntorp
+C|13905|67|K|Annelie Löfqvist|socionom, Nacka
+C|13906|74|M|Bjarne Hanson|pensionerad apotekare, Nacka
+C|13907|74|M|Kjell Åkerlund|74, Författare, Saltsjö-Boo
+C|13908|85|K|Maj-Britt Stenfelt|85, Senior, Saltsjö-Boo
+C|13909|46|M|Jonas Skiöld|46, Handläggare, Rensätra
+C|13910|50|K|Niki Westerberg|50, Kommunikationschef, Lännersta
+C|13911|76|M|Sten Grack|76, Forskare, Älta
+C|13912|74|M|Björn Carheden|74, Lärare, Finntorp
+C|13913|77|M|Ingemar Morsten|77, Kreditchef, Kolarängen
+C|13914|82|M|Anders Österlund|82, Ingenjör, Lillängen
+C|125942|51|M|Tobias Ekelin|51, Civilingenjör, Stockholms län
+C|125943|65|M|Carl-Axel Stein|65, Konsult & Förändringsledare, Saltsjö-Boo
+C|125944|50|K|Lena Widman|50, Senior Associate/jur. kand., Saltsjö-Boo
+C|125945|62|M|Claes Djurfeldt|62, Polisinspektör, Stockholms län
+C|125946|63|M|Carl Johan Rundquist|63, Jur. kand., Saltsjöbaden
+C|125947|44|M|Carl Sidenvall|44, Civilingenjör, Nacka
+C|125948|48|M|Thomas Hultman|48, Konsult-Elkraftingenjör, Saltsjö-Boo
+C|125949|46|M|Daniel Claesson|46, Kommunikationschef, Stockholms län
+C|247571|59|M|Sidney Holm|59, småföretagare, Nacka
+C|247572|54|K|Lisskulla Zayane|54, mentalskötare, Nacka
+C|247573|61|K|Ninni Lindberg|Gymnasielärare, 61 år, Björknäs
+C|247574|51|M|Pascal Mafall Fall|51, lärare, Nacka
+C|247575|46|K|Louise Ollivier|Businesspartner, 46 år, Orminge
+C|247576|64|M|Göran Börjesson|Egenföretagare, 64 år, Rensättra
+C|247577|35|K|Desha Svenneborg|Jur. stud, 34 år, Finnberget
+C|247578|73|M|Per Chrisander|73, socionom, Nacka
+C|247579|18|M|Erik Nordlund|Studerande, 18 år, Lännersta
+C|247580|33|K|Nicole Goufas|Pressekreterare, 33 år, Fisksätra
+C|247581|42|M|David Lukose|Trafikplanerare, 41 år, Henriksdalsberget
+C|247582|46|K|Åsa Marnell|Museiintendent, 46 år, Lännersta
+C|247583|82|M|Klas Eriksson|Senior, 82 år, Jarlaberg
+C|247584|62|K|Anne Magnusson|62, förskollärare, socionom, Nacka
+C|247585|33|M|Henrik Hermansson|Analytiker, 33 år, Kvarnholmen
+C|247586|67|K|Brita Ström|67, egenföretagare, Nacka
+C|247587|49|M|Mats Marnell|Arkitekt, 49 år, Lännersta
+C|247588|35|K|Nina Piroth|Projektledare, 35 år, Sickla
+C|247589|75|M|Roger Bydler|Egenföretagare, 75 år, Finnboda
+C|247590|48|K|Pernilla Fexdal|Departementssekreterare, 48 år, Björknäs
+C|247591|29|M|Hampus Skoug|Ingenjör, 29 år, Finntorp
+C|247592|47|K|Rebecka Bodemar|SFI-lärare, 47 år, Fisksätra
+C|247593|73|M|Roland von Malmborg|Världsmedborgare och trubadur, 73 år, Saltsjöbaden
+C|247594|27|K|Filippa Holm|Studerande, 27 år, Sickla
+C|247596|56|K|Ulla von Strokirch|Boendestödjare, 56 år, Kummelnäs
+C|247597|71|M|Henrik Sundström|Ekonom, 71 år, Vikingshill
+C|247598|73|K|Liselotte van den Tempel|Ingenjör, 73 år, Älta
+C|247599|86|K|Eva Hellung Strohl|f d ombudsman, 86 år, Duvnäs Utskog
+C|348877|55|K|Cecilia Gren|Förskolepersonal och konstnär, 55 år, Björknäs
+C|247600|66|K|Elisabeth Karlsson|Jurist, 66 år, Sickla
+C|247601|71|K|Eva Royen|Konsult, 71 år, Finnboda
+C|18301|54|M|Mats Gerdau|54, Kolarängen
+C|18302|58|K|Cathrin Bergenstråhle|58, Rensättra
+C|18303|45|M|Tobias Nässén|45, Kommunalråd
+C|18304|26|K|Sofia Fölster|26, Alphyddan
+C|12799|61|K|Helene Skantze|61, Banktjänsteman
+C|12794|24|M|Filip Wiljander|24, Statsvetare
+C|18307|68|K|Eva Öhbom Ekdahl|68, Baggensudden
+C|18308|67|M|Bo Bergkvist|67, Hedvigslund
+C|18309|48|M|Richard Wendt|48, Solsidan
+C|18310|23|M|Oliver Rykatkin|23, Egenföretagare
+C|18311|56|K|Eivor Örenmark|56, Produktchef
+C|18312|60|M|Magnus Sjöqvist|60, Skogsö
+C|18313|58|K|Anna Kjellin Flory|58, Solsidan
+C|18314|56|M|Peter Zethraeus|56, Kummelnäs
+C|18315|69|M|Johan Hiller|69, Fisksätra
+C|18316|28|M|Carl Albinsson|28, Finnboda
+C|18317|67|M|Lars Stenholm|67, Professor
+C|18318|24|M|Axel Krottler|24, Skuru
+C|18319|36|M|Andreas Brännström|36, Entreprenör
+C|18320|67|K|Lotta Riedel|67, Velamsund
+C|18321|44|K|Lena Gatenborg Mohns|44, Rensättra
+C|18322|34|K|Annelie Stiglund|34, Departementssekreterare
+C|12792|54|M|Richard Herrey|54, Entreprenör
+C|18324|20|K|Asta Groth|20, Neglinge
+C|18325|72|K|Elisabet Engström|72, Igelboda
+C|18326|58|M|Anders Bruhn|58, Krokhöjden
+C|18327|69|K|Annika Jung|69, leg. Sjukgymnast
+C|18350|60|K|Vilma Mori Aguilar|60, Stensö
+C|18328|42|M|Dominique Faymonville|42, Rösunda
+C|18329|55|M|Per Norling|55, Civilekonom
+C|18330|68|K|Angela Berglund|68, Ekängen
+C|18331|18|M|Noa Cortinez Samenius|18, Student
+C|18332|44|K|Christina Rinman|44, Igelboda
+C|18333|64|M|Jan Bjurfors|64, Igelboda
+C|18334|35|M|Petter Larsson|35, Kvarnholmen
+C|18335|69|K|Cathrine Swenzén|69, Förvaltningssocionom
+C|18336|79|K|Monica Segerman|79, Kolarängen
+C|18337|41|K|Kristiina Rettel|41, Fisksätra
+C|18338|22|M|Claudio van der Touw|22, Ekudden
+C|18339|61|K|Anna Karin Bergholm Liljeroth|61, Neglinge
+C|18354|75|M|Göran Frisk|75, Stensö
+C|18340|57|M|Christof Borgström|57, Kolarängen
+C|18341|34|K|Ulrika Engellau|34, Rensättra
+C|18342|46|M|Eric Lindahl|46, Stensö
+C|18343|73|K|Gun Lingbert|73, Sickla
+C|18344|74|K|Margareta Hjelmstad|74, Stensö
+C|18345|78|K|Linda Olsson|78, Skuru
+C|18346|59|M|Lennart Örenmark|59, Civilekonom
+C|18347|51|K|Helena Söderqvist|51, Fisksätra
+C|18348|68|M|Lars Berglund|68, Civilekonom
+C|18351|78|K|Moa Bern|78, Rösunda
+C|18352|43|K|Nicole Bistoletti|43, Saltsjöbaden
+C|18353|74|K|Gunilla Elmberg|74, Eknäs
+C|18349|82|M|Ingmar Berthelsen|82, Björknäs
+C|364665|70|K|Christina Ståldal|F.d. bibliotekschef, gruppledare, plan-, miljö-, o. demokratifrågor
+C|364666|41|M|Mikael Carlsson|Förskolechef, barn- o. utbildningsfrågor
+C|364667|45|K|Lina Olsson|Civilingenjör, egen företagare, miljö-, natur-, o. trafikfrågor
+C|364668|31|M|Efson Goitom|Bussförare
+C|364669|45|K|Yusie Rundkvist Chou|Psykolog, översättare, ersättare i Arbets- o. företagsnämnden
+C|364670|70|M|Bosse Ståldal|Samhällsentreprenör, kandidat till Fritids- o. Kulturnämnden
+C|364671|63|K|Shahin Malak|Intresserad av sociala -, miljö- o. kulturfrågor
+C|364672|22|M|Lamin Jatta Modigh|22 år Fisksätra
+C|364673|54|K|Kristina Granlund|Civilekonom, researcher, natur- o. miljöfrågor
+C|364674|70|M|Torgny Domeij|Psykolog, intressen Nackareservatet, parker, kollektivtrafik, cykelbanor, kommunikationer
+C|364675|63|K|Carin Larsson|Miljö, natur o. växter
+C|364676|53|K|Ann Sundberg|Arkivarie, intressen kult.historiska miljöer, bevarande grönområden, hyresrätter till rimliga hyror
+C|364677|71|K|Margareta Jonsson|Pensionär, livs- o. samhällsfrågor
+C|364678|36|K|Leidy Ximena Botero Zuluaga|Barn-, studerandefrågor, äldreomsorg
+C|364679|48|M|Henrik Wagenius|Konstvetare o. jurist, aktiv inom finans
+C|364680|40|K|Mariama Sonko|Undersköterska, aktiv inom Löparakademin
+C|364681|69|M|Hans Larsson|OVK besiktningsman
+C|364682|68|K|Ingela Walck|Skribent
+C|364683|59|M|Kennet Balk|Natur-, miljö- o. vägfrågor
+C|364684|79|K|Ulla Anserius|Pensionär
+C|364685|50|K|Martina Jordan|Musiker, koreograf
+C|364686|42|K|Binta Sonko|specialistundersköterska, samhällsfrågor
+C|364687|33|M|Danny Sundberg|Yrkeschaufför, intressen bevarande av grönområden o. kulturhistoriska miljöer, veteranfordon
+C|364688|75|M|Lars Nieckels|Fil.dr. intresseområden långsiktigt hållbar utveckling, energibesparing, kommunala VA-problem
+C|67092|64|K|Åsa Regina Nyberg|64, leg. sjuksköterska, Nacka
+C|67093|66|M|Esa Örmä|66, projektledare, Nacka
+C|67094|60|M|Stephan Andersson|60, VVS ingenjör, Nacka
+C|67095|22|M|Leonid Yurkovskiy|22, politisk sekreterare, Nacka
+C|67096|30|M|David Hyde|30, säljare, Nacka
+C|67097|27|K|Louise Wallenblad|27, operasångerska, Nacka
+C|67098|62|M|Göran Gaefke|62, taxichaufför, Nacka
+C|67099|50|K|Pernilla Axelsson|50, ekonomiassistent, Nacka
+C|67100|57|K|Therese Elg|56, pensionär, Saltsjö-Boo
+C|67101|58|M|Åke Söderman|58, konsult, Saltsjö-Boo
+C|67102|44|M|Tommy Sjöström|44, gruppledare, Saltsjöbaden
+C|67103|54|K|Mari D'Orsay|54, näringsrådgivare, Nacka
+C|67104|73|K|Christina Wiltman|73, pensionär, Nacka
+C|67105|51|M|Jörgen Karlsson|51, lackerare, Älta
+C|67106|64|M|Jan Nordberg|64, pensionär, Nacka
+C|67107|66|M|Bror Bergquist|66, pensionerad företagare, Saltsjö-Boo
+C|67108|67|K|Nina Nilsson|67, f.d. civilekonom, Saltsjö-Boo
+C|11827|57|M|Michael Abrahamsson|
+C|196627|31|K|Amanda Sandholm|Saltsjö-Boo, psykiatriskötare
+C|196628|37|M|Borna Rowshani|36 år, säljare, Neglinge
+C|196629|48|K|Salka Hallström Bornold|48 år, journalist, Saltsjö-Boo
+C|196630|29|M|Ramzi Ben Youssef|30 år, studerande, Ektorp
+C|196631|25|M|Oscar Dahlström|25 år, datortekniker, Tollare
+C|196632|53|K|Lisa Rasmussen|Nacka,politisk sekreterare
+C|315835|31|K|Rezan Labady|30 år, studerande, Fisksätra
+C|196633|47|M|Fredrik Holmkvist|47 år, formgivare, Tallbacken
+C|196634|58|M|Tomas Ottosson|58 år, familjebehandlare, Älta
+C|196635|71|K|Birgit Hansson|71 år, senior rådgivare, Orminge
+C|196636|68|M|Rolf Wasteson|68 år, IT-arkitekt, Finntorp
+C|196637|37|K|Malin Ehnebuske|37 år, arkivarie, Finntorp
+C|196638|42|M|Ulf Fogelström|41 år, socialsekreterare, Ektorp
+C|196639|32|K|Klara Krantz|32 år, författare, Finntorp
+C|196640|46|M|Fredrik Lundkvist|46 år, ST-läkare, Saltsjö-Boo
+C|218985|36|K|Ida Gabrielsson|Nacka, studerande
+C|332354|73|M|Jamil Jumaa|72 år, pensionär, Älta
+C|196641|65|K|Agneta Johansson|65 år, lärare, Jarlaberg
+C|196642|77|M|Hans Wigren|77 år, skådespelare, Jarlaberg
+C|196643|40|K|Hediye Güzel|40 år, presschef, Björknäs
+C|196644|62|M|Ronald Eriksson|62 år, byggmästare, Lännersta
+C|196645|52|K|Åsa Rombin|51 år, sjukpensionär, Hasseludden
+C|332360|48|M|Kalle Larsson|48 år, kanslichef, Jarlaberg
+C|196646|34|M|Ragnar Schön|34 år, civilingenjör, Orminge
+C|196647|71|K|Cecilia Malmgren|70 år, folkbildare, Tallbacken
+C|196648|38|M|Staffan Hjalmarsson|38 år, verksamhetsansvarig, Finntorp
+C|196649|29|K|Julia Kjällquist|28 år, verksamhetsutvecklare, Tallbacken
+C|196650|77|K|Birgitta Rasmussen|76 år, pensionär, Boo Gård
+C|196651|65|M|Dan Johansson|65 år, studerande, Talludden
+C|196652|62|M|Gunnar Friberger|62 år, politisk sekreterare, Orminge
+C|196653|59|K|Åsa Mattsson|59 år, pressekreterare, Skvaltan

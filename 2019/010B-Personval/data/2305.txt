@@ -1,7 +1,107 @@
-2|6468|7453|8164|14870|14871|14872|14873|14874|14875|14876|14877|14878|14879|14880|14881|8155|14883|14884|14885|14886|14887|14888|14889|14890|14891|14892|14893
-4|95770|236523|236524|236525|236526|236527|236528|236529|236530|236531|236532|236533|236534|236535|236536|236537|236538|236539|236540|236541|236542|236543|236544|236545|236546|236547|236548|236549|236550|236551|236552|236553|236554|236555|236556
-1327|317076|317991|317992|317993|317994|317995|317996
-55|385928|385929|452518|385930
-1|39621|39508|247502|39492|39499|39517|247506|247507|247508|247509|247510|247511|247512|247513
-110|150545|496350
-5|513634|513635|513636
+T|Bräcke
+A|2|6468|7453|8164|14870|14871|14872|14873|14874|14875|14876|14877|14878|14879|14880|14881|8155|14883|14884|14885|14886|14887|14888|14889|14890|14891|14892|14893
+A|4|95770|236523|236524|236525|236526|236527|236528|236529|236530|236531|236532|236533|236534|236535|236536|236537|236538|236539|236540|236541|236542|236543|236544|236545|236546|236547|236548|236549|236550|236551|236552|236553|236554|236555|236556
+A|1327|317076|317991|317992|317993|317994|317995|317996
+A|55|385928|385929|452518|385930
+A|1|39621|39508|247502|39492|39499|39517|247506|247507|247508|247509|247510|247511|247512|247513
+A|110|150545|496350
+A|5|513634|513635|513636
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1327|JVB|Jämtlands Väl Bräcke
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|6468|52|M|Jörgen Persson|52, Fritidsledare, Gällö
+C|7453|49|K|Cathrine Blomqvist|49, Usk/Mentalskötare, Bräcke
+C|8164|48|M|Magnus Sundström|48, Säljare, Kälarne
+C|14870|74|K|Gudrun Eriksson|74 år, Fanbyn
+C|14871|43|M|Pierre Widell|43 år, Bräcke
+C|14872|43|K|Wanja Byström|43 år, Bräcke
+C|14873|64|M|Sven Åke Draxten|64 år, Kälarne
+C|14874|65|K|Berit Carlsson|65 år, Holmsjö
+C|14875|64|M|Arne Jonsson|64 år, Gällö
+C|14876|70|K|Barbro Norberg|70 år, Kälen
+C|14877|62|M|Yngve Hamberg|62 år, Bräcke
+C|14878|57|M|Farhat Ali|57 år, Bräcke
+C|14879|72|M|Kenneth Godhe|72 år, Kälarne
+C|14880|71|M|Helge Lindqvist|71 år, Måsjö
+C|14881|70|K|Barbro Wik|70 år, Samsta
+C|8155|71|M|Johnny Jonsson|71, Pensionär, Kälarne
+C|14883|56|M|Juvenal Hatungimana|56 år, Bräcke
+C|14884|72|M|Bo Sundström|72 år, Sandmon
+C|14885|49|M|Crister Leandersson|49, Undersköterska, Kälarne
+C|14886|58|K|Marita Englund|58 år, Svartvika
+C|14887|47|M|Richard Nilsson|47 år, Fjällsta
+C|14888|46|K|Camilla J Sundström|46 år, Sandmon
+C|14889|43|M|Thomas Olsen-Nikkinen|43 år, Pilgrimstad
+C|14890|47|M|Thomas Eriksson|47 år, Gällö
+C|14891|64|M|Hans Cederberg|64 år, Våle
+C|14892|62|M|Bertil Jonsson|62 år, Sösjö
+C|14893|66|M|Göran Eriksson|65 år, Pilgrimstad
+C|95770|37|K|Theresa Flatmo|egenföretagare 37 år Kälarne
+C|236523|54|M|Joakim Blomkvist|egenföretagare 54 år Fanbyn
+C|236524|34|K|Liza Lidvall|lantbrukare 34 år Hosjö
+C|236525|66|M|Hans Svärd|pensionär fd. banktjänsteman 65 år Pilgrimstad
+C|236526|71|K|Ingrid Kjelsson|pensionär fd. projekledare 71 år Gällö
+C|236527|53|K|Camilla Dahlberg|egenföretagare 53 år Våle
+C|236528|46|M|Mikael Ingebrigtsen|chaufför 45 år Fanbyn
+C|236529|40|K|Lisa Bengtsdotter|tandläkare 40 år Fanbyn
+C|236530|34|K|Elba Nilsson Smårs|undersköterska 34 år Kälarne
+C|236531|70|K|Elisabeth Andersson|pensionär fd. undersköterska 70 år Hemsjö
+C|236532|59|M|Urban Franzén|servicetekniker 59 år Pilgrimstad
+C|236533|70|K|Elsie-Marie Tåqvist|pensionär fd. kommunsekreterare 70 år Fanbyn
+C|236534|41|M|Erik Edbladh|undersköterska 42 år Pilgrimstad
+C|236535|67|K|Ann-Sofie O'Dwyer|pensionär fd. vårdutvecklare 67 år Bräcke
+C|236536|35|K|Erika Kristoffersson|församlingsassistent 35 år Gällö
+C|236537|64|K|Ingela Ahlqvist|undersköterska 64 år Våle
+C|236538|64|M|Bertil Olsson|pensionär 64 år Gällö
+C|236539|74|M|Östen Wallström|pensionär fd. åkare 74 år Fanbyn
+C|236540|23|M|Bartolomiej Szulc|artist/servitör 23 år Bräcke
+C|236541|59|K|Carina Thellbro|egenföretagare 58 år Holmsjö
+C|236542|59|M|Per-Erik Eriksson|hemmansägare 59 år Västanede
+C|236543|33|M|Gunnar Eriksson|lantbrukare 34 år Hosjö
+C|236544|65|M|Göran Näslund|pensionär fd. banktjänsteman 65 år Kälarne
+C|236545|65|K|Doris Svensson|kyrkogårdsarbetare 65 år Fanbyn
+C|236546|54|M|Sven Jonsson|skogsrådgivare 53 år Kälarne
+C|236547|60|K|Erja Flatmo|egenföretagare 59 år Kälarne
+C|236548|35|M|Alan Daoud|egenföretagare 34 år Bräcke
+C|236549|72|K|Ulla Bengtsson|pensionär fd. getbonde 72 år Bensjö
+C|236550|61|M|Anders Nygren|lantbrukare 60 år Samsta
+C|236551|22|M|Amir Ali Nazari|personlig assistent 21 år Fanbyn
+C|236552|81|M|Ingemar Nilsson|pensionär fd. ingengör 81 år Sösjö
+C|236553|59|M|Per-Olof Mellgren|ekonom 59 år Mälgåsen
+C|236554|49|M|Mats Nilsson|egenföretagare 47 år Sörviken
+C|236555|53|M|Peter Öhlund|sotare 53 år Bräcke
+C|236556|49|M|Mats Andersson|inköpare 49 år Fanbyn
+C|317076|55|M|Christer Olsson|55 år, Bensjö
+C|317991|52|K|Karolina Käthner-Lindsjö|52 år, Börjesjö
+C|317992|50|M|Leif Molin|50 år, Lillkrog
+C|317993|47|K|Majvor Sundström|47 år, Kammen
+C|317994|54|M|Nils Eriksson|55 år, Kammen
+C|317995|60|K|Ingela Widén|60 år, Bensjö
+C|317996|64|M|Thord Widén|64 år, Bensjö
+C|385928|57|K|Kerstin Hylén|57, Egen företagare, Revsund
+C|385929|73|K|Astrid Nylén|73, Kälarne
+C|452518|63|K|Ina Paliahenkaya|62, Kälarne
+C|385930|65|M|Steinar Pettersson|65, Börjesjö
+C|39621|45|M|Johan Loock|45, Pilgrimstad
+C|39508|67|K|Marina Mellgren|67 år, Landsom
+C|247502|42|M|Martin Halvarsson|42 år, Björsjö
+C|39492|56|K|Veronica Eklund|56 år, Bräcke
+C|39499|71|M|Knut Richardsson|71 år, Gällö
+C|39517|74|K|Birgitta Franzon|74 år, Bräcke
+C|247506|66|M|Hans Olausson|66 år, Höviken
+C|247507|49|K|Barbro Henriksson|49 år, Ammer
+C|247508|60|M|Torbjörn Näslund|60 år, Hosjö
+C|247509|71|K|Marit Eklund|71 år, Bräcke
+C|247510|75|M|Carl-Halvar Halvarsson|75 år, Björsjö
+C|247511|34|K|Johanna Pahlén|34 år, Skylnäs
+C|247512|62|M|Ulf Eklund|62 år, Hemsjö
+C|247513|72|K|Carole Vestberg|72 år, Skylnäs
+C|150545|39|M|Vikramjit Singh Sra|busschaufför
+C|496350|81|M|Kjell Eriksson|pensionär
+C|513634|69|M|Anders Lundqvist|69 år, Grötingen
+C|513635|75|M|Hans Isgren|75 år, Grönviken
+C|513636|69|K|Inger Berggren-Lundqvist|69 år, Grötingen

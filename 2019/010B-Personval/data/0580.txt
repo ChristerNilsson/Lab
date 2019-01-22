@@ -1,17 +1,439 @@
-2|243577|243578|243579|251945|24885|252037|252038|24912|252040|252041|24911|252043|252076|252077|252078|24880|24881|252123|252081|252125|252126|77622|252128|252129|252130|252131|77617|252133|24777|252185|252186|252232|252233|267142|267143|267146|267145|267148|267147|77620|267149|267473|267472|267475|267474|267477|267476|267479|267478|267658|267657|267660|267659|267662|267661|267664|77613|267665|267770|267769|267887|267771|267889|68456|267891|267890|267892|268504|328551|268506|268505|268562|268507|268681|268680|268683|77621
-1372|486479
-4|12032|8530|12121|12119|40917|40918|12040|40920|40921|40922|12126|40924|40925|12024|40927|40928|40929|40930|12127|12125|40933|40934|40935|40936|40937|40938|40939|40940|40941|40942|40943|12129|40945|12118|12044|12030
-1150|515604
-1136|471742
-532|413236|219330|413238|413239|413240|413241|413242|413243|413244
-638|304640|304647
-68|9172|251602|251603|251604|251605|251606|251607|251608|251609|251610|251611|251612|251613|251614|251615|251616|251617|251618|251619|251620|251076|251622|251623|251624|251625|251626|251627|251628|251629|251630|251631|251632|251633|251634|251635|251636|251637|251638|251639|251640|251641
-3|249299|249309|251212|249305|249316|249287|249285|251217|251218|249282|249314|249294|249311|251223|251224|250611|251226|251227|251228|251229|251230|251231|251232|251233|249313|251235|251236|251237|249320|251239|251240|251241|251242|251243|251244|251245|251246|251247|247477|251249|251250|251251|251252|251253|251255|251256|251257|251258|251259|251260|251261|251262|251263|251264|251265|251266|251267|251268|251269|251270|251271|251272|251273|251274|251275|251276|251277|335496|251279|251280|473156|251281
-1296|128576|128539|382607|382608
-55|420727|420728|420729|420730|420731|415991|420733|415602|415999|420736|420737|420738|415595|311110|420741|420742|420743|420744|456423|420745|420746|420747|420748
-1|12395|12396|3322|12398|12399|12400|12401|12402|12403|12404|12405|12406|12407|12408|12409|12410|12411|12412|12413|12414|12415|12416|12417|12418|12419|12420|12421|12422|12423|3336|12425|12426|12427|12428|12429|12430|12431|12432|12433|12434|12435|12436|12437|12438|12439|12440|12441|12442|12443|12444|12445|12446|12447|12448|12449|12450|12451|12452|12453|12454|12455|12456|12457|3331|12459|12460|12461|12462
-1418|512920
-524|442138|442139|442140|442141|442142|442143
-110|80344|80345|80346|80347|80348|80349|80350|80351|80352|80353|80354|80355|80356|80357|80358|80359|80360|80361|80362|80363|80364|80365|80366|80367|80368|80369|80370|80371|80372|80373|80374|80375|80376
-1309|479435|431297
-5|58712|58713|58714|58715|58716|58717|58718|58719|58720|58721|58722|58723|58725|58726|58727|58728|58729|58730|58731|58732|58733|58734|58735|58736|58737|58738|58739|58740
+T|Linköping
+A|2|243577|243578|243579|251945|24885|252037|252038|24912|252040|252041|24911|252043|252076|252077|252078|24880|24881|252123|252081|252125|252126|77622|252128|252129|252130|252131|77617|252133|24777|252185|252186|252232|252233|267142|267143|267146|267145|267148|267147|77620|267149|267473|267472|267475|267474|267477|267476|267479|267478|267658|267657|267660|267659|267662|267661|267664|77613|267665|267770|267769|267887|267771|267889|68456|267891|267890|267892|268504|328551|268506|268505|268562|268507|268681|268680|268683|77621
+A|1372|486479
+A|4|12032|8530|12121|12119|40917|40918|12040|40920|40921|40922|12126|40924|40925|12024|40927|40928|40929|40930|12127|12125|40933|40934|40935|40936|40937|40938|40939|40940|40941|40942|40943|12129|40945|12118|12030
+A|1150|515604
+A|1136|471742
+A|532|413236|219330|413238|413239|413240|413241|413242|413243|413244
+A|638|304640|304647
+A|68|9172|251602|251603|251604|251605|251606|251607|251608|251609|251610|251611|251612|251613|251614|251615|251616|251617|251618|251619|251620|251076|251622|251623|251624|251625|251626|251627|251628|251629|251630|251631|251632|251633|251634|251635|251636|251637|251638|251639|251640|251641
+A|3|249299|249309|251212|249305|249316|249287|249285|251217|251218|249282|249314|249294|249311|251223|251224|250611|251226|251227|251228|251229|251230|251231|251232|251233|249313|251235|251236|251237|249320|251239|251240|251241|251242|251243|251244|251245|251246|251247|247477|251249|251250|251251|251252|251253|251255|251256|251257|251258|251259|251260|251261|251262|251263|251264|251265|251266|251267|251268|251269|251270|251271|251272|251273|251274|251275|251276|251277|335496|251279|251280|473156|251281
+A|1296|128576|128539|382607|382608
+A|55|420727|420728|420729|420730|420731|415991|420733|415602|415999|420736|420737|420738|415595|311110|420741|420742|420743|420744|456423|420745|420746|420747|420748
+A|1|12395|12396|3322|12398|12399|12400|12401|12402|12403|12404|12405|12406|12407|12408|12409|12410|12411|12412|12413|12414|12415|12416|12417|12418|12419|12420|12421|12422|12423|3336|12425|12426|12427|12428|12429|12430|12431|12432|12433|12434|12435|12436|12437|12438|12439|12440|12441|12442|12443|12444|12445|12446|12447|12448|12449|12450|12451|12452|12453|12454|12455|12456|12457|3331|12459|12460|12461|12462
+A|1418|512920
+A|524|442138|442139|442140|442141|442142|442143
+A|110|80344|80345|80346|80347|80348|80349|80350|80351|80352|80353|80354|80355|80356|80357|80358|80359|80360|80361|80362|80363|80364|80365|80366|80367|80368|80369|80370|80371|80372|80373|80374|80375|80376
+A|1309|479435|431297
+A|5|58712|58713|58714|58715|58716|58717|58718|58719|58720|58721|58722|58723|58725|58726|58727|58728|58729|58730|58731|58732|58733|58734|58735|58736|58737|58738|58739|58740
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1372||Basinkomstpartiet
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|1136|DjuP|Djurens parti
+B|532|FI|Feministiskt initiativ
+B|638|KLP|Klassiskt liberala partiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1418||Nya bjornska partiet
+B|524|PP|Piratpartiet
+B|110|SD|Sverigedemokraterna
+B|1309|TRP|TRYGGHETSPARTIET
+B|5|V|Vänsterpartiet
+C|243577|42|K|Kristina Edlund|kommunalråd, 42 år
+C|243578|34|M|Elias Aguirre|kommunalråd, 34 år
+C|243579|47|K|Mari Hultgren|lärare, 47 år
+C|251945|51|M|Mikael Sanfridson|kommunalråd, 51 år
+C|24885|48|K|Ann-Charlott Bäckman|48 år, yrkeslärare, Linköping
+C|252037|51|M|Niklas Nåbo|grundskollärare, 51 år
+C|252038|63|K|Lena Micko|ordförande Sveriges Kommuner och Landsting, 63 år
+C|24912|31|M|Jonatan Hermansson|31 år, pressekreterare, Linköping
+C|252040|41|K|Anna Larsson|projektsamordnare, 41 år
+C|252041|57|M|Ali Hajar|arkitekt, 57 år
+C|24911|38|K|Süreyya Kurdi|38 år, biblioteksassistent, Linköping
+C|252043|71|M|Jan Österlind|f.d. förbundsordförande, 71 år
+C|252076|65|K|Elisabeth Gustafsson|undersköterska, 65 år
+C|252077|37|M|Andreas Williamsson|lärare, 37 år
+C|252078|34|K|Tanja Mitic|servitris, 34 år
+C|24880|44|M|Joe Mayer|44 år, elektriker, Linköping
+C|24881|23|K|Lisa Nåbo|23 år, ombudsman, Linköping
+C|252123|39|M|Ranko Simic|projektledare, 39 år
+C|252081|55|K|Karin Sandin Dahlgren|verksamhetsledare, 55 år
+C|252125|27|M|Simon Tibell|koordinator, 27 år
+C|252126|29|K|Frida Edvardsson|lokalvårdare, 29 år
+C|77622|62|M|Richard Bremer|62 år, skötare
+C|252128|41|K|Uba Aden|personlig assistent, 41 år
+C|252129|26|M|Christoffer Olsson|ombudsman, 26 år
+C|252130|53|K|Birgitta Wallberg|förskollärare, 53 år
+C|252131|63|M|Conny Delerud|ombudsman, 63
+C|77617|56|K|Susanne Wallberg|56 år, undersköterska
+C|252133|34|M|Mohammed Abdigani|arbetsmarknadskonsulent, 34 år
+C|24777|46|K|Eva Lindh|46 år, skolkurator, Linköping
+C|252185|54|M|Peter Hult|forskningskoordinator, 54 år
+C|252186|26|K|Elina Andersson|undersköterska, 26 år
+C|252232|64|M|Almaz Abdulla|auktoriserad tolk, 64 år
+C|252233|35|K|Frida Kindeland|barnskötare, 35 år
+C|267142|51|M|Per Vretman|verksamhetsledare, 51 år
+C|267143|74|K|Kerstin Johnsson|f.d. rektor, 74 år
+C|267146|46|M|Sonny Härold|ombudsman, 46 år
+C|267145|63|K|Åsa Roth|undersköterska, 63 år
+C|267148|44|M|Roger Bandick|docent i nationalekonomi, 44 år
+C|267147|69|K|Kärstin Brattgård|f.d. lärare, 69 år
+C|77620|66|M|Lars Linebäck|66 år, konsult
+C|267149|35|K|Dayhana Villarroel|socionom, 35 år
+C|267473|72|M|Ulf Lindh|pensionär, 72 år
+C|267472|60|K|Marita Töråsen|60 år
+C|267475|54|M|Jan Christensen|undersköterska, 54 år
+C|267474|70|K|Gunn Bredstedt|pensionär, 70 år
+C|267477|52|M|Patrik Gustavsson|skattehandläggare, 52 år
+C|267476|33|K|Deqa H Mohamed|33 år
+C|267479|42|M|Bojan Vasic|projektledare, 42 år
+C|267478|76|K|Kim Öhman|pensionär, 76 år
+C|267658|44|M|Per Wackenborg|snickare, 44 år
+C|267657|45|K|Åsa Barkland|fritidspedagog, 45 år
+C|267660|49|M|Bouchaib Adnane|49 år
+C|267659|68|K|Catharina Alpkvist|jämställdhetsexpert, 68 år
+C|267662|75|M|Jörgen Andersson|senior rektor, 75 år
+C|267661|55|K|Maria Dahlström|undersköterska, 55 år
+C|267664|36|M|Maxim Umac|36 år
+C|77613|42|K|Sofia Bjelke|42 år, ombudsman
+C|267665|33|K|Cecilia Cras|socionom, 33 år
+C|267770|41|M|Robert Almerstam|servicetekniker, 41 år
+C|267769|61|K|Eva Fredriksson|59 år
+C|267887|54|M|Dlovan Ali Amin|masterstudent, 54 år
+C|267771|30|K|Sened Kidane|socialsekreterare, 30 år
+C|267889|48|M|Mikael Rosenörn|bilmekaniker, 48 år
+C|68456|36|K|Rebecca Hägg|36 år, regionråd
+C|267891|21|M|August Magnusson|studerande, 21 år
+C|267890|18|K|Sissa Nåbo|studerande, 18 år
+C|267892|56|M|Mikael Nilsson|metallarbetare, 56 år
+C|268504|31|M|Simon Kavallin|elektriker, 31 år
+C|328551|18|K|Obélya Khoshaba|studerande 18 år
+C|268506|28|M|Anton Folkesson|28 år
+C|268505|72|K|Eva Hjertzén|f.d. distriktsläkare, 72 år
+C|268562|20|M|Thomas Kästner|studerande, 20 år
+C|268507|70|K|Alize Hugozon|pedagog, 70 år
+C|268681|20|M|Alexander Ohlson|studerande, 20 år
+C|268680|67|K|Gunnel Öman Gennebäck|beteendevetare, 67 år
+C|268683|61|M|Lars Friberg|snickare, 61 år
+C|77621|72|K|Eva Joelsson|72 år, pensionär
+C|486479|29|M|Jonn Gottfridsson|29 år, Psykologstudent, Linköping
+C|12032|56|M|Lars Vikinge|56 år, Företagare, Linköping
+C|8530|41|M|Muharrem Demirok|41 år, Kommunalråd, Linköping
+C|12121|73|K|Yvonne Marron de Martin|73 år, Ingenjör/folkhälsovetare, Linköping
+C|12119|42|K|Emelie Gustafsson|42 år, Försäkringstjänsteman, Linköping
+C|40917|71|M|Gösta Gustavsson|71 år, Civilekonom, Rappestad
+C|40918|33|M|Christoffer Rosendahl|33 år, Politisk sekreterare, Valla
+C|12040|52|K|Trine Vikinge|52 år, Företagare, Linköping
+C|40920|60|M|Masood Khatibi|60 år, Kommunikatör, Linköping
+C|40921|38|M|Mikael Larsson|38 år, Verksamhetschef, Ljungsbro
+C|40922|58|K|Carin Ahlsén|58 år, Ekonomichef, Askeby
+C|12126|47|M|Marcus Ljungqvist|47 år, Ridlärare/entreprenör, Linköping
+C|40924|64|M|Göran Gunnarsson|64 år, Regionråd, T1
+C|40925|39|M|Inge Svensson|39 år, Systemvetare, Lambohov
+C|12024|71|M|Staffan Danielsson|71 år, Agronom, Linköping
+C|40927|60|K|Marie Gren|60 år, Vårdlärare, Ryd
+C|40928|23|K|Evelina Eriksson|23 år, Studerande, Valla Fridhem
+C|40929|37|K|Maria Knutsson|37 år, Konsultenhetschef, Malmslätt
+C|40930|25|M|Isac Riddarsparre|25 år, Underläkare, Ramshäll
+C|12127|72|K|Marianne Larsson|72 år, Caféansvarig, Ljungsbro
+C|12125|58|M|Lars G Häger|58 år, Civilingenjör, Vikingstad
+C|40933|62|M|Dietmar Mölk|62 år, Fil. mag. Företagare, T1
+C|40934|19|K|Nora Karlsson|19 år, Studerande, Vimanshäll
+C|40935|71|K|Britt-Marie Alfredsson|71 år, Leg barnmorska, Linghem
+C|40936|74|M|Bengt Walla|74 år, Ingenjör, Sturefors
+C|40937|39|M|Ludwig Svenfelt|39 år, Säljare, Valla
+C|40938|70|K|Gun Djerf|70 år, Projektledare, Kanberget
+C|40939|19|K|Olivia Karlsson|19 år, Studerande, Vimanshäll
+C|40940|74|M|Reinhold Castensson|74 år, Professor, Linköping
+C|40941|21|M|Oscar Åberg|21 år, Studerande, Lambohov
+C|40942|75|M|Hans Eneroth|75 år, Präst, Garnisonen
+C|40943|35|K|Elza Gunnarsson|35 år, Studerande, Skäggetorp
+C|12129|43|M|Daniel Giertz|43 år, Studerande, Ljungsbro
+C|40945|37|M|Eje Svensson|37 år, IT-konsult, Lambohov
+C|12118|39|K|Sara Larsson|39 år, Beteendevetare, Linköping
+C|12030|33|K|Julie Tran|33 år, Pressekreterare, Linköping
+C|515604|35|M|Diego Saavedra San Juan|
+C|471742|49|M|Magnus Irestig|Linköping, civilingenjör, 49 år
+C|413236|30|K|Madelene Ahlquist|Personlig assistent, 30 år
+C|219330|24|K|Hanna Melin|24år, Samhällsanalytiker, Linköping
+C|413238|45|M|Terje Holmgren|Diversearbetare migration
+C|413239|35|K|Ellinor Svensson|
+C|413240|41|K|Frida Bref|
+C|413241|33|M|Ola Carlsson|Lärare, 33 år
+C|413242|21|K|Mikaela Johansson|Studerande, 21 år
+C|413243|38|K|Maria Wänqvist|38 år, Projektkoordinator
+C|413244|75|K|Agneta Eliason|
+C|304640|38|M|Erik Svansbo|Linköping. 38 år. Civilingenjör
+C|304647|42|M|Kaj Nyström|Linköping. 42 år. Utvecklingschef
+C|9172|32|K|Sara Skyttedal|32, Kommunalråd, Linköping
+C|251602|44|K|Liselotte Fager|Ombudsman, Linköping
+C|251603|39|M|Per Larsson|Regionråd, Linköping
+C|251604|53|M|Magnus Engström|Lärare, Linköping
+C|251605|65|K|Yvonne Svalin|Kanslist, Linköping
+C|251606|60|M|Kjell O Lejon|60, Professor, Linköping
+C|251607|24|M|Johan Häggblom|Civilingenjörsstuderande, Linköping
+C|251608|27|K|Denisé Cassel|Språklärare, Linköping
+C|251609|52|M|Magnus Landberg|Civilingenjör, Linköping
+C|251610|67|K|Berit K Lehnér|Sjuksköterska, Linköping
+C|251611|54|K|Rihab Al Chahaf|Apotekstekniker, Linköping
+C|251612|67|M|Richard Svenselius|Företagare, Skeda
+C|251613|40|K|Tanya Yngström|Sjuksköterska, Linköping
+C|251614|65|M|Süleyman Wannes|Corebiskopos, Linköping
+C|251615|34|M|Martin Holmbom|Läkare, Linköping
+C|251616|70|K|Solveig Danielson|Barnmorska, Linköping
+C|251617|57|M|Stefan Redéen|Läkare, Linköping
+C|251618|53|K|Birgitta Waern|Undersköterska, Linköping
+C|251619|57|M|Anders Riedenfalk|Civilingenjör, Nykil
+C|251620|18|M|Emil Dovrén|Studerande, Linköping
+C|251076|37|M|Fredrik Topplund|Politisk sekreterare, Linköping
+C|251622|76|K|Karin Svensson Nygren|F.d Bankdirektör, Askeby
+C|251623|43|M|Johannes Axelsson|Idrottslärare, Linköping
+C|251624|52|M|Peter Ahlenius|Systemingenjör, Jägarvallen
+C|251625|57|M|Claes Bengtsson|Konsult, Vidingsjö
+C|251626|63|M|Nils Ekman|Konsult, Innerstaden
+C|251627|24|M|Samuel Holm|Studerande, Ryd
+C|251628|41|M|Patrick Vigren|Läkare, Brokind
+C|251629|70|M|Tommy Sennehed|F.d Patienttransportör, Östra Skrukeby
+C|251630|49|M|Håkan Hemäng|Församlingsassistent, Västerby
+C|251631|72|K|Birgitta Larsson|Socionom, Linköping
+C|251632|68|M|Gabor Lorant|F.d Teknisk direktör, Linköping
+C|251633|76|K|Ingegerd Widmark|Fil.mag, Innerstaden
+C|251634|56|M|Fredrik Andrén|Beteendevetare, Linghem
+C|251635|80|M|Jan Widmark|Förtroendevald revisor, Linköping
+C|251636|30|K|Matilda Holmbom|Barnmorska, Innerstaden
+C|251637|76|K|Gudrun Eklund|Lärare, Linköping
+C|251638|50|M|Wycliffe Yumba|Doktorand, Linköping
+C|251639|68|K|Gudrun Lorant|Barnskötare, Vidingsjö
+C|251640|72|K|Annbritt Haraldsson|Pensionerad förskollärare, Johannelund
+C|251641|76|M|Lars Eklund|Kulturpolitiker, Linköping
+C|249299|58|K|Åsa Wennergren|rektor, Vreta Kloster
+C|249309|63|M|Gustaf Appelberg|skådespelare, Linköping
+C|251212|70|M|Gunnar Broman|Kommunalråd, 70 år, Vimanshäll
+C|249305|44|K|Susanna Kellgren Lundberg|förstelärare, Vreta kloster
+C|249316|58|M|Michael Cocozza|företagare, Linköping
+C|249287|52|K|Jaleh Ramezani|egenföretagare, Linköping
+C|249285|43|M|Thomas Bystedt|religionsvetare, Linköping
+C|251217|26|K|Siri Olsson|Lärare, 25 år, Vidingsjö
+C|251218|41|M|Andreas Viborg|Ingenjör, 41 år, Sturefors
+C|249282|43|M|Johan Thorén|företagare, Linköping
+C|249314|46|K|Maria Brahim|byggchef, Lambohov
+C|249294|47|M|Carl-Fredrik Ideström|samhällsvetare, Linköping
+C|249311|38|M|Daniel Ny|student, Linköping
+C|251223|44|K|Vivica Ekedal|Affärsutvecklare, 44 år, Vasastaden
+C|251224|57|M|Patrik Bergenwald|QA, 56 år, Slaka
+C|250611|67|K|Monika Broman|distriktssköterska, 67 år, Linköping
+C|251226|56|M|Mikael Laweby|Egenföretagare, 56 år, Linköping
+C|251227|60|K|Elisabeth Lindström Karlsson|Lärare, 60 år, Berga
+C|251228|36|M|Meron Amanuel|IT-Konsult, 35 år, Ryd
+C|251229|30|M|Jonas Angelöv|CTO, 30 år, Linköping
+C|251230|69|K|Lena Skaring Thorsén|fd Barnmorska, 69 år, Linköping
+C|251231|54|M|Göran Karlsson|Ekonom, 53 år, Vreta kloster
+C|251232|54|M|Peter Trygg|Regionchef, 54 år, Vikingstad
+C|251233|41|K|Charlotta Mård|Ekonom, 42 år, Duvkullen
+C|249313|63|K|Anki Åkerbjörk|administratör, Linköping
+C|251235|65|M|Lars Hagman|Civilekonom, 65 år, Berg Vreta kloster
+C|251236|45|M|Carl-Fredrik Grönhagen|Företagare, 44 år, Hejdegården
+C|251237|47|M|Carl Fredrik Hammarbäck|Civilekonom, 46 år, Centrum
+C|249320|67|M|Christer Mård|styrelseordförande, Linköping
+C|251239|48|M|Pegos Celentini|Tjänsteman, 47 år, Ekängen
+C|251240|25|M|Karl Törnered|Ämneslärarstudent, 25 år, Valla
+C|251241|30|M|Hassan Hassan|Student, 30 år, Ryd
+C|251242|72|M|Lars Alm|Senior, 72 år, Ljungsbro
+C|251243|65|M|Hans Hansson|Egenföretagare, 65 år, Gottfridsberg
+C|251244|78|M|Svante Valfridsson|Pensionär, 77 år, Innerstaden
+C|251245|37|K|Marie Asmarson|Samordnare, 37 år, Lambohov
+C|251246|41|M|Claes Almén|Systemadministratör, 41 år, Vasastaden
+C|251247|72|K|Linnéa Darell|Pensionär, 72 år, Vikingstad
+C|247477|63|K|Madelaine Pavlidis|Leg. sjuksköterska, 63 år
+C|251249|80|K|Lola Björkquist|Pensionär, 80 år, Ekholmen
+C|251250|65|M|Sten Lundberg|Koordinator, 65 år, Vreta kloster
+C|251251|79|M|Bo Einarsson|Tekn dr., 78 år, Ekholmen
+C|251252|84|M|Lars Neselius|Lärarpensionär, 84 år, Berga
+C|251253|74|M|Thord Borg|Pensionär, 74 år, Lambohov
+C|251255|77|K|Monica Wennås|fd Förvaltningschef, 76 år, Hjulsbro
+C|251256|75|M|Ulf Nässén|Bankdir., 75 år, Linköping
+C|251257|67|K|Marie-Louise Hultman|Pensionär, 67 år, Linköping
+C|251258|73|M|Bengt Olsson|Pensionär, 73 år, Linköping
+C|251259|79|K|Gudrun Neselius|Lärare, pensionär, 78 år, Berga
+C|251260|45|M|Marcus Eriksson|Skribent, 45 år, Åbylund
+C|251261|55|M|Per-Ola Lindell|Civilingenjör, 55 år, Vreta kloster
+C|251262|32|K|Caroline Borén|Ekonom, 32 år, Linköping
+C|251263|23|M|Marcus E Andersson|Student, 23 år, T1
+C|251264|76|K|Anna-Christina Ek|Pensionär, 76 år, Innerstaden
+C|251265|57|M|Mats Hirschman|Egenföretagare, 57 år, Södra Hult
+C|251266|32|M|Mårten Thurén|Systemvetare, 32 år, Lambohov
+C|251267|41|M|Mats Lowén|Läkare, 41 år, Ullstämma
+C|251268|44|K|Cecilia Lundgren|Lärare, 44 år, Vidingsjö
+C|251269|72|M|Anders Selbing|Leg. läk. docent, 71 år, Linköping
+C|251270|62|K|Lilian Johansson|Rektor, 61 år, Duvkullen
+C|251271|36|M|Robin Alex|Arbetsförmedlare, 36 år, Tallboda
+C|251272|69|M|Hans Erik Johansson|Pensionär, 69 år, Vreta kloster
+C|251273|66|K|Gunnel Mård|fd Rektor, 66 år, Hejdegården
+C|251274|50|M|Olov Giertz|Egenföretagare, 50 år, Gottfridsberg
+C|251275|66|M|Hans Johansson|Projektledare, 66 år, Duvkullen
+C|251276|74|K|Birgitta Johansson|Pensionär, 74 år, Skeda udde
+C|251277|64|M|Stefan Hammenbeck Eichberger|Konstintendent, 64 år, Innerstaden
+C|335496|60|K|Janina Gröndal|Enhetschef, 60 år, Bestorp
+C|251279|43|M|Daniel Bystedt|Lärare, 43 år, Johannelund
+C|251280|44|M|Jan Myrhman|Personlig assistent, 44 år, Ullstämma
+C|473156|40|M|Khalid Neshati|Projektledare, 39 år, Malmslätt
+C|251281|66|M|Kjell Hansson|Konsult, 66 år, Vasastaden
+C|128576|43|M|Stefan Stjernelund|43, Product Manager, Östergötland
+C|128539|54|M|Erik Lidström|54, Teknologie doktor, Östergötland
+C|382607|31|M|Marcus Lindholm|Friskvårdskonsult, 31 år
+C|382608|52|M|Johan Samuelsson|Butiksmedarbetare, 52 år
+C|420727|39|K|Rebecka Hovenberg|39 år, Miljökonsult
+C|420728|46|M|Björn Immerstrand|46 år, Sakkunnig digitalisering
+C|420729|47|K|Birgitta Rydhagen|47 år, Lektor
+C|420730|50|M|Gunnar Gustafsson|50 år, Statstjänsteman
+C|420731|28|K|Maria Moraes|28 år, Kommunikatör
+C|415991|45|K|Cecilia Gyllenberg Bergfasth|45, Administratör, Linköping
+C|420733|40|M|Petter Mattsson|40 år,Teknisk supportingejör
+C|415602|38|K|Sharmineh Kakoulidis|28, Kvalitetsutvecklare, Linköping
+C|415999|64|M|Johan Bergstedt|64, Skogsinventerare, Linköping
+C|420736|22|K|Lovisa Berglund|22 år, Student
+C|420737|47|M|Joakim Hörsing|47 år, Politisk sekreterare
+C|420738|42|K|Jenny Ivner|42 år, Energiingenjör
+C|415595|36|M|Robert Damberg|36, Träningsansvarig, Vreta Kloster
+C|311110|47|K|Margareta Fransson|47, regionråd, Linköping
+C|420741|43|M|Take Aanstoot|43 år, Företagare
+C|420742|43|K|Sara Ponn|43 år, Civilekonom
+C|420743|30|M|Mario Bergbäck|30 år, Analytiker
+C|420744|24|M|Niklas Wesslander|24 år, Studerande
+C|456423|46|M|Mattias Wingstedt|46 år, Programmerare
+C|420745|70|M|Gert Franzen|70 år, Arkeolog
+C|420746|49|M|Pål Frenger|49 år, Forskningsingenjör
+C|420747|67|M|Olov Öberg|77 år, Fiollärare
+C|420748|34|M|Fredrik Ekström|34 år, Studerande
+C|12395|41|M|Niklas Borg|41 år, Företagare/Kommunalråd
+C|12396|35|M|Erik Östman|35 år, Kommunalråd/Skattehandläggare
+C|3322|54|M|Fredrik Lundén|Lantmästare/Egen företagare, 54 år, Linghem
+C|12398|37|M|Stefan Erikson|37 år, Civilekonom/Egen företagare
+C|12399|36|M|Jerry Broman|36 år, Egen företagare
+C|12400|23|K|Elsa Ericsson|23 år, Säkerhetsrådgivare/Säljare
+C|12401|33|K|Annika Krutzén|33 år, Ekonom
+C|12402|19|M|Henrik Dalgard|19 år, Politisk sekreterare
+C|12403|28|K|Linnea Jägestedt|28 år, Projektsekreterare
+C|12404|75|M|Rolf Edelman|75 år, Sjukhusfysiker
+C|12405|40|M|Christian Gustavsson|40 år, Student/Förbundsordförande
+C|12406|26|M|Petter Nordström|26 år, Affärsjurist
+C|12407|23|M|Markus Konow|23 år, Politisk sekreterare
+C|12408|54|M|Paul Lindvall|54 år, Kommunalråd/Universitetslärare
+C|12409|46|M|Stefan Bogren|46 år, Företagare
+C|12410|20|K|Viktoria Sköld|20 år, Helikopternavigatör
+C|12411|71|K|Agneta Lantz|71 år, Fil.Dr, Universitetslärare
+C|12412|29|M|Daniel Noregran|29 år, Fil.Mag, Statstjänsteman
+C|12413|54|K|Suada Tolic|54 år, Banktjänsteman
+C|12414|64|K|Anna Steiner Ekström|64 år, Ekonom
+C|12415|61|K|Astrid Brissman|61 år, Konsult
+C|12416|77|K|Anita Jonasson Kroon|77 år, Leg. Sjuksköterska
+C|12417|56|K|Susanne Andersson|56 år, Företagare
+C|12418|71|K|Madelaine Erlandsson|71 år, F.d. Egen företagare
+C|12419|30|M|Leif Bronsén|30 år, Projektledare
+C|12420|67|K|Ylva Bjerke|67 år, Pensionär
+C|12421|60|M|Tommy Ählström|60 år, Fastighetschef
+C|12422|49|M|Anders Sydbom|49 år, Polisinspektör
+C|12423|77|M|Rutger Starwing|77 år, Major
+C|3336|44|M|Milad Haddad|Ingenjör/manager, 44 år, Linköping
+C|12425|25|M|William Jonsson|25 år, Civilingenjör
+C|12426|46|M|Oscar Strömblad|46 år, Kammaråklagare
+C|12427|31|K|Sandra Sannemo Bårman|31 år, Projektledare/Coach
+C|12428|37|M|Mattias Persson|37 år, Event Manager
+C|12429|68|M|Per Philipson|68 år, Lantmästare
+C|12430|74|M|Thorleif Gustavsson|74 år, Entreprenör
+C|12431|57|K|Marie Christensen|57 år, Frisör
+C|12432|42|M|Mikael Gustavsson|42 år, HR-chef
+C|12433|72|K|Inger Sjöge|72 år, Speciallärare
+C|12434|73|M|Kjell Brissman|73 år, Pensionär
+C|12435|59|M|Magnus Metander|59 år, Egen företagare/Tjänsteman
+C|12436|68|K|Britt-Marie Fasting|68 år, Fil mag
+C|12437|53|K|Karin Hede|53 år, Finansanalytiker
+C|12438|60|M|Mohammad Al Zoghbi|60 år, Arkitekt
+C|12439|62|M|Ronnie Dahlqvist|62 år, Poliskommissarie
+C|12440|37|M|Michael Romanovic|37 år, Verksamhetschef
+C|12441|49|M|Johan Flyborg|49 år, Administratör
+C|12442|48|K|Eva Jonsson|48 år, Måltidsutvecklare
+C|12443|43|M|Simon Posluk|43 år, Civilekonom/Enhetschef
+C|12444|74|K|Gunilla Möller|74 år
+C|12445|56|K|Ann-Marie Wegman|56 år, HR-konsult
+C|12446|41|M|Nils Blixt|41 år, Kriminalvårdare
+C|12447|67|M|Peter Vestberg|67 år, Konsult/Senior advisor
+C|12448|55|M|Carl-Erik Jonsson|55 år, Företagare
+C|12449|69|M|Nils Ahlberg|69 år, F.d. Kriminalinspektör
+C|12450|60|M|Jan Törnfeldt|60 år, Grundskollärare
+C|12451|52|M|Mats Fahlgren|52 år, Lärare/Koordinator f. integration
+C|12452|22|M|Karl Palm|22 år, Student
+C|12453|42|K|Maria Almesåker|42 år, QA Manager
+C|12454|72|K|Lena Dahlberg|72 år, Pensionär
+C|12455|52|M|Fredrik Lundell|52 år, Röntgenläkare
+C|12456|71|M|Håkan Enquist|71 år
+C|12457|75|M|Per-Arne Fall|75 år, Överläkare PHD
+C|3331|70|M|Elmer Jansson|Senior, 70 år, Linköping
+C|12459|75|K|Ingbritt Törnfeldt|75 år, Teknisk konsult
+C|12460|67|M|Peter Tilly|67 år, F.d. Försäkringsinformatör
+C|12461|79|M|Bo Lennhammar|79 år, Överste
+C|12462|71|M|Torolf Nilzén|71 år, Överstelöjtnant
+C|512920|20|M|Elis Levi Laszlo Vilmos Zara|
+C|442138|25|M|Nicholas Johansson|25,student,Ekkällan
+C|442139|39|M|Magnus Holmgren|39,systemutvecklare,Gottfridsberg
+C|442140|40|M|Pontus Welin|40,systemingejör,Innerstaden
+C|442141|39|M|Tommy Larsson|39,grundskolelärare,Berga
+C|442142|63|M|Thomas Andersson|62,lokförare,Berga
+C|442143|33|M|Alexander Hedman|32
+C|80344|28|M|Jonas Andersson|Gruppledare, Linköping
+C|80345|74|K|Jane Ericsson|fd Sjuksköterska, Linghem
+C|80346|37|M|Klas Ahlberg|Civilekonom, Linköping
+C|80347|64|M|Christer Johansson|Posttjänsteman, Linköping
+C|80348|23|M|Chris Dahlqvist|23, svetsare, Linköping
+C|80349|54|M|Jörgen Ring|54, företagare, Linköping
+C|80350|55|K|Camilla Bekkhus|55, bussförare, Linköping
+C|80351|68|M|Torsten Svärdström|68, officer, Linköping
+C|80352|55|M|Johan Pettersson|55, företagare, Linköping
+C|80353|67|M|Gunnar Franzén|67, bussförare, Linköping
+C|80354|34|M|Christian Nilsson|34, tekniker, Linköping
+C|80355|45|M|Patrik Westlund|45, IT-företagare, Linköping
+C|80356|31|M|Sonny Persson|31, föreläsare, Linköping
+C|80357|73|M|Hans Ericson|73, bilmekaniker, Linköping
+C|80358|25|K|Frida Espenrud|25, kundtjänstmedarbetare, Ramshäll
+C|80359|31|M|Conny Daun|31, lokalvårdare, Linköping
+C|80360|36|M|Peter Andersson|36, civilingenjör, Linköping
+C|80361|37|M|Johan Fritz|37, lantbrukare, Ulrika
+C|80362|60|M|Mats Hallström|60, transportledare, T1
+C|80363|42|M|Erik Thuresson|42, systemtekniker, Linköping
+C|80364|68|M|Tommy Uttke|68, bussförare, Linköping
+C|80365|41|M|Jonas Andersson|41, administratör, Innerstaden
+C|80366|48|M|Bo Eloff|48, ekonom, Ekängen
+C|80367|64|M|Ronny Svensson|64, pensionerad företagare, Vasastaden
+C|80368|58|M|Gerry Hersberg|58, miljöarbetare, Ekholmen
+C|80369|57|M|Jan Andersson|57, chaufför, Vasastaden
+C|80370|49|M|Patrik Lind|49, bilmekaniker, Gottfridsberg
+C|80371|65|M|Erik Söderlund|65, pensionär, Tannefors
+C|80372|50|K|Pethra Johansson|50, ekonom, Ljungsbro
+C|80373|67|M|Tommy Johansson|67, bilmekaniker, Ekholmen
+C|80374|37|K|Camilla Härkönen|37, personlig assistent, Vreta Kloster
+C|80375|46|M|Jan Vallentinsson|46, bilmekaniker, Ljungsbro
+C|80376|62|K|Eva Norberg|62, personlig assistent, Ljungsbro
+C|479435|53|K|Mona Blom|Undersköterska
+C|431297|73|M|Roland Asph|Linköping
+C|58712|37|K|Jessica Eek|37, Sjuksköterska, Linköping
+C|58713|37|M|Björn Alling|37, Fysikforskare, Skäggetorp
+C|58714|37|K|Jane Carlsson|37, Politisk sekreterare, Linköping
+C|58715|34|M|Fredrik Hasselgren|34, Stödassistent, Innerstaden
+C|58716|71|K|Eva Lindblad|71, Pensionär,Ulrika
+C|58717|51|M|Andreas Björklind|51, Psykolog,  T1
+C|58718|19|K|Ronnie Eriksson|19, Student,  Ryd
+C|58719|21|M|Albin Adell Sjöberg|21, Egenföretagare, Linköping
+C|58720|28|K|Klara von Eckardstein|28, Socialsekreterare, T1
+C|58721|32|M|Martin Ackerfors|32, Bibliotekarie, Ljungsbro
+C|58722|71|K|Agneta Eriksson|71, Pensionär, Tallboda
+C|58723|31|M|Martin Öst|31, Lärare, Linköping
+C|58725|68|M|Ingemar E L Göransson|68 Författare, Linghem
+C|58726|35|K|Ida Cronebäck|34, Förskolelärare, Ljungsbro
+C|58727|36|M|Gustav Andreasson|36, Systemutvecklare, Askeby
+C|58728|68|K|Kerstin Sagström|68, fd. Lärare vuxenutbildning, Ekkällan
+C|58729|26|M|Victor Viberg|26, Civilingenjör, Ryd
+C|58730|63|K|Ulla Nilsson|63, Lärare, Linghem
+C|58731|36|M|Martin Forsman|36, Brevbärare, Johannelund
+C|58732|71|K|Karin Flodin|70, Pensionär, Tornhagen
+C|58733|42|M|Kent Johansson|41, Apotekstekniker, Lambohov
+C|58734|53|K|Ulrika Reinholdsson|53, Repertoaransvarig, Innerstaden
+C|58735|30|M|Eddie Andersson|30, Instrumenttekniker,Vasastaden
+C|58736|59|K|Åsa Walan|59, Lärare, Hjulsbro
+C|58737|41|M|Emil Broberg|41, Gruppledare, Linköping
+C|58738|24|M|David Örtenvik|24, Elmontör, Tannefors
+C|58739|26|K|Ana Milutinovic|26, Arbetssökande, Vasastaden
+C|58740|23|M|Jonatan Wassberg|23, Student, Skäggetorp

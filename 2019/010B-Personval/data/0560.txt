@@ -1,7 +1,78 @@
-2|159986|159987|159988|159989|159990|159991|159992|159993|159994|31543|159996|31609|159998|159999|160000|160001|160002|31535|161142|161143|161144|161145|161146|161147|161148|161149
-4|15668|15669|15670|15671|15672|12034|15674|15675|15676|15677|15678|15679|15680|15681
-68|261051|267417|267418|267419|263090|267421|267422
-3|515898
-1|8230|3338|8232|8233|8234|8235|8236|8237|8238|8239|8240|8241
-110|80893|80894
-5|71572
+T|Boxholm
+A|2|159986|159987|159988|159989|159990|159991|159992|159993|159994|31543|159996|31609|159998|159999|160000|160001|160002|31535|161142|161143|161144|161145|161146|161147|161148|161149
+A|4|15668|15669|15670|15671|15672|12034|15674|15675|15676|15677|15678|15679|15680|15681
+A|68|261051|267417|267418|267419|263090|267421|267422
+A|3|515898
+A|1|8230|3338|8232|8233|8234|8235|8236|8237|8238|8239|8240|8241
+A|110|80893|80894
+A|5|71572
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|159986|63|K|Britt-Marie Johansson|
+C|159987|57|M|Johan Birath|
+C|159988|66|M|Arne Karlsson|
+C|159989|68|K|Annika Adolfsson|
+C|159990|74|M|Stig Adolfsson|
+C|159991|65|K|Siw Karlsson|
+C|159992|67|M|Hans Sjögren|
+C|159993|60|K|Janet Åkesson|
+C|159994|65|M|Lars-Bertil Oscarsson|
+C|31543|45|K|Annsofi Ramevik|45 år, arbetsledare, Boxholm
+C|159996|51|M|Henrik M Carlsson|
+C|31609|42|K|Helena Stålhandske|42 år, grundskollärare, Boxholm
+C|159998|41|M|Peter Kjellberg|
+C|159999|34|M|David Hansevi|
+C|160000|53|K|Ann-Charlotte Hallén Mård|
+C|160001|48|M|Claes Sjökvist|
+C|160002|18|M|Hugo Pettersson|
+C|31535|67|M|Per-Arne Larsson|67 år, f.d. reparatör, Boxholm
+C|161142|70|K|Ann-Marie Flink|
+C|161143|71|M|Conny Abrahamsson|
+C|161144|68|K|Monica Karlsson|
+C|161145|66|M|Göran Karlsson|
+C|161146|45|K|Anna Jörnestad|
+C|161147|61|M|Sölve J Rosenlöf|
+C|161148|60|K|Eva Oscarsson|
+C|161149|37|K|Elin Granath|
+C|15668|38|M|Staffan Leufvén|38 år, Uddebo
+C|15669|68|K|Siv Friedmann Björk|68 år, Pålsbo
+C|15670|59|M|Ian Jamieson|59 år, Tumbo Gård
+C|15671|36|K|Therese Leufvén|36 år, Uddebo
+C|15672|75|M|Sune Blom|75 år, Hester
+C|12034|58|K|Anna Jamieson|58 år, Egen företagare, Boxholm
+C|15674|49|M|Gunnar Malgeryd|49 år, Malexander
+C|15675|62|K|Maud Steen|62 år, Ekeby
+C|15676|71|M|Börje Johansson|71 år, Alarp
+C|15677|71|K|Solveig Agnevik|71 år, Svärdsvik
+C|15678|65|M|Anders Gustavsson|65 år, Boxholm
+C|15679|68|K|Elisabeth Ekman|68 år, Skärlunda
+C|15680|64|K|Inger Samuelsson|64 år, Boxholm
+C|15681|79|M|Stig Karlsson|79 år, Malexander
+C|261051|77|K|Elna Eriksson|Pensionär, Boxholm
+C|267417|43|M|Daniel Fredriksson|Egen företagare
+C|267418|66|K|Monika Johansson|F.d Lantbrukare
+C|267419|34|M|Nilsgunnar Johansson|Travtränare
+C|263090|70|M|Evert Andersson|Ingenjör, Boxholm
+C|267421|80|M|Arne Gustavsson|Skogsarbetare
+C|267422|50|K|Anna Lundgren|Skötare
+C|515898|57|K|Eva Bremer|
+C|8230|70|M|Stefan Andersson|Blåvik
+C|3338|81|M|Stig Johansson|Pensionär, 81 år, Boxholm
+C|8232|52|K|Jenny Ledelius|Boxholm
+C|8233|64|M|Sören Norrby|Malexander
+C|8234|69|M|Åke Carlsson|Boxholm
+C|8235|76|M|Jan Hallgren|Boxholm
+C|8236|72|M|Rolf Stenvard|Boxholm
+C|8237|71|K|Birgitta Carlsson|Boxholm
+C|8238|65|M|Åke Sandberg|Boxholm
+C|8239|60|K|Helene Norrby|Malexander
+C|8240|53|M|Nils Huss|Boxholm
+C|8241|68|K|Ylwa Söderström|Boxholm
+C|80893|62|M|Stefan Hallin|62, Montör, Boxholm
+C|80894|50|M|Michael Stark|50, Verkstadsarbetare, Boxholm
+C|71572|61|K|Irene Garperian|61, Sjukpensionär, Boxholm

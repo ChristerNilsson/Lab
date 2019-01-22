@@ -1,13 +1,257 @@
-2|38283|38284|38285|38286|38287|38288|28275|38290|38291|38292|38293|38294|38295|28292|38297|38298|38299|38300|38301|38302|38303|38304|38305|38306|38307|38308|38309|38310|38311|38312|38313|38314|38315|38316|38317|38318|38319|38320|38321|38322|38323|38324|38325|38326|38327|38328|38329|38330|38331|38332|38333|38334|38335|38336|38337|38338|38339|38340|38341|38342|38343|38344|38345
-4|78244|78245|78246|78247|78248|78249|78250|78251|39486|39466|78254|78255|78256|78257|78258|78259|78260|78261|78262|78263|78264|78265|78266|78267|78268
-1136|448809
-189|509511
-532|219284|219334|418006|418007|418008|418009|418010|418011|418012|418013|418014|418015|418016|418017|418018
-68|31681|31687|62840|62841|62842|62843|62844|62845
-3|49211|178981|178982|178983|178984|178985|178986|178987|178988|178989|178990|178991|178992|178993
-55|57660|57661|19563|57663|17256|57665|57666|57667|57668|57669|21552
-1|59852|59853|59854|59855|59856|59857|59858|59859|59860|59861|59862|59863|59864|59865|59866|59867|59868|59869|59870|59871|59872|59873|59874|59875|59876|59877|59878|59879|59880|59881|59882|59883|59884|59885|59886|59887|59888|59889|59890|59891|59892
-1368|509168
-110|82351|82352|82353|82354|82355|82356|82357|82358|82359|82360|82361|82362|82363|82364|82365|82366|82367|82368|82369
-5|112136|112137|112138|112139|112140|112141|112142|112143|112144|112145|112146|112147|112148|112149|112150|112151
-422|440809|440810|440811|440812|440813|440814|440815|440816|440817|440818|440819|440820|440821|440822|440823|440824
+T|Simrishamn
+A|2|38283|38284|38285|38286|38287|38288|28275|38290|38291|38292|38293|38294|38295|28292|38297|38298|38299|38300|38301|38302|38303|38304|38305|38306|38307|38308|38309|38310|38311|38312|38313|38314|38315|38316|38317|38318|38319|38320|38321|38322|38323|38324|38325|38326|38327|38328|38329|38330|38331|38332|38333|38334|38335|38336|38337|38338|38339|38340|38341|38342|38343|38344|38345
+A|4|78244|78245|78246|78247|78248|78249|78250|78251|39486|39466|78254|78255|78256|78257|78258|78259|78260|78261|78262|78263|78264|78265|78266|78267|78268
+A|1136|448809
+A|189|509511
+A|532|219284|219334|418006|418007|418008|418009|418010|418011|418012|418013|418014|418015|418016|418017|418018
+A|68|31681|31687|62840|62841|62842|62843|62844|62845
+A|3|49211|178981|178982|178983|178984|178985|178986|178987|178988|178989|178990|178991|178992|178993
+A|55|57660|57661|19563|57663|17256|57665|57666|57667|57668|57669|21552
+A|1|59852|59853|59854|59855|59856|59857|59858|59859|59860|59861|59862|59863|59864|59865|59866|59867|59868|59869|59870|59871|59872|59873|59874|59875|59876|59877|59878|59879|59880|59881|59882|59883|59884|59885|59886|59887|59888|59889|59890|59891|59892
+A|1368|509168
+A|110|82351|82352|82353|82354|82355|82356|82357|82358|82359|82360|82361|82362|82363|82365|82366|82367|82368|82369
+A|5|112136|112137|112138|112139|112140|112141|112142|112143|112144|112145|112146|112147|112148|112149|112150|112151
+A|422|440809|440810|440811|440812|440813|440814|440815|440816|440817|440818|440819|440820|440821|440822|440823|440824
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1136|DjuP|Djurens parti
+B|189|ENH|Enhet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1368||Partiet Horisont
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|422|ÖstP|Österlenpartiet
+C|38283|59|M|Karl Erik Olsson|Kommunalråd Gärsnäs
+C|38284|61|K|Pia Ingvarsson|Kanslist/ekonomi, Simrishamn
+C|38285|61|M|Christer Grankvist|Utbildningschef, Simrishamn
+C|38286|48|K|Berit Olsson|Undersköterska Skillinge
+C|38287|53|M|Per Andersson|Egen företagare VD Skillinge
+C|38288|68|K|Ann-Christin Råberg|Sankt Olof
+C|28275|58|M|Göran S Persson|Ombudsman, Simrishamn
+C|38290|58|K|Else-Beth Rolf|Skötare, Simrishamn
+C|38291|54|M|Jan Vokoun|Baskemölla, Simrishamn
+C|38292|58|K|Anita Olsson|Gärsnäs
+C|38293|67|M|Lennart Månsson|Arbetsförmedlare Simrislund
+C|38294|57|K|Christl Bengtsson|Sankt Olof
+C|38295|74|M|Lars Johansson|Senior rådgivare Simrislund
+C|28292|19|K|Linda Olsson|Studerande, Simrishamn
+C|38297|60|M|Jan-Erik Persson|Hammenhög
+C|38298|66|K|Birgitta Öman|Pensionär Sankt Olof
+C|38299|60|M|Peter Bernhorn|Utredare Östra Vemmerlöv
+C|38300|44|K|Kitty Verngren|Undersköterska, Simrishamn
+C|38301|63|M|Benny Hedlund|Underskötare Simrishamn
+C|38302|43|K|Ulrika Persson|Administrativ resurs, Simrishamn
+C|38303|62|M|Ulf Bengtsson|Sankt Olof
+C|38304|67|K|Agneta Åhlin|Barnskötare, Simrishamn
+C|38305|39|M|Andreas Sjögren|Ombudsman Byggnads Sankt Olof
+C|38306|75|K|Gerd Lundin|Simrislund
+C|38307|52|M|Fredrik Olsson|Lagerarbetare Skillinge
+C|38308|32|K|Rawan Halbouni|Assistent Simrishamn
+C|38309|24|M|Anton Wikbourn|Målare Simrislund
+C|38310|71|K|Ingalill Bjartén|Hannas
+C|38311|40|M|Christian Olsson|Egen företagare Gärsnäs
+C|38312|56|K|Ylva Björkman|Undersköterska Simrishamn
+C|38313|51|M|Robert Grandelius|Bygg Entreprenör Hannas
+C|38314|62|K|Britt-Marie Wrahme|Behandlingsassistent Simrislund
+C|38315|28|M|Viktor Sjögren|VVS montör Sankt Olof
+C|38316|51|K|Heléne Buhre|Undersköterska Sankt Olof
+C|38317|70|M|Tommy Arvastsson|Pensionär Simrishamn
+C|38318|50|K|Madeleine Göransson|Undersköterska Hannas
+C|38319|69|M|Carl-Arne Åhlin|Pensionär Simrishamn
+C|38320|61|K|Pia Österlind|Personlig assistent Brantevik
+C|38321|67|M|Hasse Bengtsson|Fil kand Östra Vemmerlöv
+C|38322|38|K|Ingela Thorsson|Sankt Olof
+C|38323|67|M|Bengt Bengtsson|Kommunekolog Simrishamn
+C|38324|57|K|Munira Mujezinovic|Simrishamn
+C|38325|71|M|Göran Thorén|Postiljon Simrishamn
+C|38326|76|K|Ethel Sjölin|Skillinge
+C|38327|69|M|Tommy Nilsson|Fd Golvläggare Simrislund
+C|38328|60|M|Anders Larsson|Fastighetsskötare Simrishamn
+C|38329|72|M|Thomas Öhlin|Folkhögskollärare Skepparp
+C|38330|53|M|Mikael Engström|Spackeloperatör Simrislund
+C|38331|65|M|Leif Lindstrand|Handläggare Simrishamn
+C|38332|58|M|Ulf Hermansson|Underhållstekniker Gröstorp
+C|38333|74|M|Jan-Eskil Göransson|Målare Pensionär Hannas
+C|38334|46|M|Miechael Strömberg|Pedagog Hammenhög
+C|38335|56|M|Mats Persson|Målare Simrislund
+C|38336|55|M|Anders Jönsson|Ekonom Simrishamn
+C|38337|50|M|Tommy Nilsson|Anläggare Sankt Olof
+C|38338|63|M|Gert-Åke Rolf Mårtensson|Yrkeslärare Hammenhög
+C|38339|74|M|Håkan Arvidsson|Baskemölla
+C|38340|52|M|Björn Månsson|Förskollärare Borrby
+C|38341|81|M|Lars-Gunnar Björnsson|Gymn.Dir.Emeritus Gislöv
+C|38342|71|M|Eje Berglund|Pensionär Målare Gärsnäs
+C|38343|63|M|Sven-Uno Enarsson|Förskollärare Gislöv
+C|38344|67|M|Åke Malmborg|Pensionär Borrby
+C|38345|70|M|Jan-Ebbe Petersson|Simrishamn
+C|78244|68|M|Carl-Göran Svensson|Tandläkare, Hammenhög, 68
+C|78245|66|K|Anita Svensson|Sjuksköterska, Borrby, 67
+C|78246|50|M|Mats Bengtsson|Aukt.socionom, Ö Hoby, 50
+C|78247|68|M|Håkan Erlandsson|Företagare, Simrishamn, 68
+C|78248|53|K|Ingela Nilsson|Barnledare, Sankt Olof, 53
+C|78249|40|M|Henrik Mårtensson|Företagare, Ö Vemmerlöv, 40
+C|78250|66|K|Irene Hansson|Förskollärare, Simrishamn, 66
+C|78251|59|M|Martin Nkoubou|Lärare, Sankt Olof, 59
+C|39486|36|K|Anna Ling|Folkhälsopedagog, 36, Gärsnäs
+C|39466|76|M|Jan Persson|Pensionär, 76, Borrby
+C|78254|53|K|Gunilla Carlecrantz|Projektledare, Södra Mellby, 52
+C|78255|44|M|Rikard Sköld|Företagare, Gladsax, 44
+C|78256|60|K|Margareta Nilsson|Lokalvårdare, Ö Vemmerlöv, 61
+C|78257|62|M|Anders Turesson|Lantbrukare, Sankt Olof, 62
+C|78258|49|K|Susanne Johansson|Medicinsk Sekreterare, Vitaby, 49
+C|78259|69|M|Nils-Inge Nilsson|Lantbrukare, Grevlunda Vitaby, 69
+C|78260|48|M|Jens Lundgren|Redovisningskonsult, Simrishamn, 48
+C|78261|63|M|Sven-Olle Svensson|Kyrkovaktmästare/fruktodlare, Ravlunda, 64
+C|78262|49|M|Pontus Myrén|Säljare, Sankt Olof, 49
+C|78263|43|K|Anna Månsson|Agronom, Hammenhög, 42
+C|78264|72|M|Bertil Bjerstam|Pensionär, Simrishamn, 72
+C|78265|66|M|Lars-Erland Einarsson|Miljörevisor, Sandby, 66
+C|78266|61|M|Bengt Svensson|Kyrkovaktmästare, Vik, 61
+C|78267|82|K|Britt Larsson|F.d.undersköterska/skötare, Simrishamn, 82
+C|78268|57|M|Sven-Erland Svensson|Lantbrukare, Tommarp, 57
+C|448809|49|K|Therese Ericsson|Simrishamn, lärare, systemvetare, 49 år
+C|509511|40|M|Vide Geiger|IT-konsult, Simrishamn
+C|219284|70|K|Gudrun Schyman|70år, Socionom, Simrishamn
+C|219334|61|K|Margarethe Kuhn Müntzing|61år, Skolkurator, Simrishamn
+C|418006|59|K|Ingmarie Jacobsen|59 år, Västanbäck
+C|418007|37|K|Thora L Norgård|37 år, scenkonstproducent, Simrishamn
+C|418008|80|M|Staffan Olzon|80 år, författare, Stenshuvud
+C|418009|70|K|Gun Lidman Nilsson|70 år, fd gymnasielärare, Borrby
+C|418010|63|K|Ann Christine Hildmar|62 år, enhetschef socialpsykiatri, Simrishamn
+C|418011|77|M|Jacques Öhlund|77 år, arkitekt, Gladsax
+C|418012|64|K|Maria Elena Bergman|64 år, fil. dr lektor i pedagogik, Gnalöv
+C|418013|70|M|Anders Eneborg|69 år, fd projektledare, Simrishamn
+C|418014|54|K|Matilda Pyk|54 år, kulturarbetare, Östra Hoby
+C|418015|65|M|Ulf Mårtensson|65 år, fd rektor, Skillinge
+C|418016|34|K|Ann-Sofie Pellas|33 år, student, Grevlunda
+C|418017|66|M|Björn Bergman|66 år, lärare, Gnalöv
+C|418018|70|M|Alf Nilsson|70 år, fd IT-chef, Borrby
+C|31681|60|K|Anne-Li Roshagen|60 år, Specialistsjuksköterska, Hammenhög
+C|31687|53|M|Paul Frogner Kockum|53 år, Miljöforskare, Simrishamn
+C|62840|39|M|Pär Rosenberg|39 år, Sjöingenjör, Skillinge
+C|62841|72|K|Elisabet Biratu|72 år, Universitetsadjunkt, Borrby
+C|62842|66|K|Yvonne Fröjd-Sonesson|66 år, Ekonom, Brantevik
+C|62843|68|M|Tomas Svensson|68 år, Präst, Simrishamn
+C|62844|61|M|Jan Reimer|61 år, Ingenjör, Simrishamn
+C|62845|57|M|Erik Olsson|57 år, Antikvariatshandlare, Simrishamn
+C|49211|41|K|Malin Henriksson|jur kand, Simrishamn
+C|178981|67|M|Christer Hallerby|Simrishamn
+C|178982|55|K|Catarina Genberg|företagare, Simrishamn
+C|178983|57|K|Lotta Hildebrand|företagare, Tommarp
+C|178984|61|M|Sven Olof Andersson Hederoth|civilingenjör, Östra Hoby
+C|178985|64|K|Ylva Stockelberg Deilert|konsult, Simrishamn
+C|178986|57|K|Katja Åsbäck von Meyburg|företagare, Hannas
+C|178987|70|K|Jacqueline Lynd-Johansson|konstnär, St Olof
+C|178988|70|M|Åke Andrén-Sandberg|Borrby
+C|178989|78|K|Birgitta Larsson|f.d. lärare, Simrishamn
+C|178990|72|M|Mats Arnoldsson|ekonom, Vik
+C|178991|72|K|Pia Nordström|f.d. högstadie- och gymnasielärare, Simrishamn
+C|178992|82|K|Inga Lill Högberg|journalist, Södra Melby
+C|178993|74|M|Rolf Rönnerstam|läkare, Skillinge
+C|57660|64|M|Hans-Olof Höglund|universitetslärare, Östra Vemmerlöv
+C|57661|74|K|Lisa Kvarnbäck|informatör, Östra Vemmerlöv
+C|19563|69|M|Roland Thord|Teknologie doktor, 69 år, Simrishamn
+C|57663|78|K|Siv Bildtsén|lärare, Sankt Olof
+C|17256|62|M|Thomas Hansson|Landskapsarkitekt, 62 år, Rörum
+C|57665|51|K|Lotta Beskow|barn- och ungdomspsykiater, Vik
+C|57666|51|M|Johan Niss|biolog, Kivik
+C|57667|41|K|Ayla Altay|kvalitetsoperatör, Järrestad
+C|57668|41|M|Pontus Ekström|kustbevakningstjänsteman, Simrishamn
+C|57669|54|M|Henrik Grimheden|präst, Gyllebo
+C|21552|70|K|Ann Touré|Senior, 70 år, Gyllebo
+C|59852|45|M|Henric Appelkvist|45 år, företagare, Simrishamn
+C|59853|46|K|Jeanette Ovesson|46 år, lärare, Skillinge
+C|59854|52|K|Jaennine Olesen|52 år, fastighetsmäklare, Simrishamn
+C|59855|73|K|Maria Linde Strömberg|73 år, f.d. adm. direktör, Skillinge
+C|59856|62|M|Christer Akej|62 år, civilingenjör, Hammenhög
+C|59857|35|K|Frida Törnquist|35 år, resesäljare, Sankt Olof
+C|59858|56|M|Anders Johnsson|56 år, företagare, Rörum
+C|59859|73|M|Alf-Göran Andersson|73 år, projektledare, Kivik
+C|59860|19|K|Hanna Persson|19 år, studerande, Simrishamn
+C|59861|49|M|Christian Esbjörnsson|49 år, hotellchef, Simrishamn
+C|59862|62|K|Anne Olofsdotter|62 år, arbetsmarknadsstrateg , Brantevik
+C|59863|45|M|Frederick Thott|45 år, brandman, Simrishamn
+C|59864|71|K|Kristina Åhberg|71 år, ekonom, Simrishamn
+C|59865|69|K|Kristina Nilsson|69 år, företagare, Sankt Olof
+C|59866|56|M|Bo Kristoffersson|55 år, utbildningschef, Ö Vemmerlöv
+C|59867|69|M|Sven Olsson|68 år, f.d. utvecklingschef, Brantevik
+C|59868|73|M|Bo Håkansson|73 år, f.d. köpman, Simrishamn
+C|59869|55|M|Peter Rimsby|55 år, företagare, Gladsax
+C|59870|36|K|Anna Hennix|35 år, projektledare, Ö Herrestad
+C|59871|68|M|Kaj Ovesson|68 år, lantbrukare, Skillinge
+C|59872|65|K|Ingela Bröndel|65 år, administrativchef, Rörum
+C|59873|62|M|Matts Karlsson|62 år, lantmästare, Gärsnäs
+C|59874|72|K|Annika Månsson|72 år, bankman, Simrishamn
+C|59875|72|K|Anitha Lindqvist|72 år, f.d. fastighetsmäklare, Kivik
+C|59876|76|M|Jan-Erik Månsson|76 år, civilekonom, Simrishamn
+C|59877|77|M|Sven Bladh|77 år, entreprenör, Kivik
+C|59878|74|M|Carl Strömberg|74 år, fil. kand., Skillinge
+C|59879|73|M|Jarl Kemnefeldt|73 år, företagare, Simrishamn
+C|59880|71|K|Monica Engebo|71 år, pensionär, Simrishamn
+C|59881|69|M|Lage Engebo|69 år, pensionär, Simrishamn
+C|59882|70|K|Kristina Petersson|70 år, f.d regionchef, Rörumsstrand
+C|59883|62|M|Svante Aspelin|62 år, hotelldirektör, Brantevik
+C|59884|72|M|Lars Ragnarsson|72 år, pensionär, Ö Tommarp
+C|59885|32|M|Bilal Ejaz|32 år, projektkoordinator, Simrishamn
+C|59886|73|M|Ebbe Bernsell|73 år, pol. mag., Brantevik
+C|59887|43|M|Fredrik Trane|43 år, företagare, Ö Tommarp
+C|59888|66|K|Livia Laks|66 år, redovisningskonsult, Vitaby
+C|59889|75|K|Karin Fellström|75 år, socionom, Brantevik
+C|59890|73|M|Lars-Gösta Nilsson|73 år, f.d. företagsledare, Kivik
+C|59891|70|M|Stefan Lamme|70 år, överläkare, Kivik
+C|59892|71|M|Ingemar Nilsson|71 år, agronom, Skillinge
+C|509168|67|M|Svante Peterson|
+C|82351|46|M|Fredrik Ramberg|Resemontör, Simrishamn
+C|82352|52|M|Tomas Assarsson|Lärare, 52 år
+C|82353|64|M|Thomas Paulsson|Hammenhög, Tidningsombud
+C|82354|67|M|Hans Dahlqvist|Simrishamn, Byggare
+C|82355|48|M|Patrik Coucher|Simrishamn, VVS-montör
+C|82356|55|M|Bengt-Åke Lindell|Gärsnäs, Maskinoperatör
+C|82357|51|M|Daniel Kronvall|Gladsax, Egenföretagare
+C|82358|44|K|Jenny Assarsson|Borrby, Omsorgsassistent
+C|82359|68|M|Peo Nilsson|Borrby, Pensionär
+C|82360|60|K|Ann-Katrin Nilsson|Borrby, Egenföretagare
+C|82361|68|M|Christer Génetay|Skräddaröd, Sjöbefäl
+C|82362|64|K|Gulli Nilsson|Simrishamn, Assistent
+C|82363|56|M|Christer Borggren|Hammenhög, Industriarbetare
+C|82365|53|M|Jan Christensson|Kivik, Robot-operatör
+C|82366|79|M|Kjell Lindström|Pensionär, 78 år
+C|82367|64|M|Alf Persson|Borrby, Matros
+C|82368|60|M|Bo Lindström|Simrishamn, Pensionär
+C|82369|42|M|Mikael Hiltomaa|Simrishamn, Maskinförare
+C|112136|64|M|Mats Sundbeck|doktorand, Simrishamn
+C|112137|65|M|Ingemar Hansson|Simrishamn
+C|112138|72|K|Margareta Hagstad|Brantevik
+C|112139|63|K|Laura Ilabaca|Simrishamn
+C|112140|71|M|Sture Antonsson|pensionerad lärare, Brantevik
+C|112141|77|K|Sara Granberg|Simrishamn
+C|112142|69|M|Per Thorstad|Simrishamn
+C|112143|67|K|Gudde Bergsland|Örnahusen
+C|112144|70|M|Eje Hellerstedt|Örnahusen
+C|112145|66|K|Margareta Thorstad Törnberger|Simrishamn
+C|112146|42|M|Björn Wallebom|arkeolog, Gladsax
+C|112147|63|K|Eva Cederberg|Simrishamn
+C|112148|65|M|Per Bergman|Tommarp
+C|112149|53|M|Finn Thorsen|Baskemölla
+C|112150|65|K|Eva Adem|Baskemölla
+C|112151|68|M|Per Erik Lantz|Simrishamn
+C|440809|72|M|Christer Persson|Gnalöv
+C|440810|71|M|Kjell Dahlberg|S:t Olof
+C|440811|74|K|Gunilla Aastrup Persson|Tommarp
+C|440812|74|M|Christer Vigren|Simrishamn
+C|440813|57|K|Elisabeth Silve|Vallby
+C|440814|68|M|Mats Kaldvee|Simrishamn
+C|440815|77|K|Gerd Holm|Simrishamn
+C|440816|71|M|Olle Olsson|Vik
+C|440817|68|M|Beat Senn|Gislöv
+C|440818|76|M|Agne Johnsson|Gyllebo
+C|440819|73|K|Inga-Lill Cedergren|Simrishamn
+C|440820|64|K|Karin S. Pedersen|Skillinge
+C|440821|66|K|Eva Persson|Gnalöv
+C|440822|91|M|Stig Söderberg|Skillinge
+C|440823|76|M|Johnny Cedergren|Simrishamn
+C|440824|86|M|Hugo Malmström|Simrishamn

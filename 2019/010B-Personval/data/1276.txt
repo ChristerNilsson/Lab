@@ -1,10 +1,200 @@
-2|27881|27882|27883|27884|27889|27890|27891|27892|27893|27894|27895|27896|27897|27898|27899|27900|27917|27918|27919|27920|27921|27943|27944|27945|27946|27947|27948|27949|27950|27951|27952|27953|27954|27955|27956|27957|27958|27959|27960|27961|27962
-4|48856|48857|48858|48859|48860|48862|48863|48864|48865|48866|48867|48868|48869|48871|48872|48873
-68|31978|31979|31776|31981|31982|31983|31984|31985|31986|31987|31988|31989|31990|31991|31992|31993|31994|31995|31996|31997
-3|56190|56191|56192|56193|56194|56195|56196|56197|56198|56199
-55|177557|177558|177559|177560|177561|177822|22062|177824|177825
-1|69160|62846|62847|62848|62849|62850|62851|62852|62853|62854|62855|62856|62857|62858|62859|62860|62861|62862|62863|62864|62865|62866|62867|62868|62869|62870|62871|62872|62873|62874|62875|62876|62877|62878|62879|62880|62881|62882|62883|62884|62885|62886
-524|450705
-110|53878|53879|53880|53881|53882|53883|53888|53885|53886|53887|53889|53884|53890|53892|53893|53894|53895|53896|53898
-1393|506840|191866|27954|506843|506844|506845|506846|506847|506848|506849|506850|506851|506852|506853|506854|506855|506856|506857|506858|506859
-5|128112|485630|485631|485632|485633
+T|Klippan
+A|2|27881|27882|27883|27884|27889|27890|27891|27892|27893|27894|27895|27896|27897|27898|27899|27900|27917|27918|27919|27920|27921|27943|27944|27945|27946|27947|27948|27949|27950|27951|27952|27953|27955|27956|27957|27958|27959|27960|27961|27962
+A|4|48856|48857|48858|48859|48860|48862|48863|48864|48865|48866|48867|48868|48869|48871|48872|48873
+A|68|31978|31979|31776|31981|31982|31983|31984|31985|31986|31987|31988|31989|31990|31991|31992|31993|31994|31995|31996|31997
+A|3|56190|56191|56192|56193|56194|56195|56196|56197|56198|56199
+A|55|177557|177558|177559|177560|177561|177822|22062|177824|177825
+A|1|69160|62846|62847|62848|62849|62850|62851|62852|62853|62854|62855|62856|62857|62858|62859|62860|62861|62862|62863|62864|62865|62866|62867|62868|62869|62870|62871|62872|62873|62874|62875|62876|62877|62878|62879|62880|62881|62882|62883|62884|62885|62886
+A|524|450705
+A|110|53878|53879|53880|53882|53883|53888|53885|53887|53889|53884|53890|53892|53893|53894|53896|53898
+A|1393|506840|191866|27954|506843|506844|506845|506846|506847|506848|506849|506850|506851|506852|506853|506854|506855|506856|506857|506858|506859
+A|5|128112|485630|485631|485632|485633
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|524|PP|Piratpartiet
+B|110|SD|Sverigedemokraterna
+B|1393||VÅR FRAMTID - KLIPPAN
+B|5|V|Vänsterpartiet
+C|27881|47|M|Johan Petersson|Ombudsman, Klippan
+C|27882|54|K|Kerstin Persson|Specialpedagog, Klippan
+C|27883|56|M|Michael Nemeti|Klippan, familjebehandlare
+C|27884|69|K|Gunilla Svensson|Pensionär, Klippan
+C|27889|65|M|Kent Lodesjö|Klippan, fd vaktmästare
+C|27890|50|K|Eva Stjärnlind|Klippan, familjebehandlare
+C|27891|69|M|Rune Persson|Klippan, socionom
+C|27892|48|K|Charlotta Gudmundsson|Klippan, försäljningschef
+C|27893|55|M|Ola Persson|Hyllstofta, byggnadsarbetare
+C|27894|42|K|Jessica Svensson|Klippan, butikschef
+C|27895|51|M|Paul Gustafsson|Efterbearbetare, Klippan
+C|27896|77|K|Gun Ohrberg|Klippan, leg.sjuksköterska
+C|27897|71|M|Boris Svensson|Klippan, fd vaktmästare
+C|27898|58|K|Neyssa Lundmark|Klippan, språklärare
+C|27899|40|M|Anders Nilsson|Klippan, elektriker
+C|27900|70|K|Rose-Marie Svensson|Klippan, lokalvårdare
+C|27917|69|M|Mats Waldemarsson|Klippan, teletekniker
+C|27918|29|K|Ida Wennerlund|Klippan, studerande
+C|27919|46|M|Anders Nilsson|Klippan, undersköterska
+C|27920|48|K|Annette Nilsson|Klippan, butiksbiträde
+C|27921|62|M|Ulf Säther|Klippan, grävmaskinist
+C|27943|63|K|Monika Johansson Jarl|Klippan, pensionär
+C|27944|56|M|Bo Erik Feldt|Klippan, anläggningsarbetare
+C|27945|54|K|Pia Wåhlin|Klippan, socialsekreterare
+C|27946|40|M|Magnus Carlsson|Klippan, fackligt anställd IF Metall
+C|27947|59|K|Karin Hervén|Klippan, lagerarbetare
+C|27948|67|M|Lennart Johansson|Klippan, pensionär
+C|27949|57|K|Paulin Enhörning|Ljungbyhed, undersköterska
+C|27950|47|M|Mikael Gudmundsson|Klippan, arbetsledare
+C|27951|88|K|Ulla Warvne|Klippan, pensionär
+C|27952|74|M|Olle Nilsson|Klippan, pensionär
+C|27953|53|M|Mikael Wåhlin|Klippan, administratör
+C|27955|70|M|Bengt Bodén|Ljungbyhed, fd flygplanstekniker
+C|27956|74|M|Harald Hansen|Stidsvig, pensionär
+C|27957|73|M|Lars Håkansson|Klippan, tekniker
+C|27958|74|M|Lennart Persson|Klippan, förman
+C|27959|68|M|Thorbjörn Petersen|Klippan, fd redaktör
+C|27960|65|M|Torbjörn Schöldström|Klippan, lokalvårdare
+C|27961|53|M|Bengt Olsson|Klippan, datatekniker
+C|27962|51|M|Hans Svensson|Ljungbyhed, mikrofontekniker
+C|48856|27|K|Johanna Andersson|Djursjukvårdare, 26, Krika
+C|48857|51|M|Christer Johansson|Styrkeledarer, 50, Klippan
+C|48858|69|M|Börje Norén|Fd.kultur- och fritidschef, 69, Källna
+C|48859|60|M|Mikael Persson|IT-tekniker, 59, Bläsinge Ängar
+C|48860|42|K|Diana Broman|IT-konsult, 42, Ljungbyhed
+C|48862|74|M|Bo Andersson|Snickare, 73, Ljungbyhed
+C|48863|75|M|Carl-Axel Wilhelmsson|Elinstallatör, 75, Söndraby
+C|48864|47|K|Ingela Jönsson|Lantbrukare, 46, Färingtofta
+C|48865|51|K|Pernilla Ahlberg|Företagare, 50, Ljungbyhed
+C|48866|80|M|Torsten Johansson|Fd.ställföreträdande räddningschef, 79, Klippan
+C|48867|43|K|Ingemo Nilsson|Barnskötare, 42, Söndraby
+C|48868|65|K|Janet Nilsson Norén|F.d.förskolechef, 65, Källna
+C|48869|76|K|Gunnel Johansson|Fd.VD Företagshälsovård, 75, Källna
+C|48871|75|M|Ingvar Nilsson|Lantbrukare, 75, Ishult
+C|48872|76|M|Bengt Amilon|Lantbrukare, 76, Övad
+C|48873|84|M|Carl-Arvid Reinholdz|Lantbrukare, 84, Färingtofta
+C|31978|47|M|Robert Larsson|Fastighetstekniker, Anderstorp
+C|31979|37|K|Charlotte Eliasson Anderberg|Pedagogisk utvecklare, Klippan
+C|31776|54|K|Bodil Andersson|54 år, Massör, Klippan
+C|31981|42|K|Kerstin Meinen|Affärsutvecklare, Ljungbyhed
+C|31982|34|K|Sara Silvegren|Kurator, Klippan
+C|31983|56|M|Anders Johansson|Kemist, Fastarp
+C|31984|57|K|Madeleine Ljungberg|Egen företagare, Klippan
+C|31985|57|K|Helene Lindstedt|Administratör, Ljungbyhed
+C|31986|58|M|Anders Andersson|Arbetsledare, Ljungbyhed
+C|31987|41|M|Henry Danielsson|Vaktmästare, Klippan
+C|31988|50|M|Agnar Helgason|Pedagog, Ljungbyhed
+C|31989|66|K|Ljerka Cacija|Specialpedagog, Klippan
+C|31990|71|K|Elisabeth Assarson-Marsh|Sångpedagog, Bonarp
+C|31991|73|M|Ingmar Pålsson|Pensionär, Klippan
+C|31992|65|K|Lisbeth Fleur|Assistent, Klippan
+C|31993|60|M|Anto Cacija|Fastighetsskötare, Klippan
+C|31994|39|M|Johan Eliasson|Operations coordinator, Klippan
+C|31995|65|K|Ragnhild Karlsson|Leg.sjuksköterska, Klippan
+C|31996|67|M|Jan Gustafsson|Frälsningssoldat, Klippan
+C|31997|71|K|Margareta Dahlgren|fd Karttekniker, Penarp
+C|56190|52|M|Tommy Cedervall|Forskare, Skäralid
+C|56191|65|K|Iréne Dahl|Klippan
+C|56192|61|K|Annika Ingelström Nilsson|Pedagog, Östra Ljungby
+C|56193|47|M|Mats Olofsson|Lärare, Klippan
+C|56194|55|M|Lars Roslund|Montör, Pappersbruket
+C|56195|72|K|Elisabeth Forssell|Översättare, Farstorp
+C|56196|71|M|Claes Olsson|Skogsmästare, Spången
+C|56197|70|M|Nils-Olof Johansson|Pensionär, Spången
+C|56198|30|M|Andreas Nilsson|Studerande, Ljungbyhed
+C|56199|64|K|Anita Svegart|Lärare, Klippan
+C|177557|31|K|Karoline Lexenius|31 år, Samhällsvetare, Klippan
+C|177558|37|M|Conny Berg|37 år, Industriarbetare, Vedby
+C|177559|32|M|Suleyman Erdem|32 år, Ekonom, Klippan
+C|177560|46|M|Johan Bengtsson|46 år, Programmerare, Ljungbyhed
+C|177561|28|M|Mattias Lexenius|28 år, Undersköterska, Klippan
+C|177822|51|K|Cecilia Örnemark|51 år, Leg. psykoterapeut, Ljungbyhed/Riseberga
+C|22062|50|M|Jörgen Bjerknäs|Driftingenjör, 50 år, Klippan
+C|177824|52|M|Roger Sjunner|52 år, Bitr. rektor, Källna
+C|177825|68|M|Rudolf Bachmann|68 år, Pensionär, Klippan
+C|69160|68|M|Hans Bertil Sinclair|68 år, f.d. flygvapenofficer, Klippan
+C|62846|59|K|Ellinor Varady|59 år, hushållslärare/matjournalist, Hyllstofta
+C|62847|45|M|Magnus Jorsell|45 år, företagare, Ljungbyhed
+C|62848|32|M|Tonny Svensson|32 år, systemutvecklare, Klippan
+C|62849|64|K|Charlotte Långberg|64 år, butiksägare, Klippan
+C|62850|40|K|Anna Andresen|40 år, marknadsföringsassistent, Ljungbyhed
+C|62851|54|M|Kristian Seger|54 år, platschef, Allarp
+C|62852|68|K|Ingegerd Hagelin|68 år, f.d. distrikschef, Västra Forestad
+C|62853|66|M|Christer Persson|66 år, exportansvarig, Spången
+C|62854|37|K|Therese Långberg|37 år, undersköterska, Klippan
+C|62855|32|M|Mattias Skog|32 år, montör/skogsbrandman, Klippan
+C|62856|72|K|Kristina Jonsson|72 år, f.d. företagare, Spången
+C|62857|42|M|Thomas Andresen|42 år, byggnadsingenjör, Ljungbyhed
+C|62858|24|K|Simone Nilsson|24 år, kontorsassistent, Söndraby
+C|62859|33|M|Mikael Olsson|33 år, företagare, Östra Ljungby
+C|62860|62|K|Cecilia Scott|62 år, distriktssköterska, Klippan
+C|62861|19|M|Kevin Lindqvist|19 år, studerande, Krika
+C|62862|68|K|Teresa Johansson|68 år, egenföretagare, Klippan
+C|62863|67|M|Bengt Svensson|67 år, ingenjör, Östra Ljungby
+C|62864|50|K|Helen Viebke Dahlberg|50 år, egenföretagare, Vedby
+C|62865|70|M|Istvan Sarközi|70 år, pensionär, Klippan
+C|62866|47|K|Anna-Mia Jönsson|47 år, grafisk formgivare, Allarp
+C|62867|39|M|Martin Levin|39 år, VD, Stidsvig
+C|62868|68|K|Kicky Sinclair|68 år, f.d. egenföretagare, Söndraby
+C|62869|40|K|Malin Hammarstrand|40 år, lärare, Klippan
+C|62870|57|M|Mats Holmberg|57 år, egenföretagare, Östra Ljungby
+C|62871|37|M|Marcus Andersson|37 år, bilförsäljare, Klippan
+C|62872|51|K|Annette Lahti|51 år, företagare, Söndraby
+C|62873|68|M|Nils-Tufve Tufvesson|68 år, maskiningenjör, Stidsvig
+C|62874|54|M|Jesper Hansen|54 år, servicechef, Östra Ljungby
+C|62875|47|M|Fredrik Hammarstrand|47 år, fil. dr, Klippan
+C|62876|73|K|Kerstin Korander Block|73 år, f.d. bankdirektör, Klippan
+C|62877|39|K|Camilla Asp|39 år, rektor/förskolechef, Ruveröd
+C|62878|30|M|Fredrik Alström|30 år, jägmästare, Klippan
+C|62879|29|K|Katarina Pålsson|29 år, doktorand, Klippan
+C|62880|60|M|Walter Christensen|60 år, undersköterska, Skäralid
+C|62881|70|K|Karin Pålsson|70 år, pensionär, Klippan
+C|62882|57|K|Kaisa Kutila|57 år, servitris, Spången
+C|62883|63|M|Stefan Tullsson|63 år, möbelhandlare, Vedby
+C|62884|72|M|Bo Rosengren|72 år, pensionär, Ljungbyhed
+C|62885|60|M|Mats Olsson|60 år, musiklärare, Hyllstofta
+C|62886|56|K|Marie Tullsson|56 år, möbelhandlare, Vedby
+C|450705|66|M|Ingvar Kullberg|67, Pensionär
+C|53878|52|K|Åsa Edvardsson|Politiker, 52 år
+C|53879|42|M|Jonas Luckmann|42, Fabrikschef
+C|53880|31|K|Marie Brink|31, Barnskötare
+C|53882|53|M|Per-Olof Seger|52, Processoperatör
+C|53883|61|M|Ralf Scott|61, Egenföretagare
+C|53888|37|M|Christian Hendlertz|38, Kock
+C|53885|52|K|Christina Petersson|53, Vårdare
+C|53887|26|M|Oscar Einarsson|26, Säljare
+C|53889|61|M|Lars Fridh|61, Polis
+C|53884|41|M|Jimmy Gustafsson|41, Leg sjuksköterska
+C|53890|33|K|Elin Luckmann|33, Brevbärare
+C|53892|42|M|Mats Andersson|42, Arbetsledare bygg
+C|53893|54|M|Lars-Erik Stadler|54, Taxichaufför
+C|53894|53|M|Joakim Olsson|53, Lastbilschaufför
+C|53896|43|M|Magnus Frick|43, Egenföretagare
+C|53898|79|K|Maj-Lise Edvardsson|78, Pensionär
+C|506840|53|M|Kenneth Dådring|Bitr. Rektor
+C|191866|52|K|Helena Dådring|Egen företagare
+C|27954|58|M|Thomas Thorné|Drogterapeut
+C|506843|56|K|Lena Landin|Personlig assistent
+C|506844|63|M|Ernie Larsson|Fd Kvalitetssäkrare Daimler Chrysler
+C|506845|75|M|Bertil Larsson|Meteorolog
+C|506846|27|K|Frida Simonsen|Entreprenör
+C|506847|66|M|Björn Samuelsson|Civilingenjör
+C|506848|53|K|Terese Steen|Frisör
+C|506849|42|M|Thomas Simonsen|Egen företagare, odlare
+C|506850|34|K|Therese Larsson|Lärare i fritidshem
+C|506851|59|M|Lars Nilsson|Byggnadsarbetare
+C|506852|74|K|Gunilla Torstendahl|Fd Familjehemssekreterare
+C|506853|46|K|Maria Bång|Trafikadministratör
+C|506854|71|M|Lennart Emanuelsson|Fd Pilot/Major
+C|506855|42|M|Martin Lidborn|Egen företagare
+C|506856|74|K|Berit Karlsson|Fd BMA Pensionär
+C|506857|77|M|Knut Karlsson|Pensionär
+C|506858|48|K|Susanne Waborn|Sjuksköterska
+C|506859|74|M|Jan-Eric Olsson|Tekniker
+C|128112|48|K|Karin Enqvist|handläggare, Klippan
+C|485630|47|K|Lena Mäkelä|plantskolearbetare
+C|485631|57|K|Carina Andersson|vårdare
+C|485632|65|M|Jan Lindblad|vaktmästare
+C|485633|36|M|Lars Hultin|fritidsledare/verksamhetsledare

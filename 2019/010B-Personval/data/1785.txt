@@ -1,9 +1,166 @@
-2|22206|81298|81299|81300|81301|75916|75913|81304|75312|81415|81416|81417|81418|81419|81558|81619|81620|352888|139693|81621|81622|190564|81677|139697|81940|81941|81942|139701|81943|190541|81944|81945
-4|27267|27268|27269|27270|27271|27272|27273|27274|27275|27276|27277|27278|27279|27280|27281|27282|27283|27284|27285|27286|27287|27288|27289|27290|27291|27292|27293|27294|27295|27296|27297|27298|27299
-68|507120|507121|507122
-3|35492|155098|155099|155100|155101|155102
-55|433823|433824|433825|433826|433827|433828
-1|39562|39563|39564|39565|39566|39567|39568|39569|39570|39571|39572|39573|39574|39575|39576|39577|39578|39579|39580|39581|626
-250|404575|404576|404577|404578|404579|404580|404581|404582|404583|404584|404585|404586|404587|404588|404589|404590|404591|404592|404593|404594|404595|404596|404597|404598|404599|404600|404601|404602
-110|126413|124863|126415|126416|126417|126418|126419|126420|126421|126422|126423|126424|126425|126426|126427|124883
-5|30313|30491
+T|Säffle
+A|2|22206|81298|81299|81300|81301|75916|75913|81304|75312|81415|81416|81417|81418|81419|81558|81619|81620|352888|139693|81621|81622|190564|81677|139697|81940|81941|81942|139701|81943|190541|81944|81945
+A|4|27267|27268|27269|27270|27271|27272|27273|27274|27275|27276|27277|27278|27279|27280|27281|27282|27283|27284|27285|27286|27287|27288|27289|27290|27291|27292|27293|27294|27295|27296|27297|27298|27299
+A|68|507120|507121|507122
+A|3|35492|155098|155099|155100|155101|155102
+A|55|433823|433824|433825|433826|433827|433828
+A|1|39562|39563|39564|39565|39566|39567|39568|39569|39570|39571|39572|39573|39574|39575|39576|39577|39578|39579|39580|39581|626
+A|250|404575|404576|404577|404578|404579|404580|404581|404582|404583|404584|404585|404586|404587|404588|404589|404590|404591|404592|404593|404594|404595|404596|404597|404598|404599|404600|404601|404602
+A|110|126413|124863|126415|126416|126417|126418|126419|126420|126421|126422|126423|126424|126425|126426|126427|124883
+A|5|30313|30491
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|250|SjvV|Sjukvårdspartiet i Värmland
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|22206|60|K|Ann Mlakar|60 år, Säffle
+C|81298|32|M|Oscar Östlund|32 år, Säffle
+C|81299|22|K|Arina Ljung|22 år, Säffle
+C|81300|63|M|Thomas Bäck|63 år, Säffle
+C|81301|79|K|Lillie Karlsson|80 år, Säffle
+C|75916|49|M|Johan Olsson|49 år, Säffle
+C|75913|72|K|Agneta Dagoberth|72 år, Säffle
+C|81304|49|M|Thomas Augustsson|49 år, Säffle
+C|75312|40|K|Olga Ljung|41 år, Säffle
+C|81415|63|M|Bengt Mattsson|64 år, Säffle
+C|81416|29|K|Michelle Hedberg|29 år, Säffle
+C|81417|57|M|Gunnar Johansson|57 år, Värmlandsnäs
+C|81418|54|K|Christina Johansson|54 år, Värmlandsnäs
+C|81419|58|M|Nizam Barat Aliyev|58 år, Säffle
+C|81558|71|K|Gunnel Clettborn|71 år, Säffle
+C|81619|75|M|Jerome Davidsson|75 år, Säffle
+C|81620|70|K|Inga-Lill Eriksson|71 år, Säffle
+C|352888|41|M|Lennie Kasten|41 år, Säffle
+C|139693|64|K|Birgitta Lidbeck-Davidsson|64 år, Säffle
+C|81621|18|M|Nikolai Konglevoll|18 år, Säffle
+C|81622|54|M|Gunnar Bäckström|54 år, Säffle
+C|190564|80|K|Inger Persson|81 år, Säffle
+C|81677|52|M|Urban Johansson|52 år, Säffle
+C|139697|45|K|Ramona Hajra|45 år, Säffle
+C|81940|80|M|Allan Magnusson|80 år, Säffle
+C|81941|80|K|Berit Johansson|80 år, Säffle
+C|81942|75|M|Hans Kleimert|76 år, Säffle
+C|139701|81|K|Eivor Karlsson|81 år, Värmlandsbro
+C|81943|82|M|Åke Karlsson|82 år, Säffle
+C|190541|61|K|Marita Sandström|61 år, Säffle
+C|81944|76|M|Ingvar Dagoberth|74 år, Säffle
+C|81945|63|M|Svante Mlakar|63 år, Säffle
+C|27267|57|M|Dag Rogne|57 år, Agronom, By
+C|27268|54|K|Agneta Andersson Pettersson|54 år, Avdelningschef, Skane
+C|27269|40|M|Markus Bäckström|40 år, Gymnasielärare, V Kila
+C|27270|33|K|Madeleine Andersson|Långserud, 33 år, Socialsekreterare
+C|27271|45|M|Erik Evestam|Säffle, 45 år, Verksamhetsutvecklare
+C|27272|73|K|Lisbet Westerberg|73 år, Adjunkt, Treabackarna
+C|27273|29|M|Timmy Svensson|29 år, Lärare, Torserud
+C|27274|43|K|Veronika Bäckström|43 år, Lärare, Rud Kila
+C|27275|60|M|Putte Grötting|60 år, Verksamhetsledare, Sundsborg
+C|27276|61|K|Eva Harstad|61 år, Sekreterare, Brosäter
+C|27277|46|M|Lars Pettersson|46 år, Honungsproducent, V Kila
+C|27278|43|K|Jenny Evestam|Säffle, 43 år, Projektledare
+C|27279|57|M|Bengt Enneby|57 år, Boendestödjare, Sundstorp
+C|27280|69|K|Gudrun Svensson|69 år, f.d Skattehandläggare, Skane
+C|27281|49|M|Kenneth Andersson|49 år, Gymnasielärare, Sulerud
+C|27282|70|K|Anita Karlsson|70 år, f.d Skolledare, Flatebyn Kila
+C|27283|32|M|Roger Fayad|32 år, Egenföretagare, Norelund
+C|27284|30|K|Therese Thörner|30 år, Yrkeschaufför, Ölserud
+C|27285|62|M|Peter Erhardsson|62 år, Civilekonom, Annelund
+C|27286|78|K|Irene Ekberg|78 år, f.d Lärare, Strand Svanskog
+C|27287|36|M|Jerry Olsson|36 år, Fastighetsförvaltare, Säffle
+C|27288|51|M|Patrik Karlsson|51 år, Egenföretagare, S:a Ny
+C|27289|49|K|Anna Haglund|49 år, Lärare, Guttane
+C|27290|57|M|Lars Andersson|57 år, Brandman, Säffle
+C|27291|66|K|Marianne Olsson|66 år, Redovisningskonsult, Botilsäter
+C|27292|22|K|Terese Sillén|22 år, Undersköterska, Torserud
+C|27293|78|M|Leif Eriksson|78 år, Pensionär, Sundsborg
+C|27294|40|K|Karoliina Alegod|40 år, Socionom, Villan
+C|27295|72|M|Göran Tistad|72 år, Civilingenjör, Häljebol
+C|27296|73|K|Gudrun Wistrand|73 år, Lärare, Sundstorp
+C|27297|75|M|Alf Svanström|75 år, Pensionär, Svaneholm
+C|27298|46|M|Jesper Andersson|46 år, Hemsjukvårdare, Säffle
+C|27299|45|K|Karin Täppers|Säffle, 45 år, Lärare
+C|507120|43|K|Malin Nygren|undersköterska, Säffle
+C|507121|75|M|Jan-Olof Gullberg|psykolog, Gillberga
+C|507122|52|M|Christer Andersson|områdeschef, Kila
+C|35492|54|M|Magnus Jansson|civilingenjör, 54 år, Säffle
+C|155098|49|K|Kathrine Schöning|sköndalsdipl. socionom
+C|155099|77|M|Bo Ribaeus|fil. mag. adjunkt
+C|155100|73|K|Karin Ribaeus|barnskötare
+C|155101|58|M|Michael Schöning|civilingenjör
+C|155102|86|K|Iris Gedda|leg. sjuksköterska
+C|433823|56|M|Magnus Larsson|56 år, boendestödjare, Annelund
+C|433824|35|M|Henrik Ahlgren|35 år, intergrationshandledare, Säffle
+C|433825|52|M|Lars Olsson|52 år, lärare, Tveta
+C|433826|33|K|Sara Lindh|33 år, biolog, Spässlanda
+C|433827|35|M|Johan Lindh|35 år, ingenjör, Spässlanda
+C|433828|73|M|Håkan Johansson|73 år, ekobonde, By
+C|39562|66|M|Ola Johansson|Säffle
+C|39563|60|K|Ulrika Simonsson|Värmlandsnäs
+C|39564|69|M|Claes-Göran Kihlström|Värmlands Nysäter
+C|39565|79|K|Maude Schlegel|Säffle
+C|39566|36|M|Thomas Jarlhamre|Säffle
+C|39567|20|K|Julia Larsson|Säffle
+C|39568|41|M|Andreas Alerfors|Värmlandsnäs
+C|39569|38|K|Nina Andersson|Värmlandsnäs
+C|39570|37|M|Jonas Larsson|Säffle
+C|39571|37|M|Joakim Roth|Värmlandsnäs
+C|39572|52|K|Gunnel Stake|Säffle
+C|39573|56|M|Thomas Bennetoft|Säffle
+C|39574|70|M|Erik Blakstad|Säffle
+C|39575|74|M|Bo Andersson|Kila
+C|39576|69|M|Crispin Hultkrantz|Gillberga
+C|39577|82|M|Lennarth Lindström|Säffle
+C|39578|64|M|Owe Grundt|Säffle
+C|39579|57|M|Mikael Sahlin|Gillberga
+C|39580|87|K|Marie Jönsson|Värmlandsnäs
+C|39581|68|M|Nils Simonsson|Värmlandsnäs
+C|626|47|K|Stina Höök|lärare/regionråd, Säffle
+C|404575|47|K|Hèléne Agdén|Socialpedagog / Socialnämndsordf, Säffle
+C|404576|76|M|Leif Pettersson|Ekonom
+C|404577|75|K|Ingegerd Welin Fogelberg|Ingenjör, Säffle
+C|404578|55|M|Mats Ahlstrand|Brandmästare, Säffle
+C|404579|53|K|Marianne Utterdahl|Landstingsråd, Säffle
+C|404580|69|K|Ingalill Rosell|Leg. Sjuksköterska, Säffle
+C|404581|32|M|Sebastian Hidén|Projektledare, Säffle
+C|404582|49|K|Helena Granvik|Leg. Psykoterapeut, Säffle
+C|404583|55|K|Maria Ohlsson|Boendehandledare
+C|404584|51|K|Carin Wernberger Dahlin|Bibliotekarie, Säffle
+C|404585|49|K|Asema Dzafic|Ingenjör, Säffle
+C|404586|70|K|Maria Skogh|fd Sjukresehandläggare, Säffle
+C|404587|68|K|Lena Svensson|Pensionär
+C|404588|44|M|Patrik Karlsson|Brandman
+C|404589|66|K|Monica Johansson|Behandlingsper. / Entreprenör, Säffle
+C|404590|41|K|Katja Gyllensteen Hahn|Undersköterskestudent, Säffle
+C|404591|79|M|Örjan Ström|Byggnadsingenjör
+C|404592|69|M|Kjell Rosell|fd Systemutvecklare, Säffle
+C|404593|31|K|Linnea Utterdahl|Vårdlärare, Säffle
+C|404594|60|M|Michael Utterdahl|Boendehandledare
+C|404595|76|M|Erik Fogelberg|Civilingenjör
+C|404596|49|K|Monica Jacobsen|Terapeut
+C|404597|33|M|Lukas Geberetensae|Undersköterska, Säffle
+C|404598|48|K|Elisabeth Wargh|Undersköterska
+C|404599|82|M|Hans Kringstad|Civilingenjör, Säffle
+C|404600|63|K|Iréne von Dolwitz|Grafisk formgivare
+C|404601|79|M|David Wold|Skribent
+C|404602|61|M|Lennart Berg|Författare i livskunskap, Säffle
+C|126413|22|M|Jimmy Jonasson|22, Gruppledare, Säffle
+C|124863|37|M|Anders Anderberg|Field Service Engineer, Säffle
+C|126415|34|K|Nina Johansson|34, Vårdbiträde, Säffle
+C|126416|37|M|Mathias Gyllensteen Söderström|37, VD, Värmlandsnäs
+C|126417|28|M|Mattias Åberg|Hantverkare, Säffle
+C|126418|53|M|Urban Karlsson|53, Projektledare, Säffle
+C|126419|35|M|Jonas Bönfors|35, Transporttekniker, Säffle
+C|126420|55|M|Jan Johansson|55, Hemmansägare, Värmlandsnäs
+C|126421|43|M|Robin Zachrisson|43, Industriarbetare, Säffle
+C|126422|53|K|Anna Thorell|53, Kock, Säffle
+C|126423|77|M|Per Sätherström|77, Pensionär ,Svanskog
+C|126424|52|M|Stefan Byqvist|52, Egen företagare, Långserud
+C|126425|38|K|Johanna Karlsson|39, Fil.kand, Säffle
+C|126426|46|M|Stellan Herbertsson|46, Lantbrukare/Entreprenör, Tveta
+C|126427|62|M|Rolf Carlsson|62, Pensionär, Häljebol
+C|124883|70|M|Ingemar Sundström|70, Pensionär, Säffle
+C|30313|70|K|Barbro Källström|70 år, Säffle, pensionär
+C|30491|35|M|Henrik Davidsson|35 år, butiksbiträde, Värmlands Nysäter

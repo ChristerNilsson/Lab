@@ -1,9 +1,117 @@
-2|228550|228551|228552|228553|228554|228555|228556|228557|228558|228559|228560|228561|228562|228563|228564|228565|228566|228567|228568|228569|228570|228571|228572|228573|228574|228575|228576|228577|228578|228579|228580|228581|228582|228583|228584|228585|228586
-4|121773|121774|121775|121776|121777|121778|121779|121780|121781|121782|121783|121784|121785|121786|121787|121788|121789|121790|121791|121792
-532|356512
-68|355651|355652|355653|355654|515750|515751
-3|290466|290467
-55|336329|336330|336331|336332|336333
-1|45918|46049|46020|46158|46159|46160|46162|46163|46164|46027|46166|227509
-110|46436|46438|46439|46440|46441|46442|46443|46444|46445|59080
-5|245416|246720|246721|246722|246723|246724|246725
+T|Lessebo
+A|2|228550|228551|228552|228553|228554|228555|228556|228557|228558|228559|228560|228561|228562|228563|228564|228565|228566|228567|228568|228569|228570|228571|228572|228573|228574|228575|228576|228577|228578|228579|228580|228581|228582|228583|228584|228585|228586
+A|4|121773|121774|121775|121776|121777|121778|121779|121780|121781|121782|121783|121784|121785|121786|121787|121788|121789|121790|121791|121792
+A|532|356512
+A|68|355651|355652|355653|355654
+A|3|290466|290467
+A|55|336329|336330|336331|336332|336333
+A|1|45918|46049|46020|46158|46159|46160|46162|46163|46164|46027|46166|227509
+A|110|46436|46438|46439|46440|46441|46442|46443|46444|46445|59080
+A|5|245416|246720|246721|246722|246723|246724|246725
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|228550|56|M|Lars Altgård|Ingenjör, 56, Lessebo
+C|228551|66|K|Monica Widnemark|Kommunalråd, 66, Lessebo
+C|228552|43|M|Andreas Eidevåg|Undersköterska, 43, Hovmantorp
+C|228553|48|K|Charlotta Book|48, Skruv
+C|228554|67|M|Ragnar Lindberg|Pensionär, 67, Lessebo
+C|228555|67|K|Kristina Brundin|67, Hovmantorp
+C|228556|53|M|Anders Palmengren|Glasarbetare, 53, Kosta
+C|228557|66|K|Gunilla Arvidsson|66, Kosta
+C|228558|59|M|Anders Johansson|59, Hovmantorp
+C|228559|42|K|Monika Stasny|43, Lessebo
+C|228560|34|M|Emil Wetterling|34, Lessebo
+C|228561|46|M|Roger Hultenius|46, Kosta
+C|228562|64|K|Lena Henriksson|64, Hovmantorp
+C|228563|68|M|Göran Borg|68, Hovmantorp
+C|228564|61|K|Monica Johansson|60, Lessebo
+C|228565|25|M|Anton Håkansson|Studerande, 25, Hovmantorp
+C|228566|51|M|Dragomir Zekic|51, Kosta
+C|228567|49|M|Gassem Aleissa|49, Kosta
+C|228568|70|M|Jim Lindberg|70, Lessebo
+C|228569|73|K|Margareta Ragnarsson|73, Kosta
+C|228570|33|M|Ahmed Yonis Warsame|33, Lessebo
+C|228571|49|K|Sabah Mohawish|49, Kosta
+C|228572|57|M|Sam Lilja|57, Kosta
+C|228573|33|M|Karl-Petter Svensson|33, Kosta
+C|228574|53|M|Lars Turunen|53, Lessebo
+C|228575|23|M|Arved Lenz|26, Hovmantorp
+C|228576|37|K|Lina Cesar|37, Hovmantorp
+C|228577|51|M|Joachim Danielsson|51, Skruv
+C|228578|44|M|Ismail Waw|44, Kosta
+C|228579|44|M|Johan Borg|44, Hovmantorp
+C|228580|49|M|Håkan Henriksson|50, Hovmantorp
+C|228581|73|M|Jan O Eriksson|74, Skruv
+C|228582|52|M|Abdullah Alfnikher|52, Kosta
+C|228583|27|M|Noelle Nilsson|27, Lessebo
+C|228584|20|M|Klas Albinsson|20, Hovmantorp
+C|228585|60|K|Eva Kabanda Gustafsson|60, Kosta
+C|228586|40|K|Fardos Al Mushref|40, Kosta
+C|121773|39|K|Angelica Karlsson|Socionom, Lessebo
+C|121774|64|M|Anders Jonsäng|Hovmantorp
+C|121775|71|M|Jan-Åke Lennartsson|Skruv
+C|121776|40|M|Simon Walfridsson|Lessebo
+C|121777|46|K|Kristina Eriksson|46, Lärare, Hovmantorp
+C|121778|69|M|Birger Johansson|Hovmantorp
+C|121779|61|M|Stefan Carlsson|Kosta
+C|121780|38|K|Christel Johansson|Hovmantorp
+C|121781|58|K|Gerd Johansson|Ljuder
+C|121782|69|K|Gull-Britt Sandefors|Lessebo
+C|121783|34|K|Marie Walfridsson|Lessebo
+C|121784|63|K|Berit Karlsson|Åkerby
+C|121785|53|K|Lena Holmberg|Hovmantorp
+C|121786|33|M|Andreas Karlsson|Hovmantorp
+C|121787|48|M|Christer Svensson|Hovmantorp
+C|121788|73|K|Mona Erdman|Hovmantorp
+C|121789|71|M|Staffan Bergström|Kosta
+C|121790|60|K|Lisbeth Carlsson|Kosta
+C|121791|87|M|Alf Karlsson|Lessebo
+C|121792|83|M|Börje Nilsson|Ljuder
+C|356512|58|M|Anders Jonsson|58 år
+C|355651|49|M|Paul Nilsson|Lärare
+C|355652|70|M|Ingemar Aronsson|
+C|355653|63|K|Bodil Jonsson|
+C|355654|46|M|Athanas Ntalaja Kalala|F.d. Politisk sekreterare
+C|290466|75|M|Evert Kajander|Lessebo
+C|290467|35|M|Fred Mutyaba|Lessebo
+C|336329|70|M|Per-Inge Olsson|Transjö
+C|336330|73|M|Leif Blomgren|Hovmantorp
+C|336331|56|K|Veronica Ankarvik|Lessebo
+C|336332|73|M|Per Erik Falk|Lessebo
+C|336333|38|M|Björn Petersson|38 år, Entreprenör, Hovmantorp
+C|45918|44|M|Marcus Dackling|44 år, Träindustriarbetare, Lessebo
+C|46049|65|K|Margareta Löfström|65 år, Ekonom, Hovmantorp
+C|46020|53|K|Marie Larsson|53 år, Restaurangchef, Lessebo
+C|46158|72|M|Börje Erlandsson|Lessebo
+C|46159|74|K|Ingegärd Widerström|Ugnanäs
+C|46160|46|M|Tony Elgaard|Hovmantorp
+C|46162|63|M|Per-Magnus Pettersson|Hovmantorp
+C|46163|71|M|Ulf Ekwurtzel|Hovmantorp
+C|46164|45|M|Frederik Kjellson|Hofmantorp
+C|46027|69|M|Peter Löfström|69 år, Kvalitetskonsult, Hovmantorp
+C|46166|75|M|Örjan Davoust|Hovmantorp
+C|227509|71|M|Peter Malmberg|Kosta
+C|46436|48|M|Markku Mäntylä|48 år, Lessebo
+C|46438|40|K|Jenny Karlsson|40 år, Hovmantorp
+C|46439|35|M|Christoffer Petersson|35, Hovmantorp
+C|46440|59|M|Lars-Erik Winroth|58 år, Hovmantorp
+C|46441|38|M|Anders Karlsson|37 år, Hovmantorp
+C|46442|68|M|Sven Johansson|67 år, Skruv
+C|46443|36|M|Tobias Lindgren|36 år, Hovmantorp
+C|46444|55|M|Martin Johnsen|55 år, Kosta
+C|46445|55|M|Mats Wegefelt|55, Lessebo
+C|59080|53|K|Maria Palm|53 år, Hovmantorp
+C|245416|52|M|Patrik Nyquist|52 år, pappersarbetare, Lessebo
+C|246720|25|K|Ida Engman|Hovmantorp
+C|246721|65|M|Björn Zethraeus|Hovmantorp
+C|246722|51|K|Susanne Seluska|Lessebo
+C|246723|66|M|Hasse Henriksson|Lessebo
+C|246724|80|M|Jan-Erik Nicke Lindberg|Hovmantorp
+C|246725|54|K|Ester-Marie Rie Berthelsen|Lessebo

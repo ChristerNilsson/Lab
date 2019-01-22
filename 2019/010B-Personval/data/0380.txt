@@ -1,18 +1,498 @@
-2|110926|110927|81360|81381|81378|81369|98777|81361|110934|110935|110936|98780|110938|98804|110940|110941|110942|110943|81374|110945|110946|110948|110949|110950|81384|110952|110953|110954|110955|110956|110957|110958|110947|110959|110960|98790|110962|110963|110964|110965|110966|98798|110968|110969|110970|110971|110972|110973|98795|110975|110976|110977|110978|98796|110980|110981|110982|110983|110984|110985|110986|110987|110988|110989|110990|110991|110994|110993|110996|110995|152234|98802
-1372|486474
-4|165645|159090|159091|165648|165649|159103|165651|165652|159106|159097|165655|165656|165657|165658|165659|165660|159102|159107|165663|159086|165665|159096|165667|165668|165669|165670|186755|165671|165672|165673|165674|165675|159110|165677|165678|159105|207059|165680|165681|165682|207063|165683|165684|165685|165686|165687|159114|159112|165690|165691|165692|178501|165693|165694|165695|165696|165697|165698
-1150|513149|515627
-532|406450|406451|406452|406453|352187|406455|406456|406457|406458|219300|219321|406461
-1388|515656
-68|358120|367133|356871|367135|367136|358116|367138|367139|358107|367141|356902|367143|356886|356881|356872|367147|367148|367149|367150|358119|367152|367153|367154|356888|356889|356880|367158|358102|367160|367161|367162
-1140|480107|480129|507010|507011
-1011|131509|131606|131655|132599|131653|132220|270174|132426|132419|270184|270185|270186|270187|270201|270216|270217|270218|270219|270238|270239|270240|270241|270264|270265|270266|270267|270268
-3|53267|53268|53269|53270|53271|53272|53273|53274|53275|53276|53277|53278|53279|53280|53281|53282|53283|53284|53285|53286|53287|53288|53289|53290|53291|53292|53293|53294|53295|53296|53297|53298|53299|53300|53301|53302|53303|53304|53305|53306|53307|53308|53310|53311|53312|53313|53314|53315
-1296|383394|383395
-55|382644|382647|382646|382645|382642|382639|385048|385049|382636|385051|383013|382655|385054|382653|382662|382633|382634|382659|385060|385061|385062|383007|382652|385065|385066|383024|382648|385069|382998|382661|383011|385073|384096|385075|385076|382667|383017|385079|382666|382669|385082|385083|385084|382649
-1|135099|135100|133581|132922|132910|132921|132915|132913|132932|132920|132929|135110|135111|135112|132916|135114|135115|135116|135117|132926|135119|133575|135121|135122|135123|135124|135125|135126|135127|135128|135129|135130|135131|135132|135133|133571|135135|135136|135137|135138|135139|135140|133579|135142|135143|135144|132927|135146|133576|135148|133583|133562|135151|135152|135153|135154|135156|135157|135158|133574|135160
-524|395850|395851|395852
-1347|501409
-110|136073|136074|136075|136076|136077|136078|136079|136080|136081|136082|136083|136084|136085|136086|136087|136088|136089|136090|136091|136092|136093|136094|136095|136096|136097|136098|136099|136100|136101|136102|136103|136104|136105|136106|136108|136109|136110
-1063|490652|490653|490654|490655|490656|490657|490658|490659|490660|490661
-5|395756|395757|395758|395759|395760|395761|395762|395763|395764|395765|395766|395767|395768|395769|395770|395771|395772|395773|395774|395775|395776|395777|395778|395779|395780|395781|395782|395783|395784|395785|395786|395787|395788|395789|395790|395791|395792|395793|395794|395795|395796|395797|395798|395799|395800|395801|395802
+T|Uppsala
+A|2|110926|110927|81360|81381|81378|81369|98777|81361|110934|110935|110936|98780|110938|98804|110940|110941|110942|110943|81374|110945|110946|110948|110949|110950|81384|110952|110953|110954|110955|110956|110957|110958|110947|110959|110960|98790|110962|110963|110964|110965|110966|98798|110968|110969|110970|110971|110972|110973|98795|110975|110976|110977|110978|98796|110980|110981|110982|110983|110984|110985|110986|110987|110988|110989|110990|110991|110994|110993|110996|110995|152234|98802
+A|1372|486474
+A|4|165645|159090|159091|165648|165649|159103|165651|165652|159106|159097|165655|165656|165657|165658|165659|165660|159102|159107|165663|159086|165665|159096|165667|165668|165669|165670|186755|165671|165672|165673|165674|165675|159110|165677|165678|159105|207059|165680|165681|165682|207063|165683|165684|165685|165686|165687|159114|159112|165690|165691|165692|178501|165693|165694|165695|165696|165697|165698
+A|1150|513149|515627
+A|532|406450|406451|406452|406453|352187|406455|406456|406457|406458|219300|219321|406461
+A|1388|515656
+A|68|358120|367133|356871|367135|367136|358116|367138|367139|358107|367141|356902|367143|356886|356881|356872|367147|367148|367149|367150|358119|367152|367153|367154|356888|356889|356880|367158|358102|367160|367161|367162
+A|1140|480107|480129|507010|507011
+A|1011|131509|131606|131655|132599|131653|132220|270174|132426|132419|270184|270185|270186|270187|270201|270216|270217|270218|270219|270238|270239|270240|270241|270264|270265|270266|270267|270268
+A|3|53267|53268|53269|53270|53271|53272|53273|53274|53275|53276|53277|53278|53279|53280|53281|53282|53283|53284|53285|53286|53287|53288|53289|53290|53291|53292|53293|53294|53295|53296|53297|53298|53299|53300|53301|53302|53303|53304|53305|53306|53307|53308|53310|53311|53312|53313|53314|53315
+A|1296|383394|383395
+A|55|382644|382647|382646|382645|382642|382639|385048|385049|382636|385051|383013|382655|385054|382653|382662|382633|382634|382659|385060|385061|385062|383007|382652|385065|385066|383024|382648|385069|382998|382661|383011|385073|384096|385075|385076|382667|383017|385079|382666|382669|385082|385083|385084|382649
+A|1|135099|135100|133581|132922|132910|132921|132915|132913|132932|132920|132929|135110|135111|135112|132916|135114|135115|135116|135117|132926|135119|133575|135121|135122|135123|135124|135125|135126|135127|135128|135129|135130|135131|135132|135133|133571|135135|135136|135137|135138|135139|135140|133579|135142|135143|135144|132927|135146|133576|135148|133583|133562|135151|135152|135153|135154|135156|135157|135158|133574|135160
+A|524|395850|395851|395852
+A|1347|501409
+A|110|136073|136074|136075|136076|136077|136078|136079|136080|136081|136082|136083|136084|136085|136086|136087|136088|136089|136090|136091|136092|136093|136094|136095|136096|136097|136098|136099|136100|136101|136102|136103|136104|136105|136106|136108|136109|136110
+A|1063|490652|490653|490654|490655|490656|490657|490658|490659|490660|490661
+A|5|395756|395757|395758|395759|395760|395761|395762|395763|395764|395765|395766|395767|395768|395769|395770|395771|395772|395773|395774|395775|395776|395777|395778|395779|395780|395781|395782|395783|395784|395785|395786|395787|395788|395789|395790|395791|395792|395793|395794|395795|395796|395797|395798|395799|395800|395801|395802
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1372||Basinkomstpartiet
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|532|FI|Feministiskt initiativ
+B|1388||Folkhemmet Sverige
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|524|PP|Piratpartiet
+B|1347||POPULISTERNA
+B|110|SD|Sverigedemokraterna
+B|1063|SKP|Sveriges Kommunistiska Parti (SKP)
+B|5|V|Vänsterpartiet
+C|110926|42|M|Erik Pelling|42 år, Kommunalråd/Agronom, Ekeby
+C|110927|34|K|Caroline Hoffstedt|34 år, Kommunalråd/Utredare, Luthagen
+C|81360|37|M|Gustaf Lantz|37 år, Jurist, Uppsala
+C|81381|36|K|Eva Christiernin|36 år, Lärare, Uppsala
+C|81378|41|M|Peter Gustavsson|41 år, Strategisk rådgivare ABF, Uppsala
+C|81369|21|K|Asal Gohari Moghadam|21 år, Student, Uppsala
+C|98777|59|M|Ulrik Wärnsberg|59 år, Ekonom, Uppsala
+C|81361|58|K|Inga-Lill Sjöblom|58 år, Boendeassistent, Vänge
+C|110934|36|M|Klas-Herman Lundgren|36 år, Ingenjör, Centrum
+C|110935|62|K|Agneta Gille|62 år, Barnskötare/Riksdagsledamot, Svartbäcken
+C|110936|77|M|Carl Lindberg|77 år, F.d. lärare, Bälinge
+C|98780|35|K|Ylva Stadell|35 år, Politisk sekreterare, Uppsala
+C|110938|71|M|Björn Wall|71 år, Ekonomichef, Kapellgärdet
+C|98804|65|K|Hilde Klasson|65 år, Personligt ombud, Uppsala
+C|110940|27|M|Mattias Kristenson|27 år, Ombudsman, Fålhagen
+C|110941|45|K|Loa Mothata|45 år, Myndighetshandläggare, Svartbäcken
+C|110942|39|M|Rafael Waters|39 år, Professor, Valsätra
+C|110943|38|K|Elnaz Alizadeh|38 år, Kommunikationschef, Kungsängen
+C|81374|21|M|Pavlos Cavelier Bizas|21 år, Pressekreterare, Uppsala
+C|110945|62|K|Agneta Erikson|62 år, Skolledare, Kungsängen
+C|110946|54|M|Anders Grönvall|54 år, Politisk sekreterare, Vårdsätra
+C|110948|44|K|My Lilja|44 år, Lektor i kriminologi, Centrum
+C|110949|39|M|Erik Dagnesjö|39 år, Byggnadsarbetare, Luthagen
+C|110950|40|K|Maria Gauffin Röjestål|40 år, Folkbildare/Pedagog, Storvreta
+C|81384|47|M|Patrik Hedlund|47 år, Ingenjör, Uppsala
+C|110952|65|K|Monica Östman|65 år, Arbetsmiljösamordnare, Kungsängen
+C|110953|73|M|Staffan Yngve|73 år, Professor, Ekeby
+C|110954|36|K|Dima Sarsour|36 år, Integrationssamordnare, Bergsbrunna
+C|110955|65|M|Bedo Kaplan|65 år, Civilingenjör/Byggledare, Svartbäcken
+C|110956|64|K|Kia (Kristina) Solid|64 år, Koordinator Uppsala kommun, Storvreta
+C|110957|59|M|Peder Granath|59 år, Personligt ombud, Fålhagen
+C|110958|30|K|Emmy Sjöblom|30 år, Ombudsman, Fålhagen
+C|110947|43|M|Joakim Palestro|43 år, Fastighetschef, Fålhagen
+C|110959|51|K|Maria Patel|51 år, Administratör, Rickomberga
+C|110960|61|M|Bertil Brunn|61 år, Chaufför, Storvreta
+C|98790|21|K|Sara Gille|21 år, Student, Uppsala
+C|110962|36|M|Patrik Kjellin|36 år, Administratör, Salabacke
+C|110963|50|K|Helena Wallström|50 år, Kommunikatör, Löten
+C|110964|67|M|Martin Viredius|67 år, Pensionär, Fålhagen
+C|110965|67|K|Kerstin Westman|67 år, Barnsköterska, Vattholma
+C|110966|39|M|Gabriel Söderberg|39 år, Forskare/Ekonom, Kungsängen
+C|98798|57|K|Karin de Afonseca|57 år, Enhetschef, Uppsala
+C|110968|54|M|Stavros Giangozoglu|54 år, Egen företagare, Kvarngärdet
+C|110969|61|K|Kia Alfredsson|61 år, Hushållslärare, Svartbäcken
+C|110970|68|M|Kjell Engström|68 år, Konsult logistik, Gottsunda
+C|110971|34|K|Kijan Karimi|34 år, Jurist, Centrum
+C|110972|50|M|Petri Lähteenmäki|50 år, Yrkeslärare, Danmark-Funbo
+C|110973|70|K|Eileen Rönnlund Holmgren|70 år, Socionom, Kapellgärdet
+C|98795|24|M|Jakob Stone|24 år, Student, Uppsala
+C|110975|57|K|Helena Olsson|57 år, Admin. samordnare, Ekeby
+C|110976|56|M|Anders Alm|56 år, Kock, Ekeby
+C|110977|37|K|Catrin Johansson|37 år, Verksamhetsassistent, Gränby
+C|110978|39|M|Viktor Karlsson|39 år, Renhållningsarbetare, Salabacke
+C|98796|52|K|Emine Behiye Karakitapoglu|52 år, Miljöstrateg, Uppsala
+C|110980|37|M|Eric Kapinga|37 år, Projektsamordnare, Flogsta
+C|110981|62|K|Josefin Mannberg|62 år, Psykolog, Svartbäcken
+C|110982|31|M|Daniel Simmons|31 år, Politices masterstudent, Luthagen
+C|110983|43|K|Annica Nordin|43 år, Förlagsredaktör, Årsta
+C|110984|66|M|Christer Solander|66 år, Miljö- och hälsoskyddsinspektör, Ekeby
+C|110985|28|K|Caitlin McEvoy|28 år, Doktorand, Kåbo
+C|110986|66|M|Björn-Erik Tapper|66 år, Ingenjör, Ulleråker
+C|110987|65|K|Soraja Nadimpour|65 år, F.d. miljösamordnare, Sunnersta
+C|110988|22|M|Erik Andersson|22 år, Studerande, Rackarberget
+C|110989|50|K|Helena Nordlund|50 år, Förhandlare på Hyresgästföreningen, Sävja
+C|110990|35|M|Erik Johansson|35 år, Flygplanslastare, Nyby
+C|110991|75|K|Ingrid Pineiro|75 år, F.d. handikappkonsulent, Gottsunda
+C|110994|22|M|Sixten Svanberg|22 år, Studerande, Luthagen
+C|110993|47|K|Malika Charipova Akgül|47 år, Lärare, Salabacke
+C|110996|40|M|Gunnar Larsson|40 år, Forskare, Gottsunda
+C|110995|70|K|My MyungHee Han|70 år, Konstvetare, Salabacke
+C|152234|76|M|Ove Johansson|76 år, Pensionär, Gamla Uppsala
+C|98802|63|K|Birgitta Lundkvist|63 år, Röntgensköterska, Uppsala
+C|486474|51|M|Jan Jäger|51 år, Grafisk designer, Uppsala
+C|165645|54|M|Stefan Hanna|54 år, företagare, civilekonom, Centrum
+C|159090|34|K|Unn Harsem|34 år, maskiningenjör, Uppsala
+C|159091|46|M|Mattias Johansson|45 år, policychef, Uppsala
+C|165648|43|K|Zahrah Lifvendahl|42 år, agronom, Skyttorp
+C|165649|46|M|Jonas Petersson|46 år, systemutvecklare, Ulleråker
+C|159103|22|K|Diana Zadius|22 år, juridikstuderande, Uppsala
+C|165651|65|M|Mats Åhlund|64 år, fd överåklagare, Industristaden
+C|165652|49|K|Viviane Obaid|49 år, företagare, Gränby
+C|159106|22|M|Olle Romlin|22 år, politisk sekreterare, Uppsala
+C|159097|78|K|Rigmor Stenmark|78 år, pensionär, Uppsala
+C|165655|67|K|Karin Ericsson|67 år, civilingenjör, Centrum
+C|165656|70|M|Ingmar Jansson|71 år, företagare, Börje
+C|165657|57|K|Lena-Maria Jansson|57 år, guide, Uppsala
+C|165658|64|M|Hans Nordström|64 år, pensionär, Almunge
+C|165659|42|K|Karolina Wigenfeldt|42 år, ekonom, Ramsta
+C|165660|49|M|Johan Cejie|49 år, företagare, Norby
+C|159102|27|K|Freija Carlstén|26 år, landskapsarkitekt, Uppsala
+C|159107|25|M|Gustaf Svenungsson|25 år, agronom, Uppsala
+C|165663|37|M|Ehsan Nasari|36 år,entreprenör, Stenhagen
+C|159086|55|K|Anne Lennartsson|54 år, egenföretagare, Uppsala
+C|165665|60|M|Curt Malmenstedt|59 år, jordbrukschef, Läby
+C|159096|44|K|Mia Nordström|44 år, miljö- och klimatrådgivare, Uppsala
+C|165667|34|M|Gustav Harrysson|34 år, gymnasielärare, Kåbo
+C|165668|40|K|Anna Johansson|40 år, forskare, Kapellgärdet
+C|165669|53|M|Joakim Strignert|53 år, jurist, City
+C|165670|44|K|Cecilia Fischer|43 år, marknadschef, Sala backe
+C|186755|23|M|Yousof Rizai|23 år, säljare, Storvreta
+C|165671|56|K|Kristina Johnson|56 år, fastighetschef, Kungsängen
+C|165672|68|M|Ulf Schmidt|68 år, lantbrukare, Vaksala
+C|165673|43|M|Simon Öhlmér|43 år, programmerare, Centrum
+C|165674|61|M|Stefan Hamnstedt|61 år, polis, Bälinge
+C|165675|31|M|Victor Zhao-Jansson|31 år, IT-tekniker, Flogsta
+C|159110|37|M|Daniel Solling|37 år, fil.dr forskningsarkivarie, Uppsala
+C|165677|57|K|Anette Stavenow Eriksson|57 år, filmproducent, egenföretagare, Fålhagen
+C|165678|73|M|Bengt Mattsson|73 år, pensionär, redovisningskonsult, Kvarngärdet
+C|159105|34|K|Johanna Engström|34 år, leg. psykolog, Uppsala
+C|207059|68|M|Göran Möller|68 år, docent, Kåbo
+C|165680|65|M|Steffen Weckner|65 år, civilingenjör, Sävja
+C|165681|64|M|Lars Björndahl|64 år, företagare, Bergsbrunna
+C|165682|41|M|Meheraab Ali Habibi|41 år, kökschef, Fullerö
+C|207063|67|K|Barbro Möller|67 år, musiker, Kåbo
+C|165683|55|M|Johan Ulin|55 år, produktionschef, Kungsgärdet
+C|165684|39|K|Kajsa Lindner|39 år, VD, Sunnersta
+C|165685|25|M|Andreas Nilsson|25 år, Civilingenjör, Fålhagen
+C|165686|33|M|Andreas Tyrberg|33 år, student, Kvarngärdet
+C|165687|64|M|Mats Hellman|64 år, förvaltare, Dalby
+C|159114|19|M|Daniel Hedefalk|18 år, studerande, Uppsala
+C|159112|57|M|Mikael Eriksson|56 år, IT Ekonom, Uppsala
+C|165690|36|K|Josefin Berglund|36 år, administratör, Uppsala
+C|165691|43|M|Jerker Nyberg von Below|43 år, systemadministratör, Kåbo
+C|165692|71|M|Ove Hultquist|71 år, organisationskonsult, Uppsala
+C|178501|42|K|Katarina Öjefors Stark|42 år, apotekare, Uppsala
+C|165693|53|M|Magnus Tauvon|53 år, företagsledare, Luthagen
+C|165694|74|M|Bengt Jansson|73 år, fd. tulltjänsteman/pensionär, Västeråker Björk
+C|165695|63|M|Håkan Fredriksson|62 år, lantbruksföretagare, Vänge
+C|165696|42|M|Jacob Von Engeström|41 år, lantbruksföretagare, Bälinge
+C|165697|45|K|Kristina Mastroianni|45 år, agronom, Danmarksby
+C|165698|77|K|Alice Hult|77 år, pensionerad gymnasielärare, Sommarro
+C|513149|26|M|Fredrik Hyttsten Almqvist|
+C|515627|36|M|Christian Eriksson|
+C|406450|22|K|Lovisa Johansson|22 år, Politisk sekreterare
+C|406451|27|K|Stina Jansson|27 år, Lärarstudent och aktiv i tjej- och transjour
+C|406452|32|M|Josef Safady Åslund|32 år, Behandlingsassistent och socionomstudent
+C|406453|24|M|Charlie Strängberg|24 år, Student
+C|352187|29|K|Leia Nordin|29 år, Lärare och matematiker
+C|406455|56|K|Marie Sandberg|56 år, Arbetssökande
+C|406456|35|M|Naser Babor|35 år, Läkare
+C|406457|26|K|Matilda Källman|26 år, Receptionist
+C|406458|40|K|Hodan Dualeh|39 år, Förskolelärare och tidigare undersköterska
+C|219300|59|K|Carmen Blanco Valer|59år, Folkhögskolelärare, Uppsala
+C|219321|35|M|Tomas Rimeika Karlsson|35år, Musiker/Retorikkonsult, Uppsala
+C|406461|29|M|Erik Svensson|28 år, Programmerare och spelutvecklare
+C|515656|72|M|Sture Kjellman|
+C|358120|48|M|Jonas Segersam|48, Kommunalråd, Uppsala
+C|367133|24|K|Sarah Havneraas|24, Ombudsman, Uppsala
+C|356871|70|K|Margit Borgström|70, Musiklärare, Uppsala
+C|367135|33|M|Simon Westberg|32, Tjänsteman, Uppsala
+C|367136|51|K|Eva Moberg|51, Föreståndare, Uppsala
+C|358116|25|K|Evelina Solem|24, Sjuksköterska, Uppsala
+C|367138|28|M|Mattias Holmström|27, Politisk sekreterare, Uppsala
+C|367139|46|M|Christian Hermanson|46, IT-konsult, Uppsala
+C|358107|18|M|Alexander Oscarsson|18, Studerande, Almunge
+C|367141|66|M|Leif Boström|66, Serviceelektriker, Uppsala
+C|356902|45|M|Martin Wisell|44, Kommittéhandläggare, Uppsala
+C|367143|61|K|Amalia Hacopian|61, fd. Caféföreståndare, Uppsala
+C|356886|74|M|Jan Erik Ågren|73, Prost, Uppsala
+C|356881|50|K|Anna-Karin Vaz Contreiras|49, VD, Storvreta
+C|356872|57|M|Ingemar Virsén|57, Byggnadsingenjör, Uppsala
+C|367147|70|M|Alfonso Marin|69, fd. Multimediakonsult, Uppsala
+C|367148|70|M|Tommy Pettersson|70, Pensionär, Uppsala
+C|367149|61|K|Åsa Samuelsson|61, Leg psykolog, Uppsala
+C|367150|40|M|Rickard Löfberg|39,, Uppsala
+C|358119|24|M|Elias Sjögren|24, Civilingenjörsstudent, Uppsala
+C|367152|42|M|Peter Holm|41, CTO, Uppsala
+C|367153|71|M|Stig Andersson|71, Enhetschef, Bälinge
+C|367154|25|M|Christoffer Orméus|25, Kriminalvårdare, Uppsala
+C|356888|60|M|Sten Aleman|60, Officer, Uppsala
+C|356889|24|K|Louice Moberg|24, Läkarstuderande, Uppsala
+C|356880|26|M|Josef Gäreskog|26, Analytiker, Uppsala
+C|367158|32|M|Fredric Strandh|32, Juridikstudent, Uppsala
+C|358102|28|K|Alexandra Braf|28, Jurist, Uppsala
+C|367160|69|M|Nils Ove Bejermyr|68, Ekonom, Storvreta
+C|367161|49|M|Simon Elfving|49, Utvecklare, Uppsala
+C|367162|53|M|Daniel Jernberg|53, Egenföretagare, Uppsala
+C|480107|45|M|Lars Borgström|präst/lärare, 45, Uppsala
+C|480129|64|K|Larissa Wickman|läkare, 64, Uppsala
+C|507010|30|M|Niko Laxström|företagare, 30, Uppsala
+C|507011|73|M|Lars Einarsson|pens. forskningsing., 73, Storvreta
+C|131509|52|M|Claes Littorin|Lantbrukare, Uppsala
+C|131606|45|K|Helena Sedvall|Verkstadsarbetare, Uppsala
+C|131655|49|M|Yngve Eriksson|Drifttekniker, Uppsala
+C|132599|40|M|Krister Ericsson|Produktionsingenjör, Uppsala
+C|131653|49|K|Erica Åhström|Fotterapeut, Uppsala
+C|132220|73|M|Thomas Nordlöv|Förläggare, Uppsala
+C|270174|58|M|Arne Jansson|Koordinator/Deltidsbrandman, Knutby
+C|132426|23|K|Luckie Söderholm|Studerande, Uppsala
+C|132419|55|M|Peter Vahlqvist|Busschaufför, Uppsala
+C|270184|25|M|Fredrik Andersson|Mjölkbonde, Storvreta
+C|270185|67|M|Hans Johansson|Pensionär, Uppsala
+C|270186|58|M|Leif Jalmerud|Elkonsult, Almunge
+C|270187|38|M|Conny Andersson|Ambulanssjukvårdare, Uppsala
+C|270201|75|M|Rune Söderström|Pensionerad lastbilschaufför, Knutby
+C|270216|58|K|Birgitta Gregersen Kvist|Undersköterska, Järlåsa
+C|270217|82|K|Marianne Fohlström|Pensionär, Uppsala
+C|270218|47|K|Anna Karlsson|Regulatory Affairs Manager, Knutby
+C|270219|48|K|Åsa Pousette|Medicinsk sekreterare, Knutby
+C|270238|38|M|Stefan Sundstedt|Cateringlastare, Knutby
+C|270239|59|K|Kristina Jalmerud|Läkare, Almunge
+C|270240|41|M|Peter Hellsing|Distriktschef, Storvreta
+C|270241|56|M|Magnus Åhström|Jordbrukare, Knutby
+C|270264|65|K|Ann-Cathrine Littorin|Vårdbiträde, Almunge
+C|270265|43|K|Hanna Delawyer|Barnskötare/Frisör, Knutby
+C|270266|25|M|Niklas Åhström|Butiksbiträde, Knutby
+C|270267|75|M|Gunnar Isaksson|Pensionär, Vänge
+C|270268|58|K|Helena Mattsson|Egenföretagare/Fårägare, Björklinge
+C|53267|46|M|Mohamad Hassan|kommunalråd, Uppsala, 46 år
+C|53268|36|K|Helena Hedman Skoglund|gymnasielärare, 36 år
+C|53269|33|M|Benny Lindholm|t.f. kammarrättsassessor, Uppsala, 33 år
+C|53270|53|K|Eva Edwardsson|hovrättsråd, Uppsala, 53 år
+C|53271|64|M|Anders A. Aronsson|företagare, Uppsala, 64 år
+C|53272|22|K|Amanda Kanange|juriststudent, Uppsala, 22 år
+C|53273|69|M|Mats Dafnäs|företagare, 69 år
+C|53274|25|M|Oscar Matti|lärarstudent, 25 år
+C|53275|54|K|Angelique Prinz Blix|projektledare, Uppsala, 54 år
+C|53276|69|M|Peter Nordgren|företagare, 69 år
+C|53277|36|K|Erica Närlinge|kanslichef, 36 år
+C|53278|53|M|Anders Wallin|advokat, Uppsala, 53 år
+C|53279|44|K|Susanne Eriksson|verksamhetschef äldreomsorgen, 44 år
+C|53280|49|K|Helena Ling|förstelärare, 49 år
+C|53281|42|K|Bodil Frick|idrott- och hälsoentreprenör, Uppsala, 42 år
+C|53282|62|M|Urban Wästljung|industritjänsteman, Uppsala, 62 år
+C|53283|27|K|Thea Andersson|kommunikatör, Uppsala, 27 år
+C|53284|64|K|Anita Ericsson|fakultetshandläggare, 64 år
+C|53285|36|K|Marmar Moshfeghi|kvinnorättsaktivist, 36 år
+C|53286|51|M|Anders Westerlind|projektledare, 51 år
+C|53287|46|K|Sofi Lahyani|regionchef, 46 år
+C|53288|74|K|Gunnel Borgegård|f.d. direktor, 74 år
+C|53289|23|K|Ulla Lovcalic|student, 23 år
+C|53290|70|M|Björn Sundin|f.d. adjunkt, 70 år
+C|53291|37|K|Leyla Demirel|utredare, 37 år
+C|53292|58|K|Camilla Westerborn|civilingenjör, 58 år
+C|53293|65|M|Aktar Zaman|integrationskonsult, 65 år
+C|53294|66|K|Stojka Lakic|egenföretagare, 66 år
+C|53295|67|K|Ing-Marie Hedman|beteendevetare, Uppsala, 67 år
+C|53296|36|M|Lars-Johan Edström|högstadielärare, 36 år
+C|53297|73|M|Kjell Aleklett|professor emeritus, 73 år
+C|53298|41|K|Charlotte Bergendal|handläggare, Uppsala, 41 år
+C|53299|37|K|Rebecca Weissmann|stadsplanerare, 37 år
+C|53300|73|M|Anders Nordström|folkbildare, 73 år
+C|53301|82|K|Ella-Britt Hanslöf|f.d. socialkamrer, 82 år
+C|53302|50|K|Karin Lawenius|statsvetare, 50 år
+C|53303|84|M|Alf Hanslöf|byggnadsingenjör, 84 år
+C|53304|77|M|Erik Norberg|läkare, Uppsala, 77 år
+C|53305|51|M|Håkan Marklund|projektledare, Uppsala, 51 år
+C|53306|37|K|Johanna Norberg|universitetsadjunkt, Uppsala, 37 år
+C|53307|32|M|Niklas Hjelm Smith|tjänsteman, 32 år
+C|53308|63|K|Kim Andersson|administratör, 63 år
+C|53310|42|M|Per Ekegren|jurist, 42 år
+C|53311|75|M|Leif Wernberg|f.d. konsult, Uppsala, 75 år
+C|53312|56|K|Janine Bichara|sjuksköterska & företagare, Uppsala, 56 år
+C|53313|63|M|Ismail Kamil|universitetslärare, Uppsala, 63 år
+C|53314|46|K|Malin Sjöberg Högrell|ekonom & regionråd, Uppsala, 46 år
+C|53315|77|K|Agneta Simonsson|f.d. egenföretagare, 77 år
+C|383394|27|M|Wilhelm Berndtsson|27 år, yrkesofficer
+C|383395|51|K|Pernilla Rosander|51 år, verksamhetskonsult Hovslagare
+C|382644|50|M|Rickard Malmström|Kommunalråd/gymnasielärare, 50 år, Uppsala
+C|382647|43|K|Linda Eskilsson|Miljö- och hälsoskyddsinspektör, 43 år, Uppsala
+C|382646|43|M|Lars Friberg|Klimat- och energiexpert, 43 år, Uppsala
+C|382645|46|K|Helena Nordström-Källström|Forskare AgrDr., 46 år, Uppsala
+C|382642|41|M|Charles Pylad|Pol.mag/politisk sekreterare, 41 år, Uppsala
+C|382639|48|K|Åsa Strahlemo|Kurator, 48 år, Björklinge
+C|385048|39|M|Per Eric Rosén|programmerare, 39 år, Luthagen
+C|385049|73|K|Elisabeth Ståhle|konsult, 73 år, Kungsängen
+C|382636|51|M|Johan Edstav|Särskild utredare, 51 år, Uppsala
+C|385051|30|K|Klara Ellström|FoU-sekreterare, 30 år, Kvarngärdet
+C|383013|72|M|Bengt Fladvad|Egenföretagare, 72 år, Uppsala
+C|382655|18|K|Alice Josephson|Student, 18 år, Uppsala
+C|385054|23|M|Oliver Björklund|Avdelningschef, 23 år, Kåbo
+C|382653|68|K|Eva Adler|Fd. speciallärare, 68 år, Uppsala
+C|382662|40|M|Salvador Rincon Amat|Arbetsförmedlare, 40 år, Uppsala
+C|382633|21|K|Andrea Byding|Studerande, 21 år, Uppsala
+C|382634|31|M|Erik Apel|Politisk sekreterare, 31 år, Uppsala
+C|382659|47|K|Tarja Onegård|Projektkoordinator, 47 år, Uppsala
+C|385060|32|M|Warren Kunce|Biolog, 32 år, Gottsunda
+C|385061|56|K|Susanne Engström|Universitetslektor, 56 år, Kvarngärdet
+C|385062|47|M|Lennart Köhler|Företagare, 47 år, Centrum
+C|383007|54|K|Susanna Tuvemo Johnson|Fysioterapeut/univ.adjunkt, 54 år, Uppsala
+C|382652|28|M|Mattias Ekberg|Socionom, 28 år, Almunge
+C|385065|31|K|Sanna Sundvall|Student, 31 år, Centrum
+C|385066|60|M|Ahmad Orfali|Egenföretagare, 60 år, Kvarngärdet
+C|383024|22|K|Thess Lorin|Barnskötare, 22 år, Uppsala
+C|382648|29|M|Jonas Andersson|Processingenjör, 29 år, Uppsala
+C|385069|75|K|Küllike Montgomery|Tidigare museichef, 75 år, Fålhagen
+C|382998|49|M|Fredrik Leijerstam|Allmänläkare, 49 år, Uppsala
+C|382661|41|K|Lene Schill|Studerande/verksamhetsutvecklare, 41 år, Uppsala
+C|383011|49|M|Finn Hedman|Receptionist, 49 år, Uppsala
+C|385073|34|K|Ida Sylwan|Civilingenjör, 34 år, Kvarngärdet
+C|384096|61|M|Trond Svendsen|Civilingenjör, 61 år, Uppsala
+C|385075|75|K|Kerstin Lundberg|Fil.kand, 75 år, Fjärdingen
+C|385076|41|M|Paul Eskilsson|Jurist, 41 år, Valsätra
+C|382667|72|K|Siw Björkgren|Agronom, 72 år, Uppsala
+C|383017|26|M|Joachim Höggren|Politisk sekreterare, 26 år, Uppsala
+C|385079|61|K|Pia-Maria Ivarsson|Universitetslektor, 61 år, Tunabackar
+C|382666|69|M|Terence Hongslo|Civilingenjör, 69 år, Uppsala
+C|382669|33|K|Ida Netzel|Anställd i försvarsmakten, 33 år, Uppsala
+C|385082|71|M|Jan Hagerlid|Pensionär, 71, Stabby
+C|385083|31|K|Celina Hongslo|Lärare, 31 år, Sala backe
+C|385084|35|M|Andreas Lindholm|Lärare, 35 år, Stenhagen
+C|382649|32|K|Åsa Ljusenius|Kommunikatör, 32 år, Uppsala
+C|135099|50|M|Fredrik Ahlstedt|50 år, Kommunalråd, Uppsala
+C|135100|35|K|Therez Olsson|35 år, Kommunalråd, Vänge
+C|133581|29|K|Alexandra Steinholtz|29 år, Jurist, Uppsala
+C|132922|42|M|Christopher Lagerqvist|42 år, Forskare, Uppsala
+C|132910|39|K|Marta Obminska|riksdagsledamot, Uppsala län
+C|132921|61|M|Magnus Åkerman|61 år, Civilekonom, Uppsala
+C|132915|70|K|Cecilia Forss|70 år, Pensionär, Uppsala
+C|132913|49|M|Markus Lagerquist|49 år, Politiskt sakkunnig, Uppsala
+C|132932|59|M|Mats Gyllander|59 år, Officer, Uppsala
+C|132920|47|K|Madeleine Andersson|47 år, Idrottsutvecklare, Uppsala
+C|132929|43|K|Carolina Bringborn|43 år, Administrativ chef, Uppsala
+C|135110|69|K|Anna-Karin Westerlund|69 år, 1:e arkivarie, Uppsala
+C|135111|40|M|Robin Kronvall|40 år, Ekonomiansvarig, Uppsala
+C|135112|31|K|Carolina Zandén|31 år, Borgarrådssekreterare, Uppsala
+C|132916|25|M|Fredrik Hultman|25 år, Student, Uppsala
+C|135114|70|M|Gunnar Hedberg|70 år, F.d. kommunalråd, Uppsala
+C|135115|57|M|Roine Thunberg|57 år, Reservdelsman, Alunda
+C|135116|74|K|Inger Söderberg|74 år, Pensionerad rektor, Uppsala
+C|135117|60|M|Arne Sandemo|60 år, Kommunikationskonsult, Uppsala
+C|132926|49|M|Bekir Jusufbasic|49 år, Egen Företagare, Uppsala
+C|135119|59|M|Lars Harlin|59 år, VD/ekonom, Storvreta
+C|133575|76|K|Vivianne Eriksson|76 år, Egen företagare, Uppsala
+C|135121|72|M|Stig Rådahl|72 år, F.d. bitr. rektor, Uppsala
+C|135122|51|M|Mats Hansén|51 år, Rektor, Uppsala
+C|135123|54|K|Maria Jansson|54 år, Kyrkvaktmästare, Knutby
+C|135124|46|M|Mathias Kullberg|46 år, Civilingenjör, Uppsala
+C|135125|68|K|Maria Petersson|68 år, Pensionär, Uppsala
+C|135126|34|M|Hannes Beckman|34 år, Jurist, Storvreta
+C|135127|36|M|Johan Ridenfeldt|36 år, Banktjänsteman, Uppsala
+C|135128|44|K|Malin Ahlström|44 år, Bygglovsadministratör, Uppsala
+C|135129|69|M|Thomas Tjäder|69 år, F.r. säk.politisk rådgivare, Uppsala
+C|135130|21|M|John Manders|21 år, Studerande, Storvreta
+C|135131|23|M|Sten Storgärds|23 år, Jur stud, Uppsala
+C|135132|68|M|Per Davidsson|68 år, Pensionär, Uppsala
+C|135133|59|K|Inger Liljeberg Kjelsson|59 år, Köksbiträde, Almunge
+C|133571|29|K|Gazang Bradosti|29 år, Jurist , Uppsala
+C|135135|52|M|Mårten Blix|52 år, Jur. kand., Uppsala
+C|135136|53|K|Lise-Lotte Argulander|53 år, Jur. kand. , Uppsala
+C|135137|63|M|Lars Tufvesson|63 år, Civilekonom, Uppsala
+C|135138|40|M|Håkan Tribell|40 år, Talskrivare, Uppsala
+C|135139|30|K|Josefine Andersson|30 år, Forskare, Storvreta
+C|135140|39|M|Tobias Hägglund|39 år, Handelspolitiskt sakkunnig, Uppsala
+C|133579|74|M|Anders Karlberg|74 år, F d. kyrkojurist, Uppsala
+C|135142|67|K|Margareta Fernberg|67 år, Projektledare, Uppsala
+C|135143|47|M|Jukka Saario|47 år, Entreprenör, Uppsala
+C|135144|29|M|Michael Holtorf|29 år, Studerande, Uppsala
+C|132927|58|K|Hélène Brodin Rheindorf|58 år, Chefssekreterare, Uppsala
+C|135146|22|M|Carl Filip Trolle Hjälte|22 år, Agronomie stud., Uppsala
+C|133576|25|M|Adrian Ribbing|25 år, Studerande, Uppsala
+C|135148|57|K|Åse Karlsson|57 år, Egen företagare, Uppsala
+C|133583|67|M|Peter Eklund|67 år, Civilingenjör, Uppsala
+C|133562|27|K|Amanda Skårner|27 år, Juriststuderande, Uppsala
+C|135151|39|M|Mohammad Jashim Uddin|39 år, Företagare, Uppsala
+C|135152|50|M|Fredrik Björkman|50 år, Officer, Uppsala
+C|135153|72|K|Gunilla Söderman|72 år, Lärare, Uppsala
+C|135154|40|M|Mats Wurmbach|40 år, IT-specialist, Uppsala
+C|135156|64|M|Martin Talay|64 år, Marknadsekonom, Uppsala
+C|135157|42|M|Johan Blomqvist|42 år, El-projektör, Uppsala
+C|135158|40|K|Maris Rasul|40 år, Tjänsteman, Uppsala
+C|133574|57|M|Diderick Velthoen|57 år, Miljöjurist, Uppsala
+C|135160|51|M|Ulf Åström|51 år, Banktjänsteman, Uppsala
+C|395850|28|M|Aeona Faramond|28, Personlig assistent
+C|395851|25|K|Elin Andersson|25, Uppsala
+C|395852|30|M|Fredrik Appelkvist|30, Kulturentusiast
+C|501409|56|M|Mikael Eriksson|
+C|136073|28|M|Simon Alm|28, regionråd, Uppsala
+C|136074|28|M|David Perez|Civilekonom, Uppsala
+C|136075|40|K|Lisen Burmeister|Fil.kand Biologi, Uppsala
+C|136076|22|K|Linnea Bjuhr|22, politisk sekreterare, Uppsala
+C|136077|18|K|Rebecka Tyrheim|18, student, Uppsala
+C|136078|72|M|Anders Sehlin|72, f.d. it-manager, Uppsala
+C|136079|52|M|Roger Thelander|52, företagare, Uppsala
+C|136080|54|M|Knut Godskesen|54, översättare, Uppsala
+C|136081|24|M|Alexander von Uckermann|24, personalvetare, Uppsala
+C|136082|29|M|Simon Pettersson|29, frilansjournalist, Uppsala
+C|136083|43|M|Kent Kumpula|43, entreprenör, Uppsala
+C|136084|47|M|Torbjörn Westerlund|Universitetslektor, Uppsala
+C|136085|67|M|Jan Jansson|67, f.d. försäkringsförmedlare, Uppsala
+C|136086|64|M|Mike Tutsch|64, officer, Uppsala
+C|136087|25|K|Nora Svenonius|25, vårdbiträde, Uppsala
+C|136088|26|M|Ivan Alm|26, fastighetsskötare, Gränby
+C|136089|41|M|Bennie Bergkvist|41, besiktningstekniker, Uppsala
+C|136090|72|M|Tommy Larsson|72, ingenjör, Uppsala
+C|136091|53|M|Reio Roosi|53, VD, Uppsala
+C|136092|57|K|Jasmine Bengtsar|56, redovisningsekonom, Knutby
+C|136093|25|M|Haroon Bayani|25, student, Uppsala
+C|136094|68|K|Christina Säfström|68, skötare, Nyby
+C|136095|50|K|Anneli Persson|50, arbetshandledare, Sävja
+C|136096|63|M|Christer Olsson|Tandläkare, Uppsala
+C|136097|61|M|Thomas Kindström|61, officer, Uppsala
+C|136098|79|K|Inga Britt Hedlund|79, entreprenör, Uppsala
+C|136099|48|M|Johan Andersson|48, student, Uppsala
+C|136100|20|M|Kim Holmberg|20, markarbetare, Vattholma
+C|136101|52|M|Niklas Ernstedt|52, styckmästare, Uppsala
+C|136102|66|M|Börje Wängelin|66, tekniker, Uppsala
+C|136103|69|M|Jan-Olov Råman|69, civilekonom, Uppsala
+C|136104|28|M|Oscar Haglund|28, operatör, Uppsala
+C|136105|31|M|Joakim Zetterström|31, systemkonsult, Uppsala
+C|136106|54|M|Peter Thun|54, miljöarbetare, Uppsala
+C|136108|55|M|Tommy Öhlund|55, personalhanterare, Kvarngärdet
+C|136109|61|M|Peter Bytar|61, fastighetsmäklare, Uppsala
+C|136110|44|M|Magnus Törne|44, tryckare, Fålhagen
+C|490652|29|M|Henrik Gustavsson|lärare, Uppsala
+C|490653|28|M|Sahand Feyzi|bilmekaniker, Uppsala
+C|490654|30|M|Patrik Lindh|trädgårdsmästare, Uppsala
+C|490655|65|M|Kurt Sörensen|pensionär
+C|490656|62|K|Marina Weilguni|översättare, Uppsala
+C|490657|31|M|Johannes Ståhlnacke|lärare
+C|490658|23|M|Filip Sörensen|butiksarbetare
+C|490659|22|M|Alexander Patris|sjuksköterska
+C|490660|30|M|Fredrik Gustafsson|boendestödjare
+C|490661|29|M|Andreas Sörensen|partiordförande, Uppsala
+C|395756|40|M|Tobias Smedberg|40, småföretagare, Uppsala
+C|395757|38|K|Hanna Victoria Mörck|38, affärsutvecklare, Innerstaden
+C|395758|41|K|Karolin Lundström|40, socialsekreterare, Uppsala
+C|395759|60|M|Torbjörn Björlund|60, fritidspedagog, Rosendal
+C|395760|53|M|Edip Akay|52, barnskötare/modermålspedagog, Gottsunda
+C|395761|63|K|Ingela Ekrelius|63, undersköterska, Ekeby
+C|395762|27|M|Magne Björklund|27, studerande, Kåbo
+C|395763|47|K|Therese Rhann|46, projektledare, Uppsala
+C|395764|62|M|Lalla Andersson|62, förskollärare, Hågaby
+C|395765|47|K|Marlene Larsson|47, undersköterska, Uppsala
+C|395766|46|M|Florian Burmeister|45, översättare, Nybygård
+C|395767|67|K|Anette Fisher|67, agronom, Luthagen
+C|395768|72|M|Per-Olof Forsblom|71, pensionär/ fd socialchef, Gottsunda
+C|395769|60|M|Andrea Karnekvist|59, undersköterska, Vattholma
+C|395770|20|M|Artemis Lumarker|20, studerande, Innerstaden
+C|395771|18|K|Milo Häggkvist|18, studerande, Kvarnbo
+C|395772|31|M|Daniel Rogozinski|31, lärare, Uppsala
+C|395773|43|K|Alexandra Valdez|43, pedagog/fackligt aktiv, Uppsala
+C|395774|63|M|Per Ström|63, socialchef/leg sjukgymnast, Uppsala
+C|395775|63|K|Aynur Beydogan|63, lokalvårdare/kontaktperson, Uppsala
+C|395776|30|M|Philip Wargert|30, industriarbetare, Uppsala
+C|395777|38|K|Anna Bergström|38, lokförare/fackligt aktiv, Årsta
+C|395778|42|K|Veronica Grohs|41, boendeassistent LSS/fackligt förtroendevald, Sävja
+C|395779|51|K|Carola Carlsson|51, studerande/busschaufför, Alunda
+C|395780|37|M|Salam Kadirzada|36, Gottsunda
+C|395781|20|K|Michelle Andersson Thatal|19, studerande, Storvreta
+C|395782|64|K|Monica Lindgren Petersson|64, uppdragsstrateg, Ekeby
+C|395783|42|M|Ali Akis|41, sociolog/poet, Innerstaden
+C|395784|42|M|Tobias Nordqvist|42, statistiker, Uppsala
+C|395785|51|M|Börje Lindblom|51, tidningsbud, Luthagen
+C|395786|70|M|Gunnar Kullgren|69, pensionerad professor/överläkare, Almunge
+C|395787|45|K|Javiera Cifuentes|45, administratör, Ekeby
+C|395788|71|M|Kjell Haglund|70, pensionär, Järlåsa
+C|395789|37|K|Alexandra D'Urso|37, pedagogisk utvecklare, Nyby
+C|395790|43|K|Lisa Skiöld|43, lokalt barnombud, Uppsala
+C|395791|64|K|Pia Sandqvist|64, socionom, Luthagen
+C|395792|67|M|Carl Åborg|66, leg. psykolog, Innerstaden
+C|395793|32|K|Anja Karinsdotter|32, kurator, Uppsala
+C|395794|59|K|Nadja Boucheloukh|59, förskollärare, Gottsunda
+C|395795|60|M|Martin Holmberg|60, studievägledare, Stenhagen
+C|395796|60|M|Thorsten Rehn|59, utredare, Gamla Uppsala
+C|395797|66|K|Ingrid Nordlander|65, pensionär, Luthagen
+C|395798|38|K|Tove Fraurud|38, lärare, Uppsala
+C|395799|66|M|Lennart Larsson|65, universitetslektor, Gränby
+C|395800|70|K|Anna-Lena Mehlstrand|69, pensionär/studievägledare, Luthagen
+C|395801|60|K|Ulla-Stina Claesson|60, förskollärare, Norby
+C|395802|61|K|Karin Bennemo|61, undersköterska, Innerstaden

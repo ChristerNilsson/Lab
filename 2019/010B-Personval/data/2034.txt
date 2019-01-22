@@ -1,9 +1,162 @@
-2|240894|240895|240896|240897|240898|240899|240900|240901|240902|240903|240904|240905|240906|240907|240908|240909|240910|240911|240912|240913|240914|240915|240916|240917|240918|240919|240920|240921|240922|240923|240924|240925|240926|240927
-4|33530|93536|93537|93538|93539|93540|93541|38958|38951|93544|93545|93546|93547|93548|93549|93550|93551|93552|93553|93554|93555|93556|93557|93558|93559|93560|93561|93562|93563|93564|93565|93566|93567|93568|93569|93570|93571|93572|93573|93574|93575|93576|93577|93578
-1150|365287
-68|9186|9157|130791|130793|130792|9190|130795|130796|130797|130798|133755|169369|133756|130799|130800|130801|130802|130803|130804|130805|133764|169379|130806|130807
-3|156329|183907|183908|183909|183910|183911|183912|183913|183914|183915|183916
-55|114216|124519|124520
-1|37189|36205|36216|36221|35834|37194|37195
-110|38133|39801|39802|39803|39804|39805|39806|39807|39808
-5|106452|106453|106454|106455|106456|64082|106458|106459|106460|106461
+T|Orsa
+A|2|240894|240895|240896|240897|240898|240899|240900|240901|240902|240903|240904|240905|240906|240907|240908|240909|240910|240911|240912|240913|240914|240915|240916|240917|240918|240919|240920|240921|240922|240923|240924|240925|240926|240927
+A|4|33530|93536|93537|93538|93539|93540|93541|38958|38951|93544|93545|93546|93547|93548|93549|93550|93551|93552|93553|93554|93555|93556|93557|93558|93559|93560|93561|93562|93563|93564|93565|93566|93567|93568|93569|93570|93571|93572|93573|93574|93575|93576|93577|93578
+A|1150|365287
+A|68|9186|9157|130791|130793|130792|9190|130795|130796|130797|130798|133755|169369|133756|130799|130800|130801|130802|130803|130804|130805|133764|169379|130806|130807
+A|3|156329|183907|183908|183909|183910|183911|183912|183913|183914|183915|183916
+A|55|114216|124519|124520
+A|1|37189|36205|36216|36221|35834|37194|37195
+A|110|38133|39801|39802|39803|39804|39805|39806|39807|39808
+A|5|106452|106453|106454|106455|106456|64082|106458|106459|106460|106461
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|240894|44|M|Magnus Bjurman|Höglunda
+C|240895|51|K|Marie Olsson|51 år, Orsa
+C|240896|50|M|Anders Rosell|Orsa
+C|240897|58|K|Gunilla Elings Friberg|Åberga
+C|240898|35|M|Patrik Borgenstrand|Berget
+C|240899|52|K|Maria Tapper|Orsa
+C|240900|59|M|Hans Lans|Sandhed
+C|240901|58|K|Pia Ström|Trunna
+C|240902|69|M|Hans-Göran Olsson|Oljonsbyn
+C|240903|47|K|Ellenor Smids|Kyrkbyn
+C|240904|65|M|Olof Herko|Berget
+C|240905|66|K|Gunlis Olmats|Orsa
+C|240906|69|M|Hans Sternbro|Borngärdet
+C|240907|58|K|Lotte Liljedahl|Stackmora
+C|240908|54|M|Kenneth Lilja|Kyrkbyn
+C|240909|68|K|Inger Jones-Eriksson|Orsa
+C|240910|76|M|Hans Nahlbom|Born
+C|240911|75|K|Lillian Spännar|Vångsgärde
+C|240912|51|M|Jörgen Storm|Berget
+C|240913|72|K|Karin Bohlin|Ön
+C|240914|75|M|Björn Sinders|Höglunda
+C|240915|69|K|Karin Bruksner|Holen
+C|240916|45|M|Putte Ollars|Kyrkbyn
+C|240917|64|K|Karin Herko|Orsa
+C|240918|35|M|Olle Vixner Hübinette|Kårgärde
+C|240919|77|K|Vaino Ranung|Born
+C|240920|76|M|Lennart Rosell|Berget
+C|240921|76|K|Tina Ängeby|Sundbäck
+C|240922|55|M|Håkan Elings|Kallmora
+C|240923|63|K|Ann-Britt Östlund|Ön
+C|240924|72|M|Hans Lindström|Trunna
+C|240925|62|K|Eva Tanskanen|Centrum
+C|240926|47|M|Bo Finnström|Åberga
+C|240927|67|K|Tove N. Berg|Kyrkbyn
+C|33530|52|M|Mikael Thalin|Orsa
+C|93536|48|K|Susann Lindblad|sjuksköterska, Lisselhed
+C|93537|66|M|Håkan Yngström|pensionär, Ön
+C|93538|62|K|Anne-Marie Fröjdh|textillärare, Orsa Skans
+C|93539|56|M|Per-Erik Wiik|egenföretagare, Maggås
+C|93540|59|K|Sofia Diefke|högstadielärare, Västeråkern
+C|93541|51|M|Leif Dahlfors|arbetsledare, Slättberg
+C|38958|70|M|Bernt Westerhagen|Orsa
+C|38951|72|M|Jan Segerstedt|Orsa
+C|93544|75|K|Aino Eurenius|pensionerad sjuksköterska, Berget
+C|93545|41|M|Johan Smids|företagare, Born
+C|93546|27|K|Camilla Staffan|yrkeschaufför, Lisselhed
+C|93547|37|M|Tomas Hanser|företagare, Sundbäck
+C|93548|54|M|Per-Erik Jonsson|stf räddningschef, Kyrkbyn
+C|93549|46|K|Anna Frideus|vårdare, Kyrkbyn
+C|93550|66|M|Jan Lovén|småföretagare, Kallmora
+C|93551|51|K|Eva-Lena Ekblom|chefsadministratör, Nederberga
+C|93552|56|K|Rose-Marie Jonsson|personlig assistent, Kyrkbyn
+C|93553|51|M|Anders Borg|hemmansägare, Skattungbyn
+C|93554|37|M|Anders Hjärpsgård|grävmaskinist, Stackmora
+C|93555|54|M|Mikael Johansson|egenföretagare, Torrvål
+C|93556|22|K|Madeleine Thalin|studerande, Berget
+C|93557|64|M|Sven-Erik Sjöberg|skogsmästare, Oljonsbyn
+C|93558|45|K|Anna Hassis Ståbis|vägmästare, Stackmora
+C|93559|76|M|Glädje Jimmy Olsson|f.d. filialföreståndare, Sandhed
+C|93560|65|M|Kurt Rågstad|företagare, Stenberg
+C|93561|73|K|Carina Conradson|farmaceut, Blåsenborg
+C|93562|58|K|Margareta Stjernqvist|diakoniassistent, Kallmora
+C|93563|63|M|Ronnie Lovén|företagare, Kyrkbyn
+C|93564|75|K|Barbara Sundberg|företagare, Heden
+C|93565|74|M|Bo Lindblad|egenföretagare, Lisselhed
+C|93566|34|K|Jessica Rehn|personlig assistent, Kyrkbyn
+C|93567|68|M|Yngve Björklund|pensionär, Västeråkern
+C|93568|74|M|Bo Conradson|konsult, Blåsenborg
+C|93569|69|K|Kristina Westerhagen|läkarsekreterare, Stenberg
+C|93570|74|M|Rolf Ström|pensionär, Born
+C|93571|48|M|Mattias Knutsson|grävmaskinist, Hansjö
+C|93572|68|M|Thomas Göthe|pensionär, Kallmora
+C|93573|69|M|Örjan Gustafsson|pensionär, Slättberg
+C|93574|23|K|Ester Cikuru Shamavu|vårdbiträde, Kyrkbyn
+C|93575|77|M|Joachim Diefke|hotelier, Västeråkern
+C|93576|38|M|Alain Katula Busamoke|lärare, Kyrkbyn
+C|93577|80|K|Spiris Kerstin Eriksdotter|f.d. bildlärare, Mickelvål
+C|93578|61|M|Lars-Erik Björkkvist|hemmansägare, Mickelvål
+C|365287|50|M|Danny Fröberg|
+C|9186|72|M|Bengt-Åke Svahn|Orsa
+C|9157|69|M|Lars-Olof Uleander|trädgårdsmästare, Orsa
+C|130791|35|K|Malin Sundin-Grindal|Lantbrukare, Holen
+C|130793|75|M|Ulf Björklund|Rektor, Vångsgärde
+C|130792|56|M|Lars-Olov Simu|Systemutvecklare, Västeråkern
+C|9190|51|M|Robert Söderberg|marknadssamordnare, Orsa
+C|130795|73|M|Kennet Hedén|Lärare, Berget
+C|130796|76|M|Bengt Hahne|Läkare, Vångsgärde
+C|130797|42|M|Angesom Ghebrengus|Utbildare, Storgärdet
+C|130798|74|K|Margareta Hahne-Larsson|Lärare, Blåsenborg
+C|133755|33|M|Markus Laveson|Musiklärare, Kyrkbyn
+C|169369|75|K|Gudrun Hedén|Lärare, Berget
+C|133756|47|M|Gaspard Ndame|Byggadministratör, Kyrkbyn
+C|130799|27|M|Mikael Magnusson|Kock, Västeråkern
+C|130800|18|M|Lukas Söderberg|VVS-tekniker, Born
+C|130801|77|K|Gudrun Björklund|Secondhandföreståndare, Vångsgärde
+C|130802|62|K|Eva Ljung-Lecomte|Förskollärare, Blåsenborg
+C|130803|71|M|Stefanus Godåker|Företagare, Berget
+C|130804|76|K|Anita Forslin|Barnskötare, Kyrkbyn
+C|130805|73|M|Kent Sylvan|Yrkeschaufför, Västeråkern
+C|133764|45|K|Elisabet Langran|Jurist, Stenberg
+C|169379|28|M|Jack Skoglund|Butiksbiträde, Barken
+C|130806|44|K|Curly Ann Tumbale|Sjuksköterska, Barken
+C|130807|84|K|Ann-Britt Tillberg|Sjuksköterska, Västeråkern
+C|156329|79|M|Olle Jobs|Pensionär, 79 år, Orsa
+C|183907|67|M|Shigeru Ishida|Sundbäck
+C|183908|78|K|Renate Tegethoff Jobs|Berget
+C|183909|58|M|Jimmy José León|Kyrkbyn
+C|183910|48|K|Maja Ohlsén Hansson|Oljonsbyn
+C|183911|72|K|Marianne Hållmarker|Kårgärde
+C|183912|36|M|Kenneth Eklind|Berget
+C|183913|75|K|Margareta Strömgren|Kårgärde
+C|183914|85|K|Ulla Skeppstedt|Kyrkbyn
+C|183915|46|K|Annette Wilhelmsson|Blåsenborg
+C|183916|91|M|Mårten Ohlsén|Born
+C|114216|65|M|Joep Meens|Orsa, teknisk fysiker, didaktiker
+C|124519|33|M|Abdirahman Nur|handläggare
+C|124520|75|K|Carina Gillgren|socionom
+C|37189|66|M|Morgan Darmell|egen företagare, 65 år, Stackmora
+C|36205|54|M|Joakim Larsson|54 år, civilekonom, Orsa
+C|36216|72|K|Gunilla Frelin|72 år, egenföretagare, Orsa
+C|36221|62|M|Ronnie Persson|62 år, yrkeschaufför, Orsa
+C|35834|57|M|Sten Hansson van Nes|57 år, egenföretagare, Orsa
+C|37194|85|K|Hjördis Nyström|pensionär, Höglunda
+C|37195|59|M|Håkan Fast|egen företagare, 59 år, Höglunda
+C|38133|58|M|Björn Brandth|Chaufför
+C|39801|54|M|Roine Andersson|Service, Orsa
+C|39802|56|K|Britt-Marie Olsson|Vårdbiträde
+C|39803|45|M|Tomas Alfredsson|Chaufför
+C|39804|71|M|Bengt-Erik Svensson|Pensionär
+C|39805|49|M|Torbjörn Nilsson|Hantverkare
+C|39806|70|M|Anders Lindkvist|Pensionär
+C|39807|80|M|Nils Brandt|Pensionär
+C|39808|80|M|Jan Brandt|Egenföretagare
+C|106452|51|K|Margareta Jansson|Socionom
+C|106453|70|K|Annika Lemme|Receptionist
+C|106454|57|M|Tony Samuelsson|Författare
+C|106455|63|M|Anders Johansson|Folkhögskolelärare
+C|106456|56|K|Liselott Hammarbäck|Sjuksköterska
+C|64082|42|M|Petri Stenport|Orsa
+C|106458|53|K|Annika Persson|Miljöinspektör
+C|106459|60|K|Barbro Renström|Studievägledare
+C|106460|80|K|Ingrid Bergman|Bibliotekarie
+C|106461|48|K|Marika Bäckman|Socionom

@@ -1,76 +1,439 @@
-1365|513996
-1423|513996
-2|6798|6799|7441|6462|6464|7444|7445|7446|7447|7448|6469|7450|7451|7452|7453|7454|7455|6468|6461|6467|7459|7460|8133|8134|8135|8136|8137|8138|8139|8140|8141|8142|8143|8144|8145|14885|8146|8147|8148|8149|8150|6470|8152|8153|8154|16258|16259|8155|8156|8157|8158|8160|8159|8162|8161|8164|8163|8220|8219|8222|8221|8223|16273|8225|8224|8227|8226|8229|8228|16282
-1420|513996
-1372|513996
-1375|513996
-4|95771|307483|236969|239464|239477|242669|236996|242677|95772|307491|307492|283566|95776|307495|283587|283574|95773|95768|283582|283565|307502|239476|242690|242665|283568|242685|307508|307509|236978|307511|242662|307513|95775|283714|242671|188494
-1318|513996
-1426|513996
-1387|513996
-1314|513996
-1351|513996
-1150|513996
-29|513996
-532|513996
-1329|513996
-1425|513996
-1388|513996|515562
-1317|513996
-1406|513996
-1173|513996
-1176|513996
-1316|513996
-1374|513996
-1416|513996
-638|513996
-1405|513996
-68|205310|205311|205313|205309|205315|205316|205318|285758|205317|205319|205314|205320|205321|205322|206005
-1140|513996
-1011|203149|203510|203151|131844|203511
-3|223106|224892|223109|223119|224895|223103|223100|224898|223101|223107|49200|223114|223113|223108|223115|223102|223104|199000|223111|223110|223118|223117|223116|182833
-518|513996
-1345|513996
-1330|513996
-1296|513996
-55|175337|175336|385928|175346|385887|175342|175347|175340|386015|175345|386060|386017|385919|175344|385895|385915|515718
-1|39487|39488|39489|39490|39491|39492|39493|39494|39495|39496|39497|39498|39499|39500|39501|39502|39503|39504|39505|39506|39507|39508|39509|39510|39511|39512|39513|39514|39515|39516|39517|39518|39519|39520|39521|39522|39523|39524|39525|39526|39527|39528|39529|39532|39533|39534|39537|39538|39539|39540|39541|39542|39543|39544|39545|39546|39547
-1380|513996
-1273|513996
-1378|513996
-1399|513996
-1415|513996
-1385|513996
-1418|513996
-1391|513996
-1408|513996
-1371|513996
-524|513996
-1347|513996
-1389|513996
-1202|513996
-1409|513996
-172|513996
-1397|513996
-54|513996
-522|513996
-1421|513996
-1376|513996
-1414|513996
-1384|513996
-110|106438|278842|105599|278909|106443|105602|105713|106439|106462|105603|105604|106441|105601|106442|106440|105712|278923|278924|105714|105600|278927|106444|278929|278930|278931|106445|105169|106446|105711
-1396|513996
-1063|513996
-1400|513996
-1328|513996
-1309|513996
-1386|513996
-1422|513996
-1332|513996
-1349|513996
-1417|513996
-1412|513996
-1138|513996
-5|252538|252540|253060|253073|252533|253061|300369|253059|300371|252539|300373|253062|252537|300376|300377|253074|300379|252534|388748|253058|300382|300383|360991|253070|300385|300386|252535|300388|253063|253072|300391|253068|252536
-1407|513996
-1404|513996
+T|Jämtlands läns landsting
+A|1365|513996
+A|1423|513996
+A|2|6798|6799|7441|6462|6464|7444|7445|7446|7447|7448|6469|7450|7451|7452|7453|7454|7455|6468|6461|6467|7459|7460|8133|8134|8135|8136|8137|8138|8139|8140|8141|8142|8143|8144|8145|14885|8146|8147|8148|8149|8150|6470|8152|8153|8154|16258|16259|8155|8156|8157|8158|8160|8159|8162|8161|8164|8163|8220|8219|8222|8221|8223|16273|8225|8224|8227|8226|8229|8228|16282
+A|1420|513996
+A|1372|513996
+A|1375|513996
+A|4|95771|307483|236969|239464|239477|242669|236996|242677|95772|307491|307492|283566|95776|307495|283587|283574|95773|95768|283582|283565|307502|239476|242690|242665|283568|242685|307508|307509|236978|307511|242662|307513|95775|283714|242671|188494
+A|1318|513996
+A|1426|513996
+A|1387|513996
+A|1314|513996
+A|1351|513996
+A|1150|513996
+A|29|513996
+A|532|513996
+A|1329|513996
+A|1425|513996
+A|1388|513996|515562
+A|1317|513996
+A|1406|513996
+A|1173|513996
+A|1176|513996
+A|1316|513996
+A|1374|513996
+A|1416|513996
+A|638|513996
+A|1405|513996
+A|68|205310|205311|205313|205309|205315|205316|205318|285758|205317|205319|205314|205320|205321|205322|206005
+A|1140|513996
+A|1011|203149|203510|203151|131844|203511
+A|3|223106|224892|223109|223119|224895|223103|223100|224898|223101|223107|49200|223114|223113|223108|223115|223102|223104|199000|223111|223110|223118|223117|223116|182833
+A|518|513996
+A|1345|513996
+A|1330|513996
+A|1296|513996
+A|55|175337|175336|385928|175346|385887|175342|175347|175340|386015|175345|386060|386017|385919|175344|385895|385915
+A|1|39487|39488|39489|39490|39491|39492|39493|39494|39495|39496|39497|39498|39499|39500|39501|39502|39503|39504|39505|39506|39507|39508|39509|39510|39511|39512|39513|39514|39515|39516|39517|39518|39519|39520|39521|39522|39523|39524|39525|39526|39527|39528|39529|39532|39533|39534|39537|39538|39539|39540|39541|39542|39543|39544|39545|39546|39547
+A|1380|513996
+A|1273|513996
+A|1378|513996
+A|1399|513996
+A|1415|513996
+A|1385|513996
+A|1418|513996
+A|1391|513996
+A|1408|513996
+A|1371|513996
+A|524|513996
+A|1347|513996
+A|1389|513996
+A|1202|513996
+A|1409|513996
+A|172|513996
+A|1397|513996
+A|54|513996
+A|522|513996
+A|1421|513996
+A|1376|513996
+A|1414|513996
+A|1384|513996
+A|110|106438|278842|105599|278909|106443|105602|105713|106439|106462|105603|105604|105601|106442|106440|105712|278923|278924|105714|105600|278927|106444|278929|278930|278931|106445|105169|106446|105711
+A|1396|513996
+A|1063|513996
+A|1400|513996
+A|1328|513996
+A|1309|513996
+A|1386|513996
+A|1422|513996
+A|1332|513996
+A|1349|513996
+A|1417|513996
+A|1412|513996
+A|1138|513996
+A|5|252538|252540|253060|253073|252533|253061|300369|253059|300371|252539|300373|253062|252537|300376|300377|253074|300379|252534|388748|253058|300382|300383|360991|253070|300385|300386|252535|300388|253063|253072|300391|253068|252536
+A|1407|513996
+A|1404|513996
+B|1365||20% skattepartiet
+B|1423||Allians för Sverige
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1420||ASYL.NUPARTIET
+B|1372||Basinkomstpartiet
+B|1375||Bg-Demokrati
+B|4|C|Centerpartiet
+B|1318|CSIS|Common sense in Sweden
+B|1426||Demokraterna i Göteborg
+B|1387||Demokrati Sverige
+B|1314||Demokratirörelsen
+B|1351||Det nya partiet
+B|1150|DD|Direktdemokraterna
+B|29|EAP|Europeiska Arbetarpartiet-EAP
+B|532|FI|Feministiskt initiativ
+B|1329||Final Partiet
+B|1425||FN Parti art: 27
+B|1388||Folkhemmet Sverige
+B|1317||Folkstyret
+B|1406||Generation Utveckling
+B|1173|Gup|Gula Partiet
+B|1176|HumDe|Humandemokraterna
+B|1316||iGov.Direct®
+B|1374||Initiativet
+B|1416|iP|iP-IDROTTSPARTIET-Rädda Stadshagens IP!
+B|638|KLP|Klassiskt liberala partiet
+B|1405||Kosmopolitiska Partiet
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|518||LOTTOKRATIN
+B|1345||LÅNGEN&CO
+B|1330||Medborgarresan
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1380||Modern Sweden
+B|1273|NMR|Nordiska motståndsrörelsen
+B|1378||Norrlandspartiet
+B|1399||NPP Nya Pensions Partiet
+B|1415||numen kärlekspartiet
+B|1385||NY REFORM
+B|1418||Nya bjornska partiet
+B|1391||nya Ny Demokrati
+B|1408||Papepartiet
+B|1371||Partiet Folkomröstning
+B|524|PP|Piratpartiet
+B|1347||POPULISTERNA
+B|1389||Raggarpartiet
+B|1202|RNP|Reformist Neutral Partiet
+B|1409||Rosa Drömmar
+B|172|SJP|Sjöbopartiet
+B|1397||Skolpartiet Göteborg
+B|54|SKÅ|SKÅNEPARTIET
+B|522||Sociala Partiet (SP)
+B|1421||SOCIALLIBERALERNA
+B|1376||Spektral demokrati
+B|1414||Svensk Jobbdemokrati
+B|1384||Sverige ut ur EU/Frihetliga Rättvisepartiet (FRP)
+B|110|SD|Sverigedemokraterna
+B|1396||Sverigepartiet
+B|1063|SKP|Sveriges Kommunistiska Parti (SKP)
+B|1400||Technopartiet
+B|1328||Tryggare Sverige
+B|1309|TRP|TRYGGHETSPARTIET
+B|1386||Utveckling och Progressiv för Sverige partiet (U.P.S)
+B|1422||VALDI2018
+B|1332||Valsamverkanspartiet
+B|1349|ViS|Vi Socialkonservativa
+B|1417||Visiona
+B|1412||Vårt land - Sverige
+B|1138|VägV|Vägvalet
+B|5|V|Vänsterpartiet
+B|1407||Äkta demokrati
+B|1404||Ändrings partiet revolution
+C|513996|61|M|Karl Festin|
+C|6798|61|K|Ann-Marie Johansson|61, Ombudsman, Konäs
+C|6799|53|M|Bengt Bergqvist|53, Projektledare, Strömsund
+C|7441|71|K|Margareta Winberg|71, Ambassadör, Östersund
+C|6462|45|M|Anders Frimert|45, Försäljningschef, Stugun
+C|6464|27|K|Jenny Sellsve|27, IT-tekniker, Östersund
+C|7444|53|M|Robert Uitto|53, Dipl Homeopat, Frösön
+C|7445|52|K|Kristina Holm|52, Biståndshandläggare, Vemhån
+C|7446|26|M|Anton Hammar|26, Ombudsman, Östersund
+C|7447|57|K|Karin Näsmark|57, Djurskötare, Havsnäs
+C|7448|39|M|David Adervall|39, Folkhälsoutredare, Östersund
+C|6469|30|K|Martine Eng|30, Butiksmedarbetare, Åre
+C|7450|63|M|Thomas Hägg|63, Egen företagare, Mörsil
+C|7451|69|K|Britt Carlsson|69, fd Barnskötare, Aspås
+C|7452|66|M|Abbas Khanahmadi|66, Folkhögskolerektor, Sveg
+C|7453|49|K|Cathrine Blomqvist|49, Usk/Mentalskötare, Bräcke
+C|7454|65|M|Tahar Khalfallah|65, Integrationshandledare, Östersund
+C|7455|54|K|Maria Nerpin|54, Egen företagare, Östersund
+C|6468|52|M|Jörgen Persson|52, Fritidsledare, Gällö
+C|6461|56|K|Maria Jacobsson|56, Egen företagare, Offerdal
+C|6467|24|M|Niklas Rhodin|24, Servicetjänsteman, Krokom
+C|7459|49|K|Ella Wallberg|49, Pedagog, Frösön
+C|7460|62|M|Christer Nordqvist|62, Vaktmästare, Sveg
+C|8133|49|K|Marie Olofsson|49, Enhetschef, Östersund
+C|8134|26|M|André Norlén|26, Ombudsman, Östersund
+C|8135|69|K|Gudrun Olsson|70, Socionom, Östersund
+C|8136|58|M|Roger Östlund|58, Kyrkvaktmästare, Bispgården
+C|8137|61|K|Maud Fortuna|61, Distriktssköterska, Strömsund
+C|8138|72|M|Leif D Sivertsson|72, Pensionär, Klövsjö
+C|8139|27|K|Diana Lindström|27, Planeringsingenjör, Frösön
+C|8140|57|M|Kent Wassdahl|57, Verksamhetsutvecklare, Tåsjö
+C|8141|51|K|Carina Fröberg|51, Fakturahandläggare, Nälden
+C|8142|75|M|Leif Persson|75, Socialpedagog, Lit
+C|8143|72|K|Anitha Olofsson|72, Pensionär, Järpen
+C|8144|68|M|Jan Jonsson|68, Pensionär, Brynje
+C|8145|62|K|Christina Westberg|62, Undersköterska, Älvros
+C|14885|49|M|Crister Leandersson|49, Undersköterska, Kälarne
+C|8146|48|K|Gabriella Carlsson|48, Kommunikatör, Krokom
+C|8147|54|M|Anders Magnusson|54, VD, Frösön
+C|8148|23|K|Jenny Störvold|23, Målare, Östersund
+C|8149|18|M|Nils Lindberg|18, Studerande, Såå
+C|8150|39|K|Ida Collin|39, Egen företagare, Norråker
+C|6470|73|M|Alf Larsson|73, Pensionär, Överhogdal
+C|8152|44|K|Mona Modin Tjulin|44, Politisk sekreterare, Frösön
+C|8153|70|M|Kjell Grafström|70, Pedagog, Hammarstrand
+C|8154|35|K|Erika Öhlin|35, Studerande, Aspås
+C|16258|47|M|Simon Teclehaimanot|47, Lärare, Frösön
+C|16259|65|K|Gunilla Larsson|65, Kundtjänstmedarbetare, Älvros
+C|8155|71|M|Johnny Jonsson|71, Pensionär, Kälarne
+C|8156|79|K|Alvi Berglund|79, Jordbrukare, Lit
+C|8157|72|M|Elmer Andersson|73, Pensionär, Norråker
+C|8158|56|K|Katarina Rosberg|56, Undersköterska, Trångsviken
+C|8160|59|M|Björn Sandal|60, Folkhögskolelärare, Östersund
+C|8159|69|K|Henny Möhlnhoff-Lindkvist|69, fd Lärare, Vassnäs
+C|8162|18|M|Julius Wallin|18, Studerande, Ås
+C|8161|68|K|Bendigt Eriksson|68, Administratör, Östersund
+C|8164|48|M|Magnus Sundström|48, Säljare, Kälarne
+C|8163|37|K|Catharina Berg|37, Bonde, Lit
+C|8220|39|M|Jesper Inegård|39, Lärare, Mörsil
+C|8219|34|K|Ida Asp|34, Specialpedagog, Marieby
+C|8222|53|M|Mikael Karlsson|53, Grafisk designer, Kännåsen
+C|8221|41|K|Susanne Persson|41, Projektledare, Brunflo
+C|8223|63|M|Maths Larsson|63, Lärare, Duved
+C|16273|47|K|Kholod Mahmood|42, Kontrollant, Östersund
+C|8225|51|M|Glenn Löfblad|51, Städare, Östersund
+C|8224|49|K|Jaana Pålsson|49, Ombudsman, Brunflo
+C|8227|52|M|Håkan Persson|52, Undersköterska, Hoting
+C|8226|18|K|Elin Hammar|18, Studerande, Strömsund
+C|8229|61|M|Ulf Wäjersten|62, Elevassistent, Östersund
+C|8228|58|K|Eva Marcusdotter|58, Handledare, Frösön
+C|16282|23|K|Johanna Ångström|23, Vårdbiträde, Östersund
+C|95771|35|K|Elin Lemon|regionråd/folhälsovetare 35 år Herrö
+C|307483|61|K|Eva Hellstrand|politiker och bonde 61 år Undersåker
+C|236969|54|M|Mats Gärd|företagare 54 år Fyrås
+C|239464|51|M|Andreas Karlsson|landsbygdsutvecklare 51 år Ås
+C|239477|52|K|Cristine Persson|ekonom/marknadsförare 52 år Krokom
+C|242669|46|M|Thomas Andersson|företagare 46 år Fåker
+C|236996|67|K|Marie-Louise Oscarsson|fd områdeschef regionen 67 år Strömsund
+C|242677|51|M|Jörgen Larsson|företagare 51 år Frösön
+C|95772|68|M|Håkan Larsson|tidigare riksdagsledamot 68 år Rödön
+C|307491|56|K|Britt-Inger Roos|bibliotekschef 56 år Tjärnnäset
+C|307492|61|M|Gunnar Nilsson|distriktsläkare 61 år Frösön
+C|283566|41|K|Mari Eriksson|projektledare 41 år Häljesund
+C|95776|27|M|Johannes Andersson|skidåkare/egenföretagare 27 år Frösön
+C|307495|50|K|Bogna Wojikiewicz Adolfsson|biodlare 50 år Östersund
+C|283587|54|M|Olle Christmansson|egenföretagare 54 år Hallen
+C|283574|29|M|Ghulam Mustafa|modersmålslärare 29 år Duved
+C|95773|44|K|Annakarin Olsson|projektkoordinator 44 år Strömsund
+C|95768|43|M|Tom Silverklo|entreprenör 43 år Frösön
+C|283582|26|K|Olivia Widholm|undersköterska 26 år Järpen
+C|283565|40|M|Daniel Danielsson|oppositionsråd 40 år Järpen
+C|307502|23|K|Linn Aldén|mejeriarbetare 23 år Oviken
+C|239476|39|M|Mathias Friman|systemingenjör 39 år Ås
+C|242690|48|K|Susanne Edfeldt Sjöling|processledare 48 år Östersund
+C|242665|42|M|Magnus Rönnerfjäll|sjuksköterska/egenföretagare 42 år Frösön
+C|283568|54|K|Marie Rödemark|lärare/författare 54 år Duved
+C|242685|31|M|Patrik Andersson|banktjänsteman 31 år Östersund
+C|307508|57|K|Helen Kindberg|kock 57 år Hackås
+C|307509|50|M|Stefan Hallgren|digital marknadsstrateg 50 år Frösön
+C|236978|55|K|Anna Andrée|skolsköterska 55 år Strömsund
+C|307511|61|M|Per-Johan Skoglund|diversearbetare 61 år Rödön
+C|242662|33|K|Sara Wikman|rektor 33 år Frösön
+C|307513|45|M|Peter Madsen|produktionsstöd 45 år Östersund
+C|95775|63|K|Lena Olsson|socionom 63 år Svenstavik
+C|283714|57|M|Per Enzell|företagare 57 år Rödön
+C|242671|65|M|Leif Hagberg|pensionerad polis 65 år Östersund
+C|188494|56|M|Örjan Eriksson|projektledare 56 år Sveg
+C|515562|66|K|Inger Agnar|
+C|205310|60|M|Lars-Erik Olofsson|infektionsläkare, Frösön
+C|205311|53|K|Margareta M Persson|sjuksköterska, Sveg
+C|205313|70|M|Stefan Nilsson|fd officer, Hammarstrand
+C|205309|38|K|Linnéa Haggren|byggnadsinspektör, Hallen
+C|205315|67|M|Karl-Erik Lundin|fd lärare, Hammarstrand
+C|205316|23|K|Andrea Hedenborg|kassörska, Östersund
+C|205318|57|K|Lena Persson|ITsamordnare, Alsen
+C|285758|63|M|Stephen Jerand|polismästare, Östersund
+C|205317|23|M|Rasmus Ericsson|student, Krokom
+C|205319|66|M|Stig Andersson|fd officer, Östersund
+C|205314|51|K|Lena Östling|tandhygienist, Östersund
+C|205320|81|M|Emanuel Sandberg|ingenjör, Östersund
+C|205321|72|M|Lars-Olof Eliasson|fd lärare, Sveg
+C|205322|71|M|Karl-Göran Eriksson|ingenjör, Östersund
+C|206005|66|K|Eva Lundin|fd administratör, Hammarstrand
+C|203149|59|M|Per-Anders Tapper|57 år, Snickare, Tännäs
+C|203510|64|M|Pär-Åke Eriksson|64 år, Pensionär, Sveg
+C|203151|60|K|Berit Lindstedt|59 år, Ambulanssjukvårdare, Sveg
+C|131844|64|M|Olle Larsson|Industrirörläggare, Jämtland
+C|203511|27|M|Frej Ollesson|26 år, Pistvakt, Ränningsvallen
+C|223106|74|M|Lennart Ledin|fd revisionsdirektör,Östersund
+C|224892|63|K|Eva-Britt Boij|vägledare,Sveg
+C|223109|71|K|Kia Carlsson|pensionär,Frösön
+C|223119|75|M|Mats E Nilsson|fd överläkare,Frösön
+C|224895|67|K|Barbro Zetterlund|dist.sköterska,rehab.koordinator,Strömsund
+C|223103|33|K|Mireya Melander|studerande,Östersund
+C|223100|46|M|Serhat Uzun|egen företagare,studiehandledare,Östersund
+C|224898|75|M|Tord Jemteborn|fd militär,Östersund
+C|223101|72|K|Annica Nordell|egen företagare,Frösön
+C|223107|44|K|Ariane Briant Kjellson|utredare,Östersund
+C|49200|48|M|Pär Löfstrand|universitetslektor, Östersund
+C|223114|73|M|Finn Cromberger|egen företagare,Östersund
+C|223113|69|M|Mats El Kott|arbetsrättsjurist,Östersund
+C|223108|70|M|Bo Oscarsson|jamska,Östersund
+C|223115|32|M|Henrik Loxell|kommunjurist,Östersund
+C|223102|50|M|Joakim Åberg|egen företagare,Frösön
+C|223104|65|M|Bengt Magnusson|fd lärare,Frösön
+C|199000|82|M|Håkan Borg|forskande läkare,Åre
+C|223111|76|M|Thord Eric Nilsson|redaktör,Östersund
+C|223110|75|M|Tomas Svanström|pensionär,Östersund
+C|223118|21|K|Stina Johnsson|studerande,Östersund
+C|223117|77|M|Kjell Ericson|fd polis,Östersund
+C|223116|54|M|Torbjörn Ericson|jur kand,Östersund
+C|182833|76|M|Per-Erik Wåglin|fd universitetslärare,Oviken
+C|175337|56|K|Karin Thomasson|56, Musiklärare, Frösön
+C|175336|27|M|Anton Nordqvist|27, egenföretagare, Östersund
+C|385928|57|K|Kerstin Hylén|57, Egen företagare, Revsund
+C|175346|43|M|Anders Vikström Aloandersson|43, Familjebehandlare, Torvalla by
+C|385887|42|K|Jenny Persson|42, Konstnär, fotograf, Frösön
+C|175342|52|M|Florian Stamm|52, Utredare, Frösön
+C|175347|54|K|Lena Mackegård|54, Egen företagare, Östersund
+C|175340|18|M|Elon Wissing|18, Student, Duved
+C|386015|54|K|Eva Ljungdahl|54, Ekoingenjör, Dvärsätt
+C|175345|50|K|Maja Ramström|50, Skogskonsulent, Strömsund
+C|386060|70|M|David Bell|70, Pensionär, Hackås
+C|386017|54|M|Paul van den Brink|54, Universitetslärare, Kälen
+C|385919|32|K|Marie Christensson|32, Statsanställd, Konäs
+C|175344|34|M|Thomas Dahlberg|34, Programmerare, Hara
+C|385895|42|K|Annelie Mattson-Djos|42, Verksamhetscontroller, Östersund
+C|385915|38|K|Katrin Wissing|38, Administratör, Duved
+C|39487|49|K|Elise Ryder Wikén|49, Skålan
+C|39488|58|M|Jan-Olof Andersson|58 år, Trångmon
+C|39489|36|M|Robert Hamberg|36, Lillsjöhögen
+C|39490|18|K|Amanda Jonsson|18, Östersund
+C|39491|65|K|Lise Hjemgaard Svensson|65, Östersund
+C|39492|56|K|Veronica Eklund|56 år, Bräcke
+C|39493|68|K|Margareta Gladh|68 år, Sveg
+C|39494|32|M|Linus Kimselius|32, Östersund
+C|39495|65|K|Karin Ekblom|65 år, Mörsil
+C|39496|59|M|Pär Jönsson|59, Frösön
+C|39497|52|M|Pontus Nissblad|52 år, Funäsdalen
+C|39498|56|M|Joackim Ekroth|56, Östersund
+C|39499|71|M|Knut Richardsson|71 år, Gällö
+C|39500|73|K|Elisabet Sjöström|73, Frösön
+C|39501|58|M|Lars-Olof Mattsson|58 år, Sveg
+C|39502|54|K|Catarina Espmark|54, Äspnäs
+C|39503|56|M|Kent Karlsson|56, Hackås
+C|39504|54|K|Jannike Hillding|54 år, Rödön
+C|39505|50|K|Susanné Wallner|50, Östersund
+C|39506|28|M|Joel Nordkvist|28 år, Frösön
+C|39507|55|K|Elisabet Forsgren Sandvold|55 år, Hedeviken
+C|39508|67|K|Marina Mellgren|67 år, Landsom
+C|39509|18|M|Henrik Johansson|18, Ås
+C|39510|39|M|Andreas Köhler|39, Östersund
+C|39511|74|M|Jan Olof Olofsson|74 år, Hammerdal
+C|39512|38|M|Pär Fredriksson|38 år, Östersund
+C|39513|49|K|Annika Hagen|49 år, Ljungdalen
+C|39514|48|M|Björn Hammarberg|48, Kaxås
+C|39515|61|K|Irene Nyqvist|61 år, Hålland
+C|39516|49|K|Stina Kimselius|49 år, Ås
+C|39517|74|K|Birgitta Franzon|74 år, Bräcke
+C|39518|61|M|Jan Rönngren|61, Strömsund
+C|39519|77|K|Linnéa Wigg Victor|77, Östersund
+C|39520|63|K|Elisabeth Svensson|63 år, Dvärsätt
+C|39521|86|M|Åke Mörtsell|86 år, Östersund
+C|39522|43|K|Therese Dahlgren|43 år, Svenstavik
+C|39523|19|K|Lydia Bygdén|19, Hedeviken
+C|39524|53|K|Salwa Fakr-Eddine|53 år, Lit
+C|39525|46|M|Johan Näslund|46 år, Svenstavik
+C|39526|70|M|Ove Isacsson|70 år, Frösön
+C|39527|39|K|Jennie Klaesson|39, Hackås
+C|39528|65|M|Leif Danielsson|65 år, Brunflo
+C|39529|67|M|Christer Sivertsson|67 år, Östersund
+C|39532|19|M|Samuel Gilljam|19, Alsen
+C|39533|70|K|Torunn Saetre Holgersson|70 år, Åsarna
+C|39534|56|K|Monica Hult|56 år, Ås
+C|39537|45|M|Daniel Danielsson|45 år, Tosåsen
+C|39538|44|K|Anna Martin|44 år, Östersund
+C|39539|37|M|Carl-Michael Sillström|37, Östersund
+C|39540|74|M|Lars Olof Lignell|74 år, Lit
+C|39541|58|M|Mikael Hålén|58 år, Frösön
+C|39542|41|K|Marielle Hoflin Strindlund|41 år, Tandsbyn
+C|39543|34|M|Magnus Lenz|34, Östersund
+C|39544|32|K|Sandra Leosson|32 år, Östersund
+C|39545|56|K|Susanne Störvold|56 år, Östersund
+C|39546|43|M|Hans Klaesson|43 år, Östersund
+C|39547|38|M|Per Svee|38 år, Östersund
+C|106438|59|M|Peter Johansson|Riksombudsman, Östersund
+C|278842|56|K|Anette Rangdag|Undersköterska, Berg
+C|105599|49|M|Ronny Karlsson|Produktionsplanerare, Krokom
+C|278909|70|M|Bengt Åke Arendolf|Pensionär, Berg
+C|106443|48|K|Alexandra Boije af Gennäs|Fil.kand, Östersund
+C|105602|40|M|Marcus Danielsson|Studerande, Krokom
+C|105713|44|K|Veronica Berglund|Strömsund
+C|106439|48|M|Stefan Sundberg|IT-konsult, Östersund
+C|106462|61|K|Ulla Vikander|Lokalvårdare, Ragunda
+C|105603|61|M|Sune Sjöström|Pensionär, Krokom
+C|105604|55|K|Madeleine Reppe|Hemmafru, Krokom
+C|105601|72|M|Claes Sundberg|Företagare, Krokom
+C|106442|70|K|Ginger Olofsson|Pensionär, Östersund
+C|106440|73|M|Christer Jonsson|Företagare, Östersund
+C|105712|62|M|Steve Svensson|Civilekonom, Strömsund
+C|278923|52|M|Kjell Åke Andersson|Mekaniker, Berg
+C|278924|53|M|Tommy Jakobsson|Företagare, Berg
+C|105714|82|M|Lars Gustafsson|Sjöingenjör, Strömsund
+C|105600|66|M|Jan Englund|Pensionär, Krokom
+C|278927|61|M|Dan-Olof Nilsson|Elektriker, Berg
+C|106444|67|M|Lars Rindö|Ingenjör, Östersund
+C|278929|57|M|Tony Gunnarsson|Examinator, Åre
+C|278930|78|K|Laila Fors|Pensionär, Berg
+C|278931|57|K|Ulla Stolt|Vårdbiträde, Berg
+C|106445|52|M|Stig Saether|Samhall, Östersund
+C|105169|42|M|Tomas Nordlund|Undersköterska, Åre
+C|106446|30|M|Sebastian Bergman|Handläggare, Östersund
+C|105711|70|M|Hans Elmbjer|Pensionär, Strömsund
+C|252538|45|K|Elin Hoffner|45 år, behandlingsassistent, Hara
+C|252540|46|K|Marie Svensson|46 år, onkologisjuksköterska, Aspås
+C|253060|57|M|Sonny Hoffman|57 år, tjänsteman, Östersund
+C|253073|65|K|Catarina Antán|65 år, pensionär, Fisksjölandet
+C|252533|45|M|Jörgen Blom|45 år, undersköterska, Alsen
+C|253061|54|M|Svante Freij|54 år, byggnadsantikvarie, Östersund
+C|300369|62|M|Börje Lundin|62 år, undersköterska, Kälarne
+C|253059|49|K|Helena Åsasdotter Nord|49 år, zonterapeut, Svenstavik
+C|300371|61|M|Bo Danielsson|61 år, teletekniker, Sveg
+C|252539|63|M|Alf Lundin|63 år, egen företagare, Svenstavik
+C|300373|65|K|Kerstin Sjöberg|65 år, undersköterska, Strömsund
+C|253062|44|K|Jeannette Ek|44 år, undersköterska, Sveg
+C|252537|32|M|Nisse Sandqvist|32 år, timvikarie LSS, Östersund
+C|300376|46|K|Hanne Krogfjord|46 år, sjukskriven, Östersund
+C|300377|34|K|Delnia Mostafaee|34 år, lärare, Nälden
+C|253074|62|M|Stig Söderin|62 år, byggnadssnickare, Östersund
+C|300379|67|K|Agneta Lögdquist Eriksson|67 år, pensionerad undersköterska, Östersund
+C|252534|57|M|Gert Norman|57 år, behandlingsassistent, Backe
+C|388748|29|K|Lina Ali|29 år, cafébiträde, Nälden
+C|253058|37|M|Nehro Mostafaee|37 år, lärare, Nälden
+C|300382|66|M|Alistair Cochrane|66 år, pensionerad musiklärare, Östersund
+C|300383|35|M|Hefal Ahmad|35 år, bilmekaniker, Nälden
+C|360991|32|M|Mohamed Ahmed Idris|32 år, modersmålslärare, Krokom
+C|253070|72|K|Anna Sonntag|72 år, pensionerad sjuksköterska, Ås
+C|300385|73|M|André Huck|73 år, pensionär, Ås
+C|300386|61|K|Märit Hildebrandsson|61 år, Yxskaftkälen
+C|252535|35|K|Helena Larsson|35 år, rektor, Överberg
+C|300388|29|M|Idris Abdulla|29 år, studiehandledare, Krokom
+C|253063|57|M|Johan Flander|57 år, boendehandledare/mentalskötare, Östersund
+C|253072|72|K|Inger Jansson|72 år, pensionerad behandlingsassistent, Östersund
+C|300391|55|M|Sergio Diaz|55 år, Östersund
+C|253068|38|K|Emilia Blomqvist|38 år, skolsköterska, Oviken
+C|252536|64|K|MonaLisa Norrman|64 år, utredare, Nordannälden

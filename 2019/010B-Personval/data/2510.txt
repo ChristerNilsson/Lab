@@ -1,8 +1,116 @@
-2|13281|13282|7063|13284|13285|13286|13287|13288|13289|13290|13291|13292|13293|13294|13295|13296|13297|13298|13299|13300|13301|13302|13303|13304|13305|13306|13307|13308|13309|13310|13311|13312
-1014|508959|508960|508961|508962|508963|508964|508965|508966|508967|508968|508969|508970
-3|234376|234377|210373
-55|274431|502663|274340|502665|502666|502667|502668|502669|502670|502675|502672|502674|502676|502677|502678|502679|502673
-1|43002|205432|205433|205434|43008|205438
-80|290850|341677|341878|341879|341880|341881|342316|342317|342318|342319|342320|342321|342334|342335|342336|342337|342338|342339
-110|119442|121678|119460
-5|45759|343501|343502|343503|343504|343528|343529|343530
+T|Jokkmokk
+A|2|13281|13282|7063|13284|13285|13286|13287|13288|13289|13290|13291|13292|13293|13294|13295|13296|13297|13298|13299|13300|13301|13302|13303|13304|13305|13306|13307|13308|13309|13310|13311|13312
+A|1014|508959|508960|508961|508962|508963|508964|508965|508966|508967|508968|508969|508970
+A|3|234376|234377|210373
+A|55|274431|502663|274340|502665|502666|502667|502668|502669|502670|502675|502672|502674|502676|502677|502678|502679|502673
+A|1|43002|205432|205433|205434|43008|205438
+A|80|290850|341677|341878|341879|341880|341881|342316|342317|342318|342319|342320|342321|342334|342335|342336|342337|342338|342339
+A|110|119442|121678|119460
+A|5|45759|343501|343502|343503|343504|343528|343529|343530
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1014|FJK|Framtid i Jokkmokks kommun
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|80|SV|Samernas Väl
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|13281|52|M|Robert Bernhardsson|Jokkmokk
+C|13282|49|K|Anette Ek Lindqvist|Vuollerim
+C|7063|57|M|Sven Holmqvist|Vuollerim, 57 år
+C|13284|58|K|Eva Näslund|58 år, Jokkmokk
+C|13285|74|M|Jan Sjöberg|Vuollerim
+C|13286|44|K|Marina Eriksson|Porjus
+C|13287|50|M|Johan Agetoft|50 år, Jokkmokk
+C|13288|36|K|Eva Öhlund|Jokkmokk
+C|13289|25|M|Johannes Nilsson Saulo|Jokkmokk
+C|13290|42|K|Anna Köhler|Jokkmokk
+C|13291|19|M|Lirigzon Karaqica|Jokkmokk
+C|13292|60|K|Ann Enberg|Vuollerim
+C|13293|71|M|Claes Markusson|Jokkmokk
+C|13294|53|K|Birgitta Siljelöf|53 år, Jokkmokk
+C|13295|56|K|Anna-Greta Kvickström|Forsnäs
+C|13296|70|M|Torbjörn Lindgren|Jokkmokk
+C|13297|43|K|Anna-Karin Jonsson Kvist|Jokkmokk
+C|13298|34|K|Sara Svensson|Vuollerim
+C|13299|49|K|Malin Sundberg|Mattisudden
+C|13300|54|M|Kenneth Jonsson|Jokkmokk
+C|13301|74|K|Kerstin Hellgren Tobiasson|Vuollerim
+C|13302|70|M|Bertil Sandqvist|Kvikkjokk
+C|13303|67|K|Margaretha Holmström|Björkholmen
+C|13304|55|M|Peter Holmqvist|Jokkmokk
+C|13305|68|K|Elise Tullnär Nilsson|Jokkmokk
+C|13306|61|M|Kjell Viklund|Jokkmokk
+C|13307|71|K|Ingrid Metelius|Jokkmokk
+C|13308|50|M|Ulf Siljelöf|Jokkmokk
+C|13309|79|K|Eivor Auna|Koikul
+C|13310|75|M|Tord Larsson|Mattisudden
+C|13311|51|K|Anna Lena Holmqvist|Porsi
+C|13312|56|M|Lars-Olov Granström|Jokkmokk
+C|508959|64|M|Roland Boman|Jokkmokk
+C|508960|25|K|Jessica Eriksson|Jokkmokk
+C|508961|53|M|Roger Åström|Vuollerim
+C|508962|29|K|Kajsa Boman|Jokkmokk
+C|508963|38|M|Tommy Isaksson-Rensfeldt|Jokkmokk
+C|508964|30|K|Lisa Andersson|Jokkmokk
+C|508965|59|M|Jonny Andersson|Murjek
+C|508966|35|K|Jenny Engelström|Jokkmokk
+C|508967|67|M|Birger Stenman|Tårrajaure
+C|508968|23|K|Moa Blom|Jokkmokk
+C|508969|60|M|Lasse Mickelsson|Jokkmokk
+C|508970|23|K|Karolina Boman|Jokkmokk
+C|234376|50|K|Kristin Amundsson|Gymnasielärare, Vuollerim
+C|234377|82|K|Maud Nordström|Distriktssköterska, Jokkmokk
+C|210373|40|M|Jonas Wiandt|Gymnasielärare, Jokkmokk
+C|274431|40|M|Henrik Blind|40, renägare, Jokkmokk
+C|502663|61|K|Helen Swartling|Leg.kiropraktor Jokkmokk
+C|274340|47|M|Per-Jonas Parffa|Renskötare, Jokkmokk
+C|502665|37|K|Jenny Holmgren|Mamma Mattisudden
+C|502666|43|M|Ingemar Grahn|Arbetssökande Jokkmokk
+C|502667|41|K|Cecilia Lundin|Egenföretagare Jokkmokk
+C|502668|52|M|Hanz De Waard|Kontrabasist Skabram
+C|502669|36|K|Hanna Sofi Utsi|Egenföretagare Jokkmokk
+C|502670|50|M|Per Sundström|Jokkmokk
+C|502675|33|K|Mirja Palo|Kulturarbetare Jokkmokk
+C|502672|73|M|Lars Guttorm Blind|Kulturarbetare Jokkmokk
+C|502674|57|M|Tor Tuorda|Fotograf Kvikkjokk/Randijaur
+C|502676|38|K|Sara Linnea Rimpi|Sjuksköterska Ålloluokta
+C|502677|51|K|Kristina Unga-Bäckman|Studie- och yrkesvägledare Jokkmokk
+C|502678|57|K|Catharina Holmbom|undersköterska Björkholmen
+C|502679|47|K|Karen Pommer|Randijaur/Jokkmokk
+C|502673|44|K|Lotta Bengtsson Silfver|
+C|43002|58|K|Birgit Meier Thunborg|58 år, Företagare, Porjus
+C|205432|24|M|Asbjörn Thunborg|
+C|205433|76|K|Harriet Nordqvist|
+C|205434|34|K|Ida Holmbom|
+C|43008|41|K|Annica Holmbom|41 år, Företagare, Jokkmokk
+C|205438|82|K|Birgit Sandahl|
+C|290850|66|K|Karin Vannar|Jokkmokk
+C|341677|26|M|Magnus Antaris Tuolja|Jokkmokk
+C|341878|54|K|Fia Kaddik|Jokkmokk
+C|341879|58|M|Lars Ivan Tuolja|Jokkmokk
+C|341880|55|K|Sylvia Blind|Jokkmokk
+C|341881|53|M|Isak Mathis Skum|Jokkmokk
+C|342316|65|K|Wivi-Anne Mulk|Jokkmokk
+C|342317|55|M|Ola Engström|Porjus
+C|342318|45|K|Irene Partapuoli|Jokkmokk
+C|342319|74|M|Lennart Albinsson|Jokkmokk
+C|342320|37|K|Marja Labba|Jokkmokk
+C|342321|69|M|Per-Olov Hedström|Jokkmokk
+C|342334|67|K|Carina Sarri|Vuollerim
+C|342335|37|M|Josef Kuhmunen|Jokkmokk
+C|342336|56|K|Viola Engström|Porjus
+C|342337|65|M|Lars-Anders Baer|Jokkmokk
+C|342338|73|K|Elli-Karin Pavval|Tårrajaur
+C|342339|72|K|Anne-May Kuoljok Albinsson|Jokkmokk
+C|119442|32|K|Denise Magnusson|Egenföretagare, 32, Jokkmokk
+C|121678|83|M|Edvin Forsberg|pensionär, 83, Vuollerim
+C|119460|65|M|Tord Eklund|Pensionär, 83, Jokkmokk
+C|45759|35|M|Viktor Segerström|
+C|343501|42|M|Andreas Lindkvist|
+C|343502|37|M|Jérémy L'Helguen|
+C|343503|63|M|Mikael Segerström|
+C|343504|64|K|Agneta Almqvist Bergman|
+C|343528|65|K|Susanne Almqvist|
+C|343529|63|M|Klas Bergman|
+C|343530|72|M|Arne Forsman|

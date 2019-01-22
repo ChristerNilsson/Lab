@@ -1,13 +1,445 @@
-2|241542|241543|237708|241545|224172|241547|241548|241549|241550|237693|237694|224173|241554|224181|9298|237707|224184|241559|241560|241561|237684|241563|241564|224185|241566|241567|241568|241569|241570|237697|237700|224193|237728|241575|237720|241577|241578|241579|241580|224195|241582|241583|241584|237727|241586|241587|241588|241589|241590|241591|224170|241593|241594|241595|241596|241597|224190|224200|224188|241601|241602|224201|241604|241605|241606|241607|241608|224187|241610|224189|241612|241613|244544|244545|237716|244547|224164|244549|244550|224183|224192|224157|244554|224155|244556|244557|244558|224153|224197
-4|205528|57883|57869|57885|58667|8537|57888|205535|205536|57875|57870|57882|58647|57890|205542|205543|57893|57879|57889|205547|205548|57891|58669|58674|57887|205553|205554|57897|205556|205557|205558|205559|205560|205561|205562|205563|205564|205565|205566|205567|205568|205569|205570
-532|512925
-1388|515661
-471|298360|298361|298362|298363|298364|298365|298366|298367|298368|298369|298370|298371|298372|298373|298374|298375
-68|312584|312561|312568|312567|327936|312557|312555|327913|327944|327911|312564|312594|312572|327917|312579|327921|330186|330187|327948|312590|312588|330191|312582|330193|330194|327924|312583|312591|330198|330199|330200|330201|330202|327941|330204|330205|330206|312586|330208|312589|330210|330211|330212|330213|312569|330215|330216|330217|330218|330219|330220|312593|330222|327908|327923|330225|330226|312580|330228|330229|330230|330231|330232|330233
-3|26950|151070|26957|26969|151073|151074|26955|26933|26940|26954|151079|49170|151081|26937|26938|26962|26966|151086|26923|26925|151089|26943|26952|151092|151093|151094|26982|151096|26968|151098|26946|26935|151101|26947|151103|151104|26942|26949|26970|151108|26964|26981|151111|26929|151113|151114|151115|26980|151117|26961|151119|151120|151121|26976|151123|151124|151125|26930|151127|151128|151129|151130|151131
-55|250643|122949|122958|122968|123393|123403|250649|250650|250651|250652|250653|122964|122974|122946|122965|122961|122978|122944|250661|250662|123612|250664|250665|250666|123389|123399|250669|250670|250671|123563|250673|250674
-1|26435|26436|26437|26438|26439|26440|26441|26442|26443|26444|26445|26446|26447|26448|26449|26450|26451|26452|26453|26454|26455|26456|26457|26458|26459|26460|26462|26463|26464|26465|26466|26467|26468|26469|26470|26471|26472
-524|432938
-110|77720|77722|77724|77725|77726|77727|77729|77730|77731|77733|77734|77735|77736|77737|77738|77739|77740|77741|77742|77743|77744|77745|77746|77747|77748|77749|77750|77751
-5|351349|351350|351351|351352|351353|351354|351355|351356|351357|351358|351359|351360|351361|351362|351363|351364|351365|351366|351367|351368|351369|351370|351371|351372|361862|351374|351375|351376|351377|351378|351379|351380|351381|351382|351383|351384|351385
-1152|391379|391439|391440|391441|391442|391443|391444|391445|391446|391447|391448
+T|Örebro
+A|2|241542|241543|237708|241545|224172|241547|241548|241549|241550|237693|237694|224173|241554|224181|9298|237707|224184|241559|241560|241561|237684|241563|241564|224185|241566|241567|241568|241569|241570|237697|237700|224193|237728|241575|237720|241577|241578|241579|241580|224195|241582|241583|241584|237727|241586|241587|241588|241589|241590|241591|241593|241594|241595|241597|224190|224200|224188|241601|241602|224201|241604|241605|241606|241607|241608|224187|241610|224189|241612|241613|244544|244545|237716|244547|224164|244549|244550|224183|224192|224157|244554|224155|244556|244557|244558|224153|224197
+A|4|205528|57883|57869|57885|58667|8537|57888|205535|205536|57875|57870|57882|58647|57890|205542|205543|57893|57879|57889|205547|205548|57891|58669|58674|57887|205553|205554|57897|205556|205557|205558|205559|205560|205561|205562|205563|205564|205565|205566|205567|205568|205569|205570
+A|532|512925
+A|1388|515661
+A|471|298360|298361|298362|298363|298364|298365|298366|298367|298368|298369|298370|298371|298372|298373|298374|298375
+A|68|312584|312561|312568|312567|327936|312557|312555|327913|327944|327911|312564|312594|312572|327917|312579|327921|330186|330187|327948|312590|312588|330191|312582|330193|330194|327924|312583|312591|330198|330199|330200|330201|330202|327941|330204|330205|330206|312586|330208|312589|330210|330211|330212|330213|312569|330215|330216|330217|330218|330219|330220|312593|330222|327908|327923|330225|330226|312580|330228|330229|330230|330231|330232|330233
+A|3|26950|151070|26957|26969|151073|151074|26955|26933|26940|26954|151079|49170|151081|26937|26938|26962|26966|151086|26923|26925|151089|26943|26952|151092|151093|151094|26982|151096|26968|151098|26946|26935|151101|26947|151103|151104|26942|26949|26970|151108|26964|26981|151111|26929|151113|151114|151115|26980|151117|26961|151119|151120|151121|26976|151123|151124|151125|26930|151127|151128|151129|151130|151131
+A|55|250643|122949|122958|122968|123393|123403|250649|250650|250651|250652|250653|122964|122974|122946|122965|122961|122978|122944|250661|250662|123612|250664|250665|250666|123389|123399|250669|250670|250671|123563|250673|250674
+A|1|26435|26436|26437|26438|26439|26440|26441|26442|26443|26444|26445|26446|26447|26448|26449|26450|26451|26453|26454|26455|26456|26457|26458|26459|26460|26462|26463|26465|26466|26467|26468|26469|26470|26471|26472
+A|524|432938
+A|110|77720|77722|77724|77725|77727|77729|77730|77731|77733|77734|77735|77736|77737|77738|77739|77740|77741|77742|77743|77744|77745|77746|77747|77748|77749|77750|77751
+A|5|351349|351350|351351|351352|351353|351354|351355|351356|351357|351358|351359|351360|351361|351362|351363|351364|351365|351366|351367|351368|351369|351370|351371|351372|361862|351374|351375|351376|351377|351378|351379|351380|351381|351382|351383|351384|351385
+A|1152|391379|391439|391440|391441|391442|391443|391444|391445|391446|391447|391448
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|1388||Folkhemmet Sverige
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|524|PP|Piratpartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|1152|ÖrP|Örebropartiet
+C|241542|42|M|Kenneth Nilsson|41 år, Kommunalråd
+C|241543|56|K|Agneta Blom|56 år, Universitetslektor
+C|237708|36|M|John Johansson|36 år,Örebro
+C|241545|46|K|Jessica Ekerbring|46 år, Kommunalråd
+C|224172|59|M|Jan Zetterqvist|59 år, Örebro
+C|241547|46|K|Ullis Sandberg|46 år, Kommunalråd
+C|241548|43|M|Kemal Hoso|43 år, Logistiker
+C|241549|32|K|Linda Smedberg|32 år, Förskollärare
+C|241550|45|M|Jonas Håård|45 år, Gruppledare
+C|237693|78|K|Gun Carlestam Lewin|78 år,Örebro
+C|237694|53|M|Per Lilja|53 år,Örebro
+C|224173|31|K|Ida Eklund|31år, Örebro
+C|241554|55|M|Ameer Sachet|55 år, Arbetsförmedlare
+C|224181|62|K|Fisun Yavas|62 år,Örebro
+C|9298|32|M|CH Nordström|31 år, Örebro
+C|237707|53|K|Eva Eriksson|53 år,Örebro
+C|224184|67|M|Kent Vallén|67 år, Örebro
+C|241559|51|K|Marie Brorson|51 år, Distriktssköterska
+C|241560|40|M|Mårten Karlsson|40 år, Industriarbetare
+C|241561|61|K|Carina Toro Hartman|61 år, Lärare
+C|237684|25|M|Johan Gynnhammar|25 år,Örebro
+C|241563|52|K|Susann Wallin|52 år, Elevassistent
+C|241564|73|M|Roger Andersson|73 år, Pensionär
+C|224185|32|K|Jennan Hannah|32 år, Örebro
+C|241566|42|M|Thomas Börjesson|42 år, Statstjänsteman
+C|241567|54|K|Anna Hedström|54 år, Administratör
+C|241568|47|M|Frederick Axewill|47 år, HR-specialist
+C|241569|69|K|Britten Uhlin|69 år, Pensionär
+C|241570|63|M|Allan Armaghan|63 år, Egen företagare
+C|237697|37|K|Madelene Vikström|36 år,Örebro
+C|237700|77|M|Pell Uno Larsson|77 år,Örebro
+C|224193|66|K|Inger Karlsson|65 år, Örebro
+C|237728|49|M|Hanna Altunkaynak|49 år, Örebro
+C|241575|64|K|Eva Ströman|64 år, Pensionär
+C|237720|50|M|Per-Åke Sundkvist|50 år,Örebro
+C|241577|49|K|Carina Oskarsson|49 år, Organisationsombudsman
+C|241578|67|M|Elmar Jehle|67 år, Pensionär
+C|241579|38|K|Jenny Thor|38 år, Projektsamordnare
+C|241580|66|M|Per-Erik Andersson|66 år, Socionom
+C|224195|71|K|Margareta Jansson|71 år, Örebro
+C|241582|57|M|Nisvet Okanovic|57 år, Arbetsledare
+C|241583|28|K|Maja Gullberg|28 år, Genusvetare
+C|241584|32|M|Nabil Mouchi|32 år, Budget/finansstrateg
+C|237727|56|K|Carina Svedenberg Widqvist|56 år,Örebro
+C|241586|34|M|Viktor Tullgren|34 år, Civilingenjör
+C|241587|44|K|Tania Cifuentes Valdés|44 år, Socionom
+C|241588|56|M|Antti Ahtiainen|56 år, Statlig utredare
+C|241589|62|K|Elisabeth Karlsson Zuaw|61 år, Gymnasielärare
+C|241590|60|M|Tomas Sandberg|60 år, Industriarbetare
+C|241591|26|K|Melina Nuhic|26 år, Arbetskonsulent
+C|241593|31|K|Sheneh Armaghan|32 år, Larmoperatör
+C|241594|63|M|Christer Karlsson|63 år, Miljöarbetare
+C|241595|31|K|Sandra Zenginel|31 år, Samhällsvetare
+C|241597|60|K|Carola Johansson|60 år, Avdelningsföreståndare
+C|224190|42|M|Henrik Hagel|41 år, Örebro
+C|224200|27|K|Lisbeth Estrada Pérez|27 år,Örebro
+C|224188|54|M|Jan-Eric B Norman|54 år, Örebro
+C|241601|54|K|Inger Blückert|54 år, Kommunvägledare
+C|241602|75|M|Nils-Erik Pettersson|75 år, Pensionär
+C|224201|67|K|Kerstin Nilsson|67 år, Örebro
+C|241604|62|M|Husein Hoso|62 år, Pensionär
+C|241605|68|K|Bodil Svensson|68 år, Pensionär
+C|241606|59|M|Håkan Schultz|59 år, Handläggare
+C|241607|46|K|Vera Peci|46 år, Frisör
+C|241608|73|M|Leif Gustafsson|74 år, Pensionär
+C|224187|19|K|Alex Elofsson|19 år,Örebro
+C|241610|64|M|Mirsad Omerbasic|64 år, Kock
+C|224189|56|K|Inger Westerberg|56 år, Örebro
+C|241612|56|M|Per-Ove Karlsson|56 år, Kommunalarbetare
+C|241613|46|K|Shahla Ojagh Nasab|45 år, Utbildningsledare
+C|244544|72|M|K-G Granberg|72 år, Egen företagare
+C|244545|71|K|Elvy Wennerström|71 år, Fd Förskollärare
+C|237716|42|M|Thony Mossberg|42 år,Örebro
+C|244547|71|K|Kerstin Persson|71 år, Pensionär
+C|224164|43|M|Bulent Oktay|43 år,Örebro
+C|244549|73|K|Siv Lord|73 år, Pensionär
+C|244550|34|M|André Schwenk|34 år, Skötare
+C|224183|24|K|Ellen Leijen|23 år, Örebro
+C|224192|56|M|Björn Ramstedt|56 år, Örebro
+C|224157|49|K|Fredrika Jakobsen|49 år, Örebro
+C|244554|70|M|Gösta Eriksson|70 år, Pensionär
+C|224155|61|K|Carina Dahl|61 år, Örebro
+C|244556|44|M|Magnus Hellström|44 år, Terminalarbetare
+C|244557|79|K|Inger Göransson|79 år, Pensionär
+C|244558|66|K|Agneta Åsgård Larsson|66 år, Pensionär
+C|224153|55|K|Eva-Lena Jansson|55 år,Örebro
+C|224197|38|K|Linda Linder|28 år, Örebro
+C|205528|42|M|Per-Åke Sörman|42 år, kommunalråd, Ervalla
+C|57883|38|K|Linda Larsson|38 år, lärare, Örebro
+C|57869|56|M|Seydou Bahngoura|56 år, mentor, Stora Mellösa
+C|57885|68|K|Gunhild Wallin|68 år, barnmorska, Närkes Kil
+C|58667|50|M|Anders Olsson|50 år, kanslichef, Odensbacken
+C|8537|32|K|Elisabeth Malmqvist|32 år, Politisk sekreterare, Örebro
+C|57888|28|M|Abdulrahman Ibrahim Muhammed|28 år, fritidsledare, Örebro
+C|205535|39|M|Jimmy Nordengren|39 år, rektor, Ervalla
+C|205536|51|K|Annika Tholster|51 år, kurator, Vintrosa
+C|57875|50|K|Maria Comstedt|50 år, egenföretagare, Örebro
+C|57870|81|M|Börje Gustafsson|81 år, pensionär, Örebro
+C|57882|20|M|Xerxes Åkerfeldt|20 år, student, Örebro
+C|58647|27|K|Emilia Molin|27 år, politisk sekreterare, Örebro
+C|57890|66|M|Bo Åkerling|66 år, åkare, Asker
+C|205542|40|K|Alexandra Royal|40 år, lärare, Örebro
+C|205543|66|M|Lars Johansson|66 år, naturvärnare, Ormesta
+C|57893|58|K|Marita Andersson|58 år, ingenjör, Örebro
+C|57879|55|K|Charlotte Edberger Jangdin|55 år, lärare, Örebro
+C|57889|51|K|Jessika Edetun Falk|51 år, hälsoinspiratör, Örebro
+C|205547|70|M|Anders Gunnarsson|70 år, lantbrukare, Vintrosa
+C|205548|41|K|Ann-Kristin Sundqvist|41 år, lärare, Järle
+C|57891|63|K|Regina Salenfors Andersson|63 år, entreprenör, Lännäs
+C|58669|68|M|Håkan Gransten|68 år, fastighetschef, Ervalla
+C|58674|66|M|Ingvar Bilock|66 år, pensionär, Gällersta
+C|57887|42|M|Kamran Kabinejad|42 år, verksamhetschef, Örebro
+C|205553|67|K|Annbrith Wiman|67 år, pensionär, Asker
+C|205554|23|M|Lucas Persson|23 år, student, Brickebacken
+C|57897|66|M|Ingvar Ernstson|66 år, djurskötare, Örebro
+C|205556|72|K|Birgitta Nordlöw|72 år, skolplanerare/rektor, City
+C|205557|55|M|Peter Johansson|55 år, projektledare, Ladugårdsängen
+C|205558|26|K|Cecilia Hermansson|26 år, måltidsekolog, City
+C|205559|58|K|Marie Nordqvist|58 år, företagare, Ladugårdsängen
+C|205560|49|M|Fehret Hatic|49 år, busschaufför, Tybble
+C|205561|48|K|Madelene Karlsson|48 år, Lillkyrka
+C|205562|34|M|Lars-Gustav Ståhl|34 år, kock, Almby
+C|205563|50|K|Bella Kiin Mohammed|50 år, Oxhagen
+C|205564|71|M|Lars Jakobsson|71 år, Lillkyrka
+C|205565|73|M|Christer Johansson|73 år, socionom, Örebro
+C|205566|41|K|Tina Fingal Swens|41 år, socionom, Lundby
+C|205567|42|M|Hannes Önander|42 år, lärare, Brickeberg
+C|205568|27|K|Khadra Elmi|27 år, student, Oxhagen
+C|205569|20|K|Linnéa Hed|20 år, konsult/barista, City
+C|205570|47|M|Jan Jorsäter|47 år, IT-tekniker, City
+C|512925|27|K|Fredrika Nordling|
+C|515661|76|K|Pia Westin Hellertz|
+C|298360|31|M|Filip Astvald|31 år, lagerarbetare, Tybble
+C|298361|50|K|Maria Pohn|50 år, sjuksköterska, Norrby
+C|298362|34|M|Magnus Hedman|34 år, färdtjänstchaufför, Norrby
+C|298363|31|M|Erling Bronsberg|31 år, student/städare, Baronbackarna
+C|298364|27|M|Morgan Pettersson|27 år, lärare, Brickebacken
+C|298365|59|M|Ali Alhajahmad|59 år, arbetslös, Vivalla
+C|298366|62|M|Lars Nordin|62 år, grundskollärare, Glanshammar
+C|298367|68|M|Jan Tell|68 år, pensionär, Tybble
+C|298368|31|M|Mattias Backteman|31 år, rörmokare, Söder
+C|298369|38|M|Johan Björklund|38 år, bussförare, Brevens bruk
+C|298370|21|M|Stefan Stensvik|21 år, omvårdnadspersonal, Baronbackarna
+C|298371|40|M|Christer Herndal|40 år, personlig assistent, Markbacken
+C|298372|32|M|Mattias Åsberg|32 år, punkmusiker/barnskötare, Ladugårdsängen
+C|298373|25|M|Martin Gustafsson|25 år, student, Campus
+C|298374|25|M|Robin Uutela|24 år, student/bruksarbetare, Brickebacken
+C|298375|26|M|Gustaf Lindholm|26 år, student, Brickebacken
+C|312584|45|K|Marlene Jörhag|Lärare, Örebro
+C|312561|65|M|Lennart Bondeson|Kommunalråd, Örebro
+C|312568|45|K|Sonja Kurt|Lärare, Örebro
+C|312567|58|M|Anders Hagström|Företagare, Örebro
+C|327936|38|K|Sara Maxe|Kurator, Örebro
+C|312557|34|M|Johan Arenius|Pastor , Örebro
+C|312555|58|K|Marie Holm|Rektor/företagare, Örebro
+C|327913|39|M|Håkan Stålbert|Organisationssekreterare, Örebro
+C|327944|54|K|Marie Magnusson|Politisk sekreterare, Örebro
+C|327911|45|M|Magnus Lagergren|Lärare, Odensbacken
+C|312564|67|K|Ingalill Bergensten|Journalist, Brevens Bruk
+C|312594|52|M|Behcet Barsom|Regionråd, Örebro
+C|312572|68|K|Gunn Öjebrandt|Senior, Örebro
+C|327917|70|M|Sven-Erik Sahlén|F.d. rektor, samhällsvetare, Örebro
+C|312579|44|K|Febro Oktay|Tandsköterska, Örebro
+C|327921|38|M|Jonas Levin|Trafikplanerare, Örebro
+C|330186|33|K|Anna Andersson|Lärare, Sörbyängen
+C|330187|30|M|Fredrik Norrström|Fastighetsförvaltare, Gamla Hjärsta
+C|327948|34|K|Nadde Kaniki|Örebro
+C|312590|50|M|Björn Sundström|Chaufför, Örebro
+C|312588|59|K|Christina Håkansson|Enhetschef, Örebro
+C|330191|20|M|Nils Jakobsson|Säljare, Sörby
+C|312582|26|K|Elin Adebo|Statsvetare, Örebro
+C|330193|37|M|David Gelinder|Politisk sekreterare, Södra Runnaby
+C|330194|68|K|Maria Landh|Pensionär, Hovsta
+C|327924|59|K|Eva Sape|Inredningsarkitekt, Örebro
+C|312583|72|M|Lars O Molin|Civilekonom, Örebro
+C|312591|63|K|Ewa Sundkvist|F.d. oppositionsråd, Örebro
+C|330198|70|M|Conny Harrysson|Ekonom, Hovsta
+C|330199|36|K|Layla Abou Tacca|Lärare, Ormesta
+C|330200|51|M|Georg Barsom|Boendeutvecklare, Mellringe
+C|330201|64|K|AnnaMaria Hedin|Musikdirektör, Centrum
+C|330202|68|M|Sven Landh|Pensionär, Hovsta
+C|327941|47|K|Erica Gidlöf|Sjuksköterska, Örebro
+C|330204|71|M|Anders Östman|Skolledare, Adolfsberg
+C|330205|57|K|Ulrika Schortz|Ekonom, Almby
+C|330206|48|M|Irfan Doganson|Redovisningskonsult, Oxhagen
+C|312586|33|K|Malin Silén|Fil.kand., Örebro
+C|330208|69|M|Bengt Isacson|Sjukhussjälavårdare, Stora Mellösa
+C|312589|81|K|Birgitta Eklund|Pensionär, Örebro
+C|330210|36|M|Jonas Ahlforn|Präst, Bromsplan
+C|330211|45|K|Linda Makris|Samordnare, Lundby
+C|330212|36|M|Rasmus Lundin|Civilekonom, Rynninge
+C|330213|23|K|Felicia Magnusson|Socionom, Norr
+C|312569|26|M|Johan Svanberg|Studerande, Örebro
+C|330215|83|K|Gunvor Sundmark|Pensionär, Adolfsberg
+C|330216|82|M|Arne Christianson|Pensionär, Öster
+C|330217|55|K|Annika Andersson|Marknadskoordinator, Brickeberg
+C|330218|65|M|Göran Wall|Sfi lärare, Södra Linfhult
+C|330219|52|K|Carina Berg|Teol.kand, Hampetorp
+C|330220|69|M|Ricard Öjebrandt|Konsult, Brickberg
+C|312593|53|K|Rose-Marie Wilnerzon Thörn|Fysioterapeut, Örebro
+C|330222|70|M|Per Danielsson|Journalist, Brickberg
+C|327908|76|K|Margareta Ehnfors|Professor em., Örebro
+C|327923|44|M|Suleyman Alp|Egenföretagare, Örebro
+C|330225|41|K|Silvia Östersjö|Musiklärare, Rynningeåsen
+C|330226|75|M|Jan Lindéh|Pastor, Västra Oxhagen
+C|312580|45|K|Brittis Sundström|Förskolelärare, Örebro
+C|330228|79|M|Owe Ranebäck|Redaktör, Centrum
+C|330229|69|M|Agne Ericsson|Senior, Hagaby
+C|330230|51|K|Helena Lingmar|Folkhälsovetare, Stora Mellösa
+C|330231|49|M|Nikolas Demetriades|Pastor, Vintrosa
+C|330232|72|K|Ingrid Tvelin|Pensionär, Mellringe
+C|330233|70|M|Lars B Stenström|Präst, Centrum
+C|26950|50|K|Karolina Wallström|50 år, kommunalråd, Örebro
+C|151070|22|M|Carl Kling|22 år, företagare, Örebro
+C|26957|47|K|Ulrica Solver-Gustavsson|47 år, legitimerad lärare, Örebro
+C|26969|40|M|Patrik Jämtvall|40 år, sektionschef, Örebro
+C|151073|60|K|Marianne Thyr|60 år, ekonomiansvarig, Örebro
+C|151074|48|M|Magnus Riseby|48 år, gymnasielärare, Örebro
+C|26955|18|K|Olivia Angermayr|18 år, studerande, Örebro
+C|26933|66|M|Johan Åqvist|66 år, kriminalvårdare, Örebro
+C|26940|62|K|Gunilla Werme|62 år, skolsköterska/sjuksköterska, Örebro
+C|26954|54|M|Martin Mestanza|54 år, föreningskoordinator, Örebro
+C|151079|46|K|Marie Brodin|46 år. kommunikationschef, Örebro
+C|49170|50|M|Johan Pehrson|företagare, Örebro
+C|151081|77|K|Britta Bjelle|77 år, f.d. generaldirektör, Örebro
+C|26937|73|M|Larz Lundberg|73 år, ingenjör, Örebro
+C|26938|69|K|Pia Delin|69 år, pensionär, Örebro
+C|26962|73|M|Börje Ström|73 år, musikdirektör, Örebro
+C|26966|20|K|Patricia Iranipour|20 år, studerande, Örebro
+C|151086|57|M|Lars Modig|57 år, vice VD, Örebro
+C|26923|50|K|Anna Ågerfalk|50 år, oppositionsråd, Örebro
+C|26925|26|M|Willhelm Sundman|26 år, ombudsman, Örebro
+C|151089|52|K|Katarina Palm|52 år, läkare, Örebro
+C|26943|47|M|Kamil Nissan|47 år, gymnasielärare, Örebro
+C|26952|40|K|Zara Anell|40 år, pedagog, Örebro
+C|151092|27|M|Philip Kurt|27 år, egenföretagare, Örebro
+C|151093|29|K|Johanna Sundman|29 år, lärare, Örebro
+C|151094|63|M|Gregor Zubicky|62 år, konstnärlig chef, Örebro
+C|26982|75|K|Åsa Johansson|75 år, f.d. företagare, Örebro
+C|151096|56|M|Mikael Rundgren|56 år, hockeykonsulent, Örebro
+C|26968|67|K|Berit Tedsjö Winkler|67 år, biblioteksassistent, Örebro
+C|151098|52|M|Mats Hammarlund|52 år, projektledare, Örebro
+C|26946|59|K|Anna Torgny|59 år, jurist, Örebro
+C|26935|48|M|Henrik Johansson|48 år, ombudsman, Örebro
+C|151101|73|K|Carin Melin|73 år, advokat, Örebro
+C|26947|66|M|Pål Anders Stensson|66 år, stadsarkitekt, Örebro
+C|151103|57|K|Helene Zeilot|57 år, egenföretagare, Örebro
+C|151104|72|M|Christer Johansson|72 år, pastor, Örebro
+C|26942|69|K|Barbro Klaeson|69 år, f.d. rektor, Örebro
+C|26949|56|M|Thomas Eckard|56 år, ingenjör, Örebro
+C|26970|77|K|Kerstin Cederström|77 år, f.d. specialpedagog, Örebro
+C|151108|32|M|Marcus Mattsson|32 år, företagsrådgivare, Örebro
+C|26964|46|K|Karin Forsling|46 år, statsvetare, Örebro
+C|26981|26|M|Marcus Lennselius|26 år, skadereglerare, Örebro
+C|151111|73|K|Gunnel Körner|73 år, socionom, Örebro
+C|26929|59|M|Mats Einestam|59 år, arbetskonsulent, Örebro
+C|151113|51|M|Clas Rosdahl|51 år, advokat, Örebro
+C|151114|72|K|Margaretha Pehrson|72 år, pensionär, Örebro
+C|151115|28|M|Erik Löfstedt|28 år, studerande, Örebro
+C|26980|73|K|Gunilla Bursell|73 år, f.d. intendent, Örebro
+C|151117|53|M|Håkan Ullefors|53 år, vårdare, Örebro
+C|26961|70|K|Marika Westerberg|70 år, specialpedagog, Örebro
+C|151119|65|M|Peter Ahlstrand|65 år, egenföretagare, Örebro
+C|151120|52|K|Ewa-Christina Sandgren|52 år, specialpedagog, Örebro
+C|151121|55|M|Fredrik Beckmann|55 år, producent, Örebro
+C|26976|64|K|Carina Johansson|64 år, fritidsped/jurist, Örebro
+C|151123|55|M|Mats-Olof Liljegren|56 år, rektor, Örebro
+C|151124|32|K|Sara Wirsen|32 år, kundansvarig, Örebro
+C|151125|75|M|Lennart Eriksson|76 år, pensionär, Örebro
+C|26930|72|K|Yvonne Nilsson|72 år, f.d. socialchef, Örebro
+C|151127|81|M|Jerk Alton|81 år, arkitekt, Glanshammar
+C|151128|73|M|Lars Lennart Gustavsson|73 år, pensionär, Gällersta
+C|151129|78|M|Yngve Alkman|78 år, egenföretagare, Örebro
+C|151130|70|K|Britt-Marie Svensson|70 år, pensionär, Örebro
+C|151131|56|M|Jerker Lindgren|56 år, politisk sekreterare, Örebro
+C|250643|29|M|Niclas Persson|29 år, kommunalråd, Svampen
+C|122949|45|K|Sara Richert|45 år, miljöekonom och kommunalråd, Örebro
+C|122958|46|M|Marcus Willén Ode|46 år, präst, Örebro
+C|122968|38|K|Maria Sääf|38 år, undersköterska, Örebro
+C|123393|54|K|Lea Strandberg|54 år, leg. psykolog och leg. psykoterapeut, Örebro
+C|123403|38|M|Pontus Olofsson|38 år, kommunikatör, Örebro
+C|250649|51|K|Stina Ståhl|51 år, leg. psykolog, Sörby
+C|250650|24|M|Mohammad Tariq|24 år, integrationsprojektledare/student, Tybble
+C|250651|58|K|Anneli Weiner|58 år, kommunikatör, öster
+C|250652|26|M|Arvid Hanell|26 år, student, väster
+C|250653|60|K|Lotta Sörman|60 år, lärare, Nya Hjärsta
+C|122964|66|M|Sten Lang|66 år, gymnasielärare, Örebro
+C|122974|45|K|Katarina Bååth|45 år, jämlikhetsutvecklare, Örebro
+C|122946|38|M|Michael Horvath Dahlman|38 år, psykolog, Örebro
+C|122965|34|K|Helena Bosved|34 år, samhällsplanerare, Vintrosa
+C|122961|37|M|Magnus Lander|37 år, it-konsult, Örebro
+C|122978|36|K|Malin Bjarnefors|36 år, distriktssekreterare, Örebro
+C|122944|51|M|Jonas Eriksson|51, gymnasielärare, Örebro
+C|250661|44|M|Airton Valente Junior|44 år, advokat/lärare, centrum
+C|250662|47|K|Ammi Dahlén|47 år. enhetschef, Holmen
+C|123612|58|M|Tomas Dahlberg|58 år, kulturchef, Örebro
+C|250664|44|K|Helena Skogh|44 år, psykologstudent, centralt väster
+C|250665|47|M|Fredrik Welander|47 år, pappa, öster
+C|250666|40|M|Najibullah Zakhilwal|40 år, tolk, Vivalla
+C|123389|45|K|Ann-Kristin Spåls|45 år, lärare, Garphyttan
+C|123399|74|M|Gunnar Oest|74 år, ekonom, Örebro
+C|250669|58|M|Krister Andreasen Hildingsson|58 år, säkerhetssamordnare, Hjärsta
+C|250670|48|K|Anna Uhlin Landh|48 år, strateg för hållbar utveckling, Hjärsta
+C|250671|45|M|Linus Lindén|45 år, företagare, Mosås
+C|123563|76|M|Olof Johansson|76 år, filosofie doktor och pensionär, Örebro
+C|250673|41|M|Kal Ström|41 år, egenföretagare, norr
+C|250674|46|K|Pia Lind|46 år, biblioteksassistent, norr
+C|26435|40|M|Anders Åhrlin|40 år, Kommunalråd, Lillkyrka
+C|26436|54|K|Maria Haglund|54 år, Kommunalråd, Väster
+C|26437|39|K|Cecilia Askerskär Philipsson|socionom, Örebro
+C|26438|26|K|Maria Hedwall|26 år, Student & Simlärare, Almby
+C|26439|46|M|Daniel Granqvist|verksjurist, Örebro
+C|26440|49|M|Stefan Stark|49 år, Bitr. ombudsman, Lundby
+C|26441|56|K|Carina Börjesson|företagare, Örebro
+C|26442|30|K|Emelie Jaxell|partiombudsman, Örebro
+C|26443|62|M|Hossein Azeri|dataingenjör, Örebro
+C|26444|51|M|Johan Kumlin|företagare, Örebro
+C|26445|72|M|Ulf Södersten|72 år, fd officer, Adolfsberg
+C|26446|21|M|Christopher Rydaeus|lärarstudent, Örebro
+C|26447|61|M|Anders Brandén|ekonom, Örebro
+C|26448|27|K|Hanna Rimmerfors|27 år, Studerande, Sörbyängen
+C|26449|54|M|Tomas Runnquist|54 år, Entreprenör, Glanshammar
+C|26450|60|K|Eva Leitzler|grafiker, Örebro
+C|26451|36|M|Carl-Johan Wase|36 år, Universitetslärare, Adolfsberg
+C|26453|21|M|Markus Lokander|montör, Örebro
+C|26454|45|K|Sara Dicksen|jurist, Örebro
+C|26455|53|M|Eghbal Kamran|socionom, Örebro
+C|26456|52|M|Krister Eriksson|verkstadschef, Örebro
+C|26457|71|M|Lennart Karlsson|trädgårdsmästare, Örebro
+C|26458|27|M|Sebastian Cehlin|arbetsförmedlare, Örebro
+C|26459|29|M|Meriton Rexhepi|29 år, Skolpedagog, Eklunda
+C|26460|70|M|Lars Elamson|pensionär, Örebro
+C|26462|47|M|Magnus Johansson|47 år, Fritidspedagog, Björkhaga
+C|26463|41|M|Kristian Berglund|enhetschef, Örebro
+C|26465|36|M|Marcus Ahltun|lärare, Örebro
+C|26466|71|M|Krister Tornberg|71 år, fd hyresråd, Sörbyängen
+C|26467|70|K|Ann-Katrine Jondelius|fd biståndshandläggare, Örebro
+C|26468|76|K|Yvonne Käll|76 år, Pensionär, Gamla Hjärsta
+C|26469|74|K|Solbritt Fontander|74 år, Jurist & Civilekonom, Varberga
+C|26470|52|M|Mustaf Cali Siyaad|tolk, Örebro
+C|26471|72|K|Marianne Hamp|72 år, Socionom, Almby
+C|26472|70|K|Christina Bremer|70 år, Säljkonsult, Oxhagen
+C|432938|35|M|Mathias Segerlund|37, IT-konsult
+C|77720|41|M|Daniel Spiik|Entreprenör, Örebro
+C|77722|30|K|Helena Ståhl|30 år, politisk sekreterare
+C|77724|43|M|David Larsson|43 år, politisk sekreterare
+C|77725|55|M|Abraham Begallo|55 år, Egen företagare, Örebro
+C|77727|70|M|Sigvard Blixt|70 år, Pensionär, Örebro
+C|77729|79|M|Magnus Ingwall|79 år, Pensionär, Örebro
+C|77730|49|K|Terés Björndahl|49 år, yrkeschaufför
+C|77731|69|M|Bo Ammer|68 år, Pensionär, Örebro
+C|77733|79|M|Arne Björklund|79 år, busschaufför
+C|77734|69|M|Habib Brini|Egenföretagare, Örebro
+C|77735|72|M|Ulf Nilsson|72 år, förvaltare
+C|77736|73|M|Nils Gunnarsson|Pensionär, Örebro
+C|77737|66|K|Lena Lindén|66 år, Undersköterska, Örebro
+C|77738|59|M|Ulf Gustafsson|59 år, Projektledare, Örebro
+C|77739|27|K|Josefin Pettersson|27 år, Lastbilschaufför, Örebro
+C|77740|73|M|Ture Thureson|74 år, Ingenjör, Örebro
+C|77741|58|M|Peter Fredriksson|58 år, nämndeman
+C|77742|43|M|Mikael Östlind|43 år, egenföretagare
+C|77743|39|M|Johan Dahlström|40 år, Pumpmaskinist, Örebro
+C|77744|61|M|Jan-Olov Dahlström|61 år, Lantbrukare, Örebro
+C|77745|53|M|Dan Friberg|53 år, besiktningsman
+C|77746|70|K|Gunilla Fredriksson|Pensionär, Örebro
+C|77747|71|M|Lars Norrman|71 år, Pensionär, Örebro
+C|77748|73|M|Leif Åke Persson|73 år, Bergskoleingenjör, Örebro
+C|77749|21|M|Sergej Salnikov|22 år, Studerande, Örebro
+C|77750|48|M|Johan Andersson|48 år, projektledare
+C|77751|59|M|Michael Larsson|59 år, Örebro
+C|351349|39|K|Martha Wicklund|Kriminalvårdare, Örebro
+C|351350|58|M|Murad Artin|Kommunalråd, Örebro
+C|351351|32|K|Linn Josefsson|Miljöcontroller, Örebro
+C|351352|37|K|Cecilia Lönn Elgstrand|Politisk sekreterare, Örebro
+C|351353|38|K|Faisa Maxamed|Mottagningssamordnare, Örebro
+C|351354|53|M|Sunil Jayasooriya|Livsmedelsarbetare, Örebro
+C|351355|48|M|Stefan Nilsson|Färdtjänstchaufför, Örebro
+C|351356|32|K|Matilda Fredriksson|Doktorand, Örebro
+C|351357|66|M|Ingemar Savonen|Pensionär,Örebro
+C|351358|38|M|Johannes Nilsson|Statsvetare, Örebro
+C|351359|27|K|Nadja Awad|Lärare, Örebro
+C|351360|49|K|Maria Westerholm|Elevassistent, Örebro
+C|351361|33|K|Nadia Abdellah|Kommunikatör, Örebro
+C|351362|74|M|Kåge Svensson|Lagerarbetare, Örebro
+C|351363|49|M|Per-Åke Wilén|IT samordnare, Örebro
+C|351364|37|K|Zozan Baransson|Integrationshandläggare, Örebro
+C|351365|58|M|Mats Nilsson|Lagerarbetare, Odensbacken
+C|351366|74|K|Christina Hermansson Placon|Sjuksköterska/Tolk, Örebro
+C|351367|57|M|Mahdi Warsama|Lärare, Örebro
+C|351368|73|K|Lisbeth Lund|f.d. Vårdare, Örebro
+C|351369|42|M|Andreas Luperi|Produktionsansvarig SCB, Örebro
+C|351370|73|M|Tore Mellberg|Pensionär, Örebro
+C|351371|42|K|Marie Krantz|Boendestödjare, Örebro
+C|351372|33|M|Andrej Wicklund|IT ansvarig, Örebro
+C|361862|71|K|Gunnel Lindblom|f.d. Barnmorska, Örebro
+C|351374|27|M|Aligul Erkisi|Matematik NO lärare, Örebro
+C|351375|53|K|Birgitta Karlsson Feldgrill|Undersköterska, Örebro
+C|351376|25|M|Jonas Ohlsson|Ingenjör, Örebro
+C|351377|34|M|Henric Elgstrand|Socionom, Örebro
+C|351378|70|K|Barbara Komnik|f.d. Socionom, Örebro
+C|351379|27|K|Elisabeth Nilesol|Städare,Örebro
+C|351380|41|M|Tomas Hjort|Egen företagare, Örebro
+C|351381|62|K|Eva Sohlborg|Socialarbetare, Gällersta
+C|351382|40|M|Chafic Dana|Kriminalvårdare,Örebro
+C|351383|68|K|Mette Holck|f.d journalist, Örebro
+C|351384|61|M|Hassan Alizadeh|Örebro
+C|351385|38|K|Malin Tinjan|Örebro
+C|391379|28|M|Markus Allard|28 år, Journalist
+C|391439|62|M|Peter Springare|62 år, Polis
+C|391440|25|M|Adam Heivert Taylor|25 år, Snickare
+C|391441|28|K|Karolina Strindberg|28 år, Fritidshemslärare
+C|391442|22|M|Milian Penahi|22 år, Studerande
+C|391443|26|M|Simon Strindberg|26 år, IT-tekniker
+C|391444|22|M|Vincent De Verdier|22 år, Psykologistudent
+C|391445|25|M|Axel Frick|25 år, Tjänsteförvaltare
+C|391446|27|M|Edvard Welander|27 år, Läkarstudent
+C|391447|50|K|Marie-Louise Ringström|50 år, Serviceledare
+C|391448|21|M|Emil Stangefelt|20 år, Sjukvårdsbiträde

@@ -1,9 +1,206 @@
-2|121418|121419|121420|121421|121422|121423|121424|121425|121426|121427|98779|121429|121431|81376|121433|121434|81385|121436|98770|121438|121439|121440|121441|121442|121443|121444|121445|121446|121447
-4|159092|172719|172720|172721|172722|172723|172724|172725|172726|159108|172728|172729|172730|172731|172732|172733|172734|172735|172736|172737
-303|282638|282639|282640|282641|282642|270515|282644|282645|282647|282648|282649|282650|282651|282652|282654|282655|282656|282657|282658|282659|282660|282878|282661|282662|282663
-68|356894|356892|358106|358103|363323|356895|363325|363326|363327|356899|356874|358115|363331|358109|363333|356885|363335|363336|363337|363338|363339|363340|363341|363342|358108|363344|363345|363346|358096
-3|53899|53900|53562|53902|53903|53904|53906|53907
-55|382657|382664|384944|384945|384946|384947|384948|384949|384950|384951
-1|132918|135018|133565|135020|133536|135022|133572|135024|135025|135026|135027|133573|133561|135030|135031|135032|135033|133582|135035|135036|135037|135038|135039|135040|135041|135042|135043|135044|135045|135046|135047|135049|135050|135051|135052|133526|135054
-110|137834|137835|137836|137839|137838|137837|137840|137841|137842|137843|137844|137845
-5|384720|384721|384722|384723|384724|384725|384726|384727|384728|384729|384730|384731|384732|384733|384734|384735|384736
+T|Knivsta
+A|2|121418|121419|121420|121421|121422|121423|121424|121425|121426|121427|98779|121429|121431|81376|121433|121434|81385|121436|98770|121438|121439|121440|121441|121442|121443|121444|121445|121446|121447
+A|4|159092|172719|172720|172721|172722|172723|172724|172725|172726|159108|172728|172729|172730|172731|172732|172733|172734|172735|172736|172737
+A|303|282638|282639|282640|282641|282642|270515|282644|282645|282647|282648|282649|282650|282651|282652|282654|282655|282656|282657|282658|282659|282660|282878|282661|282662|282663
+A|68|356894|356892|358106|358103|363323|356895|363325|363326|363327|356899|356874|358115|363331|358109|363333|356885|363335|363336|363337|363338|363339|363340|363341|363342|358108|363344|363345|363346|358096
+A|3|53899|53900|53562|53902|53903|53904|53906|53907
+A|55|382657|382664|384944|384945|384946|384947|384948|384949|384950|384951
+A|1|132918|135018|133565|135020|133536|135022|133572|135024|135025|135026|135027|133573|133561|135030|135031|135032|135033|133582|135035|135036|135037|135038|135039|135040|135041|135042|135043|135044|135045|135046|135047|135049|135050|135051|135052|133526|135054
+A|110|137834|137835|137836|137839|137838|137837|137840|137841|137842|137843|137844|137845
+A|5|384720|384721|384722|384723|384724|384725|384726|384727|384728|384729|384730|384731|384732|384733|384734|384735|384736
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|303|KNU|Knivsta.Nu
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|121418|57|M|Peter Evansson|57 år, Oppositionskommunalråd
+C|121419|69|K|Britt-Louise Gunnar|69 år, F.d. regionchef
+C|121420|68|M|Claes Litsner|68 år, Pensionär
+C|121421|56|K|Harriet Swanberg|56 år, Kravanalytiker
+C|121422|60|M|Gunnar Orméus|60 år, Kapitalförvaltare
+C|121423|75|K|Ninel Jansson|75 år, Pensionär
+C|121424|24|M|Niklas Björkegren|24 år, Förbundsordförande
+C|121425|48|K|Tina Jalo Thorén|48 år, Grundskollärare
+C|121426|57|M|Anders Bergquist|57 år, Nationalekonom
+C|121427|66|K|Kristina Österlund|66 år, Förskollärare
+C|98779|47|M|Kristofer Olofsson|47 år, Apotekare, Knivsta
+C|121429|64|K|Lena Liljeblad|64 år, Administratör
+C|121431|20|K|Isa Evansson|20 år, Studerande
+C|81376|76|M|Lars Berglöf|76 år, Pensionär, Knivsta
+C|121433|40|K|Therese Skoglund-Shekarabi|40 år, Polis
+C|121434|36|M|Patrik Andersson|36 år, Egen företagare
+C|81385|51|K|Mitra K Hobehshoar|51 år, F.d. tågmästare, Knivsta
+C|121436|69|M|Lennart Runnding|69 år, Pensionär
+C|98770|67|K|Ann-Britt Litsner|67 år, Specialistsjuksköterska, Knivsta
+C|121438|65|M|Thomas Hagnefur|65 år, F.d. utredare
+C|121439|54|K|Anette Almgren|54 år, Lokalvårdare
+C|121440|51|M|Per Nordlund|51 år, Förhandlingsledare
+C|121441|79|K|Marianne Hägerström|79 år, Pensionär
+C|121442|66|M|Jonny Österman|66 år, F.d. lärare och företagare
+C|121443|68|K|Margareta Larsson|68 år, Barnmorska
+C|121444|70|M|Lars-Anders Larsson|70 år, Ingenjör
+C|121445|45|K|Amina Abid Faarah|45 år, Personlig assistent
+C|121446|70|M|Hans-Göran Edvardsson|70 år, Pensionär
+C|121447|68|K|Eva Enskär|68 år, Ekonom
+C|159092|61|M|Boo Östberg|61 år, hälsovetare, Knivsta
+C|172719|68|K|Kerstin Eskhult|68 år, pensionär, Husby-Långhundra, Knivsta
+C|172720|38|M|Johan Eskhult|38 år, Lärare
+C|172721|68|K|Birgitta Ljungberg Jansson|68 år, senior/förvaltningschef, Knivsta
+C|172722|57|M|Thomas Bertilsson|57 år, enhetschef, Knivsta
+C|172723|42|K|Ann Jonsson|42 år, Medicinsk Sekreterare
+C|172724|46|M|James Mckie|45 år, IT-konsult
+C|172725|56|K|Olga Granlöf|55 år, Socionom
+C|172726|57|M|Per Edstam|57 år, agronom, Husby-Långhundra, Knivsta
+C|159108|47|K|Miriam Eriksson|48 år, sjuksköterska, Knivsta
+C|172728|65|M|Leif Eriksson|64 år, IT-chef
+C|172729|64|K|Annegret Stackenström|64 år, jur.kand praktiserande jurist sedan 40 år tillbaka, Vassunda, Knivsta
+C|172730|66|K|Maud Johansson|66 år, Ekonom
+C|172731|79|K|Marianne Pihl|79 år, Senior
+C|172732|39|M|Benny Borgman|40 år, Hälsoekonom
+C|172733|75|M|Karl-Gunnar Höglund|75 år, Senior/Revisor
+C|172734|79|M|Ingemar Hansson|79 år, Pensionär
+C|172735|24|M|Lars Johansson|24 år, Bonde
+C|172736|70|M|Stig Pettersson|70 år, Lantbrukare
+C|172737|68|M|Anders Eskhult|68 år, Lantbrukare
+C|282638|62|M|Lennart Lundberg|Reporter, 62 år, Knivsta
+C|282639|52|K|Anneli Löfling|Projektledare, 52 år, Alsike
+C|282640|51|K|Britta Lästh|Business controller, 51 år, Lillhamra
+C|282641|58|M|Mikael Rye-Danjelsen|Redovisningschef, 58 år, Alsike
+C|282642|48|K|Maria Ahlestål|Etableringschef, 48 år, Knivsta
+C|270515|53|M|Dag Dacke|Företagare, Knivsta
+C|282644|41|M|Pierre Janson|Produktionstekniker, 41 år, Knivsta
+C|282645|69|M|Bengt-Åke Andersson|Pensionär och företagare, 69 år, Ängby
+C|282647|22|M|Peter Brymér|Studerande och fotbollstränare, 22 år, Knivsta
+C|282648|61|M|Ove Engström|Serviceman, 61 år, Lagga
+C|282649|69|K|Inger Ljungkvist|Pensonär och amatörkonstnär, 69 år, Noor
+C|282650|59|M|Roger Andersson|Egenföretagare, 59 år, Gurresta
+C|282651|50|M|Niclas Ahlestål|Etableringschef, 50 år, Knivsta
+C|282652|67|K|Kristina Westas|Sångpedagog, 67 år, Kölängen
+C|282654|46|M|Mats Hedberg|Systemspecialist, 46 år, Alsike
+C|282655|48|K|Catharina Olveby|Egenföretagare, 48 år, Knivsta
+C|282656|28|M|Per Johansson|Statsvetare, 28 år,Knivsta
+C|282657|44|M|Ivan Krezic|Produktkoordinator, 44 år, Ängby
+C|282658|70|M|Birger Eriksson|Pensionär, 70 år, Ängby
+C|282659|68|M|Staffan Ljung|Tekniskt råd, 68 år, Vassunda
+C|282660|58|K|Tarja Andersson Mutka|Ekonomichef, 58 år, Gurresta
+C|282878|72|M|Åke Gustafsson|Ingenjör, 72 år, Knivsta
+C|282661|57|M|Mehran Mosenpour|Förhandlare, 57 år, Alsike
+C|282662|53|M|Fredrik Gustafsson|Advokat, 53 år, Kölängen
+C|282663|68|M|Bo Fischer|Civilekonom, 68 år, Alsike
+C|356894|26|M|Pontus Lamberg|26, Projektledare, Uppsala
+C|356892|42|M|Björn-Owe Björk|42, Tjm Regeringskansliet, Knivsta
+C|358106|43|K|Synnöve Adell|43, Kommunikatör, Knivsta
+C|358103|69|M|Gunnar Gidlund|69, Hydrogeolog, Knivsta
+C|363323|48|M|Per Lindström|47, Ingenjör, Alsike
+C|356895|47|K|Elin Hemmingsson|46, Arbetsförmedlare, Knivsta
+C|363325|42|K|Helena Dahlberg|42, Grundskollärare, Knivsta
+C|363326|29|M|Vic Guedira|29, Lärare, Alsike
+C|363327|23|K|Matilda Mäkelä Olofsson|23, Administratör, Knista
+C|356899|35|K|Layla Nasiar|35, Byggnadsingenjör, Knivsta
+C|356874|42|M|Daniel Wall Andersson|42, Polisinspektör, Knivsta
+C|358115|40|M|Oscar Hahne|40, Domkyrkoklockare, Knivsta
+C|363331|35|K|Soile Tinglöf|35, Sjuksköterska, Knivsta
+C|358109|65|M|Jan Borowiec|64, Biträdande Professor, Knivsta
+C|363333|68|K|Ann Gidlund|67, Mikrobiolog, Västersjö
+C|356885|69|K|Iris Denstedt-Stigzelius|68, Distriktsläkare, Knivsta
+C|363335|19|M|Axel Björk|18, Lantbrukare, Husby-Långhundra
+C|363336|38|K|Erika Hongisto|38, Sjuksköterska, Östuna
+C|363337|60|M|Ulf Lindberg|59, Lärare, Marma
+C|363338|65|K|Maria Borowiec|64, Utbildningsansvarig, Knivsta
+C|363339|44|M|Richard Culander|44, Entreprenör, Knivsta
+C|363340|60|K|Anna-Karin Lieber|60, Produktchef, Noor
+C|363341|41|M|Kimmo Hongisto|41, Företagare, Östuna
+C|363342|43|K|Catharina Schön|43, Administratör, Östuna
+C|358108|39|K|Rebecca Ijäs|39, Biolog, Knivsta
+C|363344|55|M|Håkan Johansson|55, Ekonomichef, Alsike
+C|363345|33|K|Emelie Liljelyck|33, Dagmamma, Knivsta
+C|363346|45|M|Jens Andersson|45, Brandman, Östuna
+C|358096|25|K|Mimmi Westerlund|24, Politisk sekreterare, Knivsta
+C|53899|52|K|Anna Koskela-Lundén|Gymnasielärare
+C|53900|37|M|Erik Kronqvist|Konsult
+C|53562|51|K|Lotta Wiström|egen företagare/barnmorska, Knivsta, 51 år
+C|53902|42|M|Mikael Olsson|Civilekonom
+C|53903|70|M|Torkel Ekman|Pensionerad forskare/Veterinär
+C|53904|41|K|Camilla Wirén|Projektledare i läkemedelsindustrin
+C|53906|36|K|Helena Reje|Professionell ryttare/Skribent
+C|53907|36|K|Caroline Westholm Kronqvist|Civilekonom
+C|382657|49|K|Kerstin Umegård|Högstadielärare, 49 år, Alsike, Knivsta
+C|382664|75|M|Rolf Samuelsson|Pensionär, 75 år, Almunge
+C|384944|45|M|Jacob Risberg|Pr-konsult, 45 år, Rickebasta
+C|384945|40|K|Mikaela Gönczi|Ekotoxikolog, 40 år, Ängby
+C|384946|70|M|Germund Sjövall|Odlare, 70 år, Boängen
+C|384947|45|K|Kaisa Raitio|Forskare, 45 år, Ängby
+C|384948|34|M|David Holmberg|Sjuksköterska, 34 år, Knivsta
+C|384949|75|K|Kerstin Ebbersten|Agr dr., pensionär, 75 år, Vassunda
+C|384950|38|M|Jonas Gönczi|Logistiker, 38 år, Ängby
+C|384951|45|K|Sara Antell|Biolog, 45 år, Lagga
+C|132918|49|M|Klas Bergström|49 år, Kommunstyrelsens ordförande, Knivsta
+C|135018|42|K|Jeanette Meland|42 år, Ekonomi- personalansvarig, Alsike
+C|133565|34|M|Thor Övrelid|34 år, Politisk rådgivare, Vassunda
+C|135020|18|K|Olivia Bergström|18 år, Studerande, Knivsta
+C|133536|48|M|Bengt-Ivar Fransson|48 år, Ekonom, Knivsta
+C|135022|37|K|Matilda Hübinette|37 år, Småföretagare, Knivsta
+C|133572|53|M|Niclas Uggla|53 år, Patentkonsult, Alsike
+C|135024|72|M|Göran Nilsson|72 år, Företagare, Knivsta
+C|135025|50|K|Camilla Arvidsson|50 år, Ekonom, Västra Ängby
+C|135026|68|M|Sten Arnekrans|68 år, Pensionär, Knivsta
+C|135027|41|M|Håkan Johansson|41 år, Key Account Manager, Alsike
+C|133573|73|K|Eva Okfors|73 år, Tandläkare (pensionär), Knivsta
+C|133561|46|K|Ann-Charlotte Fransson|46 år, Studerande apotekarprogrammet, Knivsta
+C|135030|45|M|Fredrik Ek|45 år, Verksamhetschef, Alsike
+C|135031|19|K|Ellie Uggla|19 år, Studerande, Alsike
+C|135032|65|M|Leif Svensson|65 år, Flygkapten, Vassunda
+C|135033|33|K|Evelina Barosen|33 år, SOS-Operatör, Knivsta
+C|133582|31|M|Jonatan Spjuth|31 år, Tullspecialist, Knivsta
+C|135035|37|K|Camilla Uddman|37 år, Verksamhetsutvecklare HR, Alsike
+C|135036|39|M|Tommy Ebbeståhl|39 år, Resesäljare, Alsike
+C|135037|48|M|Jesper Andersson Rydåker|48 år, Marknads- och kommunikationsdirektör, Alsike
+C|135038|51|K|Camilla Mannich Uggla|51 år, Agronom, Alsike
+C|135039|47|K|Anna Holmqvist Boulonois|47 år, Key Account Manager, Alsike
+C|135040|72|M|Tord Eriksson|72 år, pensionär, Knivsta
+C|135041|41|K|Åsa Brannestam|41 år, Beteendevetare, Krusenberg
+C|135042|68|K|Mette Bälter|68 år, Pensionär, Vassunda
+C|135043|72|M|Rune Lundin|72 år, f.d. Haveriutredare, Knivsta
+C|135044|58|M|Håkan Eriksson|58 år, Företagare, Knivsta
+C|135045|56|K|Susanne Johansson|56 år, Säljare, Knivsta
+C|135046|69|M|Per Söderström|69 år, Lönekonsult, Knivsta
+C|135047|30|K|Joss Edquist|30 år, IT-strateg, Knivsta
+C|135049|62|K|Susanne Jakobsson|62 år, Egenföretagare, Noor
+C|135050|47|M|Patrik Norrbin|47 år, Polis, Krusenberg
+C|135051|67|K|Agneta Eriksson|67 år, Ekonom, Husby-Långhundra
+C|135052|58|M|Mats Johansson|58 år, Systemspecialist, Knivsta
+C|133526|33|K|Emilie Orring|33 år, Regionråd, Alsike
+C|135054|74|M|Christer Hoel|74 år, Agronom, Knivsta
+C|137834|64|M|Gunnar Larsson|64, säkerhetschef, Knivsta
+C|137835|56|K|Monika Lövgren|Digital Account Manager, Knivsta
+C|137836|71|M|Gunnar Parnell|70, f.d. marknadsförare, Knivsta
+C|137839|71|M|Hans Nyberg|71, f.d. plåtslagare, Knivsta
+C|137838|35|M|Jakob Deremar|35, kyltekniker, Knivsta
+C|137837|53|M|Lars Ört|53, entreprenör, Knivsta
+C|137840|55|M|Johan Helenius|55, vd, Knivsta
+C|137841|53|M|Tommy Ericson|53, mekaniker, Knivsta
+C|137842|61|M|Otto Limont|61, grävmaskinist, Alsike
+C|137843|29|M|Jimmy Lagberg|29, teknisk support, Knivsta
+C|137844|56|M|Magnus Melander|56, entreprenör, Alsike
+C|137845|56|M|Peter Wester|56, maskinist, Husby-Långhundra
+C|384720|66|M|Christer Johansson|66, pensionär, Knivsta
+C|384721|53|K|Maria Fornemo|53, fackligt förtroendevald, Alsike
+C|384722|51|K|Petra Jansson|51, skoladministratör, Knivsta
+C|384723|46|M|Fredrik Rosenbecker|46, nätverksspecialist, Alsike
+C|384724|46|K|Malin Tollbom Kjell|46, gymnasielärare, Knivsta
+C|384725|34|K|Tove Ericson|34, solcellsdoktorand, Vassunda
+C|384726|42|K|Jaya Montell|42, socionom, V Ängby
+C|384727|48|K|Maja Erkstam|48, utvecklingshandledare, Knivsta
+C|384728|39|M|Johan Jansson|39, lektor, V Ängby
+C|384729|39|K|Elin Johansson|39, egen företagare, V Ängby
+C|384730|47|K|Nina Broman Costa|fackligt förtroendevald, Knivsta
+C|384731|28|K|Helena Marrero Ericson|28, jurist, Knivsta
+C|384732|45|K|Jenny Parkert|45, undersköterska, Knivsta
+C|384733|65|K|Anna Marklund|65, musikant, Knivsta
+C|384734|33|K|Charlotte Judkins|33, studerande, Knivsta
+C|384735|68|K|Irene Ljungström|68, pensionär, Långhundra
+C|384736|71|M|Tommy Ljungström|71, facklig konsult, Långhundra

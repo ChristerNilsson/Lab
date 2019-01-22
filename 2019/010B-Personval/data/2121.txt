@@ -1,8 +1,172 @@
-2|9202|9203|9204|9205|9206|9207|9208|9209|9210|9211|9212|9213|9214|9215|9216|9217|9218|9219|9220|9221|9222|9223|9224|9226|9227|9228|9229|9230|9231|9232|9233|9234|9235|9236
-4|270729|270759|270760|270761|270762|270763|270764|270801|270802|270803|270804|270805|270806|270807|270808|270809|270810|270828|270829|270830|270831|270832|270833|270834|270835|270836|270863|270864|270865|270866|270867|270868|270869|270870|270905|270906|270907|270908|270909|270910|270911|270912
-68|11150|11151|11152|11153|11154|11155|164144|11157|11158|11159|11156|11160|11161|11162|11163|11164|11165|11166|11167
-3|148325|168749|168750|168751|168752|168753|168754|168755|168756|168757|168758|168759|168760|168761
-55|112980|112981|112982|112983|112984|112985|112986|112987|112988
-1|168435|168436|168437|168438|168439|168440|168441|168442|168443|168444|168445|168446|168447|168448|168449|168450|168451|168452|168453|168454|168455|168456
-110|94455|94457|488212|94456|514489|514490|514491|514492|514494|514496|514497|514499|514495
-5|340292|340293
+T|Ovanåker
+A|2|9202|9203|9204|9205|9206|9207|9208|9209|9210|9211|9212|9213|9214|9215|9216|9217|9218|9219|9220|9221|9222|9223|9224|9226|9227|9228|9229|9230|9231|9232|9233|9234|9235|9236
+A|4|270729|270759|270760|270761|270762|270763|270764|270801|270802|270803|270804|270805|270806|270807|270808|270809|270810|270828|270829|270830|270831|270832|270833|270834|270835|270836|270863|270864|270865|270866|270867|270868|270869|270870|270905|270906|270907|270908|270909|270910|270911|270912
+A|68|11150|11151|11152|11153|11154|11155|164144|11157|11158|11159|11156|11160|11161|11162|11163|11164|11165|11166|11167
+A|3|148325|168749|168750|168751|168752|168753|168754|168755|168756|168757|168758|168759|168760|168761
+A|55|112980|112981|112982|112983|112984|112985|112986|112987|112988
+A|1|168435|168436|168437|168438|168439|168440|168441|168442|168443|168444|168445|168446|168447|168448|168449|168450|168451|168452|168453|168454|168455|168456
+A|110|94455|94457|488212|94456|514489|514490|514491|514492|514494|514496|514497|514499|514495
+A|5|340292|340293
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|9202|56|K|Yoomi Renström|Alfta
+C|9203|59|M|Håkan Englund|60 år, Ovanåker
+C|9204|52|K|Ylva Ivarsson|53 år, Ovanåker
+C|9205|32|M|Einar Wängmark|32 år, Ovanåker
+C|9206|62|K|Eva Holm|Edsbyn
+C|9207|67|M|Jan-Åke Lindgren|67 år, Ovanåker
+C|9208|56|K|Ann-Christine Märges|Edsbyn
+C|9209|35|M|Carl Bopparmark|35 år, Ovanåker
+C|9210|41|K|Elin Wängmark|Alfta
+C|9211|53|M|Per Helgesson|Edsbyn
+C|9212|42|M|Mattias Lennartsson|Edsbyn
+C|9213|44|M|Tomas Bolén|Edsbyn
+C|9214|55|K|Carina Nordqvist|Alfta
+C|9215|73|M|Hans Gradin|Edsbyn
+C|9216|78|M|Jonas Frost|Edsbyn
+C|9217|72|M|Åke Jonsson|Edsbyn
+C|9218|31|M|Patrik Bossen|31 år, Ovanåker
+C|9219|68|M|Christer Karlsson|Edsbyn
+C|9220|51|M|Peter Grip|Edsbyn
+C|9221|47|K|Adelaida Gomez|Alfta
+C|9222|55|M|Bengt Forssén|Edsbyn
+C|9223|72|M|Börje Olsson|Edsbyn
+C|9224|28|M|Fredrik Frelin|Edsbyn
+C|9226|46|M|Peter Mångs|Edsbyn
+C|9227|71|M|Bengt Bengtsson|Alfta
+C|9228|63|K|Åsa Arvidsson|Edsbyn
+C|9229|74|M|Abner Englund|Edsbyn
+C|9230|80|M|Siver Karlsson|Edsbyn
+C|9231|76|K|Solveig Gunnilstam|Edsbyn
+C|9232|77|K|Rigmor Frost|Edsbyn
+C|9233|35|K|Emma Madueme|Viksjöfors
+C|9234|54|M|Lars Jingåker|Edsbyn
+C|9235|43|M|Lars Hallfors|Edsbyn
+C|9236|75|M|Roger Torvidsson|Edsbyn
+C|270729|52|M|Hans Jonsson|fastighetsmäklare, Ovanåker
+C|270759|58|K|Gun-Marie Swessar|företagare, Ovanåker
+C|270760|61|M|Björn Mårtensson|Grånäs
+C|270761|59|K|Anna Rudman|Edsbyn
+C|270762|41|M|David Parhans|Klitten
+C|270763|52|K|Mari Vedin|IT-tekniker, Ovanåker
+C|270764|44|K|Karin Leanders|Grängsbo
+C|270801|63|M|Björn Schols|Edsbyn
+C|270802|52|K|Elisabeth Eriksson|hembygdskonsulent, Ovanåker
+C|270803|68|M|Karl-Gunnar Landar|Skräddrabo
+C|270804|62|K|Lena Westling|undersköterska, Ovanåker
+C|270805|54|M|Ola Östergrens|Fullen
+C|270806|70|K|Monica Hansson|Knåda
+C|270807|54|M|Nils Erik Falk|egenföretagare, Alfta
+C|270808|63|K|Anne Landar Ohlsson|Ämnebo
+C|270809|49|K|Mimmi Lange|Näsbyn
+C|270810|36|M|Joakim Guvelius|Norrby
+C|270828|55|M|Anders Norén|Näsbyn
+C|270829|32|M|Johan Mittjas|Roteberg
+C|270830|48|K|Helen Ringbo Widoff|Edsbyn
+C|270831|44|M|Raied Nakchbandi|Alfta
+C|270832|53|K|Catharina Wigzell|Knåda
+C|270833|23|M|Erik Ohlsson|Ämnebo
+C|270834|64|M|Erik Borvall|Edsbyn
+C|270835|72|K|Deisy Hellsén|Skräddrabo
+C|270836|71|M|Carl Ringbo|Edsbyn
+C|270863|53|K|Marie Ungman|Önneberg
+C|270864|64|K|Kristina Unger|Kyan
+C|270865|41|M|Anders Forsbäck|Viksjöfors
+C|270866|44|K|Carola Blom|Roteberg
+C|270867|59|M|Stefan Andersson|Alfta
+C|270868|47|M|Pär Nordin|Hömyren
+C|270869|75|M|Allan Elfstrand|Ryggesbo
+C|270870|61|M|Tomas Karlström|Voxnabruk
+C|270905|63|K|Monica Broman|Alfta
+C|270906|32|M|Johan Wennberg|Gräsmyran
+C|270907|67|M|Erik Broman|Alfta
+C|270908|57|M|Björn Landgren|Edsbyn
+C|270909|73|K|Karin Persson|Alfta
+C|270910|73|M|Tage Nordin|Edsbyn
+C|270911|68|M|Åke Persson|Knåda
+C|270912|63|M|Karl-Erik Kavla|Tranberg
+C|11150|42|K|Jennie Forsblom|Förskollärare, Ovanåker
+C|11151|44|M|Andreas Kissner|Inspektor Mellanskog, Edsbyn
+C|11152|69|M|Bertil Eriksson|Senior, Ovanåker
+C|11153|47|M|Claes Häggblom|Produktionsplanerare, Edsbyn
+C|11154|74|K|Isa Wallmyr|Internatföreståndare, Alfta
+C|11155|47|K|Ingela Carter|Förskollärare, Edsbyn
+C|164144|42|M|David Elofsson|Verkstadssnickare, Edsbyn
+C|11157|78|K|Inga-Britt Kling|Sjuksköterska, Alfta
+C|11158|38|M|Anders Nilsson|Bilrekonditionerare, Edsbyn
+C|11159|62|K|Birgitta Sjöberg-Olsson|Barnskötare, Alfta
+C|11156|78|M|Tord Berbres|Trubadur, Vängsbo
+C|11160|51|K|Katrin Berbres|Caféföreståndare, Vängsbo
+C|11161|71|M|Lars-Erik Häggblom|Senior, Edsbyn
+C|11162|70|K|Kerstin Näslund|Redovisningskontorist, Edsbyn
+C|11163|47|M|Hans Berbres|Industriarbetare, Vängsbo
+C|11164|71|K|Anita Johansson|Osséen, Förskollärare, Alfta
+C|11165|85|M|Lennart Westlund|Senior, Edsbyn
+C|11166|68|K|Ing-Britt Fredriksson|Sjuksköterska, Alfta
+C|11167|79|M|Bror Fagerhov|Senior, Edsbyn
+C|148325|53|M|Kent Olsson|53,lärare, Edsbyn
+C|168749|77|M|Ingemar Ehn|Edsbyn
+C|168750|73|K|Ingrid Björklund|Alfta
+C|168751|80|M|Gunnar Mering|Alfta
+C|168752|46|K|Åsa Olsson|Edsbyn
+C|168753|72|K|Inger Janegren|Alfta
+C|168754|20|M|Andrée Olsson|Edsbyn
+C|168755|79|M|Olof Johansson|Edsbyn
+C|168756|71|K|Ann-Kristina Brunkebärg|Edsbyn
+C|168757|74|K|Marie Bloom|Edsbyn
+C|168758|80|M|Bertil Höglund|Edsbyn
+C|168759|73|M|Sven Berg|Edsbyn
+C|168760|88|K|Ester Hammar|Edsbyn
+C|168761|76|M|Bo Sandberg|Edsbyn
+C|112980|36|K|Lindvi Forsberg|36 år, leg. fysioterapeut, Edsbyn
+C|112981|59|M|Olle Berglund|59 år, Ovanåkers kommun, Hian-Knåda
+C|112982|76|K|Anita Wallin|77 år, pensionär, Alfta
+C|112983|43|M|Tewelde Tesfagergs|43 år, vårdstuderande, Edsbyn
+C|112984|54|K|Sylvia Wiksten|53 år , diakon och pedagog, Ovanåker
+C|112985|84|M|Göthe Ahlin|84 år, f.d. SJ trafikchef, Galven
+C|112986|73|K|Rosa C.R. Dagerholt|fd. lärare, 73 år Runemo
+C|112987|85|K|Birgitta Ohlsson|85 år, f.d. lanthushållslärarinna, Viken
+C|112988|43|K|Veronica Kjellgren|grundskollärare, 43 år, Ovanåkers kyrkby
+C|168435|51|M|Mikael Jonsson|51 år, säljare, Viksjöfors
+C|168436|54|M|Pär Johansson|54 år, företagare, Alfta
+C|168437|33|K|Maria Unborg|33 år, kyrkokamrer, Edsbyn
+C|168438|55|M|Krister Nilsson|55 år, Edsbyn
+C|168439|75|K|Ulla Mortimer|75 år, pensionär, Alfta
+C|168440|73|M|Curt Arsander|73 år, pensionär, Alfta
+C|168441|52|K|Maria Öst-Backa|52 år, distriktssköterska, Edsbyn
+C|168442|32|M|Mikael Sundell|32 år, regionchef, Alfta
+C|168443|54|M|Mikael Gustafsson|54 år, innesäljare, Edsbyn
+C|168444|76|M|Uno Andersson|76 år, skogsbrukare, Alfta
+C|168445|56|K|Suzanne Johansson|56 år, industriarbetare, Alfta
+C|168446|53|M|Tommy Henriksson|53 år, företagare, Alfta
+C|168447|18|K|Julia Granqvist|18 år, studerande, Edsbyn
+C|168448|51|M|Johan Ringbo|51 år, projektledare, Edsbyn
+C|168449|58|M|Kjell Eriksson|58 år, företagare, Edsbyn
+C|168450|49|M|Peter Ring|49 år, företagare, Edsbyn
+C|168451|40|M|Hans Henriksson|40 år, industriarbetare, Alfta
+C|168452|45|M|Lars Göllas|45 år, snickare, Alfta
+C|168453|69|M|Anders Göllas|69 år, pensionär, Alfta
+C|168454|21|K|Jenni Norell|21 år, studerande, Alfta
+C|168455|52|M|Lars Lans|52 år, handläggare, Edsbyn
+C|168456|64|M|Hans-Erik Olsson|64 år, säljare, Alfta
+C|94455|30|K|Emilia Uvagårds|31, bovärd, Edsbyn
+C|94457|60|M|Per Inge Eriksson|
+C|488212|70|M|Lennart Englund|70, pensionär, Edsbyn
+C|94456|66|M|Allan Olsson|66, snickare, Alfta
+C|514489|19|M|Alexander Wigren|29, elektronikmontör, Edsbyn
+C|514490|36|M|Pär Rytkönen|36, industriarbetare, Alfta
+C|514491|64|K|Karin Tiderman|64, kontorist, Alfta
+C|514492|50|M|Stefan Embretsén|50, skogsmaskinförare, Edsbyn
+C|514494|28|M|Robert Harrysson|28, yrkeschaufför, Edsbyn
+C|514496|64|M|Mats Tiderman|64, industriarbetare, Alfta
+C|514497|56|M|Sam-Uno Skoglund|66, sjukpensionär, Viksjöfors
+C|514499|53|M|Tony Schönnings|53, lagerarbetare, Viksjöfors
+C|514495|31|M|Fredrik Engh|
+C|340292|47|K|Susan Kangosjärvi Persson|Inredningsarkitekt SIR/MSA
+C|340293|66|M|Ingemar Börjesson|pensionär, Ovanåker

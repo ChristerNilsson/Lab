@@ -1,8 +1,159 @@
-2|276761|276762|276989|276990|276991|276992|276993|276994|276995|276996|276997|276998|276999|139669|277001|139659|278320|278321|278322|278323|278324|278325|278326|278327|278328|278329|278330|278331|278332|278333|278334|278335|278336|278337|278338|278339|278340|278341|278342|278343|278344|278345|278346|278347|278348|278349|278350|278614|278615|278616|278617|278618|278619|278620|278621|278622|278623|278624|278625|278626|278627|278628
-4|179750|179749|179758|190815|190816|190817|190818|190819|190820|190821|190822|190823|190824|190825|190826|190828|190829|190830|190831|190832|190833|190835|190836|190837|190838
-68|453465|454626|454628|453462|454632|454714|454715|454716|454717|454718|454719|454720|454721
-3|8032|27476|27477|27478
-55|251357|113364
-1|359038|359039|359040|359041|359042|359043|359044|359045|359046|359047|359048|359049
-110|125821|125822|125823|125824|125825|125826|125827|125828|125829|125830|512259|513143|513967|513968|515114|515607
-5|301063|294485|301065|301066|301067|301068|301069|301070|301071
+T|Olofström
+A|2|276761|276762|276989|276990|276991|276992|276993|276994|276995|276996|276997|276998|276999|139669|277001|139659|278320|278321|278322|278323|278324|278325|278326|278327|278328|278329|278330|278331|278332|278333|278334|278335|278336|278337|278338|278339|278340|278341|278342|278343|278344|278345|278346|278347|278348|278349|278350|278614|278615|278616|278617|278618|278619|278620|278621|278622|278623|278624|278625|278626|278627|278628
+A|4|179750|179749|179758|190815|190816|190817|190818|190819|190820|190821|190822|190823|190824|190825|190826|190828|190829|190830|190831|190832|190833|190835|190836|190837|190838
+A|68|453465|454626|454628|453462|454632|454715|454716|454717|454718|454719|454720|454721
+A|3|8032|27476|27477|27478
+A|55|251357|113364
+A|1|359038|359039|359040|359041|359042|359043|359044|359045|359046|359047|359048|359049
+A|110|125821|125822|125823|125824|125825|125826|125827|125828|125829|125830|512259|513143|513967|513968|515114|515607
+A|5|301063|294485|301065|301066|301067|301068|301069|301070|301071
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|276761|41|K|Sara Rudolfsson|Kyrkhult Jurist 41 år
+C|276762|68|M|Jan Björkman|Olofström F.d. riksdagsledamot 68 år
+C|276989|48|K|Annika Sjöstedt|Olofström Lärare 38 år
+C|276990|72|M|Kjell-Åke Karlsson|Olofström Pensionär 72 år
+C|276991|52|K|Karmen Björkman|Olofström Enhetschef 53 år
+C|276992|61|M|Kaj Joelsson|Södra Gaslunda Anläggningsarbetare 61 år
+C|276993|60|K|Pirjo Veteli|Olofström Metallarbetare 60 år
+C|276994|70|M|Rolf Persson|Kyrkhult Typograf 70 år
+C|276995|62|K|Yvonne Andréasson|Olofström Ombudsman 62 år
+C|276996|75|M|Lars-Göran Karlsson|Olofström Pensionär 75 år
+C|276997|71|K|Sonja Lundh|Olofström Pensionär 71 år
+C|276998|66|M|Miroslav Milurovic|Olofström Metallarbetare 66 år
+C|276999|37|K|Linda Rehn|Olofström Enhetschef 37 år
+C|139669|53|M|Patrik Sjöstedt|Olofström Tjänsteman 53 år
+C|277001|30|K|Tamam Abou Hamidan|Olofström Handläggare 29 år
+C|139659|37|M|Richard Pelle Vidén|Olofström Folkbildare 37 år
+C|278320|29|K|Sandra Danielsson|Olofström Koordinator 29 år
+C|278321|55|M|Michael Henriksson|Olofström Kundvärd 55 år
+C|278322|40|K|Marie Everlönn|Olofström Industriarbetare 40 år
+C|278323|19|M|Molham Alshooykh|Olofström Studerande 19 år
+C|278324|75|K|Siw Henriksson|Olofström Pensionär 75 år
+C|278325|68|M|Dan Orvegren|Olofström Pensionär 68 år
+C|278326|63|K|Marita Orvegren|Jämshög 63 år
+C|278327|38|M|Mikael Kjellberg|Gränum Ingenjör 38 år
+C|278328|62|K|Eva Johnsson|Vilshult Enhetschef 62 år
+C|278329|50|M|Håkan Assarsson|Kyrkhult Egenföretagare 50 år
+C|278330|79|K|Ingrid Karlsson|Olofström Trubadur 79 år
+C|278331|67|M|Johnny Andréasson|Olofström Pensionär 67 år
+C|278332|73|K|Siw Joelsson Bengtsson|Olofström 73 år
+C|278333|28|M|Erik Halling|Olofström 28 år
+C|278334|56|K|Anita Stark|Jämshög Chaufför 56 år
+C|278335|27|M|Sammy Gunnarsson|Olofström Arbetslös 27 år
+C|278336|29|M|Sam Vidén Jakobsson|Olofström Industriarbetare 29 år
+C|278337|65|M|Ola Bengtsson|Olofström 65 år
+C|278338|23|K|Anna-Karin Berggren|Olofström Studerande 23 år
+C|278339|67|M|Håkan Björkman|Kyrkhult 67 år
+C|278340|48|K|Bogdanka Sublja|Olofström Industriarbetare 48 år
+C|278341|56|M|Nedjo Diljkan|Olofström Metallarbetare 56 år
+C|278342|39|K|Sophie Kjellberg|Gränum Studerande 39 år
+C|278343|42|M|Christer Vidén|Olofström 42 år
+C|278344|51|K|Annelie Holgersson|Olofström Ekonomiassistent 51 år
+C|278345|61|M|Anders Johansson|Kyrkhult Lärare 61 år
+C|278346|39|K|Eman Alkisy|Olofström 39 år
+C|278347|43|M|Morgan Bengtsson|Olofström Vårdchef 43 år
+C|278348|58|K|Helle Morsel|Kyrkhult 58 år
+C|278349|36|M|Henrik Johansson|Kyrkhult 36 år
+C|278350|54|K|Louise Winberg|Olofström Metallarbetare 54 år
+C|278614|62|M|Maurits Rehn|Jämshög Kommunister 62 år
+C|278615|49|K|Pernilla Nordin|Olofström Fritidsledare 49 år
+C|278616|32|M|Markus Mörlund|Olofström 32 år
+C|278617|51|K|Ann Rajalampi|Vilshult Verksamhetsansvarig 51 år
+C|278618|59|M|Saleh Ahmed Alyazidi|Olofström 59 år
+C|278619|61|K|Anette Lennartsson|Gränum Undersköterska 61 år
+C|278620|63|M|Jan Åkesson|Kyrkhult Planerare 63 år
+C|278621|67|M|Ingolf Johnsson|Olofström Pensionär 67 år
+C|278622|39|M|Anas Ammar|Olofström 39 år
+C|278623|59|M|Jan-Anders Håkansson|Kyrkhult Taxichaufför 58 år
+C|278624|51|M|Mirsad Hadzic|Olofström Arbetare 51 år
+C|278625|57|M|Johan Kajrup|Olofström 57 år
+C|278626|69|M|Tommy Jönsson|Boamark Pensionär 69 år
+C|278627|46|M|Fredrik Svensson|Olofström Metallarbetare 46 år
+C|278628|59|M|Kjell Persson|Olofström 59 år
+C|179750|59|M|Rolf Jönsson|59 år lantbrukare Nybygden
+C|179749|47|K|Malin Åman|47 år civilingenjör, företagare Vilshult
+C|179758|41|M|Andreas Brovall|41 år automationskonsult Kyrkhult
+C|190815|36|K|Anna Blissing|36 år byggnadsingenjör Olofström
+C|190816|76|M|Gert Gustavsson|76 år ingenjör Olofström
+C|190817|51|K|Maj Lindström|51 år kantor Kyrkhult
+C|190818|57|K|Bodil Jönsson|57 år förskollärare Olofström
+C|190819|47|M|Thomas Eriksson|47 år entreprenör Hemmingsmåla
+C|190820|56|K|Susanne Mustig|56 år medium Kyrkhult
+C|190821|64|M|Bengt Olof Nilsson|64 år lantbrukare Boa-Hage
+C|190822|41|K|Tina Svensson|41 år parkarbetare Hemmingsmåla
+C|190823|60|M|Mats Sigfridsson|60 år lantbrukare Ljungryda
+C|190824|27|K|Amra Bajramovic|27 år samordnare nyanlända Olofström
+C|190825|62|M|Boris Eriksson|62 år chaufför Olofström
+C|190826|34|K|Ulrika Thuresson|34 år egenföretagare Erikstorp
+C|190828|49|M|Per Enberg|49 år lärare Olofström
+C|190829|54|K|Agnetha Andreasson|54 år Olofström
+C|190830|36|M|Mats Eriksson|36 år processoperatör Erikstorp
+C|190831|68|K|Margareta Svensson|68 år skogsbrukare Vilshult
+C|190832|18|M|Fabian Jönsson|18 år studerande Nybygden
+C|190833|46|M|Magnus Johansson|46 år skogsbonde Slagesnäs
+C|190835|47|M|Christoffer N Magnstedt|47 år pedagog Kullan
+C|190836|72|K|Barbro Hansson|72 år lantbrukare Vilshult
+C|190837|56|M|Jan Åke Hallström|56 år fälttekniker Gränum
+C|190838|51|M|Stefan Olsson|52 år verktygsfilare Gränum
+C|453465|72|M|Klavs Wix Nielsen|Olofström
+C|454626|72|M|Thommy Svensson|Olofström
+C|454628|59|K|Inger Ahnberg|Olofström
+C|453462|64|M|James Sandstedt|Olofström
+C|454632|56|K|Ingrid Brånsjö|Olofström
+C|454715|62|M|Bengt Jämstorp|Chaufför, Jämshög
+C|454716|66|K|Christina Gustafsson|Pensionär, Vilshult
+C|454717|67|M|Gert-Ingvar Ottosson|Trädgårdsmästare, Kyrkhult
+C|454718|58|M|Olle Svensson|Lantbrukare, Vilshult
+C|454719|77|M|Göran Svensson|Lantbrukare, Vilshult
+C|454720|69|M|Dan Lundgren|Försäljare, Vilshult
+C|454721|83|M|Erik Aronsson|Olofström
+C|8032|48|M|Björn Söderdahl|Tekniker 49år Olofström
+C|27476|77|M|Rolf Liljeqvist|Tandläkare 77år Olofström
+C|27477|69|M|Per-Axel Olsson|Företagare 69år Olofström
+C|27478|42|K|Jennifer Palo|42år Olofström
+C|251357|62|M|Jacek Jurkowski|Lärare
+C|113364|65|K|Anitha Fredriksson|Pensionär, Olofström
+C|359038|51|M|Patrik Krupa|51, verktygsmakare, Olofström
+C|359039|65|K|Marianne Eriksson|65, sjukvårdsbiträde, Kyrkhult
+C|359040|61|K|Britta Lindgren|61, skolsköterska, Jämshög
+C|359041|68|K|Monica Carlsson|68, leg sjuksköterska, Olofström
+C|359042|53|M|Niklas Nordström|53, åkeriägare, Olofström
+C|359043|76|M|Torsten Cairenius|76, pensionär, Olofström
+C|359044|46|M|Bekim Tabaku|46, frisör, Olofström
+C|359045|67|K|Erzsebet Belsö|67, maskintekniker, Olofström
+C|359046|79|M|Tommy Danielsson|79, inköpschef, Olofström
+C|359047|57|K|Sirpa Jensen|57, undersköterska/entreprenör, Olofström
+C|359048|47|K|Katarzyna Krupa|47, undersöterska, Olofström
+C|359049|40|M|Mattias Karlsson|40, lastbilschaufför, Olofström
+C|125821|54|M|Max Nielsen|Ingenjör 54 år
+C|125822|52|K|Anna-Lena Mattson|56 år, Fotonavbildningsspecialist
+C|125823|46|M|Tommy Holmgren|Egenföretagare, 46 år
+C|125824|61|K|Pia Frej|61 år, Undersköterska
+C|125825|77|M|Rolf Witte|77 år, Pensionär
+C|125826|37|K|Linda Röman|Undersköterska, 37 år
+C|125827|53|M|Willy Salomonsson|53 år, Processoperatör
+C|125828|49|M|Peter Holmström|Busschaufför, 49 år
+C|125829|45|M|Daniel Pionk|Målare, 44 år
+C|125830|66|M|Yngve Svensson|66 år, Egenföretagare
+C|512259|50|K|M C Belmonte Bravo Skyvell|
+C|513143|41|K|Eva Sepsei|
+C|513967|64|M|Rod Mundenius|
+C|513968|25|M|Niklas Nyström|
+C|515114|50|M|Tom Olandersson|
+C|515607|30|M|Dan Rasmusson|
+C|301063|55|M|Ivan Todorov|
+C|294485|49|K|Annika Lande|Socialpedagog,Olofström
+C|301065|30|M|Timmy Sulasalmi|
+C|301066|77|M|Karl Jonsson|
+C|301067|71|M|Johnny Isaksson|
+C|301068|73|M|Rolf Gustavsson|
+C|301069|61|K|Anna Karlsson Mårtensson|
+C|301070|63|M|Hannu Lahdenperä|
+C|301071|30|M|Levent Cankaya|

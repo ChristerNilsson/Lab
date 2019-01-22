@@ -1,12 +1,241 @@
-2|188793|337630|188791|188796|337633|139668|337635|139670|337637|337638|337639|338932|338933|338934|188800|338936|188799|188790|188798|338940|338941|338942|338943|338944|338945|338946|338947|188797|339503|339504|188802|339506|339507|339508|339509|188803|339511|339512|339513|188801|339515|339516|339517|339518|188805|188806|339521|339522|339523
-4|179752|8522|179753|179763|192464|192465|192466|192467|192468|192469|192470|192471|192472|192473|192474|192475|192476|192477|192478|179760|192480|192481|192482|192483
-1150|365285
-532|354499|354500|354501|354502|354503|354504|354505|354506
-68|453466|454734|454735
-3|66565|27771|27787|27773|27783|128234|338862|66559|128237|266315|66572|66573|66576|66577|66578|66579|339448
-55|113356|251729|251730|251731|251732|251733|251734|251735
-1|265958|265951|265952|265949|279499|279500|265950|279502|279503|265953|265960|265962|265957|265955|279509|265959|265954|279512|279513|265956|265961|279516|279517|279518|279519|279520|279521|279522|279523|279524|279525|279526|22945
-183|451308|451309|451379|451380|451381|451382|451383|451384|451385|451386|451387|451388|451389|451390|451391|451392|451393|451394|451395|451396
-110|34237|34238|34240|34241|34242|34243|34244|34245|34246|34247|34248|34250|34251|34252|34341|34342|34343|34344|34345|34346|34347|34348|34349|34350|34351|34352
-1341|456429|456430|456431|456599|456432|456433|456434|456435|456436|456437|456438|456439|456440|456441|456442|456443
-5|294495|294484|296897|302675|296888|294488|296892|302679|302680|302681|302682|302683|302684|302685
+T|Ronneby
+A|2|188793|337630|188791|188796|337633|139668|337635|139670|337637|337638|337639|338932|338933|338934|188800|338936|188799|188790|188798|338940|338941|338942|338943|338944|338945|338946|338947|188797|339503|339504|188802|339506|339507|339508|339509|188803|339511|339512|339513|188801|339515|339516|339517|339518|188805|188806|339521|339522|339523
+A|4|179752|8522|179753|179763|192464|192465|192466|192467|192468|192469|192470|192471|192472|192473|192474|192475|192476|192477|192478|179760|192480|192481|192482|192483
+A|1150|365285
+A|532|354499|354500|354501|354502|354503|354504|354505|354506
+A|68|453466|454734|454735
+A|3|66565|27771|27787|27773|27783|128234|338862|66559|128237|266315|66572|66573|66576|66577|66578|66579|339448
+A|55|113356|251729|251730|251731|251732|251733|251734|251735
+A|1|265958|265951|265952|265949|279499|279500|265950|279502|279503|265953|265960|265962|265957|265955|279509|265959|265954|279512|279513|265956|265961|279516|279517|279518|279519|279520|279521|279522|279523|279524|279525|279526|22945
+A|183|451308|451309|451379|451380|451381|451382|451383|451384|451385|451386|451387|451388|451389|451390|451391|451392|451393|451394|451395|451396
+A|110|34237|34238|34240|34241|34242|34243|34244|34245|34246|34247|34248|34250|34251|34252|34341|34342|34343|34344|34345|34346|34347|34348|34349|34350|34351|34352
+A|1341|456429|456430|456431|456599|456432|456433|456435|456437|456438|456440|456441|456442|456443
+A|5|294495|294484|296897|302675|296888|294488|296892|302679|302680|302681|302682|302683|302684|302685
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|183|ROP|Ronnebypartiet
+B|110|SD|Sverigedemokraterna
+B|1341|ViV|Vi i Verkligheten Ronneby (ViV)
+B|5|V|Vänsterpartiet
+C|188793|50|M|Magnus Pettersson|Ronneby Ombudsman 50 år
+C|337630|51|K|Malin Månsson|Ronneby 51 år
+C|188791|52|M|Tommy Andersson|Kallinge 52 år
+C|188796|33|K|Amani El-Ali Mazloum|Ronneby 33 år
+C|337633|67|M|Bo Johansson|Ronneby Metallarbetare 67 år
+C|139668|53|K|Annette Rydell|Eringsboda Metallarbetare 53 år
+C|337635|26|M|Ola Robertsson|Ronneby 26 år
+C|139670|48|K|Catharina Christensson|Bräkne Hoby Lärare 48 år
+C|337637|66|M|Jan-Eric Wildros|Aspan 66 år
+C|337638|40|K|Jessica Jönsson|Johnnishus Industriarbetare 40 år
+C|337639|58|M|Stefan Österhof|Belganet Systemutvecklare 58 år
+C|338932|72|K|Ingrid Karlsson|Listerby 72 år
+C|338933|53|M|Kranislav Miletic|Kallinge Kvalitetstekniker 53 år
+C|338934|45|K|Anna-Karin Wallgren|Ronneby Biomed. analytiker 45 år
+C|188800|38|M|Pär Dover|Ronneby Statistiker 38 år
+C|338936|55|K|Monika Lindqvist|Bräkne-Hoby Handläggare 55 år
+C|188799|62|M|Thomas Svensson|Kallinge Fabriksarbetare 62 år
+C|188790|67|K|Agnetha Wildros|Aspan Pensionär 67 år
+C|188798|53|M|Magnus Johannesson|Ronneby Inköpare 53 år
+C|338940|39|K|Sanela Kazma|Kallinge 39 år
+C|338941|70|M|Thommy Persson|Ronneby 70 år
+C|338942|67|K|Ann-Margret Olofsson|Ronneby Språklärare 67 år
+C|338943|38|M|Magnus Björk|Ronneby Musiklärare 38 år
+C|338944|51|K|Marie Olsson|Kallinge Gymnasielärare 51 år
+C|338945|69|M|Nils Nilsson|Korsanäs 69 år
+C|338946|21|K|Julia Rydell Erdensjö|Ronneby Studerande 21 år
+C|338947|31|M|Jonas Petersson|Johannishus 31 år
+C|188797|67|M|Rune Kronkvist|Bräkne Hoby 67 år
+C|339503|19|K|Linn Johannesson|Saxemara 19 år
+C|339504|38|M|Martin Johansson|Kallinge 38 år
+C|188802|64|M|Håkan Robertsson|Risatorp 64 år
+C|339506|31|K|Tina Lindqvist|Ronneby Servicepersonal 31 år
+C|339507|61|M|Lars Andersson|Ronneby Industriarbetare 61 år
+C|339508|57|M|Mats Karlsson|Ronneby Skribent 57 år
+C|339509|70|K|Kristina Rydén|Ronneby Pensionär 70 år
+C|188803|34|M|Dmitri Soukhov|Kallinge 34 år
+C|339511|66|M|Sven-Olov Lindström|Ronneby 66 år
+C|339512|70|M|Christer Åkesson|Kallinge Pensionär 70 år
+C|339513|65|M|Ulrik Lindqvist|Bräkne-Hoby 65 år
+C|188801|30|K|Sanna Rydell|Ronneby 30 år
+C|339515|56|M|Jan Petersson|Ronneby Processoperatör 56 år
+C|339516|44|M|Mikael Mårtensson|Ronneby 44 år
+C|339517|50|K|Charlotte Karlberg|Ronneby Sjukhuskurator 50 år
+C|339518|50|M|Henrik Nielsen|Ronneby Metallarbetare 50 år
+C|188805|67|M|Johnny Håkansson|Kallinge Metallarbetare 67 år
+C|188806|42|M|Martin Moberg|Ronneby 42 år
+C|339521|75|M|Bengt-Christer Nilsson|Ronneby Pensionär 75 år
+C|339522|24|K|Maria Månsson|Ronneby 24 år
+C|339523|67|M|Tommy Arvidsson|Kallinge 67 år
+C|179752|55|M|Kenneth Michaelsson|55 år ingenjör Ronneby
+C|8522|32|M|Tim Svanberg|32 år, Gymnasielärare, Ronneby
+C|179753|53|K|Hillevi Andersson|53 år elingenjör Tararp Bräkne Hoby
+C|179763|45|K|Silke Jacob|45 år frisör Hallabro
+C|192464|59|K|Eva-Britt Brunsmo|projektledare Räntemåla
+C|192465|43|M|Magnus Gustafsson|biträdande rektor Eringsboda
+C|192466|62|K|Kerstin Haraldsson|vårdare Siggamåla
+C|192467|66|M|Anders Petersson|lantbrukare Hattatorp
+C|192468|19|M|Jonatan Glader|studerande Ronneby
+C|192469|72|K|Kristina Valtersson|f.d. lärare Ronneby
+C|192470|60|K|Susanne Petersson|assistent Kallinge
+C|192471|72|M|Bengt Holm|lantbrukare Vermansmåla
+C|192472|53|K|Eva Johansson|undersköterska Vermansmåla
+C|192473|65|K|Ann-Catrin Carlsson|pensionär Makrilla
+C|192474|52|M|Jens Bengtsson|entreprenör, maskinsäljare Leråkra
+C|192475|73|M|Gilbert Nilsson|pensionär Ronneby
+C|192476|72|K|Ann-Charlotte Johansson|ekonom Svalhult
+C|192477|39|M|Kevin Lill|koordinator Ronneby
+C|192478|59|K|Monica Fredriksson|redovisningsassistent Oxlaby
+C|179760|33|M|Yannick Luomala|33 år yrkeslärare Ettebro
+C|192480|67|M|Krister Holmqvist|begravningsentreprenör Ronneby
+C|192481|57|M|Bo Carlsson|egenföretagare Räntemåla
+C|192482|71|M|Thomas Håkansson|pensionär Dönhult
+C|192483|74|M|Knut Svensson|lantbrukare Norra Bygget
+C|365285|55|M|Dipen Purohit|
+C|354499|31|K|Ella Selmani|31 år, hudterapeut, Ronneby
+C|354500|53|K|Annika Nordström|53 år, stödpedagog/undersköterska, Ronneby
+C|354501|69|K|Isabell Larsson|69 år pensionär
+C|354502|32|K|Anna Andersson|32 år lärare
+C|354503|48|K|Hanadi Shannar|48 år lärarassistent
+C|354504|54|K|Eva Brink|54 år
+C|354505|37|M|Edvin Rahmanovic|37 år lärare
+C|354506|26|K|Sofie Andersson|26 år fotograf
+C|453466|71|M|Willy Persson|Ronneby
+C|454734|53|M|Daniel Nilsson|Ronneby
+C|454735|75|K|Lisbeth Beselin|Pensionerad lärare, Bräkne-Hoby
+C|66565|67|M|Nils-Ingmar Thorell|Gruppledare 67år Ronneby
+C|27771|44|M|Roger Gardell|Politiker 44år Ronneby
+C|27787|50|K|Lena Mahrle|Assisterande Psykolog 50år Ronneby
+C|27773|41|M|Jesper Rehn|IKT-Pedagog 42år Ronneby
+C|27783|20|K|Ella Lundgren|20år Ronneby
+C|128234|62|M|Lennart Gustavsson|Reservofficer Flottan 63år Ronneby
+C|338862|53|M|Christian Mahrle|Företagare 53år Ronneby
+C|66559|69|K|Ylva Särnmark|69år Ronneby
+C|128237|80|K|Laila Andersson|80år Ronneby
+C|266315|70|M|Bengt Callinggård|70år Ronneby
+C|66572|51|M|Thomas Svensson|Beredare 51år Ronneby
+C|66573|20|K|Amanda Pihl|20år Ronneby
+C|66576|51|M|Joakim Jonasson|51år Ronneby
+C|66577|38|M|Joel Norgren|38år Ronneby
+C|66578|46|M|Lars-Olof Wretling|Officer 46år Ronneby
+C|66579|74|K|Kerstin Johansson|74år Ronneby
+C|339448|74|M|Gert-Erik Gerdtsson|74år Ronneby
+C|113356|31|K|Lova Necksten|31, it-utvecklare, Ronneby
+C|251729|73|K|Sylvia Edwinsson|Pensionär,Eringsboda
+C|251730|32|M|Mahmoud Ahmed|El-tekniker,Kallinge
+C|251731|71|M|Thomas Lähdet|Kulturarbetare, Ronneby
+C|251732|83|M|Nils-Erik Mattsson|Exergi-tekniker, Ronneby
+C|251733|58|M|Mikael Carlén|Begravningsrådgivare,Ronneby
+C|251734|66|M|Sven-Åke Carlén|F.d.arkeolog,Ronneby
+C|251735|44|K|Mia Persson|Specialpedagog/lärare,Johannishus
+C|265958|46|M|Roger Fredriksson|46, kommunalråd, Hallabro
+C|265951|54|K|Åsa Evaldsson|54, operationssjuksköterska, Ronneby
+C|265952|59|M|Anders Bromée|59, revisor, Bräkne-Hoby
+C|265949|58|M|Lennarth Förberg|58, marknadsekonom, Listerby
+C|279499|30|K|Kajsa Svensson|30, undersköterska/behandlare, Ronneby
+C|279500|72|K|Helene Fogelberg|72, adjunkt, Ronneby
+C|265950|40|M|Anders Lund|40, egen företagare, Hallabro
+C|279502|35|K|Therese Åberg|35, systemförvaltare, Listerby
+C|279503|67|M|Christer Stenström|67, busschaufför, Ronneby
+C|265953|50|M|Magnus Persson|50, projektledare, Ronneby
+C|265960|55|M|Johan Sandberg|55, tjänsteman, Ronneby
+C|265962|46|M|Fredrik Jacobsen|46, biträdande driftschef, Kallinge
+C|265957|28|M|Rickard Evaldsson|28, processoperatör, Ronneby
+C|265955|57|M|Johannes Chen|57, tågvärd, Ronneby
+C|279509|75|K|Birgitta Lagerlund|75, pensionär, Listerby
+C|265959|65|M|Lars Sager|65, pensionerad yrkesofficer, Listerby
+C|265954|72|K|Lena Karstensson|72, fd gymnasielärare, Väbynäs
+C|279512|64|M|Kenth Carlsson|64, representant, Ronneby
+C|279513|64|K|Ingrid Carlsson|64, Ronneby
+C|265956|48|M|Patrik Jacobsen|48, egen företagare, Johannishus
+C|265961|39|M|Martin Engelsjö|39, egen företagare, Bräkne-Hoby
+C|279516|78|M|Kjell Gg Johansson|78, fd polismästare, Bräkne-Hoby
+C|279517|61|K|Lena Israelsson|61, Ronneby
+C|279518|41|M|Tony Mattisson|41, Backaryd
+C|279519|71|M|Curt Piculell|71, tandläkare, Ronneby
+C|279520|69|M|Ronny Johansson|69, projektledare, Ronneby
+C|279521|45|M|Lars Hanson|45, lärare, Ronneby
+C|279522|42|K|Jennie Risberg|42, fritidspedagog, Bräkne-Hoby
+C|279523|68|M|Jan Demerud|68, civilekonom, Ronneby
+C|279524|19|K|Aleksandra Crnoglavac|19, studerande, Kallinge
+C|279525|71|M|Kjell Olsson|71, egen företagare, Ronneby
+C|279526|36|M|Fredrik Hansson|36, sjöofficer, Ronneby
+C|22945|52|K|Maria Kvarnheden|52, Handläggare
+C|451308|44|K|Anna Carlbrant|Verksamhetskoordinator
+C|451309|67|M|Rolf Loberg|Kock
+C|451379|66|K|Birgitta Larsson|Intervjuare
+C|451380|71|K|Monia Svensson|Saxemara
+C|451381|73|M|Sune Håkansson|Nationalekonom
+C|451382|55|M|Per Lindell|Företagare
+C|451383|59|M|Håkan Sandberg|Projektledare
+C|451384|68|M|Peter Lindström|68 år, Eringsboda
+C|451385|40|M|Stefan Jönsson|40 år, LSS-undersköterska, Ronneby
+C|451386|20|K|Alicia Carlbrant|20 år, Fotbollsspelare
+C|451387|76|M|Olle Olsson|Bankdirektör
+C|451388|39|M|Ola Svensson|39 år, Elevstödjare
+C|451389|76|M|Lars Svensson|Ekonomie doktor
+C|451390|63|K|Gunilla Svensson|62 år, Folkhögskolelärare, Bräkne-Hoby
+C|451391|73|K|Ulla Bergström|Pensionär, Fällö/Kuggeboda
+C|451392|66|M|Berth-Anders Svensson|66 år, Bräkne-Hoby
+C|451393|80|M|Lars Andréason|Organisationskonsult
+C|451394|72|M|Birger Trellman|F d lantbrukare
+C|451395|70|M|Gunnar Cornelius|Konsult
+C|451396|56|M|Per Ericsson|Redovisningsekonom
+C|34237|54|M|Nicolas Westrup|Chef, Ronneby
+C|34238|61|M|Bengt Johansson|F.d. yrkesfiskare, Ronneby
+C|34240|57|K|Gina Hellberg Johansson|57, Ronneby
+C|34241|37|K|Sandra Bergkvist|Säkerhetschef, Ronneby
+C|34242|54|M|Bengt Johansson|54, Ronneby
+C|34243|51|M|Tim Aulin|50, Ronneby
+C|34244|65|M|Tomas Lund|65, Kallinge
+C|34245|40|M|Mattias Ronnestad|41, Ronneby
+C|34246|56|K|Carina Aulin|54, Ronneby
+C|34247|65|M|Anders Oddsheden|65, Ronneby
+C|34248|65|K|Haide Friberg|64, Ronneby
+C|34250|62|K|Yvonne Olsson|62, Ronneby
+C|34251|53|M|Johan Grönblad|52, Kallinge
+C|34252|54|M|Tony Holgersson|53, Ronneby
+C|34341|22|M|Jesper Grönblad|22, Kallinge
+C|34342|36|K|Sara Jansson|Undersköterska, 36 år
+C|34343|41|M|Peter Jansson|40, Ronneby
+C|34344|46|M|Sten-Albert Olsson|46, Bräkne-Hoby
+C|34345|47|K|Marita Pöllänen|47, Bräkne-Hoby
+C|34346|48|M|Joakim Franzén|47, Bräkne-Hoby
+C|34347|58|K|Irene Norberg|57, Ronneby
+C|34348|53|M|Christian Ivarsson|53, Bräkne-Hoby
+C|34349|66|K|Ulla Bölja|Barnskötare 66 år
+C|34350|67|M|Rolf Magnusson|66, Johannishus
+C|34351|42|M|Peter Svensson|41, Kallinge
+C|34352|31|M|Martin Andreasson|31, Kallinge
+C|456429|66|M|Tomas Lundberg|Företagare, fd gymnasielärare
+C|456430|55|M|Anders Sjöholm|Snickerifabrikör
+C|456431|46|M|Tom M Kokkola|Snickare
+C|456599|44|M|Pierre Holmberg|Skogsarbetare
+C|456432|19|M|Fahed Tammour|Studerande
+C|456433|21|K|Elin Persson|Studerande
+C|456435|44|M|Daniel Håkansson|Golvläggare
+C|456437|28|M|Rickard Sterner|Vaktmästare
+C|456438|54|M|Joacim Söderström|Stenarbetare
+C|456440|42|K|Jeeda Radwan|Studerande
+C|456441|73|K|Birgitta Svensson|Lokalvårdare/Pensionär
+C|456442|69|K|Inger Olsson|Tandsköterska/Pensionär
+C|456443|41|M|Marcelo Aguilar Nunez|Masse, Bilmekaniker
+C|294495|62|M|Peter Bowin|Lärare,Ettebro
+C|294484|41|M|Erik Ohlson|Ronneby
+C|296897|68|K|Lena Rosén|Ronneby
+C|302675|56|M|Omid Hassib|Kallinge
+C|296888|60|K|Ally Karlsson|Hallabro
+C|294488|49|M|Mohammed Teeti|Förskollärare,Kallinge
+C|296892|81|K|Judith Skörsemo|Bräkne-Hoby
+C|302679|66|M|Ronny Pettersson|Ronneby
+C|302680|49|K|Susanne Sjöberg|Ronneby
+C|302681|62|M|Franz Pyka|Ronneby
+C|302682|64|K|Angela Leyton|Kallinge
+C|302683|66|M|Kent Svensson|Ronneby
+C|302684|50|K|Fräs Kajsa Danielsson|Ronneby
+C|302685|63|M|Per Bengtsson|Kallinge

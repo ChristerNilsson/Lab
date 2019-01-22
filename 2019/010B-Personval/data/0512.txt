@@ -1,7 +1,77 @@
-2|23335|23339|23340|23341|23342|23343|23344|23345|23346|23347|23348|23349|23350
-4|76068|76069|76070|76071|76072|76073|76074|76075|76076|76077|76078|76079|76080|12036|76082|76083
-68|251039|251040|251041|251042|251043|251044|251045
-55|419239|419240|419241
-1|3337|25849|25852|25850|53536|25848|53538|53539|53540|53541|25851|25853|53544
-110|109642
-5|505854|505855|505856|505857|505858|505859|505860|505861|505862
+T|Ydre
+A|2|23335|23339|23340|23341|23342|23343|23344|23345|23346|23347|23348|23349|23350
+A|4|76068|76069|76070|76071|76072|76073|76074|76075|76076|76077|76078|76079|76080|12036|76082|76083
+A|68|251039|251040|251041|251042|251043|251044|251045
+A|55|419239|419240|419241
+A|1|3337|25849|25852|25850|53536|25848|53538|53539|53540|53541|25851|25853|53544
+A|110|109642
+A|5|505854|505855|505856|505857|505858|505859|505860|505861|505862
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|23335|54|K|Anna-Lena Svensson|54 år, biträdande förskolechef, Ydre
+C|23339|48|M|Jonas Fingalsson|industriarbetare, 48 år
+C|23340|58|K|Gunilla Armsköld|undersköterska inom psykiatrin, 58 år
+C|23341|68|M|Willy Ahlberg|pensionär, 68 år
+C|23342|60|M|Lars-Göran Svensson|platschef, 60 år
+C|23343|54|K|Ann-Charlotte Svennberg|integrationspedagog, 54 år
+C|23344|51|M|Fredrik Asp|formpressare, 51 år
+C|23345|61|M|Leif Johansson|industriarbetare, 61 år
+C|23346|39|K|Therese F Svanberg|undersköterska inom psykiatrin, 39 år
+C|23347|45|M|Robert Rydberg|kock, 45 år
+C|23348|53|K|Tina Strandh|fru, 53 år
+C|23349|43|M|Joakim Gustavsson|betongarbetare, 43 år
+C|23350|60|M|Lennart Hjalmarsson|verkstadschef, 60 år
+C|76068|67|M|Sven-Inge Karlsson|Kommunalråd
+C|76069|48|K|Nina Vissing|Redovisningskonsult
+C|76070|58|M|Anders Andersson|Landsbygdsföretagare
+C|76071|62|K|Astrid Rydberg|Kock
+C|76072|58|K|Lena Gunnarsson|Egen företagare
+C|76073|66|M|Gunnar Emanuelsson|Ingenjör
+C|76074|52|M|Åke Svahn|Egen företagare
+C|76075|28|M|Wilhelm Ydrestål|Egen företagare
+C|76076|59|K|Elisabet Hagström|Sjuksköterska
+C|76077|70|M|Anders Gunnar|Pensionär
+C|76078|19|K|Karolin Andersson|Studerande
+C|76079|55|M|Per Segersson|Lantbrukare
+C|76080|72|M|Bengt Adelsköld|Fastighetskonsult
+C|12036|70|K|Inga Arnell Lindgren|70 år, Distriktssköterska, Ydre
+C|76082|51|M|Jörgen Martinsson|Säljare
+C|76083|41|M|Jonas Cleveson|Lantbrukare/Egen företagare
+C|251039|41|K|Linda Masman|Undersköterska, Österbymo
+C|251040|55|M|Peter Gustavsson|Ekonomiassistent, Ydre
+C|251041|38|K|Jenny-Sofia Gustafsson|Sjuksköterskestuderande, Österbymo
+C|251042|82|M|Bengt Malm|Fil. lic, Ydre
+C|251043|80|K|Barbro Malm|Lågstadielärare, Ydre
+C|251044|53|M|Karl-Erik Hagström|Bussentreprenör, Hestra
+C|251045|55|M|Johan Fälth|Lantbruksentreprenör,Ydre
+C|419239|38|M|René Mraule|38, snickare & sågverksarbetare, Rydsnäs
+C|419240|51|K|Åsa Scharff|51, gymnasielärare & journalist, Hestra
+C|419241|43|M|Martin Dreber|43, agronom, Ydre
+C|3337|40|M|Henrik Isacsson|Kommunalråd, 40 år, Ydre
+C|25849|23|M|Simon Spaak|Säljare/Ekonom, 23 år
+C|25852|54|M|Peter Bergquist|Företagare, 54 år
+C|25850|38|K|Camilla Kall Gunnarsson|Företagare, 38 år
+C|53536|74|M|Christer Wiström|Pensionär, 74 år
+C|25848|52|K|Louise Bergquist|Företagare, 52 år
+C|53538|44|M|Klas Pettersson|Entreprenör, 44 år
+C|53539|38|K|Nathalie Nilsson|HR-konsult, 38 år
+C|53540|28|M|Jakob Winblad|Robotoperatör, 28 år
+C|53541|70|M|Karl-Gunnar Palmgren|Pensionär/fd lantbrukare, 70 år
+C|25851|27|M|Jakob Ydrén|Skogsmästare, 27 år
+C|25853|77|M|Bengt-Göran Gustafsson|Pensionär, 77 år
+C|53544|26|K|Nathalie Höglund|Undersköterska, 26 år
+C|109642|80|M|Claes Norrby|
+C|505854|65|M|Olle Forsell|65,Småföretagare
+C|505855|43|M|Kalle Hildebrand|43, It-arkitekt
+C|505856|57|K|Gunilla Berg|undersköterska
+C|505857|45|M|Albin Ydrefelt|Sjuksköterska
+C|505858|59|K|Barbro Hermansson Lindvall|59, Lärare
+C|505859|54|M|Charlie Åström|54, Kulturarbetare
+C|505860|59|K|Hedy Hoogkamer|59, Hemtjänst
+C|505861|63|M|Peter Wallin|63, Gårdskarl
+C|505862|52|K|Kristina Svanberg|52, Sjuksköterska

@@ -1,9 +1,151 @@
-2|193454|199222|199223|199224|199225|199226|199227|199228|199229|199230|199231|199232|199233|199234|199235|193437|199237|199238|199239|199240|199241|199242|199243|199244|199245
-4|48789|49279|49263|48787|49265|56592|56593|56594|56595|56596|56597|56598|49275|56600|56601|56602|56603|56605|56606|56607|56608|56609|56610|56611|56612
-1280|408895|408896|408897|408898|408899|408900|408901|408902|408903|408904|408905|408906|408907|408908|408909|408910|408911|408912|408913|408914|408915
-68|5837|48362|48363|48364|48365|48366|48367|48368|48369|48370|48371|48372
-3|60880|60859|60885|111847|111848|111849|111850|111851|111852|111853|111854|111855|111856|111857|111858|111859|111860|111861|111862|111863
-1|228822|7793|228824|228825|228826|228827|228828|228829|228830|228831|228832|228833|228834|228835|228836
-1378|513451
-110|74274|74275|74276|74277|74278
-5|360845|392040|392041|392042|392043|392044|360831|392046
+T|Nordmaling
+A|2|193454|199222|199223|199224|199225|199226|199227|199228|199229|199230|199231|199232|199233|199234|199235|193437|199237|199238|199239|199240|199241|199242|199243|199244|199245
+A|4|48789|49279|49263|48787|49265|56592|56593|56594|56595|56596|56597|56598|49275|56600|56601|56602|56603|56605|56606|56607|56608|56609|56610|56611|56612
+A|1280|408895|408896|408897|408898|408899|408900|408901|408902|408903|408904|408905|408906|408907|408908|408909|408910|408911|408912|408913|408914|408915
+A|68|5837|48362|48363|48364|48365|48366|48367|48368|48369|48370|48371|48372
+A|3|60880|60859|60885|111847|111848|111849|111850|111851|111852|111853|111854|111855|111856|111857|111858|111859|111860|111861|111862|111863
+A|1|228822|7793|228824|228825|228826|228827|228828|228829|228830|228831|228832|228833|228834|228835|228836
+A|1378|513451
+A|110|74274|74275|74276|74277|74278
+A|5|360845|392040|392041|392042|392043|392044|360831|392046
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1280|FD|Fria Demokraterna
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|1378||Norrlandspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|193454|54|M|Billy Moström|54 år, Ombudsman, Nordmaling
+C|199222|66|K|Grethel Broman|Lögdeå
+C|199223|61|M|Allan Hultgren|Nordmaling
+C|199224|65|K|Gerd Lindgren|Håknäs
+C|199225|34|M|Stefan Gustafsson|Olofsfors
+C|199226|33|K|Carin Ahlfeldt|Nordmaling
+C|199227|44|M|Björn Forsberg|Rundvik
+C|199228|40|K|Luciana Oskarsson|Nordmaling
+C|199229|56|M|Anders Olsson|Nordmaling
+C|199230|73|K|Birgit Johansson|Håknäs
+C|199231|52|M|Anders Magnusson|Levar
+C|199232|29|K|Marry Grace Forsberg|Rundvik
+C|199233|37|M|Inge Ahlfeldt|Nordmaling
+C|199234|42|K|Camilla Frostehag|Rundvik
+C|199235|74|M|Hardy Eriksson|Rundvik
+C|193437|73|K|Margareta Gustavsson|73 år, Pensionär, Rundvik
+C|199237|70|M|Kent Fällström|Olofsfors
+C|199238|73|K|Gunnel Sundqvist|Rundvik
+C|199239|65|M|Sören Hansson|Nordmaling
+C|199240|61|M|Rolf Olofsson|Nordmaling
+C|199241|62|M|Björn Johansson|Hörnsjö
+C|199242|56|M|Lars-Erik Edlund|Mo
+C|199243|70|M|Stig Öhgren|Nyåker
+C|199244|70|M|Karl Gunnar Forsberg|Rundvik
+C|199245|77|M|Sverre Fredriksson|Rundvik
+C|48789|40|K|Madelaine Jakobsson|40 år, Kommunalråd, Mullsjö, Nordmaling
+C|49279|24|M|Alexander Landby Johansson|24 år, Arbetsledare IT, Lögdeå, Nordmaling
+C|49263|63|K|Kerstin Sjöström|63 år, Distriktssköterska, Brattsbacka, Nordmaling
+C|48787|72|M|Ingemar Sandström|72 år, Konsult, Rundvik, Nordmaling
+C|49265|54|K|Ann-Kristin Strandman|54 år, Elevassistent, Torrböle, Nordmaling
+C|56592|71|K|Inger Sellgren|71 år, Ekonom, Nordmaling
+C|56593|32|M|Staffan Svanberg|32 år, Naturmiljökonsult, Nordmaling
+C|56594|44|M|Tomas Sandström|44 år, Snickare/golvläggare, Hörnsjö
+C|56595|52|M|Anders Jonsson|52 år, Snickare/va-arbetare, Aspeå
+C|56596|40|M|Staffan Nyblom|40 år, Industriarbetare, Mullsjö
+C|56597|44|M|Ulf Johansson|44 år, IT-chef, Nordmaling
+C|56598|18|K|Julina Nordberg|18 år, Studerande, Olofsfors
+C|49275|73|M|Gunnar Hörnlund|73 år, fd Kommunalråd, Hörnsjö, Nordmaling
+C|56600|60|M|Matz Johansson|60 år, Enhetschef, Djupsjö
+C|56601|46|K|Petronella Johansson|46 år, Undersköterska, Lögdeå
+C|56602|58|M|Torbjörn Nygren|58 år, Egenföretagare, Nyåker
+C|56603|61|M|Jerry Agestedt|61 år, Snickare, Bjärten
+C|56605|59|M|Kent-Olov Olsson|59 år, Jordbrukare, Nordsjö
+C|56606|75|M|Torsten Palbom|75 år, Pensionär, Gräsmyr
+C|56607|63|K|Randi Lindström|63 år, Administrativ chef, Brattsbacka
+C|56608|77|K|Gunila Lundström|77 år, Ekonomikonsult, Nordmaling
+C|56609|34|K|Maria Nyblom|34 år, Förskollärare, Mullsjö
+C|56610|69|M|Anders Lundberg|69 år, Pensionerad polis, Mjösjö
+C|56611|69|M|Arne Öberg|69 år, Pensionär, Långed
+C|56612|72|M|Svante Fritiofsson|72 år, Pensionär, Torrböle
+C|408895|52|K|Monica Jonsson|Gräsmyr
+C|408896|70|K|Eleanor Bodel|Nordmaling
+C|408897|69|M|Tomas Johansson|Nordmaling
+C|408898|72|M|Lars Gustafsson|Nordmaling
+C|408899|64|K|Carine Ahlfeldt|Nordmaling
+C|408900|62|K|Ingegerd Jacobsson|Nordmaling
+C|408901|72|M|Lars-Olof Lindberg|Rundvik
+C|408902|25|M|Morteza Rezai|Nordmaling
+C|408903|69|K|Inger Israelsson|Rundvik
+C|408904|46|K|Maria Persson|Nordmaling
+C|408905|68|M|Anders Wallin|Bredvik
+C|408906|68|M|Gunnar Karlsson|Nordmaling
+C|408907|44|K|Anna Ahlfeldt|Nordmaling
+C|408908|76|K|Birgitta Lundberg|Nordmaling
+C|408909|69|M|Ulf Andersson|Håknäs
+C|408910|70|M|Christer Holm|Nordmaling
+C|408911|82|M|Sven Jonsson|Nordmaling
+C|408912|77|M|Ove Häggström|Nordmaling
+C|408913|30|M|Jimmy Solander|Gräsmyr
+C|408914|54|M|David Fridh|Gräsmyr
+C|408915|70|M|Anders Gustafsson|Nordmaling
+C|5837|40|K|Anna-Karin Lundberg|lantbrukare, Nordmaling
+C|48362|79|M|Börje Nilsson|fd sågverksarbetare, Rundvik
+C|48363|40|M|Joachim Andersson|barnskötare, Lögdeå
+C|48364|48|M|Patrik Öberg|husdemontör, Rundvik
+C|48365|63|K|Karin Gustafsson|kantor, Nyåker
+C|48366|27|K|Olive Wasebu|undersköterska, Nordmaling
+C|48367|62|K|Ulla-Stina Forsberg|familjehemsförälder, Mo
+C|48368|20|K|Julia Lindström|barnskötare, Västansjö
+C|48369|48|K|Eva-Lena Wrethén|sjuksköterska, Nordmaling
+C|48370|19|K|Olivia Lindström|hårfrisörska, Västansjö
+C|48371|79|M|Max Wiktorsson|fd busschaufför, Norrfors
+C|48372|80|M|Nils Lindström|fd lantbrukare, Norrfors
+C|60880|40|M|Jörgen Forsgren|Nordmaling
+C|60859|62|K|Maria Lundqvist Brömster|Håknäs
+C|60885|63|M|Bertil Karlsson|Nordmaling
+C|111847|77|K|Ulla Rosenberg-Helmersson|Hörnsjö
+C|111848|60|M|Östen Strömberg|Gräsmyr
+C|111849|74|K|Ingrid-Maria Jakobsson|Gräsmyr
+C|111850|39|M|Peter Karlsson|Nordmaling
+C|111851|48|K|Anna-Karin Sjöström|Hörnsjö
+C|111852|67|M|Lars Berglund|Ava
+C|111853|41|K|Lisa Söderstedt|Håknäs
+C|111854|68|K|Aina Norberg|Norrfors
+C|111855|73|M|Christer Bäckman|Gräsmyr
+C|111856|72|K|Kerstin Hörnqvist|Nordmaling
+C|111857|51|M|Åke Bergkvist|Hörnsjö
+C|111858|72|K|Christina Eriksson|Levar
+C|111859|32|K|Najibe Attaie|Nordmaling
+C|111860|51|M|Ulf Karlsén|Nordmaling
+C|111861|52|K|Lena Lindgren|Gräsmyr
+C|111862|68|K|Agneta Berggren|Norrfors
+C|111863|69|M|Dan Brömster|Håknäs
+C|228822|66|K|Chatarina Gustafsson|66, socionom, Rundvik
+C|7793|62|M|Jan Persson|62, civilingenjör, Nordmaling
+C|228824|67|M|Bertil Löweneke|67, pensionär, Nordmaling
+C|228825|59|K|Anna-Karin Nilsson|59, kemist, Nordmaling
+C|228826|69|K|Monica Samuelsson|69, VVS-ingengör, Nordmaling
+C|228827|76|K|Ingalill Jonsson|76, pensionär, Nordmaling
+C|228828|55|K|Agneta Gustafsson|55, administratör, Nordmaling
+C|228829|68|M|Malte Andersson|68, företagare, Drivan
+C|228830|77|M|Sture Sjölund|77, fd jordbrukare, Drivan
+C|228831|48|M|Erik Åström|48, maskinist, Håknäs
+C|228832|76|M|Göran Nilsson|76, fd länslantmätare, Mullsjö
+C|228833|67|K|Anne-Marie Löweneke|67, pensionär, Nordmaling
+C|228834|64|K|Yvonne Andersson|64, ekonomiansvarig, Drivan
+C|228835|70|M|Bo Sundqvist|70, pensionär, Öre
+C|228836|61|K|Gertrud Persson|61, butiksinnehavare, Mo
+C|513451|55|M|Ingvar Kvarnström|
+C|74274|43|M|Martin Jansson|43, sanitetstekniker
+C|74275|75|M|Gert Karlsson|Ingenjör, Nordmaling, 75
+C|74276|53|M|Mikael Larsson|52
+C|74277|67|M|Bo Bäck|66
+C|74278|53|M|Jonas Nordin|53, nationalekonom
+C|360845|24|M|Niklas Vestermark|24, student, Nordmaling
+C|392040|51|K|Anna-Britt Coe|
+C|392041|58|M|Per Lundberg|
+C|392042|64|M|Bengt Eriksson|
+C|392043|38|K|Marie Landström|
+C|392044|57|K|Eva Lundqvist|
+C|360831|64|K|LiseLotte Olsson|64, landstingsråd, Lögdeå
+C|392046|65|M|Hans-Erik Rasch|

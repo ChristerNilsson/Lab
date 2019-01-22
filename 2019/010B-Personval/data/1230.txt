@@ -1,9 +1,179 @@
-2|40111|28165|40119|40102|54558|54559|54560|54561|54562|40116|54564|54565|54566|54567|54568|54569|54570|54571|54572|54573|54574|54575|54576|54577|28156|54579|54580|54581|54582|54583|54584|54585|54586|54587|54588|54589|54590|54591|54592|54593|54594|54595|54596|54597
-4|79230|79231|79232|79233|79234|37081|79236|79237|79238|79239
-68|31684|31807|62925|31800|62927|62928|62929|62930|62931|62932
-3|38845|38856|55298|55299|55300|55301|55302|55303|55304|55305|38858|55307|55308|55309|55310
-55|21595|20776|113146|113147|113148|113149|113150|113151|113152|113153|113154
-1|60623|60624|60625|60626|60627|60628|60629|60630|60631|60632|60633|60634|60635|60636|60637|60638|60639|60640|60641|60642|60643|60644|60645|60646|60647|60648|60649|60650|60651|60652|60653|60654|60655|60656|60657|60658|60659|60660|60661|60662|60663|60664
-107|430841|430842|430843|430844|430845|430846|430847|430848
-110|112250|112251|112252|112253|112254|112255|112256|112257|112258|112259|112260|112261|112262|112263
-5|112323|112324|112325|112326|112327|112328
+T|Staffanstorp
+A|2|40111|28165|40119|40102|54558|54559|54560|54561|54562|40116|54564|54565|54566|54567|54568|54569|54570|54571|54572|54573|54574|54575|54576|54577|28156|54579|54580|54581|54582|54583|54584|54585|54586|54587|54588|54589|54590|54591|54592|54593|54594|54595|54596|54597
+A|4|79230|79231|79232|79233|79234|37081|79236|79237|79238|79239
+A|68|31684|31807|62925|31800|62927|62928|62929|62930|62931|62932
+A|3|38845|38856|55298|55299|55300|55301|55302|55303|55304|55305|38858|55307|55308|55309|55310
+A|55|21595|20776|113146|113147|113148|113149|113150|113151|113152|113153|113154
+A|1|60623|60624|60625|60626|60627|60628|60629|60630|60631|60632|60633|60634|60635|60636|60637|60638|60639|60640|60641|60642|60643|60644|60645|60646|60647|60648|60649|60650|60651|60652|60653|60654|60655|60656|60657|60658|60659|60660|60661|60662|60663|60664
+A|107|430841|430842|430843|430844|430845|430846|430847|430848
+A|110|112250|112251|112252|112253|112254|112255|112256|112257|112258|112259|112260|112261|112262|112263
+A|5|112323|112324|112325|112326|112327|112328
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|107|SPI|SPI Välfärden
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|40111|59|M|Pierre Sjöström|Kommunalråd, Staffanstorp
+C|28165|61|K|Laila Olsen|Kokerska, Staffanstorp
+C|40119|57|M|Torbjörn Lövendahl|Socionom, Staffanstorp
+C|40102|58|K|Carina Dilton|Undersköterska, Staffanstorp
+C|54558|49|M|Magnus Möller|Ombudsman
+C|54559|57|K|Pia Jönsson|Enhetschef
+C|54560|75|M|Björn Stigborg|f.d Polisinspektör
+C|54561|36|K|Petra Bergquist|Ombudsman
+C|54562|39|M|Rickard Severin|Lärare
+C|40116|59|K|Marie Saltarski|Fritidspedagog, Staffanstorp
+C|54564|52|M|Richard Frid|Egen Företagare
+C|54565|53|K|Hali Liddell|Kulturassistent
+C|54566|47|M|Magnus Lindberg|Försäkringstjänsteman
+C|54567|54|K|Line Weckström|Behandlingssamordnare
+C|54568|54|M|Håkan Kongshöj|Målare
+C|54569|66|K|Renée Stigborg|Undersköterska
+C|54570|19|M|Viktor Persson|Studerande
+C|54571|75|K|Agneta Nilsson|f.d Väktare
+C|54572|50|M|Stefan Hansson|Elmontör
+C|54573|71|K|Solveig Olsson|Administratör
+C|54574|75|M|Gert Sparr|Projektledare
+C|54575|43|K|Kristina Saunders|Enhetschef
+C|54576|59|M|Bengt Mårtensson|Restaurangbiträde
+C|54577|66|K|Ann-Christine Klint Kronkvist|Stödassistent
+C|28156|52|M|Rikard Larsson|Riksdagsledamot, Staffanstorp
+C|54579|71|K|Gerty Lindén|Revisor
+C|54580|79|M|Sten Lindahl|Elektriker
+C|54581|71|K|Elna Johansson|Läromedelsförfattare
+C|54582|76|M|Werner Unger|f.d Montör
+C|54583|77|K|Kerstin Olsson|Kokerska
+C|54584|81|M|Kjell Jönsson|Pensionär
+C|54585|67|K|Bodil Hansson|
+C|54586|79|M|Valter Johansson|f.d Arbetsförmedlingschef
+C|54587|78|K|Maja Andersson|Pensionär
+C|54588|68|M|Ingvar Karlsson|Systemutvecklare
+C|54589|79|K|Harriet Håkansson|f.d Vårdbiträde
+C|54590|24|M|Axel Stigborg|Meteorolog
+C|54591|57|K|Lena Sjöholm|Undersköterska
+C|54592|72|M|Kenneth Andersson|Pensionär
+C|54593|84|K|Ulla Fredriksson|Pensionär
+C|54594|75|M|Inge Svensson|f.d Chaufför
+C|54595|76|M|Lennart Berglund|Pensionär
+C|54596|74|M|Peter Lindén|Speditör
+C|54597|76|M|Jan Wallentin|Pensionär
+C|79230|73|K|Yvonne Nilsson|73, Ekonom, Borggård
+C|79231|39|M|Robert Wedmo|39, Miljökonsult, Orkesterbyn
+C|79232|33|K|Karolina Olsson|33, Egenföretagare, Grevie
+C|79233|36|M|Daniel Neving|36, Socionom, Grevie
+C|79234|61|K|Britt-Marie Jobacker|61, Utbildningsledare, Hjärup
+C|37081|56|M|Björn Larsson|Ingenjör, 56, Staffanstorp
+C|79236|53|M|Erik Rasmusson|53, Lantmästare, Lilla Mölleberga
+C|79237|72|M|Anders Olsson|72, Lantmästare, Knästorp
+C|79238|73|M|Lennart Svensson|73, Aukt.redovisningskonsult, Västanbyn
+C|79239|69|M|Kjell-Arne Olsson|69, Lantbrukare, Grevie
+C|31684|43|M|Magnus Lunderquist|43 år, Personalchef, Staffanstorp
+C|31807|31|K|Lisa Grängzell|31 år, Ingenjör, Staffanstorp
+C|62925|43|M|Joakim Borglin|43 år, Kökschef, Häradsbyn
+C|31800|31|M|Mattias Grängzell|31 år, Ombudsman, Staffanstorp
+C|62927|44|K|Jenny Hagberg|44 år, Socionom, Tingsbyn
+C|62928|70|M|Tord Gunnarsson|70 år, Civilingenjör, Hjärup
+C|62929|55|K|Annette Holm|55 år, Beteendevetare, Borggård
+C|62930|78|M|Tycho Andersson|78 år, fd Brandmästare, Författarebyn
+C|62931|55|M|Göran Holm|55 år, Projektledare, Borggård
+C|62932|78|M|Zoltan Pusztai|78 år, Ingenjör, Knutsborg
+C|38845|62|M|Björn Magnusson|Hjärup
+C|38856|48|K|Gisela Nilsson|Hjärup
+C|55298|36|M|Niklas Nettrup|Affärsområdeschef, 36 år
+C|55299|62|M|Clas Andersson|Turismanalytiker, 62 år
+C|55300|51|M|Mats Flankör|Affärsområdesansvarig, 51 år
+C|55301|45|M|Mattias Ericson|Projektledare, 45 år
+C|55302|42|K|Lotta Lundquist|Konsult, 42 år
+C|55303|47|M|Roger Karlsson|Säljare, 48 år
+C|55304|68|K|Annalena Asenov|Nämndssekreterare, 68 år
+C|55305|28|K|Tony Krizan|Tidningsbud, 28 år
+C|38858|45|K|Malin Flankör|Hjärup
+C|55307|24|K|Alice Andersson|Studerande, 24 år
+C|55308|50|M|Richard Nilsson|IT-arkitekt, 50 år
+C|55309|53|K|Liz Svensson|Projektledare, 53 år
+C|55310|64|K|Lisbeth Erlandsson|Ekonom, 64 år
+C|21595|44|M|David Wittlock|Marknadsföringskonsult, 44 år, Staffanstorp
+C|20776|37|K|Maria Zingmark|Kommunvägledare, 37 år, Staffanstorp
+C|113146|75|M|Bo Malmberg|Ingenjör
+C|113147|75|K|Cecilia Cavallin|Pedagog
+C|113148|44|M|Roger Zingmark|Kvalitetssäkrare
+C|113149|79|K|Maivi Strömberg|Speciallärare
+C|113150|77|M|Conny Strömberg|Marknadschef
+C|113151|39|K|Therese Wahlberg|Folkhälsopedagog
+C|113152|46|M|Johan Månsson Rosén|Arbetsmiljöingenjör
+C|113153|72|K|Majlis Malmberg|Förskollärare
+C|113154|78|M|Bo Israelsson|Ingenjör
+C|60623|38|M|Christian Sonesson|38 år, kommunalråd, Staffanstorp
+C|60624|49|M|Nino Vidovic|49 år, företagare
+C|60625|49|K|Margareta Pauli|49 år, gymnasielärare, Staffanstorp
+C|60626|43|K|Åsa Ekstrand|43 år, lärare, Staffanstorp
+C|60627|50|M|Eric Tabich|50 år, fil. mag. informatik
+C|60628|52|K|Liliana Lindström|52 år, projektledare
+C|60629|70|M|Hans Rochester|70 år, prost
+C|60630|42|K|Maria Hemåker Apell|42 år, verksamhetschef
+C|60631|67|K|Karin Palmqvist|67 år, konsult
+C|60632|45|M|Magnus Olsson|45 år, företagare
+C|60633|37|M|Pierre Lindberg|37 år, ek. kand., Staffanstorp
+C|60634|60|M|Staffan Linde|60 år, företagare
+C|60635|52|M|Christian Ask|52 år, fastighetsmäklare
+C|60636|71|M|Nils-Ove Mårtenson|71 år, miljöteknisk konsult
+C|60637|53|K|Annika Strandberg|53 år, personalchef
+C|60638|51|M|Robert Hjunstorp|51 år, utbildare
+C|60639|51|M|Rickard Svensson|51 år, försäkringstjänsteman
+C|60640|45|K|Carina Olofsson|45 år, förskollärare
+C|60641|65|K|Birgitta Heyle-Wiahl|65 år, fastighetsmäklare
+C|60642|52|M|Grzegorz Gründer|52 år, utvecklingsingenjör
+C|60643|77|M|Bertil Palm|77 år, pensionär
+C|60644|56|K|Susanne Espinosa|56 år, distriktssköterska
+C|60645|46|M|Stefan Johnsson|47 år, försäljnings- och marknadsdirektör
+C|60646|65|M|Johnny Funch|65 år, utvecklingssamordnare, Staffanstorp
+C|60647|46|M|Jörgen Nilsson|46 år, administrativ chef
+C|60648|46|M|Anders Rosdahl|46 år, egen företagare
+C|60649|45|K|Maria Leijman|45 år, filialansvarig
+C|60650|79|M|Sune Cederpil|79 år, ingenjör
+C|60651|70|M|Rune Lindahl|70 år, pensionär
+C|60652|49|K|Jeanette Christiansen|49 år, ingenjör
+C|60653|77|M|Jurgis Porutis|77 år, ekonom
+C|60654|65|K|Ingrid Oxenby|65 år, barnskötare
+C|60655|51|K|Tina Laserow|51 år, leg. fysioterapeut
+C|60656|61|M|Eric Hamilton|61 år, civilekonom
+C|60657|80|K|Berit Lagergren|81 år, f.d. banktjänsteman
+C|60658|55|M|Mats Olsson|55 år, ekonom
+C|60659|66|M|Göran Hobroh|66 år, civilingenjör
+C|60660|67|M|Leif Bågesjö|67 år, konsult
+C|60661|18|K|Ellen Lundberg|18 år, studerande
+C|60662|57|M|Mats Johannesson|57 år, teknisk konsult
+C|60663|52|K|Laila Göransson|53 år, personalvetare
+C|60664|75|M|Gunnar Hokfelt|75 år, pensionär
+C|430841|77|M|Maths Johansson|Tekniker
+C|430842|77|M|Rolf Lind|"Luddes husse"
+C|430843|73|M|Lennart Ek|Tekniker
+C|430844|73|K|Karin Hansson|Hushållslärare
+C|430845|79|K|Ulla-Britt Johansson|Leg.sjuksköt.
+C|430846|83|K|Ingrid Lindberg|Tillskärare
+C|430847|74|K|Mona Korths-Nordén|
+C|430848|80|M|Ingvar Ekdahl|Tekn.lic.
+C|112250|51|M|Richard Olsson|Teknisk chef, Staffanstorp
+C|112251|66|K|Ulla Winrup|66 år, Pensionär
+C|112252|47|M|Jonas Andersson|47 år, fritidsledare
+C|112253|43|K|Margit Persson Békássy|43 år, lärare
+C|112254|61|M|Mats-Åke Westeson|61 år, byggnadsarbetare
+C|112255|53|K|Mona Nilsson|52 år, pedagog
+C|112256|60|M|Toni Nilsson|60 år, logistikdirektör
+C|112257|50|M|Fredrik Andersson|50 år, tekniker
+C|112258|49|M|Jonny Rolf|49 år, teknisk förvaltare
+C|112259|37|K|Lina Lagerqvist|37 år, undersköterska
+C|112260|61|M|Jörgen Kinnstad|61 år, maskinoperatör
+C|112261|75|M|Rolf Jörgensson|75 år, senior
+C|112262|55|M|Mikael Persson|55 år, ingenjör
+C|112263|38|M|Jerry Hagman|38 år, egenföretagare
+C|112323|45|K|Cecilia Dahlgren|präst
+C|112324|67|M|Harald Svedberg|pensionär
+C|112325|64|K|Raili Pikkusaari|pensionär, Staffanstorp
+C|112326|43|M|Tobias Karlsson|tekniker
+C|112327|57|K|Catrin Olsson|lärare
+C|112328|37|M|Johannes Runquist Kristersson|lokalvårdare

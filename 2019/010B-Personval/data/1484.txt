@@ -1,11 +1,201 @@
-2|41918|41919|41920|41921|41922|41923|41924|41925|41926|41927|41928|41929|41930|41931|41932|41933|41934|41935|41936|41937|41938|41939|41940|41941|41942|41943|41944|41945|41946|41947|41948|41949
-4|1886|14368|14369|1892|1863|14372|14373|14374|14375|14376|14377|14378|14379|14380
-532|515849
-471|191334|191335|191336|191337|191338|191339|191340|191341|191342|191343|191344|191345|191346|191347|191348|191349
-68|515969
-3|227057|227058|227059|227060|227061|227062|227063|227064|227065|227067|227068|227066|227069|227070|227071|227072|227073|227074|227075|227076|227077|227078|227079|227080|227081|227082|227083|227084|227085|227086|227087|227088
-248|423701|423702|423703|423704|423705|423706|423707|423708|423709|423710|423711|423712|423713|423714|423715|423716|423717|423718|423719|423720|423721|423722|423723|423724|423725|423726|423727|423728|423729|423730|423731|423732|423733|423734|423735|423736|423737|423738
-55|213076|213077|213078|213079|213080|213081|213082|82458
-1|254236|255883|255884|255885|255886|255887|255888|255889|255890|255891|255892|255894|255895|255896|255897|255898|255899|255900
-110|66523|66524|66525|66526|66527|66528|66529|505789|513820
-5|326886|326887|326888|326889|326890|326891|326892|326893|326894
+T|Lysekil
+A|2|41918|41919|41920|41921|41922|41923|41924|41925|41926|41927|41928|41929|41930|41931|41932|41933|41934|41935|41936|41937|41938|41939|41940|41941|41942|41943|41944|41945|41946|41947|41948|41949
+A|4|1886|14368|14369|1892|1863|14372|14373|14374|14375|14376|14377|14378|14379|14380
+A|532|515849
+A|471|191334|191335|191336|191337|191338|191339|191340|191341|191342|191343|191344|191345|191346|191347|191348|191349
+A|68|515969
+A|3|227057|227058|227059|227060|227061|227062|227063|227064|227065|227067|227068|227066|227069|227070|227071|227072|227073|227074|227075|227076|227077|227078|227079|227080|227081|227082|227083|227084|227085|227086|227087|227088
+A|248|423701|423702|423703|423704|423705|423706|423707|423708|423709|423710|423711|423712|423713|423714|423715|423716|423717|423718|423719|423720|423721|423722|423723|423724|423725|423726|423727|423728|423729|423730|423731|423732|423733|423734|423735|423736|423737|423738
+A|55|213076|213077|213078|213079|213080|213081|213082|82458
+A|1|254236|255883|255884|255885|255886|255887|255888|255889|255890|255891|255892|255894|255895|255896|255897|255898|255899|255900
+A|110|66523|66524|66525|66526|66527|66528|66529|505789|513820
+A|5|326886|326887|326888|326889|326890|326891|326892|326893|326894
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|248|LP.NU|Lysekilspartiet
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|41918|57|M|Jan-Olof Johansson|Yrkeslärare, 57 år, Lysekil
+C|41919|71|K|Christina Gustavsson|Fd skolchef, 71 år, Brastad
+C|41920|46|M|Ricard Söderberg|Elevassistent, 46 år, Lyse
+C|41921|67|K|Siw Linnér|Fd undersköterska, 67 år, Lysekil
+C|41922|63|M|Klas-Göran Henriksson|Förrådstekniker, 63 år, Lysekil
+C|41923|64|K|Margareta Carlsson|Fd undersköterska, 64 år, Lysekil
+C|41924|33|M|Anders C Nilsson|Vårdbiträde, 33 år, Lysekil
+C|41925|68|M|Roger Siverbrant|pensionär, 68 år, Skaftö
+C|41926|38|M|Anders Söfting|Driftingenjör, 38 år, Lysekil
+C|41927|45|M|Peo Gustafsson|Drifttekniker, 46 år, Brastad
+C|41928|51|K|Annette Pettersson|Verksamhetsutvecklare, 51 år, Lyse
+C|41929|42|M|Stefan Jansson|Driftoperatör, 42 år, Lysekil
+C|41930|58|K|Anette Björmander|Undersköterska, 58 år, Lysekil
+C|41931|60|K|Charlotte Wendel Lendin|Studiesekreterare, 60 år, Lysekil
+C|41932|66|K|Agneta Blomqvist|F.d Enhetschef, 66 år, Lysekil
+C|41933|59|M|Anders Henriksson|Planerare, 59 år, Brastad
+C|41934|34|K|Marielle Stenström|Stödassistent, 34 år, Lysekil
+C|41935|75|M|Klas Mellgren|Fd mekaniker, 75 år, Brastad
+C|41936|45|K|Christin Gustafsson Tallberg|Småföretagare, 46 år, Brastad
+C|41937|72|M|Bo Göthesson|Pensionär, 72 år, Skaftö
+C|41938|38|K|Therese Englund|Undersköterska, 38 år, Lysekil
+C|41939|66|M|Ulf Nilsson|Fd skyddsvakt, 66 år, Brastad
+C|41940|63|M|Göran Emanuelsson|Tjänsteman, 63 år, Lysekil
+C|41941|73|M|Sverker Johnsson|Pensionär, 74 år, Lysekil
+C|41942|72|M|Sven-Gunnar Gunnarsson|Fd elmontör, 72 år, Brastad
+C|41943|56|M|Micael Melin|Fastighetschef, 56 år, Lysekil
+C|41944|54|M|Mikael Björkman|Förrådstekniker, 54 år, Lyse
+C|41945|57|M|Jan Lendin|Ombudsman, 57 år, Lysekil
+C|41946|64|M|Dan Jagefeldt|Miljöhandläggare, 64 år, Lysekil
+C|41947|53|M|Björn Augustsson|Juristassistent, 53 år, Lyse
+C|41948|69|M|Mårten Blomqvist|Fd landstingsråd, 69 år, Lyse
+C|41949|72|M|Bernt Ortner|Tidningsdistributör, 72 år, Lysekil
+C|1886|47|K|Monica Andersson|egenföretagare, 47 år, Lysekil
+C|14368|64|K|Siw Lycke|dagbarnvårdare, Brastad, 65 år
+C|14369|30|K|Ida Strandberg|pol.kand, Lysekil, 30 år
+C|1892|21|K|Linn Nielsen|studerande, 21 år, Lysekil
+C|1863|27|M|Fredrik Christensson|27 år, Riksdagsledamot, Lysekil
+C|14372|44|K|Tamar Larsson|lantbrukare, Brastad, 44 år
+C|14373|51|M|Lars Nielsen|konsult inom Byggsektorn, Bro, 51 år
+C|14374|50|K|Carina Granath|banchef, Brastad, 50 år
+C|14375|58|K|Marie Sellin-Larsson|tjänsteman, Lyse, 58 år
+C|14376|22|M|Hadi Alizadeh|lagerarbetare, Lysekil, 22 år
+C|14377|57|K|Christina Rörvall-Dahlberg|speciallärare, Brastad, 57 år
+C|14378|64|M|Lennart Niklasson|lantbrukare, Lyse, 65 år
+C|14379|66|M|Bengt Andersson|snickare, Bro, 66 år
+C|14380|21|K|Ida Havstam|vårdbiträde,  Brastad, 22 år
+C|515849|43|K|Jenny Levander|
+C|191334|70|M|Yngve Berlin|
+C|191335|69|K|Britt-Marie Kjellgren|
+C|191336|67|M|Per-Gunnar Ahlström|
+C|191337|65|M|Stig Berlin|
+C|191338|69|K|Maria Ahlström|
+C|191339|67|M|Leif Ahl|
+C|191340|72|M|Johnny Kristoffersen|
+C|191341|61|M|Peter Andreasson|
+C|191342|66|K|Carina Berlin|
+C|191343|66|M|Bernt Larsson|
+C|191344|64|K|Karin Berlin|
+C|191345|67|M|Sven-Olof Lundqvist|
+C|191346|64|K|Malin Larsson|
+C|191347|66|M|Ljubi Nygren|
+C|191348|67|K|Britt-Marie Lundqvist|
+C|191349|70|K|Solveig Berlin|
+C|515969|64|M|Lennie Beeck|
+C|227057|46|M|Håkan Kindstedt|46, gymnasielärare, Lysekil
+C|227058|70|K|Ann-Charlotte Strömwall|69, f.d. förskollärare, Lysekil
+C|227059|61|K|Britt-Marie Didriksson-Burcher|62, undersköterska, Lysekil
+C|227060|73|M|Lars Björneld|Skaftö
+C|227061|67|K|Gerd Persson|Skaftö
+C|227062|37|K|Linda Lennartsson|Brastad
+C|227063|48|M|Daniel Nielsen|Brastad
+C|227064|67|M|Leif Ström|Lysekil
+C|227065|68|M|Yngve Larsson|Brastad
+C|227067|49|K|Annika Lindberg|Lysekil
+C|227068|54|M|Thomas Nilsson|Lysekil
+C|227066|50|M|Thomas Andersson|Skaftö
+C|227069|63|M|Tom Govik|Brastad
+C|227070|63|K|Elisabeth Schewenius Ström|Lysekil
+C|227071|64|K|Gunvor Crogård|Lysekil
+C|227072|51|M|Torbjörn Fredh|Brastad
+C|227073|68|K|Lotta Wallin|Lysekil
+C|227074|62|M|Keith Blinkfyr|Lysekil
+C|227075|60|K|Britt-Marie Govik|Lysekil
+C|227076|71|M|Bo Callenberg|Lysekil
+C|227077|72|K|Åsa Björneld|Skaftö
+C|227078|82|M|Ulf Helgesson|Brastad
+C|227079|44|M|Håkan Möller|Lysekil
+C|227080|41|K|Linda Wising|Lysekil
+C|227081|67|M|Norman Burcher|Brastad
+C|227082|59|K|Ingegerd Hermansson|Lysekil
+C|227083|30|M|Tobias Govik|Brastad
+C|227084|54|K|Christina Elgh|Lysekil
+C|227085|54|M|Rickard Nielsen|Lysekil
+C|227086|78|M|Ove Eliasson|Lysekil
+C|227087|86|M|Bo Englund|Lysekil
+C|227088|56|M|Mikael Hermansson|Lysekil
+C|423701|59|M|Ronald Rombrant|civilekonom, Lyse
+C|423702|49|K|Jeanette Janson|rektor, Lysekil
+C|423703|55|M|Ronny Hammargren|metallarbetare, Lysekil
+C|423704|69|M|Bo Gustafsson|egenföretagare, Skaftö
+C|423705|50|K|Annette Calner|socionom, Lysekil
+C|423706|76|M|Gert-Ove Forsberg|ingenjör, Lysekil
+C|423707|50|M|Fredrik Häller|egenföretagare, Lysekil
+C|423708|55|M|Per Tengberg|redovisningsekonom, Lysekil
+C|423709|52|K|Lena Hammargren|biblioteksassistent, Lysekil
+C|423710|64|M|Mikael Wennergren|arkitekt, Skaftö
+C|423711|39|M|Patrik Saving|projektör, Lyse
+C|423712|46|K|Camilla Carlsson|undersköterska, Lysekil
+C|423713|57|K|Marie Lindgren|egenföretagare, Lyse
+C|423714|47|K|Christina Tina Mattisson|biståndshandläggare, Lysekil
+C|423715|40|M|Anders Friberg|möbelsnickare, Lysekil
+C|423716|38|M|Niklas Högberg|elevassistent, Lysekil
+C|423717|40|M|Jonas Hoffman|egenföretagare, Lysekil
+C|423718|45|M|Petter Nilsson|lärare, Lysekil
+C|423719|51|K|Catharina Hansson|administratör, Lysekil
+C|423720|56|K|Annbritt Jarnedal|undersköterska, Lyse
+C|423721|19|M|Felix Bratell|elevassistent, Lysekil
+C|423722|41|M|Nicholas Mattiasson|vaktmästare, Lysekil
+C|423723|73|M|Lars-Olof Stilgård|riksspelman, Lyse
+C|423724|52|M|Lars Bernström|montör, Lysekil
+C|423725|48|M|Fredrik Norén|marinbiolog, Lysekil
+C|423726|49|M|Martin Kyhlén|egenföretagare, Lysekil
+C|423727|53|M|Greger Pihl|egenföretagare, Lysekil
+C|423728|49|M|Max Janson|lärare, Lysekil
+C|423729|65|K|Eva Wällstedt|undersköterska, Lysekil
+C|423730|75|M|Rolf Eriksson|elektriker, Lysekil
+C|423731|33|K|Cecilia Saving|undersköterska, Lyse
+C|423732|45|M|Tomas Andreasson|ekonom, Brastad
+C|423733|45|K|Hanne Andreasson|banksäljare, Brastad
+C|423734|50|M|Peter Jansson|Lysekil
+C|423735|59|K|Gun Rosblad|undersköterska, Lysekil
+C|423736|79|M|Denis Olausson|pensionär, Lysekil
+C|423737|47|K|Maria Lundbom|socialpedagog, Brastad
+C|423738|46|M|Jesper Aneröd|handledare, lärare, Lysekil
+C|213076|46|K|Maria Granberg|Forskare (marin miljö)
+C|213077|69|M|Inge Löfgren|Civilingenjör/Biolog
+C|213078|66|K|Susanne Baden|Marinekolog
+C|213079|61|M|Per Cederholm|Lärarvikarie/Copywriter
+C|213080|61|K|Kerstin Magnusson|Forskare, marin miljö
+C|213081|38|K|Linda Svanberg|Marinbiolog/Forskningsingenjör
+C|213082|34|K|Avalon Falcon|Maskiningenjör
+C|82458|38|K|Emma Nohrén|38, marinbiolog, riksdagsledamot, Lysekil
+C|254236|56|M|Ulf Hanstål|56, Partiombudsman, Lysekil
+C|255883|52|M|Krister Samuelsson|Företagare, Lysekil
+C|255884|50|K|Wictoria Insulan|Turismentreprenör, Lysekil
+C|255885|67|M|Lars Setterberg|Civilekonom, Skaftö
+C|255886|73|M|Kent Olsson|fd.Riksdagsledamot, Lysekil
+C|255887|70|M|Björn Tunberg|Civilingenjör, Fiskebäckskil
+C|255888|72|K|Elisabeth Åkerman|Egen företagare, Fiskebäckskil
+C|255889|66|M|Arne Lundqvist|Företagare, Lysekil
+C|255890|54|M|Mats Ivarsson|Företagare, Lysekil
+C|255891|56|M|Lennart Staxäng|Lantbrukare, Bro
+C|255892|76|M|Hasse Ekbrand|Bokhandlare, Lysekil
+C|255894|81|M|Gunnar Josephson|, Skaftö
+C|255895|81|M|Klaus Peters|Lantmästare, Lyse
+C|255896|31|M|Per Wallman|Undersköterska, LYSEKIL
+C|255897|88|M|Leif Wahlberg|Civilingenjör, Lysekil
+C|255898|79|M|Leif Jönsson|ÖV.FV, Lysekil
+C|255899|72|M|Richard Åkerman|Skogsmästare, Fiskebäckskil
+C|255900|76|M|Mats Karlsson|Jordbrukare, Brastad
+C|66523|40|M|Christoffer Zakariasson|40 år, Brastad
+C|66524|39|M|Daniel Arvidsson|39 år, Brastad
+C|66525|39|M|Magnus Elisson|39 år, Brastad
+C|66526|79|M|Tommy Westman|79 år, Lysekil
+C|66527|60|K|Inga-Lena Ivarsson|60 år, Lysekil
+C|66528|69|K|Lillemor Antonsson|69 år, Lysekil
+C|66529|50|M|Piotr Warta|50 år, Lysekil
+C|505789|52|K|Carina Holgersson|
+C|513820|55|M|Kenneth Lundberg|
+C|326886|57|M|Håkan Smedja|57 år, Gruppledare arbetsmarknadsenhet
+C|326887|29|K|Lina Säll|29 år, Kock
+C|326888|56|K|Lisbeth Lindström|56 år, Yrkeslärare
+C|326889|44|M|Bernt Säll|44 år, Arbetsledare
+C|326890|32|K|Therese Persson|32 år, Undersköterska
+C|326891|55|M|Tommy Fransson|55 år, Habiliteringsassistent
+C|326892|76|M|Kurt Hagel|76 år, Pensionär
+C|326893|66|M|Göran Sandström|67 år, Lokförare
+C|326894|59|M|Marthin Hermansson|59 år, Underhållschef

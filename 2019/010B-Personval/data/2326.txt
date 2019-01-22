@@ -1,7 +1,130 @@
-2|16785|176186|176187|176188|176189|176190|296726|176191|176192|176193|176194|191734|176195|8144|176196|176197|176198|176199|176200|191742|176201|191744|191745|346689|346690|176202|312202|8138|346693|176203
-4|95775|323601|323602|323603|323604|323605|323606|307508|307502|323609|323610|323611|323612|323613|323614|323615|323616|323617|323618|323619|323620|363755
-68|206332|206333
-3|182833
-1|253128|39537|39487|39527|253132|39513|39503|253135|253136|253137|39525|253139|253140|253141|39522|253143|253144|253145|253146|253147|253148|253149|39533|253151|253152|253153|253154|253155|253156|253157|253158|253159|253160|253161|253162|253163|253164|253165|253166|253167|253168|253169
-110|278909|278924|278923|279169|278842|278927|278931|278930
-5|252539|253059|343614|343615|343748|253068|343617|343618|343619|343620
+T|Berg
+A|2|16785|176186|176187|176188|176189|176190|296726|176191|176192|176193|176194|191734|176195|8144|176196|176197|176198|176199|176200|191742|176201|191744|191745|346689|346690|176202|312202|8138|346693|176203
+A|4|95775|323601|323602|323603|323604|323605|323606|307508|307502|323609|323610|323611|323612|323613|323614|323615|323616|323617|323618|323619|323620|363755
+A|68|206332|206333
+A|3|182833
+A|1|253128|39537|39487|39527|253132|39513|39503|253135|253136|253137|39525|253139|253140|253141|39522|253143|253144|253145|253146|253147|253148|253149|39533|253151|253152|253153|253154|253155|253156|253157|253158|253159|253160|253161|253162|253163|253164|253165|253166|253167|253168|253169
+A|110|278909|278924|278923|279169|278842|278927|278931|278930
+A|5|252539|253059|343614|343615|343748|253068|343617|343618|343619|343620
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|16785|43|K|Therese Kärngard|43, Kommunalråd, Hackås
+C|176186|42|M|Daniel Arvastsson|42 år, Oviken
+C|176187|41|K|Mia Eriksson|41 år, Mo
+C|176188|61|M|Dan Martinsson|61 år, Östberg
+C|176189|54|K|Maud Thuresson Jonsson|53 år, Vigge
+C|176190|39|M|Daniel Andersson|39 år, Hällne
+C|296726|18|K|Maryam Ghafoori|18 år, Svenstavik
+C|176191|69|M|Kent Rosenqvist|69 år, Rätan
+C|176192|29|K|Maria Nesterud|29 år, Hällne
+C|176193|48|M|Richard Lundgren|49 år, Brånan
+C|176194|69|K|Karin Paulsson|69 år, Västnor
+C|191734|56|M|Signar Brzezinski|57 år, Rätan
+C|176195|19|K|Alma Karlsson|20 år, Hackås
+C|8144|68|M|Jan Jonsson|68, Pensionär, Brynje
+C|176196|53|K|Lena Gabrielsson|52 år, Kvissle
+C|176197|43|M|Tommy Wisfelt|43 år, Myrviken
+C|176198|30|K|Katarina Martinsson|30 år, Svenstavik
+C|176199|62|M|Lennart Mattsson|63 år, Svenstavik
+C|176200|33|K|Anneli Lodell Larsson|32 år, Myrviken
+C|191742|74|M|Svenne Paulsson|73 år, Östberg
+C|176201|70|K|Maj Lundgren|70 år, Myrviken
+C|191744|71|K|Ellinor L Paulsson|71 år, Östberg
+C|191745|48|M|Mikka Kivinen|47 år, Svenstavik
+C|346689|22|K|Maja Hedén|22 år, Hackås
+C|346690|86|M|Gunnar Andersson|86 år, Rätan
+C|176202|71|M|Börje Karlsson|72 år, Oviken
+C|312202|51|K|Ulrika Nordin|51 år, Brånan
+C|8138|72|M|Leif D Sivertsson|72, Pensionär, Klövsjö
+C|346693|61|K|Ulla-Britt Lindblad|61 år, Rätansböle
+C|176203|60|M|Ingvar Jonsson|60 år, Vigge
+C|95775|63|K|Lena Olsson|socionom 63 år Svenstavik
+C|323601|70|M|Bo Karlsson|70 år Hackås
+C|323602|55|M|Jon Olofsson|55 år Klövsjö
+C|323603|53|K|MajLis Saur|53 år Vigge
+C|323604|23|M|Erik Olofsson|23 år Klövsjö
+C|323605|73|K|Maud Peeker|73 år Klövsjö
+C|323606|64|M|Torsten Medalen|64 år Svenstavik
+C|307508|57|K|Helen Kindberg|kock 57 år Hackås
+C|307502|23|K|Linn Aldén|mejeriarbetare 23 år Oviken
+C|323609|59|M|Per Göran Eriksson|59 år Oviken
+C|323610|59|K|Christina Johansson|59 år Skålan
+C|323611|32|M|Joakim Karlsson|32 år Älven
+C|323612|53|K|Åsa Jonsson|53 år Svenstavik
+C|323613|31|M|Fredrik Samuelsson|31 år Åsarna
+C|323614|58|M|Kjell Svanberg|58 år Hackås
+C|323615|70|K|Berit Samuelsson|70 år Åsarna
+C|323616|67|M|Sven Åke Engmar|67 år Hackås
+C|323617|69|K|Inga-Lis Sjöberg Bromée|69 år Klövsjö
+C|323618|37|K|Lena Kjellsson|37 år Klövsjö
+C|323619|71|M|Hans Samuelsson|71 år Åsarna
+C|323620|22|M|Martin Liljedal|22 år Ljungdalen
+C|363755|69|M|Sven Borglund|69 år Börtnan
+C|206332|66|M|Bertil Sivertsson|Oviken
+C|206333|43|M|Hans Olof Andersson|Hackås
+C|182833|76|M|Per-Erik Wåglin|fd universitetslärare,Oviken
+C|253128|40|K|Linda Sjöstedt|40 år, Hackås
+C|39537|45|M|Daniel Danielsson|45 år, Tosåsen
+C|39487|49|K|Elise Ryder Wikén|49, Skålan
+C|39527|39|K|Jennie Klaesson|39, Hackås
+C|253132|40|K|Elaine Asp|40 år, Oviken
+C|39513|49|K|Annika Hagen|49 år, Ljungdalen
+C|39503|56|M|Kent Karlsson|56, Hackås
+C|253135|41|M|Daniel Hillbom|41 år, Rätan
+C|253136|44|M|Niclas Cardegren|44 år, Östnår
+C|253137|30|K|Annica Karlsson|30 år, Åsarna
+C|39525|46|M|Johan Näslund|46 år, Svenstavik
+C|253139|43|M|Ola Hörberg|43,år, Klövsjö
+C|253140|51|K|Maria Renström|51 år, Svenstavik
+C|253141|53|M|John Regouw|53 år, Ljungdalen
+C|39522|43|K|Therese Dahlgren|43 år, Svenstavik
+C|253143|61|M|Melcher Falkenberg|61 år, Oviken
+C|253144|50|M|Bob Jonasson|50 år, Hoverberg
+C|253145|58|K|Annica Eliasson|58 år, Storhallen
+C|253146|36|M|Rami Albawab|36 år, Svenstavik
+C|253147|37|M|Sven Bromée|37 år, Klövsjö
+C|253148|37|K|Anna Essebrink|37 år, Hackås
+C|253149|46|M|Erik Olsson|46 år, Oviken
+C|39533|70|K|Torunn Saetre Holgersson|70 år, Åsarna
+C|253151|47|M|Peter Freij|47 år, Svenstavik
+C|253152|39|K|Emmalina Flodén|39 år, Svenstavik
+C|253153|41|M|Jon Åkermo|41 år, Oviken
+C|253154|23|K|Mimmi Backskog|23 år, Skålan
+C|253155|36|K|Linda Sahlén|36 år, Klövsjö
+C|253156|80|M|Ove Jacobsson|80 år, Åsarna
+C|253157|54|K|Lena Karlström Backskog|54 år, Skålan
+C|253158|39|M|Niklas Mattsson|39 år, Klövsjö
+C|253159|40|K|Johanna Åkerdal|40 år, Lillå
+C|253160|33|M|Johan Nilsson|33 år, Skucku
+C|253161|76|K|Barbro Larsson|76 år, Kvarnsjö
+C|253162|32|M|Magnus Pettersson|32 år, Oviken
+C|253163|60|K|Gunnel Hennebo|60 år, Börtnan
+C|253164|77|M|Svante Morén|77 år, Svenstavik
+C|253165|34|K|Moa Andersson|34 år, Skålan
+C|253166|39|M|Mattias Ahlberg|39 år, Klövsjö
+C|253167|44|K|Maria Halvarsson|44 år, Näcksta
+C|253168|45|K|Erika Svedberg|45 år, Fotingen
+C|253169|72|K|Carina Åslund|72 år, Åsarna
+C|278909|70|M|Bengt Åke Arendolf|Pensionär, Berg
+C|278924|53|M|Tommy Jakobsson|Företagare, Berg
+C|278923|52|M|Kjell Åke Andersson|Mekaniker, Berg
+C|279169|60|M|Mikael Paulsson|Företagare
+C|278842|56|K|Anette Rangdag|Undersköterska, Berg
+C|278927|61|M|Dan-Olof Nilsson|Elektriker, Berg
+C|278931|57|K|Ulla Stolt|Vårdbiträde, Berg
+C|278930|78|K|Laila Fors|Pensionär, Berg
+C|252539|63|M|Alf Lundin|63 år, egen företagare, Svenstavik
+C|253059|49|K|Helena Åsasdotter Nord|49 år, zonterapeut, Svenstavik
+C|343614|39|K|Marlena Hammer|39 år, labtekniker, Oviken
+C|343615|41|M|Lars Andersson|41 år, elevassistent, Hackås
+C|343748|36|K|Anne Svensson|36 år, statstjänsteman, Hackås
+C|253068|38|K|Emilia Blomqvist|38 år, skolsköterska, Oviken
+C|343617|43|M|Per Nauman|43 år, lackerare, Svenstavik
+C|343618|41|K|Camilla Dahlström Öster|41 år, undersköterska, Hoverberg
+C|343619|32|M|Olle Möllervärn|32 år, studerande, Skucku
+C|343620|61|M|Mikael Rahm|61 år, skådespelare, Oviken

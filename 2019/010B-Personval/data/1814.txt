@@ -1,9 +1,135 @@
-2|156724|156725|156726|156727|156728|156729|156730|156731|156732|156733|156734|156735|156736|156737|156738|156739|156740|156741|156742|156743|156744|156745|156746|156747|156748|156749|156750|156751|156752|156753|156754|168733
-4|57877|57868|73795|73796|73797|73798|73799|73800|58668|73802|73803|73804|73805|73806|57896|73808|73809|73810|73811|73812|73813|73814|73815|73816|73817|73818
-997|416502|416503|416944|416945|416946|416947|416948|416949|416950|416951|416952
-68|193363|193364|193365|193366|193367|193368|193369|193370|193371|193372|193373
-3|26958|26932|26974|29468|29469
-55|122959|124368|124369|124370|124371
-1|26548|96755|96745|254697|254698|254699|254700|254701|254702|254703|254704|254705|254706|254708
-110|76407|76408|76409|76410|76411
-5|99584|99585|99586|99587|99588|99589|99590
+T|Lekeberg
+A|2|156724|156725|156726|156727|156728|156729|156730|156731|156732|156733|156734|156735|156736|156737|156738|156739|156740|156741|156742|156743|156744|156745|156746|156747|156748|156749|156750|156751|156752|156753|156754|168733
+A|4|57877|57868|73795|73796|73797|73798|73799|73800|58668|73802|73803|73804|73805|73806|57896|73808|73809|73810|73811|73812|73813|73814|73815|73816|73817|73818
+A|997|416502|416503|416944|416945|416946|416947|416948|416949|416950|416951|416952
+A|68|193363|193364|193365|193366|193367|193368|193369|193370|193371|193372|193373
+A|3|26958|26932|26974|29468|29469
+A|55|122959|124368|124369|124370|124371
+A|1|26548|96755|96745|254697|254698|254699|254700|254701|254702|254703|254704|254705|254706|254708
+A|110|76407|76408|76409|76410|76411
+A|5|99584|99585|99586|99587|99588|99589|99590
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|997|FL|Framtidspartiet i Lekeberg
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|156724|39|M|Berth Falk|39 år,Lekeberg
+C|156725|46|K|Anette Bergdahl|46 år, Fjugesta
+C|156726|65|M|Kjell Edlund|65 år, Fjugesta
+C|156727|45|K|Ewonne Granberg|45 år, Verkhyttan
+C|156728|57|M|Mikael Bergdahl|57 år, Fjugesta
+C|156729|69|K|Jette Bergström|69 år, Lekeberg
+C|156730|73|M|Lennart M Pettersson|73 år, Lekeberg
+C|156731|64|K|Gunilla Pihlblad|63 år, Fjugesta
+C|156732|70|M|Lars-Gunnar Forsberg|69 år, Lekhyttan
+C|156733|65|K|Birgitta Hultin|65 år, Lekeberg
+C|156734|67|M|Håkan Trygg|67 år, Fjugesta
+C|156735|72|K|Mait Edlund|71 år, Fjugesta
+C|156736|33|M|Jonas Nilsson|33 år, Fjugesta
+C|156737|43|K|Linda Hallén|43 år, Lanna
+C|156738|59|M|Kenneth Hagström|59 år, Hässleby
+C|156739|45|K|Jane Andersson|45 år, Fjugesta
+C|156740|61|M|Stefan Ekström|60 år, Fjugesta
+C|156741|66|K|Christina Kareliussén|66 år, Mullhyttan
+C|156742|43|M|Esko Söderberg|43 år, Fjugesta
+C|156743|56|K|Yvonne Hagström|55 år, Fjugesta
+C|156744|69|M|Sven-Erik Eklund|68 år, Fjugesta
+C|156745|23|K|Angelica Larsson|23 år, Fjugesta
+C|156746|76|M|Rolf Jansson|76 år, Fjugesta
+C|156747|62|K|Anette Hulthén|62 år, Fjugesta
+C|156748|63|M|Christer Hulthén|62 år, Fjugesta
+C|156749|73|K|Wivie Palmroth|73 år, Fjugesta
+C|156750|50|M|Brian Jensen|50 år, Fjugesta
+C|156751|64|K|Ing-Britt Fransson Karlsson|65 år, Mullhyttan
+C|156752|84|M|Åke Gunnarsson|83 år, Fjugesta
+C|156753|78|K|Kerstin Gunnarsson|78 år, Fjugesta
+C|156754|33|M|Carl-Magnus Landin|33 år, Fjugesta
+C|168733|76|K|Birgitta Soting|76 år, Fjugesta
+C|57877|38|K|Wendla Thorstensson|38 år, kommunalråd, Fjugesta
+C|57868|23|K|Amanda Höjer|23 år, personalchef, Fjugesta
+C|73795|45|M|Mikael Reinholdz|Kälkesta
+C|73796|69|K|Astrid Söderquist|Norra Folkavi
+C|73797|47|K|Charlotta Englund|Lanna
+C|73798|29|M|Johan Niklasson|Övre Gysta
+C|73799|28|K|Lisa Schneider|Lilla Berga
+C|73800|43|M|Peter Sahlqvist|Mullhyttan
+C|58668|66|K|Annica Zetterholm|66 år, f.d. verksamhetschef, Fjugesta
+C|73802|59|K|Diana Olsén|Fjugesta
+C|73803|47|K|Liselotte Laurén|Edsberg
+C|73804|83|M|Henrik Hult|Sannaängen
+C|73805|21|M|Marcelos Doverholt|Bälsås
+C|73806|27|K|Caroline Pellrud|Löfsta Gård
+C|57896|53|M|Kent Runesson|53 år, handläggare, Fjugesta
+C|73808|37|K|Therese Larsson|Mullhyttan
+C|73809|70|M|Leif Göransson|Kräcklinge
+C|73810|54|K|Eva Bonnevier|Skeppsta
+C|73811|73|M|Conny Boman|Hackvad
+C|73812|70|K|Margareta Thorstensson|Löfsta Gård
+C|73813|74|M|Lars Laurén|Kräcklinge
+C|73814|73|K|Barbro Göransson|Kräcklinge
+C|73815|73|K|Gun-Britt Grimsell|Gropen
+C|73816|66|M|Conny Pettersson|Pålstorp
+C|73817|69|K|Ulla Kristina Fintling|Klosteråsen
+C|73818|79|M|Kjell Bergdahl|Hackvad
+C|416502|64|K|Kerstin Leijonborg|företagare, Edsberg
+C|416503|68|M|Stefan Elfors|ingenjör, Lanna
+C|416944|66|K|Inger Edlund|Edsberg
+C|416945|67|M|Olle Leijonborg|företagare, Edsberg
+C|416946|64|K|Rita Elfors|fritidspedagog, Lanna
+C|416947|38|K|Emma Edlund|Binninge
+C|416948|70|K|Reinie Örtenberg|Kvistbro
+C|416949|41|M|Mikael Söderlind|Binninge
+C|416950|58|M|Mats Köhlström|fastighetsskötare
+C|416951|53|K|Maria Köhlström|undersköterska
+C|416952|68|M|Peter Löfdahl|Lanna
+C|193363|49|M|Jonas Hansen|Snickare, Fjugesta
+C|193364|50|K|Ulrika Ingvarsson|Fritidspedagog, Fjugesta
+C|193365|76|M|Göran Pettersson|Mullhyttan
+C|193366|43|K|Emma Eklind|Brohyttan
+C|193367|72|M|Sören Fagerstedt|Västanby
+C|193368|73|K|Anne-Marie Nilsson|Lanna
+C|193369|73|M|Kari Jokinen|Lekhyttan
+C|193370|71|K|Lena Fagerstedt|Västanby
+C|193371|50|M|Arvydas Prialguskas|Mullhyttan
+C|193372|76|K|Inger Lundkvist|Svensboda
+C|193373|52|M|Sune Ingvarsson|Fjugesta
+C|26958|51|K|Eva Blomqvist|51 år, generalsekreterare, Lekeberg
+C|26932|36|K|Elin Nilsson|36 år, inspektör, Vekhyttan
+C|26974|58|K|Ann-Charlotte Kämpe Larsson|58 år, barnskötare, Fjugesta
+C|29468|51|M|Anders Hjerpe|51 år, bovärd, Mullhyttan
+C|29469|44|K|Diana Steen|44 år, frisörmästare, Sixtorp
+C|122959|44|K|Pia Frohman|44 år, beteendevetare, Fjugesta
+C|124368|65|K|Marita Johansson|65 år, miljöinspektör
+C|124369|81|M|Gösta Persson|81 år, pensionär
+C|124370|47|K|Elenor Ekstrand|47 år, kokerska
+C|124371|41|K|Titti Bäckman|41 år, undersköterska
+C|26548|54|M|Håkan Söderman|kommunalråd, Lekeberg
+C|96755|79|K|Britt Åsling|fd ekonomiassistent, Lekeberg
+C|96745|46|M|John Hägglöf|företagare, Lekeberg
+C|254697|38|K|Caroline Elfors|38, Leg Psykolog, Lanna
+C|254698|49|M|Anders Wallbom|49, Beläggningsarbetare, Hackvad
+C|254699|73|K|Christina Pålsson|73, Pensionär, Fjugesta
+C|254700|85|M|Göran Östling|85, F.d. Överläkare, Lanna
+C|254701|43|M|Tobias Ander|43, Informationssäkerhetsstrateg, Fjugesta
+C|254702|63|M|Dag Stranneby|63, Fjugesta
+C|254703|63|K|Åsa Ek|63, Fjugesta
+C|254704|45|K|Ulrika Karlsson Arne|45, Frilandsproducent, Fjugesta
+C|254705|67|K|Harriet Östgren|67, Konsult , Lanna
+C|254706|71|K|Inger Bergström|71, F.d. Kamrer, Riseberga
+C|254708|37|K|Linnéa Hägglöf|37, Butiksbiträde, Fjugesta
+C|76407|47|K|Pernilla Marberg|47 år, Egen företagare, Lekeberg
+C|76408|47|M|Stefan Johansson|Egenföretagare, 47 år
+C|76409|73|M|Gerry Milton|Pensionär, 73 år
+C|76410|27|K|Nathalie Pace-Solar|Student, 27 år
+C|76411|63|M|Jorma Keskitalo|Chaufför, 64 år
+C|99584|54|K|Margareta Carlsson|Pedagog, Lekeberg
+C|99585|52|K|Gordana Sutic|Handläggare, Fjugesta
+C|99586|29|K|Mari Norborg|Kyrkogårdsarbetare 29år, Lekeberg
+C|99587|19|K|Izabella Sutic|Studerande 19år, Lekeberg
+C|99588|33|M|Tommy Glenberg|Musikant 33år, Lekeberg
+C|99589|34|K|Fanny Gott|Egenföretagare 34år, Lekeberg
+C|99590|61|K|Eva Ahremalm Bräutigam|Skådespelare/Egen företagare, Lekeberg

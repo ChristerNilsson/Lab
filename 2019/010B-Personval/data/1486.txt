@@ -1,9 +1,182 @@
-2|101038|101039|101040|101041|101042|101043|101044|101045|101046|101047|101048|101049|101050|101051|101052|101053|101054|101055|101056|101057|101058|101059|101060|101061|101062|101063|101064|101065|101066|101067|101068
-4|34789|1873|34791|34792|34793|1958|34795|1867|34797|34798|34799|34800|34801|34802|34803|34804|34805|34806|34807|34808|34809|34810|34811|34812|34813|34814|34815|34816|1900|34818
-532|509083|509084|509085|237415|509087
-68|418042|508494|418030|249190|508497|508498|508499|508500|508501|508502|508503|513449
-3|49164|240342|240343|240344|240345|240346|240347|240348|240349|240350|240351|240352|240353|240354|240355|240356|240357|240358|240359|240360|240361|240362|240363|240364|240365|240366|240367
-55|146918|82468|146920|146921|146922|146923|146924|146925|146926|146927|146928|146929
-1|254212|254208|418027|418028|418029|418030|418031|418032|418033|254234|418035|418036|418037|418038|418039|418040|418041|418043|418044|418045
-110|167902|199423|199424|199425|199426|199427|199428|199429|199430|199431|199432
-5|234446|237402|235209|237404|234435|235204|237407|235203|237409|237410|237411|237412|237413|237414|237415|237416|237417|237418
+T|Strömstad
+A|2|101038|101039|101040|101041|101042|101043|101044|101045|101046|101047|101048|101049|101050|101051|101052|101053|101054|101055|101056|101057|101058|101059|101060|101061|101062|101063|101064|101065|101066|101067|101068
+A|4|34789|1873|34791|34792|34793|1958|34795|1867|34797|34798|34799|34800|34801|34802|34803|34804|34805|34806|34807|34808|34809|34810|34811|34812|34813|34814|34815|34816|1900|34818
+A|532|509083|509084|509085|237415|509087
+A|68|418042|508494|418030|249190|508497|508498|508499|508500|508501|508502|508503|513449
+A|3|49164|240342|240343|240344|240345|240346|240347|240348|240349|240350|240351|240352|240353|240354|240355|240356|240357|240358|240359|240360|240361|240362|240363|240364|240365|240366|240367
+A|55|146918|82468|146920|146921|146922|146923|146924|146925|146926|146927|146928|146929
+A|1|254212|254208|418027|418028|418029|418031|418032|418033|254234|418035|418036|418037|418038|418039|418040|418043|418044|418045
+A|110|167902|199423|199424|199425|199426|199427|199428|199429|199430|199431|199432
+A|5|234446|237402|235209|237404|234435|235204|237407|235203|237409|237410|237411|237412|237413|237414|237415|237416|237417|237418
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|101038|54|M|Kent Hansson|Controller, 54 år, Strömstad
+C|101039|56|K|Lena Martinsson|Företagare, 56 år, Strömstad
+C|101040|62|M|Ronnie Brorsson|Oppositionsråd, 62 år, Strömstad
+C|101041|50|K|Marie Rask|Ombudsman, 50 år, Strömstad
+C|101042|73|M|Mats Granberg|Pensionär, 73 år, Strömstad
+C|101043|63|K|Helene Andersson Novela|Seniorrådgivare, 63 år, Sydkoster
+C|101044|59|M|Bengt Simonsson Fröjd|Terminalchef, 59 år, Strömstad
+C|101045|46|K|Merry Johansson|Undersköterska, 46 år, Strömstad
+C|101046|65|M|Leif Andersson|Restaurangarbetare, 64 år, Strömstad
+C|101047|52|K|Ligia Morales Ahlgren|Lärare, 52 år, Strömstad
+C|101048|67|K|Lena Sundberg|Webbmaster, 67 år, Strömstad
+C|101049|36|K|Johanna Ekeroth|Företagare, 36 år, Strömstad
+C|101050|42|M|Jan Vidar Seljegren|Fritidsledare, 42 år, Strömstad
+C|101051|58|M|Rolf Pettersson|Företagare, 58 år, Strömstad
+C|101052|33|M|Terry Bergqvist|Väktare, 33 år, Strömstad
+C|101053|61|M|Olle Westling|Företagare, 60 år, Strömstad
+C|101054|34|K|Petra Hedström|Konferenskoordinator, 34 år, Strömstad
+C|101055|33|M|Besnik Obertinca|Administratör, 33 år, Strömstad
+C|101056|51|M|Rolf Rask|Styrkeledare, 51 år, Strömstad
+C|101057|52|K|Lena Almén|Butiksmedarbetare, 51 år, Strömstad
+C|101058|64|K|Pia Tysklind|Enhetschef, 64 år, Strömstad
+C|101059|66|K|Lisbeth Johander|Lärare, 66 år, Nordkoster
+C|101060|32|M|Marcus Palm|Driftansvarig, 32 år, Strömstad
+C|101061|51|K|Anneli Ivarsson|Ombudsman, 51 år, Strömstad
+C|101062|56|K|Alicia Aliaga|Kokerska, 56 år, Strömstad
+C|101063|61|M|Ulf Gustafsson|Produktutvecklare, 61 år, Strömstad
+C|101064|47|K|Pernilla Elgestål|Ekonomiansvarig, 47 år, Strömstad
+C|101065|60|M|Peter Sövig|Plåtslagare, 60 år, Strömstad
+C|101066|71|K|Birgit Lotsner|Pensionär, 71 år, Strömstad
+C|101067|33|M|Thomas Kjerulf|Butiksmedarbetare, 33 år, Strömstad
+C|101068|75|M|Bror-Willy Nilsson|Pensionär, 75 år, Strömstad
+C|34789|60|K|Åsa Torstensson|socionom, Hogar Gård
+C|1873|59|K|Anna-Lena Carlsson|sjuksköterska, 59 år, Strömstad
+C|34791|35|M|Andreas Hermansson|business analyzer, Karlsgatan
+C|34792|51|K|Elisabeth Johansson|lantbruksföretagare, Risäng Gård
+C|34793|67|M|Tore Lomgård|fd kriminalinspektör, Råsshult
+C|1958|64|M|Hans-Inge Sältenberg|skogsbrukare, 64 år, Strömstad
+C|34795|33|K|Elin Douglasson|polis, Stenlidsvägen
+C|1867|52|M|Peter Heie|företagare, 52 år, Strömstad
+C|34797|64|K|Sveza Daceva Filipova|fil.dr. i etnologi, Smedjegränd
+C|34798|59|K|Britt Eriksson|specialpedagog, Rossö
+C|34799|53|M|Peter Dafteryd|ordf kom.styrelsen, Bergsliden
+C|34800|37|M|Rikard Hermansson|skadedjurstekniker, Folkestad
+C|34801|68|M|Morgan Gutke|ekonom, Tornstigen
+C|34802|74|K|Monica Larsen|keramiker, Sydkoster
+C|34803|59|M|Erland Lundqvist|entreprenör, Tånga
+C|34804|52|K|Madeleine Nicholls|redovisningsassistent, Sundby
+C|34805|70|M|Bo Tångefjord|logistic manager, Tånga
+C|34806|59|K|Ulla Dafteryd|boendeassistent, Bergsliden
+C|34807|67|M|Rutger Cavalli-Björkman|egenföretagare, Hiertagatan
+C|34808|62|K|Ellinor Adolfsson|kock, Kuttervägen
+C|34809|40|M|Martin Jansson|möbelsnickare, Knarrås
+C|34810|29|M|Andreas Hansson|ambulanssjuksköterska, Kölstigen
+C|34811|72|K|Hanna Lybeck|pensionär, Näsinge Mellangården
+C|34812|46|M|Henrik Mattsson|lantbrukare, Skärje
+C|34813|71|M|Stig Carlsson|pensionär, Rellen
+C|34814|73|M|Fred Toftfelt|egenföretagare, Norra Öddö
+C|34815|41|M|Tommy Midtsundstad|lantbrukare, Massleberg
+C|34816|62|K|Isabella Hansson|förskollärare, Nösteröd
+C|1900|73|M|Ingemar Edwardsson|egenföretagare, 73 år, Strömstad
+C|34818|59|M|Rune Sandin|skogsarbetare, Håltane
+C|509083|29|K|Marielle Alvdal|läkare, 29 år, Strömstad
+C|509084|28|K|Linda Nordin|barnskötare, 28 år, Strömstad
+C|509085|34|M|Joar Alvdal|läkare, 34 år, Strömstad
+C|237415|39|K|Johanna Johander|lärare, 39 år, Nordkoster
+C|509087|38|M|Bengt Edstam|fibertekniker, 38 år, Strömstad
+C|418042|70|M|Anders Ekström|ekonom, Kebal
+C|508494|28|M|David Holgersson|undersköterska, Nordby
+C|418030|60|K|Rose-Marie Fagerberg|tågklarerare, Seläter
+C|249190|67|M|Peter Nilsson|Köpman, Strömstad
+C|508497|44|M|Friedemann Hildebrand|pedagog, Skee
+C|508498|79|K|Barbro Nilsson|pensionär, Strömstad
+C|508499|47|M|Moa Aslan|företagare, Strömstad
+C|508500|57|K|Hanne Bråthen Hjemgård|sjuksköterska, Kebal
+C|508501|65|M|Alexander Weinehall|resurslärare, Strömstad
+C|508502|77|M|Jan Dahlhielm|arkitekt, Strömstad
+C|508503|42|K|Louise Ekström|kostekonom, Strömstad
+C|513449|68|M|Bengt Magnusson|Präst, Strömstad
+C|49164|65|M|Lars Tysklind|riksdagsledamot, Strömstad
+C|240342|67|K|Kerstin Karlsson|67 år, redaktör, Stare
+C|240343|41|K|Mette H Johansson|41, healer, Strömstad
+C|240344|46|M|Hans-Robert Hansson|46, bokningskoordinator, Strömstad
+C|240345|67|K|Helena L'Estrade|67 år, konsult, Nordkoster
+C|240346|42|K|Jennie Persson|42 år, verksamhetschef, Strömstad
+C|240347|30|K|Sandra Andersson|30 år, egen företagare, Strömstad
+C|240348|72|M|Claes Nabrink|71 år, ingenjör, Strömstad
+C|240349|51|M|Johan Flodin|51 år, landslagschef i rodd, Strömstad
+C|240350|73|M|Bengt Wedin|73 år, köpman, Strömstad
+C|240351|71|M|Håkan Eriksson|71 år, skeppare, Sydkoster
+C|240352|70|M|Erling Karlsson|70 år, redaktör, Strömstad
+C|240353|64|M|Ingemar Nordström|64 år, konsult, Strömstad
+C|240354|66|K|Anne-Lise Lindmark|66 år, arbetsförmedlare, Strömstad
+C|240355|78|K|Birgitta Laugmo|79 år, socionom, Strömstad
+C|240356|66|K|Kerstin Svennarp-Hilmersson|66 år, utbildningskoordinator, Strömstad
+C|240357|44|M|Joakim Möller|44 år, verksamhetschef, Strömstad
+C|240358|51|M|Ulf Qvicklund|51 år, egen företagare, Strömstad
+C|240359|72|M|Sture Fredriksson|73 år, flygtekniker, Strömstad
+C|240360|78|M|Åke Sundemar|78 år, arkitekt, Tjärnö
+C|240361|90|M|Egon Fransson|90 år, ingenjör, Strömstad
+C|240362|63|K|Elisabeth Tysklind|62 år, Strömstad
+C|240363|65|K|Carina Wedin|66 år, socialarbetare, Strömstad
+C|240364|65|K|Mary Clovén|65 år speditör, Strömstad
+C|240365|70|K|Margareta Fredriksson|70, lärare, Strömstad
+C|240366|47|K|Anette Andersson|47 år, företagare, Strömstad
+C|240367|57|M|Anders Olsson|57 år, företagare/entreprenör, Strömstad
+C|146918|30|K|Karla Valdivieso|30 år, Lärare
+C|82468|61|M|Bengt Bivrin|62 år, Taxiförare, Strömstad
+C|146920|34|M|Andreas Nikkinen|34 år, Studerande
+C|146921|38|M|Anders Karlsson|38 år, Podcaster
+C|146922|36|K|Sonia Kamrani|36 år, Ekonom
+C|146923|24|M|David Nikkinen|24 år, Kommunalarbetare
+C|146924|50|M|Mikael Johansson|50 år, Driftledare
+C|146925|33|M|Simon Hansson|33 år, It-entreprenör
+C|146926|30|M|Robin Brenna-Lund|30 år, Betongarbetare
+C|146927|67|M|Gert-Ove Nilsson|67 år, Bussförare
+C|146928|32|M|Per Nikkinen|32 år, Studerande
+C|146929|20|M|Liam Brenna-Lund|20 år, Betongarbetare/butiksbiträde
+C|254212|46|K|Marie Edvinsson Kristiansen|46, Egenföretagare, Näsinge
+C|254208|62|M|Jörgen Molin|62, Sjuksköterska, Strömstad
+C|418027|63|M|Mikael Cederbratt|f.d Poliskommissarie, Strömstad
+C|418028|79|M|Dag Wersén|Advokat, Sydkoster
+C|418029|70|M|Bengt-Göran Bergstrand|f.d Bilförsäljare/Officer, Nordkoster
+C|418031|43|K|Simone Fischer|fil.kand Medievetenskap, Stömstad
+C|418032|51|M|Lars Erik Kristiansen|VD, Näsinge
+C|418033|75|K|Eva Borg|f.d Kriminalinspektör, Strömstad
+C|254234|50|M|Ola Persson|50, Centerchef, Strömstad
+C|418035|64|M|Mikael Nabrink|Författare, Strömstad
+C|418036|70|M|Per Stade|Tandläkare, Strömstad
+C|418037|31|K|Marie Goksöyr|Sjuksköterska, Strömstad
+C|418038|53|M|Mikael Sääf|, Strömstad
+C|418039|34|M|Markus Hedlund|Butikschef, Strömstad
+C|418040|20|M|Charlie Edvinsson|Kock, Strömstad
+C|418043|24|M|Sebastian Jansson|Säljare, Strömstad
+C|418044|22|K|Moa Joutsimäki|Säljare, Strömstad
+C|418045|70|K|Kerstin Bergstrand|F.d arbetsförmedlare, Strömstad
+C|167902|34|M|Mattias Gustafsson|Strateg, Strömstad
+C|199423|23|M|Fredrik Eriksson|23, Skee
+C|199424|52|M|Ulf Johansson|52, Strömstad
+C|199425|59|M|Morgan Gustafsson|59, Strömstad
+C|199426|44|M|John Johansson|44, Strömstad
+C|199427|53|M|Sven Nilsson|53, Strömstad
+C|199428|29|K|Sanja Gohlke|29, Skee
+C|199429|54|K|Eugenia Eriksson|54, Skee
+C|199430|59|K|Gunnel Carlsson|59, Strömstad
+C|199431|53|K|Annette Johansson|53, Strömstad
+C|199432|27|K|Annicka Stangebråten|27, Björneröd
+C|234446|68|M|Lars Åke Karlgren|Snickare, 68 år, Strömstad
+C|237402|68|K|Mia Öster|Krokstrandsbo
+C|235209|60|M|Stellan Nilsson|Tekniker, 60 år, Strömstad
+C|237404|63|K|Kerstin Eriksson|Butiksarbetare
+C|234435|53|K|Katharina Meyer|Butiksarbetare, 53 år, Strömstad
+C|235204|75|K|Gunilla Hegardt|Läkare, 75 år, Strömstad
+C|237407|20|K|Ellen Meyer|Butiksarbetare
+C|235203|68|M|Sten Brodén|Aktivist, 68 år, Strömstad
+C|237409|68|M|Anders Jernelius|Snickare
+C|237410|57|M|Helge Lind|Ekonomichef
+C|237411|69|K|Karin Askberger Jernelius|Skribent
+C|237412|61|M|Lars Elshaug|Säljare
+C|237413|65|M|Lars-Göran Karlsson|Byggnadsarbetare
+C|237414|57|K|Marie Rosén|Obehörig lärare
+C|237416|61|K|Lena Arulf|Lärare
+C|237417|63|K|Lisbeth Jonsson|f.d. Marinbiolog
+C|237418|62|M|Sven Gunnar Lunneryd|Forskare

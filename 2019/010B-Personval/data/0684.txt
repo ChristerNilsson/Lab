@@ -1,9 +1,169 @@
-2|35718|35719|35720|35721|35722|35723|35724|35725|35726|35727|35728|35729|35730|35731|35732|35733|35734|35735|35736|35737|35738
-4|127060|15848|127062|127063|127064|127065|127066|127067|127068|127069|127070|127071|127335|127336|127337|127338|127339|127340|127341|127342|127343|127344|127315|127316|127317|127319|127320|127321|127322|127323|127324
-638|513953
-68|78039|78040|78041|78042|78043|78044|78045|78046|78047|78048|78049|78050|78051|78052|78053|78054|78055|78056|78057|78058|78082|78083|78084|78085|78086|78087|78088|78089|78090|78091|78092|78093|78094|78095|78096|78097|78099|78103|78104|78106|78107|78108|78109|78111|78112|78113|78114
-1011|185235|185236
-3|204180|241309|241310|241311|241312
-1|72624|72625|72626|72627|72628|72629|72630|72631|72632|72633|72634|72635|72959|72636|72637|72638|72639|72964|72965|72640|72967|72641|72642|72643|72971|72644|72645|72646|72975|72647|72648
-110|122405|122406|122407|122408|122409|122410|122411|385306|515614
-5|167477|167478|167479|167480
+T|Sävsjö
+A|2|35718|35719|35720|35721|35722|35723|35725|35726|35727|35728|35729|35730|35731|35732|35733|35734|35735|35736|35737|35738
+A|4|127060|15848|127062|127063|127064|127065|127066|127067|127068|127069|127070|127071|127335|127336|127337|127338|127339|127340|127341|127342|127343|127344|127315|127316|127317|127319|127320|127321|127322|127323|127324
+A|638|513953
+A|68|78039|78040|78041|78042|78043|78044|78045|78046|78047|78048|78049|78050|78051|78052|78053|78054|78055|78056|78057|78058|78082|78083|78084|78085|78086|78087|78088|78089|78090|78091|78092|78093|78094|78095|78096|78097|78099|78103|78104|78106|78107|78108|78109|78111|78112|78113|78114
+A|1011|185235|185236
+A|3|204180|241309|241310|241311|241312
+A|1|72624|72625|72626|72627|72628|72629|72630|72631|72632|72633|72634|72635|72959|72636|72637|72638|72639|72964|72965|72640|72967|72641|72642|72643|72971|72644|72645|72646|72975|72647|72648
+A|110|122405|122406|122407|122408|122409|122410|122411|385306|515614
+A|5|167477|167478|167479|167480
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|638|KLP|Klassiskt liberala partiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|35718|44|K|Susanne Sjögren|44 år,Logistikansvarig, Sävsjö
+C|35719|60|M|Göran Häll|60 år,Industriarbetare, Sävsjö
+C|35720|64|K|Ingrid Ivarsson|64 år, Vårdare,Vrigstad
+C|35721|72|M|Christer Sjögren|71 år,Ingenjör, Sävsjö
+C|35722|56|K|Kerstin Hvirf|56 år,Undersköterska, Sävsjö
+C|35723|72|K|Lena Persson|72 år,Pensionär, Vrigstad
+C|35725|58|K|Eva Johansson|58 år, Kontorist,Sävsjö
+C|35726|68|M|P-O Ivarsson|67 år,Vrigstad
+C|35727|61|K|Majvor Skoog|60 år,Sjuksköterska, Sävsjö
+C|35728|66|M|Sven Krafft|66 år,pensionär, Sävsjö
+C|35729|65|K|Barbro Sand|65 år,Fastighetsassistent, Vrigstad
+C|35730|57|M|Christer Pettersson|57 år,Målare, Sävsjö
+C|35731|23|K|Elena Andreea Nicoara|23 år, Studerande,Stockaryd
+C|35732|33|M|Victor Erliksson|33 år,Lärare, Sävsjö
+C|35733|75|M|Mats Johansson|75 år,Pensionär, Sävsjö
+C|35734|79|M|Bengt Persson|78 år,Pensionär, Vrigstad
+C|35735|57|K|Lena Svensson Webb|57 år,Administratör, Sävsjö
+C|35736|30|M|Eddie Windborg|30 år,Livsmedelsarbetare, Sävsjö
+C|35737|55|K|Katarina Rydahl|56 år,Sjuksköterska, Sävsjö
+C|35738|79|K|Laila Fransson|78 år,Pensionär, Sävsjö
+C|127060|75|M|Sten-Åke Claesson|Skogsbrukare Solkaryd Sävsjö
+C|15848|36|K|Matilda Henriksson|36,Landskapsarkitekt, Sävsjö
+C|127062|68|M|Sven Andersson|Lantbrukare Kännestubba Sävsjö
+C|127063|55|M|Conny Karlsson|Konstruktör Skepperstad Sävsjö
+C|127064|38|K|Mirjam Johansson|Leg sjuksköterska Holmatorp 1 Sävsjö
+C|127065|60|M|Leif Henriksson|Egenföretagare Björnskog Sävsjö
+C|127066|61|M|Ingemar Ahnstedt|Småföretagare Häggatorp Sävsjö
+C|127067|74|K|Maini Karlsson|Aktivitetsledare Nässja Sävsjö
+C|127068|71|K|Gunilla Fransson|Pensionär Hjälmåkra Sävsjö
+C|127069|48|K|Anna Carlsson|Företagsrådgivare Skärsjö Sävsjö
+C|127070|55|M|Eije Johansson|Ekobonde Holmatorp 1 Sävsjö
+C|127071|80|M|Berndt Svensson|Pensionär Kättorp 11 Sävsjö
+C|127335|53|K|Anette Gustafsson|Personlig assistent, Rörvik
+C|127336|63|M|Stig Hagelvik|Maskinförare Hetseryd Stockaryd
+C|127337|63|M|Johan Brogård|Lantmästare Hylletofta Sävsjö
+C|127338|61|M|Karl-Gustav Svensson|Agronom Sanden 1 Lammhult
+C|127339|42|K|Ida Svensson|Lärare Mellangatan 16 Rörvik
+C|127340|54|M|Christer Strömblad|Lantmästare Bjärkaryd Sävsjö
+C|127341|45|M|Mikael Salomonsson|Konstruktör Hjälmseryd Stockaryd
+C|127342|71|M|Tommy Trofast|Skogstekniker Hylletofta Sävsjö
+C|127343|71|M|Lennart Olsson|Pensionär Sävsjövägen 45 Stockaryd
+C|127344|56|K|Maria Pettersson|Ekonomibiträde Hylletofta Gläntan 1 Sävsjö
+C|127315|59|M|Christer Sandström|Skogskonsulent Björkängsgatan 6 Sävsjö
+C|127316|57|K|Marie Svensson|Leg. Distriktssköterska Ö. Esplanaden 4 Sävsjö
+C|127317|66|M|Christer Bengtsson|Lantbrukare Ärnanäs 1 Sävsjö
+C|127319|56|K|Britt-Marie Andersson|Lantbrukare Örsby Ängen Sävsjö
+C|127320|66|K|Siv Classon|Sjuksköterska Ljunga Sunagård 7 Sävsjö
+C|127321|24|M|John Sjögren|Lammproducent Hultsjö Kättorp 3 Sävsjö
+C|127322|75|M|Kenneth Malmsten-Ek|Pensionär Kristnarp 3 Sävsjö
+C|127323|48|M|Jan-Gunnar Andersson|Lantbrukare Ljunga Broddagård 2 Sävsjö
+C|127324|31|M|Niklas Andersson|Maskinförare Örsby 9 Sävsjö
+C|513953|29|M|Sebastian Westerlund|
+C|78039|59|M|Stefan Gustafsson|Kommunalråd, Sävsjö
+C|78040|43|M|Fredrik Håkansson|Företagare, Sävsjö
+C|78041|54|K|Anna-Karin Yngvesson|Undersköterska, Sävsjö
+C|78042|54|M|Per Danielsson|Leg. psykolog, Rörvik
+C|78043|30|K|Johanna Danielsson|Inredningskonsult, Sävsjö
+C|78044|63|M|Hugo Cruz|Områdeschef, Sävsjö
+C|78045|50|M|Dan Thelander|Entreprenadsäljare, Sävsjö
+C|78046|47|K|Therese Petersson|Säljare, Sävsjö
+C|78047|38|M|Ghassan Bahnan|Industriarbetare, Sävsjö
+C|78048|62|K|Ing-Marie Arwidsson|Lärare, Sävsjö
+C|78049|41|M|Amos Makajula|Busschaufför, Sävsjö
+C|78050|59|K|Anncatrin Ek|Förskollärare, Sävsjö
+C|78051|67|M|Per-Egon Eliasson|Senior, Sävsjö
+C|78052|74|M|Pär-Eric Lantz|Företagare, Sävsjö
+C|78053|46|K|Pernilla Johansson|Barnpastor, Sävsjö
+C|78054|36|M|Samuel Bengtsson|Hantverkare, Sävsjö
+C|78055|65|K|Agneta Hjalmarsson|Distriktssköterska, Sävsjö
+C|78056|52|M|Samuel Nickolausson|Yrkeslärare, Sävsjö
+C|78057|54|M|Jan Johansson|Redovisningsekonom, Sävsjö
+C|78058|51|K|Mari Karlsson|Lärare, Hultsjö
+C|78082|68|M|Bengt Swerlander|Fd generalsekreterare, Vrigstad
+C|78083|34|M|Daniel Karlsson|Sågverksarbetare, Vrigstad
+C|78084|56|K|Erika Mallander Karlsson|Sjuksköterska, Vrigstad
+C|78085|19|M|Benjamin Petersson|Studerande, Vrigstad
+C|78086|71|M|Helmer Andersson|Byggnadsingenjör, Vrigstad
+C|78087|54|K|Marie Gustafsson|Biståndshandl., Vrigstad
+C|78088|30|M|Isac Kasiga|Lärare, Vrigstad
+C|78089|58|K|Helene Sigfridsson|Distriktssköterska, Söndra
+C|78090|70|M|Bengt Mattsson|Senior, Vrigstad
+C|78091|41|K|Katrin Sjögren|Frisör, Vrigstad
+C|78092|51|M|Torbjörn Johansson|Administratör, Vrigstad
+C|78093|72|K|Ing-Britt Lidhök|fd SFI-lärare, Vrigstad
+C|78094|75|M|Sven-Åke Gårdstam|Byggn.ingenjör, Vrigstad
+C|78095|56|K|May Andersson|Barnskötare, Vrigstad
+C|78096|72|M|Göran Svensson|Ingenjör, Vrigstad
+C|78097|47|M|Mattias Hjälmeby|Byggnadsingenjör, Vrigstad
+C|78099|68|M|Anders Griph|Präst, Rörvik
+C|78103|38|K|Isabelle Tiderblom|Barnskötare, Rörvik
+C|78104|34|M|Ludwig Axelsson|Stockaryd
+C|78106|23|M|Jonathan Andersson|Ungd.ledare, Skärshult
+C|78107|45|K|Anna Eriksson|Grundskollärare, Hultsjö
+C|78108|51|K|Camilla Danielsson|Förskollärare, Rörvik
+C|78109|44|M|Mattias Svensson|Lärare, Släthult
+C|78111|54|M|Mikael Erlandsson|Byggn.entreprenör, Hultsjö
+C|78112|53|K|Anna Svärd|Vårdlärare, Stockaryd
+C|78113|62|K|Annika Andersson|Fritidspedagog, Skärshult
+C|78114|73|M|Bengt-Åke Håkansson|fd Kyrkvaktm., Föreberg
+C|185235|42|M|Mikael Sterner|Ordförande, Sävsjö
+C|185236|70|M|Carl-Eric Ländell|Lärare, Vrigstad
+C|204180|51|M|Peter Gran|51, Sävsjö
+C|241309|70|M|Bengt Antonsson|
+C|241310|75|M|Göran Larsnäs|
+C|241311|67|K|Marita Hagelvik|
+C|241312|79|K|Dagny Bergvall-Persson|
+C|72624|34|K|Alexandra Wikström Kelemen|34 år, Företagare, Sävsjö
+C|72625|59|M|Mats Hermansson|59 år, Möbelsnickare, Rörvik
+C|72626|53|M|Patrik Christierson|53 år, Företagare, Sävsjö
+C|72627|74|K|Gunnel Svensson|74 år, Vårdlärare , Stockaryd
+C|72628|68|M|Alf Wihrén|68 år, Företagare, Vrigstad
+C|72629|75|M|Bo Nilvall|75 år, Civilingenjör, Sävsjö
+C|72630|73|M|Hans Svensson|73 år, Pensionär, Vrigstad
+C|72631|70|M|Arne Petersson|70 år, Företagare, Rörvik
+C|72632|36|M|Klas Hjalmarskog|36 år, Egen företagare, Vrigstad
+C|72633|73|M|Mats Karlsson|73 år, Företagare, Vrigstad
+C|72634|70|M|Jan-Ove Fransson|70 år, Skogsbrukare, Sävsjö
+C|72635|35|M|József Kelemen|35 år, Produktionsledare, Sävsjö
+C|72959|50|M|Morgan Olsson|50 år,Teknisk chef, Stockaryd
+C|72636|36|M|Martin Baum|36 år, Företagare, Sävsjö
+C|72637|68|K|Kerstin Karlsson|68 år, Lärare, Vrigstad
+C|72638|70|M|Björn Svensson|70 år, VA-ingenjör, Stockaryd
+C|72639|73|M|Lars Ejert Steifeldt|73 år, Pensionär, Rörvik
+C|72964|47|K|Natalie Engvall Lundgren|47 år, Företagare, Sävsjö
+C|72965|37|M|Daniel Axelsson|37 år, Inköpare, Stockaryd
+C|72640|58|M|Sonny Fridh|58 år, Företagare, Sävsjö
+C|72967|44|M|Niclas Jonsson|44 år, Företagare, Vrigstad
+C|72641|50|M|Jonas Lagerqvist|50 år, Varuhuschef, Sävsjö
+C|72642|58|K|Karin Magnusson|58 år, Företagare, Sävsjö
+C|72643|70|M|Christer Gustavsson|70 år, Åkeriägare, Stockaryd
+C|72971|50|M|DJ Bramer|50 år, Företagare, Vrigstad
+C|72644|54|M|Claes Gynnerstedt|54 år, Lantbrukare, Sävsjö
+C|72645|70|K|Inger Lundgren|70 år, Kontorist, Stockaryd
+C|72646|71|K|Ewa Svensson|71 år, Pensionär, Vrigstad
+C|72975|57|K|Berit Möller Hermansson|57 år, VD, Rörvik
+C|72647|77|K|Runa Jansson|77 år, Redovisningschef, Sävsjö
+C|72648|77|M|Harald Petersson|77 år, Kyrkomusiker, Sävsjö
+C|122405|65|M|Lars-Ola Helgesson|65, Konsult, Sävsjö
+C|122406|71|M|Kjell Lundkvist|71, Pensionär, Sävsjö
+C|122407|55|M|Peter Evertson|55, Kyrkvaktmästare, Sävsjö
+C|122408|74|M|Kennert Jonasson|74, Rörvik
+C|122409|42|M|Mikael Svensson|42, Montör, Sävsjö
+C|122410|70|M|Ronald Svensson|pensionär, 69, Lammhult
+C|122411|55|M|Bo Ek|egenföretagare, 53, Hjälmseryd
+C|385306|73|M|Arne Hemery Kenneth Larsson|
+C|515614|60|M|Ljubomir Komarica|
+C|167477|63|M|Stefan Fürst|metallarbetare
+C|167478|61|K|Kristina Jönsson|förskolelärare, Sävsjö
+C|167479|60|M|Björn Jönsson|pensionär, Sävsjö
+C|167480|34|K|Frida Lindemann|behandlingspedagog

@@ -1,9 +1,183 @@
-2|167841|31653|183486|24886|31652|25091|183490|31533|24887|31651|31605|183495|183496|31608|183498|183499|183501|183500|183503|183502|183505|183504|183507|183506|183701|183508|183703|183702|183707|183704|183709|31610|183708
-4|12038|12238|40254|40255|12243|40257|14682|40259|40260|40261|40262|40263|148729|40264|40265|40266|40267|40268|40269|40270|40271|40272|12026|40274|71670|40275|40276|40277|40278|40279
-532|219322|395051|395052|395053|395054|395055|395056|395057|395058|395059|395060
-68|250135|250136|31863|250138|250139|250140|250141|250142|250143|250144|250145|250146|250147|250148|250149|250150|250151|250152|250153|250155|250154|250156|250157|250158|250159|250160|250161|250162|250163|250164|250165|250166|250167|250168|250169
-3|249283|249957|249958
-55|419291|419292|419293|419294|419295|419296|415600|419298
-1|3420|3421|3319|3423|3318|3425|3426|3427|3428|3429|3430|3431|3432|3433|3434|3435|3436|3437|3438|3439
-110|82439|82440|82441|82442|82443|82444|82445|82446|82447
-1049|96760|96761|96762|96763|96764|96765|96766|96767|96768|96769|96770|96771|96772|96773|96774
+T|Ödeshög
+A|2|167841|31653|183486|24886|31652|25091|183490|31533|24887|31651|31605|183495|183496|31608|183498|183499|183501|183500|183503|183502|183505|183504|183507|183506|183701|183508|183703|183702|183707|183704|183709|31610|183708
+A|4|12038|12238|40254|40255|12243|40257|14682|40259|40260|40261|40262|40263|148729|40264|40265|40266|40267|40268|40269|40270|40271|40272|12026|40274|71670|40275|40276|40277|40278|40279
+A|532|219322|395051|395052|395053|395054|395055|395056|395057|395058|395059|395060
+A|68|250135|250136|31863|250138|250139|250140|250141|250142|250143|250144|250145|250146|250147|250148|250149|250150|250151|250152|250153|250155|250154|250156|250157|250158|250159|250160|250161|250162|250163|250164|250165|250166|250167|250168|250169
+A|3|249283|249957|249958
+A|55|419291|419292|419293|419294|419295|419296|415600|419298
+A|1|3420|3421|3319|3423|3318|3425|3426|3427|3428|3429|3430|3431|3432|3433|3434|3435|3436|3437|3438|3439
+A|110|82439|82440|82441|82442|82443|82444|82445|82446|82447
+A|1049|96760|96761|96762|96763|96764|96765|96766|96767|96768|96769|96770|96771|96772|96773|96774
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1049|ÖHGP|Ödeshögs Partiet
+C|167841|45|K|Annika Sundholm|elevassistent, Hästholmen
+C|31653|56|M|Anders Karlsson|56 år, industritjänsteman, Ödeshög
+C|183486|52|K|Maria Gustafsson|behandlingsassistent, Ödeshög
+C|24886|32|M|Johan Kollberg|32 år, lärare, Ödeshög
+C|31652|57|K|Jeanette Andersson|57 år, lagerarbetare, Ödeshög
+C|25091|44|M|Peter Frejhagen|44 år, verksamhetsledare, Ödeshög
+C|183490|64|K|Birgitta Hellman Magnusson|bibliotekschef, Hästholmen
+C|31533|68|M|Börje Lindholm|68 år, pensionär, Ödeshög
+C|24887|60|K|Madelaine Vilgren|60 år, förbundssekreterare, Ödeshög
+C|31651|57|M|Benny Nilsson|57 år, metallarbetare, Ödeshög
+C|31605|44|K|Johanna Karlsson|44 år, barnskötare, Ödeshög
+C|183495|73|M|Lasse Frisk|konstnär, Forsby
+C|183496|56|K|Anita Nilsson|pensionär, Ödeshög
+C|31608|67|M|Kjell-Åke Gauffin|66 år, verktygsmakare, Ödeshög
+C|183498|71|K|Ingvor Johansson|pensionär, Ödeshög
+C|183499|65|M|Bengt Andersson|f.d. socialarbetare, Ödeshög
+C|183501|43|K|Evelina Stillerson|barnskötare, Ödeshög
+C|183500|54|M|Mohsen Nouri|egen företagare, Ödeshög
+C|183503|44|K|Camilla Gauffin|svetsare, Grönäng
+C|183502|66|M|Pär Sveningson|egen företagare, Ödeshög
+C|183505|27|K|Johanna Lingefors|montör, Hästholmen
+C|183504|28|M|Nicklas Svensson|tekniker, Hästholmen
+C|183507|37|K|Julia Lättström|boendestödjare, Ödeshög
+C|183506|77|M|Arne Arvidsson|torpare, Boet
+C|183701|31|K|Elin Andersson|vårdbiträde, Ödeshög
+C|183508|52|M|Muhamad Dahab Abed|metallarbetare, Ödeshög
+C|183703|72|K|Göta Greck-Flink|pensionär, Ödeshög
+C|183702|62|M|Conny Collberg|arbetsledare, Ödeshög
+C|183707|70|K|Kerstin Nordholm|pensionär, Ödeshög
+C|183704|40|M|Douglas Sundholm|arbetsledare, Hästholmen
+C|183709|38|K|Lisa Hallin|universitetsstuderande, Ödeshög
+C|31610|76|M|Sven-Arne Johnsson|76 år, pensionär, Ödeshög
+C|183708|66|M|Stefan Lindén|pensionär, Ödeshög
+C|12038|61|M|Jonny Ståhl|61 år, Egen företagare, Ödeshög
+C|12238|66|M|Roger Silfver|66 år, Gruppledare, Boet
+C|40254|69|K|Marianne Bremer|Lärare, Västra Tollstad
+C|40255|42|M|Samuel Stenstrand|Designer, Boet
+C|12243|63|K|Lisbeth Antonsson|63 år, F.d. distriktssköterska, Ödeshög
+C|40257|66|M|Karl-Gustav Johansson|Egen företagare, Dalbobeta
+C|14682|72|M|Ove Bäck|73 år, Lantbrukare, Ödeshög
+C|40259|33|K|Elisabet Nilsson|Förskollärare, Stora Åby
+C|40260|50|K|Catarina Johansson|Sjuksköterska, Ödeshög
+C|40261|46|K|Gunilla Bäck Runnander|Undersköterska, Hästholmen
+C|40262|45|K|Åse Wännerstam|Egen företagare, Ödeshög
+C|40263|42|M|Per-Arne Hagby|Konstruktör, Öjan
+C|148729|36|M|Mathias Karlsson|Platschef, Ödeshög
+C|40264|36|M|Jonny Johansson|Egen företagare, Dalbobeta
+C|40265|45|K|Karin Karlsson|Banktjänsteman, Västra Tollstad
+C|40266|69|M|Jan-Eric Andersson|Redovisningskonsult, Västra Tollstad
+C|40267|53|M|Refik Beka|Fritidsledare, Ödeshög
+C|40268|61|M|Ulf Lundstedt|Lantbrukare, Ödeshög
+C|40269|62|K|Ritha Gavelli|Präst, Västra Tollstad
+C|40270|74|M|Claes Mörk|Jur kand, Rök
+C|40271|65|M|Göran Berglund|Lantbrukare, Rök
+C|40272|63|K|Lena Silfver|Socionom, Boet
+C|12026|63|M|Michael Cornell|63 år, Projektledare, Ödeshög
+C|40274|73|M|Per-Alvar Davidsson|Lantbrukare, Boet
+C|71670|68|K|Gunni Karlsson|Församlingspedagog, Trehörna
+C|40275|73|M|Sven-Erik Andersson|Åkeriägare, Ödeshög
+C|40276|67|K|Eva Egedal|Svanshals
+C|40277|68|K|Sonja Johansson|Svanshals
+C|40278|75|K|Inga-Lisa Oskarsson|Vårdbiträde, Ödeshög
+C|40279|81|K|Ingrid Staaf|Fd Lärare, Ödeshög
+C|219322|26|K|Baharan Raoufi-Kvist|26år, Föräldraledig, Ödeshög
+C|395051|65|M|Michael Ernst|65, Pensionär, Heda
+C|395052|60|K|Elisabeth Samuelsson|60, Koordinator Linköpings universitet, Hästholmen
+C|395053|28|M|Samuel Raoufi-Kvist|28, Folkhögskolelärare, Ödeshög
+C|395054|26|K|Anna Lindberg|26, Busschaufför, Ödeshög
+C|395055|26|M|Daniel Kvist|26, Projektledare, Ödeshög
+C|395056|47|K|Sissela Wasén|47, Biblioteksassistent, Alvestra
+C|395057|71|M|Björn Hanell|71, Pensionär, Hästholmen
+C|395058|60|K|Kristina Johansson|61 år, Biblioteksassistent, Heda
+C|395059|29|M|Olle Lindberg|29, Busschaufför, Ödeshög
+C|395060|49|M|Håkan Lundin|49 år, Gåvoförmedlare, Heda
+C|250135|45|K|Annicki Oscarsson|Kommunalråd, Ödeshög
+C|250136|64|M|Lennart Åberg|Frisör,Ödeshög
+C|31863|48|M|Magnus Oscarsson|Riksdagsledamot, Ödeshög
+C|250138|64|K|Gunilla Christensen|Pensionär,Ödeshög
+C|250139|55|M|Jonni Harrius|Företagare, Ödeshög
+C|250140|39|M|Robert Wahlström|Undersköterska, Ödeshög
+C|250141|56|M|Anders Rydberg|Företagare,Ödeshög
+C|250142|70|K|Margoth Petersson|Familjehemsförälder,Ödeshög
+C|250143|62|K|Charlotte Gustafsson|Vårdbiträde,Ödeshög
+C|250144|43|M|Mattias Petersson|Handledare,Ödeshög
+C|250145|74|K|Birgitta Widén Blomberg|Reporter,Ödeshög
+C|250146|45|K|Chatrine Rydberg|Undersköterska,Ödeshög
+C|250147|38|K|Heléne Thunberg|Barnskötare,Väderstad
+C|250148|24|K|Frida Rydberg|Florist,Ödeshög
+C|250149|59|M|Mikael Brickarp|Verktygsmakare,Tranås
+C|250150|67|M|Jonny Stålknapp|Major,Ödeshög
+C|250151|74|K|Christina Bruhno|Psykolog,Ödeshög
+C|250152|66|K|Barbro Landstedt|Pensionär,Ödeshög
+C|250153|65|K|Irene Ehn|Pensionär,Ödeshög
+C|250155|57|M|Peter Olofsson|Chefredaktör, Ödeshög
+C|250154|69|M|Christer Torebring|Pensionär,Ödeshög
+C|250156|42|M|Hans Björn|Controller,Ödeshög
+C|250157|58|M|Magnus Ax|Elektriker,Ödeshög
+C|250158|42|K|Emma Henrysson|Förskollärare,Ödeshög
+C|250159|72|M|Hans Blomberg|Universitetslärare,Ödeshög
+C|250160|49|M|Tomas Ramevik|Behandlingsassistent,Ödeshög
+C|250161|36|M|Andreas Lippman|Servicetekniker,Ödeshög
+C|250162|69|K|Inger Kroon|Pensionär,Ödeshög
+C|250163|44|M|Maikl Joulak|Guldsmed,Ödeshög
+C|250164|52|M|Mats Högsveden|Montör,Ödeshög
+C|250165|68|K|Inger Dahl|Pensionär,Ödeshög
+C|250166|72|M|Arne Apelklint|Pensionär,Ödeshög
+C|250167|58|M|Weine Bäck|Ödeshög
+C|250168|79|M|Rune Sandberg|Pensionär,Ödeshög
+C|250169|70|K|Ingegerd Carlsson|Lärare,Ödeshög
+C|249283|34|M|Martin Klerung|gymnasielärare, Ödeshög
+C|249957|31|M|Martin Lidegran|Socialt arbete, 31 år
+C|249958|75|M|Roland Fransson|Företagare, 76 år
+C|419291|58|K|Karin Langhard|58, Keramiker, kulturarbetare
+C|419292|44|K|Jennifer Hedrén|44, Livskonstnär
+C|419293|67|M|Anders Magnusson|67, Biografarbetare, pensionär
+C|419294|57|K|Christina Bryntesson|57, Folkhögskolelärare
+C|419295|40|M|Joakim Haraldsted|40, Snickare
+C|419296|69|K|Sonja Hedrén|69, Pensionär
+C|415600|67|K|Cvijeta Stojnic-Karlsson|67, Ekonom, Ödeshög
+C|419298|53|M|Håkan Strotz|53, Jägmästare, Egenföretagare
+C|3420|47|M|Jonas Andersson|Ödeshög
+C|3421|37|K|Kerstin Slatte|Ödeshög
+C|3319|38|M|John Widegren|Lantmästare, 38 år, Ödeshög
+C|3423|64|M|Bengt Gideskog|Svanshals
+C|3318|60|K|Betty Malmberg|Riksdagsledamot/Agronom, 60 år, Ödeshög
+C|3425|74|M|Stig Widell|Ödeshög
+C|3426|18|M|Teodor Johansson|Rök
+C|3427|68|M|Per Jakobsson|Ödeshög
+C|3428|57|K|Gabriella Cahlin|Heda
+C|3429|69|M|Kalle Bäck|Trehörna
+C|3430|76|K|Anita Rinman|Ödeshög
+C|3431|53|M|Fredrik Gustafsson|Ödeshög
+C|3432|69|K|Viola Ingvarsson|Ödeshög
+C|3433|44|M|Oscar Pantzar|Stava
+C|3434|39|K|Beatrice Rundgren|Ödeshög
+C|3435|68|M|Per-Ove Samuelsson|Svanshals
+C|3436|76|K|Elisabeth Cobb|Svanshals
+C|3437|80|M|Svante Bergqvist|Ödeshög
+C|3438|71|M|Claes Dufmats|Svanshals
+C|3439|33|M|Alexander Gideskog|Svanshals
+C|82439|37|M|Johan Tegnert|37, industriarbetare, Ödeshög
+C|82440|75|M|Örjan Jansson|75, chaufför, Ödeshög
+C|82441|61|M|Mikael Eriksson|61, trävaruarbetare, Ödeshög
+C|82442|38|M|Benny Jagefalk|38 år, mekaniker, Väderstad
+C|82443|31|M|Tommy Andersson|31 år, industriarbetare, Ödeshög
+C|82444|68|M|Hans Ström|68 år, biodlare, Ödeshög
+C|82445|71|M|Lars-Göran Bonander|71 år, konsult, Västra Tollstad
+C|82446|33|M|Marcus Gustafsson|33 år, resemontör, Heda
+C|82447|51|M|Jonny Hjelm|51 år, produktionstekniker, Ödeshög
+C|96760|74|M|Charles Eriksson|Pensionär
+C|96761|59|K|Lena Lago Berg|Personlig assistent
+C|96762|67|K|Kristina Fredriksson|Personlig assistent
+C|96763|71|M|Jan Fredriksson|Pensionär
+C|96764|61|M|Sven Inge Karlsson|Serviceman
+C|96765|61|K|Lorita Ivarsson|Läkarsekreterare
+C|96766|24|M|Abdallah Farhan|Personlig assistent
+C|96767|53|M|Ken Linne´r|Tetraplegiker
+C|96768|73|M|Åke Johansson|Pensionär
+C|96769|65|K|Anita Christensen|Lärare
+C|96770|34|M|Patrik Syre´n|Metallarbetare
+C|96771|61|M|Hans Landstedt|Montör
+C|96772|70|M|Seppi Hader|Svetsare
+C|96773|70|M|Keller Johansson|Herr
+C|96774|70|M|Bo Andersson|Pensionär

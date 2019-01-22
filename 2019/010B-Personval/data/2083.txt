@@ -1,9 +1,185 @@
-2|237828|237829|237830|237831|237832|237833|237834|237835|237836|237837|237838|237839|237840|237841|237842|237843|237844|237845|237846|237847|237848|237849|237850|237851|237852|237853|237854|237855|237856|237857|237858|237859|237860|237861|237862|237863|237864|237865|237866|237867|237868|237869|237870
-4|38950|38941|331273|38948|331275|38961|33556|38920|331279|331280|331281|331282|331283|331284|331285|331286|331287|331288|456428|331290|331291|331292|331293|331294|331295|331296|331297|331298|331299|331300|331301|331302|331303
-747|400637|400638|400639|400640|400641|400642|400643|400644|400645|400646|400647|400648|400649|400650|400651|400652|400653|400654|400655|400656|400657|400658|400659|400660|400661|400662|400663
-68|141475|141476|9168|141478|215598
-3|156313|184768|184769|184770|184771|184772|184773|184774|184775|184776
-55|123317|123318|114146|114210|123321|123322|123323|123324|123325|123326
-1|36744|36181|36746|36747|36748|36749|36750|35833|36752|36753|36754|36755|36756|36757|36758|36759|36760|36761|36762|36763|36764|36765|36766
-110|36989|36990|36991|36992|36993
-5|63820|289759|289760|289761|289762|289763|289764|289765|289766|289767
+T|Hedemora
+A|2|237828|237829|237830|237831|237832|237833|237834|237835|237836|237837|237838|237839|237840|237841|237842|237843|237844|237845|237846|237847|237848|237849|237850|237851|237852|237853|237854|237855|237856|237857|237858|237859|237860|237861|237862|237863|237864|237865|237866|237867|237868|237869|237870
+A|4|38950|38941|331273|38948|331275|38961|33556|38920|331279|331280|331281|331282|331283|331284|331285|331286|331287|331288|456428|331290|331291|331292|331293|331294|331295|331296|331297|331298|331299|331300|331301|331302|331303
+A|747|400637|400638|400639|400640|400641|400642|400643|400644|400645|400646|400647|400648|400649|400650|400651|400652|400653|400654|400655|400656|400657|400658|400659|400660|400661|400662|400663
+A|68|141475|141476|9168|141478|215598
+A|3|156313|184768|184769|184770|184771|184772|184773|184774|184775|184776
+A|55|123317|123318|114146|114210|123321|123322|123323|123324|123325|123326
+A|1|36744|36181|36746|36747|36748|36749|36750|35833|36752|36753|36754|36755|36756|36757|36758|36759|36760|36761|36762|36763|36764|36765|36766
+A|110|36989|36990|36991|36992|36993
+A|5|63820|289759|289760|289761|289762|289763|289764|289765|289766|289767
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|747|KLH|Kommunlistan
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|237828|60|M|Ola Gilén|Hedemora
+C|237829|69|K|Agneta Andreasson Bäck|Hedemora
+C|237830|48|M|Henrik Selin|48 år, Hedemora
+C|237831|50|K|Camilla Norberg|50 år, Hedemora
+C|237832|27|M|David Aura|Hedemora
+C|237833|68|K|Kajsa-Lena Fagerström|Hedemora
+C|237834|69|M|Lars Westlund|Prästhyttan
+C|237835|70|K|Viveka Morelius|Långshyttan
+C|237836|75|M|Berndt Nygårds|Hedemora
+C|237837|71|K|Anita Hedqvist|Garpenberg
+C|237838|46|M|Stefan Norberg|Hedemora
+C|237839|55|K|Helena Källberg|Hedemora
+C|237840|45|M|Daniel Andersson|Hedemora
+C|237841|59|K|Karin Högvall|Hedemora
+C|237842|71|M|Per Fagerström|Hedemora
+C|237843|69|K|Brigitta Thörnberg|Långshyttan
+C|237844|59|M|Ulf Hansson|Smedby
+C|237845|54|K|Susanne Berglin|Hedemora
+C|237846|34|M|Mostafa Geha|Hedemora
+C|237847|74|K|Inger Persson|Hedemora
+C|237848|57|M|Göran Hoffman|Hedemora
+C|237849|43|K|Anja Hedqvist|Hedemora
+C|237850|62|M|Håkan Morelius|Långshyttan
+C|237851|21|K|Alva Norberg|Hedemora
+C|237852|57|M|Bengt Fredriksson|Vikmanshyttan
+C|237853|65|K|Kerstin Håkansson|Långshyttan
+C|237854|69|M|Magnus Jordan|Hedemora
+C|237855|39|K|Maja Oljans|Koberga
+C|237856|67|M|Torgny Karlsson|Hedemora
+C|237857|27|K|Sofie Söderberg|Hedemora
+C|237858|34|M|Fredrik Rooslien|Hedemora
+C|237859|50|K|Susanne Hoffman|Hedemora
+C|237860|75|M|Göran Nerpin|Långshyttan
+C|237861|71|K|Solweig Pernsjö|Hedemora
+C|237862|48|M|Lars-Göran Hallström|Hedemora
+C|237863|70|K|Inger Hjort|Hedemora
+C|237864|55|M|Sören Forslund|Vikmanshyttan
+C|237865|58|K|Åsa Söderberg|Bältarbo
+C|237866|72|M|Hans Pernsjö|Hedemora
+C|237867|64|K|AnnaKatarina Rooslien|Långshyttan
+C|237868|76|M|Rolf Löfgren|Hedemora
+C|237869|61|M|Mauritz Nuotio|Långshyttan
+C|237870|72|M|Tommy Ander|Hedemora
+C|38950|64|K|Kristina Lundgren|Hedemora
+C|38941|72|M|Owe Ahlinder|Hedemora
+C|331273|63|M|Leif Hedlund|63 år, Elektriker/lantbrukare, Djusa
+C|38948|68|K|Lillemor Gunnarsson|Hedemora
+C|331275|43|K|Erica Drugge|43 år, Lärare, Backa
+C|38961|43|M|Mikael Gotthardsson|Hedemora
+C|33556|53|K|Karin Perers|52 år, Butiksbiträde, Österby
+C|38920|59|K|Anette Granegärd|Hedemora
+C|331279|42|K|Catharina Wahlert|42 år, Personalchef, Näs Kungsgård
+C|331280|30|M|Robin Gossas|30 år, Bantekniker, Smedby
+C|331281|57|M|Mats Byléhn|57 år, Lantbrukare, Stjärnsund
+C|331282|35|K|Ida Kortesmäki|35 år, Fritidsledare, Hedemora
+C|331283|37|M|Michael Stenius|38 år, Konstnär/tatuerare, Hedemora
+C|331284|48|K|Eva Aspnäs|48 år, Företagare, Övernora
+C|331285|61|K|Maj Hermansson|61 år, Hälsoentreprenör, Örängarna
+C|331286|47|M|Joakim Nordström|47 år, Civilingenjör, Örängarna
+C|331287|60|K|Pirjo Gustafsson|60 år, Företagsutvecklare, Norshyttan
+C|331288|40|K|Linnea Axfeldt|40 år, Produktionsplanerare, Hedemora
+C|456428|70|K|Birgitta Spjut|69 år, Företagare, Hedemora
+C|331290|52|M|Bert Jonsson|52 år, Murare, Garpenberg
+C|331291|69|M|Roland Kols|69 år, Pensionär, Pershyttan
+C|331292|73|M|Owe Åberg|73 år, Lantbrukare, Koberga
+C|331293|43|K|Mona Geprägs|43 år, Skogsmästare, Övernora
+C|331294|45|K|Annika Ruth|44 år, Koordinator, Garpenberg
+C|331295|63|K|Lena Grönvalls|63 år, Sekreterare, Hedemora
+C|331296|69|M|Lars G Norman|69 år, Ingenjör, Myckelby
+C|331297|54|M|Anders Olsson|54 år, Utredare, Smedby
+C|331298|56|K|Ulla-Britt Aura|55 år, Husdjurstekniker, Plogsbo
+C|331299|42|M|Mikael Higberg|43 år, Musiklärare, Backa
+C|331300|46|K|Kerstin Tommila|46 år, Ekonom, Garpenberg
+C|331301|40|K|Karin Higberg Sörensdotter|40 år, Föreståndare Kulturskolan, Västerby
+C|331302|67|M|Hans Berglund|67 år, Maskinist, Hedemora
+C|331303|81|K|Inga-Stina Matsson|81 år, Pensionär, Persbo
+C|400637|74|M|Allan Mattsson|Långshyttan
+C|400638|73|M|Per Bengtsson|Stjärnsund
+C|400639|20|K|Joanna Gahnold|Stjärnsund
+C|400640|37|M|Larz Andersson|Hedemora
+C|400641|48|M|Patrik Lindström|Vikmanshyttan
+C|400642|58|M|Vesa Remsu|Dala-Husby
+C|400643|49|M|Ulf Kindlund|Långshyttan
+C|400644|66|K|Inga-Britt Johansson|Stjärnsund
+C|400645|49|K|Anneli Moilanen|Långshyttan
+C|400646|22|M|Ali Aria|Hedemora
+C|400647|57|M|Mikael Franke-Blom|Stjärnsund
+C|400648|43|M|Jonas Faleij|Hedemora
+C|400649|50|K|Maria Lindström|Vikmanshyttan
+C|400650|42|M|Joakim Svedlund|Hedemora
+C|400651|66|M|George Larsson|Långshyttan
+C|400652|27|K|Sofia Svanberg Kesseli|Hedemora
+C|400653|19|M|Fabian Översti|Långshyttan
+C|400654|56|M|Mikael Hallén|Vikmanshyttan
+C|400655|74|K|Helen Edwards Lutsch|Turbo
+C|400656|75|M|Viktor Wirycz|Hedemora
+C|400657|48|M|Johan Blomqvist|Garpenberg
+C|400658|32|M|Olov Pettersson|Stjärnsund
+C|400659|49|K|Anne Översti|Långshyttan
+C|400660|54|M|Tommy Fernström|Långshyttan
+C|400661|20|M|Reza Alizadeh|Hedemora
+C|400662|68|M|Kjell Berglund|Långshyttan
+C|400663|19|M|Morteza Alamy|Hedemora
+C|141475|69|K|Solweig Lundin|företagare
+C|141476|38|K|Emilia Romboni|företagare
+C|9168|49|M|Robert Dahlberg|företagare, Hedemora
+C|141478|52|M|Alf Brodin|tekniker
+C|215598|43|M|Andreas Romboni|företagare
+C|156313|48|K|Anna Eling|Egenföretagare, 48 år, Hedemora
+C|184768|32|M|Yousef Hussin|Hedemora, Studerande
+C|184769|47|K|Sirpa Holopainen|Vikmanshyttan, Familjestödskonsulent
+C|184770|32|M|Ahmad Shehade|Vikmanshyttan, Telekommunikation/MBA
+C|184771|62|M|Claes Perrault|Emaus, Arbetsledare
+C|184772|78|M|Jan Engsås|Västerby, Jägmästare
+C|184773|56|M|Lars Eling|Långshyttan, Verktygsmakare
+C|184774|73|M|Göran Badlund|Emaus, Pensionär
+C|184775|19|M|Johan Eling|Långshyttan, Studerande
+C|184776|47|K|Ulrika Sundquist|Svedjan, Specialpedagog
+C|123317|69|M|Leif Stenberg|Hedemora
+C|123318|70|K|Kristina Norström|Stjärnsund
+C|114146|68|K|Kerstin Lundh|Hedemora, leg sjuksköterska
+C|114210|70|K|Krystyna Karlsson|Hedemora, pensionerad undersköterska
+C|123321|34|M|Jim Nyberg|Davidshyttan
+C|123322|42|M|Robert Eriksson|Hedemora
+C|123323|33|K|Frida Karlsson|Davidshyttan
+C|123324|58|M|Jan Ivåker|Vikmanshyttan
+C|123325|66|K|Ann-Marie Samuelsson|Hedemora
+C|123326|77|M|Karl Erik Pettersson|Davidshyttan
+C|36744|58|M|Lennart Mångs|58 år, Målby
+C|36181|64|K|Britt-Inger Remning|64 år, legitimerad sjukgymnast, Hedemora
+C|36746|56|M|Jan Bergqvist|56 år, Bältarbo
+C|36747|49|K|Tamara Zuljevic|49 år, Hedemora
+C|36748|75|M|Jonas Carlgren|75 år, Hedemora
+C|36749|41|M|Jonas Fafara|41 år, Hedemora
+C|36750|70|M|Göran Wennerström|70 år, Långshyttan
+C|35833|23|K|Sofia Axelsson|23 år, student, Hedemora
+C|36752|60|M|Torbjörn Dahlström|60 år, Hedemora
+C|36753|30|M|Mikael Gråbo|30 år, Hedemora
+C|36754|67|K|Ingrid Wennerström|67 år, Långshyttan
+C|36755|76|K|Birgitta Westholm|76 år, Hedemora
+C|36756|53|M|Tommy Matsson|53 år, Hedemora
+C|36757|63|K|Marika Kagg Stenmalm|63 år, Hedemora
+C|36758|39|M|Daniel Erlandsson|39 år, Hedemora
+C|36759|74|K|Christina Karlsdotter|74 år, Hedemora
+C|36760|55|K|Mona Dalmats|55 år, Smedby
+C|36761|53|M|Samir Zuljevic|53 år, Hedemora
+C|36762|46|K|Åsa Ljungqvist|46 år, Bältarbo
+C|36763|39|M|Petter Isacson|39 år, Nibble
+C|36764|42|K|Saida Ismayilova|42 år, Hedemora
+C|36765|71|K|Gunborg Morén|71 år, Hedemora
+C|36766|73|K|Solbrith Stening|73 år, Hedemora
+C|36989|61|K|Gunilla Brandt Jonsson|Undersköterska, Hedemora
+C|36990|49|K|Marit Andersson|Restaurangbiträde, Hedemora
+C|36991|60|M|Sören Andersson|Hedemora, Allt i allo
+C|36992|45|K|Sandra Eriksson|Långshyttan, Konsult
+C|36993|58|M|Lars Lundberg|Hedemora, Chaufför
+C|63820|44|M|Kenneth Andersson|Hedemora, 45 år
+C|289759|72|K|Solbritt Andersson|Pensionär
+C|289760|51|M|Lars Eklund|Arbetsmarknadskonsulent
+C|289761|63|K|Helena Duroj|Utvecklare grundskola
+C|289762|66|M|Tommy Andersson|Behandlingsassistent
+C|289763|71|K|Birgitta Törnros|
+C|289764|65|M|Björn Pettersson|Pensionär
+C|289765|67|M|Staffan Nordström|Pensionär
+C|289766|78|M|Hjalmar Envall|Adjunkt
+C|289767|63|K|Åsa Wedin|Lärarutbildare

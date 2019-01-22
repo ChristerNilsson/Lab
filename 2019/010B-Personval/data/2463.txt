@@ -1,9 +1,115 @@
-2|192127|192997|197389|197390|197391|197392|197393|197394|197395|193015|197397|197398|197399|197400|197401|197402|197403|197404|197405|197406|197407|197408|197409|197410|197411|197412|197413|197414|197415|197416
-4|71103|48813|55741|71106|55738|71108|71109|71110|71111|71112|71113|71114|71115|71116|71117|71118|71119|71120|71121|71122|71123|71124|71125|71126
-68|41293|504895|504896|504897
-3|68011|68012|68013|68014|68015|68016|68017|68018
-1|515134
-110|71267
-5|408615|408616|408617|408618|408619|408620|408621
-185|395061|395062|395063|395064|395065|395066|395067|395068|395069|395070|395071|395072|395073|395074|395075|395076|395077
-1354|509266|509268|509269|509270
+T|Åsele
+A|2|192127|192997|197389|197390|197391|197392|197393|197394|197395|193015|197397|197398|197399|197400|197401|197402|197403|197404|197405|197406|197407|197408|197409|197410|197411|197412|197413|197414|197415|197416
+A|4|71103|48813|55741|71106|55738|71108|71109|71110|71111|71112|71113|71114|71115|71116|71117|71118|71119|71120|71121|71122|71123|71124|71125|71126
+A|68|41293|504895|504896|504897
+A|3|68011|68012|68013|68014|68015|68016|68017|68018
+A|1|515134
+A|110|71267
+A|5|408615|408616|408617|408618|408619|408620|408621
+A|185|395061|395062|395063|395064|395065|395066|395067|395068|395069|395070|395071|395072|395073|395074|395075|395076|395077
+A|1354|509266|509268|509269|509270
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|185|ÅSP|Åselepartiet
+B|1354|ÅF|Åseles framtid
+C|192127|67|K|Gunnel Jonsson|67 år, Egen företagare, Åsele
+C|192997|50|M|Urban Lindström|50 år, Verksamhetsutvecklare, Åsele
+C|197389|56|K|Birgitta Norrlänning|56 år, Verksamhetsutvecklare
+C|197390|35|M|Andreas From|35 år, Egen företagare
+C|197391|45|K|Pernilla Norberg|45 år, Lokalvårdare
+C|197392|60|M|Tommy Danielsson|60 år, Verksamhetsutvecklare
+C|197393|55|K|Carina Danielsson|55 år, Undersköterska
+C|197394|40|M|Marcus Lindh|40 år, Inredningssnickare
+C|197395|66|K|Vivi-Anne Bäcklund|67 år, Pensionär
+C|193015|53|M|Peter Lindström|53 år, Arbetsmiljöexpert, Åsele
+C|197397|68|K|Birgitta Jonsson|68 år, Pensionär
+C|197398|48|M|Peter Danielsson|48 år, Kock
+C|197399|63|K|Gudrun Lindberg|63 år, Boendeassistent
+C|197400|63|M|Roger Jakobsson|63 år, Kulturarbetare
+C|197401|23|K|Emilia Söderström|23 år, Undersköterska
+C|197402|72|M|Svante Söderqvist|72 år, Pensionär
+C|197403|47|K|Camilla Wikström|47 år, Säljare
+C|197404|74|M|Ove Nordin|74 år, f.d. Näringslivschef
+C|197405|26|K|Connie A. Lindgren|26 år, Allkonstnär
+C|197406|60|M|Stefan Gärdlund|60 år, Personlig assistent
+C|197407|69|K|Berit Edmark|69 år, Pensionär
+C|197408|45|M|Gerhard Sannsell|45 år, Vaktmästare
+C|197409|45|K|Marina Englund|45 år, Socialpedagog
+C|197410|58|M|Martin Göransson|58 år, IT-samordnare
+C|197411|63|K|Maria Makamäki|63 år, Tjänsteman
+C|197412|71|M|Gustav Johansson|71 år, Pensionär
+C|197413|59|K|Ewa Jacobsson|59 år, Undersköterska
+C|197414|62|M|Lars-Gunnar Johansson|62 år, Verkstadsarbetare
+C|197415|55|M|Tommy Blomqvist|55 år, Chaufför
+C|197416|82|M|Jim Bäck|82 år, Skogsarbetare
+C|71103|42|M|Jim Danielsson|Åsele, 42 år
+C|48813|39|K|Anna Enfeldt|39 år, Potatisodlare, Gafsele, Åsele
+C|55741|64|K|Sylvia Samuelsson|64 år, Lärare, Åsele
+C|71106|41|K|Åsa Eriksson|Åsele, 40 år
+C|55738|65|K|Margareta Johansson|65 år, Undersköterska, Fredrika, Åsele
+C|71108|41|M|Nicklas Fransson|Baksjöliden, 41 år
+C|71109|38|K|Noomi From-Norlin|Gafsele, 38 år
+C|71110|63|M|Alf Johansson|Klippen, 63 år
+C|71111|39|K|Sylvia Schöne|Östernoret, 39 år
+C|71112|59|K|Eva Strömberg|Baksjöliden, 59 år
+C|71113|77|K|Marita Hansson|Fredrika, 77 år
+C|71114|53|M|Michael Gavelin|Ytterrisjö, 53 år
+C|71115|46|M|Joakim Enerstedt|Åsele, 46 år
+C|71116|67|K|Berith Oderståhl|Gafsele, 67 år
+C|71117|67|M|Roger Söderström|Åsele, 66 år
+C|71118|65|M|Lars-Olof Sahlbjörk|Björksele, 65 år
+C|71119|40|M|Frank Schöne|Östernoret, 40 år
+C|71120|55|M|Tony Tuncer Öndas|Åsele, 55 år
+C|71121|80|K|Gunnel Linné|Östernoret, 80 år
+C|71122|65|M|Roger Sandström|Åsele, 65 år
+C|71123|79|K|Anna-Stina Uddeby|Östernoret, 79 år
+C|71124|70|M|Lars Enfeldt|Åsele, 70 år
+C|71125|57|K|Britt-Marie Arvidsson|Norrfors, 57 år
+C|71126|80|M|Sam Ersson|Åsele, 80 år
+C|41293|53|K|Anette Ögren|lärare, Fredrika
+C|504895|69|M|Bengt Kraft|emeritus kyrkoherde, Gafsele
+C|504896|77|K|Gun Kraft|fil mag, Gafsele
+C|504897|56|M|Håkan Ögren|präst, Fredrika
+C|68011|63|M|Torsten Lundborg|Åsele
+C|68012|61|M|Hans-Greger Jonsson|Åsele
+C|68013|40|M|Richatd Östmark|Åsele
+C|68014|61|K|Karin Scherdin|Åsele
+C|68015|80|M|Stefan Åhlin|Älgsjö
+C|68016|81|M|Ebbe Engström|Åsele
+C|68017|82|K|Siv Bragmo|Åsele
+C|68018|85|M|Axel Linné|Östernoret
+C|515134|56|M|Sten Berndtsson|
+C|71267|34|M|Petter Nilsson|Svetsare, Umeå
+C|408615|68|M|Stig-Anders Hansson|
+C|408616|59|M|Thord Dahlberg|
+C|408617|33|M|Joakim Uddeby|
+C|408618|65|K|Sonja Vikman|
+C|408619|55|K|Ulla Dahlberg|
+C|408620|35|K|Lena Vikman|
+C|408621|51|M|Lars Dahlberg|
+C|395061|29|K|Linnéa Lindberg|Kommunalråd
+C|395062|66|M|Anders Westman|Företagare
+C|395063|72|M|Brage Sundberg|Pensionär
+C|395064|66|M|Kurt-Olov Edström|Pensionär
+C|395065|70|K|Ulla Sundberg|Pensionär
+C|395066|29|M|Joel Hellman|Företagare
+C|395067|76|M|Paul Eriksson|Fabrikör
+C|395068|29|K|Zuzana Zecova|Lärare
+C|395069|70|M|Enar Nordin|Pensionär
+C|395070|60|K|Anne Westman|Studieorganisatör
+C|395071|71|M|Nils-Henrik Persson|Pensionär
+C|395072|64|M|Max Lundahl|Pensionär
+C|395073|70|M|Staffan Selin|Pensionär
+C|395074|47|K|Rosana Da Silva Conceicao|Studerande
+C|395075|74|M|Nils Nilsson|Pensionär
+C|395076|72|K|Siri Norberg Westman|Företagare
+C|395077|60|M|Dick Edström|Företagare
+C|509266|24|M|Farid Bayat|
+C|509268|25|M|Said Zaman Hussaini|
+C|509269|22|M|Seyed Asif Hussaini|
+C|509270|23|K|Fatima Mozafari|

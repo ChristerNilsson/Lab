@@ -1,9 +1,151 @@
-2|241273|241274|241275|241276|241277|241278|241279|241280|241281|241282|241283|241284|241285|241286|241287|241288|241289|241290|241291|241292|241293|241294|241295|241296|241297|241298|241299|241300|241301|241302|241303|241304|241305|241306|241307
-4|33535|38937|38913|212863|212864|212865|212866|212867|212868|212869|212870|212871|212872|212873|212874|212875|212876|212877|212878|212879|212880|212881|212883|212884|212885|212886|33554|212888|212889|212890|212891
-68|9161|141533|480308|488157|480309|215681|480311|480312|141534
-1011|396087|396088
-3|156325|156324|188058|188059|188060|215833|188061|188062|188063
-55|515126|515555
-1|35835|42137|42138|42139|42140|36201|42142|42143|42144|42145|42147|42146|42149|42148|42150|42151|42153|42154|42155|42156
-110|36051|217300|217301|217305|217303|217306|217304|217307|217308|511239|507052|217302|507051|511248|515118|515577|515804
-5|82325|64084|82326|82329|82330|82331|292664
+T|Rättvik
+A|2|241273|241274|241275|241276|241277|241278|241279|241280|241281|241282|241283|241284|241285|241286|241287|241288|241289|241290|241291|241292|241293|241294|241295|241296|241297|241298|241299|241300|241301|241302|241303|241304|241305|241306|241307
+A|4|33535|38937|38913|212863|212864|212865|212866|212867|212868|212869|212870|212871|212872|212873|212874|212875|212876|212877|212878|212879|212880|212881|212883|212884|212885|212886|33554|212888|212889|212890|212891
+A|68|9161|141533|480308|488157|480309|215681|480311|480312|141534
+A|1011|396087|396088
+A|3|156325|156324|188058|188059|188060|215833|188061|188062|188063
+A|55|515126|515555
+A|1|35835|42137|42138|42139|42140|36201|42142|42143|42144|42145|42147|42146|42149|42148|42150|42151|42153|42154|42155|42156
+A|110|36051|217300|217301|217305|217303|217306|217304|217307|217308|511239|507052|217302|507051|511248|515118|515577|515804
+A|5|82325|64084|82326|82329|82330|82331|292664
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|241273|57|M|Jan Dahlqvist|centrala Rättvik
+C|241274|71|K|Anki Dåderman|Övre Gärdsjö
+C|241275|76|M|Lars-Erik Kalles|Rättvik
+C|241276|68|K|Britt-Marie Essell|Rättvik
+C|241277|74|M|Lars-Erik Jonsén|Vålsveden
+C|241278|66|K|Mari Bergfeldt|Östanvik
+C|241279|73|M|Lars-Erik Liss|Gärdebyn
+C|241280|53|K|Erja Eloranta|centrala Rättvik
+C|241281|68|M|Kjell Wikström|Västberg
+C|241282|54|K|Inger Eriksson|Röjeråsen
+C|241283|48|M|Peter Rousu|Rättvik
+C|241284|41|M|Daniel Nyström|Boda kyrkby
+C|241285|71|K|Evi Angantyr|Lenåsen
+C|241286|70|M|Christer Karlsson|Utanåker
+C|241287|39|K|Lotta Grop Hed|Vikarbyn
+C|241288|68|M|Bertil Mårshans|Östbjörka
+C|241289|45|M|Peter Pihlblad|Lerdal
+C|241290|48|K|Nadja Thofvesson|Hedslund
+C|241291|53|M|Conny Ploog|Vikarbyn
+C|241292|45|K|Maria Krats|centrala Rättvik
+C|241293|54|M|John Nilses|Vikarbyn
+C|241294|77|K|Barbro Aastrup|centrala Rättvik
+C|241295|58|M|Bengt Staffas|Vikarbyn
+C|241296|47|K|Maria Jäderberg|Backa
+C|241297|45|K|Erica Dåderman|Övre Gärdsjö
+C|241298|72|M|Per-Olof Back|Gulleråsen
+C|241299|60|K|Britt-Marie Dalgärde|centrala Rättvik
+C|241300|65|K|Karin Tahlén|Vikarbyn
+C|241301|72|M|Karl-Gustaf Hammarberg|Västergrav
+C|241302|66|K|Kerstin Ehlis|Östanvik
+C|241303|73|M|Harry Hedberg|Västbjörka
+C|241304|82|M|Olle Johansson|Sätra
+C|241305|70|K|Britt Wikman|Hedslund
+C|241306|72|M|Thage Björk|Arvet
+C|241307|74|M|Jan-Erik Wikman|Hedslund
+C|33535|53|K|Annette Riesbeck|Rättvik
+C|38937|45|K|Joanna Stridh|Rättvik
+C|38913|53|M|Jonny Jones|Rättvik
+C|212863|70|M|Rune Daniels|Lerdal
+C|212864|44|K|Ulrica Momqvist|Utby
+C|212865|69|M|Hans Furn|Born
+C|212866|63|M|Anders Ehrling|Rättvik
+C|212867|38|K|Camilla Ollas Hampus|Östansjö
+C|212868|47|M|Olaspers Arne Eriksson|Dalbyn
+C|212869|71|K|Anna-Maja Roos|Söderås
+C|212870|69|M|Conny Hermansson|Gulleråsen
+C|212871|53|K|Marie Henriks Backlund|Vikarbyn
+C|212872|37|K|Jessica Junell|Sätra
+C|212873|42|M|Sverker Ericsson|Gärdebyn
+C|212874|28|K|Lotta Daniels|Rättvik
+C|212875|78|M|Anders Åkerlund|Gärdebyn
+C|212876|53|M|Jonas Björ|Övre Gärdsjö
+C|212877|32|K|Kristin Junell|Rättvik
+C|212878|49|M|Lars Åkesson|Söderås
+C|212879|54|M|Jan-Erik Westlund|Öja
+C|212880|53|M|Lars-Erik Löf|Nedre Gärdsjö
+C|212881|62|M|Per Anders Långsvens|Ovanmyra
+C|212883|68|M|Bertil Ryss|Västgärde
+C|212884|52|M|Roger Gumuns|Västbjörka
+C|212885|54|M|Åke Östlund|Östanvik
+C|212886|61|K|Monica Sommarström|Backa
+C|33554|43|M|Pär Fritjofsson|Rättvik
+C|212888|81|M|Inge Brorsson|Norrboda
+C|212889|60|M|Mases Mats Eriksson|Östbjörka
+C|212890|59|K|Yvonne Junell|Sätra
+C|212891|56|M|Ove Jonsson|Östbjörka
+C|9161|57|K|Lena Johansson|sfi-lärare, Rättvik
+C|141533|56|K|Katharina Lindberg-Hemmilä|husmor
+C|480308|40|K|Rebecka Ruuth|beteendevetare
+C|488157|64|M|Per Mårthans|företagare
+C|480309|35|M|Amir Teame|vårdbiträde
+C|215681|54|M|Sven Johansson|elektriker
+C|480311|36|M|Berihu Kansay Okubagergish|lärare
+C|480312|70|M|Sigfrid Runbäck|organist
+C|141534|72|K|Gudrun Magnusson|textillärare
+C|396087|68|K|Elvine Lindell|f.d Undersköterska, Furudal
+C|396088|76|M|Nils Gävert|Pensionär, Furudal
+C|156325|51|K|Susanne Säbb Danielsson|Egenföretagare, 51 år, Rättvik
+C|156324|62|M|Tomas Grundell|Handledare/administratör, 62 år, Rättvik
+C|188058|42|K|Maria Bergström|42 år, Boda Kyrkby
+C|188059|57|M|Åke Danielsson|57 år, Vikarbyn
+C|188060|40|K|Katarina Lisollas|40 år, Backa
+C|215833|39|M|Håkan Bergström|39 år, Boda Kyrkby
+C|188061|33|K|Jessica Jansson|33 år, Rättvik
+C|188062|69|K|Gun Ingesbo-Säbb|69 år, Vikarbyn
+C|188063|74|M|Jan Säbb|74 år, Vikarbyn
+C|515126|51|M|Karl Stefan Halling|
+C|515555|56|K|Karin Åsén Elfving|
+C|35835|43|M|Fredrik Ollén|43 år, lärare, Rättvik
+C|42137|56|K|Henrieta Vedberg|Rättvik
+C|42138|55|M|Per Segerstéen|Backa
+C|42139|44|K|Annelie Steger Engholm|Rättvik
+C|42140|53|M|Markus Gavatin|Rättvik
+C|36201|43|M|Erik Johansson|43 år, byggnadsplåtslagare, Rättvik
+C|42142|70|K|Agnetha Wallander|Rättvik
+C|42143|63|M|Thomas Wärnhem|Vikarbyn
+C|42144|47|M|Anders Hansson|Lerdal
+C|42145|67|M|Hans Hedberg|Rättvik
+C|42147|65|M|Örjan Furn|Boda Kyrkby
+C|42146|67|M|Lars-Erik Steger|Vikarbyn
+C|42149|26|M|Alexander Stenhols Lundemo|Rättvik
+C|42148|28|M|Charles Karjalainen|Rättvik
+C|42150|67|K|Margareta Ryding|Rättvik
+C|42151|54|M|Mikael Stenhols|Utby
+C|42153|42|K|Maria Jonsson|Röjeråsen
+C|42154|72|M|Rune Bengtsson|Vikarbyn
+C|42155|81|K|Åsa Björklund|Gärdebyn
+C|42156|84|M|Nicke Welin-Berger|Rättvik
+C|36051|60|M|Inge Östlund|Byggmästare, Rättvik
+C|217300|51|M|Roger Hansers|Säljare
+C|217301|69|K|Elisabeth Nilsson|Pensionär
+C|217305|74|M|Per Erik Ollas|Pensionär
+C|217303|29|M|Alexander Karelius|Sågverksarbetare
+C|217306|55|M|Jan Markusson|Tågklarerare
+C|217304|22|M|Oscar Sultan|Trähusarbetare
+C|217307|24|K|Felicia Hafström|Studerande
+C|217308|66|M|Olof Ström|Pensionär
+C|511239|61|M|Lennart Nilsson|61, Sjuksköterska
+C|507052|23|M|Oskar Nordlund|23, Trähusarbetare
+C|217302|55|M|Robert Gustafsson|55, Billackerare
+C|507051|52|M|Ove Nordlund|52, Sågverksarbetare
+C|511248|74|M|Lars-Olov Myrlund|74, Pensionär
+C|515118|64|M|Jan-Erik Eriksson|
+C|515577|41|K|Catharina Lund|
+C|515804|60|M|Jan Lingvall|
+C|82325|41|K|Ylva Alm|Gulleråsen
+C|64084|66|K|Katrin Lohed Söderman|Rättvik
+C|82326|30|K|Gabriella Dalgärde|Samhället
+C|82329|57|M|Conny Hansson|Samhället
+C|82330|68|K|Anita Aspfors Westin|Gärdesbyn
+C|82331|73|K|Kaisa Anjou|Samhället
+C|292664|51|K|Nelly Melissa Calderon|Boda Kyrkby

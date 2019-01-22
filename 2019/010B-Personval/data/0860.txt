@@ -1,8 +1,177 @@
-2|141970|19572|8493|8490|8489|8484|8487|141977|8491|141979|8485|141981|141982|8486|141984|8492|141987|141988|141989|141990|141991|141992|141993|141994|141995|141996|141997|141998|141999|142000|8488|142002|142003|142004|142005|142006|142007|142008|101504|142010
-4|301591|300659|301593|301594|301595|301596|301597|301598|301599|301600|300661|301602|301603|301604|301605|301606|300667|301608|300663|301610|301611|301612|301613|301614|301615|301616|301617|301618|301619
-68|25234|36723|36725|36032|25247|36737|36734|38118|36727|38120|36729|38122|36730|38124|38125|38126|36732|38128|38129|38130|38131|38132
-3|324688|319975|399758|319973|399760|482068
-55|319646|319647|319648|319649|319650
-1|158892|161103|161104|161105|160459|161107|161108|161109|161110|161111|161112|161113|161114|161115|161116|161117|161118|161119|161120|161121|161122|161123
-110|60528|60529|60530|60531|60532|60534|60535|60536|60537|60538|60539|513932|512889|508264
-5|376010|376011|374159|376013|376014|374162|376016|376017|376018|376019|376020|376021|376022|376023|376024|376025|376026|376027|376028|376029|376030|376031
+T|Hultsfred
+A|2|141970|19572|8493|8490|8489|8484|8487|141977|8491|141979|8485|141981|141982|8486|141984|8492|141987|141988|141989|141990|141991|141992|141993|141994|141995|141996|141997|141998|141999|142000|8488|142002|142003|142004|142005|142006|142007|142008|101504|142010
+A|4|301591|300659|301593|301594|301595|301596|301597|301598|301599|301600|300661|301602|301603|301604|301605|301606|300667|301608|300663|301610|301611|301612|301613|301614|301615|301616|301617|301618|301619
+A|68|25234|36723|36725|36032|25247|36737|36734|38118|36727|38120|36729|38122|36730|38124|38125|38126|36732|38128|38129|38130|38131|38132
+A|3|324688|319975|399758|319973|399760|482068
+A|55|319646|319647|319648|319649|319650
+A|1|158892|161103|161104|161105|160459|161107|161108|161109|161110|161111|161112|161113|161114|161115|161116|161117|161118|161119|161120|161121|161122|161123
+A|110|60528|60529|60530|60531|60532|60534|60535|60536|60537|60538|60539|513932|512889|508264
+A|5|376010|376011|374159|376013|376014|374162|376016|376017|376018|376019|376020|376021|376022|376023|376024|376025|376026|376027|376028|376029|376030|376031
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|141970|60|M|Tomas Söreling|Lokalombudsman IF Metall, Målilla, 60 år
+C|19572|45|K|Nermina Mizimovic|föreståndare, Hultsfred, 45 år
+C|8493|58|M|Tommy Rälg|ombudsman, Hultsfred, 58 år
+C|8490|66|K|Silva Andersson|pensionär, Virserum, 66 år
+C|8489|51|M|Mikael Lång|boendestödjare/musiker, Hultsfred, 51 år
+C|8484|36|K|Lizette Wästerlund|specialpedagog, Hultsfred, 36 år
+C|8487|63|M|Jonny Bengtsson|vaktmästare, Hultsfred, 63 år
+C|141977|55|K|Rosie Folkesson|Oppositionsråd/Samordnare, Hultsfred, 55 år
+C|8491|55|M|Konny Bogren|metallarbetare, Järnforsen, 55 år
+C|141979|69|K|Lena Hasting|Hultsfred, 69 år
+C|8485|55|M|Mattias Wärnsberg|försäkringshandläggare, Mörlunda, 55 år
+C|141981|52|K|Janette Persson|Vårdbiträde, Hultsfred, 52 år
+C|141982|65|M|Kjell Mellberg|Målilla, 65 år
+C|8486|70|K|Britt Wireland Sorpola|pensionär, Hultsfred,  70 år
+C|141984|51|M|Dan Torkelsson|Hultsfred, 51 år
+C|8492|70|K|Christel Rüdiger Karlsson|kvinnojurist, Hultsfred, 70 år
+C|141987|56|K|Lena Persson|Hultsfred, 56 år
+C|141988|49|M|Tomas Lockström|Hantverkare/Vaktmästare, Hultsfred, 49 år
+C|141989|73|K|Eva Svedberg|Hultsfred, 73 år
+C|141990|61|M|Reino Thapper|Mörlunda, 61 år
+C|141991|29|K|Jolin Åkesson|Undersköterska, Hultsfred, 29 år
+C|141992|57|M|Ulf Nilsson|Målilla, 57 år
+C|141993|31|K|Cajsa Runn|Studerande/Industriarbetare, Mörlunda, 31 år
+C|141994|56|M|Anders Persson|Hultsfred, 56 år
+C|141995|52|K|Elaine Sanches|Hultsfred, 52 år
+C|141996|69|M|Dennis Larsson|Silverdalen, 69 år
+C|141997|19|K|Ellen Lång|Hultsfred, 19 år
+C|141998|75|M|Bengt Nilsson|Hultsfred, 75 år
+C|141999|56|K|Ann-Louise Sandelius|Lärare, Silverdalen, 56 år
+C|142000|60|M|Ove Klingstedt|Truckförare, Hultsfred, 60 år
+C|8488|73|K|Inger Loord|pensionär, Målilla, 73 år
+C|142002|61|M|Benny Jonasson|Vena, 61 år
+C|142003|66|K|Mona-Lisa Karlsson|Vårdarinna, Virserum, 66 år
+C|142004|28|M|Karl-Emil Söreling|Montör, Målilla, 28 år
+C|142005|49|K|Elisabeth Lång|Hultsfred, 49 år
+C|142006|56|K|Kim Barman|Vena, 56 år
+C|142007|62|M|Stefan Rydén|Lagerarbetare, Virserum, 62 år
+C|142008|53|K|Ulrika Edlund|Montör, Hultsfred, 53 år
+C|101504|35|M|Hassan Farah|Hultsfred, 35 år
+C|142010|54|K|Ingela Rälg|Hultsfred, 54 år
+C|301591|59|M|Lars Rosander|59 år, kommunalråd, Virserum
+C|300659|60|M|Per-Inge Pettersson|60 år, lantbrukare, Mörlunda
+C|301593|73|K|Gunilla Aronsson|pensionär, Lönneberga
+C|301594|57|M|Ulf Larsson|stationsföreståndare, Hultsfred
+C|301595|64|M|Ronny Olsson|företagare, Järnforsen
+C|301596|64|M|Lennart Eklund|lärare, Målilla
+C|301597|32|K|Åsa Landberg|organisationsutvecklare, Virserum
+C|301598|50|K|Antje Rohde|egenföretagare, Virserum
+C|301599|67|M|Lennart Odengrund|virkesmätare, Virserum
+C|301600|61|K|Elisabeth Löfkvist|lärare, Virserum
+C|300661|32|M|Alexander Steinvall Svensson|32 år, lärare, Virserum
+C|301602|56|K|Ann-Charlott Andersson|kanslist, Mörlunda
+C|301603|49|M|Fredric Svensson|lantbrukare, Vena
+C|301604|45|K|Martina Johansson|egen företagare, Målilla
+C|301605|81|M|Owe Samuelsson|programchef, Hultsfred
+C|301606|65|M|Lars Nilsson|lantbrukare, Mörlunda
+C|300667|55|M|Ulf Borg|55 år, undersköterska, Silverdalen
+C|301608|46|M|Hans Edvinsson|slöjdlärare, Lönneberga
+C|300663|51|M|Maik Rohde|51 år, företagare, Virserum
+C|301610|67|M|Tommy Johansson|pensionär, Målilla
+C|301611|63|M|Jörgen Nilsson|fastighetsskötare, Virserum
+C|301612|62|M|Frank Axelsson|företagare, Virserum
+C|301613|65|M|Lars Lundgren|va-tekniker, Rosenfors
+C|301614|44|M|Staffan Olsson|egen företagare, Målilla
+C|301615|70|K|Marita Johansson|fd kokerska, Lönneberga
+C|301616|67|K|Yvonne Johansson|pensionär, Virserum
+C|301617|65|M|Staffan Leijon|lantbrukare, Vena
+C|301618|71|M|Christer Malmberg|fd mjölkbonde, Lönneberga
+C|301619|68|M|Kenneth Jonsson|lantbrukare, Hultsfred
+C|25234|67|M|Åke Nilsson|kommun- och regionpolitiker, Silverdalen
+C|36723|52|M|Lennart Davidsson|markentreprenör, Mörlunda
+C|36725|63|K|Monica Bergh|biblioteksassistent, Virserum
+C|36032|63|M|Anders Andersson|f d riksdagsledamot, Järnforsen
+C|25247|39|M|Christian Nytorpet|produktionsledare, Hultsfred
+C|36737|43|K|Anne-Charlotte Cederberg|inköpare, Järnforsen
+C|36734|53|M|Joachim Erlandsson|produktionschef, Målilla
+C|38118|39|K|Malin Nytorpet|socialpedagog, Hultsfred
+C|36727|67|M|Anders Elgenmark|busschaufför, Järnforsen
+C|38120|71|K|Brita Freudenthal|kärnteknisk informatör, Målilla
+C|36729|78|M|Torgny Rönnestad|f d rektor, Hultsfred
+C|38122|63|K|Sanne Nytorpet|vårdarinna, Silverdalen
+C|36730|67|K|Gun-Britt Axelsson|vårdbiträde, Virserum
+C|38124|36|K|Pernilla Hill|undersköterska, Mörlunda
+C|38125|48|M|Stefan Möller|maskinsnickare, Järnforsen
+C|38126|42|K|Elham Radmanesh|labanalyser, Hultsfred
+C|36732|70|K|Inger Frööjd|f d förskollärare, Virserum
+C|38128|65|M|Sture Bergh|senior/bankman, Virserum
+C|38129|65|K|Annica Eek|förskollärare, Mörlunda
+C|38130|70|M|Leif Axelsson|kontorist, Virserum
+C|38131|64|K|Angela Östergren|pensionär, Hultsfred
+C|38132|72|M|Evert Möller|gammelfarfar, Järnforsen
+C|324688|71|M|Börje Helgesson|Triabo-Virserum
+C|319975|47|K|Wenche Lindahl|personlig assistent, Virserum
+C|399758|60|M|Markus Kuster|Lärare/lantbrukare, Blackelid
+C|319973|70|K|Eva-Maria Helgesson|Tandläkare, Aktiv senior-mot alkohol och drogmissbruk, Virserum
+C|399760|28|K|Ida Skoglund|Vårdbiträde, Virserum
+C|482068|26|M|Alaa Al-Saadi|Resurslärare, Virserum
+C|319646|63|K|Carina Erlandsson|företagare
+C|319647|38|M|Niklas Erlandsson|industriarbetare
+C|319648|55|M|Gösta Råsmark|företagare
+C|319649|52|K|Ursula Muller|52 år, Virserum
+C|319650|65|M|Torben Lundholm|65 år, Målilla
+C|158892|68|M|Åke Bergh|68 år, Företagare, Hultsfred
+C|161103|54|M|Johan Svensson|Järnforsen
+C|161104|57|M|Pär Edgren|Vena
+C|161105|71|M|Conny Daag|Hultsfred
+C|160459|52|K|Marianne Vifell Waters|52 år, Lärare, Virserum
+C|161107|41|M|Andreas Borgengren|Hultsfred
+C|161108|76|M|Sievert Andersson|Mörlunda
+C|161109|57|M|Percy Hesselgård|Vena
+C|161110|79|K|Gunvor Nilsson|Hultsfred
+C|161111|70|M|Bo Eriksson|Hultsfred
+C|161112|70|K|Verona Frings-Arns|Virserum
+C|161113|47|K|Carina Reinholdsson|Hultsfred
+C|161114|48|K|Anette Nielsén|Virserum
+C|161115|51|M|Lars Peterson|Mörlunda
+C|161116|18|M|Albert Ärleskog|Målilla
+C|161117|27|M|Simon Lönnäs|Lönneberga
+C|161118|70|M|Bo Sander|Hultsfred
+C|161119|57|M|Nils-Johan Olsson|Vena
+C|161120|54|M|Per-Ola Arvidsson|Järnforsen
+C|161121|66|M|Per-Gunnar Solberg|Vena
+C|161122|75|M|Gillis Gustafsson|Hultsfred
+C|161123|67|K|Anki Eriksson|Hultsfred
+C|60528|70|M|John Hoffbrink|F.d. Egenföretagare, Hultsfred
+C|60529|62|M|Carl-Johan Pettersson|kommunpolitiker, Hultsfred
+C|60530|55|M|Tove Johansson|f.d. vårdare, Hultsfred
+C|60531|71|K|Lisbeth Hoffbrink|f.d. lärare, Hultsfred
+C|60532|54|M|Göran Gustafsson|elektrikter, Hultsfred
+C|60534|69|M|Ingemar Zetterström|konstnär, Hultsfred
+C|60535|69|K|Gun-Brith Sjögren|f.d. väktare, Hultsfred
+C|60536|54|M|Roland von Lonski|egenföretagare, Hultsfred
+C|60537|47|K|Nathalie Gustafsson|sjukpensionär, Hultsfred
+C|60538|81|K|Berit Höög|egenföretagare, Hultsfred
+C|60539|55|K|Helena von Lonski|sjuksköterska, Järnforsen
+C|513932|49|M|Larry Albertsson|Hultsfred
+C|512889|56|M|Anders Bohlin|Hultsfred
+C|508264|73|M|Christer Åberg|Målilla
+C|376010|70|M|Lennart Beijer|Hultsfred, f.d. Riksdagsman
+C|376011|57|K|Eréne Öberg|Hultsfred, Lärare
+C|374159|63|M|Tommy Ejnarsson|Assistent
+C|376013|39|K|Nour Fawal|Studiehandledare/Vuxenutbildningen
+C|376014|44|M|Rickard Wästerlund|Tekniker
+C|374162|43|K|Jenny Velinder|Hultsfred
+C|376016|41|M|Anas Aizouki|Arbetsförmedlare
+C|376017|37|K|Cecilia Lindblom|Förskollärare
+C|376018|49|M|Robert Vestin|Lärare
+C|376019|47|K|Linda Åsard|Hultsfred, Jurist
+C|376020|52|M|Kenneth Hajen Johansson|Fönstertillverkare
+C|376021|61|K|Maritha Pettersson|Tjänsteman
+C|376022|67|M|Lars Röst|Fritidsforskare
+C|376023|73|K|Barbro Venden|Ekonom
+C|376024|49|M|Patrik Axelsson|Egenföretagare
+C|376025|32|K|Emma Jansson|Företagare
+C|376026|58|M|Torbjörn Karlsson|Fritidspedagog
+C|376027|30|K|Nicole Ejnarsson|
+C|376028|68|K|Gunilla Rahm|Socialpedagog
+C|376029|60|M|Sven Åke Nellfors|Operatör
+C|376030|47|M|Mattias Jakobsson|Musiklärare
+C|376031|78|M|Björn Velinder|

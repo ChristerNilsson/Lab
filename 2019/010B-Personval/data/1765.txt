@@ -1,8 +1,172 @@
-2|73975|75314|76011|22200|151785|151786|151787|151788|151789|151790|151791|471260|151793|151833|151834|151835|151836|151937|151938|151939|151940|151941|151942|151943|151944|151945|152690|152691|152692|152693|152694|152695|152696|152697|152698|152699
-4|27404|27405|27406|27407|27408|27409|27410|27411|27412|27413|27414|27415|27416|27417|27418|27419|27420|27421|27422|27423|27424|27425|27426|27427|27428|27429|27430|27431|27432|27433|27434
-68|293307|293317|293319|347097|347098|347100|302002|347102|347103|347104|347105|347106|381725|347107|347108|347109|347110|347111|347112|347113|381733|347114
-3|28191|59685|28204|59687|59688|59689|59690|59691|59692|59693|59694|59695|59696|59697|59698|59699|35483|59701|59702|31348
-55|433840|433841|433842|433843|433844|433845|433846|433847|433848
-1|621|614|39607|39608|39609|39610|39611|39612|39613|39665|39614|39615|39616|39645|39646|39647|39648|39649|39650|39651|39652|39653|39654
-110|124855|124895|125712|124887|124882|125715|124899|125711|515078
-5|188776|327233|327234|327235|327236
+T|Årjäng
+A|2|73975|75314|76011|22200|151785|151786|151787|151788|151789|151790|151791|471260|151793|151833|151834|151835|151836|151937|151938|151939|151940|151941|151942|151943|151944|151945|152690|152691|152692|152693|152694|152695|152696|152697|152698|152699
+A|4|27404|27405|27406|27407|27408|27409|27410|27411|27412|27413|27414|27415|27416|27417|27418|27419|27420|27421|27422|27423|27424|27425|27426|27427|27428|27429|27430|27431|27432|27433|27434
+A|68|293307|293317|293319|347097|347098|347100|302002|347102|347103|347104|347105|347106|381725|347107|347108|347109|347110|347111|347112|347113|381733|347114
+A|3|28191|59685|28204|59687|59688|59689|59690|59691|59692|59693|59694|59695|59696|59697|59698|59699|35483|59701|59702|31348
+A|55|433840|433841|433842|433843|433844|433845|433846|433847|433848
+A|1|621|614|39607|39608|39609|39610|39611|39612|39613|39665|39614|39615|39616|39645|39646|39647|39648|39649|39650|39651|39652|39653|39654
+A|110|124855|124895|125712|124887|124882|125715|124899|125711|515078
+A|5|188776|327233|327234|327235|327236
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|73975|44|M|Daniel Schützer|44 år, Årjäng
+C|75314|53|K|Kristina Kristiansson|54 år, Årjäng
+C|76011|48|M|Birger Pettersson Wiik|48 år, Årjäng
+C|22200|54|K|Gunilla Svantorp|54 år, Årjäng
+C|151785|75|K|Ulla-Britt Svensson|Fd församlingsassistent, Sillerud
+C|151786|62|M|Torgny Sjögren|Boendehandledare, Årjäng
+C|151787|65|K|Inger Digrell|Ekonom, Karlanda
+C|151788|54|M|Mårten Karlsson|Sportchef, Årjäng
+C|151789|70|K|Siv Ögren|Fd metallare, Sillerud
+C|151790|60|M|Hans Karlsson|Ambulanssjukvårdare, Årjäng
+C|151791|46|K|Payman Garmiani|Fritidspedagog, Årjäng
+C|471260|26|M|Henrik Wiig Pettersson|Egen företagare, Karlanda
+C|151793|55|K|Kerstin Fritiofsson|Ekonomiassistent, Töcksfors
+C|151833|58|K|Lena Svensson|Personlig assistent, Karlanda
+C|151834|52|M|Smail Medjedovic|Fastighetsskötare, Årjäng
+C|151835|45|K|Märta Ruus|Barnskötare, Årjäng
+C|151836|47|M|Björn Karlsson|IT-samordnare, Årjäng
+C|151937|52|K|Agneta Eklund|Montör, Årjäng
+C|151938|39|M|Christian Dahlén|Assistent, Årjäng
+C|151939|46|K|Veronica Kihlström|Arbetsledare lokalvård, Årjäng
+C|151940|76|M|Nils-Erik Thorell|Pensionär, Sillerud
+C|151941|40|K|Jenny Karlsson|Lärare, Årjäng
+C|151942|49|K|Annica Andersson|Teknisk handläggare, Sillerud
+C|151943|76|M|Gunvald Karlsson|Fd telearbetare, Årjäng
+C|151944|66|K|Anneli Heed|Undersköterska, Årjäng
+C|151945|71|M|Kjell Jonasson|Pensionär, Holmedal
+C|152690|40|K|Malin Andersson|Upphandlare, Sillerud
+C|152691|52|M|Mohammed Boulakal|Undersköterska, Årjäng
+C|152692|60|K|Susanne Johansson|Industriarbetare, Årjäng
+C|152693|68|M|Karl-Erik Gustavsson|Asfaltarbetare, Sillerud
+C|152694|71|K|Kerstin Pettersson|Fd undersköterska, Årjäng
+C|152695|76|M|Åke Nilsson|Pensionär, Karlanda
+C|152696|70|K|Liv Pettersson|Pensionär, Karlanda
+C|152697|56|M|Per Nyrén|Avc arbetare, Sillerud
+C|152698|69|K|Inga-Lill Klason|Pensionär, Karlanda
+C|152699|45|K|Therese Sjöstedt|Samhällsvägledare, Töcksfors
+C|27404|48|K|Anette Eriksson|Årjäng, 48 år, Redovisningskonsult
+C|27405|68|M|Kent Norman|Årjäng, 69 år, Revisor
+C|27406|54|K|Katarina Johannesson|Banktjänsteman, Rössbyn
+C|27407|66|M|Rolf Emanuelsson|Egenföretagare, Västra Näs
+C|27408|49|K|Lise-Lott Wignell|Industriarbetare, Östra Bön
+C|27409|41|M|Thord Andersson|Busschaufför, Näresbyn
+C|27410|66|K|Lisbeth Karlsson|Frilansskribent, Fölsbyn
+C|27411|70|M|Allan Spets|Rektor, Våxlanda
+C|27412|59|M|Bernt Christoffersson|Projektledare, Västra Fågelvik
+C|27413|63|M|Esbjörn Andersson|Egenföretagare, Västra Viker
+C|27414|56|M|Peter Ring|Lantbrukare, Skogen
+C|27415|50|M|Matts Wignell|Fritidsledare, Östra Bön
+C|27416|19|K|Märta Svensson|Lärarvikarie, Svensbyn
+C|27417|64|M|Bengt-Åke Karlsson|Skogsbrukare, Fölsbyn
+C|27418|40|K|Cathrin Sköld|Projektledare, Lysed
+C|27419|45|K|Ama Kingdon Morris|Fabriksarbetare, Bergerud
+C|27420|47|M|Roger Eriksson|Kvalitet o miljöansvarig, Lysed
+C|27421|65|K|Ingalill Lindblad|Receptarie, Bäcken
+C|27422|53|M|Mats Andersson|Egenföretagare, Källtegen
+C|27423|59|M|Olov Johannesson|Byggnadsarbetare, Rössbyn
+C|27424|42|M|Kenth Olsson|Virkesinköpare, Tveten
+C|27425|39|K|Johanna Lenback Andersson|Företagare o butiksanställd, Näresbyn
+C|27426|48|M|Jörgen Eriksson|Säljare, Årjäng
+C|27427|55|K|Birthe Andersson|Lantbrukare, Stenarsbyn
+C|27428|54|M|Stefan Norman|Byggnadsarbetare, Töcksfors
+C|27429|30|M|Anders Holmstrand|Processledare, Bjärn
+C|27430|44|M|Henrik Nilsson|Projekteringsledare, Lakeviken
+C|27431|42|M|Anders Kylin|Verkstadschef, Breviken
+C|27432|70|M|Bertil Andersson|Redovisningskonsult, Låbbyn
+C|27433|53|M|Kenneth Andersson|Västra Bön, Karlanda
+C|27434|68|M|Rolf Olsson|Hemmansägare, Årstad
+C|293307|43|M|Kjell-Arne Ottosson|lärare, Töcksfors
+C|293317|67|K|Agneta Nilsson|distriktssköterska, Årjäng
+C|293319|54|M|Stefan Moberg|företagare, Töcksfors
+C|347097|46|M|Bengt-Olof Lorentzon|Östervallskog
+C|347098|65|K|Gertrud Berglund|Töcksmark
+C|347100|69|M|Lennart Nilsson|Sillerud
+C|302002|66|M|Mogens Nielsen|pastor, Töcksfors
+C|347102|44|M|Anders Västsäter|Årjäng
+C|347103|29|M|Jonas Ås|Östervallskog
+C|347104|69|K|Kerstin Andersson|Blomskog
+C|347105|50|M|Lars-Göran Larsson|Västra Fågelvik
+C|347106|68|K|Kristin Johansson|Blomskog
+C|381725|49|K|Anneli Elovsson|Töcksmark
+C|347107|51|K|Mariann Moberg|Töcksmark
+C|347108|56|M|Per-Erik Carlsson|Holmedal
+C|347109|52|M|Benny Moberg|Töcksmark
+C|347110|82|M|Roland Moberg|Töcksmark
+C|347111|54|M|Dan Edvinsson|Västra Fågelvik
+C|347112|40|M|Anders Eriksson|Västra Fågelvik
+C|347113|29|M|Jimmy Johansson|Sillerud
+C|381733|87|M|Bernt Hammarström|Sillerud
+C|347114|62|M|Per-Ove Thorängen|Karlanda
+C|28191|50|M|Lars Gustafsson|entreprenör, 50 år, Årjäng
+C|59685|36|K|Jessica Danielsson|36 år, Västra Fågelvik
+C|28204|39|M|Robin Karlsson|SFI-lärare, 39 år, Årjäng
+C|59687|50|K|Therese Gustafsson|50 år, Blomskog
+C|59688|47|M|Magnus Andreasson|47 år, Blomskog
+C|59689|41|K|Annika Sahlin|41 år, Töcksfors
+C|59690|43|M|Jonas Berglund|43 år, Töcksfors
+C|59691|47|K|Mona Jonsson|47 år, Årjäng
+C|59692|46|M|Jonas Sanamon|47 år, Västra Fågelvik
+C|59693|53|M|Urban Johansson|54 år, Årjäng
+C|59694|71|M|Bo Malm|61 år, Blomskog
+C|59695|42|K|Sara Thell Andreasson|42 år, Blomskog
+C|59696|71|M|Sven Johansson|71 år, Blomskog
+C|59697|74|M|Bengt Andersson|74 år, Blomskog
+C|59698|74|M|Runar Patriksson|74 år, Töcksfors
+C|59699|71|M|Olle Gustafsson|71 år, Blomskog
+C|35483|66|K|Anna-Lena Knutsson|arbetsteurapeut, 66 år, Årjäng
+C|59701|62|M|Ingvar Olsson|62 år, Töcksfors
+C|59702|70|M|Thore Berglund|70 år, Töcksfors
+C|31348|74|M|Uno Halfvardsson|lärare, 75 år, Årjäng
+C|433840|59|M|Peter Lustig|59 år, agronom, Årjäng
+C|433841|42|M|Tony Nilsson|42 år, säljare, Töcksfors
+C|433842|36|K|Hala Moustafa|34 år, Årjäng
+C|433843|67|M|Lennart Bryntesson|67 år, företagare, Årjäng
+C|433844|61|K|Elisabeth Larsson|61 år, Sillerud
+C|433845|41|M|Martin Larsson|41 år, Västra Fågelvik
+C|433846|39|K|Maria Larsson|39 år, Karlanda
+C|433847|82|M|Arne Gustafsson|81 år, Årjäng
+C|433848|72|K|Margot Karlsson|72 år, Årjäng
+C|621|52|M|Mikael Olsson|egenföretagare, Årjäng
+C|614|33|M|Robin Olsson|mediakonsult, Årjäng
+C|39607|46|K|Camilla Kristoffersson|Töcksfors
+C|39608|40|M|Jan Rosenkvist|Töcksfors
+C|39609|42|M|Lars Jörgensson|Töcksfors
+C|39610|43|K|Ann-Louise Berglund|Töcksfors
+C|39611|32|M|Roger Andersson|Östervallskog
+C|39612|46|M|Jörgen Berglund|Töcksfors
+C|39613|68|M|Anders Lindgren|Holmedal/Karlanda
+C|39665|72|M|Sven Robertsson|Töcksfors
+C|39614|49|M|Jörgen Stomberg|Töcksfors
+C|39615|53|M|Leo Jönestig|Töcksfors
+C|39616|61|M|Kermith Andersson|Östervallskog
+C|39645|68|M|Börje Liviken|Årjäng
+C|39646|70|M|Torbjörn Lindskog|Årjäng
+C|39647|78|K|Gunnel Perman|Holmedal/Karlanda
+C|39648|71|K|Margareta Nilsson|Årjäng
+C|39649|62|M|Torleif Åhs|Årjäng
+C|39650|73|M|Holger Eriksson|Lennartsfors
+C|39651|73|M|Hans Perman|Holmedal/Karlanda
+C|39652|79|M|Sven Ek|Lennartsfors
+C|39653|64|M|Sten Kilander|Holmedal/Karlanda
+C|39654|78|K|Siv Johansson|Sillerud
+C|124855|49|M|Mikael Strifors|Utryckningsväktare, Årjäng
+C|124895|48|K|Camilla Lind|48, Egen Företagare, Årjäng
+C|125712|64|M|Rune Björkman|64, Resemontör, Klevane
+C|124887|48|M|Johnny Brustuen|48, Verkstadsarbetare, Årjäng
+C|124882|43|K|Johanna Moheim|43, Undersköterska, Årjäng
+C|125715|45|M|Bernt Edvinsson|45, Reparatör, Barlingshult
+C|124899|45|K|Theres Tenman|45, Montör, Årjäng
+C|125711|54|M|Heinz Willi Flamm|
+C|515078|70|M|Kjell Åke Tenman|
+C|188776|83|K|Eia Liljegren-Palmaer|journalist
+C|327233|58|K|Karin Lundkvist|pedagog
+C|327234|54|M|Anders Erlandsson|snickare
+C|327235|67|M|Björn-Åke Blixt|snickare
+C|327236|66|K|Margareta Edholm|socionom

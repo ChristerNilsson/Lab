@@ -1,8 +1,136 @@
-2|75914|99784|22217|99786|99787|99788|99789|99790|99791|99792|99793|99794|100040|100041|100042|100043|100044|75216|100046|100047|100048|100397|100398|100399|100400|100826|100827|100828|100829|100830|100831
-4|27206|27207|27208|27209|27210|27211|27212|27213|27214
-68|293313|293332|293320|293846|293847|293334|293849|293850|293851|293852|293853|293854|293855|293856
-3|31339|35506|61927|61928|207364|61929|61930|61931|61932|61933
-55|414489|414490|414491|414492|414493|414494|414495|414496|414497|414498|414499|414500
-1|39583|616|39585|39586|39587|39588|651|39590|39591|39592|39593|39594|39595|39597|39598|39599|39600|39601
-110|127274|124917|127277|124914|127279|124898|124923|124908|127283|127284|127286|127288|510506|127275
-5|109121|109122|30321|30305|109125|109126|109127|109128|135096|109129|109130
+T|Hammarö
+A|2|75914|99784|22217|99786|99787|99788|99789|99790|99791|99792|99793|99794|100040|100041|100042|100043|100044|75216|100046|100047|100048|100397|100398|100399|100400|100826|100827|100828|100829|100830|100831
+A|4|27206|27207|27208|27209|27210|27211|27212|27213|27214
+A|68|293313|293332|293320|293846|293847|293334|293849|293850|293851|293852|293853|293854|293855|293856
+A|3|31339|35506|61927|61928|207364|61929|61930|61931|61932|61933
+A|55|414489|414490|414491|414492|414493|414494|414495|414496|414497|414498|414499|414500
+A|1|39583|616|39585|39586|39587|39588|651|39590|39591|39592|39593|39594|39595|39597|39598|39599|39600|39601
+A|110|127274|124917|127277|124914|127279|124898|124923|124908|127283|127284|127286|127288|510506|127275
+A|5|109121|109122|30321|30305|109125|109126|109127|109128|135096|109129|109130
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|75914|53|M|Per Aspengren|53 år, Skoghall
+C|99784|63|K|Solweig Gard|Cederroths väg 7, Skoghall
+C|22217|21|M|Alexander Johansson Pettersson|22 år, Skoghall
+C|99786|54|K|Anne Carlén Hellgren|Västra Takene 240, Hammarö
+C|99787|65|M|Thomas Bäckman|Lillmossevägen 68, Hammarö
+C|99788|35|K|Therese Gunnarsson|Karlavägen 28, Skoghall
+C|99789|68|M|Anders Haster|Mellanvägen 3 B, Skoghall
+C|99790|54|K|Katarina Bergman Mjöberg|Ålvägen 84, Hammarö
+C|99791|39|M|Anders Englund|Trätäljavägen 14, Skoghall
+C|99792|44|K|Mikaela Jansson|Karlavägen 20, Skoghall
+C|99793|81|M|Erik Gustafsson|Trumman 12, Skoghall
+C|99794|44|K|Louise Tikkanen|John Ericssonsvägen 13, Skoghall
+C|100040|45|M|Andreas Hellgren|Västra Takene 240, Hammarö
+C|100041|55|K|Maria Lundmark|Götetorpsvägen 96, Skoghall
+C|100042|40|M|Magnus Zetterlund|Hesselbomsvägen 6, Skoghall
+C|100043|38|K|Carina Friberg|Cederroths väg 9, Skoghall
+C|100044|21|M|Jesper Malgerud|Solgatan 7, Skoghall
+C|75216|66|K|Tina Springer|67 år, Hammarö
+C|100046|71|M|Peter Berglund|Svartbergavägen 402, Hammarö
+C|100047|43|K|Sanna Rautioaho|Prästgårdsvägen 30, Skoghall
+C|100048|23|M|Martin Aspengren|Lunserudsvägen 10 D, Skoghall
+C|100397|78|K|Birgitta Persson|Grindstugevägen 15, Hammarö
+C|100398|68|M|Morgan Kilman|Göterstavägen 63, Skoghall
+C|100399|55|K|Ann Bjerknes|Hamnvägen 8, Skoghall
+C|100400|37|M|Markus Isekvist|Flaggvägen 3, Skoghall
+C|100826|38|K|Linda Lindh|Pommernvägen 4, Hammarö
+C|100827|62|M|Jan Jansson|Murkelvägen 8, Hammarö
+C|100828|65|K|Inga-Lill Gunnarsson|Kärrängsvägen 5, Hammarö
+C|100829|68|M|Hans-Inge Wall|Tvärhult 125, Hammarö
+C|100830|60|M|Alexander Romanov|Fiskvik 411, Hammarö
+C|100831|69|M|Bo Öster|Murkelvägen 46 C, Hammarö
+C|27206|72|K|Margareta Ivarsson|Fd Sekreterare, 72 år
+C|27207|44|M|Mats Ivarsson|Företagare/Danspedagog, 45 år
+C|27208|71|M|Dag Ohlsson|Företagsledare, 72 år
+C|27209|50|K|Anna-Karin Wincentsson|Biståndshandläggare, 50 år
+C|27210|55|K|Eva Sjöberg|Distributör, 55 år
+C|27211|56|K|Marianne Ohlsson|Psykiatrisjuksköterska, 56 år
+C|27212|43|M|Dennis Johansson Hall|Journalist, 43 år
+C|27213|40|M|Dan Eriksson|Arbetsledare, 40 år
+C|27214|33|K|Emma Trobeck|Hammarö, 33 år, Business development Manager
+C|293313|48|M|Mattias Joelsson|projektledare, Skoghall
+C|293332|64|K|Marianne Carlsson|upphandlingskonsult, Hammarö
+C|293320|67|M|Kenth Carlsson|civilingenjör, Hammarö
+C|293846|50|K|Petra Weström|dialyssjuksköterska, Lövnäs
+C|293847|64|M|Magnus Eriksson|officer, Rud
+C|293334|74|M|Sten-Ove Jönsson|sjöingenjör, Skoghall
+C|293849|71|K|Barbro Thelaus|undersköterska, Edsviken
+C|293850|69|M|Lars Larsson|officer, Götetorp
+C|293851|48|K|Anna Joelsson|distriktssköterska, Götetorp
+C|293852|73|M|John R Pettersson|officer, Hammar
+C|293853|72|K|Agneta Gottlow-Pettersson|speciallärare, Hammar
+C|293854|77|M|David Hellholm|professor em., Hammar
+C|293855|78|K|Berit Hellholm|fil. kand., Hammar
+C|293856|44|K|Lena Lindström|verksamhetsutvecklare, Skoghall
+C|31339|41|M|Peter Johansson|IT-konsult, 42 år, Hammarö
+C|35506|55|M|Michael Hamberg|projektledare 55 år, Hammarö
+C|61927|77|M|Lennart Lämgren|F.d. renhållningsentreprenör, Hammarö
+C|61928|72|M|Kent Hakefelt|Pensionär, Hammarö
+C|207364|44|K|Maria Westin-Nilsson|Förstelärare i SO-ämnen, Skoghall
+C|61929|65|M|Björn Nordenhammar|Civilingenjör, Hammarö
+C|61930|42|M|Magnus Henrichson|IT-chef, Hammarö
+C|61931|54|K|Annika Larsson|Undersköterska, Skoghall
+C|61932|52|M|Anders Lundqvist|Civilingenjör, Hammarö
+C|61933|61|M|Nicola Obrovac|Gymnasierektor, Hammarö
+C|414489|63|M|Jens Meyer|lärare 7-9
+C|414490|65|K|Britt Zetterberg Bagge|ämneslärare
+C|414491|39|K|Amanda Klint|verksamhetsutvecklare
+C|414492|60|M|Willy Osciansson|företagare
+C|414493|46|M|Mikael Jern|46 år, utbildningsadministratör, Hammarö
+C|414494|43|K|Kathrine Birath|lärare
+C|414495|62|M|Nils Bagge|civilingenjör
+C|414496|91|K|Ulla Dahlberg|pensionerad språklärare
+C|414497|34|K|Karin Echeverri|utbildningssamordnare
+C|414498|59|K|Maria Käck|pedagog
+C|414499|32|K|Eveline Meyer|sjuksköterskestudent
+C|414500|20|K|Johanna Haaga|elevassistent
+C|39583|60|M|Bosse Henriksson|
+C|616|45|M|Björn Johansson|enhetschef, Hammarö
+C|39585|44|K|Anja Holmgren|
+C|39586|56|M|Nils Safferson|
+C|39587|51|K|Louise Warnqvist|
+C|39588|56|M|Ola Jonsson|
+C|651|52|M|Thomas Österdahl|gymnasielärare, Hammarö
+C|39590|53|M|Henrik Smedberg|
+C|39591|53|M|Sven Hedlund|
+C|39592|66|K|Johanne Lihv|
+C|39593|70|M|Lars-Erik Gustafsson|
+C|39594|50|K|Ammi Gull|
+C|39595|45|M|Reine Johansson|
+C|39597|51|K|Katarina Lenefjärd|
+C|39598|80|K|Anita Gustafsson|
+C|39599|40|M|Emil Joelsson|
+C|39600|56|M|Johan Ljungqvist|
+C|39601|18|K|Johanna Kylmänen|
+C|127274|43|M|Anders Ahl|
+C|124917|26|K|Hanna Larsson|26, Studerande, Hammarö
+C|127277|55|M|Per-Erik Bengtsson|55, Ekonomibiträde, Skoghall
+C|124914|69|M|Bernt Olof Karlsson|69, Pensionär, Hammarö
+C|127279|54|K|Catarina Andreasson|54, Undersköterska, Skoghall
+C|124898|30|M|Andreaz Wincent|30, Arbetssökande, Hammarö
+C|124923|47|M|Lars-Göran Karlsson|47, Resemontör, Hammarö
+C|124908|57|M|Gunnar Ohlsson|57, Väktare, Hammarö
+C|127283|40|M|Nils-Henric Chrisander|40, Butikschef, Hammar
+C|127284|66|K|Ann-Britt Karlsson|66, Butiksanställd, Götetorp
+C|127286|57|M|Pär Guttke|57, Chaufför, Skoghall
+C|127288|50|K|Marita Appel|50, Vårdbiträde, Skoghall
+C|510506|68|K|Ingalill Karlsson|68, Pensionär, Skoghall
+C|127275|49|M|Marek Andersson|
+C|109121|70|K|Lillemor Larsson|Lövnäs
+C|109122|67|M|Jan-Olof Hesselstedt|Lillängen
+C|30321|38|K|Mirja Snider|37 år, Hammarö, hyresadministratör
+C|30305|63|M|Lennart Eriksson|62 år, Hammarö, vaktmästare
+C|109125|72|M|Knut Magnusson|Centrum
+C|109126|50|M|Stefan Johansson|Hammar
+C|109127|47|M|Thomas Almberg|Gunnarskär
+C|109128|27|M|Hampus Frick|Mörmon
+C|135096|48|K|Neriman Candan|Lillängen
+C|109129|76|K|Gunilla Emmerfors|Lillängen
+C|109130|72|K|Birgit Olsson|Hammar

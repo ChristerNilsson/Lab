@@ -1,10 +1,187 @@
-2|27807|27808|27809|27810|27811|27812|27813|27814|27815|27816|27817|27818|27819|27820|27821|27822|27823|27824|27825|27826|27827|27828|27829|27830|27831
-4|45307|45308|37741|39183|45311|45312|45313|45314|45315|45316|45317|45318|45319|45320|45321|45322|45323|45324|45325|45326|45327|45328|45329|45330|45332|45333
-68|31778|61985|59440|61987|61988|61989|61990|61991|61992|61994|61995|61996|61997|61998|61999|62000|62001
-1011|132313
-3|38844|262574|262575|262576|262577|262578|262579|262580|262581|262582|262583|262584|262585|262586|262587|262588|262589|262590|262591|262592
-55|158157|19825|19817|158160|158161|235481|19810|19565|158163
-1|56353|56354|56355|56356|56357|56358|56359|56360|56361|56362|56363|56364|56365|56366|56367|56368|56369
-107|432861|432862|432863|432864|432865|432866|432867|432868|432869|432870|53482|432872|432873|432874|53488|432876|432877|432878|432879|438977|432881
-110|53466|53467|53468|53469|53470|53471|53472|53473|53474|53475|53476|53477|53478|53479|53480|53481|53483|53484|53485|53486|53487|118305|118306
-5|109591|109592|109593|109594|109595|109596|109597
+T|Hörby
+A|2|27807|27808|27809|27810|27811|27812|27813|27814|27815|27816|27817|27818|27819|27820|27821|27822|27823|27824|27825|27826|27827|27828|27829|27830|27831
+A|4|45307|45308|37741|39183|45311|45312|45313|45314|45315|45316|45317|45318|45319|45320|45321|45322|45323|45324|45325|45326|45327|45328|45329|45330|45332|45333
+A|68|31778|61985|59440|61987|61988|61989|61990|61991|61992|61994|61995|61996|61997|61998|61999|62000|62001
+A|1011|132313
+A|3|38844|262574|262575|262576|262577|262578|262579|262580|262581|262582|262583|262584|262585|262586|262587|262588|262589|262590|262591|262592
+A|55|158157|19825|19817|158160|158161|235481|19810|19565|158163
+A|1|56353|56354|56355|56356|56357|56358|56359|56360|56361|56362|56363|56364|56365|56366|56367|56368|56369
+A|107|432861|432862|432863|432864|432865|432866|432867|432868|432869|432870|53482|432872|432873|432874|53488|432876|432877|432878|432879|438977|432881
+A|110|53466|53467|53468|53469|53470|53471|53472|53473|53474|53475|53476|53477|53478|53479|53480|53481|53483|53484|53485|53486|53487|118305|118306
+A|5|109591|109592|109593|109594|109595|109596|109597
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|107|SPI|SPI Välfärden
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|27807|55|K|Susanne Meijer|Distriktssköterska, Hörby
+C|27808|25|M|Henrik Andersson|Gymnasielärare, Hörby
+C|27809|73|M|Tommy Hall|
+C|27810|64|M|Renaldo Tirone|
+C|27811|53|K|Lena Rosvall|
+C|27812|58|M|Anders Johansson|
+C|27813|78|K|Lillemor Widh|
+C|27814|56|M|Per Persson Landqvist|
+C|27815|80|K|Harriet Olsson-Strange|
+C|27816|47|K|Eva Lilja|
+C|27817|64|M|Tommy Neubert|
+C|27818|53|K|Susanné Stjernfeldt|
+C|27819|39|M|Björn Strömqvist|
+C|27820|66|K|Jill Protos Christensson|
+C|27821|65|M|Roland Lindén|
+C|27822|49|K|Kristina Cavetoft|
+C|27823|47|K|Anna Svensson Crona|
+C|27824|45|M|Joakim Wallin|
+C|27825|75|M|Rune Olsson|
+C|27826|80|K|Ulla-Britt Thiman|
+C|27827|56|M|Håkan Hansson|
+C|27828|69|M|Gunnar Bergqvist|
+C|27829|65|K|Inger Nilsson|
+C|27830|25|M|Alden Gasanin|
+C|27831|71|M|Jan Axelsson|
+C|45307|67|M|Anders Larsson|67, Elektriker, Önneköp
+C|45308|62|K|Ingela Brickling|61, Egenföretagare, Svensköp
+C|37741|67|M|Paul Jönsson|Hörby, Lantmästare, 67
+C|39183|66|K|Gunvor Håkansson|66, Socionom, Hörby
+C|45311|55|M|Alling Svensson|54, Kvalitetsingenjör, Äspinge
+C|45312|62|K|Yvonne Kulstad|62, Administratör, Brunslöv
+C|45313|37|M|Patrik Karlsson|37, Affärsområdeschef, Köinge
+C|45314|78|M|Per-Erik Andersson|78, Lantbrukare, Osbyholm
+C|45315|75|M|Thore Lennartsson|75, Fd.arbetsförmedlare, Hörby
+C|45316|68|K|Sonja Persson|68, Leg.sjuksköterska, Hörby
+C|45317|53|K|Annika Kroksson|53, Socialpsykiatrihandledare, Hörby
+C|45318|72|M|Alve Andersson|72, Lantmästare, Gummastorp
+C|45319|36|K|Kajsa Karlsson|35, Sjuksköterska, Köinge
+C|45320|58|M|Lennart Koncz|58, Egenföretagare, Herröd
+C|45321|42|K|Åsa Sandgren|42, Egenföretagare, Elestorp
+C|45322|59|M|Bengt Nilsson|59, Lantbrukare, Killhult
+C|45323|49|K|Helena N.Olofsson|48, Arrangör/lantbrukare, Skäpperöd
+C|45324|60|M|Stefan Frank|60, Egenföretagare/bonde, Brunslöv
+C|45325|74|K|Majvi Nilsson|74, Fd.kronoassistent, Hörby
+C|45326|60|M|Lars Frostemark|60, Mark-och fastighetsstrateg, Häggenäs
+C|45327|43|M|Per Persson|43, Lantbrukare, Bessinge
+C|45328|67|K|Ann-Sofie Haraldsson|68, Skogsbrukare, Henset
+C|45329|68|M|Gunnar Hansson|67, Pensionär, Osbyholm
+C|45330|72|K|Marianne Andersson|72, Ekonom, Osbyholm
+C|45332|55|M|Per Persson|54, Ingenjör, Östra Sallerup
+C|45333|77|M|Jan Davidsson|77, Fd.busschaufför, Högås
+C|31778|51|K|Kristina Hansen|51 år, Föreståndare LSS, Hörby
+C|61985|68|M|Peter Kromnow|68 år, Entreprenör, Ludvigsborg
+C|59440|38|K|Sandra Vighagen|38 år, Socionom, Hörby
+C|61987|55|M|Kenneth Ström|55 år, Entreprenör, Köinge
+C|61988|61|M|Ewe K Nilsson|61 år, Busschaufför, Kylestorp
+C|61989|40|M|Mikael Olsson|40 år, Arbetsledare, Slagtofta
+C|61990|78|M|Ruben Ström|78 år, Pensionär, Hörby
+C|61991|72|K|Eva Wigell|72 år, Sjuksköterska, Södra Rörum
+C|61992|52|M|Thomas Persson|52 år, Konsult, Osbyholm
+C|61994|79|M|Olle Aronson|79 år, Ingenjör, Lyby
+C|61995|62|K|Ingegerd Kromnow|62 år, Sjuksköterska, Ludvigsborg
+C|61996|54|M|Mikael Nyberg|54 år, Vaktmästare, Hörby
+C|61997|68|K|Birgitta Aronson Hägg|68 år, Barnmorska, Lyby
+C|61998|69|M|Kjell-Erik Björk|69 år, Tekniker, Gummarp
+C|61999|51|K|Catharina Sundberg|51 år, Distriktssköterska, Osbyholm
+C|62000|81|M|Sigurd Nilsson|81 år, Trädgårdsmästare, Askeröd
+C|62001|73|M|Erik Nilsson|73 år, Lantbrukare, Dala
+C|132313|35|K|Sara Rosqvist|Djuruppfödare, Skåne
+C|38844|53|K|Marie Keismar|Hörby
+C|262574|69|M|Hans Frank|Försäkringstjänsteman, Hörby
+C|262575|55|M|Jens Rosberg|VD, Hörby
+C|262576|43|K|Marie Dahlén|Förskolelärare, Hörby
+C|262577|53|M|Stefan Jepson|VD, Hörby
+C|262578|37|K|Josefin Sandell|Myndighetschef socialtjänsten, Hörby
+C|262579|80|M|Birger Torkildsen|Civilekonom, Lyby
+C|262580|33|K|Emma Sander|Evenemangskoordinator, Pärup
+C|262581|57|M|Ferid Vänerklint|Konsult, Västerstad
+C|262582|70|K|Mariann Frank Karlsson|Egenföretagare, Hörby
+C|262583|52|M|Per Nilsson|Sales Manager, Hörby
+C|262584|33|K|Emelie Mortier|Frisör, Hörby
+C|262585|73|K|Eva Nyman|Barnskötare, Hörby
+C|262586|83|M|Göte Andersson|Åkare, Hörby
+C|262587|64|K|Monica Frank|Ekonom, Hörby
+C|262588|68|K|Anne Westergaard|Ekonom, Söderto
+C|262589|41|M|Tobias Hörnfeldt Röhr|Fysiker, Hörby
+C|262590|56|K|Ingrid Andersson|Handläggare, Hörby
+C|262591|66|M|Tommy Persson|Aukt redovisningskonsult, Söderto
+C|262592|51|K|Marianne Lundgren|Lärare, Ludvigsborg
+C|158157|61|M|Per O Andersson|Analytiker, Kvesarum
+C|19825|50|M|Jörgen Leufstedt|Småbrukare/Rådgivare, 50 år, Hörby
+C|19817|46|K|Anette Ridderby Börjesson|Livsmedelstekniker, 46 år, Hörby
+C|158160|47|M|Erik Ridderby|IT och verksamhetscoach, Västerstad
+C|158161|45|K|Jane Cimmerbeck|
+C|235481|20|M|Edvin Roslund|
+C|19810|75|M|Per Gahrton|75, författare, Hörby
+C|19565|60|M|Farid Sharafuddin|Lärare, 60 år, Hörby
+C|158163|45|M|Andreas Cimmerbeck|Egenföretagare
+C|56353|45|K|Eva Lindholm|45 år, företagare, Hörby
+C|56354|65|M|Lars Göran Ritmer|65 år, överförmyndare, Hörby
+C|56355|70|K|Anette Persson|70 år, lågstadielärare, Hörby
+C|56356|73|M|Anders Malmgren|73 år, ingenjör, Hörby
+C|56357|75|M|Sven Ingvar Sigvardsson|75 år, lantmästare, Hörby
+C|56358|46|M|Mattias Jeppsson|46 år, företagare, Osbyholm
+C|56359|63|M|Ulf Nilsson|63 år, drift-fastighetsassistent, Hörby
+C|56360|60|M|Lars Lindwall|60 år, polis, Brunnslöv
+C|56361|77|M|Ingvar Magnusson|77 år, utbildningsledare, Hörby
+C|56362|21|K|Mary Larsson|21 år, företagskonsult, Hörby
+C|56363|77|M|Göran Håkansson|77 år, f.d. lantbrukare, Dala
+C|56364|55|M|Per Eisele|55 år, fil. dr., Pärup
+C|56365|65|K|Rosmarie Lejonseraf|65 år, KBT-terapeut, Högås
+C|56366|45|K|Snöfrid Salomonsson|45 år, fil. mag., Önneköp
+C|56367|64|K|Ingela Svegland|64 år, tandläkare, Hörby
+C|56368|32|M|Fredrik Rosenlind|32 år, distriktsansvarig försäljning, Hörby
+C|56369|45|M|Bo Lilja|45 år, automationsingenjör, Hörby
+C|432861|61|M|Gert Nygren|Önneköp
+C|432862|77|M|Bengt Hedlund|Lyby
+C|432863|74|M|Bengt Bengtsson|Hörby
+C|432864|66|M|Percy Hallquist|Hörby
+C|432865|71|M|Per-Olof Skerup|Osbyholm
+C|432866|74|M|Jan Möller|Hörby
+C|432867|61|K|Marie Hallquist|Hörby
+C|432868|44|M|Nils-Arne Persson|Önneköp
+C|432869|78|K|Gerty Holst|Hörby
+C|432870|63|M|Jan Ekblad|Önneköp
+C|53482|70|K|Louise Hedlund|Lyby
+C|432872|74|M|Rolf Rosdahl|Södra Rörum
+C|432873|74|M|Kaj Haskel|Ludvigsborg
+C|432874|81|K|Gudrun Nilsson|Hörby
+C|53488|76|M|Jan Lind|Hörby
+C|432876|82|K|Karin Melin|Hörby
+C|432877|81|M|Helmer Fritiof|Södra Rörum
+C|432878|34|K|Jeanette Huasson|Osbyholm
+C|432879|86|M|Lars Evald Svensson|Hörby
+C|438977|83|M|Jan-Erik Jörgensen|Hörby
+C|432881|47|K|Louise Åvik|Farhult
+C|53466|64|M|Stefan Borg|Översättare, Hörby
+C|53467|50|K|Mona Olin|VD-assistent/ekonomiansvarig, Hörby
+C|53468|59|M|Jan-Åke Boulkizz|Utbildare
+C|53469|42|K|Cecilia Bladh in Zito|Kommunikationsansvarig
+C|53470|48|M|Johan Ohlin|Ingenjör
+C|53471|69|M|Leif Rosvall|Pensionär
+C|53472|49|K|Marie Friberg|Projektör, 49 år
+C|53473|46|M|Mattias Kihl|Systemtekniker
+C|53474|55|K|Christina Nilsson|Sjuksköterska
+C|53475|57|M|Peter Svärd|Friskoleentreprenör
+C|53476|46|M|Anders Hansson|Elektriker
+C|53477|76|K|Marita Westerström|Pensionär
+C|53478|26|M|Mårten Svensson|Maskinförare
+C|53479|75|M|Svend Östergaard|Pensionär
+C|53480|59|M|Bo Svenningsen|Montör
+C|53481|65|K|Astrid Lofs|Egenföretagare
+C|53483|71|M|Sten-Erik Månsson|Pensionär
+C|53484|58|M|Bengt Andersson|Servicetekniker
+C|53485|39|M|Peter Johansson|Snickare
+C|53486|57|M|Göran Olsson|Industrimålare
+C|53487|49|M|Jonas Engman|Metallarbetare
+C|118305|52|M|Dirk Lauer|Egenföretagare
+C|118306|55|K|Ingrid Karlsson|Undersköterska
+C|109591|70|M|Uno Hansson|fd rörläggare, 70 år, Hörby
+C|109592|64|K|Ingeborg Ekstrand|64 år, Hörby
+C|109593|55|K|EvaMärta Granqvist|journalist, konstnär, 55 år, Östra Sallerup
+C|109594|63|M|Anders Ervik|fd drift och underhållstekniker, 63 år, Råby
+C|109595|27|M|Wictor Ingeborgson|campingvärd, 27 år, Osbyholm
+C|109596|72|M|Walter Wege|pensionär, 72 år, Hörby
+C|109597|53|M|Thomas Andersson|fd livsmedelsarbetare, 53 år, Orås

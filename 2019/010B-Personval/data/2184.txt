@@ -1,9 +1,236 @@
-2|30377|30378|29332|29147|30381|30382|29148|29339|30385|30386|30387|30388|30389|29351|30391|30392|30393|30394|29370|30396|30397|30398|30399|30400|30401|30402|30403|30404|30405|30406|30407|30408|30409|30411|30412|30413|30414|30415|30416|30417|30418|30419|30420|30421|30422|30423|29327
-4|318604|318605|318606|323342|323343|323344|323345|323346|323347|323348|323349|323350|323351|323352|323353|323354|323355|323356|323357|323358|323359|323360|323361|323362|323363|323364|323365|323366|323367|323368|323369|323370|323371|323372|323373|323374|323375
-1054|499749
-68|32920|22259|32926|32922|32934|32931|22260|22262|32925|24929|22263|22264|32923|32933|22261
-3|148340|159928|159929|159930|159931|159932|159933|159934|159935|159936|159937|159938
-55|14252|14409|14712|14713|14714|14715|14716|14717|14718|14719|14402|14721|14722|14723|14724|14725|14726|14727|14728
-1|170162|170163|168485|168491|170166|168489|170168|170169|170170|170171|170172|170173|170174|170175|170176|170177|170178|170179|352326|170180|170181|170182|170183|170184|170185
-110|341290|341291|341292|341293|341294|341295|341296|341297|341298|341299|341300|341301|341302|341303|341304|341305|341306|341307|341308|341309|341744|514558|514559|514560|514561|514562|514563|514564|514174|514568|514570|514574|514575|513626|515970
-5|340219|340220|340221|340222|340223|340224|340225|340226|340227|340228|340229|340230|340231|340232|340233|340234|340235|340236|340237|340238|340239|340240|340241|340242|340243|340244
+T|Hudiksvall
+A|2|30377|30378|29332|29147|30381|30382|29148|29339|30385|30386|30387|30388|30389|29351|30391|30392|30393|30394|29370|30396|30397|30398|30399|30400|30401|30402|30403|30404|30405|30406|30407|30408|30409|30411|30412|30413|30414|30415|30416|30417|30418|30419|30420|30421|30422|30423|29327
+A|4|318604|318605|318606|323342|323343|323344|323345|323346|323347|323348|323349|323350|323351|323352|323353|323354|323355|323356|323357|323358|323359|323360|323361|323362|323363|323364|323365|323366|323367|323368|323369|323370|323371|323372|323373|323374|323375
+A|1054|499749
+A|68|32920|22259|32926|32922|32934|32931|22260|22262|32925|24929|22263|22264|32923|32933|22261
+A|3|148340|159928|159929|159930|159931|159932|159933|159934|159935|159936|159937|159938
+A|55|14252|14409|14712|14713|14714|14715|14716|14717|14718|14719|14402|14721|14722|14723|14724|14725|14726|14727|14728
+A|1|170162|170163|168485|168491|170166|168489|170168|170169|170170|170171|170172|170173|170174|170175|170176|170177|170178|170179|352326|170180|170181|170182|170183|170184|170185
+A|110|341290|341291|341292|341293|341294|341295|341296|341297|341298|341299|341300|341301|341302|341303|341304|341305|341306|341307|341308|341309|341744|514558|514559|514560|514561|514562|514563|514564|514174|514568|514570|514574|514575|513626|515970
+A|5|340219|340220|340221|340222|340223|340224|340225|340226|340227|340228|340229|340230|340231|340232|340233|340234|340235|340236|340237|340238|340239|340240|340241|340242|340243|340244
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1054|JudK|Judisk Kamp
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|30377|65|K|Siw Karlsson|65 år, Hudiksvall
+C|30378|57|M|Mikael Löthstam|57 år, Hudiksvall
+C|29332|51|K|Annika Huber|51 år, Hudiksvall
+C|29147|38|M|Henrik Persson|39 år, Hudiksvall
+C|30381|61|K|Gerd Olsson|61 år, Bjuråker
+C|30382|49|M|Per Svensson|49 år, Hudiksvall
+C|29148|48|K|Susanne Östh|48 år, Hudiksvall
+C|29339|66|M|Sven-Åke Thoresen|66 år, Hudiksvall
+C|30385|44|K|Nina Burchardt|44 år, Hudiksvall
+C|30386|61|M|Börje Sundin|61 år, Iggesund
+C|30387|64|K|Lena Hallqvist|64 år, Iggesund
+C|30388|63|M|Bo Nilsson|63 år, Hudiksvall
+C|30389|62|K|Anna-Carin Keisu|62 år, Forsa
+C|29351|30|M|Jim Svensk Larm|31 år, Hudiksvall
+C|30391|64|K|Majvor Westberg Jönsson|64 år, Enånger
+C|30392|67|M|Uno Jonsson|67 år, Hudiksvall
+C|30393|72|K|Agneta Brendt|72 år, Hög
+C|30394|52|M|Kent Kanon|52 år, Iggesund
+C|29370|50|K|Lotta Beiersdorf|50 år, Hudiksvall
+C|30396|68|M|Rolf Sundell|68 år, Delsbo
+C|30397|39|K|Jackline Aoko Okoth|39 år, Hudiksvall
+C|30398|70|M|Ingvar Persson|70 år, Enånger
+C|30399|76|K|Lilian Holmgren|76 år, Hudiksvall
+C|30400|46|M|Daniel Fors|46 år, Näsviken
+C|30401|69|K|Kerstin Rask|69 år, Norrbo
+C|30402|52|M|Per Svedberg|52 år, Norrbo
+C|30403|52|K|Veronica Pettersson|52 år, Hudiksvall
+C|30404|71|M|Stefan Bäckström|71 år, Hudiksvall
+C|30405|57|K|Mona Celander|57 år, Hudiksvall
+C|30406|56|M|Kjell Persson|56 år, Hudiksvall
+C|30407|74|K|Monica Flöjt|74 år, Hudiksvall
+C|30408|54|M|Mikael Andersson|54 år, Hudikvall
+C|30409|64|M|Leif Rogell|64 år, Näsviken
+C|30411|67|M|Dick Forsberg|67 år, Norrbo
+C|30412|39|M|Johan Viklund|39 år, Hudiksvall
+C|30413|49|M|Hans Svedberg|50 år, Hudiksvall
+C|30414|57|M|Pär Söderström|57 år, Njutånger
+C|30415|21|M|Johathan Burchardt|21 år, Hudiksvall
+C|30416|73|M|Göran Thapper|74 år, Delsbo
+C|30417|71|M|Roland Olsson|71 år, Hudiksvall
+C|30418|40|M|Martin Nyman|40 år, Forsa
+C|30419|72|M|Gunnar Björn|72 år, Delsbo
+C|30420|71|M|Sune Forslund|71 år, Norrbo
+C|30421|59|M|Mats Moberg|59 år, Hudiksvall
+C|30422|52|M|Roger Dahl|52 år, Hudiksvall
+C|30423|74|M|Lars Norlander|74 år, Hudiksvall
+C|29327|63|M|Barry Gustafsson|64 år, Hudiksvall
+C|318604|57|K|Caroline Schmidt|projektledare, Hudiksvall
+C|318605|70|M|Jan-Erik Jonsson|70 år, bonde, Delsbo
+C|318606|42|K|Erika Söderström|civilekonom, Hudiksvall
+C|323342|20|M|Anton Stark|studerande, Forsa
+C|323343|40|K|Karin Hansson|41 år, miljöchef, Delsbo
+C|323344|72|M|Bengt-Åke Nilsson|72 år, fd kommunaltjänsteman, Hälsingtuna
+C|323345|49|K|Anna Guldbrand|49 år, medicinteknisk ingenjör, Hudiksvall
+C|323346|63|M|Jörgen Bengtson|småföretagare, Enånger
+C|323347|44|K|Gunilla Persson|44 år, redovisningsekonom, Hudiksvall
+C|323348|62|M|Matts Persson|62 år, busschaufför, Delsbo
+C|323349|53|K|Stina Jonsson|53 år, produktionschef, Hudiksvall
+C|323350|66|M|Sven Bergström Trolin|66 år, skogsbrukare, Forsa
+C|323351|32|K|Linda Östblom|32 år, lärarstudent, Hudiksvall
+C|323352|48|M|Erik Jensen|student, Hudiksvall
+C|323353|44|K|Lisa Östberg|44 år, anhörigsamordnare, Delsbo
+C|323354|32|M|Jonas Söderström|32 år, egenföretagare, Forsa
+C|323355|58|K|Anette Spjutsvik|58 år, pedagog, Delsbo
+C|323356|71|M|Bernt Jons|71 år, lantbrukare, Ängebo
+C|323357|58|K|Birgitta Sjölin|58 år, vd, Hög
+C|323358|56|M|Peter Nylund|56 år, skogsinspektör, Norrbo
+C|323359|62|K|Ingrid Bryntse|62 år, kemist, Hudiksvall
+C|323360|66|M|Gunnar Grenholm|pensionär, Hudiksvall
+C|323361|19|K|Julia Jansson|student, Forsa
+C|323362|74|M|Leif Björklund|74 år, ingenjör, Delsbo
+C|323363|44|K|Lena Jendel|44 år, egenföretagare, Hudiksvall
+C|323364|25|M|Jesse Ljung|25 år, samhällskunskapslärarstudent, Delsbo
+C|323365|38|K|Veronika Eriksson|38 år, driftsledare, Bjuråker
+C|323366|29|M|Fredrik Brink|29 år, byrårådgivare, Hudiksvall
+C|323367|54|M|Roland Hamlin|54 år, utredare, Delsbo
+C|323368|48|M|Mats Guldbrand|48 år, säljare, Hudiksvall
+C|323369|53|M|Tibor Balazi|53 år, undersköterska, Hudiksvall
+C|323370|47|M|Björn Jäverfalk|47 år, egenanställd, Rogsta
+C|323371|55|M|Mats Olsson|55 år, verkstadsarbetare, Norrbo
+C|323372|59|M|Stefan "Kokken" Svedman|59 år, fd kock, Hudiksvall
+C|323373|71|M|Stig Johansson|71 år, bonde, Delsbo
+C|323374|61|M|Anders Bouij|61 år, habiliteringspersonal, Hudiksvall
+C|323375|31|M|Tomas Collin|31 år, taxichaufför, Rogsta
+C|499749|59|M|Fredrik Nienstedt|ideolog
+C|32920|49|M|Peter Åkerström|Fritidspedagog, Hudiksvall
+C|22259|70|K|Monica Stigås|Turistentreprenör, Rogsta
+C|32926|53|M|Lars Österberg|Polis, Hudiksvall
+C|32922|72|M|Kent Sjöberg|Pensionär, Hudiksvall
+C|32934|51|K|Susanne Bodin|Fritidsledare, Forsa
+C|32931|43|M|David Lindelöf|Egen företagare, Hudiksvall
+C|22260|63|M|Pärlennart Larsson|Riaföreståndare, Hudiksvall
+C|22262|37|M|Tual Khan Mung|Sågverksarbetare, Hudiksvall
+C|32925|38|M|Johan Bengter|Civilingenjör, Hudiksvall
+C|24929|72|M|Håkan Briland|Familjeläkare, Njutånger
+C|22263|61|M|Leif Berg|Företagare, Hudiksvall
+C|22264|60|M|Gunnar Canslätt|Företagare, Hudiksvall
+C|32923|70|M|Lennart Bengter|VVS-ingenjör, Hudiksvall
+C|32933|77|M|Nils-Göran Strömberg|Pensionär, Hudiksvall
+C|22261|43|K|Mai Sabe Naulak|Undersköterska, Hudiksvall
+C|148340|80|M|Lars Sjögren|80,ideellt arbetande pensionär,Hudiksvall
+C|159928|46|M|Daniel Johnson|Hudiksvall
+C|159929|48|M|Andreas Holmberg|Iggesund
+C|159930|38|M|Martin Viklund|Forsa
+C|159931|78|K|Gunnel Nordin|Iggesund
+C|159932|56|M|Anders Borgström|Hudiksvall
+C|159933|77|K|Eva Rennerfelt|Hudiksvall
+C|159934|71|K|Ann-Marie Svala|Delsbo
+C|159935|84|M|Kjell Grönberg|Delsbo
+C|159936|79|K|Birgitta Peräinen|Iggesund
+C|159937|81|K|Gun-Britt Bergström|Enånger
+C|159938|70|K|Anita Näsfors|Näsviken
+C|14252|37|K|Andréa Bromhed|37, kommunalråd i opposition, Hudiksvall
+C|14409|65|M|Bengt Sahlin|pensionär, 65 år, Hudiksvall
+C|14712|37|K|Lina Johnsson|37 år, Lärare, Stamnäs
+C|14713|54|M|Per Palm|54 år, Kanslist, Hudiksvall
+C|14714|74|K|Eva Bovin|74 år, Yogalärare, Hudiksvall
+C|14715|71|M|Ronald Krathmann|71 år, Pensionär, Hudiksvall
+C|14716|72|K|Barbro Ryttlinger|72 år, Specialpedagog, Hudiksvall
+C|14717|69|M|Peter Jonaszon|69 år, Mejerist, Delsbo
+C|14718|71|K|Monika Lavén|70 år, Arkitekt, Delsbo
+C|14719|67|M|Anders J Eriksson|67 år, Jordbrukare, Forsa
+C|14402|70|K|Ann-Britt Lindmark-Lagerwall|läkare, 70 år, Hudiksvall
+C|14721|42|M|Nanok Stagnell|42 år, fd konditor, Forsa
+C|14722|55|K|Dorothea Guth|55 år, Barnläkare/Bagare, Hudiksvall
+C|14723|71|M|Jan Tage Danielsson|71 år, Innovatör, Hudiksvall
+C|14724|71|K|Ulla Gustafsson Jonsson|71 år, Socionom, Hudiksvall
+C|14725|48|M|Ibrahim Alnuman|48 år, Hudiksvall
+C|14726|71|M|Sture Jonsson|71 år, Pensionär, Hudiksvall
+C|14727|64|M|Lennart Almstedt|64 år, Ingenjör, Näsviken
+C|14728|72|M|Göran Wiklund|72 år, Pensionär, Hudiksvall
+C|170162|56|M|Jonas Holm|56 år, företagare, Hudiksvall
+C|170163|58|K|Anita Höglund|58 år, undersköterska, Hudiksvall
+C|168485|22|M|Adam Rydstedt|22 år, student, Hudiksvall
+C|168491|36|K|Cecilia Natander|36 år, folkhälsovetare, Enånger
+C|170166|59|M|Peter Lagerqvist|59 år, målarmästare, Njutånger
+C|168489|66|M|Håkan Rönström|66 år, ekonomikonsult, Hudiksvall
+C|170168|78|K|Birgitta Medin|78 år, sjuksköterska, Hudiksvall
+C|170169|73|K|Kerstin Karlsson|73 år, kokerska, Hudiksvall
+C|170170|62|K|Bibbi Segerbrand|62 år, utbildare, Forsa
+C|170171|69|M|Torsten Myrgren|69 år, pensionär, Hudiksvall
+C|170172|26|K|Emelie Gustafsson|26 år, handläggare, Hudiksvall
+C|170173|66|M|Anders Bengtsson|66 år, företagare, Hudiksvall
+C|170174|61|K|Christina Träff|61 år, undersköterska, Hudiksvall
+C|170175|22|M|Petter Pettersson|22 år, webbutvecklare, Hudiksvall
+C|170176|40|M|Peter Andersson|40 år, undersköterska, Delsbo
+C|170177|65|M|Jan-Erik Skoglund|65 år, sjökapten, Hudiksvall
+C|170178|71|M|Lars Westlund|71 år, pensionär, Hudiksvall
+C|170179|18|K|Ebba Johansson|18 år, studerande, Hudiksvall
+C|352326|51|K|Otti Hammar|51 år, supporttekniker, Hudiksvall
+C|170180|19|M|Nils Jacobsson|19 år, banktjänsteman, Hudiksvall
+C|170181|60|M|Thomas Groth|60 år, ekonom, Iggesund
+C|170182|71|M|Tommy Ljung|71 år, pensionär, Hudiksvall
+C|170183|26|M|Robin Lagerqvist|26 år, hantverkare, Hudiksvall
+C|170184|80|K|Hilja Lodén|80 år, pensionär, Delsbo
+C|170185|52|M|Robert Ekenberg|52 år, lärare, Hudiksvall
+C|341290|34|M|Patrik Nilsson|Oppositionsråd, Hudiksvall
+C|341291|67|K|Yvonne Andersson|
+C|341292|58|M|Stefan Nordin|58, företagare, Delsbo
+C|341293|51|M|Torbjörn Eriksson|
+C|341294|57|M|Jari Ropponen|57, målare, Iggesund
+C|341295|65|K|Birgitta Johansson|65, företagare, Bjuråker
+C|341296|52|M|Lars Andersson|53, företagare, Hudiksvall
+C|341297|65|M|Kjell Evert Evertsson|
+C|341298|40|M|Fredric Berg|
+C|341299|51|K|Ann Westerlund|51, affärsbiträde, Hudiksvall
+C|341300|61|M|Alf Lindgren|
+C|341301|52|M|Jari Ahonen|
+C|341302|30|K|Therése Skog|
+C|341303|64|M|Claus Engström|
+C|341304|35|M|Peter Asp Vilén|
+C|341305|45|M|Jörgen Eriksson|45, snickare, Delsbo
+C|341306|56|M|Mats-Erik Jonsson|
+C|341307|79|M|Anders Sjödin|79, pensionär, Hudiksvall
+C|341308|77|M|Lars Göran Larsson|
+C|341309|52|M|Mats Bygren|
+C|341744|58|M|Lars Jensen|
+C|514558|39|M|Patrik Ljung|39, verkmästare, Näsviken
+C|514559|26|K|Katja Samuelsson|26, arkivassistent, Iggesund
+C|514560|48|M|John Anttila|48, chaufför, Hudiksvall
+C|514561|50|M|Steve Wallin|50, elektriker, Forsa
+C|514562|18|M|Jon Lindgren|18, studerande, Iggesund
+C|514563|45|M|Fredrik Magnusson|45, undersköterska, Hudiksvall
+C|514564|62|M|Stig Nilsson|52, försäkringsrådgivare, Njutånger
+C|514174|51|M|Anders Winkler|51, fastighetsskötare, Hudiksvall
+C|514568|62|K|Monika Kron|61, undersköterska, Näsviken
+C|514570|61|K|Britt-Inger Johansson|61, undersköterska, Hudiksvall
+C|514574|63|M|Bruno Lucien-Brun|63, pilot, Forsa
+C|514575|65|M|Curth Bjurlingh|65, pensionär, Delsbo
+C|513626|46|M|Mikael Eriksson-Wigg|
+C|515970|70|M|Åke Svensson|
+C|340219|29|K|Charliene Kiffer Goude|29, naturvårdsbiolog, Hudiksvall
+C|340220|52|K|Ulrica Högberg|52, gymnasielärare, Hudiksvall
+C|340221|59|M|Alf Norberg|59, mentalskötare, Hudiksvall
+C|340222|39|K|Lisa Holmberg|Samhällsvetare, 39
+C|340223|30|M|Olle Jonsson|Kooperatör, 29
+C|340224|61|K|Elisabeth Swedman|60, gymnasielärare, Hudiksvall
+C|340225|35|M|Johan Wallinder|Butiksmedarbetare, 34
+C|340226|60|K|Siv Kavallin|Utredare, 59
+C|340227|62|M|Delshad Saleh|63, GIS-ingenjör, Hudiksvall
+C|340228|63|M|Lars Berglund|Museipedagog, 62
+C|340229|60|K|Laila Nyström|Fritidspedagog, 60
+C|340230|32|M|Joel Nordkvist|Administratör, 32
+C|340231|32|K|Christina Fotoylis|31, studerande, Hudiksvall
+C|340232|41|M|Fredrik Bergsten|Gymnasielärare, 40
+C|340233|67|K|Marita Haals Skoog|Pensionär, 67
+C|340234|58|M|Mikael Damberg|Projektledare, 58
+C|340235|60|K|Solveig Borgeest|Undersköterska, 60
+C|340236|60|K|Åsa Wellander|Affärsbiträde, 60
+C|340237|60|M|Hans-Erik Dahlqvist|Arbetssökande, 60
+C|340238|66|M|Mats Runefelt|Pensionär, 66
+C|340239|65|K|Ninni (Ingrid) Olofsson|Pensionär, 64
+C|340240|62|M|Kjell Jansson|Skorstensfejarmästare, 62
+C|340241|71|K|Sofia Högström|Pensionär, 71
+C|340242|75|K|Anna Sylvén|Pensionär, 75
+C|340243|35|M|Fredrik Kiffer Goude|Pappersindustriarbetare, 35
+C|340244|45|M|Daniel Pettersson|Docent, 45

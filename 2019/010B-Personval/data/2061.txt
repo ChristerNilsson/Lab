@@ -1,7 +1,121 @@
-2|242075|242076|242077|242078|242079|242080|242081|242082|242083|242084|242085|242086|242087|242088|242089|242090|242091|242092|242093|242094|242095|242096|242097|242098|242099|242100|242101|242102|242103|242104|242105|242106|242107|242108|242109|242110|242111|242112|242113|242114
-4|75825|75826|75827|38931|38964|38965|75831|75832|75833|75834|75835|75836|75837|75838|75839|75840|75841
-3|156330|190260|165074|190262|190263
-55|114152|114446|114147|114448|114449|114450|114451|114452
-1|37280|37281|37282|37283|37284|37285|37286|35832|36182|36199|37290|37291|37292|37293|37294|37295|37296
-110|125929|125930|125931|125932|125933|125934|125935|125936|125937
-5|63815|78685|297061|297062|297063|64089|297065|297066|297067|297068
+T|Smedjebacken
+A|2|242075|242076|242077|242078|242079|242080|242081|242082|242083|242084|242085|242086|242087|242088|242089|242090|242091|242092|242093|242094|242095|242096|242097|242098|242099|242100|242101|242102|242103|242104|242105|242106|242107|242108|242109|242110|242111|242112|242113|242114
+A|4|75825|75826|75827|38931|38964|38965|75831|75832|75833|75834|75835|75836|75837|75838|75839|75840|75841
+A|3|156330|190260|165074|190262|190263
+A|55|114152|114446|114147|114448|114449|114450|114451|114452
+A|1|37280|37281|37282|37283|37284|37285|37286|35832|36182|36199|37290|37291|37292|37293|37294|37295|37296
+A|110|125929|125930|125931|125932|125933|125934|125935|125936|125937
+A|5|63815|78685|297061|297062|297063|64089|297065|297066|297067|297068
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|242075|38|M|Fredrik Rönning|37 år, Söderbärke
+C|242076|71|K|Carin Runeson|71 år, Smedjebacken
+C|242077|54|M|Ingemar Hellström|54 år, Smedjebacken
+C|242078|50|K|Helena Andersson|50 år, Smedjebacken
+C|242079|51|M|Thomas Björnhager|51 år, Saxe
+C|242080|70|K|Lena Ludvigsson-Olafsen|70 år, Hagge
+C|242081|49|M|John Andersson|49 år, Lernbo
+C|242082|54|K|Åsa Engberg|54 år, Lernbo
+C|242083|45|M|Kalle Johansson|45 år, Morgårdshammar
+C|242084|51|K|Monica Forsgren|Smedjebacken
+C|242085|37|M|Hans Jansson|36 år, Smedjebacken
+C|242086|69|K|Kerstin Ernebrink|Smedjebacken
+C|242087|73|M|Bengt Norrlén|73 år, Söderbärke
+C|242088|30|K|Michaela Söderlund|30 år, Söderbärke
+C|242089|48|M|Håkan Svensson|48 år, Smedjebacken
+C|242090|51|K|Maria Söderlund|50 år, Sörbo
+C|242091|45|M|Joacim Lundgren|Smedjebacken
+C|242092|73|K|Solweig Nyrede|Smedjebacken
+C|242093|43|M|Johan Reyier|43 år, Söderbärke
+C|242094|34|K|Elin Forsgren|34 år, Smedjebacken
+C|242095|64|M|Roland Nilsson|65 år, Åsmansbo
+C|242096|56|K|Monica Georgsson|56 år, Åsmansbo
+C|242097|49|M|Niclas Björklund|49 år, Smedjebacken
+C|242098|22|K|Albetol Mohamed|22 år, Smedjebacken
+C|242099|44|M|Jens Hellberg|44 år, Smedjebacken
+C|242100|49|M|Christer Gåsfors|49 år, Morgårdshammar
+C|242101|71|M|Mats Jakobsson|71 år, Storsand
+C|242102|31|M|Daniel Lundberg|31 år, Kölnäs
+C|242103|62|M|Lars-Ove Norling|62 år, Smedjebacken
+C|242104|64|M|Leif Eriksson|64 år, Getbo
+C|242105|67|M|Rågher Thelin|67 år, Smedjebacken
+C|242106|39|M|Vali Popescu|39 år, Smedjebacken
+C|242107|54|M|Christer Persson|54 år, Söderbärke
+C|242108|52|M|Magnus Pettersson|52 år, Hagge
+C|242109|66|M|Per-Olov Långström|66 år, Söderbärke
+C|242110|72|M|Lars Persson|72 år, Söderbärke
+C|242111|57|M|Bo Sjelin|57 år, Smedjebacken
+C|242112|58|M|Göran Magnusson|58 år, Smedjebacken
+C|242113|70|M|Mohamed Luay Mahmoud|70 år, Smedjebacken
+C|242114|73|M|Sören Åhlström|73 år, Smedjebacken
+C|75825|72|M|Göran Engström|Dullbo
+C|75826|19|M|Linus Karlén|Söderbärke
+C|75827|64|M|Jan Tholerus|Hemshyttan
+C|38931|34|M|Adam Carlsson|Smedjebacken
+C|38964|62|M|Jan Gustafsson|Smedjebacken
+C|38965|69|M|Håkan Jansson|Smedjebacken
+C|75831|67|K|Karin Johansson|Norsäng
+C|75832|23|M|Fredrik Sallander|Björsjö
+C|75833|69|K|Mona Sundberg|Norsbro
+C|75834|67|M|Bjarne Magnusson|Smedjebacken
+C|75835|64|K|Inger Hällqvist|Smedjebacken
+C|75836|41|M|Hindrik Engström|Dullbo
+C|75837|72|K|Mildred Eggen|Korsheden
+C|75838|67|K|Gunilla Engström|Dullbo
+C|75839|77|M|Anders Lindblom|Smedjebacken
+C|75840|52|K|Åsa Palonto|Hemshyttan
+C|75841|74|K|Anna-Lisa Engström|Söderbärke
+C|156330|45|K|Synnöve Zachrisson Nording|SVA-Lärare, 45 år, Smedjebacken
+C|190260|66|M|Torsten Åslund|Pensionär, Harnäs
+C|165074|39|M|Tommie Lif|39 år Lastbilschaufför, Smedjebacken
+C|190262|60|M|Jari Antell|Gymnasielärare, Smedjebacken
+C|190263|75|K|Agneta Karlsson|Pensionär, Munkbo
+C|114152|66|M|Calle Morgården|Smedjebacken, gårdskarl
+C|114446|63|K|Yvonne Johansson|
+C|114147|32|M|Thor Draiby|Smedjebacken
+C|114448|57|M|Im Nunez|
+C|114449|78|K|Barbro Lovang|
+C|114450|58|K|Maritta Laihajärvi|
+C|114451|33|M|Ahmed Abdi|
+C|114452|85|M|Svante Fryxell|
+C|37280|67|K|Lotta Gunnarsson|Stora Tolvsbo
+C|37281|74|K|Gertrud Jernberg Zernig|Snöån
+C|37282|71|K|Karin Winqvist|Söderbärke
+C|37283|64|K|Birgitta Eriksson Granqvist|Hagge
+C|37284|69|K|Kristina Karlsson|Söderbärke
+C|37285|76|M|Håkan Berggren|Snöån
+C|37286|67|K|Helena Giliusson|Harnäs
+C|35832|41|M|Martin Tomtlund|41 år, ordningsvakt, väktare, Smedjebacken
+C|36182|70|K|Christina Brunell|70 år, fd polis, Smedjebacken
+C|36199|44|K|Cecilia Tomtlund|44 år, handledare AME, Smedjebacken
+C|37290|70|M|Hans Gunnarsson|Stora Tolvsbo
+C|37291|72|M|Rolf Winqvist|Söderbärke
+C|37292|79|M|Boris Norrlén|Söderbärke
+C|37293|69|M|Engelbert Zernig|Snöån
+C|37294|72|K|Åsa Berggren Theander|Snöån
+C|37295|72|M|Leif-Erik Björklund|Smedjebacken
+C|37296|41|K|Lina Kihlmark|Stora Tolvsbo
+C|125929|33|M|Johan Persson|Industriarbetare, Smedjebacken
+C|125930|27|M|Tobias Johansson|Smörjare, Storsand
+C|125931|53|K|Pia Johansson|Jurist, Storsand
+C|125932|51|M|Per-Erik Hellström|Jord- och skogsbruk, Nyfors
+C|125933|69|M|Jerry Jäger|Kiropraktor, Smedjebacken
+C|125934|43|K|Aleksandra Børgesen|Leg.tandhygienist, Söderbärke
+C|125935|31|M|Andreas Edvardsson|31 år, Byggnadsarbetare, Smedjebacken
+C|125936|77|M|Vilhelm Johansson|77 år, Arborrare, Söderbärke
+C|125937|31|K|Johanna Adolfsson|31 år, Köksbiträde, Lernbo
+C|63815|36|K|Vanja Larsson|Smedjebacken, 36 år
+C|78685|25|M|Joel Bjurholm|Smedjebacken
+C|297061|60|K|Annika Lönnström|60 år, Äldrevårdspersonal
+C|297062|66|M|Kjell Andersson|66 år, Pensionär
+C|297063|65|K|Gunhild Wallenius|65 år, Pensionär
+C|64089|47|M|Robert Göransson|Smedjebacken
+C|297065|62|K|Ann Isaksson|62 år, Sjukpensionär
+C|297066|50|M|Mikael Johansson|50 år, Medborgare
+C|297067|67|K|Kristina Vahlberg|67 år, Pensionär
+C|297068|37|K|Sandra Jansson Perälä|37 år, Socionom

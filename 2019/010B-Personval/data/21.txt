@@ -1,12 +1,586 @@
-2|29320|29321|29322|29323|29154|29151|29326|29327|29152|29155|29330|29331|29332|29333|29334|9205|29164|29337|29338|29339|29350|29359|29340|29341|29342|29165|29344|29159|29346|9203|29348|29349|29352|29351|29354|29353|29356|29355|29358|9207|29360|29157|29362|29363|29364|29365|29366|29367|29368|29369|29370|29371|40519|70213|70214|38487|70216|9209|29476|70219|29166|40540|29162|30413|70224|70225|9204|30074
-4|314212|287576|345437|297983|287548|345434|345441|316818|345447|345435|374628|345439|345440|292134|374632|287557|287559|372335|316814|300022|315712|345456|285697|345446|345453|374643|314227|287558|318604|292126|372331|375360|295097|345260|314211|323346|270759|295095|270807|318606|314222|323360|295099|292128|323342|270763|300752|314225|270804|295101|375382|295102|345259|314226|345266|345273|323352
-1318|22792|22794|147320
-1150|515931
-532|501433|501437
-68|11150|32920|19640|32926|19449|19639|19647|11128|19513|11152|22316|19642|23797|24845|19515|19648|26017|24846|19644|32922|19454|19455|19638|24851|24929|11127|32931|19655|26018|22315|11153|23800|19651|11155|19450|22259|19646|19458|23794|23798|53735|32802
-3|148319|148320|148321|148322|148323|148324|148325|145923|148327|148328|148329|148330|148331|145927|148333|148334|148335|148336|145922|148338|148339|148340|148341|145924|148343|148344|148345|148346|148347|145925|148349|148350|148351|148352|145921|148354|148355|148356|148357|148358|49180
-55|14256|14253|14262|14261|14264|14400|14255|14402|14404|14265|14406|14260|14254|14407|14410|14409|14266|14263|14412|14415|14414
-1|168324|172856|168489|168347|168325|172860|168335|172862|168333|168486|168332|170182|168426|168328|168785|168341|168437|170168|168349|168353|168488|168502|172877|168421|168493|168342|168329|168495|168491|168509|170173|168337|168436|168507|168343|168334|180645|168348|170171|172893|168350|168512|172896|168377|168351|172899|168359|168508|168360|168802|172904
-249|313614|400519|313616|400521|400522|194836|313609|313617|400526|313619|148606|311907|400530|400531|400532|400533|400711|313615|400714|311908|400716|400718|400719|400720|400721|400723|313621|148607|400726|400727|400728|313620|400730
-110|340370|304819|340246|341528|340376|341290|340369|340367|94455|304821|303518|156226|303526|146133|340375|303528|340245|340373|341292|340368|313896|341296|340397|313905|340386|156229|341553|340379|340393|340380|340381|340372|340384|303520|313894|340378|340374|304822|341299|340377|340382|341294|156230|340389|146134|156228|340387|303523|313898|340388|341295|340390|341579|340394|303521|340391|340419|156231|340371|304829|340383|340400|489353|303540|341591|303532|313893|341307|341595|340398|303525|340396|94457|146135|146136|146137|156227|156232|156233|156234|156235|303519|303522|303524|303527|303529|303530|303531|303533|303534|303535|303536|303537|303538|303539|303541|303542|303543|303544|303545|304823|304824|304825|304826|304827|304828|304830|304831|313897|313900|313901|313902|313904|340248|340251|340253|340255|340256|340257|340259|340260|340261|340263|340266|340269|340392|340395|340399|340401|340402|340403|340405|340406|340407|340408|340409|340411|340412|340413|340414|340415|340416|340417|340418|340420|340421|340422|340423|340424|340425|340426|340427|340428|340429|340430|340431|340432|340433|340434|340435|340438|341291|341293|341297|341298|341300|341301|341302|341303|341304|341306|341308|341309|341744|342421|342425|342427|342428|342429|342430|342432|342433|342434|342435|342436|342437|489443|491904|499215|500751|501373|501374|501375|501376|501377|501378|501379|501396|503567|503570|503571|503572|503573|503575|503576|503577|503599|503601|503602|503603|503604|503607|503612|513630|514495|515522
-5|340838|340839|340336|282114|340270|340843|340844|340164|340846|340151|340221|340220|340850|340148|340150|282115|339825|340855|340293|340346|340858|340859|340291|340159|339817|339816
+T|Gävleborgs läns landsting
+A|2|29320|29321|29322|29323|29154|29151|29326|29327|29152|29155|29330|29331|29332|29333|29334|9205|29164|29337|29338|29339|29350|29359|29340|29341|29342|29165|29344|29159|29346|9203|29348|29349|29352|29351|29354|29353|29356|29355|29358|9207|29360|29157|29362|29363|29364|29365|29366|29367|29368|29369|29370|29371|40519|70213|70214|38487|70216|9209|29476|70219|29166|40540|29162|30413|70224|70225|9204|30074
+A|4|314212|287576|345437|297983|287548|345434|345441|316818|345447|345435|374628|345439|345440|292134|374632|287557|287559|372335|316814|300022|315712|345456|285697|345446|345453|374643|314227|287558|318604|292126|372331|375360|295097|345260|314211|323346|270759|295095|270807|318606|314222|323360|295099|292128|323342|270763|300752|314225|270804|295101|375382|295102|345259|314226|345266|345273|323352
+A|1318|22792|22794|147320
+A|1150|515931
+A|532|501433|501437
+A|68|11150|32920|19640|32926|19449|19639|19647|11128|19513|11152|22316|19642|23797|24845|19515|19648|26017|24846|19644|32922|19454|19455|19638|24851|24929|11127|32931|19655|26018|22315|11153|23800|19651|11155|19450|22259|19646|19458|23794|23798|53735|32802
+A|3|148319|148320|148321|148322|148323|148324|148325|145923|148327|148328|148329|148330|148331|145927|148333|148334|148335|148336|145922|148338|148339|148340|148341|145924|148343|148344|148345|148346|148347|145925|148349|148350|148351|148352|145921|148354|148355|148356|148357|148358|49180
+A|55|14256|14253|14262|14261|14264|14400|14255|14402|14404|14265|14406|14260|14254|14407|14410|14409|14266|14263|14412|14415|14414
+A|1|168324|172856|168489|168347|168325|172860|168335|172862|168333|168486|168332|170182|168426|168328|168785|168341|168437|170168|168349|168353|168488|168502|172877|168421|168493|168342|168329|168495|168491|168509|170173|168337|168436|168507|168343|168334|180645|168348|170171|172893|168350|168512|172896|168377|168351|172899|168359|168508|168360|168802|172904
+A|249|313614|400519|313616|400521|400522|194836|313609|313617|400526|313619|148606|311907|400530|400531|400532|400533|400711|313615|400714|311908|400716|400718|400719|400720|400721|400723|313621|148607|400726|400727|400728|313620|400730
+A|110|340370|304819|340246|341528|340376|341290|340369|340367|94455|304821|303518|156226|303526|146133|340375|303528|340245|340373|341292|340368|313896|341296|340397|313905|340386|156229|341553|340379|340393|340380|340381|340372|340384|303520|313894|340378|340374|304822|341299|340377|340382|341294|156230|340389|146134|156228|340387|303523|313898|340388|341295|340390|341579|340394|303521|340391|340419|156231|340371|304829|340383|340400|489353|303540|341591|303532|313893|341307|341595|340398|303525|340396|94457|146135|146136|146137|156227|156232|156233|156234|156235|303519|303522|303524|303527|303529|303530|303531|303533|303534|303535|303536|303537|303538|303539|303541|303542|303543|303544|303545|304823|304824|304825|304826|304827|304828|304830|304831|313897|313900|313901|313902|313904|340248|340251|340253|340255|340256|340257|340259|340260|340261|340263|340266|340269|340392|340395|340399|340401|340402|340403|340405|340406|340407|340408|340409|340411|340412|340413|340414|340415|340416|340417|340418|340420|340421|340422|340423|340424|340425|340426|340427|340428|340429|340430|340431|340432|340433|340434|340435|340438|341291|341293|341297|341298|341300|341301|341302|341303|341304|341306|341308|341309|341744|342421|342425|342427|342428|342429|342430|342432|342433|342434|342435|342436|342437|489443|491904|499215|500751|501373|501374|501375|501376|501377|501378|501379|501396|503567|503570|503571|503572|503573|503575|503576|503577|503599|503601|503602|503603|503604|503607|503612|513630|514495|515522
+A|5|340838|340839|340336|282114|340270|340843|340844|340164|340846|340151|340221|340220|340850|340148|340150|282115|339825|340855|340293|340346|340858|340859|340291|340159|339817|339816
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1318|CSIS|Common sense in Sweden
+B|1150|DD|Direktdemokraterna
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|249|SJPG|Sjukvårdspartiet Gävleborg
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|29320|56|K|Eva Lindberg|57 år, Söderhamn
+C|29321|60|M|Tommy Berger|60 år, Gävle
+C|29322|56|K|Marie-Louise Dangardt|56 år, Hofors
+C|29323|52|M|Jan Lahenkorva|52 år, Bollnäs
+C|29154|25|K|Linnéa Wickman|26 år, Gävle
+C|29151|26|M|Daniel Johansson|26 år, Hofors
+C|29326|53|K|Shida Kinuka|53 år, Bollnäs
+C|29327|63|M|Barry Gustafsson|64 år, Hudiksvall
+C|29152|48|K|Bente Sandström|48 år, Nordanstig
+C|29155|43|M|Markus Evensson|43 år, Ljusdal
+C|29330|58|K|Marie Frestadius|58 år, Sandviken
+C|29331|64|M|Mats Kolarby|64 år, Gävle
+C|29332|51|K|Annika Huber|51 år, Hudiksvall
+C|29333|28|M|Marcus Gard|28 år, Söderhamn
+C|29334|64|K|Carina Holm|64 år, Gävle
+C|9205|32|M|Einar Wängmark|32 år, Ovanåker
+C|29164|44|K|Stina Bolin fd.Michelson|44 år, Ljusdal
+C|29337|71|M|Hans Hellström|72 år, Hofors
+C|29338|28|K|Anna Frestadius|29 år, Sandviken
+C|29339|66|M|Sven-Åke Thoresen|66 år, Hudiksvall
+C|29350|66|K|Irene Bogren|66 år, Ockelbo
+C|29359|67|M|Anders Bergsten|67 år, Gävle
+C|29340|33|K|Jasmine Larsson|34 år, Gävle
+C|29341|47|M|Johan Hillborg|48 år, Sandviken
+C|29342|42|K|Linda Pettersson Lind|42 år, Sandviken
+C|29165|52|M|Peter Kärnström|52 år, Sandviken
+C|29344|57|K|Erika Engberg|57 år, Bollnäs
+C|29159|40|M|Ola Wigg|40 år, Nordanstig
+C|29346|55|K|Remzija Kolasinac|56 år, Hofors
+C|9203|59|M|Håkan Englund|60 år, Ovanåker
+C|29348|43|K|Anneli Hirsimäki|44 år, Söderhamn
+C|29349|67|M|Sven-Olof Larsson|67 år, Söderhamn
+C|29352|61|K|Elisabeth Lundin|62 år, Hudiksvall
+C|29351|30|M|Jim Svensk Larm|31 år, Hudiksvall
+C|29354|34|K|Emma Wannberg|34 år, Gävle
+C|29353|38|M|Fredric Bergstedt|39 år, Sandviken
+C|29356|66|K|Britt Sjöberg|66 år, Nordanstig
+C|29355|40|M|Hampus Forsmark|40 år, Gävle
+C|29358|45|K|Ann-Katrin Samuelsson|46 år, Bollnäs
+C|9207|67|M|Jan-Åke Lindgren|67 år, Ovanåker
+C|29360|55|K|Lena Erixon|55 år, Sandviken
+C|29157|36|M|Jamill Barikzey|37 år, Ockelbo
+C|29362|53|K|Anna-Maria Ericsson Lindelöf|53 år, Sandviken
+C|29363|47|M|Yohannes Michael Mehari|47år, Bollnäs
+C|29364|47|K|Irene Jonsson|48 år, Ljusdal
+C|29365|46|M|Fredrik L'Estrade|47 år, Söderhamn
+C|29366|62|K|Monica Olsson|62 år, Nordanstig
+C|29367|41|M|Fredrik Skoglund|42 år, Bollnäs
+C|29368|59|K|Diana Blomgren|59 år, Hofors
+C|29369|53|M|Mikael Berg|53 år, Sandviken
+C|29370|50|K|Lotta Beiersdorf|50 år, Hudiksvall
+C|29371|23|M|Hayat Karimi|23 år, Hofors
+C|40519|53|K|Katarina Hedberg|54 år, Söderhamn
+C|70213|54|M|Ove Schönning|55 år, Ljusdal
+C|70214|48|K|Petra Edel|48 år, Ockelbo
+C|38487|51|M|Robert Sten|51 år, Sandviken
+C|70216|64|K|Elisabeth di Paolo-Sandberg|65 år, Hudiksvall
+C|9209|35|M|Carl Bopparmark|35 år, Ovanåker
+C|29476|56|K|Tiina Kauppi|56 år, Hofors
+C|70219|37|M|Roberth Krantz|38 år, Gävle
+C|29166|57|K|Lena Sundh Berglund|57 år, Bollnäs
+C|40540|69|M|Jan-Evert Hagström|69 år, Söderhamn
+C|29162|27|K|Elin Pöllä|27 år, Gävle
+C|30413|49|M|Hans Svedberg|50 år, Hudiksvall
+C|70224|59|K|Sawsan Hatem|59 år, Sandviken
+C|70225|43|M|Anders Öquist|43 år, Ockelbo
+C|9204|52|K|Ylva Ivarsson|53 år, Ovanåker
+C|30074|57|M|Klas Tallvid|58 år, Bollnäs
+C|314212|42|M|Magnus Svensson|oppositionsråd, Söderhamn
+C|287576|51|K|Ann-Helen Persson|projektledare, Gävle
+C|345437|34|M|Per-Ewert Ohlsson-Björk|politisk sekreterare, Österfärnebo
+C|297983|58|K|Marit Rempling|systemutvecklare, Ockelbo
+C|287548|52|M|Erik Holmestig|agronom, Gävle
+C|345434|67|M|Carl-Ewert Ohlsson|kommunalråd, Sandviken
+C|345441|22|M|Martin Eriksson|studerande, Järbo
+C|316818|49|K|Maria Brodin|fritidspedagog, Torsåker
+C|345447|47|K|Mia Eriksson|utbildningsledare, Sandviken
+C|345435|65|K|Kerstin Nyström Hedvall|säkerhets- och hållbarhetschef, Sandviken
+C|374628|60|K|Leena Bergander Wikström|företagare, Furuvik
+C|345439|45|M|Johnny Sandgren|enhetschef, Sandviken
+C|345440|41|K|Jenny Karlsson|projektledare, Gysinge
+C|292134|50|M|Magdi Elhadi|handledare, Bollnäs
+C|374632|34|K|Eva Persson|företagare, Gävle
+C|287557|58|K|Karin Hedberg|Överläkare, Gävle
+C|287559|21|K|Ingeborg Wigzell|sjuksköterskestudent, Gävle
+C|372335|35|M|Eiran Cooper|studerande, Gävle
+C|316814|54|K|Ann-Sofie Stenbacka|ögonsjuksköterska, Torsåker
+C|300022|53|K|Lena Schenström|arbetsterapeut, Ockelbo
+C|315712|63|M|Hans Larsson|traktorförare, Torsåker
+C|345456|63|K|Agneta Lennartsson|mjölkbonde, Österfärnebo
+C|285697|66|K|Margaretha Wedin|kommunalråd, Gävle
+C|345446|51|M|Per Brykt|ekonom, Sandviken
+C|345453|59|K|Anna-Greta Elfström-Ohlsson|fysioterapeut, Årsunda
+C|374643|71|M|Börje Lindgren|pensionär, Gammelstilla
+C|314227|28|K|Matilda Göransson|distriktschef, Långbo
+C|287558|72|M|Urban Sjölander|pensionär, Gävle
+C|318604|57|K|Caroline Schmidt|projektledare, Hudiksvall
+C|292126|62|M|Kenneth Nilshem|förbundsordförande, Arbrå
+C|372331|54|K|Anette Olsson|vårdenhetschef, Forsa
+C|375360|49|M|Joakim Westlund|företagare, Enånger
+C|295097|54|K|Carina Ohlson|personlig assistent, Bergsjö
+C|345260|38|K|Solange Nordh|kommunikatör, Ljusdal
+C|314211|66|K|Marianne Persson|undersköterska, Söderhamn
+C|323346|63|M|Jörgen Bengtson|småföretagare, Enånger
+C|270759|58|K|Gun-Marie Swessar|företagare, Ovanåker
+C|295095|71|M|Stig Eng|lantbrukare, Harmånger
+C|270807|54|M|Nils Erik Falk|egenföretagare, Alfta
+C|318606|42|K|Erika Söderström|civilekonom, Hudiksvall
+C|314222|56|M|Sven-Ulrich "Dulle" Ohlsson|Söderhamn/Mo
+C|323360|66|M|Gunnar Grenholm|pensionär, Hudiksvall
+C|295099|36|M|Martin Äng|Bygginformatör, Harmånger
+C|292128|58|M|Thomas Backan|landsbygdsföretagare, Rengsjö
+C|323342|20|M|Anton Stark|studerande, Forsa
+C|270763|52|K|Mari Vedin|IT-tekniker, Ovanåker
+C|300752|47|M|John-Erik Jansson|skadechef, Söderhamn
+C|314225|48|K|Camilla Jonsson|undersköterska, Söderhamn
+C|270804|62|K|Lena Westling|undersköterska, Ovanåker
+C|295101|52|M|Per-Åke Kardell|egenföretagare, Jättendal
+C|375382|42|K|Rosanna Thyrén|lantbrukare, Bollnäs
+C|295102|19|M|Edvin Östlund-Quist|studerande, Bergsjö
+C|345259|50|M|Ulf Nyman|studerande, Korskrogen
+C|314226|51|M|Peter Olsson|verksamhets vaktmästare, Söderhamn
+C|345266|18|M|William Våhlberg|studerande, Ljusdal
+C|345273|53|M|Martin Bjerke|företagare, Järvsö
+C|323352|48|M|Erik Jensen|student, Hudiksvall
+C|22792|38|M|Erik Steen|Partiledare 38 år Söderhamn
+C|22794|31|M|Jakob Fichtelius|31 år Sandviken
+C|147320|61|M|Lars Severin|
+C|515931|25|M|Joakim Gustafsson|
+C|501433|43|K|Desirée Kjellberg|
+C|501437|40|K|Martina Lundgren|
+C|11150|42|K|Jennie Forsblom|Förskollärare, Ovanåker
+C|32920|49|M|Peter Åkerström|Fritidspedagog, Hudiksvall
+C|19640|48|K|Lili André|Ingenjör, Gävle
+C|32926|53|M|Lars Österberg|Polis, Hudiksvall
+C|19449|71|M|Anders Bergsten|Fil.kand, Bollnäs
+C|19639|52|M|Jan-Eric Andersson|Rektor, Gävle
+C|19647|72|K|Rosalie Carlén|Distriktssköterska, Gävle
+C|11128|69|M|Ingemar Kalén|Oppositionsråd, Hofors
+C|19513|29|K|Magdalena Fagerhov|Samhällsvetare, Nordanstig
+C|11152|69|M|Bertil Eriksson|Senior, Ovanåker
+C|22316|65|K|Maria Hansson|Föreläsare, Söderhamn
+C|19642|63|K|Rosmari Holmgren|Personlig assistent, Gävle
+C|23797|41|K|Viktoria Almqvist|Kundansvarig gruppledare, Gävle
+C|24845|60|K|Majvor Lisselg|Kurator, Sandviken
+C|19515|56|M|Victor Gbadegbe|Fabriksarbetare, Bergsjö
+C|19648|62|K|Pia-Kerstin Silverdal|Undersköterska, Gävle
+C|26017|68|M|Roger Kastman|Företagare, Ljusdal
+C|24846|73|M|Leif Jönsson|Ingenjör, Sandviken
+C|19644|50|K|Elisabeth Norberg|Sjuksköterska, Sätra
+C|32922|72|M|Kent Sjöberg|Pensionär, Hudiksvall
+C|19454|43|M|Magnus Hägglund|Mjölkbonde, Vallsta
+C|19455|72|K|Maj-Britt Kissner-Eliasson|Pensionär, Kilafors
+C|19638|47|M|Jan Myléus|Kommunalråd, Gävle
+C|24851|80|K|Aino Blom|Barnmorska, Sandviken
+C|24929|72|M|Håkan Briland|Familjeläkare, Njutånger
+C|11127|42|K|Annika Norup|Undersköterska, Torsåker
+C|32931|43|M|David Lindelöf|Egen företagare, Hudiksvall
+C|19655|51|K|Viktoria Andersson|Rehabkoordinator, Sätra
+C|26018|61|M|Lars Björkbom|Betongarbetare, Järvsö
+C|22315|60|M|Anders Ramstrand|Lärare, Söderhamn
+C|11153|47|M|Claes Häggblom|Produktionsplanerare, Edsbyn
+C|23800|33|K|Lina Elmebo|Behandlingspedagog, Gävle
+C|19651|51|M|Anders Aldén|Ekonom, Hedesunda
+C|11155|47|K|Ingela Carter|Förskollärare, Edsbyn
+C|19450|39|K|Karin Hallberg|Lärare, Bollnäs
+C|22259|70|K|Monica Stigås|Turistentreprenör, Rogsta
+C|19646|65|M|Anders Karlsson|Lokalvårdare, Gävle
+C|19458|79|M|Åke Fläckman|Lärare, Bollnäs
+C|23794|34|K|Martina Kyngäs|Kundansvarig gruppledare, Gävle
+C|23798|28|K|Matilda Elmebo|Säljare, Valbo
+C|53735|42|M|Jan Nilsson|Lärare, Söderhamn
+C|32802|60|M|Dan Brodin|Skogsbonde, Mörtebo
+C|148319|55|M|Hans Backman|55,ekonom,Hofors
+C|148320|54|K|Helena Englund|54,affärsområdeschef,Gävle
+C|148321|64|M|Peter Nordebo|64,journalist,Bollnäs
+C|148322|56|K|Carmen Lundkvist|56,revisor,Sandviken
+C|148323|53|M|Per-Ola Grönberg|53,egen företagare,Sandviken
+C|148324|64|K|Carina Ericsson|64,undersköterska,Hudiksvall
+C|148325|53|M|Kent Olsson|53,lärare, Edsbyn
+C|145923|39|K|Teresa Vanova Benke|39,enhetschef LSS,Norrala
+C|148327|57|K|Evelyn Klöverstedt|57,statstjänsteman,Gävle
+C|148328|51|M|Bertil Skoog|51,grundskolelärare,Ljusdal
+C|148329|72|K|Ulla Burman|71,direktor inom vård o omsorg,Bollnäs
+C|148330|43|M|Mats Ivarsson|43,säkerhetssamordnare,Gävle
+C|148331|52|K|Helene Åkerlind|52,kommunalråd,Gävle
+C|145927|55|M|Magnus Ahlgren|54,juristchef,Söderhamn
+C|148333|40|K|Yanina Westergren|40,samhällsvetare,Bollnäs
+C|148334|73|M|John-Olof Hermanson|73,företagare,Gävle
+C|148335|57|K|Behrokh Honarmand|57,HR-strateg,Sandviken
+C|148336|41|M|Daniel Didricksson|41,bussförare,Bollnäs
+C|145922|71|K|Ingrid Backelin|71,fd ålderdomshemsföreståndare,Norrala
+C|148338|70|M|Nils-Gunnar Kempe|69,gymnasielärare,Sandviken
+C|148339|31|K|Dalia Goro|31,jurist,Sandviken
+C|148340|80|M|Lars Sjögren|80,ideellt arbetande pensionär,Hudiksvall
+C|148341|40|K|Lovisa Magnusson|40,civilingenjör,Sandviken
+C|145924|80|M|Börje Timerdal|80,redaktör,Söderhamn
+C|148343|75|K|Kristina Hermanson-Åreng|75,egen företagare,Gävle
+C|148344|75|M|Leif Jonsson|75,leg läkare,Arbrå
+C|148345|54|K|Helena Sjöberg|54,civilekonom-gymnasielärare,Sandviken
+C|148346|76|M|Krister Swahn|76,lärare,Arbrå
+C|148347|28|K|Maria Stigenberg|28,Gävle
+C|145925|68|M|Hans Blom|68,fd lärare,Söderhamn
+C|148349|73|K|Saga Astner|73,psykosocial assistent,Bollnäs
+C|148350|67|M|Kjell Helling|67,yrkesvägledare,Gävle
+C|148351|45|M|Johan Källberg|45,systemutvecklare,Sandviken
+C|148352|69|M|Björn Belin|69,fd.utbildningsledare,Gävle
+C|145921|43|M|Magnus Ludvigsson|43,IT-konsult,Söderhamn
+C|148354|72|M|Rolf Jägare|72,Pa/Officer,Sandviken
+C|148355|62|K|Anna-Lena Hellman|62,projektledare,Gävle
+C|148356|78|M|Bo Hellberg|78,leg.veterinär,Bollnäs
+C|148357|27|K|Carmen Malave|27,ingenjör,Sandviken
+C|148358|78|M|Olov Göransson|78,pensionerad vvs-ingenjör,Sandviken
+C|49180|44|M|Per-Åke Fredriksson|statsvetare/historiker, Gävle
+C|14256|63|K|Karin Jansson|regionråd/undersköterska, 63 år, Färila
+C|14253|37|M|Kristoffer Hansson|utbildningsansvarig, 37 år, Järvsö
+C|14262|68|M|Bengt Samuelsson|pensionär, 68 år, Söderhamn
+C|14261|27|K|Joann Ling|student, 27 år, Trönö
+C|14264|25|M|David Ling|student, 25 år, Gävle
+C|14400|39|K|Maria Hagström|kommunvägledare, 39 år, Sandviken
+C|14255|60|M|Olov Östlund|utvecklingsingenjör, 60 år, Trönö
+C|14402|70|K|Ann-Britt Lindmark-Lagerwall|läkare, 70 år, Hudiksvall
+C|14404|60|K|Lena Jansson Sving|audionom, 60 år, Bollnäs
+C|14265|62|M|Johan Toll|rörmokare, 62 år, Bollnäs
+C|14406|76|K|Ylva Bandmann|leg. psykolog/psykoterapeut, 76 år, Gävle
+C|14260|73|M|László Gönczi|pensionär, 72 år, Färila
+C|14254|42|K|Rejn Karlgren|kommunalråd & företagare, 42 år, Kungsgården
+C|14407|41|M|Peter Perskull|biologilärare, 41 år, Kungsgården
+C|14410|34|K|Olga Ilina|byggnadskonstruktör/jordbrukare, 34 år, Ljusdal
+C|14409|65|M|Bengt Sahlin|pensionär, 65 år, Hudiksvall
+C|14266|35|M|Johan Nilsson|frivårdsinspektör, 35 år, Söderala
+C|14263|44|K|Sabina Rossini|sjukskriven, 44 år, Valbo
+C|14412|37|M|Joel Olsson|lärarvikarie & bandoperatör, 37 år, Gävle
+C|14415|44|K|Elisabeth Blomgren|egen företagare, 44 år, Järbo
+C|14414|58|M|Robert Stahl|IT-specialist, 58 år, Valbo
+C|168324|45|M|Patrik Stenvard|45 år, kommunalråd, Gävle
+C|172856|48|K|Maria Molin|48 år, leg. sjukgymnast, Ljusdal
+C|168489|66|M|Håkan Rönström|66 år, ekonomikonsult, Hudiksvall
+C|168347|36|K|Camilla Strömberg|36 år, leg. barnmorska, Gävle
+C|168325|62|M|Anders Jansson|62 år, överstelöjtnant, Gävle
+C|172860|55|M|Hans Olsson|55 år, oppositionsråd, Sandviken
+C|168335|43|K|Ann-Charlotte Granath|43 år, statsvetare, Gävle
+C|172862|18|M|Alexander Hägg|18 år, studerande, Söderhamn
+C|168333|23|M|William Elofsson|23 år, pressekreterare, Gävle
+C|168486|41|K|Linda Elgestad|41 år, ekonom, Bergvik
+C|168332|52|K|Pia Jansson|52 år, egenföretagare, Gävle
+C|170182|71|M|Tommy Ljung|71 år, pensionär, Hudiksvall
+C|168426|70|M|Alf Persson|70 år, pensionär/konsult, Hofors
+C|168328|63|K|EvaMarja Andersson|63 år, gymnasielärare, Gävle
+C|168785|48|M|Daniel Arenholm|48 år, tillväxtstrateg, Nordanstig
+C|168341|42|K|Therése Hammarberg|42 år, lärare, Gävle
+C|168437|33|K|Maria Unborg|33 år, kyrkokamrer, Edsbyn
+C|170168|78|K|Birgitta Medin|78 år, sjuksköterska, Hudiksvall
+C|168349|73|M|Anders Fogeus|73 år, pensionär, Gävle
+C|168353|40|M|Jonas Brindmark|40 år, ambulanssjuksköterska, Gävle
+C|168488|46|K|Stina Berg|46 år, arbetsförmedlare, Ljusdal
+C|168502|40|M|Mattias Ekström|40 år, säljchef, Bollnäs
+C|172877|56|M|Per Bång|56 år, säljare, Bollnäs
+C|168421|61|K|Elisabeth Nordlander|61 år, distriktssköterska, Ockelbo
+C|168493|50|K|Marjo Myllykoski|50 år, arbetsförmedlare, Söderhamn
+C|168342|51|M|Peter Hallgren Stjerndorff|51 år, präst, Gävle
+C|168329|60|M|Pekka Seitola|60 år, egenföretagare, Gävle
+C|168495|42|M|Lars Stål|42 år, verkställande direktör, Söderhamn
+C|168491|36|K|Cecilia Natander|36 år, folkhälsovetare, Enånger
+C|168509|74|M|Hans Sundgren|74 år, pensionär, Söderhamn
+C|170173|66|M|Anders Bengtsson|66 år, företagare, Hudiksvall
+C|168337|27|K|Emma Karlsson|27 år, socionomstudent, Gävle
+C|168436|54|M|Pär Johansson|54 år, företagare, Alfta
+C|168507|61|M|Kennet Hedman|61 år, kanslist, Ljusdal
+C|168343|51|M|Petri Ekorre|51 år, konsult, Valbo
+C|168334|50|M|Lars Beckman|riksdagsledamot, Gävleborgs län
+C|180645|71|M|Jan Rust|71 år, pensionär, Gävle
+C|168348|52|K|Annika Erlandsson|52 år, samordnare, Forsbacka
+C|170171|69|M|Torsten Myrgren|69 år, pensionär, Hudiksvall
+C|172893|68|M|Christer Bergman|68 år, f.d. lärare, Sandviken
+C|168350|75|K|Gun Lundberg|75 år, fil. mag, Gävle
+C|168512|47|M|Peter Johansson|47 år, nationalekonom, Gävle
+C|172896|45|M|Dragan Perkovic|45 år, elansvarig, Sandviken
+C|168377|40|M|Mattias Broström|40 år, handläggare, Gävle
+C|168351|18|M|Albin Hillberg|18 år, studerande, Gävle
+C|172899|75|K|Britt Unger|74 år, pensionär, Söderhamn
+C|168359|37|M|Osman Dalgin|37 år, hantverkare, Gävle
+C|168508|48|K|Annelen Kusmic|48 år, bussförare, Gävle
+C|168360|38|M|Mikael Brodin|38 år, trafikledare, Gävle
+C|168802|66|K|Anita Alm|66 år, sjuksköterska, Nordanstig
+C|172904|73|K|Ann-Mari Bergström|73 år, företagare, Sandviken
+C|313614|46|M|Henrik Olofsson|Regionråd, Bollnäs
+C|400519|51|M|Stig Mörtman|Ingenjör, Ockelbo
+C|313616|58|K|Yvonne de Winter|Undersköterska, Kilafors
+C|400521|72|M|Stig Zettlin|Pensionär, Gävle
+C|400522|73|K|Birgitta Hildingsson|Pensionär, Söderhamn
+C|194836|63|M|Bernt Larsson|Pensionär, Gnarp
+C|313609|53|M|Sven-Åke von Veh|Entreprenör, Bollnäs
+C|313617|46|K|Ulrika Rosenqvist|Vårdpersonal, Bollnäs
+C|400526|72|M|Jan Näsholm|Ingenjör, Bergvik
+C|313619|43|K|Malin Wilhelmsson|Företagre, Bollnäs
+C|148606|73|K|Astrid Edlund|Sjuksköterska, Ljusdal
+C|311907|72|M|Kent Olsson|Trafiklärare, Hofors
+C|400530|50|K|Stina Johansson|Koordinator, Bollnäs
+C|400531|73|M|Torbjörn Hellström|Lärare, Gävle
+C|400532|70|M|Jan Åke Lundberg|Pensionär, Gävle
+C|400533|47|M|Patric Norrå|Chaufför, Valbo
+C|400711|89|K|Ulla Norling|Musikpedagog, Sandviken
+C|313615|48|K|Ingrid Jonsson|Sjuksköterska, Bollnäs
+C|400714|59|M|Bernt Wester|Markarbetare, Hedesunda
+C|311908|46|K|Anna Magnusson|Personligassistent, Gävle
+C|400716|73|K|Irene Strandberg|fd Undersköterska, Bergvik
+C|400718|77|K|Ingrid Öman|Pensionär, Valbo
+C|400719|83|M|Jan Olof Eriksson Glad|Affärsman, Sandviken
+C|400720|71|M|Pär Åslund|Helsovårdsinspektör, Hofors
+C|400721|35|K|Lotta Kujanpää|Administratör, Gävle
+C|400723|72|M|Sven-Åke Zakrisson|fd Arbetsledare, Sandviken
+C|313621|53|M|Tony Nord|Servicerådgivare, Bollnäs
+C|148607|41|M|Fredrik Röjd|41 år, Färila
+C|400726|50|M|Torbjörn Forsén|Chaufför, Valbo
+C|400727|70|M|Claes Norrå|Pensionär, Valbo
+C|400728|40|M|Pontus Olsson|Kock, Gävle
+C|313620|46|M|Anders Eriksson|Svetsare, Kilafors
+C|400730|67|M|Håkan Krantz|Fd Sågsverksoperatör, Söderhamn
+C|340370|42|M|Richard Carlsson|Kommunalråd, Gävle
+C|304819|36|M|Daniel Persson|Regionråd, Söderhamn
+C|340246|27|K|Liz Zachariasson|27, undersköterska, Ockelbo
+C|341528|29|K|Sandra Bjelkelöv|29, undersköterska, Jättendal
+C|340376|49|M|Patrik Lindholm|Industriarbetare, Gävle
+C|341290|34|M|Patrik Nilsson|Oppositionsråd, Hudiksvall
+C|340369|44|K|Latifa Löfvenberg|44, sjuksköterska, Gävle
+C|340367|28|M|Mattias Eriksson Falk|Regionråd, Gävle
+C|94455|30|K|Emilia Uvagårds|31, bovärd, Edsbyn
+C|304821|65|K|Eva-Mai Mineur-Tynong|65, alkohol-drogterapeut, Söderhamn
+C|303518|52|M|Per Kihlgren|Oppositionsråd, Sandviken
+C|156226|38|M|Fredrik Hansson|39, psykosocial assistent, Kilafors
+C|303526|49|K|Therese Johanssson|50, sjuksköterska, Sandviken
+C|146133|46|M|Margon Johansen|46, busschaufför, Hofors
+C|340375|57|K|Lena Eriksson|57, undersköterska, Gävle
+C|303528|52|M|Kent Karlsson|52, värmebehandlingsoperatör, Sandviken
+C|340245|37|M|Jonny Lindblom|Yrkeschaufför/förman, Ockelbo
+C|340373|38|K|Wanja Delén|38, förskolelärare, Gävle
+C|341292|58|M|Stefan Nordin|58, företagare, Delsbo
+C|340368|38|M|Roger Hedlund|Riksdagsledamot, Gävle
+C|313896|43|M|Per Andersson|43, programmerare, Ljusdal
+C|341296|52|M|Lars Andersson|53, företagare, Hudiksvall
+C|340397|33|M|Jonas Åström|33, teamledare, Gävle
+C|313905|48|K|Arima Bergstedt|49, terapeut, Järvsö
+C|340386|51|K|Marianne Larsson|51, undersköterska, Gävle
+C|156229|44|M|Kennet Nyman|44, boendestödjare, Bollnäs
+C|341553|64|K|Suzanne Hedberg|64, ekonom, Strömsbruk
+C|340379|52|M|Olle Larsson|52, fordonstekniker, Gävle
+C|340393|65|K|Agneta Stjernström|65, massageterapeut, Gävle
+C|340380|42|K|Bella Wåhlstedt|43, habiliterare, Gävle
+C|340381|42|M|Mikael Forsberg|42, ordningsvakt, Gävle
+C|340372|24|M|Marcus Lagerroos|Studerande, Gävle
+C|340384|34|M|Marcus Frisk|34, vd, Forsbacka
+C|303520|71|M|Mats Westergren|71, f.d. IT-chef, Sandviken
+C|313894|53|M|Michael Michaelsen|Koordinator, Färila
+C|340378|44|K|Anna Rosén|44, sjukpensionär, Hedesunda
+C|340374|50|M|Georgios Toris|50, polisinspektör, Gävle
+C|304822|64|M|Christer Andersson|64, företagare, Söderhamn
+C|341299|51|K|Ann Westerlund|51, affärsbiträde, Hudiksvall
+C|340377|29|M|Romel Rached|29, företagare, Gävle
+C|340382|35|K|Linda Carlsson|35, serviceassistent, Valbo
+C|341294|57|M|Jari Ropponen|57, målare, Iggesund
+C|156230|52|K|Annika Netsö|52, laboratorieassistent, Kilafors
+C|340389|42|K|Madeleine Eklund|43, stf butikschef, Gävle
+C|146134|50|M|Charlie Ahlholm|50, företagare, Hofors
+C|156228|22|M|Jonatan Lindgren|23, handledare, Bollnäs
+C|340387|52|M|Anders Boberg|52, vd, Valbo
+C|303523|69|K|Annikki Bengtsson|Ekonom, Storvik
+C|313898|35|K|Charlotte Michaelsen|36, studerande, Färila
+C|340388|43|M|Nicklas Ringhage|43, yrkeschaufför, Gävle
+C|341295|65|K|Birgitta Johansson|65, företagare, Bjuråker
+C|340390|63|K|Eva Sundman|63, lokalvårdare, Gävle
+C|341579|32|K|Camilla Wrangfalk|32, lastbilschaufför, Ilsbo
+C|340394|51|M|Daniel Hällman|51, revisor, Gävle
+C|303521|72|M|Roger Bengtsson|72, pensionär, Storvik
+C|340391|54|M|Thomas Lindberg|54, skötare psykiatri, Gävle
+C|340419|56|M|Mats Ekenberg|56, vårdare, Gävle
+C|156231|23|M|Andreas Modd|23, trädgårdsmästare, Bollnäs
+C|340371|36|K|Lena Emanuelsson|36, tandhygienist, Bergby
+C|304829|51|M|Rino Hedblom|52, verkstadsmekaniker, Stråtjära
+C|340383|69|M|Sven Malm|69, hantverkare, Gävle
+C|340400|74|M|Svenne Ekstrand|74, ekonomiföreståndare, Gävle
+C|489353|66|K|Karin Wallin-Hedman|66, egen företagare, Järvsö
+C|303540|60|K|Ingbritt Olsson|60, hotellstäderska, Storvik
+C|341591|56|M|Michael Gradin|58, boendestödjare, Hassela
+C|303532|54|K|Agneta Bär|54, industrisanerare, Kungsgården
+C|313893|69|M|Lars Idon Andersson|69, f.d. köpman/officer, Ljusdal
+C|341307|79|M|Anders Sjödin|79, pensionär, Hudiksvall
+C|341595|30|K|Marika Löf|30, chaufför, Bergsjö
+C|340398|46|M|Niklas Färnstrand|46, jägare, Gävle
+C|303525|64|K|Karin Jensen|64, skötare, Gästrike-Hammarby
+C|340396|50|K|Åsa Hedström|50, virkesmätare, Bergby
+C|94457|60|M|Per Inge Eriksson|
+C|146135|63|M|Sten Pettersson|
+C|146136|24|M|Tomas Löfqvist|
+C|146137|19|M|Ian Jokinen|
+C|156227|61|K|Margaretha Modin|
+C|156232|58|M|Anders Bergman|
+C|156233|46|M|Dennis Linngård|
+C|156234|50|M|Bo Johansson|
+C|156235|65|M|Kjell Larsson|
+C|303519|26|K|Jessica Larsson|
+C|303522|73|M|Kenneth Andersson|
+C|303524|58|M|Mikael Hansén|
+C|303527|55|M|Kent Persson|
+C|303529|68|M|Bengt Ove Lindblom|
+C|303530|42|K|Marie-Louise Rodin Olofsson|
+C|303531|72|M|Lennart Jäderberg|
+C|303533|52|M|Roland Åhlund|
+C|303534|39|M|Kent Ove Veglo|
+C|303535|57|M|Mats Hansson|
+C|303536|55|M|Rickard Norberg|
+C|303537|31|M|Micael Andersson|
+C|303538|61|K|Marie Anette Löfvén|
+C|303539|52|M|Jonas Florin|
+C|303541|63|M|Ulf Netsö|
+C|303542|54|M|Mikael Sundgren|
+C|303543|32|M|Patrik Delltorp|
+C|303544|29|M|Marcus Bleckert|
+C|303545|57|M|Martin Leppäkorpi|
+C|304823|69|M|Göran Kennet Johansson|
+C|304824|30|M|Tony Svensson|
+C|304825|43|M|Magnus Nordlund|
+C|304826|50|K|Liselott Larsson|
+C|304827|70|M|Jan-Erik Tynong|
+C|304828|69|M|Sven Arne Lindberg|
+C|304830|45|M|Johan Fredrik Jansson|
+C|304831|36|K|Veronica Olsson|
+C|313897|63|M|Tomas Skogstjärn|
+C|313900|55|M|Svend Aage Friis|
+C|313901|40|M|Mats Markusson|
+C|313902|28|M|Johan Wall|
+C|313904|43|M|Jens Skjødt Elsbøl|
+C|340248|44|K|Maria Lenander|
+C|340251|30|M|Patrik Herou|
+C|340253|35|M|Marcus Bertilsson|
+C|340255|29|M|Jonas Lundberg|
+C|340256|32|M|Mattias Palm|
+C|340257|54|M|Mats Söderlund|
+C|340259|31|K|Jeanette Bergqvist|
+C|340260|67|M|Mats-Åke Ingvar Lundberg|
+C|340261|62|M|Leif Lundquist|
+C|340263|63|K|Ann-Katrin Zachrisson|
+C|340266|51|M|Per-Erik Östling|
+C|340269|44|M|Daniel Sjöblom Eriksson|
+C|340392|29|M|Robin Höglund|
+C|340395|49|M|Ronny Hedman|
+C|340399|52|K|Mimmi Edin|
+C|340401|65|M|Stefan Ström|
+C|340402|57|M|Thomas Möller|
+C|340403|29|M|André Ekholm|
+C|340405|67|M|Henrik Jalo Johani Midendal|
+C|340406|33|K|Rhia Frisk|
+C|340407|32|M|Cole Ericson|
+C|340408|71|K|Magdalena Lemon|
+C|340409|62|M|Per Arne Olsson|
+C|340411|43|M|Magnus Eklund|
+C|340412|43|M|Robert Olsson|
+C|340413|73|M|Jan Erik Skyman|
+C|340414|78|K|Rose Karlsson|
+C|340415|57|M|Lars Erik Johansson|
+C|340416|56|M|Peter Andersson|
+C|340417|67|M|Lennart Johansson|
+C|340418|76|M|Agne Berg|
+C|340420|19|M|Manne Höglund|
+C|340421|68|M|Bjarne Östlund|
+C|340422|43|M|Jimmy Andersson|
+C|340423|55|M|Ulf Larsson|
+C|340424|52|K|Marina Modd Köhler|
+C|340425|24|M|Kristoffer Lindholm|
+C|340426|57|K|Birgitta Engberg|
+C|340427|57|M|Roland Sandstedt|
+C|340428|46|K|Ruthie Andersson|
+C|340429|42|M|Magnus Emanuelsson|
+C|340430|72|M|Lars Strandberg|
+C|340431|36|M|Staffan Engberg|
+C|340432|75|K|Karin Englund|
+C|340433|53|K|Nina Grönlund|
+C|340434|48|M|Bo Micke Lönn|
+C|340435|52|M|Per Petersson|
+C|340438|59|M|Christer Larsson|
+C|341291|67|K|Yvonne Andersson|
+C|341293|51|M|Torbjörn Eriksson|
+C|341297|65|M|Kjell Evert Evertsson|
+C|341298|40|M|Fredric Berg|
+C|341300|61|M|Alf Lindgren|
+C|341301|52|M|Jari Ahonen|
+C|341302|30|K|Therése Skog|
+C|341303|64|M|Claus Engström|
+C|341304|35|M|Peter Asp Vilén|
+C|341306|56|M|Mats-Erik Jonsson|
+C|341308|77|M|Lars Göran Larsson|
+C|341309|52|M|Mats Bygren|
+C|341744|58|M|Lars Jensen|
+C|342421|53|K|Solveig Wiberg|
+C|342425|54|M|Thomas Hansson|
+C|342427|55|M|Mikael Ahlbom|
+C|342428|51|K|Anneli Ödman|
+C|342429|59|M|Göran Persson|
+C|342430|44|M|Per Persson|
+C|342432|49|M|Roger Sjöblom|
+C|342433|74|M|Jan Ola Hall|
+C|342434|46|M|Roger Ödman|
+C|342435|70|M|Sven-Olof Nord|
+C|342436|72|K|Eva Kristina Andersson|
+C|342437|77|M|Valter Lööw|
+C|489443|68|K|Eva Gustafsson|
+C|491904|86|M|Olle Ljungbeck|
+C|499215|59|K|Ann-Sofie Lind|
+C|500751|62|M|Mats Eriksson|
+C|501373|55|M|Ricky Andersson|
+C|501374|61|K|Anna-Karin Ek|
+C|501375|55|M|Kjell Fröström|
+C|501376|64|K|Margareta Johansson|
+C|501377|26|M|Michael Johansson|
+C|501378|51|M|Jörgen Rosén|
+C|501379|68|M|Gunnar Lindeberg|
+C|501396|29|M|Christoffer Nordström|
+C|503567|47|K|Therese Karlsson|
+C|503570|34|M|Jens Furuskog|
+C|503571|62|M|Mats Hellström|
+C|503572|65|K|Iris Kjällström|
+C|503573|50|M|Lars Hungefält|
+C|503575|59|M|Nils Björn Lundin|
+C|503576|62|M|Hans Säterhof|
+C|503577|51|M|Mikael Wallin|
+C|503599|76|K|Gudrun Färnstrand|
+C|503601|51|M|Per-Åke Ericsson|
+C|503602|61|M|Tommy Engberg|
+C|503603|63|K|Beryl Delén|
+C|503604|68|M|Seved Wahlman|
+C|503607|71|M|Bo Dahlin|
+C|503612|74|K|Ingalill Dahlin|
+C|513630|77|M|Karl-Georg Skoglund|
+C|514495|31|M|Fredrik Engh|
+C|515522|78|M|Rainer Holm|
+C|340838|38|M|Fredrik Åberg Jönsson|38, utredare, Gävle
+C|340839|60|K|Kristina Sjöström|projektledare, Gävle
+C|340336|43|K|Isabel Hildén|43, sjuksköterska, Söderhamn
+C|282114|35|M|Xamuel Gonzalez|35, brevbärare, Hofors
+C|340270|63|K|Yvonne Oscarsson|63, beroendeterapeut, Ljusdal
+C|340843|66|M|Lars-Göran Langeborg|paralegal, Gävle
+C|340844|64|K|Gunbritt Wallström|64, f.d statsanställd, Söderhamn
+C|340164|55|M|Håkan Svensson|55, undersköterska, Sandviken
+C|340846|28|K|Elin Nordin|28, etnolog, Hudiksvall
+C|340151|51|M|Zaradesth Bekir|51, egen företagare, Sandviken
+C|340221|59|M|Alf Norberg|59, mentalskötare, Hudiksvall
+C|340220|52|K|Ulrica Högberg|52, gymnasielärare, Hudiksvall
+C|340850|62|M|Tommy Cavallin|66, undersköterska, Hudiksvall
+C|340148|62|K|Lillemor Mauritzdotter Nylén|62, kulturarbetare/oppositionsråd, Sandviken
+C|340150|70|K|Margareth Söderlund|70, förskollärare, Järbo
+C|282115|61|K|Carina Halfvars|61, distriktssköterska, Hofors
+C|339825|49|M|Lars B Andersson|folkbildare, Kilafors
+C|340855|45|K|Jessica Åberg|45, lärare, Gävle
+C|340293|66|M|Ingemar Börjesson|pensionär, Ovanåker
+C|340346|40|K|Malin Rönström|40, kommunal tjänsteperson, Söderhamn
+C|340858|67|M|Jerker Svensson|67, snickarmästare, Hudiksvall
+C|340859|34|M|Kristoffer Andersson|33, sjuksköterska/yrkeslärare, Hudiksvall
+C|340291|49|K|Hanna Tolander|astrolog, Nordanstig
+C|340159|30|M|Andreas Broström|30, mjukvarutestare, Sandviken
+C|339817|66|M|Göran Jansson|sjuksköterska, Bollnäs
+C|339816|50|K|Anna-Lena Vestin|kock och mjölkproducent, Kilafors

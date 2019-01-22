@@ -1,10 +1,197 @@
-2|144339|144340|144341|144342|144343|144344|144345|468306|144347|353939|144348|144349|144350|144351|144352|144353|144354|169047|144355|144356|145504|145505|145506|145507|145508|145509|145510|145511|145512|145513|145514|145515|145516|323050|145517|145518
-4|197364|197365|196488|197367|197368|197369|197370|197371|197372|197373|197374|197375|197376|197377|197378|197379|196498|196504|196500|197383|197384|196505|197386
-68|166580|166859|166860|166657|166862|166863|166864|166865|166866|166867|166666|166869
-1011|132318
-3|2175|2193|2182|225703|225704|2190|225706|225707|225708|225709|225710|225711
-55|188662|188663|188664|188665|188666|188667|188668|188669|188670|188671|188672|188673|188674
-1|9998|104833|104834|104835|9981|104837|104838|104839|104840|104841|104842|104843|104844|104845|104846|104847|104848|104849|10143|104851|104852|104853|104854|104855|104856
-1370|5623|392803|392804|392805
-110|67307|67308|67309|32721|67311|67312|67313|67314|67315|67316|67317|67318|67319|67320|67321|67322|67324|67325|5623
-5|146208|12097|146210|146211|144866|146213|84820|146215|146216|146217|146218|146219|146220|146221|146222|146223|146224|146225|146226|146227|84813|146229|146230|12073|146232|146233|146234|144860|84803|146237|84827|146239
+T|Flen
+A|2|144339|144340|144341|144342|144343|144344|144345|468306|144347|353939|144348|144349|144350|144351|144352|144353|144354|169047|144355|144356|145504|145505|145506|145507|145508|145509|145510|145511|145512|145513|145514|145515|145516|323050|145517|145518
+A|4|197364|197365|196488|197367|197368|197369|197370|197371|197372|197373|197374|197375|197376|197377|197378|197379|196498|196504|196500|197383|197384|196505|197386
+A|68|166580|166859|166860|166657|166862|166863|166864|166865|166866|166867|166666|166869
+A|1011|132318
+A|3|2175|2193|2182|225703|225704|2190|225706|225707|225708|225709|225710|225711
+A|55|188662|188663|188664|188665|188666|188667|188668|188669|188670|188671|188672|188673|188674
+A|1|9998|104833|104834|104835|9981|104837|104838|104839|104840|104841|104842|104843|104844|104845|104846|104847|104848|104849|10143|104851|104852|104853|104854|104855|104856
+A|1370|5623|392803|392804|392805
+A|110|67307|67308|67309|32721|67311|67312|67313|67314|67315|67316|67317|67318|67319|67320|67321|67322|67324|67325
+A|5|146208|12097|146210|146211|144866|146213|84820|146215|146216|146217|146218|146219|146220|146221|146222|146223|146224|146225|146226|146227|84813|146229|146230|12073|146232|146233|146234|144860|84803|146237|84827|146239
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1370||Rättvisa i Flen
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|144339|57|M|Anders Berglöv|57 år, Mellösa
+C|144340|51|K|Helen Stockow|57 år, Hälleforsnäs
+C|144341|42|M|Daniel Ljungkvist|42 år, Flen
+C|144342|44|K|Terese Larsson|44 år Ombudsman Flen
+C|144343|47|M|Jonas Thyrén|47 år, Flen
+C|144344|26|K|Maria Efimova|26 år, Sparreholm
+C|144345|39|M|Peter Munter|39 år, Malmköping
+C|468306|48|K|Teija Kaavisto|48 år, Bettna
+C|144347|48|M|Daniel Danon|48 år Elevhandledare Flen
+C|353939|56|K|Mari-Louise Andersson|56 år, Hälleforsnäs
+C|144348|58|M|Torbjörn Jansson|58 år Verksamhetsassistent Flen
+C|144349|40|K|Ann-Charlotte Munter|40 år, Malmköping
+C|144350|67|M|Arne Lundberg|67 år, Flen
+C|144351|63|K|Ann-Katrin Elofson|63 år, Skebokvarn
+C|144352|35|M|Adam Jamaal Adam|35 år Förskolechef Flen
+C|144353|58|K|Anette Byström|57 år, Sparreholm
+C|144354|65|M|Torbjörn Löfgren|65 år, Mellösa
+C|169047|61|K|Marie-Louise Olson|61 år, Mellösa
+C|144355|63|M|Daniel Söderqvist|63 år, Hälleforsnäs
+C|144356|48|K|Jaana Lathi Nordengren|48 år, Flen
+C|145504|68|M|Karl-Erik Holmsten|68 år, Flen
+C|145505|53|K|Annette Lifvakt|53 år, Flen
+C|145506|46|M|Göran Olsson|46 år, Hälleforsnäs
+C|145507|67|K|Kristina Jävergren|67 år, Malmköping
+C|145508|66|M|Lars Carnesten|67 år, Flen
+C|145509|53|K|Pernilla Hjälte|53 år, Flen
+C|145510|73|M|Björn Berglöv|73 år, Flen
+C|145511|64|K|Birgitta Andersson|64 år Undersköterska Flen
+C|145512|75|M|Ebbe Näslund|75 år, Flen
+C|145513|72|K|Agneta Asp|72 år, Flen
+C|145514|75|M|Bernt Asp|75 år, Flen
+C|145515|67|K|Ingrid Elsberg|67 år, Bettna
+C|145516|70|M|Bo Johansson|70 år, Flen
+C|323050|68|M|Hans Åfeldt|68 år, Flen
+C|145517|72|K|Ingrid Knutsson Karlsson|72 år, Flen
+C|145518|62|M|Mats Larsson|62 år, Flen
+C|197364|45|K|Karina Krogh|54 år,Verksamhetsutvecklare,Flen
+C|197365|51|M|Roger Tiefensee|51 år Malmköping
+C|196488|39|K|Jenny Hammarlund|39 år,Kliniksamordnare,Flen
+C|197367|26|M|Abdurahman Hussein Hassan|26 år, Flen
+C|197368|72|K|Ingegerd Branting|72år,Egen företagare,Sparreholm
+C|197369|59|M|Anders Iwerbo|59 år, Flen
+C|197370|42|K|Jenny G Andersson|42 år, Årdala
+C|197371|63|M|Anders Hermanson|63 år,Civilekonom,Flen
+C|197372|52|M|Björn Carlsson|52 år, Mellösa
+C|197373|61|M|Didrik Tångeberg|61 år, Blacksta
+C|197374|71|K|Stina Näslund|71 år, Mellösa
+C|197375|65|M|Anders Jonsson|65 år, Vadsbro
+C|197376|35|K|Therés Eriksson|35 år, Flen
+C|197377|48|M|Tommy Axner|48 år, Sparreholm
+C|197378|37|K|Soura Haqqy|37 år, Mellösa
+C|197379|82|M|Göran Boström|82 år, Flen
+C|196498|66|M|Tomas Johansson|66 år,Entreprenör,Flen
+C|196504|54|K|Kjerstin Gustafsson|54 år,Vårdare,Flen
+C|196500|75|M|Tage Persson|75 år,Tjänsteman,Flen
+C|197383|54|M|Stefan Gustafsson|54 år, Vadsbro
+C|197384|75|K|Inger Findeisen|75 år, Flen
+C|196505|58|M|Stefan Gustafsson|58 år,Fastighetsutvecklare,Flen
+C|197386|23|K|Sara Ezzedine|23 år, Hälleforsnäs
+C|166580|40|K|Anna Jernemalm|40, undersköterska, Flen
+C|166859|63|M|Thomas Ledenvik|63, fd. logistikplanerare, Flen
+C|166860|34|K|Ann-Sofie Svedberg|34, undersköterska, Flen
+C|166657|48|M|Joacim Wäppling|48, kriminalvårdare, Bettna
+C|166862|42|M|Ola Jernemalm|42, administratör, Flen
+C|166863|43|K|Jenny Nordlöf|43, undersköterska , Flen
+C|166864|48|M|Anders Karlsson|48, företagare, Hälleforsnäs
+C|166865|49|M|Talaat Youssef|49, företagare, Flen
+C|166866|38|K|Teresia Jernemalm|38, förskollärare, Flen
+C|166867|82|M|Bengt Eriksson|82, pensionär, Flen
+C|166666|48|M|Niklas Lindholm|48, leg. sjuksköterska, Flen
+C|166869|56|M|Peter Johansson|56, personlig assistent, Vadsbro
+C|132318|57|K|Eva von Heideken|Lantbruksföretagare, Södermanland
+C|2175|69|K|Berit Hyllbrant|läkarsekreterare, Sparreholm
+C|2193|47|M|Magnus Erixon|Sparreholm
+C|2182|32|M|Jonathan Bejefalk|skyddsvakt, Malmköping
+C|225703|46|K|Oxana Erixon|Sparreholm
+C|225704|74|M|Nils Hollman|Malmköping
+C|2190|51|K|Marieanne Blomberg|leg. arbetsterapeut, Malmköping
+C|225706|42|M|Fredrik Neurman|Hälleforsnäs
+C|225707|27|M|Jonas Johansson|Flen
+C|225708|70|M|Håkan Lindqvist|Flen
+C|225709|46|K|Katrin Eriksson|Sparreholm
+C|225710|70|K|Birgitta Lundmark|Mellösa
+C|225711|76|K|Tuula Ilvonen|Hälleforsnäs
+C|188662|51|K|Cecilia Friis|företagare, 51 år, Malmköping
+C|188663|56|M|Thomas Tilly|56 år, socionom, Flen
+C|188664|68|K|Greta Suvén|civilingenjör, 68 år, Flen
+C|188665|63|M|Ruben Bobadilla|leg förskolelärare, 63 år, Flen
+C|188666|67|K|Susanne Thibblin|lärare, 67 år, Flen
+C|188667|49|M|Simon Stålspets|49 år, musiker, Dunker
+C|188668|19|M|Adam Friis|19 år, studerande, Malmköping
+C|188669|71|K|Magdalena Rangne|71 år, lärare, Malmköping
+C|188670|72|M|Bo Sandgren|ingenjör, 72 år, Flen
+C|188671|72|K|Inger Sandgren|72 år, receptionist, Flen
+C|188672|72|M|Robert Nordgren|72 år, pensionär, Flen
+C|188673|45|K|Helen Sipinen|45 år, livscoach, Sparreholm
+C|188674|30|M|Ted Jonsson|30 år, cnc-operatör, Malmköping
+C|9998|30|K|Emma Dahlin|oppositionsråd, Flen
+C|104833|56|K|Katarina Lagerstedt|jurist, Flen
+C|104834|69|M|Sven-Gunnar Johansson|greenkeeper, Malmköping
+C|104835|72|K|Lisbeth Brevig|instruktör, Flen
+C|9981|59|K|Lotta Finstorp|riksdagsledamot, Södermanlands län
+C|104837|66|K|Ulla Lindström|socionom, Flen
+C|104838|55|K|Martina von Bothmer|HR-specialist, Malmköping
+C|104839|63|K|Kerstin Olsson|egenföretagare, Flen
+C|104840|46|K|Elisabeth Bergqvist|lärare, Mellösa
+C|104841|68|M|Thomas Norander|företagare, Sparreholm
+C|104842|42|K|Jessica Källström|förskolechef, Flen
+C|104843|48|M|Karl Holm|rättschef, Sparreholm
+C|104844|58|M|Dahir Ismail|lärare, Flen
+C|104845|70|K|Sonja Nordin|pensionär, Flen
+C|104846|42|M|Daniel Borgmyren|skolskjutschaufför, Sparreholm
+C|104847|59|K|Walburga Habsburg Douglas|jurist, Malmköping
+C|104848|66|M|Gustaf Lindström|forskningsingenjör, Flen
+C|104849|49|K|Susanne Sundelius|VD, Malmköping
+C|10143|61|M|Björn Zetterqvist|lantbrukare, Flen
+C|104851|73|K|Sirkka Mäenpää|pensionär, Flen
+C|104852|75|M|Gunnar Widell|gymnasielärare, Flen
+C|104853|63|M|Muhannad Salman Ramez|agronom, Flen
+C|104854|52|K|Susanne Thor Olesen|handledare, Flen
+C|104855|68|M|Archibald Douglas|lantbrukare, Malmköping
+C|104856|67|K|Ylva Norander|projektadministratör, Sparreholm
+C|5623|77|M|Per Grönlund|Ingenjör, Jurist
+C|392803|59|M|Stig Magnus Dahlsson|Ingenjör
+C|392804|86|M|Bo Gustav Ingemar Wahlberg|Företagare
+C|392805|56|M|Van Phuc Hoang|Restaurangägare
+C|67307|73|M|Göte Nilsson|73 år, Arbetsledare
+C|67308|49|M|Johan Hallinder|49 år, Yrkeslärare
+C|67309|58|M|Anders Brännman|58, inköpare, Flen
+C|32721|43|K|Christine Hallinder|43 år, Administratör
+C|67311|74|M|Sven Bager|74, ingenjör, Flen
+C|67312|41|K|Therese Borg|Informationsassistent, Flen
+C|67313|50|M|Torgny Lindgren|50, chaufför, Skebokvarn
+C|67314|33|M|Rickard Brännman|33, projektledare, Flen
+C|67315|62|M|Guy Johansson|62, sjökapten, Flen
+C|67316|42|K|Sara Johansson|42 år, Undersköterska
+C|67317|73|M|Rogert Karlsson|73, betongare, Flen
+C|67318|54|M|Watson George|54, egenföretagare, Hälleforsnäs
+C|67319|64|M|Göran Lennman|64, pensionär, Flen
+C|67320|64|M|Lasse Verhoczki|64, låssmed, Flen
+C|67321|34|M|Jimmy Johansson|34, järnvägsanläggare, Sparreholm
+C|67322|54|M|Peter Karlsson|54, truckförare, Flen
+C|67324|56|K|Alma I E Olsson|56, förtidspensionär, Bettna
+C|67325|67|K|Ursula Wandeldt|67, biståndshandläggare, Flen
+C|146208|46|K|Rose-Marie Fältskog|46, Kommunikationsstrateg
+C|12097|59|M|Kaj Johansson|59, Sjukpensionär, Flen
+C|146210|32|K|Huda Omar|32, Lärare
+C|146211|62|M|Caspar Almander|62, Verksamhetsutvecklare
+C|144866|66|K|Eeva Tolvanen|65, Leg. psykolog, Flen
+C|146213|62|K|Anne Sjöberg|63, Projektledare
+C|84820|61|M|Karoly Hidvegi|60, Tjänsteman, Flen
+C|146215|26|K|Ayan Hassan|26, Barnskötare
+C|146216|53|M|Ahmed Dahir|53, Livsmedelsarbetare
+C|146217|82|K|Inger Hassler|82, Pensionär
+C|146218|39|M|Anton Ragnarsson|39, Mjukvaruutvecklare
+C|146219|64|K|Elisabeth Molin|64, Leg. sjuksköterska
+C|146220|46|M|Roine Eklund|46, Byggnadsarbetare
+C|146221|63|K|Ing-Marie Sundin|63, Folkmusikpedagog
+C|146222|27|K|Ilhan Mohamed|27, Arbetsförmedlarassistent
+C|146223|36|M|Noor Mohamed|36, Bussförare
+C|146224|52|K|Lena Arntsen-Karlsson|52, Personlig assistent
+C|146225|25|K|Mariam Harutunjan|25, Elevhandledare
+C|146226|75|M|Hans Jakobsson|75, Biodlare
+C|146227|29|K|Felicia Rydstedt|29, Studerande
+C|84813|62|K|Lillemor Johansson|62, Lärare, Flen
+C|146229|70|M|Finn Gunnarsson|70, Pensionär
+C|146230|67|K|Inger Andersson|67, Pensionär
+C|12073|52|K|Lotta Back|52, Psykiatrisjuksköterska, Flen
+C|146232|53|M|Jerry Persson|53, Vattenrådgivare
+C|146233|71|K|Inger Wigzell|71, Pensionär
+C|146234|67|K|Margareta Johansson|67, Pensionär
+C|144860|37|K|Linnea Tillman|37, Studerande, Flen
+C|84803|29|K|Emelie Eriksson|29, Studerande, Flen
+C|146237|69|K|Maria Lindell|69, Pensionär
+C|84827|60|K|Seja Hidvegi|60, Industriarbetare, Flen
+C|146239|82|K|Gerd Johansson|82, Pensionär

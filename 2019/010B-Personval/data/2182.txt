@@ -1,11 +1,239 @@
-2|40514|29150|40516|40517|40518|40519|40520|40521|40522|40529|40524|40523|29333|40525|40528|40527|40530|40531|29167|40533|40534|40535|29365|29348|40538|40539|40540|40541|40542|40543|40544|40545|29349|40547|40548|29320|40550|40551|40552|40553|40554|40555|40556|59044|40557|40558|40559
-4|300752|314211|314212|314213|314214|314215|454742|314218|314219|314220|314221|314222|314223|314224|314225|314226|314227|314228|314229|314230|314231|314232|314233|314234|314235|314236|314237|314238|314239|314240|314241|314242|314243|314244|314245|314730
-1318|22792
-68|22315|53735|22316|22317|22318|53528|22319|93927|22320|22321|22322|22323|22324|22325|93934|22326|22327|96994|22328|22329
-3|145921|145922|145923|145924|145925|145926|145927|145928|145929|145930|145931
-55|14261|15660|14266|15655|15666|14255|14262|15662|15663|15664
-1|168493|168481|168509|168486|168495|172862|182630|182631|182632|182633|182634|182635|172899|182637|182638|182639|182640|182641|182642|182643|182644|182645|182646
-1360|368373|368374|368375|368376|368377|368378|368379|368380
-107|61387|61388|61389
-110|304819|304820|304821|304822|304823|304824|304825|304826|304827|304828|304829|488448|304830|304834|304835|304836|488453|514386|514387|514388|514389|514390|514391|514392|514393|514394|304831|304833|501408|503607|503609|503612|513511|515574
-5|340335|340336|340337|340338|340339|340340|340341|340342|340343|340344|340345|340346|340347|340348|340349|340350|340351|340352|340353|340354|340355|340356|340357
+T|Söderhamn
+A|2|40514|29150|40516|40517|40518|40519|40520|40521|40522|40529|40524|40523|29333|40525|40528|40527|40530|40531|29167|40533|40534|40535|29365|29348|40538|40539|40540|40541|40542|40543|40544|40545|29349|40547|40548|29320|40550|40551|40552|40553|40554|40555|40556|59044|40557|40558|40559
+A|4|300752|314211|314212|314213|314214|314215|454742|314218|314219|314220|314221|314222|314223|314224|314225|314226|314227|314228|314229|314230|314231|314232|314233|314234|314235|314236|314237|314238|314239|314240|314241|314242|314243|314244|314245|314730
+A|1318|22792
+A|68|22315|53735|22316|22317|22318|53528|22319|93927|22320|22321|22322|22323|22324|22325|93934|22326|22327|96994|22328|22329
+A|3|145921|145922|145923|145924|145925|145926|145927|145928|145929|145930|145931
+A|55|14261|15660|14266|15655|15666|14255|14262|15662|15663|15664
+A|1|168493|168481|168509|168486|168495|172862|182630|182631|182632|182633|182634|182635|172899|182637|182638|182639|182640|182641|182642|182643|182644|182645|182646
+A|1360|368373|368374|368375|368376|368377|368378|368379|368380
+A|107|61387|61388|61389
+A|110|304819|304820|304821|304822|304823|304824|304825|304826|304827|304828|304829|488448|304830|304834|304835|304836|488453|514386|514387|514388|514389|514390|514391|514392|514393|514394|304831|304833|501408|503607|503609|503612|513511|515574
+A|5|340335|340336|340337|340338|340339|340340|340341|340342|340343|340344|340345|340346|340347|340348|340349|340350|340351|340352|340353|340354|340355|340356|340357
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1318|CSIS|Common sense in Sweden
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1360|SOS|SOS-Ställ Om Sverige, Söderhamnsinitiativet
+B|107|SPI|SPI Välfärden
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|40514|54|M|Sven-Erik Lindestam|54 år, Söderhamn
+C|29150|29|K|Alexandra Gard|29 år, Söderhamn
+C|40516|59|M|John Staffas|59 år, Söderhamn
+C|40517|54|K|Maria Lind|54 år, Söderhamn
+C|40518|60|M|Ove Söderberg|60 år, Ljusne
+C|40519|53|K|Katarina Hedberg|54 år, Söderhamn
+C|40520|29|M|Erik Sköld|29 år, Söderala
+C|40521|57|K|Susanne Larsson|56 år, Söderala
+C|40522|48|M|Magnus Flyckt|48 år, Sandarne
+C|40529|68|K|Lillemor Svensson|68 år, Ljusne
+C|40524|46|M|Mattias Åhlund|46 år, Söderhamn
+C|40523|63|K|Monica Zellafors|63 år, Söderhamn
+C|29333|28|M|Marcus Gard|28 år, Söderhamn
+C|40525|61|K|Xenia Hildén|61 år, Söderhamn
+C|40528|49|M|Mattias Benke|49 år, Norrala
+C|40527|60|K|Åsa Kastman|60 år, Holmsveden
+C|40530|53|M|Urban Wigren|52 år, Söderala
+C|40531|26|K|Anna-Maria Landgren|26 år, Söderhamn
+C|29167|43|M|Johannes Tyve|43 år, Söderhamn
+C|40533|18|K|Frida Hirsimäki|19 år, Ljusne
+C|40534|59|M|Lennart Gard|59 år, Ljusne
+C|40535|36|K|Jessica Stenberg|36 år, Söderhamn
+C|29365|46|M|Fredrik L'Estrade|47 år, Söderhamn
+C|29348|43|K|Anneli Hirsimäki|44 år, Söderhamn
+C|40538|51|M|Tommy Berglöf|50 år, Sandarne
+C|40539|60|K|Anneli Englund|60 år, Stråtjära
+C|40540|69|M|Jan-Evert Hagström|69 år, Söderhamn
+C|40541|61|K|Monica Bodén|62 år, Söderhamn
+C|40542|29|M|Patric Rosenqvist|29 år, Söderhamn
+C|40543|72|K|Sirkka-Liisa Törmänen|72 år, Vallvik
+C|40544|56|M|Leif Håkansson|56 år, Söderhamn
+C|40545|47|K|Catarina Lindberg|47 år, Vallvik
+C|29349|67|M|Sven-Olof Larsson|67 år, Söderhamn
+C|40547|48|K|Heléna Gehlin|48 år, Bergvik
+C|40548|60|M|Bengt Uppvall|60 år, Söderhamn
+C|29320|56|K|Eva Lindberg|57 år, Söderhamn
+C|40550|62|M|Christer Wannberg|62 år, Sandarne
+C|40551|69|K|Yvonne Steen|69 år, Söderhamn
+C|40552|53|M|Gulled Ahmed|53 år, Söderhamn
+C|40553|59|K|Ann Jonsson|59 år, Söderhamn
+C|40554|37|M|Henrik Viberg|37 år, Söderhamn
+C|40555|64|K|Margaretha Agelmark|64 år, Söderala
+C|40556|43|M|Ali Nefzi|43 år, Söderala
+C|59044|43|K|Anna Idell|43 år, Söderhamn
+C|40557|61|M|Sture Zellafors|60 år, Söderhamn
+C|40558|69|K|Britt-Mari Bergenstråle Hagström|69 år, Söderhamn
+C|40559|77|M|Hans-Olof Olsson|77 år, Söderhamn
+C|300752|47|M|John-Erik Jansson|skadechef, Söderhamn
+C|314211|66|K|Marianne Persson|undersköterska, Söderhamn
+C|314212|42|M|Magnus Svensson|oppositionsråd, Söderhamn
+C|314213|57|K|Lena Dufva|samordnare, Söderhamn
+C|314214|56|M|Mikael Engblom|56 år, lantbrukare, Holmsveden
+C|314215|40|K|Martina Eriksson|40 år, virkeområdeschef, Norrala
+C|454742|38|K|Jessica Hellberg|38 år, verksamhetschef, Norrala
+C|314218|38|M|Fredrik Ölander|38 år, projektledare, Trönö
+C|314219|68|M|Lennart Hammarsten|68 år, företagare, Söderhamn
+C|314220|51|M|Pär-Olof Stål|51 år, departementssekreterare, Söderala
+C|314221|65|K|Carine Östlund|65 år, nämndeman, Bergvik
+C|314222|56|M|Sven-Ulrich "Dulle" Ohlsson|Söderhamn/Mo
+C|314223|37|M|Peter Myrach Regnell|37 år, civilutredare, Söderala
+C|314224|53|K|Helena Torstensson|53 år, civilingenjör, Söderhamn
+C|314225|48|K|Camilla Jonsson|undersköterska, Söderhamn
+C|314226|51|M|Peter Olsson|verksamhets vaktmästare, Söderhamn
+C|314227|28|K|Matilda Göransson|distriktschef, Långbo
+C|314228|43|M|Björn Celind|43 år, egenföretagare, Söderhamn
+C|314229|40|K|Annica Norlin|39 år, enhetschef, Stugsund
+C|314230|71|M|Peter Åkerlind|71 år, företagare, Trönö
+C|314231|56|K|Carina Karlsson|56 år, sjukpensionär, Söderhamn
+C|314232|53|M|Mikael Krantz|54 år, personlig assistent, Ljusne
+C|314233|68|K|Eija N. Haglund|68 år, pensionär, Norrala
+C|314234|61|M|Kalle Khalidy|61 år, chaufför, Stugsund
+C|314235|84|M|Alvar Magnusson|84 år, lantbrukare, Söderala
+C|314236|35|M|Johan Svahn|35 år, lärare, Söderhamn
+C|314237|64|M|Karl-Gunnar Ström|64 år, egenföretagare, Stråtjära
+C|314238|63|M|Nils Westling|63 år, konsult, Bergvik
+C|314239|68|M|Ove Söderholm|68 år, pensionär, Söderala
+C|314240|59|K|Marita Norman|59 år, kontorschef, Stugsund
+C|314241|83|K|Berit Magnusson|83 år, kontorist, Söderala
+C|314242|62|M|Lennart Andersson|62 år, jurist, Söderala
+C|314243|58|M|Kjell Englund|58 år, servicemontör, Marmaverken
+C|314244|74|M|Jan Persson|74 år, musiker, Norrala
+C|314245|70|M|Kenth Burvall|70 år, pensionär, Söderala
+C|314730|42|M|Tomas Svensson|42 år, företagare, Söderala
+C|22792|38|M|Erik Steen|Partiledare 38 år Söderhamn
+C|22315|60|M|Anders Ramstrand|Lärare, Söderhamn
+C|53735|42|M|Jan Nilsson|Lärare, Söderhamn
+C|22316|65|K|Maria Hansson|Föreläsare, Söderhamn
+C|22317|52|M|Gunnar Sundin|Undersköterska, Stråtjära
+C|22318|52|K|Karin Ellström|Företagare, Söderhamn
+C|53528|71|M|Olle Persson|Företagare, Norrala
+C|22319|81|M|Bengt Hedman|Pensionär, Bergvik
+C|93927|47|K|Monica Sundgren|Hemmafru, Söderhamn
+C|22320|21|M|Erik Persson|Företagare, Norrala
+C|22321|67|M|Ove Wiström|Pensionär, Vågbro
+C|22322|64|M|Per Blomqvist|Pensionär, Utvik
+C|22323|20|M|Khajik Kasbar|Student, Sandarne
+C|22324|42|M|Magnus Natander|Präst, Söderhamn
+C|22325|47|M|Mats Persson|Företagare, Norrala
+C|93934|54|M|Olov Mattsson|Företagare, Mo
+C|22326|69|M|Theodros Yosef|Pensionär, Söderhamn
+C|22327|19|M|Yacob Tewodros Yoseph|Student, Söderhamn
+C|96994|78|K|Marie-Louise Tynong|Pensionär, Trönödal
+C|22328|80|K|Eivor Garpebo|Pensionär, Söderhamn
+C|22329|79|M|Ingvar Garpebo|Pensionär, Söderhamn
+C|145921|43|M|Magnus Ludvigsson|43,IT-konsult,Söderhamn
+C|145922|71|K|Ingrid Backelin|71,fd ålderdomshemsföreståndare,Norrala
+C|145923|39|K|Teresa Vanova Benke|39,enhetschef LSS,Norrala
+C|145924|80|M|Börje Timerdal|80,redaktör,Söderhamn
+C|145925|68|M|Hans Blom|68,fd lärare,Söderhamn
+C|145926|41|K|Pia Sandemalm|41,undersköterska,Söderhamn
+C|145927|55|M|Magnus Ahlgren|54,juristchef,Söderhamn
+C|145928|83|K|Git Keinström|83,pensionär,Norrala
+C|145929|46|M|Pär Lindberg|46,ekonomibiträde,Söderhamn
+C|145930|78|M|Leif Jonsson|78,pensionär,Söderhamn
+C|145931|72|K|Gunilla Wiklund|72,fd.förskollärare ,Ljusne
+C|14261|27|K|Joann Ling|student, 27 år, Trönö
+C|15660|73|K|Karin Solum|Före detta gymnasielärare, 73, Djupvik
+C|14266|35|M|Johan Nilsson|frivårdsinspektör, 35 år, Söderala
+C|15655|63|K|Lena Paulsson|Administrativ chef, 63, Holmsveden
+C|15666|28|K|Elin Vestling|Undersköterska, 28, Marmaverken
+C|14255|60|M|Olov Östlund|utvecklingsingenjör, 60 år, Trönö
+C|14262|68|M|Bengt Samuelsson|pensionär, 68 år, Söderhamn
+C|15662|72|M|Karl-Magnus Karlsson|Pensionär, 72, Bergvik
+C|15663|69|M|Claes B. Jacobson|Pensionär, 69, Söderhamn
+C|15664|78|M|Staffan Reinius|Pensionär, 78, Djupvik
+C|168493|50|K|Marjo Myllykoski|50 år, arbetsförmedlare, Söderhamn
+C|168481|27|M|Viktor Wärnick|27 år, statstjänsteman, Söderhamn
+C|168509|74|M|Hans Sundgren|74 år, pensionär, Söderhamn
+C|168486|41|K|Linda Elgestad|41 år, ekonom, Bergvik
+C|168495|42|M|Lars Stål|42 år, verkställande direktör, Söderhamn
+C|172862|18|M|Alexander Hägg|18 år, studerande, Söderhamn
+C|182630|62|K|Karin Velander|62 år, familj- och ungdomsbehandlare
+C|182631|18|M|Piotr Pokrasen|18 år, studerande
+C|182632|76|M|George Ayres|76 år, företagare
+C|182633|70|K|Ingrid Bengtsson|70 år, barnsköterska
+C|182634|70|M|Leif O. Rengman|70 år, pensionist
+C|182635|53|M|Mats Sahlin|53 år, SIUS-konsulent
+C|172899|75|K|Britt Unger|74 år, pensionär, Söderhamn
+C|182637|60|M|Mats Wiklund|60 år, gymnasielärare
+C|182638|74|M|Jan-Olof Högqvist|74 år, f.d. polis
+C|182639|43|K|Frida Stål|43 år, folkhälsostuderande
+C|182640|77|M|Håkan Rydén|77 år, turbinmontör
+C|182641|77|K|Yvonne Johansson|77 år, pensionär
+C|182642|68|M|Kjell Andersson|68 år, innovatör
+C|182643|26|K|Emelie Noras|26 år, butikschef
+C|182644|64|M|Per-Yngve Velander|64 år, polis
+C|182645|30|K|Maria Leander|30 år, produktionschef
+C|182646|74|M|Olof Bengtsson|74 år, kommunrevisor
+C|368373|53|M|Anders Persson|53 år, småbrukare, Söderhamn
+C|368374|51|M|Mikael Vallström|51 år, forskare, Söderala
+C|368375|29|K|Martina Bergström|29 år, administratör, Stugsund
+C|368376|20|M|Hampus Karlsson|20 år, verkstadsarbetare, Söderhamn
+C|368377|58|M|Per Färnstrand|57 år, lärare, Bergvik
+C|368378|66|M|Lennart Renöfält|65 år, pastor, Marmaverken
+C|368379|66|K|Gerd Hedlund Svärd|66 år, pensionär, Söderala
+C|368380|51|K|Maria Vallström|50 år, lektor, Söderhamn
+C|61387|83|M|Roland Laurin|
+C|61388|69|M|Gösta Jacobsson|
+C|61389|73|M|Gunnar Berglund|
+C|304819|36|M|Daniel Persson|Regionråd, Söderhamn
+C|304820|50|K|Christina Östberg|Riksdagsledamot, Söderhamn
+C|304821|65|K|Eva-Mai Mineur-Tynong|65, alkohol-drogterapeut, Söderhamn
+C|304822|64|M|Christer Andersson|64, företagare, Söderhamn
+C|304823|69|M|Göran Kennet Johansson|
+C|304824|30|M|Tony Svensson|
+C|304825|43|M|Magnus Nordlund|
+C|304826|50|K|Liselott Larsson|
+C|304827|70|M|Jan-Erik Tynong|
+C|304828|69|M|Sven Arne Lindberg|
+C|304829|51|M|Rino Hedblom|52, verkstadsmekaniker, Stråtjära
+C|488448|71|M|Rune Wester|71, pensionär, Söderhamn
+C|304830|45|M|Johan Fredrik Jansson|
+C|304834|72|M|Gunnar Silverkvarn|72, fd maskinfordonlärare, Söderala
+C|304835|58|M|Göran Andersson|58, reparatör, Norrala
+C|304836|54|K|Ann-Christine Andersson|54, taxichaufför, Norrala
+C|488453|61|M|Karl-Erik Frunck|61, byggnadsarbetare, Söderhamn
+C|514386|45|K|Susanne Zetterlund|45, biluthyrare, Söderhamn
+C|514387|47|M|Kimmo Kanerva|47, samordnare, Söderala
+C|514388|47|M|Ted Nilsson|47, företagare, Stråtjära
+C|514389|41|M|Daniel Wilin|40, företagare, Bergvik
+C|514390|51|M|Lennart Sundgren|51, åkeriägare, Sandarne
+C|514391|60|M|Bo Dahlström|60, maskinförare, Söderala
+C|514392|73|M|Nils-Olof Oxelbrand|73, företagare, Sandarne
+C|514393|63|K|Jane Mineur|63, undersköterska, Söderhamn
+C|514394|33|M|Anders Forselius|33, arbetssökande, Bergvik
+C|304831|36|K|Veronica Olsson|
+C|304833|78|K|Ulla Lorendal|
+C|501408|36|K|Helena Sundgren|
+C|503607|71|M|Bo Dahlin|
+C|503609|67|M|Arne Frisk|
+C|503612|74|K|Ingalill Dahlin|
+C|513511|69|M|Tryggve Bohlin|
+C|515574|67|M|Christer Ödmann|
+C|340335|38|K|Jonna Källström Börresson|38, nationell samordnare, Söderhamn
+C|340336|43|K|Isabel Hildén|43, sjuksköterska, Söderhamn
+C|340337|26|M|Anton Larsson|26, kulturkonsulent, Söderhamn
+C|340338|28|K|Amelia Königsson|28, student, Söderhamn
+C|340339|41|M|John Källström|41, IT-konsult, Söderhamn
+C|340340|28|K|Ingrid Bergström Nilsson|Socialsekreterare, 28, Söderhamn
+C|340341|43|M|Göran Hånell|Egen företagare, 43, Söderhamn
+C|340342|61|K|Carina Toner Jansson|Kvinnojour, 61, Trönödal
+C|340343|68|M|Stig Nordgren|Pensionär, 68, Marmaverken
+C|340344|60|K|Eva Anita Königsson|Kulturarbetare, 59, Söderhamn
+C|340345|71|M|Benny Gustafsson|Pensionär, 71, Trönödal
+C|340346|40|K|Malin Rönström|40, kommunal tjänsteperson, Söderhamn
+C|340347|24|M|Johan Strand|Grafiker, 24, Söderhamn
+C|340348|43|K|Anna Lundgren|Polis, 43, Norrala
+C|340349|30|M|Mats Jonsson|Sjuksköterska, 30, Söderhamn
+C|340350|42|K|Leonie Fors|Verksamhetsassistent, 42, Söderala
+C|340351|28|M|Jonas Jonsson|Studerande, 28, Söderala
+C|340352|23|K|Fanny Eriksson|Undersköterska, 23, Söderhamn
+C|340353|24|M|Dennis Bertilsson|Ljudtekniker, 24, Marmaverken
+C|340354|31|K|Sandra Wellbrant|God man, 31, Söderhamn
+C|340355|28|M|Jesper Jönsson|Sjuksköterska, 28, Söderhamn
+C|340356|64|M|Christer Grehn|Socialarbetare, 63, Norrala
+C|340357|73|M|Roger Karlsson|Pensionär, 73, Söderhamn

@@ -1,7 +1,103 @@
-2|47281|47282|47283|47284|47285|47286|47287|47288|47289|47290|47291|47292|47293|47294|47295|47296|47297|47298|47299|47300|47301|47302|47303|47304
-4|57894|184983|57878|184985|184986|184987|184988|184989|184990|184991|184992|184993
-68|312575|363674|363675|363676|363677|363678|363679|363680|363681|363682|363683|363684|363685|363686|363687|363688|363689|363690|363691
-55|122951|231394|187947
-1|24073|24074|24075|24076|24077|24078|26414|24079|24080
-110|512626|515334|515935
-5|146036|146037|146038|146039|146040|146041|146042|146043|146044|146045|146046|146047|146048|146049|146050|146051|146052|146053
+T|Laxå
+A|2|47281|47282|47283|47284|47285|47286|47287|47288|47289|47290|47291|47292|47293|47294|47295|47296|47297|47298|47299|47300|47301|47302|47303|47304
+A|4|57894|184983|57878|184985|184986|184987|184988|184989|184990|184991|184992|184993
+A|68|312575|363674|363675|363676|363677|363678|363679|363680|363681|363682|363683|363684|363685|363686|363687|363688|363689|363690|363691
+A|55|122951|231394|187947
+A|1|24073|24074|24075|24076|24077|24078|26414|24079|24080
+A|110|512626|515334|515935
+A|5|146036|146037|146038|146039|146040|146041|146042|146043|146044|146045|146046|146047|146048|146049|146050|146051|146052|146053
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|47281|46|K|Therese Magnusson|46 år, Laxå
+C|47282|63|M|Kenth Gustafsson|63 år, Laxå
+C|47283|64|K|Eva Hermansson|Industriarbetare, 64 år, Finnerödja
+C|47284|58|M|Christer Johansson|58 år, Laxå
+C|47285|74|K|Anna-Liisa Törmänen|Pensionär, 74 år, Laxå
+C|47286|79|M|Roland Karlsson|78 år, Laxå
+C|47287|52|K|Ghuncha Alipor|Egen Företagare, 52 år, Laxå
+C|47288|68|M|Ulf Appelkvist|68 år, Laxå
+C|47289|70|K|Ingegerd Magnusson|Möbeltapetserare, 70 år, Laxå
+C|47290|71|M|Olavi Mustonen|Konsult, 71 år, Röfors
+C|47291|72|K|Carina Karlsson|Mentalskötare, 72 år, Röfors
+C|47292|71|M|Lazarus Kulaba Malingha|Ekonom, 71 år, Laxå
+C|47293|37|K|Frida Larsson|Samordnare, 37 år, Tived
+C|47294|52|M|Mats Persson|Verkstadsarbetare, 52 år, Finnerödja
+C|47295|70|K|Pirkko Mustonen|Montör,  år, Laxå
+C|47296|21|M|Ismael Zarif Khan|Studerande, 21 år Laxå
+C|47297|39|K|Malin Nordin|Socionom, 39 år, Laxå
+C|47298|78|M|Hans Widlund|Pensionär, 78 år, Laxå
+C|47299|62|K|Susanne Stenlund|62 år, Laxå
+C|47300|71|M|Ulf Karlsson|Ingenjör 71 år, Laxå
+C|47301|25|M|Jens Magnusson|Processoperatör, 25 år, Röfors
+C|47302|68|M|Per-Olof Nilsson|Snickare, 68 år, Finnerödja
+C|47303|77|M|Hans-Åke Sandberg|Pensionär, 73 år, Hasselfors
+C|47304|73|M|Göran Parmling|Fd Sågverksarbetare, 69 år, Hasselfors
+C|57894|68|M|Arne Augustsson|68 år, kommunalråd, Röfors
+C|184983|40|K|Frida Eriksson|Finnerödja
+C|57878|66|M|Nils-Olof Tivemyr|66 år, pensionär, Tived
+C|184985|40|K|Ann-Christin Johanzon|Laxå
+C|184986|44|M|Paul Särnholm|Tived
+C|184987|48|K|Jeanette Günter|Laxå
+C|184988|74|K|Ulla-Britt Carlsson|Tived
+C|184989|45|M|Rolf Adamsson|Tived
+C|184990|87|M|Lennart Eriksson|Finnerödja
+C|184991|58|M|Kjell Schlyter|Röfors
+C|184992|70|K|Britt-Inger Palmqvist|Röfors
+C|184993|72|M|Jonnny Davidsson|Tived
+C|312575|64|M|Bo Rudolfsson|Lärare, Laxå
+C|363674|32|K|Nea Mustonen|fd Ambulanssjukvårdare, Laxå
+C|363675|62|M|Thorbjörn Bäckrud|Civilekonom, Laxå
+C|363676|71|K|Anette Schön|Arbetsterapeut, Laxå
+C|363677|51|K|Karina Martinsson|Personlig assistent, Laxå
+C|363678|67|M|Rolf Johansson|Pensionär, Laxå
+C|363679|31|K|Rebecka Schön|Ekonom, Hasselfors
+C|363680|59|K|Britt Bäckrud|Resurspedagog, Laxå
+C|363681|75|K|Birgitta Pettersson|Musiklärare, Laxå
+C|363682|70|M|Ingemar Schön|Inköpare, Laxå
+C|363683|78|M|Arild Wanche|Verksamhetschef, Hasselfors
+C|363684|65|K|Lilian Johansson|Boendestödjare, Finnerödja
+C|363685|67|M|Mats Fransson|Lärare, Finnerödja
+C|363686|72|K|Monica Pontes Fransson|Sjuksköterska, Finnerödja
+C|363687|50|M|Mats Hård|Egenföretagare, Laxå
+C|363688|70|K|Ruth Rudolfsson|Sjuksköterska, Laxå
+C|363689|75|M|Weine Pettersson|Musiklärare, Laxå
+C|363690|67|K|Elisabet Elestedt|Egenföretagare, Röfors
+C|363691|49|M|Jan Wallgren|Kyrkoherde, Hasselfors
+C|122951|34|K|Sara Pettersson|34 år, kommunpolitiker, Finnerödja
+C|231394|29|K|Paulina Jonsson|29 år, lagerarbetare
+C|187947|58|K|Maud Pettersson|58 år, integrationssamordnare
+C|24073|64|K|Ylva von Schéele|leg.sjuksköterska, Laxå
+C|24074|61|K|Mbuche Lameck|elingenjör, Laxå
+C|24075|58|M|Bengt Göran Fredriksson|egen företagare, Laxå
+C|24076|81|M|Otto Zita|arkitekt, Laxå
+C|24077|68|M|Geoffrey Lameck|maskiningenjör, Laxå
+C|24078|51|K|Ivonny Falk|kriminalvårdsinspektör, Finnerödja
+C|26414|53|M|Mikael Wallin|egen företagare, Finnerödja
+C|24079|61|K|Anneli Beck-Friis|småföretagare , Finnerödja
+C|24080|72|M|Johan von Schéele|civ.ekonom, Hasselfors
+C|512626|45|M|Walle Åkerblad|Skogsarbetare, 45 år
+C|515334|52|M|Mikael Jansson|
+C|515935|76|M|Lars Olof Viktor Ljunggren|
+C|146036|30|K|Clara Ericson|Studerande, Laxå
+C|146037|68|M|Klas-Göran Vilgren|Förskollärare, Laxå
+C|146038|38|M|David Tverling|Naturguide, Laxå
+C|146039|59|K|Gundega Hallinder|Handläggare, Laxå
+C|146040|38|M|Jerry Karjalainen|NC operatör, Laxå
+C|146041|67|M|Kenneth Lantz|Ingenjör, Laxå
+C|146042|47|K|Annemo Johansson|Specialpedagog, Laxå
+C|146043|60|K|Monica Karlsson|Barnskötare, Laxå
+C|146044|38|M|Jimmy Karjalainen|Företagare, Laxå
+C|146045|36|K|Johanna Karjalainen|Undersköterska, Laxå
+C|146046|41|K|Åsa Löfvenhaft|Budget-och skuldrådgivare, Laxå
+C|146047|65|M|Gert Hallinder|Rörnätstekniker, Laxå
+C|146048|40|M|Thomas Mustonen|Sjuksköterska, Laxå
+C|146049|49|K|Pernilla Johansson|Restaurangbiträde, Laxå
+C|146050|72|M|Jörgen Elfström|Pensionär, Laxå
+C|146051|62|K|Bittan Jansson|Ombudsman, Laxå
+C|146052|70|M|Eero Mustonen|Pensionär, Laxå
+C|146053|53|K|Madeleine Larsson|Handläggare, Tived

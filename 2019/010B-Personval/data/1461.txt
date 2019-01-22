@@ -1,9 +1,179 @@
-2|42028|42029|42030|42031|42032|42033|42034|42035|42036|42037|42038|42039|42040|42041|42042|42043|42044|42045|42046|42047|42048|42049|42050|42051|42052|42053|42054|42055|42056|42057
-4|5961|5962|5963|5964|1949|5966|5967|5968|5969|5970|5971|5972|5973|5974|5975|5976|5977|5978|5979|5980|5981|5982|5983|5984|5985|5986|5987
-593|125399|125400|125402|125403|127919|125406|125401|125408|167409|298279|345121|125410|129152|125407|190433|220313|129157|127931|253294|125413|125412|125414|366149|125415|284090|127934|284091|367719|127932|125422|125419|360618
-68|366248|249193|248811|366251|366252|366253|366254|366255|366256|366257|366258|366259|366260|366261
-3|227855|227856|227857|227858|227859|227860
-55|66248|6170|146026|146028|6171|146030|146034|146032|146033|146035
-1|255293|255294|255295|255296|243437|255298|255299|255300|255301|255302|255303|255304|255305|255306|255307|255308|255309|255310|255311|255313
-110|66543|66544|66545|66546|66547|66548|66549|66550|66551|66552|66553|66554|66555
-5|234425|234438|325931|235207|325933|325934|325935|325936
+T|Mellerud
+A|2|42028|42029|42030|42031|42032|42033|42034|42035|42036|42037|42038|42039|42040|42041|42042|42043|42044|42045|42046|42047|42048|42049|42050|42051|42052|42053|42054|42055|42056|42057
+A|4|5961|5962|5963|5964|1949|5966|5967|5968|5969|5970|5971|5972|5973|5974|5975|5976|5977|5978|5979|5980|5981|5982|5983|5984|5985|5986|5987
+A|593|125399|125400|125402|125403|127919|125406|125401|125408|167409|298279|345121|125410|129152|125407|190433|220313|129157|127931|253294|125413|125412|125414|366149|125415|284090|127934|284091|367719|127932|125422|125419|360618
+A|68|366248|249193|248811|366251|366252|366253|366254|366255|366256|366257|366258|366259|366260|366261
+A|3|227855|227856|227857|227858|227859|227860
+A|55|66248|6170|146026|146028|6171|146030|146034|146032|146033|146035
+A|1|255293|255294|255295|255296|243437|255298|255299|255300|255301|255302|255303|255304|255305|255306|255307|255308|255309|255310|255311|255313
+A|110|66543|66544|66545|66546|66547|66548|66549|66550|66551|66552|66553|66554|66555
+A|5|234425|234438|325931|235207|325933|325934|325935|325936
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|593|KiM|KommunPartiet Mellerud
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|42028|71|M|Tommy W Johansson|f.d Officer, 71 år, Mellerud
+C|42029|66|K|Marianne Sand Wallin|Fritidspolitiker, 66 år, Mellerud
+C|42030|65|M|Thomas Hagman|Mellerud
+C|42031|65|K|Christine Andersson|Mellerud
+C|42032|48|M|Michael Melby|Processtekniker, 48 år, Mellerud
+C|42033|62|K|Florence Jonasson|Åsenesbruk
+C|42034|65|M|Lars Nilsson|Informationsansvarig, 65 år, Mellerud
+C|42035|66|K|Eva Larsson|Mellerud
+C|42036|65|M|Kent Bohlin|Köpmannebro
+C|42037|66|M|Olof Sand|Assarebyn
+C|42038|49|M|Anders Andersson|Mellerud
+C|42039|42|M|Naim Berisha|Mellerud
+C|42040|53|K|Annika Briving|Dalskog
+C|42041|68|M|Johnny Stücken|Mellerud
+C|42042|57|M|Anwar Rasul|Mellerud
+C|42043|65|K|Gittan Andersson|Bolstad
+C|42044|23|M|Anton Briving|Dalskog
+C|42045|68|M|Christer Andersson|Bolstad
+C|42046|32|M|Hussin Kahlaf|Mellerud
+C|42047|30|M|Ahmed Farah|Mellerud
+C|42048|72|K|Inger Råberg|Åsensbruk
+C|42049|49|M|Ola Johansson|Mellerud
+C|42050|57|M|Reine Dalman|Åsensbruk
+C|42051|66|M|Asbjörn Andersson|Håverud
+C|42052|78|K|Kerstin Nordström|Västanvänga
+C|42053|66|K|Sölvie Linder|Mellerud
+C|42054|70|M|Per-Olof Larsson|Mellerud
+C|42055|55|K|Katarina Norgren|Östebyn
+C|42056|61|M|John-Olov Frid|Korsängen
+C|42057|30|M|Alexander Kröger|Mellerud
+C|5961|56|M|Morgan E Andersson|universitetsadjunkt, Åsensbruk
+C|5962|60|K|Karin Nodin|projektledare, Grinstad
+C|5963|67|M|Peter Ljungdahl|pensionär, Järn
+C|5964|45|K|Christina Andersson|undersköterska, Dals Rostock
+C|1949|59|M|Lars-Gunnar Larsson|affärsanalytiker, 64 år, Mellerud
+C|5966|48|M|Martin Eriksson|it-chef, Mellerud
+C|5967|20|K|Karolina Hultman Wessman|ungdomsledare, Mellerud
+C|5968|27|M|Gustav Hilmér|lantbrukare, Grinstad
+C|5969|47|M|Josip Kezic|egenföretagare, Mellerud
+C|5970|46|K|Helena Hultman|socialpedagog, Mellerud
+C|5971|60|M|Lars Johansson|coach/mentor, Mellerud
+C|5972|39|K|Frida Wännman Kvantenå|lantmästare, Bolstad
+C|5973|52|K|Anna Sanengen|miljö-och hälsoinspektör, Grinstad
+C|5974|57|K|Karin Hilmér|lantbrukare, Grinstad
+C|5975|41|K|Maja Holmgren|ekonomiassistent, Mellerud
+C|5976|47|K|Siv Olsson|finance manager, Erikstad
+C|5977|62|K|Lisbeth Andersson|tandhygienist, Erikstad
+C|5978|59|K|Gun-Britt Gustafsson|sångpedagog, Dals Rostock
+C|5979|54|M|Karl Åke Arvidsson|byggnadsentreprenör, Grinstad
+C|5980|52|K|Åsa Eliasson|lantbrukare, Bolstad
+C|5981|48|K|Maria Pettersson|kanslichef, Dals Rostock
+C|5982|46|K|Margarita Lyan|stödassistent, Mellerud
+C|5983|61|M|Tomas Nilsson|lantmästare, Ör
+C|5984|63|M|Roy Larsson|personlig assistent, Åsensbruk
+C|5985|46|M|Lennart Tysse|vaktmästare, Mellerud
+C|5986|66|K|Eva Wandel|egenföretagare, Grinstad
+C|5987|55|K|Kerstin Carlsson|projektledare, Ör
+C|125399|51|M|Jörgen Eriksson|Elektroingenjör, egenföretagare Erikstad
+C|125400|80|K|Anita Augustsson|Fd handelsanställd Köpmannebro
+C|125402|72|M|Reidar Gustafsson|Egenföretagare Erikstad
+C|125403|34|K|Cina Walterlin|Församlingsassistent Mellerud
+C|127919|49|K|Kajsa Wallin|Stödassistent Grinstad
+C|125406|70|M|Lennart Karlsson|Yrkeslärare Mellerud
+C|125401|68|M|Conny Klingborg|Utbildningskonsulent Erikstad
+C|125408|50|K|Pia Börresen|Lärare Erikstad
+C|167409|37|M|Johan Aronsson|Egenföretagare, entreprenör Erikstad
+C|298279|73|M|Bengt Bengtsson|Professor redovisn. & räkenskapsanalys
+C|345121|37|M|Håkan Callh|Åkeriägare Mellerud
+C|125410|68|M|Gunnar Landegren|Bi sysslare Erikstad
+C|129152|64|K|Ingvor Callh|Undersköterska Mellerud
+C|125407|72|M|Lars Molander|Bilreparatör Håverud
+C|190433|63|M|Bo Johansson|Lantbrukare Ör
+C|220313|41|K|Maria Andersson|Undersköterska Mellerud
+C|129157|68|M|Lennart Callh|Hantverkare, mångsysslare Mellerud
+C|127931|56|M|Jan Malmetun|Hjälpmedelstekniker Dals-Rostock
+C|253294|51|M|Stefan Pettersson|Hantverkare, plåtslagare Mellerud
+C|125413|39|K|Pernilla Rydberg|Undersköterska Ör
+C|125412|82|M|Roland Augustsson|Fd Föreningschef Köpmannebro
+C|125414|73|M|Tage Norgren|Diversearbetare Mellerud
+C|366149|61|K|Wieslawa Foster Johansson|Konstnär Erikstad
+C|125415|47|M|Henrik Persson|Anläggningsarbetare Ör
+C|284090|19|M|Kristian Lindahl|Lantbruksstuderande Erikstad
+C|127934|68|K|Monica Bosman|Lärare Mellerud
+C|284091|66|M|Lennart Johansson|Busschaufför, egenföretagare Erikstad
+C|367719|46|M|Samuel Andersson|Anläggningstekniker Erikstad
+C|127932|54|K|Chongchit Chanthakoon Gustafsson|Språklärare Erikstad
+C|125422|69|M|Reidar Lindkvist|Ingenjör Jakobsbyn
+C|125419|48|M|Ivar Börresen|Billackerare, egenföretagare Erikstad
+C|360618|58|K|Ing-Mari Hultgren|Tidningsbud Mellerud
+C|366248|52|M|Daniel Jensen|Tekniker, Grinstad
+C|249193|64|K|Lisbeth Berglöv|Leg. sjuksköterska, Mellerud
+C|248811|61|K|Ann-Christin Larsson|Handläggare FK, Mellerud
+C|366251|43|K|Camilla Berglöv-Hermansson|Rektor, Mellerud
+C|366252|45|K|Simone van der Wal|Entreprenör, Grinstad
+C|366253|53|M|Zoran Firis|Maskintekniker, Åsensbruk
+C|366254|68|M|Jan Berglöv|Pensionär, Mellerud
+C|366255|76|K|Birgit Jensen|Pensionär, Ör
+C|366256|42|K|Paula Törnqvist|Avgiftshandläggare, Mellerud
+C|366257|50|M|Joacim Magnusson|Lantbrukare, Grinstad
+C|366258|49|M|Michael Fredin|Entreprenör, Köpmannebro
+C|366259|76|K|Britt Marie Magnusson|Pensionär, Grinstad
+C|366260|72|K|Solveig Larsson|Pensionär, Dals Rostock
+C|366261|77|M|Egon Magnusson|Pensionär, Grinstad
+C|227855|53|K|Anette Levin|53, exploateringsingenjör, Mellerud
+C|227856|60|M|Mauri Simson|60, Köpmannebro
+C|227857|78|M|Stig Larsson|78, Dalskog
+C|227858|39|M|Angel Porres|39, Mellerud
+C|227859|63|K|Anne Andersson|53, Mellerud
+C|227860|76|M|Lars-Göran Johnansson|76, Mellerud
+C|66248|43|M|Tony Johansson|43 år, Regionpolitiker, Mellerud
+C|6170|34|K|Sofia Falander|34 år, Behandlingsassistent, Mellerud
+C|146026|38|M|Henrik Sandberg|38 år, Egenföretagare, Åsebro
+C|146028|70|K|Inger Jocknick|Medmänniska, Dalskog
+C|6171|31|M|Filip Falander|31 år, Ör
+C|146030|34|K|Erika Ribacke Sandberg|34 år, Bibliotekarie, Åsebro
+C|146034|47|K|Marie Uhrbom|47 år, Beteendevetare, Järn
+C|146032|39|K|Sarah Isgren|39 år, Verksamhetsutvecklare, Bränna
+C|146033|59|K|Agneta Arvemark|59 år, Studie- och yrkesvägledare, Grinstad
+C|146035|49|K|Simone Geerts|49 år, Socionom, Dals Rostock
+C|255293|63|K|Eva Pärsson|63, Köpmannebro
+C|255294|22|M|Ludwig Mossberg|22, Mellerud
+C|255295|66|M|Roland Björndahl|66, Mellerud
+C|255296|50|M|Patrik Tellander|50, Mellerud
+C|243437|37|M|Henrik Nilsson|37, Projektledare Energiprojekt, Mellerud
+C|255298|65|M|Sven Eriksson|65, Mellerud
+C|255299|60|M|Harald Ericson|60, Bolstad
+C|255300|42|K|Katarina Kvantenå|42, Bolstad
+C|255301|26|M|Rickard Eriksson|26, Mellerud
+C|255302|59|M|Thomas Johansson|59, Skållerud
+C|255303|26|M|David Ahlqvist|26, Mellerud
+C|255304|59|K|Katarina Kjörling|59, Skållerud
+C|255305|47|M|Johan Lorentzon|47, Grinstad
+C|255306|70|M|Georg Eriksson|70, Mellerud
+C|255307|63|M|Lennart Olsson|63, Ör
+C|255308|56|K|Susanne Björk Jensen|56, Mellerud
+C|255309|54|K|Ann-Sofie Fors|54, Dals-Rostock
+C|255310|37|M|Daniel Berglöv|37, Mellerud
+C|255311|28|K|Marie-Lie Vilhelmsson|28, Mellerud
+C|255313|80|M|Olof Gullin|80, Dalskog
+C|66543|51|M|Ulf Rexefjord|Svetsare, Mellerud
+C|66544|47|M|Reine Hassel|Anläggningsledare, 47 år
+C|66545|56|M|Berny Dahlberg|Senior Advisor konsult, Mellerud
+C|66546|51|M|Martin Andersson|Chaufför, 50 år
+C|66547|52|K|Liselott Hassel|Undersköterska, 51 år
+C|66548|57|M|Gert Lund|Egenföretagare, 56 år
+C|66549|52|K|Gulnara Mikkola|Studerande, 52 år
+C|66550|45|K|Ann-Christine Österberg|Undersköterska, 45 år
+C|66551|68|M|Tony Andersson|Pensionär, 68 år
+C|66552|70|M|Roland Berglund|Egenföretagare, 60 år
+C|66553|55|K|Lillis Grödem|Verksamhetsansvarig, 54 år
+C|66554|37|K|Desirée Edhborg|Undersköterska, 36 år
+C|66555|45|K|Sandra Rexefjord|Kommunanställd, 46 år
+C|234425|32|K|Elin Segerlind|Kommunikatör, 32 år, Mellerud
+C|234438|59|M|Pål Magnussen|Ombudsman, 59 år, Mellerud
+C|325931|66|K|Kristina Kay|66 år, Skolpersonal
+C|235207|45|M|Andreas Jonsson|Stödpedagog, 45 år, Mellerud
+C|325933|28|K|Emmy Ünal|28 år, Student
+C|325934|60|M|Kjell Rosén|60 år, Arbetslös undersköterska
+C|325935|36|M|Christian Ragnevi|36 år, Teletekniker
+C|325936|52|M|Kent Palm|52 år, Yrkeslärare

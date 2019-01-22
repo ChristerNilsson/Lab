@@ -1,9 +1,216 @@
-2|87887|100956|100957|91674|87879|100960|100961|100962|100963|87872|100965|100966|100967|100968|100969|100970|100971|100972|100973|87889|91649|87891|100977|100978|100979|100980|87881|100982|100983|100984|100985|100986|100987|87893|100989|100990|100991|100992|100993|100994|100995|100996|100997|100998|100999|101000|101001|101002|101003|101004|101005|101006
-4|5356|3102|2941|5359|5360|5361|5362|5363|2950|5365|5366|5367|2961|5369|5370|5371|5372|5373|5374|5375|5376|5377|5378|5379|5380|5381|3124|5383
-532|513714
-68|274730|274717|274819|274820|274821|274822|274823|274824|274825|274826|274827|274828|274735|274830|274726|274832|274833|274834|274835
-3|193814|193815|193816|193817|193818|193819|193820|193821|193822|193823|193824|193825|193826|193827|193828|193829|193830|193831|193832|193833|193834|193835
-55|74062|117075|74886|117077|74086|117079|117080|117081
-1|254280|254290|255412|253885|253889|254311|254306|255417|255418|255419|255420|255421|255422|255423|255424|255425|255426|255427|255428|255429|255430|255431|255432|255433|255434|255435|255436
-110|112428|112429|112430|112431|112432|112433|112434|112435|117042|112436|112438|112437|112440|282139|282144|282143|112439|112446|112441|112442|112443|112444
-5|7760|12359|12360|7768|12362|12363|12364|12365|12366|12367|12368|12369|12370|12371|12372|12373|12374|12375|12376|12377|12378
+T|Mark
+A|2|87887|100956|100957|91674|87879|100960|100961|100962|100963|87872|100965|100966|100967|100968|100969|100970|100971|100972|100973|87889|91649|87891|100977|100978|100979|100980|87881|100982|100983|100984|100985|100986|100987|87893|100989|100990|100991|100992|100993|100994|100995|100996|100997|100998|100999|101000|101001|101002|101003|101004|101005|101006
+A|4|5356|3102|2941|5359|5360|5361|5362|5363|2950|5365|5366|5367|2961|5369|5370|5371|5372|5373|5374|5375|5376|5377|5378|5379|5380|5381|3124|5383
+A|532|513714
+A|68|274730|274717|274819|274820|274821|274822|274823|274824|274825|274826|274827|274828|274735|274830|274726|274832|274833|274834|274835
+A|3|193814|193815|193816|193817|193818|193819|193820|193821|193822|193823|193824|193825|193826|193827|193828|193829|193830|193831|193832|193833|193834|193835
+A|55|74062|117075|74886|117077|74086|117079|117080|117081
+A|1|254280|254290|255412|253885|253889|254311|254306|255417|255418|255419|255420|255421|255422|255423|255424|255425|255426|255427|255428|255429|255430|255431|255432|255433|255434|255435|255436
+A|110|112428|112429|112430|112432|112433|112434|112435|117042|112436|112437|112440|282139|282144|282143|112439|112441|112442|112443|112444
+A|5|7760|12359|12360|7768|12362|12363|12364|12365|12366|12367|12368|12369|12370|12371|12372|12373|12374|12375|12376|12377|12378
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|87887|34|K|Lisa Dahlberg|
+C|100956|63|M|Peter Landgren|Horred
+C|100957|62|K|AnnSofi Tureson|Kinna
+C|91674|72|M|Bo Petersson|Byggnadsingenjör, Öxabäck
+C|87879|33|K|Rebecca Lindqvist|
+C|100960|37|M|Christopher Thorsson|Istorp
+C|100961|41|K|Jessica Rodén|Tostared
+C|100962|22|M|Wael Alkordi|Fritsla
+C|100963|70|K|Ulla Lätt|Fritsla
+C|87872|46|M|Ulf Svenson Dahlberg|
+C|100965|75|K|Anita Lomander|Hajom
+C|100966|51|M|Efkan Üstündag|Skene
+C|100967|40|K|Helena Johansson|Skene
+C|100968|62|M|Pauli Kuitunen|Kinna
+C|100969|70|K|Sonia Danella-Smith|Skene
+C|100970|47|M|Urban Jernberg|Hyssna
+C|100971|72|K|Birgitta Andersson|Örby
+C|100972|45|M|Claes-Håkan Martinsson|Kinna
+C|100973|53|K|Ylva Hultén|Fritsla
+C|87889|37|M|Yasin Abbes|
+C|91649|49|K|Anna Österström|Pedagog, Sätila
+C|87891|48|M|Håkan Andersson|
+C|100977|54|K|Helen Eriksson|Horred
+C|100978|41|M|Fredrik Tureson|Skene
+C|100979|72|K|Petra Vogel|Berghem
+C|100980|19|M|Daniel Fleck|Kinna
+C|87881|36|K|Karolina Johnsson Manskog|
+C|100982|30|M|Simon Ryndal|Fritsla
+C|100983|71|K|Ann-Christine Asp|Kinna
+C|100984|43|M|Rainer Lohager|Skene
+C|100985|59|K|Tuula Vähäniemi|Torestorp
+C|100986|52|M|Tommy Söderhagen|Fritsla
+C|100987|66|K|Bodil Wennerström|Kinna
+C|87893|34|M|David Berglund|
+C|100989|41|K|Karin Ryberg Manhem|Örby
+C|100990|30|M|Andreas Augustsson|Skene
+C|100991|46|K|Marie Lindqvist|Hyssna
+C|100992|45|M|Anders Manskog|Kinna
+C|100993|33|K|Maria Thorsson|Istorp
+C|100994|43|M|Henrik Tureson|Fotskäl
+C|100995|44|K|Ann-Marie Stenhoff|Skephult
+C|100996|73|M|Arvid Eklund|Sätila
+C|100997|71|K|Ritva Eklund|Sätila
+C|100998|71|M|Tommy Karlsryd|Istorp
+C|100999|52|K|Annette Malmberg|Öxabäck
+C|101000|75|M|Tryggve Larsson|Björketorp
+C|101001|75|K|Mona Friberg|Rävlanda
+C|101002|75|M|Göran Andersson|Örby
+C|101003|64|K|Mariana Dahlberg|Kinna
+C|101004|48|M|Thomas Danielsson|Kinnahult
+C|101005|60|K|Susanne Vaerum|Kinna
+C|101006|46|M|Anders Lindqvist|Skephult
+C|5356|60|M|Leif Sternfeldt|60 år, ekonom, Horred
+C|3102|52|K|Eva-Karin Torhem Arnell|52 år, Hyssna
+C|2941|29|M|Mikael Larsson|29 år, Ombudsman, Mark
+C|5359|52|K|Lena Ferm Hansson|52 år, skolsköterska, Älekulla
+C|5360|51|M|Pontus Johansson|51 år, skogsägare, Hajom
+C|5361|46|K|Gisella Olsson|46 år, verksamhetsutvecklare, Kinna
+C|5362|70|K|Ulla-Maj Persson|70 år, pensionär, Torestorp
+C|5363|36|K|Frida Arnell|36 år, redovisningskonsult, Horred
+C|2950|54|M|Stefan Brunander|54 år, Sätila
+C|5365|73|M|Stig Andreasson|74 år, sågverksägare, Skephult
+C|5366|62|K|Ulla Niklasson|62 år, lantbrukare, Ubbhult
+C|5367|39|M|Ali Aljojo|39 år, lärare, Kinna
+C|2961|37|K|Jessica Carlund|37 år, Sätila
+C|5369|57|M|Micael Carlsson|57 år, redovisningskonsult, Hyssna
+C|5370|62|M|Leif Andersson|62 år, egenföretagare, Istorp
+C|5371|46|K|Pernilla Abrahamsson|46 år, lantbrukare, Fotskäl
+C|5372|66|M|Ragnar Nilsson|66 år, lantbrukare, Björketorp
+C|5373|55|K|Ann-Christin Andréasson|55 år, ekonom, Horred
+C|5374|53|M|Anders Andersson|53 år, redovisningskonsult, Kinna
+C|5375|18|K|Maja-Stina Arnell|18 år, snickare, Hyssna
+C|5376|25|K|Belinda Sjöberg|25 år, bagare, Skene
+C|5377|53|K|Catarina Johansson|53 år, sfi-lärare, Hajom
+C|5378|59|M|Håkan Arnell|59 år, skogsförvaltning, Torestorp
+C|5379|38|K|Linda Axelsson|38 år, mätningsingenjör, Fotskäl
+C|5380|18|M|David Olsson|18 år, studerande, Skene
+C|5381|61|K|Anna-Lena Gunnarsson|60 år, områdeschef, Tostared
+C|3124|26|M|John Johansson|26 år, Skene
+C|5383|38|K|Erika Arnell|38 år, sjuksköterska, Istorp
+C|513714|47|M|Viktor Jonsson|
+C|274730|35|K|Elise Arnell|35, Lärare, Mark
+C|274717|68|M|Lars-Inge Andersson|67, Pensionär, Mark
+C|274819|62|M|Per-Olof Hermansson|61, Företagare, Horred
+C|274820|65|K|Ruth-Marie Engström|65, Kock, Kinna
+C|274821|67|M|Stig Nilsson|67, Dykledare, Hajom
+C|274822|73|M|Bruno Engström|72, Entreprenör, Kinna
+C|274823|45|K|Anna Sophia Bonde|45, Bibellärare, Horred
+C|274824|64|K|Agneta Bergeld|63, Förskollärare, Örby
+C|274825|22|K|Alice Arnell|21, Lärare, Torestorp
+C|274826|60|M|Ola Andréasson|59, Finansieringsrådgivare, Mark
+C|274827|26|K|Clara Serholt|26, Personlig assistent, Horred
+C|274828|35|M|Andreas Bergeld|34, Sjuksköterskestuderande, Kinna
+C|274735|65|M|Rune Imberg|65, Teol. dr, Mark
+C|274830|40|M|Thomas Nilsson|39, Tungdykare, Rydal
+C|274726|59|K|Marie Hermansson|59, Husmor, Mark
+C|274832|30|M|Isak Serholt|30, Snickare, Horred
+C|274833|61|K|Marianne Nilsson|61, Förskollärare, Hajom
+C|274834|69|M|Roland Hedberg|69, Pensionär, Fritsla
+C|274835|64|K|Anna-Karin Reinholdsson|64, Distriktssjuksköterska, Sätila
+C|193814|48|M|Niklas Herneryd|48, integrationssamordnare, Mark
+C|193815|43|K|Maria Aronsson Dahl|
+C|193816|71|M|Jan Karlsson|71, pensionär, Mark
+C|193817|76|M|Rolf Hallberg|
+C|193818|72|K|Stina Isaksson|
+C|193819|71|M|Uno Johansson|
+C|193820|59|M|Ola Hugerth|
+C|193821|35|K|Sofia Sjöstrand|35, nämndsordförande, Mark
+C|193822|56|M|Lars Lundström|
+C|193823|75|M|Paul Brusk|
+C|193824|80|M|Egon Svensson|
+C|193825|71|M|Ulf Eriksson|
+C|193826|73|M|Ingemar Eriksson|
+C|193827|75|K|Christina Hanning|
+C|193828|74|M|Imre Hun|
+C|193829|70|K|Margareta Karlsson|
+C|193830|47|M|Johan Lepp|47, logoped, Mark
+C|193831|77|M|Christer Ekelund|
+C|193832|77|M|Per-Elof Isaksson|
+C|193833|67|M|Janne Pehrson|
+C|193834|54|M|Lennart Svensson|
+C|193835|55|K|Madeleine Ekman Boldizar|
+C|74062|53|K|Lo Göthberg Larsson|53 år, Lärare, Sätila
+C|117075|66|M|Lars-Olof Sandberg|66 år, Byggnadsingenjör, Istorp
+C|74886|52|M|Thomas Larsson|52 år, Miljökonsult, Kinnahult
+C|117077|63|M|Gustav Cruce|63 år, Planeringsledare, Örby
+C|74086|25|K|Ida Nilsson|25 år, Studerande, Horred
+C|117079|55|M|Tony Larsson|55 år, Samordnare, Sätila
+C|117080|72|K|Elisabeth Olszon|72 år, Pensionär, Horred
+C|117081|24|K|Mirjam Larsson|24 år, Studerande, Kinna
+C|254280|46|M|Tomas Johansson|46, Kommunalråd, Hyssna
+C|254290|47|K|Ann Iberius Orrvik|47, Entreprenör, Fotskäl
+C|255412|74|M|Pär Erik Johansson|Egenföretagare, Kinna
+C|253885|57|M|Jan Ericson|57, Riksdagsledamot/Jurist, Ubbhult
+C|253889|41|K|Elise Benjaminsson|41, Politisk sekreterare, Hyssna
+C|254311|77|M|Anders Lindahl|77, Pensionär, Fritsla
+C|254306|69|M|Rolf Skarin|69, Ingenjör, Skene
+C|255417|51|M|Tomas Ekberg|Entreprenör, Fritsla
+C|255418|72|M|Bengt Ferm|Ingenjör, Kinna
+C|255419|57|M|Magnus Lilliecrona|Ingenjör, Horred
+C|255420|67|K|Ylva Höglund|Undersköterska, Kinna
+C|255421|50|K|Nina Högström|Partiombudsman, Kinna
+C|255422|57|M|Peter Branshöj|Instruktör, Öxabäck
+C|255423|54|K|Charlotta Bornefalk|Egenföretagare, Fritsla
+C|255424|62|K|Ing Marie Skarin|Distriktsköterska, Skene
+C|255425|55|K|Kerstin Weimman Lindén|Ekonom, Hajom
+C|255426|49|K|Ulrika Söderhagen|Caféansvarig, Fritsla
+C|255427|67|M|Lars-Åke Åkesson|Byggnadsingenjör, Sätila
+C|255428|72|M|Jörgen Hagman-Lindén|Företagare, Hajom
+C|255429|18|K|Maja Bornefalk|Student, Fritsla
+C|255430|75|M|Sven-Olof Carlsson|Företagare Fd., Tostared
+C|255431|81|M|Erik Arnell|Företagare, Hyssna
+C|255432|80|M|Jan Rydberg|Egenföretagare Fd., Kinna
+C|255433|47|M|Peter Cadier|Avdelningschef, Sätila
+C|255434|69|M|Hans Giger|Chaufför, Horred
+C|255435|48|M|Tommy Blomster|Chaufför, Skene
+C|255436|49|K|Ofelia Hendar|Bolagsjurist, Ubbhult
+C|112428|38|M|Mattias Krantz|armerare, 38 år
+C|112429|43|K|Natalia Estebanez Henriksson|assistent, 44 år
+C|112430|72|K|Inga Maj Krüger|pensionär, 72 år
+C|112432|65|M|Lennart Svensson|Pensionär, 65 år
+C|112433|48|K|Sara Lindwall|personlig assistent, 48 år
+C|112434|64|M|Bo Kindström|Pensionär, 65 år
+C|112435|74|M|Jarl Krüger|pensionerad officer major, 74 år
+C|117042|43|K|Therése Hallqvist|Geriatrik uska/HR assistent, 44 år
+C|112436|19|K|Ida Ahlgren|studerande, 19 år
+C|112437|53|M|Glenn Glansin|Snickare, 53 år
+C|112440|53|K|Siv Scarborough|psykiatrivårdare,53 år
+C|282139|43|M|Andreas Nilsson|Trädgårdsmästare, 44år
+C|282144|38|M|Robert Ledström|Tekniker, 38 år
+C|282143|68|K|Ingela Karlsson|Undersköterska, 68 år
+C|112439|67|K|Katrin Larsson|Pensionär, 67 år
+C|112441|59|K|Anne-Li Glansin|undersköterska, 59 år
+C|112442|44|M|Dennis Örman-Lång|Charkuterist, 44 år
+C|112443|60|K|Yvonne Kindström|Undersköterska, 61 år
+C|112444|55|M|Tomas Bergius|Egenföretagare, 56 år
+C|7760|67|K|Karin Jageby|67 år, pensionerad pedagog, Örby
+C|12359|58|M|Arthur Thiry|vårdbiträde, Horred
+C|12360|32|K|Cecilia Wiklund|32 år, konstruktör, Sätila
+C|7768|34|M|Emil Persson Torgerson|34 år, sociolog/utredare, Sätila
+C|12362|39|K|Amanda Åhall|informatör, Horred
+C|12363|55|M|Freddy Jensen|compliance manager, Öxabäck
+C|12364|53|K|Madeléne Jensen|undersköterska, Öxabäck
+C|12365|38|M|Martin Wiklund|teknisk säljare, Sätila
+C|12366|65|M|Per Blank|65 år, egen företagare, Fritsla
+C|12367|56|K|Lena Persson|auk drama- och symbolpedagog, Kinna
+C|12368|41|M|Anders Svensson|elektriker, Kinnahult
+C|12369|38|K|Therese Andersson|undersköterska, Torestorp
+C|12370|29|M|Andreas Graae|mätartekniker, Skene
+C|12371|67|K|Ulla-Maj Boss Ehrnlund|undersköterska, Kinna
+C|12372|71|K|Eva Johnels|sjukgymnast, Skene
+C|12373|42|M|Erik Harald|projektledare, Fritsla
+C|12374|66|K|Zlata Damberg|socionom, Örby
+C|12375|64|K|Beatrix Wiberg|64 år, biomedicinsk analytiker, Sätila
+C|12376|71|M|Thomas Bock|pensionerad socialsekreterare, Öxnevalla
+C|12377|39|K|Lina Harald|socionom, Fritsla
+C|12378|65|M|Pelle Jageby|kulturarbetare, Örby

@@ -1,10 +1,177 @@
-2|23050|23051|23052|23053|23054|23055|23056|23057|23058|23059|23060|23061|23062|23063|23064|23065|23066|23067|23068|23069|23070|23071|23072|23073|23074|23075|23076|23077|23078|23079|23080|23081|23082|23083|23084|23085|23086|23087|23088|23089
-4|37080|37100|39313|35631|39552|39553|39554|39555|39317|39557|39559|39560|39561
-532|219329|515318|515319
-68|284017|284019
-3|63500|63501|63502|63503|63504|63505|63506|63507|63508|63509|63510|63511|63512|63513|63514|63515|63516|63517|63518
-55|21313|113216|21518|21521|113219|113220|113221|113222|113223|113224|156224|156225
-1|52135|52136|52137|52138|52139|52140|52141|52142|52143|52144|52145|52146|52147|52148|52149|52150|52151|52152|52153|52154|52155|52156|52157
-110|51766|51767|51768|51769|51770|51771|51772|51773|51774|51775|51776|51777|51778|51779|51780|51781|51782|51783|51784|51785|51786|51787|51788|51789|51790|51791|51793|51794|51795|51797|51798|51799|51800|51803|51804
-1063|494050
-5|101573|101574|101575|101576|101577|101578|101579|101580|101582
+T|Burlöv
+A|2|23050|23051|23052|23053|23054|23055|23056|23057|23058|23059|23060|23061|23062|23063|23064|23065|23066|23067|23068|23069|23070|23071|23072|23073|23074|23075|23076|23077|23078|23079|23080|23081|23082|23083|23084|23085|23086|23087|23088|23089
+A|4|37080|37100|39313|35631|39552|39553|39554|39555|39317|39557|39559|39560|39561
+A|532|219329|515318|515319
+A|68|284017|284019
+A|3|63500|63501|63502|63503|63504|63505|63506|63507|63508|63509|63510|63511|63512|63513|63514|63515|63516|63517|63518
+A|55|21313|113216|21518|21521|113219|113220|113221|113222|113223|113224|156224|156225
+A|1|52135|52136|52137|52138|52139|52140|52141|52142|52143|52144|52145|52146|52147|52148|52149|52150|52151|52152|52153|52154|52155|52156|52157
+A|110|51767|51768|51769|51770|51771|51772|51773|51774|51775|51776|51777|51778|51779|51780|51781|51782|51783|51784|51785|51786|51787|51788|51789|51790|51791|51793|51794|51795|51797|51798|51799|51800|51803|51804
+A|1063|494050
+A|5|101573|101574|101575|101576|101577|101578|101579|101580|101582
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1063|SKP|Sveriges Kommunistiska Parti (SKP)
+B|5|V|Vänsterpartiet
+C|23050|60|K|Katja Larsson|Kommunalråd, Burlöv
+C|23051|69|M|Hans-Åke Mårtensson|
+C|23052|70|K|Inger Borgenberg|
+C|23053|70|M|Kent Wollmér|F.d. fabriksarbetare
+C|23054|69|K|Margareta Abelsson|Barnskötare
+C|23055|68|M|Bengt Åström|Fastighetsskötare
+C|23056|63|K|Lisbeth Jensen|Kommunvägledare
+C|23057|76|M|Lars-Erik Wollmér|
+C|23058|61|K|Vlasta Ekman|Fabriksarbetare, Burlöv
+C|23059|32|M|Naim Skenderi|Utlastning/Logistik
+C|23060|35|K|Selvete Murtezi|Akademiker
+C|23061|52|M|Jonas Lyberg|
+C|23062|48|K|Petra Ekström|Terminalarbetare
+C|23063|78|M|Jan Hansson|
+C|23064|53|K|Malihe Hajizadeh|Undersköterska
+C|23065|76|M|Lars-Olle Olsson|Överförmyndare
+C|23066|69|K|Tina Pettersson|
+C|23067|48|M|Ferenc Kovács|Fabriksarbetare
+C|23068|37|K|Michelle Magnusson|
+C|23069|64|M|Arne Andersson|
+C|23070|64|K|Lilian Johansson|
+C|23071|73|M|Carl-Olof Landgren|Marknadsekonom
+C|23072|58|K|Carina Åström|Köksbiträde
+C|23073|48|M|Stefan Klang|IT-support
+C|23074|33|K|Tamara Cifuentes Nunez|Studerande
+C|23075|55|M|Johan Svensson|Tekniker
+C|23076|81|K|Gun Larshag|
+C|23077|65|M|Kenneth Ekman|
+C|23078|57|K|Farah Adibi Zadeh|Socialarbetare
+C|23079|76|M|Bo-Arne Hansson|
+C|23080|80|K|Elsie Nilsson|Pensionär
+C|23081|79|M|Sven-Åke Persson|F.d. verkstadschef
+C|23082|77|K|Anita Svensson|
+C|23083|61|M|Tony Thorbert|Lärare
+C|23084|73|K|Karin Magnusson|
+C|23085|65|M|Dahn Pettersson|
+C|23086|75|K|Anita Danielsson|Lokalvårdare
+C|23087|72|M|Ingvar Persson|
+C|23088|73|K|Christina Nordén|
+C|23089|85|M|Jörgen Benvil|
+C|37080|51|K|Anneli Kihlstrand|Agronom, 51, Arlöv
+C|37100|67|M|Fredrik Uldall-Jörgensen|Lantmästare, 67, Arlöv
+C|39313|20|K|Clara Kihlstrand|20, Student, Burlöv
+C|35631|44|M|Nima Moslehi|44, Utvecklingsingenjör
+C|39552|63|M|Uno Törringer|63, Lantbrukare
+C|39553|46|K|Åsa Jensen|46, Producent
+C|39554|71|M|Lars-Göran Larsson|71, IT-chef
+C|39555|38|K|Armita Daniari|38, Testmanager
+C|39317|70|M|Owe Håkansson|70, Egenföretagare, Burlöv
+C|39557|24|K|Arlinda Pllana|23, Ekonom/banktjänsteman
+C|39559|63|K|Ann-Charlotte Uldall-Jörgensen|63, Förskolelärare
+C|39560|67|M|Göran Kihlstrand|67, Agronom
+C|39561|69|M|Allan Andersson|69, Universitetslektor
+C|219329|40|K|Maria Dexborg|40år, Socionom, Åkarp
+C|515318|48|K|Sofia Kroon Walter|
+C|515319|31|K|Sandra Eriksson|
+C|284017|69|M|Carl-Martin Larsson|Åkarp
+C|284019|81|K|Birgitta Jönsson|Arlöv
+C|63500|62|M|Mats Lithner|Åkarp
+C|63501|41|M|Kristoffer Daag|Arlöv
+C|63502|65|M|Anders Brännström|Arbetsmiljöingenjör,65 år
+C|63503|45|K|Bahareh Mohammadi Andersson|Sektionschef familjefrid, 45 år
+C|63504|54|M|Alit Kaja|Arbetsledare, 54 år
+C|63505|35|K|Marie Pegelow|Åkarp
+C|63506|30|K|Lisa Eliasson|Förhandlare, 30 år
+C|63507|79|M|Bo Kronvall|Företagsekonom, 79 år
+C|63508|56|K|Marie Wahlgren|Professor, 56 år
+C|63509|45|M|Michael Jensen|Företagsrådgivare, 45 år
+C|63510|59|M|Antoine Lokale Topango|Fastighetsskötare, 59 år
+C|63511|74|K|Anne-Margrete Ekberg|Undersköterska, 74 år
+C|63512|47|K|Lena Kronvall|Ekonom, 47 år
+C|63513|72|K|Britt Sonesson|f d Administratör, 72 år
+C|63514|70|K|Julia Jahnke|Jurist, 70 år
+C|63515|85|M|Jan Danielsson|Rektor, 85 år
+C|63516|82|M|Harald Jahnke|Pensionär, 83 år
+C|63517|81|K|Gertrud Danielsson|Lågstadielärare, 81 år
+C|63518|87|M|Göran Hagman|Pensionär, 87 år
+C|21313|42|M|Vlado Somljacan|Kommunfullmäktigeordförande, 42 år, Arlöv
+C|113216|59|M|Ove Johansson|Trafik och informationsledare, 59 år, Arlöv
+C|21518|68|M|Rolf Bengtsson|Pensionär, 68 år, Åkarp
+C|21521|36|K|Caroline Gudmé|Studerande, 36 år, Arlöv
+C|113219|67|M|Tord Lindgren|Civilingenjör, 67 år, Burlöv
+C|113220|60|M|Awaz Modaber|Undersköterska, 60 år, Arlöv
+C|113221|52|M|Mohammad Nader Stanekzai|Undersköterska, 52 år, Arlöv
+C|113222|75|M|Kurt Nilsson|Pensionär, 75 år, Arlöv
+C|113223|72|K|Birgitta Nilsson|Pensionär, 72 år, Arlöv
+C|113224|56|M|Allafta Abulrazak|Tolk, 56 år, Arlöv
+C|156224|39|M|Herman Friedländer|Markförvaltare, 39 år, Åkarp
+C|156225|38|K|Maria Franzén Waljenäs|Statsvetare, 38 år, Arlöv
+C|52135|67|M|Lars Johnson|Åkarp
+C|52136|68|M|Nils Holmqvist|68 år, egenföretagare, Åkarp
+C|52137|43|K|Amelie Gustafson|Åkarp
+C|52138|36|M|Carl Ahrling|36 år, lärare, Åkarp
+C|52139|75|M|Håkan Dahlgren|Åkarp
+C|52140|38|K|Sara Vestering|38 år, verksamhetschef, Åkarp
+C|52141|44|M|Patrik Selimson|Arlöv
+C|52142|72|M|Leif Westin|Åkarp
+C|52143|57|M|Josef Janosi|Arlöv
+C|52144|60|K|Mia Eldh-Holmqvist|Åkarp
+C|52145|82|K|Ulla Jinneland|Åkarp
+C|52146|75|M|Christer Karlberg|Åkarp
+C|52147|76|M|Thord Persson|Åkarp
+C|52148|58|M|Torbjörn Karlsson|Arlöv
+C|52149|73|K|Ann-Christine Elmström|Åkarp
+C|52150|74|K|Anita Ljungh|Arlöv
+C|52151|74|K|Lissy Käll|Arlöv
+C|52152|51|K|Helene Ritheim|Åkarp
+C|52153|69|K|Leila Karlberg|Åkarp
+C|52154|47|M|Martin Stagmo|Åkarp
+C|52155|75|K|Birgitta Olofsson|Arlöv
+C|52156|49|M|Patrik Flensburg|Arlöv
+C|52157|56|M|Mats Olsson|Arlöv
+C|51767|68|M|Christer Swahn|Skeppsklarerare
+C|51768|81|K|Lisbeth Jönsson|Kanslist
+C|51769|70|M|Rolf Hagmann|Egenföretagare
+C|51770|67|M|Ingvar Olsson|Nätverksingenjör
+C|51771|69|M|Roland Bäck|Terminalförman
+C|51772|79|K|Ruth Palm|Vårdbiträde
+C|51773|55|M|Magnus Almroth|Verkstadstekniker
+C|51774|46|M|Mats Hedenström|Produktionsansvarig
+C|51775|50|K|Birna Nilsson|Butiksanställd
+C|51776|76|K|Inga Lill Melcher|Försäljare
+C|51777|66|M|Tore Nilsson|Elektriker
+C|51778|63|K|Ella Hollsten|Egenföretagare
+C|51779|61|K|Laila Knudsen|Personlig assistent
+C|51780|63|M|Kjell Wernebecker|Egenföretagare
+C|51781|52|M|Laszlo Pataki|Processoperatör
+C|51782|56|K|Margareta Johnsson|Personlig assistent
+C|51783|84|K|Doris Brunstorp|Pensionär
+C|51784|63|M|Hieronim Kujawski|Bussförare
+C|51785|66|M|Tommy Andersson|Elektriker
+C|51786|74|K|Christina Persson|Pensionär
+C|51787|60|M|Tony Nilsson|Vaktmästare
+C|51788|61|M|Sven Jönsson|Chaufför
+C|51789|57|M|Håkan Kjellberg|Kock
+C|51790|79|M|Sonny Persson|Arbetsledare
+C|51791|50|M|Richard Pehrson|Lagerarbetare
+C|51793|53|M|Göran Levin|Lastbilschaufför
+C|51794|62|M|Morgan Johnsson|Servicetekniker
+C|51795|50|M|Mikael Greitans|Kemiingenjör
+C|51797|46|M|Alexey Volkov|Målare
+C|51798|78|M|Lars Bergqvist|Maskinoperatör
+C|51799|75|K|Eva-Britt Bergqvist|Trafikledare
+C|51800|56|M|Kjell Olofsson|Tekniker
+C|51803|80|M|Erik Nielsen|Servitör
+C|51804|90|M|Sven Jönsson|Pensionär
+C|494050|31|M|Fredrik Jönsson|journalist, Burlöv
+C|101573|68|M|Bo Lindquist|f d fabriksarbetare, Burlöv
+C|101574|56|M|Philip Maughan|fabriksarbetare, Burlöv
+C|101575|38|K|Elin Falck|undersköterska, Arlöv
+C|101576|33|M|Adam Lindahl|lotsoperatör, Åkarp
+C|101577|64|M|Gustavo Garcia|lagerarbetare, Burlöv
+C|101578|56|M|Anders Kreutz|ställningsmontör, Arlöv
+C|101579|52|K|Lisbeth Lindquist|familjebehandlare, Burlöv
+C|101580|57|K|Kerstin Maughan|lageradministratör, Arlöv
+C|101582|46|K|Emma Lindvall|lärare, Arlöv

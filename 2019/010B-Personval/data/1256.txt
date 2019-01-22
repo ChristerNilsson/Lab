@@ -1,10 +1,192 @@
-2|97152|97153|97154|28284|97156|97157|28293|97159|97160|97161|97162|97163|97164|97165|97166|97167|97168|97169|97170|97171|97172|97173|97174|97175|97176|54730|97178
-4|8505|35339|81239|81240|81241|81242|39158|81244|81245|39149|81247|81248|81249|81250|81251|81252|81253|81254|81255|81256|81257|81258
-1223|440259|440260|435478|440262|440263|440264|440265|440266|59817|435473|435475|435476|435477|435479|435480|435481|515955|515956|515957|515958|515959
-68|31827|59408|63481|31835|63483|63484|63485|63486|63487|63488|63489|63490|63491|63492|63493|63494|63495|63496|63497|63498|63499
-3|55472|55473|55474|55475|55476|55477|55478|55479|55480
-55|201733|201734|201735|201736|201737
-1337|403041|403042|403043|403044|403045|403046|403047|403048|403049|403050|403051|403052|403053|403054|403055|403056|403057|403058|403059|403203|403061
-1|63970|63971|63972|63973|63974|63975|63976|63977|63978|63979|63980|63981|63982|63983|63984|63985|63986|63987|63988|63989|63990|63991|63992|63993|63994|63995|63996|63997|63998|63999
-110|67053|67054|67055|67056|67057|67058|67059|67060
-5|124690|124691|124692|124693|124694|124695|124696|124697
+T|Östra Göinge
+A|2|97152|97153|97154|28284|97156|97157|28293|97159|97160|97161|97162|97163|97164|97165|97166|97167|97168|97169|97170|97171|97172|97173|97174|97175|97176|54730|97178
+A|4|8505|35339|81239|81240|81241|81242|39158|81244|81245|39149|81247|81248|81249|81250|81251|81252|81253|81254|81255|81256|81257|81258
+A|1223|440259|440260|435478|440262|440263|440264|440266|59817|435473|435475|435476|435477|435479|435480|435481|515955|515956|515957|515958|515959
+A|68|31827|59408|63481|31835|63483|63484|63485|63486|63487|63488|63489|63490|63491|63492|63493|63494|63495|63496|63497|63498|63499
+A|3|55472|55473|55474|55475|55476|55477|55478|55479|55480
+A|55|201733|201734|201735|201736|201737
+A|1337|403041|403042|403043|403044|403045|403046|403047|403048|403049|403050|403051|403052|403053|403054|403055|403056|403057|403058|403059|403203|403061
+A|1|63970|63971|63972|63973|63974|63975|63976|63977|63978|63979|63980|63981|63982|63983|63984|63985|63986|63987|63988|63989|63990|63991|63992|63993|63994|63995|63996|63997|63998|63999
+A|110|67053|67054|67055|67056|67057|67058|67059|67060
+A|5|124690|124691|124692|124693|124694|124695|124696|124697
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1223|Frams|Framstegspartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1337||Mitt Göinge
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|97152|50|M|Anders Bengtsson|Oppositionsråd
+C|97153|60|K|Lena Dahl Wahlgren|Fritidspedagog
+C|97154|56|M|Sven-Arne Persson|Verkstadstekniker
+C|28284|56|K|Kristin Johansson|Undersköterska, Östra Göinge
+C|97156|67|M|Lars-Stellan Jönsson|Tapetserare
+C|97157|45|K|Johanna Lüddeckens|Specialpedagog
+C|28293|56|M|Miklos Liewehr|Träindustriarbetare, Östra Göinge
+C|97159|63|K|Susanne Karlsson|Undersköterska
+C|97160|51|M|Niclas Malmberg|Verkstadstekniker
+C|97161|60|K|Lena Svensson|Sjuksköterska
+C|97162|50|M|Joakim Vendel|Fritidsledare
+C|97163|49|K|Malén Liewehr|Undersköterska
+C|97164|64|M|Werner Kuhleber|f.d. polisdirektör
+C|97165|24|K|Leticia Tusemererwa|Integrationsassistent
+C|97166|40|M|Christian Karlsson|Lagerarbetare
+C|97167|50|K|Nina Andersson|Ekonom
+C|97168|61|M|Johan Holgersson|Tidningsbud
+C|97169|74|K|Sylva Andersson-Karlsson|Pensionär
+C|97170|38|M|Henrik Englund|Möbelsnickare
+C|97171|58|K|Ann-Christin Olsson|Medicinsk sekreterare
+C|97172|63|M|Morgan Nilsson|Pensionär
+C|97173|63|K|Lena Olsson|Undersköterska
+C|97174|73|M|Per af Forselles|Pensionär
+C|97175|63|M|Tommy Persson|Metallarbetare
+C|97176|69|M|Bo Lätt|Vicevärd
+C|54730|42|M|Daniel Petersén|Träindustriarbetare, Östra Göinge
+C|97178|68|M|Christer Wahlgren|Pensionär
+C|8505|36|K|Sofia Nilsson|36 år, Sjuksköterska, Östra Göinge
+C|35339|49|M|Olof Lindqvist|Lärare, 49, Broby
+C|81239|64|M|Esbjörn Svensson|64, Advokat/bonde, Hylta
+C|81240|35|K|Emma Flygare|35, Enhetschef, Sibbhult
+C|81241|46|M|Lars Lindbom|46, Civilekonom, Immeln
+C|81242|43|K|Therese Svensson Collin|43, Fritidsansvarig, Västraby
+C|39158|49|K|Anette Westerholm|49, Studie- och yrkesvägledare, Knislinge
+C|81244|36|K|Wardah Al-Nazli|36, Modersmålslärare, Broby
+C|81245|23|M|Philip Thuresson|23, Egenföretagare/trädgårdsmästare, Tydinge
+C|39149|70|M|Per Olof Dahl|70, Pensionär, Glimåkra
+C|81247|37|K|Jennie Thygesson|37, Revisor och konsult, Njura
+C|81248|39|K|Karin Landin Sandberg|39, Leg.arbetstarapeut/synpedagog, Hanaskog
+C|81249|35|K|Caroline Biltmo|35, Ekonom, Broby
+C|81250|71|K|Ingrid Johansson|71, Bonde, Färgeshult
+C|81251|55|M|Dennis Eliasson|55, Affärsområdeschef, Hylta
+C|81252|38|K|Emma Persson|38, Boendestödjare, Broby
+C|81253|45|K|Ulrica Madesten|45, Företagerska/verksamhetssamordnare, Njura
+C|81254|64|K|Rosa Henningsson|64, Kyrkoherde, Hylta
+C|81255|72|M|Sven Jensén|72, Lokalhistoriker/ekolog, Broby
+C|81256|46|M|Tord Persson|46, Innesäljare, Glimåkra
+C|81257|69|M|Tom DeCorbin-Elliott|69, Pensionär, Hanaskog
+C|81258|67|M|Thomas Bengtsson|67, Lantmästare, Lunnom
+C|440259|67|M|Jan Listerud|Chaufför
+C|440260|66|M|Jan-Åke Persson|Pensionär
+C|435478|72|M|Eskil Martinsson|Produktionschef
+C|440262|29|M|Mikael Andersson|Djurskötare
+C|440263|60|M|Hadar Wikström|Chaufför
+C|440264|72|M|Zerny Salomonsson|Pensionär
+C|440266|28|K|Emilie Bergenholtz|Undersköterska
+C|59817|57|M|Mikael Sjösten|
+C|435473|71|M|Bengt Agne Lennart Ingvardsson|
+C|435475|52|M|Håkan Norén|
+C|435476|61|M|Tom Georg Stefan Axelsson|
+C|435477|70|M|Esbjörn Hansson|
+C|435479|31|K|My Maria Eva Katarina Dolkow|
+C|435480|51|M|Ola Lavesson|
+C|435481|67|M|Per Rune Sonny Andersson|
+C|515955|70|M|Kenneth Persson Fondell|
+C|515956|60|M|Gunde Stefan Rossander|
+C|515957|50|M|Roberto Fierro|
+C|515958|54|M|Bengt Börjesson|
+C|515959|33|M|Johannes Granrot|
+C|31827|49|M|Magnus Nilsson|49 år, Företagare, Östra Göinge
+C|59408|61|K|Marie-Louise Fredin|61, Medicinsk sekreterare, Knislinge
+C|63481|67|K|Anna-Lisa Simonsson|67 år, Broby
+C|31835|46|K|Aki Svensson|46 år, Maskinoperatör, Östra Göinge
+C|63483|19|M|Henning Fredriksson|19 år, Bössebacken
+C|63484|65|M|Göran Nilsson|65 år, Broby
+C|63485|38|M|Jonas Gustafsson|38 år, Hanaskog
+C|63486|73|M|Folke Carlsson|73 år, Gubbalyckan
+C|63487|21|M|Carl Nilsson|21 år, Hanaskog
+C|63488|45|M|David Carlsson|45 år, Bössebacken
+C|63489|65|M|Staffan Fredin|65 år, Knislinge
+C|63490|60|K|Maria Lundin|60 år, Knislinge
+C|63491|41|M|Markus Hansson|41 år, Knislinge
+C|63492|68|M|Mats Lundin|68 år, Knislinge
+C|63493|73|M|Lars-Åke Paulsson|73 år, Broby
+C|63494|35|K|Lina Hansson|35 år, Knislinge
+C|63495|64|K|Gertrud Nilsson|64 år, Broby
+C|63496|60|K|Kristina Welin|60 år, Broby
+C|63497|54|K|Paula Alfredsson|54 år, Broby
+C|63498|72|M|Ingemar Bjärneroth|72 år, Glimåkra
+C|63499|18|M|Taime Opperud|18 år, Knislinge
+C|55472|67|K|Ytte Hjert|Sibbhult
+C|55473|64|M|Sven Bolling|Ekonom, Broby
+C|55474|36|K|Kim Karlsson|Sjuksköterska, Immeln
+C|55475|71|M|Kjell-Åke Johansson|Socionom, Knislinge
+C|55476|20|K|Olivia Dyfvelsten|Studerande, Sibbhult
+C|55477|81|M|Tryggve Lahger|Ingenjör, Knislinge
+C|55478|75|K|Ing-Mari Björnsson|Tandsköterska, Knislinge
+C|55479|82|K|Jytte Johannesen|Pensionär, Knislinge
+C|55480|73|M|Per-Olof Björnsson|Tandläkare, Knislinge
+C|201733|72|M|Ingvar Nilsson|Övraryd
+C|201734|70|K|Elisabeth Johansson|Knislinge
+C|201735|68|M|Ulf Holmén|Sibbhult
+C|201736|73|M|Stig Svensson|Broby
+C|201737|62|M|Sven Björkbacken|Görbjörnarp
+C|403041|52|K|Ann Ahlbin|52 år, Personlig assistent
+C|403042|43|M|Percy Eriksson|42 år, Operativ IT ledare
+C|403043|35|M|Marcus Jeppsson|34 år, Driftledare
+C|403044|58|M|Tommy Axelsson|58 år, Distriktsrepresentant
+C|403045|59|K|Eva Ståhl|59 år, Äldrepedagog
+C|403046|44|K|Emma Hansson|45 år, Miljö & kvalitetsansvarig
+C|403047|53|M|Tomas Engkvist|53 år, Nätverkstekniker
+C|403048|26|K|Annie Axelsson|26 år, IT-projektledare
+C|403049|51|K|Marie Eriksson|51 år, Projektledare
+C|403050|34|M|Jim Cedenfärna|34 år, Brandman
+C|403051|51|K|Annika Qvarnström|51 år, Mättekniker
+C|403052|48|K|Monica Svensson|47 år, Klinikassistent
+C|403053|21|K|Ezgi Tumsa|21 år, Elevassistent
+C|403054|31|K|Caroline Nilsson|31 år, Fritidspedagog
+C|403055|25|K|Victoria Simonsen|25 år, Personlig assistent
+C|403056|34|M|Kristoffer Engström|34 år, Industriarbetare
+C|403057|56|K|Madeleine Axelsson|56 år, Barnskötare
+C|403058|25|K|Hanna Lidebrandt|25 år, Lärare
+C|403059|30|M|Andreas Johansson|30 år, Svetsare
+C|403203|66|M|Tommy Aspegren|66 år, Strateg
+C|403061|74|K|Britt Qvarnström|74 år, Pensionär
+C|63970|35|M|Patric Åberg|35 år, säljare, Broby
+C|63971|34|K|Camilla Westdahl|34 år, civilekonom, Immeln
+C|63972|40|M|Martin Skagerholm|40 år, VD, Sibbhult
+C|63973|66|M|Erling Emsfors|66 år, civilekonom, Knislinge
+C|63974|66|K|Siv Larsson|66 år, företagare, Knislinge
+C|63975|26|M|Daniel Jönsson|26 år, samhällsvetare, Östra Göinge
+C|63976|43|M|Andréas Söderlund|43 år, säljare, Broby
+C|63977|43|K|Sofia Sommer|43 år, leg. sjuksköterska, Knislinge
+C|63978|48|K|Camilla Dahlström|48 år, företagare, Hjärsås
+C|63979|48|M|Stefan Mellblom|48 år, säljare, Broby
+C|63980|71|M|Jörgen Strand|71 år, f.d. yrkesofficer, Broby
+C|63981|38|M|Jon Marin|38 år, företagare, Glimåkra
+C|63982|71|K|Inger Mattsson|71 år, leg. sjuksköterska, Glimåkra
+C|63983|64|K|Monika Bolling|64 år, leg. arbetsterapeut, Broby
+C|63984|50|M|Ulf Gabrielson|50 år, processutvecklare, Sibbhult
+C|63985|31|M|Marcus Svensson|31 år, VD, Glimåkra
+C|63986|40|M|Patrik Thygesson|40 år, säljare, Njura
+C|63987|31|M|Gordon Liljegren|31 år, företagare, Broby
+C|63988|61|M|Bo Jönsson|61 år, begravningsrådgivare, Gamlarp
+C|63989|42|K|Jenny Betsikokos|42 år, säljare, Glimåkra
+C|63990|41|M|Johan Lindgren|41 år, lantbrukare, Emmislöv
+C|63991|53|M|Berth Svensson|53 år, företagare, Glimåkra
+C|63992|29|M|Ali Alkhalil|29 år, arkitekt, Glimåkra
+C|63993|29|M|Johan Ekstrand|29 år, skogsingenjör, Tranevik
+C|63994|33|M|Rickard Pedersen|33 år, polisanställd, Knislinge
+C|63995|48|M|Tobias Bosson|48 år, VD, Glimåkra
+C|63996|50|M|Roger Jarleswärd|50 år, sales manager, Glimåkra
+C|63997|69|M|Bertil Malmsten|69 år, företagare, Glimåkra
+C|63998|73|M|Per-Eric Mattsson|73 år, pensionär, Glimåkra
+C|63999|68|M|Sven Mars|68 år, VD, Broby
+C|67053|29|M|Daniel Nord|29 år, chaufför, Glimåkra
+C|67054|61|M|Lennart Ekström|61 år, verkstadstekniker, Glimåkra
+C|67055|61|K|Ann-Sofie Stolpe|61 år, egenföretagare, Hanaskog
+C|67056|76|M|Lars Persson|77 år, pensionär, Broby
+C|67057|43|M|Stefan Wiloboken|43 år, verktygsmakare, Broby
+C|67058|49|M|Pierre Persson|49 år, egenföretagare, Hanaskog
+C|67059|69|K|Lisbeth Elmlund|68 år, pensionär, Broby
+C|67060|64|M|Dennis Schuller|63 år, möbeltapetserare, Glimåkra
+C|124690|67|M|Roland Nilsson|universitetslärare, Broby
+C|124691|51|M|Thommy Svensson|studerande
+C|124692|55|K|Jeanette Svensson|yrkeslärare, Broby
+C|124693|70|M|Jan Carlsson|byggnadsarbetare
+C|124694|71|K|Kristina Lostedt|lokalvårdare
+C|124695|68|M|Fred Holmberg|musiklärare
+C|124696|54|K|Laila Lindell|administrativt ansvarig
+C|124697|60|M|Saed Abo Al-Hassan|industriarbetare

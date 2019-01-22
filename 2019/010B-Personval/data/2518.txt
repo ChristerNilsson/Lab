@@ -1,8 +1,137 @@
-2|6726|6727|6728|6729|6730|6731|6732|6733|6734|6735|6736|6737|6738|6739|6740|6741|6742|6743|6744|6745|6746|6747|6748|6749|6750|6751|6752|6753|6754|6755|6756|6757|6758|6759|6760|6761|6762|6763
-4|343531|343532|343533|343534|343535|343536|343537|343538|343539|343540|343541|343542|343543|343544|343545|343546|343547|343548|343549|343550|343551
-68|150631|150632|150633|150634|150635|150636|150637|150638|150639|150640|150641
-1377|436620|436621|436622
-193|4910|4955|4945|4895|10425|4935|10427|10428|4920|10429|10430|10431|10432|10433|10434|10435|10436|13262|13263|13264
-110|127377|127378|199421|502625
-5|30053|81530|81531|81532|81533|81534|81535|81536|81537|81538|81539|81540|81541|81542|81543
-1068|391687|391688|391689|391690|391691|391692|391693|391694
+T|Övertorneå
+A|2|6726|6727|6728|6729|6730|6731|6732|6733|6734|6735|6736|6737|6738|6739|6740|6741|6742|6743|6744|6745|6746|6747|6748|6749|6750|6751|6752|6753|6754|6755|6756|6757|6758|6759|6760|6761|6762|6763
+A|4|343531|343532|343533|343534|343535|343536|343537|343538|343539|343540|343541|343542|343543|343544|343545|343546|343547|343548|343549|343550|343551
+A|68|150631|150632|150633|150634|150635|150636|150637|150638|150639|150640|150641
+A|1377|436620|436621|436622
+A|193|4910|4955|4945|4895|10425|4935|10427|10428|4920|10429|10430|10431|10432|10433|10434|10435|10436|13262|13263|13264
+A|110|127377|127378|199421|502625
+A|5|30053|81530|81531|81532|81533|81534|81535|81536|81537|81538|81539|81540|81541|81542|81543
+A|1068|391687|391688|391689|391690|391691|391692|391693|391694
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1377||Partiett
+B|193|SJV|Sjukvårdspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|1068|ÖFA|Övertorneås Fria Alternativ
+C|6726|49|K|Bente Moen Åkerholm|Övertorneå, 49 år
+C|6727|63|M|Roland Kemppainen|Övertorneå
+C|6728|59|K|Inga Maria Savilahti Häggbo|Soukolojärvi
+C|6729|43|M|Per-Erik Muskos|Övertorneå
+C|6730|27|K|Camilla Mattila|27 år, Övertorneå
+C|6731|60|M|Henry Barsk|Övertorneå
+C|6732|52|K|Monika Krypsjö|Kuivakangas
+C|6733|62|M|Leif Taavola|Juoksengi
+C|6734|67|K|Vega Kihlström|Kuivakangas
+C|6735|51|M|Göran Lahti|Övertorneå
+C|6736|59|K|Birgitta Emanuelsson|Niskanpää
+C|6737|32|M|Mikael Kerttu|Övertorneå
+C|6738|64|K|Elisabeth Holmgren|Övertorneå
+C|6739|62|M|Sture Larsson|Svanstein
+C|6740|52|K|Marina Danhall|Övertorneå
+C|6741|25|M|Ali Razag|Övertorneå
+C|6742|65|K|Britt-Marie Ödalen|Juoksengi
+C|6743|64|M|Bengt Aili|Puostijärven alapää
+C|6744|44|K|Sofi Wiippa Lahti|Övertorneå
+C|6745|50|M|Mikael Bergström|Övertorneå
+C|6746|29|K|Malin Kondor|Övertorneå
+C|6747|65|M|Tage Töyrä|Ruokojärvi
+C|6748|59|K|Ruth Westerberg-Larsson|Övertorneå
+C|6749|62|M|Hans Palo|Juoksengi
+C|6750|58|K|Ani Mäki|Övertorneå
+C|6751|60|M|Lars-Gösta Larsson|Övertorneå
+C|6752|52|M|Lars Niemi|Övertorneå
+C|6753|36|M|Johan Norberg|36 år, Övertorneå
+C|6754|76|M|Vesa Salo|Övertorneå
+C|6755|54|M|Peter Emanuelsson|Niskanpää
+C|6756|76|M|Åke Rundgren|Övertorneå
+C|6757|43|M|Daniel Toolanen|Kuivakangas
+C|6758|41|M|Arben Vojvoda|Övertorneå
+C|6759|67|M|Bengt Larsson|Övertorneå
+C|6760|73|M|Arne Honkamaa|Hedenäset
+C|6761|69|M|Rolf Krypsjö|Övertorneå
+C|6762|49|M|Robert Norberg|Övertorneå
+C|6763|69|M|Roland Hedlund|Övertorneå
+C|343531|56|M|Tomas Mörtberg|Kommunalråd, Övertorneå
+C|343532|18|K|Emilia Hannu|
+C|343533|51|M|Robert Grape|
+C|343534|69|K|Riitta Björk|
+C|343535|58|M|Håkan Sandqvist|
+C|343536|50|K|Urve Kirt|
+C|343537|55|M|Ingemar Keisu|
+C|343538|30|K|Marianne Salometsä|
+C|343539|71|M|Eskil Radkvist|
+C|343540|48|K|Ylva Ylinenpää Sannemalm|
+C|343541|69|M|Börje Rytiniemi|Övertorneå
+C|343542|45|K|Auli Andersson|
+C|343543|68|M|Bror Noppa|
+C|343544|63|K|Ann-Christine Taavo|
+C|343545|24|M|Rickard Andersson|
+C|343546|38|M|Muhammad Issa|
+C|343547|76|M|Ingvar Henriksson|
+C|343548|58|M|Johan Heikkilä|
+C|343549|55|M|Per Hietaniemi|
+C|343550|59|M|Hassan Khatir Ali|
+C|343551|56|M|Juha Salometsä|
+C|150631|45|M|Anders Wälivaara|socialpedagog, Övertorneå
+C|150632|43|M|Johan Taavo|rektor, 43 år
+C|150633|57|K|Margareta Törelid-Haapaniemi|tandhygienist, 57 år
+C|150634|66|K|Eva Turdell-Wikström|tandläkare, 66 år
+C|150635|36|M|Mikael Rova|polis, 36 år
+C|150636|66|M|Lars-Olav Haapaniemi|egenföretagare, 66 år
+C|150637|49|K|Helena Raattamaa|leg.apotekare, 49 år
+C|150638|73|K|Helena Haapaniemi|diakon, 73 år
+C|150639|39|M|Andreas Hedlund|polis, 38 år
+C|150640|74|K|Margareta Malteryd|sjuksköterska, 74 år
+C|150641|65|M|Kent Alanentalo|hemm.ägare, Övertorneå
+C|436620|48|M|Jörgen Ekersund|48 år
+C|436621|61|M|Ove Emanuelsson|60 år
+C|436622|54|M|Ulf Zakariasson|53 år
+C|4910|44|M|Tomas Vedestig|Handledare, Övertorneå
+C|4955|64|K|Siv Maaherra|Distriktssjuksköterska, Övertorneå
+C|4945|51|K|Yvonne Kangas|Undersköterska, Juoksengi
+C|4895|68|M|Åke Fagervall|F.d. Lärare, Pello
+C|10425|69|M|Johan Kummu|Arbetsledare, Övertorneå
+C|4935|76|M|Ole Lampinen|Ingenjör, Svanstein
+C|10427|43|M|Magnus Pettersson|VA-maskinist, Svanstein
+C|10428|67|M|Knut Omark|Företagare, Övertorneå
+C|4920|70|K|Maire Nyström|Sjuksköterska, Övertorneå
+C|10429|60|M|Peter Jakobsson|Utbildare, Övertorneå
+C|10430|75|M|Erkki Bergman|Slöjdlärare, Pello
+C|10431|25|K|Malin Andersson|Vik. Vårdbiträde, Juoksengi
+C|10432|27|M|Stefan Kangas|Vaktmästare, Juoksengi
+C|10433|25|M|Simon Kangas|Vaktmästare, Juoksengi
+C|10434|61|K|Päivi Kilpeläinen|Undersköterska, Övertorneå
+C|10435|74|M|Kurt Juntti|Ingenjör, Övertorneå
+C|10436|36|K|Linnea Nuuksujärvi|Undersköterska, Aapua
+C|13262|70|M|Gunnar Björk|Major, Risudden
+C|13263|41|M|Hardy Rebane|Brandman, Övertorneå
+C|13264|34|M|David Uusitalo|Industriarbetare, Övertorneå
+C|127377|37|K|Johanna Kenttämaa|37, Socionom
+C|127378|47|M|Marko Kenttämaa|47, Gruvarbetare
+C|199421|74|M|Svante Wiinikka|74, Pensionär
+C|502625|72|M|Sören Mukkavaara|72, Pensionär
+C|30053|58|K|Christina Snell-Lumio|Övertorneå
+C|81530|59|M|Bengt Rytiniemi|Jänkisjärvi
+C|81531|66|M|Rolf Mäkitalo|Koutojärvi
+C|81532|21|M|Iqbal Salah|Övertorneå
+C|81533|63|K|Anna-Lena Kandelin|Övertorneå
+C|81534|20|K|Hosaina Afewerki|Övertorneå
+C|81535|35|M|Björn Snell|Hedenäset
+C|81536|33|M|Peter Outinen|Övertorneå
+C|81537|71|M|Ragnvald Mäkitalo|Koutojärvi
+C|81538|24|M|Mojahid Bakhit|Övertorneå
+C|81539|62|M|Bertil Alanentalo|Ylinenjärvi
+C|81540|61|M|Birger Isaksson|Ylinenjärvi
+C|81541|39|K|Johanna Alanentalo|Övertorneå
+C|81542|21|M|Farhad Yaqobi|Övertorneå
+C|81543|52|K|Päivi Ylisirkka|Övertorneå
+C|391687|50|K|Ann-Christin Tötterman-Hjort|Administratör
+C|391688|49|K|Anne Rousu|Montör
+C|391689|49|K|Annika Sturk|Montör
+C|391690|49|M|Keijo Kauppi|Ambulanssjukvårdare
+C|391691|43|M|Jens Vedestig|
+C|391692|34|M|Johan Nilsson|
+C|391693|61|K|Inger Rännare|Undersköterska
+C|391694|63|M|Karl Rännare|Befälhavare

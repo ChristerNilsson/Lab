@@ -1,11 +1,239 @@
-139|415544|415545|415546|415547|415548|415549|415550|415551|415552|415553|415554
-2|84332|84333|84334|84335|84336|84337|84338|84339|84340|84341|84342|84343|84344|84345|84346|84347|84348|84349|84350|84351|84352|84353|84354|84355|84356|84357|84358|84359|84360|84361|84362|84363|84364|84365|84366|84367|84368|84369|84370|84371|84372|84373|84374|84375|84376|84377|84378|434032|84380|84381|84382|84383|84384|84385|84386|84387|84388|84389
-4|8532|178995|178996|178997|178998|178999|179000|179001|179002|179003|179004|179005|179006|179007|179008|179009|179010|179011|179012|179013
-1158|137274|137275|137276|137277|137278|137279|137280|137281|137282|137283|137284|137285|137286|137287|137288|137289|137290|137291|137292|137293
-68|298117|341189|341190|341191|341192|341193|341194|341195|341196|341197|341198|341199|341255|341200|341201|277378|341203|341204|341205|341206|298126|341208
-3|275558|275559|275560|275561|275562|275563|275564|275566|275567|275568|275569|275570|275571
-1296|258274
-55|118978|118979|118980|118981|118982|118983|118984|118985
-1|254967|253913|254969|254970|254971|254972|254973|254974|254975|254976|254197|254978|254979|254980|254981|254982|254983|254984|254985|254986|254987|254988|254989|254990|254991|254992|254993|253919|254995|254996
-110|70288|61343|70290|70291|70292|70293|70294|70295|70296|70297|70298|70299|70300|70301|70302|70303|70304|70305|70306
-5|181864|181865|162924|181867|181868|181869|181870|181871|181872|181873|181874|181875|181876|181877
+T|Ale
+A|139|415544|415545|415546|415547|415548|415549|415550|415551|415552|415553|415554
+A|2|84332|84333|84334|84335|84336|84337|84338|84339|84340|84341|84342|84343|84344|84345|84346|84347|84348|84349|84350|84351|84352|84353|84354|84355|84356|84357|84358|84359|84360|84361|84362|84363|84364|84365|84366|84367|84368|84369|84370|84371|84372|84373|84374|84375|84376|84377|84378|434032|84380|84381|84382|84383|84384|84385|84386|84387|84388|84389
+A|4|8532|178995|178996|178997|178998|178999|179000|179001|179002|179003|179004|179005|179006|179007|179008|179009|179010|179011|179012|179013
+A|1158|137274|137275|137276|137277|137278|137279|137280|137281|137282|137283|137284|137285|137286|137287|137288|137289|137290|137291|137292|137293
+A|68|298117|341189|341190|341191|341192|341193|341194|341195|341196|341197|341198|341199|341255|341200|341201|277378|341203|341204|341205|341206|298126|341208
+A|3|275558|275559|275560|275561|275562|275563|275564|275566|275567|275568|275569|275570|275571
+A|1296|258274
+A|55|118978|118979|118980|118981|118982|118983|118984|118985
+A|1|254967|253913|254969|254970|254971|254972|254973|254974|254975|254976|254197|254978|254979|254980|254981|254982|254983|254984|254985|254986|254987|254988|254989|254990|254991|254992|254993|253919|254995|254996
+A|110|70288|61343|70290|70291|70292|70293|70294|70295|70296|70297|70298|70299|70300|70301|70302|70303|70304|70305|70306
+A|5|181864|181865|162924|181867|181868|181869|181870|181871|181872|181873|181874|181875|181876|181877
+B|139|ADK|Ale - demokraterna
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1158|FiA|FRAMTID I ALE
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|415544|59|M|Sven Nicolaisen|Sjukgymnast
+C|415545|70|M|Börje Ohlsson|Köpman
+C|415546|73|M|Kjell Brattfors|Skeppare
+C|415547|66|K|Maria Ohlsson|Servitris
+C|415548|71|M|Bengt Tillberg|Köpman
+C|415549|50|K|Lena Alexandersson|Köksmästare
+C|415550|75|M|Jan A. Pressfeldt|Fastighetsmäklare
+C|415551|76|K|Ingela Nordhall|Receptarie
+C|415552|78|M|Timo Marklund|Grävmaskinist
+C|415553|65|K|Lise-Lott Börjesson Tillberg|Kanslist
+C|415554|64|M|Carl-Hugo Hamnegård|Läkare
+C|84332|40|K|Paula Örn|kommunalråd, Ale
+C|84333|50|M|Stefan Hagman|50 år, gymnasielärare, Nödinge
+C|84334|62|K|Monica Samuelsson|62 år, kontorist, Nol
+C|84335|39|M|Johnny Sundling|38 år, undersköterska, Skepplanda
+C|84336|52|K|Ann Lundgren|52 år, lärare, Surte
+C|84337|45|M|Dennis Ljunggren|46 år, industriarbetare, Nödinge
+C|84338|31|K|Lena Orstadius|31 år, barn och ungdomsledare, Älvängen
+C|84339|69|M|Rolf Gustavsson|69 år, pensionär, Alafors
+C|84340|67|K|Catharina Eliasson|68 år, pensionär, Alafors
+C|84341|37|M|Johan Nordin|37 år, arbetsmiljöingenjör, Älvängen
+C|84342|21|K|Isabella Andersson|stödassistent, Ale
+C|84343|38|M|Anders Rollings|38 år, verksamhetsutvecklare, Surte
+C|84344|71|K|Elaine Björkman|72 år, pensionär, Skepplanda
+C|84345|52|M|Klas Karlsson|53 år, civilingenjör, Nol
+C|84346|38|K|Ingrid Inhammar|arbetsförmedlare, Ale
+C|84347|53|M|Krister Bergenhus|54 år, processoperatör, Älvängen
+C|84348|25|K|Hiba Abdulqader|25 år, barnskötare, Nödinge
+C|84349|68|M|Jarl Karlsson|68 år, pensionär, Älvängen
+C|84350|67|K|Christina Oskarsson|pensionär, Ale
+C|84351|20|M|Gabriel Ljunggren|barnskötare, Ale
+C|84352|23|K|Natalie Namro|24 år, hälsopedagog, Nödinge
+C|84353|48|M|Aree Said Gaff|48 år, lagerarbetare, Nödinge
+C|84354|73|K|Monica H Westberg|pensionär, Ale
+C|84355|57|M|Toni Andersson|58 år, plåtslagare, Bohus
+C|84356|48|K|Zainab Tilako|47 år, utbildningssamordnare, Nödinge
+C|84357|51|M|Bo-Ivar Andersson|52 år, pensionär, Nol
+C|84358|30|K|Karin Heimdal|30 år, studerande, Älvängen
+C|84359|53|M|Seppo Tallheden|54 år, metallarbetare, Älvängen
+C|84360|61|K|Eva Eriksson|61 år, undersköterska, Surte
+C|84361|58|M|Johan Signell|58 år, arbetsmarknadskonsult, Nol
+C|84362|58|K|Anette Håkansson|59 år, undersköterska, Alafors
+C|84363|62|M|Peter Ohlsson|62 år, folkbildare, Alvhem
+C|84364|81|K|Ing-Britt Adiels|82 år, pensionär, Alafors
+C|84365|31|M|Andreé Storm|30 år, elkraftsingenjör, Älvängen
+C|84366|61|K|Christina Magnusson Wallöe|61 år, samordnare, Nödinge
+C|84367|33|M|Fredrik Samuelsson|34 år, konsult, Nol
+C|84368|45|K|Sandra Samuelsson|45 år, säljare, Älvängen
+C|84369|49|M|Jim Aleberg|metallarbetare, Ale
+C|84370|44|K|Mahlin Engstrand|44 år, polis, Alafors
+C|84371|70|M|Örjan Claesson|70 år, pensionär, Hålanda
+C|84372|72|K|Inga-Lill Andersson|73 år, pensionär, Bohus
+C|84373|74|M|Eje Engstrand|75 år, pensionär, Alafors
+C|84374|43|K|Jessica Norberg|43 år, metallarbetare, Älvängen
+C|84375|65|M|Kjell Rysjö|65 år, pensionär, Älvängen
+C|84376|44|K|Anita Amdin|44 år, pensionär, Alafors
+C|84377|67|M|Bengt Lundberg|68 år, pensionär, Älvängen
+C|84378|82|K|Wivi-Anne Radesjö|83 år, pensionär, Bohus
+C|434032|75|M|Kjell Stensson|75 år, pensionär, Nol
+C|84380|49|K|Ulrica Martinsson|49 år, familjehemsföreståndare, Alvhem
+C|84381|51|M|Jens-Peter Larsen|51 år, underhållsingenjör, Nol
+C|84382|48|K|Sari Andersson|47 år, florist, Bohus
+C|84383|77|M|Thor Eliasson|78 år, pensionär, Alafors
+C|84384|46|K|Åse Hagborg Aleberg|46 år, lärare, Alafors
+C|84385|45|M|Denny Olausson|45 år, grävmaskinist, Älvängen
+C|84386|72|K|Stina-Kajsa Melin|72 år, pensionär, Surte
+C|84387|67|M|Gert Karlsson|67 år, pensionär, Nol
+C|84388|51|K|Carina Ackerfors|52 år, förskolelärare, Alafors
+C|84389|81|M|Sven Pettersson|81 år, pensionär, Nödinge
+C|8532|39|K|Elena Fridfelt|39 år, IT Projektledare, Ale
+C|178995|61|M|Åke Niklasson|lantbrukare, 61 år, Starrkärr
+C|178996|34|K|Jessika Loftbring|34, socionom, Ale
+C|178997|67|M|Lennart Dahl|pensionär, 67 år, Bohus
+C|178998|33|K|Lina Bodestad|33, psykolog/företagare, Ale
+C|178999|27|M|Hampus Eskilsson|församlingspedagog, 27 år, Alafors
+C|179000|69|K|Anitha Kristiansson|pensionär, 69 år, Älvängen
+C|179001|41|M|Pierre Torwald|musiker, 41 år, Älvängen
+C|179002|34|K|Aida Karimli|34 år, näringslivsutvecklare, Ale
+C|179003|49|M|Dan Sandros|civilingengör, 49 år, Nödinge
+C|179004|34|K|Helena Andersson|laboratorieingenjör, 34 år, Burhult
+C|179005|38|M|Mattias Ivarsson|byggledare, 38år ,Älvängen
+C|179006|35|M|Fuad Karimli|behandlingsassistent, 35 år, Surte
+C|179007|51|M|Christian Nielsen|ölnörd, 51 år, Nödinge
+C|179008|62|M|Ove Parkås|företagare, 62 år, Älvängen
+C|179009|70|M|Ingemar Otzén|lärare, 71 år, Alvhem
+C|179010|75|M|Leif Andersson|senior, 75 år, Surte
+C|179011|81|M|Roland Wall|hemmansägare, 81 år, Älvängen
+C|179012|68|K|Inger Zachrisson|behandlare, 68 år, Starrkärr
+C|179013|83|M|Tage Svensson|pensionär, 83 år, Älvängen
+C|137274|49|M|Tyrone Hansson|Alafors
+C|137275|63|K|Renée Palmnäs|vårdenhetschef
+C|137276|77|M|Rolf Engström|Surte-Bohus
+C|137277|43|K|My Bardin Björkman|Älvängen
+C|137278|44|M|Jonas Molin|Skepplanda
+C|137279|70|K|Brita Karlsson|Nol
+C|137280|55|M|Christer Eriksson|Nol
+C|137281|48|M|Stefan Gustafsson|Älvängen
+C|137282|41|M|Ingemar Sörqvist|Skepplanda
+C|137283|63|K|Anna-Lill Andersson|Skepplanda
+C|137284|71|M|Ronny Ericsson|Nödinge
+C|137285|44|K|Pernilla Slitebo|Ölanda-Älvängen
+C|137286|53|K|Lena Zachrisson|Alafors
+C|137287|50|M|Per Zikovic|Surte-Bohus
+C|137288|33|K|Elin Palmnäs|Nödinge
+C|137289|23|M|Sebastian Hansson|Skepplanda
+C|137290|69|K|Lena-Marie Forsman|Surte-Bohus
+C|137291|25|M|Robert Hansson|Skepplanda
+C|137292|44|K|Rakel Molin|Skepplanda
+C|137293|45|M|Jörgen Björkman|Älvängen
+C|298117|64|M|Sune Rydén|F.d. Tullspecialist, Nol
+C|341189|67|K|Birgit Andersson|Ölanda
+C|341190|65|M|Claes-Anders Bengtsson|Skepplanda
+C|341191|23|M|Natanael Kvidal|Älvängen
+C|341192|74|M|Christer Mörlin|Skepplanda
+C|341193|73|M|Ingvar Arvidsson|Älvängen
+C|341194|60|M|Tony Karlsson|Älvängen
+C|341195|60|K|Madiorie Ormark|Nödinge
+C|341196|72|M|Tage Lindström|Nödinge
+C|341197|41|M|David Rydén|Ryd
+C|341198|50|M|Tomas Johansson|Älvängen
+C|341199|72|M|Göran Svensson|Alafors
+C|341255|53|M|Staffan Andersson|Krokstorp
+C|341200|33|K|Sofia Andersson|Bohus
+C|341201|67|M|Lars Ingvarsson|Älvängen
+C|277378|57|K|Ingrid Hellberg|Fil. kand. i vårdpedagogik, Älvängen
+C|341203|70|K|Birgit Hansson|Nödinge
+C|341204|72|M|Thorbjörn Berg|Nödinge
+C|341205|76|M|Nils-Hugo Strömberg|Nol
+C|341206|73|K|Ulla-Britt Svensson|Alafors
+C|298126|69|M|Wimar Sundeen|Pensionär, Skepplanda
+C|341208|24|K|Rebecca Blohm|Skepplanda
+C|275558|72|M|Stefan Ekwing|72, organisationskonsult, Ale
+C|275559|69|K|Rose-Marie Fihn|68, f.d. språklärare, Ale
+C|275560|60|K|Eva Lans Samuelsson|enhetschef, Älvängen
+C|275561|36|M|Patrik Rasmusson|specialistofficer, Älvängen
+C|275562|38|K|Madeleine Olofsson|studie- och yrkesvägledare, Älvängen
+C|275563|22|M|Jonas Lindberg|studerande, Skepplanda
+C|275564|64|M|Jan Samuelsson|civilingenjör, Älvängen
+C|275566|72|K|Inga-Lena Lindenau|rektor, Nödinge
+C|275567|33|M|Rauf Karimli|socialpedagog, Bohus
+C|275568|63|K|Kristina Karlsson|förskollärare, Älvängen
+C|275569|66|M|Åke Johansson|pensionär, Alafors
+C|275570|81|K|Birgitta Brinkhed|f.d. talpedagog, Nödinge
+C|275571|42|M|Daniel Karlsson|bankchef, Nödinge
+C|258274|44|K|Linda Edgren|44 försäljningschef Nödinge
+C|118978|59|M|Sonny Landerberg|59 år, Egenföretagare, Skepplanda
+C|118979|46|K|Jenny Sandkvist|46 år, Kommunikationsstrateg, Nödinge
+C|118980|43|M|Geo de Maré|43 år, Systemtekniker, Alafors
+C|118981|23|M|Axel Andersson|23 år, Studerande, Nol
+C|118982|68|M|Lars Åke Ellbén|68 år, Pensionär, Alafors
+C|118983|33|M|Christian Samuelsson|33 år, Transportledare, Älvängen
+C|118984|43|M|Johan Ström|43 år, Systemtekniker, Nol
+C|118985|52|K|Camilla Landerberg|52 år, Egenföretagare, Skepplanda
+C|254967|46|M|Mikael Berglund|46, Försäljningsingenjör, Älvängen
+C|253913|26|K|Isabell Mörner|26, Jurist, Ale
+C|254969|18|M|Oliver Andersson|18, Studerande, Nol
+C|254970|64|M|Jan Skog|64, Egen företagare, Älvängen
+C|254971|48|M|Henrik Fogelklou|48, Arkitekt, Nödinge
+C|254972|72|M|Lars Kopp|72, Pensionär, Hålanda
+C|254973|30|M|Daniel Mörner|30, , Älvängen
+C|254974|76|K|Kajsa Nilsson|76, Leg sjuksköterska (pens), Nödinge
+C|254975|58|M|Dan Björk|58, Tekniker, Nödinge
+C|254976|72|K|Maj Holmström|72, Egen Företagare, Nödinge
+C|254197|45|M|Erik Liljeberg|45, IT-strateg, Ale
+C|254978|48|M|Peter Kornesjö|48, , Nödinge
+C|254979|80|M|Lennarth Nilsson|80, Pensionär, Nödinge
+C|254980|45|K|Susanna Mouvitz|45, , Älvängen
+C|254981|42|M|Thomas Olesen|42, VD Bevakningsföreståndare, Nol
+C|254982|58|M|Urban Wallbert|58, ,
+C|254983|48|K|Anna Löfgren Silfversparre|48, Artikelkoordinator, Nödinge
+C|254984|35|M|Dennis Larsen|35, , Alvhem
+C|254985|63|M|Homayoun Amiri|63, Egenföretagare, Ale
+C|254986|41|K|Maria Bokedal|41, Vårdenhetschef, Älvängen
+C|254987|18|M|Gustav Havilehto|18, ,
+C|254988|64|M|Magnus Wennergren|64, Konsult, Burhult
+C|254989|58|M|Johan Bankel|58, Civilingenjör, Nödinge
+C|254990|68|M|Bent Nissen|68, Pensionär, Älvängen
+C|254991|70|K|Annelie Lund|70, f.d Förvaltare, Kilanda
+C|254992|79|M|Göran Åkerlund|79, Pensionär, Bohus
+C|254993|30|K|Cassandra Furberg|30, , Skepplanda
+C|253919|21|K|Amanda Thonander|21, Statsvetare, Ale
+C|254995|55|M|Rexhep Ademaj|55, Flygingenjör, Surte
+C|254996|67|K|Mona Gunlycke|67, Tandsköterska, Nödinge
+C|70288|31|M|Robert Jansson|31, Produktionsutvecklare, Nol
+C|61343|46|M|Jonas Lundgren|46, Chaufför, Nol
+C|70290|72|M|Kennet Sandow|72, Maskiningenjör, Alvhem
+C|70291|43|M|Lennie Kjellman|43, Yttre hemtjänst, Nol
+C|70292|70|K|Marita Henriksson|70, F.d. Omvårdnadspersonal, Älvängen
+C|70293|33|M|Alexis Tranmarker|32, Gruppledare produktionslogistik, Alvhem
+C|70294|46|K|Pernilla Johansson|46, Truckförare, Älvängen
+C|70295|52|M|Robert Roos|52, Trafiklärare, Alafors
+C|70296|79|M|Rune Karlsson|79, Pensionär, Älvängen
+C|70297|62|M|Charlie Ceder|63, Pensionär, Surte
+C|70298|64|M|Rainer Andreasson|64, Byggnadssnickare, Älvängen
+C|70299|61|M|Håkan Bergman|61, Pensionär, Surte
+C|70300|54|M|Benny Liu|54, Busschaufför, Surte
+C|70301|45|M|Mattias Börjesson|45, Ventilationstekniker, Surte
+C|70302|51|K|Marie Lundgren|50, Servicearbetare, Alafors
+C|70303|75|K|Anna-Karin Axelsson|74, Maskiningenjör, Surte
+C|70304|46|M|Mikael Larsson|46, Fastighetsskötare, Älvängen
+C|70305|65|K|Christin Ekstrand|65, Pensionär, Bohus
+C|70306|70|M|John Nordlander|70, Pensionär, Nol
+C|181864|62|M|Sven Engdahl|HR-specialist, Skepplanda, 63 år
+C|181865|35|K|Lisa Gustafsson|socialpedagog, Nol, 35 år
+C|162924|52|M|Christer Pålsson|logistiker, Ale, 53 år
+C|181867|73|K|Birgitta Andersson|pensionerad kurator, Älvängen, 72 år
+C|181868|35|M|Adam Loftbring|Älvängen, 35 år
+C|181869|52|K|Maria Bergérus|lärare, Skepplanda, 53 år
+C|181870|70|K|Ann Franzén|före detta bibliotekarie, Älvängen, 70 år
+C|181871|63|M|Mohammad Nashabat|taxichaufför, Nödinge, 64 år
+C|181872|65|K|Anna Enggren|lärare, Nödinge, 65 år
+C|181873|70|M|Bengt Stahlman|pensionerad lärare, Nödinge, 70 år
+C|181874|69|K|Elisabeth Nordén-Forsberg|kulturarbetare, Bohus, 69 år
+C|181875|56|K|Marie Olsson|arbetsspecialist, Kilanda, 56 år
+C|181876|48|K|Camilla Karlsson|enhetschef LSS, Nödinge, 48 år
+C|181877|88|M|Kjell Gustavsson|pensionär, Nödinge, 88 år

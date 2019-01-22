@@ -1,11 +1,311 @@
-2|9857|9858|9859|9860|9861|9862|9863|9864|9865|9866|9867|9868|9869|9870|9871|9872|9873|9874|9875|9876|9877|9878|9879|9880|9881|9882|9883|9884|9885|9886|9887|9888|9889|9890|9891|9892|9893|9894|9895|9896|9897|9898|9899|9900|9901|9902|9903|9904|9905|9906|9907|9908|9909|9910|9911|9913|9914|10188|10189|10190|10191|10192|10193|10194|10195|10196|10197|10198|10199|10200|10201|10202|10203|10204|10205|10206|10207|10208|10209|10210|10211|10212|10213|10214|10215|10216|10217|10218|10219|10220|10221|10222|10223|10224|10225|10226|10227|10228|10229|10230|10231|10232|10233|10234|10235
-4|50029|50030|50031|8518|50033|50034|50035|50036|50037|50038|50039|50040|50041|50042|50043|50044|50045|50046|50047|50048|50049|50050|50051|50052|50053|50054|50055|50056|50057|50058|50059|50060|50061|432024|50063|50064|50065|50066|50067|50068|50069
-1388|515657
-68|20907|20911|26037|20904|26039|20913|49732|26042|26043|26044|26045|20915|26047|21000|20921|26051|315376|26053|20917|26055|26056|26057|26058|26059|26060|26061|20997|26063|26064|21014|26066|21007|26068|26069|26070|26071|26072
-1011|207433|515654
-3|277270|49189|277336|277790|277237|277232|277245|277262|277795|277796|277797|277798|277799|277800|277801|277802|277803|277804|277805|277807|277264
-55|368884|368293|368502|368887|368888|368889|368890|368891|368892|368893|368894|368896
-1|268579|240709|268581|268582|268583|21019|268585|268586|268587|268588|268589|268590|268591|268592|268593|268594|268595|268596|268597|268598|268599|268600|268601
-196|275662|275680|275668|277183|275666
-110|360099|360093|360103|360156|360149|361317|360153|360142|515528
-5|111523|111524|111525|111526|111527|111528|111529|111530|111531|111532|111533|111534|111535|111536|111537|111538|111539|111680|111540|111541|111542|111543|111544|111545|111546|111547|111548|111549|111550|111551|111552|111553|111554|111555
+T|Örnsköldsvik
+A|2|9857|9858|9859|9860|9861|9862|9863|9864|9865|9866|9867|9868|9869|9870|9871|9872|9873|9874|9875|9876|9877|9878|9879|9880|9881|9882|9883|9884|9885|9886|9887|9888|9889|9890|9891|9892|9893|9894|9895|9896|9897|9898|9899|9900|9901|9902|9903|9904|9905|9906|9907|9908|9909|9910|9911|9913|9914|10188|10189|10190|10191|10192|10193|10194|10195|10196|10197|10198|10199|10200|10201|10202|10203|10204|10205|10206|10207|10208|10209|10210|10211|10212|10213|10214|10215|10216|10217|10218|10219|10220|10221|10222|10223|10224|10225|10226|10227|10228|10229|10230|10231|10232|10233|10234|10235
+A|4|50029|50030|50031|8518|50033|50034|50035|50036|50037|50038|50039|50040|50041|50042|50043|50044|50045|50046|50047|50048|50049|50050|50051|50052|50053|50054|50055|50056|50057|50058|50059|50060|50061|432024|50063|50064|50065|50066|50067|50068|50069
+A|1388|515657
+A|68|20907|20911|26037|20904|26039|20913|49732|26042|26043|26044|26045|20915|26047|21000|20921|26051|315376|26053|20917|26055|26056|26057|26058|26059|26060|26061|20997|26063|26064|21014|26066|21007|26068|26069|26070|26071|26072
+A|1011|207433
+A|3|277270|49189|277336|277790|277237|277232|277245|277262|277795|277796|277797|277798|277799|277800|277801|277802|277803|277804|277805|277807|277264
+A|55|368884|368293|368502|368887|368888|368889|368890|368891|368892|368893|368894|368896
+A|1|268579|240709|268581|268582|268583|21019|268585|268586|268587|268588|268589|268590|268591|268592|268593|268594|268595|268596|268597|268598|268599|268600|268601
+A|196|275662|275680|275668|277183|275666
+A|110|360099|360093|360103|360156|360149|361317|360153|360142
+A|5|111523|111524|111525|111526|111527|111528|111529|111530|111531|111532|111533|111534|111535|111536|111537|111538|111539|111680|111540|111541|111542|111543|111544|111545|111546|111547|111548|111549|111550|111551|111552|111553|111554|111555
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1388||Folkhemmet Sverige
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|196|SJVP|Sjukvårdspartiet - Västernorrland
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|9857|45|M|Per Nylén|45 år, Lärare, Själevad
+C|9858|53|K|Anna-Belle Strömberg|53 år, Örnsköldsvik
+C|9859|40|M|Kristoffer Park|40 år, Örnsköldsvik
+C|9860|45|K|Agneta Alenius Madsen|45 år, Egen företagare, Ulvöhamn
+C|9861|59|M|Gunnar Jutterström|59 år, Verksamhetsutvecklare, Själevad
+C|9862|41|K|Carolina Sondell|41 år, Civilingenjör, Kroksta
+C|9863|60|M|Jan Olov Häggström|60 år, Ekonom, Köpmanholmen
+C|9864|37|K|Erika Howcroft|37 år, Entreprenör, Domsjö
+C|9865|60|M|Tom Sundelin|60 år, Civilingenjör, Domsjö
+C|9866|64|K|Kristin Ögren|64 år, Barnskötare, Domsjö
+C|9867|22|M|Frat Kandemir|22 år, Statsvetare, Varvet
+C|9868|54|K|Olga Back|54 år, Lokalvårdare, Domsjö
+C|9869|70|M|Jan Lindstedt|70 år, Egen företagare, Varvet
+C|9870|23|K|Elin Nordfjell|23 år, Studerande, Bjästa
+C|9871|28|M|Mikael Sundmark|28 år, Kommunikatör, Örnsköldsvik
+C|9872|46|K|Anna-Karin Sjölund|46 år, Fritidspedagog, Köpmanholmen
+C|9873|54|M|Jim Sundelin|54 år, Betongarbetare, Bredbyn
+C|9874|42|K|Ulrika Karlsson|42 år, Cafébiträde, Domsjö
+C|9875|24|M|Hans Gidlund|24 år, Assistent inom EKB, Örnsköldsvik
+C|9876|54|K|Annika Westin|54 år, Undersköterska, Bjästa
+C|9877|60|M|Leif Lindholm|60 år, Processoperatör, Bredbyn
+C|9878|62|K|Yvonne Ölund|62 år, Förskollärare, Bjästa
+C|9879|19|M|Emil Nordfjell|19 år, Köpmanholmen
+C|9880|43|K|Katarina Nylén|43 år, Systemvetare, Själevad
+C|9881|34|M|Håkan Forslund|34 år, Lastbilschaufför, Sidensjö
+C|9882|27|K|Therese Häggquist|28 år, Assistent, Åmynnet
+C|9883|37|M|Magnus Strödin|36 år, Mjukvaruutvecklare, Domsjö
+C|9884|19|K|Klara Olsson Umegård|19 år, Studerande, Domsjö
+C|9885|24|M|Christian Andersson|24 år, Vårdare, Bjästa
+C|9886|24|K|Stina Sohlin|24 år, Studerande, Domsjö
+C|9887|39|M|Magnus Wester|39 år, IF Metallarbetare, Domsjö
+C|9888|65|K|Marianne Vestin|65 år, Assistent, Köpmanholmen
+C|9889|60|M|Roger Fjeldseth|61 år, Kanslichef, Skorped
+C|9890|37|K|Matilda Abrahamsson|37 år, Processingenjör, Köpmanholmen
+C|9891|43|M|Zeth Olsson|43 år, Säljare, Hörnett
+C|9892|62|K|Britt Westman|62 år, Assistent, Domsjö
+C|9893|36|M|Andreas Näslund|36 år, Snickare, Själevad
+C|9894|59|K|Christina Andersson|59 år, Administratör, Sidensjö
+C|9895|61|M|Kent Lundgren|61 år, Verkstadsmontör, Bjästa
+C|9896|68|K|Ingrid Åström|68 år, Pensionär, Bjästa
+C|9897|28|M|Viktor Olofsson|28 år, Taxichaufför, Domsjö
+C|9898|62|K|Birgitta Westman|62 år, Undersköterska, Sidensjö
+C|9899|67|M|Tore Gidlund|57 år, Ekonom, Domsjö
+C|9900|25|K|Josefin Lopez|25 år, Studerande, Bjästa
+C|9901|44|M|Peter Näslund|44 år, Lagerarbetare, Bjästa
+C|9902|49|K|Annika Kristoffersson|49 år, Administratör, Skorped
+C|9903|46|M|David Björklund|46 år, Ombudsman, Själevad
+C|9904|48|K|Tereza Mills|48 år, Beteendevetare, Bjästa
+C|9905|63|M|Lars Nilsson|63 år, Personlig assistent, Köpmanholmen
+C|9906|56|K|Maria Olofsson|56 år, Resursplanerare, Solberg
+C|9907|70|M|Gösta Svensson|70 år, Pensionär, Hörnett
+C|9908|19|K|Maja Norman|19 år, Studerande, Gullänget
+C|9909|66|M|Olof Ögren|66 år, Pensionär, Domsjö
+C|9910|41|K|Madeleine Lundgren|41 år, Lokalvårdare, Köpmanholmen
+C|9911|63|M|Peder Johansson|63 år, Psykosocialresurs, Domsjö
+C|9913|28|M|Mattias Bylund|28 år, Hydraulikmontör, Själevad
+C|9914|67|M|Roger Sandström|67 år, Lärare, Åmynnet
+C|10188|42|K|Anna Sundberg|42 år, Beteendevetare, Arnäsvall
+C|10189|44|M|Mikael Hedin|44 år, IT-specialist, Bonässund
+C|10190|43|K|Susanne Sturk|43 år, Miljöhandläggare, Svartby
+C|10191|35|M|Tomas Jonsson|35 år, Industriarbetare, Trehörningssjö
+C|10192|45|K|Zenitha Nordfjell|45 år, Kansliassistent, Örnsköldsvik
+C|10193|48|M|Mattias Öberg|48 år, Brevbärare, Örnsköldsvik
+C|10194|53|K|Kristina Nilsson|53 år, Örnsköldsvik
+C|10195|40|M|Marcus Sellgren|40 år, Automationsingenjör, Järved
+C|10196|28|K|Frida Olsson|28 år, Undersköterska, Örnsköldsvik
+C|10197|47|M|Kazim Karkan|47 år, Samhällskommunikatör, Örnsköldsvik
+C|10198|55|K|Birgith Olsson Johansson|55 år, Assistent, Örnsköldsvik
+C|10199|50|M|Zouheir Assaf|50 år, Språkhandledare, Örnsköldsvik
+C|10200|23|K|Jennifer Lundqvist|23 år, Vårdare, Husum
+C|10201|43|M|Mustafa Acar|43 år, Lärare, Örnsköldsvik
+C|10202|41|K|Maria Vestman|41 år, Förskollärare, Järved
+C|10203|27|M|Daniel Bylund|27 år, Vårdare, Trehörningssjö
+C|10204|42|K|Susanne Silverkraft|42 år, Coach, Bonässund
+C|10205|60|M|Torbjörn Vestman|60 år, Mobilkranförare, Örnsköldsvik
+C|10206|43|K|Ann-Sofie Karlsson Ågren|43 år, Undersköterska, Örnsköldsvik
+C|10207|20|M|Tobias Hermansson|20 år, Studerande, Örnsköldsvik
+C|10208|72|K|Lena Kvarnström|72 år, Pensionär, Brösta
+C|10209|23|M|Welat Acar|23 år,  Studerande, Örnsköldsvik
+C|10210|46|K|Cina Flarke|46 år, Pedagog, Örnsköldsvik
+C|10211|57|M|Örjan Forsberg|57 år, Fritidskonsulent, Husum
+C|10212|53|K|Britt-Inger Staaf|53 år, Vårdare, Björna
+C|10213|55|M|Lars Edblad|55 år, Ombudsman, Örnsköldsvik
+C|10214|44|K|Malin Westman|44 år, Upphandlare, Järved
+C|10215|46|M|Jonny Englund|46 år, Säljare, Långviksmon
+C|10216|54|K|Helene Andersson|54 år, Integrationsstödjare, Trehörningssjö
+C|10217|45|M|Peter Vestin|45 år, Arbetare, Örnsköldsvik
+C|10218|64|K|Elvy Söderström|64 år, Lärare, Örnsköldsvik
+C|10219|56|M|Tommy Rönnqvist|56 år, Processoperatör, Örnsköldsvik
+C|10220|43|K|Marielle Sjölund|43 år, Socionom, Trehörningsjö
+C|10221|57|M|Glenn Nordlund|56 år, Örnsköldsvik
+C|10222|44|K|Maria Lundberg|44 år, Barnskötare, Bonässund
+C|10223|52|M|Per Jonsson|52 år, Automationstekniker, Husum
+C|10224|72|K|Marianne Lundström|72 år, Pensionär, Arnäsvall
+C|10225|31|M|Patrik Lundstedt|31 år, Musiker, Järved
+C|10226|63|K|Laila Bylund|63 år, Undersköterska, Brösta
+C|10227|53|M|Michael Axelsson|53 år, Ingenjör, Örnsköldsvik
+C|10228|39|K|Sandra Jonsson|39 år, Industriarbetare, Trehörningsjö
+C|10229|49|M|Bruno Sjölund|49 år, Konstruktör, Trehörningsjö
+C|10230|73|K|Gerd Persson|73 år, Pensionär, Örnsköldsvik
+C|10231|67|M|Nils-Gunnar Persson|67 år, Pensionär, Örnsköldsvik
+C|10232|75|K|Vega Näsström|75 år, Pensionär, Örnsköldsvik
+C|10233|38|M|Zebastian Olsson|38 år, Säljare, Kroksta
+C|10234|63|K|Karin Nordin|63 år, Undersköterska, Örnsköldsvik
+C|10235|60|M|Ingemar Sundström|60 år, Servicerådgivare, Bjästa
+C|50029|57|K|Anna-Britta Åkerlind|kommunalråd, 57 år, Domsjö
+C|50030|39|M|Björn Olsson|skorstensfejare, 38 år, Högbyn
+C|50031|50|K|Anna-Lena Lindberg|grundskollärare, 50 år, Örnsköldsvik
+C|8518|31|M|Emil Källström|31 år, Riksdagsledamot, Örnsköldsvik
+C|50033|51|K|Lena Lindgren|utredare, 51 år, Björna
+C|50034|29|M|Andreas Jansson|projektingenjör, 29 år, Örnsköldsvik
+C|50035|34|K|Frida Bylund|bonde, 34 år, Myckelgensjö
+C|50036|67|M|Bruno Byström|pensionär, 67 år, Sidensjö
+C|50037|35|K|Margareta Andreasson|handläggare, 35 år, Örnsköldsvik
+C|50038|61|M|Bertil Jonsson|verksamhetschef, 61 år, Örnsköldsvik
+C|50039|49|M|Mats Kjellsson|projektledare, 49 år, Sidensjö
+C|50040|28|K|Marielle Hagström|IT-tekniker, 28 år, Domsjö
+C|50041|68|M|Svante Lundberg|pensionär, 68 år, Örnsköldsvik
+C|50042|46|K|Erika Sjödin|kyrkomusiker, 46 år, Själevad
+C|50043|37|K|Maria Hörnqvist|företagare, 38 år, Arnäsvall
+C|50044|70|K|Liisi Hägglund|företagare/pensionär, 70 år, Järved
+C|50045|41|M|Henrik Hägglund|lantbrukare, 42 år, Gideå
+C|50046|74|K|Gunilla Kallin|pensionär, 74 år, Moliden
+C|50047|19|M|André Eklöf|mångsysslare, 19 år, Domsjö
+C|50048|30|K|Annica Långvall|leg dietist, 30 år, Gullänget
+C|50049|57|M|Jan Sehlin|grundskollärare, 57 år, Örnsköldsvik
+C|50050|29|K|Elvira Häggblad|hemmansägare, 29 år, Djuptjärn
+C|50051|40|M|Matthias Modig|fordonssamordnare, 40 år Örnsköldsvik
+C|50052|56|K|Vivi-Anne Olsson|verksamhetsutvecklare, 56 år, Örnsköldsvik
+C|50053|52|K|Rose-Marie Saellström|undersköterska,53 år, Anundsjö
+C|50054|29|K|Stina Kristoffersson|projektledare, 29 år, Bjästa
+C|50055|57|M|Göran Algotsson|verkstads- och skogsarbetare, 57 år, Anundsjö
+C|50056|70|K|Barbro Olsson|pensionär, 70 år, Örnsköldsvik
+C|50057|46|M|Ulrik Ulander|enhetschef, 46 år, Husum
+C|50058|62|K|Ellinor Källström|pedagog, 62 år, Domsjö
+C|50059|19|M|Elias Zackrisson|studerande, 19 år, Örnsköldsvik
+C|50060|70|K|Kristina Åström|pensionär, 70 år, Gideå
+C|50061|31|K|Louise Byström|egen företagare, 31 år, Sidensjö
+C|432024|65|K|Louise Bergkvist|skogsägare, 65 år, Järved
+C|50063|31|M|Erik Sandin|butikschef, 31 år, Örnsköldsvik
+C|50064|38|M|Marcus Edström|egen företagare, 38 år, Örnsköldsvik
+C|50065|61|K|Kristina Granlöf|miljöingenjör, 61 år, Örnsköldsvik
+C|50066|54|M|Thomas Östman|egen företagare, 54 år, Själevad
+C|50067|30|M|Frank Ståhlberg|utredningsingenjör, 30 år Gullänget
+C|50068|18|M|Nils Wallner|studerande, 18 år, Domsjö
+C|50069|59|M|Roland Wahlberg|datatekniker, 59 år, Örnsköldsvik
+C|515657|74|M|Frank Nilsson|
+C|20907|33|K|Hanna Sydhage|Domsjö
+C|20911|53|M|Lars Eidenvall|Själevad
+C|26037|65|K|Ulla-Britt Sundin|65, Kroksta
+C|20904|50|M|Roland Nordin|Hörnett
+C|26039|52|K|Maria Gulliksson|Järved
+C|20913|66|M|Göran Brorsson|Örnsköldsvik
+C|49732|61|K|Birgitta Sedin|Sidensjö
+C|26042|62|M|Lennart Eriksson|62, Hoppets Stjärna, Kärrsjö
+C|26043|50|K|Eva-Karin Öman|50, Kontorschef, Själevad
+C|26044|48|M|Joseph Daibess|48, Affärsrådgivare, Örnsköldsvik
+C|26045|22|K|Amanda Malmborg|22, Svedjeholmen
+C|20915|51|M|Lars Forssén|Örnsköldsvik
+C|26047|54|K|Maria Berggren|54, Sidensjö
+C|21000|45|K|Maria Borgehammar|Örnsköldsvik
+C|20921|74|M|Curt Eriksson|Själevad
+C|26051|68|K|Gunnel Sedin|68, Grönnäs
+C|315376|54|M|Björn Sidén|54, Örnsköldsvik
+C|26053|72|K|Maude Eriksson|72, Ekonom, Själevad
+C|20917|68|M|Per Sundin|Kroksta
+C|26055|59|K|Marie Jonzon|59, Mentalskötare, Överhörnäs
+C|26056|63|M|Thomas Nordström|63, Ingenjör, Gidböle
+C|26057|50|K|Helena Gulliksson|50, Ekonomiassistent, Varvet
+C|26058|75|M|Uno Sjöberg|75, Storborgarn
+C|26059|54|K|Maria Nordberg|Örnsköldsvik
+C|26060|72|M|Sven-Olof Grönlund|72, Åkeriägare, Österalnäs
+C|26061|59|K|Susanne Ingman|59, Svedjeholmen
+C|20997|67|M|Michal Zakolski|Bredbyn
+C|26063|60|K|Agnetha Nordin|60, Språklärare, Örnsköldsvik
+C|26064|82|M|Erik Klint|82, Husum
+C|21014|74|K|Maude Westman|Domsjö
+C|26066|73|M|Sven-Olof Hellholm|73, Byggnadsingenjör, Järved
+C|21007|73|K|Mona Lundqvist|Örnsköldsvik
+C|26068|59|K|Åsa Sydhage|59, Förskollärare, Ås
+C|26069|54|M|Mats Ingman|54, Svedjeholmen
+C|26070|81|K|Brita Sandin|81, Verksamhetsledare, Örnsköldsvik
+C|26071|80|K|Margit Forssén|80, Komminister emeritus, Örnsköldsvik
+C|26072|73|M|Sten Lundin|73, Sund
+C|207433|47|K|Ulla Carnemyr|
+C|277270|38|M|Magnus Melin|Väktare, 38 år, Själevad
+C|49189|39|K|Erica Markusson|affärsjurist, Örnsköldsvik
+C|277336|63|M|Kurt Enberg|Kyrkoherde, 63 år, Bonäset
+C|277790|70|M|Bror Wallström|Egenföretagare, 70 år, Sillviken
+C|277237|61|K|Iréne Wallström|Egenföretagare, 60 år, Sillviken
+C|277232|34|M|André Strödin|Studerande, 34 år, Vågsnäs
+C|277245|65|K|Lena Jonsson|Lantbrevbärare, 65 år, Örnsköldsvik
+C|277262|63|M|Göran Lundqvist|Socialpedagogisk resurs, 63 år, Örnsköldsvik
+C|277795|31|K|Nathalie Ålstig|Studerande, 31 år, Domsjö
+C|277796|66|M|Göran Norlén|Diakon, 66 år, Örnsköldsvik
+C|277797|74|K|Berit Bengtsdotter|Förskollärare, 74 år, Köpmanholmen
+C|277798|63|K|Ann-Kristin Enberg|Diakon, 63 år, Bonäset
+C|277799|64|M|Anders Vestlin|Byggprojektledare, 63 år, Arnäsvall
+C|277800|82|M|Owe Dahlgren|Sjöingenjör, 82 år, Köpmanholmen
+C|277801|69|K|Åsa Nygren|Socionom, 69 år, Örnsköldsvik
+C|277802|80|M|Carl-Johan Bredberg|Pensionär, 80 år, Örnsköldsvik
+C|277803|74|M|Knut Nordin|Civilekonom, 74 år, Arnäsvall
+C|277804|75|M|Hans Delén|F.d. Kriminalinspektör, 75 år, Örnsköldsvik
+C|277805|62|M|Nils J Lundgren|Präst, 62 år, Örnsköldsvik
+C|277807|37|K|Karin Siwertsson|Präst, 37 år, Örnsköldsvik
+C|277264|89|M|Jöran Lundberg|Pensionär, 89 år, Örnsköldsvik
+C|368884|26|K|Josefin Nilsson|26 år, lokalt språkrör, Örnsköldsvik
+C|368293|45|M|Olof Dahlberg|45, projektledare, Örnsköldsvik
+C|368502|37|K|Marianne Melander|37, läkare, Örnsköldsvik
+C|368887|36|M|Henrik Augustsson|36 år, elmontör, Själevad
+C|368888|29|K|Sara Bjurestam|29 år, gymnasielärare, Arnäsvall
+C|368889|31|M|Torbjörn Vårsaga|31 år, reporter, Nötbolandet
+C|368890|28|K|Erika Hallgren|28 år, biologistuderande, Örnsköldsvik
+C|368891|29|M|Mikael Eklund|29 år, studie- och yrkesvägledare, Arnäsvall
+C|368892|20|K|Ella Östberg|20 år, studerande, Domsjö
+C|368893|31|M|Mattias Höglund|31 år, personlig assistent, Örnsköldsvik
+C|368894|43|K|Sara Edström|43 år, lärare, Arnäsvall
+C|368896|64|M|Per-Gunnar Fahrbring|64 år, arbetsmiljöingenjör, Lugnvik
+C|268579|41|K|Annica Jonsson|Bonässund
+C|240709|26|M|Johannes Nordin|26 år, Automationstekniker, Örnsköldsvik
+C|268581|55|M|Lars Näslund|Stråsundsviken
+C|268582|24|K|Linnéa Berggren|Moliden
+C|268583|48|M|Roger Näslund|Hörnett
+C|21019|41|K|Helena Emanuelsson|Kornsjö
+C|268585|44|M|Patrik Björklund|44 år, Administratör, Örnsköldsvik
+C|268586|74|K|Anita Danielsson|74 år, Pensionär, Örnsköldsvik
+C|268587|72|M|Jarl-Erik Smeds|Kroksta
+C|268588|26|K|Jeanette Karlsson|26 år, Mångsysslare, Örnsköldsvik
+C|268589|45|M|Peter Byström|Överhörnäs
+C|268590|69|K|Maud Gustavsson|Husum
+C|268591|44|M|Anvar Abbulv|Bjästa
+C|268592|23|K|Julia Jäger|Örnsköldsvik
+C|268593|51|M|Willy Meshe Bikumbu|Örnsköldsvik
+C|268594|50|K|Margona Berggren|Österalnö
+C|268595|52|M|Tom Jonsson|Skallören
+C|268596|19|M|Rikard Isaksson|Hörnett
+C|268597|73|K|Doris Hamberg|Husum
+C|268598|60|M|Jean-Baptiste Rubwebwe|Gottne
+C|268599|49|M|Peter Engström|Stråsundsviken
+C|268600|65|K|Monica Nordstrand|Arnäsvall
+C|268601|41|M|Ibrahim Medlej|Högland
+C|275662|43|M|Mathias Westin|43 år, Systemutvecklare, Örnsköldsvik
+C|275680|44|M|Erik Johansson|44 år, Elevassistent, Örnsköldsvik
+C|275668|69|M|Malte Hellström|69 år, Pensionär, Bonässund
+C|277183|68|M|Bo Enquist|68 år, Pensionär, Bonässund
+C|275666|49|M|Ola Johansson|49 år, Verkstadsarbetare, Bjästa
+C|360099|53|M|Patrick Wikner|52, Örnsköldsvik
+C|360093|61|K|Gudrun Ledin|61, Örnsköldsvik
+C|360103|57|M|Tony Alexandersson|57, Örnsköldsvik
+C|360156|74|M|Arne Lindberg|73, Örnsköldsvik
+C|360149|74|M|Gösta Nordberg|73, Örnsköldsvik
+C|361317|50|M|Arne Olsson|50, Bredbyn
+C|360153|76|M|Bo Ekeborg|75, Örnsköldsvik
+C|360142|44|M|Patrik Tegström|43, Örnsköldsvik
+C|111523|58|M|Göran Wåhlstedth|slöjdlärare, Mellansel
+C|111524|57|K|Marie Buhr|vuxenlärare, Örnsköldsvik
+C|111525|38|K|Anna Sjöberg|38 år, processoperatör, Bonässund
+C|111526|65|M|Gunnar Eklöf|särskolelärare, Domsjö
+C|111527|31|K|Baran Hosseini|28 år, studerande, Örnsköldsvik
+C|111528|48|M|Johnny Eriksson|48 år, kock, Örnsköldsvik
+C|111529|65|K|Kerstin Lindgren|65 år, verksamhetsutvecklare, Domsjö
+C|111530|68|M|Gunnar Fors|68 år, fd Af-chef, Domsjö
+C|111531|35|K|Cecilia Wendt|35 år, undersköterska, Gullänget
+C|111532|55|M|Nelson Rivera|55 år, lärarassistent, Örnsköldsvik
+C|111533|57|K|Susann Persson|57 år, kulturarbetare, Bjästa
+C|111534|33|M|Patrik Paulsson|33 år, lärarvikarie, Gene
+C|111535|46|K|Ulrica Ödebygd|46 år, utredare, Bodum
+C|111536|49|M|Hector López Ortega|49 år, undersköterska, Örnsköldsvik
+C|111537|49|K|Anette Sjölund|49 år, kaninuppfödare, Järved
+C|111538|46|M|Staffan Heldner|46 år, griftegårdsarbetare, Örnsköldsvik
+C|111539|41|K|Johanna Thorsson Tyrberg|41 år, taxichaufför, Gullänget
+C|111680|62|M|Anders Ölund|62 år, fd arbetsledare, Skede
+C|111540|25|K|Marielle Buhr|25 år, musiker, Örnsköldsvik
+C|111541|57|M|Kjell Strömstedt|busschaufför, Örnsköldsvik
+C|111542|29|K|Anne-Louise Buhr|29 år, processoperatör, Örnsköldsvik
+C|111543|32|M|Michael Carlsson|32 år, lönekonsulent, Örnsköldsvik
+C|111544|29|K|Angela Nordlander|29 år, studerande, Örnsköldsvik
+C|111545|29|M|Kristoffer Högstedt|29 år, systemingenjör, Örnsköldsvik
+C|111546|60|K|Birgitha Landfors|60 år, undersköterska, Angsta
+C|111547|55|M|Nils-Arne Nordlander|55 år, habiliteringsassistent, Köpmanholmen
+C|111548|41|K|Sara Stockfelt|41 år, branch manager, Kroksta
+C|111549|37|M|Zerisenai Yakob|37 år, vuxenlärare, Örnsköldsvik
+C|111550|55|K|Lena Lundblad|55 år, inredningsarkitekt, Järved
+C|111551|44|M|Anders Nilsson|44 år, teaterlärare, Örnsköldsvik
+C|111552|51|K|Anne-Li Öman|51 år, socionom, Örnsköldsvik
+C|111553|57|M|Abdelrahman Gumaa|57 år, städare, Örnsköldsvik
+C|111554|37|K|Diana Berntsdotter Vallgren|37 år, konstkonsulent, Örnsköldsvik
+C|111555|54|M|Anders Segerstedt|54 år, hallbyggare, Sörflärke

@@ -1,10 +1,236 @@
-2|334664|334669|334983|334663|139672|334986|334672|334988|334989|334990|334991|334671|334993|334994|334678|139671|334666|334998|334999|334661|334680|334667|139663|139675|335005|335006|334662|335008|335009|335010|335011|335012|334670|334677|211119|335016|335017|335018|335019|335020|334676|334679|335023|334681|334682|335026|335027|335028|335029|335030|335031|334674|335033|335034|335035|335036|335037|335038|334683|335040
-4|179764|179754|179751|180525|180526|180527|180528|180529|180530|180531|180532|180533|180534|180535|180536|180537|180538|180539
-532|441358|441360
-471|237061|237062|237063|237064|237065|237066|237067|237068|237069|237070|237071|237072
-68|453463|454624|454636|454637|454629|454639|454640|454641|454642|454643|457862|454645
-3|27770|66560|27774|66561|27789|264917|66557|66904|264920|264921|266328|264922|264923|264924|264925|264926|264927
-55|113366|113361|252009|252010|252011|252012|252013|252014|252015|252016|252017|252018|252019|252020|252021|252022|252023|252024|252025|264192|252026|252027|252028|252029|252030|252031
-1|313432|313433|313434|313435|313436|313437|313438|313439|313440|313441|313442|313443|313444|313445|313446|313447|313448|313449|313450|313451|313452|313453|313454|313455|313456|313457|313458|313459|313460|313461|313462|313463
-110|32855|32856|32857|32858|32859|32860|32861|32862|465374|32864|32865|32866|32868|32869|32870|32871|32872|32873|32874|32867|80366|313455|515608|515609|515610
-5|296879|294487|294490|297738|296893|297740|297741|297742|297743|297744|297745|297746|297747|297748
+T|Karlshamn
+A|2|334664|334669|334983|334663|139672|334986|334672|334988|334989|334990|334991|334671|334993|334994|334678|139671|334666|334998|334999|334661|334680|334667|139675|335005|335006|334662|335008|335009|335010|335011|335012|334670|334677|211119|335016|335017|335018|335019|335020|334676|334679|335023|334681|334682|335026|335027|335028|335029|335030|335031|334674|335033|335034|335035|335036|335037|334683|335040
+A|4|179764|179754|179751|180525|180526|180527|180528|180529|180530|180531|180532|180533|180534|180535|180536|180537|180538|180539
+A|532|441358|441360
+A|471|237061|237062|237063|237064|237065|237066|237067|237068|237069|237070|237071|237072
+A|68|453463|454624|454636|454637|454629|454639|454640|454641|454642|454643|457862|454645
+A|3|27770|66560|27774|66561|27789|264917|66557|66904|264920|264921|266328|264922|264923|264924|264925|264926|264927
+A|55|113366|113361|252009|252010|252011|252012|252013|252014|252015|252016|252017|252018|252019|252020|252021|252022|252023|252024|252025|264192|252026|252027|252028|252029|252030|252031
+A|1|313432|313433|313434|313435|313436|313437|313438|313439|313440|313441|313442|313443|313444|313445|313446|313447|313448|313449|313450|313451|313452|313453|313454|313456|313457|313458|313459|313460|313461|313462|313463
+A|110|32855|32856|32857|32858|32859|32860|32861|32862|465374|32864|32865|32866|32868|32869|32870|32871|32872|32873|32874|32867|80366|313455|515608|515609|515610
+A|5|296879|294487|294490|297738|296893|297740|297741|297742|297743|297744|297745|297746|297747|297748
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|334664|56|M|Per-Ola Mattsson|Karlshamn Industriarbetare 57 år
+C|334669|62|K|Annika Westerlund|Karlshamn Ingenjör 62 år
+C|334983|61|M|Leif Håkansson|Asarum Industrielektriker 61 år
+C|334663|54|K|Marie Sällström|Matvik 54 år
+C|139672|20|M|Xhani Bardhi|Karlshamn Student 20 år
+C|334986|58|K|Ulla Sandgren|Mörrum Undersköterska 58 år
+C|334672|66|M|Jan Bremberg|Asarum Pensionär 66 år
+C|334988|66|K|Monica Nobach|Svängsta Leg. Sjuksköterska 66 år
+C|334989|23|M|Fredrik Nilsson|Asarum Barnskötare 22 år
+C|334990|60|K|Katrin Johansson|Asarum Kundrådgivare 60 år
+C|334991|61|M|Jan-Åke Berg|Karlshamn Fabriksarbetare 60 år
+C|334671|57|K|Susanne Olsson|Asarum Undersköterska 57 år
+C|334993|72|M|Kenneth Hake|Karlshamn Fd Euresadviser 72 år
+C|334994|43|K|Linda Winnetoft|Karlshamn Undersköterska 42 år
+C|334678|66|M|Tommy Persson|Karlshamn Pensionär 65 år
+C|139671|61|K|Lena Sandgren|Karlshamn Förskollärare 59 år
+C|334666|69|M|Anders Karlsson|Svängsta Pensionär 69 år
+C|334998|33|K|Sofie Dahlqvist|Karlshamn Restaurangbiträde 34 år
+C|334999|69|M|Johnny Persson|Karlshamn Pensionär 69 år
+C|334661|63|K|Christel Friskopp|Karlshamn Undersköterska 63 år
+C|334680|56|M|Ulf Gustavsson|Karlshamn Maskintekniker 57 år
+C|334667|62|K|Kerstin Gustafson|Karlshamn 62 år
+C|139675|63|K|Kerstin Linde|Svängsta Verksamhetsledare 63 år
+C|335005|69|M|Göran Svensson|Karlshamn Pensionär 69 år
+C|335006|68|K|Inger Löfblom Sjöberg|Asarum Undersköterska 68 år
+C|334662|36|M|Andreas Saleskog|Karlshamn Restauranglärare 36 år
+C|335008|63|K|Elisabet Rosengren|Karlshamn 63 år
+C|335009|55|M|Patrik Engström|Svängsta Processberedare 55 år
+C|335010|58|K|Anki Hansson|Karlshamn Diakoniassistent 58 år
+C|335011|29|M|Momma Merzi|Karlshamn Projektledare 28 år
+C|335012|67|K|Barbro Olsson|Mörrum Pensionär 67 år
+C|334670|45|M|Magnus Dagmyr|Karlshamn Handledare 45 år
+C|334677|60|K|Siri Näslund|Asarum Leg Sjuksköterska 60 år
+C|211119|41|M|Tobias Folkesson|Trensum Undersköterska 41 år
+C|335016|64|K|Vivianne Andersson|Långehall Försäkringshandl. 63 år
+C|335017|29|M|Ismail Bardhi|Karlshamn Entreprenör 29 år
+C|335018|69|K|Ingrid Hagberg Hake|Karlshamn Fd SYV och Lärare 68 år
+C|335019|56|M|Ulf Månsson|Asarum Processoperatör 56 år
+C|335020|58|K|Ylva Eriksson|Karlshamn Undersköterska 58 år
+C|334676|68|M|Rune Andersson|Karlshamn Pensionär 69 år
+C|334679|59|K|Marie Bengtsson|Mörrum Biomedicinsk analytiker 59 år
+C|335023|64|M|Ingvar Andersson|Karlshamn Industriarbetare 64 år
+C|334681|61|K|Hillevi Carlsson|Asarum Lokalvårdare 60 år
+C|334682|55|M|Robert Sandelin|Karlshamn Processoperatör 55 år
+C|335026|56|K|Marlene Svensson|Karlshamn Fritidsledare 57 år
+C|335027|69|M|Diez Nobach|Svängsta Fd Lärare 68 år
+C|335028|51|K|Ann-Christine Svensson|Mörrum 51 år
+C|335029|59|M|Torgny Lindqvist|Mörrum Vaktmästare 59 år
+C|335030|41|K|Marina Jönsson|Karlshamn 41 år
+C|335031|57|M|Bo Sandgren|Mörrum Montör 57 år
+C|334674|69|M|Roland Olsson|Mörrum Pensionär 70 år
+C|335033|68|M|Leif Gummesson|Mörrum Pensionär 68 år
+C|335034|64|M|Yngve Svensson|Mörrum Pensionär 63 år
+C|335035|73|M|Stig Johansson|Karlshamn Pensionär 73 år
+C|335036|77|M|Bengt-Olof Björck|Mörrum Fd Ombudsman 77 år
+C|335037|77|M|Billy Månsson|Karlshamn Egen företagare 76 år
+C|334683|75|M|Sten Wijkander|Karlshamn Fd Rektor 74 år
+C|335040|75|M|Kenneth Bengtsson|Karlshamn Byggnadssnickare 75 år
+C|179764|54|M|Mats Dahlbom|54 år processtekniker Svängsta
+C|179754|46|M|Marco Gustavsson|46 år företagare Mörrum
+C|179751|67|K|Gertrud Ivarsson|67 år f.d. lantbrukare Åryd
+C|180525|55|M|Ola Persson|55 år lantbrukare Tararp
+C|180526|72|K|Lena Häggblad|72 år pensionär Karlshamn
+C|180527|52|M|Per-Ivar Johansson|52 år styrsystemingenjör Karlshamn
+C|180528|38|K|Sofie Ekenberg|38 år civilekonom Svängsta
+C|180529|57|M|Mats Bondesson|57 år lantbrukare Asarum
+C|180530|54|K|Ankie Boklund|54 år butiksanställd Karlshamn
+C|180531|36|M|Henrik Häggblad|36 år lantbrukare Asarum
+C|180532|26|K|Linnea Persson|26 år markförvaltare Asarum
+C|180533|68|M|Staffan Olsson|68 år pensionär Ringamåla
+C|180534|60|K|Inger Åkesson|60 år undersköterska Hällaryd
+C|180535|46|K|Maria Hjelm Nilsson|46 år egenföretagare Mörrum
+C|180536|41|M|Markus Lindberg|41 år grundskolelärare Karlshamn
+C|180537|64|M|Tomas Nilsson|64 år lantbrukare, entreprenör Kölja
+C|180538|68|K|Else-Britt Persson|68 år sjuksköterska Hultet
+C|180539|49|M|Mats Edvardsson|49 år fritidsledare Ringamåla
+C|441358|59|K|Gudrun Claesson|59 år, teaterpedagog, Asarum
+C|441360|36|K|Sofie Andersson|36 år, företagare, Asarum
+C|237061|66|M|Lars Jeppsson|Mörrum
+C|237062|65|M|Ulf Olsson|Karlshamn
+C|237063|63|M|Leif Niklasson|Asarum
+C|237064|66|M|Per-Gunnar Andersson|Karlshamn
+C|237065|65|M|Rolf Axelsson|Karlshamn
+C|237066|65|M|Lars Gagnesjö|Hällaryd
+C|237067|65|M|Dan Lennartsson|Karlshamn
+C|237068|70|M|Peter Schönström|Karlshamn
+C|237069|37|M|Nils Lindgren|Svängsta
+C|237070|68|M|Jan Johansson|Karlshamn
+C|237071|51|M|Tomas Strömberg|Asarum
+C|237072|72|M|Håkan Lorantz|Karlshamn
+C|453463|67|K|Britt Jämstorp|Karlshamn
+C|454624|65|M|Lars-Olof Larsson|Karlshamn
+C|454636|78|K|Laila Johansson|Karlshamn
+C|454637|79|M|Lennart Ung|Karlshamn
+C|454629|72|K|Aina Runsten|Karlshamn
+C|454639|52|M|Samuel Lindgren|Asarum
+C|454640|62|M|Dan Munther|Karlshamn
+C|454641|64|K|Agnetha Larsson|Asarum
+C|454642|53|M|Alf Nilsson|Asarum
+C|454643|73|M|Gunnar Bylund|Asarum
+C|457862|70|M|Berno Runsten|Mörrum
+C|454645|79|M|Carl-Gunnar Madestam|Karlshamn
+C|27770|65|K|Bodil Frigren-Ericsson|Teknologie doktor 65år Karlshamn
+C|66560|40|M|Emanuel Norén|Verksamhetsutvecklare 41år Karlshamn
+C|27774|41|K|Iman Omairat|Socialpedagog 41år Asarum
+C|66561|61|M|Stefan Sörensson|Säljare 61år Hällaryd
+C|27789|50|M|Mohamed Albuhaisi|Busschaufför 50år Asarum
+C|264917|64|K|Anette Höglund|Kulturintresserad pensionär Vettekulla
+C|66557|71|K|Ros-Marie Strömblad|fd.Chefssjuksköterska vårdutvecklare 71år Karlshamn
+C|66904|65|M|Ulf Elofzon|Chaufför Mörrum
+C|264920|72|K|Kristin Lundberg|fd.Arbetsförmedlare Asarum
+C|264921|75|K|Margareta Norander|Pensionär Karlshamn
+C|266328|80|M|Kjell Thörnqvist|S.H.T Karlshamn
+C|264922|72|M|Kenneth Svanberg|fd.Skolledare Karlshamn
+C|264923|69|K|Inger Wetterlundh-Tholén|Lärare Karlshamn
+C|264924|79|M|Rolf Hansson|fd.Glasmästare Karlshamn
+C|264925|83|M|Rolf Tholén|fd.Kronokommisarie Karlshamn
+C|264926|65|M|Tyrone Svärdh|Revisor Mörrum
+C|264927|63|K|Susanne Öström|fd.Stadsdirektör 64år Karlshamn
+C|113366|36|K|Charlott Lorentzen|Produktionschef, Karlshamn
+C|113361|68|M|Claes Jansson|Bok- & skivhandlare, Karlshamn
+C|252009|30|K|Sofi Wennerberg|Försäkringshandläggare, Svängsta
+C|252010|47|M|Per Atmander|Målaremästare, Karlshamn
+C|252011|44|K|Anna Atmander|Fritidspedagog, Karlshamn
+C|252012|37|M|Ted Olander|Kemist, Karlshamn
+C|252013|24|K|Fadia Aljazar|Sjuksköterskestudent, Karlshamn
+C|252014|65|M|Gunnar Fastén|Transportforskare, Karlshamn
+C|252015|44|K|Johanna Karlsson|Socialsekreterare, Trensum
+C|252016|66|M|Jan Andersson|Skogsarbetare, Ljungsjömåla
+C|252017|29|K|Liz Wennerberg|Juridikstuderande, Karlshamn
+C|252018|59|M|Bengt Jensen|Levnadskonstnär, Karlshamn
+C|252019|70|K|Una Qvarnström|Sjuksköterska, Stilleryd
+C|252020|55|M|Jörgen Kronsell|Civilingenjör, Ämneboda
+C|252021|31|K|Veronica Blåder|Undersköterska, Karlshamn
+C|252022|42|M|Houssam Almassri|Vagabond, Karlshamn
+C|252023|82|K|Ellen Kragh|Pensionär, Karlshamn
+C|252024|56|M|Johan Wolgast|Naturinventerare, Karlshamn
+C|252025|51|K|Liselott Jönsson|Förskollärare, Asarum
+C|264192|71|M|Jorge Guila|Konstnär, Asarum
+C|252026|68|K|Solvig Johansson|Konstnär m.m, Karlshamn
+C|252027|39|M|Kristofer Borvall|IT-tekniker, Karlshamn
+C|252028|64|K|Jasminka Turkanovic|Arbetare, Karlshamn
+C|252029|76|M|Sten Hedlund|Pensionär, Sternö
+C|252030|68|M|Thomas Qvarnström|Läkare, Stilleryd
+C|252031|68|M|Pergunnar Carlson|Kulturaktivist, Elleholm
+C|313432|48|M|Magnus Gärdebring|48, oppositionsråd, Karlshamn
+C|313433|25|K|Elin Petersson|25, grupphandledare, Karlshamn
+C|313434|50|M|Magnus Sandgren|50, egen företagare, Karlshamn
+C|313435|74|K|Iréne Ahlstrand Mårlind|74, leg sjuksköterska, Karlshamn
+C|313436|48|M|Magnus Arvidsson|48, administratör, Åryd
+C|313437|51|K|Catarina Flod|51, säljare energi, Karlshamn
+C|313438|72|M|Lars Hasselgren|72, konsult, Karlshamn
+C|313439|46|K|Charlotta M Sjöqvist|46, undersköterska, Karlshamn
+C|313440|27|M|Artur Hulu|27, politisk tjänsteman, Karlshamn
+C|313441|67|M|Ulf Ohlsson|67, pensionär, Torarp
+C|313442|47|K|Anna Arlid|47, rehabinstruktör, Karlshamn
+C|313443|51|M|Rickard Holmberg|51, fastighetsförvaltare, Karlshamn
+C|313444|77|K|Ulla Olofsson|77, ajdunkt, Svängsta
+C|313445|46|M|Mats Olausson|46, jägmästare, Asarum
+C|313446|20|M|Herman Falk|20, studerande, Karlshamn
+C|313447|70|K|Britt Kilsäter|70, kostekonom, Karlshamn
+C|313448|48|M|Magnus Olsson|48, eltekniker, Karlshamn
+C|313449|58|M|Per Erlandsson|58, teknisk doktor, Karlshamn
+C|313450|78|K|Cecilia Holmberg|78, pensionär, Karlshamn
+C|313451|20|M|Julius Svensson|20, studerande, Karlshamn
+C|313452|54|M|Stefan Nilsson|54, försäljare , Asarum
+C|313453|41|M|Andreas Green|41, butikschef, Åryd
+C|313454|36|K|Ida Lindgren|36, socionom, Asarum
+C|313456|21|M|Carl Samuelsson|21, politisk tjänsteman, Asarum
+C|313457|59|M|Olle Hallstedt|59, egen företagare, Karlshamn
+C|313458|44|K|Sara Helgefalk|44, konstnär, Karlshamn
+C|313459|39|K|Johanna Ekberg|39, sjuksköterska, Asarum
+C|313460|47|M|Michael Andersson|47, mediasäljare, Svängsta
+C|313461|45|M|Joakim Ekevald|45, driftschef, Karlshamn
+C|313462|56|M|Robert Elmstedt|56, tulltjänsteman, Karlshamn
+C|313463|58|K|Carin Erlandsson|58, ombudsman, Karlsham
+C|32855|39|M|Björn Tenland Nurhadi|Civilingenjör, 38 år
+C|32856|75|K|Gudrun Johansson|affärsbiträde, 75 år
+C|32857|75|K|Mona Wettergren|assistent, 75 år
+C|32858|58|M|Görgen Lennarthsson|verktygsmakare, 58 år
+C|32859|72|M|Tor Billing|räddningsledare, 72 år
+C|32860|67|K|Ulrika Berggren|Byggnadsingenjör, 67 år
+C|32861|72|M|Ulf Lind|byggnadsarbetare, 71 år
+C|32862|66|M|Tommy Mikkelsen|metallarbetare, 67 år
+C|465374|69|M|Thor Ströberg|ekonom, 69 år
+C|32864|37|M|Jonas Lingvärn|chaufför, 37 år
+C|32865|54|K|Margaretha Lennarthsson|Pedagog, Karlshamn
+C|32866|41|M|Håkan Abramsson|Anläggare, Karlshamn
+C|32868|64|M|Dan Andersson|vaktmästare, 64 år
+C|32869|52|K|Britt Karlsson|Socialpedagog, 52 år
+C|32870|53|M|Lars Olsson|Driftsmaskinist, 53 år
+C|32871|73|K|Maj Johansson|Pedagog, 72 år
+C|32872|51|K|Anna Wihlstrand|barchef, 51 år
+C|32873|68|M|Peter Berggren|byggnadsarbetare, 68 år
+C|32874|66|M|Kjell Eklund|hotellägare, 66 år
+C|32867|36|K|Lisiana Nurhadi|
+C|80366|48|M|Bo Eloff|48, ekonom, Ekängen
+C|313455|66|M|Lars Pröjtz|
+C|515608|34|K|Emma Eriksson|
+C|515609|23|M|Alexander Karlsson|
+C|515610|58|M|Tommy Strannemalm|
+C|296879|66|M|Tommy Larsson|Byggnadsarbetare, Asarum
+C|294487|46|K|Lena Johansson|Kulturarbetare,Asarum
+C|294490|60|M|Tony Viberg|Gymnasielärare,Karlshamn
+C|297738|31|K|Veronika Hertelendy|30 år, Kundtjänstmedarbetare, Asarum
+C|296893|50|M|Tonnie Philipsson|Biomedicinsk analytiker, Asarum
+C|297740|70|K|Eva Alvhill|Pensionerad områdeschef äldreomsorg, Hällaryd
+C|297741|58|M|Jan-Olof Blom|57 år, Ingenjör, Karlshamn
+C|297742|63|K|Ingrid Ericsson|Distriktssköterska, Hällaryd
+C|297743|56|M|Olle Gillberg|Företagare, Mörrum
+C|297744|33|K|Helena Olofsson|33år, Biomedicinsk analytiker, Asarum
+C|297745|27|M|Simon Håkansson|Fritidsledare, Karlshamn
+C|297746|80|K|Karin Johansson|Pensionerad lärare, Karlshamn
+C|297747|56|K|Helen Hallberg|Förtidspensionär, Karlshamn
+C|297748|33|K|Johanna Gillberg|33 år, Serviceassistent, Mörrum

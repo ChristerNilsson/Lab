@@ -1,7 +1,124 @@
-2|36247|36248|36249|36250|36251|36252|36253|36254|36255|36256|36257|36258|36259|36260|36261|36262|36263|36264|36265|36266|36267|36268|36269|36270|36271|36272|36273
-4|3206|3239|26656|26657|26658|26659|26660|26661|26662|26663|26664|26665|26666|26667|26668|26669|26670|26671|26672|26673|26674|26675|26676|26677|26678
-68|274514|274515|274516|274517|274518|274519|274520|274521|274522|274523|274524|274525
-3|18046|18047|18048|18049|18050|18051|18052|18053|18054|18055|18056|18057
-1|256610|256611|256612|254360|254328|254371|256616|254372|256618|256619|256620|256621|254000|256623|256624|256625|256626|256627|256628|256629
-110|126694|127528|127529|126714|247003|127530|512206|511728|511729|515549|515551
-5|499262|499263
+T|Hjo
+A|2|36247|36248|36249|36250|36251|36252|36253|36254|36255|36256|36257|36258|36259|36260|36261|36262|36263|36264|36265|36266|36267|36268|36269|36270|36271|36272|36273
+A|4|3206|3239|26656|26657|26658|26659|26660|26661|26662|26663|26664|26665|26666|26667|26668|26669|26670|26671|26672|26673|26674|26675|26676|26677|26678
+A|68|274514|274515|274516|274517|274518|274519|274520|274521|274522|274523|274524|274525
+A|3|18046|18047|18048|18049|18050|18051|18052|18053|18054|18055|18056|18057
+A|1|256610|256611|256612|254360|254328|254371|256616|254372|256618|256619|256620|256621|254000|256623|256624|256625|256626|256627|256628|256629
+A|110|126694|127528|127529|126714|247003|127530|512206|511728|511729|515549|515551
+A|5|499262|499263
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|36247|59|M|Pierre Robert Rydén|59 år, Hjo
+C|36248|64|K|Bodil Hedin|Undersköterska
+C|36249|48|M|Jörgen Fransson|48 år, Hjo
+C|36250|61|K|Merja Wester|Behandlingspedagog
+C|36251|67|M|Kjell-Arne Green|Pensionär
+C|36252|34|K|Sandra Lind|Undersköterska
+C|36253|44|M|Anders Karlsson|Industriarbetare
+C|36254|30|K|Fowziya Abdelmoniem Abbas|Undersköterska
+C|36255|59|M|Lars-Göran Svensson|Industriarbetare
+C|36256|65|K|Birgitta Wester|Pensionär
+C|36257|42|M|Fredrik Bellino|Kriminalvårdare
+C|36258|52|K|Annika Sjöhem|Industriarbetare
+C|36259|28|M|Michael Wennerberg|Charkuterist
+C|36260|57|K|Marie Lindberg|57 år, Hjo
+C|36261|86|M|Osvald Lundqvist|Pensionär
+C|36262|34|K|Ottila Stormvinter|Banktjänsteman
+C|36263|50|M|Christer Liljedahl|Militär
+C|36264|26|K|Elina Engqvist|Ytbehandlare
+C|36265|71|M|Claes Hagström|Pensionär
+C|36266|42|K|Camilla Ljungqvist|Undersköterska
+C|36267|60|K|Carina Pettersson|Förskolechef
+C|36268|80|M|Bertil Mellberg|Pensionär
+C|36269|41|K|Jenny Sirén|Industriarbetare
+C|36270|79|K|Maj-Britt Axén|Pensionär
+C|36271|77|K|Doris Lehtipalo|Pensionär
+C|36272|57|K|Ing-Marie Elander|Ekonomibiträde
+C|36273|75|M|Kjell Aldsten|Pensionär
+C|3206|48|K|Britt-Marie Sjöberg|Företagare,Hjo, 48 år
+C|3239|64|K|Linnéa Hultmark|Arbetsförmedlare, Hjo, 64 år
+C|26656|60|K|Berit Henriksson|Personlig assistent/lantbrukare
+C|26657|58|M|Per-Erik Sondell|Lantarbetare
+C|26658|70|M|Martin Tjernberg|Pensionär
+C|26659|59|M|Torgny Andersson|Lanbrukare
+C|26660|30|M|Oskar Ekström|Lantbrukare
+C|26661|37|M|Lars-Erik Sondell|Lantbrukare/Klövvårdare
+C|26662|18|M|Simon Andersson|Studerande
+C|26663|39|K|Klara de Boer|Civilekonom
+C|26664|39|M|Simon Ivarsson|Mjölkbonde
+C|26665|62|M|Ingemar Fransson|Säljare
+C|26666|38|M|David Ström|IT forensiker
+C|26667|23|K|Jenny Sondell|Tidningsbud
+C|26668|43|M|Johan Thörner|Civilekonom/CFO
+C|26669|52|K|Marie Nord|Verkställande direktör
+C|26670|65|M|Rune Norlberger|Parkarbetare
+C|26671|63|K|Ann Ekström|Lantbrukare
+C|26672|72|K|Karin Sthål|Pensionär
+C|26673|32|K|Frida Ekström|Lantbrukare/Avbytare
+C|26674|32|M|Mikael Bertilsson|Säkerhetschef
+C|26675|49|M|Asem Aljundi|Civilekonom
+C|26676|40|K|Birgitta Lago Tunheden|Personlig assistent/Sjuksköterska
+C|26677|64|K|Christina Gustafsson|Pensionär
+C|26678|53|M|Mats Johansson|Naturläkare SNLF
+C|274514|56|M|Michael Kihlström|55, Politisk sekreterare, Hjo
+C|274515|63|K|Eva-Lott Gram|63, Barnmorska, Hjo
+C|274516|60|M|Carl-Erik Lindblad|Väktare
+C|274517|39|M|David Olsson|IT-chef
+C|274518|68|M|Rutger Gram|Fd regionutvecklare
+C|274519|57|K|Eva Kihlström|Kommunikationsvetare
+C|274520|69|M|Kjell Olsson|Pensionär
+C|274521|65|M|Robert Holst|CNC-operatör
+C|274522|53|K|Ulrica Lindström|Personlig assistent
+C|274523|65|K|Marita Holst-Fogelström|Bokhandlare
+C|274524|45|M|Tomas Karlsson|Personlig assistent
+C|274525|41|K|Marie Knutsson|Sjuksköterska
+C|18046|48|M|Petter Jönsson|48 Hjo
+C|18047|64|M|Björn Bröne|64, Hjo
+C|18048|64|K|Hillevi Blom|Dramapedagog
+C|18049|64|M|Bengt-Eric Lindh|Skötare
+C|18050|66|M|Rolf Birgerson|Sjökapten
+C|18051|61|K|Marita Johansson|Enhetschef
+C|18052|47|M|Seved Gericke|Lärare
+C|18053|68|M|Krister Stenestam|Egenföretagare
+C|18054|74|M|Christer Jannerstedt|Egenföretagare
+C|18055|76|M|Leif Lundgren|Kriminaltekniker
+C|18056|84|M|Sixten Carlsson|Egenföretagare
+C|18057|72|M|Roland Froh|Egenföretagare
+C|256610|55|K|Catrin Hulmarker|Kommunalråd
+C|256611|64|M|Knut Indebetou|Lantbrukare
+C|256612|47|K|Ann-Christine Fredriksson|Ekonomiadministratör
+C|254360|59|K|Eva Forsberg Torstensson|59, Lönekamrer, Hjo
+C|254328|67|M|Lars Glad|67, Konsult, Hjo
+C|254371|71|M|Christer Klang|71, Pensionär, Hjo
+C|256616|79|M|Richard Bengtsson|Civilekonom
+C|254372|60|K|Kerstin Strandberg|60, Administratör, Hjo
+C|256618|76|M|Anders Beckman|Företagare
+C|256619|59|K|Anette Klang|Undersköterska
+C|256620|48|K|Siba Nasser|Handläggare
+C|256621|54|M|Björn Fredeby|Företagare
+C|254000|75|M|Hugo Mellander|75, Prof/PhD/VD, Hjo
+C|256623|41|K|Malin Carlbom|Utbildningskonsult
+C|256624|58|K|Elisabeth Samuelsson|Frisör
+C|256625|64|M|Jan Hultkrantz|IT-konsult
+C|256626|74|K|Anita Bergman|Diakon
+C|256627|70|K|Lena Larsson|Distriktssköterska
+C|256628|67|K|Alla Johansson|Lantbrukare
+C|256629|42|K|Reem Hourieh|Studerande
+C|126694|69|M|Hasse Nörgaard|69, Småföretagare, Hjo
+C|127528|61|M|Thomas Karlsson|Ledsagare, 61
+C|127529|74|M|Egon Kornell|Ingenjör, 74
+C|126714|46|K|Lotta Haller|46, Vårdbiträde, HJO
+C|247003|54|K|Lornalyn Karlsson|Ekonom, 54
+C|127530|72|K|Elena Bjärkvall|Pensionär, 72
+C|512206|74|M|Lennart Larsson|pensionär, 74
+C|511728|77|M|Göran Lindér|pensionär, 77
+C|511729|65|K|Kristina Karlsson|pensionär, 65
+C|515549|54|K|Christina Sandahl|
+C|515551|25|M|Erik Davidsson|
+C|499262|28|K|Malin Eriksson|29 år, Socionom, Hjo
+C|499263|49|M|Johan Eriksson|49 år, Socionom, Hjo

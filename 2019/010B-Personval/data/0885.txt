@@ -1,11 +1,213 @@
-2|9637|164906|9635|164908|164909|9640|164911|164912|164913|164914|164915|164916|164917|164918|164919|164921|164922|164923|9642|164925|9633|164927|9643|164929|164930|9644|164932|164933|164934|164935|164936|164937|164938|164939|164940|164941|164942|164943|164944|164945|164946|164947|164948|164949|164950
-4|294851|294852|294853|294854|294855|294856|294857|294858|294859|294860|294861|294862|294863|294864|294865|294866|294867|294868|294869|294870|294871|294872
-1142|86233|86234|86235|86236|87036|87037|87038|87039|87040|87041|87042|87043|87044|87045|87046|87047|87048|87049|87050|87051|87597|87598|87599|87600|87601
-68|37725|30444|290002|37723|290004|37727|195051|37729|195052|37726|37728|195054|290012|290013|195055|37730
-1140|480123
-3|322241|230915|230919|230918|230916|322246|322247|322248
-55|515100|514972|515102|515103|515104|515374
-1|160675|160676|158896|160678|160679|160603|160681|160682|160683|160684|160685|160686|160583|160688|160689|160690|160691|160692|160693|160694|160695|160696|160697|160698|160699|160700|160701
-110|61155|61156|61157|61158|61159|61160|61161|61162|65832|170286
-5|333349|333350|333351|333352|333353|333354|333355|333356|333357|333358|333359|333360|333361|333362|333363
-336|412664|412665|412666|412667|412668|412669|412670|412671|412672|412673|412674|412675|412676|412677|412678|412679
+T|Borgholm
+A|2|9637|164906|9635|164908|164909|9640|164911|164912|164913|164914|164915|164916|164917|164918|164919|164921|164922|164923|9642|164925|9633|164927|9643|164929|164930|9644|164932|164933|164934|164935|164936|164937|164938|164939|164940|164941|164942|164943|164944|164945|164946|164947|164948|164949|164950
+A|4|294851|294852|294853|294854|294855|294856|294857|294858|294859|294860|294861|294862|294863|294864|294865|294866|294867|294868|294869|294870|294871|294872
+A|1142|86233|86234|86235|86236|87036|87037|87038|87039|87040|87041|87042|87043|87044|87045|87046|87047|87048|87049|87050|87051|87597|87598|87599|87600|87601
+A|68|37725|30444|290002|37723|290004|37727|195051|37729|195052|37726|37728|195054|290012|290013|195055|37730
+A|1140|480123
+A|3|322241|230915|230919|230918|230916|322246|322247|322248
+A|55|515100|514972|515102|515103|515104|515374
+A|1|160675|160676|158896|160678|160679|160603|160681|160682|160683|160684|160685|160686|160583|160688|160689|160690|160691|160692|160693|160694|160695|160696|160697|160698|160699|160700|160701
+A|110|61155|61156|61157|61158|61159|61161|61162|65832|170286
+A|5|333349|333350|333351|333352|333353|333354|333355|333356|333357|333358|333359|333360|333361|333362|333363
+A|336|412664|412665|412666|412667|412668|412669|412670|412671|412672|412673|412674|412675|412676|412677|412678|412679
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1142|FÖL|Framtid Öland
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|336|Öland|Ölandspartiet
+C|9637|51|M|Ilko Corkovic|civilekonom, Borgholm, 51 år
+C|164906|58|K|Eva-Lena Israelsson|Köpingsvik,57 år
+C|9635|58|M|Magnus Ståhl|Borgholm, 58 år
+C|164908|42|K|Jeanette Sandström|Rälla,42 år
+C|164909|53|M|Jan-Olof Forslund|Köpingsvik,53 år
+C|9640|53|K|Cecilia Ahlström|omsorgsassistent, Löttorp,  53 år
+C|164911|39|M|Joel Schäfer|Tjusby,39 år
+C|164912|56|K|Nina Anderson-Junkka|Borgholm,56 år
+C|164913|64|M|Lars Ljung|Köpingsvik,64 år
+C|164914|38|K|Jennie Engstrand|Tjusby,39 år
+C|164915|42|M|Andreas Persson|Stora Rör,42 år
+C|164916|64|K|Iréne Persson|Borgholm,64 år
+C|164917|74|M|Kennert Georgsson|Rälla,74 år
+C|164918|49|K|Marie-Helen Ståhl|Borgholm,50 år
+C|164919|43|M|Mattias Krusell|Borgholm,43 år
+C|164921|62|M|Mikael Palmqvist|Borgholm,63 år
+C|164922|46|K|Gia Thörnqvist|Borgholm,46 år
+C|164923|76|M|Sune Axelsson|Köpingsvik,76 år
+C|9642|48|K|Valentina Corkovic|undersköterska, Borgholm, 48 år
+C|164925|64|M|Lars-Erik Ahlström|Mellböda,64 år
+C|9633|53|K|Gunilla Johansson|ombudsman, Runsten, 53 år
+C|164927|65|M|Rolf Persson|Borgholm,65 år
+C|9643|44|K|Linda Sagemark|undersköterska, Borgholm, 44 år
+C|164929|73|M|Birger Palm|Östra Sörby,73 år
+C|164930|68|K|Anna Bladås|Köpingsvik,69 år
+C|9644|63|M|Leif Gerhardsson|projektledare, Byxelkrok, 63 år
+C|164932|47|K|Lotta Öhrsvik Gibson|Borgholm,48 år
+C|164933|48|M|Torbjörn Jerlerup|Borgholm,48 år
+C|164934|73|K|Linnéa Jonzon|Löttorp,74 år
+C|164935|51|M|Jörgen Fohlin|Byrum,51 år
+C|164936|81|K|Ing-Britt "Lotta" Nilsson|Böda,81 år
+C|164937|75|M|Stig Augustsson|Borgholm,75 år
+C|164938|66|K|Marguerite Augustsson|Borgholm,66 år
+C|164939|73|M|Gunnar Wiklund|Löttorp,74 år
+C|164940|77|K|Inger Sundbom|Persnäs,77 år
+C|164941|72|M|Ulf Norlin|Borgholm,72 år
+C|164942|49|K|Veronika Fredlund|Köpingsvik,49 år
+C|164943|41|M|Jacob Jonsson|Alböke,41 år
+C|164944|73|K|Eva Flyckt|Borgholm,73 år
+C|164945|64|M|Bo Svantesson|Alböke,65 år
+C|164946|70|M|Lars-Göran Andersson|Borgholm,71 år
+C|164947|56|M|Pelle Nyborg|Spjuterum,56 år
+C|164948|48|M|Thomas Wahlqvist|Borgholm,48 år
+C|164949|75|M|Anders Johnsson|Borgholm,75 år
+C|164950|68|M|Lars Winnefors|Stora Rör,69 år
+C|294851|62|M|Staffan Larsson|63 år, marknadschef, Byxelkrok
+C|294852|53|M|Tomas Zander|53 år, lantbrukare, Södra Bäck
+C|294853|57|K|Eva Wahlgren|57 år, personlig assistent, Löttorp
+C|294854|39|M|Daniel Nilsson|38 år, lantbrukare, Köpingsvik
+C|294855|43|K|Ulrika Lindh|43 år, undersköterska, Åkerby
+C|294856|28|K|Emma Jensen|28 år, företagare, Åkerby
+C|294857|31|M|Axel Andersson|30 år, agronom, Greby
+C|294858|65|M|Stig Bertilsson|65 år, lantbrukare, Alböke
+C|294859|58|M|Peder Svensson|58 år, elingenjör, Runsten
+C|294860|49|K|Sofie Jakobsson|49 år, företagare, Löttorp
+C|294861|71|K|Sibylla Axelsson|71 år, pensionär Löttorp
+C|294862|42|K|Sofie Svensson|42 år, lantbrukare, Melösa
+C|294863|61|M|Mats Karlsson|61 år, lantbrukare, Nyby
+C|294864|72|M|Lennart Olsson|72 år, fd bagare, Borgholm
+C|294865|29|M|Albin Olsson|29 år, ekonom, Egby
+C|294866|45|K|Johanna Nilsson|45 år, lärare, Köpingsvik
+C|294867|61|M|Tore Jonsson|61 år, fiskare, Böda
+C|294868|53|M|Leif Johansson|53 år, lantbrukare, Lerkaka
+C|294869|47|M|Mikael Larsson|46 år, driftchef, Borgholm
+C|294870|30|M|Bashir Abou-Althahab|30 år, ingenjör, Borgholm
+C|294871|60|M|Benny Wenneberg|60 år, förvaltningschef, Borgholm
+C|294872|68|M|Håkan Olofsson|68 år, lantbrukare, Räpplinge
+C|86233|71|M|Torbjörn Johansson|71 år, Pensionär, Byxelkrok
+C|86234|56|K|Annette Hemlin|56 år, Art Director/företagare, Sandby
+C|86235|53|M|Tomas Lind|53 år, Redovisningskonsult, Södvik
+C|86236|44|K|Sofie Loirendal|44 år, Kommunikationsstrateg/företagare, Byrum
+C|87036|72|M|Lennart Bohlin|72 år, Byggnadsingenjör, Enerum
+C|87037|59|K|Jeanette Thygesen|59 år, Administratör/företagare, Byxelkrok
+C|87038|47|M|Mattias Carlsson|47 år, ICA-handlare, Källa
+C|87039|31|K|Maria Steen|31 år, Leg.Äldresjuksköterska, Böda
+C|87040|52|M|Mats Olsson|52 år, ICA-handlare, Böda
+C|87041|67|K|Marita Krüger Que|67 år, Pensionär, Löttorp
+C|87042|63|M|Bengt Jonsson|63 år, Ingenjör, Böda
+C|87043|33|K|Diana Angelin|32 år, Undersköterska, Ytterby
+C|87044|60|M|Petter Skoglund|60 år, Företagare, Köpingsvik
+C|87045|33|K|Malin Johansson|33 år, Butiksbiträde/idrottsledare, Löttorp
+C|87046|43|M|Freddie Sandström|43 år, Lärare, Byxelkrok
+C|87047|33|K|Åsa Moberg|33 år, Lärare, Löttorp
+C|87048|61|M|Zissios Reizopoulos|61 år, Geolog/företagare, Byxelkrok
+C|87049|37|M|Jonas Nilsson|36 år, Egen företagare, Löttorp
+C|87050|49|M|Torbjörn Gustavsson|49 år, Kreatör, Hörlösa
+C|87051|63|M|Stefan Bergman|62 år, Säljare/företagare, Löttorp
+C|87597|51|M|Björn Silverstrand|51 år, Företagare, Långerum
+C|87598|34|K|Helena Begeland|34 år, Företagare, Byxelkrok
+C|87599|28|M|Björn Fjellström|28 år, ICA-handlare, Hörlösa
+C|87600|52|M|Frank Thygesen|52 år, Företagare, Böda
+C|87601|24|M|Simon Lind|24 år, Studerande, Södvik
+C|37725|64|M|Marwin Johansson|skolledare, Sjölunden
+C|30444|77|M|Arne Sjögren|mångfalds- och klimatkämpe, Byxelkrok
+C|290002|72|M|Karl-Gustav Stegemark|egen företagare, Borgholm
+C|37723|31|M|Erik Rippe|bussförare, Målartorp
+C|290004|37|K|Kristina Pärnering Nahlman|lärare, Borgholm
+C|37727|47|M|Eroll Morina|företagare, Böda
+C|195051|21|M|Jonathan Carl Ekman|Rälla
+C|37729|79|K|Gurlie Frisk|senior, Borgolm
+C|195052|75|M|Ingvar Andersson|folkhögskollärare/pensionär, Långlöt
+C|37726|61|K|Gunilla Sundström|diakon, Stenninge
+C|37728|70|M|Mauritz Adolfsson|senior, Byxelkrok
+C|195054|48|K|Helena Ekman|tandsköterska, Rälla
+C|290012|66|M|Lennart Hanneberg|Löttorp
+C|290013|66|M|Göran Rudolfsson|Köpingsvik
+C|195055|62|K|Annette Gren-Johansson|anhörigkonsulent, Sjölunden
+C|37730|82|M|Åke M Nilsson|senior, Persnäs
+C|480123|58|M|Mikael Almkvist|företagare, 58, Löttorp, Öland
+C|322241|63|K|Ann-Margret Lindholm|Landsbygdsfrågor, integration, Byxelkrok
+C|230915|68|M|Thomas Karlsson|68 år, ekonom, Borgholm
+C|230919|52|M|Tommy Lindström|EU-projektledare, Borgholm
+C|230918|69|M|Mats Axelsson|Universitetsadjunkt, Borgholm
+C|230916|72|K|Birgitta Arnesson|Fil.kand ,Böda
+C|322246|74|M|Jerker Brandelius|Fil.kand, Borgholm
+C|322247|71|M|Karl Bern|Dipl. företagsekonom, Borgholm
+C|322248|78|M|Håkan Herne|Tandläkare, Borgholm
+C|515100|31|M|Marcus Bergenheim|Lärarstudent, Borgholm
+C|514972|51|K|Marie Johansson|Projektledare klimatanpassning, Åketorp
+C|515102|64|M|Bertil Lundgren|Agronom/Miljövetare, Borgholm
+C|515103|37|K|Hillevi Thorsell|Butiksinnehavare, Föra
+C|515104|63|K|Elisabet Hall|Konstnär, Löttorp
+C|515374|64|K|Eva Marie-Louise Hall|
+C|160675|64|M|Carl Malgerud|Ekonom, Borgholm
+C|160676|52|M|Marcel van Luijn|Företagare, Köpingsvik
+C|158896|35|K|Anna Victor Hiort|35 år, Lärare, Borgholm
+C|160678|57|M|Erland Augustinsson|Lantmästare, Köpingsvik
+C|160679|60|K|Lenamarie Wikström|Lärare, Stora Rör
+C|160603|66|M|Anders Nyholm|66 år, Ekonom, Borgholm
+C|160681|51|K|Charlotte Håkansson van Luijn|Undersköterska, Köpingsvik
+C|160682|56|M|Björn Andreen|Egen företagare, Salomonstorp
+C|160683|52|K|Kristina Linåker|Bankrådgivare, Borgholm
+C|160684|70|M|Jörgen Jannerstrand|F.d. inspektör, Borgholm
+C|160685|76|M|Jan Erici|Lantbrukare, Långlöt
+C|160686|71|M|Göran Björstad|Ekonom, Byxelkrok
+C|160583|70|M|Eddie Forsman|70 år, Företagare, Borgholm
+C|160688|65|M|Rolf-Arne Hellström|Egen företagare, Borgholm
+C|160689|45|M|Torbjörn Nilsson|Lantbrukare, Källa
+C|160690|18|K|Märta Hermansson|Studerande, Borgholm
+C|160691|18|M|Oskar Pile|Studerande, Köpingsvik
+C|160692|22|M|Jacob Augustinsson|Traktorförare, Köpingsvik
+C|160693|58|K|Jeanette Mileson Edström|Egen företagare, Borgholm
+C|160694|68|M|Mats Bengtsson|Krögare, Byxelkrok
+C|160695|81|K|Anita Bråkenhielm|Pensionär, Köpingsvik
+C|160696|59|K|Anette Andreen|Barnskötare, Salomonstorp
+C|160697|56|M|Mikael Borgström|Butikssäljare, Köpingsvik
+C|160698|73|M|Lennart Aldestam|Ingenjör, Borgholm
+C|160699|61|K|Kicki Håkansson|Borgholm
+C|160700|73|M|Örjan Silfverling|Pensionär, Borgholm
+C|160701|43|M|Björn Engström|Industriarbetare, Rälla
+C|61155|71|K|Anne Oskarsson|Civilingenjör, Mörbylånga
+C|61156|66|M|Lars Lindqvist|produktionschef, Borgholm
+C|61157|73|M|Bert Carlsson|sjökapten/egenföretagare, Borgholm
+C|61158|38|M|Erik Arvidsson|livsmedelsarbetare, Borgholm
+C|61159|29|K|Ida Brushane|tågvärdinna, Borgholm
+C|61161|50|M|Tomas Ekstrand|ordningsvakt, Östra Sörby
+C|61162|34|M|Andreas Knutsen|chaufför, Borgholm
+C|65832|48|K|Liselott Hovdegård|egenföretagare, Bredsättra
+C|170286|67|M|Kjell-Ivar Karlsson|chaufför, Borgholm
+C|333349|30|K|Sara Kånåhols|Borgholm, Egenföretagare
+C|333350|31|M|Abdulla Zueiter|Borgholm
+C|333351|56|M|Martin Ottosson|Borgholm
+C|333352|74|M|Lars-Erik Larsson|Borgholm
+C|333353|69|K|Birgitta Krus|Borgholm
+C|333354|64|M|Stefan Wiberg|Rälla
+C|333355|66|K|Eva Sigfridsson|Borgholm
+C|333356|48|M|Mohamed Mousa|Borgholm
+C|333357|78|M|Ulf Lafveskans|Borgholm
+C|333358|59|K|Kerstin Bjellert|Knisa
+C|333359|71|M|Jan Andersson|Borgholm
+C|333360|79|M|Sam Pettersson|Österskogen
+C|333361|72|K|Inga Björklund|Lilla Horn
+C|333362|72|K|Kerstin Lidström|Stacketorp
+C|333363|79|M|Ingvar Svensson|Lundeby
+C|412664|73|M|Per Lublin|Borgholm
+C|412665|72|M|Roland Wickholm|Gärdslösa
+C|412666|40|M|Karl Löfberg|Rälla tall
+C|412667|66|K|Cajsa-Carin Löfberg|Borgholm
+C|412668|65|M|Torild Petersson|Borgholm och Stacketorp
+C|412669|59|M|Robin Lissenberg|Rälla tall
+C|412670|29|K|Johanna Löfberg Sohlström|Rälla tall
+C|412671|69|K|Birgitta Rydell|Köpingsvik
+C|412672|48|M|Fredrik Andersson|Borgholm
+C|412673|69|K|Ingrid Stark|Köpingsvik
+C|412674|71|M|Mats Dahlberg|Köpingsvik
+C|412675|64|M|Per Einarsson|Grankullavik
+C|412676|77|M|Harald Finder|Borgholm
+C|412677|61|M|Kaj Jönsson|Borgholm
+C|412678|72|K|Lena Herén|Rälla
+C|412679|66|K|Eva Finder|Borgholm

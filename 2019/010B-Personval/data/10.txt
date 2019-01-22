@@ -1,11 +1,396 @@
-2|188788|188789|188790|188791|139660|188793|139670|188795|188796|188797|188798|188799|188800|188801|188802|188803|188804|188805|188806|341310|276762|276761|341459|341209|276990|139673|278816|341464|278336|341466|278322|341468|278321|341470|276993|341472|278337|341763|278344|341765|139669|139666|278320|341769|278333|341771|295805|295806|295807|295808|295809|295810|295811|296119|296120|296121|139667|296123|296124|296125|296126|296127|296128|296129|306463|296130|296131|139662|298589|296133|314023|310706|367419|310708|334661|334662|334663|334664|139671|334666|334667|139663|334669|334670|334671|334672|334673|334674|139658|334676|334677|334678|334679|334680|334681|334682|334683
-4|179765|180527|194333|180526|190816|196129|194327|196131|196132|180528|194324|180525|190818|190815|194322|190820|190822|180538|179761|196144|190835|180536|194336|190829|190826|192464|192466|179763|192476|192468|192473|197711|192470|192475|192480|192477|192478|179760|197718|192481|179770|8553|208191|208192|208193|179759|179762|208196|208197|179766|179757|208200|208201|208202|208203|208204|179755|208206|208208|208209|208210|208211
-532|354499|441357|441358|441359|441360|354500|440205
-68|454627|454631|453466|454625|456202|454734|456204|456205|453464|454637|454630|454636|454626|454773|454624|453462|454640|454628|454721|454632
-1011|190006
-3|27686|27715|27713|27611|27612|27607|27606|66631|27691|27687|27610|27724|27689|66751|66661|27693|27773|66557|27787|66559|264927|66560|128234|66561|266315|27774|128237|27770|27771|66565|27784|8032
-55|252101|113360|113361|113364|113356|113359|252098|113363|113358|251731|252013|264737|252100|252021|113357|264111|252093|252092|113365|252104|251732
-1|259872|259873|259874|216016|259876|259877|215969|259879|259880|259881|215995|259883|216010|215977|215973|216000|259888|259895|259891|259894|259890|259900|259901|259910|259896|265949|265950|265951|265952|265953|265954|265955|265956|265957|265958|265959|265960|265961|265962|22945|351828|313435|313432|313433|313440|313447|313438|313439|313437|313443|313449|313460|313434|313454|313463|359039|359043|359041|359038|359044|359042|359040|359045|359046|359047|359048|359049|510762
-1257|451757|452013|452014|451765|451759|451763|451762
-110|32855|210668|32941|125821|34237|32938|210673|34253|210675|32946|32943|125826|32865|125828|32870|32958|34342|32866|32947|32954|32957|32869|32860|32940|210691|32948|34241|32956|210695|32945|34349|32953|125823|32871|32955|32951|125829|513143|515114
-5|294484|294487|296879|294483|296881|296882|294485|294492|296885|296886|294496|296888|294486|294488|294494|296892|296893|294495|294498|294502|296897|294499|294504|294491
+T|Blekinge läns landsting
+A|2|188788|188789|188790|188791|139660|188793|139670|188795|188796|188797|188798|188799|188800|188801|188802|188803|188804|188805|188806|341310|276762|276761|341459|341209|276990|139673|278816|341464|278336|341466|278322|341468|278321|341470|276993|341472|278337|341763|278344|341765|139669|139666|278320|341769|278333|341771|295805|295806|295807|295808|295809|295810|295811|296119|296120|296121|139667|296123|296124|296125|296126|296127|296128|296129|306463|296130|296131|139662|298589|296133|314023|310706|367419|310708|334661|334662|334663|334664|139671|334666|334667|334669|334670|334671|334672|334673|334674|139658|334676|334677|334678|334679|334680|334681|334682|334683
+A|4|179765|180527|194333|180526|190816|196129|194327|196131|196132|180528|194324|180525|190818|190815|194322|190820|190822|180538|179761|196144|190835|180536|194336|190829|190826|192464|192466|179763|192476|192468|192473|197711|192470|192475|192480|192477|192478|179760|197718|192481|179770|8553|208191|208192|208193|179759|179762|208196|208197|179766|179757|208200|208201|208202|208203|208204|179755|208206|208208|208209|208210|208211
+A|532|354499|441357|441358|441359|441360|354500|440205
+A|68|454627|454631|453466|454625|456202|454734|456204|456205|453464|454637|454630|454636|454626|454773|454624|453462|454640|454628|454721|454632
+A|1011|190006
+A|3|27686|27715|27713|27611|27612|27607|27606|66631|27691|27687|27610|27724|27689|66751|66661|27693|27773|66557|27787|66559|264927|66560|128234|66561|266315|27774|128237|27770|27771|66565|27784|8032
+A|55|252101|113360|113361|113364|113356|113359|252098|113363|113358|251731|252013|264737|252100|252021|113357|264111|252093|252092|113365|252104|251732
+A|1|259872|259873|259874|216016|259876|259877|215969|259879|259880|259881|215995|259883|216010|215977|215973|216000|259888|259895|259891|259894|259890|259900|259901|259910|259896|265949|265950|265951|265952|265953|265954|265955|265956|265957|265958|265959|265960|265961|265962|22945|351828|313435|313432|313433|313440|313447|313438|313439|313437|313443|313449|313460|313434|313454|313463|359039|359043|359041|359038|359044|359042|359040|359045|359046|359047|359048|359049
+A|1257|451757|452013|452014|451765|451759|451763|451762
+A|110|32855|210668|32941|125821|34237|32938|210673|34253|210675|32946|32943|125826|32865|125828|32870|32958|34342|32866|32954|32957|32869|32860|32940|210691|32948|34241|32956|210695|32945|34349|32953|125823|32871|32955|32951|125829
+A|5|294484|294487|296879|294483|296881|296882|294485|294492|296885|296886|294496|296888|294486|294488|294494|296892|296893|294495|294498|294502|296897|294499|294504|294491
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1257|SoL|SoL-partiet Sölvesborg och Lister
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|188788|59|K|Teo Zickbauer|Ronneby 59 år
+C|188789|64|M|JanAnders Palmqvist|Ronneby 64 år
+C|188790|67|K|Agnetha Wildros|Aspan Pensionär 67 år
+C|188791|52|M|Tommy Andersson|Kallinge 52 år
+C|139660|35|K|Malin Norfall|Ronneby Säk. Mat. Tekniker 35 år
+C|188793|50|M|Magnus Pettersson|Ronneby Ombudsman 50 år
+C|139670|48|K|Catharina Christensson|Bräkne Hoby Lärare 48 år
+C|188795|71|M|Lennart Hägglöf|Ronneby 71 år
+C|188796|33|K|Amani El-Ali Mazloum|Ronneby 33 år
+C|188797|67|M|Rune Kronkvist|Bräkne Hoby 67 år
+C|188798|53|M|Magnus Johannesson|Ronneby Inköpare 53 år
+C|188799|62|M|Thomas Svensson|Kallinge Fabriksarbetare 62 år
+C|188800|38|M|Pär Dover|Ronneby Statistiker 38 år
+C|188801|30|K|Sanna Rydell|Ronneby 30 år
+C|188802|64|M|Håkan Robertsson|Risatorp 64 år
+C|188803|34|M|Dmitri Soukhov|Kallinge 34 år
+C|188804|63|K|Eva Robertsson|Ronneby 63 år
+C|188805|67|M|Johnny Håkansson|Kallinge Metallarbetare 67 år
+C|188806|42|M|Martin Moberg|Ronneby 42 år
+C|341310|51|K|Annelie Rosenqvist|Sölvesborg Förskolelärare 51 år
+C|276762|68|M|Jan Björkman|Olofström F.d. riksdagsledamot 68 år
+C|276761|41|K|Sara Rudolfsson|Kyrkhult Jurist 41 år
+C|341459|41|M|Markus Alexandersson|Sölvesborg Journalist 41 år
+C|341209|41|K|Johanna Beijer|Sandbäck Egenföretagare 41 år
+C|276990|72|M|Kjell-Åke Karlsson|Olofström Pensionär 72 år
+C|139673|21|M|Alexander Nilsson|Sölvesborg Student 22 år
+C|278816|66|K|Ingeborg Braun|Kyrkhult 66 år
+C|341464|55|K|Pia Carlsson|Sölvesborg IT-samordnare 55 år
+C|278336|29|M|Sam Vidén Jakobsson|Olofström Industriarbetare 29 år
+C|341466|68|M|Jan-Åke Persson|Mjällby Chaufför 68 år
+C|278322|40|K|Marie Everlönn|Olofström Industriarbetare 40 år
+C|341468|45|K|Marion Lundh|Gammalstorp Egenföretagare 45 år
+C|278321|55|M|Michael Henriksson|Olofström Kundvärd 55 år
+C|341470|58|M|Roine Olsson|Sölvesborg Skadeinspektör 58 år
+C|276993|60|K|Pirjo Veteli|Olofström Metallarbetare 60 år
+C|341472|55|K|Ann-Sofie Persson Testouri|Sölvesborg U-sköterska 55 år
+C|278337|65|M|Ola Bengtsson|Olofström 65 år
+C|341763|77|M|Leif Nilsson|Falkvik Senior 77 år
+C|278344|51|K|Annelie Holgersson|Olofström Ekonomiassistent 51 år
+C|341765|39|K|Lina Jörnkrans|Lörby Undersköterska 39 år
+C|139669|53|M|Patrik Sjöstedt|Olofström Tjänsteman 53 år
+C|139666|23|M|Albin Ottosson|Sölvesborg Student 23 år
+C|278320|29|K|Sandra Danielsson|Olofström Koordinator 29 år
+C|341769|61|K|Viveka Olofsson|Falkvik Parkarbetare 61 år
+C|278333|28|M|Erik Halling|Olofström 28 år
+C|341771|73|M|Peter Wald|Krokås Senior 73 år
+C|295805|60|M|Kalle Sandström|Nättraby landstingsråd 59 år
+C|295806|53|K|Christina Mattisson|Trossö regionråd 53 år
+C|295807|40|M|Hampus Engqvist|Ramdala ITtekniker 39 år
+C|295808|69|K|AnnChristine Denebo|Lyckeby pensionär 68 år
+C|295809|51|M|Magnus Johansson|Karlskrona ombudsman 50 år
+C|295810|40|K|Sandra Bizzozero|Karlskrona upphandlare 39 år
+C|295811|58|M|Ivar Wenster|Karlskrona småföretagare 58 år
+C|296119|63|K|Kerstin Wieslander|Karlskrona 63 år
+C|296120|40|M|Billy Peltonen|Trossö studerande 39 år
+C|296121|42|K|Linda Ekström Sandstedt|Hässlegården 41 år
+C|139667|31|M|Daniel Deleuran|Nättraby Boendeassistent 31 år
+C|296123|25|K|Egzonita Maxhuni|Karlskrona ombudsman 24 år
+C|296124|73|M|Kenneth Nyström|Nättraby pensionär 72 år
+C|296125|61|K|Lena Klintefors|Hasslö barnsjuksköterska 60 år
+C|296126|69|M|Ulf Härstedt|Galgamarken pensionär 69 år
+C|296127|67|K|Åse Andersson|Lyckeby fd distriktssköterska 66 år
+C|296128|18|M|Muhamed Kadhim Abed|Alyasiri Karlskrona stud. 18 år
+C|296129|34|K|Camilla Persson|Långö sömmerska 33 år
+C|306463|72|M|Morgan Mattsson|Holmsjö tekniker 71 år
+C|296130|72|K|Kerstin Ekberg Söderbom|Hasslö fd assistent 71 år
+C|296131|30|M|Jonas Sandström|Nättraby politisk sekreterare 30 år
+C|139662|29|K|Elina Gustafsson|Rosenholm Verksamhetsutvecklare 29 år
+C|298589|18|M|Eles Karahalilovic|Karlskrona Studerande 18 år
+C|296133|51|K|Lisbeth Bengtsson|Rödeby undersköterska 51 år
+C|314023|64|K|Eva Strömqvist|Nävragöl Ombudsman 64 år
+C|310706|55|M|Sattar Zad|Hässlegården Trafik & Projektansvarig 55 år
+C|367419|67|K|Lesley Appelgren|Sturkö Pensionär 67 år
+C|310708|62|M|Jan-Anders Lindfors|Lyckeby Samordnare 62 år
+C|334661|63|K|Christel Friskopp|Karlshamn Undersköterska 63 år
+C|334662|36|M|Andreas Saleskog|Karlshamn Restauranglärare 36 år
+C|334663|54|K|Marie Sällström|Matvik 54 år
+C|334664|56|M|Per-Ola Mattsson|Karlshamn Industriarbetare 57 år
+C|139671|61|K|Lena Sandgren|Karlshamn Förskollärare 59 år
+C|334666|69|M|Anders Karlsson|Svängsta Pensionär 69 år
+C|334667|62|K|Kerstin Gustafson|Karlshamn 62 år
+C|334669|62|K|Annika Westerlund|Karlshamn Ingenjör 62 år
+C|334670|45|M|Magnus Dagmyr|Karlshamn Handledare 45 år
+C|334671|57|K|Susanne Olsson|Asarum Undersköterska 57 år
+C|334672|66|M|Jan Bremberg|Asarum Pensionär 66 år
+C|334673|28|K|Sara Sakhnini|Karlshamn Statstjänsteman 28 år
+C|334674|69|M|Roland Olsson|Mörrum Pensionär 70 år
+C|139658|60|K|Suzanne Svensson|Karlshamn Riksdagsledamot 60 år
+C|334676|68|M|Rune Andersson|Karlshamn Pensionär 69 år
+C|334677|60|K|Siri Näslund|Asarum Leg Sjuksköterska 60 år
+C|334678|66|M|Tommy Persson|Karlshamn Pensionär 65 år
+C|334679|59|K|Marie Bengtsson|Mörrum Biomedicinsk analytiker 59 år
+C|334680|56|M|Ulf Gustavsson|Karlshamn Maskintekniker 57 år
+C|334681|61|K|Hillevi Carlsson|Asarum Lokalvårdare 60 år
+C|334682|55|M|Robert Sandelin|Karlshamn Processoperatör 55 år
+C|334683|75|M|Sten Wijkander|Karlshamn Fd Rektor 74 år
+C|179765|56|K|Karin Nordvall|56 år fotterapeut Kyrkhult
+C|180527|52|M|Per-Ivar Johansson|52 år styrsystemingenjör Karlshamn
+C|194333|59|M|Jesper Bengtsson|59 år lantbrukare Lörbyskog
+C|180526|72|K|Lena Häggblad|72 år pensionär Karlshamn
+C|190816|76|M|Gert Gustavsson|76 år ingenjör Olofström
+C|196129|49|K|Jessica Persson|49 år undersköterska Tararp
+C|194327|33|K|Kristina Cirvinskiene|35 år Sölvesborg
+C|196131|51|M|Omar Holm Sigurdsson|51 år lärare Åryd
+C|196132|82|M|Bertil Thomasson|82 år pensionär Jämshög
+C|180528|38|K|Sofie Ekenberg|38 år civilekonom Svängsta
+C|194324|42|M|Ali Kader|42 år egenföretagare Sölvesborg
+C|180525|55|M|Ola Persson|55 år lantbrukare Tararp
+C|190818|57|K|Bodil Jönsson|57 år förskollärare Olofström
+C|190815|36|K|Anna Blissing|36 år byggnadsingenjör Olofström
+C|194322|37|M|Pär Milton|37 år läkare Sölvesborg
+C|190820|56|K|Susanne Mustig|56 år medium Kyrkhult
+C|190822|41|K|Tina Svensson|41 år parkarbetare Hemmingsmåla
+C|180538|68|K|Else-Britt Persson|68 år sjuksköterska Hultet
+C|179761|29|K|Johanna Bengtsson|29 år sjuksköterska Sölvesborg
+C|196144|53|K|Eva Jönsson|53 år hemkunskapslärare Nybygden
+C|190835|47|M|Christoffer N Magnstedt|47 år pedagog Kullan
+C|180536|41|M|Markus Lindberg|41 år grundskolelärare Karlshamn
+C|194336|56|K|Carina Ahlgren|56 år måltidsbiträde Sölvesborg
+C|190829|54|K|Agnetha Andreasson|54 år Olofström
+C|190826|34|K|Ulrika Thuresson|34 år egenföretagare Erikstorp
+C|192464|59|K|Eva-Britt Brunsmo|projektledare Räntemåla
+C|192466|62|K|Kerstin Haraldsson|vårdare Siggamåla
+C|179763|45|K|Silke Jacob|45 år frisör Hallabro
+C|192476|72|K|Ann-Charlotte Johansson|ekonom Svalhult
+C|192468|19|M|Jonatan Glader|studerande Ronneby
+C|192473|65|K|Ann-Catrin Carlsson|pensionär Makrilla
+C|197711|28|K|Charlotte Svanberg|farmaceut Ronneby
+C|192470|60|K|Susanne Petersson|assistent Kallinge
+C|192475|73|M|Gilbert Nilsson|pensionär Ronneby
+C|192480|67|M|Krister Holmqvist|begravningsentreprenör Ronneby
+C|192477|39|M|Kevin Lill|koordinator Ronneby
+C|192478|59|K|Monica Fredriksson|redovisningsassistent Oxlaby
+C|179760|33|M|Yannick Luomala|33 år yrkeslärare Ettebro
+C|197718|69|M|Jan-Olov Olsson|byggnadsingenjör Smemåla
+C|192481|57|M|Bo Carlsson|egenföretagare Räntemåla
+C|179770|58|M|Lars Karlsson|58 år lant- och skogsbrukare Bettamåla
+C|8553|54|K|Ingrid Hermansson|54 år, Förskollärare, Karlskrona
+C|208191|66|K|Eva Franksson Colliander|66 år företagare, livscoach Lilla Räfsmåla
+C|208192|62|M|Claes Gustavsson|62 år företagare Nättraby
+C|208193|62|M|Mats Andersson|62 år ekonom Ramdala
+C|179759|46|K|Malin Wästfelt|46 år entreprenör Nättraby
+C|179762|54|M|Johan Genestig|54 år miljöräddningshandläggare Sturkö
+C|208196|46|K|Maria Persson|46 år förskollärare Karlskrona
+C|208197|53|M|Roger Arvidsson|53 år sjukvårdslärare Persmåla
+C|179766|45|M|Kennet Henningsson|45 år adjunkt, konsult Kallinge
+C|179757|39|K|Pernilla Persson|39 år barnsjuksköterska Kättilsmåla
+C|208200|46|M|Sven Borén|46 år forskare Karlskrona
+C|208201|36|K|Cecilia Nilsson|36 år transportplanerare Holmsjö
+C|208202|59|M|Bernt Runesson|59 år lantbrukare Offamåla
+C|208203|34|M|Nasir Khaja Akmad|34 år datatekniker, lärare Karlskrona
+C|208204|27|M|Yaman Masri|27 år kemist, amnestyaktivist Karlskrona
+C|179755|52|K|Ingela Abramsson|52 år sjuksköterska Ramdala
+C|208206|39|M|Johan von Reis|38 år medmänniska Nättraby
+C|208208|72|M|Nils Jedhammar|73 år pensionär Holmsjö
+C|208209|60|M|Eskil Johansson|60 år verkstadsmekaniker Ramdala
+C|208210|33|M|Jean Pierre Candiotti Bustamante|33 år hållbarhetskonsult Karlskrona
+C|208211|21|M|Per Pettersson|21 år lantarbetare Torhamn
+C|354499|31|K|Ella Selmani|31 år, hudterapeut, Ronneby
+C|441357|51|K|Stina Pehrsdotter|51 år, konsttekniker, Kyrkhult
+C|441358|59|K|Gudrun Claesson|59 år, teaterpedagog, Asarum
+C|441359|53|M|Niclas Hallberg|53 år, konstnär, Kyrkhult
+C|441360|36|K|Sofie Andersson|36 år, företagare, Asarum
+C|354500|53|K|Annika Nordström|53 år, stödpedagog/undersköterska, Ronneby
+C|440205|33|K|Lisa Axelsson|33 år, skolsköterska, Sölvesborg
+C|454627|66|M|Erik Lindborg|Karlskrona
+C|454631|62|K|Inger Åkesson|Karlskrona
+C|453466|71|M|Willy Persson|Ronneby
+C|454625|59|M|Billy Åkerström|Karlskrona
+C|456202|49|K|Carina Olsson|Karlskrona
+C|454734|53|M|Daniel Nilsson|Ronneby
+C|456204|29|M|Niklas Andersson|Karlskrona
+C|456205|76|M|Lennart Svantesson|Karlskrona
+C|453464|45|M|Robert Manea|Sölvesborg
+C|454637|79|M|Lennart Ung|Karlshamn
+C|454630|74|K|Gerd Palmqvist|Sölvesborg
+C|454636|78|K|Laila Johansson|Karlshamn
+C|454626|72|M|Thommy Svensson|Olofström
+C|454773|63|K|Christel Henningsson|Sölvesborg
+C|454624|65|M|Lars-Olof Larsson|Karlshamn
+C|453462|64|M|James Sandstedt|Olofström
+C|454640|62|M|Dan Munther|Karlshamn
+C|454628|59|K|Inger Ahnberg|Olofström
+C|454721|83|M|Erik Aronsson|Olofström
+C|454632|56|K|Ingrid Brånsjö|Olofström
+C|190006|57|K|Margareta Forslund|
+C|27686|61|M|Peter Christensen|Systemutvecklare 62år Nättraby
+C|27715|70|K|Inga-Lena Fischer|journalist, Karlskrona
+C|27713|71|M|Kent Lewén|f.d Kommunalråd 71år Fridlevstad
+C|27611|56|K|Karin Dovstad|Socionom 46år Hasslö
+C|27612|75|M|Bengt Jonsson|Pensionär 75år Långö
+C|27607|45|K|Marianne Ehn-Thorell|Specialistsjuksköterska 45år Aspö
+C|27606|69|M|Stefan Lundin|Projektledare 70år Rödeby
+C|66631|61|K|Agneta Möller|Boendehandlerare funktionsstödsförvaltningen 62år Lyckeby
+C|27691|66|M|Per Wimmerman|Personlig assistent 66år Lyckeby
+C|27687|76|K|Eva Röder|76år Hästö
+C|27610|65|M|Rolf Svensson|Pensionär 66år Nättraby
+C|27724|65|M|Anders Hedén|Entreprenör 66år Lyckeby
+C|27689|77|K|Carola Olander|Pensionär 78år Kristianopel
+C|66751|72|M|Maths Svendsby|Pastor 72år Lyckeby
+C|66661|43|K|Nicole Carlbäck|Lärare 43år Nättraby
+C|27693|76|M|Hans-Göran Håkansson|Administratör 76år Hästö
+C|27773|41|M|Jesper Rehn|IKT-Pedagog 42år Ronneby
+C|66557|71|K|Ros-Marie Strömblad|fd.Chefssjuksköterska vårdutvecklare 71år Karlshamn
+C|27787|50|K|Lena Mahrle|Assisterande Psykolog 50år Ronneby
+C|66559|69|K|Ylva Särnmark|69år Ronneby
+C|264927|63|K|Susanne Öström|fd.Stadsdirektör 64år Karlshamn
+C|66560|40|M|Emanuel Norén|Verksamhetsutvecklare 41år Karlshamn
+C|128234|62|M|Lennart Gustavsson|Reservofficer Flottan 63år Ronneby
+C|66561|61|M|Stefan Sörensson|Säljare 61år Hällaryd
+C|266315|70|M|Bengt Callinggård|70år Ronneby
+C|27774|41|K|Iman Omairat|Socialpedagog 41år Asarum
+C|128237|80|K|Laila Andersson|80år Ronneby
+C|27770|65|K|Bodil Frigren-Ericsson|Teknologie doktor 65år Karlshamn
+C|27771|44|M|Roger Gardell|Politiker 44år Ronneby
+C|66565|67|M|Nils-Ingmar Thorell|Gruppledare 67år Ronneby
+C|27784|60|M|Lars Lamberg|Projektledare 60år Sölvesborg
+C|8032|48|M|Björn Söderdahl|Tekniker 49år Olofström
+C|252101|68|M|Björn Gustavsson|Pensionär, Karlskrona
+C|113360|57|K|Eva-Lena Ulvsfält|Kontorist, Sölvesborg
+C|113361|68|M|Claes Jansson|Bok- & skivhandlare, Karlshamn
+C|113364|65|K|Anitha Fredriksson|Pensionär, Olofström
+C|113356|31|K|Lova Necksten|31, it-utvecklare, Ronneby
+C|113359|60|M|Øjvind Hatt|Åttabarnspappa, Sölvesborg
+C|252098|62|K|Anna-Lena Nilsson|Leg.sjukgymnast, Karlskrona
+C|113363|56|M|Mikael Auberg|Undersköterska, Karlskrona
+C|113358|63|K|Hélène Nordin|Kanslist, Karlshamn
+C|251731|71|M|Thomas Lähdet|Kulturarbetare, Ronneby
+C|252013|24|K|Fadia Aljazar|Sjuksköterskestudent, Karlshamn
+C|264737|42|M|Anders Qvarnström|Civ.ingenjör, Karlshamn
+C|252100|73|M|Jan-Olof Andersson|Pensionär, Karlskrona
+C|252021|31|K|Veronica Blåder|Undersköterska, Karlshamn
+C|113357|33|M|Olle Hilborn|Verksamhetschef, Karlskrona
+C|264111|71|K|Britt-Marie Jonsson|Pensionär, Sölvesborg
+C|252093|65|M|José Espinoza|Undersköterska, Karlskrona
+C|252092|72|K|Mia Andersson|Pensionär, Karlskrona
+C|113365|40|M|David Skog|Lärare, Sölvesborg
+C|252104|76|K|Anita Nilsson|Pensionär, Karlskrona
+C|251732|83|M|Nils-Erik Mattsson|Exergi-tekniker, Ronneby
+C|259872|37|K|Emma Stjernlöf|37, politisk stabschef, Bastasjö
+C|259873|77|K|Birgitta Ståhl|77, sjuksköterska, Hästö
+C|259874|69|M|Gustav Nilsson|69, fd riksdagsledamot, Sillesås
+C|216016|68|K|Sigrid Johansson|68, pensionär, Bergåsa
+C|259876|42|K|Nina Edlund|42, avdelningschef, Nättraby
+C|259877|55|K|Pia Walter|55, undersköterska, Jämjö
+C|215969|65|M|Carl-Göran Svensson|65, lantbrukare, Ramdala
+C|259879|47|M|Mattias Liedholm|47, rektor, Trossö
+C|259880|62|M|Anders Mikler|62, civilingenjör, Lyckeby
+C|259881|48|M|Mats Löfdahl|48, egen företagare, Nättraby
+C|215995|38|K|Lindy Olofsson|38, jobbcoach, Lyckeby
+C|259883|39|K|Narine Grigoriyants|39, försäkringsförmedlare, Nättraby
+C|216010|82|K|Karin Brunsberg|82, filosofie doktor, Lyckeby
+C|215977|54|M|Jan Lennartsson|54, egen företagare, Sturkö
+C|215973|41|M|Morgan Kullberg|41, filosofie doktor, Bredäng
+C|216000|74|M|Björn Liljekrantz|74, pensionär, Trossö
+C|259888|71|M|Jack Bergen|71, läkare, Tving
+C|259895|64|K|Inger Pilthammar|64, ambulanssjukvårdare, Hällevik
+C|259891|35|K|Emilie Pilthammar|35, lärare/musiker, Hällevik
+C|259894|49|M|Paul Andersson|49, kontorist, Sölvesborg
+C|259890|56|K|Kith Mårtensson|56, distriktssköterska, Krokås
+C|259900|41|K|Nina Christensen Sturesson|41, barnskötare, Sölve
+C|259901|72|M|Lennart Nilsson|72, ingenjör, Norje
+C|259910|25|M|Daniel Bogren|25, undersköterska, Sölvesborg
+C|259896|58|M|Anders Fransson|58, boendestödjare, Hosaby Björke
+C|265949|58|M|Lennarth Förberg|58, marknadsekonom, Listerby
+C|265950|40|M|Anders Lund|40, egen företagare, Hallabro
+C|265951|54|K|Åsa Evaldsson|54, operationssjuksköterska, Ronneby
+C|265952|59|M|Anders Bromée|59, revisor, Bräkne-Hoby
+C|265953|50|M|Magnus Persson|50, projektledare, Ronneby
+C|265954|72|K|Lena Karstensson|72, fd gymnasielärare, Väbynäs
+C|265955|57|M|Johannes Chen|57, tågvärd, Ronneby
+C|265956|48|M|Patrik Jacobsen|48, egen företagare, Johannishus
+C|265957|28|M|Rickard Evaldsson|28, processoperatör, Ronneby
+C|265958|46|M|Roger Fredriksson|46, kommunalråd, Hallabro
+C|265959|65|M|Lars Sager|65, pensionerad yrkesofficer, Listerby
+C|265960|55|M|Johan Sandberg|55, tjänsteman, Ronneby
+C|265961|39|M|Martin Engelsjö|39, egen företagare, Bräkne-Hoby
+C|265962|46|M|Fredrik Jacobsen|46, biträdande driftschef, Kallinge
+C|22945|52|K|Maria Kvarnheden|52, Handläggare
+C|351828|62|M|Alexander Wendt|62, landstingsråd, Hällaryd
+C|313435|74|K|Iréne Ahlstrand Mårlind|74, leg sjuksköterska, Karlshamn
+C|313432|48|M|Magnus Gärdebring|48, oppositionsråd, Karlshamn
+C|313433|25|K|Elin Petersson|25, grupphandledare, Karlshamn
+C|313440|27|M|Artur Hulu|27, politisk tjänsteman, Karlshamn
+C|313447|70|K|Britt Kilsäter|70, kostekonom, Karlshamn
+C|313438|72|M|Lars Hasselgren|72, konsult, Karlshamn
+C|313439|46|K|Charlotta M Sjöqvist|46, undersköterska, Karlshamn
+C|313437|51|K|Catarina Flod|51, säljare energi, Karlshamn
+C|313443|51|M|Rickard Holmberg|51, fastighetsförvaltare, Karlshamn
+C|313449|58|M|Per Erlandsson|58, teknisk doktor, Karlshamn
+C|313460|47|M|Michael Andersson|47, mediasäljare, Svängsta
+C|313434|50|M|Magnus Sandgren|50, egen företagare, Karlshamn
+C|313454|36|K|Ida Lindgren|36, socionom, Asarum
+C|313463|58|K|Carin Erlandsson|58, ombudsman, Karlsham
+C|359039|65|K|Marianne Eriksson|65, sjukvårdsbiträde, Kyrkhult
+C|359043|76|M|Torsten Cairenius|76, pensionär, Olofström
+C|359041|68|K|Monica Carlsson|68, leg sjuksköterska, Olofström
+C|359038|51|M|Patrik Krupa|51, verktygsmakare, Olofström
+C|359044|46|M|Bekim Tabaku|46, frisör, Olofström
+C|359042|53|M|Niklas Nordström|53, åkeriägare, Olofström
+C|359040|61|K|Britta Lindgren|61, skolsköterska, Jämshög
+C|359045|67|K|Erzsebet Belsö|67, maskintekniker, Olofström
+C|359046|79|M|Tommy Danielsson|79, inköpschef, Olofström
+C|359047|57|K|Sirpa Jensen|57, undersköterska/entreprenör, Olofström
+C|359048|47|K|Katarzyna Krupa|47, undersöterska, Olofström
+C|359049|40|M|Mattias Karlsson|40, lastbilschaufför, Olofström
+C|451757|68|M|Anders Jönsson|f.d. sjöräddare
+C|452013|20|K|Jennifer Nilsson|undersköterska
+C|452014|67|M|Pasi Korva|egen företagare
+C|451765|73|K|Eivor Hermansson|egen företagare
+C|451759|65|M|Tomas Waltersson|fiskare
+C|451763|73|K|Irene Friberg-Johansson|kemist
+C|451762|77|M|Kenth Cronqvist|byggnadsingenjör
+C|32855|39|M|Björn Tenland Nurhadi|Civilingenjör, 38 år
+C|210668|29|K|Louise Erixon|Samhällsutvecklare , 29 år
+C|32941|49|K|Camilla Karlman|Politisk sekreterare, Karlskrona
+C|125821|54|M|Max Nielsen|Ingenjör 54 år
+C|34237|54|M|Nicolas Westrup|Chef, Ronneby
+C|32938|64|M|Göran Eklund|Officer, Karlskrona
+C|210673|40|K|Anna Borgström|Distriktssköterska, 39 år
+C|34253|61|M|Roger Norberg|Sjukgymnast, 60 år
+C|210675|24|M|Tobias Alm|Ambulansvårdare, 24 år
+C|32946|48|K|Pernilla Cederholm|Undersköterska, 47 år
+C|32943|40|K|Margaretha Jonasson|Barnskötare, Karlskrona
+C|125826|37|K|Linda Röman|Undersköterska, 37 år
+C|32865|54|K|Margaretha Lennarthsson|Pedagog, Karlshamn
+C|125828|49|M|Peter Holmström|Busschaufför, 49 år
+C|32870|53|M|Lars Olsson|Driftsmaskinist, 53 år
+C|32958|46|K|Anette Ivekull|Undersköterska, 46 år
+C|34342|36|K|Sara Jansson|Undersköterska, 36 år
+C|32866|41|M|Håkan Abramsson|Anläggare, Karlshamn
+C|32954|58|K|Bente Eklund|Cirkelledare, 58 år
+C|32957|29|K|Sanna Svennesson|Konditor, 29 år
+C|32869|52|K|Britt Karlsson|Socialpedagog, 52 år
+C|32860|67|K|Ulrika Berggren|Byggnadsingenjör, 67 år
+C|32940|65|M|Ronnie Nilsson|Forskningsassistent, 65 år
+C|210691|71|M|Robert Lindén|Företagsledare, Sölvesborg
+C|32948|54|K|Susanne Cederholm|Administratör, Karlskrona
+C|34241|37|K|Sandra Bergkvist|Säkerhetschef, Ronneby
+C|32956|59|M|Jan Sjöholm|Officer, 59 år
+C|210695|82|M|Rolf Hans Berg|Pensionär, 82 år
+C|32945|46|M|Patrik Hult|Butiksanställd, 46 år
+C|34349|66|K|Ulla Bölja|Barnskötare 66 år
+C|32953|49|M|Mats Mattiasson|Maskintekniker, 49 år
+C|125823|46|M|Tommy Holmgren|Egenföretagare, 46 år
+C|32871|73|K|Maj Johansson|Pedagog, 72 år
+C|32955|53|M|Magnus Johansson|Lastbilschaufför, 53 år
+C|32951|71|M|Kenneth Johnsson|Pensionär, 72 år
+C|125829|45|M|Daniel Pionk|Målare, 44 år
+C|294484|41|M|Erik Ohlson|Ronneby
+C|294487|46|K|Lena Johansson|Kulturarbetare,Asarum
+C|296879|66|M|Tommy Larsson|Byggnadsarbetare, Asarum
+C|294483|38|K|Sara Högelius|Folkhögskolelärare,Hasslö
+C|296881|59|M|Ulf Hansson|Handläggare, Lyckeby
+C|296882|50|M|Jens Henningsson|Politisk sekreterare, Asarum
+C|294485|49|K|Annika Lande|Socialpedagog,Olofström
+C|294492|65|K|Viveka Söderdahl|Specialpedagog,Sölvesborg
+C|296885|73|M|Jan-Olof Wahllöf|Pensionerad målare, Karlskrona
+C|296886|82|M|Bertil Måbrink|Belganet
+C|294496|28|K|Anna-Kajsa Lundberg|Specialistofficer,Karlskrona
+C|296888|60|K|Ally Karlsson|Hallabro
+C|294486|33|M|Erik Ohliv|Elektriker,Sölvesborg
+C|294488|49|M|Mohammed Teeti|Förskollärare,Kallinge
+C|294494|35|K|Emma Hilborn|Tandläkare,Jämjö
+C|296892|81|K|Judith Skörsemo|Bräkne-Hoby
+C|296893|50|M|Tonnie Philipsson|Biomedicinsk analytiker, Asarum
+C|294495|62|M|Peter Bowin|Lärare,Ettebro
+C|294498|44|K|Desiree Hoberg|Specialistundersköterska,Ramdala
+C|294502|59|K|Ruza Mastilo|Socialpedagog, Sölvesborg
+C|296897|68|K|Lena Rosén|Ronneby
+C|294499|40|M|Johan Eriksson|Murare,Karlskrona
+C|294504|66|K|Ingegärd Andersson|Pensionär,Sölvesborg
+C|294491|47|K|Rebecka Wald|Legitimerad sjuksköterska,Sölvesborg

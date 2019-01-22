@@ -1,7 +1,90 @@
-2|192999|193717|193005|193719|193720|193721|193722|193723|193724|193725|193726|193727|193728|193729|193730|193731|193732|193733|193734|193735
-4|55731|56437|48804|56439|56440|56441|55750|55739|56444|56445|56446|56447|56448
-187|419694|419695|419696|419698|419699|419700|419701|419702|419703|419704|419705|419706|419707|419708|419709|419711|419712|419713|419714|419715|419716|419717|419718|419719
-68|47233|41296|47235|47236
-3|60860|67463|67464|60875|67466|67467|67468|67469
-110|122802
-5|392242|392243|392244|392245|392246
+T|Dorotea
+A|2|192999|193717|193005|193719|193720|193721|193722|193723|193724|193725|193726|193727|193728|193729|193730|193731|193732|193733|193734|193735
+A|4|55731|56437|48804|56439|56440|56441|55750|55739|56444|56445|56446|56447|56448
+A|187|419694|419695|419696|419698|419699|419700|419701|419702|419703|419704|419705|419706|419707|419708|419709|419711|419712|419713|419714|419715|419716|419717|419718|419719
+A|68|47233|41296|47235|47236
+A|3|60860|67463|67464|60875|67466|67467|67468|67469
+A|110|122802
+A|5|392242|392243|392244|392245|392246
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|187|DKL|Dorotea Kommunlista
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|192999|59|M|Greger Lindqvist|59 år, Träarbetare, Dorotea
+C|193717|41|K|Maria Modin|41 år, Lagerarbetare, Dorotea
+C|193005|53|M|Kenneth Holmqvist|53 år, Verkstadssnickare, Dorotea
+C|193719|62|K|Astrid Rönnqvist|62 år, Handledare, Dorotea
+C|193720|29|M|Magnus Henriksson|29 år, Undersköterska, Dorotea
+C|193721|25|K|Sandra Jonasson|25 år, Studerande, Dorotea
+C|193722|63|M|Christer Eriksson|63 år, Verkstadsarbetare, Dorotea
+C|193723|39|K|Sara Nilsson|38 år, Lärare, Borgafjäll
+C|193724|74|M|Jan Bergström|74 år, Pensionär, Dorotea
+C|193725|49|K|Gun-Britt Johansson|49 år, Speciallärare, Dorotea
+C|193726|48|M|Ran Svanlund|48 år, Underskötare, Dorotea
+C|193727|66|K|Eva Borgström|66 år, Pensionär, Avaträsk
+C|193728|75|M|Kubben Rönnberg|76 år, Pensionär, Dorotea
+C|193729|51|K|Carina Hansson|51 år, Undersköterska, Dorotea
+C|193730|53|M|Bo Forsberg|53 år, Busschaufför, Dorotea
+C|193731|64|K|Britt-Marie Öbrell|64 år, Arbetsterapeut, Dorotea
+C|193732|65|M|Lennart Hansson|65 år, Pensionär, Dorotea
+C|193733|64|M|Sven Östman|65 år, Pensionär, Dorotea
+C|193734|67|M|Stefan Eriksson|67 år, Pensionär, Avaträsk
+C|193735|73|M|Ulf Larsmar|73 år, Pensionär, Dorotea
+C|55731|48|M|Urban Larsson|48 år, Entreprenör, Dorotea
+C|56437|45|K|Maria Skoglund|45 år, Rajastrand
+C|48804|68|M|Staffan Östman|68 år, Skogsentreprenör, Dorotea
+C|56439|34|K|Alexandra Gejland Gjersvold|34 år, Dorotea
+C|56440|65|M|Håkan Eriksson|65 år, Avaträsk
+C|56441|52|M|Niklas Nilsson|52 år, Dorotea
+C|55750|62|M|Bengt Henriksson|62 år, Produktionschef, Dorotea
+C|55739|47|M|Pierre Danielsson|46 år, Maskinist, Dorotea
+C|56444|73|K|Ingrid Oscarsson|73 år, Bellvik
+C|56445|69|K|Margit Johansson|69 år, Dorotea
+C|56446|30|M|Per Nilsson|30 år, Avaträsk
+C|56447|27|M|Martin Engström|27 år, Dorotea
+C|56448|48|M|Roger Nilsson|49 år, Dorotea
+C|419694|54|K|Gaby Bisping|Högland
+C|419695|64|M|Arne Näslund|Dorotea
+C|419696|58|K|Britt-Inger Tegnander|Dorotea
+C|419698|58|K|Mona Hedberg|Dorotea
+C|419699|61|M|Martin Jönsson|Avaträsk
+C|419700|30|K|Anna-Marja Sorsen|Dorotea
+C|419701|70|M|Roger Hahlin|Laiksjö
+C|419702|23|K|Rebecca Granberg|Dorotea
+C|419703|28|M|Joakim Isaksson|Borgafjäll
+C|419704|44|K|Veronica Hahlin|Laiksjö
+C|419705|66|M|Torbjörn Isaksson|Borgafjäll
+C|419706|34|K|Susann Rausenstierna|Borgafjäll
+C|419707|32|M|Joakim Norman|Dorotea
+C|419708|40|K|Therese Bjärstig|Dorotea
+C|419709|26|M|Mikael Persson|Dorotea
+C|419711|67|M|Ulf Wikström|Avaträsk
+C|419712|60|K|Ann-Christin Isaksson|Borgafjäll
+C|419713|45|M|Morgan Moverare|Dorotea
+C|419714|26|K|Elin Backlund|Laiksjö
+C|419715|30|M|Fredrik Hahlin|Laiksjö
+C|419716|70|M|Kjell Selinder|Dorotea
+C|419717|75|M|MatsErik Westerlund|Ormsjö
+C|419718|74|M|Nils Hansson|Avaträsk
+C|419719|76|M|Sören Granberg|Dorotea
+C|47233|54|K|Margareta Berg|undersköterska, Rajastrand
+C|41296|75|M|Knut Isaksson|fd kommunchef, Dorotea
+C|47235|70|K|Ann-Charlotte Nilsson|pensionär, Lajksjöberg
+C|47236|74|M|Agne Nilsson|pensionär, Lajksjöberg
+C|60860|51|M|Nicke Grahn|Dorotea
+C|67463|68|K|Lilian Tegnander|Dorotea
+C|67464|37|M|Thomas Markusson|Dorotea
+C|60875|50|K|Britt-Inger Mohlin-Grahn|Dorotea
+C|67466|62|K|Carina Oscarsson|Korssele
+C|67467|72|M|Göran Gunnarsson|Avaträsk
+C|67468|39|M|Jan-Åke Persson|Dorotea
+C|67469|67|M|Kenneth Nielsen|Fågelsta
+C|122802|31|M|Jimmy Frohm|Maskinförare, Dorotea, 31
+C|392242|67|M|Lasse Simonsson|Lajksjöberg
+C|392243|73|M|Birger Svanlund|Dorotea
+C|392244|44|K|Katarina Öhlund|Dorotea
+C|392245|63|K|Astrid Ström|Ormsjö
+C|392246|70|M|Bengt Persson|Dorotea

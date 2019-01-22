@@ -1,9 +1,145 @@
-2|164310|164311|97721|97708|71222|164315|164316|164317|164318|164319|164322|164321|164324|164323|164326|164325|164328|164327|164330|164329|164331|164332
-4|84285|84286|84287|84288|76928|84290|84291|84292|84293|84294|84295|84296|84297|84298|84299|84300|84301|84302|84303|84304|84305
-68|163820|163821|163822
-3|241902|241903|241904|241905|241906|241907|241908|241909|241910|241911|241912|241913|241914
-55|241893|241894|241895|353421|241896|241899|241898|241900|241901
-1|12782|23509|23510|102528|23511|23196|23513|23514|23169|23180|23517|23518|23186|23520|23521|23522|23523|23524|23525
-110|67303|67304|67305|67306
-5|217081|217082|217083|217084|217085|217086|217087|217088|217089|217090|217091
-1116|129802|129803|129804|15815|129806|129807|129808|15814|129810|129811|129812|129813|129814|129815|129816|129817|129818|129819|129820|129821|129823|129824|129825|129826
+T|Vaxholm
+A|2|164310|164311|97721|97708|71222|164315|164316|164317|164318|164319|164322|164321|164324|164323|164326|164325|164328|164327|164330|164329|164331|164332
+A|4|84285|84286|84287|84288|76928|84290|84291|84292|84293|84294|84295|84296|84297|84298|84299|84300|84301|84302|84303|84304|84305
+A|68|163820|163821|163822
+A|3|241902|241903|241904|241905|241906|241907|241908|241909|241910|241911|241912|241913|241914
+A|55|241893|241894|241895|353421|241896|241899|241898|241900|241901
+A|1|12782|23509|23510|102528|23511|23196|23513|23514|23169|23180|23517|23518|23186|23520|23521|23522|23523|23524|23525
+A|110|67303|67304|67305|67306
+A|5|217081|217082|217083|217084|217085|217086|217087|217088|217089|217090|217091
+A|1116|129802|129803|129804|15815|129806|129807|129808|15814|129810|129811|129812|129813|129814|129815|129816|129817|129818|129819|129820|129821|129823|129824|129825|129826
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|1116|WAX|Waxholmspartiet - borgerligt alternativ
+C|164310|76|M|Jan-Olof Schill|76, Rindö
+C|164311|71|K|Rose-Marie Axelsson|71, Vaxö
+C|97721|68|M|Bengt Sandell|68, Vaxholm
+C|97708|66|K|Anette Dahlgren|66, Pensionär, Undersköterska, Vaxholm
+C|71222|63|M|Jonas Forsberg|63, Förtroendevald Kommunal, Vaxholm
+C|164315|43|M|Anders Garstål|43, Resarö
+C|164316|67|M|Bertil Jansson|67, Vaxö
+C|164317|40|K|My Hvittfeldt|40, Vaxö
+C|164318|25|M|Ayman Alafandy|25, Vaxö
+C|164319|67|K|Margareta Pettersson|67, Vaxö
+C|164322|45|M|Amir Parvanehtabrizi|45, Resarö
+C|164321|65|K|Märta Jörgensen|65, Vaxö
+C|164324|52|M|Ronny Fredriksson|52, Rindö
+C|164323|79|K|Sonja Johansson|79, Rindö
+C|164326|68|M|Göran Nilsson|68, Vaxö
+C|164325|64|K|Eva Ekberg|64, Vaxö
+C|164328|69|M|Johan Langer|69, Tynningö
+C|164327|55|K|Alicia Kempe|55, Resarö
+C|164330|76|M|Ulf Asp|76, Resarö
+C|164329|76|K|Eva Asp|76, Resarö
+C|164331|73|M|Lars Lundqvist|73, Vaxö
+C|164332|74|M|Peder Grönberg|74, Resarö
+C|84285|46|K|Malin Forsbrand|Företagare 46 år, Kullö
+C|84286|46|M|Adrian Brunkhorst|46, Vaxholm, Medical advisor
+C|84287|56|K|Lena Hallberg|Polisinspektör 56 år, Vaxön
+C|84288|68|K|Mailis Dahlberg|68, Vaxholm, Skribent
+C|76928|48|K|Pia Vallgårda|48, Vaxholm, Fil.kand statsvetenskap
+C|84290|39|M|Fredrik Östman|Företagare 39 år, Resarö
+C|84291|55|K|Carina Östergren|Administratör 55 år, Resarö
+C|84292|64|K|Birgitta Björinge|Arbetsterapeut 64 år, Resarö
+C|84293|56|K|Anneth Jacobsson|Förskollärare 56 år, Resarö
+C|84294|67|K|Ann-Sofi Klar|Pensionär 67 år, Vaxön
+C|84295|55|M|Anders Jacobsson|Poliskommissarie 55 år, Resarö
+C|84296|69|K|Chris Druid|Bibliotikarie   69 år, Vaxön
+C|84297|19|K|Norea Marklund|Studerande 19 år, Resarö
+C|84298|40|M|Stefan Wall|Entreprenör 40 år, Resarö
+C|84299|47|K|Anna Norström Hvitfeldt|Civilingenjör 47 år, Tynningö
+C|84300|45|M|Jonas Andersson|Civilingenjör 45 år, Resarö
+C|84301|51|K|Lisa Lönner Pulkkinen|Krögare 51 år, Resarö
+C|84302|57|K|Ulrika Schelwander|Entreprenör 56 år, Vaxön
+C|84303|69|M|Tomas Axelsson|Företagare 69 år, Vaxön
+C|84304|79|K|Britt Ståhl|Pensionär 79 år, Vaxön
+C|84305|74|M|Esbjörn Nyström|Företagare 74 år, Vaxön
+C|163820|59|M|Kjetil Rindal|59, Statlig tjänsteman, Vaxholm
+C|163821|63|K|Kerstin Olander|Lärarutbildare
+C|163822|65|K|Agneta Fischerström|Egenföretagare
+C|241902|59|M|Michael Baumgarten|Ramsö
+C|241903|74|K|Louise Yngström Valdre|Rindö
+C|241904|61|M|Jan Reuterdahl|Resarö
+C|241905|61|K|Caisa Holm|Vaxön
+C|241906|51|M|Leslie Öqvist|Tynningö
+C|241907|30|K|Hanna Brandvik|Vaxön
+C|241908|44|M|Pelle Dalhammar|Rindö
+C|241909|76|K|Agneta Grönkvist|Vaxön
+C|241910|74|M|Ulf Björneheim|Resarö
+C|241911|71|K|Ingrid Ekstedt|Vaxön
+C|241912|73|M|Rolf Grönkvist|Vaxön
+C|241913|53|M|Harald Hynell|Vaxön
+C|241914|25|M|Charlie Dahl|Ramsö
+C|241893|50|K|Anne-Charlotte Eriksson|Miljövetare/journalist, lärarstudent, 50 år, Resarö
+C|241894|61|K|Karin Urbina Rutström|Redaktör/journalist, 60 år, Vaxön
+C|241895|63|K|Marie-Louise Westerberg|Socionom, 63 år, Vaxön
+C|353421|58|K|Lena Johansson Sundius|Hantverkspedagog/konstnär, 59 år, Vaxön
+C|241896|55|K|Kristina Elmlund Joelson|Sjuksköterska/konstnär, 55 år, Vaxön
+C|241899|59|M|Oscar Urbina Lanza|Arbetsledare, 59 år, Vaxön
+C|241898|38|K|Christine Brådenmark|Miljökonsult, 38 år, Vaxön
+C|241900|69|K|Ulla Olson|Pensionerad lärare, 69 år, Vaxön
+C|241901|48|K|Malin Fijen Pacsay|48, företagsekonom, Vaxholm
+C|12782|52|K|Karin Enström|52, Riksdagsledamot
+C|23509|30|M|Herman Donner|30, Forskare, Tynningö
+C|23510|68|M|Lars Lindgren|68, Civilekonom, Bogesund
+C|102528|65|K|Annicka Hörnsten Blommé|65, Egenföretagare, Vaxön
+C|23511|54|K|Kristina Runhem|54, Ekonomikonsult, Bogesund
+C|23196|54|M|Mikael Vigvinter|54, Produktspecialist
+C|23513|60|M|Per-Eric Grön|60, Civilekonom, Resarö
+C|23514|61|M|Mats Olofsson|61, Egenföretagare, Vaxön
+C|23169|54|K|Anna Hansson|54, Kundansvarig
+C|23180|46|M|Christian Söderman|46, Jurist
+C|23517|49|K|Eleonore Mårtensson|49, Socionom, Vaxön
+C|23518|67|M|Lars Röckert|67, Egenföretagare, Tynningö
+C|23186|64|M|Lars Sjöblom|64, fd Kriminalpolis
+C|23520|70|M|Sven Morin|70, fd Polisinspektör, Vaxön
+C|23521|78|M|Ingemar Visteus|78, Jur. kand, Vaxön
+C|23522|71|M|Svante Nordell|71, Kommmunikatör, Tynningö
+C|23523|37|M|Henrik Thunell|37, Produktchef, Vaxön
+C|23524|25|K|Frida Hallin|25, Mediakoordinator, Rindö
+C|23525|64|K|Ljiliana Lindgren|64, Fil. kand, Bogesund
+C|67303|57|M|Juha Rapola|57, elingenjör, Vaxholm
+C|67304|64|M|Klas Beskow|64, egenföretagare, Vaxholm
+C|67305|28|M|Douglas Berg|28, kriminolog, Vaxholm
+C|67306|65|K|Maud Beskow|pensionär
+C|217081|41|K|Sara Strandberg|41 år, universitetslektor och forskare, Vaxön
+C|217082|67|M|Curt-Åke Stefan|67 år, solcellstekniker, Vaxön
+C|217083|76|K|Gunilla Lauthers|76 år, arkitekt, Resarö
+C|217084|33|M|Lars Petter Holm|33 år, bemanningsplanerare, Vaxön
+C|217085|74|K|Ingrid Khan|75 år, barnmorska, Rindö
+C|217086|23|M|Linus Amneryd|23 år, banktjänsteman, Vaxholm
+C|217087|71|K|Annbritt Kronlund|71 år, psykolog, Vaxön
+C|217088|42|M|Jonas Strandberg|42 år, universitetslektor och forskare, Vaxön
+C|217089|79|M|Leif Ljungberg|79 år, geovetare, Resarö
+C|217090|63|K|Margita Gustafsson|64 år, undersköterska, Vaxön
+C|217091|63|M|Kenneth Larsson|64 år, addiktolog, Vaxholm
+C|129802|44|M|Carl-Magnus Broström|Banktjänsteman 44 år
+C|129803|76|M|Ingemar Wemmenhög|Major 76 år
+C|129804|70|K|Lisbeth Hjalmarsson Grunditz|Nämndsekreterare 70 år
+C|15815|65|M|Rickard Gille|Civilekonom 65 år
+C|129806|45|M|Peter Lindqvist|Lönechef 45 år
+C|129807|63|M|Lars Zackrisson|Kulturarbetare 63 år
+C|129808|70|K|Elaine Nord Larsson|Fil.kand. 71 år
+C|15814|72|M|Karl Olof Fagerström|Docent 72 år
+C|129810|65|K|Daga Bäfverfeldt|Pensionär 65 år
+C|129811|65|K|Moniqua Hultberg|Egenföretagare 65 år
+C|129812|74|M|Sten Larsson|Sjökapten 74 år
+C|129813|71|K|Leena Hämäläinen|Socialsekreterare 70 år
+C|129814|75|M|Lars Ekengren|Företagare 75 år
+C|129815|47|M|Pelle Väisänen|Egenföretagare 47 år
+C|129816|51|M|Björn Brånebäck|Civilingenjör 51 år
+C|129817|73|K|Christina Granberg|Fil.kand. 73 år
+C|129818|70|M|Stefan Åsblom|WP 70 år
+C|129819|44|K|Anna-Lena Nordén|Förbundssekreterare 43 år
+C|129820|75|K|Lone Svenfelt|Ekonom 74 år
+C|129821|76|M|Olof Svenfelt|Civilingenjör 77 år
+C|129823|60|M|Olle Larsson|Egenföretagare 60 år
+C|129824|75|M|Lars Godberg|Ingenjör 76 år
+C|129825|71|K|Inger Haglund Fagerström|Leg.sjuksköterska 72 år
+C|129826|68|M|Tom Bäfverfeldt|Direktör 68 år

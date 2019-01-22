@@ -1,9 +1,197 @@
-2|158986|19591|158988|19575|10125|158991|158992|158993|10119|10122|158996|158997|158998|158999|159000|159001|159002|19599|159004|159005|159006|10112|159008|159009|159010|159011|159012|159013|159014|159015|159016|159017|159019|159020|159021|159022|159023|159024|159025|159026|159027|159028|159029|159030|159031|159032|159033|159034|159035|159036|159037|159038|159039|159040|159041|159042|159043|159044|159045
-1366|10116|408446|408447|408448|408449|408450|408451|408460|408453|408454|408455|408456|408457|408458|494727|408452|494729|408462|408463|408464|408465|494734|494735|408459|408461|515793|515794|515795
-4|333992|333989|347974|347975|347976|347977|333997|347979|347980|347981|333994|334001|347984|347985|347986|347987|347988|347989|347990|347991|333985|347993|347994
-68|25241|37851|37570|37569|37854|37574|37562|37857|37858|37859|37860|37861|37567
-3|81292|81293|81294|81295|81296
-55|156023|156024|156025|156026
-1|158894|160925|160598|160590|160928|160929|160930|160931|160932|160933|160588|160935|160936|160937|160938|160939|160940|160941|160942|160943
-110|60426|60427|60428|60429|60430|60431|60432|60434|60435|508215|508216|513891|513892|513893|513894|513949
-5|328911|328912|328913|328914|328915|328916|328917|328918|328919|328920|328921|328922
+T|Emmaboda
+A|2|158986|19591|158988|19575|10125|158991|158992|158993|10119|10122|158996|158997|158998|158999|159000|159001|159002|19599|159004|159005|159006|10112|159008|159009|159010|159011|159012|159013|159014|159015|159016|159017|159019|159020|159021|159022|159023|159024|159025|159026|159027|159028|159029|159030|159031|159032|159033|159034|159035|159036|159037|159038|159039|159040|159041|159042|159043|159044|159045
+A|1366|10116|408446|408447|408448|408449|408450|408451|408460|408453|408454|408455|408456|408457|408458|494727|408452|494729|408462|408463|408464|408465|494734|494735|408459|408461|515793|515794|515795
+A|4|333992|333989|347974|347975|347976|347977|333997|347979|347980|347981|333994|334001|347984|347985|347986|347987|347988|347989|347990|347991|333985|347993|347994
+A|68|25241|37851|37570|37569|37854|37574|37562|37857|37858|37859|37860|37861|37567
+A|3|81292|81293|81294|81295|81296
+A|55|156023|156024|156025|156026
+A|1|158894|160925|160598|160590|160928|160929|160930|160931|160932|160933|160588|160935|160936|160937|160938|160939|160940|160941|160942|160943
+A|110|60426|60427|60428|60430|60431|60432|60435|508215|508216|513891|513892|513893|513894|513949
+A|5|328911|328912|328913|328914|328915|328916|328917|328918|328919|328920|328921|328922
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|1366|B-ALT|Bästa Alternativet
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|158986|43|K|Maria Ixcot Nilsson|Lärare, Emmaboda
+C|19591|51|M|Per Adolfsson|byggnadsträarbetare, Emmaboda, 51 år
+C|158988|45|K|Zeljka Krajinovic|administratör, Lindås, 45 år
+C|19575|26|M|Pontus Franzén|träarbetare, Vissefjärda, 26 år
+C|10125|52|K|Annika Karlsson|metallarbetare, Långasjö, 52 år
+C|158991|48|M|Jarkko Pekkala|Arbetsmiljösamordnare, Eriksmåla
+C|158992|57|K|Marie-Louise Eddegård|Omsorgsassistent, Emmaboda
+C|158993|65|M|Jan-Olof P Jäghagen|Glasarbetare, Boda Glasbruk
+C|10119|68|K|Kickie Norrby|egenföretagare, Emmaboda, 68 år
+C|10122|53|M|Dragan Pavlovic|processoperatör, Emmaboda, 53 år
+C|158996|64|K|Gunvor Karlsson|Undersköterska, Vissefjärda
+C|158997|60|M|Flemming Jörgensen|Drifttekniker, Emmaboda
+C|158998|64|K|Ann-Marie Fagerström|Kommunalråd, Emmaboda
+C|158999|29|M|Simon Petersson|Gjuteriarbetare, Lindås
+C|159000|67|K|Gullvi Dahlöf|Fritidsledare, Emmaboda
+C|159001|73|M|Stig-Ove Andersson|Glasarbetare, Emmaboda
+C|159002|69|K|Ingrid Adolfsson|Glasarbetare, Emmaboda
+C|19599|67|M|Christer Norrby|egenföretagare, Vissefjärda, 67 år
+C|159004|58|K|Marina Skoglund|Lärare, Vissefjärda
+C|159005|49|M|András Garami|Egenföretagare, Långasjö
+C|159006|63|K|Eva-Lena Gotthardsson|Emmaboda
+C|10112|51|M|Erik Fors|fastighetsskötare, Emmaboda, 51 år
+C|159008|49|K|Camilla Johansson|Processtekniker, Emmaboda
+C|159009|24|M|Jonas Fors|Emmaboda
+C|159010|55|K|Susanne Gustavsson|Direktsäljare, Emmaboda
+C|159011|63|M|Göran Johansson|Museiintendent, Boda Glasbruk
+C|159012|46|K|Anne Beate Hamilton|Lindås
+C|159013|49|M|Osama Habbak|fd Idrottslärare, Lindås
+C|159014|40|K|Sofie Malmborg|Elmotorlindare, Lindås
+C|159015|52|M|Dan Bondesson|Kyrkhantverkare, Långasjö
+C|159016|73|K|Maj-Brith Andersson|Handelsanställd, Emmaboda
+C|159017|76|M|Göte Svensson|Pensionär, Långasjö
+C|159019|70|M|Jan Karlsson|fd Personaladministratör, Åfors
+C|159020|33|K|Annika Blockmark|Produktionstekniker, Emmaboda
+C|159021|63|M|Kurt Lindblom|Fastighetsskötare, Algutsboda
+C|159022|64|K|Inger Williamsson|Emmaboda
+C|159023|68|M|Yngve Karlsson|Skogsarbetare, Emmaboda
+C|159024|52|K|Samar Zakaria|fd Engelskalärare, Lindås
+C|159025|58|M|Anders Fransson|Metallarbetare, Långasjö
+C|159026|56|K|Ann-Louise Ahonen|Omsorgsassistent, Boda Glasbruk
+C|159027|21|M|Alireza Ahmadi|Metallarbetare, Emmaboda
+C|159028|72|K|Ann-Christine Johansson|Broakulla
+C|159029|41|M|Jonas Holmqvist|Produktionstekniker, Långasjö
+C|159030|50|K|Angela Veltsiou|Handelsanställd, Emmaboda
+C|159031|65|M|Alfred Weinberger|Träarbetare, Emmaboda
+C|159032|63|K|Gunilla Sunesson|Adjunkt, Långasjö
+C|159033|31|M|Joel Bengtzon|Industriarbetare, Långasjö
+C|159034|60|K|Anette Jäghagen|Omsorgsassistent, Boda Glasbruk
+C|159035|58|M|Jimmy Landefjäll|Sågverksarbetare, Emmaboda
+C|159036|69|K|Kathryn Nilsson|Barnskötare, Emmaboda
+C|159037|68|M|Ingmar Karlsson|Pensionär, Vissefjärda
+C|159038|50|K|Lotta Lejon Stenberg|Biblioteksassistent, Eriksmåla
+C|159039|56|M|Peter Svensson|Hantverkare, Vissefärda
+C|159040|57|K|Kristina Ideström|Städsamordnare, Emmaboda
+C|159041|48|M|Niklas Hult|Montör, Emmaboda
+C|159042|66|K|Lena Holmqvist|Långasjö
+C|159043|47|M|Peter Slättman|CNC-operatör, Lindås
+C|159044|62|K|Margaretha Roskvist|Lärare, Eriksmåla
+C|159045|51|K|Anette Svanhall|Metallarbetare, Emmaboda
+C|10116|71|M|Bo Eddie Rossbol|Fd Tekniker
+C|408446|62|K|Anja Karlsson Granlund|Personalchef
+C|408447|52|M|Mats Bjartling|Drifttekniker
+C|408448|43|K|Jenny Petersson|Administratör
+C|408449|56|M|Kent-Göran Karlsson|Fastighetstekniker
+C|408450|61|K|Birgitta Jochnick|Företagare
+C|408451|33|K|Dianne Meijer|Administratör
+C|408460|35|M|Peter Johansson|IT-Tekniker
+C|408453|42|K|Evelina Hjalmarsson|Sjukgymnast
+C|408454|59|K|Birgitta Gahlin|Egenföretagare
+C|408455|58|M|Sonny Meijer|F D Inköpare
+C|408456|49|M|Thomas Herbertsson|Entreprenör
+C|408457|44|K|Eva Ekdahl|Personalvetare
+C|408458|34|M|Houssam Haiek|Målare
+C|494727|23|K|Jenny Lassen|Fritidsassistent
+C|408452|57|K|Dorothee Sch Wiberg|Rådgivare
+C|494729|25|M|Hampus Algotsson|Industrioperatör
+C|408462|66|M|Erling Karlsson|Fd Produktionsledare
+C|408463|24|M|Christoffer Karlsson|Personlig Tränare
+C|408464|41|M|Johan Bernfalk|Entreprenör
+C|408465|47|M|Ola Gustafsson|Sågverksarbetare
+C|494734|72|M|Åke Lindström|Fd Ingenjör
+C|494735|37|M|Muhammed Rifat Shamma|Busschaufför
+C|408459|23|K|Raghad Dakoury|
+C|408461|30|K|Reham Dakoury|
+C|515793|31|M|Sven Holger Leonard Ledung|
+C|515794|36|M|Harley Johansson|
+C|515795|61|M|Stefan Losell|
+C|333992|35|M|Johan Jonsson|35 år, civilekonom, Algutsboda
+C|333989|41|K|Jenny Rydberg|41 år, omsorgsassistent, Emmaboda
+C|347974|64|M|Bo Sunesson|byggnadssnickare, Harebo
+C|347975|50|K|Karin Rask|omsorgsassistent, Algutsboö
+C|347976|75|M|Rune Magnusson|trafiklärare, Emmaboda
+C|347977|48|M|Niklas Banérsson|48 år, brandman, Lindås
+C|333997|78|M|Göran Andersson|78 år, fil. mag., skogsbrukare, Algutsboö
+C|347979|69|K|Angela Fransson|lärare, Emmaboda
+C|347980|41|K|Kristina Lövqvist|omsorgsassistent, Lindås
+C|347981|37|M|Johan Gustafsson|kyrkvaktmästare, Häljanäs
+C|333994|32|K|Linda Johansson|32 år, civilekonom, Algutsboda
+C|334001|69|K|Iréne Nimenius|69 år, teolog, Broakulla
+C|347984|79|M|Lennart Gustavsson|skogsbrukare, Lindehult
+C|347985|31|K|Emelie Lindström|djurskötare, Lindehult
+C|347986|50|K|Anna J Karlsson|ekonomiansvarig, Moshult
+C|347987|79|M|Lage Karlsson|lantbrukare, Karamåla
+C|347988|60|K|Eva Aronsson|gymnasielärare, Gransjö
+C|347989|61|K|Vivi-Ann Ekström|fd djurskötare, Fiskesjö
+C|347990|76|M|Göran Ernstsson|pensionär, Åleberg
+C|347991|75|M|Alf Medin|fd åkeriägare, Långasjö
+C|333985|59|M|Christer Jonsson|59 år, universitetslärare, Emmaboda
+C|347993|70|K|Ingrid Jensen|fd metallarbetare, Emmaboda
+C|347994|71|M|Göran Eriksson|lantbrukare, Kammarbo
+C|25241|73|K|Gull-Britt Hellborg|f d distriktssköterska, Broakulla
+C|37851|41|M|Torgny Karlsson|banktjänsteman, Ingemundebo
+C|37570|53|K|Anne Thuresson|omsorgsassistent, Emmaboda
+C|37569|20|M|Albin Johansson|studerande, Emmaboda
+C|37854|74|K|Kerstin Fridholm|förskollärare, Broakulla
+C|37574|76|M|Mac Hellborg|pensionär, Broakulla
+C|37562|47|K|Helena Berzelius|företagare, Emmaboda
+C|37857|47|M|Mikael Berzelius|konferensansvarig, Åleberg
+C|37858|72|K|Maria Karlsson Olverstrand|konstnär, Broakulla
+C|37859|41|M|Daniel Jonsson|Broakulla
+C|37860|41|K|Katarina Jonsson|elevassistent, Broakulla
+C|37861|76|K|Ros-Marie Sandberg|Långasjö
+C|37567|53|M|Anders Johansson|fritidsledare, Emmaboda
+C|81292|68|M|Lars-Olof Hellborg|Broakulla
+C|81293|70|M|Sven Astevall|Egen företagare, Emmaboda
+C|81294|67|K|Eva Hellborg|Broakulla
+C|81295|73|M|Carl-Gunnar Holst|Broakulla
+C|81296|59|K|Barbro Sjöndin|Broakulla
+C|156023|57|K|Jette Lehrmann Madsen|56 år, Emmaboda
+C|156024|60|K|Gunilla Gerkman|Kursledare, Emmaboda
+C|156025|62|M|Karl Geyer|Pensionär, Vissefjärda
+C|156026|73|K|Inger Bark-Lagergren|Aukt. kroppsterapeut, Lindås
+C|158894|64|M|Sten Olof Johansson|64 år, F.d. företagare, Emmaboda
+C|160925|65|M|Leif Karlsson|65 år, Företagare, Emmaboda
+C|160598|64|M|Stefan Nyström|64 år, Målaremästare, Broakulla
+C|160590|42|K|Ann Helene Jonsson|42 år, Ekonomiassistent, Emmaboda
+C|160928|45|M|Hans Ohlsson|45 år, Fönsterarbetare, Suttaremåla
+C|160929|38|K|Eva Regin Johnston|38 år, Egen företagare, Vissefjärda
+C|160930|63|M|Günter Villman|63 år, Överste, Vissefjärda
+C|160931|37|M|Stefan Focic|37 år, Sågverksarbetare, Emmaboda
+C|160932|47|K|Emma Åhlander Hansson|47 år, Musiklärare, Emmaboda
+C|160933|65|M|Börje Forsberg|65 år, F.d. företagare, Vissefjärda
+C|160588|65|M|Berthold Andersson|65 år, Civilingenjör, Lindås
+C|160935|51|K|Teija Karlsson|51 år, Kundtjänsteman, Emmaboda
+C|160936|45|M|Johan Forsberg|45 år, Säljare, Vissefjärda
+C|160937|39|K|Sara Magnusson|39 år, Företagare, Emmaboda
+C|160938|75|M|Christer Fransson|75 år, Företagare, Vissefjärda
+C|160939|62|M|Thomas Gustafson|62 år, Företagare, Vissefjärda
+C|160940|24|K|Emmie Viding|24 år, Studerande, Emmaboda
+C|160941|68|M|Jan Gustafsson|68 år, Ingenjör, Vissefjärda
+C|160942|48|M|Fredrik Hansson|48 år, Muraremästare, Emmaboda
+C|160943|63|K|Lillemor Karlsson|63 år, Kontorist, Emmaboda
+C|60426|34|M|Martin Henriksson|IT-konsult, Emmaboda
+C|60427|76|M|Lars-Olof Karlsson|yrkeschaufför, Emmaboda
+C|60428|52|K|Anette Rydqvist|skomakarlärling, Emmaboda
+C|60430|36|K|Charlotte Andersson|undersköterska, Lindås
+C|60431|70|M|Bo Häggbring|ingenjör, Vissefjärda
+C|60432|44|M|Tony Johansson|montör, Lindås
+C|60435|38|M|Jan Larsson|industriarbetare, Emmaboda
+C|508215|56|M|Bo Mårtensson|skogsentreprenör,Långasjö
+C|508216|49|M|Stefan Marcelius|gjuteriarbetare, Emmaboda
+C|513891|38|K|Sureerat Somsamai|
+C|513892|71|M|Olle Ronny Bertilsson|
+C|513893|22|M|Jonatan Ekmark Johnsson|
+C|513894|61|M|Stefan Andersson|
+C|513949|36|M|Joakim Henning Dan Persson|
+C|328911|46|M|Nicke Grozdanovski|Emmaboda, Skolbibliotikarie
+C|328912|54|K|Camilla Holgersson|Levnadskonstnär
+C|328913|28|M|Pontus Adolfsson|Lärarstudent
+C|328914|35|M|Daniel Miletic|Emmaboda, Egenföretagare
+C|328915|51|K|Helen Hellgren|Arbetare
+C|328916|18|K|Maria Olsson|Student
+C|328917|57|M|Pelle Hellgren|Kooperativt anställd
+C|328918|83|K|Lise Kroer|Bibliotikarie
+C|328919|20|K|Agnes Brunni|Omsorgsassistent
+C|328920|36|K|Josefin Källqvist Edvardssson|Synthare
+C|328921|44|K|Anna Nilsson|
+C|328922|23|K|Ebba Ringman Brunni|Mammaledig

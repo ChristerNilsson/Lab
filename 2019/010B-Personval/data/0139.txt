@@ -1,9 +1,177 @@
-2|164094|164095|164096|164097|164098|164099|164100|164101|164102|101492|101509|164105|164106|164107|164108|164109|164110|164111|164112|164113|164114|164115|164116|164117|164118|164119|164120|164121|164122|164123|164125|164126|164127|164128|164129|164130|164131|164132|164133|101499|164135|164136|164137
-4|76954|144206|123481|123477|144209|144210|144211|144212|144213|144214|144215|144216|144217|144218
-68|179320|179321|179322|179323|179324|179325|179326|179327|179328|179329|179330|179331|179332|179333|179334|179335|179336|179337
-1140|506257|515096
-3|254966|260689|260690|260691|260692|260693|260694|260695|260696|260697|260698|260699|260700|260701|260702|260703|260704|260705|260706|260707
-55|242300|242301|242302|242303|242304|242305|242306
-1|22928|25151|22936|22937|22947|25155|25156|25157|25158|22955|25160|12823|25162|25163|25164|25165|25166|172391|25167|25168|25169|25170|25171|25172
-110|67263|67264|67265|67266|67267|67268|67270|67271|67272|67273|67274|67275
-5|243831|361957|361958|361959|361960|361961|361962|361963|361964|361965|361967|362922|361968|361969|361970|361971|361972|361973
+T|Upplands-Bro
+A|2|164094|164095|164096|164097|164098|164099|164100|164101|164102|101492|101509|164105|164106|164107|164108|164109|164110|164111|164112|164113|164114|164115|164116|164117|164118|164119|164120|164121|164122|164123|164125|164126|164127|164128|164129|164130|164131|164132|164133|101499|164135|164136|164137
+A|4|76954|144206|123481|123477|144209|144210|144211|144212|144213|144214|144215|144216|144217|144218
+A|68|179320|179321|179322|179323|179324|179325|179326|179327|179328|179329|179330|179331|179332|179333|179334|179335|179336|179337
+A|1140|506257|515096
+A|3|254966|260689|260690|260691|260692|260693|260694|260695|260696|260697|260698|260699|260700|260701|260702|260703|260704|260705|260706|260707
+A|55|242300|242301|242302|242303|242304|242305|242306
+A|1|22928|25151|22936|22937|22947|25155|25156|25157|25158|22955|25160|12823|25162|25163|25164|25165|25166|172391|25167|25168|25169|25170|25171|25172
+A|110|67263|67264|67265|67266|67267|67268|67270|67271|67272|67273|67274|67275
+A|5|243831|361957|361958|361959|361960|361961|361962|361963|361964|361965|361967|362922|361968|361969|361970|361971|361972|361973
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|164094|53|K|Camilla Janson|53, Mentalskötare, Terapeut, Kommunstyrelseordförande, Tibble
+C|164095|42|M|Rolf Nersing|42, Redovisningsekonom, Håbo-Tibble
+C|164096|68|K|Catharina Andersson|68, Konstnär, Brunna
+C|164097|61|M|Björn-Inge Björnberg|61, Ombudsman, Tibble
+C|164098|44|K|Linda Pettersson|44, Handläggare, Kungsängen
+C|164099|19|M|Rasmus Lindstedt|19, Studerande, Bro
+C|164100|60|K|Kerstin Ahlin|60, Vårdare, Bro
+C|164101|56|M|Naser Vukovic|56, Egenföretagare, Bro
+C|164102|29|K|Hibo Salad Ali|29, Biografanställd, Studerande, Kungsängen
+C|101492|68|M|Sven-Inge Nylund|68, Konsult, Upplands-Bro
+C|101509|70|K|Annika Falk|70, Ombudsman, Upplands-Bro
+C|164105|43|M|Seid Alajbegovic|43, Terminalarbetare, Kungsängen
+C|164106|57|K|Helena Austrell|57, Politisk sekreterare, Tibble
+C|164107|50|M|Kimmo Lindstedt|51, Avloppstekniker, Bro
+C|164108|66|K|Mary Svenberg|66, Utredare, Bro
+C|164109|78|M|Jan Lannefelt|78, Herr, Bro
+C|164110|22|K|Linnea Nilsson|22, Anläggningsarbetare, Bro
+C|164111|75|M|Conny Timan|75, Trafikingengör, Brunna
+C|164112|76|K|Anni Ullberg|76, Pensionär, Rättarboda
+C|164113|40|M|Bassem Majid|40, Arbetsledare, Bro
+C|164114|73|K|Birgitta Nylund|73, Systemadministratör, Tibble
+C|164115|75|M|Anders Eklund|75, Pensionär, Tibble
+C|164116|74|K|Jane Eklund|74, Förskollärare, Bro
+C|164117|52|M|Morgan Lindholm|52, Fritidsledare, Bro
+C|164118|44|K|Lorena Ferrari Talavera|44, Enhetsledare, Bro
+C|164119|39|M|Kristian Cronsell|39, Projektledare, Tibble
+C|164120|54|K|Heléne Söderholm|53, Personalhandläggare, Bro
+C|164121|31|M|Sadid Hossain|31, Utledare, Bro
+C|164122|62|K|Maggan Cervinger|62 Konsult, Tibble
+C|164123|76|M|Harry Holmström|75, Pensionär, Tibble
+C|164125|70|M|Bengt Johansson|70, Ingenjör, Bro
+C|164126|70|K|Birgitta Holmström|70, Lektor, Tibble
+C|164127|72|M|Per-Åke Lilja|72, Pensionär, Bro
+C|164128|39|K|Anna Johansson|39, Lärare idrott och hälsa, Bro
+C|164129|73|M|Thord Rahm|73, Pensionär, Bro
+C|164130|72|K|Britt Marie Gerdin|72, Socionom, Tibble
+C|164131|77|M|Leif Öhman|77, Pensionär, Bro
+C|164132|66|K|Susanne Engzell|66, Assistent, Tibble
+C|164133|77|M|Leif Janson|77, Forskare, Tibble
+C|101499|72|K|Lilja Johansson Lindfors|72, Upplands-Bro
+C|164135|72|M|Roger Gerdin|72, Ekonom, Tibble
+C|164136|80|M|Lars Bergendahl|79, Pensionär, Tibble
+C|164137|75|M|Jan Westin|75, Pensionär, Ålsta
+C|76954|55|K|Lisa Edwards|55, Upplands-Bro, Företagare
+C|144206|42|M|Mattias Peterson|42 år, Teknisk koordinator
+C|123481|36|K|Michelle Lindahl|36, Upplands-Bro, HR-partner
+C|123477|52|M|Ricard Wikman Koljo|52, Kungsängen, Projektledare
+C|144209|55|M|Lars Thomasson|55 år, Kommunikatör
+C|144210|25|K|Daphne Borg Frithiofsen|26 år, Ekonomistudent
+C|144211|27|M|Pedro Talavera|27 år, Marknadsförare
+C|144212|44|K|Emine Peterson Ersoy|44 år, Storkundsansvarig
+C|144213|73|M|Lars Malmström|73 år, f.d. Gymnasielärare
+C|144214|43|K|Ingrid Eriksson|43 år, Personalvetare
+C|144215|83|K|Berit Brofalk|84 år, f.d. Gymnasielärare
+C|144216|69|K|Liselotte Lundgren|69 år, f.d. Verksamhetsutvecklare
+C|144217|41|M|Per Lindahl|41 år, IT-konsult
+C|144218|52|M|Göran Söderqvist|52 år, Kommunikatör
+C|179320|64|M|Jan Stefanson|64, Fd. VD, Upplands Bro
+C|179321|63|K|Tina Teljstedt|Samordnare KI
+C|179322|64|M|Jan-Erik Björk|64, Ingenjör, Upplands Bro
+C|179323|65|M|Karl-Erik Lindholm|Fd. kommundirektör
+C|179324|65|K|Marlene Juthstrand|Kursansvarig Klara k:a
+C|179325|67|M|Ingvar Landälv|Civilingenjör
+C|179326|32|M|Linus Stefansson|Serviceman
+C|179327|69|K|Anna-Maj Lilly|Socionom
+C|179328|48|M|Daniele Spagnolo|Enhetschef SLL
+C|179329|76|M|Jarl Teljstedt|Fd. fastighetsmäklare
+C|179330|37|K|Sofia Nordell Ogenvall|Administratör
+C|179331|60|K|Gunilla Nyberg|Lärare
+C|179332|63|M|Tommy Wiberg|Lärare
+C|179333|74|K|Marianne Manell|Pensionär
+C|179334|61|M|Per-Erik Nordell|Företagare
+C|179335|62|M|Lars Flank|Civilingenjör
+C|179336|63|M|Björne Rääf|Redovisningskonsult
+C|179337|63|M|Björn Gustafsson|Ingenjör
+C|506257|63|M|Issa Mardiny|lärare/handledare, 63, Kungsängen/Upplands-Bro
+C|515096|51|K|Jenni Pettersson|
+C|254966|64|M|Martin Normark|Energiexpert, Kungsängen
+C|260689|63|M|Hans Åberg|Företagare, Lennartsnäs
+C|260690|40|K|Linda Du Rietz|Projektledare, Bro
+C|260691|66|M|Börje Wredén|Regionplanerare, Håbo-Tibble
+C|260692|65|K|Nawal Al-Ibrahim|lektor, Upplands Bro
+C|260693|64|M|Anders Eklöf|gymnasielärare, Kungsängen
+C|260694|72|K|Marianne Stigle|Lärare, Kungsängen
+C|260695|43|M|André Javdan|IT-konsult, Bro
+C|260696|62|K|Iréne Eklöf|sjuksköterska, Kungsängen
+C|260697|72|M|Sören Fridman|Företagare, Håbo-Tibble
+C|260698|40|K|Ingela Nordebo|Socialsekreterare, Brunna
+C|260699|73|M|Gunnar Gredenman|Civilekonom, Brunna
+C|260700|64|M|Ulf Hilonen|pensionär, Bro
+C|260701|74|K|Monica Nordebo|Samhällsarbetare, Kungsängen
+C|260702|62|M|Dimitri Christidis|Företagare, Bro
+C|260703|74|M|Ingemar Hägg|Ekonom, Kungsängen
+C|260704|28|M|Niklas Odelberg|Student, Kungsängen
+C|260705|36|M|Malte Hildingsson|Programmerare, Lennartsnäs
+C|260706|85|M|Lennart Stigle|Pensionär, Kungsängen
+C|260707|82|M|Gunnar Kvarnefalk|Ingenjör, Kungsängen
+C|242300|40|K|Sara Ridderstedt|40, journalist, Upplands-Bro
+C|242301|35|M|Andrée Wright|elektriker
+C|242302|57|K|Cecilia Nielsen|lärare
+C|242303|77|M|Klaus Durhagen|
+C|242304|67|K|Kerstin Krantz Durhagen|
+C|242305|58|M|Tilman D Thulesius|företagare
+C|242306|45|K|Mariana Ledesma|biolog
+C|22928|57|M|Fredrik Kjos|57, Jurist
+C|25151|57|M|Kaj Bergenhill|Finansekonom, Kungsängen
+C|22936|52|K|Minna Ahokas|52, Ridlärare
+C|22937|75|M|Anders Åkerlind|75, fd Flygkapten
+C|22947|48|M|Marcus Sköld|48, Diplomingenjör
+C|25155|72|K|Mait Johansson|fd Administratör, Håtuna
+C|25156|57|M|Paul Gustafsson|Avdelningschef, Bro
+C|25157|71|K|Lisbeth Waern|Ekonom, Kungsängen
+C|25158|22|M|Björn Elfvelin|Utbildare, Kungsängen
+C|22955|60|M|Göran Malmestedt|60, Egenföretagare
+C|25160|63|M|Jan Jansson|Affärsutvecklare, Kungsängen
+C|12823|55|M|Masoud Zadeh|55, Utbildningschef
+C|25162|70|M|Rolf Andersson|fd Kriminalinspektör, Kungsängen
+C|25163|71|M|Stanislaw Lewalski|fd Sjöofficer, Kungsängen
+C|25164|71|M|Lars Axelsson|Företagare, Kungsängen
+C|25165|62|M|Mats Högberg|Civilingenjör, Kungsängen
+C|25166|77|M|Arne Vallqvist|Ingenjör, Kungsängen
+C|172391|36|M|Joakim Bencker|Säkerhetsarbete, Kungsängen
+C|25167|67|K|Lena Åkerlind|Lärare, Kungsängen
+C|25168|27|M|Armin Khajehdehi|Juriststudent, Kungsängen
+C|25169|68|K|Kerstin Molander|Pensionär, Kungsängen
+C|25170|69|M|Erling Weibust|Civilingenjör, Kungsängen
+C|25171|20|M|Daniel Walfridsson|Bro
+C|25172|52|K|Cecilia Norlin|Sjuksköterska, Bro
+C|67263|75|K|Katarina Olofsson|Byggnadsingenjör, Upplands-Bro
+C|67264|40|M|Andreas Persson|40, ingenjör, Kungsängen
+C|67265|48|M|Johan Silversjö|48, IT-konsult, Upplands-Bro
+C|67266|61|M|Johan Tholander|61, kommunikationsstrateg, Upplands-Bro
+C|67267|43|K|Helena Lundgren|43, IT tekniker, Upplands-Bro
+C|67268|73|M|Jan Ramstedt|72, entreprenör, Bro
+C|67270|63|M|Börje Svensson|63, elektriker, Bro
+C|67271|42|K|Agnieszka Silversjö|42, säljare, Kungsängen
+C|67272|65|K|Annette Nyberg|65, undersköterska, Upplands-Bro
+C|67273|57|M|Mats Zettmar|57, officer, Upplands-Bro
+C|67274|56|M|Jörgen Ättner|56, företagare, Bro
+C|67275|65|M|Stefan Andersson|65, pensionär, Bro
+C|243831|64|K|Kerstin Åkare|Upplands-Bro, grundskollärare
+C|361957|66|M|Erik Karlsson|Håbo-Tibble
+C|361958|59|K|Marianne Kjellberg|Brunna
+C|361959|49|M|Khalouta Simba|Bro
+C|361960|84|K|Annelies Lindblom|Kungsängen
+C|361961|82|M|Kjell A Johansson|Kungsängen
+C|361962|70|K|Kristina Henriksson|Råby
+C|361963|70|K|Anita Edman|Råbyskogen
+C|361964|62|M|Khurshid Chowdhury|Råby
+C|361965|48|K|Malin Makboul|Signhildsberg
+C|361967|72|M|Martin Arovén|Kungsängen
+C|362922|53|K|Sussanne Persson|Bro
+C|361968|70|K|Amal Yazigi|Kungsängen
+C|361969|69|K|Cecilia Golborne|Kungsängen
+C|361970|70|M|Hans-Göran Enedahl|Kungsängen
+C|361971|36|K|Amna Akhter|Bro
+C|361972|72|M|Sven Örnsten|Tibble
+C|361973|69|K|Mónica Vásquez|Kungsängen

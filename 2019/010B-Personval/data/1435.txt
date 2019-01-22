@@ -1,10 +1,215 @@
-2|43379|43380|43381|43382|43383|43384|43385|43386|43387|43388|43389|43390|43391|43392|43393|43394|43395|43396|43397|43398|43399|43400|43401|43402|43403|43404|43405|43407|43408|43409|43410|43411|43412|43413|43414
-4|1881|1890|11730|11731|11732|11733|11734|1894|11736|11737|11738|11739|11740|11741|11742|11743|11744|11745|11746|11747|11748|1982|11802|11803|11804|11805|11806|11807|1895|11839|1952|1897|11842|11843|11844|11845|11847|11848|11849|11850|11851|11852|11853|11854|11855|11856|11857|11858|1983|11908|11909|11910|11911|1968|11913|11914|11915|11916|11917|11918|11919|11920|11921|11922|11923|11924|11925|11926|473182
-68|248809|248813|249694|249695|249696|249697
-1398|507675|507676
-1011|510759
-3|243894|243895|243896|243897|243898|243899|243900|243901|243902|243903|243904|243905|243906|243907|243908|243909|243910|243911|243912|243913|416973|243915|243916|243917
-55|146482|146483|146484|146485|146486|146487|146488|146489
-1|254206|243445|254914|254915|254916|254917|254223|254919|254920|243438|254922|254923|254924|254925|254926|254927|243426|254929|254930|254931|254932|254933|254934|254935|254936|254937|254938|254939|254940|254941|254942
-110|62655|62656|62657|62658|62659|62660|62661|515967|516032
-5|242609|242610|242611|242612|242613|242614|242615|242616|242617
+T|Tanum
+A|2|43379|43380|43381|43382|43383|43384|43385|43386|43387|43388|43389|43390|43391|43392|43393|43394|43395|43396|43397|43398|43399|43400|43401|43402|43403|43404|43405|43407|43408|43409|43410|43411|43412|43413|43414
+A|4|1881|1890|11730|11731|11732|11733|11734|1894|11736|11737|11738|11739|11740|11741|11742|11743|11744|11745|11746|11747|11748|1982|11802|11803|11804|11805|11806|11807|1895|11839|1952|1897|11842|11843|11844|11845|11847|11848|11849|11850|11851|11852|11853|11854|11855|11856|11857|11858|1983|11908|11909|11910|11911|1968|11913|11914|11915|11916|11917|11918|11919|11920|11921|11922|11923|11924|11925|11926|473182
+A|68|248809|248813|249694|249695|249696|249697
+A|1398|507675|507676
+A|1011|510759
+A|3|243894|243895|243896|243897|243898|243899|243900|243901|243902|243903|243904|243905|243906|243907|243908|243909|243910|243911|243912|243913|416973|243915|243916|243917
+A|55|146482|146483|146484|146485|146486|146487|146488|146489
+A|1|254206|243445|254914|254915|254916|254917|254223|254919|254920|243438|254922|254923|254924|254925|254926|254927|243426|254929|254930|254931|254932|254933|254934|254935|254936|254937|254938|254939|254940|254941|254942
+A|110|62655|62656|62657|62658|62659|62660|62661|515967|516032
+A|5|242609|242610|242611|242612|242613|242614|242615|242616|242617
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1398|KviP|KvillePartiet
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|43379|45|K|Louise Thunström|Oppositionsråd, 45 år, Havstenssund
+C|43380|27|M|Oskar Josefsson|Snickare, 27 år, Rabbalshede
+C|43381|30|K|Ida Jakobsson|Undersköterska, 30 år, Tanum
+C|43382|72|M|Roger Friberg|Byggnadsarbetare, 72 år, Hamburgsund
+C|43383|56|K|Gunilla Palm|Lokalvårdare, 55 år, Grebbestad
+C|43384|41|M|Magnus Roessner|Elektriker, 41 år, Tanum
+C|43385|63|K|Ann-Christin Antonsson|Pensionär, 64 år, Grebbestad
+C|43386|63|M|Ronny Larsson|Företagare, 63 år, Rabbalshede
+C|43387|51|K|Ramona Cully|Habiliteringspersonal, 51 år, Tanumshede
+C|43388|32|M|Ronny Kallin|Snickare, 33 år, Rabbalshede
+C|43389|72|K|Birgit Ekholm|Pensionär, 72 år, Tanumshede
+C|43390|60|M|Glenn Sandsten|Snickare, 60 år, Fjällbacka
+C|43391|64|K|Lisbeth Axelsson Johansson|Undersköterska, 64 år, Fjällbacka
+C|43392|58|M|Håkan Linder|Vaktmästare, 58 år, Grebbestad
+C|43393|64|K|Ann-Christin Karlsson|Undersköterska, 64 år, Grebbestad
+C|43394|45|M|Per Danielsson|Fritidsledare,45 år,Rabbalshede
+C|43395|41|K|Camilla Hogebrandt|Habiliteringspersonal, 41 år, Tanumshede
+C|43396|73|M|Tyrone Andersson|Socialarbetare, 73 år, Grebbestad
+C|43397|32|K|Ellika Andersson|Säljare, 32 år, Rabbalshede
+C|43398|30|M|Niklas Klaving|Barnskötare, 30 år, Hamburgsund
+C|43399|68|K|Gisela Thureskog|Butiksföreståndare, 68 år, Tanumshede
+C|43400|70|M|Jan Andersson|Pensionär,70 år,Rabbalshede
+C|43401|61|K|Ingrid Almqvist|Habiliteringspersonal, 61 år , Fjällbacka
+C|43402|47|M|Sebastian Myrström|Fysioterapeut, 48 år, Fjällbacka
+C|43403|34|K|Jenny Corneliusson|Habiliteringspersonal, 34 år Rabbalshede
+C|43404|50|M|Joakim Nilsson|Undersköterska, 50 år, Tanumshede
+C|43405|63|K|Ingela Andersson|Undersköterska, 63 år, Grebbestad
+C|43407|72|K|Gerd Melin|Pensionär, 73 år, Fjällbacka
+C|43408|61|M|Nils Hansson|Kulturminnesvårdare, 62 år, Tanumshede
+C|43409|45|K|Madeleine Myrström Kamb|Präst, 45 år,Fjällbacka
+C|43410|38|M|Christian Carlsson|Studerande, 38 år, Tanumshede
+C|43411|60|K|Ann-Katrine Larsson Ström|Lärare, 59 år, Tanumshede
+C|43412|74|M|Alf Jonasson|Pensionär, 74 år, Fjällbacka
+C|43413|75|K|Inga-Lill Wahlberg|Pensionär, 75 år, Tanumshede
+C|43414|83|M|Sverre Palm|Pensionär, 84 år, Grebbestad
+C|1881|58|M|Roger Wallentin|jordbrukare, 58 år, Tanum
+C|1890|37|K|Kajsa Mattsson|personlig assistent, 37 år, Tanum
+C|11730|43|K|Linda Hermansson|Tyft, Tanumshede
+C|11731|60|K|Gerd Johansson|Flötemarken, Bullaren
+C|11732|72|M|Rune Hermansson|Smeberg, Bullaren
+C|11733|59|K|Astrid Helgesson|Tveten, Bullaren
+C|11734|30|M|Thomas Fransson|Villavägen, Bullaren
+C|1894|36|M|Peder Johansson|kemiingenjör, 37 år, Tanum
+C|11736|44|M|Urban Hermansson|Örmjält, Bullaren
+C|11737|47|K|Marina Robertsson|Svenungsröd, Bullaren
+C|11738|67|K|Inger Rörvall|Älgeland, Bullaren
+C|11739|57|K|Marina Johansson|Remne, Bullaren
+C|11740|66|M|Karl-Erik Andreasson|Mörehogen, Bullaren
+C|11741|39|M|Roger Andreasson|Ån, Bullaren
+C|11742|64|M|Ulf Helgesson|Tveten, Bullaren
+C|11743|49|M|Peter Hall|Säm, Bullaren
+C|11744|55|M|Guy Robertsson|Svenungsröd, Bullaren
+C|11745|46|K|Eva Bäck|Brobacken, Bullaren
+C|11746|63|M|Gerhard Paulsson|Mörken, Bullaren
+C|11747|61|M|Roger Johansson|Remne, Bullaren
+C|11748|62|K|Paula Johansson|Björkemarken, Bullaren
+C|1982|66|K|Berit Karlsson|pensionär, 66 år, Tanum
+C|11802|19|K|Evelina Hermansson|19 år,Tyft,Tanumshede
+C|11803|21|M|David Hagsköld|Nilsson,21 år,Torbal,Lur
+C|11804|18|M|Johan Wallentin|18 år,Remne,Bullaren
+C|11805|18|M|Oscar Carlsson|18 år,Ljungbytorp,Tanumshede
+C|11806|25|M|Erik Wallentin|25 år,Håltane,Bullaren
+C|11807|22|M|Calle Jodensvi|22 år,Lövsångarvägen,Tanumshede
+C|1895|34|M|Erik Norderby|officer, 34 år, Tanum
+C|11839|38|K|Karolina Aronsson Tisell|Humlekärr, Fjällbacka
+C|1952|71|M|Clas-Åke Sörkvist|fd.polis, 71 år, Tanum
+C|1897|64|K|Ann-Marie Olofsson|handläggare, 64 år, Tanum
+C|11842|60|M|Håkan Elg|Veberg Hedarna, Rabbalshede
+C|11843|69|M|Lars Olrog|Branneby, Fjällbacka
+C|11844|60|M|Magnus Aronsson|Dahle, Rabbalshede
+C|11845|52|M|Peter Adlersson|Övre Hede, Fjällbacka
+C|11847|38|K|Sofia Agertoft|Falkevägen, Fjällbacka
+C|11848|59|M|Christian Aronsson|Doveland, Fjällbacka
+C|11849|59|M|Björn Christiansson|Rörvik, Hamburgsund
+C|11850|51|M|Michael Gustafsson|Grind, Fjällbacka
+C|11851|56|K|Eva Aronsson|Doveland, Fjällbacka
+C|11852|58|K|Agneta Svedin Karlsson|Alnäs, Rabbalshede
+C|11853|62|M|Sven Andersson|Allestorp, Fjällbacka
+C|11854|68|M|Jan Karlsson|Alnäs, Rabbalshede
+C|11855|68|M|Kent Andersson|Lilla Jore, Fjällbacka
+C|11856|46|M|Henrik Martinsson|Nasseröd, Hamburgsund
+C|11857|36|M|Martin Alfredsson|Branneby, Fjällbacka
+C|11858|65|M|Jan Qvillby|Åsleröd, Fjällbacka
+C|1983|66|M|Karl-Erik Hansson|jordbrukare, 66 år, Tanum
+C|11908|57|K|Kerstin Fransson|Morkullevägen, Tanumshede
+C|11909|53|M|Arne Mörk|Tågeröd, Tanumshede
+C|11910|56|M|Roger Jodensvi|Lövsångarvägen, Tanumshede
+C|11911|62|M|Stefan Edlund|Lilla Ulvesked, Tanumshede
+C|1968|60|K|Bente Dahlgren|handläggare, 60 år, Tanum
+C|11913|63|M|Magnus Bengtsson|Långsjö, Fjällbacka
+C|11914|72|K|Margareta Nilsson|Aleviken, Grebbestad
+C|11915|41|M|Tobias Hermansson|Skomakarev,Tanumshede
+C|11916|59|K|Lena Andersson|Lursäng, Lur
+C|11917|49|M|Stefan Arvidsson|Aleviken, Grebbestad
+C|11918|53|K|Lena Andersson|Kil, Lur
+C|11919|70|M|Rune Hogebrandt|Lurs Hogar, Tanumshede
+C|11920|71|K|Marita Isaksson|Veddö, Fjällbacka
+C|11921|70|K|Paula Widén|Klåvavägen, Tanumshede
+C|11922|66|K|Birgit Gustavsson|Håkebytorp, Tanumshede
+C|11923|62|M|Tommy Dahlgren|Amiralsvägen, Grebbestad
+C|11924|78|K|Berit Carlsson|Ljungbytorp, Tanumshede
+C|11925|62|K|Anita Olsson|Utby, Tanumshede
+C|11926|73|M|Roland Andersson|Stora Anrås, Tanumshede
+C|473182|68|M|Lennart Sörkvist|Skebräcke, Fjällbacka
+C|248809|75|M|Berndt Hansson|Fiskare, Tanum
+C|248813|59|K|Anna-Lena Karlsson|Webbdesigner, Tanum
+C|249694|50|M|Anders Kristensson|Polis, Fjällbacka
+C|249695|73|M|Sonny Haglund|Företagare, Fjällbacka
+C|249696|68|K|Mainy Andersson|Civilekonom, Resö
+C|249697|60|M|Kenneth Hansson|Chaufför, Havstenssund
+C|507675|66|M|Hasse Kvillebo|Jurist
+C|507676|18|K|Annie Kvillebo|Studerande
+C|510759|73|M|Bjarne Halvordsson|
+C|243894|61|M|Benny Svensson|61, kyrkvaktmästare, Tanum
+C|243895|39|K|Linnea Hedemyr|39 år, Tanumshede
+C|243896|61|M|Jan Olsson|61 år, Hamburgsund
+C|243897|34|K|Lotta Långström|34 år, Grebbestad
+C|243898|26|M|Christian Mattsson|26 år, Grebbestad
+C|243899|63|K|Eva Hansson|63 år, Havstenssund
+C|243900|43|M|Mikael Albrektsson|42 år, Grebbestad
+C|243901|23|K|Lisa Olsson|23 år, Hamburgsund
+C|243902|69|M|Thore Axelsson|69 år, Fjällbacka
+C|243903|41|K|Viktoria Anneflod|41 år, Bullaren
+C|243904|63|M|Kjell Karlson|61 år, Grönemad
+C|243905|65|K|Berit Stjern|73 år, Krossekärr
+C|243906|56|M|Sven-Eric Ohlsson|56 år, Svenneby
+C|243907|61|K|Karin Karlson|61 år, Grönemad
+C|243908|73|M|Lennart Stjern|73 år, Krossekärr
+C|243909|63|K|Inger Larsson Bohlin|63 år, Tanumshede
+C|243910|57|M|Ronni Pålsson|57 år, Edsvik
+C|243911|66|K|Ann-Lis Kjellberg Olsson|66 år, Hamburgsund
+C|243912|45|M|Juha Litmanen|45 år, Tanumshede
+C|243913|62|K|Ann-Helén Danielsson|62 år, Tanumshede
+C|416973|72|M|Thure Zakariasson|72 år, Tanumshede
+C|243915|76|K|Sonja Lantz|76 år, Sannäs
+C|243916|77|M|Kurt Svedberg|77 år, Tanumshede
+C|243917|62|M|Paul Carlsson|62 år, Tanumshede
+C|146482|67|M|Michael Halvarsson|Grebbestad
+C|146483|62|K|Berta Valenzuela|Grebbestad
+C|146484|27|M|Johan Eriksson|Grebbestad
+C|146485|55|M|Michael Norlind|Gerlesborg
+C|146486|51|K|Kim de Bruin|Grebbestad
+C|146487|54|M|Ulf Olsson|Gerlesborg
+C|146488|37|K|Hillevi Stråge|Tanumshede
+C|146489|48|K|Pernilla Knutsen|Kville
+C|254206|51|K|Liselotte Fröjd|51, Kommunalråd, Grebbestad
+C|243445|58|M|Hans Schub|58, IKT-pedagog, Tanum
+C|254914|63|M|Lennart Larson|Byggkonsult, civ.ing, Bullaren
+C|254915|32|K|Ida Östholm|Krögare, Tegneby
+C|254916|64|M|Alf Johansson|Fd företagsledare, Grebbestad
+C|254917|64|K|Birgitta Nilsson|Fd egen företagare, Tanumshede
+C|254223|69|M|Claes G Hansson|69, Advokat, Sannäs
+C|254919|59|M|Agne Andrésen|Säljare av byggmaterial, Lur
+C|254920|68|K|Lisbeth Hansson|Fd ekonom, Tanumshede
+C|243438|70|M|Ulf Bertilsson|70, Fil.Dr Forskare, Tanum
+C|254922|67|K|Kristina Frigert|Lärare, Grebbestad
+C|254923|69|K|Rosita Jansson|Läkarsekreterare, Fjällbacka
+C|254924|64|K|Ingrid Klingspor|Livsmedelskonsult, Fjällbacka
+C|254925|66|K|Catarina Bertilsson|Antikvarie. Bitr. forskare, Galtö
+C|254926|56|M|Anders J Fogelmark|Kyrkvaktmästare, Bullaren
+C|254927|69|M|Lars Johansson|Egen företagare, Fjällbacka
+C|243426|33|M|Johan Hultberg|riksdagsledamot, Västra Götalands norra
+C|254929|61|M|Urban Jansson|Båtvarvsägare, Fjällbacka
+C|254930|39|M|Carl Fredelin|Egen företagare, Grebbestad
+C|254931|36|K|Linda Witt|Operativ chef, Sövall
+C|254932|54|M|Johan Ulriksson|HR, kommunikation, Fjällbacka
+C|254933|18|M|Victor Larsson|Studerande, Fjällbacka
+C|254934|65|M|Lars Wennerås|Fd bryggeriägare, Sannäs
+C|254935|67|M|Enar Bohlin|Lantbrukare, Tanumshede
+C|254936|64|M|Lars Johansson|Egen företagare, Grebbestad
+C|254937|66|M|Bengt Ekelund|Läkare, Mjölkeröd
+C|254938|72|K|Margareta Haglund|Leg.sjuksköterska, Galtö
+C|254939|72|K|Mariana Ekberg|Förskollärare, Sannäs
+C|254940|63|K|Eva-Lena Sundås|Leg. sjuksköterska, Sövall
+C|254941|29|M|Andreas Isaksson|Greenkeeper, Sannäs
+C|254942|73|M|Roland Isaksson|Gårdsbrukare, Galtö
+C|62655|34|M|Gobben O. Haugland|34, Egenföretagare, Tanumshede
+C|62656|68|M|Lars-Erik Borg|68, Arbetande pensionär, Bullaren
+C|62657|49|M|Roar Olsen|49, Ambulanssjukvårdare, Tanumshede
+C|62658|69|M|Rolf Trohne|69, Pensionär, Lur
+C|62659|69|K|May Hedström|69, Specialistsjuksköterska, Grebbestad
+C|62660|41|M|Christian Askros|41, Egenföretagare, Tanum
+C|62661|55|K|Kristina Borg|55, Busschaufför, Lur
+C|515967|66|M|Göran Krister Danielsson|
+C|516032|80|M|Rolf Henric Rudin|
+C|242609|29|K|Annette Hellberg|29 år, Tannam, biologistuderande
+C|242610|44|K|Gunilla Eitrem|44 år, Grebbestad, behandlingsassistent
+C|242611|28|M|Andreas Johansson|28 år, Kville, lärare
+C|242612|34|M|Fredrik Forsström|34 år, Bullaren, lärare
+C|242613|57|K|Vivianne Andersson|57 år, Grebbestad, socialarbetare
+C|242614|66|M|Bengt Eriksson|66 år, Grebbestad, snickare
+C|242615|38|K|Anna Gustafsson|38 år, Hamburgsund, familjebehandlare
+C|242616|62|M|Björn Lönnhöjden|62 år, Lur, habiliteringspersonal
+C|242617|45|K|Sara Eitrem|45 år, Grebbestad, hälsoskyddsinspektör

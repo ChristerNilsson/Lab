@@ -1,7 +1,133 @@
-2|192132|193435|193473|199554|193457|199556|199557|199558|199559|199560|199561|199562|199563|192119|199565|199566|199567|199568|199569|199570|199571|199572|199573|193476|199575|199576|199577|199578|199579|199580|199581|199582|199583|199584|199585|199586|203346|203347
-4|48798|48815|70992|49257|70994|70995|70996|70997|70998|70999|71000|71001|71002|71003|71005|71006|71007|71008|71009|71010|71011|71012|71013|71014|71015|71016|71017|71018|71019|71020
-68|5835|5849|48327|48328|48329|48330|48331|48332|48333|48334|48335|48336|48337|48338|48339|48340
-55|515665
-1|7794|361172|361173|361174|230012|361176|361177|361178|361179|361180|361181|361182|361183|361184|361185|361186|361187|408506|408507|361188|361189|361190|361191|361192
-110|74305|74306|74307
-5|392165|392193|392194|392195|392196|392197
+T|Vindeln
+A|2|192132|193435|193473|199554|193457|199556|199557|199558|199559|199560|199561|199562|199563|192119|199565|199566|199567|199568|199569|199570|199571|199572|199573|193476|199575|199576|199577|199578|199579|199580|199581|199582|199583|199584|199585|199586|203346|203347
+A|4|48798|48815|70992|49257|70994|70995|70996|70997|70998|70999|71000|71001|71002|71003|71005|71006|71007|71008|71009|71010|71011|71012|71013|71014|71015|71016|71017|71018|71019|71020
+A|68|5835|5849|48327|48328|48329|48330|48331|48332|48333|48334|48335|48336|48337|48338|48339|48340
+A|55|515665
+A|1|7794|361172|361173|361174|230012|361176|361177|361178|361179|361180|361181|361182|361183|361184|361185|361186|361187|408506|408507|361188|361189|361190|361191|361192
+A|110|74305|74306|74307
+A|5|392165|392193|392194|392195|392196|392197
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|192132|42|M|Mathias Haglund|42 år, Ekonom, Åmsele
+C|193435|57|K|Nina Loughlin|57 år, Näringslivsutvecklare, Granö
+C|193473|44|M|Dan Oskarsson|44 år, Metallarbetare, Vindeln
+C|199554|50|K|Britt-Louise Eriksson|50 år, Egen företagare, Sundö
+C|193457|47|M|Joakim Olsson|47 år, Brandmästare, Tvärålund
+C|199556|27|K|Elin Dahl|27 år, Undersköterska, Vindeln
+C|199557|72|M|Per-Anders Olsson|72 år, Pensionär, Vindeln
+C|199558|63|K|Gudrun Wikström|63 år, Leg. arbetsterapeut, Vindeln
+C|199559|41|M|Kent-Erik Mattsson|41 år, Metallarbetare, Vindeln
+C|199560|31|K|Josefine Granberg|31 år, Undersköterska, Granö
+C|199561|59|M|Ulf-Peter Nilsson|59 år, Chaufför, Granö
+C|199562|71|K|Astrid Brorsson|71 år, Pensionär, Vindeln
+C|199563|63|M|Thomas Hedman|63 år, Pensionär, Vindeln
+C|192119|33|K|Elin Palmgren|33 år, Metallarbetare, Vindeln
+C|199565|37|M|Michael Andersson|37 år, Lärarvikarie, Tvärålund
+C|199566|34|K|Maria Eklund|34 år, Metallarbetare, Vindeln
+C|199567|63|M|Anders Wikström|63 år, Förskolechef, Vindeln
+C|199568|82|K|Henny Södermark|82 år, Pensionär, Storsävarträsk
+C|199569|44|M|Mikael Güzel|44 år, Metallarbetare, Vindeln
+C|199570|45|K|Malin Flumé|45 år, Samordnare, Vännäs
+C|199571|40|M|Mats Sandström|40 år, Verkstadsarbetare, Vindeln
+C|199572|58|K|Annelie Bjurén|58 år, Undersköterska, Vindeln
+C|199573|66|M|Christer Blomgren|66 år, Ljudtekniker, Vindeln
+C|193476|65|K|Annelise Harnesk|65 år, Egen företagare, Vindeln
+C|199575|65|M|Göran Hedman|65 år, Metallarbetare, Hjuken
+C|199576|53|K|Anna Hägglund|53 år, Vikariesamordnare, Vindeln
+C|199577|79|M|Kurt Lindbäck|79 år, Pensionär, Vindeln
+C|199578|65|K|Chatrine Hägglund|65 år, Pensionär, Hällnäs
+C|199579|57|M|Ulf Granström|57 år, Kursledare, Strycksele
+C|199580|64|K|Marianne Berglund|64 år, Enhetschef, Granö
+C|199581|66|M|Roland Fredriksson|66 år, Pensionär, Böjern
+C|199582|65|K|Ingrid Nygren|65 år, Undersköterska, Vindeln
+C|199583|72|M|Åke Adriansson|72 år, Pensionär, Vindeln
+C|199584|71|K|Birgitta Ekvall|71 år, Pensionär, Vindeln
+C|199585|78|M|Dan-Olov Andersson|78 år, Maskinförare, Åmsele
+C|199586|78|K|Lena Selge|78 år, Pensionär, Hällnäs
+C|203346|69|M|Börje Lundström|69 år, Pensionär, Vindeln
+C|203347|71|M|Christer Karlsson|71 år, Pensionär, Hällnäs
+C|48798|51|M|Simon Karström|51 år, IT-företagare, Vindeln
+C|48815|48|K|Caroline Löfström|48 år, Verksamhetschef, Vindeln
+C|70992|73|M|Christer Lundgren|73 år, Tvärålund
+C|49257|61|K|Ewa-May Karlsson|61 år, Gruppledare i landstinget, Vindeln
+C|70994|55|K|Marianne Hörnberg|55 år, Vindeln
+C|70995|34|M|Marcus Gunnarsson|34 år, Vindeln
+C|70996|68|K|Christina Konradsson|68 år, Slipstenssjön
+C|70997|22|K|Julia Karström|22 år, Vindeln
+C|70998|63|M|Per-Uno Bergner|63 år, Vindeln
+C|70999|73|M|Åke Strandgren|73 år, Vindeln
+C|71000|29|K|Ingela Karlsson|29 år, Vindelånäset
+C|71001|27|K|Lottie Andersson|27 år, Vindeln
+C|71002|49|M|Mats Jonsson|49 år, Degerön
+C|71003|20|K|Johanna Adelsson|20 år, Hälsingfors
+C|71005|28|M|Johan Lundgren|28 år, Tvärålund
+C|71006|29|K|Mathilda Berg|29 år, Granö
+C|71007|30|M|Olov Sandström|20 år, Vindelånäset
+C|71008|66|K|Desireé Sjögren|66 år, Tvärålund
+C|71009|52|M|Janne Norén|52 år, Vindeln
+C|71010|46|M|Mattias Sjögren|46 år, Tvärålund
+C|71011|33|K|Erika Larsson|33 år, Överrödå
+C|71012|65|M|Bertil Nygren|66 år, Tegsnäset
+C|71013|46|K|Jennie Stenborg|46 år, Tvärålund
+C|71014|57|M|Göran Häggström|57 år, Fäboden
+C|71015|72|K|Birgita Sigfridsson|72 år, Eriksdal
+C|71016|54|K|Satu Savolainen|54 år, Vindeln
+C|71017|52|M|Jan Olophsson|52 år, Vindeln
+C|71018|71|K|Maine Forsman|70 år, Mårdsele
+C|71019|68|M|Bernt Sandström|67 år, Manjaur
+C|71020|45|M|Anders Lundgren|45 år, Tvärålund
+C|5835|22|K|Ida Öhman|studerande, Vindeln
+C|5849|73|M|Christer Jonsson|ingenjör, Vindeln
+C|48327|26|M|Andreas Nehlin|samhällsplanerare, Vindeln
+C|48328|50|M|Nicholas Nordlander|fritidsföreståndare, Granö
+C|48329|38|M|David Andersson|företagare, Strycksele
+C|48330|53|K|Anneli Öhman|förskollärare, Vindeln
+C|48331|48|K|Helen Löfdahl|företagare, Tvärålund
+C|48332|67|M|Carl-Henric Svanbäck|tekniker, Strycksele
+C|48333|44|K|Åsa Åsberg|brevbärare, Vindeln
+C|48334|45|M|Jesper Arnfjell|undersköterska, Granö
+C|48335|22|M|Victor Israelsson|snickare, Tvärålund
+C|48336|53|K|Annica Dahlgren|pensionär, Vindeln
+C|48337|74|M|Lennart Granström|företagare, Granö
+C|48338|79|M|Erling Olmosse|pensionär, Vindeln
+C|48339|65|M|Tage Stenmark|lärare, Vindeln
+C|48340|77|M|Karl-Fredrik Lindberg|lärare, Vindeln
+C|515665|71|K|Majlen Renman|
+C|7794|38|K|Elli-Mari Lundgren|38, administratör, Vindeln
+C|361172|62|M|Tomas Nilsson|62, entreprenör, Ekodalen
+C|361173|30|K|Ida Sundling|30, socialsekreterare, Tvärålund
+C|361174|28|M|Joakim Rudolfsson|28, rörmokare, Bastuselet
+C|230012|69|M|Kenth Ärletun|69, företagare, Vindeln
+C|361176|45|K|Camilla Olsson|45, förskolelärare, Tvärålund
+C|361177|66|M|Rune Johansson|66, Sunnansjönäs
+C|361178|54|K|Åsa Ahlberg Jonsson|54, ekonom, Ramsele
+C|361179|40|M|Roger Sandström|40, snickare, Vindeln
+C|361180|50|K|Cecilia Gustafsson|50, Bastuselet
+C|361181|42|M|Mikael Sundling|42, entreprenör, Tvärålund
+C|361182|20|K|Anna-Karin Rehnfjäll|20, yrkeschaufför, Häggnäs
+C|361183|69|M|Ulf Eriksson|69, pensionär, Vindeln
+C|361184|19|K|Linn Sundling|19, studerande, Tvärålund
+C|361185|38|M|Pär Blomstedt|38, Vindeln
+C|361186|61|M|Mats Ekman|61, Storsandsjö
+C|361187|69|M|Nils-Fredrik Sundling|69, Tvärålund
+C|408506|52|M|Lars-Anders Rudolfsson|52, rörmokare, Bastuselet
+C|408507|52|M|Stefan Sjögren|52, företagare, Tvärålund
+C|361188|63|M|Kent Nilsson|63, entreprenör, Vindeln
+C|361189|63|K|Sylvi Johansson|63, Sunnansjönäs
+C|361190|35|M|Jonas Lithell|35, Granö
+C|361191|55|K|Jeanette Knutstam|55, företagare, Överrödå
+C|361192|44|M|Kent Jacobsson|44, företagare, Vindeln
+C|74305|27|M|Lars Forsgren|Rivare, Vindeln, 27
+C|74306|43|K|Ulrika Pedersen|Montör, Vindeln, 42
+C|74307|47|M|Roger Asplund|Vindeln, 47
+C|392165|21|K|Yasemine Shtaye|Hällnäs
+C|392193|73|M|Rolf Attmarsson|Hällnäs
+C|392194|39|K|Linda Lundqvist|Hällnäs
+C|392195|41|M|Erik Landby|Västra Kryckeltjärn
+C|392196|37|M|Emil Landby|Inre Kulfors
+C|392197|41|K|Annethe Kåsine Nilsson|Kulbäcksliden

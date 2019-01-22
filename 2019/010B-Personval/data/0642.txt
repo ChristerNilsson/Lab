@@ -1,11 +1,153 @@
-2|35508|35509|35510|35511|35512|35513|35514|35515|35516|35517|35518|35519|35520|35521|35522|35523|35524|35525|35526|35527|35528|35529|35530|35531|35532|35533|35534|35535|35536|35537|35538|35539
-4|130475|130476|15863|130478|130479|130480|130481|130482|130483|130484
-68|77922|77923|77924|77925|77926|233386|77927|77928|233499|77929|77930|77931|77932|77933|77934|77935|77937
-1140|480124
-3|252807|223298|252809|252810|252811|252812|494411
-55|375348|375349|375350|233339|375352|375353|369414|375355
-1|42009|42010|42011|42012|42013|42014|42015|42016|42017|42018|42019|42020|42021|42022|42023|42024|42025|42026|42027
-639|394658|394659|394660|394661|394662|394663|394664|394665|394666|394667|394668|394669|394670|394671|394672|394673|394674|394675
-1390|493369
-110|45631|45632|45762|45763|45764|45765|45766|45767|45768|45769|45770|45771
-5|311091|311092|311093|311094|311095
+T|Mullsjö
+A|2|35508|35509|35510|35511|35512|35513|35514|35515|35516|35517|35518|35519|35520|35521|35522|35523|35524|35525|35526|35527|35528|35529|35530|35531|35532|35533|35534|35535|35536|35537|35538|35539
+A|4|130475|130476|15863|130478|130479|130480|130481|130482|130483|130484
+A|68|77922|77923|77924|77925|77926|233386|77927|77928|233499|77929|77930|77931|77932|77933|77934|77935|77937
+A|1140|480124
+A|3|252807|223298|252809|252810|252811|252812|494411
+A|55|375348|375349|375350|233339|375352|375353|369414|375355
+A|1|42009|42010|42011|42012|42013|42014|42015|42016|42017|42018|42019|42020|42021|42022|42023|42024|42025|42026|42027
+A|639|394658|394659|394660|394661|394662|394663|394664|394665|394666|394667|394668|394669|394670|394671|394672|394673|394674|394675
+A|1390|493369
+A|110|45631|45632|45762|45763|45764|45765|45766|45767|45768|45769|45770|45771
+A|5|311091|311092|311093|311094|311095
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|639|MFR|Mullsjö Framtid
+B|1390|SSM|Samverkan Sandhem Mullsjö (SSM)
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|35508|38|K|Linda Danielsson|38 år, Kommunalråd,Sandhem
+C|35509|70|M|Christer Rube|70 år,fd Ombudsman,Mullsjö
+C|35510|47|K|Pernilla Jovanovic|47 år, Pedagog,Mullsjö
+C|35511|48|M|Mats Tingshagen|48 år,Fastighetskötare,Mullsjö
+C|35512|41|K|Liza Oswald|41 år, Kommunalarbetare,Mullsjö
+C|35513|39|M|Tomas Elf|39 år, Pedagog,Mullsjö
+C|35514|66|K|Kicki Svensson|66 år,fd Butikschef,Mullsjö
+C|35515|45|M|Martin Svensson|45 år,Skogsmaskinist,Bjurbäck
+C|35516|70|K|Katarina Karlsson|70 år,fd Rektor,Bjurbäck
+C|35517|45|M|Johnny Wismén|45 år,Verkstadsarbetare,Mullsjö
+C|35518|41|K|Catinka Eriksson|41 år,Biståndshandläggare,Mullsjö
+C|35519|72|M|Douglas Öberg|72 år,Pensionär,Sandhem
+C|35520|68|K|Harrieth Cajfeldt Carlsson|68 år, Pensionär,Mullsjö
+C|35521|70|M|Jimmy Jacobsson|70 år,fd Äldreomsorgschef,Sandhem
+C|35522|45|K|Cecilia Petersson|45 år,Omsorgschef,Mullsjö
+C|35523|63|M|Mats Klarén|63 år,Produktchef,Mullsjö
+C|35524|42|K|Therese Wikström|42 år, Projektledare,Mullsjö
+C|35525|73|M|Kent Oskarsson|73 år,Pensionär,Mullsjö
+C|35526|47|K|Theresé Roslund|47 år,Habiliteringspersonal,Mullsjö
+C|35527|36|M|Fredrik Sandblom|36 år,Industriarbetare,Mullsjö
+C|35528|66|K|Eira Wassberg|66 år,Pensionär,Sandhem
+C|35529|40|M|Rickard Nordenberg|40 år,Habiliteringspersonal,Mullsjö
+C|35530|33|M|Johan Gustafsson|33 år,Målare,Mullsjö
+C|35531|72|K|Ann Svensson|72 år,Pensionär,Sandhem
+C|35532|69|M|Lenny Elf|69 år,Pensionär,Mullsjö
+C|35533|44|K|Jenny Svensson|44 år,Områdeschef,Mullsjö
+C|35534|34|M|Daniel Didriksson|33 år,Socionom,Mullsjö
+C|35535|76|K|Ruth Roslund|76 år,fd Vårdbiträde,Mullsjö
+C|35536|60|M|Lars-Uno Olausson|60 år,Företagare,Lilla Bråared
+C|35537|39|K|Trine Herkedal|39 år,Pedagog,Mullsjö
+C|35538|68|M|Sven-Olof Dahlin|68 år,Pensionär,Mullsjö
+C|35539|70|M|Björn Pettersson|70 år,Kanslist,Mullsjö
+C|130475|36|K|Pauline Ahlnér Svenn|36, Jurist, Mullsjö
+C|130476|40|M|Jouko Broström|Elektriker, Mullsjö
+C|15863|76|K|Gun Nilsson|fd Undersköterska, Mullsjö
+C|130478|29|M|John Algotsson|Lantbrukare, Bjurbäck
+C|130479|35|M|David Svenn|Jurist, Mullsjö
+C|130480|68|M|Erik Hartelius|fd Lantbrukare Sandhem
+C|130481|70|K|Inga-Lill Hoveklint Hyttring|Resurspedagog, Mullsjö
+C|130482|77|M|Sten Nilsson|fd Kanslist, Mullsjö
+C|130483|69|M|Kjell Boman|fd Läkare, Mullsjö
+C|130484|71|M|Leif Filipsson|Skogsentreprenör, Mullsjö
+C|77922|63|M|Lars Eriksson|Redovisningskonsult, Mullsjö
+C|77923|39|M|Joseph Tornell|Inköpare, Mullsjö
+C|77924|32|K|Paula Ekblom|Barnskötare, Mullsjö
+C|77925|44|M|Henrik Eneskjöld|Företagare, Sandhem
+C|77926|73|M|Staffan Bäckelid|Förvaltningssocionom, Mullsjö
+C|233386|56|M|Tonie Krusing|Egenföretagare, Sandhem
+C|77927|52|M|Fredrik Lindman|Affärskonsult, Mullsjö
+C|77928|60|M|Stanley Abrahamsson|Bussförare, Mullsjö
+C|233499|36|M|David Holm|Industrimontör, Mullsjö
+C|77929|58|K|Berit Abrahamsson|Undersköterska, Mullsjö
+C|77930|51|M|Per Andersson|HR-manager, Mullsjö
+C|77931|57|K|Kristina H. Brengesjö|Leg psykoterap., Mullsjö
+C|77932|36|M|Jakob Junvik|Lantbrukare, Bjurbäck
+C|77933|56|M|Gunnar Brengesjö|Teamledare IT, Mullsjö
+C|77934|62|M|Bengt Sätterman|Civilingenjör, Mullsjö
+C|77935|57|K|Ing-Britt Grennborg|Affärssäljare, Nyhem
+C|77937|53|M|Per Högberg|VD, Mullsjö
+C|480124|72|K|Ivon Darmark|pensionär, 72, Mullsjö
+C|252807|42|K|Åsa Blomell|Vårdenhetschef
+C|223298|75|M|Thore Thorstensson|Företagare
+C|252809|49|M|Magnus Alard|Lärare i grundskolan
+C|252810|61|M|Jan Toremark|KAM
+C|252811|71|M|Sune Svensson|Pensionär
+C|252812|74|K|Gerd Thorstensson|Pensionär
+C|494411|42|K|Anna Zetterberg|Lärare
+C|375348|30|K|Sara Bjerenius|30 år, studerande, Mullsjö
+C|375349|39|M|Alexander Norman|39 år, industriarbetare, Mullsjö
+C|375350|34|K|Emma Josefsson|34 år, sysselsättningshandledare, Mullsjö
+C|233339|73|M|Bertil Engström|73 år, f d universitetsadjunkt, Mullsjö
+C|375352|66|K|Irene Klingberg|66 år, förskollärare, Mullsjö
+C|375353|71|M|Nisse Lennartsson|71 år, pensionär, Mullsjö
+C|369414|69|K|Gunnel Engström|69 år, f d specialpedagog, Mullsjö
+C|375355|40|K|Angelica Norman|40 år, jurist, Mullsjö
+C|42009|44|M|Henrik Jansson|44 år, Kommunalråd, Mullsjö
+C|42010|39|K|Charlotte Götesson|39 år, Företagare, Mullsjö
+C|42011|67|M|Ingemar Eriksson|67 år, Åkeriägare, Bjurbäck
+C|42012|42|M|Fredrik Samuelsson|42 år, Arbetsledare, Mullsjö
+C|42013|32|K|Karin Von Zweigbergk|32 år, Lärarstudent, Mullsjö
+C|42014|47|M|Mattias Rydström|47 år, Underhålls/fastighetschef, Mullsjö
+C|42015|67|M|Joachim Werich|67 år, Företagare, Bjurbäck
+C|42016|31|M|Jimmie Larsson|31 år, Processkötare, Mullsjö
+C|42017|66|M|Peter Naurén|66 år, Landstingsanställd, Mullsjö
+C|42018|47|M|Mikael Lundqvist|47 år, Företagare, Sandhem
+C|42019|58|M|Lars Kyrkeryd|58 år, Nöjesentreprenör, Sandhem
+C|42020|65|K|Eva Nilsson|65 år, Entreprenör, Sandhem
+C|42021|60|M|Jan Olof Larsson|60 år, Företagare, Utvängstorp
+C|42022|61|M|Mats Persson|61 år, Boråd, Mullsjö
+C|42023|67|M|Lars Samuelsson|67 år, Sjökapten, Mullsjö
+C|42024|50|M|Marco Eliasson|50 år, Teolog, Mullsjö
+C|42025|48|M|Mattias Broberg|48 år, Säljare, Mullsjö
+C|42026|75|K|Kerstin Mattsson|75 år, F.d. socialsekreterare, Mullsjö
+C|42027|71|M|Ulf Mattsson|71 år, Ingenjör, Mullsjö
+C|394658|63|M|Stefan Lindkvist|
+C|394659|52|M|Joachim Stenberg|
+C|394660|71|M|Leif Andersson|
+C|394661|63|K|Yvonne Gällerspång|
+C|394662|65|M|Rolf Callenholm|
+C|394663|60|M|Anders Stein|
+C|394664|72|M|Nils-Erik Eriksson|
+C|394665|21|M|Thomas Stein|
+C|394666|25|M|Johan Karlsson|
+C|394667|26|M|Viktor Stenberg|
+C|394668|62|K|Lisbeth Andersson|
+C|394669|64|K|Helen Karlsson|
+C|394670|72|M|Pertti Laurinen|
+C|394671|68|M|Anders Frick|
+C|394672|70|M|Johnny Nilsen|
+C|394673|77|M|Janeric Funck|
+C|394674|76|K|Ann-Marie Funck|
+C|394675|89|K|Gun Callenholm|
+C|493369|76|M|Leif Dencker|SF/IT Konsult
+C|45631|37|K|Angelica Lundberg|Säljadministratör, Mullsjö
+C|45632|50|M|Albert Müller|50 år, industriarbetare
+C|45762|59|K|Eva Johansson|59 år, sjukpensionär
+C|45763|41|M|Mikael Sjöberg|41 år, automationsingenjör
+C|45764|62|M|Johnny Paulsson|62, Lastbilschaufför, Mullsjö
+C|45765|44|M|Christian Wall|44 år, utvecklare
+C|45766|34|K|Jenny Hultgren|33 år, fabriksarbetare
+C|45767|47|M|Pontus Fransson|47 år, servicemontör
+C|45768|26|K|Leontina Aurell|26 år, undersköterska
+C|45769|37|M|Fredrik Roos|37 år, sjukpensionär
+C|45770|60|M|Göran Eriksson|60 år, brevbärare
+C|45771|34|M|Robert Andersson|33, Maskinoperatör, Mullsjö
+C|311091|53|M|Mikael Johansson|butiksarbetare, Mullsjö
+C|311092|37|M|Kristoffer Blomstrand|testingenjör
+C|311093|38|K|Susan Rudberg|socionom
+C|311094|53|K|Carina Lindén|socionom
+C|311095|54|K|Susanne Evertsson Grahn|högskoleadjunkt

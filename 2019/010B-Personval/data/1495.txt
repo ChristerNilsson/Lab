@@ -1,10 +1,208 @@
-2|41440|41441|41442|41443|41444|41445|41446|41447|41448|41449|41450|41451|41452|41453|41454|41455|41456|41457|41458|41459|41460|41461|41462|41463|41464|41465|41466|41467|41468|41469|41470|41471|41472|41473|41474|41475|41476|41477|41478|41479|41480|41481|41482|41483|41484|41485|45469|41486|41487
-4|3203|3232|3213|3221|23687|3262|23689|23690|3252|23692|23693|23694|23695|23696|23697|23698|23699|23700|23701|23702|23703|23704|23705|23706|23707|23708|23709
-68|274611|274619|274609|274616|274974|274975|274976|274977|274978|274979|274980
-1011|132186
-3|20187|20188|20189|20190|20191|20192|20193
-1296|128537
-55|66239|66249|144122|144123|144124|144125|144126|144127|144128
-1|253991|256490|253977|256492|256493|256494|256495|256496|256497|256498|256499|256500|256501|256502|256503|256504|256505|256506|256507|254367|256509|256510|253980|256512|256513|256514|256515|256516|256517|256518|256519|256520|256521|256522|256523|256524|256525|256526|256527|256528|256529|256530|256531|256532|256533|256534|256535|256536|256537
-110|126678|126676|126692|126719|246390|126709|246392|512213|512217|512218|512219|512220|511726|513825|513827|513829|513833|513834|515372|515616
-5|21113|21114|21115|21116|21117|21118|21119|21120|21121|21122|21123|21124|21125|21126
+T|Skara
+A|2|41440|41441|41442|41443|41444|41445|41446|41447|41448|41449|41450|41451|41452|41453|41454|41455|41456|41457|41458|41459|41460|41461|41462|41463|41464|41465|41466|41467|41468|41469|41470|41471|41472|41473|41474|41475|41476|41477|41478|41479|41480|41481|41482|41483|41484|41485|45469|41486|41487
+A|4|3203|3232|3213|3221|23687|3262|23689|23690|3252|23692|23693|23694|23695|23696|23697|23698|23699|23700|23701|23702|23703|23704|23705|23706|23707|23708|23709
+A|68|274611|274619|274609|274616|274974|274975|274976|274977|274978|274979|274980
+A|1011|132186
+A|3|20187|20188|20189|20190|20191|20192|20193
+A|1296|128537
+A|55|66239|66249|144122|144123|144124|144125|144126|144127|144128
+A|1|253991|256490|253977|256492|256493|256494|256495|256496|256497|256498|256499|256500|256501|256502|256503|256504|256505|256506|256507|254367|256509|256510|253980|256512|256513|256514|256515|256516|256517|256518|256519|256520|256521|256522|256523|256524|256525|256526|256527|256528|256529|256530|256531|256532|256533|256534|256535|256536|256537
+A|110|126678|126676|126719|246390|126709|246392|512213|512217|512218|512219|512220|511726|513825|513827|513829|513833|513834|515372|515616
+A|5|21113|21114|21115|21116|21117|21118|21119|21120|21121|21122|21123|21124|21125|21126
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|41440|47|M|Fredrik Nordström|47 år, Skara
+C|41441|41|K|Jessica Bredenberg|41 år, Skara
+C|41442|62|M|Håkan Ehn|62 år, truckförare, Skara
+C|41443|36|K|Josefine Thimberg|36 år, sjuksköterska, Skara
+C|41444|56|M|Michael Karlsson|56 år, Skara
+C|41445|23|K|Therese Kristiansson|23 år, statsvetare, Skara
+C|41446|49|M|Benny Johansson|49 år, boendestödjare, Skara
+C|41447|59|K|Ulla Hellberg|59 år, undersköterska, Varnhem
+C|41448|40|M|Peter Holm|40 år, kommunikatör, Varnhem
+C|41449|46|K|Anna Helgesson|46 år, rektor, Skara
+C|41450|68|M|Sune Johansson|68 år, pensionär, Skara
+C|41451|61|K|Laila Skantz|61 år, skötare, Skara
+C|41452|42|M|Daniel Andersson|42 år, personlig assistent, Skara
+C|41453|48|K|Camilla Skog|48 år, livsmedelsarbetare, Skara
+C|41454|41|M|Björn Salgren|41 år, enhetschef, Ardala
+C|41455|58|K|Kristina Adolfsson|58 år, elevassistent, Eggby
+C|41456|59|M|Per-Åke Pettersson|59 år, fritidspedagod, Skara
+C|41457|45|K|Therese Klevvall Ingvarsson|45 år, handläggare, Skara
+C|41458|49|M|Martin Torildson|49 år, industriarbetare, Skara
+C|41459|48|K|Maarit Carrington|48 år, kommunalarbetare, Axvall
+C|41460|56|M|John Poulsen|57 år, VD, Skara
+C|41461|67|K|Lena Christersson|67 år, fd social samordnare, Varnhem
+C|41462|54|M|Mikael Ringqvist|54 år, livsmedelsarbetare, Skara
+C|41463|50|K|Jessica Sahlström|50 år, säljare, Skara
+C|41464|55|M|Poul Hansen|55 år, plastarbetare, Skara
+C|41465|52|K|Camilla Johansson|52 år, industriarbetare, Vinköl
+C|41466|41|M|Gezim Novoberdaliu|41 år, maskinoperatör, Skara
+C|41467|59|K|Ann-Christin Hellman|59 år, sjömanskock, Skånings Åsaka
+C|41468|56|M|Göran Karlsson|57 år, enhetschef, Skara
+C|41469|74|K|Mari Lönnerblad|74 år, fd kanslisekreterare, Skara
+C|41470|22|M|Jesper Ekblad|22 år, student, Skara
+C|41471|52|K|Elisabeth Poulsen|52 år, undersköterska, Skara
+C|41472|72|M|Lasse Fredman|72 år, överförmyndare, Ardala
+C|41473|79|K|Barbro Berg|79 år, pensionär, Skara
+C|41474|66|M|Per Svensson|66 år, pensionär, Skara
+C|41475|40|K|Jessica Hjärtqvist|40 år, medicinsk sekreterare, Istrum
+C|41476|56|M|Björn Lindström|57 år, undersköterska, Skara
+C|41477|18|K|Ellinor Hjärtqvist|18 år, student, Istrum
+C|41478|25|M|Obsa Joundy Beker|25 år, kyrkogårdsarbetare, Skara
+C|41479|49|K|Susanne Karlsson|49 år, demensundersköterska, Skara
+C|41480|58|M|Sven Gustafsson|58 år, undersköterska, Skara
+C|41481|58|K|Anette Gustafsson|58 år, operatör, Skara
+C|41482|71|M|Jan-Ove Gutegård Jakobsson|71 år, fd ekonom, Skara
+C|41483|47|M|Björn Nordlund|47 år, livsmedelsarbetare, Skara
+C|41484|30|M|Tommy Skantz|30 år, processoperatör, Skara
+C|41485|57|M|Tommy Edvinsson|57 år, boendestödjare, Norra Lundby
+C|45469|54|M|Jörgen Isaksson|54 år, montör, Ardala
+C|41486|45|M|Björn Josefsson|45 år, arbetsledare, Istrum
+C|41487|71|M|Ove Ivarsen|71 år, fd ombudsman, Skånings Åsaka
+C|3203|54|K|Gunilla Druve Jansson|Marknadsekonom, Skara, 54 år
+C|3232|54|M|Lars Berg|Civilekonom, Skara, 54 år
+C|3213|46|K|Suzanne Johansson|Operationssjuksköterska,Skara, 46 år
+C|3221|30|K|Birgit Bjelkengren|Landskapsarkitekt, Skara, 30 år
+C|23687|65|M|Håkan Gustafsson|65 år, Arbetsmiljösamordnare, Skara
+C|3262|40|K|Jeanette Jonsson|Driftkoordinator, Skara, 40 år
+C|23689|58|M|Klas-Åke Jansson|58 år, Ingenjör, Vinköl
+C|23690|37|K|Hanna Warmark|37 år, Sakkunnig, Händene
+C|3252|56|K|Eva Eriksson|Banktjänsteman ,Skara, 56 år
+C|23692|37|M|Anders Jonsson|37 år, Lantmästare, Öglunda
+C|23693|50|K|Brita Planck|50 år, Historiker, Skara
+C|23694|57|M|Bengt Ericson|57 år, Företagare, Skara
+C|23695|35|M|Joakim Kvarndal|35 år, Bioenergitekniker, Eggby
+C|23696|66|K|Ulla Falk|66 år, Receptionist, Skara
+C|23697|72|M|Lennart Pettersson|72 år, Lantbrukare, Synnerby
+C|23698|55|M|Mikael Velander|55 år, Lagerchef, Vinköl
+C|23699|65|K|Lisbeth Karlsson|65 år, Lärare, Varnhem
+C|23700|55|M|Svante Borell|55 år, Reservdelsman, Synnerby
+C|23701|37|M|Anders Pettersson|37 år, Mjölkbonde, Synnerby
+C|23702|32|K|Christina Eliasson|32 år, Husdjursagronom, Skara
+C|23703|29|M|Jonatan Bjelkengren|29 år, Lantmästare, Axvall
+C|23704|61|M|Per Pålsson|61 år, Lantmästare, Skara
+C|23705|68|K|Ulla-Britt Pettersson|68 år, Pensionär, Synnerby
+C|23706|65|M|Håkan Karlsson|65 år, Socionom, Varnhem
+C|23707|60|K|Lotta Kvarndal|60 år, Småföretagare, Istrum
+C|23708|84|M|Carl-Olof Carlsson|84 år, Pensionär, Ardala
+C|23709|72|M|Erik Kvarndal|72 år, Pensionär, Skara
+C|274611|68|M|Leif Brohede|67, Agronom, Skara
+C|274619|48|M|Mikael Börjesson|47, Competence Director, Skara
+C|274609|49|K|Annelie Holmgren|49, Sektionschef, Skara
+C|274616|68|M|Bengt Sävhammar|67, Fd förskolechef, Skara
+C|274974|39|M|Zimon Brohede|39, Pubchef, Skara
+C|274975|64|M|Gunnar Wilsson|64, VD, Skara
+C|274976|48|M|Tanjo Andersson|47, Senior Buyer, Skara
+C|274977|61|K|Cecilia Wallgren|61, Redovisningsekonom, Skara
+C|274978|62|M|Karl-Gunnar Hugosson|62, Psykiatrisjuksköterska, Varnhem
+C|274979|80|M|Gösta Andreasson|80, Socionom, Skara
+C|274980|67|M|Carl Wallgren|67, Lantbruksarbetare, Skara
+C|132186|55|K|Åsa Augustsson|Mjölkbonde, Västra Götaland
+C|20187|37|K|Marlene Zackrisson|37 Axvall
+C|20188|73|M|Karl-Gustav Bynke|72 Skara
+C|20189|66|K|Ingrid Kvarnlöf|Varnhem 66
+C|20190|74|K|Karin Schmidt|Skara 74
+C|20191|67|M|Jan-Erik Augustsson|Skara 67
+C|20192|74|K|Anita Afzelius-Alm|74, Skara
+C|20193|41|M|Johan Zackrisson|Axvall 41
+C|128537|60|M|Per Lindström|60, IT-konsult, Västra Götaland
+C|66239|61|M|Magnus Gunnarsson|61 år, IKT-Pedagog, Varnhem
+C|66249|46|K|Malin Larsson|46 år, Agronom, Skara
+C|144122|71|K|Margareta Ljunggren Demegård|Socialpedagog, Skara
+C|144123|44|M|Johan Lidberg|Psykolog, Skara
+C|144124|68|M|Lasse Hagström|Musiker, Skara
+C|144125|67|K|Gun Barrljung|Socionom, Skara
+C|144126|77|M|Anders Nilsson|Biodlare, Eggby
+C|144127|69|M|Sven Ljunggren|Fotograf, Skara
+C|144128|76|K|Ann Nilsson|Fårbonde, Eggby
+C|253991|49|K|Ylva Pettersson|49, Leg. gymnasielärare, Skara
+C|256490|48|K|Lotta Grönlund Plöen|48, Lärare, Synnerby
+C|253977|54|K|Charlotte Nordström|54, Egenföretagare, Skara
+C|256492|64|M|Sven-Olof Ask|64, Biblioteksassistent, Skara
+C|256493|58|M|Thomas Karlsson|58, VD, Eggby
+C|256494|50|M|Patrik Grönlund|50, Systemkonsult, Synnerby
+C|256495|68|M|Rolf Källman|68, Lantbrukare, Skallmeja
+C|256496|70|M|Jan-Olof Bohlin|70, Pensionär, Skara
+C|256497|52|K|Ewa Karlsson|52, Enhetschef, Eggby
+C|256498|53|M|Johan Hjertén|53, Gymnasielärare, Skara
+C|256499|52|M|Jonas Hammar|52, Lärare, Skara
+C|256500|62|M|Glenn Frost|62, Företagare, Synnerby
+C|256501|50|M|Patrik Ragnar|50, Civilekonom, Skara
+C|256502|76|M|Jonas Ahlström|76, Pensionär, Skara
+C|256503|49|M|Richard Pettersson|49, Adjunkt, Skara
+C|256504|25|K|Vlora Shabani|25, Studerande, Skara
+C|256505|37|M|Arvid Holm|37, Företagare, Händene
+C|256506|69|K|Görel Wånelid|69, F.d. laboratorieföreståndare, Ardala
+C|256507|22|K|Selma Ophus|22, Studerande, Skara
+C|254367|69|K|Inger Jansson|69, f.d Skolchef, Skara
+C|256509|72|M|Lennart Lundh|72, Pensionär, Skara
+C|256510|70|M|Lars Olén|70, Överläkare, Stenum
+C|253980|24|K|Emma Ophus|24, Student, Skara
+C|256512|62|M|Sten Catoni|62, Lantbrukare, Istrum
+C|256513|68|M|Ulf Frejinger|68, Civilekonom, Skara
+C|256514|76|K|Carina Ahlström|76, Adjunkt, Skara
+C|256515|70|M|Leif Chressman|70, Ingenjör, Skara
+C|256516|43|M|Tobias Bohlin|43, CEO, Skara
+C|256517|69|M|Kent Wånelid|69, Direktör, Ardala
+C|256518|58|M|Håkan Persson|58, Direktör, Skara
+C|256519|45|K|Ann-Marie Andersen|45, Yrkeslärare, Skara
+C|256520|76|M|Tomas Grehag|76, Lantbrukare, Skånings Åsaka
+C|256521|41|K|Susanne Loska|41, Beteendevetare, Skara
+C|256522|66|M|Sture Nilsson|66, Säljare, Skara
+C|256523|73|M|Håkan Movitz|73, f.d. VD, Skara
+C|256524|59|M|Björn Magnusson|59, Projektledare, Skara
+C|256525|73|M|Peter Reivall|73, Civilekonom, Skara
+C|256526|59|M|Tommy Schalén|59, Officer, Varnhem
+C|256527|71|M|Bengt Bruhn|71, Grafiker, Skara
+C|256528|43|K|Jennie Allard|43, Befäl, Skara
+C|256529|56|M|Bengt Nilsson|56, Officer, Skara
+C|256530|37|M|Peter Thorvald|37, Senior Lecturer, Axvall
+C|256531|51|M|Brian Unenge|51, Datacenterdirector, Skara
+C|256532|50|M|Stefan Vedebrand|50, Civilekonom, Axvall
+C|256533|73|M|Bengt Göran Nilsson|73, Installationselektriker, Skara
+C|256534|65|K|Lisbeth Paulsson|65, Receptionist, Skara
+C|256535|51|K|Marie Nilsson|51, Yrkeslärare, Synnerby
+C|256536|56|M|Tomas Grönlund|56, Administratör, Synnerby
+C|256537|36|M|Jesper Mattsson|36, Butikschef, Skara
+C|126678|22|M|Oscar Ternström|
+C|126676|63|M|Ove Berlin|63, Drifttekniker, Skara
+C|126719|56|K|Silvia Persson|56, Pensionär, Skara
+C|246390|68|M|Lars Åke Hedström|68 år, Pensionär
+C|126709|23|M|Oscar Öberg|23, Handikapprättsaktivist, Skara
+C|246392|61|M|Jan Walander|61 år, Konsult produktionsteknik
+C|512213|47|M|Sammy Almedal|47, personalchef
+C|512217|40|K|Therese Holm|40, undersköterska
+C|512218|43|K|Rebecca Karlsson|43, undersköterska
+C|512219|58|K|Barbro Magnusson|58, undersköterska
+C|512220|67|M|Anders Ek|67, pensionär
+C|511726|44|M|Anders Forsberg|
+C|513825|25|M|Thomas Matthew Flaminio|
+C|513827|51|M|Marco Krans|
+C|513829|65|M|Gunnar Söderholm|
+C|513833|48|K|Britt-Mari Johansson|
+C|513834|27|M|Boppers Axelsson|
+C|515372|47|K|Annelie Sandgren|
+C|515616|62|M|Ove Lidgren|
+C|21113|57|K|Bille Karlsson|Skara, Boendestödjare
+C|21114|39|M|Martin Johansson|Skara, Miljöstrateg
+C|21115|46|M|Johnny Edvinsson|46 år, Personligt ombud
+C|21116|56|M|Bo Karlsson|56 år, Scanarbetare
+C|21117|48|K|Susanne Staf|Skara, Barnskötare
+C|21118|35|K|Lisa Nyberg|35 år, Kval.djurvårdare
+C|21119|23|M|Daniel Junehagen Sand|Skara, Personlig assistent
+C|21120|67|K|Irina Nyberg|67 år, IT-tekniker/reseledare
+C|21121|68|M|Erik Westlin|68 år, Pensionär
+C|21122|34|M|John Hutton|34 år, Kval.djurvårdare
+C|21123|49|M|Anssi Alatalo|49 år, Behandlingsassistent
+C|21124|68|M|Roland Nyberg|68 år, Pensionär
+C|21125|27|K|Tove Ekblad|27 år, Marknadskommunikatör
+C|21126|74|K|Birgitta Westlin|74 år, Pensionär

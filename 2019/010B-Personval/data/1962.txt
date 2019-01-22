@@ -1,10 +1,132 @@
-2|29649|6194|6342|29652|6179|29654|29655|29656|29657|29658|29659|29660|29661|6337|6358|29664|29665|29666|29667|29668|29669|29670|29671|29672|29673|29674|29675|29676|29677|29678|29679|29680|29681|29682|29683|29684
-4|370742|415567|395023|395024|395025|395026
-1304|117945|117946|117947|117948|117949|117950|117951|117952|117953|117954|117955|117956
-68|508870|185449
-3|498803|498804|498805|287833|498807
-55|283516|283517|283518
-1|52|1819|1820
-1137|225029|225030|225031|225032|225033|225034|225035|225036|225037|225038|225039|225040|225041
-110|75122|75123|75124|75125|75126|75127|510805|510806|514270|515133|515520
-5|16572|16749|16948|16580|373875|373876|16763|16950|16735|16952|373881|16953|373883|16954|373885|16955|16956|16957|16754|16959
+T|Norberg
+A|2|29649|6194|6342|29652|6179|29654|29655|29656|29657|29658|29659|29660|29661|6337|6358|29664|29665|29666|29667|29668|29669|29670|29671|29672|29673|29674|29675|29676|29677|29678|29679|29680|29681|29682|29683|29684
+A|4|370742|415567|395023|395024|395025|395026
+A|1304|117945|117946|117947|117948|117949|117950|117951|117952|117953|117954|117955|117956
+A|68|508870|185449
+A|3|498803|498804|498805|287833|498807
+A|55|283516|283517|283518
+A|1|52|1819|1820
+A|1137|225029|225030|225031|225032|225033|225034|225035|225036|225037|225038|225039|225040|225041
+A|110|75122|75123|75124|75125|75126|75127|510805|510806|514270|515133|515520
+A|5|16572|16749|16948|16580|373875|373876|16763|16950|16735|16952|373881|16953|373883|16954|373885|16955|16956|16957|16754|16959
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1304|DiN|Demokraterna i Norberg
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1137|PNF|Partiet för Norbergs Framtid
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|29649|37|K|Johanna Odö|37 år, Boendestödjare
+C|6194|41|M|Jimmy Fredriksson|41 år, Norberg
+C|6342|31|K|Tove Winqvist|31 år, Norberg
+C|29652|56|M|Christer Wallin|56 år, Virkesköpare
+C|6179|46|K|Åsa Eriksson|46 år, Norberg
+C|29654|60|M|Olle Rahm|60 år, Projektledare
+C|29655|53|K|Marianne Ångström|53 år, Socialsekreterare
+C|29656|70|M|Sten Nordström|70 år, Projektledare
+C|29657|53|K|Ylva Lundquist|53 år, Enhetschef
+C|29658|56|M|Thommy Ukkonen|56 år, Produktionstekniker
+C|29659|42|K|Annika Hedberg Roth|42 år, Projektledare
+C|29660|54|M|Peter Björnberg|54 år, Krögare
+C|29661|51|K|Elizabeth Pettersson|51 år, Layoutare
+C|6337|54|M|Kenneth Östberg|54 år, Norberg
+C|6358|62|K|Eva Hölke|62 år, Norberg
+C|29664|78|M|Torsten Jansson|78 år, Pensionär
+C|29665|41|K|Anna-Maria Muselli|41 år, Enhetschef
+C|29666|42|M|Daniel Dahlin|42 år, Lagerarbetare
+C|29667|64|K|Eva Pålsson|64 år, Arbetsterapeut
+C|29668|33|M|Rickard Tiger|33 år, Emballagesnickare
+C|29669|71|K|Gunilla Persson|71 år, Pensionär
+C|29670|47|M|Jean-Bosco Senani|47 år, Boendestödjare
+C|29671|42|K|Maryam Shekh|42 år, Undersköterska
+C|29672|43|M|Rickard Gillman|43 år, Egen företagare
+C|29673|73|K|Linnéa Landerstedt|73 år, Leg.Sjuksköterska
+C|29674|45|M|Niklas Johansson|45 år, Drifttekniker
+C|29675|52|K|Roza Kiani|52 år, Restaurangbiträde
+C|29676|64|M|Lars-Erik Karlsson|64 år, Försäljare
+C|29677|27|K|Malin Ström|28 år, Lärare
+C|29678|63|M|Anders Bjälevik|63 år, Verktygsmakare
+C|29679|74|K|Ingrid Falquist|74 år, Fd. Lärare
+C|29680|52|M|Mikael Ladman|52 år, Ombudsman
+C|29681|76|M|Arne Pettersson|76 år, Pensionär
+C|29682|76|K|Inga-Stina Hesselius|76 år, Pensionär
+C|29683|43|M|Ulf Olofsson|43 år, Affärsansvarig
+C|29684|77|M|Roland Ax|77 år, Pensionär
+C|370742|41|M|Mattias Björlestrand|Lärare, Norberg
+C|415567|60|M|Göran Jansäter|61 år, Entreprenör
+C|395023|78|M|Stig Holmberg|78 år, Lantbrukare
+C|395024|64|K|Agneta Wennerström|65 år, Boendestödjare
+C|395025|74|M|Arne Andersson|74 år, Pensionär
+C|395026|70|K|Gunvor Holmberg|70 år, Pensionär
+C|117945|61|M|Christer Filipsson|Socionom
+C|117946|63|M|Lennart Skansfors|Konsult
+C|117947|31|K|Anna Lindgren|Apotekstekniker
+C|117948|69|M|John Ellard|VD
+C|117949|52|M|Anders Brunnberg|Maskinförare
+C|117950|48|M|Peter Vidberg|Elektriker
+C|117951|50|M|Stefan Holm|Fastighetsskötare
+C|117952|57|M|Tommy Vestling|Kvalitetsingenjör
+C|117953|65|K|Birgitta Emilsson|Civilekonom
+C|117954|30|K|Erika Vestling|Servitris
+C|117955|66|K|Ingrid Filipsson|Socionom
+C|117956|79|K|Gunilla Siwerth|Pensionär
+C|508870|40|K|Rebecca Klingvall|Sjuksköterska
+C|185449|39|K|Viviane Mbumba Tshala|39, Omvårdnadspersonal
+C|498803|42|K|Liane Blom|42
+C|498804|67|M|Torbjörn Mood|67
+C|498805|72|K|Elsa-Lill Strolz|72
+C|287833|61|M|Lars Jansson|61, gymnasielärare, Norberg
+C|498807|60|K|Marie-Louise Murray|60
+C|283516|66|K|Pieternella van Beek|66, leg psykoterapeut, Norberg
+C|283517|65|M|Rob den Hertog|65 år, Leg. fysioterapeut
+C|283518|68|M|Kjell Karlsson|68 år, Konsult
+C|52|53|K|Anna Kramer|Projektledare, Norberg
+C|1819|56|M|Per-Arne Andersson|
+C|1820|49|M|Ulf Segerbo|
+C|225029|78|M|Lars Gustavsson|
+C|225030|45|K|Veronika Persson|
+C|225031|69|M|Putte Dahlström|
+C|225032|51|M|Johan Hjelm|
+C|225033|71|M|Christer Hedberg|
+C|225034|66|M|Karl-Henry Jensen|
+C|225035|69|M|Torbjörn Norgren|
+C|225036|71|M|Lars Persson|
+C|225037|58|M|Georgios Kafetsis|
+C|225038|47|K|Anna Jokela|
+C|225039|41|K|Mira Norkola|
+C|225040|56|M|Gustav Gustavsson|
+C|225041|72|M|Bertil Foss|
+C|75122|50|K|Åsa-Lena Vestling|50 år, Ordningsvakt, Norberg
+C|75123|29|M|Dennis Östlund|30 år
+C|75124|23|M|Christoffer Vestling|24 år
+C|75125|38|K|Carolina Wallin|38 år, Vårdbiträde, Norberg
+C|75126|19|K|Sandra Wallin|19 år
+C|75127|20|K|Felicia Vestling|20 år, Säljare, Norberg
+C|510805|29|M|David Nunez Rivas|
+C|510806|53|M|Stefan Vestling|
+C|514270|60|M|Kaj Viberg|
+C|515133|38|M|Eddie Lundeqvist|
+C|515520|53|M|Mikael Wallin|
+C|16572|36|K|Lisa Bäckman|36, personligt ombud, Norberg
+C|16749|46|M|Fredrik Johansson|46, kontorsassistent, Norberg
+C|16948|64|K|Karin Hurtig|64, barnskötare
+C|16580|33|M|Jon Ashbourne|32, kommunsekreterare, Norberg
+C|373875|35|K|Sophie Murray|35, egenföretagare
+C|373876|35|M|Jimmy Koivisto|35, lagerarbetare
+C|16763|73|K|Nancy Ibarra|72, civilekonom, Norberg
+C|16950|62|M|Henry Lehto|62, folkhögskolelärare
+C|16735|66|K|Pratima Åslund|66, arbetsmarknadshandläggare, Norberg
+C|16952|38|M|Jonas Murray Calander|38, avdelningsföreståndare
+C|373881|58|K|Gunvor Ashbourne|58, förskollärare/genuspedagog
+C|16953|29|M|Henrik Dömstedt|28, betongarbetare/deltidsbrandman
+C|373883|47|M|Per-Erik Vik|46, kalkylator
+C|16954|55|K|Karin Danieli|54, veterinär
+C|373885|59|M|Tommy Holmström|59, byggnadsarbetare
+C|16955|65|K|Ann-Christin Persson|65, pensionär
+C|16956|48|M|Kibbe Larsson|59, metallarbetare
+C|16957|65|K|Anna Lena Saarinen|65, pensionär
+C|16754|67|M|Kent Persson|67, pensionär, Norberg
+C|16959|21|K|Karin Dömstedt|20, elevassistent

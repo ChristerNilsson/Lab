@@ -1,11 +1,306 @@
-2|223722|100784|223724|100792|223726|223727|223728|223729|223730|223731|223732|223733|223734|223735|223736|223737|223738|70614|223740|223741|223742|223743|223744|223745|223749|100786|223751|223750|223753|223752|223759|223754|223761|223756|223765|223760|223767|223764|223769|223766|223771|223770|223773|223774|223775|502838|223777|223776|223779|223778|512155
-4|119182|119183|119184|119185|119186|119187|119188|119189|76932|119191|119192|119193|119194|119195|119196|119197|119198|119199|119200|119201
-532|513830
-68|149183|149184|149185|149186|149187|149188|149189|149190|149191|149192|149193|149194|149195|149196|149197|149198|149199|149200|149201|149202|149203|149204|149205|149206|149207|149208|149209|149210|149211|149212|149213|149214|149215|149216
-3|139814|139815|139816|139817|139818|139819|139820|139821|139822|139823|139824|139825|139826|139827|139828|139829|139830|139831|139832|139833|139834|139835|139836|139837|139838|139839|139840|139841|139842|139843|139844|139845|139846|139847|139848|139849|139850|139851|139852|139853|139854|139855|139856|139857|139858|139859|139860|139861|139862
-1296|164277|164278|164279|164280|164281|124845|165764|164283|164284|164285|164286|164287
-55|106614|106615|106616|106617|106618|106619|106620|106621|106622|106623|106624|106625|106626|106627|106628
-1|20633|20634|20635|12779|20637|20638|20639|20640|20641|12817|20643|20644|20645|20646|20647|20648|20649|20650|20651|20652|20653|20654|20655|20656|20657|20658|20659|20660|20661|20662|20663|20664|20665|20666|20667|20668|20669|20670|20671|20672|20673|20674|20675|20676|20677|20678|20680|20681|20682|20683|20684
-46|382806|382807|382808|382809|382810|382811|382812|382813|382814|382815|382816|382817|382818|382819|382822|382820|382821
-110|67176|67177|67178|67179|67180|67181|67182|67183|67184|67185|67186|67187|67188
-5|212314|212315|212316|212317|212318|212319|212320|212321|212322|212323|212324|212325|212326|212327|212328|212329|212330|212331|212332|212333|212334
+T|Sollentuna
+A|2|223722|100784|223724|100792|223726|223727|223728|223729|223730|223731|223732|223733|223734|223735|223736|223737|223738|70614|223740|223741|223742|223743|223744|223745|223749|100786|223751|223750|223753|223752|223759|223754|223761|223756|223765|223760|223767|223764|223769|223766|223771|223770|223773|223774|223775|502838|223777|223776|223779|223778|512155
+A|4|119182|119183|119184|119185|119186|119187|119188|119189|76932|119191|119192|119193|119194|119195|119196|119197|119198|119199|119200|119201
+A|532|513830
+A|68|149183|149184|149185|149186|149187|149188|149189|149190|149191|149192|149193|149194|149195|149196|149197|149198|149199|149200|149201|149202|149203|149204|149205|149206|149207|149208|149209|149210|149211|149212|149213|149214|149215|149216
+A|3|139814|139815|139816|139817|139818|139819|139820|139821|139822|139823|139824|139825|139826|139827|139828|139829|139830|139831|139832|139833|139834|139835|139836|139837|139838|139839|139840|139841|139842|139843|139844|139845|139846|139847|139848|139849|139850|139851|139852|139853|139854|139855|139856|139857|139858|139859|139860|139861|139862
+A|1296|164277|164279|164280|164281|124845|165764|164283|164284|164285|164286|164287
+A|55|106614|106615|106616|106617|106618|106619|106620|106621|106622|106623|106624|106625|106626|106627|106628
+A|1|20633|20634|20635|12779|20637|20638|20639|20640|20641|12817|20643|20644|20645|20646|20647|20648|20649|20650|20651|20652|20653|20654|20655|20656|20657|20658|20659|20660|20661|20662|20663|20664|20665|20666|20667|20668|20669|20670|20671|20672|20673|20674|20675|20676|20677|20678|20680|20681|20682|20683|20684
+A|46|382806|382807|382808|382809|382810|382811|382812|382813|382814|382815|382816|382817|382818|382819|382822|382820|382821
+A|110|67176|67177|67178|67179|67180|67181|67182|67183|67184|67185|67186|67187|67188
+A|5|212314|212315|212316|212317|212318|212319|212320|212321|212322|212323|212324|212325|212326|212327|212328|212329|212330|212331|212332|212333|212334
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|46|SPA|Sollentunapartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|223722|46|M|Joakim Jonsson|46, Tureberg
+C|100784|60|K|Swapna Sharma|60, Trade Compliance Advisor, Sollentuna
+C|223724|45|M|Roger Sjöberg|45, Edsberg
+C|100792|28|K|Mette Hildingsson|28, Studerande, Sollentuna
+C|223726|21|M|Anton Lindgren|21, Törnskogen
+C|223727|31|K|Julia Mäkitalo Blent|31, Kvarnskogen
+C|223728|52|M|Richard Meyer|51, Rotebro
+C|223729|71|K|Gunilla Hultman|70, Häggvik
+C|223730|23|M|Oscar Karlsson Martinpelto|23, Helenelund
+C|223731|27|K|Katarina Roa Godoy|27, Tureberg
+C|223732|79|M|Gunnar Ljungberg|79, Edsberg
+C|223733|51|K|Anne Marie Leijon|51, Rotebro
+C|223734|29|M|Malik Halkow Siyan|28, Häggvik
+C|223735|68|K|Tanja Bojovic|68, Tureberg
+C|223736|64|M|Kari Nortemo|63, Rotebro
+C|223737|46|K|Marija Babic Nicolic|46, Edsberg
+C|223738|43|M|Juwanro Haddad|42, Tureberg
+C|70614|61|K|Anna Vikström|61, Med. dr, Sollentuna
+C|223740|31|M|Nemanja Kovacevic|30, Tureberg
+C|223741|64|K|Britt Stålhandske|64, Häggvik
+C|223742|58|M|Per Olof Malmquist|58, Sjöberg
+C|223743|55|K|Lotta Aldeheim|55, Edsängen
+C|223744|75|M|Stig Nyman|75, Edsberg
+C|223745|73|K|Siv Enström|72, Fågelsången
+C|223749|19|M|Leo Hellström|19, Tegelhagen
+C|100786|28|K|Lizette Nilsson|28, Ombudsman, Handelsanställdas förbund, Sollentuna
+C|223751|54|M|Johan Nybom|53, Viby
+C|223750|83|K|Kerstin Edlund|82, Häggvik
+C|223753|76|M|Lars Olof Bäckman|75, Knista
+C|223752|63|K|Ylva Wibaeus|62, Skansen
+C|223759|69|M|Jan Elieson|69, Norrviken
+C|223754|65|K|Christel Zabell|65, Töjnan
+C|223761|74|M|David Ask|74, Tureberg
+C|223756|73|K|Berit Forsberg|73, Törnskogen
+C|223765|45|M|Micael Lènström|45, Viby
+C|223760|76|K|Maj Sjöberg|76, Edsberg
+C|223767|67|M|Budh Deo Sharma|67, Edsängen
+C|223764|80|K|Solvig Cadenius|79, Rotebro
+C|223769|80|M|Kjell Ekdahl|80, Edsängen
+C|223766|51|K|Nadire Dedic|50, Bagarby
+C|223771|94|M|Bertil Karlsson|93, Häggvik
+C|223770|78|K|Vivian Enochsson|77, Tureberg
+C|223773|41|M|Robin Sjöberg|41, Edsberg
+C|223774|20|K|Matilda Möller|21, Rotsunda
+C|223775|41|M|Jonas Pettersson|41, Häggvik
+C|502838|76|K|Margareta Henkel|76, Törnskogen
+C|223777|79|M|Gunnar Lamin|79, Häggvik
+C|223776|78|K|Stina Bergman Ericson|78, Sjöberg
+C|223779|63|M|Bjarne Isacson|63, Helenelund
+C|223778|73|K|Siv Gustavsson|72, Viby
+C|512155|55|M|Alfonso Ramirez|
+C|119182|53|M|Jonas Riedel|53, Kommunikationsansvarig, Viby
+C|119183|58|M|Lars Kallander|58, Systemansvarig, Tunberget
+C|119184|42|M|Magnus Brixarve|42, Sollentuna, Lärare
+C|119185|42|K|Josefin Silverfur|42, Maskinleverantör, Häggvik
+C|119186|19|M|Oscar Berggren|19, Sollentuna, Studerande
+C|119187|51|K|Katarina Teglund|51, Civilekonom, Silverdal
+C|119188|55|M|Bernt Josephson|55, Sollentuna, Grundskolelärare
+C|119189|56|K|Eva Wenker|56, Sollentuna, Förskollärare
+C|76932|76|K|Margareta Cantell|75, Sollentuna, Leg. läkare
+C|119191|78|M|Ulf Brangenfelt|78, Civilekonom, Norrviken
+C|119192|46|K|Mi Irveland|46, Jurist, Edsviken
+C|119193|46|K|Carina Lundgren|46, Ekonom och politiskt sakkunnig, Knista
+C|119194|83|K|Kerstin Myrehed|83, Pensionär fd rektor, Rotebro
+C|119195|74|K|Diana Aftén|74, Socionom, Skälby
+C|119196|71|M|Allan Blomquist|71, Ingenjör, Rotebro
+C|119197|78|K|Carin Lenneby Björlin|78, Pensionär, Norrviken
+C|119198|27|K|Elanor Kallander|27, Receptionsansvarig, Väsjön
+C|119199|71|M|Jörgen Nenzén|71, Ingenjör, Rotsunda
+C|119200|67|K|Anneli Blomquist|67, Redovisningsekonom, Rotebro
+C|119201|73|M|Christer Östregård|73, Pensionär, Edsberg
+C|513830|40|K|Heléne Portnoff|40, studie- och yrkesvägledare
+C|149183|69|M|Magnus Ramstrand|69, Kommunalråd, Sollentuna
+C|149184|56|M|Carlos Romero|IT-konsult
+C|149185|67|K|Eva Ireblad|Specialpedagog
+C|149186|54|M|Seppo Karmitsa|54, Företagare, Sollentuna
+C|149187|44|M|Thomas Nyman|44, Kundansvarig, Sollentuna
+C|149188|43|K|Towe Ireblad|Civ.ing/Miljökonsult
+C|149189|34|K|Susanna Klang|Sjuksköterska
+C|149190|35|M|Gunnar Lunnergård|Planarkitekt
+C|149191|69|K|Christina Sternerup Falkenström|Kommunikatör
+C|149192|41|K|Nivin Ala-Eddin|Förskollärare
+C|149193|79|M|Bert Christiansson|Företagare
+C|149194|63|K|Irmeli Patricius|63, Vinbonde, Sollentuna
+C|149195|43|M|Jakob Forssmed|43, Riksdagsledamot, Sollentuna
+C|149196|44|K|Theresia Olsson Neve|Filosofie doktor
+C|149197|67|M|Lars Jägerskog|Gymnasielärare
+C|149198|50|K|Hawa Shire|Undersköterska
+C|149199|55|M|Jan Fjellstedt|Kulturvetare
+C|149200|74|K|Martha Duvell|Pensionär
+C|149201|54|M|Jonas Hedman|Marknadsekonom
+C|149202|43|K|Amal Karam|Jurist
+C|149203|50|M|Jan Better|Pol.mag
+C|149204|73|M|Ragnar Ståhle|Adjunkt
+C|149205|36|K|Caroline Agrell|Statsvetare
+C|149206|36|M|Joakim Erdtman|Statsvetare
+C|149207|62|M|Peter Kilander|Ingenjör
+C|149208|58|K|Elisabeth Wallgren|Pedagog
+C|149209|70|M|Olle Ireblad|Företagare
+C|149210|70|M|Gert Nordin|Gymnasielärare
+C|149211|33|M|Edvard Agrell|Generalsekreterare
+C|149212|81|K|Karin Lindell|Leg.sjuksköterska
+C|149213|74|M|Börje Duvell|74, Fd. Ambassadråd, Sollentuna
+C|149214|35|M|Simon Olsson|Pressekreterare
+C|149215|69|M|Swen Bergling|Recitatör/konsult
+C|149216|71|K|Sonia Lunnergård|71, Kommunpolitiker, Sollentuna
+C|139814|54|K|Anna-Lena Johansson|kommunalråd, sjuksköterska, Sollentuna
+C|139815|37|K|Moa Rasmusson|Kommunpolitiker, Skälby, 37 år
+C|139816|44|M|Henrik Thureson|Kulturchef, Tureberg, 44 år
+C|139817|46|M|Per Altenberg|Ämnesråd, Tureberg, 46 år
+C|139818|58|K|Annika Dellås|HR manager, Sollentuna
+C|139819|61|M|Per Gibson|Ingenjör, Edsviken, 61 år
+C|139820|24|M|Arman Karégar|Student, Tureberg, 24 år
+C|139821|40|K|Hanna Clerkestam|Företagare, Tureberg, 40 år
+C|139822|61|M|Anders Morin|Ekonom, Viby, 61 år
+C|139823|52|K|Carina Knorpp|Ämnesråd, Helenelund, 52 år
+C|139824|71|M|Gunnar Bergqvist|Ordförande miljöutskottet, Töjnan, 71 år
+C|139825|52|K|Christina Nelson Södersten|Civilekonom, Häggvik, 52 år
+C|139826|47|M|Kjell Ericson|Programmerare, Rotebro, 47 år
+C|139827|43|M|Mattias Hjelmberg|Idrottspolitisk rådgivare, Edsviken, 42 år
+C|139828|71|K|Anette Clefberg|Organisationskonsult, Helenelund, 71 år
+C|139829|42|M|Per Lindgren|Civilingenjör, Silverdal, 42 år
+C|139830|34|K|Paulina Brandberg|Jurist, 34 år
+C|139831|63|M|Gerry Johansson|Civilingenjör, Norrviken, 63 år
+C|139832|65|K|Ann-Charlotte Helmersson|Fritidspolitiker, Töjnan, 65 år
+C|139833|21|M|Karl Johansson|butiksmedarbetare, Sollentuna
+C|139834|53|M|Ola Persson|Civilingenjör, Häggvik, 53 år
+C|139835|42|K|Nina Gustafsson|Gymnasielärare, Edsviken, 42 år
+C|139836|57|M|Pär Åkerström|Utredare, Häggvik, 57 år
+C|139837|62|K|Maria Leissner|Ambassadör, Töjnan, 62 år
+C|139838|20|M|Felix Hyvärinen|Säljare, Edsberg, 20 år
+C|139839|53|K|Ann-Charlotte Eriksson|Jur.kand., Edsviken, 53 år
+C|139840|72|M|Ulf Boëthius|Organisationskonsult, Edsviken, 72 år
+C|139841|47|M|Peter Ahlström|Idrottsstrateg, Solängen, 47 år
+C|139842|76|K|Gun-Lis Roos|pensionerad banktjänsteman, Sollentuna
+C|139843|57|M|Bo Johansson|arkivarie, Sollentuna
+C|139844|25|K|Alice Åkerström|Personlig handläggare, Häggvik, 25 år
+C|139845|47|M|Magnus Nyberg Blixt|Rektor och Leg. lärare, Tureberg, 47 år
+C|139846|59|M|Björn Olof Dellås|Civilingenjör, Edsviken, 59 år
+C|139847|73|K|Britt-Marie Lindberg|fd studievägledare, Sollentuna
+C|139848|57|M|Rikard Kaiser|Kemiingenjör, Rotebro, 57 år
+C|139849|28|M|Jan Westerlund|Ledamot i HBT-liberaler Stockholm, Tureberg, 28 år
+C|139850|67|M|Ulf Hansson|civilingenjör, Sollentuna
+C|139851|68|K|Elisabeth Nemert|Författare, Landsnora, 68 år
+C|139852|39|M|Ashkan Kasbi|Egenföretagare, Häggvik, 39 år
+C|139853|60|K|Karin Rudling|Överläkare, Edsviken, 60 år
+C|139854|81|M|Hans Redtzer|Ekonom, Gillberga, 81 år
+C|139855|76|M|Wolfgang Richter|Ingenjör, Edsberg, 76 år
+C|139856|79|M|Kjell Ängelid|Pensionär, Töjnan, 79 år
+C|139857|72|K|Carina Bindzau|jurist, Vaxmora
+C|139858|73|M|Mats Linder|Pensionär, Tureberg, 73 år
+C|139859|71|K|Anne-Marie Asp|Med.kand., Vaxmora, 71 år
+C|139860|77|M|Jan-Erik Nyberg|Civilekonom, Vaxmora, 77 år
+C|139861|93|K|Marianne Lundqvist|Leg. sjuksköterska, Häggvik, 93 år
+C|139862|72|M|Lennart Gabrielsson|F.d. kommunalråd, Kärrdal, 72 år
+C|164277|59|M|Bo Hansson|59, Civilekonom, Sollentuna
+C|164279|66|M|Claes Lundberg|66, Elektronikingenjör, Viby
+C|164280|35|M|Simon Lundmark|35, Programmerare, Töjnan
+C|164281|72|K|Ewa Hellström-Boström|72, Författare, Solängen
+C|124845|42|K|Josefin Utas|42, Teknologie doktor, Stockholms län
+C|165764|36|M|Björn Jonsson|37, Samhällsplanerare, Helenelund
+C|164283|60|M|Per Englund|60, Civilingenjör, Sollentuna
+C|164284|44|M|Mikael Grev|44, Entreprenör, Töjnan
+C|164285|44|M|Barry Axén|43, Skyddsvakt, Rotsunda
+C|164286|35|M|Oscar Lavas|35, Civilingenjör, Rotebro
+C|164287|78|M|Lennart Boström|78, Pensionerad läkare, Solängen
+C|106614|42|M|Peter Godlund|41, grundskollärare, Sollentuna
+C|106615|69|K|Ingrid Måhl|Lärare, massageterapeut, Tureberg
+C|106616|68|M|Lasse Jäger|Hantverkare, Rotsunda
+C|106617|58|K|Rosie Karlsson|58, projektledare, Sollentuna
+C|106618|54|M|Reza Etemad|Projektledare, Tureberg
+C|106619|43|K|Anna Brown|Bibliotekarie, Helenelund
+C|106620|44|M|Joakim Nordlund|44, tekn.dr, Sollentuna
+C|106621|47|K|Monika Wallström|Kommunikatör, Fågelsången
+C|106622|65|M|Per Wångstedt|Arkitekt, Sjöberg
+C|106623|67|K|Gunilla Wallén|67, leg. sjuksköterska, Sollentuna
+C|106624|22|M|Fredrik Sarlin|Studerande, Väsjön
+C|106625|69|K|Åsa Berner|Lärare, Landsnora
+C|106626|47|K|Abbadit Tesfamicael|Biståndshandläggare, Rotebro
+C|106627|79|M|Thorvald Eriksson|Pensionär, Fågelsången
+C|106628|67|K|Agneta Garnström|Pensionär, Viby
+C|20633|46|M|Henrik Thunes|46, Kommunstyrelseordförande
+C|20634|47|K|Soley Aksöz Lithborn|47, MBA
+C|20635|50|M|Thomas Ardenfors|50, Familjehemspappa
+C|12779|55|K|Maria Stockhaus|riksdagsledamot, Stockholms län
+C|20637|55|M|Oscar Nyströmer|55, Projektledare
+C|20638|72|K|Birgitta Schwinn|72, leg. Dietist
+C|20639|48|K|Åsa Söderbergh|48, Civilekonom
+C|20640|45|M|Folke Anger|45, Civilingenjör
+C|20641|29|M|Tobias Nehm|29, Managementkonsult
+C|12817|51|M|Rickard Truedsson|51, Projektledare
+C|20643|18|K|Rebecca Nordin Vainio|18, Student
+C|20644|75|M|Benkt Kullgard|75, Officer
+C|20645|66|K|Marie Hård|66, Förvaltningssocionom
+C|20646|74|M|Björn Karlsson|74, Överste 1. gr
+C|20647|75|M|Henrik von Vegesack|75, Överste
+C|20648|71|M|Bo Halbert|71, Civilekonom
+C|20649|68|K|Birgitta Sturesson|68, Miljö- & Hälsoskyddsinspektör
+C|20650|56|K|Jacqueline Anagrius Collin|56, Polis
+C|20651|50|K|Veronica Liedberg|50, Paralegal
+C|20652|60|M|Michael Bergman-Olson|60, IT-Konsult
+C|20653|20|K|Diana Mamendi|20, Butikschef
+C|20654|72|M|Anders Hultkvist|72, Civilekonom
+C|20655|56|M|Håkan Westin|56, Civilingenjör
+C|20656|47|M|Jonas Syrén|47, Verkställande Direktör
+C|20657|76|M|Lennart Friis|76, Civilingenjör
+C|20658|52|K|Helena Lind Trotzenfeldt|52, Affärsutvecklingschef
+C|20659|27|M|Tommy Höijer|27, Student
+C|20660|47|M|Amir Tork|47, Civilingenjör
+C|20661|72|K|Marianne Lindmark Stjernswärd|72, Jur. kand
+C|20662|63|M|Jan Elshult|63, Civilingenjör
+C|20663|74|M|Christer Mårtensson|74, Civilekonom
+C|20664|53|M|Mohamad Hassan|53, Teamledare
+C|20665|69|M|Gustaf Skulason|69, Småföretagare
+C|20666|75|M|Ulf Zettervall|75, Civilekonom
+C|20667|79|M|Franz Brejcha|79, Ingenjör
+C|20668|45|K|Iovka Yvonne Simholm|45, Undersköterska
+C|20669|79|M|Per Hådell|79, Ingenjör
+C|20670|75|M|Tommy Nilsson|75, Egenföretagare
+C|20671|61|M|Peder Ekstrand|61, Entreprenör
+C|20672|63|M|Olof Hjelm|63, Civilingenjör
+C|20673|74|M|Tomas Franzén|74, Ingenjör
+C|20674|66|K|Daniela Rawensparr|66, Jurist
+C|20675|72|K|Eva Tunér|72, leg. Sjuksköterska
+C|20676|76|M|Jan Tunér|76, Tandläkare
+C|20677|77|M|Bertil Nilsson|77, Civilingenjör
+C|20678|59|K|Katarina Lovén Väistö|59, Investeringsrådgivare
+C|20680|22|K|Hanna Olofsson|22, Student
+C|20681|74|M|Karl-Evert Wannberg|74, IT-företagare
+C|20682|45|M|Rowan Högman|45, Civilingenjör
+C|20683|45|M|Viktor Barthelson|45, Egenföretagare
+C|20684|48|K|Latifeh Amiri|48, Egenföretagare
+C|382806|50|K|Anki Elken|Hållbarhetschef, Gillbo, Rotebro
+C|382807|36|M|Johnny Rönnberg|Projektör, Rotebro
+C|382808|43|K|Irina Alewert|Politisk Sekreterare, Edsberg
+C|382809|58|M|Andreas Näsman|Företagare, Edsbacka
+C|382810|21|K|Lisa Elken|Student, Gillbo, Rotebro
+C|382811|55|M|Rolf Wagner|Trädgårdsmästare, Tureberg
+C|382812|42|M|Daniel Eriksson|VD, Silverdal
+C|382813|67|K|Elvy Lovén|Pensionär, Rotebro
+C|382814|69|M|Stig Eriksson|Pensionär, Törnskogen
+C|382815|86|K|Britta Hansson|Textilkonstnär, Tegelhagen
+C|382816|30|M|Anders Lovén|Trädgårdsmästare, Rotebro
+C|382817|85|K|Harriet Goliath|Leg. logoped, Rotebro
+C|382818|83|M|Göran Eidenert|Fd. åkeriägare, Vaxmora
+C|382819|64|K|Ewa Piatkowska|Lokalvårdare, Vaxmora
+C|382822|32|M|Niclas Eidenert|Tak- och tätskiktsmontör, Vaxmora
+C|382820|35|M|Firoz Ali Gauri|
+C|382821|31|K|Shalini Saini|
+C|67176|44|M|Mikael Stigenberg|44, egenföretagare, Sollentuna
+C|67177|78|M|Bo Ehlin|78, rektor, Sollentuna
+C|67178|71|M|Arne Nilsson|71, pensionär, Sollentuna
+C|67179|51|M|Jan Holgersson|systemtekniker
+C|67180|55|K|Lena Bertilsson|leg. sjuksköterska
+C|67181|61|M|Peter Berggren|kontoansvarig
+C|67182|42|K|Karin Steggos|florist
+C|67183|79|K|Irene Bergvall|pensionär
+C|67184|35|M|Ludvig Aspling|Politisk sakkunnig, Sollentuna
+C|67185|72|M|Urban Löthman|säljare
+C|67186|62|M|Ola Byström|pensionär
+C|67187|34|M|David Furmanski|utbildare
+C|67188|40|K|Soudabeh Asadi|sjuksköterska
+C|212314|75|M|Barkat Hussain|IT-konsult
+C|212315|38|K|Dira Lindström|mediepedagog
+C|212316|31|M|Leandro Andrade|terminalarbetare/fackordförande
+C|212317|66|K|Luz Maria Corzo|barnskötare
+C|212318|26|M|Hannes Waldetoft|masterstudent
+C|212319|51|K|Ulrika Carlsson|spårvagnsförare
+C|212320|43|M|Magnus Ivarsson|personlig assistent
+C|212321|78|K|Britt-Marie Danestig|Sollentuna, pensionär
+C|212322|22|M|Rasmus Cedergren|Sollentuna, produktionsarbetare
+C|212323|28|K|Matilda Almqvist|studerande
+C|212324|29|M|Samuel Scherman|Sollentuna, student
+C|212325|38|K|Sahar Nassar|kurator
+C|212326|55|K|Susanna Oom|textilkonservator
+C|212327|68|M|Tamiz Rehman|IT-konsult
+C|212328|36|K|Maria Wånggren Sallah|pedagogiskt stöd
+C|212329|29|M|Axel Wallin|läkarstudent
+C|212330|28|M|David Grundström|applikationsingenjör
+C|212331|31|M|Evgeni Leonov|skådespelare
+C|212332|31|M|Sam Anlér|festivalarrangör
+C|212333|66|M|Ismail Senol|personlig assistent
+C|212334|70|M|Lars-Eric Håkansson|ekonom

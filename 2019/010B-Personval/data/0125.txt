@@ -1,9 +1,190 @@
-2|71209|92299|92300|92301|92302|92303|92304|92305|92306|92307|92308|92309|92310|92311|92312|92313|92314|92315|92316|92317|92318|92319|92320|92321|92322|92323
-4|76937|123480|123474|433692|347822|347823|347824|347825|347826|347827|347828|347829|347830|347831|347832|347833|347834
-68|154402|154403|154404|154405|154406|154407|154408|154409|154410|154411|154412|154413|154414|154415|154416|154417|154418|154419|154420
-3|15339|15340|15341|15342|15343|15344|15345|15346|15347|15348|15349|15350|15351|15352|15353|15354|15355|15356|15357
-55|247983|247984|247985|247986|247987|247988|247989|247990|247991|247992|360216|247993|247994|247995
-1|22931|23469|12822|22939|23472|23473|22943|23475|22953|23477|22926|22948|23480|23481|23482|22945|23484|23485|22969|23487|23488|23489|22964|109246|23491|23492|23493|23494|23495|23496|23497|23498|23499|23500|23501|23502|23503|23504|23505|23506
-110|127630|127631|127632|127633|127634|127629
-5|217743|217744|217747|217749|217746|217745|217750|217748|359442
-498|412998|412999|413000|413001|413002|413003|413004|413005|413006|413007|413008|413009|413010|413011|413012|413013|413014|413015|413016|413017|413018
+T|Ekerö
+A|2|71209|92299|92300|92301|92302|92303|92304|92305|92306|92307|92308|92309|92310|92311|92312|92313|92314|92315|92316|92317|92318|92319|92320|92321|92322|92323
+A|4|76937|123480|123474|433692|347822|347823|347824|347825|347826|347827|347828|347829|347830|347831|347832|347833|347834
+A|68|154402|154403|154404|154405|154406|154407|154408|154409|154410|154411|154412|154413|154414|154415|154416|154417|154418|154419|154420
+A|3|15339|15340|15341|15342|15343|15344|15345|15346|15347|15348|15349|15350|15351|15352|15353|15354|15355|15356|15357
+A|55|247983|247984|247985|247986|247987|247988|247989|247990|247991|247992|360216|247993|247994|247995
+A|1|22931|23469|12822|22939|23472|23473|22943|23475|22953|23477|22926|22948|23480|23481|23482|22945|23484|23485|22969|23487|23488|23489|22964|109246|23491|23492|23493|23494|23495|23496|23497|23498|23499|23500|23501|23502|23503|23504|23505|23506
+A|110|127630|127631|127632|127633|127634|127629
+A|5|217743|217744|217747|217749|217746|217745|217750|217748|359442
+A|498|412998|412999|413000|413001|413002|413003|413004|413005|413006|413007|413008|413009|413010|413011|413012|413013|413014|413015|413016|413017|413018
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|498|Ö|Öpartiet
+C|71209|39|K|Hanna Svensson|39, Oppositionsråd, Ekerö
+C|92299|31|M|Johan Hammarström|32, Ombudsman, Ekerö
+C|92300|71|K|Inger Andersen|71, Egen företagare, Skå
+C|92301|45|M|Fredrik Sirberg|45, Byggnadsarbetare, Munsö
+C|92302|48|K|Petra Hammar|48, Intendent, Ekerö
+C|92303|51|M|Lars Holmström|51, Byggnadsarbetare, Skå
+C|92304|65|K|Margareta Bohman|65, Teamledare, Stenhamra
+C|92305|72|M|Ulric Andersen|72, fd oppositionsråd, Skå
+C|92306|66|K|Elisabeth Palm|66, Pensionär, Stenhamra
+C|92307|38|M|Per Sjödin|38, Samhällsvetare, Ekerö
+C|92308|40|K|Helena Skoglund|40, Politisk sekreterare, Träkvista
+C|92309|45|M|Andreas Gustavsson|46, Ingenjör, Adelsö
+C|92310|50|K|Ulrika Holmström|50, Gruppchef, Skå
+C|92311|56|M|Lars Eriksson|56, Målare, Ekerö
+C|92312|40|K|Linnéa Nordin|41, Förbundssekreterare, Ekerö
+C|92313|22|M|Marcus Lindeberg Goñi|22, Student, Älvnäs
+C|92314|55|K|Christina Almlöv|55, Ordf. Hyresgästföreningen Bromma-Ekerö, Ekerö
+C|92315|56|M|Jan Finnerman|56, Ingengör, Närlunda
+C|92316|66|K|Margit Hammarström|66, Kock, Ekerö
+C|92317|70|M|Kjell-Åke Hansson|70, Arbetsförmedlare, Kungsberga
+C|92318|43|K|Liselott Sundkvist|43, Produktionssamordnare, Träkvista
+C|92319|69|M|Sten Svensson|69, Pensionär, Älvnäs
+C|92320|52|K|Anette de Ron|52, Lärare, Ekerö
+C|92321|46|M|Dariusz Orlowski|47, Vårdbiträde, Ekerö
+C|92322|71|K|Maj Lundberg Torrico|71, Pensionär, Skå
+C|92323|68|M|PA Hammarström|68, tidigare ombudsman, Ekerö
+C|76937|60|M|Ove Wallin|60, Ekerö, Slottsvakt
+C|123480|71|K|Solveig Brunstedt|71, Ekerö, Pensionär
+C|123474|67|M|Kjell-Erik Börjesson|67, Ekerö, Folkhögskolerektor
+C|433692|61|K|Ingalill Zell|Svartsjö, barnmorska
+C|347822|52|M|Johan Lyrén|Stenhamra, civilingenjör
+C|347823|69|K|Mia Heurlin Norinder|Närlunda, lektor
+C|347824|51|M|Björn Pilström|Skärvik, fil dr
+C|347825|19|K|Sandra Pernkrans|Ekerö, studerande
+C|347826|64|K|Lena Lönnqvist|Nyckelby, egen företagare
+C|347827|59|M|Tjalle Forselius|Svartsjö, fastighetstekniker
+C|347828|37|M|Oscar Högqvist|Svartsjö, trädgårdsmästare
+C|347829|60|M|Anders Nordin|Svartsjö, produktionsledare
+C|347830|52|M|Magnus Elf|Ekerö sommarstad, civilingenjör
+C|347831|83|K|Veronica Cornils-Berg|Närlunda, konstnär
+C|347832|37|M|Ben Rhee|Gällstaö, rådgivare
+C|347833|73|K|AnnBritt Lindberg|Munsö, pensionär
+C|347834|73|M|Leif Axelsson|Lovö, pensionär
+C|154402|48|M|Sivert Åkerljung|48, Lärare, Träkvista
+C|154403|59|K|Christina Blom  Andersson|59, Kost och näringsekonom, Ekerö
+C|154404|46|M|Niklas Ernback|46, Företagare, Ekerö
+C|154405|53|K|Lena Samuelsson|53, Företagare, Hummelvreten
+C|154406|61|M|Peter Östergren|61, VD, Adelsö
+C|154407|60|K|Eva G Qvarnström|60, Sektionschef, Ekerö sommarstad
+C|154408|34|K|Sofia Englund|34, Verksamhetschef ä.omsorg, Helgö
+C|154409|43|M|Patrik Antonsbacke|43, Lärare, Närlunda
+C|154410|77|M|Anders Andersson|77, Pensionär, Enlunda
+C|154411|34|K|Mikaela Wallerud|34, Sjuksköterska, Stenhamra
+C|154412|58|M|Tönnes Graveley|58, IT-arkitekt, Ekerö sommarstad
+C|154413|45|K|Carolina Klintefelt|45, Kommunikatör, Sundby
+C|154414|46|M|Tobias Mattsson|46, Företagare, Närlunda
+C|154415|58|K|Siw Gustavsson|58, Ordningsvakt, Adelsö
+C|154416|63|M|Thomas Swensson|63, Skolledare, Sandudden
+C|154417|81|K|Anna-Carin Stålgren|81, Sjuksköterska, Hummelvreten
+C|154418|65|M|Jan Ericsson|65, Egenföretagare, Stenhamra
+C|154419|74|K|Sigrid Ingemarsson|74, Socionom, Väsby
+C|154420|82|K|Ingbritt Bäcklund|82, Distriktssjuksköterska, Tappström
+C|15339|46|M|Göran Hellmalm|omvärldsanalytiker, Ekerö
+C|15340|66|K|Eva Sydhoff Henriksen|Chef primärvårdutveckling, Ekerö
+C|15341|44|M|Fredrik Ohls|civilingenjör, Ekerö
+C|15342|72|K|Ingegerd Danielsson|egen företagare, Ekerö
+C|15343|49|M|Alexander Lind af Hageby|jägmästare, Ekerö
+C|15344|49|M|Johan Hagland|Arkitekt, Gustava
+C|15345|77|K|Gunilla Lindberg|kulturskribent, Ekerö
+C|15346|42|K|Karin Hellmalm|handläggare, Ekerö
+C|15347|41|K|Cajsa Sydhoff Weibring|Bolagsjurist, Ekerö Centrum
+C|15348|62|K|Kristina Asplund|Pedagog, Tappström
+C|15349|41|M|Magnus Elfdahl|Nationalekonom, Sandudden
+C|15350|73|K|Barbro Zimmerling Svan|Magister i socialt arbete, Närlunda
+C|15351|43|M|Tommy Bryntse|Spelutvecklare, Stenhamra
+C|15352|38|M|Oskar Egnér|Egenföretagare, Färentuna
+C|15353|72|M|Hans Henriksen|Läkare, Ekerö
+C|15354|36|K|Elin Löfrot|HR Specialist ledarutveckling, Stenhamra
+C|15355|78|M|Dan Melin|Ingenjör, Ekerö Centrum
+C|15356|77|M|Mats Palmborg|F.d. ombudsman, Träkvista
+C|15357|75|M|Gunnar Pihl|Företagare, Kungsbryggan
+C|247983|47|K|Ulrika Sandin|biträdande rektor
+C|247984|48|M|Carl Ståhle|48, arkitekt, Ekerö
+C|247985|73|M|Björn Osberg|73, seniorkonsult, Ekerö
+C|247986|42|K|Iren Bakkerud|förskolelärare och grafiker
+C|247987|60|M|Peter Karlsson|IT utvecklare
+C|247988|74|K|Ulla Melin|f.d. skolledare
+C|247989|52|M|Marius Billy|Socialantropolog och musiker
+C|247990|37|M|Fredrik Zandren|IT-konsult
+C|247991|74|K|Harriet Philp|f.d. projektledare och programmerare
+C|247992|58|M|Göran Ronsten|konsult
+C|360216|66|K|Anne Lindberg|sjuksköterska
+C|247993|50|M|Mattias Nyström|affärsutvecklare
+C|247994|31|M|Daniel Schlaug|programmerare
+C|247995|44|M|Niklas Meissner|civilingenjör
+C|22931|52|M|Adam Reuterskiöld|52, Lantbrukare
+C|23469|51|M|Arnulf Langlet|51, Lundhagen
+C|12822|35|K|Sandra Gunneflo|35, leg. Apotekare
+C|22939|52|M|Göran Ahlquist|52, Kalkylansvarig
+C|23472|51|M|Gunnar Mossberg|51, Svartsjö
+C|23473|59|K|Lena Gerby|59, Älvnäs
+C|22943|56|K|Helena Butén|56, Verksamhetschef
+C|23475|62|M|Dick Ullgren|62, Skärvik
+C|22953|56|K|Liselotte Claussnitzer|56, Egenföretagare
+C|23477|72|M|Ola Sandin|72, Drottningholm
+C|22926|59|M|Peter Carpelan|59, Landstingsråd
+C|22948|65|M|Jan Runesten|65, Jurist
+C|23480|62|M|Kjell Öhrström|62, Skå
+C|23481|48|M|Hans Cronmark|48, Närlunda
+C|23482|49|K|Camilla Wallhed|49, Sandudden
+C|22945|52|K|Maria Kvarnheden|52, Handläggare
+C|23484|74|K|Margaretha Wiberg|74, Älvnäs
+C|23485|46|M|Kent Söderberg|46, Adelsö
+C|22969|52|M|Isaac Teckle|52, Gymnasielärare
+C|23487|49|K|Heidi Carneheim|49, Väsby
+C|23488|57|M|Nicke Björling|57, Närlunda
+C|23489|44|M|Erik Lif-Sjöcrona|44, Gällstaö
+C|22964|53|K|Marzena Waligorska|53, Konsult
+C|109246|53|K|Anna Lettse|53, Knalleborg
+C|23491|73|M|Per Ekström|73, Helgö
+C|23492|78|M|Sven Wikblom|78, Lundhagen
+C|23493|76|M|Per Ahlqvist|76, Gällstaö
+C|23494|73|K|Charlotte Woge|73, Träkvista
+C|23495|60|M|Ingemar Gerby|60, Älvnäs
+C|23496|46|M|Fleming Pedersen-Dambo|46, Stenhamra
+C|23497|69|K|Eva Laurén|69, Sandudden
+C|23498|68|M|Jan Olsson|68, Väsby
+C|23499|58|M|Mats Ahlbom|58, Träkvista
+C|23500|66|K|Ingegerd Ekström|66, Helgö
+C|23501|82|M|Ulf Björnsjö|82, Närlunda
+C|23502|84|K|Kerstin Balck-Ahlén|84, Ekerö
+C|23503|64|K|Helena Styf|64, Närlunda
+C|23504|84|K|Anna-Stina Wivallius|84, Stenhamra
+C|23505|63|M|Nils Lundqvist|63, Närlunda
+C|23506|74|M|Ingemar Hertz|74, Närlunda
+C|127630|56|M|Kent Einarsson|56, besiktningsförrättare, Ekerö
+C|127631|46|M|Sebastian Persson|46, trafikpilot, Ekerö
+C|127632|48|M|Per Lönnestål|48, Rörmontör, Hilleshög
+C|127633|40|M|Jimmy Fors|40, tjänsteman, Ekerö
+C|127634|43|K|Corey Liljeqvist|43, Gruppchef, Jungfrusund
+C|127629|45|K|Cecilia Karström|45, politisk sekreterare, Ekerö
+C|217743|60|M|Mikke Lillman|Kanslist
+C|217744|68|M|Jörgen Lindgren|Konsult
+C|217747|56|M|Ulf Nordkvist|Boendestödjare
+C|217749|55|M|Federico Romano|Konstnär
+C|217746|69|M|Peter Moderato|Byggnadsarbetare
+C|217745|70|M|Kenneth Holm|Pensionär
+C|217750|71|K|Agneta Gullmer Svensson|Pensionär
+C|217748|69|M|Käll Svensson|Pensionär
+C|359442|38|M|Mattias Anwall|Lärare
+C|412998|61|K|Desirée Björk|Personlig Assistent, Adelsö
+C|412999|76|M|Bernt Richloow|Slöjdlärare, Stavsborg
+C|413000|66|M|Robert Oberascher|Transportarbetare, Adelsö
+C|413001|63|K|Elaine Adlertz|Egen företagare, Ekerö
+C|413002|55|M|Stefan Björn|Produktionsledare, Ekerö
+C|413003|49|M|Johan Sundqvist|Hållbarhetsstrateg, Ekerö
+C|413004|47|K|Anna Claudia Voltaire|Läkare, Ekerö
+C|413005|80|M|Nils Lundborg|Pensionär, Hilleshög
+C|413006|47|M|Oscar Linde|Lärare, Stenhamra
+C|413007|64|K|Anne Richloow|Speciallärare, Stavsborg
+C|413008|43|M|Roberto Anchevici|Fastighetsskötare, Adelsö
+C|413009|75|M|Ulf Jansson|Språkkonsult, Kungsberga
+C|413010|73|K|Inger Blomberg|Fd Rektor, Kungsberga
+C|413011|37|K|Clarry Björk|Undersköterska, Adelsö
+C|413012|46|K|Camilla Holmberg|Vårdbiträde, Ekerö
+C|413013|72|M|Bo Blom|Adjunkt, Stenhamra
+C|413014|79|K|Solweig Ericksson Sundman|Assistent, Västeräng
+C|413015|75|M|Robert Blomberg|IT-tekniker, Färentuna
+C|413016|73|K|Birgitta Norén|Pensionär, Ekerö
+C|413017|73|M|Rolf Norén|Produktionstekniker, Ekerö
+C|413018|68|M|Tord Björk|Pensionär, Adelsö

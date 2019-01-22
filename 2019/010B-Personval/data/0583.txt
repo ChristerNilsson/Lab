@@ -1,10 +1,256 @@
-2|24883|24501|102643|24780|167581|167661|167662|167663|167664|167665|25088|107015|107109|167707|102870|167756|167757|167758|167759|167760|175299|24670|175301|175302|175303|175813|107248|24908|175816|175817|175818|107110|175820|175821|107254|175823|175824|107253|176452|176454|104708|176456|176457|176458|102644|176460|176827|176828|176829|176830|176831|176832|176833|176834
-4|34010|12028|14676|14669|34014|34015|34016|34017|34018|34019|34020|34021|34022|34023
-1388|515660
-68|252542|252543|252544|252545|252546|252547|252548|252549|252550|252551|252552|252553|252554|252555|252556|252557|252558|252559|252560|252561|252562|252563|252564|252565|252566|252567
-3|248777|248949|248769|248770|248952|248772|248765|248955|248761|248762|248958|248764|247473|248961|248768|248767|248964|248773|248966|248967|248968|248969|248763|248971|248771|248973|248766|248975|248776|248977|248978|248979|248980|248981|248982|248983|248984|248985|248986|248987
-55|418111|418112|416005|415989|418115|418116|416007|418118|418119|418120
-1|3340|3341|3342|3324|3344|3345|3346|3347|3348|3349|3350|3351|3352|3353|3354|3355|3356|3357|3358|3339|3360|3361|3362|3363|3364|25903|12927|25905|25906|25907|63433|63434|63435|63436|63437|63438
-110|127395|127391|127416|127385|409850|409851|127402|127423|409854|409855|387324
-1309|431304|431318|479451|479441|479490|479450|479492|479444|479454|479439|479448|479497|479498|479499|479453|479502|479503|479504
-5|71566|103146|71576|78368|103149|78372|78367|103152|71582|71586|103155|78358|103157|78373|78365|103160|78359|103162|103163|78371|103165|103166|103167|103168|103169
+T|Motala
+A|2|24883|24501|102643|24780|167581|167661|167662|167663|167664|167665|25088|107015|107109|167707|102870|167756|167757|167758|167759|167760|175299|24670|175301|175302|175303|175813|107248|24908|175816|175817|175818|107110|175820|175821|107254|175823|175824|107253|176452|176454|104708|176456|176457|176458|102644|176460|176827|176828|176829|176830|176831|176832|176833|176834
+A|4|34010|12028|14676|14669|34014|34015|34016|34017|34018|34019|34020|34021|34022|34023
+A|1388|515660
+A|68|252542|252543|252544|252545|252546|252547|252548|252549|252550|252551|252552|252553|252554|252555|252556|252557|252558|252559|252560|252561|252562|252563|252564|252565|252566|252567
+A|3|248777|248949|248769|248770|248952|248772|248765|248955|248761|248762|248958|248764|247473|248961|248768|248767|248964|248773|248966|248967|248968|248969|248763|248971|248771|248973|248766|248975|248776|248977|248978|248979|248980|248981|248982|248983|248984|248985|248986|248987
+A|55|418111|418112|416005|415989|418115|418116|416007|418118|418119|418120
+A|1|3340|3341|3342|3324|3344|3345|3346|3347|3348|3349|3350|3351|3352|3353|3354|3355|3356|3357|3358|3339|3360|3361|3362|3363|3364|25903|12927|25905|25906|25907|63433|63434|63435|63436|63437|63438
+A|110|127395|127391|127416|127385|409850|409851|127402|127423|409854|409855|387324
+A|1309|431304|431318|479451|479441|479490|479450|479492|479444|479454|479439|479448|479497|479498|479499|479453|479502|479503|479504
+A|5|71566|103146|71576|78368|103149|78372|78367|103152|71582|71586|103155|78358|103157|78373|78365|103160|78359|103162|103163|78371|103165|103166|103167|103168|103169
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1388||Folkhemmet Sverige
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1309|TRP|TRYGGHETSPARTIET
+B|5|V|Vänsterpartiet
+C|24883|51|K|Camilla Egberth|51 år, kommunalråd, Motala
+C|24501|56|M|Johan Andersson|56 år, riksdagsledamot, Motala
+C|102643|25|K|Renée Georgio|25 år, skötare, Motala
+C|24780|47|M|Elias Georges|47 år, lokalsamordnare, Motala
+C|167581|60|K|Marianne Walter|barnskötare, 60 år
+C|167661|60|M|Ingvar Ståhl|skötare, 60 år
+C|167662|32|K|Emelie Stadling|undersköterska, 32 år
+C|167663|55|M|Roland Tergeland|ombudsman, 55 år
+C|167664|54|K|Helen Isacsson|handledare, 54 år
+C|167665|40|M|Arvid Sjögedahl|ombudsman, 40 år
+C|25088|62|K|Anne-Lie Liljedahl|62 år, arbetsmarknadshandläggare, Motala
+C|107015|31|M|Martin Grändås|31 år, lärare, Motala
+C|107109|57|K|Helene Granholm|57 år, administratör, Motala
+C|167707|52|M|Nicklas Rudberg|enhetschef, 52 år
+C|102870|59|K|Lena Westerlund|59 år, undersköterska, Motala
+C|167756|64|M|Sead Mulahusic|integrationssamordnare, 64 år
+C|167757|61|K|Maj Bergendahl|undersköterska, 61 år
+C|167758|55|M|Sören Orrstenius|ombudsman, 55 år
+C|167759|45|K|Sissi Rot|undersköterska, 45 år
+C|167760|55|M|Pär Alexandersson|ombudsman, 55 år
+C|175299|50|K|Camilla Söderholm|industriarbetare, 50 år
+C|24670|58|M|Torbjörn Holmqvist|58 år, strateg, Motala
+C|175301|52|K|Yalila Ahmed-Liazid|språklärare, 52 år
+C|175302|63|M|Mirsad Filipovic|fritidsledare, 63 år
+C|175303|45|K|Anne Stamfält|undersköterska, 45 år
+C|175813|71|M|Kjell-Arne Karlsson|pensionär, 71 år
+C|107248|64|K|Seija Kuutti|64 år, undersköterska, Motala
+C|24908|47|M|Jasmin Cosic|47 år, industriarbetare, Motala
+C|175816|42|K|Jessica Lupuianu|undersköterska, 42 år
+C|175817|50|M|Peter Hjort|ombudsman, 50 år
+C|175818|70|K|Ingrid Karlsson|pensionär, 70 år
+C|107110|46|M|Dedjo Engmark|46 år, idrottskonsulent, Motala
+C|175820|75|K|Ingegärd Karlsson|pensionär, 75 år
+C|175821|62|M|Bo Enström|administratör, 62 år
+C|107254|62|K|Kerstin Elf-Ståhl|62 år, undersköterska, Motala
+C|175823|43|M|Mustafa Abdeen|skötare, 43 år
+C|175824|73|K|Elisabeth Sandberg|pensionär, 73 år
+C|107253|39|M|Mattias Öberg|39 år, transportarbetare, Motala
+C|176452|61|K|Anita Nilsson|fotograf, 61 år
+C|176454|55|M|Peder Lund|IT-samordnare, 55 år
+C|104708|30|M|Lars Östbom|30 år, politisk sekreterare, Motala
+C|176456|47|M|Peder Eliasson|ombudsman, 47 år
+C|176457|53|M|Jörgen Eriksson|administratör, 53 år
+C|176458|64|M|Kjell Augustsson|idrottskonsulent, 64 år
+C|102644|60|M|Hans Elf|60 år, parkarbetare, Motala
+C|176460|43|M|Mikael Falk|barnskötare, 43 år
+C|176827|50|M|Abdoulaye Konate|fritidsledare, 50 år
+C|176828|79|M|Ingeman Svensson|pensionär, 79 år
+C|176829|78|M|Olof Hettström|pensionär, 78 år
+C|176830|49|M|Abdel Kader Alkadi|läkare, 49 år
+C|176831|51|M|Eyad Alrifai|ortopedläkare, 51 år
+C|176832|76|M|Alf Karlsson|pensionerad flygmekaniker, 76 år
+C|176833|43|M|Linus Ekegren|verksamhetsassistent, 43 år
+C|176834|71|M|Gert Dahlin|journalist, 71 år
+C|34010|60|M|Jan Arvidsson|Lantbrukare
+C|12028|42|K|Agneta Lundqvist|42 år, Högskoleexamen IT, Motala
+C|14676|63|M|Sten Westberg|63 år, Kvalitetschef, Motala
+C|14669|71|K|Lena Berglert|71 år, Biomedicinsk analytiker, Borensberg
+C|34014|37|K|Elin Karlsson|Redovisningsekonom
+C|34015|65|M|Bengt-Åke Karlsson|Lantbrukare
+C|34016|62|M|Lars Carlsson|Entreprenör
+C|34017|71|M|Krister Karlsson|Busschaufför
+C|34018|67|K|Ann Rickardsson|Fd adjunkt
+C|34019|61|K|Siw Fransson|Busschaufför
+C|34020|44|M|Peter Fröberg|Företagare
+C|34021|75|K|Inga Olsson|Fotterapeut
+C|34022|63|K|Rita Sparrefors-Axelsson|Socionom
+C|34023|65|M|Anders Adolfsson|Lantbrukare
+C|515660|65|M|Anders Törngren|
+C|252542|58|M|Jan Gyllenhammar|Politisk sekreterare, Styra
+C|252543|53|M|Erik Forslund|Systemutvecklare, Motala
+C|252544|68|M|Nils-Ingvar Graan|Mekaniker/Cyklist, Borensberg
+C|252545|33|K|Madeléne Gyllenhammar|Logistikingenjör, Borensberg
+C|252546|37|M|Lars-Johan Sunnerberg|Assistent, Motala
+C|252547|68|K|Ulla Wretman|Pensionär, Motala
+C|252548|57|M|Urban Larsson|Kommunarkivarie, Tjällmo
+C|252549|36|K|Norielle Munezero|Undersköterska, Motala
+C|252550|40|K|Paulina Thor|Platschef, Motala
+C|252551|58|K|Ingela Horgby|Lärare, Motala
+C|252552|53|M|Bruno Lindblom|Företagare, Fornåsa
+C|252553|60|K|Marie Gyllenhammar|Pedagog, Styra
+C|252554|39|M|Jonas Bäckman|Maskiningenjör, Motala
+C|252555|35|K|Josiane-Mica Juurikivi|Personlig assistent, Motala
+C|252556|65|M|Thomas Gustafsson|Byggnadsingenjör, Motala
+C|252557|50|K|Pernilla Willemsen|Lärare, Motala
+C|252558|54|M|Mats Jarander|Skogsarbetare, Borensberg
+C|252559|72|K|Raendie Andersson|Pensionär, Tjällmo
+C|252560|33|M|Abdifatah Ali Mohamed|Skogsarbetare, Motala
+C|252561|49|K|Louise Forslund|Läkare, Motala
+C|252562|68|M|Kent Andersson|Lantarbetare, Borensberg
+C|252563|39|K|Annika Öhman|Läkarsekreterare, Motala
+C|252564|45|M|Rolf Frödin|Handläggare, Borensberg
+C|252565|59|K|Agneta Broberg|Distriktssköterska, Motala
+C|252566|38|K|Susanne Cornelius|Pensionär, Motala
+C|252567|64|M|Semaan Kalo|Tennisvaktmästare, Motala
+C|248777|66|M|Kjell Fransson|gruppledare, Motala
+C|248949|63|K|Cari Rylander|socionom/ämneslärare/företagare, Motala
+C|248769|71|M|Kenneth Söderman|vd, Motala
+C|248770|54|M|Per Johansson|civilingenjör, Motala
+C|248952|41|K|Sara Ankarberg|egen företagare, Brunnsvik
+C|248772|64|M|Jan Hammarstrand|verksamhetschef, Motala
+C|248765|69|M|Jan Fallsvik|civilingenjör, Motala
+C|248955|74|K|Monica Fransson|senior, Centrum
+C|248761|50|M|Jonas Nordén|lantmäteri och samhällsbyggnad, Motala
+C|248762|53|M|Johan Liljeberg Nopp|inköpare, Godegård
+C|248958|42|M|Björn Dahlström|vårdbiträde, Dunteberget
+C|248764|66|K|Inger Lorentzson|lärare, Motala
+C|247473|69|K|Margareta Fallsvik|civilekonom, Motala
+C|248961|51|M|Mario Savarin|platschef, Motala
+C|248768|61|K|Annika Francén|lärare, Borensberg
+C|248767|66|M|Maths Andersson|lantbrukare, Motala
+C|248964|54|K|Lovisa Thorén|speciallärare, Brunnsvik
+C|248773|69|M|Gunnar Flodin|konsult, Motala
+C|248966|71|M|Harry Noppa|f d lärare, Dysätter
+C|248967|79|K|Solveig Jansson|småföretagare, fil.mag, Brunnsvik
+C|248968|30|M|Lucas Ljunggren|ekonomagronom, Motala
+C|248969|57|M|Charlie Velano Johansson|verksamhetskonsult, Duvedal
+C|248763|47|K|Barbro Lindström|pedagogassistent, Motala
+C|248971|52|M|Stefan Hörnell|ekonom, Brinken
+C|248771|65|K|Berit Andersson|kliniksamordnare, Motala
+C|248973|61|M|Johnny Francén|lärare, Borensberg
+C|248766|83|K|Gun Jareblad|fd. landstingsråd, Motala
+C|248975|22|M|Emil Scapaticci|studerande, Sättran
+C|248776|58|M|Jan Green|yrkeslärare, Motala
+C|248977|71|M|Staffan Jonsson|fil.kand, konstpedagog, Mossen
+C|248978|57|M|Lars-Gunnar Fransson|egen företagare, Ervasteby
+C|248979|75|M|Hans-Åke Johansson|ingenjör, Duvedal
+C|248980|61|M|Erik Jacobsson|skogsbrukare, Centrum
+C|248981|60|M|Mikael Norresjö|trafikledare, Sjökumla
+C|248982|43|M|Kenny Vikström|servicehandläggare, Mossen
+C|248983|58|K|Pia Nilsson|arkeolog, Klockrike
+C|248984|41|M|Magnus Ekholm|vaktmästare, Korskrog
+C|248985|22|M|Pontus Hultner|student, Borenshult
+C|248986|75|M|Anders Lindgren|senior, Tjällmo
+C|248987|79|M|Björn Jansson|civilingenjör, företagare, Brunnsvik
+C|418111|34|M|Christian Pettersson|34, Säljare, Motala
+C|418112|29|M|Elias Hallén|29, Samhälls- och kulturanalytiker, Motala
+C|416005|48|M|Mats Johannesson|48, Kock, Motala
+C|415989|66|K|Catarina Engström|66, Skolledare, Motala
+C|418115|47|M|Mikael Carlsson|47, IT-tekniker, Motala
+C|418116|58|K|Helene Jareblad|58, Hunduppfödare, Motala
+C|416007|42|M|Daniel Egonsson|41, Kommunikatör, Motala
+C|418118|69|M|Olov Carlsson|69, Pensionär, Motala
+C|418119|70|M|Kenneth Carlsson|70, Adjunkt, Karlsby
+C|418120|46|K|Jenny Lindhe Johannesson|46, Präst, Motala
+C|3340|54|K|Caroline Unéus|Oppositionsråd, Motala
+C|3341|54|M|Kåre Friberg|Företagare, Motala
+C|3342|18|M|Felix Widlöf|Studerande, Motala
+C|3324|40|M|Kaveh Moazzez|Platschef, 40 år, Borensberg
+C|3344|30|M|Erik Backman|Jägmästare, Borensberg
+C|3345|65|M|Hans Tevell|Lantbrukare, Fornåsa
+C|3346|38|M|Mark Henriksson|Pedagog, Motala
+C|3347|39|K|Annelie Almérus|Analytiker, Nykyrka
+C|3348|73|M|Åke Svensson|Lantbrukare, Klockrike
+C|3349|56|M|Philip Assarsson|Lantmästare, Varv
+C|3350|49|M|Daniel Starkengren|Företagare, Motala
+C|3351|43|K|Hanna Almérus|Lantmästare, Nykyrka
+C|3352|73|K|Ulla Ordell|Tandläkare, Motala
+C|3353|72|K|Gunilla Melander|Företagare, Kristberg
+C|3354|72|M|Ragnar Gyberg|Pensionär, Motala
+C|3355|34|K|Eva Wellenstam|Säljare, Motala
+C|3356|42|M|Martin Almérus|Lantbrukare, Nykyrka
+C|3357|33|K|Ida Brommels|Bildlärare, Motala
+C|3358|60|M|Mikael Lindgren Palmgren|Medierådgivare, Motala
+C|3339|45|K|Lindha Stråt|Kock, 45 år, Motala
+C|3360|66|M|Roger Markström|Företagare, Motala
+C|3361|63|K|Pia Andersson|HR Konsult, Borensberg
+C|3362|28|M|David Kjellberg|Undersköterska, Motala
+C|3363|50|M|Jan William|Marinhandlare/VD, Borensberg
+C|3364|63|M|Tony Johansson|Företagare, Borensberg
+C|25903|66|M|Claes Andersson|Företagare, Borensberg
+C|12927|43|M|James Melander|Civilingenjör, Kristberg
+C|25905|55|K|Susanne Nörgaard|Ekonomiansvarig, Motala
+C|25906|64|K|Charlotta Hedborg|Lantbrukare, Borensberg
+C|25907|73|M|Urban Nilsson|Pensionär, Motala
+C|63433|44|M|Per Stark|Pedagog, Motala
+C|63434|43|M|Gunter Cakar|Handledare, Motala
+C|63435|29|M|Stefan Lotrean|Fysioterapeutstudent, Motala
+C|63436|69|M|Kennet Simonsson|Skogsbrukare, Motala
+C|63437|41|K|Amira Starkengren|Redovisningskonsult, Motala
+C|63438|51|M|Magnus Franzén|Företagare, Motala
+C|127395|41|M|Johnny Karlberg|41, lokförare, Motala
+C|127391|26|M|Marcus Lejonqvist|IT-tekniker, Motala
+C|127416|51|K|Marie Hultberg|51, målare, Motala
+C|127385|50|M|Thomas Jedler|50, ventilationsplåtslagare, Motala
+C|409850|73|M|Jan Andersson|74, Sjöingenjör
+C|409851|42|M|Johan Johansson|42, Egenföretagare
+C|127402|67|M|Kalle Schönke|67, pensionär, Motala
+C|127423|25|M|Adam Persson|25, kriminalvårdare, Motala
+C|409854|72|K|Tini Andersson|72, Pensionär
+C|409855|53|K|Lotta Eriksson|54, Undersköterska
+C|387324|41|K|Anne-Kristin Jedler|Personlig assistent, Motala
+C|431304|49|M|Joakim Pripp|Projektledare, Motala
+C|431318|39|M|Fredrik Lantz|Chaufför, Motala
+C|479451|70|M|Kenneth Johansson|Pensionär,Fastighetsskötare
+C|479441|61|K|Wiolette Lantz-Lorentzon|
+C|479490|67|M|Claes-Göran Sundman|
+C|479450|63|M|Per Blom|Pensionär,Fastighetsskötare
+C|479492|75|M|Stig Carlsson|Pensionär
+C|479444|39|K|Zorica Novakovic|
+C|479454|64|M|Stefan Pehrsson|Busschaufför
+C|479439|42|K|Irené Pettersson|Undersköterska
+C|479448|34|K|Malin Fyrberg|Ingenjör
+C|479497|54|K|Mona Svensson|
+C|479498|52|M|Stefan Linder|
+C|479499|49|M|Magnus Karlsson|Fastighetstekniker
+C|479453|37|M|Matrim Hannola|Support tekniker
+C|479502|70|M|Bror Lantz|Pensionär
+C|479503|40|K|Helena Johansson|
+C|479504|80|M|Bengt Johansson|Pensionär
+C|71566|65|K|Kerstin Lundberg|65, Folkhögskolelärare/Kulturarbetare, Motala
+C|103146|60|M|Peter Karlberg|60, IT-handläggare, Motala
+C|71576|43|K|Carola Dieker|43, Städare, Motala
+C|78368|57|M|Jocke Höglund|57, Politisk sekreterare, Degerön
+C|103149|22|K|Erika Persson|22, Undersköterska, Motala
+C|78372|34|M|Martin Roxvret|33, Elevassistent, Borensberg
+C|78367|34|K|Rebecca Roxvret|34, Webredaktör, Borensberg
+C|103152|68|M|Anders Dahl|69, Samtalsledare Barncentrum, Motala
+C|71582|47|K|Annika Onttonen|46, Ombudsman, Motala
+C|71586|54|M|Mikael Sääf|54, Metallarbetare, Motala
+C|103155|66|K|Jenny Dahl|65, Socionom, Motala
+C|78358|51|M|Mats-Erik Nordin|51, Skötare, Motala
+C|103157|68|K|Solveig Hansén|68, Bibliotekarie, Motala
+C|78373|69|M|Anders Andersson|69, Pensionär, Motala
+C|78365|58|K|Margareta Björkman|58, Grundskolelärare, Degerön
+C|103160|70|M|Rolf Hansson|70, Pensionär, Tjällmo
+C|78359|66|K|Draginja Femic|66, Förskolelärare, Motala
+C|103162|38|K|Åsa Ekholm|38, Redovisningskonsult, Motala
+C|103163|58|K|Andrea Cordelair|58, Administrativ Assistent, Borensberg
+C|78371|45|K|Anna Andersson|46, Vårdare, Motala
+C|103165|50|K|Johanna Karlsson|50, Vårdare, Motala
+C|103166|33|K|Sofia-Maria Lundberg|33, Egenföretagare, Motala
+C|103167|19|K|Smilla Henriksson|19, Student, Klockrike
+C|103168|33|M|Robin Andersson|33, Plastarbetare, Motala
+C|103169|45|K|Jessica Hultman|46, Undersköterska, Motala

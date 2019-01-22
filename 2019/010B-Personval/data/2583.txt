@@ -1,7 +1,115 @@
-2|6812|6813|6814|6815|6816|6817|6818|6819|6820|6821|6822|6823|6824|6825|6826|6827|6828|6829|6830|6831|6832|6833|6834|6835|6836|6837|6838|6839|6840|6841|6842
-4|342161|342162|342163|342164|342165|342166|342167|342168|342169|342170|342171|342172|342173|342174|342175|342176|342177|342178|342179|342180|342181
-68|168379|168380|168381|168382|168383|168384|168385|168386|168387|168388|168389
-1|213137|213138|213139|213140|213141|213142|213143|213144|213145|213146|213147|213148|213149
-193|10416|10413|4905|10418|10417|10415|10407|29089|10414|10406|10410|10409|10412|10408|11412|10411|43431|10420
-110|48258
-5|185390|185392|185188|360056|360057
+T|Haparanda
+A|2|6812|6813|6814|6815|6816|6817|6818|6819|6820|6821|6822|6823|6824|6825|6826|6827|6828|6829|6830|6831|6832|6833|6834|6835|6836|6837|6838|6839|6840|6841|6842
+A|4|342161|342162|342163|342164|342165|342166|342167|342168|342169|342170|342171|342172|342173|342174|342175|342176|342177|342178|342179|342180|342181
+A|68|168379|168380|168381|168382|168383|168384|168385|168386|168387|168388|168389
+A|1|213137|213138|213139|213140|213141|213142|213143|213144|213145|213146|213147|213148|213149
+A|193|10416|10413|4905|10418|10417|10415|10407|29089|10414|10406|10410|10409|10412|10408|11412|10411|43431|10420
+A|110|48258
+A|5|185390|185392|185188|360056|360057
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1|M|Moderaterna
+B|193|SJV|Sjukvårdspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|6812|50|M|Jan-Ola Eriksson|Korpikylä, 50 år
+C|6813|38|K|Nina Pörhölä|Mattila, 38 år
+C|6814|69|M|Bengt Westman|69 år, Haparanda
+C|6815|30|K|Ida Karkiainen|Haparanda, 30 år
+C|6816|62|M|Ulf Eliasson|Seskarö, 62 år
+C|6817|52|K|Marléne Haara|Haparanda, 52 år
+C|6818|40|M|Per Eriksson|40 år, Haparanda
+C|6819|53|K|Ann-Christin Ollinen|Haapasaari, 53 år
+C|6820|67|M|Kurt Rosendahl|Marielund, 67 år
+C|6821|43|K|Jytte Rüdiger|Mattila, 43 år
+C|6822|45|M|Jani Suhonen|Haparanda, 45 år
+C|6823|48|K|Pia Friman|Haparanda, 48 år
+C|6824|56|M|Roger Sandlund|Salmis, 56 år
+C|6825|44|K|Olga Svarvare|Haparanda, 44 år
+C|6826|71|M|Ulf Olofsson|Haparanda, 71 år
+C|6827|59|K|Ann-Kristin Myllymäki|Haparanda, 59 år
+C|6828|43|M|Patrik Wähäjärvi|Korpikylä, 43 år
+C|6829|64|K|Agneta Franzén|Nikkala, 64 år
+C|6830|46|M|Modou Bojang|Haparanda, 46 år
+C|6831|27|K|Laura Brännström|Haparanda, 27 år
+C|6832|63|M|Hans Öhman|Haparanda, 63 år
+C|6833|67|K|Sirkka-Liisa Vuolo|Nikkala, 67 år
+C|6834|55|M|Robert Ekholm|Marielund, 55 år
+C|6835|71|K|Eivor Olofsson|71 år, Haparanda
+C|6836|77|M|Åke Bolmgren|Marielund, 77 år
+C|6837|62|K|Eila Eriksson|Haparanda, 62 år
+C|6838|37|M|Robert Renling|Haparanda, 37 år
+C|6839|56|K|Tina Waller|Marielund, 56 år
+C|6840|48|M|Petri Myllymäki|Haparanda, 48 år
+C|6841|69|K|Eva Eliasson|Seskarö, 69 år
+C|6842|76|M|Juhani Siira|Haparanda, 76 år
+C|342161|48|M|Sven Tornberg|Kökschef, Haparanda
+C|342162|73|K|Gun-Britt Liljegren|Haparanda
+C|342163|67|M|Perarne Kerttu|Haparanda
+C|342164|66|M|Bertil Segerlung|Kattilasaari
+C|342165|57|K|Anne Sulila|Haparanda
+C|342166|63|M|Johan Isaksson|Mattila
+C|342167|52|K|Eija Stenberg|Mattila
+C|342168|46|M|Vesa Vuokila|Mattila
+C|342169|54|M|Lars-Gunnar Lundström|Karungi
+C|342170|42|M|Janne Lind|Vojakkala
+C|342171|64|M|Valfrid Olsson|Salmis
+C|342172|74|K|Ulla Hardelin|Keräsjoki
+C|342173|55|K|Elisabet Liljebäck|Haparanda
+C|342174|63|K|Ritva Angeria|Haparanda
+C|342175|58|K|Carin Kerttu|Kukkola
+C|342176|44|M|Sami Talonen|Karungi
+C|342177|47|M|Ingemar Harila|Naartijärvi
+C|342178|64|M|Kurt Klockare|Haparanda
+C|342179|31|M|Ilya Sysoev|Haparanda
+C|342180|80|M|Rolf H. Pelli|Vuono
+C|342181|63|K|Eija Rousu|Haparanda
+C|168379|64|M|Lars-Erik Wikberg|behandlingsass. Haparanda
+C|168380|30|K|Katarina Eneros|hemmaförälder, Haparanda
+C|168381|41|K|Elisabeth Nilsson|lärare, Haparanda
+C|168382|71|K|Ruth Larsson|sjuksköterska, 71
+C|168383|57|K|Marita Wikberg|butiksmedarb. Haparanda
+C|168384|57|K|Camilla Palmelind|redovisningskonsult, 57
+C|168385|45|K|Kaarina Vallgren|hemmaförälder, 45
+C|168386|75|K|Ritva Pekkanen|pensionär, 75
+C|168387|68|K|Monica Mirell|förskollärare, 68
+C|168388|71|M|Ebbe Larsson|fängelsepräst, 72
+C|168389|33|K|Johanna Linna Rantapää|student, 32
+C|213137|55|M|Niklas Olsson|Haparanda
+C|213138|57|K|Ann-Charlotte Bucht|Seskarö
+C|213139|32|K|Sofia Söderholm|Vuono
+C|213140|53|K|Anna Wikström|Haparanda
+C|213141|67|K|Ingrid Löfgren Kitti|Haparanda
+C|213142|66|M|John Waltari|Haparanda
+C|213143|48|K|Helen Lindgren|Haparanda
+C|213144|38|K|Camilla Nilsson Jaako|Vojakkala
+C|213145|75|M|Bo Kronborg|Haparanda
+C|213146|66|K|Gunvor Henriksson|Haparanda
+C|213147|58|M|Anders Ruona|Haparanda
+C|213148|77|M|Kurt Lindfors|Haparanda
+C|213149|80|M|Lars Spolander|Haparanda
+C|10416|58|K|Ann-Kristin Joki|Företagare, Säivis
+C|10413|67|K|Pia Hulkoff|Företagare, Korpikylä
+C|4905|70|M|Anders Rönnqvist|Civilekonom, Haparanda
+C|10418|52|K|Catarina Lindmark|Företagare, Haparanda
+C|10417|71|M|Sven Kattilavaara|Företagare, Vuono
+C|10415|65|K|Helena Innala|Kanslist, Haparanda
+C|10407|72|M|Birger Anundi|Verkstadsförman, Haparanda
+C|29089|48|K|Åsa Hansson|Personlig assistent, Seskarö
+C|10414|75|M|Arne Hällefors|Pastor Emeritus, Kärrbäck
+C|10406|70|K|Marketta Anundi|Excerpist, Haparanda
+C|10410|82|M|Rolf Fräki|Fil. Kand, Karungi
+C|10409|81|K|Maj-Britt Fräki|Sjuksköterska, Karungi
+C|10412|71|M|Markku Heimonen|Chaufför, Haparanda
+C|10408|64|K|Maud Fennvik|Frälsningsofficer, Haparanda
+C|11412|80|K|Ulla Frankkila|Lärare, Kukkola
+C|10411|70|K|Anneli Heimonen|Fritidsledare, Haparanda
+C|43431|70|M|Kjell Mäki|F.d. Rektor, Haparanda
+C|10420|71|K|Ulla Rönnqvist|Fil. Kand, Haparanda
+C|48258|40|M|Robert Håkansson|Distriksordförande, 40, Piteå
+C|185390|64|K|Monica Perdahl Täikkö|Vuono
+C|185392|61|K|Monica Grönberg|Keräsjoki
+C|185188|19|M|Hampus Täikkö|Haparanda
+C|360056|74|M|Jan-Erik Nilsson-Välimaaa|Karungi
+C|360057|25|M|Kiivi Kulju|Haparanda

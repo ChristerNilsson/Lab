@@ -1,8 +1,147 @@
-2|177448|177449|177450|177451|177452|177453|177454|177455|177456|177457|177458|177459|177460|177461|177462|177463|177465|177466|177467|177468|177469|177470|177471|177472|177473|177474|177475|177476|177477|177478|177479|177480|177481|177482|177483|177484|177485|177486|177487
-4|113973|113974|113975|113976|113977|113978|113979|113980|113981|113982|113983|113984|113985|113986|113987|113988|113989|113990|113991|113992|113993|113994|113995|113996|113997|113998
-68|298129|339638|339639|339640|339641|298118|339643|339644|277369
-3|277175|277176|277177|277178|277179
-55|142876|142877|142878|142879|142880
-1|253908|255341|255342|255343|255344|255345|255346|255347|255348|255349|255350|255351|255352|255353|255354|255355|255356|255357
-110|61338|61330|64316|64317|64318|64319|61350|64321|64322|64323|64324|64325|64326|64327|64328|64329
-5|162912|160745|162920|185288|185289|160740|185291|185292|185293|185294|185295|185296|185297|185298
+T|Lilla Edet
+A|2|177448|177449|177450|177451|177452|177453|177454|177455|177456|177457|177458|177459|177460|177461|177462|177463|177465|177466|177467|177468|177469|177470|177471|177472|177473|177474|177475|177476|177477|177478|177479|177480|177481|177482|177483|177484|177485|177486|177487
+A|4|113973|113974|113975|113976|113977|113978|113979|113980|113981|113982|113983|113984|113985|113986|113987|113988|113989|113990|113991|113992|113993|113994|113995|113996|113997|113998
+A|68|298129|339638|339639|339640|339641|298118|339643|339644|277369
+A|3|277175|277176|277177|277178|277179
+A|55|142877|142878|142879|142880
+A|1|253908|255341|255342|255343|255344|255345|255346|255347|255348|255349|255350|255351|255352|255353|255354|255355|255356|255357
+A|110|61338|61330|64316|64317|64318|64319|61350|64321|64322|64323|64324|64325|64326|64327|64328|64329
+A|5|162912|160745|162920|185288|185289|160740|185291|185292|185293|185294|185295|185296|185297
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|177448|59|M|Carlos Rebelo Da Silva|Göta
+C|177449|46|K|Carin Thorén Hansson|egen företagare, Lilla Edet
+C|177450|72|M|Harry Berglund|Högsbo
+C|177451|68|K|Minna Salow|auktoriserad tolk, Lilla Edet
+C|177452|69|M|Uno Ekberg|Lödöse
+C|177453|48|K|Annette Fransson|Hjärtum
+C|177454|34|M|Kristian Hermansson|byggnadsarbetare, Lilla Edet
+C|177455|47|K|Vesna Källström|Lilla Edet
+C|177456|64|M|Kjell Johansson|Nygård
+C|177457|55|K|Maria Johnsson|Lödöse
+C|177458|45|M|Mikael Karlsson|Prässebo
+C|177459|43|K|Malin Edvardsson|Hjärtum
+C|177460|62|M|Tommy Andersson|Lilla Edet
+C|177461|28|K|Martina Freiholtz|Nygård
+C|177462|35|M|Johan Niklasson|paralegal, Lilla Edet
+C|177463|37|K|Sara Höglind|Lilla Edet
+C|177465|69|K|Lena Hållinder Berglund|Högsbo
+C|177466|74|M|Göran Sühl|Utby
+C|177467|53|K|Anne-Lie Palm|kontorist, Lilla Edet
+C|177468|62|M|Stig Hvid|Lödöse
+C|177469|57|K|Margit Ursin Hvid|Lödöse
+C|177470|31|M|Anders Johansson|Göta
+C|177471|54|K|Gitte Jensen|Hjärtum
+C|177472|45|M|Dennis Dahlqvist|Lilla Edet
+C|177473|43|K|Malin Bratt|Hjärtum
+C|177474|75|M|Sven-Olof Björner|Lödöse
+C|177475|70|K|Anita Andreasson|Lilla Edet
+C|177476|42|M|David Enlund|Lilla Edet
+C|177477|40|K|Ann-Katrin Johannsson|Lilla Edet
+C|177478|58|M|Mats Eriksson|industriarbetare, Lilla Edet
+C|177479|72|K|Rose-Marie Björner|Lödöse
+C|177480|70|M|Bert Åkesson|Lilla Edet
+C|177481|72|K|Kerstin Åkesson|Lilla Edet
+C|177482|47|M|Dennis Lindberg|Lilla Edet
+C|177483|74|K|Anita A. Björk|Lilla Edet
+C|177484|39|M|Thomas Bratt|Hjärtum
+C|177485|47|K|Ann Christine Hedlund|Lilla Edet
+C|177486|53|K|Marianne Hodneland Da Silva|Göta
+C|177487|21|K|Sarah Liljeros|studerande, Lilla Edet
+C|113973|38|K|Julia Färjhage|kommunalråd,38år,Västerlanda
+C|113974|53|M|Jörgen Andersson|54 år, automationstekniker, Lilla Edet
+C|113975|43|K|Anna Lärk Ståhlberg|samhällsutv.chef,43år,Hjärtum
+C|113976|40|M|Jens Ericson|områdeschef,40år,Västerlanda
+C|113977|67|M|Lars Ivarsbo|lantbrukare,67år,Nygård
+C|113978|49|K|Karin Hallhagen Bagby|rektor,49år,Västerlanda
+C|113979|40|M|Christopher Kelleby|ingenjör,40år,Västerlanda
+C|113980|52|K|Carina Andersson|52, skolbibliotekarie/lärare, Lilla Edet
+C|113981|37|M|Johan Blixth|kustbevakare,37år,Lilla Edet
+C|113982|22|M|Jacob Andersson|studerande,22år,Nygård
+C|113983|48|M|Fredrik Hermansson|verksamhetsutv,48år,Västerlanda
+C|113984|72|K|Ethel Augustsson|psykoterapeut,72år,Hjärtum
+C|113985|33|M|Johan ErikssonCander|lantbrukare,33år,Västerlanda
+C|113986|40|M|Fredrik Enström|ungdomscoach,40år,Västerlanda
+C|113987|45|K|Alexandra Grönvall|miljö/kvalitetsansvarig,45år,Västerlanda
+C|113988|50|M|Roger Berndtsson|arbetsledare,50år,Lödöse
+C|113989|20|K|Moa Rylén|butiksbiträde,20år,Hjärtum
+C|113990|36|K|Jenny Sundqvist|ekonom,35år,Lilla Edet
+C|113991|55|K|Elinor Svenungsson|egenföretagare,55år,Hjärtum
+C|113992|29|M|Patrik Lilleeng|lärare,29år,Västerlanda
+C|113993|58|K|Agneta Svenungsson|lantbrukare,58år,Hjärtum
+C|113994|54|M|Peter Larsson|provningstekniker,54år,Västerlanda
+C|113995|82|K|Kerstin Andersson|pensionär,82år,Nygård
+C|113996|61|K|Ann-Christine Dymén|elevassistent,61år,Västerlanda
+C|113997|37|M|Markus Hallman|skolintendent,37år,Lödöse
+C|113998|70|M|Bjarne Färjhage|pensionär,70år,Västerlanda
+C|298129|47|M|Jonas Hilmersson|Processoperatör, Lilla Edet
+C|339638|64|K|Marie-Louise Nielsen|Administratör, Lilla Edet
+C|339639|69|K|Marianne Genborg|Pensionär, Lödöse
+C|339640|61|M|Anders La Karlsson|Industrielektriker, Lödöse
+C|339641|67|K|Thuraya Svensson|Undersköterska, Lilla Edet
+C|298118|19|K|Jenny Svensson|Studerande, Lilla Edet
+C|339643|49|K|Cecilia Johansson|Undersköterska, Lilla Edet
+C|339644|66|K|Birgitta Berglund|Pensionär, Lilla Edet
+C|277369|63|M|Jens Nielsen|Undersköterska, Lilla Edet
+C|277175|57|K|Eva Lejdbrandt|57, egenföretagare, Lilla Edet
+C|277176|64|M|Ulf Wetterlund|64, verksamhetsutvecklare
+C|277177|58|K|Michelle Winkel|58, egenföretagare, Lilla Edet
+C|277178|40|M|Kimmo Tuomaala|40, musiker
+C|277179|81|K|Lisbeth Granberg|81, pensionär
+C|142877|35|K|Angelika Foksröd|35 år, Lärare, Lilla Edet
+C|142878|43|M|Mattias Hammenfors|43 år, Hotellreceptionist, Lilla Edet
+C|142879|75|M|Stephan Gyllenhammar|75 år, Pensionär, Lilla Edet
+C|142880|41|K|Anna Larsson|41 år, Miljöspecialist, Lilla Edet
+C|253908|49|K|Camilla Waltersson Grönvall|riksdagsledamot, Västra Götalands västra
+C|255341|44|K|Zara Blidevik|44, Evenemangsledare, Lilla Edet
+C|255342|54|M|Peder Engdahl|54, Hovslagare, Västerlanda
+C|255343|45|K|Camilla Olofsson|45, Lärare, Lilla Edet
+C|255344|41|M|Andreas Nelin|41, Polis, Göta
+C|255345|55|K|Annalee Alenmalm|55, Undersköterska, Göta
+C|255346|75|M|Lars Erik Anderström|75, Pensionär, Lilla Edet
+C|255347|57|M|Lorentz Lindell|57, Egenföretagare, Västerlanda
+C|255348|50|M|Anders Svensson|50, Mark & anläggare, Västerlanda
+C|255349|40|M|Martin Kleberger|40, IT-konsult, Lödöse
+C|255350|43|K|Agnes Svensson|43, Undersköterska, Lilla Edet
+C|255351|51|K|Kamilla Nilsson|51, Ekonom, Göta
+C|255352|27|K|Malin Nilsson|27, Undersköterska, Lilla Edet
+C|255353|31|K|Anna Chorell|31, Jurist, Lödöse
+C|255354|55|M|Håkan Wittlåck|55, Lärare, Västerlanda
+C|255355|75|M|Carl-Axel Carlstein|75, Pensionär, Hjärtum
+C|255356|43|K|Natalia Jorehed|43, Läkare, Lilla Edet
+C|255357|72|M|Lars-Göran Hellgesson|72, Pensionär, Lödöse
+C|61338|36|M|Frej Dristig|36, Avdelningschef, Lilla Edet
+C|61330|18|M|Johan Johansson|18, Studerande, Lilla Edet
+C|64316|37|M|Mattias Ternehäll|37 år, Civilekonom, Hasteröd
+C|64317|43|M|Per Anders Sturk|43 år, Regionchef, Ström
+C|64318|60|K|Ann-Kristin Johansson|60 år, Förtidspensionär, Lilla Edet
+C|64319|44|M|Jari Kalliomäki|44 år, Egenföretagare, Lilla Edet
+C|61350|67|M|Christer Ädel|67, Teknisk chef, Lilla Edet
+C|64321|67|K|Elisabet Westerberg|67 år, Konsult, Göta
+C|64322|45|M|Anders Willgard|45 år, Förtidspensionär, Lilla Edet
+C|64323|43|M|Daniel Martinsson|43 år, Byggnadsarbetare, Lilla Edet
+C|64324|27|M|Alexander Samuelsson|27 år, Boendestödjare, Lödöse
+C|64325|37|K|Jessica Qvint|37 år, Undersköterska, Lilla Edet
+C|64326|71|M|Roger Sundström|71 år, Pensionerad svetsingenjör, Götaslätten
+C|64327|56|M|Carl Carlsson|56 år, Hemmansägare, Prässebo
+C|64328|65|M|Tarmo Holttinen|65 år, Pensionerad servicetekniker, Ström
+C|64329|71|M|Finn Pedersen|72 år, Pensionär, Hjärtum
+C|162912|67|M|Peter Spjuth|pensionerad universitetsadjunkt, Lilla Edet, 68 år
+C|160745|42|K|Linda Holmer Nordlund|Lilla Edet, 43 år
+C|162920|41|K|Jeanette Villarroel|studerande, Lilla Edet, 42 år
+C|185288|63|M|Mats Nilsson|Lilla Edet, 63 år
+C|185289|61|K|Agneta Ahlblom|Lilla Edet, 61 år
+C|160740|46|M|Karl Jändel|Lödöse, 46 år
+C|185291|60|K|Madeleine Dahlgren|Lilla Edet, 61 år
+C|185292|39|M|Robin Alsing|Västerlanda, 39 år
+C|185293|64|K|Charlotte Steiner|Hjärtum, 64 år
+C|185294|44|M|Joakim Persson|Göta, 44 år
+C|185295|67|K|Viveca Rodin|Lilla Edet, 67 år
+C|185296|68|M|Bo Jansson|Hjärtum, 68 år
+C|185297|78|M|Göte Andersson|Lilla Edet, 79 år

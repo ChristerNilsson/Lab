@@ -1,9 +1,239 @@
-2|87133|87134|87135|87136|87137|87138|87139|87140|87141|87142|87143|87144|87145|87146|87147|87148|87149|87150|87151|87152|87153|87154|87155|87156|87157|87158|87159|87160|87161|87162|87163|87164|87165|87166|87167|87168|87169|87170|87171|87172
-4|137700|137701|137702|137703|137704|137705|137706|137707|137708|137709|137710|137711|137712|137713|137714|137715|137716|137717|137718|137719|137720|137721|137722|137723|137724|137725
-532|283748|283749|283750|283751|283752|283753|283754|283755
-68|343040|343041|277354|343043|343044|343045|277368|343047|343048|343049|343050|343051|343052|343053|343054|343055|343056|343057|343058|343059|343060
-3|278255|364331|49155|364333|278242|278250|364336|364337|278090|364339|364340|364341|364342|364343|364344|364345|364346|364347|364348|364349|364350|364351|364352|364353|364354|364355|364356|364357|364358
-55|244600|244601|244602|244603|244604|244605|152602|244607|244608|244609|244610|244611|244612|244613|244614|244615|244616
-1|253914|255029|255030|255031|254163|255033|254162|255035|255036|255037|255038|255039|255040|255041|254145|254152|255044|255045|255046|255048|255049|255050|255051|255052|255053|255054|255055|255056|255057|255058|255059|255060|255061|255062|255063|255064|255065|255066|255067|255068|255069|255070|255071|255072|255073|255074|255075|255076|255077|255047|255078
-110|61339|61332|61349|61354|70823|70824|61335|70826|70827|70828|70829
-5|160749|160742|184917|184918|184919|184920|184921|184922|184923|184924|184925|184926|184927|184928|184929|184930|184931
+T|Lerum
+A|2|87133|87134|87135|87136|87137|87138|87139|87140|87141|87142|87143|87144|87145|87146|87147|87148|87149|87150|87151|87152|87153|87154|87155|87156|87157|87158|87159|87160|87161|87162|87163|87164|87165|87166|87167|87168|87169|87170|87171|87172
+A|4|137700|137701|137702|137703|137704|137705|137706|137707|137708|137709|137710|137711|137712|137713|137714|137715|137716|137717|137718|137719|137720|137721|137722|137723|137724|137725
+A|532|283748|283749|283750|283751|283752|283753|283754|283755
+A|68|343040|343041|277354|343043|343044|343045|277368|343047|343048|343049|343050|343051|343052|343053|343054|343055|343056|343057|343058|343059|343060
+A|3|278255|364331|49155|364333|278242|278250|364336|364337|278090|364339|364340|364341|364342|364343|364344|364345|364346|364347|364348|364349|364350|364351|364352|364353|364354|364355|364356|364357|364358
+A|55|244600|244601|244602|244603|244604|244605|152602|244607|244608|244609|244610|244611|244612|244613|244614|244615|244616
+A|1|253914|255029|255030|255031|254163|255033|254162|255035|255036|255037|255038|255039|255040|255041|254145|254152|255044|255045|255046|255048|255049|255050|255051|255052|255053|255054|255055|255056|255057|255058|255059|255060|255061|255062|255063|255064|255065|255066|255067|255068|255069|255070|255071|255072|255073|255074|255075|255076|255077|255047|255078
+A|110|61339|61332|61349|61354|70823|70824|61335|70826|70827|70828|70829
+A|5|160749|160742|184917|184918|184919|184920|184921|184922|184923|184924|184925|184926|184927|184928|184929|184930|184931
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|87133|53|M|Dennis Jeryd|kommunalråd, Lerum
+C|87134|41|K|Karolina Roughton|politisk sekreterare, Lerum
+C|87135|22|M|Erik Larsson|lärare, Lerum
+C|87136|53|K|Renée Norgren Jeryd|ombudsman, Lerum
+C|87137|71|M|Olle Adolfsson|pensionär, Lerum
+C|87138|37|K|Klara Martinsson|FLODA
+C|87139|49|M|Halim Azemi|LERUM
+C|87140|30|K|Sara Jäderklint|biståndshandläggare, Lerum
+C|87141|54|M|Ulf Larsson|GRÅBO
+C|87142|67|K|Pamela Danielsson|undersköterska, Lerum
+C|87143|50|M|Paul Weis|GRÅBO
+C|87144|70|K|Gun-Britt Delsvik Svensson|pensionär, Lerum
+C|87145|59|M|Leif Klintbäck|LERUM
+C|87146|60|K|Pia Jäderklint|LERUM
+C|87147|45|M|Anders Johansson|GRÅBO
+C|87148|46|K|Ulrika Månsson|STENKULLEN
+C|87149|35|M|Erik Augustsson|GRÅBO
+C|87150|54|K|Mervi Helles|GRÅBO
+C|87151|43|M|Roger Johansson|LERUM
+C|87152|52|K|Marie Larsson|GRÅBO
+C|87153|42|M|Johannes Barth|SJÖVIK
+C|87154|66|K|Eva Lövgren|GRÅBO
+C|87155|45|M|Per Öhman|STENKULLEN
+C|87156|71|K|Margareta Björk|LERUM
+C|87157|74|M|Inge Magnusson|FLODA
+C|87158|63|K|Lillemor Rånevik|STENKULLEN
+C|87159|53|M|Steve Norrman|SJÖVIK
+C|87160|35|K|Linda Silander|LERUM
+C|87161|38|M|Jon Haraldsson|apotekare, Lerum
+C|87162|53|K|Viveca Nyström|FLODA
+C|87163|37|M|Joakim Kimmehed|LERUM
+C|87164|68|K|Eva-Britt Elinsdotter|STENKULLEN
+C|87165|49|K|Jane Norrman|SJÖVIK
+C|87166|76|M|Per-Anders Tornås|FLODA
+C|87167|60|K|Lena Stenmark|STENKULLEN
+C|87168|68|M|Erland Ek|STENKULLEN
+C|87169|64|M|Jasvir Bola|LERUM
+C|87170|74|M|Bengt Samuelsson|SJÖVIK
+C|87171|52|M|Patrik Benjaminsson|FLODA
+C|87172|38|M|Roger Patriksson|FLODA
+C|137700|58|K|Eva Andersson|58 år, kommunalråd, Lerum
+C|137701|27|M|Robert Blomberg|27 år, dataingenjör, Lerum
+C|137702|60|K|Ingela Gyllesten|biståndshandläggare, Sjövik
+C|137703|72|M|Lennart Wassenius|ingenjör, Lerum
+C|137704|56|K|Gunny Kron|företagare marknadskommunikation,Floda
+C|137705|18|M|Jonatan Skagerberg|student, Lerum
+C|137706|27|M|Christopher Hansson|revisor, Floda
+C|137707|63|M|Lerny Hermansson|enhetschef, Sjövik
+C|137708|80|K|Ann-Mari Törnell|fd. enhetschef arbetsmarknad, Lerum
+C|137709|68|M|Claes Berlin|68 år, rymdingenjör, Lerum
+C|137710|70|M|Ingvar Ringhage|byggnadsarbetare, Floda
+C|137711|58|K|Maria Vallin|socionom, Lerum
+C|137712|53|M|Mikael Dockered|53 år, affärsutvecklare, Lerum
+C|137713|58|K|Suzanne Parenius|företagare, Stålebo
+C|137714|70|M|Örjan Wennersten|senior, Lerum
+C|137715|66|K|Cecilia Bolle Larsson|egenföretagare, Lerum
+C|137716|72|M|Rolf Backegård|egenföretagare, Gråbo
+C|137717|72|M|Alf Hansson|byggnadsingenjör, Gråbo
+C|137718|74|K|Inga-Lill Schwartz|ekonom, Lerum
+C|137719|68|M|Per-Erik Börjesson|fd. säljare, Lerum
+C|137720|45|M|Andreas Palmnäs|maskiningenjör, Stenkullen
+C|137721|59|K|Susann Hermansson|brevbärare, Sjövik
+C|137722|65|M|Lars-Håkan Andersson|brandman, Gråbo
+C|137723|86|M|Sven-Erik Lundblad|senior, Stora Lundby
+C|137724|75|K|Britta-Karin Olson|senior, Aspen
+C|137725|73|M|Per-Olof Sundberg|senior, Lerum
+C|283748|43|K|Elinore Morris|43, fiolbyggare, Tollered
+C|283749|41|K|Frida Olsson|40, bagare, Tollered
+C|283750|45|K|Karin Thorslund|45, psykolog/forskare, Tollered
+C|283751|36|K|Klara Telsgård|36, butikschef, Floda
+C|283752|26|M|Johan Lundberg Carlsson|26, studerande, Hulan
+C|283753|25|K|Elin Molin|25, personlig assistent, Tollered
+C|283754|35|K|Maria Jerenvik|35, näringslivsutvecklare, Tollered
+C|283755|39|K|Moa Blandini|39, jurist/universitetslektor, Tollered
+C|343040|52|K|Annelie Lundström|ambulanssjuksköterska, Gråbo
+C|343041|47|M|Christian Eberstein|analytiker, Floda
+C|277354|43|K|Gunilla Lindell|Ekonomie magister, Gråbo
+C|343043|32|M|Jim Pettersson|undersköterska, Floda
+C|343044|50|K|Lena Cervin|rektor, Lerum
+C|343045|45|M|Jens Abrahamsson|civilingenjör, Lerum
+C|277368|29|K|Roya Heidari Jorat|Lärarstuderande, Gråbo
+C|343047|44|M|Efraim Ljung|projekteringschef, Floda
+C|343048|61|K|Daphne Sandberg|funktionssamordnare, Gråbo
+C|343049|73|M|Sven-Arne Hermansson|entreprenör, Gråbo
+C|343050|67|K|Lillemor Boman|second handföreståndare, Tollered
+C|343051|47|M|Nicklas Raask|CIO/IT-entreprenör, Gråbo
+C|343052|68|K|Marianne Sundin|fritidspedagog, Sjövik
+C|343053|81|K|Anita Borke|filosofie magister, Lerum
+C|343054|47|M|Fredrik Lindell|lärare vuxenutbildningen, Gråbo
+C|343055|75|K|Emmy Cervin|senior, Stenkullen
+C|343056|81|M|Lars Borke|redaktör, Lerum
+C|343057|76|K|Gunilla Raask|f.d. mellanstadielärare, Gråbo
+C|343058|84|M|Tor Herngren|pensionär, Lerum
+C|343059|58|K|Ariana Ramhage|konstnär/arkitekt, Gråbo
+C|343060|81|K|Fanny Rizell|f.d. riksdagsledamot, Lerum
+C|278255|53|K|Lill Jansson|53, företagare och kommunalråd, Lerum
+C|364331|47|M|Peter Norling|47, avdelningschef, Floda
+C|49155|58|K|Helena Gellerman|civilingenjör, Lerum
+C|364333|72|M|Ronny Johansson|72, företagare, Floda
+C|278242|44|K|Nanna Siewertz Tulinius|44, projektutvecklare, Lerum
+C|278250|73|M|Ingvar Frid|73, med. doktor, Lerum
+C|364336|49|K|Viktoria Lindberg Martinell|49, projektledare, Lerum
+C|364337|65|K|Kajsa Räntfors|65, arkitekt, Lerum
+C|278090|40|M|Jon Hjeltman|40, provningsingenjör, Lerum
+C|364339|48|K|Sophie Svensson|48, kemist, Lerum
+C|364340|49|M|Stefan Larsson|49, socionom, Floda
+C|364341|54|M|Gert Anderzén|54, civilingenjör/projektledare, Floda
+C|364342|58|M|Christer Gellerman|58, projektledare, Lerum
+C|364343|37|K|Anna Åström|37, laboratorieassistent, Stenkullen
+C|364344|70|M|Roland Brodén|70, pensionär, Lerum
+C|364345|77|K|Rigmor Andrén|77, pensionär, Lerum
+C|364346|78|M|Leon Johanson|78, ingenjör, Lerum
+C|364347|26|K|Rebecca Gellerman|26, leg. arbetsterapeut, Lerum
+C|364348|80|M|Folke Lindstedt|80, pensionär, Lerum
+C|364349|87|K|Betty Hammar|87, fil.mag., Floda
+C|364350|81|M|Ingemar Hansson|81, fd lektor, Lerum
+C|364351|65|K|Irene W Hjeltman|65, pensionerad psykiatrisk sjuksköterska, Gråbo
+C|364352|73|K|Mona Johansson|73, företagare, Floda
+C|364353|83|M|Erik Eglén|83, byggnadsingenjör, Floda
+C|364354|71|K|Eva Larsson|71, Lerum
+C|364355|78|K|Marie-Anne Gustafsson|78, pensionerad lärare, Floda
+C|364356|77|K|Inger Mathisson|77, pensionär, Floda
+C|364357|77|M|Lars-Olof Ekerborn|77, Lerum
+C|364358|50|K|Liselott Larsson|50, verksamhetschef, Floda
+C|244600|43|K|Katarina Kuzmanovic-Krasniqi|43 år, Receptionist, Hedefors
+C|244601|32|M|Daniel Eriksson|32 år, Programmerare, Lerum
+C|244602|40|K|Emma Liljeberg|40 år, Grundskollärare,Lerum
+C|244603|78|M|Rutger Fridholm|78 år, Kommunalråd,Lerum
+C|244604|24|K|Märta Elf|24år, Fil. studerande, Lerum
+C|244605|61|M|Bengt Anderson|61 år, Larmoperatör, Tollered
+C|152602|67|K|Lise Augustsson|67 år, undersköterska, Lerum
+C|244607|74|K|Elisabeth Sandén|74 år, Leg psykoterapeut, Socionom, Lerum
+C|244608|70|M|Kjell Hansson|69 år, Växlare, Gråbo
+C|244609|47|K|Camilla Sundberg|47 år, Trädgårdsmästare, Björboholm
+C|244610|48|K|Mirjam Weslien|48 år, Förskollärare, Lerum
+C|244611|29|M|Pierre Cronell|28 år, Underläkare, Lerum
+C|244612|64|K|Carina Eriksson|63 år, Studieförbundslärare, Floda
+C|244613|74|M|Stig Wallin|74 år, Pensionär, Floda
+C|244614|79|K|Mona Eriksson|79 år, Vårdlärare, Sjövik
+C|244615|70|M|Lars Åkesson|70 år, Civilingenjör, Lerum
+C|244616|78|K|Monica Karlson|77 år, Leg arbetsterapeut, Floda
+C|253914|28|M|Alexander Abenius|28, Kommunalråd, Lerum
+C|255029|49|K|Jeanette Andersson|49, Butiksansvarig
+C|255030|22|M|Viktor Lundblad|22, Student
+C|255031|66|K|Anita Skoglund|66, fd Egenföretagare
+C|254163|69|M|Douglas Thisell|69, fd. Kronokommissarie, Lerum
+C|255033|19|K|Frida Holzhausen|19, Studerande
+C|254162|30|M|Oskar Ahlman|30, Studerande, Lerum
+C|255035|52|K|Marie Jungtell|52, Financial Controller
+C|255036|78|M|Lars-Göran Larsson|78, Tekn.DR
+C|255037|54|K|Gun Holmberg|54, Egen verksamhet
+C|255038|23|M|Vincent Nordgren|23, Statsvetarstudent
+C|255039|62|K|Marita Snällman|62, Undersköterska
+C|255040|73|M|Magnus Lansenfeldt|73, Pensionär
+C|255041|18|M|Eskil Ripa|18, Studerande
+C|254145|50|M|Henrik Ripa|50, Egenföretagare, Lerum
+C|254152|57|K|Anna-Lena Holberg|57, Beteendevetare, Lerum
+C|255044|73|M|Ulf Utgård|73, Pensionär
+C|255045|60|K|Marie Andersson Sjödin|60, God man
+C|255046|37|K|Caroline Lansenfeldt|37, Polis
+C|255048|50|K|Maria Bergstedt|50, Egen företagare
+C|255049|52|K|Eva Brodén|52, Fastighetsmäklare
+C|255050|70|M|Conny Leinstedt|70, Senior Advisor
+C|255051|67|M|Lars Erik Snällman|67, Senior
+C|255052|65|M|Thomas Hallgren|65, Redovisningskonsult
+C|255053|50|K|Elisabeth Kivila Ottosson|50, Statlig utredare
+C|255054|43|M|Peter Johnsson|43, Eventsamordnare
+C|255055|58|K|Birgitta Widegren Rydström|58,
+C|255056|65|M|Magnus Svensson|65, Företagare
+C|255057|42|M|Markus Wahl|42, Systemutvecklare
+C|255058|74|M|Christer Harling|74, Jur.kand
+C|255059|54|M|Arne Molander|54, Egenföretagare
+C|255060|46|K|Izabell Erlandsson|46, Socionom
+C|255061|73|M|Björn H. Håkansson|73, Senior
+C|255062|54|M|Anders Jasphe|54, Konsult, mediautveckling
+C|255063|71|M|Hans Erich Christenson|71, Lagerchef
+C|255064|52|K|Angelica Därnlöv|52, Kommunikatör
+C|255065|68|M|Kenneth Ydresjö|68,
+C|255066|56|K|Anna Packendorff|56, Controller
+C|255067|71|M|Bengt Hörnlund|71, Nämndeman
+C|255068|57|M|Ove Ling|57, Entreprenör
+C|255069|77|M|Benny Freme|77, Pensionär
+C|255070|49|M|Petter Skoglund|49, Civilingenjör
+C|255071|63|K|Ingegerd Ljung|63, Frisör
+C|255072|59|M|Martin Abenius|59, Egenföretagare
+C|255073|24|K|Johanna Bergstedt|24,
+C|255074|26|M|Rasmus Packendorff|26,
+C|255075|74|K|Gunilla Nilsson|74, Pensionär
+C|255076|22|M|Jacob Bergqvist|22,
+C|255077|20|K|Marie Eliasson|20,
+C|255047|74|M|Kai Bengtsson|74, Civilekonom
+C|255078|65|M|Svante Karlsson|65, Informatör
+C|61339|37|M|Alexander Christiansson|Säljare, Lerum
+C|61332|65|M|Ralf Dahlgren|F.d. sjöman, Lerum
+C|61349|58|K|Ingrid Svensson|58, Vårdbiträde, Lerum
+C|61354|50|M|Glenn Sjögren|50, Fastighetsförvaltare, Floda
+C|70823|35|M|Christopher Saart|Företagare, 35 år
+C|70824|56|M|Per Hassel|Utredare på skatteverket, 56 år
+C|61335|42|K|Jannicke Stranne|42, Truckförare, Floda
+C|70826|53|M|Mikael Johansson|Drifttekniker, 53 år
+C|70827|69|M|Per-Arne Jadepalm|Pensionär, 69 år
+C|70828|41|K|Aiki Atka|Elevassistent, 41 år
+C|70829|64|M|Bo Nordström|F.d. egenföretagare, 64 år
+C|160749|61|K|Anette Holgersson|socionom, Lerum, 62 år
+C|160742|50|K|Anna Eriksson|lärare, Lerum, 50 år
+C|184917|64|K|Lena Hansson|socionom, Floda
+C|184918|30|K|Sanna Engelbrektsson|barn- och ungdomsledare, Gråbo
+C|184919|78|K|Anita Forsberg|före detta banktjänsteman, Lerum
+C|184920|77|M|Göran Leffler|psykoterapeut, Lerum
+C|184921|62|M|Ingmar Rahm|Floda
+C|184922|65|K|Ulla-Britt Caping Salas|lärare, Floda
+C|184923|33|K|Joanna Ardebring|undersköterska, Lerum
+C|184924|66|M|Staffan Görander|Norsesund
+C|184925|73|M|Peder Lundemo|före detta ekonom, Sjövik
+C|184926|60|K|Pernilla Wönter|löneadministratör, Floda
+C|184927|37|M|Martin Berg|planeringsledare
+C|184928|27|M|Olof Ask|studerande, Floda
+C|184929|55|K|Anna Bergendahl|statsvetare, Gråbo
+C|184930|66|M|Zsolt Szanto|planeringsledare, Lerum
+C|184931|70|M|Ulf Andersson|socionom, Floda

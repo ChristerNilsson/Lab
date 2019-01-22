@@ -1,7 +1,105 @@
-2|198958|192128|198960|193467|198962|198963|193441|198965|198966|198967|198968|198969|198970|198971|198972|198973|198974|198975|198976|198977|198978|198979|198980|198981|198982
-4|48811|71168|71169|71170|71171|71172|71173|71174|71175|71176|71177|71178|71179|71180|71181|71182
-68|42411|5858|42413|42414|42415|42416|42417|42418
-3|60887|67346|67347|67348|67349|67350|67351|67352|67353|67354|67355|67356
-1|7796|228762|228763|7797|228765|228766|228767|228768|228769|228770|228771|228772|228773|228774|228775|228776|228777|228778|228779|228780|228781|228782|228783
-110|71260|71261
-5|392261|392262|392263|392264
+T|Bjurholm
+A|2|198958|192128|198960|193467|198962|198963|193441|198965|198966|198967|198968|198969|198970|198971|198972|198973|198974|198975|198976|198977|198978|198979|198980|198981|198982
+A|4|48811|71168|71169|71170|71171|71172|71173|71174|71175|71176|71177|71178|71179|71180|71181|71182
+A|68|42411|5858|42413|42414|42415|42416|42417|42418
+A|3|60887|67346|67347|67348|67349|67350|67351|67352|67353|67354|67355|67356
+A|1|7796|228762|228763|7797|228765|228766|228767|228768|228769|228770|228771|228772|228773|228774|228775|228776|228777|228778|228779|228780|228781|228782|228783
+A|110|71260|71261
+A|5|392261|392262|392263|392264
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|198958|55|K|Dagmar Schröder|55 år, Sjuksköterska, Vitvattnet
+C|192128|38|M|Martin Berglund|38 år, Verkstadsarbetare, Bjurholm
+C|198960|70|K|Karin Gustafsson|70 år, Pensionär, Provåker
+C|193467|70|M|Leif Söderström|70 år, Pensionär, Bjurholm
+C|198962|76|K|Birgitta Dahlberg|76 år, Pensionär, Agnäs
+C|198963|43|M|Jeper Vestman|43 år, Bonde, Västerås
+C|193441|39|K|Linda Berglund|39 år, Keramiker, Bjurholm
+C|198965|42|M|Daniel Eriksson|42 år, Med. sekreterare, Bjurholm
+C|198966|32|K|Nadja Edström|31 år, Bageriarbetare, Mjösjöby
+C|198967|76|M|Erling Sandström|76 år, Elinstallatör, Agnäs
+C|198968|61|K|Barbro Classon|61 år, Undersköterska, Balsjö
+C|198969|66|M|Håkan Holgersson|66 år, Pensionär, Näsmark
+C|198970|66|K|Myrtel Emilsson|66 år, Undersköterska, Ö. Strömåker
+C|198971|58|M|Hassan Tabet|58 år, Undersköterska, Bjurholm
+C|198972|76|K|Eila Eriksson|76 år, Pensionär, Bjurholm
+C|198973|69|M|Kent Edström|69 år, Skogsmaskinförare, Mjösjöby
+C|198974|63|K|Anneli Eriksson|63 år, Skribent, Vitvattnet
+C|198975|32|M|Mohamad Rasem Alhelwani|32 år, Ekonom, Bjurholm
+C|198976|66|K|Gertrud Forsgren|66 år, Bibliotekarie, Öreström
+C|198977|52|M|Mikael Gustafsson|52 år, Skogsarbetare, Provåker
+C|198978|43|K|Lotta Vestman|43 år, Undersköterska/Bonde, Västerås
+C|198979|66|M|Evert Forsgren|66 år, Pensionär, Öreström
+C|198980|55|M|Lage Lind|55 år, Metallarbetare, Bastuträsk
+C|198981|76|M|Kurt Adolfsson|76 år, Pensionär, Västerås
+C|198982|66|M|Folke Jonsson|66 år, Svetsare, Vitvattnet
+C|48811|52|M|Ronny Jonsson|52 år, Egenföretagare, Bjurholm
+C|71168|53|K|Renée Olofsson|Butikschef Bonde, Brännland
+C|71169|66|M|Per-Olof Lidestav|Entreprenör, Vitvattnet
+C|71170|65|K|Ingrid Nygren|Sjuksköterska, Mellantjärn
+C|71171|26|M|Markus Jonsson|Lackerare, Näsland
+C|71172|24|K|Jenni Lundberg|Tf Butikschef, Vitvattnet
+C|71173|50|M|Lars-Erik Öberg|Reservdelssäljare, Agnäs
+C|71174|58|M|Ronny Olofsson|Lantbrukare, Brännland
+C|71175|73|M|Sverker Holgersson|Maskinförare, Agnäs
+C|71176|68|M|Bengt-Olof Johansson|Badmästare, Bjurholm
+C|71177|35|K|Lisa Ljadas|Butikschef Blomsterlandet, Braxsele
+C|71178|64|M|Stellan Bahlenberg|Fastighetsskötare, Balsjö
+C|71179|58|K|Elisabeth Vallrud|Trädgårdsmästare/Lärare, Bjurholm
+C|71180|23|K|Lina Frank Jonsson|Barnskötare, Sörfors
+C|71181|60|M|Per-Arne Åström|Åkare, Agnäs
+C|71182|75|K|Vivianne Persson|Fd banktjänsteman, Högås
+C|42411|61|K|Gunilla Forsberg|lärare, Bjurholm
+C|5858|34|M|Albert Safari|socionom, Bjurholm
+C|42413|36|K|Maesa Safade|lärarassistent, Bjurholm
+C|42414|81|M|Bengt Olsson|pensionär, Bjurholm
+C|42415|80|M|Stefan Löfdahl|pensionär, Bjurholm
+C|42416|72|K|Anna-Lena Nyberg|chaufför, Bjurholm
+C|42417|68|M|Gunnar Nyberg|företagare, Bjurholm
+C|42418|70|M|Per Strandberg|företagare, Bjurholm
+C|60887|41|M|Per Lindqvist|Bjurholm
+C|67346|63|K|Kerstin Persson|Bjurholm
+C|67347|45|M|Amders Glavhammar-Norrman|Bjurholm
+C|67348|78|K|Doris Jonsson|Bjurholm
+C|67349|33|K|Johanna Olofsson|Lillarmsjö
+C|67350|59|M|Erland Classon|Balfors
+C|67351|47|M|Lars Emilsson|Mariebäck
+C|67352|23|K|Jennifer Strinnholm|Bredträsk
+C|67353|31|M|Rickard Vännman|Bjurholm
+C|67354|67|M|Sven-Erik Ohlsson|Balsjö
+C|67355|76|M|Hans-Olof Olofsson|Bjurvattnet
+C|67356|77|M|Lars Lindqvist|Balåker
+C|7796|51|K|Christina Lidström|51, kommunalråd, Bjurholm
+C|228762|65|M|Bengt Sundling|65, Bjurholm
+C|228763|50|K|Christina Johansson|50, Högland
+C|7797|40|M|Marcus Ljadas|40, säljare, Bjurholm
+C|228765|66|M|Tommy Israelsson|66, Agnäs
+C|228766|26|K|Carolina Eriksson|26, Grannäs
+C|228767|71|M|Ingemar Nyman|71, Bjurholm
+C|228768|38|M|Christoffer Skåtar|38, Agnäs
+C|228769|55|K|Ulrica Lidström|55, Vitvattnet
+C|228770|70|K|Ann-Christin Backlund|70, Grönåker
+C|228771|62|K|Isabell Gunnarsson|62, Agnäs
+C|228772|49|M|Mats Malmgren|49, Näsland
+C|228773|47|M|Simon Fransson|47, Bjurholm
+C|228774|49|M|Mattias Eriksson|49, Ottervattnet
+C|228775|47|M|Mattias Sandberg|47, Västernyliden
+C|228776|70|M|Jerker Persson|70, Lillarmsjö
+C|228777|53|M|Johan Lundberg|53, Bjurholm
+C|228778|72|K|Louise Bonta|72, Lillarmsjö
+C|228779|65|M|Anders Jonsson|65, Nytorp
+C|228780|37|K|Jenny Stensson|37, Lillarmsjö
+C|228781|61|M|Christer Jonasson|61, Karlsbäck
+C|228782|50|K|Åsa Nyman|50, Bjurholm
+C|228783|48|M|Nils-Erik Bäckström|48, Bjurholm
+C|71260|68|K|Viveka Svensson|Läkare, Bjurholm, 68
+C|71261|60|M|Stefan Svensson|Egenföretagare, Bjurholm, 50
+C|392261|58|M|Wolfgang Hoffman|58, lärare, Vitvattnet
+C|392262|54|K|Åsa Inefjord|54, Lillarmsjö
+C|392263|51|M|Fredrik Norum|51, Sjuksköterska, Bjurholm
+C|392264|37|K|Elin Hägglund|37, veterinär, Öreström

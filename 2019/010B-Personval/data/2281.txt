@@ -1,12 +1,354 @@
-2|37103|37104|37105|37106|37107|37108|37109|37110|37111|37112|37113|37114|37115|37116|37117|37118|37119|37120|37121|37122|37123|37124|37125|37126|37127|37128|37129|37130|37131|37132|37133|37134|37135|37136|37137|37138|37139|37140|37141|37142|37143|37144|37145|37146|37147|37148|37149|37150|37151|37152|45337|45338|45339|45340|45341|45342|45343|45344|45345|45346|45347|45348|45349|45350|45351|45352|45353|45354|45355|45356|45357|45358|45359|45360|45361|45362|45363|45364|45365|45366|45367|45368|45369|45370|45371|45372|45373|45374|45375|45376|45377|45378|45379|45380|45381|45382|45383|45384|45385|45386
-4|48970|48971|48972|48973|48974|48975|48976|48977|48978|48979|48980|48981|48982|48983|48984|48985|48986|48987|48988|48989|8549|48991|48992|48993|48994
-532|113544|113545|113546|113547|113548|167806|113549|114019|113550|113551|113552|113553|113628
-68|20903|21004|50005|20909|50007|20922|20912|50010|50011|21015|20914|20919|50015|50016|50017|50018|50019|50020|50021|50022|50023|50024|20924|50026|50027|50028
-1011|132601
-3|277223|277228|277235|277322|49208|277271|277231|277225|277233|277836|277222|277838|277839|277255|277841|277238|277843|277844|277845|277242|277847|277848|277849|277850|349496|277851|277260|277853|277854|277855
-1296|128554
-55|368517|368290|368302|368301|373110|368311|373112|368296|373114|368304|373116|373117|373118|368309|373120|373121|373122|373123|373124|373125|373126|373127|373128|373129|373130
-1|240708|269256|240706|269258|269259|269260|269261|240710|240712|269264|269265|269266|269267|269268|269269|269270|269271|269272|269273|269274|269275|269276|269277|269278|269279|269280|269281|269282|269283|269284|269285|240715|269287|269288|269289|269290|269291|269292|269293|269294|269295|269296|269297|269298|269299|240717
-1165|433131|433132|433133|433134|433135|433136|433137|433138|433139|433140|433142|433143|433144
-110|360558|360100|360097|360087|360128|360120|360137|360111|360143|360105|360098|360113|360126|360115|360123|360135|360089|360131|360132|360129|360106|360117|360140|360145|360583|360584|360585|360586|360587
-5|114065|114066|114067|114068|114069|114070|114071|114072|114073|114074|114075|114076|114077|114078|114079|114080|114081|114082|114083|114084
+T|Sundsvall
+A|2|37103|37104|37105|37106|37107|37108|37109|37110|37111|37112|37113|37114|37115|37116|37117|37118|37119|37120|37121|37122|37123|37124|37125|37126|37127|37128|37129|37130|37131|37132|37133|37134|37135|37136|37137|37138|37139|37140|37141|37142|37143|37144|37145|37146|37147|37148|37149|37150|37151|37152|45337|45338|45339|45340|45341|45342|45343|45344|45345|45346|45347|45348|45349|45350|45351|45352|45353|45354|45355|45356|45357|45358|45359|45360|45361|45362|45363|45364|45365|45366|45367|45368|45369|45370|45371|45372|45373|45374|45375|45376|45377|45378|45379|45380|45381|45382|45383|45384|45385|45386
+A|4|48970|48971|48972|48973|48974|48975|48976|48977|48978|48979|48980|48981|48982|48983|48984|48985|48986|48987|48988|48989|8549|48991|48992|48993|48994
+A|532|113544|113545|113546|113547|113548|167806|113549|114019|113550|113551|113552|113553|113628
+A|68|20903|21004|50005|20909|50007|20922|20912|50010|50011|21015|20914|20919|50015|50016|50017|50018|50019|50020|50021|50022|50023|50024|20924|50026|50027|50028
+A|1011|132601
+A|3|277223|277228|277235|277322|49208|277271|277231|277225|277233|277836|277222|277838|277839|277255|277841|277238|277843|277844|277845|277242|277847|277848|277849|277850|349496|277851|277260|277853|277854|277855
+A|1296|128554
+A|55|368517|368290|368302|368301|373110|368311|373112|368296|373114|368304|373116|373117|373118|368309|373120|373121|373122|373123|373124|373125|373126|373127|373128|373129|373130
+A|1|240708|269256|240706|269258|269259|269260|269261|240710|240712|269264|269265|269266|269267|269268|269269|269270|269271|269272|269273|269274|269275|269276|269277|269278|269279|269280|269281|269282|269283|269284|269285|240715|269287|269288|269289|269290|269291|269292|269293|269294|269295|269296|269297|269298|269299|240717
+A|1165|433131|433132|433133|433134|433135|433136|433137|433138|433139|433140|433142|433143|433144
+A|110|360558|360100|360097|360087|360128|360120|360137|360111|360143|360105|360098|360113|360126|360115|360123|360135|360089|360131|360132|360129|360106|360117|360140|360145|360583|360584|360585|360586|360587
+A|5|114065|114066|114067|114068|114069|114070|114071|114072|114073|114074|114075|114076|114077|114078|114079|114080|114081|114082|114083|114084
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1165|SDL|Sundsvallspartiet
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|37103|42|M|Peder Björk|42 år, Bosvedjan
+C|37104|42|K|Bodil Hansson|42 år, Södermalm
+C|37105|26|M|Niklas Säwén|26 år, Sundsvall
+C|37106|63|K|Christina Nordenö|63 år, Sundsvall
+C|37107|43|M|Jonas Väst|43 år, Sundsvall
+C|37108|60|K|Anita Bdioui|60 år, Centrum
+C|37109|66|M|João Pinheiro|66 år, Sundsvall
+C|37110|55|K|Diana Kapitanska|55 år, Skönsberg
+C|37111|37|M|Jan Lahti|37 år, Sundsvall
+C|37112|32|K|Caroline Sundström|32 år, Skönsmon
+C|37113|62|M|Leif Nilsson|62 år, Sundsvall
+C|37114|50|K|Marie Sjöbom Olsson|50 år, Sundsbruk
+C|37115|40|M|Stefan Broman|40 år, Haga
+C|37116|55|K|Annika Kallin|55 år, Östermalm
+C|37117|55|M|Stefan Eriksson|55 år, Skönsmon
+C|37118|34|K|Frida Smedberg|34 år, Kvissleby
+C|37119|67|M|Lars-Olof Boström|67 år, Södermalm
+C|37120|45|K|Frida Burman|45 år, Södermalm
+C|37121|55|M|Leif Wiklund|55 år, Centrum
+C|37122|66|K|Priscilda Helenius|66 år, Sundsvall
+C|37123|61|M|Johan Nikula|61 år, Bosvedjan
+C|37124|60|K|Eva Bergström Selling|60 år, Centrum
+C|37125|60|M|Hans Backlund|60 år, Sundsvall
+C|37126|46|K|Monika Lindberg|46 år, Ljustadalen
+C|37127|65|M|Johan Hörting|65 år, Skönsberg
+C|37128|72|K|Aagoth Lögdahl|72 år, Bosvedjan
+C|37129|29|M|Kristoffer Högstedt Gustavsson|29 år, Sundsvall
+C|37130|50|K|Ann-Christine Meiding|50 år, Kubikenborg
+C|37131|66|M|Rolf Nordin|66 år, Östermalm
+C|37132|53|K|Pernilla Holgert|54 år, Centrum
+C|37133|40|M|Nisar Khan|40 år, Nacksta
+C|37134|68|K|Maria Antonic|68 år, Sundsvall
+C|37135|53|M|Ulf Bylund|53 år, Sundsvall
+C|37136|26|K|Zhila Garmiani|26 år, Nacksta
+C|37137|57|M|Lars-Åke Andersson|57 år, Haga
+C|37138|58|K|Lottis Hörting|58 år, Skönsberg
+C|37139|70|M|Evert Nederberg|71 år, Haga
+C|37140|30|K|Emma Edvall|30 år, Centrum
+C|37141|78|M|Roland Grafström|78 år, Haga
+C|37142|40|K|Kurdistan Kasem Ali|40 år, Skönsberg
+C|37143|65|M|Sameer Lafta|65 år, Sallyhill
+C|37144|62|K|Lena Sjölén|62 år, Johannedal
+C|37145|33|M|Sami Chérif|33 år, Nacksta
+C|37146|31|K|Sophia Beyer Rankila|31 år, Centrum
+C|37147|35|M|Robin Sjölén|35 år, Sundsbruk
+C|37148|62|K|Veronica Österlund|62 år, Skönsberg
+C|37149|19|M|Robin Fonseca|19 år, Skönsberg
+C|37150|41|K|Ida Lindouf|41 år, Skönsberg
+C|37151|66|M|Lars Huss|66 år, Nacksta
+C|37152|76|K|Laila Ågren|76 år, Skönsmon
+C|45337|26|K|Lisa Lööf|26 år, Matfors
+C|45338|62|M|Anders Hedenius|62 år, Njurunda
+C|45339|52|K|Åsa Ulander|52 år, Alnö
+C|45340|55|M|Roger Johansson|55 år, Matfors
+C|45341|38|K|Malin Larsson|38 år, Stöde
+C|45342|62|M|Burhan Hussain|62 år, Granlo
+C|45343|49|K|Arianne Sundman|49 år, Alnö
+C|45344|66|M|Jan-Olov Lampinen|66 år, Sundsvall
+C|45345|35|K|Jeanette Hedlund|35 år, Matfors
+C|45346|21|M|Mathias Hansson|21 år, Bydalen
+C|45347|54|K|Ann-Charlotte Evrung|54 år, Liden
+C|45348|45|M|Magnus Haak|45 år, Alnö
+C|45349|40|K|Jenny Bjerkås|40 år, Alnö
+C|45350|33|M|Fredrik Thunström|33 år, Stöde
+C|45351|49|K|Rose-Marie Antonic|49 år, Alnö
+C|45352|58|M|Kenneth Högström|58 år, Njurunda
+C|45353|67|K|Inger Arvidsson|67 år, Njurunda
+C|45354|49|M|Niclas Burvall|49 år, Holm
+C|45355|25|K|Rebecca Lampinen|25 år, Granloholm
+C|45356|19|M|Ludvig Lind|19 år, Granloholm
+C|45357|34|K|Karolina Sundberg|34 år, Indal
+C|45358|48|M|Kent Larsson|48 år, Matfors
+C|45359|39|K|Carina Staf|39 år, Njurunda
+C|45360|35|M|Alaa Ourabi Alkhn|35 år, Alnö
+C|45361|56|K|Annika Söderberg|56 år, Sundsvall
+C|45362|47|M|Michael Sjödin|47 år, Njurunda
+C|45363|62|K|Adele Flodin|62 år, Kvissleby
+C|45364|54|M|Magnus Svensson|54 år, Alnö
+C|45365|51|K|Lena Holmberg Eriksson|51 år, Sundsvall
+C|45366|28|M|Jonathan Brinkeback|28 år, Granlo
+C|45367|45|K|Helena Gudasic|45 år, Granloholm
+C|45368|56|M|Karaman Chalak|56 år, Kvissleby
+C|45369|67|K|Ulla Näsman|67 år, Alnö
+C|45370|56|M|Kenth Söder|56 år, Nedansjö
+C|45371|40|K|Jessica Höglin|40 år, Matfors
+C|45372|62|M|Ulf Sjölinder|62 år, Stöde
+C|45373|59|K|Lena Sjöberg|59 år, Stöde
+C|45374|65|M|Tommy Eriksson|65 år, Matfors
+C|45375|55|K|Marianne Törngren|55 år, Sundsvall
+C|45376|48|M|Robert Kuusikko|48 år, Sundsvall
+C|45377|60|K|Carin Öhlund|60 år, Granloholm
+C|45378|71|M|Håkan Byberg|71 år, Njurunda
+C|45379|57|K|Elisabeth Eng Åkerlund|57 år, Alnö
+C|45380|49|M|Mikael Sundqvist|50 år, Alnö
+C|45381|56|K|Margareta Jansson|56 år, Njurunda
+C|45382|50|M|Hans Dahlström Åsander|50 år, Matfors
+C|45383|54|K|Ylva Zetterström|54 år, Nedansjö
+C|45384|63|M|Kenneth Nordström|63 år, Kvissleby
+C|45385|19|K|Sanna Boholm|18 år, Kvissleby
+C|45386|66|M|Svante Lejon|66 år, Kovland
+C|48970|34|M|Hans Forsberg|ordförande, 34 år, Sundsvall
+C|48971|32|K|Sanna Jonsson|statsvetare, 32 år, Sundsvall
+C|48972|63|M|Kjell Bergkvist|mjölkproducent, 63 år, Sundsvall
+C|48973|61|K|Anita Forslin|arkitekt, 61 år, Sundsvall
+C|48974|54|M|Magnus Persson|projektledare, 54 år, Sundsvall
+C|48975|44|K|Emma Flemström Heurgren|socionom, 44 år, Sundsvall
+C|48976|65|M|Jan Ola Andersson|65 år, Attmar
+C|48977|52|K|Anna Edin|52 år, Sundsvall
+C|48978|51|M|Jonas Borg|51 år, Sundsvall
+C|48979|60|K|Anneli Rehnfors|60 år, Njurunda
+C|48980|59|M|Erik Thunström|59 år, Sundsvall
+C|48981|55|K|Maria Åström|55 år, Indal
+C|48982|64|M|Helge Sjödin|projektledare, 64 år, Sundsvall
+C|48983|45|K|Anja Åkerlund|45 år, Sundsvall
+C|48984|64|K|Jeanette Lindblom|64 år Attmar
+C|48985|20|K|Rebecka Mc Neill|20 år, Sundsvall
+C|48986|35|M|Martin Lindh|studerande, 35 år, Sundsvall
+C|48987|53|K|Yvonne Flodén|behandlingsassistent, 53 år, Sundsvall
+C|48988|44|K|Sara Eriksson|44 år, Njurunda
+C|48989|67|M|Roland Hultman|67 år, Holm
+C|8549|52|K|Anne-Li Sjölund|52 år, Administratör , Sundsvall
+C|48991|39|K|Sofia Suomalainen|39 år, Alnö
+C|48992|78|M|Göran Söderblom|78 år, Indal
+C|48993|41|M|Marcus Rick|41 år, Sundsvall
+C|48994|48|M|Thomas Persson|48 år, Stöde
+C|113544|29|K|Elin Lockneus|29 år, doktorand, präst, Matfors
+C|113545|32|M|Daniel Högberg|32 år, Java-utvecklare, ledsagare, Sundsbruk
+C|113546|71|K|Ingrid Möller|71 år, leg.arbetsterapeut, arkitekt
+C|113547|30|K|Anna Gustafsson|
+C|113548|19|K|Sara Svensson|19 år, samhällsprogrammet i gymnasiet, Skönsmon
+C|167806|19|K|Mika Andersen|19 år, ledarskapsprogrammet i gymnasiet, Södermalm
+C|113549|37|M|Josef Eriksson|37 år, gitarrlärare, Töva
+C|114019|23|K|Elsa Undin|23 år, teknisk support, Skönsmon
+C|113550|52|K|Kerstin Våge|52 år, bibliotekarie, Östermalm
+C|113551|44|M|Peter Selander|44 år, religionsvetare, yogalärare, Södermalm
+C|113552|28|M|Krissy Virtanen|28 år, lärarstuderande, Juniskär
+C|113553|25|K|Eila Wall Boholm|25 år, skådespelare, poet, poddare, Kvissleby
+C|113628|72|K|Irma Henriksson|72 år, tolk, översättare, förskollärare, Korsta
+C|20903|38|K|Liza-Maria Norlin|Sundsvall
+C|21004|42|M|Emil Esping|Kvissleby
+C|50005|48|K|Kate Almroth|48, Affärsutvecklare, Sundsvall
+C|20909|54|M|Stefan Hill|Sundsvall
+C|50007|24|K|Ronja Strid|24, Student, Sundsvall
+C|20922|38|K|Miriam Monsell|Alnö
+C|20912|31|M|Joachim Jonsson|Sundsvall
+C|50010|50|K|Sara Svensson|50, Farmaceut, Sundsvall
+C|50011|37|M|Hailemeskel Alem Meles|37, Sjuksköterska, Sundsvall
+C|21015|31|K|Emelie Granemar|Sundsvall
+C|20914|29|M|Robin Håkansson|Sundsvall
+C|20919|61|K|Britt-Mari Brynielsson|Kvissleby
+C|50015|73|M|Gunnar Åström|73, Pensionär, Sundsvall
+C|50016|78|K|Elisabeth Walfridsson|78, Frivilligarbetare, Sundsvall
+C|50017|51|M|Anders Eriksson|51, Copywriter, Sundsvall
+C|50018|65|K|Lena Nordin|65, Socionom, Sundsvall
+C|50019|65|M|Robert Nordin|65, Affärsutvecklare, Sundsvall
+C|50020|64|K|Yvonne Bengtson|64, Butikschef, Sundsvall
+C|50021|70|M|Berndt Wikman|70, Pensionär, Sundsvall
+C|50022|43|M|Josef Nordin|43, IT-arkitekt, Sundsvall
+C|50023|71|M|Bengt Åke Bengtson|71, Konsult, Sundsvall
+C|50024|76|M|Anders Mähler|76, Pensionär, Sundsbruk
+C|20924|22|M|Joakim Westlinder|Sundsvall
+C|50026|77|M|Lars Ågren|77, Pensionär, Sundsvall
+C|50027|85|K|Berit Andersson|86, Pensionär, Sundsvall
+C|50028|52|M|Leif Jacobsson|52, Merchandiser, Sundsvall
+C|132601|75|M|Anders Wästfelt|Egenföretagare, Västernorrland
+C|277223|46|K|Fáten Nilsson|Rådgivare, 47 år, Haga
+C|277228|59|M|Stefan Falk|Docent, 59 år, Sidsjö
+C|277235|51|K|Catrin Eliasson|Företagare, 51 år, Alnö
+C|277322|53|K|Annelie Luthman|Jurist, 53 år, Alnö
+C|49208|20|M|Alex Nilsson|studerande, Sundsvall
+C|277271|55|K|Ingeborg Wiksten|Konsult, 55 år, Njurunda
+C|277231|66|M|Lars Holmgren|Marknadsekonom, 66 år, Bydalen
+C|277225|37|K|Ina Lindström Skandevall|Statsvetare, 37 år, Skönsberg
+C|277233|45|M|Martin Liljeros|Civilekonom, 45 år, Sundsvall
+C|277836|46|K|Maria Lilja|Handläggare, 46 år, Kvissleby
+C|277222|70|M|Arne Engholm|Pensionär, 70 år, Sundsvall
+C|277838|42|K|Jeanette Lozanovski|Kommunikatör, 42 år, Sundsvall
+C|277839|32|K|Mistiresilassie Tewolde|Studerande, 32 år, Sundsvall
+C|277255|30|M|Stefan Westman|Ambulanssjuksköterska, 29 år, Sundsvall
+C|277841|25|K|Elise Backman|Studerande, 24 år, Sundsvall
+C|277238|37|M|Marcus Hellström|Kock/studerande, 37 år, Bosvedjan
+C|277843|46|K|Maria Räfsbäck|Handläggare, 46 år, Sundsvall
+C|277844|35|M|Zdenko Cabrajic|Projektledare, 35 år, Sundsvall
+C|277845|20|K|Ebba Ädel|Butiksbiträde, 20 år, Gångviken
+C|277242|31|M|Mathias Lindwe|Testledare, 31 år, Sallyhill
+C|277847|67|K|Ulla Grelsson|Ingenjör, 67 år, Holm
+C|277848|33|M|Michael Jonsson|Skattehandläggare, 33 år, Haga
+C|277849|80|K|Ulla Norgren|Senior, 80 år, Stöde
+C|277850|22|M|Dominic Nordenberg|Kommunikatör, 22 år, Södermalm
+C|349496|67|K|Inga-Lill Hägglund|Distriktssköterska, 67 år, Alnö
+C|277851|80|M|Sigge Godin|F.d riksdagsledamot, 80 år, Sundsvall
+C|277260|36|M|Jakob Machuca|Advokat, 36 år, Sundsvall
+C|277853|80|M|Göte Stenlund|Företagsekonom, 80 år, Sundsvall
+C|277854|44|M|Anders Odmark|Jurist, 44 år, Sundsvall
+C|277855|73|M|Leif Carlsson|Senior, 73 år, Alnö
+C|128554|49|M|Daniel Lundin|49, Snickare, Västernorrland
+C|368517|47|K|Johanna Thurdin|47, civilingenjör, Sundsvall
+C|368290|46|K|Maria Algotsson|46, vik lärare, Sundsvall
+C|368302|40|M|Magnus Bylund|40, socialarbetare, Sundsbruk
+C|368301|28|K|Sabina Mattsson|28,leg psykolog, Sundsvall
+C|373110|42|K|Wiltrud Daniels|42 år, gymnasie- och högskolelärare, Kvissleby
+C|368311|33|M|Mathias Rex|33, servicetekniker, Sundsvall
+C|373112|51|K|Cecilia Dahlbäck|51 år, fil mag, Sallyhill
+C|368296|55|M|Angel Villaverde|55, lärare, Sundsvall
+C|373114|54|K|Titti Pettersson|54 år, aktivitetsledare, Södermalm
+C|368304|52|M|Sverker Ottosson|52, socialarbetare, Sundsvall
+C|373116|26|K|Johanna Simonsson|26 år, projektledare, Matfors
+C|373117|29|M|Erik Sönegård|29 år, civilingenjör, Vinkeltået
+C|373118|69|K|Britt-Inger Eriksson|69 år, pensionär, Alnö
+C|368309|38|M|Per-Olof Swing|38, kyrkomusiker och civilekonom, Sundsvall
+C|373120|48|K|Harriet Olsén|48 år, undersköterska, Sallyhill
+C|373121|66|M|Gunnar Farm|66 år, egenföretagare, Norrmalm
+C|373122|67|K|Monica Engqvist|67 år, lärare, Matfors
+C|373123|48|M|Mattias Ekhem|48 år, verksamhetsarkitekt, Hemmanet
+C|373124|73|M|Jan-Olof Tedebrand|73 år, pensionär, Nacksta
+C|373125|51|M|Torbjörn Forsman|51 år, konstruktör, Alnö
+C|373126|81|M|Klas Forsman|81 år, fd univ. lektor, Bydalen
+C|373127|57|M|Dick Sörholm|57 år, ingenjör, Stöde
+C|373128|80|K|Kerstin Bagge|80 år, pensionär, Granlo
+C|373129|44|M|Holger Daniels|44, lokförare, Kvissleby
+C|373130|81|K|Runa Forsman|81, fd apotekare, Bydalen
+C|240708|38|K|Alicja Kapica|38 år, Civilekonom, Sundsvall
+C|269256|29|K|Viktoria Jansson|29 år, Politisk sekreterare, Granlo
+C|240706|44|M|Jörgen Berglund|oppositionsråd, Västernorrlands län
+C|269258|50|M|Patrik Gustavsson|50 år, IT Solution Manager, Södermalm
+C|269259|65|M|Bertil Kjellberg|65 år, Advokat/fd. riksdagsledamot, Sundsvall
+C|269260|29|K|Lina Heidenbeck|29 år, Konsult/feminist, Kovland
+C|269261|70|M|Tom Emanuelz|70 år, Pensionär, Haga
+C|240710|57|M|Mikael Gäfvert|57 år, Pol. mag., Sundsvall
+C|240712|45|K|Linda Strandfjäll|45 år, Brottsutredare, Sundsvall
+C|269264|28|M|Fredrik Lohman|28 år, Ambulanssjuksköterska, Sundsvall
+C|269265|34|K|Josefin Eurenius|34 år, Säljare, Njurunda
+C|269266|62|M|Habibollah Effati|62 år, Civilingenjör, Södermalm
+C|269267|70|M|Rodney Engström|70 år, Ekonom, Sundsvall
+C|269268|76|M|Sven Bredberg|76 år, Fd. officer, Sundsvall
+C|269269|32|K|Cecilia Backlund|32 år, Företagare, Södermalm
+C|269270|64|K|Marianne Oscarson|64 år, Företagare, Sundsvall
+C|269271|69|K|Margareta Engström|69 år, Vårdlärare, Sundsvall
+C|269272|50|M|Per-Magnus Forsberg|50 år, Civilingenjör, Sidsjö
+C|269273|57|M|Jan-Erik Iversen|57 år, Företagare, Alnö
+C|269274|78|M|Jan Heijbel|78 år, Pensionär, Stenstan
+C|269275|62|M|Lars A.G. Carlsson|62 år, Jur. kand., Södermalm
+C|269276|38|K|Åsa Melander|38 år, Administratör, Skönsberg
+C|269277|39|M|Henrik Öhman|39 år, Företagare, Sundsvall
+C|269278|71|M|Thomas Burman|71 år, Fd. företagare, Bergsåker
+C|269279|71|M|Per Lindstrand|71 år, Fd. rektor, Skönsberg
+C|269280|48|K|Signe Weiss|48 år, Företagare, Håkanstået
+C|269281|54|M|Peter Sjöbom|54 år, Partiombudsman, Sundsvall
+C|269282|51|M|Per Wahlberg|51 år, Oppositionsråd, Sundsvall
+C|269283|56|M|Bo-Göran Strandfjäll|56 år, Polis, Stenstan
+C|269284|62|M|Leif Hemmingsson|62 år, Poliskommisarie, Ankarsvik
+C|269285|38|M|Jan Sjöberg|38 år, Butiksansvarig innesäljare, Alnö
+C|240715|71|K|Elisabeth Gisslin Burman|71 år, Fil. kand. Media och kommunikation/sociologi, Sundsvall
+C|269287|43|K|Narges Pour Moradian Esfandabadi|43 år, Företagare, Stenstan
+C|269288|73|M|Bertil Swenson|73 år, Tjänsteman, Kubikenborg
+C|269289|39|M|Linus Johansson|39 år, Innertaksmontör, Sundsvall
+C|269290|47|M|Marcus Sällstedt|47 år, Enhetschef IT, Haga
+C|269291|76|K|Sigbritt Eriksson|76 år, Pensionerad socionom, Norrliden
+C|269292|71|K|Åse Johansson|71 år, Fd. distriktschef, Sundsvall
+C|269293|75|K|Efva Åström|75 år, Biomedicinsk analytiker/arbetsmiljökonsult, Selånger
+C|269294|20|M|Ludvig Berggren|20 år, Distriktsordförande MUF, Södermalm
+C|269295|29|K|Sofie Henning|29 år, Banktjänsteman, Övre Bredsand
+C|269296|33|M|Marcus Stenborg|33 år, Produktionsledare, Övre Bredsand
+C|269297|28|M|Jonas Ivarsson|28 år, Kommunikatör, Kvissleby
+C|269298|22|K|Klara Skoglund|22 år, Säljare, Centrum
+C|269299|22|M|Tom Bergman|22 år, Säljare, Nacksta
+C|240717|54|K|Gunilla Molin|54 år, Fil. mag. Medie- och kommunikationsvetenskap, Sundsvall
+C|433131|56|K|Else Ammor|56, jurist
+C|433132|72|M|Anders Engqvist|72, småföretagare
+C|433133|37|M|Krister Bäckstrand|37, högskoleingenjör
+C|433134|55|K|MariAnne Andersson|55, fotograf
+C|433135|71|K|Inga-Britta Karlsson|71, pensionär
+C|433136|66|K|Karin Wassman|66, distriktssköterska
+C|433137|44|M|Mikael Westman|44, chaufför
+C|433138|63|K|Eva Wikner|63, undersköterska
+C|433139|47|M|Tony Östergren|47, studiestödsutredare
+C|433140|68|K|Åsa Sundqvist|68, pensionär
+C|433142|74|K|Gunilla Lundström|74, pensionär
+C|433143|37|M|Björn Östlund|37, lärare
+C|433144|74|M|Lasse Lundström|74, pensionär
+C|360558|40|M|Johnny Skalin|Riksdagsledamot, Sundsvall
+C|360100|29|K|Olga Nordlund|29, Sundsvall
+C|360097|73|M|Roland Persson|72, Sundsvall
+C|360087|64|M|Mats Hellhoff|Fd polis, Sundsvall
+C|360128|48|K|Anneli Lindholm|47, Sundsvall
+C|360120|61|M|Börje Mattsson|60, Sundsvall
+C|360137|71|M|Lars Skoglund|71, Sundsvall
+C|360111|51|K|Svetlana Afanasyeva|51, Sundsvall
+C|360143|71|M|Stig Bergström|71, Sundsvall
+C|360105|68|M|Gunnar Jönsson|68, Sundsvall
+C|360098|60|K|Carina Sjöström|59, Sundsvall
+C|360113|67|M|Hans-Olof Häggström|67, Sundsvall
+C|360126|69|K|Marianne Eliasson|69, Sundsvall
+C|360115|45|M|Tomasz Baron|44, Sundsvall
+C|360123|46|K|Eva-Lotta Söderström|45, Sundsvall
+C|360135|71|M|Ove Skalin|71, Sundsvall
+C|360089|51|K|Annelie Henriksson|Sundsvall
+C|360131|34|M|Jonas Lingdén|34, Sundsvall
+C|360132|67|M|Ulf Rydberg|67, Sundsvall
+C|360129|73|M|Björn Andersson|73, Sundsvall
+C|360106|43|K|Erika Stenberg Raatikainen|43, Sundsvall
+C|360117|33|M|Cristian Haglund|33, Sundsvall
+C|360140|66|M|Sven Dahl|65, Sundsvall
+C|360145|57|M|Benny Westholm|57, Sundsvall
+C|360583|58|M|Sven-Erik Sandström|57, Kvissleby
+C|360584|62|K|Solbritt Rydberg|62, Njurunda
+C|360585|43|M|Tobias Bringstål|43, Alnö
+C|360586|56|M|Ulf Sawert|56, Kvissleby
+C|360587|85|M|Sven-Olof Nordlund|84, Sundsvall
+C|114065|44|K|Christiane Rüdiger|barnmorska, Alnö
+C|114066|37|M|Niklas Evaldsson|brevbärare, Skönsmon
+C|114067|39|K|Jenny Karlstein|socionom, Sundsbruk
+C|114068|57|M|Hans Zetterkvist|administratör, Kvissleby
+C|114069|68|K|Ann Modin|lärare, Allsta
+C|114070|64|M|Åke Johansson|tågmästare, Sundsvall
+C|114071|68|K|Kim Ottosson|miljöinspektör, Indal
+C|114072|61|M|Hicham Elkahtib|juridisk rådgivare, Hästhagen
+C|114073|59|K|Karin Gustafsson|socialsekreterare, Sundsvall
+C|114074|64|M|Martin Jägesten|lärare, Skönsberg
+C|114075|29|K|Isabell Mixter|handläggare, Sundsvall
+C|114076|40|M|Olle Granath|socialarbetare, Granloholm
+C|114077|54|K|Lotta Wesslén|distriktssköterska, Granloholm
+C|114078|55|M|Anders Fagerblom|socionom, Östermalm
+C|114079|38|K|Ulrika Sedlund|fastighetsskötare, Korsta
+C|114080|53|M|Ronny Fröwall|kriminalvårdare, Nacksta
+C|114081|79|K|Gull-May Gustafsson|pensionär, Nacksta
+C|114082|49|M|Niklas Högdahl|entreprenör, Bydalen
+C|114083|20|K|Paulina Jonsson|arbetssökande, Nacksta
+C|114084|64|M|Thomas Jäärf|elentreprenör, Centrum

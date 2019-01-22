@@ -1,10 +1,309 @@
-2|232021|232022|232023|232024|232025|232026|232027|232028|232029|232030|232031|232032|232033|232034|232035|232036|232037|232038|232039|232040|232041|232042|232043|232044|232045|232046|232047|232048|232049|232050|232051|232052|232053|232054|232055|232056|232057|232058|232059|232060|232061|232062|232063|232064|232065|232066|232067|232068|232069|232070|232071|232072|232073|232074|232075|232076|232077|232078|232079|232080|232081|232082|232083|232084|232085|232086|232087|232088|232089
-4|38942|94308|33537|94310|94311|94312|94313|94314|94315|94316|33529|38916|94319|94320|94321|94322|94323|94324|94325|94326|94327|94328|94329|94330|94331|94333|94334|94335|94336|94337|94338|94339|94340|94341|94342|94343|94345|94347|94348
-68|9175|9152|64485|9165|9171|64488|9162|64490|64491|64492|64493|64494|64495|64496|64497|64498|64499|64500|64501|64502|64503|64504
-3|49175|189188|189189|165058|156318|189192|189193|189194|189195|189196|156322|189198|189199|189710|189200|189201|189202|189203|189204|189205|189206|189207|189208|189209|189210|189211|189212|189213|189214|189215|189727|189728|189729|189216
-1367|420363|420364|420365|511055|511056|512275|511057|511058|511059|511060|511061|511062|511063|511065|511066|511067
-55|114204|114159|114148|124268|114156|124270|124271|124272|124273|124274|124275|114154|124277|114139
-1|35810|35820|35808|36385|36180|35836|36388|36389|36188|36206|36191|36393|36394|36395|36396|36195|36398|36399|36400|36401|36402|36403|36404|36405|36406|36407|36408|36409|36410|36411|36412|36414|36415
-1369|445605|445606|445607|445608|445609|445610|445611|445612|445613|445614|445615|445616|445617|445618|445619|445620
-110|125880|125881|125882|125883|125884|125885|125886|125887|125888|125889|125890|125891|125892|125893|125894|125895|125897|125898|125899|125900|402443
-5|46772|46773|46774|46775|46776|46777|46778|46779|46780|46781|46783|46784|46785|46786|46787|46788|46789|46790|46793|46795|46796|46797|46798|46799
+T|Borlänge
+A|2|232021|232022|232023|232024|232025|232026|232027|232028|232029|232030|232031|232032|232033|232034|232035|232036|232037|232038|232039|232040|232041|232042|232043|232044|232045|232046|232047|232048|232049|232050|232051|232052|232053|232054|232055|232056|232057|232058|232059|232060|232061|232062|232063|232064|232065|232066|232067|232068|232069|232070|232071|232072|232073|232074|232075|232076|232077|232078|232079|232080|232081|232082|232083|232084|232085|232086|232087|232088|232089
+A|4|38942|94308|33537|94310|94311|94312|94313|94314|94315|94316|33529|38916|94319|94320|94321|94322|94323|94324|94325|94326|94327|94328|94329|94330|94331|94333|94334|94335|94336|94337|94338|94339|94340|94341|94342|94343|94345|94347|94348
+A|68|9175|9152|64485|9165|9171|64488|9162|64490|64491|64492|64493|64494|64495|64496|64497|64498|64499|64500|64501|64502|64503|64504
+A|3|49175|189188|189189|165058|156318|189192|189193|189194|189195|189196|156322|189198|189199|189710|189200|189201|189202|189203|189204|189205|189206|189207|189208|189209|189210|189211|189212|189213|189214|189215|189727|189728|189729|189216
+A|1367|420363|420364|420365|511055|511056|512275|511057|511058|511059|511060|511061|511062|511063|511065|511066|511067
+A|55|114204|114159|114148|124268|114156|124270|124271|124272|124273|124274|124275|114154|124277|114139
+A|1|35810|35820|35808|36385|36180|35836|36388|36389|36188|36206|36191|36393|36394|36395|36396|36195|36398|36399|36400|36401|36402|36403|36404|36405|36406|36407|36408|36409|36410|36411|36412|36414|36415
+A|1369|445605|445606|445607|445608|445609|445610|445611|445612|445613|445614|445615|445616|445617|445618|445619|445620
+A|110|125880|125881|125882|125883|125884|125885|125886|125887|125888|125889|125890|125891|125892|125893|125894|125895|125897|125898|125899|125900|402443
+A|5|46772|46773|46774|46775|46776|46777|46778|46779|46780|46781|46783|46784|46785|46786|46787|46788|46789|46790|46793|46795|46796|46797|46798|46799
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1367|MPPS|Medborgarnas Politiska Parti i Sverige
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1369|Ofa|Omsorg för alla
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|232021|59|M|Jan Boman|Borlänge
+C|232022|54|K|Mari Jonsson|54 år, Borlänge
+C|232023|29|M|Viktor Nordström|29 år, Borlänge
+C|232024|57|K|Lena Hjorth Hultqvist|57 år, sjuksköterska
+C|232025|65|M|Kenneth Persson|65 år, lokförare
+C|232026|20|K|Hanna Vangen Engström|20 år, ordförande SSU
+C|232027|26|M|Maslah Omar|26 år, integrationssamordnare
+C|232028|60|K|Anita Nordström|Borlänge
+C|232029|72|M|Lars Ivarsson|72 år, pensionär
+C|232030|30|K|Patricia Hansen|30 år, Borlänge
+C|232031|42|M|Mohammed Gure|42 år, verksamhetsledare
+C|232032|71|K|Kerstin Rahm|71 år, politiker
+C|232033|53|M|Mikael Karlsson|53 år, ombudsman
+C|232034|62|K|Birgitta Elfström|62 år, omsorgsassistent
+C|232035|33|M|Lars Jonsson|33 år, VVS-montör
+C|232036|60|K|Marianne Qvist|60 år, barnskötare
+C|232037|62|M|Dersim Seyfettin Tekes|62 år
+C|232038|62|K|Annakari Nilsson Berglund|62 år, enhetschef
+C|232039|66|M|Ronny Beyer|66 år, lokförare
+C|232040|41|K|Jenny Lerström|41 år, arbetsterapeut
+C|232041|26|M|Christian Kaddik|26 år, Borlänge
+C|232042|60|K|Pia-Lena Andersson|60 år, samhällsvetare
+C|232043|60|M|Josef Erdem|60 år, Borlänge
+C|232044|46|K|Monica Bodin|Borlänge
+C|232045|57|M|Ola Brossberg|57 år
+C|232046|62|K|Irma Pelo-Hallqvist|62 år, IT-ingenjör
+C|232047|54|M|Tommy Leppänen|54 år, processoperatör
+C|232048|71|K|Ann-Cecilia Thenander|71 år, sångerska
+C|232049|34|M|Erik Nises|34 år, journalist
+C|232050|18|K|Iza Renfjord|Borlänge
+C|232051|56|M|Göran Israelsson|56 år, mekaniker
+C|232052|28|K|Lina Andersson|28 år, student
+C|232053|52|M|Johan Håkansson|52 år, lärare
+C|232054|21|K|Perwin Mustafa|21 år, undersköterska
+C|232055|67|M|Leopoldo Letelier|67 år, socialarbetare
+C|232056|34|K|Mia Magnusson|34 år, lagerarbetare
+C|232057|59|M|Per Svantes|59 år
+C|232058|27|K|Marit Hultqvist|27 år, klubbordförande handels
+C|232059|49|M|Bengt Bäcke|49 år, ombudsman
+C|232060|63|K|Ingrid Norberg|Borlänge
+C|232061|59|M|Lars Jansson|59 år, ombudsman
+C|232062|43|K|Tiina Jansson|43 år
+C|232063|55|M|Per Madsen|55 år, utvecklingscoach
+C|232064|52|K|Jeanette Antonsson|52 år, florist
+C|232065|22|M|Sebastian Karlberg|22 år, vårdbiträde
+C|232066|30|K|Hanna Andersson|30 år, fritidspedagog
+C|232067|34|M|Tarek Malak|34 år
+C|232068|40|K|Anna Mårtensson|40 år
+C|232069|25|M|Kevin Brown|25 år
+C|232070|49|K|Cilla Rodin|49 år, ombudsman
+C|232071|66|M|Erik Arnberg|66 år, pensionär
+C|232072|29|K|Angelica Nyberget|29 år, personlig assistent
+C|232073|68|M|Kjell Eriksson|68 år, pensionär
+C|232074|63|K|Eva-Lisa Borres|63 år
+C|232075|60|M|Jan-Olof Lindvall|60 år
+C|232076|61|K|Birgitta Helander Bohman|61 år, verksamhetskonsult IT
+C|232077|20|M|Abdow Hassan|20 år, fritidsledare
+C|232078|70|K|Irja Fors|70 år, pensionär
+C|232079|18|M|Alex Manneh Samba|18 år, studerande
+C|232080|58|K|Anita Jernberg Hellsten|58 år, socialsekreterare
+C|232081|64|M|Bengt-Ove Lundell|64 år, pensionär
+C|232082|71|K|Barbro Lindroth|61 år, pensionär
+C|232083|37|M|Thomas Gustafsson|37 år
+C|232084|76|K|Siw Cederlund|76 år
+C|232085|67|M|Conny Karlsson|67 år, pensionär
+C|232086|50|K|Birgitta Andersson|50 år, Borlänge
+C|232087|62|M|Anders Björnhager|62 år, konstnär
+C|232088|57|K|Caroline Persson Kaddik|57 år, undersköterska
+C|232089|75|M|Olle Rigborn|75 år
+C|38942|54|K|Karin Örjes|Borlänge
+C|94308|72|M|Sören Hellberg|72 år, Fd lönechef,Torsång
+C|33537|24|M|Oscar Sjökvist|Borlänge
+C|94310|54|M|Mahat Alas|45 år, Lärarvikarie, Tjärna Ängar
+C|94311|61|K|Lena Löfgren Berglund|61 år, Studie- och yrkesvägledare, Östermalm
+C|94312|49|K|Sara Olsson|49 år, Egen företagare, Sunnanö
+C|94313|64|M|Per Olof Eriksson|64 år, Bitr. rektor, Sörbo
+C|94314|54|M|Klas Hedlund|54 år, Egen företagare, Koppslahyttan
+C|94315|18|K|My Jonsson Jarl|18 år, Studerande, Sörbo
+C|94316|31|M|Ali Mohamed|30 år, Modersmålslärare, Tjärna Ängar
+C|33529|53|M|Mohamed Abdi Mohamoud|"Fanax", Borlänge
+C|38916|43|K|Linda Zetterström|Borlänge
+C|94319|61|M|Lars Reyier|61 år, Lantbrukare, Koppslahyttan
+C|94320|44|K|Maria Karlin|44 år, Lärare, Domnarvet
+C|94321|64|M|Hans Skalin|64 år, Egen företagare, Skräddarbacken
+C|94322|52|K|Lena Lagestam|52 år, Kommunikationskonsult, Koppslahyttan
+C|94323|64|M|Erik Walla|64 år, Civilingenjör, Östermalm
+C|94324|66|K|Anneli Kainu|66 år, Pensionär, Fornby
+C|94325|66|M|Torbjörn Käck|66 år, Egen företagare, Gylle
+C|94326|63|K|Koppens Ingrid Eriksson|63 år, Musiklärare, Kyna
+C|94327|54|K|Monica Grundin|54 år, Egen företagare, Paradiset
+C|94328|44|M|Fredrik Zetterström|44 år, Civilingenjör, Järpbo-Sörbo
+C|94329|58|K|Lena Thurin|58 år, Rektor, Sörbo
+C|94330|45|M|Kjell-Olof Matsson|45 år, Projektledare, Årby
+C|94331|21|M|Gustav Ervall|21 år, Studerande, Fagerbacken
+C|94333|59|M|Ulf Rydén|59 år, Förvaltningschef, Åselby
+C|94334|18|M|Philip Ingemarsson|18 år, Student, Åselby
+C|94335|30|M|Magnus Jonsson|30 år, Avdelningsansvarig, Gylletäppan
+C|94336|77|K|Birgitta Fredin|77 år, Fd KRAV-lantbrukare, Rommeholen
+C|94337|65|M|Lennart Sandström|65 år, Lantbrukare, Täkt
+C|94338|79|M|Åke Örjes|79 år, Ingenjör, Norr Amsberg
+C|94339|27|M|Tom Halldén|27 år, Tågvärd, Sunnanö
+C|94340|69|K|Karin Tägtlund|69 år, Fd lärare, Mjälga
+C|94341|25|M|Mikael Stridsberg|25 år, Utredare, Hagalund
+C|94342|59|M|John-Åke Halldén|59 år, Statstjänsteman, Sunnanö
+C|94343|82|K|Ingrid Engvall|82 år, Socionom, Skräddarbacken
+C|94345|67|M|Sven-Erik Samuelsson|67 år, Fd lärare, Sunnanö
+C|94347|62|M|Lars Eriksson|62 år, Musiklärare, Norr Amsberg
+C|94348|61|M|Jan Holgersson|61 år, Ekonom, Skräddarbacken
+C|9175|35|M|Jonas Hillerström|tjänsteman, Torsång
+C|9152|55|K|Lena Paajanen|undersköterska, Borlänge
+C|64485|50|M|Samuel Hedström|50 år, fastighetsförvaltare
+C|9165|42|K|Elin Åhman|grundskollärare, Borlänge
+C|9171|53|M|Krister Svensson|gymnasielärare Borlänge
+C|64488|64|K|Sonja Johansson|64 år, integrationshandläggare
+C|9162|42|M|Boniface Obodeti|energi/miljöingenjör, Borlänge
+C|64490|75|M|Ingemar Andersson|75 år, skogstekniker/pensionär
+C|64491|58|K|Pia K. Pedersen|58 år, egenföretagare
+C|64492|40|K|Camilla Dalevall|40 år, distriktssköterska
+C|64493|27|M|Dennis Gottberg|27 år, butiksbiträde
+C|64494|43|M|Emil Åhman|43 år, skoladministratör
+C|64495|53|K|Ewa-Maria Souza|53 år, butikskonsulent
+C|64496|56|M|Jan Dalevall|56 år, hemmapappa
+C|64497|34|M|Daniel Johansson|34 år, byggnadsingenjör
+C|64498|50|K|Helen Emleton Henricsson|50 år, undersköterska
+C|64499|38|M|Anders Bodving|38 år, tjänsteman,
+C|64500|27|K|Jenny Omoregie|27 år, socionom
+C|64501|49|K|Merna Bakestani|49 år, lärare
+C|64502|66|M|Roland Lundkvist|66 år, behandlingsassistent
+C|64503|62|K|Annika Westerlund|62 år, fritidspedagog
+C|64504|84|K|Inga Lennerö Gillsberg|84 år, distriktssköterska/pensionär
+C|49175|45|K|Monica Lundin|företagare, Borlänge
+C|189188|70|M|Lars Ingvarsson|70 år, Uppfinnare, Skräddarbackens by
+C|189189|39|M|Björn Andersson|39 år, Adjunkt, Centrum
+C|165058|52|M|John Thornander|52 år Ombudsman/Bussförare, Borlänge
+C|156318|20|K|Julia Hållberg|Studerande, 20 år, Borlänge
+C|189192|20|K|Boel Högberg|21 år, Fritidsledare, Jakobsgårdarna
+C|189193|41|M|Jerk Pros|41 år,Terminalarbetare, Kvarnsveden
+C|189194|55|M|Mats Hallsten|55 år, Distriktschef, Kvarnsveden
+C|189195|76|M|Jaro Potucek|76 år, Civilingenjör, Skräddarbacken
+C|189196|68|K|Annika Ingvarsson|68 år, Undersköterska, Skräddarb. by
+C|156322|63|M|Arne Lissmats|Elingenjör, 63 år, Borlänge
+C|189198|70|M|Bertil Lindahl|70 år, Ingenjör, Mats Knuts
+C|189199|55|M|Tony Abboud|55 år, Företagare, Gylle
+C|189710|39|M|Andreas Åslin|39 år, Integrationschef, Hönsarvet
+C|189200|57|K|Elisabet Wixby|57 år, Nämndsekreterare, Nedre Tjärna
+C|189201|56|M|Mizgin Hajo|56 år, Lärare, Studiehandledare, Nygårdarna
+C|189202|48|M|Christer Lundin|48 år, Industriarbetare, Forssa
+C|189203|63|K|Lotta Grane|63 år, Musiklärare, Gylletäppan
+C|189204|75|K|Barbro Plantin|75 år, Fd Skolledare, Norr Amsberg
+C|189205|75|M|Håkan Klevesjö|75 år, Bergsingenjör, Norr Amsberg
+C|189206|40|K|Kati Forsberg|40 år, Webbsamordnare, Kvarnsveden
+C|189207|58|M|Benny Lindqvist|58 år, Operatör, Färjenäs
+C|189208|80|K|Gun Hansson|80 år, Pensionär, Forssa
+C|189209|82|M|Torsten Hansson|82 år, Tandläkare, Pensionär, Forssa
+C|189210|37|M|Elvan Cicen|37 år, Försäljare, Nedre Tjärna
+C|189211|39|M|Ismail Shire|39 år, Arbetsförmedlare, Tjärna Ängar
+C|189212|28|K|Rebecca Brodin|28 år, Ekonom, Gylle
+C|189213|48|M|Björn Lidén|48 år, Rektor, Tylla
+C|189214|43|K|Anna Hållberg|43 år, operationssjuksköterska, Paradiset
+C|189215|48|M|Stefan Gabrielsson|48 år, Personlig assistent, Bullermyren
+C|189727|31|M|Niklas Sundqvist|31 år, Studerande, Solbacka
+C|189728|37|M|Jens Malm|36 år, Systemutvecklare, Mjälga
+C|189729|67|M|Per-Martin Franked|67 år, Pensionär, Kvarnsveden
+C|189216|83|M|Lars Lyrvall|83 år, Tandläkare, Östermalm
+C|420363|57|M|Tony Nyberg|Egen företagare
+C|420364|77|M|Bernt Danielsson|Fd. egen företagare
+C|420365|65|M|Kjell Mosell|Mekaniker
+C|511055|72|K|Gudrun Thenander|Egen företagare
+C|511056|55|M|Tom Hartmeyer|Kock
+C|512275|57|K|Jeanette Eliasson|Undersköterska
+C|511057|42|K|Olga Sjödén|Sjuksköterska
+C|511058|57|M|Björn Morten Vestman|Trafiklärare
+C|511059|60|M|Franz Baumann|Egen företagare
+C|511060|35|K|Sandra Olsson|Studerande
+C|511061|32|K|Irina Basova|Ekonom
+C|511062|36|K|Sandra Koivu|Entreprenör
+C|511063|64|M|Kjell Jonsson|Travtränare
+C|511065|60|K|Nadejda Verlan|Ingenjör
+C|511066|61|M|Ulf Jonasson|Busschaufför
+C|511067|71|M|PA Börje A Eliasson|Entreprenör
+C|114204|33|K|Elina Brodén|Borlänge, samhällsplanerare
+C|114159|35|M|Nicklas Vidlund Bjurman|Borlänge, lärare
+C|114148|54|K|Catrin Wallinder|Borlänge, utredningsledare
+C|124268|21|M|Omar Warsame|22, student
+C|114156|63|K|Barbro Gossas|Borlänge
+C|124270|58|M|Håkan Danielsson|58, tjänsteman
+C|124271|53|M|Ahmet Tutay|53, egenföretagare
+C|124272|55|M|Mikael Morin|55, verksamhetsstöd
+C|124273|45|M|Ahmed Abdiqadir|45, fastighetsvärd
+C|124274|66|M|Kifle Ashgedom|65, djurskötare
+C|124275|32|M|Ajmal Durrani|33, humanistisk socialpedagog
+C|114154|63|M|Sven Fernlund Skagerud|Borlänge
+C|124277|41|M|Haykel Trabelsi|40
+C|114139|36|M|Mursal Isa|36, landstingsråd, Borlänge
+C|35810|48|M|Ulrik Bergman|48 år, civilekonom, Borlänge
+C|35820|56|K|Agneta Nyvall|56 år, oppositionsråd, Borlänge
+C|35808|32|M|Carl-Oskar Bohlin|riksdagsledamot, Dalarnas län
+C|36385|61|M|Peter Henriksson|banktjänsteman, 61 år
+C|36180|38|K|Anna Granlund|38 år, biografanställd, Borlänge
+C|35836|37|M|Jimmy Pasanen|37 år, planerare, Borlänge
+C|36388|60|K|Irene Widlund Bjurman|ekonomiansvarig, 60 år
+C|36389|64|M|Bo Bjurman|eltekniklärare, 64 år
+C|36188|27|M|Feasl Kheder Alyas|27 år, handläggare, Borlänge
+C|36206|64|M|Hans Moberg|64 år, VD, Borlänge
+C|36191|65|K|Kerstin Borg|65 år, undersköterska, Borlänge
+C|36393|54|M|Stefan Nätz|entreprenör, 54 år
+C|36394|38|M|Robert Hellström|stf sektionschef, 38 år
+C|36395|68|K|Gunnel Fallgren|civilekonom, 68 år
+C|36396|64|M|Lars Karlsson|sjökapten, 64 år
+C|36195|73|M|Anders Bringborn|73 år, fil kand, Borlänge
+C|36398|69|K|Marianne Hagfeldt|sekreterare, 69 år
+C|36399|41|K|Jenny Edberg|ombudsman, 41 år
+C|36400|39|M|Jonas Öman|projektchef, 38 år
+C|36401|43|K|Jenni Sjöblom|politisk sekreterare, 43 år
+C|36402|72|M|Hardy Bergman|byggmästare, 72 år
+C|36403|55|M|Lars Tannefors|fritidspedagog, 55 år
+C|36404|80|M|Esko Malmberg|fd IT-chef, 80 år
+C|36405|47|K|Annica Hopstadius|specialpedagog, 47 år
+C|36406|57|M|Samer Sada|handläggare, 57 år
+C|36407|61|K|Helena Nyvall|pedagog, 61 år
+C|36408|80|M|Bo Persson|ingenjör, 80 år
+C|36409|54|K|Camilla Idén|pastor, 54 år
+C|36410|41|M|Anders Haglund|trädgårdsmästare, 41 år
+C|36411|70|K|Elisabet Lindow|fil kand, teol kand, 70 år
+C|36412|18|K|Ebba Nyvall|studerande, 18 år
+C|36414|47|M|Jonas Ullberg|adjunkt, 48 år
+C|36415|78|M|Jan Tannefors|redaktör, 78 år
+C|445605|80|M|Lars-Erik Skoglund|Rektor, pensionär
+C|445606|24|K|Nicole Skoglund|Barn- och ungdomsutvecklare
+C|445607|64|M|Per Hillerström|Egenföretagare
+C|445608|73|M|Ernst Westergren|Pensionär
+C|445609|54|M|Lars Gunnarsson|Vaktmästare
+C|445610|59|M|Dan Eriksson|Utredare
+C|445611|73|M|Torbjörn Thalin|Pensionär, Skogsmästare
+C|445612|66|M|Håkan Eriksson|Pensionär
+C|445613|77|K|Karin Westergren|Pensionär
+C|445614|80|M|Bengt Bengtsson|F.d. lärare
+C|445615|67|M|Tommy Larsson|Omsorgsassistent
+C|445616|63|K|Agneta Engström|Behandlingsassistent
+C|445617|46|K|Johanna Berglund|Undersköterska
+C|445618|88|M|Sune Höglund|Pensionär
+C|445619|83|K|Gerd Hellström|Pensionär
+C|445620|82|K|Britta Skoglund|F.d.lärare
+C|125880|77|M|Kjell Forslund|Pensionär, Borlänge
+C|125881|71|M|Kent Forschner-Hell|Egenföretagare, Borlänge
+C|125882|45|K|Larissa Karlsson|Verksamhetsansvarig
+C|125883|53|M|Sonny Pettersson|Egenföretagare, Borlänge
+C|125884|68|M|Kenneth Tjernberg|Egenföretagare, Borlänge
+C|125885|63|K|Anita Tjernberg|Kyrkvaktare, Borlänge
+C|125886|55|K|Cey Forschner-Hell|Kock
+C|125887|67|M|Benny Sjöblom|Assistent, Borlänge
+C|125888|47|M|Peter Karlsson|Industriarbetare, Borlänge
+C|125889|70|M|Anders Fredriksson|Pensionär, Borlänge
+C|125890|40|M|Per-Erik Åkerström|Industriarbetare
+C|125891|66|M|Bernt Andersson|Pensionär
+C|125892|64|M|Kent Stenberg|Lackare
+C|125893|54|M|Ulf Skei|Poet
+C|125894|51|K|Maria Salomonsson|Omsorgsassistent
+C|125895|50|M|Stefan Andersson|Industriarbetare, Borlänge
+C|125897|63|K|Carina Sjöblom|Pensionär, Borlänge
+C|125898|71|M|Raymond Johansson|Pensionär
+C|125899|63|K|Kristina Forslund|Pensionär
+C|125900|44|M|Erick Peter Jones|Skötare
+C|402443|48|M|Stefan Eriksson|Konstruktör
+C|46772|41|M|Rikard Rudolfsson|41 år
+C|46773|34|K|Angelica Andersson|Borlänge, 34 årr
+C|46774|63|K|Lena Klarström|63 år
+C|46775|33|M|Matts Hammarqvist|Borlänge
+C|46776|34|K|Valida Cicen|Borlänge
+C|46777|51|M|Per Larsson|51 år
+C|46778|25|M|Carl Delbom|Borlänge, 25 år
+C|46779|20|K|Dhifoon Sheikh Ali|20 år
+C|46780|60|M|Leif Lindström|60 år
+C|46781|61|K|Maude Nordfeldt Holmqvist|Borlänge
+C|46783|56|K|Siw Haugli|56 år
+C|46784|64|M|Tyko Persson|64 år
+C|46785|68|K|Kerstin Lindberg|68 år
+C|46786|46|M|Germund Åcerclinth|46 år
+C|46787|18|K|Moa Fernsten|18 år
+C|46788|33|M|Per-Olof Flodström|33 år
+C|46789|86|K|Ragnhild Pohanka|86 år
+C|46790|67|M|Jan-Olof Lundberg|67 år
+C|46793|69|K|Ewa Gustafsson|69 år
+C|46795|71|M|Kenneth Petersson|Borlänge
+C|46796|35|K|Rebecca Vandor|35 år
+C|46797|36|M|Jonas Hagberg|36 år
+C|46798|57|K|Falak Abdull Majid|57 år
+C|46799|68|K|Lena Angberg|Borlänge

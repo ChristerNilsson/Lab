@@ -1,10 +1,193 @@
-2|93470|81363|93472|93473|93474|93475|93476|93477|93478|81379|93480|93481|93482|93483|93484|93485|93486|93487|93488|93489|93490|93491|93492|93493|93494|93495|93496|93497|93498|93499|93500|93501|93502|93503|93504|93505|93506|93507|93508|93509|93510|93511|93512|93513|93514|93515|93516|93517|93518|93519
-4|159440|180112|159094|159447|180115|159101|180117|180118|180119|159449|180121|180122|180123|180124|180125|180126|180127|180128|180129|180130|180131|180132|180133|180134|180135|180136|180137|180138|180139
-68|359097|364391|356887|364393|364394|364395|356901|359099|364398|364399
-1011|164157|164158|164290
-3|53546|53918|53919|53550|114634
-1296|383456
-55|385002|382635|385004|383003|383015|385007|385008|382670|385010|385011|382651|385013|385014|385015|385016|385017|385018
-1|133552|132923|135073|135074|135075|135076|135077|135078|135079|135080|135081|135082|135083|135084|135085|135086|135087
-110|138077|138078|138079|138080|138081|138082|138083|138084|138085|138086|138087|138088|138089|138090|138091|138092|138093|138094|138095|138096|138097|138098|138099
-5|384952|384953|384954|384955|384956|384957|384958|384959|384960|384961|384962|384963|384964|384965|384966|384967|384968|403852
+T|Tierp
+A|2|93470|81363|93472|93473|93474|93475|93476|93477|93478|81379|93480|93481|93482|93483|93484|93485|93486|93487|93488|93489|93490|93491|93492|93493|93494|93495|93496|93497|93498|93499|93500|93501|93502|93503|93504|93505|93506|93507|93508|93509|93510|93511|93512|93513|93514|93515|93516|93517|93518|93519
+A|4|159440|180112|159094|159447|180115|159101|180117|180118|180119|159449|180121|180122|180123|180124|180125|180126|180127|180128|180129|180130|180131|180132|180133|180134|180135|180136|180137|180138|180139
+A|68|359097|364391|356887|364393|364394|364395|356901|359099|364398|364399
+A|1011|164157|164158|164290
+A|3|53546|53918|53919|53550|114634
+A|1296|383456
+A|55|385002|382635|385004|383003|383015|385007|385008|382670|385010|385011|382651|385013|385014|385015|385016|385017|385018
+A|1|133552|132923|135073|135074|135075|135076|135077|135078|135079|135080|135081|135082|135083|135084|135085|135086|135087
+A|110|138077|138079|138080|138081|138082|138083|138084|138085|138086|138087|138088|138089|138090|138091|138092|138093|138094|138095|138096|138097|138098|138099
+A|5|384952|384953|384954|384955|384956|384957|384958|384959|384960|384961|384962|384963|384964|384965|384966|384967|384968|403852
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|93470|63|M|Bengt-Olov Eriksson|63 år, Kommunalråd, Månkarbo
+C|81363|30|K|Viktoria Söderling|30 år, Biokemist, Tierp
+C|93472|49|M|Jonas Nyberg|49 år, Operatör, Söderfors
+C|93473|67|K|Barbro Wiklund|67 år, Specialpedagog, Tierp
+C|93474|63|M|Gunnar Jansson|63 år, Byggnadsarbetare, Karlholm
+C|93475|52|K|Christina Svensson|53 år, Verksamhetschef, Skärplinge
+C|93476|62|M|Lars-Olof Färnström|62 år, Brandman, Tierp
+C|93477|52|K|Marie-Louise Rindå|52 år, Flygtekniker, Tobo
+C|93478|34|M|Pontus Söderberg|34 år, Industrioperatör, Söderfors
+C|81379|43|K|Erica Aspgren Wallin|43 år, Kommunikatör, Skärplinge
+C|93480|41|M|Oskar Nilsson|41 år, IT-tekniker, Tierp
+C|93481|52|K|Christina Holmström|52 år, Förstelärare, Örbyhus
+C|93482|63|M|Torgny Helgesson|63 år, Pensionär, Hållnäs
+C|93483|42|K|Linda Friberg|42 år, Processoperatör, Söderfors
+C|93484|64|M|Christer Niklasson|64 år, Universitetsadjukt, Tierp
+C|93485|64|K|Margaretha Magnusson|64 år, Sjuksköterska, Skärplinge
+C|93486|66|M|Börje Wennberg|66 år, Regionråd, Tierp
+C|93487|52|K|Helena Broman|52 år, Fritidspedagog, Söderfors
+C|93488|74|M|Kjell Hammerin|74 år, Ekonom, Söderfors
+C|93489|57|K|Inger Andersson|58 år, Förtidspensionär, Örbyhus
+C|93490|35|M|Tomas Delgado Pinto|36 år, Hotellreceptionist, Tierp
+C|93491|31|K|Elin Lindqvist|30 år, Undersköterska, Söderfors
+C|93492|64|M|Stefan Andersson|64 år, Ingenjör, Tierp
+C|93493|64|K|Lize-Lotte Löfgren|64 år, Undersköterska, Tierp
+C|93494|30|M|Fared Shamma|30 år, Söderfors
+C|93495|25|K|Sara Lindqvist|25, Lärarstudent, Tierp
+C|93496|46|M|Benny Larsson|46 år, CNC-operatör, Skärplinge
+C|93497|49|K|Anette Pettersson|49 år, HR-konsult, Örbyhus
+C|93498|57|M|Ulf Andersson|58 år, Idrottsplatsvaktmästare, Örbyhus
+C|93499|74|K|Eivor Englund|74 år, Pensionär, Tierp
+C|93500|28|M|Robin Falk|28 år, Enhetschef, Örbyhus
+C|93501|75|K|Inger Johansson|75 år, Pensionär, Tierp
+C|93502|36|M|Saad Salih Hamad|30 år, Skärplinge
+C|93503|70|M|Villy Wahlström|70 år, Pensionär, Karlholm
+C|93504|77|K|Violet Englund|77 år, Pensionär, Tierp
+C|93505|34|M|Clark Wilgert|34 år, Processoperatör, Tobo
+C|93506|35|M|Tommy Engström|35 år, Lokalvårdare, Tierp
+C|93507|62|K|Lena-Britt Zetterqvist|62 år, Präst, Tierp
+C|93508|66|M|Hans Edin|66 år, Pensionär, Örbyhus
+C|93509|70|M|Alf Wåhlen|70 år, Pensionär, Söderfors
+C|93510|45|K|Katarina Larsson|45 år, Butiksarbetare, Skärplinge
+C|93511|66|M|Jan Zetterqvist|66 år, Lärare, Tierp
+C|93512|52|M|Kristofer Watz|52 år, Lagerarbetare, Örbyhus
+C|93513|39|K|Frida Nyberg|39 år, Förskollärare, Söderfors
+C|93514|74|M|Torsten Lindberg|74 år, Pensionär, Söderfors
+C|93515|71|M|Claes Holmgren|71 år, Pensionär, Tierp
+C|93516|55|K|Maria Wallin Mååg|55 år, Sjuksköterska, Tierp
+C|93517|65|M|Eric Bolander|65 år, Pensionär, Örbyhus
+C|93518|63|M|Mauri Järvi|63 år, Chaufför, Söderfors
+C|93519|69|M|Lars-Peter Hållstrand|69 år, Pensionär, Hållnäs
+C|159440|38|K|Sara Sjödal|38 år, agronom, Tierp
+C|180112|61|M|Erik Kolm|61 år, lantbrukare, Uggelbo, Strömsberg
+C|159094|43|K|Lotta Carlberg|43 år, digital affärsrådgivare, Örbyhus
+C|159447|22|M|Yaqub Ahmed|22 år, språkombud/undersköterska, Tierp
+C|180115|50|K|Anna Ahlin|50 år, kvalitets - och miljöchef, Vallby
+C|159101|71|M|Peter Staland|70 år, jägmästare, Söderfors
+C|180117|41|K|Anna Grimberg|41 år, redovisningsassistent, Söderby
+C|180118|45|K|Magdalena Ewert|45 år, lärare, Tierp
+C|180119|64|M|Lars Lindgren|65 år, fd. polisinspektör, Grönö
+C|159449|63|K|Helén Jaktlund|63 år, distriktssköterska, Älby, Björklinge
+C|180121|74|M|Mats Wikander|74 år, pensionär, Tierp
+C|180122|41|K|Christina Lindholm|41 år, egenföretagare, Tierp
+C|180123|26|K|Louise Blomfeldt|26 år, djurskötare och studerande, Hillebola
+C|180124|46|K|Anna Ohlström|46 år, lantbrukare, Valparbo
+C|180125|73|K|Marianne Eriksson|73 år, pensionär, Hållnäs
+C|180126|43|M|Filip Håkansson|43 år, jurist, Tierp
+C|180127|50|M|Roger Henningsson|50 år, socionom, Åkerby
+C|180128|38|K|Anna-Karin Boman|38 år, lantbrukare, Untra
+C|180129|47|M|Jonas Malmqvist|48 år, produktionsledare, Gyllby
+C|180130|71|M|Leif Lindgren|71 år, pensionär, Valla
+C|180131|74|M|Anders Gejke|74 år, pensionär, Tierp
+C|180132|67|M|Per Vendin|67 år, vaktmästare, Tierp
+C|180133|60|M|Gustav Berg|60 år, mellan två jobb, Eskesta
+C|180134|62|M|Lennart Grimberg|61 år, busschaufför, Söderby
+C|180135|48|M|Sakhi Dad Abdul Hamid|47 år, busschaufför, Söderfors
+C|180136|57|M|Björn Olsson|57 år, kommunikatör, Åkerby
+C|180137|37|M|Christoffer Karlsson|37 år, egenföretagare, Fors
+C|180138|55|M|Björn Hellstedt|55 år, lantbrukare, Halls
+C|180139|41|M|Erik Kihlén|41 år, civilingenjör, Orrskog
+C|359097|54|K|Ann-Kristin Ringefors|53, Undersköterska, Tierp
+C|364391|71|M|Lars Svensk|70, Produktchef, Söderfors
+C|356887|73|K|Gunilla Wisell|73, fd Lärare, Söderfors
+C|364393|22|M|Sebastian Nordman|22, Studerande, Tierp
+C|364394|71|K|Margareta Wikström Svensk|71, f.d. Distriktssköterska, Söderfors
+C|364395|65|M|Börje Flygman|65, Pastor, Karlholmsbruk
+C|356901|30|K|Angelica Pettersson|29, Miljö & hälsoskyddsinsp., Tobo
+C|359099|66|M|Thomas Gahnstedt|66, Försäljare, Älvkarleby
+C|364398|71|M|Jan Berglund|71, f.d Byggnadsmålare, Tierp
+C|364399|23|M|Andreas Sågström|22, Studerande, Tierp
+C|164157|64|M|Per-Olof Flood|64 år, f.d Mångsysslare, Tierp
+C|164158|70|M|Rolf Löfgren|fd. Statstjänsteman, Tierp
+C|164290|41|K|Desirè Troëng|41 år, Väktare/Bonde, Örbyhus
+C|53546|40|M|Alfred Mujambere|fritidsledare, Tierp, 40 år
+C|53918|30|K|Sarah Näslund|30 år, Tierp
+C|53919|45|M|Robert Lemming|45 år, Tierp
+C|53550|60|K|Ann-Cathrin Larsson|egen företagare, Tierp, 60 år
+C|114634|64|M|Göran Larsson|64 år, Örbyhus
+C|383456|46|M|Tommy Hellberg|46 år, systemadministratör
+C|385002|37|M|Joachim Stormvall|37 år, Bokförläggare, Månkarbo
+C|382635|51|K|Jenny Lundström|Regionråd/veterinär, 51 år, Tobo
+C|385004|40|M|Oskar Jonsson|40 år, Illustratör, Örbyhus
+C|383003|75|K|Brita Kajrup|Biomedicinsk analytiker, 75 år, Tobo
+C|383015|48|M|Oliver Klett|Kemist, 48 år, Örbyhus
+C|385007|40|K|Karolina Larsson|40 år, Lärare, Tobo
+C|385008|55|K|Monica Ulfsdotter Pettersson|55 år, Verksamhetschef, Tierp
+C|382670|72|K|Rose Marie Nejdling|Pastor/guide, 72 år, Tobo
+C|385010|46|M|Pär Lindqvist|46 år, Lantbrukare, Vendel
+C|385011|67|K|Elisabet Jansson|67 år, Egenföretagare, Örbyhus
+C|382651|49|K|Sylvia Lundholm|Nationell samordnare, 49 år, Örbyhus, Tierp
+C|385013|59|M|Anders Arnell|59 år, Naturvägledare, Vendel
+C|385014|57|K|Karin Gerhardt|57 år, Biolog/mathantverkare, Vendel
+C|385015|51|K|Catrin Öhman Björk|51 år, Gymnasielärare, Örbyhus
+C|385016|52|M|Berndt-Olov Jacobsson|52 år, Fabriksarbetare, Skärplinge
+C|385017|35|K|Nathalie Nordén|35 år, Projektledare/utbildare, Tobo
+C|385018|65|M|Kenneth Gunnarsson|65 år, Fotograf, Söderfors
+C|133552|62|M|Lars-Göran Birkehorn Karlsen|62 år, Företagare, Tobo
+C|132923|51|K|Åsa Sikberg|51 år, Lantbrukare, Lövstabruk
+C|135073|74|M|Sven Lokander|74 år, F. d. energiingenjör , Tierp
+C|135074|55|K|Carola Fredén|55 år, Konsult , Tierp
+C|135075|33|K|Emma Lokander|33 år, Studerande, Tierp
+C|135076|64|M|Kenneth Karlsson|64 år, Maskiningenjör, Hållnäs
+C|135077|74|M|Anders Eklund|74 år, Tekn. mag., Söderfors
+C|135078|42|K|Jessica Tindre Falk|42 år, Projektledare, Tierp
+C|135079|77|M|Stig Lundqvist|77 år, F. d. företagare, Tierp
+C|135080|54|K|Regina Birkehorn|54 år, Krisexpert, Tobo
+C|135081|54|K|Jelena Radojcic Zivkovic|54 år, Restaurangägare, Hållnäs
+C|135082|87|K|Ulla Löjdquist|87 år, F. d. företagare, Tierp
+C|135083|68|M|Ronny Bränneland|68 år, Chaufför, Skärplinge
+C|135084|71|K|Kaisa Westerholm|71 år, Pensionär, Skärplinge
+C|135085|30|K|Suncica Zivkovic|30 år, Sjuksköterskestuderande, Tierp
+C|135086|32|K|Annaliisa Allas|32 år, Studerande, Tierp
+C|135087|52|M|Hans Sikberg|52 år, Lantbrukare, Lövstabruk
+C|138077|43|M|Joakim Larsson|43 år, politisk sekreterare, Örbyhus
+C|138079|37|M|Daniel Hedberg|37 år, chaufför, Örbyhus
+C|138080|57|M|Jonhas Åker|57 år, chaufför, Lövstabruk
+C|138081|77|M|Bengt Lindström|77 år, f.d. busschaufför, Karlholmsbruk
+C|138082|29|M|Klas Jakobsson|29 år, energitekniker, Tierp
+C|138083|51|M|Per Karlsson|51 år, processoperatör, Tierp
+C|138084|67|M|Kenneth Lignell|67 år, konstförvant, Tierp
+C|138085|59|M|Lars-Ola Sandström|59 år, ingenjör, Söderfors
+C|138086|81|K|Rosa Ingeborg Malmberg|81 år, f.d. postkassör, Tierp
+C|138087|27|M|Rickard Olsson|27 år, bilmekaniker, Tierp
+C|138088|37|M|Johan Söderström|37 år, fastighetsskötare, Tobo
+C|138089|62|K|Esperanza Halvorsen|62 år, entreprenör, Tierp
+C|138090|61|M|Ulf Enarsson|61 år, verkstadsarbetare, Tierp
+C|138091|64|K|Eva-Mari Lindström|64 år, pensionär, Tobo
+C|138092|31|K|Sofia Jakobsson|31 år, vårdbiträde, Tierp
+C|138093|26|M|Victor Ljung|26 år, lastbilschaufför, Månkarbo
+C|138094|21|M|Simon Brännström|21 år, student, Tierp
+C|138095|66|M|Bengt Asplund|66 år, busschaufför, Tierp
+C|138096|45|K|Veronica Mattsson|restaurangbiträde, Tierp
+C|138097|38|M|Tony Eilertsen|38 år, personlig assistent, Tierp
+C|138098|73|K|Jeanette Asplund|73 år, sjukvårdsbiträde, Tierp
+C|138099|38|M|Pär Tyskling|38 år, IT-chef, Tierp
+C|384952|32|M|Alexander Karlsson|Örbyhus
+C|384953|65|K|Agnetha Andersson|65, pensionär/f d distriktssköterska, Tierp
+C|384954|63|K|Anna Zmudzin-Ågren|62, arbetare, Tierp
+C|384955|69|M|Urban Blomster|Söderfors
+C|384956|48|M|Emmanuel Nzisabira|Tierp
+C|384957|44|M|Krister Andersson|Tierp
+C|384958|64|K|Eva Berglund|64, pensionär, Tierp
+C|384959|51|K|Annie Pettersson|Örbyhus
+C|384960|38|M|Andreas Vestin|38, skolledare, Tierp
+C|384961|61|K|Anette Wilger|Örbyhus
+C|384962|68|K|Elisabeth Rosengren|68, pensionär, Tierp
+C|384963|66|K|Ulla Hjälm Karlsson|Skogsbo
+C|384964|67|M|Lasse Karlsson|67, vaktmästare, Tierp
+C|384965|61|K|Eva Ezim|Örbyhus
+C|384966|65|M|Bert Karlsson|Tierp
+C|384967|33|M|Mikael Skärlund|33, läkare, Tierp
+C|384968|54|K|Petra Runesdotter|Tierp
+C|403852|80|M|Lars-Göran Wadström|Yttrö

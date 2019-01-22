@@ -1,8 +1,134 @@
-2|242568|242569|245608|242571|242572|242573|242574|242575|242576|242577|242578|242579|242580|242581|242582|242583|242584|242585|242586|242587|242588|242589|242590|242591|242592|242593|242594|242595|242596|242597|242598|242599|242600|242601|242602|242603|242604|242605|242606|242607|242608
-4|47237|47238|47239|47240|38925|47242|47243|47244|33527|47246|47247|47248|47249|47250|47251|47252|47253|47254|47255|47256|47257|47258|47259|47260
-68|9181|9154|113654|113655|113656|113657|113658
-3|218022|156321|218024|218025|218026|218027|218028|218029|218030|218031|218032|218033|218034|218035|218036
-55|94561
-1|35824|36215|37334|35831|37336|37337|37338|37339|37340|37341|37342|37343|37344|37345
-110|36739|36740|36741|36742|36743
-5|298611|64087|71473|64091|63821|298616|298617|298618|298619|298620|298621
+T|Säter
+A|2|242568|242569|245608|242571|242572|242573|242574|242575|242576|242577|242578|242579|242580|242581|242583|242584|242585|242586|242587|242588|242589|242590|242591|242592|242593|242594|242595|242596|242597|242598|242599|242600|242601|242602|242603|242604|242605|242606|242607|242608
+A|4|47237|47238|47239|47240|38925|47242|47243|47244|33527|47246|47247|47248|47249|47250|47251|47252|47253|47254|47255|47256|47257|47258|47259|47260
+A|68|9181|9154|113654|113655|113656|113657|113658
+A|3|218022|156321|218024|218025|218026|218027|218028|218029|218030|218031|218032|218033|218034|218035|218036
+A|55|94561
+A|1|35824|36215|37334|35831|37336|37337|37338|37339|37340|37341|37342|37343|37344|37345
+A|110|36739|36740|36741|36742|36743
+A|5|298611|64087|71473|64091|63821|298616|298617|298618|298619|298620|298621
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|242568|55|M|Mats Nilsson|Färjeby
+C|242569|57|K|Maud Jones Jans|Ovangårdarna
+C|245608|53|M|Abbe Ronsten|Säter
+C|242571|39|K|Helena Andersson|Bispbergshyttan
+C|242572|71|M|Håkan Karlsson|Säter
+C|242573|59|K|Annika Karlsson|Säter
+C|242574|62|M|Hans-Göran Steneryd|Nämnsbo
+C|242575|25|K|Paulina Johansson|Säter
+C|242576|65|M|Torbjörn Orr|Havregärdet
+C|242577|60|K|Berith Lindgren|Ovangårdarna
+C|242578|24|M|Hassan Jafari|Badstugatan
+C|242579|72|K|Birgitta Sputnes|Mora By
+C|242580|71|M|Lennart Götesson|Åsen
+C|242581|51|K|Marianne Merenciana|Kyrkberget
+C|242583|52|K|Helena Selander|Borgmästarevägen
+C|242584|58|M|Tommy Janfjäll|Åsen
+C|242585|46|M|Kakis Ziliaskoudis|Nygårdarna
+C|242586|75|K|Birgit Kraft|Järnvägsgatan
+C|242587|41|M|Andreas Bertilsson|Solvarbo
+C|242588|30|K|Caroline Nilsson|Åsen
+C|242589|63|M|Abdullah Khaledian|Skogsparken
+C|242590|69|M|Horst Bodinger|Dalsbyn
+C|242591|76|M|Jan-Erik Steen|Enbacka
+C|242592|65|M|Tommy Alvik|Fäggeby
+C|242593|51|K|Ann-Margreth Lundin|Skenshyttan
+C|242594|59|M|Mats Hansson|Innerstaden
+C|242595|70|K|Lisbeth Ander|Innerstaden
+C|242596|70|M|Nils-Erik Unnerud|Åsen
+C|242597|26|M|Nima Khaledian|Siggebo
+C|242598|33|K|Belinda Mattsson|Solvarbo
+C|242599|67|M|Bo Floresjö|Åsen
+C|242600|54|M|Håkan Engberg|Arkhyttan
+C|242601|31|M|Erik Hedström|Kyrkberget
+C|242602|53|M|Tony Johansson|Finnbo
+C|242603|35|M|Sebastian Hagberg|Kullsveden
+C|242604|65|M|Rune Wigblad|Åsen
+C|242605|63|M|Benny Gifting|Burhagen
+C|242606|77|M|Bernt Skogbergs|Mora By
+C|242607|77|M|Börje Skogbergs|Mora By
+C|242608|67|M|Lars Hjorth|Bispbergshyttan
+C|47237|45|M|Hans Johansson|Stora Skedvi, Bygglovshandläggare
+C|47238|65|M|Sune Hemmingsson|Säter, Förbundschef
+C|47239|51|K|Ulrika Cederlöf|Stora Skedvi, Lärare
+C|47240|44|K|Anne-Marie Sandberg Ställ|Säter, Lärare
+C|38925|47|M|Niclas Bodin|Säter
+C|47242|38|M|Kristoffer Olerås|Stora Skedvi, Skogsinspektor
+C|47243|39|K|Karin Frejd|Stora Skedvi, Landskapsarkitekt
+C|47244|74|K|Annette Berg|Gustafs, Pensionär
+C|33527|47|M|Michael Arvidsson|Säter
+C|47246|62|M|Anders Olsson|Stora Skedvi, Civilekonom/Lärare
+C|47247|69|K|Kristina Hult|Stora Skedvi, Pensionär
+C|47248|48|M|Erik Herrmann|Gustafs, Vaktmästare
+C|47249|54|K|Helen Romsi|Säter, Omvårdnadsbiträde
+C|47250|55|M|Lars Eriksson|Gustafs, Lantbrukare
+C|47251|62|M|Östen Stenberg|Säter, Kyrkovaktmästare
+C|47252|59|K|Maj-Lis Norman|Säter, Elevassistent
+C|47253|53|M|Lars Fredriksson|Stora Skedvi, Arbetsförmedlare
+C|47254|75|K|Maj-lis Nyberg|Gustafs, Pensionär
+C|47255|73|M|Sven Frejd|Stora Skedvi, Pensionär
+C|47256|58|M|Bernhard Holmström|Säter, Lantbrukare
+C|47257|60|K|Lena Jansson|Gustafs, Personlig assistent
+C|47258|49|M|Nils Vinteus|Stora Skedvi, Snickare
+C|47259|53|M|Roland Wedberg|Stora Skedvi, Lantbrukare
+C|47260|67|K|Kerstin Hansson|Säter, Pensionär
+C|9181|44|M|Daniel Ericgörs|CNC-operatör, Gustafs
+C|9154|43|K|Helena Vådegård|lärare, Säter
+C|113654|69|M|Jan-Olof Wiklund|chaufför, Säter
+C|113655|70|K|Barbro Johansson|receptionist, Säter
+C|113656|77|K|Margareta Arthursson|ekonom, Silvberg
+C|113657|75|K|Yvonne Dahlberg|redovisningskonsult, Säter
+C|113658|74|M|Gunnar Hansson|snickare, Gustafs
+C|218022|57|K|Birgitta Gustafsson|Säter
+C|156321|27|K|Jonna Stenberg|Lastbilschaufför, 27 år, Säter
+C|218024|70|M|Håkan Gustâv|Säter
+C|218025|75|M|Göran Östman|Säter
+C|218026|41|M|Fredrik Andrén|Säter
+C|218027|71|K|Gunilla Bodegrim|Säter
+C|218028|83|M|Hans Otto Jönsson|Stora Skedvi
+C|218029|56|K|Maria Nyman|Säter
+C|218030|73|M|Ove Wik|Säter
+C|218031|79|M|Lars Gabrielsson|Säter
+C|218032|67|M|Anders Bohman|Säter
+C|218033|60|K|Hege Bothner Wik|Säter
+C|218034|66|M|Dag Fredrixon|Stora Skedvi
+C|218035|82|K|Mirja Nieminen Jönsson|Stora Skedvi
+C|218036|72|M|Hans Eskilsson|Säter
+C|94561|58|M|Magnus Gabrielson|Säter, IT-konsult
+C|35824|33|K|Caroline Willfox|33 år, egenföretagare, Säter
+C|36215|63|M|Roger Siljeholm|63 år, marknadsekonom, Säter
+C|37334|41|K|Malin Hedlund|
+C|35831|35|M|Leo Thorsell|35 år, egenföretagare, Säter
+C|37336|60|M|Christer Eriksson|
+C|37337|66|K|Ingeborg Björnbom|
+C|37338|66|M|Tommy Andersson|
+C|37339|48|K|Ulrika Åsåker|
+C|37340|52|M|Peter Engman|
+C|37341|69|K|Marie Richaud|
+C|37342|62|K|Pia Järudd|
+C|37343|44|M|Johan Fredriksson|
+C|37344|59|K|Monica Falk Mannerhagen|
+C|37345|61|K|Ann-Sofie Siljeholm|
+C|36739|44|K|Jenny Nordahl|Säter, Vårdbiträde
+C|36740|61|M|Roger Carlsson|Stora Skedvi, Chaufför
+C|36741|50|K|Marie Jakobsson|Driftpersonal, Säter
+C|36742|68|M|Rolf Printz|Gustafs, statsanställd
+C|36743|56|K|Marie Sundlöf|Säter, Vårdbiträde
+C|298611|29|K|Emma Sjöberg|Statsvetare, Stocksbro
+C|64087|62|M|Sten-Olof Eklund|Säter
+C|71473|65|K|Lena Stigsdotter|Säter, 65 år
+C|64091|52|M|Thomas Sjöberg|Säter
+C|63821|53|K|Fia Wikström|Säter, 53 år
+C|298616|61|M|Erik Kall|Överläkare, Stora Skedvi
+C|298617|37|K|Karin Malmkvist|Personlig assistent, Säter
+C|298618|58|M|Mikael Gustavsson Hästö|Behandlingspedagog, Gussarvshyttan
+C|298619|33|M|Johan Larsson|Lärare, Säter
+C|298620|52|M|Ulf Ek|Arbetare, Stora Skedvi
+C|298621|67|M|Leif Eriksson|Musiker, Säter

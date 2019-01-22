@@ -1,11 +1,259 @@
-2|208812|208813|70623|208815|97094|208817|97076|208819|208820|208821|208822|208823|208824|97081|208826|208827|208828|208829|208830|208831|208832|97097|208834|208835|208836|208837|208838|208839|208840|208841|208842|208843|208844|208845|208846|208847|208848|208849|208850|208851|208852|208853|208854|97089|208856|208857|208858|208859|208860|208861|208862|208863|97100|208865|208866|208867|208868|208869|208870|208871|208872|208873|208874|208875
-4|86918|171603|171605|84852|171607|86915|171609|76923|171611|171612|171613|171614|171615|171616|171617|171618|171619|171620|171621
-532|193425|193426|193427
-68|163418|163419|163420|163421|163422|341405|163424|163425|163426|163427|163428|163429|163430|163431|163432|163433|163434|163435|163436
-3|254445|254446|254447|254448|254449|254450|254451|254452|254453|254454|254455|254456|350746|254457|254458|254459|350750|254460|350752|353399|254461|350754|254462|254463|254464|254465|254466
-1296|512542
-55|239379|239380|239381|248158|239382|239383|239384|239385|239386|239387|239388|239389|239390|239391|239392|239393|239394|239395|239396|239397|239398
-1|25469|22863|12793|25472|22868|22882|25475|22872|25477|25478|25479|25480|25481|22891|25483|25484|25485|25486|25488|22887|25490|25491|25492|25493|25494|25495|25496|25497|25498|25499|25500|25501|25502|12818|25504
-110|150494|166338|166339|150540|150484|166343|166347|166348|166351|166352|166353|493661|166354|166355|166356|166357|166358|166359|166360|166361|166364
-5|217243|217244|217245|217246|217247|217248|217249|217250|217251|217252|217253|217254|217255|217256|217257|217258|217259|217260|217261|217262|217263|217264|217265
-1407|515642|515643|515644|515645
+T|Värmdö
+A|2|208812|208813|70623|208815|97094|208817|97076|208819|208820|208821|208822|208823|208824|97081|208826|208827|208828|208829|208830|208831|208832|97097|208834|208835|208836|208837|208838|208839|208840|208841|208842|208843|208844|208845|208846|208847|208848|208849|208850|208851|208852|208853|208854|97089|208856|208857|208858|208859|208860|208861|208862|208863|97100|208865|208866|208867|208868|208869|208870|208871|208872|208873|208874|208875
+A|4|86918|171603|171605|84852|171607|86915|171609|76923|171611|171612|171613|171614|171615|171616|171617|171618|171619|171620|171621
+A|532|193425|193426|193427
+A|68|163418|163419|163420|163421|163422|341405|163424|163425|163426|163427|163428|163429|163430|163431|163432|163433|163434|163435|163436
+A|3|254445|254446|254447|254448|254449|254450|254451|254452|254453|254454|254455|254456|350746|254457|254458|254459|350750|254460|350752|353399|254461|350754|254462|254463|254464|254465|254466
+A|1296|512542
+A|55|239379|239380|239381|248158|239382|239383|239384|239385|239386|239387|239388|239389|239390|239391|239392|239393|239394|239395|239396|239397|239398
+A|1|25469|22863|12793|25472|22868|22882|25475|22872|25477|25478|25479|25480|25481|22891|25483|25484|25485|25486|25488|22887|25490|25491|25492|25493|25494|25495|25496|25497|25499|25500|25501|25502|12818|25504
+A|110|150494|166338|166339|150540|150484|166343|166347|166348|166351|166352|166353|493661|166354|166355|166356|166357|166358|166359|166360|166361|166364
+A|5|217243|217244|217245|217246|217247|217248|217249|217250|217251|217252|217253|217254|217255|217256|217257|217258|217259|217260|217261|217262|217263|217264|217265
+A|1407|515642|515643|515644|515645
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+B|1407||Äkta demokrati
+C|208812|47|M|Mikael Lindström|47, Journalist, Gustavsbergs hamn
+C|208813|41|K|Andrine Winther|41, Politisk sakkunnig, Porslinskvarteren
+C|70623|38|M|Carl Kangas|38, Ekonom, Värmdö
+C|208815|58|K|Karin Voltaire|58, Näringslivschef, Djurö
+C|97094|69|M|Henrik Paulsen|69, Värmdö
+C|208817|24|K|Linda Nygren|24, Politisk sekreterare, Farstadal
+C|97076|58|M|Lars Bryntesson|58, Departementsråd, Värmdö
+C|208819|45|K|Cecilia Strömmer|45, PR-konsult, Hemmesta
+C|208820|45|M|Sandro Wennberg|45, Egenföretagare, Höjdhagen
+C|208821|75|K|Ann-Kristin Särnbrink|75, Lärare, Tjällmora
+C|208822|24|M|Saqar Mohssen|24, Student, Ängsvik
+C|208823|65|K|Ulla Staaf|65 Förskollärare, Lugnet
+C|208824|64|M|Jösta Claeson|64, Socialarbetare, Östra Ekedal
+C|97081|34|K|Julia Ekedahl Lotoft|34, Konsult, Värmdö
+C|208826|46|M|Magnus Danielsson|46, Hotelldirektör, Vik
+C|208827|43|K|Marielle Forstadius|43, Koordinator, Ängsvik
+C|208828|57|M|Robert Belving|57, Målare, Björnkärret
+C|208829|53|K|Ulrika Lundqvist|53, Lärare, Ösbydalen
+C|208830|27|M|Sam Assadi|27, Statsvetare, Porslinskvarteren
+C|208831|26|K|Disa Påhlman Tiwe|26, Undersköterska, Lugnet
+C|208832|70|M|Rolf Ellnebrand|70, Bokförläggare, Farstaviken
+C|97097|66|K|Anna-Lena Östman|66, Pensionär, Värmdö
+C|208834|26|M|Adam Påhlman Tiwe|26, Jurist, Lugnet
+C|208835|55|K|Ingalill Gustavsson|55, Förskolechef, Klacknäset
+C|208836|39|M|Ivar Forstadius|39, Projektansvarig, Gustavsberg
+C|208837|28|K|Malin Nilsson|28, Undersköterska, Ösbydalen
+C|208838|77|M|Nils-Erik Särnbrink|77, Socionom, Tjällmora
+C|208839|34|K|Cecilia Ramning|34, Förskolechef, Ekenäs
+C|208840|44|M|Arne Lindqvist|44, Forskare, Farstaviken
+C|208841|76|K|Aino Östergren|76, Konstnär, Höjdhagen
+C|208842|67|M|Jan Olsén|67, Naturbevakare, Nämdö
+C|208843|23|K|Tahmina Dawlat Muhammas|24, Språkstöd, Hästhagen
+C|208844|79|M|Lennart Karlsson|79, Pensionär, Farstadal
+C|208845|41|K|Karolina Krystek|Kommunikatör, Björnkärret
+C|208846|25|M|Niklas Henriksson|25, Student, Björnkärret
+C|208847|64|K|Karin Fahlén|64, Sjuksköterska, Fagerholm
+C|208848|18|M|Rufus Vårdstedt|18, Student, Hästhagen
+C|208849|42|K|Jennie Öhman|Lärarassistent, Charlottendal
+C|208850|70|M|Bo Hertz|70, Teknikchef, Ljung
+C|208851|68|K|Kerstin Bäcklund|68, Administratör, Porslinskvarteren
+C|208852|72|M|Kjell Thorngren|72, VD, Djurö
+C|208853|74|K|Ulla Olausson|74, Pensionär, Gustavsberg
+C|208854|67|M|Christer Sjölin|67, Försvarsanställd, Kopparmora
+C|97089|52|K|Annette Wikberger|52, Värmdö
+C|208856|74|M|August Boj|74, Informationschef, Djurö
+C|208857|19|K|Elvira Ribbing|19, Student, Gustavsbergs hamn
+C|208858|78|M|Joachim Vogel|78, Professor, Kopparmora
+C|208859|76|K|Eva Nordlander|76, Pensionär, Vik
+C|208860|73|M|Leif Sundh|73, Egenföretagare, Björnkärret
+C|208861|19|K|My Mileblom|19, Pedagogassistent, Styrmannen
+C|208862|44|M|Björn Fredblad|44, Miljösamordnare, Idalen
+C|208863|40|K|Aurora Gullberg|40, Kommunikatör, Brunn
+C|97100|50|M|Carl Landqvist|50, Värmdö
+C|208865|71|K|Maine Andersson|71, Egenföretagare, Kopparmora
+C|208866|59|M|Pär Simon Margulies|59, Skådespelare, Lillhagen
+C|208867|68|K|Ewa Jungbeck|68, Pensionär, Djurhamn
+C|208868|44|M|Farhad Jahanmihan|44, Doktorand, Gustavsberg
+C|208869|66|K|Inger Jalakas|66, Journalist, Porslinskvarteren
+C|208870|45|M|Patrik Pelosio|45, Föreläsare, Hemmesta
+C|208871|50|K|Therese Falk|50, Undersköterska, Djurö
+C|208872|53|M|Stefan Carlén|53, Chefsekonom, Gustavsberg
+C|208873|21|K|Olivia Fredriksson|21, Barn- och ungdomsledare, Brunn
+C|208874|78|M|Jan-Olof Landqvist|78, Industridesigner, Gustavsberg
+C|208875|46|K|Annika Andersson Ribbing|46, Politisk sakkunnig, Gustavsberg
+C|86918|46|K|Kristina Lång|46, Värmdö, Kommunikatör
+C|171603|26|K|Miranda Ahlers|26 år, Studerande, Evlinge
+C|171605|55|K|Anette Arebo|54 år, Diakon, Gustavsberg
+C|84852|63|K|Bisse Alm|63, Möja, Företagare
+C|171607|49|K|Malin Dohlwitz-Strindlund|49 år, VD, Civilekonom, Södernäs
+C|86915|76|M|Hans Lindqvist|76, Värmdö, Jurist
+C|171609|76|M|Lars Alenfalk|76 år, Pensionär, Gustavsberg
+C|76923|49|K|Kristina Lilliedrake|49, Värmdö, Företagare
+C|171611|35|M|Peter Berg|36 år, Musiker, Gustavsberg
+C|171612|33|M|Patrik Alm|33 år, Byggföretagare, Möja
+C|171613|21|M|Linus Lagerwall|21 år, Studerande, Möja
+C|171614|49|K|Anna Anderman|48 år, Väg- Och trafikchef, Hemmesta
+C|171615|43|K|Jessica Svensson|43 år, Företagare, Ingarö
+C|171616|47|M|Mattias Höglund|47 år, Civilekonom, Mörtnäs
+C|171617|75|M|Peter Zaunschirm|75 år, Civ.ingenjör, pensionär, Ingarö
+C|171618|77|K|Karin Nordblom|76 år, Rektor, Gustavsberg
+C|171619|69|M|Bengt Gyllemalm|69 år, Pensionär, Mörtnäs
+C|171620|63|K|Vera Berg|63 år, Företagare, Ingarö
+C|171621|77|K|Christina Svenby|76 år, Beteendevetare, Ingarö
+C|193425|36|M|Carl Emanuelsson|36, Värmdö, Lärare
+C|193426|57|K|Shukra Wall|57, Värmdö, Egen företagare
+C|193427|57|K|Carina Ståhl|58, Gustavsberg, Handläggare
+C|163418|46|K|Anna Lipinska|46, Affärsutvecklingschef, Värmdö
+C|163419|73|M|Per-Olof Fransson|73, Ingenjör, Ingarö
+C|163420|72|M|Ulf Kjellson|72, Fd. anstaltsdirektör, Grills Udde
+C|163421|28|K|Madeleine Stjernström|28, Kommunikatör, Värmdö
+C|163422|64|M|Peter Brännström|64, Managementkonsult, Löjvik
+C|341405|49|K|Cecilia Nilsson|49, Chefsjuksköterska, Värmdö
+C|163424|53|M|Stefan Dozzi|53, Generalsekreterare, Värmdö
+C|163425|55|K|Helene Reduthe|55, Kyrkomusiker/pedagog, Gustavsberg
+C|163426|63|M|Ulrik Lindgren|63, Legitimerad sjuksköterska, Ingarö
+C|163427|47|K|Yvonne Edenholm|47, PR-konsult, Ljung
+C|163428|58|M|Tomas Roovete|58, Civilekonom, Hagaberg
+C|163429|46|K|Cecilia Bergstrand|46, Friskvårdskonsulent, Ingarö
+C|163430|76|M|Jan Dolk|76, Pensionär, Hemmesta
+C|163431|68|K|Monica Fransson|68, Äldreomsorgschef, Ingarö
+C|163432|40|K|Marie Nyström|40, Undersköterska, Gustavsberg
+C|163433|24|M|Johannes Sulo|24, Försäkringsförmedlare, Gustavsberg
+C|163434|51|M|Anders Josephsson|51, Näringspolitisk expert, Värmdö
+C|163435|80|K|Marianne Essén|80, Fd. Reklamföretagare, Skevik
+C|163436|78|M|Sören Björlin|78, Fd. Församlingskassör, Djurhamn
+C|254445|53|M|Fredrik Sneibjerg|kommunalråd, Värmdö
+C|254446|34|K|Johanna Tegelstam|politisk sekreterare, Friden, Fågelbrolandet
+C|254447|53|K|Amie Kronblad|gymnasielärare, Värmdö
+C|254448|70|M|Anders Gullander|fd kommunalråd, Värmdö
+C|254449|75|M|Ulf Falkenberg|ombudsman, Fiskmyran, Ingarö
+C|254450|71|M|Lars Öhrman|pol mag, fd konsult, Djurö, Djurhamn
+C|254451|58|K|Mica Nordström|journalist, Ösbydalen, Gustavsberg
+C|254452|66|M|Lennart Ljungblom|civilingenjör, Munkmora, Gustavsberg
+C|254453|71|M|Anders Bergman|fd kommunalråd, Värmdö
+C|254454|72|M|Lars-Erik Wåhlström|pensionär, Lillängsdal, Ingarö
+C|254455|77|K|Ursula Magnusson|fd lärare,Ösbygrind, Gustavsberg
+C|254456|66|M|Jorge Tenorio|tandläkare, Brunn, Ingarö
+C|350746|63|M|Gary Baker|integrationskonsult, Holmviksskogen, Gustavsberg
+C|254457|45|M|Torbjörn Björk|företagare, Lillängsdal, Ingarö
+C|254458|58|K|Mita Hugdahl|företagare, Hästhagen, Gustavsberg
+C|254459|52|K|Eva Rosenthal|ekonom, Brunn, Ingarö
+C|350750|76|M|Juhani Inkinen|pensionär, Hemmesta, Värmdö
+C|254460|72|K|Monica Andersson|fd försäljningschef, Prästmaren, Djurhamn
+C|350752|50|M|Lars Kronblad|IT-chef, Farsta slottsvik, Gustavsberg
+C|353399|27|K|Elisabeth Goldman|studerande, Grisslinge, Värmdö
+C|254461|74|M|Jan Andersson|fd VD, Prästmaren, Djurhamn
+C|350754|65|K|Lillemor Gullander|projektledare, Bullandö/Möja
+C|254462|47|K|Sarah Åhlén|projektledare, Torsby, Värmdö
+C|254463|49|K|Åsa Szekely Björndal|med dr mikrobiolog, Mörtnäs, Värmdö
+C|254464|71|K|Elisabet Bjurner|grafisk formgivare, Porslinskvarteren, Gustavsberg
+C|254465|64|M|Lars-Gunnar Lööf|programchef, Mörtnäs, Värmdö
+C|254466|65|K|Barbro Bergman|fd bankdirektör, Eknäs, Ingarö
+C|512542|53|K|Marie Warrener|
+C|239379|45|M|Filip Joelsson|45, programmerare, Värmdö
+C|239380|45|K|Hanna Thorell|Civilekonom
+C|239381|72|K|Siv Strömbäck|72, familjeterapeut, Värmdö
+C|248158|45|M|Thomas Taylor|Simhallschef
+C|239382|73|K|Ulla Bjöörn|Psykolog
+C|239383|32|K|Pauline Gyllengahm|Organisationssekreterare/kommunikatör
+C|239384|59|K|Anneli Rönnblom|Projektledare
+C|239385|43|M|Fredrik Alzén|Brevbärare
+C|239386|37|M|Andreas Engberg|Arkitekt/egen företagare
+C|239387|79|M|Roberth Forsberg|Pensionär
+C|239388|71|K|Anna Hertting|Hälsovetare
+C|239389|46|M|Preben Rydin|Affärsutvecklare
+C|239390|62|M|Gunnar Lind|Politiskt sakkunnig
+C|239391|41|M|Mikael Aldeheim|Arbetschef
+C|239392|40|M|Jesper Grip|Handläggare, Stockholms stad
+C|239393|68|K|Turid Stenhaugen|Förtroendevald landstingsrevisor
+C|239394|77|K|Gunnel Avehag|Pensionär
+C|239395|48|M|Patrik Palm|Säljare
+C|239396|51|K|Maria Bergström|Enhetschef
+C|239397|42|K|Mari Thunberg|HR-specialist
+C|239398|27|K|Aleese Rydlund Cheatham|Teamchef
+C|25469|39|K|Deshira Flankör|39, Kommunstyrelseordförande, Värmdö
+C|22863|48|K|Marie Bladholm|48, Kommunalråd
+C|12793|26|K|Jasmin Farid|26, Landstingsrådssekreterare
+C|25472|66|M|Lars-Erik Alversjö|66, Pensionär, Värmdö
+C|22868|46|K|Cecilia Lindberg|46, Specialpedagog
+C|22882|63|M|Kent Eriksson|63, Entreprenör
+C|25475|24|M|Markus Schill|24, Student, Gustavsberg
+C|22872|44|K|Malin Bellander|44, Rektor
+C|25477|54|M|Rogier Krona|54, Företagare, Ingarö
+C|25478|21|K|Sara Farid Moghaddam|21, Student, Ingarö
+C|25479|72|K|Ann Fylkner|72, Senior, Ingarö
+C|25480|43|M|Fredrik Zetterberg|43, Försäljningsansvarig, Värmdö
+C|25481|64|K|Kerstin Öhman Moberg|64, fd Egenföretagare, Nämdö
+C|22891|53|M|Mickael Sjökvist|53, Platschef
+C|25483|69|K|Ulla Britt Goldberg|69, Pensionär, Ingarö
+C|25484|74|M|Björn Ulfvin|74, Ingenjör, Stavsnäs
+C|25485|77|K|Camilla Lien|77, Pensionär, Värmdö
+C|25486|46|M|Ulf Westerberg|46, Egenföretagare, Möja
+C|25488|71|K|Kinga Jakobsson Hernborg|71, Senior, Ingarö
+C|22887|60|M|Thomas Jonsson|60, Civilekonom
+C|25490|59|K|Affi Stork|59, Projektledare, Gustavsberg
+C|25491|75|M|Kurt R Lindgren|75, Högskolelärare , Gustavsberg
+C|25492|73|K|Irene Ulfvin|73, Förskolerektor, Stavsnäs
+C|25493|50|K|Annie Stenfeldt|50, Anestesisjuksköterska, Värmdö
+C|25494|43|K|Jessie Wall Freyne|43, Ekonom, Värmdö
+C|25495|69|K|Kerstin Egerblom|69, Informatör , Ingarö
+C|25496|49|K|Christina Röisland-Aanensen|49, Marknadschef, Värmdö
+C|25497|60|K|Ellinor Avsan|60, Egenföretagare, Värmdö
+C|25499|60|M|Kjell Lindergård|60, Rekryterare, Värmdö
+C|25500|48|M|Magnus Nordberg|48, Projektchef, Värmdö
+C|25501|59|K|Ulla Pihlvang|59, Lärare, Ingarö
+C|25502|69|M|Bo Egerblom|69, Eltekniker, Ingarö
+C|12818|48|M|Patrik Nordlund|48, IT-konsult
+C|25504|55|M|Tomas Ekengren|55, Egenföretagare, Ingarö
+C|150494|57|M|Thorulf Empfevik|57, servicetekniker, Värmdö
+C|166338|52|M|Ove Karlsson|52, civilekonom, Värmdö
+C|166339|53|K|Lise Empfevik|53, ekonom, Värmdö
+C|150540|56|M|Håkan Johansson|56, tekniker, Värmdö
+C|150484|70|M|Christer Löfving|70, pensionär, Värmdö
+C|166343|56|K|Annika Bergsten|57, civilekonom, Ingarö
+C|166347|57|K|Tinna Smith|57, illustratör, Värmdö
+C|166348|37|M|Robert Öberg|37, platschef, Värmdö
+C|166351|67|K|Hillevi Andersen|67, pensionär, Värmdö
+C|166352|47|M|Linus Sjöberg|47, music manager, Möja
+C|166353|35|M|Rickard Edmund|35, affärskonsult, Värmdö
+C|493661|59|M|Michael Grau|59, egenföretagare, Ingarö
+C|166354|51|M|Timo Elonen|51, Stavsnäs
+C|166355|32|M|Niklas Ylikoski|32, Värmdö
+C|166356|55|M|Lennart Engström|55, Ingarö
+C|166357|41|M|Robert Christell|41, Ingarö
+C|166358|40|K|Anita Elonen|40, Stavsnäs
+C|166359|55|M|Martin Svallner|55, Gustavsberg
+C|166360|53|K|Yvonne Ankersjö|53, kökschef, Värmdö
+C|166361|65|M|Åke Löfstrand|64, sjukpensionär, Värmdö
+C|166364|73|M|Lars Ringblom|73, pensionär, Värmdö
+C|217243|75|M|Mats Skoglund|Gustavsberg, pensionär
+C|217244|30|K|Liv Simonssen|Gustavsberg, politisk sekreterare
+C|217245|59|K|Helena Valentin|Humanist
+C|217246|70|M|Bertil Krakenberger|Miljökemist
+C|217247|32|K|Ellen Brink|Folkhögskollärare
+C|217248|66|K|Agneta Emeryd|Distriktssköterska
+C|217249|58|M|Mohsen Borudjerdi|Hissreparatör
+C|217250|38|K|Angela Djurfelter|Lärare
+C|217251|46|M|Immo Schröder|Klassisk sångare
+C|217252|39|K|Lina Tillema|Lärare
+C|217253|61|M|Per-Olof Palmèr|Fabriksarbetare
+C|217254|87|K|Berit Grundström|Pensionär
+C|217255|73|M|Werner Schmidt|Professor emeritus Historiker
+C|217256|74|K|Kerstin Lindstål|Pensionär
+C|217257|38|M|Christian Camp Sörensen|Samordnare
+C|217258|52|K|Susanne Ceverell|Pedagog
+C|217259|48|K|Carolina Falk|Statsvetare
+C|217260|66|K|Inger Krarup|Pensionär
+C|217261|69|M|Leif Pettersson|Pensionär
+C|217262|39|K|Åsa Grath|Lärare
+C|217263|76|K|Helena Skagerberg|Pensionär
+C|217264|85|K|Berit Sjögren|Pensionär
+C|217265|30|M|Charlie Bergkvist|Elektriker
+C|515642|53|K|Kerstin Jangeby|
+C|515643|46|M|Lars Inge Thomas Nilsson|
+C|515644|37|M|Daniel Sörlöv|
+C|515645|41|M|Rasmus Norling|

@@ -1,8 +1,146 @@
-2|192120|193445|193485|200159|200160|200161|193432|193456|200164|200165|193486|200167|193487|200169|200170|200171|200172|200173|200174|200175|200176|200177|200178|200179|200180|200181|193488|200183|200184|200185|200186|200187|200188|200189|200190|200191|200192|200193
-4|71058|71059|71061|71060|71062|48797|71064|71065|71066|71067|71068|71069|49262|71071|71072|71073|71074|71075|71076|71077|71078|71079|71080|71081|71082|71083|71084|71085|71086|49270|71088|71089
-68|5848|5829|324251|324252|324253|324254|324255|324256|324257|324258|324259|324260|324261|324262|324263|324264
-3|60877|78940|78941|78942|78943|78944|78945
-55|353922|353923|353924|353925|353926|353927|353928|353929
-1|7789|67697|67698|67699|67700|67701|67702|67703|67704|67705|67706
-110|74390|74391
-5|375409|375410|375411|375412|375413|375414|375415|375416|375417|375418|375419|375420|375421|375422|375423
+T|Vännäs
+A|2|192120|193445|193485|200159|200160|200161|193432|193456|200164|200165|193486|200167|193487|200169|200170|200171|200172|200173|200174|200175|200176|200177|200178|200179|200180|200181|193488|200183|200184|200185|200186|200187|200188|200189|200190|200191|200192|200193
+A|4|71058|71059|71061|71060|71062|48797|71064|71065|71066|71067|71068|71069|49262|71071|71072|71073|71074|71075|71076|71077|71078|71079|71080|71081|71082|71083|71084|71085|71086|49270|71088|71089
+A|68|5848|5829|324251|324252|324253|324254|324255|324256|324257|324258|324259|324260|324261|324262|324263|324264
+A|3|60877|78940|78941|78942|78943|78944|78945
+A|55|353922|353923|353924|353925|353926|353927|353928|353929
+A|1|7789|67697|67698|67699|67700|67701|67702|67703|67704|67705|67706
+A|110|74390|74391
+A|5|375409|375410|375411|375412|375413|375414|375415|375416|375417|375418|375419|375420|375421|375422|375423
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|192120|62|M|Johan Söderling|62 år, Slöjdlärare, Vännäs
+C|193445|63|K|Sonja Eriksson|63 år, Enhetschef, Vännäs
+C|193485|62|M|Leif Andersson|62 år, Målare, Vännäsby
+C|200159|68|K|Lena Carneland|68 år, Pensionär, Ockelsjö
+C|200160|36|M|Andreas Bengtsson|36 år, Lärare, Vännäs
+C|200161|50|K|Susanne Bygdén|50 år, Biomedicinskanalytiker, Tväråbäck
+C|193432|67|M|Per-Erik Lundmark|67 år, Lokförare, Vännäs
+C|193456|51|K|Sofie Gustafsson|51 år, Idrottskonsulent, Vännäs
+C|200164|78|M|Kjell Holmlund|79 år, f.d Linjemästare, Klintsjö
+C|200165|44|K|Linda Unge|44 år, Förskollärare, Vännäs
+C|193486|46|M|Jörgen Nilsson|46 år, Vännäs
+C|200167|50|K|Lillemor Lundgren|50 år, Boendehandledare, Vännäs
+C|193487|33|M|Peter Sohlman|33 år, Sjuksköterska, Vännäs
+C|200169|69|K|Signild Norrman|69 år, f.d. Sjuksköterska, Vännäsby
+C|200170|63|M|Jerry Persson|63 år, Herr, Vännäs
+C|200171|62|K|Berit Persson|62 år, Handläggare, Pengsjö
+C|200172|63|M|Henric Jakobsson|63 år, Lärare, Ytterkolksele
+C|200173|67|K|Anna-Stina Ögren|67 år, Distriktssköterska, Vännäs
+C|200174|69|M|Peder Lundberg|69 år, Pensionär, Vännäs
+C|200175|68|K|Ewa Wiklund Jonsson|68 år, Skolledare, Vännäs
+C|200176|60|M|Lars Paulsson|60 år, Pensionär, Vännäs
+C|200177|45|K|Anna Frej|45 år, Sektionschef, Vännfors
+C|200178|35|M|Andreas Molin|35 år, Målare, Vännäs
+C|200179|53|K|Erika Forsvall|53 år, Präst, Vännäs
+C|200180|40|M|Leif Högbom|40 år, Maskinoperatör, Vännäs
+C|200181|55|K|Margaretha Rehnberg|55 år, Präst, Vännäs
+C|193488|53|M|Hans Granberg|53 år, Undersköterska, Vännäs
+C|200183|62|K|Marie Wiklund-Eriksson|62 år, Handläggare, Vännäs
+C|200184|55|M|Stig Hörnqvist|55 år, Arbetsledare, Vännäs
+C|200185|79|K|Birgit Lundberg|79 år, f.d Förskollärare, Vännäs
+C|200186|70|M|Jan Samuelsson|70 år, Pensionär, Vännäs
+C|200187|71|K|Inger Sandberg|71 år, f.d. Tandsköterska, Vännäs
+C|200188|39|M|Andreas Eriksson|39 år, Bantekniker, Vännäs
+C|200189|59|M|Michael Björk|59 år, Arbetshandledare, Vännäs
+C|200190|79|M|Björn Hansson|79 år, Pensionär, Vännäs
+C|200191|80|M|Nils-Erik Holm|80 år, Posttjänsteman, Vännäsby
+C|200192|84|M|Arne Lindberg|84 år, f.d. Elområdeschef, Vännäs
+C|200193|85|M|Tore Folkesson|85 år, Herr, Vännäs
+C|71058|69|M|Ulf Eriksson|69 år, oppositionsråd, Orrböle
+C|71059|50|K|Sofia Blomquist|50 år, jägmästare, Pengsjö
+C|71061|34|K|LottaKarin Trysberg|33 år, lärare, Vännäsby
+C|71060|35|M|Erik Fastevik|35 år, ingenjör, Berg
+C|71062|60|M|Tommy Bingebo|59 år, lokförare, Vännäs
+C|48797|61|M|Sixten Jonsson|61 år, Lantbrukare, Vännäs
+C|71064|52|K|Ingmarie Lindqvist|51 år, socionom, Pengfors
+C|71065|53|M|Anders Nilsson|52 år, lantbrukare, Ö. Selet
+C|71066|30|M|Fredrik Jakobsson|29 år, chaufför, Hällfors
+C|71067|56|K|Monica Höök|55 år, ek. handläggare, Vännäs
+C|71068|37|K|Hanna Lundberg|34 år, ekonom, Pengfors
+C|71069|33|M|Thomas Moberg|32 år, transportledare, Vännäsby
+C|49262|54|K|Maria Olofsson|54 år, Läkemedelstekniker, Vännäs
+C|71071|78|M|Åke Sandström|77 år, tid.riksdagsledamot, Pengsjö
+C|71072|63|K|Ellinor Lundberg|62 år, boendehandledare, Norrmalm
+C|71073|65|M|Hans Nygren|64 år, tekn.officer, Hällnäs
+C|71074|68|K|Margareta Vigren|67 år, tid.arbetsledare, Vännäsby
+C|71075|67|M|Bertil Burén|67 år, ekonom, Vännäsby
+C|71076|51|K|Annika Jansson|51 år, enhetschef, Marahällan
+C|71077|30|M|Daniel Strand|29 år, maskinförare, V.Spöland
+C|71078|72|K|Anna-Britt Lindberg|71 år, tid.tandsköterska, Vännäs
+C|71079|58|M|Roland Folkesson|57 år, företagare, Hemberget
+C|71080|62|M|Leif Lindgren|61 år, lantbrukare, Ö.Spöland
+C|71081|33|M|Nils Östgård|32 år, driftchef, Tobacka
+C|71082|47|M|Leif Eriksson|46 år, lantbrukare, Högås
+C|71083|28|M|Anders Nilsson|28 år, vvs-montör, Vännäs
+C|71084|28|M|Mattias Eriksson|27 år, företagare, V.Vännfors
+C|71085|60|M|Anders Wonkavaara|60 år, klövvårdare, V.Selet
+C|71086|31|M|Torbjörn Bingebo|30 år, företagare, Vännäs
+C|49270|69|M|Roger Larsson|69 år, Psykolog, Vännäs
+C|71088|25|M|Malte Andersson|25 år, programmerare, Vännäs
+C|71089|60|M|Lennart Fransson|59 år, företagare, Vännäs
+C|5848|41|K|Ailen Andersson|lärare, Vännäs
+C|5829|55|M|Hans-Inge Smetana|ekonom, Vännäs
+C|324251|40|K|Anna-Lena Wester|lärare, Vännäs
+C|324252|61|M|Martin Hermansson|anläggare, Pengsjö
+C|324253|41|M|Johan Andreasson|regionchef, Vännfors
+C|324254|58|K|Runa Hermansson|sjuksköterska, Pengsjö
+C|324255|34|M|Fredrik Smetana|pastor, Vännäs
+C|324256|48|K|Ann-Charlotte S. Selander|lärare, Vännäs
+C|324257|60|M|Ola Öhman|tidningsbud, Vännäsby
+C|324258|50|K|Johanna Holmberg|butiksägare, Vännäs
+C|324259|54|K|Ann-Christin S Apel|förskollärare, Vännäs
+C|324260|77|M|Håkan Svensson|busschaufför, Vännäs
+C|324261|36|K|Theresze Hörnkvist|hemmaförälder, Vännäs
+C|324262|58|K|Birgitta Ödling|lärare, Vännäs
+C|324263|43|K|Maria Andreasson|undersköterska, Vännfors
+C|324264|73|K|Inger Thysell|sjuksköterska, Vännäs
+C|60877|46|K|Monica Wahlström|Vännäs
+C|78940|49|K|Annelie Moström|Vännäs
+C|78941|61|K|Ulla-Britt Engström-Andersson|Vännäs
+C|78942|69|M|Lars Ågren|Vännäs
+C|78943|64|M|Anders Lennartson|Vännäs
+C|78944|59|M|Josep Junyent|Vännäs
+C|78945|68|M|Lars-Göran Brandt|Vännäs
+C|353922|52|M|Krister Andersson|52 år, Gymnasielärare, Vännäs
+C|353923|45|K|Emma Vidmark|45 år, Biolog, Vännäs
+C|353924|59|K|Eva Willebrand|Pengsjö
+C|353925|39|K|Emma Lindqvist|39 år, Politisk sekreterare, Vännäs
+C|353926|58|K|Cecilia Palmborg|Brån
+C|353927|49|K|Cecilia Norberg|Strand
+C|353928|72|K|Gunilla Jämte|Mosjö
+C|353929|63|M|Patrik Dufweke|Vännäs
+C|7789|59|M|Jan Nilsson|59, utvecklingsledare, Vännäs
+C|67697|74|M|Gösta Eklund|74, civilingengör, Vännäsby
+C|67698|56|K|Agneta Nilsson|56, specialpedagog, Vännäsby
+C|67699|47|M|Christer Wirth|47, säljare, Östra Spöland
+C|67700|63|K|Susan Palm|63, elevassistent, Vännfors
+C|67701|70|M|Carl-Johan Palm|70, pensionär, Vännfors
+C|67702|72|M|Ingemar Helgesson|72, pensionär, Vännäs
+C|67703|46|K|Ann-Charlotte Wirth|46, civilekonom, Östra Spöland
+C|67704|41|M|Magnus Zingmark|41, egen företagare, Östra Spöland
+C|67705|74|K|Lissie Eklund|74, försäkringsutredare, Vännäsby
+C|67706|38|M|Anton Ågren|38, försäljningschef, Brån
+C|74390|37|K|Emma Lundkvist|37, lokalvårdare
+C|74391|65|K|Ann Einerud|Vännäs, 64
+C|375409|47|K|Viktoria Lapinniemi|Lärare
+C|375410|59|M|Per Nyström|Järnvägstjänsteman
+C|375411|54|K|Bitte Torbjörnsdotter|Journalist
+C|375412|34|M|Bengt-Erik Näslund|Elektriker
+C|375413|32|K|Sandra Norrman|Stud. grundlärare
+C|375414|43|M|Magnus Jälmbrant|Medicinteknisk ingenjör
+C|375415|32|K|Hanna Lindberg|Intensivvårdssjuksköterska
+C|375416|65|M|Leif Åman|Lärare
+C|375417|36|M|Tom Norrman|Lärare
+C|375418|30|K|Cecilia Arvidsson Almberg|Personalplanerare
+C|375419|46|M|Peter Jatko Oskarsson|Lärare
+C|375420|52|M|Charlie Svedmark|Rektor
+C|375421|54|K|Barbro Ulriksson|Socionom
+C|375422|54|M|Örjan Jalava|Reparatör
+C|375423|68|M|Erik Bäckström|Lokförare

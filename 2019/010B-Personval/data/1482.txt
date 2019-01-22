@@ -1,12 +1,273 @@
-2|148455|148456|148457|148458|148459|148460|148461|148462|148463|148464|148465|148466|148467|148468|148469|148470|148471|148472|148473|148474|148475|148476|148477|148478|148479|148480|148481|148482|148483|148484|148486|148487|148488|148489|148490|148491|148492|148493|148494|148495|148496|148497|148498|148499|148500|148501|148502|148503|148504|148505|148506|148507|148508|148509|148510|148511|148512|148513|148514
-4|137755|137756|137757|137758|137759|137760|137761|137762|137763|137764|137765|137766|137767|137768|137769|137770|137771|137772|137773|137774|137775
-532|219339
-68|247402|247403|247404|247405|247406|247407|247408|247409|247410|247411|247412|247413|247414|247416|247415
-3|276763|276764|276765|276766|276767|276768|276769|276770|276771|276772|276773|276774|276775|276776|276777|276778|276779|276780|276781|276782|276783|276784|276785
-1296|259847
-55|76560|76561|76562|76563|76564|76565|76566|76567
-1|253912|255830|253922|255832|255833|255834|253933|255836|255837|255838|255839|253925|253928|255842|254190|255844|255845|255846|255847|255848|255849|255850|255851|255852|255853|255854|255855|255856|255857|255858|255859|255860|255861|255862|255863|254147|255865|255866|255867|255868
-1273|394197|435342
-110|59825|59826|59827|59829|59830|59831|59832|59833|59834|59835|59836|59838
-978|210072|210073|210074|206519|210076|210077|210078|210079|210071|210080|210081|210082|210083|210084|210085|210086|210087|210088|366894|216831|216832|216833|216834|304563|216835|216836|216837|216838|216839|216840|269615|269616|269617|366909|269618|269619|269620|269621|269622|366915|305429|269623|269625|269626|269627|269628|269629|269630|269631
-5|160738|184022|162916|184024|184025|184026|184027|184028|184029|184030|184031|184032|184033|184034|184035|184036|184037
+T|Kungälv
+A|2|148455|148456|148457|148458|148459|148460|148461|148462|148463|148464|148465|148466|148467|148468|148469|148470|148471|148472|148473|148474|148475|148476|148477|148478|148479|148480|148481|148482|148483|148484|148486|148487|148488|148489|148490|148491|148492|148493|148494|148495|148496|148497|148498|148499|148500|148501|148502|148503|148504|148505|148506|148507|148508|148509|148510|148511|148512|148513|148514
+A|4|137755|137756|137757|137758|137759|137760|137761|137762|137763|137764|137765|137766|137767|137768|137769|137770|137771|137772|137773|137774|137775
+A|532|219339
+A|68|247402|247403|247404|247405|247406|247407|247408|247409|247410|247411|247412|247413|247414|247416|247415
+A|3|276763|276764|276765|276766|276767|276768|276769|276770|276771|276772|276773|276774|276775|276776|276777|276778|276779|276780|276781|276782|276783|276784|276785
+A|1296|259847
+A|55|76560|76561|76562|76563|76564|76565|76566|76567
+A|1|253912|255830|253922|255832|255833|255834|253933|255836|255837|255838|255839|253925|253928|255842|254190|255844|255845|255846|255847|255848|255849|255850|255851|255852|255853|255854|255855|255856|255857|255858|255859|255860|255861|255862|255863|254147|255865|255866|255867|255868
+A|1273|394197|435342
+A|110|59825|59826|59827|59829|59830|59831|59832|59833|59834|59835|59836|59838
+A|978|210072|210073|210074|206519|210076|210077|210078|210079|210071|210080|210081|210082|210083|210084|210085|210086|210087|210088|366894|216831|216832|216833|216834|304563|216835|216836|216837|216838|216839|216840|269615|269616|269617|366909|269618|269619|269620|269621|269622|366915|305429|269623|269625|269626|269627|269628|269629|269630|269631
+A|5|160738|184022|162916|184024|184025|184026|184027|184028|184029|184030|184031|184032|184033|184034|184035|184036|184037
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|1273|NMR|Nordiska motståndsrörelsen
+B|110|SD|Sverigedemokraterna
+B|978|UtvP|Utvecklingspartiet
+B|5|V|Vänsterpartiet
+C|148455|50|M|Miguel Odhner|Utbildningschef, Harestad
+C|148456|43|K|Erika Sjöblom|Undersköterska, Kareby
+C|148457|20|M|Assar Wixe|studerande, Kungälv
+C|148458|59|K|Ingela Rossi|fritidsledare, Kungälv
+C|148459|53|M|Johan Holmberg|Lärare, Harestad
+C|148460|41|K|Pia Gillerstedt|arkeologistuderande, Kungälv
+C|148461|41|M|Jonas Andersson|ingenjör, Kungälv
+C|148462|41|K|Linda Åshamre|lärare, Kungälv
+C|148463|61|M|Nils Carlson|Hotellägare, Marstrand
+C|148464|51|K|Susanne Jönsson|undersköterska, Kungälv
+C|148465|36|M|Fredrik Schandorff|förman, Kungälv
+C|148466|53|K|Helén Byström|förtroendevald Kommunal, Kungälv
+C|148467|65|M|Lennart Martinsson|Kyrkogårdsarbetare, Romelanda
+C|148468|48|K|Ulrika Winblad|Personlig assistent, Kungälv
+C|148469|68|M|Bernt Lundborg|fd snickare, Kungälv
+C|148470|57|K|Birgitta Jähnke|Distributör, Kungälv
+C|148471|69|M|Lars-Gunnar Andersson|Posttjänsteman, Ytterby
+C|148472|50|K|Maria Steen|HR-administratör, Kungälv
+C|148473|65|M|Leif Håkansson|Ombudsman, Kungälv
+C|148474|69|K|Mona Haugland|S.t Undersköterska, Kungälv
+C|148475|62|M|Billy Kaldemark|Chaufför, Hålta
+C|148476|68|K|Ulla Johansson|Pensionär, Marstrand
+C|148477|49|M|Fredrik Gullbrantz|affärsbiträde, Kungälv
+C|148478|48|K|Ulrica Brogren|Lärare för yngre åldrar, Kungälv
+C|148479|33|M|Parker Ayewubo|Behandlingsassistent, Kungälv
+C|148480|19|K|Emmy Hansson|Restaurangbiträde, Studerande, Kungälv
+C|148481|67|M|Mats Frisell|pensionär, Kungälv
+C|148482|49|K|Kathrine Månsson|Tulltjänsteman, Ytterby
+C|148483|53|M|Tomas Emanuelsson|Ombudsman Byggnads, Ytterby
+C|148484|50|K|Kristina Svärd Johansson|Speciallärare, Harestad
+C|148486|52|K|Maria Sparringsjö|Personalhandläggare, Ytterby
+C|148487|23|M|Niklas Göransson|Säljare, Hålta
+C|148488|48|K|Camilla Haag|Undersköterska, Kungälv
+C|148489|58|M|Liban Wehlie|Biokemist, Kungälv
+C|148490|58|K|Medina Grbic´|Sjukpensionär, Kareby
+C|148491|57|M|Ove Johansson Winblad|Tapetsör, Kungälv
+C|148492|74|K|Yvonne Byberg|Fd. Undersköterska, Kungälv
+C|148493|34|M|Mikael Hedström|Industriarbetare, Kungälv
+C|148494|42|K|Linda Lengstrand|Undersköterska, Kärna
+C|148495|53|M|Björn Brogren|Metallarbetare, Kungälv
+C|148496|54|K|Carina Emanuelsson|Gruppchef, Ytterby
+C|148497|46|M|Peter Gustafsson|Truckförare, Ytterby
+C|148498|19|K|Isabella Brogren|Undersköterska, Kungälv
+C|148499|60|M|Anders Lökholm|Glasmästare, Kärna
+C|148500|64|K|Inkeri Håkansson|Pensionär, Kungälv
+C|148501|46|M|Joakim Ericson|Lantmästare, Kungälv
+C|148502|39|K|Maria Jansson|Manufacturing Engineer, Kärna
+C|148503|71|M|Kjell-Åke Åkesson|Föreningslivet, Kungälv
+C|148504|71|K|Gun Abrahamsson|ML Forskningslaborant, Kungälv
+C|148505|67|M|Bert Bohlin|Pensionär, Kareby
+C|148506|42|K|Jeanette Johansson|Vårdbiträde, Kungälv
+C|148507|76|M|Bengt Å. Andersson|Kemist, Harestad
+C|148508|34|K|Carin Gerefalk|Materialkoordinator, Kärna
+C|148509|68|M|Ulf Österman|Fd. Hantverkare, Harestad
+C|148510|57|K|Marie Skruf|Boendestödjare, Lycke
+C|148511|73|K|Mona-Britt Gillerstedt|Fd. Distriktssköterska, Kungälv
+C|148512|54|K|Helene Ljungkvist|Lärare, Marstrand
+C|148513|41|K|Paula Eklund|Kommunikatör, Ytterby
+C|148514|71|K|Lena Schandorff|Pensionär, Kungälv
+C|137755|53|M|Ove Wiktorsson|53 år, snickare, Kungälv
+C|137756|59|K|Lena Bjurström|59, kreatör, Kungälv
+C|137757|63|M|Patrik Renström|63, energiexpert, Kungälv
+C|137758|41|K|Jenny Alvstråle|entreprenör, Tjuvkil
+C|137759|65|M|Hans Torwald|lärare, Kungälv
+C|137760|71|M|Kenneth Frii|ingenjör, Kungälv
+C|137761|53|M|Anders Johansson|planeringsstrateg, Harestad
+C|137762|70|M|Kurt Olsson|posttjänsteman, Solberga
+C|137763|39|M|Ronny Persson|ITchef, Kungälv
+C|137764|26|K|Isabella Carneström Edman|jurist, Kärna
+C|137765|60|K|Barbro Franksson|kock, Hålta
+C|137766|72|M|Lennart Kristiansson|73 år, ekonom, Kungälv
+C|137767|81|K|Rose-Marie Stenman|pensionär, Marstrand
+C|137768|60|M|Gunnar Arnesson|landsbygdsföretagare, Kode
+C|137769|72|M|Kent Bengtsson|ekonom, Kungälv
+C|137770|66|M|Dane Carlsson|lantbrukare, Kareby
+C|137771|81|K|Birgitta Larsson|pensionär, Kärna
+C|137772|65|M|Roger Boström|65 år, VD, Kungälv
+C|137773|72|K|Monica Larsson|barnskötare, Kode
+C|137774|74|K|Lilian Kristiansson|pensionär, Kärna
+C|137775|48|M|Martin Gustavsson|filosofie doktor, Hålta
+C|219339|51|K|Maria Svensson|51år, Specialpedagog, Kungälv
+C|247402|59|K|Gun-Marie Daun|Samhällsvägledare, Kungälv
+C|247403|52|M|Lars Pehrson|52 år, Kärna
+C|247404|71|K|Anne-Christin Engwall|71 år, Kungälv
+C|247405|35|M|Fredrik Daun|35 år, Kungälv
+C|247406|58|K|Ilona Waern|58 år, Kungälv
+C|247407|58|M|Fredric Thomasson|58 år, Kungälv
+C|247408|45|K|Emilia Forslund|Barnmorska, Romelanda
+C|247409|32|M|Erik Pilbom|32 år, Kärna
+C|247410|35|K|Johanna Salekärr|35 år, Kärna
+C|247411|74|M|Stig Jarlby|74 år, Kungälv
+C|247412|69|M|Tord Nordblom|69 år, Ytterby
+C|247413|21|M|Johan Björnhager|21 år, Marstrand
+C|247414|55|M|Anders Persson|55 år, Marstrand
+C|247416|20|K|Hanna Daun Arehammar|20 år, Kungälv
+C|247415|31|K|Madelene Daun|31 år, Kungälv
+C|276763|50|K|Elisabeth Mattsson|50, lärare, Kungälv
+C|276764|52|M|Jan Tollesson|52, säljare, Kungälv
+C|276765|36|K|Matilda Jansson|36, utvecklingsledare, Kungälv
+C|276766|55|M|Thomas Loong|55, inköpare, Komarken
+C|276767|43|K|Cecilia Olsson|43, lärare, Ytterby
+C|276768|69|M|Pierre Rehnlund|69, f.d. bankdirektör, Kungälv
+C|276769|77|K|Kerstin Petersson|77, pensionär, Kungälv
+C|276770|34|K|Nina Ström|34, säkerhetssamordnare, Komarken
+C|276771|22|M|Oscar Jansson|22, studerade, Kungälv
+C|276772|31|K|Madeleine Ytterstedt|31, socialpedagog, Kareby
+C|276773|51|M|Henrik Rudolvsson|51, ekonom, Kungälv
+C|276774|74|M|Claes Andersson|74, civilingenjör, Harestad
+C|276775|21|K|Alva Mattsson|21, studerande, Marstrand
+C|276776|78|M|Christer Mohlin|77, egenföretagare, Hålta
+C|276777|72|M|Kent Börjesson|72, konstruktör, Kungälv
+C|276778|34|K|Lizette Birgersson|34, konsult, Romelanda
+C|276779|77|M|Kjell Svensson|76, byggkonsult, Kungälv
+C|276780|71|M|Royne Steinsson|71, företagare, Komarken
+C|276781|77|M|Terje Bjönness|77, läkare, Kungälv
+C|276782|44|M|Håkan Jansson|44, lärare, Kungälv
+C|276783|81|K|Inger Rasmusson|81, sektionschef, Kungälv
+C|276784|55|M|Erik Ekman|55, affärsutvecklare, Ytterby
+C|276785|78|M|Göran Oskarsson|78, ingenjör, Kareby
+C|259847|36|M|Marcus Rise|36 IT-konsult Romelanda
+C|76560|47|K|Maria Kjellberg|47 år, Politiker, Kungälv
+C|76561|73|M|Lennart Wennerblom|73 år, Överön
+C|76562|64|K|Lottie Lord|64 år, Svartedalen
+C|76563|59|M|Erik Martinsson|59 år, Toreby
+C|76564|76|M|Kent Aulin|76 år, Kärna
+C|76565|76|M|Göran Ragndahl|76 år, Kungälv
+C|76566|42|M|Mikael Lunneblad|42 år, Ytterby
+C|76567|42|M|Eric Zinn|42 år, Ytterby
+C|253912|50|M|Anders Holmensköld|50, Kommunalråd, Kungälv
+C|255830|52|K|Anna Vedin|52, Elevassistent, Marstrand
+C|253922|53|M|Thomas Alpner|53, Konsult, Kungälv
+C|255832|25|K|Sara Regnell|25, Undersköterska, Kungälv
+C|255833|47|M|Marcus Adiels|47, Logistikkonsult, Kode
+C|255834|26|M|Patrik Ryberg|26, Administratör, Romelanda
+C|253933|52|K|Charlotta Windeman|52, Konsult, Kungälv
+C|255836|27|M|Gustav Meuller|27, Ekonom, Kungälv
+C|255837|61|K|Monica Haraldsson|61, Egen företagare, Romelanda
+C|255838|51|M|Robert Syrén|51, Handläggare, Kungälv
+C|255839|48|K|Bella Banehag|48, Customer Relations Manager, Kungälv
+C|253925|48|M|Peter Harrysson|48, Sjökapten, Kungälv
+C|253928|62|K|Christina Carlsson|62, Civilekonom/Gymnasielärare, Kungälv
+C|255842|61|M|Bo M Franzon|61, Produktchef, Kungälv
+C|254190|67|M|Lennart Jonsson|67, Lärare, Kungälv
+C|255844|54|M|Roberth Österman|54, Brandman , Marstrand
+C|255845|57|K|Marie-Louise Thor|57, Leg.Lärare, Kungälv
+C|255846|18|M|Simon Pasula|18, Studerande, Kungälv
+C|255847|59|M|Björn Hernius|59, Tillståndshandläggare, Kungälv
+C|255848|60|K|Britta Malmberg|60, Konsult, Hålta
+C|255849|69|M|Göran Christiansson|69, Civilingenjör, Kode
+C|255850|56|M|Sven-Erik Nilsson|56, Vaktmästare, Kode
+C|255851|42|M|Michael Hennler|42, Undersköterska, Kungälv
+C|255852|60|M|Maths Haraldsson|60, Field sales rep, Romelanda
+C|255853|29|K|Isabelle Örtgren|29, Sjuksköterka, Tjuvkil
+C|255854|43|M|Björn Holm|43, Sjöingengör, Kode
+C|255855|53|M|Lars Windeman|53, Inköpare, Kode
+C|255856|53|M|Torbjörn Kvarefelt|53, Näringslivsutvecklare, Ytterby
+C|255857|78|M|Olle Bo Ivarson|78, Pensionär, Kungälv
+C|255858|69|K|Ann Christin Adiels|69, fd.Lärare, Kode
+C|255859|62|M|Lennart Nodby|62, Fsg Chef, Kungälv
+C|255860|48|M|Jocke Segerlund|48, Oneline specialist, Ytterby
+C|255861|73|K|Sara Adelved|73, Förskolärare, Ytterby
+C|255862|23|M|Erik Alpner|23, Teologi studerande, Kungälv
+C|255863|54|M|Petter Vedin|54, Målare, Marstrand
+C|254147|52|K|Annika Tännström|52, Regionråd, Kungälv
+C|255865|63|M|Ingemar Bengtsson|63, , Marstrand
+C|255866|70|K|Else Langkilde|70, Konstnär, Marstrand
+C|255867|72|M|Tommy Ohlsson|72, Direktör, Kode
+C|255868|79|K|Ann-Mari Zackrisson|79, Speciallärare, Kode
+C|394197|39|M|Fredrik Vejdeland|39 år, byggnadsarbetare, Kungälv
+C|435342|41|M|Peter Albinsson|41 år, servicetekniker
+C|59825|64|M|Morgan Carlsson|Ytterby, Egenföretagare, 64
+C|59826|39|K|Victoria Dahlqvist|Partitjänsteman, Kungälv
+C|59827|70|M|Sven Niklasson|Kungälv, Fastighetstekniker, 70
+C|59829|48|M|Niklas Andersson|48, Maskinoperatör, Romelanda
+C|59830|68|M|Robert Kinhult|Kode, Stängselmontör, 68
+C|59831|53|M|Mats Holmqvist|Marstrand, Arbetare, 53
+C|59832|68|K|Annica Börstell|Kärna, Marknadsföringskoordinator, 68
+C|59833|61|M|Göran Södersved|Kungälv, Rörmontör, 61
+C|59834|63|M|Bertil Augustsson|Kareby, Trädgårdsarbetare, 63
+C|59835|32|M|Kristoffer Zetterlund|32, Ingenjör, Harestad
+C|59836|81|M|John Magnusson|Kungälv, Elektroingenjör, 81
+C|59838|72|M|Rolf Carlsson|Kungälv, Art Director, 72
+C|210072|54|M|Martin Högstedt|Säljare, Kungälv
+C|210073|52|K|Ancy Wahlgren|Avgiftshandläggare, Kungälv
+C|210074|50|K|Ewa Wahlin|Speciallärare, Kungälv
+C|206519|51|K|Laila Persson|Personlig assistent, Kärna
+C|210076|55|M|Thomas Andersson|Byggskadetekniker, Kärna
+C|210077|53|K|Eva Qvistgaard|Ingenjör, Kode
+C|210078|69|M|Rainer Hoffmann|Konstnär, Hålta
+C|210079|48|K|Pernilla Wiklund|Utvecklingssamordnare, Hålta
+C|210071|52|M|Morgan Persson|Officer, Brunskär
+C|210080|81|M|Heine Nielsen|Tekn.Lic., Lycke
+C|210081|74|M|Leif Hasselgren|Logistikkonsult, Lycke
+C|210082|52|M|Patrik Hedin|B-chaufför, Marstrand
+C|210083|72|M|Lars Eriksson|Utbildare, Kungälv
+C|210084|63|K|Karin Nielsen|Civilingenjör, Lycke
+C|210085|43|M|Jimmy Menander|IT-tekniker, Romelanda
+C|210086|61|M|Klaes-Göran Lundgren|Ingenjör, Kareby
+C|210087|31|K|Caroline Jigfors|Enhetschef, Hålta
+C|210088|71|K|Anita Dentén|Pensionär, Kungälv
+C|366894|43|K|Jennie Waldemar|Entreprenör, Kode
+C|216831|59|K|Margaretha Andersson|Fritidsforskare, Kungälv
+C|216832|76|K|Barbro Bengtsson|Egen företagare, Kungälv
+C|216833|71|M|Mats Weidel|Marknadsförare, Lycke
+C|216834|69|M|Göran Mattsson|Köpman, Marstrand
+C|304563|51|K|Pia Gruvander|Undersköterska, Romelanda
+C|216835|83|K|Yvonne Stensjö|Förbundssekreterare, Marstrand
+C|216836|48|M|Jonathan Andersson|Kock, Brunskär
+C|216837|58|M|Michael Adielson|Kungälv
+C|216838|70|M|Bernt Hurtig|Företagare, Sundhammar
+C|216839|70|M|Konny Nilsson|Pensionär, Kärna
+C|216840|51|M|Ulf Zimmergren|Bilförsäljare, Kungälv
+C|269615|63|M|Kjell Johansson|Bussförare, Hålta
+C|269616|46|M|Magnus Sjöstrand|KAM-säljare, Hålta
+C|269617|61|K|Marie Alminger|Professor, Hålta
+C|366909|57|M|Lars Axhage|Gymnasielärare, Lycke
+C|269618|68|K|Ritha Hasselgren|Pensionär, Lycke
+C|269619|74|K|Christina Högstedt|Kurator, Kungälv
+C|269620|54|M|Hans Alminger|Civilingenjör, Hålta
+C|269621|77|K|Madeleine Kristiansson|Pensionär, Lycke
+C|269622|73|M|Esse Lindholm|Pensionär, Kungälv
+C|366915|43|K|Lotta Klemark|Studerande, Kungälv
+C|305429|51|M|Stanley Lindqvist|Processoperatör, Kungälv
+C|269623|74|K|Sigrid Möller|Pensionär, Kungälv
+C|269625|76|M|Jarl Olverin|Pensionär, Lycke
+C|269626|47|M|Tomas Skoglund|Produktchef, Kode
+C|269627|68|K|Eva Wallmander|Systemvetare, Hålta
+C|269628|28|M|Mikael Wahlgren|Montör, Romelanda
+C|269629|24|K|Melina Wahlin|Undersköterska, Ytterby
+C|269630|68|K|Eva-Britt Jadegren|Frisör, Lycke
+C|269631|52|M|Niclas Palmqvist|Verksamhetsutvecklare, Romelanda
+C|160738|28|M|Erik Andreasson|industrielektriker, Kungälv, 28 år
+C|184022|44|K|Saga Stenlöf|Komarken
+C|162916|41|M|Knut Nordin|programmerare, Kungälv, 41 år
+C|184024|67|M|Björn Saletti|Kungälv
+C|184025|75|M|Kenneth Gustafsson|Ytterby
+C|184026|73|K|Harriet Blomqvist|Komarken
+C|184027|75|M|Ingemar Thorsson|Komarken
+C|184028|76|K|Jeanette Rigné|Harestad
+C|184029|71|M|Henry Larsson|Ytterby
+C|184030|28|K|Sandra Ryberg|Kode
+C|184031|49|M|Martin Nestorsson|Kungälv
+C|184032|48|M|Erol Yalcintas|Kode
+C|184033|49|K|Camilla Rajasalo|Kungälv
+C|184034|40|M|Andreas Antelid|Ullstorp
+C|184035|30|K|Malin Fager|Kode
+C|184036|65|M|Tommy Nilsson|Kungälv
+C|184037|57|K|Margareta Carlén|Romelanda

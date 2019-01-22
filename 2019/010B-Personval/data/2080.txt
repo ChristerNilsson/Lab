@@ -1,9 +1,300 @@
-2|244874|244875|244146|244153|244878|244879|244880|244881|244882|244127|244884|244885|244886|244887|244888|244889|244890|244891|244892|244893|244894|244133|244896|244897|244898|244899|244900|244901|244902|244903|244904|244905|244906|244907|244908|244909|244910|244911|244912|244913|244914|244915|244916|244917|244918|244919|244920|244921|244922|244923|244924|244925|244926|244927|244123|244929
-4|33533|33526|184547|33542|184549|184550|184551|184552|38914|184554|184555|184556|184557|184558|38935|184560|112712|38966|33548|184564|184565|184566|184567|184568|33524|184570|184571|184572|33540|184574|184575|184576|184577|184578|184579|184580|184581|184582|184583|184584|184585|184586|184587|184588|184589|184590
-201|403571|403572|403573|403574|403575|403576|403577|403578|403579|403580|403581|403582|403583|403584|403585|416591|403587|403588|403589|403590|403591|403592|403593|403594|403595|403596|403597|403598
-68|9180|130214|9191|130216|9155|130218|130219|130220|9160|130222|130223|130224|130225|130227|130228|130229|130230
-3|49206|156320|190169|190170|165061|190172|190173|190174|190175|190176|190177|190178|190179|190180|190181|190182|190183
-55|94806|94823|94824|94825|94826|94827|94828|94829|94830|94831|94832|94833|94834|94835|94836|94837|94838|94839|94840|94841|94842
-1|35822|36190|35821|36423|35812|36425|36426|36186|36428|35815|36189|36431|36432|36171|36218|36435|36436|36437|36438|36439|36440|36441|36442|36443|36444|36445|36446|36447|36448|36449|36450|36212|36452|36453|36454|35809|36456|36457|36458|36459|36460|36461
-110|125901|125902|125903|125904|125905|125906|125907|125908|125909|185059|515576
-5|64085|64073|64094|63810|78687|63822|295419|295420|295421|295422|295423|295424|295425|63828|295427|64079|64093|295430|295431|295432|64068|295434|295435|78686|295437|295438|295439|295440|295755|295756|295441|64074|295443|295444|295445|295446|295447|295448|295449|295450|295451|295452|295453|295454
+T|Falun
+A|2|244874|244875|244146|244153|244878|244879|244880|244881|244882|244127|244884|244885|244886|244887|244888|244889|244890|244891|244892|244893|244894|244133|244896|244897|244898|244899|244900|244901|244902|244903|244904|244905|244906|244907|244908|244909|244910|244911|244912|244913|244914|244915|244916|244917|244918|244919|244920|244921|244922|244923|244924|244925|244926|244927|244123|244929
+A|4|33533|33526|184547|33542|184549|184550|184551|184552|38914|184554|184555|184556|184557|184558|38935|184560|112712|38966|33548|184564|184565|184566|184567|184568|33524|184570|184571|184572|33540|184574|184575|184576|184577|184578|184579|184580|184581|184582|184583|184584|184585|184586|184587|184588|184589|184590
+A|201|403571|403572|403573|403574|403575|403576|403577|403578|403579|403580|403581|403582|403583|403584|403585|416591|403587|403588|403589|403590|403591|403592|403593|403594|403595|403596|403597|403598
+A|68|9180|130214|9191|130216|9155|130218|130219|130220|9160|130222|130223|130224|130225|130227|130228|130229|130230
+A|3|49206|156320|190169|190170|165061|190172|190173|190174|190175|190176|190177|190178|190179|190180|190181|190182|190183
+A|55|94806|94823|94824|94825|94826|94827|94828|94829|94830|94831|94832|94833|94834|94835|94836|94837|94838|94839|94840|94841|94842
+A|1|35822|36190|35821|36423|35812|36425|36426|36186|36428|35815|36189|36431|36432|36171|36218|36435|36436|36437|36438|36439|36440|36441|36442|36443|36444|36445|36446|36447|36448|36449|36450|36212|36452|36453|36454|35809|36456|36457|36458|36459|36460|36461
+A|110|125901|125902|125903|125904|125905|125906|125907|125908|125909|185059
+A|5|64085|64073|64094|63810|78687|63822|295419|295420|295421|295422|295423|295424|295425|63828|295427|64079|64093|295430|295431|295432|64068|295434|295435|78686|295437|295438|295439|295440|295755|295756|295441|64074|295443|295444|295445|295446|295447|295448|295449|295450|295451|295452|295453|295454
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|201|FAP|Falupartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|244874|54|M|Jonas Lennerthson|Hälsinggården
+C|244875|57|K|Susanne Norberg|Falun
+C|244146|23|M|Diyar Cicek|23 år, Falun
+C|244153|41|K|Jessica Wide|41 år, Falun
+C|244878|64|M|Lars Göran Johansson|Morbygden
+C|244879|46|K|Anna Strindberg|Stenslund
+C|244880|67|M|Kenneth Wåhlberg|Falun
+C|244881|38|K|Liza Lundberg|Elsborg
+C|244882|66|M|Lars Jerdén|Slätta
+C|244127|25|K|Sofie Eriksson|25 år, Falun
+C|244884|31|M|Sohrab Fadai|Centrum
+C|244885|54|K|Christina Knutsson|Falun
+C|244886|73|M|Christer Falk|Östanfors
+C|244887|61|K|Lena Johnsson|Nedre Norslund
+C|244888|36|M|Linus Niklasson|Svärdsjö
+C|244889|66|K|Barbro Ödlund|Centrum
+C|244890|65|M|Lars Nord|Östra Främby
+C|244891|63|K|Anna Fält|Britsarvet
+C|244892|64|M|Mustafa Güclü|Slätta
+C|244893|48|K|Paula Aspfors|Samuelsdal
+C|244894|68|M|Claes Mankler|Bjursås
+C|244133|43|K|Monica Enarsson|43 år, Falun
+C|244896|67|M|Kent Blomqvist|Hosjö
+C|244897|41|K|Helena Fridlund|Bojsenburg
+C|244898|74|M|Ragnar Kroona|Vårliden
+C|244899|60|K|Monica Jonsson|Sågmyra
+C|244900|54|M|Lars-Erik Lunå|Lunån
+C|244901|45|K|Charlotte Oster|Falun
+C|244902|43|M|Larry Palmén Logren|Pilbo
+C|244903|65|K|Kajsa Henriksson|Östanfors
+C|244904|60|M|Per-Erik Rapp|Bjursås
+C|244905|48|K|Annelie Nilsson|Grycksbo
+C|244906|38|M|Fredrik Persson|Elsborg
+C|244907|71|K|Birgitta Gradén|Centrum
+C|244908|67|M|Christer Pettersson|Sundborn
+C|244909|24|K|Tina Fagerström|Östra Främby
+C|244910|54|M|Mats Lissel|Centrum
+C|244911|58|K|Theresia Holmstedt Jensen|Svärdsjö
+C|244912|58|M|Krister Andersson|Falun
+C|244913|65|K|Ann Chrona|Hälsinggården
+C|244914|72|M|Roger Stål|Lustigknopp
+C|244915|59|K|Annika Östling|Falun
+C|244916|67|M|Anders Björn|Gruvriset
+C|244917|29|K|Martina Johnsson|Nedre Norslund
+C|244918|36|M|Edris Rasouli|Källviken
+C|244919|78|K|Sonja Skansgård|Herrhagen
+C|244920|58|M|Bert Blom|Nedre Norslund
+C|244921|50|K|Yvonne Nygårds|Centrum
+C|244922|72|M|Kjell Persson|Falun
+C|244923|60|K|Suzanne Lazar|Falun
+C|244924|73|M|Kenth Berglund|Centrum
+C|244925|44|K|Anna Wahlbäck|Centrum
+C|244926|30|K|Cecilia El Mouhib|Övre Norslund
+C|244927|67|K|Inger Vahlman|Sundborn
+C|244123|35|K|Roza Güclü Hedin|35 år, Falun
+C|244929|75|M|Karl-Erik Pettersson|Falun
+C|33533|45|M|Joakim Storck|Falun
+C|33526|47|K|Camilla Andersson Sparring|Falun
+C|184547|47|M|Fredrik Adolphson|Slätta
+C|33542|70|K|Agneta Ängsås|Falun
+C|184549|38|K|Susanne Martinsson|Bjursås
+C|184550|64|M|Mats Dahlström|Aspeboda
+C|184551|18|M|Abubakar Shakeel|Bojsenburg
+C|184552|43|K|Jenny Drugge|Vika
+C|38914|51|M|Göte Persson|Falun
+C|184554|63|K|Elisabeth Rooth Eriksson|Bergalid
+C|184555|38|K|Åsa Annerstedt|Falu centrum
+C|184556|75|M|Per Pettersson|Bjursås
+C|184557|69|K|Birgit Westhed|Gruvriset
+C|184558|47|K|Susanne Höglund|Linghed
+C|38935|45|M|Daniel Drugge|Falun
+C|184560|41|M|Anders Ors|Falun
+C|112712|41|M|Martin Bengtsson|Sundborn
+C|38966|63|K|Britt-Marie Romlin|Falun
+C|33548|45|M|Mathias Westin|Falun
+C|184564|37|M|Jonas Gustafsson|Falu centrum
+C|184565|57|M|Per-Johan Backlund|Enviken
+C|184566|62|K|Lisbeth Olars Haglund|Enviken
+C|184567|18|K|Malte Franz|Grycksbo
+C|184568|74|K|Anna Hägglund|Hälsingberg
+C|33524|71|M|Per-Anders Westhed|Falun
+C|184570|55|M|Åke Henriksson|Lamborn
+C|184571|50|M|Hans-Olov Backlund|Gårdvik
+C|184572|71|K|Kristina Wahlén|Falun
+C|33540|66|M|Dan Westerberg|Falun
+C|184574|61|M|Tord Olars|Linghed
+C|184575|66|K|Kristina Johansson|Grycksbo
+C|184576|77|K|Ingrid Eklund|Bjursås
+C|184577|57|K|Anna Köpman Strandberg|Vika
+C|184578|67|M|Per Martinsson|Bjursås
+C|184579|38|K|Johanna Snellman|Stenslund
+C|184580|39|M|Fredrik Ericsson|Grycksbo
+C|184581|43|M|Andreas Kahr|Stennäset
+C|184582|32|M|Joacim Svensson|Lilla Källviken
+C|184583|55|M|Sören Boberg|Österå
+C|184584|75|M|Anders Bengtsson|Sundborn
+C|184585|58|K|Ewa Lindgren|Kniva
+C|184586|46|M|Erik Bengtsson|Sundborn
+C|184587|63|M|Kjell Eriksson|Linghed
+C|184588|52|M|Thomas Hedström|Hosjö
+C|184589|78|M|Bengt Lock|Bjursås
+C|184590|70|M|Carl-Erik Nyström|Enviken
+C|403571|53|K|Maria Gelin|Gruvriset
+C|403572|71|M|Sven-Olov Ytterholm|Harladsbo
+C|403573|52|K|Anna Jörgenssen|Kvarnberget
+C|403574|65|M|Stefan Clarström|Hästberg
+C|403575|67|M|Anders Runström|Haraldsbo
+C|403576|67|M|Tore Carlsson|Övre Gruvriset
+C|403577|77|M|Kjell Hjort|Aspeboda
+C|403578|69|M|Staffan Mark|Norslund
+C|403579|47|K|Petra Ytterholm|Främby
+C|403580|75|M|Hans Matsols|Enviken
+C|403581|57|K|Violett Maskoones|Hälsinggården
+C|403582|60|M|Peter Gelin|Gruvriset
+C|403583|55|M|Muhsen Zandie|Gruvriset
+C|403584|41|K|Lina Pernhall|Haraldsbo
+C|403585|64|M|Mats Österlund|Håbergshage
+C|416591|48|K|Cecilia Zandieh Sulin|Gruvriset
+C|403587|40|M|Sonil Hansson|Vika
+C|403588|67|K|Gunilla Norlinder|Sundborn
+C|403589|63|M|Salah Deesha|Hälsinggården
+C|403590|69|K|Ulla Birgitta Mark|Norslund
+C|403591|35|M|Jan Hedberg|Herrhagen
+C|403592|57|K|Kerstin Cernold|Britsarvet
+C|403593|74|M|"Lars-Olov ""Lillis""" Åkerblom|Centrum
+C|403594|82|M|Gösta Wikman|Hästberg
+C|403595|43|M|Fredrik Pernhall|Haraldsbo
+C|403596|58|M|Pär Boberg|Centrum
+C|403597|75|M|Folke Norlinder|Sundborn
+C|403598|55|M|Mikael Wegblad|Kvarnberget
+C|9180|64|K|Katarina Gustavsson|undersköterska, Falun
+C|130214|36|M|Claes Andersson|företagare
+C|9191|73|K|Ilona Nyland|terapeut, Falun
+C|130216|67|K|Sonja Shirwani|lärare
+C|9155|23|M|Benny Jernberg|biomedicinanalytiker, Falun
+C|130218|62|K|Mia-Maja Liljegård Gustavsson|undersköterska
+C|130219|33|M|Fredrik Ernlund|jurist
+C|130220|67|M|Dan Grönberg|automationstekniker
+C|9160|51|M|Mattias Andersson|konsult, Falun
+C|130222|39|M|Jonas Svedberg|pensionsrådgivare
+C|130223|61|K|Eva Kärvemo|omsorgsassistent
+C|130224|51|K|Merlina Nilsson|undersköterska
+C|130225|58|K|Marianne Suur Suo|köksbiträde
+C|130227|84|M|Börje Ingeson|pensionär
+C|130228|71|M|Håkan Westberg|musiker
+C|130229|73|K|Karin Westberg|receptionist
+C|130230|63|M|Bengt-Åke Johansson|säljare
+C|49206|54|M|Svante Parsjö Tegnér|gymnasielärare, Falun
+C|156320|57|K|Åsa Nilser|Civilekonom, 57 år, Falun
+C|190169|47|M|Mattias Ohlson|Lärare, Högbo
+C|190170|50|M|Dietmar Gleich|Elektroingenjör, Kvarnberget
+C|165061|42|M|Jon Bylund|42 år Projektledare IT, Falun
+C|190172|52|K|Maud Pettersson|Maskiningenjör, Lustigknopp
+C|190173|23|M|Sonny Nygårds|Student, Bojsenburg
+C|190174|73|M|Ulf Fransson|Pensionär, Korsarvet
+C|190175|45|M|Jesper Pingo Lindström|Egenföretagare, Falun
+C|190176|79|K|Margaretha Helgesson|Pensionär, Britsarvet
+C|190177|71|K|Inger Strandmark|Pensionär, Lustigknopp
+C|190178|63|M|Anders Nilser|Museitekniker, Stenslund
+C|190179|71|M|Anders Hedenmark|Företagare, Sundborn
+C|190180|55|K|Elisabeth Dahlstedt|Civilingenjör, Kyrkbacken
+C|190181|48|M|Johan Schelin|Säljare, Stennäset
+C|190182|72|M|Gunnar Fridén|Pensionär, Galgberget
+C|190183|40|M|Joakim Gåfvels|Systemutvecklare, Galgberget
+C|94806|58|K|Maj Ardesjö|Falun, miljöhandläggare
+C|94823|62|M|Mats Wiklund|Falun, leg sjukgymnast
+C|94824|33|K|Karolina Brosché|Falun, IKT- och språkpedagog
+C|94825|68|M|Kenth Carlson|Falun, hälsorådgivare
+C|94826|37|K|Sahur Issa|undersköterska, 37 år
+C|94827|30|M|Linus Lindgren|Falun, omsorgsarbetare
+C|94828|64|K|Lisbeth Mankler|lärare, 64 år
+C|94829|73|M|Richard Holmqvist|Falun, civilingenjör
+C|94830|39|K|Elisabeth Åsenius|samhällsplanerare, 39 år
+C|94831|66|M|Jan Lindholm|riksdagsledamot, 66 år
+C|94832|63|K|Annica Ericson|lärare, 63 år
+C|94833|43|M|Jonas Åsenius|Falun, gymnasielärare
+C|94834|64|K|Birgitta Pettersson-Frank|Falun, leg sjuksköterska
+C|94835|43|M|Daniel Svedin|läkare, 43 år
+C|94836|47|K|Anett Kero|Falun, lärare
+C|94837|71|M|Staffan Mild|Falun, leg sjuksköterska
+C|94838|60|K|Charlotte Terner|leg. sjuksköterska, 60 år
+C|94839|70|M|Erik Eriksson|fil. dr, 69 år
+C|94840|69|K|Inger Jacobsson|Falun, leg sjuksköterska
+C|94841|78|M|Lars Broman|professor, 78 år
+C|94842|55|M|Niklas Henriksson|Falun, utredare kollektivtrafik
+C|35822|47|K|Veronica Zetterberg|47 år, egenföretagare, Falun
+C|36190|59|M|Kent Svens|59 år, affärschef, Falun
+C|35821|49|K|Catharina Enhörning|49 år, internationell handläggare, konsult, Falun
+C|36423|64|M|Carl Ström|64 år, senior, Centrum
+C|35812|63|M|Mikael Rosén|63 år, advokat, Falun
+C|36425|67|M|Mats Dahlberg|67 år, VD i utbildningsföretag, Kniva
+C|36426|43|M|Björn Ljungqvist|43 år, civilekonom, Galgberget
+C|36186|74|M|Leif Bergh|74 år, fd revisionschef, Falun
+C|36428|67|M|Jan Fors|67 år, bredbandsutvecklare, Järlinden
+C|35815|54|M|Christer Carlsson|54 år, oppositionsråd, ambulanssjuksköterska, Falun
+C|36189|58|M|Göran Forsén|58 år, landsbygdsutvecklare, Falun
+C|36431|69|K|Vanja Ottevall|69 år, senior, Slätta
+C|36432|71|M|Håkan Hammar|71 år, senior, Bjursås
+C|36171|58|K|Gunilla Franklin|58 år, distriktssköterska, Falun
+C|36218|41|K|Lisa Larsbäck|41 år, ambulanssjuksköterska, Falun
+C|36435|29|M|Victor Kaustinen|29 år, studie-och yrkesvägledare, Centrum
+C|36436|53|K|Tina Sjöström|53 år, företagare, Östanfors
+C|36437|50|M|Anders Lindh|50 år, grundskollärare, Vika
+C|36438|72|K|Christina Haggren|72 år, seniorföretagare, Britsarvet
+C|36439|69|M|Leif Öskog|69 år, egenföretagare , Norslund
+C|36440|69|M|Bertil Eek|69 år, senior, Källtorp/Källviken
+C|36441|63|K|Eva Kyrk|63 år, Grycksbo
+C|36442|71|M|Gunnar Lennhed|71 år, pensionär, Aspeboda
+C|36443|53|K|Helena Lindström|54 år, kock, Centrum
+C|36444|59|M|Göran Selvén|59 år, civilekonom, Skutudden
+C|36445|66|M|Gustav Kyrk|66 år, egenföretagare, Grycksbo
+C|36446|79|K|Catharina Hjortzberg-Nordlund|79 år, fd sjuksköterska, Hälsingberg
+C|36447|74|M|Göte Tronshagen|74 år, seniorföretagare, Aspeboda
+C|36448|22|M|Anton Petersson|22 år, student, Centrum
+C|36449|69|M|Jan-Olof Montelius|69 år, fil kand, Slätta
+C|36450|43|M|Andreas Johansson|43 år, entreprenör, Bjursås
+C|36212|73|M|Håkan Nohrén|73 år, pensionär, Falun
+C|36452|68|K|Kerstin Våghäll|68 år, senior, Gruvriset
+C|36453|76|M|Bo Wickberg|76 år, senior, Britsarvet/Karlberg
+C|36454|69|K|Margitta Björklund|69 år, fd frisör, Källtorp/Källviken
+C|35809|71|K|Ann-Britt Åsebol|71 år, riksdagsledamot, Falun
+C|36456|43|K|Anette Isaksson|42 år, skolkurator, Lilla Källviken
+C|36457|44|K|Linda Ljungqvist|43 år, ekonomikonsult, Galgberget
+C|36458|47|M|Anders Tronshagen|47 år, operatör, Lilla Källviken
+C|36459|75|K|Birgitta Hiertner|74 år, senior, Vallmora
+C|36460|43|K|Malin Öhgren|43 år, IT-konsult, Galgberget
+C|36461|74|M|Jan Harald|74 år, pol mag, Britsarvet
+C|125901|60|M|Mats Nordberg|Skogsrådgivare, Falun
+C|125902|44|M|Mikael Pettersson|44, Vaktmästare
+C|125903|75|M|Knut C.A. Scherman|Pensionär, Falun
+C|125904|43|M|Staffan Terning|43, Arbetsledare
+C|125905|79|M|Kjell Nylén|79, Pensionär
+C|125906|58|M|Tony Källgren|Egenföretagare, Bjursås
+C|125907|33|M|Jim Aronsson|Servicetekniker, Falun
+C|125908|22|M|Matti Trogothsson|Personlig assistent, Svärdsjö
+C|125909|19|K|Zanna Wigg|19, Studerande
+C|185059|75|M|Roger Berg|75, Pensionär
+C|64085|39|M|Patrik Liljeglöd|Falun
+C|64073|53|K|Zohreh Anhari|Falun
+C|64094|68|K|Monica Lindh|Falun
+C|63810|27|M|Daniel Riazat|Falun, 27 år
+C|78687|53|K|Åsa Brolin|Operatör, Järnet
+C|63822|63|M|Thomas Nilsson|Falun, 63 år
+C|295419|30|K|Julia Hagström Larsson|Kurator, Sundborn
+C|295420|37|M|Anton Ek|Lärare, Britsarvet
+C|295421|65|M|Kjell Nordqvist|Verksamhetschef, Haraldsbro
+C|295422|61|K|Ulrika Boström|Lärare, Sågmyra
+C|295423|29|M|Mohamed Deeq Abdulle|Handledare, Aspeboda
+C|295424|62|K|Eva Ferdeen|Sjuksköterska, Norslund
+C|295425|46|M|Michael Alvmarken|IT-konsult, Sågmyra
+C|63828|30|K|Emma Rydén|Falun, 30 år
+C|295427|68|M|Thommy Johansson|Egen företagare, Centrum
+C|64079|68|K|Lillebil Högberg Hermelin|Falun
+C|64093|32|M|Niclas Fors|Falun
+C|295430|43|K|Kristina Persson|Designer, Kvarnberget
+C|295431|34|M|Emil Österlund|Utvecklare, Bjursås
+C|295432|54|K|Marie Arvidsson|Omsorgsassistent, Galgberget
+C|64068|69|K|Maja Gilbert Westholm|Falun
+C|295434|44|M|Daniel Magdic|Lärare, Sågmyra
+C|295435|27|K|Dita Pratiwi|Studerande, Bojsenburg
+C|78686|62|M|Steve Rosén|Falun
+C|295437|65|K|Mariana Rosén|Administratör, Haraldsbo
+C|295438|62|M|Christer Gustafsson|Pappersbruksarbetare, Grycksbo
+C|295439|57|K|Lena Hagbom|Apoteksanställd, Gamla Herrgården
+C|295440|33|M|Erik Edquist|Lärare, Järlinden
+C|295755|63|K|Marja Rosén|Lärare, Norslund
+C|295756|74|M|Rolf gradén|Pensionär, Centrum
+C|295441|63|K|Kathe Andreason|Lärare, Grycksbo
+C|64074|30|M|Mathias Edbäck|Falun
+C|295443|29|K|Martina Baggström|Socialsekreterare, Lustigknopp
+C|295444|37|M|Adam Dubad|Flyktingassistent, Norslund
+C|295445|67|K|Berit Carlsson|Socialarbetare, Lustigknopp
+C|295446|57|M|Kamal Shaikhani|Modersmålslärare, Järnet
+C|295447|68|K|Pia Persson|Pensionär, Enviken
+C|295448|64|M|Rikard Olofsson|Pensionär, Centrum
+C|295449|42|K|Malin Nissinen|Kock, Herrhagen
+C|295450|29|M|Ibrahim Farhat|Apotekare, Järnet
+C|295451|58|K|Mimmi Sandberg|Undersköterska, Bojsenburg
+C|295452|69|K|Inger Nyquist|Barnmorska, Enviken
+C|295453|77|M|Håkan Herbertsson|Pensionär, Kvarnberget
+C|295454|66|K|Eva Dillberg|Pensionär, Främby

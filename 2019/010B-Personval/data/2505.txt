@@ -1,6 +1,82 @@
-2|6703|6704|6705|6706|6707|6708|6709|6710|6711|6712|6713|6714|6715|6716|6717|6720|6723|6721|6722|6724|6725
-4|341433|341434|341435|341436|341437|341438|341439|341440|341441|341442|341443|341444|341445|341446|341447|341448|341449|341450|341451|341452|341453|341454|341455
-3|191991|191992|191993|191994
-1|43009|43264|43265|43266
-110|48258
-5|343572|343573|343672|343673|343674|343675|343676|343677|343678|360483|343679|343680|360486|360487|360488|343681
+T|Arvidsjaur
+A|2|6703|6704|6705|6706|6707|6708|6709|6710|6711|6712|6713|6714|6715|6716|6717|6720|6723|6721|6722|6724|6725
+A|4|341433|341434|341435|341436|341437|341438|341439|341440|341441|341442|341443|341444|341445|341446|341447|341448|341449|341450|341451|341452|341453|341454|341455
+A|3|191991|191992|191993|191994
+A|1|43009|43264|43265|43266
+A|110|48258
+A|5|343572|343573|343672|343673|343674|343675|343676|343677|343678|360483|343679|343680|360486|360487|360488|343681
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|6703|49|M|Peter Rydfjäll|Arvidsjaur
+C|6704|51|K|Lotta Åman|Arvidsjaur, 51 år
+C|6705|71|M|Björn Lundberg|Arvidsjaur
+C|6706|58|K|Lena Karlsson|Abborrträsk
+C|6707|41|M|Marcus Lundberg|Arvidsjaur
+C|6708|47|K|Kristina Taimi|Svanträsk
+C|6709|32|M|Marcus Davidsson|Arvidsjaur
+C|6710|44|K|Karin Lindgren|Moskosel
+C|6711|71|M|Bernt Vikström|Månsträsk
+C|6712|53|K|Anna Quist|Arvidsjaur
+C|6713|38|M|Markus Lundqvist|Arvidsjaur
+C|6714|53|K|Agneta S Starefeldt|Arvidsjaur
+C|6715|51|M|Stefan Holmberg|Abborrträsk
+C|6716|57|K|Ruschadaporn Lindmark|Arvidsjaur
+C|6717|58|M|Kenneth Lindmark|Arvidsjaur
+C|6720|66|K|Susanne Lindberg|Arvidsjaur
+C|6723|42|K|Linda Stenvall|Arvidsjaur
+C|6721|52|M|Ulf Isaksson|Arvidsjaur
+C|6722|79|M|Tycho Johansson|Moskosel
+C|6724|49|M|Patrik Åman|49 år, Arvidsjaur
+C|6725|60|M|Anders Harr|Arvidsjaur
+C|341433|66|M|Bjarne Hald|Fd. Officer, Arvidsjaur
+C|341434|49|K|Kristina Bäckström|Bostadsförmedlare, Arvidsjaur
+C|341435|56|M|Leif Andersson|Officer
+C|341436|48|K|Pernilla Hellberg-Granberg|Egen Företagare
+C|341437|62|M|Martin Nilsson|Insatsledare/Flygräddning
+C|341438|73|K|Kristina Lundberg|Lärare
+C|341439|61|M|Lennart Wigenstam|Platschef
+C|341440|65|K|Ann-Karin Sörmo|Områdeschef
+C|341441|45|M|Jonas Granberg|Yrkeslärare
+C|341442|26|M|Samuel Wigenstam|Svetsare-gruvindustri
+C|341443|29|M|Patrik Nilsson|
+C|341444|65|M|Mats Klockljung|Pensionär
+C|341445|75|K|Gudrun Wikberg|Pensionär
+C|341446|70|M|Jerry Johansson|Ekonom
+C|341447|55|M|Dan Hällgren|Chaufför
+C|341448|74|M|Bo Lundmark|VD
+C|341449|50|K|Susanne Bergström|Förskollärare
+C|341450|66|K|Pia Löfgren Klockljung|Pensionär
+C|341451|58|M|Peter Edström|VD
+C|341452|54|M|Ove Granlund|Administratör
+C|341453|64|M|Erik Edström|Bonde
+C|341454|64|M|Tommy Öhlund|Elektriker
+C|341455|71|M|Sven-Olov Granlund|Hemmansägare, Arvidsjaur
+C|191991|45|M|Jens Eliasson|Officer, Arvidsjaur
+C|191992|77|M|Lars Lindström|Lärare, Arvidsjaur
+C|191993|33|K|Elin Lundström|Ekonom, Arvidsjaur
+C|191994|37|M|Martin Erks|Bergmästare, Arvidsjaur
+C|43009|68|M|Lars Ralph|68 år, Tandläkare, Arvidsjaur
+C|43264|68|K|Annika Öberg|Arvidsjaur
+C|43265|30|M|Marius Helland Vassbotn|Arvidsjaur
+C|43266|84|K|Ann Björklund|Arvidsjaur
+C|48258|40|M|Robert Håkansson|Distriksordförande, 40, Piteå
+C|343572|62|K|Britt-Inger Hedman|Renudden
+C|343573|46|M|Håkan Sandgren|Arvidsjaur
+C|343672|63|K|Ingrid Tagesdotter|Grundträsk
+C|343673|50|M|Kennet Bäcklund|Arvidsjaur
+C|343674|32|M|Linus Laestander|Arvidsjaur
+C|343675|55|K|Margoth Holmqvist|Arvidsjaur
+C|343676|41|K|Anna Svensson|Arvidsjaur
+C|343677|27|M|Jimmy Svensson|Arvidsjaur
+C|343678|61|M|Tomas Jakobsson|Hedberg
+C|360483|50|K|Åsa Ögren|Arvidsjaur
+C|343679|77|K|Maj-Lis Widman|Auktsjaur
+C|343680|66|M|Bill Grundström|Abborrträsk
+C|360486|62|M|Roland Svensson|Gullön
+C|360487|20|M|Dadfar Jafari|Arvidsjaur
+C|360488|64|M|Leif Enberg|Arvidsjaur
+C|343681|67|M|Lars Gustafsson|Grundträsk

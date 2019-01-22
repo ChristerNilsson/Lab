@@ -1,13 +1,380 @@
-2|24504|24505|24506|24507|24508|24509|24510|24511|24512|24513|24514|24515|24516|24517|24518|24519|24520|24521|24522|24523|24524|24525|24526|24527|24528|24529|24530|24531|24532|24533|24534|24535|24536|24537|24538|24539|24540|24541|24542|24543|24615|24616|24617|24618|24619|24620|24621|24622|24623|24624|24625|24626|24627|24628|24629|24630|24631|24632|24633|24634|24635
-4|8509|37736|37739|38887|43437|37743|43439|43440|43441|37752|163086|38891|37748|43446|43447|43448|43449|43450|43451|43452|43453|43454|43455|43456|163100|37755
-189|509530
-532|510810|510811|510812|510813|510814
-1363|417715|417716|417717|417718|417719|417720|417721|417722|417723|417724|417725|417726|417727
-68|31772|31768|59366|59365|31773|59349|61590|59350|31789|31686|31683|61595|31783|61597|31777|61599|61600|61601|61602|61603|61604|61605|61606|61607|61608|61609
-3|115797|115798|115799|115800|115801|115802|115803|115804|115805|115806|115807|115808|115809|115810|115811|115812|115813|115814|115815|115816|115817|115818|115819|115820
-1296|187971|187944|380106|380107|394841|187945|380109
-55|163161|19821|163163|22045|19806|163166|163169|22089|19822|163170|163173|163172|19816|19807|163536|163176|163538|163537|163540|163539|163542|163541|163544|163543|163746|163745|163747|163748|163749|163750|163751
-1|61436|61437|61438|61439|61440|61441|61442|61443|61444|61445|61446|61447|61448|61449|61450|61451|61452|61453|61454|61455|61456|61457|61458|61459|61460|61461|61462|61463|61464|61465|61466|61467|61468|61469|61470|61471|61472|61473|61474|61475|61476|61478|61479|61482|61483|61484|61485|61486|61487|61488|61489|61490
-110|53316|53317|53318|53319|53320|53321|53322|53323|53324|53325|53326|53327|53328|53329|53330|53331|53332|53333|53334|53335|53336|53337|53338|53339|53340|53341|53342|53343|53344|53345|53346|53347|53348|53349|53350|53351|53352|53353|53354|53355|53356|53357|53358|53359|99916|53361|53362|53363|53364|53365|53366|53367|53368|53369|53370|53371|53372|53373|53374|53375|53376|53377|53378|53379|53380|53381|53382|53383|99940|53385|53386|53387
-1309|431286|431300|431567|431308|431569|431321|431571|431572|431573|431574
-5|108235|108236|108237|108238|108239|108240|108241|108242|108243|108244|108245|108246|108247|108248|108249|108250|108251|108254|108252|108253|108255|108256|108258|108259|108257
+T|Helsingborg
+A|2|24504|24505|24506|24507|24508|24509|24510|24511|24512|24513|24514|24515|24516|24517|24518|24519|24520|24521|24522|24523|24524|24525|24526|24527|24528|24529|24530|24531|24532|24533|24534|24535|24536|24537|24538|24539|24540|24541|24542|24543|24615|24616|24617|24618|24619|24620|24621|24622|24623|24624|24625|24626|24627|24628|24629|24630|24631|24632|24633|24634|24635
+A|4|8509|37736|37739|38887|43437|37743|43439|43440|43441|37752|163086|38891|37748|43446|43447|43448|43449|43450|43451|43452|43453|43454|43455|43456|163100|37755
+A|189|509530
+A|532|510810|510811|510812|510813|510814
+A|1363|417715|417716|417717|417718|417719|417720|417721|417722|417723|417724|417725|417726|417727
+A|68|31772|31768|59366|59365|31773|59349|61590|59350|31789|31686|31683|61595|31783|61597|31777|61599|61600|61601|61602|61603|61604|61605|61606|61607|61608|61609
+A|3|115797|115798|115799|115800|115801|115802|115803|115804|115805|115806|115807|115808|115809|115810|115811|115812|115813|115814|115815|115816|115817|115818|115819|115820
+A|1296|187971|187944|380106|380107|394841|187945|380109
+A|55|163161|19821|163163|22045|19806|163166|163169|22089|19822|163170|163173|163172|19816|19807|163536|163176|163538|163537|163540|163539|163542|163541|163544|163543|163746|163745|163747|163748|163749|163750|163751
+A|1|61436|61437|61438|61439|61440|61441|61442|61443|61444|61445|61446|61447|61448|61449|61450|61451|61452|61453|61454|61455|61456|61457|61458|61459|61460|61461|61462|61463|61464|61465|61466|61467|61468|61469|61470|61471|61472|61473|61474|61475|61476|61478|61479|61482|61483|61484|61485|61486|61487|61488|61489|61490
+A|110|53316|53317|53318|53319|53320|53321|53322|53323|53324|53325|53326|53327|53328|53329|53330|53331|53332|53333|53334|53335|53336|53337|53338|53339|53340|53341|53342|53343|53344|53345|53346|53347|53348|53349|53350|53351|53352|53353|53354|53355|53356|53357|53358|53359|99916|53361|53362|53363|53364|53365|53366|53367|53368|53369|53370|53371|53372|53373|53374|53375|53376|53377|53378|53379|53380|53381|53382|53383|99940|53385|53386|53387
+A|1309|431286|431300|431567|431308|431569|431321|431571|431572|431573|431574
+A|5|108235|108236|108237|108238|108239|108240|108241|108242|108243|108244|108245|108246|108247|108248|108249|108250|108251|108254|108252|108253|108255|108256|108258|108259|108257
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|189|ENH|Enhet
+B|532|FI|Feministiskt initiativ
+B|1363||Futurum Sverige
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|1309|TRP|TRYGGHETSPARTIET
+B|5|V|Vänsterpartiet
+C|24504|59|M|Jan Björklund|59 år Säljare Eskilsminne
+C|24505|59|K|Maria Ward|59 år Sjuksköterska Söder
+C|24506|46|M|Mikael Andersson|46 år Ombudsman Påarp
+C|24507|49|K|Anna Ingers|Butiksbiträde, Helsingborg
+C|24508|54|M|Ali Shibl|54 år Ombudsman Laröd
+C|24509|61|K|Christel Håkansson|61 år Leg.Sjuksköterska Centrum
+C|24510|24|M|Mickey Magnusson|23 år Företagare Slottshöjden
+C|24511|66|K|Ingela Andersson|66 år Socionom Söder
+C|24512|38|M|Khaled El Khalayeli|37 år Lärarassistent Närlunda
+C|24513|51|K|Margareta Liljedahl Eriksson|50 år Ekonom Eskilsminne
+C|24514|49|M|Mats Rosdahl|49 år Kriminalvårdare Västra Berga
+C|24515|22|K|Elin Hellqvist|22 år Studerande Helsingborg
+C|24516|53|M|Vehid Stovrag|52 år Maskinoperatör Närlunda
+C|24517|68|K|Inger Nilsson|68 år Pensionär Mörarp
+C|24518|26|M|Oskar Fridolf|26 år Arbetsförmedlare Tågaborg
+C|24519|56|K|Tonka Frodlund|56 år Labbassistent Eneborg
+C|24520|28|M|Ahmed Mansour|28 år Organizer Närlunda
+C|24521|64|K|Eva-Lotta Hermansson Truedsson|64 år Pensionär Gustavslund
+C|24522|65|M|Bengt Olsson|65 år Pensionär Ramlösa
+C|24523|33|K|My Rosell|33 år Enhetschef Stattena
+C|24524|46|M|Fredrik Dersell|46 år Lärare Påarp
+C|24525|51|K|Marie Nilsson|51 år Ombudsman Slottshöjden
+C|24526|38|M|Muzzafar Khan|38 år E-handelsansv.Handels Görarp
+C|24527|67|K|Monika Arvidsson|66 år Avd.Chef Rydebäck
+C|24528|50|M|Jan-Olof Rosenberg|50 år Kontorschef Helsingborg
+C|24529|73|K|Yvonne Svensson|73 år Pensionär Ringstorp
+C|24530|61|M|Sead Konakovic|61 år Civilekonom Adolfsberg/Västergård
+C|24531|55|K|Reneé Sandberg Ohlander|54 år Med.Sekr./Kommunikatör Helsingborg
+C|24532|67|M|Lennart Ericsson|67 år Pensionär Husensjö
+C|24533|37|K|Jenny Lindblom|37 år Verksamhetsassistent Raus
+C|24534|42|M|Martin Svensson|41 år Ombudsman Vasatorpsträdgård
+C|24535|39|K|Vilma Carlsen|38 år Brevbärare Helsingborg
+C|24536|44|M|Besnik Zeneli|44 år Försäkringshandläggare Ödåkra
+C|24537|49|K|Vivecka Mendy|49 år leg.Förskollärare Ättekulla
+C|24538|34|M|Ghassan Abu Taka|34 år Ombudsman Ödåkra
+C|24539|47|K|Tünde Hansen|47 år Studerande Påarp
+C|24540|62|M|Mats Fuchs|61 år Sjukpensionär Wilson Park
+C|24541|25|K|Ellinor Hammarsköld|Studerande, Helsingborg
+C|24542|70|M|Folke Bengtsson|69 år Målare Filborna
+C|24543|64|K|Clarita Larsen|64 år Arbetsförmedlare Eskilsminne
+C|24615|47|M|Sejran Morina|48 år Arbetsförmedlare/Tolk Adolfsberg
+C|24616|45|K|Cecilia Fransson|46 år Sjuksköterskestudent Mörarp
+C|24617|49|M|Khalid Geire|49 år Socialarbetare/Nöjesprofil Helsingborg
+C|24618|63|K|Katarina Kovac Grönberg|62 år Tjänsteman Västergård
+C|24619|64|M|Stanislav Agustin|64 år Servicetekniker Rydebäck
+C|24620|68|K|Eva Ingers|68 år Pensionär Söder
+C|24621|65|M|Sven Rydström|65 år Pensionär Fältabacken
+C|24622|45|K|Åsa Holmqvist|44 år Politisk sekreterare Slottshöjden
+C|24623|29|M|Carl-Johan Sjögren|29 år Lager/Transportarbetare Centrum
+C|24624|51|K|Elisabeth Lilja|50 år Familjehem Tånga
+C|24625|67|M|Hans-Erik Andersson|67 år Pensionär Norra stadsdelen
+C|24626|55|K|Pernilla Rydell|Kock, Helsingborg
+C|24627|20|M|Viktor Lindkvist|20 år Studerande Laröd
+C|24628|73|K|Lisbeth Lindell|72 år Pensionär Gustavslund
+C|24629|57|M|Pär Fransson|56 år Grafiker Mörarp
+C|24630|60|K|Yvonne Augustin|Regionråd, Helsingborg
+C|24631|48|M|Christer Ottinger|48 år Elektriker Adolfsberg
+C|24632|34|M|Mia-Jonas Plunteman|Organisationsutvecklare, Helsingborg
+C|24633|20|K|Mariam Mata|20 år Barnskötare Söder
+C|24634|71|K|Franziska Larsson|71 år Pensionerad Pedagog Söder
+C|24635|74|K|Ingrid Lundin|74 år Fd.Medicinsk Sekreterare Påarp
+C|8509|24|M|Jonny Cato Hansson|24 år, Kommunalråd, Helsingborg
+C|37736|63|K|Monica Andersson|Vallåkra, Agronom, 63
+C|37739|22|M|Johan Vesterlund|Helsingborg, Lärarstudent, 22
+C|38887|63|M|Lars Hansson|Helsingborg, Tulltjänsteman, 63
+C|43437|24|M|Ian Karlemark|24, Jur.kand
+C|37743|53|K|Eva Holm|Helsingborg, Samordnare, 53
+C|43439|76|M|Bengt Persson|76, Ingenjör
+C|43440|50|K|Sara Johnson|50, Agronom
+C|43441|22|M|Arvid Straube|22, Kock
+C|37752|62|M|Peter Janson|Helsingborg, Marknadschef, 62
+C|163086|74|K|Sonja Persson|74, Sekreterare
+C|38891|23|M|Oktai Gholami|Helsingborg, Student, 23
+C|37748|19|M|Teodor Lundvall|Helsingborg, Studerande, 19
+C|43446|66|K|Christel Hoch-Hansson|66, Livsnjutare
+C|43447|55|M|Ulf Palmqvist|55, Produktionschef
+C|43448|34|M|Karsten Deppert|34, Företagare
+C|43449|58|M|Tommy Grundström|58, Sektionschef
+C|43450|61|K|Inger Henryson|61, Gymnasielärare
+C|43451|19|M|Hugo Pringle|19, Studerande
+C|43452|52|M|Lars-Erik Lindberg|52, Systemingenjör
+C|43453|22|K|Isabella Rundkvist|22, Kock
+C|43454|68|M|Hans Ingemansson|68, Företagare
+C|43455|65|M|Ragnar Andersson|65, Lantmästare
+C|43456|77|K|Ingrid Cohn|77, Pensionär
+C|163100|46|M|Fredrik Torkildsen|46, Civilekonom
+C|37755|25|M|Linus Hannedahl|Helsingborg, Politisk sekreterare, 25
+C|509530|61|M|Laurentiu Dumitrescu|Läkare alternativmedicin, Helsingborg
+C|510810|45|K|Jenny Berg|Arbetssökande, 45 år
+C|510811|27|K|Maria Malkert|Förskollärare, 27 år
+C|510812|45|K|Lena Ljungqvist|Läkare, 45 år
+C|510813|34|K|Ikram Abdalla|Enhetschef, 34 år
+C|510814|83|M|Hindse Hansen|Pensionär, 84 år
+C|417715|57|K|Carina Sällberg|gymnasielärare svenska/religion, 57 år
+C|417716|49|K|Lumnije Kajtazi|sfi- och gymnasielärare, historiker, 49 år
+C|417717|49|M|Lars Angelhammar|avdelningschef, elektriker, 49 år
+C|417718|31|K|Ala Zidan|integrationsvägledare, 31 år
+C|417719|30|K|Adelina Ukehaxhaj|studie- och yrkesvägledare, 30 år
+C|417720|62|M|Hassaan El-Hinidy|regionchef, rekrytering, 62 år
+C|417721|18|K|Isabelle Angelhammar|studerande, 18 år
+C|417722|19|K|Isabelle Sällberg|studerande, 19 år
+C|417723|61|M|Nazif Ahmedi|skomakare, 61 år
+C|417724|53|K|Maria Thyrén|studie- och yrkesvägledare, 53 år
+C|417725|58|K|Zeinab Matar|lärare sfi, jurist, 58 år
+C|417726|26|K|Adelina Abazi|barista, 26 år
+C|417727|48|M|Rrahimn Krasniqi|byggnadsarbetare, 37 år
+C|31772|57|M|Lars Thunberg|57 år, Kommunalråd, Helsingborg
+C|31768|45|K|Cecilia Engström|45 år, Ekonomichef, Helsingborg
+C|59366|27|M|Alexander Kolind|27 år, HR-konsult, Helsingborg
+C|59365|62|K|Karin Jensen|62 år, Skolassistent, Råå
+C|31773|37|M|Simon Nilsson|37 år, Byggnadskonstruktör, Helsingborg
+C|59349|64|M|Per-Ola Gunnarsson|64 år, Egenföretagare, Helsingborg
+C|61590|60|K|Anne-Margret Norberg|60 år, förskollärare, Ödåkra
+C|59350|66|M|Henrik Thott|66 år, Egenföretagare, Råå
+C|31789|41|K|Aline De Camargo Olsson|41 år, Företagare, Helsingborg
+C|31686|45|M|Anders Lundström|45 år, Gymnasielärare, Helsingborg
+C|31683|63|K|Birgitta Södertun|63, fd Regionråd/Barnmorska, Helsingborg
+C|61595|38|M|Gustav Natt Och Dag|38 år, musiker, Tågaborg
+C|31783|55|M|Anders Ivarsson|55 år, Nämndsekreterare, Helsingborg
+C|61597|31|K|Emmelie Wikström|31 år, förälder, Ödåkra
+C|31777|34|M|Jimmy Johansson|34 år, Officer, Helsingborg
+C|61599|39|M|Carl Möller|39 år, sjökapten, Ödåkra
+C|61600|65|K|Eva Virginius|65 år, webbdesigner, Eneborg
+C|61601|45|M|Björn Zorec|45 år, enhetschef, Tågaborg
+C|61602|39|M|Andreas Lindberg|39 år, företagare, Mariastaden
+C|61603|67|K|Margareta Hamark|67 år, pensionerad rektor, Sofieberg
+C|61604|73|M|Kenneth Pettersson|73 år, företagsekonom, Filborna
+C|61605|27|M|Anton Hyllstam|27 år, musiker, Eneborg
+C|61606|75|M|Östen Lundgren|75 år, pensionär, Olympia
+C|61607|63|M|Robert Södertun|63 år, präst, Ramlösa
+C|61608|49|K|Eva Zander|49 år, förskollärare, Ödåkra
+C|61609|69|M|Kenneth Lantz|69 år, fastighetsförvaltare, Eskilsminne
+C|115797|49|K|Maria Winberg Nordström|leg psykolog/kommunalråd, 49 år
+C|115798|47|M|Christer Sörliden|Allerum
+C|115799|63|M|Mats Werne|Helsingborg
+C|115800|67|K|Margareta Fagerhov|pensionär, 67 år
+C|115801|43|M|Gustaf Andersson|Helsingborg
+C|115802|19|K|Miranda Kalabria|student, 19 år
+C|115803|27|M|Niclas Svensson|miljö kand., 27 år
+C|115804|56|K|Christina Palmkvist Wester|samverkansansvarig, 56 år
+C|115805|51|K|Christina Freij|butiksanställd, 51 år
+C|115806|73|M|Magnus Grill|Råå
+C|115807|68|M|Lennart Perborg|civ.ing/företagare, 68 år
+C|115808|61|M|Per Johansson|Helsingborg
+C|115809|53|K|Anki Celander|ombudsman, 53 år
+C|115810|45|K|Sylvia Sörliden|lärare, 45 år
+C|115811|36|K|Annelie Wahlgren|marknadsansvarig, 36 år
+C|115812|20|K|Emilia Kulevska|butiksanställd, 20 år
+C|115813|55|K|Marie Jansson|fru, 55 år
+C|115814|64|M|Kennet Karlsson|ingenjör, 64 år
+C|115815|39|M|Rikard Lind|säljare, 39 år
+C|115816|37|K|Dubravka Trejling Nikolic|gymnasielärare, 37 år
+C|115817|22|M|Rasmus Karlsson|student, 22 år
+C|115818|40|M|Elvis Stan|utredningssekreterare, 40 år
+C|115819|55|M|Martin Kohl|civilingenjör väg och vatten, 55 år
+C|115820|35|M|Mike Opdahl|supply manager, 35 år
+C|187971|24|M|Alexander Seth|24, statsvetare, Gantofta
+C|187944|31|M|Mårten Nilsson|31, civilingenjör, Helsingborg
+C|380106|31|K|Kajsa Pålsson|31, studerande, Ödåkra
+C|380107|43|M|Johan Lewis-Jonsson|43, ingenjör, Helsingborg
+C|394841|26|M|Jakob Ebelin|26, järnvägskonsult, Helsingborg
+C|187945|47|M|Göran Dybner|47, egenföretagare, Helsingborg
+C|380109|28|K|Malin Seth|28, administrativ specialist, Helsingborg
+C|163161|31|M|Marcus Friberg|31 år, Lärare/Kommunalråd, Stattena
+C|19821|28|K|Sofia Kamlund|Doktorand, 28 år, Helsingborg
+C|163163|64|M|Lars Dalesjö|64 år, Skolledare, Tågaborg
+C|22045|57|K|Lena Östholm-Munkberg|Utvecklare/Sjuksköterska, 57 år, Helsingborg
+C|19806|58|M|Rickard Persson|58, riksdagsledamot, Helsingborg
+C|163166|66|K|Ann-Christine Borgman|66 år, Sjuksköterska, Ramlösa
+C|163169|56|M|Ralf Nymberg|56 år, Kylmontör, Olympia
+C|22089|39|K|Samra Dedic|Gymnasielärare, 39 år, Helsingborg
+C|19822|36|M|Thomas Rödin Hulth|Journalist, 36 år, Ramlösa
+C|163170|60|K|Liselotte Lindskog|60 år, Socionom, Rydebäck
+C|163173|57|M|Stefano Kuzhicov|56 år, Processledare, Sofieberg
+C|163172|40|K|Afeta Ramadanoska|40 år, Socionom, Gustavslund
+C|19816|36|M|Gustaf Wiklund|Miljöinspektör, 36 år, Helsingborg
+C|19807|55|K|Annika Román|Kommunalråd, 55 år, Helsingborg
+C|163536|30|M|Nader El-Hajj|30 år, Egen företagare, Söder
+C|163176|51|K|Sofia Mattsson|51 år, Miljöstrateg, Ramlösa
+C|163538|48|M|Fredrik Malmborg|48 år, Systemutvecklare, Laröd
+C|163537|32|K|Anna Hjortenskiöld|32 år, Miljöinspektör, Maria Park
+C|163540|54|M|Jacob Hjärne|54 år, Bokhållare, Norr
+C|163539|70|K|Mette Bryngemark|70 år, Speciallärare, Wilson Park
+C|163542|39|M|Karl-Johan Aldegren|39 år, Bussförare, Dalhem
+C|163541|77|K|Merete Sundholm|77 år, Pensionär, Eneborg
+C|163544|86|M|Lars Dahlin|86 år, Läkare, Pålsjö
+C|163543|56|K|Carin Hjärne|56 år, Bokhållare, Tågaborg
+C|163746|28|M|Dennis Qvarnström|28 år, Studerande, Planteringen
+C|163745|58|K|Kristina Hessing Nilsson|58 år, Distriktssköterska, Raus Vång
+C|163747|86|K|Kerstin Dahlin|86 år, Läkare, Pålsjö
+C|163748|46|K|Marie Halldén|46 år, Tjänsteman, Kattarp
+C|163749|64|K|Christina Mörtl|65 år, Kostekonom, Maria Park
+C|163750|48|K|Eva Storlind|48 år, Socionom, Bårslöv
+C|163751|53|K|Aida Pilica|53 år, Idrottsplatsvaktmästare, Elineberg
+C|61436|44|M|Peter Danielsson|44 år, kommunikationskonsult/ kommunstyrelsens ordförande, Laröd
+C|61437|39|M|Christian Orsing|39 år, polisinspektör/ kommunalråd, Råå
+C|61438|41|K|Anna Jähnke|41 år, kommunalråd, Helsingborg
+C|61439|39|K|Eleonora Johansson|39 år, kammaråklagare, Helsingborg
+C|61440|75|K|Lena Bjerne|75 år, fil. mag., Helsingborg
+C|61441|55|M|Mats Sander|55 år, flygvapenofficer, Helsingborg
+C|61442|77|M|Hans Bosson|77 år, major, Helsingborg
+C|61443|41|M|Richard Lundberg|41 år, banktjänsteman, Laröd
+C|61444|24|K|Julia Persson|24 år, politisk sekreterare, Helsingborg
+C|61445|22|M|Alexander Svensson|22 år, pol. sek., Helsingborg
+C|61446|56|M|Peter Knutsson|56 år, lantbrukare , Påarp
+C|61447|63|K|Marie Weibull Kornias|63 år, undersköterska, Helsingborg
+C|61448|66|M|Carl Herbertsson|66 år, civilingenjör, Råå
+C|61449|52|M|Kristian Anderson|52 år, grafisk formgivare, Helsingborg
+C|61450|24|K|Jacqueline Engström|24 år, studerande, Helsingborg
+C|61451|68|M|Samuel Lilja|68 år, pensionär, Helsingborg
+C|61452|49|K|Ann-Charlotte Svärd|49 år, civilekonom, Helsingborg
+C|61453|47|K|Nini Hansen|47 år, entreprenör, Helsingborg
+C|61454|69|M|Kjell Möller|69 år, agronom, Helsingborg
+C|61455|63|M|Björn Eisner|63 år, internationell marknadsekonom, Råå
+C|61456|56|K|Cecilia Rupp|56 år, tandsköterska, Helsingborg
+C|61457|42|M|Johan Rausgård|42 år, ekonom, Ramlösa
+C|61458|74|K|Beth Lundstedt Holmkvist|74 år, pensionär, Helsingborg
+C|61459|49|M|Patrik Bellner|49 år, arbetsförmedlare, Fleninge
+C|61460|70|M|Hans Svedell|70 år, speciallärare, Helsingborg
+C|61461|52|K|Suzana Axeheim|52 år, kommunikatör, Ramlösa
+C|61462|50|M|Anders Cato|50 år, polisinspektör, Helsingborg
+C|61463|77|K|Kristina Filipson Jonsson|77 år, talpedagog, Helsingborg
+C|61464|48|M|Joachim Axelson|48 år, egenföretagare, Mörarp
+C|61465|75|M|Nikola Sarjanovic|75 år, språklärare, Helsingborg
+C|61466|30|K|Matilda Malmgren|30 år, trafikutvecklare, Helsingborg
+C|61467|44|K|Alexandra Cato|44 år, leg. fysioterapeut, Helsingborg
+C|61468|70|K|Gun-Britt Lagerlöf|70 år, dietist, Helsingborg
+C|61469|73|K|Kristina Påhlsson|73 år, senior, Råå
+C|61470|74|M|Bo Hansson|74 år, rektor, Rydebäck
+C|61471|49|M|Nihad Sarajlic|49 år, elingenjör, Helsingborg
+C|61472|46|M|Martin Brolin|46 år, key account manager, Gantofta
+C|61473|45|K|Jenny Åström Jansson|45 år, ekonom, Påarp
+C|61474|48|K|Sofia Borissenko|48 år, överläkare, Fleninge
+C|61475|76|M|Bo Lambertsson Persson|76 år, lantmästare, Ödåkra
+C|61476|53|K|Annica Lind|53 år, redovisningskonsult, Helsingborg
+C|61478|44|M|Tomas Ulrich|44 år, specialistofficer, Helsingborg
+C|61479|37|M|James Klingborg|37 år, konsult, Helsingborg
+C|61482|55|M|Mikael Molin|55 år, konsult, Ramlösa
+C|61483|68|M|Mirko Zupanic|68 år, pensionör, Rydebäck
+C|61484|37|M|Peter Hägg|37 år, brand engagement manager, Ramlösa
+C|61485|57|K|Marie-Louise Siwaton|57 år, inredare, Helsingborg
+C|61486|55|M|Ymer Ilirzon|55 år, verksamhetschef, Helsingborg
+C|61487|39|M|Besim Bekiri|39 år, redovisningskonsult, Helsingborg
+C|61488|62|K|Michaela Sarvik|62 år, senior projektledare IT, Helsingborg
+C|61489|68|M|Roland Wester|68 år, civilingenjör, Helsingborg
+C|61490|47|M|Johan Aftonstråle|47 år, ingenjör, Helsingborg
+C|53316|49|M|Michael Rosenberg|Kommunalråd, 49 år
+C|53317|53|K|Eva Zensch|Adminstratör, 53 år
+C|53318|71|M|Alexander Aardgaard|Politisk sekreterare, Helsingborg
+C|53319|70|K|Karin Forsell|70 Bibliotekarie, Ättekulla
+C|53320|26|M|Pontus Andersson|Politisk sekreterare, Helsingborg
+C|53321|49|K|Ulrika Persson|Sjuksköterska, Helsingborg
+C|53322|61|M|Bengt Lindahl|62 Busschaufför, Adolfsberg
+C|53323|48|K|Victoria Tiblom|Kommunikatör, 48 år
+C|53324|75|M|Dick Johansson|76 Konsult, Husensjö
+C|53325|71|K|Britt Aardgaard|72 Pensionär, Elineberg
+C|53326|25|M|Felix Lindau|25 Väktare, Ringstorp
+C|53327|61|M|Dag Sundius|61 Chaufför, Fredriksdal
+C|53328|54|M|Olle Nilsson|55 Montör, Laröd
+C|53329|64|M|Lennart Svensson|65 Ingenjör, Söder
+C|53330|57|M|Per Stenberg|57 Drifttekniker, Slottshöjden
+C|53331|55|M|Martin Zensch|55 Egenföretagare, Allerum
+C|53332|63|M|Hans Quarfood|63 Kock, Stattena
+C|53333|46|M|Petri Kaldjärv|47 Säljare, Ättekulla
+C|53334|52|K|Ann-Charlotte Eriksson|53 Civilekonom, Ringstorp
+C|53335|50|M|Magnus Mellgren|50 Projektplanerare, Gustavslund
+C|53336|55|K|Catarina R Liljestrand|Lärare, 55 år
+C|53337|40|M|Mårten Hedlund|40 Snickare, Hittarp
+C|53338|58|K|Pia Klesell|58 Servicetekniker, Ringstorp
+C|53339|70|M|Claes Johnsson|71 Ekonomikonsult, Brohult
+C|53340|52|K|Ingela Gordon|52 Trafiklärare, Ättekulla
+C|53341|47|M|Flemming Hansen|47 Fastighetsskötare, Söder
+C|53342|75|M|Bengt Bengtsson|75 Sjökapten, Ättekulla
+C|53343|43|K|Linda Lindberg|Florist, Helsingborg
+C|53344|68|M|Thommy Friberg|68 Fd polis, Laröd
+C|53345|73|K|Eivor Söderberg|73 Pensionär, Adolfsberg
+C|53346|57|K|Susanne Nilsson|57 Hemserviceanställd, Ättekulla
+C|53347|20|M|Nils Klintvik Olofsson|Politisk kommunikatör, 20 år
+C|53348|26|M|Sebastian Nilsson|26 Väktare, Ättekulla
+C|53349|51|M|Anders Bennsten|51 Bryggmästare, Domsten
+C|53350|48|M|Jens Högberg|48 Inspektör, Högaborg
+C|53351|60|M|Anders Johnsson|60 Försäljningsingenjör, Fredriksdal
+C|53352|24|M|Emil Jansson Vasilcin|24 Studerande, Slottshöjden
+C|53353|55|K|Christel Larsson|55 Receptionist, Centrum
+C|53354|56|M|Lars Isaksson|57 Fastighetstekniker, Slottshöjden
+C|53355|67|M|Barner Knudsen|67 Fastighetstekniker, Vallåkra
+C|53356|64|K|Christina Bly-Andersson|65 Frisör, Centrum
+C|53357|58|M|Björn Gyllix|58 Lärare, Centrum
+C|53358|65|K|Yvonne Friberg|66 Laboratorieassistent, Laröd
+C|53359|31|M|Alexander Johansson|31 Student, Söder
+C|99916|49|M|Daniel Bergsten|49, snickare, Elineberg
+C|53361|79|M|Birger Jönsson|79 Reparatör, Allerum
+C|53362|75|M|Börje Wigström|76 Pensionär, Dalhem
+C|53363|47|K|Carina Persson|47 Lokalvårdare, Elineberg
+C|53364|67|M|Christer Nilsson|67 Pensionär, Söder
+C|53365|75|M|Christian Johansen|75 Pensionär, Husensjö
+C|53366|29|K|Cornelia Scott|30 Flygvärdinna, Centrum
+C|53367|66|K|Gunnel Fredriksson|67 Pensionär, Centrum
+C|53368|65|M|Jan Fredriksson|66 Pensionär, Centrum
+C|53369|73|K|Maj-Lis Bengtsson|73 Undersköterska, Ättekulla
+C|53370|33|M|Mattias Arlefalk|Säljare, 34 år
+C|53371|59|M|Staffan Quist|59 Suderande, Närlunda
+C|53372|68|M|Thomas Olsson|68 Pensionär, Gustavslund
+C|53373|64|K|Liz Edman|64 Pensionär, Kattarp
+C|53374|78|K|Gunvor Enström|78 Pensionär, Tågaborg
+C|53375|68|K|Yrsa Bernecker|69 Frisör, Vegeholm
+C|53376|83|M|Sven-Erik Larheim|84 Pensionär, Raus
+C|53377|72|M|Bo Söderström|72 Personlig assistent, Centrum
+C|53378|53|K|Maria Lundborg|53 Flygvärdinna, Råå
+C|53379|58|M|Dick Johansson|59 Yrkeschaufför, Slottshöjden
+C|53380|71|K|Monica Cronbring|71 Pensionär, Söder
+C|53381|75|M|Hans Fernebring|75 Värmetekniker, Råå
+C|53382|68|M|Håkan Hallberg|68 Pensionär, Ramlösa
+C|53383|62|K|Viveca Hassani-Baluchi|62 Servicehandläggare, Centrum
+C|99940|66|M|Kenny Pettersson|66, pensionär, Slottshöjden
+C|53385|70|K|Ann-Christine Nilsson|70 Redovisningsekonom, Söder
+C|53386|67|K|Susan Andersson|68 Mäklare, Ättekulla
+C|53387|66|M|Gilberth Storm|66 Säljare, Hittarp
+C|431286|68|M|Birger Nilsson|Skolledare, Helsingborg
+C|431300|70|K|Marianne Witting|Pensionär, Helsingborg
+C|431567|74|M|Magnus Hansson|Lärare
+C|431308|75|K|Rosita Lindbom|Pensionär, Helsingborg
+C|431569|79|M|Stig Andersson|Marknadsförare
+C|431321|77|M|Rolf Åström|Fastighetstekn. Helsingborg
+C|431571|55|K|Biljana Varalungovic|Frisör
+C|431572|53|K|Anette Karlsson|Gymnasielärare
+C|431573|74|K|Anita Mellgren|Pensionär
+C|431574|75|K|Ulla-Britt Lindkvist|Läkarsekreterare
+C|108235|72|K|Ingrid Mattiasson Saarinen|lärare, Helsingborg
+C|108236|48|K|Claudia Velásquez|socialsekreterare, Helsingborg
+C|108237|50|M|Peter Ahlbom|sjuksköterska/pedagog, Helsingborg
+C|108238|64|M|Tomas Gustafsson|socionom, Helsingborg
+C|108239|37|K|Jenny Björklund Hansson|studie- och yrkesvägledare, Helsingborg
+C|108240|32|M|Joacim Werner Petersson|politisk sekreterare, Helsingborg
+C|108241|56|K|Svjetlana Saric|kemist, Helsingborg
+C|108242|64|K|Ulla Sandkvist Thell|64 år, lärare
+C|108243|60|M|Ingemar Karlsson|60 år, avtalspensionär
+C|108244|54|M|Hans Henning Nilsson|54 år, fritidsassistent
+C|108245|39|K|Jennie Fryksäter|humanist, Helsingborg
+C|108246|77|K|Birgitta Möller|pensionär, Helsingborg
+C|108247|50|M|Magnus Thelander|49 år, ombudsman
+C|108248|29|K|Rebecca Thell|studerande, Helsingborg
+C|108249|23|M|Ivar Sjögren|studerande, Helsingborg
+C|108250|70|K|Britta Olsson|volontär, Helsingborg
+C|108251|76|M|Veikko Saarinen|pensionär, Helsingborg
+C|108254|64|K|Monica Davidson|64 år, socionom
+C|108252|55|M|Sven-Erik Svantesson|54 år, arbetssökande, aktivist
+C|108253|58|K|Marie Steijer-Wollmer|57 år, familjebehandlare
+C|108255|40|M|Ferman Büyükkaya|egen företagare, Helsingborg
+C|108256|67|K|Birgitta Sjöholm|67 år, kurator
+C|108258|49|M|Peter Jonasson|48 år, lagerarbetare
+C|108259|28|M|Victor Bärring|27 år, project & sales manager
+C|108257|73|K|Margareta Borssén|72 år, pensionär

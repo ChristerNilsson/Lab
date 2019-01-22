@@ -1,8 +1,109 @@
-2|192110|192131|199323|199324|193444|199326|199327|199328|193471|199330|199331|199332|199333|193480|199335|199336|199337|199338|199339|199340|199341|199342|199343|199344|199345|199346|199347|199348|199349|199350|199351|199352|199353
-4|56642|8514|56644|56645|56646|49258|49271|56649|56650|56651|56652|56653|56654|56655|56656|56657|56658|56659|56660|56661|56662|56663|56664|56665
-471|239661|239662|239663|239664|239665|239666|239668|239669
-68|5857|58769|5850|58771|58772|58773|58774|58775|58776|58777|58778|58779|58780|58781|58782
-3|68192
-1|7804|7790|7803|360705|360706|360707
-110|389905|123152
-5|360843|374769|374770
+T|Robertsfors
+A|2|192110|192131|199323|199324|193444|199326|199327|199328|193471|199330|199331|199332|199333|193480|199335|199336|199337|199338|199339|199340|199341|199342|199343|199344|199345|199346|199347|199348|199349|199350|199351|199352|199353
+A|4|56642|8514|56644|56645|56646|49258|49271|56649|56650|56651|56652|56653|56654|56655|56656|56657|56658|56659|56660|56661|56662|56663|56664|56665
+A|471|239661|239662|239663|239664|239665|239666|239668|239669
+A|68|5857|58769|5850|58771|58772|58773|58774|58775|58776|58777|58778|58779|58780|58781|58782
+A|3|68192
+A|1|7804|7790|7803|360705|360706|360707
+A|110|389905|123152
+A|5|360843|374769|374770
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|471|K|Kommunistiska Partiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|192110|47|M|Patrik Nilsson|47 år, Sjuksköterska, Robertsfors
+C|192131|60|K|Gun Ivesund|60 år, Barnskötare, Djäkneboda
+C|199323|41|M|Per Boström Johansson|41 år, Montör, Robertsfors
+C|199324|60|K|Mona Andersson|60 år, Distriktssköterska, Sikeå
+C|193444|43|M|Olov Nilsson|43 år, Universitetsadjunkt, Bygdeå
+C|199326|45|K|Nina Burman|45 år, Frisör, Ånäset
+C|199327|71|M|Lars-Gunnar Andersson|70 år, Pensionär, Åkullsjön
+C|199328|40|K|Sara Maria Liljeholm|40 år, Guldsmed, Dalkarlså
+C|193471|36|M|Robert Lindgren|36 år, Transportarbetare, Bygdeå
+C|199330|28|K|Mimmi Norgren-Hansson|28 år, Lärare, Sikeå
+C|199331|44|M|Jimmy Nyman|44 år, Jaktvårdskonsulent, Sikeå
+C|199332|62|K|Eva Jonasson|62 år, Undersköterska, Legdeå
+C|199333|67|M|Carl-Johan Pettersson|66 år, Driftchef, Robertsfors
+C|193480|27|K|Josefin Elvinsson|27 år, Fritidsledare, Bygdeå
+C|199335|48|M|Karl Samsami|48 år, Barnskötare, Robertsfors
+C|199336|26|K|Sandra Brändström|26 år, Socionom, Robertsfors
+C|199337|63|M|Hans Lindgren|63 år, Verksamhetsledare, Övre Åkulla
+C|199338|25|K|Amanda Brännström|26 år, Handledare, Ånäset
+C|199339|74|M|Ove Lindström|74 år, Pensionär, Djäkneboda
+C|199340|61|K|Eva-Mari Veterlund|61 år, Boendehandledare, Rickleå
+C|199341|70|M|Håkan Eriksson|69 år, Org. konsult, Robertsfors
+C|199342|64|K|Agneta Pettersson|63 år, Pensionär, S. Dalkarlså
+C|199343|73|M|Kurt-Arne Ek|73 år, Pensionär, Pellstan
+C|199344|64|K|Inga-Britt Berglund|64 år, Pensionär, Ö. Sjulsmark
+C|199345|59|M|Peder Forsberg|59 år, Byggnadsarbetare, Övre Åkulla
+C|199346|73|K|Åsa Andersson|73 år, Pensionär, Robertsfors
+C|199347|74|M|Kjell-Åke Nilsson|74 år, Pensionär, Robertsfors
+C|199348|73|M|Sune Johansson|74 år Pensionär, Floremark
+C|199349|67|M|Bo Siegwan|67 år, Pensionär, Robertsfors
+C|199350|31|M|Samuel Lindgren|31 år, Materialplanerare, Bygdeå
+C|199351|82|K|Vera Pettersson|83 år, Pensionär, Bobacken
+C|199352|75|M|Ulf Nilsson|74 år, Pensionär, Ånäset
+C|199353|67|M|Roger Markström|67 år, Pensionär, Ratu
+C|56642|62|M|Lars Tängdén|62 år, Oppositionsråd, Åkullsjön
+C|8514|46|K|Helena Lindahl|46 år, Riksdagsledamot, Robertsfors
+C|56644|36|M|Per Olofsson|36 år, Företagsledare, Högfors
+C|56645|56|K|Ingrid Sundbom|57 år, Lantbrukare, V Kålaboda
+C|56646|58|K|Marie Viberg|58 år, Arbetsledare, Djäkneboda
+C|49258|62|M|Lars Bäckström|62 år, Företagare, Robertsfors
+C|49271|26|K|Desiree Ölund|26 år, Billackerare, Grimsmark, Robertsfors
+C|56649|67|M|Bo Lundkvist|67 år, Distriktssköterska, Grimsmark
+C|56650|58|K|Gunilla Björn|58 år, Sjuksköt/Eg.företagare, Sikeåhamn
+C|56651|60|M|Erland Robertsson|60 år, Säljare, Ånäset
+C|56652|71|M|Åke Elvinsson|71 år, Pensionär, Näs
+C|56653|38|M|Karl-Fredrik Holmberg|38 år, Skadetekniker, Robertsfors
+C|56654|67|M|Lars Pettersson|67 år, Pensionär, Flarken
+C|56655|69|K|Elisabeth Tängden|69 år, Frisör, Åkullsjön
+C|56656|43|M|Mikael Rahm|43 år, Egenföretagare, Kålaboda
+C|56657|70|M|Martin Lundgren|70 år, Egenföretagare, Buafors
+C|56658|31|K|Camilla Robertsson|31 år, Sjuksköterska, Överklinten
+C|56659|53|K|Anniqa Nygård|53 år, Lantbrukare, Flarken
+C|56660|58|M|Harry Bäckström|58 år, Egenföretagare, Ånäset
+C|56661|56|M|John-Erik Sundh|56 år, Egenföretagare, Åkullsjön
+C|56662|56|K|Christina Trygg-Andersson|56 år, Djurskötare, Flarken
+C|56663|41|M|Björn Brändström|41 år, Försäljare, Åkullsjön
+C|56664|71|K|Birgitta Brändström|71 år, Pensionär, V Sjulsmark
+C|56665|72|K|Ann-Christin Hulander|72 år, Säljare, Åkullsjön
+C|239661|67|M|Östen Andersson|Gjuteriarbetare, 67 år
+C|239662|30|K|Elvira Lindberg Spiik|30 år
+C|239663|33|M|Max Karlsson|33 år, Industriarbetare
+C|239664|79|M|Karl Enar Persson|Pensionerad Diligensförare, 79 år
+C|239665|25|K|Rahwa Yhidego|Butiksarbetare, 24 år
+C|239666|22|M|Mohammad Alo|Studerande, 22 år
+C|239668|33|M|Ali Shirzad|Snickare och studerande, 32 år
+C|239669|29|M|Tobias Sandström|Arbetssökande, 28 år
+C|5857|40|K|Gabrielle Boström|redovisn.ass., Robertsfors
+C|58769|62|M|Lennart Ekman|lärare, Ånäset
+C|5850|43|K|Senait Ghebrezghi|undersköterska, Robertsfors
+C|58771|40|M|Daniel Boström|lastbilschaufför, Robertsfors
+C|58772|50|M|Patrik Israelsson|produktionschef, Bygdeå
+C|58773|38|K|Elisabeth Nilsson|Dalkarlså
+C|58774|67|M|Nils Ekman|pensionär, Ånäset
+C|58775|48|K|Anna Ekman|barnskötare, Ånäset
+C|58776|66|M|Lasse Hermansson|pensionär, Robertsfors
+C|58777|66|K|Anna-Lena Norgren|universitetsadjunkt, Robertsfors
+C|58778|75|M|Bertil Henriksson|fd företagare, Robertsfors
+C|58779|52|K|Marlene Jonsson|personlig assistent, Ånäset
+C|58780|36|M|Robin Marksén|deltidsbrandman, Ånäset
+C|58781|60|K|Karin Sjöström|diakoniassistent, Åkullsjön
+C|58782|80|K|Carin Hellgren|pensionär, Robertsfors
+C|68192|47|M|Richard Lövall|entreprenör, Robertsfors
+C|7804|67|M|Kenneth Isaksson|67, företagare, Robertsfors
+C|7790|49|K|Victoria Boström|49, egen företagare, Robertsfors
+C|7803|49|M|Patrik Boström|49, egen företagare, Robertsfors
+C|360705|37|M|Michael Holmberg|37, företagare, Bygdeå
+C|360706|30|M|Daniel Ågren|30, företagare, Bygdeå
+C|360707|47|K|Wilailak Isaksson|47, sekreterare, Bjännfors
+C|389905|62|M|Lars-Erik Nygren|chaufför, Ånäset, 61
+C|123152|43|M|Melker Gustavsson|Yrkesarbetare, Robertsfors, 43
+C|360843|46|M|Paavo Ruokojärvi|46, mekaniker, Robertsfors
+C|374769|55|M|Gunnar Parment|
+C|374770|52|M|Lars Andersson|

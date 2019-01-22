@@ -1,22 +1,1249 @@
-1284|400763|400764|400765|400766|400767
-2|28296|28297|28298|28299|28300|28104|28302|28303|28304|28305|28306|28307|28308|28309|28310|28311|28312|28313|28314|28315|28316|28317|28318|28319|28320|28112|28322|28323|28324|28325|28326|28327|28113|28329|28330|28331|28332|40098|34395|40100|40101|40102|40103|34412|27808|40106|24412|34288|27859|40110|40111|27858|34744|24417|40115|40116|34407|28211|40119|40120|27863|34290|24410|27807|35066|34739|27867|40128|40129|24415|34405|40132|34746|24630|44893|44894|27881|24507|44897|28288|24295|22483|44901|25096|24632|44904|22488|27884|28277|25104|44909|28282|24291|44912|44913|44914|25093|24288|44917|24626|44919|54718|26873|54720|54721|27005|36537|54724|22656|54726|29245|27013|26871|54730|29229|54732|27010|28285|29213|37049|27004|54738|36543|54740|27000|54742|36539|27017|27970|54746|37038|28162|54749|36130|23050|54752|54753|54754|23058|54756|54757|54758|36121|54760|54761|54762|54763|54764|54765|54061|57843|57844|57845|38284|57847|54041|38285|57850|38291|57852|28160|38302|54040|57856|28291|38300|57859|57860|54058|38290|57863|38304|57865
-4|38887|35322|38889|38890|38891|38892|38893|37743|37737|38896|38897|38898|35328|35335|38901|35330|38903|38904|37748|38906|38907|35338|38909|38910|39139|39140|8536|39142|39143|35339|39145|39146|39147|35331|39149|35325|39151|39152|39153|39155|35337|35343|39158|35341|37733|37735|37079|37734|8531|37076|8540|39183|37081|39185|39186|37747|37746|39189|39190|39191|39192|39193|39194|39195|39196|39197|37084|37738|39200|37096|37751|39203|35607|8543|39250|35609|8512|35611|39254|35615|35629|35613|35622|35608|39260|39261|35633|35612|35616|39265|35617|35620|35626|39269|35624|39271|39272|35614|37080|37077|37101|39302|39303|37089|37082|37100|35329|39309|35631|39311|39312|39313|37099|39316|39317|37078|39466|39467|39469|35334|37088|39472|39473|37091|39476|39477|37093|37097|39481|37075|39483|37102|39485|39486
-1150|515748
-189|509530|509511
-532|417759|219329|219326|417762|417763|417764|417765|417766|417767|406805|219315|219334|515316
-1388|515658|515659
-1374|415128
-638|515112
-68|31680|31681|31682|31683|31684|31685|31686|31687|31688|31689|31690|31691|31692|31693|31694|31695|31696|31697|31698|31699|31700|31701|31728|31729|31733|31768|59349|59350|31770|31786|31776|31777|31829|31954|31782|31787|31785|31779|31788|31783|31789|31780|59365|59366|59367|31772|31873|31824|31825|31834|31774|31826|59408|59409|59410|31819|31837|31835|31836|31827|59416|59417|31790|31884|31767|31778|31857|31799|59429|31784|31800|31964|31810|59436|31807|31771|59440|59441|59442|59443|31860|31808|31797|31812|31858|31794|59478|32071|31850|32070|32073|32067|59641|32072|515704|515941
-1011|132313|511306|513504|513505
-3|38838|38839|38840|38841|38842|38843|38844|38845|38846|38847|38848|38849|38850|38851|38852|38853|38854|38855|38856|38857|38858|38859|55019|55173|55139|55175|143583|55472|55187|55183|55174|55177|143589|55172|55148|55189|55145|55180|163003|178256|178257|178258|63500|69095|163017|178262|163011|178264|63501|163015|63505|178268|163008|163009|49211|55288|112532|178988|261683|261684|178981|261551|261157|115798|55359|55154|55404|115799|55400|115806|56191|63565|63679|55402|55155|115808|55405|38223|38743|38744|38229|38226|38236|38235|38240|38232|38234|38752|38753|38224|38242|38241|38237|38244|38239|38243|38762|38763|38246
-1296|124844|128525|128564|187740|128540|124847|187818|187819|128575|187943|187944|187945|187971|187972|187973|187974|188053|188054|188055
-55|21197|17256|20741|17260|17255|19559|17329|20811|17257|20817|17331|20819|20820|17259|20822|20823|20824|20743|20826|20747|19823|20829|19824|20776|21591|20803|19825|21594|21595|20800|19563|19819|22045|22062|19807|19822|19821|22068|22069|22086|22088|22089|21549|20772|20775|21552|21554|20799|21556|21557|21558|21559|21560|21561|19566|20798|20742|21313|21314|21315|21518|21519|21520|21521|21522|21523|20777|21525|21526|21527|21528|21529|109147|109148|109134|109310|109138|109322|109146|109135|109319|109137|109149|109143|109327|109330|109917|145920
-1|56717|56699|52771|63971|52774|191878|52769|52789|52788|194226|194227|52787|51877|194230|62960|59806|52772|52790|191881|52786|51878|194238|62963|52777|56702|51882|52796|63981|61444|61445|61466|61450|194271|61940|58099|194274|58109|194278|61964|194281|62535|194283|59860|194286|61939|58120|52794|56540|52792|194292|61935|60623|198350|56790|60762|61936|56532|61934|61943|60626|56353|61938|56537|198362|56927|56535|61948|61941|198367|60752|59750|61961|61966|61967|61944|60633|61972|61983|192092|56536|198381|59746|198383|56356|59756|60646|199246|58092|58098|58089|58091|58093|58095|199253|58114|58104|58094|58105|58112|58118|58116|58126|58107|58135|58133|58115|58125|58130|58119|62686|60912|62688|62529|57212|62701|60903|62695|62537|52136|57227|62692|60905|62707|62532|62703|62708|62714|62724|57249|57258|62538|62539|62739|62533|62528|200033|59891|63077|62168|59856|60487|60173|63079|59858|59863|63082|63088|63096|60486|62175|60489|60191|60495|60491|60488|61438|63352|192071|50945|63896|69160|63356|61447|192074|54980|61441|192843|52501|63355|63353|50944|192848|61461|61449|192851|61471|63364|63357|61452|63367|61462|63366|63362|61460|61472|61463|61459|63376|61467|192866|63370|63384|52493|54987|63887|79636|192089
-524|449212|449492|449491|450696|449214|449493|450699|449494|449216|449213|449218|449215|450705
-54|428408|428409|428410|428411|428412|428413|428414|428415|428416|428417|428418|428419|428420|428421|428422|428423|428424|428425|428426|428427|428428|428429|428430|428431|428432
-110|66826|66797|66796|66825|66804|273980|66828|66817|66814|66836|66830|66821|66801|273988|66798|66806|66824|66829|66811|66823|66819|66813|66809|66808|66818|66831|66832|66838|66837|66839|66990|66876|112645|66989|66880|106793|66993|106821|66879|66992|82352|112647|66877|66991|106799|66882|112648|67002|106817|66881|82366|67000|274858|66897|66997|106796|66889|67008|106839|52646|86368|53466|52644|54117|86369|53467|83998|53323|54091|84001|52650|112250|52649|275037|52658|85116|84006|52654|54095|53472|53792|54112|53794|86387|84007|86377|103754|53934|53935|127554|50558|53937|53936|50561|103762|53941|66849|50560|103778|127551|50562|53947|127555|103776|53948|50566|53945|53942|53949|53944|66858|53950|67033|67312|53316|67014|53317|53318|67036|406571|53397|53878|67024|53343|127611|127604|275420|67023|67037|53336|255292|67043|53394|67042|67021|67020|53347|67015|53370|53321|67022|127568|66926|127571|162886|54031|66925|162888|127576|66922|162895|127596|162901|127597|127579|127588|66921|127583|127599|274134|66927|274136|515948
-1063|494046|494047|494048|494049|494050|494051|494052|494053|494054|494055
-1309|431286|431287|431288|431292|431293|431294|431295|431298|431300|431301|431303|431317|431305|431308|431309|431310|431311|431312|431313|431314|431315|431319|431320|431321|431322|431323|431324|431562|431563|431564
-1386|512169|512170|512171|512172|512173
-5|108237|109263|110194|128127|26918|128105|103308|108241|108240|112452|108235|108239|108248|108249|128112|108255|108236|109266|108245|108250|108251|129639|108238|126842|124698|124135|101294|108885|124690|126866|128111|101301|126838|124692|126847|126840|126837|101296|126852|101302|128121|101298|186878|186260|186880|186881|186289|186883|186285|186286|186275|186255|186257|186278|186279|186269|186259|186277|186283|186247|186274|186282|186898|186258|186256|186280|186245|186904|186905|186264|186907|186290|186246|186251|186276|127351|110195|127349|127359|127353|127354|112325|245290|110198|127348|127361|127366|127347|127345|127363|245298|109806|109807|109808|127346|110199|112451|124660|123909|124656|101573|101577|124659|101574|101579|244685|124662|225958|124134|124683|124684|225955|112139|124685|225965|124689|124681|124682|124136|225960|124657|112136|225957|244680|112140|112146|124137|510824
+T|Skåne läns landsting
+A|1284|400763|400764|400765|400766|400767
+A|2|28296|28297|28298|28299|28300|28104|28302|28303|28304|28305|28306|28307|28308|28309|28310|28311|28312|28313|28314|28315|28316|28317|28318|28319|28320|28112|28322|28323|28324|28325|28326|28327|28113|28329|28330|28331|28332|40098|34395|40100|40101|40102|40103|34412|27808|40106|24412|34288|27859|40110|40111|27858|34744|24417|40115|40116|34407|28211|40119|40120|27863|34290|24410|27807|35066|34739|27867|40128|40129|24415|34405|40132|34746|24630|44893|44894|27881|24507|44897|28288|24295|22483|44901|25096|24632|44904|22488|27884|28277|25104|44909|28282|24291|44912|44913|44914|25093|24288|44917|24626|44919|54718|26873|54720|54721|27005|36537|54724|22656|54726|29245|27013|26871|54730|29229|54732|27010|28285|29213|37049|27004|54738|36543|54740|27000|54742|36539|27017|27970|54746|37038|28162|54749|36130|23050|54752|54753|54754|23058|54756|54757|54758|36121|54760|54761|54762|54763|54764|54765|54061|57843|57844|57845|38284|57847|54041|38285|57850|38291|57852|28160|38302|54040|57856|28291|38300|57859|57860|54058|38290|57863|38304|57865
+A|4|38887|35322|38889|38890|38891|38892|38893|37743|37737|38896|38897|38898|35328|35335|38901|35330|38903|38904|37748|38906|38907|35338|38909|38910|39139|39140|8536|39142|39143|35339|39145|39146|39147|35331|39149|35325|39151|39152|39153|39155|35337|35343|39158|35341|37733|37735|37079|37734|8531|37076|8540|39183|37081|39185|39186|37747|37746|39189|39190|39191|39192|39193|39194|39195|39196|39197|37084|37738|39200|37096|37751|39203|35607|8543|39250|35609|8512|35611|39254|35615|35629|35613|35622|35608|39260|39261|35633|35612|35616|39265|35617|35620|35626|39269|35624|39271|39272|35614|37080|37077|37101|39302|39303|37089|37082|37100|35329|39309|35631|39311|39312|39313|37099|39316|39317|37078|39466|39467|39469|35334|37088|39472|39473|37091|39476|39477|37093|37097|39481|37075|39483|37102|39485|39486
+A|1150|515748
+A|189|509530|509511
+A|532|417759|219329|219326|417762|417763|417764|417765|417766|417767|406805|219315|219334
+A|1388|515658|515659
+A|1374|415128
+A|638|515112
+A|68|31680|31681|31682|31683|31684|31685|31686|31687|31688|31689|31690|31691|31692|31693|31694|31695|31696|31697|31698|31699|31700|31701|31728|31729|31733|31768|59349|59350|31770|31786|31776|31777|31829|31954|31782|31787|31785|31779|31788|31783|31789|31780|59365|59366|59367|31772|31873|31824|31825|31834|31774|31826|59408|59409|59410|31819|31837|31835|31836|31827|59416|59417|31790|31884|31767|31778|31857|31799|59429|31784|31800|31964|31810|59436|31807|31771|59440|59441|59442|59443|31860|31808|31797|31812|31858|31794|59478|32071|31850|32070|32073|32067|59641|32072
+A|1011|132313|511306|513504|513505
+A|3|38838|38839|38840|38841|38842|38843|38844|38845|38846|38847|38848|38849|38850|38851|38852|38853|38854|38855|38856|38857|38858|38859|55019|55173|55139|55175|143583|55472|55187|55183|55174|55177|143589|55172|55148|55189|55145|55180|163003|178256|178257|178258|63500|69095|163017|178262|163011|178264|63501|163015|63505|178268|163008|163009|49211|55288|112532|178988|261683|261684|178981|261551|261157|115798|55359|55154|55404|115799|55400|115806|56191|63565|63679|55402|55155|115808|55405|38223|38743|38744|38229|38226|38236|38235|38240|38232|38234|38752|38753|38224|38242|38241|38237|38244|38239|38243|38762|38763|38246
+A|1296|124844|128525|128564|187740|128540|124847|187818|187819|128575|187943|187944|187945|187971|187972|187973|187974|188053|188054|188055
+A|55|21197|17256|20741|17260|17255|19559|17329|20811|17257|20817|17331|20819|20820|17259|20822|20823|20824|20743|20826|20747|19823|20829|19824|20776|21591|20803|19825|21594|21595|20800|19563|19819|22045|22062|19807|19822|19821|22068|22069|22086|22088|22089|21549|20772|20775|21552|21554|20799|21556|21557|21558|21559|21560|21561|19566|20798|20742|21313|21314|21315|21518|21519|21520|21521|21522|21523|20777|21525|21526|21527|21528|21529|109147|109148|109134|109310|109138|109322|109146|109135|109319|109137|109149|109143|109327|109330|109917|145920
+A|1|56717|56699|52771|63971|52774|191878|52769|52789|52788|194226|194227|52787|51877|194230|62960|59806|52772|52790|191881|52786|51878|194238|62963|52777|56702|51882|52796|63981|61444|61445|61466|61450|194271|61940|58099|194274|58109|194278|61964|194281|62535|194283|59860|194286|61939|58120|52794|56540|52792|194292|61935|60623|198350|56790|60762|61936|56532|61934|61943|60626|56353|61938|56537|198362|56927|56535|61948|61941|198367|60752|59750|61961|61966|61967|61944|60633|61972|61983|192092|56536|198381|59746|198383|56356|59756|60646|199246|58092|58098|58089|58091|58093|58095|199253|58114|58104|58094|58105|58112|58118|58116|58126|58107|58135|58133|58115|58125|58130|58119|62686|60912|62688|62529|57212|62701|60903|62695|62537|52136|57227|62692|60905|62707|62532|62703|62708|62714|62724|57249|57258|62538|62539|62739|62533|62528|200033|59891|63077|62168|59856|60487|60173|63079|59858|59863|63082|63088|63096|60486|62175|60489|60191|60495|60491|60488|61438|63352|192071|50945|63896|69160|63356|61447|192074|54980|61441|192843|52501|63355|63353|50944|192848|61461|61449|192851|61471|63364|63357|61452|63367|61462|63366|63362|61460|61472|61463|61459|63376|61467|192866|63370|63384|52493|54987|63887|79636|192089
+A|524|449212|449492|449491|450696|449214|449493|450699|449494|449216|449213|449218|449215|450705
+A|54|428408|428409|428410|428411|428412|428413|428414|428415|428416|428417|428418|428419|428420|428421|428422|428423|428424|428425|428426|428427|428428|428429|428430|428431|428432
+A|110|66826|66797|66796|66825|66804|273980|66828|66817|66814|66836|66830|66821|66801|273988|66798|66806|66824|66829|66811|66823|66819|66813|66809|66808|66818|66831|66832|66838|66837|66839|66990|66876|112645|66989|66880|106793|66993|106821|66879|66992|82352|112647|66877|66991|106799|66882|112648|67002|106817|66881|82366|67000|274858|66897|66997|106796|66889|67008|106839|52646|86368|53466|52644|54117|86369|53467|83998|53323|54091|84001|52650|112250|52649|275037|52658|85116|84006|52654|54095|53472|53792|54112|53794|86387|84007|86377|103754|53934|53935|127554|50558|53937|53936|50561|103762|53941|66849|50560|103778|127551|50562|53947|127555|103776|53948|50566|53945|53942|53949|53944|66858|53950|67033|67312|53316|67014|53317|53318|67036|406571|53397|53878|67024|53343|127611|127604|275420|67023|67037|53336|255292|67043|53394|67042|67021|67020|53347|67015|53370|53321|67022|127568|66926|127571|162886|54031|66925|162888|127576|66922|162895|127596|162901|127597|127579|127588|66921|127583|127599|274134|66927|274136
+A|1063|494046|494047|494048|494049|494050|494051|494052|494053|494054|494055
+A|1309|431286|431287|431288|431292|431293|431294|431295|431298|431300|431301|431303|431317|431305|431308|431309|431310|431311|431312|431313|431314|431315|431319|431320|431321|431322|431323|431324|431562|431563|431564
+A|1386|512169|512170|512171|512172|512173
+A|5|108237|109263|110194|128127|26918|128105|103308|108241|108240|112452|108235|108239|108248|108249|128112|108255|108236|109266|108245|108250|108251|129639|108238|126842|124698|124135|101294|108885|124690|126866|128111|101301|126838|124692|126847|126840|126837|101296|126852|101302|128121|101298|186878|186260|186880|186881|186289|186883|186285|186286|186275|186255|186257|186278|186279|186269|186259|186277|186283|186247|186274|186282|186898|186258|186256|186280|186245|186904|186905|186264|186907|186290|186246|186251|186276|127351|110195|127349|127359|127353|127354|112325|245290|110198|127348|127361|127366|127347|127345|127363|245298|109806|109807|109808|127346|110199|112451|124660|123909|124656|101573|101577|124659|101574|101579|244685|124662|225958|124134|124683|124684|225955|112139|124685|225965|124689|124681|124682|124136|225960|124657|112136|225957|244680|112140|112146|124137
+B|1284|Alt|Alternativet
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1150|DD|Direktdemokraterna
+B|189|ENH|Enhet
+B|532|FI|Feministiskt initiativ
+B|1388||Folkhemmet Sverige
+B|1374||Initiativet
+B|638|KLP|Klassiskt liberala partiet
+B|68|KD|Kristdemokraterna
+B|1011|LPo|Landsbygdspartiet Oberoende
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|524|PP|Piratpartiet
+B|54|SKÅ|SKÅNEPARTIET
+B|110|SD|Sverigedemokraterna
+B|1063|SKP|Sveriges Kommunistiska Parti (SKP)
+B|1309|TRP|TRYGGHETSPARTIET
+B|1386||Utveckling och Progressiv för Sverige partiet (U.P.S)
+B|5|V|Vänsterpartiet
+C|400763|64|K|Solveig Andersson|Bromölla
+C|400764|67|M|Johnny Lundkvist|Bromölla
+C|400765|43|K|Rut Sverrisdottir|Bromölla
+C|400766|48|K|Ann-Caroline Goldman|Bromölla
+C|400767|64|M|Christer Broman|Bromölla
+C|28296|42|M|Andreas Schönström|Kommunalråd
+C|28297|59|K|Carina Svensson|Skötare
+C|28298|39|M|Daniel Hedén|Ekonom
+C|28299|36|K|Amani Loubani|Sektionschef
+C|28300|27|M|Malik Chaudhry|Studerande
+C|28104|41|K|Ida-Therese Högfeldt|Stödassistent
+C|28302|43|M|Mathias Persson|Kommunikatör
+C|28303|37|K|Linda Johnsson|Miljökonsult
+C|28304|70|M|Sten Svensson|Pensionär
+C|28305|34|K|Charlotte Malmborg|Statsvetare
+C|28306|74|M|Ilmar Reepalu|Arkitekt
+C|28307|60|K|Birgitta Eriksson|Socialsekreterare
+C|28308|41|M|Tayfun Erden|Industriarbetare
+C|28309|48|K|Camilla Kronholm|Kulturarbetare
+C|28310|40|M|Abdulkhadir Mohamed Futuree|Lärare
+C|28311|23|K|Teba Awni|Studerande
+C|28312|38|M|Stefan Pinjefors|Tågvärd
+C|28313|61|K|Linda Attin|Konsulent
+C|28314|76|M|Preben Karlsson|Pensionär
+C|28315|23|K|Electra Ververidis|Ombudsman
+C|28316|35|M|Karl Lindberg|Statstjänsteman
+C|28317|67|K|Janina Kihlgren|Sekreterare
+C|28318|42|M|Ricardo Tarrida|Kriminalvårdare
+C|28319|69|K|Ingrid Alhqvist|Pensionär
+C|28320|43|M|Paul Andersson|Verksamhetssamordnare
+C|28112|52|K|Izabela Striner|Projektledare
+C|28322|46|M|Erol Dramer|Parkarbetare
+C|28323|77|K|Ann-Sofi Buchholt|Pensionär
+C|28324|72|M|Kjell-Åke Leismar|Grafiker
+C|28325|64|K|Kerstin Tarrida|Undersköterska
+C|28326|31|M|Oscar Rauer|Utredningssekreterare
+C|28327|21|K|Rifqa Al-Sammarraie|Studerande
+C|28113|37|M|Christian Jönsson|Byggnadsarbetare
+C|28329|62|K|Nahid Biglari|Modersmålslärare
+C|28330|31|M|Nadjam Malik|Museiassistent
+C|28331|27|K|Khloe Abdel Wahab|Studerande
+C|28332|56|M|Samba Jobe|Kontorsbiträde
+C|40098|41|K|Anna-Lena Hogerud|Jur.Kand, Lund
+C|34395|43|M|Jonas Esbjörnsson|Kommunalråd, Landskrona
+C|40100|69|K|Ingrid Lennerwald|fd Regionråd, pensionär, Eslöv
+C|40101|45|M|Anders Svärd|Ombudsman, Svalöv
+C|40102|58|K|Carina Dilton|Undersköterska, Staffanstorp
+C|40103|43|M|Mattias Olsson|Kanslichef, Lund
+C|34412|55|K|Mecide Özer|Biståndshandläggare, Landskrona
+C|27808|25|M|Henrik Andersson|Gymnasielärare, Hörby
+C|40106|34|K|Klara Twete|Samhällsplanerare, Lund
+C|24412|37|M|David Westlund|Systemadministratör, Eslöv
+C|34288|66|K|Gunilla Tornqvist|Socialarbetare, Kävlinge
+C|27859|65|M|Anders Magnhagen|Ombudsman, Höör
+C|40110|59|K|Anna-Carin Håkansson|Undersköterska, Hörby
+C|40111|59|M|Pierre Sjöström|Kommunalråd, Staffanstorp
+C|27858|48|K|Susanne Asserfors|Egen företagare, Höör
+C|34744|63|M|Anders Lindblom|Studie och Yrkesvägledare, Landskrona
+C|24417|29|K|Naida Mahmutovic|Undersköterska, Eslöv
+C|40115|39|M|Andreas Brodin|Utvecklingsstrateg, Lund
+C|40116|59|K|Marie Saltarski|Fritidspedagog, Staffanstorp
+C|34407|45|M|Jonas Karlsson|Arbetsledare, Landskrona
+C|28211|52|K|Bedrija Halilovic|Byggnadsingenjör, Svalöv
+C|40119|57|M|Torbjörn Lövendahl|Socionom, Staffanstorp
+C|40120|58|K|Jeanette Olsson|Verksamhetsutvecklare, Lund
+C|27863|68|M|Per-Olov Henriksson|Pensionär, Höör
+C|34290|70|K|Gunni Gustafsson Nilsson|fd Verksamhetschef, Kävlinge
+C|24410|54|M|Tony Hansson|Företagare, Eslöv
+C|27807|55|K|Susanne Meijer|Distriktssköterska, Hörby
+C|35066|74|M|Bjarne Andersson|Pensionär, Landskrona
+C|34739|42|K|Annette Nilsson|Säljare, Landskrona
+C|27867|51|M|Olof Asserfors|Tekniker, Höör
+C|40128|61|K|Vlasta Sabljak|Arkitekt, Lund
+C|40129|65|M|Gert Nilsson|Arbetare, Kävlinge
+C|24415|37|K|Jenny Pernton|Butikschef, Eslöv
+C|34405|42|M|Aqba Ar-Rawi|Kriminolog, Landskrona
+C|40132|52|K|Lillemor Gisselbrecht|Studie- och yrkesvägledare, Svalöv
+C|34746|58|M|Felix Denyo|Företagare, Landskrona
+C|24630|60|K|Yvonne Augustin|Regionråd, Helsingborg
+C|44893|54|M|Mikael Skoog|Konsult, Helsingborg
+C|44894|66|K|Susanne Jönsson|Undersköterska/arbetsledare, Ängelholm
+C|27881|47|M|Johan Petersson|Ombudsman, Klippan
+C|24507|49|K|Anna Ingers|Butiksbiträde, Helsingborg
+C|44897|71|M|Christer Olsson|F.d Anläggningsarbetare, Örkelljunga
+C|28288|39|K|Emma Yngvesson|Gymnasielärare, Ängelholm
+C|24295|64|M|Göran Klang|Arbetsledare, Båstad
+C|22483|43|K|Ulrika Thulin|Ombudsman, Bjuv
+C|44901|42|M|Richard Ridwall|Träarbetare, Åstorp
+C|25096|50|K|Anneli Eriksson|Facklig rådgivare, Höganäs
+C|24632|34|M|Mia-Jonas Plunteman|Organisationsutvecklare, Helsingborg
+C|44904|42|K|Isabella Dzanko|Lärare, Åstorp
+C|22488|67|M|Kenneth Bolinder|Egen företagare, Bjuv
+C|27884|69|K|Gunilla Svensson|Pensionär, Klippan
+C|28277|55|M|Mikael von Krassow|Administratör, Ängelholm
+C|25104|61|K|Kerstin Björkäng Wirehed|Utredningssekreterare, Höganäs
+C|44909|47|M|Robert Lexeklint|Digitaliserings ansvarig, Helsingborg
+C|28282|70|K|Agneta Lindau-Persson|Tandhygienist, Örkelljunga
+C|24291|53|M|Niclas Svanberg|VVS-montör, Båstad
+C|44912|63|K|Gun Friberg|HR-specialist, Åstorp
+C|44913|55|M|Hussein Karssifi|Tolk, Helsingborg
+C|44914|67|K|Eva-Lena Lindell|Pensionär, Ängelholm
+C|25093|58|M|Lennart Nilsson|Kommunalråd, Höganäs
+C|24288|54|K|Ingela Stefansson|Barnskötare, Båstad
+C|44917|62|M|Thomas Bjertner|F.d Museiarbetare, Örkelljunga
+C|24626|55|K|Pernilla Rydell|Kock, Helsingborg
+C|44919|30|M|Menaid Nocic|Maskinist, Åstorp
+C|54718|46|M|Henrik Fritzon|Regionstyrelsens ordförande, Kristianstad
+C|26873|57|K|Irene Nilsson|Skötare, Hässleholm
+C|54720|55|M|Karl-Erik Innala|Metallarbetare, Östra Göinge
+C|54721|70|K|Ewa Pihl Krabbe|leg Psykolog, Kristianstad
+C|27005|60|M|Anders Wallentheim|Skötare, Hässleholm
+C|36537|53|K|Elisabeth Holmer|Undersköterska/Skötare, Perstorp
+C|54724|51|M|Tommy Augustsson|Metallarbetare, Osby
+C|22656|54|K|Annika Molldén|Undersköterska, Bromölla
+C|54726|62|M|Ulf-Peter Honoré|Verksamhetsansvarig, Kristianstad
+C|29245|65|K|Marianne Eriksson|Gymnasielärare, Kristianstad
+C|27013|49|M|Jonny Holst|Kvalitets/Miljösamordnare, Hässleholm
+C|26871|59|K|Lena Nilsson|Hälsokonsult, Hässleholm
+C|54730|42|M|Daniel Petersén|Träindustriarbetare, Östra Göinge
+C|29229|33|K|Anna Pettersson|Receptionist, Kristianstad
+C|54732|50|M|Hans Forsberg|Biblioteksassistent, Bromölla
+C|27010|44|K|Linda Ingvarsson|Medicinsk sekreterare, Hässleholm
+C|28285|49|M|Ronny Nilsson|Processoperatör, Perstorp
+C|29213|47|K|Helen Persson|Undersköterska, Kristianstad
+C|37049|55|M|Michael Svensson|Lagerarbetare, Osby
+C|27004|34|K|Meta Jarl|Verksamhetsansvarig, Hässleholm
+C|54738|72|M|Jan Lindelöf|Senior, fd Region Skåne medarbetare, Kristianstad
+C|36543|58|K|Catharina Tann|Undersköterska, Perstorp
+C|54740|61|M|Elek Oksenfeld|Plåtslagare, Kristianstad
+C|27000|57|K|Annelie Cederberg|Habiliteringsassistent, Hässleholm
+C|54742|69|M|Sten Andersson|Pensionär, Osby
+C|36539|61|K|Boel Rosdahl|Undersköterska, Perstorp
+C|27017|62|M|Leif Nordin|Ombudsman, Hässleholm
+C|27970|34|K|Kristina Lindbåge|leg Sjuksköterska, Kristianstad
+C|54746|73|M|Erland Nilsson|Pensionär, Osby
+C|37038|65|K|Agneta Malm|Pensionär, Osby
+C|28162|48|M|Leif Göthed|Metallarbetare, Svedala
+C|54749|59|K|Birgitta Almroth|Undersköterska, Trelleborg
+C|36130|67|M|Conny Bäck|Ingenjör, Lomma
+C|23050|60|K|Katja Larsson|Kommunalråd, Burlöv
+C|54752|52|M|Lennart Höckert|Verksamhetsutvecklare, Trelleborg
+C|54753|48|K|Petra Revemark|Lärare, Vellinge
+C|54754|42|M|Jesper Sennertoft|Svedala
+C|23058|61|K|Vlasta Ekman|Fabriksarbetare, Burlöv
+C|54756|53|M|Hans Björklund|Byggnadssnickare, Trelleborg
+C|54757|71|K|Lena Näslund|Journalist, Trelleborg
+C|54758|54|M|Ambjörn Hardenstedt|Oppositionsråd, Svedala
+C|36121|63|K|Pia Johnson|Leg. Arbetsterapeut, Lomma
+C|54760|69|M|Jan Lundgren|Konsult, Trelleborg
+C|54761|58|K|Heléne Hardenstedt|Socionom, Svedala
+C|54762|70|M|Jan Holmgren|f.d. Postiljon, Vellinge
+C|54763|33|K|Layal Chidiac|Arbetsförmedlare, Trelleborg
+C|54764|64|M|Anders Söderberg|Tjänsteman, Trelleborg
+C|54765|34|K|Hanna Skånberg|Personlig assistent, Trelleborg
+C|54061|47|K|Maria Nyman Stjärnskog|Ombudsman, Skurup
+C|57843|64|M|Christer Hovbrand|Föreståndare, Sjöbo
+C|57844|54|K|Cecilia Magnusson-Svärd|Kurator, Ystad
+C|57845|51|M|Per Skoog|Specialpedagog, Tomelilla
+C|38284|61|K|Pia Ingvarsson|Kanslist/ekonomi, Simrishamn
+C|57847|47|M|Roger Jönsson|Arbetsförmedlare, Ystad
+C|54041|58|K|Lena Axelsson|Designer, Skurup
+C|38285|61|M|Christer Grankvist|Utbildningschef, Simrishamn
+C|57850|75|K|Anne-Maj Råberg|Vårdlärare/gymnasielärare, Tomelilla
+C|38291|54|M|Jan Vokoun|Baskemölla, Simrishamn
+C|57852|66|K|Ulla Valldén|Statsanställd, Sjöbo
+C|28160|23|M|Adrian Magnusson|Juriststuderande, Ystad
+C|38302|43|K|Ulrika Persson|Administrativ resurs, Simrishamn
+C|54040|39|M|Magnus Alm|Ombudsman, Skurup
+C|57856|76|K|Lillian Borén|Fd Undersköterska, Ystad
+C|28291|33|M|Sejdi Karaliti|Industriarbetare, Tomelilla
+C|38300|44|K|Kitty Verngren|Undersköterska, Simrishamn
+C|57859|27|M|Mike Enocksson|Statsvetare, Ystad
+C|57860|65|K|Jasenka Mauzer Åkerlund|Elektriker, Ystad
+C|54058|44|M|Fredrik Roström|Planeringssekreterare, Skurup
+C|38290|58|K|Else-Beth Rolf|Skötare, Simrishamn
+C|57863|60|M|Torgny Larsson|Lärare, Tomelilla
+C|38304|67|K|Agneta Åhlin|Barnskötare, Simrishamn
+C|57865|67|M|Lars Toftemar|Fd. Systemkonsult, Ystad
+C|38887|63|M|Lars Hansson|Helsingborg, Tulltjänsteman, 63
+C|35322|41|K|Ebba Krumlinde|Fil. mag. i mänskliga rättigheter, 41, Båstad
+C|38889|67|K|Ann Hörnebrant-Sturesson|Vejbystrand, Fd. företagare, 67
+C|38890|35|K|Ingela Lärkevie|Örkelljunga, Enhetschef, 35
+C|38891|23|M|Oktai Gholami|Helsingborg, Student, 23
+C|38892|71|M|Sven Svederberg|Sankt Ibb, Läkare, 71
+C|38893|80|M|Stig Lundblad|Bjuv, Egenföretagare, 80
+C|37743|53|K|Eva Holm|Helsingborg, Samordnare, 53
+C|37737|70|M|Ulf Molin|Jonstorp, Kommunalråd, 70
+C|38896|61|M|Stig Rådström|Åstorp, Sjuksköterska, 61
+C|38897|29|K|Anita Eriksson|Örkelljunga, Biståndshandläggare, 29
+C|38898|63|M|Mats Sjöbeck|Båstad, Fd. personalchef, 63
+C|35328|34|M|Rasmus Waak Brunkestam|Egenföretagare, 34, Ängelholm
+C|35335|41|M|Martin Gustafsson|Key account manager, 41, Örkelljunga
+C|38901|60|K|Marianne Axelsson|Åstorp, Förskollärare, 60
+C|35330|53|M|Christian Nilsson|Administratör, 53, Båstad
+C|38903|60|K|Anna Hedbrant|Höganäs, Konsult, 60
+C|38904|69|M|Nils Nilsson|Bjuv, Fd. lantbrukare, 69
+C|37748|19|M|Teodor Lundvall|Helsingborg, Studerande, 19
+C|38906|35|K|Therese Rosenlöf|Örkelljunga, Studerande, 35
+C|38907|70|M|Staffan Broddesson|Ängelholm, Lantmästare, 70
+C|35338|28|K|Linda Böcker|Måltidspedagog, 28, Strövelstorp
+C|38909|69|K|Sonia Larsson|Förslöv, Medicinsk sekreterare, 69
+C|38910|65|M|Hans-Åke Jönsson|Åstorp, Civilingenjör, 65
+C|39139|54|M|Lars-Göran Wiberg|54, Lantmästare, Hässleholm
+C|39140|76|K|Ingrid Karlsson|76, Pensionär, Kristianstad
+C|8536|30|M|Niklas Larsson|30 år, Oppositionsråd, Osby
+C|39142|52|K|Åsa Kull|52, Sjuksköterska, Hässleholm
+C|39143|38|M|Qalinle Dayib|38, Civilekonom, Kristianstad
+C|35339|49|M|Olof Lindqvist|Lärare, 49, Broby
+C|39145|31|M|Gustaf Karlström|31, Skogstjänsteman, Bjärnum
+C|39146|64|M|Karl Gemfeldt|64, Strateg, Önnestad
+C|39147|66|K|Rose-Marie Jönsson|66, Lärare, Perstorp
+C|35331|63|K|Ulla Ekdahl|Jurist, 63, Visseltofta
+C|39149|70|M|Per Olof Dahl|70, Pensionär, Glimåkra
+C|35325|45|M|Andreas Nilsson|Butikschef, 45, Kristianstad
+C|39151|42|M|Jimmy Ekborg|42, Handelsutvecklare, Lönsboda
+C|39152|55|M|Mats Jönsson|55, Lantmästare, Bromölla
+C|39153|63|K|Ann Andersson|63, Kronoinspektör, Krisitianstad
+C|39155|64|K|Lena Larsson|64, Systemvetare/projektledare, Åhus
+C|35337|45|M|Peter Rosengren|Utredare, 45, Kristianstad
+C|35343|64|M|Bengt Marntell|Ingenjör, 64, Perstorp
+C|39158|49|K|Anette Westerholm|49, Studie- och yrkesvägledare, Knislinge
+C|35341|42|M|Henrik Andersson|Strateg, 42, Fjälkinge
+C|37733|47|K|Annette Linander|Eslöv, Verksamhetsutvecklare, 47
+C|37735|66|M|Lennart Pettersson|Svalöv, Pensionär, 66
+C|37079|39|M|Mattias Horrdin|Organisatör, 39, Lund
+C|37734|44|K|Hanna Ershytt|Höör, Ekologisk ekonom, 44
+C|8531|41|K|Stina Larsson|41 år, Företagare, Kävlinge
+C|37076|25|M|David Liljedal|Student, 25, Lund
+C|8540|48|M|Fredrik Jönsson|48 år, Affärsutvecklare, Svalöv
+C|39183|66|K|Gunvor Håkansson|66, Socionom, Hörby
+C|37081|56|M|Björn Larsson|Ingenjör, 56, Staffanstorp
+C|39185|59|K|Anneli Appelskog|59, Rektor, Billeberga
+C|39186|51|M|Lennart Hansson|51, Lantmästare, Kävlinge
+C|37747|44|K|Eva Inhammar|Kågeröd, Produktionsplanerare, 44
+C|37746|46|M|Lars-Olof Andersson|Höör, Skogsägare, 46
+C|39189|33|M|Daniel Nylander|33, Egenföretagare, Glumslöv
+C|39190|41|M|John Lager|41, Arbetsledare, Lund
+C|39191|62|M|Håkan Andersson|62, Miljökonsult, Svalöv
+C|39192|38|K|Johanna Laurell|38, Sjuksköterska, Kävlinge
+C|39193|43|M|Martin Olsson|43, Lantbrukare, Snogeröd
+C|39194|45|K|Camilla Ländin|45, Företagare, Lund
+C|39195|64|M|Anders Hansson|64, Egenföretagare/konsult, Eslöv
+C|39196|44|K|Susanne Ståhl|44, Ekonom, Lund
+C|39197|46|M|Ronald Gummesson|46, Egenföretagare, Landskrona
+C|37084|46|M|Christian Ohlsson|Gymnasielärare, 46, Lund
+C|37738|38|K|Carina Markert|Asmundtorp, Personlig assistent/butikssäljare, 38
+C|39200|29|M|Christian Schanner|29, Egenföretagare, Dalby
+C|37096|43|M|Staffan Fredlund|Miljöchef, 43, Dalby
+C|37751|30|K|Emma Nylander|Rydebäck, Egenföretagare, 30
+C|39203|41|K|Sofia Hagerin|41, Redovisningskonsult, Löberöd
+C|35607|31|K|Charlotte Bossen|31, Statstjänsteman
+C|8543|23|K|Warda Fatih|23 år, Läkarstudent, Malmö
+C|39250|66|M|Mikael Stamming|66, Civilingenjör
+C|35609|73|M|Kay Wictorin|73, Pensionär
+C|8512|40|M|Niels Paarup-Petersen|40 år, Konsult, Malmö
+C|35611|30|K|Michaela Esseen|30, Försäkringstjänsteman
+C|39254|29|M|Martin Molin|29, Trafikplanerare
+C|35615|36|M|Joacim Ahlqvist|36, Statstjänsteman
+C|35629|65|M|Bengt Svensson|65, Civilingenjör
+C|35613|43|M|Adnan Bibic|43, Fysiker
+C|35622|70|K|Gunnel Kristiansson|70, Leg. Sjuksköterska
+C|35608|34|K|Nancy Diaz-Afzali|34, Enhetschef
+C|39260|54|M|Heinz Wellershaus|54, Civilingenjör
+C|39261|25|K|Hanna Edwards|25, Samhällsvetare
+C|35633|64|M|Halid Osman|64, Egenföretagare
+C|35612|38|M|Andreas Asker|38, Civilingenjör
+C|35616|42|K|Erika Hedblom|42, Projektledare
+C|39265|52|K|Annika Carlsson|52, Fysioterapeut
+C|35617|22|K|Evelina Reuterfors|22, Verksamhetsledare
+C|35620|28|M|John Stranne|28, Energiingenjör
+C|35626|43|M|Rasmus Carlsson|43, IT-konsult
+C|39269|36|M|Sapko Sinani|36, VD/Myndighetsutövare
+C|35624|23|M|Albin Westermark|23, Verksamhetskoordinator
+C|39271|55|K|Maria Ekstrand|55, Kommunikationsstrateg
+C|39272|35|M|Magnus Thulin|35, Civilekonom och egenföretagare
+C|35614|51|M|Patrik Holmberg|51, Socialpedagog
+C|37080|51|K|Anneli Kihlstrand|Agronom, 51, Arlöv
+C|37077|30|M|Ola Olsson|Ekonom/Controller, 30, Trelleborg
+C|37101|57|M|Håkan Fredriksson|Egenföretagare, 57, Vellinge
+C|39302|31|M|Andreas Axelsson|31, Innesäljare, Svedala
+C|39303|53|K|Birte Sandberg|53, Masterutbildningsvetenskap, Tomelilla
+C|37089|35|K|Johanna Sjögren|Lärare, 35, Anderslöv
+C|37082|66|K|Lena Svensson|Förskollärare, 66, Bjärred
+C|37100|67|M|Fredrik Uldall-Jörgensen|Lantmästare, 67, Arlöv
+C|35329|50|K|Ulrika Axelsson|Fritidspedagog, 50, Sjöbo
+C|39309|70|K|Birgitta Sjögren|70, Fd. kyrkokamrer, Trelleborg
+C|35631|44|M|Nima Moslehi|44, Utvecklingsingenjör
+C|39311|57|K|Ingegerd Eriksson|57, Enhetschef, Svedala
+C|39312|33|M|David Möller|33, Sjukpensionär, Vellinge
+C|39313|20|K|Clara Kihlstrand|20, Student, Burlöv
+C|37099|72|M|Tor-Björn Langåsen|Instrumenttekniker, 72, Bjärred
+C|39316|71|M|Bo Andersson|71, Lantbrukare, Trelleborg
+C|39317|70|M|Owe Håkansson|70, Egenföretagare, Burlöv
+C|37078|55|K|Elisabeth Håkansson|Enhetschef, 55, Nybrostrand
+C|39466|76|M|Jan Persson|Pensionär, 76, Borrby
+C|39467|67|M|Claes-Göran Kullberg|Egenföretagare, 67, Skivarp
+C|39469|53|M|Jan Erlandsson|Redovisningskonsult, 53, Ystad
+C|35334|45|M|Christer Yrjas|Agronom, 45, Brösarp
+C|37088|36|M|Henric Sjöstrand|Projektledare, 36, Sjöbo
+C|39472|64|K|Eva Clausson|Verksamhetschef, 64, Ystad
+C|39473|64|K|Camilla Osterman|Civilekonom, 64, Blentarp
+C|37091|67|M|Håkan Eriksson|Konsult, 67, Ystad
+C|39476|50|M|Henrik Berven|Enhetschef, 50, Ystad
+C|39477|42|M|Per-Ove Forsberg|Jur. kand, 42, Ystad
+C|37093|56|M|Ewert Andersson|Egenföretagare, 56, Löderup
+C|37097|66|M|Hasse Månsson|Egenföretagare, 66, Skurup
+C|39481|47|K|Lena Eriksson|Sektionschef, 47, Brösarp
+C|37075|49|M|Jörgen Sjöslätt|Speditör, 49, Skurup
+C|39483|69|M|Ronny Persson|Pensionär, 69, Ystad
+C|37102|56|K|Ann-Helen Nilsson|Fastighetsförvaltare, 56, Skurup
+C|39485|62|K|Solbritt Lundgren|Redovisningsekonom, 62, Rydsgård
+C|39486|36|K|Anna Ling|Folkhälsopedagog, 36, Gärsnäs
+C|515748|58|M|Magnus Bäckström|
+C|509530|61|M|Laurentiu Dumitrescu|Läkare alternativmedicin, Helsingborg
+C|509511|40|M|Vide Geiger|IT-konsult, Simrishamn
+C|417759|63|K|Kristina Myrberg|63 år, Vårdbiträde/journalist, Hörby
+C|219329|40|K|Maria Dexborg|40år, Socionom, Åkarp
+C|219326|25|M|Joakim Månsson Bengtsson|25år, Människorättsaktivist, Lund
+C|417762|44|M|Zoran Alic|44 år, Student, Lund
+C|417763|59|M|Ingvar Gidlund|59 år, Socionom, Lövestad
+C|417764|39|K|Therese Towman|39 år, Barnmorska, Staffanstorp
+C|417765|35|M|Nikolaj Olniansky|35 år, Lärare, Lund
+C|417766|39|K|Camilla Gottfries Hindersson|39 år, Socionom, Höör
+C|417767|54|K|Ann Engqvist|54 år, Journalist, Svedala
+C|406805|49|K|Charlotte Strömberg Eliasson|49 år, Kulturutvecklare, Malmö
+C|219315|44|K|Johanna Ivarsson|44år, Socionom, Landskrona
+C|219334|61|K|Margarethe Kuhn Müntzing|61år, Skolkurator, Simrishamn
+C|515658|57|K|Annelie Forslöf|
+C|515659|35|M|Christopher Axelsson Horstmann|
+C|415128|41|M|Jakob Waller|41, Gymnasielärare
+C|515112|44|M|Daniel Palmqvist|
+C|31680|57|M|Lars Lundberg|57 år, Lantmästare/Lärare, Sjöbo
+C|31681|60|K|Anne-Li Roshagen|60 år, Specialistsjuksköterska, Hammenhög
+C|31682|51|M|Per Einarsson|51 år, Vårdpolitiker/Mekaniker, Kristianstad
+C|31683|63|K|Birgitta Södertun|63, fd Regionråd/Barnmorska, Helsingborg
+C|31684|43|M|Magnus Lunderquist|43 år, Personalchef, Staffanstorp
+C|31685|40|K|Maria Berglund|40 år, Verksamhetschef, Bjuv
+C|31686|45|M|Anders Lundström|45 år, Gymnasielärare, Helsingborg
+C|31687|53|M|Paul Frogner Kockum|53 år, Miljöforskare, Simrishamn
+C|31688|65|M|Carl Malmqvist|65 år, Marknadsekonom, Höör
+C|31689|38|M|Carl-Anders Lillås|38 år, Lantmästare, Sjöbo
+C|31690|55|K|Katarina Ståhlberg|55 år, Leg. Sjuksköterska, Sjöbo
+C|31691|18|M|Mohammad Omran|19 år, Student, Ystad
+C|31692|22|K|Caroline Dahlström-Nilsson|22 år, Elevassistent, Veberöd
+C|31693|26|M|Simon Larsson|26 år, Målare, Lövestad
+C|31694|32|M|Alexander Harrison|32 år, Inköpare, Kristianstad
+C|31695|25|K|Elinor Diaz|25 år, Sjuksköterska, Lövestad
+C|31696|28|M|Gustav Hellwig|28 år, Student, Sjöbo
+C|31697|67|M|Göran Göransson|67 år, Företagare, Ystad
+C|31698|47|K|Jozefine Nybom|47 år, Lantmästare/Forskare, Sjöbo
+C|31699|24|M|Anders Jönsson|24 år, Chaufför, Sjöbo
+C|31700|19|M|Oscar Räng Olsson|19 år, Student, Sjöbo
+C|31701|41|K|Sofia Damm|41 år, Riksdagsledamot, Ystad
+C|31728|18|M|Kishor Peneff|19 år, Student, Ystad
+C|31729|31|M|Henrik Gavelin|31 år, Ekomjölkproducent, Lövestad
+C|31733|21|M|Robin Persson|21 år, Museivärd, Malmö
+C|31768|45|K|Cecilia Engström|45 år, Ekonomichef, Helsingborg
+C|59349|64|M|Per-Ola Gunnarsson|64 år, Egenföretagare, Helsingborg
+C|59350|66|M|Henrik Thott|66 år, Egenföretagare, Råå
+C|31770|45|K|Linda Persson|45 år, Ekonomiassistent, Ängelholm
+C|31786|70|M|Christer Unosson|70 år, Socionom, Örkelljunga
+C|31776|54|K|Bodil Andersson|54 år, Massör, Klippan
+C|31777|34|M|Jimmy Johansson|34 år, Officer, Helsingborg
+C|31829|21|M|Johan Björk|21 år, Student, Lund
+C|31954|62|K|Pia Lidwall|62 år, Socionom, Höganäs
+C|31782|56|M|Gunnar Edvardsson|56 år, Entreprenör, Örkelljunga
+C|31787|71|K|Kerstin Larsson|71 år, Fil.kand, Båstad
+C|31785|21|M|Henrik Lindholm|21 år, Student, Höganäs
+C|31779|25|K|Emmely Persson|25 år, Flygvärdinna, Ängelholm
+C|31788|59|K|Barbara Struglics Bogs|59 år, Social.ped./Diakon, Höganäs
+C|31783|55|M|Anders Ivarsson|55 år, Nämndsekreterare, Helsingborg
+C|31789|41|K|Aline De Camargo Olsson|41 år, Företagare, Helsingborg
+C|31780|38|M|Fredrik Johannesson|38 år, Ekonom, Höganäs
+C|59365|62|K|Karin Jensen|62 år, Skolassistent, Råå
+C|59366|27|M|Alexander Kolind|27 år, HR-konsult, Helsingborg
+C|59367|66|M|Hans Sundström|66 år, Kredithandläggare, Åstorp
+C|31772|57|M|Lars Thunberg|57 år, Kommunalråd, Helsingborg
+C|31873|67|K|Ing-Marie Nilsson Axelsson|67, Sjuksköterska, Kristianstad
+C|31824|64|M|Jan Svensson|64 år, Egenföretagare, Kristianstad
+C|31825|74|K|Ulla-Britt Brandin|74 år, fd Rektor, Perstorp
+C|31834|48|M|Pål Nilsson|48 år, Socialentreprenör, Osby
+C|31774|68|K|Christina Borglund|68 år, Lärare, Kristianstad
+C|31826|51|M|Eskil Engström|51 år, Programmerare, Hässleholm
+C|59408|61|K|Marie-Louise Fredin|61, Medicinsk sekreterare, Knislinge
+C|59409|65|M|Tomas Ander|65, Redaktör, Malmö
+C|59410|35|K|Maria Owiredu|35, VD-assistent, Killeberg
+C|31819|33|M|Mattias Svensson|33 år, Politisk sekreterare, Lund
+C|31837|75|M|Robin Gustavsson|75 år, fd Poliskommissarie, Hässleholm
+C|31835|46|K|Aki Svensson|46 år, Maskinoperatör, Östra Göinge
+C|31836|31|K|Johanna Håkansson|31 år, Leg. Receptarie, Kristianstad
+C|31827|49|M|Magnus Nilsson|49 år, Företagare, Östra Göinge
+C|59416|68|M|Christer Caesar|68, Pensionär, Hässleholm
+C|59417|30|K|Elin Mannheimer|30, Teologistuderande, Osby
+C|31790|75|M|Bengt Jarring|75 år, Pensionär, Perstorp
+C|31884|73|M|Niels Peter Lemche|73, Professor emeritus, Huaröd
+C|31767|61|M|Michael Anefur|61 år, Distriktsordförande, Kristianstad
+C|31778|51|K|Kristina Hansen|51 år, Föreståndare LSS, Hörby
+C|31857|32|M|Gustav Lundblad|32 år, Politisk sekreterare, Lund
+C|31799|21|K|Hedvig Åkesson|21 år, Student, Lund
+C|59429|49|M|Åke Jonsson|49 år, Översättare, Svalöv
+C|31784|68|K|Margareta Johansson|68 år, Socionom, Höör
+C|31800|31|M|Mattias Grängzell|31 år, Ombudsman, Staffanstorp
+C|31964|36|K|Kaiza Nilsson|36 år, Säljare, Höör
+C|31810|31|K|Jessica Presits|31 år, Lingvist, Kävlinge
+C|59436|66|M|Peter Rugarn|66 år, Konsult, Löddeköpinge
+C|31807|31|K|Lisa Grängzell|31 år, Ingenjör, Staffanstorp
+C|31771|63|K|Aase Jönsson|63 år, Adm.assistent, Svalöv
+C|59440|38|K|Sandra Vighagen|38 år, Socionom, Hörby
+C|59441|21|M|John Sunnqvist|21 år, Student, Lund
+C|59442|63|M|Ingvar Nordh|63 år, Marknadsekonom, Furulund
+C|59443|21|M|Joel Haglund|21 år, Student, Veberöd
+C|31860|22|K|Julia Stock|22 år, Student, Lund
+C|31808|34|M|Josef Ander|34 år, Polis, Malmö
+C|31797|25|M|Martin Hallander|25 år, Politisk sekreterare, Malmö
+C|31812|20|K|Adele Horn|20 år, Student, Malmö
+C|31858|20|M|Stefan Sarmes|20 år, Student, Svedala
+C|31794|67|M|Torsten Elofsson|67 år, fd Polisintendent, Malmö
+C|59478|70|M|Roger Sidestam|70 år, Leg. Läkare, Malmö
+C|32071|58|M|Mats Svensson|58 år, Säljansvarig, Trelleborg
+C|31850|26|M|Fabian Sivnert|26 år, Student, Vellinge
+C|32070|62|K|Estrid Nimåker|62 år, Ekonomiassistent, Trelleborg
+C|32073|80|K|Birgitta Svensson|80 år, Sekreterare, Trelleborg
+C|32067|71|M|Hans Noren|71 år, Tulltjänsteman, Smygehamn
+C|59641|75|M|Christer Philipson|75 år, fd Polis, Bjärred
+C|32072|75|K|Monica Edström|75 år, Pensionär, Trelleborg
+C|132313|35|K|Sara Rosqvist|Djuruppfödare, Skåne
+C|511306|64|M|Hans Jörgen Holmboe|
+C|513504|47|K|Sophie Holst|
+C|513505|47|M|Bonne Joachim Holst|
+C|38838|54|K|Inger Tolsved Rosenkvist|Torna Hällestad
+C|38839|48|K|Camilla Mårtensen|livsmedelskonsult, Kävlinge
+C|38840|22|M|Karl Philip Nilsson|Landskrona
+C|38841|55|M|Torbjörn Ekelund|Teckomatorp
+C|38842|43|K|Camilla Knobblock|Landskrona
+C|38843|54|M|Robert A Barnes|Lund
+C|38844|53|K|Marie Keismar|Hörby
+C|38845|62|M|Björn Magnusson|Hjärup
+C|38846|35|K|Jelena Dojcinovic|Landskrona
+C|38847|56|K|Lena Benediktsson|Landskrona
+C|38848|28|K|Josefine Temrell|Lund
+C|38849|46|M|Mikael Sparrhult|Höör
+C|38850|36|K|Astrid Nilsson|Billinge
+C|38851|47|K|Sonja Ivkovic|Kävlinge
+C|38852|48|K|Elisabeth Andersson|Svalöv
+C|38853|59|M|Mikael Juul Sörensen|Kävlinge
+C|38854|65|K|Eva Bengtsson|Barsebäck
+C|38855|67|M|Göran Larsson|Löddeköpinge
+C|38856|48|K|Gisela Nilsson|Hjärup
+C|38857|61|M|Bengt Petersson|Landskrona
+C|38858|45|K|Malin Flankör|Hjärup
+C|38859|46|M|Gilbert Tribo|Kristianstad
+C|55019|46|K|Susanne Bäckman|Bromölla
+C|55173|49|M|Daniél Tejera|Åhus
+C|55139|58|K|Agneta Olsson Enochsson|Vankiva
+C|55175|54|M|Radovan Javurek|Åhus
+C|143583|58|M|Nicola Rehnberg|
+C|55472|67|K|Ytte Hjert|Sibbhult
+C|55187|48|M|Kim Nurmi|Degeberga
+C|55183|37|M|Ola Forslin|Fjälkinge
+C|55174|19|K|Henny Tillberg|Kristianstad
+C|55177|49|M|Anders Fredriksson|Kristianstad
+C|143589|74|M|Staffan Lutterdal|Osby
+C|55172|49|K|Kamilla Danielsson|Kristianstad
+C|55148|68|M|Hans J Werner|Tyringe
+C|55189|45|M|Per-Ingvar Nilsson|Kristianstad
+C|55145|53|K|Marianne Littke|Ballingslöv
+C|55180|82|K|Anna-Kerstin Larsson|Kristianstad
+C|163003|51|M|Henrik Silfverstolpe|Klagstorp
+C|178256|49|M|Måns Weimarck|Höllviken
+C|178257|31|K|Frida Svensson|Skanör
+C|178258|54|K|Anna-Karin Herbert Hwang|Bara
+C|63500|62|M|Mats Lithner|Åkarp
+C|69095|38|K|Sandra Pilemalm|Lomma
+C|163017|42|K|Tina Järvenpää|Trelleborg
+C|178262|32|M|Andreas Johansson|Vellinge
+C|163011|20|M|Oskar Spetz|Trelleborg
+C|178264|77|K|Gunilla Lundström|Lomma
+C|63501|41|M|Kristoffer Daag|Arlöv
+C|163015|45|M|Henrik Antonio Monés|Trelleborg
+C|63505|35|K|Marie Pegelow|Åkarp
+C|178268|73|M|Bertil Wilén|Höllviken
+C|163008|43|M|Jonas Ralving|Anderslöv
+C|163009|71|K|Ylva Ekstrand|Trelleborg
+C|49211|41|K|Malin Henriksson|jur kand, Simrishamn
+C|55288|66|K|Charlotte Ramel-Andersson|Sjöbo
+C|112532|68|M|Hans Hulthén|Ystad
+C|178988|70|M|Åke Andrén-Sandberg|Borrby
+C|261683|67|K|Eva Hallmer Lindahl|Abbekås
+C|261684|68|M|Anders Albäck|Brösarp
+C|178981|67|M|Christer Hallerby|Simrishamn
+C|261551|50|K|Charlotte Larkin|Tomelilla
+C|261157|67|K|Kerstin Peterson-Brodda|Skurup
+C|115798|47|M|Christer Sörliden|Allerum
+C|55359|45|K|Åsa Holmén|Åstorp
+C|55154|45|K|Louise Stjernquist|Höganäs
+C|55404|62|K|Kerstin Lingebrant|Ängelholm
+C|115799|63|M|Mats Werne|Helsingborg
+C|55400|63|K|Charlotte Engblom-Carlsson|Ängelholm
+C|115806|73|M|Magnus Grill|Råå
+C|56191|65|K|Iréne Dahl|Klippan
+C|63565|51|M|Mats Lundberg|Båstad
+C|63679|64|K|Ingrid Edman Nilsson|Örkelljunga
+C|55402|54|K|Anita Rosén|Ängelholm
+C|55155|64|K|Ros-Mari Paulsson|Skäret
+C|115808|61|M|Per Johansson|Helsingborg
+C|55405|69|M|Sonny Rosén|Ängelholm
+C|38223|39|K|Louise Eklund|doktor i historia, Malmö
+C|38743|66|K|Cristina Glad|Konsult, 66 år
+C|38744|70|K|Ewa Bertz|F.d. egen företagare, 70 år
+C|38229|33|M|Sirwan Dabagh|Trafikingenjör, 33 år
+C|38226|65|K|Anneli Bojesson|Civilekonom, 65 år
+C|38236|28|M|Alexander Werne|Ingenjör i kemiteknik, 28 år
+C|38235|24|K|Amanda Onsberg Brumark|Statsvetare, marknadsassistent, 24 år
+C|38240|33|M|Aram Mahmoud|Tjänsteman, 33 år
+C|38232|77|K|Ulla Herbert|Lärare, 77 år,
+C|38234|55|M|Lars Hellström|Affärschef, 55 år
+C|38752|48|M|Jacob Branting|Samordnare, 48 år
+C|38753|64|K|Gunilla Tynell|Lärare, 64 år
+C|38224|32|M|Roko Kursar|Statstjänsteman, 32 år
+C|38242|58|M|Azad Amin|Chip programmerare, 58 år
+C|38241|67|M|Arne Bojesson|Civilekonom, 67 år
+C|38237|73|M|Tore Robertsson|Företagare, 73 år
+C|38244|65|K|Monica Hildingson|Civilingenjör, 65 år
+C|38239|62|K|Marianne Friedman|Kurator, 62 år
+C|38243|54|K|Sofia Borg|Kanslist på Liberalerna, 54 år
+C|38762|75|K|Ann Christin Gaskell-Brown|Yrkeslärare Gymnasium, 75 år
+C|38763|64|M|Stefan Pettersson|Civilekonom, 64 år
+C|38246|64|K|Gun Rosenlund Chrintz-Gath|Specialpedagog, 64 år
+C|124844|40|M|Ilan Sadé|40, Chefsjurist, Malmö
+C|128525|45|K|Anna Jung|45, Landsbygdsföretagare, Skåne
+C|128564|38|M|Edward Nordén|38, Jordbrukare, Skåne
+C|187740|69|M|Göran Dandelo|69, civilekonom, Kristianstad
+C|128540|34|M|Andreas Nurbo|34, Egenföretagare, Malmö
+C|124847|43|M|Mons Krabbe|43, Säkerhetspolitisk konsult, Skåne
+C|187818|47|M|Oskar Hagberg|47, statistiker, Lund
+C|187819|50|M|Thomas Abrahamsson|50, lantbrukare, Ivö
+C|128575|50|M|Ola Larsson|50, Civilekonom, Skåne
+C|187943|68|M|Torsten Jönsson|69, sales manager, Höör
+C|187944|31|M|Mårten Nilsson|31, civilingenjör, Helsingborg
+C|187945|47|M|Göran Dybner|47, egenföretagare, Helsingborg
+C|187971|24|M|Alexander Seth|24, statsvetare, Gantofta
+C|187972|44|M|Christian Lundmark|44, systemutvecklare, Bara
+C|187973|46|M|Fredrik Ingvarsson|46, egenföretagare, Hörby
+C|187974|44|M|Jonas Olsson|44, civilekonom, Malmö
+C|188053|24|M|Nils Åström|24, civilingenjör, Lund
+C|188054|50|K|Helene Manger|50, administrativ chef, Malmö
+C|188055|41|M|Henrik Jonsson|41, lärare, Lund
+C|21197|44|K|Mätta Ivarsson|Regionråd, 44 år, Dalby
+C|17256|62|M|Thomas Hansson|Landskapsarkitekt, 62 år, Rörum
+C|20741|60|K|Angela Everbäck|Marknadschef, 60 år, Höllviken
+C|17260|38|M|Fredrik Hanell|Doktorand, 38 år, Höör
+C|17255|31|K|Ida Nilsson|Studerande, 31 år, Kristianstad
+C|19559|61|M|Thomas Eng|Konsult, 61 år, Åhus
+C|17329|44|K|Dolores Öhman|Jurist och miljövetare, 44 år, Hässleholm
+C|20811|63|M|Stefan Edenborg|Egenföretagare, 63 år, Tollarp
+C|17257|44|K|Irena Långberg|Speciallärare, 44 år, Perstorp
+C|20817|36|K|Helena Olofsson Winter|Kommunikatör, 36 år, Kristianstad
+C|17331|59|K|Margaret Engdahl|Humanekolog, 59 år, Osby
+C|20819|46|K|Linda Pettersson|Integrationsarbetare, 46 år, Kristianstad
+C|20820|27|K|Arberesha Sabani|Lärare, 27 år, Hässleholm
+C|17259|61|K|Lis-Beth Wiberg|Företagare, 61 år, Perstorp
+C|20822|33|K|Linnéa Skoogh|Socionom, 33 år,Kristianstad
+C|20823|67|K|Angelika Andersson|Distriktssköterska, 67 år, Landskrona
+C|20824|37|M|Jouni Borglund|socionom, 37 år, Värnhem
+C|20743|34|K|Emma Nilsson|Miljöstrateg, 34 år, Ystad
+C|20826|57|M|Kjell Stjernholm|Utvecklingsledare, 57 år, Tågarp
+C|20747|20|K|Amanda Müller|Servitris, 20 år, Lund
+C|19823|40|M|Lars Ahlfors|IT-konsult, 40 år, Eslöv
+C|20829|25|K|Isabella Iman Al khafaji|förskollärare, 25 år, Möllevången
+C|19824|43|M|Johan Lambreus Mattsson|Lärare, 43 år, Lund
+C|20776|37|K|Maria Zingmark|Kommunvägledare, 37 år, Staffanstorp
+C|21591|65|M|Lars Lundström|Civilingenjör, 65 år, Barsebäck
+C|20803|63|K|Birgitta Kuylenstierna Nadel|Utbildare, 63 år, Lund
+C|19825|50|M|Jörgen Leufstedt|Småbrukare/Rådgivare, 50 år, Hörby
+C|21594|46|K|Teresia Ställborn|Organisationsutvecklare, 46 år, Lund
+C|21595|44|M|David Wittlock|Marknadsföringskonsult, 44 år, Staffanstorp
+C|20800|35|K|Anette Mårtensson|Biokemist, 35 år, Lund
+C|19563|69|M|Roland Thord|Teknologie doktor, 69 år, Simrishamn
+C|19819|52|K|Mirjana Stakovska|Undersköterska, 52 år, Eslöv
+C|22045|57|K|Lena Östholm-Munkberg|Utvecklare/Sjuksköterska, 57 år, Helsingborg
+C|22062|50|M|Jörgen Bjerknäs|Driftingenjör, 50 år, Klippan
+C|19807|55|K|Annika Román|Kommunalråd, 55 år, Helsingborg
+C|19822|36|M|Thomas Rödin Hulth|Journalist, 36 år, Ramlösa
+C|19821|28|K|Sofia Kamlund|Doktorand, 28 år, Helsingborg
+C|22068|64|M|Ingemar Hertting|Rektor, 64 år, Lerberget
+C|22069|44|K|Madeléne Ekelund|Socionomkonsult, 44 år, Örkelljunga
+C|22086|68|K|Ulla Magnusson|Lärare, 68 år, Ängelholm
+C|22088|37|K|Ann-Cathrin Hellsén|Utvecklingsingenjör, 37 år, Höganäs
+C|22089|39|K|Samra Dedic|Gymnasielärare, 39 år, Helsingborg
+C|21549|67|M|Jerry Bergström|Pensionär, 67 år, Skåne Tranås
+C|20772|41|K|Maria Ivansson|Projektledare, 41 år, Rydsgård
+C|20775|46|M|Nicklas Ljungström|Ekonom, 46 år, Ystad
+C|21552|70|K|Ann Touré|Senior, 70 år, Gyllebo
+C|21554|67|K|Inger Torstensdotter Åhlin|Kommunantikvarie, 67 år, Tygelsjö
+C|20799|76|M|Jan Friheden|Ekoodlare, 76 år, Sjöbo
+C|21556|63|K|Margareta Fries|Distanslärare, 63 år, Röddinge
+C|21557|44|M|Mikael Holmberg|Projektledare, 44 år, Tomelilla
+C|21558|63|K|Solveig Falk|Egenföretagare, 63 år, Skåne Tranås
+C|21559|55|M|Claes Melin|Egenföretagare, 55 år, Tomelilla
+C|21560|48|K|Sonja Valtonen Sköld|Socionom, 48 år, Ystad
+C|21561|65|M|Sven Åkerblom|Ekobonde, 65 år, Vollsjö
+C|19566|62|K|Lotta Hedström|Egenföretagare, 62 år, Andrarum
+C|20798|68|K|Aina Andersson|Pensionär, 68 år, Trelleborg
+C|20742|37|M|Emil Samnegård|Politisk sekreterare, 37 år, Trelleborg
+C|21313|42|M|Vlado Somljacan|Kommunfullmäktigeordförande, 42 år, Arlöv
+C|21314|41|M|Martin Gustafsson|Egenföretagare, 41 år, Bara
+C|21315|53|K|Madeleine Arderup|Rektor, 53 år, Skanör
+C|21518|68|M|Rolf Bengtsson|Pensionär, 68 år, Åkarp
+C|21519|30|K|Anne-Sophie Samnegård|Sjuksköterskestudent, 30 år, Trelleborg
+C|21520|55|M|Peo Valastig|Speciallärare, 55 år, Holmeja
+C|21521|36|K|Caroline Gudmé|Studerande, 36 år, Arlöv
+C|21522|51|M|Tomas Tigerschiöld|Bilarbetare, 51 år, Trelleborg
+C|21523|45|K|Salomé San Miguel|Civilingenjör, 45 år, Trelleborg
+C|20777|53|M|Jan Björkman|Studerande, 53 år, Vellinge
+C|21525|60|K|Sylvia Rådelius|Marknadsekonom, 61 år, Skanör
+C|21526|71|M|Jan Rydén|Hortonom, 71 år, Lomma
+C|21527|37|K|Therese Wallin|Miljöingenjör, 37 år, Bara
+C|21528|69|K|Ann Stenberg|Volontär, 69 år, Höllviken
+C|21529|70|K|Ann-Marie Lundberg|Pensionär, 70 år, Lomma
+C|109147|42|M|Kami Petersen|politisk sekreterare, 42 år, Rådmansvången
+C|109148|51|K|Kristina Aurell|socionom, 51 år, Västra hamnen
+C|109134|32|K|Louise Arndt|arbetsförmedlare, 32 år, Dammfri
+C|109310|36|M|Janne Grönholm|freds- och konfliktvetare, 36 år, Limhamn
+C|109138|51|K|Asma Saleh|biomedicinsk analytiker, 51 år, Fosie
+C|109322|47|M|Lucas Carlsson|systemutvecklare, 47 år, Fågelbacken
+C|109146|29|K|Karolin Johansson|hållbarhetssamordnare, 28 år, Kulladal
+C|109135|30|M|Måns Berger|politisk sekreterare, 30 år, Möllevången
+C|109319|42|K|Marie Ridell|socionom, 42 år, Limhamn
+C|109137|41|M|Lutfi Zuta|it-tekniker, 41 år, Rosengård
+C|109149|28|K|Emelie Edström|planarkitekt, 28 år, Östra Sorgenfri
+C|109143|30|M|Mårten Espmarker|arkitekt, 29 år, Sorgenfri
+C|109327|33|K|Annika Elwert|forskare, 33 år, Östervärn
+C|109330|62|M|Carl-Erik Flodmark|barnläkare, 62 år, Ribersborg
+C|109917|41|K|Lisa Luckman|energispecialist, 40 år, Innerstaden
+C|145920|31|M|Michael-Jay Andersson|förskollärare, 31 år, Limhamn
+C|56717|52|M|Pontus Lindberg|52 år, omvärldsanalytiker, regionråd, Skepparslöv
+C|56699|38|K|Caroline Hedenström|38 år, leg. tandhygienist, Åhus
+C|52771|64|K|Karin Axelsson|63 år, socionom, Hässleholm
+C|63971|34|K|Camilla Westdahl|34 år, civilekonom, Immeln
+C|52774|69|M|Douglas Roth|69 år, jur. kand., Hässleholm
+C|191878|53|M|Jonas Duveborn|53 år, journalist, Åhus
+C|52769|54|M|Lars Johnsson|54 år, advokat, Hästveda
+C|52789|48|M|Urban Widmark|48 år, rektor, Hässleholm
+C|52788|53|M|Johan Berglund|53 år, leg. sjuksköterska, Tyringe
+C|194226|30|K|Adéle Ceimertz|30 år, redovisningsekonom, Kristianstad
+C|194227|62|M|Jerker Westdahl|62 år, överstelöjtnant, Dönaberga
+C|52787|45|M|Jörgen Nilsson|45 år, energitekniker, Bjärnum
+C|51877|51|K|Malin Friberg|51 år, verksamhetschef, Bromölla
+C|194230|51|K|Kristina Berglund|51 år, tullinspektör, Tyringe
+C|62960|45|K|Jenny Delén|45 år, präst, Oderljunga
+C|59806|42|M|Lars-Anton Ivarsson|42 år, skogsförvaltare, Osby
+C|52772|22|M|Kenny Hansson|22 år, privatrådgivare, Hässleholm
+C|52790|36|K|Lynn Thulin|36 år, politisk sekreterare, Tyringe
+C|191881|73|M|Göran Sevebrant|73 år, revisor, Åhus
+C|52786|72|K|Maija-Liisa Grönn Mogensen|72 år, f.d. KV insp., Vankiva
+C|51878|39|M|Stefan Sturesson|39 år, specialistsjuksköterska, Bromölla
+C|194238|20|M|Samuel Jonsson|20 år, student, Tjörnarp
+C|62963|20|M|Kasandro Murad|20 år, företagare, Perstorp
+C|52777|68|K|Margreth Segerstein|68 år, specialisttandläkare, Hässleholm
+C|56702|62|K|Sylvia Olander|62 år, specialistsjuksköterska, Degeberga
+C|51882|76|M|Gert-Åke Bengtsson|76 år, universitetslektor, Bromölla
+C|52796|60|K|Márika Bernadt|60 år, tolk, Västra Torup
+C|63981|38|M|Jon Marin|38 år, företagare, Glimåkra
+C|61444|24|K|Julia Persson|24 år, politisk sekreterare, Helsingborg
+C|61445|22|M|Alexander Svensson|22 år, pol. sek., Helsingborg
+C|61466|30|K|Matilda Malmgren|30 år, trafikutvecklare, Helsingborg
+C|61450|24|K|Jacqueline Engström|24 år, studerande, Helsingborg
+C|194271|24|M|Fredrik Häck Björklund|24 år, skadereglerare, Helsingborg
+C|61940|28|M|Dan Ishaq|28 år, projektledare, Lund
+C|58099|25|K|Farishta Sulaiman|25 år, studerande, Malmö
+C|194274|24|M|Albin Schyllert|24 år, studerande, Malmö
+C|58109|21|K|Sasha Steneram|21 år, studerande, Malmö
+C|194278|21|M|Carl Eneroth|21 år, universitetsstudent, Lund
+C|61964|22|M|Felix Solberg|22 år, läkarstudent, Lund
+C|194281|26|K|Linnea Regnéll|26 år, sjuksköterska, Bjärred
+C|62535|27|M|Ib Rundqvist|27 år, studerande, Trelleborg
+C|194283|25|M|Lucas Löwenäng|25 år, skadereglerare, Malmö
+C|59860|19|K|Hanna Persson|19 år, studerande, Simrishamn
+C|194286|23|M|Jakob Nilsson|23 år, juriststudent, Lund
+C|61939|21|K|Christine Ohlsson|21 år, juriststudent, Lund
+C|58120|18|M|Oskar Månsson|18 år, studerande, Limhamn
+C|52794|20|M|Axel Heinonen|20 år, handläggare, Hässleholm
+C|56540|20|K|Hanna Dalhusen|20 år, studerande, Höör
+C|52792|19|M|Erik Berg|19 år, egenföretagare, Hässleholm
+C|194292|22|K|Emelie Carlsson|22 år, undersköterska, Hässleholm
+C|61935|59|M|Mats Helmfrid|59 år, småföretagare, Lund
+C|60623|38|M|Christian Sonesson|38 år, kommunalråd, Staffanstorp
+C|198350|73|K|Annika Annerby Jansson|73 år, fil. kand., Lund
+C|56790|45|K|Annsofie Thuresson|45 år, civilekonom, Loddekopinge
+C|60762|62|K|Charlotte Wachtmeister|62 år, fil. kand., Kågeröd
+C|61936|65|K|Louise Rehn Winsborg|65 år, ekonom, Dalby
+C|56532|57|K|Anna Palm|57 år, kommunalråd, Höör
+C|61934|60|M|Christer Wallin|60 år, kommunalråd, Lund
+C|61943|41|M|Adrian Borin|41 år, ombudsman, Lund
+C|60626|43|K|Åsa Ekstrand|43 år, lärare, Staffanstorp
+C|56353|45|K|Eva Lindholm|45 år, företagare, Hörby
+C|61938|40|M|Birger Swahn|40 år, ekonom, Lund
+C|56537|48|K|Camilla Kampf|48 år, företagare, Höör
+C|198362|46|M|Ronny Johannessen|46 år, konsult, Lund
+C|56927|63|M|Hans Raita|63 år, civilekonom, Landskrona
+C|56535|34|M|Johan Svahnberg|34 år, civilekonom, Höör
+C|61948|31|M|Alexander Lewerentz|31 år, fil. dr geologi, Lund
+C|61941|68|M|Göran Wallén|68 år, f.d. kriminalvårdschef, Lund
+C|198367|62|K|Ann-Cathrine Hjert|62 år, försäkringsspecialist, Hjärup
+C|60752|36|K|Angelie Fröjd|36 år, kommunikationskonsult, Svalöv
+C|59750|53|M|Rikard Malmborg|53 år, gruppchef, Marieholm
+C|61961|45|M|Magnus Ekblad|45 år, verksamhetscontroller, Lund
+C|61966|32|M|Alexander Wallin|32 år, civilingenjör, Lund
+C|61967|53|M|Tomas Arvidsson|53 år, infrastrukturrådgivare, Lund
+C|61944|53|M|Klas Svanberg|53 år, jur. kand, Veberöd
+C|60633|37|M|Pierre Lindberg|37 år, ek. kand., Staffanstorp
+C|61972|42|M|Erik Nordin|42 år, säljchef, Dalby
+C|61983|77|K|Dagmar Gärtner|77 år, studerande, Dalby
+C|192092|38|M|Andreas Murphy|38 år, läkare, Saxtorp
+C|56536|54|M|Lars-Håkan Persson|54 år, brandman, Höör
+C|198381|69|M|Björn Öqvist|69 år, Lund
+C|59746|48|M|Bo-Göran Hansen|48 år, konsult, Eslöv
+C|198383|66|M|Lennart Nilsson|66 år, kronokommissarie, Södra Sandby
+C|56356|73|M|Anders Malmgren|73 år, ingenjör, Hörby
+C|59756|57|M|Arvid Frandsen|57 år, programmerare, Gårdstånga
+C|60646|65|M|Johnny Funch|65 år, utvecklingssamordnare, Staffanstorp
+C|199246|40|M|Carl Johan Sonesson|40 år, fil. kand., regionråd
+C|58092|27|M|John Eklöf|27 år, studerande
+C|58098|34|K|Helena Grahn|34 år, hovmästare
+C|58089|49|M|John Roslund|49 år, MaNo 4-9 lärare
+C|58091|31|M|Tony Rahm|31 år, civilekonom
+C|58093|44|K|Anja Sonesson|44 år, jur. kand.
+C|58095|59|M|Peter Ollén|59 år, publisher
+C|199253|71|K|Cornelia Björklund - Röjner|71 år, verksamhetschef
+C|58114|62|K|Danica Srnic|62 år, lärare
+C|58104|69|K|Lilian Gerleman|69 år, f.d. kammaråklagare
+C|58094|51|M|Nicola Rabi|51 år, marknadsekonom
+C|58105|30|M|Darko Simic|30 år, ombudsman
+C|58112|67|K|Anna Adell|67 år, leg tandläkare
+C|58118|47|M|Petter Naef|47 år, fil. mag. informationslogistik
+C|58116|60|M|Peter J Olsson|60 år, redaktör
+C|58126|31|K|Katarina Kasmarvik|31 år, lärare
+C|58107|70|M|Göran Wiberg|70 år, revisor
+C|58135|68|M|Haqvin Svensson|68 år, civilekonom
+C|58133|71|K|Viveka Hägg|71 år, ekonom
+C|58115|60|M|Peter Langerbeck|60 år, ekonom
+C|58125|66|M|Peter Österlin|66 år, marknadsekonom
+C|58130|49|M|Richard Nicander|49 år, civ. ek.
+C|58119|63|M|Roger Parmstrand|63 år, egen företagare
+C|62686|47|K|Carina Wutzler|47 år, kommunalråd, Skanör
+C|60912|61|K|Gunilla Nordgren|61 år, civilekonom, Skabersjö
+C|62688|59|K|Anna Mannfalk|59 år, civilekonom, Höllviken
+C|62529|65|M|Lars Mikkelä|65 år, IT-konsult, Smygehamn
+C|57212|31|K|Emma Köster|31 år, gymnasielärare, Lomma
+C|62701|65|M|Lars-Ingvar Ljungman|65 år, tandläkare, Ljunghusen
+C|60903|45|K|Linda Allansson Wester|45 år, kommunalråd, Bara
+C|62695|45|K|Ulrica Fors Stenmarck|45 år, politisk sekreterare, Skanör
+C|62537|44|M|Fredrik Schlyter|44 år, projektledare, Trelleborg
+C|52136|68|M|Nils Holmqvist|68 år, egenföretagare, Åkarp
+C|57227|49|K|Charlott Enocson|49 år, HR-konsult, Lomma
+C|62692|41|K|Anna Tinglöf|41 år, COO, Vellinge
+C|60905|63|M|Per Mattsson|63 år, civilingenjör, Svedala
+C|62707|38|K|Mavis Zander|38 år, leg. röntgensjuksköterska, Vellinge
+C|62532|60|M|Göran Gärtner|60 år, IT-administratör, Trelleborg
+C|62703|51|K|Catarina Wictorsson|51 år, leg. sjuksköterska, Vellinge
+C|62708|59|M|Lars Olin|59 år, byggnadsingenjör, Höllviken
+C|62714|54|M|Martin von Gertten|54 år, brandmästare, Vellinge
+C|62724|65|M|Patrik Åkesson|65 år, advokat, Skanör
+C|57249|40|K|Caroline Lindberg|40 år, kommunikationskonsult, Bjärred
+C|57258|63|M|Bengt Göransson|63 år, pensionär, Lomma
+C|62538|61|M|Roger Persson|61 år, specialidrottstränare, Trelleborg
+C|62539|45|M|Jonas Bjunö|45 år, kurator, Trelleborg
+C|62739|47|K|Anette Clair|47 år, egen företagare, Höllviken
+C|62533|65|M|Håkan Sjöberg|65 år, projektledare, Trelleborg
+C|62528|54|M|Mikael Rubin|54 år, oppositionsråd, Trelleborg
+C|200033|66|M|Christian Idström|66 år, seniorkonsult, Flädie
+C|59891|70|M|Stefan Lamme|70 år, överläkare, Kivik
+C|63077|46|K|Kristina Bendz|46 år, företagare, Glemmingebro
+C|62168|51|M|Per-Martin Svensson|51 år, ingenjör, Gärarp
+C|59856|62|M|Christer Akej|62 år, civilingenjör, Hammenhög
+C|60487|34|K|Åsa Ekblad|34 år, statsvetare, Skivarp
+C|60173|67|M|Kent Ivan Andersson|67 år, officer, Sjöbo
+C|63079|61|K|Gunilla Andersson|61 år, företagare, Ystad
+C|59858|56|M|Anders Johnsson|56 år, företagare, Rörum
+C|59863|45|M|Frederick Thott|45 år, brandman, Simrishamn
+C|63082|61|K|Cecilia Fahlborg|61 år, arbetsmarknadshandläggare, Ystad
+C|63088|44|M|Olof Jolom|44 år, entreprenör, Lilla Köpinge
+C|63096|47|K|Paula Nilsson|47 år, biträdande rektor, Ystad
+C|60486|36|M|Johan Bolinder|36 år, marknadschef, Rydsgård
+C|62175|74|K|Margith Svensson|74 år, f.d. upphandlingschef, Smedstorp
+C|60489|67|M|Björn Hortevall|67 år, företagare, Skivarp
+C|60191|65|K|Gunborg Johansson|65 år, undersköterska, Lövestad
+C|60495|60|K|Kristina Andersson|60 år, grundskollärare, Skivarp
+C|60491|28|M|Martin Hansson|28 år, avdelningsledare, Skurup
+C|60488|37|M|Nicklas Olsson|37 år, egen företagare, Skurup
+C|61438|41|K|Anna Jähnke|41 år, kommunalråd, Helsingborg
+C|63352|29|M|Robin Holmberg|29 år, kommunalråd, Ängelholm
+C|192071|34|K|Ulrika Heindorff|jurist, Skåne läns västra
+C|50945|52|K|Ann-Charlotte Hammar Johnsson|52 år, skolledare, riksdagsledamot, Billesholm
+C|63896|56|K|Carina Zachau|56 år, kommunalråd, Örkelljunga
+C|69160|68|M|Hans Bertil Sinclair|68 år, f.d. flygvapenofficer, Klippan
+C|63356|66|K|Elisabeth Kullenberg|66 år, barnläkare, Ängelholm
+C|61447|63|K|Marie Weibull Kornias|63 år, undersköterska, Helsingborg
+C|192074|51|K|Feliz Kino|51 år, redovisningskonsult, Helsingborg
+C|54980|54|M|Anders Ståhl|54 år, politisk sekreterare, Lerberget
+C|61441|55|M|Mats Sander|55 år, flygvapenofficer, Helsingborg
+C|192843|46|M|Jan Olof Carlson|46 år, förstelärare, Klippan
+C|52501|68|M|Christer de la Motte|68 år, pensionerad socialchef, Båstad
+C|63355|64|M|Tomas Fjellner|64 år, brigadgeneral (ret), Ängelholm
+C|63353|51|M|Sven-Ingvar Borgquist|51 år, lantbrukare, Ängelholm
+C|50944|62|M|Bertil Olsson|62 år, chaufför, Bjuv
+C|192848|30|K|Ulrika Dakouri|30 år, utbildningssekreterare, Malmö
+C|61461|52|K|Suzana Axeheim|52 år, kommunikatör, Ramlösa
+C|61449|52|M|Kristian Anderson|52 år, grafisk formgivare, Helsingborg
+C|192851|80|M|Carl-Johan Carlborg|80 år, civilekonom, Helsingborg
+C|61471|49|M|Nihad Sarajlic|49 år, elingenjör, Helsingborg
+C|63364|67|M|Jan Sewring|67 år, företagare, Ängelholm
+C|63357|59|K|Ingela Sylwander|59 år, företagare, Ängelholm
+C|61452|49|K|Ann-Charlotte Svärd|49 år, civilekonom, Helsingborg
+C|63367|54|K|Susanne Resmark|54 år, operasångerska, Ängelholm
+C|61462|50|M|Anders Cato|50 år, polisinspektör, Helsingborg
+C|63366|72|M|Karl-Erik Asp|72 år, företagare, Ängelholm
+C|63362|58|M|Anders Davidsson|58 år, journalist, Ängelholm
+C|61460|70|M|Hans Svedell|70 år, speciallärare, Helsingborg
+C|61472|46|M|Martin Brolin|46 år, key account manager, Gantofta
+C|61463|77|K|Kristina Filipson Jonsson|77 år, talpedagog, Helsingborg
+C|61459|49|M|Patrik Bellner|49 år, arbetsförmedlare, Fleninge
+C|63376|31|K|Maria Cronkvist|31 år, advokat, Ängelholm
+C|61467|44|K|Alexandra Cato|44 år, leg. fysioterapeut, Helsingborg
+C|192866|76|M|Johan Fischer|76 år, leg. läkare, Nyhamnsläge
+C|63370|52|M|Per Skantz|52 år, sjukhusvaktmästare, Ängelholm
+C|63384|61|K|Katrina Dakouri|61 år, biomedicinsk analytiker, Ängelholm
+C|52493|68|M|Gösta Sandgren|68 år, f.d. personaldirektör, Förslöv
+C|54987|70|M|Ingemar Narheim|70 år, läkare, Arild
+C|63887|47|K|Theresa Lindahl|47 år, egen företagare, Skånes Fagerhult
+C|79636|64|M|Ulf Jiewertz|64 år, teolog, Västra Karup
+C|192089|43|M|Henrik Lundquist|43 år, biomedicinsk analytiker, Råå
+C|449212|44|M|Jan-Erik Malmquist|44, Civilingenjör, Lund
+C|449492|19|K|Michaela Ljungstrand|19, Malmö
+C|449491|28|M|Christoffer Eldengrip|28, Malmö
+C|450696|28|M|Michael Andersson|28, Hamnarbetare, Landskrona
+C|449214|23|M|Wilhelm Wijkander|23, Systemadministratör, Lund
+C|449493|35|M|Ronny Nord|36, Trafiktjänsteman, Malmö
+C|450699|19|M|David Öhrström|19
+C|449494|23|K|Alicia Deodorson|24
+C|449216|31|K|Maj Stenmark|31, Tekn.dr. i datavetenskap, Lund
+C|449213|24|M|Mattias Rubenson|24, Lund
+C|449218|23|M|Måns Magnusson|24, Student, Lund
+C|449215|24|M|Markus Oskarsson|24, Student, Lund
+C|450705|66|M|Ingvar Kullberg|67, Pensionär
+C|428408|74|M|Carl P Herslow|Författare till boken "OM ISLAM till all världens 9-åringar"
+C|428409|76|K|Britt Borronha|Undersköterska
+C|428410|87|M|Horst Werder|Sjökapten
+C|428411|76|M|Alf Olsson|Lantbrukare
+C|428412|76|M|Kjell Magnusson|Pensionär
+C|428413|35|M|Andreas Karlsson|Byggföretagare
+C|428414|75|K|Maude Holmgren|Samtalsterapeut
+C|428415|80|M|Lennart Hoff|Datakonsult
+C|428416|66|M|Roman Kasprzyk|Programmerare
+C|428417|63|K|Wanda Vesterberg|Affärsbiträde
+C|428418|86|M|José Borronha|Montör
+C|428419|73|K|Inger Johansson|Kontorist
+C|428420|77|K|Britt Jönsson|Pensionär
+C|428421|82|M|Sven Nilsson|Förvaltare
+C|428422|68|K|Lisbeth Persson|Ekonomiassistent
+C|428423|46|M|Adrian Ursu|Charkuterist
+C|428424|76|K|Marianne Månsson|Pensionär
+C|428425|78|M|Berthil Larsson|Försäljare
+C|428426|73|M|Bo Andersson|Maskiningenjör
+C|428427|82|K|Inga-Lill Kristoffersson|Kontorist
+C|428428|81|K|Gunvor Walter|Undersköterska
+C|428429|88|K|Rut Mårtensson|Pensionär
+C|428430|50|M|Andreas Jensen|Pensionär
+C|428431|71|K|Jane Brandin-Nielsen|Pensionär
+C|428432|71|M|Åke Johannesson|Representant
+C|66826|72|M|Mats Erlandsson|Överläkare, 72
+C|66797|56|M|Jörgen Grubb|Projektledare, Malmö
+C|66796|42|M|Magnus Olsson|Kommunalråd, 42 år
+C|66825|67|M|Staffan Appelros|Direktör, 67 år
+C|66804|46|M|Lars-Johan Hallgren|Säljare, Malmö
+C|273980|29|K|Jacqueline Maly|Barnsköterska, 29 år
+C|66828|52|K|Åsa Ahnfeldt|Projektadministratör, 52 år
+C|66817|58|M|Stefan Greschner|Brandman, 58 år
+C|66814|34|M|Alexander Lagerroth|Studerande, 34 år
+C|66836|61|M|Peter Jangbro|Undersköterska, 61 år
+C|66830|54|K|Mette Lisberg|Verksamhetsassistent, 54 år
+C|66821|40|M|Ola Johansson|Väktare, 40 år
+C|66801|65|M|Rickard Åhman-Persson|Jur.kand, Malmö
+C|273988|71|M|Tonni Andersson|F.d. sjöbefäl, 71 år
+C|66798|66|K|Lisbeth Persson-Ekström|Systemförvaltare, Malmö
+C|66806|71|M|Ilvars Hansson|Elektroingenjör/Egenföretagare, Malmö
+C|66824|38|M|Ulf Blomström|Fabriksarbetare, 38 år
+C|66829|62|M|Christer Arkemyr|Pensionär, 62 år
+C|66811|42|M|Patrick Angelin|Service agent, 42 år
+C|66823|59|M|Michael Pleym|Åklagare, 59 år
+C|66819|57|K|Britt-Marie Nilsson|Verksamhetsledare, 57 år
+C|66813|62|M|Christer Bengtsson|Socionom, 62 år
+C|66809|69|M|Stefan Claesson|Pensionär, 69 år
+C|66808|41|M|Michael Hård af Segerstad|Reparatör, 41 år
+C|66818|47|M|Håkan Andersson|Maskiningenjör, 47 år
+C|66831|18|K|Hanna Grubb|Studerande, 18 år
+C|66832|74|M|Ortwin Lobbes|Tekniker, 74 år
+C|66838|43|M|Stefan Kramer|Sjukpensionär, 43 år
+C|66837|26|M|Nichodemus Nilsson|Förrådsarbetare, 26 år
+C|66839|68|M|Bengt Metz|Elektronikingenjör, 68 år
+C|66990|50|M|Paul Svensson|Egenföretagare, Ystad
+C|66876|46|M|Lars Nyström|Eldriftingenjör, 47 år
+C|112645|48|M|Per Gustafsson|Fordonsmekaniker, 48 år
+C|66989|53|M|Jan-Åke Isaksson|Lantbrukare, Ystad
+C|66880|50|M|Jörgen Lidfeldt|Egenföretagare, Skurup
+C|106793|32|M|André af Geijerstam|Företagare, 33 år
+C|66993|52|M|Göran Björk|Egen företagare, 52 år
+C|106821|56|M|Lars Wilhelm Larsson|Maskinförare, 57 år
+C|66879|49|M|Jimmy Nilsson|Egen företagare, 49 år
+C|66992|50|K|Anna Sjöland|Sjuksköterska, 50 år
+C|82352|52|M|Tomas Assarsson|Lärare, 52 år
+C|112647|51|M|Peo Örnsved|Ekonomichef, 51 år
+C|66877|48|K|Pernilla Lidfeldt|Egen företagare, 48 år
+C|66991|56|M|Michael Michaelsen|Admin. konsult, 56 år
+C|106799|31|K|Maria Larsson|Undersköterska, 32 år
+C|66882|68|M|Ingvar Wennersten|Jurist, 68 år
+C|112648|48|M|Anders Rosengren|Byggnadsmålare, 48 år
+C|67002|68|M|Kenneth Andersson|Pensionär, 68 år
+C|106817|73|M|Gert Ask|Ingenjör, 73 år
+C|66881|67|M|Arne Nilsson|Reseproducent, 67 år
+C|82366|79|M|Kjell Lindström|Pensionär, 78 år
+C|67000|59|M|Lars-Erik Larsson|Bussförare, 59 år
+C|274858|74|K|Agneta Backson|Pensionär, 74 år
+C|66897|70|K|Barbara Demorit|Pensionär, 70 år  år
+C|66997|51|M|Tomas Landgren|Tekniker, 51 år
+C|106796|56|K|Titti Swenson|Socionom, 57 år
+C|66889|60|M|Karl Kårebrant|Ingenjör, 61 år
+C|67008|52|M|Peter Lundgren|Egen företagare, 52 år
+C|106839|53|M|Erik Gårdenhag|Mekaniker, 54 år
+C|52646|29|K|Marlen Ottesen|Leg. sjuksköterska, 28 år
+C|86368|51|M|Teddy Nilsson|Ingenjör, Svalöv
+C|53466|64|M|Stefan Borg|Översättare, Hörby
+C|52644|32|M|Fredrik Ottesen|Ekonomiassistent, Eslöv
+C|54117|45|M|Mattias Kristiansson|Leg. läkare, Lund
+C|86369|62|K|Ingrid Ekström|Röntgensköterska, 62 år
+C|53467|50|K|Mona Olin|VD-assistent/ekonomiansvarig, Hörby
+C|83998|30|M|Daniel Engström|Teknologie magister, Landskrona
+C|53323|48|K|Victoria Tiblom|Kommunikatör, 48 år
+C|54091|69|M|Bengt Malmberg|Pensionär, 69 år
+C|84001|30|M|Daniel Petersson|Kommunpolitiker, Landskrona
+C|52650|42|K|Andréa Wramfelt|VD, Eslöv
+C|112250|51|M|Richard Olsson|Teknisk chef, Staffanstorp
+C|52649|49|M|Bo Broman|Ekonomichef, Eslöv
+C|275037|54|K|Elena Kuleshova|Ekonom, 54 år
+C|52658|38|M|Dennis Larsen|Servicetekniker, 38 år
+C|85116|26|M|Robin Persson|Patient, 26 år
+C|84006|38|M|Fredrik Malm|Ekonom, 38 år
+C|52654|21|M|Ted Bondesson|Student civilingenjör, 21 år
+C|54095|48|K|Diana Engblom|Samordnare, 48 år
+C|53472|49|K|Marie Friberg|Projektör, 49 år
+C|53792|65|M|Lars Andersson|Fil. kand, 65 år
+C|54112|50|K|Charlotta Billvik|Lantmästare, 50 år
+C|53794|59|M|Anders Nilsson|Egen företagare, 59 år
+C|86387|33|K|Sanna Brobeck|Besiktningstekniker, 33 år
+C|84007|68|M|Olov Stråmark|Lantmästare, 68 år
+C|86377|62|M|Hans Lindström|Utredare, 62 år
+C|103754|45|M|Patrik Jönsson|Regionråd, Hässleholm
+C|53934|53|M|Niclas Nilsson|Gruppledare, Kristianstad
+C|53935|42|M|Björn Söder|Civilingenjör, Kristianstad
+C|127554|38|K|Ewa Karlsson|Industriarbetare, Osby
+C|50558|39|M|Eric Berntsson|Processoperatör, Bromölla
+C|53937|39|M|Carl Henrik Nilsson|Egenföretagare, Kristianstad
+C|53936|51|K|Annelie Fälth Simonsson|Ekonomiassistent, Kristianstad
+C|50561|41|K|Linda Väbro|Truckförare, 41
+C|103762|26|K|Camilla Nordström|Undersköterska, 27 år
+C|53941|48|M|Ulf Börkell|Droskägare, 48 år
+C|66849|57|M|Lars Nilsson|Webdesigner, 57 år
+C|50560|62|K|Gudrun Bengtsson|Tvättbiträde, 62 år
+C|103778|52|M|Paul Thurn|Egen företagare, 53 år
+C|127551|50|M|Carl Bejvel|Egenföretagare, Osby
+C|50562|18|M|Filip Persson|Studerande, 18 år
+C|53947|72|M|Bill Nilsson|Sjöingenjör, 72 år
+C|127555|55|M|Jörgen Nilsson|Logistikchef, 55 år
+C|103776|34|M|Ken Andersson Breisch|Arbetssökande, 34 år
+C|53948|49|M|Örjan Björk|Transportledare, 49 år
+C|50566|66|M|Bengt-Olof Bengtsson|Pensionär, 66 år
+C|53945|73|M|Björn Nordeman|Företagare, 74 år
+C|53942|45|M|Jacob Melin|Yrkeslärare, 45 år
+C|53949|57|K|Susanna Svensson|Administratör, 57 år
+C|53944|51|K|Annette Granath|Taxichaufför, 51 år
+C|66858|52|M|Kent Ivarsson|Chaufför, 52 år
+C|53950|70|M|Bengt Håkansson|F.d väg-& anläggningsarbetare, 70 år
+C|67033|41|M|Mikael Eskilandersson|Maskinförare, Örkelljunga
+C|67312|41|K|Therese Borg|Informationsassistent, Flen
+C|53316|49|M|Michael Rosenberg|Kommunalråd, 49 år
+C|67014|48|M|Johan Wifralius|Distriktsombudsman, Ängelholm
+C|53317|53|K|Eva Zensch|Adminstratör, 53 år
+C|53318|71|M|Alexander Aardgaard|Politisk sekreterare, Helsingborg
+C|67036|39|K|Anneli Eskilandersson|Ekonomibiträde/samordnare, 39 år
+C|406571|50|M|Patrik Ohlsson|IT-tekniker, 50 år
+C|53397|58|M|Sören Ravn|Montör, 58 år
+C|53878|52|K|Åsa Edvardsson|Politiker, 52 år
+C|67024|21|M|Oscar Byberg|Studerande, 21 år
+C|53343|43|K|Linda Lindberg|Florist, Helsingborg
+C|127611|23|M|Anton Holmberg|Student, 23 år
+C|127604|41|K|Maria Gottschalk|Butiksbiträde, 41 år
+C|275420|29|M|Marcus Möller|Egenföretagare, Åstorp
+C|67023|53|K|Anette Huldtén|Ekonomichef, 53 år
+C|67037|56|M|Michael Bengtsson|IT-tekniker, 56 år
+C|53336|55|K|Catarina R Liljestrand|Lärare, 55 år
+C|255292|52|M|Joakim Gräbner|Sjöingenjör, 52 år
+C|67043|24|K|Fariba Haydari|Statsvetarstudent, 24 år
+C|53394|68|M|Ingemar Idegård|Teletekniker, 68 år
+C|67042|61|K|Blagoveska Poulsen|Redovisningsekonom, 61 år
+C|67021|55|M|Pontus Myrenberg|Säljare, 55 år
+C|67020|51|K|Dorthe Sjöholm|Ekonimichef, 51 år
+C|53347|20|M|Nils Klintvik Olofsson|Politisk kommunikatör, 20 år
+C|67015|47|K|Birgitta Markevärn|Författare, 47 år
+C|53370|33|M|Mattias Arlefalk|Säljare, 34 år
+C|53321|49|K|Ulrika Persson|Sjuksköterska, Helsingborg
+C|67022|41|M|Alexander Johnsson|Säljare, 41 år
+C|127568|63|M|Helmuth Petersen|Oppositionsråd, 63 år
+C|66926|68|M|Tommy Rosenberg|Projektör, 68 år
+C|127571|35|M|Mathias Andersson|Speciailärare, 35 år
+C|162886|41|M|Deniz Eryilmaz|Infrastrukturtjänsteman, 41 år
+C|54031|36|M|Jimmy Ringström|Elektriker, 36 år
+C|66925|79|K|lngrid Pedersen|Undersköterska, 79 år
+C|162888|38|M|Pierre Carlström|IT-arkitekt, 38 år
+C|127576|35|M|Fredrik Trulsson|Fibertekniker, 35 år
+C|66922|63|M|Steen Salling|Veterinär, 63 år
+C|162895|72|K|Lisbeth Kvist Hallgren|Pensionär, 72 år
+C|127596|47|K|Therése Gynnstam|Egenföretagare, 47 år
+C|162901|58|M|Kent Rönndahl|Administrationsassistent, 58 år
+C|127597|26|K|Emelie Karlsson|Historiestudent, 29 år
+C|127579|73|M|Ulf Carlsten|Tandläkare, 74 år
+C|127588|25|M|Oliver Weiland|Fastighetsskötare, 25 år
+C|66921|46|M|Peter Frost Jensen|Polis, 46 år
+C|127583|59|M|Håkan Lerstorp|Processoperatör, 59 år
+C|127599|22|M|Jesper Mohlin|Hemvårdare, 22 år
+C|274134|73|M|Karl Gunnar Jönsson|VD, 72 år
+C|66927|55|M|Lars Dahmström|Lastbilschaufför, 55 år
+C|274136|67|M|Kenneth Bondesson|Företagare, 67 år
+C|494046|73|M|Jan Jönsson|byggnadsarbetare, Malmö
+C|494047|57|K|Kerstin Stigsson|maskinoperatör, Östra Göinge
+C|494048|61|M|Miguel Gabard|lärare, Lund
+C|494049|76|K|Lilliana De Filippi|lokalvårdare, Malmö
+C|494050|31|M|Fredrik Jönsson|journalist, Burlöv
+C|494051|48|K|Omel Hussain Sahil|personligassistent, Malmö
+C|494052|62|K|Marie Norgren|kulturarbetare, Lund
+C|494053|72|M|Manoochecr Kiani|cykelreparatör, Malmö
+C|494054|43|M|Hampus Fries|förtidspensionär, Lund
+C|494055|48|M|Ljubomir T. Devic|lärare, Malmö
+C|431286|68|M|Birger Nilsson|Skolledare, Helsingborg
+C|431287|72|M|Jan O. Pålsson|Ingenjör, Malmö
+C|431288|75|M|Bertil Andersson|Jurist, Lund
+C|431292|66|K|Lisbeth Nilsson|Pensionär, Trelleborg
+C|431293|69|M|Erling Hansen|Landskrona
+C|431294|72|M|Lennart Nilsson|Polis, Svedala
+C|431295|68|M|Holger Brede|Konsult, Höör
+C|431298|71|K|Sigbritt Sjöstrand|Civilutredare, Malmö
+C|431300|70|K|Marianne Witting|Pensionär, Helsingborg
+C|431301|70|M|Thord Lindblom|Landskrona
+C|431303|78|M|Bertil Gyllencreutz|Ekonom, Malmö
+C|431317|45|K|Fia Nilsson|Studerande, Trelleborg
+C|431305|69|M|Jan-Åke Sajewicz|Landskrona
+C|431308|75|K|Rosita Lindbom|Pensionär, Helsingborg
+C|431309|68|M|Sven Pettersson|Sjökapten, Höör
+C|431310|40|M|Linus Mattisson|Svetsare, Tomelilla
+C|431311|69|M|Ronny Lindberg|Landskrona
+C|431312|68|K|Else Angeldorff|Sjuksköterska, Malmö
+C|431313|30|K|My Larsson|Vårdbiträde, Trelleborg
+C|431314|79|M|Sonny Jenfjord|Konsult, Malmö
+C|431315|78|K|Nancy Thern|Modedirektris, Malmö
+C|431319|74|M|Lennart Nilsson|Civilekonom, Malmö
+C|431320|68|K|Elsa Hansen|Landskrona
+C|431321|77|M|Rolf Åström|Fastighetstekn. Helsingborg
+C|431322|69|K|Eva Hansson|Jur.kand. Löddeköpinge
+C|431323|77|M|Rolf Jönsson|Landskrona
+C|431324|45|K|Malin Palmqvist|Trelleborg
+C|431562|68|K|Inger Lindell Andersson|Lärare, Svalöv
+C|431563|59|K|Birgitta Clarholm|Tomelilla
+C|431564|75|K|Margareta Ekstrand|Folkskollärare, Malmö
+C|512169|55|M|[saknas i folkbokföringen]|
+C|512170|41|K|Maryam Tajik|
+C|512171|40|M|Mehdi Hosseini|
+C|512172|58|M|Tony Salman|
+C|512173|55|M|Majed Qormosh|
+C|108237|50|M|Peter Ahlbom|sjuksköterska/pedagog, Helsingborg
+C|109263|40|K|Emma Wennerholm|barnskötare, Höganäs
+C|110194|48|K|Christine Lenander|socialarbetare, Landskrona
+C|128127|64|M|Thord Kristiansson|Ängelholm
+C|26918|42|M|Patrik Milton|medicinteknisk civilingenjör, Bjärred
+C|128105|34|K|Sara Gígja|socionom, Ängelholm
+C|103308|31|K|Umihana Rasovic Kasumovic|arbetsförmedlare, Eslöv
+C|108241|56|K|Svjetlana Saric|kemist, Helsingborg
+C|108240|32|M|Joacim Werner Petersson|politisk sekreterare, Helsingborg
+C|112452|54|K|Agneta Lenander|sjuksköterska, Röstånga
+C|108235|72|K|Ingrid Mattiasson Saarinen|lärare, Helsingborg
+C|108239|37|K|Jenny Björklund Hansson|studie- och yrkesvägledare, Helsingborg
+C|108248|29|K|Rebecca Thell|studerande, Helsingborg
+C|108249|23|M|Ivar Sjögren|studerande, Helsingborg
+C|128112|48|K|Karin Enqvist|handläggare, Klippan
+C|108255|40|M|Ferman Büyükkaya|egen företagare, Helsingborg
+C|108236|48|K|Claudia Velásquez|socialsekreterare, Helsingborg
+C|109266|33|M|Gustaf Segerhammar|kontrolltekniker, Höganäs
+C|108245|39|K|Jennie Fryksäter|humanist, Helsingborg
+C|108250|70|K|Britta Olsson|volontär, Helsingborg
+C|108251|76|M|Veikko Saarinen|pensionär, Helsingborg
+C|129639|55|K|Pia Lind|Helsingborg
+C|108238|64|M|Tomas Gustafsson|socionom, Helsingborg
+C|126842|26|K|Paloma Mamani|sjuksköterska, Kristianstad
+C|124698|47|M|Mikael Persson|politisk sekreterare, Kristianstad
+C|124135|36|K|Linda Ekelund|handledare HVB, Skåne Tranås
+C|101294|30|M|Samuel Johansson|logistiker, Bromölla
+C|108885|73|K|Anita Peterson|pensionär, Hässleholm
+C|124690|67|M|Roland Nilsson|universitetslärare, Broby
+C|126866|46|K|Ruzica Stanojevic|förskollärare, Kristianstad
+C|128111|64|M|Sven-Erik Sjöstrand|föreningsarbetare, Perstorp
+C|101301|62|K|Iren Möller|undersköterska, Bromölla
+C|126838|74|K|Ingrid Bromander|bonde, Huaröd
+C|124692|55|K|Jeanette Svensson|yrkeslärare, Broby
+C|126847|55|M|Tony Björk|arkeolog, Kristianstad
+C|126840|57|K|Karin Feldt|lärare, Kristianstad
+C|126837|66|M|Jan Nordström|pensionerad ombudsman, Kristianstad
+C|101296|51|M|Johan Karlsson|industriarbetare, Bromölla
+C|126852|54|K|Elna Johansson|stödassistent, Kristianstad
+C|101302|77|M|Leif Pettersson|pensionär, Bromölla
+C|128121|43|K|Linda Sjöö|församlingspedagog, 43 år
+C|101298|69|M|Bo Jönsson|pensionär, Bromölla
+C|186878|34|K|Sara Svensson|gruppledare, Genarp
+C|186260|39|K|Busi Dimitriu|politisk sekreterare, 39 år
+C|186880|73|M|Vilmer Andersen|sociolog, 73 år
+C|186881|48|M|Morgan Svensson|byggnadsarbetare, 48 år
+C|186289|37|K|Lina Myritz|läkare, 37 år
+C|186883|69|M|Roland Nilsson|pensionär, 69 år
+C|186285|39|K|Alexandra Thomasson|folkhälsovetare, 39 år
+C|186286|27|K|Linn Fristedt|vårdbiträde, 27 år
+C|186275|65|M|Mats Billberg Johansson|projektledare, 65 år
+C|186255|38|M|Tobias Petersson|handläggare-internationellt bistånd, 38 år
+C|186257|45|K|Susanne Adielsson|stödassistent LSS, 72 år
+C|186278|60|K|Maria Kållberg|journalist, 60 år
+C|186279|24|K|Hedvig Lärka|student, 24 år
+C|186269|54|M|Patrik Strand|undersköterska, 54 år
+C|186259|73|K|Susanne Björkenheim|pensionär, 73 år
+C|186277|42|K|Lorena Mariel Törnlycke|sjuksköterska, 42 år
+C|186283|40|M|Ola Brunnström|lokförare, 40 år
+C|186247|70|K|Gunilla Ryd|pensionär, 70 år
+C|186274|55|M|Mansour Kafi|tolk, 55 år
+C|186282|38|K|Ana Süssner Rubin|arbetsrättsjurist, 38 år
+C|186898|74|M|Tjatte Hedlund|aktivist, 74 år
+C|186258|55|K|Ulrika Williamsson|fabriksarbetare, 55 år
+C|186256|67|M|Carlos González|lärare, 67 år
+C|186280|35|K|Sara Nilsson Mohammadi|psykolog, 35 år
+C|186245|42|M|Daniel Sestrajcic|aktivist, 43 år
+C|186904|35|K|Ylvar Emanuelsson|sjuksköterska i psykiatrin, 35 år
+C|186905|29|M|Karl-Kristoffer Johnsson|socialpsykolog, 29 år
+C|186264|73|M|Anton Flink|pensionär, 73 år
+C|186907|36|M|Olof Holmgren|statsvetare, 36 år
+C|186290|41|M|Carl Aragón|ombudsman, 41 år
+C|186246|37|K|Sadiye Altundal|utvecklingssamordnare, 37 år
+C|186251|29|M|Showan Shattak|verksamhetsutvecklare ABF, 29 år
+C|186276|42|K|Matilda Gradin|naturguide, 42 år
+C|127351|35|K|Angelica Svensson|gatuingenjör, Lund
+C|110195|33|M|Magnus Roslund|kundtjänstmedarbetare, Landskrona
+C|127349|75|K|Saima Jönsson Fahoum|distriktsläkare, Lund
+C|127359|66|K|Gunilla Wahlberg|sjuksköterska, Lund
+C|127353|66|K|Nita Lorimer|egen företagare, Lund
+C|127354|75|M|Lars A Ohlsson|f d byggnadsingenjör, Lund
+C|112325|64|K|Raili Pikkusaari|pensionär, Staffanstorp
+C|245290|57|M|Martin Stensson|advokat, Lund
+C|110198|64|K|Maja Anselius|pensionär, Sankt Ibb
+C|127348|69|M|Sven-Bertil Persson|pensionerad förskollärare, Dalby
+C|127361|75|K|Ann Schlyter|pensionär, Lund
+C|127366|68|M|Ibrahim Kakahama|pensionär, Lund
+C|127347|61|M|Mats Olsson|professor, Lund
+C|127345|34|K|Hanna Gunnarsson|lärare, Lund
+C|127363|66|K|Nilla Bolding|kristen MS-sjuk miljöaktivist, Lund
+C|245298|85|M|Gunnar Stensson|pensionär, Lund
+C|109806|69|M|Olle Krabbe|egen företagare, Höör
+C|109807|54|K|Maria Oscarsson|biomedicinsk analytiker, Höör
+C|109808|56|M|Johan Persson|specialistsjuksköterska, Höör
+C|127346|33|K|Helena Falk|utbildningsadministratör, Lund
+C|110199|66|M|Kjell Anselius|pensionär, Sankt Ibb
+C|112451|48|M|David Lenander|fotograf, Röstånga
+C|124660|27|K|Debora Svensson|konstnär, Trelleborg
+C|123909|69|M|Jörgen Persson|pensionerad facklig företrädare, Svedala
+C|124656|66|M|Bo Nylander|kemist, Grönby
+C|101573|68|M|Bo Lindquist|f d fabriksarbetare, Burlöv
+C|101577|64|M|Gustavo Garcia|lagerarbetare, Burlöv
+C|124659|35|K|Sofi Magableh|medicinsk sekreterare, Trelleborg
+C|101574|56|M|Philip Maughan|fabriksarbetare, Burlöv
+C|101579|52|K|Lisbeth Lindquist|familjebehandlare, Burlöv
+C|244685|28|K|Felicia Hamzi|omsorgspedagog, 28 år
+C|124662|67|K|Vera Pedersen|hushållslärare, Trelleborg
+C|225958|72|M|Sven Ternov|läkare, Blentarp
+C|124134|55|K|Mona Nihlén|behandlingspedagog, Tomelilla
+C|124683|42|M|Anders Hansson|socialsekreterare, Ystad
+C|124684|39|K|Annika Weitner|socionom, Ystad
+C|225955|43|M|Lucas Lennartsson|lärare, Sjöbo
+C|112139|63|K|Laura Ilabaca|Simrishamn
+C|124685|49|M|Jonas Pettersson|transkriberare, Ystad
+C|225965|56|M|Wali Ahmadi|lärare, Sjöbo
+C|124689|70|K|Mona Olsson|pensionär, Ystad
+C|124681|67|M|Göran Brante|pensionär, Löderup
+C|124682|58|K|Vicki Svedrell|konstnär, Ystad
+C|124136|65|M|Figge Bergquist|fotograf, Tomelilla
+C|225960|55|K|Åse Eriksson|kassabiträde, Lövestad
+C|124657|55|K|Eva Lindstedt|undersköterska, Beddingestrand
+C|112136|64|M|Mats Sundbeck|doktorand, Simrishamn
+C|225957|43|M|Daniel Krondahl|försäljare, Sjöbo
+C|244680|74|K|Inga-Lill Ek|Ystad
+C|112140|71|M|Sture Antonsson|pensionerad lärare, Brantevik
+C|112146|42|M|Björn Wallebom|arkeolog, Gladsax
+C|124137|86|K|Britta Berg|pensionär, Tomelilla

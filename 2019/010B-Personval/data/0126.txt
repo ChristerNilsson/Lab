@@ -1,12 +1,329 @@
-2|194882|194883|194884|194885|96778|194887|194888|96787|194890|71216|194892|96785|194894|194895|96798|194897|96788|194899|194900|194901|71223|194903|194904|194905|194906|194907|194908|194909|194910|194911|194912|194913|194914|96781|194916|194917|194918|194919|194920|194921|194922|96793|194924|194925|194926|194927|180085|194929|96782|194931|194932|194933|194934|194935|194936|194937|194938
-4|76907|121193|121194|76943|76931|121197|121198|121199|76953|121201|121202|121203|121204|121205|121206|76950|121208|121209|121210|121211|121212|121213|121214|121215|121216|121217|121218|121219|121220|121221|121222|121223
-122|317760|317761|317762|317763|317764|317765|317766|317767|317768|317769|317770|317771|317772|317773|317774|317775|317776|317777|317778|317779|317780|317781|317782|317783|317784|317785|317786|317787|317788
-532|513849|513850|513851
-28|200346|200347|200348|200349|200350|200351|200352|200353|200354|200355|200356|200357|200358|200359|200360|200361|200362|200363
-68|162434|162435|162436|162437|162438|162439|162440|162441|162442|162443|162444|162445|162446|162447|162448|162449|162450|162451|162452|162453
-3|49179|254116|254117|254118|254119|254120|254121|254122|254123|254124|254125|254126|254127|254128|254129|254130|254131|254132|254133|254134|254135|254136|254137|254138|254139|254140|254141|254142|254143|254144
-1296|128562|129919|298171|200918
-55|105276|105277|105278|105279|105280|105281|105282|105283|105284|105285|105286|105287|105288|105289|105290|105291|105292|105293|105294|105295|105296
-1|17756|17757|12802|12783|17760|12809|17762|17763|12810|17765|17766|17767|17768|17769|17770|17771|17772|17773|17774|17775|17776|17777|17778|17779|17780|17781|17782|17783|17784|17785|17786|17787|17788|17789|17790|17791|17792|17793|17794|17795|17796|17797|17798|17799|17800
-110|77813|77814|77815|77816|77817|77818|77819|77820|77821|77822|77823|77824|77825|77826|77827|77828|77829|77830|77831|77832|77833|77834|77835|77836
-5|183056|183057|183058|183059|183060|183061|183062|183063|183064|183065|183066|183067|183068|183069|183070|183071|183072|183074|183075|183076|183077|183073
+T|Huddinge
+A|2|194882|194883|194884|194885|96778|194887|194888|96787|194890|71216|194892|96785|194894|194895|96798|194897|96788|194899|194900|194901|71223|194903|194904|194905|194906|194907|194908|194909|194910|194911|194912|194913|194914|96781|194916|194917|194918|194919|194920|194921|194922|96793|194924|194925|194926|194927|180085|194929|96782|194931|194932|194933|194934|194935|194936|194937|194938
+A|4|76907|121193|121194|76943|76931|121197|121198|121199|76953|121201|121202|121203|121204|121205|121206|76950|121208|121209|121210|121211|121212|121213|121214|121215|121216|121217|121218|121219|121220|121221|121222|121223
+A|122|317760|317761|317762|317763|317764|317765|317766|317767|317768|317769|317770|317771|317772|317773|317774|317775|317776|317777|317778|317779|317780|317781|317782|317783|317784|317785|317786|317787|317788
+A|532|513849|513850|513851
+A|28|200346|200347|200348|200349|200350|200351|200352|200353|200354|200355|200356|200357|200358|200359|200360|200361|200362|200363
+A|68|162434|162435|162436|162437|162438|162439|162440|162441|162442|162443|162444|162445|162446|162447|162448|162449|162450|162451|162452|162453
+A|3|49179|254116|254117|254118|254119|254120|254121|254122|254123|254124|254125|254126|254127|254128|254129|254130|254131|254132|254133|254134|254135|254136|254137|254138|254139|254140|254141|254142|254143|254144
+A|1296|128562|129919|298171|200918
+A|55|105276|105277|105278|105279|105280|105281|105282|105283|105284|105285|105286|105287|105288|105289|105290|105291|105292|105293|105294|105295|105296
+A|1|17756|17757|12802|12783|17760|12809|17762|17763|12810|17765|17766|17767|17768|17769|17770|17771|17772|17773|17774|17775|17776|17777|17778|17779|17780|17781|17782|17783|17784|17785|17786|17787|17788|17789|17790|17791|17792|17793|17794|17795|17796|17797|17798|17799|17800
+A|110|77813|77814|77815|77816|77817|77818|77819|77820|77821|77822|77823|77824|77825|77826|77827|77828|77830|77831|77832|77833|77834|77835|77836
+A|5|183056|183057|183058|183059|183060|183061|183062|183063|183064|183065|183066|183067|183068|183069|183070|183071|183072|183074|183075|183076|183077|183073
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|122|DP|Drevvikenpartiet
+B|532|FI|Feministiskt initiativ
+B|28|HP|Huddingepartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|194882|41|K|Sara Heelge Vikmång|41, Oppositionsråd, Vistaberg
+C|194883|36|M|Rasmus Lenefors|36, Oppositionsråd, Vistaberg
+C|194884|56|K|Eeva Laine|56, Barnskötare, Trångsund
+C|194885|40|M|Rikard Lingström|40, Enhetschef, Stuvsta
+C|96778|28|K|Michaela Lööf|28, Tjänstman, Huddinge
+C|194887|66|M|Pran Malhotra|67, Stationsvärd, Flemingsberg
+C|194888|37|K|Shewen Nysmed|38, Regionplanerare, Vistaberg
+C|96787|24|M|Aza Cheragwandi|24, Politisk sekreterare, Huddinge
+C|194890|69|K|Ann-Marie Högberg|69, Pensionär, Visättra
+C|71216|28|M|Claes Thim|28, Skyddsombud, Elektriker, Huddinge
+C|194892|62|K|Anneli Sjöberg|62, Planerare, Huddinge C,
+C|96785|54|M|Yossi Sigal|54, IT-tekniker, Huddinge
+C|194894|34|K|Kamile Ünver|33, Undersköterska, Vårby
+C|194895|73|M|Erling Karlsson|73, Pensionär, Visättra
+C|96798|75|K|Margareta Vikgren|72, Pensionär, Huddinge
+C|194897|43|M|Fredrik Fjällström|43, Utvecklare, Sörskogen
+C|96788|60|K|Marie Fors|60, Studie- och yrkesvägledare, Huddinge
+C|194899|60|M|Göran Hallberg|60, Systemutvecklare, Solgård
+C|194900|58|K|Sara Holmgren|58, Konsult, Fullersta
+C|194901|64|M|Anders Ferbe|64, Senior Adviser, Solgård
+C|71223|46|K|Khalida Marefat|46, Lärare, Huddinge
+C|194903|36|M|Stefan Björk|36, Förhandlare Hyresgästföreningen, Vårby
+C|194904|30|K|Marzieh Amiri|30, Statsvetare, Flemingsberg
+C|194905|60|M|Tomas Henriksson|60, Verksamhetsutvecklare, Snättringe
+C|194906|21|K|Evin Dagdeviren|21, Studerande, Huddinge C
+C|194907|40|M|Konstantinos Tsampazis|40, Bilmekaniker, Hörningsnäs
+C|194908|46|K|Lena Berg|46, Biträdande rektor, Trångsund
+C|194909|57|M|Michael Hagström|57, Bibliotekarie, Hörningsnäs
+C|194910|32|K|Rabieh Daikalan|32, Ekonom, Huddinge
+C|194911|35|M|Fredrik Lundin|35, Lärare, Sjödalen
+C|194912|41|K|Temitope Hassan|41, Ombudsman, Fullersta
+C|194913|61|M|Ove Andreassen|61, Jurist, Segeltorp
+C|194914|54|K|Eva Kodrou|54, Socialsekreterare, Vårby Gård
+C|96781|55|M|Kemo Ceesay|55, Ekonom, Huddinge
+C|194916|30|K|Melissa Laine Vahdani|30, Administratör, Trångsund
+C|194917|34|M|Samin Mahfuz|34, Personlig assistent, Visättra
+C|194918|28|K|Madeleine Thim|28, Arbetsterapeut, Kästa
+C|194919|22|M|Carlos Rios|22, Svetsare, Gladö Kvarn
+C|194920|40|K|Louise Callenberg|40, Enhetschef, Stortorp
+C|194921|54|M|Lars Gredefelt|54, Tjänsteman, Utsälje
+C|194922|64|K|Liz Trana|64, Pensionär, Trångsund
+C|96793|68|M|Anders Norman|68, Läkare, Huddinge
+C|194924|39|K|Petra Östlund|39, Sjuksköterska, Huddinge
+C|194925|39|M|Petter Johansson|39, Förbundsombudsman, Vistaberg
+C|194926|57|K|Eva Pauli|57, Regional ombudsman, Snättringe
+C|194927|39|M|Johan Hagman|39, Facklig samordnare, Huddinge C
+C|180085|72|K|Margareta Lyden Lövkvist|72, Pensionär, Hörningsnäs
+C|194929|62|M|Tommy Karlsson|62, Samordnare, Vårby
+C|96782|48|K|Carina Paulsson Ellert|48, Ombudsman, Huddinge
+C|194931|70|M|Benny Upphagen|70, Pensionär, Segeltorp
+C|194932|55|K|Carina Andersson|55, enhetschef, Fullersta
+C|194933|42|M|Emil Buskas|42, Delegationssekreterare, Hörningsnäs
+C|194934|39|K|Tua Myhrman|39, Leg. Sjuksköterska, Hörningsnäs
+C|194935|75|M|Carl-Gustaf Carlsson|75, Konsult, Vårby
+C|194936|37|K|Tove Axelsson|36, Jurist, Vistaberg
+C|194937|38|M|Per Callenberg|38, Civilingenjör, Trångsund
+C|194938|76|K|Christina Lyngå|76, Pensionär, Flemingsberg
+C|76907|41|M|Christian Ottosson|41, Huddinge, Kommunalråd
+C|121193|54|K|Karin Adolfsson|54, Huddinge, Sjuksköterska och barnmorska
+C|121194|38|M|Henrik Juhlin|38, Huddinge, Tillgänglighetsexpert
+C|76943|50|K|Annelie Rogmalm|51, Skogås, Lärare
+C|76931|30|M|Tomas Selin|30, Huddinge, Lärare
+C|121197|54|M|Lars Göran Sander|54, Miljöföretagare, Segeltorp
+C|121198|45|M|Johan Alexandersson|45, Projektledare, Trångsund
+C|121199|35|K|Anna-Karin Nyman|35, Kommunikationsdirektör, Trångsund
+C|76953|74|M|Klas Hamrin|74, Huddinge, Civilingenjör
+C|121201|46|K|Lisa Alexandersson|46, Publisher, Trångsund
+C|121202|45|M|Ivica Burazin|45, Kommunikatör, Sjödalen
+C|121203|42|M|Mikael Wirén|42, Projektledare, Balingsnäs
+C|121204|61|M|Didrik von Seth|61, Egenföretagare, Stuvsta
+C|121205|76|M|Åke Idsund|76, Företagare, Segeltorp
+C|121206|47|K|Katarina Wigle|47, Projektledare, Trångsund
+C|76950|45|M|Joachim Skoogberg|45, Skogås, Civilingenjör
+C|121208|78|M|Bengt Nylander|78, Pensionär, Skogås
+C|121209|76|K|Margareta Hedström|76, Pensionär, Sjödalen
+C|121210|42|M|Martin Lindström|42, Civilingenjör, Stuvsta
+C|121211|82|M|Lars Berkesten|82, Ingenjör, Skogås
+C|121212|20|K|Hanna Tapper Uudelepp|20, Studerande, Solgård
+C|121213|70|M|Bengt Åkerblom|69, Företagare, Vårby gård
+C|121214|25|M|Hussein Horami|25, Företagare, Vistaberg
+C|121215|35|K|Emelie Dahlgren Källbäck|35, Försäkringsmäklare, Stuvsta
+C|121216|33|K|Senay Kanat|33, Bokföringskonsult, Segeltorp
+C|121217|78|M|Kjell Börjesson|78, Pensionär, Trångsund
+C|121218|47|K|Malin Vikström|47, Barnmorska, Glömsta
+C|121219|82|M|Sten Serenander|81, Pensionär, Stuvsta
+C|121220|52|M|Peter Adolfsson|52, Civilingenjör, Balingsnäs
+C|121221|77|K|Britten Thelander Berkesten|77, Pensionär, Skogås
+C|121222|74|K|Anne-Marie Börjesson|74, Pensionär, Trångsund
+C|121223|81|M|Johan Hedström|81, Pensionär, Sjödalen
+C|317760|56|K|Ingalill Söderberg|Sjöängen
+C|317761|73|M|Leif Dyrvall|Skogås
+C|317762|59|M|Kim Wiking|Vidja
+C|317763|43|M|Patrik Willingstam|Drevviksstrand
+C|317764|22|M|Emil Holmlund|Nytorp
+C|317765|41|M|Marcus Jillehed|Trångsund
+C|317766|78|K|Jolanta Szutkiewicz|Drevviksstrand
+C|317767|49|M|Claes Andersson|Drevviksstrand
+C|317768|42|K|Marie Lönnberg|Drevvikstrand
+C|317769|45|M|Mathias Övelius|Skogås
+C|317770|44|M|Peter Axelsson|Trångsund
+C|317771|69|K|Gudrun Hay|Skogås
+C|317772|39|K|Ashti Jangi|Trångsund
+C|317773|66|M|Fredrik Stedt|Stortorp
+C|317774|59|K|Marie Borg-Stedt|Stortorp
+C|317775|66|M|Lasse Reuterberg|Sjöängen
+C|317776|30|M|Jonas Andersson|Länna
+C|317777|73|M|Lars Slättås|Stortorp
+C|317778|71|M|Thomas Hanbo|Fållan
+C|317779|80|M|Gert Sjöholm|Drevviksstrand
+C|317780|74|M|Lars Andersson|Drevviksstrand
+C|317781|83|M|Jan Borg|Skogås
+C|317782|76|K|Madeleine Thour|Drevviksstrand
+C|317783|84|K|Eva Olofsson|Skogås
+C|317784|67|K|Viveka Birgersdotter|Skogås
+C|317785|82|K|Kerstin Lindh|Skogås
+C|317786|78|K|Britt Sjöholm|Drevviksstrand
+C|317787|83|M|Bo Lundberg|Drevviksstrand
+C|317788|50|K|Malin Holmlund|Nytorp
+C|513849|30|K|Ardente Klint|30, legitimerad djursjukskötare
+C|513850|64|M|Lennart Markebo|64, bussförare
+C|513851|46|K|Yvonne Åkerblad|46, yrkeslärare
+C|200346|64|M|Lars Björkman|Glömsta
+C|200347|61|K|Lisbeth Krogh|Solgård
+C|200348|72|M|Sven Niklasson|Solgård
+C|200349|62|M|Robert Andersson|Stuvsta
+C|200350|64|K|Charlotte Björkman|Glömsta
+C|200351|60|M|Jan Hermansson|Myrängen
+C|200352|28|M|Joacim Andersson|Centrala Huddinge
+C|200353|66|M|Ante Nyström|Segeltorp
+C|200354|63|M|Mats Pettersson|Snättringe
+C|200355|30|M|Philip Andersson|Centrala Huddinge
+C|200356|58|M|Lars Kingelin|Solgård
+C|200357|25|K|Linnea Krogh|Solgård
+C|200358|46|K|Anna Samuelsson|Fullersta
+C|200359|54|M|Gunnar Jacobsen|Furuhöjden
+C|200360|75|K|Helene von Euw|Centrala Huddinge
+C|200361|65|K|Eve Larsson|St. Mellansjö
+C|200362|64|M|Lennart Krogh|Solgård
+C|200363|76|M|Jan von Euw|Centrala Huddinge
+C|162434|48|M|Karl Henriksson|48, Kommunalråd, Huddinge
+C|162435|28|K|Stephanie Hansson|28, Socionom, Huddinge
+C|162436|20|M|Dennis Åström Ullström|20, Student, Huddinge
+C|162437|61|M|Gorges Barkho|61, Civilingejör, Huddinge
+C|162438|65|K|Pia Berkman|65, Socionom, Stuvsta
+C|162439|66|M|Rolf Johansson|66, Civilingenjör, Huddinge
+C|162440|61|M|Malak Guirguis|61, Boendestödjare, Skogås
+C|162441|48|K|Marlene W Antonson|48, Jounalist, Stensängen
+C|162442|49|M|Christer Bergh|49, Ekonom, Stuvsta
+C|162443|53|K|Elisabeth Hammarberg|53, Kommunikationschef, Snättringe
+C|162444|77|K|Kaija Jansson|77, Teolog, Flemingsberg
+C|162445|55|M|Robert Werlinder|55, Civilingenjör, Skogås
+C|162446|73|M|Håkan Björndahl|73, Pensionär, Huddinge
+C|162447|70|M|Timo Pesonen|70, Pensionär, Solgård
+C|162448|57|M|Niklas Johansson|57, Egenföretagare, Sjödalen
+C|162449|43|K|Tea Gustafsson|43, Konferenskoordinator, Skogås
+C|162450|58|M|Kjell Vingmyr|58, Skadereglerare, Stuvsta
+C|162451|30|M|Richard Rönnklint|30, Student, Fullersta
+C|162452|71|K|Monica Karlsson|71, Pensionär, Segeltorp
+C|162453|80|M|Birger Jacobsson|80, Fd. Kommunalråd, Sjödalen
+C|49179|41|K|Malin Danielsson|kommunalråd,Huddinge
+C|254116|55|M|Bo Källström|civilekonom, Huddinge
+C|254117|36|K|Sofia Knutz|gruppchef, 36 år, Hörningsnäs
+C|254118|42|M|Cem Delen|egen företagare, 42 år, Segeltorp
+C|254119|19|K|Erika Apell|studerande, Segeltorp
+C|254120|46|M|Chris Smith|mjukvaruutvecklingschef, 46 år, Stuvsta
+C|254121|55|K|Petra Nilsson|uppdragschef, 55 år, Stuvsta
+C|254122|54|M|Anders Jönson|civilekonom, Huddinge
+C|254123|47|K|Jessica Ericsson|ordförande psykiatriberedningen, Huddinge
+C|254124|52|K|Tove Madsen|egen företagare, 52 år, Trångsund
+C|254125|39|M|Johan Knutz|säljare, 39 år, Hörningsnäs
+C|254126|45|K|Gabriella Zaring|HR-chef, Vistaberg
+C|254127|24|M|David Nord|personlig tränare, 24 år, Trångsund
+C|254128|61|M|Tomas Mayer|systemutvecklare, 61 år, Skogås
+C|254129|50|M|Lasse Larsson|egen företagare, 50 år, Snättringe
+C|254130|77|K|Margareta Forsell|pensionär, 77 år, Segeltorp
+C|254131|31|M|Alex Bloch|jurist, 31 år, Trångsund
+C|254132|69|K|Madeleine Svensson|pensionär, Huddinge
+C|254133|41|M|Erik Tolf|civilingenjör, 41 år, Trångsund
+C|254134|75|K|Eva-Karin Brauer|pensionerad gymnasielärare, 75 år, Fullersta
+C|254135|49|M|Thomas Kihlberg|lärare, 49 år, Skogås
+C|254136|79|K|Anita Blomkvist|pensionär, 79 år, Balingsnäs
+C|254137|57|M|Tomas Blockstrand|personlig assistent, 57 år, Hörningsnäs
+C|254138|54|M|Pierre Brill|egen företagare, 54 år, Segeltorp
+C|254139|76|M|Jan Forsell|pensionär, 76 år, Segeltorp
+C|254140|71|M|Erik Wiker|egen företagare, 71 år, Länna
+C|254141|78|M|Roland Gustavsson|pensionär, 78 år, Skogås
+C|254142|79|M|Lars Blomkvist|pensionär, 79 år, Balingsnäs
+C|254143|56|M|Per-Olov Lisén|konsult, Huddinge
+C|254144|73|K|Bodil Wiker Åkerblom|pensionär, 73 år, Länna
+C|128562|37|M|Christopher Frantz|37, Sjökapten, Stockholms län
+C|129919|47|M|Mats Kennedy|47, Chefsarkitekt IT, Huddinge
+C|298171|69|M|Anders Tauson|69,Yrkesofficer, Huddinge
+C|200918|39|M|Emil Ersson|39, Säljare, Huddinge
+C|105276|40|M|Anders Lönroth|Organisationssamordnare, Stuvsta
+C|105277|45|K|Carina Sundström|Ekonom, Grantorp
+C|105278|38|M|Anders Abel|IT-konsult, Solgård
+C|105279|70|K|Barbro Lind|leg barnsjuksköterska, Stuvsta
+C|105280|56|M|Åke Wickberg|Controller, Stortorp
+C|105281|37|K|Zaire Kanat Yildirim|37, myndighetsjurist, Huddinge
+C|105282|65|M|Jan Olof Bodén|Psykolog, Kynäs
+C|105283|36|K|Louise Rollins|Företagare, Grantorp
+C|105284|36|M|Peter Johansson|Trädgårdsmästare, Utsälje
+C|105285|40|K|Lisa Dam|Labratorieingenjör, Fullersta
+C|105286|66|M|Per Öberg|Förskollärare, Visättra
+C|105287|51|K|Frida Andersson|Studievägledare, Kästa
+C|105288|63|M|Lars Alaeus|Civilingenjör, Solgård
+C|105289|60|K|Anna Nikkinen|Lärare, Kråkvik
+C|105290|48|M|Mattias Byström|Pressekreterare, Myrängen
+C|105291|55|K|Elisabeth Norberg|Begravningsentreprenör, Visättra
+C|105292|66|M|Jacobus Buijsse|Pensionär, Skogås
+C|105293|72|K|Marianne Broman|27, nämndeman, Huddinge
+C|105294|71|M|Alf Levinsson|Musiklärare, Fullersta
+C|105295|72|K|Birgitta Ljung|Rektor, Solgård
+C|105296|70|M|Tomas Nordström|Civilingenjör, Solgård
+C|17756|45|M|Daniel Dronjak|45, Kommunstyrelseordförande
+C|17757|63|K|Christina Eklund|63, Kommunalråd
+C|12802|53|K|Jelena Drenjanin|53, Kommunalråd
+C|12783|28|M|Erik Ottoson|28, Riksdagsledamot
+C|17760|59|K|Eva Paulsen Karlsson|59, Butiksansvarig
+C|12809|27|M|Love Bergström|27, Statsvetare
+C|17762|66|K|Gunilla Helmerson|66, Byggnadsingenjör, Stuvsta
+C|17763|28|M|Henrik Boltenstål|28, Ekonom, Flemingsberg
+C|12810|49|K|Jennifer Hopper Lind|49, Egenföretagare
+C|17765|27|K|Johanna Bergman|27, Lärare , Solgård
+C|17766|21|K|Caroline Örtholm|21, Student, Huddinge C
+C|17767|55|M|Kennet Bergh|55, Civilekonom, Snättringe
+C|17768|46|M|Mats Österholm|46, Advokat
+C|17769|72|M|Björn Karlsson|72, Ingenjör
+C|17770|26|M|Nicolas Holst|26, Produktledningsassistent
+C|17771|62|M|Peter Höög|62, Försäjningschef, Segeltorp
+C|17772|20|M|Patrik Rahm|20, Student
+C|17773|51|M|Claes-Johan Bonde|51, Kompetensrådgivare
+C|17774|44|M|Erik Uddén|44, Näringslivsstrateg, Fullersta
+C|17775|20|K|Linda von Fircks|20, Butiksbiträde
+C|17776|54|M|Peder Westerlund|54, Lagerarbetare
+C|17777|27|K|Diana Molinsky|27, Student, Huddinge C
+C|17778|34|M|Fredrik Kristoffersen|34, Ekonomiansvarig, Huddinge C
+C|17779|56|K|Cecilia Sundberg|56, Projektledare
+C|17780|28|M|Hampus Holmgren|28, Politisk sekreterare, Huddinge C
+C|17781|48|K|Ulrika Wennberg|48, Civilekonom
+C|17782|53|M|Hans Wallenborg|53, Ingenjör, Skogås
+C|17783|76|M|Ingemar Syring|76, Pensionerad ingenjör, Huddinge C
+C|17784|20|M|Harald Bergh|20, Student, Snättringe
+C|17785|47|M|Jonas Sindahl|47, Jurist
+C|17786|45|M|Andreas Lindgren|45, Civilekonom
+C|17787|23|M|Erik Holmberg|23, Student, Visättra
+C|17788|62|K|Arja Hakanpää|62, Postsorterare, Stuvsta
+C|17789|55|M|Leif Britsmar|55, Bevakningsföreståndare, Stensättra
+C|17790|62|M|Jörgen Jönsson|62, Tandläkare, Kvanbergsplan
+C|17791|21|M|David Hedlund|21, Kundansvarig
+C|17792|43|K|Anna Sjösten Yderhag|43, Utredare, Skogås
+C|17793|48|M|Attila Kuru|48, Ingenjör
+C|17794|39|K|Ära Kuchner|39, Gruppchef , Segeltorp
+C|17795|64|M|Heinrich von Fircks|64, Intendent
+C|17796|56|M|Mats Sterner|56, Ekonom
+C|17797|46|K|Jenny Hansson Magnvall|46, Distriktssköterska , Länna
+C|17798|51|M|John Runeström|51, IT-tekniker
+C|17799|51|M|Peter Forssman|51, Filosofie kandidat , Visättra
+C|17800|50|M|Jonas Falk|50, Politisk sekreterare, Solgård
+C|77813|71|M|Arnold Boström|71, kommunalråd, Huddinge
+C|77814|52|M|Mats Arkhem|52, politisk sekreterare, Huddinge
+C|77815|57|M|Martin Nigals|57, civilingenjör, Huddinge
+C|77816|72|K|Ann Clewett|analytiker, Snättringe
+C|77817|62|M|Sven Pernils|Företagare, Huddinge
+C|77818|75|M|John Clewett|författare, Snättringe
+C|77819|81|M|Gerhard Miksche|docent, Stuvsta
+C|77820|60|K|Annika Boström|60, sjuksköterska, Huddinge
+C|77821|74|M|Runar Finnman|företagare, Stuvsta
+C|77822|60|K|Malena Karanovic|60, specialistläkare, Huddinge
+C|77823|64|M|Rolf Lindberg|ekonomichef, Trångsund
+C|77824|66|M|Bo Adolfsson|entreprenör, Ådran
+C|77825|36|K|Cecilia Chavarria|36, sminkös, Huddinge
+C|77826|61|M|Roger Urbanski|61, ambulanssjukvårdare, Huddinge
+C|77827|64|M|Nils Nilsson|byggarbetare, Vårby
+C|77828|61|M|Peter Sandsjö|it-konsult, Snättringe
+C|77830|59|M|Bo Andersson|59, depåarbetare, Huddinge
+C|77831|48|M|Sebastian Tranberg|48, byggingenjör, Huddinge
+C|77832|73|M|Christer Hultin|pensionär, Flemingsberg
+C|77833|60|M|Tommy Jonasson|VVS-montör, Högmora
+C|77834|57|M|Thord Rådberg|elektriker, Länna
+C|77835|66|M|Roger Tinglöf|pensionär, Visättra
+C|77836|76|M|Lars Johansson|pensionär, Vårby
+C|183056|38|K|Nujin Alacabek|Huddinge, MR-vetare och kommunalråd
+C|183057|26|M|Niklas Bougt|Huddinge, leg. sjuksköterska
+C|183058|70|K|Sonia Benavente|Skogås, 70 år
+C|183059|36|M|Olov Hamilton|Skogås, 36 år
+C|183060|71|K|Britt Björneke|Hörningsnäs, 71 år
+C|183061|32|M|Konrad Hyltén|Trångsund, 32 år
+C|183062|36|K|Aysegül Balci|Visättra, 36 år
+C|183063|75|K|Ulla Olsson Engström|Vårby, 75 år
+C|183064|33|M|Jonatan Spejare|Sjödalen, 33 år
+C|183065|60|K|Barbro Waara|Sjödalen, 60 år
+C|183066|37|M|Thomas Strandquist|Glömsta, 37 år
+C|183067|62|K|Helena Perkkalainen|Visättra, 67 år
+C|183068|28|M|Roger Alis|Flemmingsberg, 28 år
+C|183069|34|K|Erica Stensson|Segeltorp, 34 år
+C|183070|70|M|Lasse Alm|Solgård, 70 år
+C|183071|61|K|Maritta Laine|Sjödalen, 61 år
+C|183072|68|M|Bosse Persson|Vårby, 68 år
+C|183074|64|M|Keya Izol|Stuvsta, 64 år
+C|183075|79|K|Gertie Lux|Flemmingsberg, 79 år
+C|183076|50|M|Johan Reynols|Visättra, 50 år
+C|183077|74|M|Arne Tärnblom|Sjödalen, 74 år
+C|183073|33|K|Tove Eliasson|

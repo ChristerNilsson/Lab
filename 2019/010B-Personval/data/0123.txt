@@ -1,11 +1,292 @@
-2|180052|180053|180054|180055|71210|180057|180058|180059|180060|180061|180062|180063|101500|101495|180066|180067|180068|180069|180070|101507|180072|180073|180074|180075|180076|101503|101490|180079|180080|180081|180082|180083|180084|422315|180086|180087|180088|180089|180090|180091|180092|180093|101502|180095|180098|180097|180100|180099|180102|180101|180104|180103|180106|180105|180108|180107|180110|180109
-4|8556|113309|113310|113311|113312|76920|113314|113315|113316|113317|76947|113319|113320|113321|113322|113323|113324|113325|113326|76952|113328|113329|113330|113331|113332|113333|113334|113335|113336|113337
-532|513846|513847
-68|154747|154748|154749|154750|154751|154752|154753|154754|154755|154756|154757|154758|154759|154760|154761|154762|154763|154764|154765|154766|154767|154768|154769
-1140|480110|480116|480144|506253|506267|506256
-3|246456|246457|246458|246459|246460|246461|246462|246463|246464|246465|246466|246467|246468|246469|246470|246471|246472|246473|246474|246475|246476|246477|246478|246479|508489
-1296|123035|123036|123037|123038
-55|105686|105687|105688|105689|105690|105691|105692|105693|105694|105695|105696|105697|105698|105699|105700|105701|105702|105703
-1|20194|12797|20196|20197|20198|12812|20200|20201|20202|20203|20204|20205|20206|20207|20208|20209|20210|20211|20212|20213|20214|20215|20216|20217|20218|20219|20220|20221|20222|20223|20224|20225|20226|20227|20228|20229|20230|20231|20232|20233|20234|20235|20236|20237|20238|20239|20240|20241|20242|20243|20244|20245|20246|20247
-110|150582|158638|158648|150612|158641|158644|158650|150604|158633|158635|150630|150599|158637|158647|158640|158636|158646|158634|158645|158649|158639
-5|217886|217887|217888|217889|217890|217891|217893|217894|217895|217896|217897|217898|217899|217900|217901|217902|217903|217904|217905|217906|217907|217908|217909|217910|217911|217912|217913|217914|217915
+T|Järfälla
+A|2|180052|180053|180054|180055|71210|180057|180058|180059|180060|180061|180062|180063|101500|101495|180066|180067|180068|180069|180070|101507|180072|180073|180074|180075|180076|101503|101490|180079|180080|180081|180082|180083|180084|422315|180086|180087|180088|180089|180090|180091|180092|180093|101502|180095|180098|180097|180100|180099|180102|180101|180104|180103|180106|180105|180108|180107|180110|180109
+A|4|8556|113309|113310|113311|113312|76920|113314|113315|113316|113317|76947|113319|113320|113321|113322|113323|113324|113325|113326|76952|113328|113329|113330|113331|113332|113333|113334|113335|113336|113337
+A|532|513846|513847
+A|68|154747|154748|154749|154750|154751|154752|154753|154754|154755|154756|154757|154758|154759|154760|154761|154762|154763|154764|154765|154766|154767|154768|154769
+A|1140|480110|480116|480144|506253|506267|506256
+A|3|246456|246457|246458|246459|246460|246461|246462|246463|246464|246465|246466|246467|246468|246469|246470|246471|246472|246473|246474|246475|246476|246477|246478|246479
+A|1296|123035|123036|123037|123038
+A|55|105686|105687|105688|105689|105690|105691|105692|105693|105694|105695|105696|105697|105698|105699|105700|105701|105702|105703
+A|1|20194|12797|20196|20197|20198|12812|20200|20201|20202|20203|20204|20205|20206|20207|20208|20209|20210|20211|20212|20213|20214|20215|20216|20217|20218|20219|20220|20221|20222|20223|20224|20225|20226|20227|20228|20229|20230|20231|20232|20233|20234|20235|20236|20237|20238|20239|20240|20241|20242|20243|20244|20245|20246|20247
+A|110|150582|158638|158648|150612|158641|158644|158650|150604|158633|158635|150630|150599|158637|158647|158640|158636|158646|158634|158645|158649|158639
+A|5|217886|217887|217888|217889|217890|217891|217893|217894|217895|217896|217897|217898|217899|217900|217901|217902|217903|217904|217905|217906|217907|217908|217909|217910|217911|217912|217913|217914|217915
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|1140|KrVP|Kristna Värdepartiet
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|180052|49|M|Claes Thunblad|49, Kallhäll, Kommunstyrelsens ordförande
+C|180053|51|K|Eva Ullberg|51, Barkarby, Kommunalråd
+C|180054|44|M|Christian Bengtzelius|44, Jakobsberg, Föreningschef
+C|180055|34|K|Kristina Bergman|34, Jakobsberg, Förbundssekreterare Unga Örnar
+C|71210|29|M|Mika Metso|29, Borgarrådssekreterare, Järfälla
+C|180057|62|K|Anneli Johansson|62, Kallhäll, Löneadministratör
+C|180058|38|M|Andreas Fogeby|38, Jakobsberg, Civilingenjör
+C|180059|63|K|Agneta Dahlgren|63, Viksjö, Miljösamordnare
+C|180060|60|M|Bengt Harju|60, Viksjö, Fastighetschef
+C|180061|29|K|Veronica Sällemark|29, Barkarby, Student
+C|180062|54|M|Aydin Aydin|54, Jakobsberg, Maskinoperatör
+C|180063|26|K|Parinaz Sabzikar|26, Viksjö, IT-konsult
+C|101500|52|M|Markus Josefsson|52, Ingenjör, Järfälla
+C|101495|25|K|Chris Alm|25, Järfälla
+C|180066|26|M|Oscar Fridell|26, Jakobsberg, Ombudsman
+C|180067|42|K|Annie Säll|42, Barkarby, Ombudsman
+C|180068|22|M|Christopher Lindvall|22, Stäket, Lagerarbetare
+C|180069|21|K|Semsem Abdiaziz Ahmed|21, Jakobsberg, Studerande
+C|180070|60|M|Peter Ulander|60, Viksjö, Fritidsledare
+C|101507|65|K|Eva-Lotta Arenander|65, Järfälla
+C|180072|56|M|Renas Awdal|56, Barkarby, Systemvetare
+C|180073|55|K|Agneta Karlsson|55, Jakobsberg, Statssekreterare
+C|180074|26|M|Björn Erkus|26, Viksjö, Taxitelefonist
+C|180075|51|K|Regina Afzelius|51, Viksjö, Undersköterska
+C|180076|38|M|Aziz Kristoffersson|38, Barkarbystaden, Jurist
+C|101503|47|K|Kozeta Paluka|47, Administratör, Förtroendevald Handels, Järfälla
+C|101490|27|M|Victor Harju|27, Järfälla
+C|180079|70|K|Solveig Byberg|70, Kallhäll, Pensionär
+C|180080|64|M|Göran Nilsson|64, Viksjö, Utredare
+C|180081|55|K|Helena Lindgren|55, Viksjö, Ekonom
+C|180082|64|M|Richard Dazley|64, Jakobsberg, Egenföretagare
+C|180083|73|K|Irma Lindell Estun|73, Viksjö, Pensionär
+C|180084|59|M|Gunnar Eriksson|59, Jakobsberg, Civilingenjör
+C|422315|43|K|Marianne Elmenbeck|43, Tillståndshandläggare, Viksjö,
+C|180086|49|M|Stavros Bakas|48, Viksjö, Busschaufför
+C|180087|52|K|Åsa Palmgren|52, Jakobsberg, Barnskötare
+C|180088|67|M|Leif Nilsson|67, Barkarby, Pensionär
+C|180089|54|K|Anita Erkus|54, Viksjö, Pensionär
+C|180090|46|M|Björn Arntsen|46, Viksjö, Lagerarbetare
+C|180091|38|K|Susanne Axelsson|38, Kallhäll, Busschaufför
+C|180092|27|M|Naim Kelmendi|27, Jakobsberg, Butiksbiträde
+C|180093|52|K|Februniye Boyaci|52, Jakobsberg, Skolköksbiträde
+C|101502|30|M|Daniel Ullenius|30, Projektledare, Järfälla
+C|180095|76|K|Leena Ljunefors|76, Jakobsberg, Pensionär
+C|180098|62|M|Jakob Geuriya|62, Jakobsberg, Tolk
+C|180097|42|K|Mariana Arntsen|42, Viksjö, Ombudsman
+C|180100|45|M|Johan Örsvik|45, Viksjö, Konsult
+C|180099|59|K|Eva Dazley|59, Jakobsberg, Sektionschef
+C|180102|39|M|Peter Karlsson|39, Viksjö, VA-tekniker
+C|180101|33|K|Carolina Nolasco Gil Roth|33, Viksjö, Ordningsvakt
+C|180104|61|M|Göran Ersson|61, Jakobsberg, CNC-operatör
+C|180103|46|K|Fince Awdal|46, Barkarby, Skuldsanerare
+C|180106|73|M|Hans Holmberg|73, Jakobsberg, Pensionär
+C|180105|29|K|Towe Hörnfeldt|29, Viksjö, Facklig organisatör
+C|180108|39|M|Pelle Rödin|39, Jakobsberg, Politisk sakkunnig
+C|180107|69|K|Tarja Joki Aiga|69, Kallhäll, Pensionär
+C|180110|29|M|Markus de Basso|29, Barkarby, Jurist
+C|180109|63|K|Eva Eklund|63, Barkarby, Chaufför
+C|8556|59|M|Aphram Melki|59 år, Kommunalråd, Järfälla
+C|113309|62|M|Jonas Hellqvist|62 år Pilot Skälby
+C|113310|59|K|Doris Vesterlund|59, Järfälla, Verksamhetsutvecklare
+C|113311|34|M|George Hannouch|34, Järfälla, Civilingenjör
+C|113312|48|K|Pamela Salazar|48 år Integrationssamordnare Jakobsberg
+C|76920|71|M|Torsten Friberg|71, Järfälla, Socionom
+C|113314|33|K|Mona Safa|33 år Lärare Barkarby
+C|113315|39|M|Tony Haddad|39 år Egenföretagare Jakobsberg
+C|113316|70|K|Kerstin Arvidsson|70 år Sjuksköterska Viksjö
+C|113317|66|M|Tony El-Khouri|66 år Egenföretagare Jakobsberg
+C|76947|71|M|Erik Östman|71, Järfälla, Egen företagare
+C|113319|38|K|Vivian Hannouch|38 år Socionom Viksjö
+C|113320|42|M|Tobias Cronsell|42 år Gymnasielärare Kallhäll
+C|113321|18|M|Mehdi Mohamed|18 år Studerande Viksjö
+C|113322|39|K|Marlene Kallas|39 år Ekonom Viksjö
+C|113323|28|M|Mujib Wais Ezat|28 år Statsvetare Jakobsberg
+C|113324|27|M|Manuel Melki|27 år Byggnadsingenjör Barkarby
+C|113325|50|M|Philip Sahyoun|50 år Egenföretagare Viksjö
+C|113326|78|K|Inger Kindgren|78 år Jurist Jakobsberg
+C|76952|40|M|Naufal Alizadé|41, Järfälla, Egen företagare
+C|113328|23|K|Kinora Barsoum|23 år Frisör Barkarby
+C|113329|48|M|Zaydon Abedrabba|48 år Fotograf Jakobsberg
+C|113330|48|K|Mary Chen|48 år Steriltekniker Jakobsberg
+C|113331|74|M|Ulf Malmström|74 år Ekonom Barkarby
+C|113332|79|K|Monica Serrander|79 år Forskningslaborant Skälby
+C|113333|75|K|Margareta Sjöström|75 år Egenföretagare Stäket
+C|113334|60|M|Ulf Lovén|60 år Egenföretagare Stäket
+C|113335|68|K|Lena Öjhammar Andersson|68 år Lärare Viksjö
+C|113336|38|M|Christoffer Persson|38 år Sekreterare Skälby
+C|113337|81|M|Per Wallenthin|81 år Revisor Kallhäll
+C|513846|28|M|Begmohammed Derakshande-Tomadj|28, studentombudsman
+C|513847|24|K|Jasmine Borger|24, teckenspråkstolk
+C|154747|65|M|Lennart Nilsson|65, Gruppledare, Järfälla
+C|154748|73|K|Lydia El-Hachem|Företagare
+C|154749|69|M|Roland Borgström|Pensionerad Polis
+C|154750|67|K|Ann Hedberg Balkå|67, Leg. Sjuksköterska, Järfälla
+C|154751|60|M|Gert Jansson|Entreprenör
+C|154752|39|K|Mia Sevebrant Eklöf|Civilekonom
+C|154753|58|M|Peter Wittboldt|Polis
+C|154754|29|M|Elias Aphram|Automations ingenjör
+C|154755|61|K|Agneta Nilsson|Systemförvaltare
+C|154756|61|M|Jan Peter Svedlund|Utredare
+C|154757|43|K|Maria Lawestig|Säljare
+C|154758|77|M|Harry Edström|Arkitekt
+C|154759|37|K|Maria Nilsson|Trädgårdsmästare
+C|154760|23|M|Nickolas Khorasani|Studerande
+C|154761|23|M|Robbie Afram Chamun|Företagare
+C|154762|45|M|Pierre Lawestig|Entreprenör
+C|154763|77|M|Roberth Wickström|Ljudtekniker
+C|154764|49|M|Christian Bjelle|IT-Arkitekt
+C|154765|67|M|Ahmed Hussen Egal|Företagare
+C|154766|52|M|Peter Gustafsson|Mentalskötare
+C|154767|70|M|Roland Swenson|Pensionär
+C|154768|84|K|Margareta Olofsson|Pensionär
+C|154769|87|M|Inge Olofsson|Pensionär
+C|480110|66|M|Per Kronlid|journalist/pensionär, 66, Järfälla
+C|480116|51|M|Aziz Alkass|administratör, 51, Järfälla
+C|480144|39|K|Agnieszka Labuda|förskollärare, 39, Järfälla
+C|506253|35|M|Christofer Mattsson|projektledare/teolog, 35 Jakobsberg
+C|506267|39|M|Roland Alkass Yousef|farmaceut, 39, Stockholm
+C|506256|33|M|Abgar Mikho|försäkringsrådgivare, 33, Jakobsberg
+C|246456|43|K|Nikoletta Jozsa|socionom, Järfälla
+C|246457|32|K|Helena Mischel|civilingenjör, Järfälla
+C|246458|39|M|Jonathan Björniden|Egenföretagare, Skälby
+C|246459|80|K|Anita Mickos|ingenjör, Järfälla
+C|246460|41|M|Anders Bengtsson|Kommunikatör, Jakobsberg
+C|246461|50|K|Maria Mattsson|jurist, Järfälla
+C|246462|73|K|Anne-Marie Holm|Civilekonom, Viksjö
+C|246463|20|M|Ershad Taherifard|studerande, Jakobsberg
+C|246464|46|M|Anders Yngman|Organisationschef, Skälby
+C|246465|74|M|Lars Markstedt|Civilingenjör, Viksjö
+C|246466|45|M|Fredrik Winberg|Dirigent, Viksjö
+C|246467|49|M|Karl-Johan Bergström|Ekonom, Barkarbystaden
+C|246468|48|M|Pierre Mattsson|Chaufför, Kallhäll
+C|246469|70|M|Esa Tuuri|Civ. ing., hembygdsforskare, Jakobsberg
+C|246470|37|M|John Öster|Planarkitekt, Jakobsberg
+C|246471|62|K|Inga Martinsson|Miljövetare, Barkarby-Skälby
+C|246472|53|M|Pär Vedin|Civilekonom/Projektledare, Viksjö
+C|246473|80|K|Raili Buresund Ahlfors|pensionär, Järfälla
+C|246474|65|K|Susanne Mischel|socionom, Järfälla
+C|246475|73|M|Bo Olsson|Barkarby-Skälby
+C|246476|53|K|Barbro Söderblom|Löneadministratör, Viksjö
+C|246477|70|M|Bo Winander|Konsult, Viksjö
+C|246478|66|M|Per-Erik Burrau|Senior, Kallhäll
+C|246479|79|M|Lars Bergstig|Pensionär, Barkarby
+C|123035|49|M|Stefan Pettersson|49, Civilekonom
+C|123036|52|M|Jovica Andonov|52, Företagare
+C|123037|51|M|Kai Rämö|51, Yrkesofficer, Stockholms län
+C|123038|40|K|Carolin Nielsen|40, Sjuksköterska, Stockholms län
+C|105686|41|K|Amanda Palmstierna|41, miljösamordnare, Järfälla
+C|105687|32|M|Mikael Jämtsved|Kommunalråd, 32 år
+C|105688|47|K|Jiang Millington|47, kommunikatör, Järfälla
+C|105689|55|M|Patric Andersson|Lärare, 55 år
+C|105690|46|K|Pamela Coronado Navarro|Skådespelerska, zumbainstruktör, coach, 45 år
+C|105691|46|M|Thommy Tasakis|Lärare, 46 år
+C|105692|70|K|Agnita Wärn|Arbetsmiljöinspektör (pensionerad), 70 år
+C|105693|48|M|Salih Sabah|Leg. Arbetsterapeut, 48 år
+C|105694|66|K|Sara Stenhammar|Civilingenjör, 66 år
+C|105695|57|M|Christer Lindblad|Fil. Kand. statsvetare, 57 år
+C|105696|70|K|Aurora Echeverría|Lärare (pensionerad)
+C|105697|72|M|Sune Fredenberg|72, leg. läkare, Järfälla
+C|105698|61|K|Evy Kornberg|Advokat, 61 år
+C|105699|57|M|Shamsedin Dawody|58,tolk, Järfälla
+C|105700|29|M|Jonatan Sjö Jerling|Utvecklare, 29 år
+C|105701|41|K|Katja Gómez Castellanos|Stadsplanerare, 42 år
+C|105702|36|K|Nasiba Daytabar|Modersmålslärare, 36 år
+C|105703|52|M|Henning Eriksson|It-chef, 52 år
+C|20194|37|K|Cecilia Löfgreen|37, Oppositionsråd
+C|12797|40|K|Emma Feldman|40, Kommunalråd
+C|20196|32|M|Dan Engstrand|32, Oppositionsråd
+C|20197|27|M|Richard Lindforss|27, Kredithandläggare
+C|20198|72|K|Inger Sundqvist|72, Senior
+C|12812|26|K|Alexandra Hedborg|26, Logistikkoordinator
+C|20200|19|K|Alina Otto|19, Juriststudent
+C|20201|54|M|Björn Falkeblad|54, Civilekonom
+C|20202|75|M|Stig Drevemo|75, Professor emeritus
+C|20203|59|M|Björn Lindforss|59, Konsult
+C|20204|69|M|Jan de Waern|69, Ekonom
+C|20205|42|M|Marcus Gry|42, Gruppchef
+C|20206|49|K|Monika Hallstensson|49, Projektledare
+C|20207|44|K|Sabina Gudmundsson|44, Hotellchef
+C|20208|37|K|Mikaela Östh|37, Farmaceut
+C|20209|66|K|Lena Pramer|66, Företagare
+C|20210|50|K|Cecilia Medina|50, Egenföretagare
+C|20211|33|M|Richard Högqvist|33, Jurist
+C|20212|67|K|Kristina Lennehag|67, Senior
+C|20213|25|M|Hjalmar Bengtsson Raymond|25, Egenföretagare
+C|20214|61|M|Anders Sörensen|61, Fastighetskonsult
+C|20215|51|M|Andre Watanabe|51, IT-expert
+C|20216|30|K|Marie Dahlén|30, Projektassistent
+C|20217|48|M|Adel Taherifard|48, Lärare
+C|20218|51|M|Timo Wiksten|51, Kundansvarig
+C|20219|80|K|Solveig Tollstedt|80, Senior
+C|20220|24|M|William Jansson|24, Student
+C|20221|65|M|Rashid Chowdhury|65, Agronom
+C|20222|42|M|Alexander Wilén Löfgreen|42, Lärarstudent
+C|20223|40|K|Anna-Karin Ehdwall|40, Marknadssamordnare
+C|20224|48|K|Lotta Mothander|48, Privatrådgivare
+C|20225|29|M|Rudolf Pramer|29, Arbetare
+C|20226|64|K|Karla Ramsbäck|64, Egenföretagare
+C|20227|80|M|Birger Öman|80, Egenföretagare
+C|20228|45|M|Lennart Strand|45, Civilekonom
+C|20229|76|K|Lena Drevemo|76, Senior
+C|20230|73|M|Jan Westman|73, Ekonom
+C|20231|68|M|Gunnar Lundström|68, f.d Örlogskapten
+C|20232|76|K|Anna Billing|76, Senior
+C|20233|29|M|Johannes Smidelöv|29, Webbutvecklare
+C|20234|32|M|Daniel Morton|32, Områdeschef
+C|20235|74|K|Kerstin Billing|74, Senior
+C|20236|39|M|Christer Bolk|39, Entreprenör
+C|20237|68|K|Annika Lundström|68, Administratör
+C|20238|60|K|Anne-Cathrine Söderberg|60, Jur. kand
+C|20239|43|M|Kambiz Ostovari|43, IT-tekniker
+C|20240|76|K|Anita Gröning Persson|76, Marknadsekonom
+C|20241|52|K|Ingela Skytte de Waern|52, Ingenjör
+C|20242|72|K|Kerstin Andreasson|72, Senior
+C|20243|79|M|Jan Hjort|79, Teknologie licentiat
+C|20244|56|K|Carina Holm|56, Försäkringstjänsteman
+C|20245|35|K|Beatrice Svahn Yilmaz|35, Socionom
+C|20246|66|M|Johnny Lennström|66, Senior
+C|20247|72|K|Marianne Sandström|72, Senior
+C|150582|57|M|Björn Lindgren|57, politisk sekreterare, Järfälla
+C|158638|24|K|Jannica Liljegren|24, Butiksbiträde
+C|158648|49|M|Patrik Söderberg|49, Undersköterska
+C|150612|30|M|Björn Larsson|30, IT tekniker, Järfälla
+C|158641|67|M|Torbjörn Jönsson|67, Pensionär
+C|158644|69|M|Mats Nord|69, Ingenjör
+C|158650|58|K|Rose-Marie Sundlöf|58, Undersköterska
+C|150604|24|M|Wilhelm Eriksson|24, nämndeman, Järfälla
+C|158633|47|M|Daniel Cedergren|47, Banarbetare
+C|158635|53|K|Benita Thunberg|54, Produktionsledare
+C|150630|59|M|Lennart Gehrke|59, VVS ingenjör, Järfälla
+C|150599|21|K|Sara Jönsson|21, sjuksköterskestudent, Järfälla
+C|158637|20|M|Hannes Lindgren|20, Butiksanställd
+C|158647|63|M|Anders Lindström|63, f.d. Lantbrukare
+C|158640|62|K|Kerstin Dufvenberg|62, Konsult
+C|158636|45|M|Fredrik Bergström|45, Säkerhetstekniker
+C|158646|45|M|Nilantha Aluth Gedara|45, Vårdanställd
+C|158634|72|M|Dennis Bikoff|71, Tjänsteman
+C|158645|60|M|Mikael Lundström|60, Konsult
+C|158649|84|M|Reino Saari|83, Fältassistent/Pensionär
+C|158639|34|M|Jimmy Andersson|34, Parkeringsvakt
+C|217886|65|M|Bo Leinerdal|Ekonomiansvarig
+C|217887|32|K|Sanna Tefke|Förtroendevald Kommunal
+C|217888|20|M|Christoffer Hörnhagen|Arbetsledare
+C|217889|49|K|Annica Nilsson|Pedagog
+C|217890|62|M|Hamid Ramazani|Arbetsterapeut
+C|217891|68|K|Elisabet Jones|Lärare
+C|217893|74|K|Anna Bång|Järfälla, sjuksköterska
+C|217894|71|M|Stefan Lindholm|Socionom
+C|217895|30|K|Mia Söderlind|Förskollärare
+C|217896|71|M|Lars Lemon|Grafiker
+C|217897|59|K|Ann Persson|Förskollärare
+C|217898|47|M|Ammar Makboul|
+C|217899|60|K|Eva Ärlemalm Hagsér|Universitetslektor
+C|217900|53|M|Thomas Stenholm|Datakonsult
+C|217901|81|K|Monika Lafveskans|f.d. gymnasielärare
+C|217902|72|M|Göran Hillman|Kulturskribent
+C|217903|82|K|Marianne Höök|f.d. handläggare Unesco
+C|217904|62|M|Mårten Berglund|
+C|217905|60|K|Maria Gustafsson|Barnskötare
+C|217906|70|M|Peter Bloch|Presschef
+C|217907|71|K|Kristina Norgren|Pensionär
+C|217908|73|M|Frans Van Don|Pensionär
+C|217909|34|K|Birgitta Garsten|
+C|217910|69|M|Sune Wängborg|Socionom
+C|217911|73|K|Kerstin Österberg|Journalist
+C|217912|68|M|Tomas Tisell|Pensionär
+C|217913|41|K|Jessica Moya|Fritidsledare
+C|217914|77|M|Ernst Hansen|Pensionär
+C|217915|71|K|Linnea Wilén|Folkbokförare

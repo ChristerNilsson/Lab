@@ -1,8 +1,170 @@
-2|94941|94942|44904|28273|94945|94946|94947|94948|44912|94950|94951|44919|94953|94954|28294|94956|94957|94958|94959|44901|94961|94962|94963|94964|94965|94966|94967|94968|94969|94970|94971|94972|94973|94974
-4|80219|35323|80122|80123|80124|80125|80126|80127|80128|38896|80130|80131|80132|38901|80134|80135|80136|80137|80138|80139|80140|80141|80142|80143|80144|80145|80146|80147|80148|80149
-68|59367|63201|63202|63203|63204|63205|63206|63207|63208|63209
-3|55359|55360|55361|55362|55363|55364|55365|55366|55367|55368|55369
-55|360699|236472|236473
-1|63156|63157|63158|63159|63160|63161|63162|63163|63164|63165|63166|63167|63168|63169|63170|63171|63172|63173|63174|63175|63176|63177|63178|63179|63180|63181|63182|63183|63184|63185|63186|63187|63188|63189|63190|63191|63192|63193|63194|63195|63196|63197
-110|127604|127605|127606|127607|127608|127609|275420|127610|127611|127612|127613|127614|127615|127616|127617|127618|127619|296608|296609
-5|504809|504810|504811|504812
+T|Åstorp
+A|2|94941|94942|44904|28273|94945|94946|94947|94948|44912|94950|94951|44919|94953|94954|28294|94956|94957|94958|94959|44901|94961|94962|94963|94964|94965|94966|94967|94968|94969|94970|94971|94972|94973|94974
+A|4|80219|35323|80122|80123|80124|80125|80126|80127|80128|38896|80130|80131|80132|38901|80134|80135|80136|80137|80138|80139|80140|80141|80142|80143|80144|80145|80146|80147|80148|80149
+A|68|59367|63201|63202|63203|63204|63205|63206|63207|63208|63209
+A|3|55359|55360|55361|55362|55363|55364|55365|55366|55367|55368|55369
+A|55|360699|236472|236473
+A|1|63156|63157|63158|63159|63160|63161|63162|63163|63164|63165|63166|63167|63168|63169|63170|63171|63172|63173|63174|63175|63176|63177|63178|63179|63180|63181|63182|63183|63184|63185|63186|63187|63188|63189|63190|63191|63192|63193|63194|63195|63196|63197
+A|110|127604|127605|127606|127607|127608|127609|275420|127610|127611|127612|127613|127614|127615|127616|127617|127618|127619|296608|296609
+A|5|504809|504810|504811|504812
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|94941|51|K|Bitten Mårtensson|51 år, Linjeopratör, Åstorp
+C|94942|56|M|Ronny Sandberg|56 år, Träarbetare, Nyvång
+C|44904|42|K|Isabella Dzanko|Lärare, Åstorp
+C|28273|55|M|Per-Arne Håkansson|Riksdagsledamot, Åstorp
+C|94945|39|K|Tina Christensen|38 år, Badmästare, Kvidinge
+C|94946|64|M|Lennart Fredriksson|64 år, ombudsman, Åstorp
+C|94947|65|K|Jeanette Larsson|64 år, Handledare, Åstorp
+C|94948|45|M|Othman Al Tawalbeh|46 år, Doktorand, Åstorp
+C|44912|63|K|Gun Friberg|HR-specialist, Åstorp
+C|94950|71|M|Reino Persson|71 år, Pensionär, Åstorp
+C|94951|61|K|Lucy Glinka|60 år, Administration, Åstorp
+C|44919|30|M|Menaid Nocic|Maskinist, Åstorp
+C|94953|72|K|Ioana Cimpoeru|72 år, Pensionär, Åstorp
+C|94954|68|M|Bengt Olle Andersson|68 år, Ingenjör, Åstorp
+C|28294|20|K|Dafina Lugici|Studerande, Åstorp
+C|94956|55|M|Mikael Mårtensson|54 år, Maskininställare, Åstorp
+C|94957|42|K|Linda-Marie Camper|41 år, Lärare, Kvidinge
+C|94958|40|M|Florian Bobocea|40 år, Tekniker, Åstorp
+C|94959|62|K|Kerstin Andersson|61 år, Karttekniker, Åstorp
+C|44901|42|M|Richard Ridwall|Träarbetare, Åstorp
+C|94961|40|K|Jeannette Figueroa|39 år, Tandläkare, Åstorp
+C|94962|67|M|Leif Persson|66 år, Pensionär, Åstorp
+C|94963|60|K|Iby Todor|59 år, Sjukpensionär, Åstorp
+C|94964|75|M|Ulf Cronbring|74 år, Pensionär, Hyllinge
+C|94965|73|K|Gulli Pålsson|72 år, Pensionär, Kvidinge
+C|94966|55|M|Christer Johansson|54 år, Lagerarbetare, Åstorp
+C|94967|55|K|Ann-Margret Randau|54 år, ledsagare, Hyllinge
+C|94968|75|M|Kjell Pålsson|75 år, Pensionär, Kvidinge
+C|94969|60|M|Bo Bengtsson|59 år, Företagare, Åstorp
+C|94970|73|M|Stig-Rune Thell|73 år, Pensionär, Kvidinge
+C|94971|56|M|Håkan Abrahamsson|56 år, Byggtekniker, Åstorp
+C|94972|72|M|Ben Ibou Sagna|71 år, Pensionär, Hyllinge
+C|94973|45|M|Magnus Sundstad|44 år, Skyddsombud, Åstorp
+C|94974|56|M|Thomas Fredriksson|55 år, Kontorist, Hyllinge
+C|80219|66|M|Lars-Erik Petersson|Kreditchef, Åstorp
+C|35323|36|M|Murat Özbalci|36, Egenföretagare
+C|80122|50|K|Annica Vink|Blomsterhandlare, Åstorp
+C|80123|32|K|Karin Larsson|Utvecklingsstrateg, Åstorp
+C|80124|42|K|Ebba Kroon|Studie- och yrkesvägledare, Åstorp
+C|80125|67|M|Bertil Wemmert|Verktygsmakare, Åstorp
+C|80126|62|K|Ann-Louise Ekberg|Lantbrukare, Åstorp
+C|80127|35|M|Ali Alabdallah|Kommunikatör, Åstorp
+C|80128|47|K|Sofia Hultberg|Förskollärare, Åstorp
+C|38896|61|M|Stig Rådström|Åstorp, Sjuksköterska, 61
+C|80130|49|K|Jeanette Thambert|Undersköterska, Hyllinge
+C|80131|39|M|Andreas Johansson|Säljare, Åstorp
+C|80132|57|M|Lars Arvidsson|Lantbrukare, Åstorp
+C|38901|60|K|Marianne Axelsson|Åstorp, Förskollärare, 60
+C|80134|56|M|Bengt Tollstadius|Gymnasielärare, Kvidinge
+C|80135|19|M|Viktor Göransson|Studerande, Kvidinge
+C|80136|58|K|Anette Andersson|Kock, Kvidinge
+C|80137|52|M|Joakim Andersson|Entreprenör, Nyvång
+C|80138|38|M|Jacob Larsson|Försäkringsförmedlare, Åstorp
+C|80139|52|K|Pia Andersson|Ekonomibiträde, Åstorp
+C|80140|43|M|Jim Kroon|Verkstadsägare, Åstorp
+C|80141|49|K|Mina Kandi|Köksmästare, Åstorp
+C|80142|49|K|Lena Assarsson|Dagbarnvårdare, Åstorp
+C|80143|72|M|John Fredriksson|Entreprenör, Åstorp
+C|80144|50|K|Ann-Katrin Jonsson|Förskollärare, Kvidinge
+C|80145|47|M|Jonas Magnusson|Chaufför, Åstorp
+C|80146|52|M|Krister Andersson|Säljare, Åstorp
+C|80147|58|K|Lena Andersson|Kontorist, Åstorp
+C|80148|52|K|Kristina Arvidsson|Arbetsterapeut, Åstorp
+C|80149|52|M|Herbert Carlborg|Datatekniker, Åstorp
+C|59367|66|M|Hans Sundström|66 år, Kredithandläggare, Åstorp
+C|63201|69|K|Barbro Nielsen|69 år, Pensionär
+C|63202|76|M|Nils-Göran Nilsson|76 år, Pensionär
+C|63203|41|K|Linda Arenhag|41 år, Hälsopedagog
+C|63204|48|M|Daniel Nielsen|48 år, Systemadministratör
+C|63205|63|K|Luba Sundström|63 år, Musiklärare
+C|63206|75|K|Britt Inger Lanner|75 år, Konstnär
+C|63207|73|M|Arne Engström|73 år, fd Pastor
+C|63208|74|M|Nils Persson|74 år, Pensionär
+C|63209|68|K|Anna-Karin Persson|68 år, Pensionär
+C|55359|45|K|Åsa Holmén|Åstorp
+C|55360|47|M|Mattias Jonsäter|Nyvång
+C|55361|70|K|Bodil Hellberg|Hyllinge
+C|55362|72|M|Mats Lindskog|Hyllinge
+C|55363|75|K|Monica Glans|Åstorp
+C|55364|74|M|Börje Wiebe|Åstorp
+C|55365|81|K|Bodil Axelsson|Åstorp
+C|55366|49|M|Per Erik Holmén|Åstorp
+C|55367|65|K|Ingela Möllerström|Åstorp
+C|55368|82|M|Bernt Malmqvist|Åstorp
+C|55369|82|K|Harriette Nordkvist|Hyllinge
+C|360699|43|M|Jesper Lindström|43 år
+C|236472|45|K|Patricia Brandt|grundskollärare, 45 år
+C|236473|36|M|Robert Stenman|röntgensjuksköterska, 35 år
+C|63156|50|M|Pontus Pålsson|50 år, byggprojektledare, Kvidinge
+C|63157|46|K|Wiveca Andreasson|46 år, försäljningschef, Åstorp
+C|63158|47|M|Martin Sjöström|47 år, distriktschef, Åstorp
+C|63159|62|K|Janet Norbäck|62 år, civilekonom, Kvidinge
+C|63160|46|M|Joakim Sandberg|45 år, platschef, Åstorp
+C|63161|52|M|Roger Nielsen|52 år, officer, Åstorp
+C|63162|18|K|Moa Sjöström|18 år, studerande, Åstorp
+C|63163|57|M|Jan Karlsson|57 år, fabrikschef, Kvidinge
+C|63164|27|M|Patrik Selemba|27 år, biluthyrare, Åstorp
+C|63165|46|K|Amelie Stenqvist|46 år, varuhuschef, Kvidinge
+C|63166|72|M|Ulf Söderström|72 år, f.d. överförmyndare, Kvidinge
+C|63167|46|K|Camilla Häggström|46 år, projektledare, Åstorp
+C|63168|43|M|Fredrik Karlsson|43 år, tjänsteman, Hyllinge
+C|63169|50|K|Pernilla Nielsen|50 år, säljkoordinator, Åstorp
+C|63170|44|M|Kent Bengtsson|44 år, sälj- och inköpsansv., Hyllinge
+C|63171|40|K|Catarina Sandberg|40 år, vårdbiträde, Åstorp
+C|63172|22|M|Oskar Nielsen|22 år, maskinoperatör, Åstorp
+C|63173|50|M|Christer Henrysson|50 år, affärsområdeschef, Kvidinge
+C|63174|18|K|Drenusha Lataj|18 år, studerande, Åstorp
+C|63175|66|K|Eva Nilsson|66 år, friskvårdskonsulent, Åstorp
+C|63176|18|M|Oskar Eringskog|18 år, studerande, Åstorp
+C|63177|46|K|Lena Svensson|46 år, administratör, Kvidinge
+C|63178|18|M|Alvin Karlsson|18 år, studerande, Kvidinge
+C|63179|46|M|Paul Ericson|46 år, IT-chef, Åstorp
+C|63180|76|K|Ilene Holmqvist|76 år, f.d. ekonomichef, Hyllinge
+C|63181|48|M|Mark Eriksson|48 år, försäljningschef, Åstorp
+C|63182|42|M|Marcus Stråth|42 år, labbtekniker, Åstorp
+C|63183|52|M|Peter Lundh|52 år, isoleringsmontör, Åstorp
+C|63184|43|K|Camilla Borg|43 år, butiksmedarbetare, Åstorp
+C|63185|18|K|Amelia Karlsson|18 år, studerande, Kvidinge
+C|63186|42|K|Malin Karlsson|42 år, studerande, Hyllinge
+C|63187|56|K|Anette Hellgren|56 år, behandlingspedagog, Åstorp
+C|63188|51|M|Magnus Månsson|51 år, boendestödjare, Åstorp
+C|63189|44|M|Erik Brandt|44 år, egenföretagare, Kvidinge
+C|63190|46|M|Anders Nilsson|46 år, brevbärare, Åstorp
+C|63191|58|M|Mats Dwenger|58 år, projektledare, Hyllinge
+C|63192|50|K|Tina Johansen|50 år, undersköterska, Åstorp
+C|63193|69|M|Bengt Gustavsson|69 år, åkeriägare, Hyllinge
+C|63194|71|M|Hans Nilsson|71 år, skattehandläggare, Åstorp
+C|63195|67|K|Laila Persson|67 år, undersköterska, Åstorp
+C|63196|44|M|Mikael Persson|44 år, egenföretagare, Åstorp
+C|63197|65|M|Kåge Schildt|65 år, ingenjör, Åstorp
+C|127604|41|K|Maria Gottschalk|Butiksbiträde, 41 år
+C|127605|50|M|Peter Lindberg|50 år, Servicetekniker, Hyllinge
+C|127606|35|M|Richard Mattsson|35 år, Servicetekniker, Åstorp
+C|127607|56|M|Sten Hugosson|56 år, Elektriker, Åstorp
+C|127608|48|K|Nikki Arvidsson|48 år, Köksbiträde, Åstorp
+C|127609|78|M|Rolf Lundqvist|78 år, F.d. ekonomichef, Hyllinge
+C|275420|29|M|Marcus Möller|Egenföretagare, Åstorp
+C|127610|78|K|Anna-Lena Olsson|78 år, F.d. lantbrukare
+C|127611|23|M|Anton Holmberg|Student, 23 år
+C|127612|49|K|Marika Lindberg|49 år, Butiksbiträde, Hyllinge
+C|127613|63|M|Jan Hennicks|63 år, Ingenjör, Åstorp
+C|127614|31|M|Glehn Edman|31 år, Målare, Hyllinge
+C|127615|79|M|Tony Wiklander|79 år, Riksdagsledamot, Åstorp
+C|127616|54|M|Harri Rosqvist|54 år, Lageransvarig, Åstorp
+C|127617|82|M|Conny Prisell|81 år, Konsulent, Hyllinge
+C|127618|24|M|Elliot Lindberg|24 år, Lagerarbetare, Hyllinge
+C|127619|20|M|Hampus Servin|20 år, Servicetekniker, Åstorp
+C|296608|58|M|Tony Ek|58 år, Servicetekniker, Åstorp
+C|296609|51|K|Marie Louise Düring|51 år, Fritidsledare, Åstorp
+C|504809|42|M|Johan Bergqvist|civilingenjör, Kvidinge
+C|504810|55|K|Gunilla Pellinen|sjuksköterska, Hyllinge
+C|504811|66|M|Sven Ohlsson|pensionär, Åstorp
+C|504812|50|K|Monica Olsson|butiksbiträde, Åstorp

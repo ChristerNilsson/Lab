@@ -1,9 +1,252 @@
-2|37756|37757|37758|37759|37760|37761|37762|37763|37764|37765|37766|37767|37768|37769|37770|37771|37772|37773|37774|37775|37776|37777|37778|37779|37780|37781|37782|37783|37784|37785|37786|37787|37788|37789|37790|37791|37792|37793|37794|37795|37796|37797|37798|37799|37800|37801|37802|37803|37804|37805|37806|37807|37808|37809|37810|37811|37812|37813|37814|37815|37816|37817|37818|37819|37820|37821|37822|37823|37824
-4|3218|3225|20857|3266|3197|20860|20861|20862|3208|20864|20865|20866|20867|20868|20869|20870|20871|20872|20873|20874|20875|20876|20877|20878|20879|20880|20881|20882
-532|272082|272083|272084|272085|272086|272087
-68|280293|274601|280295|280296|274606|279703|280299|280300|280301|280302|280303|280304|280305|280306|280307|280308|280309|280310|280311|280312|280313
-3|25019|40034|25024|40036|40037|25034|184434|40039|40040|40041|40042|40043|40044|40045|352957|40046|40047|137563|137564|40048|40049
-55|65833|65834|65837|65836|65839|65838|65841|65840|65843|65842|65844
-1|254334|256360|254320|254347|256363|256364|256365|254361|256367|256368|256369|253984|256371|256372|256373|256374|256375|256376|256377|256378|256379|256380|256381|256382|256383|256392|256384|256385|254335|256390|256391|256387|256389|256388
-110|66295|66296|66297|66298|66299|66300|66301|66302|66303|508863|508868|508869|512046|512048|512859|515619|515620|515621|515622
-5|84195|84180|86544|84185|86546|86547|86548|86549|84194|86551|85159|86553|86554|86555|86556|86557|86559|86558|86561|86560|86562|6161|85169|86565
+T|Lidköping
+A|2|37756|37757|37758|37759|37760|37761|37762|37763|37764|37765|37766|37767|37768|37769|37770|37771|37772|37773|37774|37775|37776|37777|37778|37779|37780|37781|37782|37783|37784|37785|37786|37787|37788|37789|37790|37791|37792|37793|37794|37795|37796|37797|37798|37799|37800|37801|37802|37803|37804|37805|37806|37807|37808|37809|37810|37811|37812|37813|37814|37815|37816|37817|37818|37819|37820|37821|37822|37823|37824
+A|4|3218|3225|20857|3266|3197|20860|20861|20862|3208|20864|20865|20866|20867|20868|20869|20870|20871|20872|20873|20874|20875|20876|20877|20878|20879|20880|20881|20882
+A|532|272082|272083|272084|272085|272086|272087
+A|68|280293|274601|280295|280296|274606|279703|280299|280300|280301|280302|280303|280304|280305|280306|280307|280308|280309|280310|280311|280312|280313
+A|3|25019|40034|25024|40036|40037|25034|184434|40039|40040|40041|40042|40043|40044|40045|352957|40046|40047|137563|137564|40048|40049
+A|55|65833|65834|65837|65836|65839|65838|65841|65840|65843|65842|65844
+A|1|254334|256360|254320|254347|256363|256364|256365|254361|256367|256368|256369|253984|256371|256372|256373|256374|256375|256376|256377|256378|256379|256380|256381|256382|256383|256392|256384|256385|254335|256390|256391|256387|256389|256388
+A|110|66295|66296|66297|66298|66299|66300|66301|66302|66303|508863|508868|508869|512046|512048|512859|515619|515620|515621|515622
+A|5|84195|84180|86544|84185|86546|86547|86548|86549|84194|86551|85159|86553|86554|86555|86556|86557|86559|86558|86561|86560|86562|6161|85169|86565
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|532|FI|Feministiskt initiativ
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|37756|56|M|Jonas Sundström|56 år, Kommunalråd
+C|37757|22|K|Kajsa Ezelius|23 år, Kommunalråd/Hotellreceptionist
+C|37758|34|M|Gustav Edvinsson|34 år, Butiksmedarbetare
+C|37759|61|K|Carina Ohlsson|61 år, Lidköping
+C|37760|31|M|Karl Wiktorsson|31 år, Lidköping
+C|37761|75|K|Lena Blomgren|75 år, Pensionär
+C|37762|69|M|Mario Melani|70 år, Pensionär
+C|37763|50|K|Camilla Lundgren|50 år, Undersköterska
+C|37764|70|M|Kenneth Lundell|70 år, Pensionär
+C|37765|71|K|Ulla Andersson|71 år, Pensionär
+C|37766|66|M|Kjell Hedvall|66 år, Ordförande
+C|37767|54|K|Lena O. Jenemark|54 år, Lidköping
+C|37768|53|M|Tomas Lidberg|54 år, Bussförare
+C|37769|51|K|Irena Rodic|51 år, Arbetsförmedlare
+C|37770|50|M|Roger Ahlén|50 år, Ombudsman
+C|37771|51|K|Katarina Sundberg|51 år, Ombudsman/Personalansvarig
+C|37772|51|M|Morten Ryan|51 år, Arbetsförmedlare
+C|37773|41|K|Sofia Hellberg|41 år, Undersköterska
+C|37774|31|M|Daniel Arthursson|31 år, Lidköping
+C|37775|27|K|Moa Karlsson|27 år, Administratör
+C|37776|53|M|Jonas Krantz|53 år, Elektriker
+C|37777|72|K|Lisebritt Karlsson|73 år, Pensionär
+C|37778|49|M|Manuel Melani|49 år, Arbetshandledare
+C|37779|58|K|Diana Svensk|58 år, Lidköping
+C|37780|50|M|Ilce Sandreski|50 år, Slaktare
+C|37781|59|K|Anita Jansson|59 år, Barnskötare
+C|37782|60|M|Per-Erik Karlqvist|60 år, Brandman
+C|37783|60|K|Christina Ulfström|61 år, Skolsköterska
+C|37784|60|M|Suad Mehinovic|60 år, Civilekonom
+C|37785|20|K|Gabrijela Pasagic|20 år, Lidköping
+C|37786|50|M|Patrik Karlsson|50 år, Kemist
+C|37787|55|K|Marita Lantz|55 år, Livsmedelsarbetare
+C|37788|29|M|Daniel Berggren|29 år, Socionomstudent
+C|37789|46|K|Irina Karlqvist|46 år, Kanslist
+C|37790|76|M|Alf Stenbacka|76 år, Pensionär
+C|37791|74|K|Gull-Inger Rebscher|74 år, Pensionär
+C|37792|66|M|Bror Hedlund|67 år, Pensionär
+C|37793|51|K|Carina Pedersen|51 år, Brevbärare
+C|37794|77|M|Rolf Andersson|77 år, Pensionär
+C|37795|35|K|Hilda Hendeberg|35 år, Socionom
+C|37796|53|M|Taib Romanic|54 år, Metallarbetare
+C|37797|52|K|Lillemor Wallén|52 år, Kontorist
+C|37798|68|M|Åke Johansson|68 år, Pensionär
+C|37799|57|K|Vahida Mehinovic|58 år, Civilekonom
+C|37800|80|M|Göran Kjörk|81 år, Pensionär
+C|37801|32|K|Nevin Fares|32 år, Arbetsförmedlare
+C|37802|25|M|Viktor Sundberg|25 år, Sjuksköterska
+C|37803|51|K|Christina Emanuelsson|51 år, Kock
+C|37804|34|M|Fedja Filipovic|34 år, Utbildningssamordnare
+C|37805|48|K|Anna Shaw Johansson|48 år, Stödassistent
+C|37806|55|M|Paolo Johansson|55 år, Chaufför
+C|37807|61|K|Eva Ingebäck|61 år, Sjuksköterska
+C|37808|67|M|Erik Berggren|68 år, Pensionär
+C|37809|33|K|Rebecca Borck|33 år, Livsmedelsarbetare
+C|37810|41|M|Korin Sarkissjan|42 år, Undersköterska
+C|37811|40|K|Sofia Larm|40 år, Ombudsman/Regionalt skyddsombud
+C|37812|19|M|John Åberg|19 år, Studerande
+C|37813|56|K|Lisbeth Hilmersson|56 år, Ekonomiassistent
+C|37814|72|M|Jörgen Johansson|72 år, Pensionär
+C|37815|37|K|Kristin Persson|37 år, Brevbärare
+C|37816|66|M|Göran Berggren|66 år, Pensionär
+C|37817|40|K|Lina Ingemarsdotter|41 år, SFI-Lärare
+C|37818|62|M|Anders Edvinsson|63 år, Vaktmästare
+C|37819|52|K|Helena Ohlsson|52 år, Undersköterska
+C|37820|33|M|Moez Hassen|33 år, Hygientekniker
+C|37821|63|K|Berit Ek|64 år, Biståndshandläggare
+C|37822|30|M|Mentor Morina|31 år, Truckförare
+C|37823|65|M|Torben Persson|65 år, Pensionär
+C|37824|73|M|Martin Stenholm|74 år, Pensionär
+C|3218|34|K|Frida Nilsson|Lantbruksföretagare, Lidköping, 34 år
+C|3225|34|M|Andreas Bill|E-handelsutvecklare,Lidköping, 34 år
+C|20857|65|K|Britt-Marie Gustafsson|Säljare, Väla, 65 år
+C|3266|64|M|Thomas Karlsson|Köpman, Lidköping, 64 år
+C|3197|46|M|Kent Folkesson|46 år, Företagare, Lidköping
+C|20860|70|K|Gudrun Carlsson|f.d. Undersköterska, Friel, 70 år
+C|20861|66|M|Ingemar Rogbrandt|Utredare, Lidköping, 66 år
+C|20862|65|K|Lillemor Holgersson|Ombudsman, Gösslunda, 65 år
+C|3208|43|M|Henrik Arthursson|företagsrådgivare, Lidköping, 43 år
+C|20864|51|M|Hans-Fredrik Johansson|Klubbchef, Råda, 51 år
+C|20865|43|K|Helena Börjesson|Affärsrådgivare, Norra Kedum, 44 år
+C|20866|25|M|William Fahlström|Studerande, Lidköping, 25 år
+C|20867|67|M|Sven Bengtsson|Mångsysslare, Tranum, 67 år
+C|20868|62|M|Jan Larsson|Företagare, Lidköping, 62 år
+C|20869|63|M|Olof Ekblad|Processoperatör, Saleby, 63 år
+C|20870|69|M|Bengt Nilsson|Företagare, Väla, 69 år
+C|20871|76|M|Rolf Larsson|Pensionär, Saleby, 76 år
+C|20872|56|K|Mariana Wester|Naturbrukslärare, Sunnersberg, 56 år
+C|20873|67|M|Tore Svensson|Lantbrukare, Uvered, 67 år
+C|20874|25|K|Isabell Söneborn|Elektriker, Söne, 25 år
+C|20875|37|K|Lindha Jonsson|Personlig assistent, Råda, 37 år
+C|20876|31|K|Therese Karlsson|Pedagog, Lidköping, 31 år
+C|20877|45|M|Peter Fischerström|Drifttekniker, Tranum, 45 år
+C|20878|78|M|Enar Svensson|Pensionär, Lidköping, 78 år
+C|20879|25|M|John Cronqvist|Samhällsplanerare, Lidköping, 25 år
+C|20880|45|M|Martin Eriksson|Lean koordinator, Lidköping, 45 år
+C|20881|56|K|Eva Hallgren|Familjehemsmamma, Väla, 57 år
+C|20882|59|K|Carina Eliasson/Lundgren|HR-chef, Örslösa, 59 år
+C|272082|28|K|Anna Björk|28 år, Miljökonsult
+C|272083|58|K|Ulla-Marie Mears|58år, Undersköterska
+C|272084|22|K|Evelina Granat|22 år, Studerande
+C|272085|21|M|Cecilia Fransila|21 år, Kyrkogårdsarbetare
+C|272086|19|K|Bianca Gonzalez|19 år, Arbetslös
+C|272087|18|K|Teyah Berndtsson|18 år, Studerande
+C|280293|52|M|Stefan Gustafsson|52, Handläggare
+C|274601|77|K|Maj Ader|76, Distriktssköterska, Lidköping
+C|280295|41|M|Marcus Ottosson-Sixtensson|40, Säljare
+C|280296|49|M|Håkan Svensson|49, Butikssäljare
+C|274606|63|M|Tommy Larsson|63, Enhetschef, Lidköping
+C|279703|55|K|Carina Karlsson|54, Verksamhetschef, Lidköping
+C|280299|51|M|Patrik Keihag|51, Kulturarbetare
+C|280300|35|K|Frida Edström|35, Grafisk designer
+C|280301|37|M|David Söderberg Erdal|37, Ingenjör
+C|280302|52|K|Maria Edström|51, Sjuksköterska
+C|280303|70|M|Jerry Nyberg|70, Fd polis
+C|280304|70|K|Ann-Mari Karlberg|69, Sjukgymnast
+C|280305|66|K|Anna-Carin Lager|66, Barnmorska
+C|280306|32|M|Jesper Stålberg|31, Key account manager
+C|280307|68|M|Börje Rask|67, Elingenjör
+C|280308|66|M|Göran Svensson|66, Säkerhetsansvarig
+C|280309|58|K|Eva Broberg|58, Sjuksköterska
+C|280310|71|M|Ingemar Sixtensson|71, Entreprenör
+C|280311|79|M|Yngve Nordenstam|78, Fysiker
+C|280312|69|K|Erna Gustafsson|69, Distriktsköterska
+C|280313|72|M|Holger Gustafsson|71, Fd riksdagsledamot
+C|25019|55|M|Pär Johnson|ekonom, Lidköping
+C|40034|46|M|Henrik Gallus|46, advokat, Lidköping
+C|25024|26|M|Albert Lundgren|26 Lidköping
+C|40036|45|K|Veronica Berling|46, gymnasielärare, Spiken
+C|40037|69|M|Jan-Håkan Otterberg|69, överstelöjtnant, Kållandsö
+C|25034|47|K|Helene Creton|47 Lidköping
+C|184434|44|M|Maths Blyh|44 Regionchef, Stenhammar
+C|40039|46|M|Mohammad Abdo|46, behandlingsassistent, Lidköping
+C|40040|67|K|Eva Lager|67, lärare, Majåker
+C|40041|30|M|Martin Andersson|30, renhållningsarbetare, Lidköping
+C|40042|52|M|Elia Mezher|52, behandlingsassistent, Lidköping
+C|40043|63|M|Thomas Jansson|63, egenföretagare, Lidköping
+C|40044|77|M|Johan Halsema|77, leg. psykolog, Norra Kedum
+C|40045|82|K|Kajsa Åberg|81, sekreterare, Lidköping
+C|352957|73|M|Steve Karlsson|75 pensionär,Lidköping
+C|40046|83|M|Torwald Åberg|82, näringsfysiolog, Lovene
+C|40047|74|M|Orvar Lager|73, pensionär, Lidköping
+C|137563|33|K|Linda Youssef|33, Egenföretagare, Lidköping
+C|137564|72|M|Greger Ulleryd|72, Elingenjör, Kållandsö
+C|40048|82|M|Inghar Främberg|82, egenföretagare, Lidköping
+C|40049|79|M|Hans Algotsson|79, busschauför, Örslösa
+C|65833|60|K|Marianne Bonnevier|60 år, Fritidspolitiker, Lidköping
+C|65834|61|M|Håkan Sanderi|61 år, Gymnasielärare, Lidköping
+C|65837|52|K|Amanda Odhner|52 år, Konsthantverkare, Lidköping
+C|65836|52|M|Afrim Berisha|52 år, Lärare, Lidköping
+C|65839|69|K|Ylva Eriksson|68 år, Pensionär, Lidköping
+C|65838|74|M|Kjell Åberg|74 år, Pensionär, Lidköping
+C|65841|65|K|Kerstin Stenberg-Karlsson|65 år, Pensionär, Lidköping
+C|65840|52|M|Mikael Larsson|52 år, Idrottslärare/Fritidspedagog, Lidköping
+C|65843|81|K|Kerstin-Maria Aronsson|81 år, Leg. Psykolog, Lidköping
+C|65842|28|M|Tim Andersson|28 år, Leg. Gymnasielärare, Lidköping
+C|65844|85|K|Margarete Larsson|85 år, Pensionär, Lidköping
+C|254334|25|M|Rasmus Möller|25, Egenföretagare, Lidköping
+C|256360|57|M|Christian Poucette|Egen företagare, Vinninga
+C|254320|57|K|Annika Håkanson|57, Informationskonsult, Lidköping
+C|254347|67|K|Kristina Classon|67, Sjuksköterska, Lidköping
+C|256363|65|M|Per Gunnar Lindahl|Pensionär, Lidköping
+C|256364|27|M|Johan Calmestrand|Platschef, Lidköping
+C|256365|68|M|Kenneth Svensson|Lantbrukare, Lidköping
+C|254361|55|K|Christina Åkerman|55, Agronom, Lidköping
+C|256367|49|K|Anna Wallgren|Nätverksledare, Lidköping
+C|256368|37|M|Stefan Hagström|IT-Konsult, Lidköping
+C|256369|55|K|Elisabeth Berling|KBT-terapeut, Lidköping
+C|253984|44|M|Anders Löfving|44, Besiktningstekniker, Lidköping
+C|256371|65|K|Maria Gustafsson|Fd Polis, Lidköping
+C|256372|47|M|Mathias Andersson|Boendestödjare, Lidköping
+C|256373|68|M|Östen Larsson|Pensionär, Lidköping
+C|256374|74|K|Eva Reinhold|Pensionär, Järpås
+C|256375|72|K|Louise Carlsson|Ekonom, Lidköping
+C|256376|53|K|Anna Lidholm|Egen företagare, Lidköping
+C|256377|38|M|Andréas Olsson|Biluthyrare, Lidköping
+C|256378|78|M|Johan Lindén|F.d.Polismästare, Lidköping
+C|256379|62|K|Maria Lantz|Gymnasielärare, Lidköping
+C|256380|66|M|Knut Åmark|Lantbrukare , Vinninga
+C|256381|72|K|Lena Arenbjörk|Pensionär , Lidköping
+C|256382|60|M|Kent Thorstensson|Säljare, Lindärva
+C|256383|38|M|Gustav Westbeck|Mekanisk konstruktör, Lidköping
+C|256392|22|M|Robin Nerell|Butiksmedarbetare, Lidköping
+C|256384|43|M|Mats Joräng|Företagare , Lidköping
+C|256385|68|M|Svante Hemberg|Lantbrukare, Lidköping
+C|254335|70|M|Bertil Jonsson|70, Företagskonsult, Lidköping
+C|256390|70|M|Lennart Svensson|Pensionär, Lidköping
+C|256391|76|K|Birgitta Carlsson|Undersköterska, Mellby
+C|256387|35|M|Fredrik Göransson|Företagare, Vinninga
+C|256389|47|M|Mikael Grönlund|Företagare, Lidköping
+C|256388|87|M|Bo Dereby|Pensionär , Lidköping
+C|66295|38|M|Roberth Andersson|38, serviceelektriker
+C|66296|44|M|Tomas Persson|Servicetekniker, Lidköping
+C|66297|28|M|David Lundin|Yrkesförare, Lidköping
+C|66298|32|K|Josefine Nordström|33, innesäljare
+C|66299|43|M|Johan Ernelind|43, Starkströmselektriker, Lidköping
+C|66300|76|M|Thore Broberg|76, pensionär
+C|66301|60|M|Mikael Jönsson|60, arbetshandledare
+C|66302|67|M|Jörgen Blomkvist|67, pensionär
+C|66303|75|M|Claes Englund|75, pensionär
+C|508863|39|M|Youssef Hannoun|39, livsmedelsarbetare
+C|508868|64|K|Rose-Marie Saramies|64, enhetschef
+C|508869|31|M|Mikael Bertilsson|31, studerande
+C|512046|36|M|Pär Olof Gustafsson|
+C|512048|75|M|Bo Leif Paul Sveder|
+C|512859|63|M|Roger Persson|
+C|515619|55|M|Magnus Broberg|
+C|515620|50|M|BengtPatrik Söderlund|
+C|515621|40|M|Sven David Fredrik Fredriksson|
+C|515622|39|M|Andreas Björklund|
+C|84195|60|M|Claes-Göran Borg|Lidköping, Sjuksköterska
+C|84180|44|K|Jenny Hallström|Lidköping, Museiarbetare
+C|86544|63|K|Ann-Carin Landström|Familjehemssekreterare, Lidköping
+C|84185|37|M|Mattias Pettersson|Lidköping, Kulturarbetare
+C|86546|70|M|Bo Eliasson Landström|Pensionär, Lidköping
+C|86547|64|K|Eva Blomqvist|Diversearbetare, Lidköping
+C|86548|80|M|Bertil Arvidsson|Pensionär, Lidköping
+C|86549|29|K|Linda Gustavsson|Studerande, Lidköping
+C|84194|46|K|Malin Pettersson|Lidköping, Lärare
+C|86551|67|M|Hans Hallström|Förskolelärare, Vinninga
+C|85159|46|K|Ulrika Wernersson|Lidköping, Undersköterska
+C|86553|66|M|Björn Gustavsson|F.d. Industriarbetare, Övre Brynåsa
+C|86554|72|K|Kristina Nättorp|Pensionär, Lidköping
+C|86555|71|M|Ingvar Karlsson|Pensionär, Lidköping
+C|86556|74|K|Gudrun Ahnström|Pensionär, Lidköping
+C|86557|23|M|Bebergh Khan|Barnskötare, Lidköping
+C|86559|26|K|Rebecca Hermansson|Personlig assistent, Lidköping
+C|86558|55|M|Anders Söderström|Lärare, Saleby
+C|86561|25|K|Moa Paulsson|Psykolog, Lidköping
+C|86560|37|M|Emil Ulfström|Brandman, Majåker
+C|86562|63|K|Cristina Kvist|f.d försäkringsanställd, Lidköping
+C|6161|71|M|Ehsan Ullah Khan|Journalist, Lidköping
+C|85169|56|K|Ingmarie Torstensson|Lidköping, Ombudsman
+C|86565|74|M|Göran Ekblad|Pensionär, Lidköping

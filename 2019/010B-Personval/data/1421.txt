@@ -1,10 +1,147 @@
-2|42385|42386|42387|42388|42389|42390|42391|42392|42393|42394|42395|42396|42397|42398|42399|42400|42401|42402|42403|42404|42405|42406|42407|42408|42409|42410
-4|1971|6551|6552|6553|6554|6555|6556|6557|1878|6559|6560|6561|6562|6563|6564|6565|6566|6567
-204|397123|397124|397125|397126|397127|397128|397129|397130|397131|397132|397133|397134|397135
-68|499813|248808|499815|499816|499817|499818|499819|499820|499821
-3|230898|230899|230900|230901|230902|230903|230904|230905|230906|230907|230908|230909|230910|230911|230912|230913
-1296|515280|254678|515406
-55|84734|119537|119538|119539|66252|119541|119542|119543|119544|119545|119546|119547|119548|119549
-1|254226|254668|243441|254671|254672|254673|243443|254677|254679|254680|254681|254682|254683|254684
-110|68430|68431|68432|68433|68434|68435|68436|68437
-5|236226|236227|236228|236229|236230
+T|Orust
+A|2|42385|42386|42387|42388|42389|42390|42391|42392|42393|42394|42395|42396|42397|42398|42399|42400|42401|42402|42403|42404|42405|42406|42407|42408|42409|42410
+A|4|1971|6551|6552|6553|6554|6555|6556|6557|1878|6559|6560|6561|6562|6563|6564|6565|6566|6567
+A|204|397123|397124|397125|397126|397127|397128|397129|397130|397131|397132|397133|397134|397135
+A|68|499813|248808|499815|499816|499817|499818|499819|499820|499821
+A|3|230898|230899|230900|230901|230902|230903|230904|230905|230906|230907|230908|230909|230910|230911|230912|230913
+A|1296|515280|254678|515406
+A|55|84734|119537|119538|119539|66252|119541|119542|119543|119544|119545|119546|119547|119548|119549
+A|1|254226|254668|243441|254671|254672|254673|243443|254677|254679|254680|254681|254682|254683|254684
+A|110|68430|68431|68432|68433|68434|68435|68436|68437
+A|5|236226|236227|236228|236229|236230
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|204|FPO|Folkviljan Orust
+B|68|KD|Kristdemokraterna
+B|3|L|Liberalerna (tidigare Folkpartiet)
+B|1296|MED|Medborgerlig Samling
+B|55|MP|Miljöpartiet de gröna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|42385|61|K|Catharina Bråkenhielm|Henån
+C|42386|45|M|Magnus Bylin|Töllås
+C|42387|68|K|Britt-Marie Andrén Karlsson|Stocken
+C|42388|68|M|Roger Hansson|Kårehogen
+C|42389|62|K|Kerstin Gadde|Hälleviksstrand
+C|42390|72|K|Ulla Buhr|Stillingsön
+C|42391|60|K|Eva Skoglund|Henån
+C|42392|55|K|Soraya Zarza Lundberg|Förskolelärare, 55 år, Orust
+C|42393|59|M|Alexander Hutter|Tidningsbud, 59 år, Orust
+C|42394|67|K|Ann-Marie Petersson|Ellös
+C|42395|82|M|Jörgen Nielsen|Svanesund
+C|42396|75|K|Elsie-Marie Östling|Henån
+C|42397|56|K|Lotta Husberg|Henån
+C|42398|68|K|Agneta Melin|Ellös
+C|42399|44|M|Reine Johansson|Stillingsön
+C|42400|74|K|Inger Heimburger|Stillingsön
+C|42401|67|M|Hans-Bertil Martinsson|Varekil
+C|42402|74|M|Lars-Olov Buhr|Stillingsön
+C|42403|77|M|Bo Edvinson|Ellös
+C|42404|79|K|Berit Strandberg Mattsson|Mollösund
+C|42405|56|K|Susanne Strömberg|Svanesund
+C|42406|75|K|Inga-Lill Bjurkvist|Nösund
+C|42407|60|K|Astrid Gardeheim|Svanesund
+C|42408|66|M|Boo Gardeheim|Svanesund
+C|42409|71|M|Gunnar Mattsson|Mollösund
+C|42410|66|K|Eva Gustafsson|Henån
+C|1971|53|M|Lars Larsson|ambulanssjuksköterska, 53 år, Orust
+C|6551|41|M|Daniel Peterson|41 år, driftingenjör, Stillingsön
+C|6552|62|K|Gun-Britt Hermansson|62 år, växeltelefonist, Lyr
+C|6553|57|K|Ulla-Britt Bagge|57 år, verksamhetsutvecklare, Henån
+C|6554|39|M|Börje Pettersson|39 år, företagare, Nösund
+C|6555|34|M|Peter Kristensson|34 år, chaufför, Henån
+C|6556|66|M|Johan Stein|66 år, personalsekreterare, Ellös
+C|6557|70|M|Reinhold Hedenblad|70 år, bokhandlare, Henån
+C|1878|67|M|Arne Lindström|ekonom, 67 år, Orust
+C|6559|63|M|Jan-Olof Göransson|63 år, rörmontör, Henån
+C|6560|45|K|Maria Sörkvist|45 år, utredare, Varekil
+C|6561|78|M|Gösta Edman|78 år, fd. företagsledare, Flatön
+C|6562|73|K|Birthe Hellman|73 år, egenföretagare, Hermanö
+C|6563|66|M|Sven-Gunnar Göransson|66 år, snickare, Ellös
+C|6564|58|M|Roland Abrahamsson|58 år, företagare, Henån
+C|6565|71|M|Stig Samuelsson|71 år, snickare, Stillingsön
+C|6566|79|K|Ingrid Nyström|79 år, pensionär, Hälleviksstrand
+C|6567|66|M|Helge Hermansson|67 år, bilmekaniker, Lyr
+C|397123|64|M|Michael Relfsson|Tegneby
+C|397124|58|M|Hans Pernervik|Ellös
+C|397125|39|M|Andreas Berglin|Klevedal
+C|397126|74|K|Aina Gunnarsson|Bua
+C|397127|61|M|Anders Wingård|Brattås
+C|397128|74|K|Els-Marie Ragnar|Hälleviksstrand
+C|397129|81|M|Bengt Olsson|Åsen
+C|397130|62|M|Mats Arvidsson|Ellös
+C|397131|81|K|Anita Andrén Lum|Henån
+C|397132|73|M|Björn Tobin|Käringön
+C|397133|63|K|Synnöve Wingård|Brattås
+C|397134|63|M|Agne Frinell|Burås
+C|397135|32|M|Tommy Pernervik|Ellös
+C|499813|48|M|Thomas Asker|bygg/fastighetstekniker, Nösund
+C|248808|65|K|Kajsa-Karin Andersson|Församlingspedagog, Orust
+C|499815|23|M|Theodor Helleberg|studerande, Svanesund
+C|499816|49|M|Anders Persson|elingenjör, Ellös
+C|499817|36|M|Efraim Hogmalm|busschaufför, Stillingsön
+C|499818|65|K|Ragnwi Marcelind|fd. statssekreterare, Varekil
+C|499819|65|M|Ove Marcelind|egen företagare, Varekil
+C|499820|63|K|Helena Åström|civilingenjör, Henån
+C|499821|74|M|Kent Kihl|entreprenör, Svanesund
+C|230898|41|K|Veronica Almroth|41, försäkringsförmedlare, Orust
+C|230899|60|M|Ulf Sjölinder|61, projektledare integration, Orust
+C|230900|63|K|Susanne Gustafsson|F.d. chef barn och utbildning, Orust
+C|230901|67|M|Viktor Simensen|Säljare och busschaufför, Orust
+C|230902|57|K|Irma Sjölinder|Miljöterapeut, Orust
+C|230903|67|M|Jan Gustafsson|F.d. banktjänsteman, Orust
+C|230904|50|K|Pernilla Tollesson|Befälhavare Linfärja, Orust
+C|230905|72|M|Claes Nordevik|Köpman, Orust
+C|230906|51|K|Catharina Eriksson|Kvalitets- och miljöansvarig, Orust
+C|230907|54|M|Peter Lanzén|Företagsledare, Orust
+C|230908|61|K|Pia Gitse|Förskollärare, Orust
+C|230909|57|M|Mats Olsson|Entreprenör/Framtidsspanare, Orust
+C|230910|73|M|Lars Kjellgren|Ingenjör, Orust
+C|230911|47|M|Joakim Almroth|Planning manager, Orust
+C|230912|69|M|Christer Mattsson|Företagare, Orust
+C|230913|73|M|Tommy Crona|Pensionär, Orust
+C|515280|56|M|Mats Överfjord|Ingenjör
+C|254678|51|K|Cecilia Överfjord|
+C|515406|52|M|Peder Schütt|
+C|84734|58|K|Kia Nordqvist|58 år, Projektledare/kulturutövare, Orust
+C|119537|50|M|Martin Reteike|50 år, Ingenjör, Henån
+C|119538|70|K|Ulla Kedbäck|70 år, Logoped, Krossekärr
+C|119539|51|K|Susanne Andersson|51 år, Lärare, Myckleby
+C|66252|44|M|Sven Olsson|44 år, Undersköterska, Orust
+C|119541|23|K|Fanny Nilsson|23 år, stud. Sjuksköterska, Varekil
+C|119542|76|M|Sten-Inge Kedbäck|76 år, Bankman, Krossekärr
+C|119543|67|K|Kristina Svensson|67 år, Pensionär, Myckleby
+C|119544|73|M|Christer Hellekant|73 år, Pensionär, Svanesund
+C|119545|71|K|Marie Hedberg|72 år, Fotograf, Krossekärr
+C|119546|68|M|Kjell Dahlberg|68 år, Snickare, Brinken
+C|119547|51|M|Peter Aidantausta|51 år, Förskollärare, Svanesund
+C|119548|46|M|Christian Werner|46 år, Nätverksstrateg-it, Svanesund
+C|119549|61|K|Lotta Karlberg|61 år, Sjuksköterska, Godalen
+C|254226|67|K|Anne Kolni|67, Kommunikationschef, Orust
+C|254668|48|M|Robert Larsson|Regionchef
+C|243441|68|M|Anders Arnell|68, Civilekonom , Orust
+C|254671|41|M|Tommy Eriksson|Automationsingenjör
+C|254672|71|K|Hilden Talje|Universitetslektor
+C|254673|54|M|Maths Gustafsson|Konsult
+C|243443|66|K|Martha Arnell|66, Reklamkonsult, Orust
+C|254677|70|M|Ingemar Talje|Chefsjurist/VD
+C|254679|33|M|Alexander Arnell|Medicinstuderande
+C|254680|49|K|Anna Gustafsson|Lärare
+C|254681|50|M|Ingemar Johansson|Skutskeppare
+C|254682|61|M|Nils Pettersson|Egenföretagare
+C|254683|59|M|Håkan Bengtsson|Fastighetsmäklare
+C|254684|80|M|Jan W Kjellberg|Bergsingenjör
+C|68430|44|M|Fredrik Stengafvel|
+C|68431|61|M|Magnus Lebeck|
+C|68432|44|M|Leif Kinle|
+C|68433|34|M|Kristoffer Johansen|
+C|68434|64|K|Maritha Dyfverman|
+C|68435|60|M|Håkan Johansson|
+C|68436|51|M|Martin Oscarsson|51, Undersköterska, Orust
+C|68437|62|K|Birgitta Lebeck|
+C|236226|65|M|Rolf Sörvik|Ellös
+C|236227|54|M|Anders Tenghede|Nösund
+C|236228|54|M|Roy Lundberg|Henån
+C|236229|64|K|Lena Jansson|Varekil
+C|236230|57|K|Eva Fallqvist|Henån

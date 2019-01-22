@@ -1,8 +1,104 @@
-2|119096|119097|119098|119099|119100|119101|119102|119103|119104|119105|119106|119107|119108|119109|119110|119111|119112|119113|119114|119115|119117|119118|119119|119120|119121
-4|57876|89742|89743|89744|89745|89746|89747|89748|89749|89750|89751
-1069|504566|504567|504568|504569|504570|504571|504572|504573|504574|504575
-68|194003|194004|194005|194006
-1011|190232|457593
-1|26555|286712|286713|286714|286715|286716|286717|57614|286719|286720|286721|57608|57617|286724|286725|286726|286727|286728
-110|126386|126388|126396|156680|126397|515646
-5|186004|186005|186006|186007|186008|186009|186010|186011|186012|186013|186014|186015|186016|186017|186018|186019
+T|Hällefors
+A|2|119096|119097|119098|119099|119100|119101|119102|119103|119104|119105|119106|119107|119108|119109|119110|119111|119112|119113|119114|119115|119117|119118|119119|119120|119121
+A|4|57876|89742|89743|89744|89746|89747|89748|89749|89750|89751
+A|1069|504566|504567|504568|504569|504570|504571|504572|504573|504574|504575
+A|68|194003|194004|194005|194006
+A|1|26555|286712|286713|286714|286715|286716|286717|57614|286719|286720|286721|57608|57617|286724|286725|286726|286727|286728
+A|110|126386|126388|126396|156680|126397|515646
+A|5|186004|186005|186006|186007|186008|186009|186010|186011|186012|186013|186014|186015|186016|186017|186018|186019
+B|2|S|Arbetarepartiet-Socialdemokraterna
+B|4|C|Centerpartiet
+B|1069|GL|Grythyttelistan
+B|68|KD|Kristdemokraterna
+B|1|M|Moderaterna
+B|110|SD|Sverigedemokraterna
+B|5|V|Vänsterpartiet
+C|119096|53|K|Annalena Järnberg|53 år, Hällefors
+C|119097|57|M|Allan Myrtenkvist|57 år, Hällefors
+C|119098|67|K|Susanne Grundström|67 år,Björksjön
+C|119099|38|M|Håkan Bergström|38 år,Hällefors
+C|119100|58|K|Uta Riedel|58 år,Sikfors
+C|119101|61|M|Peter Ström|61 år,Hällefors
+C|119102|31|K|Fatema Hamdou|31 år,Hällefors
+C|119103|53|M|Tomas Kvarnström|53 år,Hällefors
+C|119104|61|K|Christina Kuurne|61 år,Hällefors
+C|119105|64|M|Torbjörn Saxin|64 år,Grythyttan
+C|119106|59|K|Elisabeth Rådström Paavonen|59 år, Hällefors
+C|119107|22|M|Morteza Naderi|22 år,Hällefors
+C|119108|48|K|Marjo Pruuki Johansson|48 år,Hällefors
+C|119109|76|M|Curt Nilsson|76 år,Silvergruvan
+C|119110|78|K|Laila Palm|78 år,Hällefors
+C|119111|65|M|Christer Olken|65 år,Saxhyttan
+C|119112|72|K|Kerstin Skogdalen|72 år,Grythyttan
+C|119113|56|M|Lars Johansson|56 år,Hällefors
+C|119114|59|K|Ann-Charlotte Nässen|59 år,Knuthöjden
+C|119115|69|M|Kari Paavonen|69 år,Grythyttan
+C|119117|20|M|Ali Reza Haidari|20 år,Hällefors
+C|119118|42|M|Abdelmajid ElMoussaoui|42 år,Hällefors
+C|119119|67|M|Kent Grängstedt|67 år,Hällefors
+C|119120|63|M|Göran Thor|63 år,Hällefors
+C|119121|53|M|Christer Karlsson|53 år,Hällefors
+C|57876|57|M|Lars-Göran Zetterlund|57 år, egenföretagare, Hällefors
+C|89742|65|K|Margurite Wase|undersköterska, Hällefors
+C|89743|50|M|Tobias Nygren|universitetslärare, Grythyttan
+C|89744|64|M|Olle Samuelsson|ämneslärare, Hjulsjö
+C|89746|70|K|Ann-Katrin Lindberg|Grängshyttan
+C|89747|70|M|Ove Tengelin|pensionär, Grängshyttan
+C|89748|68|M|Håkan Gilmark|lantmästare, Grythyttan
+C|89749|69|K|Sylvia Persson|pensionär, Hällefors
+C|89750|23|K|Emelie Samuelsson|musiklärare, Grythyttan
+C|89751|23|K|Amelie Samuelsson|studerande, Hjulsjö
+C|504566|51|K|Maria J Andersson|
+C|504567|67|M|Wilhelm Tham|
+C|504568|72|M|Kjell A Valegren|
+C|504569|67|M|Roland Gustavsson|
+C|504570|74|M|Erkki Vuorijärvi|
+C|504571|54|M|Sören Henriksson|
+C|504572|71|K|Marie-Louise Danielsson Tham|
+C|504573|80|M|Lars Heimdahl|
+C|504574|73|M|Bengt Falk|
+C|504575|70|M|Sture Beckman|
+C|194003|62|M|Per Schmidt|Kyrkoherde, Grythyttan
+C|194004|48|M|Urban Ericsson|Administratör, Hällefors
+C|194005|71|K|Elsie Norman|Pensionär, Hällefors
+C|194006|80|M|Per Ekblad|Pensionär, Hällefors
+C|26555|65|K|Christina Johansson|kommunalråd, Hällefors
+C|286712|60|M|Per Karlsson|elmontör, Hällefors
+C|286713|65|K|Vivianne Pettersson|pensionär, Hällefors
+C|286714|49|K|Ulrika Jonsson|företagare, Grythyttan
+C|286715|53|M|Jacob Neerings|företagare, Älvestorp
+C|286716|32|M|Daniel Hagsten|försäljningsansvarig, Hällefors
+C|286717|33|M|Robert Örtlund|industriarbetare, Grythyttan
+C|57614|38|K|Cecilia Albertsson|receptionist, Hällefors
+C|286719|47|K|Camilla Ekström|företagare, Hällefors
+C|286720|26|M|Patric Normark|brandman, Hällefors
+C|286721|60|M|Tomas Mathiesen|fysioterapeut, Grythyttan
+C|57608|56|K|Anna Florin Schmidt|kyrkomusiker, Hällefors
+C|57617|76|M|Göran Strömqvist|fd adjunkt, Hällefors
+C|286724|57|K|Anneli Karlsson|samordningsansvarig, Hällefors
+C|286725|18|M|Albin Rådström Thörnblom|studerande, Grythyttan
+C|286726|58|K|Kristina Anderstam|lokalvårdare, Hällefors
+C|286727|48|K|Cassandra Hernehult|konsulent, Hällefors
+C|286728|78|M|Torbjörn Ström|pensionär, Hällefors
+C|126386|27|K|Tina Pirttijärvi|Renhållningsarbetare, Hällefors
+C|126388|41|M|Fredrik Dahlberg|Maskinist, Hällefors
+C|126396|47|M|Magnus Hermansson|47 år, Säljare, Hällefors
+C|156680|56|K|Gabriella Rönn Larsson|56 år, egenföretagare
+C|126397|62|M|Johnny Dahlberg|62 år, Ventilationstekniker, Hällefors
+C|515646|31|K|Madelene Jönsson|
+C|186004|37|M|Johan Stolpen|Lärare, Hällefors
+C|186005|41|K|Katja Ollila|Lärare, Hällefors
+C|186006|66|K|Ritha Sörling|f.d. Florist, Hällefors
+C|186007|34|K|Maja Loiske|34 år
+C|186008|52|K|Inger Palm|52 år
+C|186009|59|K|Birgitta Granqvist|59 år
+C|186010|46|K|Saskia Van der Zanden|46 år
+C|186011|60|K|Gunilla Josefsson|60 år
+C|186012|65|K|Bella Kronman|Pensionär,Hällefors
+C|186013|56|K|Ann-Marie Lundin|56 år
+C|186014|54|M|Stefan Backius|Universitetslektor, Hällefors
+C|186015|58|M|Alf Wikström|58 år
+C|186016|57|M|Aimal Zarif|57 år
+C|186017|55|M|Per Johansson|55 år
+C|186018|67|K|Annmari Lööf|Pensionär, Hällefors
+C|186019|27|K|Amanda Kron|27 år
