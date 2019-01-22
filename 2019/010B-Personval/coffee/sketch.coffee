@@ -92,7 +92,6 @@ class PartiPage extends Page
 		for partikod,i in partikoder
 			x = @x + w*(i//N)
 			y = @y + h*(1+i%N)
-			#print 'select',dbPartier[rkl][partikod]
 			do (partikod) => @addButton new PartiButton rkl,partikod,x,y,w-2,h-2, -> 
 				@page.selected = @
 				if PERSONS_PER_PAGE < _.size partier[partikod]
@@ -138,7 +137,6 @@ class PersonPage extends Page
 	render : ->
 
 	clickLetterButton : (rkl,button,partikod,letters,knrs) ->
-		#print 'clickLetterButton',knrs
 		@personer = knrs
 		N = PERSONS_PER_PAGE
 		w = 0.36 * width
@@ -170,7 +168,7 @@ class PersonPage extends Page
 
 		knrs.sort (a,b) -> if dbPersoner[rkl][a][2] < dbPersoner[rkl][b][2] then -1 else 1
 		for knr,j in knrs
-			person = dbPersoner[rkl][knr] # [age,sex,name,uppgift]
+			#person = dbPersoner[rkl][knr] # [age,sex,name,uppgift]
 			x = j//N * w/2
 			x = x % w
 			y = 2*h*(1 + j%N)
@@ -231,7 +229,6 @@ class KommunPage extends Page
 				x = i%(COLS*N)//N * w
 				y = (1 + i%N) * h
 				@addButton new KommunButton key,@x+x,@y+y,w-1,h-1, -> 
-					#print @key
 					rensa()
 					fetchKommun @key
 				i++
@@ -280,12 +277,9 @@ class TypPage extends Page
 		@addButton new Button 'Rensa', @x+@w/3,@yoff[3],@w/3-2,3*h-3, -> rensa()
 
 		@addButton new Button 'Byt kommun', @x+2*@w/3,@yoff[3],@w/3-0,3*h-3, -> 
-			#print 'Byt kommun'
 			for page in pages
 				page.active = false 
 			pages.kommun.active = true
-			#@page.selectedPersons = {R:[], L:[], K:[]}
-			#@page.sbuttons = [] 
 
 	addsButton : (button) -> 
 		button.page = @
@@ -352,33 +346,20 @@ class TypPage extends Page
 
 	clickPersonButton : (person) -> # av typen [partikod,knr]
 		persons = @selectedPersons[@selected.typ]
-		#print person,persons
 		# Finns partiet redan? I så fall: ersätt denna person med den nya.
 		for pair,i in persons 
 			if pair[0] == person[0]
 				persons[i][1] = person[1]
-				#print persons
 				return 
 		if persons.length < VOTES
-			pair = person
-			#print person
-			persons.push pair
-			#print persons 
+			persons.push person
 			@createSelectButtons()
 
 	clickPartiButton : (button) ->
 		persons = @selectedPersons[@selected.typ]
-		# Finns partiet redan? I så fall: ersätt denna person med den nya.
-		#person = []
-		#person[NAMN] = dbPartier[@selected.typ][button.partikod][0]
-		#person[PARTIKOD] = button.partikod # dictionary[button.title][1]
-		#person[PARTIFÖRKORTNING] = dbPartier[@selected.typ][button.partikod][0] # button.title
-		#person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
-
-		for p,i in persons 
-			if p.partikod == button.partikod
-				persons[i].knr = 0 
-				return 
+		for pair,i in persons 
+			[partikod,knr] = pair
+			if partikod == button.partikod then return 
 		if persons.length < VOTES
 			persons.push [button.partikod, 0]
 			@createSelectButtons()
@@ -391,17 +372,11 @@ class TypPage extends Page
 			parties = @sample partier,5
 			for partikod,knrs of parties
 				if random() < 0.2 # Vote for a party
-					#person = []
-					#person[NAMN] = dictionary[name][0]
-					#person[PARTIKOD] = dictionary[name][1]
-					#person[PARTIFÖRKORTNING] = name
-					#person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
 					pair = [partikod,0]
 				else # Vote for a person
 					knr = _.sample knrs
 					pair = [partikod,knr]
 				@selectedPersons[rkl].push pair
-		#print @selectedPersons
 	
 	showSelectedPersons : ->
 		push()
@@ -421,14 +396,7 @@ class TypPage extends Page
 			sc()
 			sw 0
 
-		#person = []
-		#person[NAMN] = dbPartier[@selected.typ][button.partikod][0]
-		#person[PARTIKOD] = button.partikod # dictionary[button.title][1]
-		#person[PARTIFÖRKORTNING] = dbPartier[@selected.typ][button.partikod][0] # button.title
-		#person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
-
 			for pair,j in @selectedPersons[typ]
-				#print 'showSelectedPersons',pair,@selectedPersons[typ]
 				y = y0 + 4.5*h + 13*h/5*j
 				[partikod,knr] = pair
 				parti = dbPartier[typ][partikod][0]

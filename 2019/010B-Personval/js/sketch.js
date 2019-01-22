@@ -260,7 +260,6 @@ PartiPage = function (_Page) {
         partikod = partikoder[i];
         x = this.x + w * Math.floor(i / N);
         y = this.y + h * (1 + i % N);
-        //print 'select',dbPartier[rkl][partikod]
         results.push(function (partikod) {
           return _this2.addButton(new PartiButton(rkl, partikod, x, y, w - 2, h - 2, function () {
             this.page.selected = this;
@@ -370,7 +369,6 @@ PersonPage = function (_Page3) {
       var _this6 = this;
 
       var N, h, j, k, knr, len, person, ref, results, w, x, y;
-      //print 'clickLetterButton',knrs
       this.personer = knrs;
       N = PERSONS_PER_PAGE;
       w = 0.36 * width;
@@ -415,7 +413,7 @@ PersonPage = function (_Page3) {
       var _this7 = this;
 
       // personer är en lista med knr
-      var N, h, j, k, knr, len, person, results, w, x, y;
+      var N, h, j, k, knr, len, results, w, x, y;
       this.personer = knrs;
       N = 16;
       w = 0.36 * width;
@@ -432,7 +430,7 @@ PersonPage = function (_Page3) {
       results = [];
       for (j = k = 0, len = knrs.length; k < len; j = ++k) {
         knr = knrs[j];
-        person = dbPersoner[rkl][knr];
+        //person = dbPersoner[rkl][knr] # [age,sex,name,uppgift]
         x = Math.floor(j / N) * w / 2;
         x = x % w;
         y = 2 * h * (1 + j % N);
@@ -566,8 +564,6 @@ KommunPage = function (_Page5) {
           x = Math.floor(i % (COLS * N) / N) * w;
           y = (1 + i % N) * h;
           this.addButton(new KommunButton(key, this.x + x, this.y + y, w - 1, h - 1, function () {
-
-            //print @key
             rensa();
             return fetchKommun(this.key);
           }));
@@ -635,8 +631,6 @@ TypPage = function (_Page6) {
     }));
     _this11.addButton(new Button('Byt kommun', _this11.x + 2 * _this11.w / 3, _this11.yoff[3], _this11.w / 3 - 0, 3 * h - 3, function () {
       var k, len, page;
-
-      //print 'Byt kommun'
       for (k = 0, len = pages.length; k < len; k++) {
         page = pages[k];
         page.active = false;
@@ -645,10 +639,6 @@ TypPage = function (_Page6) {
     }));
     return _this11;
   }
-
-  //@page.selectedPersons = {R:[], L:[], K:[]}
-  //@page.sbuttons = [] 
-
 
   _createClass(TypPage, [{
     key: 'addsButton',
@@ -778,7 +768,6 @@ TypPage = function (_Page6) {
       // av typen [partikod,knr]
       var i, k, len, pair, persons;
       persons = this.selectedPersons[this.selected.typ];
-      //print person,persons
       // Finns partiet redan? I så fall: ersätt denna person med den nya.
       for (i = k = 0, len = persons.length; k < len; i = ++k) {
         pair = persons[i];
@@ -787,30 +776,26 @@ TypPage = function (_Page6) {
           return;
         }
       }
-      //print persons
       if (persons.length < VOTES) {
-        pair = person;
-        //print person
-        persons.push(pair);
-        //print persons 
+        persons.push(person);
         return this.createSelectButtons();
       }
     }
   }, {
     key: 'clickPartiButton',
     value: function clickPartiButton(button) {
-      var i, k, len, p, persons;
+      var i, k, knr, len, pair, partikod, persons;
       persons = this.selectedPersons[this.selected.typ];
-      // Finns partiet redan? I så fall: ersätt denna person med den nya.
-      //person = []
-      //person[NAMN] = dbPartier[@selected.typ][button.partikod][0]
-      //person[PARTIKOD] = button.partikod # dictionary[button.title][1]
-      //person[PARTIFÖRKORTNING] = dbPartier[@selected.typ][button.partikod][0] # button.title
-      //person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
       for (i = k = 0, len = persons.length; k < len; i = ++k) {
-        p = persons[i];
-        if (p.partikod === button.partikod) {
-          persons[i].knr = 0;
+        pair = persons[i];
+        var _pair = pair;
+
+        var _pair2 = _slicedToArray(_pair, 2);
+
+        partikod = _pair2[0];
+        knr = _pair2[1];
+
+        if (partikod === button.partikod) {
           return;
         }
       }
@@ -850,11 +835,6 @@ TypPage = function (_Page6) {
             knrs = parties[partikod];
             if (random() < 0.2) {
               // Vote for a party
-              //person = []
-              //person[NAMN] = dictionary[name][0]
-              //person[PARTIKOD] = dictionary[name][1]
-              //person[PARTIFÖRKORTNING] = name
-              //person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
               pair = [partikod, 0 // Vote for a person
               ];
             } else {
@@ -868,9 +848,6 @@ TypPage = function (_Page6) {
       }
       return results;
     }
-
-    //print @selectedPersons
-
   }, {
     key: 'showSelectedPersons',
     value: function showSelectedPersons() {
@@ -900,21 +877,15 @@ TypPage = function (_Page6) {
         sc();
         sw(0);
         ref1 = this.selectedPersons[typ];
-        //person = []
-        //person[NAMN] = dbPartier[@selected.typ][button.partikod][0]
-        //person[PARTIKOD] = button.partikod # dictionary[button.title][1]
-        //person[PARTIFÖRKORTNING] = dbPartier[@selected.typ][button.partikod][0] # button.title
-        //person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
         for (j = l = 0, len1 = ref1.length; l < len1; j = ++l) {
           pair = ref1[j];
-          //print 'showSelectedPersons',pair,@selectedPersons[typ]
           y = y0 + 4.5 * h + 13 * h / 5 * j;
-          var _pair = pair;
+          var _pair3 = pair;
 
-          var _pair2 = _slicedToArray(_pair, 2);
+          var _pair4 = _slicedToArray(_pair3, 2);
 
-          partikod = _pair2[0];
-          knr = _pair2[1];
+          partikod = _pair4[0];
+          knr = _pair4[1];
 
           parti = dbPartier[typ][partikod][0];
           namn = knr === 0 ? dbPartier[typ][partikod][1] : dbPersoner[typ][knr][2];
@@ -1013,12 +984,12 @@ UtskriftPage = function (_Page7) {
         ref1 = pages.typ.selectedPersons[typ];
         for (j = l = 0, len1 = ref1.length; l < len1; j = ++l) {
           pair = ref1[j];
-          var _pair3 = pair;
+          var _pair5 = pair;
 
-          var _pair4 = _slicedToArray(_pair3, 2);
+          var _pair6 = _slicedToArray(_pair5, 2);
 
-          partikod = _pair4[0];
-          knr = _pair4[1];
+          partikod = _pair6[0];
+          knr = _pair6[1];
 
           partinamn = dbPartier[typ][partikod][1];
           if (knr === 0) {
