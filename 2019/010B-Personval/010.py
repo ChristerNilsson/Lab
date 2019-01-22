@@ -53,7 +53,9 @@ for line in lines:
 
 	if 'rklaring]' in namn: continue
 	if 'mnat samtycke]' in namn: continue
-	if parti == '': continue
+	if parti == '':
+		print(partikod,partinamn)
+		continue
 
 	if ',' in namn:
 		enamn,fnamn = namn.split(',')

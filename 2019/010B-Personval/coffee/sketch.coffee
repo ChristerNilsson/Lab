@@ -1,28 +1,3 @@
-# Beskrivning av kolumner i kandidaturer.js:
-VALTYP = 0
-VALOMRÅDESKOD = 1
-VALOMRÅDESNAMN = 2
-VALKRETSKOD = 3
-VALKRETSNAMN = 4
-PARTIBETECKNING = 5
-PARTIFÖRKORTNING = 6
-PARTIKOD = 7
-VALSEDELSSTATUS = 8
-LISTNUMMER = 9
-ORDNING = 10
-ANMKAND = 11
-ANMDELTAGANDE = 12
-SAMTYCKE = 13
-FÖRKLARING = 14
-KANDIDATNUMMER = 15
-NAMN = 16
-ÅLDER_PÅ_VALDAGEN = 17
-KÖN = 18
-FOLKBOKFÖRINGSORT = 19
-VALSEDELSUPPGIFT = 20
-ANT_BEST_VALS = 21
-VALBAR_PÅ_VALDAGEN = 22
-GILTIG = 23
 
 PERSONS_PER_PAGE = 32
 VOTES = 5
@@ -36,14 +11,7 @@ dbPartier  = {} # B
 dbPersoner = {} # C
 dbKommun   = {}
 
-#dictionary = {} 
-	# S -> Socialdemokraterna
-	# 01 -> Stockholms läns landsting
-	# 0180 -> Stockholm
-
 pages = {}
-
-counter = 0
 
 gruppera = (letters,n=32) ->
 	res = {}
@@ -114,27 +82,28 @@ class PartiPage extends Page
 		N = 16
 		w = @w/2
 		h = @h/(N+1)
-		keys = _.keys partier
-		keys.sort (a,b) -> _.size(partier[b]) - _.size(partier[a])
+		partikoder = _.keys partier
+		partikoder.sort (a,b) -> _.size(partier[b]) - _.size(partier[a])
 		@buttons = []
 
 		pages.partier.clear()
 		pages.letters.clear()
 		pages.personer.clear()
 
-		for key,i in keys
+		for partikod,i in partikoder
 			x = @x + w*(i//N)
 			y = @y + h*(1+i%N)
-			do (key) => @addButton new PartiButton rkl,key,x,y,w-2,h-2, -> 
+			#print 'select',dbPartier[rkl][partikod]
+			do (partikod) => @addButton new PartiButton rkl,partikod,x,y,w-2,h-2, -> 
 				@page.selected = @
-				if PERSONS_PER_PAGE < _.size partier[key]
-					pages.letters.makeLetters rkl, @, partier[key]
+				if PERSONS_PER_PAGE < _.size partier[partikod]
+					pages.letters.makeLetters rkl, @, partikod, partier[partikod]
 					pages.personer.buttons = []
 				else
 					pages.letters.buttons = []
-					pages.personer.makePersons rkl, @, partier[key]
+					pages.personer.makePersons rkl, @, partikod, partier[partikod]
 				pages.typ.clickPartiButton @	
-				pages.personer.personer = partier[key]			
+				pages.personer.personer = partier[partikod]			
 
 class LetterPage extends Page
 	render : ->
@@ -148,7 +117,7 @@ class LetterPage extends Page
 			res[letter] = if res[letter] == undefined then 1 else res[letter] + 1
 		res
 
-	makeLetters : (rkl, button, personer) ->
+	makeLetters : (rkl, button, partikod, personer) ->
 		N = 16
 		h = @h/(N+1)
 		w = @w/2
@@ -162,14 +131,15 @@ class LetterPage extends Page
 			title = if letters.length == 1 then letters else "#{letters[0]}-#{_.last letters}"
 			do (letters,title) => @addButton new LetterButton title,x,y,w-2,h-2,n, -> 
 				@page.selected = @
-				pages.personer.clickLetterButton rkl, @, letters, personer
+				pages.personer.clickLetterButton rkl, @, partikod, letters, personer
 			i++
 
 class PersonPage extends Page
 
 	render : ->
 
-	clickLetterButton : (rkl,button,letters,knrs) ->
+	clickLetterButton : (rkl,button,partikod,letters,knrs) ->
+		#print 'clickLetterButton',knrs
 		@personer = knrs
 		N = PERSONS_PER_PAGE
 		w = 0.36 * width
@@ -177,24 +147,21 @@ class PersonPage extends Page
 		@selected = button
 		button.pageNo = (button.pageNo + 1) % button.pages
 		@buttons = []
-		#knrs = _.keys personer 
-		#keys.sort (a,b) -> if a.slice(a.indexOf('-')) < b.slice(b.indexOf('-')) then -1 else 1
 		knrs.sort (a,b) -> if dbPersoner[rkl][a][2] < dbPersoner[rkl][b][2] then -1 else 1
 		j = 0
 		for knr in knrs
-			#person = personer[key]
 			person = dbPersoner[rkl][knr]
 			if person[2][0] in letters
 				if j // N == button.pageNo
 					x = j//(N//2) * w/2
 					x = x % w
 					y = 2*h*(1+j%(N//2))
-					do (person) => @addButton new PersonButton person,@x+x,@y+y,w/2-2,2*h-2, -> 
+					do (knr) => @addButton new PersonButton rkl, partikod, knr, @x+x,@y+y,w/2-2,2*h-2, -> 
 						@page.selected = @
-						pages.typ.clickPersonButton person
+						pages.typ.clickPersonButton [partikod,knr]
 				j++
 
-	makePersons : (rkl, button, knrs) -> # personer är en lista med knr
+	makePersons : (rkl, button, partikod, knrs) -> # personer är en lista med knr
 		@personer = knrs
 		N = 16
 		w = 0.36 * width 
@@ -204,13 +171,13 @@ class PersonPage extends Page
 
 		knrs.sort (a,b) -> if dbPersoner[rkl][a][2] < dbPersoner[rkl][b][2] then -1 else 1
 		for knr,j in knrs
-			person = dbPersoner[rkl][knr]
+			person = dbPersoner[rkl][knr] # [age,sex,name,uppgift]
 			x = j//N * w/2
 			x = x % w
 			y = 2*h*(1 + j%N)
-			do (person) => @addButton new PersonButton person,@x+x,@y+y,w/2-2,2*h-2, -> 
+			do (partikod,knr) => @addButton new PersonButton rkl, partikod, knr, @x+x,@y+y,w/2-2,2*h-2, -> 
 				@page.selected = @
-				pages.typ.clickPersonButton person
+				pages.typ.clickPersonButton [@partikod,@knr]
 
 class LetterKommunPage extends Page
 	render : ->
@@ -224,7 +191,7 @@ class LetterKommunPage extends Page
 			res[letter] = if res[letter] == undefined then 1 else res[letter] + 1
 		res
 
-	makeLetters : (rkl, button, personer) ->
+	makeLetters : (rkl, button, partikod, personer) ->
 		N = 16
 		h = @h/(N+1)
 		w = @w/2
@@ -238,7 +205,7 @@ class LetterKommunPage extends Page
 			title = if letters.length == 1 then letters else "#{letters[0]}-#{_.last letters}"
 			do (letters,title) => @addButton new LetterButton title,x,y,w-2,h-2,n, -> 
 				@page.selected = @
-				pages.personer.clickLetterButton rkl, @, letters, personer
+				pages.personer.clickLetterButton rkl, @, partikod, letters, personer
 			i++
 
 class KommunPage extends Page
@@ -265,7 +232,7 @@ class KommunPage extends Page
 				x = i%(COLS*N)//N * w
 				y = (1 + i%N) * h
 				@addButton new KommunButton key,@x+x,@y+y,w-1,h-1, -> 
-					print @key
+					#print @key
 					rensa()
 					fetchKommun @key
 				i++
@@ -314,7 +281,7 @@ class TypPage extends Page
 		@addButton new Button 'Rensa', @x+@w/3,@yoff[3],@w/3-2,3*h-3, -> rensa()
 
 		@addButton new Button 'Byt kommun', @x+2*@w/3,@yoff[3],@w/3-0,3*h-3, -> 
-			print 'Byt kommun'
+			#print 'Byt kommun'
 			for page in pages
 				page.active = false 
 			pages.kommun.active = true
@@ -381,50 +348,58 @@ class TypPage extends Page
 					if i>0 then @addsButton new Button 'byt',x1, y1,dw,dh, => @clickSwap   typ,i
 					@addsButton             new Button ' x ',x2, y2,dw,dh, => @clickDelete typ,i
 
-	clickPersonButton : (person) ->
+	clickPersonButton : (person) -> # av typen [partikod,knr]
 		persons = @selectedPersons[@selected.typ]
+		#print person,persons
 		# Finns partiet redan? I så fall: ersätt denna person med den nya.
-		for p,i in persons 
-			if p[PARTIKOD] == person[PARTIKOD]
-				persons[i] = person
+		for pair,i in persons 
+			if pair[0] == person[0]
+				persons[i][1] = person[1]
+				#print persons
 				return 
 		if persons.length < VOTES
-			persons.push person 
+			pair = person
+			#print person
+			persons.push pair
+			#print persons 
 			@createSelectButtons()
 
 	clickPartiButton : (button) ->
 		persons = @selectedPersons[@selected.typ]
 		# Finns partiet redan? I så fall: ersätt denna person med den nya.
-		person = []
-		person[NAMN] = dbPartier[@selected.typ][button.partikod][0]
-		person[PARTIKOD] = button.partikod # dictionary[button.title][1]
-		person[PARTIFÖRKORTNING] = dbPartier[@selected.typ][button.partikod][0] # button.title
-		person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
+		#person = []
+		#person[NAMN] = dbPartier[@selected.typ][button.partikod][0]
+		#person[PARTIKOD] = button.partikod # dictionary[button.title][1]
+		#person[PARTIFÖRKORTNING] = dbPartier[@selected.typ][button.partikod][0] # button.title
+		#person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
 
 		for p,i in persons 
-			if p[PARTIKOD] == person[PARTIKOD]
-				persons[i] = person
+			if p.partikod == button.partikod
+				persons[i].knr = 0 
 				return 
 		if persons.length < VOTES
-			persons.push person 
+			persons.push [button.partikod, 0]
 			@createSelectButtons()
 
 	sample : (hash,n) -> _.object ([key,hash[key]] for key in _.sample _.keys(hash),n)
 
 	slumpa : ->
-		for rkl,partier of tree
+		for rkl,partier of dbTree
 			@selectedPersons[rkl] = []
 			parties = @sample partier,5
-			for name,personer of parties
+			for partikod,knrs of parties
 				if random() < 0.2 # Vote for a party
-					person = []
-					person[NAMN] = dictionary[name][0]
-					person[PARTIKOD] = dictionary[name][1]
-					person[PARTIFÖRKORTNING] = name
-					person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
+					#person = []
+					#person[NAMN] = dictionary[name][0]
+					#person[PARTIKOD] = dictionary[name][1]
+					#person[PARTIFÖRKORTNING] = name
+					#person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
+					pair = [partikod,0]
 				else # Vote for a person
-					person = _.sample personer
-				@selectedPersons[rkl].push person
+					knr = _.sample knrs
+					pair = [partikod,knr]
+				@selectedPersons[rkl].push pair
+		#print @selectedPersons
 	
 	showSelectedPersons : ->
 		push()
@@ -443,10 +418,20 @@ class TypPage extends Page
 			fc 0
 			sc()
 			sw 0
-			
-			for person,j in @selectedPersons[typ]
+
+		#person = []
+		#person[NAMN] = dbPartier[@selected.typ][button.partikod][0]
+		#person[PARTIKOD] = button.partikod # dictionary[button.title][1]
+		#person[PARTIFÖRKORTNING] = dbPartier[@selected.typ][button.partikod][0] # button.title
+		#person[KANDIDATNUMMER] = '99' + person[PARTIKOD].padStart 4,'0'	
+
+			for pair,j in @selectedPersons[typ]
+				#print 'showSelectedPersons',pair,@selectedPersons[typ]
 				y = y0 + 4.5*h + 13*h/5*j
-				text "#{j+1} #{person} - #{person[NAMN]}",@x+10,y
+				[partikod,knr] = pair
+				parti = dbPartier[typ][partikod][0]
+				namn = if knr == 0 then dbPartier[typ][partikod][1] else dbPersoner[typ][knr][2]
+				text "#{j+1} #{parti} - #{namn}",@x+10,y
 		pop()
 
 		for button in @sbuttons
@@ -552,7 +537,7 @@ class PartiButton extends Button
 		textSize @ts
 		textAlign CENTER,CENTER
 		if @page.selected == @ then fc 1,1,0 else fc 1
-
+		#print @rkl,@partikod
 		partinamn = dbPartier[@rkl][@partikod][0]
 		if partinamn == '' then partinamn = dbPartier[@rkl][@partikod][1]
 
@@ -582,8 +567,10 @@ class LetterButton extends Button
 			circle @x + (i+1)*dx , @y+0.85*@h, 3  
 
 class PersonButton extends Button
-	constructor : (person, x,y,w,h,click = ->) ->
-		super person,x,y,w,h,click
+	constructor : (@rkl, @partikod, knr, x,y,w,h,click = ->) ->
+		super knr,x,y,w,h,click
+		@knr = knr 
+		person = dbPersoner[@rkl][knr]
 		@title0 = person[2]
 		@title1 = person[3]
 		if @title1 == '' then @title1 = "#{{M:'Man', K:'Kvinna'}[person[1]]} #{person[0]} år" 
@@ -608,97 +595,80 @@ getParameters = (h = window.location.href) ->
 	if arr[1] == '' then return {}
 	_.object(f.split '=' for f in arr[1].split '&')		
 
+loadFile = (filePath) ->
+  result = null
+  xmlhttp = new XMLHttpRequest()
+  xmlhttp.open "GET", filePath, false
+  xmlhttp.send()
+  if xmlhttp.status==200 then result = xmlhttp.responseText  
+  result
+
 getTxt = (rkl,filename) ->
-	$.ajax
-		url : filename
-		error : () -> print 'error'
-		success : (data) -> 
-			dbTree[rkl] = {}
-			dbPartier[rkl] = {}
-			dbPersoner[rkl] = {}
-			lines = data.split '\n'
-			for line in lines
-				line = line.trim()
-				cells = line.split '|'
-				if cells[0]=='T' # T|Arjeplog
-					dbName[rkl] = cells[1]
-				if cells[0]=='A' # kandidaturer # A|3|208509|208510|208511|208512|208513|208514
-					dbTree[rkl][cells[1]] = cells.slice 2
-				if cells[0]=='B' # partier # B|4|C|Centerpartiet
-					dbPartier[rkl][cells[1]] = cells.slice 2 
-				if cells[0]=='C' # personer # C|10552|53|K|Britta Flinkfeldt|53 år, Arjeplog
-					dbPersoner[rkl][cells[1]] = cells.slice 2 
-			counter--
-			print 'getTxt',counter,filename, _.size dbTree[rkl], _.size dbPartier[rkl], _.size dbPersoner[rkl]
+	data = loadFile filename 
+	dbTree[rkl] = {}
+	dbPartier[rkl] = {}
+	dbPersoner[rkl] = {}
+	lines = data.split '\n'
+	for line in lines
+		line = line.trim()
+		cells = line.split '|'
+		if cells[0]=='T' # T|Arjeplog
+			dbName[rkl] = cells[1]
+		if cells[0]=='A' # kandidaturer # A|3|208509|208510|208511|208512|208513|208514
+			dbTree[rkl][cells[1]] = cells.slice 2
+		if cells[0]=='B' # partier # B|4|C|Centerpartiet
+			dbPartier[rkl][cells[1]] = cells.slice 2 
+		if cells[0]=='C' # personer # C|10552|53|K|Britta Flinkfeldt|53 år, Arjeplog
+			dbPersoner[rkl][cells[1]] = cells.slice 2 
+	print 'getTxt',rkl,filename,data.length
+	print 'Partier:', _.size dbTree[rkl] 
+	print 'Partier:', _.size dbPartier[rkl]
+	print 'Personer:', _.size dbPersoner[rkl]
 
 getKommun = (filename) ->
-	$.ajax
-		url : filename
-		error : () -> print 'error'
-		success : (data) -> 
-			dbKommun = {}
-			lines = data.split '\n'
-			for line in lines
-				line = line.trim()
-				cells = line.split '|'
-				kod = cells[0]
-				namn = cells[1]
-				if kod.length==4
-					dbKommun[kod] = namn
-			print 'getKommun', _.size dbKommun
-
-			x0 = 0
-			x1 = 0.18*width
-			x2 = 0.28*width
-			x3 = 0.64*width
-			x4 = 1.00*width
-
-			pages.partier  = new PartiPage    0,0,x1-x0,height 
-			pages.letters  = new LetterPage  x1,0,x2-x1,height 
-			pages.personer = new PersonPage  x2,0,x3-x2,height 
-			pages.kommun   = new KommunPage  0,0,width,height 
-			pages.typ      = new TypPage     x3,0,x4-x3,height 
-			pages.utskrift = new UtskriftPage 0,0,x4,height
-
-			pages.utskrift.active = false 
-			pages.kommun.active = false			
-
-			pages.typ.buttons[1].title=dbName.L
-			pages.typ.buttons[2].title=dbName.K
-			counter--
+	data = loadFile filename 
+	dbKommun = {}
+	lines = data.split '\n'
+	for line in lines
+		line = line.trim()
+		cells = line.split '|'
+		kod = cells[0]
+		namn = cells[1]
+		if kod.length==4
+			dbKommun[kod] = namn
+	print 'getKommun', _.size dbKommun
 
 preload = ->
 	{kommun} = getParameters()
+	if not kommun then kommun = '0180'
 	kommunkod = kommun
-	if not kommunkod then kommunkod = '0180'
-	print kommun
 	länskod = kommunkod.slice 0,2	
 
-	counter = 4
 	getTxt 'R','data\\00.txt'
-	getTxt 'L','data\\01.txt'
-	getTxt 'K','data\\0180.txt'
+	getTxt 'L',"data\\#{länskod}.txt"
+	getTxt 'K',"data\\#{kommunkod}.txt"
 	getKommun 'data\\omraden.txt'
 
 fetchKommun = (kommun) -> # t ex '0180'
-	counter = 2
-	kommunkod = kommun
-	länskod = kommun.slice 0,2	
-	getTxt 'L',"data\\#{länskod}.txt"
-	getTxt 'K',"data\\#{kommunkod}.txt"
-	resolve()
+	start = new Date().getTime()
 
-resolve = ->
-	print 'resolve',counter
-	if counter == 0
-		for page in pages
-			page.active = true 
-		pages.kommun.active = false
-		pages.utskrift.active = false
-		pages.typ.buttons[1].title=dbName.L
-		pages.typ.buttons[2].title=dbName.K
-	else 
-		setTimeout resolve, 10
+	if länskod != kommun.slice 0,2	
+		länskod = kommun.slice 0,2	
+		getTxt 'L',"data\\#{länskod}.txt"
+	if kommunkod != kommun
+		kommunkod = kommun
+		getTxt 'K',"data\\#{kommunkod}.txt"
+	#getKommun 'data\\omraden.txt'
+
+	for page in pages
+		page.active = true
+	pages.kommun.active = false
+	pages.utskrift.active = false
+
+	pages.typ.buttons[1].title = dbName.L
+	pages.typ.buttons[2].title = dbName.K
+
+	print 'time', new Date().getTime() - start
 
 setup = ->
 	createCanvas windowWidth,windowHeight-1
@@ -706,11 +676,26 @@ setup = ->
 	textAlign CENTER,CENTER
 	textSize 20
 
-draw = ->	
-	if counter > 0 
-		print 'counter',counter 
-		return 
+	x0 = 0
+	x1 = 0.18*width
+	x2 = 0.28*width
+	x3 = 0.64*width
+	x4 = 1.00*width
 
+	pages.partier  = new PartiPage    0,0,x1-x0,height 
+	pages.letters  = new LetterPage  x1,0,x2-x1,height 
+	pages.personer = new PersonPage  x2,0,x3-x2,height 
+	pages.kommun   = new KommunPage  0,0,width,height 
+	pages.typ      = new TypPage     x3,0,x4-x3,height 
+	pages.utskrift = new UtskriftPage 0,0,x4,height
+
+	pages.utskrift.active = false 
+	pages.kommun.active = false			
+
+	pages.typ.buttons[1].title=dbName.L
+	pages.typ.buttons[2].title=dbName.K
+
+draw = ->	
 	bg 0
 	if _.size pages < 6 then return 
 	if pages.utskrift == undefined then return
