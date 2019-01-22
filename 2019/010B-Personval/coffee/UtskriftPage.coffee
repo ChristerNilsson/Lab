@@ -3,13 +3,13 @@ class UtskriftPage extends Page
 		super x,y,w,h
 		@selected = null
 		@buttons = []
-		@addButton new Button 'Utskrift', 0.02*width,0.6*height,270,45, -> window.print()
-		@addButton new Button 'Fortsätt', 0.02*width,0.7*height,270,45, -> 
+		@addButton new Button 'Utskrift', 0.02*width,0.6*height,0.12*w,45, -> window.print()
+		@addButton new Button 'Fortsätt', 0.02*width,0.7*height,0.12*w,45, -> 
 			myNode = document.getElementById "qrcode"
 			myNode.innerHTML = ''
 			pages.utskrift.active = false 
 			pages.typ.createSelectButtons()
-		@addButton new Button 'Slump', 0.02*width,0.8*height,270,45, -> 
+		@addButton new Button 'Slump', 0.02*width,0.8*height,0.12*w,45, -> 
 			myNode = document.getElementById "qrcode"
 			myNode.innerHTML = ''
 			pages.utskrift.active = false 

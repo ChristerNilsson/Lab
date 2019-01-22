@@ -23,17 +23,17 @@ UtskriftPage = function (_Page) {
 
     _this.selected = null;
     _this.buttons = [];
-    _this.addButton(new Button('Utskrift', 0.02 * width, 0.6 * height, 270, 45, function () {
+    _this.addButton(new Button('Utskrift', 0.02 * width, 0.6 * height, 0.12 * w, 45, function () {
       return window.print();
     }));
-    _this.addButton(new Button('Fortsätt', 0.02 * width, 0.7 * height, 270, 45, function () {
+    _this.addButton(new Button('Fortsätt', 0.02 * width, 0.7 * height, 0.12 * w, 45, function () {
       var myNode;
       myNode = document.getElementById("qrcode");
       myNode.innerHTML = '';
       pages.utskrift.active = false;
       return pages.typ.createSelectButtons();
     }));
-    _this.addButton(new Button('Slump', 0.02 * width, 0.8 * height, 270, 45, function () {
+    _this.addButton(new Button('Slump', 0.02 * width, 0.8 * height, 0.12 * w, 45, function () {
       var myNode;
       myNode = document.getElementById("qrcode");
       myNode.innerHTML = '';
