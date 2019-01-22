@@ -659,7 +659,7 @@ TypPage = function (_Page6) {
   }, {
     key: 'getQR',
     value: function getQR() {
-      var i, k, len, person, persons, ref, s, slump, typ;
+      var i, k, knr, len, partikod, persons, ref, s, slump, typ;
       s = kommunkod;
       slump = int(random(1000000));
       s += slump.toString().padStart(6, 0); // to increase probability of uniqueness 
@@ -669,8 +669,16 @@ TypPage = function (_Page6) {
         for (k = 0, len = ref.length; k < len; k++) {
           i = ref[k];
           if (i < persons.length) {
-            person = persons[i];
-            s += person[KANDIDATNUMMER].padStart(6, '0');
+            var _persons$i = _slicedToArray(persons[i], 2);
+
+            partikod = _persons$i[0];
+            knr = _persons$i[1];
+
+            if (knr === 0) {
+              s += '99' + partikod.padStart(4, '0');
+            } else {
+              s += knr.padStart(6, '0');
+            }
           } else {
             s += '000000';
           }
@@ -950,17 +958,17 @@ UtskriftPage = function (_Page7) {
 
     _this13.selected = null;
     _this13.buttons = [];
-    _this13.addButton(new Button('Utskrift', 50, height - 382, 270, 45, function () {
+    _this13.addButton(new Button('Utskrift', 50, height - 482, 270, 45, function () {
       return window.print();
     }));
-    _this13.addButton(new Button('Fortsätt', 350, height - 382, 270, 45, function () {
+    _this13.addButton(new Button('Fortsätt', 350, height - 482, 270, 45, function () {
       var myNode;
       myNode = document.getElementById("qrcode");
       myNode.innerHTML = '';
       pages.utskrift.active = false;
       return pages.typ.createSelectButtons();
     }));
-    _this13.addButton(new Button('Slump', 650, height - 382, 270, 45, function () {
+    _this13.addButton(new Button('Slump', 650, height - 482, 270, 45, function () {
       var myNode;
       myNode = document.getElementById("qrcode");
       myNode.innerHTML = '';
@@ -993,7 +1001,7 @@ UtskriftPage = function (_Page7) {
   }, {
     key: 'showSelectedPersons',
     value: function showSelectedPersons() {
-      var i, j, k, l, len, len1, person, ref, ref1, typ, y;
+      var i, j, k, knr, l, len, len1, pair, partikod, partinamn, personnamn, ref, ref1, typ, y;
       push();
       textAlign(LEFT, CENTER);
       fc(0);
@@ -1004,9 +1012,22 @@ UtskriftPage = function (_Page7) {
         typ = ref[i];
         ref1 = pages.typ.selectedPersons[typ];
         for (j = l = 0, len1 = ref1.length; l < len1; j = ++l) {
-          person = ref1[j];
+          pair = ref1[j];
+          var _pair3 = pair;
+
+          var _pair4 = _slicedToArray(_pair3, 2);
+
+          partikod = _pair4[0];
+          knr = _pair4[1];
+
+          partinamn = dbPartier[typ][partikod][1];
+          if (knr === 0) {
+            personnamn = '';
+          } else {
+            personnamn = dbPersoner[typ][knr][2];
+          }
           y = [0, 260, 520][i] + 50 + 40 * j;
-          text(j + 1 + '  ' + person[PARTIFÖRKORTNING] + ' - ' + person[NAMN], width / 2, y);
+          text(j + 1 + '  ' + partinamn + ' - ' + personnamn, width / 2, y);
         }
       }
       return pop();
@@ -1019,9 +1040,9 @@ UtskriftPage = function (_Page7) {
       fc(0);
       text('Riksdag', 10, 50 + 0);
       text(dbName.L, 10, 50 + 260);
-      text(dbName.R, 10, 50 + 520);
-      //text pages.typ.qr,20,height-310
-      text('crc: ' + this.getCRC(pages.typ.qr.slice(10)) + ' ' + ('tid: ' + this.cpu), 20, height - 310);
+      text(dbName.K, 10, 50 + 520);
+      text(pages.typ.qr, 20, height - 310);
+      text('crc: ' + this.getCRC(pages.typ.qr.slice(10)) + ' ' + ('tid: ' + this.cpu), 20, height - 310 - 50);
       this.showSelectedPersons();
       return pages.typ.sbuttons = [];
     }
@@ -1307,7 +1328,8 @@ loadFile = function loadFile(filePath) {
 
 getTxt = function getTxt(rkl, filename) {
   var cells, data, k, len, line, lines;
-  data = loadFile(filename);
+  data = filename === 'data\\09.txt' ? '' : loadFile(filename);
+  dbName[rkl] = '';
   dbTree[rkl] = {};
   dbPartier[rkl] = {};
   dbPersoner[rkl] = {};
@@ -1454,114 +1476,4 @@ mousePressed = function mousePressed() {
   }
   return results;
 };
-
-//windowResized = -> resizeCanvas windowWidth, windowHeight
-
-//#####
-
-// constructor : (@render = ->) ->
-// 	super()
-// 	@rbuttons = [] # RKL
-// 	@init()
-
-// radd : (button) -> @rbuttons.push button
-// padd : (button) -> @pbuttons.push button
-// ladd : (button) -> @lbuttons.push button
-// kadd : (button) -> @kbuttons.push button
-// sadd : (button) -> @sbuttons.push button
-
-// allButtons : -> @pbuttons.concat @lbuttons.concat @kbuttons.concat @sbuttons.concat @rbuttons 
-
-// init : ->
-// 	@pbuttons = [] # parti
-// 	@lbuttons = [] # letters
-// 	@kbuttons = [] # kandidater
-// 	@sbuttons = [] # Del, Up, Down
-
-// draw : ->
-// 	bg 0
-// 	@render()
-// 	for button in @allButtons()
-// 		button.draw()
-
-// mousePressed : ->
-// 	for button in @allButtons()
-// 		if button.inside() then button.click()
-
-// class Page1 extends Page
-
-// antal = (letter,personer) ->
-// 	lst = (1 for key,person of personer when letter == person[NAMN][0])
-// 	lst.length
-
-// getClowner = (lines) -> # tag fram alla personer som representerar flera partier i samma valtyp
-// 	res = []
-// 	partier = {}
-// 	for line in lines 
-// 		cells = line.split ';'
-// 		knr = cells[KANDIDATNUMMER]
-// 		if partier[knr] == undefined then partier[knr] = {}
-// 		partier[knr][cells[PARTIKOD]] = cells
-// 	for knr,lista of partier
-// 		if 1 == _.size lista then continue
-// 		klr = {R:0,K:0,L:0}
-// 		for key,item of lista
-// 			klr[item[VALTYP]]++
-// 		if klr.R>1 or klr.K>1 or klr.L>1 then res.push knr
-// 	print 'Borttagna kandidater pga flera partier i samma valtyp: ',res
-// 	res
-
-// spara = (lista,key,value) ->
-// 	current = tree
-// 	for name in lista
-// 		a = current[name]
-// 		if a == undefined then current[name] = {}
-// 		current = current[name]
-// 	current[key] = value
-// readDatabase = ->
-
-// 	partikoder = {}
-// 	#partier = {}
-// 	lines = db.split '\n'
-
-// 	#clowner = getClowner lines
-
-// 	for line in lines
-// 		cells = line.split ';'
-// 		valtyp = cells[VALTYP]
-// 		områdeskod = cells[VALOMRÅDESKOD]
-// 		område = cells[VALOMRÅDESNAMN]
-// 		parti = cells[PARTIFÖRKORTNING]
-// 		#if parti=='' then parti = cells[PARTIKOD]
-// 		knr = cells[KANDIDATNUMMER]
-// 		namn = cells[NAMN]
-
-// 		partikoder[cells[PARTIKOD]]=parti
-
-// 		#if knr in clowner then continue
-// 		if namn == undefined then continue
-// 		if parti == '' then continue
-
-// 		dictionary[parti] = [cells[PARTIBETECKNING],cells[PARTIKOD]]
-// 		dictionary[områdeskod] = område # hanterar både kommun och landsting
-// 		# S -> ['Socialdemokraterna','1234']
-// 		# 01 -> '01 - Stockholms läns landsting'
-// 		# 0180 -> Stockholm
-
-// 		arr = namn.split ', '
-// 		if arr.length == 2
-// 			namn = arr[1] + ' ' + arr[0] 
-// 			cells[NAMN] = namn
-
-// 		if parti == '' or namn == '[inte lämnat förklaring]' then continue
-// 		if valtyp == 'R'                           then spara [valtyp, parti], "#{knr}-#{namn}", cells
-// 		if valtyp == 'L' and områdeskod==länskod   then spara [valtyp, parti], "#{knr}-#{namn}", cells
-// 		if valtyp == 'K' and områdeskod==kommunkod then spara [valtyp, parti], "#{knr}-#{namn}", cells
-
-//print dictionary
-//print partikoder
-
-//print partier
-//for key,parti of partier
-//	if 1 < _.size parti then print key,parti
 //# sourceMappingURL=sketch.js.map

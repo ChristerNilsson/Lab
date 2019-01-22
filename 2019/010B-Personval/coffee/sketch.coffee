@@ -1,4 +1,3 @@
-
 PERSONS_PER_PAGE = 32
 VOTES = 5
 
@@ -299,9 +298,12 @@ class TypPage extends Page
 		for typ of @selectedPersons
 			persons = @selectedPersons[typ]
 			for i in range VOTES
-				if i < persons.length
-					person = persons[i]
-					s += person[KANDIDATNUMMER].padStart 6,'0'
+				if i < persons.length 
+					[partikod,knr] = persons[i]
+					if knr == 0 
+						s += '99' + partikod.padStart 4,'0'
+					else
+						s += knr.padStart 6,'0'
 				else
 					s += '000000'
 		assert s.length,4+6+15*6 # 100
@@ -447,13 +449,13 @@ class UtskriftPage extends Page
 		super x,y,w,h
 		@selected = null
 		@buttons = []
-		@addButton new Button 'Utskrift', 50,height-382,270,45, -> window.print()
-		@addButton new Button 'Fortsätt', 350,height-382,270,45, -> 
+		@addButton new Button 'Utskrift', 50,height-482,270,45, -> window.print()
+		@addButton new Button 'Fortsätt', 350,height-482,270,45, -> 
 			myNode = document.getElementById "qrcode"
 			myNode.innerHTML = ''
 			pages.utskrift.active = false 
 			pages.typ.createSelectButtons()
-		@addButton new Button 'Slump', 650,height-382,270,45, -> 
+		@addButton new Button 'Slump', 650,height-482,270,45, -> 
 			myNode = document.getElementById "qrcode"
 			myNode.innerHTML = ''
 			pages.utskrift.active = false 
@@ -479,9 +481,15 @@ class UtskriftPage extends Page
 		sc()
 		textSize 20
 		for typ,i in 'RLK'
-			for person,j in pages.typ.selectedPersons[typ]
+			for pair,j in pages.typ.selectedPersons[typ]
+				[partikod,knr] = pair
+				partinamn = dbPartier[typ][partikod][1]
+				if knr==0
+					personnamn = ''
+				else
+					personnamn = dbPersoner[typ][knr][2]
 				y = [0,260,520][i] + 50 + 40*j
-				text "#{j+1}  #{person[PARTIFÖRKORTNING]} - #{person[NAMN]}",width/2,y
+				text "#{j+1}  #{partinamn} - #{personnamn}",width/2,y
 		pop()
 
 	render : ->
@@ -490,9 +498,9 @@ class UtskriftPage extends Page
 		fc 0
 		text 'Riksdag',10,50+0
 		text dbName.L, 10,50+260
-		text dbName.R, 10,50+520
-		#text pages.typ.qr,20,height-310
-		text "#{'crc: ' + @getCRC pages.typ.qr.slice 10} #{'tid: '+@cpu}",20,height-310
+		text dbName.K, 10,50+520
+		text pages.typ.qr,20,height-310
+		text "#{'crc: ' + @getCRC pages.typ.qr.slice 10} #{'tid: '+@cpu}",20,height-310-50
 		@showSelectedPersons()
 		pages.typ.sbuttons = []
 
@@ -604,7 +612,8 @@ loadFile = (filePath) ->
   result
 
 getTxt = (rkl,filename) ->
-	data = loadFile filename 
+	data = if filename == 'data\\09.txt' then '' else loadFile filename 
+	dbName[rkl] = ''
 	dbTree[rkl] = {}
 	dbPartier[rkl] = {}
 	dbPersoner[rkl] = {}
@@ -710,121 +719,3 @@ draw = ->
 mousePressed = -> 
 	for key,page of pages 
 		page.mousePressed()
-
-#windowResized = -> resizeCanvas windowWidth, windowHeight
-
-
-######
-
-	# constructor : (@render = ->) ->
-	# 	super()
-	# 	@rbuttons = [] # RKL
-	# 	@init()
-
-	# radd : (button) -> @rbuttons.push button
-	# padd : (button) -> @pbuttons.push button
-	# ladd : (button) -> @lbuttons.push button
-	# kadd : (button) -> @kbuttons.push button
-	# sadd : (button) -> @sbuttons.push button
-
-	# allButtons : -> @pbuttons.concat @lbuttons.concat @kbuttons.concat @sbuttons.concat @rbuttons 
-
-	# init : ->
-	# 	@pbuttons = [] # parti
-	# 	@lbuttons = [] # letters
-	# 	@kbuttons = [] # kandidater
-	# 	@sbuttons = [] # Del, Up, Down
-
-	# draw : ->
-	# 	bg 0
-	# 	@render()
-	# 	for button in @allButtons()
-	# 		button.draw()
-
-	# mousePressed : ->
-	# 	for button in @allButtons()
-	# 		if button.inside() then button.click()
-
-
-# class Page1 extends Page
-
-
-
-
-# antal = (letter,personer) ->
-# 	lst = (1 for key,person of personer when letter == person[NAMN][0])
-# 	lst.length
-
-
-# getClowner = (lines) -> # tag fram alla personer som representerar flera partier i samma valtyp
-# 	res = []
-# 	partier = {}
-# 	for line in lines 
-# 		cells = line.split ';'
-# 		knr = cells[KANDIDATNUMMER]
-# 		if partier[knr] == undefined then partier[knr] = {}
-# 		partier[knr][cells[PARTIKOD]] = cells
-# 	for knr,lista of partier
-# 		if 1 == _.size lista then continue
-# 		klr = {R:0,K:0,L:0}
-# 		for key,item of lista
-# 			klr[item[VALTYP]]++
-# 		if klr.R>1 or klr.K>1 or klr.L>1 then res.push knr
-# 	print 'Borttagna kandidater pga flera partier i samma valtyp: ',res
-# 	res
-
-# spara = (lista,key,value) ->
-# 	current = tree
-# 	for name in lista
-# 		a = current[name]
-# 		if a == undefined then current[name] = {}
-# 		current = current[name]
-# 	current[key] = value
-# readDatabase = ->
-
-
-# 	partikoder = {}
-# 	#partier = {}
-# 	lines = db.split '\n'
-
-# 	#clowner = getClowner lines
-
-# 	for line in lines
-# 		cells = line.split ';'
-# 		valtyp = cells[VALTYP]
-# 		områdeskod = cells[VALOMRÅDESKOD]
-# 		område = cells[VALOMRÅDESNAMN]
-# 		parti = cells[PARTIFÖRKORTNING]
-# 		#if parti=='' then parti = cells[PARTIKOD]
-# 		knr = cells[KANDIDATNUMMER]
-# 		namn = cells[NAMN]
-
-# 		partikoder[cells[PARTIKOD]]=parti
-
-# 		#if knr in clowner then continue
-# 		if namn == undefined then continue
-# 		if parti == '' then continue
-
-# 		dictionary[parti] = [cells[PARTIBETECKNING],cells[PARTIKOD]]
-# 		dictionary[områdeskod] = område # hanterar både kommun och landsting
-# 		# S -> ['Socialdemokraterna','1234']
-# 		# 01 -> '01 - Stockholms läns landsting'
-# 		# 0180 -> Stockholm
-
-# 		arr = namn.split ', '
-# 		if arr.length == 2
-# 			namn = arr[1] + ' ' + arr[0] 
-# 			cells[NAMN] = namn
-
-# 		if parti == '' or namn == '[inte lämnat förklaring]' then continue
-# 		if valtyp == 'R'                           then spara [valtyp, parti], "#{knr}-#{namn}", cells
-# 		if valtyp == 'L' and områdeskod==länskod   then spara [valtyp, parti], "#{knr}-#{namn}", cells
-# 		if valtyp == 'K' and områdeskod==kommunkod then spara [valtyp, parti], "#{knr}-#{namn}", cells
-
-	#print dictionary
-	#print partikoder
-
-	#print partier
-	#for key,parti of partier
-	#	if 1 < _.size parti then print key,parti
-
