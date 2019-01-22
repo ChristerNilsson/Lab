@@ -1,29 +1,27 @@
 # Nytt valsystem
 
-Det går att minska datainläsning från 29MB till cirka 500KB genom att läsa .txt-filer skapade av 010.py
-* 00.txt Riksdagen
-* 01.txt Stockholms län
+Datainläsningen har minskat från 29M till cirka 0.5M genom att använda .txt-filer skapade av 010.py
+* 00.txt   Riksdagen
+* 01.txt   Stockholms län
 * 0180.txt Stockholms kommun
-* personer.txt
-* partier.txt
-
-personer.txt och partier.txt skrivs lämpligen in i slutet på de övriga filerna.
+* omraden.txt (namn på kommuner och landsting)
 
 00.txt 01.txt 0180.txt har alla samma struktur:
 
-A|1475|123456|123457                           partikod kandidatnummer*
-B|1013|Bollp|Bollnäspartiet                    partikod partinamn partibeteckning
-C|355151|28|K|Jessica Ohlson|jurist, Nyköping  kandidatnummer ålder kön namn uppgift
+T|Stockholm                                    Riksdagen, Landstinget eller Kommunens namn
+A|1475|123456|355151                           PARTIKOD|KANDIDATNUMMER|KANDIDATNUMMER|...
+B|1013|C|Centerpartiet                         PARTIKOD|PARTIFÖRKORTNING|PARTIBETECKNING
+C|355151|28|K|Jessica Ohlson|jurist, Nyköping  KANDIDATNUMMER|ÅLDER_PÅ_VALDAGEN|KÖN|NAMN|VALSEDELSUPPGIFT
 
-00.txt   A: 6000 B:100 C:6000  Totalt 42K + 2K + 300K = 344K
-01.txt   A: 1500 B:50  C:1500  Totalt 10K + 1K + 75K  = 86K
-0180.txt A: 750  B:50  C:750   Totalt 5K + 1K+ 37K    = 43K
+00.txt    388K
+01.txt    100K
+0180.txt   52K
 
-Totalt: 344K + 86K + 43K = 473K (Stockholm)
-
-Små kommuner tar cirka 350K
+Totalt:   540K (Stockholm)
+Minsta:   411K (Arjeplog)
 
 Beskrivning av kolumner i kandidaturer.js:
+
 VALTYP = 0
 VALOMRÅDESKOD = 1
 VALOMRÅDESNAMN = 2
@@ -48,4 +46,3 @@ VALSEDELSUPPGIFT = 20
 ANT_BEST_VALS = 21
 VALBAR_PÅ_VALDAGEN = 22
 GILTIG = 23
-

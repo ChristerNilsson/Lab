@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "KommunPage.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\KommunPage.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;;;;;AAAA,IAAA;;AAAA,AAAM;;;AAEL,AAAc,sBAAA,AAAC,GAAD,AAAG,GAAH,AAAK,GAAL,AAAO;AACpB;;wHAAA,AAAM,GAAN,AAAQ,GAAR,AAAU,GAAV,AAAY;;AACZ,AAAC,UAAD,AAAC,SAAS;AACV,AAAC,UAHY,AAGb,AAAC;;AAEF,AAAO;;;;;AACN,UADO,4EAAD,AAAO;UAAE,8EAAT,AAAiB;;UACvB,MAAA,GAAA,GAAA,GAAA,GAAA,KAAA,MAAA,KAAA,MAAA,KAAA,GAAA,GAAA;AAAA,UAAI;AACJ,aADA,AACO;AACP,AAAC,WAAD,AAAC,UAAW;AACZ,UAAI,AAAC,KAAD,AAAC,IAAE;AACP,UAAI,AAAC,KAAD,AAAC,AAAE,KAAC,IAAD,AAAG;AACV,aAAO,AAAC,EAAD,AAAE,KAAF,AAAO;AACd,AAAI,WAAJ,AAAK,KAAK,UAAA,AAAC,GAAD,AAAG;AAAM,YAAG,AAAS,SAAT,AAAS,KAAK,AAAS,SAA1B,AAA0B;iBAAQ,CAAlC,AAAmC;AAAnC,eAAA;iBAAA,AAA0C;AAAnD;AAAV;AACA,AAAC,WAAD,AAAC,cAAU,AAAI,OAAJ,AAAW,OAAM,AAAC,KAAD,AAAC,IAAE,IAApB,AAAsB,GAAE,AAAC,KAAzB,AAAyB,GAAE,IAA3B,AAA6B,GAAE,IAA/B,AAAiC,GAAG;eAAG,AAAC,KAAA,AAAI,KAAL,AAAM,KAAN,AAAW,GAAd,AAAG,AAAa;AAA/D,AAAW,OAAA;AACX,AAAC,WAAD,AAAC,cAAU,AAAI,OAAJ,AAAW,OAAM,AAAC,KAAD,AAAC,IAAE,IAApB,AAAsB,GAAE,AAAC,KAAzB,AAAyB,GAAE,IAA3B,AAA6B,GAAE,IAA/B,AAAiC,GAAG;eAAG,AAAC,KAAA,AAAI,KAAL,AAAM,KAAN,AAAW,GAAd,AAAG,AAAa;AAA/D,AAAW,OAAA;AACX,UAAI;AACJ,WAAA,mCAAA;;AACC,eAAO,AAAS,SAAA;AAChB,AAAG,YAAA,AAAQ,QAAR,AAAQ,aAAM,AAAK,KAAnB,AAAmB,OAAnB,OAAyB,AAAQ,QAApC,AAAG,AAAiC;AACnC,yBAAI,AAAE,KAAC,OAAD,AAAM,KAAR,AAAY,KAAI;AACpB,cAAI,CAAC,IAAI,IAAL,AAAO,KAAK;AAChB,AAAC,eAAD,AAAC,cAAU,AAAI,aAAJ,AAAiB,KAAI,AAAC,KAAD,AAAC,IAAtB,AAAwB,GAAE,AAAC,KAAD,AAAC,IAA3B,AAA6B,GAAE,IAA/B,AAAiC,GAAE,IAAnC,AAAqC,GAAG;AAClD;mBACA,YAAY,AAAC,KAFqC,AAElD,AAAa;AAFd,AAAW,WAAA;AAHZ,AAMC;AARF;;aASA,AAAC,KAAD,AAAC,WAAW,AAAC,KAAA,AAAQ,QApBf,AAoBe;AAEtB,AAAS;;;6BAAA,CA7BV;;;;EAAA,AAAyB",
+  "sourcesContent": [
+    "class KommunPage extends Page\r\n\r\n\tconstructor : (x,y,w,h) ->\r\n\t\tsuper x,y,w,h\r\n\t\t@active = true\r\n\t\t@init()\r\n\r\n\tinit : (index=0,letters='AM') ->\r\n\t\tN = 16\r\n\t\tCOLS = 10 # 7\r\n\t\t@buttons  = [] \r\n\t\tw = @w/COLS\r\n\t\th = @h/(N+1)\r\n\t\tkeys = _.keys dbKommun\r\n\t\tkeys.sort (a,b) -> if dbKommun[a] < dbKommun[b] then -1 else 1\r\n\t\t@addButton new Button 'A-M',@x+0*w,@y,w-1,h-1, -> @page.init 0,'AM'\r\n\t\t@addButton new Button 'L-Ö',@x+1*w,@y,w-1,h-1, -> @page.init 1,'NÖ'\r\n\t\ti = 0\r\n\t\tfor key in keys\t\t\t\r\n\t\t\tnamn = dbKommun[key]\r\n\t\t\tif letters[0] <= namn[0] <= letters[1]\r\n\t\t\t\tx = i%(COLS*N)//N * w\r\n\t\t\t\ty = (1 + i%N) * h\r\n\t\t\t\t@addButton new KommunButton key,@x+x,@y+y,w-1,h-1, -> \r\n\t\t\t\t\trensa()\r\n\t\t\t\t\tfetchKommun @key\r\n\t\t\t\ti++\r\n\t\t@selected = @buttons[index] \r\n\r\n\trender : ->\r\n"
+  ]
+}

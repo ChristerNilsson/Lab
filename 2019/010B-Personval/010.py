@@ -53,9 +53,7 @@ for line in lines:
 
 	if 'rklaring]' in namn: continue
 	if 'mnat samtycke]' in namn: continue
-	if parti == '':
-		print(partikod,partinamn)
-		continue
+	if parti == '': continue
 
 	if ',' in namn:
 		enamn,fnamn = namn.split(',')
@@ -70,28 +68,7 @@ for line in lines:
 	if knr not in personer: personer[knr] = [knr,arr[ÅLDER_PÅ_VALDAGEN],arr[KÖN],namn,arr[VALSEDELSUPPGIFT]]
 	if partikod not in partier: partier[partikod] = [partikod,parti,partinamn]
 
-# for partikod in partier:
-# 	print(partier[partikod])
-
-# rensa bort partier där medlemmarna bara består av Erik och Lorenzo (509130,513996)
-skräppartier = []
-# for kod in hash:
-# 	for partikod in hash[kod]:
-# 		members = (list(hash[kod][partikod].keys()))
-# 		if len(members) <= 2:
-# 			print(members)
-# 			rensa = False
-# 			if len(members)==1:
-# 				if '509130' in members or '513996' in members: rensa  = True
-# 			if len(members)==2:
-# 				if '509130' in members and '513996' in members: rensa  = True
-# 			if rensa:
-# 				print(kod,partier[partikod])
-# 				skräppartier.append([kod,partikod])
-#
-# skräppartier.sort()
-# print(skräppartier)
-
+områden['00'] = 'Riksdagen'
 
 for kod in hash:
 	file = open('data/'+kod+'.txt', mode='w')
@@ -99,7 +76,7 @@ for kod in hash:
 	personhash = {}
 	partihash = {}
 	for partikod in hash[kod]:
-		if [kod,partikod] in skräppartier: continue
+		#if [kod,partikod] in skräppartier: continue
 		file.write("A|")
 		file.write(partikod)
 		file.write("|")
