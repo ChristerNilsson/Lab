@@ -20,9 +20,12 @@ var ANMDELTAGANDE,
     FÖRKLARING,
     GILTIG,
     KANDIDATNUMMER,
+    KommunButton,
+    KommunPage,
     KÖN,
     LISTNUMMER,
     LetterButton,
+    LetterKommunPage,
     LetterPage,
     NAMN,
     ORDNING,
@@ -48,12 +51,14 @@ var ANMDELTAGANDE,
     VALSEDELSUPPGIFT,
     VALTYP,
     VOTES,
+    counter,
     dbKommun,
     dbName,
     dbPartier,
     dbPersoner,
     dbTree,
     draw,
+    fetchKommun,
     getKommun,
     getParameters,
     getTxt,
@@ -63,6 +68,8 @@ var ANMDELTAGANDE,
     mousePressed,
     pages,
     preload,
+    rensa,
+    _resolve,
     setup,
     ÅLDER_PÅ_VALDAGEN,
     indexOf = [].indexOf;
@@ -139,6 +146,8 @@ dbKommun = {};
 // 0180 -> Stockholm
 pages = {};
 
+counter = 0;
+
 gruppera = function gruppera(letters) {
   var n = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 32;
 
@@ -201,6 +210,21 @@ assert({
   N: 20,
   O: 12
 }));
+
+rensa = function rensa() {
+  pages.typ.selectedPersons = {
+    R: [],
+    L: [],
+    K: []
+  };
+  pages.typ.sbuttons = [];
+  pages.typ.selected = null;
+  pages.partier.clear();
+  pages.letters.clear();
+  pages.personer.clear();
+  pages.typ.qr = '';
+  return pages.typ.start = new Date().getTime();
+};
 
 Page = function () {
   function Page(x5, y3, w1, h1) {
@@ -280,13 +304,15 @@ PartiPage = function (_Page) {
   _createClass(PartiPage, [{
     key: 'render',
     value: function render() {
-      var s;
+      var namn, rkl, s;
       if (this.selected !== null) {
         push();
-        textAlign(CENTER, CENTER);
-        textSize(20); // 0.5 * pages.personer.h/17
-        s = this.selected.title + ' (' + pages.personer.buttons.length + ' av ' + _.size(pages.personer.personer) + ')';
-        text(s, pages.personer.x + pages.personer.w / 2, pages.personer.y + pages.personer.h / 34);
+        textAlign(LEFT, CENTER);
+        textSize(0.4 * pages.personer.h / 17);
+        rkl = pages.typ.selected.typ;
+        namn = dbPartier[rkl][this.selected.partikod][1];
+        s = namn + ' (' + pages.personer.buttons.length + ' av ' + _.size(pages.personer.personer) + ')';
+        text(s, pages.personer.x, pages.personer.y + pages.personer.h / 34);
         return pop();
       }
     }
@@ -503,39 +529,172 @@ PersonPage = function (_Page3) {
   return PersonPage;
 }(Page);
 
-TypPage = function (_Page4) {
-  _inherits(TypPage, _Page4);
+LetterKommunPage = function (_Page4) {
+  _inherits(LetterKommunPage, _Page4);
+
+  function LetterKommunPage() {
+    _classCallCheck(this, LetterKommunPage);
+
+    return _possibleConstructorReturn(this, (LetterKommunPage.__proto__ || Object.getPrototypeOf(LetterKommunPage)).apply(this, arguments));
+  }
+
+  _createClass(LetterKommunPage, [{
+    key: 'render',
+    value: function render() {}
+  }, {
+    key: 'makeFreq',
+    value: function makeFreq(rkl, personer) {
+      // personer är en lista
+      var k, key, len, letter, name, names, res;
+      res = {};
+      names = function () {
+        var k, len, results;
+        results = [];
+        for (k = 0, len = personer.length; k < len; k++) {
+          key = personer[k];
+          results.push(dbPersoner[rkl][key][2]);
+        }
+        return results;
+      }();
+      names.sort();
+      for (k = 0, len = names.length; k < len; k++) {
+        name = names[k];
+        letter = name[0];
+        res[letter] = res[letter] === void 0 ? 1 : res[letter] + 1;
+      }
+      return res;
+    }
+  }, {
+    key: 'makeLetters',
+    value: function makeLetters(rkl, button, personer) {
+      var _this9 = this;
+
+      var N, h, i, letters, n, ref, results, title, w, x, y;
+      N = 16;
+      h = this.h / (N + 1);
+      w = this.w / 2;
+      this.selected = button;
+      this.buttons = [];
+      i = 0;
+      ref = gruppera(this.makeFreq(rkl, personer));
+      results = [];
+      for (letters in ref) {
+        n = ref[letters];
+        x = this.x + w * Math.floor(i / N);
+        y = this.y + h * (1 + i % N);
+        title = letters.length === 1 ? letters : letters[0] + '-' + _.last(letters);
+        (function (letters, title) {
+          return _this9.addButton(new LetterButton(title, x, y, w - 2, h - 2, n, function () {
+            this.page.selected = this;
+            return pages.personer.clickLetterButton(rkl, this, letters, personer);
+          }));
+        })(letters, title);
+        results.push(i++);
+      }
+      return results;
+    }
+  }]);
+
+  return LetterKommunPage;
+}(Page);
+
+KommunPage = function (_Page5) {
+  _inherits(KommunPage, _Page5);
+
+  function KommunPage(x, y, w, h) {
+    _classCallCheck(this, KommunPage);
+
+    var _this10 = _possibleConstructorReturn(this, (KommunPage.__proto__ || Object.getPrototypeOf(KommunPage)).call(this, x, y, w, h));
+
+    _this10.active = true;
+    _this10.init();
+    return _this10;
+  }
+
+  _createClass(KommunPage, [{
+    key: 'init',
+    value: function init() {
+      var index = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+      var letters = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 'AM';
+
+      var COLS, N, h, i, k, key, keys, len, namn, ref, w, x, y;
+      N = 16;
+      COLS = 10; // 7
+      this.buttons = [];
+      w = this.w / COLS;
+      h = this.h / (N + 1);
+      keys = _.keys(dbKommun);
+      keys.sort(function (a, b) {
+        if (dbKommun[a] < dbKommun[b]) {
+          return -1;
+        } else {
+          return 1;
+        }
+      });
+      this.addButton(new Button('A-M', this.x + 0 * w, this.y, w - 1, h - 1, function () {
+        return this.page.init(0, 'AM');
+      }));
+      this.addButton(new Button('L-Ö', this.x + 1 * w, this.y, w - 1, h - 1, function () {
+        return this.page.init(1, 'NÖ');
+      }));
+      i = 0;
+      for (k = 0, len = keys.length; k < len; k++) {
+        key = keys[k];
+        namn = dbKommun[key];
+        if (letters[0] <= (ref = namn[0]) && ref <= letters[1]) {
+          x = Math.floor(i % (COLS * N) / N) * w;
+          y = (1 + i % N) * h;
+          this.addButton(new KommunButton(key, this.x + x, this.y + y, w - 1, h - 1, function () {
+            print(this.key);
+            rensa();
+            return fetchKommun(this.key);
+          }));
+          i++;
+        }
+      }
+      return this.selected = this.buttons[index];
+    }
+  }, {
+    key: 'render',
+    value: function render() {}
+  }]);
+
+  return KommunPage;
+}(Page);
+
+TypPage = function (_Page6) {
+  _inherits(TypPage, _Page6);
 
   function TypPage(x, y, w, h) {
     var cols = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : 1;
 
     _classCallCheck(this, TypPage);
 
-    var _this8 = _possibleConstructorReturn(this, (TypPage.__proto__ || Object.getPrototypeOf(TypPage)).call(this, x, y, w, h, cols));
+    var _this11 = _possibleConstructorReturn(this, (TypPage.__proto__ || Object.getPrototypeOf(TypPage)).call(this, x, y, w, h, cols));
 
-    _this8.sbuttons = [];
-    _this8.start = new Date().getTime();
-    _this8.qr = '0000000000';
+    _this11.sbuttons = [];
+    _this11.start = new Date().getTime();
+    _this11.qr = '0000000000';
     h = height / 51;
-    _this8.yoff = [_this8.y + 0, _this8.y + 16 * h, _this8.y + 32 * h, _this8.y + 48 * h];
-    _this8.selectedPersons = {
+    _this11.yoff = [_this11.y + 0, _this11.y + 16 * h, _this11.y + 32 * h, _this11.y + 48 * h];
+    _this11.selectedPersons = {
       R: [],
       L: [],
       K: []
     };
-    _this8.addButton(new TypButton('R', 'Riksdag', _this8.x, _this8.yoff[0], _this8.w - 0, 3 * h - 3, function () {
+    _this11.addButton(new TypButton('R', 'Riksdag', _this11.x, _this11.yoff[0], _this11.w - 0, 3 * h - 3, function () {
       pages.partier.select('R', dbTree.R);
       return this.page.selected = this;
     }));
-    _this8.addButton(new TypButton('L', dbName.L, _this8.x, _this8.yoff[1], _this8.w - 0, 3 * h - 3, function () {
+    _this11.addButton(new TypButton('L', dbName.L, _this11.x, _this11.yoff[1], _this11.w - 0, 3 * h - 3, function () {
       pages.partier.select('L', dbTree.L);
       return this.page.selected = this;
     }));
-    _this8.addButton(new TypButton('K', dbName.K, _this8.x, _this8.yoff[2], _this8.w - 0, 3 * h - 3, function () {
+    _this11.addButton(new TypButton('K', dbName.K, _this11.x, _this11.yoff[2], _this11.w - 0, 3 * h - 3, function () {
       pages.partier.select('K', dbTree.K);
       return this.page.selected = this;
     }));
-    _this8.addButton(new Button('Utskrift', _this8.x, _this8.yoff[3], _this8.w / 2 - 2, 3 * h - 3, function () {
+    _this11.addButton(new Button('Utskrift', _this11.x, _this11.yoff[3], _this11.w / 3 - 2, 3 * h - 3, function () {
       var qrcode;
       pages.utskrift.active = true;
       pages.utskrift.stopMeasuringTime();
@@ -549,22 +708,24 @@ TypPage = function (_Page4) {
         correctLevel: QRCode.CorrectLevel.L // Low Medium Q High
       });
     }));
-    _this8.addButton(new Button('Rensa', _this8.x + _this8.w / 2, _this8.yoff[3], _this8.w / 2 - 0, 3 * h - 3, function () {
-      this.page.selectedPersons = {
-        R: [],
-        L: [],
-        K: []
-      };
-      this.page.sbuttons = [];
-      pages.typ.selected = null;
-      pages.partier.clear();
-      pages.letters.clear();
-      pages.personer.clear();
-      this.page.qr = '';
-      return this.page.start = new Date().getTime();
+    _this11.addButton(new Button('Rensa', _this11.x + _this11.w / 3, _this11.yoff[3], _this11.w / 3 - 2, 3 * h - 3, function () {
+      return rensa();
     }));
-    return _this8;
+    _this11.addButton(new Button('Byt kommun', _this11.x + 2 * _this11.w / 3, _this11.yoff[3], _this11.w / 3 - 0, 3 * h - 3, function () {
+      var k, len, page;
+      print('Byt kommun');
+      for (k = 0, len = pages.length; k < len; k++) {
+        page = pages[k];
+        page.active = false;
+      }
+      return pages.kommun.active = true;
+    }));
+    return _this11;
   }
+
+  //@page.selectedPersons = {R:[], L:[], K:[]}
+  //@page.sbuttons = [] 
+
 
   _createClass(TypPage, [{
     key: 'addsButton',
@@ -601,11 +762,12 @@ TypPage = function (_Page4) {
       var x, y;
       if (this.selected !== null) {
         push();
-        textAlign(CENTER, CENTER);
+        textAlign(LEFT, CENTER);
         textSize(20);
         sc();
-        x = pages.partier.x + pages.partier.w / 2;
-        y = pages.partier.y + pages.partier.h / 34;
+        var _ref = [pages.partier.x, pages.partier.y + pages.partier.h / 34];
+        x = _ref[0];
+        y = _ref[1];
 
         if (this.selected.typ === 'R') {
           text('Riksdag', x, y);
@@ -631,9 +793,9 @@ TypPage = function (_Page4) {
     value: function clickSwap(typ, index) {
       var arr;
       arr = this.selectedPersons[typ];
-      var _ref = [arr[index - 1], arr[index]];
-      arr[index] = _ref[0];
-      arr[index - 1] = _ref[1];
+      var _ref2 = [arr[index - 1], arr[index]];
+      arr[index] = _ref2[0];
+      arr[index - 1] = _ref2[1];
 
       return this.createSelectButtons();
     }
@@ -652,7 +814,7 @@ TypPage = function (_Page4) {
         persons = ref[typ];
         index = "RLK".indexOf(typ);
         results.push(function () {
-          var _this9 = this;
+          var _this12 = this;
 
           var k, len, results1;
           results1 = [];
@@ -665,12 +827,12 @@ TypPage = function (_Page4) {
             y2 = y - 0.9 * h;
             results1.push(function (typ, i) {
               if (i > 0) {
-                _this9.addsButton(new Button('byt', x1, y1, dw, dh, function () {
-                  return _this9.clickSwap(typ, i);
+                _this12.addsButton(new Button('byt', x1, y1, dw, dh, function () {
+                  return _this12.clickSwap(typ, i);
                 }));
               }
-              return _this9.addsButton(new Button(' x ', x2, y2, dw, dh, function () {
-                return _this9.clickDelete(typ, i);
+              return _this12.addsButton(new Button(' x ', x2, y2, dw, dh, function () {
+                return _this12.clickDelete(typ, i);
               }));
             }(typ, i));
           }
@@ -798,7 +960,7 @@ TypPage = function (_Page4) {
         for (j = l = 0, len1 = ref1.length; l < len1; j = ++l) {
           person = ref1[j];
           y = y0 + 4.5 * h + 13 * h / 5 * j;
-          text(j + 1 + '  ' + person[PARTIFÖRKORTNING] + ' - ' + person[NAMN], this.x + 10, y);
+          text(j + 1 + ' ' + person + ' - ' + person[NAMN], this.x + 10, y);
         }
       }
       pop();
@@ -828,27 +990,27 @@ TypPage = function (_Page4) {
   return TypPage;
 }(Page);
 
-UtskriftPage = function (_Page5) {
-  _inherits(UtskriftPage, _Page5);
+UtskriftPage = function (_Page7) {
+  _inherits(UtskriftPage, _Page7);
 
   function UtskriftPage(x, y, w, h) {
     _classCallCheck(this, UtskriftPage);
 
-    var _this10 = _possibleConstructorReturn(this, (UtskriftPage.__proto__ || Object.getPrototypeOf(UtskriftPage)).call(this, x, y, w, h));
+    var _this13 = _possibleConstructorReturn(this, (UtskriftPage.__proto__ || Object.getPrototypeOf(UtskriftPage)).call(this, x, y, w, h));
 
-    _this10.selected = null;
-    _this10.buttons = [];
-    _this10.addButton(new Button('Utskrift', 50, height - 382, 270, 45, function () {
+    _this13.selected = null;
+    _this13.buttons = [];
+    _this13.addButton(new Button('Utskrift', 50, height - 382, 270, 45, function () {
       return window.print();
     }));
-    _this10.addButton(new Button('Fortsätt', 350, height - 382, 270, 45, function () {
+    _this13.addButton(new Button('Fortsätt', 350, height - 382, 270, 45, function () {
       var myNode;
       myNode = document.getElementById("qrcode");
       myNode.innerHTML = '';
       pages.utskrift.active = false;
       return pages.typ.createSelectButtons();
     }));
-    _this10.addButton(new Button('Slump', 650, height - 382, 270, 45, function () {
+    _this13.addButton(new Button('Slump', 650, height - 382, 270, 45, function () {
       var myNode;
       myNode = document.getElementById("qrcode");
       myNode.innerHTML = '';
@@ -856,7 +1018,7 @@ UtskriftPage = function (_Page5) {
       pages.typ.slumpa();
       return pages.typ.createSelectButtons();
     }));
-    return _this10;
+    return _this13;
   }
 
   _createClass(UtskriftPage, [{
@@ -939,7 +1101,6 @@ Button = function () {
       fc(0.5);
       push();
       sc();
-      //sw 1
       rect(this.x, this.y, this.w, this.h);
       pop();
       textSize(this.ts);
@@ -961,19 +1122,55 @@ Button = function () {
   return Button;
 }();
 
-PartiButton = function (_Button) {
-  _inherits(PartiButton, _Button);
+KommunButton = function (_Button) {
+  _inherits(KommunButton, _Button);
+
+  function KommunButton(key, x, y, w, h) {
+    var click = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : function () {};
+
+    _classCallCheck(this, KommunButton);
+
+    var _this14 = _possibleConstructorReturn(this, (KommunButton.__proto__ || Object.getPrototypeOf(KommunButton)).call(this, dbKommun[key], x, y, w, h, click));
+
+    _this14.key = key;
+    return _this14;
+  }
+
+  _createClass(KommunButton, [{
+    key: 'draw',
+    value: function draw() {
+      fc(0.5);
+      push();
+      sc();
+      rect(this.x, this.y, this.w, this.h);
+      pop();
+      textSize(0.65 * this.ts);
+      textAlign(LEFT, CENTER);
+      if (this.page.selected === this) {
+        fc(1, 1, 0);
+      } else {
+        fc(1);
+      }
+      return text(this.title, this.x + 0.025 * this.w, this.y + this.h / 2);
+    }
+  }]);
+
+  return KommunButton;
+}(Button);
+
+PartiButton = function (_Button2) {
+  _inherits(PartiButton, _Button2);
 
   function PartiButton(rkl1, partikod, x, y, w, h) {
     var click = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : function () {};
 
     _classCallCheck(this, PartiButton);
 
-    var _this11 = _possibleConstructorReturn(this, (PartiButton.__proto__ || Object.getPrototypeOf(PartiButton)).call(this, '', x, y, w, h, click));
+    var _this15 = _possibleConstructorReturn(this, (PartiButton.__proto__ || Object.getPrototypeOf(PartiButton)).call(this, '', x, y, w, h, click));
 
-    _this11.rkl = rkl1;
-    _this11.partikod = partikod;
-    return _this11;
+    _this15.rkl = rkl1;
+    _this15.partikod = partikod;
+    return _this15;
   }
 
   _createClass(PartiButton, [{
@@ -982,7 +1179,6 @@ PartiButton = function (_Button) {
       var partinamn;
       fc(0.5);
       rect(this.x, this.y, this.w, this.h);
-      //textSize if @title in 'S C MP L M V SD KD'.split ' ' then 28 else 20
       textSize(this.ts);
       textAlign(CENTER, CENTER);
       if (this.page.selected === this) {
@@ -1001,21 +1197,21 @@ PartiButton = function (_Button) {
   return PartiButton;
 }(Button);
 
-LetterButton = function (_Button2) {
-  _inherits(LetterButton, _Button2);
+LetterButton = function (_Button3) {
+  _inherits(LetterButton, _Button3);
 
   function LetterButton(title, x, y, w, h, antal, click) {
     _classCallCheck(this, LetterButton);
 
-    var _this12 = _possibleConstructorReturn(this, (LetterButton.__proto__ || Object.getPrototypeOf(LetterButton)).call(this, title, x, y, w, h, click));
+    var _this16 = _possibleConstructorReturn(this, (LetterButton.__proto__ || Object.getPrototypeOf(LetterButton)).call(this, title, x, y, w, h, click));
 
-    _this12.antal = antal;
-    _this12.pageNo = -1;
-    _this12.pages = 1 + Math.floor(_this12.antal / PERSONS_PER_PAGE);
-    if (_this12.antal % PERSONS_PER_PAGE === 0) {
-      _this12.pages--;
+    _this16.antal = antal;
+    _this16.pageNo = -1;
+    _this16.pages = 1 + Math.floor(_this16.antal / PERSONS_PER_PAGE);
+    if (_this16.antal % PERSONS_PER_PAGE === 0) {
+      _this16.pages--;
     }
-    return _this12;
+    return _this16;
   }
 
   _createClass(LetterButton, [{
@@ -1023,7 +1219,7 @@ LetterButton = function (_Button2) {
     value: function draw() {
       fc(0.5);
       rect(this.x, this.y, this.w, this.h);
-      textSize(this.ts);
+      textSize(0.8 * this.ts);
       textAlign(CENTER, CENTER);
       if (this.page.selected === this) {
         fc(1, 1, 0);
@@ -1061,29 +1257,26 @@ LetterButton = function (_Button2) {
   return LetterButton;
 }(Button);
 
-PersonButton = function (_Button3) {
-  _inherits(PersonButton, _Button3);
+PersonButton = function (_Button4) {
+  _inherits(PersonButton, _Button4);
 
   function PersonButton(person, x, y, w, h) {
     var click = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : function () {};
 
     _classCallCheck(this, PersonButton);
 
-    var _this13 = _possibleConstructorReturn(this, (PersonButton.__proto__ || Object.getPrototypeOf(PersonButton)).call(this, person, x, y, w, h, click));
+    var _this17 = _possibleConstructorReturn(this, (PersonButton.__proto__ || Object.getPrototypeOf(PersonButton)).call(this, person, x, y, w, h, click));
 
-    _this13.title0 = person[2];
-    _this13.title1 = person[3];
-    if (_this13.title1 === '') {
-      _this13.title1 = {
+    _this17.title0 = person[2];
+    _this17.title1 = person[3];
+    if (_this17.title1 === '') {
+      _this17.title1 = {
         M: 'Man',
         K: 'Kvinna'
       }[person[1]] + ' ' + person[0] + ' \xE5r';
     }
-    return _this13;
+    return _this17;
   }
-
-  //@person = person
-
 
   _createClass(PersonButton, [{
     key: 'draw',
@@ -1102,76 +1295,23 @@ PersonButton = function (_Button3) {
   return PersonButton;
 }(Button);
 
-TypButton = function (_Button4) {
-  _inherits(TypButton, _Button4);
+TypButton = function (_Button5) {
+  _inherits(TypButton, _Button5);
 
   function TypButton(typ1, title, x, y, w, h) {
     var click = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : function () {};
 
     _classCallCheck(this, TypButton);
 
-    var _this14 = _possibleConstructorReturn(this, (TypButton.__proto__ || Object.getPrototypeOf(TypButton)).call(this, title, x, y, w, h, click));
+    var _this18 = _possibleConstructorReturn(this, (TypButton.__proto__ || Object.getPrototypeOf(TypButton)).call(this, title, x, y, w, h, click));
 
-    _this14.typ = typ1;
-    return _this14;
+    _this18.typ = typ1;
+    return _this18;
   }
 
   return TypButton;
 }(Button);
 
-// spara = (lista,key,value) ->
-// 	current = tree
-// 	for name in lista
-// 		a = current[name]
-// 		if a == undefined then current[name] = {}
-// 		current = current[name]
-// 	current[key] = value
-// readDatabase = ->
-
-// 	partikoder = {}
-// 	#partier = {}
-// 	lines = db.split '\n'
-
-// 	#clowner = getClowner lines
-
-// 	for line in lines
-// 		cells = line.split ';'
-// 		valtyp = cells[VALTYP]
-// 		områdeskod = cells[VALOMRÅDESKOD]
-// 		område = cells[VALOMRÅDESNAMN]
-// 		parti = cells[PARTIFÖRKORTNING]
-// 		#if parti=='' then parti = cells[PARTIKOD]
-// 		knr = cells[KANDIDATNUMMER]
-// 		namn = cells[NAMN]
-
-// 		partikoder[cells[PARTIKOD]]=parti
-
-// 		#if knr in clowner then continue
-// 		if namn == undefined then continue
-// 		if parti == '' then continue
-
-// 		dictionary[parti] = [cells[PARTIBETECKNING],cells[PARTIKOD]]
-// 		dictionary[områdeskod] = område # hanterar både kommun och landsting
-// 		# S -> ['Socialdemokraterna','1234']
-// 		# 01 -> '01 - Stockholms läns landsting'
-// 		# 0180 -> Stockholm
-
-// 		arr = namn.split ', '
-// 		if arr.length == 2
-// 			namn = arr[1] + ' ' + arr[0] 
-// 			cells[NAMN] = namn
-
-// 		if parti == '' or namn == '[inte lämnat förklaring]' then continue
-// 		if valtyp == 'R'                           then spara [valtyp, parti], "#{knr}-#{namn}", cells
-// 		if valtyp == 'L' and områdeskod==länskod   then spara [valtyp, parti], "#{knr}-#{namn}", cells
-// 		if valtyp == 'K' and områdeskod==kommunkod then spara [valtyp, parti], "#{knr}-#{namn}", cells
-
-//print dictionary
-//print partikoder
-
-//print partier
-//for key,parti of partier
-//	if 1 < _.size parti then print key,parti
 getParameters = function getParameters() {
   var h = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : window.location.href;
 
@@ -1229,11 +1369,8 @@ getTxt = function getTxt(rkl, filename) {
           dbPersoner[rkl][cells[1]] = cells.slice(2);
         }
       }
-      print(_.size(dbTree[rkl]));
-      print(_.size(dbPartier[rkl]));
-      print(_.size(dbPersoner[rkl]));
-      pages.typ.buttons[1].title = dbName.L;
-      return pages.typ.buttons[2].title = dbName.K;
+      counter--;
+      return print('getTxt', counter, filename, _.size(dbTree[rkl], _.size(dbPartier[rkl], _.size(dbPersoner[rkl]))));
     }
   });
 };
@@ -1245,7 +1382,7 @@ getKommun = function getKommun(filename) {
       return print('error');
     },
     success: function success(data) {
-      var cells, k, kod, len, line, lines, namn;
+      var cells, k, kod, len, line, lines, namn, x0, x1, x2, x3, x4;
       dbKommun = {};
       lines = data.split('\n');
       for (k = 0, len = lines.length; k < len; k++) {
@@ -1258,7 +1395,23 @@ getKommun = function getKommun(filename) {
           dbKommun[kod] = namn;
         }
       }
-      return print(_.size(dbKommun));
+      print('getKommun', _.size(dbKommun));
+      x0 = 0;
+      x1 = 0.18 * width;
+      x2 = 0.28 * width;
+      x3 = 0.64 * width;
+      x4 = 1.00 * width;
+      pages.partier = new PartiPage(0, 0, x1 - x0, height);
+      pages.letters = new LetterPage(x1, 0, x2 - x1, height);
+      pages.personer = new PersonPage(x2, 0, x3 - x2, height);
+      pages.kommun = new KommunPage(0, 0, width, height);
+      pages.typ = new TypPage(x3, 0, x4 - x3, height);
+      pages.utskrift = new UtskriftPage(0, 0, x4, height);
+      pages.utskrift.active = false;
+      pages.kommun.active = false;
+      pages.typ.buttons[1].title = dbName.L;
+      pages.typ.buttons[2].title = dbName.K;
+      return counter--;
     }
   });
 };
@@ -1270,34 +1423,48 @@ preload = function preload() {
 
   kommun = _getParameters.kommun;
 
-  print(kommun);
   kommunkod = kommun;
   if (!kommunkod) {
-    kommunkod = '2506';
+    kommunkod = '0180';
   }
+  print(kommun);
   länskod = kommunkod.slice(0, 2);
+  counter = 4;
   getTxt('R', 'data\\00.txt');
-  getTxt('L', 'data\\25.txt');
-  getTxt('K', 'data\\2506.txt');
+  getTxt('L', 'data\\01.txt');
+  getTxt('K', 'data\\0180.txt');
   return getKommun('data\\omraden.txt');
 };
 
+fetchKommun = function fetchKommun(kommun) {
+  // t ex '0180'
+  counter = 2;
+  kommunkod = kommun;
+  länskod = kommun.slice(0, 2);
+  getTxt('L', 'data\\' + länskod + '.txt');
+  getTxt('K', 'data\\' + kommunkod + '.txt');
+  return _resolve();
+};
+
+_resolve = function resolve() {
+  var k, len, page;
+  print('resolve', counter);
+  if (counter === 0) {
+    for (k = 0, len = pages.length; k < len; k++) {
+      page = pages[k];
+      page.active = true;
+    }
+    pages.kommun.active = false;
+    pages.utskrift.active = false;
+    pages.typ.buttons[1].title = dbName.L;
+    return pages.typ.buttons[2].title = dbName.K;
+  } else {
+    return setTimeout(_resolve, 10);
+  }
+};
+
 setup = function setup() {
-  var x0, x1, x2, x3, x4;
-  createCanvas(windowWidth, windowHeight);
-  // readDatabase()
-  // print tree
-  x0 = 0;
-  x1 = 0.18 * width;
-  x2 = 0.28 * width;
-  x3 = 0.64 * width;
-  x4 = 1.00 * width;
-  pages.partier = new PartiPage(0, 0, x1 - x0, height);
-  pages.letters = new LetterPage(x1, 0, x2 - x1, height);
-  pages.personer = new PersonPage(x2, 0, x3 - x2, height);
-  pages.typ = new TypPage(x3, 0, x4 - x3, height);
-  pages.utskrift = new UtskriftPage(0, 0, x4, height);
-  pages.utskrift.active = false;
+  createCanvas(windowWidth, windowHeight - 1);
   sc();
   textAlign(CENTER, CENTER);
   return textSize(20);
@@ -1305,9 +1472,21 @@ setup = function setup() {
 
 draw = function draw() {
   var key, page, results;
+  if (counter > 0) {
+    print('counter', counter);
+    return;
+  }
   bg(0);
+  if (_.size(pages < 6)) {
+    return;
+  }
+  if (pages.utskrift === void 0) {
+    return;
+  }
   if (pages.utskrift.active) {
     return pages.utskrift.draw();
+  } else if (pages.kommun.active) {
+    return pages.kommun.draw();
   } else {
     results = [];
     for (key in pages) {
@@ -1383,4 +1562,58 @@ mousePressed = function mousePressed() {
 // 		if klr.R>1 or klr.K>1 or klr.L>1 then res.push knr
 // 	print 'Borttagna kandidater pga flera partier i samma valtyp: ',res
 // 	res
+
+// spara = (lista,key,value) ->
+// 	current = tree
+// 	for name in lista
+// 		a = current[name]
+// 		if a == undefined then current[name] = {}
+// 		current = current[name]
+// 	current[key] = value
+// readDatabase = ->
+
+// 	partikoder = {}
+// 	#partier = {}
+// 	lines = db.split '\n'
+
+// 	#clowner = getClowner lines
+
+// 	for line in lines
+// 		cells = line.split ';'
+// 		valtyp = cells[VALTYP]
+// 		områdeskod = cells[VALOMRÅDESKOD]
+// 		område = cells[VALOMRÅDESNAMN]
+// 		parti = cells[PARTIFÖRKORTNING]
+// 		#if parti=='' then parti = cells[PARTIKOD]
+// 		knr = cells[KANDIDATNUMMER]
+// 		namn = cells[NAMN]
+
+// 		partikoder[cells[PARTIKOD]]=parti
+
+// 		#if knr in clowner then continue
+// 		if namn == undefined then continue
+// 		if parti == '' then continue
+
+// 		dictionary[parti] = [cells[PARTIBETECKNING],cells[PARTIKOD]]
+// 		dictionary[områdeskod] = område # hanterar både kommun och landsting
+// 		# S -> ['Socialdemokraterna','1234']
+// 		# 01 -> '01 - Stockholms läns landsting'
+// 		# 0180 -> Stockholm
+
+// 		arr = namn.split ', '
+// 		if arr.length == 2
+// 			namn = arr[1] + ' ' + arr[0] 
+// 			cells[NAMN] = namn
+
+// 		if parti == '' or namn == '[inte lämnat förklaring]' then continue
+// 		if valtyp == 'R'                           then spara [valtyp, parti], "#{knr}-#{namn}", cells
+// 		if valtyp == 'L' and områdeskod==länskod   then spara [valtyp, parti], "#{knr}-#{namn}", cells
+// 		if valtyp == 'K' and områdeskod==kommunkod then spara [valtyp, parti], "#{knr}-#{namn}", cells
+
+//print dictionary
+//print partikoder
+
+//print partier
+//for key,parti of partier
+//	if 1 < _.size parti then print key,parti
 //# sourceMappingURL=sketch.js.map
