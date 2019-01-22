@@ -5,7 +5,6 @@ A|1280|408895|408896|408897|408898|408899|408900|408901|408902|408903|408904|408
 A|68|5837|48362|48363|48364|48365|48366|48367|48368|48369|48370|48371|48372
 A|3|60880|60859|60885|111847|111848|111849|111850|111851|111852|111853|111854|111855|111856|111857|111858|111859|111860|111861|111862|111863
 A|1|228822|7793|228824|228825|228826|228827|228828|228829|228830|228831|228832|228833|228834|228835|228836
-A|1378|513451
 A|110|74274|74275|74276|74277|74278
 A|5|360845|392040|392041|392042|392043|392044|360831|392046
 B|2|S|Arbetarepartiet-Socialdemokraterna
@@ -14,7 +13,6 @@ B|1280|FD|Fria Demokraterna
 B|68|KD|Kristdemokraterna
 B|3|L|Liberalerna (tidigare Folkpartiet)
 B|1|M|Moderaterna
-B|1378||Norrlandspartiet
 B|110|SD|Sverigedemokraterna
 B|5|V|Vänsterpartiet
 C|193454|54|M|Billy Moström|54 år, Ombudsman, Nordmaling
@@ -135,7 +133,6 @@ C|228833|67|K|Anne-Marie Löweneke|67, pensionär, Nordmaling
 C|228834|64|K|Yvonne Andersson|64, ekonomiansvarig, Drivan
 C|228835|70|M|Bo Sundqvist|70, pensionär, Öre
 C|228836|61|K|Gertrud Persson|61, butiksinnehavare, Mo
-C|513451|55|M|Ingvar Kvarnström|
 C|74274|43|M|Martin Jansson|43, sanitetstekniker
 C|74275|75|M|Gert Karlsson|Ingenjör, Nordmaling, 75
 C|74276|53|M|Mikael Larsson|52

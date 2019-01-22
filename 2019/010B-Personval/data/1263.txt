@@ -11,7 +11,6 @@ A|1|60903|60904|60905|60906|60907|60908|60909|60910|60911|60912|60913|60914|6091
 A|110|66917|66918|66919|66920|66921|66922|66923|66924|66925|66926|66927|66928|66929|66930|66931|66932|66933|66934|66935|66936|66937|66938|66940|66941|66942|66943|66944|66945|66946|66947|66948|66949
 A|1309|431294|431442|431443|431444|431445|431446|431316|431448
 A|5|123909|123910|123911|123912|123913
-A|1379|513499|513782|513783|513784|515110|515111|515336|515337|515338|515339
 B|2|S|Arbetarepartiet-Socialdemokraterna
 B|1310|BAP|BARAPARTIET
 B|4|C|Centerpartiet
@@ -24,7 +23,6 @@ B|1|M|Moderaterna
 B|110|SD|Sverigedemokraterna
 B|1309|TRP|TRYGGHETSPARTIET
 B|5|V|Vänsterpartiet
-B|1379||Älska Svedala
 C|54758|54|M|Ambjörn Hardenstedt|Oppositionsråd, Svedala
 C|64455|58|K|Hellen Boij-Ljungdell|
 C|28162|48|M|Leif Göthed|Metallarbetare, Svedala
@@ -205,13 +203,3 @@ C|123910|59|K|Janet Vibeke|lärare
 C|123911|67|M|Gustaf Törnqvist|socionom
 C|123912|32|K|Tina Vibeke|undersköterska
 C|123913|24|K|Louise Vibeke|samordnare Pusselbitenskolan
-C|513499|49|M|Christian Boy|
-C|513782|51|M|Folke Jörgen Rasmusson|
-C|513783|28|M|Alexander Nordström|
-C|513784|50|M|Peter Henriksson|
-C|515110|70|M|Per Harry Kenneth Uvgård|
-C|515111|44|K|Sabina Ovallius Holmgren|
-C|515336|57|K|Eva Brengdahl|
-C|515337|54|M|Per Erik Göran Almgren|
-C|515338|62|M|Mats Bentmar|
-C|515339|50|M|Johan Strömberg|

@@ -5,7 +5,6 @@ A|1223|440259|440260|435478|440262|440263|440264|440266|59817|435473|435475|4354
 A|68|31827|59408|63481|31835|63483|63484|63485|63486|63487|63488|63489|63490|63491|63492|63493|63494|63495|63496|63497|63498|63499
 A|3|55472|55473|55474|55475|55476|55477|55478|55479|55480
 A|55|201733|201734|201735|201736|201737
-A|1337|403041|403042|403043|403044|403045|403046|403047|403048|403049|403050|403051|403052|403053|403054|403055|403056|403057|403058|403059|403203|403061
 A|1|63970|63971|63972|63973|63974|63975|63976|63977|63978|63979|63980|63981|63982|63983|63984|63985|63986|63987|63988|63989|63990|63991|63992|63993|63994|63995|63996|63997|63998|63999
 A|110|67053|67054|67055|67056|67057|67058|67059|67060
 A|5|124690|124691|124692|124693|124694|124695|124696|124697
@@ -15,7 +14,6 @@ B|1223|Frams|Framstegspartiet
 B|68|KD|Kristdemokraterna
 B|3|L|Liberalerna (tidigare Folkpartiet)
 B|55|MP|Miljöpartiet de gröna
-B|1337||Mitt Göinge
 B|1|M|Moderaterna
 B|110|SD|Sverigedemokraterna
 B|5|V|Vänsterpartiet
@@ -123,27 +121,6 @@ C|201734|70|K|Elisabeth Johansson|Knislinge
 C|201735|68|M|Ulf Holmén|Sibbhult
 C|201736|73|M|Stig Svensson|Broby
 C|201737|62|M|Sven Björkbacken|Görbjörnarp
-C|403041|52|K|Ann Ahlbin|52 år, Personlig assistent
-C|403042|43|M|Percy Eriksson|42 år, Operativ IT ledare
-C|403043|35|M|Marcus Jeppsson|34 år, Driftledare
-C|403044|58|M|Tommy Axelsson|58 år, Distriktsrepresentant
-C|403045|59|K|Eva Ståhl|59 år, Äldrepedagog
-C|403046|44|K|Emma Hansson|45 år, Miljö & kvalitetsansvarig
-C|403047|53|M|Tomas Engkvist|53 år, Nätverkstekniker
-C|403048|26|K|Annie Axelsson|26 år, IT-projektledare
-C|403049|51|K|Marie Eriksson|51 år, Projektledare
-C|403050|34|M|Jim Cedenfärna|34 år, Brandman
-C|403051|51|K|Annika Qvarnström|51 år, Mättekniker
-C|403052|48|K|Monica Svensson|47 år, Klinikassistent
-C|403053|21|K|Ezgi Tumsa|21 år, Elevassistent
-C|403054|31|K|Caroline Nilsson|31 år, Fritidspedagog
-C|403055|25|K|Victoria Simonsen|25 år, Personlig assistent
-C|403056|34|M|Kristoffer Engström|34 år, Industriarbetare
-C|403057|56|K|Madeleine Axelsson|56 år, Barnskötare
-C|403058|25|K|Hanna Lidebrandt|25 år, Lärare
-C|403059|30|M|Andreas Johansson|30 år, Svetsare
-C|403203|66|M|Tommy Aspegren|66 år, Strateg
-C|403061|74|K|Britt Qvarnström|74 år, Pensionär
 C|63970|35|M|Patric Åberg|35 år, säljare, Broby
 C|63971|34|K|Camilla Westdahl|34 år, civilekonom, Immeln
 C|63972|40|M|Martin Skagerholm|40 år, VD, Sibbhult

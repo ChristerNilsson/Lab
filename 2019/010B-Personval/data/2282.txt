@@ -7,7 +7,6 @@ A|1011|132657
 A|3|277652|277268|277236|277656|277257|277657|277658|277659
 A|55|130884|130885|130886|130887|130888|130889
 A|1|188698|188699|188700|188701|188702|188703|188704|188705|188706
-A|1378|515783|515784|515786|515788|515825|515826
 A|110|360717|360101|360104|360720|360124|360147|360148|510809|512644|514996|515900|515901
 A|5|113898|113899|113900|113901|113902|113903|113904|113905|113906|113907|113908|113909|113910|113911|113912|113913|113914|113915|113916|113917|113918
 B|2|S|Arbetarepartiet-Socialdemokraterna
@@ -18,7 +17,6 @@ B|1011|LPo|Landsbygdspartiet Oberoende
 B|3|L|Liberalerna (tidigare Folkpartiet)
 B|55|MP|Miljöpartiet de gröna
 B|1|M|Moderaterna
-B|1378||Norrlandspartiet
 B|110|SD|Sverigedemokraterna
 B|5|V|Vänsterpartiet
 C|105262|27|M|Peter Hedberg|27 år, Kramfors
@@ -146,12 +144,6 @@ C|188703|72|K|Lillemor Zidén|72 år, Fd. HVB-föreståndare, Salteå
 C|188704|74|M|Bengt Sundström|74 år, Fd. lantbrukare, Roted
 C|188705|53|M|Kenneth Axelsten|53 år, Provare, Herrskog
 C|188706|56|M|Thomas Tillström|56 år, Företagare, Sandslån
-C|515783|57|M|Kim Petersen|
-C|515784|44|M|Peter Westin Andersson|
-C|515786|47|M|Torbjörn Westerlund|
-C|515788|44|M|Mats Helenius|
-C|515825|45|M|Stefan Näslund|
-C|515826|28|M|Jonas Lundgren|
 C|360717|37|K|Sara Seppälä|Undersköterska, Kramfors
 C|360101|67|K|Gunnel Nordin|67, Kramfors
 C|360104|77|M|Björn Sjödin|77, Kramfors

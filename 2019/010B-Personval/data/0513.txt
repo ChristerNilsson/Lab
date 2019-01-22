@@ -1,139 +1,46 @@
 T|Kinda
-A|1365|509130
-A|1423|509130
 A|2|44666|44667|44668|44669|44670|44823|44824|44825|44826|44827|44828|44840|44841|44842|44843|78181|78182|78183|78184|78185|78186|78187|78188|78189|78345|78346|78347|78348
-A|1420|509130
-A|1372|509130
-A|1375|509130
 A|4|41673|41674|14337|41678|12035|41680|41679|72006|41681|41676|72009|72010|41682|41683|41684|41685|41686|41687
 A|1318|509130
-A|1387|509130
-A|1314|509130
-A|1351|509130
 A|29|509130
 A|532|509130
-A|1329|509130
-A|1388|509130
-A|1317|509130
-A|1406|509130
 A|1173|509130
 A|1176|509130
-A|1316|509130
-A|1374|509130
 A|1416|509130
-A|1405|509130
 A|68|251065|251066|251067|251068|251069|251070|251071|251072|251073|251074|251075|251076|251077
 A|1140|509130
 A|1011|123803|123837|124127|124128|124133|124175|124176
 A|3|49184|248136|248137|248138|248139|248140|248141|248142|248143|248144|248145
-A|518|509130
-A|1345|509130
-A|1330|509130
 A|55|415597|419795|419796|419797|419798|419799|419800|419801|419802|419803|419804
 A|1|12899|12897|3328|25688|25689|25690|25691|25692|25693|25694|25695|25696|25697|25698|25699|25700
-A|1380|509130
-A|1378|509130
-A|1399|509130
-A|1415|509130
-A|1385|509130
-A|1418|509130
-A|1391|509130
-A|1408|509130
-A|1371|509130
-A|1347|509130
-A|1389|509130
 A|1202|509130
-A|1409|509130
 A|172|509130
-A|1397|509130
-A|522|509130
-A|1421|509130
-A|1376|509130
-A|1414|509130
-A|1384|509130
 A|110|79784|79785|79786|79787|79788|79789|79790|79791|79792|79793|79794|160713
-A|1396|509130
 A|1063|509130
-A|1400|509130
-A|1328|509130
-A|1386|509130
-A|1422|509130
-A|1332|509130
 A|1349|509130
-A|1417|509130
-A|1412|509130
 A|1138|509130
 A|5|71575|78605|78606|78607|78608|75522|75521|78611|78613|78614|78615|75524|78618
-A|1407|509130
-A|1404|509130
-B|1365||20% skattepartiet
-B|1423||Allians för Sverige
 B|2|S|Arbetarepartiet-Socialdemokraterna
-B|1420||ASYL.NUPARTIET
-B|1372||Basinkomstpartiet
-B|1375||Bg-Demokrati
 B|4|C|Centerpartiet
 B|1318|CSIS|Common sense in Sweden
-B|1387||Demokrati Sverige
-B|1314||Demokratirörelsen
-B|1351||Det nya partiet
 B|29|EAP|Europeiska Arbetarpartiet-EAP
 B|532|FI|Feministiskt initiativ
-B|1329||Final Partiet
-B|1388||Folkhemmet Sverige
-B|1317||Folkstyret
-B|1406||Generation Utveckling
 B|1173|Gup|Gula Partiet
 B|1176|HumDe|Humandemokraterna
-B|1316||iGov.Direct®
-B|1374||Initiativet
 B|1416|iP|iP-IDROTTSPARTIET-Rädda Stadshagens IP!
-B|1405||Kosmopolitiska Partiet
 B|68|KD|Kristdemokraterna
 B|1140|KrVP|Kristna Värdepartiet
 B|1011|LPo|Landsbygdspartiet Oberoende
 B|3|L|Liberalerna (tidigare Folkpartiet)
-B|518||LOTTOKRATIN
-B|1345||LÅNGEN&CO
-B|1330||Medborgarresan
 B|55|MP|Miljöpartiet de gröna
 B|1|M|Moderaterna
-B|1380||Modern Sweden
-B|1378||Norrlandspartiet
-B|1399||NPP Nya Pensions Partiet
-B|1415||numen kärlekspartiet
-B|1385||NY REFORM
-B|1418||Nya bjornska partiet
-B|1391||nya Ny Demokrati
-B|1408||Papepartiet
-B|1371||Partiet Folkomröstning
-B|1347||POPULISTERNA
-B|1389||Raggarpartiet
 B|1202|RNP|Reformist Neutral Partiet
-B|1409||Rosa Drömmar
 B|172|SJP|Sjöbopartiet
-B|1397||Skolpartiet Göteborg
-B|522||Sociala Partiet (SP)
-B|1421||SOCIALLIBERALERNA
-B|1376||Spektral demokrati
-B|1414||Svensk Jobbdemokrati
-B|1384||Sverige ut ur EU/Frihetliga Rättvisepartiet (FRP)
 B|110|SD|Sverigedemokraterna
-B|1396||Sverigepartiet
 B|1063|SKP|Sveriges Kommunistiska Parti (SKP)
-B|1400||Technopartiet
-B|1328||Tryggare Sverige
-B|1386||Utveckling och Progressiv för Sverige partiet (U.P.S)
-B|1422||VALDI2018
-B|1332||Valsamverkanspartiet
 B|1349|ViS|Vi Socialkonservativa
-B|1417||Visiona
-B|1412||Vårt land - Sverige
 B|1138|VägV|Vägvalet
 B|5|V|Vänsterpartiet
-B|1407||Äkta demokrati
-B|1404||Ändrings partiet revolution
-C|509130|21|M|Marijn Ingmar Lorenzo Janssen|
 C|44666|66|M|Hans Måhagen|kommunalråd, Rimforsa
 C|44667|81|K|Ing-Britt Andersson|f.d.undersköterska, Kisa
 C|44668|54|M|Ulf Johansson|kommunanställd, Kisa
@@ -180,6 +87,7 @@ C|41684|69|M|Carl-Inge Gustafsson|69 år, Hägerstad
 C|41685|71|K|Britt-Marie Lindholm|71 år, Kisa
 C|41686|82|M|Karl Ekholm|82 år, Horn
 C|41687|79|M|Göran Olsson|79 år, Kisa
+C|509130|21|M|Marijn Ingmar Lorenzo Janssen|
 C|251065|53|K|Lena Käcker Johansson|Distriktssköterska, Rimforsa
 C|251066|68|M|Börje Karlsson|Lantbrukare, Horn
 C|251067|69|K|Minka Eriksson|Arbetsterapeut, Kisa

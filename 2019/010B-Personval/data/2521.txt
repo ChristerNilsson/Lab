@@ -1,7 +1,6 @@
 T|Pajala
 A|2|6495|6496|6497|6500|6499|6502|6501|6504|6503|6506|6505|6508|6507|6509|6511|6510|6513|6512|6515|6514|6516|6517|6518|6519
 A|4|365363|365364|365365|365366|365367|365368
-A|1361|281121|281122|281123|281124|281125|281126|281127|281128|281129|281130|281131|281132|281133|281134|281135|281136|281137|281138|281139|281140|281141|281142|281143|281144|281145|281146
 A|68|134922|134923|134924|134925|134926|134927|134928|134929|134930|134931|134932|134933|134934|134935|134936|134937
 A|3|181972|181973|181974|181975
 A|1|43010|43005|217268|217269|217270|302563|217271|217272|217273|217274|217275|297523|217276|217277|217278|217279
@@ -10,7 +9,6 @@ A|110|48258
 A|5|45800|30054|369894|369895|370329|370330|30010|370707|370708|370709|370710|372976|372977|372978|372979|402558|373862|373863|373864|373865|373866|373867|373868|373869|373870
 B|2|S|Arbetarepartiet-Socialdemokraterna
 B|4|C|Centerpartiet
-B|1361||Framtid S
 B|68|KD|Kristdemokraterna
 B|3|L|Liberalerna (tidigare Folkpartiet)
 B|1|M|Moderaterna
@@ -47,32 +45,6 @@ C|365365|65|K|Ulla Ylivainio|
 C|365366|83|M|Kurt Haapala|
 C|365367|66|M|Kauko Lustig|
 C|365368|80|K|Gun Haapala|
-C|281121|58|M|Johny Lantto|57 år Kaunisvaara
-C|281122|50|K|Maria Törmä-Lindmark|50 år Koiranranta
-C|281123|35|M|Gustaf Karvonen|35 år Pajala
-C|281124|39|K|Veronica Andersson|38 år Pajala
-C|281125|68|M|Göran Mörtlund|67 år Kangos
-C|281126|31|K|Anna Taavola|30 år Korpilombolo
-C|281127|70|M|Owe Pekkari|70 år Pajala
-C|281128|44|K|Britt-Inger Fagervall|43 år Pajala
-C|281129|59|M|Anders Aasa|58 år Pajala
-C|281130|57|K|Laila Mäki|56 år Kardis
-C|281131|65|M|Martin Zingmark|64 år Pajala
-C|281132|38|K|Eva-Lena Henriksson|37 år Pajala
-C|281133|69|M|Gösta Kostenius|69 år Kardis
-C|281134|58|K|Anne Niska|57 år Pajala
-C|281135|51|M|Peter Johansson|51 år Kangos
-C|281136|62|K|Lena Jatko|62 år Anttis
-C|281137|53|M|Peter Hurula|52 år Pajala
-C|281138|58|K|Maud Zingmark|58 år Pajala
-C|281139|18|M|Elias Kalla|18 år Pajala
-C|281140|66|K|Berit Öström|66 år Pajala
-C|281141|66|M|Ragnar Uusitalo|66 år Jarhois
-C|281142|46|K|Eva Svarvare|46 år Pajala
-C|281143|80|M|Gotthard Patomella|80 år Muodoslompolo
-C|281144|75|K|Karin Magnström|75 år Norra Kengis
-C|281145|69|M|Ove Ylipää|68 år Pajala
-C|281146|70|K|Irmeli Svarvare|70 år Kengis
 C|134922|65|K|Irene Lundholm|distriktssköterska, Pajala
 C|134923|74|M|Leif Gramner|egenföretagare, Pajala
 C|134924|47|M|Peter Ericsson|snickare, Korpilombolo

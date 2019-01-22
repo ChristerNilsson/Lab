@@ -3,7 +3,6 @@ A|2|24504|24505|24506|24507|24508|24509|24510|24511|24512|24513|24514|24515|2451
 A|4|8509|37736|37739|38887|43437|37743|43439|43440|43441|37752|163086|38891|37748|43446|43447|43448|43449|43450|43451|43452|43453|43454|43455|43456|163100|37755
 A|189|509530
 A|532|510810|510811|510812|510813|510814
-A|1363|417715|417716|417717|417718|417719|417720|417721|417722|417723|417724|417725|417726|417727
 A|68|31772|31768|59366|59365|31773|59349|61590|59350|31789|31686|31683|61595|31783|61597|31777|61599|61600|61601|61602|61603|61604|61605|61606|61607|61608|61609
 A|3|115797|115798|115799|115800|115801|115802|115803|115804|115805|115806|115807|115808|115809|115810|115811|115812|115813|115814|115815|115816|115817|115818|115819|115820
 A|1296|187971|187944|380106|380107|394841|187945|380109
@@ -16,7 +15,6 @@ B|2|S|Arbetarepartiet-Socialdemokraterna
 B|4|C|Centerpartiet
 B|189|ENH|Enhet
 B|532|FI|Feministiskt initiativ
-B|1363||Futurum Sverige
 B|68|KD|Kristdemokraterna
 B|3|L|Liberalerna (tidigare Folkpartiet)
 B|1296|MED|Medborgerlig Samling
@@ -118,19 +116,6 @@ C|510811|27|K|Maria Malkert|Förskollärare, 27 år
 C|510812|45|K|Lena Ljungqvist|Läkare, 45 år
 C|510813|34|K|Ikram Abdalla|Enhetschef, 34 år
 C|510814|83|M|Hindse Hansen|Pensionär, 84 år
-C|417715|57|K|Carina Sällberg|gymnasielärare svenska/religion, 57 år
-C|417716|49|K|Lumnije Kajtazi|sfi- och gymnasielärare, historiker, 49 år
-C|417717|49|M|Lars Angelhammar|avdelningschef, elektriker, 49 år
-C|417718|31|K|Ala Zidan|integrationsvägledare, 31 år
-C|417719|30|K|Adelina Ukehaxhaj|studie- och yrkesvägledare, 30 år
-C|417720|62|M|Hassaan El-Hinidy|regionchef, rekrytering, 62 år
-C|417721|18|K|Isabelle Angelhammar|studerande, 18 år
-C|417722|19|K|Isabelle Sällberg|studerande, 19 år
-C|417723|61|M|Nazif Ahmedi|skomakare, 61 år
-C|417724|53|K|Maria Thyrén|studie- och yrkesvägledare, 53 år
-C|417725|58|K|Zeinab Matar|lärare sfi, jurist, 58 år
-C|417726|26|K|Adelina Abazi|barista, 26 år
-C|417727|48|M|Rrahimn Krasniqi|byggnadsarbetare, 37 år
 C|31772|57|M|Lars Thunberg|57 år, Kommunalråd, Helsingborg
 C|31768|45|K|Cecilia Engström|45 år, Ekonomichef, Helsingborg
 C|59366|27|M|Alexander Kolind|27 år, HR-konsult, Helsingborg

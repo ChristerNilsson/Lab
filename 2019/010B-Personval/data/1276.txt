@@ -7,7 +7,6 @@ A|55|177557|177558|177559|177560|177561|177822|22062|177824|177825
 A|1|69160|62846|62847|62848|62849|62850|62851|62852|62853|62854|62855|62856|62857|62858|62859|62860|62861|62862|62863|62864|62865|62866|62867|62868|62869|62870|62871|62872|62873|62874|62875|62876|62877|62878|62879|62880|62881|62882|62883|62884|62885|62886
 A|524|450705
 A|110|53878|53879|53880|53882|53883|53888|53885|53887|53889|53884|53890|53892|53893|53894|53896|53898
-A|1393|506840|191866|27954|506843|506844|506845|506846|506847|506848|506849|506850|506851|506852|506853|506854|506855|506856|506857|506858|506859
 A|5|128112|485630|485631|485632|485633
 B|2|S|Arbetarepartiet-Socialdemokraterna
 B|4|C|Centerpartiet
@@ -17,7 +16,6 @@ B|55|MP|Miljöpartiet de gröna
 B|1|M|Moderaterna
 B|524|PP|Piratpartiet
 B|110|SD|Sverigedemokraterna
-B|1393||VÅR FRAMTID - KLIPPAN
 B|5|V|Vänsterpartiet
 C|27881|47|M|Johan Petersson|Ombudsman, Klippan
 C|27882|54|K|Kerstin Persson|Specialpedagog, Klippan
@@ -173,26 +171,6 @@ C|53893|54|M|Lars-Erik Stadler|54, Taxichaufför
 C|53894|53|M|Joakim Olsson|53, Lastbilschaufför
 C|53896|43|M|Magnus Frick|43, Egenföretagare
 C|53898|79|K|Maj-Lise Edvardsson|78, Pensionär
-C|506840|53|M|Kenneth Dådring|Bitr. Rektor
-C|191866|52|K|Helena Dådring|Egen företagare
-C|27954|58|M|Thomas Thorné|Drogterapeut
-C|506843|56|K|Lena Landin|Personlig assistent
-C|506844|63|M|Ernie Larsson|Fd Kvalitetssäkrare Daimler Chrysler
-C|506845|75|M|Bertil Larsson|Meteorolog
-C|506846|27|K|Frida Simonsen|Entreprenör
-C|506847|66|M|Björn Samuelsson|Civilingenjör
-C|506848|53|K|Terese Steen|Frisör
-C|506849|42|M|Thomas Simonsen|Egen företagare, odlare
-C|506850|34|K|Therese Larsson|Lärare i fritidshem
-C|506851|59|M|Lars Nilsson|Byggnadsarbetare
-C|506852|74|K|Gunilla Torstendahl|Fd Familjehemssekreterare
-C|506853|46|K|Maria Bång|Trafikadministratör
-C|506854|71|M|Lennart Emanuelsson|Fd Pilot/Major
-C|506855|42|M|Martin Lidborn|Egen företagare
-C|506856|74|K|Berit Karlsson|Fd BMA Pensionär
-C|506857|77|M|Knut Karlsson|Pensionär
-C|506858|48|K|Susanne Waborn|Sjuksköterska
-C|506859|74|M|Jan-Eric Olsson|Tekniker
 C|128112|48|K|Karin Enqvist|handläggare, Klippan
 C|485630|47|K|Lena Mäkelä|plantskolearbetare
 C|485631|57|K|Carina Andersson|vårdare

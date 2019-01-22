@@ -166,7 +166,7 @@ C|504002|63|M|Hans Åke "Gutte" Guth|Sociala frågor, Klockarhagen
 C|504003|52|K|Magdalena Kanz|Undersköterska, Stranden
 C|504004|52|M|Anders Ossmyr|Snickare, Våmhus
 C|504005|34|K|Anna Liljeberg|Undersköterska, Önaheden
-C|490176|76|M|Björn Hammarskjöld|
+C|490176|76|M|Björn Hammarskjöld|Mora
 C|504007|45|M|Stefan Olsson|Säljare, Broåker
 C|490183|55|K|Chatarina Nyström|Mora
 C|504009|54|M|Tomas Norell|Mekaniker, Ryssa

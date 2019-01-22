@@ -56,7 +56,7 @@ C|123647|65|M|Birger Lindström|65, Socionom, Övertorp, Mullsjö
 C|188782|63|M|Göran Rehn|63, Arbetsmiljörevisor, Habo
 C|392749|50|M|Morgan Malmborg|Egenföretagare
 C|392750|66|M|Lennart Karlsson|Pensionär
-C|392751|38|M|Johan Airaksinen|
+C|392751|38|M|Johan Airaksinen|Diversearbetare
 C|392752|53|M|Hans Martinsson|Industriarbetare
 C|392753|58|M|Sidney Karlsson|Anläggningsarbetare
 C|392754|62|M|Pirre Käll|Pensionär

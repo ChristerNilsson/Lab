@@ -2,13 +2,11 @@ T|Sorsele
 A|2|192114|196672|196673|193018|196675|193003|196677|196678|196679|193026|196681|196682|196683|196684|196685|196686|196687|196688|196689|196690
 A|4|55743|70705|70706|70707|70708|48818|70710|70711
 A|1|361248|361249|361250|361251
-A|1347|509134
 A|110|71267
 A|5|374897|374898|374899|374900|374901|374902|374903|374904|374905|374906|374907|374908|374909
 B|2|S|Arbetarepartiet-Socialdemokraterna
 B|4|C|Centerpartiet
 B|1|M|Moderaterna
-B|1347||POPULISTERNA
 B|110|SD|Sverigedemokraterna
 B|5|V|Vänsterpartiet
 C|192114|55|M|Fred Stövset|55 år, Arbetsförmedlare, Sorsele
@@ -43,7 +41,6 @@ C|361248|69|K|Lillian Holloway|69, Ammarnäs
 C|361249|44|M|Thomas Forsvall|44, Ammarnäs
 C|361250|38|K|Daniela Olsson|38, Sorsele
 C|361251|72|M|Rune Tovetjärn|72, Sorsele
-C|509134|48|M|Fritjof Persson|
 C|71267|34|M|Petter Nilsson|Svetsare, Umeå
 C|374897|57|M|Kjell Öjeryd|57, lantbrukare/kommunalråd, Sorsele
 C|374898|41|K|Maria Broberg|Skribent, Nedre Saxnäs

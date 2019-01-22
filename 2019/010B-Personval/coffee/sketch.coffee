@@ -34,6 +34,7 @@ dbName     = {} # T Områdesnamn
 dbTree     = {} # A
 dbPartier  = {} # B 
 dbPersoner = {} # C
+dbKommun   = {}
 
 #dictionary = {} 
 	# S -> Socialdemokraterna
@@ -97,7 +98,7 @@ class PartiPage extends Page
 
 	select : (rkl,partier) ->
 		N = 16
-		w = @w #/2
+		w = @w/2
 		h = @h/(N+1)
 		keys = _.keys partier
 		keys.sort (a,b) -> _.size(partier[b]) - _.size(partier[a])
@@ -108,7 +109,6 @@ class PartiPage extends Page
 		pages.personer.clear()
 
 		for key,i in keys
-			if i>=N then continue
 			x = @x + w*(i//N)
 			y = @y + h*(1+i%N)
 			do (key) => @addButton new PartiButton rkl,key,x,y,w-2,h-2, -> 
@@ -460,14 +460,14 @@ class PartiButton extends Button
 		fc 0.5
 		rect @x,@y,@w,@h
 		#textSize if @title in 'S C MP L M V SD KD'.split ' ' then 28 else 20
-		textSize @ts/2
-		textAlign LEFT,CENTER
+		textSize @ts
+		textAlign CENTER,CENTER
 		if @page.selected == @ then fc 1,1,0 else fc 1
 
 		partinamn = dbPartier[@rkl][@partikod][0]
 		if partinamn == '' then partinamn = dbPartier[@rkl][@partikod][1]
 
-		text partinamn,@x,@y+@h/2
+		text partinamn,@x+@w/2,@y+@h/2
 
 class LetterButton extends Button 
 	constructor : (title,x,y,w,h,@antal,click) ->
@@ -601,6 +601,22 @@ getTxt = (rkl,filename) ->
 			pages.typ.buttons[1].title=dbName.L
 			pages.typ.buttons[2].title=dbName.K
 
+getKommun = (filename) ->
+	$.ajax
+		url : filename
+		error : () -> print 'error'
+		success : (data) -> 
+			dbKommun = {}
+			lines = data.split '\n'
+			for line in lines
+				line = line.trim()
+				cells = line.split '|'
+				kod = cells[0]
+				namn = cells[1]
+				if kod.length==4
+					dbKommun[kod] = namn
+			print _.size dbKommun
+
 preload = ->
 	{kommun} = getParameters()
 	print kommun
@@ -611,6 +627,7 @@ preload = ->
 	getTxt 'R','data\\00.txt'
 	getTxt 'L','data\\25.txt'
 	getTxt 'K','data\\2506.txt'
+	getKommun 'data\\omraden.txt'
 
 setup = ->
 	createCanvas windowWidth,windowHeight

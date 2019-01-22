@@ -1,7 +1,6 @@
 T|Grästorp
 A|2|33812|33813|33814|33815|33816|33817|33818|33819|33820|33821|33822|33823|33824|33825|33826
 A|4|3201|3217|3244|3270|5155|3226|5157|5158|5159|5160|5161|5162|5163|5164|5165|5166|5167|5168|5169|5170
-A|1388|515655
 A|68|503777|515375
 A|3|25029|30868|30869|30870|30871|30872|30873|30874|30875|30876|30877
 A|55|65384|65385|65386|65387|65388|65389|65391
@@ -9,7 +8,6 @@ A|1|253982|253993|254356|255126|255127|255128|255129|255130|255131|255132|255133
 A|110|66290|66291|66292|66293|66294|225191|508809|508810|507176|508812
 B|2|S|Arbetarepartiet-Socialdemokraterna
 B|4|C|Centerpartiet
-B|1388||Folkhemmet Sverige
 B|68|KD|Kristdemokraterna
 B|3|L|Liberalerna (tidigare Folkpartiet)
 B|55|MP|Miljöpartiet de gröna
@@ -50,7 +48,6 @@ C|5167|73|M|Roger Olofsson|Tun,Lantbrukare,73 år
 C|5168|69|K|Angela Rigland|Grästorp,Förvaltare,69 år
 C|5169|50|M|Clas-Göran Andersson|Håle,Lantbrukare,50 år
 C|5170|66|K|Elisabeth Hagberg|Längnum,Tapetserare,66 år
-C|515655|54|K|Katarina Bruzell|
 C|503777|20|K|Olivia Larsson|20, Matros/ungdomsledare, Grästorp
 C|515375|76|K|Anna-Marie Elisabeth Carlsson|
 C|25029|66|M|Dag Hardysson|67 Grästorp

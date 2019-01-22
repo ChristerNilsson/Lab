@@ -48,11 +48,13 @@ var ANMDELTAGANDE,
     VALSEDELSUPPGIFT,
     VALTYP,
     VOTES,
+    dbKommun,
     dbName,
     dbPartier,
     dbPersoner,
     dbTree,
     draw,
+    getKommun,
     getParameters,
     getTxt,
     gruppera,
@@ -129,6 +131,7 @@ dbPartier = {}; // B
 
 dbPersoner = {}; // C
 
+dbKommun = {};
 
 //dictionary = {} 
 // S -> Socialdemokraterna
@@ -294,7 +297,7 @@ PartiPage = function (_Page) {
 
       var N, h, i, k, key, keys, len, results, w, x, y;
       N = 16;
-      w = this.w; ///2
+      w = this.w / 2;
       h = this.h / (N + 1);
       keys = _.keys(partier);
       keys.sort(function (a, b) {
@@ -307,9 +310,6 @@ PartiPage = function (_Page) {
       results = [];
       for (i = k = 0, len = keys.length; k < len; i = ++k) {
         key = keys[i];
-        if (i >= N) {
-          continue;
-        }
         x = this.x + w * Math.floor(i / N);
         y = this.y + h * (1 + i % N);
         results.push(function (key) {
@@ -983,8 +983,8 @@ PartiButton = function (_Button) {
       fc(0.5);
       rect(this.x, this.y, this.w, this.h);
       //textSize if @title in 'S C MP L M V SD KD'.split ' ' then 28 else 20
-      textSize(this.ts / 2);
-      textAlign(LEFT, CENTER);
+      textSize(this.ts);
+      textAlign(CENTER, CENTER);
       if (this.page.selected === this) {
         fc(1, 1, 0);
       } else {
@@ -994,7 +994,7 @@ PartiButton = function (_Button) {
       if (partinamn === '') {
         partinamn = dbPartier[this.rkl][this.partikod][1];
       }
-      return text(partinamn, this.x, this.y + this.h / 2);
+      return text(partinamn, this.x + this.w / 2, this.y + this.h / 2);
     }
   }]);
 
@@ -1238,6 +1238,31 @@ getTxt = function getTxt(rkl, filename) {
   });
 };
 
+getKommun = function getKommun(filename) {
+  return $.ajax({
+    url: filename,
+    error: function error() {
+      return print('error');
+    },
+    success: function success(data) {
+      var cells, k, kod, len, line, lines, namn;
+      dbKommun = {};
+      lines = data.split('\n');
+      for (k = 0, len = lines.length; k < len; k++) {
+        line = lines[k];
+        line = line.trim();
+        cells = line.split('|');
+        kod = cells[0];
+        namn = cells[1];
+        if (kod.length === 4) {
+          dbKommun[kod] = namn;
+        }
+      }
+      return print(_.size(dbKommun));
+    }
+  });
+};
+
 preload = function preload() {
   var kommun;
 
@@ -1253,7 +1278,8 @@ preload = function preload() {
   länskod = kommunkod.slice(0, 2);
   getTxt('R', 'data\\00.txt');
   getTxt('L', 'data\\25.txt');
-  return getTxt('K', 'data\\2506.txt');
+  getTxt('K', 'data\\2506.txt');
+  return getKommun('data\\omraden.txt');
 };
 
 setup = function setup() {
