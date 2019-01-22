@@ -23,17 +23,17 @@ UtskriftPage = function (_Page) {
 
     _this.selected = null;
     _this.buttons = [];
-    _this.addButton(new Button('Utskrift', 0.75 * width, 0.4 * height, 270, 45, function () {
+    _this.addButton(new Button('Utskrift', 0.02 * width, 0.4 * height, 270, 45, function () {
       return window.print();
     }));
-    _this.addButton(new Button('Fortsätt', 0.75 * width, 0.5 * height, 270, 45, function () {
+    _this.addButton(new Button('Fortsätt', 0.02 * width, 0.5 * height, 270, 45, function () {
       var myNode;
       myNode = document.getElementById("qrcode");
       myNode.innerHTML = '';
       pages.utskrift.active = false;
       return pages.typ.createSelectButtons();
     }));
-    _this.addButton(new Button('Slump', 0.75 * width, 0.6 * height, 270, 45, function () {
+    _this.addButton(new Button('Slump', 0.02 * width, 0.6 * height, 270, 45, function () {
       var myNode;
       myNode = document.getElementById("qrcode");
       myNode.innerHTML = '';
@@ -72,16 +72,16 @@ UtskriftPage = function (_Page) {
       var h, i, j, k, knr, l, len, len1, myNode, pair, partikod, partinamn, personnamn, ref, ref1, typ, w, y;
       myNode = document.getElementById('qrcode');
       myNode.style.position = 'absolute';
-      myNode.style.left = 0.5 * width + 'px';
-      myNode.style.top = 0.05 * height + 'px';
+      myNode.style.left = int(0.02 * width) + 'px';
+      myNode.style.top = int(0.1 * height) + 'px';
       textAlign(LEFT, CENTER);
       bg(1);
       fc(0);
       // text pages.typ.qr,20,0.9*height
-      text('crc: ' + this.getCRC(pages.typ.qr.slice(10)) + ' ' + ('tid: ' + this.cpu), 0.75 * width, 0.7 * height);
+      text('crc: ' + this.getCRC(pages.typ.qr.slice(10)) + ' ' + ('tid: ' + this.cpu), 0.02 * width, 0.7 * height);
       push();
       sc();
-      textSize(20);
+      //textSize 20
       w = width;
       h = height;
       ref = 'RLK';
@@ -105,9 +105,11 @@ UtskriftPage = function (_Page) {
           }
           y = [0, 0.25 * h, 0.5 * h][i] + 0.05 * h + 0.04 * h * j;
           if (j === 0) {
-            text(dbName[typ], 10, y);
+            textSize(28);
+            text(dbName[typ], 0.2 * width, y);
           }
-          text(j + 1 + '  ' + partinamn + ' - ' + personnamn, 0.05 * w, y + 0.04 * h);
+          textSize(20);
+          text(j + 1 + '  ' + partinamn + ' - ' + personnamn, 0.2 * w, y + 0.04 * h);
         }
       }
       pop();
