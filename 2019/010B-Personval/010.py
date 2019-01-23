@@ -52,8 +52,7 @@ for line in lines:
 	partinamn = arr[PARTIBETECKNING] # C
 	namn = arr[NAMN]
 
-	if 'rklaring]' in namn: continue
-	if 'mnat samtycke]' in namn: continue
+	if '[' in namn or ']' in namn: continue # olika texter, t ex [saknas i folkbokforingen]
 	if parti == '': continue
 
 	if ',' in namn:
