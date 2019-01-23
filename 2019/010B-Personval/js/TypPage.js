@@ -54,8 +54,8 @@ TypPage = function (_Page) {
       this.page.qr = this.page.getQR();
       return qrcode = new QRCode(document.getElementById("qrcode"), {
         text: this.page.qr,
-        width: 256,
-        height: 256,
+        width: 0.25 * width,
+        height: 0.25 * width,
         colorDark: "#000000",
         colorLight: "#ffffff",
         correctLevel: QRCode.CorrectLevel.L // Low Medium Q High

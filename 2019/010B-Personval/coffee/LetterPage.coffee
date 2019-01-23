@@ -1,14 +1,6 @@
 class LetterPage extends Page
-	render : ->
 
-	makeFreq : (rkl,personer) -> # personer är en lista
-		res = {}
-		names = (dbPersoner[rkl][key][2] for key in personer)
-		names.sort()
-		for name in names
-			letter = name[0]
-			res[letter] = if res[letter] == undefined then 1 else res[letter] + 1
-		res
+	render : ->
 
 	makeLetters : (rkl, button, partikod, personer) ->
 		N = 16
@@ -18,7 +10,8 @@ class LetterPage extends Page
 		@buttons = []
 
 		i = 0
-		for letters,n of gruppera @makeFreq rkl,personer
+		words = (dbPersoner[rkl][key][2] for key in personer)
+		for letters,n of gruppera words,N
 			x = @x + w*(i//N)
 			y = @y + h*(1+i%N)
 			title = if letters.length == 1 then letters else "#{letters[0]}-#{_.last letters}"
@@ -26,4 +19,3 @@ class LetterPage extends Page
 				@page.selected = @
 				pages.personer.clickLetterButton rkl, @, partikod, letters, personer
 			i++
-

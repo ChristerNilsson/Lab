@@ -12,7 +12,17 @@ dbKommun   = {}
 
 pages = {}
 
-gruppera = (letters,n=32) ->
+makeFreq = (words) -> # personer är en lista
+	res = {}
+	words.sort()
+	for word in words
+		letter = word[0]
+		res[letter] = if res[letter] == undefined then 1 else res[letter] + 1
+	res
+assert {a:5, b:9, c:4}, makeFreq 'ababcbabcbcbabcbab'.split ''
+
+gruppera = (words, n=32) -> # words är en lista med ord
+	letters = makeFreq words
 	res = {}
 	group = ''
 	count = 0
@@ -26,9 +36,8 @@ gruppera = (letters,n=32) ->
 			count = m
 	if count > 0 then res[group] = count
 	res
-assert {AB:25,C:14,D:57}, gruppera {A:12, B:13, C:14, D:57}
-assert {ABDEF:28, GH:25}, gruppera {A:2, B:1, D:3,E:10,F:12,G:13,H:12}
-assert {ABDEF:28, NO:32}, gruppera {A:2, B:1, D:3,E:10,F:12,N:20,O:12}
+assert {abc:18}, gruppera 'cababbabcbcbabcbab'.split ''
+assert {AB:7,C:5,D:9}, gruppera 'DBDCDADBDADCDBDADCBCC'.split(''), 8
 
 rensa = ->
 	pages.typ.selectedPersons = {R:[], L:[], K:[]}
@@ -39,36 +48,6 @@ rensa = ->
 	pages.personer.clear()
 	pages.typ.qr = ''
 	pages.typ.start = new Date().getTime()
-
-class LetterKommunPage extends Page
-	render : ->
-
-	makeFreq : (rkl,personer) -> # personer är en lista
-		res = {}
-		names = (dbPersoner[rkl][key][2] for key in personer)
-		names.sort()
-		for name in names
-			letter = name[0]
-			res[letter] = if res[letter] == undefined then 1 else res[letter] + 1
-		res
-
-	makeLetters : (rkl, button, partikod, personer) ->
-		N = 16
-		h = @h/(N+1)
-		w = @w/2
-		@selected = button 
-		@buttons = []
-
-		i = 0
-		for letters,n of gruppera @makeFreq rkl,personer
-			x = @x + w*(i//N)
-			y = @y + h*(1+i%N)
-			title = if letters.length == 1 then letters else "#{letters[0]}-#{_.last letters}"
-			do (letters,title) => @addButton new LetterButton title,x,y,w-2,h-2,n, -> 
-				@page.selected = @
-				pages.personer.clickLetterButton rkl, @, partikod, letters, personer
-			i++
-
 
 class Button
 	constructor : (@title, @x,@y,@w,@h,@click = ->) ->
@@ -195,10 +174,10 @@ getTxt = (rkl,filename) ->
 			dbPartier[rkl][cells[1]] = cells.slice 2 
 		if cells[0]=='C' # personer # C|10552|53|K|Britta Flinkfeldt|53 år, Arjeplog
 			dbPersoner[rkl][cells[1]] = cells.slice 2 
-	print 'getTxt',rkl,filename,data.length
-	print 'Partier:', _.size dbTree[rkl] 
-	print 'Partier:', _.size dbPartier[rkl]
-	print 'Personer:', _.size dbPersoner[rkl]
+	print 'getTxt',rkl,filename, data.length, _.size dbPersoner[rkl]
+	#print 'Partier:', _.size dbTree[rkl] 
+	#print 'Partier:', _.size dbPartier[rkl]
+	#print 'Personer:', _.size dbPersoner[rkl]
 
 getKommun = (filename) ->
 	data = loadFile filename 
@@ -233,7 +212,6 @@ fetchKommun = (kommun) -> # t ex '0180'
 	if kommunkod != kommun
 		kommunkod = kommun
 		getTxt 'K',"data\\#{kommunkod}.txt"
-	#getKommun 'data\\omraden.txt'
 
 	for page in pages
 		page.active = true
@@ -260,15 +238,15 @@ setup = ->
 	pages.partier  = new PartiPage    0,0,x1-x0,height 
 	pages.letters  = new LetterPage  x1,0,x2-x1,height 
 	pages.personer = new PersonPage  x2,0,x3-x2,height 
-	pages.kommun   = new KommunPage  0,0,width,height 
+	pages.kommun   = new KommunPage   0,0,x4,height 
 	pages.typ      = new TypPage     x3,0,x4-x3,height 
 	pages.utskrift = new UtskriftPage 0,0,x4,height
 
 	pages.utskrift.active = false 
 	pages.kommun.active = false			
 
-	pages.typ.buttons[1].title=dbName.L
-	pages.typ.buttons[2].title=dbName.K
+	pages.typ.buttons[1].title = dbName.L
+	pages.typ.buttons[2].title = dbName.K
 
 draw = ->	
 	bg 0

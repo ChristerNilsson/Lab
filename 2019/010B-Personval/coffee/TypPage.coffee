@@ -30,8 +30,8 @@ class TypPage extends Page
 			@page.qr = @page.getQR()
 			qrcode = new QRCode document.getElementById("qrcode"),
 				text: @page.qr
-				width: 256
-				height: 256
+				width: 0.25*width
+				height: 0.25*width
 				colorDark : "#000000"
 				colorLight : "#ffffff"
 				correctLevel : QRCode.CorrectLevel.L # Low Medium Q High

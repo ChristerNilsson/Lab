@@ -24,12 +24,18 @@ LetterPage = function (_Page) {
     key: "render",
     value: function render() {}
   }, {
-    key: "makeFreq",
-    value: function makeFreq(rkl, personer) {
-      // personer är en lista
-      var j, key, len, letter, name, names, res;
-      res = {};
-      names = function () {
+    key: "makeLetters",
+    value: function makeLetters(rkl, button, partikod, personer) {
+      var _this2 = this;
+
+      var N, h, i, key, letters, n, ref, results, title, w, words, x, y;
+      N = 16;
+      h = this.h / (N + 1);
+      w = this.w / 2;
+      this.selected = button;
+      this.buttons = [];
+      i = 0;
+      words = function () {
         var j, len, results;
         results = [];
         for (j = 0, len = personer.length; j < len; j++) {
@@ -38,27 +44,7 @@ LetterPage = function (_Page) {
         }
         return results;
       }();
-      names.sort();
-      for (j = 0, len = names.length; j < len; j++) {
-        name = names[j];
-        letter = name[0];
-        res[letter] = res[letter] === void 0 ? 1 : res[letter] + 1;
-      }
-      return res;
-    }
-  }, {
-    key: "makeLetters",
-    value: function makeLetters(rkl, button, partikod, personer) {
-      var _this2 = this;
-
-      var N, h, i, letters, n, ref, results, title, w, x, y;
-      N = 16;
-      h = this.h / (N + 1);
-      w = this.w / 2;
-      this.selected = button;
-      this.buttons = [];
-      i = 0;
-      ref = gruppera(this.makeFreq(rkl, personer));
+      ref = gruppera(words, N);
       results = [];
       for (letters in ref) {
         n = ref[letters];

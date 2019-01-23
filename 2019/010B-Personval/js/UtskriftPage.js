@@ -23,17 +23,17 @@ UtskriftPage = function (_Page) {
 
     _this.selected = null;
     _this.buttons = [];
-    _this.addButton(new Button('Utskrift', 0.02 * width, 0.6 * height, 0.12 * w, 45, function () {
+    _this.addButton(new Button('Utskrift', 0.02 * width, 0.6 * height, 0.12 * w, 0.06 * h, function () {
       return window.print();
     }));
-    _this.addButton(new Button('Fortsätt', 0.02 * width, 0.7 * height, 0.12 * w, 45, function () {
+    _this.addButton(new Button('Fortsätt', 0.02 * width, 0.7 * height, 0.12 * w, 0.06 * h, function () {
       var myNode;
       myNode = document.getElementById("qrcode");
       myNode.innerHTML = '';
       pages.utskrift.active = false;
       return pages.typ.createSelectButtons();
     }));
-    _this.addButton(new Button('Slump', 0.02 * width, 0.8 * height, 0.12 * w, 45, function () {
+    _this.addButton(new Button('Slump', 0.02 * width, 0.8 * height, 0.12 * w, 0.06 * h, function () {
       var myNode;
       myNode = document.getElementById("qrcode");
       myNode.innerHTML = '';
@@ -78,10 +78,9 @@ UtskriftPage = function (_Page) {
       bg(1);
       fc(0);
       // text pages.typ.qr,20,0.9*height
-      text('crc: ' + this.getCRC(pages.typ.qr.slice(10)) + ' ' + ('tid: ' + this.cpu), 0.02 * width, 0.9 * height);
+      text('crc: ' + this.getCRC(pages.typ.qr.slice(10)) + ' ' + ('tid: ' + this.cpu), 0.02 * width, 0.95 * height);
       push();
       sc();
-      //textSize 20
       w = width;
       h = height;
       ref = 'RLK';
@@ -105,10 +104,10 @@ UtskriftPage = function (_Page) {
           }
           y = [0, 0.3 * h, 0.6 * h][i] + 0.04 * h + 0.05 * h * j;
           if (j === 0) {
-            textSize(28);
+            textSize(0.028 * h);
             text(dbName[typ], 0.31 * width, y);
           }
-          textSize(20);
+          textSize(0.020 * h);
           text(j + 1 + '  ' + partinamn + ' - ' + personnamn, 0.3 * w, y + 0.05 * h);
         }
       }
