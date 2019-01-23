@@ -34,4 +34,3 @@ class KommunPage extends Page
 				i++
 		@selected = @buttons[index] 
 
-	render : ->

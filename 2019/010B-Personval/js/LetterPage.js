@@ -21,9 +21,6 @@ LetterPage = function (_Page) {
   }
 
   _createClass(LetterPage, [{
-    key: "render",
-    value: function render() {}
-  }, {
     key: "makeLetters",
     value: function makeLetters(rkl, button, partikod, personer) {
       var _this2 = this;

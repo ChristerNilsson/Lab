@@ -22,9 +22,6 @@ PersonPage = function (_Page) {
   }
 
   _createClass(PersonPage, [{
-    key: "render",
-    value: function render() {}
-  }, {
     key: "clickLetterButton",
     value: function clickLetterButton(rkl, button, partikod, letters, knrs) {
       var _this2 = this;

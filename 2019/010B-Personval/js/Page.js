@@ -36,6 +36,9 @@ Page = function () {
       return this.buttons.push(button);
     }
   }, {
+    key: "render",
+    value: function render() {}
+  }, {
     key: "draw",
     value: function draw() {
       var button, i, len, ref, results;

@@ -1,7 +1,5 @@
 class LetterPage extends Page
 
-	render : ->
-
 	makeLetters : (rkl, button, partikod, personer) ->
 		N = 16
 		h = @h/(N+1)

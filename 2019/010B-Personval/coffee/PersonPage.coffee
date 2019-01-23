@@ -1,7 +1,5 @@
 class PersonPage extends Page
 
-	render : ->
-
 	clickLetterButton : (rkl,button,partikod,letters,knrs) ->
 		@personer = knrs
 		N = PERSONS_PER_PAGE

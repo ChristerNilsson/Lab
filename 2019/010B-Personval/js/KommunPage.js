@@ -77,9 +77,6 @@ KommunPage = function () {
         }
         return this.selected = this.buttons[index];
       }
-    }, {
-      key: "render",
-      value: function render() {}
     }]);
 
     return KommunPage;

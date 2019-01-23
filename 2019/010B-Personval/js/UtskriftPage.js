@@ -63,9 +63,6 @@ UtskriftPage = function (_Page) {
       }
       return res;
     }
-
-    //	showSelectedPersons : ->
-
   }, {
     key: 'render',
     value: function render() {

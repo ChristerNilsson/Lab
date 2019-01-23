@@ -118,8 +118,9 @@ TypPage = function (_Page) {
       var x, y;
       if (this.selected !== null) {
         push();
+        fc(1);
         textAlign(LEFT, CENTER);
-        textSize(20);
+        textSize(0.4 * pages.personer.h / 17);
         sc();
         var _ref = [pages.partier.x, pages.partier.y + pages.partier.h / 34];
         x = _ref[0];

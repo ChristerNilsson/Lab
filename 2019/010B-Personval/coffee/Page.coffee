@@ -12,6 +12,8 @@ class Page
 		button.page = @
 		@buttons.push button
 
+	render : ->
+
 	draw : ->
 		if @active 
 			@render()

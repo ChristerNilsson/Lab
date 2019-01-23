@@ -28,8 +28,6 @@ class UtskriftPage extends Page
 			res %= 1000000
 		res
 
-#	showSelectedPersons : ->
-
 	render : ->
 		myNode = document.getElementById 'qrcode'
 		myNode.style.position = 'absolute' 
