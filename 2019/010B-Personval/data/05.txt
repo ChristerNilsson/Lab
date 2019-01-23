@@ -525,7 +525,7 @@ C|12451|52|M|Mats Fahlgren|52 år, Lärare/Koordinator f. integration
 C|12496|82|M|Bertil Skogström|82 år, Egen företagare
 C|12439|62|M|Ronnie Dahlqvist|62 år, Poliskommissarie
 C|12889|49|K|Marie Morell|Oppositionsråd, 49 år, Åby
-C|3820|56|M|Per Jameson|Företagare, 56 år,  Kolmården
+C|3820|56|M|Per Jameson|Företagare, 56 år, Kolmården
 C|25577|57|M|Jörgen Rundgren|Företagare, 57 år, Kättsäter
 C|3822|61|M|Jörgen Olofsson|Överläkare, 61 år, Lindö
 C|3821|66|K|Eva Hermansson|Fysioterapeut, 66 år, Saltängen
@@ -692,7 +692,7 @@ C|58714|37|K|Jane Carlsson|37, Politisk sekreterare, Linköping
 C|58719|21|M|Albin Adell Sjöberg|21, Egenföretagare, Linköping
 C|58728|68|K|Kerstin Sagström|68, fd. Lärare vuxenutbildning, Ekkällan
 C|58722|71|K|Agneta Eriksson|71, Pensionär, Tallboda
-C|58717|51|M|Andreas Björklind|51, Psykolog,  T1
+C|58717|51|M|Andreas Björklind|51, Psykolog, T1
 C|72698|31|K|Anna Lindén|32, Linköping
 C|58725|68|M|Ingemar E L Göransson|68 Författare, Linghem
 C|120548|68|K|Monica Ericsson|68, Linköping
@@ -757,7 +757,7 @@ C|57270|69|K|Ingrid Westlund|70, Docent, Finspång
 C|57282|20|K|Lina Persson|21, Frisör, Finspång
 C|57277|24|M|Mohamad Tarek Jalbot|24, Studerande, Finspång
 C|78365|58|K|Margareta Björkman|58, Grundskolelärare, Degerön
-C|57281|63|M|Leif Sundström|64, Systemutvecklare,  Hällestad
+C|57281|63|M|Leif Sundström|64, Systemutvecklare, Hällestad
 C|78367|34|K|Rebecca Roxvret|34, Webredaktör, Borensberg
 C|78368|57|M|Jocke Höglund|57, Politisk sekreterare, Degerön
 C|71582|47|K|Annika Onttonen|46, Ombudsman, Motala

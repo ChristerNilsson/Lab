@@ -11,7 +11,7 @@ class LetterPage extends Page
 
 		i = 0
 		words = (dbPersoner[rkl][key][2] for key in personer)
-		for letters,n of gruppera words,N
+		for letters,n of gruppera words,N+N
 			x = @x + w*(i//N)
 			y = @y + h*(1+i%N)
 			title = if letters.length == 1 then letters else "#{letters[0]}-#{_.last letters}"

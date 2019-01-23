@@ -133,7 +133,7 @@ C|32098|28|M|Jona Albertsson|28 år, församlingspedagog, Centrum
 C|31779|25|K|Emmely Persson|25 år, Flygvärdinna, Ängelholm
 C|32100|20|M|Jakob Trägårdh|20 år, studerande, Centrum
 C|32101|44|K|Maria Hedman|44 år, sjuksköterska, Tåstarp
-C|32102|53|M|Johan Claesson|53 år, begravningsentreprenör,           Södra Utmarken
+C|32102|53|M|Johan Claesson|53 år, begravningsentreprenör, Södra Utmarken
 C|32103|39|K|Lena Carmryd|39 år, förskollärare, Centrum
 C|32104|47|K|Kristina Henriksson|47 år, trädgårdsmästare, Luntertun
 C|32105|50|M|Carl Einarsson|50 år, säljare, Höja

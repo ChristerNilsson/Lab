@@ -25,11 +25,6 @@ ANT_BEST_VALS = 21
 VALBAR_PÅ_VALDAGEN = 22
 GILTIG = 23
 
-# def skapaFil(namn,parti,lst):
-# 	file = open('data/'+namn+'.txt', mode='w')
-# 	file.write("\n".join(lst))
-# 	file.close()
-
 file = open('data/kandidaturer.orig', mode='r')
 lines = file.read()
 file.close()
@@ -38,6 +33,12 @@ hash = {}
 personer = {}
 partier = {}
 områden = {}
+
+# Ersätt dubbla mellanslag med enkla
+n = 0
+while n != len(lines):
+	n = len(lines)
+	lines = lines.replace('  ',' ')
 
 lines = lines.split("\n")
 for line in lines:

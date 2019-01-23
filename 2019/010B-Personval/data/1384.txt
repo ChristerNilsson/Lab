@@ -299,7 +299,7 @@ C|13243|42|M|Jon Thorbjörnson|lärare, 42 år, Kungsbacka
 C|26607|55|M|Pabel Aguilar|55 år, ekonom, Kungsbacka
 C|19221|71|M|Hans Webeck|71 år, pensionär, Frillesås
 C|13326|71|M|Lothar Karnert|pensionär, 71 år, Kungsbacka
-C|19223|69|M|Jan-Christer Jansson|69 år, pensionär/              f.d. gymnasielärare, Åsa
+C|19223|69|M|Jan-Christer Jansson|69 år, pensionär/ f.d. gymnasielärare, Åsa
 C|19224|64|K|Violet Dunér|63 år, speciallärare, Kungsbacka
 C|19225|57|K|Monica Karnert|57 år, musiklärare, Kungsbacka
-C|19226|71|M|Gunnar Frii Johansson|71 år, pensionär/          f.d. klassmorfar, Fjärås
+C|19226|71|M|Gunnar Frii Johansson|71 år, pensionär/ f.d. klassmorfar, Fjärås

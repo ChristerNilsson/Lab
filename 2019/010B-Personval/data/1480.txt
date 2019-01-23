@@ -481,7 +481,7 @@ C|188433|41|K|Frida Westler|41 år Haga
 C|188434|70|M|Ove Bregeus|70 år Långedrag
 C|188435|55|M|Roger Andersson|55 år Centrum
 C|188436|43|M|Carl Heldtander|43 år Johanneberg
-C|91951|78|M|Henry Törnqvist|Företagsekonom,                                    Medborgarpartiet Göteborg
+C|91951|78|M|Henry Törnqvist|Företagsekonom, Medborgarpartiet Göteborg
 C|188438|46|M|Lars Andréasson|46 år Västra Frölunda
 C|188439|71|M|Bertil Zetherström|71 år Billdal
 C|188440|64|M|Göran Brink|64 år Hisings Backa

@@ -137,7 +137,7 @@ C|28869|69|K|Carin Thaning|69 år, sjuksköterska
 C|28871|38|M|Dennis Örnebjär|39 år, senior software designer
 C|28872|18|K|Rim Winssi|18 år, student
 C|28873|22|K|Veronica Majersky|23 år, barnskötare
-C|28874|81|K|Katrin Tensmyr|81 år,  personalkonsulent
+C|28874|81|K|Katrin Tensmyr|81 år, personalkonsulent
 C|28875|52|M|Fredrik Hellman|52 år, strategisk inköpare, Ekeby
 C|28876|68|M|Curt-Arne Gisleskog|68 år, trafikplanerare
 C|28877|55|M|Ouro Esso-Nimini|55 år, egenföretagare

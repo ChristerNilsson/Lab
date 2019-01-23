@@ -266,7 +266,7 @@ C|97709|60|M|Olle Jansson|60, Kommunalråd, Norrtälje
 C|97710|47|K|Annica Gryhed|47, Kommunalråd, Täby
 C|71214|38|M|Anas Abdullah|38, Egenföretagare, Österåker
 C|97712|64|K|Anette Jellve|64, Administratör, Danderyd
-C|97713|58|M|Lars Frid|58, Kock,  Österåker
+C|97713|58|M|Lars Frid|58, Kock, Österåker
 C|97714|68|K|Kristina Embäck|68, Pensionär, Österåker
 C|97715|25|M|Erland Arctaedius|25, Programmerare, Täby
 C|97716|73|K|Margareta Olin|73, Fd kommunalråd, Fd kanslichef, Österåker
@@ -385,7 +385,7 @@ C|78401|69|M|Anders Olander|69, Norrtälje, Kommunalråd
 C|121796|35|M|Mikael Schmidt|35, Upplands Väsby, Enhetschef rättspsykiatri
 C|113310|59|K|Doris Vesterlund|59, Järfälla, Verksamhetsutvecklare
 C|123474|67|M|Kjell-Erik Börjesson|67, Ekerö, Folkhögskolerektor
-C|123475|73|K|Christina Brofalk|73,  Upplands-Bro, Företagare
+C|123475|73|K|Christina Brofalk|73, Upplands-Bro, Företagare
 C|76947|71|M|Erik Östman|71, Järfälla, Egen företagare
 C|123477|52|M|Ricard Wikman Koljo|52, Kungsängen, Projektledare
 C|123478|65|K|Marie Unander-Scharin|65, Sigtuna, Prevention- och säkerhetssamordnare
@@ -535,7 +535,7 @@ C|164159|39|K|Camilla Brodin|39, Kommunalråd, Täby
 C|157088|38|M|Marcus Jonsson|38, Opinionsstrateg, Sundbyberg
 C|158244|77|M|Håkan Paulson|77, Civilingenjör, Salem
 C|164165|46|K|Eva von Wowern|46, Kanslichef, Täby
-C|154403|59|K|Christina Blom  Andersson|59, Kost och näringsekonom, Ekerö
+C|154403|59|K|Christina Blom Andersson|59, Kost och näringsekonom, Ekerö
 C|162861|28|M|Carl-Johan Schiller|28, Kommunalråd, Lidingö
 C|149443|44|K|Camilla Frejman|44, Egenföretagare, Botkyrka
 C|162525|57|K|Antonella Pirrone|57, Förbundssekreterare, Nynäshamn

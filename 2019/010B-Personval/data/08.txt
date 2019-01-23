@@ -71,7 +71,7 @@ C|9146|72|M|Stig Jaensson|ingenjör, Vimmerby, 72 år
 C|8385|46|K|Emily Palenzuela|undersköterska, Tuna, 46 år
 C|8484|36|K|Lizette Wästerlund|specialpedagog, Hultsfred, 36 år
 C|8485|55|M|Mattias Wärnsberg|försäkringshandläggare, Mörlunda, 55 år
-C|8486|70|K|Britt Wireland Sorpola|pensionär, Hultsfred,  70 år
+C|8486|70|K|Britt Wireland Sorpola|pensionär, Hultsfred, 70 år
 C|8487|63|M|Jonny Bengtsson|vaktmästare, Hultsfred, 63 år
 C|8488|73|K|Inger Loord|pensionär, Målilla, 73 år
 C|8489|51|M|Mikael Lång|boendestödjare/musiker, Hultsfred, 51 år
@@ -106,7 +106,7 @@ C|9636|40|K|Matilda Wärenfalk|lärare, Färjestaden, 40 år
 C|9637|51|M|Ilko Corkovic|civilekonom, Borgholm, 51 år
 C|9638|57|K|Kristina Sjöström|omsorgsassistent, Mörbylånga, 57 år
 C|9639|73|M|Kurt Arvidsson|pensionär, Degerhamn, 73 år
-C|9640|53|K|Cecilia Ahlström|omsorgsassistent, Löttorp,  53 år
+C|9640|53|K|Cecilia Ahlström|omsorgsassistent, Löttorp, 53 år
 C|9641|48|M|Michael Granstedt|simhallschef, Färjestaden, 48 år
 C|9642|48|K|Valentina Corkovic|undersköterska, Borgholm, 48 år
 C|9643|44|K|Linda Sagemark|undersköterska, Borgholm, 44 år

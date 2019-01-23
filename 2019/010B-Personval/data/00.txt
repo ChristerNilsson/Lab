@@ -831,7 +831,7 @@ C|29164|44|K|Stina Bolin fd.Michelson|44 år, Ljusdal
 C|29165|52|M|Peter Kärnström|52 år, Sandviken
 C|29166|57|K|Lena Sundh Berglund|57 år, Bollnäs
 C|29167|43|M|Johannes Tyve|43 år, Söderhamn
-C|105254|61|M|Stefan Löfven|61 år,  Stockholm
+C|105254|61|M|Stefan Löfven|61 år, Stockholm
 C|10194|53|K|Kristina Nilsson|53 år, Örnsköldsvik
 C|105256|62|M|Ingemar Nilsson|62 år, Sundsvall
 C|45341|38|K|Malin Larsson|38 år, Stöde

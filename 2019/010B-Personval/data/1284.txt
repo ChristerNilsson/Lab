@@ -93,7 +93,7 @@ C|55170|75|M|Harry Vagiström|Höganäs
 C|19820|40|M|Johan Ingvarson|Brandingenjör, 40 år, Nyhamnsläge
 C|155425|65|K|Barbro Stigsdotter|socionom, 65 år, Höganäs
 C|155426|69|M|Göran Lock|arkitekt, 69 år, Arild
-C|155427|64|K|Liselott Hansson Malmsten|administratör,         64 år, Höganäs
+C|155427|64|K|Liselott Hansson Malmsten|administratör, 64 år, Höganäs
 C|155428|43|K|Maria Jönsson|civilekonom, 43 år, Höganäs
 C|22068|64|M|Ingemar Hertting|Rektor, 64 år, Lerberget
 C|22088|37|K|Ann-Cathrin Hellsén|Utvecklingsingenjör, 37 år, Höganäs

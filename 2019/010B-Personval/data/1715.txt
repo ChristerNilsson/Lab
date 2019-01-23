@@ -46,22 +46,22 @@ C|28514|71|M|Göran Andersson|Kil
 C|28515|59|M|Mats Sandström|59 år, Kil
 C|27181|68|M|Georg Forsberg|68 år, kommunalråd, Frykerud
 C|27182|57|K|Eva Frykenberger|Kil, 57 år, Personligt ombud
-C|27183|75|M|Björn Tolén|75 år, företagare,  Kil
+C|27183|75|M|Björn Tolén|75 år, företagare, Kil
 C|27184|30|K|Elin Lindahl Andersson|Kil, 31 år, Lärare
 C|27185|62|M|Berndt Björkman|62 år, lantbrukare, Frykerud
 C|27186|64|K|Berith Larsson|Kil, 63 år, HR-konsult
 C|27187|66|M|Inge Gustafsson|66 år, entreprenör, Boda
 C|27188|48|K|Marina Kedemark|48 år, lärare, Kil
-C|27189|66|M|Kenneth Bengtsson|66 år, företagskonsult,  Frykerud
+C|27189|66|M|Kenneth Bengtsson|66 år, företagskonsult, Frykerud
 C|27190|73|M|Peter Pettersson|73 år, lantmästare, Kil
-C|27191|65|K|Inger Hansen Gustafsson|65 år, lantarbetare,  Boda
+C|27191|65|K|Inger Hansen Gustafsson|65 år, lantarbetare, Boda
 C|27192|47|M|Torbjörn Karlström|47 år, chaufför, Frykerud
 C|27193|65|M|Johnny Skytte|65 år, lantbrukare, Kil
 C|27194|29|M|Johan Press|29 år, lantbruksarbetare, Frykerud
 C|27195|21|M|Oskar Krööse|21 år, markarbetare, Kil
-C|27196|72|K|Ulla-Britt Dagom|71 år, vårdlärare,  Boda
-C|27197|48|M|Henrik Ohlsson|48 år,  elektriker,  Kil
-C|27198|38|M|Erik Forsberg|38 år, lantbrukare,  Frykerud
+C|27196|72|K|Ulla-Britt Dagom|71 år, vårdlärare, Boda
+C|27197|48|M|Henrik Ohlsson|48 år, elektriker, Kil
+C|27198|38|M|Erik Forsberg|38 år, lantbrukare, Frykerud
 C|27199|59|K|Kerstin Press|59 år, chaufför, Frykerud
 C|27200|75|M|Björn Karlsson|75 år, byggnadsingenjör, Kil
 C|27201|75|M|Bertil Ottosson|75 år, företagare, Boda

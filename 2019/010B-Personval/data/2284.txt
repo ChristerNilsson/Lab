@@ -97,7 +97,7 @@ C|10205|60|M|Torbjörn Vestman|60 år, Mobilkranförare, Örnsköldsvik
 C|10206|43|K|Ann-Sofie Karlsson Ågren|43 år, Undersköterska, Örnsköldsvik
 C|10207|20|M|Tobias Hermansson|20 år, Studerande, Örnsköldsvik
 C|10208|72|K|Lena Kvarnström|72 år, Pensionär, Brösta
-C|10209|23|M|Welat Acar|23 år,  Studerande, Örnsköldsvik
+C|10209|23|M|Welat Acar|23 år, Studerande, Örnsköldsvik
 C|10210|46|K|Cina Flarke|46 år, Pedagog, Örnsköldsvik
 C|10211|57|M|Örjan Forsberg|57 år, Fritidskonsulent, Husum
 C|10212|53|K|Britt-Inger Staaf|53 år, Vårdare, Björna

@@ -299,7 +299,7 @@ C|3816|25|M|Edin Maslesa|Ingenjörsstudent, 25 år, Klockaretorpet
 C|3817|69|M|Anders Magnusson|Civilekonom, 69 år, Skarphagen
 C|3818|52|M|Lars Ahlm|Handläggare, 52 år, Skärblacka
 C|3819|67|M|Jan Owe-Larsson|Företagare, 67 år, Lindö
-C|3820|56|M|Per Jameson|Företagare, 56 år,  Kolmården
+C|3820|56|M|Per Jameson|Företagare, 56 år, Kolmården
 C|3821|66|K|Eva Hermansson|Fysioterapeut, 66 år, Saltängen
 C|3822|61|M|Jörgen Olofsson|Överläkare, 61 år, Lindö
 C|3823|76|K|Helena-Ilona Andersson|Civilingenjör, 76 år, Eksund

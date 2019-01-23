@@ -1179,19 +1179,19 @@ C|254378|22|M|Victor Albertsson Tidestedt|22, Lantbrukare/gymnasielärare, Gulls
 C|394197|39|M|Fredrik Vejdeland|39 år, byggnadsarbetare, Kungälv
 C|394205|28|M|Jimmy Andersson|28 år, lantbrukare, Skara
 C|394209|26|M|Simon Engelin|26 år, träindustriarbetare, Göteborg
-C|2823|67|K|Maj-Britt Elmvik|Apotekare,Öresjö,                        Trollhättans Framtid
-C|9658|61|K|Ann-Charlott Gustafsson|Företagare,           Uddevallapartiet
-C|2911|56|M|Anders Månsson|Mättekniker Lundsbrunn,               Götenes Framtid
-C|2920|61|K|Merja Henning|Överläkare,                                   Uddevallapartiet
-C|2922|50|M|Dan-Axel Möllengård|Politisk entreprenör,           Trollhättans Framtid
-C|56563|70|M|Morgan Larsson|Företagare,                                              Medborgarpartiet Vänersborg
-C|2918|66|M|Richard Bergström|Egen företagare,            Uddevallapartiet
-C|2914|66|M|Leif C Dahl|Entreprenör,                                        Färgelanda
-C|91955|71|M|Kalle Wennerberg|Påverkare,                                            Skara
-C|91951|78|M|Henry Törnqvist|Företagsekonom,                                    Medborgarpartiet Göteborg
-C|45669|74|M|Stein Rukin|Jurist,                                                           Jour Strömstad
-C|3900|46|K|Hanna Tolge|Läkare,Veterinär,                           Trollhättans Framtid
-C|2921|79|K|Britt Hallgren|Pensionär,                                     Trollhättans Framtid
+C|2823|67|K|Maj-Britt Elmvik|Apotekare,Öresjö, Trollhättans Framtid
+C|9658|61|K|Ann-Charlott Gustafsson|Företagare, Uddevallapartiet
+C|2911|56|M|Anders Månsson|Mättekniker Lundsbrunn, Götenes Framtid
+C|2920|61|K|Merja Henning|Överläkare, Uddevallapartiet
+C|2922|50|M|Dan-Axel Möllengård|Politisk entreprenör, Trollhättans Framtid
+C|56563|70|M|Morgan Larsson|Företagare, Medborgarpartiet Vänersborg
+C|2918|66|M|Richard Bergström|Egen företagare, Uddevallapartiet
+C|2914|66|M|Leif C Dahl|Entreprenör, Färgelanda
+C|91955|71|M|Kalle Wennerberg|Påverkare, Skara
+C|91951|78|M|Henry Törnqvist|Företagsekonom, Medborgarpartiet Göteborg
+C|45669|74|M|Stein Rukin|Jurist, Jour Strömstad
+C|3900|46|K|Hanna Tolge|Läkare,Veterinär, Trollhättans Framtid
+C|2921|79|K|Britt Hallgren|Pensionär, Trollhättans Framtid
 C|15449|37|K|Manal Keryo|Utredare,Uddevallapartiet
 C|2924|57|M|Kent Andreasson|Egenföretagare,Uddevallapartiet
 C|15451|70|K|Eva Johansson|Usk,Nordmanneröd, Uddevallapartiet

@@ -230,9 +230,9 @@ C|68525|70|M|Bo Antonsson|70, Politisk Sekreterare, Ljungskile
 C|68526|63|K|Dorota Hjoberg Carlson|63 år, Pensionär, Bokenäset
 C|68527|57|M|Alexander Blagojevic|57 år, Ramneröd
 C|513708|53|M|Leif Frisk|
-C|9658|61|K|Ann-Charlott Gustafsson|Företagare,           Uddevallapartiet
+C|9658|61|K|Ann-Charlott Gustafsson|Företagare, Uddevallapartiet
 C|58832|62|M|Christer Hasslebäck|Civilingenjör
-C|2920|61|K|Merja Henning|Överläkare,                                   Uddevallapartiet
+C|2920|61|K|Merja Henning|Överläkare, Uddevallapartiet
 C|58834|73|M|Bjarne Rehnberg|Pensionär
 C|58835|45|K|Caroline Henriksson|Studerande
 C|2924|57|M|Kent Andreasson|Egenföretagare,Uddevallapartiet
@@ -241,7 +241,7 @@ C|58838|46|M|Lars Olsson|Undersköterska
 C|15449|37|K|Manal Keryo|Utredare,Uddevallapartiet
 C|58840|66|M|Kenth Johansson|Civilingenjör
 C|2919|38|M|Joakim Persson|Nätverkstekniker,Uddevallapartiet
-C|2918|66|M|Richard Bergström|Egen företagare,            Uddevallapartiet
+C|2918|66|M|Richard Bergström|Egen företagare, Uddevallapartiet
 C|2908|74|M|Ingvar Lindsta|Byggnadsingenjör,Uddevallapartiet
 C|15451|70|K|Eva Johansson|Usk,Nordmanneröd, Uddevallapartiet
 C|2917|75|M|Thomas Eriksson|Överläkare

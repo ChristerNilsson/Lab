@@ -957,7 +957,7 @@ C|66881|67|M|Arne Nilsson|Reseproducent, 67 år
 C|82366|79|M|Kjell Lindström|Pensionär, 78 år
 C|67000|59|M|Lars-Erik Larsson|Bussförare, 59 år
 C|274858|74|K|Agneta Backson|Pensionär, 74 år
-C|66897|70|K|Barbara Demorit|Pensionär, 70 år  år
+C|66897|70|K|Barbara Demorit|Pensionär, 70 år år
 C|66997|51|M|Tomas Landgren|Tekniker, 51 år
 C|106796|56|K|Titti Swenson|Socionom, 57 år
 C|66889|60|M|Karl Kårebrant|Ingenjör, 61 år

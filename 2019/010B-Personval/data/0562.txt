@@ -151,7 +151,7 @@ C|79419|53|M|Stefan Edengren|53 år, Grytgöl
 C|57269|48|M|Stefan Carlsson|48, Utbildningsråd, Finspång
 C|57270|69|K|Ingrid Westlund|70, Docent, Finspång
 C|57271|58|M|Conny Lindgren|58, Lärare, Finspång
-C|57272|59|K|Maud Karlsson|59,  Stödpedagog, Regna
+C|57272|59|K|Maud Karlsson|59, Stödpedagog, Regna
 C|57273|71|M|Christer Nyberg|72, Egenföretagare, Regna
 C|57274|63|K|Leila Martiila|63, Undersköterska, Finspång
 C|57275|28|M|Joakim Randy Hansen|28, Elevassistent
@@ -160,7 +160,7 @@ C|57277|24|M|Mohamad Tarek Jalbot|24, Studerande, Finspång
 C|57278|53|K|Anna Hellerstedt|53, Lärare
 C|57279|57|M|Stefan Gustafsson|58, Metallarbetare
 C|57280|34|K|Nina Öberg|34, Beredskapssamordnare
-C|57281|63|M|Leif Sundström|64, Systemutvecklare,  Hällestad
+C|57281|63|M|Leif Sundström|64, Systemutvecklare, Hällestad
 C|57282|20|K|Lina Persson|21, Frisör, Finspång
 C|57283|58|M|Dennis Olsen|58, Förrådsarbetare
 C|57284|67|K|Margareta Bengtsson|67, Förskollärare

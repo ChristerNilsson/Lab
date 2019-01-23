@@ -44,7 +44,7 @@ LetterPage = function (_Page) {
         }
         return results;
       }();
-      ref = gruppera(words, N);
+      ref = gruppera(words, N + N);
       results = [];
       for (letters in ref) {
         n = ref[letters];

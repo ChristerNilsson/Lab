@@ -74,7 +74,7 @@ C|35289|52|K|Marie Andersson|52 år, cafébiträde, Sil
 C|35290|82|M|Karl-Gustav Andersson|82 år, pensionär, Sil
 C|35291|80|K|Kerstin Karlsson|80 år, fd förskollärare, Sil
 C|35292|72|M|Lars-Olof Carlson|71 år, socionom, Götene
-C|35293|73|K|Inger Kindberg|73  år, pensionär, Götene
+C|35293|73|K|Inger Kindberg|73 år, pensionär, Götene
 C|35294|44|M|Roger Börjesson|44 år, teamledare/stödassistent, Götene
 C|35295|45|K|Ingela Bly|45 år, lärare, Göttorp
 C|3210|59|K|Susanne Andersson|Oppositionsråd,Götene, 59 år
@@ -104,7 +104,7 @@ C|13035|22|M|Oskar Lundgren|Studerande, Broby, 22 år
 C|13036|53|M|Lars Olsmark|Mångsysslare, Götene, 53 år
 C|13037|67|K|HildSophie Gustafsson|Pensionär, Husaby, 67 år
 C|515548|62|K|Birgitta Karlsson|
-C|2911|56|M|Anders Månsson|Mättekniker Lundsbrunn,               Götenes Framtid
+C|2911|56|M|Anders Månsson|Mättekniker Lundsbrunn, Götenes Framtid
 C|415095|56|M|Clemens Nordentoft|57 år, snickare, Hällekis
 C|415096|26|M|Johan Månsson|26 år, säljare/skribent, Källby
 C|415097|59|M|Håkan Ernklev|59 år, egenföretagare, Lundsbrunn

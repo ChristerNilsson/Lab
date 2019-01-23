@@ -73,7 +73,7 @@ C|231810|49|K|Cecilia Lundin Danielsson|Gymnasielärare, 49, Ingelstad
 C|231789|47|M|Martin Edberg|Förtroendevald, 47, Åryd
 C|227565|65|K|Ros-Marie Larsson|Pensionär, 66, Alvesta
 C|231400|65|M|Tomas Blomster|Svetsare, 65, Urshult
-C|231912|35|K|Patricia Schooner|Lärare, 35,  Älmhult
+C|231912|35|K|Patricia Schooner|Lärare, 35, Älmhult
 C|231813|43|M|Henrik Vahldiek|IT-tekniker, 43, Växjö
 C|229135|54|K|Anette Bjers Gustavsson|Undersköterska, 54, Ryssby
 C|228550|56|M|Lars Altgård|Ingenjör, 56, Lessebo

@@ -408,8 +408,8 @@ C|58713|37|M|Björn Alling|37, Fysikforskare, Skäggetorp
 C|58714|37|K|Jane Carlsson|37, Politisk sekreterare, Linköping
 C|58715|34|M|Fredrik Hasselgren|34, Stödassistent, Innerstaden
 C|58716|71|K|Eva Lindblad|71, Pensionär,Ulrika
-C|58717|51|M|Andreas Björklind|51, Psykolog,  T1
-C|58718|19|K|Ronnie Eriksson|19, Student,  Ryd
+C|58717|51|M|Andreas Björklind|51, Psykolog, T1
+C|58718|19|K|Ronnie Eriksson|19, Student, Ryd
 C|58719|21|M|Albin Adell Sjöberg|21, Egenföretagare, Linköping
 C|58720|28|K|Klara von Eckardstein|28, Socialsekreterare, T1
 C|58721|32|M|Martin Ackerfors|32, Bibliotekarie, Ljungsbro

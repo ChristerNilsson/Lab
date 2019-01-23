@@ -127,7 +127,7 @@ C|302455|54|K|Carola Andersson|54 år, Fabriksarbetare, Sävar
 C|302458|31|M|Jonas Gustavsson|31 år, VVS-montör, Umeå/Brattby
 C|193460|58|K|Titti Ådén|58 år, Grafiker, Umeå
 C|302460|73|M|Bengt Holm|73 år, Pensionär, Sävar
-C|302459|53|K|Birgitta Jonsson|53 år,  Leg Sjuksköterska, Bullmark
+C|302459|53|K|Birgitta Jonsson|53 år, Leg Sjuksköterska, Bullmark
 C|302462|60|M|Glenn Sjöström|60 år, IT/vaktmästare, Backen
 C|302461|57|K|Kerstin Hermansson Morén|57 år, EU-samordnare, Teg
 C|302464|52|M|Mikael Danielsson|52 år, Ombudsman, Obbola
@@ -233,7 +233,7 @@ C|47495|71|M|Roger Sandström|71 år, Lantbrukare, Stöcksjö
 C|47496|64|M|Per-Gunnar Olofsson|64 år, Landsbygdslobbyist, Tavelsjö
 C|47497|74|K|Margareta Sandeström|74 år, Kanslist, Böle
 C|47498|78|M|Tord Renström|78 år, Byggnadsinspektör, Holmsund
-C|47499|22|K|Alexandra Nelson Blixt|22 år, Filosofistuderande,  Mariehem
+C|47499|22|K|Alexandra Nelson Blixt|22 år, Filosofistuderande, Mariehem
 C|47500|38|M|Morgan Edstedt|38 år, Studerande, Ålidhem
 C|47501|37|M|Erik Weinehall|37 år, Mekaniker, Tavelsjö
 C|47502|68|M|Lars Ove Renberg|68 år, Ekonom, Dragonfältet
