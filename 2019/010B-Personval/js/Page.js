@@ -56,20 +56,18 @@ Page = function () {
   }, {
     key: "mousePressed",
     value: function mousePressed() {
-      var button, i, len, ref, results;
+      var button, i, len, ref;
       if (this.active) {
         ref = this.buttons;
-        results = [];
         for (i = 0, len = ref.length; i < len; i++) {
           button = ref[i];
           if (button.inside(mouseX, mouseY)) {
-            results.push(button.click());
-          } else {
-            results.push(void 0);
+            button.click();
+            return true;
           }
         }
-        return results;
       }
+      return false;
     }
   }]);
 

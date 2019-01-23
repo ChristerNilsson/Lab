@@ -12,6 +12,8 @@ dbKommun   = {}
 
 pages = {}
 
+pressed = false 
+
 makeFreq = (words) -> # personer är en lista
 	res = {}
 	words.sort()
@@ -248,6 +250,8 @@ setup = ->
 	pages.typ.buttons[1].title = dbName.L
 	pages.typ.buttons[2].title = dbName.K
 
+	print _.keys pages 
+
 draw = ->	
 	bg 0
 	if _.size pages < 6 then return 
@@ -260,6 +264,9 @@ draw = ->
 		for key,page of pages 
 			page.draw()
 
+# Denna konstruktion nödvändig eftersom klick på Motala ger Utskrift.
+# Dvs ett klick tolkas som två. 
 mousePressed = -> 
-	for key,page of pages 
-		page.mousePressed()
+	ps = (page for key,page of pages when page.active)
+	for page in ps
+		if page.mousePressed() then return

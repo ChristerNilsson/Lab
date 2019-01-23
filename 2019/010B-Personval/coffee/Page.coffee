@@ -23,5 +23,8 @@ class Page
 	mousePressed : ->
 		if @active 
 			for button in @buttons
-				if button.inside mouseX,mouseY then button.click()
+				if button.inside mouseX,mouseY 
+					button.click()
+					return true
+		false 
 
