@@ -35,9 +35,9 @@ PersonPage = function () {
         if (selected !== null) {
           push();
           textAlign(LEFT, CENTER);
-          textSize(0.4 * pp.h / 17);
+          textSize(0.4 * pp.h / (N + 1));
           rlk = pages.rlk.selected.rlk;
-          namn = dbPartier[rlk][selected.partikod][1];
+          namn = dbPartier[rlk][selected.partikod][PARTI_BETECKNING];
           s = namn + ' (' + pp.buttons.length + ' av ' + _.size(pp.personer) + ')';
           fc(1);
           text(s, pp.x, pp.y + pp.h / 34);
@@ -52,13 +52,14 @@ PersonPage = function () {
         var h, i, j, knr, len, person, ref, results, w, x, y;
         this.personer = knrs;
         N = PERSONS_PER_PAGE;
-        w = 0.72 * width;
+        w = this.w;
         h = height / (PERSONS_PER_PAGE + 1);
         this.selected = button;
         button.pageNo = (button.pageNo + 1) % button.pages;
         this.buttons = [];
+        print(PERSON_NAMN);
         knrs.sort(function (a, b) {
-          if (dbPersoner[rlk][a][2] < dbPersoner[rlk][b][2]) {
+          if (dbPersoner[rlk][a][PERSON_NAMN] < dbPersoner[rlk][b][PERSON_NAMN]) {
             return -1;
           } else {
             return 1;
@@ -69,13 +70,12 @@ PersonPage = function () {
         for (i = 0, len = knrs.length; i < len; i++) {
           knr = knrs[i];
           person = dbPersoner[rlk][knr];
-          if (ref = person[2][0], indexOf.call(letters, ref) >= 0) {
+          if (ref = person[PERSON_NAMN][0], indexOf.call(letters, ref) >= 0) {
             if (Math.floor(j / N) === button.pageNo) {
-              x = Math.floor(j / N) * w;
-              x = x % w;
+              x = 0;
               y = h * (1 + j % N);
               (function (knr) {
-                return _this2.addButton(new PersonButton(rlk, partikod, knr, _this2.x + x, _this2.y + y, w / 2 - 2, h - 2, function () {
+                return _this2.addButton(new PersonButton(rlk, partikod, knr, _this2.x + x, _this2.y + y, w - 2, h - 2, function () {
                   this.page.selected = this;
                   return pages.rlk.clickPersonButton([partikod, knr]);
                 }));
@@ -93,15 +93,15 @@ PersonPage = function () {
       value: function makePersons(rlk, button, partikod, knrs) {
         var _this3 = this;
 
-        // personer är en lista med knr
+        // knrs är en lista med knr
         var h, i, j, knr, len, results, w, x, y;
         this.personer = knrs;
-        w = 0.72 * width;
+        w = this.w;
         h = height / (PERSONS_PER_PAGE + 1);
         this.selected = button;
         this.buttons = [];
         knrs.sort(function (a, b) {
-          if (dbPersoner[rlk][a][2] < dbPersoner[rlk][b][2]) {
+          if (dbPersoner[rlk][a][PERSON_NAMN] < dbPersoner[rlk][b][PERSON_NAMN]) {
             return -1;
           } else {
             return 1;
@@ -110,11 +110,10 @@ PersonPage = function () {
         results = [];
         for (j = i = 0, len = knrs.length; i < len; j = ++i) {
           knr = knrs[j];
-          x = Math.floor(j / N) * w;
-          x = x % w;
+          x = 0;
           y = h * (1 + j % N);
           results.push(function (knr) {
-            return _this3.addButton(new PersonButton(rlk, partikod, knr, _this3.x + x, _this3.y + y, w / 2 - 2, h - 2, function () {
+            return _this3.addButton(new PersonButton(rlk, partikod, knr, _this3.x + x, _this3.y + y, w - 2, h - 2, function () {
               this.page.selected = this;
               return pages.rlk.clickPersonButton([partikod, knr]);
             }));
@@ -150,8 +149,8 @@ PersonButton = function (_Button) {
     _this4.partikod = partikod1;
     _this4.knr = knr;
     person = dbPersoner[_this4.rlk][knr];
-    _this4.title0 = person[2];
-    _this4.title1 = person[3];
+    _this4.title0 = person[PERSON_NAMN];
+    _this4.title1 = person[PERSON_UPPGIFT];
     if (_this4.title1 === '') {
       _this4.title1 = {
         M: 'Man',

@@ -11,7 +11,8 @@ class LetterPage extends Page
 		@buttons = []
 
 		i = 0
-		words = (dbPersoner[rlk][key][2] for key in personer)
+		words = (dbPersoner[rlk][key][PERSON_NAMN] for key in personer)
+		print gruppera words,N
 		for letters,n of gruppera words,N
 			x = @x + w*(i//N)
 			y = @y + h*(1+i%N)
@@ -42,7 +43,7 @@ class LetterButton extends Button
 
 	pageIndicator : ->
 		if @pages <= 1 then return 
-		r = 3
+		r = 0.003 * height
 		dx = (@w-2*r*@pages)/(@pages+1)
 		for i in range @pages
 			if i==@pageNo and @page.selected == @ then fc 1 else fc 0

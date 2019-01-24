@@ -107,9 +107,9 @@ PartiButton = function (_Button) {
       } else {
         fc(1);
       }
-      partinamn = dbPartier[this.rlk][this.partikod][0];
+      partinamn = dbPartier[this.rlk][this.partikod][PARTI_FÖRKORTNING];
       if (partinamn === '') {
-        partinamn = dbPartier[this.rlk][this.partikod][1];
+        partinamn = dbPartier[this.rlk][this.partikod][PARTI_BETECKNING];
       }
       return text(partinamn, this.x + this.w / 2, this.y + this.h / 2);
     }

@@ -295,13 +295,13 @@ RLKPage = function (_Page) {
         rectMode(CORNER);
         y0 = this.yoff[i];
         if (i === 0) {
-          fc(1, 1, 0.5);
+          fc(1, 1, 0.5); // gul 
         }
         if (i === 1) {
-          fc(0.5, 0.75, 1);
+          fc(0.5, 0.75, 1); // blå
         }
         if (i === 2) {
-          fc(1);
+          fc(1); // vit
         }
         h = height / 51;
         rect(this.x, y0 + 3 * h - 1, this.w, 13 * h - 1);
@@ -319,8 +319,8 @@ RLKPage = function (_Page) {
           partikod = _pair4[0];
           knr = _pair4[1];
 
-          parti = dbPartier[rlk][partikod][0];
-          namn = knr === 0 ? dbPartier[rlk][partikod][1] : dbPersoner[rlk][knr][2];
+          parti = dbPartier[rlk][partikod][PARTI_FÖRKORTNING];
+          namn = knr === 0 ? dbPartier[rlk][partikod][PARTI_BETECKNING] : dbPersoner[rlk][knr][PERSON_NAMN];
           text(j + 1 + ' ' + parti + ' - ' + namn, this.x + 10, y);
         }
       }

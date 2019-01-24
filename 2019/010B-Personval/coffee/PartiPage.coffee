@@ -1,6 +1,6 @@
 class PartiPage extends Page
 	N = 16
-	
+
 	render : ->
 		@bg 0
 
@@ -39,7 +39,7 @@ class PartiButton extends Button
 		textSize @ts
 		textAlign CENTER,CENTER
 		if @page.selected == @ then fc 1,1,0 else fc 1
-		partinamn = dbPartier[@rlk][@partikod][0]
-		if partinamn == '' then partinamn = dbPartier[@rlk][@partikod][1]
+		partinamn = dbPartier[@rlk][@partikod][PARTI_FÖRKORTNING]
+		if partinamn == '' then partinamn = dbPartier[@rlk][@partikod][PARTI_BETECKNING]
 
 		text partinamn,@x+@w/2,@y+@h/2

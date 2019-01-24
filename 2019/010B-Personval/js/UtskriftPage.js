@@ -92,11 +92,11 @@ UtskriftPage = function (_Page) {
           partikod = _pair2[0];
           knr = _pair2[1];
 
-          partinamn = dbPartier[rlk][partikod][1];
+          partinamn = dbPartier[rlk][partikod][PARTI_BETECKNING];
           if (knr === 0) {
             personnamn = '';
           } else {
-            personnamn = dbPersoner[rlk][knr][2];
+            personnamn = dbPersoner[rlk][knr][PERSON_NAMN];
           }
           y = [0, 0.3 * h, 0.6 * h][i] + 0.04 * h + 0.05 * h * j;
           if (j === 0) {

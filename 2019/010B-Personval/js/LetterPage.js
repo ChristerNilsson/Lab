@@ -42,10 +42,11 @@ LetterPage = function (_Page) {
         results = [];
         for (j = 0, len = personer.length; j < len; j++) {
           key = personer[j];
-          results.push(dbPersoner[rlk][key][2]);
+          results.push(dbPersoner[rlk][key][PERSON_NAMN]);
         }
         return results;
       }();
+      print(gruppera(words, N));
       ref = gruppera(words, N);
       results = [];
       for (letters in ref) {
@@ -109,7 +110,7 @@ LetterButton = function (_Button) {
       if (this.pages <= 1) {
         return;
       }
-      r = 3;
+      r = 0.003 * height;
       dx = (this.w - 2 * r * this.pages) / (this.pages + 1);
       ref = range(this.pages);
       results = [];

@@ -149,9 +149,9 @@ class RLKPage extends Page # Riksdag, Landsting, Kommun
 			sw 1 
 			rectMode CORNER
 			y0 = @yoff[i]
-			if i == 0 then fc 1,1,0.5
-			if i == 1 then fc 0.5,0.75,1
-			if i == 2 then fc 1
+			if i == 0 then fc 1,1,0.5     # gul 
+			if i == 1 then fc 0.5,0.75,1  # blå
+			if i == 2 then fc 1           # vit
 			h = height/51
 			rect @x, y0+3*h-1, @w, 13*h-1
 			fc 0
@@ -161,8 +161,8 @@ class RLKPage extends Page # Riksdag, Landsting, Kommun
 			for pair,j in @selectedPersons[rlk]
 				y = y0 + 4.5*h + 13*h/5*j
 				[partikod,knr] = pair
-				parti = dbPartier[rlk][partikod][0]
-				namn = if knr == 0 then dbPartier[rlk][partikod][1] else dbPersoner[rlk][knr][2]
+				parti = dbPartier[rlk][partikod][PARTI_FÖRKORTNING]
+				namn = if knr == 0 then dbPartier[rlk][partikod][PARTI_BETECKNING] else dbPersoner[rlk][knr][PERSON_NAMN]
 				text "#{j+1} #{parti} - #{namn}",@x+10,y
 		pop()
 
