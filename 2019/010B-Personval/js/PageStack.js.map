@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "PageStack.js",
+  "sourceRoot": "..",
+  "sources": [
+    "coffee\\PageStack.coffee"
+  ],
+  "names": [],
+  "mappings": ";;;;;;;AAAA,IAAA;;AAAM,AAAN;AAEC,AAAc;;;AAAG,AAAC,SAAA,AAAD,QAAS,AAAZ;AACd,AAAO;;;;yBAAC,AAAD;aAAU,AAAC,KAAA,AAAK,MAAC,AAAP,KAAY,AAAZ,AAAV;AACP,AAAM;;;;aAAG,AAAC,KAAA,AAAK,MAAC,AAAP,AAAH;AACN,AAAO;;;;aAAG,AAAC,EAAC,AAAF,KAAO,AAAC,KAAA,AAAR,AAAH;AAEP,AAAO;;;2BACN;UAAA,GAAA,MAAA,KAAA,MAAA,KAAA;AAAA,aAAO,AAAC,KAAA,AAAD,AACP;iBAAA;;AAAA,WAAA,kCAAA;;AACC,YAAG,AAAI,KAAC,AAAL,SAAe,SAAQ,AAA1B;AACC,aAAG,AAAH,GAAK,AAAL,GAAO,AAAP,GAAS,AAAT;AACA,eAAK,AAAL,GAAO,AAAP,GAAS,AAAT,OAAe,AAAf,AAFD;;qBAGA,AAAI,KAAC,AAAL,AAJD;AAAA;aAFM;AALP;;;AAeA,AAAe;;;;mCACd;UAAA,GAAA,MAAA,KAAA,MAAA;AAAA,aAAO,AAAC,KAAA,AAAD;AACP,UAAG,AAAI,KAAC,AAAR;AACC,YAAG,AAAI,KAAC,AAAL,AAAH,gBAAA,CADD;AAAA,aAAA;AAGC;2BAAW;qBAAA;;AAAA,eAAA,kCAAA;;yBAAL,AAAK;AAAA;;;AACX,aAAA,iCAAA;;AACC,cAAG,AAAI,KAAC,AAAL,AAAH,gBAA4B;AAA5B;AADD;AAJD;AAFc;AAjBhB",
+  "sourcesContent": [
+    "class PageStack\r\n\r\n\tconstructor : -> @stack = []\r\n\tpush : (page) -> @stack.push page\r\n\tpop : -> @stack.pop()\r\n\tlast : -> _.last @stack\r\n\r\n\tdraw : -> \r\n\t\tlast = @last()\r\n\t\tfor page in @stack\r\n\t\t\tif last.modal and page == last\r\n\t\t\t\tfc 0,0,0,0.5\r\n\t\t\t\trect 0,0,width,height\t\r\n\t\t\tpage.draw() \r\n\r\n\t# Denna konstruktion nödvändig eftersom klick på Motala ger Utskrift.\r\n\t# Dvs ett klick tolkas som två. \r\n\tmousePressed : -> \r\n\t\tlast = @last()\r\n\t\tif last.modal\r\n\t\t\tif last.mousePressed() then return\t\t\t\t\r\n\t\telse\r\n\t\t\tps = (page for page in @stack)\r\n\t\t\tfor page in ps\r\n\t\t\t\tif page.mousePressed() then return\r\n"
+  ]
+}
